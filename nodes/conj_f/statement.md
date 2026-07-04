@@ -1,6 +1,6 @@
 # conj_f
 
-- **status:** CONJECTURE
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1']
 
@@ -15,3 +15,9 @@ prove coordinate planes first (= prob:perfiber, minimal instance), then kernel p
 ## Falsifier
 
 a toy-scale plane family (n = 16..32, enumerable) with super-poly D_j points, no deep shared divisor, no pullback symmetry
+
+## Ledger (migrated notes)
+
+CONDITIONAL (Codex critical pass): full Conjecture F follows from the
+primitive case via the proved gcd reduction and proved multiplicative scale
+recursion. The frontier is now isolated in `f_primitive_case`.
