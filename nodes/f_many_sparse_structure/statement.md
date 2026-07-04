@@ -1,6 +1,6 @@
 # f_many_sparse_structure
 
-- **status:** CONJECTURE
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1']
 

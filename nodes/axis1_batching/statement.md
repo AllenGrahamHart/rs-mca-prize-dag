@@ -1,6 +1,6 @@
 # axis1_batching
 
-- **status:** TARGET
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['wp_detail/wp_consolidation_sketch_extracts.md']
 

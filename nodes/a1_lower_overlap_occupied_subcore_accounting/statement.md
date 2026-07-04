@@ -1,6 +1,6 @@
 # a1_lower_overlap_occupied_subcore_accounting
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/a1_staircase_cap_assembly.md']
 

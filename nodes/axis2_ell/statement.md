@@ -1,6 +1,6 @@
 # axis2_ell
 
-- **status:** TARGET
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s5_s0_statements_and_object.md#4']
 

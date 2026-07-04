@@ -1,6 +1,6 @@
 # axis8_generating
 
-- **status:** TARGET
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/proof_sketch/s5_s0_statements_and_object.md']
 

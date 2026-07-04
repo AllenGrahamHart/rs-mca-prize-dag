@@ -1,6 +1,6 @@
 # a2_depth_cell_active_shadow_bound
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/occ2_depth_cell_residual_occupancy.md']
 

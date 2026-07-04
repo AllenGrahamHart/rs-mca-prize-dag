@@ -1,6 +1,6 @@
 # axis4_predicate
 
-- **status:** TARGET
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s4_reserve_dictionary.md#2']
 
