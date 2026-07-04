@@ -275,6 +275,24 @@ def radial():
                             crit.add(x); st2.append(x)
                 # gated alts also count as consumers for ring purposes
                 rev[v].append(u); cons[u].append(v)
+    # drawn edges = req + gated non-refuted alts (the bridges); the two sets
+    # together must connect every critical node to a grand — asserted below.
+    drawn = [(u, v, "req") for u, v in req if u in crit and v in crit]
+    drawn += [(u, v, "alt") for u, v in alt_pairs
+              if u in crit and v in crit and nodes[v].get("gate") == "any"
+              and nodes[u]["status"] != "REFUTED"]
+    # CONNECTIVITY LAW: every critical node reaches a grand via drawn edges.
+    fwd = defaultdict(list)
+    for u, v, _k in drawn:
+        fwd[u].append(v)
+    def _reaches(x, _seen=None):
+        _seen = _seen or set()
+        if x in GRANDS:
+            return True
+        _seen.add(x)
+        return any(_reaches(y, _seen) for y in fwd[x] if y not in _seen)
+    _orphans = sorted(x for x in crit if not _reaches(x))
+    assert not _orphans, f"connectivity violation: {_orphans[:8]}"
     # ring = LONGEST req-path to a grand: guarantees ring(u) > ring(v) for
     # every requirement edge u -> v, so implication always flows strictly
     # inward - the radial direction IS the direction of implication.
@@ -392,11 +410,11 @@ def radial():
         return "M" + " L".join(pts)
 
     order = {"dim": 0, "inh": 1, "green": 2, "amber": 3, "red": 4}
-    for u, v in sorted((e for e in req if e[0] in crit and e[1] in crit),
-                       key=lambda e: order[ecls(e[0])]):
+    for u, v, _k in sorted(drawn, key=lambda e: order[ecls(e[0])]):
         pth = polar_path(X[u], Y[u], X[v], Y[v])
         c = ecls(u)
-        dat = f'data-u="{u}" data-v="{v}"'
+        dash = ' stroke-dasharray="6 5"' if _k == "alt" else ""
+        dat = f'data-u="{u}" data-v="{v}"{dash}'
         # ARC RULE: an arc carries the color of its SOURCE node - the
         # proof-state of the hypothesis flowing along it. (Frontier vs
         # deep red lives on the node halo, not the arc.)
