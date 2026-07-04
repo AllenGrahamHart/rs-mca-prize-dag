@@ -1,6 +1,6 @@
 # u2c_boundary_scale_column
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/u2c_giant_block_statement.md']
 
@@ -18,4 +18,16 @@ a t-null block that is not a union of mu_M-cosets for ANY M >= t dividing n (sea
 
 ## Ledger (migrated notes)
 
-(B) DECOMPOSED (roadmap-lane): B1 the char-0 giant coset theorem — PROVED (one-paragraph Galois/Fourier argument, exhaustively toy-verified); B2a the boundary class — exactly counted (QA.25 fits); B2b the mod-p extras bound — the residue, with the Frobenius gap explaining WHY it exists, the first-moment balance explaining why counting can't close it, and the 123-bit cushion changing its difficulty class (no-concentration, not exclusion). (B) is now structurally parallel to (A): char-0 classification proved + one mod-p gap lemma — but WITHOUT the universal-variety trick (2^41 variables), compensated by the cushion.
+Codex red-node pass (2026-07-04): reclassified from TARGET to CONDITIONAL on
+b2_modp_giant_extras. The char-0 giant coset theorem is proved, the boundary
+class is exactly counted, and QA.25 fits the candidates; the only remaining
+mathematical content is the finite-field extras/no-concentration lemma. (B)
+DECOMPOSED (roadmap-lane): B1 the char-0 giant coset theorem — PROVED
+(one-paragraph Galois/Fourier argument, exhaustively toy-verified); B2a the
+boundary class — exactly counted (QA.25 fits); B2b the mod-p extras bound —
+the residue, with the Frobenius gap explaining WHY it exists, the first-moment
+balance explaining why counting can't close it, and the 123-bit cushion
+changing its difficulty class (no-concentration, not exclusion). (B) is now
+structurally parallel to (A): char-0 classification proved + one mod-p gap
+lemma — but WITHOUT the universal-variety trick (2^41 variables), compensated
+by the cushion.

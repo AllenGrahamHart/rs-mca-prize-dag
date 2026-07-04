@@ -1,6 +1,6 @@
 # cluster_certificates
 
-- **status:** PROVABLE
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#3']
 
@@ -10,4 +10,4 @@
 
 ## Ledger (migrated notes)
 
-certification compresses quadratically: pairs -> cluster pairs -> generator checks | PROVED-IN-FLIGHT: #206
+certification compresses quadratically: pairs -> cluster pairs -> generator checks | PROVED-IN-FLIGHT: #206 | PROVED 2026-07-04: free cliques by graded_collision_radius, cross-cluster checks by the everywhere-big quotient norm bound, integer freebies by p > integer factor.

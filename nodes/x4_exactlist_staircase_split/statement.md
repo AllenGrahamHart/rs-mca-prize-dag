@@ -1,6 +1,6 @@
 # x4_exactlist_staircase_split
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/e35_weight2_abundance.md']
 
@@ -18,4 +18,9 @@ a primitive (post-strip) worst-word exact list exceeding n^2 at a toy corridor r
 
 ## Ledger (migrated notes)
 
-QA.22: the staircase columns are AFFORDABLE at every candidate — the split's arithmetic viability is now verified, not expected.
+Codex red-node pass (2026-07-04): reclassified from TARGET to CONDITIONAL.
+The split is an assembly theorem: explicit quotient/dihedral staircases + the
+proved moment-trade mechanism + x4b's per-row moment handling + U1's
+post-dictionary primitive cap imply the corrected exact-list bound. QA.22: the
+staircase columns are AFFORDABLE at every candidate — the split's arithmetic
+viability is now verified, not expected.

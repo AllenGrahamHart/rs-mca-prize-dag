@@ -1,6 +1,6 @@
 # x4b_moment_trade_exclusion
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/xr_budget_audit.md']
 
@@ -18,4 +18,81 @@ E37 finds primitive blocks at an official-row-like (p, n, t) with super-log fami
 
 ## Ledger (migrated notes)
 
-Reframed by the unification: the per-row question is 'which polynomial-fiber block families (zero top-t coefficient maps) exist in the row domain' — E37's census language updated; the Luroth frame may make the exclusion provable by degree arithmetic at large p. | U2 — THE LARGE-PRIME CONJECTURE (branch (a) sharpened with first-moment arithmetic): at official rows, primitive t-moment-null blocks of size b in (t, polylog n] do not exist — expected count ~ n^b p^{-t}, and t log2 p >= 384 dwarfs b log2 n <= 41b at every official row (the verified witness needed p ~ n^3 — tiny; official p ~ 2^128+). Route: Weil/character-sum bounds on the block variety. E37 tests the threshold empirically; if confirmed, the moment column is EMPTY at official rows and the exclusion is a provable-shaped theorem, not a certification burden. | X-5 DEFINITIONAL FIX: the moment/PTE column must carry a BOUNDED GRAMMAR (shared-map fiber families with exact counting rules), NOT arbitrary trades — arbitrary trades are universal by the star-PTE lemma and uncountable as a column. QA.22's computed columns are already bounded-grammar instances (shared-map quotient/dihedral) — affordable; the compression conjecture says the full dictionary stays affordable. | F2/E37 (#21, 9/9 replayed): THE THRESHOLD IS MEASURED — primitive t=3 blocks (b <= 8) exist ONLY at very small p (hits at p = 193/257/577 for n = 64; none from p = 641 up; none at representative n^2, n^3, or 2^61 scales). Official rows (p ~ 2^128+) are far beyond every observed hit. b = 9, 10 honestly left open. U2 survives with its Weil-route target inequality now empirically calibrated. | U2 PROMOTED TO PROOF TARGET (X-6 brief drafted): the Weil-route theorem over the full b-window (t, O(log n)], uniform — the census's b = 9,10 gap makes window uniformity mandatory in the proof. | U2 REFUTED AS UNIVERSAL (X-6, witness verified here: 234-bit prime, sparse relation 1+a+a^2+a^4 = 0, ord(a) = 1024, block {+-1, +-b, +-b^2, +-b^4} in mu_2048 over F_{p^2} — 3-moment-null, non-quotient, non-dihedral). MITIGATIONS, both verified: (1) the witness is INADMISSIBLE (q = 2^468 > 2^256 field cap); (2) the mechanism is resultant-divisibility — sparse-relation blocks exist EXACTLY at primes dividing fixed integers Res(relation, Phi_n) (finitely many exceptional primes per relation), so E37's small-p hits were small resultant factors and the 2^61 no-hits mean those primes divide no relevant resultant — evidence of SPARSITY, not a universal threshold. THE LANE'S NEW FORM: u2_per_row_moment_certifier — enumerate sparse-relation/moment ideals for b <= C log n, verify official-row primes divide none of the norms (pure divisibility checks; crux-2's architecture; Reading B semantics). The universal-theorem route is closed; the certification route is fully specified and cheap per row. Falsification #7 (mine). | THE CLOSURE PLAN (three pieces, window arithmetic first): (A) WINDOW SPLIT — blocks need b > t, so the small-block window (t, C log n] is EMPTY at prize-max rates (t ~ 10^9 >> log n): the sparse-relation class cannot exist there; small blocks threaten only Row-C-class rows (t = 3-5, b <= ~20). (B) SMALL-WINDOW CERTIFIER (Row-C-class, feasible NOW): per official row, certify no primitive t-null block of size b <= C log n exists in that row's domain — method: elimination/Groebner on the t power-sum equations over mu_n (b <= 20 variables), or the resultant route (enumerate sparse-relation patterns of weight <= b, check p divides no norm); E37's MITM machinery prototypes this; output = exact per-row certificates (Reading B inputs). (C) GIANT REGIME (prize-max, b >= t+1 ~ 10^9): disjointness caps gadget families at R <= n/t ~ 255; existing giant blocks are plausibly ONLY 2-power coset unions (M > t forces M >= 2^34 — the already-charged quotient staircase, QA.22-affordable); primitive-giant nonexistence is a named structural sub-target — and the FALLBACK is absorbency: even a charged primitive-giant column of QA.22-comparable size fits the 27-61-bit margins. Assign: (A)+(B) Codex; (C) statement first (roadmap-maker), then GPT Pro. | U2-C DRAFTED (u2c_giant_block_statement.md): the two-exit giant-regime statement with four handles, incl. the NEW complement duality (L_B L_comp = X^n - gamma forces co-blocks t-null — the regime is pinched from both ends) and the scaled toy falsifier (n = 256, t = 16 — trade-level MITM search). | F2-EXT (#25, 5/5 replayed): b = 9,10 CLOSED — low-prime hits persist (n=64, b=10 to p=1601); representative n^2/n^3/2^61 rows primitive-clean; the threshold picture holds at every tested b. | U2-C FALSIFIER SCAN: PASS (agent-green; my replay running in background — amend if red). Structural bonus: t-null blocks are BCH-type 0/1 words (DFT vanishing at 1..t); 2-power dictionary blocks reduce to residue classes mod n/16 (stride test); weight not divisible by 16 => automatically primitive. Both scales: only mu_16-cosets found; THE TAME DOOR DOES NOT OPEN (at n | q-1 the only minimal 2-power-root relation is 1 + (-1) = 0 — X-6's mechanism recurses into cosets). U2-C is PROOF-READY per the pre-registered exit; honest residuals: n=64 weights 19-31 and n=128 sampled not certified; special resultant primes untested. | QA.25 (#34): the boundary-scale ceilings are 1/1/64/1/1/2 across the six campaign rows — adding to QA.22 totals still fits every row. The boundary column is closed arithmetic at the candidates. | U2C-PRIME (#35): the repaired M >= t classifier charges every X-8 toy boundary witness — the residual dichotomy U2-C-prime machinery is validated.
+Codex red-node pass (2026-07-04): reclassified from TARGET to CONDITIONAL.
+The node's p-specific work is exactly the combination of u2_per_row_certifier
+for the small Row-C windows and u2c_boundary_scale_column for the
+giant/boundary-scale regime; no separate exclusion theorem remains here.
+Reframed by the unification: the per-row question is 'which polynomial-fiber
+block families (zero top-t coefficient maps) exist in the row domain' — E37's
+census language updated; the Luroth frame may make the exclusion provable by
+degree arithmetic at large p. | U2 — THE LARGE-PRIME CONJECTURE (branch (a)
+sharpened with first-moment arithmetic): at official rows, primitive
+t-moment-null blocks of size b in (t, polylog n] do not exist — expected count
+~ n^b p^{-t}, and t log2 p >= 384 dwarfs b log2 n <= 41b at every official row
+(the verified witness needed p ~ n^3 — tiny; official p ~ 2^128+). Route:
+Weil/character-sum bounds on the block variety. E37 tests the threshold
+empirically; if confirmed, the moment column is EMPTY at official rows and the
+exclusion is a provable-shaped theorem, not a certification burden. | X-5
+DEFINITIONAL FIX: the moment/PTE column must carry a BOUNDED GRAMMAR
+(shared-map fiber families with exact counting rules), NOT arbitrary trades —
+arbitrary trades are universal by the star-PTE lemma and uncountable as a
+column. QA.22's computed columns are already bounded-grammar instances
+(shared-map quotient/dihedral) — affordable; the compression conjecture says
+the full dictionary stays affordable. | F2/E37 (#21, 9/9 replayed): THE
+THRESHOLD IS MEASURED — primitive t=3 blocks (b <= 8) exist ONLY at very small
+p (hits at p = 193/257/577 for n = 64; none from p = 641 up; none at
+representative n^2, n^3, or 2^61 scales). Official rows (p ~ 2^128+) are far
+beyond every observed hit. b = 9, 10 honestly left open. U2 survives with its
+Weil-route target inequality now empirically calibrated. | U2 PROMOTED TO
+PROOF TARGET (X-6 brief drafted): the Weil-route theorem over the full b-window
+(t, O(log n)], uniform — the census's b = 9,10 gap makes window uniformity
+mandatory in the proof. | U2 REFUTED AS UNIVERSAL (X-6, witness verified here:
+234-bit prime, sparse relation 1+a+a^2+a^4 = 0, ord(a) = 1024, block {+-1,
++-b, +-b^2, +-b^4} in mu_2048 over F_{p^2} — 3-moment-null, non-quotient,
+non-dihedral). MITIGATIONS, both verified: (1) the witness is INADMISSIBLE (q =
+2^468 > 2^256 field cap); (2) the mechanism is resultant-divisibility —
+sparse-relation blocks exist EXACTLY at primes dividing fixed integers
+Res(relation, Phi_n) (finitely many exceptional primes per relation), so E37's
+small-p hits were small resultant factors and the 2^61 no-hits mean those
+primes divide no relevant resultant — evidence of SPARSITY, not a universal
+threshold. THE LANE'S NEW FORM: u2_per_row_moment_certifier — enumerate
+sparse-relation/moment ideals for b <= C log n, verify official-row primes
+divide none of the norms (pure divisibility checks; crux-2's architecture;
+Reading B semantics). The universal-theorem route is closed; the certification
+route is fully specified and cheap per row. Falsification #7 (mine). | THE
+CLOSURE PLAN (three pieces, window arithmetic first): (A) WINDOW SPLIT — blocks
+need b > t, so the small-block window (t, C log n] is EMPTY at prize-max rates
+(t ~ 10^9 >> log n): the sparse-relation class cannot exist there; small blocks
+threaten only Row-C-class rows (t = 3-5, b <= ~20). (B) SMALL-WINDOW CERTIFIER
+(Row-C-class, feasible NOW): per official row, certify no primitive t-null
+block of size b <= C log n exists in that row's domain — method:
+elimination/Groebner on the t power-sum equations over mu_n (b <= 20
+variables), or the resultant route (enumerate sparse-relation patterns of
+weight <= b, check p divides no norm); E37's MITM machinery prototypes this;
+output = exact per-row certificates (Reading B inputs). (C) GIANT REGIME
+(prize-max, b >= t+1 ~ 10^9): disjointness caps gadget families at R <= n/t ~
+255; existing giant blocks are plausibly ONLY 2-power coset unions (M > t
+forces M >= 2^34 — the already-charged quotient staircase, QA.22-affordable);
+primitive-giant nonexistence is a named structural sub-target — and the
+FALLBACK is absorbency: even a charged primitive-giant column of
+QA.22-comparable size fits the 27-61-bit margins. Assign: (A)+(B) Codex; (C)
+statement first (roadmap-maker), then GPT Pro. | U2-C DRAFTED
+(u2c_giant_block_statement.md): the two-exit giant-regime statement with four
+handles, incl. the NEW complement duality (L_B L_comp = X^n - gamma forces
+co-blocks t-null — the regime is pinched from both ends) and the scaled toy
+falsifier (n = 256, t = 16 — trade-level MITM search). | F2-EXT (#25, 5/5
+replayed): b = 9,10 CLOSED — low-prime hits persist (n=64, b=10 to p=1601);
+representative n^2/n^3/2^61 rows primitive-clean; the threshold picture holds
+at every tested b. | U2-C FALSIFIER SCAN: PASS (agent-green; my replay running
+in background — amend if red). Structural bonus: t-null blocks are BCH-type
+0/1 words (DFT vanishing at 1..t); 2-power dictionary blocks reduce to residue
+classes mod n/16 (stride test); weight not divisible by 16 => automatically
+primitive. Both scales: only mu_16-cosets found; THE TAME DOOR DOES NOT OPEN
+(at n | q-1 the only minimal 2-power-root relation is 1 + (-1) = 0 — X-6's
+mechanism recurses into cosets). U2-C is PROOF-READY per the pre-registered
+exit; honest residuals: n=64 weights 19-31 and n=128 sampled not certified;
+special resultant primes untested. | QA.25 (#34): the boundary-scale ceilings
+are 1/1/64/1/1/2 across the six campaign rows — adding to QA.22 totals still
+fits every row. The boundary column is closed arithmetic at the candidates. |
+U2C-PRIME (#35): the repaired M >= t classifier charges every X-8 toy boundary
+witness — the residual dichotomy U2-C-prime machinery is validated.

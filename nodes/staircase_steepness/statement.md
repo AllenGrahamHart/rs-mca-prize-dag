@@ -1,6 +1,6 @@
 # staircase_steepness
 
-- **status:** PROVABLE
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#3']
 
@@ -10,4 +10,4 @@ At consecutive grid points t changes by 1, so the leading-order stratum counts j
 
 ## Ledger (migrated notes)
 
-the reason the endgame is tractable: steep staircases make comparisons cheap | IN FLIGHT: #193
+the reason the endgame is tractable: steep staircases make comparisons cheap | IN FLIGHT: #193 | PROVED 2026-07-04: exact adjacent-ratio algebra plus the stated knife-edge exception.

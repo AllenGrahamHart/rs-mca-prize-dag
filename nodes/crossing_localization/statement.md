@@ -1,6 +1,6 @@
 # crossing_localization
 
-- **status:** PROVABLE
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#3']
 
@@ -10,4 +10,4 @@ B_C(a) is nonincreasing and integer-valued in a, so a unique a* with B_C(a*-1) >
 
 ## Ledger (migrated notes)
 
-elementary; reframes adjacency_closing from 'no mechanism' to 'decide <= 3 points per rate' | IN FLIGHT: #193
+elementary; reframes adjacency_closing from 'no mechanism' to 'decide <= 3 points per rate' | IN FLIGHT: #193 | PROVED 2026-07-04: first-crossing monotonicity packet.

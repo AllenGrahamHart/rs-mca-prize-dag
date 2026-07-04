@@ -1,6 +1,6 @@
 # collision_norm_criterion
 
-- **status:** PROVABLE
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['tex/slackMCA_v4.tex']
 
@@ -10,4 +10,4 @@ For B != B' non-quotient-related: e1(B) = e1(B') mod frak-p iff frak-p | (e1(B)-
 
 ## Ledger (migrated notes)
 
-the mechanism inside prop:qfloor's norm threshold, isolated as a reusable statement; makes zone-(b) concrete algebraic number theory | IN FLIGHT: implemented on the E1 branch (#180: 'Add E1 collision norm criterion').
+the mechanism inside prop:qfloor's norm threshold, isolated as a reusable statement; makes zone-(b) concrete algebraic number theory | IN FLIGHT: implemented on the E1 branch (#180: 'Add E1 collision norm criterion'). | PROVED 2026-07-04 by reduction to the nonzero cyclotomic norm supplied by char0_collision_classification.

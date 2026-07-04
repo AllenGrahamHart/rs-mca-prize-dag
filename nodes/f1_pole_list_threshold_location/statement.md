@@ -1,9 +1,22 @@
 # f1_pole_list_threshold_location
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md']
 
 ## Statement
 
-The imported list-side input the pole pricing consumes (s6 section 2, verified): the extension-pole mechanism's witness count N(L) crosses the MCA gate (N > |F| 2^-128) exactly when the BASE list crosses L ~ 2^128; non-generating rows force q_gen < 2^128 with doubled base reserve. The hypothesis: the base-row list threshold location keeps L below the crossing at the corridor points f1_case_pole prices. MAY be dischargeable by existing list-lane results (base gate B*_gen <= 1) — flagged for the F-lane owner to either wire to an existing proof or close directly.
+Conditional reduction: once the list adjacency theorem localizes the base-row
+list crossing at the official corridor points, the extension-pole threshold
+location follows from the imported pole/list bridge. The bridge identifies the
+extension-pole witness count N(L) with the base list size crossing L ~ 2^128,
+and the non-generating-row reserve only tightens the required base threshold.
+Thus this node has no independent F-lane content beyond list_adjacency_closing
+plus ext_import.
+
+## Ledger (migrated notes)
+
+Codex red-node pass (2026-07-04): reclassified from naked TARGET to
+CONDITIONAL. This does not close the list corridor; it only records that the
+pole case is a consumer of the list adjacency theorem rather than a separate
+blocker.

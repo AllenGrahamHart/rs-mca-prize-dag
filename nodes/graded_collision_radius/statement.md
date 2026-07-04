@@ -1,6 +1,6 @@
 # graded_collision_radius
 
-- **status:** PROVABLE
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#3']
 
@@ -10,4 +10,4 @@ Pairs at swap distance s have e1-difference height <= 2s, norm <= (2s)^{phi(N')}
 
 ## Ledger (migrated notes)
 
-PROVED-IN-FLIGHT: #206 (s=1 rung subsumed; exact norm formula Phi_M(1)^(phi(N)/phi(M)))
+PROVED-IN-FLIGHT: #206 (s=1 rung subsumed; exact norm formula Phi_M(1)^(phi(N)/phi(M))) | PROVED 2026-07-04 from collision_norm_criterion and the swap-distance height bound.

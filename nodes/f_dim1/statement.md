@@ -1,6 +1,6 @@
 # f_dim1
 
-- **status:** PROVABLE
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1']
 
@@ -10,4 +10,7 @@ For a gcd-trivial pencil l_0 + t l_1: each x in H roots the member at a UNIQUE p
 
 ## Ledger (migrated notes)
 
-elementary; the base case of F is TRUE with room to spare | IN FLIGHT: PR #182 (Codex) proves this (verifier replayed green locally, 13792 reduction checks; tip adds a bonus common-root consumer bound). Flips to PROVED on integration.
+Codex red-node pass (2026-07-04): banked as PROVED. Elementary; the base case
+of F is TRUE with room to spare | IN FLIGHT: PR #182 (Codex) proves this
+(verifier replayed green locally, 13792 reduction checks; tip adds a bonus
+common-root consumer bound). Flips to PROVED on integration.
