@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3764 3764" font-family="Helvetica,Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3764 4504" font-family="Helvetica,Arial,sans-serif">
 <defs>
  <filter id="glow-green" x="-60%" y="-60%" width="220%" height="220%">
   <feGaussianBlur stdDeviation="2.6" result="b"/>
@@ -9,6 +9,14 @@
   <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
  </filter>
 </defs>
+<rect width="3764" height="4504" fill="#0b1220"/>
+<text x="1882" y="150" fill="#dbe4f0" font-size="104" font-weight="600" text-anchor="middle">rs-mca &#183; proximity prize &#183; critical orbit</text>
+<text x="1882" y="238" fill="#7e8ba3" font-size="52" text-anchor="middle">The prize at the centre &#8212; implication flows inward. 198 critical nodes.</text>
+<text x="470" y="325" fill="#15803d" font-size="62" font-weight="700" text-anchor="middle">128 proved</text>
+<text x="1412" y="325" fill="#86efac" font-size="62" font-weight="700" text-anchor="middle">0 provable</text>
+<text x="2352" y="325" fill="#f59e0b" font-size="62" font-weight="700" text-anchor="middle">56 conditional</text>
+<text x="3294" y="325" fill="#f87171" font-size="62" font-weight="700" text-anchor="middle">14 open</text>
+<g transform="translate(0,360)">
 <rect width="3764" height="3764" fill="#0b1220"/>
 <circle cx="1882.0" cy="1882.0" r="122" fill="none" stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>
 <circle cx="1882.0" cy="1882.0" r="214" fill="none" stroke="#1d2a44" stroke-width="0.7" stroke-dasharray="2 5"/>
@@ -555,4 +563,16 @@
 <g data-id="rate_half_band_closure"><circle cx="1462" cy="1355" r="10.0" fill="none" stroke="#f87171" stroke-width="1.2" stroke-opacity="0.8" filter="url(#glow-red)"/><circle cx="1462" cy="1355" r="6.5" fill="#ef4444" stroke="#0b1220" stroke-width="1"><title>rate_half_band_closure [TARGET] Close the rate-1/2 uncovered band (successor of the coverage-gap discovery)</title></circle></g>
 <text x="1452" y="1358" font-size="8.5" text-anchor="end" fill="#e2e8f0">rate_half_band_closure</text>
 <text x="1882" y="1824" font-size="13" text-anchor="middle" fill="#94a3b8" letter-spacing="2">THE PRIZE</text>
+</g>
+<circle cx="70" cy="4204" r="26" fill="#15803d"/>
+<text x="116" y="4220" fill="#dbe4f0" font-size="44">proved</text>
+<circle cx="1011" cy="4204" r="26" fill="#86efac"/>
+<text x="1057" y="4220" fill="#dbe4f0" font-size="44">provable</text>
+<circle cx="1952" cy="4204" r="26" fill="#f59e0b"/>
+<text x="1998" y="4220" fill="#dbe4f0" font-size="44">conditional on predicates</text>
+<circle cx="2893" cy="4204" r="26" fill="#f87171"/>
+<text x="2939" y="4220" fill="#dbe4f0" font-size="44">unproved (open obligation)</text>
+<line x1="1182" y1="4304" x2="1252" y2="4304" stroke="#7e8ba3" stroke-width="5" stroke-dasharray="14 10"/>
+<text x="1272" y="4320" fill="#dbe4f0" font-size="44">dashed arc = alternative route (one suffices)</text>
+<text x="1882" y="4406" fill="#7e8ba3" font-size="40" text-anchor="middle">Every arc carries its source node&#8217;s colour; rings are implication depth.</text>
 </svg>

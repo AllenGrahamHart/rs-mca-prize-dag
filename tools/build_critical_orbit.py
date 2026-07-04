@@ -106,6 +106,15 @@ def main():
     out = os.path.join(HERE, "..", "orbit", "critical_orbit.html")
     open(out, "w").write(html)
     print(f"critical_dag.json: {dict(c)} | app: {out}")
+    try:
+        import importlib.util as _u
+        _s = _u.spec_from_file_location(
+            "mksvg", os.path.join(HERE, "make_shareable_svg.py"))
+        _m = _u.module_from_spec(_s)
+        _s.loader.exec_module(_m)
+        _m.build(HERE)
+    except Exception as _e:                       # never break the gated build
+        print(f"shareable-svg skipped: {_e}")
 
 
 HTML = """<title>rs-mca prize DAG — critical orbit</title>
