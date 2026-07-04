@@ -38,3 +38,20 @@ census-pinned structure conjecture + the ask. Same shape as the norm-gate
 packet (Pro 16/16). Success discharges the +4:
 f_termination_hankel -> f_descent_termination -> f_dim_induction ->
 f_primitive_case -> conj_f (all of Conjecture F).
+
+## PHASE 0 COMPLETE — object pinned + E17 reproduced + a reframing
+M(Z) PINNED (v12 extractor, verify_f17_32_m5...a384_bucket): flat P =
+ker(Hankel(S, t, j)), Hankel[i][c] = S[i+c], S = length-(n-k) syndrome
+window of u + Z*v; weight-2 dual word = proportional evaluation-column pair
+over mu_n. E17 = n16 k8 j5 t3 F_17.
+GATE PASSED (phase0_e17_reproduction.py): non-coset adjacent (diameter-1)
+weight-2 supports reproduced — e.g. exponent pairs (0,1),(6,7),(12,13).
+KEY REFRAMING: at generic S, weight-2 supports are UNIFORM over all cyclic
+diameters (~random-flat baseline), so "low-diameter" is FALSE per-flat. BUT
+generic flats carry <= 1 sparse word => TRIVIAL support lattice (#closed <= 2).
+The termination quantity is MAX-over-flats #closed-sets, set by RARE
+structured (coset/degenerate) flats. New Phase-1 target: does max #closed-sets
+grow POLY in n? Conjecture (to test): the max is achieved by coset-structured
+flats (poly lattice); non-coset words are isolated (O(1) each), so they never
+build a large lattice. If so the Pro target becomes: bound max #closed-sets by
+the coset-lattice size + O(1) isolated words.
