@@ -3582,7 +3582,7 @@
    "refs": [
     "experimental/notes/roadmaps/flip_packets/worst_word_planted.md"
    ],
-   "notes": "MAINTAINER FINDING: the E15 search code (#197) is NOT in the repo \u2014 only the falsification record and the E22 pre-registered census spec survive (sigma=1..3, n=16..64, enumerate words beating 0.9x planted, classify vs two classes, extract the challenger count formula). Reconstruction dispatched with the documented E15 counterexample as the correctness gate; skip-if-unreproducible."
+   "notes": "MAINTAINER FINDING: the E15 search code (#197) is NOT in the repo \u2014 only the falsification record and the E22 pre-registered census spec survive (sigma=1..3, n=16..64, enumerate words beating 0.9x planted, classify vs two classes, extract the challenger count formula). Reconstruction dispatched with the documented E15 counterexample as the correctness gate; skip-if-unreproducible. | CORRECTION: E15 code NOT lost \u2014 survives byte-identical (verify_e15_worst_word_challenge.py, md5 b3561a60...). Gate PASSED (exhaustive n=16 sigma=1 reproduced E15 exactly: k=2/4/8 challengers beat M via mixed/full-petal, UNCLASSIFIED=0). Census RUNNING ap-QykRVGNgAiJQYt8KBg5FN0 (135 cells, sigma 1..3 n 16..64, flags TWO_CLASSES_EXHAUST vs THIRD_CLASS_ALARM)."
   },
   {
    "id": "cap_end_sharpening",
