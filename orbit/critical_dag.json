@@ -769,7 +769,7 @@
   },
   {
    "id": "stratification_partition_thm",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "The T0-T7 first-match stratification is a PARTITION (total + disjoint) of all pairs"
   },
   {

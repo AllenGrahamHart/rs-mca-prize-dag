@@ -1419,11 +1419,11 @@
   {
    "id": "stratification_partition_thm",
    "title": "The T0-T7 first-match stratification is a PARTITION (total + disjoint) of all pairs",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "refs": [
     "wp_detail/wp2_3_stratification_case_tree.md"
    ],
-   "notes": "true by construction; the final theorem literally sums over these strata, so this is load-bearing, not scaffolding | IN FLIGHT: PR #192 (Q2.10 executed)."
+   "notes": "PROVED (Opus write-up, my replay: 1536-point exhaustive + 307200 randomized, PASS): first-match + catch-all => partition, for ANY predicates. THE NINE-CELL READING: {T0..T7, L} with L nonempty by design \u2014 T0-T7 alone are NOT total; do not confuse with the open L=0 paid-completeness claim."
   },
   {
    "id": "beta2_moment_corroboration",
