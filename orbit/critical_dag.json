@@ -734,7 +734,7 @@
   },
   {
    "id": "safe_assembly_uniformity",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "The mca_safe assembly implication, priced: constants and conventions uniform over the family"
   },
   {
@@ -764,7 +764,7 @@
   },
   {
    "id": "strat_tree",
-   "label": "PROVABLE",
+   "label": "PROVED",
    "title": "Stratification case-tree T0-T7 (= dedup convention)"
   },
   {
