@@ -1,6 +1,6 @@
 # adjacency_closing
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#3']
 
@@ -18,4 +18,4 @@ a rate whose bracket provably CANNOT collapse to one step under the mapped mecha
 
 ## Ledger (migrated notes)
 
-the assembly implication of mca_grand made explicit (same move as payment_completeness): the composite says 'adjacent' but nothing priced the meet until now. The least-clear remaining path on the map after the mixed-radix downgrade. | WIRING REPAIR (mca_grand referee audit 2026-07-04): rate_half_coverage_gap promoted ev -> req — an uncovered radius band at rate 1/2 BLOCKS the for-each-admissible-C quantifier; the list-side closing node already had it as req (asymmetry caught by the audit). | AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic — not promotable by referee argument; this is genuine open work. | DECOMPOSED (meaty-red program, 2026-07-04): the statement's own three eaters node-ified — (i) acl_second_order (existing), (ii) corridor_window_cleanup (evidence-gated finite computation), (iii) corridor_ext_crossing (arithmetic on proved components) — assembled by corridor_ledger (the per-rate W - 1 table, the node's future implication packet). The list mirror decomposes identically next pass.
+the assembly implication of mca_grand made explicit (same move as payment_completeness): the composite says 'adjacent' but nothing priced the meet until now. The least-clear remaining path on the map after the mixed-radix downgrade. | WIRING REPAIR (mca_grand referee audit 2026-07-04): rate_half_coverage_gap promoted ev -> req — an uncovered radius band at rate 1/2 BLOCKS the for-each-admissible-C quantifier; the list-side closing node already had it as req (asymmetry caught by the audit). | AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic — not promotable by referee argument; this is genuine open work. | DECOMPOSED (meaty-red program, 2026-07-04): the statement's own three eaters node-ified — (i) acl_second_order (existing), (ii) corridor_window_cleanup (evidence-gated finite computation), (iii) corridor_ext_crossing (arithmetic on proved components) — assembled by corridor_ledger (the per-rate W - 1 table, the node's future implication packet). The list mirror decomposes identically next pass. | CONDITIONAL (Codex critical pass): the local assembly implication is now explicit; the node remains blocked by its predicate nodes, especially rate_half_band_closure and the knife-edge/aperiodic corridor inputs.

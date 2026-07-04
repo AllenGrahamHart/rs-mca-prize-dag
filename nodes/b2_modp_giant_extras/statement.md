@@ -1,6 +1,6 @@
 # b2_modp_giant_extras
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/u2c_falsifier_scan.md']
 
@@ -15,3 +15,14 @@ the divisor-counting frame is the most promising: monic degree-b divisors of a f
 ## Falsifier
 
 a toy-scale analogue showing concentration ~2^{cushion} above the mean (scaled: count non-coset t-null blocks at n = 256, t = 16, q chosen near the balance point — extend the U2-C scan machinery)
+
+## Ledger (migrated notes)
+
+PRO PACKET INTEGRATED (verified 17/17): descent suite PROVED, near-tails
+PROVED (< 2^122, half the budget), boundary notation repaired (hazard 1),
+brief frame (c) refuted (hazard 2 = falsification #14). The node now equals
+the primitive core alone (`b2b_primitive_core`).
+
+CONDITIONAL (Codex critical pass): the giant-extras bound follows from the
+proved dyadic-descent packet, the proved near-tail bound, and the remaining
+`b2b_primitive_core` estimate.
