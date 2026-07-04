@@ -493,6 +493,11 @@
    "title": "L1 Lemma 2: sunflower core-defect reduction"
   },
   {
+   "id": "l1_coset_chart_residue_bridge",
+   "label": "PROVED",
+   "title": "UPSTREAM (Vadim, integrated by Przemek): the full-petal coset-chart residue-line bridge"
+  },
+  {
    "id": "l1_crt_compression",
    "label": "PROVED",
    "title": "L1 Lemmas 7/8: full-petal CRT compression + rank certificate"
@@ -1868,6 +1873,10 @@
   {
    "from": "certified_valueset_lower",
    "to": "unsafe_at_crossing"
+  },
+  {
+   "from": "l1_coset_chart_residue_bridge",
+   "to": "petal_excess_induction"
   }
  ]
 }

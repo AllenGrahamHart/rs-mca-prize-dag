@@ -734,7 +734,7 @@
    "statement": "For ALL received words U: #ImgFib_U(k+sigma) <= n^B once sigma log2(q_D) >= (1+eps) log2 C(n, k+sigma) and the quotient profile is budgeted.",
    "attack_surface": "close the petal escape route (the only open branch of the Thm 21/B11 frontier); monomial instance already proved in quasi-poly range",
    "falsifier": "a toy word family with super-poly image fibers above the corrected reserve",
-   "notes": "PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/imgfib.md): statement-level assembly over the wired kids."
+   "notes": "PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/imgfib.md): statement-level assembly over the wired kids. | The upstream L1 wave (holmbuar's collapse chain + Vadim's residue bridge, both merged) matured this node's substrate externally \u2014 the petal frontier now has a normal form."
   },
   {
    "id": "petal_growth",
@@ -3713,7 +3713,8 @@
    "falsifier": "petal extras growing with c at any calibration row",
    "refs": [
     "experimental/notes/roadmaps/flip_packets/imgfib.md"
-   ]
+   ],
+   "notes": "UPSTREAM REINFORCEMENT: Vadim's residue bridge classifies full-petal capped kernel sets as quotient-coset OR residue-line data \u2014 the growing-excess census wall may reduce to residue-LINE counting (line arithmetic, not raw enumeration). Re-scope the scan spec before dispatch."
   },
   {
    "id": "b2b_dyadic_descent_packet",
@@ -3746,6 +3747,15 @@
    "falsifier": "a t-null primitive census at a scaled row showing core counts near the budget",
    "refs": [
     "nodes/b2_modp_giant_extras/notes/pro_b2b_partial_packet.md"
+   ]
+  },
+  {
+   "id": "l1_coset_chart_residue_bridge",
+   "title": "UPSTREAM (Vadim, integrated by Przemek): the full-petal coset-chart residue-line bridge",
+   "status": "PROVED",
+   "statement": "PROVED-LOCAL / NORMAL-FORM (693-line verifier, upstream main ab8d125b): in a full-petal coset chart (H of order ell, t distinct active petals, C a union of H-cosets), every capped kernel set is EITHER quotient-coset structured OR emits a low-degree projective residue pair, which after cancelling simultaneous active quotient-label basepoints becomes ordinary residue-line data on the surviving labels. Consumes the merged L1 collapse chain (coset-petal rank collapse + general reconstruction collapse). NOT a primitive-vacancy theorem \u2014 the prime-ell mixed minimal examples are classified by the residue data, not excluded.",
+   "refs": [
+    "experimental/notes/l1/l1_coset_chart_residue_bridge_v1.md"
    ]
   }
  ],
@@ -6604,6 +6614,16 @@
    "from": "certified_valueset_lower",
    "to": "unsafe_at_crossing",
    "kind": "req"
+  },
+  {
+   "from": "l1_coset_chart_residue_bridge",
+   "to": "petal_excess_induction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_coset_chart_residue_bridge",
+   "to": "petal_growth",
+   "kind": "ev"
   }
  ]
 }
