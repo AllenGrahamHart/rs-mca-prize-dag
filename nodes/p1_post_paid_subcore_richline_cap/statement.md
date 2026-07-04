@@ -1,6 +1,6 @@
 # p1_post_paid_subcore_richline_cap
 
-- **status:** PROVABLE
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/e33_deep_link_staircase.md']
 

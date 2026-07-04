@@ -1,6 +1,6 @@
 # unsafe_at_crossing
 
-- **status:** TARGET
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#4']
 
@@ -18,4 +18,4 @@ n/a (existence claim; the branch dichotomy is exhaustive)
 
 ## Ledger (migrated notes)
 
-two exhaustive routes: collision-free => qfloor-family witnesses; collided => averaged slope conversion | PREFERRED ROUTE: qfloor witness family (collision-free branch), per E1 + the typicality model. | DEFECT FIXED (Codex packet): the two named branches wired — collision-free = qfloor_exact (PROVED), collided = averaged_slope_conversion (RIPE). Re-referee for promotion next pass.
+two exhaustive routes: collision-free => qfloor-family witnesses; collided => averaged slope conversion | PREFERRED ROUTE: qfloor witness family (collision-free branch), per E1 + the typicality model. | DEFECT FIXED (Codex packet): the two named branches wired — collision-free = qfloor_exact (PROVED), collided = averaged_slope_conversion (RIPE). Re-referee for promotion next pass. | PROVED (Codex red-node pass): both branches are now proved, so the adjacent unsafe witness follows.

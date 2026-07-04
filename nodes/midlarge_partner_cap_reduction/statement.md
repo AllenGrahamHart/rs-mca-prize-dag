@@ -1,6 +1,6 @@
 # midlarge_partner_cap_reduction
 
-- **status:** PROVABLE
+- **status:** PROVED
 - **closure:** proof
 
 ## Statement

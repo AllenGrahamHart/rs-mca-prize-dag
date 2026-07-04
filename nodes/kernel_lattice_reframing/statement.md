@@ -1,6 +1,6 @@
 # kernel_lattice_reframing
 
-- **status:** PROVABLE
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#3']
 
@@ -10,4 +10,4 @@ Since p = 1 mod N', zeta lives in F_p and e1 is an F_p-linear functional on clas
 
 ## Ledger (migrated notes)
 
-converts the crux from additive-combinatorics existence into lattice technology: search = LLL/BKZ; certification = cone-restricted dual/transference bounds (honestly harder than plain lambda_1)
+converts the crux from additive-combinatorics existence into lattice technology: search = LLL/BKZ; certification = cone-restricted dual/transference bounds (honestly harder than plain lambda_1) | PROVED 2026-07-04 by writing e1(B)-e1(B') as a sparse ternary kernel vector in F_p[zeta].
