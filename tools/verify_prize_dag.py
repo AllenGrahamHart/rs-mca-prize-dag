@@ -195,7 +195,18 @@ def main() -> None:
     import re as _re
     _root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "nodes")
     for _id, _n in nodes.items():
-        if _n["status"] != "CONDITIONAL":
+        if _n["status"] not in ("CONDITIONAL", "PROVABLE"):
+            continue
+        if _n["status"] == "PROVABLE":
+            _sm = os.path.join(_root, _id, "sketch.md")
+            if os.path.exists(_sm):
+                _m2 = _re.search(r"## Predicate[s]? node[s]?\s*\n((?:\s*-\s*`[^`]+`\s*\n)+)",
+                                 open(_sm).read())
+                if _m2:
+                    _reqs2 = set(_rev.get(_id, []))
+                    for _pr2 in _re.findall(r"`([^`]+)`", _m2.group(1)):
+                        if _pr2 in nodes and _pr2 not in _reqs2:
+                            errors.append(f"{_id}: sketch predicate {_pr2} not wired as req")
             continue
         _reqs = set(_rev.get(_id, []))
         if not _reqs:
