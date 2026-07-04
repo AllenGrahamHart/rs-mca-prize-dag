@@ -1,0 +1,13 @@
+# conditional proof: anchored_nontoral_pte_bound
+
+- **status:** CONDITIONAL
+- **closure:** proof
+
+## Source
+
+Vendored from the working record; primary artifact(s):
+- `experimental/notes/roadmaps/pa_active_core_probe.md`
+
+## Ledger
+
+SP-CENSUS (#33): every uncharged excess sits at q << n^2 — empirical CONFIRMATION of X-10's low-q falsifier (F17/mu16 at 3.8x, F41/mu20 at 13.7x, F97/mu24 at 52x — all far below the q >= n^2 line); NO in-range excess observed. Follow-up: SP-CENSUS-2 at q > n^2 rows (the census's toy fields were all sub-threshold). The anchored/active framing note is the conservative reading; the sharp reading is that the hypothesis line is real and empirically visible. | X-11: status -> CONDITIONAL on active_core_count_bound (the reduction chain is proved: anchor injectivity + the per-core cap). The h = 2 rung is PROVED (delta = 1/3). The residue is one peel smaller: count active cores, not split pairs. | QA.26 THE TOLERANCE LADDER (#38, replayed green): THE REWIRING DISCOUNT — the raw row arithmetic (QA.22 + QA.25 certificates, exact integer room) tolerates a DIRECT compiler column of n^{alpha+1} with alpha_max = 2.0925 at every row (limiting: the prize rows), i.e. A_h^nt <= n^3 suffices IF the consumers charge the split-pair mass directly into the compiler budget as a column (like the staircases) instead of through the orbit-converted n^2 form. The n^2 requirement is an ARTIFACT of how U1/B's formal reductions currently route. The tails constraint alpha + lambda <= 1 also relaxes under rewiring. NOTE the elementary freeze-bound A_3^nt << n^3 already MEETS the rewired target at h = 3. NEW TASK W4: re-derive the two consumption points (U1's primitive column, B's exit 3) against the n^3 direct-column form — pure convention plumbing with a factor-n prize. | SP-CENSUS-2 (#39, 54/54): an in-range falsifier OF THE STRICT hn FORM under the CYCLIC-ONLY classifier — F1153/mu32 (q = 1.13 n^2, the boundary zone), h = 8: A_8 = 976 vs hn = 256. ANALYSIS: (i) pigeonhole predicts nothing at h = 8 => the mass is STRUCTURED; the classifier tested only the cyclic branch — dihedral/boundary/zero-sum classes live exactly at n = 32, h = 8; RECLASS-976 (queued) re-classifies against the full strip. (ii) EVEN IF genuinely uncharged: 976 < n^2 = 1024 (the ladder holds) and 976 << n^3 (the W4-rewired target is untouched). (iii) All other in-range rows CLEAR. The trophy hn dies at the boundary zone; the campaign never needed it. EXTREMAL-MINE (#40, 20/20): the 976 do NOT cluster into few derivative classes — the derivative route is dead for the boundary mass; the high-q + full-strip + ladder formulation is the survivor.
