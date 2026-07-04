@@ -302,11 +302,26 @@ def subgroup_coset_petals(p, ell, t):
 def scan(total_budget_s=8600.0):
     # calibration rows: several primes with an order-ell subgroup, t in {3,5},
     # ell in {2,3}. Excess c = d - ell = 2..8 => d = ell+c.
+    def _isprime(m):
+        if m < 2: return False
+        i = 2
+        while i * i <= m:
+            if m % i == 0: return False
+            i += 1
+        return True
+    def _primes_1mod(ell, targets):
+        # nearest prime >= target with ell | p-1 (so the order-ell subgroup exists)
+        out = []
+        for tgt in targets:
+            p = tgt - (tgt % ell) + 1
+            if p <= tgt: p += ell
+            while not _isprime(p): p += ell
+            out.append(p)
+        return out
     configs = []
     for ell in (2, 3):
         for t in (3, 5):
-            # primes p with ell | p-1 and enough core room
-            for p in (1009, 2003, 4001, 8009):
+            for p in _primes_1mod(ell, (1009, 2003, 4001, 8009)):
                 configs.append((p, ell, t))
     cs = list(range(2, 9))
     budget_per = total_budget_s / max(1, len(configs))
