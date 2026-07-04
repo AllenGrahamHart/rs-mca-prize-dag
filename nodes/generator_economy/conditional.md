@@ -2,7 +2,7 @@
 ## Predicate node
 - `generator_size_budget_check`
 ## Claim
-An explicit O(N)-base-certified family of half-size l'-subsets exists
+An explicit poly(N)-base-certified family of half-size l'-subsets exists
 (antipodal zero-sum padding); it certifies generator_economy provided its size
 meets the cluster budget.
 ## Proof
