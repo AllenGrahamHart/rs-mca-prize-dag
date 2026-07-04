@@ -1,6 +1,6 @@
 # xr_clean_residual_any_gate
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['tex/cs25_cap_v12.tex']
 

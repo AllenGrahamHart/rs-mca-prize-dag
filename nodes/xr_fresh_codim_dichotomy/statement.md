@@ -1,6 +1,6 @@
 # xr_fresh_codim_dichotomy
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/qx13_pair_rank_ledger.md', 'experimental/notes/roadmaps/e27_exceptional_pair_census.md']
 
