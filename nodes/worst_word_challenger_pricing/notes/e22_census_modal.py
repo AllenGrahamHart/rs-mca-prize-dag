@@ -337,8 +337,14 @@ def structured_cell(n, k, sigma, layout, scalar_mode, max_excess=2):
     domain = word["domain"]
     found = {}
     candidates = 0
+    # The full-petal sub-scan ranges over subsets of petals (2^M) times core
+    # combinations; at large M (e.g. n=64) this explodes, so guard it and fall
+    # back to pencil-only, exactly as the original E15 n=64 cells did.
+    dmax = min(len(core), ell + max_excess)
+    fullpetal_estimate = (2 ** len(petals)) * math.comb(len(core), dmax) if len(core) else 0
+    run_fullpetal = fullpetal_estimate <= 5_000_000
     # (a) full-petal bounded cofactor-excess scan
-    for excess in range(max_excess + 1):
+    for excess in range(max_excess + 1) if run_fullpetal else range(0):
         d = ell + excess
         if d > len(core):
             continue
@@ -384,6 +390,7 @@ def structured_cell(n, k, sigma, layout, scalar_mode, max_excess=2):
                             found[cand] = rec
     return _finish(word, found, "structured_full_petal_and_two_petal_pencil",
                    {"exhaustive": False, "max_excess": max_excess,
+                    "fullpetal_scan_ran": run_fullpetal,
                     "fullpetal_candidates_checked": candidates,
                     "pencil_pairs_checked": pencil_checked})
 
