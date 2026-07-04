@@ -23,6 +23,20 @@ def main():
     for e in d["edges"]:
         (reqs if e.get("kind", "req") == "req" else alts if e.get("kind") == "alt"
          else {}).setdefault(e["to"], []).append(e["from"]) if e.get("kind", "req") in ("req", "alt") else None
+    # REGRESSION SWEEP first: an auto-discharged node whose predicates are
+    # no longer all green goes back to CONDITIONAL (downgrades propagate).
+    for v, n in nodes.items():
+        if n["status"] not in GREEN:
+            continue
+        art = os.path.join(HERE, "..", "nodes", v,
+                           "proof.md" if n["status"] == "PROVED" else "sketch.md")
+        if not (os.path.exists(art) and "(auto-discharged)" in open(art).read()):
+            continue
+        rk = [nodes[u]["status"] for u in reqs.get(v, []) if u in nodes]
+        if rk and any(s0 not in GREEN for s0 in rk):
+            n["status"] = "CONDITIONAL"
+            os.remove(art)
+            print(f"regressed {v} -> CONDITIONAL (predicate left green)")
     flipped, changed = [], True
     while changed:
         changed = False

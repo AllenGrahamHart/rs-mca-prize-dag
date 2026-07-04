@@ -1,6 +1,6 @@
 # f_dual_distance_frame
 
-- **status:** PROVABLE
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1']
 
@@ -10,4 +10,4 @@ For a flat P, a subset S of domain points has dependent traces iff P-perp (dual 
 
 ## Ledger (migrated notes)
 
-unifies gcd-reduction (w=1) and twins (w=2) as rungs of one ladder; the syndrome machinery is already dual-code language
+unifies gcd-reduction (w=1) and twins (w=2) as rungs of one ladder; the syndrome machinery is already dual-code language | PROVED 2026-07-04 by trace-map duality.
