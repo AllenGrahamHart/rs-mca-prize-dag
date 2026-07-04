@@ -55,3 +55,44 @@ grow POLY in n? Conjecture (to test): the max is achieved by coset-structured
 flats (poly lattice); non-coset words are isolated (O(1) each), so they never
 build a large lattice. If so the Pro target becomes: bound max #closed-sets by
 the coset-lattice size + O(1) isolated words.
+
+## ROUND 5 (Pro's critique of v4 — adjudicated, largely CORRECT)
+My referee verdict on the five gaps:
+1. f_many_sparse_structure strength: SUBSTANTIALLY CORRECT. The node's PROVED
+   is a legitimate modus-ponens over its four green predicates, and the
+   weight-2 branch now has a CONSTANT threshold (>=4 disjoint matching, the
+   E35 restatement — Pro's quadratic B(j)=j+(j-1)^2 citation is the OLDER
+   f_matching_composition note, whose own header admits the linear seed is
+   open). BUT the packet's HIGHER-WEIGHT branch is "transported to the Face-4
+   configuration machinery" — a WALL — i.e. routed, not proved. v4's
+   hereditary use of the node overreached its real strength. CONTENT-AUDIT
+   FLAG SHARPENED to this exact seam.
+2. Paid class too narrow: CORRECT. E35's own ledger corrections force the
+   projective form X^e g(X^M); the roadmap taxonomy is tangent + Luroth/
+   rational-pullback lattice + extension. v4's mult+dihedral list was stale.
+3. Local few atoms =/=> poly reachable closures: CORRECT, and QF.12's Remark
+   4.7 says so verbatim ("neither bounds #L itself — see Non-claims"). My v4
+   contrapositive chain was a logical overreach — the missing piece is the
+   HEREDITARY closure-entropy theorem. This is the true core.
+4. Moment-clean leaves separate: AGREED (already flagged in v4); Pro adds the
+   monic-slice/affine pinned-value seam — correct per QF.12 Lemma 5.
+5. Dihedral scale recursion missing: CORRECT. f_scale_recursion is
+   multiplicative-only; the y = X + 1/X quotient REDUCTION at the Hankel
+   instance is a separate needed lemma (dihedral_quotient_stratum classifies,
+   does not reduce).
+
+## NEW PROVED LEMMA (Pro round 5, verified 1800/1800):
+DESCENT STABILITY: descending through a forced divisor ell_A transforms the
+syndrome by convolution S^A_m = sum_r e_r S_{m+r}, and M_S(ell_A g) =
+M_{S^A} g — the child of a Hankel-kernel flat IS a Hankel-kernel flat (t
+unchanged, j -> j-|A|). Recursion stays inside the family.
+(verify_descent_stability.py)
+
+## THE v5 DECOMPOSITION (adopted from Pro; the node's internal structure):
+L1 stability (PROVED above); L2 paid Luroth-quotient reduction (subsumes the
+missing dihedral reduction); L3 HEREDITARY primitive closure-entropy bound
+(the true core: super-poly reachable saturated closures force a descendant
+with abundant independent atoms -> paid); L4 moment-clean Hankel leaves (or
+the pinned-value variant). Pro's break-attempt verdict: no surviving
+counterexample class after saturation — the known escapes all collapse or
+broaden the paid ledger.
