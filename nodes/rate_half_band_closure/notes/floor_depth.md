@@ -24,3 +24,18 @@ QUEUED REFINEMENT (do NOT cite until run): depth scales as ~ n/log2(q), so
 the band should CLOSE for admissible fields with log2 q below ~255.91 —
 if exact, the rate-1/2 open band exists only for q in the top ~0.09 bits
 of the admissible range, and the determination is complete below it.
+
+## The q-threshold (second Modal run — the refinement, now exact)
+
+Parameterizing box charge (log2 q per fiber) and trigger (log2 q - 40):
+the floor family's reach covers sigma* for ALL admissible fields with
+log2 q <= 255.900 (depth 8,592,916,480 > sigma* at the threshold; falls
+354 short just above). Verifier: verify_q_threshold_modal.py.
+
+CONSEQUENCE: the rate-1/2 band is OPEN ONLY for q in (2^255.9, 2^256) —
+the top 0.100 bits of the admissible range. Everywhere below, the clean
+rate-1/2 determination corridor closes by the same scale-free floor as
+the other rates. The battlefield node's honest statement shrinks to:
+cover 2.98M radii for fields within a factor ~1.07 of the size cap.
+The legitimacy of per-q parameterization rests on the sweep's proved
+hypothesis audit (the floor is scale-free; q enters only via trigger+box).
