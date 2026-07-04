@@ -1,7 +1,7 @@
 # conditional: b2b_primitive_core (Pro Brief D, route C — verified algebra)
 
 ## Predicate node
-- `pcf_norm_gate_flatness`
+- `pcf_evaluation_flatness`
 
 ## Claim
 The primitive-core count #{primitive t-null B : t+16 <= |B| <= n/2} <= 2^122
