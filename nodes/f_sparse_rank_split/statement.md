@@ -1,6 +1,6 @@
 # f_sparse_rank_split
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/xr_syzygy_flat_transport.md']
 

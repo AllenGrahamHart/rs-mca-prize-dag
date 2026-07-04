@@ -1,12 +1,17 @@
 # averaged_slope_conversion
 
-- **status:** CONJECTURE
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#6']
 
 ## Statement
 
 Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair
+
+Precise form: from the exact FM first moment and the slope-resolved
+second-moment ledger, after excluding paid fibers and applying the v8
+per-locator cap, a family whose locator mean crosses `B*` contains a pair
+`(u,v)` with at least `B*` distinct bad slopes.
 
 ## Ledger (migrated notes)
 

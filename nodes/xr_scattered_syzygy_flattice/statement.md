@@ -1,6 +1,6 @@
 # xr_scattered_syzygy_flattice
 
-- **status:** TARGET
+- **status:** PROVED
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/e30_dim3_flat_census.md']
 

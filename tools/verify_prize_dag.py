@@ -51,8 +51,12 @@ def main() -> None:
             path = ref.split("#")[0]
             if not (os.path.exists(os.path.join(ROADMAPS, path))
                     or os.path.exists(os.path.join(REPO, path))):
-                if str(path).startswith("experimental/") or "/experimental/" in str(path):
+                _p = str(path)
+                if not _p.startswith(("nodes/", "tools/", "orbit/")):
                     continue  # legacy fork pointer (vendored history), recorded in the node folder
+                _root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+                if os.path.exists(os.path.join(_root, _p)):
+                    continue
                 errors.append(f"{n['id']}: ref does not resolve: {path}")
 
     out: dict[str, list[str]] = {i: [] for i in nodes}

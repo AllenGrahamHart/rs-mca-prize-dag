@@ -1,6 +1,6 @@
 # list_safe
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s7_list_side.md#5']
 

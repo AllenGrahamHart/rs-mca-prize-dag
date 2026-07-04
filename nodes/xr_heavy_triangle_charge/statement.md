@@ -1,6 +1,6 @@
 # xr_heavy_triangle_charge
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/e27_exceptional_pair_census.md']
 
