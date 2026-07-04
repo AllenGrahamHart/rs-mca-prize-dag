@@ -189,6 +189,25 @@ def main() -> None:
     for _e in edges:
         if _e.get("kind", "req") == "req":
             _rev.setdefault(_e["to"], []).append(_e["from"])
+    # LAW (amber): a CONDITIONAL node must have >= 1 wired req predicate
+    # (no amber leaves), and every predicate named in its conditional.md
+    # must be wired as a req edge (packet/graph coherence).
+    import re as _re
+    _root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "nodes")
+    for _id, _n in nodes.items():
+        if _n["status"] != "CONDITIONAL":
+            continue
+        _reqs = set(_rev.get(_id, []))
+        if not _reqs:
+            errors.append(f"{_id}: AMBER LEAF - CONDITIONAL with no wired req predicate")
+        _cm = os.path.join(_root, _id, "conditional.md")
+        if os.path.exists(_cm):
+            _m = _re.search(r"## Predicate[s]? node[s]?\s*\n((?:\s*-\s*`[^`]+`\s*\n)+)",
+                            open(_cm).read())
+            if _m:
+                for _pr in _re.findall(r"`([^`]+)`", _m.group(1)):
+                    if _pr in nodes and _pr not in _reqs:
+                        errors.append(f"{_id}: packet predicate {_pr} not wired as req")
     _prose = [nid for nid, n in nodes.items() if n["status"] == "CONDITIONAL"
               and not any(nodes[u]["status"] not in ("PROVED", "PROVABLE")
                           for u in _rev.get(nid, []) if u in nodes)]
