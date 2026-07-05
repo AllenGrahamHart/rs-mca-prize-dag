@@ -194,6 +194,11 @@ def main() -> None:
         for c in sorted(critical):
             if not nodes[c].get("statement"):
                 errors.append(f"{c}: CRITICAL but has no 'statement' field (precision invariant)")
+        # (2026-07-05) the same for critical CONDITIONALs: an amber with no statement
+        # is an unauditable implication (found: strip, f1_case_pole with empty fields)
+        for i, n in nodes.items():
+            if n["status"] == "CONDITIONAL" and not n.get("statement"):
+                errors.append(f"{i}: CONDITIONAL with no 'statement' field (unauditable implication)")
     else:
         print("WARNING: root not satisfiable even granting all open nodes (check gates)")
 
