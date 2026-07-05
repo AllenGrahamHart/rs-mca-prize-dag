@@ -12,7 +12,9 @@ Enumerate the possible horizontal components of the extension-fiber incidence
 Gal(E/B)); show each is (i) base-descended B-rational, (ii) on the pole
 divisor, or (iii) a subfield pullback — no fourth. The scroll/component-control
 machinery (spi_component_control, PROVED: #Irr <= t+1) bounds the components;
-classify them by Galois-stabilizer type. FAILURE = a Galois-skew hidden-fiber
-leakage class (name it, it becomes a new ledger column). Referee-first: check
-whether the banked ext-fiber arithmetic (ext_import, generating_escape, both
-PROVED) already forces completeness.
+classify them by Galois-stabilizer type. The full-orbit descent-to-cycle
+bookkeeping is now proved, so the active target is excluding the descended
+`B`-defined pole-free cycle. FAILURE = a Galois-skew hidden-fiber leakage
+class (name it, it becomes a new ledger column). Referee-first: check whether
+the banked ext-fiber arithmetic (ext_import, generating_escape, both PROVED)
+already forces completeness.

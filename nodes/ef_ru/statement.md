@@ -1,5 +1,5 @@
 # ef_ru
-- **status:** TARGET
+- **status:** CONDITIONAL
 ## Statement
 The row-uniform extension-fiber hypothesis (Theorem K's one input): for every
 admissible intermediate row B <= E <= F and B-rational pair (u,v), after
@@ -12,3 +12,11 @@ new math leaf. FAILURE CLASS (named): Galois-skew hidden-fiber leakage — an
 unpaid Galois orbit over a non-generating row, not descending, not subfield-
 confined, missing the pole divisor, surviving noncontainment. Impossible at
 generating rows (E = B).
+
+## Conditional decomposition
+
+This node is conditional on:
+
+- `ef_component_control_alignment`;
+- `ef_galois_stabilizer_descent`;
+- `ef_full_orbit_pole_forcing`.
