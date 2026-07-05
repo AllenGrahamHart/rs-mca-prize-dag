@@ -1,33 +1,24 @@
-# proof: DLI reduced to fixed-frequency second-moment flatness (Pro W1+W1b, verified)
+# proof: DLI fixed-freq flatness — PRIME-FIELD scoped (Pro P2, verified)
 
-Target (C). The sharpest possible seam; no -2log2, no Deligne.
+## Pro P2 finding (verified): the general-F_q claim is FALSE
+Over F_q = F_{p^2} with p ≡ 1 mod 2n, the section sigma(mu_n) subset mu_{2n}
+subset F_p (prime subfield). For lambda with Tr_{F_q/F_p}(lambda)=0 (exists, the
+trace-zero line is 1-dim) and P_lambda(X)=X: for every section point x in F_p,
+Tr(lambda x) = x Tr(lambda) = 0, so psi(lambda P(sigma(y)))=1 for ALL y, giving
+|mu_hat_r(lambda)|=1 and S_{j,lambda} = sum m_{j,r} = Omega(L_j), NOT o(L_j).
+VERIFIED (F_13^2). This is a TRACE-KERNEL collapse, not exact-collision failure
+(P=X is injective) — the obstruction lives in the trace pairing.
 
-## The chain (Pro W1 charge argument + W1b correction)
-Level j (34 levels, sum L_j = t), 256 L_j coords grouped by residue r, mult m_{j,r};
-normalized transform mu_hat_r(lambda), |mu_hat_r|<=1. W1 (proved): the loss is
-charged only to near-peak residues, eta_j <= C_loc sum_{r in E} m_{j,r}. W1b
-reduces the near-peak mass to a SECOND MOMENT, with S_{j,lambda} := sum_r m_{j,r}
-|mu_hat_r(lambda)|^2: since |mu_hat_r|^2 >= 1-delta on E, S_{j,lambda} >= (1-delta)
-sum_{E} m_{j,r}, so
-    sum_{E} m_{j,r} <= S_{j,lambda}/(1-delta),  hence  eta_j <= C_loc S_{j,lambda}/(1-delta).
-Therefore DLI holds if, for every level j, profile M, and NONZERO lambda,
-    S_{j,lambda} = sum_r m_{j,r} |mu_hat_r(lambda)|^2 = o(L_j)   (equiv. (1/256L_j) sum ... = o(1)).
-Then sum_j eta_j = o(sum_j L_j) = o(t). The m=1 zero atom and signed-midpoint
-stress are automatically paid: each contributes <= its own m_{j,r} to S_{j,lambda}.
+## Scope resolution (verified)
+Over a PRIME field F_p, Tr = identity, so psi(lambda .) is a nontrivial additive
+character for every nonzero lambda — NO trace-zero collapse. So the fixed-freq
+second-moment flatness S_{j,lambda}=o(L_j) is a PRIME-FIELD estimate, consistent
+with b2b's "the fixed prime q" framing. dli holds prime-field-wise (still needs
+the fixed-frequency Bohr bound, P2 target A on prime rows).
 
-## The correction (W1b, verified counterexample)
-Exact coincidence counting P(sigma(y1))=P(sigma(y2)) is NOT sufficient: by Parseval
-it controls only the FREQUENCY-AVERAGE (1/q) sum_lambda |nu_hat(lambda)|^2, not each
-fixed lambda. Counterexample to the reduction: A={0..N-1}, P(x)=x injective (zero
-exact collisions) yet at lambda=1 the coefficient (1/N)sum e^{2pi i x/p} ~ 1 (near-peak).
-So low exact-coincidence sparsity rules out exact constant fibers, NOT approximate
-Bohr alignment. What low degree DOES prove: P(z)=P(x) has <= deg P solutions, so
-exact phase ATOMS have <= (deg)|S| multiplicity -- the exact-peak part. The near-peak
-/ signed-midpoint part needs the fixed-frequency bound.
-
-## Exact remaining obligation (upgrades to target A)
-Prove FIXED-FREQUENCY Bohr/second-moment flatness for psi(lambda P_lambda(sigma(y))):
-S_{j,lambda} = o(L_j) uniformly in M and nonzero lambda (equivalently the eps-Bohr-pair
-mass B_{j,lambda}(sqrt delta) = o(L_j)). Calibration (eta*/L=3.6e-7) supports it
-numerically; the asymptotic primitive-core proof needs the fraction -> 0, or the
-finite-prize reserve used explicitly.
+## NEW obligation (extension rows): see b2b note
+The challenge includes EXTENSION rows (KoalaBear sextic F_{p^6}), where the
+collapse frequencies are real. For those the primitive core must EITHER (a)
+Weil-restrict to the base F_p (same interleaved/Weil machinery that closed f1),
+OR (b) carry an explicit no-subfield-trace-kernel-collapse hypothesis proved for
+the actual phases. This is a genuine scope gap P2 exposed; flagged on b2b.

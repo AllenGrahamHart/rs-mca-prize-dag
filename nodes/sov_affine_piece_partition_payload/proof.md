@@ -1,28 +1,25 @@
-# proof: sov affine-piece route REFUTED; re-posed to grid character-sum (Pro W2, verified)
+# proof: sov grid-sum — trace-flat gate required (Pro P3, verified). Route history:
+# affine-piece REFUTED (P3 prior), grid-sum FALSE for trace char (this pass).
 
-## Refutation of the affine-piece route (verified structurally + brute force)
-If H=mu_n subset F_q^*, then q>n. There is NO nonconstant F_q-affine line
-L_t = L_0 + t B (deg B <= h-1, B!=0) of actual monic degree-h locators all split
-in H. Incidence count: |I|=#{(t,x): L_t(x)=0} = q*h by t; <= g q + (n-g) by x,
-where g=#{x in H: B(x)=0, L_0(x)=0} <= h-1. So q(h-g) <= n-g, impossible since
-h-g>=1 and q>n. VERIFIED: no_affine_line_possible(q,n,h) holds for all RS rows and
-all h; brute force at p=17, mu_8, h=3 (56 actual locators) finds ZERO affine lines.
-Hence actual locator cells contain no positive-dimensional affine piece, so the
-proved sov_nonconstant_affine_character_cancellation has nothing to act on. The
-affine-piece partition PROOF ROUTE is dead. (single_obstruction_valueset itself is
-NOT refuted -- the scan is UNIFORM_CONSISTENT; only this proof route dies.)
+## Pro P3 finding (VERIFIED): grid-sum FALSE as stated for the canonical trace char
+Official row F=F_{17^32}, H=mu_512, C=RS[F,H,256]. Canonical psi(x)=exp(2pi i
+Tr_{F/F17}(x)/17). Frobenius/LTE pairing: Tr(zeta^j)=0 unless 32|j (j 17^i pairs
+with +256 since v_2(j(17^t-1))=8 for t=2^{4-r}, zeta^256=-1). VERIFIED: exactly
+496 of 512 grid points are trace-ZERO; the 16 nonzero are mu_16=F_17^* (j div 32).
+So on Gamma=trace-zero (density 496/512), the cell Omega_Gamma(h) has
+ψ(-sum x)=1 for ALL P, giving |sum| = C(496,h): at h=21 density 0.506 of the full
+h-subset space (unconditioned S_21(1)/C(512,21)=0.485). NO cancellation — a
+positive-density trace-flat family.
 
-## Re-posed target: SOV-GRID-CHARACTER-SUM
-The needed input is a genuine multiplicative-grid / divisor-variety character-sum
-bound, after paid pullback/norm-gate classes removed: for every official row,
-h in (20,A], conditioning cell Omega, nontrivial psi,
-    | sum_{L in Omega} psi([X^{h-1}]L) | <= CharBudget(Omega,h,n,q)
-small enough for sov_hminus1_fiber_fourier_duality to give the small-fiber bound.
-Since [X^{h-1}]L = -e_1(roots)+const, the unconditioned sum is
-    S_h(a) = [u^h] prod_{x in H_rem}(1 + u psi(-a x)),  a!=0.
-Proof lanes: (1) distinct-coordinate/symmetric-power sieve on the Euler product;
-(2) Artin-Schreier sheaf on the divisor chart, geometrically nontrivial off the
-paid norm-gate locus, trace <= conductor * q^{dim/2}; (3) norm-gate exceptional
-accounting (the degeneracy locus = pulled-back-from-quotient/dihedral/norm cells,
-already paid). This is the SAME downstream shape; only the proof input changes
-from exact affine cancellation to analytic grid cancellation.
+## The fix: a TRACE-FLAT / SUBFIELD-NORM paid gate
+The paid ledger must include: exists a!=0 with x->Tr(ax) constant on a positive-
+density free-root cell. This gate is NOT small (density 0.506 at h=21), so it must
+be explicit — it is NOT covered by "quotient/dihedral/norm" as previously stated.
+
+## Corrected target P3'
+Prove the multiplicative-grid character-sum bound ONLY after removing trace-flat/
+subfield-norm gates IN ADDITION to quotient/pullback/dihedral gates; then a Lane-1
+power-sum bound |sum_{x in Gamma} psi(jax)| <= B (1<=j<=h, 17∤j) on the residual
+cells gives |sum_{P subset Gamma}| <= [u^h](1-u)^{-B}(1-u^17)^{-(|Gamma|-B)/17}.
+The a=1 trace-flat cell has B=|Gamma| (outside any cancellation regime) — hence it
+MUST be a paid gate, not a cancellation remainder.
