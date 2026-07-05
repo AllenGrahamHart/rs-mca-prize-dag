@@ -203,9 +203,24 @@ class DeltaCertificate:
     def unsafe_agreement(self) -> int:
         return self.a_star - 1
 
+    def adjacent_check_errors(self) -> list[str]:
+        errors: list[str] = []
+        if self.safe_margin_bits < 0:
+            errors.append(
+                "safe point failed: expected margin(a_star) >= 0, "
+                f"got {self.safe_margin_bits}"
+            )
+        if self.unsafe_margin_bits >= 0:
+            errors.append(
+                "adjacent unsafe point failed: expected margin(a_star - 1) < 0, "
+                f"got {self.unsafe_margin_bits}"
+            )
+        return errors
+
     def to_json_dict(self) -> dict[str, Any]:
         q_decimal = None if self.row.q is None else str(self.row.q)
         b_star_decimal = None if self.row.b_star is None else str(self.row.b_star)
+        adjacent_errors = self.adjacent_check_errors()
         return {
             "status": "CONJECTURAL_CONDITIONAL_ON_CRITICAL_DAG",
             "criterion": "B_C(a_star - 1) > floor(q/2^128) >= B_C(a_star)",
@@ -239,6 +254,12 @@ class DeltaCertificate:
                 "safe_point_margin": self.safe_margin_bits,
                 "adjacent_unsafe_point_margin": self.unsafe_margin_bits,
                 "sign_convention": "safe iff margin >= 0",
+            },
+            "adjacent_self_consistency_check": {
+                "passed": not adjacent_errors,
+                "safe_agreement_margin_nonnegative": self.safe_margin_bits >= 0,
+                "adjacent_lower_agreement_margin_negative": self.unsafe_margin_bits < 0,
+                "errors": adjacent_errors,
             },
             "branch": self.branch,
             "assumptions": self.assumptions,
@@ -396,10 +417,11 @@ def run_self_test() -> None:
         cert = f_conj(row)
         got = cert.safe_excess_t
         match = got == expected
-        ok &= match
+        adjacent_ok = not cert.adjacent_check_errors()
+        ok &= match and adjacent_ok
         print(
             f"  rate {rate_label(rate):>4}: t*={got} "
-            f"expected={expected} match={match}"
+            f"expected={expected} match={match} adjacent_ok={adjacent_ok}"
         )
     if not ok:
         raise SystemExit(1)
@@ -438,6 +460,11 @@ def make_parser() -> argparse.ArgumentParser:
         help="turn admissibility warnings into errors where possible",
     )
     parser.add_argument(
+        "--verify-adjacent",
+        action="store_true",
+        help="exit nonzero unless a_star is safe and a_star-1 is unsafe",
+    )
+    parser.add_argument(
         "--self-test",
         action="store_true",
         help="reproduce the banked n=2^41, log2(q)=255.9 corridor table",
@@ -453,6 +480,11 @@ def main() -> None:
         return
     row = build_row_from_args(args)
     cert = f_conj(row, strict_admissible=args.strict_admissible)
+    adjacent_errors = cert.adjacent_check_errors()
+    if args.verify_adjacent and adjacent_errors:
+        for error in adjacent_errors:
+            print(f"adjacent verification failed: {error}")
+        raise SystemExit(1)
     print(json.dumps(cert.to_json_dict(), indent=2, sort_keys=True))
 
 
