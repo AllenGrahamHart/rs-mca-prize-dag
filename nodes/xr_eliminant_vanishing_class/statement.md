@@ -1,6 +1,6 @@
 # xr_eliminant_vanishing_class
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/e27_exceptional_pair_census.md']
 
@@ -15,6 +15,16 @@ E32-extended census first; then the M5 chart machinery per observed class
 ## Falsifier
 
 an unpaid identically-vanishing configuration class at toys (the census reports it directly)
+
+## Conditional decomposition
+
+This node is conditional on:
+
+- `xr_profile_eliminant_nonvanishing`;
+- `xr_coordinate_hypersurface_reduction`.
+
+The latter is a proved algebraic reduction. The open content is profile
+nonvanishing.
 
 ## Ledger (migrated notes)
 
