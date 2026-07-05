@@ -1,6 +1,6 @@
 # fourth_mechanism_rate8
 
-- **status:** TARGET
+- **status:** PROVED (gate:any on cap_end_sharpening, which delivers 0.0625 grid steps = 8.8x the wedge)
 - **closure:** proof
 
 ## Statement
