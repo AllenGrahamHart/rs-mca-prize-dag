@@ -1,6 +1,6 @@
 # single_obstruction_valueset
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 
 ## Statement
@@ -14,3 +14,11 @@ sampling scan, delegable; then the proof via character sums or the norm structur
 ## Falsifier
 
 O-value collision rates far above uniform at any calibration row
+
+## Conditional decomposition
+
+This node is conditional on:
+
+- `sov_forced_root_correctness`;
+- `sov_obstruction_equidistribution`;
+- `sov_fiber_budget_translation`.
