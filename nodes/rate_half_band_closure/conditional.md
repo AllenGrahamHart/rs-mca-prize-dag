@@ -1,11 +1,27 @@
-# rate_half_band_closure conditional proof
+# rate_half_band_closure current status
 
-## Predicate node
+- **status:** TARGET
+- **closure:** open proof target
 
-- `aqb_averaged_quotient_box`
+There is no active conditional proof of this node.
 
-## Claim
-AQB-I closes the residual band 2^33 < sigma <= sigma* for all admissible q in (2^255.9, 2^256).
+The older AQB-I conditional route is refuted: the averaging transfer is a
+convex combination of single-box fiber counts, so the proposed box-sharing gain
+is exactly canceled by the normalization.  The `aqb_average_member_transfer`
+edge remains evidence/provenance only.
 
-## Proof (Pro Brief I, verified)
-Conservative trigger log2 L > Q - 40. The c=2 exact-crossing row's deficit Delta(Q) = d*Q - 40 - log2 C(2^40, m) is increasing in Q, worst at Q=256 where Delta = B_I = 429,645,546.773. AQB-I supplies 429,645,547 bits, so the AVERAGE list exceeds the trigger for every admissible q; hence some family member fails MCA at sigma*, and radius monotonicity propagates the failure down the band. Combined with the proved safe side above sigma*, the determination closes.
+The later P6 dihedral-sibling route is also refuted by
+`dihedral_sibling_window_certificate`: the proposed packet size is not a
+Chebyshev top-degree drop, true Dickson fibers are too small in the first band,
+and the endpoint sibling also overflows the degree budget.
+
+The live full-determination target is therefore the strong closure statement in
+`statement.md`: cover the rate-`1/2` band
+
+```text
+2^33 < sigma <= 8,592,912,738
+```
+
+by a genuinely new priced mechanism.  A bracket-grade obstruction for some band
+radius is a valuable partial result, but it does not prove this node as consumed
+by the full MCA/list adjacency parents.

@@ -6,7 +6,18 @@
 
 ## Statement
 
-CORRECTED by the margin tables (wave 1, 117/117): integrality does NOT hold at A*+1 — margins log2(n^3 FM) are POSITIVE at A* and A*+1 at ALL ten table rows (+9.6..+243); the exactly-zero radius begins at A_zero = A*+2 everywhere (proved monotone from there, margins -363 .. -1.5e12 bits). So the adjacency machinery must DECIDE A*+1 with a live aperiodic term — R2's constant matters there, and at prize-max rate 1/2 the A*+2 margin is only -12.87 bits (absorbs B <= 3.31: the exponent budget is nearly exhausted at that single point; mirrored on the list side at -12.84). These thin points are QA.4 census objects.
+At the clean-rate decision candidates (`rho` in `{1/4, 1/8, 1/16}`),
+integrality does not kill the aperiodic contribution at `A*` or `A*+1`.
+The exactly-zero range begins at `A_zero = A*+2`, after applying `fm1` and the
+compiled clean-rate R2 bound.  Thus the adjacency machinery must decide
+`A*+1` with a live aperiodic term; it may use exact zero only from `A*+2`.
+
+## Rate Scope Repair 2026-07-06
+
+The logical claim of this node is clean-rate only: `rho` in `{1/4, 1/8,
+1/16}`.  The wired R2 premise is `r2_clean_rates`, so the rate-`1/2` thin point
+is not proved by this node.  Rate `1/2` remains routed through
+`rate_half_band_closure`.
 
 ## Ledger (migrated notes)
 
