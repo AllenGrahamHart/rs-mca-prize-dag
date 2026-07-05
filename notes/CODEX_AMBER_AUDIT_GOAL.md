@@ -73,6 +73,22 @@ Work highest weight first — a fatal issue at the top kills the most.
      command. Do NOT cascade-prune overnight; mark and move on (the morning replay
      decides surgery).
    - `ILL-POSED` — the implication cannot be stated crisply from the artifacts.
+     For every ILL-POSED verdict, additionally CLASSIFY THE ACTUAL FORM and propose
+     the fix:
+       * IDENTIFICATION ("X is the same object as Y") -> restate as an implication
+         with definitional hypotheses (state exactly which quantifiers/word classes/
+         rows must align, and CHECK they do — misaligned identifications are how
+         interface bugs breed);
+       * COMPUTATION RECORD / CORRECTION ("the tables show...") -> the claim is the
+         verified computation: propose PROVED-with-verifier (cite/write verify.py)
+         or restate the residual implication;
+       * STATUS REPORT ("half proved, in flight") -> extract the mathematical claim,
+         restate it, and mark the unproved half honestly;
+       * TITLE/STUB -> write the statement from the folder artifacts or flag FATAL.
+     WHY THIS MATTERS: auto_discharge applies modus ponens when reqs turn green. A
+     non-implication wearing amber gets auto-promoted to PROVED at the endgame
+     cascade — the category error detonates exactly when the reds are finally
+     resolved. Every amber must either BE an implication or stop being amber.
 
 ## Special: the reduction packet
 
