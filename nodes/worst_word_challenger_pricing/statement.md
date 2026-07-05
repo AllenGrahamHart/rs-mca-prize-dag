@@ -1,6 +1,6 @@
 # worst_word_challenger_pricing
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/flip_packets/worst_word_planted.md']
 
