@@ -4528,7 +4528,8 @@
    "status": "TARGET",
    "statement": "Provide the actual DLI reduced-phase manifest: for every central profile, nonzero frequency, DLI harmonic, and relevant square-root component, the Artin-Schreier-reduced local expansion of P_lambda(sigma(y)), a positive pole order prime to p, a certified polar-divisor majorant for the same tuple, and an o(t) harmonic total for the majorants.",
    "attack_surface": "actual project-specific local expansions, Artin-Schreier reduction, pole witnesses, majorant rows, and harmonic summation",
-   "falsifier": "a missing tuple, no prime-to-p reduced pole, a majorant below the true reduced polar divisor, or a harmonic total not o(t)"
+   "falsifier": "a missing tuple, no prime-to-p reduced pole, a majorant below the true reduced polar divisor, or a harmonic total not o(t)",
+   "notes": "| Pro brief issued (deep analytic): the Deligne-Weil reduced-phase manifest \u2014 per-tuple prime-to-p reduced pole + conductor majorant + o(t) harmonic sum, giving geometric-mean equidistribution at -2log2. Calibrated flat. Closes dli->ejm->pcf->b2b primitive core."
   },
   {
    "id": "dli_circle_log_integral_constant",
