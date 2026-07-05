@@ -4294,10 +4294,10 @@
   {
    "id": "ef_fullfield_bridge",
    "title": "ef_fullfield_bridge (the s6 F1 typecheck)",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "Every reduced horizontal component of the extension-fiber incidence variety X with TRIVIAL G-stabilizer, satisfying noncontainment, and not confined to a proper intermediate field, is a genuinely full-field extension fiber to which ext_pole_floor applies. Equivalently (s6_extension_lift.md F1): there is no genuinely-F obstruction of non-pole, non-confined type \u2014 the honest typecheck seam where a new ledger column (S9) would otherwise appear. This is the SOLE remaining input to Pro's pole-free cycle exclusion completeness proof; the Galois-descent trichotomy is unconditional.",
    "falsifier": "a genuinely-F horizontal component (trivial stabilizer, noncontainment, non-tower) that is NOT covered by the extension-pole floor \u2014 a new S9 ledger class.",
-   "notes": "| Pro follow-up brief issued (same ef thread): the S9 typecheck \u2014 prove every trivial-stab noncontainment non-tower horizontal component is a base-list F-valued witness line (linear-pencil lever) or exhibit the S9 obstruction. Closes ef chain -> f1."
+   "notes": "Pro follow-up brief issued (same ef thread): the S9 typecheck \u2014 prove every trivial-stab noncontainment non-tower horizontal component is a base-list F-valued witness line (linear-pencil lever) or exhibit the S9 obstruction. Closes ef chain -> f1. | Pro round 2 (verified): linearity ALONE does not close it (S9 obstruction exhibited). Reduced to: (proved) F-valued=>e-interleaved witness + (open) interleaved_floor_import (does ext_pole_floor cover interleaved witnesses?). Ordinary-base-list version FALSE."
   },
   {
    "id": "petal_residue_kernel_linear_bound",
@@ -4491,6 +4491,19 @@
    "statement": "For every official-shape row, h in (20,A], and forced-root higher-coefficient conditioning cell, the nontrivial additive character sums of c(L)=[X^{h-1}]L over anchored cores are small enough that the Fourier-duality fiber bound is below the active-core budget. This is reduced to a proved affine-piece cancellation lemma plus the remaining anchored-core affine/paid-piece decomposition.",
    "attack_surface": "assembly from affine-piece cancellation and the remaining decomposition/classification of conditioned anchored-core cells",
    "falsifier": "a forced-root conditioning cell with nontrivial character sums large enough to create an above-budget h-1 coefficient fiber"
+  },
+  {
+   "id": "ef_fvalued_word_source_is_interleaved_witness",
+   "title": "F-valued word source => e-interleaved base-list witness (Pro, verified)",
+   "status": "PROVED",
+   "statement": "Every trivial-stabilizer noncontainment non-tower horizontal component with F-valued word source is, at its generic point, an e=[E:B]-interleaved base-field multiplication-slice witness (syndrome commutes with B-basis expansion since D subset B; mult-by-z = M_z; noncontainment preserved). The ordinary-base-list version is FALSE (proved extension-line counterexample)."
+  },
+  {
+   "id": "interleaved_floor_import",
+   "title": "ext_pole_floor covers e-interleaved base-list witnesses (the S9 seam)",
+   "status": "TARGET",
+   "statement": "ext_pole_floor's N(L) mechanism covers e-interleaved base-list multiplication-slice witnesses; every such witness meets D_E. Sole remaining seam for ef_fullfield_bridge; failure = a new extension-valued/interleaved S9 ledger class.",
+   "falsifier": "an e-interleaved base-list witness escaping ext_pole_floor -- the S9 class."
   }
  ],
  "edges": [
@@ -8132,6 +8145,16 @@
   {
    "from": "sov_fiber_budget_translation",
    "to": "single_obstruction_valueset",
+   "kind": "req"
+  },
+  {
+   "from": "ef_fvalued_word_source_is_interleaved_witness",
+   "to": "ef_fullfield_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "interleaved_floor_import",
+   "to": "ef_fullfield_bridge",
    "kind": "req"
   }
  ]

@@ -399,8 +399,13 @@
   },
   {
    "id": "ef_fullfield_bridge",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "ef_fullfield_bridge (the s6 F1 typecheck)"
+  },
+  {
+   "id": "ef_fvalued_word_source_is_interleaved_witness",
+   "label": "PROVED",
+   "title": "F-valued word source => e-interleaved base-list witness (Pro, verified)"
   },
   {
    "id": "ef_galois_stabilizer_descent",
@@ -661,6 +666,11 @@
    "id": "integer_code_distance_cert",
    "label": "PROVED",
    "title": "THE RESIDUE: certify min ternary distance > 2l' for the explicit k x N' system"
+  },
+  {
+   "id": "interleaved_floor_import",
+   "label": "UNPROVED",
+   "title": "ext_pole_floor covers e-interleaved base-list witnesses (the S9 seam)"
   },
   {
    "id": "isotypic",
@@ -2834,6 +2844,14 @@
   {
    "from": "sov_fiber_budget_translation",
    "to": "single_obstruction_valueset"
+  },
+  {
+   "from": "ef_fvalued_word_source_is_interleaved_witness",
+   "to": "ef_fullfield_bridge"
+  },
+  {
+   "from": "interleaved_floor_import",
+   "to": "ef_fullfield_bridge"
   },
   {
    "from": "acl_second_order",
