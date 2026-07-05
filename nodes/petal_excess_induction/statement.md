@@ -1,6 +1,6 @@
 # petal_excess_induction
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 
 ## Statement
@@ -14,3 +14,13 @@ the petal census machinery at growing c; delegable compute
 ## Falsifier
 
 petal extras growing with c at any calibration row
+
+## Conditional decomposition
+
+This node is conditional on:
+
+- `petal_residue_line_uniformity`;
+- `petal_mixed_amplification_step`.
+
+The fixed-excess base remains the separate proved input `petal_fixed_excess`
+consumed by `petal_growth`.

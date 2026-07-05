@@ -280,7 +280,8 @@ def subgroup_coset_petals(p, ell, t):
                 return g
         raise AssertionError
     g = primroot(p)
-    assert (p - 1) % ell == 0
+    if (p - 1) % ell != 0:
+        return None, None
     h = pow(g, (p - 1) // ell, p)  # generator of order-ell subgroup
     sub = [pow(h, i, p) for i in range(ell)]
     petals = []
@@ -310,12 +311,16 @@ def scan(total_budget_s=8600.0):
             i += 1
         return True
     def _primes_1mod(ell, targets):
-        # nearest prime >= target with ell | p-1 (so the order-ell subgroup exists)
+        # nearest prime >= target with p == 1 mod ell, so the order-ell
+        # subgroup exists. Keep the congruence explicit; an earlier dispatch
+        # died by assertion before it could report a useful skipped config.
         out = []
         for tgt in targets:
-            p = tgt - (tgt % ell) + 1
-            if p <= tgt: p += ell
-            while not _isprime(p): p += ell
+            p = max(2, tgt)
+            while p % ell != 1:
+                p += 1
+            while not _isprime(p):
+                p += ell
             out.append(p)
         return out
     configs = []
