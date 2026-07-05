@@ -1,0 +1,90 @@
+# RETRACTION MANIFEST: xr_smallcore_spread_count (2026-07-05)
+
+FRONTIER RETRACTION 2026-07-05 (third application): demoted CONDITIONAL->TARGET; the sub-frontier CUT (archive/retraction_xr_20260705/, 30 non-proved nodes incl. the sov and m720 red branches and the midlarge/anchored/a_closure spine), 53 PROVED nodes kept off the trust surface. This node -- the post-cascade SPREAD remainder count (aligned aperiodic supports with pairwise-small shared cores <= poly(n)) -- is the honest open obligation of the lane. ADVISORY ATTACK NOTES from the cut branches: sov (SOV-BOHR-PRICING brief out to Pro: Lane-1 closure below gate B*~0.93 + inverse-theorem mass count; mechanism validated 521/521, phase transition at B~0.93, budget room 2-10 bits) and m720 (norm-gate implication PROVED; compression empirically dead -- full-degree survivors incl. h=7 band edge; only the D-GCD data route remains). If the Pro sov round lands, RE-EXPAND this segment with proven material per policy.
+
+## Cut (archived):
+- [CONDITIONAL] a1_lower_overlap_occupied_subcore_accounting
+- [CONDITIONAL] a2_depth_cell_active_shadow_bound
+- [CONDITIONAL] a_closure_assembly
+- [CONDITIONAL] active_core_count_bound
+- [CONDITIONAL] anchored_nontoral_pte_bound
+- [CONDITIONAL] c1_scalable_certificate
+- [CONDITIONAL] deep_link_staircase
+- [CONDITIONAL] h4_sparse_norm_gate
+- [TARGET] m720_conductor_compression
+- [CONDITIONAL] m720_official_exclusion
+- [CONDITIONAL] m720_official_h7_20_norm_gate_certificates
+- [CONDITIONAL] m720_official_h7_20_norm_gate_payload
+- [CONDITIONAL] m720_official_norm_gate_case_manifest_payload
+- [CONDITIONAL] midlarge_h20_A
+- [CONDITIONAL] midlarge_h7_20
+- [CONDITIONAL] midlarge_h_certification
+- [CONDITIONAL] single_obstruction_valueset
+- [CONDITIONAL] sov_affine_piece_partition_payload
+- [CONDITIONAL] sov_fiber_budget_translation
+- [CONDITIONAL] sov_first_obstruction_value_distribution
+- [TARGET] sov_gridsum_residual
+- [CONDITIONAL] sov_hminus1_affine_piece_decomposition
+- [CONDITIONAL] sov_hminus1_character_sum_bound
+- [CONDITIONAL] sov_hminus1_coefficient_distribution
+- [CONDITIONAL] sov_obstruction_equidistribution
+- [CONDITIONAL] xr_fresh_codim_dichotomy
+- [CONDITIONAL] xr_heavy_triangle_charge
+- [CONDITIONAL] xr_light_triangle_eliminant
+- [CONDITIONAL] xr_partial_tangent_band
+- [CONDITIONAL] xr_popular_core_triangles
+
+## Kept (PROVED, off the trust surface):
+- a3_good_reduction_lemma
+- a_universal_trade_variety
+- c1a_lowh_direct_certificates
+- c1b_descent_injection
+- h_window_derivation
+- m720_certificate_semantics
+- m720_complete_calibration_certificates
+- m720_ground_truth_replay
+- m720_h3_large_gate_replay
+- m720_h5_n32_gate_replay
+- m720_mitm_enumerator_soundness
+- m720_mitm_gate
+- m720_off_laptop_zero_certificates
+- m720_official_norm_gate_case_manifest_soundness
+- m720_official_norm_gate_certificate_soundness
+- m720_official_paid_branch_alignment
+- m720_overceiling_complete_window_certificates
+- m720_remaining_gate_replay
+- m720_residual_off_laptop_zero_certificates
+- m720_residual_slice_metadata
+- m720_small_gate_replay
+- m720_wsl_complete_zero_subcertificates
+- midlarge_partner_cap_reduction
+- p1_post_paid_subcore_richline_cap
+- p3_affine_net_richline_residue
+- sov_active_core_obstruction_vanishing
+- sov_affine_piece_partition_certificate_soundness
+- sov_first_obstruction_sensitivity
+- sov_forced_root_correctness
+- sov_forced_root_recursion_algebra
+- sov_hminus1_fiber_fourier_duality
+- sov_nonconstant_affine_character_cancellation
+- star_pte_support_bound
+- subcore_richline_classification
+- value_set_partner_cap
+- x24_char0_dyadic_descent
+- x81_minimal_trade_square_shift
+- x83_uniform_square_shift_obstruction_gate
+- xr_coordinate_hypersurface_reduction
+- xr_eliminant_vanishing_class
+- xr_minor_specialization_certificate_semantics
+- xr_profile_eliminant_nonvanishing
+- xr_profile_minor_certificate_coverage
+- xr_profile_minor_certificate_payload
+- xr_profile_minor_record_inventory_payload
+- xr_profile_minor_record_inventory_soundness
+- xr_sameslope_list_crossover
+- xr_scattered_syzygy_flattice
+- xr_sunflower_rank_additive
+- xr_syzygy_flat_transport
+- xr_syzygy_support_lemma
+- xr_triangle_eliminant_form
+- xr_triangular_minor_certificate_soundness
