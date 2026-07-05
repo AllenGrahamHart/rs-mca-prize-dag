@@ -73,6 +73,13 @@ Work highest weight first — a fatal issue at the top kills the most.
      command. Do NOT cascade-prune overnight; mark and move on (the morning replay
      decides surgery).
    - `ILL-POSED` — the implication cannot be stated crisply from the artifacts.
+     OWNER DIRECTIVE (relayed 2026-07-05 night): if an amber is NOT of the form
+     A => B (an identification A = B, or some other kind of claim), do not stop at
+     classification — **just test the assertion directly and try to falsify it.**
+     For A = B: compute both sides on toy rows and compare (one mismatch witness
+     is a FATAL-CANDIDATE). For records/reports: replay the computation / verify
+     the claimed half. The form classification below is for the morning repair,
+     the direct attack is the night's work.
      For every ILL-POSED verdict, additionally CLASSIFY THE ACTUAL FORM and propose
      the fix:
        * IDENTIFICATION ("X is the same object as Y") -> restate as an implication
