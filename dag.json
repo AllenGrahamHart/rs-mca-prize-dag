@@ -4514,9 +4514,10 @@
    "id": "dli_odd_evaluation_discrepancy",
    "title": "DLI odd-evaluation discrepancy",
    "status": "CONDITIONAL",
-   "statement": "For every central profile and every nonzero frequency, the sequence of low-degree odd evaluations P_lambda(sigma(y)) on the square-root section has enough discrepancy control away from Dirichlet peaks to support the DLI log-integral geometric-mean bound with total loss sum_j eps_j=o(t).",
+   "statement": "For every central profile and every nonzero frequency, the sequence of low-degree odd evaluations P_lambda(sigma(y)) on the square-root section has enough discrepancy control away from Dirichlet peaks to support the DLI log-integral geometric-mean bound with total loss sum_j eps_j=o(t). SCOPING CORRECTION 2026-07-05: \"every central profile\" is restricted to FULL-MASS central profiles (active seen-coordinate count >= (256-o(1))L_j). Reason (verified arithmetic): mu_hat_y is defined over the profile domain, inactive coordinates contribute 0 to the log-integral sum, and the bound 2(L_j-eps_j)log q requires ~256 L_j coordinates each contributing the circle average 2log2 -- a low-mass profile CANNOT meet it (same low-mass killer as the leaf/ledger sup forms). The low-mass tail is NOT lost: it is absorbed by the U-weighted ledger nodes below (weight 2^{-501L_j} vs penalty 2^{256L_j}, net 2^{-245L_j}, self-killing), so the full-mass scoping is exactly what the weighted endpoint consumes. Calibration (eta*/L=3.6e-7, -2log2 circle constant) lives at full mass and is unchanged.",
    "attack_surface": "assembly from the truncated-log transfer lemma and the remaining peak-mass discrepancy estimate for the odd-evaluation sequence",
-   "falsifier": "a central profile and nonzero frequency whose odd-evaluation sequence remains near Dirichlet peaks on a positive-density set of section coordinates, forcing a linear-in-t loss"
+   "falsifier": "a central profile and nonzero frequency whose odd-evaluation sequence remains near Dirichlet peaks on a positive-density set of section coordinates, forcing a linear-in-t loss",
+   "notes": "| Full-mass scoping added 2026-07-05 (chain-coherence audit): low-mass profiles cannot meet the log-integral/discrepancy bounds (inactive coords contribute 0); scoped to full-mass, tail absorbed by the weighted ledger below."
   },
   {
    "id": "dli_odd_phase_nontriviality_payload",
@@ -4555,9 +4556,10 @@
    "id": "dli_peak_mass_discrepancy",
    "title": "DLI odd-evaluation peak-mass discrepancy",
    "status": "CONDITIONAL",
-   "statement": "For every central profile and every nonzero frequency, the odd low-degree evaluations on the square-root section satisfy the truncated-log discrepancy and peak-mass tail bounds required by dli_truncated_log_transfer, with total error sum_j eps_j=o(t).",
+   "statement": "For every central profile and every nonzero frequency, the odd low-degree evaluations on the square-root section satisfy the truncated-log discrepancy and peak-mass tail bounds required by dli_truncated_log_transfer, with total error sum_j eps_j=o(t). SCOPING CORRECTION 2026-07-05: \"every central profile\" is restricted to FULL-MASS central profiles (active seen-coordinate count >= (256-o(1))L_j). Reason (verified arithmetic): mu_hat_y is defined over the profile domain, inactive coordinates contribute 0 to the log-integral sum, and the bound 2(L_j-eps_j)log q requires ~256 L_j coordinates each contributing the circle average 2log2 -- a low-mass profile CANNOT meet it (same low-mass killer as the leaf/ledger sup forms). The low-mass tail is NOT lost: it is absorbed by the U-weighted ledger nodes below (weight 2^{-501L_j} vs penalty 2^{256L_j}, net 2^{-245L_j}, self-killing), so the full-mass scoping is exactly what the weighted endpoint consumes. Calibration (eta*/L=3.6e-7, -2log2 circle constant) lives at full mass and is unchanged.",
    "attack_surface": "assembly from the deterministic Erdos-Turan peak-mass reduction and the remaining odd-evaluation exponential-sum estimate",
-   "falsifier": "a central profile and nonzero frequency for which odd evaluations put too much mass near Dirichlet peaks or violate the required truncated-log discrepancy bound"
+   "falsifier": "a central profile and nonzero frequency for which odd evaluations put too much mass near Dirichlet peaks or violate the required truncated-log discrepancy bound",
+   "notes": "| Full-mass scoping added 2026-07-05 (chain-coherence audit): low-mass profiles cannot meet the log-integral/discrepancy bounds (inactive coords contribute 0); scoped to full-mass, tail absorbed by the weighted ledger below."
   },
   {
    "id": "dli_odd_phase_polar_obstruction_soundness",
@@ -4571,9 +4573,10 @@
    "id": "dli_odd_eval_exponential_sum_bound",
    "title": "DLI odd-evaluation exponential-sum bound",
    "status": "CONDITIONAL",
-   "statement": "For every central profile and every nonzero frequency, the normalized odd low-degree evaluations on the square-root section have Weyl sums small enough, uniformly over the harmonic ranges required by dli_et_peak_mass_reduction, with total DLI error sum_j eps_j=o(t).",
+   "statement": "For every central profile and every nonzero frequency, the normalized odd low-degree evaluations on the square-root section have Weyl sums small enough, uniformly over the harmonic ranges required by dli_et_peak_mass_reduction, with total DLI error sum_j eps_j=o(t). SCOPING CORRECTION 2026-07-05: \"every central profile\" is restricted to FULL-MASS central profiles (active seen-coordinate count >= (256-o(1))L_j). Reason (verified arithmetic): mu_hat_y is defined over the profile domain, inactive coordinates contribute 0 to the log-integral sum, and the bound 2(L_j-eps_j)log q requires ~256 L_j coordinates each contributing the circle average 2log2 -- a low-mass profile CANNOT meet it (same low-mass killer as the leaf/ledger sup forms). The low-mass tail is NOT lost: it is absorbed by the U-weighted ledger nodes below (weight 2^{-501L_j} vs penalty 2^{256L_j}, net 2^{-245L_j}, self-killing), so the full-mass scoping is exactly what the weighted endpoint consumes. Calibration (eta*/L=3.6e-7, -2log2 circle constant) lives at full mass and is unchanged.",
    "attack_surface": "assembly from the standard Deligne/Weil transfer plus the remaining noncollapse/conductor theorem for the actual odd-evaluation phase",
-   "falsifier": "a central profile, nonzero frequency, and harmonic range whose Weyl sum is too large to feed the peak-mass reduction"
+   "falsifier": "a central profile, nonzero frequency, and harmonic range whose Weyl sum is too large to feed the peak-mass reduction",
+   "notes": "| Full-mass scoping added 2026-07-05 (chain-coherence audit): low-mass profiles cannot meet the log-integral/discrepancy bounds (inactive coords contribute 0); scoped to full-mass, tail absorbed by the weighted ledger below."
   },
   {
    "id": "dli_odd_phase_reduced_pole_budget",
@@ -4667,9 +4670,10 @@
    "id": "dli_log_integral_equidistribution",
    "title": "DLI log-integral equidistribution",
    "status": "CONDITIONAL",
-   "statement": "For every central profile and every nonzero frequency, the odd low-degree evaluations on the square-root section satisfy the near-circle log-integral geometric-mean bound -sum_y log |mu_hat_y(P_lambda(sigma(y)))|^2 >= 2(L_j-eps_j) log q - O(1), with sum_j eps_j=o(t).",
+   "statement": "For every central profile and every nonzero frequency, the odd low-degree evaluations on the square-root section satisfy the near-circle log-integral geometric-mean bound -sum_y log |mu_hat_y(P_lambda(sigma(y)))|^2 >= 2(L_j-eps_j) log q - O(1), with sum_j eps_j=o(t). SCOPING CORRECTION 2026-07-05: \"every central profile\" is restricted to FULL-MASS central profiles (active seen-coordinate count >= (256-o(1))L_j). Reason (verified arithmetic): mu_hat_y is defined over the profile domain, inactive coordinates contribute 0 to the log-integral sum, and the bound 2(L_j-eps_j)log q requires ~256 L_j coordinates each contributing the circle average 2log2 -- a low-mass profile CANNOT meet it (same low-mass killer as the leaf/ledger sup forms). The low-mass tail is NOT lost: it is absorbed by the U-weighted ledger nodes below (weight 2^{-501L_j} vs penalty 2^{256L_j}, net 2^{-245L_j}, self-killing), so the full-mass scoping is exactly what the weighted endpoint consumes. Calibration (eta*/L=3.6e-7, -2log2 circle constant) lives at full mass and is unchanged.",
    "attack_surface": "assembly from the proved circle constant plus the open odd-evaluation discrepancy/peak-repulsion predicate",
-   "falsifier": "a profile/frequency pair whose Dirichlet factors stay near peaks often enough that the total loss is linear in t"
+   "falsifier": "a profile/frequency pair whose Dirichlet factors stay near peaks often enough that the total loss is linear in t",
+   "notes": "| Full-mass scoping added 2026-07-05 (chain-coherence audit): low-mass profiles cannot meet the log-integral/discrepancy bounds (inactive coords contribute 0); scoped to full-mass, tail absorbed by the weighted ledger below."
   },
   {
    "id": "dli_phase_pole_conductor_manifest",
