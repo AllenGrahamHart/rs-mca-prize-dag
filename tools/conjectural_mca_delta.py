@@ -7,13 +7,20 @@ critical-DAG program:
     C = RS[F, L, k]  |F| = q, |L| = n  ->  delta_C^*
 
 The output is conditional, not a proof artifact.  It assumes the remaining
-critical DAG leaves needed by mca_safe / adjacency_closing / mca_grand close as
-stated.  Under those assumptions, the adjacent certificate is
+critical DAG leaves needed by mca_safe / adjacency_closing / mca_grand close in
+their CURRENT re-posed form.  Under those assumptions, the adjacent certificate is
 
     B_C(a* - 1) > floor(q / 2^128) >= B_C(a*)
 
 and the reported delta is (n - a*) / n.  The adjacent unsafe delta obtained by
 adding one to the numerator is also printed.
+
+Status note (2026-07-05): two leaf statements were re-posed after this tool was
+first written -- dli (sup formulation refuted; now the U-weighted-average / RES
+count) and the petal gates N/D/L (mid-stabilization; primitive-coordinate
+foundation out for definition).  These re-posings change the PROOF ROUTE, not the
+B_C counting bound this tool evaluates, so the delta VALUES here are unaffected;
+only the "close as stated" wording needed updating to "close in re-posed form".
 
 The computation is intentionally lightweight: it uses a monotone binary search
 and log-gamma evaluations, with no large binomial materialization.
@@ -124,7 +131,12 @@ def branch_for_rate(rate: Fraction) -> str:
 
 def assumptions_for_rate(rate: Fraction) -> list[str]:
     assumptions = [
-        "critical_8_open_nodes_close_as_stated",
+        # 2026-07-05: dli sup REFUTED -> re-posed to U-weighted-average/RES count
+        # (same B_C bound); petal gates N/D/L mid-stabilization (primitive-coordinate
+        # foundation out for definition). These change proof route, not delta value.
+        "critical_8_open_nodes_close_in_current_reposed_form_2026_07_05",
+        "dli_weighted_average_RES_count_holds",
+        "petal_gates_N_D_L_close_via_primitive_coordinate_foundation",
         "mca_safe_conditional_chain_sound",
         "adjacency_closing_conditional_chain_sound",
         "crossing_localization_monotonicity_integrality_applies",
