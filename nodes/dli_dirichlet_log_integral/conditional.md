@@ -1,28 +1,17 @@
 # conditional: dli_dirichlet_log_integral
 
-## Predicate node
+Hypotheses (matches dag.json wiring after compression):
+- dli_prime_weighted_large_block_support (FRONTIER, open: the U-weighted/RES counting obligation)
+- dli_artin_schreier_conductor_criterion (PROVED)
+- dli_circle_log_integral_constant (PROVED)
+- dli_deligne_weyl_transfer (PROVED)
+- dli_et_peak_mass_reduction (PROVED)
+- dli_odd_phase_budget_ledger_soundness (PROVED)
+- dli_odd_phase_polar_obstruction_soundness (PROVED)
+- dli_phase_pole_conductor_manifest (PROVED)
+- dli_reduced_phase_manifest_soundness (PROVED)
+- dli_reduced_pole_majorant_table_soundness (PROVED)
+- dli_truncated_log_transfer (PROVED)
+- subfield_trace_paid_gate (PROVED)
 
-- `dli_log_integral_equidistribution`
-
-## Claim
-
-Conditional on the log-integral equidistribution predicate, DLI holds and
-therefore supplies the Fourier-moment input consumed by `ejm_joint_moment`.
-
-## Proof
-
-The predicate `dli_log_integral_equidistribution` is the uniform statement that
-for every central profile and nonzero frequency, the odd low-degree
-evaluations on the square-root section sample the circle with enough
-geometric-mean control that
-
-```text
--sum_y log |mu_hat_y(P_lambda(sigma(y)))|^2
-    >= 2(L_j - eps_j) log q - O(1)
-```
-
-with `sum_j eps_j = o(t)`.
-
-This is exactly the DLI inequality stated in this node. The already banked D4
-reduction in `ejm_joint_moment/conditional.md` then turns DLI into the
-`EJM_2` Fourier-moment bound with `eta_j <= eps_j + O(1)`.
+Reduction: see REDUCTION_PACKET.md (14 validated steps, compressed 2026-07-05).
