@@ -1,6 +1,6 @@
 # midlarge_h7_20
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **closure:** proof
 
 ## Statement
@@ -14,3 +14,11 @@ the C1a/C1b machinery re-parameterized; delegable compute
 ## Falsifier
 
 an active core at h in (7,20] at any calibration row
+
+## Conditional decomposition
+
+This node is conditional on:
+
+- `m720_mitm_gate`;
+- `m720_complete_calibration_certificates`;
+- `m720_official_exclusion`.

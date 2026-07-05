@@ -3672,7 +3672,7 @@
   {
    "id": "midlarge_h7_20",
    "title": "midlarge h7 20",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "statement": "The scannable band h in (6, 20]: zero active cores at official-shape rows. EVIDENCE WALL: the pre-registered scan \u2014 C1b-descent pipelines at n <= 256 calibration rows plus MITM slices at n = 1024, h = 7..20; interpretation fixed before data: any active core found is charged and counted against the 3.3e3/h budget; zero across calibrations licenses the exclusion lemma attempt.",
    "attack_surface": "the C1a/C1b machinery re-parameterized; delegable compute",
    "falsifier": "an active core at h in (7,20] at any calibration row",
@@ -4679,6 +4679,174 @@
    "status": "TARGET",
    "statement": "sum_j (1/L_j) sup sum_omega |c_omega| cond(omega) sqrt(q) = o(t). Ordinary Deligne is NON-SAVING at the section scale (sqrt(q)/N = 2^87); the estimate needs many small-conductor sums. The real DLI terminal gap.",
    "falsifier": "a harmonic expansion with weighted normalized conductor total not o(t)."
+  },
+  {
+   "id": "m720_official_norm_gate_certificate_soundness",
+   "title": "M720 official norm-gate certificate soundness",
+   "status": "PROVED",
+   "statement": "A complete official h=7..20 norm-gate payload, or a uniform nonvanishing theorem covering the same primitive norm-gate branch, soundly excludes all unpaid non-toral active cores in the official h=7..20 band once m720_official_paid_branch_alignment has reduced the problem to that branch.",
+   "attack_surface": "formal certificate semantics and paid/norm-gate branch coverage",
+   "falsifier": "a payload marked complete and zero for every primitive norm-gate case while an unpaid non-toral official h=7..20 active core survives"
+  },
+  {
+   "id": "m720_official_h7_20_norm_gate_certificates",
+   "title": "M720 official h=7..20 norm-gate certificates",
+   "status": "CONDITIONAL",
+   "statement": "For admissible official-shape rows and h=7..20, no primitive p-specific x83 norm-gate event survives. This is reduced to the proved official norm-gate certificate soundness rule and the remaining payload or uniform nonvanishing theorem for the primitive norm-gate branch.",
+   "attack_surface": "assembly from payload soundness, case-manifest soundness, and the remaining h=7..20 official norm-gate case manifest payload",
+   "falsifier": "an admissible or named-exhibit h=7..20 non-paid square-shift support whose cleared obstruction norm vanishes in the field"
+  },
+  {
+   "id": "m720_certificate_semantics",
+   "title": "M720 calibration certificate semantics",
+   "status": "PROVED",
+   "statement": "For M720 MITM outputs, a zero active-core count is a complete calibration-cell zero certificate only when the run has complete=true, equivalently W=n and the run did not abort. If complete=false, the output is slice-local evidence only and cannot be promoted to a global zero certificate.",
+   "attack_surface": "formal consequence of the mitm_slice complete flag and enumerator contract",
+   "falsifier": "a certificate protocol that treats W<n or aborted output as a complete global zero"
+  },
+  {
+   "id": "m720_overceiling_complete_window_certificates",
+   "title": "M720 over-ceiling complete-window certificates",
+   "status": "PROVED",
+   "statement": "The two over-ceiling n=32,h=16 complete-window cells at q~n^2 and q~n^3 have complete certificates with zero unpaid non-toral active-core count, or a corrected certificate policy excludes them from complete-cell use.",
+   "attack_surface": "algebraic complement-pair classification at n=32,h=16",
+   "falsifier": "a nonzero unpaid non-toral active core in either over-ceiling complete-window cell"
+  },
+  {
+   "id": "m720_mitm_gate",
+   "title": "M720 MITM correctness gate",
+   "status": "PROVED",
+   "statement": "The MITM scanner used for the h in (6,20] band correctly detects known h=3,4,5 trade/census facts and distinguishes toral or paid cores from non-toral active cores.",
+   "attack_surface": "connect scanner equations to the banked C1a/C1b trade equations; off-laptop gate replay is evidence only",
+   "falsifier": "a known small-h trade missed by the scanner, or a paid/toral calibration core misclassified as an unpaid non-toral active core"
+  },
+  {
+   "id": "m720_official_norm_gate_case_manifest_soundness",
+   "title": "M720 official norm-gate case-manifest soundness",
+   "status": "PROVED",
+   "statement": "If a manifest covers every official-shape primitive h=7..20 norm-gate case and, for each case, supplies either a uniform nonvanishing theorem citation or a complete=true zero-survivor certificate record, then m720_official_h7_20_norm_gate_payload holds.",
+   "attack_surface": "formal coverage and accepted-record dispatch for official M720 norm-gate manifests",
+   "falsifier": "a complete valid official norm-gate manifest while the M720 payload fails"
+  },
+  {
+   "id": "m720_off_laptop_zero_certificates",
+   "title": "M720 off-laptop complete zero certificates",
+   "status": "PROVED",
+   "statement": "For the h=7..20 calibration cells used by midlarge_h7_20, complete zero-certificate payloads supply cell parameters, complete=true flags, and zero unpaid non-toral active-core counts.",
+   "attack_surface": "assembly from WSL-safe complete-cell certificates and residual off-laptop complete-cell execution",
+   "falsifier": "a complete calibration cell with nonzero unpaid non-toral active cores, or missing/false completeness metadata"
+  },
+  {
+   "id": "m720_official_exclusion",
+   "title": "M720 official-shape h=7..20 exclusion",
+   "status": "CONDITIONAL",
+   "statement": "At official-shape rows, every h=7..20 active-core candidate is empty or belongs to a charged paid structure, so the unpaid active-core contribution in this band is zero.",
+   "attack_surface": "transfer calibration/certificate structure to official-shape rows using C1a/C1b obstruction equations and the paid ledger",
+   "falsifier": "an official-shape row with an unpaid non-toral active core in the band h=7..20"
+  },
+  {
+   "id": "m720_residual_slice_metadata",
+   "title": "M720 residual slice metadata",
+   "status": "PROVED",
+   "statement": "Under the Modal count-ceiling window rule, every h=7..20 residual cell beyond the WSL-safe complete zero cells is either a W<n window slice or one of exactly two over-ceiling complete-window cells: n=32,h=16 at q~n^2 and q~n^3.",
+   "attack_surface": "mechanical replay of the Modal window-selection rule over the configured h,n,q_exp grid",
+   "falsifier": "a residual configured cell that is complete, under ceiling, and not already in the WSL-safe complete-cell list"
+  },
+  {
+   "id": "m720_official_h7_20_norm_gate_payload",
+   "title": "M720 official h=7..20 norm-gate payload",
+   "status": "CONDITIONAL",
+   "statement": "Provide either a uniform admissible-family nonvanishing theorem for the primitive h=7..20 norm-gate obstructions, or a complete named-exhibit certificate payload covering every official-shape primitive norm-gate case with zero unpaid non-toral survivors. This is reduced to the proved official case-manifest soundness rule plus the remaining actual official norm-gate case manifest payload.",
+   "attack_surface": "assembly from the case-manifest soundness rule and the actual official h=7..20 nonvanishing proof or complete machine-checkable payload for the primitive norm-gate branch",
+   "falsifier": "an uncovered official primitive norm-gate case, an incomplete certificate record, or a surviving unpaid non-toral active core"
+  },
+  {
+   "id": "m720_h3_large_gate_replay",
+   "title": "M720 large h=3 gate replay",
+   "status": "PROVED",
+   "statement": "The M720 gate arithmetic reproduces the two large h=3 banked calibration facts: full_census(128,3,17921)=18 anchored cores and full_census(256,3,65537)=129 anchored cores.",
+   "attack_surface": "memory-controlled local exact replay of the two h=3 rows using compact sorted signature records",
+   "falsifier": "a large h=3 replay returning a different anchored-core count, or a corrected banked calibration table"
+  },
+  {
+   "id": "m720_h5_n32_gate_replay",
+   "title": "M720 local h=5 n=32 gate replay",
+   "status": "PROVED",
+   "statement": "The M720 full_census arithmetic reproduces the locally bounded h=5 gate fact full_census(32,5,97)=96 unordered trades, all non-toral, with 30 anchored cores.",
+   "attack_surface": "exact standalone replay of the C(32,5) row using the same elementary-signature definitions as modal_midlarge_h7_20.py",
+   "falsifier": "a local exact replay of full_census(32,5,97) returning a count other than 96 unordered trades"
+  },
+  {
+   "id": "m720_official_paid_branch_alignment",
+   "title": "M720 official h=7..20 paid/norm-gate dichotomy",
+   "status": "PROVED",
+   "statement": "For official-shape h=7..20 active-core candidates, the x83 square-shift dichotomy applies: every candidate is either in the paid full-fiber/toral branch or is a primitive p-specific cleared-obstruction norm-gate event.",
+   "attack_surface": "formal alignment of the M720 active-core equations with the universal x83 trade obstruction dichotomy; no row-prime GCD claim",
+   "falsifier": "an official h=7..20 active-core candidate outside both the paid full-fiber branch and the x83 norm-gate branch"
+  },
+  {
+   "id": "m720_mitm_enumerator_soundness",
+   "title": "M720 MITM enumerator soundness",
+   "status": "PROVED",
+   "statement": "For the parameter range used by modal_midlarge_h7_20.py (n<=1024, W<=n, and exponents encoded in 11-bit fields), mitm_slice is an exact anchored MITM enumerator over the window [0,W): it counts exactly disjoint anchored pairs P={0} union P', Q subset {1,...,W-1}, with equal e_1,...,e_{h-1} and unequal e_h, classifies toral pairs exactly as pairs of mu_h cosets, and marks complete only when W=n and the run did not abort.",
+   "attack_surface": "static proof of the enumerator contract; independent of the expensive calibration count replay",
+   "falsifier": "a window-contained anchored trade missed by mitm_slice, a spurious counted non-trade, or an incomplete slice marked complete"
+  },
+  {
+   "id": "m720_complete_calibration_certificates",
+   "title": "M720 complete bounded-band calibration certificates",
+   "status": "PROVED",
+   "statement": "Complete calibration cells for h=7..20 have zero unpaid non-toral active cores. Any n=1024 window-slice result is explicitly labeled as slice-local and is not used as a global zero certificate.",
+   "attack_surface": "assembly from the MITM gate, proved certificate semantics, and off-laptop complete zero certificates",
+   "falsifier": "a complete calibration cell containing an unpaid non-toral active core, or a certificate that treats an incomplete window slice as a complete cell"
+  },
+  {
+   "id": "m720_wsl_complete_zero_subcertificates",
+   "title": "M720 WSL-safe complete zero subcertificates",
+   "status": "PROVED",
+   "statement": "The WSL-safe complete h=7..20 calibration cells selected by the Modal scan ceiling have complete=true and zero unpaid non-toral anchored active cores: n=16,h=7,8 at q~n^2 and q~n^3, and n=32,h=7 at q~n^2 and q~n^3.",
+   "attack_surface": "local exact anchored MITM replay for the complete cells whose combination count is at most 6,000,000",
+   "falsifier": "a WSL-safe complete calibration cell with nonzero unpaid non-toral anchored active cores, or a mismatched complete flag"
+  },
+  {
+   "id": "m720_small_gate_replay",
+   "title": "M720 local n=16 small-gate replay",
+   "status": "PROVED",
+   "statement": "The M720 full_census arithmetic reproduces the locally cheap n=16 gate facts: full_census(16,3,17)=352 trades, full_census(16,3,97)=16 trades, and full_census(16,4,17)=120 non-toral plus 6 toral.",
+   "attack_surface": "exact standalone replay of the n=16 gate rows using the same elementary-signature definitions as modal_midlarge_h7_20.py",
+   "falsifier": "a local exact replay of any n=16 gate row returning a different count"
+  },
+  {
+   "id": "m720_ground_truth_replay",
+   "title": "M720 h=3,4,5 ground-truth replay",
+   "status": "PROVED",
+   "statement": "The M720 gate arithmetic reproduces the banked h=3,4,5 calibration facts: full_census(16,3,17)=352, full_census(16,3,97)=16, full_census(128,3,17921)=18 anchored cores, full_census(256,3,65537)=129 anchored cores, full_census(16,4,17)=120 non-toral + 6 toral, and full_census(32,5,97)=96 trades.",
+   "attack_surface": "assembly from local small-gate replay and the remaining off-laptop larger calibration rows",
+   "falsifier": "any replay returning a different count, or a corrected banked calibration table"
+  },
+  {
+   "id": "m720_official_norm_gate_case_manifest_payload",
+   "title": "M720 actual official norm-gate case manifest payload",
+   "status": "TARGET",
+   "statement": "Construct the actual manifest covering every official-shape primitive h=7..20 norm-gate case, with each case discharged by a uniform nonvanishing theorem citation or a complete=true zero-survivor certificate record.",
+   "attack_surface": "project-specific official h=7..20 primitive norm-gate case enumeration and certificate manifest",
+   "falsifier": "an official primitive norm-gate case missing from the manifest, a non-complete record, or a listed record with unpaid non-toral survivors"
+  },
+  {
+   "id": "m720_remaining_gate_replay",
+   "title": "M720 remaining off-laptop gate replay",
+   "status": "PROVED",
+   "statement": "The M720 gate arithmetic reproduces the remaining banked calibration facts by combining the local h=5 n=32 replay with the two large h=3 rows: full_census(128,3,17921)=18 anchored cores, full_census(256,3,65537)=129 anchored cores, and full_census(32,5,97)=96 trades.",
+   "attack_surface": "assembly from the locally proved h=5 n=32 row and the still off-laptop h=3 large replay",
+   "falsifier": "any remaining gate replay returning a different count, or a corrected banked calibration table"
+  },
+  {
+   "id": "m720_residual_off_laptop_zero_certificates",
+   "title": "M720 residual off-laptop zero certificates",
+   "status": "PROVED",
+   "statement": "Every h=7..20 calibration cell not covered by the WSL-safe complete zero subcertificates is either explicitly outside the complete-cell certificate set as a window slice, or is one of the over-ceiling n=32,h=16 complete-window cells with a separate zero certificate.",
+   "attack_surface": "assembly from residual slice metadata and over-ceiling complete-window certificates",
+   "falsifier": "a residual complete calibration cell with nonzero unpaid non-toral active cores, or missing/false completeness metadata"
   }
  ],
  "edges": [
@@ -8465,6 +8633,151 @@
   {
    "from": "dli_harmonic_conductor_ledger",
    "to": "dli_reduced_phase_manifest_payload",
+   "kind": "req"
+  },
+  {
+   "from": "official_row_primes_pinning",
+   "to": "m720_official_h7_20_norm_gate_certificates",
+   "kind": "req"
+  },
+  {
+   "from": "m720_mitm_gate",
+   "to": "m720_complete_calibration_certificates",
+   "kind": "req"
+  },
+  {
+   "from": "m720_certificate_semantics",
+   "to": "m720_complete_calibration_certificates",
+   "kind": "req"
+  },
+  {
+   "from": "m720_off_laptop_zero_certificates",
+   "to": "m720_complete_calibration_certificates",
+   "kind": "req"
+  },
+  {
+   "from": "m720_wsl_complete_zero_subcertificates",
+   "to": "m720_off_laptop_zero_certificates",
+   "kind": "req"
+  },
+  {
+   "from": "m720_residual_off_laptop_zero_certificates",
+   "to": "m720_off_laptop_zero_certificates",
+   "kind": "req"
+  },
+  {
+   "from": "m720_residual_slice_metadata",
+   "to": "m720_residual_off_laptop_zero_certificates",
+   "kind": "req"
+  },
+  {
+   "from": "m720_overceiling_complete_window_certificates",
+   "to": "m720_residual_off_laptop_zero_certificates",
+   "kind": "req"
+  },
+  {
+   "from": "m720_mitm_enumerator_soundness",
+   "to": "m720_mitm_gate",
+   "kind": "req"
+  },
+  {
+   "from": "m720_ground_truth_replay",
+   "to": "m720_mitm_gate",
+   "kind": "req"
+  },
+  {
+   "from": "m720_small_gate_replay",
+   "to": "m720_ground_truth_replay",
+   "kind": "req"
+  },
+  {
+   "from": "m720_h5_n32_gate_replay",
+   "to": "m720_remaining_gate_replay",
+   "kind": "req"
+  },
+  {
+   "from": "m720_h3_large_gate_replay",
+   "to": "m720_remaining_gate_replay",
+   "kind": "req"
+  },
+  {
+   "from": "m720_remaining_gate_replay",
+   "to": "m720_ground_truth_replay",
+   "kind": "req"
+  },
+  {
+   "from": "m720_complete_calibration_certificates",
+   "to": "m720_official_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "m720_official_paid_branch_alignment",
+   "to": "m720_official_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "m720_official_h7_20_norm_gate_certificates",
+   "to": "m720_official_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "m720_certificate_semantics",
+   "to": "m720_official_norm_gate_certificate_soundness",
+   "kind": "req"
+  },
+  {
+   "from": "m720_official_paid_branch_alignment",
+   "to": "m720_official_norm_gate_certificate_soundness",
+   "kind": "req"
+  },
+  {
+   "from": "m720_official_norm_gate_certificate_soundness",
+   "to": "m720_official_h7_20_norm_gate_certificates",
+   "kind": "req"
+  },
+  {
+   "from": "m720_official_norm_gate_case_manifest_soundness",
+   "to": "m720_official_h7_20_norm_gate_payload",
+   "kind": "req"
+  },
+  {
+   "from": "m720_official_norm_gate_case_manifest_payload",
+   "to": "m720_official_h7_20_norm_gate_payload",
+   "kind": "req"
+  },
+  {
+   "from": "m720_official_h7_20_norm_gate_payload",
+   "to": "m720_official_h7_20_norm_gate_certificates",
+   "kind": "req"
+  },
+  {
+   "from": "x83_uniform_square_shift_obstruction_gate",
+   "to": "m720_official_paid_branch_alignment",
+   "kind": "req"
+  },
+  {
+   "from": "a_universal_trade_variety",
+   "to": "m720_official_paid_branch_alignment",
+   "kind": "req"
+  },
+  {
+   "from": "m720_mitm_gate",
+   "to": "m720_official_paid_branch_alignment",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_mitm_gate",
+   "to": "midlarge_h7_20",
+   "kind": "req"
+  },
+  {
+   "from": "m720_complete_calibration_certificates",
+   "to": "midlarge_h7_20",
+   "kind": "req"
+  },
+  {
+   "from": "m720_official_exclusion",
+   "to": "midlarge_h7_20",
    "kind": "req"
   }
  ]

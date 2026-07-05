@@ -868,6 +868,111 @@
    "title": "List unsafe at gate: qcore counting (conventions pending)"
   },
   {
+   "id": "m720_certificate_semantics",
+   "label": "PROVED",
+   "title": "M720 calibration certificate semantics"
+  },
+  {
+   "id": "m720_complete_calibration_certificates",
+   "label": "PROVED",
+   "title": "M720 complete bounded-band calibration certificates"
+  },
+  {
+   "id": "m720_ground_truth_replay",
+   "label": "PROVED",
+   "title": "M720 h=3,4,5 ground-truth replay"
+  },
+  {
+   "id": "m720_h3_large_gate_replay",
+   "label": "PROVED",
+   "title": "M720 large h=3 gate replay"
+  },
+  {
+   "id": "m720_h5_n32_gate_replay",
+   "label": "PROVED",
+   "title": "M720 local h=5 n=32 gate replay"
+  },
+  {
+   "id": "m720_mitm_enumerator_soundness",
+   "label": "PROVED",
+   "title": "M720 MITM enumerator soundness"
+  },
+  {
+   "id": "m720_mitm_gate",
+   "label": "PROVED",
+   "title": "M720 MITM correctness gate"
+  },
+  {
+   "id": "m720_off_laptop_zero_certificates",
+   "label": "PROVED",
+   "title": "M720 off-laptop complete zero certificates"
+  },
+  {
+   "id": "m720_official_exclusion",
+   "label": "CONDITIONAL",
+   "title": "M720 official-shape h=7..20 exclusion"
+  },
+  {
+   "id": "m720_official_h7_20_norm_gate_certificates",
+   "label": "CONDITIONAL",
+   "title": "M720 official h=7..20 norm-gate certificates"
+  },
+  {
+   "id": "m720_official_h7_20_norm_gate_payload",
+   "label": "CONDITIONAL",
+   "title": "M720 official h=7..20 norm-gate payload"
+  },
+  {
+   "id": "m720_official_norm_gate_case_manifest_payload",
+   "label": "UNPROVED",
+   "title": "M720 actual official norm-gate case manifest payload"
+  },
+  {
+   "id": "m720_official_norm_gate_case_manifest_soundness",
+   "label": "PROVED",
+   "title": "M720 official norm-gate case-manifest soundness"
+  },
+  {
+   "id": "m720_official_norm_gate_certificate_soundness",
+   "label": "PROVED",
+   "title": "M720 official norm-gate certificate soundness"
+  },
+  {
+   "id": "m720_official_paid_branch_alignment",
+   "label": "PROVED",
+   "title": "M720 official h=7..20 paid/norm-gate dichotomy"
+  },
+  {
+   "id": "m720_overceiling_complete_window_certificates",
+   "label": "PROVED",
+   "title": "M720 over-ceiling complete-window certificates"
+  },
+  {
+   "id": "m720_remaining_gate_replay",
+   "label": "PROVED",
+   "title": "M720 remaining off-laptop gate replay"
+  },
+  {
+   "id": "m720_residual_off_laptop_zero_certificates",
+   "label": "PROVED",
+   "title": "M720 residual off-laptop zero certificates"
+  },
+  {
+   "id": "m720_residual_slice_metadata",
+   "label": "PROVED",
+   "title": "M720 residual slice metadata"
+  },
+  {
+   "id": "m720_small_gate_replay",
+   "label": "PROVED",
+   "title": "M720 local n=16 small-gate replay"
+  },
+  {
+   "id": "m720_wsl_complete_zero_subcertificates",
+   "label": "PROVED",
+   "title": "M720 WSL-safe complete zero subcertificates"
+  },
+  {
    "id": "m_handling",
    "label": "PROVED",
    "title": "Interleaved m-handling per the official quantifier"
@@ -899,7 +1004,7 @@
   },
   {
    "id": "midlarge_h7_20",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "midlarge h7 20"
   },
   {
@@ -3070,6 +3175,118 @@
   {
    "from": "dli_harmonic_conductor_ledger",
    "to": "dli_reduced_phase_manifest_payload"
+  },
+  {
+   "from": "official_row_primes_pinning",
+   "to": "m720_official_h7_20_norm_gate_certificates"
+  },
+  {
+   "from": "m720_mitm_gate",
+   "to": "m720_complete_calibration_certificates"
+  },
+  {
+   "from": "m720_certificate_semantics",
+   "to": "m720_complete_calibration_certificates"
+  },
+  {
+   "from": "m720_off_laptop_zero_certificates",
+   "to": "m720_complete_calibration_certificates"
+  },
+  {
+   "from": "m720_wsl_complete_zero_subcertificates",
+   "to": "m720_off_laptop_zero_certificates"
+  },
+  {
+   "from": "m720_residual_off_laptop_zero_certificates",
+   "to": "m720_off_laptop_zero_certificates"
+  },
+  {
+   "from": "m720_residual_slice_metadata",
+   "to": "m720_residual_off_laptop_zero_certificates"
+  },
+  {
+   "from": "m720_overceiling_complete_window_certificates",
+   "to": "m720_residual_off_laptop_zero_certificates"
+  },
+  {
+   "from": "m720_mitm_enumerator_soundness",
+   "to": "m720_mitm_gate"
+  },
+  {
+   "from": "m720_ground_truth_replay",
+   "to": "m720_mitm_gate"
+  },
+  {
+   "from": "m720_small_gate_replay",
+   "to": "m720_ground_truth_replay"
+  },
+  {
+   "from": "m720_h5_n32_gate_replay",
+   "to": "m720_remaining_gate_replay"
+  },
+  {
+   "from": "m720_h3_large_gate_replay",
+   "to": "m720_remaining_gate_replay"
+  },
+  {
+   "from": "m720_remaining_gate_replay",
+   "to": "m720_ground_truth_replay"
+  },
+  {
+   "from": "m720_complete_calibration_certificates",
+   "to": "m720_official_exclusion"
+  },
+  {
+   "from": "m720_official_paid_branch_alignment",
+   "to": "m720_official_exclusion"
+  },
+  {
+   "from": "m720_official_h7_20_norm_gate_certificates",
+   "to": "m720_official_exclusion"
+  },
+  {
+   "from": "m720_certificate_semantics",
+   "to": "m720_official_norm_gate_certificate_soundness"
+  },
+  {
+   "from": "m720_official_paid_branch_alignment",
+   "to": "m720_official_norm_gate_certificate_soundness"
+  },
+  {
+   "from": "m720_official_norm_gate_certificate_soundness",
+   "to": "m720_official_h7_20_norm_gate_certificates"
+  },
+  {
+   "from": "m720_official_norm_gate_case_manifest_soundness",
+   "to": "m720_official_h7_20_norm_gate_payload"
+  },
+  {
+   "from": "m720_official_norm_gate_case_manifest_payload",
+   "to": "m720_official_h7_20_norm_gate_payload"
+  },
+  {
+   "from": "m720_official_h7_20_norm_gate_payload",
+   "to": "m720_official_h7_20_norm_gate_certificates"
+  },
+  {
+   "from": "x83_uniform_square_shift_obstruction_gate",
+   "to": "m720_official_paid_branch_alignment"
+  },
+  {
+   "from": "a_universal_trade_variety",
+   "to": "m720_official_paid_branch_alignment"
+  },
+  {
+   "from": "m720_mitm_gate",
+   "to": "midlarge_h7_20"
+  },
+  {
+   "from": "m720_complete_calibration_certificates",
+   "to": "midlarge_h7_20"
+  },
+  {
+   "from": "m720_official_exclusion",
+   "to": "midlarge_h7_20"
   },
   {
    "from": "acl_second_order",
