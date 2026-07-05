@@ -1,5 +1,5 @@
 # dli_dirichlet_log_integral
-- **status:** TARGET
+- **status:** CONDITIONAL
 ## Statement
 DLI_j(eps_j): for every central profile M and every nonzero frequency lambda,
 -sum_y log |mu_hat_y(P_lambda(sigma(y)))|^2 >= 2(L_j - eps_j) log q - O(1)
@@ -16,3 +16,11 @@ average gives only q^{-L} — geometric behavior is required. CALIBRATION
 mu_32 ternary eta*/L = 3.6e-7 (essentially flat); signed midpoint is the
 stress case (eta*/L = 0.019 at mu_32, decreasing with N); m = 1 optimal for
 signed domains (the Z_y zero-atom).
+
+## Conditional decomposition
+
+This node is conditional on `dli_log_integral_equidistribution`.
+
+The exact circle constant is closed by `dli_circle_log_integral_constant`.
+The remaining analytic input below the log-integral predicate is
+`dli_odd_evaluation_discrepancy`.
