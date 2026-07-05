@@ -4158,7 +4158,8 @@
    "status": "TARGET",
    "statement": "Construct the actual inventory of every B-defined pole-free horizontal cycle produced after full-orbit descent, with each cycle certified as base-descended, proper-subfield/tower-confined, or noncontainment-degenerate.",
    "attack_surface": "project-specific EF extension-fiber cycle enumeration and classification",
-   "falsifier": "a descended pole-free cycle missing from the inventory, or an inventory label whose base/tower/noncontainment certificate fails"
+   "falsifier": "a descended pole-free cycle missing from the inventory, or an inventory label whose base/tower/noncontainment certificate fails",
+   "notes": "| ATTACK (node 3): completeness assembly \u2014 3 exit classes all PROVED (full-orbit descent, galois-stabilizer descent, noncontainment); ext_pole_floor forces pole-free off genuinely-E. Open = no hidden-fiber leakage. Pro brief issued; likely close-by-assembly per repo referee note. Closes ef_ru -> f1_full_field_pole_forcing."
   },
   {
    "id": "ef_descended_cycle_inventory_soundness",
