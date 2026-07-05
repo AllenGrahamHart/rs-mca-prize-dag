@@ -26,3 +26,13 @@ is exactly that the ACTUAL map-partition puts o(L_j) mass on small blocks (large
 support). This is load-bearing and consistent with the calibration eta*/L=3.6e-7
 (which flatness requires large blocks); if the real partition had linear small-block
 mass, DLI would fail. => new deepest leaf: dli_prime_weighted_large_block_support.
+
+## REPOSE (2026-07-05): sup -> U-weighted average
+The claim this node carries is now the U-WEIGHTED form (E_U over central profiles),
+matching the re-posed leaf (weighted average / RES count) and the endpoint (b2b
+U-weighted average of prod rho_j). The pointwise reduction above is UNCHANGED — it is
+applied per-profile inside the average. Why the weighted form is safe where the sup
+failed: low-mass profiles (all-singleton blocks, X_j ~ L_j, |mu_hat|=1) falsify the
+sup but carry weight fraction <= 2^{-501 L_j} against penalty q^{L_j} = 2^{256 L_j}
+— net 2^{-245 L_j} (verified; matches Codex's alpha=256 envelope -0.9639 ~ -245/256
+and its exact weighted DPs, rho = 1.000000 flat).

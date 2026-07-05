@@ -29,3 +29,13 @@ sum_{r in X} m_{j,r} ] = o(L_j). Sufficient concrete version: #{active blocks at
 level j}=O((log n)^A), cond_{j,r}=O((log n)^B), m_{j,r} << |A_{j,r}|, exceptional
 mass o(L_j) — then S_{j,lambda} << (log n)^{A+2B} = o(L_j). This is a CONCRETE
 structural/counting question about the DLI residue blocks (possibly checkable).
+
+## REPOSE (2026-07-05): sup -> U-weighted average
+The claim this node carries is now the U-WEIGHTED form (E_U over central profiles),
+matching the re-posed leaf (weighted average / RES count) and the endpoint (b2b
+U-weighted average of prod rho_j). The pointwise reduction above is UNCHANGED — it is
+applied per-profile inside the average. Why the weighted form is safe where the sup
+failed: low-mass profiles (all-singleton blocks, X_j ~ L_j, |mu_hat|=1) falsify the
+sup but carry weight fraction <= 2^{-501 L_j} against penalty q^{L_j} = 2^{256 L_j}
+— net 2^{-245 L_j} (verified; matches Codex's alpha=256 envelope -0.9639 ~ -245/256
+and its exact weighted DPs, rho = 1.000000 flat).
