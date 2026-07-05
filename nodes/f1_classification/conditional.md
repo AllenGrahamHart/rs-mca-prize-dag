@@ -1,14 +1,8 @@
-# f1_classification conditional proof
-## Predicate nodes
-- `f1_full_field_pole_forcing`
-- `f1_case_pole`
-## Claim
-The trichotomy: every F-valued bad slope above the reserve is B-pencil-rational,
-pole-type, or tower-confined — each priced.
-## Proof
-Take a bad slope. If confined to a proper subfield: case (iii), PROVED
-(f1_case_tower — minimal-field descent + the two ledgers per level). If
-genuinely F-valued: f1_full_field_pole_forcing (predicate 1) forces the pole
-mechanism unless the data is B-rational; the B-rational branch is priced by
-b_rational_lift (PROVED); the pole branch by f1_case_pole (predicate 2).
-Exhaustive by construction; no fourth case.
+# conditional: f1_classification (refreshed 2026-07-06)
+
+Hypotheses (matches wiring):
+- b_rational_lift (PROVED)  - f1_case_tower (PROVED)  - f1_minimal_field_descent (PROVED)
+- f1_full_field_pole_forcing (PROVED)  - f1_case_pole (CONDITIONAL)
+
+Trichotomy: every F-valued bad slope above the reserve is (i) B-pencil-rational,
+(ii) pole-type, or (iii) subfield-confined -- (i)/(iii) proved, (ii) = f1_case_pole.

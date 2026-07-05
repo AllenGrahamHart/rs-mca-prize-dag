@@ -21,6 +21,8 @@ intermediate-subfield/tower-confined.
 The B-rational class is priced by `b_rational_lift`. The pole class is priced
 by `f1_case_pole`, whose own dependencies carry the imported extension-pole
 list bridge. The tower-confined class is priced by `f1_case_tower`.
+The historical `ext_import` and `generating_escape` edges are support for those
+case packets, not extra logical predicates of this assembly step.
 
 These classes are exhaustive by `f1_classification`, so assembling the three
 case ledgers proves the extension-lift classification. The remaining open

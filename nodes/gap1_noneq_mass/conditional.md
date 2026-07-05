@@ -3,13 +3,11 @@
 ## Predicate nodes
 
 - `gap1_product_model`
-- `tr_joint_telescope`
-- `tr_perleaf_list_ident`
 
 ## Claim
 
 The non-equivariant periodic escape stratum is bounded by `poly(n) * FM` once
-the product model and TR terminal-reserve predicates are available.
+the product-model predicate is available.
 
 ## Proof
 
@@ -18,16 +16,13 @@ agreement object decomposes into isotypic character pieces. The non-equivariant
 case is precisely the multi-isotypic case: more than one character contributes
 on the stable stratum.
 
-The predicate `gap1_product_model` removes cross-character amplification: the
-multi-isotypic mass is bounded by the per-character product along the field
-tower. Therefore any possible super-polynomial contribution must come from the
-terminal product of per-character sets.
-
-The predicates `tr_joint_telescope` and `tr_perleaf_list_ident` are exactly the
-terminal reserve chain. They telescope active characters to the joint
-stabilizer and identify the remaining leaf with a quotient-row exact-list
-instance supplied by the list lane.
+The predicate `gap1_product_model` packages the already-banked tower product
+mechanism together with the terminal-reserve reduction: cross-character
+amplification is removed, active characters telescope to the joint stabilizer,
+and the remaining leaf is identified with the quotient-row exact-list supply.
+Those internal ingredients are tracked as evidence/support for
+`gap1_product_model`, not as separate logical predicates of this parent.
 
 Thus the terminal product is at most `poly(n) * FM`, and the whole
 non-equivariant periodic stratum satisfies the GAP-1 bound conditionally on
-those predicates.
+`gap1_product_model`.

@@ -46,6 +46,12 @@ NOTES: (B) DECOMPOSED (roadmap-lane): B1 the char-0 giant coset theorem — PROV
 For each official row (p, n, t): either (a) prove no super-logarithmic disjoint family of primitive (non-quotient, non-dihedral) t-moment-null blocks exists in the row domain — then the four-column split's moment column is empty/log-bounded there; or (b) enumerate/charge the existing families as the MomentTradeStaircase column with exact counts. Includes the full PTE-trade version (pairs P, Q with matching first-t power sums). This is per-prime c
 NOTES: Reframed by the unification: the per-row question is 'which polynomial-fiber block families (zero top-t coefficient maps) exist in the row domain' — E37's census language updated; the Luroth frame may make the exclusion provable by degree arithmetic 
 
+## Wired hypotheses of the interface (complete, audit-aligned 2026-07-06)
+- dli_prime_weighted_large_block_support (FRONTIER red)
+- u2c_giant_tnull_dichotomy (SURFACED red)
+- u1_pullback_dichotomy (red; pre-existing hypothesis of this node)
+- moment_trade_staircase (PROVED; pre-existing hypothesis of this node)
+
 ## Reattached side-inputs
 - b2b_dyadic_descent_packet [PROVED]
 - b2b_near_tail_bound [PROVED]

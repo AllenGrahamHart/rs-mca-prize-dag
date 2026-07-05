@@ -9,8 +9,9 @@
 - `corridor_ledger`
 - `rate_half_band_closure`
 
-The remaining required arithmetic inputs of this node feed the corridor ledger
-or the pointwise crossing decisions directly:
+The arithmetic inputs below are not separate logical predicates of this node
+after the weakening audit: they feed `corridor_ledger`, whose proved packet is
+the single corridor-eater predicate consumed here.
 
 - `acl_second_order`
 - `corridor_window_cleanup`
@@ -35,8 +36,7 @@ handles the remaining exact Diophantine windows.
 
 The safe-side aperiodic contribution at the crossing candidates is supplied by
 `aperiodic_zero_at_crossing`. The three priced corridor eaters are assembled by
-`corridor_ledger`, consuming `acl_second_order`, `corridor_window_cleanup`, and
-`corridor_ext_crossing`. Finally, `rate_half_band_closure` supplies the
+`corridor_ledger`. Finally, `rate_half_band_closure` supplies the
 otherwise-uncovered rate-1/2 band, so the for-each-admissible-row quantifier has
 no remaining exception.
 

@@ -1,13 +1,9 @@
-# conditional proof: f1_case_pole
+# conditional: f1_case_pole
 
-- **status:** CONDITIONAL
-- **closure:** proof
+Two-predicate proof packet (audit repair 2026-07-06, replacing ledger-only prose):
+- ext_import (PROVED): the imported list term prices pole-type slopes.
+- f1_pole_list_threshold_location (CONDITIONAL): locates the list-side threshold the
+  import consumes (N(L) crosses the MCA gate exactly when the base list crosses L ~ 2^128).
 
-## Source
-
-Vendored from the working record; primary artifact(s):
-- `proof_sketch/s6_extension_lift.md#4`
-
-## Ledger
-
-priced by ext_import (green); the second condition — the list-side location — was PROSE-ONLY until the 2026-07-04 normal-form audit; now wired as req on f1_pole_list_threshold_location.
+Implication: every pole-type F-valued bad slope above the reserve is priced by the
+imported list term at the located threshold. Consumed by ext_lift / f1_classification.
