@@ -131,12 +131,15 @@ def branch_for_rate(rate: Fraction) -> str:
 
 def assumptions_for_rate(rate: Fraction) -> list[str]:
     assumptions = [
-        # 2026-07-05: dli sup REFUTED -> re-posed to U-weighted-average/RES count
-        # (same B_C bound); petal gates N/D/L mid-stabilization (primitive-coordinate
-        # foundation out for definition). These change proof route, not delta value.
-        "critical_8_open_nodes_close_in_current_reposed_form_2026_07_05",
+        # 2026-07-05 EOD (post falsification-pruning + frontier retractions): the
+        # critical board is 6 reds -- dli (weighted/RES), e22, rate_half, petal_growth,
+        # u1_pullback_dichotomy, xr_smallcore_spread_count. Retired names (PRK, petal
+        # gates N/D/L, chargeability, sov/m720 branches) live in archive/. Route
+        # changes only; the B_C counting bound this tool evaluates is unchanged.
+        "critical_6_reds_close_in_current_form_2026_07_05_EOD",
         "dli_weighted_average_RES_count_holds",
-        "petal_gates_N_D_L_close_via_primitive_coordinate_foundation",
+        "petal_growth_poly_extras_uniform_in_c",
+        "u1_pullback_dichotomy_and_xr_spread_count_hold",
         "mca_safe_conditional_chain_sound",
         "adjacency_closing_conditional_chain_sound",
         "crossing_localization_monotonicity_integrality_applies",
