@@ -73,6 +73,19 @@ def main() -> None:
         if e["kind"] == "req" and nodes[e["from"]]["status"] == "REFUTED":
             errors.append(f"REFUTED node {e['from']} is a 'req' child of {e['to']}")
 
+    # RED-LEAF LAW (added 2026-07-05): a TARGET/CONJECTURE with proof closure is an
+    # open obligation — no implication is proved, so nothing can be its logical
+    # hypothesis. Such nodes must be logical LEAVES: only 'ev'/'ref' in-edges.
+    # (Deliverable-assembly targets, closure == 'artifact', are exempt: their req
+    # edges mean staged ingredients / RIPE-when-green.)
+    for n in data["nodes"]:
+        if n["status"] in ("TARGET", "CONJECTURE") and n.get("closure") != "artifact":
+            badk = [(f, k) for (f, k) in inc[n["id"]] if k in ("req", "alt")]
+            if badk:
+                errors.append(
+                    f"{n['id']}: {n['status']} (proof closure) has logical in-edges "
+                    f"{badk[:3]} — reds must be leaves; use kind 'ev' for evidence/ingredients")
+
     # leaf-conditional invariant (added 2026-07-05): CONDITIONAL means "implication
     # proved, pending wired req nodes" — a CONDITIONAL with no incoming req/alt edge
     # is hiding its hypotheses in prose (hidden red). auto_discharge skips zero-req
