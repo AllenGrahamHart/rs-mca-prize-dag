@@ -1,40 +1,24 @@
-# x4_exactlist_staircase_split conditional proof
+# conditional: x4_exactlist_staircase_split
 
-## Predicate nodes
+Hypotheses (matches wiring after full-lane compression):
+- dli_prime_weighted_large_block_support (FRONTIER red: weighted/RES count)
+- u2c_giant_tnull_dichotomy (SURFACED red: giant t-null dichotomy)
+- u1_pullback_dichotomy (red: compression theorem)
+- b2b_dyadic_descent_packet
+- b2b_near_tail_bound
+- bounded_coeff_norm_gate
+- dli_artin_schreier_conductor_criterion
+- dli_circle_log_integral_constant
+- dli_deligne_weyl_transfer
+- dli_et_peak_mass_reduction
+- dli_odd_phase_budget_ledger_soundness
+- dli_odd_phase_polar_obstruction_soundness
+- dli_phase_pole_conductor_manifest
+- dli_reduced_phase_manifest_soundness
+- dli_reduced_pole_majorant_table_soundness
+- dli_truncated_log_transfer
+- skew_support_threshold
+- subfield_trace_paid_gate
+- u2_per_row_certifier
 
-- `moment_trade_staircase`
-- `x4b_moment_trade_exclusion`
-- `u1_pullback_dichotomy`
-
-## Claim
-
-The corrected exact-list split follows from the charged staircase mechanisms,
-the p-specific moment-trade handling, and the post-dictionary primitive cap.
-
-## Proof
-
-Partition an exact-list family by the first cancellation mechanism visible in
-the locator differences.
-
-The quotient and dihedral staircase families are explicit charged columns:
-their locator forms are printed in the node statement, and their counts are
-the exact binomial columns already checked by the QA.22 arithmetic.
-
-If the cancellation comes from a primitive `t`-moment-null block, then
-`moment_trade_staircase` shows that it is a genuine staircase column of the
-same kind: the top `t` locator coefficients vanish, so unions of such blocks
-preserve the top coefficients and produce exact-list witnesses. The predicate
-`x4b_moment_trade_exclusion` either removes these families at the official row
-or emits their exact charged column.
-
-After quotient, dihedral, and moment-trade columns are stripped, every
-remaining same-top-`t` locator family is in the primitive no-trade remainder.
-The predicate `u1_pullback_dichotomy` is precisely the post-dictionary
-compression statement for that remainder: all but `<= n^2` canonical trades are
-charged by the finite pullback dictionary. Hence the PrimitiveExactList term is
-bounded by the advertised `n^2` target.
-
-The quotient-row transport is identical because each ingredient is formulated
-in terms of locator coefficients and stable pullback dictionaries, which
-commute with the quotient-row substitution. Thus the corrected split is
-conditional exactly on the three predicate nodes above.
+Composed proof: REDUCTION_PACKET.md.
