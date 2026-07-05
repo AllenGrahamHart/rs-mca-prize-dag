@@ -790,10 +790,11 @@
   {
    "id": "a_regular_collapse",
    "title": "a-regular collapse: interleaved = base (exponent 1)",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "refs": [
     "proof_sketch/s7_list_side.md#3"
-   ]
+   ],
+   "statement": "DEMOTED 2026-07-06: was CONDITIONAL with no statement anywhere (dag or folder) -- an unauditable implication. Re-pose before use."
   },
   {
    "id": "a_regularity_forcing",
@@ -1522,11 +1523,12 @@
   {
    "id": "free_pool_ladder",
    "title": "thm:ladder: polynomial-range free-pool ladder",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "refs": [
     "tex/slackMCA_v4.tex"
    ],
-   "notes": "conditional on a precise subgroup exponential-sum import"
+   "notes": "conditional on a precise subgroup exponential-sum import",
+   "statement": "DEMOTED 2026-07-06: was CONDITIONAL with no statement anywhere (dag or folder) -- an unauditable implication. Re-pose before use."
   },
   {
    "id": "subgroup_expsum_input",
@@ -1550,11 +1552,12 @@
   {
    "id": "m_le3_route",
    "title": "Worst-case interleaved route for m <= 3 (given base exponent ~1)",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "notes": "proved-modulo: imgfib at exponent ~1 AND the rules reading; budget 128/(m*40) verified",
    "refs": [
     "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#1"
-   ]
+   ],
+   "statement": "DEMOTED 2026-07-06: was CONDITIONAL with no statement anywhere (dag or folder) -- an unauditable implication. Re-pose before use."
   },
   {
    "id": "rules_m_reading",
@@ -5068,7 +5071,7 @@
   {
    "from": "a_regularity_forcing",
    "to": "a_regular_collapse",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "m_sweep",
@@ -5758,7 +5761,7 @@
   {
    "from": "subgroup_expsum_input",
    "to": "free_pool_ladder",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "free_pool_ladder",
@@ -5783,12 +5786,12 @@
   {
    "from": "rules_m_reading",
    "to": "m_le3_route",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "imgfib",
    "to": "m_le3_route",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "imgfib_monomial",
@@ -8234,6 +8237,556 @@
    "from": "rate_half_band_closure",
    "to": "mca_safe",
    "kind": "req"
+  },
+  {
+   "from": "xr_sunflower_rank_additive",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_triangle_eliminant_form",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_eliminant_vanishing_class",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "p1_post_paid_subcore_richline_cap",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "p3_affine_net_richline_residue",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "u2_large_characteristic_lift",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "a2_depth_cell_residual_occupancy",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "u2c_giant_block_dichotomy",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "splitpair_lowq_falsifier",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "pte_h2_rung",
+   "to": "u1_pullback_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "h3_param_lemma",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "w4_direct_column_rewiring",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "h4_terminal_dichotomy",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "x24_char0_dyadic_descent",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "x81_minimal_trade_square_shift",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "x82_square_shift_certifier_keys",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "x83_uniform_square_shift_obstruction_gate",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "a_universal_trade_variety",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "a2_laurent_finiteness",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "a3_good_reduction_lemma",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "b1_char0_giant_coset_theorem",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "h_window_derivation",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "c1a_lowh_direct_certificates",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "c1b_descent_injection",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "value_set_partner_cap",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "star_pte_support_bound",
+   "to": "u1_pullback_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "m1_trade_bijection",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m2_antinorm_lever",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "midlarge_partner_cap_reduction",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "subcore_richline_classification",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "pcf_norm_gate_flatness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_averaged_quotient_box",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_deficit_arithmetic",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_c2_average_family",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_family_certificate_semantics",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_c2_family_certificate_payload",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_coupled_family_entropy_manifest_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_coupled_family_entropy_manifest_payload",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_box_charge_amortization",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_amortization_threshold_accounting",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_shared_entropy_gain",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_entropy_ledger_certificate_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "aqb_shared_entropy_gain_payload",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_minor_specialization_certificate_semantics",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_triangular_minor_certificate_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_profile_eliminant_nonvanishing",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_profile_minor_certificate_payload",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_coordinate_hypersurface_reduction",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_profile_minor_certificate_coverage",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_profile_minor_record_inventory_payload",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_profile_minor_record_inventory_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "petal_residue_kernel_linear_bound",
+   "to": "petal_growth",
+   "kind": "ev"
+  },
+  {
+   "from": "petal_squarefree_classification_counting_soundness",
+   "to": "petal_growth",
+   "kind": "ev"
+  },
+  {
+   "from": "petal_squarefree_classification_ledger_soundness",
+   "to": "petal_growth",
+   "kind": "ev"
+  },
+  {
+   "from": "petal_realizable_kernel_injection",
+   "to": "petal_growth",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_active_core_obstruction_vanishing",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_first_obstruction_sensitivity",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_forced_root_recursion_algebra",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_hminus1_fiber_fourier_duality",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_nonconstant_affine_character_cancellation",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_forced_root_correctness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "sov_affine_piece_partition_certificate_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_official_norm_gate_certificate_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_certificate_semantics",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_overceiling_complete_window_certificates",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_mitm_gate",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_official_norm_gate_case_manifest_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_off_laptop_zero_certificates",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_residual_slice_metadata",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_h3_large_gate_replay",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_h5_n32_gate_replay",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_official_paid_branch_alignment",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_mitm_enumerator_soundness",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_complete_calibration_certificates",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_wsl_complete_zero_subcertificates",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_small_gate_replay",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_ground_truth_replay",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_remaining_gate_replay",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "m720_residual_off_laptop_zero_certificates",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_dyadic_local_to_common_saturation",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_cross_scale_pricing_multiplicity",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_overlap_nested_fiber_residual_identity",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_fiber_locator_saturation",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_minimal_scale_count_formula",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_dyadic_chain_mobius_accounting",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_weighted_intersection_certificate_soundness",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_planted_profile_disjointness",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_residual_minimality_multiplicity_filter",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_tail_removed_factor_manifest_soundness",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_dyadic_minimal_scale_selector",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_tail_coset_locator_algebra",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_fixed_scale_staircase_injectivity",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_minimal_scale_overlap_counts",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_kernel_invariance_full_fiber_criterion",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_lower_scale_intersection_formula_payload",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_lower_scale_filter_inclusion_exclusion",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_minimal_scale_pricing_compatibility",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_minimal_scale_tail_criterion",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_cross_scale_support_canonical_form",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_residual_profile_generating_function",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_agreement_cofactor_equations",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_common_tail_invariance_certificate_soundness",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_minimal_scale_column_evaluation",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_cofactor_petal_divisibility",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_minimal_scale_partition",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_lower_scale_intersection_profile_counts",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_cross_scale_rootset_recovery",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_tail_removed_quotient_factor_passthrough",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_overlap_residual_profile_formula",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
+  },
+  {
+   "from": "q_cofactor_normal_form",
+   "to": "worst_word_challenger_pricing",
+   "kind": "ev"
   }
  ]
 }
