@@ -4321,7 +4321,8 @@
    "status": "TARGET",
    "statement": "Construct the actual Petal squarefree classification ledger covering every squarefree realizable locator point in the residue-line kernels by charged class records or uniformly polynomial uncharged class records, with the number of uncharged classes independent of c.",
    "attack_surface": "project-specific structural classification of squarefree realizable kernel families",
-   "falsifier": "a squarefree realizable kernel family missing from the ledger, charged without a paid citation, or uncharged without a c-independent polynomial bound"
+   "falsifier": "a squarefree realizable kernel family missing from the ledger, charged without a paid citation, or uncharged without a c-independent polynomial bound",
+   "notes": "| CENSUS RAN, INCONCLUSIVE (Modal): measures RAW extras (0->462 threshold jump, = charged coset mass) not the UNCHARGED residual the claim bounds; raw dim_K exceeds Lemma 13 c+1 (scope flag for audit). Needs a REFINED census separating charged/uncharged + flatness of the uncharged count in c."
   },
   {
    "id": "petal_mixed_amplification_step",
