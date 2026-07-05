@@ -73,6 +73,18 @@ def main() -> None:
         if e["kind"] == "req" and nodes[e["from"]]["status"] == "REFUTED":
             errors.append(f"REFUTED node {e['from']} is a 'req' child of {e['to']}")
 
+    # leaf-conditional invariant (added 2026-07-05): CONDITIONAL means "implication
+    # proved, pending wired req nodes" — a CONDITIONAL with no incoming req/alt edge
+    # is hiding its hypotheses in prose (hidden red). auto_discharge skips zero-req
+    # conditionals, so without this check they sit amber forever, unaudited.
+    for n in data["nodes"]:
+        if n["status"] == "CONDITIONAL":
+            kinds = [k for (_, k) in inc[n["id"]]]
+            if "req" not in kinds and "alt" not in kinds:
+                errors.append(
+                    f"{n['id']}: CONDITIONAL with no wired hypotheses (leaf-conditional; "
+                    "wire the conditions as nodes or demote to TARGET)")
+
     # acyclicity (iterative DFS) + reachability to root
     color: dict[str, int] = {}
     for start in nodes:
