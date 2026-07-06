@@ -7,6 +7,16 @@ BREAK it before Pro is asked to prove it. Fresh worktree from latest master,
 own branch, Modal < 60s per run, checkpoint JSON, ledger with replay commands
 at `experiments/dli_gap_attack/ledger.md`.
 
+## ROUND-2 UPDATE (2026-07-06): the target display changed
+Pro refuted "W <= 3" as literally stated (verified: low-q rows have huge BALANCED W).
+The row-uniform re-posed target is **E_U[rho] <= 4 per level, i.e. sum_(lambda!=0)
+T(lambda) <= 3** (see DLI_CLOSE_PINNED.md round-2 update). Your attacks 1-3 (trade
+hunts) still matter — trades at TOP-of-range rows move E — but re-weight your effort:
+attack 4 (the analytic margin / near-peak lambda census) is now THE crux. Add:
+hunt rows with 3-term relations 1 + zeta^a = zeta^b (Pro's construction) at LARGE q
+and measure their E; hunt lambda families with T(lambda) >= 2^-10 and map their count
+growth (the dyadic near-peak census N_j = #{lambda: T >= 2^-j}).
+
 ## The object
 
 Section X = {zeta^i : 0 <= i < n/2} in mu_n over PRIME q ≡ 1 (mod n), n = 2^s.
