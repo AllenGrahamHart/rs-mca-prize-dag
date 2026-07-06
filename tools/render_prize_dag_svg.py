@@ -318,7 +318,7 @@ def radial():
     # 2. ABSOLUTE ARC GAP: the anti-collision gap is a fixed arc length in
     #    pixels (MIN_ARC / ring radius), not a fraction of uniform spacing —
     #    sparse rings no longer force chains 60 degrees off their parents.
-    RSTEP_L, MIN_ARC = 92, 26.0
+    RSTEP_L, MIN_ARC = 92, 52.0
     nb = defaultdict(list)
     for u, v in req:
         if u in crit and v in crit:
