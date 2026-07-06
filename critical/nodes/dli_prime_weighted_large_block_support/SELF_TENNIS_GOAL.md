@@ -27,10 +27,13 @@ evidence dossiers. The user is asleep; do not block on input.**
    (https://claude.ai/code/artifact/ebb725d6-96a0-4e31-bb9b-14522786c58c,
    favicon 🗺️) + ./tools/publish_site.sh after every dag.json change;
    update the rs-mca-dli-tennis memory at meaningful state changes.
-4. **Pacing.** Self-paced wakeups; prefer long sleeps (1200s+) over polling;
-   Modal jobs must finish < 60 s each (shard by primes); local compute
-   single-process < 1.5 GB. Do not edit PRO_DLI_CLOSE_6.md (Pro is working
-   from it); self-round targets live in the pinned log.
+4. **Pacing.** Self-paced wakeups; prefer long sleeps (1200s+) over polling.
+   **COMPUTE (user directive 2026-07-07): prefer Modal for compute tasks —
+   shard so every Modal job finishes < 60 s; run locally ONLY very small
+   jobs (seconds, trivial memory). This prevents laptop crashes.** Local
+   single-process hard cap < 1.5 GB regardless. Do not edit
+   PRO_DLI_CLOSE_6.md (Pro is working from it); self-round targets live in
+   the pinned log.
 
 ## Leaf priority (re-derive each round; this is the opening book)
 
