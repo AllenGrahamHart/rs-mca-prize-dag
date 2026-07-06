@@ -1,0 +1,218 @@
+{
+  "floor_depth_256": {
+    "banked_band": 2978147,
+    "gap": 2978146,
+    "max_depth": 8589934592,
+    "rows": [
+      {
+        "N": 536870912,
+        "c": 4096,
+        "depth": 8589553664,
+        "dmax": 2097059,
+        "e": 12,
+        "margin_bits": 197.915,
+        "next_margin_bits": -58.108
+      },
+      {
+        "N": 268435456,
+        "c": 8192,
+        "depth": 8589549568,
+        "dmax": 1048529,
+        "e": 13,
+        "margin_bits": 240.056,
+        "next_margin_bits": -15.967
+      },
+      {
+        "N": 134217728,
+        "c": 16384,
+        "depth": 8589557760,
+        "dmax": 524265,
+        "e": 14,
+        "margin_bits": 5.354,
+        "next_margin_bits": -250.669
+      },
+      {
+        "N": 67108864,
+        "c": 32768,
+        "depth": 8589541376,
+        "dmax": 262132,
+        "e": 15,
+        "margin_bits": 144.275,
+        "next_margin_bits": -111.747
+      },
+      {
+        "N": 33554432,
+        "c": 65536,
+        "depth": 8589541376,
+        "dmax": 131066,
+        "e": 16,
+        "margin_bits": 85.975,
+        "next_margin_bits": -170.048
+      },
+      {
+        "N": 16777216,
+        "c": 131072,
+        "depth": 8589541376,
+        "dmax": 65533,
+        "e": 17,
+        "margin_bits": 57.075,
+        "next_margin_bits": -198.948
+      },
+      {
+        "N": 8388608,
+        "c": 262144,
+        "depth": 8589410304,
+        "dmax": 32766,
+        "e": 18,
+        "margin_bits": 170.886,
+        "next_margin_bits": -85.137
+      },
+      {
+        "N": 4194304,
+        "c": 524288,
+        "depth": 8589410304,
+        "dmax": 16383,
+        "e": 19,
+        "margin_bits": 100.03,
+        "next_margin_bits": -155.993
+      },
+      {
+        "N": 2097152,
+        "c": 1048576,
+        "depth": 8588886016,
+        "dmax": 8191,
+        "e": 20,
+        "margin_bits": 192.863,
+        "next_margin_bits": -63.159
+      },
+      {
+        "N": 1048576,
+        "c": 2097152,
+        "depth": 8587837440,
+        "dmax": 4095,
+        "e": 21,
+        "margin_bits": 239.53,
+        "next_margin_bits": -16.492
+      },
+      {
+        "N": 524288,
+        "c": 4194304,
+        "depth": 8589934592,
+        "dmax": 2048,
+        "e": 22,
+        "margin_bits": 7.091,
+        "next_margin_bits": -248.932
+      },
+      {
+        "N": 262144,
+        "c": 8388608,
+        "depth": 8589934592,
+        "dmax": 1024,
+        "e": 23,
+        "margin_bits": 19.133,
+        "next_margin_bits": -236.89
+      },
+      {
+        "N": 131072,
+        "c": 16777216,
+        "depth": 8589934592,
+        "dmax": 512,
+        "e": 24,
+        "margin_bits": 25.403,
+        "next_margin_bits": -230.619
+      },
+      {
+        "N": 65536,
+        "c": 33554432,
+        "depth": 8589934592,
+        "dmax": 256,
+        "e": 25,
+        "margin_bits": 28.789,
+        "next_margin_bits": -227.234
+      },
+      {
+        "N": 32768,
+        "c": 67108864,
+        "depth": 8589934592,
+        "dmax": 128,
+        "e": 26,
+        "margin_bits": 30.732,
+        "next_margin_bits": -225.291
+      },
+      {
+        "N": 16384,
+        "c": 134217728,
+        "depth": 8589934592,
+        "dmax": 64,
+        "e": 27,
+        "margin_bits": 31.953,
+        "next_margin_bits": -224.07
+      },
+      {
+        "N": 8192,
+        "c": 268435456,
+        "depth": 8589934592,
+        "dmax": 32,
+        "e": 28,
+        "margin_bits": 32.814,
+        "next_margin_bits": -223.209
+      },
+      {
+        "N": 4096,
+        "c": 536870912,
+        "depth": 8589934592,
+        "dmax": 16,
+        "e": 29,
+        "margin_bits": 33.494,
+        "next_margin_bits": -222.529
+      },
+      {
+        "N": 2048,
+        "c": 1073741824,
+        "depth": 8589934592,
+        "dmax": 8,
+        "e": 30,
+        "margin_bits": 34.084,
+        "next_margin_bits": -221.94
+      },
+      {
+        "N": 1024,
+        "c": 2147483648,
+        "depth": 8589934592,
+        "dmax": 4,
+        "e": 31,
+        "margin_bits": 34.629,
+        "next_margin_bits": -221.396
+      },
+      {
+        "N": 512,
+        "c": 4294967296,
+        "depth": 8589934592,
+        "dmax": 2,
+        "e": 32,
+        "margin_bits": 35.151,
+        "next_margin_bits": -220.877
+      },
+      {
+        "N": 256,
+        "c": 8589934592,
+        "depth": 8589934592,
+        "dmax": 1,
+        "e": 33,
+        "margin_bits": 35.662,
+        "next_margin_bits": -220.372
+      }
+    ],
+    "sigma_star": 8592912738
+  },
+  "q_threshold": {
+    "depth_at_threshold": 8592916480,
+    "depth_just_above": 8592912384,
+    "open_band_slice_bits": 0.10001,
+    "sanity_256": 8589934592,
+    "sigma_star": 8592912738,
+    "threshold_log2q": 255.89999
+  },
+  "status": "PASS",
+  "wall_seconds": 0.012289
+}

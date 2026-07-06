@@ -1,0 +1,268 @@
+{
+  "cells": [
+    {
+      "N": 64,
+      "b": 8,
+      "boundary_coset_orders_seen": [],
+      "half_split": [
+        4,
+        4
+      ],
+      "left_combinations": 635376,
+      "left_sum_classes": 625889,
+      "p": 257,
+      "partial": false,
+      "primitive_blocks": 192,
+      "primitive_boundary_coset_blocks": 0,
+      "primitive_nonboundary_blocks": 192,
+      "primitive_nonboundary_examples": [
+        [
+          0,
+          1,
+          6,
+          15,
+          17,
+          28,
+          31,
+          32
+        ],
+        [
+          1,
+          2,
+          7,
+          16,
+          18,
+          29,
+          32,
+          33
+        ],
+        [
+          0,
+          2,
+          5,
+          7,
+          15,
+          21,
+          31,
+          34
+        ],
+        [
+          2,
+          3,
+          8,
+          17,
+          19,
+          30,
+          33,
+          34
+        ],
+        [
+          1,
+          3,
+          6,
+          8,
+          16,
+          22,
+          32,
+          35
+        ]
+      ],
+      "role": "positive_control",
+      "t": 3,
+      "tnull_blocks": 408,
+      "wall_seconds": 2.789917
+    },
+    {
+      "N": 64,
+      "b": 8,
+      "boundary_coset_orders_seen": [],
+      "half_split": [
+        4,
+        4
+      ],
+      "left_combinations": 635376,
+      "left_sum_classes": 634017,
+      "p": 577,
+      "partial": false,
+      "primitive_blocks": 64,
+      "primitive_boundary_coset_blocks": 0,
+      "primitive_nonboundary_blocks": 64,
+      "primitive_nonboundary_examples": [
+        [
+          0,
+          2,
+          3,
+          11,
+          23,
+          24,
+          40,
+          48
+        ],
+        [
+          0,
+          8,
+          24,
+          26,
+          27,
+          35,
+          47,
+          48
+        ],
+        [
+          1,
+          3,
+          4,
+          12,
+          24,
+          25,
+          41,
+          49
+        ],
+        [
+          1,
+          9,
+          25,
+          27,
+          28,
+          36,
+          48,
+          49
+        ],
+        [
+          2,
+          4,
+          5,
+          13,
+          25,
+          26,
+          42,
+          50
+        ]
+      ],
+      "role": "positive_control",
+      "t": 3,
+      "tnull_blocks": 280,
+      "wall_seconds": 2.85771
+    },
+    {
+      "N": 64,
+      "b": 8,
+      "boundary_coset_orders_seen": [],
+      "half_split": [
+        4,
+        4
+      ],
+      "left_combinations": 635376,
+      "left_sum_classes": 634657,
+      "p": 641,
+      "partial": false,
+      "primitive_blocks": 0,
+      "primitive_boundary_coset_blocks": 0,
+      "primitive_nonboundary_blocks": 0,
+      "primitive_nonboundary_examples": [],
+      "role": "clean_control",
+      "t": 3,
+      "tnull_blocks": 216,
+      "wall_seconds": 2.905584
+    },
+    {
+      "N": 64,
+      "b": 8,
+      "boundary_coset_orders_seen": [],
+      "half_split": [
+        4,
+        4
+      ],
+      "left_combinations": 635376,
+      "left_sum_classes": 635169,
+      "p": 769,
+      "partial": false,
+      "primitive_blocks": 0,
+      "primitive_boundary_coset_blocks": 0,
+      "primitive_nonboundary_blocks": 0,
+      "primitive_nonboundary_examples": [],
+      "role": "clean_control",
+      "t": 3,
+      "tnull_blocks": 120,
+      "wall_seconds": 2.88226
+    },
+    {
+      "N": 32,
+      "b": 6,
+      "boundary_coset_orders_seen": [],
+      "half_split": [
+        3,
+        3
+      ],
+      "left_combinations": 4960,
+      "left_sum_classes": 4960,
+      "p": 97,
+      "partial": false,
+      "primitive_blocks": 0,
+      "primitive_boundary_coset_blocks": 0,
+      "primitive_nonboundary_blocks": 0,
+      "primitive_nonboundary_examples": [],
+      "role": "exploratory",
+      "t": 3,
+      "tnull_blocks": 0,
+      "wall_seconds": 0.013328
+    },
+    {
+      "N": 32,
+      "b": 6,
+      "boundary_coset_orders_seen": [],
+      "half_split": [
+        3,
+        3
+      ],
+      "left_combinations": 4960,
+      "left_sum_classes": 4960,
+      "p": 193,
+      "partial": false,
+      "primitive_blocks": 0,
+      "primitive_boundary_coset_blocks": 0,
+      "primitive_nonboundary_blocks": 0,
+      "primitive_nonboundary_examples": [],
+      "role": "exploratory",
+      "t": 3,
+      "tnull_blocks": 0,
+      "wall_seconds": 0.013557
+    },
+    {
+      "N": 32,
+      "b": 8,
+      "boundary_coset_orders_seen": [],
+      "half_split": [
+        4,
+        4
+      ],
+      "left_combinations": 35960,
+      "left_sum_classes": 35960,
+      "p": 193,
+      "partial": false,
+      "primitive_blocks": 0,
+      "primitive_boundary_coset_blocks": 0,
+      "primitive_nonboundary_blocks": 0,
+      "primitive_nonboundary_examples": [],
+      "role": "exploratory",
+      "t": 4,
+      "tnull_blocks": 4,
+      "wall_seconds": 0.120424
+    }
+  ],
+  "finished_at_unix": 1783306707.8382075,
+  "node": "u2c_giant_tnull_dichotomy / x4_exactlist_staircase_split",
+  "started_at_unix": 1783306696.2526538,
+  "summary": {
+    "cells_checked": 7,
+    "clean_controls": 2,
+    "clean_controls_with_primitive_nonboundary": 0,
+    "exploratory_cells": 3,
+    "failures": [],
+    "max_primitive_nonboundary_blocks": 192,
+    "positive_controls": 2,
+    "positive_controls_detected": 2,
+    "status": "PASS"
+  },
+  "time_limit_seconds": 55.0
+}

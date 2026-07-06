@@ -1,6 +1,6 @@
 # f1_classification
 
-- **status:** CONJECTURE
+- **status:** CONDITIONAL
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s6_extension_lift.md#4']
 
@@ -10,4 +10,7 @@ Trichotomy: every F-valued bad slope above the reserve is (i) B-pencil-rational,
 
 ## Ledger (migrated notes)
 
-AUDITED TRUE RED (Codex packet, accepted): the case classification's own content is open mathematics.
+AUDITED TRUE RED (Codex packet, accepted): the case classification's own
+content was open mathematics.  Current DAG status is `CONDITIONAL`: the
+classification assembly is conditional on the proved descent/pole-forcing
+inputs plus `f1_case_pole`.

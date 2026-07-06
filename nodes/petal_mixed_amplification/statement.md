@@ -22,3 +22,9 @@ CONDITIONAL (Codex fresh-base pass): `pma_aux_list_reduction` converts extras
 to the auxiliary RS list, `pma_johnson_regime` covers the classical
 few-petal range, and `pma_wide_residual` is the remaining many-petal primitive
 residual.
+
+AMBER STRESS 2026-07-06: `pma_correlated_target_search.py` varied the defect
+locator and correlated petal scalar pattern in the `F_109, ell=3, d=5` toy
+window.  It completed `10` exact profiles and `3` sampled `M=12` profiles under
+the cap; exact `M=9` profiles had at most `176` threshold candidates, and no
+large spread-residual alarm appeared.

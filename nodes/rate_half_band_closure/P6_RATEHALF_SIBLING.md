@@ -20,10 +20,13 @@ would need a heavy-fiber theorem, which is circular/forbidden. The deficit side
 is proved (B_I(256) = 429,645,546.77; Q_crit = 255.90000002); the safe side
 ABOVE sigma* is proved. Only the band 2^33 < sigma <= sigma* is open.
 
-## The ask (a third mechanism, or a bracket verdict)
+## The ask (a third mechanism; bracket is a partial)
 > Cover the band 2^33 < sigma <= sigma* at rate 1/2 by a NEW priced mechanism,
-> or prove the rate-1/2 determination is bracket-grade there (a band radius
-> provably uncoverable by any priced mechanism).
+> using a route that is not AQB and not the refuted dihedral-sibling certificate.
+
+A proof that some band radius is provably uncoverable by any priced mechanism is
+a valuable bracket-grade partial, but it does not close `rate_half_band_closure`
+as consumed by the full-determination parents.
 
 Candidate mechanisms (all un-built):
 - **Extended quotient scales:** giant moduli M beyond M_max=2^33 — does an

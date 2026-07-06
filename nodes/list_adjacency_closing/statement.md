@@ -16,6 +16,13 @@ the hardness SWAPS sides vs MCA: unsafe witnesses are CONSTRUCTIVE (planted fami
 
 n/a (composite obligation)
 
+## Weakening Applied 2026-07-06
+
+The direct `worst_word_planted` input is support/evidence for this node, not a
+separate logical premise.  The exact arithmetic child
+`list_planted_arithmetic` already consumes worst-word extremality and challenger
+pricing, then supplies the priced two-column crossing arithmetic used here.
+
 ## Ledger (migrated notes)
 
 AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic — not promotable by referee argument; this is genuine open work.

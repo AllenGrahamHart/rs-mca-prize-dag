@@ -1,0 +1,173 @@
+{
+  "cases": [
+    {
+      "M": 3,
+      "characters_checked": [
+        0,
+        1,
+        2
+      ],
+      "direct_upstairs_checks": 846,
+      "histogram_masks": {
+        "linear": 6,
+        "quadratic": 11,
+        "random": 11
+      },
+      "kq": 2,
+      "n": 12,
+      "name": "mu12_M3_quadratic_words",
+      "negative_controls": [
+        {
+          "detected": true,
+          "name": "single_point_fiber_break"
+        },
+        {
+          "detected": true,
+          "name": "wrong_character_twist"
+        }
+      ],
+      "p": 97,
+      "partial": false,
+      "quotient_size": 4,
+      "support_mismatches": [],
+      "total_coefficients_per_word": 9409,
+      "wall_seconds": 0.030114,
+      "words": [
+        "linear",
+        "quadratic",
+        "random"
+      ]
+    },
+    {
+      "M": 4,
+      "characters_checked": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "direct_upstairs_checks": 752,
+      "histogram_masks": {
+        "linear": 6,
+        "random": 11
+      },
+      "kq": 2,
+      "n": 16,
+      "name": "mu16_M4_random_words",
+      "negative_controls": [
+        {
+          "detected": true,
+          "name": "single_point_fiber_break"
+        },
+        {
+          "detected": true,
+          "name": "wrong_character_twist"
+        }
+      ],
+      "p": 193,
+      "partial": false,
+      "quotient_size": 4,
+      "support_mismatches": [],
+      "total_coefficients_per_word": 37249,
+      "wall_seconds": 0.073894,
+      "words": [
+        "linear",
+        "random"
+      ]
+    },
+    {
+      "M": 6,
+      "characters_checked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direct_upstairs_checks": 744,
+      "histogram_masks": {
+        "linear": 12,
+        "random": 15
+      },
+      "kq": 3,
+      "n": 24,
+      "name": "mu24_M6_cubic_smallquot",
+      "negative_controls": [
+        {
+          "detected": true,
+          "name": "single_point_fiber_break"
+        },
+        {
+          "detected": true,
+          "name": "wrong_character_twist"
+        }
+      ],
+      "p": 97,
+      "partial": false,
+      "quotient_size": 4,
+      "support_mismatches": [],
+      "total_coefficients_per_word": 912673,
+      "wall_seconds": 1.881334,
+      "words": [
+        "linear",
+        "random"
+      ]
+    },
+    {
+      "M": 8,
+      "characters_checked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "direct_upstairs_checks": 1504,
+      "histogram_masks": {
+        "quadratic": 11,
+        "random": 11
+      },
+      "kq": 2,
+      "n": 32,
+      "name": "mu32_M8_quadratic_smallquot",
+      "negative_controls": [
+        {
+          "detected": true,
+          "name": "single_point_fiber_break"
+        },
+        {
+          "detected": true,
+          "name": "wrong_character_twist"
+        }
+      ],
+      "p": 193,
+      "partial": false,
+      "quotient_size": 4,
+      "support_mismatches": [],
+      "total_coefficients_per_word": 37249,
+      "wall_seconds": 0.085651,
+      "words": [
+        "quadratic",
+        "random"
+      ]
+    }
+  ],
+  "finished_at_unix": 1783306696.2189157,
+  "node": "tr_perleaf_list_ident",
+  "seed": 20260706,
+  "started_at_unix": 1783306694.1463103,
+  "summary": {
+    "cases_checked": 4,
+    "direct_upstairs_checks": 3846,
+    "failures": [],
+    "negative_controls_detected": 8,
+    "negative_controls_total": 8,
+    "status": "PASS",
+    "total_coefficients_enumerated": 2002569
+  },
+  "time_limit_seconds": 55.0
+}

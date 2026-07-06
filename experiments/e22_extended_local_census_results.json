@@ -1,0 +1,7774 @@
+{
+  "cell_plan": [
+    {
+      "agreement_sets": 120,
+      "k": 1,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 120,
+      "k": 1,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 120,
+      "k": 1,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 120,
+      "k": 1,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 560,
+      "k": 1,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 560,
+      "k": 1,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 560,
+      "k": 1,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 560,
+      "k": 1,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 1820,
+      "k": 1,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 1820,
+      "k": 1,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 1820,
+      "k": 1,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 1820,
+      "k": 1,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 560,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 560,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 560,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 560,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 1820,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 1820,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 1820,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 1820,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 4368,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 4368,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 4368,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 4368,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 4368,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 4368,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 4368,
+      "k": 4,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 4368,
+      "k": 4,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 8008,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 8008,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 8008,
+      "k": 4,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 8008,
+      "k": 4,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 11440,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 11440,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 11440,
+      "k": 4,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 11440,
+      "k": 4,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 11440,
+      "k": 8,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 11440,
+      "k": 8,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 11440,
+      "k": 8,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 11440,
+      "k": 8,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 8008,
+      "k": 8,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 8008,
+      "k": 8,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 8008,
+      "k": 8,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 8008,
+      "k": 8,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 4368,
+      "k": 8,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 4368,
+      "k": 8,
+      "layout": "cyclic_step_1",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 4368,
+      "k": 8,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 4368,
+      "k": 8,
+      "layout": "cyclic_step_5",
+      "n": 16,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full"
+    },
+    {
+      "agreement_sets": 2024,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "medium"
+    },
+    {
+      "agreement_sets": 2024,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "medium"
+    },
+    {
+      "agreement_sets": 10626,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "medium"
+    },
+    {
+      "agreement_sets": 10626,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "medium"
+    },
+    {
+      "agreement_sets": 10626,
+      "k": 3,
+      "layout": "cyclic_step_1",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "medium"
+    },
+    {
+      "agreement_sets": 10626,
+      "k": 3,
+      "layout": "cyclic_step_5",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "medium"
+    },
+    {
+      "agreement_sets": 42504,
+      "k": 3,
+      "layout": "cyclic_step_1",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "medium"
+    },
+    {
+      "agreement_sets": 42504,
+      "k": 3,
+      "layout": "cyclic_step_5",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "medium"
+    },
+    {
+      "agreement_sets": 42504,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "medium"
+    },
+    {
+      "agreement_sets": 42504,
+      "k": 4,
+      "layout": "cyclic_step_5",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "medium"
+    },
+    {
+      "agreement_sets": 134596,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "medium"
+    },
+    {
+      "agreement_sets": 134596,
+      "k": 4,
+      "layout": "cyclic_step_5",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "medium"
+    },
+    {
+      "agreement_sets": 42504,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 24,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "medium_scalar"
+    },
+    {
+      "agreement_sets": 134596,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 24,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "medium_scalar"
+    },
+    {
+      "agreement_sets": 346104,
+      "k": 6,
+      "layout": "cyclic_step_1",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "large_single"
+    },
+    {
+      "agreement_sets": 4960,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 32,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "large_n_low_k"
+    },
+    {
+      "agreement_sets": 4960,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 32,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "large_n_low_k"
+    },
+    {
+      "agreement_sets": 4960,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 32,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "large_n_low_k"
+    },
+    {
+      "agreement_sets": 4960,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 32,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "large_n_low_k"
+    },
+    {
+      "agreement_sets": 35960,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 32,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "large_n_low_k"
+    },
+    {
+      "agreement_sets": 35960,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 32,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "large_n_low_k"
+    },
+    {
+      "agreement_sets": 35960,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 32,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "large_n_low_k"
+    },
+    {
+      "agreement_sets": 35960,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 32,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "large_n_low_k"
+    },
+    {
+      "agreement_sets": 201376,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 32,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "large_n_mid_k"
+    },
+    {
+      "agreement_sets": 201376,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 32,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "large_n_mid_k"
+    },
+    {
+      "agreement_sets": 17296,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 48,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "larger_domain_smoke"
+    },
+    {
+      "agreement_sets": 17296,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 48,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "larger_domain_smoke"
+    },
+    {
+      "agreement_sets": 41664,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 64,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "larger_domain_smoke"
+    },
+    {
+      "agreement_sets": 41664,
+      "k": 2,
+      "layout": "cyclic_step_5",
+      "n": 64,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "larger_domain_smoke"
+    },
+    {
+      "agreement_sets": 1307504,
+      "k": 8,
+      "layout": "cyclic_step_1",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "frontier_skip"
+    },
+    {
+      "agreement_sets": 906192,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 32,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "frontier_skip"
+    },
+    {
+      "agreement_sets": 28048800,
+      "k": 8,
+      "layout": "cyclic_step_1",
+      "n": 32,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "frontier_skip"
+    },
+    {
+      "agreement_sets": 1712304,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 48,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "frontier_skip"
+    },
+    {
+      "agreement_sets": 635376,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 64,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "frontier_skip"
+    },
+    {
+      "agreement_sets": 7624512,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 64,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "frontier_skip"
+    }
+  ],
+  "cells_checked": [
+    {
+      "agreement_sets_checked": 120,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 8
+      },
+      "classified_challenger": 0,
+      "classified_planted": 8,
+      "ell": 2,
+      "k": 1,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 8,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 8,
+      "planted_count": 8,
+      "s": 2,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.000435
+    },
+    {
+      "agreement_sets_checked": 120,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 8
+      },
+      "classified_challenger": 0,
+      "classified_planted": 8,
+      "ell": 2,
+      "k": 1,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 8,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 8,
+      "planted_count": 8,
+      "s": 2,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.000434
+    },
+    {
+      "agreement_sets_checked": 120,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 8
+      },
+      "classified_challenger": 0,
+      "classified_planted": 8,
+      "ell": 2,
+      "k": 1,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 8,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 8,
+      "planted_count": 8,
+      "s": 2,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.000273
+    },
+    {
+      "agreement_sets_checked": 120,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 8
+      },
+      "classified_challenger": 0,
+      "classified_planted": 8,
+      "ell": 2,
+      "k": 1,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 8,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 8,
+      "planted_count": 8,
+      "s": 2,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.000269
+    },
+    {
+      "agreement_sets_checked": 560,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 5
+      },
+      "classified_challenger": 0,
+      "classified_planted": 5,
+      "ell": 3,
+      "k": 1,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 5,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 5,
+      "planted_count": 5,
+      "s": 3,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.000989
+    },
+    {
+      "agreement_sets_checked": 560,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 5
+      },
+      "classified_challenger": 0,
+      "classified_planted": 5,
+      "ell": 3,
+      "k": 1,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 5,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 5,
+      "planted_count": 5,
+      "s": 3,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.000963
+    },
+    {
+      "agreement_sets_checked": 560,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 5
+      },
+      "classified_challenger": 0,
+      "classified_planted": 5,
+      "ell": 3,
+      "k": 1,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 5,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 5,
+      "planted_count": 5,
+      "s": 3,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.001153
+    },
+    {
+      "agreement_sets_checked": 560,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 5
+      },
+      "classified_challenger": 0,
+      "classified_planted": 5,
+      "ell": 3,
+      "k": 1,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 5,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 5,
+      "planted_count": 5,
+      "s": 3,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.000981
+    },
+    {
+      "agreement_sets_checked": 1820,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 4
+      },
+      "classified_challenger": 0,
+      "classified_planted": 4,
+      "ell": 4,
+      "k": 1,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 4,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 4,
+      "planted_count": 4,
+      "s": 4,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.003223
+    },
+    {
+      "agreement_sets_checked": 1820,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 4
+      },
+      "classified_challenger": 0,
+      "classified_planted": 4,
+      "ell": 4,
+      "k": 1,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 4,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 4,
+      "planted_count": 4,
+      "s": 4,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.003325
+    },
+    {
+      "agreement_sets_checked": 1820,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 4
+      },
+      "classified_challenger": 0,
+      "classified_planted": 4,
+      "ell": 4,
+      "k": 1,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 4,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 4,
+      "planted_count": 4,
+      "s": 4,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.004733
+    },
+    {
+      "agreement_sets_checked": 1820,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 4
+      },
+      "classified_challenger": 0,
+      "classified_planted": 4,
+      "ell": 4,
+      "k": 1,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 4,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 4,
+      "planted_count": 4,
+      "s": 4,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.003068
+    },
+    {
+      "agreement_sets_checked": 560,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 6,
+        "planted": 7
+      },
+      "classified_challenger": 6,
+      "classified_planted": 7,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 13,
+      "n": 16,
+      "nonplanted_count": 6,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            59,
+            181
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            37,
+            45
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            166,
+            42
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            158,
+            166
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            134,
+            98
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            43,
+            51
+          ]
+        }
+      ],
+      "petal_count_M": 7,
+      "planted_count": 7,
+      "s": 3,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.002856
+    },
+    {
+      "agreement_sets_checked": 560,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 4,
+        "planted": 7
+      },
+      "classified_challenger": 4,
+      "classified_planted": 7,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 11,
+      "n": 16,
+      "nonplanted_count": 4,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            123,
+            180
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            125,
+            106
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            11,
+            68
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            57,
+            8
+          ]
+        }
+      ],
+      "petal_count_M": 7,
+      "planted_count": 7,
+      "s": 3,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.002503
+    },
+    {
+      "agreement_sets_checked": 560,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 6,
+        "planted": 7
+      },
+      "classified_challenger": 6,
+      "classified_planted": 7,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 13,
+      "n": 16,
+      "nonplanted_count": 6,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            123,
+            11
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            23,
+            139
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            111,
+            119
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            158,
+            166
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            48,
+            56
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            63,
+            191
+          ]
+        }
+      ],
+      "petal_count_M": 7,
+      "planted_count": 7,
+      "s": 3,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.002604
+    },
+    {
+      "agreement_sets_checked": 560,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 2,
+        "planted": 7
+      },
+      "classified_challenger": 2,
+      "classified_planted": 7,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 9,
+      "n": 16,
+      "nonplanted_count": 2,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            163,
+            95
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            167,
+            162
+          ]
+        }
+      ],
+      "petal_count_M": 7,
+      "planted_count": 7,
+      "s": 3,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.002528
+    },
+    {
+      "agreement_sets_checked": 1820,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 5
+      },
+      "classified_challenger": 0,
+      "classified_planted": 5,
+      "ell": 3,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 5,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 5,
+      "planted_count": 5,
+      "s": 4,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.007871
+    },
+    {
+      "agreement_sets_checked": 1820,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 5
+      },
+      "classified_challenger": 0,
+      "classified_planted": 5,
+      "ell": 3,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 5,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 5,
+      "planted_count": 5,
+      "s": 4,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.008065
+    },
+    {
+      "agreement_sets_checked": 1820,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 5
+      },
+      "classified_challenger": 0,
+      "classified_planted": 5,
+      "ell": 3,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 5,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 5,
+      "planted_count": 5,
+      "s": 4,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.009078
+    },
+    {
+      "agreement_sets_checked": 1820,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 5
+      },
+      "classified_challenger": 0,
+      "classified_planted": 5,
+      "ell": 3,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 5,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 5,
+      "planted_count": 5,
+      "s": 4,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.008374
+    },
+    {
+      "agreement_sets_checked": 4368,
+      "background_size": 3,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 3
+      },
+      "classified_challenger": 0,
+      "classified_planted": 3,
+      "ell": 4,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 3,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 3,
+      "planted_count": 3,
+      "s": 5,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.020848
+    },
+    {
+      "agreement_sets_checked": 4368,
+      "background_size": 3,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 3
+      },
+      "classified_challenger": 0,
+      "classified_planted": 3,
+      "ell": 4,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 3,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 3,
+      "planted_count": 3,
+      "s": 5,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.020892
+    },
+    {
+      "agreement_sets_checked": 4368,
+      "background_size": 3,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 3
+      },
+      "classified_challenger": 0,
+      "classified_planted": 3,
+      "ell": 4,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 3,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 3,
+      "planted_count": 3,
+      "s": 5,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.01872
+    },
+    {
+      "agreement_sets_checked": 4368,
+      "background_size": 3,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 3
+      },
+      "classified_challenger": 0,
+      "classified_planted": 3,
+      "ell": 4,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 3,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 3,
+      "planted_count": 3,
+      "s": 5,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.018935
+    },
+    {
+      "agreement_sets_checked": 4368,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 23,
+        "planted": 6
+      },
+      "classified_challenger": 23,
+      "classified_planted": 6,
+      "ell": 2,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 29,
+      "n": 16,
+      "nonplanted_count": 23,
+      "nonplanted_examples": [
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            180,
+            176,
+            57,
+            166
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            27,
+            37,
+            78,
+            51
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            61,
+            92,
+            91,
+            142
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            180,
+            127,
+            106,
+            166
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            27,
+            186,
+            122,
+            51
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            48,
+            182,
+            163,
+            186
+          ]
+        }
+      ],
+      "petal_count_M": 6,
+      "planted_count": 6,
+      "s": 5,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.074123
+    },
+    {
+      "agreement_sets_checked": 4368,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 25,
+        "planted": 6
+      },
+      "classified_challenger": 25,
+      "classified_planted": 6,
+      "ell": 2,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 31,
+      "n": 16,
+      "nonplanted_count": 25,
+      "nonplanted_examples": [
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            167,
+            81,
+            151,
+            180
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            38,
+            153,
+            40,
+            155
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            69,
+            161,
+            32,
+            124
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            18,
+            124,
+            178,
+            66
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            101,
+            26,
+            140,
+            119
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            1,
+            2,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            186,
+            101,
+            110,
+            182
+          ]
+        }
+      ],
+      "petal_count_M": 6,
+      "planted_count": 6,
+      "s": 5,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.074897
+    },
+    {
+      "agreement_sets_checked": 4368,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 30,
+        "planted": 6
+      },
+      "classified_challenger": 30,
+      "classified_planted": 6,
+      "ell": 2,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 36,
+      "n": 16,
+      "nonplanted_count": 30,
+      "nonplanted_examples": [
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            66,
+            13,
+            8,
+            106
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            176,
+            140,
+            71,
+            192
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            105,
+            71,
+            44,
+            166
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            0,
+            2,
+            1,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            124,
+            153,
+            123,
+            179
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            105,
+            170,
+            138,
+            166
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            53,
+            20,
+            1,
+            119
+          ]
+        }
+      ],
+      "petal_count_M": 6,
+      "planted_count": 6,
+      "s": 5,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.077474
+    },
+    {
+      "agreement_sets_checked": 4368,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 23,
+        "planted": 6
+      },
+      "classified_challenger": 23,
+      "classified_planted": 6,
+      "ell": 2,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 29,
+      "n": 16,
+      "nonplanted_count": 23,
+      "nonplanted_examples": [
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            2
+          ],
+          "polynomial_coefficients": [
+            11,
+            8,
+            168,
+            6
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            78,
+            90,
+            56,
+            162
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            52,
+            71,
+            53,
+            17
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            35,
+            168,
+            51,
+            132
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            56,
+            4,
+            131,
+            2
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            124,
+            153,
+            85,
+            24
+          ]
+        }
+      ],
+      "petal_count_M": 6,
+      "planted_count": 6,
+      "s": 5,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.074032
+    },
+    {
+      "agreement_sets_checked": 8008,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 4
+      },
+      "classified_challenger": 0,
+      "classified_planted": 4,
+      "ell": 3,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 4,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 4,
+      "planted_count": 4,
+      "s": 6,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.131521
+    },
+    {
+      "agreement_sets_checked": 8008,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 4
+      },
+      "classified_challenger": 0,
+      "classified_planted": 4,
+      "ell": 3,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 4,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 4,
+      "planted_count": 4,
+      "s": 6,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.131495
+    },
+    {
+      "agreement_sets_checked": 8008,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 4
+      },
+      "classified_challenger": 0,
+      "classified_planted": 4,
+      "ell": 3,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 4,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 4,
+      "planted_count": 4,
+      "s": 6,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.141107
+    },
+    {
+      "agreement_sets_checked": 8008,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 4
+      },
+      "classified_challenger": 0,
+      "classified_planted": 4,
+      "ell": 3,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 4,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 4,
+      "planted_count": 4,
+      "s": 6,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.137801
+    },
+    {
+      "agreement_sets_checked": 11440,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 3
+      },
+      "classified_challenger": 0,
+      "classified_planted": 3,
+      "ell": 4,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 3,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 3,
+      "planted_count": 3,
+      "s": 7,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.195629
+    },
+    {
+      "agreement_sets_checked": 11440,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 3
+      },
+      "classified_challenger": 0,
+      "classified_planted": 3,
+      "ell": 4,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 3,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 3,
+      "planted_count": 3,
+      "s": 7,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.190876
+    },
+    {
+      "agreement_sets_checked": 11440,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 3
+      },
+      "classified_challenger": 0,
+      "classified_planted": 3,
+      "ell": 4,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 3,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 3,
+      "planted_count": 3,
+      "s": 7,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.193948
+    },
+    {
+      "agreement_sets_checked": 11440,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 3
+      },
+      "classified_challenger": 0,
+      "classified_planted": 3,
+      "ell": 4,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 3,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 3,
+      "planted_count": 3,
+      "s": 7,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.191836
+    },
+    {
+      "agreement_sets_checked": 11440,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "full_petal": 1,
+        "mixed_petal": 55,
+        "planted": 4
+      },
+      "classified_challenger": 56,
+      "classified_planted": 4,
+      "ell": 2,
+      "k": 8,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 60,
+      "n": 16,
+      "nonplanted_count": 56,
+      "nonplanted_examples": [
+        {
+          "agreement": 9,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 5,
+          "petal_agreements": [
+            1,
+            0,
+            2,
+            0
+          ],
+          "polynomial_coefficients": [
+            31,
+            98,
+            182,
+            149,
+            79,
+            183,
+            97,
+            146
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 6,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            30,
+            28,
+            48,
+            83,
+            54,
+            105,
+            181,
+            50
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 5,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            75,
+            163,
+            100,
+            142,
+            98,
+            65,
+            72,
+            57
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 6,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            30,
+            177,
+            124,
+            92,
+            88,
+            68,
+            143,
+            50
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 5,
+          "petal_agreements": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "polynomial_coefficients": [
+            182,
+            161,
+            122,
+            125,
+            168,
+            73,
+            11,
+            123
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 4,
+          "petal_agreements": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "polynomial_coefficients": [
+            26,
+            141,
+            181,
+            11,
+            86,
+            138,
+            100,
+            89
+          ]
+        }
+      ],
+      "petal_count_M": 4,
+      "planted_count": 4,
+      "s": 9,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.937707
+    },
+    {
+      "agreement_sets_checked": 11440,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "full_petal": 2,
+        "mixed_petal": 61,
+        "planted": 4
+      },
+      "classified_challenger": 63,
+      "classified_planted": 4,
+      "ell": 2,
+      "k": 8,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 67,
+      "n": 16,
+      "nonplanted_count": 63,
+      "nonplanted_examples": [
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 6,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            40,
+            178,
+            73,
+            121,
+            86,
+            42,
+            52,
+            180
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 5,
+          "petal_agreements": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            25,
+            16,
+            38,
+            61,
+            16,
+            40,
+            73,
+            117
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 5,
+          "petal_agreements": [
+            0,
+            2,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            3,
+            184,
+            13,
+            182,
+            122,
+            115,
+            102,
+            51
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 5,
+          "petal_agreements": [
+            0,
+            2,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            108,
+            63,
+            158,
+            142,
+            171,
+            86,
+            151,
+            86
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 5,
+          "petal_agreements": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "polynomial_coefficients": [
+            149,
+            98,
+            50,
+            159,
+            113,
+            132,
+            12,
+            59
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 5,
+          "petal_agreements": [
+            1,
+            2,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            17,
+            14,
+            90,
+            19,
+            8,
+            38,
+            125,
+            75
+          ]
+        }
+      ],
+      "petal_count_M": 4,
+      "planted_count": 4,
+      "s": 9,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.939572
+    },
+    {
+      "agreement_sets_checked": 11440,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "full_petal": 3,
+        "mixed_petal": 42,
+        "planted": 4
+      },
+      "classified_challenger": 45,
+      "classified_planted": 4,
+      "ell": 2,
+      "k": 8,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 49,
+      "n": 16,
+      "nonplanted_count": 45,
+      "nonplanted_examples": [
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 4,
+          "petal_agreements": [
+            2,
+            1,
+            0,
+            2
+          ],
+          "polynomial_coefficients": [
+            36,
+            43,
+            190,
+            118,
+            49,
+            126,
+            104,
+            106
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 4,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            2
+          ],
+          "polynomial_coefficients": [
+            128,
+            31,
+            190,
+            16,
+            174,
+            69,
+            151,
+            13
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 3,
+          "petal_agreements": [
+            2,
+            1,
+            0,
+            2
+          ],
+          "polynomial_coefficients": [
+            1,
+            106,
+            72,
+            39,
+            49,
+            37,
+            64,
+            18
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "polynomial_coefficients": [
+            100,
+            102,
+            140,
+            153,
+            28,
+            87,
+            111,
+            51
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 5,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "polynomial_coefficients": [
+            186,
+            106,
+            23,
+            91,
+            24,
+            78,
+            41,
+            30
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 5,
+          "petal_agreements": [
+            0,
+            2,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            8,
+            3,
+            93,
+            116,
+            117,
+            95,
+            162,
+            178
+          ]
+        }
+      ],
+      "petal_count_M": 4,
+      "planted_count": 4,
+      "s": 9,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.981459
+    },
+    {
+      "agreement_sets_checked": 11440,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "full_petal": 1,
+        "mixed_petal": 58,
+        "planted": 4
+      },
+      "classified_challenger": 59,
+      "classified_planted": 4,
+      "ell": 2,
+      "k": 8,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 63,
+      "n": 16,
+      "nonplanted_count": 59,
+      "nonplanted_examples": [
+        {
+          "agreement": 9,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 3,
+          "petal_agreements": [
+            1,
+            2,
+            0,
+            2
+          ],
+          "polynomial_coefficients": [
+            173,
+            168,
+            176,
+            9,
+            57,
+            74,
+            143,
+            165
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 4,
+          "petal_agreements": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            65,
+            22,
+            18,
+            3,
+            56,
+            128,
+            13,
+            81
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 3,
+          "petal_agreements": [
+            2,
+            2,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            57,
+            15,
+            54,
+            115,
+            5,
+            142,
+            70,
+            121
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 5,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "polynomial_coefficients": [
+            51,
+            150,
+            67,
+            192,
+            134,
+            133,
+            149,
+            89
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 5,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "polynomial_coefficients": [
+            66,
+            180,
+            103,
+            11,
+            184,
+            41,
+            125,
+            62
+          ]
+        },
+        {
+          "agreement": 9,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 4,
+          "petal_agreements": [
+            1,
+            2,
+            0,
+            2
+          ],
+          "polynomial_coefficients": [
+            5,
+            103,
+            102,
+            57,
+            88,
+            86,
+            184,
+            147
+          ]
+        }
+      ],
+      "petal_count_M": 4,
+      "planted_count": 4,
+      "s": 9,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.971972
+    },
+    {
+      "agreement_sets_checked": 8008,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 3
+      },
+      "classified_challenger": 0,
+      "classified_planted": 3,
+      "ell": 3,
+      "k": 8,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 3,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 3,
+      "planted_count": 3,
+      "s": 10,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.67817
+    },
+    {
+      "agreement_sets_checked": 8008,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 3
+      },
+      "classified_challenger": 0,
+      "classified_planted": 3,
+      "ell": 3,
+      "k": 8,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 3,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 3,
+      "planted_count": 3,
+      "s": 10,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.656575
+    },
+    {
+      "agreement_sets_checked": 8008,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 3
+      },
+      "classified_challenger": 0,
+      "classified_planted": 3,
+      "ell": 3,
+      "k": 8,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 3,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 3,
+      "planted_count": 3,
+      "s": 10,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.681879
+    },
+    {
+      "agreement_sets_checked": 8008,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 3
+      },
+      "classified_challenger": 0,
+      "classified_planted": 3,
+      "ell": 3,
+      "k": 8,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 3,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 3,
+      "planted_count": 3,
+      "s": 10,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.678047
+    },
+    {
+      "agreement_sets_checked": 4368,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 2
+      },
+      "classified_challenger": 0,
+      "classified_planted": 2,
+      "ell": 4,
+      "k": 8,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 2,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 2,
+      "planted_count": 2,
+      "s": 11,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.348485
+    },
+    {
+      "agreement_sets_checked": 4368,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 2
+      },
+      "classified_challenger": 0,
+      "classified_planted": 2,
+      "ell": 4,
+      "k": 8,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 2,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 2,
+      "planted_count": 2,
+      "s": 11,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.351081
+    },
+    {
+      "agreement_sets_checked": 4368,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 2
+      },
+      "classified_challenger": 0,
+      "classified_planted": 2,
+      "ell": 4,
+      "k": 8,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 2,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 2,
+      "planted_count": 2,
+      "s": 11,
+      "scalar_mode": "linear",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.370312
+    },
+    {
+      "agreement_sets_checked": 4368,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 2
+      },
+      "classified_challenger": 0,
+      "classified_planted": 2,
+      "ell": 4,
+      "k": 8,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 2,
+      "n": 16,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 2,
+      "planted_count": 2,
+      "s": 11,
+      "scalar_mode": "geometric",
+      "sigma": 3,
+      "tier": "toy_full",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.368635
+    },
+    {
+      "agreement_sets_checked": 2024,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 11,
+        "planted": 11
+      },
+      "classified_challenger": 11,
+      "classified_planted": 11,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 22,
+      "n": 24,
+      "nonplanted_count": 11,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            105,
+            117
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            41,
+            138
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            26,
+            38
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            110,
+            191
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            116,
+            14
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            44,
+            56
+          ]
+        }
+      ],
+      "petal_count_M": 11,
+      "planted_count": 11,
+      "s": 3,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "medium",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.009979
+    },
+    {
+      "agreement_sets_checked": 2024,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 10,
+        "planted": 11
+      },
+      "classified_challenger": 10,
+      "classified_planted": 11,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 21,
+      "n": 24,
+      "nonplanted_count": 10,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            74,
+            14
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            132,
+            144
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            155,
+            167
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            44,
+            56
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            139,
+            151
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            13,
+            78
+          ]
+        }
+      ],
+      "petal_count_M": 11,
+      "planted_count": 11,
+      "s": 3,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "medium",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.009531
+    },
+    {
+      "agreement_sets_checked": 10626,
+      "background_size": 2,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 7
+      },
+      "classified_challenger": 0,
+      "classified_planted": 7,
+      "ell": 3,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 7,
+      "n": 24,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 7,
+      "planted_count": 7,
+      "s": 4,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "medium",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.050465
+    },
+    {
+      "agreement_sets_checked": 10626,
+      "background_size": 2,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 7
+      },
+      "classified_challenger": 0,
+      "classified_planted": 7,
+      "ell": 3,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 7,
+      "n": 24,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 7,
+      "planted_count": 7,
+      "s": 4,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "medium",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.047088
+    },
+    {
+      "agreement_sets_checked": 10626,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 47,
+        "planted": 11
+      },
+      "classified_challenger": 47,
+      "classified_planted": 11,
+      "ell": 2,
+      "k": 3,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 58,
+      "n": 24,
+      "nonplanted_count": 47,
+      "nonplanted_examples": [
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            156,
+            113,
+            117
+          ]
+        },
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            94,
+            154,
+            138
+          ]
+        },
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            182,
+            166,
+            38
+          ]
+        },
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            40,
+            139,
+            14
+          ]
+        },
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            115,
+            22,
+            56
+          ]
+        },
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            10,
+            128,
+            55
+          ]
+        }
+      ],
+      "petal_count_M": 11,
+      "planted_count": 11,
+      "s": 4,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "medium",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.101156
+    },
+    {
+      "agreement_sets_checked": 10626,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 59,
+        "planted": 11
+      },
+      "classified_challenger": 59,
+      "classified_planted": 11,
+      "ell": 2,
+      "k": 3,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 70,
+      "n": 24,
+      "nonplanted_count": 59,
+      "nonplanted_examples": [
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            164,
+            55,
+            167
+          ]
+        },
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            15,
+            100,
+            78
+          ]
+        },
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            23,
+            92,
+            78
+          ]
+        },
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            19,
+            146,
+            28
+          ]
+        },
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            182,
+            60,
+            144
+          ]
+        },
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            26,
+            153,
+            14
+          ]
+        }
+      ],
+      "petal_count_M": 11,
+      "planted_count": 11,
+      "s": 4,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "medium",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.101719
+    },
+    {
+      "agreement_sets_checked": 42504,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 3,
+        "planted": 7
+      },
+      "classified_challenger": 3,
+      "classified_planted": 7,
+      "ell": 3,
+      "k": 3,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 10,
+      "n": 24,
+      "nonplanted_count": 3,
+      "nonplanted_examples": [
+        {
+          "agreement": 6,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            140,
+            23,
+            28
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            106,
+            65,
+            86
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            2,
+            0
+          ],
+          "polynomial_coefficients": [
+            107,
+            155,
+            50
+          ]
+        }
+      ],
+      "petal_count_M": 7,
+      "planted_count": 7,
+      "s": 5,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "medium",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.401498
+    },
+    {
+      "agreement_sets_checked": 42504,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 1,
+        "planted": 7
+      },
+      "classified_challenger": 1,
+      "classified_planted": 7,
+      "ell": 3,
+      "k": 3,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 8,
+      "n": 24,
+      "nonplanted_count": 1,
+      "nonplanted_examples": [
+        {
+          "agreement": 6,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            131,
+            38,
+            173
+          ]
+        }
+      ],
+      "petal_count_M": 7,
+      "planted_count": 7,
+      "s": 5,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "medium",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.402124
+    },
+    {
+      "agreement_sets_checked": 42504,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 207,
+        "planted": 10
+      },
+      "classified_challenger": 207,
+      "classified_planted": 10,
+      "ell": 2,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 217,
+      "n": 24,
+      "nonplanted_count": 207,
+      "nonplanted_examples": [
+        {
+          "agreement": 5,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            76,
+            136,
+            57,
+            117
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            26,
+            87,
+            135,
+            138
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            153,
+            44,
+            151,
+            38
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            163,
+            38,
+            171,
+            14
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            155,
+            192,
+            176,
+            56
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            89,
+            35,
+            14,
+            55
+          ]
+        }
+      ],
+      "petal_count_M": 10,
+      "planted_count": 10,
+      "s": 5,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "medium",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.723025
+    },
+    {
+      "agreement_sets_checked": 42504,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "full_petal": 1,
+        "mixed_petal": 224,
+        "planted": 10
+      },
+      "classified_challenger": 225,
+      "classified_planted": 10,
+      "ell": 2,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 235,
+      "n": 24,
+      "nonplanted_count": 225,
+      "nonplanted_examples": [
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            91,
+            169,
+            187,
+            132
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            90,
+            173,
+            149,
+            167
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            14,
+            78,
+            112,
+            182
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            99,
+            33,
+            47,
+            14
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            42,
+            97,
+            132,
+            115
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            51,
+            60,
+            117,
+            158
+          ]
+        }
+      ],
+      "petal_count_M": 10,
+      "planted_count": 10,
+      "s": 5,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "medium",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.728696
+    },
+    {
+      "agreement_sets_checked": 134596,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 8,
+        "planted": 7
+      },
+      "classified_challenger": 8,
+      "classified_planted": 7,
+      "ell": 3,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 15,
+      "n": 24,
+      "nonplanted_count": 8,
+      "nonplanted_examples": [
+        {
+          "agreement": 7,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            88,
+            73,
+            4,
+            28
+          ]
+        },
+        {
+          "agreement": 6,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            2,
+            0
+          ],
+          "polynomial_coefficients": [
+            161,
+            152,
+            23,
+            50
+          ]
+        },
+        {
+          "agreement": 6,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            134,
+            108,
+            192,
+            56
+          ]
+        },
+        {
+          "agreement": 6,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            2,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            69,
+            133,
+            103,
+            106
+          ]
+        },
+        {
+          "agreement": 6,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            2,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            122,
+            66,
+            26,
+            101
+          ]
+        },
+        {
+          "agreement": 6,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            2,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            178,
+            159,
+            153,
+            9
+          ]
+        }
+      ],
+      "petal_count_M": 7,
+      "planted_count": 7,
+      "s": 6,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "medium",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 2.224935
+    },
+    {
+      "agreement_sets_checked": 134596,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 1,
+        "planted": 7
+      },
+      "classified_challenger": 1,
+      "classified_planted": 7,
+      "ell": 3,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 8,
+      "n": 24,
+      "nonplanted_count": 1,
+      "nonplanted_examples": [
+        {
+          "agreement": 7,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            46,
+            176,
+            184,
+            173
+          ]
+        }
+      ],
+      "petal_count_M": 7,
+      "planted_count": 7,
+      "s": 6,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "medium",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 2.276679
+    },
+    {
+      "agreement_sets_checked": 42504,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 195,
+        "planted": 10
+      },
+      "classified_challenger": 195,
+      "classified_planted": 10,
+      "ell": 2,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 205,
+      "n": 24,
+      "nonplanted_count": 195,
+      "nonplanted_examples": [
+        {
+          "agreement": 5,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            96,
+            121,
+            72,
+            97
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            88,
+            86,
+            46,
+            166
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            170,
+            107,
+            23,
+            86
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            153,
+            189,
+            137,
+            100
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            156,
+            164,
+            14,
+            52
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            174,
+            153,
+            177,
+            75
+          ]
+        }
+      ],
+      "petal_count_M": 10,
+      "planted_count": 10,
+      "s": 5,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "medium_scalar",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.711068
+    },
+    {
+      "agreement_sets_checked": 134596,
+      "background_size": 0,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 2,
+        "planted": 7
+      },
+      "classified_challenger": 2,
+      "classified_planted": 7,
+      "ell": 3,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 9,
+      "n": 24,
+      "nonplanted_count": 2,
+      "nonplanted_examples": [
+        {
+          "agreement": 6,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 1,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "polynomial_coefficients": [
+            117,
+            176,
+            149,
+            26
+          ]
+        },
+        {
+          "agreement": 6,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            2,
+            0,
+            2,
+            1,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            3,
+            49,
+            184,
+            22
+          ]
+        }
+      ],
+      "petal_count_M": 7,
+      "planted_count": 7,
+      "s": 6,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "medium_scalar",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 2.24257
+    },
+    {
+      "agreement_sets_checked": 346104,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "full_petal": 11,
+        "mixed_petal": 1668,
+        "planted": 9
+      },
+      "classified_challenger": 1679,
+      "classified_planted": 9,
+      "ell": 2,
+      "k": 6,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 1688,
+      "n": 24,
+      "nonplanted_count": 1679,
+      "nonplanted_examples": [
+        {
+          "agreement": 7,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 4,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            99,
+            109,
+            3,
+            28,
+            177,
+            163
+          ]
+        },
+        {
+          "agreement": 7,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 4,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            74,
+            61,
+            12,
+            185,
+            109,
+            138
+          ]
+        },
+        {
+          "agreement": 7,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 4,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            167,
+            76,
+            20,
+            138,
+            164,
+            14
+          ]
+        },
+        {
+          "agreement": 7,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 4,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            70,
+            149,
+            100,
+            122,
+            82,
+            56
+          ]
+        },
+        {
+          "agreement": 7,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 4,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            137,
+            177,
+            61,
+            66,
+            84,
+            54
+          ]
+        },
+        {
+          "agreement": 7,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 4,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            146,
+            175,
+            50,
+            70,
+            139,
+            192
+          ]
+        }
+      ],
+      "petal_count_M": 9,
+      "planted_count": 9,
+      "s": 7,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "large_single",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 14.918766
+    },
+    {
+      "agreement_sets_checked": 4960,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 32,
+        "planted": 15
+      },
+      "classified_challenger": 32,
+      "classified_planted": 15,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 47,
+      "n": 32,
+      "nonplanted_count": 32,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            51,
+            104
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            6,
+            22
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            63
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            119,
+            168
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            77,
+            93
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            112,
+            104
+          ]
+        }
+      ],
+      "petal_count_M": 15,
+      "planted_count": 15,
+      "s": 3,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "large_n_low_k",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.022421
+    },
+    {
+      "agreement_sets_checked": 4960,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 21,
+        "planted": 15
+      },
+      "classified_challenger": 21,
+      "classified_planted": 15,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 36,
+      "n": 32,
+      "nonplanted_count": 21,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            4,
+            74
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            139,
+            115
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            10,
+            34
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            183,
+            167
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            31,
+            88
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            130,
+            75
+          ]
+        }
+      ],
+      "petal_count_M": 15,
+      "planted_count": 15,
+      "s": 3,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "large_n_low_k",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.022752
+    },
+    {
+      "agreement_sets_checked": 4960,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 20,
+        "planted": 15
+      },
+      "classified_challenger": 20,
+      "classified_planted": 15,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 35,
+      "n": 32,
+      "nonplanted_count": 20,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            187,
+            34
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            141,
+            89
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            175,
+            191
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            26,
+            72
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            109,
+            97
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            46,
+            85
+          ]
+        }
+      ],
+      "petal_count_M": 15,
+      "planted_count": 15,
+      "s": 3,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "large_n_low_k",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.02419
+    },
+    {
+      "agreement_sets_checked": 4960,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 14,
+        "planted": 15
+      },
+      "classified_challenger": 14,
+      "classified_planted": 15,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 29,
+      "n": 32,
+      "nonplanted_count": 14,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            126,
+            55
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            143,
+            33
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            67,
+            120
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            115,
+            35
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            14,
+            154
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            120,
+            165
+          ]
+        }
+      ],
+      "petal_count_M": 15,
+      "planted_count": 15,
+      "s": 3,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "large_n_low_k",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.022712
+    },
+    {
+      "agreement_sets_checked": 35960,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 1,
+        "planted": 10
+      },
+      "classified_challenger": 1,
+      "classified_planted": 10,
+      "ell": 3,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 11,
+      "n": 32,
+      "nonplanted_count": 1,
+      "nonplanted_examples": [
+        {
+          "agreement": 4,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            112,
+            124
+          ]
+        }
+      ],
+      "petal_count_M": 10,
+      "planted_count": 10,
+      "s": 4,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "large_n_low_k",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.162539
+    },
+    {
+      "agreement_sets_checked": 35960,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 10
+      },
+      "classified_challenger": 0,
+      "classified_planted": 10,
+      "ell": 3,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 10,
+      "n": 32,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 10,
+      "planted_count": 10,
+      "s": 4,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "large_n_low_k",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.169554
+    },
+    {
+      "agreement_sets_checked": 35960,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 10
+      },
+      "classified_challenger": 0,
+      "classified_planted": 10,
+      "ell": 3,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 10,
+      "n": 32,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 10,
+      "planted_count": 10,
+      "s": 4,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "tier": "large_n_low_k",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.164101
+    },
+    {
+      "agreement_sets_checked": 35960,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": false,
+      "class_counts": {
+        "planted": 10
+      },
+      "classified_challenger": 0,
+      "classified_planted": 10,
+      "ell": 3,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 10,
+      "n": 32,
+      "nonplanted_count": 0,
+      "nonplanted_examples": [],
+      "petal_count_M": 10,
+      "planted_count": 10,
+      "s": 4,
+      "scalar_mode": "geometric",
+      "sigma": 2,
+      "tier": "large_n_low_k",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.164072
+    },
+    {
+      "agreement_sets_checked": 201376,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "full_petal": 4,
+        "mixed_petal": 972,
+        "planted": 14
+      },
+      "classified_challenger": 976,
+      "classified_planted": 14,
+      "ell": 2,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 990,
+      "n": 32,
+      "nonplanted_count": 976,
+      "nonplanted_examples": [
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            136,
+            14,
+            132,
+            104
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            60,
+            51,
+            107,
+            168
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            141,
+            170,
+            175,
+            93
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            170,
+            129,
+            176,
+            104
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            152,
+            28,
+            9,
+            4
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            64,
+            63,
+            105,
+            154
+          ]
+        }
+      ],
+      "petal_count_M": 14,
+      "planted_count": 14,
+      "s": 5,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "large_n_mid_k",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 3.440013
+    },
+    {
+      "agreement_sets_checked": 201376,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "full_petal": 2,
+        "mixed_petal": 969,
+        "planted": 14
+      },
+      "classified_challenger": 971,
+      "classified_planted": 14,
+      "ell": 2,
+      "k": 4,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 985,
+      "n": 32,
+      "nonplanted_count": 971,
+      "nonplanted_examples": [
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            75,
+            42,
+            2,
+            74
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            166,
+            73,
+            120,
+            27
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            91,
+            155,
+            106,
+            34
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            102,
+            167,
+            143,
+            167
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            147,
+            60,
+            91,
+            88
+          ]
+        },
+        {
+          "agreement": 5,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 2,
+          "petal_agreements": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            25,
+            177,
+            43,
+            141
+          ]
+        }
+      ],
+      "petal_count_M": 14,
+      "planted_count": 14,
+      "s": 5,
+      "scalar_mode": "geometric",
+      "sigma": 1,
+      "tier": "large_n_mid_k",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 3.443341
+    },
+    {
+      "agreement_sets_checked": 17296,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 76,
+        "planted": 23
+      },
+      "classified_challenger": 76,
+      "classified_planted": 23,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 99,
+      "n": 48,
+      "nonplanted_count": 76,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            31,
+            101
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            13,
+            93
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            108,
+            28
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            173,
+            14
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "polynomial_coefficients": [
+            103,
+            133
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            100,
+            3
+          ]
+        }
+      ],
+      "petal_count_M": 23,
+      "planted_count": 23,
+      "s": 3,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "larger_domain_smoke",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.078882
+    },
+    {
+      "agreement_sets_checked": 17296,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 73,
+        "planted": 23
+      },
+      "classified_challenger": 73,
+      "classified_planted": 23,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 96,
+      "n": 48,
+      "nonplanted_count": 73,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            69,
+            181
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            191,
+            128
+          ]
+        },
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            39,
+            39
+          ]
+        },
+        {
+          "agreement": 4,
+          "background_agreement": 1,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            108,
+            134
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            97,
+            172
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            14,
+            178
+          ]
+        }
+      ],
+      "petal_count_M": 23,
+      "planted_count": 23,
+      "s": 3,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "larger_domain_smoke",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.080936
+    },
+    {
+      "agreement_sets_checked": 41664,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 162,
+        "planted": 31
+      },
+      "classified_challenger": 162,
+      "classified_planted": 31,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_1",
+      "list_size": 193,
+      "n": 64,
+      "nonplanted_count": 162,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            128,
+            159
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            57,
+            87
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            150,
+            165
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            187,
+            140
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            143,
+            128
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            151,
+            60
+          ]
+        }
+      ],
+      "petal_count_M": 31,
+      "planted_count": 31,
+      "s": 3,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "larger_domain_smoke",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.198959
+    },
+    {
+      "agreement_sets_checked": 41664,
+      "background_size": 1,
+      "beats_0p9_planted": true,
+      "beats_planted": true,
+      "class_counts": {
+        "mixed_petal": 169,
+        "planted": 31
+      },
+      "classified_challenger": 169,
+      "classified_planted": 31,
+      "ell": 2,
+      "k": 2,
+      "kind": "exact_all_agreement_sets",
+      "layout": "cyclic_step_5",
+      "list_size": 200,
+      "n": 64,
+      "nonplanted_count": 169,
+      "nonplanted_examples": [
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            9,
+            64
+          ]
+        },
+        {
+          "agreement": 4,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            171,
+            38
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            62,
+            96
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            125,
+            43
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "polynomial_coefficients": [
+            65,
+            167
+          ]
+        },
+        {
+          "agreement": 3,
+          "background_agreement": 0,
+          "class": "mixed_petal",
+          "core_agreement": 0,
+          "petal_agreements": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial_coefficients": [
+            96
+          ]
+        }
+      ],
+      "petal_count_M": 31,
+      "planted_count": 31,
+      "s": 3,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "tier": "larger_domain_smoke",
+      "unclassified": 0,
+      "unclassified_examples": [],
+      "wall_seconds": 0.193486
+    }
+  ],
+  "cells_failed": [],
+  "cells_skipped": [
+    {
+      "agreement_sets": 1307504,
+      "k": 8,
+      "layout": "cyclic_step_1",
+      "n": 24,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "skip_reason": "combo_cap",
+      "tier": "frontier_skip"
+    },
+    {
+      "agreement_sets": 906192,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 32,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "skip_reason": "combo_cap",
+      "tier": "frontier_skip"
+    },
+    {
+      "agreement_sets": 28048800,
+      "k": 8,
+      "layout": "cyclic_step_1",
+      "n": 32,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "skip_reason": "combo_cap",
+      "tier": "frontier_skip"
+    },
+    {
+      "agreement_sets": 1712304,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 48,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "skip_reason": "combo_cap",
+      "tier": "frontier_skip"
+    },
+    {
+      "agreement_sets": 635376,
+      "k": 2,
+      "layout": "cyclic_step_1",
+      "n": 64,
+      "scalar_mode": "linear",
+      "sigma": 2,
+      "skip_reason": "combo_cap",
+      "tier": "frontier_skip"
+    },
+    {
+      "agreement_sets": 7624512,
+      "k": 4,
+      "layout": "cyclic_step_1",
+      "n": 64,
+      "scalar_mode": "linear",
+      "sigma": 1,
+      "skip_reason": "combo_cap",
+      "tier": "frontier_skip"
+    }
+  ],
+  "combo_cap": 360000,
+  "completed_all_planned_cells": true,
+  "finished_at_unix": 1783306546.8229527,
+  "min_seconds_left": 4.0,
+  "started_at_unix": 1783306503.8364434,
+  "summary": {
+    "agreement_sets_checked": 1920836,
+    "cells_checked": 77,
+    "cells_failed": 0,
+    "cells_skipped": 6,
+    "completed_all_planned_cells": true,
+    "max_list_size": 1688,
+    "max_unclassified": 0,
+    "status": "PASS",
+    "structured_challenger_cells": 36
+  },
+  "time_limit_seconds": 55.0
+}

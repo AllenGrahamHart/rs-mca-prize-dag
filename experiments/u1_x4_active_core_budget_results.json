@@ -1,0 +1,346 @@
+{
+  "completed_rows": 5,
+  "direct_n3_alarms": [],
+  "gate_failures": [],
+  "interpretation": "No direct n^3 column excess found in complete small rows or capped windows; old hn/n^2 trophies are reported only as stronger-bound diagnostics.",
+  "max_nontoral_to_n3_ratio": 0.0146484375,
+  "node": "u1_x4_direct_column_budget / x4_exactlist_staircase_split",
+  "partial_rows": 0,
+  "positive_control_detected": true,
+  "rows": [
+    {
+      "W": 16,
+      "anchored_nontoral_cores": 48,
+      "anchored_nontoral_trades": 60,
+      "anchored_toral_trades": 3,
+      "complete": true,
+      "direct_n3_budget": 4096,
+      "direct_n3_exceeded": false,
+      "h": 4,
+      "hashed": 455,
+      "n": 16,
+      "name": "exceptional_control_n16_h4_p17",
+      "old_hn_budget": 64,
+      "old_hn_exceeded": false,
+      "old_n2_budget": 256,
+      "old_n2_exceeded": false,
+      "p": 17,
+      "partial": false,
+      "probed": 1365,
+      "total_hash_subsets": 455,
+      "total_probe_subsets": 1365,
+      "wall_seconds": 0.004257,
+      "witnesses": [
+        {
+          "P": [
+            0,
+            8,
+            9,
+            13
+          ],
+          "Q": [
+            1,
+            2,
+            3,
+            12
+          ]
+        },
+        {
+          "P": [
+            0,
+            3,
+            7,
+            14
+          ],
+          "Q": [
+            1,
+            2,
+            4,
+            8
+          ]
+        },
+        {
+          "P": [
+            0,
+            4,
+            10,
+            15
+          ],
+          "Q": [
+            1,
+            2,
+            5,
+            7
+          ]
+        },
+        {
+          "P": [
+            0,
+            6,
+            8,
+            14
+          ],
+          "Q": [
+            1,
+            2,
+            9,
+            10
+          ]
+        },
+        {
+          "P": [
+            0,
+            5,
+            10,
+            13
+          ],
+          "Q": [
+            1,
+            3,
+            7,
+            14
+          ]
+        },
+        {
+          "P": [
+            0,
+            5,
+            14,
+            15
+          ],
+          "Q": [
+            1,
+            3,
+            9,
+            12
+          ]
+        },
+        {
+          "P": [
+            0,
+            6,
+            11,
+            12
+          ],
+          "Q": [
+            1,
+            3,
+            13,
+            14
+          ]
+        },
+        {
+          "P": [
+            0,
+            6,
+            9,
+            14
+          ],
+          "Q": [
+            1,
+            4,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "W": 16,
+      "anchored_nontoral_cores": 0,
+      "anchored_nontoral_trades": 0,
+      "anchored_toral_trades": 3,
+      "complete": true,
+      "direct_n3_budget": 4096,
+      "direct_n3_exceeded": false,
+      "h": 4,
+      "hashed": 455,
+      "n": 16,
+      "name": "clean_q2_n16_h4",
+      "old_hn_budget": 64,
+      "old_hn_exceeded": false,
+      "old_n2_budget": 256,
+      "old_n2_exceeded": false,
+      "p": 257,
+      "partial": false,
+      "probed": 1365,
+      "total_hash_subsets": 455,
+      "total_probe_subsets": 1365,
+      "wall_seconds": 0.004282,
+      "witnesses": []
+    },
+    {
+      "W": 32,
+      "anchored_nontoral_cores": 0,
+      "anchored_nontoral_trades": 0,
+      "anchored_toral_trades": 0,
+      "complete": true,
+      "direct_n3_budget": 32768,
+      "direct_n3_exceeded": false,
+      "h": 5,
+      "hashed": 31465,
+      "n": 32,
+      "name": "boundary_n32_h5_p1153",
+      "old_hn_budget": 160,
+      "old_hn_exceeded": false,
+      "old_n2_budget": 1024,
+      "old_n2_exceeded": false,
+      "p": 1153,
+      "partial": false,
+      "probed": 169911,
+      "total_hash_subsets": 31465,
+      "total_probe_subsets": 169911,
+      "wall_seconds": 0.542186,
+      "witnesses": []
+    },
+    {
+      "W": 32,
+      "anchored_nontoral_cores": 0,
+      "anchored_nontoral_trades": 0,
+      "anchored_toral_trades": 0,
+      "complete": true,
+      "direct_n3_budget": 32768,
+      "direct_n3_exceeded": false,
+      "h": 5,
+      "hashed": 31465,
+      "n": 32,
+      "name": "q3_n32_h5",
+      "old_hn_budget": 160,
+      "old_hn_exceeded": false,
+      "old_n2_budget": 1024,
+      "old_n2_exceeded": false,
+      "p": 32801,
+      "partial": false,
+      "probed": 169911,
+      "total_hash_subsets": 31465,
+      "total_probe_subsets": 169911,
+      "wall_seconds": 0.577008,
+      "witnesses": []
+    },
+    {
+      "W": 32,
+      "anchored_nontoral_cores": 0,
+      "anchored_nontoral_trades": 0,
+      "anchored_toral_trades": 0,
+      "complete": true,
+      "direct_n3_budget": 32768,
+      "direct_n3_exceeded": false,
+      "h": 6,
+      "hashed": 169911,
+      "n": 32,
+      "name": "boundary_n32_h6_p1153",
+      "old_hn_budget": 192,
+      "old_hn_exceeded": false,
+      "old_n2_budget": 1024,
+      "old_n2_exceeded": false,
+      "p": 1153,
+      "partial": false,
+      "probed": 736281,
+      "total_hash_subsets": 169911,
+      "total_probe_subsets": 736281,
+      "wall_seconds": 3.177623,
+      "witnesses": []
+    },
+    {
+      "W": 28,
+      "anchored_nontoral_cores": 0,
+      "anchored_nontoral_trades": 0,
+      "anchored_toral_trades": 0,
+      "complete": false,
+      "direct_n3_budget": 32768,
+      "direct_n3_exceeded": false,
+      "h": 7,
+      "hashed": 296010,
+      "n": 32,
+      "name": "boundary_n32_h7_p1153_slice28",
+      "old_hn_budget": 224,
+      "old_hn_exceeded": false,
+      "old_n2_budget": 1024,
+      "old_n2_exceeded": false,
+      "p": 1153,
+      "partial": false,
+      "probed": 888030,
+      "total_hash_subsets": 296010,
+      "total_probe_subsets": 888030,
+      "wall_seconds": 5.318289,
+      "witnesses": []
+    },
+    {
+      "W": 24,
+      "anchored_nontoral_cores": 0,
+      "anchored_nontoral_trades": 0,
+      "anchored_toral_trades": 0,
+      "complete": false,
+      "direct_n3_budget": 32768,
+      "direct_n3_exceeded": false,
+      "h": 8,
+      "hashed": 245157,
+      "n": 32,
+      "name": "boundary_n32_h8_p1153_slice24",
+      "old_hn_budget": 256,
+      "old_hn_exceeded": false,
+      "old_n2_budget": 1024,
+      "old_n2_exceeded": false,
+      "p": 1153,
+      "partial": false,
+      "probed": 490314,
+      "total_hash_subsets": 245157,
+      "total_probe_subsets": 490314,
+      "wall_seconds": 4.002992,
+      "witnesses": []
+    },
+    {
+      "W": 28,
+      "anchored_nontoral_cores": 0,
+      "anchored_nontoral_trades": 0,
+      "anchored_toral_trades": 0,
+      "complete": false,
+      "direct_n3_budget": 262144,
+      "direct_n3_exceeded": false,
+      "h": 7,
+      "hashed": 296010,
+      "n": 64,
+      "name": "q2_n64_h7_slice28",
+      "old_hn_budget": 448,
+      "old_hn_exceeded": false,
+      "old_n2_budget": 4096,
+      "old_n2_exceeded": false,
+      "p": 4289,
+      "partial": false,
+      "probed": 888030,
+      "total_hash_subsets": 296010,
+      "total_probe_subsets": 888030,
+      "wall_seconds": 5.192163,
+      "witnesses": []
+    },
+    {
+      "W": 26,
+      "anchored_nontoral_cores": 0,
+      "anchored_nontoral_trades": 0,
+      "anchored_toral_trades": 0,
+      "complete": false,
+      "direct_n3_budget": 262144,
+      "direct_n3_exceeded": false,
+      "h": 8,
+      "hashed": 480700,
+      "n": 64,
+      "name": "q3_n64_h8_slice26",
+      "old_hn_budget": 512,
+      "old_hn_exceeded": false,
+      "old_n2_budget": 4096,
+      "old_n2_exceeded": false,
+      "p": 262337,
+      "partial": false,
+      "probed": 1081575,
+      "total_hash_subsets": 480700,
+      "total_probe_subsets": 1081575,
+      "wall_seconds": 9.334803,
+      "witnesses": []
+    }
+  ],
+  "rows_started": 9,
+  "status": "PASS",
+  "strict_hn_excess_rows": [],
+  "wall_seconds": 28.91275,
+  "window_slice_rows": 4
+}

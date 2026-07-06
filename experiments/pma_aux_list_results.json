@@ -1,0 +1,100 @@
+{
+  "node": "petal_mixed_amplification / pma_wide_residual",
+  "rows": [
+    {
+      "D": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "M": 4,
+      "agreement_threshold": 8,
+      "checked_budget": 924,
+      "checked_interpolation_subsets": 924,
+      "d": 5,
+      "ell": 3,
+      "exact": true,
+      "field": 109,
+      "johnson_safe": true,
+      "list_count_at_threshold": 0,
+      "max_agreement": 0,
+      "points": 12,
+      "total_interpolation_subsets": 924,
+      "wall_seconds": 0.022658
+    },
+    {
+      "D": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "M": 6,
+      "agreement_threshold": 8,
+      "checked_budget": 18564,
+      "checked_interpolation_subsets": 18564,
+      "d": 5,
+      "ell": 3,
+      "exact": true,
+      "field": 109,
+      "johnson_safe": false,
+      "list_count_at_threshold": 3,
+      "max_agreement": 8,
+      "points": 18,
+      "total_interpolation_subsets": 18564,
+      "wall_seconds": 0.485652
+    },
+    {
+      "D": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "M": 9,
+      "agreement_threshold": 8,
+      "checked_budget": 296010,
+      "checked_interpolation_subsets": 296010,
+      "d": 5,
+      "ell": 3,
+      "exact": true,
+      "field": 109,
+      "johnson_safe": false,
+      "list_count_at_threshold": 159,
+      "max_agreement": 9,
+      "points": 27,
+      "total_interpolation_subsets": 296010,
+      "wall_seconds": 8.511742
+    },
+    {
+      "D": [
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "M": 12,
+      "agreement_threshold": 8,
+      "checked_budget": 200000,
+      "checked_interpolation_subsets": 200000,
+      "d": 5,
+      "ell": 3,
+      "exact": false,
+      "field": 109,
+      "johnson_safe": false,
+      "list_count_at_threshold": 1931,
+      "max_agreement": 10,
+      "points": 36,
+      "total_interpolation_subsets": 1947792,
+      "wall_seconds": 6.930427
+    }
+  ],
+  "started_at_unix": 1783306640.7039752,
+  "status": "PASS",
+  "wall_seconds": 15.972667
+}

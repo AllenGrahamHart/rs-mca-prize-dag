@@ -1,4 +1,9 @@
-# PRO WINDOW — "DLI-FLATNESS" (fresh window)
+# PRO WINDOW — "DLI-FLATNESS" (historical window)
+
+Status note 2026-07-06: this file records the older pointwise/sup-flatness
+attack window.  That stronger premise is now refuted by low-mass full-rank
+ternary profiles.  Use `statement.md`, `proof.md`, and `attack.md` for the live
+weighted-average DLI obligation.
 
 *Self-contained. THE last analytic input of the primitive core; everything else in
 the b2b -> pcf -> ejm chain is proved. The object is now pinned exactly and the

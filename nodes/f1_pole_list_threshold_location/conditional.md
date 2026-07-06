@@ -33,3 +33,23 @@ In non-generating rows the generator field satisfies `q_gen < 2^128`, so the
 extra doubled-base reserve only moves the required base-side inequality in the
 safe direction. Thus no additional F-lane case remains after
 `list_adjacency_closing` and `ext_import`.
+
+## Stress evidence
+
+`experiments/amber_stress/f1_pole_threshold_probe.py` checks the exact
+extension-pole floor
+
+```text
+N(L) = ceil(L(|F|-|B|) / (|F|-|B| + 2^40 L))
+```
+
+against the MCA gate on adversarial non-generating rows with `|B| < 2^128`,
+`|B|^2 < |F|`, and `|F| < 2^256`.  The current run tested `92` official-like
+integer rows and found no premature crossing, no missing crossing, and no row
+where the crossing escaped the doubled-base reserve.  The largest additive
+delay over the integer gate was exactly `2^40`, at the top field-size edge.
+
+The same script includes invalid near-`|B|=|F|` controls; both were detected as
+non-crossing because the saturation cap falls below the MCA gate.  This shows
+the probe is sensitive to the separation hypothesis rather than vacuously
+green.

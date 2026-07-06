@@ -1,0 +1,480 @@
+{
+  "commands": [
+    {
+      "cmd": [
+        "python3",
+        "tools/verify_list_corridor_ledger.py"
+      ],
+      "name": "list_corridor_ledger",
+      "nodes": [
+        "list_adjacency_closing",
+        "list_grand"
+      ],
+      "output_tail": "PASS list_corridor_ledger\n1/4: required=0.612526496982 gain=0.632812500000 margin=0.020286003018\n1/8: required=0.075136156735 gain=0.099121093750 margin=0.023984937015\n1/16: required=0.328340157828 gain=0.375000000000 margin=0.046659842172\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 1.081042
+    },
+    {
+      "cmd": [
+        "python3",
+        "tools/verify_list_corridor_widths.py"
+      ],
+      "name": "list_corridor_widths",
+      "nodes": [
+        "list_adjacency_closing",
+        "list_grand"
+      ],
+      "output_tail": "PASS list_corridor_widths\n1/4: W_list=1.612526496982\n1/8: W_list=1.075136156735\n1/16: W_list=1.328340157828\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.022571
+    },
+    {
+      "cmd": [
+        "python3",
+        "nodes/f1_minimal_field_descent/verify.py"
+      ],
+      "name": "f1_minimal_field_descent",
+      "nodes": [
+        "f1_classification",
+        "ext_lift"
+      ],
+      "output_tail": "(A) subfield=divisor lattice, unique minimal K (no ambiguity): PASS\n(B) F_2^6, base b=2: descent d_x|N & trichotomy partition PASS  cases={'I': 4, 'II': 0, 'III': 60} (total=64=64)\n(B) F_2^12, base b=3: descent d_x|N & trichotomy partition PASS  cases={'I': 8, 'II': 56, 'III': 4032} (total=4096=4096)\n(B) F_3^4, base b=2: descent d_x|N & trichotomy partition PASS  cases={'I': 9, 'II': 0, 'III': 72} (total=81=81)\n(B) F_5^4, base b=1: descent d_x|N & trichotomy partition PASS  cases={'I': 5, 'II': 20, 'III': 600} (total=625=625)\nALL PASS\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.88588
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/f1_pole_threshold_probe.py"
+      ],
+      "name": "f1_pole_threshold_probe",
+      "nodes": [
+        "f1_pole_list_threshold_location",
+        "f1_case_pole",
+        "f1_classification"
+      ],
+      "output_tail": "{\n  \"invalid_controls\": 2,\n  \"invalid_controls_detected\": 2,\n  \"official_failures\": 0,\n  \"official_rows\": 92\n}\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.070778
+    },
+    {
+      "cmd": [
+        "python3",
+        "nodes/xr_radius_arithmetic/verify.py"
+      ],
+      "name": "xr_radius_arithmetic",
+      "nodes": [
+        "r2_clean_rates",
+        "xr_clean_residual_any_gate"
+      ],
+      "output_tail": "(1) corridor edge t* and reach s*=t*-1 at L=255.9, n=2^41:\n    rate 1/2 : t*=8592912739 (ref 8592912739) match=True  s*=8592912738  s*>1(never s*=1):True\n    rate 1/4 : t*=7014660390 (ref 7014660390) match=True  s*=7014660389  s*>1(never s*=1):True\n    rate 1/8 : t*=4722556392 (ref 4722556392) match=True  s*=4722556391  s*>1(never s*=1):True\n    rate 1/16: t*=2943177800 (ref 2943177800) match=True  s*=2943177799  s*>1(never s*=1):True\n(2) ball profile N_s=C(j,s)C(n-j,s) + Vandermonde sum=C(n,j):\n    n=8 j=3: exhaustive N_s match & Vandermonde: True\n    n=9 j=4: exhaustive N_s match & Vandermonde: True\n    n=10 j=4: exhaustive N_s match & Vandermonde: True\n    n=7 j=2: exhaustive N_s match & Vandermonde: True\n(3) plateau onset c(s,t)=min(s,t-1):\n    plateau reached at s=t-1 for all t in [2,20): True\nALL PASS\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.014453
+    },
+    {
+      "cmd": [
+        "python3",
+        "nodes/xr_ledger_qpower/verify.py"
+      ],
+      "name": "xr_ledger_qpower",
+      "nodes": [
+        "r2_clean_rates",
+        "xr_clean_residual_any_gate"
+      ],
+      "output_tail": "PART A (exact codim): 202 checks, all match t+min(s,t)\n  t=2: conditional P[both|one] and its q-exponent vs predicted min(s,t-1):\n     s=1: P[both|one]=0.1587  emp_exp~0.77  pred=1\n     s=2: P[both|one]=0.0874  emp_exp~1.02  pred=1\n  t=3: conditional P[both|one] and its q-exponent vs predicted min(s,t-1):\n     s=1: P[both|one]=0.0825  emp_exp~1.04  pred=1\n     s=2: P[both|one]=0.0091  emp_exp~1.96  pred=2\n     s=3: P[both|one]=0.0043  emp_exp~2.28  pred=2\nPART B (slope accounting): empirical exponents track min(s,t-1) (rise with s, plateau at t-1); small-field constants apply.\nPASS\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 17.519213
+    },
+    {
+      "cmd": [
+        "python3",
+        "nodes/xr_ledger_exponent_reconciliation/verify.py"
+      ],
+      "name": "xr_ledger_exponent_reconciliation",
+      "nodes": [
+        "r2_clean_rates",
+        "xr_clean_residual_any_gate"
+      ],
+      "output_tail": "ALL PASS: codim = t + min(s,t)\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.01603
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/xr_smallcore_triangle_scan.py"
+      ],
+      "name": "xr_smallcore_triangle_scan",
+      "nodes": [
+        "xr_clean_residual_any_gate",
+        "xr_smallcore_spread_count"
+      ],
+      "output_tail": "{\n  \"configs_checked\": 3,\n  \"configs_with_profiles_without_full_rank_probe\": 0,\n  \"configs_with_rank_drops\": 0,\n  \"max_rank_drop_rate\": 0.0,\n  \"min_rank_observed\": 6,\n  \"status\": \"PASS\",\n  \"total_rank_drop_tests\": 0,\n  \"total_severe_rank_drop_tests\": 0,\n  \"total_slope_tests\": 1409712\n}\nPASS: XR small-core triangle stress scan completed\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 55.03761
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/xr_smallcore_quad_scan.py"
+      ],
+      "name": "xr_smallcore_quad_scan",
+      "nodes": [
+        "xr_clean_residual_any_gate",
+        "xr_smallcore_spread_count"
+      ],
+      "output_tail": "{\n  \"configs_checked\": 4,\n  \"configs_with_profiles_without_full_rank_probe\": 0,\n  \"configs_with_rank_drops\": 0,\n  \"max_rank_drop_rate\": 0.0,\n  \"min_rank_observed\": 8,\n  \"status\": \"PASS\",\n  \"total_rank_drop_tests\": 0,\n  \"total_severe_rank_drop_tests\": 0,\n  \"total_slope_tests\": 834429\n}\nPASS: XR small-core quadrilateral stress scan found no rank drops\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 55.043427
+    },
+    {
+      "cmd": [
+        "python3",
+        "nodes/e22_two_class_exhaustion/verify.py"
+      ],
+      "name": "e22_two_class_exhaustion",
+      "nodes": [
+        "worst_word_planted",
+        "list_planted_arithmetic"
+      ],
+      "output_tail": "E22 ratio-flat sanity check passed\nchecked_cells=72\nchecked_noncore_swap_petal_tests=6674\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.046875
+    },
+    {
+      "cmd": [
+        "python3",
+        "nodes/e22_fixed_scale_staircase_injectivity/verify.py"
+      ],
+      "name": "e22_fixed_scale_staircase_injectivity",
+      "nodes": [
+        "worst_word_planted",
+        "list_planted_arithmetic"
+      ],
+      "output_tail": "fixed-scale staircase injectivity checks passed: 11428\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.189172
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/e22_extended_local_census.py"
+      ],
+      "name": "e22_extended_local_census",
+      "nodes": [
+        "worst_word_challenger_pricing",
+        "worst_word_planted",
+        "list_planted_arithmetic"
+      ],
+      "output_tail": "{\n  \"agreement_sets_checked\": 1920836,\n  \"cells_checked\": 77,\n  \"cells_failed\": 0,\n  \"cells_skipped\": 6,\n  \"completed_all_planned_cells\": true,\n  \"max_list_size\": 1688,\n  \"max_unclassified\": 0,\n  \"status\": \"PASS\",\n  \"structured_challenger_cells\": 36\n}\nPASS: no third challenger class found in bounded exact cells\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 43.026876
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/e22_random_layout_census.py"
+      ],
+      "name": "e22_random_layout_census",
+      "nodes": [
+        "worst_word_challenger_pricing",
+        "worst_word_planted",
+        "list_planted_arithmetic"
+      ],
+      "output_tail": "{\n  \"agreement_sets_checked\": 1463368,\n  \"cells_checked\": 220,\n  \"cells_failed\": 0,\n  \"cells_skipped\": 151,\n  \"completed_all_planned_cells\": false,\n  \"max_list_size\": 102,\n  \"max_unclassified\": 0,\n  \"positive_control_cells\": 3,\n  \"positive_controls_detected\": 3,\n  \"status\": \"PASS\",\n  \"structured_challenger_cells\": 136\n}\nPASS: shuffled-layout E22 census found no third challenger class\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 51.062569
+    },
+    {
+      "cmd": [
+        "python3",
+        "nodes/gap2_seam/verify.py"
+      ],
+      "name": "gap2_seam",
+      "nodes": [
+        "strip"
+      ],
+      "output_tail": "(a) pullback g(X^M) has M|deg (support in M*Z)        : PASS\n(b) M|gcd(n,k) => (M|j <=> M|t_win)  [5296 buckets]    : PASS\n(c) seam M|gcd(n,j),M!|k => M!|t_win  [4482 witnesses] : PASS\nALL PASS\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.017004
+    },
+    {
+      "cmd": [
+        "python3",
+        "nodes/petal_fixed_excess/verify.py"
+      ],
+      "name": "petal_fixed_excess",
+      "nodes": [
+        "imgfib",
+        "list_safe"
+      ],
+      "output_tail": "Lemma 13 (r>=ell, dimK<=d-ell+1) on toy sunflowers:\n  q= 13 t=3 ell=2 d=2 e=0: r=3 dimK=0 bound q^(e+1)=q^1  [L13 ok]\n  q= 13 t=3 ell=2 d=3 e=1: r=2 dimK=2 bound q^(e+1)=q^2  [L13 ok]\n  q= 13 t=3 ell=2 d=4 e=2: r=1 dimK=4 bound q^(e+1)=q^3  [TOPDEFECT]\n  q=101 t=3 ell=3 d=3 e=0: r=4 dimK=0 bound q^(e+1)=q^1  [L13 ok]\n  q=101 t=3 ell=3 d=4 e=1: r=4 dimK=1 bound q^(e+1)=q^2  [L13 ok]\n  q=101 t=3 ell=3 d=5 e=2: r=3 dimK=3 bound q^(e+1)=q^3  [L13 ok]\n  q=101 t=3 ell=3 d=6 e=3: r=2 dimK=5 bound q^(e+1)=q^4  [TOPDEFECT]\n  q=101 t=4 ell=3 d=3 e=0: r=4 dimK=0 bound q^(e+1)=q^1  [L13 ok]\n  q=101 t=4 ell=3 d=4 e=1: r=5 dimK=0 bound q^(e+1)=q^2  [L13 ok]\n  q=101 t=4 ell=3 d=5 e=2: r=6 dimK=0 bound q^(e+1)=q^3  [L13 ok]\n  q=101 t=4 ell=3 d=6 e=3: r=5 dimK=2 bound q^(e+1)=q^4  [L13 ok]\n  q=101 t=4 ell=3 d=7 e=4: r=4 dimK=4 bound q^(e+1)=q^5  [L13 ok]\n  q=101 t=4 ell=3 d=8 e=5: r=3 dimK=6 bound q^(e+1)=q^6  [L13 ok]\n  q=101 t=4 ell=3 d=9 e=6: r=2 dimK=8 bound q^(e+1)=q^7  [TOPDEFECT]\n(b) fixed-excess count bound q^(e+1) with q<=n^2: exponent a*(e+1) constant in n for e<=6 -> poly(n): PASS\n(d) witness A e=2: ell=3 t=3 d=5 top_defect=6 d<top:True excess=2\n(d) witness B e=5: ell=3 t=5 d=8 top_defect=12 d<top:True excess=5\nALL PASS\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.022069
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/petal_excess_local_scan.py"
+      ],
+      "name": "petal_excess_local_scan",
+      "nodes": [
+        "imgfib",
+        "petal_growth"
+      ],
+      "output_tail": "      ],\n        [\n          3,\n          6\n        ]\n      ],\n      \"t\": 3\n    },\n    {\n      \"ell\": 2,\n      \"p\": 809,\n      \"seq\": [\n        [\n          2,\n          4\n        ],\n        [\n          3,\n          6\n        ]\n      ],\n      \"t\": 3\n    },\n    {\n      \"ell\": 2,\n      \"p\": 109,\n      \"seq\": [\n        [\n          2,\n          1\n        ],\n        [\n          3,\n          2\n        ],\n        [\n          4,\n          4\n        ],\n        [\n          5,\n          6\n        ],\n        [\n          6,\n          8\n        ],\n        [\n          7,\n          10\n        ]\n      ],\n      \"t\": 5\n    },\n    {\n      \"ell\": 2,\n      \"p\": 211,\n      \"seq\": [\n        [\n          2,\n          1\n        ],\n        [\n          3,\n          2\n        ],\n        [\n          4,\n          4\n        ],\n        [\n          5,\n          6\n        ],\n        [\n          6,\n          8\n        ],\n        [\n          7,\n          10\n        ]\n      ],\n      \"t\": 5\n    }\n  ],\n  \"exact_below_top_rows\": 48,\n  \"exact_count_growth_examples\": [\n    {\n      \"ell\": 2,\n      \"p\": 109,\n      \"seq\": [\n        [\n          2,\n          4\n        ],\n        [\n          3,\n          462\n        ]\n      ],\n      \"t\": 3\n    },\n    {\n      \"ell\": 2,\n      \"p\": 211,\n      \"seq\": [\n        [\n          2,\n          2\n        ],\n        [\n          3,\n          462\n        ]\n      ],\n      \"t\": 3\n    },\n    {\n      \"ell\": 2,\n      \"p\": 401,\n      \"seq\": [\n        [\n          2,\n          1\n        ],\n        [\n          3,\n          462\n        ]\n      ],\n      \"t\": 3\n    },\n    {\n      \"ell\": 2,\n      \"p\": 809,\n      \"seq\": [\n        [\n          2,\n          0\n        ],\n        [\n          3,\n          462\n        ]\n      ],\n      \"t\": 3\n    },\n    {\n      \"ell\": 2,\n      \"p\": 109,\n      \"seq\": [\n        [\n          2,\n          0\n        ],\n        [\n          3,\n          0\n        ],\n        [\n          4,\n          0\n        ],\n        [\n          5,\n          1\n        ],\n        [\n          6,\n          42\n        ],\n        [\n          7,\n          5005\n        ]\n      ],\n      \"t\": 5\n    },\n    {\n      \"ell\": 2,\n      \"p\": 211,\n      \"seq\": [\n        [\n          2,\n          0\n        ],\n        [\n          3,\n          0\n        ],\n        [\n          4,\n          0\n        ],\n        [\n          5,\n          0\n        ],\n        [\n          6,\n          12\n        ],\n        [\n          7,\n          5005\n        ]\n      ],\n      \"t\": 5\n    }\n  ],\n  \"exact_realizable_rows\": 76,\n  \"exact_top_or_beyond_rows\": 28,\n  \"lemma13_applicable_violations\": 0,\n  \"max_below_top_dim_K\": 9,\n  \"max_below_top_exact_realizable_count\": 1,\n  \"max_dim_K\": 10,\n  \"max_exact_realizable_count\": 5005,\n  \"max_top_band_exact_realizable_count\": 5005,\n  \"rows_checked\": 76,\n  \"status\": \"PASS\",\n  \"top_band_exact_count_growth_examples\": [\n    {\n      \"ell\": 2,\n      \"p\": 109,\n      \"seq\": [\n        [\n          2,\n          4\n        ],\n        [\n          3,\n          462\n        ]\n      ],\n      \"t\": 3\n    },\n    {\n      \"ell\": 2,\n      \"p\": 211,\n      \"seq\": [\n        [\n          2,\n          2\n        ],\n        [\n          3,\n          462\n        ]\n      ],\n      \"t\": 3\n    },\n    {\n      \"ell\": 2,\n      \"p\": 401,\n      \"seq\": [\n        [\n          2,\n          1\n        ],\n        [\n          3,\n          462\n        ]\n      ],\n      \"t\": 3\n    },\n    {\n      \"ell\": 2,\n      \"p\": 809,\n      \"seq\": [\n        [\n          2,\n          0\n        ],\n        [\n          3,\n          462\n        ]\n      ],\n      \"t\": 3\n    },\n    {\n      \"ell\": 2,\n      \"p\": 109,\n      \"seq\": [\n        [\n          6,\n          42\n        ],\n        [\n          7,\n          5005\n        ]\n      ],\n      \"t\": 5\n    },\n    {\n      \"ell\": 2,\n      \"p\": 211,\n      \"seq\": [\n        [\n          6,\n          12\n        ],\n        [\n          7,\n          5005\n        ]\n      ],\n      \"t\": 5\n    }\n  ],\n  \"top_or_beyond_rows\": 28\n}\nPASS: no below-top Lemma-13 violation; see growth summaries for stress evidence\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 42.746269
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/pma_aux_list_probe.py"
+      ],
+      "name": "pma_aux_list_probe",
+      "nodes": [
+        "petal_mixed_amplification",
+        "pma_wide_residual"
+      ],
+      "output_tail": "{\n  \"node\": \"petal_mixed_amplification / pma_wide_residual\",\n  \"rows\": [\n    {\n      \"D\": [\n        2,\n        3,\n        4,\n        5,\n        6\n      ],\n      \"M\": 4,\n      \"agreement_threshold\": 8,\n      \"checked_budget\": 924,\n      \"checked_interpolation_subsets\": 924,\n      \"d\": 5,\n      \"ell\": 3,\n      \"exact\": true,\n      \"field\": 109,\n      \"johnson_safe\": true,\n      \"list_count_at_threshold\": 0,\n      \"max_agreement\": 0,\n      \"points\": 12,\n      \"total_interpolation_subsets\": 924,\n      \"wall_seconds\": 0.022658\n    },\n    {\n      \"D\": [\n        2,\n        3,\n        5,\n        6,\n        7\n      ],\n      \"M\": 6,\n      \"agreement_threshold\": 8,\n      \"checked_budget\": 18564,\n      \"checked_interpolation_subsets\": 18564,\n      \"d\": 5,\n      \"ell\": 3,\n      \"exact\": true,\n      \"field\": 109,\n      \"johnson_safe\": false,\n      \"list_count_at_threshold\": 3,\n      \"max_agreement\": 8,\n      \"points\": 18,\n      \"total_interpolation_subsets\": 18564,\n      \"wall_seconds\": 0.485652\n    },\n    {\n      \"D\": [\n        2,\n        4,\n        6,\n        8,\n        10\n      ],\n      \"M\": 9,\n      \"agreement_threshold\": 8,\n      \"checked_budget\": 296010,\n      \"checked_interpolation_subsets\": 296010,\n      \"d\": 5,\n      \"ell\": 3,\n      \"exact\": true,\n      \"field\": 109,\n      \"johnson_safe\": false,\n      \"list_count_at_threshold\": 159,\n      \"max_agreement\": 9,\n      \"points\": 27,\n      \"total_interpolation_subsets\": 296010,\n      \"wall_seconds\": 8.511742\n    },\n    {\n      \"D\": [\n        3,\n        5,\n        6,\n        7,\n        9\n      ],\n      \"M\": 12,\n      \"agreement_threshold\": 8,\n      \"checked_budget\": 200000,\n      \"checked_interpolation_subsets\": 200000,\n      \"d\": 5,\n      \"ell\": 3,\n      \"exact\": false,\n      \"field\": 109,\n      \"johnson_safe\": false,\n      \"list_count_at_threshold\": 1931,\n      \"max_agreement\": 10,\n      \"points\": 36,\n      \"total_interpolation_subsets\": 1947792,\n      \"wall_seconds\": 6.930427\n    }\n  ],\n  \"started_at_unix\": 1783306640.7039752,\n  \"status\": \"PASS\",\n  \"wall_seconds\": 15.972667\n}\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 16.003159
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/pma_correlated_target_search.py"
+      ],
+      "name": "pma_correlated_target_search",
+      "nodes": [
+        "petal_mixed_amplification",
+        "pma_wide_residual"
+      ],
+      "output_tail": "{\n  \"alarms\": [],\n  \"exact_profiles\": 10,\n  \"max_agreement\": 27,\n  \"max_spread_non_twist_candidates\": 1212,\n  \"max_threshold_candidates\": 1212,\n  \"profiles_checked\": 13,\n  \"sampled_profiles\": 3,\n  \"status\": \"PASS\"\n}\nPASS: PMA correlated-target search found no large spread residual alarm\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 37.416303
+    },
+    {
+      "cmd": [
+        "python3",
+        "nodes/dyadic_profile_evaluation/verify.py"
+      ],
+      "name": "dyadic_profile_evaluation",
+      "nodes": [
+        "x4_exactlist_staircase_split",
+        "tr_perleaf_list_ident"
+      ],
+      "output_tail": "row                      t            M*   N*   h   log2Q_M*  log2Qsum  log2D_M*\npinned 1/2             251            --  (trivial profile; parity-killed)  \nRowC 1/4                 5             8  128  32    99.8063   99.8063   48.3804\nRowC 1/8                 5             8  128  16    66.1465   66.1465   31.8508\nRowC 1/16                3             4  256  16    82.9664   82.9664   40.2857\nprize 1/4       8589934593   17179869184  128  32    99.8063   99.8063   48.3804\nprize 1/8       8589934593   17179869184  128  16    66.1465   66.1465   31.8508\nprize 1/16      4294967297    8589934592  256  16    82.9664   82.9664   40.2857\nn-uniformity RowC(n=2^10) == prize(n=2^41): True\nrate 1/2 profile trivial: True\nALL PASS\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.015096
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/tr_quotient_dictionary_probe.py"
+      ],
+      "name": "tr_quotient_dictionary_probe",
+      "nodes": [
+        "tr_perleaf_list_ident",
+        "gap1_product_model"
+      ],
+      "output_tail": "{\n  \"cases_checked\": 4,\n  \"direct_upstairs_checks\": 3846,\n  \"failures\": [],\n  \"negative_controls_detected\": 8,\n  \"negative_controls_total\": 8,\n  \"status\": \"PASS\",\n  \"total_coefficients_enumerated\": 2002569\n}\nPASS: TR quotient dictionary probe found no stable-transport mismatch\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 2.108149
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/u2c_tnull_boundary_scan.py"
+      ],
+      "name": "u2c_tnull_boundary_scan",
+      "nodes": [
+        "x4_exactlist_staircase_split",
+        "u2c_giant_tnull_dichotomy"
+      ],
+      "output_tail": "{\n  \"cells_checked\": 7,\n  \"clean_controls\": 2,\n  \"clean_controls_with_primitive_nonboundary\": 0,\n  \"exploratory_cells\": 3,\n  \"failures\": [],\n  \"max_primitive_nonboundary_blocks\": 192,\n  \"positive_controls\": 2,\n  \"positive_controls_detected\": 2,\n  \"status\": \"PASS\"\n}\nPASS: U2-C t-null boundary scan found no clean-control primitive nonboundary blocks\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 11.62254
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/dli_weighted_res_probe.py"
+      ],
+      "name": "dli_weighted_res_probe",
+      "nodes": [
+        "x4_exactlist_staircase_split",
+        "dli_prime_weighted_large_block_support"
+      ],
+      "output_tail": "{\n  \"cells_checked\": 13,\n  \"expected_sup_refutations\": [\n    {\n      \"name\": \"ternary_mu16_L4\",\n      \"reason\": \"large_rank_charged_eta\",\n      \"value\": 2.3299609146907123\n    },\n    {\n      \"name\": \"ternary_12_of_mu32_L4\",\n      \"reason\": \"large_rank_charged_eta\",\n      \"value\": 1.4949413720360685\n    }\n  ],\n  \"large_active_ternary_eta\": {\n    \"ternary_16_of_mu32_L4_mitm\": 0.6599218293814246,\n    \"ternary_20_of_mu64_L4_mitm\": -0.1750977132732192,\n    \"ternary_24_of_mu64_L4_mitm\": 0.006826159202134505\n  },\n  \"max_fiber_eta\": 2.946322651451109,\n  \"max_rank_charged_eta\": 2.3299609146907123,\n  \"max_raw_eta\": 4.0,\n  \"status\": \"PASS\",\n  \"unexpected_alarms\": [],\n  \"zero_atom_control_charged\": 0.0\n}\nPASS: DLI probe reproduced the known low-mass sup refutation and found no unexpected alarm\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 18.62068
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/u1_x4_active_core_budget_probe.py"
+      ],
+      "name": "u1_x4_active_core_budget_probe",
+      "nodes": [
+        "x4_exactlist_staircase_split",
+        "u1_x4_direct_column_budget"
+      ],
+      "output_tail": "{\n  \"completed_rows\": 5,\n  \"direct_n3_alarms\": [],\n  \"max_nontoral_to_n3_ratio\": 0.0146484375,\n  \"partial_rows\": 0,\n  \"positive_control_detected\": true,\n  \"rows_started\": 9,\n  \"status\": \"PASS\",\n  \"strict_hn_excess_rows\": [],\n  \"wall_seconds\": 28.91275,\n  \"window_slice_rows\": 4\n}\nPASS: active-core direct-column probe found no n^3 budget excess\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 28.951052
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/gap1_telescope_checks.py"
+      ],
+      "name": "gap1_telescope_checks",
+      "nodes": [
+        "gap1_product_model",
+        "gap1_noneq_mass",
+        "tr_perleaf_list_ident"
+      ],
+      "output_tail": "{\n  \"cases\": [\n    {\n      \"D\": 2,\n      \"M\": 6,\n      \"R\": [\n        1,\n        3,\n        5\n      ],\n      \"contained\": true,\n      \"equality\": true,\n      \"full_class_size\": 3,\n      \"n\": 24,\n      \"negative_bad_divisor_detected\": true,\n      \"p\": 97,\n      \"rank_R\": 12,\n      \"rank_telescoped\": 12\n    },\n    {\n      \"D\": 3,\n      \"M\": 6,\n      \"R\": [\n        1,\n        4\n      ],\n      \"contained\": true,\n      \"equality\": true,\n      \"full_class_size\": 2,\n      \"n\": 24,\n      \"negative_bad_divisor_detected\": true,\n      \"p\": 97,\n      \"rank_R\": 8,\n      \"rank_telescoped\": 8\n    },\n    {\n      \"D\": 4,\n      \"M\": 8,\n      \"R\": [\n        2,\n        6\n      ],\n      \"contained\": true,\n      \"equality\": true,\n      \"full_class_size\": 2,\n      \"n\": 24,\n      \"negative_bad_divisor_detected\": true,\n      \"p\": 97,\n      \"rank_R\": 6,\n      \"rank_telescoped\": 6\n    },\n    {\n      \"D\": 2,\n      \"M\": 8,\n      \"R\": [\n        1,\n        3\n      ],\n      \"contained\": true,\n      \"equality\": false,\n      \"full_class_size\": 4,\n      \"n\": 24,\n      \"negative_bad_divisor_detected\": true,\n      \"p\": 97,\n      \"rank_R\": 6,\n      \"rank_telescoped\": 12\n    },\n    {\n      \"D\": 2,\n      \"M\": 8,\n      \"R\": [\n        1,\n        3,\n        5,\n        7\n      ],\n      \"contained\": true,\n      \"equality\": true,\n      \"full_class_size\": 4,\n      \"n\": 32,\n      \"negative_bad_divisor_detected\": true,\n      \"p\": 193,\n      \"rank_R\": 16,\n      \"rank_telescoped\": 16\n    },\n    {\n      \"D\": 4,\n      \"M\": 8,\n      \"R\": [\n        1,\n        5\n      ],\n      \"contained\": true,\n      \"equality\": true,\n      \"full_class_size\": 2,\n      \"n\": 32,\n      \"negative_bad_divisor_detected\": true,\n      \"p\": 193,\n      \"rank_R\": 8,\n      \"rank_telescoped\": 8\n    },\n    {\n      \"D\": 2,\n      \"M\": 8,\n      \"R\": [\n        1,\n        3\n      ],\n      \"contained\": true,\n      \"equality\": false,\n      \"full_class_size\": 4,\n      \"n\": 32,\n      \"negative_bad_divisor_detected\": true,\n      \"p\": 193,\n      \"rank_R\": 8,\n      \"rank_telescoped\": 16\n    },\n    {\n      \"D\": 4,\n      \"M\": 16,\n      \"R\": [\n        3,\n        7,\n        11,\n        15\n      ],\n      \"contained\": true,\n      \"equality\": true,\n      \"full_class_size\": 4,\n      \"n\": 32,\n      \"negative_bad_divisor_detected\": true,\n      \"p\": 193,\n      \"rank_R\": 8,\n      \"rank_telescoped\": 8\n    },\n    {\n      \"D\": 8,\n      \"M\": 16,\n      \"R\": [\n        2,\n        10\n      ],\n      \"contained\": true,\n      \"equality\": true,\n      \"full_class_size\": 2,\n      \"n\": 32,\n      \"negative_bad_divisor_detected\": true,\n      \"p\": 193,\n      \"rank_R\": 4,\n      \"rank_telescoped\": 4\n    },\n    {\n      \"D\": 4,\n      \"M\": 16,\n      \"R\": [\n        3,\n        7\n      ],\n      \"contained\": true,\n      \"equality\": false,\n      \"full_class_size\": 4,\n      \"n\": 32,\n      \"negative_bad_divisor_detected\": true,\n      \"p\": 193,\n      \"rank_R\": 4,\n      \"rank_telescoped\": 8\n    }\n  ],\n  \"node\": \"gap1_product_model / tr_joint_telescope\",\n  \"started_at_unix\": 1783306755.445493,\n  \"status\": \"PASS\",\n  \"wall_seconds\": 0.012047\n}\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.040473
+    },
+    {
+      "cmd": [
+        "python3",
+        "nodes/census_bounded_scales/verify.py"
+      ],
+      "name": "census_bounded_scales",
+      "nodes": [
+        "mca_safe",
+        "safe_assembly_uniformity"
+      ],
+      "output_tail": "(3) H(0.40)=0.97095 >= 0.97 : PASS; H monotone up on [0,.5]: PASS\n(6) crossing-scale window N*=128/H(j/n):\n    rate 1/2  j/n=0.5000 H=1.0000 N*=  128.0 in[120,400]:True\n    rate 1/4  j/n=0.7500 H=0.8113 N*=  157.8 in[120,400]:True\n    rate 1/8  j/n=0.8750 H=0.5436 N*=  235.5 in[120,400]:True\n    rate 1/16 j/n=0.9375 H=0.3373 N*=  379.5 in[120,400]:True\n    RowC 1/4    t=            5 decidingN'=128 substantive=[2, 4, 8, 16, 32, 64, 128] mono=True top_step=53.0(>=30:True) unique=True\n    prize 1/4   t=   8589934593 decidingN'=128 substantive=[2, 4, 8, 16, 32, 64, 128] mono=True top_step=53.0(>=30:True) unique=True\n    RowC 1/8    t=            5 decidingN'=128 substantive=[4, 8, 16, 32, 64, 128] mono=True top_step=37.0(>=30:True) unique=True\n    prize 1/8   t=   8589934593 decidingN'=128 substantive=[4, 8, 16, 32, 64, 128] mono=True top_step=37.0(>=30:True) unique=True\n    RowC 1/16   t=            3 decidingN'=256 substantive=[8, 16, 32, 64, 128, 256] mono=True top_step=46.5(>=30:True) unique=True\n    prize 1/16  t=   4294967297 decidingN'=256 substantive=[8, 16, 32, 64, 128, 256] mono=True top_step=46.5(>=30:True) unique=True\n(U) n-uniformity RowC(2^10) vs prize(2^41):\n    rate 1/4  : RowC (128, 95, 101.7619)  prize (128, 95, 101.7619)  identical:True\n    rate 1/8  : RowC (128, 111, 69.0591)  prize (128, 111, 69.0591)  identical:True\n    rate 1/16 : RowC (256, 239, 86.8789)  prize (256, 239, 86.8789)  identical:True\nALL PASS\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.021467
+    },
+    {
+      "cmd": [
+        "python3",
+        "tools/conjectural_mca_delta.py",
+        "--self-test"
+      ],
+      "name": "conjectural_mca_delta_self_test",
+      "nodes": [
+        "mca_grand",
+        "mca_safe",
+        "adjacency_closing"
+      ],
+      "output_tail": "self-test: corridor edge t* at log2_q=255.9, n=2^41\n  rate  1/2: t*=8592912739 expected=8592912739 match=True adjacent_ok=True\n  rate  1/4: t*=7014660390 expected=7014660390 match=True adjacent_ok=True\n  rate  1/8: t*=4722556392 expected=4722556392 match=True adjacent_ok=True\n  rate 1/16: t*=2943177800 expected=2943177800 match=True adjacent_ok=True\nALL PASS\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.042308
+    },
+    {
+      "cmd": [
+        "python3",
+        "nodes/spi_exceptional_class/notes/verify_writeup.py"
+      ],
+      "name": "spi_hankel_writeup_checks",
+      "nodes": [
+        "hankel_slope_large_sieve",
+        "spi_point_counting"
+      ],
+      "output_tail": "F_17,  H = mu_8 = [1, 2, 4, 8, 9, 13, 15, 16]\n\nCHECK 1  vertical rank-drop count <= generic rank r (<= t):\n    {'trials': 2500, 't': 3, 'j': 4, 'generic_rank_max': 3, 'worst_rank_drop_slopes': 1, 'bound': 3, 'ok': True}\nCHECK 2  R == 0 branch is tangent-paid (fixed common H-root):\n    {'trials': 1600, 'tangent_paid': 1600, 'ok': True}\nCHECK 3  arithmetic backbone (D_j emptiness ; R != 0 slope bound):\n    {'dj_emptiness': {'trials': 1000, 'passed': 1000, 'ok': True}, 'slope_bound': {'trials': 471, 'passed': 471, 'degZ_R': 8, 'ok': True}}\n\nPASS -- 2500 pencils, 1600 tangent fibres, 1000 D_j, 500 slope-bound\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.30036
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/diffuse_shadow_circuit_scan.py"
+      ],
+      "name": "diffuse_shadow_circuit_scan",
+      "nodes": [
+        "diffuse_triple_shadow",
+        "hankel_slope_large_sieve"
+      ],
+      "output_tail": "{\n  \"configs_completed\": 3,\n  \"diffuse\": 10691,\n  \"minimal_dependencies\": 11785,\n  \"shadow_violations\": 0,\n  \"tangent_core\": 1094\n}\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 15.118687
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/rate_half_local_checks.py"
+      ],
+      "name": "rate_half_local_floor_and_threshold",
+      "nodes": [
+        "adjacency_closing",
+        "list_adjacency_closing"
+      ],
+      "output_tail": "\n        \"c\": 32768,\n        \"depth\": 8589541376,\n        \"dmax\": 262132,\n        \"e\": 15,\n        \"margin_bits\": 144.275,\n        \"next_margin_bits\": -111.747\n      },\n      {\n        \"N\": 33554432,\n        \"c\": 65536,\n        \"depth\": 8589541376,\n        \"dmax\": 131066,\n        \"e\": 16,\n        \"margin_bits\": 85.975,\n        \"next_margin_bits\": -170.048\n      },\n      {\n        \"N\": 16777216,\n        \"c\": 131072,\n        \"depth\": 8589541376,\n        \"dmax\": 65533,\n        \"e\": 17,\n        \"margin_bits\": 57.075,\n        \"next_margin_bits\": -198.948\n      },\n      {\n        \"N\": 8388608,\n        \"c\": 262144,\n        \"depth\": 8589410304,\n        \"dmax\": 32766,\n        \"e\": 18,\n        \"margin_bits\": 170.886,\n        \"next_margin_bits\": -85.137\n      },\n      {\n        \"N\": 4194304,\n        \"c\": 524288,\n        \"depth\": 8589410304,\n        \"dmax\": 16383,\n        \"e\": 19,\n        \"margin_bits\": 100.03,\n        \"next_margin_bits\": -155.993\n      },\n      {\n        \"N\": 2097152,\n        \"c\": 1048576,\n        \"depth\": 8588886016,\n        \"dmax\": 8191,\n        \"e\": 20,\n        \"margin_bits\": 192.863,\n        \"next_margin_bits\": -63.159\n      },\n      {\n        \"N\": 1048576,\n        \"c\": 2097152,\n        \"depth\": 8587837440,\n        \"dmax\": 4095,\n        \"e\": 21,\n        \"margin_bits\": 239.53,\n        \"next_margin_bits\": -16.492\n      },\n      {\n        \"N\": 524288,\n        \"c\": 4194304,\n        \"depth\": 8589934592,\n        \"dmax\": 2048,\n        \"e\": 22,\n        \"margin_bits\": 7.091,\n        \"next_margin_bits\": -248.932\n      },\n      {\n        \"N\": 262144,\n        \"c\": 8388608,\n        \"depth\": 8589934592,\n        \"dmax\": 1024,\n        \"e\": 23,\n        \"margin_bits\": 19.133,\n        \"next_margin_bits\": -236.89\n      },\n      {\n        \"N\": 131072,\n        \"c\": 16777216,\n        \"depth\": 8589934592,\n        \"dmax\": 512,\n        \"e\": 24,\n        \"margin_bits\": 25.403,\n        \"next_margin_bits\": -230.619\n      },\n      {\n        \"N\": 65536,\n        \"c\": 33554432,\n        \"depth\": 8589934592,\n        \"dmax\": 256,\n        \"e\": 25,\n        \"margin_bits\": 28.789,\n        \"next_margin_bits\": -227.234\n      },\n      {\n        \"N\": 32768,\n        \"c\": 67108864,\n        \"depth\": 8589934592,\n        \"dmax\": 128,\n        \"e\": 26,\n        \"margin_bits\": 30.732,\n        \"next_margin_bits\": -225.291\n      },\n      {\n        \"N\": 16384,\n        \"c\": 134217728,\n        \"depth\": 8589934592,\n        \"dmax\": 64,\n        \"e\": 27,\n        \"margin_bits\": 31.953,\n        \"next_margin_bits\": -224.07\n      },\n      {\n        \"N\": 8192,\n        \"c\": 268435456,\n        \"depth\": 8589934592,\n        \"dmax\": 32,\n        \"e\": 28,\n        \"margin_bits\": 32.814,\n        \"next_margin_bits\": -223.209\n      },\n      {\n        \"N\": 4096,\n        \"c\": 536870912,\n        \"depth\": 8589934592,\n        \"dmax\": 16,\n        \"e\": 29,\n        \"margin_bits\": 33.494,\n        \"next_margin_bits\": -222.529\n      },\n      {\n        \"N\": 2048,\n        \"c\": 1073741824,\n        \"depth\": 8589934592,\n        \"dmax\": 8,\n        \"e\": 30,\n        \"margin_bits\": 34.084,\n        \"next_margin_bits\": -221.94\n      },\n      {\n        \"N\": 1024,\n        \"c\": 2147483648,\n        \"depth\": 8589934592,\n        \"dmax\": 4,\n        \"e\": 31,\n        \"margin_bits\": 34.629,\n        \"next_margin_bits\": -221.396\n      },\n      {\n        \"N\": 512,\n        \"c\": 4294967296,\n        \"depth\": 8589934592,\n        \"dmax\": 2,\n        \"e\": 32,\n        \"margin_bits\": 35.151,\n        \"next_margin_bits\": -220.877\n      },\n      {\n        \"N\": 256,\n        \"c\": 8589934592,\n        \"depth\": 8589934592,\n        \"dmax\": 1,\n        \"e\": 33,\n        \"margin_bits\": 35.662,\n        \"next_margin_bits\": -220.372\n      }\n    ],\n    \"sigma_star\": 8592912738\n  },\n  \"q_threshold\": {\n    \"depth_at_threshold\": 8592916480,\n    \"depth_just_above\": 8592912384,\n    \"open_band_slice_bits\": 0.10001,\n    \"sanity_256\": 8589934592,\n    \"sigma_star\": 8592912738,\n    \"threshold_log2q\": 255.89999\n  },\n  \"status\": \"PASS\",\n  \"wall_seconds\": 0.012289\n}\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.035969
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/assembly_orphan_checks.py"
+      ],
+      "name": "assembly_orphan_checks",
+      "nodes": [
+        "prize",
+        "packaging",
+        "a_regular_collapse",
+        "free_pool_ladder",
+        "m_le3_route"
+      ],
+      "output_tail": "{\n  \"checks\": [\n    {\n      \"actual\": [\n        \"list_grand\",\n        \"mca_grand\",\n        \"packaging\"\n      ],\n      \"expected\": [\n        \"list_grand\",\n        \"mca_grand\",\n        \"packaging\"\n      ],\n      \"kind\": \"req_package_exact\",\n      \"node\": \"prize\",\n      \"ok\": true\n    },\n    {\n      \"actual\": [\n        \"bridge_ledger\",\n        \"compiler\",\n        \"dossier_partial\",\n        \"harness\"\n      ],\n      \"expected\": [\n        \"bridge_ledger\",\n        \"compiler\",\n        \"dossier_partial\",\n        \"harness\"\n      ],\n      \"kind\": \"req_package_exact\",\n      \"node\": \"packaging\",\n      \"ok\": true\n    },\n    {\n      \"actual\": \"TARGET\",\n      \"expected\": \"TARGET\",\n      \"kind\": \"status\",\n      \"node\": \"compiler\",\n      \"ok\": true\n    },\n    {\n      \"actual\": \"TARGET\",\n      \"expected\": \"TARGET\",\n      \"kind\": \"status\",\n      \"node\": \"harness\",\n      \"ok\": true\n    },\n    {\n      \"actual\": \"TARGET\",\n      \"expected\": \"TARGET\",\n      \"kind\": \"status\",\n      \"node\": \"dossier_partial\",\n      \"ok\": true\n    },\n    {\n      \"actual\": \"PROVED\",\n      \"expected\": \"PROVED\",\n      \"kind\": \"status\",\n      \"node\": \"bridge_ledger\",\n      \"ok\": true\n    },\n    {\n      \"evidence_consumers\": [\n        \"m_handling\"\n      ],\n      \"kind\": \"not_on_required_prize_path\",\n      \"node\": \"a_regular_collapse\",\n      \"ok\": true,\n      \"req_reaches_prize\": false\n    },\n    {\n      \"evidence_consumers\": [\n        \"unsafe_at_crossing\"\n      ],\n      \"kind\": \"not_on_required_prize_path\",\n      \"node\": \"free_pool_ladder\",\n      \"ok\": true,\n      \"req_reaches_prize\": false\n    },\n    {\n      \"evidence_consumers\": [\n        \"m_handling\"\n      ],\n      \"kind\": \"not_on_required_prize_path\",\n      \"node\": \"m_le3_route\",\n      \"ok\": true,\n      \"req_reaches_prize\": false\n    }\n  ],\n  \"node\": \"prize / packaging / orphan amber surface\",\n  \"status\": \"PASS\"\n}\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 0.025782
+    },
+    {
+      "cmd": [
+        "python3",
+        "experiments/amber_stress/subgroup_expsum_probe.py"
+      ],
+      "name": "subgroup_expsum_probe",
+      "nodes": [
+        "free_pool_ladder",
+        "subgroup_expsum_input"
+      ],
+      "output_tail": "{\n  \"controls_detected\": 9,\n  \"controls_total\": 9,\n  \"max_ratio\": 0.6553026012627674,\n  \"max_sqrt_p_units\": 0.8290636277730431,\n  \"min_eta_observed\": 0.06804357252619095,\n  \"near_linear_failures\": 0,\n  \"rows_checked\": 749\n}\n",
+      "returncode": 0,
+      "status": "PASS",
+      "wall_seconds": 8.746841
+    }
+  ],
+  "finished_at_unix": 1783306779.7576268,
+  "started_at_unix": 1783306373.874982,
+  "timeout_per_command_seconds": 60
+}

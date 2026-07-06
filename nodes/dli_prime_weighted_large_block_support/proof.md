@@ -1,36 +1,37 @@
-# proof: DLI-flatness EXACT reduction + resultant-survivor conditional (Pro, verified)
+# proof status: DLI exact reduction plus weighted-average open obligation
 
-## Lemma 1 — EXACT counting identity (PROVED, orthogonality; VERIFIED)
-rho_j(M) = q^{L_j} |Z_j(M)| / U_j(M), where Z_j(M) = { d in prod_y D_y : A d = 0 } is the
-set of bounded-coefficient kernel skews (A = the L_j x |Y| odd-evaluation matrix). Proof:
-B_j = q^{-L} sum_d sum_lambda psi(lambda . Ad); additive-character orthogonality collapses
-the lambda-sum to 1_{Ad=0}, so B_j = |Z_j|. VERIFIED: ternary |Z_j|=81 (rho 3.568), signed
-|Z_j|=16 (rho 18.06) -- exact match to the harness B-values. So DLI-flatness is EXACTLY a
-bound on the kernel-skew count.
+## Lemma 1 — exact counting identity (PROVED, orthogonality; VERIFIED)
 
-## The remaining obligation (RES, the conditional 'C')
-For upper flatness (sufficient for the primitive-core <= 2^122), prove uniformly in the
-central profile M:
-    |R_j(M)| + 1_{0 in prod D_y}  <=  q^{kappa_j} * U_j(M)/q^{L_j},   sum_j kappa_j = o(t),
-where R_j(M) is the RESULTANT-SURVIVOR set (proved to contain Z_j\{0}):
-  d != 0 with support >= L_j+1 (Vandermonde), p | gcd_r Res(X^N+1, Q_{d,r}) (norm gate,
-  every imposed odd r), not in the killed cyclotomic/coset class. Then rho_j <= q^{kappa_j},
-  prod_j rho_j <= q^{o(t)}. (Absolute sup-version additionally needs the matching LOWER
-  fibre estimate |Z_j| >= q^{-kappa_j} U_j/q^{L_j}.)
+For a central level profile `M`,
 
-## SCOPE refinement (zero-atom, VERIFIED necessary)
-The unconditional 'A' over "all central M" is LITERALLY FALSE if singleton-zero domains
-D_y={0} are allowed: then U=1, rho_j = q^{L_j}, eta_j = L_j, sum = t (VERIFIED). Correct
-rule = RANK CHARGING: zero atoms cost exactly L_j - rank(A_eff); a single zero atom costs
-<= 1 (O(34) over levels = o(t)), but Omega(L_j) rank loss breaks flatness. So the central
-measure must EXCLUDE/charge singleton-zero (and near-rank-deficient) profiles.
+```text
+rho_j(M) = q^{L_j} |Z_j(M)| / U_j(M),
+```
 
-## Fixed-lambda refutation (VERIFIED)
-|F_M(lambda)| <= 1 (normalized local char sum), so one nonzero lambda contributes <= 1 to
-rho_j => log_q rho_j <= log_q 2 = O(1). An Omega(L_j) deviation CANNOT come from a fixed
-lambda -- only from q^{Omega(L_j)} near-peak frequencies = aggregate kernel-skew mass. This
-confirms the obstruction is the RES count, not any single frequency.
+where `Z_j(M) = {d in prod_y D_y : A d = 0}` and `A` is the
+`L_j x |Y|` odd-evaluation matrix.  The proof is additive-character
+orthogonality: the inner frequency sum collapses to the indicator `1_{Ad=0}`.
+This identity is banked and agrees with the exact harness values.
 
-## Empirical support (this session): eta* flat, rho_j -> 1.0000 at scale (ternary + signed
-0.019 at mu_32 decreasing) = exactly RES with tiny kappa_j. The remaining PROOF is the RES
-counting bound.
+## Refuted stronger route
+
+The earlier pointwise/sup flatness premise is false.  A low-mass full-rank
+ternary profile can have only the zero skew in `Z_j`, giving
+`rho_j = q^{L_j}/3^m`; when `m` is too small relative to `L_j log_3(q)`, this is
+`q^{Omega(L_j)}` even though there is no rank defect.  The 2026-07-06
+`dli_weighted_res_probe.py` reproduces this exactly at `n=16,L=4,m=8`
+and `n=32,L=4,m=12`.
+
+## Remaining obligation
+
+The live target is therefore weaker and sharper: prove the primitive-core
+`U`-weighted aggregate bound directly.  The RES/resultant-survivor set may be
+large on low-mass profiles, but those profiles must be paid for by their small
+profile weight in the actual central-profile sum.
+
+The same 2026-07-06 exact probe supports this weakening locally: for ternary
+active counts `m=16,20,24` in the `L=4` cells, the measured exponents drop to
+`0.6599218293814246`, `-0.1750977132732192`, and `0.006826159202134505`,
+respectively, with no unexpected large-active alarm.  This is not a proof of the
+weighted aggregate theorem; it records that the repaired premise survived the
+small exact falsification pass.

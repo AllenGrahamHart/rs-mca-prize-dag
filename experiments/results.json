@@ -1,0 +1,203 @@
+{
+  "finished_at_unix": 1783293858.518546,
+  "seed": 20260706,
+  "started_at_unix": 1783293852.3650043,
+  "tests": {
+    "e22_local_gate": {
+      "node": "worst_word_planted / worst_word_challenger_pricing",
+      "sigma1": [
+        {
+          "beats_planted": false,
+          "class_counts": {
+            "planted": 8
+          },
+          "classified_challenger": 0,
+          "k": 1,
+          "list_size": 8,
+          "planted_count": 8,
+          "unclassified": 0
+        },
+        {
+          "beats_planted": true,
+          "class_counts": {
+            "mixed_petal": 6,
+            "planted": 7
+          },
+          "classified_challenger": 6,
+          "k": 2,
+          "list_size": 13,
+          "planted_count": 7,
+          "unclassified": 0
+        },
+        {
+          "beats_planted": true,
+          "class_counts": {
+            "mixed_petal": 23,
+            "planted": 6
+          },
+          "classified_challenger": 23,
+          "k": 4,
+          "list_size": 29,
+          "planted_count": 6,
+          "unclassified": 0
+        },
+        {
+          "beats_planted": true,
+          "class_counts": {
+            "full_petal": 1,
+            "mixed_petal": 55,
+            "planted": 4
+          },
+          "classified_challenger": 56,
+          "k": 8,
+          "list_size": 60,
+          "planted_count": 4,
+          "unclassified": 0
+        }
+      ],
+      "sigma2_controls": [
+        {
+          "beats_planted": false,
+          "classified_challenger": 0,
+          "k": 2,
+          "list_size": 5,
+          "planted_count": 5,
+          "unclassified": 0
+        },
+        {
+          "beats_planted": false,
+          "classified_challenger": 0,
+          "k": 4,
+          "list_size": 4,
+          "planted_count": 4,
+          "unclassified": 0
+        },
+        {
+          "beats_planted": false,
+          "classified_challenger": 0,
+          "k": 8,
+          "list_size": 3,
+          "planted_count": 3,
+          "unclassified": 0
+        }
+      ],
+      "status": "PASS",
+      "wall_seconds": 1.931593
+    },
+    "moment_trade_witness": {
+      "base": 11,
+      "exponents": [
+        0,
+        1,
+        2,
+        4,
+        16,
+        45,
+        50,
+        60
+      ],
+      "node": "moment_trade_staircase / x4_exactlist_staircase_split",
+      "p": 193,
+      "power_sums_r1_to_r4": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 18
+      },
+      "reflection_stabilizers": [],
+      "rotation_stabilizers": [
+        1
+      ],
+      "status": "PASS",
+      "top_3_subleading_locator_coeffs": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      },
+      "wall_seconds": 0.000278
+    },
+    "tr_perleaf_dictionary": {
+      "checked_lifted_polynomial_agreements": 886115,
+      "negative_controls_nonstable_detected": 10,
+      "node": "tr_perleaf_list_ident",
+      "sample_examples": [
+        {
+          "M": 3,
+          "list_count": 1,
+          "n": 12,
+          "p": 97,
+          "r": 0,
+          "threshold_q": 3,
+          "trial": 0
+        },
+        {
+          "M": 3,
+          "list_count": 1,
+          "n": 12,
+          "p": 97,
+          "r": 1,
+          "threshold_q": 3,
+          "trial": 0
+        },
+        {
+          "M": 3,
+          "list_count": 1,
+          "n": 12,
+          "p": 97,
+          "r": 2,
+          "threshold_q": 3,
+          "trial": 0
+        },
+        {
+          "M": 3,
+          "list_count": 0,
+          "n": 12,
+          "p": 97,
+          "r": 0,
+          "threshold_q": 3,
+          "trial": 1
+        },
+        {
+          "M": 3,
+          "list_count": 0,
+          "n": 12,
+          "p": 97,
+          "r": 1,
+          "threshold_q": 3,
+          "trial": 1
+        },
+        {
+          "M": 3,
+          "list_count": 0,
+          "n": 12,
+          "p": 97,
+          "r": 2,
+          "threshold_q": 3,
+          "trial": 1
+        },
+        {
+          "M": 3,
+          "list_count": 0,
+          "n": 12,
+          "p": 97,
+          "r": 0,
+          "threshold_q": 3,
+          "trial": 2
+        },
+        {
+          "M": 3,
+          "list_count": 0,
+          "n": 12,
+          "p": 97,
+          "r": 1,
+          "threshold_q": 3,
+          "trial": 2
+        }
+      ],
+      "status": "PASS",
+      "wall_seconds": 4.219207
+    }
+  },
+  "time_limit_seconds": 55.0,
+  "total_wall_seconds": 6.153553
+}

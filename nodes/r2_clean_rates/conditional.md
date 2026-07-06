@@ -3,11 +3,47 @@
 - **status:** CONDITIONAL
 - **closure:** proof
 
-## Source
+## Predicate node
 
-Vendored from the working record; primary artifact(s):
-- `proof_sketch/s2_paid_ledger.md#3`
+- `xr_clean_residual_any_gate`
+
+## Evidence/support nodes
+
+- `xr_globalness_from_ledger`
+- `xr_small_set_engine`
+- `xr_radius_arithmetic`
+
+## Claim
+
+Conditional on `xr_clean_residual_any_gate`, the clean-rate R2 obligation holds:
+at each clean-rate decision candidate, every pair `(u,v)` has
+
+```text
+R_post(u, v; A) <= 16 n^3.
+```
+
+## Proof
+
+The active form of this node is the compiled integer-budget target, not the
+older KLLM/globalness route.  The proved budget audit converts the clean-rate
+safe-side obligation to the exact per-pair residual inequality above, and that
+conversion is already part of the `xr_clean_residual_any_gate` packet through
+its `xr_target_budget_audit` input.
+
+The predicate `xr_clean_residual_any_gate` states precisely the required
+post-strip residual bound at the clean-rate candidates, with dihedral and
+extension columns counted inside `R_post`.  Therefore granting that gate gives
+the conclusion of `r2_clean_rates` directly.
+
+The older `xr_globalness_from_ledger`, `xr_small_set_engine`, and
+`xr_radius_arithmetic` inputs remain evidence for the route history and for
+rate-half/globalness work, but they are not additional logical predicates of
+this clean-rate assembly step.
 
 ## Ledger
 
-C-2 PIPELINE (#213, checker replayed green): corridor crossings located at all three clean rates with the ordering list_lo < quot < tau* < cap verified; per-row certificate skeletons emitted; minimum integrality margin ~8.0e11 bits. THE DETERMINED REGION: pinned-class rows are threshold-DECIDED for field sizes 128..168 bits (rate 1/4), 128..169 (1/8), 128..170 (1/16) by existing machinery; Row-C-class norm frontiers at even N' <= 100/120/112. Beyond ~170 bits the band/exclusion theory (xr_clean_residual_any_gate) gates. PRECISION (corrected 2026-07-03): the determined region covers the DEMONSTRATED ROW CLASSES (pinned-class, Row-C-class) at fields 2^128..~2^168-170; class-universality below 2^168 needs the pipeline sweep (mechanical, not yet run). The grand challenges at the clean rates are NOT resolved: fields 2^170..2^256 are gated by the per-pair exclusion (the band) — the honest claim is 'one named problem stands between the clean rates and full resolution', not 'basically resolved'. | STATEMENT ARC (one day): slack composition -> emptiness (X-1) -> integer budget (audit) -> compiled poly target (16 n^3). Each form superseded by computing the requirement more precisely. | The zero-residue form of the (A) closure makes the trade column rate-portable (see rate_half_coverage_gap note): when the clean-rate certificates land, running the rho = 1/2 rows through C2 is nearly free and should be done opportunistically — the 1/2 deferral then rests solely on the coverage band + margin point + B-side re-arithmetic. | PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/r2_clean_rates.md): statement-level assembly over the wired kids.
+WEAKENING 2026-07-06: the three older XR support inputs were demoted from
+requirements to evidence.  The sole live clean-rate R2 premise is now
+`xr_clean_residual_any_gate`.  The exact-exponent caveat remains: the gate's
+open child must supply a budget-compatible `16 n^3` residual bound, not merely
+an unspecified polynomial.

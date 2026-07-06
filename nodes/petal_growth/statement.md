@@ -10,8 +10,8 @@ Full-petal extras at cofactor excess d-ell = c are poly(n) uniformly in c (equiv
 
 ## Attack surface
 
-fixed-excess enumerations (Q2.9) then the amplification statement; CRT compression makes small cases finite
+fixed-excess enumerations (Q2.9), growing-excess coset-chart scans, then the amplification / paid-family statement; CRT compression makes small cases finite
 
 ## Falsifier
 
-fixed-excess counts growing super-poly in n at some c
+below-top Lemma-13 failures, exact realizable full-petal counts growing outside paid/top-band families, or an uncharged top-band family whose count cannot be bounded by a polynomial with exponent independent of c

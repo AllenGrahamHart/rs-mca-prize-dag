@@ -8,6 +8,13 @@
 
 CURRENT FORM (the compiled target, superseding the X-1 emptiness framing — see the day's arc in notes): at each clean-rate decision candidate, for every pair (u,v), the post-strip residual slope count satisfies R_post(u,v; A) <= 16 n^3 (dihedral and extension columns INSIDE R_post). Sufficiency for the determination is PROVED exact integer arithmetic (the poly-forcing compiler: 16 n^3 <= s_lo at all six candidates, prize rows tight at 29 n^3). The supply side is the face-4 rung ladder under xr_clean_residual_any_gate. TOOL ASSIGNMENT stands: exclusion-type per-pair dichotomies here; the KLLM/globalness composition reserved for rate 1/2's E[X] >= 1 rows.
 
+## Weakening Applied 2026-07-06
+
+The logical predicate set is now just `xr_clean_residual_any_gate`.  The older
+`xr_globalness_from_ledger`, `xr_small_set_engine`, and `xr_radius_arithmetic`
+inputs are evidence/support for the route history and rate-half work, not
+separate premises for this clean-rate compiled-target node.
+
 ## Attack surface
 
 the same conversion chain (strip -> tangent-cap globalness -> KLLM slice variant -> E_3 bridges -> pair ledger) evaluated at the clean-rate margins; the leak adjudication (10 candidates) still gates the hypothesis; hand the slack-composition arithmetic to the strongest available prover with #211's exponents and the wave-1 margins as given data

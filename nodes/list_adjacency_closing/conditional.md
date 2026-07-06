@@ -6,13 +6,13 @@
 ## Predicate nodes
 
 - `list_crossing_localization`
-- `worst_word_planted`
 - `list_planted_arithmetic`
 - `rate_half_band_closure`
 - `list_corridor_ledger`
 
 Convention/evidence guards:
 
+- `worst_word_planted`
 - `rules_m_reading`
 - `rate_half_coverage_gap`
 
@@ -35,11 +35,13 @@ proves that the worst-word list-size function is integer-valued and monotone in
 the agreement-index convention. Therefore once the relevant window is bracketed
 there is a unique adjacent crossing of `eps*|F|`.
 
-The unsafe side is constructive. Conditional on `worst_word_planted`, the
-supremum at the crossing radii is attained by the planted sunflower family or
-the classified E15 challenger class. Conditional on
-`list_planted_arithmetic`, both classes are priced by exact combinatorial
-formulas, so the lower side of the crossing can be exhibited explicitly.
+The unsafe side is constructive. The predicate `list_planted_arithmetic`
+packages the two-column inventory needed here: its own predicate chain consumes
+`worst_word_planted` and `worst_word_challenger_pricing`, then prices the
+planted sunflower and classified E15 challenger columns by exact combinatorial
+formulas. Thus the lower side of the crossing can be exhibited explicitly
+without taking `worst_word_planted` as an additional direct premise of this
+assembly node.
 
 The safe side is supplied by the corridor predicates. `list_corridor_ledger`
 closes the clean-rate corridor from the list-side arithmetic columns, while
@@ -54,3 +56,11 @@ above.
 
 If any predicate fails, the parent does not claim more than bracket-grade
 information for the corresponding row or band.
+
+## Weakening
+
+WEAKENING 2026-07-06: the direct edge
+`worst_word_planted -> list_adjacency_closing` is evidence rather than a
+logical requirement.  The transitive dependency remains through
+`list_planted_arithmetic`, whose statement is exactly the arithmetic reduction
+that uses worst-word extremality.

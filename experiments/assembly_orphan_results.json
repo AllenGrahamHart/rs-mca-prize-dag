@@ -1,0 +1,93 @@
+{
+  "checks": [
+    {
+      "actual": [
+        "list_grand",
+        "mca_grand",
+        "packaging"
+      ],
+      "expected": [
+        "list_grand",
+        "mca_grand",
+        "packaging"
+      ],
+      "kind": "req_package_exact",
+      "node": "prize",
+      "ok": true
+    },
+    {
+      "actual": [
+        "bridge_ledger",
+        "compiler",
+        "dossier_partial",
+        "harness"
+      ],
+      "expected": [
+        "bridge_ledger",
+        "compiler",
+        "dossier_partial",
+        "harness"
+      ],
+      "kind": "req_package_exact",
+      "node": "packaging",
+      "ok": true
+    },
+    {
+      "actual": "TARGET",
+      "expected": "TARGET",
+      "kind": "status",
+      "node": "compiler",
+      "ok": true
+    },
+    {
+      "actual": "TARGET",
+      "expected": "TARGET",
+      "kind": "status",
+      "node": "harness",
+      "ok": true
+    },
+    {
+      "actual": "TARGET",
+      "expected": "TARGET",
+      "kind": "status",
+      "node": "dossier_partial",
+      "ok": true
+    },
+    {
+      "actual": "PROVED",
+      "expected": "PROVED",
+      "kind": "status",
+      "node": "bridge_ledger",
+      "ok": true
+    },
+    {
+      "evidence_consumers": [
+        "m_handling"
+      ],
+      "kind": "not_on_required_prize_path",
+      "node": "a_regular_collapse",
+      "ok": true,
+      "req_reaches_prize": false
+    },
+    {
+      "evidence_consumers": [
+        "unsafe_at_crossing"
+      ],
+      "kind": "not_on_required_prize_path",
+      "node": "free_pool_ladder",
+      "ok": true,
+      "req_reaches_prize": false
+    },
+    {
+      "evidence_consumers": [
+        "m_handling"
+      ],
+      "kind": "not_on_required_prize_path",
+      "node": "m_le3_route",
+      "ok": true,
+      "req_reaches_prize": false
+    }
+  ],
+  "node": "prize / packaging / orphan amber surface",
+  "status": "PASS"
+}
