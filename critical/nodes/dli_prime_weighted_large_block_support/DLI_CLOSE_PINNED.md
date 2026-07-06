@@ -475,3 +475,31 @@ alphabet (tables computable with the same code).
 ROUND S3 TARGET: the dual top range — engineer a dual short vector (a
 lambda with T >= 2^-j1 at a balanced row; the dual analogue of the round-5
 engineered prime) or extract the transference lemma that blocks it.
+
+# ROUND S3 (2026-07-07, SELF-TENNIS): dual-top attack executed and KILLED; emptiness now a proof program
+# (Modal run notes/s3_dual_geometric_modal.py; note notes/S3_DUAL_TOP.md)
+
+REFUTE CHAIR: designed and executed the dual-geometric attack on DYADIC-K's
+top-range emptiness (omega = 2 rows, q | Phi_n'(2): geometric orbits should
+give macroscopic T(lambda) where iid predicts none). Toy instance q=6700417
+(F5 factor), full Modal lambda-scans: THE ATTACK FAILS — E = 1.000000,
+max T = 2^-64 (flatter than a random control at 2^-17). Two exact reasons:
+(K1) ord(omega) = 2N forces omega^{N-1} = -omega^{-1}; for omega = 2 the
+coordinate lands EXACTLY at (q-1)/2 — the cosine dead-zone (verified:
+fraction 0.5000, -44 bits) — every 2-adic lambda is killed identically;
+(K2) coverage: base b >= 3 loses >= 0.74N bits to wrap; rational ratios
+need lambda >= c^{N-1} >= q. Production double-lock: F8 = Phi_512(2) has no
+factor in (2^255, 2^256] (known complete factorization).
+
+PROVER CHAIR: dual-top emptiness converted from hypothesis to PROOF
+PROGRAM: Lemma A (determinant transference — uniform-small peaks are
+geometric: 2x2 determinants < q must vanish exactly, forcing omega = b/c
+with small b, c); Lemma B (geometric peaks die at balanced rows by K1+K2);
+remaining gap = mixed-case run-gluing (long small-runs are locally
+geometric by Lemma A; constants open). The dual surface mirrors the primal
+round-5 structure: only exact algebraic mechanisms, classified and killed.
+
+Node core after S1-S3: bounded-alphabet kernel counting in the
+sieve-uncovered zone (primal) + mixed-run gluing constants (dual). Next
+(S4): either the gluing constants (close the dual side fully) or the
+level-independence hypothesis (last untouched flagged assumption).
