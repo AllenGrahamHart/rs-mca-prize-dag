@@ -50,6 +50,13 @@ budget the compressed packet consumes. EXPLICIT REMAINING HYPOTHESIS (flagged,
 not proved here): the central tower measure is a product across levels (levels
 use disjoint coordinate sets), so E[prod] = prod E. This is the packet's
 framing; it must appear as a stated hypothesis of the closure.
+**[CORRECTION, ROUND S6 (self-found): the parenthetical justification is
+WRONG — the skew-tower packet partitions MOMENT indices (sum L_j = t), the
+skew variables share the codeword cells; disjoint rows over shared columns
+do not factorize the measure. The hypothesis is real: banked as the named
+conjecture LEVEL-FACTORIZATION (packet-side product lemma, or the
+unconditional Hoelder + moment-transfer route which folds it into the
+DYADIC-K core at higher alphabets). See notes/S6_LEVEL_FACTORIZATION.md.]**
 
 ## Proof architecture (weight split), with the evidence per piece
 
@@ -532,3 +539,26 @@ STATE OF THE NODE AFTER S1-S4 (the compression is now complete):
   only), transference both directions (S4: ultra-top only). Untried:
   Lam-Leung/Conway-Jones structure transport (S5 target);
   level-independence + endpoint exceptional rule (separate, not the core).
+
+# ROUNDS S5-S7 (2026-07-07, SELF-TENNIS TERMINAL): Lam-Leung empty; level-factorization audited; NODE FLIPPED TO CONDITIONAL
+
+S5 (notes/S5_LAM_LEUNG_TRANSPORT.md): the last untried proof family — the
+Conway-Jones/Lam-Leung transport — is EMPTY at n' = 2^s: the only char-0
+vanishing sums are antipodal-pair combinations, which reduced form excludes
+identically; the transport degenerates to the S1 sieve. Approach family
+count at the core: 5 consumed, all walls documented.
+
+S6 (notes/S6_LEVEL_FACTORIZATION.md): the level-independence hypothesis is
+REAL — the pinned "(disjoint coordinate sets)" justification is WRONG
+(levels partition moments over SHARED cells; correction marker placed).
+Discharge routes: packet-side product lemma (consumer-owned) or
+unconditional Hoelder + moment transfer (folds into the core).
+
+S7 (S7_STRUCTURE_REPORT.md): IRREDUCIBLE CORE terminal condition reached
+per SELF_TENNIS_GOAL.md. DAG surgery executed: two named CONJECTURE nodes
+banked — dli_dyadic_k_core (C1, K <= 3.34; measured 1.45) and
+dli_level_factorization (C2) — with req edges into this node; STATUS
+FLIPPED: TARGET -> CONDITIONAL on exactly {C1, C2}, with the implication
+chain PROVED and verified (C1 => DLI-AGG => endpoint consumption under
+C2). Recommend DLI-CLOSE-7 to Pro: present C1/C2 + the S1 theorem; the
+old A1 ask is subsumed (proved), A2 re-posed as C1.
