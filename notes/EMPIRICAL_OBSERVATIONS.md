@@ -577,3 +577,19 @@ raw edges 0.4678273/0.4678388 + the four adjacent predictions with 3.1-22.2 bit 
 pre-audit). BONUS FIX: pinned_row (PROVED) had an EMPTY statement -- written with the exact upstream numbers
 (LD 7@506 / 6@507, 6*2^128 < 17^32 < 7*2^128). Deliberately NOT imported as critical: the four deployed
 predictions as req children (rate-1/2 deployed-row exact-constant targets; our DAG is broader).
+
+## 2026-07-06 — dli round 6: ORBIT-COUNT census (Modal, 5 configs, ~700 primes)
+- MULTIPLIER SHADOWS: one vanisher P spawns ternary multiples m*P (m weight
+  2-3 via cancellation); ALL observed per-prime orbit clustering collapses
+  under this closure (63361: 10->1, 65921: 10->1, 48449: 13->4, 65537=F4:
+  11->5; residuals ordinary Poisson mass at per-prime mu=#orbits/q).
+  Self-falsified the naive per-orbit independence before Pro could.
+- Post-closure independence: sub-volume configs match Poisson exactly
+  (A 0.605/0.630, C 0.460/0.4625); doubles at/below Poisson (A: 26x rarer).
+- No dilation-class stacking at any of ~700 primes (max_dil = 1): the
+  "two hits in one norm" channel empty.
+- Cross-level lift e->2e is an identity (57/57); cov(k32,fresh64)=0.39 is a
+  1/q-scaling confound within band, flagged not claimed.
+- Ops: first numpy Modal image in this account; sharded 25 inputs x <10s
+  after a full-config input mysteriously hit the 60s cap despite 3.8s local
+  runtime — shard-by-primes is the pattern to reuse.

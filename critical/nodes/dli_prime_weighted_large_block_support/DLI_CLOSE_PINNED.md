@@ -210,3 +210,28 @@ into R* was norm-divisibility engineering — precisely what bounded_coeff_norm_
 (PROVED) prices. The battlefield was correctly identified in round 1; five rounds
 of tennis eliminated every other surface. What remains: count the norms one prime
 can hit.
+
+# ROUND-6 DISPATCH (2026-07-06): the ORBIT-COUNT census + DLI-CLOSE-4
+
+Evidence run (Modal, 25 sharded inputs, gates PASS — see
+notes/ORBIT_CENSUS_SUMMARY.md + notes/orbit_census_results.json):
+
+1. **Multiplier shadows found and priced BEFORE Pro could weaponize them**:
+   one vanisher spawns ternary multiples m*P (m weight 2-3, cancellation);
+   all observed heavy tails collapse under this closure (13->4, 10->1,
+   11->5 incl. q = 65537 = F4). The naive per-orbit independence convention
+   is FALSE; the kernel is re-posed modulo multiplier generation + level
+   lifts (lifts verified identities, 57/57).
+2. After closure: per-prime independent-generator counts Poisson-consistent
+   in every sub-volume config (A: 0.605 vs 0.630; C: 0.460 vs 0.4625);
+   doubles AT OR BELOW Poisson (A: 26x rarer). No dilation-class stacking
+   at any of ~700 primes.
+3. DLI-CLOSE-4 dispatched (PRO_DLI_CLOSE_4.md): prove the multiplier-closed
+   orbit-count bound (three routes suggested: sieve, Conway-Jones/Lam-Leung
+   mod p, per-row certificate) OR refute by engineering one admissible
+   prime dividing TWO multiplier-independent norms (our arithmetic: a
+   ~2^-216-density coincidence that cannot be selected for under the field
+   cap — this is the round-6 battlefield).
+
+Seventh window-law instance pre-empted: per-orbit independence -> orbit
+independence modulo the deterministic shadow.
