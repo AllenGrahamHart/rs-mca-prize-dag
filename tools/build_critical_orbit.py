@@ -126,9 +126,7 @@ border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:14px;}
 h1{font-size:19px;font-weight:600;margin:0;}
 .eyebrow{font:11px/1 ui-monospace,Menlo,monospace;color:var(--muted);
 text-transform:uppercase;letter-spacing:.14em;display:block;margin-bottom:6px;}
-.panel{display:flex;justify-content:space-between;align-items:flex-start;gap:28px;
-flex-wrap:wrap;margin:2px 0 16px;}
-.stats{display:flex;gap:26px;flex-wrap:wrap;}
+.stats{display:flex;gap:26px;flex-wrap:wrap;margin:2px 0 16px;}
 .stat b{display:block;font:600 20px/1.2 ui-monospace,Menlo,monospace;font-variant-numeric:tabular-nums;}
 .stat span{font-size:12px;color:var(--muted);}
 .stat.red b{color:var(--frontier);}
@@ -138,22 +136,11 @@ border-radius:8px;overflow:hidden;height:76vh;min-height:480px;}
 .map svg:active{cursor:grabbing;}
 .hint{position:absolute;top:10px;right:12px;font:11px ui-monospace,Menlo,monospace;
 color:var(--muted);background:rgba(11,18,32,.75);padding:4px 8px;border-radius:5px;}
-.legend{color:var(--muted);font-size:12.5px;line-height:1.5;max-width:58ch;}
-.legend b{color:var(--ink);} .legend .g{color:var(--spine);font-weight:600;}
-.legend .r{color:var(--frontier);font-weight:600;} .legend .a{color:var(--amber);font-weight:600;}
 </style>
 <div class="wrap">
 <header><div><span class="eyebrow">rs-mca &middot; proximity prize &middot; critical orbit</span>
 <h1>The prize at the centre — implication flows inward</h1></div></header>
-<div class="panel">
 <div class="stats">__STATS__</div>
-<div class="legend"><b>The colour contract:</b> <span class="g">green</span> = proved;
-<span class="a">amber</span> = a proved implication, conditional on its wired hypothesis
-nodes; <span class="r">red</span> = unproved — an open obligation, always a leaf.
-Every arc is a requirement (all needed), drawn in the colour of its source, flowing
-inward; rings are implication depth. <b>Prove the 7 reds and the roots follow.</b>
-Stats and map derive from the same <code>critical_dag.json</code>, so they cannot drift.</div>
-</div>
 <div class="map" id="map">__SVG__<div class="hint">drag to pan &middot; wheel to zoom &middot; hover to isolate &middot; double-click resets</div></div>
 </div>
 <script>
