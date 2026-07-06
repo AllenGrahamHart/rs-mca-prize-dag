@@ -172,3 +172,41 @@ round-4: N below the volume line).
 r1 sup-profiles -> weighted | r2 W-display -> E-display | r3 uniform-lambda -> sum
 r4 unpinned N -> the R* row class (2^N >= q^L, full half-sections).
 The object has survived every round; only the written slack keeps dying.
+
+# ROUND-5 UPDATE (2026-07-06): FIRST GENUINE REFUTATION — and its absorption
+
+Pro refuted DLI-NPM* INSIDE R* (verified end-to-end, incl. the Pocklington
+primality certificate): an ENGINEERED prime q = 0.528*2^256 chosen to divide the
+norm of the 6-term cyclotomic element 1 - z^33 + z^40 - z^136 - z^143 + z^145
+(z of order 512). The 512 folded signed shifts are distinct weight-6 kernel
+vectors: W >= 8 > 6.57 (the row threshold), E >= 4.753 > 4. Full half-section,
+volume satisfied, no scoping escape. **The per-level uniform constant is FALSE.**
+
+## The absorption (verified arithmetic)
+The endpoint (b2b <= 2^122) consumes PROD_j E_j, not per-level constants. One
+engineered relation orbit at level L costs E <= (vol)(1 + 512L*2^-(L+1)) — the
+Vandermonde floor w >= L+1 makes the cost DECAY with depth:
+  L=1: <= 129 (7.0 bits), L=5: <= 41 (5.4 bits), L=12: <= 1.75, L>=20: ~1.
+- Pro's actual row: 2.25 bits at one L=1 level. Endpoint margin: untouched.
+- Fantasy worst case (ALL 34 levels engineered simultaneously — each extra level
+  is an independent ~2^-216 norm-divisibility coincidence): 51.2 bits total,
+  71 bits of budget to spare.
+SIXTH window-law instance: per-level uniform constant -> cross-level aggregate.
+
+## ROUND-5 RE-POSED TARGET (DLI-AGG — the endpoint's actual consumption)
+> For every admissible row: SUM_j log2 E_U[rho_j] <= 100.
+Orbit decomposition: E_j <= (q^L/2^N)(1 + K_j * 2N * 2^-(L_j+1)) where K_j = the
+number of minimal-weight relation ORBITS at level j whose defining ternary
+element has q-divisible evaluation. The remaining kernel is the ORBIT-COUNT:
+> K_j(q) is small (O(1) engineered + random-window mass) for every admissible q.
+Sharp sub-question (clean number theory): how many INDEPENDENT low-weight ternary
+cyclotomic elements can a single prime q < 2^256 divide? Each additional orbit
+beyond the first is an independent ~2^-216 coincidence; stacking is doubly
+unlikely — but this must become a theorem or a per-row certificate.
+
+## Strategic note
+Pro's construction VALIDATES the norm-gate as the true mechanism: the ONLY way
+into R* was norm-divisibility engineering — precisely what bounded_coeff_norm_gate
+(PROVED) prices. The battlefield was correctly identified in round 1; five rounds
+of tennis eliminated every other surface. What remains: count the norms one prime
+can hit.
