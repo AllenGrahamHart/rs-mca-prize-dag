@@ -54,7 +54,7 @@ def main() -> None:
             if not (os.path.exists(os.path.join(ROADMAPS, path))
                     or os.path.exists(os.path.join(REPO, path))):
                 _p = str(path)
-                if not _p.startswith(("nodes/", "tools/", "orbit/")):
+                if not _p.startswith(("nodes/", "critical/", "background/", "tools/", "orbit/")):
                     continue  # legacy fork pointer (vendored history), recorded in the node folder
                 _root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
                 if os.path.exists(os.path.join(_root, _p)):
@@ -99,6 +99,58 @@ def main() -> None:
                 errors.append(
                     f"{n['id']}: CONDITIONAL with no wired hypotheses (leaf-conditional; "
                     "wire the conditions as nodes or demote to TARGET)")
+
+    # ===== CRITICAL-SURFACE LAWS (adopted 2026-07-06, owner directive) =====
+    # The critical DAG (req-ancestry of the grands + any-gate alt growth) is the
+    # published, high-standards surface. THREE-COLOR LAW: critical nodes carry
+    # exactly PROVED (green) | CONDITIONAL (amber) | TARGET (red). PROVABLE is
+    # banned on the surface ("if it can just be written up, write it up");
+    # CONJECTURE on a req-path is owed, i.e. a TARGET, by definition.
+    # Color logic: green = all req children green; amber = proved implication,
+    # wired hypotheses (interior only); red = logical leaf (ev/ref in-edges only).
+    # PARTITION LAW: critical node folders live in critical/nodes/, all others
+    # in background/nodes/ (auto-flags folder moves on criticality changes).
+    GRANDS = {"mca_grand", "list_grand"}
+    _rev = {}
+    for e in edges:
+        if e.get("kind", "req") == "req":
+            _rev.setdefault(e["to"], []).append(e["from"])
+    crit = set(g for g in GRANDS if g in nodes)
+    _st = list(crit)
+    while _st:
+        v = _st.pop()
+        for u in _rev.get(v, []):
+            if u not in crit:
+                crit.add(u); _st.append(u)
+    _grew = True
+    while _grew:
+        _grew = False
+        for e in edges:
+            if e.get("kind") == "alt" and e["to"] in crit and e["from"] not in crit \
+               and nodes[e["from"]]["status"] in ("PROVED", "PROVABLE") \
+               and nodes[e["to"]].get("gate") == "any":
+                crit.add(e["from"]); _grew = True
+                _s2 = [e["from"]]
+                while _s2:
+                    w = _s2.pop()
+                    for x in _rev.get(w, []):
+                        if x not in crit:
+                            crit.add(x); _s2.append(x)
+    COLORS = {"PROVED", "CONDITIONAL", "TARGET"}
+    for i in sorted(crit):
+        if nodes[i]["status"] not in COLORS:
+            errors.append(f"{i}: on the CRITICAL surface with status {nodes[i]['status']} "
+                          "— three-color law: critical nodes are PROVED/CONDITIONAL/TARGET only")
+    _root_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+    for sub, want_crit in (("critical/nodes", True), ("background/nodes", False)):
+        p = os.path.join(_root_dir, sub)
+        if os.path.isdir(p):
+            for f in os.listdir(p):
+                if f in nodes and (f in crit) != want_crit:
+                    errors.append(f"{f}: folder under {sub}/ but node is "
+                                  f"{'critical' if f in crit else 'background'} — move it (partition law)")
+    if os.path.isdir(os.path.join(_root_dir, "nodes")):
+        errors.append("legacy nodes/ directory exists — all node folders belong in critical/nodes/ or background/nodes/")
 
     # acyclicity (iterative DFS) + reachability to root
     color: dict[str, int] = {}

@@ -4,7 +4,7 @@
 One command, three outputs, zero hand-editing:
   1. critical_dag.json - the req-ancestry of the two grand nodes, each
      node carrying exactly one of four labels:
-       PROVED | PROVABLE | CONDITIONAL | UNPROVED
+       PROVED | CONDITIONAL | UNPROVED   (the three-color law)
      (CONDITIONAL = status CONDITIONAL with wired hypotheses, or
       validator-RIPE: proven/provable conditional on predicates.)
   2. prize_dag_critical_radial.svg - rendered from the same derivation.
@@ -60,12 +60,10 @@ def derive():
         st = nodes[v]["status"]
         if st == "PROVED":
             return "PROVED"
-        if st == "PROVABLE":
-            return "PROVABLE"
         return "CONDITIONAL" if v in amber else "UNPROVED"
     out = {
         "derived_from": "prize_dag.json",
-        "labels": ["PROVED", "PROVABLE", "CONDITIONAL", "UNPROVED"],
+        "labels": ["PROVED", "CONDITIONAL", "UNPROVED"],
         "nodes": [{"id": v, "label": label(v),
                    "title": nodes[v].get("title", "")[:160]}
                   for v in sorted(crit)],
@@ -99,7 +97,6 @@ def main():
         c[n["label"]] += 1
     stats = (f'<div class="stat"><b>{len(cd["nodes"])}</b><span>critical nodes</span></div>\n'
              f'<div class="stat"><b style="color:#15803d">{c["PROVED"]}</b><span>proved</span></div>\n'
-             f'<div class="stat"><b style="color:#86efac">{c["PROVABLE"]}</b><span>provable</span></div>\n'
              f'<div class="stat"><b style="color:#f59e0b">{c["CONDITIONAL"]}</b><span>conditional on predicates</span></div>\n'
              f'<div class="stat red"><b>{c["UNPROVED"]}</b><span>unproved</span></div>')
     html = HTML.replace("__STATS__", stats).replace("__SVG__", svg)

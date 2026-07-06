@@ -2,7 +2,6 @@
  "derived_from": "prize_dag.json",
  "labels": [
   "PROVED",
-  "PROVABLE",
   "CONDITIONAL",
   "UNPROVED"
  ],
