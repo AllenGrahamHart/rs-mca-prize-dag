@@ -86,3 +86,32 @@ Verifier artifacts: s3_dual_geometric_modal.py (Modal, 21 shards, all
 < 10 s); exact kill-mechanism check (T(1) = 2^−64.0 with the y=31
 coordinate at fraction 0.5000 contributing −44.05) reproduced inline in
 the round log.
+
+## 5. S4 WHITEBOARD AUDIT (same night): §2's "proof program" was OVERCLAIMED — correction
+
+Honest re-derivation shows the mixed-case gap is NOT "gluing constants":
+
+- **Lemma A's reach is only the ULTRA-top.** The determinant trick needs
+  per-coordinate smallness ε < (2q)^{−1/2}. But a peak at T ≥ 2^−j only
+  forces mean-square smallness ε ≈ √(j·ln2/π²N) — e.g. j = 30, N = 256
+  gives ε ≈ 0.17, wildly above q^{−1/2}. The determinant transference
+  reaches only T ≥ 1 − O(N/q), not the dangerous range.
+- **New (S4): orthogonality transference.** If u_y = λω^y mod± q with all
+  |u_y| ≤ εq, and d is any ternary kernel vector of weight w < 1/ε, then
+  |u·d| ≤ εqw < q and u·d ≡ 0 (mod q) force u·d = 0 EXACTLY. So a uniform
+  ε-peak is integrally orthogonal to every kernel vector of weight < 1/ε;
+  if those span rank N, no such peak exists. This reaches ε < 1/w_span —
+  but the abundant (pigeonhole-provable) kernel vectors have weight ~ N/2,
+  giving only ε < 2/N: again the ultra-top.
+- **The middle scale ε ∈ (~2/N, ~1/4) — the range where iid says peaks
+  must not exist — is EQUIVALENT to fine kernel structure at the row**, by
+  either transference direction. This is the same equivalence the moment
+  transfer (S2) exposes: there is ONE problem. Dual-top emptiness in the
+  dangerous range is not a separate provable lemma; it is the core again.
+
+CORRECTED STATUS: dual-top = PROVED at the ultra-top (Lemma A +
+orthogonality) + killed geometric family (K1/K2, incl. the F8 production
+lock) + OPEN in the middle scale, where it coincides with the single core:
+bounded-alphabet kernel counting at balanced rows in the sieve-uncovered
+zone. The node's irreducible-core candidate is now SINGULAR and precisely
+bounded on every side.

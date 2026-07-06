@@ -503,3 +503,32 @@ Node core after S1-S3: bounded-alphabet kernel counting in the
 sieve-uncovered zone (primal) + mixed-run gluing constants (dual). Next
 (S4): either the gluing constants (close the dual side fully) or the
 level-independence hypothesis (last untouched flagged assumption).
+
+# ROUND S4 (2026-07-07, SELF-TENNIS): honest audit — S3's "proof program" scoped correctly; the core is SINGULAR
+# (note appended to notes/S3_DUAL_TOP.md §5)
+
+Self-audit caught an overclaim in S3 §2 (honest-labels rule): Lemma A's
+determinant transference needs eps < (2q)^-1/2 per coordinate, but a
+T >= 2^-j peak only forces eps ~ sqrt(j/N) — the trick reaches ONLY the
+ultra-top (T >= 1 - O(N/q)). NEW orthogonality transference (S4): a uniform
+eps-peak is INTEGRALLY orthogonal to every kernel vector of weight < 1/eps
+(|u.d| <= eps*q*w < q and ≡ 0 forces = 0); spanning by light vectors kills
+peaks — but pigeonhole-abundant kernel vectors have weight ~ N/2, reaching
+only eps < 2/N: ultra-top again. The MIDDLE SCALE (eps in (2/N, 1/4), the
+iid-forbidden dual range) is EQUIVALENT to fine kernel structure by either
+transference — one problem, as the moment transfer already said.
+
+STATE OF THE NODE AFTER S1-S4 (the compression is now complete):
+- PROVED tonight: A1-PROD norm-sieve (S1); moment-transfer lemma (S2);
+  dual ultra-top emptiness + geometric-family kill + F8 production lock
+  (S3/S4). SELF-REFUTED tonight: the pinned per-lambda analytic display
+  (S2); the naive dual-geometric attack (S3).
+- THE SINGULAR CORE (everything else reduces to it): bounded-alphabet
+  kernel counting at balanced admissible rows in the sieve-uncovered zone
+  {(L,w) : 2<=L<=19, w_1(L)<w<=w*(L)} u {L>=20, w<=w*}, posed via DYADIC-K
+  (K <= 3.34 suffices; measured 1.45).
+- Approaches consumed at the core: first-moment sieve (S1: covers its
+  zone), second moment (S1: same wall), analytic/moments (S2: transfers
+  only), transference both directions (S4: ultra-top only). Untried:
+  Lam-Leung/Conway-Jones structure transport (S5 target);
+  level-independence + endpoint exceptional rule (separate, not the core).
