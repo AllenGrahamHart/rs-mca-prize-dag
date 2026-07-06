@@ -133,3 +133,42 @@ round 2: W-display (row-nonuniform) -> E-display    (low-q balanced mass)
 round 3: uniform per-lambda -> summed over lambda   (near-peak concentration)
 The E-form target is now triply battle-tested; every known falsifier family is priced
 into the display itself.
+
+# ROUND-4 UPDATE (2026-07-06, Pro's DLI-NPM refutation — verified + diagnosed)
+
+Pro refuted DLI-NPM as written with an exact witness: (q,n,L,N)=(97,32,2,12), the
+12-point INITIAL SEGMENT of the 16-point half-section: Sum T = 3.6234 > 3 (exact
+rational ledger, 3^12 enumeration — VERIFIED). Pro's own scope note: the FULL
+half-section at the same row gives small mass (VERIFIED: E = 1.3477, matching our
+original identity computation).
+
+DIAGNOSTIC (ours): random 12-subsets ALSO fail (E = 4.1, 3.6, 3.7) — the failure
+is NOT segment structure but the coordinates-per-constraint ratio: N=12, L=2,
+q=97 violates 2^N >= q^L (4096 < 9409). THE WINDOW LAW, FIFTH INSTANCE.
+
+## ROUND-4 SCOPED TARGET (the production row class, finally pinned)
+Row class R*: X = c * (full half-section of mu_{n'}), N = n'/2, with
+    2^N >= q^L    (balanced-volume / matched-alpha; automatic at production:
+                   N = 256L and q < 2^256).
+The real tower levels ARE in R*: a dyadic residue class of the big section equals
+a rotated full half-section of mu_{n'} (n' = n/m), and kernels are rotation-
+invariant (Sum d_i (c x_i)^r = c^r Sum d_i x_i^r).
+
+>>> TARGET (DLI-NPM*): for every row in R*: Sum_{lambda != 0} T(lambda) <= 3. <<<
+
+Equivalent kernel form (Pro round 4, exact): W <= 4 * 2^N/q^L - 1 on R*.
+Verified at every R* row tested: (97,32,16): 0.348; (257,32,16): 0.751;
+(65537,512,256): 0.000000; original DPs ~1e-6. Every failure ever produced
+violates the R* membership (round-2: low-q with N=256 fixed -> W-display artifact;
+round-4: N below the volume line).
+
+## Suggested proof routes (Pro round 4, both summed/counted — guardrail-compliant)
+- Dyadic near-peak ledger: B_j = {lambda != 0 : j <= -log2 T < j+1};
+  leaf: Sum_j 2^{-j} |B_j| <= 3.
+- Half-circle counted form: G_j = {lambda != 0 : #{y : ||a_y/q|| > 1/4} <= j};
+  T >= 2^{-j} => lambda in G_j; leaf: Sum_{j>=1} 2^{-j} |G_j| <= 3.
+
+## Tennis scoreboard (5 window-law instances now)
+r1 sup-profiles -> weighted | r2 W-display -> E-display | r3 uniform-lambda -> sum
+r4 unpinned N -> the R* row class (2^N >= q^L, full half-sections).
+The object has survived every round; only the written slack keeps dying.
