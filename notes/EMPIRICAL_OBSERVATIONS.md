@@ -642,3 +642,33 @@ predictions as req children (rate-1/2 deployed-row exact-constant targets; our D
 - Ops: the resultant-run hang = census trial-division primitive root (fixed
   with Brent rho) + gcd-echelon blowup on ~3% of ideal norms (contained with
   SIGALRM 20s watchdog); don't pipe background runs through tail (buffering).
+
+## 2026-07-06 — dli round 7 RETURN: Pro's B1 verified & conceded, priced at 0.0006 bits; lattice reframe
+- Pro fulfilled B1 as posed: q=110849 (n'=64), FOUR multiplier-independent
+  weight-5 generators at a sub-volume row — verified by his verifier (PASS)
+  and our independent replay 18/18 (own census machinery reproduces the same
+  4 orbits; complete exact-Fraction multiplier check, 768 systems in
+  Q(zeta_64)). OUR BAR LACKED A RATIO MARGIN: the row sits at volume ratio
+  0.99503 (mu = 0.995) — the boundary population.
+- Band census (74 admissible primes around the row): Poisson predicts 1.26
+  primes with k>=4, observed 2 — one is an UNCLAIMED k=5 row (q=100609)
+  stronger than Pro's certificate. The B1 row is generic, not a mechanism.
+- EXACT D3 ground truth: E(110849)=1.00040 (0.00058 bits), E(100609)=1.00031,
+  E(204353, k=7)=1.0104 (0.0149 bits). The r-dilution works: the whole
+  boundary population is aggregate-invisible. INVARIANT: expected ledger
+  mass of the weight-w window = C(N,w)*2^(w-N-L-1), q-INDEPENDENT — mu and r
+  cannot both be large; only the balanced-row tail (norm coincidences) can
+  hurt, which is what the norm-sieve bounds.
+- ADDITIVE CLUSTERS (ninth window-law instance, pre-empted by us): vanishers
+  at fixed q = ternary points of the ideal lattice I_q; generators at
+  multi-orbit primes are additively entangled (508 ternary pair combos at
+  110849; 4302 at 204353 incl. one weight-5; Z-rank 9 < 10). Explains the
+  census fat tail (k=7 at mu=0.54 ~ 1.7e-6 naive-Poisson — CORRECTION: the
+  round-6 summary mislabeled this prime's mu as 1.55) as lattice-cluster
+  correlation, not new structure. Counting re-posed in the LATTICE FRAME:
+  W_low(q) = weighted ternary-point count of I_q — no closure conventions
+  left; multiplier/additive/lift structure all just lattice points.
+- Pro's norm-sieve leaf verified (unconditional, cluster-robust first
+  moment). DLI-CLOSE-6 out: production instantiation of the (weighted)
+  norm-sieve + R-bound; refutation bars at explicit ratio <= 2^-10 or
+  r*2N*W_low > 2^13.

@@ -338,3 +338,70 @@ flagged by US in the brief, eighth window-law instance pre-empted);
 (A2) the R-bound via the analytic one-bit-margin route; (B) refutation bars
 updated (two independent generators at a SUB-volume prime; effective
 M > 13.29 sub-volume; or the full 100-bit budget).
+
+# ROUND-7 RETURN (2026-07-06): B1 FULFILLED AND VERIFIED — and priced at 0.0006 bits
+# (Pro's verifier PASS + our independent replay 18/18 PASS, notes/verify_round7_reply.py)
+
+Pro certified a legitimate B1 row: q = 110849 (Pocklington, q-1 = 2^8·433),
+n' = 64, sub-volume window (110298 orbits < q), FOUR multiplier-independent
+primitive weight-5 generators — independence certified COMPLETELY (all
+reduced ternary multipliers, via invertible multiplication matrix mod 10^6+3;
+our replay: exact-Fraction solve of all 768 systems in Q(zeta_64) + our own
+census machinery reproducing exactly the same 4 orbits). No escape applies.
+The bar we posed said "sub-volume" with no ratio margin — Pro parked on the
+boundary: volume ratio 0.99503, mu = 0.995.
+
+## The context we computed before absorbing (all banked in notes/)
+
+1. **Band census** (band_census_and_clusters.py; 74 admissible primes in
+   [1e5, 1.3e5], same conventions): mean k = 0.878 vs Poisson 0.962;
+   predicted #primes with k >= 4: 1.26 — observed 2, one of them an
+   UNCLAIMED k = 5 row at q = 100609 stronger than Pro's certificate.
+   The B1 row is the generic mu ~ 1 boundary population, not a mechanism.
+2. **Exact ground truth via D3** (exact_E_worst_rows.py, full lambda sum):
+   E(110849) = 1.00040 -> 0.00058 bits; E(100609) = 1.00031 -> 0.00045 bits;
+   E(204353, the k=7 census row) = 1.0104 -> 0.0149 bits. The r-dilution of
+   the corrected ledger does exactly its job: the ENTIRE boundary-volume
+   multi-generator population is aggregate-invisible.
+3. **The pinned product invariant** (why no row can turn both dials): the
+   expected ledger mass of the weight-w window is
+   mu_w · r · 2N·2^-(L+1) = C(N,w)·2^(w-N-L-1) — INDEPENDENT of q.
+   Boundary-volume rows (mu ~ 1) force r ~ window/2^N (tiny); balanced rows
+   (r ~ 1) force mu ~ 2^-216. The M-bound theorem only has to kill the
+   single-prime TAIL at r ~ 1, which is the norm-divisibility coincidence.
+4. **CLUSTER DISCOVERY (ours, ninth window-law instance pre-empted):** the
+   generators at multi-orbit primes are ADDITIVELY entangled — ternary
+   combinations P_i ± z^s P_j yield 508 new vanishers at 110849 (weights
+   6-10) and 4302 at 204353 (incl. one at weight 5; Z-rank 9 < 10 raw
+   orbits). At a fixed prime, vanishers are exactly the ternary points of
+   the rank-32 ideal lattice I_q = {c : c(omega) = 0 mod q}: per-orbit
+   Poisson independence is WRONG at cluster level — one skewed lattice
+   proliferates correlated points. This explains the census tail
+   (k = 7 at mu = 0.54: P_Poisson ~ 1.7e-6, a 3000x surprise — CORRECTION:
+   round 6 mislabeled this as mu = 1.55/6e-4) without new per-orbit
+   structure. Consequence: pose counting in the LATTICE frame (ternary
+   point count of I_q), which subsumes multiplier AND additive closure;
+   the mass ledger is unchanged (cluster members still priced at their
+   weights, geometrically).
+5. **Pro's norm-sieve leaf verified as arithmetic** (V7): |N(P)| <= wmax^N,
+   so each family element hits <= N·log(wmax)/log(Q) primes above Q; Markov
+   gives #{q in band: G(q) >= k} <= (|F|/k)·D — UNCONDITIONAL and
+   cluster-robust (a first moment needs no independence). This is now the
+   primary A1 route.
+
+## Status after round 7
+
+- Conditional theorem (R = 0, M <= 13.29 => DLI-AGG): UNTOUCHED — no
+  M > 13.29 exhibited; boundary rows are r-diluted to invisibility.
+- DEAD: any uniform "sub-volume => at most one generator" statement, and
+  the ungraded sub/super-volume dichotomy — the hypothesis must be the
+  volume RATIO.
+- LIVE (round-8 = DLI-CLOSE-6): instantiate the norm-sieve at production
+  parameters (explicit exceptional density) in the lattice frame + the
+  R-bound; refutation bars move to explicit ratio <= 2^-10 or breaking the
+  first-moment arithmetic itself.
+
+Files: notes/pro_reply_round7_fulfilment.md (verbatim),
+notes/pro_reply_round7_verifier.py (Pro's, PASS), notes/verify_round7_reply.py
+(ours, 18/18), notes/band_census_and_clusters.{py,json},
+notes/exact_E_worst_rows.py.
