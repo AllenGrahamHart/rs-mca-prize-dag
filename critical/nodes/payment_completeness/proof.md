@@ -121,3 +121,8 @@ apolar-principal scroll), with the sole open item being the *counting* of the
 generic row-full core (`spi_point_counting` / R2), which is a quantitative gap
 and not a missing taxonomy branch. The three sister routes remain live
 insurance. **This discharges `payment_completeness`.** ∎
+
+## Gate normalization (2026-07-06, minimality law)
+The gate:any is retired: the delivering route is now a wired req edge; losing
+alternates are ev reserve routes (re-promotable on falsification of the winner).
+The surface is a pure AND-tree; this proof's predicate list is its exact req set.

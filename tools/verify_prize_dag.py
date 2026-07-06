@@ -136,6 +136,13 @@ def main() -> None:
                     for x in _rev.get(w, []):
                         if x not in crit:
                             crit.add(x); _s2.append(x)
+    # GATE-NORMALIZATION-ON-CLOSE LAW (2026-07-06): the critical surface carries
+    # NO gate:any. A closed (PROVED) gate must be normalized (winning alt -> req,
+    # reserves -> ev); an open red cannot carry alts (red-leaf law). OR-gates
+    # remain a planning device for background/open work only.
+    for i in sorted(crit):
+        if nodes[i].get("gate") == "any":
+            errors.append(f"{i}: gate:any on the CRITICAL surface — normalize (winner->req, reserves->ev)")
     COLORS = {"PROVED", "CONDITIONAL", "TARGET"}
     for i in sorted(crit):
         if nodes[i]["status"] not in COLORS:

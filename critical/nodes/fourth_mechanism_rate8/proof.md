@@ -16,3 +16,8 @@ c = 2^28 (N = 8192), full-fiber s = 0, d = 17, m = 1041:
 Ordinary RS, no interleaving; nonconstructive in the same prefix-
 pigeonhole sense as the printed cap. The printed reserve 2^-9 came from
 the declared N_rho = 1024; the machinery supports N = 8192 here with slack.
+
+## Gate normalization (2026-07-06, minimality law)
+The gate:any is retired: the delivering route is now a wired req edge; losing
+alternates are ev reserve routes (re-promotable on falsification of the winner).
+The surface is a pure AND-tree; this proof's predicate list is its exact req set.

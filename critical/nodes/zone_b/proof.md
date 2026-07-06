@@ -8,3 +8,8 @@ The conditional implication (see conditional.md) is proved and every predicate i
 (gate:any — satisfied via a green alternative route.)
 
 By modus ponens the statement is PROVED. Auto-discharged by tools/auto_discharge.py; the audit lives at the red->amber referee step.
+
+## Gate normalization (2026-07-06, minimality law)
+The gate:any is retired: the delivering route is now a wired req edge; losing
+alternates are ev reserve routes (re-promotable on falsification of the winner).
+The surface is a pure AND-tree; this proof's predicate list is its exact req set.
