@@ -24,7 +24,9 @@ REPO = os.path.dirname(os.path.dirname(HERE))          # repo root (parent of ex
 DAG = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "dag.json")
 ROADMAPS = os.path.join(REPO, "experimental", "notes", "roadmaps")
 
-STATUSES = {"PROVED", "PROVABLE", "CONDITIONAL", "CONJECTURE", "TARGET", "WALL", "REFUTED", "TEST"}
+STATUSES = {"PROVED", "PROVABLE", "CONDITIONAL", "CONJECTURE", "TARGET", "WALL", "REFUTED"}
+# TEST retired 2026-07-06 (node-semantics law): every node is a truth claim; a computation
+# is the PROOF of a claim ("this program on this input yields X"), never a status.
 KINDS = {"req", "alt", "ev", "ref"}
 GATES = {"all", "any"}
 
