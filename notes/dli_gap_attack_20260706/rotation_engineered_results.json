@@ -1,0 +1,327 @@
+{
+  "algebraic_rotation_obstruction": "For n=2^s and surviving odd r0, zeta^(2k*r0)=1 implies n | 2k; since r0 is odd, zeta^(2k)=1. The only exact rotation is identity, so a disjoint Q=zeta^(2k)P cannot be produced by the advertised single-defect mechanism.",
+  "attack": "rotation-engineered and explicit structured families",
+  "falsifier_candidates": [],
+  "finished_at_unix": 1783328493.595251,
+  "rows": [
+    {
+      "L": 2,
+      "N": 16,
+      "max_subset": 7,
+      "n": 32,
+      "p": 97,
+      "pattern_checked": 1440,
+      "pattern_hits": [],
+      "single_defect_subsets": [
+        {
+          "h": 3,
+          "indices": [
+            0,
+            5,
+            7
+          ],
+          "moment": 27,
+          "surviving_odd_r": 1
+        },
+        {
+          "h": 3,
+          "indices": [
+            0,
+            5,
+            12
+          ],
+          "moment": 13,
+          "surviving_odd_r": 3
+        },
+        {
+          "h": 3,
+          "indices": [
+            0,
+            9,
+            13
+          ],
+          "moment": 77,
+          "surviving_odd_r": 1
+        },
+        {
+          "h": 3,
+          "indices": [
+            1,
+            6,
+            8
+          ],
+          "moment": 77,
+          "surviving_odd_r": 1
+        },
+        {
+          "h": 3,
+          "indices": [
+            1,
+            6,
+            13
+          ],
+          "moment": 2,
+          "surviving_odd_r": 3
+        },
+        {
+          "h": 3,
+          "indices": [
+            1,
+            10,
+            14
+          ],
+          "moment": 22,
+          "surviving_odd_r": 1
+        },
+        {
+          "h": 3,
+          "indices": [
+            2,
+            7,
+            9
+          ],
+          "moment": 22,
+          "surviving_odd_r": 1
+        },
+        {
+          "h": 3,
+          "indices": [
+            2,
+            7,
+            14
+          ],
+          "moment": 60,
+          "surviving_odd_r": 3
+        }
+      ],
+      "single_defect_summary": [
+        {
+          "checked": 16,
+          "found": 0,
+          "h": 1
+        },
+        {
+          "checked": 120,
+          "found": 0,
+          "h": 2
+        },
+        {
+          "checked": 560,
+          "found": 16,
+          "h": 3
+        },
+        {
+          "checked": 1820,
+          "found": 35,
+          "h": 4
+        },
+        {
+          "checked": 4368,
+          "found": 85,
+          "h": 5
+        },
+        {
+          "checked": 8008,
+          "found": 169,
+          "h": 6
+        },
+        {
+          "checked": 11440,
+          "found": 233,
+          "h": 7
+        }
+      ]
+    },
+    {
+      "L": 3,
+      "N": 32,
+      "max_subset": 7,
+      "n": 64,
+      "p": 193,
+      "pattern_checked": 5952,
+      "pattern_hits": [],
+      "single_defect_subsets": [
+        {
+          "h": 5,
+          "indices": [
+            0,
+            4,
+            7,
+            16,
+            19
+          ],
+          "moment": 70,
+          "surviving_odd_r": 5
+        },
+        {
+          "h": 5,
+          "indices": [
+            0,
+            4,
+            17,
+            24,
+            25
+          ],
+          "moment": 142,
+          "surviving_odd_r": 5
+        },
+        {
+          "h": 5,
+          "indices": [
+            1,
+            5,
+            8,
+            17,
+            20
+          ],
+          "moment": 107,
+          "surviving_odd_r": 5
+        },
+        {
+          "h": 5,
+          "indices": [
+            1,
+            5,
+            18,
+            25,
+            26
+          ],
+          "moment": 2,
+          "surviving_odd_r": 5
+        },
+        {
+          "h": 5,
+          "indices": [
+            2,
+            6,
+            9,
+            18,
+            21
+          ],
+          "moment": 45,
+          "surviving_odd_r": 5
+        },
+        {
+          "h": 5,
+          "indices": [
+            2,
+            6,
+            19,
+            26,
+            27
+          ],
+          "moment": 174,
+          "surviving_odd_r": 5
+        },
+        {
+          "h": 5,
+          "indices": [
+            3,
+            7,
+            10,
+            19,
+            22
+          ],
+          "moment": 55,
+          "surviving_odd_r": 5
+        },
+        {
+          "h": 5,
+          "indices": [
+            3,
+            7,
+            20,
+            27,
+            28
+          ],
+          "moment": 84,
+          "surviving_odd_r": 5
+        }
+      ],
+      "single_defect_summary": [
+        {
+          "checked": 32,
+          "found": 0,
+          "h": 1
+        },
+        {
+          "checked": 496,
+          "found": 0,
+          "h": 2
+        },
+        {
+          "checked": 4960,
+          "found": 0,
+          "h": 3
+        },
+        {
+          "checked": 35960,
+          "found": 0,
+          "h": 4
+        },
+        {
+          "checked": 201376,
+          "found": 20,
+          "h": 5
+        },
+        {
+          "checked": 906192,
+          "found": 48,
+          "h": 6
+        },
+        {
+          "checked": 3365856,
+          "found": 205,
+          "h": 7
+        }
+      ]
+    },
+    {
+      "L": 4,
+      "N": 64,
+      "max_subset": 6,
+      "n": 128,
+      "p": 769,
+      "partial": true,
+      "pattern_checked": 63,
+      "pattern_hits": [],
+      "single_defect_subsets": [],
+      "single_defect_summary": [
+        {
+          "checked": 64,
+          "found": 0,
+          "h": 1
+        },
+        {
+          "checked": 2016,
+          "found": 0,
+          "h": 2
+        },
+        {
+          "checked": 41664,
+          "found": 0,
+          "h": 3
+        },
+        {
+          "checked": 635376,
+          "found": 0,
+          "h": 4
+        },
+        {
+          "checked": 7624512,
+          "found": 0,
+          "h": 5
+        },
+        {
+          "checked": 8142848,
+          "found": 0,
+          "h": 6
+        }
+      ]
+    }
+  ],
+  "started_at_unix": 1783328438.5616364,
+  "status": "PASS_NO_STRUCTURED_FAMILY_FOUND",
+  "time_limit_seconds": 55.0,
+  "updated_at_unix": 1783328493.5952752
+}

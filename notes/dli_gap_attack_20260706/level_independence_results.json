@@ -1,0 +1,33 @@
+{
+  "attack": "level-independence packet audit",
+  "fatal_architecture_finding": false,
+  "findings": [
+    {
+      "claim": "exact tower factorization/product-total",
+      "evidence": "level2_falsifier TEST 1 says tower-1 equals direct census in every listed mu_32 row",
+      "source_contains": true,
+      "verdict": "supported by existing exact census"
+    },
+    {
+      "claim": "profile-constant product of per-profile constants",
+      "evidence": "level2_falsifier TEST 2 gives explicit same-profile states with different skewcounts",
+      "source_contains": true,
+      "verdict": "false; this route is already killed"
+    },
+    {
+      "claim": "central tower measure product across levels for DLI-CLOSE",
+      "evidence": "rho_j brief writes C_central as q^{-t} sum_Pi U(Pi) prod_j rho_j(M_{j+1}); no file found that proves independence of the weighted central tower measure itself",
+      "source_contains": true,
+      "verdict": "not falsified by the level2 note, but still an explicit unproved hypothesis requiring statement/proof"
+    }
+  ],
+  "finished_at_unix": 1783328181.574256,
+  "sources": [
+    "archive/compressed_dli_lane_20260705/b2b_primitive_core/notes/level2_falsifier.md",
+    "archive/compressed_dli_lane_20260705/b2b_primitive_core/notes/pro_brief_rhoj.md"
+  ],
+  "started_at_unix": 1783328181.573029,
+  "time_limit_seconds": 55.0,
+  "updated_at_unix": 1783328181.5743346,
+  "verdict": "No new fatal coupling found. Existing evidence supports exact factorization but kills the stronger profile-constant product shortcut; the DLI-CLOSE level-product hypothesis remains unproved and must stay explicit."
+}
