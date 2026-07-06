@@ -70,6 +70,12 @@ Let w*(q,L) = max{ w : C(N,w)·2^w <= q^L · 2^{-10} } (~68·L at q = 2^{255.9})
   the circle average of log2 cos^2 is EXACTLY -2 (the proved
   dli_circle_log_integral_constant), so the typical value is -2·256·L — the
   requirement is HALF of typical: a 100% (one-bit-per-coordinate) margin.
+  **[CORRECTION, ROUND S2 (self-found): this display is FALSE in the random
+  model — the tail rate of the log2 cos^2 sum is ~0.21/coordinate, not 1;
+  ~2^202 violating lambda are expected at production L=1, and the round-3
+  117x sup violation was this phenomenon. The '100% margin' compared the
+  requirement to the MEAN; the enemy is the TAIL. Correct form = the
+  DYADIC-K hypothesis; see notes/S2_DYADIC_K.md and § ROUND S2 below.]**
 
 ## Counterexample pre-emption record (what Pro will try, and why it fails)
 
@@ -441,3 +447,31 @@ input. Exact production instantiation (Q = 2^255, N = 256L):
 Round S2 target: A2/R-bound — refute-chair first (hunt a structured
 lambda-family beating the -(256+delta)L margin; the census/lattice machinery
 prices candidates), then prover chair on partial per-lambda statements.
+
+# ROUND S2 (2026-07-07, SELF-TENNIS): analytic route corrected; DYADIC-K compression
+# (verifier notes/s2_analytic_route_audit.py ALL PASS; note notes/S2_DYADIC_K.md)
+
+REFUTE CHAIR (scored against our own architecture — window-law instance #10):
+the pinned (c)-ALTERNATIVE per-lambda display is FALSE in the random model
+(tail rate 0.21/coordinate vs the ~1 required; ~2^202 violating lambda at
+production L=1; correction marker placed at the display). The round-3 117x
+sup violation was this, misread. Real-row dyadic scan (q=65089, n'=64,
+exhaustive): near-peak counts within K <= 1.45 of iid at all well-sampled
+levels; counts are orbit-quantized (multiples of 2N).
+
+PROVER CHAIR: **moment-transfer lemma PROVED** (exact, verified s=1,2):
+SUM_lambda T^s = 4^{-sN} q^L SUM_{(2s+1)-ary kernel k} prod C(2s, s+k_y) —
+every moment of the Fourier mass IS a bounded-alphabet kernel count; A2/R
+and zone (b) are ONE leaf across alphabets; no purely-analytic escape
+exists. **DYADIC-K compression THEOREM:** the single hypothesis
+  DYADIC-K(K, j1): #{lambda != 0 : T >= 2^-j} <= K q^L P_iid(T >= 2^-j)
+  for j >= j1, top range j < j1 empty
+implies E <= 1 + 2K·r per level and SUM log2 E <= 34·log2(1+2K) <= 100 for
+K <= 3.34 (exact integral form: 6.68). Measured K at the scanned row: 1.45.
+The node's hypothesis stack {M-bound ∧ R-bound} compresses to DYADIC-K +
+dual-top emptiness. The S1 norm-sieve covers the primal low-weight side per
+alphabet (tables computable with the same code).
+
+ROUND S3 TARGET: the dual top range — engineer a dual short vector (a
+lambda with T >= 2^-j1 at a balanced row; the dual analogue of the round-5
+engineered prime) or extract the transference lemma that blocks it.
