@@ -405,3 +405,39 @@ Files: notes/pro_reply_round7_fulfilment.md (verbatim),
 notes/pro_reply_round7_verifier.py (Pro's, PASS), notes/verify_round7_reply.py
 (ours, 18/18), notes/band_census_and_clusters.{py,json},
 notes/exact_E_worst_rows.py.
+
+# ROUND S1 (2026-07-07, SELF-TENNIS): A1-PROD norm-sieve PROVED; the uncovered zone computed exactly
+
+First self-tennis round (both chairs; goal file SELF_TENNIS_GOAL.md).
+
+REFUTE CHAIR: attacked the formalization at toy scale (n'=64 band): sieve
+bound dominates all observed census incidence; per-element cap D_cap = 4
+unbreached (exact resultant norms of all four B1 generators factored — each
+hits exactly ONE band prime); B1 norm-divisibility replayed. The only attack
+surface is the uncovered zone (below).
+
+PROVER CHAIR: **A1-PROD THEOREM (PROVED, unconditional count form)** —
+notes/A1_PROD_NORM_SIEVE.md + a1_prod_norm_sieve_verifier.py (ALL PASS):
+for any level and any T > 0,
+#{q in band : W_cov(q) >= T} <= TOTAL(w_cov)/T, TOTAL = SUM C(N,w)·D_cap(w),
+via complete splitting -> L distinct prime ideals -> q^L | Norm(D) <= w^N
+(norm capacity) -> weighted Markov. Density corollary under standard AP
+input. Exact production instantiation (Q = 2^255, N = 256L):
+- L=1: FULL window w <= w*(1) = 55 covered, exceptional density 2^-47.6 —
+  zone (b) at level 1 is now UNCONDITIONAL outside an explicit exceptional
+  set (first genuine theorem on the node's open surface).
+- L=2..19: partial windows (w_1 = 39 down to 21; 33% -> 0.2% of window).
+- L >= 20: NOTHING — even the minimal window's family (C(256L, L+1) >
+  2^194) exceeds the band's prime count; second moment hits the same wall.
+  The uncovered zone {(L,w): 2<=L<=19, w_1<w<=w*} u {L>=20} is EXACTLY the
+  new zone-(b) residue. CONSEQUENCE: A2 (analytic one-bit margin) is
+  promoted to THE load-bearing leaf — the only tool reaching the whole
+  residue.
+- CORRECTION: pinned round-1 estimate w* ~ 68L is wrong; exact w*(L) ~
+  57.7L - 2 (nothing banked depended on it).
+- Aggregate corollary: at T = 2^-5, the 19 covered zones cost <= 0.86 bits
+  total outside a combined exceptional density <= 2^-30.7.
+
+Round S2 target: A2/R-bound — refute-chair first (hunt a structured
+lambda-family beating the -(256+delta)L margin; the census/lattice machinery
+prices candidates), then prover chair on partial per-lambda statements.
