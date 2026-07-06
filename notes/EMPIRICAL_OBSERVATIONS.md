@@ -593,3 +593,52 @@ predictions as req children (rate-1/2 deployed-row exact-constant targets; our D
 - Ops: first numpy Modal image in this account; sharded 25 inputs x <10s
   after a full-config input mysteriously hit the 60s cap despite 3.8s local
   runtime — shard-by-primes is the pattern to reuse.
+
+## 2026-07-06 — dli round 6 RETURN: Pro's conditional close verified (26/26); OUR printed bound was false
+- Pro's reply to DLI-CLOSE-4: C-style conditional close, NO honest budget
+  refutation (the engineered two-independent-norms channel stays empty).
+- LITERAL CORRECTION (verified, notes/verify_round6_reply.py in the dli node):
+  our printed round-5/6 orbit decomposition E_j <= (q^L/2^N)(1+K*2N*2^-(L+1))
+  is FALSE as a bound on E_j — E_j >= 1 always (lambda=0 term of our own D3
+  display), RHS < 2^-208 at the admissible unbalanced row q=65537, n'=512,
+  L=1 (Pocklington, g=3, omega=15028, relation 1+w^95-w^146=0 all replayed).
+  Root cause: D2's exact E=(q^L/2^N)(1+W) has the BULK random trade mass in W;
+  swapping W for the low-weight ledger while keeping the volume prefactor on
+  the "1" dropped the lambda=0 mass. LESSON (window-law family, 8th instance):
+  a REDUCTION printed alongside a correct target needs the same falsification
+  pass as the target itself — we stress-tested DLI-AGG for five rounds and
+  never once evaluated the printed decomposition at an unbalanced row.
+- NO NUMERIC DAMAGE: every banked bit figure was already the excess form;
+  Pro's S(1)=51.169972398501 equals our round-5 fantasy stack exactly.
+- ABSORBED (new working form): B_j=E_j-1 <= R_j + M_j*r_j*2N*2^-(L+1);
+  per-generator cap 256L*2^-L (exact sweep verified); CONDITIONAL THEOREM:
+  R_L=0, M_L <= M* = 13.2907840779 (exact rational bracket) => DLI-AGG.
+  Census headroom: worst post-closure count 5 => 20.3 bits slack.
+- Leaf split: M-BOUND (shadow-weighted multiplicity, number theory) +
+  R-BOUND (residual near-peak mass = the old (b)+(c) weight-split content,
+  now NAMED as a hypothesis rather than silently absorbed).
+
+## 2026-07-06 — dli round 7 evidence: resultant gate + exact M ledger (attacker's side of the M-bound)
+- EXACT SHADOW-WEIGHTED M at all ~700 census primes (empirical_M_ledger.py):
+  worst anywhere 12.875 (q=21569, SUPER-volume forced regime — within 3% of
+  Pro's threshold M*=13.29!); worst sub-volume 7.75. The uniform M-bound MUST
+  carry the sub-volume hypothesis; production levels are ~2^216-fold sub-vol.
+- E1 prime-first (61 engineered primes): plant found at every one, bonus
+  independent orbits 0 vs 35.2 naive-Poisson — norm selection buys the plant
+  + its Galois-dilation copies, never a second generator.
+- E2/E2b pair-first: ideal norm N((P1,P2)) = 1 at EVERY random independent
+  pair (243/243) — generic pair ideals COPRIME; gcd-web at 1000 pairs finds
+  3 common-embedding pairs, all at q=97 = the super-volume floor. Zero
+  two-orbit pairs anywhere sub-volume. E3 triples: all ideal norms 1, dead.
+- The one surviving route to M >= 2 sub-volume: construct a SECOND
+  independent short ternary vector in the prime ideal above q — a
+  second-minimum event in a covolume-q lattice (DLI-CLOSE-5 ask A1 route 1).
+- HONESTY: toy ring Z[zeta_32] is class-number-1; production Z[zeta_512] is
+  not — ideal-class alignment flagged as Pro's opening. Naive-uniformity
+  caveat: over ~2^250 admissible primes, Poisson tails predict SOME M > M*
+  primes exist (unfindable); the theorem needs sieve/exceptional-set form,
+  and absence-below-w* at production q is NOT computationally certifiable —
+  named in DLI-CLOSE-5 as the hardest remaining object.
+- Ops: the resultant-run hang = census trial-division primitive root (fixed
+  with Brent rho) + gcd-echelon blowup on ~3% of ideal norms (contained with
+  SIGALRM 20s watchdog); don't pipe background runs through tail (buffering).

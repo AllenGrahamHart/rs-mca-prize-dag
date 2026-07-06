@@ -1,0 +1,161 @@
+{
+ "e1": {
+  "experiment": "E1_prime_first",
+  "trials": 250,
+  "trial_timeouts": 0,
+  "engineered_primes": 61,
+  "planted_found_all": true,
+  "bonus_total_observed": 0.0,
+  "bonus_total_poisson_pred": 35.231,
+  "bonus_hist": {
+   "0": 61
+  },
+  "verdict": "SELECTION_NEUTRAL",
+  "rows": [
+   {
+    "q": 103969,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 36161,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 84961,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 52609,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 88993,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 22433,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 38113,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 26561,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 91873,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 25537,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 52769,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 26113,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 35201,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 95873,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 26113,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 140321,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 26113,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 60289,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 47137,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   },
+   {
+    "q": 52769,
+    "planted_found": true,
+    "k_indep": 1,
+    "bonus": 0
+   }
+  ]
+ },
+ "e2": {
+  "experiment": "E2_pair_ideal_norm",
+  "pairs": 243,
+  "trial_timeouts": 7,
+  "norm_hist_small": {
+   "1": 243
+  },
+  "norms_gt_64": [],
+  "pairs_with_admissible_two_orbit_prime": 0,
+  "success_rate": 0.0,
+  "examples": []
+ },
+ "e3": {
+  "experiment": "E3_triple_ideal_norm",
+  "triples": 243,
+  "trial_timeouts": 7,
+  "norm_hist_small": {
+   "1": 243
+  },
+  "max_norm": 1,
+  "triples_with_admissible_prime": 0,
+  "structured_examples": [],
+  "verdict": "TRIPLE_ENGINEERING_DEAD"
+ }
+}

@@ -197,7 +197,14 @@ SIXTH window-law instance: per-level uniform constant -> cross-level aggregate.
 > For every admissible row: SUM_j log2 E_U[rho_j] <= 100.
 Orbit decomposition: E_j <= (q^L/2^N)(1 + K_j * 2N * 2^-(L_j+1)) where K_j = the
 number of minimal-weight relation ORBITS at level j whose defining ternary
-element has q-divisible evaluation. The remaining kernel is the ORBIT-COUNT:
+element has q-divisible evaluation.
+**[CORRECTION, ROUND 6: this displayed inequality is FALSE as a bound on E_j
+itself — E_j >= 1 always (lambda=0 term of D3), while the RHS is < 1 at
+unbalanced admissible rows (2^N >> q^L). Verified counterexample and the
+corrected EXCESS form E_j - 1 <= R_j + M_j r_j 2N 2^-(L+1) in § ROUND-6
+RETURN below. No numeric damage: all banked bit-arithmetic was already the
+excess form.]**
+The remaining kernel is the ORBIT-COUNT:
 > K_j(q) is small (O(1) engineered + random-window mass) for every admissible q.
 Sharp sub-question (clean number theory): how many INDEPENDENT low-weight ternary
 cyclotomic elements can a single prime q < 2^256 divide? Each additional orbit
@@ -235,3 +242,99 @@ notes/ORBIT_CENSUS_SUMMARY.md + notes/orbit_census_results.json):
 
 Seventh window-law instance pre-empted: per-orbit independence -> orbit
 independence modulo the deterministic shadow.
+
+# ROUND-6 RETURN (2026-07-06): C-STYLE CONDITIONAL CLOSE + a literal correction
+# (Pro's reply verified end-to-end — 26/26 checks PASS, notes/verify_round6_reply.py)
+
+Pro did NOT produce the requested B-refutation (no engineered prime dividing
+two multiplier-independent norms — that channel stays empty). Instead: a
+verified literal correction of OUR printed round-5/round-6 reduction, plus a
+corrected conditional close with exact constants.
+
+## The correction (VERIFIED; the error was ours, introduced at the round-5 re-pose)
+
+The printed orbit decomposition E_j <= (q^L/2^N)(1 + K_j·2N·2^-(L+1)) is FALSE
+as a bound on E_j: the D3 identity forces E_j >= 1 (lambda = 0 contributes
+exactly 1 — stated in OUR OWN D3 display above), while the printed RHS is < 1
+at any unbalanced admissible row (2^N >> q^L). Verified counterexample:
+q = 65537 (= F4, Pocklington replayed), n' = 512, N = 256, L = 1, pinned
+omega = 3^128 = 15028, primitive weight-3 relation 1 + w^95 - w^146 = 0; even
+granting K every signed reduced weight-3 element (2^3·C(256,3) = 22,108,160)
+the RHS is 185459517751297/2^256 < 2^-208.6 < 1 <= E. Root cause: the D2
+identity E = (q^L/2^N)(1 + W) is exact, but W contains the BULK random trade
+mass (which is what inflates E back to ~1); replacing W by only the low-weight
+orbit ledger while keeping the volume prefactor on the "1" silently discarded
+the lambda = 0 mass.
+
+DAMAGE ASSESSMENT — none numeric: every banked bit figure (round-5 row cost
+2.25 bits, the decay table, the 51.2-bit fantasy stack) was already computed
+in excess form; Pro's S(1) = 51.169972398501 equals our fantasy number
+exactly, and no negative-bit credit was ever taken at unbalanced rows. The
+printed inequality was the only casualty.
+
+## The corrected conditional close (absorbed as the new working form)
+
+With r_j = q^{L_j}/2^{N_j} <= 1 and B_j := E_j - 1 = sum_{lambda != 0} T_j:
+
+>  (H)  B_j <= R_j + M_j · r_j · 2N_j · 2^-(L_j+1)
+>  M_j = SUM over new independent generators g of s_g (shadow-weighted:
+>        s_g = 1 + sum over g's multiplier/lift shadow orbits of
+>        2^-(w'-L-1) — deterministic, geometric),
+>  R_j = residual non-generator near-peak mass after closure.
+>  (C)  DLI-AGG follows from  SUM_j log2(1 + R_j + M_j·r_j·2N_j·2^-(L_j+1)) <= 100.
+
+Per-generator cap (verified, exact sweep L <= 34, N <= 20000): r·2N·2^-(L+1)
+= r·N·2^-L <= 256L·2^-L whenever q < 2^256, 2^N >= q^L. Hence for the 34-level
+production schedule, with S(M) = SUM_{L=1..34} log2(1 + M·256L·2^-L):
+
+  S(1) = 51.170,  S(5) = 79.702,  S(10) = 93.865,  S(13) = 99.516,
+  S(M*) = 100 at  M* = 13.290784077959  (exact rational bracket verified),
+  S(14) = 101.141.
+
+**Conditional DLI-AGG theorem (Pro, verified): if R_L = 0 and M_L <= M* for
+all 34 levels, then SUM_L log2 E_L <= 100.** Census headroom: worst
+post-closure independent count anywhere = 5 (uniform M <= 5 leaves 20.3 bits
+of slack for shadow-factor inflation and residual mass).
+
+## The remaining leaf, now split into TWO named obligations
+
+1. **M-BOUND (sharpened ORBIT-COUNT):** the shadow-WEIGHTED multiplicity
+   M_L <= 13.29 per level — combinatorial/number-theoretic; census evidence
+   says worst raw count 5, shadows priced geometrically. This is what
+   DLI-CLOSE-5 must pose.
+2. **R-BOUND (the old (b)+(c) content, restated):** R_j is exactly the excess
+   of the bulk trade mass over its mean-field value (r·W_bulk - (1-r)) — the
+   gap-zero + K-bounded-tail work of the weight-split architecture above.
+   R_L = 0 is a HYPOTHESIS, not a theorem; the conditional close does not
+   discharge it, it names it.
+
+Certificate format agreed (Pro's §5): Pocklington cert, pinned roots/omegas,
+new-generator reps at minimal levels, shadow factors s_g, residual cert R_j,
+final rational check of (C). Our census machinery is the verifier skeleton.
+
+Files: notes/pro_reply_round6_fulfilment.md (verbatim),
+notes/pro_reply_round6_checker.py (Pro's checker, replayed),
+notes/verify_round6_reply.py (independent, 26/26 PASS).
+
+# ROUND-7 DISPATCH (2026-07-06): DLI-CLOSE-5 — the M-bound, both sides instrumented
+
+Evidence run before dispatch (notes/RESULTANT_GATE_SUMMARY.md +
+notes/empirical_M_ledger.py): exact shadow-weighted M at all ~700 census
+primes — worst anywhere 12.875 (super-volume forced regime, 3% under M*!),
+worst sub-volume 7.75 ⟹ the uniform bound must carry the SUB-VOLUME
+hypothesis. Attacker's side: E1 prime-first engineering never donates a
+second generator (0 bonus at 61 engineered primes vs 35.2 naive-Poisson);
+E2/E2b generic pair ideals are COPRIME (243/243 norm 1; the only 3
+common-embedding pairs in 1000 sit at the super-volume floor q=97);
+E3 triples dead. Surviving attack = second short vector in the prime ideal
+above q (second-minimum obstruction).
+
+DLI-CLOSE-5 (PRO_DLI_CLOSE_5.md) poses: (A1) the sub-volume M-bound in an
+honest form — sieve above explicit size/volume thresholds, or
+exceptional-set density, or engineering-hardness (naive full uniformity is
+heuristically FALSE by Poisson tails over ~2^250 admissible primes, and
+absence-below-w* is not computationally certifiable at production q — both
+flagged by US in the brief, eighth window-law instance pre-empted);
+(A2) the R-bound via the analytic one-bit-margin route; (B) refutation bars
+updated (two independent generators at a SUB-volume prime; effective
+M > 13.29 sub-volume; or the full 100-bit budget).
