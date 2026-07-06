@@ -310,52 +310,75 @@ def radial():
     rings = defaultdict(list)
     for v, r in ring.items():
         rings[r].append(v)
-    # angular ordering: init alphabetical, then barycenter sweeps by neighbor angle
-    ang = {}
-    for r in rings:
-        for i, v in enumerate(sorted(rings[r])):
-            ang[v] = 2 * math.pi * i / len(rings[r])
+    # angular ordering (rewritten 2026-07-06, anti-wrap):
+    # 1. INIT BY PARENT-FOLLOWING: rings are placed inside-out; each node's
+    #    initial angle is the circular mean of its consumers (always on
+    #    strictly inner rings), so chains start radially aligned by
+    #    construction instead of recovering from an alphabetical scatter.
+    # 2. ABSOLUTE ARC GAP: the anti-collision gap is a fixed arc length in
+    #    pixels (MIN_ARC / ring radius), not a fraction of uniform spacing —
+    #    sparse rings no longer force chains 60 degrees off their parents.
+    RSTEP_L, MIN_ARC = 92, 26.0
     nb = defaultdict(list)
     for u, v in req:
         if u in crit and v in crit:
             nb[u].append(v); nb[v].append(u)
-    def cmean(v):
-        ns = [w for w in nb[v] if w in ang]
+
+    def _cmean(v, ns):
         if not ns:
-            return ang[v]
+            return None
         x = sum(math.cos(ang[w]) for w in ns)
         y = sum(math.sin(ang[w]) for w in ns)
         if x * x + y * y < 1e-12:
-            return ang[v]
+            return None
         return math.atan2(y, x) % (2 * math.pi)
+
+    def ring_gap(r, m):
+        rad = r * RSTEP_L + 30
+        return min(MIN_ARC / rad, 2 * math.pi / max(m, 1))
+
+    def spread(lay, des, gap):
+        """Order by desired angle, enforce a circular minimum gap."""
+        lay.sort(key=lambda v: des[v])
+        a = [des[v] for v in lay]
+        m = len(a)
+        for i in range(1, m):
+            if a[i] < a[i - 1] + gap:
+                a[i] = a[i - 1] + gap
+        if m > 1 and (a[-1] - a[0]) > 2 * math.pi - gap:   # seam collision
+            scale = (2 * math.pi - gap) / (a[-1] - a[0])
+            a = [a[0] + (x - a[0]) * scale for x in a]
+        for v, x in zip(lay, a):
+            ang[v] = x % (2 * math.pi)
+
+    ang = {}
+    for i, g in enumerate(sorted(rings[0])):
+        ang[g] = math.pi * i                    # grand anchors
+    for r in sorted(rings):
+        if r == 0:
+            continue
+        lay = rings[r]
+        des = {}
+        for j, v in enumerate(sorted(lay)):
+            cm = _cmean(v, [w for w in cons[v] if w in ang])
+            des[v] = cm if cm is not None else 2 * math.pi * j / len(lay)
+        spread(lay, des, ring_gap(r, len(lay)))
 
     def total_arc():
         return sum(abs((ang[u] - ang[v] + math.pi) % (2 * math.pi) - math.pi)
                    for u, v in req if u in ang and v in ang)
 
     before = total_arc()
-    # circular-mean relaxation with a minimum angular gap per ring:
-    # nodes drift toward their neighbours' angles (short arcs) but keep
-    # 55% of uniform spacing so labels never collide.
+    # relaxation: drift toward ALL neighbours (inner + outer) under the same
+    # absolute-arc gap, so mid-chain nodes centre themselves on their chains.
     for _ in range(40):
         for r in sorted(rings):
             if r == 0:
                 continue
             lay = rings[r]
-            m = len(lay)
-            des = {v: cmean(v) for v in lay}
-            lay.sort(key=lambda v: des[v])
-            gap = 2 * math.pi / m * 0.55
-            a = [des[v] for v in lay]
-            for i in range(1, m):
-                if a[i] < a[i - 1] + gap:
-                    a[i] = a[i - 1] + gap
-            span = a[-1] - a[0]
-            if m > 1 and span > 2 * math.pi - gap:
-                scale = (2 * math.pi - gap) / span
-                a = [a[0] + (x - a[0]) * scale for x in a]
-            for v, x in zip(lay, a):
-                ang[v] = x % (2 * math.pi)
+            des = {v: (_cmean(v, [w for w in nb[v] if w in ang]) or ang[v])
+                   for v in lay}
+            spread(lay, des, ring_gap(r, len(lay)))
     print(f"angular relaxation: total arc length {before:.1f} -> {total_arc():.1f} rad")
     RSTEP, PAD = 92, 60
     R = (maxring + 0.5) * RSTEP + PAD
