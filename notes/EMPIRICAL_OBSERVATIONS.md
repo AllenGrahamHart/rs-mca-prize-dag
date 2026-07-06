@@ -672,3 +672,28 @@ predictions as req children (rate-1/2 deployed-row exact-constant targets; our D
   moment). DLI-CLOSE-6 out: production instantiation of the (weighted)
   norm-sieve + R-bound; refutation bars at explicit ratio <= 2^-10 or
   r*2N*W_low > 2^13.
+
+## 2026-07-07 — dli SELF-TENNIS S1-S7 (overnight, terminal): node flipped TARGET -> CONDITIONAL
+- Seven self-rounds, both chairs, per SELF_TENNIS_GOAL.md. PROVED: A1-PROD
+  norm-sieve (L=1 full window w<=55 at density 2^-47.6; coverage table all
+  34 levels; wall at L=20 fundamental; w* corrected 68L -> 57.7L);
+  moment-transfer lemma (moments = (2s+1)-ary kernel counts, exact);
+  DYADIC-K compression (K <= 3.34 => DLI-AGG); dual ultra-top emptiness +
+  geometric-family kill (order-forced cosine dead-zone omega^(N-1) = -1/2,
+  verified -44 bits at the F5-factor row; F8 factorization locks
+  production base-2).
+- SELF-REFUTED (corrections pinned in place): the per-lambda analytic
+  display (tail 0.21/coord, not 1 — round-3 117x was this); the S3
+  "gluing constants" optimism (middle dual scale IS the core); the
+  "(disjoint coordinate sets)" level-independence justification (levels
+  share cells; moments are what partition).
+- Lam-Leung/Conway-Jones transport: EMPTY at n' = 2^s (reduced form
+  excludes all char-0 structure — the section design already consumed it).
+- TERMINAL STATE: irreducible core = TWO named conjectures, banked as
+  TARGET nodes with dossiers: dli_dyadic_k_core (C1; measured K = 1.45 vs
+  threshold 3.34; 5 proof approaches + 4 attack families consumed, walls
+  documented) and dli_level_factorization (C2; packet-side product lemma
+  or Hoelder folding into C1). dli FLIPPED to CONDITIONAL{C1, C2} with the
+  implication chain proved. Board: 162/20/7 -> 162/21/8.
+- Full dossier: critical/nodes/dli.../S7_STRUCTURE_REPORT.md. Recommend
+  DLI-CLOSE-7 to Pro: C1/C2 + the S1 theorem (old A1 ask now subsumed).
