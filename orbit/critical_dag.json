@@ -774,7 +774,7 @@
   {
    "id": "rate_half_band_closure",
    "label": "UNPROVED",
-   "title": "FLOOR CONJECTURE (BAND-SAFETY): every rate-1/2 band radius is safe at every admissible top-slice row"
+   "title": "FLOOR CONJECTURE (BAND-DETERMINATION): the rate-1/2 band determination equals the first-moment prediction at every admissible razor row"
   },
   {
    "id": "rules_freeze",

@@ -114,3 +114,12 @@ sigma=2 window closes by q=97). Opening evidence: two censuses UNCLASSIFIED=0 (7
 4. F4 petal PETAL-ESCAPE-BUDGET — extend petal_excess_local_scan to top-band scaled rows.
 5. F5 xr smallcore — E27 pencil search at scaled pairs.
 6. F3 u1_x4 — probe already PASS at 1.5% of budget; lowest immediate threat; Pro brief candidate.
+
+## CORRECTION (2026-07-07, attack phase opening): F6 floor v1 was MIS-SIGNED — caught before any attack ran
+
+F6 v1 said "every band radius is safe-side". The primary docs (P6 brief) show the band is the UNDETERMINED
+stretch between the proved deficit side (reach 2^33) and the proved safe side (above sigma*); conjecturing
+it all-safe guessed a side without evidence. F6 v2 (banked): the band determination EQUALS the first-moment
+prediction (window law at the band radii); falsifier = scaled band-analogue counts deviating from the model,
+either direction, >= 3 scales. LESSON (campaign discipline instance #2, after the C1 freeze): floors derived
+from survey compressions must be checked against primary docs before attack — now a standing protocol step.
