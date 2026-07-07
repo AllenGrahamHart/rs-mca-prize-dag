@@ -142,3 +142,15 @@ artifact replayable by a stranger.
   (reuses the official row conventions); compare counts to first-moment
   across >= 3 q-scales. Deviation either direction, sustained = falsifier
   fires. Modal-sharded.
+- F6-A1 phase 1 RUN (f6a1_band_window_modal.py, Modal): at n=16, k=8 the toy
+  transport gives INVERTED bands at all three q-scales (floor reach >=
+  first-moment crossing: reach-excess 3/1/0 vs crossing-excess 2/0/0) — the
+  toy floor family OVER-reaches at small n; the band is a large-parameter
+  phenomenon (prize: 0.1-bit q-sliver at n=2^41). NEXT (phase 1b): band-
+  existence sweep at n in {32, 64, 128} x fine q-grid to locate toy rows
+  with genuine bands; if NONE exist under the faithful transport, pivot the
+  attack to the full-scale exact-arithmetic projection (reach/crossing/
+  balance arithmetic at n = 2^41 is exact rational computation — no
+  enumeration needed — attack the model's internal consistency at the
+  razor rows directly). Measurement phase (exact lists) only at rows with
+  genuine toy bands.
