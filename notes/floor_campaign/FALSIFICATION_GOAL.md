@@ -246,3 +246,15 @@ artifact replayable by a stranger.
   cells — the 17 heavy cells are exactly where a residual alarm could
   hide, so full credit awaits A1b). Combined standing evidence: this + the
   two banked external censuses (77 + 219 cells, UNCLASSIFIED = 0).
+- WAVE-1 STATUS (2026-07-07, after ~5 hours of attack phase): F6 +1
+  (composite stacks empty; band lq-graded; 2 protocol catches), F2 +1
+  (calibrated window sweep, extras zero through sub-balance), F7 +1 scoped
+  (census 118/135 zero-alarm; 17 heavy cells to A1b), F1 carried +1 from
+  pre-campaign. Zero deaths; three protocol catches (all my own
+  mis-posings, caught before claims). PENDING QUEUE: F4-A1 (needs
+  primary-doc grounding: top-defect band d >= M(t-2) definition, paid
+  families, Lemma-13 scope — do NOT rush; the scan machinery is
+  polynomial-arithmetic-heavy), F5-A1 (E27 pencil grounding likewise),
+  F3-A1 (boundary slices sharded — mechanical), F6-A3 (averaged
+  amortization — needs design), F2-A2 (engineered sub-balance accidents),
+  F2-A1b + F7-A1b (mechanical sharded reruns), F1 experiment 2.
