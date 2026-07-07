@@ -124,8 +124,11 @@ def main():
                 return False
         return True
 
-    payloads = []
+    payloads = [(64, 3, 8, 257), (64, 3, 8, 577), (64, 3, 8, 641),
+                (64, 3, 8, 769)]   # calibration gate: banked 192/64/0/0
     for N, t, b in CELLS:
+        if b == 10:
+            continue   # deferred to F2-A1b (needs prefix-sharded joins)
         Wtargets = [2.0**e for e in (6, 3, 1, 0, -1, -2, -4, -6, -8, -10, -12, -14)]
         for W in Wtargets:
             p_target = int((math.comb(N, b) / W) ** (1.0 / t))

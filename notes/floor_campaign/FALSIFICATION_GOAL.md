@@ -227,3 +227,12 @@ artifact replayable by a stranger.
   RERUN: add p in {257, 577, 641} as gate points; shard b=10 joins by
   3-index prefix (~35 shards each). Then F2 survival +1 if gate PASSES
   and zeros hold.
+- F2-A1 COMPLETE: calibration gate PASSES EXACTLY (p=257/577/641/769 ->
+  extras 192/64/0/0, matching the banked transition digit-for-digit —
+  instrument validated); full sweep with the validated instrument: EXTRAS
+  IDENTICALLY ZERO through the entire sub-balance regime (log2W < 0 down
+  to -14.5) at cells (32,2,6), (32,2,8), (64,3,8), (128,4,6). **F2
+  SURVIVAL +1** (attack family: calibrated complete window sweep). b=10
+  cell deferred to F2-A1b (prefix-sharded joins). Next F2 families:
+  engineered accident hunts inside sub-balance (norm/CRT selection — the
+  dli round-5 transport) and the giant-block side via complementation.
