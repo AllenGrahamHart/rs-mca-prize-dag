@@ -1,0 +1,563 @@
+{
+ "schema": "prize-dag/v1",
+ "description": "UPSTREAM PROGRAM DAG (przchojecki/rs-mca, reconstructed 2026-07-07 from cap25_cap_v13_raw.tex, grande_finale.tex, towards-prize.md @ ab7721e5). Same laws as our prize DAG (three colors on the critical surface, reds are logical leaves, ev into reds); statuses are UPSTREAM'S OWN CLAIMS with pedigree tags \u2014 v13-raw/GF material is upstream-experimental and mostly NOT independently replayed by us (exceptions noted). Built as a comparison point; kept fully separate from our dag.json.",
+ "root": "up_prize",
+ "nodes": [
+  {
+   "id": "up_prize",
+   "key": "up_prize",
+   "title": "Upstream program deliverable",
+   "status": "CONDITIONAL",
+   "statement": "The frontier conjecture resolved: the asymptotic entropy-subfield envelope for smooth multiplicative + circle line-round rows AND the four finite deployed adjacent pairs. Conditional on the Q family (+ BC residual audit). [PEDIGREE V13-RAW: v12 is upstream's paper authority; v13 raw + grande_finale are explicitly experimental/self-audited. Statuses in this DAG are UPSTREAM'S CLAIMS, replay-status noted per node.] Source: cap25_cap_v13_raw prop:capg-final-active-package; grande_finale.tex.",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_frontier_asymptotic",
+   "key": "up_frontier_asymptotic",
+   "title": "Entropy-subfield envelope (asymptotic)",
+   "status": "CONDITIONAL",
+   "statement": "delta*_C(eps*) = 1 - rho - g*(rho,beta) + o(1), g*(rho,beta) = sup{g : H2(rho+g) >= beta*g}, beta = log2|B| (BASE/generated field, not challenge field), for smooth multiplicative and circle line-round rows at deployed targets. Follows from Q-poly + normalized band (+ SP downstream) with any reserve R >> log n (prop:capg-final-active-package). [V13-RAW]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_adjacent_pairs_finite",
+   "key": "up_adjacent_pairs_finite",
+   "title": "Four finite deployed adjacent pairs",
+   "status": "CONDITIONAL",
+   "statement": "First safe agreement = a0+1 at the four deployed rows: KoalaBear MCA 1116047/1116048 (margin 22.197 bits), KoalaBear list 1116046/1116047 (22.011), Mersenne-31 MCA 1116023/1116024 (3.259), M31 list 1116022/1116023 (3.073). Follows from Q-atom finite + BC audit + compiler + one-step + first-match ledger. SCOPE NOTE: the two M31 rows are EXTRA-OFFICIAL (circle domain \u2014 not officially smooth; target 2^-100 not 2^-128); only the two KoalaBear rows are official-shaped. [V13-RAW/GF]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_q_atom_finite",
+   "key": "up_q_atom_finite",
+   "title": "Q: row-sharp atom bound (THE binding red)",
+   "status": "TARGET",
+   "statement": "R_Q^max = |B|^w max_z |P_Q(z)| / C(n,a+) <= 2^Delta_Q at each deployed adjacent row; Delta = 22.197/22.011/3.259/3.073 bits. Binding row M31 list: the largest primitive prefix-boundary fiber must be <= 8.42x its mean (less if any other cell spends budget). Proved only at head depths (w <= 22 KB, <= 10-11 M31) vs deployed depth w ~ 67,471. [GF def:q-row-atom + prop:q-exact-target; the moment-order barrier makes fixed-moment proofs numerically incapable here.]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_q_poly",
+   "key": "up_q_poly",
+   "title": "Q: polynomial-loss max-fiber (asymptotic form)",
+   "status": "TARGET",
+   "statement": "max_z |Phi_w^{-1}(z)| <= kappa * C(n,m) * |B|^{-w} with kappa = n^{O(1)}, for the identity prefix map Phi_w(M) = ((-1)^j e_j(M))_j on m-subsets. Equivalent: mode-at-null (N_w(z) <= N_w(0) for all z) + null-fiber ledger (prob:capfr1-mode-null). [V13-RAW prob:capg-active-Q]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_normalized_band",
+   "key": "up_normalized_band",
+   "title": "Normalized aperiodic-band input",
+   "status": "TARGET",
+   "statement": "The |B|-normalized residual aperiodic band read with the normalized left edge (prob:capfr1-normalized-band): below the entropy-subfield envelope the identity-scale floor supplies genuine unsafe mass; above it the normalized band census must close. Needed alongside Q-poly for the asymptotic frontier. [V13-RAW]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_bc_residual_audit",
+   "key": "up_bc_residual_audit",
+   "title": "BC residual chart audit",
+   "status": "TARGET",
+   "statement": "The finite audit that every residual balanced-core split-pencil chart reduces to the (proved) one-parameter moving-root theorem; interior-chart -> depth-(w+1) Q discharges in flight (OPEN PR #393, unintegrated). Until complete, BC's remainder is a thin open leaf. [GF abstract + prob:capg-active-BC]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_sp_from_q",
+   "key": "up_sp_from_q",
+   "title": "SP downstream from Q",
+   "status": "CONDITIONAL",
+   "statement": "Primitive shift-pair control HOLDS GIVEN Q as a max-fiber bound: 'the shift-pair ledger is downstream from Q' (the collapse that makes Q the near-single red). [GF theorem, SELF-AUDITED \u2014 our replay-before-build rule holds this amber pending independent replay.]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_identity_prefix_floor",
+   "key": "up_identity_prefix_floor",
+   "title": "Identity-prefix floors (graded, every scale)",
+   "status": "PROVED",
+   "statement": "Witness words U_z with Cen(U_z; m) = |Phi_{m,w}^{-1}(z)|; graded prefix floors on every scale; exact integer unsafe certificates binom(n,m) > |B|^w floor(eps* Q). These floors REFUTED the old broad aperiodic-band conjecture below the envelope (exponential aperiodic witnesses). [V13-RAW + LEAN]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_deep_point_conversion",
+   "key": "up_deep_point_conversion",
+   "title": "Deep-point + simple-pole conversions",
+   "status": "PROVED",
+   "statement": "Flexible-budget deep-point conversion and the simple-pole list-to-MCA conversion (pole slope-budget inequalities Lean-checked per row). [V13/GF]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_universal_cap",
+   "key": "up_universal_cap",
+   "title": "Universal unsafe cap",
+   "status": "PROVED",
+   "statement": "emca(C, delta) > 2^-86 >> 2^-128 throughout delta in [1-rho-2^-9, 1-rho) (2^-10 at rate 1/16), for EVERY field |F| < 2^256, all four rates, k <= 2^40; pigeonhole only, no equidistribution. [V12-AUDITED lineage, sharpened in V13]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_unsafe_edges_deployed",
+   "key": "up_unsafe_edges_deployed",
+   "title": "Deployed unsafe edges (v13)",
+   "status": "PROVED",
+   "statement": "KoalaBear sextic MCA delta >= 981105/2097152 = 0.4678273; M31 circle MCA >= 0.4678388; list rows similar \u2014 improving v12's public 0.467865. Lean pass/next theorems at all four rows. [V13-RAW + LEAN]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_deep_mca_safe",
+   "key": "up_deep_mca_safe",
+   "title": "Deep-regime MCA safe (all linear codes)",
+   "status": "PROVED",
+   "statement": "MCA error <= (floor(delta n)+1)/q below one third of relative distance, for EVERY linear code. [V12]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_mca_from_ca",
+   "key": "up_mca_from_ca",
+   "title": "MCA-from-CA to half distance",
+   "status": "PROVED",
+   "statement": "MCA equals/reduces to CA up to half the minimum distance. [V12]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_half_johnson_ca",
+   "key": "up_half_johnson_ca",
+   "title": "Self-contained half-Johnson CA",
+   "status": "PROVED",
+   "statement": "Self-contained correlated-agreement bound at half the Johnson radius. [V12]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_bciks_import",
+   "key": "up_bciks_import",
+   "title": "BCIKS half-distance import (optional)",
+   "status": "PROVED",
+   "statement": "External classical import [BCIKS20] upgrading the unconditional safe edge (1-rho)/3 to (1-rho)/2. [EXTERNAL CITATION]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_two_sided_sandwich",
+   "key": "up_two_sided_sandwich",
+   "title": "Two-sided deployed sandwich",
+   "status": "PROVED",
+   "statement": "delta*_C in [(1-rho)/3, 15331/32768 ~ 0.46787] unconditionally, [(1-rho)/2, .] with the BCIKS import, at the deployed rows \u2014 threshold known within a factor < 2. Their flagship unconditional partial result. [V13, informal thm:informal-sandwich]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_staircase_compiler",
+   "key": "up_staircase_compiler",
+   "title": "Integer-staircase compiler",
+   "status": "PROVED",
+   "statement": "If exact unsafe holds at a0 and the safe upper ledger at a0+1 is a disjoint/first-match integer sum bounded by B*, then a0+1 is the first safe agreement (thm:capf-staircase). [V13; INDEPENDENTLY REPLAYED BY US \u2014 our DAG's v13_finite_adjacent_compiler node.]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_onestep_mechanism",
+   "key": "up_onestep_mechanism",
+   "title": "One-step certificate mechanism",
+   "status": "PROVED",
+   "statement": "Conditional MCA and interleaved-list one-step criteria (prop:onestep). [V13]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_first_match_ledger",
+   "key": "up_first_match_ledger",
+   "title": "First-match budget ledger",
+   "status": "PROVED",
+   "statement": "Budget bookkeeping: every cell paid in the first-match ledger reduces the remaining Delta_Q; no double counting. [GF]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_lean_certificates",
+   "key": "up_lean_certificates",
+   "title": "Lean-checked integer certificates",
+   "status": "PROVED",
+   "statement": "cap25_cap_v13_raw_compact: machine-checked pass/next/pole inequalities at all four deployed rows (n = 2^21, k = 2^20, KoalaBear p = 2^31-2^24+1, M31 p = 2^31-1). Checks the ARITHMETIC, not the conjectures. [LEAN-CHECKED]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_quotient_descent",
+   "key": "up_quotient_descent",
+   "title": "Stabilizer exhaustion + quotient descent",
+   "status": "PROVED",
+   "statement": "Exact quotient descent (per-rung quotient audit machinery). [V12 T1]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_saturation_identity",
+   "key": "up_saturation_identity",
+   "title": "MCA codeword-ray saturation identity",
+   "status": "PROVED",
+   "statement": "Exact saturation identity for MCA codeword rays (line-ray saturation bookkeeping). [GF]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_second_moment_stratification",
+   "key": "up_second_moment_stratification",
+   "title": "Exact second-moment stratification",
+   "status": "PROVED",
+   "statement": "Sum_z N_w(z)^2 = C(n,m) + Sum_{e>w} P_e with P_e summing sp_w(e; D\\\\R) over depth-w shift pairs (monic D'-split, disjoint roots, top w+1 coefficients equal); P_e = 0 for e <= w. [GF/V13 thm:capg-second-moment]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_prefix_fiber_rigidity",
+   "key": "up_prefix_fiber_rigidity",
+   "title": "Prefix-fiber rigidity",
+   "status": "PROVED",
+   "statement": "Colliding prefix fibers must differ in at least w+1 points on each side; the exact second moment is governed by the constant-shift split-pair census. [V13]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_moving_root_theorem",
+   "key": "up_moving_root_theorem",
+   "title": "One-parameter moving-root theorem",
+   "status": "PROVED",
+   "statement": "The reduction target of the residual balanced-core split-pencil charts. [GF]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_split_pencil_reduction",
+   "key": "up_split_pencil_reduction",
+   "title": "Split-pencil reductions",
+   "status": "PROVED",
+   "statement": "Determinantal representation of Lambda_D; slope quantifier reduced to split-locator/split-pencil counting (per non-common support at most one finite slope). [V13/GF]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_composite_scale_collapse",
+   "key": "up_composite_scale_collapse",
+   "title": "Composite-scale collapse (divisor hierarchy)",
+   "status": "PROVED",
+   "statement": "Directions supported on index multiples of e collapse to coarser scales (g_s(x) = h(x^e)); composite scales priced through their reductions. [V13 prop:capff1-composite]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_head_depth_exactness",
+   "key": "up_head_depth_exactness",
+   "title": "Head-depth exactness (w <= 22)",
+   "status": "PROVED",
+   "statement": "At head rungs m = K+w, every prefix fiber equals C(N,m) p^-w (1+eps), |eps| <= 2^-margin, two-sidedly, no polynomial factor (nonvacuous exactly for w <= 22 at KB; ~10-11 at M31; +32,394-bit margin at w = 22). The pigeonhole step is EXACT at head depths. [V13 cor:capff1-collision-head]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_subfield_census_floors",
+   "key": "up_subfield_census_floors",
+   "title": "Subfield census floors M_B",
+   "status": "PROVED",
+   "statement": "M_B(d1) = C(K-1+d1, m) C(n, K-1+d1) p^{-(d1-1)} floors at every balanced profile, achieved; the base-field pigeonhole mass at extension rows (our f1/ef-ledger comparison seam). [V13 prop:capg-census-floor]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_moment_order_barrier",
+   "key": "up_moment_order_barrier",
+   "title": "Moment-order barrier (no-go)",
+   "status": "PROVED",
+   "statement": "Any finite-Q proof via the moment criterion needs moment order r >= w log2|B| / Delta_Q: 94,196/94,991 (KB), 641,593/680,397 (M31). Every fixed-moment route is numerically incapable of the finite adjacent rows. [GF prop:q-moment-order-floor]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_weak_ceilings",
+   "key": "up_weak_ceilings",
+   "title": "Unconditional weak ceilings",
+   "status": "PROVED",
+   "statement": "Unconditional but weak prefix/split-pair ceilings (far above the needed constants). [GF]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_map_smooth_fiber",
+   "key": "up_map_smooth_fiber",
+   "title": "Map-smooth fiber lemma",
+   "status": "PROVED",
+   "statement": "Divisibility-free fiber lemma for arbitrary map-smooth domains (counting side not tied to multiplicative structure). [V13 sec:isogeny]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_circle_transport",
+   "key": "up_circle_transport",
+   "title": "Circle-code transport (EXTRA-OFFICIAL)",
+   "status": "PROVED",
+   "statement": "Twin cosets on the circle, Chebyshev fibers, torus uniformization; universal caps for circle codes and circle-FRI line rounds; the stereographic model over every challenge field. Powers the M31 circle rows \u2014 OUTSIDE the official smooth definition (multiplicative 2-power coset). [V13]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_genus_one_lacunarity",
+   "key": "up_genus_one_lacunarity",
+   "title": "Genus-one lacunarity obstruction (EXTRA-OFFICIAL)",
+   "status": "PROVED",
+   "statement": "The lacunarity obstruction for ECFFT/genus-one domains. [V13]",
+   "refs": [],
+   "notes": ""
+  },
+  {
+   "id": "up_q_calibration",
+   "key": "up_q_calibration",
+   "title": "Q calibration censuses (evidence only)",
+   "status": "PROVED",
+   "statement": "Exact instruments: Newton-recursion prefix-fiber statistics (non-expansive, float-safe, any depth) + group-algebra DP joint censuses. Max-to-mean 1.0012-4.10 at depths 1-3 small scales; primitive character maxima decay to Parseval (exponents 2.26->0.31); divisor-hierarchy jumps visible; growth only at the Poisson boundary. Labeled by upstream: 'calibration evidence only, enters no proof'. Falsifiable prediction: any Q violation must be a super-polynomial fiber in the dense bulk of a primitive scale. [V13 rem:capff1-calibration]",
+   "refs": [],
+   "notes": ""
+  }
+ ],
+ "edges": [
+  {
+   "from": "up_frontier_asymptotic",
+   "to": "up_prize",
+   "kind": "req"
+  },
+  {
+   "from": "up_adjacent_pairs_finite",
+   "to": "up_prize",
+   "kind": "req"
+  },
+  {
+   "from": "up_q_poly",
+   "to": "up_sp_from_q",
+   "kind": "req"
+  },
+  {
+   "from": "up_identity_prefix_floor",
+   "to": "up_unsafe_edges_deployed",
+   "kind": "req"
+  },
+  {
+   "from": "up_deep_point_conversion",
+   "to": "up_unsafe_edges_deployed",
+   "kind": "req"
+  },
+  {
+   "from": "up_universal_cap",
+   "to": "up_two_sided_sandwich",
+   "kind": "req"
+  },
+  {
+   "from": "up_deep_mca_safe",
+   "to": "up_two_sided_sandwich",
+   "kind": "req"
+  },
+  {
+   "from": "up_mca_from_ca",
+   "to": "up_two_sided_sandwich",
+   "kind": "req"
+  },
+  {
+   "from": "up_half_johnson_ca",
+   "to": "up_two_sided_sandwich",
+   "kind": "req"
+  },
+  {
+   "from": "up_bciks_import",
+   "to": "up_two_sided_sandwich",
+   "kind": "req"
+  },
+  {
+   "from": "up_unsafe_edges_deployed",
+   "to": "up_two_sided_sandwich",
+   "kind": "req"
+  },
+  {
+   "from": "up_two_sided_sandwich",
+   "to": "up_prize",
+   "kind": "ev"
+  },
+  {
+   "from": "up_second_moment_stratification",
+   "to": "up_sp_from_q",
+   "kind": "req"
+  },
+  {
+   "from": "up_prefix_fiber_rigidity",
+   "to": "up_second_moment_stratification",
+   "kind": "req"
+  },
+  {
+   "from": "up_split_pencil_reduction",
+   "to": "up_sp_from_q",
+   "kind": "req"
+  },
+  {
+   "from": "up_map_smooth_fiber",
+   "to": "up_circle_transport",
+   "kind": "req"
+  },
+  {
+   "from": "up_q_poly",
+   "to": "up_frontier_asymptotic",
+   "kind": "req"
+  },
+  {
+   "from": "up_normalized_band",
+   "to": "up_frontier_asymptotic",
+   "kind": "req"
+  },
+  {
+   "from": "up_sp_from_q",
+   "to": "up_frontier_asymptotic",
+   "kind": "req"
+  },
+  {
+   "from": "up_identity_prefix_floor",
+   "to": "up_frontier_asymptotic",
+   "kind": "req"
+  },
+  {
+   "from": "up_composite_scale_collapse",
+   "to": "up_frontier_asymptotic",
+   "kind": "req"
+  },
+  {
+   "from": "up_subfield_census_floors",
+   "to": "up_frontier_asymptotic",
+   "kind": "req"
+  },
+  {
+   "from": "up_deep_point_conversion",
+   "to": "up_frontier_asymptotic",
+   "kind": "req"
+  },
+  {
+   "from": "up_q_atom_finite",
+   "to": "up_adjacent_pairs_finite",
+   "kind": "req"
+  },
+  {
+   "from": "up_bc_residual_audit",
+   "to": "up_adjacent_pairs_finite",
+   "kind": "req"
+  },
+  {
+   "from": "up_sp_from_q",
+   "to": "up_adjacent_pairs_finite",
+   "kind": "req"
+  },
+  {
+   "from": "up_staircase_compiler",
+   "to": "up_adjacent_pairs_finite",
+   "kind": "req"
+  },
+  {
+   "from": "up_onestep_mechanism",
+   "to": "up_adjacent_pairs_finite",
+   "kind": "req"
+  },
+  {
+   "from": "up_first_match_ledger",
+   "to": "up_adjacent_pairs_finite",
+   "kind": "req"
+  },
+  {
+   "from": "up_identity_prefix_floor",
+   "to": "up_adjacent_pairs_finite",
+   "kind": "req"
+  },
+  {
+   "from": "up_unsafe_edges_deployed",
+   "to": "up_adjacent_pairs_finite",
+   "kind": "req"
+  },
+  {
+   "from": "up_quotient_descent",
+   "to": "up_adjacent_pairs_finite",
+   "kind": "req"
+  },
+  {
+   "from": "up_saturation_identity",
+   "to": "up_adjacent_pairs_finite",
+   "kind": "req"
+  },
+  {
+   "from": "up_circle_transport",
+   "to": "up_adjacent_pairs_finite",
+   "kind": "req"
+  },
+  {
+   "from": "up_lean_certificates",
+   "to": "up_adjacent_pairs_finite",
+   "kind": "ev"
+  },
+  {
+   "from": "up_head_depth_exactness",
+   "to": "up_q_atom_finite",
+   "kind": "ev"
+  },
+  {
+   "from": "up_head_depth_exactness",
+   "to": "up_q_poly",
+   "kind": "ev"
+  },
+  {
+   "from": "up_q_calibration",
+   "to": "up_q_atom_finite",
+   "kind": "ev"
+  },
+  {
+   "from": "up_q_calibration",
+   "to": "up_q_poly",
+   "kind": "ev"
+  },
+  {
+   "from": "up_moment_order_barrier",
+   "to": "up_q_atom_finite",
+   "kind": "ev"
+  },
+  {
+   "from": "up_weak_ceilings",
+   "to": "up_q_poly",
+   "kind": "ev"
+  },
+  {
+   "from": "up_moving_root_theorem",
+   "to": "up_bc_residual_audit",
+   "kind": "ev"
+  },
+  {
+   "from": "up_split_pencil_reduction",
+   "to": "up_bc_residual_audit",
+   "kind": "ev"
+  },
+  {
+   "from": "up_subfield_census_floors",
+   "to": "up_bc_residual_audit",
+   "kind": "ev"
+  },
+  {
+   "from": "up_prefix_fiber_rigidity",
+   "to": "up_q_poly",
+   "kind": "ev"
+  },
+  {
+   "from": "up_genus_one_lacunarity",
+   "to": "up_frontier_asymptotic",
+   "kind": "ev"
+  }
+ ]
+}

@@ -1,0 +1,222 @@
+{
+ "derived_from": "prize_dag.json",
+ "labels": [
+  "PROVED",
+  "CONDITIONAL",
+  "UNPROVED"
+ ],
+ "nodes": [
+  {
+   "id": "up_adjacent_pairs_finite",
+   "label": "CONDITIONAL",
+   "title": "Four finite deployed adjacent pairs"
+  },
+  {
+   "id": "up_bc_residual_audit",
+   "label": "UNPROVED",
+   "title": "BC residual chart audit"
+  },
+  {
+   "id": "up_circle_transport",
+   "label": "PROVED",
+   "title": "Circle-code transport (EXTRA-OFFICIAL)"
+  },
+  {
+   "id": "up_composite_scale_collapse",
+   "label": "PROVED",
+   "title": "Composite-scale collapse (divisor hierarchy)"
+  },
+  {
+   "id": "up_deep_point_conversion",
+   "label": "PROVED",
+   "title": "Deep-point + simple-pole conversions"
+  },
+  {
+   "id": "up_first_match_ledger",
+   "label": "PROVED",
+   "title": "First-match budget ledger"
+  },
+  {
+   "id": "up_frontier_asymptotic",
+   "label": "CONDITIONAL",
+   "title": "Entropy-subfield envelope (asymptotic)"
+  },
+  {
+   "id": "up_identity_prefix_floor",
+   "label": "PROVED",
+   "title": "Identity-prefix floors (graded, every scale)"
+  },
+  {
+   "id": "up_map_smooth_fiber",
+   "label": "PROVED",
+   "title": "Map-smooth fiber lemma"
+  },
+  {
+   "id": "up_normalized_band",
+   "label": "UNPROVED",
+   "title": "Normalized aperiodic-band input"
+  },
+  {
+   "id": "up_onestep_mechanism",
+   "label": "PROVED",
+   "title": "One-step certificate mechanism"
+  },
+  {
+   "id": "up_prefix_fiber_rigidity",
+   "label": "PROVED",
+   "title": "Prefix-fiber rigidity"
+  },
+  {
+   "id": "up_q_atom_finite",
+   "label": "UNPROVED",
+   "title": "Q: row-sharp atom bound (THE binding red)"
+  },
+  {
+   "id": "up_q_poly",
+   "label": "UNPROVED",
+   "title": "Q: polynomial-loss max-fiber (asymptotic form)"
+  },
+  {
+   "id": "up_quotient_descent",
+   "label": "PROVED",
+   "title": "Stabilizer exhaustion + quotient descent"
+  },
+  {
+   "id": "up_saturation_identity",
+   "label": "PROVED",
+   "title": "MCA codeword-ray saturation identity"
+  },
+  {
+   "id": "up_second_moment_stratification",
+   "label": "PROVED",
+   "title": "Exact second-moment stratification"
+  },
+  {
+   "id": "up_sp_from_q",
+   "label": "CONDITIONAL",
+   "title": "SP downstream from Q"
+  },
+  {
+   "id": "up_split_pencil_reduction",
+   "label": "PROVED",
+   "title": "Split-pencil reductions"
+  },
+  {
+   "id": "up_staircase_compiler",
+   "label": "PROVED",
+   "title": "Integer-staircase compiler"
+  },
+  {
+   "id": "up_subfield_census_floors",
+   "label": "PROVED",
+   "title": "Subfield census floors M_B"
+  },
+  {
+   "id": "up_unsafe_edges_deployed",
+   "label": "PROVED",
+   "title": "Deployed unsafe edges (v13)"
+  }
+ ],
+ "edges": [
+  {
+   "from": "up_q_poly",
+   "to": "up_sp_from_q"
+  },
+  {
+   "from": "up_identity_prefix_floor",
+   "to": "up_unsafe_edges_deployed"
+  },
+  {
+   "from": "up_deep_point_conversion",
+   "to": "up_unsafe_edges_deployed"
+  },
+  {
+   "from": "up_second_moment_stratification",
+   "to": "up_sp_from_q"
+  },
+  {
+   "from": "up_prefix_fiber_rigidity",
+   "to": "up_second_moment_stratification"
+  },
+  {
+   "from": "up_split_pencil_reduction",
+   "to": "up_sp_from_q"
+  },
+  {
+   "from": "up_map_smooth_fiber",
+   "to": "up_circle_transport"
+  },
+  {
+   "from": "up_q_poly",
+   "to": "up_frontier_asymptotic"
+  },
+  {
+   "from": "up_normalized_band",
+   "to": "up_frontier_asymptotic"
+  },
+  {
+   "from": "up_sp_from_q",
+   "to": "up_frontier_asymptotic"
+  },
+  {
+   "from": "up_identity_prefix_floor",
+   "to": "up_frontier_asymptotic"
+  },
+  {
+   "from": "up_composite_scale_collapse",
+   "to": "up_frontier_asymptotic"
+  },
+  {
+   "from": "up_subfield_census_floors",
+   "to": "up_frontier_asymptotic"
+  },
+  {
+   "from": "up_deep_point_conversion",
+   "to": "up_frontier_asymptotic"
+  },
+  {
+   "from": "up_q_atom_finite",
+   "to": "up_adjacent_pairs_finite"
+  },
+  {
+   "from": "up_bc_residual_audit",
+   "to": "up_adjacent_pairs_finite"
+  },
+  {
+   "from": "up_sp_from_q",
+   "to": "up_adjacent_pairs_finite"
+  },
+  {
+   "from": "up_staircase_compiler",
+   "to": "up_adjacent_pairs_finite"
+  },
+  {
+   "from": "up_onestep_mechanism",
+   "to": "up_adjacent_pairs_finite"
+  },
+  {
+   "from": "up_first_match_ledger",
+   "to": "up_adjacent_pairs_finite"
+  },
+  {
+   "from": "up_identity_prefix_floor",
+   "to": "up_adjacent_pairs_finite"
+  },
+  {
+   "from": "up_unsafe_edges_deployed",
+   "to": "up_adjacent_pairs_finite"
+  },
+  {
+   "from": "up_quotient_descent",
+   "to": "up_adjacent_pairs_finite"
+  },
+  {
+   "from": "up_saturation_identity",
+   "to": "up_adjacent_pairs_finite"
+  },
+  {
+   "from": "up_circle_transport",
+   "to": "up_adjacent_pairs_finite"
+  }
+ ]
+}
