@@ -540,3 +540,16 @@ now survived: (a) 21 pre-registered internal attack families, (b) the
 independent Pro assault. GRADUATION to standing-conjecture status is the
 user's call, then the posting decision (candidate: PR to the upstream
 repo stating the conditional proof + the battle-hardened conjecture set).
+- FLOOR 2 follow-up (the nudge worked): Pro picked surface (c), giant
+  blocks, and returned a PROVED OBSTRUCTION — the exact complement
+  involution S -> D\S preserves both t-nullity (total moments vanish for
+  t < N: geometric series) and coset-union status (indicator argument),
+  so E_b = E_{N-b} exactly: every giant extra is a small-extra mirror and
+  the brief's standard excludes mirrors. Surface (c) is CLOSED as a kill
+  route, by proof. VERIFIED FULLY: three t=5 sub-balance Pocklington rows
+  (97 / 7,297 / 50,859,521 — factorizations, balance margins, order
+  checks, zero moment vectors all replayed exactly) + exhaustive N=16
+  involution check reproduced. **F2 survival +5** (Pro obstruction-proof
+  family). ROUTE MATERIAL: E_b = E_{N-b} feeds the structural-700
+  derivation (the census's b = N/2 midpoint is the self-complementary
+  class). Window 2 upgraded from pure audit to proved surface closure.
