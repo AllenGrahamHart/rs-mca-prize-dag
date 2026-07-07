@@ -273,3 +273,37 @@ spillover = 6 extra triples aligning at a designated slope. Absorption
 says the dependence forces the fresh pencil to over-align. [Both proved /
 elementary; the triple-slope map ζ(τ) is the right coordinate system for
 the exchange argument.]
+
+## P3c (2026-07-07): ABSORPTION AS STATED IS FALSE — self-refutation, banked
+
+The volume harvest on the TRUE minimal stratum (not the denser random
+designs of the earlier sweep) found the dependence locus at codim 1
+(density ~ q^-1 at q = 97..769) and 127 NOT-absorbed on-locus points.
+One verified END-TO-END with independent code: **q = 97, supports
+{22,26,76,60},{22,60,63,92},{22,63,51,19},{26,76,92,19},{26,60,51,19},
+{76,63,92,51}, slopes {50,48,3,89,68,6}, rank 11/12, explicit full-domain
+(u,v)** with all six supports EXACT agreement sets, all Pi(v) != 0,
+pairwise cores <= 2, distinct slopes (certificate:
+f5_absorption_counterexample.json). Dependent live families EXIST.
+- Why earlier evidence missed it: the P3 Part-B sweep used denser random
+  designs (dimension-crowded, spillover-forced); Pro's greedy families
+  were not covering-rigid; the single P2 minimal hit at q=47 landed on a
+  deeper forced sub-locus. The minimal stratum's codim-1 locus is where
+  the lemma dies. Classification lesson: the earlier "mode-(b) universal"
+  claim was a STRATUM artifact.
+- THE FLOOR IS UNAFFECTED: a deficit-1 six-support cluster is size 6,
+  not 16n^3. What died is the candidate proof lemma.
+
+## RE-AIM: L3'' (the rank lower bound — all the theorem needs)
+
+The theorem does not need independence. It needs: **rank >= sigma*N / x
+for ANY x up to ~n^2** (then N <= 2n*x/sigma <= 16n^3 with room). The
+new target is a nullity upper bound: how many independent syzygies can a
+live N-support family carry? Each syzygy is confined by L3a (proved) to
+a rigid >= 6-support subconfiguration sitting on a codim-1 embedding
+condition. Disjoint clusters give nullity <= N/6 (fine); the open
+question is STACKING: can overlapping clusters pile nullity to
+sigma*N - o(N)? Next experiment: engineered stacking of dependent
+clusters sharing supports; measure max nullity vs N. Next lemma
+candidate: nullity <= N/m_min via the per-point L3a collapse applied to
+the whole dependence SPACE.
