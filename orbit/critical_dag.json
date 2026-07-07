@@ -209,7 +209,7 @@
   {
    "id": "dli_dyadic_k_core",
    "label": "UNPROVED",
-   "title": "C1 DYADIC-K: near-peak counts <= K x iid (K <= 3.34) at balanced admissible rows"
+   "title": "C1' DYADIC-K (ledger form): near-peak mass <= K' * r * (1 + W_cl(row)), K' <= 4"
   },
   {
    "id": "dli_et_peak_mass_reduction",
@@ -219,7 +219,7 @@
   {
    "id": "dli_level_factorization",
    "label": "UNPROVED",
-   "title": "C2 LEVEL-FACTORIZATION: tower loss factorizes across levels up to 2^{o(t)}"
+   "title": "C2 LEVEL-FACTORIZATION (nested form): cross-level conditional correlation <= 22 bits"
   },
   {
    "id": "dli_odd_phase_budget_ledger_soundness",
