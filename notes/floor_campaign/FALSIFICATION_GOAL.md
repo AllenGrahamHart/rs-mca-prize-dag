@@ -269,3 +269,14 @@ artifact replayable by a stranger.
   scale-independent exponent. Falsifier fires on sustained super-poly
   growth of the top-band counts (the node's own dag falsifier, now scoped
   to the floor's official-like rows).
+- F4-A1 COMPLETE (f4a1_topband_ladder_modal.py, 7-rung prime ladder
+  109..6421, gates PASS at every rung): the top-band max exact realizable
+  count is EXACTLY 5005 at every scale — log-log slope +0.000 across all
+  six consecutive rung pairs; below-top max stays <= 1; zero Lemma-13
+  violations. **F4 SURVIVAL +1** (attack family: scale ladder). BONUS
+  CONSTRUCTIVE LEAD: 5005 = C(15, 6) — the top-band count is p-INDEPENDENT
+  and BINOMIAL, i.e. the top-band family is combinatorially parameterized
+  by the chart shape alone — exactly the "parameterized paid family" the
+  retraction note demanded; the route side can now try to identify and
+  prove the C(.,.) family directly (queued as a route note for the node,
+  not a floor obligation).
