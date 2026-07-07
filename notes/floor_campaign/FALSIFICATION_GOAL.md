@@ -419,3 +419,16 @@ artifact replayable by a stranger.
   surface: n=64 full-window needs a numpy signature rewrite (C(63,7)
   left tables) — follow-up, does not block the 3-family criterion.
   SIX OF SEVEN HARDENED.
+- F4-A2b COMPLETE + catch #6 (refining, not overturning): per-config
+  captures at three bands reveal the TWO-REGIME structure of the top
+  band — AT/BEYOND the top-defect boundary realizability SATURATES
+  (realized = the full binomial window C(core, 6), p-INDEPENDENTLY: this
+  is why the A1 ladder read a constant 5005 — it is a real, structurally
+  saturated count = the parameterized paid family, exactly chargeable);
+  BELOW top, realized counts are window-law accidents DECAYING with p
+  (4 -> 0, 2 -> 0, 29 -> 8 at matched cells); Lemma-13 kernel ceiling:
+  ZERO violations at every row of every instrument. Deep-c at large p =
+  feasible per-c follow-up jobs (cost scales with p), listed as remaining
+  surface, non-blocking. **F4 SURVIVAL +3 -> F4 HARDENED** (p-ladder with
+  saturation semantics / c-growth bounded-degree binomial / Lemma-13
+  kernel-ceiling). **SEVEN OF SEVEN FLOORS HARDENED.**
