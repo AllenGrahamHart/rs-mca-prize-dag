@@ -162,3 +162,49 @@ i.e. wall 2 needs L3a-type per-coordinate arguments applied to the whole
 dependence SPACE, not just minimal circuits. Status: wall 2 = CANDIDATE
 route with this named gap; wall 1 (the L3 dichotomy) remains the primary
 proof target, now precisely stated with both collapse modes evidenced.
+
+## P3 (2026-07-07): the dichotomy — formal reductions proved, the engine identified
+
+**P3.1 (reduction to a per-configuration containment — PROVED).** Let R =
+the row space of the family's alignment functionals (on the union
+coordinates), V = R^⊥ the solution locus. Exactness fails identically iff
+some coincidence functional χ_{i,y} ∈ R (y a union point outside S_i;
+outside-union points are NEVER forced since R does not touch their
+coordinates — matches the q=47 data). Validity fails identically iff some
+support's full Π_{S_i}(v)-block of functionals ⊂ R. Conversely if NO
+χ ∈ R and no Π(v)-block ⊂ R, then since a linear space over F_q is not a
+union of fewer than q proper subspaces, a point of V avoiding all (≤
+m(U−A) + m ≪ q) bad hyperplanes exists — a valid exact realization.
+Hence: **L3-point ⟺ "every dependent live configuration has χ ∈ R or a
+Π(v)-block ⊂ R" — a per-configuration, linear-algebra-decidable
+statement.** (This is exactly what f5_p2_realize_modal.py decides.)
+
+**P3.2 (pencil identity — PROVED).** On V, for all i, j:
+Π_{S_j}(u + z_i v) = (z_i − z_j)·Π_{S_j}(v). (From linearity and
+Π_{S_j}(u + z_j v) = 0.) In divided-difference language (σ = 1): the
+alignment functional of S_j evaluated on any pencil word is (z − z_j)
+times its v-evaluation.
+
+**P3.3 (first-order no-go — PROVED).** The dependence relations
+Σλ_iΠ_{S_i} = 0 and Σλ_i z_iΠ_{S_i} = 0, paired with any pencil word via
+P3.2, yield identities that vanish automatically (the coefficients are
+again the two dependence relations applied to v). NO first-order pairing
+of the dependence with the pencil can produce the dichotomy: the
+obstruction is second-order — it lives in the EXACTNESS geometry (the
+containment of P3.1), not in formal syndrome algebra. This kills a
+family of tempting proof attempts and steers P3 to the containment.
+
+**P3.4 (the engine — Schwartz–Zippel class certificates).** The
+containment "χ ∈ R" is a determinantal (Zariski-closed) condition in the
+embedding coordinates of the design. Strategy: enumerate the ISOMORPHISM
+CLASSES of rigid designs (per L3a) at each size; for each class, test the
+containment at random embeddings over a ~61-bit prime. By
+Schwartz–Zippel, containment at a random embedding certifies the generic
+identity with error ≤ deg/p (quantifiable, repeatable, upgradeable to
+symbolic). Outcome per class: (i) generically NOT dependent (class
+irrelevant), or (ii) generically dependent AND containment holds →
+**L3 PROVED generically for the class**, with the non-generic embedding
+locus Zariski-closed of bounded degree (a bounded exceptional family —
+absorbable in L4's ledger); or (iii) containment FAILS at some embedding
+→ decide realizability exactly (the P2 procedure); a realizable case =
+honest L3 counterexample → pivot to nullity-structure bounds.
