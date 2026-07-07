@@ -468,3 +468,94 @@ clean under random AND engineered attack; the strip verified live as the
 absorbing mechanism twice. OPEN: the near-pencil budget lemma (pose +
 prove or refute), the low-core stratum instrument, and the W-multiplicity
 aggregation for the high-core stratum.
+
+## P6 (2026-07-07): the NEAR-PENCIL BUDGET posed; two sub-lemmas PROVED;
+## the Z-mining danger channel identified and priced by window arithmetic
+
+Setting: (u,v) = r-perturbed pencil pair: u = c0 + z0*w0 + du, v = w0 + dv
+with c0, w0 codewords (deg < k) and du, dv supported on R_u, R_v,
+R = R_u ∪ R_v, |R| <= 2r. For a candidate live triple (z, c, S) write
+c' = c − (c0 + (z0+z) w0) (a codeword).
+
+**NP-SUPPORT LEMMA (PROVED).** At any unperturbed x, the coincidence
+c(x) = u(x) + z v(x) reads c'(x) = 0. If c' = 0 the alignment is the
+pencil codeword itself, with agreement >= n − |R| — at the consumer
+window that exceeds A, so it is TANGENT-column mass (charged). If
+c' != 0 it has <= k−1 zeros, so |S ∩ unperturbed| <= k−1, i.e.
+
+    every post-tangent live support satisfies  |S ∩ R| >= A − k + 1 = t+1.
+
+**NP-VALIDITY LEMMA (PROVED).** If S ∩ R_v = ∅ then v|_S = w0|_S is a
+deg<k codeword restriction, so the top coefficients of v's interpolant
+on S vanish: the alignment is INVALID. Hence every valid live support
+contains at least one v-perturbed point. (This kills the v-unperturbed
+channel where the T-equations become z-free and every slope would go
+live simultaneously — validity is load-bearing exactly here.)
+
+**The Z-mining channel (the real attack surface).** Fix T ⊆ R with
+|T| = s >= t+1 and a zero-set Z ⊆ unperturbed with |Z| = A − s; then
+c' = ell_Z * g with deg g <= s − t − 1, and the T-coincidences read
+
+    ell_Z(x) g(x) = du(x) + z dv(x),   x in T
+
+— s equations, (s − t) + 1 unknowns (g, z): overdetermined by t − 1.
+At s = t+1 (g = const): z is pinned by one Möbius relation per point
+pair and must satisfy t − 1 further checks, each ~1/q: a random Z
+solves with probability ~ q^-(t-1). The adversary mines Z-space:
+
+    E[#live (z, Z) hits per T]  ~  C(n − |R|, A − t − 1) * q^-(t-1),
+
+the SAME mean arithmetic as everything in the lane. Slope count also
+caps at q − 1.
+
+**NPB (the posed conjecture, window form).** At consumer-window rows
+(the six candidates: C(n,A) q^{1-t} astronomically << 1), for every pair
+within joint distance 2r of a pencil pair:
+
+    N_post(u,v) <= C(2r, t+1)  +  o(1)-mining remainder,
+
+i.e. the only live slopes are the finitely many the adversary can
+hard-wire through T-subsets of the perturbed set; the Z-mining channel
+is dead by the window arithmetic (its density q^-(t-1) times a binomial
+that the window caps). Falsifier: a construction at a sub-mean row with
+N_post > C(2r, t+1) sustained across scales.
+
+**P6-E3 (next): calibrate the mining-density model** — enumerate the
+FULL Z-space at a boundary row (n=24, q=73, t=3, r=4: predict ~31 hits
+over <= 72 slopes) and a q-ladder control (q = 193, 577, 1153: predicted
+hits 4.5 / 0.5 / 0.13 — the q^-(t-1) law measured directly); verify
+every found support against the two lemmas end-to-end.
+
+## P6-E3 (2026-07-07, run): the mining-density model CALIBRATED — the
+## q^-(t-1) law measured directly
+
+Full Z-space enumeration (167,960 sets/trial, 5 trials/row, exact
+arithmetic, every hit verified end-to-end incl. both NP lemmas):
+
+    (n,q)      predicted C(20,11)/q^2   measured hits        slopes
+    (24,73)    31.5                     27,25,29,33,37       23-29
+    (24,193)   4.51                     2,4,5,4,7            2-7
+    (24,577)   0.50                     0,0,0,0,2            0-2
+    (24,1153)  0.13                     0,0,0,1,0            0-1
+
+FINDINGS:
+1. The Z-mining channel obeys the mean arithmetic EXACTLY (q^-(t-1)
+   density over the Z-binomial, 16x q-ladder) — at the six candidates
+   this is astronomically << 1: the channel is dead at consumer windows.
+2. Zero lemma violations: every found support had >= t+1 perturbed
+   points and >= 1 v-perturbed point; every validity check behaved.
+3. Everything far below the NPB budget C(2r,t+1) = 70 even at the
+   mean-scale row.
+4. Uniform-overdetermination observation (banked for the proof): at
+   every stratum s = |S∩R| >= t+1, the T-system has s equations and
+   s-t+1 unknowns — overdetermination t-1 INDEPENDENT of s. So the
+   full mining mass is sum_s C(2r,s) C(n-2r, A-s) q^-(t-1) ~
+   C(n,A) q^-(t-1) x (small): ONE window condition kills all strata
+   simultaneously. NPB window form now rests on: NP-SUPPORT +
+   NP-VALIDITY (proved) + this counting shape (to be made a lemma).
+
+F5-OS LEDGER AFTER P6: sunflower stratum PROVED <= (n-k)/t; near-pencil
+stratum: NPB posed + calibrated (proof needs the sub-mean counting lemma
+for achievable ell_Z-tuples); REMAINING: the far-from-pencil generic
+stratum (the F2-shaped worst-pair anti-concentration heart) + the
+W-multiplicity aggregation + low-core instrument.
