@@ -68,3 +68,40 @@ Target: h = 3 primitive residue <= C n^2 (or any poly below n^3) at
 q >= n^2 — the h=2 proof template (shifted-subgroup intersections /
 energy), the derivative reformulation (pairs share A'), and the ladder
 say the truth is n^2-scale Poisson with no structured interior families.
+
+## 6. h=3 program session (2026-07-07 late; f3_h3_program_modal.py,
+##    f3_h3_linedecode_modal.py)
+
+DATA (15 rows, n = 96..256, q ~ c*n^2 for c = 1,2,4):
+- THE CONTROL PARAMETER IS 3 | q-1: at (128, 17921) (3 does not divide
+  q-1) only Poisson accidents (384, mean ~363, fibmax 2, unstructured);
+  at (128, 33409) (3 | q-1) T JUMPS to 1088 with rot=64 structured pairs
+  — interior families switch on with the cube root omega's rationality.
+- Interior families die with q regardless: (192): 1536 -> 1152 -> 0
+  across c = 1, 2, 4; (256, c >= 2): identically zero; fibmax = n/3
+  only at the (0,0) toral fiber, = 2 elsewhere.
+- Conic counts: max N_2(F) = O(1) (4-8) at 3-nondividing rows — conics
+  over subgroups are uniformly thin there (the per-F Weil loss is NOT
+  real in data); N_2 up to n at 3 | q-1 rows with 3 | n (the (0,0)
+  toral conic).
+- Global moment M machine-computed (FFT triple convolution, exact) at
+  q <= 66000; bookkeeping M = trivial(multiset perms: 36/9/1 classes)
+  + 72*T + repeat-entry residue; residues nonzero at some rows
+  (4608 at (128,2), 5760 at (160,1)) = degenerate-trade (double-root)
+  collisions — a term the M-form of the h=3 conjecture must carry.
+
+CATCH (hypothesis refuted, banked): the degenerate-conic AFFINE-LINE
+decode (Q = omega*P + s or self-stabilized) is FALSE — 0/1632, 0/1024,
+0/96 matches at all three 3 | q-1 rows. The interior families are NOT
+affine images. Leaked structure in the "other" class: exponent-AP /
+geometric-progression motifs ({0,6,12}; recurring gap-6 supports at
+(192, 37057)) — the next decode candidate is GP-anchored families
+(supports containing geometric triples r, rd, rd^2).
+
+STATE OF THE h=3 TARGET: primitive residue <= C n^2 at q >= n^2 holds in
+all data with margin; the M-moment form needs the repeat-entry term; the
+proof program's next steps: (1) decode the GP-anchored candidate, (2)
+classify the 3 | q-1 interior families as a paid column (the h=3
+analogue of quotient pullbacks), (3) then the Stepanov swing on the
+residual, with the 3-nondividing case (pure Poisson, conics thin) as
+the first target since no interior families exist there at all.
