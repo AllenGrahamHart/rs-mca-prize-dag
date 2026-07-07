@@ -236,3 +236,13 @@ artifact replayable by a stranger.
   cell deferred to F2-A1b (prefix-sharded joins). Next F2 families:
   engineered accident hunts inside sub-balance (norm/CRT selection — the
   dli round-5 transport) and the giant-block side via complementation.
+- F7-A1 RUN (f7a1_census_driver_modal.py — the canceled pre-registered E22
+  census reshaped to per-cell Modal jobs): gate PASSED; 118/135 cells
+  completed with ZERO unclassified hits (no third-class alarm anywhere in
+  the completed set); 17 heavy structured cells hit the 60s cap — flagged
+  for F7-A1b (prefix-sharded structured search), NOT silently dropped.
+  **F7 SURVIVAL +1, scoped** (attack family: the pre-registered census on
+  its completed cells; the alarm is meaningfully tested only on searched
+  cells — the 17 heavy cells are exactly where a residual alarm could
+  hide, so full credit awaits A1b). Combined standing evidence: this + the
+  two banked external censuses (77 + 219 cells, UNCLASSIFIED = 0).
