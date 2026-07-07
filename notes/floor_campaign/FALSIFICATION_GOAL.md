@@ -335,3 +335,10 @@ artifact replayable by a stranger.
   p-uniformity at large c; the exact C(f(c), 6) offset formula needs the
   per-cell rows — both queued as F4-A2b). The structural lead sharpens:
   the paid top-band family is a 6-dimensional binomial column in c.
+- F7-A2 RUN (f7a2_envelope_stress_modal.py, 4 cells x 9-point q-ladder
+  97..1153): the K_cell/q^sigma envelope HOLDS — sigma=1 counts track 1/q
+  (count*q ~ constant, drift <= 1.5x over a 12x ladder, under the 3x
+  alarm gate; counts 109 -> 14), sigma=2 cell IDENTICALLY ZERO at every
+  q >= 97 (the banked window-closure reproduced exactly), UNCLASSIFIED = 0
+  everywhere. **F7 SURVIVAL +2** (envelope-stress family). One more family
+  (engineered challenger stacking) hardens F7.
