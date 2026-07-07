@@ -113,3 +113,19 @@ or Papers A-D. Commit trailer "Co-Authored-By: Claude Opus 4.8
 sharded; local compute only for very small jobs; single process < 1.5 GB.
 Self-paced wakeups: prefer long sleeps (1200 s+) over polling. Every
 artifact replayable by a stranger.
+
+## ATTACK LOG (running)
+
+- 2026-07-07 F6 opened. v1 floor sign error caught against P6 primary docs
+  (see FLOOR_CAMPAIGN.md correction); v2 = BAND-DETERMINATION banked.
+  **F6-A1 design (next action):** scaled rate-1/2 band-analogue rows —
+  toy rows (n, k = n/2, q swept in a toy razor slice) with the quotient-
+  window reach and first-moment crossing computed by the SAME arithmetic
+  as the prize razor (verify_q_threshold_modal.py's log2C/charge/trigger
+  display, trigger rescaled to the toy budget); exact corridor counts at
+  the band-analogue radii (machinery: tools/verify_list_corridor_ledger.py
+  + verify_list_corridor_widths.py define the count object B; reuse their
+  row conventions EXACTLY — protocol step: check the count definition
+  against the primary tool before running). Falsifier fires on sustained
+  deviation from the first-moment determination, either direction, >= 3
+  scales. All jobs Modal-sharded < 60 s.
