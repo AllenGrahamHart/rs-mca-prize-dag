@@ -754,7 +754,7 @@
   {
    "id": "petal_growth",
    "label": "UNPROVED",
-   "title": "Full-petal growth bound / mixed-petal amplification"
+   "title": "FLOOR CONJECTURE (PETAL-ESCAPE-BUDGET): top-band full-petal contribution to #ImgFib_U fits n^B at official rows"
   },
   {
    "id": "q_recursion",
@@ -774,7 +774,7 @@
   {
    "id": "rate_half_band_closure",
    "label": "UNPROVED",
-   "title": "Close the rate-1/2 uncovered band (successor of the coverage-gap discovery)"
+   "title": "FLOOR CONJECTURE (BAND-SAFETY): every rate-1/2 band radius is safe at every admissible top-slice row"
   },
   {
    "id": "rules_freeze",
@@ -854,7 +854,7 @@
   {
    "id": "u1_x4_direct_column_budget",
    "label": "UNPROVED",
-   "title": "Weak U1-for-X4: fully stripped primitive column fits the direct n^3 budget"
+   "title": "FLOOR CONJECTURE: fully-stripped primitive residue <= n^3 at official corridor rows (already the floor)"
   },
   {
    "id": "u2_per_row_certifier",
@@ -864,7 +864,7 @@
   {
    "id": "u2c_giant_tnull_dichotomy",
    "label": "UNPROVED",
-   "title": "U2-C prime: giant-regime t-null dichotomy"
+   "title": "FLOOR CONJECTURE (EXTRAS-BUDGET): non-coset-union t-null extras <= n^3 = 2^123 at official prize-max rows"
   },
   {
    "id": "unsafe_at_crossing",
@@ -894,7 +894,7 @@
   {
    "id": "worst_word_challenger_pricing",
    "label": "UNPROVED",
-   "title": "Challenger-class pricing (the E15 successor hypothesis of worst_word_planted)"
+   "title": "FLOOR CONJECTURE (ROWWISE-ENVELOPE): non-planted low-slack contributions obey the certified K_cell/q^sigma envelope at official rows"
   },
   {
    "id": "worst_word_planted",
@@ -929,7 +929,7 @@
   {
    "id": "xr_smallcore_spread_count",
    "label": "UNPROVED",
-   "title": "FACE-4 LEG 2 (from E27): the small-core spread-family count"
+   "title": "FLOOR CONJECTURE: per-pair spread remainder inside R_post <= 16 n^3 at the official candidates"
   },
   {
    "id": "xr_syzygy_flat_transport",
