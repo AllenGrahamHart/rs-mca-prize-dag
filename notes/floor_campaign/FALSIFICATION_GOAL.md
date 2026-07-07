@@ -514,3 +514,29 @@ artifact replayable by a stranger.
   (iii) The pincer-at-cap route (the truly dangerous one): attempted, no
   refined constant obtained — honest non-result, surface remains open.
   **F6 survival +4** (Pro window family: replay + amortization closure).
+- FLOOR 3 (n^3-COLUMN), Pro reply: **GENUINE ATTACK + COVERAGE EXTENSION,
+  NO KILL.** Pro built its own calibrated anchored-PTE probe (u128 exact),
+  reproduced the tiny-field gate EXACTLY (63 = 3 toral + 60 non-toral at
+  p=17, matching our banked control; confinement at p >= 97 confirmed
+  independently), re-verified all our banked rows (boundary/extended/
+  smooth), and EXTENDED onto our open flank: complete exact n=64 sweeps
+  at the first four primes above n^2 (4289/4481/4673/4801, all verified
+  prime ≡ 1 mod 64) at h = 5, 6 — C(63,5) = 7,028,847 anchored targets
+  per row — ZERO non-toral hits. Certificate-strength no-alarm (post-strip
+  is a subset of pre-strip; pre-strip = 0). Honest remaining flank named
+  by both sides: n = 64, h >= 7 (C(63,6)/C(63,7) scale). **F3 survival
+  +4** (Pro anchored-PTE family, extending coverage).
+
+## PRO PHASE COMPLETE — ALL SEVEN WINDOWS, ZERO KILLS
+
+Final tally: genuine adversarial attacks at windows 1, 3, 5, 6 (own
+instruments, own rows; window 3 EXTENDED our coverage; window 5 attacked
+the sharpest named surface; window 6 closed the amortization route and
+caught an errata in our log); audit + verified proof-side certificate at
+windows 4 and 7; pure audit at window 2. Every no-kill self-classification
+checked out under our replay; every proof-lead recommendation converged
+with ours. Under the user's graduation criterion the seven floors have
+now survived: (a) 21 pre-registered internal attack families, (b) the
+independent Pro assault. GRADUATION to standing-conjecture status is the
+user's call, then the posting decision (candidate: PR to the upstream
+repo stating the conditional proof + the battle-hardened conjecture set).
