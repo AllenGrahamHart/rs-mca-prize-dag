@@ -170,3 +170,23 @@ artifact replayable by a stranger.
   (pair-correlation exact sums): variance >> mean^2 at band radii =
   non-concentration = the window-law floor threatened. Both Modal-sharded
   exact big-int; no enumeration needed.
+- F6-A2 RUN (f6a2_fullscale_sweep_modal.py, 6 razor rows, mpmath dps=40).
+  PRELIMINARY — NOT YET CLASSIFIED: at EVERY swept lq the per-row
+  single-scale reach >= the per-row first-moment crossing sigma*(lq)
+  (255.92: reach 8,592,241,264; 255.95: 8,591,245,312 vs crossing
+  8,591,234,254, margin ~11k radii at scale 2^17; 255.99/255.9999:
+  reach = 2^33 exactly vs crossings BELOW 2^33). The "band" appears ONLY
+  against the FIXED banked sigma* = 8,592,912,738 — suspected to be the
+  WORST-ROW constant (lq = 255.900) applied across the razor. HYPOTHESIS
+  (dual-use): the band is a bookkeeping artifact of a fixed sigma*; per-row
+  arithmetic (reach(lq) vs safe-boundary(lq)) closes the gap at every
+  row — F6 would CLOSE, not die. MANDATORY VERIFICATION BEFORE ANY CLAIM
+  (classify-before-declaring): (a) primary-doc provenance of 8,592,912,738
+  — which object, which lq (find the safe-side balance derivation); (b) is
+  the safe side provable above sigma*(lq) PER-ROW (the balance proof's lq
+  dependence); (c) family-lemma validity hypotheses at the hitting scales
+  (j = 17 is inside the verified sweep range e in [12,40) — good sign);
+  (d) reproduce the razor script's own threshold (it compared reach to the
+  FIXED sigma*, consistent with our numbers — no contradiction with banked
+  results). S2 two-scale stacks: zero candidate hits anywhere (the
+  composite channel is empty — mild F6 survival evidence on its own).
