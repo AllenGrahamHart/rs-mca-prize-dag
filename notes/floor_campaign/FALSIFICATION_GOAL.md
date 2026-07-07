@@ -401,3 +401,11 @@ artifact replayable by a stranger.
   stacked towers / dual-spectrum sweep). FOUR OF SEVEN HARDENED
   (F1, F2, F6, F7). Remaining: F5 third (strip-integrity), F4 (A2b +
   third), F3 (A1b + A2).
+- F5-A3 RUN (f5a3v3_strip_integrity_modal.py, line-geometric tangent-core
+  counting, 3 scales complete; q=389 rung timed out — noted): RANDOM-word
+  depth spectra collapse immediately (g(2) = 0 everywhere — decay faster
+  than the q^-2 model; no stall); ADVERSARIAL cascades are the planted
+  lines' binomial dressings C(m, 2+d) — the tangent ledger's own charged
+  objects (classified in-instrument, pre-registered scope). No leak.
+  **F5 SURVIVAL +3 -> F5 HARDENED** (slope-limited spread / engineered
+  dimension-cap / strip-integrity). FIVE OF SEVEN HARDENED.
