@@ -108,3 +108,44 @@ STATUS: L3a is a PROVED obstruction (first mined lemma of the program);
 the counterexample surface for L3 is now provably confined to
 triple-covering designs with pairwise cores ≤ k+t−2 and all valid
 alignments — that confinement is the program's first real progress.
+
+## P2 v2 + realization decision (2026-07-07) — the loop closes on L3's true form
+
+- CHECKER FIXED (one support per slope; shared-slope exception): the
+  natural/adversarial-word runs are clean.
+- ENGINEERED HUNT (f5_p2_v2_modal.py): ~387 rigid triple-cover designs x
+  8 embeddings x 3 scales = ~3000 dependent-configuration tests. ONE hit
+  passed the hunt's (incomplete) validity screen: q = 47, the MINIMAL
+  3-regular design (8 points, 6 supports, cores <= 2, distinct slopes),
+  condition rank 11/12 — a genuine linear-algebra syzygy.
+- EXACT REALIZATION DECISION (f5_p2_realize_modal.py): the hit is an
+  **ARTIFACT — exactness is FORCED to fail**: coincidence functionals
+  cf_i(y) − (u_y + z_i v_y) for union points y outside S_i are
+  IDENTICALLY ZERO on the solution space — every solution makes some
+  codeword agree beyond its design support, inflating the true agreement
+  sets and re-classifying the family OUT of the live class (into
+  tangent/big-core territory). The syzygy exists linearly but cannot
+  manifest as a spread-family object. L3 STANDS on this hit.
+
+## L3 REFINED (the mined dichotomy — now the precise proof target)
+
+**L3 (refined).** Any dependence among the alignment conditions of a live
+family forces, IDENTICALLY on its solution locus, at least one of:
+  (a) Π_S(v) = 0 for a participant (invalid alignment — Pro's observed
+      collapse mode), or
+  (b) an agreement-spillover coincidence (a participant's codeword
+      forced to agree outside its support — re-classifying the family
+      out of class (iii)).
+Evidence: every dependence ever produced (Pro's greedy adversary + our
+~3000 engineered rigid configs) died by (a) or (b); the q=47 minimal
+design died by (b) via identically-vanishing coincidence functionals.
+
+## L4 ROBUSTNESS (the theorem survives even a weakened L3)
+
+Independent of L3's final form: by L3a + the design-cost combinatorics,
+every independent syzygy consumes >= m_min participants (m_min = 6 at
+A = 4; general m_min(A) from C(m,2)(A−2) >= 3P >= ... — a finite
+combinatorial lemma). Hence rank >= sigma·N_f − N_f/m_min, so
+N_f <= 2n/(sigma − 1/m_min) = THETA(n) even if valid syzygies existed.
+The 16n^3 theorem is therefore TWO-WALLED: L3 (dichotomy) OR the design
+cost — either suffices for L4.
