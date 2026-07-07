@@ -463,3 +463,35 @@ artifact replayable by a stranger.
   replication with a replayable verifier. **F1 survival +4** (family:
   independent Pro concentration instrument). Pro's artifacts banked at
   critical/nodes/dli.../notes/pro_floor1/.
+- FLOOR 4 (PETAL), Pro reply: **NO KILL; audit + a REPLAYED proof-side
+  contribution.** No new enumeration attack, but Pro completed the budget
+  implication of the saturated-column model with an exact certificate:
+  C(n+6,6) <= n^6 at all four official maximal rows (n = 2^41..2^44;
+  effective exponent <= 5.7843; log2 bound 254.508 vs 264 at rho = 1/16)
+  — REPLAYED EXACTLY on our side. Also reasoned (prose, route material)
+  why deep-c, multi-petal amplification (the paid X^e G(X^M) normal form),
+  and adversarial-U cannot fire the falsifier. Credited as route material
+  completing the floor->budget implication; NOT a new attack family.
+- FLOOR 5 (16n^3-SPREAD), Pro reply: **GENUINE ATTACK on the named
+  sharpest surface (shared syzygies, incl. k >= 4), NO KILL.** Pro's
+  greedy rank-minimizing adversary at 5 toy cells (k = 4,5,6) found many
+  algebraic dependencies — but they collapse into Pi_S(v) = 0 INVALID
+  alignments (the direction word forced into local code kernels): max
+  live supports after screening 0-3. Matches our dimension-count and
+  strip-integrity findings from the independent direction. **F5 survival
+  +4** (Pro syzygy family). PROOF LEAD BANKED: the "live-syzygy lemma"
+  (any dependence among live alignments forces Pi_S(v) = 0 or a charged
+  structure) — converts the F5 evidence into a proof route.
+- FLOOR 7 (ROWWISE-ENVELOPE), Pro reply: **NO KILL; audit-grade** (no new
+  attack; accurate restatement of our three families) + a sharp
+  proof-side framing: the conditional row-envelope lemma (kill must force
+  a CODIMENSION DROP in a retained stratum or a NEW COMPONENT class;
+  census attacks the second, ladder/layout-sup the first) and the
+  recommended theorem artifact = a symbolic K_cell rank/Jacobian
+  certificate per official cell family. Converges with our named kernel.
+  Logged as concurrence + proof lead; not an attack family.
+- CONVERGENCE NOTE (for the posting decision): in every window so far,
+  Pro's independent proof-lead recommendations MATCH ours (F2: structural
+  700 + coprime-ideal formalization; F4: saturated-column lemma; F5:
+  live-syzygy lemma; F7: K_cell rank certificate) — independent judgment
+  convergence on both the floors' truth and the proof routes.
