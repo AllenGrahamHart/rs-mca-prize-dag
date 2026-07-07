@@ -59,6 +59,14 @@ structured mass + small extras, and is the mode. EVIDENCE MESHES:
   (their deployed crossings in the ultra-dense bulk, mean ~ q/k; our
   official t=2 windows deep sub-balance). The regime geometry must be
   mapped before claiming any implication.
+- RESOLVED 2026-07-07 (MB_VS_F1_LEDGER.md): the M_B seam audit ran.
+  WELD PROVED (their floor = our base tangent-column mean, identity
+  m'−K = d1−1); all eight printed floor values replayed; their
+  KoalaBear list pair a0 = 1116047 and its 22.011-bit margin reproduced
+  EXACTLY by our tangent mean vs F-row gate (exact integers); and their
+  beta-correction transported one real fix back to us: F2's window is
+  now generated-field-normalized (catch #11). Work items 1 and the a0
+  half of 2 below are discharged.
 
 ## Mapping table with honesty grades
 

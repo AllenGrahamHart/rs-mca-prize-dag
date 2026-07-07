@@ -553,3 +553,24 @@ repo stating the conditional proof + the battle-hardened conjecture set).
   family). ROUTE MATERIAL: E_b = E_{N-b} feeds the structural-700
   derivation (the census's b = N/2 midpoint is the self-complementary
   class). Window 2 upgraded from pure audit to proved surface closure.
+
+## POST-CAMPAIGN: catch #11 (2026-07-07, M_B seam audit — against ourselves)
+
+The correspondence audit (notes/correspondence/MB_VS_F1_LEDGER.md)
+transported upstream's PROVED subfield census floors (V13
+prop:capg-census-floor) against our seven floors' windows. F2
+EXTRAS-BUDGET's frozen regime marker `q^t >= 2^n` is mis-normalized at
+base-domain official extension rows: at the KoalaBear-shaped row the
+q-window ADMITS (t*log2q = 2,097,314 >= n = 2,097,152 at t = 11280)
+while the t-null value space is provably p^t (power sums confined to
+h^j*F_p) — above balance by 2^1,740,627, with a pigeonhole prefix fiber
+of 2^1,740,616 blocks vs coset unions <= 2^182 and budget n^3 = 2^63.
+KILL of the frozen wording's row quantifier; the floor STANDS at
+generated-field-window rows (|F_p(D)|^t >= 2^n — all hardening evidence
+was there). DAG statement patched; consumer rule recorded (x4 consumes
+F2 only at generated-field-window rows; base-domain extension rows
+route through f1/ext). Positive by-products of the same audit: the weld
+identity (their floors = our tangent means), full replay of their
+printed values, and the EXACT reproduction of their KoalaBear list
+adjacent pair a0 = 1116047 / margin 22.011 bits from our column
+arithmetic.

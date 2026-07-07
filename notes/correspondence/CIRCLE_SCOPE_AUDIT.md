@@ -47,6 +47,11 @@ the budget is large (B* = floor(2^186/2^128) = 2^58). Consequences:
   row. If yes: independent confirmation of both. If no: one side's
   ledger is mis-normalized (this is homework #1, base-field audit, now
   sharpened to a single concrete comparison).
+  DONE 2026-07-07 (MB_VS_F1_LEDGER.md): BOTH outcomes materialized —
+  the weld is confirmed (their floors = our base tangent means; exact
+  replay + the a0/margin cross-prediction), AND one mis-normalization
+  was exposed on OUR side: F2's sub-balance window read at ambient q
+  instead of the generated field (catch #11, dag statement patched).
 - bookkeeping: knife_edge_census / census_window_arithmetic speak of
   "admissible primes"; extend the window arithmetic to prime powers
   (mechanical; the Diophantine windows gain the subfield strata).
