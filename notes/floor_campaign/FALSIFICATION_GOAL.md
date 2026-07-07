@@ -129,3 +129,16 @@ artifact replayable by a stranger.
   against the primary tool before running). Falsifier fires on sustained
   deviation from the first-moment determination, either direction, >= 3
   scales. All jobs Modal-sharded < 60 s.
+- F6-A1 GROUNDING PINNED (cap_envelope verify_sweep.py, exact conventions):
+  floor family = quotient-remainder prefix configurations at scale c | k:
+  m = k/c + d fibers, agreement A0 = m*c, w = d-1 box charges, certified
+  list lower bound log2 L = log2 C(N, m) - (log2 box)*w, UNSAFE trigger
+  L > 2^(log2 q - log2 k) (i.e. C(N,m) > 2^(256d - e) at prize with the
+  conservative box=q charge). Rate-1/2 reach caps at d*c = 2^33; sigma* =
+  first-moment crossing. TOY F6-A1: same formulas with toy exponents at
+  toy rows (n = 2^m, k = n/2, D = order-n coset in F_q^x, q swept in a toy
+  razor); compute toy floor reach + toy first-moment crossing; EXACT list
+  counts at band-analogue agreements via the e22_core row/census machinery
+  (reuses the official row conventions); compare counts to first-moment
+  across >= 3 q-scales. Deviation either direction, sustained = falsifier
+  fires. Modal-sharded.
