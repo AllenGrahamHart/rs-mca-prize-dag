@@ -495,3 +495,22 @@ artifact replayable by a stranger.
   700 + coprime-ideal formalization; F4: saturated-column lemma; F5:
   live-syzygy lemma; F7: K_cell rank certificate) — independent judgment
   convergence on both the floors' truth and the proof routes.
+- FLOOR 6 (BAND-DETERMINATION), Pro reply: **GENUINE ENGAGEMENT, NO KILL,
+  + one closure lemma + one errata catch against US.**
+  (i) Arithmetic replay: Pro reproduced our razor reach table EXACTLY
+  (verified: reach matches at all four lq points). ERRATA (catch #7,
+  theirs against ours): our banked band-width line at lq = 255.95 read
+  1,678,484 — a column-mixing error (sigma* minus the RANDOM-word
+  crossing instead of minus the reach); the correct per-row width is
+  1,667,426 (all other banked widths correct). No conclusion changes;
+  the log line is corrected here.
+  (ii) AMORTIZATION SURFACE CLOSED as a pure-averaging attack: for an
+  unsafe-side certificate avg > T forces max > T (pooled witnesses
+  collapse to single-word witnesses); the log2 L pooling gain cancels
+  exactly under the /L normalization — net movement 0 bits/fiber, same
+  cancellation pattern as the dead AQB route. Elementary and SOUND. Any
+  residual route-1 attack now requires a genuine heavy-fiber /
+  anti-concentration theorem, not pooled arithmetic.
+  (iii) The pincer-at-cap route (the truly dangerous one): attempted, no
+  refined constant obtained — honest non-result, surface remains open.
+  **F6 survival +4** (Pro window family: replay + amortization closure).
