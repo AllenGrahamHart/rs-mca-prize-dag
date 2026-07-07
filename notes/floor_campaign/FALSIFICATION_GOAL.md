@@ -190,3 +190,27 @@ artifact replayable by a stranger.
   FIXED sigma*, consistent with our numbers — no contradiction with banked
   results). S2 two-scale stacks: zero candidate hits anywhere (the
   composite channel is empty — mild F6 survival evidence on its own).
+- F6-A2 CLASSIFIED (the mandatory verification killed the preliminary
+  hypothesis — protocol instance #3): sigma* = 8,592,912,738 is the GENERIC
+  PINCER safe-side bound on the WORST-WORD crossing (pro_brief_razor.md;
+  its route 3 already anticipated per-row refinement "may cross 2^33").
+  My swept sigma*(lq) was the RANDOM-WORD mean crossing — the wrong object
+  for the sandwich (worst-word >= reach >= random-word crossing; no
+  contradiction, no artifact, no close). RETAINED products of F6-A2:
+  (1) per-row band widths — the band is lq-GRADED: width ~0 at 255.900 ->
+  671,474 at 255.92 -> 1,678,484 at 255.95 -> 2,349,694 at 255.97 ->
+  2,978,146 at the cap (a refinement of the banked worst-case constant;
+  reach interpolates above 2^33 mid-slice, hits the 2^33 plateau only near
+  the cap); (2) S2 SURVIVAL EVIDENCE: nested two-scale composite stacks
+  score ZERO candidate hits at every razor row — the composite-family
+  attack channel on the band is empty (F6 survival +1, first absorbed
+  attack family: 'composite quotient stacks'); (3) v2 floor language
+  check: "first-moment model" in the F6 floor means the WORST-WORD
+  determination model (priced columns + FM), as campaign-standard — the
+  A2-style bound-vs-bound arithmetic cannot test it; the live attack
+  channels are route-1-style multi-word/averaged constructions (as
+  attacks) and the B2b-window transfer. NEXT: F6-A3 (averaged/multi-word
+  construction attack: can an L-word family amortize the box charge by the
+  needed 0.0005 bits/fiber? — the brief's own sharpest question, run as an
+  ATTACK with exact arithmetic) OR move to F2 per queue discipline after
+  banking F6 survival +1.
