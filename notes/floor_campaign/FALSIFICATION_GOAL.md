@@ -297,3 +297,14 @@ artifact replayable by a stranger.
   orders of magnitude of margin. ZERO alarms, adversarial pencil pairs
   included. **F5 SURVIVAL +1, scoped** (5/6 rungs; q=71 to A1b). ALL
   SEVEN FLOORS now carry survival credits.
+- F2-A2 RUN (f2a2_engineered_accidents_modal.py, 1440 engineered trials at
+  two cells): the dli round-5 norm-selection mechanism transported to
+  accident engineering — ZERO candidate sub-balance primes pass the
+  multi-condition gcd filter (per-r norms generically coprime; the E2
+  coprime-ideals obstruction blocks accident engineering identically).
+  POSITIVE CONTROL PASSES: the known p=257 window accident is fully
+  detected by the same machinery (all 3 norms divisible, gcd retains 257).
+  **F2 SURVIVAL +2** (second distinct family: engineered norm-selection,
+  positively controlled). F2 is at 2/3 toward hardening; third family
+  candidate: giant-block complementation attacks or CRT-composite
+  constructions.
