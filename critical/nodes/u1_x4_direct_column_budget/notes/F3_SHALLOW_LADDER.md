@@ -105,3 +105,62 @@ classify the 3 | q-1 interior families as a paid column (the h=3
 analogue of quotient pullbacks), (3) then the Stepanov swing on the
 residual, with the 3-nondividing case (pure Poisson, conics thin) as
 the first target since no interior families exist there at all.
+
+## 7. THE HYPERBOLA NORMAL FORM (2026-07-07, PROVED — the 3 | q-1
+##    mechanism and the decode coordinates)
+
+Let F = X^3 + aX^2 + bX + const and G_F(u,v) = (F(u)-F(v))/(u-v) =
+u^2 + uv + v^2 + a(u+v) + b (same-fiber pairs of F = zeros of G_F).
+Suppose omega (primitive cube root) is in F_q, i.e. 3 | q-1. Then
+u^2 + uv + v^2 = (u - omega v)(u - omega^2 v), and with the linear
+asymptote coordinates
+
+    X(u,v) = u - omega v + a*beta,   Y(u,v) = u - omega^2 v + a*alpha
+    (alpha, beta the explicit constants with u + v = alpha*(u - omega v)
+     + beta*(u - omega^2 v); alpha = (1+omega^2)/(omega^2-omega) etc.)
+
+one computes G_F = X*Y - Delta with Delta = a^2*alpha*beta - b. Hence:
+
+    same-fiber pairs of F  <=>  X(u,v) * Y(u,v) = Delta(F),
+
+a MULTIPLICATIVE equation in two linear forms. Consequences (all
+elementary given the identity):
+- 3 | q-1 SWITCH EXPLAINED: rational asymptotes make the conic a
+  hyperbola in torus-friendly coordinates; for q = 2 mod 3 the
+  asymptote directions are conjugate (no rational multiplicative
+  structure) and only Poisson accidents survive — exactly as measured.
+- The interior h=3 families are solution sets of X*Y = Delta with
+  u, v ranging over mu_n — SHIFTED-SUBGROUP PRODUCT EQUATIONS, the
+  precise object class of Vyugin--Shkredov-type theorems. Both the
+  classification path (paid column) and the Stepanov path factor
+  through this normal form.
+- The toral check: a = b = 0 (mu_3-cosets) gives X*Y = 0 degenerate
+  (the two lines u = omega v, u = omega^2 v) — consistent.
+
+Machine verification + invariant extraction: f3_h3_hyperbola_modal.py.
+
+## 8. Hyperbola form VERIFIED; interior families are RIGID ORBIT SHAPES
+##    (2026-07-07, f3_h3_hyperbola_modal.py after the alpha-sign catch)
+
+- XY = Delta machine-verified on ALL 2816 interior trades at the three
+  3 | q-1 rows (96/96, 1088/1088, 1632/1632) after fixing the alpha
+  sign (catch: alpha = +(1+omega^2)/(omega^2-omega); the wrong sign
+  "verified" 160 accidental cases — flagged by the identity failing at
+  scale, exactly what machine checks are for).
+- RIGIDITY DATUM: interior supports are QUANTIZED into a handful of
+  rigid gap-patterns per row, each a full dilation orbit ([15,24,39] x96
+  and [17,24,41] x96 pairing at n=96; six patterns x128 at n=128;
+  [6,90,96] x384, [6,6,12] x192 etc. at n=192). Interior count =
+  (#shapes(q)) * n with #shapes = O(1) measured, q-selected
+  (knife-edge-style activation).
+- Delta invariants: never in mu_n; multiplicative order generic — no
+  cheap degeneracy; the structure lives in the SHAPES, not in Delta.
+
+CLASSIFICATION CONJECTURE (posed, next cycle's pose-and-prove): the
+interior h=3 trades at 3 | q-1 rows form at most C(h) dilation orbits
+per row — because a trade pair (P, Q) up to dilation satisfies the
+hyperbola system for BOTH fibers (12 multiplicative conditions on a
+bounded parameter count), a torus intersection of bounded degree
+(Bezout-type finiteness). With it: T_3 <= C*n (interior) + Poisson
+(~n^2/12 at the q ~ n^2 boundary) <= C' n^2 at q >= n^2 — the h=3
+target — with the 3-nondividing case needing only the Poisson term.
