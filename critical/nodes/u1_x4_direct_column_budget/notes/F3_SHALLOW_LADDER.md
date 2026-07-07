@@ -164,3 +164,39 @@ bounded parameter count), a torus intersection of bounded degree
 (Bezout-type finiteness). With it: T_3 <= C*n (interior) + Poisson
 (~n^2/12 at the q ~ n^2 boundary) <= C' n^2 at q >= n^2 — the h=3
 target — with the 3-nondividing case needing only the Poisson term.
+
+## 9. THE DICHOTOMY CONFIRMED: interior h=3 families are NORM-GATE
+##    ACCIDENTS (2026-07-08, f3_h3_dichotomy_modal.py)
+
+(a) PERSISTENCE TEST (n = 96, seven primes q = 1 mod 96 in [n^2, 5n^2]
+    completed): interior shape sets are PAIRWISE DISJOINT across q —
+    [0,15,39 | 7,31,48] at 9601 only; [0,10,48 | 38,81,91] at 13249
+    only; [0,3,82 | 35,54,79] at 18433 only; EMPTY interiors at 26113,
+    36097, 42337, 46273. Each activated row carries exactly ONE orbit.
+    No char-0-persistent interior family exists in the data.
+
+(b) CERTIFICATE (machine-verified in Z[zeta_96] + F_p): for the
+    9601-shape, the obstruction elements E1 = sum zeta^{a_i} - sum
+    zeta^{b_j} and E2 (the e_2 difference) are NONZERO in char 0 (not a
+    Mann/Conway-Jones vanishing configuration) while BOTH vanish mod
+    p = 9601: activation <=> p | N(E1) and p | N(E2) — a NORM GATE.
+
+CLASSIFICATION (mechanism PROVED + verified; count bound honest):
+interior h=3 trades = rigid shapes sigma with char-0-nonzero
+obstructions (E1(sigma), E2(sigma)) activating exactly at primes
+dividing both norms. T_3(interior) = n * #activated(q), measured
+#activated <= 1 per row. The rigorous per-q bound on #activated is the
+PAIR-COPRIMALITY statement — generically (N(E1), N(E2)) share no prime
+= 1 mod n — which is EXACTLY the coprime-ideal lemma shape of F2-A2
+(the engineered-accident obstruction, empirically validated there with
+positive control). THE ACCIDENT-LEVEL CONVERGENCE: F2's engineered
+sub-balance accidents and F3's h=3 interior families are the same
+arithmetic phenomenon (norm-gate selection), now exhibited on both
+floors with certificates.
+
+STATE OF h=3 AFTER THIS CYCLE: at the 4/7 empty rows the target
+T_3 <= C n^2 holds OUTRIGHT (toral + tiny Poisson). In general:
+T_3 = C(n/3,2)[3|n] + n * #activated(q) + Poisson(mean ~ n^2/12 at the
+boundary, dying with q). ONE open lemma (pair-coprimality / norm-gate
+sparsity) stands between the data and the theorem — shared verbatim
+with F2's accident story.
