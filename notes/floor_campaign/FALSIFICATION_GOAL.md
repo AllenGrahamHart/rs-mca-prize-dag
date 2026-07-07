@@ -154,3 +154,19 @@ artifact replayable by a stranger.
   enumeration needed — attack the model's internal consistency at the
   razor rows directly). Measurement phase (exact lists) only at rows with
   genuine toy bands.
+- F6-A1 phase 1b: NO genuine toy band (reach < crossing) exists at n in
+  {16, 32, 64} for any q up to 3e5 under the faithful transport — the band
+  is exclusively a large-parameter phenomenon (prize razor sliver). The
+  toy-count route to the F6 falsifier is CLOSED; measurement-phase shards
+  not dispatched. PIVOT (pre-planned): full-scale exact-arithmetic attacks:
+  **F6-A2** — exhaustive parametric-family sweep AT razor rows (n = 2^41,
+  k = 2^40, log2 q in (255.900, 256)): every known family shape (quotient-
+  remainder at ALL 2-power scales incl. giant M > 2^33, dihedral, moment-
+  trade, staircase composites, TWO-SCALE stacks) priced by exact big-int
+  arithmetic against the trigger at band radii. DUAL-USE: a family beating
+  the trigger inside the band refutes the v2 floor's first-moment location
+  AND constructively covers part of the band (a death here is a discovery
+  either way). **F6-A3** — full-scale second moment of the band count
+  (pair-correlation exact sums): variance >> mean^2 at band radii =
+  non-concentration = the window-law floor threatened. Both Modal-sharded
+  exact big-int; no enumeration needed.
