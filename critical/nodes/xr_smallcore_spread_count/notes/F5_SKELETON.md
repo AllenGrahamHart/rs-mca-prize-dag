@@ -307,3 +307,44 @@ sigma*N - o(N)? Next experiment: engineered stacking of dependent
 clusters sharing supports; measure max nullity vs N. Next lemma
 candidate: nullity <= N/m_min via the per-point L3a collapse applied to
 the whole dependence SPACE.
+
+## P4 partial (2026-07-07): Pro's rank bound VERIFIED — toy-window theorem
+## COMPLETE; two scope catches; official-scale gap named
+
+**Pro's rank theorem (VERIFIED, absorbed).** For N supports of size A on
+<= n points with pairwise cores <= A−2: rank(R) >= sigma*N(A−1)/(A*C(n−1,
+A−2)). Proof: (1) point-degree bound deg(p) <= C(n−1,A−2)/(A−1) by
+double counting residual (A−2)-subsets (two residuals sharing one would
+make the originals share A−1 points); (2) greedy matching M >= N/(A*Delta);
+(3) disjoint supports contribute sigma rank each (interpolation
+isomorphism; u-projection; disjoint coordinates add). Uses ONLY the
+pairwise-core condition. Our verification: logic sound; q=97 certificate
+rank replayed (11); 300-family random stress at q=193: bound holds
+everywhere.
+
+**TOY-WINDOW THEOREM (COMPLETE).** Composing with rank <= 2(n−k) (P0
+containment): N <= 2(n−k)*x/sigma with x = (2/3)(n−1)(n−2) at A=4:
+**N = O(n^3) < 16n^3 for every live family in the k=2, t=2 scaled
+window.** The floor's statement is now a THEOREM at toy scale.
+
+**Catch #9 (Pro's q=11 example, verified: rank 7/8 with four 1-covered
+points): L3a's covering conclusion is FALSE for sigma >= 2** — my proof
+treated lambda_i as scalars (valid only at sigma = 1); for vector blocks,
+a point in one support imposes one scalar condition per moment row, not
+lambda_i = 0. L3a re-scoped: sigma = 1 ONLY. The m_min >= 6 syzygy-cost
+combinatorics dies with it (q=11: a 4-support dependence). Pro's rank
+bound replaces all of it, cleanly.
+
+**Catch #10 (scope): Pro's bound is VACUOUS at official parameters** —
+x_A(n) = A/(A−1)*C(n−1, A−2) explodes at A = k+t with k = rho*n
+(C(n−1, k) ~ 2^{nH(rho)}). The toy window is where set-combinatorics
+suffices. THE REMAINING CORE of the F5 program: the rank/count bound at
+OFFICIAL scale (A = k+t, k = Theta(n)), where the matching argument
+collapses (at rho = 1/2 only ~2 disjoint supports fit). The official
+bound must use the coding structure: per-slope exact-list sizes (the
+same-slope column is charged for exactly this reason), cross-slope
+aggregation, tangent-strip geometry — the set-combinatorial abstraction
+provably cannot reach 16n^3 there (a sunflower of N supports through a
+common k-core is core-legal but matching-free). NEXT PHASE: pose the
+official-scale statement precisely; check what the consumer needs at the
+six candidates; attack with the list machinery.
