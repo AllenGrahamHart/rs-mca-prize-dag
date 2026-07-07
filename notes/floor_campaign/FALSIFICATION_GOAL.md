@@ -214,3 +214,16 @@ artifact replayable by a stranger.
   needed 0.0005 bits/fiber? — the brief's own sharpest question, run as an
   ATTACK with exact arithmetic) OR move to F2 per queue discipline after
   banking F6 survival +1.
+- F2-A1 RUN, PARTIAL (f2a1_subbalance_sweep_modal.py): complete MITM
+  censuses (upgrade over the original 60s-capped partial scans) across
+  W = C(N,b)/p^t from 2^+5.6 down to 2^-14.5 at cells (32,2,6/8),
+  (64,3,8/10), (128,4,6): EXTRAS IDENTICALLY ZERO at every completed
+  (cell, p) — including the full N=64,t=3,b=8 sweep (t-null blocks all
+  coset-unions, 120-216 per prime). Strongly floor-consistent. NOT YET a
+  survival credit: (i) the calibration gate (banked transition p=257:
+  192 extras, 577: 64, 641+: 0 at N=64,t=3,b=8 — W ~ 2^8) was NOT
+  exercised (W-grid started at 2^6); (ii) two b=10 mid-W shards hit the
+  60s timeout (C(64,5) = 7.6M-half joins — needs prefix-sharding). FIX +
+  RERUN: add p in {257, 577, 641} as gate points; shard b=10 joins by
+  3-index prefix (~35 shards each). Then F2 survival +1 if gate PASSES
+  and zeros hold.
