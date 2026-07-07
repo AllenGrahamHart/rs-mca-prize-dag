@@ -68,15 +68,26 @@ queue (threat-ordered; re-derive if evidence shifts):
    pro_windows/ so the user can relay at will. Pro cannot be reached
    directly — the user relays.
 
-## Death protocol (campaign event — the whole point)
+## Death protocol (campaign event — the whole point; A KILL DOES NOT HALT THE CAMPAIGN)
 
 If a pre-registered falsifier FIRES (verified, replayed, classified):
-STOP the attack queue. Write the downstream-consequence analysis: which
-ambers/conditional chains above the dead floor are invalidated, what
-re-routes exist, what the consumer must now do differently. Update the
-dag honestly (the floor's statement records the death; consumers'
-conditional chains flagged). Report loudly in the session log and
-PushNotification if available. Only then resume the queue.
+pause the queue ONLY long enough to bank the death properly, then move to
+the next floor. Banking a death means: (1) replay and classify the
+counterexample against the real objects (a death claim gets the same
+verify-first treatment as everything else); (2) mark the floor KILLED in
+its dag statement with the witness and the exact fired standard (status
+handling: statement records the death; the node stays red — its
+obligation is now unsatisfiable-as-posed); (3) write the
+downstream-consequence analysis: which ambers/conditional chains above
+are invalidated, what re-route candidates exist, what the consumer must
+do differently; (4) flag the consumer(s)' conditional chains in their
+statements; (5) report loudly (session log + PushNotification if
+available) and queue the re-route decision as the FIRST morning
+discussion item. Do NOT redesign consumers or re-route the DAG
+autonomously — that is the user's strategic call. Then CONTINUE the
+attack queue: every floor gets stress-tested to hardening or destruction
+regardless of prior casualties. Multiple deaths compound the morning
+report; they do not stop the night's work.
 
 ## Hardening criterion and termination
 
