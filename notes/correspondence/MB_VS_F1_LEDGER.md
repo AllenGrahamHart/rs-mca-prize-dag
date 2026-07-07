@@ -163,10 +163,12 @@ DAG statement patched 2026-07-07 accordingly.
 
 ## 7. Sibling-floor scope check (same lens, one line each)
 
-- F1 B-WEAK: the q^(−t+H) normalization and W_cen live in the dli lane
-  whose windows are lane-internal; FLAG for the same beta-check
-  (follow-up question printed: is W_cen a point-count over F or over
-  the generated field at extension rows?). Not resolved here.
+- F1 B-WEAK: RESOLVED 2026-07-07 (catch #13, beta-round —
+  nodes/dli_prime_weighted_large_block_support/notes/f1_beta_check.md):
+  the flatness clause "genuinely independent F_q-conditions" is false at
+  base-domain extension rows by field confinement (Q_d ∈ F_p[x],
+  ζ^(2l−1) ∈ F_p(ζ), index ≤ 2); budget normalizer β-corrected to the
+  generated field; evidence ledger (all prime rows) untouched.
 - F3 n³-COLUMN / F5 16n³-SPREAD: post-strip remainder columns; the M_B
   population is tangent-column mass, stripped BEFORE these columns see
   the word. Not exposed.
@@ -178,10 +180,12 @@ DAG statement patched 2026-07-07 accordingly.
   extension rows the first moments must use the generated-field
   denominators for base-confined strata — same beta-rule, INHERITED
   from wherever the moment tables are computed; flag noted in-lane.
-- F7 ROWWISE-ENVELOPE: count law ~ K_cell/q^σ with all evidence at
-  prime q (97..1153); the envelope's official-convention quantifier
-  should carry the same generated-field reading. FLAG (statement-level,
-  no evidence contradiction).
+- F7 ROWWISE-ENVELOPE: RESOLVED 2026-07-07 (catch #12, beta-round,
+  CENSUS-VERIFIED — worst_word_challenger_pricing/notes/f7_beta_check.md):
+  base-valued worst words carry base-row challenger sets exactly
+  (interpolation identity, 24/24 layouts at q = 17²/13²; same K_cell,
+  denominators p^σ vs q^σ, ratio exactly q/p); count law β-corrected to
+  the generated field of the cell data.
 
 ## 8. Consequence for the correspondence PR
 

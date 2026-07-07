@@ -574,3 +574,30 @@ identity (their floors = our tangent means), full replay of their
 printed values, and the EXACT reproduction of their KoalaBear list
 adjacent pair a0 = 1116047 / margin 22.011 bits from our column
 arithmetic.
+
+## POST-CAMPAIGN: catches #12 + #13 (2026-07-07, beta-round — against ourselves)
+
+The catch-#11 lens applied to the two remaining "official rows" floors:
+
+- **CATCH #12 (F7 ROWWISE-ENVELOPE, CENSUS-VERIFIED):** at base-domain
+  extension rows a base-valued worst word's challenger set over F_q
+  equals the base-row set (interpolation forces base coefficients) —
+  count law K_cell/p^sigma, not K_cell/q^sigma. Modal census at
+  q = 17^2/13^2 (f7_beta_check_modal.py): same K_cell, two denominators,
+  ratio exactly q/p; 24/24 layouts all-base coefficients. The worst-word
+  quantifier makes it bite (an average form would dilute by (p/q)^n).
+  Fix: count law at the generated field |F_p(D, word)|^sigma.
+- **CATCH #13 (F1 B-WEAK, model-clause level):** pcf_evaluation_flatness's
+  "genuinely independent F_q-conditions" is false at base-domain
+  extension rows (Q_d in F_p[x], zeta^(2l-1) in F_p(zeta), index <= 2;
+  = F_p at the KoalaBear shape) — per-condition density 1/|F_p(zeta)|,
+  mis-pricing (q/p)^(L_j). No explicit super-budget B_j constructed
+  (b2b port not launched — proportionate to a wording fix); the F7
+  census verifies the same mechanism in the sibling lane.
+
+Both floors' entire evidence ledgers sat at prime/generating rows where
+the readings coincide — nothing banked is touched. With #11 (F2), the
+beta-round closes: ALL THREE floors whose statements quantify over
+ambient-field rows now carry the generated-field normalization, which is
+upstream's own beta = log2|B| lesson (V13) transported through the seam
+audit. F3/F4/F5/F6 dispositions unchanged (MB_VS_F1_LEDGER.md §7).
