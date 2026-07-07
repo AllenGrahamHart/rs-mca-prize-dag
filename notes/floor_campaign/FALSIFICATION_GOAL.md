@@ -449,3 +449,17 @@ artifact replayable by a stranger.
   coprime-ideal obstruction) independently matches our F2 proof leads —
   convergent judgment noted. FOLLOW-UP NUDGE PREPARED (below) to convert
   audit-mode into attack-mode.
+- FLOOR 1 (B-WEAK), Pro reply 1: **GENUINE ATTACK, NO KILL — fully
+  replayed.** Pro built its own exact instrument (concentration factor
+  K = count*q/(2^w C(N,w)) on the cyclotomic vanisher projection), swept
+  built-in cross-scale rows + a 16-row stress sweep, found ONE spike
+  (K = 16.0003 at N=64, w=5, q=15249281: 256 vanishers = 2 negacyclic
+  orbits) and SELF-CLASSIFIED it as an isolated accident. Our independent
+  replay: count 256 ✓, K ✓, both orbit reps vanish ✓, primality/order ✓;
+  our refinement: lambda = 0.125 orbits, P(>=2 orbits) = 0.0072/row —
+  one spike in ~25 rows is Poisson-ordinary. Honest scope note: the
+  instrument is a single-level primal projection at w = 5 (replicates
+  rather than extends our coverage) — but it is INDEPENDENT adversarial
+  replication with a replayable verifier. **F1 survival +4** (family:
+  independent Pro concentration instrument). Pro's artifacts banked at
+  critical/nodes/dli.../notes/pro_floor1/.
