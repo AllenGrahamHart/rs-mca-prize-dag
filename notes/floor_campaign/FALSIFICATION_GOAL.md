@@ -409,3 +409,13 @@ artifact replayable by a stranger.
   objects (classified in-instrument, pre-registered scope). No leak.
   **F5 SURVIVAL +3 -> F5 HARDENED** (slope-limited spread / engineered
   dimension-cap / strip-integrity). FIVE OF SEVEN HARDENED.
+- F3-A2 + CONFINEMENT RUN (f3a2_smooth_confine_modal.py, 14/14 complete,
+  gate exact): adversarially SMOOTH q (40961/61441/65537 incl. Fermat —
+  maximal subgroup richness) at full n=32 windows: ZERO nontoral trades;
+  exceptional-regime confinement at n=16: the p=17 exceptional structure
+  (60 trades, the positive control) does NOT persist at any p >= 97 —
+  zero at 7 rows. **F3 SURVIVAL +3 -> F3 HARDENED** (boundary sweep /
+  smooth-q engineering / exceptional confinement). Honest remaining
+  surface: n=64 full-window needs a numpy signature rewrite (C(63,7)
+  left tables) — follow-up, does not block the 3-family criterion.
+  SIX OF SEVEN HARDENED.
