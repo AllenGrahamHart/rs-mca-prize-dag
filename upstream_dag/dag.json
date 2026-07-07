@@ -35,7 +35,7 @@
    "key": "up_q_atom_finite",
    "title": "Q: row-sharp atom bound (THE binding red)",
    "status": "TARGET",
-   "statement": "R_Q^max = |B|^w max_z |P_Q(z)| / C(n,a+) <= 2^Delta_Q at each deployed adjacent row; Delta = 22.197/22.011/3.259/3.073 bits. Binding row M31 list: the largest primitive prefix-boundary fiber must be <= 8.42x its mean (less if any other cell spends budget). Proved only at head depths (w <= 22 KB, <= 10-11 M31) vs deployed depth w ~ 67,471. [GF def:q-row-atom + prop:q-exact-target; the moment-order barrier makes fixed-moment proofs numerically incapable here.]",
+   "statement": "R_Q^max = |B|^w max_z |P_Q(z)| / C(n,a+) <= 2^Delta_Q at each deployed adjacent row; Delta = 22.197/22.011/3.259/3.073 bits. Binding row M31 list: the largest primitive prefix-boundary fiber must be <= 8.42x its mean (less if any other cell spends budget). Proved only at head depths (w <= 22 KB, <= 10-11 M31) vs deployed depth w ~ 67,471. [GF def:q-row-atom + prop:q-exact-target; the moment-order barrier makes fixed-moment proofs numerically incapable here.] [EXTERNAL-FLEET 2026-07-07 (our instruments on their falsifier, prize/notes/correspondence/FLEET_ON_THEIR_FALSIFIERS.md): calibration replayed digit-exact (1.0012/1.21/2.67; 1.0022/1.21/4.10; Poisson max 11/mean 2.7); dense-bulk max/mean-1 extended three scales beyond their table \u2014 2.9e-6 (101,50), 6.1e-13 (577,96), <=1e-15 (1153,128): NO kill signal. ROUTE-DISCRIMINATING DATUM: at (41,20,10,2) raw mode-at-null FAILS by null-suppression \u2014 N(0)=66 = mean-4.2sigma vs max N(11,0)=133 = mean+2.2sigma (below the Poisson-expected max ~150); argmax fiber has 0 coset-union / 0 dilation-stable members; the sibling half-group row (101,50,25,2) has null = max. Favors the exchange-compression form over mode-at-null unless their rung ledger charges the (.,0)-line.]",
    "refs": [],
    "notes": ""
   },
@@ -71,7 +71,7 @@
    "key": "up_sp_from_q",
    "title": "SP downstream from Q",
    "status": "CONDITIONAL",
-   "statement": "Primitive shift-pair control HOLDS GIVEN Q as a max-fiber bound: 'the shift-pair ledger is downstream from Q' (the collapse that makes Q the near-single red). [GF theorem, SELF-AUDITED \u2014 our replay-before-build rule holds this amber pending independent replay.]",
+   "statement": "Primitive shift-pair control HOLDS GIVEN Q as a max-fiber bound: 'the shift-pair ledger is downstream from Q' (the collapse that makes Q the near-single red). [GF theorem, SELF-AUDITED \u2014 our replay-before-build rule holds this amber pending independent replay.] [EXTERNAL-FLEET 2026-07-07: top-stratum sp_2(3;D) counted exactly across p = 17..1153 \u2014 sp/model collapses 1.270 -> 0.955; depth-3: 1.87 -> 1.03 by p = 101; (-1)-dilation pullback contamination tiny (<= 64 of 704) at w=2, zero at w=3. No super-polynomial primitive shift-pair family at any reachable scale.]",
    "refs": [],
    "notes": ""
   },

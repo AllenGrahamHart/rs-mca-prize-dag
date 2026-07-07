@@ -109,6 +109,12 @@ machine-checkable, both structurally identical to attacks we already run
 (F2 engineered-accident hunts; F5 spread stacking). Running our fleet on
 THEIR objects (esp. Q's dense-bulk prediction at primitive scales, and
 SP's top stratum sp_w(w+1)) = arriving at the PR bearing evidence.
+DONE 2026-07-07 (FLEET_ON_THEIR_FALSIFIERS.md): calibration replayed
+digit-exact; NO kill on either falsifier (dense bulk pinned through
+(1153,128); sp/model -> 1); plus one route-discriminating datum they
+don't have — raw mode-at-null fails by NULL-SUPPRESSION at (41,20,10,2)
+(null = mean - 4.2 sigma, argmax unstructured), favoring their
+exchange-compression form.
 
 ## Pre-PR work list
 
