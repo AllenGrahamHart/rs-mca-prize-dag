@@ -325,3 +325,13 @@ artifact replayable by a stranger.
   the data); with it included the prediction over-covers at 9/10 rows,
   worst ratio 1.32 (single row, not sustained, << 2x). **F1 SURVIVAL +2**
   (engineered-stacking family). B-WEAK now has two absorbed families.
+- F4-A2 RUN (f4a2_c_sweep_modal.py, c extended 2..14 at 3 scales): the
+  top-band count grows in c as a BOUNDED-DEGREE BINOMIAL — 5005 = C(15,6)
+  at the A1 c-range stepping to 38760 = C(20,6) at c-max 14 (p=211,
+  complete sweep); degree-6 polynomial growth in the excess parameter is
+  exactly what a c-uniform n^B budget absorbs. **F4 SURVIVAL +2, scoped**
+  (adversarial-c family; caveats: p=809/3209 c-sweeps possibly
+  deadline-truncated — their flat 5005 not yet confirmed as true
+  p-uniformity at large c; the exact C(f(c), 6) offset formula needs the
+  per-cell rows — both queued as F4-A2b). The structural lead sharpens:
+  the paid top-band family is a 6-dimensional binomial column in c.
