@@ -4700,12 +4700,17 @@
   {
    "id": "shared_census_kernel",
    "status": "TARGET",
-   "statement": "THE SHARED CENSUS KERNEL (named 2026-07-07, correspondence campaign + F5 program P7): the anti-concentration census family at generated-field sub-balance windows (|B0|^t >= 2^n, beta-normalized per catches #11-13) \u2014 Q-CLASS: prefix/quotient max-fiber <= mean * poly(n); BC-CLASS: split-in-subspace / split-pencil counts <= max(1, mean, M_B floors) * poly(n); F2-CLASS: non-coset t-null extras <= n^3. This is the convergence object of both programs: upstream collapsed Q/BC/SP onto Q by proved reductions (SP-from-Q, BC->Q discharges); our red fan relates to it with graded honesty \u2014 F2 u2c: PROVED WELD (t-null blocks = null prefix fibers, Newton, w < p); F5 xr_smallcore: PROVED STRATUM REDUCTION (near-pencil remainder = split-in-subspace census, f5_near_pencil_reduction, machine-checked); F3 u1_x4: SHAPE-CANDIDATE (post-strip exact-list residue; P7 transport OPEN \u2014 the cheapest next flip); F1 dli: SHAPE-PLUS-EXTRA (the consumer's flatness clause is Q-shaped but B-WEAK's joint/tower aggregation has no kernel analogue). OFF-CRITICAL by design: floors amber only when a PROVED reduction lands (ev edge upgrades to req at theorem time); the count of critical reds is not reduced by aggregation. Evidence base: the entire floor campaign + fleet runs both directions (FLEET_ON_THEIR_FALSIFIERS.md; upstream's calibration replayed; mode-at-null datum). Falsifier: any kernel-class census violated at a generated-field sub-balance window (pre-registered standards of the constituent floors apply)."
+   "statement": "THE SHARED CENSUS KERNEL (named 2026-07-07, correspondence campaign + F5 program P7): the anti-concentration census family at generated-field sub-balance windows (|B0|^t >= 2^n, beta-normalized per catches #11-13) \u2014 Q-CLASS: prefix/quotient max-fiber <= mean * poly(n); BC-CLASS: split-in-subspace / split-pencil counts <= max(1, mean, M_B floors) * poly(n); F2-CLASS: non-coset t-null extras <= n^3. This is the convergence object of both programs: upstream collapsed Q/BC/SP onto Q by proved reductions (SP-from-Q, BC->Q discharges); our red fan relates to it with graded honesty \u2014 F2 u2c: PROVED WELD (t-null blocks = null prefix fibers, Newton, w < p); F5 xr_smallcore: PROVED STRATUM REDUCTION (near-pencil remainder = split-in-subspace census, f5_near_pencil_reduction, machine-checked); F3 u1_x4: PROVED WELD (trades = top shift-pair stratum sp_{h-1}(h), f3_shiftpair_weld, machine-checked; unconditional fiber cap n/h via moving-root = sunflower \u2014 the same incidence lemma proved independently by both programs; amber-by-transport BLOCKED: the needed premise is the collision-census form = F3 itself \u2014 the shallow h <= 8 collision census is the kernel's most attackable isolated instance); F1 dli: SHAPE-PLUS-EXTRA (the consumer's flatness clause is Q-shaped but B-WEAK's joint/tower aggregation has no kernel analogue). OFF-CRITICAL by design: floors amber only when a PROVED reduction lands (ev edge upgrades to req at theorem time); the count of critical reds is not reduced by aggregation. Evidence base: the entire floor campaign + fleet runs both directions (FLEET_ON_THEIR_FALSIFIERS.md; upstream's calibration replayed; mode-at-null datum). Falsifier: any kernel-class census violated at a generated-field sub-balance window (pre-registered standards of the constituent floors apply)."
   },
   {
    "id": "f5_npb_conditional_close",
    "status": "CONDITIONAL",
    "statement": "NPB CONDITIONAL CLOSE (2026-07-07, F5 program P7.3): GIVEN the shared kernel's BC-class census at the row (split-in-subspace counts <= max(1, mean) * poly(n) over the generated field \u2014 at the six candidates the sub-balance window holds by ~2% under the beta-corrected reading), every pair within joint distance 2r of a pencil pair has post-strip live-slope count N_post <= C(2r, t+1) + poly(n) * o(1): the Z-mining channel dies by window arithmetic (uniform overdetermination t-1 across strata), leaving the hard-wired T-channel. Discharges F5-OS's near-pencil stratum MODULO THE KERNEL \u2014 no new red: the premise is the existing shared frontier object. Requires f5_near_pencil_reduction (proved) + shared_census_kernel (open)."
+  },
+  {
+   "id": "f3_shiftpair_weld",
+   "status": "PROVED",
+   "statement": "F3 SHIFT-PAIR WELD (2026-07-07; nodes/u1_x4_direct_column_budget/notes/F3_IDENTIFICATION.md, machine check f3_identification_check_modal.py): F3's trade objects ARE the top shift-pair stratum \u2014 equal e_1..e_{h-1} for disjoint h-subsets says ell_P - ell_Q = nonzero constant, so trades = sp_{h-1}(h; mu_n)/2 with toral = the quotient-pullback class. Verified digit-exact at 5 rows incl. both historical controls (704 = 2x352, 252 = 2x126 with toral split 120+6), plus two retroactive cross-instrument matches (fleet sp DP vs F3 census, built independently). PLUS the unconditional fiber cap max_z N_{h-1}(z) <= floor(n/h) via the one-parameter pencil incidence argument (= upstream's PROVED thm:bc-moving-root = our f5_sunflower_pencil_lemma \u2014 the same lemma, proved independently by both programs). HONESTY CLAUSE: the conditional flip through thm:q-implies-sp is BLOCKED (max-fiber form lossy at m = h: needs max ~ 1); F3's needed premise is the collision-census form, which under this weld IS F3 restated \u2014 so this node upgrades F3's kernel grade to PROVED WELD (F2-grade) without ambering it."
   }
  ],
  "edges": [
@@ -9111,6 +9116,16 @@
   },
   {
    "from": "f5_near_pencil_reduction",
+   "to": "shared_census_kernel",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_shiftpair_weld",
+   "to": "u1_x4_direct_column_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_shiftpair_weld",
    "to": "shared_census_kernel",
    "kind": "ev"
   }
