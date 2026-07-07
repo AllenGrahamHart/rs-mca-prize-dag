@@ -149,3 +149,16 @@ combinatorial lemma). Hence rank >= sigma·N_f − N_f/m_min, so
 N_f <= 2n/(sigma − 1/m_min) = THETA(n) even if valid syzygies existed.
 The 16n^3 theorem is therefore TWO-WALLED: L3 (dichotomy) OR the design
 cost — either suffices for L4.
+
+## CORRECTION (same day, self-caught): the "two-walled" claim overstates wall 2
+
+The design-cost route ("every syzygy costs >= m_min participants ⟹
+rank >= sigma·N − N/m_min") is NOT a proof as sketched: matroid girth
+does not bound nullity in general (R generic vectors in a (c−1)-dim
+space have girth c and nullity R−c+1). The route survives only if the
+SPECIAL structure of the functionals (full-support a_S on S, pairwise
+cores <= k+t−2, the (a_S, z·a_S) slope form) fights nullity growth —
+i.e. wall 2 needs L3a-type per-coordinate arguments applied to the whole
+dependence SPACE, not just minimal circuits. Status: wall 2 = CANDIDATE
+route with this named gap; wall 1 (the L3 dichotomy) remains the primary
+proof target, now precisely stated with both collapse modes evidenced.
