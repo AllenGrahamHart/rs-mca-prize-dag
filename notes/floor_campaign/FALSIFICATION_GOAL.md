@@ -373,3 +373,13 @@ artifact replayable by a stranger.
   **F6 SURVIVAL +2** (the floor's determination-location claim verified
   in its entire accessible regime). Third family = F6-A3 amortization
   exploration (queued).
+- F2-A3b COMPLETE (f2a3b_b16_sharded_modal.py, 60 shard jobs, complete
+  b=16 censuses = 6e8 subsets per prime): below global balance p=40961 ->
+  640 extras (window population ✓, and further proof the per-b marker
+  misleads: per-b W < 1 there); EVERY globally-sub-balance prime
+  (65537..786433) -> extras = 0 EXACTLY with t-null blocks pinned at the
+  structural constant 700 (pure coset unions, q-independent) at all five
+  primes. The dichotomy holds at the WIDEST window.
+  **F2 SURVIVAL +3 -> F2 HARDENED** (families: calibrated window sweep /
+  engineered norm-selection / widest-window boundary census). FIRST
+  HARDENED FLOOR OF THE CAMPAIGN.
