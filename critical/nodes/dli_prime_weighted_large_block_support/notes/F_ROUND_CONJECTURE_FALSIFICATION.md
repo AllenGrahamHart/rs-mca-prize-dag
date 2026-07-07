@@ -74,3 +74,42 @@ section hypotheses kill at level 0 (d with d_{i+8} = d_i is in the m ≡ 2
   are flagged in the node statements. If the user prefers, the honest
   red-flip criterion is: C1′ failing its own first adversarial round, or
   the F2 nested correlation measuring > 22 bits.
+
+## F2b — the nested-tower measurement: C2 REFUTED AS POSED
+
+Exact conditional-vs-unconditional level-2 means at the eight b2b TEST-1
+rows (f2b_nested_correlation.py, machinery = the archived exact verifier):
+
+| t | q | E[sc|null] | E[sc|all] | ratio |
+|---|---|---|---|---|
+| 2 | 97 | 1.0268 | 1.0286 | 0.998 |
+| 2 | 193 | 0.5224 | 0.5172 | 1.010 |
+| 2 | 8353 | 0.0529 | 0.0125 | **4.25** |
+| 2 | 32801 | 0.0332 | 0.0040 | **8.40** |
+| 3 | 97/193 | — | — | 1.04 / 1.16 |
+| 4 | 97/193 | — | — | **2.82 / 3.57** |
+
+Geometric mean 2.14 > the 1.57/junction budget; the ratio GROWS with q.
+Per-profile-class decomposition (the decisive cut): the correlation is
+carried by (a) the k=0 COSET class — null states over-weight it, and it is
+exactly the component the packet prices exactly (the "255 coset" column of
+TEST 1); (b) rare spiky classes (6.6x at k=7/q=8353, 9.4x at k=5/t=4/q=97)
+— toy-scale window accidents; while (c) most noncoset classes are
+ANTI-correlated (conditional 0 vs positive unconditional). So BOTH the
+unconditional and the per-profile factorization forms are false; the
+honest successor C2'' must have the campaign's standard three-part shape:
+coset component routed through the packet's EXACT accounting + noncoset
+bulk at mean-field (measured anti-correlated = safe direction) + accident
+spikes priced by counting. C2'' is NOT YET POSED precisely — that is real
+open work on the packet's junction structure.
+
+## FINAL DISPOSITION (both frozen conditions refuted within one round)
+
+C1-as-frozen: REFUTED (F1). C2-as-frozen: REFUTED (F2b). The successors
+(C1' calibrated at 4 rows; C2'' identified but unposed) have survived zero
+adversarial rounds. Per honest-labels: **dli FLIPS BACK TARGET (red)**.
+The S7 amber lasted exactly one falsification round — which is the
+protocol working: the freeze documented exact falsifiers, the F-round
+executed them, both fired. What survives unconditionally: the S1 norm-sieve
+theorem, the moment-transfer lemma, the S2/S3 kill-lemmas, the F1 ledger
+calibration, and a much sharper map of what the true closure needs.
