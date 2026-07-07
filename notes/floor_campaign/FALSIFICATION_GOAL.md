@@ -350,3 +350,16 @@ artifact replayable by a stranger.
   budgets, zero alarms. **F5 SURVIVAL +2** + ROUTE LEAD: the
   dimension-count argument (engineered cap O(n/sigma)) is a proof
   candidate for the floor's structural margin.
+- F2-A3 RUN, PARTIAL (f2a3_midsize_modal.py; b=12 complete, b=16 jobs
+  need prefix sharding -> A3b): FIRST apparent sub-balance extras of the
+  campaign (32 = one orbit at p=21313, per-b log2W = -1.01) — CLASSIFIED
+  (catch #5): the regime marker must be GLOBAL balance (q^t >= 2^n, the
+  dichotomy's own hypothesis; here p >= 65536), and p=21313 is globally
+  ABOVE balance (the b=16 window is still open: C(32,16)/p^2 = 1.34 —
+  the b=12 extras are window-regime relatives/dressings). All globally
+  sub-balance primes in the sweep (p = 120193, 240641; plus every
+  F2-A1 point) show ZERO extras. The per-b window label in the sweep
+  output was the misleading instrument; the floor's own quantifier
+  (official rows: q^t > 2^n by ~2%) was never touched. F2's third-family
+  credit awaits the b=16 sharded completion (A3b) — the widest window is
+  where the last doubt lives.
