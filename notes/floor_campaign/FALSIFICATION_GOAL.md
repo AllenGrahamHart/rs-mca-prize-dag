@@ -258,3 +258,14 @@ artifact replayable by a stranger.
   F3-A1 (boundary slices sharded — mechanical), F6-A3 (averaged
   amortization — needs design), F2-A2 (engineered sub-balance accidents),
   F2-A1b + F7-A1b (mechanical sharded reruns), F1 experiment 2.
+- F4-A1 GROUNDED + DESIGNED: the 2026-07-06 stress run (16 configs, 76
+  rows) found exact realizable counts CONCENTRATED at/beyond the top-defect
+  band (max 5005 there vs 1 below-top). The floor needs the top-band
+  contribution <= n^B; the ATTACK is the SCALING question: rerun the
+  scan's exact-realizable-count cells at a ladder of >= 3 scales (Modal,
+  per-cell jobs; reuse petal_excess_local_scan.py's coset-chart cell
+  conventions EXACTLY — read its planned-config parameterization first),
+  extract max top-band counts per scale, and test polynomial fit with a
+  scale-independent exponent. Falsifier fires on sustained super-poly
+  growth of the top-band counts (the node's own dag falsifier, now scoped
+  to the floor's official-like rows).
