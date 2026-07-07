@@ -697,3 +697,29 @@ predictions as req children (rate-1/2 deployed-row exact-constant targets; our D
   implication chain proved. Board: 162/20/7 -> 162/21/8.
 - Full dossier: critical/nodes/dli.../S7_STRUCTURE_REPORT.md. Recommend
   DLI-CLOSE-7 to Pro: C1/C2 + the S1 theorem (old A1 ask now subsumed).
+
+## 2026-07-07 — F-ROUND (user-directed): both frozen dli conditions REFUTED; amber -> red
+- C1 (uniform dyadic-K <= 3.34): REFUTED by the natural cluster rows we
+  already had (K = 23.2/10.9/3.77 at j = 20/24/28 at the k=7 row) — the
+  K x iid normalization ignores that generator mass is absolute; the same
+  lethal quantifier pattern as round-7's M-bound (window-law #11, scored
+  against our own freeze). Successor C1' (Sum T <= K' r (1 + W_cl), ledger
+  to w=7): CALIBRATED — K' = 0.15/0.29/2.97 at all rows incl. the cluster
+  row (Modal enumeration).
+- C2 (level-factorization): shared-cell probe found the ANTIPODAL COLLAPSE
+  landmine (half-section of mu_n' squares onto FULL mu_n'/2: level-1
+  structural kernel 3^{N/2}, 40/40 primes) => shared-cell towers are
+  impossible and the S6 "levels share cells" correction was itself wrong;
+  the b2b packet is NESTED-CONDITIONAL (exact at 8 rows). The nested
+  measurement (f2b): conditional/unconditional level-2 mean ratios up to
+  8.4 (growing with q), geometric mean 2.14 vs 1.57/junction budget —
+  REFUTED AS POSED. Per-class cut: the correlation is the k=0 COSET
+  composition effect (exactly priced by the packet) + spiky window
+  accidents (6.6x, 9.4x at isolated classes); noncoset bulk is
+  ANTI-correlated. Successor C2'' (exact coset routing + mean-field
+  noncoset + counted accidents) identified but NOT yet precisely posed.
+- DISPOSITION: dli flipped back TARGET (both frozen conditions dead within
+  one falsification round — the S7 freeze documented exact falsifiers and
+  they fired; the protocol worked). Board 162/21/8 -> 162/20/7 (the two
+  successor nodes moved to the evidence lane). Survives unconditionally:
+  A1-PROD norm-sieve, moment transfer, dual kills, F1 calibration.
