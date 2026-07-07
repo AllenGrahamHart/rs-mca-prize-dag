@@ -348,3 +348,123 @@ provably cannot reach 16n^3 there (a sunflower of N supports through a
 common k-core is core-legal but matching-free). NEXT PHASE: pose the
 official-scale statement precisely; check what the consumer needs at the
 six candidates; attack with the list machinery.
+
+## P5 (2026-07-07, program resumed): the OFFICIAL-SCALE statement posed;
+## the SUNFLOWER PENCIL LEMMA (catch-#10's obstruction shape PRICED)
+
+**Consumer extraction (weakest sufficient form).** xr_clean_residual_any_gate
+consumes exactly: R_post(u,v;A) <= 16 n^3 per pair, post quotient/tangent
+strips, dihedral + extension inside, with sufficiency = exact integer
+arithmetic at the SIX CANDIDATES (the per-rate crossing evaluations). So:
+
+>  **F5-OS (the official-scale target):** at A = k+t, k = rho*n, for every
+>  received pair (u,v) after the quotient/tangent strips: the number of
+>  LIVE SLOPES (slopes z carrying an exact, valid, aperiodic alignment on
+>  a support of size A; one support per slope by L1) with pairwise cores
+>  <= A-2 is at most 16 n^3, in the exact form the six candidate
+>  evaluations consume.
+
+**Reformulation (proved, definitional):** live families are counted by
+SLOPES. For a fixed pair (u,v), a candidate codeword c and a point x with
+v(x) != 0 determine the unique coincidence slope zeta_c(x) =
+(c(x) - u(x))/v(x); a support S is live at z with codeword c iff
+zeta_c(x) = z for ALL x in S (v-vanishing points carry z-independent
+coincidence and are charged separately). So each (c, S) pair carries AT
+MOST ONE slope, and live slopes at c = values z whose zeta_c-fiber has
+size >= A.
+
+**SUNFLOWER PENCIL LEMMA (PROVED — the new obstruction).** Fix a k-set
+W. Codewords agreeing with u + z*v on W form the pencil c_z = P_W +
+z*Q_W (P_W, Q_W = the deg<k interpolants of u|_W, v|_W; linearity of
+interpolation). For x outside W:
+ (a) if v(x) != Q_W(x): exactly ONE slope zeta_W(x) = (P_W(x) - u(x)) /
+     (v(x) - Q_W(x)) makes c_z coincide at x;
+ (b) if v(x) = Q_W(x) and u(x) = P_W(x): EVERY slope coincides at x —
+     but then the codeword PAIR (P_W, Q_W) agrees with (u,v) at W ∪ {x};
+     >= t such points give pair-agreement >= k+t = a TANGENT event,
+     charged to the tangent strip;
+ (c) if v(x) = Q_W(x), u(x) != P_W(x): NO slope coincides.
+Hence POST-TANGENT-STRIP (< t degenerate points per W, say d): every
+live support containing W needs >= t - d >= 1 points from its own slope's
+zeta_W-class, classes are disjoint, so
+    #live slopes with a support containing W  <=  (n-k)/(t-d)  <=  n-k.
+COROLLARY: any live family whose supports share a common k-core has
+N <= n-k (LINEAR) — catch #10's "core-legal but matching-free" sunflower
+is priced by the pencil + the tangent strip, exactly the predicted shape
+(the set-combinatorial abstraction cannot see this; the coding structure
+kills it in three lines).
+
+**Stratification plan for F5-OS:**
+ (i)  HIGH-CORE stratum (some pair of supports shares >= k points, i.e.
+      cores in [k, A-2]): both slopes live through a common W — per-W
+      pencil counts apply; need the W-multiplicity aggregation.
+ (ii) LOW-CORE stratum (all pairwise cores <= k-1): at official scale
+      supports of size ~n/2 overlap in ~n/4 >> k is IMPOSSIBLE for
+      k = rho*n... (cores <= k-1 ~ n/2 - 1 is not restrictive there);
+      the instrument is the per-slope exact-list cap + the (c,S)->unique-z
+      accounting; open.
+ (iii) v-vanishing and pencil-degenerate escapes: charged to their strips
+      (validity, tangent) — the ledger already carries both columns.
+
+**P5-E1 (next, Modal):** exhaustive live-slope censuses at official-SHAPED
+toys (k = n/2, t = 2, A = n/2 + 2): the per-W pencil scan enumerates ALL
+live (z, S) completely (every size-A support contains a k-set); measure
+max/median live-slope counts N(u,v) post-strip vs n; random + engineered
+pairs; record core geometry of the found families. Falsifier shape: N
+growing super-polynomially (vs the toy-window O(n^3)) or engineered
+stacking beating the pencil-lemma strata.
+
+## P5-E1 (2026-07-07, run): mean-regime censuses + program catch #11 (row shape)
+
+Exhaustive live-slope censuses at (n, q) = (12,97), (16,97), (16,193),
+t = 2 (n = 24 job timed out; defer). FINDINGS:
+1. FIRST-MOMENT-PINNED: N_post medians 5 / 36 / 53 vs mean predictions
+   C(n,k+2)/q = 5.1 / 41.5 / 82.6 (slope-collapse explains the gap at
+   the last row). No super-mean stacking in 100 random pairs.
+2. ENGINEERED STACKING FAILED: pencil-perturbed pairs fired the tangent
+   strip (84 / 1287 tangent-W events) and landed BELOW random
+   (N_eng <= N_rand at every row). The strip absorbs the attack, as the
+   pencil lemma predicts.
+3. PROGRAM CATCH #11 (against my row design): t = 2 toys sit at the
+   MEAN-SCALE window. The official window has t = A - k ~ 67471 (the
+   crossing depth): first moment C(n,A) q^{1-t} is astronomically
+   negative, so F5-OS is a WORST-PAIR ANTI-CONCENTRATION claim in the
+   deep sub-mean regime (the F2-sub-balance shape). Consequences:
+   (a) the sunflower pencil lemma at official t is strong: the
+       common-k-core stratum has N <= (n-k)/t ~ 14.5 at the KB shape;
+   (b) the honest toy scales t: sub-mean windows C(n,k+t)/q^{t-1} << 1
+       (e.g. t = 4 at (16,97): mean ~ 0.002) — P5-E2 hunts whether ANY
+       pair (random or engineered) carries live slopes there at all.
+
+## P5-E2 (2026-07-07, run): SUB-MEAN windows — the anti-concentration hunt
+
+Same scanner, t scaled to reach sub-mean windows (f5_p5e2_submean_modal.py):
+
+    (n,q,t)     mean C(n,k+t)/q^(t-1)   random N_post   engineered N_post
+    (12,97,3)   0.023                   0 (max)         3 (max)
+    (16,97,3)   0.46                    1               4  (165 tangent-W stripped)
+    (16,97,4)   0.002                   0               1
+    (16,193,4)  0.0005                  0               1
+    ((20,193,5) timed out; defer — needs sharding)
+
+FINDINGS:
+1. Random pairs: ZERO live slopes in every deep sub-mean window — the
+   mean arithmetic is honest there.
+2. Engineered near-pencil pairs buy O(1) live slopes, DECREASING with
+   window depth (3-4 at t=3, 0-1 at t=4) — nowhere near n^3 = 1728-4096,
+   and the diagnostic maxcore = A-1 events among the greedy picks mean
+   the LEGAL (core-capped) family is smaller still.
+3. NEXT LEMMA CANDIDATE (mined from the engineered channel): NEAR-PENCIL
+   BUDGET — for an r-perturbed pencil pair, post-strip live slopes are
+   confined to k-sets W absorbing nearly all unperturbed points (else
+   the degenerate count d >= t fires the tangent strip), a thin W-family;
+   conjectured bound f(r,t) independent of n. E2 data consistent with
+   small f. This + the sunflower pencil lemma + the (c,S)-unique-slope
+   accounting are the emerging skeleton of F5-OS's high-core side.
+
+PROGRAM STATE: F5-OS posed (consumer-exact); sunflower stratum PROVED
+<= (n-k)/t (~14.5 at the KB shape); mean + sub-mean toy windows both
+clean under random AND engineered attack; the strip verified live as the
+absorbing mechanism twice. OPEN: the near-pencil budget lemma (pose +
+prove or refute), the low-core stratum instrument, and the W-multiplicity
+aggregation for the high-core stratum.
