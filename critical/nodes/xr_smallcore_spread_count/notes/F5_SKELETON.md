@@ -559,3 +559,85 @@ stratum: NPB posed + calibrated (proof needs the sub-mean counting lemma
 for achievable ell_Z-tuples); REMAINING: the far-from-pencil generic
 stratum (the F2-shaped worst-pair anti-concentration heart) + the
 W-multiplicity aggregation + low-core instrument.
+
+## P7 (2026-07-07): the counting lemma — REDUCTION PROVED; the sharp form
+## identified AS the shared census kernel; conditional discharge wired
+
+Attempting the mean-sharp counting lemma resolved into three proved
+pieces and one honest barrier statement.
+
+**P7.1 REDUCTION LEMMA (PROVED).** Fix the r-perturbed pencil pair,
+T ⊆ R with |T| = s ≥ t+1, D' = D \ R, and the line
+L(z) = [δ_u|_T + z·δ_v|_T] ⊂ P(F^T). Mining hits at stratum s biject
+(up to the measure-zero degeneracies excluded in P6) with polynomials
+
+    c' ≠ 0, deg ≤ k−1, with ≥ A−s distinct roots in D',
+    and [c'|_T] ∈ L,
+
+via c' = c − (c0 + (z0+z)w0) = ell_Z · g, deg g ≤ s−t−1. At the base
+stratum s = t+1 (deg g = 0) this reads: hits ↔ COMPLETELY-SPLIT-over-D'
+polynomials of degree k−1 lying in the explicit codimension-(t−1)
+subspace V_T = eval_T^{-1}(span(δ_u|_T, δ_v|_T)). Higher strata are the
+partially-split members of the same subspace family. Proof: the c'
+computation of P6 in both directions; root-set ↔ monic-polynomial
+bijection; the slope is read off [c'|_T] ∈ L (injective in z since
+δ_v ≢ 0 on T and the δ-tuples are non-proportional). □
+
+CONSEQUENCE: **the NPB mining remainder IS a base-field split-in-subspace
+census** — the same object family as upstream's split-pencil census
+(prob:capg-active-BC: split members of low-dimensional polynomial
+pencils/subspaces) and the coefficient-side sibling of our F2 t-null
+extras (additive/root-side). The F5 near-pencil stratum does not carry a
+new hard object; it lands on the SHARED KERNEL both programs already
+name as their frontier.
+
+**P7.2 WHY THE SHARP FORM IS NOT PROVED HERE (barrier, stated honestly).**
+The mean-sharp count (≈ C(n', k−1)·q^-(t-1)) is a worst-instance
+anti-concentration statement for subset-product/coefficient maps — the
+Q/BC class. Character/moment routes hit upstream's PROVED moment-order
+floor (orders ~ w·beta/Delta needed); elementary exchange recursions
+(P7.4 below) lose the window factor entirely. A two-page proof here
+would breach the program-wide cancellation barrier; we do not claim it.
+
+**P7.3 CONDITIONAL DISCHARGE (PROVED reduction of NPB).** If the row
+carries a split-in-subspace census bound of the shared-kernel form —
+count ≤ max(1, mean)·poly(n) for codim-(t−1) subspaces over the
+generated field (upstream's BC input at the row, or the F2-class
+sub-balance instance at the six candidates, where the corrected window
+|B0|^t ≥ 2^n holds by ~2%) — then
+
+    N_post(near-pencil pair) ≤ C(2r, t+1) + poly(n) · (sub-mean o(1)),
+
+i.e. NPB holds with the budget the high-core stratum needs. So F5-OS's
+near-pencil stratum is DISCHARGED MODULO THE EXISTING KERNEL: no new
+red, no new object — an ev-level weld from F5 to the F2/Q/BC frontier.
+
+**P7.4 UNCONDITIONAL EXCHANGE BOUND (proved, weak, recorded).** For
+W ⊆ P_{≤m} of codim c, N(m, W) := #{Z ⊆ D', |Z| = m, ell_Z ∈ W}
+satisfies m·N(m,W) ≤ C(n',m−1) + n'·N(m−1, W₂) with W₂ = {h : Λ(h) =
+Λ(Xh) = 0 ∀Λ ⊥ W} (each non-degenerate Z₀ admits ≤ 1 completing root,
+by linearity of Λ((X−ζ)h) in ζ; degenerate Z₀ have ell ∈ W₂). Unrolled,
+this is C(n',m−1)·exponential-in-depth — poly-below-total only; it
+cannot see the window. Recorded as the honest measure of what
+elementary exchange buys; termination depth ≤ (m+1)/(t−1) under
+Vandermonde independence of {Λ∘X^a}.
+
+**P7-V (verification, next): the reduction bijection is machine-checked
+at (24,73): #split-in-V_T counted directly on the c'-side must equal
+the E3 hit counts.**
+
+## P7-V (2026-07-07, run): the REDUCTION BIJECTION MACHINE-CHECKED
+
+f5_p7v_reduction_check_modal.py recounts the E3 trials on the c'-side of
+P7.1 (split polynomials in V_T, rank test only — no slope solving, no
+gamma): counts match E3's hits DIGIT-FOR-DIGIT at both rows, all 10
+trials ((24,73): 27,25,29,33,37; (24,193): 2,4,5,4,7). The validity
+filter did not remove any in-V member in these trials (valid == in-V),
+consistent with E3. The P7.1 reduction is verified end-to-end.
+
+P7 CLOSES the counting-lemma question with: REDUCTION PROVED +
+MACHINE-CHECKED; sharp form = the shared BC/Q census kernel (barrier
+honestly cited); NPB discharged conditionally on that kernel with the
+C(2r,t+1) budget. F5-OS ledger: sunflower stratum PROVED; near-pencil
+stratum DISCHARGED-MODULO-KERNEL; remaining genuinely open: the
+far-from-pencil anti-concentration heart + W-aggregation + low-core.
