@@ -4700,7 +4700,7 @@
   {
    "id": "shared_census_kernel",
    "status": "TARGET",
-   "statement": "THE SHARED CENSUS KERNEL (named 2026-07-07, correspondence campaign + F5 program P7): the anti-concentration census family at generated-field sub-balance windows (|B0|^t >= 2^n, beta-normalized per catches #11-13) \u2014 Q-CLASS: prefix/quotient max-fiber <= mean * poly(n); BC-CLASS: split-in-subspace / split-pencil counts <= max(1, mean, M_B floors) * poly(n); F2-CLASS: non-coset t-null extras <= n^3. This is the convergence object of both programs: upstream collapsed Q/BC/SP onto Q by proved reductions (SP-from-Q, BC->Q discharges); our red fan relates to it with graded honesty \u2014 F2 u2c: PROVED WELD (t-null blocks = null prefix fibers, Newton, w < p); F5 xr_smallcore: PROVED STRATUM REDUCTION (near-pencil remainder = split-in-subspace census, f5_near_pencil_reduction, machine-checked); F3 u1_x4: PROVED WELD (trades = top shift-pair stratum sp_{h-1}(h), f3_shiftpair_weld, machine-checked; unconditional fiber cap n/h via moving-root = sunflower \u2014 the same incidence lemma proved independently by both programs; amber-by-transport BLOCKED: the needed premise is the collision-census form = F3 itself \u2014 the shallow h <= 8 collision census is the kernel's most attackable isolated instance); F1 dli: SHAPE-PLUS-EXTRA (the consumer's flatness clause is Q-shaped but B-WEAK's joint/tower aggregation has no kernel analogue). OFF-CRITICAL by design: floors amber only when a PROVED reduction lands (ev edge upgrades to req at theorem time); the count of critical reds is not reduced by aggregation. Evidence base: the entire floor campaign + fleet runs both directions (FLEET_ON_THEIR_FALSIFIERS.md; upstream's calibration replayed; mode-at-null datum). Falsifier: any kernel-class census violated at a generated-field sub-balance window (pre-registered standards of the constituent floors apply). | FIRST INSTANCE CLOSED (2026-07-07): the h=2 shallow collision census is PROVED <= Cn^{5/2} by Heath-Brown--Konyagin import (f3_h2_stratum_theorem) \u2014 Stepanov's method sees the shallow kernel instances; ladder data (42 rows to n=512) puts the truth at n^2 with structured families fully classified (toral cosets + quotient pullbacks, both paid)."
+   "statement": "THE SHARED CENSUS KERNEL (named 2026-07-07, correspondence campaign + F5 program P7): the anti-concentration census family at generated-field sub-balance windows (|B0|^t >= 2^n, beta-normalized per catches #11-13) \u2014 Q-CLASS: prefix/quotient max-fiber <= mean * poly(n); BC-CLASS: split-in-subspace / split-pencil counts <= max(1, mean, M_B floors) * poly(n); F2-CLASS: non-coset t-null extras <= n^3. This is the convergence object of both programs: upstream collapsed Q/BC/SP onto Q by proved reductions (SP-from-Q, BC->Q discharges); our red fan relates to it with graded honesty \u2014 F2 u2c: PROVED WELD (t-null blocks = null prefix fibers, Newton, w < p); F5 xr_smallcore: PROVED STRATUM REDUCTION (near-pencil remainder = split-in-subspace census, f5_near_pencil_reduction, machine-checked); F3 u1_x4: PROVED WELD (trades = top shift-pair stratum sp_{h-1}(h), f3_shiftpair_weld, machine-checked; unconditional fiber cap n/h via moving-root = sunflower \u2014 the same incidence lemma proved independently by both programs; amber-by-transport BLOCKED: the needed premise is the collision-census form = F3 itself \u2014 the shallow h <= 8 collision census is the kernel's most attackable isolated instance); F1 dli: SHAPE-PLUS-EXTRA (the consumer's flatness clause is Q-shaped but B-WEAK's joint/tower aggregation has no kernel analogue). OFF-CRITICAL by design: floors amber only when a PROVED reduction lands (ev edge upgrades to req at theorem time); the count of critical reds is not reduced by aggregation. Evidence base: the entire floor campaign + fleet runs both directions (FLEET_ON_THEIR_FALSIFIERS.md; upstream's calibration replayed; mode-at-null datum). Falsifier: any kernel-class census violated at a generated-field sub-balance window (pre-registered standards of the constituent floors apply). | FIRST INSTANCE CLOSED (2026-07-07): the h=2 shallow collision census is PROVED <= Cn^{5/2} by Heath-Brown--Konyagin import (f3_h2_stratum_theorem) \u2014 Stepanov's method sees the shallow kernel instances; ladder data (42 rows to n=512) puts the truth at n^2 with structured families fully classified (toral cosets + quotient pullbacks, both paid). | h=3 INTERIOR MECHANISM NOW THEOREM (2026-07-08, f3_h3_char0_classification, Codex + replay): char-0 families = toral only (unit-circle proof); all interior mass = norm-gate accidents with per-shape activation <= phi(n)log6/(2 log n) primes."
   },
   {
    "id": "f5_npb_conditional_close",
@@ -4716,6 +4716,11 @@
    "id": "f3_h2_stratum_theorem",
    "status": "PROVED",
    "statement": "F3 h=2 STRATUM THEOREM (2026-07-07, external import + replay; nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md section 4): the h = 2 shallow collision census is the additive-energy collision count of mu_n, and Heath-Brown--Konyagin (Stepanov's method; hypothesis n <= q^{2/3} implied by F3's own regime q >= n^2) gives T_2 <= C n^{5/2} < n^3 with an n^{1/2} margin absorbing any effective constant. Replayed numerically through n = 512 (truth ~ n^2: toral C(n/2,2) + boundary-window Poisson accidents ~ n^2/8, dying by q ~ n^3). FIRST kernel instance closed by an external theorem \u2014 the shallow censuses are Stepanov-visible. [EXTERNAL-IMPORT: HBK-class additive energy of multiplicative subgroups]"
+  },
+  {
+   "id": "f3_h3_char0_classification",
+   "status": "PROVED",
+   "statement": "F3 h=3 CHAR-0 CLASSIFICATION (2026-07-08, Codex overnight Terminal A, REPLAYED + VERIFIED; nodes/u1_x4_direct_column_budget/notes/F3_H3_CHAR0_CLASSIFICATION.md): any two DISTINCT 3-subsets of roots of unity with equal e1 and e2 are zero-sum mu_3 cosets (the toral column, C(n/3,2) pairs, existing iff 3 | n). Proof (three lines, no Conway-Jones): on the unit circle e2 = e3 * conj(e1); distinct sets sharing (e1, e2) differ in e3, so conj(e1) = 0; zero-sum unit triples have Re(u) = -1/2 after normalization = primitive cube roots. NORM-GATE COROLLARY: every non-toral shape has a nonzero obstruction E_i in Z[zeta_n] with |Norm| <= 6^phi(n), so each shape activates at <= floor(phi(n) log6 / (2 log n)) primes >= n^2 (per-shape bound; pair-coprimality per-row remains open). Machine-verified: exact cyclotomic enumeration through n = 96 (toral counts exact, zero exotics at all orders incl. 5, 7, 9 | n) + the three banked norm-gate shapes certified. The proof uses complex conjugation \u2014 no char-p analogue \u2014 EXPLAINING why interior families exist only as p-selected accidents. STRUCTURAL CONSEQUENCE: h=3 interior mass = norm-gate accidents with proved activation bounds; the F3-green path's h=3 gap narrows to pair-coprimality + the Poisson accident census."
   }
  ],
  "edges": [
@@ -9141,6 +9146,16 @@
   },
   {
    "from": "f3_h2_stratum_theorem",
+   "to": "shared_census_kernel",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_char0_classification",
+   "to": "u1_x4_direct_column_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_char0_classification",
    "to": "shared_census_kernel",
    "kind": "ev"
   }
