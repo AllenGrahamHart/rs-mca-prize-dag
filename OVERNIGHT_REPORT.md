@@ -11,7 +11,10 @@ interior h=3 trades are norm-gate accidents: for each fixed shape, activation at
 primes `p >= n^2` is bounded by the large-prime divisors of a nonzero
 cyclotomic obstruction norm, at most `floor(phi(n) log(6)/(2 log n))` primes.
 The exact replay verifies rows through `n=96` and confirms the three banked
-norm-gate shapes activate only modulo their selected primes.
+norm-gate shapes activate only modulo their selected primes.  Terminal B is
+partially banked: the h=2 trade/additive-energy reduction and Stepanov parameter
+arithmetic replay exactly, but the in-house HBK/Konyagin energy theorem is still
+open.
 
 ## Claims
 
@@ -72,6 +75,52 @@ norm-gate shapes activate only modulo their selected primes.
    `n = 3,4,5,6,7,8,9,10,12,15,18,21,24,30,36,48,96`; exact modular activation
    checks for the banked `n=96` shapes at `p=9601,13249,18433`.
 
+4. **PROVED / MACHINE-VERIFIED:** h=2 trade count reduces to additive energy,
+   with corrected midpoint accounting.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_STEPANOV_RECONSTRUCTION.md
+   ```
+
+   Script:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_energy_replay.py
+   ```
+
+   Replay:
+
+   ```bash
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_energy_replay.py
+   ```
+
+   Expected digest:
+
+   ```text
+   H2_ENERGY_REPLAY_PASS
+   ```
+
+   Content: for odd characteristic,
+   `E(H)=8T_2+4M_2+2n^2-n`, hence `T_2 <= E(H)/8`.  Exact rows through
+   `n=512` at `q~n^2` and `q~n^3` pass, with
+   `max E(H)/n^2.5 = 0.8906`.
+
+5. **OPEN:** in-house explicit HBK/Konyagin h=2 energy theorem.
+
+   Current banked frontier:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_STEPANOV_RECONSTRUCTION.md
+   ```
+
+   The auxiliary-polynomial parameter arithmetic is checked for the
+   single-shift ansatz through `n=512`, but two proof steps remain:
+   nonvanishing/rank for the constructed polynomial, and the dyadic
+   level-set/higher-convolution upgrade from single-shift intersection bounds
+   to `E(H) <= C n^2.5` with explicit `C`.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -79,6 +128,11 @@ norm-gate shapes activate only modulo their selected primes.
   repaired by caching residues of `X^e mod Phi_n` and grouping triples by exact
   `(e1,e2)` signature before pairing.  The final replay runs in about two
   seconds locally.
+
+- Terminal B initially used the false identity `E(H)=8T_2+2n^2-n`, omitting
+  diagonal/nondiagonal midpoint collisions.  The direct ordered-energy bucket
+  check failed at `(n,q)=(16,257)`, forcing the corrected identity
+  `E(H)=8T_2+4M_2+2n^2-n`.
 
 ## Terminal Status
 
@@ -93,3 +147,6 @@ Terminal C.  The new theorem says finite non-toral h=3 interiors cannot be
 persistent char-zero families; it does not yet bound simultaneous activated
 shape counts at one prime.
 
+Terminal B status: partial, not complete.  The h=2 stratum remains closed only
+by the existing external HBK/Konyagin import until the two missing explicit
+Stepanov/HBK steps above are proved.
