@@ -115,6 +115,37 @@ The only nonzero midpoint terms in this grid are:
 (n,q,M_2) = (16,257,16), (256,65537,1024).
 ```
 
+### 3. Explicit external constant located
+
+This does **not** complete Terminal B's in-house proof requirement, but it
+sharpens the existing external import to a concrete constant.
+
+Cochrane--Hart--Pinner--Spencer, *Waring's number for large subgroups of
+`Z_p^*`*, record that Heath-Brown--Konyagin proved the Stepanov energy estimate
+and that Cochrane--Pinner made the constant explicit:
+
+```text
+E(A) <= (16/3) |A|^(5/2)        for |A| < p^(2/3).
+```
+
+Source trail:
+
+```text
+https://www.math.ksu.edu/~cvs/cochrane_hart_pinner_spencer-waring_subgroup.pdf
+lines 641--654 in the web extraction; references [4] and [9].
+```
+
+If that explicit external theorem is accepted as an import, then the corrected
+h=2 reduction gives
+
+```text
+T_2 <= E(H)/8 <= (2/3)n^(5/2) < n^3
+```
+
+for every `n >= 1`.  The replay script prints this arithmetic gate.  Again,
+this is an explicit external close, not the requested self-contained Stepanov
+reconstruction.
+
 ## Stepanov reconstruction skeleton
 
 Normalize a nonzero shift to `1`.  For

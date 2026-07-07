@@ -66,6 +66,12 @@ polynomial is checked through `n=512` with positive slack.  The missing in-house
 steps are still the nonvanishing/rank lemma and the energy-level upgrade from
 single-shift intersection bounds to `E(H) <= C n^2.5`.
 
+External explicit-constant source located: Cochrane--Hart--Pinner--Spencer
+record the Cochrane--Pinner explicit constant
+`E(A) <= (16/3)|A|^2.5` for `|A| < p^(2/3)`; if accepted as an external import,
+this gives `T_2 <= (2/3)n^2.5 < n^3` for every `n >= 1`.  This sharpens the
+existing import but does not satisfy Terminal B's in-house proof requirement.
+
 Next step: either reconstruct the HBK/Konyagin dyadic level-set upgrade with
 explicit constants, or bank that exact step as the Terminal B blocker and move
 to Terminal C per the brief's >90-minute rule.

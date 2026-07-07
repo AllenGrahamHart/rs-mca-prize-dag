@@ -16,6 +16,7 @@ from __future__ import annotations
 import itertools
 import math
 from dataclasses import dataclass
+from fractions import Fraction
 
 
 def is_prime(m: int) -> bool:
@@ -223,6 +224,14 @@ def main() -> None:
     print(
         f"If an explicit C={c_hyp} energy theorem is proved, "
         f"(C/8)n^2.5 < n^3 for all n >= {n0}; smaller measured rows pass exactly."
+    )
+    c_cp = Fraction(16, 3)
+    cp_ratio = c_cp / 8
+    if cp_ratio >= 1:
+        raise AssertionError(cp_ratio)
+    print(
+        "If the explicit Cochrane-Pinner external constant C=16/3 is accepted, "
+        "(C/8)n^2.5 = (2/3)n^2.5 < n^3 for every n >= 1."
     )
 
     print("\nStepanov single-shift ansatz parameter audit:")

@@ -13,8 +13,9 @@ cyclotomic obstruction norm, at most `floor(phi(n) log(6)/(2 log n))` primes.
 The exact replay verifies rows through `n=96` and confirms the three banked
 norm-gate shapes activate only modulo their selected primes.  Terminal B is
 partially banked: the h=2 trade/additive-energy reduction and Stepanov parameter
-arithmetic replay exactly, but the in-house HBK/Konyagin energy theorem is still
-open.
+arithmetic replay exactly, and the external import has been sharpened to the
+explicit Cochrane--Pinner constant `16/3`, but the in-house HBK/Konyagin energy
+theorem is still open.
 
 ## Claims
 
@@ -105,7 +106,9 @@ open.
    Content: for odd characteristic,
    `E(H)=8T_2+4M_2+2n^2-n`, hence `T_2 <= E(H)/8`.  Exact rows through
    `n=512` at `q~n^2` and `q~n^3` pass, with
-   `max E(H)/n^2.5 = 0.8906`.
+   `max E(H)/n^2.5 = 0.8906`.  The script also verifies the arithmetic
+   consequence of the explicit external Cochrane--Pinner constant
+   `C=16/3`: if imported, `T_2 <= (2/3)n^2.5 < n^3` for all `n >= 1`.
 
 5. **OPEN:** in-house explicit HBK/Konyagin h=2 energy theorem.
 
@@ -120,6 +123,15 @@ open.
    nonvanishing/rank for the constructed polynomial, and the dyadic
    level-set/higher-convolution upgrade from single-shift intersection bounds
    to `E(H) <= C n^2.5` with explicit `C`.
+
+   Source trail for the explicit external constant:
+
+   ```text
+   https://www.math.ksu.edu/~cvs/cochrane_hart_pinner_spencer-waring_subgroup.pdf
+   ```
+
+   Cochrane--Hart--Pinner--Spencer record the Cochrane--Pinner explicit
+   theorem `E(A) <= (16/3)|A|^2.5` for `|A| < p^(2/3)`.
 
 ## Catches
 
@@ -148,5 +160,5 @@ persistent char-zero families; it does not yet bound simultaneous activated
 shape counts at one prime.
 
 Terminal B status: partial, not complete.  The h=2 stratum remains closed only
-by the existing external HBK/Konyagin import until the two missing explicit
-Stepanov/HBK steps above are proved.
+by external HBK/Konyagin/Cochrane--Pinner input until the two missing explicit
+Stepanov/HBK steps above are proved in-house.
