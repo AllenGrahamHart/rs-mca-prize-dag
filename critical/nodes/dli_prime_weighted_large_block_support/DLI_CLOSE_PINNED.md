@@ -562,3 +562,17 @@ FLIPPED: TARGET -> CONDITIONAL on exactly {C1, C2}, with the implication
 chain PROVED and verified (C1 => DLI-AGG => endpoint consumption under
 C2). Recommend DLI-CLOSE-7 to Pro: present C1/C2 + the S1 theorem; the
 old A1 ask is subsumed (proved), A2 re-posed as C1.
+
+# RE-POSE (2026-07-07, user decision): the node IS the floor conjecture B-WEAK
+
+Strategy set by the user after the F-round: rather than being stuck proving
+strengthenings that keep dying, the node now states the weakest thing the
+x4 interface consumes — q^{-t+H} W_cen <= 2^122 at the official rows, the
+JOINT object, no route structure — standing as a conjecture for exactly as
+long as it resists DIRECT falsification (pre-registered standard in
+REPOSE_B_WEAK.md; route failures do not count). Either B is true-and-hard
+(it survives, and downstream confidence in x4's conditional chain is the
+measured product) or B is false (a joint-level counterexample forces the
+x4 rethink that no route refutation could). Nine rounds of history stand
+as B's opening survival ledger. First program experiment: the
+junction-correlation scaling study on the joint object.
