@@ -393,3 +393,11 @@ artifact replayable by a stranger.
   **F7 SURVIVAL +3 -> F7 HARDENED** (census / envelope-stress / layout-sup).
   **F6 SURVIVAL +3 -> F6 HARDENED** (composite sweep / crossing-fidelity /
   anti-concentration). THREE OF SEVEN FLOORS HARDENED (F2, F6, F7).
+- F1-A3 RUN (f1a3_dual_spectrum_modal.py, 24 rows x full exact dyadic
+  spectra, 5 q-bands 2e4..4.8e5): median K(j) = 0.6-1.35 at every
+  well-sampled level in every band — the dual projection of B-WEAK carries
+  NO structural surplus in population; no alarm.
+  **F1 SURVIVAL +3 -> dli B-WEAK HARDENED** (joint scaling / engineered
+  stacked towers / dual-spectrum sweep). FOUR OF SEVEN HARDENED
+  (F1, F2, F6, F7). Remaining: F5 third (strip-integrity), F4 (A2b +
+  third), F3 (A1b + A2).
