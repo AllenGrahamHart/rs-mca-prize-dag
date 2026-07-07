@@ -280,3 +280,11 @@ artifact replayable by a stranger.
   retraction note demanded; the route side can now try to identify and
   prove the C(.,.) family directly (queued as a route note for the node,
   not a floor obligation).
+- F3-A1 RUN (f3a1_boundary_sweep_modal.py): instrument gate EXACT (60
+  nontoral at the positive control, matching the banked probe); ZERO
+  nontoral trades and ZERO n^3 alarms at all 11 attack rows — original
+  boundary rows now at FULL windows (the local run was sliced), extended
+  boundary primes (p = 3137, 12289 at n=32), and n=64 rows. Complete at
+  every n=32 row except h8 (partial: 50s anchor deadline); all four n=64
+  rows partial-and-clean. **F3 SURVIVAL +1, scoped** (complete n=32
+  boundary family; n=64 + h8 full coverage to F3-A1b anchor-sharding).
