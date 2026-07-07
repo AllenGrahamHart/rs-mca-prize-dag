@@ -432,3 +432,20 @@ artifact replayable by a stranger.
   surface, non-blocking. **F4 SURVIVAL +3 -> F4 HARDENED** (p-ladder with
   saturation semantics / c-growth bounded-degree binomial / Lemma-13
   kernel-ceiling). **SEVEN OF SEVEN FLOORS HARDENED.**
+
+## PRO PHASE (seven parallel windows, replies as relayed)
+
+- FLOOR 2 (EXTRAS-BUDGET), reply 1: **CONCURRENCE, NOT AN ATTACK.** Pro
+  read the fork-published campaign materials (the briefs' ledger pointers
+  made the full evidence base visible), restated our banked results
+  accurately (192/64/0 gate, 1440-trial coprime-ideal obstruction, b=16
+  censuses with the 700 constant, the p=21313 regime-marker trap — all
+  verified verbatim-consistent with the ledger), and concluded "no kill,
+  floor hardens" WITHOUT attempting any of the brief's untried surfaces
+  (CRT-composite q, t >= 5 depths, direct giant-block structure). Under
+  the graduation bookkeeping this is weak evidence (an adversary declining
+  to engage after reading the ledger), NOT an absorbed attack family. Its
+  proof-side recommendation (derive the 700 structurally; formalize the
+  coprime-ideal obstruction) independently matches our F2 proof leads —
+  convergent judgment noted. FOLLOW-UP NUDGE PREPARED (below) to convert
+  audit-mode into attack-mode.
