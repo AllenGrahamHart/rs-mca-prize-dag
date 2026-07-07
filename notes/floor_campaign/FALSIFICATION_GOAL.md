@@ -363,3 +363,13 @@ artifact replayable by a stranger.
   (official rows: q^t > 2^n by ~2%) was never touched. F2's third-family
   credit awaits the b=16 sharded completion (A3b) — the widest window is
   where the last doubt lives.
+- F6 second family (crossing-fidelity, from banked F7-A2 exact data +
+  first-moment arithmetic): 18/18 determination matches across the
+  9-point q-ladder at sigma = 1, 2 — measured counts land on the SAME
+  side of the unsafe threshold as the first-moment prediction at every
+  point, including THROUGH the crossing transition (sigma=1 flips
+  unsafe -> safe between q = 241 and 337 in both columns). Quantitative
+  tracking within ~2x everywhere (structural columns explain the residue).
+  **F6 SURVIVAL +2** (the floor's determination-location claim verified
+  in its entire accessible regime). Third family = F6-A3 amortization
+  exploration (queued).
