@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="660" viewBox="0 0 1060 660" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<style>
+  :root { --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+          --grid:#e1e0d9; --axis:#c3c2b7;
+          --s1:#2a78d6; --s2:#1baf7a; --s3:#eda100; }
+  @media (prefers-color-scheme: dark) {
+    :root { --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+            --grid:#2c2c2a; --axis:#383835;
+            --s1:#3987e5; --s2:#199e70; --s3:#c98500; }
+  }
+  text { fill: var(--ink2); font-size: 12px; }
+  .title { fill: var(--ink); font-size: 17px; font-weight: 650; }
+  .sub   { fill: var(--ink2); font-size: 12.5px; }
+  .tick  { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+  .axlab { fill: var(--muted); font-size: 12px; }
+  .lab   { font-size: 11.5px; }
+  .lab1  { fill: var(--ink); font-weight: 600; }
+  .lab2  { fill: var(--ink); font-weight: 600; }
+  .lab3  { fill: var(--ink); font-weight: 600; }
+  .leg   { fill: var(--ink2); font-size: 12px; }
+</style>
+<rect width="1060" height="660" fill="var(--surface)"/>
+<text x="100" y="34" class="title">Regime map — both programs on the balance coordinate</text>
+<text x="100" y="54" class="sub">&#916; = log&#8322;(#configurations) &#8722; log&#8322;(#values in the true value field), symlog</text>
+<text x="100" y="70" class="sub">exact numbers in REGIME_MAP.md</text>
+<circle cx="700" cy="26" r="5" fill="var(--s1)"/><text x="712" y="30" class="leg">upstream program</text>
+<circle cx="700" cy="43" r="5" fill="var(--s2)"/><text x="712" y="47" class="leg">our floors' evidence</text>
+<circle cx="700" cy="60" r="5" fill="var(--s3)"/><text x="712" y="64" class="leg">catch #11 (one row, two readings)</text>
+<line x1="159.7" y1="100" x2="159.7" y2="556" stroke="var(--grid)" stroke-width="1"/>
+<text x="159.7" y="574" text-anchor="middle" class="tick">&#8722;10&#185;&#8304;</text>
+<line x1="358.6" y1="100" x2="358.6" y2="556" stroke="var(--grid)" stroke-width="1"/>
+<text x="358.6" y="574" text-anchor="middle" class="tick">&#8722;10&#8310;</text>
+<line x1="507.8" y1="100" x2="507.8" y2="556" stroke="var(--grid)" stroke-width="1"/>
+<text x="507.8" y="574" text-anchor="middle" class="tick">&#8722;10&#179;</text>
+<line x1="557.3" y1="100" x2="557.3" y2="556" stroke="var(--grid)" stroke-width="1"/>
+<text x="557.3" y="574" text-anchor="middle" class="tick">&#8722;10&#178;</text>
+<line x1="657.0" y1="100" x2="657.0" y2="556" stroke="var(--axis)" stroke-width="2"/>
+<text x="657.0" y="92" text-anchor="middle" class="axlab">BALANCE</text>
+<text x="657.0" y="574" text-anchor="middle" class="tick">0</text>
+<line x1="756.6" y1="100" x2="756.6" y2="556" stroke="var(--grid)" stroke-width="1"/>
+<text x="756.6" y="574" text-anchor="middle" class="tick">+10&#178;</text>
+<line x1="806.2" y1="100" x2="806.2" y2="556" stroke="var(--grid)" stroke-width="1"/>
+<text x="806.2" y="574" text-anchor="middle" class="tick">+10&#179;</text>
+<line x1="955.3" y1="100" x2="955.3" y2="556" stroke="var(--grid)" stroke-width="1"/>
+<text x="955.3" y="574" text-anchor="middle" class="tick">+10&#8310;</text>
+<text x="557.5" y="598" text-anchor="middle" class="axlab">&#916; bits above balance &#8594; collisions forced (window populations live to the right)</text>
+<line x1="100" y1="533.8" x2="1015" y2="533.8" stroke="var(--grid)" stroke-width="1"/>
+<text x="92" y="537.8" text-anchor="end" class="tick">n = 32</text>
+<line x1="100" y1="511.5" x2="1015" y2="511.5" stroke="var(--grid)" stroke-width="1"/>
+<text x="92" y="515.5" text-anchor="end" class="tick">n = 128</text>
+<line x1="100" y1="355.8" x2="1015" y2="355.8" stroke="var(--grid)" stroke-width="1"/>
+<text x="92" y="359.8" text-anchor="end" class="tick">n = 2&#178;&#185;</text>
+<line x1="100" y1="133.4" x2="1015" y2="133.4" stroke="var(--grid)" stroke-width="1"/>
+<text x="92" y="137.4" text-anchor="end" class="tick">n = 2&#8308;&#185;</text>
+<text x="30" y="328.0" transform="rotate(-90 30 328.0)" text-anchor="middle" class="axlab">row size (log&#8322; n)</text>
+<rect x="597.8" y="504.8" width="99.9" height="35.6" fill="var(--s2)" opacity="0.16" rx="4"/>
+<text x="589.8" y="518.6" text-anchor="end" class="lab lab2">F2 sub-balance censuses (n = 32&#8211;128)</text>
+<text x="589.8" y="533.6" text-anchor="end" class="lab">extras = 0 throughout</text>
+<circle cx="546.9" cy="355.8" r="5.5" fill="var(--s3)"/>
+<text x="546.9" y="323.8" text-anchor="middle" class="lab lab3">KoalaBear row, q-scale reading</text>
+<text x="546.9" y="337.8" text-anchor="middle" class="lab">window &#8220;admits&#8221; (&#8722;162 bits)</text>
+<circle cx="748.1" cy="355.8" r="7.5" fill="var(--surface)"/>
+<circle cx="748.1" cy="355.8" r="5.5" fill="var(--s1)"/>
+<circle cx="742.7" cy="355.8" r="7.5" fill="var(--surface)"/>
+<circle cx="742.7" cy="355.8" r="5.5" fill="var(--s1)"/>
+<circle cx="734.9" cy="355.8" r="7.5" fill="var(--surface)"/>
+<circle cx="734.9" cy="355.8" r="5.5" fill="var(--s1)"/>
+<circle cx="723.6" cy="355.8" r="7.5" fill="var(--surface)"/>
+<circle cx="723.6" cy="355.8" r="5.5" fill="var(--s1)"/>
+<text x="736.1" y="381.8" text-anchor="middle" class="lab lab1">4 deployed adjacent pairs (a&#8320;&#8722;1 &#8594; a&#8320;)</text>
+<text x="736.1" y="395.8" text-anchor="middle" class="lab">&#916; = +21&#8230;+67 &#183; gates +24.0 / +57.9 &#183; margins exact</text>
+<circle cx="971.2" cy="355.8" r="5.5" fill="var(--s1)"/>
+<text x="969.2" y="323.8" text-anchor="end" class="lab lab1">proved head-depth theorems (w &#8804; 21 / 10)</text>
+<text x="969.2" y="337.8" text-anchor="end" class="lab">&#916; &#8776; +2.09M bits</text>
+<circle cx="967.3" cy="355.8" r="7.5" fill="var(--surface)"/>
+<circle cx="967.3" cy="355.8" r="5.5" fill="var(--s3)"/>
+<defs><marker id="arr" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="var(--s3)"/></marker></defs>
+<line x1="546.9" y1="417.8" x2="967.3" y2="417.8" stroke="var(--s3)" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+<line x1="546.9" y1="363.8" x2="546.9" y2="417.8" stroke="var(--s3)" stroke-width="1" stroke-dasharray="2 4"/>
+<line x1="967.3" y1="363.8" x2="967.3" y2="417.8" stroke="var(--s3)" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="757.1" y="435.8" text-anchor="middle" class="lab lab3">the &#946;-jump (catch #11): the same row read at the true p-scale lands at +1.74M bits</text>
+<text x="757.1" y="450.8" text-anchor="middle" class="lab">t-null values never leave the base field &#8212; the window must be read at the generated field</text>
+<circle cx="700.8" cy="533.8" r="5.5" fill="var(--s2)"/>
+<text x="710.8" y="537.8" class="lab lab2">p=97 giant-block witnesses (+6.6)</text>
+<circle cx="664.5" cy="533.8" r="7.5" fill="var(--surface)"/>
+<circle cx="664.5" cy="533.8" r="5.5" fill="var(--s2)"/>
+<text x="654.5" y="553.8" text-anchor="end" class="lab lab2">p=21313 window relatives (+0.4)</text>
+<circle cx="657.0" cy="522.6" r="7.5" fill="var(--surface)"/>
+<circle cx="657.0" cy="522.6" r="5.5" fill="var(--s2)"/>
+<text x="669.0" y="512.6" class="lab lab2">F6 determination flips (q 241&#8211;337)</text>
+<circle cx="127.7" cy="133.4" r="5.5" fill="var(--s2)"/>
+<text x="139.7" y="127.4" class="lab lab2">official prize-max F2 window (generating rows)</text>
+<text x="139.7" y="142.4" class="lab">sub-balance by 2% of n = 4.4&#183;10&#185;&#8304; bits of slack</text>
+</svg>
