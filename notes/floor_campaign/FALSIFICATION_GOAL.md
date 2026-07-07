@@ -288,3 +288,12 @@ artifact replayable by a stranger.
   every n=32 row except h8 (partial: 50s anchor deadline); all four n=64
   rows partial-and-clean. **F3 SURVIVAL +1, scoped** (complete n=32
   boundary family; n=64 + h8 full coverage to F3-A1b anchor-sharding).
+- F5-A1 RUN (f5a1_spread_sweep_modal.py): calibration gate = the node's own
+  rungs-2a/2b certificate, PASS (38 checks). Exact spread measurement at
+  5 completed rungs (k=2: q=17/31/47; k=3: q=17/31; the q=71 rung timed
+  out -> A1b): worst greedy pairwise-small-core distinct-slope family =
+  EXACTLY q at every cell (one aligned support per slope — the spread
+  structure is slope-limited), vs budgets 16n^3 = 6.5e4..1.6e6: four
+  orders of magnitude of margin. ZERO alarms, adversarial pencil pairs
+  included. **F5 SURVIVAL +1, scoped** (5/6 rungs; q=71 to A1b). ALL
+  SEVEN FLOORS now carry survival credits.
