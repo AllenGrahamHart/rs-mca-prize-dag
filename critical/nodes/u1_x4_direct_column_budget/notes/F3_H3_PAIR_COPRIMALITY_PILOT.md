@@ -71,3 +71,16 @@ Cross-prime activation check:
 Verdict: no repeated activation among the observed activated shapes in the
 prime ladder.  This supports the pair-coprimality heuristic at the observed
 shape level, but does not replace the full all-shapes `n=96` Modal census.
+
+The replay also computes the exact common obstruction norm factors for these
+observed shapes in `Q(zeta_96)`:
+
+```text
+[0, 15, 39 | 7, 31, 48]     gcd factors = 1153 * 9601
+[0, 10, 48 | 38, 81, 91]    gcd factors = 97 * 13249
+[0, 3, 82 | 35, 54, 79]     gcd factors = 18433
+```
+
+The extra factors `97` and `1153` are below the F3 threshold `n^2=9216` or are
+not relevant to the tested threshold activation.  Therefore each observed shape
+has exactly one activation prime in the regime `p = 1 mod 96`, `p >= 96^2`.

@@ -11,8 +11,11 @@ from __future__ import annotations
 
 import itertools
 from dataclasses import dataclass
+from math import gcd
 
 from f3_h3_char0_classification import (
+    X,
+    cyclotomic_residue,
     e1_terms,
     e2_terms,
     eval_mod_prime,
@@ -87,6 +90,33 @@ def activates(shape: Shape, q: int) -> bool:
     )
 
 
+def obstruction_poly(n: int, terms: list[tuple[int, int]]):
+    import sympy as sp
+
+    phi = sp.Poly(sp.cyclotomic_poly(n, X), X, domain=sp.ZZ)
+    coeffs = cyclotomic_residue(n, terms)
+    poly = sp.Poly(0, X, domain=sp.ZZ)
+    for i, coeff in enumerate(coeffs):
+        if coeff:
+            poly += sp.Poly(coeff * X**i, X, domain=sp.ZZ)
+    return phi, poly
+
+
+def obstruction_norm(n: int, terms: list[tuple[int, int]]) -> int:
+    import sympy as sp
+
+    phi, poly = obstruction_poly(n, terms)
+    return abs(int(sp.resultant(phi.as_expr(), poly.as_expr(), X)))
+
+
+def factor_common_obstruction_norm(shape: Shape) -> dict[int, int]:
+    import sympy as sp
+
+    n1 = obstruction_norm(N, e1_terms(shape.a, shape.b))
+    n2 = obstruction_norm(N, e2_terms(shape.a, shape.b))
+    return {int(p): int(e) for p, e in sp.factorint(gcd(n1, n2)).items()}
+
+
 def main() -> None:
     by_prime = {q: shapes_at_prime(q) for q in QS}
     shape_sources: dict[Shape, list[int]] = {}
@@ -124,6 +154,16 @@ def main() -> None:
     print("Cross-prime activation check:")
     for flat, hits in sorted(cross_activations.items()):
         print(f"  {list(flat)} -> {hits}")
+
+    print("Common obstruction norm factors:")
+    for shape in sorted(shape_sources, key=lambda s: s.flat()):
+        factors = factor_common_obstruction_norm(shape)
+        large_hits = [
+            p for p in factors if p % N == 1 and p >= N * N and activates(shape, p)
+        ]
+        print(f"  {list(shape.flat())}: gcd factors={factors}, threshold_hits={large_hits}")
+        if large_hits != shape_sources[shape]:
+            raise AssertionError((shape, factors, large_hits, shape_sources[shape]))
     print("H3_PAIR_COPRIMALITY_PILOT_PASS")
 
 

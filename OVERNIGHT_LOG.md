@@ -99,7 +99,10 @@ Result: among the seven actual prime `n=96`, `q=1 mod 96` rows in the banked
 ladder, exactly three non-toral activated shapes appear, and each activates at
 exactly one prime (`9601`, `13249`, `18433`).  The remaining prime rows
 `26113`, `36097`, `42337`, `46273` are empty.  No repeated activation was found
-among observed shapes.
+among observed shapes.  Stronger exact norm-gcd check: the three observed
+shapes have common obstruction norm factors `{1153,9601}`, `{97,13249}`, and
+`{18433}` respectively, so each has exactly one activation prime in the
+threshold regime `p = 1 mod 96`, `p >= 96^2`.
 
 Catch: the inherited `f3_h3_dichotomy_modal.py` `QS` list includes two composite
 entries, `23233` and `27649`; the pilot filters to actual prime rows.

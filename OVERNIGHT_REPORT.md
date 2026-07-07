@@ -163,8 +163,11 @@ theorem is still open.  Terminal C has a light pilot: observed activated
 
    Result: over the seven actual prime `n=96`, `q=1 mod 96` rows in the banked
    ladder, three activated non-toral shapes appear and each activates at exactly
-   one prime.  No repeated activation was found among observed shapes.  This is
-   evidence only; the all-shapes `n=96` Modal census remains open.
+   one prime.  No repeated activation was found among observed shapes.  Exact
+   norm-gcd factors for the three observed shapes are `{1153,9601}`,
+   `{97,13249}`, and `{18433}`, so each observed shape has exactly one
+   activation prime in the threshold regime `p = 1 mod 96`, `p >= 96^2`.  This
+   is evidence only; the all-shapes `n=96` Modal census remains open.
 
 ## Catches
 
