@@ -249,3 +249,27 @@ exchange lemma. Everything else in L1-L4 is proved or certified. Evidence:
 1,290/1,290 dependent configs absorb; 11,880/11,880 generic minimal
 configs are independent; zero counterexamples in ~16,000 exact decisions
 across the program.
+
+## P3.5 (proved): the P0-quotient reduction of absorption
+
+Every spillover functional vanishes on the pencil-degenerate plane
+P0 = {(p|_U, r|_U) : deg p, deg r < k} (on P0 the pencil word is globally
+deg<k, so c_i = w and c_i(y) − w(y) = 0), and every Π_{S_i}(v)-functional
+vanishes there too (v deg<k). Also P0 ⊆ V always, giving the a-priori
+bound rank ≤ 2(U − k) — which the minimal stratum saturates generically
+(12 = 2(8−2): the generic independence of Part A is the SATURATION of
+this bound). Hence with V = P0 ⊕ F (F = the fresh directions,
+dim F = 2(U−k) − rank):
+
+>  **Absorption ⟺ some spillover χ_{i,y} or some Π_{S_i}(v)-block
+>  vanishes identically on F.** In the rank-deficit-1 case (dim F = 1,
+>  fresh direction (u*, v*)): absorption ⟺ some scalar χ_{i,y}(u*,v*) = 0
+>  or some Π_{S_i}(v*) = 0.
+
+Triple-alignment language (k = 2): a nondegenerate pencil aligns each
+triple of U at EXACTLY ONE slope (the collinearity determinant is linear
+in z). The configuration demands 24 designated triple-alignments; a
+spillover = 6 extra triples aligning at a designated slope. Absorption
+says the dependence forces the fresh pencil to over-align. [Both proved /
+elementary; the triple-slope map ζ(τ) is the right coordinate system for
+the exchange argument.]
