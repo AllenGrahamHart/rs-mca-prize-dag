@@ -1,0 +1,156 @@
+{
+  "actual_obligation": "rate_half_band_closure has no surviving concrete lemma; this replays the arithmetic guardrails for the known routes and quantifies the remaining new-mechanism/bracket-grade crux",
+  "aqb_deficit_constants": {
+    "N": 1099511627776,
+    "certified_margin_bits": "0.22659204631542266448256165253078909570068685257385663325124408079594470844854876",
+    "claimed_bits": "429645547.0",
+    "convexity_interpretation": "These constants only measure the required AQB gain. The Pro convex-combination lemma says an averaged quotient-box family cannot realize this as box-charge amortization without a separate heavy-fiber theorem.",
+    "d": 4296456369,
+    "deficit_bits_hi": "429645546.77340795368457733551743834746921090429931314742614336674875591920405529",
+    "deficit_bits_lo": "429645546.77340795368457733551743827287147618942079103208975968449477170100867691",
+    "m": 554052270257,
+    "per_fiber_bits": "0.0003907603486368316225707530975341796875",
+    "qcrit_hi": "255.90000002097695968626637825039730124794117833867829718158840223416341372812654",
+    "qcrit_lo": "255.90000002097695968626637825039730123057855940156544549156897457911814397405695"
+  },
+  "completed": true,
+  "elapsed_seconds": 0.03467082977294922,
+  "floor_depth_Q256": {
+    "banked_band": 2978147,
+    "best_rows": [
+      {
+        "N": 524288,
+        "base": 262144,
+        "c": 4194304,
+        "depth": 8589934592,
+        "dmax": 2048,
+        "e": 22,
+        "margin_bits": 7.090939803165384,
+        "next_margin_bits": -248.93160822679056
+      },
+      {
+        "N": 262144,
+        "base": 131072,
+        "c": 8388608,
+        "depth": 8589934592,
+        "dmax": 1024,
+        "e": 23,
+        "margin_bits": 19.132616850722115,
+        "next_margin_bits": -236.8899366390251
+      },
+      {
+        "N": 131072,
+        "base": 65536,
+        "c": 16777216,
+        "depth": 8589934592,
+        "dmax": 512,
+        "e": 24,
+        "margin_bits": 25.4034543439775,
+        "next_margin_bits": -230.61911006785522
+      },
+      {
+        "N": 65536,
+        "base": 32768,
+        "c": 33554432,
+        "depth": 8589934592,
+        "dmax": 256,
+        "e": 25,
+        "margin_bits": 28.788871026059496,
+        "next_margin_bits": -227.23371522823436
+      },
+      {
+        "N": 32768,
+        "base": 16384,
+        "c": 67108864,
+        "depth": 8589934592,
+        "dmax": 128,
+        "e": 26,
+        "margin_bits": 30.731575239242375,
+        "next_margin_bits": -225.29105469919523
+      },
+      {
+        "N": 16384,
+        "base": 8192,
+        "c": 134217728,
+        "depth": 8589934592,
+        "dmax": 64,
+        "e": 27,
+        "margin_bits": 31.95291909005391,
+        "next_margin_bits": -224.06979821305322
+      },
+      {
+        "N": 8192,
+        "base": 4096,
+        "c": 268435456,
+        "depth": 8589934592,
+        "dmax": 32,
+        "e": 28,
+        "margin_bits": 32.813574503768905,
+        "next_margin_bits": -223.20931751264834
+      },
+      {
+        "N": 4096,
+        "base": 2048,
+        "c": 536870912,
+        "depth": 8589934592,
+        "dmax": 16,
+        "e": 29,
+        "margin_bits": 33.493869187245764,
+        "next_margin_bits": -222.52937219228897
+      },
+      {
+        "N": 2048,
+        "base": 1024,
+        "c": 1073741824,
+        "depth": 8589934592,
+        "dmax": 8,
+        "e": 30,
+        "margin_bits": 34.0839504822884,
+        "next_margin_bits": -221.93998936980665
+      },
+      {
+        "N": 1024,
+        "base": 512,
+        "c": 2147483648,
+        "depth": 8589934592,
+        "dmax": 4,
+        "e": 31,
+        "margin_bits": 34.62885903642905,
+        "next_margin_bits": -221.39647674711523
+      },
+      {
+        "N": 512,
+        "base": 256,
+        "c": 4294967296,
+        "depth": 8589934592,
+        "dmax": 2,
+        "e": 32,
+        "margin_bits": 35.15104912701503,
+        "next_margin_bits": -220.87707447389909
+      },
+      {
+        "N": 256,
+        "base": 128,
+        "c": 8589934592,
+        "depth": 8589934592,
+        "dmax": 1,
+        "e": 33,
+        "margin_bits": 35.661615801547555,
+        "next_margin_bits": -220.37206732470884
+      }
+    ],
+    "gap": 2978146,
+    "max_depth": 8589934592,
+    "sigma_star": 8592912738
+  },
+  "q_threshold": {
+    "depth_at_256": 8589934592,
+    "depth_at_threshold": 8592916480,
+    "depth_just_above": 8592912384,
+    "open_band_slice_bits": 0.10000971241245793,
+    "sigma_star": 8592912738,
+    "threshold_log2q": 255.89999028758754
+  },
+  "script": "experiments/falsification_pruning/rate_half_guardrail_replay.py",
+  "started_unix": 1783285858.034073
+}

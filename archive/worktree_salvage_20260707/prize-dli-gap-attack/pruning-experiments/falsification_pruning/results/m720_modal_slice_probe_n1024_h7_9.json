@@ -1,0 +1,139 @@
+{
+  "app_name": "rs-mca-m720-slice-probe-20260705",
+  "count_ceiling": 500000,
+  "elapsed_seconds": 24.751879453659058,
+  "node": "m720_official_norm_gate_case_manifest_payload",
+  "obligation_attacked": "residual h=7..20 window-slice unpaid non-toral active-core search",
+  "requested_configs": [
+    [
+      1024,
+      7,
+      2
+    ],
+    [
+      1024,
+      7,
+      3
+    ],
+    [
+      1024,
+      8,
+      2
+    ],
+    [
+      1024,
+      8,
+      3
+    ],
+    [
+      1024,
+      9,
+      2
+    ],
+    [
+      1024,
+      9,
+      3
+    ]
+  ],
+  "rows": [
+    {
+      "W": 24,
+      "aborted": false,
+      "anchored_nontoral": 0,
+      "anchored_toral": 0,
+      "combination_cost": 447051,
+      "complete": false,
+      "elapsed_seconds": 3.3331501483917236,
+      "h": 7,
+      "n": 1024,
+      "n_hash": 100947,
+      "n_probe": 245157,
+      "p": 1051649,
+      "q_exp": 2,
+      "witnesses": []
+    },
+    {
+      "W": 24,
+      "aborted": false,
+      "anchored_nontoral": 0,
+      "anchored_toral": 0,
+      "combination_cost": 447051,
+      "complete": false,
+      "elapsed_seconds": 3.850487232208252,
+      "h": 7,
+      "n": 1024,
+      "n_hash": 100947,
+      "n_probe": 245157,
+      "p": 1073750017,
+      "q_exp": 3,
+      "witnesses": []
+    },
+    {
+      "W": 22,
+      "aborted": false,
+      "anchored_nontoral": 0,
+      "anchored_toral": 0,
+      "combination_cost": 436050,
+      "complete": false,
+      "elapsed_seconds": 3.7972567081451416,
+      "h": 8,
+      "n": 1024,
+      "n_hash": 116280,
+      "n_probe": 203490,
+      "p": 1051649,
+      "q_exp": 2,
+      "witnesses": []
+    },
+    {
+      "W": 22,
+      "aborted": false,
+      "anchored_nontoral": 0,
+      "anchored_toral": 0,
+      "combination_cost": 436050,
+      "complete": false,
+      "elapsed_seconds": 4.3955159187316895,
+      "h": 8,
+      "n": 1024,
+      "n_hash": 116280,
+      "n_probe": 203490,
+      "p": 1073750017,
+      "q_exp": 3,
+      "witnesses": []
+    },
+    {
+      "W": 21,
+      "aborted": false,
+      "anchored_nontoral": 0,
+      "anchored_toral": 0,
+      "combination_cost": 419900,
+      "complete": false,
+      "elapsed_seconds": 4.212856769561768,
+      "h": 9,
+      "n": 1024,
+      "n_hash": 125970,
+      "n_probe": 167960,
+      "p": 1051649,
+      "q_exp": 2,
+      "witnesses": []
+    },
+    {
+      "W": 21,
+      "aborted": false,
+      "anchored_nontoral": 0,
+      "anchored_toral": 0,
+      "combination_cost": 419900,
+      "complete": false,
+      "elapsed_seconds": 4.904443740844727,
+      "h": 9,
+      "n": 1024,
+      "n_hash": 125970,
+      "n_probe": 167960,
+      "p": 1073750017,
+      "q_exp": 3,
+      "witnesses": []
+    }
+  ],
+  "scope": "calibration/window-slice evidence only; not complete official manifest",
+  "verdict": "NO_NONTORAL_SLICE_WITNESS_FOUND"
+}

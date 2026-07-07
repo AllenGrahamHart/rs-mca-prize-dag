@@ -1,0 +1,1697 @@
+{
+  "count_ceiling": 6000000,
+  "counts": {
+    "complete_under_ceiling_certified": 6,
+    "not_slice_probed": 109,
+    "official_rows": 136,
+    "over_ceiling_algebraic_certified": 2,
+    "slice_probed_no_nontoral": 19,
+    "slice_probed_with_nontoral": 0
+  },
+  "downstream_amber_nodes": [
+    "m720_official_h7_20_norm_gate_payload",
+    "m720_official_h7_20_norm_gate_certificates",
+    "m720_official_exclusion"
+  ],
+  "node": "m720_official_norm_gate_case_manifest_payload",
+  "nontoral_rows": [],
+  "obligation_attacked": "actual complete official manifest premise, not the proved manifest-to-payload implication",
+  "rows": [
+    {
+      "complete_under_modal_policy": true,
+      "h": 7,
+      "modal_policy_W": 16,
+      "modal_policy_cost": 16445,
+      "n": 16,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "complete_under_ceiling_certified"
+    },
+    {
+      "complete_under_modal_policy": true,
+      "h": 7,
+      "modal_policy_W": 16,
+      "modal_policy_cost": 16445,
+      "n": 16,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "complete_under_ceiling_certified"
+    },
+    {
+      "complete_under_modal_policy": true,
+      "h": 7,
+      "modal_policy_W": 32,
+      "modal_policy_cost": 4102137,
+      "n": 32,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "complete_under_ceiling_certified"
+    },
+    {
+      "complete_under_modal_policy": true,
+      "h": 7,
+      "modal_policy_W": 32,
+      "modal_policy_cost": 4102137,
+      "n": 32,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "complete_under_ceiling_certified"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 7,
+      "modal_policy_W": 33,
+      "modal_policy_cost": 5178240,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [
+        {
+          "W": 28,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe.json"
+        },
+        {
+          "W": 28,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 7,
+      "modal_policy_W": 33,
+      "modal_policy_cost": 5178240,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [
+        {
+          "W": 28,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe.json"
+        },
+        {
+          "W": 28,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 7,
+      "modal_policy_W": 33,
+      "modal_policy_cost": 5178240,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [
+        {
+          "W": 28,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe.json"
+        },
+        {
+          "W": 28,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 7,
+      "modal_policy_W": 33,
+      "modal_policy_cost": 5178240,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [
+        {
+          "W": 28,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe.json"
+        },
+        {
+          "W": 28,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 7,
+      "modal_policy_W": 33,
+      "modal_policy_cost": 5178240,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 7,
+      "modal_policy_W": 33,
+      "modal_policy_cost": 5178240,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 7,
+      "modal_policy_W": 33,
+      "modal_policy_cost": 5178240,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [
+        {
+          "W": 24,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_n1024_h7_9.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 7,
+      "modal_policy_W": 33,
+      "modal_policy_cost": 5178240,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [
+        {
+          "W": 24,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_n1024_h7_9.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": true,
+      "h": 8,
+      "modal_policy_W": 16,
+      "modal_policy_cost": 19305,
+      "n": 16,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "complete_under_ceiling_certified"
+    },
+    {
+      "complete_under_modal_policy": true,
+      "h": 8,
+      "modal_policy_W": 16,
+      "modal_policy_cost": 19305,
+      "n": 16,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "complete_under_ceiling_certified"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 8,
+      "modal_policy_W": 29,
+      "modal_policy_cost": 5476185,
+      "n": 32,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 8,
+      "modal_policy_W": 29,
+      "modal_policy_cost": 5476185,
+      "n": 32,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 8,
+      "modal_policy_W": 29,
+      "modal_policy_cost": 5476185,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [
+        {
+          "W": 29,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_suggested_next.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 8,
+      "modal_policy_W": 29,
+      "modal_policy_cost": 5476185,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [
+        {
+          "W": 29,
+          "aborted": true,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_suggested_next.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 8,
+      "modal_policy_W": 29,
+      "modal_policy_cost": 5476185,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [
+        {
+          "W": 25,
+          "aborted": true,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe.json"
+        },
+        {
+          "W": 22,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        },
+        {
+          "W": 25,
+          "aborted": true,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe.json"
+        },
+        {
+          "W": 22,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 8,
+      "modal_policy_W": 29,
+      "modal_policy_cost": 5476185,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [
+        {
+          "W": 22,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        },
+        {
+          "W": 22,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 8,
+      "modal_policy_W": 29,
+      "modal_policy_cost": 5476185,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [
+        {
+          "W": 22,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        },
+        {
+          "W": 22,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 8,
+      "modal_policy_W": 29,
+      "modal_policy_cost": 5476185,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 8,
+      "modal_policy_W": 29,
+      "modal_policy_cost": 5476185,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [
+        {
+          "W": 22,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_n1024_h7_9.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 8,
+      "modal_policy_W": 29,
+      "modal_policy_cost": 5476185,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [
+        {
+          "W": 22,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_n1024_h7_9.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 9,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 4206125,
+      "n": 32,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 9,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 4206125,
+      "n": 32,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 9,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 4206125,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 9,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 4206125,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 9,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 4206125,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [
+        {
+          "W": 21,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        },
+        {
+          "W": 21,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 9,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 4206125,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [
+        {
+          "W": 21,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        },
+        {
+          "W": 21,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 9,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 4206125,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [
+        {
+          "W": 21,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        },
+        {
+          "W": 21,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 9,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 4206125,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 9,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 4206125,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [
+        {
+          "W": 21,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_n1024_h7_9.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 9,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 4206125,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [
+        {
+          "W": 21,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_n1024_h7_9.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 10,
+      "modal_policy_W": 25,
+      "modal_policy_cost": 4576264,
+      "n": 32,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 10,
+      "modal_policy_W": 25,
+      "modal_policy_cost": 4576264,
+      "n": 32,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 10,
+      "modal_policy_W": 25,
+      "modal_policy_cost": 4576264,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 10,
+      "modal_policy_W": 25,
+      "modal_policy_cost": 4576264,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 10,
+      "modal_policy_W": 25,
+      "modal_policy_cost": 4576264,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 10,
+      "modal_policy_W": 25,
+      "modal_policy_cost": 4576264,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 10,
+      "modal_policy_W": 25,
+      "modal_policy_cost": 4576264,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [
+        {
+          "W": 20,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        },
+        {
+          "W": 20,
+          "aborted": false,
+          "anchored_nontoral": 0,
+          "anchored_toral": 0,
+          "complete": false,
+          "source": "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json"
+        }
+      ],
+      "status": "slice_probed_no_nontoral"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 10,
+      "modal_policy_W": 25,
+      "modal_policy_cost": 4576264,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 10,
+      "modal_policy_W": 25,
+      "modal_policy_cost": 4576264,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 10,
+      "modal_policy_W": 25,
+      "modal_policy_cost": 4576264,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 11,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 3640210,
+      "n": 32,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 11,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 3640210,
+      "n": 32,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 11,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 3640210,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 11,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 3640210,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 11,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 3640210,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 11,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 3640210,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 11,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 3640210,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 11,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 3640210,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 11,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 3640210,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 11,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 3640210,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 12,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 4056234,
+      "n": 32,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 12,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 4056234,
+      "n": 32,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 12,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 4056234,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 12,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 4056234,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 12,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 4056234,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 12,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 4056234,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 12,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 4056234,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 12,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 4056234,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 12,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 4056234,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 12,
+      "modal_policy_W": 24,
+      "modal_policy_cost": 4056234,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 13,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 15600900,
+      "n": 32,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 13,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 15600900,
+      "n": 32,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 13,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 15600900,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 13,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 15600900,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 13,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 15600900,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 13,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 15600900,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 13,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 15600900,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 13,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 15600900,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 13,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 15600900,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 13,
+      "modal_policy_W": 26,
+      "modal_policy_cost": 15600900,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 14,
+      "modal_policy_W": 28,
+      "modal_policy_cost": 60174900,
+      "n": 32,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 14,
+      "modal_policy_W": 28,
+      "modal_policy_cost": 60174900,
+      "n": 32,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 14,
+      "modal_policy_W": 28,
+      "modal_policy_cost": 60174900,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 14,
+      "modal_policy_W": 28,
+      "modal_policy_cost": 60174900,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 14,
+      "modal_policy_W": 28,
+      "modal_policy_cost": 60174900,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 14,
+      "modal_policy_W": 28,
+      "modal_policy_cost": 60174900,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 14,
+      "modal_policy_W": 28,
+      "modal_policy_cost": 60174900,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 14,
+      "modal_policy_W": 28,
+      "modal_policy_cost": 60174900,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 14,
+      "modal_policy_W": 28,
+      "modal_policy_cost": 60174900,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 14,
+      "modal_policy_W": 28,
+      "modal_policy_cost": 60174900,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 15,
+      "modal_policy_W": 30,
+      "modal_policy_cost": 232676280,
+      "n": 32,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 15,
+      "modal_policy_W": 30,
+      "modal_policy_cost": 232676280,
+      "n": 32,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 15,
+      "modal_policy_W": 30,
+      "modal_policy_cost": 232676280,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 15,
+      "modal_policy_W": 30,
+      "modal_policy_cost": 232676280,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 15,
+      "modal_policy_W": 30,
+      "modal_policy_cost": 232676280,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 15,
+      "modal_policy_W": 30,
+      "modal_policy_cost": 232676280,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 15,
+      "modal_policy_W": 30,
+      "modal_policy_cost": 232676280,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 15,
+      "modal_policy_W": 30,
+      "modal_policy_cost": 232676280,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 15,
+      "modal_policy_W": 30,
+      "modal_policy_cost": 232676280,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 15,
+      "modal_policy_W": 30,
+      "modal_policy_cost": 232676280,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": true,
+      "h": 16,
+      "modal_policy_W": 32,
+      "modal_policy_cost": 901620585,
+      "n": 32,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "over_ceiling_algebraic_certified"
+    },
+    {
+      "complete_under_modal_policy": true,
+      "h": 16,
+      "modal_policy_W": 32,
+      "modal_policy_cost": 901620585,
+      "n": 32,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "over_ceiling_algebraic_certified"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 16,
+      "modal_policy_W": 32,
+      "modal_policy_cost": 901620585,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 16,
+      "modal_policy_W": 32,
+      "modal_policy_cost": 901620585,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 16,
+      "modal_policy_W": 32,
+      "modal_policy_cost": 901620585,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 16,
+      "modal_policy_W": 32,
+      "modal_policy_cost": 901620585,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 16,
+      "modal_policy_W": 32,
+      "modal_policy_cost": 901620585,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 16,
+      "modal_policy_W": 32,
+      "modal_policy_cost": 901620585,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 16,
+      "modal_policy_W": 32,
+      "modal_policy_cost": 901620585,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 16,
+      "modal_policy_W": 32,
+      "modal_policy_cost": 901620585,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 17,
+      "modal_policy_W": 34,
+      "modal_policy_cost": 3500409330,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 17,
+      "modal_policy_W": 34,
+      "modal_policy_cost": 3500409330,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 17,
+      "modal_policy_W": 34,
+      "modal_policy_cost": 3500409330,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 17,
+      "modal_policy_W": 34,
+      "modal_policy_cost": 3500409330,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 17,
+      "modal_policy_W": 34,
+      "modal_policy_cost": 3500409330,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 17,
+      "modal_policy_W": 34,
+      "modal_policy_cost": 3500409330,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 17,
+      "modal_policy_W": 34,
+      "modal_policy_cost": 3500409330,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 17,
+      "modal_policy_W": 34,
+      "modal_policy_cost": 3500409330,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 18,
+      "modal_policy_W": 36,
+      "modal_policy_cost": 13612702950,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 18,
+      "modal_policy_W": 36,
+      "modal_policy_cost": 13612702950,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 18,
+      "modal_policy_W": 36,
+      "modal_policy_cost": 13612702950,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 18,
+      "modal_policy_W": 36,
+      "modal_policy_cost": 13612702950,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 18,
+      "modal_policy_W": 36,
+      "modal_policy_cost": 13612702950,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 18,
+      "modal_policy_W": 36,
+      "modal_policy_cost": 13612702950,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 18,
+      "modal_policy_W": 36,
+      "modal_policy_cost": 13612702950,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 18,
+      "modal_policy_W": 36,
+      "modal_policy_cost": 13612702950,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 19,
+      "modal_policy_W": 38,
+      "modal_policy_cost": 53017895700,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 19,
+      "modal_policy_W": 38,
+      "modal_policy_cost": 53017895700,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 19,
+      "modal_policy_W": 38,
+      "modal_policy_cost": 53017895700,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 19,
+      "modal_policy_W": 38,
+      "modal_policy_cost": 53017895700,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 19,
+      "modal_policy_W": 38,
+      "modal_policy_cost": 53017895700,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 19,
+      "modal_policy_W": 38,
+      "modal_policy_cost": 53017895700,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 19,
+      "modal_policy_W": 38,
+      "modal_policy_cost": 53017895700,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 19,
+      "modal_policy_W": 38,
+      "modal_policy_cost": 53017895700,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 20,
+      "modal_policy_W": 40,
+      "modal_policy_cost": 206769793230,
+      "n": 64,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 20,
+      "modal_policy_W": 40,
+      "modal_policy_cost": 206769793230,
+      "n": 64,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 20,
+      "modal_policy_W": 40,
+      "modal_policy_cost": 206769793230,
+      "n": 128,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 20,
+      "modal_policy_W": 40,
+      "modal_policy_cost": 206769793230,
+      "n": 128,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 20,
+      "modal_policy_W": 40,
+      "modal_policy_cost": 206769793230,
+      "n": 256,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 20,
+      "modal_policy_W": 40,
+      "modal_policy_cost": 206769793230,
+      "n": 256,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 20,
+      "modal_policy_W": 40,
+      "modal_policy_cost": 206769793230,
+      "n": 1024,
+      "q_exp": 2,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    },
+    {
+      "complete_under_modal_policy": false,
+      "h": 20,
+      "modal_policy_W": 40,
+      "modal_policy_cost": 206769793230,
+      "n": 1024,
+      "q_exp": 3,
+      "slice_records": [],
+      "status": "not_slice_probed"
+    }
+  ],
+  "source_results": [
+    "experiments/falsification_pruning/results/m720_modal_slice_probe.json",
+    "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json",
+    "experiments/falsification_pruning/results/m720_modal_slice_probe.json",
+    "experiments/falsification_pruning/results/m720_modal_slice_probe_h8_10.json",
+    "experiments/falsification_pruning/results/m720_modal_slice_probe_n1024_h7_9.json",
+    "experiments/falsification_pruning/results/m720_modal_slice_probe_suggested_next.json"
+  ],
+  "suggested_next_slice_configs": [
+    {
+      "h": 8,
+      "n": 256,
+      "q_exp": 3
+    },
+    {
+      "h": 9,
+      "n": 64,
+      "q_exp": 2
+    },
+    {
+      "h": 9,
+      "n": 64,
+      "q_exp": 3
+    },
+    {
+      "h": 9,
+      "n": 256,
+      "q_exp": 3
+    },
+    {
+      "h": 10,
+      "n": 64,
+      "q_exp": 2
+    },
+    {
+      "h": 10,
+      "n": 64,
+      "q_exp": 3
+    }
+  ],
+  "verdict": "OFFICIAL_MANIFEST_PREMISE_UNSATISFIED_IN_WORKTREE"
+}

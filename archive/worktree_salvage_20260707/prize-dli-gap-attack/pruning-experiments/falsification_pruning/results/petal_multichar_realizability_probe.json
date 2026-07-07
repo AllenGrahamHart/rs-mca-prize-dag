@@ -1,0 +1,261 @@
+{
+  "downstream_amber_nodes": [
+    "petal_squarefree_kernel_classification_payload",
+    "petal_cofactor_chargeability"
+  ],
+  "elapsed_seconds": 5.823641061782837,
+  "narrow_family": {
+    "crt_hit_count": 0,
+    "family": "X^d + a X^(d-M) + b",
+    "hit_examples": [],
+    "split_count": 9
+  },
+  "node": "petal_squarefree_classification_ledger_payload",
+  "obligation_attacked": "whether multi-character PRK obstruction families occur in the actual split-squarefree CRT-realizable locator locus",
+  "parameters": {
+    "M": 3,
+    "c": 11,
+    "coeff_density": 0.45,
+    "d": 14,
+    "ell": 3,
+    "p": 127,
+    "random_samples": 50000,
+    "seconds": 55.0,
+    "seed": 7205,
+    "t": 6
+  },
+  "random_two_character": {
+    "active_degrees": [
+      0,
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12,
+      14
+    ],
+    "complete": true,
+    "crt_hit_count": 0,
+    "evaluated": 50000,
+    "family": "random active residues {0,M-1}",
+    "hit_examples": [],
+    "samples_requested": 50000,
+    "split_count": 16,
+    "split_examples_without_crt": [
+      {
+        "charts_tested": 18,
+        "crt_hits": [],
+        "poly": [
+          105,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "poly_support": [
+          0,
+          14
+        ],
+        "roots": [
+          3,
+          6,
+          12,
+          24,
+          31,
+          48,
+          62,
+          65,
+          79,
+          96,
+          103,
+          115,
+          121,
+          124
+        ],
+        "split": true
+      },
+      {
+        "charts_tested": 18,
+        "crt_hits": [],
+        "poly": [
+          28,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "poly_support": [
+          0,
+          14
+        ],
+        "roots": [
+          11,
+          22,
+          29,
+          39,
+          44,
+          49,
+          58,
+          69,
+          78,
+          83,
+          88,
+          98,
+          105,
+          116
+        ],
+        "split": true
+      },
+      {
+        "charts_tested": 18,
+        "crt_hits": [],
+        "poly": [
+          90,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "poly_support": [
+          0,
+          14
+        ],
+        "roots": [
+          7,
+          14,
+          15,
+          28,
+          30,
+          56,
+          60,
+          67,
+          71,
+          97,
+          99,
+          112,
+          113,
+          120
+        ],
+        "split": true
+      },
+      {
+        "charts_tested": 18,
+        "crt_hits": [],
+        "poly": [
+          59,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "poly_support": [
+          0,
+          14
+        ],
+        "roots": [
+          13,
+          23,
+          26,
+          35,
+          46,
+          52,
+          57,
+          70,
+          75,
+          81,
+          92,
+          101,
+          104,
+          114
+        ],
+        "split": true
+      },
+      {
+        "charts_tested": 18,
+        "crt_hits": [],
+        "poly": [
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "poly_support": [
+          0,
+          14
+        ],
+        "roots": [
+          19,
+          25,
+          27,
+          38,
+          50,
+          51,
+          54,
+          73,
+          76,
+          77,
+          89,
+          100,
+          102,
+          108
+        ],
+        "split": true
+      }
+    ]
+  },
+  "verdict": "NO_SPLIT_MULTICHAR_CRT_HIT_IN_TESTED_CHARTS"
+}

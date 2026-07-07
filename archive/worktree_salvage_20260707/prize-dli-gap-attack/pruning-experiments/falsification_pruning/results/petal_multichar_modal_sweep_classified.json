@@ -1,0 +1,667 @@
+{
+  "app_name": "rs-mca-petal-multichar-sweep-20260705",
+  "complete": false,
+  "downstream_amber_nodes": [
+    "petal_squarefree_kernel_classification_payload",
+    "petal_cofactor_chargeability"
+  ],
+  "elapsed_seconds": 49.000239610672,
+  "hit_summary": {
+    "charged_like_crt_hits": 1,
+    "total_crt_hits": 1,
+    "unclassified_crt_hits": 0
+  },
+  "node": "petal_squarefree_classification_ledger_payload",
+  "obligation_attacked": "whether two-character PRK obstruction families occur in the actual split-squarefree CRT-realizable locator locus across multiple parameter rows and sampled petal/scalar charts",
+  "parameters": {
+    "chart_samples": 64,
+    "coeff_density": 0.45,
+    "configs": [
+      [
+        127,
+        3,
+        5
+      ],
+      [
+        127,
+        3,
+        6
+      ],
+      [
+        127,
+        3,
+        7
+      ],
+      [
+        97,
+        4,
+        5
+      ],
+      [
+        193,
+        4,
+        5
+      ],
+      [
+        101,
+        5,
+        5
+      ]
+    ],
+    "random_samples_per_config": 20000,
+    "random_scalar_modes": 2,
+    "seconds": 50.0,
+    "seed": 7206
+  },
+  "rows": [
+    {
+      "M": 3,
+      "c": 8,
+      "chart_samples": 64,
+      "coset_count": 42,
+      "d": 11,
+      "ell": 3,
+      "narrow_family": {
+        "charged_like_crt_hit_count": 0,
+        "complete": true,
+        "crt_hit_count": 0,
+        "evaluated": 16002,
+        "family": "X^d + a X^(d-M) + b",
+        "hit_examples": [],
+        "split_count": 0,
+        "split_examples_without_crt": [],
+        "unclassified_crt_hit_count": 0
+      },
+      "p": 127,
+      "random_two_character": {
+        "active_degrees": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11
+        ],
+        "charged_like_crt_hit_count": 0,
+        "complete": true,
+        "crt_hit_count": 0,
+        "evaluated": 20000,
+        "family": "random active residues {0,M-1}",
+        "hit_examples": [],
+        "samples_requested": 20000,
+        "split_count": 0,
+        "split_examples_without_crt": [],
+        "unclassified_crt_hit_count": 0
+      },
+      "scalar_mode_count": 5,
+      "t": 5
+    },
+    {
+      "M": 3,
+      "c": 11,
+      "chart_samples": 64,
+      "coset_count": 42,
+      "d": 14,
+      "ell": 3,
+      "narrow_family": {
+        "charged_like_crt_hit_count": 1,
+        "complete": true,
+        "crt_hit_count": 1,
+        "evaluated": 16002,
+        "family": "X^d + a X^(d-M) + b",
+        "hit_examples": [
+          {
+            "a": 0,
+            "b": 105,
+            "charged_like_reason": "binomial_coset_locator",
+            "charts_tested": 320,
+            "crt_hits": [
+              {
+                "degcrt": 14,
+                "petals": [
+                  [
+                    29,
+                    43,
+                    55
+                  ],
+                  [
+                    4,
+                    47,
+                    76
+                  ],
+                  [
+                    18,
+                    21,
+                    88
+                  ],
+                  [
+                    10,
+                    54,
+                    63
+                  ],
+                  [
+                    64,
+                    73,
+                    117
+                  ],
+                  [
+                    58,
+                    86,
+                    110
+                  ]
+                ],
+                "scalars": [
+                  116,
+                  120,
+                  35,
+                  50,
+                  112,
+                  8
+                ]
+              }
+            ],
+            "poly_support": [
+              0,
+              14
+            ],
+            "roots": [
+              3,
+              6,
+              12,
+              24,
+              31,
+              48,
+              62,
+              65,
+              79,
+              96,
+              103,
+              115,
+              121,
+              124
+            ],
+            "split": true
+          }
+        ],
+        "split_count": 9,
+        "split_examples_without_crt": [
+          {
+            "a": 0,
+            "b": 20,
+            "charged_like_reason": "binomial_coset_locator",
+            "charts_tested": 320,
+            "crt_hits": [],
+            "poly_support": [
+              0,
+              14
+            ],
+            "roots": [
+              19,
+              25,
+              27,
+              38,
+              50,
+              51,
+              54,
+              73,
+              76,
+              77,
+              89,
+              100,
+              102,
+              108
+            ],
+            "split": true
+          },
+          {
+            "a": 0,
+            "b": 24,
+            "charged_like_reason": "binomial_coset_locator",
+            "charts_tested": 320,
+            "crt_hits": [],
+            "poly_support": [
+              0,
+              14
+            ],
+            "roots": [
+              9,
+              17,
+              18,
+              34,
+              36,
+              55,
+              59,
+              68,
+              72,
+              91,
+              93,
+              109,
+              110,
+              118
+            ],
+            "split": true
+          },
+          {
+            "a": 0,
+            "b": 28,
+            "charged_like_reason": "binomial_coset_locator",
+            "charts_tested": 320,
+            "crt_hits": [],
+            "poly_support": [
+              0,
+              14
+            ],
+            "roots": [
+              11,
+              22,
+              29,
+              39,
+              44,
+              49,
+              58,
+              69,
+              78,
+              83,
+              88,
+              98,
+              105,
+              116
+            ],
+            "split": true
+          },
+          {
+            "a": 0,
+            "b": 59,
+            "charged_like_reason": "binomial_coset_locator",
+            "charts_tested": 320,
+            "crt_hits": [],
+            "poly_support": [
+              0,
+              14
+            ],
+            "roots": [
+              13,
+              23,
+              26,
+              35,
+              46,
+              52,
+              57,
+              70,
+              75,
+              81,
+              92,
+              101,
+              104,
+              114
+            ],
+            "split": true
+          }
+        ],
+        "unclassified_crt_hit_count": 0
+      },
+      "p": 127,
+      "random_two_character": {
+        "active_degrees": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14
+        ],
+        "charged_like_crt_hit_count": 0,
+        "complete": true,
+        "crt_hit_count": 0,
+        "evaluated": 20000,
+        "family": "random active residues {0,M-1}",
+        "hit_examples": [],
+        "samples_requested": 20000,
+        "split_count": 9,
+        "split_examples_without_crt": [
+          {
+            "charged_like_reason": "binomial_coset_locator",
+            "charts_tested": 320,
+            "crt_hits": [],
+            "poly": [
+              20,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "poly_support": [
+              0,
+              14
+            ],
+            "roots": [
+              19,
+              25,
+              27,
+              38,
+              50,
+              51,
+              54,
+              73,
+              76,
+              77,
+              89,
+              100,
+              102,
+              108
+            ],
+            "split": true
+          },
+          {
+            "charged_like_reason": "binomial_coset_locator",
+            "charts_tested": 320,
+            "crt_hits": [],
+            "poly": [
+              59,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "poly_support": [
+              0,
+              14
+            ],
+            "roots": [
+              13,
+              23,
+              26,
+              35,
+              46,
+              52,
+              57,
+              70,
+              75,
+              81,
+              92,
+              101,
+              104,
+              114
+            ],
+            "split": true
+          },
+          {
+            "charged_like_reason": "binomial_coset_locator",
+            "charts_tested": 320,
+            "crt_hits": [],
+            "poly": [
+              20,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "poly_support": [
+              0,
+              14
+            ],
+            "roots": [
+              19,
+              25,
+              27,
+              38,
+              50,
+              51,
+              54,
+              73,
+              76,
+              77,
+              89,
+              100,
+              102,
+              108
+            ],
+            "split": true
+          },
+          {
+            "charged_like_reason": "binomial_coset_locator",
+            "charts_tested": 320,
+            "crt_hits": [],
+            "poly": [
+              126,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "poly_support": [
+              0,
+              14
+            ],
+            "roots": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32,
+              63,
+              64,
+              95,
+              111,
+              119,
+              123,
+              125,
+              126
+            ],
+            "split": true
+          }
+        ],
+        "unclassified_crt_hit_count": 0
+      },
+      "scalar_mode_count": 5,
+      "t": 6
+    },
+    {
+      "M": 3,
+      "c": 14,
+      "chart_samples": 64,
+      "coset_count": 42,
+      "d": 17,
+      "ell": 3,
+      "narrow_family": {
+        "charged_like_crt_hit_count": 0,
+        "complete": true,
+        "crt_hit_count": 0,
+        "evaluated": 16002,
+        "family": "X^d + a X^(d-M) + b",
+        "hit_examples": [],
+        "split_count": 0,
+        "split_examples_without_crt": [],
+        "unclassified_crt_hit_count": 0
+      },
+      "p": 127,
+      "random_two_character": {
+        "active_degrees": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15,
+          17
+        ],
+        "charged_like_crt_hit_count": 0,
+        "complete": true,
+        "crt_hit_count": 0,
+        "evaluated": 20000,
+        "family": "random active residues {0,M-1}",
+        "hit_examples": [],
+        "samples_requested": 20000,
+        "split_count": 0,
+        "split_examples_without_crt": [],
+        "unclassified_crt_hit_count": 0
+      },
+      "scalar_mode_count": 5,
+      "t": 7
+    },
+    {
+      "M": 4,
+      "c": 11,
+      "chart_samples": 64,
+      "coset_count": 24,
+      "d": 15,
+      "ell": 4,
+      "narrow_family": {
+        "charged_like_crt_hit_count": 0,
+        "complete": true,
+        "crt_hit_count": 0,
+        "evaluated": 9312,
+        "family": "X^d + a X^(d-M) + b",
+        "hit_examples": [],
+        "split_count": 0,
+        "split_examples_without_crt": [],
+        "unclassified_crt_hit_count": 0
+      },
+      "p": 97,
+      "random_two_character": {
+        "active_degrees": [
+          0,
+          3,
+          4,
+          7,
+          8,
+          11,
+          12,
+          15
+        ],
+        "charged_like_crt_hit_count": 0,
+        "complete": true,
+        "crt_hit_count": 0,
+        "evaluated": 20000,
+        "family": "random active residues {0,M-1}",
+        "hit_examples": [],
+        "samples_requested": 20000,
+        "split_count": 0,
+        "split_examples_without_crt": [],
+        "unclassified_crt_hit_count": 0
+      },
+      "scalar_mode_count": 5,
+      "t": 5
+    },
+    {
+      "M": 4,
+      "c": 11,
+      "chart_samples": 64,
+      "coset_count": 48,
+      "d": 15,
+      "ell": 4,
+      "narrow_family": {
+        "charged_like_crt_hit_count": 0,
+        "complete": true,
+        "crt_hit_count": 0,
+        "evaluated": 37056,
+        "family": "X^d + a X^(d-M) + b",
+        "hit_examples": [],
+        "split_count": 0,
+        "split_examples_without_crt": [],
+        "unclassified_crt_hit_count": 0
+      },
+      "p": 193,
+      "random_two_character": {
+        "active_degrees": [
+          0,
+          3,
+          4,
+          7,
+          8,
+          11,
+          12,
+          15
+        ],
+        "charged_like_crt_hit_count": 0,
+        "complete": true,
+        "crt_hit_count": 0,
+        "evaluated": 20000,
+        "family": "random active residues {0,M-1}",
+        "hit_examples": [],
+        "samples_requested": 20000,
+        "split_count": 0,
+        "split_examples_without_crt": [],
+        "unclassified_crt_hit_count": 0
+      },
+      "scalar_mode_count": 5,
+      "t": 5
+    },
+    {
+      "M": 5,
+      "c": 14,
+      "chart_samples": 64,
+      "coset_count": 20,
+      "d": 19,
+      "ell": 5,
+      "narrow_family": {
+        "charged_like_crt_hit_count": 0,
+        "complete": false,
+        "crt_hit_count": 0,
+        "evaluated": 8343,
+        "family": "X^d + a X^(d-M) + b",
+        "hit_examples": [],
+        "split_count": 0,
+        "split_examples_without_crt": [],
+        "unclassified_crt_hit_count": 0
+      },
+      "p": 101,
+      "random_two_character": null,
+      "scalar_mode_count": 5,
+      "t": 5
+    }
+  ],
+  "verdict": "ONLY_CHARGED_LIKE_SPLIT_MULTICHAR_CRT_HITS"
+}

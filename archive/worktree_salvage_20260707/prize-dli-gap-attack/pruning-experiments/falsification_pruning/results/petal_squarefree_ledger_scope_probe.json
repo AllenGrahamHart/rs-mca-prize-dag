@@ -1,0 +1,512 @@
+{
+  "configs": [
+    {
+      "by_c": [],
+      "core_pool_size": 1002,
+      "ell": 2,
+      "n_petal": 6,
+      "p": 1009,
+      "petals": [
+        [
+          1,
+          1008
+        ],
+        [
+          11,
+          998
+        ],
+        [
+          121,
+          888
+        ]
+      ],
+      "scalars": [
+        1,
+        2,
+        3
+      ],
+      "t": 3
+    },
+    {
+      "by_c": [
+        {
+          "c": 2,
+          "d": 4,
+          "exact_prefix": {
+            "candidate_count": 210,
+            "complete": true,
+            "core_size": 10,
+            "evaluated": 210,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 3,
+          "d": 5,
+          "exact_prefix": {
+            "candidate_count": 462,
+            "complete": true,
+            "core_size": 11,
+            "evaluated": 462,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 4,
+          "d": 6,
+          "exact_prefix": {
+            "candidate_count": 924,
+            "complete": true,
+            "core_size": 12,
+            "evaluated": 924,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 5,
+          "d": 7,
+          "exact_prefix": {
+            "candidate_count": 1716,
+            "complete": true,
+            "core_size": 13,
+            "evaluated": 1716,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        }
+      ],
+      "core_pool_size": 998,
+      "ell": 2,
+      "n_petal": 10,
+      "p": 1009,
+      "petals": [
+        [
+          1,
+          1008
+        ],
+        [
+          11,
+          998
+        ],
+        [
+          121,
+          888
+        ],
+        [
+          322,
+          687
+        ],
+        [
+          494,
+          515
+        ]
+      ],
+      "scalars": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "t": 5
+    },
+    {
+      "by_c": [
+        {
+          "c": 2,
+          "d": 5,
+          "exact_prefix": {
+            "candidate_count": 462,
+            "complete": true,
+            "core_size": 11,
+            "evaluated": 462,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 3,
+          "d": 6,
+          "exact_prefix": {
+            "candidate_count": 924,
+            "complete": true,
+            "core_size": 12,
+            "evaluated": 924,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 4,
+          "d": 7,
+          "exact_prefix": {
+            "candidate_count": 1716,
+            "complete": true,
+            "core_size": 13,
+            "evaluated": 1716,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 5,
+          "d": 8,
+          "exact_prefix": {
+            "candidate_count": 3003,
+            "complete": true,
+            "core_size": 14,
+            "evaluated": 3003,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 6,
+          "d": 9,
+          "exact_prefix": {
+            "candidate_count": 5005,
+            "complete": true,
+            "core_size": 15,
+            "evaluated": 5005,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 7,
+          "d": 10,
+          "exact_prefix": {
+            "candidate_count": 8008,
+            "complete": true,
+            "core_size": 16,
+            "evaluated": 8008,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 8,
+          "d": 11,
+          "exact_prefix": {
+            "candidate_count": 12376,
+            "complete": true,
+            "core_size": 17,
+            "evaluated": 12376,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        }
+      ],
+      "core_pool_size": 993,
+      "ell": 3,
+      "n_petal": 15,
+      "p": 1009,
+      "petals": [
+        [
+          1,
+          374,
+          634
+        ],
+        [
+          11,
+          78,
+          920
+        ],
+        [
+          30,
+          121,
+          858
+        ],
+        [
+          322,
+          330,
+          357
+        ],
+        [
+          515,
+          603,
+          900
+        ]
+      ],
+      "scalars": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "t": 5
+    },
+    {
+      "by_c": [
+        {
+          "c": 2,
+          "d": 5,
+          "exact_prefix": {
+            "candidate_count": 462,
+            "complete": true,
+            "core_size": 11,
+            "evaluated": 462,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 3,
+          "d": 6,
+          "exact_prefix": {
+            "candidate_count": 924,
+            "complete": true,
+            "core_size": 12,
+            "evaluated": 924,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 4,
+          "d": 7,
+          "exact_prefix": {
+            "candidate_count": 1716,
+            "complete": true,
+            "core_size": 13,
+            "evaluated": 1716,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 5,
+          "d": 8,
+          "exact_prefix": {
+            "candidate_count": 3003,
+            "complete": true,
+            "core_size": 14,
+            "evaluated": 3003,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 6,
+          "d": 9,
+          "exact_prefix": {
+            "candidate_count": 5005,
+            "complete": true,
+            "core_size": 15,
+            "evaluated": 5005,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 7,
+          "d": 10,
+          "exact_prefix": {
+            "candidate_count": 8008,
+            "complete": true,
+            "core_size": 16,
+            "evaluated": 8008,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        },
+        {
+          "c": 8,
+          "d": 11,
+          "exact_prefix": {
+            "candidate_count": 12376,
+            "complete": true,
+            "core_size": 17,
+            "evaluated": 12376,
+            "examples": [],
+            "realizable_count": 0
+          },
+          "random_full_core": {
+            "complete": true,
+            "evaluated": 200,
+            "examples": [],
+            "realizable_count": 0,
+            "samples_requested": 200
+          }
+        }
+      ],
+      "core_pool_size": 990,
+      "ell": 3,
+      "n_petal": 18,
+      "p": 1009,
+      "petals": [
+        [
+          1,
+          374,
+          634
+        ],
+        [
+          11,
+          78,
+          920
+        ],
+        [
+          30,
+          121,
+          858
+        ],
+        [
+          322,
+          330,
+          357
+        ],
+        [
+          515,
+          603,
+          900
+        ],
+        [
+          579,
+          620,
+          819
+        ]
+      ],
+      "scalars": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "t": 6
+    }
+  ],
+  "elapsed_seconds": 33.009028673172,
+  "node": "petal_squarefree_classification_ledger_payload",
+  "obligation_attacked": "generic squarefree-realizable missed-core mass in residue-line kernels",
+  "totals": {
+    "exact_prefix_realizable_hits_large_rows": 0,
+    "exact_prefix_realizable_hits_total": 0,
+    "random_realizable_hits": 0
+  },
+  "verdict": "NO_GENERIC_REALIZABLE_MASS_FOUND"
+}

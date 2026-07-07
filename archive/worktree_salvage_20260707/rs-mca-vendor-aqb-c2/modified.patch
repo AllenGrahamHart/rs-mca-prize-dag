@@ -1,0 +1,31 @@
+diff --git a/experimental/agents-log.md b/experimental/agents-log.md
+index 7261d4a6..b2982790 100644
+--- a/experimental/agents-log.md
++++ b/experimental/agents-log.md
+@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
+ 
+ ## Entries
+ 
++### 2026-07-05 - AQB c=2 amortization route-cut
++
++- **Agent/model:** Codex.
++- **Files added or changed:** `experimental/notes/m1/aqb_c2_amortization_refutation.md`;
++  `experimental/scripts/verify_aqb_c2_amortization_refutation.py`;
++  `experimental/data/certificates/aqb-c2-amortization-refutation/README.md`;
++  `experimental/data/certificates/aqb-c2-amortization-refutation/aqb_c2_amortization_refutation.json`;
++  `experimental/agents-log.md`.
++- **Status:** COUNTEREXAMPLE / AUDIT.
++- **What is being added:** A route-cut showing that the proposed c=2
++  averaged quotient-box amortization is a convex combination of single-box
++  fiber counts, so paying the box charge once does not produce a net gain over
++  the plain floor without an additional heavy-fiber theorem.
++- **How it is useful:** Explains why the c=2 terminal-scale AQB route should
++  not be used as a finite deployed threshold closure and aligns with the v13
++  guide's preference for identity-scale adjacent-row packets.
++- **What to do next:** If a future route uses nonuniform heavy fibers, state
++  that theorem separately with its own certificate and falsifier; do not reuse
++  this amortization argument as the payment mechanism.
++
+ ### 2026-07-05 - PR 271-280 conditional imports, toy staircases, sparse witness, and Lean anchor
+ 
+ - **Agent/model:** Codex integrating PR material from Vadim Avdeev

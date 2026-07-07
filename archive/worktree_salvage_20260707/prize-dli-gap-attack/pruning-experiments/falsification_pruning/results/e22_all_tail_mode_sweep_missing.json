@@ -1,0 +1,81 @@
+{
+  "downstream_premise_for": [
+    "e22_common_tail_invariance_payload",
+    "e22_cofactor_common_tail_kernel_invariance"
+  ],
+  "elapsed_seconds": 0.18265414237976074,
+  "node": "e22_challenger_staircase_pricing",
+  "obligation_attacked": "whether vacuous all-tail common-tail certificates remain covered by dyadic minimal-scale pricing under alternate sunflower layouts and petal scalar choices",
+  "parameters": {
+    "layouts": [
+      "shuffle_17"
+    ],
+    "rows": [
+      [
+        32,
+        2,
+        2
+      ]
+    ],
+    "scalar_modes": [
+      "geometric"
+    ],
+    "seconds": 55.0
+  },
+  "rows": [
+    {
+      "class_counts": {},
+      "ell": 3,
+      "examples": [],
+      "k": 2,
+      "layout": "shuffle_17",
+      "list_size": 10,
+      "missing_examples": [],
+      "missing_selected_representative": 0,
+      "n": 32,
+      "representative_collision_count": 0,
+      "representative_collision_examples": [],
+      "representative_collision_polynomial_excess": 0,
+      "s": 4,
+      "scalar_mode": "geometric",
+      "selected_representatives": 0,
+      "selected_scale_counts": {},
+      "sigma": 2,
+      "structured": 0,
+      "support_collision_count": 0,
+      "support_collision_examples": [],
+      "support_collision_polynomial_excess": 0,
+      "tail_only_representatives": 0,
+      "tail_size_counts": {},
+      "unique_touched_supports": 0,
+      "with_full_fiber_representatives": 0
+    }
+  ],
+  "summary": {
+    "by_mode": {
+      "shuffle_17|geometric": {
+        "cells": 1,
+        "missing_selected_representative": 0,
+        "representative_collision_count": 0,
+        "representative_collision_polynomial_excess": 0,
+        "structured": 0,
+        "support_collision_count": 0,
+        "support_collision_polynomial_excess": 0,
+        "tail_only_representatives": 0,
+        "with_full_fiber_representatives": 0
+      }
+    },
+    "totals": {
+      "cells": 1,
+      "missing_selected_representative": 0,
+      "representative_collision_count": 0,
+      "representative_collision_polynomial_excess": 0,
+      "structured": 0,
+      "support_collision_count": 0,
+      "support_collision_polynomial_excess": 0,
+      "tail_only_representatives": 0,
+      "with_full_fiber_representatives": 0
+    }
+  },
+  "verdict": "NO_STRUCTURED_CHALLENGERS_IN_SCOPE"
+}

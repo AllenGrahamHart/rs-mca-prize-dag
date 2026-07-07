@@ -1,0 +1,349 @@
+{
+  "actual_obligation": "corrected dli U-weighted average of rho_j over central profiles; not the refuted per-profile sup formulation",
+  "completed": true,
+  "dp_rows": [
+    {
+      "L": 1,
+      "coordinate_count": 8,
+      "coordinate_mode": "prefix",
+      "log_q_per_L": 8.616041147747717e-05,
+      "log_q_weighted_average": 8.616041147747717e-05,
+      "mass_error": 0.0,
+      "n": 16,
+      "prob_zero": 0.058837890625,
+      "q": 17,
+      "seconds": 0.00038886070251464844,
+      "state_count": 17,
+      "weighted_average_rho": 1.000244140625
+    },
+    {
+      "L": 1,
+      "coordinate_count": 16,
+      "coordinate_mode": "prefix",
+      "log_q_per_L": 1.7100766810144438e-07,
+      "log_q_weighted_average": 1.7100766810144438e-07,
+      "mass_error": 0.0,
+      "n": 32,
+      "prob_zero": 0.010309286415576935,
+      "q": 97,
+      "seconds": 0.0010111331939697266,
+      "state_count": 97,
+      "weighted_average_rho": 1.0000007823109627
+    },
+    {
+      "L": 2,
+      "coordinate_count": 32,
+      "coordinate_mode": "prefix",
+      "log_q_per_L": 1.235414344070487e-07,
+      "log_q_weighted_average": 2.470828688140974e-07,
+      "mass_error": 0.0,
+      "n": 64,
+      "prob_zero": 2.6846393200392893e-05,
+      "q": 193,
+      "seconds": 0.009679079055786133,
+      "state_count": 37249,
+      "weighted_average_rho": 1.000001300321435
+    },
+    {
+      "L": 2,
+      "coordinate_count": 32,
+      "coordinate_mode": "prefix",
+      "log_q_per_L": 8.450182654190082e-08,
+      "log_q_weighted_average": 1.6900365308380164e-07,
+      "mass_error": 0.0,
+      "n": 256,
+      "prob_zero": 1.5140288843352198e-05,
+      "q": 257,
+      "seconds": 0.009124994277954102,
+      "state_count": 66049,
+      "weighted_average_rho": 1.0000009378145693
+    },
+    {
+      "L": 2,
+      "coordinate_count": 64,
+      "coordinate_mode": "prefix",
+      "log_q_per_L": 2.000734910893045e-17,
+      "log_q_weighted_average": 4.00146982178609e-17,
+      "mass_error": 0.0,
+      "n": 256,
+      "prob_zero": 1.5140274644582054e-05,
+      "q": 257,
+      "seconds": 0.01820230484008789,
+      "state_count": 66049,
+      "weighted_average_rho": 1.0000000000000002
+    },
+    {
+      "L": 2,
+      "coordinate_count": 128,
+      "coordinate_mode": "prefix",
+      "log_q_per_L": 2.000734910893045e-17,
+      "log_q_weighted_average": 4.00146982178609e-17,
+      "mass_error": 0.0,
+      "n": 256,
+      "prob_zero": 1.5140274644582054e-05,
+      "q": 257,
+      "seconds": 0.03494548797607422,
+      "state_count": 66049,
+      "weighted_average_rho": 1.0000000000000002
+    },
+    {
+      "L": 2,
+      "coordinate_count": 128,
+      "coordinate_mode": "spread",
+      "log_q_per_L": 2.000734910893045e-17,
+      "log_q_weighted_average": 4.00146982178609e-17,
+      "mass_error": 0.0,
+      "n": 256,
+      "prob_zero": 1.5140274644582054e-05,
+      "q": 257,
+      "seconds": 0.034612417221069336,
+      "state_count": 66049,
+      "weighted_average_rho": 1.0000000000000002
+    },
+    {
+      "L": 1,
+      "coordinate_count": 256,
+      "coordinate_mode": "prefix",
+      "log_q_per_L": 2.4819144937577993e-17,
+      "log_q_weighted_average": 2.4819144937577993e-17,
+      "mass_error": 2.220446049250313e-16,
+      "n": 512,
+      "prob_zero": 0.00013019138133055593,
+      "q": 7681,
+      "seconds": 0.007452249526977539,
+      "state_count": 7681,
+      "weighted_average_rho": 1.0000000000000002
+    }
+  ],
+  "elapsed_seconds": 0.2222433090209961,
+  "low_mass_entropy_envelope": [
+    {
+      "L": 1,
+      "N": 16,
+      "alpha": 16,
+      "log2_low_support_count_sum": 4.08746284125034,
+      "log_q_per_L": 0.8909666517236341,
+      "log_q_zero_skew_low_mass_contribution": 0.8909666517236341,
+      "q_bits": 256
+    },
+    {
+      "L": 2,
+      "N": 32,
+      "alpha": 16,
+      "log2_low_support_count_sum": 9.047123912114,
+      "log_q_per_L": 0.8926701638908476,
+      "log_q_zero_skew_low_mass_contribution": 1.7853403277816953,
+      "q_bits": 256
+    },
+    {
+      "L": 4,
+      "N": 64,
+      "alpha": 16,
+      "log2_low_support_count_sum": 19.37330911893284,
+      "log_q_per_L": 0.8939192471864579,
+      "log_q_zero_skew_low_mass_contribution": 3.5756769887458315,
+      "q_bits": 256
+    },
+    {
+      "L": 8,
+      "N": 128,
+      "alpha": 16,
+      "log2_low_support_count_sum": 40.476600561635394,
+      "log_q_per_L": 0.894763965117986,
+      "log_q_zero_skew_low_mass_contribution": 7.158111720943888,
+      "q_bits": 256
+    },
+    {
+      "L": 16,
+      "N": 256,
+      "alpha": 16,
+      "log2_low_support_count_sum": 83.15814839625341,
+      "log_q_per_L": 0.8953022823233041,
+      "log_q_zero_skew_low_mass_contribution": 14.324836517172866,
+      "q_bits": 256
+    },
+    {
+      "L": 1,
+      "N": 32,
+      "alpha": 32,
+      "log2_low_support_count_sum": 5.044394119358446,
+      "log_q_per_L": 0.769704664528744,
+      "log_q_zero_skew_low_mass_contribution": 0.769704664528744,
+      "q_bits": 256
+    },
+    {
+      "L": 2,
+      "N": 64,
+      "alpha": 32,
+      "log2_low_support_count_sum": 11.023061249735397,
+      "log_q_per_L": 0.7715294165033895,
+      "log_q_zero_skew_low_mass_contribution": 1.543058833006779,
+      "q_bits": 256
+    },
+    {
+      "L": 4,
+      "N": 128,
+      "alpha": 32,
+      "log2_low_support_count_sum": 23.39331097650935,
+      "log_q_per_L": 0.7728450302504974,
+      "log_q_zero_skew_low_mass_contribution": 3.09138012100199,
+      "q_bits": 256
+    },
+    {
+      "L": 8,
+      "N": 256,
+      "alpha": 32,
+      "log2_low_support_count_sum": 48.58834352721938,
+      "log_q_per_L": 0.7737247771129001,
+      "log_q_zero_skew_low_mass_contribution": 6.189798216903201,
+      "q_bits": 256
+    },
+    {
+      "L": 16,
+      "N": 512,
+      "alpha": 32,
+      "log2_low_support_count_sum": 99.4553698438095,
+      "log_q_per_L": 0.7742810961532738,
+      "log_q_zero_skew_low_mass_contribution": 12.38849753845238,
+      "q_bits": 256
+    },
+    {
+      "L": 1,
+      "N": 64,
+      "alpha": 64,
+      "log2_low_support_count_sum": 6.022367813028511,
+      "log_q_per_L": 0.5235248742696426,
+      "log_q_zero_skew_low_mass_contribution": 0.5235248742696426,
+      "q_bits": 256
+    },
+    {
+      "L": 2,
+      "N": 128,
+      "alpha": 64,
+      "log2_low_support_count_sum": 13.011401989880078,
+      "log_q_per_L": 0.5254128945114844,
+      "log_q_zero_skew_low_mass_contribution": 1.0508257890229689,
+      "q_bits": 256
+    },
+    {
+      "L": 4,
+      "N": 256,
+      "alpha": 64,
+      "log2_low_support_count_sum": 27.40396744496375,
+      "log_q_per_L": 0.5267616869579723,
+      "log_q_zero_skew_low_mass_contribution": 2.1070467478318893,
+      "q_bits": 256
+    },
+    {
+      "L": 8,
+      "N": 512,
+      "alpha": 64,
+      "log2_low_support_count_sum": 56.6444968845155,
+      "log_q_per_L": 0.5276584457443922,
+      "log_q_zero_skew_low_mass_contribution": 4.221267565955138,
+      "q_bits": 256
+    },
+    {
+      "L": 16,
+      "N": 1024,
+      "alpha": 64,
+      "log2_low_support_count_sum": 115.60297100691412,
+      "log_q_per_L": 0.5282233815934849,
+      "log_q_zero_skew_low_mass_contribution": 8.451574105495759,
+      "q_bits": 256
+    },
+    {
+      "L": 1,
+      "N": 128,
+      "alpha": 128,
+      "log2_low_support_count_sum": 7.011227255423273,
+      "log_q_per_L": 0.027387606466497072,
+      "log_q_zero_skew_low_mass_contribution": 0.027387606466497072,
+      "q_bits": 256
+    },
+    {
+      "L": 2,
+      "N": 256,
+      "alpha": 128,
+      "log2_low_support_count_sum": 15.005668404772306,
+      "log_q_per_L": 0.02930794610307097,
+      "log_q_zero_skew_low_mass_contribution": 0.05861589220614194,
+      "q_bits": 256
+    },
+    {
+      "L": 4,
+      "N": 512,
+      "alpha": 128,
+      "log2_low_support_count_sum": 31.40945186172885,
+      "log_q_per_L": 0.030673292833719668,
+      "log_q_zero_skew_low_mass_contribution": 0.12269317133487867,
+      "q_bits": 256
+    },
+    {
+      "L": 8,
+      "N": 1024,
+      "alpha": 128,
+      "log2_low_support_count_sum": 64.67262873943807,
+      "log_q_per_L": 0.03157843200167876,
+      "log_q_zero_skew_low_mass_contribution": 0.25262745601343006,
+      "q_bits": 256
+    },
+    {
+      "L": 16,
+      "N": 2048,
+      "alpha": 128,
+      "log2_low_support_count_sum": 131.67650597051193,
+      "log_q_per_L": 0.03214758446545707,
+      "log_q_zero_skew_low_mass_contribution": 0.5143613514473131,
+      "q_bits": 256
+    },
+    {
+      "L": 1,
+      "N": 256,
+      "alpha": 256,
+      "log2_low_support_count_sum": 8.0056245491939,
+      "log_q_per_L": -0.9687280291047113,
+      "log_q_zero_skew_low_mass_contribution": -0.9687280291047113,
+      "q_bits": 256
+    },
+    {
+      "L": 2,
+      "N": 512,
+      "alpha": 256,
+      "log2_low_support_count_sum": 17.00282600099882,
+      "log_q_per_L": -0.9667913554667993,
+      "log_q_zero_skew_low_mass_contribution": -1.9335827109335986,
+      "q_bits": 256
+    },
+    {
+      "L": 4,
+      "N": 1024,
+      "alpha": 256,
+      "log2_low_support_count_sum": 35.41223216310587,
+      "log_q_per_L": -0.9654177420282168,
+      "log_q_zero_skew_low_mass_contribution": -3.8616709681128674,
+      "q_bits": 256
+    },
+    {
+      "L": 8,
+      "N": 2048,
+      "alpha": 256,
+      "log2_low_support_count_sum": 72.68670668171164,
+      "log_q_per_L": -0.9645084440030705,
+      "log_q_zero_skew_low_mass_contribution": -7.716067552024564,
+      "q_bits": 256
+    },
+    {
+      "L": 16,
+      "N": 4096,
+      "alpha": 256,
+      "log2_low_support_count_sum": 147.71320561514506,
+      "log_q_per_L": -0.963937205660365,
+      "log_q_zero_skew_low_mass_contribution": -15.42299529056584,
+      "q_bits": 256
+    }
+  ],
+  "script": "experiments/falsification_pruning/dli_weighted_average_probe.py",
+  "started_unix": 1783282791.616217,
+  "weighted_identity": "For inactive/ternary profiles, the U-weighted average equals q^L * Pr[A d=0] with P(d=0)=1/2 and P(d=+-1)=1/4."
+}

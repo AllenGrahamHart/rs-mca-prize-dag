@@ -1,0 +1,78 @@
+{
+  "app_name": "rs-mca-petal-multichar-sweep-20260705",
+  "complete": true,
+  "downstream_amber_nodes": [
+    "petal_squarefree_kernel_classification_payload",
+    "petal_cofactor_chargeability"
+  ],
+  "elapsed_seconds": 5.832801818847656,
+  "hit_summary": {
+    "charged_like_crt_hits": 0,
+    "total_crt_hits": 0,
+    "unclassified_crt_hits": 0
+  },
+  "node": "petal_squarefree_classification_ledger_payload",
+  "obligation_attacked": "whether two-character PRK obstruction families occur in the actual split-squarefree CRT-realizable locator locus across multiple parameter rows and sampled petal/scalar charts",
+  "parameters": {
+    "chart_samples": 64,
+    "coeff_density": 0.45,
+    "configs": [
+      [
+        101,
+        5,
+        5
+      ]
+    ],
+    "random_samples_per_config": 20000,
+    "random_scalar_modes": 2,
+    "seconds": 50.0,
+    "seed": 7206
+  },
+  "rows": [
+    {
+      "M": 5,
+      "c": 14,
+      "chart_samples": 64,
+      "coset_count": 20,
+      "d": 19,
+      "ell": 5,
+      "narrow_family": {
+        "charged_like_crt_hit_count": 0,
+        "complete": true,
+        "crt_hit_count": 0,
+        "evaluated": 10100,
+        "family": "X^d + a X^(d-M) + b",
+        "hit_examples": [],
+        "split_count": 0,
+        "split_examples_without_crt": [],
+        "unclassified_crt_hit_count": 0
+      },
+      "p": 101,
+      "random_two_character": {
+        "active_degrees": [
+          0,
+          4,
+          5,
+          9,
+          10,
+          14,
+          15,
+          19
+        ],
+        "charged_like_crt_hit_count": 0,
+        "complete": true,
+        "crt_hit_count": 0,
+        "evaluated": 20000,
+        "family": "random active residues {0,M-1}",
+        "hit_examples": [],
+        "samples_requested": 20000,
+        "split_count": 0,
+        "split_examples_without_crt": [],
+        "unclassified_crt_hit_count": 0
+      },
+      "scalar_mode_count": 5,
+      "t": 5
+    }
+  ],
+  "verdict": "NO_SPLIT_MULTICHAR_CRT_HIT_IN_PARAMETER_SWEEP"
+}

@@ -1,0 +1,147 @@
+diff --git a/dag.json b/dag.json
+index 5e423f8..39e1545 100644
+--- a/dag.json
++++ b/dag.json
+@@ -5116,12 +5116,12 @@
+   {
+    "from": "ext_import",
+    "to": "ext_lift",
+-   "kind": "req"
++   "kind": "ev"
+   },
+   {
+    "from": "generating_escape",
+    "to": "ext_lift",
+-   "kind": "req"
++   "kind": "ev"
+   },
+   {
+    "from": "f1_classification",
+@@ -6141,7 +6141,7 @@
+   {
+    "from": "acl_second_order",
+    "to": "adjacency_closing",
+-   "kind": "req"
++   "kind": "ev"
+   },
+   {
+    "from": "window_m5_charts",
+@@ -6891,12 +6891,12 @@
+   {
+    "from": "tr_perleaf_list_ident",
+    "to": "gap1_noneq_mass",
+-   "kind": "req"
++   "kind": "ev"
+   },
+   {
+    "from": "tr_joint_telescope",
+    "to": "gap1_noneq_mass",
+-   "kind": "req"
++   "kind": "ev"
+   },
+   {
+    "from": "spread_syzygy_ident",
+@@ -7036,12 +7036,12 @@
+   {
+    "from": "corridor_window_cleanup",
+    "to": "adjacency_closing",
+-   "kind": "req"
++   "kind": "ev"
+   },
+   {
+    "from": "corridor_ext_crossing",
+    "to": "adjacency_closing",
+-   "kind": "req"
++   "kind": "ev"
+   },
+   {
+    "from": "corridor_ledger",
+@@ -8229,4 +8229,4 @@
+    "kind": "req"
+   }
+  ]
+-}
+\ No newline at end of file
++}
+diff --git a/nodes/adjacency_closing/conditional.md b/nodes/adjacency_closing/conditional.md
+index 6db9442..e18cea1 100644
+--- a/nodes/adjacency_closing/conditional.md
++++ b/nodes/adjacency_closing/conditional.md
+@@ -9,8 +9,9 @@
+ - `corridor_ledger`
+ - `rate_half_band_closure`
+ 
+-The remaining required arithmetic inputs of this node feed the corridor ledger
+-or the pointwise crossing decisions directly:
++The arithmetic inputs below are not separate logical predicates of this node
++after the weakening audit: they feed `corridor_ledger`, whose proved packet is
++the single corridor-eater predicate consumed here.
+ 
+ - `acl_second_order`
+ - `corridor_window_cleanup`
+@@ -35,8 +36,7 @@ handles the remaining exact Diophantine windows.
+ 
+ The safe-side aperiodic contribution at the crossing candidates is supplied by
+ `aperiodic_zero_at_crossing`. The three priced corridor eaters are assembled by
+-`corridor_ledger`, consuming `acl_second_order`, `corridor_window_cleanup`, and
+-`corridor_ext_crossing`. Finally, `rate_half_band_closure` supplies the
++`corridor_ledger`. Finally, `rate_half_band_closure` supplies the
+ otherwise-uncovered rate-1/2 band, so the for-each-admissible-row quantifier has
+ no remaining exception.
+ 
+diff --git a/nodes/ext_lift/conditional.md b/nodes/ext_lift/conditional.md
+index 70e8fb2..7c8f9a0 100644
+--- a/nodes/ext_lift/conditional.md
++++ b/nodes/ext_lift/conditional.md
+@@ -21,6 +21,8 @@ intermediate-subfield/tower-confined.
+ The B-rational class is priced by `b_rational_lift`. The pole class is priced
+ by `f1_case_pole`, whose own dependencies carry the imported extension-pole
+ list bridge. The tower-confined class is priced by `f1_case_tower`.
++The historical `ext_import` and `generating_escape` edges are support for those
++case packets, not extra logical predicates of this assembly step.
+ 
+ These classes are exhaustive by `f1_classification`, so assembling the three
+ case ledgers proves the extension-lift classification. The remaining open
+diff --git a/nodes/gap1_noneq_mass/conditional.md b/nodes/gap1_noneq_mass/conditional.md
+index e3eb788..8e85d7d 100644
+--- a/nodes/gap1_noneq_mass/conditional.md
++++ b/nodes/gap1_noneq_mass/conditional.md
+@@ -3,13 +3,11 @@
+ ## Predicate nodes
+ 
+ - `gap1_product_model`
+-- `tr_joint_telescope`
+-- `tr_perleaf_list_ident`
+ 
+ ## Claim
+ 
+ The non-equivariant periodic escape stratum is bounded by `poly(n) * FM` once
+-the product model and TR terminal-reserve predicates are available.
++the product-model predicate is available.
+ 
+ ## Proof
+ 
+@@ -18,16 +16,13 @@ agreement object decomposes into isotypic character pieces. The non-equivariant
+ case is precisely the multi-isotypic case: more than one character contributes
+ on the stable stratum.
+ 
+-The predicate `gap1_product_model` removes cross-character amplification: the
+-multi-isotypic mass is bounded by the per-character product along the field
+-tower. Therefore any possible super-polynomial contribution must come from the
+-terminal product of per-character sets.
+-
+-The predicates `tr_joint_telescope` and `tr_perleaf_list_ident` are exactly the
+-terminal reserve chain. They telescope active characters to the joint
+-stabilizer and identify the remaining leaf with a quotient-row exact-list
+-instance supplied by the list lane.
++The predicate `gap1_product_model` packages the already-banked tower product
++mechanism together with the terminal-reserve reduction: cross-character
++amplification is removed, active characters telescope to the joint stabilizer,
++and the remaining leaf is identified with the quotient-row exact-list supply.
++Those internal ingredients are tracked as evidence/support for
++`gap1_product_model`, not as separate logical predicates of this parent.
+ 
+ Thus the terminal product is at most `poly(n) * FM`, and the whole
+ non-equivariant periodic stratum satisfies the GAP-1 bound conditionally on
+-those predicates.
++`gap1_product_model`.

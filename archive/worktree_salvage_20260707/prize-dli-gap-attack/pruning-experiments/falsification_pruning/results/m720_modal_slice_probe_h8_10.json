@@ -1,0 +1,160 @@
+{
+  "app_name": "rs-mca-m720-slice-probe-20260705",
+  "count_ceiling": 500000,
+  "elapsed_seconds": 26.82022190093994,
+  "node": "m720_official_norm_gate_case_manifest_payload",
+  "obligation_attacked": "residual h=7..20 window-slice unpaid non-toral active-core search",
+  "requested_configs": [
+    [
+      128,
+      8,
+      2
+    ],
+    [
+      128,
+      8,
+      3
+    ],
+    [
+      128,
+      9,
+      2
+    ],
+    [
+      128,
+      9,
+      3
+    ],
+    [
+      256,
+      8,
+      2
+    ],
+    [
+      256,
+      9,
+      2
+    ],
+    [
+      256,
+      10,
+      2
+    ]
+  ],
+  "rows": [
+    {
+      "W": 22,
+      "aborted": false,
+      "anchored_nontoral": 0,
+      "anchored_toral": 0,
+      "combination_cost": 436050,
+      "complete": false,
+      "elapsed_seconds": 3.5438027381896973,
+      "h": 8,
+      "n": 128,
+      "n_hash": 116280,
+      "n_probe": 203490,
+      "p": 17921,
+      "q_exp": 2,
+      "witnesses": []
+    },
+    {
+      "W": 22,
+      "aborted": false,
+      "anchored_nontoral": 0,
+      "anchored_toral": 0,
+      "combination_cost": 436050,
+      "complete": false,
+      "elapsed_seconds": 3.825939655303955,
+      "h": 8,
+      "n": 128,
+      "n_hash": 116280,
+      "n_probe": 203490,
+      "p": 2100097,
+      "q_exp": 3,
+      "witnesses": []
+    },
+    {
+      "W": 21,
+      "aborted": false,
+      "anchored_nontoral": 0,
+      "anchored_toral": 0,
+      "combination_cost": 419900,
+      "complete": false,
+      "elapsed_seconds": 3.9662599563598633,
+      "h": 9,
+      "n": 128,
+      "n_hash": 125970,
+      "n_probe": 167960,
+      "p": 17921,
+      "q_exp": 2,
+      "witnesses": []
+    },
+    {
+      "W": 21,
+      "aborted": false,
+      "anchored_nontoral": 0,
+      "anchored_toral": 0,
+      "combination_cost": 419900,
+      "complete": false,
+      "elapsed_seconds": 4.271348714828491,
+      "h": 9,
+      "n": 128,
+      "n_hash": 125970,
+      "n_probe": 167960,
+      "p": 2100097,
+      "q_exp": 3,
+      "witnesses": []
+    },
+    {
+      "W": 22,
+      "aborted": false,
+      "anchored_nontoral": 0,
+      "anchored_toral": 0,
+      "combination_cost": 436050,
+      "complete": false,
+      "elapsed_seconds": 3.7158689498901367,
+      "h": 8,
+      "n": 256,
+      "n_hash": 116280,
+      "n_probe": 203490,
+      "p": 65537,
+      "q_exp": 2,
+      "witnesses": []
+    },
+    {
+      "W": 21,
+      "aborted": false,
+      "anchored_nontoral": 0,
+      "anchored_toral": 0,
+      "combination_cost": 419900,
+      "complete": false,
+      "elapsed_seconds": 4.1105873584747314,
+      "h": 9,
+      "n": 256,
+      "n_hash": 125970,
+      "n_probe": 167960,
+      "p": 65537,
+      "q_exp": 2,
+      "witnesses": []
+    },
+    {
+      "W": 20,
+      "aborted": false,
+      "anchored_nontoral": 0,
+      "anchored_toral": 0,
+      "combination_cost": 277134,
+      "complete": false,
+      "elapsed_seconds": 3.0510547161102295,
+      "h": 10,
+      "n": 256,
+      "n_hash": 92378,
+      "n_probe": 92378,
+      "p": 65537,
+      "q_exp": 2,
+      "witnesses": []
+    }
+  ],
+  "scope": "calibration/window-slice evidence only; not complete official manifest",
+  "verdict": "NO_NONTORAL_SLICE_WITNESS_FOUND"
+}

@@ -1,0 +1,13 @@
+{
+  "attack": "gap-trade hunt",
+  "falsifier_candidates": [],
+  "planned_rows_total": 16,
+  "row_count": 6,
+  "rows": [],
+  "start_row": 10,
+  "started_at_unix": 1783329210.3689034,
+  "time_limit_seconds": 55.0,
+  "updated_at_unix": 1783329210.3689435,
+  "weight_max": null,
+  "weight_min": null
+}

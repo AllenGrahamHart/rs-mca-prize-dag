@@ -1,0 +1,1219 @@
+{
+  "app_name": "rs-mca-sov-bohr-dilution-20260705",
+  "elapsed_seconds": 25.336228132247925,
+  "interval_baseline": {
+    "interval_directed_ratio_freq_1": 0.9995984657849853,
+    "interval_h_sum_value_size_no_wrap": 21064,
+    "interval_value_fraction_no_wrap": 0.32140622854265527
+  },
+  "node": "sov_gridsum_residual",
+  "obligation_attacked": "Bohr/large_power_sum pricing threshold under diluted interval families",
+  "parameters": {
+    "cells_per_beta": 32,
+    "h": 21,
+    "m": 1024,
+    "max_frequency": 24,
+    "p": 65537,
+    "seconds": 50.0,
+    "seed": 7208,
+    "sum_samples": 8000
+  },
+  "rows": [
+    {
+      "beta_requested": 1.0,
+      "directed_ratio_freq_1": {
+        "max": 0.9995984657849853,
+        "median": 0.9995984657849853,
+        "min": 0.9995984657849853
+      },
+      "examples": [
+        {
+          "directed_ratio_freq_1": 0.9995984657849853,
+          "max_ratio_freq_1_to_max_frequency": 0.9995984657849853,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 8.248320232075626,
+            "collisions": 3868,
+            "distinct_sums": 4132,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9995984657849853,
+          "max_ratio_freq_1_to_max_frequency": 0.9995984657849853,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 8.29523415273376,
+            "collisions": 3890,
+            "distinct_sums": 4110,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9995984657849853,
+          "max_ratio_freq_1_to_max_frequency": 0.9995984657849853,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 8.35067787714792,
+            "collisions": 3916,
+            "distinct_sums": 4084,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        }
+      ],
+      "interval_points_kept": 1024,
+      "log2_family_cell_count": 0.0,
+      "log2_family_cell_density_among_m_cells": -7603.4030697108,
+      "log2_naive_cell_locator_mass_density": -126.29323617031997,
+      "max_ratio_freq_1_to_max_frequency": {
+        "max": 0.9995984657849853,
+        "median": 0.9995984657849853,
+        "min": 0.9995984657849853
+      },
+      "passes_thresholds_by_median_smallfreq": [
+        "0.980",
+        "0.985",
+        "0.990",
+        "0.995"
+      ],
+      "random_points_added": 0,
+      "sampled_h_sum_collisions": {
+        "max_collision_ratio_vs_uniform": 8.480757384427292,
+        "median_collision_ratio_vs_uniform": 8.361340131842951,
+        "median_collisions": 3921.0,
+        "median_distinct_sums": 4079.0
+      },
+      "samples_completed": 32
+    },
+    {
+      "beta_requested": 0.9990234375,
+      "directed_ratio_freq_1": {
+        "max": 0.9995910128423963,
+        "median": 0.9986610105780804,
+        "min": 0.9976473208614016
+      },
+      "examples": [
+        {
+          "directed_ratio_freq_1": 0.9995910128423963,
+          "max_ratio_freq_1_to_max_frequency": 0.9995910128423963,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 8.280306996160718,
+            "collisions": 3883,
+            "distinct_sums": 4117,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9978310902817519,
+          "max_ratio_freq_1_to_max_frequency": 0.9978310902817519,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 8.199273860478486,
+            "collisions": 3845,
+            "distinct_sums": 4155,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9987952710250426,
+          "max_ratio_freq_1_to_max_frequency": 0.9987952710250426,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 8.171551998271406,
+            "collisions": 3832,
+            "distinct_sums": 4168,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        }
+      ],
+      "interval_points_kept": 1023,
+      "log2_family_cell_count": 25.97727992367937,
+      "log2_family_cell_density_among_m_cells": -7577.42578978712,
+      "log2_naive_cell_locator_mass_density": -100.31595624664061,
+      "max_ratio_freq_1_to_max_frequency": {
+        "max": 0.9995910128423963,
+        "median": 0.9986610105780804,
+        "min": 0.9978310902817519
+      },
+      "passes_thresholds_by_median_smallfreq": [
+        "0.980",
+        "0.985",
+        "0.990",
+        "0.995"
+      ],
+      "random_points_added": 1,
+      "sampled_h_sum_collisions": {
+        "max_collision_ratio_vs_uniform": 8.325088465879846,
+        "median_collision_ratio_vs_uniform": 8.139565234186314,
+        "median_collisions": 3817.0,
+        "median_distinct_sums": 4183.0
+      },
+      "samples_completed": 32
+    },
+    {
+      "beta_requested": 0.998046875,
+      "directed_ratio_freq_1": {
+        "max": 0.9995349577534131,
+        "median": 0.997800062525471,
+        "min": 0.9957429281030781
+      },
+      "examples": [
+        {
+          "directed_ratio_freq_1": 0.9980475255885126,
+          "max_ratio_freq_1_to_max_frequency": 0.9980475255885126,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 7.862346612115521,
+            "collisions": 3687,
+            "distinct_sums": 4313,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9972554419543616,
+          "max_ratio_freq_1_to_max_frequency": 0.9972554419543616,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 7.864479063054527,
+            "collisions": 3688,
+            "distinct_sums": 4312,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9994715580723548,
+          "max_ratio_freq_1_to_max_frequency": 0.9994715580723548,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 7.941247296858747,
+            "collisions": 3724,
+            "distinct_sums": 4276,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        }
+      ],
+      "interval_points_kept": 1022,
+      "log2_family_cell_count": 49.95312791341843,
+      "log2_family_cell_density_among_m_cells": -7553.449941797382,
+      "log2_naive_cell_locator_mass_density": -76.34010825690154,
+      "max_ratio_freq_1_to_max_frequency": {
+        "max": 0.9995349577534131,
+        "median": 0.9978782008013294,
+        "min": 0.996366643230074
+      },
+      "passes_thresholds_by_median_smallfreq": [
+        "0.980",
+        "0.985",
+        "0.990",
+        "0.995"
+      ],
+      "random_points_added": 2,
+      "sampled_h_sum_collisions": {
+        "max_collision_ratio_vs_uniform": 8.150227488881345,
+        "median_collision_ratio_vs_uniform": 7.911392983712662,
+        "median_collisions": 3710.0,
+        "median_distinct_sums": 4290.0
+      },
+      "samples_completed": 32
+    },
+    {
+      "beta_requested": 0.99609375,
+      "directed_ratio_freq_1": {
+        "max": 0.9982887319614681,
+        "median": 0.9953203233119063,
+        "min": 0.9921390290395491
+      },
+      "examples": [
+        {
+          "directed_ratio_freq_1": 0.9967984005604824,
+          "max_ratio_freq_1_to_max_frequency": 0.9967984005604824,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 7.683220733239008,
+            "collisions": 3603,
+            "distinct_sums": 4397,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9956893711843345,
+          "max_ratio_freq_1_to_max_frequency": 0.9956893711843345,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 7.34202858299803,
+            "collisions": 3443,
+            "distinct_sums": 4557,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9944346942802584,
+          "max_ratio_freq_1_to_max_frequency": 0.9948214178620154,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 7.4102670130462265,
+            "collisions": 3475,
+            "distinct_sums": 4525,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        }
+      ],
+      "interval_points_kept": 1020,
+      "log2_family_cell_count": 94.73059757251289,
+      "log2_family_cell_density_among_m_cells": -7508.672472138287,
+      "log2_naive_cell_locator_mass_density": -31.56263859780708,
+      "max_ratio_freq_1_to_max_frequency": {
+        "max": 0.9982887319614681,
+        "median": 0.9958624237856168,
+        "min": 0.9943413736665488
+      },
+      "passes_thresholds_by_median_smallfreq": [
+        "0.980",
+        "0.985",
+        "0.990",
+        "0.995"
+      ],
+      "random_points_added": 4,
+      "sampled_h_sum_collisions": {
+        "max_collision_ratio_vs_uniform": 7.704545242629069,
+        "median_collision_ratio_vs_uniform": 7.445452453539827,
+        "median_collisions": 3491.5,
+        "median_distinct_sums": 4508.5
+      },
+      "samples_completed": 32
+    },
+    {
+      "beta_requested": 0.994140625,
+      "directed_ratio_freq_1": {
+        "max": 0.9981358087124541,
+        "median": 0.9939410215065343,
+        "min": 0.9905875616989185
+      },
+      "examples": [
+        {
+          "directed_ratio_freq_1": 0.9919261971773445,
+          "max_ratio_freq_1_to_max_frequency": 0.9919261971773445,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 6.883551631111717,
+            "collisions": 3228,
+            "distinct_sums": 4772,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9914248092132246,
+          "max_ratio_freq_1_to_max_frequency": 0.9914248092132246,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 6.921935748013827,
+            "collisions": 3246,
+            "distinct_sums": 4754,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.995039493062851,
+          "max_ratio_freq_1_to_max_frequency": 0.995039493062851,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 6.945392708342895,
+            "collisions": 3257,
+            "distinct_sums": 4743,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        }
+      ],
+      "interval_points_kept": 1018,
+      "log2_family_cell_count": 136.85846672536974,
+      "log2_family_cell_density_among_m_cells": -7466.54460298543,
+      "log2_naive_cell_locator_mass_density": 10.565230555049766,
+      "max_ratio_freq_1_to_max_frequency": {
+        "max": 0.9981358087124541,
+        "median": 0.9940685637277028,
+        "min": 0.9914248092132246
+      },
+      "passes_thresholds_by_median_smallfreq": [
+        "0.980",
+        "0.985",
+        "0.990"
+      ],
+      "random_points_added": 6,
+      "sampled_h_sum_collisions": {
+        "max_collision_ratio_vs_uniform": 7.49556505060647,
+        "median_collision_ratio_vs_uniform": 6.989107952592519,
+        "median_collisions": 3277.5,
+        "median_distinct_sums": 4722.5
+      },
+      "samples_completed": 32
+    },
+    {
+      "beta_requested": 0.9921875,
+      "directed_ratio_freq_1": {
+        "max": 0.9962414918400049,
+        "median": 0.9913674699084691,
+        "min": 0.9870449136832844
+      },
+      "examples": [
+        {
+          "directed_ratio_freq_1": 0.992488147703713,
+          "max_ratio_freq_1_to_max_frequency": 0.992488147703713,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 6.557286637443783,
+            "collisions": 3075,
+            "distinct_sums": 4925,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9913607243834536,
+          "max_ratio_freq_1_to_max_frequency": 0.9913607243834536,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 6.499710462090618,
+            "collisions": 3048,
+            "distinct_sums": 4952,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9907425707162119,
+          "max_ratio_freq_1_to_max_frequency": 0.9918557423116744,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 6.674571439089119,
+            "collisions": 3130,
+            "distinct_sums": 4870,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        }
+      ],
+      "interval_points_kept": 1016,
+      "log2_family_cell_count": 177.17965180190873,
+      "log2_family_cell_density_among_m_cells": -7426.223417908891,
+      "log2_naive_cell_locator_mass_density": 50.88641563158876,
+      "max_ratio_freq_1_to_max_frequency": {
+        "max": 0.9962414918400049,
+        "median": 0.9919038151959934,
+        "min": 0.9899463616824556
+      },
+      "passes_thresholds_by_median_smallfreq": [
+        "0.980",
+        "0.985",
+        "0.990"
+      ],
+      "random_points_added": 8,
+      "sampled_h_sum_collisions": {
+        "max_collision_ratio_vs_uniform": 6.9645847667939496,
+        "median_collision_ratio_vs_uniform": 6.578611146833843,
+        "median_collisions": 3085.0,
+        "median_distinct_sums": 4915.0
+      },
+      "samples_completed": 32
+    },
+    {
+      "beta_requested": 0.990234375,
+      "directed_ratio_freq_1": {
+        "max": 0.9947162394819006,
+        "median": 0.9891547130895137,
+        "min": 0.9854133216433973
+      },
+      "examples": [
+        {
+          "directed_ratio_freq_1": 0.9892665802140362,
+          "max_ratio_freq_1_to_max_frequency": 0.9903024502052366,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 6.403750169835343,
+            "collisions": 3003,
+            "distinct_sums": 4997,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.991446457859864,
+          "max_ratio_freq_1_to_max_frequency": 0.991446457859864,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 6.18624017405672,
+            "collisions": 2901,
+            "distinct_sums": 5099,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9892793814099169,
+          "max_ratio_freq_1_to_max_frequency": 0.9908995851828162,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 6.22462429095883,
+            "collisions": 2919,
+            "distinct_sums": 5081,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        }
+      ],
+      "interval_points_kept": 1014,
+      "log2_family_cell_count": 216.1260739554829,
+      "log2_family_cell_density_among_m_cells": -7387.276995755317,
+      "log2_naive_cell_locator_mass_density": 89.83283778516295,
+      "max_ratio_freq_1_to_max_frequency": {
+        "max": 0.9947162394819006,
+        "median": 0.9898508880701151,
+        "min": 0.9879468897504479
+      },
+      "passes_thresholds_by_median_smallfreq": [
+        "0.980",
+        "0.985"
+      ],
+      "random_points_added": 10,
+      "sampled_h_sum_collisions": {
+        "max_collision_ratio_vs_uniform": 6.446399188615465,
+        "median_collision_ratio_vs_uniform": 6.2203593890808175,
+        "median_collisions": 2917.0,
+        "median_distinct_sums": 5083.0
+      },
+      "samples_completed": 32
+    },
+    {
+      "beta_requested": 0.98828125,
+      "directed_ratio_freq_1": {
+        "max": 0.9914756883111447,
+        "median": 0.9877101707077665,
+        "min": 0.9812280325913953
+      },
+      "examples": [
+        {
+          "directed_ratio_freq_1": 0.9904878665308764,
+          "max_ratio_freq_1_to_max_frequency": 0.9904878665308764,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 6.073220274289397,
+            "collisions": 2848,
+            "distinct_sums": 5152,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9849726329286839,
+          "max_ratio_freq_1_to_max_frequency": 0.9849726329286839,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 5.7362930259264315,
+            "collisions": 2690,
+            "distinct_sums": 5310,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9863517800457817,
+          "max_ratio_freq_1_to_max_frequency": 0.9872700742191984,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 5.629670478976125,
+            "collisions": 2640,
+            "distinct_sums": 5360,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        }
+      ],
+      "interval_points_kept": 1012,
+      "log2_family_cell_count": 253.96163629390264,
+      "log2_family_cell_density_among_m_cells": -7349.441433416898,
+      "log2_naive_cell_locator_mass_density": 127.66840012358267,
+      "max_ratio_freq_1_to_max_frequency": {
+        "max": 0.9940064531563839,
+        "median": 0.988203621578553,
+        "min": 0.9849726329286839
+      },
+      "passes_thresholds_by_median_smallfreq": [
+        "0.980",
+        "0.985"
+      ],
+      "random_points_added": 12,
+      "sampled_h_sum_collisions": {
+        "max_collision_ratio_vs_uniform": 6.141458704337592,
+        "median_collision_ratio_vs_uniform": 5.8418493474072335,
+        "median_collisions": 2739.5,
+        "median_distinct_sums": 5260.5
+      },
+      "samples_completed": 32
+    },
+    {
+      "beta_requested": 0.984375,
+      "directed_ratio_freq_1": {
+        "max": 0.9886269926858495,
+        "median": 0.9841300852676095,
+        "min": 0.9768211303250227
+      },
+      "examples": [
+        {
+          "directed_ratio_freq_1": 0.9868537532852821,
+          "max_ratio_freq_1_to_max_frequency": 0.9868537532852821,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 5.459074403855637,
+            "collisions": 2560,
+            "distinct_sums": 5440,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9844870596766553,
+          "max_ratio_freq_1_to_max_frequency": 0.9844870596766553,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 5.169061076150807,
+            "collisions": 2424,
+            "distinct_sums": 5576,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9840087013426412,
+          "max_ratio_freq_1_to_max_frequency": 0.987481611341284,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 5.43561744352657,
+            "collisions": 2549,
+            "distinct_sums": 5451,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        }
+      ],
+      "interval_points_kept": 1008,
+      "log2_family_cell_count": 326.96358866943336,
+      "log2_family_cell_density_among_m_cells": -7276.439481041367,
+      "log2_naive_cell_locator_mass_density": 200.6703524991134,
+      "max_ratio_freq_1_to_max_frequency": {
+        "max": 0.9886269926858495,
+        "median": 0.9847616150667772,
+        "min": 0.9821983545617596
+      },
+      "passes_thresholds_by_median_smallfreq": [
+        "0.980"
+      ],
+      "random_points_added": 16,
+      "sampled_h_sum_collisions": {
+        "max_collision_ratio_vs_uniform": 5.5507697942329,
+        "median_collision_ratio_vs_uniform": 5.228769702442977,
+        "median_collisions": 2452.0,
+        "median_distinct_sums": 5548.0
+      },
+      "samples_completed": 32
+    },
+    {
+      "beta_requested": 0.98046875,
+      "directed_ratio_freq_1": {
+        "max": 0.9850401897052622,
+        "median": 0.9794401928656238,
+        "min": 0.9742663306030035
+      },
+      "examples": [
+        {
+          "directed_ratio_freq_1": 0.9762764475442901,
+          "max_ratio_freq_1_to_max_frequency": 0.9783627867019595,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 4.574107264168102,
+            "collisions": 2145,
+            "distinct_sums": 5855,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9816764893369876,
+          "max_ratio_freq_1_to_max_frequency": 0.9816764893369876,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 4.697789418630457,
+            "collisions": 2203,
+            "distinct_sums": 5797,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        },
+        {
+          "directed_ratio_freq_1": 0.9816545916498388,
+          "max_ratio_freq_1_to_max_frequency": 0.9816545916498388,
+          "sample_prefix": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "sum_stats": {
+            "collision_ratio_vs_uniform": 4.53145824538798,
+            "collisions": 2125,
+            "distinct_sums": 5875,
+            "expected_uniform_collisions": 468.9439657008379,
+            "samples": 8000
+          }
+        }
+      ],
+      "interval_points_kept": 1004,
+      "log2_family_cell_count": 397.1171780910703,
+      "log2_family_cell_density_among_m_cells": -7206.28589161973,
+      "log2_naive_cell_locator_mass_density": 270.82394192075037,
+      "max_ratio_freq_1_to_max_frequency": {
+        "max": 0.985662704188619,
+        "median": 0.9807083002878005,
+        "min": 0.9761102806035538
+      },
+      "passes_thresholds_by_median_smallfreq": [
+        "0.980"
+      ],
+      "random_points_added": 20,
+      "sampled_h_sum_collisions": {
+        "max_collision_ratio_vs_uniform": 4.91529941440908,
+        "median_collision_ratio_vs_uniform": 4.598630449966672,
+        "median_collisions": 2156.5,
+        "median_distinct_sums": 5843.5
+      },
+      "samples_completed": 32
+    }
+  ],
+  "scope": "constructed diluted-Bohr families; sampled h-sum collision evidence",
+  "thresholds": [
+    0.98,
+    0.985,
+    0.99,
+    0.995
+  ],
+  "verdict": "NO_DILUTED_OVERINCLUSION_AT_TESTED_THRESHOLDS"
+}

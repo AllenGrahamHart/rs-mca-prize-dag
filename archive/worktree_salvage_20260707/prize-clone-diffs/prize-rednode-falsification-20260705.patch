@@ -1,0 +1,392 @@
+diff --git a/dag.json b/dag.json
+index 1d21143..b55538c 100644
+--- a/dag.json
++++ b/dag.json
+@@ -3571,7 +3571,7 @@
+    "refs": [
+     "experimental/notes/roadmaps/flip_packets/rate_half_coverage_gap.md"
+    ],
+-   "notes": "FLOOR-DEPTH VERDICT (Modal, exact): max reach 2^33 on the c = 2^22..2^33 plateau; sigma* - 2^33 = 2,978,146 = the band (endpoint convention settled). The battlefield node's first route is dead; the q-threshold refinement queued. | Q-THRESHOLD EXACT (Modal run 2): band open only for log2 q > 255.900 \u2014 the determination closes for 99.96% of the admissible size range; the node is now a razor-slice problem. | CONDITIONAL (Pro Brief I route 1-averaged, verified): AQB-I => the whole band unsafe for all admissible q (average > trigger => some word fails; deficit monotone in Q, worst at 256; radius monotonicity propagates down the band). The last kernel red with open mathematics is now amber on ONE named averaged estimate. | AQB route (route 2, averaged conversion) REFUTED by Pro's convex-combination lemma (verified). Surviving routes: safe-side push through sigma*, B2b-balance. Band stays bracket-grade on the razor slice log2 q in (255.900,256) until a sibling route lands. | AMBERED (Pro P6, arithmetic verified): NOT bracket-grade; route = dihedral_fixed_point_sibling_window (non-AQB, non-giant-M; twin-pair fibers give fine-grained scales covering the band, fixed-point sibling patches the endpoint; entropy 4.05e10 >> 128). Residual = dihedral_sibling_window_certificate. | T8: dihedral route REFUTED; reverted to open \u2014 bracket-grade or a new covering mechanism. AQB + dihedral both dead. | CORRECTED: bracket = creditable PARTIAL not full determination (prize wants exact largest threshold). Verified vs proximityprize.org spec.",
++   "notes": "CURRENT STATE (red-team reconciled 2026-07-05): ordinary 2-power quotient floor does not close the top-field rate-1/2 band; Modal timeout=60 replay gives max_depth_at_256=2^33, gap=2,978,146, threshold_log2q=255.900000021, depth_at_threshold=sigma*, depth_just_above=sigma*-1. Budget-surface replay (timeout=60) gives the concrete top-cap targets: exact-sigma c=2/AQB-style row is short by 429,645,546.773560 bits = 0.099999979046 bits per fiber; cheapest overshooting one-block row c=2^34,d=1 is still 91.850934 total bits short. AQB averaged conversion is REFUTED by the convex-combination lemma. Dihedral/Chebyshev sibling route is REFUTED (T8); stale proof/conditional artifacts moved to REFUTED_* files. Surviving routes: safe-side push through sigma*, B2b-style balance, or a genuinely new priced mechanism. Bracket is a creditable PARTIAL, not a full determination.",
+    "gate": "any"
+   },
+   {
+@@ -5257,7 +5257,7 @@
+    "statement": "CORRECTED (Pro T4B, verified): the arbitrary-cell version is REFUTED by an INFINITE family \u2014 prime-field additive Bohr/interval cells Gamma={1..(p-1)/R} are non-trace-flat, non-quotient, non-dihedral, positive density (R^-r), yet the obstruction takes only <=(r/R)q values (0.321q at F_65537,R=64,r=21, VERIFIED) with char ratio >sinc(pi/R)^r. So trace-flat + quotient/dihedral removal is NOT enough. Valid decomposition: + a NEW paid large_power_sum/Bohr-window class (exists a!=0,j with |sum psi(jax)|>B) whose MASS must be priced; then the PROVED Lane-1 Euler-product theorem closes the residual_fourier_uniform cells. REMAINING: price/rule the large_power_sum/Bohr class (a real ledger obligation, proven necessary).",
+    "attack_surface": "Lane-1 distinct-coordinate/symmetric-power sieve; Lane-2 sheaf trace bound on the divisor chart.",
+    "falsifier": "A positive-density residual (non-trace-flat, non-quotient) cell with no cancellation.",
+-   "notes": "T4 (verified): trace-flat gate insufficient (arc counterexample); Lane-1 engine PROVED; needs large_power_sum/Bohr-flat paid gate + residual budget. | T4B (verified): infinite-family refutation; needs the large_power_sum/Bohr-window paid gate priced, then Lane-1."
++   "notes": "T4 (verified): trace-flat gate insufficient (arc counterexample); Lane-1 engine PROVED; needs large_power_sum/Bohr-flat paid gate + residual budget. | T4B (verified): infinite-family refutation; needs the large_power_sum/Bohr-window paid gate priced, then Lane-1. | RED-TEAM 2026-07-05 (Modal timeout=60): repaired split survived 528-case search over primes 257,509,769,1031,1543 plus F_65537 interval guardrail; no positive-density ample low-Fourier small-value-set counterexample found. Follow-up direct local search and noisy-interval deformation also found no unexplained candidate; best low-Fourier ample cases had full value set. Evidence recorded in REDTEAM_SOV_BOHR_SCAN.md and REDTEAM_LOCAL_SEARCH.md."
+   },
+   {
+    "id": "m720_conductor_compression",
+@@ -5266,7 +5266,7 @@
+    "statement": "REFINED (Pro T5, verified): the support-size compression is REFUTED (1024/7 obstruction has full degree 512). A REFINED universal height gate is PROVED: |sigma(A_j)|<=2^{H_h}, H_h=(4h-2)+log2(max_j sum U_a U_b), VERIFIED H_20=136.24 (CORRECTS my earlier crude 291 which was too weak: 2^290.7>2^250). Even refined, h<=18 close at degree<=2 (p~2^250) but h=19,20 close only at [L:Q]=1 and CANNOT close over F_{p^2} (char~125<136.24). So m720 needs, per row/window: (R2) a SURVIVOR-CONDITIONED nonzero obstruction in a field L with H_h[L:Q]<log2 p (survivor-specific), OR (R3) the C2 gcd(p,D(n,h))=1 certificate, BLOCKED on the missing official Row-C primes + D(n,h) payload.",
+    "attack_surface": "(i) survivor-conditioned field bound via the actual survivor equations (not support size); or (ii) obtain the D(n,h) + official Row-C primes and run the C2 gcd check.",
+    "falsifier": "an official case with p | D_pt(n,h): a genuine bad-reduction prime with a non-char-0 anchored survivor.",
+-   "notes": "T5 (verified): compression REFUTED (14-support, degree 512); conditional height PROVED; D-GCD blocked on missing official payload. Node = survivor-conditioned field bound OR D-GCD data. | T5 (verified): refined height H_20=136.24 (was 291); still insufficient for h=19,20 at Row-C => needs survivor-conditioned descent (R2) or C2 payload (R3)."
++   "notes": "T5 (verified): compression REFUTED (14-support, degree 512); conditional height PROVED; D-GCD blocked on missing official payload. Node = survivor-conditioned field bound OR D-GCD data. | T5 (verified): refined height H_20=136.24 (was 291); still insufficient for h=19,20 at Row-C => needs survivor-conditioned descent (R2) or C2 payload (R3). | RED-TEAM 2026-07-05 (Modal timeout=60): refined height replay returned H_7=43.567391, H_13=86.293075, H_19=129.100658, H_20=136.240746; all h<=18 close at degree 2 for p~2^250, but h=19,20 do not close at degree 2 and do not close at char~2^125 even in degree 1. Small-survivor probe found complete non-toral anchored survivors at n=32,h=6,p=97 but zero trades at adjacent n=32,h=7,p=97. Follow-up value-fiber search found a verified non-toral n=64,h=7,p=193 survivor (P={5,19,24,50,51,58,62}, Q={2,17,38,45,49,53,61}); h=8 random search found no witness in 864740 trials, best fiber 7. Any no-survivor theorem must use official/high-q/certificate hypotheses, not just h>=7. Evidence in REDTEAM_HEIGHT_REPLAY.md, REDTEAM_SMALL_SURVIVOR_PROBE.md, REDTEAM_VALUE_FIBER_H7.md."
+   },
+   {
+    "id": "petal_cofactor_chargeability",
+@@ -5284,7 +5284,7 @@
+    "statement": "E22-CF source (Pro T2, confirmed 2nd pass): the sunflower supplies, off one common fiber-compatible bounded tail B (|B|<min M_i), BOTH (i) POINTWISE covariance H_i(eta x)=eta^{e_i}H_i(x) for eta in mu_{M_i} (equiv. H_i=X^{e_i}G_i(X^{M_i})), AND (ii) OFF-TAIL EXHAUSTIVITY T_i\\B={x in P_i\\B: H_i(x)=0} (the agreement set IS the full off-tail zero set). Then T_i\\B is mu_{M_i}-invariant and q_cofactor_normal_form (PROVED) gives L_{T_i\\B}=prod_z(X^{M_i}-z). BOTH clauses load-bearing: divisor constraints L_{T_i}|H_i alone fail (interpolation counterexample), and a quotient-shaped H with T one-point-short of full fibers also fails ('one point per fiber' counterexample) \u2014 exhaustivity is what excludes it. A pointwise extraction from the moment-trade model; NOT shared with P5.",
+    "attack_surface": "Extract the covariance/degree property from the actual E22 moment-trade sunflower model (U, L_{Z\\C}, L_{C\\Z}, a_i).",
+    "falsifier": "A mixed-petal challenger whose cofactor is not mu_M-semi-invariant off any bounded tail.",
+-   "notes": "Sharpened by T2: pointwise covariance source; terminal (q_cofactor_normal_form) proved; source stays separate from P5. | 2nd T2 pass: added off-tail exhaustivity clause (one-point-per-fiber counterexample); confirmed separate from P5. | T6 (verified + Lean): source = SQUARE-SHIFT CHARACTER BALANCE + off-tail exhaustivity (F_97 counterexample confirms bare divisibility insufficient; stdlib Lean handoff, no sorry). Remaining: cite square-shift balance from the moment-trade construction."
++   "notes": "Sharpened by T2: pointwise covariance source; terminal (q_cofactor_normal_form) proved; source stays separate from P5. | 2nd T2 pass: added off-tail exhaustivity clause (one-point-per-fiber counterexample); confirmed separate from P5. | T6 (verified + Lean): source = SQUARE-SHIFT CHARACTER BALANCE + off-tail exhaustivity. | RED-TEAM 2026-07-05 (Modal timeout=60, F_97 n=96 M=8): replay confirmed both guardrails. Bare L_T|H does not force H=X^eG(X^M); quotient-shaped H still does not force T\\B full-fiber saturated unless off-tail exhaustivity holds. Common-tail packing replay also shows separate one-point local tails for M=8 petals do not imply one common |B|<M tail. Evidence in REDTEAM_GUARDRAILS.md and REDTEAM_COMMON_TAIL_PACKING.md. Remaining: cite square-shift balance from the moment-trade construction."
+   },
+   {
+    "id": "dihedral_sibling_window_certificate",
+@@ -5329,7 +5329,7 @@
+    "statement": "PROVED exact reduction (Pro Lemma 1, orthogonality, verified): rho_j(M)=q^{L_j}|Z_j(M)|/U_j, Z_j={d in prod D_y: A d=0} the bounded-coefficient kernel skews. So DLI-flatness <=> a bound on the kernel-skew count. REMAINING (RES, sufficient for primitive-core <=2^122): |R_j(M)|+1_{0 in prod D} <= q^{kappa_j} U_j/q^{L_j} uniformly on the central measure, sum_j kappa_j=o(t), where R_j (proved to contain Z_j\\{0}) = large-support (>=L_j+1, Vandermonde) + norm-gated (p|gcd_r Res(X^N+1,Q_{d,r})) + not killed-cyclotomic/coset. SCOPE: central measure must exclude/charge singleton-zero domains via RANK charging (zero atoms cost L_j - rank; unconditional version false without this, verified). Fixed-lambda refuted (|F_M(lambda)|<=1 => O(1) per lambda; obstruction is aggregate). Empirically eta* flat (rho_j->1) = RES with tiny kappa_j.",
+    "attack_surface": "compute/bound the block-size distribution of the degree-preimage residue partition of the odd-eval map on the square-root section; likely checkable at small scale (mu_16/mu_32).",
+    "falsifier": "a central profile / level whose actual map-partition carries Omega(L_j) mass on blocks of bounded size.",
+-   "notes": "The deepest DLI leaf (~7th reduction). Concrete + possibly computationally checkable. Consistent with calibration eta*/L=3.6e-7. | EMPIRICAL EVIDENCE (local census, seconds-scale, this session): (1) Deligne per-block cancellation CONFIRMED \u2014 max_lambda|mu_hat_S| ~ 2.5/sqrt(|S|) for the odd-eval phase, ROBUST across random AND structured (consecutive-index) subsets (no adversarial block cancels worse; section values are mult-structured => additively spread). (2) Non-cancelling blocks are only the SMALL ones (|S| <= ~C^2 ~ 9). (3) Near-peak FREQUENCY count VANISHES with scale: n=32 has ~212 freqs with |mu|>0.3, n=128 has 0, n=256+ none with |mu|>0.2 (max|mu| ~2.5/sqrt(n)). So the near-peak mass DECREASES with scale (the ~129 is a small-scale artifact). Strong support for the dli equidistribution core; the exact multi-level block partition not directly tested (needs the D-thread partition def). | REAL-OBJECT CORRECTION (harness-based, this session): my earlier max|mu_hat|~2.5/sqrt(n) evidence was a PROXY (whole-section average), NOT the real DLI object. The real object is B_j(M)=q^{-L_j} sum_lambda prod_y mu_hat_y(lambda), mu_hat_y=sum_d psi(d lambda v_y) (VERIFIED via verify_level2_tower.py TEST 1 = exact census match). Excess rho=skewcount*q/2^|G| SCALES WITH q (not 1/sqrt(n)); eta_j=log_q rho_j. Governed by VANDERMONDE RIGIDITY: nonzero skew needs support >= L_j+1, so the meaningful regime is LARGE support (my |G|=3-6 test was below-threshold toy artifacts). Calibration eta*/L=3.6e-7 => eta_j=3.6e-7 L_j (linear, tiny coeff) => sum=o(t) via the small coefficient, NOT bounded excess. CONFIDENCE: HIGH->MEDIUM (proxy was misleading). NEXT: reproduce the calibration eta_j=3.6e-7 L_j on the real object at the actual calibration params. | REAL-OBJECT CONFIRMATION (Fourier form, verify_d3_reduction harness extended): the deviation exponent eta*=log_q rho_j is FLAT \u2014 rho_j -> 1.0000 (eta*->0) as N/scale grows, for BOTH ternary and signed domains. CALIBRATION REPRODUCED EXACTLY: signed midpoint eta*=0.019 at mu_32 N=16 (exact match to the node record), DECREASING with N; ternary flat ~0. So Sum_j eta_j = o(t) holds on the REAL object (prod_y mu_hat_y(lambda), not the earlier whole-section proxy). CONFIDENCE: MEDIUM->HIGH (now on the true object, calibration on the nose). The leaf is CORRECT as stated \u2014 no chain-hacking needed. | PRO CONDITIONAL CLOSURE (verified): exact reduction rho_j=q^L|Z_j|/U proved (Lemma 1); dli-flatness reduced to the RES resultant-survivor count; zero-atom caveat => rank-charged central measure; fixed-lambda refuted. The remaining leaf is now a sharp COUNTING statement, empirically supported. | ZERO-ATOM RESOLVED (verified): Pro's singleton-{0} counterexample was a phrasing artifact of my brief (\"bounded symmetric domain\" did not say ACTIVE). Real central profiles have active coords |D_y|>=2 and the wide Vandermonde odd-eval matrix A is FULL RANK (rank=L for all N>=L, verified) => rank-charging penalty L_j-rank=0. No real gap; scope = active full-rank central profiles (auto-satisfied). The RES count is unaffected."
++   "notes": "The deepest DLI leaf (~7th reduction). Concrete + possibly computationally checkable. Consistent with calibration eta*/L=3.6e-7. | EMPIRICAL EVIDENCE (local census, seconds-scale, this session): (1) Deligne per-block cancellation CONFIRMED \u2014 max_lambda|mu_hat_S| ~ 2.5/sqrt(|S|) for the odd-eval phase, ROBUST across random AND structured (consecutive-index) subsets (no adversarial block cancels worse; section values are mult-structured => additively spread). (2) Non-cancelling blocks are only the SMALL ones (|S| <= ~C^2 ~ 9). (3) Near-peak FREQUENCY count VANISHES with scale: n=32 has ~212 freqs with |mu|>0.3, n=128 has 0, n=256+ none with |mu|>0.2 (max|mu| ~2.5/sqrt(n)). So the near-peak mass DECREASES with scale (the ~129 is a small-scale artifact). Strong support for the dli equidistribution core; the exact multi-level block partition not directly tested (needs the D-thread partition def). | REAL-OBJECT CORRECTION (harness-based, this session): my earlier max|mu_hat|~2.5/sqrt(n) evidence was a PROXY (whole-section average), NOT the real DLI object. The real object is B_j(M)=q^{-L_j} sum_lambda prod_y mu_hat_y(lambda), mu_hat_y=sum_d psi(d lambda v_y) (VERIFIED via verify_level2_tower.py TEST 1 = exact census match). Excess rho=skewcount*q/2^|G| SCALES WITH q (not 1/sqrt(n)); eta_j=log_q rho_j. Governed by VANDERMONDE RIGIDITY: nonzero skew needs support >= L_j+1, so the meaningful regime is LARGE support (my |G|=3-6 test was below-threshold toy artifacts). Calibration eta*/L=3.6e-7 => eta_j=3.6e-7 L_j (linear, tiny coeff) => sum=o(t) via the small coefficient, NOT bounded excess. CONFIDENCE: HIGH->MEDIUM (proxy was misleading). NEXT: reproduce the calibration eta_j=3.6e-7 L_j on the real object at the actual calibration params. | REAL-OBJECT CONFIRMATION (Fourier form, verify_d3_reduction harness extended): the deviation exponent eta*=log_q rho_j is FLAT \u2014 rho_j -> 1.0000 (eta*->0) as N/scale grows, for BOTH ternary and signed domains. CALIBRATION REPRODUCED EXACTLY: signed midpoint eta*=0.019 at mu_32 N=16 (exact match to the node record), DECREASING with N; ternary flat ~0. So Sum_j eta_j = o(t) holds on the REAL object (prod_y mu_hat_y(lambda), not the earlier whole-section proxy). CONFIDENCE: MEDIUM->HIGH (now on the true object, calibration on the nose). The leaf is CORRECT as stated \u2014 no chain-hacking needed. | PRO CONDITIONAL CLOSURE (verified): exact reduction rho_j=q^L|Z_j|/U proved (Lemma 1); dli-flatness reduced to the RES resultant-survivor count; zero-atom caveat => rank-charged central measure; fixed-lambda refuted. The remaining leaf is now a sharp COUNTING statement, empirically supported. | ZERO-ATOM RESOLVED (verified): Pro's singleton-{0} counterexample was a phrasing artifact of my brief (\"bounded symmetric domain\" did not say ACTIVE). Real central profiles have active coords |D_y|>=2 and the wide Vandermonde odd-eval matrix A is FULL RANK (rank=L for all N>=L, verified) => rank-charging penalty L_j-rank=0. No real gap; scope = active full-rank central profiles (auto-satisfied). The RES count is unaffected. | RED-TEAM 2026-07-05 (Modal timeout=60): zero-atom rank-charge replay over F_101 confirms the scoped repair: all singleton-zero columns give rho=q^3, eta=3, effective rank 0, rank charge 3; one singleton-zero column gives eta=2.699619 and rank charge 1. Active full-rank scan over 150 toy profiles found only charged zero-only artifacts and small-support finite spikes; the largest nonzero spike n=128,p=257,L=3,active=18 signed has eta=0.876493 but flattens to rho=1.000896 at active=36 and rho=0.999090 at active=42. Support-choice stress found a moderate random active-24 spike (rho=8.094117, eta=0.376844), but active-30 and active-36 random supports were near uniform (rho=1.359559 and 1.044370). Additional signed L=4 growth stress found a random active-32 spike (rho=4.062867, eta=0.252635), but active-36/40 complete samples flattened to rho=1.650540/1.150617. Evidence in REDTEAM_ZERO_ATOM_RANK_CHARGE.md, REDTEAM_ACTIVE_SKEW_SCAN.md, REDTEAM_SUPPORT_STRESS.md, REDTEAM_L4_SUPPORT_GROWTH.md."
+   },
+   {
+    "id": "petal_newton_window",
+@@ -5338,7 +5338,7 @@
+    "statement": "Absolute kappa_N,b_N>=0: every squarefree-realizable full-petal residue-kernel cofactor component is either bounded-tail charged OR its residue-kernel equations force >= c - kappa_N consecutive quotient-compatible moment (power-sum / elementary-coeff) vanishings in the primitive coordinate. This is where the residue-kernel EQUATIONS + Newton identities enter (Lemma 13 alone insufficient).",
+    "attack_surface": "local residue-moment / descent / ledger check; calibrated in the L1 dyadic toy (F_17[z]/(z^32-3), |H|=512).",
+    "falsifier": "a residue-kernel component with c large but no long initial moment window.",
+-   "notes": "T7 sub-gate; N+D+L => PRK_pet with B_pet=kappa_N+theta+b_N+1."
++   "notes": "T7 sub-gate; N+D+L => PRK_pet with B_pet=kappa_N+theta+b_N+1. | RED-TEAM 2026-07-05: scope/testability gap found. The repo does not yet define a verifier-level quotient-compatible moment window, primitive coordinate, or Newton-identity extraction from the residue-kernel equations; surrounding artifacts stop at Lemma 13 and downstream uses assume Gate N. Verifier boundary: petal_fixed_excess/verify.py builds K_{I,d} and checks Lemma 13 only; missing cofactor coordinate, primitive projection, quotient scale, and moment predicate. Follow-up Modal exact guardrail over 160 toy K_{I,d} kernels found positive-excess split squarefree locators with nonzero first naive ambient-root power sum (e.g. F_19, t=4, ell=2, d=5, roots {9,10,12,13,15}); K-membership alone does not give the Newton window. Add a precise primitive quotient predicate or L1 dyadic toy verifier before live falsification is meaningful."
+   },
+   {
+    "id": "petal_quotient_descent_step",
+@@ -5347,7 +5347,7 @@
+    "statement": "Absolute theta>=1, mu>=2 (dyadic mu=2, toy theta=5): a Q-fiber-saturated squarefree-realizable component with long moment window m>=theta*Q is saturated by a strictly coarser paid quotient (fiber >= mu*Q) \u2014 the moment equations force the Q-quotient image signed/antipodal/coset-periodic, lifting to a larger charged full-fiber sheet. The genuine rigidity/descent theorem.",
+    "attack_surface": "local residue-moment / descent / ledger check; calibrated in the L1 dyadic toy (F_17[z]/(z^32-3), |H|=512).",
+    "falsifier": "a long moment window at scale Q not saturated at a larger quotient scale.",
+-   "notes": "T7 sub-gate; N+D+L => PRK_pet with B_pet=kappa_N+theta+b_N+1."
++   "notes": "T7 sub-gate; N+D+L => PRK_pet with B_pet=kappa_N+theta+b_N+1. | RED-TEAM 2026-07-05: bare cyclic moment-window descent is false: exact subsets at (M,L,p)=(36,5,37),(40,5,41) have first five power sums zero but are neither coarser-periodic nor signed-antipodal. Dyadic cases M=16,24,32 with L=5,8,10 resisted exact MITM, but randomized dyadic M=64,L=5 over F_193 and M=128,L=5 over F_257 found non-paid subsets with first five power sums zero. Full Gate D must use squarefree-realizable residue-kernel equations; do not prove from moments or dyadicity alone."
+   },
+   {
+    "id": "petal_low_defect_quotient_charge",
+@@ -5356,7 +5356,7 @@
+    "statement": "Absolute delta_L: at the maximal paid quotient Q with short window m<theta*Q, the quotient-coordinate residual has defect delta=floor(m/Q)<=theta-1; every such low-defect quotient-complement family is a PAID low-defect sheet (a chargeability/citation, NOT a point-count bound \u2014 they may be large). GUARDRAIL: omitting low-defect sheets from the paid menu is REFUTED (terminal quotient-complement rows Z_1,Z_2,Z_3 in the L1 dyadic toy are not bounded residual noise).",
+    "attack_surface": "local residue-moment / descent / ledger check; calibrated in the L1 dyadic toy (F_17[z]/(z^32-3), |H|=512).",
+    "falsifier": "a short-window quotient-complement family not present in the paid low-defect ledger.",
+-   "notes": "T7 sub-gate; N+D+L => PRK_pet with B_pet=kappa_N+theta+b_N+1."
++   "notes": "T7 sub-gate; N+D+L => PRK_pet with B_pet=kappa_N+theta+b_N+1. | RED-TEAM 2026-07-05: citation-completeness gap found. The repo names low-defect quotient sheets as charged, and downstream ledger soundness assumes every charged record has a paid citation, but no dedicated paid low-defect grammar/citation node was found. Gate L is not a point-count bound; it must supply the paid low-defect ledger record or cite an existing fixed-excess/quotient-profile paid class. Second pass: petal_fixed_excess is a proved candidate citation, but the missing bridge is quotient-coordinate low-defect (floor(m/Q)<=theta-1) -> fixed-excess full-petal layer. Follow-up Modal count: quotient-complement sheets G(Y)=(Y^M-1)/missing(Y), lifted to G(X^Q), have binom(M,delta) members; fixed delta=3 gives 560,4960,41664,341376 sheets for M=16,32,64,128 with exact Q-fiber verification. This confirms low-defect is a growing paid sheet, not bounded residual noise."
+   }
+  ],
+  "edges": [
+@@ -9831,4 +9831,4 @@
+    "kind": "req"
+   }
+  ]
+-}
+\ No newline at end of file
++}
+diff --git a/nodes/e22_mixed_petal_covariance/proof.md b/nodes/e22_mixed_petal_covariance/proof.md
+index e446947..880d479 100644
+--- a/nodes/e22_mixed_petal_covariance/proof.md
++++ b/nodes/e22_mixed_petal_covariance/proof.md
+@@ -8,5 +8,7 @@ moment-trade pairing) + off-tail exhaustivity T_i\B={x in P_i\B: H_i(x)=0} =>
+ H_i(eta x)=eta^{e_i}H_i(x) => mu_{M_i}-invariant => prod_z(X^{M_i}-z). Counterexample
+ VERIFIED (F_97, M=8): L_{T_i}|H_i holds but H_i matches any monomial c X^e on <=2/8
+ points => needs deleting 12>=M=8, impossible for |B|<M. Lean handoff stdlib-only, no
+-sorry (build not run — no lean in env). Remaining: cite square-shift balance from the
+-E22 moment-trade construction.
++sorry (build not run — no lean in env). Red-team common-tail packing replay (2026-07-05)
++also shows that separate one-point local tails for M=8 petals need not pack into
++one common |B|<M tail. Remaining: cite square-shift balance from the E22
++moment-trade construction.
+diff --git a/nodes/rate_half_band_closure/conditional.md b/nodes/rate_half_band_closure/conditional.md
+deleted file mode 100644
+index 15bf4b3..0000000
+--- a/nodes/rate_half_band_closure/conditional.md
++++ /dev/null
+@@ -1,11 +0,0 @@
+-# rate_half_band_closure conditional proof
+-
+-## Predicate node
+-
+-- `aqb_averaged_quotient_box`
+-
+-## Claim
+-AQB-I closes the residual band 2^33 < sigma <= sigma* for all admissible q in (2^255.9, 2^256).
+-
+-## Proof (Pro Brief I, verified)
+-Conservative trigger log2 L > Q - 40. The c=2 exact-crossing row's deficit Delta(Q) = d*Q - 40 - log2 C(2^40, m) is increasing in Q, worst at Q=256 where Delta = B_I = 429,645,546.773. AQB-I supplies 429,645,547 bits, so the AVERAGE list exceeds the trigger for every admissible q; hence some family member fails MCA at sigma*, and radius monotonicity propagates the failure down the band. Combined with the proved safe side above sigma*, the determination closes.
+diff --git a/nodes/rate_half_band_closure/notes/verify_floor_depth_modal.py b/nodes/rate_half_band_closure/notes/verify_floor_depth_modal.py
+index 6220ad9..54ea82d 100644
+--- a/nodes/rate_half_band_closure/notes/verify_floor_depth_modal.py
++++ b/nodes/rate_half_band_closure/notes/verify_floor_depth_modal.py
+@@ -2,7 +2,7 @@ import modal
+ 
+ app = modal.App("rs-mca-floor-depth")
+ 
+-@app.function(cpu=2.0, memory=4096, timeout=1800)
++@app.function(cpu=2.0, memory=4096, timeout=60)
+ def floor_depth():
+     """Max quotient-remainder floor depth at rate 1/2 over all 2-power scales.
+     lgamma-based log2-binomials; margins reported so boundary cases are honest."""
+diff --git a/nodes/rate_half_band_closure/notes/verify_q_threshold_modal.py b/nodes/rate_half_band_closure/notes/verify_q_threshold_modal.py
+index 8164033..4285008 100644
+--- a/nodes/rate_half_band_closure/notes/verify_q_threshold_modal.py
++++ b/nodes/rate_half_band_closure/notes/verify_q_threshold_modal.py
+@@ -2,7 +2,7 @@ import modal
+ 
+ app = modal.App("rs-mca-q-threshold")
+ 
+-@app.function(cpu=2.0, memory=4096, timeout=1800)
++@app.function(cpu=2.0, memory=4096, timeout=60)
+ def q_threshold():
+     """Find the exact log2(q) threshold below which the floor family's reach
+     covers sigma* at rate 1/2 — i.e., the band closes. Box charge and trigger
+diff --git a/nodes/rate_half_band_closure/proof.md b/nodes/rate_half_band_closure/proof.md
+deleted file mode 100644
+index f9fb71f..0000000
+--- a/nodes/rate_half_band_closure/proof.md
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# proof: rate_half — dihedral sibling window route (Pro P6, arithmetic verified)
+-
+-## Verdict: NOT bracket-grade. A concrete priced covering mechanism exists.
+-The band [M0=2^33, sigma*=8,592,912,738] (size 2,978,147, VERIFIED) is the shadow
+-of the 2-power quotient-core floor cap n/256=2^33. The DIHEDRAL/Chebyshev quotient
+-x -> x + x^{-1} has twin-pair fibers {x, x^{-1}}, giving FINE-GRAINED scales d (NOT
+-restricted to the 2-power lattice). Under the strict window convention (scale d
+-covers sigma < d), the even dihedral scales 2^33+2, 2^33+4, ..., cover
+-[2^33, sigma*-1] (half-lattice = 1,489,073 scales, VERIFIED), each with count
+-C(2^40, 2^32+1), log2 ~ 4.05e10 (VERIFIED) — a 3e8x margin over the trigger
+-B* < 2^128. This is NON-AQB (explicit single-family lower-bound witnesses, no
+-averaging => no convex-combination cancellation) and non-giant-M.
+-
+-## Endpoint patch (fixed-point sibling)
+-Inversion has fixed points +-1 in mu_n; adding one fixed singleton to a twin-pair
+-support shifts the effective dihedral scale by one parity, giving d = sigma*+1, so
+-the strict condition covers sigma = sigma*. Count loses only a poly/constant factor
+-(still ~1e10 bits >> 128) — a degree/support-certification question, not entropy.
+-
+-## Remaining obligation (residual leaf: dihedral_sibling_window_certificate)
+-The Chebyshev/fixed-point CERTIFICATE (concrete, not numerical): (1) degree audit
+-(twin + singleton locators stay deg<k); (2) distinctness/noncontainment (dihedral
+-witnesses distinct on D, NOT silently the old qcore witnesses); (3) strict-window
+-endpoint (sigma<d, use d=sigma+1, fixed-point sibling for top parity); (4) priced
+-count certificate (trivial: 4.05e10 >> 128). Supported by: E26 dihedral plan,
+-floor-depth verdict (cap = n/256), B2b no-concentration scan (39/39, max excess
+-2^4.18 << falsifier). Fallback bracket ONLY if this certificate fails formally.
+diff --git a/nodes/rate_half_band_closure/statement.md b/nodes/rate_half_band_closure/statement.md
+index 209242d..38df74c 100644
+--- a/nodes/rate_half_band_closure/statement.md
++++ b/nodes/rate_half_band_closure/statement.md
+@@ -1,17 +1,35 @@
+ # rate_half_band_closure
+ 
+-- **status:** TARGET
+-- **closure:** proof
+-- **refs (legacy repo):** ['experimental/notes/roadmaps/flip_packets/rate_half_coverage_gap.md']
++## Status
++
++`TARGET`.
+ 
+ ## Statement
+ 
+-Cover the 2,978,147-radius band at prize-max rate 1/2 (M_max = 2^33 vs sigma* = 8,592,912,738) by a new mechanism (quotient windows and integrality both fall short) — or the rate-1/2 determination lands bracket-grade there. Rates 1/4, 1/8, 1/16 need nothing (clean by margins < -121). THE rate-1/2 battlefield node.
++The rate-`1/2` residual band
++
++`2^33 < sigma <= sigma* = 8,592,912,738`
++
++remains bracket-grade unless a genuinely new theorem supplies many monic
++degree-`k` locators with the first `sigma` high coefficients cancelled, `k`
++roots in `mu_n`, disjoint `sigma`-tails, and not merely the old `2`-power
++quotient-core floor.
+ 
+-## Attack surface
++The current repaired position is:
+ 
+-a third mechanism for the band: extended quotient scales, averaged conversion at giant M, or the B2b-style balance analysis
++- the ordinary `2`-power quotient-remainder floor reaches only `2^33` at
++  `log2(q)=256`;
++- the floor covers `sigma*` only below `log2(q) ~= 255.900000021`;
++- at `log2(q)=256`, an exact-sigma fine-floor perturbation needs
++  `0.099999979046` bits per fiber, while the cheapest overshooting one-block
++  quotient step (`c=2^34,d=1`) is still `91.850934` total bits short;
++- the AQB averaged conversion route is refuted by the convex-combination
++  obstruction;
++- the dihedral/Chebyshev sibling-window route is refuted;
++- surviving routes are a safe-side push through `sigma*`, a B2b-style balance
++  theorem, or another genuinely new priced mechanism.
+ 
+ ## Falsifier
+ 
+-a band radius provably uncoverable by any priced mechanism
++A band radius provably uncoverable by any priced mechanism, or a replay showing
++that one of the repaired arithmetic boundary claims above is false.
+diff --git a/notes/EMPIRICAL_OBSERVATIONS.md b/notes/EMPIRICAL_OBSERVATIONS.md
+index 043929f..9358376 100644
+--- a/notes/EMPIRICAL_OBSERVATIONS.md
++++ b/notes/EMPIRICAL_OBSERVATIONS.md
+@@ -28,8 +28,20 @@ cosets/sumsets/Bohr/random):
+   ZERO unexplained (small value-set + small power sums). Supports the decomposition.
+ - BUG caught in 2s: an incomplete-frequency check false-flagged APs (Bohr at freq d^-1) —
+   fixed by sweeping all frequencies. (This was the wrong-conjecture failure mode in miniature.)
+-Not yet tested at scale on Modal (local signal already strong). Upstream amber
+-(single_obstruction_valueset via sov_hminus1_fiber_fourier_duality) not yet stress-tested.
++- MODAL RED-TEAM (2026-07-05, timeout=60, completed 528 cases in 43.992s):
++  primes 257,509,769,1031,1543 plus analytic F_65537 interval guardrail; cell
++  types interval/AP/Bohr/noisy interval/two intervals/random; r=2,3,4,5,6,7,8,
++  12,13,15,16,21. Result: 0 unexplained counterexamples; 155 small-value cells
++  were paid by large Fourier/Bohr; 163 finite sparse artifacts; 192 uniform.
++  Best low-Fourier positive-density pressure case (random size 63 in F_509,
++  r=3, max Fourier 0.2786) had full value set. Supports the repaired split;
++  remaining obligation is pricing/ruling the large_power_sum/Bohr class.
++ADVERSARIAL LOCAL SEARCH (Modal timeout=60): direct random-start and
++noisy-interval-start subset swaps found no positive-density ample low-Fourier
++small-value-set candidate. Best low-Fourier pressure cases at F_257,m=21,r=4
++had max Fourier 0.4356/0.4187 and full value set.
++Upstream amber (single_obstruction_valueset via sov_hminus1_fiber_fourier_duality)
++not yet stress-tested.
+ 
+ ## petal (Gate D / petal_quotient_descent_step)  — confidence: LOW (needs redesign)
+ Conjecture: power-sum window m >= theta*2^r => coset-union at scale r; theta=5.
+@@ -38,9 +50,67 @@ Observations (L1 dyadic toy F_17[z]/(z^32-3), |H|=512):
+   => theta=5 is conservative (~2.5x margin above a bare scale-r coset-union).
+ - Random supports essentially NEVER have a power-sum window (p_1=0 is codim-32) => windows
+   are rare/structured, consistent with Gate N.
++- MODAL TOY RED-TEAM (2026-07-05, timeout=60, exact MITM): no non-paid cyclic
++  quotient examples for M=16,24,32 with L=5,8,10; but exact non-paid examples
++  exist at M=36,L=5 over F_37 and M=40,L=5 over F_41. Thus bare moment-window
++  descent is false outside the calibrated dyadic/squarefree-realizable setting.
++- DYADIC FOLLOW-UP (2026-07-05, Modal timeout=60): randomized pair-sum MITM at
++  M=64,L=5 over F_193 and M=128,L=5 over F_257 found non-paid dyadic examples
++  with first five power sums zero, no coarser period, and not signed-antipodal.
++  Thus dyadicity alone does not rescue the bare moment-window argument; Gate D
++  must use actual squarefree-realizable residue-kernel equations.
++Gate D must use the actual residue-kernel hypotheses, not just vanishing
++power sums.
+ Flaw in first design: tested the wrong direction; need to CONSTRUCT long-window non-coset
+ supports to measure the tight theta. Redesign pending.
+ 
++## petal_low_defect_quotient_charge — confidence: LOW until citation is explicit
++RED-TEAM audit (2026-07-05): the repo names "low-defect quotient" as a charged
++class, and ledger soundness assumes every charged class cites a paid family, but
++no dedicated paid low-defect grammar/citation node was found. This is not a
++point-count target; the missing deliverable is a paid-class record/citation
++absorbing the large terminal quotient-complement sheets.
++Second pass: `petal_fixed_excess` is a plausible proved citation, but only after
++an explicit bridge from bounded quotient defect `floor(m/Q)<=theta-1` to a
++fixed-excess full-petal layer. That bridge is not yet present/wired.
++LOW-DEFECT SHEET COUNT (Modal timeout=60): exact quotient-complement lifts
++`G(Y)=(Y^M-1)/missing(Y)`, `G(X^Q)`, were verified on all n-th roots for
++M=16,32,64,128 and delta=1,2,3. Fixed delta=3 already gives
++560, 4960, 41664, 341376 sheets, with support in one residue class mod Q and
++zero fiber-verification errors. Confirms Gate L is a paid-class/citation
++obligation, not a bounded-noise point-count claim.
++
++## petal_newton_window — confidence: LOW until predicate is pinned
++RED-TEAM audit (2026-07-05): no verifier-level definition of the
++quotient-compatible moment window / primitive coordinate / Newton-identity
++extraction was found. Existing petal residue-line artifacts prove Lemma 13 and
++classification reductions, but Gate N itself remains an undefined source
++theorem for testing purposes. Next step is a precise predicate or L1 dyadic toy
++verifier before numerical falsification can be meaningful.
++Verifier boundary: `petal_fixed_excess/verify.py` builds `K_{I,d}` and checks
++Lemma 13 only; the cofactor coordinate, primitive projection, quotient scale,
++and moment predicate are still missing. Harness requirements are recorded in
++`nodes/petal_newton_window/HARNESS_REQUIREMENTS.md`.
++NAIVE-KERNEL GUARDRAIL (Modal timeout=60): exact enumeration of 160 toy
++`K_{I,d}` kernels found positive-excess split squarefree locators with nonzero
++first naive root power sum, e.g. over F_19 with t=4, ell=2, d=5, roots
++{9,10,12,13,15} and power sums (2,16,4,13,5). Thus K-membership/Lemma 13 alone
++does not give the Newton window in the ambient root coordinate; the primitive
++quotient coordinate is load-bearing.
++
++## e22_mixed_petal_covariance — confidence: MEDIUM-HIGH on repaired scope
++MODAL RED-TEAM replay (2026-07-05, timeout=60): over F_97 with n=96,M=8,
++bare divisibility `L_T|H` allows a non-covariant `H=L_T` whose support hits all
++residues mod 8; quotient-shaped `H=prod_z(X^8-z)` can vanish on a one-point-per-
++fiber `T` but requires deleting 9 points to make `T\\B` fiber-saturated, exceeding
++the allowed tail `M-1=7`. Thus both repaired hypotheses are load-bearing. The
++remaining obligation is not another local guardrail; it is citing/extracting
++square-shift character balance and off-tail exhaustivity from the real E22 model.
++Follow-up common-tail packing replay: eight touched petals can each be repaired
++by a one-point local tail, but the union of local tails has size exactly `M=8`,
++so no common `|B|<M` works. This confirms that "common bounded tail" is also
++load-bearing; separate local tails are not enough.
++
+ ## m720_conductor_compression (the gate: no primitive non-toral survivor) — confidence: MEDIUM (test vacuous)
+ Observations (local, exhaustive small n): random anchored 2h-supports over char-0 (aux prime
+ P0=1e9) have ZERO char-0 survivors (all obstructions O_j!=0) at n=8,16 / h=3,4. So the gate
+@@ -50,6 +120,24 @@ survivors as toral vs primitive. Need the exact square-shift survivor family to
+ the X24 char-0-toral classification. My O_j setup (S_R^2-C_R, top-h match) may not capture the
+ actual survivor condition. Prior modal_m720 census: 0 survivors where complete (consistent).
+ CAVEAT to record: no strong empirical handle on the PRIMITIVE-survivor exclusion yet.
++- MODAL HEIGHT REPLAY (2026-07-05, timeout=60): refined formal-square-root table
++  reproduced H_7=43.567391, H_13=86.293075, H_19=129.100658, H_20=136.240746.
++  All h<=18 close at degree 2 for p~2^250; h=19,20 do not close at degree 2 and
++  also do not close at char~2^125 in degree 1. This confirms the current red
++  scope: global height is settled; the live need is survivor-conditioned descent
++  or C2/D-GCD payload data.
++- MODAL SMALL-SURVIVOR PROBE (2026-07-05, timeout=60): exact lower-signature
++  census found complete non-toral anchored survivors at n=32,h=6,p=97
++  (16 trades, 6 anchored cores), but zero trades at the adjacent complete
++  n=32,h=7,p=97 row. This does not hit the official h=7..20 target, but it
++  refutes any proof that tries to extend the no-survivor principle to all h
++  below the official band.
++- MODAL VALUE-FIBER SEARCH (2026-07-05, timeout=60): using the identity
++  `L_Q=L_P-v` when `L_P` has a nonzero value fiber `Q`, a randomized search
++  found a verified non-toral n=64,h=7,p=193 survivor after 84935 trials:
++  P={5,19,24,50,51,58,62}, Q={2,17,38,45,49,53,61}. Adjacent h=8 found no
++  witness in 864740 trials, best fiber size 7. Thus even h>=7 alone is not the
++  structural reason; official/high-q/certificate hypotheses remain essential.
+ 
+ ## sov upstream amber single_obstruction_valueset (grid-sum => small fibers) — confidence: MEDIUM-HIGH
+ Observation: in the sov_adv census, NON-structured (random) cells have value-set fraction
+@@ -74,6 +162,22 @@ CAVEAT: the eaters are "COMPUTED (agent verifier PASS)" — arithmetically verif
+ rigorous-proof vs high-confidence-computation status is the general fidelity question, not re-audited.
+ Strategic update: remaining prize gaps = (a) the 8 mca_safe leaves, (b) rate_half adjacency (rate 1/2).
+ 
++## rate_half_band_closure — confidence: MEDIUM-HIGH on arithmetic narrowing
++MODAL RED-TEAM replay (2026-07-05, timeout=60): all power-of-two quotient scales
++dividing n=2^41,k=2^40 were swept. At log2(q)=256, max depth is exactly 2^33,
++leaving gap 2,978,146 to sigma*=8,592,912,738. The threshold replay gives
++log2(q)=255.900000021 with depth_at_threshold=sigma* and depth_just_above=sigma*-1.
++So the old floor route really leaves only the top ~0.1 bits of field-size range.
++Audit correction: stale dihedral and AQB closure artifacts in the node folder
++were moved to REFUTED_* files; current live routes are safe-side push, B2b
++balance, or a genuinely new priced mechanism.
++Budget-surface replay (Modal timeout=60, 1.316s) sharpens the target: at
++`log2(q)=256`, the old floor plateau is exactly `e=22..33`; exact-sigma
++fine-floor/AQB perturbations need `0.099999979046` bits per fiber, whereas the
++cheapest overshooting one-block quotient row `c=2^34,d=1` is still `91.850934`
++total bits short. This does not close the node, but it gives concrete budgets
++for any B2b/safe-side/giant-scale replacement claim.
++
+ ## dli REAL-OBJECT CORRECTION (supersedes the proxy evidence above) — confidence: MEDIUM (was HIGH)
+ - Block partition PINNED: B_j(M)=q^{-L_j} sum_lambda prod_y mu_hat_y(lambda), mu_hat_y(lambda)=sum_d psi(d lambda v_y),
+   v_y=zeta_n^{(2s+1)i}. CONFIRMED by verify_level2_tower.py (TEST 1 = exact mu_32 census match).
+@@ -124,6 +228,28 @@ the Deligne route's "reduced polar divisor harmonic total o(t)" input (same quan
+   contain Z_j\{0}) = large-support(>=L_j+1) + norm-gated + not killed-cyclotomic. A sharp COUNTING stmt.
+ - ZERO-ATOM (verified): unconditional-A FALSE if singleton-zero domains allowed (rho_j=q^{L_j}). Fix =
+   RANK CHARGING (zero atoms cost L_j - rank; central measure must exclude/charge them).
++- MODAL ZERO-ATOM REPLAY (2026-07-05, timeout=60): over F_101, all singleton-zero
++  columns give rho=q^3, eta=3, effective rank 0, rank charge 3; one singleton-zero
++  column gives eta=2.699619 and rank charge 1. Confirms the scoped repair: active
++  full-rank central profiles are the live RES problem, not arbitrary domains.
++- MODAL ACTIVE-SKEW SCAN (2026-07-05, timeout=60): 150 exact active full-rank toy
++  profiles over n=64,128,256 and signed/ternary domains. Raw max was a ternary
++  zero-only artifact covered by the `+1_0` term. Largest nonzero spike
++  (n=128,p=257,L=3,active=18 signed) had eta=0.876493, but the growth scan in
++  the same row flattened to rho=1.000896 at active=36 and rho=0.999090 at
++  active=42. No large-regime active full-rank falsifier found.
++- MODAL SUPPORT-STRESS (2026-07-05, timeout=60): exact signed L=3,
++  n=128,p=257 sweep of all consecutive active-18/24/30 windows plus random
++  supports found a moderate random active-24 spike (rho=8.094117, eta=0.376844)
++  but active-30 and active-36 random supports were near uniform
++  (rho=1.359559 and 1.044370). Small-support spikes are real but not persistent
++  in sampled larger active supports.
++- MODAL L4 SUPPORT-GROWTH (2026-07-05, timeout=60): exact signed L=4,
++  n=128,p=257 sampled intervals/random supports. A random active-32 support
++  reached rho=4.062867, eta=0.252635, but active-36 and active-40 best complete
++  rows were much flatter (rho=1.650540, eta=0.090304; rho=1.150617,
++  eta=0.025283). The final random active-40 case was incomplete at soft stop.
++  No large-support active full-rank falsifier found.
+ - FIXED-LAMBDA refuted (|F_M|<=1): obstruction is aggregate kernel-skew mass, not any single lambda.
+ - Empirical eta* flat (rho_j->1) = RES with kappa_j ~ 0 already supported. Remaining = the rigorous
+   RES/resultant-sieve count. dli confidence HIGH; exact reduction now PROVEN.
