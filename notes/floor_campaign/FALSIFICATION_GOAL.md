@@ -342,3 +342,11 @@ artifact replayable by a stranger.
   q >= 97 (the banked window-closure reproduced exactly), UNCLASSIFIED = 0
   everywhere. **F7 SURVIVAL +2** (envelope-stress family). One more family
   (engineered challenger stacking) hardens F7.
+- F5-A2 RUN (f5a2_engineered_spread_modal.py, greedy adversarial
+  construction, 5 rows): the engineered spread maximum saturates at
+  THETA(n) — 28/51/106 at n = 46/96/192 (k=2; ~0.55n) and 46/81 (k=3) —
+  matching the dimension-count prediction (each alignment costs sigma of
+  the 2n degrees of freedom of (u,v)), 4-6 orders under the 16n^3
+  budgets, zero alarms. **F5 SURVIVAL +2** + ROUTE LEAD: the
+  dimension-count argument (engineered cap O(n/sigma)) is a proof
+  candidate for the floor's structural margin.
