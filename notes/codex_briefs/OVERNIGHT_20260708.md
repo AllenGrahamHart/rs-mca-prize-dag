@@ -174,12 +174,24 @@ here counts on two floors.
 
 ## 5. THE OVERNIGHT LOOP
 
-Repeat until a terminal goal is reached or morning:
+Repeat until MORNING (never stop early — completing a terminal advances
+you to the next queue item, it does not end the night):
 1. Pick the highest-priority open stage (A1 -> A2 -> A3 -> A4 -> A5,
    with B stages interleaved if A blocks).
 2. Pose it precisely in the notes file (pre-register).
 3. Attempt proof OR design the decisive experiment; run on Modal.
 4. Machine-check; bank with label; commit.
+   On completing a TERMINAL: write its node-candidate statement + proof
+   file, mark it TERMINAL-COMPLETE in OVERNIGHT_LOG.md, then MOVE ON:
+   A complete -> start B; B complete -> start C; all three complete ->
+   the BONUS QUEUE, in order: (i) prove the h=4/5 emptiness (the
+   pullback classification + no-primitive theorem the data supports);
+   (ii) sweep h = 6, 7, 8 with the ladder machinery (new censuses,
+   pullback decode, norm-gate certificates); (iii) POSE the h=3 per-row
+   accident bound precisely (the Stepanov target: the h=3 analogue of
+   HBK) with the auxiliary-polynomial ansatz written out — this is the
+   final missing piece of the F3-green path and even a clean POSE is
+   valuable.
 5. Every ~2 hours, append a timestamped progress entry to
    OVERNIGHT_LOG.md in the worktree root: current stage, what is
    banked, what is blocked, next step. If genuinely blocked on a stage
