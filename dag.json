@@ -2714,7 +2714,7 @@
    "title": "FLOOR CONJECTURE: per-pair spread remainder inside R_post <= 16 n^3 at the official candidates",
    "status": "TARGET",
    "key": true,
-   "statement": "FLOOR RE-POSE (2026-07-07, floor campaign): the 2026-07-06 sharpening already matched the consumer (xr_clean_residual_any_gate consumes exactly 'R_post(u,v;A) <= 16 n^3 per pair, post quotient/tangent strips, dihedral + extension inside'; sufficiency is exact integer arithmetic at all six candidates; ~2^100 slack above n^3 in the 2^122-2^127.9 allowance). Now framed as a standing conjecture with the pre-registered falsifier. Opening evidence: E27 remainder at FM-normalized rates, all classifiers at chance, no fifth mechanism. | For every pair (u,v): the number of aligned aperiodic supports whose agreement sets pairwise share cores < k+t-1 (the post-cascade remainder, a spread family in the face-3 sense) is bounded in the budget-compatible form needed by the consumer: R_spread(u,v; A) <= 16 n^3 after the quotient, tangent, dihedral, and extension columns are stripped or counted inside R_post. The old generic poly(n) wording is insufficient for xr_clean_residual_any_gate; the live obligation is the explicit 16 n^3-compatible count. E27's toy data places this remainder in the FM band (unstructured multiplicity >=2 events at FM-normalized rates, all classification tests at chance). This is face 4's residual content after the cascade lemma: a spread-family count whose natural instruments are face-3 design bounds, syzygy circuits, and the exception classes. | SURVIVAL +1 scoped (2026-07-07, F5-A1): rungs-2a/2b certificate gate PASS (38 checks); exact greedy spread families = exactly q (slope-limited) at all 5 completed rungs vs 16n^3 budgets \u2014 four orders of magnitude of margin, zero alarms with adversarial pencil pairs; q=71 rung to A1b. | SURVIVAL +2 (2026-07-07, F5-A2): adversarial spread engineering saturates at Theta(n) (0.55n measured across 3 scales; dimension count \u2014 sigma conditions per alignment against 2n dof \u2014 confirmed), 4-6 orders under budget; the dimension argument is a proof lead for the floor. | SURVIVAL +3 -> **HARDENED** (2026-07-07, F5-A3): strip-integrity depth spectra \u2014 random-word tangent cores collapse by d=2 at every scale; adversarial cascades classify as the ledger's charged binomial dressings. Families: slope-limited spread / engineered dimension-cap / strip-integrity. | SURVIVAL +4 (2026-07-07, Pro floor-window 5): genuine Pro attack on the shared-syzygy surface incl. k >= 4 \u2014 dependencies collapse into Pi_S(v)=0 invalid columns (live supports <= 3); no kill. Proof lead banked: the live-syzygy lemma.",
+   "statement": "FLOOR RE-POSE (2026-07-07, floor campaign): the 2026-07-06 sharpening already matched the consumer (xr_clean_residual_any_gate consumes exactly 'R_post(u,v;A) <= 16 n^3 per pair, post quotient/tangent strips, dihedral + extension inside'; sufficiency is exact integer arithmetic at all six candidates; ~2^100 slack above n^3 in the 2^122-2^127.9 allowance). Now framed as a standing conjecture with the pre-registered falsifier. Opening evidence: E27 remainder at FM-normalized rates, all classifiers at chance, no fifth mechanism. | For every pair (u,v): the number of aligned aperiodic supports whose agreement sets pairwise share cores < k+t-1 (the post-cascade remainder, a spread family in the face-3 sense) is bounded in the budget-compatible form needed by the consumer: R_spread(u,v; A) <= 16 n^3 after the quotient, tangent, dihedral, and extension columns are stripped or counted inside R_post. The old generic poly(n) wording is insufficient for xr_clean_residual_any_gate; the live obligation is the explicit 16 n^3-compatible count. E27's toy data places this remainder in the FM band (unstructured multiplicity >=2 events at FM-normalized rates, all classification tests at chance). This is face 4's residual content after the cascade lemma: a spread-family count whose natural instruments are face-3 design bounds, syzygy circuits, and the exception classes. | SURVIVAL +1 scoped (2026-07-07, F5-A1): rungs-2a/2b certificate gate PASS (38 checks); exact greedy spread families = exactly q (slope-limited) at all 5 completed rungs vs 16n^3 budgets \u2014 four orders of magnitude of margin, zero alarms with adversarial pencil pairs; q=71 rung to A1b. | SURVIVAL +2 (2026-07-07, F5-A2): adversarial spread engineering saturates at Theta(n) (0.55n measured across 3 scales; dimension count \u2014 sigma conditions per alignment against 2n dof \u2014 confirmed), 4-6 orders under budget; the dimension argument is a proof lead for the floor. | SURVIVAL +3 -> **HARDENED** (2026-07-07, F5-A3): strip-integrity depth spectra \u2014 random-word tangent cores collapse by d=2 at every scale; adversarial cascades classify as the ledger's charged binomial dressings. Families: slope-limited spread / engineered dimension-cap / strip-integrity. | SURVIVAL +4 (2026-07-07, Pro floor-window 5): genuine Pro attack on the shared-syzygy surface incl. k >= 4 \u2014 dependencies collapse into Pi_S(v)=0 invalid columns (live supports <= 3); no kill. Proof lead banked: the live-syzygy lemma. | PROGRAM SATELLITES (2026-07-07): the F5 proof program's banked theorems are now first-class nodes \u2014 f5_toy_window_theorem, f5_sunflower_pencil_lemma, f5_near_pencil_reduction (all PROVED, ev), f5_npb_conditional_close (CONDITIONAL on shared_census_kernel, ev). This red remains the single leaf; its genuinely open content = the far-from-pencil anti-concentration heart + the W-multiplicity aggregation + the low-core instrument (F5_SKELETON.md P5-P7 ledger).",
    "attack_surface": "pairwise-small-core aligned families are sunflower-free configurations of size-A sets; design/anticode bounds at intersection threshold k+t-1; the eliminant route counts them as bounded-deficiency solutions; E27's spectrum calibrates constants",
    "falsifier": "Pre-registered: a pair (u,v) at a scaled official-like row with post-strip spread remainder exceeding the transported 16n^3 budget, sustained (E27 pencil machinery searches this). FM-band-consistent counts do NOT refute.",
    "refs": [
@@ -4681,6 +4681,31 @@
    "notes": "Frozen 2026-07-07 (self-tennis S6). See critical/nodes/dli_prime_weighted_large_block_support/notes/S6_LEVEL_FACTORIZATION.md. A faithful toy falsification test requires the packet measure definition (deferred to the consumer node).",
    "attack_surface": "Construct the packet's two-level toy measure and compute E[prod]/prod E exactly; a super-2^{o(t)} ratio refutes the equality form (the Hoelder route then still discharges the node at higher-alphabet cost).",
    "falsifier": "Nested-tower toy measurement showing cross-level correlation compounding past 22 bits over the level schedule."
+  },
+  {
+   "id": "f5_toy_window_theorem",
+   "status": "PROVED",
+   "statement": "F5 TOY-WINDOW THEOREM (2026-07-07, F5 program P4; proof + verification in nodes/xr_smallcore_spread_count/notes/F5_SKELETON.md): at the k=2, t=2 scaled window, every live family (distinct slopes, one support per slope, pairwise cores <= A-2, exact+valid alignments) has N = O(n^3) < 16n^3. Proof: Pro's pairwise-core rank bound rank(R) >= sigma*N(A-1)/(A*C(n-1,A-2)) (point-degree double count + greedy matching + disjoint-support rank additivity; logic verified, q=97 certificate replayed, 300-family stress at q=193) composed with the P0 containment rank <= 2(n-k). Scope: catch #10 \u2014 the bound is VACUOUS at official A = k+t with k = rho*n; the official scale needs the coding structure (see f5_sunflower_pencil_lemma, f5_near_pencil_reduction)."
+  },
+  {
+   "id": "f5_sunflower_pencil_lemma",
+   "status": "PROVED",
+   "statement": "F5 SUNFLOWER PENCIL LEMMA (2026-07-07, F5 program P5; F5_SKELETON.md): post-tangent-strip, any live family whose supports share a common k-subset W has N <= (n-k)/(t-d) <= n-k, and N <= (n-k)/t when no pencil-degenerate points survive (d = 0). Proof: codewords through W form the pencil P_W + z*Q_W (linearity of interpolation); each outside point coincides at exactly ONE slope unless pencil-degenerate; >= t degenerate points = pair agreement >= k+t with (P_W,Q_W) = a TANGENT event charged to the strip; disjoint slope-classes then cap N. At the official KoalaBear shape (t ~ 67471): N <= ~14.5 \u2014 catch #10's core-legal matching-free sunflower is priced in three lines by the coding structure. Verified live twice (P5-E1/E2: engineered pencil-stacking absorbed by the tangent strip exactly as predicted)."
+  },
+  {
+   "id": "f5_near_pencil_reduction",
+   "status": "PROVED",
+   "statement": "F5 NEAR-PENCIL REDUCTION (2026-07-07, F5 program P6-P7; F5_SKELETON.md; machine check f5_p7v_reduction_check_modal.py): for pairs (u,v) within joint distance 2r of a pencil pair (c0+z0*w0, w0): (NP-SUPPORT) every post-tangent live support has >= t+1 perturbed points (the correction codeword c' has <= k-1 zeros unless it is the pencil itself, which is tangent-charged); (NP-VALIDITY) every VALID live support has >= 1 v-perturbed point (else v|_S is a codeword restriction and the validity gate zeroes it \u2014 this kills the z-free channel where every slope goes live); (P7.1 REDUCTION, machine-checked digit-for-digit in 10/10 trials at (24,73) and (24,193)) the mining remainder bijects with split-over-D' polynomials of degree k-1 in the explicit codim-(t-1) subspace V_T = eval_T^{-1}(span(du|_T, dv|_T)), slope read off the line position; higher strata are the partially-split members of the same family (uniform overdetermination t-1 at every stratum). CONSEQUENCE: the F5 near-pencil remainder IS a base-field split-in-subspace census \u2014 an instance of the shared kernel (see shared_census_kernel). Z-mining density law q^-(t-1) calibrated exactly across q = 73/193/577/1153 (P6-E3)."
+  },
+  {
+   "id": "shared_census_kernel",
+   "status": "TARGET",
+   "statement": "THE SHARED CENSUS KERNEL (named 2026-07-07, correspondence campaign + F5 program P7): the anti-concentration census family at generated-field sub-balance windows (|B0|^t >= 2^n, beta-normalized per catches #11-13) \u2014 Q-CLASS: prefix/quotient max-fiber <= mean * poly(n); BC-CLASS: split-in-subspace / split-pencil counts <= max(1, mean, M_B floors) * poly(n); F2-CLASS: non-coset t-null extras <= n^3. This is the convergence object of both programs: upstream collapsed Q/BC/SP onto Q by proved reductions (SP-from-Q, BC->Q discharges); our red fan relates to it with graded honesty \u2014 F2 u2c: PROVED WELD (t-null blocks = null prefix fibers, Newton, w < p); F5 xr_smallcore: PROVED STRATUM REDUCTION (near-pencil remainder = split-in-subspace census, f5_near_pencil_reduction, machine-checked); F3 u1_x4: SHAPE-CANDIDATE (post-strip exact-list residue; P7 transport OPEN \u2014 the cheapest next flip); F1 dli: SHAPE-PLUS-EXTRA (the consumer's flatness clause is Q-shaped but B-WEAK's joint/tower aggregation has no kernel analogue). OFF-CRITICAL by design: floors amber only when a PROVED reduction lands (ev edge upgrades to req at theorem time); the count of critical reds is not reduced by aggregation. Evidence base: the entire floor campaign + fleet runs both directions (FLEET_ON_THEIR_FALSIFIERS.md; upstream's calibration replayed; mode-at-null datum). Falsifier: any kernel-class census violated at a generated-field sub-balance window (pre-registered standards of the constituent floors apply)."
+  },
+  {
+   "id": "f5_npb_conditional_close",
+   "status": "CONDITIONAL",
+   "statement": "NPB CONDITIONAL CLOSE (2026-07-07, F5 program P7.3): GIVEN the shared kernel's BC-class census at the row (split-in-subspace counts <= max(1, mean) * poly(n) over the generated field \u2014 at the six candidates the sub-balance window holds by ~2% under the beta-corrected reading), every pair within joint distance 2r of a pencil pair has post-strip live-slope count N_post <= C(2r, t+1) + poly(n) * o(1): the Z-mining channel dies by window arithmetic (uniform overdetermination t-1 across strata), leaving the hard-wired T-channel. Discharges F5-OS's near-pencil stratum MODULO THE KERNEL \u2014 no new red: the premise is the existing shared frontier object. Requires f5_near_pencil_reduction (proved) + shared_census_kernel (open)."
   }
  ],
  "edges": [
@@ -9052,6 +9077,41 @@
   {
    "from": "dli_level_factorization",
    "to": "dli_prime_weighted_large_block_support",
+   "kind": "ev"
+  },
+  {
+   "from": "f5_toy_window_theorem",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f5_sunflower_pencil_lemma",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f5_near_pencil_reduction",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f5_npb_conditional_close",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "shared_census_kernel",
+   "to": "f5_npb_conditional_close",
+   "kind": "req"
+  },
+  {
+   "from": "f5_near_pencil_reduction",
+   "to": "f5_npb_conditional_close",
+   "kind": "req"
+  },
+  {
+   "from": "f5_near_pencil_reduction",
+   "to": "shared_census_kernel",
    "kind": "ev"
   }
  ]
