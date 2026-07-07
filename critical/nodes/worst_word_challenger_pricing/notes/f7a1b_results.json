@@ -1,0 +1,106 @@
+{
+ "(32, 4, 3, 'cyclic_step_1', 'linear')": {
+  "classes": {},
+  "hits": 0,
+  "shards": 24
+ },
+ "(32, 8, 1, 'cyclic_step_1', 'linear')": {
+  "classes": {
+   "full_petal": 1,
+   "mixed_petal": 1
+  },
+  "hits": 55,
+  "shards": 24
+ },
+ "(32, 16, 1, 'cyclic_step_1', 'linear')": {
+  "classes": {
+   "full_petal": 1,
+   "mixed_petal": 1
+  },
+  "hits": 392,
+  "shards": 24
+ },
+ "(32, 16, 1, 'cyclic_step_1', 'geometric')": {
+  "classes": {
+   "full_petal": 1,
+   "mixed_petal": 1
+  },
+  "hits": 412,
+  "shards": 24
+ },
+ "(32, 16, 1, 'shuffle_3201', 'linear')": {
+  "classes": {
+   "full_petal": 1,
+   "mixed_petal": 1
+  },
+  "hits": 419,
+  "shards": 24
+ },
+ "(32, 16, 1, 'shuffle_3201', 'geometric')": {
+  "classes": {
+   "full_petal": 1,
+   "mixed_petal": 1
+  },
+  "hits": 409,
+  "shards": 24
+ },
+ "(32, 16, 2, 'cyclic_step_1', 'linear')": {
+  "classes": {},
+  "hits": 0,
+  "shards": 24
+ },
+ "(32, 16, 2, 'cyclic_step_1', 'geometric')": {
+  "classes": {},
+  "hits": 0,
+  "shards": 24
+ },
+ "(32, 16, 2, 'shuffle_3201', 'linear')": {
+  "classes": {
+   "full_petal": 1
+  },
+  "hits": 1,
+  "shards": 24
+ },
+ "(32, 16, 2, 'shuffle_3201', 'geometric')": {
+  "classes": {
+   "full_petal": 1
+  },
+  "hits": 1,
+  "shards": 24
+ },
+ "(32, 16, 3, 'cyclic_step_1', 'geometric')": {
+  "classes": {},
+  "hits": 0,
+  "shards": 24
+ },
+ "(32, 16, 3, 'shuffle_3201', 'geometric')": {
+  "classes": {},
+  "hits": 0,
+  "shards": 24
+ },
+ "(64, 4, 1, 'cyclic_step_1', 'linear')": {
+  "classes": {},
+  "hits": 0,
+  "shards": 24
+ },
+ "(64, 8, 3, 'cyclic_step_1', 'linear')": {
+  "classes": {},
+  "hits": 0,
+  "shards": 24
+ },
+ "(64, 8, 3, 'cyclic_step_1', 'geometric')": {
+  "classes": {},
+  "hits": 0,
+  "shards": 24
+ },
+ "(64, 8, 3, 'shuffle_6401', 'linear')": {
+  "classes": {},
+  "hits": 0,
+  "shards": 24
+ },
+ "(64, 8, 3, 'shuffle_6401', 'geometric')": {
+  "classes": {},
+  "hits": 0,
+  "shards": 24
+ }
+}

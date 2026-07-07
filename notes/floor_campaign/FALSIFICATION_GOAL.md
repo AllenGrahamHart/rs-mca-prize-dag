@@ -308,3 +308,9 @@ artifact replayable by a stranger.
   positively controlled). F2 is at 2/3 toward hardening; third family
   candidate: giant-block complementation attacks or CRT-composite
   constructions.
+- F7-A1b COMPLETE (f7a1b_heavy_cells_modal.py, 408 shard jobs): all 17
+  heavy cells finished (24/24 shards each) — TOTAL UNCLASSIFIED = 0; the
+  1,689 hits at the heavy cells (incl. ~400-hit k=16 sigma=1 cells) ALL
+  classify into the two challenger columns. THE PRE-REGISTERED CENSUS IS
+  NOW COMPLETE: 135/135 cells, zero third-class alarms anywhere. **F7
+  first family upgraded scoped -> FULL (+1 unqualified).**
