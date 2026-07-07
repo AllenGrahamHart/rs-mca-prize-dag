@@ -75,3 +75,35 @@ existing import but does not satisfy Terminal B's in-house proof requirement.
 Next step: either reconstruct the HBK/Konyagin dyadic level-set upgrade with
 explicit constants, or bank that exact step as the Terminal B blocker and move
 to Terminal C per the brief's >90-minute rule.
+
+## 2026-07-08 Terminal C pilot
+
+Stage: Terminal C, pair-coprimality on observed h=3 shapes.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_PILOT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
+```
+
+Digest: `H3_PAIR_COPRIMALITY_PILOT_PASS`.
+
+Result: among the seven actual prime `n=96`, `q=1 mod 96` rows in the banked
+ladder, exactly three non-toral activated shapes appear, and each activates at
+exactly one prime (`9601`, `13249`, `18433`).  The remaining prime rows
+`26113`, `36097`, `42337`, `46273` are empty.  No repeated activation was found
+among observed shapes.
+
+Catch: the inherited `f3_h3_dichotomy_modal.py` `QS` list includes two composite
+entries, `23233` and `27649`; the pilot filters to actual prime rows.
+
+Next step: full Terminal C census is still open — enumerate all normalized
+`n=96` shapes on Modal/shards and compute the empirical coprimality rate plus
+exceptional list.

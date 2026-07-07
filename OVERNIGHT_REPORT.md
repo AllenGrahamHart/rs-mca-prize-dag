@@ -15,7 +15,8 @@ norm-gate shapes activate only modulo their selected primes.  Terminal B is
 partially banked: the h=2 trade/additive-energy reduction and Stepanov parameter
 arithmetic replay exactly, and the external import has been sharpened to the
 explicit Cochrane--Pinner constant `16/3`, but the in-house HBK/Konyagin energy
-theorem is still open.
+theorem is still open.  Terminal C has a light pilot: observed activated
+`n=96` h=3 shapes do not repeat across the actual prime rows in the ladder.
 
 ## Claims
 
@@ -133,6 +134,38 @@ theorem is still open.
    Cochrane--Hart--Pinner--Spencer record the Cochrane--Pinner explicit
    theorem `E(A) <= (16/3)|A|^2.5` for `|A| < p^(2/3)`.
 
+6. **VERIFIED-AT-ROWS:** Terminal C pair-coprimality pilot on observed
+   `n=96` h=3 shapes.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_PILOT.md
+   ```
+
+   Script:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
+   ```
+
+   Replay:
+
+   ```bash
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
+   ```
+
+   Expected digest:
+
+   ```text
+   H3_PAIR_COPRIMALITY_PILOT_PASS
+   ```
+
+   Result: over the seven actual prime `n=96`, `q=1 mod 96` rows in the banked
+   ladder, three activated non-toral shapes appear and each activates at exactly
+   one prime.  No repeated activation was found among observed shapes.  This is
+   evidence only; the all-shapes `n=96` Modal census remains open.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -145,6 +178,10 @@ theorem is still open.
   diagonal/nondiagonal midpoint collisions.  The direct ordered-energy bucket
   check failed at `(n,q)=(16,257)`, forcing the corrected identity
   `E(H)=8T_2+4M_2+2n^2-n`.
+
+- The inherited `f3_h3_dichotomy_modal.py` `QS` list contains `23233` and
+  `27649`, which are `1 mod 96` but composite.  The Terminal C pilot filters to
+  the seven actual prime rows.
 
 ## Terminal Status
 
@@ -162,3 +199,7 @@ shape counts at one prime.
 Terminal B status: partial, not complete.  The h=2 stratum remains closed only
 by external HBK/Konyagin/Cochrane--Pinner input until the two missing explicit
 Stepanov/HBK steps above are proved in-house.
+
+Terminal C status: started, not complete.  The observed-shape pilot supports
+pair-coprimality, but the full `n=96` all-shapes census and exceptional-list
+task remains open.
