@@ -208,3 +208,44 @@ locus Zariski-closed of bounded degree (a bounded exceptional family —
 absorbable in L4's ledger); or (iii) containment FAILS at some embedding
 → decide realizability exactly (the P2 procedure); a realizable case =
 honest L3 counterexample → pivot to nullity-structure bounds.
+
+## P3 run (2026-07-07): stratum certificates + the mechanism isolated
+
+**Part A — the ENTIRE minimal stratum certified at M61.** All 1,485 raw
+shapes of the minimal rigid design space (P = 8, m = 6, 3-regular, cores
+<= 2; complete enumeration wlog containing the lex-min block) x 8 random
+embeddings over p = 2^61 − 1: **all 11,880 embedded systems are
+INDEPENDENT.** By Schwartz–Zippel (coordinates sampled from a 10^9 box;
+per-shape error <= (deg/10^9)^8), **generic embeddings of every minimal
+design are independent** — the q=47 dependence was a small-field accident
+(a point ON the proper Zariski-closed dependence locus). SURPRISE
+UPGRADE: on the minimal stratum, generic independence holds outright; the
+dichotomy is only ever needed ON the dependence locus.
+
+**Part B — exact-decision sweep, no sampling verdicts:** 1,290 dependent
+embedded configurations across q in {47, 97, 193, 389} (random rigid
+designs, P up to 14): **every single one resolves to forced_coincidence
+(mode (b), agreement spillover); zero forced_invalid; zero GENUINE.**
+The operative collapse mode of the dichotomy is (b) universally in this
+regime; mode (a) (Pi(v) = 0) appears only in non-rigid greedy families
+(Pro's window-5 data), consistent with L3a: those dependences were not
+covering-rigid.
+
+**The reformulation that exposes the core (proved, definitional):** the
+coincidence functional chi_{i,y} IS the extra alignment row of the
+extended support S_i ∪ {y} (aligning on A+1 points = aligning on A +
+coinciding at y). So R_ext(i,y) = R + span(chi_{i,y}), and:
+  L3(b) ⟺ **"rank R < sigma·m implies some one-point extension does not
+  increase rank"** — dependent live families ABSORB one of their
+  one-point extensions.
+This is an exchange-type statement about the interpolation matroid of
+the configuration — the theorem's remaining core, now in its sharpest
+form. Contrapositive: if every one-point extension strictly increases
+rank, the family's conditions are independent (and L2 caps it at 2n/sigma).
+
+**Remaining gap (named, honest):** prove the absorption statement on the
+dependence locus (all components, all strata), or equivalently the
+exchange lemma. Everything else in L1-L4 is proved or certified. Evidence:
+1,290/1,290 dependent configs absorb; 11,880/11,880 generic minimal
+configs are independent; zero counterexamples in ~16,000 exact decisions
+across the program.
