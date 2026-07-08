@@ -26,7 +26,8 @@ deterministic affine-representative feasibility slice found the first two
 common-root activation exceptions for the eventual exceptional list.  A complete
 consecutive-core subfamily census gives the first exact activation rate:
 `44/129766`, and those 44 exceptions are covered by two simple structural
-families whose union has zero activation-free complement outside it.
+families whose union has zero activation-free complement outside it.  The
+remaining full census can now be organized into 91 affine/Galois core types.
 
 ## Claims
 
@@ -432,6 +433,32 @@ families whose union has zero activation-free complement outside it.
    The complement of the fixed-pair/antipodal union is activation-free in this
    complete slice.
 
+14. **MACHINE-VERIFIED SIZING:** affine/Galois core-orbit count.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_ORBIT_COUNT.md
+   ```
+
+   Script:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_orbit_count.py
+   ```
+
+   Replay:
+
+   ```bash
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_orbit_count.py
+   ```
+
+   Digest: `H3_CORE_ORBIT_COUNT_PASS`.
+
+   Result: single h=3 cores in `Z/96Z` have exactly `91` affine/Galois orbits.
+   The completed `(0,1,2)` consecutive-core census is one core type, leaving
+   90 core types for the full Terminal C census.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -494,5 +521,6 @@ now exactly sized at `3,135,641` affine/Galois representatives, and the first
 deterministic slices give a 44-entry complete subfamily exceptional list.  The
 consecutive-core exceptional list has a checked two-family classification.  The
 outside-family complement is activation-free in that complete slice.  The
-resultant/common-root pass over all representatives and final empirical rate
-remain open.
+remaining full census is now organized into 91 core-orbit slices; 1 is
+complete.  The resultant/common-root pass over all representatives and final
+empirical rate remain open.

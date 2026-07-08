@@ -352,3 +352,27 @@ outside   :      0 / 125582 = 0.0000%
 
 Interpretation: in the complete consecutive-core slice, the two structural
 families are an exact activation cover and the complement is activation-free.
+
+## 2026-07-08 Terminal C core-orbit count
+
+Stage: Terminal C, organization of the remaining all-shapes census.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_ORBIT_COUNT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_orbit_count.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_orbit_count.py
+```
+
+Digest: `H3_CORE_ORBIT_COUNT_PASS`.
+
+Result: single 3-subsets of `Z/96Z` have exactly `91` affine/Galois core
+orbits.  The completed consecutive-core census is the first core orbit,
+represented by `(0,1,2)`, leaving 90 core types for a core-by-core full Terminal
+C census.
