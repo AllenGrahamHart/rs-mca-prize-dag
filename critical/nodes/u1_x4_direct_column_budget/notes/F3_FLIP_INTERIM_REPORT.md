@@ -1045,6 +1045,9 @@ miss complement is controlled by a numerator product of total degree at most
 `deg_a=3, deg_z=6, deg_x=3, total=9`, so the mixed hit-product total degree is
 at most `27`.  The reverse scale-source orientation has the same total bound
 and is recorded for compatibility with the oriented numerator compiler.
+Thus `H3-SLOPE-RATIO-HIT` has two named branch gates:
+`H3-SLOPE-GG-HIT` and `H3-SLOPE-MIXED-HIT`; the scale-scale case is not
+lambda-distinct.
 
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
@@ -1074,7 +1077,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `39.65s` locally and ends with
+It runs in about `39.86s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

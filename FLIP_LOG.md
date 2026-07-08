@@ -6775,3 +6775,46 @@ H3_REPEAT_SLOPE_MIXED_DEGREE_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=39.65 maxrss=52772
 ```
+
+## T2/T3 h=3 repeat slope branch assembly
+
+Stage selected: make the `H3-SLOPE-RATIO-HIT` branch structure explicit after
+banking the generic and mixed degree compilers.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_BRANCH_ASSEMBLY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_branch_assembly.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_branch_assembly.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SLOPE_BRANCH_ASSEMBLY_PASS
+```
+
+Result: `H3-SLOPE-RATIO-HIT` is covered by two branch gates:
+
+```text
+H3-SLOPE-GG-HIT,
+H3-SLOPE-MIXED-HIT.
+```
+
+The scale-scale case is impossible for lambda-distinct pairs.  The current
+degree interfaces are `S_total=14`, product total `<=41` for generic-generic,
+and `S_total=10`, product total `<=27` for mixed generic/scale.
+
+Focused replay:
+
+```text
+H3_REPEAT_SLOPE_BRANCH_ASSEMBLY_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=39.86 maxrss=52892
+```
