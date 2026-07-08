@@ -33,7 +33,8 @@ actual common-root activation exceptions.  The third core type, `(0,1,4)`, is
 complete with `5/129766` actual activations.  The fourth core type `(0,1,5)` is
 complete with `3/129766` actual activations.  The fifth core type `(0,1,6)` is
 complete with `3/129766` actual activations.  The sixth core type `(0,1,7)` is
-complete with `3/129766` actual activations.
+complete with `3/129766` actual activations.  The seventh core type `(0,1,8)`
+is complete with `3/129766` actual activations.
 
 ## Claims
 
@@ -712,6 +713,55 @@ complete with `3/129766` actual activations.
    activation `0.0023%`.  The core-by-core census is now 6 of 91 core types
    complete.
 
+20. **MACHINE-VERIFIED SUBFAMILY CENSUS:** complete core `(0,1,8)` slice.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_018_CENSUS.md
+   ```
+
+   Scripts:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_018_census_check.py
+   ```
+
+   Replay:
+
+   ```bash
+   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,8 --tag 018
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_018_census_check.py
+   ```
+
+   Modal run:
+
+   ```text
+   https://modal.com/apps/allengrahamhart/main/ap-DhkJpeEA9CfQaMA5s6V3yA
+   ```
+
+   Result:
+
+   ```text
+   TOTAL shapes=129766 norm_exceptions=1187 activation_exceptions=3
+   H3_CORE_018_CENSUS_DONE
+   H3_CORE_018_CENSUS_CHECK_PASS
+   ```
+
+   Activation exceptions:
+
+   ```text
+   [0, 1, 8 | 33, 73, 87]   activates at p=31393
+   [0, 1, 8 | 35, 42, 55]   activates at p=18913
+   [0, 1, 8 | 50, 51, 55]   activates at p=18913
+   ```
+
+   This completely scans the oriented slice `A=[0,1,8]`, `B` any disjoint
+   triple.  Rates: rational norm exception `0.9147%`; actual common-root
+   activation `0.0023%`.  The core-by-core census is now 7 of 91 core types
+   complete.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -755,7 +805,8 @@ complete with `3/129766` actual activations.
   with five actual activations.  The fourth core slice `(0,1,5)` returns to
   three activations, all at the same prime.  The fifth core slice `(0,1,6)`
   also has three activations, at three different primes.  The sixth core slice
-  `(0,1,7)` again has three activations.
+  `(0,1,7)` again has three activations.  The seventh core slice `(0,1,8)`
+  also has three activations.
 
 ## Terminal Status
 
@@ -782,7 +833,7 @@ now exactly sized at `3,135,641` affine/Galois representatives, and the first
 deterministic slices give a 44-entry complete subfamily exceptional list.  The
 consecutive-core exceptional list has a checked two-family classification.  The
 outside-family complement is activation-free in that complete slice.  The
-remaining full census is now organized into 91 core-orbit slices; 6 are
+remaining full census is now organized into 91 core-orbit slices; 7 are
 complete, represented by `(0,1,2)`, `(0,1,3)`, `(0,1,4)`, `(0,1,5)`,
-`(0,1,6)`, and `(0,1,7)`.  The resultant/common-root pass over all
-representatives and final empirical rate remain open.
+`(0,1,6)`, `(0,1,7)`, and `(0,1,8)`.  The resultant/common-root pass over
+all representatives and final empirical rate remain open.
