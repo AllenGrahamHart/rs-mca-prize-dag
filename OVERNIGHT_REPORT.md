@@ -19,7 +19,8 @@ theorem is still open.  Terminal C has a light pilot: observed activated
 `n=96` h=3 shapes do not repeat across the actual prime rows in the ladder.
 A random exact-norm Modal sample refutes the naive rational norm-coprimality
 form as too strong, but finds zero actual common-root activations in 2000
-random normalized shapes.
+random normalized shapes.  A 64-prime activation ladder finds 71 activated
+shape orbits and zero repeated shapes.
 
 ## Claims
 
@@ -205,6 +206,36 @@ random normalized shapes.
    Consequence: the rational norm-gcd form of Terminal C is too strong.  The
    refined target is the prime-ideal/common-root condition.
 
+8. **VERIFIED-AT-ROWS:** Terminal C 64-prime activation ladder.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_LADDER_MODAL.md
+   ```
+
+   Script:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_ladder_modal.py
+   ```
+
+   Replay:
+
+   ```bash
+   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_ladder_modal.py
+   ```
+
+   Modal run:
+
+   ```text
+   https://modal.com/apps/allengrahamhart/main/ap-r767UbDESh7BN6TaDEC7S6
+   ```
+
+   Result: first `64` actual primes `q = 1 mod 96` above `96^2`; `71`
+   activated non-toral shape orbits; `71` distinct canonical shapes; `0`
+   repeated activations.  Digest: `H3_ACTIVATION_LADDER_PASS`.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -246,5 +277,6 @@ Stepanov/HBK steps above are proved in-house.
 
 Terminal C status: started, not complete.  The observed-shape pilot supports
 common-root pair-coprimality, and the random exact-norm sample refines the
-statement away from rational norm gcds.  The full `n=96` all-shapes census and
+statement away from rational norm gcds.  The 64-prime activation ladder gives
+stronger direct finite-field evidence.  The full `n=96` all-shapes census and
 exceptional-list task remains open.

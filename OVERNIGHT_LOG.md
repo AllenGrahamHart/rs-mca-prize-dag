@@ -143,3 +143,34 @@ should be formulated at the prime-ideal/common-root level.  The observed-shape
 gcds remain harmless because their extra common rational factors are
 sub-threshold, but random shapes can share threshold rational factors without
 activating.
+
+## 2026-07-08 Terminal C activation ladder
+
+Stage: Terminal C, refined common-root activation ladder.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_LADDER_MODAL.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_ladder_modal.py
+```
+
+Replay:
+
+```bash
+~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_ladder_modal.py
+```
+
+Modal run:
+
+```text
+https://modal.com/apps/allengrahamhart/main/ap-r767UbDESh7BN6TaDEC7S6
+```
+
+Result: first `64` actual primes `q = 1 mod 96` above `96^2`; `71` activated
+non-toral shape orbits; `71` distinct shapes; `0` repeats.  Digest:
+`H3_ACTIVATION_LADDER_PASS`.
+
+Interpretation: strong evidence for the refined common-root formulation of
+Terminal C.  The all-shapes norm census remains open, but a direct finite-field
+activation ladder found no repeated activated shape.
