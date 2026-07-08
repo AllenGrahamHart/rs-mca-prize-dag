@@ -73,8 +73,8 @@ certificate give:
   at `n=32,h=5` for
   `p in {1153,3137,12289,32801,40961,61441,65537}`;
 - the compiled n=64 h=5 replay gives complete zero anchored nontoral
-  certificates for
-  `p in {4289,12289,40961,65537,262337}`;
+  certificates for every admissible prime `p = 1 mod 64` with
+  `64^2 < p <= 23873`, plus `p in {40961,65537,262337}`;
 - the compiled n=96 h=5 boundary replay gives a complete zero anchored
   nontoral certificate at `p=9601`;
 - the Modal-sharded n=128 h=5 boundary replay gives a complete zero anchored
