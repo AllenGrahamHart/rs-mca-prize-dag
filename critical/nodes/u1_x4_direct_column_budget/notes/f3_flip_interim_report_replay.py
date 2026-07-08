@@ -157,6 +157,14 @@ COMMANDS = [
         "H3_PRIVATE_LINEAR_ONE_FACTOR_RANK_PASS",
     ),
     (
+        "h3 private-linear two-factor guardrail",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_two_factor_guardrail.py",
+        ],
+        "H3_PRIVATE_LINEAR_TWO_FACTOR_GUARDRAIL_PASS",
+    ),
+    (
         "h3 RC-RANK generic-open reduction",
         [
             sys.executable,

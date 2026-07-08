@@ -215,6 +215,12 @@ lower-bound target.  For one generator `(X-alpha)/(X-beta)`, the span of
 remaining private-linear rank loss must be a genuinely three-generator
 interaction, not a defect of a single private-linear level.
 
+The two-factor guardrail rules out a naive induction from that lemma.  Already
+at `A=1,B=3,H=2` with distinct private pairs `(2,3)` and `(5,7)`, the
+two-factor span has exact rational rank `8`, while
+`min(A B^2,A+2H(B-1))=9`.  The full private-linear theorem therefore needs a
+global multigenerator argument, not a factor-by-factor valuation iteration.
+
 The generic-open packet converts that lower-bound target into an algebraic
 avoidance problem.  For fixed Stepanov parameters, `rank >= r` is equivalent to
 nonvanishing of some `r x r` minor of the universal cleared-substitution
