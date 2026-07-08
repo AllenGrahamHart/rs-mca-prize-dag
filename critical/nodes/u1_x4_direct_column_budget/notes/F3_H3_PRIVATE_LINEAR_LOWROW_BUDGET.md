@@ -1,11 +1,11 @@
-# F3 h=3 private-linear low/mid-row budget
+# F3 h=3 private-linear official-row budget
 
-Status: CONDITIONAL ARITHMETIC COMPILER SLICE, NOT `RC-RANK` AND NOT `H3-ACT`.
+Status: CONDITIONAL ARITHMETIC COMPILER, NOT `RC-RANK` AND NOT `H3-ACT`.
 
 The private-linear compiler guard shows that a private-linear rank theorem
-cannot reuse the current degree-2 non-diagonal budget table.  This packet starts
-the required retuning: it gives exact private-linear rank-capacity budgets for
-the official rows `s=13..32`.
+cannot reuse the current degree-2 non-diagonal budget table.  This packet gives
+the required retuning: exact private-linear rank-capacity budgets for every
+official row `s=13..41`.
 
 ## Pre-registration
 
@@ -14,14 +14,14 @@ Question:
 ```text
 If the future h=3 rank theorem only proves private-linear degree-space
 fullness, what exact bridge budgets can the private-linear compiler pay at the
-lowest official rows?
+official rows?
 ```
 
 Success criterion:
 
 - use the private-linear degree cap
   `L_private = (A-1) + 3n(B-1)`;
-- verify a pinned passing witness for each row `s=13..32`;
+- verify a pinned passing witness for each row `s=13..41`;
 - scan the exact finite `B` cap for `Z+1` and prove the next budget fails;
 - keep the result conditional on a future private-linear rank theorem and the
   geometric bridge.
@@ -29,8 +29,8 @@ Success criterion:
 Failure criterion:
 
 - mix the private-linear degree cap with the existing degree-2 budget table;
-- claim rows `s >= 33` are covered by this low/mid-row slice;
-- treat the arithmetic compiler as `RC-RANK`.
+- treat the arithmetic compiler as `RC-RANK`;
+- include a row without a pinned `Z` witness and a checked `Z+1` failure.
 
 ## Compiler
 
@@ -56,7 +56,7 @@ analytic cap obtained from these same inequalities.
 
 ## Result
 
-The exact low/mid-row private-linear budgets are:
+The exact official-row private-linear budgets are:
 
 ```text
 s=13: Z_private=23
@@ -79,9 +79,18 @@ s=29: Z_private=954
 s=30: Z_private=1202
 s=31: Z_private=1514
 s=32: Z_private=1908
+s=33: Z_private=2404
+s=34: Z_private=3029
+s=35: Z_private=3816
+s=36: Z_private=4809
+s=37: Z_private=6058
+s=38: Z_private=7633
+s=39: Z_private=9617
+s=40: Z_private=12117
+s=41: Z_private=15267
 ```
 
-For comparison, the current degree-2 non-diagonal budgets at these rows are:
+For comparison, the current degree-2 non-diagonal budgets at the low rows are:
 
 ```text
 s=13: Z_degree2=16
@@ -106,10 +115,10 @@ s=31: Z_degree2=1071
 s=32: Z_degree2=1349
 ```
 
-The private-linear retuning can pay more capacity at these low rows because the
-degree bound is smaller.  This does not make the private-linear route superior
-overall; it still depends on proving private-linear degree-space fullness and
-completing the remaining official rows.
+The private-linear retuning can pay more capacity because the degree bound is
+smaller.  This does not make the private-linear route a proof; it still depends
+on proving private-linear degree-space fullness and the corresponding geometric
+bridge/rank-capacity theorem.
 
 ## Replay
 

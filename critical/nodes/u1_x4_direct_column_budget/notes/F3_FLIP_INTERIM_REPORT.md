@@ -252,9 +252,9 @@ The guard also verifies representative private-linear retuned boxes at
 `s in {13,16,20,23,32,41}`, so the private-linear track is not ruled out; it
 just needs its own maximality compiler.
 
-The private-linear low/mid-row compiler now supplies the first exact slice of
-that retuned table.  Using `L_private=(A-1)+3n(B-1)`, it proves maximal
-private-linear rank-capacity budgets for `s=13..32`:
+The private-linear compiler now supplies the full retuned official-row table.
+Using `L_private=(A-1)+3n(B-1)`, it proves maximal private-linear
+rank-capacity budgets for `s=13..41`:
 
 ```text
 s=13: Z_private=23
@@ -277,12 +277,21 @@ s=29: Z_private=954
 s=30: Z_private=1202
 s=31: Z_private=1514
 s=32: Z_private=1908
+s=33: Z_private=2404
+s=34: Z_private=3029
+s=35: Z_private=3816
+s=36: Z_private=4809
+s=37: Z_private=6058
+s=38: Z_private=7633
+s=39: Z_private=9617
+s=40: Z_private=12117
+s=41: Z_private=15267
 ```
 
 For each row, the replay checks a pinned passing witness and scans the exact
 finite `B` cap for `Z+1` to prove the next budget fails.  This is still
-conditional on a future private-linear rank theorem and covers only the low/mid-row
-slice of the fallback compiler.
+conditional on a future private-linear rank theorem and the matching
+private-linear bridge/rank-capacity theorem.
 
 The rank-avoidance interface packet now pins the exact theorem pair needed to
 close h=3 through the current compiler:
