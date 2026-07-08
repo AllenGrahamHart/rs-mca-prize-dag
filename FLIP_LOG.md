@@ -6602,3 +6602,45 @@ H3_REPEAT_STAR_CONDITIONAL_ASSEMBLY_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=37.23 maxrss=52720
 ```
+
+## T2/T3 h=3 repeat same-lambda degree compiler
+
+Stage selected: give `H3-VALUE-INJECTIVE` explicit collision-incidence degree
+budgets.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_DEGREE_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_degree_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_degree_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SAME_LAMBDA_DEGREE_COMPILER_PASS
+```
+
+Result: the generic same-lambda collision target has variables `(a,z,y)`, six
+membership maps, and degree sums
+
+```text
+S_a=6, S_z=6, S_y=6, S_total=14.
+```
+
+The `lambda=1` scale collision target has two scale variables, six affine maps,
+and `S_total=6` over a field containing a primitive cube root.
+
+Focused replay:
+
+```text
+H3_REPEAT_SAME_LAMBDA_DEGREE_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=38.04 maxrss=52776
+```

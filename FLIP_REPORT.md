@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=37.23 maxrss=52720
+elapsed=38.04 maxrss=52776
 ```
 
 ## Confidence-ranked claims
@@ -209,6 +209,8 @@ elapsed=37.23 maxrss=52720
    bad-minor avoidance targets for those three gates.  The star conditional
    assembly shows that these three loose gates plus `H3-VALUE-INJECTIVE` and
    `H3-SLOPE-RATIO-HIT` imply `repeat_residue <= 90n^2` on every official row.
+   The same-lambda degree compiler now gives the `H3-VALUE-INJECTIVE`
+   collision budgets: generic `S_total=14`, and lambda-one scale `S_total=6`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.
