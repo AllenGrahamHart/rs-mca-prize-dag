@@ -29,11 +29,7 @@ FULL_ZERO_ROWS = {
     ),
 }
 
-PARTIAL_H8_ROWS = (
-    "boundary_n32_h8_p1153_FULL",
-    "boundary_n64_h8_p193",
-    "q3_n64_h8",
-)
+PARTIAL_H8_ROWS = ("boundary_n64_h8_p193", "q3_n64_h8")
 
 
 def load_rows(filename: str) -> dict[str, dict]:
@@ -59,6 +55,25 @@ def require_zero_partial(row: dict) -> None:
         raise AssertionError(("n3 alarm", row))
 
 
+def require_h8_full_certificate(row: dict) -> None:
+    expected = {
+        "n": 32,
+        "h": 8,
+        "p": 1153,
+        "W": 32,
+        "hashed": 2629575,
+        "probed": 7888725,
+        "anchored_toral_trades": 3,
+        "anchored_nontoral_trades": 0,
+        "partial": False,
+        "complete": True,
+        "direct_n3_exceeded": False,
+    }
+    for key, value in expected.items():
+        if row.get(key) != value:
+            raise AssertionError((key, row.get(key), value, row))
+
+
 def main() -> None:
     loaded = {filename: load_rows(filename) for filename in FULL_ZERO_ROWS}
     full_count = 0
@@ -71,9 +86,12 @@ def main() -> None:
     a1 = loaded["f3a1_results.json"]
     for name in PARTIAL_H8_ROWS:
         require_zero_partial(a1[name])
+    h8_full = json.loads((NOTES / "f3_h8_n32_full_certificate.json").read_text())
+    require_h8_full_certificate(h8_full)
 
     print(f"h=6/h=7 full zero rows verified: {full_count}")
-    print(f"h=8 partial zero slices verified: {len(PARTIAL_H8_ROWS)}")
+    print("h=8 full anchored certificates verified: 1")
+    print(f"h=8 partial zero slices remaining: {len(PARTIAL_H8_ROWS)}")
     print("H6_H8_BONUS_SWEEP_PASS")
 
 

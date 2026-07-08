@@ -4656,6 +4656,34 @@ three h=8 rows currently banked are zero only in checked slices and remain
 `partial=True`; they are useful evidence, not certificates.  Next h=8 action:
 shard-complete anchor certificates or x83 square-shift norm-gate keys.
 
+Update: the smallest h=8 partial row is now upgraded by a complete compiled
+anchored MITM certificate:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N32_FULL_CERTIFICATE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_full_certificate.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_full_certificate.json
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_full_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+```
+
+Digests:
+
+```text
+H8_N32_FULL_CERTIFICATE_PASS
+H6_H8_BONUS_SWEEP_PASS
+```
+
+Result: `boundary_n32_h8_p1153_FULL` is now complete with `3` paid toral
+anchored trades and `0` anchored nontoral trades over all `2629575` left
+subsets and `7888725` right subsets.  Remaining h=8 partials are the two
+`n=64` rows.
+
 ## 2026-07-08 Bonus queue: h=3 per-row accident Stepanov pose
 
 Stage: bonus item (iii), pose the h=3 per-row accident bound.

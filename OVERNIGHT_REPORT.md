@@ -1921,6 +1921,12 @@ verifies 11 full h=6/h=7 q>=n^2 rows with zero anchored nontoral trades and no
 n^3 alarm.  The three h=8 rows are explicitly partial zero slices, so h=8 still
 needs shard-complete certificates or x83 norm-gate keys.
 
+Follow-up h=8 update: `boundary_n32_h8_p1153_FULL` is now a complete anchored
+certificate via a compiled replay.  It checks `2629575` left anchored subsets
+and `7888725` right subsets, finding `3` paid toral anchored trades and `0`
+anchored nontoral trades.  The aggregate h=6/7/8 replay now reports one full
+h=8 certificate and two remaining h=8 partial n=64 slices.
+
 Bonus queue update: item (iii) now has a posed h=3 per-row accident theorem.
 With `A_3(n,p)` the number of activated non-toral dilation-shape orbits at a
 fixed row, the target `A_3(n,p) <= Cn` compiles to `T_3<n^3` for all `n>=17`
