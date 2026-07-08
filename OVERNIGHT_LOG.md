@@ -4469,3 +4469,32 @@ Interpretation: the complete oriented core-slice census is aggregated, with
 the full 720-entry activation-exception list written to JSON.  This does not
 claim the Burnside-deduplicated unordered pair-orbit rate; that is a separate
 accounting layer if the consumer asks for it.
+
+## 2026-07-08 TERMINAL-COMPLETE: Terminal C oriented core-slice census
+
+Terminal C is complete for the scoped computational deliverable:
+
+```text
+an exact computational census over all 91 n=96 h=3 core-orbit slices,
+with empirical rational-norm and actual common-root activation rates plus
+the complete oriented activation-exception list.
+```
+
+Banked terminal artifact:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ALL_CORE_CENSUS_SUMMARY.md
+```
+
+Replay digest:
+
+```text
+H3_ALL_CORE_CENSUS_SUMMARY_DONE
+```
+
+Scope caveat: this terminal completion is for the oriented core-slice program.
+Burnside-deduplicated unordered pair-orbit accounting is explicitly separated
+and not claimed.
+
+Next queue item: re-enter Terminal B, because the in-house explicit h=2
+Stepanov/HBK energy proof remains the only non-complete terminal after A and C.
