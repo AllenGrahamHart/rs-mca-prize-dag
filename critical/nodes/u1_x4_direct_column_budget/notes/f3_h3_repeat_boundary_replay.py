@@ -263,6 +263,11 @@ COMMANDS = [
         "H3_REPEAT_LOOSE_COLLISION_ORBIT_COMPILER_PASS",
     ),
     (
+        "h3 repeat loose collision-branch parametrization",
+        "f3_h3_repeat_loose_collision_branch_parametrization.py",
+        "H3_REPEAT_LOOSE_COLLISION_BRANCH_PARAMETRIZATION_PASS",
+    ),
+    (
         "h3 repeat loose slope-multiplicity ledger",
         "f3_h3_repeat_loose_slope_multiplicity.py",
         "H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY_PASS",

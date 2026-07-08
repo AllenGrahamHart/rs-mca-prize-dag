@@ -6238,3 +6238,46 @@ H3_REPEAT_LOOSE_COLLISION_ORBIT_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=32.91 maxrss=52000
 ```
+
+## T2/T3 h=3 repeat loose collision-branch parametrization
+
+Stage selected: solve the two normalized lambda-coordinate collision branch
+representatives for `b`.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_COLLISION_BRANCH_PARAMETRIZATION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_collision_branch_parametrization.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_collision_branch_parametrization.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_COLLISION_BRANCH_PARAMETRIZATION_PASS
+```
+
+Result: with `D=a^2+a+1`, the two special branch types are
+
+```text
+branch A: b = a(a+1)/D,
+branch B: b = -(2a^2+2a+1)/D.
+```
+
+The replay also emits the one-variable secondary-collision pullbacks inside
+each branch.  This makes the loose multiplicity branch a generic two-variable
+case plus two explicit one-variable special families.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_COLLISION_BRANCH_PARAMETRIZATION_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=33.68 maxrss=52068
+```

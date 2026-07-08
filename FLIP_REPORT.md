@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=32.91 maxrss=52000
+elapsed=33.68 maxrss=52068
 ```
 
 ## Confidence-ranked claims
@@ -193,7 +193,9 @@ elapsed=32.91 maxrss=52000
    three lambda slopes are mutually distinct for the same genuine loose
    systems.  Remaining multiplicity loss comes only from lambda-coordinate
    collisions on nine explicit divisors, which quotient to two special
-   normalized `S_3` branch types.  Non-poles alone are not enough for the
+   normalized `S_3` branch types.  These branch types have one-parameter
+   forms `b=a(a+1)/(a^2+a+1)` and
+   `b=-(2a^2+2a+1)/(a^2+a+1)`.  Non-poles alone are not enough for the
    coordinate claim; the proof uses distinctness of the six reciprocal points.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
