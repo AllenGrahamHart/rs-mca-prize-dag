@@ -17,93 +17,24 @@ OUT = (
     / "f3_h5_n32_multirow_certificate.json"
 )
 
-PRIMES = (
-    1153,
-    1217,
-    1249,
-    1409,
-    1601,
-    1697,
-    1889,
-    2017,
-    2081,
-    2113,
-    2273,
-    2593,
-    2657,
-    2689,
-    2753,
-    3041,
-    3137,
-    3169,
-    3329,
-    3361,
-    3457,
-    3617,
-    4001,
-    4129,
-    4289,
-    4481,
-    4513,
-    4673,
-    4801,
-    4993,
-    5153,
-    5281,
-    5441,
-    5569,
-    5857,
-    5953,
-    6113,
-    6337,
-    6529,
-    6689,
-    6977,
-    7297,
-    7393,
-    7457,
-    7489,
-    7649,
-    7681,
-    7841,
-    7873,
-    7937,
-    8161,
-    8353,
-    8513,
-    8609,
-    8641,
-    8737,
-    8929,
-    9281,
-    9377,
-    9473,
-    9601,
-    9697,
-    9857,
-    10177,
-    10273,
-    10337,
-    10369,
-    10433,
-    10529,
-    10657,
-    10753,
-    11329,
-    11393,
-    11489,
-    11617,
-    11681,
-    11777,
-    11969,
-    12097,
-    12161,
-    12289,
-    32801,
-    40961,
-    61441,
-    65537,
-)
+def is_prime(n: int) -> bool:
+    if n < 2:
+        return False
+    if n % 2 == 0:
+        return n == 2
+    d = 3
+    while d * d <= n:
+        if n % d == 0:
+            return False
+        d += 2
+    return True
+
+
+def admissible_primes(n: int, hi: int) -> list[int]:
+    return [p for p in range(n * n + 1, hi + 1) if p % n == 1 and is_prime(p)]
+
+
+PRIMES = tuple(admissible_primes(32, 65537))
 
 CPP = r'''
 #include <algorithm>
@@ -335,8 +266,11 @@ def main() -> None:
 
     if not sys.argv[1:]:
         OUT.write_text(json.dumps(rows, indent=2, sort_keys=True) + "\n")
-    for row in rows:
-        print(json.dumps(row, sort_keys=True))
+    if sys.argv[1:]:
+        for row in rows:
+            print(json.dumps(row, sort_keys=True))
+    else:
+        print(f"wrote {len(rows)} rows to {OUT}")
     print("H5_N32_MULTIROW_CERTIFICATE_PASS")
 
 

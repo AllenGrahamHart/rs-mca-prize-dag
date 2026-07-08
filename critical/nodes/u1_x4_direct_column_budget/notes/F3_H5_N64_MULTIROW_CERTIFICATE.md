@@ -46,7 +46,7 @@ direct n^3 alarm        = false
 ```
 
 Thus the h=5 no-primitive evidence now has `15` complete `n=64` rows in
-addition to the expanded `85`-row `n=32` bank.  In particular, every admissible
+addition to the expanded `402`-row `n=32` bank.  In particular, every admissible
 `n=64` prime through `6977` is certified.  The replay processes `105,432,705`
 total right-side subsets.  This remains finite-row evidence, not a uniform h=5
 theorem.

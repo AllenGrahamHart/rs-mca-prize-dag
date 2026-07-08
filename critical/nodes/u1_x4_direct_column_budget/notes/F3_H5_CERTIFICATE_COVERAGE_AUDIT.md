@@ -36,11 +36,10 @@ Failure criterion:
 
 ## Certified rows
 
-The existing evidence consists of 108 complete zero rows:
+The existing evidence consists of 425 complete zero rows:
 
 ```text
-n=32:  all admissible primes p = 1 mod 32 with 32^2 < p <= 12289,
-       plus p in {32801, 40961, 61441, 65537}
+n=32:  all admissible primes p = 1 mod 32 with 32^2 < p <= 65537
 n=64:  all admissible primes p = 1 mod 64 with 64^2 < p <= 6977,
        plus p in {12289, 40961, 65537, 262337}
 n=96:  p = 9601
@@ -48,7 +47,7 @@ n=128: p in {17921, 18049, 18433, 19073, 19457, 19841, 20353}
 ```
 
 Each row checks anchored same-signature h=5 trades with one side containing
-exponent `0`, disjoint supports, equal `e_1..e_4`, and unequal `e_5`.  All 108
+exponent `0`, disjoint supports, equal `e_1..e_4`, and unequal `e_5`.  All 425
 rows have
 
 ```text
@@ -67,9 +66,9 @@ for each certified prime.
 
 ## Coverage interpretation
 
-This is strong selected-row evidence for h=5 rigidity past the already-banked
-structural gates.  It is not contiguous prime coverage and not a uniform h=5
-theorem.  The audit prints, for each n, the number of admissible primes
+This is strong finite-row evidence for h=5 rigidity past the already-banked
+structural gates.  It is not full contiguous prime coverage for every n and not
+a uniform h=5 theorem.  The audit prints, for each n, the number of admissible primes
 `p = 1 mod n` between `n^2` and the largest certified prime, and the number not
 covered by the current selected certificates.
 
@@ -77,7 +76,7 @@ The current replay output is:
 
 ```text
  n  cert  first_p  max_p   admiss<=max  missing<=max  right_probes
- 32    85     1153   65537          402          317      14442435
+ 32   402     1153   65537          402            0      68304222
  64    15     4289  262337          694          679     105432705
  96     1     9601    9601            1            0      57940519
 128     7    17921   20353            7            0    1779622425
