@@ -87,9 +87,9 @@ def feasible_witness(n: int, z: int, b: int, d: int) -> tuple[int, int, int, int
     return None
 
 
-def best_nondiagonal_bound(n: int, z: int) -> tuple[int, int, int, int]:
+def best_nondiagonal_bound(n: int, z: int, b_max: int = B_MAX) -> tuple[int, int, int, int]:
     best: tuple[int, int, int, int] | None = None
-    for b in range(2, B_MAX + 1):
+    for b in range(2, b_max + 1):
         coeff_cap = (b**3 - 1) // (C_RED * z)
         image_cap = isqrt(max(0, (6 * n * (b - 1) - 1) // C_RED))
         hi = min(coeff_cap, image_cap)

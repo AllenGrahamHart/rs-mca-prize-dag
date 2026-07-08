@@ -1274,6 +1274,8 @@ raises the bridge budgets
 ```
 
 The optional verifier checks a passing witness at the improved `Z` and an
-exhaustive `Z+1` failure inside the same non-diagonal search box.  This further
-reduces the h=3 batching burden, still conditional on `RC-RANK` and the actual
-geometric bridge theorem.
+exhaustive `Z+1` failure up to the exact analytic `B` cap for any possible
+passing box.  The largest cap in these rows is `B <= 61923`, so the optional
+check remains light while removing the fixed `B <= 50000` caveat for this
+high-row packet.  This further reduces the h=3 batching burden, still
+conditional on `RC-RANK` and the actual geometric bridge theorem.

@@ -189,8 +189,10 @@ s=41: 7420 -> 10795
 ```
 
 The optional replay again checks a pinned passing witness at the improved `Z`
-and an exhaustive `Z+1` failure inside `B <= 50000`.  It is kept separate so the
-default local replay stays lightweight.
+and an exhaustive `Z+1` failure up to the exact analytic `B` cap for any
+possible passing box.  The largest cap is `B <= 61923` at `s=41`, so this is
+still lightweight.  It is kept separate so the default local replay stays
+lightweight.
 
 A tempting shortcut for the rank theorem is already refuted.  Private
 zeros/poles for `X,r_1,r_2,r_3` do not imply full coefficient-rank

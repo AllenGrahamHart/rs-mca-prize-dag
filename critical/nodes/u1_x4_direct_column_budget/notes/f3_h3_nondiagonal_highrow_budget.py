@@ -95,10 +95,24 @@ EXPECTED_ROWS = (
 )
 
 
+def next_failure_b_cap(n: int, z: int) -> int:
+    """Return an exact B cap for any box that could beat the H3_ACT_C*n target."""
+    target = H3_ACT_C * n
+    lo = 0
+    hi = target // (C_RED * z) + 2
+    while lo + 1 < hi:
+        mid = (lo + hi) // 2
+        if C_RED * mid * (mid + 1) * z < target * mid + z:
+            lo = mid
+        else:
+            hi = mid
+    return (target * lo) // (6 * n * z) + 1
+
+
 def main() -> None:
     print("h=3 optional non-diagonal high-row bridge-budget lift")
-    print(f"C_red={C_RED} H3_ACT_C={H3_ACT_C} B_max={B_MAX}")
-    print(" s          n   old_Z   new_Z          bound            16n      next_bound")
+    print(f"C_red={C_RED} H3_ACT_C={H3_ACT_C} default_B_max={B_MAX}")
+    print(" s          n   old_Z   new_Z          bound            16n      next_bound  next_B_cap")
     for row in EXPECTED_ROWS:
         n = 2**row.s
         target = H3_ACT_C * n
@@ -108,20 +122,24 @@ def main() -> None:
         if got_bound > target:
             raise AssertionError((row.s, "passing witness exceeds target", got_bound, target))
 
-        next_bound, next_a, next_b, next_d = best_nondiagonal_bound(n, row.z + 1)
+        b_cap = next_failure_b_cap(n, row.z + 1)
+        next_bound, next_a, next_b, next_d = best_nondiagonal_bound(n, row.z + 1, b_cap)
         got_next = (next_bound, next_a, next_b, next_d)
         expected_next = (row.next_bound, row.next_a, row.next_b, row.next_d)
         if got_next != expected_next:
             raise AssertionError((row.s, got_next, expected_next))
+        if next_b > b_cap:
+            raise AssertionError((row.s, "next witness outside analytic B cap", next_b, b_cap))
         if next_bound <= target:
             raise AssertionError((row.s, "next budget passes", next_bound, target))
 
         print(
             f"{row.s:2d} {n:10d} {row.old_z:7d} {row.z:7d}"
-            f" {row.bound:14d} {target:14d} {row.next_bound:15d}"
+            f" {row.bound:14d} {target:14d} {row.next_bound:15d} {b_cap:11d}"
         )
 
     print("maximality check: new_Z passes and new_Z+1 fails for s=36..41")
+    print("the Z+1 failure scan reaches the exact analytic B cap for any possible pass")
     print("conditional conclusion: high-row non-diagonal boxes further enlarge H3-BRIDGE budgets")
     print("H3_NONDIAGONAL_HIGHROW_BUDGET_PASS")
 

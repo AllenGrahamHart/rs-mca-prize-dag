@@ -20,10 +20,11 @@ bridge family size |Z| under RC-RED(13) + RC-RANK?
 
 Success criterion:
 
-- use the exact same integer inequalities and `B <= 50000` search cap as the
-  low/mid-row non-diagonal packet;
+- use the exact same integer inequalities as the low/mid-row non-diagonal
+  packet;
 - verify a pinned passing witness `(A,B,D)` at the improved `Z`;
-- exhaustively scan `Z+1` over the same non-diagonal search box;
+- exhaustively scan `Z+1` up to the exact analytic `B` cap for any possible
+  passing box;
 - keep the result explicitly conditional on `RC-RANK` and the geometric
   batching contract.
 
@@ -47,8 +48,24 @@ s=41: 7420 -> 10795
 ```
 
 For each row, the verifier checks that the improved `Z` passes and `Z+1` fails
-inside the stated non-diagonal search box.  By monotonicity in `Z`, this proves
-maximality inside `B <= 50000` for these six high rows.
+over the whole possible `B` range for a passing box.  The exact caps used for
+the `Z+1` scans are:
+
+```text
+s=36: B <= 19499
+s=37: B <= 24568
+s=38: B <= 30962
+s=39: B <= 39010
+s=40: B <= 49146
+s=41: B <= 61923
+```
+
+The cap follows from the compiler inequalities.  If `ceil(Z L / D) <= 16n`,
+then `Z L <= 16nD`; combining this with `13D(A+D)Z < Z(L+1)` and `A >= 1`
+gives a finite upper bound on `D`, and then `L >= 6n(B-1)` gives the displayed
+finite upper bound on `B`.  By monotonicity in `Z`, the passing `Z` and complete
+`Z+1` failure prove maximality for these six high rows under the non-diagonal
+compiler inequalities, not merely inside the default `B <= 50000` box.
 
 ## Interpretation
 
