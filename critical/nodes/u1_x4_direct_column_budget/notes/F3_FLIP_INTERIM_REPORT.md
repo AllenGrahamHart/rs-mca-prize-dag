@@ -648,6 +648,30 @@ being contained in a single active edge.  The boundary-style guardrail rows
 have no loose shadow triangles; the non-boundary contrast row `(p,n)=(97,32)`
 has two, confirming that this remaining target is non-vacuous.
 
+The reciprocal-closure compiler turns the same target into an additive
+subgroup-image statement.  With
+
+```text
+r(u)=1/(u-1),
+```
+
+the shifted reciprocal equation says that active edges are zero-sum triples:
+
+```text
+r+s+t=0.
+```
+
+For a shadow pair `{r,s}`, the forced third reciprocal coordinate is
+`-(r+s)`, and the lambda test is
+
+```text
+Lambda(r,s)=1+1/r+1/s-1/(r+s) in H.
+```
+
+So `H3-NO-LOOSE-TRIANGLE` is equivalent to the following closure theorem:
+every triangle in the reciprocal active-pair graph has `r+s+t=0`.  Nonzero
+`r+s+t` is exactly the loose-triangle obstruction.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -676,7 +700,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `16.14s` locally and ends with
+It runs in about `17.91s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

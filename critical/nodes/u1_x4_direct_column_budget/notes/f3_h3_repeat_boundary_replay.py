@@ -172,6 +172,11 @@ COMMANDS = [
         "f3_h3_repeat_loose_triangle_shadow_compiler.py",
         "H3_REPEAT_LOOSE_TRIANGLE_SHADOW_COMPILER_PASS",
     ),
+    (
+        "h3 repeat loose reciprocal-closure compiler",
+        "f3_h3_repeat_loose_reciprocal_closure_compiler.py",
+        "H3_REPEAT_LOOSE_RECIPROCAL_CLOSURE_COMPILER_PASS",
+    ),
 ]
 
 

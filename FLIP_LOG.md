@@ -5396,3 +5396,47 @@ H3_REPEAT_LOOSE_TRIANGLE_SHADOW_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=16.14 maxrss=50040
 ```
+
+## T2/T3 h=3 repeat loose reciprocal-closure compiler
+
+Stage selected: rewrite the loose-triangle target in the reciprocal chart
+`r=1/(u-1)`.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_RECIPROCAL_CLOSURE_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_reciprocal_closure_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_reciprocal_closure_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_RECIPROCAL_CLOSURE_COMPILER_PASS
+```
+
+Result: with `r(u)=1/(u-1)`, active edges are zero-sum triples.  An active
+pair `{r,s}` has forced third reciprocal coordinate `-(r+s)` and lambda test
+
+```text
+1+1/r+1/s-1/(r+s) in H.
+```
+
+Therefore a triangle in the reciprocal active-pair graph is contained exactly
+when `r+s+t=0`; otherwise it is a loose-triangle obstruction.  The compiler
+checks that this reciprocal count agrees with the coordinate-shadow count on
+the boundary guardrails and on the `(p,n)=(97,32)` contrast row.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_RECIPROCAL_CLOSURE_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=17.91 maxrss=50104
+```

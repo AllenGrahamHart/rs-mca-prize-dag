@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.14 maxrss=50040
+elapsed=17.91 maxrss=50104
 ```
 
 ## Confidence-ranked claims
@@ -145,7 +145,11 @@ elapsed=16.14 maxrss=50040
    triangle must be contained in a single active edge.  A shadow triangle
    supported by three distinct active edges is exactly the loose-triangle
    obstruction; the contrast row `(p,n)=(97,32)` has two such triangles, so
-   this target is real rather than a bookkeeping artifact.
+   this target is real rather than a bookkeeping artifact.  In reciprocal
+   coordinates `r=1/(u-1)`, active edges are zero-sum triples and an active
+   pair `{r,s}` has forced third reciprocal coordinate `-(r+s)`.  The loose
+   target is therefore equivalent to: every triangle in this reciprocal
+   active-pair graph has `r+s+t=0`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.
