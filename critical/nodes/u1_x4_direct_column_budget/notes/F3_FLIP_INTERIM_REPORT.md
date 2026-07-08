@@ -582,6 +582,22 @@ sum_lambda binom(K_lambda,2).
 So `H3-NO-SAME-LAMBDA` is precisely injectivity of `E -> lambda(E)` on active
 boundary-style edges.
 
+The quadratic-rho compiler makes the second target exact.  For
+`lambda != mu`, set
+
+```text
+rho = (m-n)/(lambda-mu).
+```
+
+Then common coordinates of the two active edges are exactly
+
+```text
+{t in E : t(2-t)=rho}.
+```
+
+So `H3-NO-QUADRATIC-MISS` is the scalar hit condition
+`rho in {t(2-t): t in E}` for every lambda-distinct pair.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -610,7 +626,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `17.31s` locally and ends with
+It runs in about `19.41s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

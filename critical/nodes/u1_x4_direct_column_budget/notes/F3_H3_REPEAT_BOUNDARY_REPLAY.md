@@ -18,6 +18,7 @@ The harness runs:
 - the active-edge cubic gcd normal form;
 - the pair-intersection compiler;
 - the lambda-fiber ledger;
+- the quadratic-rho compiler;
 - the LP4 Stepanov compiler;
 - the q0 cell payment;
 - the fixed-fiber cap;

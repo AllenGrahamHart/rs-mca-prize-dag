@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.31 maxrss=50092
+elapsed=19.41 maxrss=50100
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4702,7 +4702,7 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.31 maxrss=50092
+elapsed=19.41 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat forced-coordinate-2 normal form
@@ -4752,7 +4752,7 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.31 maxrss=50092
+elapsed=19.41 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat hitting exception scan
@@ -4796,7 +4796,7 @@ Focused replay:
 ```text
 H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.31 maxrss=50092
+elapsed=19.41 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat singleton-hitting stress
@@ -4854,7 +4854,7 @@ Focused replay:
 ```text
 H3_REPEAT_SINGLETON_HITTING_STRESS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.31 maxrss=50092
+elapsed=19.41 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat star-obstruction compiler
@@ -4906,7 +4906,7 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.31 maxrss=50092
+elapsed=19.41 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat edge reciprocal form
@@ -4948,7 +4948,7 @@ Focused replay:
 ```text
 H3_REPEAT_EDGE_RECIPROCAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.31 maxrss=50092
+elapsed=19.41 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat star-obstruction taxonomy
@@ -4991,7 +4991,7 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_TAXONOMY_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.31 maxrss=50092
+elapsed=19.41 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat edge cubic gcd form
@@ -5033,7 +5033,7 @@ Focused replay:
 ```text
 H3_REPEAT_EDGE_CUBIC_GCD_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.31 maxrss=50092
+elapsed=19.41 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat pair-intersection compiler
@@ -5082,7 +5082,7 @@ Focused replay:
 ```text
 H3_REPEAT_PAIR_INTERSECTION_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.31 maxrss=50092
+elapsed=19.41 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat lambda-fiber ledger
@@ -5123,5 +5123,53 @@ Focused replay:
 ```text
 H3_REPEAT_LAMBDA_FIBER_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.31 maxrss=50092
+elapsed=19.41 maxrss=50100
+```
+
+## T2/T3 h=3 repeat quadratic-rho compiler
+
+Stage selected: normalize the lambda-distinct quadratic-miss condition to a
+single scalar `rho`.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_QUADRATIC_RHO_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_quadratic_rho_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_quadratic_rho_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_QUADRATIC_RHO_COMPILER_PASS
+```
+
+Result: for lambda-distinct active edges with data `(lambda,m)` and `(mu,n)`,
+
+```text
+rho=(m-n)/(lambda-mu),
+```
+
+and their common coordinates are exactly
+
+```text
+{t in E : t(2-t)=rho}.
+```
+
+Boundary witness rows have no rho misses.  The non-boundary contrast row
+`(p,n)=(97,32)` has `lambda_distinct_pairs=104`, `rho_hit=22`,
+`rho_miss=82`.
+
+Focused replay:
+
+```text
+H3_REPEAT_QUADRATIC_RHO_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=19.41 maxrss=50100
 ```

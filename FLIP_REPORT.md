@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.31 maxrss=50092
+elapsed=19.41 maxrss=50100
 ```
 
 ## Confidence-ranked claims
@@ -130,7 +130,9 @@ elapsed=17.31 maxrss=50092
    cubics and a quadratic-miss condition from subtracting the two cubics.  The
    equal-`lambda` case is exactly the fiber statistic
    `sum_lambda binom(K_lambda,2)`, so it is killed by injectivity of
-   `E -> lambda(E)` on active boundary-style edges.
+   `E -> lambda(E)` on active boundary-style edges.  The lambda-distinct case
+   is the scalar condition `rho=(m-n)/(lambda-mu)` with required hit
+   `rho in {t(2-t): t in E}`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.
