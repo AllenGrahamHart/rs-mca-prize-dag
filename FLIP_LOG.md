@@ -887,3 +887,37 @@ workload is `68,753,223`, about `0.562943` ppm of the non-antipodal universe.
 This pins the residual: local shell certificates are useful evidence, but h=8
 closure still needs a global x83 support-key certificate or an external/sharded
 join.
+
+## T4 h=8 rotation-orbit compiler
+
+Stage selected: quantify the largest safe symmetry reduction that does not need
+an unproved exponent-unit invariance claim.  Root scaling preserves the x83
+support condition, so cyclic rotations are safe to quotient by.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ROTATION_ORBIT_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_rotation_orbit_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_rotation_orbit_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H8_ROTATION_ORBIT_COMPILER_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: Burnside's lemma over the size-64 rotation group gives
+`7,633,233,556,276` orbits of all 16-supports.  The antipodal subfamily has
+`328,756` rotation orbits, so the safe rotation-quotiented non-antipodal target
+still has `7,633,233,227,520` orbits.  This is only an average factor of about
+`16` below the anchored non-antipodal support count; it is useful
+canonicalization hygiene, not a feasible direct global enumeration route.

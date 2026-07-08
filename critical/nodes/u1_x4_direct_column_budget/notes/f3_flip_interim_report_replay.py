@@ -157,6 +157,14 @@ COMMANDS = [
         "H8_SUPPORT_UNIVERSE_COMPILER_PASS",
     ),
     (
+        "h8 rotation-orbit compiler",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_rotation_orbit_compiler.py",
+        ],
+        "H8_ROTATION_ORBIT_COMPILER_PASS",
+    ),
+    (
         "h8 support-certifier reduction",
         [
             sys.executable,

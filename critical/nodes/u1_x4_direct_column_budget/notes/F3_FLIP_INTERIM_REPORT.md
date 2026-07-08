@@ -207,6 +207,18 @@ supports.  The seven-support paid-branch radius `<= 3` shell workload is only
 Thus the radius-three certificates are strong local evidence around the paid
 branch, but not a substitute for a global support-level x83 certifier.
 
+The safe rotation symmetry `R -> cR` is also exactly compiled.  It preserves the
+x83 support condition, but only reduces the global non-antipodal support target
+to
+
+```text
+7,633,233,227,520
+```
+
+rotation orbits.  This is an average factor of about `16` below the anchored
+non-antipodal support count, so rotation canonicalization alone is not a
+feasible global certifier.
+
 The honest h=8 residual is:
 
 ```text
