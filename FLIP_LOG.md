@@ -262,3 +262,41 @@ degeneracy filters.
 Next step: either attack `RC-RED` for the actual hyperbola normal-form curves,
 or pivot to T4(a)'s h=4 rigidity route while T1's nonvanishing gate is still
 open.
+
+## T4 local replay audit: h=4..8 residual map
+
+Stage selected: T4(a) status verification without heavy compute.  The local
+aggregate replay scripts verify the current h=4..8 certificate state and show
+that h=4's structural rigidity route is already banked.
+
+Banked file:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_T4_LOCAL_REPLAY_AUDIT.md
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+```
+
+Digest:
+
+```text
+H4_H5_BONUS_REDUCTION_PASS
+H6_H8_BONUS_SWEEP_PASS
+```
+
+Result: h=4 is structurally classified by the already-PROVED
+`h4_terminal_dichotomy`; there is no broad h=4 identity gap left in T4(a).
+The live h=4 residue is the explicit norm-gate/certificate column.  h=5 has
+strong row evidence through n=128 but still lacks a uniform no-primitive theorem.
+h=6/h=7 full anchored certificates replay; the h=6 `p=4993` nontoral row is
+small and already classified as a paid h=3 square-lift.  h=8 remains partial at
+n=64, with the x83 radius-three shells replayed but no full non-antipodal
+signature join.
+
+Next step: attack either the h=5 norm-gate incompatibility theorem or the h=8
+n=64 x83 non-antipodal certifier; do not spend time reproving h=4 rigidity.
