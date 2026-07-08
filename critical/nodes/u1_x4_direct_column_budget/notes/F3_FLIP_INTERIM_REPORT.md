@@ -80,6 +80,12 @@ exclusion, not a new classification theorem.
 
 ### h=5
 
+The h=5 structural classification is reduced.  Since `5` is not a power of two,
+`x24_char0_dyadic_descent` excludes char-zero dyadic trades, and
+`x83_uniform_square_shift_obstruction_gate` says every finite-row h=5 survivor
+must be a p-specific norm-gate event.  Thus h=5 no longer has an unlocalized
+classification gap; it has a norm-gate exclusion/certificate gap.
+
 The h=5 row evidence is strong but not a theorem.  Complete zero certificates
 exist for:
 
@@ -90,7 +96,7 @@ n=96: boundary prime 9601
 n=128: boundary prime 17921 plus 6 nearby primes
 ```
 
-The missing h=5 theorem is a symbolic norm-gate incompatibility or a
+The missing h=5 theorem is exactly a symbolic norm-gate incompatibility or a
 maintainable per-row certificate family for all official `p = 1 mod n`,
 `p >= n^2` rows.
 
@@ -128,8 +134,7 @@ The concrete blockers are:
 
 1. h=3: prove `H3-ACT(C)` through `RC-RED` and `RC-NV`, or replace it with a
    complete official-row certificate family.
-2. h=5: replace finite row evidence with a symbolic norm-gate incompatibility
-   theorem or complete row-family certificates.
+2. h=5: exclude or certify the p-specific x83 norm-gate branch uniformly.
 3. h=8: close the n=64 non-antipodal x83 support branch.
 
 Everything else currently looks like arithmetic/certificate engineering rather

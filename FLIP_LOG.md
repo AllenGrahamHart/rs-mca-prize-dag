@@ -332,6 +332,39 @@ promotion blockers are h=3 (`H3-ACT(C)` via `RC-RED` + `RC-NV` or certificates),
 h=5 (symbolic norm-gate incompatibility or row-family certificates), and h=8
 (n=64 non-antipodal x83 support branch).
 
+## T4 h=5 structural reduction
+
+Stage selected: sharpen the h=5 blocker using already-proved DAG inputs.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_STRUCTURAL_REDUCTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_structural_reduction.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_structural_reduction.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digest:
+
+```text
+H5_STRUCTURAL_REDUCTION_PASS
+H5_CERTIFICATE_COVERAGE_AUDIT_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: h=5 has no remaining classification branch.  Since `5` is not a power
+of two, `x24_char0_dyadic_descent` kills the char-zero branch; `x83` leaves only
+p-specific norm-gate events.  The h=5 blocker is therefore precisely:
+symbolically exclude that norm-gate branch at `p = 1 mod n`, `p >= n^2`, or
+replace selected row evidence with a complete official-row certificate family.
+
 Next step: either attack `RC-RED` for the actual hyperbola normal-form curves,
 or pivot to T4(a)'s h=4 rigidity route while T1's nonvanishing gate is still
 open.

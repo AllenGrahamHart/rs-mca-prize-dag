@@ -45,6 +45,14 @@ COMMANDS = [
         "H3_ACTIVATION_BOUND_COMPILER_PASS",
     ),
     (
+        "h5 structural reduction",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_structural_reduction.py",
+        ],
+        "H5_STRUCTURAL_REDUCTION_PASS",
+    ),
+    (
         "h4/h5 bonus replay",
         [
             sys.executable,
