@@ -10,6 +10,7 @@ certificates and replay scripts.  No Modal job is launched by this audit.
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_x83_triangular_norm_gate.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
@@ -18,6 +19,7 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_rep
 
 ```text
 F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+H5_X83_TRIANGULAR_NORM_GATE_PASS
 H4_H5_BONUS_REDUCTION_PASS
 H6_H8_BONUS_SWEEP_PASS
 ```

@@ -20,6 +20,9 @@ T4-H5-NORM-GATE: OPEN
   right-side probes.  This includes all admissible n=32 primes through 65537,
   179 n=64 certified primes with 515 admissible primes still missing up to the
   largest certified n=64 prime, one n=96 row, and seven n=128 rows.
+  The h=5 x83 compiler also triangularizes the low obstruction keys as
+  D_j E_j = -D_j l_j + P_j(l5,...,l9), with max low-key conjugate bound
+  1,104,676,577,280.
   Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
   or replace the selected finite rows with a scalable certificate family.
 
@@ -49,6 +52,7 @@ h4_terminal_dichotomy
 
 h5_structural_reduction
   + h=5 certificate coverage/scaling audits
+  + h=5 x83 triangular norm-gate compiler
   => T4-H5-NORM-GATE remains the only h=5 blocker
 
 h6/h7 bonus sweep replay

@@ -1678,6 +1678,16 @@ The missing h=5 theorem is exactly a symbolic norm-gate incompatibility or a
 maintainable per-row certificate family for all official `p = 1 mod n`,
 `p >= n^2` rows.
 
+The h=5 x83 obstruction interface is now triangularized.  For the
+10-support locator
+`L_R(X)=X^10+l9 X^9+...+l1 X+l0`, the forced square root gives low keys
+`E_j=[X^j](S_R^2-L_R)` satisfying
+`D_j E_j=-D_j l_j+P_j(l5,l6,l7,l8,l9)` for `j=1..4`.  The exact low-key
+denominators are `16384,16384,256,512`, and the largest conservative conjugate
+bound is `1,104,676,577,280`.  Thus every finite-row primitive h=5 survivor is
+now an explicit divisor event for one of four triangular obstruction keys, not
+an unstructured norm-gate phrase.
+
 The certificate scaling frontier explains why the current finite-certificate
 format is not that maintainable family.  The banked n=128 Modal rows use
 `32` shards, but each shard rebuilds the full `binom(127,4)=10,334,625`

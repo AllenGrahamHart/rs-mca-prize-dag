@@ -12,6 +12,7 @@ import json
 from pathlib import Path
 
 from f3_h5_certificate_coverage_audit import audit as h5_audit
+from f3_h5_x83_triangular_norm_gate import key_bounds as h5_x83_key_bounds
 from f3_h6_h8_bonus_sweep_replay import (
     FULL_ZERO_ROWS,
     load_rows,
@@ -82,6 +83,9 @@ def h5_summary() -> dict[str, int]:
         "n32_certified_primes": by_n[32]["certified_primes"],
         "n64_certified_primes": by_n[64]["certified_primes"],
         "n64_missing_to_max": by_n[64]["missing_admissible_primes_to_max"],
+        "max_x83_low_key_bound": max(
+            row.conjugate_bound for row in h5_x83_key_bounds()
+        ),
     }
 
 
@@ -165,7 +169,8 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
             (
                 f"{h5['certified_rows']} complete zero rows; "
                 f"n32={h5['n32_certified_primes']} contiguous-through-65537, "
-                f"n64={h5['n64_certified_primes']} selected/contiguous rows"
+                f"n64={h5['n64_certified_primes']} selected/contiguous rows; "
+                f"x83 low-key bound={h5['max_x83_low_key_bound']}"
             ),
             "prove symbolic p-specific x83 norm-gate incompatibility or replace selected rows by a scalable certificate family",
         ),
@@ -215,6 +220,7 @@ def main() -> None:
         print(f"  residual: {node.residual}")
     print(f"h=5 total right-side probes audited: {h5['total_right_probes']}")
     print(f"h=5 n64 missing admissible primes to max certified prime: {h5['n64_missing_to_max']}")
+    print(f"h=5 max x83 low-key conjugate bound: {h5['max_x83_low_key_bound']}")
     print(f"h=8 n32 right-side probes audited: {h8['n32_right_probes']}")
     print(
         "h=8 blind join scale: "
