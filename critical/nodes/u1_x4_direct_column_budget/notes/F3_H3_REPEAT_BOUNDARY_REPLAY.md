@@ -22,7 +22,8 @@ The harness runs:
 - the combined support compiler;
 - the boundary-style support evidence and zero-support falsifier;
 - the forced-point support reduction;
-- the forced-fiber Stepanov compiler.
+- the forced-fiber Stepanov compiler;
+- the elementary forced-fiber degree bound.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch
 Modal.

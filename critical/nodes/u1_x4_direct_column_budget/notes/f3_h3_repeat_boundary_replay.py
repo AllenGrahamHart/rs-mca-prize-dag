@@ -77,6 +77,11 @@ COMMANDS = [
         "f3_h3_repeat_forced_fiber_stepanov_compiler.py",
         "H3_REPEAT_FORCED_FIBER_STEPANOV_COMPILER_PASS",
     ),
+    (
+        "h3 repeat forced-fiber degree bound",
+        "f3_h3_repeat_forced_fiber_degree_bound.py",
+        "H3_REPEAT_FORCED_FIBER_DEGREE_BOUND_PASS",
+    ),
 ]
 
 

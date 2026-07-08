@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=4.68 maxrss=50096
+elapsed=4.98 maxrss=50036
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4513,4 +4513,47 @@ Focused replay:
 FF-RED(5) supplied; remaining gate: FF-RANK/FF-NV
 H3_REPEAT_FORCED_FIBER_STEPANOV_COMPILER_PASS
 elapsed=0.33 maxrss=50104
+```
+
+## T2 h=3 repeat forced-fiber degree bound
+
+Stage selected: check whether the forced-coordinate route needs the full
+forced-fiber Stepanov theorem, or whether an elementary fiber-degree bound is
+already enough.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_FIBER_DEGREE_BOUND.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_fiber_degree_bound.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_fiber_degree_bound.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_FORCED_FIBER_DEGREE_BOUND_PASS
+```
+
+Result: for every fixed forced coordinate `a`, the map `lambda_a` is degree
+`2/1`, so each `mu in H` has at most two preimages.  Hence
+
+```text
+N_a <= 2n,
+B_line <= 6|A0|n
+```
+
+for any forced-coordinate cover `A0`.  A sublinear forced cover is enough for
+a subcubic repeat-residue payment.
+
+Focused replay:
+
+```text
+H3_REPEAT_FORCED_FIBER_DEGREE_BOUND_PASS
+elapsed=0.35 maxrss=49888
 ```

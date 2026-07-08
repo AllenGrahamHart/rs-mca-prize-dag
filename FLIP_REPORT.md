@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=4.68 maxrss=50096
+elapsed=4.98 maxrss=50036
 ```
 
 ## Confidence-ranked claims
@@ -97,7 +97,10 @@ elapsed=4.68 maxrss=50096
    active triple contains the forced coordinate `2`, and `B_line=3N_2=48`,
    suggesting a forced-coordinate/fiber support route.  The forced-fiber
    Stepanov compiler supplies `FF-RED(5)` for this route; the remaining theorem
-   is its rank/nonvanishing gate `FF-RANK/FF-NV`.
+   is its rank/nonvanishing gate `FF-RANK/FF-NV`.  Independently, the
+   elementary degree bound `N_a <= 2n` proves that a forced-coordinate cover of
+   size `F` gives `B_line <= 6Fn`; a sublinear forced cover would already pay
+   the repeat residue subcubically.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.
