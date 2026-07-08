@@ -4165,3 +4165,47 @@ rank=8 expected_full_degree_rank=9
 H3_REPEAT_BOUNDARY_LP4_RANK_GUARDRAIL_PASS
 elapsed=0.41 maxrss=50020
 ```
+
+## T2 h=3 repeat-boundary support symmetry
+
+Stage selected: quotient the remaining support target by the exact permutation
+symmetry of the three distinct boundary entries.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_SUPPORT_SYMMETRY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_support_symmetry.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_support_symmetry.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_BOUNDARY_SUPPORT_SYMMETRY_PASS
+```
+
+Result: outside the paid q0 cell and the coefficient-collision cells, active
+line parameters are closed under
+
+```text
+r, 1/r, -r/(r+1), -(r+1)/r, -(r+1), -1/(r+1).
+```
+
+Thus the genuine support is a union of six-element `S_3` Mobius orbits, and
+`R_genuine=6R_orb`.
+
+Focused replay:
+
+```text
+p=97 n=32 genuine_support=60 s3_orbits=10
+p=193 n=64 genuine_support=168 s3_orbits=28
+p=257 n=128 genuine_support=252 s3_orbits=42
+H3_REPEAT_BOUNDARY_SUPPORT_SYMMETRY_PASS
+elapsed=0.03 maxrss=11520
+```

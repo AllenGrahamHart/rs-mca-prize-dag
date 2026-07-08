@@ -268,6 +268,23 @@ Thus a support theorem `R_genuine <= C n^beta` with `beta < 4/3` would pay the
 repeat residue subcubically; a linear support theorem would give an
 `O(n^(8/3))` residue payment.
 
+The support-symmetry packet identifies the right quotient support.  If
+`r=(u-1)/(v-1)`, permuting the three distinct boundary entries sends `r` to
+
+```text
+r, 1/r, -r/(r+1), -(r+1)/r, -(r+1), -1/(r+1).
+```
+
+Outside the coefficient-collision cells and the paid q0 cell, these are six
+distinct active parameters.  Hence
+
+```text
+R_genuine = 6 R_orb.
+```
+
+Future support bounds should target `R_orb`; this is a quotient compiler, not
+a support theorem.
+
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
 two affine factors, the claim that the products span the full degree space is
 false.  With
