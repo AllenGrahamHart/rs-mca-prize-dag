@@ -6483,9 +6483,15 @@ parameter box degree `P`, source degree `C`, subgroup degree `B`, multiplicity
 
 ```text
 coefficients = P^m C B^k,
-conditions   <= D P^m (C+kD) |Z|,
+conditions   <= D(C+kD) |Z|,
 L_X          = C-1+k n(B-1).
 ```
+
+The parameter monomials enlarge the auxiliary space but do not multiply the
+reduced `X`-jet condition count once the parameter value is fixed.  A strong
+rank sufficient form additionally needs `rank(substitution over Z) >
+D(C+kD)|Z|`; per independent fiber this requires enough `X`-degree capacity,
+e.g. `L_X+1 > D(C+kD)`.
 
 The missing gates are now explicitly:
 
@@ -6500,5 +6506,5 @@ Focused replay:
 ```text
 H3_REPEAT_LOOSE_STEPANOV_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=40.51 maxrss=52900
+elapsed=40.37 maxrss=52876
 ```

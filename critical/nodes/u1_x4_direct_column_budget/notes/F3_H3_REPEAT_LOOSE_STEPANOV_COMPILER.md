@@ -44,22 +44,22 @@ For a repaired family `Z` of parameter values, fix the parameters and impose
 multiplicity in the source variable `X`.  Since every map is affine in `X`,
 the logarithmic jet recurrence has `k` active affine factors.  The `j<D`
 conditions are over-imposed by a reduced polynomial in `X` of degree
-`< C+kD`, for each parameter monomial.  Hence the sufficient reduced-condition
-count is
+`< C+kD`.  Hence the sufficient reduced-condition count is
 
 ```text
-D P^m (C+kD) |Z|.
+D (C+kD) |Z|.
 ```
 
 Thus the linear-system inequality is
 
 ```text
-D P^m (C+kD) |Z| < P^m C B^k.          (LOOSE-LS)
+D (C+kD) |Z| < P^m C B^k.              (LOOSE-LS)
 ```
 
-The parameter box cancels from this crude count; the parameter variables matter
-for the missing rank/nonvanishing theorem, not for this over-imposed
-condition-count inequality.
+The parameter monomials increase the auxiliary coefficient space but do not
+multiply the reduced `X`-jet condition count after a parameter value is fixed.
+This correction is important: the parameter box helps the linear system rather
+than cancelling out of it.
 
 ## Degree Bound
 
@@ -87,6 +87,22 @@ The compiler does not prove any loose-line theorem.  The remaining gates are:
 LOOSE-GEN-RANK/NV: generic two-parameter nine-map target;
 LOOSE-A-RANK/NV:   branch A one-parameter eight-map target;
 LOOSE-B-RANK/NV:   branch B one-parameter eight-map target.
+```
+
+The exact nonvanishing requirement is that the linear subspace satisfying the
+reduced jet conditions is not contained in the cleared substitution kernel.  A
+strong sufficient rank form is
+
+```text
+rank(substitution over Z) > D(C+kD)|Z|.
+```
+
+Since a fixed parameter fiber has `X`-degree at most `L_X`, this strong rank
+route also needs enough fiber rank capacity; for one independent fiber this
+means
+
+```text
+L_X + 1 > D(C+kD).
 ```
 
 Under the appropriate gate and `(LOOSE-LS)`,

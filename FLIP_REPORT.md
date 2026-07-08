@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=40.51 maxrss=52900
+elapsed=40.37 maxrss=52876
 ```
 
 ## Confidence-ranked claims
