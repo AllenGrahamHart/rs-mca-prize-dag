@@ -422,6 +422,13 @@ Those radius-two replays run under the per-task 60-second cap one prime at a
 time, but they are not included in the default aggregate because the aggregate
 must remain laptop-safe.
 
+The antipodal x83 quotient packet proves the algebra behind the paid branch:
+if a 16-support in `mu_64` is antipodal, its locator has the form
+`L_R(X)=M_A(X^2)` for an 8-support in `mu_32`, and the h=8 forced-root
+obstruction is exactly the h=4 quotient obstruction with zeros inserted in odd
+degrees.  Therefore antipodal x83 full-zero supports are paid by the h=4
+quotient ledger.  The primitive h=8 residual is genuinely non-antipodal.
+
 The remaining support universe is now exactly compiled.  Anchored 16-supports
 with exponent `0` have size
 

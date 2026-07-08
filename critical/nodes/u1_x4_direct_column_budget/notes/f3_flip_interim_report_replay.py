@@ -277,6 +277,14 @@ COMMANDS = [
         "H8_N64_X83_NEARLIFT_SHELL_PASS",
     ),
     (
+        "h8 antipodal x83 quotient",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_antipodal_x83_quotient.py",
+        ],
+        "H8_ANTIPODAL_X83_QUOTIENT_PASS",
+    ),
+    (
         "h8 support universe compiler",
         [
             sys.executable,

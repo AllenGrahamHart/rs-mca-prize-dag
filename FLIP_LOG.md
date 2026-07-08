@@ -2915,3 +2915,39 @@ prove the activation bound, but it makes the hyperbola-line exclusion precise
 for the eventual bridge/rank theorem.  Standalone replay passes in `0.31s`
 locally (`maxrss=49876`).  The default aggregate replay passes with this packet
 included in `40.83s` locally (`maxrss=98668`).
+
+## T4 h=8 antipodal x83 quotient reduction
+
+Stage selected: bank a symbolic reduction that keeps the h=8 n=64 residual
+focused on primitive non-antipodal supports.  The existing x83 interface
+verified the paid antipodal square-lift branch at three primes; this packet
+proves the quotient mechanism behind that behavior.
+
+New packet:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ANTIPODAL_X83_QUOTIENT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_antipodal_x83_quotient.py
+```
+
+Result: if `R` is an antipodal 16-support in `mu_64`, then
+
+```text
+L_R(X) = M_A(X^2)
+```
+
+for its quotient 8-support `A` in `mu_32`.  The forced square-root recursion
+commutes with this substitution:
+
+```text
+S_R(X) = N_A(X^2),
+obs_8(R) = (0, obs_4(A)_1, 0, obs_4(A)_2, 0, obs_4(A)_3, 0),
+lambda_8(R) = lambda_4(A).
+```
+
+Therefore antipodal x83 full-zero supports are exactly h=4 quotient full-zero
+supports lifted antipodally, and are paid by the h=4 quotient ledger.  The
+remaining h=8 n=64 support certifier can restrict to non-antipodal supports.
+Standalone replay passes in `0.25s` locally (`maxrss=14080`).  The default
+aggregate replay passes with this packet included in `50.53s` locally
+(`maxrss=98772`).
