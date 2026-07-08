@@ -4531,3 +4531,32 @@ exactly the explicit L2 estimate `sum_C r_C^2 <= C' n^(3/2)`, not just a
 single-shift maximum bound.  The replay grid runs through `n=2048`; the largest
 observed L2 ratio is still the smallest row `n=16`, and the `n=2048` rows are
 already down to `0.0629` (`q~n^2`) and `0.0442` (`q~n^3`).
+
+## 2026-07-08 Terminal B: HBK conditional compiler
+
+Stage: Terminal B, reduction of B2 to the rich-coset Stepanov lemma.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_HBK_CONDITIONAL_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
+```
+
+Digest: `H2_HBK_CONDITIONAL_COMPILER_PASS`.
+
+Compiler statement:
+
+```text
+R(U) <= K(h|U|)^(2/3) for every coset set U
+=> sum_C r_C^2 <= 5(K^2+K)h^(3/2)
+=> E(H) <= (1+5(K^2+K))h^(5/2).
+```
+
+Open core: prove the rich-coset Stepanov lemma in-house with an explicit `K`.

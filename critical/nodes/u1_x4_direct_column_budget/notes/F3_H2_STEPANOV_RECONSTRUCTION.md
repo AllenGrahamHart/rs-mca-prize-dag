@@ -227,3 +227,14 @@ sum_C r_C^2 <= C' n^(3/2).
 
 The replay `f3_h2_levelset_replay.py` verifies this identity through `n=2048`;
 the measured maximum is `sum_C r_C^2 / n^1.5 = 0.6406`.
+
+Second follow-up: `F3_H2_HBK_CONDITIONAL_COMPILER.md` maps the HBK Lemma-5
+strategy to this notation and proves the dyadic compiler
+
+```text
+R(U) <= K(h|U|)^(2/3) for all coset sets U
+    => E(H) <= (1 + 5(K^2+K)) h^(5/2).
+```
+
+Thus the only remaining proof obligation is the constant-explicit rich-coset
+Stepanov lemma `R(U) <= K(h|U|)^(2/3)`.

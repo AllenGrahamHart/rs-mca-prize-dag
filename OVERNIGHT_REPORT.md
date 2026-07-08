@@ -267,6 +267,25 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    Terminal B proof step is the explicit level-set/L2 bound
    `sum_C r_C^2 <= C' n^(3/2)`.
 
+   Conditional compiler:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_HBK_CONDITIONAL_COMPILER.md
+   ```
+
+   Replay:
+
+   ```bash
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
+   ```
+
+   Digest: `H2_HBK_CONDITIONAL_COMPILER_PASS`.
+
+   It proves that a rich-coset Stepanov lemma
+   `R(U) <= K(h|U|)^(2/3)` implies the explicit energy bound
+   `E(H) <= (1+5(K^2+K))h^2.5`.  Thus the remaining in-house proof obligation
+   is now one named constant-explicit rich-coset lemma.
+
    Source trail for the explicit external constant:
 
    ```text
