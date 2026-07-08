@@ -51,7 +51,9 @@ core type `(0,1,20)` is complete with `3/129766` actual activations.
 The twentieth core type `(0,1,21)` is complete with `4/129766` actual
 activations.  The twenty-first core type `(0,1,22)` is complete with
 `3/129766` actual activations.  The twenty-second core type `(0,1,23)` is
-complete with `2/129766` actual activations.
+complete with `2/129766` actual activations.  The twenty-third core type
+`(0,1,24)` is complete with `67/129766` actual activations, all containing
+the anchor exponent `49`.
 
 ## Claims
 
@@ -1516,6 +1518,47 @@ complete with `2/129766` actual activations.
    activation `0.0015%`.  The core-by-core census is now 22 of 91 core types
    complete.
 
+36. **MACHINE-VERIFIED SUBFAMILY CENSUS:** complete core `(0,1,24)` slice.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0124_CENSUS.md
+   ```
+
+   Scripts:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0124_census_check.py
+   ```
+
+   Replay:
+
+   ```bash
+   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,24 --tag 0124
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0124_census_check.py
+   ```
+
+   Modal run:
+
+   ```text
+   https://modal.com/apps/allengrahamhart/main/ap-FslAe2mSjjOhtU9yf9eatF
+   ```
+
+   Result:
+
+   ```text
+   TOTAL shapes=129766 norm_exceptions=1223 activation_exceptions=67
+   H3_CORE_0124_CENSUS_DONE
+   H3_CORE_0124_CENSUS_CHECK_PASS
+   ```
+
+   This completely scans the oriented slice `A=[0,1,24]`, `B` any disjoint
+   triple.  Rates: rational norm exception `0.9425%`; actual common-root
+   activation `0.0516%`.  All 67 activations contain the anchor exponent `49`.
+   The core-by-core census is now 23 of 91 core types complete.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -1576,7 +1619,10 @@ complete with `2/129766` actual activations.
   core slice `(0,1,20)` also has three activations, all at `p=18913`.  The
   twentieth core slice `(0,1,21)` has four activations, all at `p=37633`.  The
   twenty-first core slice `(0,1,22)` has three activations.  The twenty-second
-  core slice `(0,1,23)` has two activations.
+  core slice `(0,1,23)` has two activations.  The twenty-third core slice
+  `(0,1,24)` is the first high-activation non-consecutive slice since
+  `(0,1,2)`: it has 67 activations, and every one contains the anchor exponent
+  `49`.
 
 ## Terminal Status
 
@@ -1607,6 +1653,6 @@ remaining full census is now organized into 91 core-orbit slices; 20 are
 complete, represented by `(0,1,2)`, `(0,1,3)`, `(0,1,4)`, `(0,1,5)`,
 `(0,1,6)`, `(0,1,7)`, `(0,1,8)`, `(0,1,9)`, `(0,1,10)`, `(0,1,11)`,
 `(0,1,12)`, `(0,1,13)`, `(0,1,14)`, `(0,1,15)`, `(0,1,16)`, `(0,1,17)`,
-`(0,1,18)`, `(0,1,19)`, `(0,1,20)`, `(0,1,21)`, `(0,1,22)`, and `(0,1,23)`.  The
-resultant/common-root pass over all representatives and final empirical rate
-remain open.
+`(0,1,18)`, `(0,1,19)`, `(0,1,20)`, `(0,1,21)`, `(0,1,22)`, `(0,1,23)`, and
+`(0,1,24)`.  The resultant/common-root pass over all representatives and final
+empirical rate remain open.
