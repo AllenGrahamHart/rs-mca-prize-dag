@@ -149,6 +149,14 @@ COMMANDS = [
         "H3_RC_RANK_MODEL_LEMMAS_PASS",
     ),
     (
+        "h3 private-linear one-factor rank",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_one_factor_rank.py",
+        ],
+        "H3_PRIVATE_LINEAR_ONE_FACTOR_RANK_PASS",
+    ),
+    (
         "h3 RC-RANK generic-open reduction",
         [
             sys.executable,

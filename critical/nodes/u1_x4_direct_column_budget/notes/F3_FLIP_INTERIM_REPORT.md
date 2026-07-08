@@ -208,6 +208,13 @@ Thus even a perfect private-linear degree-space theorem needs an explicit
 remaining theorem is the lower bound, namely degree-space fullness under
 explicit repaired/private-divisor hypotheses.
 
+The private-linear one-factor rank lemma proves the local version of that
+lower-bound target.  For one generator `(X-alpha)/(X-beta)`, the span of
+`X^a (X-alpha)^(Hb)(X-beta)^(H(B-1-b))` has exact dimension
+`min(A B, A+H(B-1))` by the `alpha`-adic valuation filtration.  Thus any
+remaining private-linear rank loss must be a genuinely three-generator
+interaction, not a defect of a single private-linear level.
+
 The generic-open packet converts that lower-bound target into an algebraic
 avoidance problem.  For fixed Stepanov parameters, `rank >= r` is equivalent to
 nonvanishing of some `r x r` minor of the universal cleared-substitution
