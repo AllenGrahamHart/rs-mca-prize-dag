@@ -35,6 +35,29 @@ LOOSE-B-RANK/NV:
   clean branch-B one-parameter loose eight-slope target, S_total=24.
 ```
 
+## Count Route Frontier
+
+The scale same-lambda branch has a separate count payment:
+
+```text
+H3-VALUE-SCALE-INJECTIVE
+  replaced by scale collision pairs <= binom(floor((n-1)/3),2).
+```
+
+Therefore the count route has six still-open strict gates:
+
+```text
+H3-VALUE-GEN-INJECTIVE,
+H3-SLOPE-GG-HIT,
+H3-SLOPE-MIXED-HIT,
+LOOSE-GEN-RANK/NV,
+LOOSE-A-RANK/NV,
+LOOSE-B-RANK/NV.
+```
+
+This does not prove `H3-VALUE-INJECTIVE`; it records the alternate payment
+route for arguments that can tolerate the quadratic scale branch.
+
 ## Loose Rank-Minor Sample Box
 
 For the sample box

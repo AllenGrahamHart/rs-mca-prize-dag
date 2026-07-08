@@ -1586,6 +1586,12 @@ ledger.  Its printed open gates are `F3-RANK-AVOID/RC-NV`,
 repeat-boundary star gates.  This is a consistency ledger, not a new proof of
 `H3-ACT`.
 
+The repeat-boundary frontier now distinguishes the strict route from the count
+route.  The strict route has seven branch gates.  On the count route,
+`H3-VALUE-SCALE-INJECTIVE` is replaced by the already-paid quadratic
+scale-collision bound, leaving six strict repeat-boundary gates to prove or
+replace.
+
 The bridge-budget compiler turns that geometry gap into an explicit contract.
 If, on row `n=2^s`, activated shape pairs batch into a repaired curve family of
 size at most `Z_budget(s)`, then `RC-RANK` plus the current diagonal arithmetic

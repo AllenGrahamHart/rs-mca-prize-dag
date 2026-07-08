@@ -79,6 +79,14 @@ def strict_frontier_gates() -> tuple[FrontierGate, ...]:
     )
 
 
+def count_route_frontier_gates() -> tuple[FrontierGate, ...]:
+    return tuple(
+        gate
+        for gate in strict_frontier_gates()
+        if gate.name != "H3-VALUE-SCALE-INJECTIVE"
+    )
+
+
 def rank_minor_rows() -> dict[str, tuple[int, int, int]]:
     return {
         target.name: (
@@ -119,6 +127,15 @@ def main() -> None:
             f"  {gate.name}: {gate.interface}; "
             f"membership_S_total={gate.membership_total}; extra_total={gate.extra_total}"
         )
+    count_route = count_route_frontier_gates()
+    if len(count_route) != 6:
+        raise AssertionError(count_route)
+    if any(gate.name == "H3-VALUE-SCALE-INJECTIVE" for gate in count_route):
+        raise AssertionError(count_route)
+    print("count_route_frontier:")
+    print("  H3-VALUE-SCALE-INJECTIVE: replaced by paid scale-collision count")
+    for gate in count_route:
+        print(f"  {gate.name}: still open on the count route")
 
     minor_rows = rank_minor_rows()
     expected_minors = {

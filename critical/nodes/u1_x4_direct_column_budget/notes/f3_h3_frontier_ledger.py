@@ -26,7 +26,11 @@ from f3_h3_private_linear_official_separation_guard import (
     separation_summary as private_separation_summary,
 )
 from f3_h3_rank_effective_bridge import EXPECTED_CAPACITIES, PINNED_RANKS, rank_capacity
-from f3_h3_repeat_frontier_ledger import strict_frontier_gates
+from f3_h3_repeat_frontier_ledger import (
+    count_route_frontier_gates,
+    paid_ledgers,
+    strict_frontier_gates,
+)
 
 
 @dataclass(frozen=True)
@@ -121,6 +125,19 @@ def repeat_frontier_summary() -> dict[str, tuple[int, int]]:
     return actual
 
 
+def repeat_count_route_summary() -> dict[str, int]:
+    count_route = count_route_frontier_gates()
+    ledgers = paid_ledgers(2**13)
+    if len(count_route) != 6:
+        raise AssertionError(count_route)
+    if ledgers["scale_collision_pairs"] != 3725085:
+        raise AssertionError(ledgers)
+    return {
+        "open_gates": len(count_route),
+        "scale_pairs_first_official": ledgers["scale_collision_pairs"],
+    }
+
+
 def frontier_gates(
     activation: dict[str, int],
     budgets: dict[str, int],
@@ -128,6 +145,7 @@ def frontier_gates(
     l2: dict[str, int],
     conic: dict[str, int],
     repeat: dict[str, tuple[int, int]],
+    repeat_count: dict[str, int],
 ) -> tuple[H3FrontierGate, ...]:
     return (
         H3FrontierGate(
@@ -172,7 +190,10 @@ def frontier_gates(
         H3FrontierGate(
             "H3-REPEAT-BOUNDARY-STAR",
             "OPEN FRONTIER",
-            f"{len(repeat)} strict branch gates replayed in the repeat frontier ledger",
+            (
+                f"{len(repeat)} strict branch gates replayed; count route leaves "
+                f"{repeat_count['open_gates']} gates after paying scale pairs"
+            ),
             "prove or replace the strict same-lambda, slope, and loose-triangle branch gates needed by the star route",
         ),
     )
@@ -185,7 +206,8 @@ def main() -> None:
     l2 = l2_bridge_summary()
     conic = conic_bridge_accounting_summary()
     repeat = repeat_frontier_summary()
-    gates = frontier_gates(activation, budgets, capacity, l2, conic, repeat)
+    repeat_count = repeat_count_route_summary()
+    gates = frontier_gates(activation, budgets, capacity, l2, conic, repeat, repeat_count)
 
     print("F3 h=3 frontier ledger")
     print(
@@ -222,6 +244,11 @@ def main() -> None:
     print("repeat-boundary strict gates:")
     for name, (membership, extra) in repeat.items():
         print(f"  {name}: membership_total={membership} extra_total={extra}")
+    print(
+        "repeat-boundary count route: "
+        f"open_gates={repeat_count['open_gates']} "
+        f"scale_pairs_first_official<={repeat_count['scale_pairs_first_official']}"
+    )
     print("frontier gates:")
     for gate in gates:
         print(f"{gate.name}: {gate.status}")

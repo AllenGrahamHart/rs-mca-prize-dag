@@ -44,6 +44,8 @@ H3-REPEAT-BOUNDARY-STAR: OPEN FRONTIER
   The repeat-boundary frontier ledger replays seven strict branch gates:
   H3-VALUE-GEN-INJECTIVE, H3-VALUE-SCALE-INJECTIVE, H3-SLOPE-GG-HIT,
   H3-SLOPE-MIXED-HIT, LOOSE-GEN-RANK/NV, LOOSE-A-RANK/NV, and LOOSE-B-RANK/NV.
+  On the count route, H3-VALUE-SCALE-INJECTIVE is replaced by the paid
+  quadratic scale-collision ledger, leaving six still-open strict gates.
   Residual: prove or replace the strict same-lambda, slope, and loose-triangle
   branch gates needed by the star route.
 ```
