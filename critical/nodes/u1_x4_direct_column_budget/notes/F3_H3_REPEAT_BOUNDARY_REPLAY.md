@@ -23,6 +23,7 @@ The harness runs:
 - the reciprocal-product compiler;
 - the lambda-root fiber compiler;
 - the lambda-ratio parametrization;
+- the lambda-ratio membership compiler;
 - the LP4 Stepanov compiler;
 - the q0 cell payment;
 - the fixed-fiber cap;

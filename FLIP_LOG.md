@@ -5579,3 +5579,48 @@ H3_REPEAT_LAMBDA_RATIO_PARAMETRIZATION_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=19.51 maxrss=50116
 ```
+
+## T2/T3 h=3 repeat lambda-ratio membership compiler
+
+Stage selected: turn the generic ratio parametrization into explicit
+subgroup-membership functions.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_RATIO_MEMBERSHIP_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_membership_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_membership_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LAMBDA_RATIO_MEMBERSHIP_COMPILER_PASS
+```
+
+Result: for `lambda != 1`, with `a=lambda-1` and `N=1+z+z^2`, the original
+coordinates of the ratio-parametrized fiber are
+
+```text
+U=1+a z(1+z)/N,
+V=1+a(1+z)/N,
+W=1-a z/N.
+```
+
+So the generic same-lambda target is a three-membership problem
+`U,V,W in H` on the ratio line.  The `lambda=1` branch is kept separate as a
+primitive-cube scale condition.
+
+Focused replay:
+
+```text
+H3_REPEAT_LAMBDA_RATIO_MEMBERSHIP_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=17.00 maxrss=50108
+```

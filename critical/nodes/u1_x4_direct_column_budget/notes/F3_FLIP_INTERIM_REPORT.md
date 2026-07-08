@@ -663,6 +663,20 @@ z^2+z+1=0.
 Thus the fixed-`lambda` target can be phrased as uniqueness of an admissible
 ratio orbit for the reconstructed three reciprocal roots.
 
+The lambda-ratio membership compiler writes the generic branch as three
+explicit subgroup-membership functions.  With `a=lambda-1` and
+`N(z)=1+z+z^2`,
+
+```text
+U_lambda(z)=1+a z(1+z)/N(z),
+V_lambda(z)=1+a(1+z)/N(z),
+W_lambda(z)=1-a z/N(z).
+```
+
+For `lambda != 1`, an admissible ratio is exactly a non-pole `z` with
+`U_lambda(z),V_lambda(z),W_lambda(z) in H`.  The `lambda=1` branch remains the
+separate primitive-cube scale condition.
+
 The pairwise-coreless compiler splits the other taxonomy branch.  A
 pairwise-intersecting coreless obstruction on at most four active 3-edges
 either has a 3-edge coreless subfamily, or every triple has a common point and
@@ -754,7 +768,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `19.51s` locally and ends with
+It runs in about `17.00s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

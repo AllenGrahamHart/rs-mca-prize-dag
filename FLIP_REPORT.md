@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=19.51 maxrss=50116
+elapsed=17.00 maxrss=50108
 ```
 
 ## Confidence-ranked claims
@@ -144,7 +144,12 @@ elapsed=19.51 maxrss=50116
    uniqueness of such a 3-point fiber for each `lambda`.  For
    `lambda != 1`, each fiber is parametrized by an ordered root ratio `z` via
    `r=(1+z+z^2)/((lambda-1)z(1+z))`; the `lambda=1` branch has only
-   primitive-cube-root ratios `z^2+z+1=0`.
+   primitive-cube-root ratios `z^2+z+1=0`.  In the generic branch the original
+   coordinates are the three rational functions
+   `1+(lambda-1)z(1+z)/(1+z+z^2)`,
+   `1+(lambda-1)(1+z)/(1+z+z^2)`, and
+   `1-(lambda-1)z/(1+z+z^2)`, so this target is now a concrete
+   three-membership problem on the ratio line.
    The pairwise-coreless case further splits into a 3-edge coreless triangle
    or the tetrahedral four-3-subsets pattern.  The 3-edge coreless triangle
    further has only two combinatorial patterns: loose `(1,1,1)` and pinched
