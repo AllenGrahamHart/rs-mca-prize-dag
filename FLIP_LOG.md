@@ -6072,3 +6072,41 @@ H3_REPEAT_LOOSE_NORMALIZED_ORBIT_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=19.09 maxrss=50232
 ```
+
+## T2/T3 h=3 repeat loose slope-multiplicity ledger
+
+Stage selected: record the effective number of distinct affine slopes in the
+normalized loose target.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_slope_multiplicity.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_slope_multiplicity.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY_PASS
+```
+
+Result: the six coordinate slopes are distinct under the loose non-pole
+hypotheses, but the three lambda slopes may collide.  In the contrast row,
+six ordered normalizations have nine distinct slopes and six have eight
+distinct slopes with one duplicate.  Boundary guardrails have no loose slope
+patterns.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=20.05 maxrss=50108
+```

@@ -888,6 +888,12 @@ The normalized-orbit compiler removes the sixfold ordering artifact.  The
 Thus a future proof should count normalized `S_3` orbits of admissible
 nine-slope affine systems, not ordered triples of core vertices.
 
+The loose slope-multiplicity ledger records the effective condition count.
+The six coordinate slopes are distinct under the loose non-pole hypotheses;
+the three lambda slopes may collide with them or with each other.  Thus the
+target should be phrased using the distinct slope set `C(a,b)`, not a fixed
+assumption of nine distinct conditions.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -916,7 +922,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `19.09s` locally and ends with
+It runs in about `20.05s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

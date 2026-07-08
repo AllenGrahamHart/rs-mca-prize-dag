@@ -56,7 +56,8 @@ The harness runs:
 - the loose six-point system compiler;
 - the loose normalized-system compiler;
 - the loose affine-slope compiler;
-- the loose normalized-orbit compiler.
+- the loose normalized-orbit compiler;
+- the loose slope-multiplicity ledger.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch
 Modal.
