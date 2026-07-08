@@ -4559,4 +4559,46 @@ R(U) <= K(h|U|)^(2/3) for every coset set U
 => E(H) <= (1+5(K^2+K))h^(5/2).
 ```
 
-Open core: prove the rich-coset Stepanov lemma in-house with an explicit `K`.
+Then-open core: prove the rich-coset Stepanov lemma in-house with an explicit
+`K`.  This is discharged in the following Terminal B completion entry.
+
+## 2026-07-08 TERMINAL-COMPLETE: Terminal B explicit h=2 energy theorem
+
+Stage: Terminal B, rich-coset Stepanov proof.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_RICH_COSET_STEPANOV.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_stepanov.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_stepanov.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
+```
+
+Digests:
+
+```text
+H2_RICH_COSET_STEPANOV_PASS
+H2_HBK_CONDITIONAL_COMPILER_PASS
+```
+
+Claim banked: the rich-coset Stepanov lemma is proved in-house with
+`K=129`, and the dyadic compiler gives
+
+```text
+E(H) <= 83851 h^(5/2)
+```
+
+for `H <= F_p^*`, `h <= p^(2/3)`.
+
+Caveat: the constant is conservative.  It proves the h=2 floor from this route
+alone only for `h > 7030990201/64`; the banked ladder rows below this pass
+exactly, but a universal finite-midrange certificate or sharper constant is a
+separate optimization task.  This completes Terminal B's explicit in-house
+energy theorem; A and C were already complete, so the next queue item is the
+brief's bonus queue.

@@ -25,7 +25,14 @@ def main() -> None:
 
     print(f"dyadic geometric constant < 5: {geom}")
     print("conditional constants:")
-    for k in (Fraction(1), Fraction(2), Fraction(4), Fraction(8), Fraction(16)):
+    for k in (
+        Fraction(1),
+        Fraction(2),
+        Fraction(4),
+        Fraction(8),
+        Fraction(16),
+        Fraction(129),
+    ):
         c_energy = energy_constant(k)
         h0 = h_floor_threshold(k)
         print(

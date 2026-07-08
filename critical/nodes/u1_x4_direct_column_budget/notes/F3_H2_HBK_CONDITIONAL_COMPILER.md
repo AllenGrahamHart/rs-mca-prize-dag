@@ -1,8 +1,8 @@
 # F3 h=2 HBK conditional compiler (Terminal B)
 
-Status: PROVED CONDITIONAL COMPILER.  This does not close Terminal B
-unconditionally; it reduces the remaining in-house proof to one explicit
-rich-coset Stepanov lemma and gives the constant propagation.
+Status: PROVED COMPILER.  This note reduces the in-house energy proof to one
+explicit rich-coset Stepanov lemma and gives the constant propagation.  The
+companion note `F3_H2_RICH_COSET_STEPANOV.md` proves that input with `K=129`.
 
 ## Source Map
 
@@ -22,9 +22,8 @@ Relevant paper labels:
 - their Lemma 5 is the rich-coset estimate whose dyadic summation proves
   Lemma 3.
 
-The current repo still needs an in-house proof with explicit constants, so the
-paper is used here only as a map.  The imported source still has implicit
-Vinogradov constants.
+The paper is used here as a map.  The companion rich-coset note gives an
+in-house proof with explicit conservative constants.
 
 ## Conditional Lemma B2-rich
 
@@ -50,7 +49,7 @@ R(U) <= K * (h*T)^(2/3)        for every U,
 with an explicit absolute constant `K`, in the range `h <= p^(2/3)`.
 
 This is the exact constant-bearing version of the HBK rich-coset lemma needed
-by Terminal B.
+by Terminal B.  It is proved in `F3_H2_RICH_COSET_STEPANOV.md` with `K = 129`.
 
 ## Compiler
 
@@ -120,7 +119,15 @@ Therefore
 T_2 <= E(H)/8 <= ((1 + 5*(K^2+K))/8) * h^(5/2).
 ```
 
-Once B2-rich is proved with any explicit `K`, the h=2 floor follows for all
+With `K=129`, the propagated theorem is
+
+```text
+E(H) <= 83851 h^(5/2),
+T_2 <= (83851/8) h^(5/2).
+```
+
+More generally, once B2-rich is proved with any explicit `K`, the h=2 floor
+follows for all
 
 ```text
 h > ((1 + 5*(K^2+K))/8)^2,
@@ -142,11 +149,10 @@ H2_HBK_CONDITIONAL_COMPILER_PASS
 
 ## Remaining Open Work
 
-Terminal B is now concentrated into:
+The rich-coset input is now proved with a conservative constant in
+`F3_H2_RICH_COSET_STEPANOV.md`.  Remaining improvements are:
 
 ```text
-prove B2-rich in-house with explicit K.
+optimize K toward the external 16/3 energy constant, or add finite midrange
+certificates if this large in-house constant is used alone to close every h.
 ```
-
-That proof is the Stepanov/nonvanishing/rank content.  Everything after it is
-the elementary dyadic compiler above.

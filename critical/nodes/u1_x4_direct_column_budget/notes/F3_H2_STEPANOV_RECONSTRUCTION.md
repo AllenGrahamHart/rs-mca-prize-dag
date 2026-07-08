@@ -1,9 +1,11 @@
 # F3 h=2 in-house Stepanov reconstruction (Codex, 2026-07-08)
 
-Status: PARTIAL.  The h=2 stratum remains closed by the existing
-Heath-Brown--Konyagin/Konyagin import.  This note banks the in-house
-combinatorial reduction, exact replay data, the auxiliary-polynomial ansatz,
-and the precise missing steps needed to remove the import.
+Status: PROVED ENERGY THEOREM WITH EXPLICIT CONSTANT.  The h=2 stratum remains
+sharper under the external Cochrane--Pinner constant, but the in-house
+Stepanov reconstruction now proves the additive-energy theorem with explicit
+conservative constant `83851`.  This note banks the combinatorial reduction,
+exact replay data, the auxiliary-polynomial ansatz, and the follow-up
+rich-coset theorem that removes the import for the energy bound.
 
 ## Pre-registration
 
@@ -188,31 +190,26 @@ inequalities under the assumption `I(mu) > 4 n^(2/3)`: choose
 `A=8ceil(n^(2/3))`, `B=C=ceil(n^(1/3))`, and the least `D` for which
 `D*M0 > deg Psi` at `M0=floor(4n^(2/3))+1`.  In all replayed rows through
 `n=512`, the audit has both coefficient slack (`ABC > D*M0`) and positive
-degree margin.  This is only parameter arithmetic; the nonvanishing and
-coefficient-rank argument is not yet proved in-house.
+degree margin.  This single-shift audit remains a parameter sanity check; the
+actual in-house energy theorem below uses the richer multi-coset Stepanov
+setup where the nonvanishing and rank conditions are proved explicitly.
 
-## Missing steps
+## Former Missing Steps
 
-### Missing B1: nonvanishing / rank lemma
+### Former B1: nonvanishing / rank lemma
 
-Prove that the auxiliary polynomial `Psi(X)=Phi(X,X^n,(X+1)^n)` produced by the
-linear system is nonzero and has the declared degree.  Equivalently, prove the
-linear independence modulo the two subgroup equations needed by the
-Heath-Brown--Konyagin Stepanov construction, with explicit ranges for
-`A,B,C,D`.
+Discharged in `F3_H2_RICH_COSET_STEPANOV.md`: the sparse-polynomial induction
+proves nonvanishing under `AB <= h` and `A+hB < p`, and the explicit parameter
+choice verifies these inequalities in the rich-coset setting.
 
-### Missing B2: energy-level upgrade
+### Former B2: energy-level upgrade
 
 The single-shift bound `|H cap (H+mu)| <= C0 n^(2/3)` alone gives only
-`E(H) <= C0 n^(8/3)`.  The actual terminal theorem needs
-`E(H) <= C n^(5/2)`, so one also needs the Konyagin/HBK dyadic level-set or
-higher-convolution upgrade that bounds the distribution of large intersections,
-not just their maximum.
+`E(H) <= C0 n^(8/3)`.  The actual terminal theorem needs the dyadic
+level-set upgrade controlling the distribution of large intersections, not
+just their maximum.  This is now discharged by:
 
-This is the main import still not reconstructed here.
-
-Follow-up reduction banked after the Terminal C aggregate:
-`F3_H2_LEVEL_SET_REDUCTION.md` proves the exact coset-level identity
+1. `F3_H2_LEVEL_SET_REDUCTION.md` proves the exact coset-level identity
 
 ```text
 E(H) = n^2 + n * sum_C r_C^2,
@@ -228,13 +225,32 @@ sum_C r_C^2 <= C' n^(3/2).
 The replay `f3_h2_levelset_replay.py` verifies this identity through `n=2048`;
 the measured maximum is `sum_C r_C^2 / n^1.5 = 0.6406`.
 
-Second follow-up: `F3_H2_HBK_CONDITIONAL_COMPILER.md` maps the HBK Lemma-5
-strategy to this notation and proves the dyadic compiler
+2. `F3_H2_HBK_CONDITIONAL_COMPILER.md` maps the HBK Lemma-5 strategy to this
+notation and proves the dyadic compiler
 
 ```text
 R(U) <= K(h|U|)^(2/3) for all coset sets U
     => E(H) <= (1 + 5(K^2+K)) h^(5/2).
 ```
 
-Thus the only remaining proof obligation is the constant-explicit rich-coset
-Stepanov lemma `R(U) <= K(h|U|)^(2/3)`.
+3. `F3_H2_RICH_COSET_STEPANOV.md` proves the rich-coset Stepanov lemma with
+`K=129`.
+
+The resulting in-house energy theorem is
+
+```text
+E(H) <= 83851 n^(5/2).
+```
+
+The corresponding h=2 floor bound from this constant alone is asymptotic:
+`T_2 < n^3` for `n > 7030990201/64`.  The banked ladder rows below this pass
+exactly; a universal finite-midrange certificate below `109859222` would be a
+separate optimization/certification task.
+
+Replay commands:
+
+```text
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_levelset_replay.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_stepanov.py
+```

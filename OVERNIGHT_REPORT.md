@@ -11,14 +11,15 @@ interior h=3 trades are norm-gate accidents: for each fixed shape, activation at
 primes `p >= n^2` is bounded by the large-prime divisors of a nonzero
 cyclotomic obstruction norm, at most `floor(phi(n) log(6)/(2 log n))` primes.
 The exact replay verifies rows through `n=96` and confirms the three banked
-norm-gate shapes activate only modulo their selected primes.  Terminal B is
-partially banked: the h=2 trade/additive-energy reduction and Stepanov parameter
-arithmetic replay exactly, and the external import has been sharpened to the
-explicit Cochrane--Pinner constant `16/3`, but the in-house HBK/Konyagin energy
-theorem is still open.  A follow-up B2 reduction now isolates the missing
-upgrade as the explicit coset-level L2 estimate
-`sum_C r_C^2 <= C' n^(3/2)` in the identity `E(H)=n^2+n sum_C r_C^2`, replayed
-through `n=2048`.  Terminal C has a light pilot: observed activated
+norm-gate shapes activate only modulo their selected primes.  Terminal B now
+has an in-house explicit h=2 energy theorem: the rich-coset Stepanov lemma is
+proved with `K=129`, and the dyadic compiler gives
+`E(H) <= 83851 |H|^2.5` for `|H| <= p^(2/3)`.  This is much weaker than the
+external Cochrane--Pinner constant `16/3`, but it removes the black-box import
+for the additive-energy theorem.  Used alone, it gives `T_2 < n^3` only above
+`n > 7030990201/64`; the banked ladder rows below this pass exactly, and a
+universal finite-midrange certificate is separated as future optimization.
+Terminal C has a light pilot: observed activated
 `n=96` h=3 shapes do not repeat across the actual prime rows in the ladder.
 A random exact-norm Modal sample refutes the naive rational norm-coprimality
 form as too strong, but finds zero actual common-root activations in 2000
@@ -234,66 +235,45 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    consequence of the explicit external Cochrane--Pinner constant
    `C=16/3`: if imported, `T_2 <= (2/3)n^2.5 < n^3` for all `n >= 1`.
 
-5. **OPEN:** in-house explicit HBK/Konyagin h=2 energy theorem.
+5. **PROVED:** in-house explicit HBK/Konyagin h=2 energy theorem.
 
-   Current banked frontier:
+   Files:
 
    ```text
    critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_STEPANOV_RECONSTRUCTION.md
-   ```
-
-   The auxiliary-polynomial parameter arithmetic is checked for the
-   single-shift ansatz through `n=512`, but two proof steps remain:
-   nonvanishing/rank for the constructed polynomial, and the dyadic
-   level-set/higher-convolution upgrade from single-shift intersection bounds
-   to `E(H) <= C n^2.5` with explicit `C`.
-
-   Follow-up refinement:
-
-   ```text
    critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_LEVEL_SET_REDUCTION.md
-   ```
-
-   Replay:
-
-   ```bash
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_levelset_replay.py
-   ```
-
-   Digest: `H2_LEVEL_SET_REPLAY_PASS`.
-
-   The exact identity `E(H)=n^2+n sum_C r_C^2` is now banked and replayed
-   through `n=2048`, so the open
-   Terminal B proof step is the explicit level-set/L2 bound
-   `sum_C r_C^2 <= C' n^(3/2)`.
-
-   Conditional compiler:
-
-   ```text
    critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_HBK_CONDITIONAL_COMPILER.md
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_RICH_COSET_STEPANOV.md
    ```
 
-   Replay:
+   Replays:
 
    ```bash
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_energy_replay.py
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_levelset_replay.py
    python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_stepanov.py
    ```
 
-   Digest: `H2_HBK_CONDITIONAL_COMPILER_PASS`.
+   Digests:
 
-   It proves that a rich-coset Stepanov lemma
-   `R(U) <= K(h|U|)^(2/3)` implies the explicit energy bound
-   `E(H) <= (1+5(K^2+K))h^2.5`.  Thus the remaining in-house proof obligation
-   is now one named constant-explicit rich-coset lemma.
-
-   Source trail for the explicit external constant:
-
-   ```text
-   https://www.math.ksu.edu/~cvs/cochrane_hart_pinner_spencer-waring_subgroup.pdf
+   ```bash
+   H2_ENERGY_REPLAY_PASS
+   H2_LEVEL_SET_REPLAY_PASS
+   H2_HBK_CONDITIONAL_COMPILER_PASS
+   H2_RICH_COSET_STEPANOV_PASS
    ```
 
-   Cochrane--Hart--Pinner--Spencer record the Cochrane--Pinner explicit
-   theorem `E(A) <= (16/3)|A|^2.5` for `|A| < p^(2/3)`.
+   Content: the exact h=2 trade identity gives `T_2 <= E(H)/8`; the level-set
+   reduction gives `E(H)=n^2+n sum_C r_C^2`; the dyadic compiler reduces the
+   L2 estimate to the rich-coset lemma; and the Stepanov proof gives
+   `R(U) <= 129(h|U|)^(2/3)`.  Therefore
+   `E(H) <= 83851 h^2.5` for `h <= p^(2/3)`.
+
+   Caveat: this in-house constant is conservative.  It proves `T_2 < h^3`
+   from this route alone for `h > 7030990201/64`; all banked ladder rows below
+   this pass exactly, but a universal finite-midrange certificate or sharper
+   constant remains separate.
 
 6. **VERIFIED-AT-ROWS:** Terminal C pair-coprimality pilot on observed
    `n=96` h=3 shapes.
@@ -1904,9 +1884,12 @@ Terminal C.  The new theorem says finite non-toral h=3 interiors cannot be
 persistent char-zero families; it does not yet bound simultaneous activated
 shape counts at one prime.
 
-Terminal B status: partial, not complete.  The h=2 stratum remains closed only
-by external HBK/Konyagin/Cochrane--Pinner input until the two missing explicit
-Stepanov/HBK steps above are proved in-house.
+Terminal B status: energy theorem complete with explicit in-house constants.
+The new self-contained route proves `E(H) <= 83851 h^2.5`; the external
+Cochrane--Pinner `16/3` constant remains far sharper.  Using the in-house
+constant alone, the h=2 floor is automatic only for
+`h > 7030990201/64`; smaller universal rows would need a finite certificate or
+a sharper constant, while all banked ladder rows pass exactly.
 
 Terminal C status: complete for the oriented core-slice census.  The
 observed-shape pilot supports common-root pair-coprimality, and the random
