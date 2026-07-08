@@ -4122,3 +4122,46 @@ p=257 n=128 B_line=3786 support=252 genuine_support=252 max_fiber=20
 H3_REPEAT_BOUNDARY_FIBER_CAP_PASS
 elapsed=0.04 maxrss=11516
 ```
+
+## T2 h=3 repeat-boundary LP4 rank guardrail
+
+Stage selected: rule out a false LP4 nonvanishing shortcut before spending
+more effort on the line-pencil theorem.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_LP4_RANK_GUARDRAIL.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_lp4_rank_guardrail.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_lp4_rank_guardrail.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_BOUNDARY_LP4_RANK_GUARDRAIL_PASS
+```
+
+Result: the full-degree-space shortcut for affine products is false.  For
+`A=1,B=3,H=2` and roots `(2,5)`, the nine polynomials
+`P_ij=(X-2)^(2i)(X-5)^(2j)` have exact rational rank `8`, not `9`, with
+
+```text
+81 P00 - 18 P01 + P02 - 18 P10 - 2 P11 + P20 = 0.
+```
+
+Therefore the remaining LP4 theorem must prove the actual weaker rank
+threshold, or the proof must proceed through the active-support route.
+
+Focused replay:
+
+```text
+rank=8 expected_full_degree_rank=9
+H3_REPEAT_BOUNDARY_LP4_RANK_GUARDRAIL_PASS
+elapsed=0.41 maxrss=50020
+```

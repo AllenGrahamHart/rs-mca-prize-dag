@@ -69,6 +69,9 @@ No Modal job is required for the aggregate replay.
    coset-pair Stepanov corollary: `B_q0 <= 132 n^(2/3)`.  Every fixed
    non-q0 line fiber also has the h=2 cap `T_r <= 66 n^(2/3)`, reducing the
    remaining residue problem to an active-support bound for line parameters.
+   A full-degree-space shortcut for LP4 affine factors is false already in a
+   two-factor rational model, so the rank gate must be proved in its weaker
+   threshold form or bypassed by support/incidence arguments.
 8. The h=3 dilation-normalized activation count lifts to at most `n` raw
    shape pairs per orbit; side-swap stabilizers only reduce the lift size.
 9. Nondegenerate h=3 conic charts have no internal constant-ratio collapse

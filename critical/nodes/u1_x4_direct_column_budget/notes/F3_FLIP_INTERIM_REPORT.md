@@ -268,6 +268,23 @@ Thus a support theorem `R_genuine <= C n^beta` with `beta < 4/3` would pay the
 repeat residue subcubically; a linear support theorem would give an
 `O(n^(8/3))` residue payment.
 
+The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
+two affine factors, the claim that the products span the full degree space is
+false.  With
+
+```text
+P_ij(X)=(X-2)^(2i)(X-5)^(2j),  0<=i,j<=2,
+```
+
+the predicted degree-space rank is `9`, but the exact rational rank is `8`:
+
+```text
+81 P_00 - 18 P_01 + P_02 - 18 P_10 - 2 P_11 + P_20 = 0.
+```
+
+Thus the LP4 path must prove the actual threshold rank/nonvanishing statement,
+or use the support route above; it cannot assume per-line full degree span.
+
 The dilation-lift packet justifies the normalization factor in the activation
 compiler.  If `A_3(n,p)` counts activated unordered shape-pair orbits modulo
 common multiplication by `H`, then the raw unnormalized shape-pair count is at
