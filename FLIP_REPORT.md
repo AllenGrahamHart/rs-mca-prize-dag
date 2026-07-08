@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.94 maxrss=50104
+elapsed=16.58 maxrss=50104
 ```
 
 ## Confidence-ranked claims
@@ -132,8 +132,11 @@ elapsed=16.94 maxrss=50104
    `sum_lambda binom(K_lambda,2)`, so it is killed by injectivity of
    `E -> lambda(E)` on active boundary-style edges.  The lambda-distinct case
    is the scalar condition `rho=(m-n)/(lambda-mu)` with required hit
-   `rho in {t(2-t): t in E}`.  The pairwise-coreless case further splits into
-   a 3-edge coreless triangle or the tetrahedral four-3-subsets pattern.
+   `rho in {t(2-t): t in E}`.  Both are unified by
+   `A_lambda(T)=T(T-1)^2+lambda*T(2-T)`: active edges are 3-point H-level
+   fibers of `A_lambda`, and rho is a secant slope in the lambda direction.
+   The pairwise-coreless case further splits into a 3-edge coreless triangle
+   or the tetrahedral four-3-subsets pattern.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

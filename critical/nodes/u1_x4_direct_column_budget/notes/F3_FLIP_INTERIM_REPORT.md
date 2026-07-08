@@ -598,6 +598,17 @@ Then common coordinates of the two active edges are exactly
 So `H3-NO-QUADRATIC-MISS` is the scalar hit condition
 `rho in {t(2-t): t in E}` for every lambda-distinct pair.
 
+The affine value-slope form unifies the two disjoint-edge subtargets:
+
+```text
+A_lambda(T)=T(T-1)^2 + lambda*T(2-T).
+```
+
+Active edges are 3-point H-level fibers of `A_lambda`; rho values are secant
+slopes in the lambda direction.  Thus `H3-LAMBDA-INJECTIVE` becomes uniqueness
+of active 3-point H-level values for fixed lambda, and `H3-RHO-HIT` becomes a
+slope-hit statement for `T(2-T)` on the source edge.
+
 The pairwise-coreless compiler splits the other taxonomy branch.  A
 pairwise-intersecting coreless obstruction on at most four active 3-edges
 either has a 3-edge coreless subfamily, or every triple has a common point and
@@ -633,7 +644,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `16.94s` locally and ends with
+It runs in about `16.58s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

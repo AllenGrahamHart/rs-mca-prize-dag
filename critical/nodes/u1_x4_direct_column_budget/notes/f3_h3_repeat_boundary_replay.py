@@ -58,6 +58,11 @@ COMMANDS = [
         "H3_REPEAT_QUADRATIC_RHO_COMPILER_PASS",
     ),
     (
+        "h3 repeat affine value-slope compiler",
+        "f3_h3_repeat_affine_value_slope_compiler.py",
+        "H3_REPEAT_AFFINE_VALUE_SLOPE_COMPILER_PASS",
+    ),
+    (
         "h3 repeat-boundary LP4 Stepanov compiler",
         "f3_h3_repeat_boundary_lp4_stepanov_compiler.py",
         "H3_REPEAT_BOUNDARY_LP4_STEPANOV_COMPILER_PASS",
