@@ -141,6 +141,14 @@ COMMANDS = [
         "H3_RC_RANK_GENERIC_OPEN_PASS",
     ),
     (
+        "h3 private-linear compiler guard",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_compiler_guard.py",
+        ],
+        "H3_PRIVATE_LINEAR_COMPILER_GUARD_PASS",
+    ),
+    (
         "h3 non-diagonal low-row budget",
         [
             sys.executable,

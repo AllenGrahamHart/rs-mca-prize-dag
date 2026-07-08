@@ -2787,3 +2787,31 @@ symbolic target is `F3-RANK-AVOID`, not full injectivity and not raw
 private-divisor counting.  The standalone replay passes in `2.81s` locally
 (`maxrss=18688`), and the default aggregate replay passes with this packet
 included in `40.56s` locally (`maxrss=98796`).
+
+## T1/T2 h=3 private-linear compiler guard
+
+Stage selected: audit whether a private-linear rank theorem would be strong
+enough to justify the current non-diagonal h=3 bridge compiler.
+
+New packet:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_COMPILER_GUARD.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_compiler_guard.py
+```
+
+Result: every current official non-diagonal witness row `s=13..41` needs the
+full degree-2 rank room `A + 6n(B-1)`; its per-curve condition count is larger
+than the private-linear degree room `A + 3n(B-1)`.  Therefore the next theorem
+route must split cleanly:
+
+```text
+prove degree-2 repaired-curve rank, or
+rerun the compiler under the private-linear degree cap.
+```
+
+The verifier also checks representative private-linear retuned passing boxes at
+`s in {13,16,20,23,32,41}`.  These are not maximality claims; they only show
+the private-linear route is not vacuous.  Standalone replay passes in `0.02s`
+locally (`maxrss=12928`), and the default aggregate replay passes with this
+packet included in `46.09s` locally (`maxrss=98796`).

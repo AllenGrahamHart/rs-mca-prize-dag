@@ -197,6 +197,23 @@ degree-space-fullness open set is nonempty in the toy box.  The remaining
 the actual repaired F3 signature-curve parameter image, with rank-effective
 capacity accounting for repeated images.
 
+The private-linear compiler guard prevents a wrong shortcut from this point.
+All current official non-diagonal h=3 bridge witnesses use the degree-2
+denominator room `A + 6n(B-1)`: for every row `s=13..41`, the per-curve
+condition count is larger than the private-linear degree room
+`A + 3n(B-1)`.  Therefore a theorem proving only private-linear degree-space
+fullness cannot be plugged into the current compiler unchanged.  The route
+splits:
+
+```text
+degree-2 rank theorem        => keep the current non-diagonal compiler;
+private-linear rank theorem  => rerun a private-linear compiler with L_private.
+```
+
+The guard also verifies representative private-linear retuned boxes at
+`s in {13,16,20,23,32,41}`, so the private-linear track is not ruled out; it
+just needs its own maximality compiler.
+
 The rank-form parameter compiler gives the current conditional constants for
 representative repaired curve-family sizes.  Under `RC-RANK`, the diagonal
 `A=D` boxes give, for example:
