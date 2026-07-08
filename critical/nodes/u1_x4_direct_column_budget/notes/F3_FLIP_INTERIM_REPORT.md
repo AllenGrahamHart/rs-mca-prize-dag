@@ -89,6 +89,20 @@ rows.  The char-zero theorem says the toral h=3 column exists only when
 floor.  The remaining official degeneracy cells for the repaired rank theorem
 are the constant-ratio cells and the hyperbola-line cell `b=a^2/3`.
 
+The conic-chart packet makes the bridge setup field-rational.  Given any
+row-field point `(u0,v0)` on the same-fiber conic
+`u^2+uv+v^2+a(u+v)+b=0`, the line-through-point chart gives
+
+```text
+U(t), V(t), W(t) = -a-U(t)-V(t)
+```
+
+with numerator and denominator degrees at most `2`, and
+`F0(U)=F0(V)=F0(W)` for `F0(T)=T^3+aT^2+bT`.  Thus the h=3 same-fiber
+membership conditions land in the exact degree-2 rational-map class consumed by
+the rich-curve compiler, without adjoining a cube root.  This does not prove
+the rank-good minor theorem or the geometric batching theorem.
+
 The earlier exact pair-coprimality pilot is now included in the aggregate
 replay.  On the seven-prime n=96 ladder it finds three activated shapes, each
 activating at exactly one threshold prime; the common obstruction norm factors

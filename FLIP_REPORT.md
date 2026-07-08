@@ -28,7 +28,7 @@ The latest aggregate replay was run under a 60 second wall-clock cap and
 completed successfully:
 
 ```text
-elapsed=57.58 maxrss=98808
+elapsed=57.07 maxrss=98564
 ```
 
 No Modal job is required for the aggregate replay.
@@ -49,24 +49,27 @@ No Modal job is required for the aggregate replay.
 4. The h=3 official-row toral degeneracy is absent on the rows that matter,
    because the toral h=3 column requires `3 | n` and every official row is
    `n=2^s`.
-5. The rich-curve denominator compiler and log-jet reduction are banked.  The
+5. The h=3 same-fiber conic has a row-field degree-2 rational chart from any
+   known conic point.  This puts `U,V,W` membership conditions in the exact
+   rational-map class consumed by the rich-curve compiler.
+6. The rich-curve denominator compiler and log-jet reduction are banked.  The
    reduced-condition side is now `RC-RED(13)`.
-6. Several h=3 rank guardrails are proved or replayed:
+7. Several h=3 rank guardrails are proved or replayed:
    constant-ratio collapsed rank, small-`H` failure, one-factor private-linear
    rank, two-factor failure of naive induction, finite-row bad-prime rank drop,
    generic-open rank-minor formulation, and normalization invariance.
-7. The h=3 arithmetic interfaces now cover every official row.  The current
+8. The h=3 arithmetic interfaces now cover every official row.  The current
    non-diagonal route is:
    `F3-RANK-AVOID + H3-BRIDGE-RANKCAP(Z_budget(s)) => H3-ACT(16)`.
    The private-linear alternate route is:
    `F3-PRIVATE-LINEAR-RANK-AVOID + H3-BRIDGE-PRIVATE-RANKCAP(Z_private(s)) => H3-ACT(16)`.
-8. h=5 has been structurally localized.  Since `5` is not dyadic, the
+9. h=5 has been structurally localized.  Since `5` is not dyadic, the
    char-zero dyadic branch is excluded; every remaining survivor must be a
    p-specific x83 norm-gate event.
-9. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
+10. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.
-10. The h=8 x83 support-to-trade reduction is compatible with root-scaling
+11. The h=8 x83 support-to-trade reduction is compatible with root-scaling
     rotations, up to swapping the two recovered sides.
 
 ### Conditional but useful

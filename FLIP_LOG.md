@@ -3250,3 +3250,55 @@ to make future 60-second Modal shards produce partial, resumable records.
 
 The script is deliberately not added to the default aggregate replay because
 the current aggregate already runs close to the 60 second laptop cap.
+
+## T1 h=3 conic degree-2 chart
+
+Stage selected: bank a bridge-side parametrization lemma rather than another
+activation census.  The rich-curve machinery assumes degree-2 rational
+membership maps; this packet proves that the actual h=3 same-fiber conics have
+such maps over the row field itself.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_DEGREE2_CHART.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_degree2_chart.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_degree2_chart.py
+```
+
+Expected digest:
+
+```text
+H3_CONIC_DEGREE2_CHART_PASS
+```
+
+Result: for a row-field point `(u0,v0)` on
+`G(u,v)=u^2+uv+v^2+a(u+v)+b=0`, the line-through-point chart gives
+
+```text
+S(t) = -((2u0+v0+a) + t(u0+2v0+a))/(t^2+t+1),
+U(t)=u0+S(t),
+V(t)=v0+tS(t),
+W(t)=-a-U(t)-V(t).
+```
+
+Then `G(U,V)=0`, `U+V+W=-a`, `UV+UW+VW=b`, and
+`F0(U)=F0(V)=F0(W)` for `F0(T)=T^3+aT^2+bT`.  After clearing the denominator
+`t^2+t+1`, all three membership maps have numerator and denominator degree at
+most `2`.  The affine chart plus the `t=infinity` vertical mate covers the
+finite conic points in the replayed small fields.  This supports the degree-2
+rich-curve setup; it does not prove rank-minor avoidance or geometric
+batching.
+
+The aggregate replay now includes this verifier and still passes under the
+60 second cap:
+
+```text
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+elapsed=57.07 maxrss=98564
+```
