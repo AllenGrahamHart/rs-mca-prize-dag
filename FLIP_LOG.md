@@ -1847,3 +1847,33 @@ Result: focused guardrail verifier passes in `14.21s` locally
 locally after the rank-capacity wording update.  The default aggregate replay
 is unchanged except for the bridge compiler wording and still passes in
 `43.05s` locally (`maxrss=98636`).
+
+## T1 h=3 private-linear degree-span explanation
+
+Stage selected: sharpen the small-H guardrail from a table into an exact model
+formula for the private linear-divisor control.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_HFLOOR_GUARD.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
+```
+
+Expected digest:
+
+```text
+H3_RC_RANK_HFLOOR_GUARD_PASS
+```
+
+Result: focused verifier passes in `14.15s` locally (`maxrss=23324`) and now
+checks the formula `rank = min(A B^3, A + 3H(B-1))` for the private-linear
+control.  The default aggregate replay still passes in `44.63s` locally
+(`maxrss=98672`).

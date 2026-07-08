@@ -107,11 +107,15 @@ def rank_capacity(rank: int) -> int:
     return (rank - 1) // CONDITIONS
 
 
+def private_linear_degree_dim(h_order: int) -> int:
+    return A + 3 * h_order * (B - 1)
+
+
 def main() -> None:
     print("h=3 RC-RANK small-H guardrail")
     print(f"p={P} A={A} B={B} D={D} coeffs={COEFFS} conditions={CONDITIONS}")
     print("curve=(X-2)/(X-3), (X-5)/(X-7), (X-11)/(X-13)")
-    print(" H_order    rank    rank_deficit    rc_rank    capacity")
+    print(" H_order    rank    degree_dim    rank_deficit    rc_rank    capacity")
     seen_failure = False
     seen_pass = False
     seen_full = False
@@ -119,13 +123,16 @@ def main() -> None:
         rank = substitution_rank(h_order)
         if rank != EXPECTED_RANKS[h_order]:
             raise AssertionError((h_order, rank, EXPECTED_RANKS[h_order]))
+        degree_dim = private_linear_degree_dim(h_order)
+        if rank != min(COEFFS, degree_dim):
+            raise AssertionError((h_order, rank, COEFFS, degree_dim))
         rc_rank = rank > CONDITIONS
         capacity = rank_capacity(rank)
         seen_failure |= not rc_rank
         seen_pass |= rc_rank
         seen_full |= rank == COEFFS
         print(
-            f"{h_order:8d} {rank:7d} {COEFFS - rank:15d}"
+            f"{h_order:8d} {rank:7d} {degree_dim:13d} {COEFFS - rank:15d}"
             f" {str(rc_rank):>10s} {capacity:11d}"
         )
 
@@ -134,6 +141,7 @@ def main() -> None:
 
     print("RC-RANK is false for tiny H in this non-collapsed toy family")
     print("RC-RANK becomes true, then full-rank, as H grows in the same family")
+    print("private-linear rank equals min(coefficients, A + 3H(B-1)) in this control")
     print("future RC-RANK theorem must print an H-floor or route tiny rows to certificates")
     print("H3_RC_RANK_HFLOOR_GUARD_PASS")
 

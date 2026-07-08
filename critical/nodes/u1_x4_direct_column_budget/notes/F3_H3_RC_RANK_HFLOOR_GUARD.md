@@ -51,12 +51,22 @@ The non-collapsed private-divisor curve is
 Only the subgroup order `H` changes.  The exact ranks are:
 
 ```text
-H=4:  rank 41   fails RC-RANK
-H=8:  rank 77   fails RC-RANK by one
-H=16: rank 149  passes with capacity 1
-H=32: rank 293  passes with capacity 3
-H=64: rank 320  full coefficient rank, capacity 4
+H=4:  rank 41   degree_dim 41   fails RC-RANK
+H=8:  rank 77   degree_dim 77   fails RC-RANK by one
+H=16: rank 149  degree_dim 149  passes with capacity 1
+H=32: rank 293  degree_dim 293  passes with capacity 3
+H=64: rank 320  degree_dim 581  full coefficient rank, capacity 4
 ```
+
+The verifier also checks the exact model formula
+
+```text
+rank = min(A B^3, A + 3H(B - 1))
+```
+
+for this private-linear control.  Thus the rank deficit here is not mysterious:
+before the coefficient box fills, it is exactly the one-variable degree-space
+dimension of the cleared products.
 
 Thus private divisors plus non-collapse are still not enough for a uniform
 small-`H` `RC-RANK` theorem.  The large-row theorem should print the required

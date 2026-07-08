@@ -145,12 +145,17 @@ the same private-divisor toy family and Stepanov box, varying only the subgroup
 order gives exact ranks
 
 ```text
-H=4:  rank 41   fails RC-RANK
-H=8:  rank 77   fails RC-RANK by one
-H=16: rank 149  passes
-H=32: rank 293  passes
-H=64: rank 320  full coefficient rank
+H=4:  rank 41   degree_dim 41   fails RC-RANK
+H=8:  rank 77   degree_dim 77   fails RC-RANK by one
+H=16: rank 149  degree_dim 149  passes
+H=32: rank 293  degree_dim 293  passes
+H=64: rank 320  degree_dim 581  full coefficient rank
 ```
+
+The same verifier checks the model formula
+`rank = min(A B^3, A + 3H(B - 1))` for this private-linear control, so the
+small-rank failures are explained by degree-space dimension rather than by a
+new degeneracy.
 
 So non-collapse plus private divisors do not imply a uniform tiny-`H`
 `RC-RANK` theorem.  The future large-row theorem must print an `H` floor, or
