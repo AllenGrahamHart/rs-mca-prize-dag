@@ -117,7 +117,21 @@ def require_h5_n32_certificate(rows) -> None:
 
 
 def require_h5_n64_certificate(rows) -> None:
-    expected_primes = [4289, 12289, 40961, 65537, 262337]
+    expected_primes = [
+        4289,
+        4481,
+        4673,
+        4801,
+        4993,
+        5441,
+        5569,
+        5953,
+        6337,
+        12289,
+        40961,
+        65537,
+        262337,
+    ]
     if [row.get("p") for row in rows] != expected_primes:
         raise AssertionError(rows)
     for row in rows:

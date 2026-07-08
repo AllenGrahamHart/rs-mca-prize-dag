@@ -12,7 +12,8 @@ Rows:
 
 ```text
 n = 64, h = 5,
-p in {4289, 12289, 40961, 65537, 262337}.
+p = every admissible prime 1 mod 64 with 64^2 < p <= 6337,
+plus p in {12289, 40961, 65537, 262337}.
 ```
 
 Object:
@@ -32,7 +33,7 @@ Success evidence:
 
 ## Result
 
-The full replay completed locally in 18 seconds with peak RSS below 90 MB.  For
+The full replay completed locally in `52.45s` with peak RSS below 90 MB.  For
 every listed prime:
 
 ```text
@@ -44,9 +45,10 @@ partial                 = false
 direct n^3 alarm        = false
 ```
 
-Thus the h=5 no-primitive evidence now has five complete `n=64` rows in
-addition to the expanded `56`-row `n=32` bank.  This remains finite-row
-evidence, not a uniform h=5 theorem.
+Thus the h=5 no-primitive evidence now has `13` complete `n=64` rows in
+addition to the expanded `56`-row `n=32` bank.  In particular, every admissible
+`n=64` prime through `6337` is certified.  This remains finite-row evidence,
+not a uniform h=5 theorem.
 
 ## Replay
 
