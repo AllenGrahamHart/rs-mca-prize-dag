@@ -55,3 +55,50 @@ used.
 Next step: start T1 with a rich-curve denominator-clearing and coefficient
 count packet, or continue T3 by estimating exact-census cost for the h=2
 midrange rows `2^13..2^22`.
+
+## T1 groundwork: rich-curve denominator compiler
+
+Stage selected: T1 denominator clearing for degree-2 rational signature-curve
+maps.  This isolates the first arithmetic obligation in the rich-curve
+Stepanov route before attempting the nonvanishing and family coefficient-count
+steps.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DENOMINATOR_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
+```
+
+Digest:
+
+```text
+H3_RICH_CURVE_DENOMINATOR_COMPILER_PASS
+```
+
+Result: for `r_i=P_i/Q_i` with `deg P_i, deg Q_i <= 2` and auxiliary
+`Phi(X,Y_1,Y_2,Y_3)` with `deg_X < A`, `deg_{Y_i} < B`, the clearing
+denominator
+
+```text
+Q_1^{h(B-1)} Q_2^{h(B-1)} Q_3^{h(B-1)}
+```
+
+turns `Phi(X,r_1^h,r_2^h,r_3^h)` into a polynomial of degree at most
+
+```text
+(A - 1) + 6 h (B - 1).
+```
+
+The verifier checks the identity exactly over finite fields for 60 deterministic
+degree-2 rational-map cases.  This does not prove T1; it pins the degree input
+for the eventual multiplicity contradiction.
+
+Next step: T1 coefficient-count/nonvanishing packet for this cleared
+four-variable auxiliary polynomial, or T3 h=2 midrange certificate-cost table.
