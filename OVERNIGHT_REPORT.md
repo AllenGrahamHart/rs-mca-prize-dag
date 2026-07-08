@@ -15,7 +15,10 @@ norm-gate shapes activate only modulo their selected primes.  Terminal B is
 partially banked: the h=2 trade/additive-energy reduction and Stepanov parameter
 arithmetic replay exactly, and the external import has been sharpened to the
 explicit Cochrane--Pinner constant `16/3`, but the in-house HBK/Konyagin energy
-theorem is still open.  Terminal C has a light pilot: observed activated
+theorem is still open.  A follow-up B2 reduction now isolates the missing
+upgrade as the explicit coset-level L2 estimate
+`sum_C r_C^2 <= C' n^(3/2)` in the identity `E(H)=n^2+n sum_C r_C^2`, replayed
+through `n=512`.  Terminal C has a light pilot: observed activated
 `n=96` h=3 shapes do not repeat across the actual prime rows in the ladder.
 A random exact-norm Modal sample refutes the naive rational norm-coprimality
 form as too strong, but finds zero actual common-root activations in 2000
@@ -244,6 +247,24 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    nonvanishing/rank for the constructed polynomial, and the dyadic
    level-set/higher-convolution upgrade from single-shift intersection bounds
    to `E(H) <= C n^2.5` with explicit `C`.
+
+   Follow-up refinement:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_LEVEL_SET_REDUCTION.md
+   ```
+
+   Replay:
+
+   ```bash
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_levelset_replay.py
+   ```
+
+   Digest: `H2_LEVEL_SET_REPLAY_PASS`.
+
+   The exact identity `E(H)=n^2+n sum_C r_C^2` is now banked, so the open
+   Terminal B proof step is the explicit level-set/L2 bound
+   `sum_C r_C^2 <= C' n^(3/2)`.
 
    Source trail for the explicit external constant:
 

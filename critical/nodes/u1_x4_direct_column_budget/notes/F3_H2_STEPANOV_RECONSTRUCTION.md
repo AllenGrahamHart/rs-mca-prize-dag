@@ -210,3 +210,20 @@ higher-convolution upgrade that bounds the distribution of large intersections,
 not just their maximum.
 
 This is the main import still not reconstructed here.
+
+Follow-up reduction banked after the Terminal C aggregate:
+`F3_H2_LEVEL_SET_REDUCTION.md` proves the exact coset-level identity
+
+```text
+E(H) = n^2 + n * sum_C r_C^2,
+```
+
+where `r_C` is the common value of `|H cap (H+s)|` on a multiplicative coset
+`C=sH`.  Thus B2 is precisely the explicit L2/level-set estimate
+
+```text
+sum_C r_C^2 <= C' n^(3/2).
+```
+
+The replay `f3_h2_levelset_replay.py` verifies this identity through `n=512`;
+the measured maximum is `sum_C r_C^2 / n^1.5 = 0.6406`.

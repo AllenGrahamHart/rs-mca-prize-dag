@@ -4498,3 +4498,34 @@ and not claimed.
 
 Next queue item: re-enter Terminal B, because the in-house explicit h=2
 Stepanov/HBK energy proof remains the only non-complete terminal after A and C.
+
+## 2026-07-08 Terminal B re-entry: h=2 level-set reduction
+
+Stage: Terminal B, missing B2 energy-level upgrade.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_LEVEL_SET_REDUCTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_levelset_replay.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_levelset_replay.py
+```
+
+Result:
+
+```text
+max coset_l2 / n^1.5 = 0.6406
+max E(H) / n^2.5 = 0.8906
+H2_LEVEL_SET_REPLAY_PASS
+```
+
+Claim banked: for a multiplicative subgroup `H <= F_p^*`, if `r_C` is the
+common shifted-intersection count on a multiplicative coset `C=sH`, then
+`E(H) = n^2 + n * sum_C r_C^2`.  Therefore the missing HBK/Konyagin upgrade is
+exactly the explicit L2 estimate `sum_C r_C^2 <= C' n^(3/2)`, not just a
+single-shift maximum bound.
