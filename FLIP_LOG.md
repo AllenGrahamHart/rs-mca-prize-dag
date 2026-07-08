@@ -102,3 +102,38 @@ for the eventual multiplicity contradiction.
 
 Next step: T1 coefficient-count/nonvanishing packet for this cleared
 four-variable auxiliary polynomial, or T3 h=2 midrange certificate-cost table.
+
+## T3 h=2 finite-midrange certificate-cost table
+
+Stage selected: T3 finite-midrange accounting for the optimized in-house h=2
+chain.  This does not try to replace the external Cochrane--Pinner import; it
+states exactly what remains if the in-house chain alone is used.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_MIDRANGE_CERTIFICATE_COSTS.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_midrange_certificate_costs.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_midrange_certificate_costs.py
+```
+
+Digest:
+
+```text
+H2_MIDRANGE_CERTIFICATE_COSTS_PASS
+```
+
+Result: the optimized h=2 in-house theorem covers official powers
+`2^23..2^41`.  With the explicit planning shard size
+`S = 2^26` ordered differences and the policy threshold `< 2000` shards, direct
+exact-census certificates are plausibly feasible for `2^13..2^18`.  The honest
+remaining in-house finite midrange is therefore exactly `2^19..2^22`.
+
+Next step: return to T1 by attempting the rich-curve coefficient-count and
+nonvanishing packet, or continue T3 by designing the actual h=2 certificate
+runner for the feasible rows.
