@@ -2726,3 +2726,33 @@ primes up to the current max are `515`.  The h4/h5 bonus replay reports `179`
 n=64 complete zero certificates and passes in `0.04s` locally
 (`maxrss=14740`).  The default aggregate replay still passes in `37.57s`
 locally (`maxrss=98672`).
+
+## T1/T2 h=3 RC-RANK model-lemma repair
+
+Stage selected: stop linear h=5 prefix expansion and sharpen the h=3
+`RC-RANK` theorem statement.  The new packet records the algebraic part of the
+rank guardrails:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_MODEL_LEMMAS.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_model_lemmas.py
+```
+
+Pre-registered claims:
+
+```text
+1. Constant-ratio collapsed curves have exact rank
+   |{a + Hs : 0 <= a < A, 0 <= s <= 3(B-1)}|.
+2. Private-linear cleared substitutions have rank at most
+   min(A B^3, A + 3H(B-1)).
+3. Therefore any private-linear RC-RANK theorem needs an explicit H-floor;
+   in the toy box A=5,B=4,D=1 the first possible one-curve pass is H=9.
+```
+
+Result: this does not prove `RC-RANK`, but it proves the model obstruction
+behind the existing finite-field guardrail.  The remaining h=3 lower-bound
+target is now sharper: prove private-linear degree-space fullness, or a weaker
+rank lower bound still beating `13D(A+D)|Z|`, under explicit repaired
+signature-curve hypotheses.  The standalone replay passes in `0.01s` locally
+(`maxrss=10624`), and the default aggregate replay passes with the new packet
+included in `37.07s` locally (`maxrss=98584`).

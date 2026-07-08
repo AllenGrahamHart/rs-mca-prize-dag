@@ -125,6 +125,14 @@ COMMANDS = [
         "H3_RANK_EFFECTIVE_BRIDGE_PASS",
     ),
     (
+        "h3 RC-RANK model lemmas",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_model_lemmas.py",
+        ],
+        "H3_RC_RANK_MODEL_LEMMAS_PASS",
+    ),
+    (
         "h3 non-diagonal low-row budget",
         [
             sys.executable,

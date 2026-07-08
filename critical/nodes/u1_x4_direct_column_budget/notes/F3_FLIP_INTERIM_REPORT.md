@@ -162,6 +162,26 @@ So non-collapse plus private divisors do not imply a uniform tiny-`H`
 route the tiny rows to finite certificates.  This is a theorem-statement
 guardrail, not an official-row obstruction.
 
+The model-lemma packet separates the algebraic part of that guardrail from the
+unproved rank lower bound.  Constant-ratio collapsed curves have exact rank
+
+```text
+| { a + Hs : 0 <= a < A, 0 <= s <= 3(B-1) } |,
+```
+
+so the toy `A=5,B=4,H=32` collapsed rank is exactly `50`, giving zero
+`RC-RANK` capacity against the `78` conditions.  For private-linear curves,
+degree alone gives the one-curve ceiling
+
+```text
+rank <= min(A B^3, A + 3H(B - 1)).
+```
+
+Thus even a perfect private-linear degree-space theorem needs an explicit
+`H` floor; in the toy box the first possible one-curve pass is `H=9`.  The
+remaining theorem is the lower bound, namely degree-space fullness under
+explicit repaired/private-divisor hypotheses.
+
 The rank-form parameter compiler gives the current conditional constants for
 representative repaired curve-family sizes.  Under `RC-RANK`, the diagonal
 `A=D` boxes give, for example:
