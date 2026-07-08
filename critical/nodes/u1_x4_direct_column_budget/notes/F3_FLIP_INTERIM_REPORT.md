@@ -221,6 +221,13 @@ two-factor span has exact rational rank `8`, while
 `min(A B^2,A+2H(B-1))=9`.  The full private-linear theorem therefore needs a
 global multigenerator argument, not a factor-by-factor valuation iteration.
 
+The bad-prime guardrail prevents a second overstatement.  In a three-factor
+private-linear model with `A=1,B=5,H=9`, the integer coefficient matrix has
+full degree-space rank `109` over Q, witnessed by rank `109` modulo `1013`, but
+the same matrix drops to rank `108` modulo `1009`.  Thus even
+characteristic-zero degree-space fullness must be paired with a finite-row
+minor nonvanishing argument at the actual row prime.
+
 The generic-open packet converts that lower-bound target into an algebraic
 avoidance problem.  For fixed Stepanov parameters, `rank >= r` is equivalent to
 nonvanishing of some `r x r` minor of the universal cleared-substitution
