@@ -3736,3 +3736,13 @@ the small rank model, that the original and normal-form triples have the same
 cleared substitution rank.  This does not prove private-linear `RC-RANK`; it
 reduces the finite-row bad-minor avoidance problem to the explicit
 three-parameter normal-form family.
+
+## Replay maintenance: aggregate after Mobius/rank-interface changes
+
+The default aggregate replay still passes under the 60 second cap after the
+source-Mobius normalization update:
+
+```text
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+elapsed=55.63 maxrss=98688
+```
