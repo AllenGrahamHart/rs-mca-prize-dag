@@ -92,6 +92,7 @@ def h5_summary() -> dict[str, int]:
             row.conjugate_bound for row in h5_x83_key_bounds()
         ),
         "reciprocal_compatibility_equations": reciprocal["compatibility_equations"],
+        "reciprocal_delta_free_equations": reciprocal["delta_free_equations"],
         "max_reciprocal_compatibility_degree": reciprocal[
             "max_compatibility_total_degree"
         ],
@@ -187,7 +188,7 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"n32={h5['n32_certified_primes']} contiguous-through-65537, "
                 f"n64={h5['n64_certified_primes']} selected/contiguous rows; "
                 f"x83 low-key bound={h5['max_x83_low_key_bound']}; "
-                f"reciprocal compatibility equations={h5['reciprocal_compatibility_equations']}"
+                f"delta-free reciprocal equations={h5['reciprocal_delta_free_equations']}"
             ),
             "prove symbolic p-specific x83 norm-gate incompatibility or replace selected rows by a scalable certificate family",
         ),
@@ -241,7 +242,8 @@ def main() -> None:
     print(f"h=5 max x83 low-key conjugate bound: {h5['max_x83_low_key_bound']}")
     print(
         "h=5 reciprocal compatibility: "
-        f"equations={h5['reciprocal_compatibility_equations']} "
+        f"pairwise_equations={h5['reciprocal_compatibility_equations']} "
+        f"delta_free_equations={h5['reciprocal_delta_free_equations']} "
         f"max_total_degree={h5['max_reciprocal_compatibility_degree']}"
     )
     print(f"h=8 n32 right-side probes audited: {h8['n32_right_probes']}")

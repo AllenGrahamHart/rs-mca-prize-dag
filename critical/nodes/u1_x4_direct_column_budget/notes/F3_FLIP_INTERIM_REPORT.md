@@ -1728,11 +1728,12 @@ reciprocal equations on the top half of the locator and the support product
 `delta`.
 
 The reciprocal compatibility compiler eliminates that shared `delta` from the
-four equations.  Using the `E4` row as the base, it produces three delta-free
-compatibility equations `C14,C24,C34` on the high locator coefficients and
-their conjugates, with maximum total degree `10`.  This is still not the h=5
-closure, but it is the current algebraic surface for a symbolic norm-gate
-incompatibility proof.
+four equations and from the central relation `l5=delta*conjugate(l5)`.  Using
+the `E4` row as the base, it produces three pairwise delta-free compatibility
+equations `C14,C24,C34` and one central compatibility equation `C54` on the
+high locator coefficients and their conjugates, with maximum total degree
+`10`.  This is still not the h=5 closure, but it is the current algebraic
+surface for a symbolic norm-gate incompatibility proof.
 
 The certificate scaling frontier explains why the current finite-certificate
 format is not that maintainable family.  The banked n=128 Modal rows use

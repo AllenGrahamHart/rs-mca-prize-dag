@@ -23,7 +23,7 @@ T4-H5-NORM-GATE: OPEN
   The h=5 x83 compiler also triangularizes the low obstruction keys as
   D_j E_j = -D_j l_j + P_j(l5,...,l9), with max low-key conjugate bound
   1,104,676,577,280.  The reciprocal compatibility compiler eliminates the
-  shared support product delta to give three delta-free compatibility
+  shared support product delta to give four delta-free compatibility
   equations of max total degree 10.
   Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
   or replace the selected finite rows with a scalable certificate family.

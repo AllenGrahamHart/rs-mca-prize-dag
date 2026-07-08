@@ -17,7 +17,9 @@ from f3_h5_x83_triangular_norm_gate import (
 
 
 TOP = tuple(LOCATOR[5:10])
+CENTER_BAR = sp.Symbol("bar_l5")
 BARS = tuple(BAR_HIGH[index] for index in range(6, 10))
+ALL_BARS = (CENTER_BAR,) + BARS
 
 
 @dataclass(frozen=True)
@@ -101,6 +103,30 @@ def compatibility_rows() -> tuple[CompatibilityRow, ...]:
     return tuple(rows)
 
 
+def central_compatibility_polynomial(base_index: int = 4) -> sp.Expr:
+    base_denominator, base_high_part, base_bar_var = reciprocal_part(base_index)
+    return sp.factor(
+        base_denominator * base_bar_var * LOCATOR[5] - base_high_part * CENTER_BAR
+    )
+
+
+def central_compatibility_row() -> CompatibilityRow:
+    polynomial = central_compatibility_polynomial(4)
+    variables = TOP + ALL_BARS
+    poly = sp.Poly(polynomial, *variables, domain=sp.ZZ)
+    top_total = max(sum(monom[: len(TOP)]) for monom, _ in poly.terms())
+    bar_total = max(sum(monom[len(TOP) :]) for monom, _ in poly.terms())
+    return CompatibilityRow(
+        name="C54",
+        terms=len(poly.terms()),
+        total_degree=poly.total_degree(),
+        top_total_degree=top_total,
+        bar_total_degree=bar_total,
+        top_degrees=tuple(poly.degree(variable) for variable in TOP),
+        bar_degrees=tuple(poly.degree(variable) for variable in ALL_BARS),
+    )
+
+
 def compatibility_summary() -> dict[str, int]:
     reciprocal_expected = {
         1: (16384, "bar_l9", 22, 9, (1, 2, 2, 4, 9)),
@@ -140,12 +166,41 @@ def compatibility_summary() -> dict[str, int]:
     if compatibility_actual != compatibility_expected:
         raise AssertionError(compatibility_actual)
 
+    central = central_compatibility_row()
+    expected_central = (
+        "C54",
+        11,
+        7,
+        6,
+        1,
+        (1, 1, 2, 3, 6),
+        (1, 1, 0, 0, 0),
+    )
+    actual_central = (
+        central.name,
+        central.terms,
+        central.total_degree,
+        central.top_total_degree,
+        central.bar_total_degree,
+        central.top_degrees,
+        central.bar_degrees,
+    )
+    if actual_central != expected_central:
+        raise AssertionError(actual_central)
+
     return {
         "reciprocal_equations": len(reciprocal_actual),
         "compatibility_equations": len(compatibility_actual),
+        "central_compatibility_equations": 1,
+        "delta_free_equations": len(compatibility_actual) + 1,
         "max_reciprocal_top_degree": max(row[3] for row in reciprocal_actual.values()),
-        "max_compatibility_total_degree": max(row[1] for row in compatibility_actual.values()),
+        "max_compatibility_total_degree": max(
+            max(row[1] for row in compatibility_actual.values()),
+            central.total_degree,
+        ),
         "max_compatibility_terms": max(row[0] for row in compatibility_actual.values()),
+        "central_compatibility_total_degree": central.total_degree,
+        "central_compatibility_terms": central.terms,
     }
 
 
@@ -166,10 +221,20 @@ def main() -> None:
             f"top_total={row.top_total_degree} bar_total={row.bar_total_degree} "
             f"top_degrees={row.top_degrees} bar_degrees={row.bar_degrees}"
         )
+    central = central_compatibility_row()
+    print("central reciprocal row against E4:")
+    print(
+        f"  {central.name}: terms={central.terms} total={central.total_degree} "
+        f"top_total={central.top_total_degree} bar_total={central.bar_total_degree} "
+        f"top_degrees={central.top_degrees} "
+        f"bar_degrees(bar_l5..bar_l9)={central.bar_degrees}"
+    )
     print(
         "summary: "
         f"reciprocal_equations={summary['reciprocal_equations']} "
         f"compatibility_equations={summary['compatibility_equations']} "
+        f"central_compatibility_equations={summary['central_compatibility_equations']} "
+        f"delta_free_equations={summary['delta_free_equations']} "
         f"max_compatibility_total_degree={summary['max_compatibility_total_degree']} "
         f"max_compatibility_terms={summary['max_compatibility_terms']}"
     )

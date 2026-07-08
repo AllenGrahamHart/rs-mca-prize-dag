@@ -4,8 +4,10 @@ Status: SYMBOLIC COMPILER / NORM-GATE INTERFACE, NOT AN h=5 CLOSURE.
 
 This packet sharpens the h=5 x83 norm-gate target.  The triangular low-key
 equations give four reciprocal identities with a shared support product
-`delta`; eliminating that shared `delta` gives three explicit compatibility
-equations on the high locator coefficients and their conjugates.
+`delta`; eliminating that shared `delta` gives three explicit pairwise
+compatibility equations on the high locator coefficients and their conjugates.
+The central reciprocal relation for `l5` gives one additional delta-free
+compatibility row.
 
 ## Reciprocal Rows
 
@@ -59,9 +61,27 @@ C24: terms=28, total=9,  top_total=8, bar_total=1
 C34: terms=23, total=8,  top_total=7, bar_total=1
 ```
 
+The middle coefficient also satisfies
+
+```text
+l5 = delta * bar_l5.
+```
+
+Eliminating `delta` against the `E4` reciprocal row gives
+
+```text
+C54 := D_4 bar_l6 l5 - P_4 bar_l5 = 0.
+```
+
+The replay verifies:
+
+```text
+C54: terms=11, total=7, top_total=6, bar_total=1.
+```
+
 So the symbolic h=5 norm-gate obstruction can be attacked as three explicit
-delta-free reciprocal compatibility equations plus one remaining equation that
-recovers `delta`.
+pairwise reciprocal compatibility equations, one central compatibility
+equation, and one remaining equation that recovers `delta`.
 
 This still does not prove the h=5 branch empty.  It gives the next algebraic
 surface that a norm-gate incompatibility proof or certificate family should

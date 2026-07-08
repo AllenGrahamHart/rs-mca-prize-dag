@@ -86,9 +86,9 @@ h=5 survivor must satisfy four explicit reciprocal polynomial identities on
 the high half of its locator.
 
 The companion `F3_H5_RECIPROCAL_COMPATIBILITY_COMPILER.md` eliminates the
-shared `delta` from these four equations.  It verifies three delta-free
-compatibility equations, using `E4` as the base row, with maximum total degree
-`10`.
+shared `delta` from these four equations and from the central relation
+`l5=delta*bar_l5`.  It verifies four delta-free compatibility equations, using
+`E4` as the base row, with maximum total degree `10`.
 
 ## Norm-Divisor Consequence
 
