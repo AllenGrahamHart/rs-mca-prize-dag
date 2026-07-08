@@ -186,6 +186,26 @@ message is that a linear chart-mass estimate alone cannot close `H3-ACT(16)`;
 the global bridge must also supply a max-fiber cap, a dyadic level-set theorem,
 or an equivalent rank-capacity batching bound.
 
+The L2/level-set bridge compiler weakens that sufficient condition to the
+native quadratic ledger.  For ordered same-fiber triple counts `R_z`, the
+normalized target is equivalent to
+
+```text
+sum_z R_z(R_z-6) <= 1152 n.
+```
+
+Equivalently, with `N_z=R_z/6` and tail counts
+`L_m = #{z : N_z >= m}`,
+
+```text
+P_total = sum_{m >= 2} (m-1)L_m.
+```
+
+Thus a future bridge can close h=3 either by proving this exact L2 ledger, or
+by proving the equivalent weighted level-set tail bound.  The earlier
+`(M+1)(S+Z)` condition is only a convenient corollary via
+`sum R_z^2 <= max(R_z) sum R_z`.
+
 The earlier exact pair-coprimality pilot is now included in the aggregate
 replay.  On the seven-prime n=96 ladder it finds three activated shapes, each
 activating at exactly one threshold prime; the common obstruction norm factors

@@ -3569,3 +3569,46 @@ The standalone verifier replays this arithmetic on selected rich fibers in
 rows `(p,n)=(97,16),(97,32),(193,64)`.  This is not added to the aggregate
 replay; it is a bridge-side compiler showing that `H3-ACT(16)` needs total
 chart mass plus a max-fiber, level-set, or equivalent rank-capacity bound.
+
+## T1 h=3 L2 and level-set bridge compiler
+
+Stage selected: weaken the previous max-times-total sufficient condition to
+the exact quadratic ledger paid by activated pairs.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_L2_LEVELSET_BRIDGE_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_l2_levelset_bridge_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_l2_levelset_bridge_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_L2_LEVELSET_BRIDGE_COMPILER_PASS
+```
+
+Result: for ordered same-fiber counts `R_z`, the normalized h=3 pair target is
+equivalent to
+
+```text
+sum_z R_z(R_z-6) <= 1152 n.
+```
+
+The same condition can be written as the weighted level-set identity
+
+```text
+P_total = sum_{m >= 2} (m-1) L_m,     L_m = #{z : R_z/6 >= m}.
+```
+
+The previous max-fiber condition is therefore only one sufficient corollary,
+via `sum R_z^2 <= max(R_z) sum R_z`.  The future bridge theorem can close h=3
+by proving this exact L2 ledger or the equivalent level-set tail bound; it does
+not need a separate uniform max-fiber theorem if a sharper tail theorem is
+available.

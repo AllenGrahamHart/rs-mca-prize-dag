@@ -66,7 +66,8 @@ No Modal job is required for the aggregate replay.
 10. The h=3 pair-count compiler is exact locally:
     `P_z = binom((T_z+epsilon_z)/6,2)`, and a chart ledger with
     `T_z <= M`, `sum T_z <= S`, and `Z` charts is enough for `H3-ACT(16)` if
-    `(M+1)(S+Z) <= 1152 n`.
+    `(M+1)(S+Z) <= 1152 n`.  The sharper native bridge target is the exact
+    L2/level-set ledger `sum R_z(R_z-6) <= 1152 n`.
 11. The rich-curve denominator compiler and log-jet reduction are banked.  The
    reduced-condition side is now `RC-RED(13)`.
 12. Several h=3 rank guardrails are proved or replayed:
@@ -135,7 +136,7 @@ No Modal job is required for the aggregate replay.
 
 1. h=3: prove `H3-ACT(16)` via a finite-row-valid rank-minor avoidance theorem
    plus the matching geometric bridge/rank-capacity assignment, including the
-   max-fiber or level-set control needed by the pair-count compiler; or replace
+   exact L2 or level-set control needed by the pair-count compiler; or replace
    that route with complete official-row certificates.
 2. h=5: prove a uniform p-specific x83 norm-gate incompatibility, or design a
    certificate family that scales beyond the current left-table format.
