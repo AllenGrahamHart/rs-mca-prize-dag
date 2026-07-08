@@ -62,7 +62,7 @@ def admissible_primes(n: int, hi: int) -> list[int]:
 
 
 EXPECTED_PRIMES[32] = admissible_primes(32, 65537)
-EXPECTED_PRIMES[64] = admissible_primes(64, 28097) + [40961, 65537, 262337]
+EXPECTED_PRIMES[64] = admissible_primes(64, 30977) + [40961, 65537, 262337]
 
 
 def require_zero_common(row: dict, n: int, p: int) -> None:
@@ -134,6 +134,7 @@ def certificate_rows() -> dict[int, list[dict]]:
     n64.extend(load_json("f3_h5_n64_prefix_23873_chunk_a.json"))
     n64.extend(load_json("f3_h5_n64_prefix_26177_chunk_a.json"))
     n64.extend(load_json("f3_h5_n64_prefix_28097_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_30977_chunk_a.json"))
     n64.sort(key=lambda row: row["p"])
     n96 = [load_json("f3_h5_n96_boundary_certificate.json")]
     n128 = [load_json("f3_h5_n128_boundary_certificate.json")]
