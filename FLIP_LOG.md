@@ -1731,3 +1731,45 @@ processed `189,778,869` additional right-side subsets.  The h=5 coverage audit
 now checks `473` total complete zero rows and `2,348,684,527` total right-side
 probes; remaining missing admissible primes up to the current max are `0` for
 `n=32` and `631` for `n=64`.
+
+## T1 h=3 rank-stress packet
+
+Stage selected: strengthen the evidence around the remaining h=3 `RC-RANK`
+gate rather than extending h=5 finite certificates again.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_RANK_STRESS.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_stress.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_stress.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digests:
+
+```text
+H3_RICH_CURVE_RANK_STRESS_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the focused verifier passes in `6.71s` locally.  It adds three exact
+non-collapsed rank controls at `p=769,h=32,A=5,B=4,D=1`:
+
+```text
+private-divisor rational: rank=293 > 78
+shifted polynomial:       rank=247 > 78
+shared denominator:       rank=247 > 78
+```
+
+It also derives the duplicate-image warning: the private-divisor curve repeated
+twice still passes (`293 > 156`), while repeating it four times fails
+(`293 < 312`).  The default aggregate replay now includes this packet and still
+passes in `41.32s` locally.

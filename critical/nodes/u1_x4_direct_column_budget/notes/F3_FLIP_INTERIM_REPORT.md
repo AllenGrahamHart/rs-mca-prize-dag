@@ -106,6 +106,22 @@ coefficient dimension, any direct-sum family containing this repaired curve
 passes the same toy rank inequality for `Z <= 4`; `Z=5` is impossible with the
 same parameters because `5*78 > 320`.
 
+The rank stress packet extends this exact toy row.  It verifies that
+private-divisor, shifted-polynomial, and shared-denominator non-collapsed
+curves pass the weaker `RC-RANK` inequality even with rank below full
+coefficient rank:
+
+```text
+private-divisor rational: rank 293 > 78
+shifted polynomial:       rank 247 > 78
+shared denominator:       rank 247 > 78
+```
+
+It also records a family-level warning by the diagonal duplicate-image rank:
+repeating the private-divisor curve twice still passes (`293 > 156`), but
+repeating it four times fails (`293 < 312`).  Thus the geometric batching
+theorem must count repaired inequivalent curve images, not raw multiplicity.
+
 The rank-form parameter compiler gives the current conditional constants for
 representative repaired curve-family sizes.  Under `RC-RANK`, the diagonal
 `A=D` boxes give, for example:
