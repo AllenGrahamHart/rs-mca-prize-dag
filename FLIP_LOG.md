@@ -2075,3 +2075,56 @@ bank covers every admissible prime through `p <= 30977`, plus
 max are `599`.  The h4/h5 bonus replay reports `95` n=64 complete zero
 certificates and passes in `0.04s` locally (`maxrss=14564`).  The default
 aggregate replay still passes in `42.62s` locally (`maxrss=98672`).
+
+## T4 h=5 n64 prefix-to-33601 certificate expansion
+
+Stage selected: extend the h=5 `n=64` finite certificate bank from complete
+prefix coverage through `p <= 30977` to prefix coverage through `p <= 33601`,
+using one 7-prime local chunk.
+
+Pre-registered primes:
+
+```text
+31489, 31873, 32257, 32321, 32833, 33409, 33601
+```
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_33601_chunk_a.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_33601_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_33601_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digests:
+
+```text
+H5_N64_PREFIX_33601_CHUNK_A_PASS
+H5_CERTIFICATE_COVERAGE_AUDIT_PASS
+H4_H5_BONUS_REDUCTION_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the new chunk passes in `33.31s` locally (`maxrss=86120`) and writes
+7 complete zero rows.  The h=5 coverage audit now verifies `512` total
+complete zero rows and `2,622,809,560` total right-side probes, passing in
+`0.06s` locally (`maxrss=13056`).  The `n=64` bank covers every admissible
+prime through `p <= 33601`, plus
+`{40961, 65537, 262337}`; remaining missing admissible primes up to the current
+max are `592`.  The h4/h5 bonus replay reports `102` n=64 complete zero
+certificates and passes in `0.05s` locally (`maxrss=14340`).  The default
+aggregate replay still passes in `41.14s` locally (`maxrss=98548`).

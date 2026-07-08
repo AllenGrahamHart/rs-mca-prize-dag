@@ -77,7 +77,7 @@ def require_h5_n32_certificate(rows) -> None:
 
 
 def require_h5_n64_certificate(rows) -> None:
-    expected_primes = admissible_primes(64, 30977) + [40961, 65537, 262337]
+    expected_primes = admissible_primes(64, 33601) + [40961, 65537, 262337]
     if [row.get("p") for row in rows] != expected_primes:
         raise AssertionError(rows)
     for row in rows:
@@ -195,6 +195,7 @@ def main() -> None:
     h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_26177_chunk_a.json"))
     h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_28097_chunk_a.json"))
     h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_30977_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_33601_chunk_a.json"))
     h5_n64_rows.sort(key=lambda row: row["p"])
     require_h5_n64_certificate(h5_n64_rows)
     h5_n96_row = load_json(notes / "f3_h5_n96_boundary_certificate.json")
