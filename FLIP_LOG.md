@@ -5982,3 +5982,52 @@ H3_REPEAT_LOOSE_NORMALIZED_SYSTEM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=19.23 maxrss=50108
 ```
+
+## T2/T3 h=3 repeat loose affine-slope compiler
+
+Stage selected: package the normalized loose system as a single affine-line
+subgroup membership problem.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_AFFINE_SLOPE_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_affine_slope_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_affine_slope_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_AFFINE_SLOPE_COMPILER_PASS
+```
+
+Result: with `s=ar`, `t=br`, and `X=1/r`, every normalized loose membership
+test has the form `1+c_i X in H`.  The six coordinate slopes are
+
+```text
+1, 1/a, 1/b, -1/(1+a), -1/(1+b), -1/(a+b)
+```
+
+and the three lambda slopes are
+
+```text
+1+1/a-1/(1+a), 1+1/b-1/(1+b), 1/a+1/b-1/(a+b).
+```
+
+Boundary guardrails have no such affine nine-slope system.  The contrast row
+has two loose systems, twelve ordered normalizations, and six distinct sorted
+nine-slope sets.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_AFFINE_SLOPE_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=18.55 maxrss=50108
+```

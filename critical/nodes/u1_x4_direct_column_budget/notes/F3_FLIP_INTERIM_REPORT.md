@@ -857,6 +857,27 @@ lambda tests are
 The loose condition is `1+a+b != 0`; equality is exactly the contained
 zero-sum triangle case.
 
+The loose affine-slope compiler packages these nine tests as one affine-line
+condition:
+
+```text
+1 + c_i X in H.
+```
+
+The six coordinate slopes are
+
+```text
+1, 1/a, 1/b, -1/(1+a), -1/(1+b), -1/(a+b),
+```
+
+and the three lambda slopes are
+
+```text
+1 + 1/a - 1/(1+a),
+1 + 1/b - 1/(1+b),
+1/a + 1/b - 1/(a+b).
+```
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -885,7 +906,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `19.23s` locally and ends with
+It runs in about `18.55s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
