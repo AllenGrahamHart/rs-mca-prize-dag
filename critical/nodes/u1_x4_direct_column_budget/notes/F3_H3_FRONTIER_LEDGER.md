@@ -4,9 +4,9 @@ Status: REPLAYED FRONTIER LEDGER, NOT `H3-ACT`, NOT `RC-RANK`.
 
 This packet compiles the current h=3 proof surface for the F3 flip brief.  It
 imports the activation-bound compiler, official bridge-budget tables, the
-rank-effective bridge repair, the L2/level-set bridge compiler, and the h=3
-repeat-boundary frontier ledger.  It does not prove a new rank theorem or a new
-geometric batching theorem.
+rank-effective bridge repair, the conic bridge accounting ledger, the
+L2/level-set bridge compiler, and the h=3 repeat-boundary frontier ledger.  It
+does not prove a new rank theorem or a new geometric batching theorem.
 
 ## Frontier Gates
 
@@ -27,8 +27,9 @@ F3-RANK-AVOID / RC-NV: OPEN
 H3-BRIDGE-RANKCAP: OPEN
   The bridge must count rank-effective capacity units, not raw duplicate
   curves.  Pinned toy capacities are collapsed=0, private=3, random=4.  The
-  exact local L2 target is sum_z R_z(R_z-6) <= 1152 n, equivalently
-  P_total <= 16 n.
+  conic bridge accounting ledger proves that different base points in the same
+  same-(e1,e2) fiber are not new conic images; the exact local L2 target is
+  sum_z R_z(R_z-6) <= 1152 n, equivalently P_total <= 16 n.
   Residual: assign activated non-toral shape pairs to repaired chart images
   within the official rank-capacity budget.
 

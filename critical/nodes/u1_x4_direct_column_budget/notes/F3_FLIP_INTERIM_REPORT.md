@@ -1185,6 +1185,13 @@ clearing.  Therefore changing the base point on a nondegenerate conic does not
 change the rank target.  This still does not prove the rank-good minor theorem
 itself.
 
+The conic bridge accounting ledger now compiles these local bridge facts into
+the exact charge used downstream: one repaired conic image/key per nonempty
+same-`(e1,e2)` fiber, not one image per ordered triple or per choice of base
+point.  The remaining h=3 bridge theorem is therefore the global assignment of
+activated non-toral shape-pairs to those repaired conic images with the L2
+budget below.
+
 The pair-count compiler now makes the remaining local arithmetic explicit.
 For charts `z` with finite counts `T_z`, vertical losses `epsilon_z`, and
 ordered triple counts `R_z=T_z+epsilon_z`,
@@ -1572,11 +1579,12 @@ shape pairs to repaired curve families.
 
 The h=3 frontier ledger now replays this surface in one place.  It imports the
 activation compiler, the official non-diagonal and private-linear budget
-tables, the rank-effective capacity repair, the L2/level-set bridge compiler,
-and the repeat-boundary frontier ledger.  Its printed open gates are
-`F3-RANK-AVOID/RC-NV`, `H3-BRIDGE-RANKCAP`, the private-linear alternate, and
-the h=3 repeat-boundary star gates.  This is a consistency ledger, not a new
-proof of `H3-ACT`.
+tables, the rank-effective capacity repair, the conic bridge accounting
+ledger, the L2/level-set bridge compiler, and the repeat-boundary frontier
+ledger.  Its printed open gates are `F3-RANK-AVOID/RC-NV`,
+`H3-BRIDGE-RANKCAP`, the private-linear alternate, and the h=3
+repeat-boundary star gates.  This is a consistency ledger, not a new proof of
+`H3-ACT`.
 
 The bridge-budget compiler turns that geometry gap into an explicit contract.
 If, on row `n=2^s`, activated shape pairs batch into a repaired curve family of

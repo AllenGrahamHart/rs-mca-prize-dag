@@ -14,6 +14,7 @@ from f3_h3_activation_bound_compiler import (
     load_summary,
     prime_activation_counts,
 )
+from f3_h3_conic_bridge_accounting_ledger import conic_bridge_accounting_summary
 from f3_h3_l2_levelset_bridge_compiler import (
     check_ledger,
     synthetic_ledgers,
@@ -125,6 +126,7 @@ def frontier_gates(
     budgets: dict[str, int],
     capacity: dict[str, int],
     l2: dict[str, int],
+    conic: dict[str, int],
     repeat: dict[str, tuple[int, int]],
 ) -> tuple[H3FrontierGate, ...]:
     return (
@@ -152,6 +154,7 @@ def frontier_gates(
             (
                 f"rank-effective capacities are pinned: collapsed={capacity['collapsed_capacity']}, "
                 f"private={capacity['private_capacity']}, random={capacity['random_capacity']}; "
+                f"conic keys are charged once for {conic['sample_fibers']} replayed fibers; "
                 f"L2 target is sum R_z(R_z-6)<={l2['target_multiplier']}n"
             ),
             "assign activated non-toral shape pairs to repaired chart images with total rank capacity within the official budget",
@@ -180,8 +183,9 @@ def main() -> None:
     budgets = official_budget_summary()
     capacity = rank_capacity_summary()
     l2 = l2_bridge_summary()
+    conic = conic_bridge_accounting_summary()
     repeat = repeat_frontier_summary()
-    gates = frontier_gates(activation, budgets, capacity, l2, repeat)
+    gates = frontier_gates(activation, budgets, capacity, l2, conic, repeat)
 
     print("F3 h=3 frontier ledger")
     print(
@@ -205,6 +209,15 @@ def main() -> None:
         "L2 bridge target: "
         f"sum R_z(R_z-6) <= {l2['target_multiplier']} n "
         f"equiv P_total <= {l2['pair_target_multiplier']} n"
+    )
+    print(
+        "conic bridge accounting: "
+        f"degree_bound={conic['degree_bound']} "
+        f"sample_fibers={conic['sample_fibers']} "
+        f"ordered={conic['sample_ordered_triples']} "
+        f"chart={conic['sample_chart_points']} "
+        f"vertical_losses={conic['sample_vertical_losses']} "
+        "basepoint_multiplier=not_charged"
     )
     print("repeat-boundary strict gates:")
     for name, (membership, extra) in repeat.items():
