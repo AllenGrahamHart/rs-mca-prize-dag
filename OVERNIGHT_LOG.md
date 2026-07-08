@@ -110,3 +110,36 @@ entries, `23233` and `27649`; the pilot filters to actual prime rows.
 Next step: full Terminal C census is still open — enumerate all normalized
 `n=96` shapes on Modal/shards and compute the empirical coprimality rate plus
 exceptional list.
+
+## 2026-07-08 Terminal C random exact-norm sample
+
+Stage: Terminal C, random exact resultant sample over normalized `n=96` shapes.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_RANDOM_SAMPLE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_random_modal.py
+```
+
+Replay:
+
+```bash
+~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_random_modal.py
+```
+
+Modal run:
+
+```text
+https://modal.com/apps/allengrahamhart/main/ap-bYVtU4rZenbBi4NAsSmUEc
+```
+
+Result: `2000` unique random normalized shapes, `22` with a shared rational
+threshold norm prime, `0` with an actual simultaneous primitive-root activation
+prime.  Digest: `H3_RANDOM_ACTIVATION_SAMPLE_PASS`.
+
+Catch/refinement: naive rational norm-coprimality is too strong; Terminal C
+should be formulated at the prime-ideal/common-root level.  The observed-shape
+gcds remain harmless because their extra common rational factors are
+sub-threshold, but random shapes can share threshold rational factors without
+activating.
