@@ -702,6 +702,9 @@ root, the branch is empty.
 The scale-count compiler gives the direct bound
 `K_1 <= floor((n-1)/3)` on the number of admissible scale orbits, hence
 `binom(floor((n-1)/3),2) < n^2` scale collision pairs on every official row.
+The same-lambda branch assembly now separates the strict route
+`H3-VALUE-GEN-INJECTIVE + H3-VALUE-SCALE-INJECTIVE => H3-VALUE-INJECTIVE`
+from the count route where only the scale branch is paid quadratically.
 
 The same-lambda collision-system compiler combines these pieces.  A
 fixed-`lambda` failure is precisely either two distinct admissible generic
@@ -1086,7 +1089,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `42.61s` locally and ends with
+It runs in about `41.39s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

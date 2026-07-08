@@ -6947,3 +6947,47 @@ H3_REPEAT_SAME_LAMBDA_SCALE_COUNT_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=42.61 maxrss=53476
 ```
+
+## T2/T3 h=3 repeat same-lambda branch assembly
+
+Stage selected: split the same-lambda value gate into strict generic/scale
+subgates and record the separate scale count route.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_BRANCH_ASSEMBLY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_branch_assembly.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_branch_assembly.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SAME_LAMBDA_BRANCH_ASSEMBLY_PASS
+```
+
+Result: the strict value gate decomposes as
+
+```text
+H3-VALUE-GEN-INJECTIVE + H3-VALUE-SCALE-INJECTIVE
+  => H3-VALUE-INJECTIVE.
+```
+
+The generic branch has membership `S_total=14` and off-orbit product total
+degree `10`; the scale branch has membership `S_total=6` and off-orbit degree
+`3`.  Count routes can instead keep the generic strict gate and pay at most
+`binom(floor((n-1)/3),2)` scale collision pairs.
+
+Focused replay:
+
+```text
+H3_REPEAT_SAME_LAMBDA_BRANCH_ASSEMBLY_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=41.39 maxrss=53264
+```

@@ -113,6 +113,11 @@ COMMANDS = [
         "H3_REPEAT_SAME_LAMBDA_DEGREE_COMPILER_PASS",
     ),
     (
+        "h3 repeat same-lambda branch assembly",
+        "f3_h3_repeat_same_lambda_branch_assembly.py",
+        "H3_REPEAT_SAME_LAMBDA_BRANCH_ASSEMBLY_PASS",
+    ),
+    (
         "h3 repeat slope-ratio compiler",
         "f3_h3_repeat_slope_ratio_compiler.py",
         "H3_REPEAT_SLOPE_RATIO_COMPILER_PASS",

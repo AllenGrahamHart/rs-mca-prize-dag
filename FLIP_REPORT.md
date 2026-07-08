@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=42.61 maxrss=53476
+elapsed=41.39 maxrss=53264
 ```
 
 ## Confidence-ranked claims
@@ -156,7 +156,10 @@ elapsed=42.61 maxrss=53476
    scale branch.  That special branch is exactly the scale condition
    `{1+x,1+omega x,1+omega^2 x} subset H`, modulo `x -> omega x`; it has
    `K_1 <= floor((n-1)/3)` admissible scale orbits and fewer than `n^2`
-   scale collision pairs on every official row.  Thus
+   scale collision pairs on every official row.  The strict value gate splits
+   into `H3-VALUE-GEN-INJECTIVE` and `H3-VALUE-SCALE-INJECTIVE`; count routes
+   can instead keep the generic strict gate and pay the scale branch
+   quadratically.  Thus
    same-`lambda` failure is now exactly either two admissible generic ratio
    orbits for one lambda or two admissible `lambda=1` scale orbits.  The
    off-orbit condition is explicit: the generic diagonal divisors are

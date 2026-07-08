@@ -30,6 +30,7 @@ The harness runs:
 - the same-lambda collision-system compiler;
 - the same-lambda orbit-domain compiler;
 - the same-lambda degree compiler;
+- the same-lambda branch assembly;
 - the slope-ratio compiler;
 - the slope numerator compiler;
 - the slope-miss degree compiler;
