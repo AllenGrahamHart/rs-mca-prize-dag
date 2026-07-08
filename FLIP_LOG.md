@@ -2756,3 +2756,34 @@ rank lower bound still beating `13D(A+D)|Z|`, under explicit repaired
 signature-curve hypotheses.  The standalone replay passes in `0.01s` locally
 (`maxrss=10624`), and the default aggregate replay passes with the new packet
 included in `37.07s` locally (`maxrss=98584`).
+
+## T1/T2 h=3 RC-RANK generic-open reduction
+
+Stage selected: turn the private-linear rank target into a precise algebraic
+avoidance statement rather than another finite sample.
+
+New packet:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_GENERIC_OPEN.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
+```
+
+Pre-registered claims:
+
+```text
+1. For fixed A,B,D,H, rank >= r is equivalent to nonvanishing of at least one
+   r-minor of the universal cleared-substitution matrix.
+2. The pinned private-linear finite-field witness has rank
+   293 = A + 3H(B-1), so the private-linear degree-space-fullness open set is
+   nonempty in the toy box.
+3. The remaining F3 theorem is an avoidance theorem: show the repaired
+   signature-curve parameter image lies in a rank-good minor open set with
+   enough rank-effective capacity.
+```
+
+Result: this is not `RC-RANK`, but it removes a vacuity concern.  The next
+symbolic target is `F3-RANK-AVOID`, not full injectivity and not raw
+private-divisor counting.  The standalone replay passes in `2.81s` locally
+(`maxrss=18688`), and the default aggregate replay passes with this packet
+included in `40.56s` locally (`maxrss=98796`).

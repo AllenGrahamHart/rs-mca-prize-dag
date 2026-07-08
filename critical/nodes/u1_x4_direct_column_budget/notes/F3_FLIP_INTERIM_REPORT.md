@@ -182,6 +182,21 @@ Thus even a perfect private-linear degree-space theorem needs an explicit
 remaining theorem is the lower bound, namely degree-space fullness under
 explicit repaired/private-divisor hypotheses.
 
+The generic-open packet converts that lower-bound target into an algebraic
+avoidance problem.  For fixed Stepanov parameters, `rank >= r` is equivalent to
+nonvanishing of some `r x r` minor of the universal cleared-substitution
+matrix.  The private-linear witness
+
+```text
+(X-2)/(X-3), (X-5)/(X-7), (X-11)/(X-13)
+```
+
+has exact rank `293 = A + 3H(B-1)` over `F_769`, so the private-linear
+degree-space-fullness open set is nonempty in the toy box.  The remaining
+`RC-RANK` theorem can now be stated as a rank-good minor avoidance theorem for
+the actual repaired F3 signature-curve parameter image, with rank-effective
+capacity accounting for repeated images.
+
 The rank-form parameter compiler gives the current conditional constants for
 representative repaired curve-family sizes.  Under `RC-RANK`, the diagonal
 `A=D` boxes give, for example:

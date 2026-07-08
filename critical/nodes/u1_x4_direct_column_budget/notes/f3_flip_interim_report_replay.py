@@ -133,6 +133,14 @@ COMMANDS = [
         "H3_RC_RANK_MODEL_LEMMAS_PASS",
     ),
     (
+        "h3 RC-RANK generic-open reduction",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py",
+        ],
+        "H3_RC_RANK_GENERIC_OPEN_PASS",
+    ),
+    (
         "h3 non-diagonal low-row budget",
         [
             sys.executable,
