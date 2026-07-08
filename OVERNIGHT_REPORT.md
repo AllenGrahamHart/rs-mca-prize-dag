@@ -2038,10 +2038,11 @@ shells of the paid h=8 branch, while leaving the farther non-antipodal branch
 open.
 
 Continuation h=8 radius-three update: the x83 shell certificate now reaches
-three exchanges from the paid square-lift branch at the actual `q3_n64_h8`
-prime `p=262337`.  The Modal replay completed `196/196` shards under the
-60-second worker cap, processed `67,800,320` preimage candidates, found
-`320` first-obstruction-zero candidates, and found zero full x83-zero supports.
-The local verifier checks the pinned JSON certificate and the aggregate h6/h8
-replay now consumes it.  This is still a deformation-shell certificate, not a
+three exchanges from the paid square-lift branch at both `p=4289` and the
+actual `q3_n64_h8` prime `p=262337`.  Each Modal replay completed `196/196`
+shards under the 60-second worker cap and processed `67,800,320` preimage
+candidates.  The actual q3 prime had `320` first-obstruction-zero candidates;
+the boundary-style prime had `16048`; neither had a full x83-zero support.
+The local verifier checks the pinned JSON certificates and the aggregate h6/h8
+replay now consumes both.  This is still a deformation-shell certificate, not a
 full h=8 n64 non-antipodal enumeration.

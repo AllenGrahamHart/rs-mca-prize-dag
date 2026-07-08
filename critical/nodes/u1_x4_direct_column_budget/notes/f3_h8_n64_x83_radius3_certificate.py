@@ -5,25 +5,39 @@ from __future__ import annotations
 
 import json
 import math
+import os
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[4]
 NOTES = ROOT / "critical/nodes/u1_x4_direct_column_budget/notes"
-OUT = NOTES / "f3_h8_n64_x83_radius3_shell_certificate.json"
+CERT_ENV = os.environ.get(
+    "F3_H8_RADIUS3_CERT",
+    "f3_h8_n64_x83_radius3_shell_certificate.json",
+)
+OUT = Path(CERT_ENV)
+if not OUT.is_absolute():
+    OUT = NOTES / OUT
 
 
 def main() -> None:
     cert = json.loads(OUT.read_text())
-    expected_primes = [262337]
-    expected_jobs = len(expected_primes) * math.ceil((7 * math.comb(16, 3)) / 20)
+    expected_primes = [
+        int(item)
+        for item in os.environ.get("F3_H8_RADIUS3_EXPECTED_PRIMES", "262337").split(",")
+        if item
+    ]
+    expected_chunk_pairs = int(os.environ.get("F3_H8_RADIUS3_EXPECTED_CHUNK_PAIRS", "20"))
+    expected_jobs = len(expected_primes) * math.ceil(
+        (7 * math.comb(16, 3)) / expected_chunk_pairs
+    )
     expected_processed = len(expected_primes) * 7 * math.comb(16, 3) * math.comb(48, 3)
     expected = {
         "name": "h8_n64_x83_radius3_shell",
         "mode": "full",
         "radius": 3,
         "primes": expected_primes,
-        "chunk_pairs": 20,
+        "chunk_pairs": expected_chunk_pairs,
         "jobs_expected": expected_jobs,
         "jobs_completed": expected_jobs,
         "processed": expected_processed,

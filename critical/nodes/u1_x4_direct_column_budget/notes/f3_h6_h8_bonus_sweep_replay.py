@@ -177,8 +177,9 @@ def require_h7_n64_certificate(row: dict) -> None:
         raise AssertionError(row)
 
 
-def require_h8_radius3_certificate(cert: dict) -> None:
-    expected_primes = [262337]
+def require_h8_radius3_certificate(
+    cert: dict, expected_primes: list[int], expected_first_zero: int
+) -> None:
     expected_jobs = len(expected_primes) * math.ceil((7 * math.comb(16, 3)) / 20)
     expected_processed = len(expected_primes) * 7 * math.comb(16, 3) * math.comb(48, 3)
     expected = {
@@ -190,7 +191,7 @@ def require_h8_radius3_certificate(cert: dict) -> None:
         "jobs_expected": expected_jobs,
         "jobs_completed": expected_jobs,
         "processed": expected_processed,
-        "first_obstruction_zero": 320,
+        "first_obstruction_zero": expected_first_zero,
         "full_zero": 0,
         "complete": True,
         "errors": [],
@@ -207,7 +208,7 @@ def require_h8_radius3_certificate(cert: dict) -> None:
         raise AssertionError("radius3 full-zero shard")
     if sum(row.get("processed", 0) for row in rows) != expected_processed:
         raise AssertionError("radius3 processed mismatch")
-    if sum(row.get("first_obstruction_zero", 0) for row in rows) != 320:
+    if sum(row.get("first_obstruction_zero", 0) for row in rows) != expected_first_zero:
         raise AssertionError("radius3 first-obstruction mismatch")
     if max(row.get("elapsed_sec", 999.0) for row in rows) >= 60:
         raise AssertionError("radius3 timeout-risk shard")
@@ -243,14 +244,18 @@ def main() -> None:
     h8_radius3 = json.loads(
         (NOTES / "f3_h8_n64_x83_radius3_shell_certificate.json").read_text()
     )
-    require_h8_radius3_certificate(h8_radius3)
+    require_h8_radius3_certificate(h8_radius3, [262337], 320)
+    h8_radius3_p4289 = json.loads(
+        (NOTES / "f3_h8_n64_x83_radius3_shell_certificate_p4289.json").read_text()
+    )
+    require_h8_radius3_certificate(h8_radius3_p4289, [4289], 16048)
 
     print(f"h=6/h=7 full zero rows verified: {full_count}")
     print("h=6 n64 full anchored certificates verified: 1")
     print("h=6 n64 extra full anchored sweeps verified: 6 (p4993 has 6 nontoral, below n^3)")
     print("h=7 n64 full anchored certificates verified: 1")
     print("h=8 full anchored certificates verified: 6")
-    print("h=8 n64 x83 radius-three shell certificate verified: 1")
+    print("h=8 n64 x83 radius-three shell certificates verified: 2")
     print(f"h=8 partial zero slices remaining: {len(PARTIAL_H8_ROWS)}")
     print("H6_H8_BONUS_SWEEP_PASS")
 

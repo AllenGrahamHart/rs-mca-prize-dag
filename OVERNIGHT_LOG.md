@@ -5182,6 +5182,7 @@ critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_RADIUS3_SHELL.md
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_shell_certificate.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_shell_certificate_p4289.json
 critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
 ```
 
@@ -5192,6 +5193,9 @@ F3_H8_RADIUS3_MODE=full F3_H8_RADIUS3_PRIMES=262337 \
   ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
+F3_H8_RADIUS3_CERT=f3_h8_n64_x83_radius3_shell_certificate_p4289.json \
+  F3_H8_RADIUS3_EXPECTED_PRIMES=4289 \
+  python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
 
@@ -5204,9 +5208,11 @@ H6_H8_BONUS_SWEEP_PASS
 ```
 
 Result: the radius-three shell around the seven paid h=8 square-lift supports
-at the actual `q3_n64_h8` prime `p=262337` is complete.  The Modal run used
-`196` shards, processed `67,800,320` preimage candidates, found
-`320` first-obstruction-zero candidates, and found `0` full x83-zero supports.
-The slowest shard took `28.446s`, safely below the 60-second cap.  This rules
-out every support three exchanges away from the paid h=8 square-lift branch at
-`p=262337`; the farther non-antipodal branch remains open.
+is complete at both `p=4289` and the actual `q3_n64_h8` prime `p=262337`.
+Each replay used `196` shards and processed `67,800,320` preimage candidates.
+At `p=262337`, it found `320` first-obstruction-zero candidates and `0` full
+x83-zero supports, with max shard time `28.446s`.  At `p=4289`, it found
+`16048` first-obstruction-zero candidates and `0` full x83-zero supports, with
+max shard time `24.970s`.  This rules out every support three exchanges away
+from the paid h=8 square-lift branch at both primes; the farther non-antipodal
+branch remains open.

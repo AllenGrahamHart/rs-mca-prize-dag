@@ -156,6 +156,8 @@ p=4289    paid supports=7, shell supports=5376, full_zero=0
 p=262337  paid supports=7, shell supports=5376, full_zero=0
 p=4289    radius-2 shell supports=947520, full_zero=0
 p=262337  radius-2 shell supports=947520, full_zero=0
+p=4289    radius-3 shell preimages=67800320, first_obstruction_zero=16048,
+          full_zero=0, max_shard_elapsed=24.970s
 p=262337  radius-3 shell preimages=67800320, first_obstruction_zero=320,
           full_zero=0, max_shard_elapsed=28.446s
 ```
@@ -164,9 +166,10 @@ The radius-one and radius-two shell check is in
 `f3_h8_n64_x83_nearlift_shell.py`.  The radius-three shell certificate is in
 `f3_h8_n64_x83_radius3_shell_certificate.json`; it is produced by
 `f3_h8_n64_x83_radius3_modal.py` and locally verified by
-`f3_h8_n64_x83_radius3_certificate.py`.  These are adversarial local
-falsification attempts; they do not rule out farther non-antipodal primitive
-supports.
+`f3_h8_n64_x83_radius3_certificate.py`; the boundary-style replay at `p=4289`
+is stored separately as `f3_h8_n64_x83_radius3_shell_certificate_p4289.json`.
+These are adversarial local falsification attempts; they do not rule out farther
+non-antipodal primitive supports.
 
 ## Interpretation
 
@@ -185,9 +188,9 @@ The x83 interface now proves that the already-paid antipodal square-lift branch
 is seen by the obstruction keys; any remaining h=8 n=64 obstruction must be a
 non-antipodal primitive support or a p-specific norm-gate event isolated by the
 same forced-root key.  The first non-antipodal exchange shell around the paid
-lifts, the radius-two shell around them, and the radius-three shell at the
-actual `q3_n64_h8` prime have also been exhausted with zero x83 full-zero
-supports.
+lifts, the radius-two shell around them, and the radius-three shell at both
+`p=4289` and the actual `q3_n64_h8` prime have also been exhausted with zero
+x83 full-zero supports.
 
 Next h=8 action:
 
@@ -215,6 +218,9 @@ F3_H8_X83_SHELL_RADIUS=2 F3_H8_X83_SHELL_PRIMES=4289 \
 F3_H8_X83_SHELL_RADIUS=2 F3_H8_X83_SHELL_PRIMES=262337 \
   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
+F3_H8_RADIUS3_CERT=f3_h8_n64_x83_radius3_shell_certificate_p4289.json \
+  F3_H8_RADIUS3_EXPECTED_PRIMES=4289 \
+  python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
 ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 F3_H6_N64_MODE=extra ~/.venvs/modal/bin/modal run \
@@ -222,6 +228,10 @@ F3_H6_N64_MODE=extra ~/.venvs/modal/bin/modal run \
 F3_H7_N64_MODE=full ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_timing_gate_modal.py
 F3_H8_RADIUS3_MODE=full F3_H8_RADIUS3_PRIMES=262337 \
+  ~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
+F3_H8_RADIUS3_MODE=full F3_H8_RADIUS3_PRIMES=4289 \
+  F3_H8_RADIUS3_OUT=f3_h8_n64_x83_radius3_shell_certificate_p4289.json \
   ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
 ```

@@ -25,7 +25,13 @@ ROOT = Path(os.environ.get(
     "/home/u2470931/smooth-read-solomin/prize-codex-overnight-20260708",
 ))
 NOTES = ROOT / "critical/nodes/u1_x4_direct_column_budget/notes"
-OUT = NOTES / "f3_h8_n64_x83_radius3_shell_certificate.json"
+OUT_ENV = os.environ.get(
+    "F3_H8_RADIUS3_OUT",
+    "f3_h8_n64_x83_radius3_shell_certificate.json",
+)
+OUT = Path(OUT_ENV)
+if not OUT.is_absolute():
+    OUT = NOTES / OUT
 
 N = 64
 H = 8
