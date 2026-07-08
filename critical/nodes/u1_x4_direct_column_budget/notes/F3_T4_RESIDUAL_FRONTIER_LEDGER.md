@@ -39,8 +39,9 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   h=8 n=64 rows.  The p=4289 and p=262337 x83 radius-three shell certificates
   are complete with full_zero=0, but they only cover local shells around the
   paid antipodal branch.
-  Residual: certify 122,131,731,640,320 anchored non-antipodal 16-supports, or
-  build a sharded signature join avoiding the blind left table.
+  Residual: certify 122,131,731,640,320 anchored non-antipodal 16-supports
+  (7,633,233,227,520 safe rotation orbits), or build a sharded signature join
+  avoiding the blind left table.
 ```
 
 ## Dependency Shape
