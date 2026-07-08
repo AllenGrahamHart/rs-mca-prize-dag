@@ -80,7 +80,8 @@ No Modal job is required for the aggregate replay.
    generic-open rank-minor formulation, and normalization invariance including
    source Mobius reparametrizations.  The private-linear route can now be
    posed in the three-parameter PGL2 normal form
-   `Y, (Y-1)/(Y-lambda), (Y-eta)/(Y-theta)`.
+   `Y, (Y-1)/(Y-lambda), (Y-eta)/(Y-theta)`, with the repaired open set given
+   by `lambda,eta,theta notin {0,1}` and pairwise distinct.
 14. The h=3 arithmetic interfaces now cover every official row.  The current
    non-diagonal route is:
    `F3-RANK-AVOID + H3-BRIDGE-RANKCAP(Z_budget(s)) => H3-ACT(16)`.

@@ -3737,6 +3737,49 @@ cleared substitution rank.  This does not prove private-linear `RC-RANK`; it
 reduces the finite-row bad-minor avoidance problem to the explicit
 three-parameter normal-form family.
 
+## T1 h=3 private-linear normal-form degeneracy chart
+
+Stage selected: make the private-linear repaired open set explicit in the
+`(lambda,eta,theta)` normal-form coordinates.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_NORMAL_FORM_DEGENERACY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_normal_form_degeneracy.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_normal_form_degeneracy.py
+```
+
+Expected digest:
+
+```text
+H3_PRIVATE_LINEAR_NORMAL_FORM_DEGENERACY_PASS
+```
+
+Result: in the normal form
+
+```text
+Y,        (Y-1)/(Y-lambda),        (Y-eta)/(Y-theta),
+```
+
+the private-divisor open set is exactly
+
+```text
+lambda, eta, theta notin {0,1},
+lambda, eta, theta pairwise distinct.
+```
+
+The ratios `r_1/r_2` and `r_1/r_3` are never constant, and `r_2/r_3` is
+constant precisely when `{1,theta}={lambda,eta}`.  Therefore the
+private-divisor open set automatically excludes pairwise constant-ratio
+collapse.  The finite-field verifier enumerates the chart over
+`F_17,F_19,F_23`.
+
 ## Replay maintenance: aggregate after Mobius/rank-interface changes
 
 The default aggregate replay still passes under the 60 second cap after the

@@ -406,6 +406,24 @@ three-parameter normal-form space `(lambda,eta,theta)`.  The bad-minor
 avoidance over the actual row fields is still open; this only removes
 extraneous `PGL_2` coordinates from that target.
 
+The private-linear normal-form degeneracy chart makes the repaired open set
+explicit.  In the normal form, the six zero/pole points are
+
+```text
+0, infinity, 1, lambda, eta, theta.
+```
+
+The private-divisor hypotheses are exactly
+
+```text
+lambda, eta, theta notin {0,1},
+lambda, eta, theta pairwise distinct.
+```
+
+On this open set, pairwise constant-ratio collapse is automatically absent.
+The only possible normal-form pairwise collapse is `r_2/r_3`, and it occurs
+precisely when `{1,theta}={lambda,eta}`, which lies on the excluded diagonals.
+
 The private-linear compiler guard prevents a wrong shortcut from this point.
 All current official non-diagonal h=3 bridge witnesses use the degree-2
 denominator room `A + 6n(B-1)`: for every row `s=13..41`, the per-curve
