@@ -65,7 +65,7 @@ with obstruction vector
 
 and square `lambda = 72`.
 
-Now apply the exponent-unit map `e -> 3e mod 64`.  The image support is
+First apply the exponent-unit map `e -> 3e mod 64`.  The image support is
 
 ```text
 R^3 = {0,3,6,8,11,16,27,30,32,35,38,40,43,48,59,62}.
@@ -80,12 +80,29 @@ The same x83 classifier gives obstruction vector
 and `lambda = 30`, which is not a square.  Therefore `R^3` is not x83
 full-zero.
 
+The same banked support also refutes the tempting dihedral reflection shortcut
+`e -> -e mod 64`.  The reflected support is
+
+```text
+R^{-1} = {0,7,8,16,22,23,30,31,32,39,40,48,54,55,62,63}.
+```
+
+The x83 classifier gives obstruction vector
+
+```text
+[0, 64, 0, 82, 0, 87, 0]
+```
+
+and nonsquare `lambda = 125`.  Therefore even reflection is not a safe
+canonicalization symmetry for the x83 support condition.
+
 ## Consequence
 
 The safe h=8 orbit compiler must remain rotation-only unless a different
 symmetry is proved for the exact x83 obstruction system.  Quotienting by the
-full affine exponent group would identify supports with different x83 status
-and would be unsound for the residual certifier.
+full affine exponent group, or by the usual dihedral rotation/reflection group
+on exponents, would identify supports with different x83 status and would be
+unsound for the residual certifier.
 
 ## Replay
 

@@ -11,7 +11,9 @@ R -> c R,  c in mu_64.
 ```
 
 It does not use arbitrary exponent-unit maps.  Those maps may be useful for
-shape heuristics, but they are not banked here as x83-support symmetries.
+shape heuristics, but they are not banked here as x83-support symmetries.  The
+exponent-unit falsifier now also rules out the usual dihedral reflection
+`e -> -e mod 64` as a free x83-support symmetry.
 
 ## Pre-registration
 
@@ -33,8 +35,8 @@ Success criterion:
 
 Failure criterion:
 
-- use arbitrary exponent-unit maps without a separate algebraic invariance
-  proof;
+- use arbitrary exponent-unit maps, including reflection, without a separate
+  algebraic invariance proof;
 - confuse anchored supports with rotation orbits;
 - present rotation compression as enough to close h=8.
 

@@ -1316,3 +1316,37 @@ dimension in the toy box `p=769, h=32, A=5, B=4, D=1`.  Therefore any direct-sum
 family containing it has rank at least `320`, so the toy family-level
 `RC-RANK` inequality holds for `Z <= 4`; `Z=5` is impossible for these fixed
 parameters because `5*78 > 320`.  This is sample evidence only, not `RC-RANK`.
+
+## T4 h=8 dihedral-reflection symmetry falsifier
+
+Stage selected: strengthen the h=8 certifier-design guardrail by testing the
+most tempting extension of rotation symmetry, namely exponent reflection.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_EXPONENT_UNIT_FALSIFIER.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ROTATION_ORBIT_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_exponent_unit_falsifier.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_exponent_unit_falsifier.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digest:
+
+```text
+H8_EXPONENT_UNIT_FALSIFIER_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the same banked `p=193` x83 full-zero support refutes both the unit
+map `e -> 3e mod 64` and reflection `e -> -e mod 64`.  The reflected support
+has obstruction vector `[0, 64, 0, 82, 0, 87, 0]` and nonsquare
+`lambda = 125`, so the h=8 support certifier cannot soundly quotient by the
+dihedral exponent group without rechecking the x83 classifier.

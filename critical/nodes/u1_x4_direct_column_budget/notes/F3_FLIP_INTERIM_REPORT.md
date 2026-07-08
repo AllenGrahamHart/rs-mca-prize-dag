@@ -308,9 +308,12 @@ feasible global certifier.
 
 The tempting larger exponent-unit quotient is refuted.  At `p=193`, a banked
 x83 full-zero support maps under `e -> 3e mod 64` to a support with obstruction
-vector `[0, 180, 0, 60, 0, 20, 0]` and nonsquare `lambda = 30`.  Thus arbitrary
-unit maps on exponents are not symmetries of the x83 condition and cannot be
-used for certifier canonicalization without rechecking the classifier.
+vector `[0, 180, 0, 60, 0, 20, 0]` and nonsquare `lambda = 30`.  The same banked
+support maps under reflection `e -> -e mod 64` to obstruction vector
+`[0, 64, 0, 82, 0, 87, 0]` and nonsquare `lambda = 125`.  Thus arbitrary unit
+maps, including dihedral reflection, are not symmetries of the x83 condition
+and cannot be used for certifier canonicalization without rechecking the
+classifier.
 
 The honest h=8 residual is:
 
