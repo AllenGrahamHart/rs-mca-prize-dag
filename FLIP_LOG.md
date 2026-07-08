@@ -2833,3 +2833,28 @@ The verifier also checks representative private-linear retuned passing boxes at
 the private-linear route is not vacuous.  Standalone replay passes in `0.02s`
 locally (`maxrss=12928`), and the default aggregate replay passes with this
 packet included in `46.09s` locally (`maxrss=98796`).
+
+## T1/T2 h=3 rank-avoidance interface
+
+Stage selected: pin the exact theorem interface that would turn the current
+h=3 non-diagonal compiler into `H3-ACT(16)`.
+
+New packet:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RANK_AVOID_INTERFACE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+```
+
+Result: the packet verifies that the current improved `Z_budget` table covers
+every official exponent `s=13..41`, with `Z_budget(13)=16` and
+`Z_budget(41)=10795`, and checks the pinned witness inequalities for every
+row.  The remaining h=3 theorem pair is now stated as:
+
+```text
+F3-RANK-AVOID + H3-BRIDGE-RANKCAP(Z_budget(s)) => H3-ACT(16).
+```
+
+This is an interface pin, not a proof of either remaining theorem.  Standalone
+replay passes in `0.04s` locally (`maxrss=12928`).  The default aggregate
+replay passes with this packet included in `53.00s` locally (`maxrss=98768`).

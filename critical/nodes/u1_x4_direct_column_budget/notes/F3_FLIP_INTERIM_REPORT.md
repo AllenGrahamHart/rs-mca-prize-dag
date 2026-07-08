@@ -217,6 +217,18 @@ The guard also verifies representative private-linear retuned boxes at
 `s in {13,16,20,23,32,41}`, so the private-linear track is not ruled out; it
 just needs its own maximality compiler.
 
+The rank-avoidance interface packet now pins the exact theorem pair needed to
+close h=3 through the current compiler:
+
+```text
+F3-RANK-AVOID + H3-BRIDGE-RANKCAP(Z_budget(s)) => H3-ACT(16)
+```
+
+It verifies that the improved non-diagonal `Z_budget` table covers every
+official exponent `s=13..41`, with `Z_budget(13)=16` and
+`Z_budget(41)=10795`.  This is still conditional: neither the rank-good minor
+avoidance theorem nor the geometric bridge/rank-capacity assignment is proved.
+
 The rank-form parameter compiler gives the current conditional constants for
 representative repaired curve-family sizes.  Under `RC-RANK`, the diagonal
 `A=D` boxes give, for example:
