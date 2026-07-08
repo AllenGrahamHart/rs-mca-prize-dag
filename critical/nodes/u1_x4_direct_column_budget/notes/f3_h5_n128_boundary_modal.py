@@ -5,7 +5,7 @@ Mode is selected by F3_H5_N128_MODE:
 
   gate  - run the heaviest shard only and write a gate JSON
   full  - run all shards and write the complete certificate JSON
-  extra - run all shards for two extra nearby primes and write a list JSON
+  extra - run all shards for six extra nearby primes and write a list JSON
 """
 
 from __future__ import annotations
@@ -25,7 +25,7 @@ N = 128
 H = 5
 P = 17921
 SHARDS = 32
-EXTRA_PRIMES = (18049, 18433)
+EXTRA_PRIMES = (18049, 18433, 19073, 19457, 19841, 20353)
 
 # Modal imports this file at /root inside the remote container.  Output paths
 # are used only by the local entrypoint, so keep them anchored to the worktree.

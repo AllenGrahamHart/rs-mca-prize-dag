@@ -80,7 +80,7 @@ certificate give:
 - the Modal-sharded n=128 h=5 boundary replay gives a complete zero anchored
   nontoral certificate at `p=17921`;
 - the same n=128 h=5 sharded replay gives complete zero anchored nontoral
-  certificates at `p=18049,18433`;
+  certificates at `p=18049,18433,19073,19457,19841,20353`;
 - M720 separately replays the low-row h=5 gate `full_census(32,5,97)=96`,
   all non-toral, below the q >= n^2 regime.
 

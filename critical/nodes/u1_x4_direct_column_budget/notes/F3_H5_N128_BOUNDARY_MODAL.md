@@ -63,12 +63,16 @@ direct n^3 alarm                = false
 This extends the h=5 finite-row zero evidence to the `n=128` boundary row.  It
 is still finite evidence, not a uniform h=5 no-primitive theorem.
 
-An extra-prime follow-up replay then used the same 32-shard certificate at
-`p=18049` and `p=18433`.  Both rows completed all shards:
+An extra-prime follow-up replay then used the same 32-shard certificate at six
+nearby primes.  All rows completed all shards:
 
 ```text
-p=18049: right probes = 254231775, anchored nontoral = 0, max shard = 19.405s
-p=18433: right probes = 254231775, anchored nontoral = 0, max shard = 13.729s
+p=18049: right probes = 254231775, anchored nontoral = 0, max shard = 17.419s
+p=18433: right probes = 254231775, anchored nontoral = 0, max shard = 14.298s
+p=19073: right probes = 254231775, anchored nontoral = 0, max shard = 13.750s
+p=19457: right probes = 254231775, anchored nontoral = 0, max shard = 15.603s
+p=19841: right probes = 254231775, anchored nontoral = 0, max shard = 17.424s
+p=20353: right probes = 254231775, anchored nontoral = 0, max shard = 14.759s
 ```
 
 The extra-prime JSON is verified by the aggregate h4/h5 replay.

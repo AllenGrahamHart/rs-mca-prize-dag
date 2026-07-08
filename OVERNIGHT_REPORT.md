@@ -1971,8 +1971,9 @@ rerunning Modal.  A small catch was banked: Modal remote imports broke
 `Path(__file__)`-based root detection, so the script now uses `F3_PRIZE_ROOT`.
 
 Continuation h=5 n=128 ladder update: the same sharded Modal replay now also
-certifies `p=18049` and `p=18433`.  Each row checks `254231775` right subsets
-with `10334625` anchored left subsets per shard, finding zero anchored toral
-trades, zero anchored nontoral trades, and no `n^3` alarm.  Max shard times
-were `19.405s` and `13.729s`.  The n=128 h=5 ladder therefore has three
-complete zero rows: `17921,18049,18433`.
+certifies `p=18049,18433,19073,19457,19841,20353`.  Each row checks
+`254231775` right subsets with `10334625` anchored left subsets per shard,
+finding zero anchored toral trades, zero anchored nontoral trades, and no
+`n^3` alarm.  Max shard times were `17.419s`, `14.298s`, `13.750s`,
+`15.603s`, `17.424s`, and `14.759s`.  The n=128 h=5 ladder therefore has
+seven complete zero rows: `17921,18049,18433,19073,19457,19841,20353`.

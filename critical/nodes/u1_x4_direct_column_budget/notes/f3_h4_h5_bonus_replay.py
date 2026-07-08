@@ -129,7 +129,7 @@ def require_h5_n128_certificate(row, p: int = 17921) -> None:
 
 
 def require_h5_n128_extra_certificates(rows) -> None:
-    expected_primes = [18049, 18433]
+    expected_primes = [18049, 18433, 19073, 19457, 19841, 20353]
     if [row.get("p") for row in rows] != expected_primes:
         raise AssertionError(rows)
     for row in rows:
