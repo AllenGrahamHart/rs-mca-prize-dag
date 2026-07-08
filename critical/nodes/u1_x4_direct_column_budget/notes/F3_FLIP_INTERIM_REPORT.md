@@ -235,6 +235,19 @@ This is not supplied by the h=2 rich-coset theorem: the h=2 theorem controls
 two affine membership conditions, while the repeat boundary genuinely needs
 the fourth condition `lambda in H`.
 
+The q0-cell packet pays the one lower-condition LP4 subcell.  When
+`r^2+r+1=0`, the fourth form is constant `lambda=1`, and there are at most two
+such line parameters.  Dropping the third nonconstant form leaves a two-affine
+multiplicative-coset intersection, so the optimized h=2 Stepanov proof gives
+
+```text
+B_q0 <= 132 n^(2/3)
+```
+
+under the same single-shift hypothesis `n^4 < p^3`.  Its repeat-residue
+contribution is therefore at most `1584 n^(5/3)`.  The future LP4 theorem may
+exclude `r^2+r+1=0` and focus on the genuine four-form cell.
+
 The dilation-lift packet justifies the normalization factor in the activation
 compiler.  If `A_3(n,p)` counts activated unordered shape-pair orbits modulo
 common multiplication by `H`, then the raw unnormalized shape-pair count is at

@@ -4023,3 +4023,50 @@ LP4-RED supplied; remaining gate: LP4-RANK/LP4-NV
 H3_REPEAT_BOUNDARY_LP4_STEPANOV_COMPILER_PASS
 elapsed=0.03 maxrss=12800
 ```
+
+## T2 h=3 repeat-boundary q0 cell
+
+Stage selected: prove a genuine subcell of the new line-pencil boundary rather
+than leaving every line parameter to the future LP4 theorem.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_Q0_CELL.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_q0_cell.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_q0_cell.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_BOUNDARY_Q0_CELL_PASS
+```
+
+Result: the triple-repeat line cell `r^2+r+1=0` has at most two line
+parameters.  On each one, dropping the third nonconstant form leaves a
+two-affine multiplicative-coset intersection, so the optimized h=2 Stepanov
+argument gives
+
+```text
+B_q0 <= 132 n^(2/3),
+12 n B_q0 <= 1584 n^(5/3).
+```
+
+The future LP4 theorem can exclude this lower-condition cell.
+
+Focused replay:
+
+```text
+p=97 n=16 q0_roots=2 q0_count=0
+p=97 n=32 q0_roots=2 q0_count=6
+p=193 n=64 q0_roots=2 q0_count=6
+p=257 n=128 q0_roots=0 q0_count=0
+H3_REPEAT_BOUNDARY_Q0_CELL_PASS
+elapsed=0.02 maxrss=11392
+```
