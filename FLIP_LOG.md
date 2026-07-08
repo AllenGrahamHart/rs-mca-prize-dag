@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.42 maxrss=50020
+elapsed=16.92 maxrss=49956
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4702,7 +4702,7 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.42 maxrss=50020
+elapsed=16.92 maxrss=49956
 ```
 
 ## T2/T3 h=3 repeat forced-coordinate-2 normal form
@@ -4752,7 +4752,7 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.42 maxrss=50020
+elapsed=16.92 maxrss=49956
 ```
 
 ## T2/T3 h=3 repeat hitting exception scan
@@ -4796,7 +4796,7 @@ Focused replay:
 ```text
 H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.42 maxrss=50020
+elapsed=16.92 maxrss=49956
 ```
 
 ## T2/T3 h=3 repeat singleton-hitting stress
@@ -4854,7 +4854,7 @@ Focused replay:
 ```text
 H3_REPEAT_SINGLETON_HITTING_STRESS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.42 maxrss=50020
+elapsed=16.92 maxrss=49956
 ```
 
 ## T2/T3 h=3 repeat star-obstruction compiler
@@ -4906,7 +4906,7 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.42 maxrss=50020
+elapsed=16.92 maxrss=49956
 ```
 
 ## T2/T3 h=3 repeat edge reciprocal form
@@ -4948,7 +4948,7 @@ Focused replay:
 ```text
 H3_REPEAT_EDGE_RECIPROCAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.42 maxrss=50020
+elapsed=16.92 maxrss=49956
 ```
 
 ## T2/T3 h=3 repeat star-obstruction taxonomy
@@ -4991,7 +4991,7 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_TAXONOMY_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.42 maxrss=50020
+elapsed=16.92 maxrss=49956
 ```
 
 ## T2/T3 h=3 repeat edge cubic gcd form
@@ -5033,5 +5033,54 @@ Focused replay:
 ```text
 H3_REPEAT_EDGE_CUBIC_GCD_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.42 maxrss=50020
+elapsed=16.92 maxrss=49956
+```
+
+## T2/T3 h=3 repeat pair-intersection compiler
+
+Stage selected: split the disjoint active-edge obstruction using the
+difference of active edge cubics.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_PAIR_INTERSECTION_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_pair_intersection_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_pair_intersection_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_PAIR_INTERSECTION_COMPILER_PASS
+```
+
+Result: subtracting two active edge cubics gives a quadratic:
+
+```text
+P_E(T)-P_F(T)=-(lambda-mu)T^2+2(lambda-mu)T-(m-n).
+```
+
+Hence disjoint active-edge pairs split into:
+
+```text
+SAME-LAMBDA
+QUADRATIC-MISS
+```
+
+The boundary witness rows have no disjoint pairs.  The non-boundary contrast
+row `(p,n)=(97,32)` has `83` disjoint pairs, split as `same_lambda=1` and
+`quadratic_miss=82`.
+
+Focused replay:
+
+```text
+H3_REPEAT_PAIR_INTERSECTION_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=16.92 maxrss=49956
 ```

@@ -559,6 +559,18 @@ out an at-most-four family of active reciprocal edges that are pairwise
 intersecting but have empty total intersection.  Together they imply the
 star theorem.
 
+The pair-intersection compiler splits `H3-NO-DISJOINT-EDGES`.  For active
+cubics with data `(lambda,m)` and `(mu,n)`, their difference is
+
+```text
+-(lambda-mu)T^2 + 2(lambda-mu)T - (m-n).
+```
+
+If `lambda=mu`, distinct active edges are automatically disjoint.  If
+`lambda!=mu`, common roots must lie on this quadratic difference locus.  Thus
+the disjoint-pair target reduces to `H3-NO-SAME-LAMBDA` and
+`H3-NO-QUADRATIC-MISS`.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -587,7 +599,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `17.42s` locally and ends with
+It runs in about `16.92s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

@@ -16,6 +16,7 @@ The harness runs:
 - the repeat-boundary line compiler;
 - the shifted reciprocal edge normal form;
 - the active-edge cubic gcd normal form;
+- the pair-intersection compiler;
 - the LP4 Stepanov compiler;
 - the q0 cell payment;
 - the fixed-fiber cap;
