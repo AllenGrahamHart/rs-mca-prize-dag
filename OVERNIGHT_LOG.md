@@ -5138,3 +5138,34 @@ passes at these primes.  Deterministic non-antipodal support samples of size
 `4096` at `p=4289` and `p=262337` found zero full x83-zero supports.  This is
 not a full h=8 n64 certificate; it banks the exact key interface for the future
 non-antipodal sharded certifier.
+
+## 2026-07-08 Bonus queue continuation: h=8 n=64 x83 near-lift shell
+
+Stage: bonus item (ii), h=6/7/8 ladder sweep.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_NEARLIFT_SHELL.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+```
+
+Digest:
+
+```text
+H8_N64_X83_NEARLIFT_SHELL_PASS
+```
+
+Result: the complete one-exchange shell around the seven paid h=8 square-lift
+supports is clean at both boundary-style primes.  At `p=4289`, all `5376`
+shell supports have nonzero x83 obstruction vector; at `p=262337`, all `5376`
+shell supports are likewise nonzero.  This rules out the closest
+non-antipodal deformation of the paid branch, but it does not certify the full
+h=8 n64 non-antipodal branch.
