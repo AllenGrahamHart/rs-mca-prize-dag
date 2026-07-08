@@ -1243,10 +1243,10 @@ The largest cap in these rows is `B <= 15470`, so this also removes the fixed
 `B <= 50000` caveat from the low/mid-row packet.  This reduces the low/mid-row
 geometric batching burden; it does not close `RC-RANK` or the bridge theorem.
 
-## T3 h=3 optional high-row non-diagonal budget lift
+## T3 h=3 high-row non-diagonal budget lift
 
-Stage selected: bank the next verified non-diagonal bridge-budget rows without
-making the aggregate interim replay heavier.
+Stage selected: bank the next verified non-diagonal bridge-budget rows and,
+after the analytic-cap speedup, include them in the aggregate interim replay.
 
 Banked files:
 
@@ -1260,12 +1260,14 @@ Replay:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_highrow_budget.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digest:
 
 ```text
 H3_NONDIAGONAL_HIGHROW_BUDGET_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 ```
 
 Result: for `s=36..41`, exact non-diagonal optimization with `B <= 50000`
@@ -1275,9 +1277,9 @@ raises the bridge budgets
 2337,2944,3710,4674,5889,7420 -> 3400,4284,5397,6800,8568,10795.
 ```
 
-The optional verifier checks a passing witness at the improved `Z` and an
+The high-row verifier checks a passing witness at the improved `Z` and an
 exhaustive `Z+1` failure up to the exact analytic `B` cap for any possible
-passing box.  The largest cap in these rows is `B <= 61923`, so the optional
-check remains light while removing the fixed `B <= 50000` caveat for this
+passing box.  The largest cap in these rows is `B <= 61923`, so the check
+remains light while removing the fixed `B <= 50000` caveat for this
 high-row packet.  This further reduces the h=3 batching burden, still
 conditional on `RC-RANK` and the actual geometric bridge theorem.

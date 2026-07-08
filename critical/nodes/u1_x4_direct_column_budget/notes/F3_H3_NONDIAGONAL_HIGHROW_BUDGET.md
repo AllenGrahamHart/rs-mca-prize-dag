@@ -1,13 +1,11 @@
-# F3 h=3 optional non-diagonal high-row budget lift
+# F3 h=3 non-diagonal high-row budget lift
 
-Status: OPTIONAL CONDITIONAL ARITHMETIC COMPILER, NOT `RC-RANK` AND NOT
-`H3-ACT`.
+Status: CONDITIONAL ARITHMETIC COMPILER, NOT `RC-RANK` AND NOT `H3-ACT`.
 
 This packet extends the non-diagonal bridge-budget pass from
 `F3_H3_NONDIAGONAL_LOWROW_BUDGET.md` to the high official rows `s = 36..41`.
-It is intentionally not included in the aggregate interim replay: the default
-gate is already close to the local 60-second comfort limit, and this optional
-check is useful without making that gate heavier.
+After the low/mid-row analytic-cap optimization, the aggregate interim replay
+has enough margin to include this high-row check by default.
 
 ## Pre-registration
 
@@ -83,10 +81,12 @@ No red node closes from this packet alone.
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_highrow_budget.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digest:
 
 ```text
 H3_NONDIAGONAL_HIGHROW_BUDGET_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 ```

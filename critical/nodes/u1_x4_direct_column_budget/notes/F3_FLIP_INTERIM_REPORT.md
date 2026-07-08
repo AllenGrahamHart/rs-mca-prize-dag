@@ -176,8 +176,7 @@ This reduces the low/middle-row batching burden but still remains conditional
 on the same two open h=3 gates: `RC-RANK` and the actual geometric batching
 theorem.
 
-An optional high-row packet extends the same non-diagonal search to `s=36..41`
-without adding it to the aggregate replay:
+The aggregate replay now extends the same non-diagonal search to `s=36..41`:
 
 ```text
 s=36: 2337 -> 3400
@@ -188,11 +187,10 @@ s=40: 5889 -> 8568
 s=41: 7420 -> 10795
 ```
 
-The optional replay again checks a pinned passing witness at the improved `Z`
+The high-row replay again checks a pinned passing witness at the improved `Z`
 and an exhaustive `Z+1` failure up to the exact analytic `B` cap for any
 possible passing box.  The largest cap is `B <= 61923` at `s=41`, so this is
-still lightweight.  It is kept separate so the default local replay stays
-lightweight.
+still lightweight enough for the default local replay.
 
 A tempting shortcut for the rank theorem is already refuted.  Private
 zeros/poles for `X,r_1,r_2,r_3` do not imply full coefficient-rank

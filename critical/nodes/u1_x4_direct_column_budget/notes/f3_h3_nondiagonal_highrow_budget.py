@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Optional high-row non-diagonal h=3 bridge-budget lift."""
+"""High-row non-diagonal h=3 bridge-budget lift."""
 
 from __future__ import annotations
 
@@ -97,7 +97,7 @@ EXPECTED_ROWS = (
 
 
 def main() -> None:
-    print("h=3 optional non-diagonal high-row bridge-budget lift")
+    print("h=3 non-diagonal high-row bridge-budget lift")
     print(f"C_red={C_RED} H3_ACT_C={H3_ACT_C} default_B_max={B_MAX}")
     print(" s          n   old_Z   new_Z          bound            16n      next_bound  next_B_cap")
     for row in EXPECTED_ROWS:

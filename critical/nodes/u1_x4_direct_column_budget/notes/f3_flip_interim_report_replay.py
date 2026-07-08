@@ -117,6 +117,14 @@ COMMANDS = [
         "H3_NONDIAGONAL_LOWROW_BUDGET_PASS",
     ),
     (
+        "h3 non-diagonal high-row budget",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_highrow_budget.py",
+        ],
+        "H3_NONDIAGONAL_HIGHROW_BUDGET_PASS",
+    ),
+    (
         "h3 private-divisor full-rank refutation",
         [
             sys.executable,
