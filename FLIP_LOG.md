@@ -6324,3 +6324,41 @@ H3_REPEAT_LOOSE_CASE_SPLIT_INTERFACE_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=33.63 maxrss=52156
 ```
+
+## T2/T3 h=3 repeat loose branch slope maps
+
+Stage selected: write the two normalized collision branches as explicit
+one-parameter slope families with degree budgets.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_BRANCH_SLOPE_MAPS.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_slope_maps.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_slope_maps.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_BRANCH_SLOPE_MAPS_PASS
+```
+
+Result: branch A has the forced duplicate `C_b=L_a` and eight unique slope
+maps of rational degree at most `4`.  Branch B has the forced duplicate
+`C_1b=L_a` and eight unique slope maps of rational degree at most `6`.
+Therefore the special loose branches are explicit one-parameter rational
+slope families, but not degree-2 rich-curve instances.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_BRANCH_SLOPE_MAPS_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=37.09 maxrss=52836
+```

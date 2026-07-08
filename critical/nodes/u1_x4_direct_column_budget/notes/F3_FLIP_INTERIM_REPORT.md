@@ -912,6 +912,15 @@ fixed assumption of nine distinct conditions; after `S_3` quotienting, the
 special multiplicity analysis is two one-parameter families plus their
 one-variable secondary subcells.  The case-split interface records this as
 three counting targets: generic nine-slope systems, branch A, and branch B.
+The branch slope-map compiler writes the special targets explicitly:
+
+```text
+branch A: eight slopes, max rational degree 4,
+branch B: eight slopes, max rational degree 6.
+```
+
+Thus the special branches are one-parameter rational slope families, but they
+do not reduce to the original degree-2 rich-curve template.
 
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
@@ -941,7 +950,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `33.63s` locally and ends with
+It runs in about `37.09s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

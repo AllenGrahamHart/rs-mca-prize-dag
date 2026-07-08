@@ -62,6 +62,7 @@ The harness runs:
 - the loose collision-orbit compiler;
 - the loose collision-branch parametrization compiler;
 - the loose case-split interface;
+- the loose branch slope-map compiler;
 - the loose slope-multiplicity ledger.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch

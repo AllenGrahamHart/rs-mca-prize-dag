@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=33.63 maxrss=52156
+elapsed=37.09 maxrss=52836
 ```
 
 ## Confidence-ranked claims
@@ -197,8 +197,10 @@ elapsed=33.63 maxrss=52156
    forms `b=a(a+1)/(a^2+a+1)` and
    `b=-(2a^2+2a+1)/(a^2+a+1)`.  The current loose-triangle interface is
    therefore a generic nine-slope target plus these two special branch targets.
-   Non-poles alone are not enough for the coordinate claim; the proof uses
-   distinctness of the six reciprocal points.
+   The branch slope maps are explicit: branch A has eight slope maps of degree
+   at most 4, and branch B has eight slope maps of degree at most 6.  Non-poles
+   alone are not enough for the coordinate claim; the proof uses distinctness
+   of the six reciprocal points.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.
