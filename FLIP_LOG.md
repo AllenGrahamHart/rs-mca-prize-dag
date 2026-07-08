@@ -259,6 +259,49 @@ linear-system arithmetic are no longer vague; the missing mathematical gates
 are exactly the reduced-condition lemma and the nonvanishing lemma after the
 degeneracy filters.
 
+## T2 refinement: h=3 activation-bound compiler
+
+Stage selected: repair the h=3 per-row accident compiler so it consumes the
+right sparsity object.  The rational norm-gcd pair-coprimality heuristic was
+too strong and is refuted by the banked random sample; the actual object is
+prime-ideal/common-root activation at primitive `n`th roots.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_BOUND_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_bound_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_bound_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_all_core_census_summary.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
+```
+
+Expected digest:
+
+```text
+H3_ACTIVATION_BOUND_COMPILER_PASS
+H3_ALL_CORE_CENSUS_SUMMARY_DONE
+H3_PER_ROW_ACCIDENT_POSE_PASS
+```
+
+Result: the compiler now states the exact conditional needed for h=3:
+
+```text
+H3-ACT(C): A_3(n,p) <= C n
+```
+
+where `A_3(n,p)` counts actual non-toral common-root activations, not rational
+norm coincidences.  If `C=16`, the existing toral + Poisson + activation
+arithmetic gives `T_3 < n^3` for every `n >= 17`.  In the banked `n=96`
+all-core aggregate, the maximum oriented per-prime activation count is `92`,
+below `n`; this is evidence only because the aggregate is not
+Burnside-deduplicated, but it tests the right per-row object.
+
 Next step: either attack `RC-RED` for the actual hyperbola normal-form curves,
 or pivot to T4(a)'s h=4 rigidity route while T1's nonvanishing gate is still
 open.
