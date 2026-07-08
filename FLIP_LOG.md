@@ -1283,3 +1283,36 @@ passing box.  The largest cap in these rows is `B <= 61923`, so the check
 remains light while removing the fixed `B <= 50000` caveat for this
 high-row packet.  This further reduces the h=3 batching burden, still
 conditional on `RC-RANK` and the actual geometric bridge theorem.
+
+## T1 h=3 rank-sample family corollary
+
+Stage selected: strengthen the existing `RC-RANK` finite-field sample without
+adding a slow multi-curve computation.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_RANK_SAMPLE.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digest:
+
+```text
+H3_RICH_CURVE_RANK_SAMPLE_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the existing repaired random curve has rank `320`, the full coefficient
+dimension in the toy box `p=769, h=32, A=5, B=4, D=1`.  Therefore any direct-sum
+family containing it has rank at least `320`, so the toy family-level
+`RC-RANK` inequality holds for `Z <= 4`; `Z=5` is impossible for these fixed
+parameters because `5*78 > 320`.  This is sample evidence only, not `RC-RANK`.

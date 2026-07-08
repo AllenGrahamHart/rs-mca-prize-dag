@@ -170,8 +170,17 @@ def main() -> None:
             f"conditions={conditions} rc_rank={passes}"
         )
 
+    full_rank_family_cap = (coeffs - 1) // CONDITIONS_PER_CURVE
+    if full_rank_family_cap != 4:
+        raise AssertionError(("full-rank family cap drift", full_rank_family_cap))
+
     print("collapsed constant-ratio family fails the rank target")
     print("repaired random curve has full coefficient rank in this toy row")
+    print(
+        "full-rank subcurve certifies any containing family with "
+        f"Z <= {full_rank_family_cap} in this toy box"
+    )
+    print("Z=5 is impossible for these fixed parameters because 5*78 > 320")
     print("H3_RICH_CURVE_RANK_SAMPLE_PASS")
 
 

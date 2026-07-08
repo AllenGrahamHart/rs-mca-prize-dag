@@ -101,7 +101,10 @@ already refuted by the random norm sample.
 The finite-field rank sample supports this target without proving it.  At
 `p=769, h=32, A=5, B=4, D=1`, the constant-ratio collapsed control has rank
 `50 < 78` and fails `RC-RANK`, while a deterministic repaired random degree-2
-curve has full coefficient rank `320 > 78`.
+curve has full coefficient rank `320 > 78`.  Since that rank is the whole
+coefficient dimension, any direct-sum family containing this repaired curve
+passes the same toy rank inequality for `Z <= 4`; `Z=5` is impossible with the
+same parameters because `5*78 > 320`.
 
 The rank-form parameter compiler gives the current conditional constants for
 representative repaired curve-family sizes.  Under `RC-RANK`, the diagonal

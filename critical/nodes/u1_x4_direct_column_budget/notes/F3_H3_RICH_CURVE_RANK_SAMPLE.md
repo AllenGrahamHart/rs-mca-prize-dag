@@ -67,12 +67,26 @@ with large margin:
 320 > 78.
 ```
 
+Because the sampled repaired curve has full coefficient rank, any direct-sum
+family that contains it also has rank at least `320`.  In this fixed toy box,
+the family-level rank inequality
+
+```text
+rank(S_Z) > 78 Z
+```
+
+is therefore certified for every containing family with `Z <= 4`.  The next
+value `Z=5` cannot be certified with the same parameters, since `5*78 = 390`
+already exceeds the coefficient dimension `320`.
+
 ## Interpretation
 
 This does not prove `RC-RANK`.  It is a useful guardrail: the rank target
 detects the already-known degeneracy while repaired random curves behave as
-the proof strategy requires.  The next theorem still has to prove a uniform
-rank lower bound for the actual repaired F3 signature-curve family.
+the proof strategy requires, and a full-rank subcurve gives the expected
+monotone family-level behavior until the condition count reaches the coefficient
+dimension.  The next theorem still has to prove a uniform rank lower bound for
+the actual repaired F3 signature-curve family.
 
 ## Replay
 
