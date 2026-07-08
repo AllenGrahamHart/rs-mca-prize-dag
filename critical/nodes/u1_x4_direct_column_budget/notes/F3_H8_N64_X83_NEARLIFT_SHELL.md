@@ -61,6 +61,12 @@ p=262337 two-exchange shell: paid=7 supports=947520 full_zero=0 first_obstructio
 H8_N64_X83_NEARLIFT_RADIUS2_PASS
 ```
 
+The local verifier now treats these four rows as pinned expectations.  A
+standalone radius-two replay for one prime remains under the local 60-second
+cap, but the two radius-two prime replays are intentionally not part of the
+default aggregate `f3_flip_interim_report_replay.py`; running both sequentially
+would push that aggregate beyond the laptop-safe budget.
+
 Interpretation:
 
 This is a complete adversarial check of the radius-one and radius-two exchange

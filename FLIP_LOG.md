@@ -1350,3 +1350,47 @@ map `e -> 3e mod 64` and reflection `e -> -e mod 64`.  The reflected support
 has obstruction vector `[0, 64, 0, 82, 0, 87, 0]` and nonsquare
 `lambda = 125`, so the h=8 support certifier cannot soundly quotient by the
 dihedral exponent group without rechecking the x83 classifier.
+
+## T4 h=8 near-lift radius-two expectation hardening
+
+Stage selected: harden the h=8 near-lift shell verifier so the already-banked
+radius-one and radius-two shell rows are asserted, not merely printed.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_NEARLIFT_SHELL.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+F3_H8_X83_SHELL_RADIUS=2 F3_H8_X83_SHELL_PRIMES=4289 \
+  python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+F3_H8_X83_SHELL_RADIUS=2 F3_H8_X83_SHELL_PRIMES=262337 \
+  python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digests:
+
+```text
+H8_N64_X83_NEARLIFT_SHELL_PASS
+H8_N64_X83_NEARLIFT_RADIUS2_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the verifier now asserts the four pinned shell rows:
+
+```text
+p=4289,r=1:   supports=5,376   first_zero=0    full_zero=0
+p=262337,r=1: supports=5,376   first_zero=0    full_zero=0
+p=4289,r=2:   supports=947,520 first_zero=1504 full_zero=0
+p=262337,r=2: supports=947,520 first_zero=1344 full_zero=0
+```
+
+The final single-prime radius-two replays took 33.19s and 38.06s locally, so they are
+kept as standalone commands rather than folded into the default aggregate.

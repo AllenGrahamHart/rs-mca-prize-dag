@@ -268,7 +268,17 @@ aggregate replay.  The interface verifies that all paid antipodal lifts are
 x83-zero at `p in {193,4289,262337}` and that deterministic non-antipodal
 samples at `p=4289,262337` have no full zero.  The one-exchange shell checks
 `5,376` supports around each paid branch at both boundary-style primes, again
-with `full_zero = 0`.
+with `full_zero = 0`.  The same standalone verifier also pins the complete
+two-exchange shells at both primes:
+
+```text
+p=4289:   947,520 supports, first_obstruction_zero=1504, full_zero=0
+p=262337: 947,520 supports, first_obstruction_zero=1344, full_zero=0
+```
+
+Those radius-two replays run under the per-task 60-second cap one prime at a
+time, but they are not included in the default aggregate because the aggregate
+must remain laptop-safe.
 
 The remaining support universe is now exactly compiled.  Anchored 16-supports
 with exponent `0` have size
