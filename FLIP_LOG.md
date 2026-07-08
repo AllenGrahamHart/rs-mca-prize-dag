@@ -6452,3 +6452,53 @@ H3_REPEAT_LOOSE_GENERIC_DEGREE_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=39.54 maxrss=52900
 ```
+
+## T2/T3 h=3 repeat loose Stepanov compiler
+
+Stage selected: package the generic and two special loose degree budgets into
+one conditional Stepanov arithmetic interface.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_STEPANOV_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_stepanov_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_stepanov_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_STEPANOV_COMPILER_PASS
+```
+
+Result: for a loose target with `m` parameter variables, `k` membership maps,
+parameter box degree `P`, source degree `C`, subgroup degree `B`, multiplicity
+`D`, and repaired parameter family `Z`,
+
+```text
+coefficients = P^m C B^k,
+conditions   <= D P^m (C+kD) |Z|,
+L_X          = C-1+k n(B-1).
+```
+
+The missing gates are now explicitly:
+
+```text
+LOOSE-GEN-RANK/NV,
+LOOSE-A-RANK/NV,
+LOOSE-B-RANK/NV.
+```
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_STEPANOV_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=40.51 maxrss=52900
+```

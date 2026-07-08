@@ -949,6 +949,28 @@ deg_X     <= C-1+9n(Y-1),
 total_deg <= A+B0+C-3+15n(Y-1).
 ```
 
+The loose Stepanov compiler now packages these degree budgets into a conditional
+counting interface.  For a target with `m` parameter variables and `k`
+membership maps, an auxiliary with `P` parameter degree, `C` source degree,
+`B` subgroup degree, and multiplicity `D` has
+
+```text
+coefficients = P^m C B^k,
+conditions   <= D P^m (C+kD) |Z|,
+L_X          = C-1+k n(B-1).
+```
+
+The missing theorem gates are named:
+
+```text
+LOOSE-GEN-RANK/NV,
+LOOSE-A-RANK/NV,
+LOOSE-B-RANK/NV.
+```
+
+Under the corresponding gate and the strict linear-system inequality, the
+fiber count is `< |Z| L_X/D`.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -977,7 +999,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `39.54s` locally and ends with
+It runs in about `40.51s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
