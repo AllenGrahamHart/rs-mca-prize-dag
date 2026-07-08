@@ -700,6 +700,24 @@ edge is exactly
 modulo the scale orbit `x -> omega x`.  If the field has no primitive cube
 root, the branch is empty.
 
+The slope-ratio compiler gives the lambda-distinct target the same
+coordinates.  In the generic branch,
+
+```text
+R^-1 = -(lambda-1)^3 z^2(1+z)^2/(1+z+z^2)^3.
+```
+
+For two lambda-distinct edges `(lambda,R)` and `(mu,S)`,
+
+```text
+rho = 1 + (R^-1-S^-1)/(lambda-mu).
+```
+
+The `H3-SLOPE-HIT` target is therefore that this rho lies in the three source
+slope values `u(2-u)`, equivalently the three values coming from
+`U_lambda(z),V_lambda(z),W_lambda(z)`.  Pairs involving `lambda=1` use
+`R^-1=x^3` from the scale branch.
+
 The pairwise-coreless compiler splits the other taxonomy branch.  A
 pairwise-intersecting coreless obstruction on at most four active 3-edges
 either has a 3-edge coreless subfamily, or every triple has a common point and
@@ -791,7 +809,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `16.85s` locally and ends with
+It runs in about `16.83s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

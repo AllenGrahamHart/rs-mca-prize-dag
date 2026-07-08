@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.85 maxrss=50104
+elapsed=16.83 maxrss=50104
 ```
 
 ## Confidence-ranked claims
@@ -154,7 +154,11 @@ elapsed=16.85 maxrss=50104
    `z,1/z,-(1+z),-1/(1+z),-(1+z)/z,-z/(1+z)`, so the target is uniqueness
    of an admissible ratio orbit, with `lambda=1` handled by the primitive-cube
    scale branch.  That special branch is exactly the scale condition
-   `{1+x,1+omega x,1+omega^2 x} subset H`, modulo `x -> omega x`.
+   `{1+x,1+omega x,1+omega^2 x} subset H`, modulo `x -> omega x`.  The
+   lambda-distinct slope target also has a ratio form:
+   `R^-1=-(lambda-1)^3 z^2(1+z)^2/(1+z+z^2)^3` and
+   `rho=1+(R^-1-S^-1)/(lambda-mu)`, which must lie in the three source slope
+   values.
    The pairwise-coreless case further splits into a 3-edge coreless triangle
    or the tetrahedral four-3-subsets pattern.  The 3-edge coreless triangle
    further has only two combinatorial patterns: loose `(1,1,1)` and pinched

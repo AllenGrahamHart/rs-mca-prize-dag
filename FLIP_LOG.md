@@ -5708,3 +5708,51 @@ H3_REPEAT_LAMBDA_ONE_SCALE_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=16.85 maxrss=50104
 ```
+
+## T2/T3 h=3 repeat slope-ratio compiler
+
+Stage selected: rewrite the lambda-distinct `H3-SLOPE-HIT` target in the same
+ratio coordinates as the fixed-lambda branch.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_RATIO_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_ratio_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_ratio_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SLOPE_RATIO_COMPILER_PASS
+```
+
+Result: for the generic branch,
+
+```text
+R^-1 = -(lambda-1)^3 z^2(1+z)^2/(1+z+z^2)^3.
+```
+
+For lambda-distinct edges `(lambda,R)` and `(mu,S)`,
+
+```text
+rho = 1 + (R^-1-S^-1)/(lambda-mu).
+```
+
+The slope-hit target is exactly that this rho is one of the three source slope
+values `u(2-u)`.  The compiler also handles pairs involving the `lambda=1`
+scale branch via `R^-1=x^3`.
+
+Focused replay:
+
+```text
+H3_REPEAT_SLOPE_RATIO_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=16.83 maxrss=50104
+```
