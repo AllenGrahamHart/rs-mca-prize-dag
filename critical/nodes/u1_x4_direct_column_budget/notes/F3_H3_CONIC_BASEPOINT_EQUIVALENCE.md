@@ -24,7 +24,8 @@ Success criterion:
 - prove the ordered `H`-triple ledger `R(s1,s2)` is independent of base point;
 - state that finite affine chart counts can differ only by which point is the
   vertical/projective mate;
-- avoid claiming Mobius reparametrization invariance for the rank theorem.
+- route rank-parametrization invariance to
+  `F3_H3_RC_RANK_NORMALIZATION_INVARIANCE.md`.
 
 Failure criterion:
 
@@ -81,9 +82,10 @@ same-`(e1,e2)` conic fiber when doing incidence bookkeeping.  It should not pay
 one geometric curve image per ordered triple in that fiber.
 
 This lemma is not a rank theorem.  If a future `RC-RANK` proof is sensitive to
-the exact rational parametrization rather than to the conic image, it must
-either fix a deterministic base-point rule or separately prove the relevant
-Mobius-reparametrization invariance.
+the exact rational parametrization rather than to the conic image, the needed
+source-Mobius invariance is supplied by
+`F3_H3_RC_RANK_NORMALIZATION_INVARIANCE.md`.  The remaining rank debt is the
+rank-good minor avoidance theorem itself, not base-point dependence.
 
 ## Replay
 
