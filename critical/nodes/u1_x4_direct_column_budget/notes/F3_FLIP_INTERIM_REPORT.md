@@ -718,6 +718,29 @@ slope values `u(2-u)`, equivalently the three values coming from
 `U_lambda(z),V_lambda(z),W_lambda(z)`.  Pairs involving `lambda=1` use
 `R^-1=x^3` from the scale branch.
 
+The slope numerator compiler denominator-clears this condition.  For a generic
+source, with `A=-a^3z^2(1+z)^2`, `B=N^3`, `Delta=lambda-mu`, and target
+invariant `S^-1`, set
+
+```text
+rho_num = Delta*B + A - S^-1*B.
+```
+
+Writing the three source slopes as `S_i/N^2`, define
+
+```text
+Q_i = rho_num - S_i*Delta*N.
+```
+
+Then, away from the registered non-poles,
+
+```text
+H3-SLOPE-HIT  <=>  Q_0 Q_1 Q_2 = 0.
+```
+
+The `lambda=1` source branch has the analogous product over
+`1-x^2,1-(omega x)^2,1-(omega^2 x)^2`.
+
 The pairwise-coreless compiler splits the other taxonomy branch.  A
 pairwise-intersecting coreless obstruction on at most four active 3-edges
 either has a 3-edge coreless subfamily, or every triple has a common point and
@@ -809,7 +832,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `16.83s` locally and ends with
+It runs in about `16.26s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

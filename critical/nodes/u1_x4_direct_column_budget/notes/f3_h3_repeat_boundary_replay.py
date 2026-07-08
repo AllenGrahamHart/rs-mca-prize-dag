@@ -98,6 +98,11 @@ COMMANDS = [
         "H3_REPEAT_SLOPE_RATIO_COMPILER_PASS",
     ),
     (
+        "h3 repeat slope numerator compiler",
+        "f3_h3_repeat_slope_numerator_compiler.py",
+        "H3_REPEAT_SLOPE_NUMERATOR_COMPILER_PASS",
+    ),
+    (
         "h3 repeat-boundary LP4 Stepanov compiler",
         "f3_h3_repeat_boundary_lp4_stepanov_compiler.py",
         "H3_REPEAT_BOUNDARY_LP4_STEPANOV_COMPILER_PASS",

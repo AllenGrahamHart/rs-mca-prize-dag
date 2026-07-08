@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.83 maxrss=50104
+elapsed=16.26 maxrss=50024
 ```
 
 ## Confidence-ranked claims
@@ -158,7 +158,9 @@ elapsed=16.83 maxrss=50104
    lambda-distinct slope target also has a ratio form:
    `R^-1=-(lambda-1)^3 z^2(1+z)^2/(1+z+z^2)^3` and
    `rho=1+(R^-1-S^-1)/(lambda-mu)`, which must lie in the three source slope
-   values.
+   values.  This is now denominator-cleared as a factored equation
+   `Q_0 Q_1 Q_2=0` for generic source ratios, with a separate scale-source
+   product for `lambda=1`.
    The pairwise-coreless case further splits into a 3-edge coreless triangle
    or the tetrahedral four-3-subsets pattern.  The 3-edge coreless triangle
    further has only two combinatorial patterns: loose `(1,1,1)` and pinched

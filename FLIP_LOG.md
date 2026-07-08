@@ -5756,3 +5756,58 @@ H3_REPEAT_SLOPE_RATIO_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=16.83 maxrss=50104
 ```
+
+## T2/T3 h=3 repeat slope numerator compiler
+
+Stage selected: denominator-clear the slope-ratio hit condition into explicit
+factored numerator equations.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_NUMERATOR_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_numerator_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_numerator_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SLOPE_NUMERATOR_COMPILER_PASS
+```
+
+Result: for a generic source edge, write
+
+```text
+A=-(lambda-1)^3 z^2(1+z)^2, B=(1+z+z^2)^3.
+```
+
+For a lambda-distinct target with invariant `S^-1`,
+
+```text
+rho_num=(lambda-mu)B + A - S^-1 B.
+```
+
+The three slope-hit alternatives are the numerator equations
+
+```text
+Q_i = rho_num - S_i(lambda-mu)(1+z+z^2) = 0.
+```
+
+Thus the generic source target is the factored vanishing
+`Q_0 Q_1 Q_2=0`; the `lambda=1` source branch uses the parallel scale-source
+product.  Boundary guardrails have only zero products for checked pairs; the
+contrast row has 82 nonzero products.
+
+Focused replay:
+
+```text
+H3_REPEAT_SLOPE_NUMERATOR_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=16.26 maxrss=50024
+```
