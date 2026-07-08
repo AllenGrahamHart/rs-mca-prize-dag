@@ -1071,3 +1071,45 @@ Result: the aggregate replay now checks the degree-clearing identity
 reduced-condition/rank-form packets.  The h=3 blocker remains `RC-RANK` plus
 the geometric batching bridge, but the replayed theorem surface now includes
 the hypotheses needed to state that target honestly.
+
+## T1/T2 h=3 bridge-budget parameter lift
+
+Stage selected: rerun the h=3 bridge-budget compiler with a larger exact
+diagonal search cap.  This is pure integer arithmetic and directly relaxes the
+missing geometric batching theorem at the largest official rows.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H3_BRIDGE_BUDGET_COMPILER_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: raising the diagonal search cap from `B_max=20000` to `B_max=50000`
+keeps the official budgets unchanged through `s=38` and improves the large-row
+bridge contracts:
+
+```text
+s=39: Z_budget 4529 -> 4674
+s=40: Z_budget 4529 -> 5889
+s=41: Z_budget 4529 -> 7420
+```
+
+The compiler still verifies maximality in its stated search box:
+`Z_budget` passes and `Z_budget+1` fails.  This does not prove the geometric
+batching theorem, but it gives that theorem more room exactly where the prior
+table had plateaued.

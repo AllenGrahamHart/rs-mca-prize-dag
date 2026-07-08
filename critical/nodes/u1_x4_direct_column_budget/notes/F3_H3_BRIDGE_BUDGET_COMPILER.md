@@ -57,7 +57,7 @@ RC-RED(13) + RC-RANK + H3-BRIDGE(Z_budget(n)) => H3-ACT(16).
 
 ## Replayed Budgets
 
-The exact diagonal-box compiler with `B_max=20000` verifies the following
+The exact diagonal-box compiler with `B_max=50000` verifies the following
 budgets:
 
 ```text
@@ -65,15 +65,16 @@ n=2^13: Z_budget=11
 n=2^20: Z_budget=58
 n=2^23: Z_budget=116
 n=2^32: Z_budget=927
-n=2^39: Z_budget=4529
-n=2^41: Z_budget=4529
+n=2^39: Z_budget=4674
+n=2^40: Z_budget=5889
+n=2^41: Z_budget=7420
 ```
 
 The full replay prints every exponent `13 <= s <= 41`.  For each row, the
 printed bound at `Z_budget` is at most `16n`, and the printed bound at
-`Z_budget+1` is larger than `16n`.  The plateau at `s=39..41` is the verified
-maximum under the `B_max=20000` diagonal search, not a proof that larger
-families are impossible under other parameter families.
+`Z_budget+1` is larger than `16n` under the stated `B_max=50000` diagonal
+search.  This is still not a proof that larger families are impossible under
+other parameter families.
 
 ## Interpretation
 

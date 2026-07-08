@@ -128,11 +128,13 @@ s=13: Z_budget=11
 s=20: Z_budget=58
 s=23: Z_budget=116
 s=32: Z_budget=927
-s=39,40,41: Z_budget=4529
+s=39: Z_budget=4674
+s=40: Z_budget=5889
+s=41: Z_budget=7420
 ```
 
-The plateau is only a verified lower budget under `B_max=20000`, not an
-impossibility result for larger families.
+These are verified lower budgets under the `B_max=50000` diagonal search, not
+impossibility results for larger families.
 
 A tempting shortcut for the rank theorem is already refuted.  Private
 zeros/poles for `X,r_1,r_2,r_3` do not imply full coefficient-rank

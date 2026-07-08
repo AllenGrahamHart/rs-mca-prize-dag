@@ -8,7 +8,7 @@ from math import isqrt
 
 C_RED = 13
 H3_ACT_C = 16
-B_MAX = 20_000
+B_MAX = 50_000
 
 
 EXPECTED_BUDGETS = {
@@ -38,9 +38,9 @@ EXPECTED_BUDGETS = {
     36: 2337,
     37: 2944,
     38: 3710,
-    39: 4529,
-    40: 4529,
-    41: 4529,
+    39: 4674,
+    40: 5889,
+    41: 7420,
 }
 
 
