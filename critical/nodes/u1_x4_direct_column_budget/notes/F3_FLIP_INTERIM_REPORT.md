@@ -536,13 +536,20 @@ If this star target is proved in the boundary regime, then
 `repeat_residue <= 90n^2`, which pays every official row.  This remains finite
 evidence, not a theorem.
 
+The star-obstruction compiler converts that target into a smaller algebraic
+exclusion.  For a 3-uniform active coordinate hypergraph, `tau_coord>1` is
+equivalent to the existence of at most four active edges with empty total
+intersection: choose one edge `{a,b,c}` and one further edge missing each of
+`a,b,c`.  Therefore proving singleton hitting is the same as ruling out this
+four-edge obstruction in the boundary-style incidence variety.
+
 The repeat-boundary chain has a focused replay:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `14.47s` locally and ends with
+It runs in about `16.33s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

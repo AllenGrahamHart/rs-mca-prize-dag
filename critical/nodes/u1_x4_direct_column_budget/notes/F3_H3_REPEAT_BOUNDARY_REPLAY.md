@@ -29,7 +29,8 @@ The harness runs:
 - the coordinate-hitting ledger;
 - the forced-coordinate-2 normal form;
 - the hitting exception scan;
-- the singleton-hitting stress scan.
+- the singleton-hitting stress scan;
+- the star-obstruction compiler.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch
 Modal.

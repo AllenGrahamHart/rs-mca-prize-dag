@@ -112,6 +112,11 @@ COMMANDS = [
         "f3_h3_repeat_singleton_hitting_stress.py",
         "H3_REPEAT_SINGLETON_HITTING_STRESS_PASS",
     ),
+    (
+        "h3 repeat star-obstruction compiler",
+        "f3_h3_repeat_star_obstruction_compiler.py",
+        "H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS",
+    ),
 ]
 
 

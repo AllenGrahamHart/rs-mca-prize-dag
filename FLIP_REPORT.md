@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=14.47 maxrss=49980
+elapsed=16.33 maxrss=50108
 ```
 
 ## Confidence-ranked claims
@@ -114,7 +114,9 @@ elapsed=14.47 maxrss=49980
    not hit by `2`, while still having `tau_coord=1`.  A bounded singleton
    stress scan over boundary-style rows through `n=256` found no
    `tau_coord>1`; if `tau_coord<=1` holds in the boundary regime, the repeat
-   residue is at most `90n^2`, covering all official rows.
+   residue is at most `90n^2`, covering all official rows.  The star target
+   is now reduced to an explicit obstruction: rule out four active coordinate
+   edges with empty total intersection.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

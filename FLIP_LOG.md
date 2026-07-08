@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=14.47 maxrss=49980
+elapsed=16.33 maxrss=50108
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4702,7 +4702,7 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=14.47 maxrss=49980
+elapsed=16.33 maxrss=50108
 ```
 
 ## T2/T3 h=3 repeat forced-coordinate-2 normal form
@@ -4752,7 +4752,7 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=14.47 maxrss=49980
+elapsed=16.33 maxrss=50108
 ```
 
 ## T2/T3 h=3 repeat hitting exception scan
@@ -4796,7 +4796,7 @@ Focused replay:
 ```text
 H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=14.47 maxrss=49980
+elapsed=16.33 maxrss=50108
 ```
 
 ## T2/T3 h=3 repeat singleton-hitting stress
@@ -4854,5 +4854,48 @@ Focused replay:
 ```text
 H3_REPEAT_SINGLETON_HITTING_STRESS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=14.47 maxrss=49980
+elapsed=16.33 maxrss=50108
+```
+
+## T2/T3 h=3 repeat star-obstruction compiler
+
+Stage selected: turn the singleton-hitting target into a finite-pattern
+algebraic obstruction.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_STAR_OBSTRUCTION_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_obstruction_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_obstruction_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS
+```
+
+Result: for the 3-uniform active coordinate hypergraph,
+
+```text
+tau_coord > 1
+```
+
+is equivalent to the existence of at most four active edges with empty total
+intersection.  So the star theorem can be attacked by ruling out a four-edge
+repeat-boundary incidence pattern.  The current witness rows all have
+`obstruction_edges=0`, as expected from `tau_coord=1`.
+
+Focused replay:
+
+```text
+H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=16.33 maxrss=50108
 ```
