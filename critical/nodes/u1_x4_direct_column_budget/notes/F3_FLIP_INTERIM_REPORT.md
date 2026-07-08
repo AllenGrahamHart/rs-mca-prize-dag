@@ -164,6 +164,45 @@ Here `D_boundary=sum_{R_sigma>0} D_sigma` and
 `Z_repeat=#{sigma: R_sigma>0}`.  Thus the moment route no longer has a vague
 residue term; it has a precise boundary target to bound.
 
+The repeat-boundary line compiler further normalizes `D_boundary`.  Divide a
+same-signature pair consisting of a repeated source `(a,a,b)` and a distinct
+triple `(x,y,z)` by `a`, and write `lambda=b/a`.  The normalized distinct
+triple `(u,v,w)` satisfies
+
+```text
+lambda = u+v+w-2 in H,
+(u-1)(v-1)+(u-1)(w-1)+(v-1)(w-1)=0.
+```
+
+Thus `w` is forced by `u,v`.  With
+
+```text
+t=v-1,  r=(u-1)/(v-1),
+```
+
+the normalized boundary is represented by the four affine forms
+
+```text
+1+t,
+1+rt,
+1-(r/(r+1))t,
+1+((r^2+r+1)/(r+1))t.
+```
+
+Let `B_line` count pairs `(r,t)` for which these four values lie in `H` and
+the first three are distinct.  Since source normalization can count an
+involutive double-repeat signature twice,
+
+```text
+D_boundary <= n B_line,    Z_repeat <= n^2,
+repeat_residue <= 12 n B_line + 18 n^2.
+```
+
+So the moment-form residue is now reduced to a concrete line-pencil membership
+bound.  The fourth coefficient vanishes at `r^2+r+1=0`, exactly the
+triple-repeat cell `lambda=1`, which should be paid separately or included in
+the same line theorem.
+
 The dilation-lift packet justifies the normalization factor in the activation
 compiler.  If `A_3(n,p)` counts activated unordered shape-pair orbits modulo
 common multiplication by `H`, then the raw unnormalized shape-pair count is at

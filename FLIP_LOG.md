@@ -3924,3 +3924,56 @@ p=193 n=64 repeat_residue=135552 D_boundary=20352 Z_repeat=3776 bound=312192
 H3_REPEAT_RESIDUE_BOUNDARY_COMPILER_PASS
 elapsed=0.14 maxrss=22788
 ```
+
+## T2 h=3 repeat-boundary line compiler
+
+Stage selected: push the new repeat-residue boundary toward a theorem target by
+normalizing `D_boundary` into a two-parameter line-pencil membership count.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_LINE_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_line_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_line_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_BOUNDARY_LINE_COMPILER_PASS
+```
+
+Result: normalized distinct triples over repeated signatures are represented by
+the line pencil
+
+```text
+1+t,
+1+rt,
+1-(r/(r+1))t,
+1+((r^2+r+1)/(r+1))t.
+```
+
+If `B_line` counts pairs `(r,t)` for which all four values lie in `H` and the
+first three are distinct, then
+
+```text
+D_boundary <= n B_line,
+Z_repeat <= n^2,
+repeat_residue <= 12 n B_line + 18 n^2.
+```
+
+Focused replay:
+
+```text
+p=97 n=16 D_boundary=0 nB_line=0 B_line=0 Z_repeat=240 n^2=256
+p=97 n=32 D_boundary=2688 nB_line=2880 B_line=90 Z_repeat=960 n^2=1024
+p=193 n=64 D_boundary=20352 nB_line=21888 B_line=342 Z_repeat=3776 n^2=4096
+H3_REPEAT_BOUNDARY_LINE_COMPILER_PASS
+elapsed=0.17 maxrss=22312
+```
