@@ -6508,3 +6508,47 @@ H3_REPEAT_LOOSE_STEPANOV_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=40.37 maxrss=52876
 ```
+
+## T2/T3 h=3 repeat loose rank-minor compiler
+
+Stage selected: turn the strong sufficient loose rank gates into explicit
+rank-minor degree bounds.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_RANK_MINOR_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_rank_minor_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_rank_minor_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_RANK_MINOR_COMPILER_PASS
+```
+
+Result: for the replayed sample box `P=16, C=512, B=4, D=2, |Z|=1, n=32`,
+the strong rank targets are:
+
+```text
+generic:  r=1061, entry degree 1470, minor degree <= 1559670;
+branch A: r=1057, entry degree 2127, minor degree <= 2248239;
+branch B: r=1057, entry degree 2319, minor degree <= 2451183.
+```
+
+This does not prove the rank gates; it states their bounded-degree bad-minor
+avoidance form.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_RANK_MINOR_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=37.78 maxrss=52900
+```

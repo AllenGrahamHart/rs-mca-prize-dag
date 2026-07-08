@@ -293,6 +293,11 @@ COMMANDS = [
         "H3_REPEAT_LOOSE_STEPANOV_COMPILER_PASS",
     ),
     (
+        "h3 repeat loose rank-minor compiler",
+        "f3_h3_repeat_loose_rank_minor_compiler.py",
+        "H3_REPEAT_LOOSE_RANK_MINOR_COMPILER_PASS",
+    ),
+    (
         "h3 repeat loose slope-multiplicity ledger",
         "f3_h3_repeat_loose_slope_multiplicity.py",
         "H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY_PASS",

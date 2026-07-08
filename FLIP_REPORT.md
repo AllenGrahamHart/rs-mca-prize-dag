@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=40.37 maxrss=52876
+elapsed=37.78 maxrss=52900
 ```
 
 ## Confidence-ranked claims
@@ -204,7 +204,9 @@ elapsed=40.37 maxrss=52876
    `S_a,S_total=(17,22)` for branch A and `(19,24)` for branch B; the generic
    two-parameter denominator compiler gives `S_a=7`, `S_b=7`, `S_total=15`.
    The loose Stepanov compiler packages these as three named missing gates:
-   `LOOSE-GEN-RANK/NV`, `LOOSE-A-RANK/NV`, and `LOOSE-B-RANK/NV`.
+   `LOOSE-GEN-RANK/NV`, `LOOSE-A-RANK/NV`, and `LOOSE-B-RANK/NV`.  The
+   rank-minor compiler turns the strong rank form into bounded-degree
+   bad-minor avoidance targets for those three gates.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

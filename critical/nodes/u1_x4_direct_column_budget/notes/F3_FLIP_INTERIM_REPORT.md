@@ -971,6 +971,20 @@ LOOSE-B-RANK/NV.
 Under the corresponding gate and the strict linear-system inequality, the
 fiber count is `< |Z| L_X/D`.
 
+The loose rank-minor compiler turns the strong sufficient rank form into an
+explicit bad-minor degree problem.  For the sample box
+`P=16, C=512, B=4, D=2, |Z|=1, n=32`, the rank targets and entry-degree bounds
+are
+
+```text
+generic:  r=1061, E=1470, minor degree <= 1559670,
+branch A: r=1057, E=2127, minor degree <= 2248239,
+branch B: r=1057, E=2319, minor degree <= 2451183.
+```
+
+The remaining theorem is to exhibit rank-good minors nonzero on the repaired
+loose parameter images over the actual row fields.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -999,7 +1013,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `40.37s` locally and ends with
+It runs in about `37.78s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
