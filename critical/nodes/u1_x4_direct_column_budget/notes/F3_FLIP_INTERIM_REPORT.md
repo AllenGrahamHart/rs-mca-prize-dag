@@ -346,13 +346,39 @@ Thus boundary support is tiny in these rows, but a zero-support theorem is
 false.  The remaining target should stay a support bound, not support
 emptiness.
 
+The forced-point reduction packet gives a more structured possible support
+route.  If every active normalized triple contains a coordinate from a set
+`A <= H\{1}`, and `N_a` counts the one-variable fiber
+
+```text
+w_a(v)=1-(a-1)(v-1)/(a+v-2),
+lambda_a(v)=a+v+w_a(v)-2
+```
+
+with `v,w_a(v),lambda_a(v) in H`, then symmetry gives
+
+```text
+B_line <= 3 sum_{a in A} N_a.
+```
+
+For the nonzero boundary row `n=256,p=65537`, the common forced set is `{2}`
+and the reduction is exact:
+
+```text
+B_line = 48 = 3N_2.
+```
+
+This is finite evidence only, but it identifies another theorem route:
+prove a small forced-coordinate cover, then bound the resulting one-variable
+PGL2 fibers.
+
 The repeat-boundary chain has a focused replay:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `2.25s` locally and ends with
+It runs in about `4.30s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

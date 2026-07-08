@@ -67,6 +67,11 @@ COMMANDS = [
         "f3_h3_repeat_support_boundary_evidence.py",
         "H3_REPEAT_SUPPORT_BOUNDARY_EVIDENCE_PASS",
     ),
+    (
+        "h3 repeat-support forced-point reduction",
+        "f3_h3_repeat_support_forced_point_reduction.py",
+        "H3_REPEAT_SUPPORT_FORCED_POINT_REDUCTION_PASS",
+    ),
 ]
 
 

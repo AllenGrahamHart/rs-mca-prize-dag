@@ -4324,14 +4324,15 @@ F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 
 Result: the focused replay covers the h=2 affine coset-pair input, the h=3
 moment identity, every repeat-boundary compiler/payment/guardrail packet, the
-combined support compiler, and the boundary-style support evidence.  It does
-not launch Modal and does not run the older 55s aggregate.
+combined support compiler, the boundary-style support evidence, and the
+forced-point reduction.  It does not launch Modal and does not run the older
+55s aggregate.
 
 Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=2.25 maxrss=49904
+elapsed=4.30 maxrss=49908
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4423,4 +4424,48 @@ Focused replay:
 ```text
 H3_REPEAT_SUPPORT_BOUNDARY_EVIDENCE_PASS
 elapsed=1.07 maxrss=10752
+```
+
+## T2/T3 h=3 repeat-support forced-point reduction
+
+Stage selected: refine the nonzero boundary-support row into a structural
+support route instead of treating it as arbitrary line support.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SUPPORT_FORCED_POINT_REDUCTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_forced_point_reduction.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_forced_point_reduction.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SUPPORT_FORCED_POINT_REDUCTION_PASS
+```
+
+Result: if a forced-coordinate set `A` covers all active triples, then
+
+```text
+B_line <= 3 sum_{a in A} N_a,
+```
+
+where `N_a` is a one-variable PGL2 fiber count.  On the nonzero boundary row
+`n=256,p=65537`, every active triple contains `2`, and the reduction is exact:
+
+```text
+B_line=48, common={2}, N_2=16, 3N_2=48.
+```
+
+Focused replay:
+
+```text
+H3_REPEAT_SUPPORT_FORCED_POINT_REDUCTION_PASS
+elapsed=1.98 maxrss=11264
 ```

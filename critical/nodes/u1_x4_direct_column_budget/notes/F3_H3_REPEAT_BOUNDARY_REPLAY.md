@@ -20,7 +20,8 @@ The harness runs:
 - the `S_3` support symmetry;
 - the LP4 rank guardrail;
 - the combined support compiler;
-- the boundary-style support evidence and zero-support falsifier.
+- the boundary-style support evidence and zero-support falsifier;
+- the forced-point support reduction.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch
 Modal.

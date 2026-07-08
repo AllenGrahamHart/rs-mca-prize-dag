@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=2.25 maxrss=49904
+elapsed=4.30 maxrss=49908
 ```
 
 ## Confidence-ranked claims
@@ -93,7 +93,9 @@ elapsed=2.25 maxrss=49904
    `C=1` covers `2^38..2^41`, and `C=2` covers only `2^41`.
    Boundary-style finite evidence has tiny support but not emptiness:
    `B_line=0` at `n=16,32,64,128,512,1024` in the tested boundary rows, while
-   `n=256,p=65537` has `B_line=48` and `R_orb=8`.
+   `n=256,p=65537` has `B_line=48` and `R_orb=8`.  In that nonzero row, every
+   active triple contains the forced coordinate `2`, and `B_line=3N_2=48`,
+   suggesting a forced-coordinate/PGL2-fiber support route.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.
@@ -170,7 +172,8 @@ elapsed=2.25 maxrss=49904
    non-antipodal support universe.
 4. The h=3 repeat-boundary support is tiny on tested boundary-style rows:
    `B_line=0` for `n=16,32,64,128,512,1024`, and `B_line=48` at the nonzero
-   guardrail row `n=256,p=65537`.
+   guardrail row `n=256,p=65537`; the nonzero row is fully explained by the
+   forced coordinate `2`.
 
 ### Refuted shortcuts
 
