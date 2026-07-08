@@ -253,6 +253,11 @@ COMMANDS = [
         "H3_REPEAT_LOOSE_COORDINATE_SLOPE_DISTINCTNESS_PASS",
     ),
     (
+        "h3 repeat loose lambda-slope collisions",
+        "f3_h3_repeat_loose_lambda_slope_collisions.py",
+        "H3_REPEAT_LOOSE_LAMBDA_SLOPE_COLLISIONS_PASS",
+    ),
+    (
         "h3 repeat loose slope-multiplicity ledger",
         "f3_h3_repeat_loose_slope_multiplicity.py",
         "H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY_PASS",

@@ -19,6 +19,8 @@ def slope_multiplicity(a: int, b: int, p: int) -> dict[str, int | tuple[int, ...
     lambdas = lambda_slopes(a, b, p)
     if len(set(coords)) != 6:
         raise AssertionError((p, a, b, coords, "coordinate slopes should be distinct"))
+    if len(set(lambdas)) != 3:
+        raise AssertionError((p, a, b, lambdas, "lambda slopes should be distinct"))
     all_slopes = coords + lambdas
     multiplicities = sorted(Counter(all_slopes).values(), reverse=True)
     return {

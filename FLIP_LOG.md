@@ -6099,8 +6099,9 @@ H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY_PASS
 
 Result: the six coordinate slopes are distinct under the full normalized
 loose-system hypotheses, meaning non-poles plus distinctness of the six
-reciprocal points.  The three lambda slopes may collide.  In the contrast row,
-six ordered normalizations have nine distinct slopes and six have eight
+reciprocal points.  The lambda slopes are mutually distinct in a genuine loose
+system; remaining duplicates are lambda-coordinate collisions.  In the contrast
+row, six ordered normalizations have nine distinct slopes and six have eight
 distinct slopes with one duplicate.  Boundary guardrails have no loose slope
 patterns.
 
@@ -6149,4 +6150,53 @@ Focused replay:
 H3_REPEAT_LOOSE_COORDINATE_SLOPE_DISTINCTNESS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=19.37 maxrss=50232
+```
+
+## T2/T3 h=3 repeat loose lambda-slope collision compiler
+
+Stage selected: classify the remaining possible slope multiplicities in the
+normalized loose target.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_LAMBDA_SLOPE_COLLISIONS.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_lambda_slope_collisions.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_lambda_slope_collisions.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_LAMBDA_SLOPE_COLLISIONS_PASS
+```
+
+Result: the lambda slopes
+
+```text
+L_a, L_b, L_ab
+```
+
+are mutually distinct in a genuine normalized loose system.  The three
+lambda-lambda collision numerators factor as
+
+```text
+-(a-b)(a+b+1),  a(b-1)(a+b+1),  b(a-1)(a+b+1),
+```
+
+so every such collision violates non-poles, looseness, or six-point
+distinctness.  The only remaining multiplicity branch is
+lambda-coordinate collision, now reduced to nine explicit divisors.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_LAMBDA_SLOPE_COLLISIONS_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=34.21 maxrss=52072
 ```

@@ -20,9 +20,10 @@ The six coordinate slopes
 
 are distinct under the full normalized loose-system hypotheses: non-poles plus
 six-point distinctness.  This is the coordinate-slope distinctness packet.  The
-three lambda slopes can collide with these or with each other, so a future
-counting theorem should use the distinct slope count rather than blindly
-assuming nine distinct conditions.
+three lambda slopes are also mutually distinct in a genuine loose system; this
+is the lambda-slope collision packet.  They can still collide with coordinate
+slopes along nine explicit divisors, so a future counting theorem should use
+the distinct slope count rather than blindly assuming nine distinct conditions.
 
 ## Guardrails
 
