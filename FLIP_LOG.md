@@ -992,3 +992,41 @@ Result: the audit verifies `20` complete h=5 zero rows and
 explicit in the aggregate report: up to the largest certified primes, the bank
 misses `395` admissible primes for `n=32` and `689` for `n=64`; the `n=96` and
 `n=128` evidence remains boundary/nearby-window evidence, not a uniform theorem.
+
+## T4 h=8 x83 interface and one-exchange shell integrated replay
+
+Stage selected: integrate the existing h=8 x83 obstruction interface and the
+complete one-exchange shell check into the main lightweight F3 replay.  These
+are light enough to run locally and they are the front-end for the remaining
+support-certifier target.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_OBSTRUCTION_INTERFACE.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_NEARLIFT_SHELL.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_obstruction_interface.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H8_N64_X83_INTERFACE_PASS
+H8_N64_X83_NEARLIFT_SHELL_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the aggregate replay now checks that the paid antipodal h=8 branch is
+aligned with x83 obstructions at `p in {193,4289,262337}`, deterministic
+non-antipodal samples have no full zero at the two boundary-style primes, and
+the complete one-exchange shell around the seven paid supports at each of
+`p=4289,262337` has `full_zero=0`.  The radius-two shell remains a separate
+heavier replay, not part of the aggregate.

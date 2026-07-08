@@ -157,6 +157,22 @@ COMMANDS = [
         "H8_RESIDUAL_FRONTIER_AUDIT_PASS",
     ),
     (
+        "h8 x83 obstruction interface",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_obstruction_interface.py",
+        ],
+        "H8_N64_X83_INTERFACE_PASS",
+    ),
+    (
+        "h8 x83 one-exchange shell",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py",
+        ],
+        "H8_N64_X83_NEARLIFT_SHELL_PASS",
+    ),
+    (
         "h8 support universe compiler",
         [
             sys.executable,

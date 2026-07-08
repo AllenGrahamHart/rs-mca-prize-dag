@@ -190,6 +190,13 @@ The x83 radius-three shells at `p=4289` and `p=262337` are complete and have
 `full_zero = 0`.  The support-to-trade reduction is proved on banked rows: a
 support-level x83 certificate is enough to recover the trade split.
 
+The x83 obstruction interface and the one-exchange shell are now also in the
+aggregate replay.  The interface verifies that all paid antipodal lifts are
+x83-zero at `p in {193,4289,262337}` and that deterministic non-antipodal
+samples at `p=4289,262337` have no full zero.  The one-exchange shell checks
+`5,376` supports around each paid branch at both boundary-style primes, again
+with `full_zero = 0`.
+
 The remaining support universe is now exactly compiled.  Anchored 16-supports
 with exponent `0` have size
 
