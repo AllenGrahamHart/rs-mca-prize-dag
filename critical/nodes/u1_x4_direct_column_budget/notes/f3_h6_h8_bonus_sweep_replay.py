@@ -103,6 +103,50 @@ def require_h6_n64_certificate(row: dict) -> None:
         raise AssertionError(row)
 
 
+def require_h6_n64_extra_certificate(rows: list[dict]) -> None:
+    expected_primes = [4481, 4673, 4801, 4993, 5441, 5569]
+    expected_nontoral = {
+        4481: 0,
+        4673: 0,
+        4801: 0,
+        4993: 6,
+        5441: 0,
+        5569: 0,
+    }
+    if [row.get("p") for row in rows] != expected_primes:
+        raise AssertionError(rows)
+    for row in rows:
+        p = row["p"]
+        expected = {
+            "name": f"boundary_n64_h6_p{p}_SHARDED_CPP",
+            "n": 64,
+            "h": 6,
+            "W": 64,
+            "shards": 16,
+            "shards_completed": 16,
+            "hashed_per_shard": 7028847,
+            "probed": 67945521,
+            "anchored_toral_trades": 0,
+            "anchored_nontoral_trades": expected_nontoral[p],
+            "partial": False,
+            "complete": True,
+            "direct_n3_exceeded": False,
+        }
+        for key, value in expected.items():
+            if row.get(key) != value:
+                raise AssertionError((p, key, row.get(key), value, row))
+        shards = row.get("rows")
+        if not isinstance(shards, list) or len(shards) != 16:
+            raise AssertionError((p, shards))
+        if [item.get("shard") for item in shards] != list(range(16)):
+            raise AssertionError((p, shards))
+        if sum(item.get("probed", 0) for item in shards) != row["probed"]:
+            raise AssertionError((p, row))
+        witness_count = len(row.get("witnesses", []))
+        if witness_count != expected_nontoral[p]:
+            raise AssertionError((p, witness_count, row))
+
+
 def main() -> None:
     loaded = {filename: load_rows(filename) for filename in FULL_ZERO_ROWS}
     full_count = 0
@@ -124,9 +168,14 @@ def main() -> None:
         require_h8_full_certificate(row, row["p"])
     h6_n64 = json.loads((NOTES / "f3_h6_n64_boundary_certificate.json").read_text())
     require_h6_n64_certificate(h6_n64)
+    h6_n64_extra = json.loads(
+        (NOTES / "f3_h6_n64_extra_primes_certificate.json").read_text()
+    )
+    require_h6_n64_extra_certificate(h6_n64_extra)
 
     print(f"h=6/h=7 full zero rows verified: {full_count}")
     print("h=6 n64 full anchored certificates verified: 1")
+    print("h=6 n64 extra full anchored sweeps verified: 6 (p4993 has 6 nontoral, below n^3)")
     print("h=8 full anchored certificates verified: 6")
     print(f"h=8 partial zero slices remaining: {len(PARTIAL_H8_ROWS)}")
     print("H6_H8_BONUS_SWEEP_PASS")

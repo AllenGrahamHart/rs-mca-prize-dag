@@ -18,6 +18,7 @@ N = 64
 H = 6
 P = 4289
 SHARDS = 16
+EXTRA_PRIMES = (4481, 4673, 4801, 4993, 5441, 5569)
 
 ROOT = Path(os.environ.get(
     "F3_PRIZE_ROOT",
@@ -25,6 +26,7 @@ ROOT = Path(os.environ.get(
 ))
 NOTES = ROOT / "critical/nodes/u1_x4_direct_column_budget/notes"
 OUT = NOTES / "f3_h6_n64_boundary_certificate.json"
+EXTRA_OUT = NOTES / "f3_h6_n64_extra_primes_certificate.json"
 
 CPP = r'''
 #include <algorithm>
@@ -48,6 +50,13 @@ struct Record {
     uint64_t mask;
     uint32_t last;
     bool toral;
+};
+
+struct Witness {
+    uint64_t left_mask;
+    uint64_t right_mask;
+    uint32_t left_last;
+    uint32_t right_last;
 };
 
 static uint64_t mod_pow(uint64_t a, uint64_t e) {
@@ -172,6 +181,7 @@ int main() {
     uint64_t probed = 0;
     uint64_t toral = 0;
     uint64_t nontoral = 0;
+    std::vector<Witness> witnesses;
     std::vector<int> right;
     combinations(1, 63, H, right, [&](const std::vector<int>& r) {
         if (r[0] % SHARDS != SHARD) return;
@@ -188,8 +198,14 @@ int main() {
         for (auto it = lo; it != hi; ++it) {
             if (it->last == sig.last) continue;
             if (it->mask & rmask) continue;
-            if (it->toral && rtoral) ++toral;
-            else ++nontoral;
+            if (it->toral && rtoral) {
+                ++toral;
+            } else {
+                ++nontoral;
+                if (witnesses.size() < 8) {
+                    witnesses.push_back(Witness{it->mask, rmask, it->last, sig.last});
+                }
+            }
         }
     });
 
@@ -198,7 +214,7 @@ int main() {
 
     std::cout
         << "{"
-        << "\"n\":64,\"h\":6,\"p\":4289,\"W\":64,"
+        << "\"n\":64,\"h\":6,\"p\":" << P << ",\"W\":64,"
         << "\"shards\":16,\"shard\":" << SHARD << ","
         << "\"partial\":true,\"complete\":false,"
         << "\"hashed\":" << hashed << ","
@@ -207,6 +223,19 @@ int main() {
         << "\"anchored_nontoral_trades\":" << nontoral << ","
         << "\"direct_n3_budget\":" << (64*64*64) << ","
         << "\"direct_n3_exceeded\":" << (nontoral > 64ull*64ull*64ull ? "true" : "false")
+        << ",\"witnesses\":[";
+    for (size_t i = 0; i < witnesses.size(); ++i) {
+        if (i) std::cout << ",";
+        std::cout
+            << "{"
+            << "\"left_mask\":" << witnesses[i].left_mask << ","
+            << "\"right_mask\":" << witnesses[i].right_mask << ","
+            << "\"left_last\":" << witnesses[i].left_last << ","
+            << "\"right_last\":" << witnesses[i].right_last
+            << "}";
+    }
+    std::cout
+        << "]"
         << "}" << std::endl;
     return 0;
 }
@@ -222,18 +251,27 @@ def expected_probe_count(shard: int) -> int:
 
 
 @app.function(image=image, cpu=4, memory=4096, timeout=60)
-def shard_certificate(shard: int) -> dict:
+def shard_certificate(job) -> dict:
     import json
     import subprocess
     import tempfile
     import time
     from pathlib import Path
 
+    if isinstance(job, int):
+        p, shard = P, job
+    else:
+        p, shard = job
+
     with tempfile.TemporaryDirectory(prefix="f3_h6_n64_") as tmp:
         tmp_path = Path(tmp)
         src = tmp_path / "cert.cpp"
         exe = tmp_path / "cert"
-        src.write_text(CPP.replace("static constexpr int SHARD = 0;", f"static constexpr int SHARD = {shard};"))
+        src.write_text(
+            CPP
+            .replace("static constexpr int P = 4289;", f"static constexpr int P = {p};")
+            .replace("static constexpr int SHARD = 0;", f"static constexpr int SHARD = {shard};")
+        )
         t0 = time.monotonic()
         subprocess.run(["g++", "-O3", "-std=c++17", str(src), "-o", str(exe)], check=True)
         proc = subprocess.run([str(exe)], check=True, text=True, capture_output=True)
@@ -243,7 +281,7 @@ def shard_certificate(shard: int) -> dict:
     return row
 
 
-def aggregate(rows: list[dict]) -> dict:
+def aggregate(rows: list[dict], p: int = P, expect_zero: bool = True) -> dict:
     rows = sorted(rows, key=lambda row: row["shard"])
     shards_seen = [row["shard"] for row in rows]
     if shards_seen != list(range(SHARDS)):
@@ -252,7 +290,7 @@ def aggregate(rows: list[dict]) -> dict:
         expected = {
             "n": N,
             "h": H,
-            "p": P,
+            "p": p,
             "W": N,
             "shards": SHARDS,
             "hashed": math.comb(N - 1, H - 1),
@@ -266,10 +304,10 @@ def aggregate(rows: list[dict]) -> dict:
                 raise AssertionError((key, row.get(key), value, row))
 
     out = {
-        "name": "boundary_n64_h6_p4289_SHARDED_CPP",
+        "name": f"boundary_n64_h6_p{p}_SHARDED_CPP",
         "n": N,
         "h": H,
-        "p": P,
+        "p": p,
         "W": N,
         "shards": SHARDS,
         "shards_completed": len(rows),
@@ -282,27 +320,57 @@ def aggregate(rows: list[dict]) -> dict:
         "direct_n3_budget": N**3,
         "direct_n3_exceeded": any(row["direct_n3_exceeded"] for row in rows),
         "max_elapsed_sec": max(row["elapsed_sec"] for row in rows),
+        "witnesses": [
+            {"shard": row["shard"], **witness}
+            for row in rows
+            for witness in row.get("witnesses", [])
+        ],
         "rows": rows,
     }
     expected = {
         "probed": math.comb(N - 1, H),
-        "anchored_toral_trades": 0,
-        "anchored_nontoral_trades": 0,
         "direct_n3_exceeded": False,
     }
     for key, value in expected.items():
         if out.get(key) != value:
             raise AssertionError((key, out.get(key), value, out))
+    if expect_zero:
+        for key, value in {
+            "anchored_toral_trades": 0,
+            "anchored_nontoral_trades": 0,
+        }.items():
+            if out.get(key) != value:
+                raise AssertionError((key, out.get(key), value, out))
     return out
 
 
 @app.local_entrypoint()
 def main():
-    rows = [
-        row for row in shard_certificate.map(range(SHARDS), return_exceptions=True)
-        if isinstance(row, dict)
-    ]
-    out = aggregate(rows)
-    OUT.write_text(json.dumps(out, indent=2, sort_keys=True) + "\n")
-    print(json.dumps({k: v for k, v in out.items() if k != "rows"}, sort_keys=True))
-    print("H6_N64_BOUNDARY_CERTIFICATE_PASS")
+    mode = os.environ.get("F3_H6_N64_MODE", "base")
+    if mode not in {"base", "extra"}:
+        raise ValueError("F3_H6_N64_MODE must be base or extra")
+
+    if mode == "base":
+        rows = [
+            row for row in shard_certificate.map(range(SHARDS), return_exceptions=True)
+            if isinstance(row, dict)
+        ]
+        out = aggregate(rows)
+        OUT.write_text(json.dumps(out, indent=2, sort_keys=True) + "\n")
+        print(json.dumps({k: v for k, v in out.items() if k != "rows"}, sort_keys=True))
+        print("H6_N64_BOUNDARY_CERTIFICATE_PASS")
+        return
+
+    results = []
+    for p in EXTRA_PRIMES:
+        rows = [
+            row for row in shard_certificate.map(
+                [(p, shard) for shard in range(SHARDS)], return_exceptions=True
+            )
+            if isinstance(row, dict)
+        ]
+        out = aggregate(rows, p=p, expect_zero=False)
+        results.append(out)
+        print(json.dumps({k: v for k, v in out.items() if k != "rows"}, sort_keys=True))
+    EXTRA_OUT.write_text(json.dumps(results, indent=2, sort_keys=True) + "\n")
+    print("H6_N64_EXTRA_PRIMES_SWEEP_DONE")

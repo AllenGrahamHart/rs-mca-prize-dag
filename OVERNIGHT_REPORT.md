@@ -1986,3 +1986,12 @@ timeouts.  The complete aggregate checks `67945521` right subsets with
 zero anchored nontoral trades, and no `n^3` alarm.  Max shard elapsed time was
 `10.634s`.  The aggregate h6/h8 replay now requires this JSON certificate and
 still reports the two remaining h=8 n=64 slices as partial evidence.
+
+Continuation h=6 falsifier update: the extra-prime `n=64,h=6` Modal sweep now
+certifies `p=4481,4673,4801,4993,5441,5569`.  The `p=4993` row has exactly `6`
+anchored nontoral witnesses, all decoded in
+`f3_h6_n64_extra_primes_certificate.py`; the other five rows are zero.  This
+refutes the stronger h=6 finite-row emptiness heuristic, but it is still far
+below the direct-column budget (`6` versus `n^3=262144`).  The repaired h=6
+target is a small/budgeted norm-gate accident statement, not universal
+emptiness.

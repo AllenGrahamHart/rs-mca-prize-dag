@@ -1,8 +1,9 @@
 # F3 h=6/7/8 bonus sweep status
 
-Status: VERIFIED-AT-ROWS + FULL H6 N64 CERTIFICATE + SIX FULL H8 N32
-CERTIFICATES + HONEST REMAINING H8 PARTIALS.  This is bonus item (ii) after
-Terminals A/B/C: sweep `h = 6,7,8` with the ladder machinery.
+Status: VERIFIED-AT-ROWS + FULL H6 N64 CERTIFICATE + H6 N64 EXTRA-PRIME
+FALSIFIER ROW + SIX FULL H8 N32 CERTIFICATES + HONEST REMAINING H8 PARTIALS.
+This is bonus item (ii) after Terminals A/B/C: sweep `h = 6,7,8` with the
+ladder machinery.
 
 This pass consolidates the existing Modal artifacts, adds one new complete
 Modal-sharded h=6 n=64 certificate, and separates full certificates from
@@ -50,7 +51,7 @@ smooth_n32_h6_p65537        zero, full
 smooth_n32_h7_p65537        zero, full
 ```
 
-New complete h=6 n=64 row:
+New complete h=6 n=64 boundary row:
 
 ```text
 boundary_n64_h6_p4289_SHARDED_CPP  complete anchored certificate:
@@ -60,6 +61,28 @@ boundary_n64_h6_p4289_SHARDED_CPP  complete anchored certificate:
 The certificate is in `f3_h6_n64_boundary_certificate.json`; it is produced by
 `f3_h6_n64_boundary_modal.py` and locally verified by
 `f3_h6_n64_boundary_certificate.py`.
+
+Extra complete h=6 n=64 prime sweep:
+
+```text
+boundary_n64_h6_p4481_SHARDED_CPP  complete anchored certificate:
+                                    toral=0, nontoral=0, partial=False
+boundary_n64_h6_p4673_SHARDED_CPP  complete anchored certificate:
+                                    toral=0, nontoral=0, partial=False
+boundary_n64_h6_p4801_SHARDED_CPP  complete anchored certificate:
+                                    toral=0, nontoral=0, partial=False
+boundary_n64_h6_p4993_SHARDED_CPP  complete anchored certificate:
+                                    toral=0, nontoral=6, partial=False,
+                                    no n^3 alarm
+boundary_n64_h6_p5441_SHARDED_CPP  complete anchored certificate:
+                                    toral=0, nontoral=0, partial=False
+boundary_n64_h6_p5569_SHARDED_CPP  complete anchored certificate:
+                                    toral=0, nontoral=0, partial=False
+```
+
+The certificate is in `f3_h6_n64_extra_primes_certificate.json`; it is produced
+by `F3_H6_N64_MODE=extra f3_h6_n64_boundary_modal.py` and locally verified by
+`f3_h6_n64_extra_primes_certificate.py`.
 
 Upgraded complete h=8 rows:
 
@@ -91,12 +114,14 @@ q3_n64_h8                   zero in checked slice, partial=True
 
 ## Interpretation
 
-The h=6/h=7 rows continue the pattern from the shallow ladder: no primitive
-residue appears in the q>=n^2 boundary/smooth tests.  The h=6 evidence now
-includes a complete `n=64` row at the first boundary prime above `n^2`.  The
-n=32 h=8 boundary rows meet the same complete anchored standard at six primes.
-The n=64 h=8 rows do not yet meet that standard because the runs were sliced by
-the 60-second Modal budget.
+The h=6/h=7 rows mostly continue the pattern from the shallow ladder, but the
+extra-prime h=6 n=64 sweep finds a real p-selected primitive residue at
+`p=4993`.  This falsifies the stronger finite-row emptiness heuristic for h=6.
+It does not threaten the direct-column floor: `6 << n^3 = 262144`, and the
+correct h=6 target is now a small/budgeted norm-gate accident statement rather
+than universal emptiness.  The n=32 h=8 boundary rows meet the same complete
+anchored standard at six primes.  The n=64 h=8 rows do not yet meet that
+standard because the runs were sliced by the 60-second Modal budget.
 
 Next h=8 action:
 
@@ -111,7 +136,10 @@ explicit norm-gate keys.
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.py
 ~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
+F3_H6_N64_MODE=extra ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 ```
 
@@ -120,5 +148,7 @@ Expected digest:
 ```text
 H6_H8_BONUS_SWEEP_PASS
 H6_N64_BOUNDARY_CERTIFICATE_JSON_PASS
+H6_N64_EXTRA_PRIMES_SWEEP_VERIFY_PASS
 H6_N64_BOUNDARY_CERTIFICATE_PASS
+H6_N64_EXTRA_PRIMES_SWEEP_DONE
 ```
