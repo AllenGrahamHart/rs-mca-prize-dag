@@ -424,13 +424,33 @@ subcubically, and a constant-size cover pays it quadratically.  This reduces
 the forced route to proving a small forced-coordinate cover; `FF-RANK/FF-NV`
 is only needed if one wants sharper fiber constants or sublinear `N_a`.
 
+The forced-cover crossover compiler shows the official-row constant pressure.
+For a cover size `F`, the sufficient condition is simply
+
+```text
+n > 72F + 18.
+```
+
+Consequences:
+
+```text
+F=64:       covers 2^13..2^41
+F=128:      covers 2^14..2^41
+F=1024:     covers 2^17..2^41
+F<=sqrt(n): covers 2^13..2^41
+F<=n^(2/3): covers 2^19..2^41
+```
+
+Thus the forced-coordinate route can tolerate covers much larger than constant
+size; any substantially sublinear cover is enough asymptotically.
+
 The repeat-boundary chain has a focused replay:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `4.98s` locally and ends with
+It runs in about `4.75s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

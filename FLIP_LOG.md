@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=4.98 maxrss=50036
+elapsed=4.75 maxrss=50100
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4556,4 +4556,51 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_FIBER_DEGREE_BOUND_PASS
 elapsed=0.35 maxrss=49888
+```
+
+## T3 h=3 repeat forced-cover crossover
+
+Stage selected: translate the elementary forced-fiber degree bound into
+official-row constant pressure for possible forced-coordinate covers.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_COVER_CROSSOVER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_cover_crossover.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_cover_crossover.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_FORCED_COVER_CROSSOVER_PASS
+```
+
+Result: if a forced-coordinate cover has size `F`, then
+
+```text
+repeat_residue <= (72F+18)n^2.
+```
+
+Representative official coverage:
+
+```text
+F=64:            2^13..2^41
+F=128:           2^14..2^41
+F=1024:          2^17..2^41
+F<=ceil(sqrt n): 2^13..2^41
+F<=ceil(n^(2/3)): 2^19..2^41
+```
+
+Focused replay:
+
+```text
+H3_REPEAT_FORCED_COVER_CROSSOVER_PASS
+elapsed=0.01 maxrss=10624
 ```

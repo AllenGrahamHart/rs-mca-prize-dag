@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=4.98 maxrss=50036
+elapsed=4.75 maxrss=50100
 ```
 
 ## Confidence-ranked claims
@@ -100,7 +100,9 @@ elapsed=4.98 maxrss=50036
    is its rank/nonvanishing gate `FF-RANK/FF-NV`.  Independently, the
    elementary degree bound `N_a <= 2n` proves that a forced-coordinate cover of
    size `F` gives `B_line <= 6Fn`; a sublinear forced cover would already pay
-   the repeat residue subcubically.
+   the repeat residue subcubically.  The forced-cover crossover is strong:
+   `F <= ceil(sqrt(n))` covers every official row, and
+   `F <= ceil(n^(2/3))` covers `2^19..2^41`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

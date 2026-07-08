@@ -82,6 +82,11 @@ COMMANDS = [
         "f3_h3_repeat_forced_fiber_degree_bound.py",
         "H3_REPEAT_FORCED_FIBER_DEGREE_BOUND_PASS",
     ),
+    (
+        "h3 repeat forced-cover crossover",
+        "f3_h3_repeat_forced_cover_crossover.py",
+        "H3_REPEAT_FORCED_COVER_CROSSOVER_PASS",
+    ),
 ]
 
 
