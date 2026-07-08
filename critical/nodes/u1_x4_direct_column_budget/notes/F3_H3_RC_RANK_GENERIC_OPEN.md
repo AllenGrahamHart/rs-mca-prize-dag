@@ -104,6 +104,11 @@ model family in the same toy box.  This proves nonemptiness of the degree-2
 rank-good open set; it still does not prove that the actual F3
 signature-curve parameter image lands inside it.
 
+The generic-open replay consumes this as a pinned input from
+`F3_H3_RICH_CURVE_RANK_SAMPLE.md`.  In the aggregate replay, the rank-sample
+verifier runs earlier and is the authoritative exact matrix check; the
+generic-open verifier does not recompute the same heavy degree-2 rank.
+
 ## Remaining Theorem
 
 The useful next theorem is now sharply stated:

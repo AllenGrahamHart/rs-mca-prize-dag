@@ -2798,6 +2798,14 @@ default aggregate replay remains under the cap but is now close, passing in
 `53.61s` locally (`maxrss=98752`); future aggregate additions should replace or
 merge checks rather than simply adding runtime.
 
+Follow-up runtime repair: the degree-2 random rank is now consumed as a pinned
+input from `F3_H3_RICH_CURVE_RANK_SAMPLE.md` instead of being recomputed inside
+the generic-open verifier.  The aggregate replay still checks that exact rank
+through the rank-sample packet before the generic-open packet runs.  The
+standalone generic-open replay is back down to `2.92s` locally
+(`maxrss=18688`), and the default aggregate replay passes in `43.86s` locally
+(`maxrss=98664`).
+
 ## T1/T2 h=3 private-linear compiler guard
 
 Stage selected: audit whether a private-linear rank theorem would be strong
