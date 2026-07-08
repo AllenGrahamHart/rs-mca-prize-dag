@@ -1,0 +1,195 @@
+{
+  "core": [
+    0,
+    1,
+    65
+  ],
+  "n": 96,
+  "total_shapes": 129766,
+  "norm_exception_count": 957,
+  "activation_exception_count": 14,
+  "activation_exceptions": [
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        5,
+        53,
+        73
+      ],
+      "activation_primes": [
+        37633
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        7,
+        55,
+        77
+      ],
+      "activation_primes": [
+        67777
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        11,
+        22,
+        70
+      ],
+      "activation_primes": [
+        207073
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        13,
+        23,
+        71
+      ],
+      "activation_primes": [
+        67777
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        13,
+        61,
+        89
+      ],
+      "activation_primes": [
+        37633
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        16,
+        64,
+        95
+      ],
+      "activation_primes": [
+        10177
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        23,
+        28,
+        76
+      ],
+      "activation_primes": [
+        40897
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        25,
+        29,
+        77
+      ],
+      "activation_primes": [
+        37633
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        29,
+        31,
+        79
+      ],
+      "activation_primes": [
+        20929
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        31,
+        32,
+        80
+      ],
+      "activation_primes": [
+        10177
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        37,
+        41,
+        85
+      ],
+      "activation_primes": [
+        37633
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        38,
+        43,
+        86
+      ],
+      "activation_primes": [
+        207073
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        44,
+        55,
+        92
+      ],
+      "activation_primes": [
+        40897
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        65,
+        47,
+        61,
+        95
+      ],
+      "activation_primes": [
+        20929
+      ]
+    }
+  ]
+}

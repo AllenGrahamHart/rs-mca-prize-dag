@@ -174,7 +174,7 @@ here counts on two floors.
 
 ## 5. THE OVERNIGHT LOOP
 
-Repeat until MORNING (never stop early — completing a terminal advances
+Repeat until MORNING (never stop early -- completing a terminal advances
 you to the next queue item, it does not end the night):
 1. Pick the highest-priority open stage (A1 -> A2 -> A3 -> A4 -> A5,
    with B stages interleaved if A blocks).
@@ -189,7 +189,7 @@ you to the next queue item, it does not end the night):
    (ii) sweep h = 6, 7, 8 with the ladder machinery (new censuses,
    pullback decode, norm-gate certificates); (iii) POSE the h=3 per-row
    accident bound precisely (the Stepanov target: the h=3 analogue of
-   HBK) with the auxiliary-polynomial ansatz written out — this is the
+   HBK) with the auxiliary-polynomial ansatz written out -- this is the
    final missing piece of the F3-green path and even a clean POSE is
    valuable.
 5. Every ~2 hours, append a timestamped progress entry to
