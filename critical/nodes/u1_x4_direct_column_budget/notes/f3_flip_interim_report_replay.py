@@ -309,6 +309,14 @@ COMMANDS = [
         "H8_ROTATION_ORBIT_COMPILER_PASS",
     ),
     (
+        "h8 non-antipodal aperiodicity",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_nonantipodal_aperiodic.py",
+        ],
+        "H8_NONANTIPODAL_APERIODIC_PASS",
+    ),
+    (
         "h8 exponent-unit falsifier",
         [
             sys.executable,

@@ -470,9 +470,12 @@ to
 7,633,233,227,520
 ```
 
-rotation orbits.  This is an average factor of about `16` below the anchored
-non-antipodal support count, so rotation canonicalization alone is not a
-feasible global certifier.
+rotation orbits.  The non-antipodal aperiodicity packet proves this is not
+hiding a separate periodic branch: any 16-support fixed by a nontrivial
+rotation is necessarily antipodal, because its stabilizer contains the
+half-turn.  Therefore every non-antipodal orbit has size `64`, and the
+anchored non-antipodal count is exactly `16` times the rotation-orbit count.
+Rotation canonicalization alone is still not a feasible global certifier.
 
 The tempting larger exponent-unit quotient is refuted.  At `p=193`, a banked
 x83 full-zero support maps under `e -> 3e mod 64` to a support with obstruction

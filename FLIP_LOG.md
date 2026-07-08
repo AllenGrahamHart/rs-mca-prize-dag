@@ -2983,3 +2983,33 @@ these operations preserve the `RC-RANK` inequality.  This is not a proof of
 reparametrizations.  Standalone replay passes in `0.07s` locally
 (`maxrss=12928`).  The default aggregate replay passes with this packet
 included in `41.63s` locally (`maxrss=98780`).
+
+## T4 h=8 non-antipodal aperiodicity
+
+Stage selected: remove a possible periodic subcase from the h=8 n=64 support
+residual.  The rotation-orbit compiler already counts non-antipodal support
+orbits; this packet proves that every such orbit is genuinely aperiodic.
+
+New packet:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_NONANTIPODAL_APERIODIC.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_nonantipodal_aperiodic.py
+```
+
+Result: if a 16-support in `Z/64Z` is fixed by a nonzero rotation, its
+stabilizer order divides `16`; the stabilizer therefore contains the unique
+half-turn by `32`.  Thus every rotation-periodic 16-support is antipodal.
+Contrapositively, non-antipodal 16-supports have trivial rotation stabilizer.
+
+The exact count identity is now:
+
+```text
+122,131,731,640,320 = 16 * 7,633,233,227,520.
+```
+
+So the h=8 n=64 primitive support certifier can target aperiodic
+non-antipodal rotation orbits directly; periodic supports are antipodal and
+fall under the paid quotient ledger.  Standalone replay passes in `0.02s`
+locally (`maxrss=10624`).  The default aggregate replay passes with this
+packet included in `41.87s` locally (`maxrss=98804`).
