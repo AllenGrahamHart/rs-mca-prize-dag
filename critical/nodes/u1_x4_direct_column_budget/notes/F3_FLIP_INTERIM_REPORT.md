@@ -118,6 +118,25 @@ pay the exact sixfold ordering multiplicity before quotienting activated
 triple-pairs.  This is a local counting identity, not the global
 rank-capacity batching theorem.
 
+The h=3 moment bookkeeping packet pins the T2 identity used by the older
+moment program.  For the ordered-triple moment
+
+```text
+M = #{(x,y) in H^3 x H^3 : sum(x)=sum(y), sum(x^2)=sum(y^2)},
+```
+
+one has exactly
+
+```text
+M = trivial + 72 T_3 + repeat_residue,
+trivial = 36 binom(n,3) + 9 n(n-1) + n.
+```
+
+The factor `72` is `2*6*6` from unordered disjoint distinct triple-pairs.  The
+`repeat_residue` term consists of same-signature multiset-pairs where at least
+one side has a repeated entry; the replay finds it nonzero on small rows, so a
+moment-form proof must bound or pay it rather than dropping it.
+
 The dilation-lift packet justifies the normalization factor in the activation
 compiler.  If `A_3(n,p)` counts activated unordered shape-pair orbits modulo
 common multiplication by `H`, then the raw unnormalized shape-pair count is at

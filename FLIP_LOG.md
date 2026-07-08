@@ -3825,6 +3825,49 @@ The verifier constructs the symbolic normal-form coefficient matrix for small
 does not prove nonvanishing; it sharpens `F3-PRIVATE-LINEAR-RANK-AVOID` to
 bounded-degree minor avoidance over the actual row field.
 
+## T2 h=3 moment bookkeeping identity
+
+Stage selected: isolate the exact ordered-triple moment identity named in the
+h=3 Stepanov-swing program.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_MOMENT_BOOKKEEPING_IDENTITY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_moment_bookkeeping_identity.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_moment_bookkeeping_identity.py
+```
+
+Expected digest:
+
+```text
+H3_MOMENT_BOOKKEEPING_IDENTITY_PASS
+```
+
+Result: for the ordered-triple moment
+
+```text
+M = #{(x,y) in H^3 x H^3 : sum(x)=sum(y), sum(x^2)=sum(y^2)},
+```
+
+the exact identity is
+
+```text
+M = trivial + 72 T_3 + repeat_residue,
+trivial = 36 binom(n,3) + 9 n(n-1) + n.
+```
+
+The factor `72` is `2*6*6` from an unordered disjoint pair of distinct-entry
+triples.  The repeat residue is real: the focused replay gets nonzero
+`repeat_residue` on `(p,n)=(97,16),(97,32),(193,64)`.  Therefore a moment-form
+h=3 proof must bound or pay this term instead of replacing `M-trivial` by
+`72T_3`.
+
 ## Replay maintenance: aggregate after Mobius/rank-interface changes
 
 The default aggregate replay still passes under the 60 second cap after the
