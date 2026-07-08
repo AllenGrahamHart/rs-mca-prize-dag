@@ -6991,3 +6991,53 @@ H3_REPEAT_SAME_LAMBDA_BRANCH_ASSEMBLY_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=41.39 maxrss=53264
 ```
+
+## T2/T3 h=3 repeat star refined assembly
+
+Stage selected: connect the new branch gates back to the strict
+repeat-boundary star route without conflating paid exceptional ledgers with
+`tau_coord<=1`.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_STAR_REFINED_ASSEMBLY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_refined_assembly.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_refined_assembly.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_STAR_REFINED_ASSEMBLY_PASS
+```
+
+Result: the strict branch-level route has seven primitive gates:
+
+```text
+H3-VALUE-GEN-INJECTIVE,
+H3-VALUE-SCALE-INJECTIVE,
+H3-SLOPE-GG-HIT,
+H3-SLOPE-MIXED-HIT,
+LOOSE-GEN-RANK/NV,
+LOOSE-A-RANK/NV,
+LOOSE-B-RANK/NV.
+```
+
+These imply the coarse five-gate star route and hence
+`repeat_residue <= 90n^2`.  The scale-pair bound and loose-secondary `53n`
+payment are recorded as count-route ledgers, not as premises for the strict
+`tau_coord<=1` theorem.
+
+Focused replay:
+
+```text
+H3_REPEAT_STAR_REFINED_ASSEMBLY_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=41.74 maxrss=53260
+```

@@ -77,6 +77,19 @@ remains: the repeat-boundary star route is closed by exactly the five open
 gates listed above.  Proving them would pay the repeat residue quadratically
 on all official rows.
 
+The refined assembly packet expands the two coarse disjoint-edge gates into
+branch gates:
+
+```text
+H3-VALUE-GEN-INJECTIVE,
+H3-VALUE-SCALE-INJECTIVE,
+H3-SLOPE-GG-HIT,
+H3-SLOPE-MIXED-HIT.
+```
+
+It also records the scale and loose-secondary count ledgers separately from
+the strict `tau_coord<=1` route.
+
 ## Replay
 
 Standalone:

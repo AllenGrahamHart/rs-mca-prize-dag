@@ -1028,6 +1028,18 @@ repeat_residue <= 90n^2,
 ```
 
 which is below `n^3` for every official row `n=2^s`, `13 <= s <= 41`.
+The refined assembly expands the two disjoint-edge gates into four strict
+branch gates:
+
+```text
+H3-VALUE-GEN-INJECTIVE,
+H3-VALUE-SCALE-INJECTIVE,
+H3-SLOPE-GG-HIT,
+H3-SLOPE-MIXED-HIT.
+```
+
+It keeps the `lambda=1` scale-pair count and the loose-secondary `53n` payment
+as separate count-route ledgers, not as premises for `tau_coord<=1`.
 
 For the first of those gates, the orbit-domain compiler gives the explicit
 off-orbit exclusions and the same-lambda degree compiler gives the raw
@@ -1089,7 +1101,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `41.39s` locally and ends with
+It runs in about `41.74s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

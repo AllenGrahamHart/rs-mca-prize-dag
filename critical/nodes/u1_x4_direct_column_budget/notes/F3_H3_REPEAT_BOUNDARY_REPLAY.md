@@ -77,6 +77,7 @@ The harness runs:
 - the loose Stepanov compiler;
 - the loose rank-minor compiler;
 - the star conditional assembly compiler;
+- the star refined assembly compiler;
 - the loose slope-multiplicity ledger.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch
