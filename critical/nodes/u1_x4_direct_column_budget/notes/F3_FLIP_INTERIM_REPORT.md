@@ -487,13 +487,33 @@ Thus the elementary payment is
 This certifies the nonzero boundary row by the forced-coordinate route, while
 leaving the uniform small-hitting theorem open.
 
+The forced-coordinate-2 normal form explains the singleton hitter.  For the
+forced-fiber maps
+
+```text
+w_a(v)=1-(a-1)(v-1)/(a+v-2),
+lambda_a(v)=a+v+w_a(v)-2,
+```
+
+the specialization `a=2` gives
+
+```text
+w_2(v)=v^{-1},
+lambda_2(v)=v+v^{-1}.
+```
+
+Thus every active edge hit by `2` is of the inverse-pair form
+`{2,v,v^{-1}}`, with `v+v^{-1} in H`.  In the nonzero boundary row this
+accounts for all eight active coordinate edges and gives `N_2=16`,
+`B_line=3N_2=48`.
+
 The repeat-boundary chain has a focused replay:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `8.60s` locally and ends with
+It runs in about `9.70s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

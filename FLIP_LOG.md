@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=8.60 maxrss=50096
+elapsed=9.70 maxrss=50100
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4702,5 +4702,55 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=8.60 maxrss=50096
+elapsed=9.70 maxrss=50100
+```
+
+## T2/T3 h=3 repeat forced-coordinate-2 normal form
+
+Stage selected: explain the singleton hitter `{2}` by an algebraic normal
+form rather than treating it as only a finite accident.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_TWO_NORMAL_FORM.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_two_normal_form.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_two_normal_form.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
+```
+
+Result: when the forced coordinate is `2`,
+
+```text
+w_2(v)=v^{-1},     lambda_2(v)=v+v^{-1}.
+```
+
+So every active edge hit by `2` has inverse-pair form `{2,v,v^{-1}}`.  On the
+nonzero boundary row `n=256,p=65537`, all eight active coordinate edges are of
+this form and
+
+```text
+N_2=16, B_line=48=3N_2.
+```
+
+This keeps the next structural target concrete: prove that the active
+non-q0 support is hit by `2`, or isolate a small exceptional hitting set for
+edges not hit by `2`.
+
+Focused replay:
+
+```text
+H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=9.70 maxrss=50100
 ```

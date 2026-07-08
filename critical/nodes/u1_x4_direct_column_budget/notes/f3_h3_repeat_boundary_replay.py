@@ -97,6 +97,11 @@ COMMANDS = [
         "f3_h3_repeat_coordinate_hitting_ledger.py",
         "H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS",
     ),
+    (
+        "h3 repeat forced-coordinate-2 normal form",
+        "f3_h3_repeat_forced_two_normal_form.py",
+        "H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS",
+    ),
 ]
 
 

@@ -26,7 +26,8 @@ The harness runs:
 - the elementary forced-fiber degree bound;
 - the forced-cover crossover table;
 - the coordinate-cover ledger;
-- the coordinate-hitting ledger.
+- the coordinate-hitting ledger;
+- the forced-coordinate-2 normal form.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch
 Modal.

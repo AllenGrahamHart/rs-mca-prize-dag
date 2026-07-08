@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=8.60 maxrss=50096
+elapsed=9.70 maxrss=50100
 ```
 
 ## Confidence-ranked claims
@@ -107,7 +107,9 @@ elapsed=8.60 maxrss=50096
    `C_coord=17`, giving a cover-bound above `n^3`.  The sharper invariant is
    the minimum coordinate hitting number `tau_coord`; on that row the active
    hypergraph has `tau_coord=1` with hitter `{2}`, giving
-   `(72*1+18)256^2 < 256^3`.
+   `(72*1+18)256^2 < 256^3`.  The `2`-hit cell has the exact inverse-pair
+   normal form `{2,v,v^{-1}}` with `v+v^{-1} in H`; in the same row this gives
+   `N_2=16` and `B_line=3N_2=48`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

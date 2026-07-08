@@ -73,7 +73,8 @@ The elementary payment is therefore
 
 This certifies the nonzero boundary row by the forced-coordinate route.  It
 does not prove a uniform small hitting theorem; that remains the structural
-target.
+target.  The forced-coordinate-2 normal-form packet further identifies these
+eight edges as inverse-pair edges `{2,v,v^{-1}}`.
 
 ## Role in h=3
 
