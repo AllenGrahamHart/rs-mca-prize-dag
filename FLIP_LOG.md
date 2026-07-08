@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.33 maxrss=50108
+elapsed=17.36 maxrss=50024
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4702,7 +4702,7 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.33 maxrss=50108
+elapsed=17.36 maxrss=50024
 ```
 
 ## T2/T3 h=3 repeat forced-coordinate-2 normal form
@@ -4752,7 +4752,7 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.33 maxrss=50108
+elapsed=17.36 maxrss=50024
 ```
 
 ## T2/T3 h=3 repeat hitting exception scan
@@ -4796,7 +4796,7 @@ Focused replay:
 ```text
 H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.33 maxrss=50108
+elapsed=17.36 maxrss=50024
 ```
 
 ## T2/T3 h=3 repeat singleton-hitting stress
@@ -4854,7 +4854,7 @@ Focused replay:
 ```text
 H3_REPEAT_SINGLETON_HITTING_STRESS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.33 maxrss=50108
+elapsed=17.36 maxrss=50024
 ```
 
 ## T2/T3 h=3 repeat star-obstruction compiler
@@ -4897,5 +4897,47 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.33 maxrss=50108
+elapsed=17.36 maxrss=50024
+```
+
+## T2/T3 h=3 repeat edge reciprocal form
+
+Stage selected: put the star-obstruction target into a symmetric algebraic
+normal form.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_EDGE_RECIPROCAL_FORM.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_edge_reciprocal_form.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_edge_reciprocal_form.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_EDGE_RECIPROCAL_FORM_PASS
+```
+
+Result: setting `x=u-1`, `y=v-1`, `z=w-1`, the active edge condition is
+equivalent to
+
+```text
+xy+xz+yz=0,    lambda=1+x+y+z in H.
+```
+
+This turns a four-edge star obstruction into a concrete system of shifted
+reciprocal triples with no common unshifted coordinate.
+
+Focused replay:
+
+```text
+H3_REPEAT_EDGE_RECIPROCAL_FORM_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=17.36 maxrss=50024
 ```

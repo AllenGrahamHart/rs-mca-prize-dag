@@ -543,13 +543,25 @@ intersection: choose one edge `{a,b,c}` and one further edge missing each of
 `a,b,c`.  Therefore proving singleton hitting is the same as ruling out this
 four-edge obstruction in the boundary-style incidence variety.
 
+The reciprocal edge normal form gives the equations for that incidence
+problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
+
+```text
+xy+xz+yz=0,
+lambda=1+x+y+z in H.
+```
+
+Conversely, with nonzero shifted coordinates, this equation recovers the
+repeat-boundary formula.  Thus a star obstruction is a four-row system of
+shifted reciprocal triples with no common unshifted coordinate.
+
 The repeat-boundary chain has a focused replay:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `16.33s` locally and ends with
+It runs in about `17.36s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.33 maxrss=50108
+elapsed=17.36 maxrss=50024
 ```
 
 ## Confidence-ranked claims
@@ -80,6 +80,9 @@ elapsed=16.33 maxrss=50108
    an explicit four-affine-form line-pencil membership count.  The associated
    LP4 Stepanov compiler has reduced-condition gate `LP4-RED(5)`; the missing
    theorem is now the named `LP4-RANK/LP4-NV` line-pencil nonvanishing gate.
+   Equivalently, active coordinate edges have the shifted reciprocal form
+   `xy+xz+yz=0` for `x=u-1,y=v-1,z=w-1`, with
+   `lambda=1+x+y+z in H`.
    The special triple-repeat cell `r^2+r+1=0` is already paid by the h=2
    coset-pair Stepanov corollary: `B_q0 <= 132 n^(2/3)`.  Every fixed
    non-q0 line fiber also has the h=2 cap `T_r <= 66 n^(2/3)`, reducing the

@@ -14,6 +14,7 @@ The harness runs:
 - the h=3 moment bookkeeping identity;
 - the repeat-residue boundary compiler;
 - the repeat-boundary line compiler;
+- the shifted reciprocal edge normal form;
 - the LP4 Stepanov compiler;
 - the q0 cell payment;
 - the fixed-fiber cap;
