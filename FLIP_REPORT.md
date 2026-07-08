@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=42.48 maxrss=53128
+elapsed=42.61 maxrss=53476
 ```
 
 ## Confidence-ranked claims
@@ -154,7 +154,9 @@ elapsed=42.48 maxrss=53128
    `z,1/z,-(1+z),-1/(1+z),-(1+z)/z,-z/(1+z)`, so the target is uniqueness
    of an admissible ratio orbit, with `lambda=1` handled by the primitive-cube
    scale branch.  That special branch is exactly the scale condition
-   `{1+x,1+omega x,1+omega^2 x} subset H`, modulo `x -> omega x`.  Thus
+   `{1+x,1+omega x,1+omega^2 x} subset H`, modulo `x -> omega x`; it has
+   `K_1 <= floor((n-1)/3)` admissible scale orbits and fewer than `n^2`
+   scale collision pairs on every official row.  Thus
    same-`lambda` failure is now exactly either two admissible generic ratio
    orbits for one lambda or two admissible `lambda=1` scale orbits.  The
    off-orbit condition is explicit: the generic diagonal divisors are
@@ -220,7 +222,8 @@ elapsed=42.48 maxrss=53128
    The same-lambda orbit-domain and degree compilers now give the
    `H3-VALUE-INJECTIVE` collision budgets: generic `S_total=14` plus
    off-orbit product total degree `10`, and lambda-one scale `S_total=6` plus
-   scale exclusion `x^3-y^3 != 0`.
+   scale exclusion `x^3-y^3 != 0`; the scale branch also has the direct
+   collision-pair bound `binom(floor((n-1)/3),2)`.
    The slope-miss degree compiler now gives the generic `H3-SLOPE-RATIO-HIT`
    miss budget: six membership maps with `S_total=14`, and cleared hit
    numerator factors of total degrees `15,13,13`.  The mixed generic/scale

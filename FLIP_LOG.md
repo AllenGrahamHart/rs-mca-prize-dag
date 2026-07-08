@@ -6904,3 +6904,46 @@ H3_REPEAT_LOOSE_SECONDARY_PAYMENT_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=42.48 maxrss=53128
 ```
+
+## T2/T3 h=3 repeat same-lambda scale count
+
+Stage selected: bound the exceptional `lambda=1` same-lambda scale branch
+directly in count/payment routes.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_SCALE_COUNT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_scale_count.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_scale_count.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SAME_LAMBDA_SCALE_COUNT_PASS
+```
+
+Result: if a primitive cube root exists, the number of admissible
+`lambda=1` scale orbits is bounded by
+
+```text
+K_1 <= floor((n-1)/3).
+```
+
+Therefore scale same-lambda collision pairs are bounded by
+`binom(floor((n-1)/3),2)`, which is below `n^2` on every official row.  If no
+primitive cube root exists, the scale branch is empty.
+
+Focused replay:
+
+```text
+H3_REPEAT_SAME_LAMBDA_SCALE_COUNT_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=42.61 maxrss=53476
+```

@@ -26,6 +26,7 @@ The harness runs:
 - the lambda-ratio membership compiler;
 - the lambda-ratio orbit compiler;
 - the lambda=1 scale compiler;
+- the same-lambda scale-count compiler;
 - the same-lambda collision-system compiler;
 - the same-lambda orbit-domain compiler;
 - the same-lambda degree compiler;

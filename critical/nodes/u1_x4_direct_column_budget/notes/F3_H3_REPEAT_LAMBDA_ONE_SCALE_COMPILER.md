@@ -69,6 +69,16 @@ lambda = 1:
 This prevents the generic ratio-line theorem from carrying the special
 `Phi_1(r)=r^3` branch as a hidden exceptional case.
 
+The scale-count compiler adds the direct bound
+
+```text
+K_1 <= floor((n-1)/3)
+```
+
+for the number of admissible `lambda=1` scale orbits, hence
+`binom(floor((n-1)/3),2)` same-lambda scale collision pairs in count/payment
+routes.
+
 ## Replay
 
 Standalone:
