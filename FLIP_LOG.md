@@ -3686,3 +3686,53 @@ the standard degree-`A-1` binary-form representation under `PGL_2`.  The
 cleared substitution rank is therefore unchanged.  This means changing the
 base point on a nondegenerate same-fiber conic changes only the parametrization
 and not the `RC-RANK` target.
+
+## T1 h=3 private-linear PGL2 normal form
+
+Stage selected: use source-Mobius rank invariance to reduce the private-linear
+rank-avoidance target to its essential parameters.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_PGL2_NORMAL_FORM.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_pgl2_normal_form.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_pgl2_normal_form.py
+```
+
+Expected digest:
+
+```text
+H3_PRIVATE_LINEAR_PGL2_NORMAL_FORM_PASS
+```
+
+Result: for a private-linear triple
+
+```text
+r_i(X)=(X-alpha_i)/(X-beta_i),
+```
+
+with distinct zero/pole points, the source transformation
+
+```text
+T(X)=((X-alpha_1)/(X-beta_1))
+     /((alpha_2-alpha_1)/(alpha_2-beta_1))
+```
+
+sends `alpha_1,beta_1,alpha_2` to `0,infinity,1`.  After target scalings the
+triple is
+
+```text
+Y,        (Y-1)/(Y-lambda),        (Y-eta)/(Y-theta).
+```
+
+The verifier checks this value identity over `F_97,F_193,F_769` and checks, in
+the small rank model, that the original and normal-form triples have the same
+cleared substitution rank.  This does not prove private-linear `RC-RANK`; it
+reduces the finite-row bad-minor avoidance problem to the explicit
+three-parameter normal-form family.

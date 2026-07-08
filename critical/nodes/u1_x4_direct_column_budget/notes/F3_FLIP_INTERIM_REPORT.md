@@ -388,6 +388,24 @@ multi-index columns.  Thus `RC-RANK` is unchanged by these normalizations.  This
 lets the eventual `F3-RANK-AVOID` theorem quotient repaired representatives by
 source Mobius changes and the listed target operations.
 
+The private-linear PGL2 normal-form packet applies that invariance to the
+alternate rank route.  Any repaired private-linear triple
+
+```text
+(X-alpha_i)/(X-beta_i),    i=1,2,3,
+```
+
+with distinct zero/pole points can be source-normalized and target-rescaled to
+
+```text
+Y,        (Y-1)/(Y-lambda),        (Y-eta)/(Y-theta).
+```
+
+Thus the private-linear rank-avoidance theorem may be posed on the explicit
+three-parameter normal-form space `(lambda,eta,theta)`.  The bad-minor
+avoidance over the actual row fields is still open; this only removes
+extraneous `PGL_2` coordinates from that target.
+
 The private-linear compiler guard prevents a wrong shortcut from this point.
 All current official non-diagonal h=3 bridge witnesses use the degree-2
 denominator room `A + 6n(B-1)`: for every row `s=13..41`, the per-curve
