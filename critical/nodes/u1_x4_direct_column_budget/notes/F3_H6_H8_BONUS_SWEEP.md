@@ -1,6 +1,6 @@
 # F3 h=6/7/8 bonus sweep status
 
-Status: VERIFIED-AT-ROWS + ONE FULL H8 CERTIFICATE + HONEST REMAINING H8
+Status: VERIFIED-AT-ROWS + THREE FULL H8 N32 CERTIFICATES + HONEST REMAINING H8
 PARTIALS.  This is bonus item (ii) after Terminals A/B/C: sweep `h = 6,7,8`
 with the ladder machinery.
 
@@ -14,7 +14,8 @@ Success criterion for this pass:
 
 - verify every existing full h=6/h=7 boundary/smooth row has zero anchored
   nontoral trades and no `n^3` alarm;
-- verify the upgraded `n=32,h=8,p=1153` complete anchored certificate;
+- verify the upgraded `n=32,h=8,p in {1153,3137,12289}` complete anchored
+  certificates;
 - verify remaining h=8 rows are present but marked partial, with no alarm in
   the checked slices;
 - state the next h=8 action without promoting partial evidence.
@@ -49,15 +50,20 @@ smooth_n32_h6_p65537        zero, full
 smooth_n32_h7_p65537        zero, full
 ```
 
-Upgraded complete h=8 row:
+Upgraded complete h=8 rows:
 
 ```text
-boundary_n32_h8_p1153_FULL  complete anchored certificate:
-                             toral=3, nontoral=0, partial=False
+boundary_n32_h8_p1153_FULL   complete anchored certificate:
+                              toral=3, nontoral=0, partial=False
+boundary_n32_h8_p3137_FULL   complete anchored certificate:
+                              toral=3, nontoral=0, partial=False
+boundary_n32_h8_p12289_FULL  complete anchored certificate:
+                              toral=3, nontoral=0, partial=False
 ```
 
-The certificate is in `f3_h8_n32_full_certificate.json` and is produced by
-`f3_h8_n32_full_certificate.py`.
+The certificates are in `f3_h8_n32_full_certificate.json` and
+`f3_h8_n32_multirow_certificate.json`; they are produced by
+`f3_h8_n32_full_certificate.py` and `f3_h8_n32_multirow_certificate.py`.
 
 Remaining h=8 partial rows:
 
@@ -69,9 +75,10 @@ q3_n64_h8                   zero in checked slice, partial=True
 ## Interpretation
 
 The h=6/h=7 rows continue the pattern from the shallow ladder: no primitive
-residue appears in the q>=n^2 boundary/smooth tests.  The smallest h=8 row now
-meets the same complete anchored standard.  The n=64 h=8 rows do not yet meet
-that standard because the runs were sliced by the 60-second Modal budget.
+residue appears in the q>=n^2 boundary/smooth tests.  The n=32 h=8 boundary
+rows now meet the same complete anchored standard at three primes.  The n=64
+h=8 rows do not yet meet that standard because the runs were sliced by the
+60-second Modal budget.
 
 Next h=8 action:
 

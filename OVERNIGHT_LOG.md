@@ -4681,8 +4681,17 @@ H6_H8_BONUS_SWEEP_PASS
 
 Result: `boundary_n32_h8_p1153_FULL` is now complete with `3` paid toral
 anchored trades and `0` anchored nontoral trades over all `2629575` left
-subsets and `7888725` right subsets.  Remaining h=8 partials are the two
-`n=64` rows.
+subsets and `7888725` right subsets.  Follow-up multirow replay extends the
+same complete certificate to `p=3137` and `p=12289`:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_multirow_certificate.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_multirow_certificate.json
+```
+
+Digest: `H8_N32_MULTIROW_CERTIFICATE_PASS`.
+
+Remaining h=8 partials are the two `n=64` rows.
 
 ## 2026-07-08 Bonus queue: h=3 per-row accident Stepanov pose
 

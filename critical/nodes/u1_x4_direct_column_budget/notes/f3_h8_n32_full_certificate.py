@@ -186,8 +186,8 @@ int main() {
 
     std::cout
         << "{"
-        << "\"name\":\"boundary_n32_h8_p1153_FULL_CPP\","
-        << "\"n\":32,\"h\":8,\"p\":1153,\"W\":32,"
+        << "\"name\":\"boundary_n32_h8_p" << P << "_FULL_CPP\","
+        << "\"n\":32,\"h\":8,\"p\":" << P << ",\"W\":32,"
         << "\"partial\":false,\"complete\":true,"
         << "\"hashed\":" << hashed << ","
         << "\"probed\":" << probed << ","
@@ -201,12 +201,14 @@ int main() {
 '''
 
 
-def main() -> None:
+def run_certificate(p: int) -> dict:
     with tempfile.TemporaryDirectory(prefix="f3_h8_n32_") as tmp:
         tmp_path = Path(tmp)
         src = tmp_path / "cert.cpp"
         exe = tmp_path / "cert"
-        src.write_text(CPP)
+        src.write_text(
+            CPP.replace("static constexpr int P = 1153;", f"static constexpr int P = {p};")
+        )
         subprocess.run(
             ["g++", "-O3", "-std=c++17", str(src), "-o", str(exe)],
             check=True,
@@ -218,8 +220,13 @@ def main() -> None:
             capture_output=True,
         )
 
-    result = json.loads(proc.stdout)
+    return json.loads(proc.stdout)
+
+
+def main() -> None:
+    result = run_certificate(1153)
     expected = {
+        "p": 1153,
         "hashed": 2629575,
         "probed": 7888725,
         "anchored_toral_trades": 3,

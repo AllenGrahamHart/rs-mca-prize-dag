@@ -1,6 +1,6 @@
 # F3 h=8 n=32 full anchored certificate
 
-Status: MACHINE-VERIFIED COMPLETE ROW CERTIFICATE.
+Status: MACHINE-VERIFIED COMPLETE ROW CERTIFICATES.
 
 This note upgrades the smallest h=8 partial row from
 `F3_H6_H8_BONUS_SWEEP.md`:
@@ -10,14 +10,21 @@ boundary_n32_h8_p1153_FULL
 ```
 
 The old Modal artifact had `partial=True`; the new replay is a complete
-anchored MITM certificate for the same row.
+anchored MITM certificate for the same row.  A multirow replay extends the same
+certificate to boundary primes `p=3137` and `p=12289`.
 
 ## Scope
 
-Row:
+Base row:
 
 ```text
 n = 32, h = 8, p = 1153, W = 32.
+```
+
+Extended rows:
+
+```text
+n = 32, h = 8, p in {1153, 3137, 12289}, W = 32.
 ```
 
 Object:
@@ -46,20 +53,25 @@ Thus the previous h=8 `n=32,p=1153` partial zero slice is upgraded to a full
 zero anchored nontoral certificate.  The three toral anchored trades are paid
 `mu_8` coset trades.
 
+The multirow replay gives the same result at `p=3137` and `p=12289`.
+
 ## Replay
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_full_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_multirow_certificate.py
 ```
 
 Expected digest:
 
 ```text
 H8_N32_FULL_CERTIFICATE_PASS
+H8_N32_MULTIROW_CERTIFICATE_PASS
 ```
 
 The replay writes:
 
 ```text
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_full_certificate.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_multirow_certificate.json
 ```

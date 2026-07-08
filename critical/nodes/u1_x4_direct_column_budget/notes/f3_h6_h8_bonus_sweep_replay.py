@@ -55,11 +55,11 @@ def require_zero_partial(row: dict) -> None:
         raise AssertionError(("n3 alarm", row))
 
 
-def require_h8_full_certificate(row: dict) -> None:
+def require_h8_full_certificate(row: dict, p: int = 1153) -> None:
     expected = {
         "n": 32,
         "h": 8,
-        "p": 1153,
+        "p": p,
         "W": 32,
         "hashed": 2629575,
         "probed": 7888725,
@@ -87,10 +87,15 @@ def main() -> None:
     for name in PARTIAL_H8_ROWS:
         require_zero_partial(a1[name])
     h8_full = json.loads((NOTES / "f3_h8_n32_full_certificate.json").read_text())
-    require_h8_full_certificate(h8_full)
+    require_h8_full_certificate(h8_full, 1153)
+    h8_multi = json.loads((NOTES / "f3_h8_n32_multirow_certificate.json").read_text())
+    if [row["p"] for row in h8_multi] != [1153, 3137, 12289]:
+        raise AssertionError(h8_multi)
+    for row in h8_multi:
+        require_h8_full_certificate(row, row["p"])
 
     print(f"h=6/h=7 full zero rows verified: {full_count}")
-    print("h=8 full anchored certificates verified: 1")
+    print("h=8 full anchored certificates verified: 3")
     print(f"h=8 partial zero slices remaining: {len(PARTIAL_H8_ROWS)}")
     print("H6_H8_BONUS_SWEEP_PASS")
 
