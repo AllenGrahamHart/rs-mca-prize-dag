@@ -3450,3 +3450,35 @@ control where ratio collapse is detected.
 
 This is standalone only; it is not added to the default aggregate while that
 replay sits at `elapsed=59.43`.
+
+## Replay maintenance: slim h=3 generic-open check
+
+Stage selected: recover default aggregate replay margin after the h=3 compiler
+support packets pushed the runner close to the 60 second cap.
+
+Changed files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_GENERIC_OPEN.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
+```
+
+Result: the generic-open verifier now consumes the private-linear rank `293`
+as a pinned input from `F3_H3_RICH_CURVE_RANK_STRESS.md`, just as it already
+consumed the degree-2 full-rank witness `320` from the rank-sample packet.  In
+the aggregate replay, the rank-stress and rank-sample scripts remain the
+authoritative exact matrix checks; the generic-open script only verifies the
+minor-open reduction arithmetic and capacity consequences.
+
+Focused replay:
+
+```text
+H3_RC_RANK_GENERIC_OPEN_PASS
+```
+
+Default aggregate replay after slimming:
+
+```text
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+elapsed=56.51 maxrss=98836
+```

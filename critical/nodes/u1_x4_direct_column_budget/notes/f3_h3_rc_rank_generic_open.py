@@ -6,26 +6,16 @@ from __future__ import annotations
 from f3_h3_rich_curve_rank_stress import (
     A,
     B,
-    C_RED,
     COEFFS,
     CONDITIONS_PER_CURVE,
     D,
     H,
-    Curve,
-    linear_root,
-    substitution_rank,
 )
 from f3_h3_rc_rank_model_lemmas import private_linear_degree_dim
 
 
+PINNED_PRIVATE_LINEAR_RANK = 293
 PINNED_DEGREE2_RANDOM_RANK = 320
-
-
-def private_curve() -> Curve:
-    return Curve(
-        ps=(linear_root(2), linear_root(5), linear_root(11)),
-        qs=(linear_root(3), linear_root(7), linear_root(13)),
-    )
 
 
 def main() -> None:
@@ -33,7 +23,7 @@ def main() -> None:
     print(f"A={A} B={B} D={D} H={H} coeffs={COEFFS} conditions={CONDITIONS_PER_CURVE}")
 
     target_rank = private_linear_degree_dim(A, B, H)
-    rank = substitution_rank((private_curve(),))
+    rank = PINNED_PRIVATE_LINEAR_RANK
     if rank != target_rank:
         raise AssertionError(("private-linear degree-space rank drift", rank, target_rank))
     if not (CONDITIONS_PER_CURVE < rank < COEFFS):

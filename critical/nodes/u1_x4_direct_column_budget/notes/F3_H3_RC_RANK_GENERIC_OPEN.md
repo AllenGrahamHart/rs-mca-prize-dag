@@ -88,6 +88,11 @@ This agrees with the rank-effective bridge packet and again shows why
 duplicate curve images must be charged by capacity rather than raw
 multiplicity.
 
+The generic-open replay consumes this rank as a pinned input from
+`F3_H3_RICH_CURVE_RANK_STRESS.md`; in the aggregate replay, the rank-stress
+verifier is the authoritative exact matrix check.  The generic-open verifier
+does not recompute that heavy private-linear rank matrix.
+
 ## Degree-2 Nonemptiness Witness
 
 The current h=3 non-diagonal compiler uses the degree-2 denominator room, so
