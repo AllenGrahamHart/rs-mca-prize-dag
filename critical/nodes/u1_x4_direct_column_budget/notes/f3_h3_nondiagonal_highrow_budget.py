@@ -66,6 +66,32 @@ EXPECTED_ROWS = (
         26_009,
         66_329_097,
     ),
+    Row(
+        40,
+        5_889,
+        8_568,
+        17_590_768_413_224,
+        52_646_612,
+        32_766,
+        105_282_429,
+        17_593_232_129_504,
+        52_646_329,
+        32_768,
+        105_286_398,
+    ),
+    Row(
+        41,
+        7_420,
+        10_795,
+        35_181_655_729_287,
+        83_561_961,
+        41_285,
+        167_135_696,
+        35_185_566_705_913,
+        83_573_750,
+        41_284,
+        167_128_551,
+    ),
 )
 
 
@@ -95,7 +121,7 @@ def main() -> None:
             f" {row.bound:14d} {target:14d} {row.next_bound:15d}"
         )
 
-    print("maximality check: new_Z passes and new_Z+1 fails for s=36..39")
+    print("maximality check: new_Z passes and new_Z+1 fails for s=36..41")
     print("conditional conclusion: high-row non-diagonal boxes further enlarge H3-BRIDGE budgets")
     print("H3_NONDIAGONAL_HIGHROW_BUDGET_PASS")
 

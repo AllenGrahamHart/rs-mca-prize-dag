@@ -1266,11 +1266,11 @@ Expected digest:
 H3_NONDIAGONAL_HIGHROW_BUDGET_PASS
 ```
 
-Result: for `s=36..39`, exact non-diagonal optimization with `B <= 50000`
+Result: for `s=36..41`, exact non-diagonal optimization with `B <= 50000`
 raises the bridge budgets
 
 ```text
-2337,2944,3710,4674 -> 3400,4284,5397,6800.
+2337,2944,3710,4674,5889,7420 -> 3400,4284,5397,6800,8568,10795.
 ```
 
 The optional verifier checks a passing witness at the improved `Z` and an

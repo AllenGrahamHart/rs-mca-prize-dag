@@ -4,17 +4,17 @@ Status: OPTIONAL CONDITIONAL ARITHMETIC COMPILER, NOT `RC-RANK` AND NOT
 `H3-ACT`.
 
 This packet extends the non-diagonal bridge-budget pass from
-`F3_H3_NONDIAGONAL_LOWROW_BUDGET.md` to the next high official rows
-`s = 36..39`.  It is intentionally not included in the aggregate interim replay:
-the default gate is already close to the local 60-second comfort limit, and
-this optional check is useful without making that gate heavier.
+`F3_H3_NONDIAGONAL_LOWROW_BUDGET.md` to the high official rows `s = 36..41`.
+It is intentionally not included in the aggregate interim replay: the default
+gate is already close to the local 60-second comfort limit, and this optional
+check is useful without making that gate heavier.
 
 ## Pre-registration
 
 Question:
 
 ```text
-For s = 36..39, do the same non-diagonal Stepanov boxes enlarge the conditional
+For s = 36..41, do the same non-diagonal Stepanov boxes enlarge the conditional
 bridge family size |Z| under RC-RED(13) + RC-RANK?
 ```
 
@@ -42,11 +42,13 @@ s=36: 2337 -> 3400
 s=37: 2944 -> 4284
 s=38: 3710 -> 5397
 s=39: 4674 -> 6800
+s=40: 5889 -> 8568
+s=41: 7420 -> 10795
 ```
 
 For each row, the verifier checks that the improved `Z` passes and `Z+1` fails
 inside the stated non-diagonal search box.  By monotonicity in `Z`, this proves
-maximality inside `B <= 50000` for these four high rows.
+maximality inside `B <= 50000` for these six high rows.
 
 ## Interpretation
 

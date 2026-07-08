@@ -176,7 +176,7 @@ This reduces the low/middle-row batching burden but still remains conditional
 on the same two open h=3 gates: `RC-RANK` and the actual geometric batching
 theorem.
 
-An optional high-row packet extends the same non-diagonal search to `s=36..39`
+An optional high-row packet extends the same non-diagonal search to `s=36..41`
 without adding it to the aggregate replay:
 
 ```text
@@ -184,6 +184,8 @@ s=36: 2337 -> 3400
 s=37: 2944 -> 4284
 s=38: 3710 -> 5397
 s=39: 4674 -> 6800
+s=40: 5889 -> 8568
+s=41: 7420 -> 10795
 ```
 
 The optional replay again checks a pinned passing witness at the improved `Z`
