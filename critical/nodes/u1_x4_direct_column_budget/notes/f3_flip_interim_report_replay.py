@@ -45,6 +45,14 @@ COMMANDS = [
         "H3_RICH_CURVE_REDUCED_CONDITION_COMPILER_PASS",
     ),
     (
+        "h3 rich-curve log-jet reduction",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_logjet_reduction.py",
+        ],
+        "H3_RICH_CURVE_LOGJET_REDUCTION_PASS",
+    ),
+    (
         "h3 activation-bound compiler",
         [
             sys.executable,

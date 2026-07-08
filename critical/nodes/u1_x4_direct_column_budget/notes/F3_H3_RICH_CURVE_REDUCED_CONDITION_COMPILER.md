@@ -1,35 +1,36 @@
 # F3 h=3 rich-curve reduced-condition compiler
 
-Status: CONDITIONAL ARITHMETIC COMPILER, NOT THE T1 THEOREM.
+Status: ARITHMETIC COMPILER WITH RC-RED SUPPLIED, NOT THE T1 THEOREM.
 
 This packet isolates the exact coefficient-count arithmetic that would turn a
 repaired h=3 rich-curve Stepanov lemma into a usable incidence bound.  It is
-the analogue of the h=2 linear-system and degree steps, with the two genuinely
-mathematical gates left explicit.
+the analogue of the h=2 linear-system and degree steps.  The reduced-condition
+gate is now supplied by `F3_H3_RICH_CURVE_LOGJET_REDUCTION.md`; the remaining
+mathematical gate is nonvanishing (`RC-NV`).
 
 ## Pre-registration
 
 Question:
 
 ```text
-Assuming the repaired nondegenerate signature curves admit an HBK-style
-reduced derivative condition count, what exact inequalities are needed to
-force the rich-curve degree contradiction?
+Using the proved log-jet reduced derivative condition count, what exact
+inequalities are needed to force the rich-curve degree contradiction?
 ```
 
 Success criterion:
 
-- state the conditional compiler using the denominator bound already proved;
-- keep the missing reduced-condition and nonvanishing gates explicit;
+- state the compiler using the denominator bound already proved;
+- consume the proved reduced-condition constant;
+- keep the missing nonvanishing gate explicit;
 - verify the integer inequalities in deterministic parameter rows.
 
 Failure criterion:
 
-- the compiler hides the reduced-condition lemma as if it were proved;
+- the compiler uses a reduced-condition constant not supplied by replayed proof;
 - the degree formula disagrees with `F3_H3_RICH_CURVE_DENOMINATOR_COMPILER.md`;
 - a sample row marked admissible violates the coefficient or degree inequality.
 
-## Conditional gates
+## Reduced-condition input
 
 Let `Z` be a family of repaired nondegenerate degree-2 rational signature
 curves
@@ -54,24 +55,26 @@ polynomial of degree
 L(A,B,h) = (A - 1) + 6 h (B - 1).
 ```
 
-This packet assumes two open gates:
+The log-jet packet proves:
 
 ```text
-RC-RED(C_red):
+RC-RED(13):
   For each curve z and derivative order j < D, after reducing by the
   three H-membership equations r_{z,i}(X)^h = 1, the j-th multiplicity
-  condition is represented by at most C_red (A + D) independent linear
+  condition is represented by at most 13 (A + D) independent linear
   coefficient conditions.
+```
 
+This packet still assumes the open nonvanishing gate:
+
+```text
 RC-NV:
   The nonzero Phi produced by the linear system has nonzero cleared
   substitution on every repaired nondegenerate curve in Z.
 ```
 
-These are precisely the missing T1 proof gates.  `RC-RED` is the h=3 analogue
-of the h=2 fact that every derivative condition reduces to a polynomial of
-degree `< A + D` for each shift.  `RC-NV` is the h=3 sparse/nonvanishing lemma;
-it is false without the degeneracy repairs in the previous two packets.
+`RC-NV` is the h=3 sparse/nonvanishing lemma; it is false without the
+degeneracy repairs in the previous packets.
 
 ## Compiler
 
@@ -81,17 +84,17 @@ There are
 A B^3
 ```
 
-coefficients.  Under `RC-RED(C_red)`, imposing multiplicity `D` on every point
+coefficients.  Under `RC-RED(13)`, imposing multiplicity `D` on every point
 of every curve in `Z` is forced by at most
 
 ```text
-C_red D (A + D) |Z|
+13 D (A + D) |Z|
 ```
 
 linear conditions.  Therefore a nonzero auxiliary exists if
 
 ```text
-C_red D (A + D) |Z| < A B^3.                    (LS3)
+13 D (A + D) |Z| < A B^3.                       (LS3)
 ```
 
 Assuming `RC-NV`, each curve contributes at most
@@ -110,10 +113,8 @@ sum_{z in Z} T(z) < |Z| * L(A,B,h) / D.          (DEG3)
 
 This is only an arithmetic compiler.  The hard T1 content is now exactly:
 
-1. prove `RC-RED(C_red)` for repaired F3 signature curves with explicit
-   `C_red`;
-2. prove `RC-NV` after the degeneracy filters;
-3. optimize `(A,B,D)` strongly enough that `(DEG3)` beats the F3 floor at the
+1. prove `RC-NV` after the degeneracy filters;
+2. optimize `(A,B,D)` strongly enough that `(DEG3)` beats the F3 floor at the
    official rows.
 
 ## Replay

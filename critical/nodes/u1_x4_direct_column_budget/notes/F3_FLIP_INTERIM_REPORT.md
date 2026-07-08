@@ -64,13 +64,18 @@ evidence at the right scale but not a proof.  The remaining h=3 proof debt is
 exact:
 
 ```text
-RC-RED(C_red) + RC-NV    => rich-curve Stepanov theorem
+RC-RED(13)              => banked by the log-jet reduction
+RC-NV + constants       => rich-curve Stepanov theorem
 rich-curve theorem      => H3-ACT(C)
 H3-ACT(C)               => T_3 < n^3
 ```
 
-The rational norm-coprimality version should not be used; it is already
-refuted by the random norm sample.
+The reduced-condition side of the rich-curve theorem is now banked as
+`RC-RED(13)`: derivative order `j < D` is over-imposed by coefficient
+vanishing of a polynomial of degree `< A + 12D`, independent of `hB`.  The
+remaining h=3 theorem gate is `RC-NV`, the nonvanishing lemma after degeneracy
+repairs.  The rational norm-coprimality version should not be used; it is
+already refuted by the random norm sample.
 
 ### h=4
 
@@ -138,8 +143,9 @@ signature join that avoids the blind binom(63,7) left table.
 `u1_x4_direct_column_budget` cannot be promoted from `TARGET` to `PROVED` yet.
 The concrete blockers are:
 
-1. h=3: prove `H3-ACT(C)` through `RC-RED` and `RC-NV`, or replace it with a
-   complete official-row certificate family.
+1. h=3: prove `H3-ACT(C)` through the remaining `RC-NV` gate plus constants,
+   or replace it with a complete official-row certificate family.  The
+   reduced-condition gate is banked as `RC-RED(13)`.
 2. h=5: exclude or certify the p-specific x83 norm-gate branch uniformly.
 3. h=8: close the n=64 non-antipodal x83 support branch.
 

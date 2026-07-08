@@ -6,7 +6,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 
-C_RED = 4
+C_RED = 13
 
 
 @dataclass(frozen=True)
@@ -71,7 +71,7 @@ def main() -> None:
             f" {item.ls_slack:15d} {bound:20d}"
         )
 
-    print("conditional gates required: RC-RED(C_red) and RC-NV")
+    print("RC-RED supplied by log-jet reduction; remaining gate: RC-NV")
     print("H3_RICH_CURVE_REDUCED_CONDITION_COMPILER_PASS")
 
 

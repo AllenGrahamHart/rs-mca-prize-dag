@@ -603,3 +603,45 @@ blind left table.
 
 Next step: implement or specify the actual h=8 non-antipodal support
 enumerator, or return to the h=5 symbolic no-primitive theorem.
+
+## T1 h=3 rich-curve log-jet reduction
+
+Stage selected: remove one of the two named h=3 T1 gates by proving the
+reduced derivative condition count for degree-2 rational signature curves.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_LOGJET_REDUCTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_logjet_reduction.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_logjet_reduction.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_reduced_condition_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H3_RICH_CURVE_LOGJET_REDUCTION_PASS
+H3_RICH_CURVE_REDUCED_CONDITION_COMPILER_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: for `m(X)=X^a prod_i (P_i/Q_i)^(h b_i)` and
+`S=X prod_i P_i Q_i`, the recurrence
+
+```text
+W_0=1,     W_{j+1}=S W_j' + (M-jS')W_j,
+M = S d(log m)/dX
+```
+
+gives `S^j m^(j)=m W_j` and `deg W_j <= 12j` for degree-2 rational maps.
+At subgroup-admissible points, `m=X^a`, so each derivative-order condition is
+over-imposed by a polynomial of degree `< A+12D`.  This proves `RC-RED(13)`.
+The h=3 T1 wall is now the nonvanishing gate `RC-NV` plus constants, not the
+reduced-condition count.
