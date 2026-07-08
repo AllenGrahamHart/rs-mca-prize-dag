@@ -4630,3 +4630,28 @@ evidence keeps its positive control (`n=16,h=4,p=17` has 60 nontoral trades)
 and verifies zero h=4/h=5 primitive residue in the q>=n^2 test rows.  Remaining
 work: the h=5 no-primitive theorem itself, as a symbolic norm-gate exclusion or
 per-row certificate family.
+
+## 2026-07-08 Bonus queue: h=6/7/8 sweep status
+
+Stage: bonus item (ii), h=6/7/8 ladder sweep.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+```
+
+Digest: `H6_H8_BONUS_SWEEP_PASS`.
+
+Claim banked: existing f3a1/f3a2 artifacts give 11 full h=6/h=7 q>=n^2
+boundary/smooth rows with zero anchored nontoral trades and no n^3 alarm.  The
+three h=8 rows currently banked are zero only in checked slices and remain
+`partial=True`; they are useful evidence, not certificates.  Next h=8 action:
+shard-complete anchor certificates or x83 square-shift norm-gate keys.

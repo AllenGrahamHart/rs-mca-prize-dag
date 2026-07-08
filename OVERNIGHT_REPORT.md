@@ -1915,3 +1915,8 @@ verified as `PROVED` structural inputs; the existing f3a1/f3a2 rows retain the
 positive control and zero q>=n^2 h=4/h=5 residue checks.  The h=5 no-primitive
 theorem remains a norm-gate exclusion/certificate problem, not a promoted
 theorem.
+
+Bonus queue update: item (ii) has a replayed h=6/7/8 sweep status note.  It
+verifies 11 full h=6/h=7 q>=n^2 rows with zero anchored nontoral trades and no
+n^3 alarm.  The three h=8 rows are explicitly partial zero slices, so h=8 still
+needs shard-complete certificates or x83 norm-gate keys.
