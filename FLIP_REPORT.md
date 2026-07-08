@@ -77,7 +77,8 @@ No Modal job is required for the aggregate replay.
 13. Several h=3 rank guardrails are proved or replayed:
    constant-ratio collapsed rank, small-`H` failure, one-factor private-linear
    rank, two-factor failure of naive induction, finite-row bad-prime rank drop,
-   generic-open rank-minor formulation, and normalization invariance.
+   generic-open rank-minor formulation, and normalization invariance including
+   source Mobius reparametrizations.
 14. The h=3 arithmetic interfaces now cover every official row.  The current
    non-diagonal route is:
    `F3-RANK-AVOID + H3-BRIDGE-RANKCAP(Z_budget(s)) => H3-ACT(16)`.

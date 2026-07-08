@@ -81,12 +81,46 @@ def compose_affine(poly: tuple[int, ...], m: int, t: int) -> tuple[int, ...]:
     return tuple(trim(list(out)))
 
 
+def compose_mobius_deg2(
+    poly: tuple[int, ...], alpha: int, beta: int, gamma: int, delta: int
+) -> tuple[int, ...]:
+    if len(poly) > 3:
+        raise ValueError("Mobius helper is only for degree <= 2 maps")
+    coeffs = list(poly) + [0] * (3 - len(poly))
+    num = (beta % P, alpha % P)
+    den = (delta % P, gamma % P)
+    terms = (
+        scale(pow_poly(den, 2), coeffs[0]),
+        scale(mul(num, den), coeffs[1]),
+        scale(pow_poly(num, 2), coeffs[2]),
+    )
+    return add(add(terms[0], terms[1]), terms[2])
+
+
 def affine_reparametrize(curve: Curve, m: int, t: int) -> Curve:
     if m % P == 0:
         raise ValueError("affine source multiplier must be nonzero")
     return Curve(
         ps=tuple(compose_affine(poly, m, t) for poly in curve.ps),
         qs=tuple(compose_affine(poly, m, t) for poly in curve.qs),
+    )
+
+
+def mobius_reparametrize(
+    curve: Curve, alpha: int, beta: int, gamma: int, delta: int
+) -> Curve:
+    determinant = (alpha * delta - beta * gamma) % P
+    if determinant == 0:
+        raise ValueError("source Mobius matrix must be invertible")
+    return Curve(
+        ps=tuple(
+            compose_mobius_deg2(poly, alpha, beta, gamma, delta)
+            for poly in curve.ps
+        ),
+        qs=tuple(
+            compose_mobius_deg2(poly, alpha, beta, gamma, delta)
+            for poly in curve.qs
+        ),
     )
 
 
@@ -174,6 +208,7 @@ def main() -> None:
 
     cases = [
         ("source affine", affine_reparametrize(private, 2, 17)),
+        ("source Mobius", mobius_reparametrize(private, 2, 17, 5, 11)),
         ("target scaling", target_scale(private, (3, 11, 47))),
         ("target permutation", target_permute(private, (2, 0, 1))),
         ("target inversion", target_invert(private, (0, 2))),
@@ -187,6 +222,13 @@ def main() -> None:
                 (1,),
             ),
         ),
+        (
+            "combined with Mobius",
+            target_permute(
+                target_scale(mobius_reparametrize(private, 7, 13, 19, 23), (31, 37, 41)),
+                (2, 1, 0),
+            ),
+        ),
     ]
     for name, curve in cases:
         rank = substitution_rank(curve)
@@ -194,7 +236,7 @@ def main() -> None:
             raise AssertionError((name, rank, original_rank))
         print(f"{name}: rank={rank}")
 
-    print("source/target normalizations preserve RC-RANK rank")
+    print("source Mobius and target normalizations preserve RC-RANK rank")
     print("H3_RC_RANK_NORMALIZATION_INVARIANCE_PASS")
 
 

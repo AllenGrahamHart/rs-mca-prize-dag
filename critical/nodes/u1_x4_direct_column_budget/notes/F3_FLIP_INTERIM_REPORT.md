@@ -166,9 +166,14 @@ different line-through-point parametrizations, but they have the same
 projective conic image and recover the same ordered `H`-triple set after adding
 the one vertical mate.  Thus incidence bookkeeping may choose one base point
 per nonempty conic fiber; it should not pay one geometric curve image per
-ordered triple.  This does not prove Mobius-reparametrization invariance for
-the future rank theorem, so a rank proof must still fix a base-point rule or
-prove the relevant invariance separately.
+ordered triple.
+
+The rank-normalization invariance packet has now been strengthened to remove
+the remaining parametrization caveat: source Mobius reparametrizations preserve
+the cleared `RC-RANK` substitution rank after homogeneous denominator
+clearing.  Therefore changing the base point on a nondegenerate conic does not
+change the rank target.  This still does not prove the rank-good minor theorem
+itself.
 
 The pair-count compiler now makes the remaining local arithmetic explicit.
 For charts `z` with finite counts `T_z`, vertical losses `epsilon_z`, and

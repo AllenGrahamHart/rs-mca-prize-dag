@@ -5,7 +5,8 @@ Status: PROVED ALGEBRAIC NORMALIZATION LEMMA + FINITE-FIELD REPLAY.
 This packet records harmless normalizations for the h=3 rank-form
 nonvanishing target.  It does not prove `RC-RANK`; it proves that the rank
 target is unchanged by affine source coordinates, nonzero target scalings,
-target-coordinate permutations, and target-coordinate inversions.
+source Mobius reparametrizations, target-coordinate permutations, and
+target-coordinate inversions.
 
 ## Statement
 
@@ -50,6 +51,47 @@ span{(mX+t)^a : 0 <= a < A} = span{X^a : 0 <= a < A}.
 Therefore the cleared substitution image for `(r_i')` is the image of the
 original substitution space under an invertible coefficient-space map, and its
 rank is unchanged.
+
+### Source Mobius Invariance
+
+More generally, let
+
+```text
+M(X) = (alpha X + beta) / (gamma X + delta),
+alpha delta - beta gamma != 0.
+```
+
+Replace every map by `r_i(M(X))`, clearing each degree-2 numerator and
+denominator by the common factor `(gamma X + delta)^2`.  Thus, for
+`P_i(Y)=p_0+p_1Y+p_2Y^2`,
+
+```text
+P_i'(X) =
+  p_0 (gamma X + delta)^2
+  + p_1 (alpha X + beta)(gamma X + delta)
+  + p_2 (alpha X + beta)^2,
+```
+
+and similarly for `Q_i`.
+
+The product part of every cleared column acquires the same common factor
+
+```text
+(gamma X + delta)^(6H(B-1)).
+```
+
+The source factor remains harmless after homogenizing the degree `< A` source
+span.  The forms
+
+```text
+(alpha X + beta)^a (gamma X + delta)^(A-1-a),    0 <= a < A,
+```
+
+are the image of the standard degree-`A-1` binary-form basis under an
+invertible `PGL_2` change of variables, and hence span the same
+`A`-dimensional polynomial space as `{1,X,...,X^(A-1)}`.  Multiplication by
+the common nonzero denominator-clearing factor is injective.  Therefore the
+cleared substitution rank is unchanged by source Mobius reparametrization.
 
 ### Target Scaling Invariance
 
@@ -96,11 +138,13 @@ b_i -> B-1-b_i.
 ## Role in F3-RANK-AVOID
 
 The future h=3 rank-avoidance theorem may quotient or normalize repaired
-signature-curve representatives by affine source changes, nonzero coordinate
+signature-curve representatives by source Mobius changes, nonzero coordinate
 scalings, target-coordinate permutations, and target-coordinate inversions
-without changing the `RC-RANK` inequality.  This lemma does not allow arbitrary
-non-affine Mobius reparametrizations, and it does not replace the toral,
-constant-ratio, or hyperbola-line degeneracy exclusions.
+without changing the `RC-RANK` inequality.  This removes the parametrization
+caveat in the conic base-point equivalence packet: changing the base point on a
+nondegenerate same-fiber conic only Mobius-reparametrizes the source.  The
+lemma still does not replace the toral, constant-ratio, or hyperbola-line
+degeneracy exclusions.
 
 ## Replay
 

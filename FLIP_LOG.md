@@ -3647,3 +3647,41 @@ fiber.  The future bridge should not pay one geometric curve image per ordered
 triple.  This is still not a rank theorem: if `RC-RANK` depends on the exact
 rational parametrization, it needs a deterministic base-point rule or a
 separate Mobius-reparametrization invariance lemma.
+
+## T1 h=3 RC-RANK source Mobius invariance
+
+Stage selected: discharge the parametrization caveat left by the conic
+base-point equivalence packet.
+
+Changed files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_NORMALIZATION_INVARIANCE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_normalization_invariance.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_normalization_invariance.py
+```
+
+Expected digest:
+
+```text
+H3_RC_RANK_NORMALIZATION_INVARIANCE_PASS
+```
+
+Result: the rank-normalization lemma now covers full source Mobius
+reparametrizations
+
+```text
+X -> (alpha X + beta)/(gamma X + delta).
+```
+
+After clearing each degree-2 rational map by `(gamma X + delta)^2`, the common
+product denominator contributes a fixed factor, and the source monomial span is
+the standard degree-`A-1` binary-form representation under `PGL_2`.  The
+cleared substitution rank is therefore unchanged.  This means changing the
+base point on a nondegenerate same-fiber conic changes only the parametrization
+and not the `RC-RANK` target.
