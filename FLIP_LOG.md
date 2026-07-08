@@ -1162,3 +1162,34 @@ Change: the h=3 bridge-budget section now states the precise current status:
 replayed as failing in the `B_max=50000` diagonal search box, and monotonicity
 therefore gives maximality only inside that stated box.  The report still keeps
 `RC-RANK`, geometric batching, and other Stepanov parameter families as open.
+
+## T3 h=3 bridge-budget B_max stress
+
+Stage selected: test whether the current bridge budgets are merely an artifact
+of the `B_max=50000` diagonal search cap.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_bmax_stress.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_bmax_stress.py
+```
+
+Digest:
+
+```text
+H3_BRIDGE_BUDGET_BMAX_STRESS_PASS
+```
+
+Result: the stress verifier recomputes `Z_budget+1` for every official exponent
+with `B_max=500000`, and every next budget still fails.  By monotonicity in
+`Z`, no larger bridge family passes inside this ten-times-larger diagonal box.
+The closest stressed failures are `s=13,14,15,16,18`, with margins
+`6297, 9836, 22892, 51554, 53037` respectively.

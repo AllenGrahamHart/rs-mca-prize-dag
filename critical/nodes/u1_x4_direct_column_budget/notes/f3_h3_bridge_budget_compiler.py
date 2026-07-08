@@ -108,9 +108,9 @@ EXPECTED_NEXT_BOUNDS = {
 }
 
 
-def best_bound(n: int, z: int) -> int:
+def best_bound(n: int, z: int, b_max: int = B_MAX) -> int:
     best: int | None = None
-    for b in range(2, B_MAX + 1):
+    for b in range(2, b_max + 1):
         rank_cap = (1 + 6 * n * (b - 1)) // (4 * C_RED)
         ls_cap = (b**3 - 1) // (4 * C_RED * z)
         d = min(isqrt(rank_cap), ls_cap)

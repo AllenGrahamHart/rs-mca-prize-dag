@@ -87,6 +87,38 @@ This is useful because the remaining h=3 problem is now sharply split:
 
 No red node closes from this packet alone.
 
+## Optional B_max stress
+
+The aggregate replay uses `B_max=50000`.  The optional stress verifier checks
+the cheaper monotone certificate for a ten-times larger box: it recomputes only
+`Z_budget+1` for every row with `B_max=500000`.  If every next budget still
+fails, then no larger `Z` can pass inside that larger diagonal box.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_bmax_stress.py
+```
+
+Expected digest:
+
+```text
+H3_BRIDGE_BUDGET_BMAX_STRESS_PASS
+```
+
+Result: all printed next budgets still fail.  The closest stressed failures are
+
+```text
+s=13, Z=12, margin=6297
+s=14, Z=15, margin=9836
+s=15, Z=19, margin=22892
+s=16, Z=24, margin=51554
+s=18, Z=37, margin=53037
+```
+
+Thus the current `Z_budget` table is not a `B_max=50000` artifact up to this
+larger diagonal search box.
+
 ## Replay
 
 ```bash
