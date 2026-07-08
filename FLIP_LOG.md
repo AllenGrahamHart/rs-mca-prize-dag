@@ -3013,3 +3013,30 @@ non-antipodal rotation orbits directly; periodic supports are antipodal and
 fall under the paid quotient ledger.  Standalone replay passes in `0.02s`
 locally (`maxrss=10624`).  The default aggregate replay passes with this
 packet included in `41.87s` locally (`maxrss=98804`).
+
+## T1 h=3 official degeneracy ledger
+
+Stage selected: reduce the repaired h=3 rich-curve theorem statement to the
+actual official F3 rows.  The general h=3 notes keep a toral term because
+nonofficial evidence rows such as `n=96` have `3 | n`, but the prize rows are
+all powers of two.
+
+New packet:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_OFFICIAL_DEGENERACY_LEDGER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_official_degeneracy_ledger.py
+```
+
+Result: for every official row `n=2^s`, `13 <= s <= 41`,
+
+```text
+toral_bound(n) = 0.
+```
+
+Thus the official h=3 repaired rank theorem still has to exclude or pay
+constant-ratio cells and the hyperbola-line cell `b=a^2/3`, but not a toral
+budget.  This is a ledger simplification, not a proof of `RC-RANK` or the
+geometric bridge.  Standalone replay passes in `0.03s` locally
+(`maxrss=11648`).  The default aggregate replay passes with this packet
+included in `42.86s` locally (`maxrss=98780`).

@@ -82,6 +82,13 @@ Thus the `3 | q-1` rational-line cell is precisely `b=a^2/3`, where
 This is a theorem-statement repair for the bridge/rank theorem, not an
 activation-count proof.
 
+The official degeneracy ledger removes one named exception from the actual F3
+rows.  The char-zero theorem says the toral h=3 column exists only when
+`3 | n`, with count `binom(n/3,2)`.  Since every official row is `n=2^s`,
+`13 <= s <= 41`, the toral term is zero on the rows that matter for the F3
+floor.  The remaining official degeneracy cells for the repaired rank theorem
+are the constant-ratio cells and the hyperbola-line cell `b=a^2/3`.
+
 The earlier exact pair-coprimality pilot is now included in the aggregate
 replay.  On the seven-prime n=96 ladder it finds three activated shapes, each
 activating at exactly one threshold prime; the common obstruction norm factors
