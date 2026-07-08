@@ -2004,3 +2004,10 @@ single Modal timing gate before a full sweep.  h=8 n64 has `553270671` left
 records and `3872894697` right probes; the left table alone is about `16.5 GiB`
 at 32 bytes per record.  The h=8 route should therefore use square-shift/x83
 structure or a new external/sharded signature join.
+
+Continuation h=7 certificate update: the h=7 n64 gate was upgraded to a
+rank-balanced full certificate at `p=4289`.  All 16 Modal shards completed under
+60 seconds (max `55.1206s`), each building the full `67945521`-record
+anchored-left table; together they probed all `553270671` right subsets.  The
+aggregate has zero anchored toral trades, zero anchored nontoral trades, and no
+`n^3` alarm.  The aggregate h6/h8 replay now requires this h=7 JSON certificate.

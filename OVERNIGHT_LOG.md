@@ -5026,3 +5026,50 @@ uses `553270671` left records and `3872894697` right probes; the left table
 alone is about `16.5 GiB` at 32 bytes per record, before sort overhead.  Under
 the light-compute rule, the h=8 path should use square-shift/x83 structural
 keys or a new external/sharded signature join, not a blind full anchor sweep.
+
+## 2026-07-08 Bonus queue continuation: h=7 n=64 rank-sharded certificate
+
+Stage: bonus item (ii), h=6/7/8 ladder sweep.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H7_N64_BOUNDARY_CERTIFICATE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_timing_gate_modal.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_timing_gate.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_boundary_certificate.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_boundary_certificate.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+```
+
+Replay:
+
+```bash
+F3_H7_N64_MODE=full ~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_timing_gate_modal.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_boundary_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+```
+
+Digests:
+
+```text
+H7_N64_BOUNDARY_CERTIFICATE_PASS
+H7_N64_BOUNDARY_CERTIFICATE_JSON_PASS
+H6_H8_BONUS_SWEEP_PASS
+```
+
+Result: the rank-balanced h=7 n64 timing gate completed one shard in
+`50.1458s`; the full 16-shard Modal certificate then completed with max shard
+`55.1206s`.  Every shard built the complete `67945521`-record anchored-left
+table, and together they probed all `553270671` right subsets exactly once.
+The aggregate found zero anchored toral trades, zero anchored nontoral trades,
+and no `n^3` alarm.  This replaces the old partial q2 n64 h7 evidence at the
+`q >= n^2` boundary.
+
+Modal runs:
+
+```text
+gate: https://modal.com/apps/allengrahamhart/main/ap-ZAk46tL9SN1s11CFOkqlJi
+full: https://modal.com/apps/allengrahamhart/main/ap-99OG86SNtWLVrIKsovgVqI
+```

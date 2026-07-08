@@ -1,9 +1,9 @@
 # F3 h=6/7/8 bonus sweep status
 
 Status: VERIFIED-AT-ROWS + FULL H6 N64 CERTIFICATE + H6 N64 EXTRA-PRIME
-FALSIFIER ROW + SIX FULL H8 N32 CERTIFICATES + HONEST REMAINING H8 PARTIALS.
-This is bonus item (ii) after Terminals A/B/C: sweep `h = 6,7,8` with the
-ladder machinery.
+FALSIFIER ROW + FULL H7 N64 CERTIFICATE + SIX FULL H8 N32 CERTIFICATES +
+HONEST REMAINING H8 PARTIALS.  This is bonus item (ii) after Terminals A/B/C:
+sweep `h = 6,7,8` with the ladder machinery.
 
 This pass consolidates the existing Modal artifacts, adds one new complete
 Modal-sharded h=6 n=64 certificate, and separates full certificates from
@@ -84,6 +84,17 @@ The certificate is in `f3_h6_n64_extra_primes_certificate.json`; it is produced
 by `F3_H6_N64_MODE=extra f3_h6_n64_boundary_modal.py` and locally verified by
 `f3_h6_n64_extra_primes_certificate.py`.
 
+New complete h=7 n=64 boundary row:
+
+```text
+boundary_n64_h7_p4289_RANK_SHARDED_CPP  complete anchored certificate:
+                                         toral=0, nontoral=0, partial=False
+```
+
+The certificate is in `f3_h7_n64_boundary_certificate.json`; it is produced by
+`F3_H7_N64_MODE=full f3_h7_n64_timing_gate_modal.py` and locally verified by
+`f3_h7_n64_boundary_certificate.py`.
+
 Upgraded complete h=8 rows:
 
 ```text
@@ -121,7 +132,8 @@ extra-prime h=6 n=64 sweep finds a real p-selected anchored-nontoral residue at
 antipodal square-lifts of the complete h=3 anchored trade set on `mu_32` at the
 same prime.  Thus the row falsifies crude h=6 toral-only emptiness, but not the
 fully stripped primitive h=6 column.  It also does not threaten the
-direct-column floor: `6 << n^3 = 262144`.  The n=32 h=8 boundary rows meet the
+direct-column floor: `6 << n^3 = 262144`.  The h=7 n=64 boundary row now meets
+the complete anchored standard as well.  The n=32 h=8 boundary rows meet the
 same complete anchored standard at six primes.  The n=64 h=8 rows do not yet
 meet that standard because the runs were sliced by the 60-second Modal budget.
 
@@ -141,10 +153,13 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_rep
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_p4993_square_lift_analysis.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_boundary_certificate.py
 ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 F3_H6_N64_MODE=extra ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
+F3_H7_N64_MODE=full ~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_timing_gate_modal.py
 ```
 
 Expected digest:
@@ -154,6 +169,8 @@ H6_H8_BONUS_SWEEP_PASS
 H6_N64_BOUNDARY_CERTIFICATE_JSON_PASS
 H6_N64_EXTRA_PRIMES_SWEEP_VERIFY_PASS
 H6_P4993_SQUARE_LIFT_ANALYSIS_PASS
+H7_N64_BOUNDARY_CERTIFICATE_JSON_PASS
 H6_N64_BOUNDARY_CERTIFICATE_PASS
 H6_N64_EXTRA_PRIMES_SWEEP_DONE
+H7_N64_BOUNDARY_CERTIFICATE_PASS
 ```

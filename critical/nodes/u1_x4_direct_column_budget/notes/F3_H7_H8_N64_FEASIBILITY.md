@@ -68,3 +68,10 @@ single h=7 n=64 Modal gate that builds and sorts one all-left table, exits with
 partial timing before probing if it approaches the 60-second cap, and only then
 decides whether a full h=7 certificate is worth dispatching.  For h=8, pursue
 the square-shift/x83 route first.
+
+## Follow-up Executed
+
+The rank-balanced h=7 gate completed in `50.1458s`, so the 16-shard full h=7
+certificate was dispatched and completed.  See
+`F3_H7_N64_BOUNDARY_CERTIFICATE.md`.  This does not change the h=8 conclusion:
+h=8 still needs structural reduction or a different join strategy.
