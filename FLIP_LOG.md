@@ -3199,3 +3199,54 @@ elapsed=57.58 maxrss=98808
 This is still under the 60 second laptop-safe cap.  Next step should be a
 proof-facing h=3 rank/bridge lemma or an h=8 certifier construction, not
 additional broad auditing.
+
+## T4 h=8 non-antipodal x83 certifier skeleton
+
+Stage selected: push the h=8 residual from "large open support universe" to a
+concrete shardable certificate runner interface, without launching a global
+search on the laptop.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_X83_ORBIT_CERTIFIER_SKELETON.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_orbit_certifier_skeleton.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_orbit_certifier_skeleton.py
+```
+
+Expected digest:
+
+```text
+H8_X83_ORBIT_CERTIFIER_SKELETON_PASS
+```
+
+Result: the script rank-unranks anchored 16-supports, excludes the antipodal
+branch, canonicalizes non-antipodal supports under the proved root-scaling
+rotation, tests x83 only on canonical anchored representatives, and prints
+`next_rank` for resumable shards.  It also emits a machine-readable
+`CERT_RECORD` JSON line for future manifest assembly.  The environment
+controls are:
+
+```text
+F3_H8_ORBIT_P
+F3_H8_ORBIT_SHARDS
+F3_H8_ORBIT_SHARD
+F3_H8_ORBIT_START_RANK
+F3_H8_ORBIT_STOP_RANK
+F3_H8_ORBIT_MAX_SUPPORTS
+F3_H8_ORBIT_SECONDS
+```
+
+The bounded dry run checks the first `2048` anchored supports at `p=4289`,
+finds `1978` canonical non-antipodal representatives, and finds no x83
+full-zero support in that prefix.  A resumed shard slice also replays.  This is
+not evidence for global h=8 closure; it is the certifier construction needed
+to make future 60-second Modal shards produce partial, resumable records.
+
+The script is deliberately not added to the default aggregate replay because
+the current aggregate already runs close to the 60 second laptop cap.
