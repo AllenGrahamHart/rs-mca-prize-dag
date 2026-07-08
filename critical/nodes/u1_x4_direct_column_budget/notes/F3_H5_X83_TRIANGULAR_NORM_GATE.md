@@ -85,6 +85,11 @@ This is a sharper h=5 theorem target than a raw norm-gate slogan: a primitive
 h=5 survivor must satisfy four explicit reciprocal polynomial identities on
 the high half of its locator.
 
+The companion `F3_H5_RECIPROCAL_COMPATIBILITY_COMPILER.md` eliminates the
+shared `delta` from these four equations.  It verifies three delta-free
+compatibility equations, using `E4` as the base row, with maximum total degree
+`10`.
+
 ## Norm-Divisor Consequence
 
 For a 10-root locator, every conjugate satisfies
@@ -121,10 +126,12 @@ Standalone:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_x83_triangular_norm_gate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_reciprocal_compatibility_compiler.py
 ```
 
 Expected digest:
 
 ```text
 H5_X83_TRIANGULAR_NORM_GATE_PASS
+H5_RECIPROCAL_COMPATIBILITY_COMPILER_PASS
 ```

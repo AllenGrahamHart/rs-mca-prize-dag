@@ -1727,6 +1727,13 @@ satisfies `l_j=delta*conjugate(l_{10-j})`, these keys become four explicit
 reciprocal equations on the top half of the locator and the support product
 `delta`.
 
+The reciprocal compatibility compiler eliminates that shared `delta` from the
+four equations.  Using the `E4` row as the base, it produces three delta-free
+compatibility equations `C14,C24,C34` on the high locator coefficients and
+their conjugates, with maximum total degree `10`.  This is still not the h=5
+closure, but it is the current algebraic surface for a symbolic norm-gate
+incompatibility proof.
+
 The certificate scaling frontier explains why the current finite-certificate
 format is not that maintainable family.  The banked n=128 Modal rows use
 `32` shards, but each shard rebuilds the full `binom(127,4)=10,334,625`

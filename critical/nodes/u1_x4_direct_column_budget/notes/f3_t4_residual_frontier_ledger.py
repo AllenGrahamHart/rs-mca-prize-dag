@@ -12,6 +12,9 @@ import json
 from pathlib import Path
 
 from f3_h5_certificate_coverage_audit import audit as h5_audit
+from f3_h5_reciprocal_compatibility_compiler import (
+    compatibility_summary as h5_reciprocal_summary,
+)
 from f3_h5_x83_triangular_norm_gate import key_bounds as h5_x83_key_bounds
 from f3_h6_h8_bonus_sweep_replay import (
     FULL_ZERO_ROWS,
@@ -59,6 +62,7 @@ def require_dag_status(node_id: str, status: str = "PROVED") -> None:
 
 def h5_summary() -> dict[str, int]:
     rows = h5_audit()
+    reciprocal = h5_reciprocal_summary()
     by_n = {row["n"]: row for row in rows}
     expected_by_n = {
         32: (402, 65537, 0, 68304222),
@@ -86,6 +90,10 @@ def h5_summary() -> dict[str, int]:
         "max_x83_low_key_bound": max(
             row.conjugate_bound for row in h5_x83_key_bounds()
         ),
+        "reciprocal_compatibility_equations": reciprocal["compatibility_equations"],
+        "max_reciprocal_compatibility_degree": reciprocal[
+            "max_compatibility_total_degree"
+        ],
     }
 
 
@@ -170,7 +178,8 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"{h5['certified_rows']} complete zero rows; "
                 f"n32={h5['n32_certified_primes']} contiguous-through-65537, "
                 f"n64={h5['n64_certified_primes']} selected/contiguous rows; "
-                f"x83 low-key bound={h5['max_x83_low_key_bound']}"
+                f"x83 low-key bound={h5['max_x83_low_key_bound']}; "
+                f"reciprocal compatibility equations={h5['reciprocal_compatibility_equations']}"
             ),
             "prove symbolic p-specific x83 norm-gate incompatibility or replace selected rows by a scalable certificate family",
         ),
@@ -221,6 +230,11 @@ def main() -> None:
     print(f"h=5 total right-side probes audited: {h5['total_right_probes']}")
     print(f"h=5 n64 missing admissible primes to max certified prime: {h5['n64_missing_to_max']}")
     print(f"h=5 max x83 low-key conjugate bound: {h5['max_x83_low_key_bound']}")
+    print(
+        "h=5 reciprocal compatibility: "
+        f"equations={h5['reciprocal_compatibility_equations']} "
+        f"max_total_degree={h5['max_reciprocal_compatibility_degree']}"
+    )
     print(f"h=8 n32 right-side probes audited: {h8['n32_right_probes']}")
     print(
         "h=8 blind join scale: "
