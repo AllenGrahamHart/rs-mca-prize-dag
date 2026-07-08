@@ -6552,3 +6552,53 @@ H3_REPEAT_LOOSE_RANK_MINOR_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=37.78 maxrss=52900
 ```
+
+## T2/T3 h=3 repeat star conditional assembly
+
+Stage selected: connect the disjoint-pair and loose-triangle gates back to the
+repeat-boundary residue payment.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_STAR_CONDITIONAL_ASSEMBLY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_conditional_assembly.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_conditional_assembly.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_STAR_CONDITIONAL_ASSEMBLY_PASS
+```
+
+Result: the five gates
+
+```text
+H3-VALUE-INJECTIVE,
+H3-SLOPE-RATIO-HIT,
+LOOSE-GEN-RANK/NV,
+LOOSE-A-RANK/NV,
+LOOSE-B-RANK/NV
+```
+
+imply `tau_coord<=1`, hence
+
+```text
+repeat_residue <= 90n^2.
+```
+
+This is below `n^3` for every official row `n=2^13..2^41`.
+
+Focused replay:
+
+```text
+H3_REPEAT_STAR_CONDITIONAL_ASSEMBLY_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=37.23 maxrss=52720
+```

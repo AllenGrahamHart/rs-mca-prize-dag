@@ -985,6 +985,26 @@ branch B: r=1057, E=2319, minor degree <= 2451183.
 The remaining theorem is to exhibit rank-good minors nonzero on the repaired
 loose parameter images over the actual row fields.
 
+The star conditional assembly now records the full route back to the repeat
+residue.  The five open gates
+
+```text
+H3-VALUE-INJECTIVE,
+H3-SLOPE-RATIO-HIT,
+LOOSE-GEN-RANK/NV,
+LOOSE-A-RANK/NV,
+LOOSE-B-RANK/NV
+```
+
+imply `H3-NO-DISJOINT-EDGES` and `H3-NO-LOOSE-TRIANGLE`, hence
+`tau_coord<=1`.  The coordinate-hitting ledger then gives
+
+```text
+repeat_residue <= 90n^2,
+```
+
+which is below `n^3` for every official row `n=2^s`, `13 <= s <= 41`.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -1013,7 +1033,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `37.78s` locally and ends with
+It runs in about `37.23s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
