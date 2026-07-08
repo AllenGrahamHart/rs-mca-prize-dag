@@ -248,6 +248,11 @@ COMMANDS = [
         "H3_REPEAT_LOOSE_NORMALIZED_ORBIT_COMPILER_PASS",
     ),
     (
+        "h3 repeat loose coordinate-slope distinctness",
+        "f3_h3_repeat_loose_coordinate_slope_distinctness.py",
+        "H3_REPEAT_LOOSE_COORDINATE_SLOPE_DISTINCTNESS_PASS",
+    ),
+    (
         "h3 repeat loose slope-multiplicity ledger",
         "f3_h3_repeat_loose_slope_multiplicity.py",
         "H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY_PASS",

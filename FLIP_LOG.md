@@ -6097,8 +6097,9 @@ Expected digest:
 H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY_PASS
 ```
 
-Result: the six coordinate slopes are distinct under the loose non-pole
-hypotheses, but the three lambda slopes may collide.  In the contrast row,
+Result: the six coordinate slopes are distinct under the full normalized
+loose-system hypotheses, meaning non-poles plus distinctness of the six
+reciprocal points.  The three lambda slopes may collide.  In the contrast row,
 six ordered normalizations have nine distinct slopes and six have eight
 distinct slopes with one duplicate.  Boundary guardrails have no loose slope
 patterns.
@@ -6109,4 +6110,43 @@ Focused replay:
 H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=20.05 maxrss=50108
+```
+
+## T2/T3 h=3 repeat loose coordinate-slope distinctness
+
+Stage selected: make the coordinate-slope distinctness claim in the normalized
+loose target symbolic rather than finite-row implicit.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_COORDINATE_SLOPE_DISTINCTNESS.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_coordinate_slope_distinctness.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_coordinate_slope_distinctness.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_COORDINATE_SLOPE_DISTINCTNESS_PASS
+```
+
+Result: the six coordinate slopes are the inverses of the six normalized
+reciprocal multipliers.  Under the full normalized loose-system hypotheses,
+the multipliers are distinct and nonzero, so the six coordinate slopes are
+distinct.  The collision table also records why non-poles alone are too weak:
+collisions such as `a=1` are ordinary six-point distinctness failures, while
+`1+a+b=0` is the contained zero-sum triangle case.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_COORDINATE_SLOPE_DISTINCTNESS_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=19.37 maxrss=50232
 ```

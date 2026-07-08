@@ -18,10 +18,11 @@ The six coordinate slopes
 -1/(a+b)
 ```
 
-are distinct under the normalized loose non-pole hypotheses.  The three lambda
-slopes can collide with these or with each other, so a future counting theorem
-should use the distinct slope count rather than blindly assuming nine distinct
-conditions.
+are distinct under the full normalized loose-system hypotheses: non-poles plus
+six-point distinctness.  This is the coordinate-slope distinctness packet.  The
+three lambda slopes can collide with these or with each other, so a future
+counting theorem should use the distinct slope count rather than blindly
+assuming nine distinct conditions.
 
 ## Guardrails
 
