@@ -160,6 +160,16 @@ base point.  This lets the rich-curve chart count control the local ordered
 fiber count up to one point per conic, but it still does not prove global
 rank-capacity batching.
 
+The conic base-point equivalence packet prevents overcharging this ledger.
+Different ordered triples in the same nondegenerate same-`(e1,e2)` fiber give
+different line-through-point parametrizations, but they have the same
+projective conic image and recover the same ordered `H`-triple set after adding
+the one vertical mate.  Thus incidence bookkeeping may choose one base point
+per nonempty conic fiber; it should not pay one geometric curve image per
+ordered triple.  This does not prove Mobius-reparametrization invariance for
+the future rank theorem, so a rank proof must still fix a base-point rule or
+prove the relevant invariance separately.
+
 The pair-count compiler now makes the remaining local arithmetic explicit.
 For charts `z` with finite counts `T_z`, vertical losses `epsilon_z`, and
 ordered triple counts `R_z=T_z+epsilon_z`,

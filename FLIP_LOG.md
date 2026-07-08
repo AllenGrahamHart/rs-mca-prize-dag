@@ -3612,3 +3612,38 @@ via `sum R_z^2 <= max(R_z) sum R_z`.  The future bridge theorem can close h=3
 by proving this exact L2 ledger or the equivalent level-set tail bound; it does
 not need a separate uniform max-fiber theorem if a sharper tail theorem is
 available.
+
+## T1 h=3 conic base-point equivalence
+
+Stage selected: prevent the h=3 bridge from charging duplicate geometric curve
+images when many ordered triples lie in the same same-`(e1,e2)` conic fiber.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_BASEPOINT_EQUIVALENCE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_basepoint_equivalence.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_basepoint_equivalence.py
+```
+
+Expected digest:
+
+```text
+H3_CONIC_BASEPOINT_EQUIVALENCE_PASS
+```
+
+Result: if two row-field base points lie on the same nondegenerate
+same-fiber conic, their line-through-point charts have the same projective
+conic image.  After restricting to `H^3` and adding the one vertical mate, both
+recover the same ordered same-fiber triple ledger `R(s1,s2)`.
+
+Therefore incidence bookkeeping may choose one base point per nonempty conic
+fiber.  The future bridge should not pay one geometric curve image per ordered
+triple.  This is still not a rank theorem: if `RC-RANK` depends on the exact
+rational parametrization, it needs a deterministic base-point rule or a
+separate Mobius-reparametrization invariance lemma.
