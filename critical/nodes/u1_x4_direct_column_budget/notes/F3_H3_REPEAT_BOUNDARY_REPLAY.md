@@ -64,6 +64,7 @@ The harness runs:
 - the loose case-split interface;
 - the loose branch slope-map compiler;
 - the loose branch degree compiler;
+- the loose generic degree compiler;
 - the loose slope-multiplicity ledger.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch

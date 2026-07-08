@@ -6409,3 +6409,46 @@ elapsed=56.89 maxrss=52728
 The focused replay remains under one minute but is now close to that boundary;
 future additions to this harness should replace or optimize existing symbolic
 loose-branch checks rather than growing it blindly.
+
+## T2/T3 h=3 repeat loose generic degree compiler
+
+Stage selected: compile denominator-clearing degree budgets for the generic
+nine-slope loose membership maps `1+c_i(a,b)X`.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_GENERIC_DEGREE_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_generic_degree_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_generic_degree_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_GENERIC_DEGREE_COMPILER_PASS
+```
+
+Result: writing `1+c_i(a,b)X=P_i(a,b,X)/Q_i(a,b)`, the generic nine-map target
+has aggregate budgets `S_a=7`, `S_b=7`, and `S_total=15`.  For an auxiliary
+with `deg_a<A`, `deg_b<B0`, `deg_X<C`, `deg_Y<Y` and subgroup order `n`,
+
+```text
+deg_a     <= A-1+7n(Y-1),
+deg_b     <= B0-1+7n(Y-1),
+deg_X     <= C-1+9n(Y-1),
+total_deg <= A+B0+C-3+15n(Y-1).
+```
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_GENERIC_DEGREE_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=39.54 maxrss=52900
+```

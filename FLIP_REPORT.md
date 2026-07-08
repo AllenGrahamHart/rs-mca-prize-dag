@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=56.89 maxrss=52728
+elapsed=39.54 maxrss=52900
 ```
 
 ## Confidence-ranked claims
@@ -201,7 +201,8 @@ elapsed=56.89 maxrss=52728
    at most 4, and branch B has eight slope maps of degree at most 6.  Non-poles
    alone are not enough for the coordinate claim; the proof uses distinctness
    of the six reciprocal points.  The special-branch denominator compiler gives
-   `S_a,S_total=(17,22)` for branch A and `(19,24)` for branch B.
+   `S_a,S_total=(17,22)` for branch A and `(19,24)` for branch B; the generic
+   two-parameter denominator compiler gives `S_a=7`, `S_b=7`, `S_total=15`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

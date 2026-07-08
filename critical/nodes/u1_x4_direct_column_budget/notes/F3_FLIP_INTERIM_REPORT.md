@@ -938,6 +938,17 @@ deg_X     <= C-1+8n(B-1),
 total_deg <= A+C-2+n(B-1)S_total.
 ```
 
+The generic degree compiler gives the matching two-parameter budget for the
+nine-slope target:
+
+```text
+S_a=7, S_b=7, S_total=15,
+deg_a     <= A-1+7n(Y-1),
+deg_b     <= B0-1+7n(Y-1),
+deg_X     <= C-1+9n(Y-1),
+total_deg <= A+B0+C-3+15n(Y-1).
+```
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -966,7 +977,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `56.89s` locally and ends with
+It runs in about `39.54s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

@@ -283,6 +283,11 @@ COMMANDS = [
         "H3_REPEAT_LOOSE_BRANCH_DEGREE_COMPILER_PASS",
     ),
     (
+        "h3 repeat loose generic degree compiler",
+        "f3_h3_repeat_loose_generic_degree_compiler.py",
+        "H3_REPEAT_LOOSE_GENERIC_DEGREE_COMPILER_PASS",
+    ),
+    (
         "h3 repeat loose slope-multiplicity ledger",
         "f3_h3_repeat_loose_slope_multiplicity.py",
         "H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY_PASS",
