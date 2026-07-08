@@ -4952,6 +4952,8 @@ Banked files:
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.py
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.json
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_P4993_SQUARE_LIFT_ANALYSIS.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_p4993_square_lift_analysis.py
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_N64_BOUNDARY_CERTIFICATE.md
 critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
@@ -4963,6 +4965,7 @@ Replay:
 F3_H6_N64_MODE=extra ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_p4993_square_lift_analysis.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
 
@@ -4971,16 +4974,20 @@ Digests:
 ```text
 H6_N64_EXTRA_PRIMES_SWEEP_DONE
 H6_N64_EXTRA_PRIMES_SWEEP_VERIFY_PASS
+H6_P4993_SQUARE_LIFT_ANALYSIS_PASS
 H6_H8_BONUS_SWEEP_PASS
 ```
 
 Result: six additional complete Modal-sharded `n=64,h=6` rows were swept at
 `p=4481,4673,4801,4993,5441,5569`.  Five rows have zero anchored nontoral
 trades.  The `p=4993` row has exactly `6` anchored nontoral trades, all decoded
-in the verifier, with no `n^3` alarm (`6` versus `262144`).  This is a useful
-falsifier for the stronger h=6 "primitive residue always empty at q>=n^2"
-heuristic; it is not a direct-column floor counterexample.  The h=6 target
-should be repaired toward small/budgeted norm-gate accidents.
+in the verifier, with no `n^3` alarm (`6` versus `262144`).  The follow-up
+square-lift analysis proves these six witnesses are exactly the antipodal
+pullbacks of the complete h=3 anchored trade set on `mu_32` at `p=4993`.
+This is a useful falsifier for the crude toral-only h=6 emptiness proxy, but
+not for the fully stripped primitive h=6 column.  The h=6 target should
+separate paid square-lifts of h=3 norm-gate accidents from genuinely primitive
+h=6 accidents.
 
 Modal run:
 

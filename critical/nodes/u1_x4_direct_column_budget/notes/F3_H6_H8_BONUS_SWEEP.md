@@ -115,13 +115,15 @@ q3_n64_h8                   zero in checked slice, partial=True
 ## Interpretation
 
 The h=6/h=7 rows mostly continue the pattern from the shallow ladder, but the
-extra-prime h=6 n=64 sweep finds a real p-selected primitive residue at
-`p=4993`.  This falsifies the stronger finite-row emptiness heuristic for h=6.
-It does not threaten the direct-column floor: `6 << n^3 = 262144`, and the
-correct h=6 target is now a small/budgeted norm-gate accident statement rather
-than universal emptiness.  The n=32 h=8 boundary rows meet the same complete
-anchored standard at six primes.  The n=64 h=8 rows do not yet meet that
-standard because the runs were sliced by the 60-second Modal budget.
+extra-prime h=6 n=64 sweep finds a real p-selected anchored-nontoral residue at
+`p=4993` under the coarse toral-only classifier.  The follow-up
+`f3_h6_p4993_square_lift_analysis.py` verifier classifies all six witnesses as
+antipodal square-lifts of the complete h=3 anchored trade set on `mu_32` at the
+same prime.  Thus the row falsifies crude h=6 toral-only emptiness, but not the
+fully stripped primitive h=6 column.  It also does not threaten the
+direct-column floor: `6 << n^3 = 262144`.  The n=32 h=8 boundary rows meet the
+same complete anchored standard at six primes.  The n=64 h=8 rows do not yet
+meet that standard because the runs were sliced by the 60-second Modal budget.
 
 Next h=8 action:
 
@@ -137,6 +139,7 @@ explicit norm-gate keys.
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_p4993_square_lift_analysis.py
 ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 F3_H6_N64_MODE=extra ~/.venvs/modal/bin/modal run \
@@ -149,6 +152,7 @@ Expected digest:
 H6_H8_BONUS_SWEEP_PASS
 H6_N64_BOUNDARY_CERTIFICATE_JSON_PASS
 H6_N64_EXTRA_PRIMES_SWEEP_VERIFY_PASS
+H6_P4993_SQUARE_LIFT_ANALYSIS_PASS
 H6_N64_BOUNDARY_CERTIFICATE_PASS
 H6_N64_EXTRA_PRIMES_SWEEP_DONE
 ```

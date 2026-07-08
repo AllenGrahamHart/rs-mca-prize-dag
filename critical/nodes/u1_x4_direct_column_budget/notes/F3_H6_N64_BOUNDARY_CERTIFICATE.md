@@ -29,8 +29,9 @@ Success evidence:
 - the compiled replay checks all `binom(63,5)` anchored left subsets and all
   `binom(63,6)` right subsets;
 - the positive result sought is zero anchored nontoral trades;
-- any nonzero count is banked as a finite-row falsifier for h=6 emptiness
-  evidence, while still checking whether the direct `n^3` floor is exceeded.
+- any nonzero count is banked as a finite-row falsifier for the crude
+  toral-only h=6 emptiness proxy, then classified against paid pullback
+  structure while still checking whether the direct `n^3` floor is exceeded.
 
 ## Result
 
@@ -80,10 +81,14 @@ Modal run:
 https://modal.com/apps/allengrahamhart/main/ap-OBattAeGlh1H0GoKvCs5Fo
 ```
 
-The `p=4993` row is a finite falsifier for the stronger heuristic
-"h=6 primitive residue is empty at every q >= n^2."  It is not a falsifier for
-the direct-column floor: the count is `6`, while the direct budget is
-`n^3 = 262144`, and no row has a direct `n^3` alarm.
+The `p=4993` row is a finite falsifier for the stronger toral-only proxy
+"h=6 anchored nontoral residue is empty at every q >= n^2."  The follow-up
+square-lift verifier `f3_h6_p4993_square_lift_analysis.py` proves that all six
+witnesses are antipodal pullbacks of the complete h=3 anchored trade set on
+`mu_32` at the same prime.  Thus they are paid square-shift structure, not
+genuinely primitive h=6 residue.  They also do not threaten the direct-column
+floor: the count is `6`, while the direct budget is `n^3 = 262144`, and no row
+has a direct `n^3` alarm.
 
 The six decoded p4993 anchored witnesses are:
 
@@ -96,8 +101,9 @@ The six decoded p4993 anchored witnesses are:
 [0,8,30,32,40,62]  vs [14,19,27,46,51,59]  last=(2598,4061)
 ```
 
-Interpretation repair: the surviving h=6 target should be a small/budgeted
-norm-gate accident statement, not a universal finite-row emptiness statement.
+Interpretation repair: the surviving h=6 target should explicitly separate
+paid square-lifts of h=3 norm-gate accidents from genuinely primitive h=6
+norm-gate accidents.
 
 ## Replay
 
@@ -108,6 +114,7 @@ F3_H6_N64_MODE=extra ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_p4993_square_lift_analysis.py
 ```
 
 Expected digests:
@@ -117,6 +124,7 @@ H6_N64_BOUNDARY_CERTIFICATE_PASS
 H6_N64_EXTRA_PRIMES_SWEEP_DONE
 H6_N64_BOUNDARY_CERTIFICATE_JSON_PASS
 H6_N64_EXTRA_PRIMES_SWEEP_VERIFY_PASS
+H6_P4993_SQUARE_LIFT_ANALYSIS_PASS
 ```
 
 The Modal replay writes:
