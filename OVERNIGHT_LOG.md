@@ -319,3 +319,36 @@ overlap                           (2 shapes)
 The affine stabilizer of `[0,1,2]`, namely `id` and `x -> 2-x`, pairs the 44
 exceptions into 22 reflection orbits, and the activation prime is constant on
 each orbit.
+
+## 2026-07-08 Terminal C consecutive-core family rates
+
+Stage: Terminal C, exact rate table for the two structural families.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_FAMILY_RATES.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_family_rates.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_family_rates.py
+```
+
+Digest: `H3_CONSECUTIVE_CORE_FAMILY_RATES_PASS`.
+
+Result:
+
+```text
+all       :     44 / 129766 = 0.0339%
+fixed     :     18 /     91 = 19.7802%
+antipodal :     28 /   4095 = 0.6838%
+overlap   :      2 /      2 = 100.0000%
+union     :     44 /   4184 = 1.0516%
+outside   :      0 / 125582 = 0.0000%
+```
+
+Interpretation: in the complete consecutive-core slice, the two structural
+families are an exact activation cover and the complement is activation-free.

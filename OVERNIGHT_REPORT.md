@@ -26,7 +26,7 @@ deterministic affine-representative feasibility slice found the first two
 common-root activation exceptions for the eventual exceptional list.  A complete
 consecutive-core subfamily census gives the first exact activation rate:
 `44/129766`, and those 44 exceptions are covered by two simple structural
-families.
+families whose union has zero activation-free complement outside it.
 
 ## Claims
 
@@ -396,6 +396,42 @@ families.
    stabilizer reflection `x -> 2-x` pairs them into 22 two-element orbits with
    constant activation prime.
 
+13. **MACHINE-CHECKED RATE TABLE:** consecutive-core structural families.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_FAMILY_RATES.md
+   ```
+
+   Script:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_family_rates.py
+   ```
+
+   Replay:
+
+   ```bash
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_family_rates.py
+   ```
+
+   Digest: `H3_CONSECUTIVE_CORE_FAMILY_RATES_PASS`.
+
+   Result:
+
+   ```text
+   all       :     44 / 129766 = 0.0339%
+   fixed     :     18 /     91 = 19.7802%
+   antipodal :     28 /   4095 = 0.6838%
+   overlap   :      2 /      2 = 100.0000%
+   union     :     44 /   4184 = 1.0516%
+   outside   :      0 / 125582 = 0.0000%
+   ```
+
+   The complement of the fixed-pair/antipodal union is activation-free in this
+   complete slice.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -430,6 +466,9 @@ families.
   consecutive-core slice: every activation is in the fixed-pair or antipodal
   family.  What looked sporadic is still covered by that two-family union.
 
+- The family-rate check strengthens this: outside the two-family union, the
+  complete consecutive-core slice has zero activations.
+
 ## Terminal Status
 
 Terminal A reached.  A1/A2 are bypassed by a direct proof stronger than the
@@ -454,5 +493,6 @@ stronger direct finite-field evidence.  The full `n=96` all-shapes census is
 now exactly sized at `3,135,641` affine/Galois representatives, and the first
 deterministic slices give a 44-entry complete subfamily exceptional list.  The
 consecutive-core exceptional list has a checked two-family classification.  The
+outside-family complement is activation-free in that complete slice.  The
 resultant/common-root pass over all representatives and final empirical rate
 remain open.
