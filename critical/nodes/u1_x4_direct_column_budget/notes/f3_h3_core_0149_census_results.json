@@ -1,0 +1,494 @@
+{
+  "core": [
+    0,
+    1,
+    49
+  ],
+  "n": 96,
+  "total_shapes": 129766,
+  "norm_exception_count": 1067,
+  "activation_exception_count": 37,
+  "activation_exceptions": [
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        2,
+        46,
+        47
+      ],
+      "activation_primes": [
+        207073
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        2,
+        46,
+        95
+      ],
+      "activation_primes": [
+        207073
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        3,
+        34,
+        66
+      ],
+      "activation_primes": [
+        207073
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        5,
+        34,
+        66
+      ],
+      "activation_primes": [
+        40897
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        7,
+        34,
+        66
+      ],
+      "activation_primes": [
+        18913
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        7,
+        50,
+        93
+      ],
+      "activation_primes": [
+        49537
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        9,
+        50,
+        91
+      ],
+      "activation_primes": [
+        12289
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        13,
+        34,
+        66
+      ],
+      "activation_primes": [
+        30817
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        15,
+        50,
+        85
+      ],
+      "activation_primes": [
+        1857217
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        17,
+        34,
+        66
+      ],
+      "activation_primes": [
+        10177
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        17,
+        50,
+        83
+      ],
+      "activation_primes": [
+        300673
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        19,
+        50,
+        81
+      ],
+      "activation_primes": [
+        26682529
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        23,
+        50,
+        77
+      ],
+      "activation_primes": [
+        12097
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        25,
+        50,
+        75
+      ],
+      "activation_primes": [
+        1033441
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        27,
+        50,
+        73
+      ],
+      "activation_primes": [
+        1033441
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        29,
+        50,
+        71
+      ],
+      "activation_primes": [
+        12097
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        33,
+        34,
+        66
+      ],
+      "activation_primes": [
+        10177
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        33,
+        50,
+        67
+      ],
+      "activation_primes": [
+        26682529
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        37,
+        66
+      ],
+      "activation_primes": [
+        30817
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        43,
+        66
+      ],
+      "activation_primes": [
+        18913
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        45,
+        66
+      ],
+      "activation_primes": [
+        40897
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        47,
+        66
+      ],
+      "activation_primes": [
+        207073
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        51,
+        66
+      ],
+      "activation_primes": [
+        207073
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        53,
+        66
+      ],
+      "activation_primes": [
+        40897
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        55,
+        66
+      ],
+      "activation_primes": [
+        18913
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        61,
+        66
+      ],
+      "activation_primes": [
+        30817
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        65,
+        66
+      ],
+      "activation_primes": [
+        10177
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        66,
+        81
+      ],
+      "activation_primes": [
+        10177
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        66,
+        85
+      ],
+      "activation_primes": [
+        30817
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        66,
+        91
+      ],
+      "activation_primes": [
+        18913
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        66,
+        93
+      ],
+      "activation_primes": [
+        40897
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        34,
+        66,
+        95
+      ],
+      "activation_primes": [
+        207073
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        35,
+        50,
+        65
+      ],
+      "activation_primes": [
+        300673
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        37,
+        50,
+        63
+      ],
+      "activation_primes": [
+        1857217
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        43,
+        50,
+        57
+      ],
+      "activation_primes": [
+        12289
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        45,
+        50,
+        55
+      ],
+      "activation_primes": [
+        49537
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        49,
+        48,
+        50,
+        52
+      ],
+      "activation_primes": [
+        74209
+      ]
+    }
+  ]
+}
