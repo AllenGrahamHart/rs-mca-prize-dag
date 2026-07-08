@@ -4994,3 +4994,35 @@ Modal run:
 ```text
 https://modal.com/apps/allengrahamhart/main/ap-OBattAeGlh1H0GoKvCs5Fo
 ```
+
+## 2026-07-08 Bonus queue continuation: h=7/h=8 n=64 feasibility
+
+Stage: bonus item (ii), h=6/7/8 ladder sweep.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H7_H8_N64_FEASIBILITY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_h8_n64_feasibility.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_h8_n64_feasibility.py
+```
+
+Digest:
+
+```text
+H7_H8_N64_FEASIBILITY_PASS
+```
+
+Result: exact combinatorics against the certified h=6 baseline show that
+current-method h=7 n64 uses `67945521` left records and `553270671` right
+probes, so it needs a one-shard Modal timing gate before a full sweep.  h=8 n64
+uses `553270671` left records and `3872894697` right probes; the left table
+alone is about `16.5 GiB` at 32 bytes per record, before sort overhead.  Under
+the light-compute rule, the h=8 path should use square-shift/x83 structural
+keys or a new external/sharded signature join, not a blind full anchor sweep.

@@ -1996,3 +1996,11 @@ refutes the crude toral-only h=6 emptiness proxy, not the fully stripped
 primitive h=6 column, and it remains far below the direct-column budget (`6`
 versus `n^3=262144`).  The repaired h=6 target separates paid square-lifts of
 h=3 norm-gate accidents from genuinely primitive h=6 accidents.
+
+Continuation h=7/h=8 feasibility update: exact counts explain why the remaining
+n=64 partials should not be promoted by a blind h=8 all-left hash sweep.  h=7
+n64 has `67945521` left records and `553270671` right probes, so it needs a
+single Modal timing gate before a full sweep.  h=8 n64 has `553270671` left
+records and `3872894697` right probes; the left table alone is about `16.5 GiB`
+at 32 bytes per record.  The h=8 route should therefore use square-shift/x83
+structure or a new external/sharded signature join.

@@ -128,9 +128,10 @@ meet that standard because the runs were sliced by the 60-second Modal budget.
 Next h=8 action:
 
 ```text
-replace the remaining n=64 partial W-window runs by shard-complete anchor
-certificates, or use the x83 square-shift certifier keys to reduce h=8 to
-explicit norm-gate keys.
+do not launch a blind all-left-hash h=8 n=64 certificate; the left table alone
+is about 16.5 GiB at 32 bytes/record.  Use the x83 square-shift certifier keys,
+or design a true external/sharded signature join.  h=7 n=64 is a separate
+one-shard Modal timing gate.
 ```
 
 ## Replay
