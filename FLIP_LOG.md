@@ -347,3 +347,43 @@ uncertified, respectively.
 
 Next step: either attack the symbolic h=5 norm-gate/no-primitive theorem, or
 move to the h=8 n=64 x83 non-antipodal certifier residual.
+
+## T4 h=8 residual-frontier audit
+
+Stage selected: pin the h=8 n=64 residual after the x83 shell work.  This is a
+frontier audit, not a new certificate search.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_RESIDUAL_FRONTIER_AUDIT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_residual_frontier_audit.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_residual_frontier_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+```
+
+Digest:
+
+```text
+H8_RESIDUAL_FRONTIER_AUDIT_PASS
+H6_H8_BONUS_SWEEP_PASS
+```
+
+Result: h=8 has six complete n=32 zero-nontoral certificates, and the h=8 n=64
+x83 radius-three shell is fully checked at `p=4289` and at the q3 prime
+`p=262337`, processing `67,800,320` candidates per prime with `full_zero=0`.
+The q3 suffix profile is `[67800000, 320, 0, 0, 0, 0, 0, 0]`, so the local
+radius-three shell dies at obstruction depth two.  The two h=8 n=64 rows
+remain partial (`boundary_n64_h8_p193` and `q3_n64_h8`); a blind n=64 h=8
+join would require `binom(63,7)=553,270,671` left records, about `16.49 GiB` at
+32 bytes/record, before the `binom(63,8)` right scan.  The honest next step is
+therefore an x83-keyed non-antipodal certifier or a true external/sharded join,
+not a local blind hash table.
+
+Next step: return to the symbolic h=5 norm-gate/no-primitive theorem, or start
+designing the h=8 x83-keyed non-antipodal join.
