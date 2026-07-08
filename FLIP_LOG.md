@@ -3041,7 +3041,7 @@ geometric bridge.  Standalone replay passes in `0.03s` locally
 (`maxrss=11648`).  The default aggregate replay passes with this packet
 included in `42.86s` locally (`maxrss=98780`).
 
-## T1 h=3 private-linear low-row budget
+## T1 h=3 private-linear low/mid-row budget
 
 Stage selected: make the private-linear fallback route concrete for the first
 official h=3 rows.  The private-linear compiler guard says the current
@@ -3056,7 +3056,7 @@ critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_LOWROW_BUDG
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_lowrow_budget.py
 ```
 
-Result: with `L_private=(A-1)+3n(B-1)`, the exact low-row budgets are:
+Result: with `L_private=(A-1)+3n(B-1)`, the exact low/mid-row budgets are:
 
 ```text
 s=13: Z_private=23
@@ -3064,11 +3064,17 @@ s=14: Z_private=29
 s=15: Z_private=37
 s=16: Z_private=47
 s=17: Z_private=59
+s=18: Z_private=75
+s=19: Z_private=94
+s=20: Z_private=119
+s=21: Z_private=150
+s=22: Z_private=189
+s=23: Z_private=238
 ```
 
 For each row the verifier checks a pinned passing witness and scans the exact
 finite `B` cap for `Z+1` failure.  This is a conditional arithmetic compiler
-slice only: it does not prove private-linear rank, it does not cover `s>=18`,
+slice only: it does not prove private-linear rank, it does not cover `s>=24`,
 and it does not prove the geometric bridge.  Standalone replay passes in
-`0.04s` locally (`maxrss=13056`).  The default aggregate replay passes with
-this packet included in `43.10s` locally (`maxrss=98796`).
+`0.08s` locally (`maxrss=13056`).  The default aggregate replay passes with
+this packet included in `41.65s` locally (`maxrss=98776`).

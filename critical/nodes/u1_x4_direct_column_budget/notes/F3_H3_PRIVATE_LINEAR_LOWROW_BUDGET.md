@@ -1,11 +1,11 @@
-# F3 h=3 private-linear low-row budget
+# F3 h=3 private-linear low/mid-row budget
 
 Status: CONDITIONAL ARITHMETIC COMPILER SLICE, NOT `RC-RANK` AND NOT `H3-ACT`.
 
 The private-linear compiler guard shows that a private-linear rank theorem
 cannot reuse the current degree-2 non-diagonal budget table.  This packet starts
 the required retuning: it gives exact private-linear rank-capacity budgets for
-the first five official rows.
+the official rows `s=13..23`.
 
 ## Pre-registration
 
@@ -21,7 +21,7 @@ Success criterion:
 
 - use the private-linear degree cap
   `L_private = (A-1) + 3n(B-1)`;
-- verify a pinned passing witness for each row `s=13..17`;
+- verify a pinned passing witness for each row `s=13..23`;
 - scan the exact finite `B` cap for `Z+1` and prove the next budget fails;
 - keep the result conditional on a future private-linear rank theorem and the
   geometric bridge.
@@ -29,7 +29,7 @@ Success criterion:
 Failure criterion:
 
 - mix the private-linear degree cap with the existing degree-2 budget table;
-- claim rows `s >= 18` are covered by this low-row slice;
+- claim rows `s >= 24` are covered by this low/mid-row slice;
 - treat the arithmetic compiler as `RC-RANK`.
 
 ## Compiler
@@ -56,7 +56,7 @@ analytic cap obtained from these same inequalities.
 
 ## Result
 
-The exact low-row private-linear budgets are:
+The exact low/mid-row private-linear budgets are:
 
 ```text
 s=13: Z_private=23
@@ -64,6 +64,12 @@ s=14: Z_private=29
 s=15: Z_private=37
 s=16: Z_private=47
 s=17: Z_private=59
+s=18: Z_private=75
+s=19: Z_private=94
+s=20: Z_private=119
+s=21: Z_private=150
+s=22: Z_private=189
+s=23: Z_private=238
 ```
 
 For comparison, the current degree-2 non-diagonal budgets at these rows are:
@@ -74,6 +80,12 @@ s=14: Z_degree2=21
 s=15: Z_degree2=26
 s=16: Z_degree2=33
 s=17: Z_degree2=42
+s=18: Z_degree2=53
+s=19: Z_degree2=67
+s=20: Z_degree2=84
+s=21: Z_degree2=106
+s=22: Z_degree2=134
+s=23: Z_degree2=168
 ```
 
 The private-linear retuning can pay more capacity at these low rows because the

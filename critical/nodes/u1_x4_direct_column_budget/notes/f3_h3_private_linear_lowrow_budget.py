@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact low-row private-linear h=3 bridge-budget compiler."""
+"""Exact low/mid-row private-linear h=3 bridge-budget compiler."""
 
 from __future__ import annotations
 
@@ -33,6 +33,12 @@ EXPECTED_ROWS = (
     Row(15, 37, 512_086, 375, 98, 689, 528_998, 385, 98, 685, 149),
     Row(16, 47, 1_035_036, 578, 126, 1_116, 1_061_500, 563, 129, 1_138, 187),
     Row(17, 59, 2_062_810, 912, 159, 1_777, 2_105_127, 916, 160, 1_782, 239),
+    Row(18, 75, 4_173_028, 1_439, 202, 2_841, 4_240_468, 1_472, 201, 2_819, 298),
+    Row(19, 94, 8_298_869, 2_247, 256, 4_543, 8_404_213, 2_289, 255, 4_516, 382),
+    Row(20, 119, 16_700_092, 3_622, 321, 7_173, 16_868_649, 3_652, 321, 7_161, 478),
+    Row(21, 150, 33_431_732, 5_768, 404, 11_376, 33_699_610, 5_778, 405, 11_389, 604),
+    Row(22, 189, 66_887_366, 9_090, 511, 18_133, 67_313_595, 9_174, 510, 18_078, 763),
+    Row(23, 238, 133_723_269, 14_419, 644, 28_800, 134_397_130, 14_480, 644, 28_776, 964),
 )
 
 
@@ -92,7 +98,7 @@ def best_private_bound(n: int, z: int, b_cap: int) -> tuple[int, int, int, int]:
 
 
 def main() -> None:
-    print("h=3 private-linear low-row bridge-budget compiler")
+    print("h=3 private-linear low/mid-row bridge-budget compiler")
     print(f"C_red={C_RED} H3_ACT_C={H3_ACT_C} degree_factor={DEGREE_FACTOR}")
     print(" s      n   Z_private       bound        16n    next_bound  next_B_cap")
     for row in EXPECTED_ROWS:
@@ -118,8 +124,8 @@ def main() -> None:
             f"{target:10d} {row.next_bound:13d} {row.next_b_cap:11d}"
         )
 
-    print("maximality check: Z_private passes and Z_private+1 fails for s=13..17")
-    print("conditional track: private-linear rank theorem + bridge => low-row H3-ACT(16)")
+    print("maximality check: Z_private passes and Z_private+1 fails for s=13..23")
+    print("conditional track: private-linear rank theorem + bridge => low/mid-row H3-ACT(16)")
     print("H3_PRIVATE_LINEAR_LOWROW_BUDGET_PASS")
 
 
