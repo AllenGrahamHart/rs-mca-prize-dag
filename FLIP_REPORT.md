@@ -72,7 +72,10 @@ No Modal job is required for the aggregate replay.
    non-q0 line fiber also has the h=2 cap `T_r <= 66 n^(2/3)`, reducing the
    remaining residue problem to an active-support bound for line parameters.
    The genuine support is a union of six-element `S_3` Mobius orbits, so the
-   support target should be stated on quotient line parameters.
+   support target should be stated on quotient line parameters.  The combined
+   compiler says that `R_orb <= C n^beta` with `beta < 4/3` pays the repeat
+   residue subcubically; a linear quotient-support theorem gives an
+   `O_C(n^(8/3))` payment.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

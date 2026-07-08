@@ -295,6 +295,24 @@ R_genuine = 6 R_orb.
 Future support bounds should target `R_orb`; this is a quotient compiler, not
 a support theorem.
 
+The repeat-boundary support compiler combines these pieces into the exact
+residue interface:
+
+```text
+B_line <= 132 n^(2/3) + 396 R_orb n^(2/3),
+repeat_residue
+  <= 1584 n^(5/3) + 4752 R_orb n^(5/3) + 18n^2.
+```
+
+Therefore a quotient-support theorem
+
+```text
+R_orb <= C n^beta,   beta < 4/3
+```
+
+pays the repeat residue subcubically.  The natural linear target
+`R_orb <= Cn` would give an `O_C(n^(8/3))` residue bound.
+
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
 two affine factors, the claim that the products span the full degree space is
 false.  With

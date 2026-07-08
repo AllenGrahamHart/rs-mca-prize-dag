@@ -4251,3 +4251,49 @@ Focused replay:
 H2_AFFINE_COSET_PAIR_STEPANOV_PASS
 elapsed=0.03 maxrss=11392
 ```
+
+## T2 h=3 repeat-boundary support compiler
+
+Stage selected: combine the q0 payment, fixed-fiber cap, and `S_3` support
+quotient into one explicit repeat-residue theorem interface.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_SUPPORT_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_support_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_support_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_BOUNDARY_SUPPORT_COMPILER_PASS
+```
+
+Result: the repeat-residue branch now has the single quotient-support target
+
+```text
+B_line <= 132 n^(2/3) + 396 R_orb n^(2/3),
+repeat_residue
+  <= 1584 n^(5/3) + 4752 R_orb n^(5/3) + 18n^2.
+```
+
+Thus any theorem `R_orb <= C n^beta` with `beta < 4/3` pays the repeat residue
+subcubically; the linear quotient-support target gives an `O_C(n^(8/3))`
+payment.
+
+Focused replay:
+
+```text
+p=97 n=32 B_line=90 R_orb=10 B_line_bound=41291
+p=193 n=64 B_line=342 R_orb=28 B_line_bound=179520
+p=257 n=128 B_line=3786 R_orb=42 B_line_bound=425957
+H3_REPEAT_BOUNDARY_SUPPORT_COMPILER_PASS
+elapsed=0.18 maxrss=22552
+```
