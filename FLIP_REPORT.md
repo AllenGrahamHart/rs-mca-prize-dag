@@ -33,6 +33,19 @@ elapsed=55.63 maxrss=98688
 
 No Modal job is required for the aggregate replay.
 
+The h=3 repeat-boundary chain also has a focused replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+```
+
+Latest focused digest:
+
+```text
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=1.34 maxrss=49904
+```
+
 ## Confidence-ranked claims
 
 ### PROVED / replayed

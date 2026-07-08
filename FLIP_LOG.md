@@ -4297,3 +4297,39 @@ p=257 n=128 B_line=3786 R_orb=42 B_line_bound=425957
 H3_REPEAT_BOUNDARY_SUPPORT_COMPILER_PASS
 elapsed=0.18 maxrss=22552
 ```
+
+## T2 h=3 repeat-boundary focused replay
+
+Stage selected: add a standalone replay harness for the new repeat-boundary
+chain without lengthening the default F3 aggregate replay.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_REPLAY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+```
+
+Expected digest:
+
+```text
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+```
+
+Result: the focused replay covers the h=2 affine coset-pair input, the h=3
+moment identity, every repeat-boundary compiler/payment/guardrail packet, and
+the combined support compiler.  It does not launch Modal and does not run the
+older 55s aggregate.
+
+Focused replay:
+
+```text
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=1.34 maxrss=49904
+```

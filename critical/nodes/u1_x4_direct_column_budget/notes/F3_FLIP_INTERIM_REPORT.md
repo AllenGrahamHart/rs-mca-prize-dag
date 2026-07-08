@@ -313,6 +313,15 @@ R_orb <= C n^beta,   beta < 4/3
 pays the repeat residue subcubically.  The natural linear target
 `R_orb <= Cn` would give an `O_C(n^(8/3))` residue bound.
 
+The repeat-boundary chain has a focused replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+```
+
+It runs in about `1.34s` locally and ends with
+`F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
+
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
 two affine factors, the claim that the products span the full degree space is
 false.  With
