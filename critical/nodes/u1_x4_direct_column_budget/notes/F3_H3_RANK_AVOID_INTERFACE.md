@@ -12,7 +12,7 @@ remaining target from drifting.
 Question:
 
 ```text
-What exact theorem pair would let the existing h=3 arithmetic compiler prove
+What exact theorem pairs would let the h=3 arithmetic compilers prove
 H3-ACT(16) on every official row n=2^13..2^41?
 ```
 
@@ -21,20 +21,24 @@ Success criterion:
 - state the two remaining theorem obligations precisely;
 - verify that the current non-diagonal budget table covers every official
   exponent `13 <= s <= 41`;
+- verify that the private-linear budget table also covers every official
+  exponent `13 <= s <= 41`;
 - keep the result explicitly conditional.
 
 Failure criterion:
 
 - promote a rank-open or finite-field witness to `RC-RANK`;
 - forget the geometric batching/rank-capacity theorem;
-- use the private-linear rank cap with the current degree-2 compiler.
+- mix the private-linear rank cap with the degree-2 compiler.
 
 ## Interface
 
-For each official row `n=2^s`, let `Z_budget(s)` be the improved
-non-diagonal bridge budget from the low/mid and high-row budget packets.
+There are now two separately compiled arithmetic routes.  For each official
+row `n=2^s`, let `Z_budget(s)` be the improved non-diagonal bridge budget from
+the low/mid and high-row budget packets, and let `Z_private(s)` be the retuned
+private-linear budget.
 
-The two remaining h=3 theorem obligations are:
+The degree-2 non-diagonal route needs:
 
 ```text
 F3-RANK-AVOID:
@@ -57,6 +61,31 @@ F3-RANK-AVOID + H3-BRIDGE-RANKCAP(Z_budget(s))
   => H3-ACT(16) on row s.
 ```
 
+The private-linear route is separate.  It may be used only with the
+private-linear degree cap `L_private=(A-1)+3n(B-1)` and the retuned
+`Z_private(s)` table:
+
+```text
+F3-PRIVATE-LINEAR-RANK-AVOID:
+  after the same toral, constant-ratio, and hyperbola-line cells are paid or
+  excluded, every repaired private-linear signature-curve image family needed
+  by the bridge has rank greater than 13 D(A+D) times its rank-effective
+  capacity, for the printed private-linear witness parameters.
+
+H3-BRIDGE-PRIVATE-RANKCAP(Z_private):
+  activated non-toral h=3 shape pairs can be assigned to repaired
+  private-linear signature-curve images with total consumed rank capacity at
+  most Z_private(s).
+```
+
+Then the retuned private-linear arithmetic compiler gives:
+
+```text
+F3-PRIVATE-LINEAR-RANK-AVOID
+  + H3-BRIDGE-PRIVATE-RANKCAP(Z_private(s))
+  => H3-ACT(16) on row s.
+```
+
 Together with `F3_H3_PER_ROW_ACCIDENT_STEPANOV_POSE.md`, `H3-ACT(16)` gives
 the h=3 contribution bound needed for the F3 floor for all official rows.
 
@@ -73,6 +102,8 @@ The minimum and maximum printed rank-capacity budgets are:
 ```text
 Z_budget(13) = 16
 Z_budget(41) = 10795
+Z_private(13) = 23
+Z_private(41) = 15267
 ```
 
 For every row, the verifier checks the pinned non-diagonal witness
@@ -87,6 +118,16 @@ ceil(Z L / D) <= 16n,
 and that the already-banked `Z+1` row fails the `16n` target.  This packet does
 not rescan parameter space; the exhaustive scans remain in the low/high budget
 packets.
+
+For the private-linear table it checks the pinned `Z_private` witnesses with
+
+```text
+L_private = (A-1)+3n(B-1),
+ceil(Z_private L_private / D) <= 16n,
+```
+
+and verifies the stored `Z_private+1` bound is already above `16n`.  The
+maximality scans remain in `F3_H3_PRIVATE_LINEAR_LOWROW_BUDGET.md`.
 
 ## Replay
 

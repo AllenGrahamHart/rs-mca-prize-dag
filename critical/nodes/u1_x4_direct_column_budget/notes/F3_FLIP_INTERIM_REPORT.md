@@ -300,9 +300,16 @@ close h=3 through the current compiler:
 F3-RANK-AVOID + H3-BRIDGE-RANKCAP(Z_budget(s)) => H3-ACT(16)
 ```
 
-It verifies that the improved non-diagonal `Z_budget` table covers every
-official exponent `s=13..41`, with `Z_budget(13)=16` and
-`Z_budget(41)=10795`.  This is still conditional: neither the rank-good minor
+It now also records the private-linear alternate route:
+
+```text
+F3-PRIVATE-LINEAR-RANK-AVOID
+  + H3-BRIDGE-PRIVATE-RANKCAP(Z_private(s)) => H3-ACT(16)
+```
+
+Both arithmetic tables cover every official exponent `s=13..41`, with
+`Z_budget(13)=16`, `Z_budget(41)=10795`, `Z_private(13)=23`, and
+`Z_private(41)=15267`.  This is still conditional: neither rank-good minor
 avoidance theorem nor the geometric bridge/rank-capacity assignment is proved.
 
 The rank-form parameter compiler gives the current conditional constants for
