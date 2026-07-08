@@ -65,16 +65,20 @@ RC-RED(13):
   coefficient conditions.
 ```
 
-This packet still assumes the open nonvanishing gate:
+The rank audit `F3_H3_RICH_CURVE_NV_RANK_AUDIT.md` clarifies that the
+nonvanishing gate should be proved as an image-rank statement, not as full
+injectivity of the `A B^3` coefficient box.  The sufficient form is:
 
 ```text
-RC-NV:
-  The nonzero Phi produced by the linear system has nonzero cleared
-  substitution on every repaired nondegenerate curve in Z.
+RC-RANK:
+  The cleared substitution map to the direct sum over Z has rank
+  > 13 D (A + D) |Z|.
 ```
 
-`RC-NV` is the h=3 sparse/nonvanishing lemma; it is false without the
-degeneracy repairs in the previous packets.
+`RC-RANK` implies the required `RC-NV` conclusion because then the solution
+space to the log-jet conditions cannot be contained in the substitution
+kernel.  It remains false without the degeneracy repairs in the previous
+packets.
 
 ## Compiler
 
@@ -97,7 +101,7 @@ linear conditions.  Therefore a nonzero auxiliary exists if
 13 D (A + D) |Z| < A B^3.                       (LS3)
 ```
 
-Assuming `RC-NV`, each curve contributes at most
+Assuming `RC-RANK`/`RC-NV`, each curve contributes at most
 
 ```text
 L(A,B,h) / D
@@ -113,7 +117,7 @@ sum_{z in Z} T(z) < |Z| * L(A,B,h) / D.          (DEG3)
 
 This is only an arithmetic compiler.  The hard T1 content is now exactly:
 
-1. prove `RC-NV` after the degeneracy filters;
+1. prove `RC-RANK`, hence `RC-NV`, after the degeneracy filters;
 2. optimize `(A,B,D)` strongly enough that `(DEG3)` beats the F3 floor at the
    official rows.
 

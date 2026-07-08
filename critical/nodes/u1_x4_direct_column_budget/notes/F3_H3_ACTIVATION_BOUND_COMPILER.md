@@ -84,8 +84,8 @@ To close h=3 by this route, prove one of:
 
 1. `H3-ACT(C)` uniformly for an absolute `C`, using the repaired rich-curve
    Stepanov route.  The reduced-condition gate is banked as `RC-RED(13)`;
-   the remaining theorem gate is `RC-NV` plus constants after the degeneracy
-   filters; or
+   the remaining theorem gate is rank-form `RC-NV` plus constants after the
+   degeneracy filters; or
 2. a per-row certificate family that gives `A_3(n,p) <= Cn` at every official
    h=3 row not covered by a theorem.
 

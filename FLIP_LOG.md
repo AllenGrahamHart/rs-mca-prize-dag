@@ -645,3 +645,43 @@ At subgroup-admissible points, `m=X^a`, so each derivative-order condition is
 over-imposed by a polynomial of degree `< A+12D`.  This proves `RC-RED(13)`.
 The h=3 T1 wall is now the nonvanishing gate `RC-NV` plus constants, not the
 reduced-condition count.
+
+## T1 h=3 nonvanishing rank audit
+
+Stage selected: repair the statement of the remaining nonvanishing gate after
+`RC-RED(13)`.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_NV_RANK_AUDIT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_nv_rank_audit.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_nv_rank_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H3_RICH_CURVE_NV_RANK_AUDIT_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: full injectivity of the h=3 substitution map is not the right `RC-NV`
+target.  In the first three compiler rows, `A B^3` exceeds the direct-sum
+one-variable image cap `|Z|(L+1)`, so the substitution map has a nontrivial
+kernel for dimension reasons.  The sufficient and exact target is rank-form
+nonvanishing:
+
+```text
+rank(S_Z) > 13 D (A + D) |Z|.
+```
+
+All audited compiler rows have positive image-cap room above this condition
+count.  The next T1 theorem should therefore prove this rank lower bound after
+the degeneracy filters, not full coefficient-box injectivity.
