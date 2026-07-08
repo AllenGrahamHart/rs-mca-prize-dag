@@ -303,6 +303,11 @@ COMMANDS = [
         "H3_REPEAT_LOOSE_BRANCH_SLOPE_MAPS_PASS",
     ),
     (
+        "h3 repeat loose secondary subcells",
+        "f3_h3_repeat_loose_secondary_subcells.py",
+        "H3_REPEAT_LOOSE_SECONDARY_SUBCELLS_PASS",
+    ),
+    (
         "h3 repeat loose branch degree compiler",
         "f3_h3_repeat_loose_branch_degree_compiler.py",
         "H3_REPEAT_LOOSE_BRANCH_DEGREE_COMPILER_PASS",

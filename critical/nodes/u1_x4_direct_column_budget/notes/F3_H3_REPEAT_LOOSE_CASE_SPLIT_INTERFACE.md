@@ -32,8 +32,10 @@ Collision B:
   b = -(2a^2+2a+1)/(a^2+a+1).
 ```
 
-Secondary subcells inside Collision A or Collision B are exactly the
-one-variable pullbacks emitted by the branch-parametrization replay.
+Secondary subcells inside Collision A or Collision B are the finite
+one-variable pullback loci classified by the secondary-subcell compiler.
+After structural non-poles are stripped, their residual degrees are `24` on
+branch A and `29` on branch B.
 
 ## Role in h=3
 

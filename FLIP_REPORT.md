@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=39.86 maxrss=52892
+elapsed=41.50 maxrss=53256
 ```
 
 ## Confidence-ranked claims
@@ -200,6 +200,10 @@ elapsed=39.86 maxrss=52892
    forms `b=a(a+1)/(a^2+a+1)` and
    `b=-(2a^2+2a+1)/(a^2+a+1)`.  The current loose-triangle interface is
    therefore a generic nine-slope target plus these two special branch targets.
+   Secondary subcells inside the special branches are finite: after stripping
+   structural non-poles, the residual degrees are `24` on branch A and `29` on
+   branch B, so outside those loci the special branches have exactly eight
+   distinct slopes.
    The branch slope maps are explicit: branch A has eight slope maps of degree
    at most 4, and branch B has eight slope maps of degree at most 6.  Non-poles
    alone are not enough for the coordinate claim; the proof uses distinctness

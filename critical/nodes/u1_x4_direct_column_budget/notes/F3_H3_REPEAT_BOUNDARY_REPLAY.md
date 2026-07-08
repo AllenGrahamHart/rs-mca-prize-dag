@@ -68,6 +68,7 @@ The harness runs:
 - the loose collision-branch parametrization compiler;
 - the loose case-split interface;
 - the loose branch slope-map compiler;
+- the loose secondary-subcell compiler;
 - the loose branch degree compiler;
 - the loose generic degree compiler;
 - the loose Stepanov compiler;

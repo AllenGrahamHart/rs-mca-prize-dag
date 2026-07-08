@@ -6818,3 +6818,47 @@ H3_REPEAT_SLOPE_BRANCH_ASSEMBLY_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=39.86 maxrss=52892
 ```
+
+## T2/T3 h=3 repeat loose secondary subcells
+
+Stage selected: quantify the finite lower-dimensional exceptions inside the
+two one-parameter loose collision branches.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SECONDARY_SUBCELLS.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_secondary_subcells.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_secondary_subcells.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_SECONDARY_SUBCELLS_PASS
+```
+
+Result: after stripping structural non-poles `a`, `a+1`, and `a^2+a+1`,
+the residual secondary products have degrees
+
+```text
+branch A: 24,
+branch B: 29.
+```
+
+Away from those finite parameter loci, the special branches have exactly
+eight distinct slopes.  Tiny finite guardrails over `p=5,7,11,13,17,97`
+checked `186` valid branch parameters.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_SECONDARY_SUBCELLS_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=41.50 maxrss=53256
+```

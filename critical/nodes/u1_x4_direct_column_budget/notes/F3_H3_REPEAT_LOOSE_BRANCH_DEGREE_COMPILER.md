@@ -7,7 +7,8 @@ loose collision branches.
 
 ## Membership Maps
 
-On either special branch, the eight unique slope conditions have the form
+On either special branch, outside the finite secondary-subcell locus, the eight
+unique slope conditions have the form
 
 ```text
 1 + c_i(a) X in H.
@@ -29,6 +30,10 @@ The aggregate budgets are:
 branch A: 8 maps, sum_a_degrees=17, sum_total_degrees=22, max_total_degree=5;
 branch B: 8 maps, sum_a_degrees=19, sum_total_degrees=24, max_total_degree=7.
 ```
+
+The secondary-subcell compiler isolates the remaining lower-dimensional
+parameters: after stripping structural non-poles, branch A has residual degree
+`24` and branch B has residual degree `29`.
 
 ## Clearing Formula
 
@@ -74,8 +79,8 @@ branch B: deg_a <= A-1+19n(B-1), total <= A+C-2+24n(B-1).
 This is not a nonvanishing theorem.  It is the arithmetic input for a future
 two-variable Stepanov/incidence argument on the special loose branches.  The
 generic loose branch still has the two-parameter nine-slope target, while the
-two collision branches are now explicit degree-budgeted two-variable rational
-membership problems.
+two collision branches are now explicit degree-budgeted one-parameter rational
+membership problems away from a finite secondary set.
 
 ## Replay
 
