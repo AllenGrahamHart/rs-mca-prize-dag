@@ -4655,3 +4655,29 @@ boundary/smooth rows with zero anchored nontoral trades and no n^3 alarm.  The
 three h=8 rows currently banked are zero only in checked slices and remain
 `partial=True`; they are useful evidence, not certificates.  Next h=8 action:
 shard-complete anchor certificates or x83 square-shift norm-gate keys.
+
+## 2026-07-08 Bonus queue: h=3 per-row accident Stepanov pose
+
+Stage: bonus item (iii), pose the h=3 per-row accident bound.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PER_ROW_ACCIDENT_STEPANOV_POSE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
+```
+
+Digest: `H3_PER_ROW_ACCIDENT_POSE_PASS`.
+
+Pose banked: define `A_3(n,p)` as the number of non-toral activated h=3
+dilation-shape orbits at a fixed row.  The target theorem
+`A_3(n,p) <= Cn` for `p=1 mod n`, `p>=n^2` would compile to
+`T_3 < n^3` from `n>=17` already for `C=16`.  The note records the
+hyperbola/Stepanov ansatz as a multi-Delta rich-value theorem for shifted
+subgroup product incidences.

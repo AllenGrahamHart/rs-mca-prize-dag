@@ -1920,3 +1920,9 @@ Bonus queue update: item (ii) has a replayed h=6/7/8 sweep status note.  It
 verifies 11 full h=6/h=7 q>=n^2 rows with zero anchored nontoral trades and no
 n^3 alarm.  The three h=8 rows are explicitly partial zero slices, so h=8 still
 needs shard-complete certificates or x83 norm-gate keys.
+
+Bonus queue update: item (iii) now has a posed h=3 per-row accident theorem.
+With `A_3(n,p)` the number of activated non-toral dilation-shape orbits at a
+fixed row, the target `A_3(n,p) <= Cn` compiles to `T_3<n^3` for all `n>=17`
+when `C=16`.  The note records the hyperbola/Stepanov ansatz as a multi-Delta
+rich-value theorem; no proof of this target is claimed.
