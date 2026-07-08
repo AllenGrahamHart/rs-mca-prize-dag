@@ -5073,3 +5073,35 @@ Modal runs:
 gate: https://modal.com/apps/allengrahamhart/main/ap-ZAk46tL9SN1s11CFOkqlJi
 full: https://modal.com/apps/allengrahamhart/main/ap-99OG86SNtWLVrIKsovgVqI
 ```
+
+## 2026-07-08 Bonus queue continuation: h=8 n=64 square-lift probe
+
+Stage: bonus item (ii), h=6/7/8 ladder sweep.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_SQUARE_LIFT_PROBE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_square_lift_probe.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_square_lift_probe.py
+```
+
+Digest:
+
+```text
+H8_N64_SQUARE_LIFT_PROBE_PASS
+```
+
+Result: the antipodal h=8 n64 branch was reduced to h=4 on `mu_32` for the two
+existing h=8 n64 partial rows.  At low `p=193`, the quotient h=4 branch has
+`15` anchored trades (`7` toral, `8` nontoral), so that row remains a low-field
+diagnostic.  At the `q3_n64_h8` prime `p=262337`, the quotient h=4 branch has
+only `7` toral anchored trades and zero nontoral quotient residue.  This does
+not certify the non-antipodal h=8 branch, but it rules out an unaccounted
+antipodal square-lift obstruction at the q3 row.

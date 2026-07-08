@@ -2011,3 +2011,11 @@ rank-balanced full certificate at `p=4289`.  All 16 Modal shards completed under
 anchored-left table; together they probed all `553270671` right subsets.  The
 aggregate has zero anchored toral trades, zero anchored nontoral trades, and no
 `n^3` alarm.  The aggregate h6/h8 replay now requires this h=7 JSON certificate.
+
+Continuation h=8 structural update: a light square-lift probe reduces the
+antipodal h=8 n64 branch to h=4 on `mu_32`.  The low `p=193` diagnostic row has
+`15` quotient h=4 anchored trades (`7` toral, `8` nontoral), but the `q3_n64_h8`
+prime `p=262337` has only `7` toral quotient trades and zero nontoral quotient
+residue.  This does not certify the full h=8 n64 row; it says the remaining
+q3 obstruction, if any, is non-antipodal primitive structure or another paid
+branch, not an antipodal square-lift.

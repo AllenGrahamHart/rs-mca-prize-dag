@@ -123,6 +123,17 @@ boundary_n64_h8_p193        zero in checked slice, partial=True
 q3_n64_h8                   zero in checked slice, partial=True
 ```
 
+Square-lift h=8 n=64 structural probe:
+
+```text
+p=193     h4 quotient branch: total=15, toral=7, nontoral=8
+p=262337  h4 quotient branch: total=7,  toral=7, nontoral=0
+```
+
+The probe is in `f3_h8_n64_square_lift_probe.py`.  It does not certify the
+non-antipodal h=8 branch, but it shows that the `q3_n64_h8` antipodal
+square-lift branch is clean after the h=4 quotient ledger.
+
 ## Interpretation
 
 The h=6/h=7 rows mostly continue the pattern from the shallow ladder, but the
@@ -154,6 +165,7 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certi
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_p4993_square_lift_analysis.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_boundary_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_square_lift_probe.py
 ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 F3_H6_N64_MODE=extra ~/.venvs/modal/bin/modal run \
@@ -170,6 +182,7 @@ H6_N64_BOUNDARY_CERTIFICATE_JSON_PASS
 H6_N64_EXTRA_PRIMES_SWEEP_VERIFY_PASS
 H6_P4993_SQUARE_LIFT_ANALYSIS_PASS
 H7_N64_BOUNDARY_CERTIFICATE_JSON_PASS
+H8_N64_SQUARE_LIFT_PROBE_PASS
 H6_N64_BOUNDARY_CERTIFICATE_PASS
 H6_N64_EXTRA_PRIMES_SWEEP_DONE
 H7_N64_BOUNDARY_CERTIFICATE_PASS
