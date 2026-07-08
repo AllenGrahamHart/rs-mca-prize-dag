@@ -133,8 +133,12 @@ s=40: Z_budget=5889
 s=41: Z_budget=7420
 ```
 
-These are verified lower budgets under the `B_max=50000` diagonal search, not
-impossibility results for larger families.
+For each printed row the replay now verifies a pinned passing diagonal-box
+witness at `Z_budget`, and exhaustively scans the same `B_max=50000` diagonal
+search at `Z_budget+1` to verify failure.  Monotonicity in `|Z|` therefore
+makes the table maximal inside the stated diagonal search box.  This still does
+not prove the geometric batching contract, `RC-RANK`, or impossibility under
+other Stepanov parameter families.
 
 A tempting shortcut for the rank theorem is already refuted.  Private
 zeros/poles for `X,r_1,r_2,r_3` do not imply full coefficient-rank

@@ -1145,3 +1145,20 @@ diagonal-box witness and still exhaustively scans `Z_budget+1` under
 `B_max=50000` to prove failure.  Monotonicity in `Z` then gives the same
 maximality claim inside the stated search box, while reducing the standalone
 runtime from about `2.9s` to about half that.
+
+## T1/T2 h=3 interim-report sync
+
+Stage selected: keep the main F3 interim report aligned with the stronger
+bridge-budget verifier.
+
+Banked file:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+```
+
+Change: the h=3 bridge-budget section now states the precise current status:
+`Z_budget` is verified by a pinned passing witness, `Z_budget+1` is exhaustively
+replayed as failing in the `B_max=50000` diagonal search box, and monotonicity
+therefore gives maximality only inside that stated box.  The report still keeps
+`RC-RANK`, geometric batching, and other Stepanov parameter families as open.
