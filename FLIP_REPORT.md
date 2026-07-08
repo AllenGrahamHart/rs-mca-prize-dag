@@ -58,7 +58,9 @@ No Modal job is required for the aggregate replay.
 7. The h=3 ordered-triple moment bookkeeping is exact:
    `M = trivial + 72 T_3 + repeat_residue`, with
    `trivial = 36 binom(n,3) + 9n(n-1) + n`; the repeat-entry residue is a real
-   term that a moment proof must pay.
+   term that a moment proof must pay.  It now has the boundary reduction
+   `repeat_residue <= 12 D_boundary + 18 Z_repeat`, where `D_boundary` counts
+   distinct triples lying over repeated signatures.
 8. The h=3 dilation-normalized activation count lifts to at most `n` raw
    shape pairs per orbit; side-swap stabilizers only reduce the lift size.
 9. Nondegenerate h=3 conic charts have no internal constant-ratio collapse

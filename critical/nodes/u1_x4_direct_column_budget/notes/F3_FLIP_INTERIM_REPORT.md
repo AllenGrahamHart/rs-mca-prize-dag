@@ -137,6 +137,33 @@ The factor `72` is `2*6*6` from unordered disjoint distinct triple-pairs.  The
 one side has a repeated entry; the replay finds it nonzero on small rows, so a
 moment-form proof must bound or pay it rather than dropping it.
 
+The repeat-residue boundary compiler turns that residue into a smaller exact
+ledger.  In characteristic not `2,3`, repeated multisets with a fixed
+`(sum, sumsq)` signature have ordered repeated weight
+
+```text
+R_sigma in {0,1,3,6}.
+```
+
+Triple repeats do not collide with double repeats, and the only possible
+second double-repeat solution to `(a,a,b)` is the involution
+
+```text
+((a+2b)/3, (4a-b)/3).
+```
+
+If `D_sigma` is the ordered distinct-entry weight over a repeated signature,
+then
+
+```text
+repeat_residue_sigma = 2 D_sigma R_sigma + R_sigma^2 - Q_sigma,
+repeat_residue <= 12 D_boundary + 18 Z_repeat.
+```
+
+Here `D_boundary=sum_{R_sigma>0} D_sigma` and
+`Z_repeat=#{sigma: R_sigma>0}`.  Thus the moment route no longer has a vague
+residue term; it has a precise boundary target to bound.
+
 The dilation-lift packet justifies the normalization factor in the activation
 compiler.  If `A_3(n,p)` counts activated unordered shape-pair orbits modulo
 common multiplication by `H`, then the raw unnormalized shape-pair count is at

@@ -3877,3 +3877,50 @@ source-Mobius normalization update:
 F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 elapsed=55.63 maxrss=98688
 ```
+
+## T2 h=3 repeat-residue boundary compiler
+
+Stage selected: refine the nonzero repeat residue from the h=3 moment identity
+into an exact boundary ledger rather than running further broad searches.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_RESIDUE_BOUNDARY_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_residue_boundary_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_residue_boundary_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_RESIDUE_BOUNDARY_COMPILER_PASS
+```
+
+Result: repeated-entry multisets over a fixed `(sum, sumsq)` signature have
+ordered repeated weight `R_sigma in {0,1,3,6}`.  The exact residue formula is
+
+```text
+repeat_residue_sigma = 2 D_sigma R_sigma + R_sigma^2 - Q_sigma,
+```
+
+and hence
+
+```text
+repeat_residue <= 12 D_boundary + 18 Z_repeat.
+```
+
+Focused replay:
+
+```text
+p=97 n=16 repeat_residue=288 D_boundary=0 Z_repeat=240 bound=4320
+p=97 n=32 repeat_residue=17664 D_boundary=2688 Z_repeat=960 bound=49536
+p=193 n=64 repeat_residue=135552 D_boundary=20352 Z_repeat=3776 bound=312192
+H3_REPEAT_RESIDUE_BOUNDARY_COMPILER_PASS
+elapsed=0.14 maxrss=22788
+```
