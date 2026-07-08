@@ -685,3 +685,36 @@ rank(S_Z) > 13 D (A + D) |Z|.
 All audited compiler rows have positive image-cap room above this condition
 count.  The next T1 theorem should therefore prove this rank lower bound after
 the degeneracy filters, not full coefficient-box injectivity.
+
+## T1 h=3 rank-form finite-field sample
+
+Stage selected: test whether the corrected rank-form nonvanishing target
+separates the known collapsed family from a repaired degree-2 sample.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_RANK_SAMPLE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H3_RICH_CURVE_RANK_SAMPLE_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: in the toy row `p=769, h=32, A=5, B=4, D=1`, the condition count is
+`78`.  The collapsed constant-ratio family `X,3X,5X` has substitution rank
+`50` and fails the rank target; the deterministic repaired random degree-2
+curve has full coefficient rank `320` and passes.  This is sample evidence
+only, but it checks that `RC-RANK` is aimed at the same degeneracy geometry as
+the previous filters.

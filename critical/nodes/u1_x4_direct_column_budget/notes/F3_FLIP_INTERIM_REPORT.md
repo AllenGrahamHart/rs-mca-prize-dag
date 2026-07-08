@@ -80,6 +80,11 @@ is dimensionally impossible in some compiler rows, so the next theorem must be
 rank-aware.  The rational norm-coprimality version should not be used; it is
 already refuted by the random norm sample.
 
+The finite-field rank sample supports this target without proving it.  At
+`p=769, h=32, A=5, B=4, D=1`, the constant-ratio collapsed control has rank
+`50 < 78` and fails `RC-RANK`, while a deterministic repaired random degree-2
+curve has full coefficient rank `320 > 78`.
+
 ### h=4
 
 The structural dichotomy is already proved in the DAG:
