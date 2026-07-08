@@ -245,6 +245,16 @@ This is not supplied by the h=2 rich-coset theorem: the h=2 theorem controls
 two affine membership conditions, while the repeat boundary genuinely needs
 the fourth condition `lambda in H`.
 
+The LP4 exception ledger isolates the non-generic line parameters.  The
+coefficient-collision set
+
+```text
+r in {0, -1, 1, -1/2, -2}
+```
+
+is inadmissible for distinct boundary triples: `0` and `-1` are invalid, and
+the other three force equality among `u,v,w`.
+
 The q0-cell packet pays the one lower-condition LP4 subcell.  When
 `r^2+r+1=0`, the fourth form is constant `lambda=1`, and there are at most two
 such line parameters.  Dropping the third nonconstant form leaves a two-affine
@@ -1103,7 +1113,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `43.19s` locally and ends with
+It runs in about `45.82s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

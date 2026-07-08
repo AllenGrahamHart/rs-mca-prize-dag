@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=43.19 maxrss=53264
+elapsed=45.82 maxrss=53264
 ```
 
 ## Confidence-ranked claims
@@ -87,8 +87,11 @@ elapsed=43.19 maxrss=53264
    positive-degree gcd for these active cubics.
    The special triple-repeat cell `r^2+r+1=0` is already paid by the h=2
    coset-pair Stepanov corollary: `B_q0 <= 132 n^(2/3)`.  Every fixed
-   non-q0 line fiber also has the h=2 cap `T_r <= 66 n^(2/3)`, reducing the
-   remaining residue problem to an active-support bound for line parameters.
+   non-q0 line fiber also has the h=2 cap `T_r <= 66 n^(2/3)`.  The LP4
+   exception ledger records that `r in {0,-1,1,-1/2,-2}` is inadmissible for
+   distinct triples, while q0 is the paid triple-repeat cell, reducing the
+   remaining residue problem to an active-support bound for genuine line
+   parameters.
    The genuine support is a union of six-element `S_3` Mobius orbits, so the
    support target should be stated on quotient line parameters.  The combined
    compiler says that `R_orb <= C n^beta` with `beta < 4/3` pays the repeat

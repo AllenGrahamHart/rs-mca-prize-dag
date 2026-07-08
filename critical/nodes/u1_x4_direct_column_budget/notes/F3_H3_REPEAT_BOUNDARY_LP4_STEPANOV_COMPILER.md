@@ -169,6 +169,10 @@ The proof debt is now sharply separated: prove the LP4 rank/nonvanishing
 theorem and optimize the constants, or pay the line-pencil boundary by another
 method.
 
+The LP4 exception ledger records the excluded cells for this generic gate:
+`r in {0,-1,1,-1/2,-2}` is inadmissible for distinct triples, while
+`r^2+r+1=0` is the q0 triple-repeat cell already paid by the q0 packet.
+
 ## Replay
 
 Standalone arithmetic check:

@@ -37,6 +37,7 @@ The harness runs:
 - the slope mixed degree compiler;
 - the slope branch assembly;
 - the LP4 Stepanov compiler;
+- the LP4 exception ledger;
 - the q0 cell payment;
 - the fixed-fiber cap;
 - the `S_3` support symmetry;

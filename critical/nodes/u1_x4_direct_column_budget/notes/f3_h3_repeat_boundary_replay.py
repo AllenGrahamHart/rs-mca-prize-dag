@@ -148,6 +148,11 @@ COMMANDS = [
         "H3_REPEAT_BOUNDARY_LP4_STEPANOV_COMPILER_PASS",
     ),
     (
+        "h3 repeat LP4 exception ledger",
+        "f3_h3_repeat_lp4_exception_ledger.py",
+        "H3_REPEAT_LP4_EXCEPTION_LEDGER_PASS",
+    ),
+    (
         "h3 repeat-boundary q0 cell",
         "f3_h3_repeat_boundary_q0_cell.py",
         "H3_REPEAT_BOUNDARY_Q0_CELL_PASS",

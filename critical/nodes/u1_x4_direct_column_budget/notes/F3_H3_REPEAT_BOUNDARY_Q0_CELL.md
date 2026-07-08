@@ -81,6 +81,9 @@ Consequently the q0 part of the repeat residue is paid by
 which is far below the cubic floor.  The remaining line-pencil theorem may
 exclude `q(r)=0` and handle only the genuinely four-form cell.
 
+The LP4 exception ledger records this as the paid exceptional cell of the
+generic four-form line-pencil gate.
+
 ## Replay
 
 Standalone row ledger:

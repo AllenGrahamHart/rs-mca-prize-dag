@@ -7090,3 +7090,46 @@ H3_REPEAT_FRONTIER_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=43.19 maxrss=53264
 ```
+
+## T2/T3 h=3 repeat LP4 exception ledger
+
+Stage selected: make the generic LP4 line-pencil gate's excluded and paid
+line-parameter cells explicit.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LP4_EXCEPTION_LEDGER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lp4_exception_ledger.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lp4_exception_ledger.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LP4_EXCEPTION_LEDGER_PASS
+```
+
+Result: the first three LP4 coefficients collide only for
+
+```text
+r in {0, -1, 1, -1/2, -2}.
+```
+
+The first two values are invalid and the other three force duplicate boundary
+coordinates, so they do not contribute to the distinct-boundary LP4 target.
+The remaining exceptional cell `r^2+r+1=0` is q0, already paid by
+`B_q0 <= 132 n^(2/3)` and repeat contribution `<=1584 n^(5/3)`.
+
+Focused replay:
+
+```text
+H3_REPEAT_LP4_EXCEPTION_LEDGER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=45.82 maxrss=53264
+```
