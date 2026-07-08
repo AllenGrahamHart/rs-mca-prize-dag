@@ -126,6 +126,20 @@ E(H) <= 83851 h^(5/2),
 T_2 <= (83851/8) h^(5/2).
 ```
 
+F3 flip constant-campaign update (2026-07-08):
+`F3_H2_RICH_COSET_OPTIMIZED.md` keeps the same auxiliary polynomial and
+nonvanishing proof, but replaces the coarse floor-loss inequalities by exact
+bookkeeping.  It proves the stronger rich-coset constant `K=66`, giving
+
+```text
+E(H) <= 22111 h^(5/2),
+T_2 <= (22111/8) h^(5/2).
+```
+
+This lowers the in-house h=2 `T_2 < h^3` crossover to integer
+`h >= 7,639,006`, so every official power-of-two row from `2^23` upward is
+covered by the in-house chain alone.
+
 More generally, once B2-rich is proved with any explicit `K`, the h=2 floor
 follows for all
 

@@ -31,6 +31,7 @@ def main() -> None:
         Fraction(4),
         Fraction(8),
         Fraction(16),
+        Fraction(66),
         Fraction(129),
     ):
         c_energy = energy_constant(k)
