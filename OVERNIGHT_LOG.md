@@ -233,16 +233,17 @@ Replay:
 Modal run:
 
 ```text
-https://modal.com/apps/allengrahamhart/main/ap-hXS3spw73TRElbWynHoLnM
+https://modal.com/apps/allengrahamhart/main/ap-Zxs2CntPQhR6CBzOeCT1U4
 ```
 
-Result: first deterministic slice, `2000` affine/Galois representatives,
-`25` rational threshold norm exceptions, `2` actual common-root activation
+Result: deterministic slice, `4000` affine/Galois representatives,
+`46` rational threshold norm exceptions, `3` actual common-root activation
 exceptions:
 
 ```text
 [0, 1, 2 | 3, 26, 74] activates at p=1033441
 [0, 1, 2 | 3, 17, 81] activates at p=207073
+[0, 1, 2 | 3, 51, 53] activates at p=13249
 ```
 
 Digest: `H3_AFFINE_CENSUS_FEASIBILITY_DONE`.

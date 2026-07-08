@@ -11,7 +11,7 @@ image = modal.Image.debian_slim().pip_install("sympy")
 
 N = 96
 N_SHARDS = 8
-TARGET_REPS_PER_SHARD = 250
+TARGET_REPS_PER_SHARD = 500
 RAW_LIMIT_PER_SHARD = 50000
 
 

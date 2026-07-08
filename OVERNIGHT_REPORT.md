@@ -302,13 +302,13 @@ common-root activation exceptions for the eventual exceptional list.
    Modal run:
 
    ```text
-   https://modal.com/apps/allengrahamhart/main/ap-hXS3spw73TRElbWynHoLnM
+   https://modal.com/apps/allengrahamhart/main/ap-Zxs2CntPQhR6CBzOeCT1U4
    ```
 
    Result:
 
    ```text
-   TOTAL unique_reps=2000 norm_exceptions=25 activation_exceptions=2
+   TOTAL unique_reps=4000 norm_exceptions=46 activation_exceptions=3
    H3_AFFINE_CENSUS_FEASIBILITY_DONE
    ```
 
@@ -317,6 +317,7 @@ common-root activation exceptions for the eventual exceptional list.
    ```text
    [0, 1, 2 | 3, 26, 74] activates at p=1033441
    [0, 1, 2 | 3, 17, 81] activates at p=207073
+   [0, 1, 2 | 3, 51, 53] activates at p=13249
    ```
 
    Consequence: Terminal C should not be phrased as zero common-root

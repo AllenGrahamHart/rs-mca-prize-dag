@@ -31,7 +31,7 @@ Compute discipline:
 - Modal only;
 - `8` shards;
 - worker timeout `60s`;
-- each shard stops after `250` assigned affine reps or its raw scan limit;
+- each shard stops after `500` assigned affine reps or its raw scan limit;
 - partial shard results print before aggregate summary.
 
 ## Replay
@@ -51,13 +51,13 @@ H3_AFFINE_CENSUS_FEASIBILITY_DONE
 Modal run:
 
 ```text
-https://modal.com/apps/allengrahamhart/main/ap-hXS3spw73TRElbWynHoLnM
+https://modal.com/apps/allengrahamhart/main/ap-Zxs2CntPQhR6CBzOeCT1U4
 ```
 
 Output summary:
 
 ```text
-TOTAL unique_reps=2000 norm_exceptions=25 activation_exceptions=2
+TOTAL unique_reps=4000 norm_exceptions=46 activation_exceptions=3
 H3_AFFINE_CENSUS_FEASIBILITY_DONE
 ```
 
@@ -66,11 +66,13 @@ Actual activation exceptions found:
 ```text
 [0, 1, 2 | 3, 26, 74] activates at p=1033441
 [0, 1, 2 | 3, 17, 81] activates at p=207073
+[0, 1, 2 | 3, 51, 53] activates at p=13249
 ```
 
 Local exact verification: each shape is char-zero nonzero for both
 obstructions, and each has exactly one primitive 96th root modulo the listed
-prime where both obstructions vanish.
+prime where both obstructions vanish.  The `p=13249` exception is the
+affine/Galois representative of one of the observed activated ladder shapes.
 
 Verdict: the full Terminal C deliverable must indeed be an empirical
 coprimality rate plus exceptional list.  A zero-exception common-root statement
