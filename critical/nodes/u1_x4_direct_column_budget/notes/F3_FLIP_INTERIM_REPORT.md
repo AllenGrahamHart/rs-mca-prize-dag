@@ -313,6 +313,26 @@ R_orb <= C n^beta,   beta < 4/3
 pays the repeat residue subcubically.  The natural linear target
 `R_orb <= Cn` would give an `O_C(n^(8/3))` residue bound.
 
+The repeat-support crossover compiler quantifies the constant pressure for
+that linear target.  Using the proof-safe sufficient bound
+
+```text
+repeat_residue <= (4752C+1602)n^(8/3),
+```
+
+the official-row coverage is:
+
+```text
+C=1/2: 2^36..2^41
+C=1:   2^38..2^41
+C=2:   2^41 only
+C=4:   no official row by this sufficient test.
+```
+
+So linear support is asymptotically enough, but a full h=3 constants campaign
+still needs either a small support constant, sharper arithmetic, or finite
+certificates for the lower official rows.
+
 The repeat-boundary chain has a focused replay:
 
 ```bash

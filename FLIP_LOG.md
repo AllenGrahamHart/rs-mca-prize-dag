@@ -4333,3 +4333,50 @@ Focused replay:
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=1.34 maxrss=49904
 ```
+
+## T3 h=3 repeat-support crossover
+
+Stage selected: translate the new quotient-support theorem target into
+official-row constant pressure.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SUPPORT_CROSSOVER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_crossover.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_crossover.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SUPPORT_CROSSOVER_PASS
+```
+
+Result: assuming a future linear quotient-support theorem `R_orb <= Cn`, the
+proof-safe sufficient bound
+
+```text
+repeat_residue <= (4752C+1602)n^(8/3)
+```
+
+is below `n^3` when `n>(4752C+1602)^3`.  Representative official coverage:
+
+```text
+C=1/2: first_official=36, coverage=2^36..2^41
+C=1:   first_official=38, coverage=2^38..2^41
+C=2:   first_official=41, coverage=2^41..2^41
+C=4:   no official row by this sufficient test
+```
+
+Focused replay:
+
+```text
+H3_REPEAT_SUPPORT_CROSSOVER_PASS
+elapsed=0.02 maxrss=11776
+```

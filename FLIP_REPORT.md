@@ -88,7 +88,9 @@ elapsed=1.34 maxrss=49904
    support target should be stated on quotient line parameters.  The combined
    compiler says that `R_orb <= C n^beta` with `beta < 4/3` pays the repeat
    residue subcubically; a linear quotient-support theorem gives an
-   `O_C(n^(8/3))` payment.
+   `O_C(n^(8/3))` payment.  The conservative official-row crossover for a
+   linear support theorem is constant-sensitive: `C=1/2` covers `2^36..2^41`,
+   `C=1` covers `2^38..2^41`, and `C=2` covers only `2^41`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.
