@@ -1916,6 +1916,12 @@ positive control and zero q>=n^2 h=4/h=5 residue checks.  The h=5 no-primitive
 theorem remains a norm-gate exclusion/certificate problem, not a promoted
 theorem.
 
+Follow-up h=5 update: a compiled complete `n=32,h=5` multirow certificate now
+covers `p=1153,3137,12289,32801,40961,61441,65537`.  Each row checks `31465`
+anchored left subsets and `169911` right subsets, with zero anchored nontoral
+trades.  This strengthens the h=5 certificate evidence but does not promote the
+uniform h=5 no-primitive theorem.
+
 Bonus queue update: item (ii) has a replayed h=6/7/8 sweep status note.  It
 verifies 11 full h=6/h=7 q>=n^2 rows with zero anchored nontoral trades and no
 n^3 alarm.  The three h=8 rows are explicitly partial zero slices, so h=8 still

@@ -61,12 +61,17 @@ branch.
 
 ## Verified Row Evidence
 
-The existing boundary/smooth confinement artifacts give:
+The existing boundary/smooth confinement artifacts plus the new compiled h=5
+certificate give:
 
 - positive control: `n=16,h=4,p=17` detects `60` nontoral trades;
 - h=4 smooth/confined rows at `p=97,113,241,337` detect zero nontoral trades;
 - h=5 smooth/confined rows at `p=97,113,241` detect zero nontoral trades;
-- the boundary row `n=32,h=5,p=1153` detects zero nontoral trades;
+- the boundary row `n=32,h=5,p=1153` detects zero nontoral trades in the
+  original artifact;
+- the compiled h=5 replay gives complete zero anchored nontoral certificates
+  at `n=32,h=5` for
+  `p in {1153,3137,12289,32801,40961,61441,65537}`;
 - M720 separately replays the low-row h=5 gate `full_census(32,5,97)=96`,
   all non-toral, below the q >= n^2 regime.
 
@@ -100,11 +105,12 @@ Do not promote h=5 to `PROVED` from the current evidence alone.
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
 ```
 
 Expected digest:
 
 ```text
 H4_H5_BONUS_REDUCTION_PASS
+H5_N32_MULTIROW_CERTIFICATE_PASS
 ```
-

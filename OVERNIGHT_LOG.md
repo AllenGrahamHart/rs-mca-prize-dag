@@ -4631,6 +4631,34 @@ and verifies zero h=4/h=5 primitive residue in the q>=n^2 test rows.  Remaining
 work: the h=5 no-primitive theorem itself, as a symbolic norm-gate exclusion or
 per-row certificate family.
 
+Update: h=5 now has a complete compiled `n=32` multirow certificate:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N32_MULTIROW_CERTIFICATE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.json
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+```
+
+Digests:
+
+```text
+H5_N32_MULTIROW_CERTIFICATE_PASS
+H4_H5_BONUS_REDUCTION_PASS
+```
+
+Result: for `n=32,h=5` and
+`p in {1153,3137,12289,32801,40961,61441,65537}`, the replay checks all
+`31465` anchored left subsets and `169911` right subsets and finds zero
+anchored nontoral trades.  This strengthens the h=5 no-primitive evidence but
+does not prove the uniform theorem.
+
 ## 2026-07-08 Bonus queue: h=6/7/8 sweep status
 
 Stage: bonus item (ii), h=6/7/8 ladder sweep.
