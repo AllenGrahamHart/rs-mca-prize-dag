@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.91 maxrss=50104
+elapsed=17.86 maxrss=50104
 ```
 
 ## Confidence-ranked claims
@@ -135,6 +135,10 @@ elapsed=17.91 maxrss=50104
    `rho in {t(2-t): t in E}`.  Both are unified by
    `A_lambda(T)=T(T-1)^2+lambda*T(2-T)`: active edges are 3-point H-level
    fibers of `A_lambda`, and rho is a secant slope in the lambda direction.
+   In reciprocal coordinates, the same branch is controlled by the cubic
+   `X^3+(lambda-1)R X-R`: fixed-`lambda` injectivity is uniqueness of the
+   reciprocal product `R`, and the rho-hit values are `1-r^-2` on reciprocal
+   roots.
    The pairwise-coreless case further splits into a 3-edge coreless triangle
    or the tetrahedral four-3-subsets pattern.  The 3-edge coreless triangle
    further has only two combinatorial patterns: loose `(1,1,1)` and pinched

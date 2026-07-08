@@ -609,6 +609,29 @@ slopes in the lambda direction.  Thus `H3-LAMBDA-INJECTIVE` becomes uniqueness
 of active 3-point H-level values for fixed lambda, and `H3-RHO-HIT` becomes a
 slope-hit statement for `T(2-T)` on the source edge.
 
+The reciprocal-product compiler gives the parallel invariant form.  For
+reciprocal roots `{r,s,t}` with `r+s+t=0`, write
+
+```text
+R=rst.
+```
+
+Then the edge is the root set of
+
+```text
+X^3+(lambda-1)R X-R,
+```
+
+and the coordinate product is `m=lambda+R^-1`.  Therefore fixed-`lambda`
+injectivity is uniqueness of the reciprocal product `R`.  For lambda-distinct
+edges `(lambda,R)` and `(mu,S)`,
+
+```text
+rho = 1 + (R^-1-S^-1)/(lambda-mu),
+```
+
+and the source-edge slope values are `1-r^-2` on reciprocal roots.
+
 The pairwise-coreless compiler splits the other taxonomy branch.  A
 pairwise-intersecting coreless obstruction on at most four active 3-edges
 either has a 3-edge coreless subfamily, or every triple has a common point and
@@ -700,7 +723,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `17.91s` locally and ends with
+It runs in about `17.86s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

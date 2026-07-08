@@ -20,6 +20,7 @@ The harness runs:
 - the lambda-fiber ledger;
 - the quadratic-rho compiler;
 - the affine value-slope compiler;
+- the reciprocal-product compiler;
 - the LP4 Stepanov compiler;
 - the q0 cell payment;
 - the fixed-fiber cap;

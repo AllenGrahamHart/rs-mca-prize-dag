@@ -5440,3 +5440,52 @@ H3_REPEAT_LOOSE_RECIPROCAL_CLOSURE_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=17.91 maxrss=50104
 ```
+
+## T2/T3 h=3 repeat reciprocal-product compiler
+
+Stage selected: rewrite the disjoint-edge branch in reciprocal edge
+invariants.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_RECIPROCAL_PRODUCT_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_reciprocal_product_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_reciprocal_product_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_RECIPROCAL_PRODUCT_COMPILER_PASS
+```
+
+Result: if `{r,s,t}` are reciprocal roots of an active edge, then
+`r+s+t=0`; writing `R=rst`, the edge has reciprocal cubic
+
+```text
+X^3+(lambda-1)R X-R.
+```
+
+The coordinate product is `m=lambda+R^-1`, so fixed-`lambda` injectivity is
+uniqueness of active reciprocal product `R`.  For lambda-distinct edges
+`(lambda,R)` and `(mu,S)`,
+
+```text
+rho = 1 + (R^-1-S^-1)/(lambda-mu),
+```
+
+and the source-edge hit values are `1-r^-2` on reciprocal roots.
+
+Focused replay:
+
+```text
+H3_REPEAT_RECIPROCAL_PRODUCT_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=17.86 maxrss=50104
+```
