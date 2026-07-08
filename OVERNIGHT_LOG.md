@@ -4528,4 +4528,6 @@ Claim banked: for a multiplicative subgroup `H <= F_p^*`, if `r_C` is the
 common shifted-intersection count on a multiplicative coset `C=sH`, then
 `E(H) = n^2 + n * sum_C r_C^2`.  Therefore the missing HBK/Konyagin upgrade is
 exactly the explicit L2 estimate `sum_C r_C^2 <= C' n^(3/2)`, not just a
-single-shift maximum bound.
+single-shift maximum bound.  The replay grid runs through `n=2048`; the largest
+observed L2 ratio is still the smallest row `n=16`, and the `n=2048` rows are
+already down to `0.0629` (`q~n^2`) and `0.0442` (`q~n^3`).

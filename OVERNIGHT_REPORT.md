@@ -18,7 +18,7 @@ explicit Cochrane--Pinner constant `16/3`, but the in-house HBK/Konyagin energy
 theorem is still open.  A follow-up B2 reduction now isolates the missing
 upgrade as the explicit coset-level L2 estimate
 `sum_C r_C^2 <= C' n^(3/2)` in the identity `E(H)=n^2+n sum_C r_C^2`, replayed
-through `n=512`.  Terminal C has a light pilot: observed activated
+through `n=2048`.  Terminal C has a light pilot: observed activated
 `n=96` h=3 shapes do not repeat across the actual prime rows in the ladder.
 A random exact-norm Modal sample refutes the naive rational norm-coprimality
 form as too strong, but finds zero actual common-root activations in 2000
@@ -262,7 +262,8 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
 
    Digest: `H2_LEVEL_SET_REPLAY_PASS`.
 
-   The exact identity `E(H)=n^2+n sum_C r_C^2` is now banked, so the open
+   The exact identity `E(H)=n^2+n sum_C r_C^2` is now banked and replayed
+   through `n=2048`, so the open
    Terminal B proof step is the explicit level-set/L2 bound
    `sum_C r_C^2 <= C' n^(3/2)`.
 

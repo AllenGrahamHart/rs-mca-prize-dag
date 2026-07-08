@@ -134,7 +134,7 @@ def level_row(n: int, regime: int) -> LevelRow:
 
 
 def main() -> None:
-    ns = (16, 32, 64, 128, 256, 512)
+    ns = (16, 32, 64, 128, 256, 512, 1024, 2048)
     rows = [level_row(n, regime) for n in ns for regime in (2, 3)]
     print("h=2 coset-level energy rows:")
     print(

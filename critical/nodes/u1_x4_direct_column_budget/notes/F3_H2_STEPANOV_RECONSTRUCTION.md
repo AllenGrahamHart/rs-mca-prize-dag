@@ -225,5 +225,5 @@ where `r_C` is the common value of `|H cap (H+s)|` on a multiplicative coset
 sum_C r_C^2 <= C' n^(3/2).
 ```
 
-The replay `f3_h2_levelset_replay.py` verifies this identity through `n=512`;
+The replay `f3_h2_levelset_replay.py` verifies this identity through `n=2048`;
 the measured maximum is `sum_C r_C^2 / n^1.5 = 0.6406`.

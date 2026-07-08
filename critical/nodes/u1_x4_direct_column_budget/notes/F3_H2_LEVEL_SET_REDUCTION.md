@@ -92,7 +92,7 @@ H2_LEVEL_SET_REPLAY_PASS
 ## Result
 
 The replay verifies the coset constancy and energy identity on
-`n = 16,32,64,128,256,512`, each at the first prime `q = 1 mod n` above
+`n = 16,32,64,128,256,512,1024,2048`, each at the first prime `q = 1 mod n` above
 `n^2` and `n^3`.
 
 The exact row maximum is:
