@@ -11,6 +11,9 @@ from f3_h3_repeat_hitting_exception_scan import WITNESS_ROWS
 from f3_h3_repeat_support_forced_point_reduction import active_ordered_triples
 
 
+CONTRAST_ROWS = ((97, 32),)
+
+
 def common_intersection(edges: list[frozenset[int]]) -> set[int]:
     if not edges:
         return set()
@@ -24,7 +27,7 @@ def star_obstruction(edges: list[frozenset[int]]) -> tuple[frozenset[int], ...] 
     if not edges or common_intersection(edges):
         return None
     base = edges[0]
-    witness = [base]
+    witness: list[frozenset[int]] = [base]
     for point in sorted(base):
         for edge in edges[1:]:
             if point not in edge:
@@ -32,7 +35,7 @@ def star_obstruction(edges: list[frozenset[int]]) -> tuple[frozenset[int], ...] 
                 break
         else:
             raise AssertionError(("empty intersection but base point is global", point))
-    obstruction = tuple(witness)
+    obstruction = tuple(dict.fromkeys(witness))
     if common_intersection(list(obstruction)):
         raise AssertionError(("constructed obstruction still has common point", obstruction))
     return obstruction
@@ -78,6 +81,15 @@ def main() -> None:
         print(
             f"p={p} n={n} B_line={row['b_line']} active_edges={row['active_edges']} "
             f"tau_coord={row['tau_coord']} hitting_set={row['hitting_set']} "
+            f"obstruction_edges={row['obstruction_edges']}"
+        )
+    for p, n in CONTRAST_ROWS:
+        row = verify_row(p, n)
+        if row["obstruction_edges"] == 0:
+            raise AssertionError((p, n, "expected a non-boundary obstruction"))
+        print(
+            f"contrast p={p} n={n} B_line={row['b_line']} "
+            f"active_edges={row['active_edges']} tau_coord={row['tau_coord']} "
             f"obstruction_edges={row['obstruction_edges']}"
         )
     print("H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS")

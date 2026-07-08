@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.36 maxrss=50024
+elapsed=17.99 maxrss=50108
 ```
 
 ## Confidence-ranked claims
@@ -119,7 +119,9 @@ elapsed=17.36 maxrss=50024
    `tau_coord>1`; if `tau_coord<=1` holds in the boundary regime, the repeat
    residue is at most `90n^2`, covering all official rows.  The star target
    is now reduced to an explicit obstruction: rule out four active coordinate
-   edges with empty total intersection.
+   edges with empty total intersection.  The obstruction extractor is not
+   vacuous: the non-boundary contrast row `(p,n)=(97,32)` has
+   `tau_coord=7` and a two-edge empty-intersection obstruction.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

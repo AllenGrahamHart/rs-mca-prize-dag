@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.36 maxrss=50024
+elapsed=17.99 maxrss=50108
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4702,7 +4702,7 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.36 maxrss=50024
+elapsed=17.99 maxrss=50108
 ```
 
 ## T2/T3 h=3 repeat forced-coordinate-2 normal form
@@ -4752,7 +4752,7 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.36 maxrss=50024
+elapsed=17.99 maxrss=50108
 ```
 
 ## T2/T3 h=3 repeat hitting exception scan
@@ -4796,7 +4796,7 @@ Focused replay:
 ```text
 H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.36 maxrss=50024
+elapsed=17.99 maxrss=50108
 ```
 
 ## T2/T3 h=3 repeat singleton-hitting stress
@@ -4854,7 +4854,7 @@ Focused replay:
 ```text
 H3_REPEAT_SINGLETON_HITTING_STRESS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.36 maxrss=50024
+elapsed=17.99 maxrss=50108
 ```
 
 ## T2/T3 h=3 repeat star-obstruction compiler
@@ -4887,17 +4887,26 @@ Result: for the 3-uniform active coordinate hypergraph,
 tau_coord > 1
 ```
 
-is equivalent to the existence of at most four active edges with empty total
-intersection.  So the star theorem can be attacked by ruling out a four-edge
-repeat-boundary incidence pattern.  The current witness rows all have
+is equivalent to the existence of at most four distinct active edges with empty
+total intersection.  So the star theorem can be attacked by ruling out a
+four-edge repeat-boundary incidence pattern.  The current witness rows all have
 `obstruction_edges=0`, as expected from `tau_coord=1`.
+
+Guardrail update: the extractor now deduplicates witness edges and includes
+the non-boundary contrast row
+
+```text
+p=97 n=32 active_edges=15 tau_coord=7 obstruction_edges=2
+```
+
+so the obstruction pattern is real outside the boundary-style regime.
 
 Focused replay:
 
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.36 maxrss=50024
+elapsed=17.99 maxrss=50108
 ```
 
 ## T2/T3 h=3 repeat edge reciprocal form
@@ -4939,5 +4948,5 @@ Focused replay:
 ```text
 H3_REPEAT_EDGE_RECIPROCAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.36 maxrss=50024
+elapsed=17.99 maxrss=50108
 ```

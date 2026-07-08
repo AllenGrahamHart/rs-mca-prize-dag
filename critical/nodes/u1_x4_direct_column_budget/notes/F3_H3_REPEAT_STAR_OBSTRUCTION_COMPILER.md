@@ -31,7 +31,8 @@ containing `x`.  The four edges
 E0, E_a, E_b, E_c
 ```
 
-have empty intersection.  The converse is immediate.
+have empty intersection.  Removing duplicate choices gives at most four
+distinct active edges.  The converse is immediate.
 
 Thus the star target is equivalent to excluding these four-edge
 empty-intersection configurations in the repeat-boundary incidence variety.
@@ -52,6 +53,15 @@ p=91393 n=256 active_edges=2 tau_coord=1 obstruction_edges=0
 
 These checks are not evidence beyond the rows already scanned; their role is
 to verify that the obstruction extractor matches `tau_coord`.
+
+The script also includes one non-boundary contrast row:
+
+```text
+p=97 n=32 active_edges=15 tau_coord=7 obstruction_edges=2
+```
+
+This guardrail confirms that the obstruction extractor sees genuine failures
+of singleton hitting, and that the boundary-style hypothesis is not cosmetic.
 
 ## Role in h=3
 

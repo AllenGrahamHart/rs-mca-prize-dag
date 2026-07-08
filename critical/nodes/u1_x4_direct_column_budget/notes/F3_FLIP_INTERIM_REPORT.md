@@ -538,10 +538,14 @@ evidence, not a theorem.
 
 The star-obstruction compiler converts that target into a smaller algebraic
 exclusion.  For a 3-uniform active coordinate hypergraph, `tau_coord>1` is
-equivalent to the existence of at most four active edges with empty total
+equivalent to the existence of at most four distinct active edges with empty total
 intersection: choose one edge `{a,b,c}` and one further edge missing each of
 `a,b,c`.  Therefore proving singleton hitting is the same as ruling out this
 four-edge obstruction in the boundary-style incidence variety.
+
+The non-boundary contrast row `(p,n)=(97,32)` has `active_edges=15`,
+`tau_coord=7`, and a two-edge empty-intersection obstruction, so this is a real
+phenomenon outside the boundary-style regime.
 
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
@@ -561,7 +565,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `17.36s` locally and ends with
+It runs in about `17.99s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
