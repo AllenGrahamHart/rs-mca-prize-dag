@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+"""Replay checks for the h=4/h=5 bonus reduction status note."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[4]
+
+
+def load_json(path: Path):
+    return json.loads(path.read_text())
+
+
+def require_node_status(dag, node_id: str, status: str = "PROVED") -> None:
+    by_id = {node["id"]: node for node in dag["nodes"]}
+    node = by_id.get(node_id)
+    if node is None:
+        raise AssertionError(f"missing node {node_id}")
+    if node.get("status") != status:
+        raise AssertionError((node_id, node.get("status"), status))
+
+
+def require_result(results, name: str):
+    for row in results:
+        if row.get("name") == name:
+            return row
+    raise AssertionError(f"missing result {name}")
+
+
+def require_zero(row) -> None:
+    if row.get("anchored_nontoral_trades") != 0:
+        raise AssertionError(row)
+    if row.get("direct_n3_exceeded"):
+        raise AssertionError(row)
+
+
+def main() -> None:
+    dag = load_json(ROOT / "dag.json")
+    for node_id in (
+        "h4_terminal_dichotomy",
+        "x83_uniform_square_shift_obstruction_gate",
+        "c1a_lowh_direct_certificates",
+        "m720_h5_n32_gate_replay",
+        "m720_remaining_gate_replay",
+    ):
+        require_node_status(dag, node_id)
+
+    notes = ROOT / "critical/nodes/u1_x4_direct_column_budget/notes"
+    a1 = load_json(notes / "f3a1_results.json")
+    a2 = load_json(notes / "f3a2_results.json")
+
+    gate = require_result(a1, "GATE_exceptional_n16_h4_p17")
+    if gate.get("anchored_nontoral_trades", 0) <= 0:
+        raise AssertionError(gate)
+
+    require_zero(require_result(a1, "boundary_n32_h5_p1153_FULL"))
+    for name in (
+        "confine_n16_h4_p97",
+        "confine_n16_h5_p97",
+        "confine_n16_h4_p113",
+        "confine_n16_h5_p113",
+        "confine_n16_h4_p241",
+        "confine_n16_h5_p241",
+        "confine_n16_h4_p337",
+    ):
+        require_zero(require_result(a2, name))
+
+    print("proved structural nodes: h4 dichotomy, x83 gate, c1a, m720 h5 gates")
+    print("positive control n16/h4/p17:", gate["anchored_nontoral_trades"])
+    print("verified q>=n^2 h4/h5 zero rows from f3a1/f3a2")
+    print("H4_H5_BONUS_REDUCTION_PASS")
+
+
+if __name__ == "__main__":
+    main()

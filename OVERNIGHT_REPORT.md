@@ -1908,3 +1908,10 @@ rational norm exceptions and `3/129766` actual common-root activation
 exceptions.
 The oriented core-slice resultant/common-root pass and aggregate empirical rate
 are banked.
+
+Bonus queue update: item (i) has a replayed h=4/h=5 reduction/status note.
+`h4_terminal_dichotomy` and `x83_uniform_square_shift_obstruction_gate` are
+verified as `PROVED` structural inputs; the existing f3a1/f3a2 rows retain the
+positive control and zero q>=n^2 h=4/h=5 residue checks.  The h=5 no-primitive
+theorem remains a norm-gate exclusion/certificate problem, not a promoted
+theorem.

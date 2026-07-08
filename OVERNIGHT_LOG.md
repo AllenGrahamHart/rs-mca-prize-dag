@@ -4602,3 +4602,31 @@ exactly, but a universal finite-midrange certificate or sharper constant is a
 separate optimization task.  This completes Terminal B's explicit in-house
 energy theorem; A and C were already complete, so the next queue item is the
 brief's bonus queue.
+
+## 2026-07-08 Bonus queue: h=4/h=5 reduction status
+
+Stage: bonus item (i), h=4/h=5 emptiness route.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+```
+
+Digest: `H4_H5_BONUS_REDUCTION_PASS`.
+
+Claim banked: h=4 already has the proved DAG dichotomy
+`h4_terminal_dichotomy` (antipodal quotient pullback or top-level sparse
+norm-gate, no hidden third mechanism), and the h-uniform x83 square-shift gate
+reduces h=5 over `n=2^s` to p-specific norm-gate certificates.  Existing row
+evidence keeps its positive control (`n=16,h=4,p=17` has 60 nontoral trades)
+and verifies zero h=4/h=5 primitive residue in the q>=n^2 test rows.  Remaining
+work: the h=5 no-primitive theorem itself, as a symbolic norm-gate exclusion or
+per-row certificate family.
