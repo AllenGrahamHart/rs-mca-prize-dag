@@ -1193,3 +1193,44 @@ with `B_max=500000`, and every next budget still fails.  By monotonicity in
 `Z`, no larger bridge family passes inside this ten-times-larger diagonal box.
 The closest stressed failures are `s=13,14,15,16,18`, with margins
 `6297, 9836, 22892, 51554, 53037` respectively.
+
+## T3 h=3 non-diagonal low-row budget lift
+
+Stage selected: optimize the h=3 bridge-budget arithmetic beyond the
+conservative diagonal `A=D` boxes, starting with the low official rows where
+the batching budget is tightest.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_NONDIAGONAL_LOWROW_BUDGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_lowrow_budget.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_lowrow_budget.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H3_NONDIAGONAL_LOWROW_BUDGET_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: for `s=13..23`, exact non-diagonal optimization with `B <= 50000`
+raises the bridge budgets
+
+```text
+11,14,18,23,29,36,46,58,73,92,116
+  -> 16,21,26,33,42,53,67,84,106,134,168.
+```
+
+The verifier checks a passing witness at the improved `Z` and an exhaustive
+`Z+1` failure inside the non-diagonal search box.  This reduces the low-row
+geometric batching burden; it does not close `RC-RANK` or the bridge theorem.

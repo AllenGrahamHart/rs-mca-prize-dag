@@ -109,6 +109,14 @@ COMMANDS = [
         "H3_BRIDGE_BUDGET_COMPILER_PASS",
     ),
     (
+        "h3 non-diagonal low-row budget",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_lowrow_budget.py",
+        ],
+        "H3_NONDIAGONAL_LOWROW_BUDGET_PASS",
+    ),
+    (
         "h3 private-divisor full-rank refutation",
         [
             sys.executable,
