@@ -69,6 +69,35 @@ PRIMES = (
     7873,
     7937,
     8161,
+    8353,
+    8513,
+    8609,
+    8641,
+    8737,
+    8929,
+    9281,
+    9377,
+    9473,
+    9601,
+    9697,
+    9857,
+    10177,
+    10273,
+    10337,
+    10369,
+    10433,
+    10529,
+    10657,
+    10753,
+    11329,
+    11393,
+    11489,
+    11617,
+    11681,
+    11777,
+    11969,
+    12097,
+    12161,
     12289,
     32801,
     40961,
@@ -79,6 +108,7 @@ PRIMES = (
 CPP = r'''
 #include <algorithm>
 #include <array>
+#include <cstdlib>
 #include <cstdint>
 #include <iostream>
 #include <stdexcept>
@@ -88,8 +118,8 @@ using u128 = unsigned __int128;
 
 static constexpr int N = 32;
 static constexpr int H = 5;
-static constexpr int P = 1153;
-static constexpr int BITS = 32 - __builtin_clz(P - 1);
+static int P = 1153;
+static int BITS = 0;
 
 struct Record {
     u128 key;
@@ -198,7 +228,11 @@ static uint64_t choose_int(int n, int k) {
     return r;
 }
 
-int main() {
+int main(int argc, char** argv) {
+    if (argc == 2) P = std::atoi(argv[1]);
+    if (P <= 1) throw std::runtime_error("bad prime argument");
+    BITS = 32 - __builtin_clz(unsigned(P - 1));
+
     auto roots = domain();
     std::vector<Record> left;
     left.reserve(choose_int(31, H - 1));
@@ -261,41 +295,43 @@ int main() {
 '''
 
 
-def run_certificate(p: int) -> dict:
-    with tempfile.TemporaryDirectory(prefix="f3_h5_n32_") as tmp:
-        tmp_path = Path(tmp)
-        src = tmp_path / "cert.cpp"
-        exe = tmp_path / "cert"
-        src.write_text(
-            CPP.replace("static constexpr int P = 1153;", f"static constexpr int P = {p};")
-        )
-        subprocess.run(["g++", "-O3", "-std=c++17", str(src), "-o", str(exe)], check=True)
-        proc = subprocess.run([str(exe)], check=True, text=True, capture_output=True)
+def compile_certificate(tmp_path: Path) -> Path:
+    src = tmp_path / "cert.cpp"
+    exe = tmp_path / "cert"
+    src.write_text(CPP)
+    subprocess.run(["g++", "-O3", "-std=c++17", str(src), "-o", str(exe)], check=True)
+    return exe
+
+
+def run_certificate(exe: Path, p: int) -> dict:
+    proc = subprocess.run([str(exe), str(p)], check=True, text=True, capture_output=True)
     return json.loads(proc.stdout)
 
 
 def main() -> None:
     primes = tuple(int(arg) for arg in sys.argv[1:]) or PRIMES
     rows = []
-    for p in primes:
-        row = run_certificate(p)
-        expected = {
-            "n": 32,
-            "h": 5,
-            "p": p,
-            "W": 32,
-            "hashed": 31465,
-            "probed": 169911,
-            "anchored_toral_trades": 0,
-            "anchored_nontoral_trades": 0,
-            "partial": False,
-            "complete": True,
-            "direct_n3_exceeded": False,
-        }
-        for key, value in expected.items():
-            if row.get(key) != value:
-                raise AssertionError((p, key, row.get(key), value, row))
-        rows.append(row)
+    with tempfile.TemporaryDirectory(prefix="f3_h5_n32_") as tmp:
+        exe = compile_certificate(Path(tmp))
+        for p in primes:
+            row = run_certificate(exe, p)
+            expected = {
+                "n": 32,
+                "h": 5,
+                "p": p,
+                "W": 32,
+                "hashed": 31465,
+                "probed": 169911,
+                "anchored_toral_trades": 0,
+                "anchored_nontoral_trades": 0,
+                "partial": False,
+                "complete": True,
+                "direct_n3_exceeded": False,
+            }
+            for key, value in expected.items():
+                if row.get(key) != value:
+                    raise AssertionError((p, key, row.get(key), value, row))
+            rows.append(row)
 
     if not sys.argv[1:]:
         OUT.write_text(json.dumps(rows, indent=2, sort_keys=True) + "\n")

@@ -13,8 +13,8 @@ Rows:
 
 ```text
 n = 32, h = 5,
-p = every admissible prime 1 mod 32 with 32^2 < p <= 8161,
-plus p in {12289, 32801, 40961, 61441, 65537}.
+p = every admissible prime 1 mod 32 with 32^2 < p <= 12289,
+plus p in {32801, 40961, 61441, 65537}.
 ```
 
 Object:
@@ -39,11 +39,11 @@ anchored nontoral trades= 0
 partial                 = false
 ```
 
-Thus the h=5 no-primitive evidence at `n=32` now covers `56` complete
+Thus the h=5 no-primitive evidence at `n=32` now covers `85` complete
 `p >= n^2` rows.  In particular, it is no longer only selected-row evidence at
-the beginning of the row: every admissible prime through `8161` is certified.
-The replay processes `9,515,016` total right-side subsets and completed locally
-in `33.05s` in the banked run.
+the beginning of the row: every admissible prime through `12289` is certified.
+The replay processes `14,442,435` total right-side subsets and completed locally
+in `5.20s` in the banked run.
 
 ## Replay
 
