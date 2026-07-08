@@ -1113,3 +1113,35 @@ The compiler still verifies maximality in its stated search box:
 `Z_budget` passes and `Z_budget+1` fails.  This does not prove the geometric
 batching theorem, but it gives that theorem more room exactly where the prior
 table had plateaued.
+
+## T1/T2 h=3 bridge-budget verifier optimization
+
+Stage selected: keep the improved `B_max=50000` bridge budgets while bringing
+the aggregate replay back under the light-compute ceiling with room to spare.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H3_BRIDGE_BUDGET_COMPILER_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the bridge compiler now verifies each `Z_budget` with a pinned passing
+diagonal-box witness and still exhaustively scans `Z_budget+1` under
+`B_max=50000` to prove failure.  Monotonicity in `Z` then gives the same
+maximality claim inside the stated search box, while reducing the standalone
+runtime from about `2.9s` to about half that.

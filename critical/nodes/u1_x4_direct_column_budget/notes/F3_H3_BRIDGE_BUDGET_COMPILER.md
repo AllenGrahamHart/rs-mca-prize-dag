@@ -70,11 +70,12 @@ n=2^40: Z_budget=5889
 n=2^41: Z_budget=7420
 ```
 
-The full replay prints every exponent `13 <= s <= 41`.  For each row, the
-printed bound at `Z_budget` is at most `16n`, and the printed bound at
-`Z_budget+1` is larger than `16n` under the stated `B_max=50000` diagonal
-search.  This is still not a proof that larger families are impossible under
-other parameter families.
+The full replay prints every exponent `13 <= s <= 41`.  For each row, it
+checks a pinned passing diagonal-box witness at `Z_budget`, and exhaustively
+scans the stated `B_max=50000` diagonal search at `Z_budget+1` to verify that
+the next budget fails.  Since the compiled bound is nondecreasing in `Z`, this
+proves maximality within the stated search box.  This is still not a proof that
+larger families are impossible under other parameter families.
 
 ## Interpretation
 
