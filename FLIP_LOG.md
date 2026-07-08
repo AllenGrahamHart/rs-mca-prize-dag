@@ -213,3 +213,52 @@ subgroup value maps to the pole).
 Next step: use this guard while formulating the genuine noncollapsed
 rich-curve target; the toral and `3 | q-1` hyperbola-line cells still need the
 signature-geometry-specific classifier.
+
+## T1 compiler: reduced-condition arithmetic
+
+Stage selected: coefficient-count arithmetic for the repaired h=3 rich-curve
+Stepanov route.  This is deliberately conditional: it does not prove the
+reduced derivative condition count or the sparse nonvanishing lemma.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_REDUCED_CONDITION_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_reduced_condition_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_reduced_condition_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_filter.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
+```
+
+Digest:
+
+```text
+H3_RICH_CURVE_REDUCED_CONDITION_COMPILER_PASS
+H3_RICH_CURVE_DEGENERACY_FILTER_PASS
+H3_RICH_CURVE_DENOMINATOR_COMPILER_PASS
+```
+
+Result: if the repaired signature curves satisfy `RC-RED(C_red)`, meaning
+each derivative order reduces to at most `C_red(A+D)` coefficient conditions
+per curve, and if `RC-NV` gives nonzero substitution on every repaired curve,
+then the exact arithmetic compiler is:
+
+```text
+C_red D (A+D) |Z| < A B^3
+    => auxiliary exists,
+sum_z T(z) < |Z| ((A-1)+6h(B-1)) / D.
+```
+
+This isolates the genuine T1 proof debt.  The denominator degree and
+linear-system arithmetic are no longer vague; the missing mathematical gates
+are exactly the reduced-condition lemma and the nonvanishing lemma after the
+degeneracy filters.
+
+Next step: either attack `RC-RED` for the actual hyperbola normal-form curves,
+or pivot to T4(a)'s h=4 rigidity route while T1's nonvanishing gate is still
+open.
