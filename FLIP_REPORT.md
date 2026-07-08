@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=9.70 maxrss=50100
+elapsed=9.61 maxrss=50104
 ```
 
 ## Confidence-ranked claims
@@ -109,7 +109,9 @@ elapsed=9.70 maxrss=50100
    hypergraph has `tau_coord=1` with hitter `{2}`, giving
    `(72*1+18)256^2 < 256^3`.  The `2`-hit cell has the exact inverse-pair
    normal form `{2,v,v^{-1}}` with `v+v^{-1} in H`; in the same row this gives
-   `N_2=16` and `B_line=3N_2=48`.
+   `N_2=16` and `B_line=3N_2=48`.  A fixed-`2` cover is false globally,
+   however: boundary-style rows such as `(p,n)=(91393,256)` have active edges
+   not hit by `2`, while still having `tau_coord=1`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

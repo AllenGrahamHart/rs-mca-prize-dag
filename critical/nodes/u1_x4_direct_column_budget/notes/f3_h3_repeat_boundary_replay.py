@@ -102,6 +102,11 @@ COMMANDS = [
         "f3_h3_repeat_forced_two_normal_form.py",
         "H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS",
     ),
+    (
+        "h3 repeat hitting exception scan",
+        "f3_h3_repeat_hitting_exception_scan.py",
+        "H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS",
+    ),
 ]
 
 

@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=9.70 maxrss=50100
+elapsed=9.61 maxrss=50104
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4702,7 +4702,7 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=9.70 maxrss=50100
+elapsed=9.61 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat forced-coordinate-2 normal form
@@ -4752,5 +4752,49 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=9.70 maxrss=50100
+elapsed=9.61 maxrss=50104
+```
+
+## T2/T3 h=3 repeat hitting exception scan
+
+Stage selected: falsify the tempting pure fixed-`2` cover target before
+building more proof structure on it.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_HITTING_EXCEPTION_SCAN.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_hitting_exception_scan.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_hitting_exception_scan.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS
+```
+
+Result: pure forced-`2` cover is false even in boundary-style rows:
+
+```text
+p=337   n=16  active_edges=1 non_two_edges=1 tau_coord=1
+p=2017  n=32  active_edges=1 non_two_edges=1 tau_coord=1
+p=91393 n=256 active_edges=2 non_two_edges=2 tau_coord=1
+```
+
+The positive signal is that all scanned witness rows still have a singleton
+coordinate hitting set.  The proof target should remain `tau_coord <= Cn^eta`,
+possibly via several forced-coordinate cells, rather than a fixed `2` cell.
+
+Focused replay:
+
+```text
+H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=9.61 maxrss=50104
 ```

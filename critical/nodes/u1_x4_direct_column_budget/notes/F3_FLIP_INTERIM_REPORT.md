@@ -507,13 +507,26 @@ Thus every active edge hit by `2` is of the inverse-pair form
 accounts for all eight active coordinate edges and gives `N_2=16`,
 `B_line=3N_2=48`.
 
+The hitting exception scan prevents overfitting this pattern.  The pure claim
+that all active edges are hit by `2` is false on boundary-style rows, for
+example:
+
+```text
+p=337   n=16  active_edges=1 non_two_edges=1 tau_coord=1
+p=2017  n=32  active_edges=1 non_two_edges=1 tau_coord=1
+p=91393 n=256 active_edges=2 non_two_edges=2 tau_coord=1
+```
+
+So the right structural target is still `tau_coord`, not a fixed coordinate.
+The `2`-cell is useful, but must be paired with an exception-hitting argument.
+
 The repeat-boundary chain has a focused replay:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `9.70s` locally and ends with
+It runs in about `9.61s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

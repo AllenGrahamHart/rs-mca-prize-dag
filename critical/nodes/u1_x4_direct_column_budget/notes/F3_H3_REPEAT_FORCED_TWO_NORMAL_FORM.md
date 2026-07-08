@@ -92,17 +92,17 @@ on that row.
 
 ## Role in h=3
 
-This packet turns the observed singleton hitter into an explicit structural
-target:
+This packet turns the observed singleton hitter into one explicit cell of the
+structural problem.  The pure fixed-`2` target
 
 ```text
 H3-FORCED-TWO-COVER:
-  prove that all active non-q0 repeat-boundary edges are hit by 2,
-  or prove a small exceptional hitting set for the edges not hit by 2.
+  prove that all active non-q0 repeat-boundary edges are hit by 2
 ```
 
-The target may be false globally; if it fails, the failure should be visible
-as active edges not of the inverse-pair form `{2,v,v^{-1}}`.
+is false in the finite exception scan.  The surviving target is to prove a
+small coordinate hitting set, with the inverse-pair `2`-cell as one component
+and a separate hitting argument for edges not hit by `2`.
 
 ## Replay
 
