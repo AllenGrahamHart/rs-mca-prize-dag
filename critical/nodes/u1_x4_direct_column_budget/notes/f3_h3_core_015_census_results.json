@@ -1,0 +1,52 @@
+{
+  "core": [
+    0,
+    1,
+    5
+  ],
+  "n": 96,
+  "total_shapes": 129766,
+  "norm_exception_count": 1102,
+  "activation_exception_count": 3,
+  "activation_exceptions": [
+    {
+      "shape": [
+        0,
+        1,
+        5,
+        10,
+        21,
+        38
+      ],
+      "activation_primes": [
+        18913
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        5,
+        16,
+        27,
+        44
+      ],
+      "activation_primes": [
+        18913
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        5,
+        46,
+        47,
+        54
+      ],
+      "activation_primes": [
+        18913
+      ]
+    }
+  ]
+}
