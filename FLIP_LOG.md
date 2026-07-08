@@ -2951,3 +2951,32 @@ remaining h=8 n=64 support certifier can restrict to non-antipodal supports.
 Standalone replay passes in `0.25s` locally (`maxrss=14080`).  The default
 aggregate replay passes with this packet included in `50.53s` locally
 (`maxrss=98772`).
+
+## T1 h=3 RC-RANK normalization invariance
+
+Stage selected: bank a rank theorem hygiene lemma before any further
+rank-avoidance attempt.  The future `F3-RANK-AVOID` theorem should be allowed
+to choose convenient repaired curve representatives, but only along operations
+that provably preserve the cleared substitution rank.
+
+New packet:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_NORMALIZATION_INVARIANCE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_normalization_invariance.py
+```
+
+Result: two normalizations are rank-safe:
+
+```text
+source affine reparametrization: X -> mX+t, m != 0
+target coordinate scaling:      r_i -> c_i r_i, c_i != 0
+```
+
+The first acts by an invertible linear map on the cleared coefficient space
+and preserves the `deg_X < A` source span; the second only rescales columns by
+nonzero factors.  Therefore these operations preserve the `RC-RANK` inequality.
+This is not a proof of `RC-RANK`, and it does not permit arbitrary non-affine
+Mobius reparametrizations.  Standalone replay passes in `0.07s` locally
+(`maxrss=13056`).  The default aggregate replay passes with this packet
+included in `45.29s` locally (`maxrss=98808`).

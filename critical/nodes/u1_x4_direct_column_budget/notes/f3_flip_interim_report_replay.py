@@ -149,6 +149,14 @@ COMMANDS = [
         "H3_RC_RANK_GENERIC_OPEN_PASS",
     ),
     (
+        "h3 RC-RANK normalization invariance",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_normalization_invariance.py",
+        ],
+        "H3_RC_RANK_NORMALIZATION_INVARIANCE_PASS",
+    ),
+    (
         "h3 private-linear compiler guard",
         [
             sys.executable,
