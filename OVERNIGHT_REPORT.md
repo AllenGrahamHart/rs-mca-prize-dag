@@ -42,7 +42,8 @@ type `(0,1,12)` is complete with `2/129766` actual activations.  The twelfth
 core type `(0,1,13)` is complete with `1/129766` actual activation.  The
 thirteenth core type `(0,1,14)` is complete with `2/129766` actual activations.
 The fourteenth core type `(0,1,15)` is complete with `2/129766` actual
-activations.
+activations.  The fifteenth core type `(0,1,16)` is complete with `7/129766`
+actual activations.
 
 ## Claims
 
@@ -1109,6 +1110,59 @@ activations.
    activation `0.0015%`.  The core-by-core census is now 14 of 91 core types
    complete.
 
+28. **MACHINE-VERIFIED SUBFAMILY CENSUS:** complete core `(0,1,16)` slice.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0116_CENSUS.md
+   ```
+
+   Scripts:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0116_census_check.py
+   ```
+
+   Replay:
+
+   ```bash
+   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,16 --tag 0116
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0116_census_check.py
+   ```
+
+   Modal run:
+
+   ```text
+   https://modal.com/apps/allengrahamhart/main/ap-gbPBZHbKK07l5tfI7uDjzC
+   ```
+
+   Result:
+
+   ```text
+   TOTAL shapes=129766 norm_exceptions=1275 activation_exceptions=7
+   H3_CORE_0116_CENSUS_DONE
+   H3_CORE_0116_CENSUS_CHECK_PASS
+   ```
+
+   Activation exceptions:
+
+   ```text
+   [0, 1, 16 | 8, 9, 41]     activates at p=37633
+   [0, 1, 16 | 8, 41, 57]    activates at p=1416317953
+   [0, 1, 16 | 8, 57, 89]    activates at p=37633
+   [0, 1, 16 | 9, 41, 56]    activates at p=37633
+   [0, 1, 16 | 9, 56, 89]    activates at p=1416317953
+   [0, 1, 16 | 24, 52, 75]   activates at p=20161
+   [0, 1, 16 | 56, 57, 89]   activates at p=37633
+   ```
+
+   This completely scans the oriented slice `A=[0,1,16]`, `B` any disjoint
+   triple.  Rates: rational norm exception `0.9825%`; actual common-root
+   activation `0.0054%`.  The core-by-core census is now 15 of 91 core types
+   complete.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -1161,7 +1215,9 @@ activations.
   `(0,1,12)` again has two activations.  The twelfth core slice `(0,1,13)`
   has a single activation, the sparsest complete slice so far.  The thirteenth
   core slice `(0,1,14)` has two activations, both at `p=30817`.  The
-  fourteenth core slice `(0,1,15)` also has two activations.
+  fourteenth core slice `(0,1,15)` also has two activations.  The fifteenth
+  core slice `(0,1,16)` has seven activations, including two at the large prime
+  `p=1416317953`.
 
 ## Terminal Status
 
@@ -1188,9 +1244,9 @@ now exactly sized at `3,135,641` affine/Galois representatives, and the first
 deterministic slices give a 44-entry complete subfamily exceptional list.  The
 consecutive-core exceptional list has a checked two-family classification.  The
 outside-family complement is activation-free in that complete slice.  The
-remaining full census is now organized into 91 core-orbit slices; 14 are
+remaining full census is now organized into 91 core-orbit slices; 15 are
 complete, represented by `(0,1,2)`, `(0,1,3)`, `(0,1,4)`, `(0,1,5)`,
 `(0,1,6)`, `(0,1,7)`, `(0,1,8)`, `(0,1,9)`, `(0,1,10)`, `(0,1,11)`,
-`(0,1,12)`, `(0,1,13)`, `(0,1,14)`, and `(0,1,15)`.  The
+`(0,1,12)`, `(0,1,13)`, `(0,1,14)`, `(0,1,15)`, and `(0,1,16)`.  The
 resultant/common-root pass over all representatives and final empirical rate
 remain open.
