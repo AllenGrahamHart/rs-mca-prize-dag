@@ -1240,3 +1240,40 @@ raises the bridge budgets
 The verifier checks a passing witness at the improved `Z` and an exhaustive
 `Z+1` failure inside the non-diagonal search box.  This reduces the low/mid-row
 geometric batching burden; it does not close `RC-RANK` or the bridge theorem.
+
+## T3 h=3 optional high-row non-diagonal budget lift
+
+Stage selected: bank the next verified non-diagonal bridge-budget rows without
+making the aggregate interim replay heavier.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_NONDIAGONAL_HIGHROW_BUDGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_highrow_budget.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_highrow_budget.py
+```
+
+Expected digest:
+
+```text
+H3_NONDIAGONAL_HIGHROW_BUDGET_PASS
+```
+
+Result: for `s=36..39`, exact non-diagonal optimization with `B <= 50000`
+raises the bridge budgets
+
+```text
+2337,2944,3710,4674 -> 3400,4284,5397,6800.
+```
+
+The optional verifier checks a passing witness at the improved `Z` and an
+exhaustive `Z+1` failure inside the same non-diagonal search box.  This further
+reduces the h=3 batching burden, still conditional on `RC-RANK` and the actual
+geometric bridge theorem.

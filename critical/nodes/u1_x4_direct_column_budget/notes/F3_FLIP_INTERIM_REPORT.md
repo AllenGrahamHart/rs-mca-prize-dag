@@ -176,6 +176,20 @@ This reduces the low/middle-row batching burden but still remains conditional
 on the same two open h=3 gates: `RC-RANK` and the actual geometric batching
 theorem.
 
+An optional high-row packet extends the same non-diagonal search to `s=36..39`
+without adding it to the aggregate replay:
+
+```text
+s=36: 2337 -> 3400
+s=37: 2944 -> 4284
+s=38: 3710 -> 5397
+s=39: 4674 -> 6800
+```
+
+The optional replay again checks a pinned passing witness at the improved `Z`
+and an exhaustive `Z+1` failure inside `B <= 50000`.  It is kept separate so the
+default local replay stays lightweight.
+
 A tempting shortcut for the rank theorem is already refuted.  Private
 zeros/poles for `X,r_1,r_2,r_3` do not imply full coefficient-rank
 injectivity: the toy curve
