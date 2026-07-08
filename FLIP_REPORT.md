@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.49 maxrss=50104
+elapsed=16.14 maxrss=50040
 ```
 
 ## Confidence-ranked claims
@@ -141,7 +141,11 @@ elapsed=16.49 maxrss=50104
    `(1,1,2)` pair-intersection sizes.  But active edges are linear: a pair of
    coordinates determines the third, so pinched triangles and tetrahedra are
    impossible.  The only surviving pairwise-coreless obstruction is the loose
-   triangle.
+   triangle.  Equivalently, in the active-pair shadow graph, every shadow
+   triangle must be contained in a single active edge.  A shadow triangle
+   supported by three distinct active edges is exactly the loose-triangle
+   obstruction; the contrast row `(p,n)=(97,32)` has two such triangles, so
+   this target is real rather than a bookkeeping artifact.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

@@ -167,6 +167,11 @@ COMMANDS = [
         "f3_h3_repeat_linear_hypergraph_compiler.py",
         "H3_REPEAT_LINEAR_HYPERGRAPH_COMPILER_PASS",
     ),
+    (
+        "h3 repeat loose-triangle shadow compiler",
+        "f3_h3_repeat_loose_triangle_shadow_compiler.py",
+        "H3_REPEAT_LOOSE_TRIANGLE_SHADOW_COMPILER_PASS",
+    ),
 ]
 
 

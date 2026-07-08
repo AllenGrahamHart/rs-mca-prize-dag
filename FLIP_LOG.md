@@ -5351,3 +5351,48 @@ H3_REPEAT_LINEAR_HYPERGRAPH_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=16.49 maxrss=50104
 ```
+
+## T2/T3 h=3 repeat loose-triangle shadow compiler
+
+Stage selected: turn the remaining loose-triangle target into an exact
+active-pair shadow graph condition.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_TRIANGLE_SHADOW_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_triangle_shadow_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_triangle_shadow_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_TRIANGLE_SHADOW_COMPILER_PASS
+```
+
+Result: after the linear-hypergraph compiler, every shadow pair has at most one
+active-edge owner.  Therefore a shadow triangle is either contained in a single
+active edge, or it is supported by three distinct active edges and is exactly a
+loose-triangle obstruction
+
+```text
+{a,b,x}, {a,c,y}, {b,c,z}.
+```
+
+The boundary-style guardrail rows have no loose shadow triangles.  The
+non-boundary contrast row `(p,n)=(97,32)` has two, so this final
+pairwise-coreless target is non-vacuous.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_TRIANGLE_SHADOW_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=16.14 maxrss=50040
+```

@@ -37,10 +37,11 @@ The harness runs:
 - the hitting exception scan;
 - the singleton-hitting stress scan;
 - the star-obstruction compiler;
-- the star-obstruction taxonomy.
-- the pairwise-coreless compiler.
-- the coreless-pattern compiler.
-- the linear-hypergraph compiler.
+- the star-obstruction taxonomy;
+- the pairwise-coreless compiler;
+- the coreless-pattern compiler;
+- the linear-hypergraph compiler;
+- the loose-triangle shadow compiler.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch
 Modal.

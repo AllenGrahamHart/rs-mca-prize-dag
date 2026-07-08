@@ -632,6 +632,22 @@ so two distinct active edges cannot share two coordinates.  Therefore
 pinched triangles and tetrahedra are impossible; the only remaining
 pairwise-coreless target is `H3-NO-LOOSE-TRIANGLE`.
 
+The loose-triangle shadow compiler makes that final combinatorial target exact.
+Put a graph edge between every coordinate pair contained in an active
+3-coordinate edge.  Linearity says each shadow pair has at most one active-edge
+owner.  Hence each shadow triangle is either contained in one active edge or is
+supported by three distinct active edges.  The second case is exactly a loose
+triangle
+
+```text
+{a,b,x}, {a,c,y}, {b,c,z}.
+```
+
+Thus `H3-NO-LOOSE-TRIANGLE` is equivalent to every active-pair shadow triangle
+being contained in a single active edge.  The boundary-style guardrail rows
+have no loose shadow triangles; the non-boundary contrast row `(p,n)=(97,32)`
+has two, confirming that this remaining target is non-vacuous.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -660,7 +676,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `16.49s` locally and ends with
+It runs in about `16.14s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
