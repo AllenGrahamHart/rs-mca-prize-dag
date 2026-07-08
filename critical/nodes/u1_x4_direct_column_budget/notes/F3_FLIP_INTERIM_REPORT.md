@@ -100,6 +100,22 @@ This is arithmetic slack for high rows, not `H3-ACT(C)`: the missing pieces are
 still the rank theorem and the F3 geometric batching/charging from activated
 shape pairs to repaired curve families.
 
+The bridge-budget compiler turns that geometry gap into an explicit contract.
+If, on row `n=2^s`, activated shape pairs batch into a repaired curve family of
+size at most `Z_budget(s)`, then `RC-RANK` plus the current diagonal arithmetic
+implies `H3-ACT(16)`.  Replayed budgets include:
+
+```text
+s=13: Z_budget=11
+s=20: Z_budget=58
+s=23: Z_budget=116
+s=32: Z_budget=927
+s=39,40,41: Z_budget=4529
+```
+
+The plateau is only a verified lower budget under `B_max=20000`, not an
+impossibility result for larger families.
+
 A tempting shortcut for the rank theorem is already refuted.  Private
 zeros/poles for `X,r_1,r_2,r_3` do not imply full coefficient-rank
 injectivity: the toy curve

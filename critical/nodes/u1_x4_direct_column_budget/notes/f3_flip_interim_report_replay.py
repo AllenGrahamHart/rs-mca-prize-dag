@@ -77,6 +77,14 @@ COMMANDS = [
         "H3_RANK_PARAMETER_COMPILER_PASS",
     ),
     (
+        "h3 bridge-budget compiler",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py",
+        ],
+        "H3_BRIDGE_BUDGET_COMPILER_PASS",
+    ),
+    (
         "h3 private-divisor full-rank refutation",
         [
             sys.executable,

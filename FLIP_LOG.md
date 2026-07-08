@@ -753,6 +753,39 @@ have real arithmetic slack: for `n=2^41`, the table gives `0.282n` at
 remaining missing ingredients are the actual rank theorem and the geometric
 batching/charging map from h=3 activated shapes to repaired curve families.
 
+## T1/T2 h=3 bridge-budget compiler
+
+Stage selected: compile the maximum repaired curve-family size tolerated by
+the current diagonal Stepanov arithmetic while still implying `H3-ACT(16)`.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H3_BRIDGE_BUDGET_COMPILER_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: under `RC-RANK`, if row `n=2^s` batches activated h=3 shape pairs into
+at most `Z_budget(s)` repaired curves, then `H3-ACT(16)` follows.  The verified
+budgets include `Z_budget(13)=11`, `Z_budget(20)=58`, `Z_budget(23)=116`,
+`Z_budget(32)=927`, and `Z_budget(39)=Z_budget(40)=Z_budget(41)=4529` under
+the diagonal search with `B_max=20000`.  This does not prove the geometric
+batching theorem; it makes the missing bridge numerically explicit.
+
 ## T1 h=3 private-divisor full-rank refutation
 
 Stage selected: test and falsify a tempting shortcut to the remaining
