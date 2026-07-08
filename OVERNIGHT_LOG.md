@@ -4438,3 +4438,34 @@ Activation exceptions:
 Rates: rational norm exception `0.8492%`; actual common-root activation
 `0.0023%`.  The complete core-by-core program now has all 91 of 91 core types
 scanned.
+
+## 2026-07-08 Terminal C all-core aggregate
+
+Stage: Terminal C, complete aggregate of the 91 core-orbit slices.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ALL_CORE_CENSUS_SUMMARY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_all_core_census_summary.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_all_core_census_summary.json
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_all_core_census_summary.py
+```
+
+Result:
+
+```text
+TOTAL core_types=91 oriented_shapes=11808706 norm_exceptions=106250 activation_exceptions=720
+RATES norm=0.8998% activation=0.0061%
+H3_ALL_CORE_CENSUS_SUMMARY_DONE
+```
+
+Interpretation: the complete oriented core-slice census is aggregated, with
+the full 720-entry activation-exception list written to JSON.  This does not
+claim the Burnside-deduplicated unordered pair-orbit rate; that is a separate
+accounting layer if the consumer asks for it.

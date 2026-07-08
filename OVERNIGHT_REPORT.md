@@ -28,6 +28,11 @@ consecutive-core subfamily census gives the first exact activation rate:
 `44/129766`, and those 44 exceptions are covered by two simple structural
 families whose union has zero activation-free complement outside it.  The
 remaining full census can now be organized into 91 affine/Galois core types.
+That core-by-core program is now complete and aggregated: across the 91
+oriented slices there are `11,808,706` oriented shapes, `106,250` rational
+norm exceptions, and `720` actual common-root activation exceptions, giving
+activation rate `0.0061%`.  This is the oriented core-slice rate; a
+Burnside-deduplicated unordered pair-orbit rate is a separate accounting layer.
 The second core type, `(0,1,3)`, is also complete: it has only `3/129766`
 actual common-root activation exceptions.  The third core type, `(0,1,4)`, is
 complete with `5/129766` actual activations.  The fourth core type `(0,1,5)` is
@@ -1862,24 +1867,20 @@ Terminal B status: partial, not complete.  The h=2 stratum remains closed only
 by external HBK/Konyagin/Cochrane--Pinner input until the two missing explicit
 Stepanov/HBK steps above are proved in-house.
 
-Terminal C status: started, not complete.  The observed-shape pilot supports
-common-root pair-coprimality, and the random exact-norm sample refines the
-statement away from rational norm gcds.  The 64-prime activation ladder gives
-stronger direct finite-field evidence.  The full `n=96` all-shapes census is
-now exactly sized at `3,135,641` affine/Galois representatives, and the first
-deterministic slices give a 44-entry complete subfamily exceptional list.  The
-consecutive-core exceptional list has a checked two-family classification.  The
-outside-family complement is activation-free in that complete slice.  The
-remaining full census is now organized into 91 core-orbit slices; 34 are
-complete, represented by `(0,1,2)`, `(0,1,3)`, `(0,1,4)`, `(0,1,5)`,
-`(0,1,6)`, `(0,1,7)`, `(0,1,8)`, `(0,1,9)`, `(0,1,10)`, `(0,1,11)`,
-`(0,1,12)`, `(0,1,13)`, `(0,1,14)`, `(0,1,15)`, `(0,1,16)`, `(0,1,17)`,
-`(0,1,18)`, `(0,1,19)`, `(0,1,20)`, `(0,1,21)`, `(0,1,22)`, `(0,1,23)`, and
-`(0,1,24)`, `(0,1,25)`, `(0,1,26)`, `(0,1,27)`, `(0,1,28)`, `(0,1,29)`, and
-`(0,1,30)`, `(0,1,31)`, `(0,1,32)`, `(0,1,33)`, `(0,1,34)`, and `(0,1,35)`.
+Terminal C status: complete for the oriented core-slice census.  The
+observed-shape pilot supports common-root pair-coprimality, and the random
+exact-norm sample refines the statement away from rational norm gcds.  The
+64-prime activation ladder gives stronger direct finite-field evidence.  The
+full `n=96` all-shapes census is exactly sized at `3,135,641` affine/Galois
+representatives, and the core-by-core program covers all `91` core types with
+one complete oriented `B`-slice each.  The aggregate has `106250/11808706`
+rational norm exceptions and `720/11808706` actual common-root activation
+exceptions.  The full 720-entry oriented activation-exception list is banked in
+`f3_h3_all_core_census_summary.json`.  Burnside-deduplicated pair-orbit
+accounting remains a separate optional post-processing layer.
 Continuation update: the complete core-by-core census is now all 91 of 91 core
 types complete, through `(0,1,92)`.  The latest slice has `1102/129766`
 rational norm exceptions and `3/129766` actual common-root activation
 exceptions.
-The resultant/common-root pass over all representatives and final empirical
-rate remain open.
+The oriented core-slice resultant/common-root pass and aggregate empirical rate
+are banked.
