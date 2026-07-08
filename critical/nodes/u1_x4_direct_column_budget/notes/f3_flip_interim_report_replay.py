@@ -77,6 +77,14 @@ COMMANDS = [
         "H3_RANK_PARAMETER_COMPILER_PASS",
     ),
     (
+        "h3 private-divisor full-rank refutation",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_divisor_full_rank_refutation.py",
+        ],
+        "H3_PRIVATE_DIVISOR_FULL_RANK_REFUTATION_PASS",
+    ),
+    (
         "h3 activation-bound compiler",
         [
             sys.executable,

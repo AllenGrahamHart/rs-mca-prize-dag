@@ -752,3 +752,36 @@ have real arithmetic slack: for `n=2^41`, the table gives `0.282n` at
 `|Z|=256` and `0.647n` at `|Z|=512`.  This does not prove `H3-ACT(C)`; the
 remaining missing ingredients are the actual rank theorem and the geometric
 batching/charging map from h=3 activated shapes to repaired curve families.
+
+## T1 h=3 private-divisor full-rank refutation
+
+Stage selected: test and falsify a tempting shortcut to the remaining
+rank-form nonvanishing theorem.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_DIVISOR_FULL_RANK_REFUTATION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_divisor_full_rank_refutation.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_divisor_full_rank_refutation.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H3_PRIVATE_DIVISOR_FULL_RANK_REFUTATION_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the constructed curve
+`(X-2)/(X-3), (X-5)/(X-7), (X-11)/(X-13)` has private zeros for
+`X,r_1,r_2,r_3`, but its exact substitution rank in the toy box
+`p=769,h=32,A=5,B=4,D=1` is `293 < 320`.  Therefore private divisors do not
+imply full coefficient-rank injectivity.  The weaker toy rank target still
+holds (`78 < 293`), so this only refutes the overstrong proof route.

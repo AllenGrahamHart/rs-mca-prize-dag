@@ -100,6 +100,13 @@ This is arithmetic slack for high rows, not `H3-ACT(C)`: the missing pieces are
 still the rank theorem and the F3 geometric batching/charging from activated
 shape pairs to repaired curve families.
 
+A tempting shortcut for the rank theorem is already refuted.  Private
+zeros/poles for `X,r_1,r_2,r_3` do not imply full coefficient-rank
+injectivity: the toy curve
+`(X-2)/(X-3), (X-5)/(X-7), (X-11)/(X-13)` has private zeros but exact rank
+`293 < 320`.  It still satisfies the weaker toy `RC-RANK` inequality
+`78 < 293`, so the refutation only kills the overstrong proof route.
+
 ### h=4
 
 The structural dichotomy is already proved in the DAG:
