@@ -677,6 +677,18 @@ For `lambda != 1`, an admissible ratio is exactly a non-pole `z` with
 `U_lambda(z),V_lambda(z),W_lambda(z) in H`.  The `lambda=1` branch remains the
 separate primitive-cube scale condition.
 
+The ratio-orbit compiler quotients the ordered ratios by the `S_3` relabeling
+of the three roots.  The six generic transforms are
+
+```text
+z, 1/z, -(1+z), -1/(1+z), -(1+z)/z, -z/(1+z).
+```
+
+Thus the generic fixed-`lambda` target is uniqueness of an admissible
+`S_3`-orbit of ratios, not uniqueness of a raw ordered ratio.  For
+`lambda=1`, the ordered-ratio set has size two and remains in the primitive
+cube-root scale branch.
+
 The pairwise-coreless compiler splits the other taxonomy branch.  A
 pairwise-intersecting coreless obstruction on at most four active 3-edges
 either has a 3-edge coreless subfamily, or every triple has a common point and
@@ -768,7 +780,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `17.00s` locally and ends with
+It runs in about `16.99s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

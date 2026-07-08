@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.00 maxrss=50108
+elapsed=16.99 maxrss=50040
 ```
 
 ## Confidence-ranked claims
@@ -149,7 +149,11 @@ elapsed=17.00 maxrss=50108
    `1+(lambda-1)z(1+z)/(1+z+z^2)`,
    `1+(lambda-1)(1+z)/(1+z+z^2)`, and
    `1-(lambda-1)z/(1+z+z^2)`, so this target is now a concrete
-   three-membership problem on the ratio line.
+   three-membership problem on the ratio line.  The six ordered root ratios
+   form one `S_3` orbit
+   `z,1/z,-(1+z),-1/(1+z),-(1+z)/z,-z/(1+z)`, so the target is uniqueness
+   of an admissible ratio orbit, with `lambda=1` handled by the primitive-cube
+   scale branch.
    The pairwise-coreless case further splits into a 3-edge coreless triangle
    or the tetrahedral four-3-subsets pattern.  The 3-edge coreless triangle
    further has only two combinatorial patterns: loose `(1,1,1)` and pinched

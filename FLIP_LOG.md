@@ -5624,3 +5624,45 @@ H3_REPEAT_LAMBDA_RATIO_MEMBERSHIP_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=17.00 maxrss=50108
 ```
+
+## T2/T3 h=3 repeat lambda-ratio orbit compiler
+
+Stage selected: quotient ordered root ratios by the `S_3` symmetry of a
+3-point reciprocal fiber.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_RATIO_ORBIT_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_orbit_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_orbit_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LAMBDA_RATIO_ORBIT_COMPILER_PASS
+```
+
+Result: the six ordered ratios attached to a generic reciprocal edge are
+
+```text
+z, 1/z, -(1+z), -1/(1+z), -(1+z)/z, -z/(1+z).
+```
+
+So the generic same-lambda target is uniqueness of an admissible `S_3` ratio
+orbit.  The `lambda=1` primitive-cube branch has only two ordered ratios and
+is kept separate.
+
+Focused replay:
+
+```text
+H3_REPEAT_LAMBDA_RATIO_ORBIT_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=16.99 maxrss=50040
+```
