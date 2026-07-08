@@ -461,13 +461,39 @@ The resulting degree-bound payment is larger than `n^3` at that row, so the
 canonical cover is useful as a target object but not yet a row certificate.
 The smaller common forced cover `{2}` remains the sharper explanation.
 
+The coordinate-hitting ledger sharpens the target object.  Let `tau_coord` be
+the minimum size of a set of subgroup coordinates hitting every active
+coordinate edge `{u,v,w}`.  Then the same forced-fiber degree bound gives
+
+```text
+B_line <= 6 tau_coord n,
+repeat_residue <= (72 tau_coord + 18)n^2.
+```
+
+This is the invariant actually consumed by the forced-coordinate route.  On
+the nonzero boundary row, the active hypergraph has eight distinct coordinate
+edges and
+
+```text
+tau_coord=1, hitter={2}.
+```
+
+Thus the elementary payment is
+
+```text
+(72*1+18)256^2 = 5898240 < 256^3.
+```
+
+This certifies the nonzero boundary row by the forced-coordinate route, while
+leaving the uniform small-hitting theorem open.
+
 The repeat-boundary chain has a focused replay:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `7.47s` locally and ends with
+It runs in about `8.60s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

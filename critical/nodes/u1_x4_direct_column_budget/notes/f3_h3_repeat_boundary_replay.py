@@ -92,6 +92,11 @@ COMMANDS = [
         "f3_h3_repeat_coordinate_cover_ledger.py",
         "H3_REPEAT_COORDINATE_COVER_LEDGER_PASS",
     ),
+    (
+        "h3 repeat coordinate-hitting ledger",
+        "f3_h3_repeat_coordinate_hitting_ledger.py",
+        "H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS",
+    ),
 ]
 
 

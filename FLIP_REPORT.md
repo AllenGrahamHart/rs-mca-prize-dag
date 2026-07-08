@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=7.47 maxrss=50092
+elapsed=8.60 maxrss=50096
 ```
 
 ## Confidence-ranked claims
@@ -104,8 +104,10 @@ elapsed=7.47 maxrss=50092
    `F <= ceil(sqrt(n))` covers every official row, and
    `F <= ceil(n^(2/3))` covers `2^19..2^41`.  The canonical coordinate cover
    is measurable but too crude on the nonzero row: at `n=256,p=65537`,
-   `C_coord=17`, giving a cover-bound above `n^3`; the common cover `{2}` is
-   the sharper row explanation.
+   `C_coord=17`, giving a cover-bound above `n^3`.  The sharper invariant is
+   the minimum coordinate hitting number `tau_coord`; on that row the active
+   hypergraph has `tau_coord=1` with hitter `{2}`, giving
+   `(72*1+18)256^2 < 256^3`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=7.47 maxrss=50092
+elapsed=8.60 maxrss=50096
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4651,4 +4651,56 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_COVER_LEDGER_PASS
 elapsed=2.02 maxrss=10752
+```
+
+## T2/T3 h=3 repeat coordinate-hitting ledger
+
+Stage selected: replace the crude coordinate-union cover with the minimum
+hitting number of the active coordinate hypergraph.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_COORDINATE_HITTING_LEDGER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_hitting_ledger.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_hitting_ledger.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
+```
+
+Result: if `tau_coord` is the minimum size of a coordinate set hitting every
+active edge `{u,v,w}`, then
+
+```text
+repeat_residue <= (72 tau_coord + 18)n^2.
+```
+
+On the nonzero boundary row `n=256,p=65537`, the active coordinate hypergraph
+has eight distinct edges and
+
+```text
+tau_coord=1, hitting_set={2},
+residue_bound=5898240 < n^3=16777216.
+```
+
+Thus the row that defeated zero-support is still paid by the elementary
+forced-coordinate route.  The uniform target is now the weaker statement
+`tau_coord <= C n^eta`, `eta<1`, rather than a bound for the full coordinate
+union `C_coord`.
+
+Focused replay:
+
+```text
+H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=8.60 maxrss=50096
 ```

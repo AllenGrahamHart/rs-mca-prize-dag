@@ -62,7 +62,9 @@ The nonzero row has `C_coord=17`, so the coordinate-cover residue bound is
 
 which is larger than `256^3`.  Thus the canonical cover is structurally useful
 but not yet strong enough, by this crude bound, to certify the `n=256` row.  The
-smaller common forced cover `{2}` gives the sharper row explanation.
+smaller common forced cover `{2}` gives the sharper row explanation.  This is
+formalized by the coordinate-hitting ledger, where the same row has
+`tau_coord=1`.
 
 ## Role in h=3
 
@@ -73,8 +75,8 @@ H3-COORD-COVER:
   prove C_coord <= C n^eta with eta < 1
 ```
 
-or prove that a smaller canonical subcover exists.  Either would combine with
-the degree bound to pay the repeat residue.
+or prove that a smaller hitting subcover exists.  The coordinate-hitting ledger
+records the sharper target consumed by the degree bound.
 
 ## Replay
 
