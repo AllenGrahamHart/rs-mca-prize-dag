@@ -165,6 +165,14 @@ COMMANDS = [
         "H8_ROTATION_ORBIT_COMPILER_PASS",
     ),
     (
+        "h8 exponent-unit falsifier",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_exponent_unit_falsifier.py",
+        ],
+        "H8_EXPONENT_UNIT_FALSIFIER_PASS",
+    ),
+    (
         "h8 support-certifier reduction",
         [
             sys.executable,

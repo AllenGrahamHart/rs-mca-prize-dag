@@ -921,3 +921,39 @@ Result: Burnside's lemma over the size-64 rotation group gives
 still has `7,633,233,227,520` orbits.  This is only an average factor of about
 `16` below the anchored non-antipodal support count; it is useful
 canonicalization hygiene, not a feasible direct global enumeration route.
+
+## T4 h=8 exponent-unit symmetry falsifier
+
+Stage selected: test the tempting larger support-canonicalization group
+`e -> ue mod 64`.  The rotation compiler deliberately avoided this quotient
+because the x83 equations are polynomial in the actual roots, not just in the
+abstract cyclic group.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_EXPONENT_UNIT_FALSIFIER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_exponent_unit_falsifier.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_exponent_unit_falsifier.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H8_EXPONENT_UNIT_FALSIFIER_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: at `p=193`, the banked full-zero support
+`{0,1,2,9,10,16,24,25,32,33,34,41,42,48,56,57}` maps under the exponent unit
+`u=3` to `{0,3,6,8,11,16,27,30,32,35,38,40,43,48,59,62}`, whose obstruction
+vector is `[0,180,0,60,0,20,0]` and whose `lambda=30` is nonsquare.  Therefore
+arbitrary exponent-unit maps are not x83 support symmetries.  The h=8 global
+certifier can safely use root-scaling rotations, but not the full exponent-unit
+group without rechecking each image.
