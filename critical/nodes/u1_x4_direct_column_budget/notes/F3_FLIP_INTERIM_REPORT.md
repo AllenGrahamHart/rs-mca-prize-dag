@@ -689,6 +689,17 @@ Thus the generic fixed-`lambda` target is uniqueness of an admissible
 `lambda=1`, the ordered-ratio set has size two and remains in the primitive
 cube-root scale branch.
 
+The lambda-one scale compiler makes that exceptional branch explicit.  If
+`omega` is a primitive cube root of unity and `x=1/r`, then a `lambda=1` active
+edge is exactly
+
+```text
+{1+x, 1+omega x, 1+omega^2 x} subset H,
+```
+
+modulo the scale orbit `x -> omega x`.  If the field has no primitive cube
+root, the branch is empty.
+
 The pairwise-coreless compiler splits the other taxonomy branch.  A
 pairwise-intersecting coreless obstruction on at most four active 3-edges
 either has a 3-edge coreless subfamily, or every triple has a common point and
@@ -780,7 +791,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `16.99s` locally and ends with
+It runs in about `16.85s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

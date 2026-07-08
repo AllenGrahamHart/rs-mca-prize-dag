@@ -5666,3 +5666,45 @@ H3_REPEAT_LAMBDA_RATIO_ORBIT_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=16.99 maxrss=50040
 ```
+
+## T2/T3 h=3 repeat lambda=1 scale compiler
+
+Stage selected: isolate the exceptional `lambda=1` branch exposed by the
+ratio parametrization.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_ONE_SCALE_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_one_scale_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_one_scale_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LAMBDA_ONE_SCALE_COMPILER_PASS
+```
+
+Result: when `lambda=1`, reciprocal roots are `{r,omega r,omega^2 r}`.  With
+`x=1/r`, active edges are exactly scale orbits satisfying
+
+```text
+{1+x, 1+omega x, 1+omega^2 x} subset H.
+```
+
+The boundary guardrail rows have no active `lambda=1` scale orbit.  The
+contrast row `(p,n)=(97,32)` has one.
+
+Focused replay:
+
+```text
+H3_REPEAT_LAMBDA_ONE_SCALE_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=16.85 maxrss=50104
+```

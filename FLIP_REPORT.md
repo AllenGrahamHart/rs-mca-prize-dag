@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.99 maxrss=50040
+elapsed=16.85 maxrss=50104
 ```
 
 ## Confidence-ranked claims
@@ -153,7 +153,8 @@ elapsed=16.99 maxrss=50040
    form one `S_3` orbit
    `z,1/z,-(1+z),-1/(1+z),-(1+z)/z,-z/(1+z)`, so the target is uniqueness
    of an admissible ratio orbit, with `lambda=1` handled by the primitive-cube
-   scale branch.
+   scale branch.  That special branch is exactly the scale condition
+   `{1+x,1+omega x,1+omega^2 x} subset H`, modulo `x -> omega x`.
    The pairwise-coreless case further splits into a 3-edge coreless triangle
    or the tetrahedral four-3-subsets pattern.  The 3-edge coreless triangle
    further has only two combinatorial patterns: loose `(1,1,1)` and pinched

@@ -25,6 +25,7 @@ The harness runs:
 - the lambda-ratio parametrization;
 - the lambda-ratio membership compiler;
 - the lambda-ratio orbit compiler;
+- the lambda=1 scale compiler;
 - the LP4 Stepanov compiler;
 - the q0 cell payment;
 - the fixed-fiber cap;

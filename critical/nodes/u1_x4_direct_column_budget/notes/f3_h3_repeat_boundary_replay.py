@@ -88,6 +88,11 @@ COMMANDS = [
         "H3_REPEAT_LAMBDA_RATIO_ORBIT_COMPILER_PASS",
     ),
     (
+        "h3 repeat lambda=1 scale compiler",
+        "f3_h3_repeat_lambda_one_scale_compiler.py",
+        "H3_REPEAT_LAMBDA_ONE_SCALE_COMPILER_PASS",
+    ),
+    (
         "h3 repeat-boundary LP4 Stepanov compiler",
         "f3_h3_repeat_boundary_lp4_stepanov_compiler.py",
         "H3_REPEAT_BOUNDARY_LP4_STEPANOV_COMPILER_PASS",
