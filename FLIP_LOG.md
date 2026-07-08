@@ -2979,10 +2979,11 @@ The first acts by an invertible linear map on the cleared coefficient space
 and preserves the `deg_X < A` source span; the second only rescales columns by
 nonzero factors; the last two only permute the multi-index columns.  Therefore
 these operations preserve the `RC-RANK` inequality.  This is not a proof of
-`RC-RANK`, and it does not permit arbitrary non-affine Mobius
-reparametrizations.  Standalone replay passes in `0.07s` locally
-(`maxrss=12928`).  The default aggregate replay passes with this packet
-included in `41.63s` locally (`maxrss=98780`).
+`RC-RANK`.  At this stage the packet did not yet include arbitrary non-affine
+Mobius reparametrizations; the later source-Mobius entry below supersedes that
+limitation.  Standalone replay passes in `0.07s` locally (`maxrss=12928`).
+The default aggregate replay passes with this packet included in `41.63s`
+locally (`maxrss=98780`).
 
 ## T4 h=8 non-antipodal aperiodicity
 

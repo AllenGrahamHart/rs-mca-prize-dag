@@ -379,13 +379,14 @@ whose exact rank is `320 = A B^3`, proving that the full coefficient-rank
 degree-2 open set is nonempty in the toy box.
 
 The normalization-invariance packet proves two harmless rank symmetries for
-that future theorem.  Affine source changes `X -> mX+t`, `m != 0`, act by an
-invertible linear map on the cleared coefficient space and preserve the source
-factor span `deg_X < A`; nonzero target coordinate scalings only rescale
-columns; target permutations and target inversions only permute the multi-index
-columns.  Thus `RC-RANK` is unchanged by these normalizations.  This lets the
-eventual `F3-RANK-AVOID` theorem quotient repaired representatives by those
-operations, but not by arbitrary non-affine Mobius maps.
+that future theorem.  Source Mobius changes
+`X -> (alpha X + beta)/(gamma X + delta)` preserve the cleared coefficient
+rank after homogeneous denominator clearing; affine source changes are the
+special case `gamma=0`.  Nonzero target coordinate scalings only rescale
+columns, while target permutations and target inversions only permute the
+multi-index columns.  Thus `RC-RANK` is unchanged by these normalizations.  This
+lets the eventual `F3-RANK-AVOID` theorem quotient repaired representatives by
+source Mobius changes and the listed target operations.
 
 The private-linear compiler guard prevents a wrong shortcut from this point.
 All current official non-diagonal h=3 bridge witnesses use the degree-2
