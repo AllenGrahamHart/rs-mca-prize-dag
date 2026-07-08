@@ -60,12 +60,11 @@ s=40: B <= 49146
 s=41: B <= 61923
 ```
 
-The cap follows from the compiler inequalities.  If `ceil(Z L / D) <= 16n`,
-then `Z L <= 16nD`; combining this with `13D(A+D)Z < Z(L+1)` and `A >= 1`
-gives a finite upper bound on `D`, and then `L >= 6n(B-1)` gives the displayed
-finite upper bound on `B`.  By monotonicity in `Z`, the passing `Z` and complete
-`Z+1` failure prove maximality for these six high rows under the non-diagonal
-compiler inequalities, not merely inside the default `B <= 50000` box.
+The cap follows from the shared compiler inequality in
+`F3_H3_NONDIAGONAL_LOWROW_BUDGET.md`.  By monotonicity in `Z`, the passing `Z`
+and complete `Z+1` failure prove maximality for these six high rows under the
+non-diagonal compiler inequalities, not merely inside the default
+`B <= 50000` box.
 
 ## Interpretation
 

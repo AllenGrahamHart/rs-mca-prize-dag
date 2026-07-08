@@ -1223,7 +1223,7 @@ H3_NONDIAGONAL_LOWROW_BUDGET_PASS
 F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 ```
 
-Result: for `s=13..35`, exact non-diagonal optimization with `B <= 50000`
+Result: for `s=13..35`, exact non-diagonal optimization
 raises the bridge budgets
 
 ```text
@@ -1238,7 +1238,9 @@ raises the bridge budgets
 ```
 
 The verifier checks a passing witness at the improved `Z` and an exhaustive
-`Z+1` failure inside the non-diagonal search box.  This reduces the low/mid-row
+`Z+1` failure up to the exact analytic `B` cap for any possible passing box.
+The largest cap in these rows is `B <= 15470`, so this also removes the fixed
+`B <= 50000` caveat from the low/mid-row packet.  This reduces the low/mid-row
 geometric batching burden; it does not close `RC-RANK` or the bridge theorem.
 
 ## T3 h=3 optional high-row non-diagonal budget lift

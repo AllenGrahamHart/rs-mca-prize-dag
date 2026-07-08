@@ -21,8 +21,8 @@ Success criterion:
 
 - use exact integer inequalities only;
 - verify a pinned passing witness `(A,B,D)` at the improved `Z`;
-- exhaustively scan `Z+1` over `B <= 50000` using the same non-diagonal
-  feasibility inequalities;
+- exhaustively scan `Z+1` up to the exact analytic `B` cap for any possible
+  passing box;
 - keep the result explicitly conditional on `RC-RANK` and the geometric
   batching contract.
 
@@ -47,8 +47,7 @@ image cap  = Z (L + 1).
 The diagonal compiler set `A = D`.  Here, for each fixed `B` and `D`, the
 verifier chooses the least integer `A` satisfying `conditions < coeffs`, then
 checks `conditions < image cap`.  This is enough to minimize the degree bound
-for that `(B,D)` pair.  The verifier then maximizes over `D` for each `B` and
-scans every `B <= 50000`.
+for that `(B,D)` pair.  The verifier then maximizes over `D` for each `B`.
 
 ## Result
 
@@ -81,8 +80,41 @@ s=35: 1855 -> 2699
 ```
 
 For every row, the replay verifies that the improved `Z` passes and `Z+1`
-fails under the stated non-diagonal search box.  By monotonicity in `Z`, this
-gives maximality inside `B <= 50000` for these low rows.
+fails over the whole possible `B` range for a passing box.  The exact caps used
+for the `Z+1` scans are:
+
+```text
+s=13: B <= 93
+s=14: B <= 111
+s=15: B <= 148
+s=16: B <= 186
+s=17: B <= 233
+s=18: B <= 295
+s=19: B <= 373
+s=20: B <= 477
+s=21: B <= 602
+s=22: B <= 756
+s=23: B <= 964
+s=24: B <= 1214
+s=25: B <= 1534
+s=26: B <= 1928
+s=27: B <= 2428
+s=28: B <= 3067
+s=29: B <= 3868
+s=30: B <= 4867
+s=31: B <= 6134
+s=32: B <= 7735
+s=33: B <= 9744
+s=34: B <= 12278
+s=35: B <= 15470
+```
+
+The cap follows from the compiler inequalities.  If `ceil(Z L / D) <= 16n`,
+then `Z L <= 16nD`; combining this with `13D(A+D)Z < Z(L+1)` and `A >= 1`
+gives a finite upper bound on `D`, and then `L >= 6n(B-1)` gives the displayed
+finite upper bound on `B`.  By monotonicity in `Z`, the passing `Z` and complete
+`Z+1` failure prove maximality for these low/mid rows under the non-diagonal
+compiler inequalities, not merely inside the default `B <= 50000` box.
 
 ## Interpretation
 

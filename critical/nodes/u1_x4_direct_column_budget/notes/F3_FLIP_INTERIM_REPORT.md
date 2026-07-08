@@ -143,8 +143,8 @@ other Stepanov parameter families.
 The first non-diagonal parameter pass improves the low/middle official rows
 `s=13..35`.  It uses the same compiler inequalities, but chooses the least
 admissible `A` for each `(B,D)` instead of imposing `A=D`.  The aggregate replay
-now verifies that the improved `Z` passes and `Z+1` fails under the
-`B <= 50000` non-diagonal search box:
+now verifies that the improved `Z` passes and `Z+1` fails up to the exact
+analytic `B` cap for any possible passing box:
 
 ```text
 s=13:  11 -> 16

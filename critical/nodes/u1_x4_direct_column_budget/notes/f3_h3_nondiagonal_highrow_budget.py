@@ -9,6 +9,7 @@ from f3_h3_nondiagonal_lowrow_budget import (
     H3_ACT_C,
     Row,
     best_nondiagonal_bound,
+    next_failure_b_cap,
     witness_bound,
 )
 
@@ -93,20 +94,6 @@ EXPECTED_ROWS = (
         167_128_551,
     ),
 )
-
-
-def next_failure_b_cap(n: int, z: int) -> int:
-    """Return an exact B cap for any box that could beat the H3_ACT_C*n target."""
-    target = H3_ACT_C * n
-    lo = 0
-    hi = target // (C_RED * z) + 2
-    while lo + 1 < hi:
-        mid = (lo + hi) // 2
-        if C_RED * mid * (mid + 1) * z < target * mid + z:
-            lo = mid
-        else:
-            hi = mid
-    return (target * lo) // (6 * n * z) + 1
 
 
 def main() -> None:
