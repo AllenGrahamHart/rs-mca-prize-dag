@@ -107,6 +107,11 @@ COMMANDS = [
         "f3_h3_repeat_hitting_exception_scan.py",
         "H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS",
     ),
+    (
+        "h3 repeat singleton-hitting stress",
+        "f3_h3_repeat_singleton_hitting_stress.py",
+        "H3_REPEAT_SINGLETON_HITTING_STRESS_PASS",
+    ),
 ]
 
 

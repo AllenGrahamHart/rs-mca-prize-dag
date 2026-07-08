@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=9.61 maxrss=50104
+elapsed=14.47 maxrss=49980
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4702,7 +4702,7 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=9.61 maxrss=50104
+elapsed=14.47 maxrss=49980
 ```
 
 ## T2/T3 h=3 repeat forced-coordinate-2 normal form
@@ -4752,7 +4752,7 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=9.61 maxrss=50104
+elapsed=14.47 maxrss=49980
 ```
 
 ## T2/T3 h=3 repeat hitting exception scan
@@ -4796,5 +4796,63 @@ Focused replay:
 ```text
 H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=9.61 maxrss=50104
+elapsed=14.47 maxrss=49980
+```
+
+## T2/T3 h=3 repeat singleton-hitting stress
+
+Stage selected: after fixed-`2` cover was falsified, test the stronger star
+target `tau_coord <= 1` directly in bounded boundary-style windows.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SINGLETON_HITTING_STRESS.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_singleton_hitting_stress.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_singleton_hitting_stress.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SINGLETON_HITTING_STRESS_PASS
+```
+
+Result: no `tau_coord>1` row appears in the bounded scan:
+
+```text
+n=16  scanned_primes=200 nonzero_rows=1 max_row=p=337,B=6,edges=1,tau=1
+n=32  scanned_primes=200 nonzero_rows=1 max_row=p=2017,B=6,edges=1,tau=1
+n=64  scanned_primes=200 nonzero_rows=5 max_row=p=65537,B=24,edges=4,tau=1
+n=128 scanned_primes=120 nonzero_rows=3 max_row=p=65537,B=48,edges=8,tau=1
+n=256 scanned_primes=80  nonzero_rows=6 max_row=p=65537,B=48,edges=8,tau=1
+```
+
+The payoff is large: `tau_coord <= 1` implies
+
+```text
+repeat_residue <= 90n^2,
+```
+
+which is below `n^3` for every official row.  This is finite stress evidence,
+not a proof.
+
+Standalone timing:
+
+```text
+H3_REPEAT_SINGLETON_HITTING_STRESS_PASS
+elapsed=6.01 maxrss=10496
+```
+
+Focused replay:
+
+```text
+H3_REPEAT_SINGLETON_HITTING_STRESS_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=14.47 maxrss=49980
 ```

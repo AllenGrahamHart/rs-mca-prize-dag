@@ -520,13 +520,29 @@ p=91393 n=256 active_edges=2 non_two_edges=2 tau_coord=1
 So the right structural target is still `tau_coord`, not a fixed coordinate.
 The `2`-cell is useful, but must be paired with an exception-hitting argument.
 
+The singleton-hitting stress scan then tests the stronger star target
+`tau_coord<=1` directly.  It scans the first boundary-style primes in windows
+through `n=256` and finds no `tau_coord>1` row:
+
+```text
+n=16  nonzero_rows=1 max_row=p=337,B=6,edges=1,tau=1
+n=32  nonzero_rows=1 max_row=p=2017,B=6,edges=1,tau=1
+n=64  nonzero_rows=5 max_row=p=65537,B=24,edges=4,tau=1
+n=128 nonzero_rows=3 max_row=p=65537,B=48,edges=8,tau=1
+n=256 nonzero_rows=6 max_row=p=65537,B=48,edges=8,tau=1
+```
+
+If this star target is proved in the boundary regime, then
+`repeat_residue <= 90n^2`, which pays every official row.  This remains finite
+evidence, not a theorem.
+
 The repeat-boundary chain has a focused replay:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `9.61s` locally and ends with
+It runs in about `14.47s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
