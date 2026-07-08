@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.92 maxrss=49956
+elapsed=17.31 maxrss=50092
 ```
 
 ## Confidence-ranked claims
@@ -127,7 +127,10 @@ elapsed=16.92 maxrss=49956
    target splits into two cases: disjoint active edge pairs, and
    pairwise-intersecting coreless obstructions on at most four edges.  The
    disjoint-pair case further splits into equal-`lambda` distinct active
-   cubics and a quadratic-miss condition from subtracting the two cubics.
+   cubics and a quadratic-miss condition from subtracting the two cubics.  The
+   equal-`lambda` case is exactly the fiber statistic
+   `sum_lambda binom(K_lambda,2)`, so it is killed by injectivity of
+   `E -> lambda(E)` on active boundary-style edges.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

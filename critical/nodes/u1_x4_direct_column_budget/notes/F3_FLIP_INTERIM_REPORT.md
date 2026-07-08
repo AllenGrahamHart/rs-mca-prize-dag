@@ -571,6 +571,17 @@ If `lambda=mu`, distinct active edges are automatically disjoint.  If
 the disjoint-pair target reduces to `H3-NO-SAME-LAMBDA` and
 `H3-NO-QUADRATIC-MISS`.
 
+The lambda-fiber ledger makes the first target exact.  If `K_lambda` is the
+number of active coordinate edges over a fixed `lambda`, then the number of
+same-`lambda` disjoint pairs is
+
+```text
+sum_lambda binom(K_lambda,2).
+```
+
+So `H3-NO-SAME-LAMBDA` is precisely injectivity of `E -> lambda(E)` on active
+boundary-style edges.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -599,7 +610,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `16.92s` locally and ends with
+It runs in about `17.31s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

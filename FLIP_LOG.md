@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.92 maxrss=49956
+elapsed=17.31 maxrss=50092
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4702,7 +4702,7 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.92 maxrss=49956
+elapsed=17.31 maxrss=50092
 ```
 
 ## T2/T3 h=3 repeat forced-coordinate-2 normal form
@@ -4752,7 +4752,7 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.92 maxrss=49956
+elapsed=17.31 maxrss=50092
 ```
 
 ## T2/T3 h=3 repeat hitting exception scan
@@ -4796,7 +4796,7 @@ Focused replay:
 ```text
 H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.92 maxrss=49956
+elapsed=17.31 maxrss=50092
 ```
 
 ## T2/T3 h=3 repeat singleton-hitting stress
@@ -4854,7 +4854,7 @@ Focused replay:
 ```text
 H3_REPEAT_SINGLETON_HITTING_STRESS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.92 maxrss=49956
+elapsed=17.31 maxrss=50092
 ```
 
 ## T2/T3 h=3 repeat star-obstruction compiler
@@ -4906,7 +4906,7 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.92 maxrss=49956
+elapsed=17.31 maxrss=50092
 ```
 
 ## T2/T3 h=3 repeat edge reciprocal form
@@ -4948,7 +4948,7 @@ Focused replay:
 ```text
 H3_REPEAT_EDGE_RECIPROCAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.92 maxrss=49956
+elapsed=17.31 maxrss=50092
 ```
 
 ## T2/T3 h=3 repeat star-obstruction taxonomy
@@ -4991,7 +4991,7 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_TAXONOMY_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.92 maxrss=49956
+elapsed=17.31 maxrss=50092
 ```
 
 ## T2/T3 h=3 repeat edge cubic gcd form
@@ -5033,7 +5033,7 @@ Focused replay:
 ```text
 H3_REPEAT_EDGE_CUBIC_GCD_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.92 maxrss=49956
+elapsed=17.31 maxrss=50092
 ```
 
 ## T2/T3 h=3 repeat pair-intersection compiler
@@ -5082,5 +5082,46 @@ Focused replay:
 ```text
 H3_REPEAT_PAIR_INTERSECTION_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.92 maxrss=49956
+elapsed=17.31 maxrss=50092
+```
+
+## T2/T3 h=3 repeat lambda-fiber ledger
+
+Stage selected: make the same-`lambda` obstruction into an exact fiber
+statistic.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_FIBER_LEDGER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_fiber_ledger.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_fiber_ledger.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LAMBDA_FIBER_LEDGER_PASS
+```
+
+Result: if `K_lambda` is the number of active edges with a fixed `lambda`, then
+
+```text
+same_lambda_pairs = sum_lambda binom(K_lambda,2).
+```
+
+The boundary witness rows have `max_K_lambda=1`.  The non-boundary contrast row
+`(p,n)=(97,32)` has `max_K_lambda=2` and `same_lambda_pairs=1`.
+
+Focused replay:
+
+```text
+H3_REPEAT_LAMBDA_FIBER_LEDGER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=17.31 maxrss=50092
 ```
