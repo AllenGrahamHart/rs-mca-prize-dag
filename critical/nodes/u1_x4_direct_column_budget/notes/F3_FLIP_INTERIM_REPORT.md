@@ -897,8 +897,11 @@ that the three lambda slopes are mutually distinct in a genuine loose system;
 their pairwise collision numerators factor through `a=b`, `a=1`, `b=1`, or
 `1+a+b=0`, all excluded.  The loose slope-multiplicity ledger then records
 the effective condition count: only lambda-coordinate collisions remain, on
-nine explicit divisors.  Thus the target should be phrased using the distinct
-slope set `C(a,b)`, not a fixed assumption of nine distinct conditions.
+nine explicit divisors.  The collision-orbit compiler quotients these nine
+divisors by the normalized `S_3` action and leaves only two special branch
+types, represented by `L_a=1/b` and `L_a=-1/(1+b)`.  Thus the target should be
+phrased using the distinct slope set `C(a,b)`, not a fixed assumption of nine
+distinct conditions.
 
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
@@ -928,7 +931,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `34.21s` locally and ends with
+It runs in about `32.91s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

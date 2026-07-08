@@ -6200,3 +6200,41 @@ H3_REPEAT_LOOSE_LAMBDA_SLOPE_COLLISIONS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=34.21 maxrss=52072
 ```
+
+## T2/T3 h=3 repeat loose collision-orbit compiler
+
+Stage selected: quotient the nine lambda-coordinate collision divisors by the
+normalized `S_3` action.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_COLLISION_ORBIT_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_collision_orbit_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_collision_orbit_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_COLLISION_ORBIT_COMPILER_PASS
+```
+
+Result: the nine lambda-coordinate collision divisors split into two
+normalized branch types.  Orbit A has size `3`, represented by `L_a=1/b`.
+Orbit B has size `6`, represented by `L_a=-1/(1+b)`.  Future loose-line
+arguments can therefore split into the generic nine-slope branch plus these
+two special branches, rather than nine raw cases.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_COLLISION_ORBIT_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=32.91 maxrss=52000
+```
