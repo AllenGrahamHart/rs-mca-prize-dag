@@ -302,6 +302,36 @@ all-core aggregate, the maximum oriented per-prime activation count is `92`,
 below `n`; this is evidence only because the aggregate is not
 Burnside-deduplicated, but it tests the right per-row object.
 
+## Interim report: current F3 flip residual map
+
+Stage selected: write a replayable interim report before further T1/T4 work,
+so the branch has an exact map of what is proved, what is conditional, and what
+still blocks a node promotion.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digest:
+
+```text
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the report keeps the non-completion status explicit.  The three
+promotion blockers are h=3 (`H3-ACT(C)` via `RC-RED` + `RC-NV` or certificates),
+h=5 (symbolic norm-gate incompatibility or row-family certificates), and h=8
+(n=64 non-antipodal x83 support branch).
+
 Next step: either attack `RC-RED` for the actual hyperbola normal-form curves,
 or pivot to T4(a)'s h=4 rigidity route while T1's nonvanishing gate is still
 open.
