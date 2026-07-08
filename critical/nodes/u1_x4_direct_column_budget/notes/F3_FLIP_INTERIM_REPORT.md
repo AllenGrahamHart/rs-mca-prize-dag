@@ -424,6 +424,36 @@ On this open set, pairwise constant-ratio collapse is automatically absent.
 The only possible normal-form pairwise collapse is `r_2/r_3`, and it occurs
 precisely when `{1,theta}={lambda,eta}`, which lies on the excluded diagonals.
 
+The private-linear minor-degree compiler turns the resulting universal matrix
+into an explicit bounded-degree bad-locus problem.  For a cleared normal-form
+column
+
+```text
+Y^(a+H b_1)
+(Y-1)^(H b_2)(Y-lambda)^(H(B-1-b_2))
+(Y-eta)^(H b_3)(Y-theta)^(H(B-1-b_3)),
+```
+
+each coefficient has
+
+```text
+deg_lambda <= H(B-1),
+deg_eta + deg_theta <= H(B-1),
+total parameter degree <= 2H(B-1).
+```
+
+Therefore every `r x r` rank minor in the normal-form parameters satisfies
+
+```text
+deg_lambda <= rH(B-1),
+deg_eta+theta <= rH(B-1),
+total degree <= 2rH(B-1).
+```
+
+So the remaining private-linear finite-row theorem can be phrased as
+nonvanishing, modulo the actual row prime, of an explicitly bounded-degree
+minor on the repaired `(lambda,eta,theta)` parameter image.
+
 The private-linear compiler guard prevents a wrong shortcut from this point.
 All current official non-diagonal h=3 bridge witnesses use the degree-2
 denominator room `A + 6n(B-1)`: for every row `s=13..41`, the per-curve

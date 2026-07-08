@@ -3780,6 +3780,51 @@ private-divisor open set automatically excludes pairwise constant-ratio
 collapse.  The finite-field verifier enumerates the chart over
 `F_17,F_19,F_23`.
 
+## T1 h=3 private-linear minor-degree compiler
+
+Stage selected: convert the normal-form private-linear rank target into an
+explicit bounded-degree bad-locus problem.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_MINOR_DEGREE_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_minor_degree_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_minor_degree_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_PRIVATE_LINEAR_MINOR_DEGREE_COMPILER_PASS
+```
+
+Result: in the normal form, each cleared matrix entry has
+
+```text
+deg_lambda <= H(B-1),
+deg_eta + deg_theta <= H(B-1),
+total degree <= 2H(B-1).
+```
+
+Therefore any `r x r` rank minor has
+
+```text
+deg_lambda <= rH(B-1),
+deg_eta + deg_theta <= rH(B-1),
+total degree <= 2rH(B-1).
+```
+
+The verifier constructs the symbolic normal-form coefficient matrix for small
+`(A,B,H)` boxes and checks the entry and sample-minor degree bounds.  This
+does not prove nonvanishing; it sharpens `F3-PRIVATE-LINEAR-RANK-AVOID` to
+bounded-degree minor avoidance over the actual row field.
+
 ## Replay maintenance: aggregate after Mobius/rank-interface changes
 
 The default aggregate replay still passes under the 60 second cap after the
