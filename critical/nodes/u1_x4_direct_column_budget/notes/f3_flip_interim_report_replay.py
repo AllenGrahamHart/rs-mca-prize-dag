@@ -309,6 +309,14 @@ COMMANDS = [
         "H8_ANTIPODAL_X83_QUOTIENT_PASS",
     ),
     (
+        "h8 locator parity antipodal criterion",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_locator_parity_antipodal.py",
+        ],
+        "H8_LOCATOR_PARITY_ANTIPODAL_PASS",
+    ),
+    (
         "h8 support universe compiler",
         [
             sys.executable,

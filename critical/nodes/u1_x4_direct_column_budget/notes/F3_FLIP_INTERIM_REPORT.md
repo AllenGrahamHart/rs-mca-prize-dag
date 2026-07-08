@@ -477,6 +477,12 @@ obstruction is exactly the h=4 quotient obstruction with zeros inserted in odd
 degrees.  Therefore antipodal x83 full-zero supports are paid by the h=4
 quotient ledger.  The primitive h=8 residual is genuinely non-antipodal.
 
+The locator parity packet makes this branch split intrinsic to the support
+polynomial.  A 16-support in `mu_64` is antipodal if and only if all odd
+coefficients of its monic locator vanish.  Therefore any primitive
+non-antipodal support has a nonzero odd locator coefficient, and an even
+locator is routed directly to the h=4 quotient ledger.
+
 The remaining support universe is now exactly compiled.  Anchored 16-supports
 with exponent `0` have size
 
