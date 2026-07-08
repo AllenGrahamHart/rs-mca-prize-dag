@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.99 maxrss=50108
+elapsed=16.96 maxrss=50100
 ```
 
 ## Confidence-ranked claims
@@ -121,7 +121,9 @@ elapsed=17.99 maxrss=50108
    is now reduced to an explicit obstruction: rule out four active coordinate
    edges with empty total intersection.  The obstruction extractor is not
    vacuous: the non-boundary contrast row `(p,n)=(97,32)` has
-   `tau_coord=7` and a two-edge empty-intersection obstruction.
+   `tau_coord=7` and a two-edge empty-intersection obstruction.  The obstruction
+   target splits into two cases: disjoint active edge pairs, and
+   pairwise-intersecting coreless obstructions on at most four edges.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

@@ -547,6 +547,18 @@ The non-boundary contrast row `(p,n)=(97,32)` has `active_edges=15`,
 `tau_coord=7`, and a two-edge empty-intersection obstruction, so this is a real
 phenomenon outside the boundary-style regime.
 
+The obstruction taxonomy splits the remaining exclusion into two cases:
+
+```text
+H3-NO-DISJOINT-EDGES
+H3-NO-PAIRWISE-CORELESS
+```
+
+The first rules out two disjoint active reciprocal edges.  The second rules
+out an at-most-four family of active reciprocal edges that are pairwise
+intersecting but have empty total intersection.  Together they imply the
+star theorem.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -565,7 +577,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `17.99s` locally and ends with
+It runs in about `16.96s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

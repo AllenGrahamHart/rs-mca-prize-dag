@@ -122,6 +122,11 @@ COMMANDS = [
         "f3_h3_repeat_star_obstruction_compiler.py",
         "H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS",
     ),
+    (
+        "h3 repeat star-obstruction taxonomy",
+        "f3_h3_repeat_star_obstruction_taxonomy.py",
+        "H3_REPEAT_STAR_OBSTRUCTION_TAXONOMY_PASS",
+    ),
 ]
 
 

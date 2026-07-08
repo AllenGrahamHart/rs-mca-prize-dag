@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.99 maxrss=50108
+elapsed=16.96 maxrss=50100
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4702,7 +4702,7 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.99 maxrss=50108
+elapsed=16.96 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat forced-coordinate-2 normal form
@@ -4752,7 +4752,7 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.99 maxrss=50108
+elapsed=16.96 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat hitting exception scan
@@ -4796,7 +4796,7 @@ Focused replay:
 ```text
 H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.99 maxrss=50108
+elapsed=16.96 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat singleton-hitting stress
@@ -4854,7 +4854,7 @@ Focused replay:
 ```text
 H3_REPEAT_SINGLETON_HITTING_STRESS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.99 maxrss=50108
+elapsed=16.96 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat star-obstruction compiler
@@ -4906,7 +4906,7 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.99 maxrss=50108
+elapsed=16.96 maxrss=50100
 ```
 
 ## T2/T3 h=3 repeat edge reciprocal form
@@ -4948,5 +4948,48 @@ Focused replay:
 ```text
 H3_REPEAT_EDGE_RECIPROCAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.99 maxrss=50108
+elapsed=16.96 maxrss=50100
+```
+
+## T2/T3 h=3 repeat star-obstruction taxonomy
+
+Stage selected: split the star obstruction into algebraically distinct cases.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_STAR_OBSTRUCTION_TAXONOMY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_obstruction_taxonomy.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_obstruction_taxonomy.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_STAR_OBSTRUCTION_TAXONOMY_PASS
+```
+
+Result: a non-star obstruction is either a disjoint active-edge pair or a
+pairwise-intersecting active-edge family with empty total intersection.  With
+the four-edge compiler, proving singleton hitting now reduces to:
+
+```text
+H3-NO-DISJOINT-EDGES
+H3-NO-PAIRWISE-CORELESS
+```
+
+The boundary witness rows are all classified as `star`; the non-boundary
+contrast row `(p,n)=(97,32)` is classified as `disjoint_pair`.
+
+Focused replay:
+
+```text
+H3_REPEAT_STAR_OBSTRUCTION_TAXONOMY_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=16.96 maxrss=50100
 ```
