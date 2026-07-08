@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import math
 from pathlib import Path
 
 
@@ -176,6 +177,42 @@ def require_h7_n64_certificate(row: dict) -> None:
         raise AssertionError(row)
 
 
+def require_h8_radius3_certificate(cert: dict) -> None:
+    expected_primes = [262337]
+    expected_jobs = len(expected_primes) * math.ceil((7 * math.comb(16, 3)) / 20)
+    expected_processed = len(expected_primes) * 7 * math.comb(16, 3) * math.comb(48, 3)
+    expected = {
+        "name": "h8_n64_x83_radius3_shell",
+        "mode": "full",
+        "radius": 3,
+        "primes": expected_primes,
+        "chunk_pairs": 20,
+        "jobs_expected": expected_jobs,
+        "jobs_completed": expected_jobs,
+        "processed": expected_processed,
+        "first_obstruction_zero": 320,
+        "full_zero": 0,
+        "complete": True,
+        "errors": [],
+    }
+    for key, value in expected.items():
+        if cert.get(key) != value:
+            raise AssertionError((key, cert.get(key), value, cert))
+    rows = cert.get("rows")
+    if not isinstance(rows, list) or len(rows) != expected_jobs:
+        raise AssertionError(("radius3 rows", rows))
+    if any(not row.get("complete") for row in rows):
+        raise AssertionError("incomplete radius3 shard")
+    if any(row.get("full_zero") != 0 for row in rows):
+        raise AssertionError("radius3 full-zero shard")
+    if sum(row.get("processed", 0) for row in rows) != expected_processed:
+        raise AssertionError("radius3 processed mismatch")
+    if sum(row.get("first_obstruction_zero", 0) for row in rows) != 320:
+        raise AssertionError("radius3 first-obstruction mismatch")
+    if max(row.get("elapsed_sec", 999.0) for row in rows) >= 60:
+        raise AssertionError("radius3 timeout-risk shard")
+
+
 def main() -> None:
     loaded = {filename: load_rows(filename) for filename in FULL_ZERO_ROWS}
     full_count = 0
@@ -203,12 +240,17 @@ def main() -> None:
     require_h6_n64_extra_certificate(h6_n64_extra)
     h7_n64 = json.loads((NOTES / "f3_h7_n64_boundary_certificate.json").read_text())
     require_h7_n64_certificate(h7_n64)
+    h8_radius3 = json.loads(
+        (NOTES / "f3_h8_n64_x83_radius3_shell_certificate.json").read_text()
+    )
+    require_h8_radius3_certificate(h8_radius3)
 
     print(f"h=6/h=7 full zero rows verified: {full_count}")
     print("h=6 n64 full anchored certificates verified: 1")
     print("h=6 n64 extra full anchored sweeps verified: 6 (p4993 has 6 nontoral, below n^3)")
     print("h=7 n64 full anchored certificates verified: 1")
     print("h=8 full anchored certificates verified: 6")
+    print("h=8 n64 x83 radius-three shell certificate verified: 1")
     print(f"h=8 partial zero slices remaining: {len(PARTIAL_H8_ROWS)}")
     print("H6_H8_BONUS_SWEEP_PASS")
 

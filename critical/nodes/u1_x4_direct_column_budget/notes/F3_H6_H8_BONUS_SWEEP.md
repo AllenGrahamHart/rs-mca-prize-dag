@@ -2,8 +2,8 @@
 
 Status: VERIFIED-AT-ROWS + FULL H6 N64 CERTIFICATE + H6 N64 EXTRA-PRIME
 FALSIFIER ROW + FULL H7 N64 CERTIFICATE + SIX FULL H8 N32 CERTIFICATES +
-HONEST REMAINING H8 PARTIALS.  This is bonus item (ii) after Terminals A/B/C:
-sweep `h = 6,7,8` with the ladder machinery.
+H8 N64 X83 RADIUS-THREE SHELL + HONEST REMAINING H8 PARTIALS.  This is bonus
+item (ii) after Terminals A/B/C: sweep `h = 6,7,8` with the ladder machinery.
 
 This pass consolidates the existing Modal artifacts, adds one new complete
 Modal-sharded h=6 n=64 certificate, and separates full certificates from
@@ -156,12 +156,16 @@ p=4289    paid supports=7, shell supports=5376, full_zero=0
 p=262337  paid supports=7, shell supports=5376, full_zero=0
 p=4289    radius-2 shell supports=947520, full_zero=0
 p=262337  radius-2 shell supports=947520, full_zero=0
+p=262337  radius-3 shell preimages=67800320, first_obstruction_zero=320,
+          full_zero=0, max_shard_elapsed=28.446s
 ```
 
-The shell check is in `f3_h8_n64_x83_nearlift_shell.py`.  It exhausts the
-radius-one and radius-two support-exchange neighborhoods of the paid antipodal
-lifts at the two boundary-style primes.  This is an adversarial local
-falsification attempt; it does not rule out farther non-antipodal primitive
+The radius-one and radius-two shell check is in
+`f3_h8_n64_x83_nearlift_shell.py`.  The radius-three shell certificate is in
+`f3_h8_n64_x83_radius3_shell_certificate.json`; it is produced by
+`f3_h8_n64_x83_radius3_modal.py` and locally verified by
+`f3_h8_n64_x83_radius3_certificate.py`.  These are adversarial local
+falsification attempts; they do not rule out farther non-antipodal primitive
 supports.
 
 ## Interpretation
@@ -181,8 +185,9 @@ The x83 interface now proves that the already-paid antipodal square-lift branch
 is seen by the obstruction keys; any remaining h=8 n=64 obstruction must be a
 non-antipodal primitive support or a p-specific norm-gate event isolated by the
 same forced-root key.  The first non-antipodal exchange shell around the paid
-lifts, and the radius-two shell around them, have also been exhausted with zero
-x83 full-zero supports at the boundary-style primes.
+lifts, the radius-two shell around them, and the radius-three shell at the
+actual `q3_n64_h8` prime have also been exhausted with zero x83 full-zero
+supports.
 
 Next h=8 action:
 
@@ -209,12 +214,16 @@ F3_H8_X83_SHELL_RADIUS=2 F3_H8_X83_SHELL_PRIMES=4289 \
   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
 F3_H8_X83_SHELL_RADIUS=2 F3_H8_X83_SHELL_PRIMES=262337 \
   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
 ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 F3_H6_N64_MODE=extra ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 F3_H7_N64_MODE=full ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_timing_gate_modal.py
+F3_H8_RADIUS3_MODE=full F3_H8_RADIUS3_PRIMES=262337 \
+  ~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
 ```
 
 Expected digest:
@@ -229,7 +238,9 @@ H8_N64_SQUARE_LIFT_PROBE_PASS
 H8_N64_X83_INTERFACE_PASS
 H8_N64_X83_NEARLIFT_SHELL_PASS
 H8_N64_X83_NEARLIFT_RADIUS2_PASS
+H8_N64_X83_RADIUS3_CERTIFICATE_PASS
 H6_N64_BOUNDARY_CERTIFICATE_PASS
 H6_N64_EXTRA_PRIMES_SWEEP_DONE
 H7_N64_BOUNDARY_CERTIFICATE_PASS
+H8_N64_X83_RADIUS3_SHELL_PASS
 ```

@@ -5170,3 +5170,43 @@ nonzero x83 obstruction vector.  At `p=262337`, all `5376` radius-one shell
 supports and all `947520` radius-two shell supports are likewise nonzero.
 This rules out the two closest non-antipodal deformation shells of the paid
 branch, but it does not certify the full h=8 n64 non-antipodal branch.
+
+## 2026-07-08 Bonus queue continuation: h=8 n=64 x83 radius-three shell
+
+Stage: bonus item (ii), h=6/7/8 ladder sweep.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_RADIUS3_SHELL.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_shell_certificate.json
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
+```
+
+Replay:
+
+```bash
+F3_H8_RADIUS3_MODE=full F3_H8_RADIUS3_PRIMES=262337 \
+  ~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+```
+
+Digest:
+
+```text
+H8_N64_X83_RADIUS3_SHELL_PASS
+H8_N64_X83_RADIUS3_CERTIFICATE_PASS
+H6_H8_BONUS_SWEEP_PASS
+```
+
+Result: the radius-three shell around the seven paid h=8 square-lift supports
+at the actual `q3_n64_h8` prime `p=262337` is complete.  The Modal run used
+`196` shards, processed `67,800,320` preimage candidates, found
+`320` first-obstruction-zero candidates, and found `0` full x83-zero supports.
+The slowest shard took `28.446s`, safely below the 60-second cap.  This rules
+out every support three exchanges away from the paid h=8 square-lift branch at
+`p=262337`; the farther non-antipodal branch remains open.
