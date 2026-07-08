@@ -36,18 +36,18 @@ Failure criterion:
 
 ## Certified rows
 
-The existing evidence consists of 559 complete zero rows:
+The existing evidence consists of 569 complete zero rows:
 
 ```text
 n=32:  all admissible primes p = 1 mod 32 with 32^2 < p <= 65537
-n=64:  all admissible primes p = 1 mod 64 with 64^2 < p <= 48193,
+n=64:  all admissible primes p = 1 mod 64 with 64^2 < p <= 51521,
        plus p in {65537, 262337}
 n=96:  p = 9601
 n=128: p in {17921, 18049, 18433, 19073, 19457, 19841, 20353}
 ```
 
 Each row checks anchored same-signature h=5 trades with one side containing
-exponent `0`, disjoint supports, equal `e_1..e_4`, and unequal `e_5`.  All 559
+exponent `0`, disjoint supports, equal `e_1..e_4`, and unequal `e_5`.  All 569
 rows have
 
 ```text
@@ -77,11 +77,11 @@ The current replay output is:
 ```text
  n  cert  first_p  max_p   admiss<=max  missing<=max  right_probes
  32   402     1153   65537          402            0      68304222
- 64   149     4289  262337          694          545    1047298203
+ 64   159     4289  262337          694          535    1117586673
  96     1     9601    9601            1            0      57940519
 128     7    17921   20353            7            0    1779622425
-total certified zero rows: 559
-total right-side probes: 2953165369
+total certified zero rows: 569
+total right-side probes: 3023453839
 ```
 
 Therefore the T4 h=5 residual remains exactly:
