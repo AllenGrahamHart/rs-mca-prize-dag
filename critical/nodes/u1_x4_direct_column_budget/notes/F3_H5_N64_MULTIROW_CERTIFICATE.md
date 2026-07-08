@@ -12,8 +12,8 @@ Rows:
 
 ```text
 n = 64, h = 5,
-p = every admissible prime 1 mod 64 with 64^2 < p <= 6977,
-plus p in {12289, 40961, 65537, 262337}.
+p = every admissible prime 1 mod 64 with 64^2 < p <= 12289,
+plus p in {40961, 65537, 262337}.
 ```
 
 Object:
@@ -33,8 +33,10 @@ Success evidence:
 
 ## Result
 
-The full replay completed locally in `56.08s` with peak RSS below 90 MB.  For
-every listed prime:
+The default replay covers the base `15`-row bank and completed locally in
+`56.08s` with peak RSS below 90 MB.  Two explicit prefix chunks cover the
+remaining admissible primes through `12289`; they completed in `44.94s` and
+`48.75s`.  For every listed prime:
 
 ```text
 left anchored subsets   = binom(63,4) = 595665
@@ -45,11 +47,11 @@ partial                 = false
 direct n^3 alarm        = false
 ```
 
-Thus the h=5 no-primitive evidence now has `15` complete `n=64` rows in
+Thus the h=5 no-primitive evidence now has `36` complete `n=64` rows in
 addition to the expanded `402`-row `n=32` bank.  In particular, every admissible
-`n=64` prime through `6977` is certified.  The replay processes `105,432,705`
-total right-side subsets.  This remains finite-row evidence, not a uniform h=5
-theorem.
+`n=64` prime through `12289` is certified.  The combined replay processes
+`253,038,492` total right-side subsets.  This remains finite-row evidence, not
+a uniform h=5 theorem.
 
 ## Replay
 
@@ -65,14 +67,25 @@ Full default replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
 ```
 
+Prefix chunks:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_b.py
+```
+
 Expected digest after a successful complete replay:
 
 ```text
 H5_N64_MULTIROW_CERTIFICATE_PASS
+H5_N64_PREFIX_12289_CHUNK_A_PASS
+H5_N64_PREFIX_12289_CHUNK_B_PASS
 ```
 
-The full replay writes:
+The replays write:
 
 ```text
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_b.json
 ```

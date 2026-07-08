@@ -1625,3 +1625,56 @@ locally and processed `68,304,222` total right-side subsets.  The h=5 coverage
 audit now checks `425` total complete zero rows and `2,011,299,871` total
 right-side probes; remaining missing admissible primes up to the current max
 are `0` for `n=32` and `679` for `n=64`.
+
+## T4 h=5 n64 chunked prefix-to-12289 certificate expansion
+
+Stage selected: extend the h=5 `n=64` finite certificate bank from prefix
+coverage through `p <= 6977` to prefix coverage through `p <= 12289`, using two
+explicit chunk replays so no local task exceeds the 60-second cap.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_a.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_b.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_b.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_b.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digests:
+
+```text
+H5_N64_MULTIROW_CERTIFICATE_PASS
+H5_N64_PREFIX_12289_CHUNK_A_PASS
+H5_N64_PREFIX_12289_CHUNK_B_PASS
+H5_CERTIFICATE_COVERAGE_AUDIT_PASS
+H4_H5_BONUS_REDUCTION_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the `n=64,h=5` certificate bank now covers every admissible prime
+`p = 1 mod 64` with `64^2 < p <= 12289`, plus the previous high selected rows
+`{40961, 65537, 262337}`.  This is `36` complete zero rows at `n=64`, up from
+`15`.  The two new chunks took `44.94s` and `48.75s` locally and processed
+`147,605,787` additional right-side subsets.  The h=5 coverage audit now checks
+`446` total complete zero rows and `2,158,905,658` total right-side probes;
+remaining missing admissible primes up to the current max are `0` for `n=32`
+and `658` for `n=64`.

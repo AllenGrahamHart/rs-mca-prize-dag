@@ -245,8 +245,7 @@ def run_certificate(exe: Path, p: int) -> dict:
     return json.loads(proc.stdout)
 
 
-def main() -> None:
-    primes = tuple(int(arg) for arg in sys.argv[1:]) or PRIMES
+def certify_primes(primes: tuple[int, ...]) -> list[dict]:
     rows = []
     with tempfile.TemporaryDirectory(prefix="f3_h5_n64_") as tmp:
         exe = compile_certificate(Path(tmp))
@@ -268,6 +267,12 @@ def main() -> None:
                 if row.get(key) != value:
                     raise AssertionError((p, key, row.get(key), value, row))
             rows.append(row)
+    return rows
+
+
+def main() -> None:
+    primes = tuple(int(arg) for arg in sys.argv[1:]) or PRIMES
+    rows = certify_primes(primes)
 
     if not sys.argv[1:]:
         OUT.write_text(json.dumps(rows, indent=2, sort_keys=True) + "\n")
