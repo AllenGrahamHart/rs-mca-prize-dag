@@ -61,6 +61,14 @@ COMMANDS = [
         "H3_LOCAL_FIBER_COUNT_BRIDGE_PASS",
     ),
     (
+        "h3 dilation lift bound",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_dilation_lift_bound.py",
+        ],
+        "H3_DILATION_LIFT_BOUND_PASS",
+    ),
+    (
         "h3 official degeneracy ledger",
         [
             sys.executable,

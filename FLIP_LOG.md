@@ -3349,3 +3349,64 @@ The aggregate replay now includes this verifier and still passes under the
 F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 elapsed=57.28 maxrss=98800
 ```
+
+## T2 h=3 dilation lift bound
+
+Stage selected: bank the normalization step used by the h=3 activation
+compiler.  `A_3(n,p)` is counted modulo common multiplication by `H`, while
+the compiler uses an unnormalized contribution term `n A_3(n,p)`.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_DILATION_LIFT_BOUND.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_dilation_lift_bound.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_dilation_lift_bound.py
+```
+
+Expected digest:
+
+```text
+H3_DILATION_LIFT_BOUND_PASS
+```
+
+Result: for any stable set `X` of activated unordered h=3 shape pairs,
+orbit-stabilizer gives
+
+```text
+|X| <= n |X/H|.
+```
+
+This is deliberately not a freeness claim.  The finite-field verifier finds
+nontrivial side-swap stabilizer orbits in the test rows, and those only reduce
+the raw lift size.  The replayed rows are:
+
+```text
+p=97,  n=16: raw=16,    normalized=1,   n*normalized=16
+p=97,  n=32: raw=960,   normalized=31,  n*normalized=992
+p=193, n=64: raw=20192, normalized=317, n*normalized=20288
+```
+
+This supports the existing compiler term:
+
+```text
+T_3 <= toral + poisson_boundary + n A_3(n,p).
+```
+
+It does not prove `A_3(n,p) <= Cn`.
+
+The aggregate replay now includes this verifier and still passes under the
+60 second cap, but with little slack:
+
+```text
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+elapsed=59.43 maxrss=98808
+```
+
+Do not add more checks to the default aggregate without first slimming or
+moving an existing check to standalone replay.

@@ -118,6 +118,20 @@ pay the exact sixfold ordering multiplicity before quotienting activated
 triple-pairs.  This is a local counting identity, not the global
 rank-capacity batching theorem.
 
+The dilation-lift packet justifies the normalization factor in the activation
+compiler.  If `A_3(n,p)` counts activated unordered shape-pair orbits modulo
+common multiplication by `H`, then the raw unnormalized shape-pair count is at
+most
+
+```text
+n A_3(n,p).
+```
+
+This is an orbit-stabilizer upper bound, not a freeness assertion: finite rows
+can have side-swap stabilizers, and those only make the raw orbit smaller.
+This supports the existing `T_3 <= toral + poisson_boundary + n A_3(n,p)`
+compiler term.
+
 The earlier exact pair-coprimality pilot is now included in the aggregate
 replay.  On the seven-prime n=96 ladder it finds three activated shapes, each
 activating at exactly one threshold prime; the common obstruction norm factors
