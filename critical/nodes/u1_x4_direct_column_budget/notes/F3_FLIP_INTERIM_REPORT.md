@@ -283,15 +283,15 @@ exist for:
 
 ```text
 n=32: 402 primes (all admissible primes through p=65537)
-n=64: 126 primes (contiguous admissible prefix through p=40577, plus high selected rows)
+n=64: 127 primes (contiguous admissible prefix through p=40961, plus high selected rows)
 n=96: boundary prime 9601
 n=128: boundary prime 17921 plus 6 nearby primes
 ```
 
-The coverage audit is now in the aggregate replay.  It verifies `536` complete
-zero rows and `2,791,501,888` total right-side probes.  It also prints the
+The coverage audit is now in the aggregate replay.  It verifies `537` complete
+zero rows and `2,798,530,735` total right-side probes.  It also prints the
 remaining coverage limitation: up to the largest certified primes, the current
-bank misses `0` admissible primes for `n=32` and `568` admissible primes for
+bank misses `0` admissible primes for `n=32` and `567` admissible primes for
 `n=64`, while the current `n=96` and `n=128` banks are still only
 boundary/nearby windows.
 
