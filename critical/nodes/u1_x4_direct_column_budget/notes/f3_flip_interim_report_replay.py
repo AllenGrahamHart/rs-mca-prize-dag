@@ -125,6 +125,14 @@ COMMANDS = [
         "H5_STRUCTURAL_REDUCTION_PASS",
     ),
     (
+        "h5 certificate coverage audit",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py",
+        ],
+        "H5_CERTIFICATE_COVERAGE_AUDIT_PASS",
+    ),
+    (
         "h4/h5 bonus replay",
         [
             sys.executable,

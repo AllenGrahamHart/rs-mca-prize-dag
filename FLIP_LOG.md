@@ -957,3 +957,38 @@ vector is `[0,180,0,60,0,20,0]` and whose `lambda=30` is nonsquare.  Therefore
 arbitrary exponent-unit maps are not x83 support symmetries.  The h=8 global
 certifier can safely use root-scaling rotations, but not the full exponent-unit
 group without rechecking each image.
+
+## T4 h=5 certificate coverage integrated replay
+
+Stage selected: integrate the existing h=5 certificate coverage audit into the
+main lightweight F3 replay.  h=5 is one of the three explicit promotion
+blockers, and the selected-row certificates should be visible in the aggregate
+status rather than only in a side replay.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H5_CERTIFICATE_COVERAGE_AUDIT_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the audit verifies `20` complete h=5 zero rows and
+`1,873,896,556` total right-side probes.  The selected-row limitation is now
+explicit in the aggregate report: up to the largest certified primes, the bank
+misses `395` admissible primes for `n=32` and `689` for `n=64`; the `n=96` and
+`n=128` evidence remains boundary/nearby-window evidence, not a uniform theorem.

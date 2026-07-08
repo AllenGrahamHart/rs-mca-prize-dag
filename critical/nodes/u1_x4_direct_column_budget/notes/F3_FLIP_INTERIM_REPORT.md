@@ -159,6 +159,13 @@ n=96: boundary prime 9601
 n=128: boundary prime 17921 plus 6 nearby primes
 ```
 
+The coverage audit is now in the aggregate replay.  It verifies `20` complete
+zero rows and `1,873,896,556` total right-side probes.  It also prints the
+selected-row limitation: up to the largest certified primes, the current bank
+misses `395` admissible primes for `n=32` and `689` admissible primes for
+`n=64`, while the current `n=96` and `n=128` banks are only boundary/nearby
+windows.
+
 The missing h=5 theorem is exactly a symbolic norm-gate incompatibility or a
 maintainable per-row certificate family for all official `p = 1 mod n`,
 `p >= n^2` rows.
