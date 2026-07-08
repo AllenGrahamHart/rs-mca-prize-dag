@@ -98,6 +98,11 @@ COMMANDS = [
         "H3_REPEAT_SAME_LAMBDA_COLLISION_SYSTEM_PASS",
     ),
     (
+        "h3 repeat same-lambda orbit domain",
+        "f3_h3_repeat_same_lambda_orbit_domain.py",
+        "H3_REPEAT_SAME_LAMBDA_ORBIT_DOMAIN_PASS",
+    ),
+    (
         "h3 repeat same-lambda degree compiler",
         "f3_h3_repeat_same_lambda_degree_compiler.py",
         "H3_REPEAT_SAME_LAMBDA_DEGREE_COMPILER_PASS",

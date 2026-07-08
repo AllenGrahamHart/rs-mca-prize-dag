@@ -706,6 +706,18 @@ fixed-`lambda` failure is precisely either two distinct admissible generic
 orbits in the `lambda=1` branch.  The contrast row realizes the first case at
 `lambda=27`.
 
+The same-lambda orbit-domain compiler makes the word "distinct" algebraic.
+For generic ratios `z,y`, the six forbidden same-orbit divisors are
+
+```text
+y-z, yz-1, y+z+1, y(1+z)+1, yz+z+1, y(1+z)+z.
+```
+
+Their product has degree profile `deg_z=6, deg_y=6, total=10`.  The non-pole
+product `z(1+z)(1+z+z^2)y(1+y)(1+y+y^2)` has profile
+`deg_z=4, deg_y=4, total=8`.  In the `lambda=1` scale branch, two
+representatives are distinct exactly when `x^3-y^3 != 0`.
+
 The slope-ratio compiler gives the lambda-distinct target the same
 coordinates.  In the generic branch,
 
@@ -1005,8 +1017,9 @@ repeat_residue <= 90n^2,
 
 which is below `n^3` for every official row `n=2^s`, `13 <= s <= 41`.
 
-For the first of those gates, the same-lambda degree compiler now gives the
-raw collision-incidence budgets.  In the generic `lambda != 1` branch, two
+For the first of those gates, the orbit-domain compiler gives the explicit
+off-orbit exclusions and the same-lambda degree compiler gives the raw
+collision-incidence budgets.  In the generic `lambda != 1` branch, two
 distinct ratio orbits for the same `lambda` give six membership maps in
 variables `(a,z,y)` with
 
@@ -1057,7 +1070,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `39.47s` locally and ends with
+It runs in about `38.62s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

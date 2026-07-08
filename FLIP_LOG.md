@@ -6687,3 +6687,47 @@ H3_REPEAT_SLOPE_MISS_DEGREE_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=39.47 maxrss=52896
 ```
+
+## T2/T3 h=3 repeat same-lambda orbit-domain compiler
+
+Stage selected: make the non-diagonal domain in `H3-VALUE-INJECTIVE` explicit
+before attempting any emptiness/counting argument.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_ORBIT_DOMAIN.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_orbit_domain.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_orbit_domain.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SAME_LAMBDA_ORBIT_DOMAIN_PASS
+```
+
+Result: for generic same-lambda collisions, two ratio representatives `z,y`
+are genuinely off the same `S_3` orbit exactly when the six divisors
+
+```text
+y-z, yz-1, y+z+1, y(1+z)+1, yz+z+1, y(1+z)+z
+```
+
+are all nonzero.  Their product has degree profile
+`deg_z=6, deg_y=6, total=10`; the non-pole product has profile
+`deg_z=4, deg_y=4, total=8`.  In the `lambda=1` scale branch, two scale
+representatives are distinct exactly when `x^3-y^3 != 0`.
+
+Focused replay:
+
+```text
+H3_REPEAT_SAME_LAMBDA_ORBIT_DOMAIN_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=38.62 maxrss=52900
+```

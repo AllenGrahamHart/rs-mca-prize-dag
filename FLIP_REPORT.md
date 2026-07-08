@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=39.47 maxrss=52896
+elapsed=38.62 maxrss=52900
 ```
 
 ## Confidence-ranked claims
@@ -157,6 +157,9 @@ elapsed=39.47 maxrss=52896
    `{1+x,1+omega x,1+omega^2 x} subset H`, modulo `x -> omega x`.  Thus
    same-`lambda` failure is now exactly either two admissible generic ratio
    orbits for one lambda or two admissible `lambda=1` scale orbits.  The
+   off-orbit condition is explicit: the generic diagonal divisors are
+   `y-z`, `yz-1`, `y+z+1`, `y(1+z)+1`, `yz+z+1`, and `y(1+z)+z`; in the
+   `lambda=1` scale branch, distinctness is `x^3-y^3 != 0`.  The
    lambda-distinct slope target also has a ratio form:
    `R^-1=-(lambda-1)^3 z^2(1+z)^2/(1+z+z^2)^3` and
    `rho=1+(R^-1-S^-1)/(lambda-mu)`, which must lie in the three source slope
@@ -209,8 +212,10 @@ elapsed=39.47 maxrss=52896
    bad-minor avoidance targets for those three gates.  The star conditional
    assembly shows that these three loose gates plus `H3-VALUE-INJECTIVE` and
    `H3-SLOPE-RATIO-HIT` imply `repeat_residue <= 90n^2` on every official row.
-   The same-lambda degree compiler now gives the `H3-VALUE-INJECTIVE`
-   collision budgets: generic `S_total=14`, and lambda-one scale `S_total=6`.
+   The same-lambda orbit-domain and degree compilers now give the
+   `H3-VALUE-INJECTIVE` collision budgets: generic `S_total=14` plus
+   off-orbit product total degree `10`, and lambda-one scale `S_total=6` plus
+   scale exclusion `x^3-y^3 != 0`.
    The slope-miss degree compiler now gives the generic `H3-SLOPE-RATIO-HIT`
    miss budget: six membership maps with `S_total=14`, and cleared hit
    numerator factors of total degrees `15,13,13`.
