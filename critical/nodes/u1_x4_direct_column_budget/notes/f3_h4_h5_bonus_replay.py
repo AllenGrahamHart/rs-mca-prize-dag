@@ -100,11 +100,11 @@ def require_h5_n96_certificate(row) -> None:
             raise AssertionError((key, row.get(key), value, row))
 
 
-def require_h5_n128_certificate(row) -> None:
+def require_h5_n128_certificate(row, p: int = 17921) -> None:
     expected = {
         "n": 128,
         "h": 5,
-        "p": 17921,
+        "p": p,
         "W": 128,
         "shards": 32,
         "shards_completed": 32,
@@ -126,6 +126,14 @@ def require_h5_n128_certificate(row) -> None:
         raise AssertionError(rows)
     if sum(r.get("probed", 0) for r in rows) != row["probed"]:
         raise AssertionError(row)
+
+
+def require_h5_n128_extra_certificates(rows) -> None:
+    expected_primes = [18049, 18433]
+    if [row.get("p") for row in rows] != expected_primes:
+        raise AssertionError(rows)
+    for row in rows:
+        require_h5_n128_certificate(row, p=row["p"])
 
 
 def main() -> None:
@@ -166,6 +174,8 @@ def main() -> None:
     require_h5_n96_certificate(h5_n96_row)
     h5_n128_row = load_json(notes / "f3_h5_n128_boundary_certificate.json")
     require_h5_n128_certificate(h5_n128_row)
+    h5_n128_extra = load_json(notes / "f3_h5_n128_extra_primes_certificate.json")
+    require_h5_n128_extra_certificates(h5_n128_extra)
 
     print("proved structural nodes: h4 dichotomy, x83 gate, c1a, m720 h5 gates")
     print("positive control n16/h4/p17:", gate["anchored_nontoral_trades"])
@@ -174,6 +184,7 @@ def main() -> None:
     print("h=5 n64 complete zero certificates:", len(h5_n64_rows))
     print("h=5 n96 boundary zero certificate:", h5_n96_row["p"])
     print("h=5 n128 sharded boundary zero certificate:", h5_n128_row["p"])
+    print("h=5 n128 extra sharded zero certificates:", len(h5_n128_extra))
     print("H4_H5_BONUS_REDUCTION_PASS")
 
 

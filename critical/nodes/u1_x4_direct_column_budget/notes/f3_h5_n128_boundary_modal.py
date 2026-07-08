@@ -5,6 +5,7 @@ Mode is selected by F3_H5_N128_MODE:
 
   gate  - run the heaviest shard only and write a gate JSON
   full  - run all shards and write the complete certificate JSON
+  extra - run all shards for two extra nearby primes and write a list JSON
 """
 
 from __future__ import annotations
@@ -24,6 +25,7 @@ N = 128
 H = 5
 P = 17921
 SHARDS = 32
+EXTRA_PRIMES = (18049, 18433)
 
 # Modal imports this file at /root inside the remote container.  Output paths
 # are used only by the local entrypoint, so keep them anchored to the worktree.
@@ -34,6 +36,7 @@ ROOT = Path(os.environ.get(
 NOTES = ROOT / "critical/nodes/u1_x4_direct_column_budget/notes"
 OUT = NOTES / "f3_h5_n128_boundary_certificate.json"
 GATE_OUT = NOTES / "f3_h5_n128_boundary_gate.json"
+EXTRA_OUT = NOTES / "f3_h5_n128_extra_primes_certificate.json"
 
 CPP = r'''
 #include <algorithm>
@@ -218,7 +221,7 @@ int main() {
 
     std::cout
         << "{"
-        << "\"n\":128,\"h\":5,\"p\":17921,\"W\":128,"
+        << "\"n\":128,\"h\":5,\"p\":" << P << ",\"W\":128,"
         << "\"shards\":32,\"shard\":" << SHARD << ","
         << "\"partial\":true,\"complete\":false,"
         << "\"hashed\":" << hashed << ","
@@ -242,18 +245,27 @@ def expected_probe_count(shard: int) -> int:
 
 
 @app.function(image=image, cpu=4, memory=4096, timeout=60)
-def shard_certificate(shard: int) -> dict:
+def shard_certificate(job) -> dict:
     import json
     import subprocess
     import tempfile
     import time
     from pathlib import Path
 
+    if isinstance(job, int):
+        p, shard = 17921, job
+    else:
+        p, shard = job
+
     with tempfile.TemporaryDirectory(prefix="f3_h5_n128_") as tmp:
         tmp_path = Path(tmp)
         src = tmp_path / "cert.cpp"
         exe = tmp_path / "cert"
-        src.write_text(CPP.replace("static constexpr int SHARD = 0;", f"static constexpr int SHARD = {shard};"))
+        src.write_text(
+            CPP
+            .replace("static constexpr int P = 17921;", f"static constexpr int P = {p};")
+            .replace("static constexpr int SHARD = 0;", f"static constexpr int SHARD = {shard};")
+        )
         t0 = time.monotonic()
         subprocess.run(["g++", "-O3", "-std=c++17", str(src), "-o", str(exe)], check=True)
         proc = subprocess.run([str(exe)], check=True, text=True, capture_output=True)
@@ -263,7 +275,7 @@ def shard_certificate(shard: int) -> dict:
     return row
 
 
-def aggregate(rows: list[dict], complete: bool) -> dict:
+def aggregate(rows: list[dict], complete: bool, p: int = P) -> dict:
     rows = sorted(rows, key=lambda row: row["shard"])
     shards_seen = [row["shard"] for row in rows]
     if len(set(shards_seen)) != len(shards_seen):
@@ -274,7 +286,7 @@ def aggregate(rows: list[dict], complete: bool) -> dict:
         expected = {
             "n": N,
             "h": H,
-            "p": P,
+            "p": p,
             "W": N,
             "shards": SHARDS,
             "hashed": math.comb(N - 1, H - 1),
@@ -287,10 +299,10 @@ def aggregate(rows: list[dict], complete: bool) -> dict:
             if row.get(key) != value:
                 raise AssertionError((key, row.get(key), value, row))
     out = {
-        "name": "boundary_n128_h5_p17921_SHARDED_CPP",
+        "name": f"boundary_n128_h5_p{p}_SHARDED_CPP",
         "n": N,
         "h": H,
-        "p": P,
+        "p": p,
         "W": N,
         "shards": SHARDS,
         "shards_completed": len(rows),
@@ -321,26 +333,46 @@ def aggregate(rows: list[dict], complete: bool) -> dict:
 @app.local_entrypoint()
 def main():
     mode = os.environ.get("F3_H5_N128_MODE", "gate")
-    if mode not in {"gate", "full"}:
-        raise ValueError("F3_H5_N128_MODE must be gate or full")
+    if mode not in {"gate", "full", "extra"}:
+        raise ValueError("F3_H5_N128_MODE must be gate, full, or extra")
 
     if mode == "gate":
         counts = [(expected_probe_count(shard), shard) for shard in range(SHARDS)]
         shard = max(counts)[1]
-        rows = [shard_certificate.remote(shard)]
+        rows = [shard_certificate.remote((P, shard))]
         out = aggregate(rows, complete=False)
         GATE_OUT.write_text(json.dumps(out, indent=2, sort_keys=True) + "\n")
         print(json.dumps(out, sort_keys=True))
         print("H5_N128_BOUNDARY_GATE_PASS")
         return
 
-    rows = [
-        row for row in shard_certificate.map(range(SHARDS), return_exceptions=True)
-        if isinstance(row, dict)
-    ]
-    out = aggregate(rows, complete=(len(rows) == SHARDS))
-    OUT.write_text(json.dumps(out, indent=2, sort_keys=True) + "\n")
-    print(json.dumps({k: v for k, v in out.items() if k != "rows"}, sort_keys=True))
-    if len(rows) != SHARDS:
-        raise AssertionError(f"completed {len(rows)}/{SHARDS} shards")
-    print("H5_N128_BOUNDARY_CERTIFICATE_PASS")
+    if mode == "full":
+        rows = [
+            row for row in shard_certificate.map(
+                [(P, shard) for shard in range(SHARDS)], return_exceptions=True
+            )
+            if isinstance(row, dict)
+        ]
+        out = aggregate(rows, complete=(len(rows) == SHARDS))
+        OUT.write_text(json.dumps(out, indent=2, sort_keys=True) + "\n")
+        print(json.dumps({k: v for k, v in out.items() if k != "rows"}, sort_keys=True))
+        if len(rows) != SHARDS:
+            raise AssertionError(f"completed {len(rows)}/{SHARDS} shards")
+        print("H5_N128_BOUNDARY_CERTIFICATE_PASS")
+        return
+
+    results = []
+    for p in EXTRA_PRIMES:
+        rows = [
+            row for row in shard_certificate.map(
+                [(p, shard) for shard in range(SHARDS)], return_exceptions=True
+            )
+            if isinstance(row, dict)
+        ]
+        out = aggregate(rows, complete=(len(rows) == SHARDS), p=p)
+        if len(rows) != SHARDS:
+            raise AssertionError(f"p={p} completed {len(rows)}/{SHARDS} shards")
+        results.append(out)
+        print(json.dumps({k: v for k, v in out.items() if k != "rows"}, sort_keys=True))
+    EXTRA_OUT.write_text(json.dumps(results, indent=2, sort_keys=True) + "\n")
+    print("H5_N128_EXTRA_PRIMES_CERTIFICATE_PASS")

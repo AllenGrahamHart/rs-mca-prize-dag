@@ -4864,3 +4864,35 @@ Catch banked: the first Modal attempt failed before computation because remote
 imports mount the script at `/root`, invalidating `Path(__file__).parents[4]`.
 The script now anchors local output through `F3_PRIZE_ROOT` and remote
 computation no longer depends on the worktree path.
+
+## 2026-07-08 Bonus queue continuation: h=5 n=128 extra primes
+
+Stage: bonus item (i), h=4/h=5 emptiness evidence extension.
+
+Banked file:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_extra_primes_certificate.json
+```
+
+Replay:
+
+```bash
+F3_H5_N128_MODE=extra ~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_modal.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+```
+
+Digests:
+
+```text
+H5_N128_EXTRA_PRIMES_CERTIFICATE_PASS
+H4_H5_BONUS_REDUCTION_PASS
+```
+
+Result: two more complete Modal-sharded certificates at `n=128,h=5`:
+`p=18049` and `p=18433`.  Each row checks `254231775` right subsets with
+`10334625` anchored left subsets per shard, finding zero anchored toral trades,
+zero anchored nontoral trades, and no `n^3` alarm.  Max shard times were
+`19.405s` and `13.729s`.  The n=128 h=5 boundary ladder now has three complete
+prime rows: `17921,18049,18433`.
