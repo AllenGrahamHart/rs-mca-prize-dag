@@ -2425,3 +2425,44 @@ none
 Rates: rational norm exception `0.8878%`; actual common-root activation
 `0.0000%`.  The complete core-by-core program now has 46 of 91 core types
 scanned.
+
+## 2026-07-08 Terminal C core `(0,1,48)` complete census
+
+Stage: Terminal C, forty-seventh complete core-orbit slice.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0148_CENSUS.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0148_census_results.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0148_census_check.py
+```
+
+Replay:
+
+```bash
+~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,48 --tag 0148
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0148_census_check.py
+```
+
+Modal run:
+
+```text
+https://modal.com/apps/allengrahamhart/main/ap-UjM6442S2oqGQ7MdXXLf9u
+```
+
+Result: complete scan of `A=[0,1,48]`, all `B` disjoint triples:
+
+```text
+TOTAL shapes=129766 norm_exceptions=1067 activation_exceptions=37
+H3_CORE_0148_CENSUS_DONE
+H3_CORE_0148_CENSUS_CHECK_PASS
+```
+
+Activation exceptions: see `F3_H3_CORE_0148_CENSUS.md` for the full
+37-row list.  The dominant visible subfamilies contain the anchor pairs
+`31,63` or `47,*`, with several reciprocal prime pairs.
+
+Rates: rational norm exception `0.8222%`; actual common-root activation
+`0.0285%`.  The complete core-by-core program now has 47 of 91 core types
+scanned.
