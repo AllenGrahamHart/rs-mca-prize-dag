@@ -69,6 +69,19 @@ when the primitive-root embedding is transformed contragrediently.  The replay
 checks this over finite-field samples and all `720` banked activation records.
 This is a bridge-side symmetry lemma, not an activation bound.
 
+The hyperbola-line degeneracy packet classifies one of the bridge exclusions
+exactly.  In the same `omega`-coordinates,
+
+```text
+Delta = a^2/3 - b.
+```
+
+Thus the `3 | q-1` rational-line cell is precisely `b=a^2/3`, where
+`G_F(u,v)` splits into the two translated asymptote lines.  For
+`Delta != 0`, the conic `XY=Delta` is irreducible over the coefficient field.
+This is a theorem-statement repair for the bridge/rank theorem, not an
+activation-count proof.
+
 The earlier exact pair-coprimality pilot is now included in the aggregate
 replay.  On the seven-prime n=96 ladder it finds three activated shapes, each
 activating at exactly one threshold prime; the common obstruction norm factors

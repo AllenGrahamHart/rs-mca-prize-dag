@@ -37,6 +37,14 @@ COMMANDS = [
         "H3_HYPERBOLA_IDENTITY_PASS",
     ),
     (
+        "h3 hyperbola-line degeneracy",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_hyperbola_line_degeneracy.py",
+        ],
+        "H3_HYPERBOLA_LINE_DEGENERACY_PASS",
+    ),
+    (
         "h3 rich-curve denominator compiler",
         [
             sys.executable,

@@ -2878,3 +2878,40 @@ chosen generator.  The verifier checks finite-field samples over
 `p in {97,193,577,769}` and all `720` banked activation records.  Standalone
 replay passes in `0.17s` locally (`maxrss=13184`).  The default aggregate
 replay passes with this packet included in `41.36s` locally (`maxrss=98780`).
+
+## T1 h=3 hyperbola-line degeneracy classifier
+
+Stage selected: close a bridge-side theorem-statement ambiguity without adding
+another numerical search.  The repaired h=3 rich-curve route already names
+toral, constant-ratio, and hyperbola-line cells as the exceptional geometry
+that must be paid or excluded before `RC-RANK` is applied.  The constant-ratio
+cell was already operationalized; this packet classifies the hyperbola-line
+cell exactly.
+
+New packet:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_HYPERBOLA_LINE_DEGENERACY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_hyperbola_line_degeneracy.py
+```
+
+Result: in the h=3 hyperbola normal form,
+
+```text
+Delta = a^2/3 - b.
+```
+
+Thus the rational-line degeneration over a field containing `omega` is exactly
+the codimension-one cell `b=a^2/3`.  On that cell,
+
+```text
+G_F(u,v)
+  = (u - omega v + a(1 - omega)/3)
+    (u - omega^2 v + a(omega + 2)/3).
+```
+
+For `Delta != 0`, the affine conic `XY=Delta` is irreducible.  This does not
+prove the activation bound, but it makes the hyperbola-line exclusion precise
+for the eventual bridge/rank theorem.  Standalone replay passes in `0.31s`
+locally (`maxrss=49876`).  The default aggregate replay passes with this packet
+included in `40.83s` locally (`maxrss=98668`).
