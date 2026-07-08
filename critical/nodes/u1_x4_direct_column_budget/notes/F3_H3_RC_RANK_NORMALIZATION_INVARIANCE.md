@@ -2,9 +2,10 @@
 
 Status: PROVED ALGEBRAIC NORMALIZATION LEMMA + FINITE-FIELD REPLAY.
 
-This packet records two harmless normalizations for the h=3 rank-form
+This packet records harmless normalizations for the h=3 rank-form
 nonvanishing target.  It does not prove `RC-RANK`; it proves that the rank
-target is unchanged by affine source coordinates and by nonzero target scalings.
+target is unchanged by affine source coordinates, nonzero target scalings,
+target-coordinate permutations, and target-coordinate inversions.
 
 ## Statement
 
@@ -67,13 +68,39 @@ product_i c_i^(H b_i),
 
 so the column matroid and the rank are unchanged.
 
+### Target Permutation And Inversion Invariance
+
+Permuting the three rational maps only permutes the multi-index
+`(b_1,b_2,b_3)`, so the column set and rank are unchanged.
+
+Replacing one target coordinate by its reciprocal,
+
+```text
+r_i = P_i/Q_i  ->  r_i^{-1} = Q_i/P_i,
+```
+
+also preserves rank.  In the cleared column formula this swaps the two factors
+for that coordinate:
+
+```text
+P_i^(H b_i) Q_i^(H(B-1-b_i))
+  <-> Q_i^(H b_i) P_i^(H(B-1-b_i)).
+```
+
+The change is exactly the column-index involution
+
+```text
+b_i -> B-1-b_i.
+```
+
 ## Role in F3-RANK-AVOID
 
 The future h=3 rank-avoidance theorem may quotient or normalize repaired
-signature-curve representatives by affine source changes and nonzero coordinate
-scalings without changing the `RC-RANK` inequality.  This lemma does not allow
-arbitrary non-affine Mobius reparametrizations, and it does not replace the
-toral, constant-ratio, or hyperbola-line degeneracy exclusions.
+signature-curve representatives by affine source changes, nonzero coordinate
+scalings, target-coordinate permutations, and target-coordinate inversions
+without changing the `RC-RANK` inequality.  This lemma does not allow arbitrary
+non-affine Mobius reparametrizations, and it does not replace the toral,
+constant-ratio, or hyperbola-line degeneracy exclusions.
 
 ## Replay
 

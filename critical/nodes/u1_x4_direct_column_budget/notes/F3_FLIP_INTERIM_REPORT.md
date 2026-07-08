@@ -223,6 +223,7 @@ The normalization-invariance packet proves two harmless rank symmetries for
 that future theorem.  Affine source changes `X -> mX+t`, `m != 0`, act by an
 invertible linear map on the cleared coefficient space and preserve the source
 factor span `deg_X < A`; nonzero target coordinate scalings only rescale
+columns; target permutations and target inversions only permute the multi-index
 columns.  Thus `RC-RANK` is unchanged by these normalizations.  This lets the
 eventual `F3-RANK-AVOID` theorem quotient repaired representatives by those
 operations, but not by arbitrary non-affine Mobius maps.

@@ -2966,17 +2966,20 @@ critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_NORMALIZATION_INVA
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_normalization_invariance.py
 ```
 
-Result: two normalizations are rank-safe:
+Result: these normalizations are rank-safe:
 
 ```text
 source affine reparametrization: X -> mX+t, m != 0
 target coordinate scaling:      r_i -> c_i r_i, c_i != 0
+target coordinate permutation:  (r_1,r_2,r_3) -> (r_pi(1),r_pi(2),r_pi(3))
+target coordinate inversion:    r_i -> r_i^{-1}
 ```
 
 The first acts by an invertible linear map on the cleared coefficient space
 and preserves the `deg_X < A` source span; the second only rescales columns by
-nonzero factors.  Therefore these operations preserve the `RC-RANK` inequality.
-This is not a proof of `RC-RANK`, and it does not permit arbitrary non-affine
-Mobius reparametrizations.  Standalone replay passes in `0.07s` locally
-(`maxrss=13056`).  The default aggregate replay passes with this packet
-included in `45.29s` locally (`maxrss=98808`).
+nonzero factors; the last two only permute the multi-index columns.  Therefore
+these operations preserve the `RC-RANK` inequality.  This is not a proof of
+`RC-RANK`, and it does not permit arbitrary non-affine Mobius
+reparametrizations.  Standalone replay passes in `0.07s` locally
+(`maxrss=12928`).  The default aggregate replay passes with this packet
+included in `41.63s` locally (`maxrss=98780`).

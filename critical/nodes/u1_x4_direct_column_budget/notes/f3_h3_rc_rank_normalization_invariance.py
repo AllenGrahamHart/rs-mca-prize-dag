@@ -99,6 +99,23 @@ def target_scale(curve: Curve, scalars: tuple[int, int, int]) -> Curve:
     )
 
 
+def target_permute(curve: Curve, order: tuple[int, int, int]) -> Curve:
+    if sorted(order) != [0, 1, 2]:
+        raise ValueError("target order must be a permutation")
+    return Curve(
+        ps=tuple(curve.ps[i] for i in order),
+        qs=tuple(curve.qs[i] for i in order),
+    )
+
+
+def target_invert(curve: Curve, indices: tuple[int, ...]) -> Curve:
+    invert = set(indices)
+    return Curve(
+        ps=tuple(curve.qs[i] if i in invert else curve.ps[i] for i in range(3)),
+        qs=tuple(curve.ps[i] if i in invert else curve.qs[i] for i in range(3)),
+    )
+
+
 def rank_columns(columns: list[list[int]]) -> int:
     basis: dict[int, list[int]] = {}
     for column in columns:
@@ -158,9 +175,17 @@ def main() -> None:
     cases = [
         ("source affine", affine_reparametrize(private, 2, 17)),
         ("target scaling", target_scale(private, (3, 11, 47))),
+        ("target permutation", target_permute(private, (2, 0, 1))),
+        ("target inversion", target_invert(private, (0, 2))),
         (
-            "source affine plus target scaling",
-            target_scale(affine_reparametrize(private, 5, 19), (19, 23, 29)),
+            "combined normalizations",
+            target_invert(
+                target_permute(
+                    target_scale(affine_reparametrize(private, 5, 19), (19, 23, 29)),
+                    (1, 2, 0),
+                ),
+                (1,),
+            ),
         ),
     ]
     for name, curve in cases:
@@ -169,7 +194,7 @@ def main() -> None:
             raise AssertionError((name, rank, original_rank))
         print(f"{name}: rank={rank}")
 
-    print("source affine and target scaling normalizations preserve RC-RANK rank")
+    print("source/target normalizations preserve RC-RANK rank")
     print("H3_RC_RANK_NORMALIZATION_INVARIANCE_PASS")
 
 
