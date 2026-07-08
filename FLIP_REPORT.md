@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=38.04 maxrss=52776
+elapsed=39.47 maxrss=52896
 ```
 
 ## Confidence-ranked claims
@@ -211,6 +211,9 @@ elapsed=38.04 maxrss=52776
    `H3-SLOPE-RATIO-HIT` imply `repeat_residue <= 90n^2` on every official row.
    The same-lambda degree compiler now gives the `H3-VALUE-INJECTIVE`
    collision budgets: generic `S_total=14`, and lambda-one scale `S_total=6`.
+   The slope-miss degree compiler now gives the generic `H3-SLOPE-RATIO-HIT`
+   miss budget: six membership maps with `S_total=14`, and cleared hit
+   numerator factors of total degrees `15,13,13`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

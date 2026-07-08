@@ -6644,3 +6644,46 @@ H3_REPEAT_SAME_LAMBDA_DEGREE_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=38.04 maxrss=52776
 ```
+
+## T2/T3 h=3 repeat slope-miss degree compiler
+
+Stage selected: give the generic `H3-SLOPE-RATIO-HIT` miss target explicit
+membership and numerator degree budgets.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_MISS_DEGREE_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_miss_degree_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_miss_degree_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SLOPE_MISS_DEGREE_COMPILER_PASS
+```
+
+Result: the generic lambda-distinct source/target system has six membership
+maps with
+
+```text
+S_a=3, S_b=3, S_z=6, S_y=6, S_total=14.
+```
+
+The three cleared slope-hit factors have total degrees `15,13,13`; their
+product has total degree bounded by `41`.  The scale-source branch remains
+separate.
+
+Focused replay:
+
+```text
+H3_REPEAT_SLOPE_MISS_DEGREE_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=39.47 maxrss=52896
+```

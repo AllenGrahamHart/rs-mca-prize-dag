@@ -1017,6 +1017,18 @@ S_a=6, S_z=6, S_y=6, S_total=14.
 The exceptional `lambda=1` scale collision has two scale variables and six
 affine maps, with `S_total=6` over a field containing a primitive cube root.
 
+For the second disjoint-pair gate, the slope-miss degree compiler now records
+the generic lambda-distinct target.  Generic source and target edges have six
+membership maps with
+
+```text
+S_a=3, S_b=3, S_z=6, S_y=6, S_total=14.
+```
+
+The cleared slope-hit factors have total degrees `15,13,13`, so the generic
+miss complement is controlled by a numerator product of total degree at most
+`41`.  The scale-source branch remains separate.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -1045,7 +1057,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `38.04s` locally and ends with
+It runs in about `39.47s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
