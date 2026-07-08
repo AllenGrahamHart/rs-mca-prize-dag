@@ -59,7 +59,8 @@ The twenty-fifth core type `(0,1,26)` is complete with `2/129766` actual
 activations.  The twenty-sixth core type `(0,1,27)` is complete with
 `1/129766` actual activation.  The twenty-seventh core type `(0,1,28)` is
 complete with `6/129766` actual activations.  The twenty-eighth core type
-`(0,1,29)` is complete with `3/129766` actual activations.
+`(0,1,29)` is complete with `3/129766` actual activations.  The twenty-ninth
+core type `(0,1,30)` is complete with `3/129766` actual activations.
 
 ## Claims
 
@@ -1768,8 +1769,8 @@ complete with `6/129766` actual activations.  The twenty-eighth core type
   `49`.  The next slice `(0,1,25)` mirrors this high-activation behavior with
   67 activations, all containing anchor exponent `48`.  The following slice
   `(0,1,26)` returns to the sparse two-activation regime, `(0,1,27)` has a
-  single activation, `(0,1,28)` has six activations, and `(0,1,29)` has three
-  activations.
+  single activation, `(0,1,28)` has six activations, and `(0,1,29)` and
+  `(0,1,30)` each have three activations.
 
 ## Terminal Status
 
@@ -1796,11 +1797,11 @@ now exactly sized at `3,135,641` affine/Galois representatives, and the first
 deterministic slices give a 44-entry complete subfamily exceptional list.  The
 consecutive-core exceptional list has a checked two-family classification.  The
 outside-family complement is activation-free in that complete slice.  The
-remaining full census is now organized into 91 core-orbit slices; 28 are
+remaining full census is now organized into 91 core-orbit slices; 29 are
 complete, represented by `(0,1,2)`, `(0,1,3)`, `(0,1,4)`, `(0,1,5)`,
 `(0,1,6)`, `(0,1,7)`, `(0,1,8)`, `(0,1,9)`, `(0,1,10)`, `(0,1,11)`,
 `(0,1,12)`, `(0,1,13)`, `(0,1,14)`, `(0,1,15)`, `(0,1,16)`, `(0,1,17)`,
 `(0,1,18)`, `(0,1,19)`, `(0,1,20)`, `(0,1,21)`, `(0,1,22)`, `(0,1,23)`, and
-`(0,1,24)`, `(0,1,25)`, `(0,1,26)`, `(0,1,27)`, `(0,1,28)`, and `(0,1,29)`.  The
-resultant/common-root pass over all representatives and final empirical rate
-remain open.
+`(0,1,24)`, `(0,1,25)`, `(0,1,26)`, `(0,1,27)`, `(0,1,28)`, `(0,1,29)`, and
+`(0,1,30)`.  The resultant/common-root pass over all representatives and final
+empirical rate remain open.
