@@ -1194,11 +1194,11 @@ with `B_max=500000`, and every next budget still fails.  By monotonicity in
 The closest stressed failures are `s=13,14,15,16,18`, with margins
 `6297, 9836, 22892, 51554, 53037` respectively.
 
-## T3 h=3 non-diagonal low-row budget lift
+## T3 h=3 non-diagonal low/mid-row budget lift
 
 Stage selected: optimize the h=3 bridge-budget arithmetic beyond the
-conservative diagonal `A=D` boxes, starting with the low official rows where
-the batching budget is tightest.
+conservative diagonal `A=D` boxes, starting with the low and middle official
+rows where the batching budget is tightest.
 
 Banked files:
 
@@ -1223,14 +1223,17 @@ H3_NONDIAGONAL_LOWROW_BUDGET_PASS
 F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 ```
 
-Result: for `s=13..23`, exact non-diagonal optimization with `B <= 50000`
+Result: for `s=13..29`, exact non-diagonal optimization with `B <= 50000`
 raises the bridge budgets
 
 ```text
 11,14,18,23,29,36,46,58,73,92,116
-  -> 16,21,26,33,42,53,67,84,106,134,168.
+  -> 16,21,26,33,42,53,67,84,106,134,168
+
+146,184,232,292,368,463
+  -> 212,267,337,425,535,674.
 ```
 
 The verifier checks a passing witness at the improved `Z` and an exhaustive
-`Z+1` failure inside the non-diagonal search box.  This reduces the low-row
+`Z+1` failure inside the non-diagonal search box.  This reduces the low/mid-row
 geometric batching burden; it does not close `RC-RANK` or the bridge theorem.

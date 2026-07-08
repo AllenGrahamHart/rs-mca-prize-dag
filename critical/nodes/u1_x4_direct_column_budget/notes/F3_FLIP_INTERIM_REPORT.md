@@ -140,8 +140,8 @@ makes the table maximal inside the stated diagonal search box.  This still does
 not prove the geometric batching contract, `RC-RANK`, or impossibility under
 other Stepanov parameter families.
 
-The first non-diagonal parameter pass improves the low official rows
-`s=13..23`.  It uses the same compiler inequalities, but chooses the least
+The first non-diagonal parameter pass improves the low/middle official rows
+`s=13..29`.  It uses the same compiler inequalities, but chooses the least
 admissible `A` for each `(B,D)` instead of imposing `A=D`.  The aggregate replay
 now verifies that the improved `Z` passes and `Z+1` fails under the
 `B <= 50000` non-diagonal search box:
@@ -158,10 +158,17 @@ s=20:  58 -> 84
 s=21:  73 -> 106
 s=22:  92 -> 134
 s=23: 116 -> 168
+s=24: 146 -> 212
+s=25: 184 -> 267
+s=26: 232 -> 337
+s=27: 292 -> 425
+s=28: 368 -> 535
+s=29: 463 -> 674
 ```
 
-This reduces the low-row batching burden but still remains conditional on the
-same two open h=3 gates: `RC-RANK` and the actual geometric batching theorem.
+This reduces the low/middle-row batching burden but still remains conditional
+on the same two open h=3 gates: `RC-RANK` and the actual geometric batching
+theorem.
 
 A tempting shortcut for the rank theorem is already refuted.  Private
 zeros/poles for `X,r_1,r_2,r_3` do not imply full coefficient-rank

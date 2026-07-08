@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Non-diagonal h=3 bridge-budget lift for low official rows."""
+"""Non-diagonal h=3 bridge-budget lift for low/mid official rows."""
 
 from __future__ import annotations
 
@@ -39,6 +39,12 @@ EXPECTED_ROWS = (
     Row(21, 73, 106, 33_406_481, 8_032, 407, 16_210, 33_785_625, 8_029, 409, 16_259),
     Row(22, 92, 134, 67_102_386, 12_889, 511, 25_630, 67_704_006, 12_935, 512, 25_642),
     Row(23, 116, 168, 133_444_877, 20_294, 645, 40_807, 134_399_623, 20_477, 644, 40_695),
+    Row(24, 146, 212, 267_445_392, 32_247, 813, 64_793, 268_958_977, 32_320, 814, 64_812),
+    Row(25, 184, 267, 534_721_741, 51_515, 1_021, 102_538, 537_126_791, 51_306, 1_025, 102_863),
+    Row(26, 232, 337, 1_071_865_237, 81_605, 1_289, 163_056, 1_075_682_598, 81_721, 1_290, 163_086),
+    Row(27, 292, 425, 2_146_397_498, 129_532, 1_625, 258_956, 2_152_461_918, 129_837, 1_625, 258_834),
+    Row(28, 368, 535, 4_288_634_358, 205_741, 2_046, 410_884, 4_298_256_663, 205_523, 2_049, 411_333),
+    Row(29, 463, 674, 8_576_904_803, 327_055, 2_576, 651_820, 8_592_176_604, 326_779, 2_579, 652_386),
 )
 
 
@@ -108,7 +114,7 @@ def best_nondiagonal_bound(n: int, z: int) -> tuple[int, int, int, int]:
 
 
 def main() -> None:
-    print("h=3 non-diagonal low-row bridge-budget lift")
+    print("h=3 non-diagonal low/mid-row bridge-budget lift")
     print(f"C_red={C_RED} H3_ACT_C={H3_ACT_C} B_max={B_MAX}")
     print(" s      n       old_Z   new_Z       bound          16n     next_bound    A     B      D")
     for row in EXPECTED_ROWS:
@@ -134,8 +140,8 @@ def main() -> None:
             f" {row.a:5d} {row.b:5d} {row.d:6d}"
         )
 
-    print("maximality check: new_Z passes and new_Z+1 fails for s=13..23")
-    print("conditional conclusion: non-diagonal boxes enlarge the low-row H3-BRIDGE budgets")
+    print("maximality check: new_Z passes and new_Z+1 fails for s=13..29")
+    print("conditional conclusion: non-diagonal boxes enlarge the low/mid-row H3-BRIDGE budgets")
     print("H3_NONDIAGONAL_LOWROW_BUDGET_PASS")
 
 
