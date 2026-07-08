@@ -141,7 +141,7 @@ not prove the geometric batching contract, `RC-RANK`, or impossibility under
 other Stepanov parameter families.
 
 The first non-diagonal parameter pass improves the low/middle official rows
-`s=13..29`.  It uses the same compiler inequalities, but chooses the least
+`s=13..35`.  It uses the same compiler inequalities, but chooses the least
 admissible `A` for each `(B,D)` instead of imposing `A=D`.  The aggregate replay
 now verifies that the improved `Z` passes and `Z+1` fails under the
 `B <= 50000` non-diagonal search box:
@@ -164,6 +164,12 @@ s=26: 232 -> 337
 s=27: 292 -> 425
 s=28: 368 -> 535
 s=29: 463 -> 674
+s=30: 584 -> 850
+s=31: 736 -> 1071
+s=32: 927 -> 1349
+s=33: 1168 -> 1700
+s=34: 1472 -> 2142
+s=35: 1855 -> 2699
 ```
 
 This reduces the low/middle-row batching burden but still remains conditional

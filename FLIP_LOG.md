@@ -1223,7 +1223,7 @@ H3_NONDIAGONAL_LOWROW_BUDGET_PASS
 F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 ```
 
-Result: for `s=13..29`, exact non-diagonal optimization with `B <= 50000`
+Result: for `s=13..35`, exact non-diagonal optimization with `B <= 50000`
 raises the bridge budgets
 
 ```text
@@ -1231,7 +1231,10 @@ raises the bridge budgets
   -> 16,21,26,33,42,53,67,84,106,134,168
 
 146,184,232,292,368,463
-  -> 212,267,337,425,535,674.
+  -> 212,267,337,425,535,674
+
+584,736,927,1168,1472,1855
+  -> 850,1071,1349,1700,2142,2699.
 ```
 
 The verifier checks a passing witness at the improved `Z` and an exhaustive

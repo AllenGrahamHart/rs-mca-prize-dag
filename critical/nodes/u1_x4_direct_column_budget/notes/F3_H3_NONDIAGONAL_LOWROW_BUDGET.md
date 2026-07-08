@@ -13,7 +13,7 @@ is stronger.
 Question:
 
 ```text
-For s = 13..29, do non-diagonal boxes enlarge the bridge family size |Z|
+For s = 13..35, do non-diagonal boxes enlarge the bridge family size |Z|
 that can be conditionally paid under RC-RED(13) + RC-RANK?
 ```
 
@@ -72,6 +72,12 @@ s=26: 232 -> 337
 s=27: 292 -> 425
 s=28: 368 -> 535
 s=29: 463 -> 674
+s=30: 584 -> 850
+s=31: 736 -> 1071
+s=32: 927 -> 1349
+s=33: 1168 -> 1700
+s=34: 1472 -> 2142
+s=35: 1855 -> 2699
 ```
 
 For every row, the replay verifies that the improved `Z` passes and `Z+1`
@@ -82,8 +88,8 @@ gives maximality inside `B <= 50000` for these low rows.
 
 This reduces the low/mid-row geometric batching burden.  For example, at the
 first official row `n=2^13`, the h=3 bridge contract can now batch into `16`
-repaired curve families instead of `11`; at `n=2^29`, it can batch into `674`
-instead of `463`.  No red node closes from this packet: the open mathematics
+repaired curve families instead of `11`; at `n=2^35`, it can batch into `2699`
+instead of `1855`.  No red node closes from this packet: the open mathematics
 remains `RC-RANK` plus the actual F3 batching/charging theorem, or replacement
 finite certificates.
 
