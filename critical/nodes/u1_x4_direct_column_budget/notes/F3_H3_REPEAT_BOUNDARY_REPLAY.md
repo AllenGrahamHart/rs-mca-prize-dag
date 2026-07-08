@@ -21,7 +21,8 @@ The harness runs:
 - the LP4 rank guardrail;
 - the combined support compiler;
 - the boundary-style support evidence and zero-support falsifier;
-- the forced-point support reduction.
+- the forced-point support reduction;
+- the forced-fiber Stepanov compiler.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch
 Modal.

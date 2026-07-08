@@ -72,6 +72,11 @@ COMMANDS = [
         "f3_h3_repeat_support_forced_point_reduction.py",
         "H3_REPEAT_SUPPORT_FORCED_POINT_REDUCTION_PASS",
     ),
+    (
+        "h3 repeat forced-fiber Stepanov compiler",
+        "f3_h3_repeat_forced_fiber_stepanov_compiler.py",
+        "H3_REPEAT_FORCED_FIBER_STEPANOV_COMPILER_PASS",
+    ),
 ]
 
 

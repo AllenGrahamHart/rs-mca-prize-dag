@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=4.30 maxrss=49908
+elapsed=4.68 maxrss=50096
 ```
 
 ## Confidence-ranked claims
@@ -95,7 +95,9 @@ elapsed=4.30 maxrss=49908
    `B_line=0` at `n=16,32,64,128,512,1024` in the tested boundary rows, while
    `n=256,p=65537` has `B_line=48` and `R_orb=8`.  In that nonzero row, every
    active triple contains the forced coordinate `2`, and `B_line=3N_2=48`,
-   suggesting a forced-coordinate/PGL2-fiber support route.
+   suggesting a forced-coordinate/fiber support route.  The forced-fiber
+   Stepanov compiler supplies `FF-RED(5)` for this route; the remaining theorem
+   is its rank/nonvanishing gate `FF-RANK/FF-NV`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

@@ -372,13 +372,44 @@ This is finite evidence only, but it identifies another theorem route:
 prove a small forced-coordinate cover, then bound the resulting one-variable
 PGL2 fibers.
 
+The forced-fiber Stepanov compiler pins the arithmetic for those fibers.  For
+fixed `a`, the maps have degrees
+
+```text
+w_a(X)=P_1(X)/Q_a(X),       deg P_1 <= 1, deg Q_a = 1,
+lambda_a(X)=P_2(X)/Q_a(X),  deg P_2 = 2,  deg Q_a = 1.
+```
+
+Using `Phi(X,Y_1,Y_2)` with `deg_X<A`, `deg_{Y_i}<B`, the cleared substituted
+degree is
+
+```text
+L_FF(A,B,n) = (A-1) + 3n(B-1),
+```
+
+and the log-jet reduction gives
+
+```text
+FF-RED(5): conditions <= 5D(A+D)F
+```
+
+for a forced-coordinate family of size `F`.  Under the missing
+`FF-RANK/FF-NV` gate,
+
+```text
+sum_{a in A0} N_a < F((A-1)+3n(B-1))/D.
+```
+
+So the forced-coordinate route now has the same shape as the LP4 route:
+reduced-condition arithmetic is banked, rank/nonvanishing remains open.
+
 The repeat-boundary chain has a focused replay:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `4.30s` locally and ends with
+It runs in about `4.68s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

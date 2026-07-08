@@ -4325,14 +4325,14 @@ F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 Result: the focused replay covers the h=2 affine coset-pair input, the h=3
 moment identity, every repeat-boundary compiler/payment/guardrail packet, the
 combined support compiler, the boundary-style support evidence, and the
-forced-point reduction.  It does not launch Modal and does not run the older
-55s aggregate.
+forced-point/fiber reductions.  It does not launch Modal and does not run the
+older 55s aggregate.
 
 Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=4.30 maxrss=49908
+elapsed=4.68 maxrss=50096
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4468,4 +4468,49 @@ Focused replay:
 ```text
 H3_REPEAT_SUPPORT_FORCED_POINT_REDUCTION_PASS
 elapsed=1.98 maxrss=11264
+```
+
+## T2 h=3 repeat forced-fiber Stepanov compiler
+
+Stage selected: turn the forced-coordinate support route into an explicit
+Stepanov compiler with its own rank/nonvanishing gate.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_FIBER_STEPANOV_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_fiber_stepanov_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_fiber_stepanov_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_FORCED_FIBER_STEPANOV_COMPILER_PASS
+```
+
+Result: for fixed forced coordinate `a`, `w_a` has degree at most `1/1` and
+`lambda_a` has degree `2/1`.  The forced-fiber auxiliary
+`Phi(X,Y_1,Y_2)` has
+
+```text
+coeffs = A B^2,
+degree = (A-1)+3n(B-1),
+conditions <= 5D(A+D)F.
+```
+
+Thus `FF-RED(5)` is supplied.  The remaining theorem gate for this route is
+`FF-RANK/FF-NV`.
+
+Focused replay:
+
+```text
+FF-RED(5) supplied; remaining gate: FF-RANK/FF-NV
+H3_REPEAT_FORCED_FIBER_STEPANOV_COMPILER_PASS
+elapsed=0.33 maxrss=50104
 ```
