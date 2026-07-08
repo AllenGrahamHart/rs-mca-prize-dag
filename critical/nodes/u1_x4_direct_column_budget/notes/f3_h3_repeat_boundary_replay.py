@@ -157,6 +157,11 @@ COMMANDS = [
         "f3_h3_repeat_pairwise_coreless_compiler.py",
         "H3_REPEAT_PAIRWISE_CORELESS_COMPILER_PASS",
     ),
+    (
+        "h3 repeat coreless-pattern compiler",
+        "f3_h3_repeat_coreless_pattern_compiler.py",
+        "H3_REPEAT_CORELESS_PATTERN_COMPILER_PASS",
+    ),
 ]
 
 

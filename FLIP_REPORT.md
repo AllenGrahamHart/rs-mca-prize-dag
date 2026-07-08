@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.58 maxrss=50104
+elapsed=17.20 maxrss=50024
 ```
 
 ## Confidence-ranked claims
@@ -136,7 +136,9 @@ elapsed=16.58 maxrss=50104
    `A_lambda(T)=T(T-1)^2+lambda*T(2-T)`: active edges are 3-point H-level
    fibers of `A_lambda`, and rho is a secant slope in the lambda direction.
    The pairwise-coreless case further splits into a 3-edge coreless triangle
-   or the tetrahedral four-3-subsets pattern.
+   or the tetrahedral four-3-subsets pattern.  The 3-edge coreless triangle
+   further has only two combinatorial patterns: loose `(1,1,1)` and pinched
+   `(1,1,2)` pair-intersection sizes.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

@@ -616,6 +616,11 @@ the four edges must be the tetrahedral four 3-subsets of a 4-point set.
 Therefore `H3-NO-PAIRWISE-CORELESS` reduces to
 `H3-NO-THREE-EDGE-CORELESS` and `H3-NO-TETRAHEDRON`.
 
+The coreless-pattern compiler then splits the three-edge case.  A
+pairwise-intersecting coreless triple of 3-edges has sorted pair-intersection
+sizes only `(1,1,1)` or `(1,1,2)`, giving the two targets
+`H3-NO-LOOSE-TRIANGLE` and `H3-NO-PINCHED-TRIANGLE`.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -644,7 +649,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `16.58s` locally and ends with
+It runs in about `17.20s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
