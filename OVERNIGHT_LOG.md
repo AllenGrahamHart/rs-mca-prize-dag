@@ -1797,3 +1797,49 @@ critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0133_CENSUS.md
 Rates: rational norm exception `0.8276%`; actual common-root activation
 `0.0247%`.  The complete core-by-core program now has 32 of 91 core types
 scanned.
+
+## 2026-07-08 Terminal C core `(0,1,34)` complete census
+
+Stage: Terminal C, thirty-third complete core-orbit slice.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0134_CENSUS.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0134_census_results.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0134_census_check.py
+```
+
+Replay:
+
+```bash
+~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,34 --tag 0134
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0134_census_check.py
+```
+
+Modal run:
+
+```text
+https://modal.com/apps/allengrahamhart/main/ap-bdLYftsAaMbhvkXj2B5F5w
+```
+
+Result: complete scan of `A=[0,1,34]`, all `B` disjoint triples:
+
+```text
+TOTAL shapes=129766 norm_exceptions=1224 activation_exceptions=4
+H3_CORE_0134_CENSUS_DONE
+H3_CORE_0134_CENSUS_CHECK_PASS
+```
+
+Activation exceptions:
+
+```text
+[0, 1, 34 | 2, 37, 89]    p=17377
+[0, 1, 34 | 14, 76, 83]   p=67777
+[0, 1, 34 | 26, 30, 76]   p=10369
+[0, 1, 34 | 50, 51, 81]   p=10177
+```
+
+Rates: rational norm exception `0.9432%`; actual common-root activation
+`0.0031%`.  The complete core-by-core program now has 33 of 91 core types
+scanned.

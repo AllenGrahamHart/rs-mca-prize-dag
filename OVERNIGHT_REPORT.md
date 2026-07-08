@@ -64,7 +64,8 @@ core type `(0,1,30)` is complete with `3/129766` actual activations.  The
 thirtieth core type `(0,1,31)` is complete with `4/129766` actual activations.
 The thirty-first core type `(0,1,32)` is complete with `14/129766` actual
 activations.  The thirty-second core type `(0,1,33)` is complete with
-`32/129766` actual activations.
+`32/129766` actual activations.  The thirty-third core type `(0,1,34)` is
+complete with `4/129766` actual activations.
 
 ## Claims
 
@@ -1775,7 +1776,8 @@ activations.  The thirty-second core type `(0,1,33)` is complete with
   `(0,1,26)` returns to the sparse two-activation regime, `(0,1,27)` has a
   single activation, `(0,1,28)` has six activations, `(0,1,29)` and
   `(0,1,30)` each have three activations, `(0,1,31)` has four activations,
-  `(0,1,32)` has fourteen activations, and `(0,1,33)` has 32 activations.
+  `(0,1,32)` has fourteen activations, `(0,1,33)` has 32 activations, and
+  `(0,1,34)` has four activations.
 
 ## Terminal Status
 
@@ -1802,12 +1804,12 @@ now exactly sized at `3,135,641` affine/Galois representatives, and the first
 deterministic slices give a 44-entry complete subfamily exceptional list.  The
 consecutive-core exceptional list has a checked two-family classification.  The
 outside-family complement is activation-free in that complete slice.  The
-remaining full census is now organized into 91 core-orbit slices; 32 are
+remaining full census is now organized into 91 core-orbit slices; 33 are
 complete, represented by `(0,1,2)`, `(0,1,3)`, `(0,1,4)`, `(0,1,5)`,
 `(0,1,6)`, `(0,1,7)`, `(0,1,8)`, `(0,1,9)`, `(0,1,10)`, `(0,1,11)`,
 `(0,1,12)`, `(0,1,13)`, `(0,1,14)`, `(0,1,15)`, `(0,1,16)`, `(0,1,17)`,
 `(0,1,18)`, `(0,1,19)`, `(0,1,20)`, `(0,1,21)`, `(0,1,22)`, `(0,1,23)`, and
 `(0,1,24)`, `(0,1,25)`, `(0,1,26)`, `(0,1,27)`, `(0,1,28)`, `(0,1,29)`, and
-`(0,1,30)`, `(0,1,31)`, `(0,1,32)`, and `(0,1,33)`.  The
+`(0,1,30)`, `(0,1,31)`, `(0,1,32)`, `(0,1,33)`, and `(0,1,34)`.  The
 resultant/common-root pass over all representatives and final empirical rate
 remain open.
