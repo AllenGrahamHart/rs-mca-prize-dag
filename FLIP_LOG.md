@@ -5489,3 +5489,48 @@ H3_REPEAT_RECIPROCAL_PRODUCT_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=17.86 maxrss=50104
 ```
+
+## T2/T3 h=3 repeat lambda-root fiber compiler
+
+Stage selected: convert fixed-`lambda` reciprocal-product uniqueness into an
+explicit rational-map fiber target.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_ROOT_FIBER_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_root_fiber_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_root_fiber_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LAMBDA_ROOT_FIBER_COMPILER_PASS
+```
+
+Result: for fixed `lambda`, a reciprocal root `r` determines the reciprocal
+product by
+
+```text
+Phi_lambda(r)=r^3/(1-(lambda-1)r).
+```
+
+Active edges with that lambda are exactly the 3-point fibers of `Phi_lambda`
+on `S={1/(u-1):u in H,u!=1}`.  Thus `H3-VALUE-INJECTIVE` has become the
+fiber-uniqueness target: each `Phi_lambda` has at most one 3-point fiber on
+`S`.  The boundary guardrails have max one such fiber per lambda; the
+non-boundary contrast row has one lambda with two.
+
+Focused replay:
+
+```text
+H3_REPEAT_LAMBDA_ROOT_FIBER_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=17.06 maxrss=50104
+```

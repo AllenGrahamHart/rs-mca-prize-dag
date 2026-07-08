@@ -21,6 +21,7 @@ The harness runs:
 - the quadratic-rho compiler;
 - the affine value-slope compiler;
 - the reciprocal-product compiler;
+- the lambda-root fiber compiler;
 - the LP4 Stepanov compiler;
 - the q0 cell payment;
 - the fixed-fiber cap;

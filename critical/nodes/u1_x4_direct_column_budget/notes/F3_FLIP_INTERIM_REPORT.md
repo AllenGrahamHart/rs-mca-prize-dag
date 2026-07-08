@@ -632,6 +632,18 @@ rho = 1 + (R^-1-S^-1)/(lambda-mu),
 
 and the source-edge slope values are `1-r^-2` on reciprocal roots.
 
+The lambda-root fiber compiler solves the reciprocal cubic for `R` from one
+reciprocal root:
+
+```text
+Phi_lambda(r)=r^3/(1-(lambda-1)r).
+```
+
+For each `lambda in H`, active edges with that lambda are exactly the 3-point
+fibers of `Phi_lambda` on `S={1/(u-1):u in H,u!=1}`.  Hence
+`H3-VALUE-INJECTIVE` is equivalently the assertion that every `Phi_lambda` has
+at most one 3-point fiber on `S`.
+
 The pairwise-coreless compiler splits the other taxonomy branch.  A
 pairwise-intersecting coreless obstruction on at most four active 3-edges
 either has a 3-edge coreless subfamily, or every triple has a common point and
@@ -723,7 +735,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `17.86s` locally and ends with
+It runs in about `17.06s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

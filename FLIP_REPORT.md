@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.86 maxrss=50104
+elapsed=17.06 maxrss=50104
 ```
 
 ## Confidence-ranked claims
@@ -138,7 +138,10 @@ elapsed=17.86 maxrss=50104
    In reciprocal coordinates, the same branch is controlled by the cubic
    `X^3+(lambda-1)R X-R`: fixed-`lambda` injectivity is uniqueness of the
    reciprocal product `R`, and the rho-hit values are `1-r^-2` on reciprocal
-   roots.
+   roots.  Equivalently, for fixed `lambda`, active edges are exactly the
+   3-point fibers on `S={1/(u-1):u in H,u!=1}` of
+   `Phi_lambda(r)=r^3/(1-(lambda-1)r)`.  The same-lambda target is now
+   uniqueness of such a 3-point fiber for each `lambda`.
    The pairwise-coreless case further splits into a 3-edge coreless triangle
    or the tetrahedral four-3-subsets pattern.  The 3-edge coreless triangle
    further has only two combinatorial patterns: loose `(1,1,1)` and pinched
