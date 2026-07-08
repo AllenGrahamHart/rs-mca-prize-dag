@@ -137,3 +137,42 @@ remaining in-house finite midrange is therefore exactly `2^19..2^22`.
 Next step: return to T1 by attempting the rich-curve coefficient-count and
 nonvanishing packet, or continue T3 by designing the actual h=2 certificate
 runner for the feasible rows.
+
+## T1 repair: rich-curve degeneracy audit
+
+Stage selected: T1 theorem-statement audit before attempting the full
+coefficient-count/nonvanishing lemma.  The denominator compiler applies to all
+degree-2 rational maps, but the proposed rich-curve theorem cannot.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DEGENERACY_AUDIT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_audit.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
+```
+
+Digest:
+
+```text
+H3_RICH_CURVE_DEGENERACY_AUDIT_PASS
+H3_RICH_CURVE_DENOMINATOR_COMPILER_PASS
+```
+
+Result: the overbroad T1 wording is false without degeneracy exclusions.  The
+degree-1 subfamily `r_i(X)=c_i X` with all `c_i in H` has exactly `T=h`
+simultaneous `H`-points for one curve, contradicting any one-curve
+`C h^alpha`, `alpha < 1`, rich-curve estimate at large `h`.  Therefore the
+next coefficient-count/nonvanishing packet must explicitly exclude or pay
+multiplicative-dependence cells: toral `(0,0)`, the `3 | q-1` line
+degenerations, and any curve where membership conditions differ only by
+`H`-constant factors.
+
+Next step: formulate the repaired rich-curve Stepanov target with these
+degenerate cells removed, then attack the reduced-condition nonvanishing lemma.
