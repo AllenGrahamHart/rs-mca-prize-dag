@@ -3302,3 +3302,50 @@ The aggregate replay now includes this verifier and still passes under the
 F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 elapsed=57.07 maxrss=98564
 ```
+
+## T1 h=3 local fiber-count bridge
+
+Stage selected: pin the local multiplicity between triples, ordered conic
+points, and activated pairs.  This is a bridge bookkeeping lemma, not a global
+activation bound.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_LOCAL_FIBER_COUNT_BRIDGE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_local_fiber_count_bridge.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_local_fiber_count_bridge.py
+```
+
+Expected digest:
+
+```text
+H3_LOCAL_FIBER_COUNT_BRIDGE_PASS
+```
+
+Result: for each fixed `(s1,s2)`,
+
+```text
+R(s1,s2) = 6 N(s1,s2),
+local activated pairs = binom(N(s1,s2),2)
+                      = R(s1,s2)(R(s1,s2)-6)/72.
+```
+
+Here `N` counts unordered 3-subsets of `H` with elementary data `(s1,s2)`,
+while `R` counts ordered pairwise-distinct same-fiber triples.  In conic form,
+these are exactly the ordered points with
+`G(u,v)=0` and `w=-a-u-v in H`.  The verifier checks the identity on
+`(p,n)=(97,16),(97,32),(193,64)`.
+
+The aggregate replay now includes this verifier and still passes under the
+60 second cap:
+
+```text
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+elapsed=57.28 maxrss=98800
+```

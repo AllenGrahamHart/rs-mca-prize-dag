@@ -53,6 +53,14 @@ COMMANDS = [
         "H3_CONIC_DEGREE2_CHART_PASS",
     ),
     (
+        "h3 local fiber-count bridge",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_local_fiber_count_bridge.py",
+        ],
+        "H3_LOCAL_FIBER_COUNT_BRIDGE_PASS",
+    ),
+    (
         "h3 official degeneracy ledger",
         [
             sys.executable,

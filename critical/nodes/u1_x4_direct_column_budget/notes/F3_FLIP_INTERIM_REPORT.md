@@ -103,6 +103,21 @@ membership conditions land in the exact degree-2 rational-map class consumed by
 the rich-curve compiler, without adjoining a cube root.  This does not prove
 the rank-good minor theorem or the geometric batching theorem.
 
+The local fiber-count bridge fixes the multiplicity on each same-`(e1,e2)`
+ledger.  If `N(s1,s2)` is the number of unordered triples in `H` with those
+elementary data, and `R(s1,s2)` is the number of ordered pairwise-distinct
+same-fiber triples, then
+
+```text
+R(s1,s2) = 6 N(s1,s2),
+local activated pairs = binom(N(s1,s2),2).
+```
+
+Equivalently, the conic chart counts ordered triple points, and the bridge must
+pay the exact sixfold ordering multiplicity before quotienting activated
+triple-pairs.  This is a local counting identity, not the global
+rank-capacity batching theorem.
+
 The earlier exact pair-coprimality pilot is now included in the aggregate
 replay.  On the seven-prime n=96 ladder it finds three activated shapes, each
 activating at exactly one threshold prime; the common obstruction norm factors
