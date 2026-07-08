@@ -4787,3 +4787,36 @@ and no `n^3` alarm.  The single-prime timing gate `p=4289` ran in under
 4 seconds and the full five-prime replay ran in under 18 seconds, with peak
 RSS below 90 MB.  This strengthens finite-row h=5 no-primitive evidence; no
 uniform h=5 theorem is claimed.
+
+## 2026-07-08 Bonus queue continuation: h=5 n=96 boundary certificate
+
+Stage: bonus item (i), h=4/h=5 emptiness evidence extension.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N96_BOUNDARY_CERTIFICATE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n96_boundary_certificate.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n96_boundary_certificate.json
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n96_boundary_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+```
+
+Digests:
+
+```text
+H5_N96_BOUNDARY_CERTIFICATE_PASS
+H4_H5_BONUS_REDUCTION_PASS
+```
+
+Result: complete anchored certificate at `n=96,h=5,p=9601`.  It checks
+`3183545` anchored left subsets and `57940519` right subsets, with zero
+anchored nontoral trades and no `n^3` alarm.  The replay stayed inside the
+60-second local cap (`48.70s`) with peak RSS about `152 MB`.  This is the
+largest h=5 complete finite-row certificate banked so far; no uniform theorem
+is claimed.

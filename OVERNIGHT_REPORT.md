@@ -1953,3 +1953,10 @@ nontoral trades and no `n^3` alarm.  The replay is local-light
 (`p=4289` under 4 seconds; all five primes under 18 seconds; peak RSS below
 90 MB).  This extends the h=5 finite-row zero evidence from n=32 to n=64, but
 does not promote a uniform h=5 no-primitive theorem.
+
+Continuation h=5 scale update: the next boundary row `n=96,h=5,p=9601` now has
+a complete anchored certificate as well.  The replay checks `3183545` anchored
+left subsets and `57940519` right subsets, finds zero anchored nontoral trades,
+and stays within the local light-compute rule (`48.70s`, about `152 MB` RSS).
+This is the largest complete h=5 row banked so far; it remains finite evidence,
+not a proof of the uniform h=5 theorem.

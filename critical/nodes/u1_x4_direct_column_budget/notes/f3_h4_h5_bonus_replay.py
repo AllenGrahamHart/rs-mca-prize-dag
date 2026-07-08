@@ -81,6 +81,25 @@ def require_h5_n64_certificate(rows) -> None:
                 raise AssertionError((key, row.get(key), value, row))
 
 
+def require_h5_n96_certificate(row) -> None:
+    expected = {
+        "n": 96,
+        "h": 5,
+        "p": 9601,
+        "W": 96,
+        "hashed": 3183545,
+        "probed": 57940519,
+        "anchored_toral_trades": 0,
+        "anchored_nontoral_trades": 0,
+        "partial": False,
+        "complete": True,
+        "direct_n3_exceeded": False,
+    }
+    for key, value in expected.items():
+        if row.get(key) != value:
+            raise AssertionError((key, row.get(key), value, row))
+
+
 def main() -> None:
     dag = load_json(ROOT / "dag.json")
     for node_id in (
@@ -115,12 +134,15 @@ def main() -> None:
     require_h5_n32_certificate(h5_rows)
     h5_n64_rows = load_json(notes / "f3_h5_n64_multirow_certificate.json")
     require_h5_n64_certificate(h5_n64_rows)
+    h5_n96_row = load_json(notes / "f3_h5_n96_boundary_certificate.json")
+    require_h5_n96_certificate(h5_n96_row)
 
     print("proved structural nodes: h4 dichotomy, x83 gate, c1a, m720 h5 gates")
     print("positive control n16/h4/p17:", gate["anchored_nontoral_trades"])
     print("verified q>=n^2 h4/h5 zero rows from f3a1/f3a2")
     print("h=5 n32 complete zero certificates:", len(h5_rows))
     print("h=5 n64 complete zero certificates:", len(h5_n64_rows))
+    print("h=5 n96 boundary zero certificate:", h5_n96_row["p"])
     print("H4_H5_BONUS_REDUCTION_PASS")
 
 

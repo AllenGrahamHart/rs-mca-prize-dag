@@ -1,0 +1,15 @@
+{
+  "W": 96,
+  "anchored_nontoral_trades": 0,
+  "anchored_toral_trades": 0,
+  "complete": true,
+  "direct_n3_budget": 884736,
+  "direct_n3_exceeded": false,
+  "h": 5,
+  "hashed": 3183545,
+  "n": 96,
+  "name": "boundary_n96_h5_p9601_FULL_CPP",
+  "p": 9601,
+  "partial": false,
+  "probed": 57940519
+}
