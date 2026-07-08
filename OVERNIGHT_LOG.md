@@ -3503,3 +3503,42 @@ Activation exceptions:
 Rates: rational norm exception `0.9332%`; actual common-root activation
 `0.0015%`.  The complete core-by-core program now has 70 of 91 core types
 scanned.
+
+## 2026-07-08 Terminal C core `(0,1,72)` complete census
+
+Stage: Terminal C, seventy-first complete core-orbit slice.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0172_CENSUS.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0172_census_results.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0172_census_check.py
+```
+
+Replay:
+
+```bash
+~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,72 --tag 0172
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0172_census_check.py
+```
+
+Modal run:
+
+```text
+https://modal.com/apps/allengrahamhart/main/ap-8OvoNOPEwf71s8xrY8ooiw
+```
+
+Result: complete scan of `A=[0,1,72]`, all `B` disjoint triples:
+
+```text
+TOTAL shapes=129766 norm_exceptions=1223 activation_exceptions=67
+H3_CORE_0172_CENSUS_DONE
+H3_CORE_0172_CENSUS_CHECK_PASS
+```
+
+Activation exceptions: 67 total, nearly all containing anchor exponent `49`.
+
+Rates: rational norm exception `0.9425%`; actual common-root activation
+`0.0516%`.  The complete core-by-core program now has 71 of 91 core types
+scanned.
