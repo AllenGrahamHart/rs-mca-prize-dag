@@ -89,7 +89,8 @@ core type `(0,1,51)` is complete with `3/129766` actual activations.  The
 fifty-first core type `(0,1,52)` is complete with `7/129766` actual
 activations.  The fifty-second core type `(0,1,53)` is complete with
 `3/129766` actual activations.  The fifty-third core type `(0,1,54)` is
-complete with `3/129766` actual activations.
+complete with `3/129766` actual activations.  The fifty-fourth core type
+`(0,1,55)` is complete with `3/129766` actual activations.
 
 ## Claims
 
@@ -1835,8 +1836,8 @@ complete, represented by `(0,1,2)`, `(0,1,3)`, `(0,1,4)`, `(0,1,5)`,
 `(0,1,18)`, `(0,1,19)`, `(0,1,20)`, `(0,1,21)`, `(0,1,22)`, `(0,1,23)`, and
 `(0,1,24)`, `(0,1,25)`, `(0,1,26)`, `(0,1,27)`, `(0,1,28)`, `(0,1,29)`, and
 `(0,1,30)`, `(0,1,31)`, `(0,1,32)`, `(0,1,33)`, `(0,1,34)`, and `(0,1,35)`.
-Continuation update: the complete core-by-core census is now 53 of 91 core
-types complete, through `(0,1,54)`.  The latest slice has `1106/129766`
+Continuation update: the complete core-by-core census is now 54 of 91 core
+types complete, through `(0,1,55)`.  The latest slice has `1106/129766`
 rational norm exceptions and `3/129766` actual common-root activation
 exceptions.
 The resultant/common-root pass over all representatives and final empirical
