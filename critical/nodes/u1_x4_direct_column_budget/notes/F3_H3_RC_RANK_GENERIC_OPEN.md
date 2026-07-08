@@ -88,6 +88,22 @@ This agrees with the rank-effective bridge packet and again shows why
 duplicate curve images must be charged by capacity rather than raw
 multiplicity.
 
+## Degree-2 Nonemptiness Witness
+
+The current h=3 non-diagonal compiler uses the degree-2 denominator room, so
+the broader repaired degree-2 family is the more relevant rank target.  The
+existing deterministic repaired random degree-2 curve from the rank-sample
+packet has exact rank
+
+```text
+320 = A B^3.
+```
+
+Thus a full coefficient-rank minor is also nonzero on the repaired degree-2
+model family in the same toy box.  This proves nonemptiness of the degree-2
+rank-good open set; it still does not prove that the actual F3
+signature-curve parameter image lands inside it.
+
 ## Remaining Theorem
 
 The useful next theorem is now sharply stated:
@@ -100,7 +116,8 @@ F3-RANK-AVOID:
 ```
 
 This packet proves that such open sets are algebraically meaningful and
-nonempty in the private-linear model.  It does not prove `F3-RANK-AVOID`.
+nonempty in both the private-linear and repaired degree-2 toy model families.
+It does not prove `F3-RANK-AVOID`.
 
 ## Replay
 

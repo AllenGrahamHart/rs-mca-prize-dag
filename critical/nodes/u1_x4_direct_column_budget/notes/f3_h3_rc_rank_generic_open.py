@@ -15,6 +15,10 @@ from f3_h3_rich_curve_rank_stress import (
     linear_root,
     substitution_rank,
 )
+from f3_h3_rich_curve_rank_sample import (
+    random_curve as degree2_random_curve,
+    substitution_rank as degree2_substitution_rank,
+)
 from f3_h3_rc_rank_model_lemmas import private_linear_degree_dim
 
 
@@ -45,8 +49,15 @@ def main() -> None:
     print(f"private-linear witness rank={rank}")
     print(f"private-linear degree-space dimension={target_rank}")
     print(f"private-linear RC-RANK capacity={private_capacity}")
+
+    degree2_rank = degree2_substitution_rank((degree2_random_curve(20260708),))
+    if degree2_rank != COEFFS:
+        raise AssertionError(("degree-2 full-rank witness drift", degree2_rank, COEFFS))
+    print(f"repaired degree-2 witness rank={degree2_rank}")
+
     print("rank >= r is a nonzero-minor Zariski-open condition")
     print("finite-field witness proves the private-linear fullness open set is nonempty")
+    print("finite-field witness proves the repaired degree-2 full-rank open set is nonempty")
     print("H3_RC_RANK_GENERIC_OPEN_PASS")
 
 

@@ -2788,6 +2788,16 @@ private-divisor counting.  The standalone replay passes in `2.81s` locally
 (`maxrss=18688`), and the default aggregate replay passes with this packet
 included in `40.56s` locally (`maxrss=98796`).
 
+Follow-up: the generic-open verifier now also consumes the deterministic
+repaired degree-2 random curve from the rank-sample packet.  Its exact rank is
+`320 = A B^3`, so the repaired degree-2 full coefficient-rank open set is
+nonempty in the same toy box.  This aligns the generic-open packet with the
+degree-2 rank room used by the current non-diagonal compiler.  The standalone
+generic-open replay now passes in `11.10s` locally (`maxrss=22712`).  The
+default aggregate replay remains under the cap but is now close, passing in
+`53.61s` locally (`maxrss=98752`); future aggregate additions should replace or
+merge checks rather than simply adding runtime.
+
 ## T1/T2 h=3 private-linear compiler guard
 
 Stage selected: audit whether a private-linear rank theorem would be strong

@@ -195,7 +195,10 @@ has exact rank `293 = A + 3H(B-1)` over `F_769`, so the private-linear
 degree-space-fullness open set is nonempty in the toy box.  The remaining
 `RC-RANK` theorem can now be stated as a rank-good minor avoidance theorem for
 the actual repaired F3 signature-curve parameter image, with rank-effective
-capacity accounting for repeated images.
+capacity accounting for repeated images.  The same generic-open verifier also
+uses the deterministic repaired degree-2 random curve from the rank sample,
+whose exact rank is `320 = A B^3`, proving that the full coefficient-rank
+degree-2 open set is nonempty in the toy box.
 
 The private-linear compiler guard prevents a wrong shortcut from this point.
 All current official non-diagonal h=3 bridge witnesses use the degree-2
