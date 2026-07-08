@@ -5811,3 +5811,46 @@ H3_REPEAT_SLOPE_NUMERATOR_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=16.26 maxrss=50024
 ```
+
+## T2/T3 h=3 repeat loose pair-membership compiler
+
+Stage selected: write the loose-triangle active-pair graph as explicit
+reciprocal membership functions.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_PAIR_MEMBERSHIP_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_pair_membership_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_pair_membership_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_PAIR_MEMBERSHIP_COMPILER_PASS
+```
+
+Result: for `r,s in S`, the active pair condition is exactly
+
+```text
+1+1/r, 1+1/s, 1-1/(r+s), 1+1/r+1/s-1/(r+s) in H
+```
+
+with the non-pole and distinctness exclusions.  The loose target is then:
+if `{r,s}`, `{r,t}`, and `{s,t}` are active pairs, then `r+s+t=0`.
+Boundary guardrails have no loose pair-graph triangles; the contrast row has
+two.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_PAIR_MEMBERSHIP_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=16.45 maxrss=50108
+```

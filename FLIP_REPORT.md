@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.26 maxrss=50024
+elapsed=16.45 maxrss=50108
 ```
 
 ## Confidence-ranked claims
@@ -175,7 +175,9 @@ elapsed=16.26 maxrss=50024
    coordinates `r=1/(u-1)`, active edges are zero-sum triples and an active
    pair `{r,s}` has forced third reciprocal coordinate `-(r+s)`.  The loose
    target is therefore equivalent to: every triangle in this reciprocal
-   active-pair graph has `r+s+t=0`.
+   active-pair graph has `r+s+t=0`.  The active-pair graph itself is the
+   explicit four-membership condition
+   `1+1/r, 1+1/s, 1-1/(r+s), 1+1/r+1/s-1/(r+s) in H`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

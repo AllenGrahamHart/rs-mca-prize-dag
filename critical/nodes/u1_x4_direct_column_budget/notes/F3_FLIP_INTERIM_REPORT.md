@@ -804,6 +804,21 @@ So `H3-NO-LOOSE-TRIANGLE` is equivalent to the following closure theorem:
 every triangle in the reciprocal active-pair graph has `r+s+t=0`.  Nonzero
 `r+s+t` is exactly the loose-triangle obstruction.
 
+The loose pair-membership compiler writes that active-pair graph explicitly.
+For `r,s in S`, with `r+s != 0`,
+
+```text
+U=1+1/r,
+V=1+1/s,
+W=1-1/(r+s),
+Lambda=1+1/r+1/s-1/(r+s).
+```
+
+The pair `{r,s}` is active exactly when these are the registered subgroup
+memberships, with `U,V in H` automatic from `r,s in S` and the non-pole
+distinctness exclusions enforced.  Thus the loose target is an explicit
+four-membership triangle theorem on the reciprocal pair graph.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -832,7 +847,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `16.26s` locally and ends with
+It runs in about `16.45s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

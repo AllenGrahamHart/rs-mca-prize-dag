@@ -50,7 +50,8 @@ The harness runs:
 - the coreless-pattern compiler;
 - the linear-hypergraph compiler;
 - the loose-triangle shadow compiler;
-- the loose reciprocal-closure compiler.
+- the loose reciprocal-closure compiler;
+- the loose pair-membership compiler.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch
 Modal.

@@ -217,6 +217,11 @@ COMMANDS = [
         "f3_h3_repeat_loose_reciprocal_closure_compiler.py",
         "H3_REPEAT_LOOSE_RECIPROCAL_CLOSURE_COMPILER_PASS",
     ),
+    (
+        "h3 repeat loose pair-membership compiler",
+        "f3_h3_repeat_loose_pair_membership_compiler.py",
+        "H3_REPEAT_LOOSE_PAIR_MEMBERSHIP_COMPILER_PASS",
+    ),
 ]
 
 
