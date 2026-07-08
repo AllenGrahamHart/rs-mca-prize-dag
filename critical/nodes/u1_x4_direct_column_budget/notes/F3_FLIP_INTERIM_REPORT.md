@@ -63,6 +63,12 @@ to `167` affine/Galois pair-orbits, with maximum per-prime deduped count
 evidence at the right scale but not a proof.  The remaining h=3 proof debt is
 exact:
 
+The earlier exact pair-coprimality pilot is now included in the aggregate
+replay.  On the seven-prime n=96 ladder it finds three activated shapes, each
+activating at exactly one threshold prime; the common obstruction norm factors
+are `{1153,9601}`, `{97,13249}`, and `{18433}`, so below-threshold rational
+norm factors do not create extra threshold activations.
+
 ```text
 RC-RED(13)              => banked by the log-jet reduction
 RC-RANK/RC-NV + constants => rich-curve Stepanov theorem

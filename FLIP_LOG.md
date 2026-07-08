@@ -786,6 +786,39 @@ budgets include `Z_budget(13)=11`, `Z_budget(20)=58`, `Z_budget(23)=116`,
 the diagonal search with `B_max=20000`.  This does not prove the geometric
 batching theorem; it makes the missing bridge numerically explicit.
 
+## T2 h=3 pair-coprimality pilot integrated replay
+
+Stage selected: promote the existing exact n=96 ladder pilot into the aggregate
+F3 interim replay.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_PILOT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H3_PAIR_COPRIMALITY_PILOT_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the exact seven-prime n=96 ladder has three activated shapes, each
+activating at exactly one threshold prime.  Their common obstruction norm
+factors are `{1153,9601}`, `{97,13249}`, and `{18433}`; the extra rational norm
+factors are below threshold.  This reinforces the prime-ideal/common-root
+formulation and keeps the aggregate replay aware of the local norm-factor
+evidence.
+
 ## T1 h=3 private-divisor full-rank refutation
 
 Stage selected: test and falsify a tempting shortcut to the remaining

@@ -101,6 +101,14 @@ COMMANDS = [
         "H3_ACTIVATION_BOUND_COMPILER_PASS",
     ),
     (
+        "h3 pair-coprimality pilot",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py",
+        ],
+        "H3_PAIR_COPRIMALITY_PILOT_PASS",
+    ),
+    (
         "h3 activation orbit dedup",
         [
             sys.executable,
