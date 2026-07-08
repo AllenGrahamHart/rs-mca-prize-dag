@@ -560,6 +560,13 @@ half-turn.  Therefore every non-antipodal orbit has size `64`, and the
 anchored non-antipodal count is exactly `16` times the rotation-orbit count.
 Rotation canonicalization alone is still not a feasible global certifier.
 
+The x83 split-rotation equivariance packet proves the support-to-trade
+reduction is compatible with that quotient: if an x83 full-zero support is
+rotated, the forced square root and the recovered `S_R +/- alpha` split rotate
+with it, up to swapping the two sides.  A future orbit certifier can therefore
+canonicalize supports under rotation without losing the recovered h=8 trade
+split.
+
 The tempting larger exponent-unit quotient is refuted.  At `p=193`, a banked
 x83 full-zero support maps under `e -> 3e mod 64` to a support with obstruction
 vector `[0, 180, 0, 60, 0, 20, 0]` and nonsquare `lambda = 30`.  The same banked

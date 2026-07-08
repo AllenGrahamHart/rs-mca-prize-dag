@@ -380,6 +380,14 @@ COMMANDS = [
         ],
         "H8_X83_SUPPORT_CERTIFIER_REDUCTION_PASS",
     ),
+    (
+        "h8 x83 split rotation equivariance",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_split_rotation_equivariance.py",
+        ],
+        "H8_X83_SPLIT_ROTATION_EQUIVARIANCE_PASS",
+    ),
 ]
 
 
