@@ -182,7 +182,7 @@ def main() -> None:
             f" {H3_ACT_C * n:14d} {next_bound:16d}"
         )
 
-    print("bridge contract: activated shapes must batch into <= Z_budget repaired curves")
+    print("bridge contract: activated shapes must consume <= Z_budget rank-capacity units")
     print("maximality check: Z_budget has a pinned passing witness and Z_budget+1 fails")
     print("conditional conclusion: RC-RANK + bridge contract => H3-ACT(16)")
     print("H3_BRIDGE_BUDGET_COMPILER_PASS")

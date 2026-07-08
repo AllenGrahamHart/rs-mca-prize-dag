@@ -13,7 +13,7 @@ is stronger.
 Question:
 
 ```text
-For s = 13..35, do non-diagonal boxes enlarge the bridge family size |Z|
+For s = 13..35, do non-diagonal boxes enlarge the rank-capacity budget Z
 that can be conditionally paid under RC-RED(13) + RC-RANK?
 ```
 
@@ -119,8 +119,8 @@ compiler inequalities, not merely inside the default `B <= 50000` box.
 ## Interpretation
 
 This reduces the low/mid-row geometric batching burden.  For example, at the
-first official row `n=2^13`, the h=3 bridge contract can now batch into `16`
-repaired curve families instead of `11`; at `n=2^35`, it can batch into `2699`
+first official row `n=2^13`, the h=3 bridge contract can now consume `16`
+rank-capacity units instead of `11`; at `n=2^35`, it can consume `2699`
 instead of `1855`.  No red node closes from this packet: the open mathematics
 remains `RC-RANK` plus the actual F3 batching/charging theorem, or replacement
 finite certificates.

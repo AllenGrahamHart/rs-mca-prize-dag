@@ -13,7 +13,7 @@ Question:
 
 ```text
 For s = 36..41, do the same non-diagonal Stepanov boxes enlarge the conditional
-bridge family size |Z| under RC-RED(13) + RC-RANK?
+rank-capacity budget Z under RC-RED(13) + RC-RANK?
 ```
 
 Success criterion:
@@ -72,7 +72,7 @@ unchanged:
 
 ```text
 RC-RANK
-H3-BRIDGE(Z_budget)
+H3-BRIDGE-RANKCAP(Z_budget)
 ```
 
 No red node closes from this packet alone.

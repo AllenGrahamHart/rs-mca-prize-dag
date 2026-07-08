@@ -1807,3 +1807,43 @@ F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 Result: focused verifier passes in `0.01s` locally (`maxrss=10368`).  The
 default aggregate replay includes this packet and still passes in `40.76s`
 locally (`maxrss=98672`).
+
+## T1 h=3 RC-RANK small-H guardrail
+
+Stage selected: prevent the future `RC-RANK` theorem from being over-stated.
+The rank-stress private-divisor curve is non-collapsed, but the same curve can
+still fail the rank inequality at tiny subgroup orders.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_HFLOOR_GUARD.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_NONDIAGONAL_LOWROW_BUDGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_NONDIAGONAL_HIGHROW_BUDGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digests:
+
+```text
+H3_RC_RANK_HFLOOR_GUARD_PASS
+H3_BRIDGE_BUDGET_COMPILER_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: focused guardrail verifier passes in `14.21s` locally
+(`maxrss=23352`).  The bridge-budget compiler still passes in `1.33s`
+locally after the rank-capacity wording update.  The default aggregate replay
+is unchanged except for the bridge compiler wording and still passes in
+`43.05s` locally (`maxrss=98636`).

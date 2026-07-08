@@ -19,13 +19,13 @@ Question:
 
 ```text
 Assuming RC-RED(13), RC-RANK, and a geometric bridge from activated shape
-pairs into repaired curve families, how small must the family size |Z| be to
-deduce H3-ACT(16) on each official row n=2^13..2^41?
+pairs into repaired curve images, how small must the rank-capacity consumption
+Z be to deduce H3-ACT(16) on each official row n=2^13..2^41?
 ```
 
 Success criterion:
 
-- verify the maximum `|Z|` budget for every official power of two;
+- verify the maximum rank-capacity budget for every official power of two;
 - use only exact integer inequalities from the rank-parameter compiler;
 - state the bridge contract as an explicit remaining theorem.
 

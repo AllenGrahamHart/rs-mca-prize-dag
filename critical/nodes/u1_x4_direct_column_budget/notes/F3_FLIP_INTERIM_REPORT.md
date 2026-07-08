@@ -140,6 +140,23 @@ full-rank random: 4
 Therefore the bridge theorem needed downstream is not raw `|Z| <= Z_budget`,
 but rank-effective capacity consumption `<= Z_budget`.
 
+The small-`H` rank guardrail prevents overstatement of the future theorem.  In
+the same private-divisor toy family and Stepanov box, varying only the subgroup
+order gives exact ranks
+
+```text
+H=4:  rank 41   fails RC-RANK
+H=8:  rank 77   fails RC-RANK by one
+H=16: rank 149  passes
+H=32: rank 293  passes
+H=64: rank 320  full coefficient rank
+```
+
+So non-collapse plus private divisors do not imply a uniform tiny-`H`
+`RC-RANK` theorem.  The future large-row theorem must print an `H` floor, or
+route the tiny rows to finite certificates.  This is a theorem-statement
+guardrail, not an official-row obstruction.
+
 The rank-form parameter compiler gives the current conditional constants for
 representative repaired curve-family sizes.  Under `RC-RANK`, the diagonal
 `A=D` boxes give, for example:
