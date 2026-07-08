@@ -89,13 +89,13 @@ def main() -> None:
     h8_full = json.loads((NOTES / "f3_h8_n32_full_certificate.json").read_text())
     require_h8_full_certificate(h8_full, 1153)
     h8_multi = json.loads((NOTES / "f3_h8_n32_multirow_certificate.json").read_text())
-    if [row["p"] for row in h8_multi] != [1153, 3137, 12289]:
+    if [row["p"] for row in h8_multi] != [1153, 3137, 12289, 40961, 61441, 65537]:
         raise AssertionError(h8_multi)
     for row in h8_multi:
         require_h8_full_certificate(row, row["p"])
 
     print(f"h=6/h=7 full zero rows verified: {full_count}")
-    print("h=8 full anchored certificates verified: 3")
+    print("h=8 full anchored certificates verified: 6")
     print(f"h=8 partial zero slices remaining: {len(PARTIAL_H8_ROWS)}")
     print("H6_H8_BONUS_SWEEP_PASS")
 

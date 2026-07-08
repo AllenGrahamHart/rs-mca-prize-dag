@@ -14,7 +14,7 @@ OUT = (
     / "f3_h8_n32_multirow_certificate.json"
 )
 
-PRIMES = (1153, 3137, 12289)
+PRIMES = (1153, 3137, 12289, 40961, 61441, 65537)
 
 
 def main() -> None:

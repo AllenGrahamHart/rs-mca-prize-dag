@@ -1,6 +1,6 @@
 # F3 h=6/7/8 bonus sweep status
 
-Status: VERIFIED-AT-ROWS + THREE FULL H8 N32 CERTIFICATES + HONEST REMAINING H8
+Status: VERIFIED-AT-ROWS + SIX FULL H8 N32 CERTIFICATES + HONEST REMAINING H8
 PARTIALS.  This is bonus item (ii) after Terminals A/B/C: sweep `h = 6,7,8`
 with the ladder machinery.
 
@@ -14,8 +14,8 @@ Success criterion for this pass:
 
 - verify every existing full h=6/h=7 boundary/smooth row has zero anchored
   nontoral trades and no `n^3` alarm;
-- verify the upgraded `n=32,h=8,p in {1153,3137,12289}` complete anchored
-  certificates;
+- verify the upgraded `n=32,h=8,p in {1153,3137,12289,40961,61441,65537}`
+  complete anchored certificates;
 - verify remaining h=8 rows are present but marked partial, with no alarm in
   the checked slices;
 - state the next h=8 action without promoting partial evidence.
@@ -59,6 +59,12 @@ boundary_n32_h8_p3137_FULL   complete anchored certificate:
                               toral=3, nontoral=0, partial=False
 boundary_n32_h8_p12289_FULL  complete anchored certificate:
                               toral=3, nontoral=0, partial=False
+smooth_n32_h8_p40961         complete anchored certificate:
+                              toral=3, nontoral=0, partial=False
+smooth_n32_h8_p61441         complete anchored certificate:
+                              toral=3, nontoral=0, partial=False
+smooth_n32_h8_p65537         complete anchored certificate:
+                              toral=3, nontoral=0, partial=False
 ```
 
 The certificates are in `f3_h8_n32_full_certificate.json` and
@@ -76,7 +82,7 @@ q3_n64_h8                   zero in checked slice, partial=True
 
 The h=6/h=7 rows continue the pattern from the shallow ladder: no primitive
 residue appears in the q>=n^2 boundary/smooth tests.  The n=32 h=8 boundary
-rows now meet the same complete anchored standard at three primes.  The n=64
+rows now meet the same complete anchored standard at six primes.  The n=64
 h=8 rows do not yet meet that standard because the runs were sliced by the
 60-second Modal budget.
 

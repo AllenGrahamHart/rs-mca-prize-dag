@@ -1925,8 +1925,9 @@ Follow-up h=8 update: `boundary_n32_h8_p1153_FULL` is now a complete anchored
 certificate via a compiled replay.  It checks `2629575` left anchored subsets
 and `7888725` right subsets, finding `3` paid toral anchored trades and `0`
 anchored nontoral trades.  The same compiled certificate now also covers
-`p=3137` and `p=12289`.  The aggregate h=6/7/8 replay reports three full h=8
-n=32 certificates and two remaining h=8 partial n=64 slices.
+boundary primes `p=3137,12289` and smooth primes `p=40961,61441,65537`.  The
+aggregate h=6/7/8 replay reports six full h=8 n=32 certificates and two
+remaining h=8 partial n=64 slices.
 
 Bonus queue update: item (iii) now has a posed h=3 per-row accident theorem.
 With `A_3(n,p)` the number of activated non-toral dilation-shape orbits at a

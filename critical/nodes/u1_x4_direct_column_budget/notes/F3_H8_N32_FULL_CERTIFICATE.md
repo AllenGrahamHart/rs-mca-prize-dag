@@ -11,7 +11,8 @@ boundary_n32_h8_p1153_FULL
 
 The old Modal artifact had `partial=True`; the new replay is a complete
 anchored MITM certificate for the same row.  A multirow replay extends the same
-certificate to boundary primes `p=3137` and `p=12289`.
+certificate to boundary primes `p=3137,12289` and smooth primes
+`p=40961,61441,65537`.
 
 ## Scope
 
@@ -24,7 +25,7 @@ n = 32, h = 8, p = 1153, W = 32.
 Extended rows:
 
 ```text
-n = 32, h = 8, p in {1153, 3137, 12289}, W = 32.
+n = 32, h = 8, p in {1153, 3137, 12289, 40961, 61441, 65537}, W = 32.
 ```
 
 Object:
@@ -53,7 +54,7 @@ Thus the previous h=8 `n=32,p=1153` partial zero slice is upgraded to a full
 zero anchored nontoral certificate.  The three toral anchored trades are paid
 `mu_8` coset trades.
 
-The multirow replay gives the same result at `p=3137` and `p=12289`.
+The multirow replay gives the same result at `p=3137,12289,40961,61441,65537`.
 
 ## Replay
 
