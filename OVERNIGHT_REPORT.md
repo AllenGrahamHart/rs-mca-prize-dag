@@ -22,12 +22,14 @@ form as too strong, but finds zero actual common-root activations in 2000
 random normalized shapes.  A 64-prime activation ladder finds 71 activated
 shape orbits and zero repeated shapes.  The full all-shapes `n=96` census has
 now been sized exactly: `3,135,641` affine/Galois orbit representatives.  A
-deterministic affine-representative feasibility slice found the first two
+deterministic affine-representative feasibility slice found the first three
 common-root activation exceptions for the eventual exceptional list.  A complete
 consecutive-core subfamily census gives the first exact activation rate:
 `44/129766`, and those 44 exceptions are covered by two simple structural
 families whose union has zero activation-free complement outside it.  The
 remaining full census can now be organized into 91 affine/Galois core types.
+The second core type, `(0,1,3)`, is also complete: it has only `3/129766`
+actual common-root activation exceptions.
 
 ## Claims
 
@@ -459,6 +461,55 @@ remaining full census can now be organized into 91 affine/Galois core types.
    The completed `(0,1,2)` consecutive-core census is one core type, leaving
    90 core types for the full Terminal C census.
 
+15. **MACHINE-VERIFIED SUBFAMILY CENSUS:** complete core `(0,1,3)` slice.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_013_CENSUS.md
+   ```
+
+   Scripts:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_modal.py
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_check.py
+   ```
+
+   Replay:
+
+   ```bash
+   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_modal.py
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_check.py
+   ```
+
+   Modal run:
+
+   ```text
+   https://modal.com/apps/allengrahamhart/main/ap-PPkOFbEgdQJmer1TbRvNgV
+   ```
+
+   Result:
+
+   ```text
+   TOTAL shapes=129766 norm_exceptions=1224 activation_exceptions=3
+   H3_CORE_013_CENSUS_DONE
+   H3_CORE_013_CENSUS_CHECK_PASS
+   ```
+
+   Activation exceptions:
+
+   ```text
+   [0, 1, 3 | 9, 36, 84]    activates at p=10273
+   [0, 1, 3 | 46, 47, 52]   activates at p=40897
+   [0, 1, 3 | 46, 53, 55]   activates at p=67777
+   ```
+
+   This completely scans the oriented slice `A=[0,1,3]`, `B` any disjoint
+   triple.  Rates: rational norm exception `0.9432%`; actual common-root
+   activation `0.0023%`.  The core-by-core census is now 2 of 91 core types
+   complete.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -496,6 +547,10 @@ remaining full census can now be organized into 91 affine/Galois core types.
 - The family-rate check strengthens this: outside the two-family union, the
   complete consecutive-core slice has zero activations.
 
+- The next complete core slice `(0,1,3)` has only three actual activations,
+  showing that the dense consecutive-core behavior is not typical across the
+  first two core types.
+
 ## Terminal Status
 
 Terminal A reached.  A1/A2 are bypassed by a direct proof stronger than the
@@ -521,6 +576,6 @@ now exactly sized at `3,135,641` affine/Galois representatives, and the first
 deterministic slices give a 44-entry complete subfamily exceptional list.  The
 consecutive-core exceptional list has a checked two-family classification.  The
 outside-family complement is activation-free in that complete slice.  The
-remaining full census is now organized into 91 core-orbit slices; 1 is
-complete.  The resultant/common-root pass over all representatives and final
-empirical rate remain open.
+remaining full census is now organized into 91 core-orbit slices; 2 are
+complete, represented by `(0,1,2)` and `(0,1,3)`.  The resultant/common-root
+pass over all representatives and final empirical rate remain open.
