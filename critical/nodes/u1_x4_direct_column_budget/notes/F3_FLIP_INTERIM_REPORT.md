@@ -333,6 +333,19 @@ So linear support is asymptotically enough, but a full h=3 constants campaign
 still needs either a small support constant, sharper arithmetic, or finite
 certificates for the lower official rows.
 
+The repeat-support boundary-evidence packet uses the equivalent `O(n^2)`
+subgroup-pair scanner on boundary-style rows `p >= n^2`.  It finds
+
+```text
+n=16,32,64,128: B_line=0
+n=256, p=65537: B_line=48, support=48, R_orb=8
+n=512,1024: B_line=0
+```
+
+Thus boundary support is tiny in these rows, but a zero-support theorem is
+false.  The remaining target should stay a support bound, not support
+emptiness.
+
 The repeat-boundary chain has a focused replay:
 
 ```bash

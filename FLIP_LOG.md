@@ -4380,3 +4380,47 @@ Focused replay:
 H3_REPEAT_SUPPORT_CROSSOVER_PASS
 elapsed=0.02 maxrss=11776
 ```
+
+## T2/T3 h=3 repeat-support boundary evidence
+
+Stage selected: test the remaining quotient-support target on boundary-style
+rows using the efficient `u,v in H` scan, and bank any falsifier to support
+emptiness.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SUPPORT_BOUNDARY_EVIDENCE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_boundary_evidence.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_boundary_evidence.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SUPPORT_BOUNDARY_EVIDENCE_PASS
+```
+
+Result: boundary-style rows have tiny repeat-boundary support in this finite
+sample, but support emptiness is false:
+
+```text
+n=16,32,64,128: B_line=0
+n=256,p=65537: B_line=48, support=48, R_orb=8
+n=512,1024: B_line=0
+```
+
+The support theorem should therefore bound `R_orb`, not try to prove
+`B_line=0`.
+
+Focused replay:
+
+```text
+H3_REPEAT_SUPPORT_BOUNDARY_EVIDENCE_PASS
+elapsed=1.07 maxrss=10752
+```

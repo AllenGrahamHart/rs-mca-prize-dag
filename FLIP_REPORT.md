@@ -91,6 +91,9 @@ elapsed=1.34 maxrss=49904
    `O_C(n^(8/3))` payment.  The conservative official-row crossover for a
    linear support theorem is constant-sensitive: `C=1/2` covers `2^36..2^41`,
    `C=1` covers `2^38..2^41`, and `C=2` covers only `2^41`.
+   Boundary-style finite evidence has tiny support but not emptiness:
+   `B_line=0` at `n=16,32,64,128,512,1024` in the tested boundary rows, while
+   `n=256,p=65537` has `B_line=48` and `R_orb=8`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.
@@ -165,6 +168,9 @@ elapsed=1.34 maxrss=49904
 3. The h=8 n=64 radius-three shells around paid branches at `p=4289` and
    `p=262337` have `full_zero=0`, but they cover only a tiny local slice of the
    non-antipodal support universe.
+4. The h=3 repeat-boundary support is tiny on tested boundary-style rows:
+   `B_line=0` for `n=16,32,64,128,512,1024`, and `B_line=48` at the nonzero
+   guardrail row `n=256,p=65537`.
 
 ### Refuted shortcuts
 
@@ -178,6 +184,8 @@ elapsed=1.34 maxrss=49904
 5. Characteristic-zero rank fullness is not enough by itself; rank-good minors
    must remain nonzero over the actual finite row field.
 6. h=8 exponent-unit maps and dihedral reflection are not x83 symmetries.
+7. The h=3 repeat-boundary support is not identically zero on boundary-style
+   rows: `n=256,p=65537` has `B_line=48`.
 
 ## Residual gap statement
 
