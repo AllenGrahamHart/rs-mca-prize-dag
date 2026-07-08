@@ -5896,3 +5896,47 @@ H3_REPEAT_SAME_LAMBDA_COLLISION_SYSTEM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=20.81 maxrss=50160
 ```
+
+## T2/T3 h=3 repeat loose six-point system
+
+Stage selected: turn the loose pair-graph triangle into an explicit six-point
+additive system.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SIX_POINT_SYSTEM.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_six_point_system.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_six_point_system.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_SIX_POINT_SYSTEM_PASS
+```
+
+Result: a genuine loose obstruction is exactly a solution of
+
+```text
+r,s,t,-(r+s),-(r+t),-(s+t) in S
+Lambda(r,s), Lambda(r,t), Lambda(s,t) in H
+r+s+t != 0.
+```
+
+The six reciprocal points are distinct and form the three zero-sum active
+edges with empty total intersection.  Boundary guardrails have no such system;
+the contrast row has two.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_SIX_POINT_SYSTEM_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=17.96 maxrss=50036
+```

@@ -227,6 +227,11 @@ COMMANDS = [
         "f3_h3_repeat_loose_pair_membership_compiler.py",
         "H3_REPEAT_LOOSE_PAIR_MEMBERSHIP_COMPILER_PASS",
     ),
+    (
+        "h3 repeat loose six-point system",
+        "f3_h3_repeat_loose_six_point_system.py",
+        "H3_REPEAT_LOOSE_SIX_POINT_SYSTEM_PASS",
+    ),
 ]
 
 

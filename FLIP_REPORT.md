@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=20.81 maxrss=50160
+elapsed=17.96 maxrss=50036
 ```
 
 ## Confidence-ranked claims
@@ -179,7 +179,10 @@ elapsed=20.81 maxrss=50160
    target is therefore equivalent to: every triangle in this reciprocal
    active-pair graph has `r+s+t=0`.  The active-pair graph itself is the
    explicit four-membership condition
-   `1+1/r, 1+1/s, 1-1/(r+s), 1+1/r+1/s-1/(r+s) in H`.
+   `1+1/r, 1+1/s, 1-1/(r+s), 1+1/r+1/s-1/(r+s) in H`.  A genuine loose
+   triangle is equivalently a six-point system
+   `r,s,t,-(r+s),-(r+t),-(s+t) in S`, with three lambda tests and
+   `r+s+t != 0`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

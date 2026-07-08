@@ -825,6 +825,19 @@ memberships, with `U,V in H` automatic from `r,s in S` and the non-pole
 distinctness exclusions enforced.  Thus the loose target is an explicit
 four-membership triangle theorem on the reciprocal pair graph.
 
+The loose six-point system compiler spells out the genuine obstruction.  A
+loose triangle is exactly a solution with
+
+```text
+r,s,t,-(r+s),-(r+t),-(s+t) in S,
+Lambda(r,s), Lambda(r,t), Lambda(s,t) in H,
+r+s+t != 0.
+```
+
+In that case the six reciprocal points are distinct and form three zero-sum
+active edges whose pairwise intersections are the core vertices `r,s,t` and
+whose total intersection is empty.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -853,7 +866,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `20.81s` locally and ends with
+It runs in about `17.96s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
