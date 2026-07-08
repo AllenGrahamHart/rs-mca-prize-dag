@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=41.74 maxrss=53260
+elapsed=43.19 maxrss=53264
 ```
 
 ## Confidence-ranked claims
@@ -225,7 +225,9 @@ elapsed=41.74 maxrss=53260
    The refined assembly expands the two disjoint-edge gates into
    `H3-VALUE-GEN-INJECTIVE`, `H3-VALUE-SCALE-INJECTIVE`, `H3-SLOPE-GG-HIT`,
    and `H3-SLOPE-MIXED-HIT`, while keeping the scale-pair and loose-secondary
-   payments separate from the strict `tau_coord<=1` route.
+   payments separate from the strict `tau_coord<=1` route.  The frontier
+   ledger now replays these seven strict branch gates plus the paid ledgers as
+   one consistency checkpoint.
    The same-lambda orbit-domain and degree compilers now give the
    `H3-VALUE-INJECTIVE` collision budgets: generic `S_total=14` plus
    off-orbit product total degree `10`, and lambda-one scale `S_total=6` plus

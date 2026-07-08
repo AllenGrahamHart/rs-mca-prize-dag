@@ -353,6 +353,11 @@ COMMANDS = [
         "H3_REPEAT_STAR_REFINED_ASSEMBLY_PASS",
     ),
     (
+        "h3 repeat frontier ledger",
+        "f3_h3_repeat_frontier_ledger.py",
+        "H3_REPEAT_FRONTIER_LEDGER_PASS",
+    ),
+    (
         "h3 repeat loose slope-multiplicity ledger",
         "f3_h3_repeat_loose_slope_multiplicity.py",
         "H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY_PASS",

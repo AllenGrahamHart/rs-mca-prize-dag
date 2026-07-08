@@ -7041,3 +7041,52 @@ H3_REPEAT_STAR_REFINED_ASSEMBLY_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=41.74 maxrss=53260
 ```
+
+## T2/T3 h=3 repeat frontier ledger
+
+Stage selected: create a replayed single-source ledger for the current
+branch-level h=3 repeat-boundary frontier.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FRONTIER_LEDGER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_FRONTIER_LEDGER_PASS
+```
+
+Result: the ledger imports the same-lambda, slope, loose degree, loose
+rank-minor, and paid-ledger compilers and verifies the current strict branch
+frontier:
+
+```text
+H3-VALUE-GEN-INJECTIVE:   S_total=14, extra=10,
+H3-VALUE-SCALE-INJECTIVE: S_total=6,  extra=3,
+H3-SLOPE-GG-HIT:          S_total=14, extra=41,
+H3-SLOPE-MIXED-HIT:       S_total=10, extra=27,
+LOOSE-GEN-RANK/NV:        S_total=15,
+LOOSE-A-RANK/NV:          S_total=22,
+LOOSE-B-RANK/NV:          S_total=24.
+```
+
+It also replays the sample loose rank-minor degrees and the first-official
+paid ledgers: scale pairs `<=3725085`, loose secondary `<=434176`.
+
+Focused replay:
+
+```text
+H3_REPEAT_FRONTIER_LEDGER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=43.19 maxrss=53264
+```

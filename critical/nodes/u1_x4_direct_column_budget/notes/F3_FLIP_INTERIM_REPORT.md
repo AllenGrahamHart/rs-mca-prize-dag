@@ -1040,6 +1040,8 @@ H3-SLOPE-MIXED-HIT.
 
 It keeps the `lambda=1` scale-pair count and the loose-secondary `53n` payment
 as separate count-route ledgers, not as premises for `tau_coord<=1`.
+The frontier ledger replays the current seven strict branch gates, the loose
+rank-minor sample degrees, and the paid ledgers in one consistency checkpoint.
 
 For the first of those gates, the orbit-domain compiler gives the explicit
 off-orbit exclusions and the same-lambda degree compiler gives the raw
@@ -1101,7 +1103,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `41.74s` locally and ends with
+It runs in about `43.19s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
