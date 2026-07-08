@@ -6362,3 +6362,50 @@ H3_REPEAT_LOOSE_BRANCH_SLOPE_MAPS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=37.09 maxrss=52836
 ```
+
+## T2/T3 h=3 repeat loose branch degree compiler
+
+Stage selected: compile denominator-clearing degree budgets for the two special
+branch membership maps `1+c_i(a)X`.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_BRANCH_DEGREE_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_degree_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_degree_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_BRANCH_DEGREE_COMPILER_PASS
+```
+
+Result: writing `1+c_i(a)X=P_i(a,X)/Q_i(a)`, branch A has aggregate degree
+budgets `S_a=17`, `S_total=22`; branch B has `S_a=19`, `S_total=24`.  For an
+auxiliary with `deg_a<A`, `deg_X<C`, `deg_Y<B` and subgroup order `n`, the
+cleared branch polynomial has
+
+```text
+deg_a     <= A-1+n(B-1)S_a,
+deg_X     <= C-1+8n(B-1),
+total_deg <= A+C-2+n(B-1)S_total.
+```
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_BRANCH_DEGREE_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=56.89 maxrss=52728
+```
+
+The focused replay remains under one minute but is now close to that boundary;
+future additions to this harness should replace or optimize existing symbolic
+loose-branch checks rather than growing it blindly.

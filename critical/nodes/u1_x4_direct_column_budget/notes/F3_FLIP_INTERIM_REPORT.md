@@ -920,7 +920,23 @@ branch B: eight slopes, max rational degree 6.
 ```
 
 Thus the special branches are one-parameter rational slope families, but they
-do not reduce to the original degree-2 rich-curve template.
+do not reduce to the original degree-2 rich-curve template.  The branch degree
+compiler translates the actual membership maps `1+c_i(a)X=P_i(a,X)/Q_i(a)`
+into denominator-clearing budgets:
+
+```text
+branch A: S_a=17, S_total=22,
+branch B: S_a=19, S_total=24.
+```
+
+For an auxiliary with `deg_a<A`, `deg_X<C`, `deg_Y<B` and subgroup order `n`,
+the cleared special-branch polynomial has
+
+```text
+deg_a     <= A-1+n(B-1)S_a,
+deg_X     <= C-1+8n(B-1),
+total_deg <= A+C-2+n(B-1)S_total.
+```
 
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
@@ -950,7 +966,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `37.09s` locally and ends with
+It runs in about `56.89s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
