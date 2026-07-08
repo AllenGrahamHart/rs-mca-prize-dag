@@ -6281,3 +6281,46 @@ H3_REPEAT_LOOSE_COLLISION_BRANCH_PARAMETRIZATION_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=33.68 maxrss=52068
 ```
+
+## T2/T3 h=3 repeat loose case-split interface
+
+Stage selected: compose the loose distinctness, collision, orbit, and branch
+parametrization packets into the exact counting interface.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_CASE_SPLIT_INTERFACE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_case_split_interface.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_case_split_interface.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_CASE_SPLIT_INTERFACE_PASS
+```
+
+Result: the loose affine-line target is now organized as:
+
+```text
+generic:  nine distinct slopes;
+branch A: b = a(a+1)/(a^2+a+1);
+branch B: b = -(2a^2+2a+1)/(a^2+a+1).
+```
+
+Secondary subcells are exactly the one-variable pullbacks already emitted by
+the branch-parametrization compiler.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_CASE_SPLIT_INTERFACE_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=33.63 maxrss=52156
+```

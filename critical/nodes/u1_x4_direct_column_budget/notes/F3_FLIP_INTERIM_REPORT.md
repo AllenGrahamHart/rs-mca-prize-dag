@@ -910,7 +910,8 @@ branch B: b = -(2a^2+2a+1)/(a^2+a+1).
 Thus the target should be phrased using the distinct slope set `C(a,b)`, not a
 fixed assumption of nine distinct conditions; after `S_3` quotienting, the
 special multiplicity analysis is two one-parameter families plus their
-one-variable secondary subcells.
+one-variable secondary subcells.  The case-split interface records this as
+three counting targets: generic nine-slope systems, branch A, and branch B.
 
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
@@ -940,7 +941,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `33.68s` locally and ends with
+It runs in about `33.63s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

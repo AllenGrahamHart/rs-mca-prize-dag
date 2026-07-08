@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=33.68 maxrss=52068
+elapsed=33.63 maxrss=52156
 ```
 
 ## Confidence-ranked claims
@@ -195,8 +195,10 @@ elapsed=33.68 maxrss=52068
    collisions on nine explicit divisors, which quotient to two special
    normalized `S_3` branch types.  These branch types have one-parameter
    forms `b=a(a+1)/(a^2+a+1)` and
-   `b=-(2a^2+2a+1)/(a^2+a+1)`.  Non-poles alone are not enough for the
-   coordinate claim; the proof uses distinctness of the six reciprocal points.
+   `b=-(2a^2+2a+1)/(a^2+a+1)`.  The current loose-triangle interface is
+   therefore a generic nine-slope target plus these two special branch targets.
+   Non-poles alone are not enough for the coordinate claim; the proof uses
+   distinctness of the six reciprocal points.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

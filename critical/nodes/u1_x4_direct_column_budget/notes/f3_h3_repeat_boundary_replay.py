@@ -268,6 +268,11 @@ COMMANDS = [
         "H3_REPEAT_LOOSE_COLLISION_BRANCH_PARAMETRIZATION_PASS",
     ),
     (
+        "h3 repeat loose case-split interface",
+        "f3_h3_repeat_loose_case_split_interface.py",
+        "H3_REPEAT_LOOSE_CASE_SPLIT_INTERFACE_PASS",
+    ),
+    (
         "h3 repeat loose slope-multiplicity ledger",
         "f3_h3_repeat_loose_slope_multiplicity.py",
         "H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY_PASS",
