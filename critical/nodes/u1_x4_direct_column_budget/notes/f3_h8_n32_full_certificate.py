@@ -30,6 +30,7 @@ using u128 = unsigned __int128;
 static constexpr int N = 32;
 static constexpr int H = 8;
 static constexpr int P = 1153;
+static constexpr int BITS = 32 - __builtin_clz(P - 1);
 
 struct Record {
     u128 key;
@@ -90,7 +91,7 @@ static Sig signature(const std::vector<int>& exps, const std::array<int, N>& roo
     }
     u128 key = 0;
     for (int j = 1; j < H; ++j) {
-        key = (key << 11) | u128(e[j]);
+        key = (key << BITS) | u128(e[j]);
     }
     return Sig{key, uint16_t(e[H])};
 }

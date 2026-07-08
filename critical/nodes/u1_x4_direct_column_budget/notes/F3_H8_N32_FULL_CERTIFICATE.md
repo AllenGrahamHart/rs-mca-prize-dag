@@ -76,3 +76,16 @@ The replay writes:
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_full_certificate.json
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_multirow_certificate.json
 ```
+
+## Catch
+
+The first compiled replay packed signature coordinates with a fixed 11-bit
+shift.  That is safe for `p=1153` but not for larger primes.  The committed
+script now uses
+
+```text
+BITS = ceil(log2 p)
+```
+
+inside the generated C++ key.  The multirow JSON was regenerated after this
+fix and the counts above are from the corrected replay.

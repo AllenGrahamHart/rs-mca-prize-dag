@@ -1922,6 +1922,11 @@ anchored left subsets and `169911` right subsets, with zero anchored nontoral
 trades.  This strengthens the h=5 certificate evidence but does not promote the
 uniform h=5 no-primitive theorem.
 
+Catch update: the compiled h=8/h=5 certificate scripts initially used a fixed
+11-bit signature packing shift, unsafe above `p=2048`.  The committed scripts
+now use `BITS=ceil(log2 p)` and the multirow JSON artifacts were regenerated;
+the certified counts remain unchanged.
+
 Bonus queue update: item (ii) has a replayed h=6/7/8 sweep status note.  It
 verifies 11 full h=6/h=7 q>=n^2 rows with zero anchored nontoral trades and no
 n^3 alarm.  The three h=8 rows are explicitly partial zero slices, so h=8 still

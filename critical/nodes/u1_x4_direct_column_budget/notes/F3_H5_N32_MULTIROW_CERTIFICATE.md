@@ -58,3 +58,14 @@ The replay writes:
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.json
 ```
 
+## Catch
+
+The companion h=8 verifier caught a signature-key packing issue: a fixed
+11-bit shift is unsafe for primes larger than `2048`.  This h=5 verifier uses
+the corrected generated-C++ rule
+
+```text
+BITS = ceil(log2 p).
+```
+
+The JSON certificate was generated after the fix.

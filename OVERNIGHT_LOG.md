@@ -4659,6 +4659,12 @@ Result: for `n=32,h=5` and
 anchored nontoral trades.  This strengthens the h=5 no-primitive evidence but
 does not prove the uniform theorem.
 
+Catch banked: while preparing larger compiled certificates, the fixed-width
+signature key was found to use an unsafe 11-bit shift for primes above `2048`.
+The h=8 and h=5 compiled replays now use `BITS=ceil(log2 p)` in generated C++.
+Both multirow JSON artifacts were regenerated after the fix; the replay counts
+are unchanged.
+
 ## 2026-07-08 Bonus queue: h=6/7/8 sweep status
 
 Stage: bonus item (ii), h=6/7/8 ladder sweep.
