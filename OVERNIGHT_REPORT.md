@@ -1960,3 +1960,12 @@ left subsets and `57940519` right subsets, finds zero anchored nontoral trades,
 and stays within the local light-compute rule (`48.70s`, about `152 MB` RSS).
 This is the largest complete h=5 row banked so far; it remains finite evidence,
 not a proof of the uniform h=5 theorem.
+
+Continuation h=5 Modal update: the boundary row `n=128,h=5,p=17921` now has a
+complete 32-shard Modal certificate.  The heaviest shard gate passed in
+`15.051s`; the full replay checked `254231775` right subsets with `10334625`
+anchored left subsets per shard, finding zero anchored toral trades, zero
+anchored nontoral trades, and no `n^3` alarm.  Max shard elapsed time was
+`17.488s`.  The aggregate h4/h5 replay verifies the pinned JSON without
+rerunning Modal.  A small catch was banked: Modal remote imports broke
+`Path(__file__)`-based root detection, so the script now uses `F3_PRIZE_ROOT`.

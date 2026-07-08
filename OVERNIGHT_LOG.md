@@ -4820,3 +4820,47 @@ anchored nontoral trades and no `n^3` alarm.  The replay stayed inside the
 60-second local cap (`48.70s`) with peak RSS about `152 MB`.  This is the
 largest h=5 complete finite-row certificate banked so far; no uniform theorem
 is claimed.
+
+## 2026-07-08 Bonus queue continuation: h=5 n=128 Modal boundary certificate
+
+Stage: bonus item (i), h=4/h=5 emptiness evidence extension.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N128_BOUNDARY_MODAL.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_modal.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_gate.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_certificate.json
+```
+
+Replay:
+
+```bash
+F3_H5_N128_MODE=gate ~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_modal.py
+F3_H5_N128_MODE=full ~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_modal.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+```
+
+Digests:
+
+```text
+H5_N128_BOUNDARY_GATE_PASS
+H5_N128_BOUNDARY_CERTIFICATE_PASS
+H4_H5_BONUS_REDUCTION_PASS
+```
+
+Result: complete Modal-sharded anchored certificate at
+`n=128,h=5,p=17921`.  The heaviest-shard gate checked `13643876` right
+subsets in `15.051s` with zero anchored nontoral trades.  The full 32-shard
+replay checked `254231775` right subsets, with `10334625` anchored left
+subsets per shard, zero anchored toral trades, zero anchored nontoral trades,
+and no `n^3` alarm.  Max shard elapsed time was `17.488s`.  This extends the
+h=5 finite-row zero evidence to n=128; no uniform h=5 theorem is claimed.
+
+Catch banked: the first Modal attempt failed before computation because remote
+imports mount the script at `/root`, invalidating `Path(__file__).parents[4]`.
+The script now anchors local output through `F3_PRIZE_ROOT` and remote
+computation no longer depends on the worktree path.

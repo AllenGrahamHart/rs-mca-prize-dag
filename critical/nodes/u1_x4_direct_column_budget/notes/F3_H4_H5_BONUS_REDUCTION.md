@@ -77,6 +77,8 @@ certificate give:
   `p in {4289,12289,40961,65537,262337}`;
 - the compiled n=96 h=5 boundary replay gives a complete zero anchored
   nontoral certificate at `p=9601`;
+- the Modal-sharded n=128 h=5 boundary replay gives a complete zero anchored
+  nontoral certificate at `p=17921`;
 - M720 separately replays the low-row h=5 gate `full_census(32,5,97)=96`,
   all non-toral, below the q >= n^2 regime.
 
@@ -113,6 +115,8 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n96_boundary_certificate.py
+F3_H5_N128_MODE=full ~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_modal.py
 ```
 
 Expected digest:
@@ -122,4 +126,8 @@ H4_H5_BONUS_REDUCTION_PASS
 H5_N32_MULTIROW_CERTIFICATE_PASS
 H5_N64_MULTIROW_CERTIFICATE_PASS
 H5_N96_BOUNDARY_CERTIFICATE_PASS
+H5_N128_BOUNDARY_CERTIFICATE_PASS
 ```
+
+The aggregate replay `f3_h4_h5_bonus_replay.py` verifies the pinned n=128 JSON
+without rerunning Modal.
