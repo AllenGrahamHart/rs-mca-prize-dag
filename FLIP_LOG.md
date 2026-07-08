@@ -176,3 +176,40 @@ degenerations, and any curve where membership conditions differ only by
 
 Next step: formulate the repaired rich-curve Stepanov target with these
 degenerate cells removed, then attack the reduced-condition nonvanishing lemma.
+
+## T1 guard: constant-ratio degeneracy filter
+
+Stage selected: operationalize the first repaired-T1 exclusion.  This filter
+does not enumerate every F3 signature-curve degeneration; it cheaply detects
+the constant-ratio cases that collapse repeated `H`-membership conditions or
+make two conditions incompatible.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DEGENERACY_FILTER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_filter.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_filter.py
+```
+
+Digest:
+
+```text
+H3_RICH_CURVE_DEGENERACY_FILTER_PASS
+```
+
+Result: for rational maps `r_i=P_i/Q_i`, the script exactly tests whether
+`r_i/r_j=lambda` in `F_p(X)`.  If `lambda in H`, the two conditions are
+collapsed; if `lambda notin H`, they are incompatible.  The replay verifies
+collapsed linear maps (`T=h`), incompatible linear maps (`T=0`), shifted
+nonconstant-ratio maps, and a collapsed Mobius example (`T=h-1` because one
+subgroup value maps to the pole).
+
+Next step: use this guard while formulating the genuine noncollapsed
+rich-curve target; the toral and `3 | q-1` hyperbola-line cells still need the
+signature-geometry-specific classifier.
