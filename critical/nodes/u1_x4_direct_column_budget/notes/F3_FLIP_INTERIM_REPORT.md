@@ -85,6 +85,21 @@ The finite-field rank sample supports this target without proving it.  At
 `50 < 78` and fails `RC-RANK`, while a deterministic repaired random degree-2
 curve has full coefficient rank `320 > 78`.
 
+The rank-form parameter compiler gives the current conditional constants for
+representative repaired curve-family sizes.  Under `RC-RANK`, the diagonal
+`A=D` boxes give, for example:
+
+```text
+n=2^23, |Z|=64:   sum_z T(z) <= 65,729,374  (about 7.84 n)
+n=2^32, |Z|=128:  sum_z T(z) <= 6,380,025,160 (about 1.49 n)
+n=2^41, |Z|=256:  sum_z T(z) <= 619,017,527,995 (about 0.282 n)
+n=2^41, |Z|=512:  sum_z T(z) <= 1,422,138,529,491 (about 0.647 n)
+```
+
+This is arithmetic slack for high rows, not `H3-ACT(C)`: the missing pieces are
+still the rank theorem and the F3 geometric batching/charging from activated
+shape pairs to repaired curve families.
+
 ### h=4
 
 The structural dichotomy is already proved in the DAG:

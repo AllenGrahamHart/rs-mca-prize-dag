@@ -69,6 +69,14 @@ COMMANDS = [
         "H3_RICH_CURVE_RANK_SAMPLE_PASS",
     ),
     (
+        "h3 rank-form parameter compiler",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_parameter_compiler.py",
+        ],
+        "H3_RANK_PARAMETER_COMPILER_PASS",
+    ),
+    (
         "h3 activation-bound compiler",
         [
             sys.executable,

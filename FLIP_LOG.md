@@ -718,3 +718,37 @@ Result: in the toy row `p=769, h=32, A=5, B=4, D=1`, the condition count is
 curve has full coefficient rank `320` and passes.  This is sample evidence
 only, but it checks that `RC-RANK` is aimed at the same degeneracy geometry as
 the previous filters.
+
+## T1/T3 h=3 rank-form parameter compiler
+
+Stage selected: compile the current diagonal Stepanov parameter boxes under
+the rank-form nonvanishing assumption.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RANK_PARAMETER_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_parameter_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_parameter_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H3_RANK_PARAMETER_COMPILER_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: assuming `RC-RANK`, the exact diagonal-box compiler verifies
+`conditions < coeffs` and `conditions < image_cap` for representative rows and
+prints the conditional bound `sum_z T(z) <= |Z|L/D`.  The high official rows
+have real arithmetic slack: for `n=2^41`, the table gives `0.282n` at
+`|Z|=256` and `0.647n` at `|Z|=512`.  This does not prove `H3-ACT(C)`; the
+remaining missing ingredients are the actual rank theorem and the geometric
+batching/charging map from h=3 activated shapes to repaired curve families.
