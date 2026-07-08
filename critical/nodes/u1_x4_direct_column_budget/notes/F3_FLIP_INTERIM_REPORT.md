@@ -1372,6 +1372,10 @@ The degree guard then checks why this does not literally hit the official
 private-linear compiler boxes: the two-factor resultant relation has bidegree
 `(H,H)`, while every official private-linear passing and next-failure witness
 has `B-1 < H=n`; the smallest margin is `8128`.
+The official separation guard strengthens the compiler-side hypothesis:
+for every official private-linear passing witness, `max(A,D,B-1)<H`, with
+minimum margin `7904`; the stored next-failure witnesses have margin at least
+`7911`.
 
 The bad-prime guardrail prevents a second overstatement.  In a three-factor
 private-linear model with `A=1,B=5,H=9`, the integer coefficient matrix has

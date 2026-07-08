@@ -34,7 +34,8 @@ H3-BRIDGE-RANKCAP: OPEN
 
 F3-PRIVATE-LINEAR-RANK-AVOID: OPEN/ALTERNATE
   The retuned private-linear arithmetic covers s=13..41 with
-  Z_private=23..15267.
+  Z_private=23..15267.  Every official private-linear passing witness has
+  max(A,D,B-1)<H with margin at least 7904.
   Residual: prove finite-row minor nonvanishing on the private-linear
   three-parameter normal-form image, plus the matching private-linear bridge.
 

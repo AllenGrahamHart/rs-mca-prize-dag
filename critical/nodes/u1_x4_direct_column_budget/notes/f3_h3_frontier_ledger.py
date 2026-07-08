@@ -21,6 +21,9 @@ from f3_h3_l2_levelset_bridge_compiler import (
 from f3_h3_nondiagonal_highrow_budget import EXPECTED_ROWS as HIGH_ROWS
 from f3_h3_nondiagonal_lowrow_budget import EXPECTED_ROWS as LOW_ROWS
 from f3_h3_private_linear_lowrow_budget import EXPECTED_ROWS as PRIVATE_ROWS
+from f3_h3_private_linear_official_separation_guard import (
+    separation_summary as private_separation_summary,
+)
 from f3_h3_rank_effective_bridge import EXPECTED_CAPACITIES, PINNED_RANKS, rank_capacity
 from f3_h3_repeat_frontier_ledger import strict_frontier_gates
 
@@ -70,6 +73,7 @@ def official_budget_summary() -> dict[str, int]:
         "z_budget_max": max(row.z for row in rows),
         "z_private_min": min(row.z for row in private),
         "z_private_max": max(row.z for row in private),
+        "private_separation_margin": private_separation_summary()["min_pass_margin"],
     }
 
 
@@ -157,7 +161,8 @@ def frontier_gates(
             "OPEN/ALTERNATE",
             (
                 f"private-linear budgets cover s={budgets['first_s']}..{budgets['last_s']} "
-                f"with Z={budgets['z_private_min']}..{budgets['z_private_max']}"
+                f"with Z={budgets['z_private_min']}..{budgets['z_private_max']}; "
+                f"official separation margin={budgets['private_separation_margin']}"
             ),
             "prove finite-row minor nonvanishing on the three-parameter private-linear normal-form image, plus the matching bridge",
         ),
@@ -188,7 +193,8 @@ def main() -> None:
     print(
         "official rank-capacity budgets: "
         f"Z_budget={budgets['z_budget_min']}..{budgets['z_budget_max']} "
-        f"Z_private={budgets['z_private_min']}..{budgets['z_private_max']}"
+        f"Z_private={budgets['z_private_min']}..{budgets['z_private_max']} "
+        f"private_sep_margin={budgets['private_separation_margin']}"
     )
     print(
         "rank-effective capacities: "
