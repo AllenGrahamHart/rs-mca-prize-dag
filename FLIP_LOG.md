@@ -3087,3 +3087,73 @@ slice only: it does not prove private-linear rank, it does not cover `s>=33`,
 and it does not prove the geometric bridge.  Standalone replay passes in
 `0.65s` locally (`maxrss=13184`).  The default aggregate replay passes with
 this packet included in `39.37s` locally (`maxrss=98684`).
+
+## T1/T4 continuation: official-row interfaces and guardrails
+
+Stage selected: keep pushing toward the F3 flip while preserving honest
+blockers.  The latest work tightens the h=3 rank theorem statement, clarifies
+the h=5 certificate route, and makes h=8 support-orbit certification safer.
+
+New h=3 packets:
+
+```text
+F3_H3_PRIVATE_LINEAR_ONE_FACTOR_RANK.md
+F3_H3_PRIVATE_LINEAR_TWO_FACTOR_GUARDRAIL.md
+F3_H3_PRIVATE_LINEAR_BAD_PRIME_GUARDRAIL.md
+F3_H3_PRIVATE_LINEAR_LOWROW_BUDGET.md
+F3_H3_RANK_AVOID_INTERFACE.md
+```
+
+Results:
+
+- the private-linear arithmetic compiler now covers every official row
+  `s=13..41`, with `Z_private(13)=23` and `Z_private(41)=15267`;
+- one private-linear factor has the expected rank
+  `min(AB,A+H(B-1))`;
+- naive two-factor induction is false over Q at `A=1,B=3,H=2`;
+- characteristic-zero private-linear fullness is not enough by itself:
+  a three-factor matrix has full rank `109` over Q but drops to rank `108`
+  modulo `1009`;
+- the h=3 rank-avoidance interface now explicitly requires finite-row minor
+  nonvanishing over the actual row field.
+
+New h=5 packet:
+
+```text
+F3_H5_CERTIFICATE_SCALING_FRONTIER.md
+```
+
+Result: the current h=5 MITM certificate format is not a clean uniform route.
+At n=256, the left table is `binom(255,4)=172,061,505` records, at least
+`5.13 GiB` before metadata, and at n=512 the right side needs about `35,836`
+shards at the n=128 right-probe rate.  This points back to a symbolic norm-gate
+theorem or a redesigned certificate join.
+
+New h=8 packets:
+
+```text
+F3_H8_LOCATOR_PARITY_ANTIPODAL.md
+F3_H8_X83_SPLIT_ROTATION_EQUIVARIANCE.md
+```
+
+Results:
+
+- a 16-support in `mu_64` is antipodal iff its locator is even, so the paid
+  quotient branch has a coefficient-level detector;
+- the x83 `S_R +/- alpha` split commutes with root-scaling rotations up to side
+  swap, so future orbit-level certifiers can rotate recovered splits safely.
+
+Current default replay:
+
+```text
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+elapsed=45.78 maxrss=98808
+```
+
+Remaining blockers are unchanged in kind:
+
+```text
+h=3: finite-row rank/minor avoidance plus geometric bridge;
+h=5: uniform p-specific norm-gate exclusion or redesigned certificates;
+h=8: non-antipodal n=64 x83 support certification or external/sharded join.
+```
