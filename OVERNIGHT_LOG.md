@@ -251,3 +251,38 @@ Digest: `H3_AFFINE_CENSUS_FEASIBILITY_DONE`.
 Interpretation: the full Terminal C output must be a rate plus exceptional list.
 The zero-exception common-root form is false on deterministic reps, but this is
 exactly the kind of exceptional-list datum Terminal C asked for.
+
+## 2026-07-08 Terminal C consecutive-core complete census
+
+Stage: Terminal C, complete structural subfamily census.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_CENSUS.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_census_modal.py
+```
+
+Replay:
+
+```bash
+~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_census_modal.py
+```
+
+Modal run:
+
+```text
+https://modal.com/apps/allengrahamhart/main/ap-kXLMPfgavdlZF0IQFI2wXg
+```
+
+Result: complete scan of `A=[0,1,2]`, all `B` disjoint triples:
+
+```text
+TOTAL shapes=129766 norm_exceptions=1122 activation_exceptions=44
+H3_CONSECUTIVE_CORE_CENSUS_DONE
+```
+
+Rates: rational norm exception `0.8646%`; actual common-root activation
+`0.0339%`.  The full 44-shape activation list is banked in the node note.
+Structural signal: many exceptions cluster around `[0,1,2 | 17,*,81]` and
+reflected/48-shift tail patterns, with sporadic high-prime activations.

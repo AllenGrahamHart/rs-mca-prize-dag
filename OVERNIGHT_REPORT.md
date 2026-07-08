@@ -23,7 +23,9 @@ random normalized shapes.  A 64-prime activation ladder finds 71 activated
 shape orbits and zero repeated shapes.  The full all-shapes `n=96` census has
 now been sized exactly: `3,135,641` affine/Galois orbit representatives.  A
 deterministic affine-representative feasibility slice found the first two
-common-root activation exceptions for the eventual exceptional list.
+common-root activation exceptions for the eventual exceptional list.  A complete
+consecutive-core subfamily census gives the first exact activation rate:
+`44/129766`.
 
 ## Claims
 
@@ -324,6 +326,43 @@ common-root activation exceptions for the eventual exceptional list.
    exceptions.  The full deliverable is an empirical activation rate and
    exceptional list over the `3,135,641` affine/Galois representatives.
 
+11. **MACHINE-VERIFIED SUBFAMILY CENSUS:** complete consecutive-core slice.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_CENSUS.md
+   ```
+
+   Script:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_census_modal.py
+   ```
+
+   Replay:
+
+   ```bash
+   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_census_modal.py
+   ```
+
+   Modal run:
+
+   ```text
+   https://modal.com/apps/allengrahamhart/main/ap-kXLMPfgavdlZF0IQFI2wXg
+   ```
+
+   Result:
+
+   ```text
+   TOTAL shapes=129766 norm_exceptions=1122 activation_exceptions=44
+   H3_CONSECUTIVE_CORE_CENSUS_DONE
+   ```
+
+   This completely scans the oriented slice `A=[0,1,2]`, `B` any disjoint
+   triple.  Rates: rational norm exception `0.8646%`; actual common-root
+   activation `0.0339%`.  The full 44-shape activation list is in the note.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -350,6 +389,10 @@ common-root activation exceptions for the eventual exceptional list.
   activations.  This corrects the overly optimistic zero-exception
   common-root phrasing; Terminal C is now an exceptional-list/rate census.
 
+- The consecutive-core census shows the first structural cluster:
+  `[0,1,2 | 17,*,81]` and reflected/48-shift tail patterns account for many
+  activations, but sporadic high-prime examples remain.
+
 ## Terminal Status
 
 Terminal A reached.  A1/A2 are bypassed by a direct proof stronger than the
@@ -372,5 +415,6 @@ common-root pair-coprimality, and the random exact-norm sample refines the
 statement away from rational norm gcds.  The 64-prime activation ladder gives
 stronger direct finite-field evidence.  The full `n=96` all-shapes census is
 now exactly sized at `3,135,641` affine/Galois representatives, and the first
-deterministic slice gives two exceptional-list entries.  The resultant/common-
-root pass over all representatives and final empirical rate remain open.
+deterministic slices give a 44-entry complete subfamily exceptional list.  The
+resultant/common-root pass over all representatives and final empirical rate
+remain open.
