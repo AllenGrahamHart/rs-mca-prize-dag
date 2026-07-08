@@ -851,3 +851,39 @@ Result: the constructed curve
 `p=769,h=32,A=5,B=4,D=1` is `293 < 320`.  Therefore private divisors do not
 imply full coefficient-rank injectivity.  The weaker toy rank target still
 holds (`78 < 293`), so this only refutes the overstrong proof route.
+
+## T4 h=8 support-universe compiler
+
+Stage selected: quantify the h=8 n=64 non-antipodal support target after the
+x83 support-to-trade reduction.  This is exact combinatorial bookkeeping, not a
+new search.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_SUPPORT_UNIVERSE_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_support_universe_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_support_universe_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H8_SUPPORT_UNIVERSE_COMPILER_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the anchored h=8 n=64 support universe has
+`binom(63,15) = 122,131,734,269,895` supports.  The antipodal subfamily has
+`binom(31,7) = 2,629,575`, leaving `122,131,731,640,320` anchored
+non-antipodal supports.  The seven-support paid-branch radius `<= 3` shell
+workload is `68,753,223`, about `0.562943` ppm of the non-antipodal universe.
+This pins the residual: local shell certificates are useful evidence, but h=8
+closure still needs a global x83 support-key certificate or an external/sharded
+join.

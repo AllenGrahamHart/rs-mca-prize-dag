@@ -149,6 +149,14 @@ COMMANDS = [
         "H8_RESIDUAL_FRONTIER_AUDIT_PASS",
     ),
     (
+        "h8 support universe compiler",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_support_universe_compiler.py",
+        ],
+        "H8_SUPPORT_UNIVERSE_COMPILER_PASS",
+    ),
+    (
         "h8 support-certifier reduction",
         [
             sys.executable,

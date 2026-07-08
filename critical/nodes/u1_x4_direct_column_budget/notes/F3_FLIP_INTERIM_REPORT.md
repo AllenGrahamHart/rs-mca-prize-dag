@@ -183,6 +183,30 @@ The x83 radius-three shells at `p=4289` and `p=262337` are complete and have
 `full_zero = 0`.  The support-to-trade reduction is proved on banked rows: a
 support-level x83 certificate is enough to recover the trade split.
 
+The remaining support universe is now exactly compiled.  Anchored 16-supports
+with exponent `0` have size
+
+```text
+binom(63,15) = 122,131,734,269,895.
+```
+
+After removing antipodal supports
+
+```text
+binom(31,7) = 2,629,575,
+```
+
+the anchored non-antipodal residual contains
+
+```text
+122,131,731,640,320
+```
+
+supports.  The seven-support paid-branch radius `<= 3` shell workload is only
+`68,753,223`, about `0.562943` parts per million of that non-antipodal universe.
+Thus the radius-three certificates are strong local evidence around the paid
+branch, but not a substitute for a global support-level x83 certifier.
+
 The honest h=8 residual is:
 
 ```text
