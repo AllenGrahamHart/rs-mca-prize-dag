@@ -53,6 +53,14 @@ COMMANDS = [
         "H3_ACTIVATION_BOUND_COMPILER_PASS",
     ),
     (
+        "h3 activation orbit dedup",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_orbit_dedup.py",
+        ],
+        "H3_ACTIVATION_ORBIT_DEDUP_PASS",
+    ),
+    (
         "h5 structural reduction",
         [
             sys.executable,

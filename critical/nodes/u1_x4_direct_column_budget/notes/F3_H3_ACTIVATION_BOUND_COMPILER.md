@@ -55,20 +55,28 @@ existing direct small-row gates.
 
 ## Banked n=96 evidence
 
-The complete all-core Terminal C aggregate is not Burnside-deduplicated, so it
-is evidence rather than an exact normalized orbit table.  It is still useful at
-the correct per-row level:
+The complete all-core Terminal C aggregate is not Burnside-deduplicated, so the
+raw oriented count is evidence rather than an exact normalized orbit table.  It
+is still useful at the correct per-row level:
 
 ```text
 total oriented activations: 720 / 11808706
 maximum oriented activation count at one prime: 92
 ```
 
+The follow-up deduplication `F3_H3_ACTIVATION_ORBIT_DEDUP.md` reduces the same
+activation list to:
+
+```text
+unique affine/Galois pair-orbits: 167
+maximum deduped per-prime activation count: 27
+repeated canonical orbits across threshold primes: 0
+```
+
 The maximum occurs at one threshold prime in the `n=96` aggregate and is below
-`n`.  Since deduplication can only reduce the oriented count if the all-core
-coverage assumption is correct, the observed `n=96` row satisfies the `C=1`
-scale with margin.  This does not prove `H3-ACT(1)`; it identifies the exact
-object the proof or a full certificate must count.
+`n` even before deduplication, and far below `n` after deduplication.  This does
+not prove `H3-ACT(1)`; it identifies the exact object the proof or a full
+certificate must count.
 
 ## Remaining proof debt
 

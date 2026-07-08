@@ -402,6 +402,40 @@ G_F(u,v) = u^2 + uv + v^2 + a(u+v) + b = X Y - Delta
 with the explicit `omega`-coordinates printed in the note.  This does not close
 `RC-RED` or `RC-NV`; it makes the normal-form input replayable without Modal.
 
+## T2 evidence upgrade: h=3 activation orbit dedup
+
+Stage selected: perform the final affine/Galois-side-swap deduplication on the
+banked `n=96` all-core activation list.  This targets the exact object
+`H3-ACT(C)` counts: normalized activated shape orbits per prime.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_ORBIT_DEDUP.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_orbit_dedup.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_orbit_dedup.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digest:
+
+```text
+H3_ACTIVATION_ORBIT_DEDUP_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the `720` oriented activation records collapse to `167`
+affine/Galois pair-orbits over `82` threshold primes.  The maximum deduped
+per-prime activation count is `27` at `p=37633`, and no canonical orbit appears
+at two different threshold primes.  This is evidence only, but it sharpens the
+observed `n=96` scale from the raw oriented max `92 < 96` to a normalized max
+`27 < 96`.
+
 Next step: either attack `RC-RED` for the actual hyperbola normal-form curves,
 or pivot to T4(a)'s h=4 rigidity route while T1's nonvanishing gate is still
 open.

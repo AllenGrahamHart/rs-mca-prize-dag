@@ -57,8 +57,11 @@ T_3 < n^3 for every n >= 17.
 ```
 
 The `n=96` all-core aggregate has maximum oriented per-prime activation count
-`92 < 96`, which is evidence at the right scale but not a proof.  The remaining
-h=3 proof debt is exact:
+`92 < 96`.  The new orbit deduplication reduces the same banked activation list
+to `167` affine/Galois pair-orbits, with maximum per-prime deduped count
+`27 < 96` and no repeated canonical orbit across threshold primes.  This is
+evidence at the right scale but not a proof.  The remaining h=3 proof debt is
+exact:
 
 ```text
 RC-RED(C_red) + RC-NV    => rich-curve Stepanov theorem
