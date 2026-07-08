@@ -62,6 +62,11 @@ COMMANDS = [
         "f3_h3_repeat_boundary_support_compiler.py",
         "H3_REPEAT_BOUNDARY_SUPPORT_COMPILER_PASS",
     ),
+    (
+        "h3 repeat-support boundary evidence",
+        "f3_h3_repeat_support_boundary_evidence.py",
+        "H3_REPEAT_SUPPORT_BOUNDARY_EVIDENCE_PASS",
+    ),
 ]
 
 

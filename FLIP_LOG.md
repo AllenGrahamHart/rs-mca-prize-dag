@@ -4323,15 +4323,15 @@ F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 ```
 
 Result: the focused replay covers the h=2 affine coset-pair input, the h=3
-moment identity, every repeat-boundary compiler/payment/guardrail packet, and
-the combined support compiler.  It does not launch Modal and does not run the
-older 55s aggregate.
+moment identity, every repeat-boundary compiler/payment/guardrail packet, the
+combined support compiler, and the boundary-style support evidence.  It does
+not launch Modal and does not run the older 55s aggregate.
 
 Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=1.34 maxrss=49904
+elapsed=2.25 maxrss=49904
 ```
 
 ## T3 h=3 repeat-support crossover

@@ -19,7 +19,8 @@ The harness runs:
 - the fixed-fiber cap;
 - the `S_3` support symmetry;
 - the LP4 rank guardrail;
-- the combined support compiler.
+- the combined support compiler;
+- the boundary-style support evidence and zero-support falsifier.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch
 Modal.
