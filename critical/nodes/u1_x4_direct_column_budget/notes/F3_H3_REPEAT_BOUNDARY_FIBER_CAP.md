@@ -40,8 +40,8 @@ For fixed nondegenerate `r`, a line-pencil point satisfies
 ```
 
 Drop the last two conditions.  The remaining two conditions are a two-affine
-multiplicative-coset intersection.  By the coset-pair form of the optimized
-h=2 rich-coset Stepanov theorem, under
+multiplicative-coset intersection.  By
+`F3_H2_AFFINE_COSET_PAIR_STEPANOV.md`, under
 
 ```text
 n^4 < p^3,

@@ -4209,3 +4209,45 @@ p=257 n=128 genuine_support=252 s3_orbits=42
 H3_REPEAT_BOUNDARY_SUPPORT_SYMMETRY_PASS
 elapsed=0.03 maxrss=11520
 ```
+
+## h=2 affine coset-pair Stepanov corollary
+
+Stage selected: factor out the h=2 corollary used by the q0 and fiber-cap
+repeat-boundary packets.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_AFFINE_COSET_PAIR_STEPANOV.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_affine_coset_pair_stepanov.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_affine_coset_pair_stepanov.py
+```
+
+Expected digest:
+
+```text
+H2_AFFINE_COSET_PAIR_STEPANOV_PASS
+```
+
+Result: the optimized h=2 proof extends unchanged to shifted intersections of
+two affine multiplicative cosets:
+
+```text
+#{X : L_1(X) in H, L_2(X) in H} <= 66 n^(2/3)
+```
+
+under `n^4 < p^3`, provided the two affine forms are not proportional.  This
+is the input for `B_q0 <= 132 n^(2/3)` and the fixed-fiber cap
+`T_r <= 66 n^(2/3)`.
+
+Focused replay:
+
+```text
+H2_AFFINE_COSET_PAIR_STEPANOV_PASS
+elapsed=0.03 maxrss=11392
+```

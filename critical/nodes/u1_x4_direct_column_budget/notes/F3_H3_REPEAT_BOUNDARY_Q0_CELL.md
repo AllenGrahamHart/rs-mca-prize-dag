@@ -39,34 +39,10 @@ Failure criterion:
 - assume the primitive cube roots lie in `H`;
 - use a numerical row count as the proof.
 
-## Coset-Pair h=2 Corollary
+## Coset-Pair h=2 Input
 
-The proved h=2 rich-coset Stepanov theorem applies, with the same proof, to two
-arbitrary multiplicative cosets of `H`.
-
-Let `Gamma_1=a_1 H`, `Gamma_2=a_2 H`, and let `s != 0`.  Under the same
-single-shift hypothesis
-
-```text
-n^4 < p^3,
-```
-
-one has
-
-```text
-#{x in Gamma_1 : x+s in Gamma_2} <= 66 n^(2/3).
-```
-
-Reason: after scaling and translating, the points satisfy
-
-```text
-X^n = c_1,      (X-1)^n = c_2
-```
-
-for nonzero constants `c_1,c_2`.  The h=2 auxiliary
-`Phi(X,X^n,(X-1)^n)`, the logarithmic derivative conditions, the sparse
-nonvanishing lemma, and the optimized parameter choice are unchanged; only the
-constants appearing in the imposed linear conditions change.
+Use `F3_H2_AFFINE_COSET_PAIR_STEPANOV.md`: under `n^4 < p^3`, any shifted
+two-affine multiplicative-coset intersection has size at most `66 n^(2/3)`.
 
 ## q0 Cell Bound
 

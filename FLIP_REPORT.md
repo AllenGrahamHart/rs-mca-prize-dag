@@ -39,7 +39,9 @@ No Modal job is required for the aggregate replay.
 
 1. h=2 has an optimized in-house rich-coset chain with
    `E(H) <= 22111 h^(5/2)`.  This covers official powers of two from
-   `2^23` upward if used without the external Cochrane-Pinner import.
+   `2^23` upward if used without the external Cochrane-Pinner import.  The
+   same proof gives the affine coset-pair corollary used by the h=3
+   repeat-boundary q0 and fixed-fiber packets.
 2. The h=3 hyperbola normal form is replayed symbolically: for
    `F(T)=T^3+aT^2+bT+c`, the same-fiber equation becomes
    `XY = a^2/3 - b` after the explicit `omega` coordinate change.

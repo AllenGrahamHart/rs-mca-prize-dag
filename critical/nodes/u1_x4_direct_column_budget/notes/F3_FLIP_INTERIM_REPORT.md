@@ -37,6 +37,16 @@ the external import, the remaining finite midrange is exactly `2^19..2^22`;
 `2^13..2^18` are the rows estimated as feasible for exact certificates under
 the `<2000` shard policy.
 
+The affine coset-pair h=2 corollary is also banked.  The same optimized
+Stepanov proof gives, for two non-proportional affine forms,
+
+```text
+#{X : L_1(X) in H, L_2(X) in H} <= 66 n^(2/3)
+```
+
+under `n^4 < p^3`.  This is the h=2 input used below to pay the q0
+repeat-boundary cell and cap each fixed repeat-boundary line fiber.
+
 ### h=3
 
 The char-zero classification and norm-gate mechanism are banked.  The current
