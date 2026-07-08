@@ -3410,3 +3410,43 @@ elapsed=59.43 maxrss=98808
 
 Do not add more checks to the default aggregate without first slimming or
 moving an existing check to standalone replay.
+
+## T1 h=3 conic-chart ratio guard
+
+Stage selected: connect the field-rational conic chart to the existing
+constant-ratio degeneracy filter.  This narrows the repaired h=3 bridge target
+without adding another default aggregate check.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_RATIO_GUARD.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_ratio_guard.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_ratio_guard.py
+```
+
+Expected digest:
+
+```text
+H3_CONIC_CHART_RATIO_GUARD_PASS
+```
+
+Result: after the hyperbola-line cell `a^2=3b` is excluded, none of
+
+```text
+U(t)/V(t), U(t)/W(t), V(t)/W(t)
+```
+
+is constant in the conic chart.  The proof is geometric: a constant ratio would
+force the dense chart image to lie on an affine line, hence force the conic to
+have a line component, which is exactly the already banked hyperbola-line cell.
+The verifier checks four nondegenerate finite-field charts and a toral positive
+control where ratio collapse is detected.
+
+This is standalone only; it is not added to the default aggregate while that
+replay sits at `elapsed=59.43`.

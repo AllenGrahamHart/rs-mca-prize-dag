@@ -132,6 +132,20 @@ can have side-swap stabilizers, and those only make the raw orbit smaller.
 This supports the existing `T_3 <= toral + poisson_boundary + n A_3(n,p)`
 compiler term.
 
+The conic-chart ratio guard closes another bridge-side degeneracy ambiguity.
+After excluding the hyperbola-line cell `a^2=3b`, none of the three
+field-rational chart maps
+
+```text
+U(t), V(t), W(t)
+```
+
+has a constant ratio with another.  Therefore the constant-ratio collapse
+handled by the generic rich-curve degeneracy filter cannot occur inside a
+repaired nondegenerate same-fiber conic chart.  This is a standalone replay,
+not part of the default aggregate, because the aggregate is already close to
+the 60 second cap.
+
 The earlier exact pair-coprimality pilot is now included in the aggregate
 replay.  On the seven-prime n=96 ladder it finds three activated shapes, each
 activating at exactly one threshold prime; the common obstruction norm factors
