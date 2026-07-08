@@ -5854,3 +5854,45 @@ H3_REPEAT_LOOSE_PAIR_MEMBERSHIP_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=16.45 maxrss=50108
 ```
+
+## T2/T3 h=3 repeat same-lambda collision system
+
+Stage selected: phrase fixed-`lambda` failure as an explicit collision system
+in the ratio-orbit and scale coordinates.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_COLLISION_SYSTEM.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_collision_system.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_collision_system.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SAME_LAMBDA_COLLISION_SYSTEM_PASS
+```
+
+Result: `H3-VALUE-INJECTIVE` is exactly absence of:
+
+```text
+two admissible generic S3 ratio orbits for one lambda != 1;
+two admissible primitive-cube scale orbits for lambda = 1.
+```
+
+Boundary guardrails have no such systems.  The contrast row has exactly one
+generic same-lambda collision, at `lambda=27`.
+
+Focused replay:
+
+```text
+H3_REPEAT_SAME_LAMBDA_COLLISION_SYSTEM_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=20.81 maxrss=50160
+```

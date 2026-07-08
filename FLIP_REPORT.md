@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.45 maxrss=50108
+elapsed=20.81 maxrss=50160
 ```
 
 ## Confidence-ranked claims
@@ -154,7 +154,9 @@ elapsed=16.45 maxrss=50108
    `z,1/z,-(1+z),-1/(1+z),-(1+z)/z,-z/(1+z)`, so the target is uniqueness
    of an admissible ratio orbit, with `lambda=1` handled by the primitive-cube
    scale branch.  That special branch is exactly the scale condition
-   `{1+x,1+omega x,1+omega^2 x} subset H`, modulo `x -> omega x`.  The
+   `{1+x,1+omega x,1+omega^2 x} subset H`, modulo `x -> omega x`.  Thus
+   same-`lambda` failure is now exactly either two admissible generic ratio
+   orbits for one lambda or two admissible `lambda=1` scale orbits.  The
    lambda-distinct slope target also has a ratio form:
    `R^-1=-(lambda-1)^3 z^2(1+z)^2/(1+z+z^2)^3` and
    `rho=1+(R^-1-S^-1)/(lambda-mu)`, which must lie in the three source slope

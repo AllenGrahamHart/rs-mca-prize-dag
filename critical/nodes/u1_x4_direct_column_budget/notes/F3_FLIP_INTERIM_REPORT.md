@@ -700,6 +700,12 @@ edge is exactly
 modulo the scale orbit `x -> omega x`.  If the field has no primitive cube
 root, the branch is empty.
 
+The same-lambda collision-system compiler combines these pieces.  A
+fixed-`lambda` failure is precisely either two distinct admissible generic
+`S_3` ratio orbits for one `lambda != 1`, or two distinct primitive-cube scale
+orbits in the `lambda=1` branch.  The contrast row realizes the first case at
+`lambda=27`.
+
 The slope-ratio compiler gives the lambda-distinct target the same
 coordinates.  In the generic branch,
 
@@ -847,7 +853,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `16.45s` locally and ends with
+It runs in about `20.81s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
