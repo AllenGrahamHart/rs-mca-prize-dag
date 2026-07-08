@@ -286,3 +286,36 @@ Rates: rational norm exception `0.8646%`; actual common-root activation
 `0.0339%`.  The full 44-shape activation list is banked in the node note.
 Structural signal: many exceptions cluster around `[0,1,2 | 17,*,81]` and
 reflected/48-shift tail patterns, with sporadic high-prime activations.
+
+## 2026-07-08 Terminal C consecutive-core structure
+
+Stage: Terminal C, structural classification of the complete consecutive-core
+exception list.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_STRUCTURE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_structure.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_structure.py
+```
+
+Digest: `H3_CONSECUTIVE_CORE_STRUCTURE_PASS`.
+
+Result: all 44 activation exceptions in the complete `A=[0,1,2]` slice are
+covered by two simple families:
+
+```text
+{17,81} subset B                  (18 shapes)
+{a,a+48} subset B for some a      (28 shapes)
+overlap                           (2 shapes)
+```
+
+The affine stabilizer of `[0,1,2]`, namely `id` and `x -> 2-x`, pairs the 44
+exceptions into 22 reflection orbits, and the activation prime is constant on
+each orbit.

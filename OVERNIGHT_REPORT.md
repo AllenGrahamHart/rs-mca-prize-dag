@@ -25,7 +25,8 @@ now been sized exactly: `3,135,641` affine/Galois orbit representatives.  A
 deterministic affine-representative feasibility slice found the first two
 common-root activation exceptions for the eventual exceptional list.  A complete
 consecutive-core subfamily census gives the first exact activation rate:
-`44/129766`.
+`44/129766`, and those 44 exceptions are covered by two simple structural
+families.
 
 ## Claims
 
@@ -363,6 +364,38 @@ consecutive-core subfamily census gives the first exact activation rate:
    triple.  Rates: rational norm exception `0.8646%`; actual common-root
    activation `0.0339%`.  The full 44-shape activation list is in the note.
 
+12. **MACHINE-CHECKED STRUCTURE:** consecutive-core activation exceptions.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_STRUCTURE.md
+   ```
+
+   Script:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_structure.py
+   ```
+
+   Replay:
+
+   ```bash
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_structure.py
+   ```
+
+   Expected digest:
+
+   ```text
+   H3_CONSECUTIVE_CORE_STRUCTURE_PASS
+   ```
+
+   Result: all 44 consecutive-core activation exceptions are covered by
+   `{17,81} subset B` or by an antipodal pair `{a,a+48} subset B`.  Counts:
+   fixed-pair family `18`, antipodal-pair family `28`, overlap `2`.  The
+   stabilizer reflection `x -> 2-x` pairs them into 22 two-element orbits with
+   constant activation prime.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -393,6 +426,10 @@ consecutive-core subfamily census gives the first exact activation rate:
   `[0,1,2 | 17,*,81]` and reflected/48-shift tail patterns account for many
   activations, but sporadic high-prime examples remain.
 
+- The subsequent structure check shows the cluster is exact for the
+  consecutive-core slice: every activation is in the fixed-pair or antipodal
+  family.  What looked sporadic is still covered by that two-family union.
+
 ## Terminal Status
 
 Terminal A reached.  A1/A2 are bypassed by a direct proof stronger than the
@@ -416,5 +453,6 @@ statement away from rational norm gcds.  The 64-prime activation ladder gives
 stronger direct finite-field evidence.  The full `n=96` all-shapes census is
 now exactly sized at `3,135,641` affine/Galois representatives, and the first
 deterministic slices give a 44-entry complete subfamily exceptional list.  The
+consecutive-core exceptional list has a checked two-family classification.  The
 resultant/common-root pass over all representatives and final empirical rate
 remain open.
