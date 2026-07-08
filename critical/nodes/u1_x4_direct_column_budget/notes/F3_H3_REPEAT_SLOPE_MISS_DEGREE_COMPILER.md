@@ -65,8 +65,8 @@ deg_a <= 9, deg_b <= 9, deg_z <= 18, deg_y <= 18, total <= 41.
 
 This packet gives a concrete bounded-degree incidence target for the generic
 part of `H3-SLOPE-RATIO-HIT`.  It does not prove the numerator product always
-vanishes.  The scale-source branch remains separate, as in the slope numerator
-compiler.
+vanishes.  The mixed generic/scale branches are handled by the separate slope
+mixed degree compiler.
 
 ## Replay
 

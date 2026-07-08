@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=38.62 maxrss=52900
+elapsed=39.65 maxrss=52772
 ```
 
 ## Confidence-ranked claims
@@ -218,7 +218,10 @@ elapsed=38.62 maxrss=52900
    scale exclusion `x^3-y^3 != 0`.
    The slope-miss degree compiler now gives the generic `H3-SLOPE-RATIO-HIT`
    miss budget: six membership maps with `S_total=14`, and cleared hit
-   numerator factors of total degrees `15,13,13`.
+   numerator factors of total degrees `15,13,13`.  The mixed generic/scale
+   branch has six membership maps with `S_total=10`; orienting the generic edge
+   as source gives three hit factors of total degree `9`, hence mixed
+   hit-product total degree at most `27`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

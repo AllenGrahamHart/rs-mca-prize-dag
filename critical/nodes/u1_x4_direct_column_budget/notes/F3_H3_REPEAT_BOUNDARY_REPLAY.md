@@ -32,6 +32,7 @@ The harness runs:
 - the slope-ratio compiler;
 - the slope numerator compiler;
 - the slope-miss degree compiler;
+- the slope mixed degree compiler;
 - the LP4 Stepanov compiler;
 - the q0 cell payment;
 - the fixed-fiber cap;

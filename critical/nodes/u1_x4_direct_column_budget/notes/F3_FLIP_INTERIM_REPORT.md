@@ -1040,7 +1040,11 @@ S_a=3, S_b=3, S_z=6, S_y=6, S_total=14.
 
 The cleared slope-hit factors have total degrees `15,13,13`, so the generic
 miss complement is controlled by a numerator product of total degree at most
-`41`.  The scale-source branch remains separate.
+`41`.  The mixed generic/scale branch has six membership maps with
+`S_total=10`; choosing the generic edge as source gives hit-factor degrees
+`deg_a=3, deg_z=6, deg_x=3, total=9`, so the mixed hit-product total degree is
+at most `27`.  The reverse scale-source orientation has the same total bound
+and is recorded for compatibility with the oriented numerator compiler.
 
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
@@ -1070,7 +1074,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `38.62s` locally and ends with
+It runs in about `39.65s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

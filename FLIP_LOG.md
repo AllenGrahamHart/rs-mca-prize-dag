@@ -6731,3 +6731,47 @@ H3_REPEAT_SAME_LAMBDA_ORBIT_DOMAIN_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=38.62 maxrss=52900
 ```
+
+## T2/T3 h=3 repeat slope mixed degree compiler
+
+Stage selected: close the explicit generic/scale branch gap left by the
+generic slope-miss degree compiler.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_MIXED_DEGREE_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_mixed_degree_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_mixed_degree_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SLOPE_MIXED_DEGREE_COMPILER_PASS
+```
+
+Result: mixed generic/scale lambda-distinct pairs have six membership maps
+with `S_total=10`.  With the generic edge used as source, the three hit
+factors each have degree profile
+
+```text
+deg_a=3, deg_z=6, deg_x=3, total=9.
+```
+
+Thus the mixed hit-product total degree is at most `27`.  The reverse
+scale-source orientation has the same total bound and is recorded for the
+existing oriented numerator compiler.
+
+Focused replay:
+
+```text
+H3_REPEAT_SLOPE_MIXED_DEGREE_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=39.65 maxrss=52772
+```
