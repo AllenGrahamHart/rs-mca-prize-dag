@@ -5165,7 +5165,8 @@ H8_N64_X83_NEARLIFT_SHELL_PASS
 
 Result: the complete one-exchange shell around the seven paid h=8 square-lift
 supports is clean at both boundary-style primes.  At `p=4289`, all `5376`
-shell supports have nonzero x83 obstruction vector; at `p=262337`, all `5376`
-shell supports are likewise nonzero.  This rules out the closest
-non-antipodal deformation of the paid branch, but it does not certify the full
-h=8 n64 non-antipodal branch.
+radius-one shell supports and all `947520` radius-two shell supports have
+nonzero x83 obstruction vector.  At `p=262337`, all `5376` radius-one shell
+supports and all `947520` radius-two shell supports are likewise nonzero.
+This rules out the two closest non-antipodal deformation shells of the paid
+branch, but it does not certify the full h=8 n64 non-antipodal branch.

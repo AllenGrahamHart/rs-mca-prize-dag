@@ -2029,9 +2029,10 @@ samples of `4096` supports at `p=4289` and `p=262337` contain zero full x83-zero
 supports.  This is an interface packet, not a full certificate; the remaining
 h=8 n64 task is a sharded non-antipodal certifier using these obstruction keys.
 
-Continuation h=8 near-lift update: the complete one-exchange shell around the
-paid square-lift supports is now clean at both boundary-style primes.  The
-script checks `5376` radius-one support exchanges at `p=4289` and `5376` at
-`p=262337`; no support has a full x83-zero obstruction vector.  This rules out
-the nearest non-antipodal deformation of the paid h=8 branch, while leaving the
-farther non-antipodal branch open.
+Continuation h=8 near-lift update: the complete one- and two-exchange shells
+around the paid square-lift supports are now clean at both boundary-style
+primes.  The script checks `5376` radius-one and `947520` radius-two support
+exchanges at each of `p=4289` and `p=262337`; no support has a full x83-zero
+obstruction vector.  This rules out the two nearest non-antipodal deformation
+shells of the paid h=8 branch, while leaving the farther non-antipodal branch
+open.

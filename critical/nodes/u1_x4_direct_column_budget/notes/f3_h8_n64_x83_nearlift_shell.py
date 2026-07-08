@@ -17,6 +17,8 @@ from f3_h8_n64_x83_obstruction_interface import (
     locator_from_exponents,
     root_table,
 )
+from itertools import combinations
+import os
 
 
 def paid_lift_supports(p: int) -> list[tuple[int, ...]]:
@@ -31,17 +33,19 @@ def paid_lift_supports(p: int) -> list[tuple[int, ...]]:
     return sorted(set(supports))
 
 
-def scan_one_exchange_shell(p: int) -> dict[str, int]:
+def scan_exchange_shell(p: int, radius: int) -> dict[str, int]:
+    if radius not in (1, 2):
+        raise ValueError("supported shell radii are 1 and 2")
     vals = root_table(p, 64)
     bases = paid_lift_supports(p)
     shell: set[tuple[int, ...]] = set()
     for support in bases:
         support_set = set(support)
         outside = [e for e in range(64) if e not in support_set]
-        for removed in support:
-            reduced = support_set - {removed}
-            for added in outside:
-                candidate = tuple(sorted(reduced | {added}))
+        for removed in combinations(support, radius):
+            reduced = support_set - set(removed)
+            for added in combinations(outside, radius):
+                candidate = tuple(sorted(reduced | set(added)))
                 if len(candidate) != 16:
                     raise AssertionError((p, support, removed, added, candidate))
                 shell.add(candidate)
@@ -69,14 +73,24 @@ def scan_one_exchange_shell(p: int) -> dict[str, int]:
 
 
 def main() -> None:
-    for p in (4289, 262337):
-        row = scan_one_exchange_shell(p)
+    radius = int(os.environ.get("F3_H8_X83_SHELL_RADIUS", "1"))
+    primes = tuple(
+        int(item)
+        for item in os.environ.get("F3_H8_X83_SHELL_PRIMES", "4289,262337").split(",")
+        if item
+    )
+    label = {1: "one-exchange", 2: "two-exchange"}[radius]
+    for p in primes:
+        row = scan_exchange_shell(p, radius)
         print(
-            f"p={p} one-exchange shell: paid={row['paid_supports']} "
+            f"p={p} {label} shell: paid={row['paid_supports']} "
             f"supports={row['shell_supports']} full_zero={row['full_zero']} "
             f"first_obstruction_zero={row['first_zero']}"
         )
-    print("H8_N64_X83_NEARLIFT_SHELL_PASS")
+    digest = "H8_N64_X83_NEARLIFT_SHELL_PASS"
+    if radius == 2:
+        digest = "H8_N64_X83_NEARLIFT_RADIUS2_PASS"
+    print(digest)
 
 
 if __name__ == "__main__":

@@ -154,12 +154,15 @@ X83 one-exchange shell around paid h=8 n=64 lifts:
 ```text
 p=4289    paid supports=7, shell supports=5376, full_zero=0
 p=262337  paid supports=7, shell supports=5376, full_zero=0
+p=4289    radius-2 shell supports=947520, full_zero=0
+p=262337  radius-2 shell supports=947520, full_zero=0
 ```
 
 The shell check is in `f3_h8_n64_x83_nearlift_shell.py`.  It exhausts the
-radius-one support-exchange neighborhood of the paid antipodal lifts at the two
-boundary-style primes.  This is an adversarial local falsification attempt; it
-does not rule out farther non-antipodal primitive supports.
+radius-one and radius-two support-exchange neighborhoods of the paid antipodal
+lifts at the two boundary-style primes.  This is an adversarial local
+falsification attempt; it does not rule out farther non-antipodal primitive
+supports.
 
 ## Interpretation
 
@@ -178,8 +181,8 @@ The x83 interface now proves that the already-paid antipodal square-lift branch
 is seen by the obstruction keys; any remaining h=8 n=64 obstruction must be a
 non-antipodal primitive support or a p-specific norm-gate event isolated by the
 same forced-root key.  The first non-antipodal exchange shell around the paid
-lifts has also been exhausted with zero x83 full-zero supports at the boundary
-style primes.
+lifts, and the radius-two shell around them, have also been exhausted with zero
+x83 full-zero supports at the boundary-style primes.
 
 Next h=8 action:
 
@@ -202,6 +205,10 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_boundary_certi
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_square_lift_probe.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_obstruction_interface.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+F3_H8_X83_SHELL_RADIUS=2 F3_H8_X83_SHELL_PRIMES=4289 \
+  python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+F3_H8_X83_SHELL_RADIUS=2 F3_H8_X83_SHELL_PRIMES=262337 \
+  python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
 ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 F3_H6_N64_MODE=extra ~/.venvs/modal/bin/modal run \
@@ -221,6 +228,7 @@ H7_N64_BOUNDARY_CERTIFICATE_JSON_PASS
 H8_N64_SQUARE_LIFT_PROBE_PASS
 H8_N64_X83_INTERFACE_PASS
 H8_N64_X83_NEARLIFT_SHELL_PASS
+H8_N64_X83_NEARLIFT_RADIUS2_PASS
 H6_N64_BOUNDARY_CERTIFICATE_PASS
 H6_N64_EXTRA_PRIMES_SWEEP_DONE
 H7_N64_BOUNDARY_CERTIFICATE_PASS
