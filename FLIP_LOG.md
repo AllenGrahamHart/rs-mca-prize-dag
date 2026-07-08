@@ -300,3 +300,50 @@ signature join.
 
 Next step: attack either the h=5 norm-gate incompatibility theorem or the h=8
 n=64 x83 non-antipodal certifier; do not spend time reproving h=4 rigidity.
+
+## T4 h=5 finite-certificate coverage audit
+
+Stage selected: convert the h=5 selected-row certificate pile into a precise
+coverage table.  This is a dossier/audit step, not a new h=5 theorem.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+```
+
+Digest:
+
+```text
+H5_CERTIFICATE_COVERAGE_AUDIT_PASS
+H4_H5_BONUS_REDUCTION_PASS
+```
+
+Result: the current h=5 evidence consists of exactly 20 complete selected
+zero-row certificates:
+
+```text
+n=32:  7 primes
+n=64:  5 primes
+n=96:  1 prime
+n=128: 7 primes
+```
+
+All rows have zero anchored toral trades, zero anchored nontoral trades, and no
+direct `n^3` alarm.  The verifier also checks `p = 1 mod n`, `p > n^2`, and
+the n=128 shard totals.  The selected rows cover 1,873,896,556 right-side
+probes in total.  The audit explicitly records that this is not contiguous
+prime coverage and not a uniform h=5 no-primitive theorem: up to the largest
+certified prime, the n=32 and n=64 rows leave 395 and 689 admissible primes
+uncertified, respectively.
+
+Next step: either attack the symbolic h=5 norm-gate/no-primitive theorem, or
+move to the h=8 n=64 x83 non-antipodal certifier residual.
