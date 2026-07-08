@@ -117,6 +117,14 @@ COMMANDS = [
         "H3_BRIDGE_BUDGET_COMPILER_PASS",
     ),
     (
+        "h3 rank-effective bridge",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_effective_bridge.py",
+        ],
+        "H3_RANK_EFFECTIVE_BRIDGE_PASS",
+    ),
+    (
         "h3 non-diagonal low-row budget",
         [
             sys.executable,

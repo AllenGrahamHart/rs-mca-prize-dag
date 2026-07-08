@@ -40,7 +40,7 @@ Failure criterion:
 For a fixed official row `(n,p)`, let `A_3(n,p)` be the activated h=3
 dilation-shape count from `F3_H3_ACTIVATION_BOUND_COMPILER.md`.
 
-The missing geometric theorem can now be stated as:
+The original raw-family version of the missing geometric theorem was:
 
 ```text
 H3-BRIDGE(Z):
@@ -49,10 +49,23 @@ H3-BRIDGE(Z):
   constant-ratio, and hyperbola-line degeneracies are paid or excluded.
 ```
 
+After `F3_H3_RANK_EFFECTIVE_BRIDGE.md`, this should be read in the
+rank-effective form:
+
+```text
+H3-BRIDGE-RANKCAP(Z):
+  After toral, constant-ratio, and hyperbola-line degeneracies are paid or
+  excluded, activated non-toral h=3 shape pairs are assigned to repaired
+  signature-curve images with total consumed rank capacity at most Z.
+```
+
+This distinction matters because repeated copies of the same curve image do
+not increase substitution rank.
+
 Then the conditional chain is:
 
 ```text
-RC-RED(13) + RC-RANK + H3-BRIDGE(Z_budget(n)) => H3-ACT(16).
+RC-RED(13) + RC-RANK + H3-BRIDGE-RANKCAP(Z_budget(n)) => H3-ACT(16).
 ```
 
 ## Replayed Budgets
@@ -82,7 +95,8 @@ larger families are impossible under other parameter families.
 This is useful because the remaining h=3 problem is now sharply split:
 
 - prove `RC-RANK` for repaired signature-curve families;
-- prove the geometric bridge/batching theorem with `|Z| <= Z_budget(n)`;
+- prove the geometric bridge/batching theorem with total rank-capacity
+  consumption `<= Z_budget(n)`;
 - or replace the uncovered low/bad rows with certificates.
 
 No red node closes from this packet alone.

@@ -1773,3 +1773,37 @@ It also derives the duplicate-image warning: the private-divisor curve repeated
 twice still passes (`293 > 156`), while repeating it four times fails
 (`293 < 312`).  The default aggregate replay now includes this packet and still
 passes in `41.32s` locally.
+
+## T1 h=3 rank-effective bridge interface
+
+Stage selected: repair the h=3 geometric bridge contract after the duplicate
+rank warning.  The bridge must bound rank-effective curve-image capacity, not
+raw multiplicity.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RANK_EFFECTIVE_BRIDGE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_effective_bridge.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_effective_bridge.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digests:
+
+```text
+H3_RANK_EFFECTIVE_BRIDGE_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: focused verifier passes in `0.01s` locally (`maxrss=10368`).  The
+default aggregate replay includes this packet and still passes in `40.76s`
+locally (`maxrss=98672`).

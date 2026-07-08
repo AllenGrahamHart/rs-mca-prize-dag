@@ -122,6 +122,24 @@ repeating the private-divisor curve twice still passes (`293 > 156`), but
 repeating it four times fails (`293 < 312`).  Thus the geometric batching
 theorem must count repaired inequivalent curve images, not raw multiplicity.
 
+The rank-effective bridge packet converts this warning into a precise
+interface.  In the same toy row, a curve image of rank `r` has capacity
+
+```text
+floor((r-1)/78)
+```
+
+raw copies under `RC-RANK`.  The pinned capacities are:
+
+```text
+collapsed: 0
+private-divisor / shifted / shared-denominator: 3
+full-rank random: 4
+```
+
+Therefore the bridge theorem needed downstream is not raw `|Z| <= Z_budget`,
+but rank-effective capacity consumption `<= Z_budget`.
+
 The rank-form parameter compiler gives the current conditional constants for
 representative repaired curve-family sizes.  Under `RC-RANK`, the diagonal
 `A=D` boxes give, for example:
