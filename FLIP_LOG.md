@@ -3157,3 +3157,45 @@ h=3: finite-row rank/minor avoidance plus geometric bridge;
 h=5: uniform p-specific norm-gate exclusion or redesigned certificates;
 h=8: non-antipodal n=64 x83 support certification or external/sharded join.
 ```
+
+## Report checkpoint and replay-surface correction
+
+Stage selected: consolidate the current F3 flip branch before the next proof
+attempt.  The brief asks for a top-level report with confidence-ranked claims,
+replay commands, and an explicit residual-gap statement; until now the branch
+only had the detailed node-level interim report.
+
+Banked file:
+
+```text
+FLIP_REPORT.md
+```
+
+Result: the top-level report states that this is not a flip dossier, separates
+proved/replayed packets from conditional interfaces and evidence-only rows, and
+keeps the three blockers explicit:
+
+```text
+h=3: finite-row rank/minor avoidance plus geometric bridge;
+h=5: uniform p-specific norm-gate exclusion or redesigned certificates;
+h=8: non-antipodal n=64 x83 support certification or external/sharded join.
+```
+
+Replay correction: the interim report already cited the h=3 small-`H` rank
+guardrail, but the aggregate replay script did not call its verifier.  The
+aggregate replay now includes:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
+```
+
+Current default replay:
+
+```text
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+elapsed=57.58 maxrss=98808
+```
+
+This is still under the 60 second laptop-safe cap.  Next step should be a
+proof-facing h=3 rank/bridge lemma or an h=8 certifier construction, not
+additional broad auditing.

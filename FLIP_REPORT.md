@@ -28,7 +28,7 @@ The latest aggregate replay was run under a 60 second wall-clock cap and
 completed successfully:
 
 ```text
-elapsed=45.78 maxrss=98808
+elapsed=57.58 maxrss=98808
 ```
 
 No Modal job is required for the aggregate replay.

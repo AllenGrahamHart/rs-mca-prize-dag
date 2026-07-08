@@ -149,6 +149,14 @@ COMMANDS = [
         "H3_RC_RANK_MODEL_LEMMAS_PASS",
     ),
     (
+        "h3 RC-RANK small-H guardrail",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py",
+        ],
+        "H3_RC_RANK_HFLOOR_GUARD_PASS",
+    ),
+    (
         "h3 private-linear one-factor rank",
         [
             sys.executable,
