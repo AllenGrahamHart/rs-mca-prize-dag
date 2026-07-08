@@ -277,6 +277,14 @@ COMMANDS = [
         "H5_CERTIFICATE_COVERAGE_AUDIT_PASS",
     ),
     (
+        "h5 certificate scaling frontier",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_scaling_frontier.py",
+        ],
+        "H5_CERTIFICATE_SCALING_FRONTIER_PASS",
+    ),
+    (
         "h4/h5 bonus replay",
         [
             sys.executable,

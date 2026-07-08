@@ -462,6 +462,15 @@ The missing h=5 theorem is exactly a symbolic norm-gate incompatibility or a
 maintainable per-row certificate family for all official `p = 1 mod n`,
 `p >= n^2` rows.
 
+The certificate scaling frontier explains why the current finite-certificate
+format is not that maintainable family.  The banked n=128 Modal rows use
+`32` shards, but each shard rebuilds the full `binom(127,4)=10,334,625`
+left table.  At n=256 the same format has a `binom(255,4)=172,061,505`
+record left table, at least `5.13 GiB` before metadata; at n=512 the left
+table is at least `83.68 GiB` and the right side needs about `35,836` shards
+at the n=128 right-probe rate.  Thus h=5 needs a symbolic norm-gate theorem or
+a redesigned certificate join, not blind extension of the current shard format.
+
 ### h=6 and h=7
 
 The local replay verifies the banked h=6 and h=7 certificates.  The h=6
