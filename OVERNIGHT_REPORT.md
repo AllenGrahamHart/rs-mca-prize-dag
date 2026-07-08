@@ -21,7 +21,9 @@ A random exact-norm Modal sample refutes the naive rational norm-coprimality
 form as too strong, but finds zero actual common-root activations in 2000
 random normalized shapes.  A 64-prime activation ladder finds 71 activated
 shape orbits and zero repeated shapes.  The full all-shapes `n=96` census has
-now been sized exactly: `3,135,641` affine/Galois orbit representatives.
+now been sized exactly: `3,135,641` affine/Galois orbit representatives.  A
+deterministic affine-representative feasibility slice found the first two
+common-root activation exceptions for the eventual exceptional list.
 
 ## Claims
 
@@ -276,6 +278,51 @@ now been sized exactly: `3,135,641` affine/Galois orbit representatives.
    This is the exact number of unordered disjoint h=3 shape orbits modulo
    translation and Galois multiplication on `Z/96Z`.
 
+10. **VERIFIED-AT-ROWS / EXCEPTIONAL-LIST SEED:** deterministic
+    affine-representative resultant/common-root slice.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_AFFINE_CENSUS_FEASIBILITY.md
+   ```
+
+   Script:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_census_feasibility_modal.py
+   ```
+
+   Replay:
+
+   ```bash
+   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_census_feasibility_modal.py
+   ```
+
+   Modal run:
+
+   ```text
+   https://modal.com/apps/allengrahamhart/main/ap-hXS3spw73TRElbWynHoLnM
+   ```
+
+   Result:
+
+   ```text
+   TOTAL unique_reps=2000 norm_exceptions=25 activation_exceptions=2
+   H3_AFFINE_CENSUS_FEASIBILITY_DONE
+   ```
+
+   Activation exceptions:
+
+   ```text
+   [0, 1, 2 | 3, 26, 74] activates at p=1033441
+   [0, 1, 2 | 3, 17, 81] activates at p=207073
+   ```
+
+   Consequence: Terminal C should not be phrased as zero common-root
+   exceptions.  The full deliverable is an empirical activation rate and
+   exceptional list over the `3,135,641` affine/Galois representatives.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -298,6 +345,10 @@ now been sized exactly: `3,135,641` affine/Galois orbit representatives.
   heuristic.  None of these were actual common-root activations, which points to
   the correct prime-ideal/common-root formulation.
 
+- The deterministic affine-representative slice found actual common-root
+  activations.  This corrects the overly optimistic zero-exception
+  common-root phrasing; Terminal C is now an exceptional-list/rate census.
+
 ## Terminal Status
 
 Terminal A reached.  A1/A2 are bypassed by a direct proof stronger than the
@@ -319,6 +370,6 @@ Terminal C status: started, not complete.  The observed-shape pilot supports
 common-root pair-coprimality, and the random exact-norm sample refines the
 statement away from rational norm gcds.  The 64-prime activation ladder gives
 stronger direct finite-field evidence.  The full `n=96` all-shapes census is
-now exactly sized at `3,135,641` affine/Galois representatives, but the
-resultant/common-root pass over all representatives and exceptional-list task
-remain open.
+now exactly sized at `3,135,641` affine/Galois representatives, and the first
+deterministic slice gives two exceptional-list entries.  The resultant/common-
+root pass over all representatives and final empirical rate remain open.

@@ -211,3 +211,42 @@ H3_AFFINE_ORBIT_COUNT_PASS
 Interpretation: the full Terminal C `n=96` census is finite and Modal-feasible
 after quotienting by the symmetries that preserve obstruction norms and
 common-root activation.  It remains open, but it is now sized exactly.
+
+## 2026-07-08 Terminal C affine-representative feasibility shard
+
+Stage: Terminal C, deterministic exact resultant/common-root pass over affine
+representatives.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_AFFINE_CENSUS_FEASIBILITY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_census_feasibility_modal.py
+```
+
+Replay:
+
+```bash
+~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_census_feasibility_modal.py
+```
+
+Modal run:
+
+```text
+https://modal.com/apps/allengrahamhart/main/ap-hXS3spw73TRElbWynHoLnM
+```
+
+Result: first deterministic slice, `2000` affine/Galois representatives,
+`25` rational threshold norm exceptions, `2` actual common-root activation
+exceptions:
+
+```text
+[0, 1, 2 | 3, 26, 74] activates at p=1033441
+[0, 1, 2 | 3, 17, 81] activates at p=207073
+```
+
+Digest: `H3_AFFINE_CENSUS_FEASIBILITY_DONE`.
+
+Interpretation: the full Terminal C output must be a rate plus exceptional list.
+The zero-exception common-root form is false on deterministic reps, but this is
+exactly the kind of exceptional-list datum Terminal C asked for.
