@@ -3977,3 +3977,49 @@ p=193 n=64 D_boundary=20352 nB_line=21888 B_line=342 Z_repeat=3776 n^2=4096
 H3_REPEAT_BOUNDARY_LINE_COMPILER_PASS
 elapsed=0.17 maxrss=22312
 ```
+
+## T2 h=3 repeat-boundary LP4 Stepanov compiler
+
+Stage selected: connect the new line-pencil boundary target to the existing
+Stepanov bookkeeping, while keeping the new four-form nonvanishing theorem
+explicit.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_LP4_STEPANOV_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_lp4_stepanov_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_lp4_stepanov_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_BOUNDARY_LP4_STEPANOV_COMPILER_PASS
+```
+
+Result: for a repaired family `R` of repeat-boundary line parameters, the
+four-affine-form auxiliary has
+
+```text
+coeffs = A B^4,
+degree = (A-1)+4n(B-1),
+conditions <= 5D(A+D)|R|.
+```
+
+Thus `LP4-RED(5)` is banked.  The remaining theorem is the named
+`LP4-RANK/LP4-NV` nonvanishing gate; the h=2 rich-coset theorem alone only sees
+two of the four membership conditions and gives the wrong scale.
+
+Focused replay:
+
+```text
+LP4-RED supplied; remaining gate: LP4-RANK/LP4-NV
+H3_REPEAT_BOUNDARY_LP4_STEPANOV_COMPILER_PASS
+elapsed=0.03 maxrss=12800
+```

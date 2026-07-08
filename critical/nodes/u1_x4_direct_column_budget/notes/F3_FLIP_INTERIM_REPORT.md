@@ -203,6 +203,38 @@ bound.  The fourth coefficient vanishes at `r^2+r+1=0`, exactly the
 triple-repeat cell `lambda=1`, which should be paid separately or included in
 the same line theorem.
 
+The repeat-boundary LP4 Stepanov compiler records the arithmetic for such a
+line theorem.  For a repaired family `R` of line parameters, use
+
+```text
+Phi(X,Y_1,Y_2,Y_3,Y_4),
+deg_X < A,  deg_{Y_i} < B.
+```
+
+Since the four maps are affine, the substituted degree is only
+
+```text
+L_4(A,B,n) = (A-1) + 4n(B-1),
+```
+
+and the logarithmic jet recurrence has `S=X prod_i L_i` with `deg S <= 5`.
+Thus the reduced-condition gate is
+
+```text
+LP4-RED(5):  conditions <= 5D(A+D)|R|.
+```
+
+Under the missing line-pencil rank/nonvanishing theorem `LP4-RANK/LP4-NV`,
+
+```text
+5D(A+D)|R| < A B^4
+  =>  B_line < |R| ((A-1)+4n(B-1))/D.
+```
+
+This is not supplied by the h=2 rich-coset theorem: the h=2 theorem controls
+two affine membership conditions, while the repeat boundary genuinely needs
+the fourth condition `lambda in H`.
+
 The dilation-lift packet justifies the normalization factor in the activation
 compiler.  If `A_3(n,p)` counts activated unordered shape-pair orbits modulo
 common multiplication by `H`, then the raw unnormalized shape-pair count is at

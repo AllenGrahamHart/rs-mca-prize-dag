@@ -62,7 +62,9 @@ No Modal job is required for the aggregate replay.
    `repeat_residue <= 12 D_boundary + 18 Z_repeat`, where `D_boundary` counts
    distinct triples lying over repeated signatures.  The boundary further
    normalizes to `repeat_residue <= 12 n B_line + 18 n^2`, where `B_line` is
-   an explicit four-affine-form line-pencil membership count.
+   an explicit four-affine-form line-pencil membership count.  The associated
+   LP4 Stepanov compiler has reduced-condition gate `LP4-RED(5)`; the missing
+   theorem is now the named `LP4-RANK/LP4-NV` line-pencil nonvanishing gate.
 8. The h=3 dilation-normalized activation count lifts to at most `n` raw
    shape pairs per orbit; side-swap stabilizers only reduce the lift size.
 9. Nondegenerate h=3 conic charts have no internal constant-ratio collapse
