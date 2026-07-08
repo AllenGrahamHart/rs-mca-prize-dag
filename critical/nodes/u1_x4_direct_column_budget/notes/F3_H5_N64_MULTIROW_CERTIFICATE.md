@@ -12,7 +12,7 @@ Rows:
 
 ```text
 n = 64, h = 5,
-p = every admissible prime 1 mod 64 with 64^2 < p <= 53377,
+p = every admissible prime 1 mod 64 with 64^2 < p <= 54721,
 plus p in {65537, 262337}.
 ```
 
@@ -34,8 +34,8 @@ Success evidence:
 ## Result
 
 The default replay covers the base `15`-row bank and completed locally in
-`56.08s` with peak RSS below 90 MB.  Nineteen explicit prefix chunks cover the
-remaining admissible primes through `53377`.  The `12289` chunks completed in
+`56.08s` with peak RSS below 90 MB.  Twenty explicit prefix chunks cover the
+remaining admissible primes through `54721`.  The `12289` chunks completed in
 `44.94s` and `48.75s`; the `20353` chunks completed in `36.73s`, `36.66s`,
 and `25.98s`; the `23873` chunk completed in `47.09s`; the `26177` chunk
 completed in `36.51s`; the `28097` chunk completed in `33.21s`; the `30977`
@@ -45,7 +45,7 @@ the `40577` chunk completed in `25.41s`; the `40961` chunk completed in
 `4.85s`; the `44417` chunk completed in `39.65s`; the `48193` chunk completed
 in `50.61s`; the split `51521` chunks completed in `30.76s` and `32.69s`
 after the combined 10-prime attempt timed out at `60.00s`; the `53377` chunk
-completed in `21.16s`.
+completed in `21.16s`; the `54721` chunk completed in `21.20s`.
 For every listed prime:
 
 ```text
@@ -57,10 +57,10 @@ partial                 = false
 direct n^3 alarm        = false
 ```
 
-Thus the h=5 no-primitive evidence now has `164` complete `n=64` rows in
+Thus the h=5 no-primitive evidence now has `169` complete `n=64` rows in
 addition to the expanded `402`-row `n=32` bank.  In particular, every admissible
-`n=64` prime through `53377` is certified.  The combined replay processes
-`1,152,730,908` total right-side subsets.  This remains finite-row evidence, not
+`n=64` prime through `54721` is certified.  The combined replay processes
+`1,187,875,143` total right-side subsets.  This remains finite-row evidence, not
 a uniform h=5 theorem.
 
 ## Replay
@@ -99,6 +99,7 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_48193_c
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_a.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_b.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_53377_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_54721_chunk_a.py
 ```
 
 Expected digest after a successful complete replay:
@@ -124,6 +125,7 @@ H5_N64_PREFIX_48193_CHUNK_A_PASS
 H5_N64_PREFIX_51521_CHUNK_A_PASS
 H5_N64_PREFIX_51521_CHUNK_B_PASS
 H5_N64_PREFIX_53377_CHUNK_A_PASS
+H5_N64_PREFIX_54721_CHUNK_A_PASS
 ```
 
 The replays write:
@@ -149,4 +151,5 @@ critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_48193_chunk_a.j
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_a.json
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_b.json
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_53377_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_54721_chunk_a.json
 ```
