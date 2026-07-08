@@ -387,3 +387,42 @@ not a local blind hash table.
 
 Next step: return to the symbolic h=5 norm-gate/no-primitive theorem, or start
 designing the h=8 x83-keyed non-antipodal join.
+
+## T4 h=8 x83 support-certifier reduction
+
+Stage selected: prove the bookkeeping reduction that lets the h=8 n=64
+residual be attacked at the support level instead of by a blind left/right
+signature join.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_X83_SUPPORT_CERTIFIER_REDUCTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_support_certifier_reduction.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_support_certifier_reduction.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_residual_frontier_audit.py
+```
+
+Digest:
+
+```text
+H8_X83_SUPPORT_CERTIFIER_REDUCTION_PASS
+H8_RESIDUAL_FRONTIER_AUDIT_PASS
+```
+
+Result: if a 16-support `R` satisfies the x83 full-zero condition
+`L_R = S_R^2 - lambda` with nonzero square `lambda=alpha^2`, then the roots of
+`S_R-alpha` and `S_R+alpha` canonically split `R` into the two h=8 trade sides.
+Conversely, any h=8 trade pair gives this x83 factorization.  The replay
+recovers all banked paid square-lift supports at `p=193,4289,262337` and rejects
+a fixed nonzero-control support.  Therefore a future non-antipodal
+support-level x83 certificate is sound; it does not need the `binom(63,7)`
+blind left table.
+
+Next step: implement or specify the actual h=8 non-antipodal support
+enumerator, or return to the h=5 symbolic no-primitive theorem.
