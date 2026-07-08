@@ -33,7 +33,9 @@ branch B: 8 maps, sum_a_degrees=19, sum_total_degrees=24, max_total_degree=7.
 
 The secondary-subcell compiler isolates the remaining lower-dimensional
 parameters: after stripping structural non-poles, branch A has residual degree
-`24` and branch B has residual degree `29`.
+`24` and branch B has residual degree `29`.  The secondary-payment compiler
+pays those finite parameters directly by `53n`, so this branch degree budget is
+needed only on the clean eight-slope loci.
 
 ## Clearing Formula
 

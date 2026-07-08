@@ -35,7 +35,8 @@ Collision B:
 Secondary subcells inside Collision A or Collision B are the finite
 one-variable pullback loci classified by the secondary-subcell compiler.
 After structural non-poles are stripped, their residual degrees are `24` on
-branch A and `29` on branch B.
+branch A and `29` on branch B.  The secondary-payment compiler pays these
+finite loci directly by `53n`.
 
 ## Role in h=3
 

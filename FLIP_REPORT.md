@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=41.50 maxrss=53256
+elapsed=42.48 maxrss=53128
 ```
 
 ## Confidence-ranked claims
@@ -203,7 +203,8 @@ elapsed=41.50 maxrss=53256
    Secondary subcells inside the special branches are finite: after stripping
    structural non-poles, the residual degrees are `24` on branch A and `29` on
    branch B, so outside those loci the special branches have exactly eight
-   distinct slopes.
+   distinct slopes.  The finite secondary loci are paid directly by the slope
+   `1` condition, giving `53n < n^2` on every official row.
    The branch slope maps are explicit: branch A has eight slope maps of degree
    at most 4, and branch B has eight slope maps of degree at most 6.  Non-poles
    alone are not enough for the coordinate claim; the proof uses distinctness

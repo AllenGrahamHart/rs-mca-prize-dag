@@ -6862,3 +6862,45 @@ H3_REPEAT_LOOSE_SECONDARY_SUBCELLS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=41.50 maxrss=53256
 ```
+
+## T2/T3 h=3 repeat loose secondary payment
+
+Stage selected: pay the finite secondary loose subcells directly, instead of
+leaving them inside the branch rank/nonvanishing gates.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SECONDARY_PAYMENT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_secondary_payment.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_secondary_payment.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_SECONDARY_PAYMENT_PASS
+```
+
+Result: branch A has at most `24` secondary parameters and branch B at most
+`29`.  For each fixed secondary parameter, the slope `1` condition alone
+gives at most `n` values of `X`, so the combined secondary payment is
+
+```text
+53n.
+```
+
+This is below `n^2` for every official row `n=2^13..2^41`.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_SECONDARY_PAYMENT_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=42.48 maxrss=53128
+```
