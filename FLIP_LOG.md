@@ -2858,3 +2858,23 @@ F3-RANK-AVOID + H3-BRIDGE-RANKCAP(Z_budget(s)) => H3-ACT(16).
 This is an interface pin, not a proof of either remaining theorem.  Standalone
 replay passes in `0.04s` locally (`maxrss=12928`).  The default aggregate
 replay passes with this packet included in `53.00s` locally (`maxrss=98768`).
+
+## T2 h=3 activation symmetry lemma
+
+Stage selected: bank a bridge-side symmetry lemma used by the activation
+deduplication and future geometric batching theorem.
+
+New packet:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_SYMMETRY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_symmetry.py
+```
+
+Result: affine/unit exponent maps and side swap preserve the h=3 activation
+predicate when the primitive-root embedding is transformed contragrediently.
+The packet explicitly records that activation need not be invariant at a fixed
+chosen generator.  The verifier checks finite-field samples over
+`p in {97,193,577,769}` and all `720` banked activation records.  Standalone
+replay passes in `0.17s` locally (`maxrss=13184`).  The default aggregate
+replay passes with this packet included in `41.36s` locally (`maxrss=98780`).

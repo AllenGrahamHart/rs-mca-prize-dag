@@ -63,6 +63,12 @@ to `167` affine/Galois pair-orbits, with maximum per-prime deduped count
 evidence at the right scale but not a proof.  The remaining h=3 proof debt is
 exact:
 
+The activation symmetry packet proves the algebra behind that deduplication:
+unit-affine exponent maps and side swap preserve the h=3 activation predicate
+when the primitive-root embedding is transformed contragrediently.  The replay
+checks this over finite-field samples and all `720` banked activation records.
+This is a bridge-side symmetry lemma, not an activation bound.
+
 The earlier exact pair-coprimality pilot is now included in the aggregate
 replay.  On the seven-prime n=96 ladder it finds three activated shapes, each
 activating at exactly one threshold prime; the common obstruction norm factors

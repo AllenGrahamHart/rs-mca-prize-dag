@@ -205,6 +205,14 @@ COMMANDS = [
         "H3_ACTIVATION_ORBIT_DEDUP_PASS",
     ),
     (
+        "h3 activation symmetry",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_symmetry.py",
+        ],
+        "H3_ACTIVATION_SYMMETRY_PASS",
+    ),
+    (
         "h5 structural reduction",
         [
             sys.executable,
