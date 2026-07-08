@@ -46,6 +46,18 @@ F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=43.61 maxrss=53264
 ```
 
+The T4 residual frontier also has a standalone ledger:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digest:
+
+```text
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```
+
 ## Confidence-ranked claims
 
 ### PROVED / replayed
@@ -313,9 +325,11 @@ elapsed=43.61 maxrss=53264
 1. The n=96 h=3 all-core activation bank has raw oriented per-prime maximum
    `92 < 96`, and deduplicates to `167` affine/Galois/side-swap pair-orbits
    with per-prime maximum `27 < 96`.
-2. The h=5 selected-row certificate bank verifies many zero rows, including
-   complete certified rows through n=128, but it is not contiguous official-row
-   coverage and not a uniform theorem.
+2. The h=5 selected-row certificate bank verifies `589` complete zero rows and
+   `3,164,030,779` audited right-side probes.  It is contiguous for n=32
+   through `p=65537`, but the n=64 bank still misses `515` admissible primes up
+   to its largest certified prime, so it is not official-row coverage and not a
+   uniform theorem.
 3. The h=8 n=64 radius-three shells around paid branches at `p=4289` and
    `p=262337` have `full_zero=0`, but they cover only a tiny local slice of the
    non-antipodal support universe.

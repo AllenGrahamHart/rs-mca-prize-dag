@@ -9,6 +9,7 @@ certificates and replay scripts.  No Modal job is launched by this audit.
 ## Replayed commands
 
 ```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
@@ -16,6 +17,7 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_rep
 ## Digests
 
 ```text
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 H4_H5_BONUS_REDUCTION_PASS
 H6_H8_BONUS_SWEEP_PASS
 ```
@@ -33,14 +35,17 @@ Thus h=4 has no hidden third mechanism.  Its live residue is not a new
 classification theorem; it is the explicit sparse norm-gate/certificate column
 identified by the dichotomy.
 
-The h=5 evidence is stronger than the original bonus note:
+The h=5 evidence is stronger than the original bonus note and is now compiled
+by the residual frontier ledger:
 
 ```text
-n=32 complete zero certificates: 7 primes
-n=64 complete zero certificates: 5 primes
+n=32 complete zero certificates: 402 primes, all admissible through p=65537
+n=64 complete zero certificates: 179 primes, with 515 admissible primes still
+      missing up to p=262337
 n=96 boundary zero certificate: p=9601
-n=128 boundary zero certificate: p=17921
-n=128 extra zero certificates: 6 primes
+n=128 complete zero certificates: 7 primes
+total complete zero rows: 589
+total audited right-side probes: 3,164,030,779
 ```
 
 This is still row evidence plus proved structural gates, not a uniform h=5
