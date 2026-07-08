@@ -242,6 +242,11 @@ COMMANDS = [
         "f3_h3_repeat_loose_affine_slope_compiler.py",
         "H3_REPEAT_LOOSE_AFFINE_SLOPE_COMPILER_PASS",
     ),
+    (
+        "h3 repeat loose normalized-orbit compiler",
+        "f3_h3_repeat_loose_normalized_orbit_compiler.py",
+        "H3_REPEAT_LOOSE_NORMALIZED_ORBIT_COMPILER_PASS",
+    ),
 ]
 
 

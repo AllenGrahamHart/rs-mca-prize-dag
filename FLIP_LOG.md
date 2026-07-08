@@ -6031,3 +6031,44 @@ H3_REPEAT_LOOSE_AFFINE_SLOPE_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=18.55 maxrss=50108
 ```
+
+## T2/T3 h=3 repeat loose normalized-orbit compiler
+
+Stage selected: quotient normalized loose systems by the `S_3` action on the
+three core vertices.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_NORMALIZED_ORBIT_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_normalized_orbit_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_normalized_orbit_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_NORMALIZED_ORBIT_COMPILER_PASS
+```
+
+Result: the six ordered normalizations of one loose core have ratio pairs
+
+```text
+(a,b), (b,a), (1/a,b/a), (b/a,1/a), (1/b,a/b), (a/b,1/b).
+```
+
+The contrast row has two normalized loose orbits and six distinct sorted
+nine-slope sets.  Boundary guardrails have no normalized loose orbits.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_NORMALIZED_ORBIT_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=19.09 maxrss=50232
+```

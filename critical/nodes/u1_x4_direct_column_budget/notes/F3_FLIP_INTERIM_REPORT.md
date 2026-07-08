@@ -878,6 +878,16 @@ and the three lambda slopes are
 1/a + 1/b - 1/(a+b).
 ```
 
+The normalized-orbit compiler removes the sixfold ordering artifact.  The
+`S_3` orbit of `(a,b)` is
+
+```text
+(a,b), (b,a), (1/a,b/a), (b/a,1/a), (1/b,a/b), (a/b,1/b).
+```
+
+Thus a future proof should count normalized `S_3` orbits of admissible
+nine-slope affine systems, not ordered triples of core vertices.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -906,7 +916,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `18.55s` locally and ends with
+It runs in about `19.09s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

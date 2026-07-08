@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=18.55 maxrss=50108
+elapsed=19.09 maxrss=50232
 ```
 
 ## Confidence-ranked claims
@@ -186,7 +186,8 @@ elapsed=18.55 maxrss=50108
    six coordinate tests `1+X/q in H` for
    `q in {1,a,b,-(1+a),-(1+b),-(a+b)}` plus three explicit lambda tests and
    `1+a+b != 0`.  Equivalently, it is a nine-slope affine-line condition
-   `1+c_i X in H`.
+   `1+c_i X in H`.  The normalized ratios are quotiented by the `S_3` orbit
+   `(a,b),(b,a),(1/a,b/a),(b/a,1/a),(1/b,a/b),(a/b,1/b)`.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.
