@@ -4624,7 +4624,7 @@
    "id": "v13_base_field_normalization_guard",
    "status": "PROVED",
    "title": "v13 base-field normalization guard (ledger law)",
-   "statement": "LEDGER LAW (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): prefix-floor and split-pencil entropy costs are normalized over the generated/base field B, NOT over a larger line/challenge field, unless an explicit transfer theorem is wired. PROVED as a convention+guard: any ledger entry spending |F| where the construction only earns |B| is invalid without a cited transfer. Rationale: prevents the false-proof class where extension-field size is spent against base-field-generated objects (the v13 margins are 3.1-22.2 bits -- a |F|/|B| confusion is fatal at that precision)."
+   "statement": "LEDGER LAW (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): prefix-floor and split-pencil entropy costs are normalized over the generated/base field B, NOT over a larger line/challenge field, unless an explicit transfer theorem is wired. PROVED as a convention+guard: any ledger entry spending |F| where the construction only earns |B| is invalid without a cited transfer. Rationale: prevents the false-proof class where extension-field size is spent against base-field-generated objects (the v13 margins are 3.1-22.2 bits -- a |F|/|B| confusion is fatal at that precision). | GUARD CONFIRMED IN THE FIELD (2026-07-07/08, catches #11-13): the M_B seam audit and beta-round found exactly the failures this guard predicts, in F2's window (q^t vs |B0|^t), F7's count law (K_cell/q^sigma vs p^sigma for base-valued worst words, census-verified), and F1's flatness clause (F_q-conditions actually F_p(zeta)-conditions). Statements corrected; evidence untouched. Guard edges added into the exposed reds per the 2026-07-08 alignment packet."
   },
   {
    "id": "v13_finite_adjacent_compiler",
@@ -4726,6 +4726,16 @@
    "id": "f3_h2_stepanov_inhouse",
    "status": "PROVED",
    "statement": "F3 h=2 IN-HOUSE STEPANOV THEOREM (2026-07-08, Codex overnight Terminal B, REPLAYED + PROOF-READ by maintainer; nodes/u1_x4_direct_column_budget/notes/F3_H2_RICH_COSET_STEPANOV.md + LEVEL_SET_REDUCTION + HBK_CONDITIONAL_COMPILER + STEPANOV_RECONSTRUCTION): self-contained, fully explicit additive-energy theorem for multiplicative subgroups \u2014 the rich-coset Stepanov lemma R(U) <= 129 (hT)^{2/3} for h^4 T < p^3 (auxiliary polynomial Phi(X, X^h, (X-1)^h); sparse-monomial nonvanishing lemma; explicit parameters A ~ X/4, B ~ Y/2, D ~ X/64), composed through the exact level-set identity E(H) = n^2 + n sum_C r_C^2 and the dyadic compiler into E(H) <= 83851 h^{5/2} for h <= p^{2/3}; with the exact trade identity E = 8 T_2 + 4 M_2 + 2n^2 - n (odd char) this gives T_2 <= E/8 in-house. HONEST SCOPE: the conservative constant closes T_2 < n^3 from this route alone only for n > 7,030,990,201/64 ~ 1.1e8; banked ladder rows below pass exactly; the sharp external constant (Cochrane--Pinner 16/3) gives T_2 <= (2/3) n^{5/2} at all n and remains the citable form (f3_h2_stratum_theorem). Value: removes the black-box import; the Stepanov machinery is now in-house for the h >= 3 accident bound (the F3-green wall). All four replays PASS."
+  },
+  {
+   "id": "v13_adjacent_rows_replay_audit",
+   "status": "PROVED",
+   "statement": "AUDIT (ours, 2026-07-08 ledger entry; scripts notes/correspondence/four_pairs_exact.py + PR #404): independent exact-integer replay of all four v13 adjacent pairs \u2014 locations, margins to every printed decimal (22.1969/22.0109/3.2589/3.0730), both admissibility forms, conventions re-derived (MCA pencil shift K = k+1; M31 q = p'^4, eps* = 2^-100). EXPLICIT NONCLAIM: verifies the unsafe side and pair locations only; does NOT prove the safe side B_C(a0+1) <= B*. Imported per the upstream-alignment packet plan (UPSTREAM_IMPORT_LEDGER.md)."
+  },
+  {
+   "id": "v13_second_moment_shift_pair_identity",
+   "status": "PROVED",
+   "statement": "SPLIT FROM v13_prefix_collision_ledger (2026-07-08; the ledger's remainder stays quarantined): the exact second-moment stratification Sum_z N_w(z)^2 = C(n,m) + Sum_{e=w+1} P_e with sp_w(e; D') the ordered disjoint-root constant-top shift pairs (upstream thm:capg-second-moment). STATUS EARNED BY: (a) upstream's three-line bijection proof READ by maintainer; (b) OUR machine replay of the m = h instance at 5 rows (f3_identification_check_modal.py: DP second moment minus diagonal = 2x trade census, digit-exact, incl. toral split). Full-strata replay at general m queued. This is the identity powering the fleet's SP censuses and the F3 weld."
   }
  ],
  "edges": [
@@ -9177,6 +9187,56 @@
   {
    "from": "f3_h2_stepanov_inhouse",
    "to": "f3_h2_stratum_theorem",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_adjacent_rows_replay_audit",
+   "to": "v13_frontier_row_packets",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_adjacent_rows_replay_audit",
+   "to": "adjacency_closing",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_second_moment_shift_pair_identity",
+   "to": "v13_prefix_collision_ledger",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_second_moment_shift_pair_identity",
+   "to": "shared_census_kernel",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_shiftpair_weld",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_shiftpair_weld",
+   "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_shiftpair_weld",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
+   "to": "dli_prime_weighted_large_block_support",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
+   "to": "worst_word_challenger_pricing",
    "kind": "ev"
   }
  ]
