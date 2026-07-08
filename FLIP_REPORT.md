@@ -60,24 +60,27 @@ No Modal job is required for the aggregate replay.
 8. Nondegenerate h=3 conic charts have no internal constant-ratio collapse
    among `U,V,W`; the remaining constant-ratio danger is confined to excluded
    or separately paid degeneracy cells.
-9. The rich-curve denominator compiler and log-jet reduction are banked.  The
+9. The affine conic chart counts all ordered same-fiber `H`-triples except
+   possibly one vertical/projective point, so local ordered fibers satisfy
+   `R = T_chart + epsilon`, `epsilon in {0,1}`.
+10. The rich-curve denominator compiler and log-jet reduction are banked.  The
    reduced-condition side is now `RC-RED(13)`.
-10. Several h=3 rank guardrails are proved or replayed:
+11. Several h=3 rank guardrails are proved or replayed:
    constant-ratio collapsed rank, small-`H` failure, one-factor private-linear
    rank, two-factor failure of naive induction, finite-row bad-prime rank drop,
    generic-open rank-minor formulation, and normalization invariance.
-11. The h=3 arithmetic interfaces now cover every official row.  The current
+12. The h=3 arithmetic interfaces now cover every official row.  The current
    non-diagonal route is:
    `F3-RANK-AVOID + H3-BRIDGE-RANKCAP(Z_budget(s)) => H3-ACT(16)`.
    The private-linear alternate route is:
    `F3-PRIVATE-LINEAR-RANK-AVOID + H3-BRIDGE-PRIVATE-RANKCAP(Z_private(s)) => H3-ACT(16)`.
-12. h=5 has been structurally localized.  Since `5` is not dyadic, the
+13. h=5 has been structurally localized.  Since `5` is not dyadic, the
    char-zero dyadic branch is excluded; every remaining survivor must be a
    p-specific x83 norm-gate event.
-13. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
+14. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.
-14. The h=8 x83 support-to-trade reduction is compatible with root-scaling
+15. The h=8 x83 support-to-trade reduction is compatible with root-scaling
     rotations, up to swapping the two recovered sides.
 
 ### Conditional but useful

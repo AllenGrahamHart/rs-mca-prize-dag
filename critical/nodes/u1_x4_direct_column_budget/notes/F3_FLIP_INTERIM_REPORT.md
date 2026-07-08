@@ -146,6 +146,20 @@ repaired nondegenerate same-fiber conic chart.  This is a standalone replay,
 not part of the default aggregate, because the aggregate is already close to
 the 60 second cap.
 
+The conic-chart H-point coverage packet pins the additive loss between the
+affine chart count and ordered same-fiber triples.  For fixed `(e1,e2)`, if
+`T_chart` counts finite parameters `t` with `U(t),V(t),W(t) in H`, then the
+ordered triple count satisfies
+
+```text
+R = T_chart + epsilon,    epsilon in {0,1}.
+```
+
+The only possible missing point is the vertical/projective mate of the chosen
+base point.  This lets the rich-curve chart count control the local ordered
+fiber count up to one point per conic, but it still does not prove global
+rank-capacity batching.
+
 The earlier exact pair-coprimality pilot is now included in the aggregate
 replay.  On the seven-prime n=96 ladder it finds three activated shapes, each
 activating at exactly one threshold prime; the common obstruction norm factors

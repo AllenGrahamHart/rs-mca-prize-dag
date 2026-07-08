@@ -3482,3 +3482,39 @@ Default aggregate replay after slimming:
 F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 elapsed=56.51 maxrss=98836
 ```
+
+## T1 h=3 conic-chart H-point coverage
+
+Stage selected: pin the additive loss between the affine conic chart count and
+the ordered same-fiber `H`-triple count.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_HPOINT_COVERAGE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_hpoint_coverage.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_hpoint_coverage.py
+```
+
+Expected digest:
+
+```text
+H3_CONIC_CHART_HPOINT_COVERAGE_PASS
+```
+
+Result: for a fixed same-`(e1,e2)` conic and base point, the affine chart
+counts every ordered `H`-triple except possibly the vertical/projective mate:
+
+```text
+R = T_chart + epsilon,   epsilon in {0,1}.
+```
+
+The standalone verifier checks selected rich fibers in rows
+`(p,n)=(97,16),(97,32),(193,64)` and finds the expected one vertical point per
+selected fiber.  This is bridge bookkeeping only; it does not prove a global
+bound on the number of conics or on rank-capacity consumption.
