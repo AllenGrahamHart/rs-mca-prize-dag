@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=4.75 maxrss=50100
+elapsed=7.47 maxrss=50092
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4603,4 +4603,52 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_COVER_CROSSOVER_PASS
 elapsed=0.01 maxrss=10624
+```
+
+## T2/T3 h=3 repeat coordinate-cover ledger
+
+Stage selected: turn the forced-cover target into a canonical measurable object
+and check whether it is sharp enough on the boundary evidence rows.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_COORDINATE_COVER_LEDGER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_cover_ledger.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_cover_ledger.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_COORDINATE_COVER_LEDGER_PASS
+```
+
+Result: the canonical coordinate cover `A_coord` covers every active triple and
+therefore gives
+
+```text
+repeat_residue <= (72 C_coord + 18)n^2.
+```
+
+On the nonzero boundary row `n=256,p=65537`, the ledger has
+
+```text
+B_line=48, support=48, C_coord=17,
+cover_bound=81395712 > n^3=16777216.
+```
+
+Thus `C_coord` is structurally small but too crude for that row; the sharper
+common forced cover `{2}` is still needed.
+
+Focused replay:
+
+```text
+H3_REPEAT_COORDINATE_COVER_LEDGER_PASS
+elapsed=2.02 maxrss=10752
 ```

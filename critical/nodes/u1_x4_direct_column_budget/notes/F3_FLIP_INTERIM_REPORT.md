@@ -444,13 +444,30 @@ F<=n^(2/3): covers 2^19..2^41
 Thus the forced-coordinate route can tolerate covers much larger than constant
 size; any substantially sublinear cover is enough asymptotically.
 
+The coordinate-cover ledger defines the canonical measurable cover
+
+```text
+A_coord = union_{active triples (u,v,w)} {u,v,w}.
+```
+
+It is automatic, but can be too crude.  On the boundary evidence rows,
+`C_coord=0` except at `n=256,p=65537`, where
+
+```text
+B_line=48, support=48, C_coord=17.
+```
+
+The resulting degree-bound payment is larger than `n^3` at that row, so the
+canonical cover is useful as a target object but not yet a row certificate.
+The smaller common forced cover `{2}` remains the sharper explanation.
+
 The repeat-boundary chain has a focused replay:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `4.75s` locally and ends with
+It runs in about `7.47s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

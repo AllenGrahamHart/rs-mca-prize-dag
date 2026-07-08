@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=4.75 maxrss=50100
+elapsed=7.47 maxrss=50092
 ```
 
 ## Confidence-ranked claims
@@ -102,7 +102,10 @@ elapsed=4.75 maxrss=50100
    size `F` gives `B_line <= 6Fn`; a sublinear forced cover would already pay
    the repeat residue subcubically.  The forced-cover crossover is strong:
    `F <= ceil(sqrt(n))` covers every official row, and
-   `F <= ceil(n^(2/3))` covers `2^19..2^41`.
+   `F <= ceil(n^(2/3))` covers `2^19..2^41`.  The canonical coordinate cover
+   is measurable but too crude on the nonzero row: at `n=256,p=65537`,
+   `C_coord=17`, giving a cover-bound above `n^3`; the common cover `{2}` is
+   the sharper row explanation.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

@@ -87,6 +87,11 @@ COMMANDS = [
         "f3_h3_repeat_forced_cover_crossover.py",
         "H3_REPEAT_FORCED_COVER_CROSSOVER_PASS",
     ),
+    (
+        "h3 repeat coordinate-cover ledger",
+        "f3_h3_repeat_coordinate_cover_ledger.py",
+        "H3_REPEAT_COORDINATE_COVER_LEDGER_PASS",
+    ),
 ]
 
 
