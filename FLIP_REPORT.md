@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.06 maxrss=50104
+elapsed=19.51 maxrss=50116
 ```
 
 ## Confidence-ranked claims
@@ -141,7 +141,10 @@ elapsed=17.06 maxrss=50104
    roots.  Equivalently, for fixed `lambda`, active edges are exactly the
    3-point fibers on `S={1/(u-1):u in H,u!=1}` of
    `Phi_lambda(r)=r^3/(1-(lambda-1)r)`.  The same-lambda target is now
-   uniqueness of such a 3-point fiber for each `lambda`.
+   uniqueness of such a 3-point fiber for each `lambda`.  For
+   `lambda != 1`, each fiber is parametrized by an ordered root ratio `z` via
+   `r=(1+z+z^2)/((lambda-1)z(1+z))`; the `lambda=1` branch has only
+   primitive-cube-root ratios `z^2+z+1=0`.
    The pairwise-coreless case further splits into a 3-edge coreless triangle
    or the tetrahedral four-3-subsets pattern.  The 3-edge coreless triangle
    further has only two combinatorial patterns: loose `(1,1,1)` and pinched

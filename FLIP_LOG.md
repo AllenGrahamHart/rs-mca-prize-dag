@@ -5534,3 +5534,48 @@ H3_REPEAT_LAMBDA_ROOT_FIBER_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=17.06 maxrss=50104
 ```
+
+## T2/T3 h=3 repeat lambda-ratio parametrization
+
+Stage selected: parametrize a 3-point `Phi_lambda` fiber by an ordered ratio
+of two reciprocal roots.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_RATIO_PARAMETRIZATION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_parametrization.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_parametrization.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LAMBDA_RATIO_PARAMETRIZATION_PASS
+```
+
+Result: for `lambda != 1`, an ordered root ratio `z=s/r` reconstructs the
+entire reciprocal fiber by
+
+```text
+r = (1+z+z^2)/((lambda-1)z(1+z)),
+s = zr,
+t = -(1+z)r.
+```
+
+For `lambda=1`, the branch is `Phi_1(r)=r^3` and the only possible ratios
+satisfy `z^2+z+1=0`.  The boundary guardrails exercise the generic branch; the
+contrast row exercises the `lambda=1` branch.
+
+Focused replay:
+
+```text
+H3_REPEAT_LAMBDA_RATIO_PARAMETRIZATION_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=19.51 maxrss=50116
+```

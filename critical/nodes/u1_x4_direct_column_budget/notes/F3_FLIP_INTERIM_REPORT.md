@@ -644,6 +644,25 @@ fibers of `Phi_lambda` on `S={1/(u-1):u in H,u!=1}`.  Hence
 `H3-VALUE-INJECTIVE` is equivalently the assertion that every `Phi_lambda` has
 at most one 3-point fiber on `S`.
 
+The lambda-ratio parametrization makes each such fiber explicit.  If
+`lambda != 1` and `s=zr` is a second root in the same fiber, then
+
+```text
+r = (1+z+z^2)/((lambda-1)z(1+z)),
+s = zr,
+t = -(1+z)r.
+```
+
+The special case `lambda=1` reduces to `Phi_1(r)=r^3`, so the only possible
+ratios are primitive cube roots:
+
+```text
+z^2+z+1=0.
+```
+
+Thus the fixed-`lambda` target can be phrased as uniqueness of an admissible
+ratio orbit for the reconstructed three reciprocal roots.
+
 The pairwise-coreless compiler splits the other taxonomy branch.  A
 pairwise-intersecting coreless obstruction on at most four active 3-edges
 either has a 3-edge coreless subfamily, or every triple has a common point and
@@ -735,7 +754,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `17.06s` locally and ends with
+It runs in about `19.51s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
