@@ -160,6 +160,7 @@ p=4289    radius-3 shell preimages=67800320, first_obstruction_zero=16048,
           full_zero=0, max_shard_elapsed=24.970s
 p=262337  radius-3 shell preimages=67800320, first_obstruction_zero=320,
           full_zero=0, max_shard_elapsed=28.446s
+p=262337  radius-3 suffix profile=[67800000,320,0,0,0,0,0,0]
 ```
 
 The radius-one and radius-two shell check is in
@@ -168,6 +169,8 @@ The radius-one and radius-two shell check is in
 `f3_h8_n64_x83_radius3_modal.py` and locally verified by
 `f3_h8_n64_x83_radius3_certificate.py`; the boundary-style replay at `p=4289`
 is stored separately as `f3_h8_n64_x83_radius3_shell_certificate_p4289.json`.
+The q3 suffix profile is stored in `f3_h8_n64_x83_radius3_profile_q3.json` and
+verified by `f3_h8_n64_x83_radius3_profile.py`.
 These are adversarial local falsification attempts; they do not rule out farther
 non-antipodal primitive supports.
 
@@ -221,6 +224,7 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_ce
 F3_H8_RADIUS3_CERT=f3_h8_n64_x83_radius3_shell_certificate_p4289.json \
   F3_H8_RADIUS3_EXPECTED_PRIMES=4289 \
   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_profile.py
 ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 F3_H6_N64_MODE=extra ~/.venvs/modal/bin/modal run \
@@ -232,6 +236,11 @@ F3_H8_RADIUS3_MODE=full F3_H8_RADIUS3_PRIMES=262337 \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
 F3_H8_RADIUS3_MODE=full F3_H8_RADIUS3_PRIMES=4289 \
   F3_H8_RADIUS3_OUT=f3_h8_n64_x83_radius3_shell_certificate_p4289.json \
+  ~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
+F3_H8_RADIUS3_MODE=full F3_H8_RADIUS3_PRIMES=262337 \
+  F3_H8_RADIUS3_PROFILE=1 \
+  F3_H8_RADIUS3_OUT=f3_h8_n64_x83_radius3_profile_q3.json \
   ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
 ```
@@ -249,6 +258,7 @@ H8_N64_X83_INTERFACE_PASS
 H8_N64_X83_NEARLIFT_SHELL_PASS
 H8_N64_X83_NEARLIFT_RADIUS2_PASS
 H8_N64_X83_RADIUS3_CERTIFICATE_PASS
+H8_N64_X83_RADIUS3_PROFILE_PASS
 H6_N64_BOUNDARY_CERTIFICATE_PASS
 H6_N64_EXTRA_PRIMES_SWEEP_DONE
 H7_N64_BOUNDARY_CERTIFICATE_PASS

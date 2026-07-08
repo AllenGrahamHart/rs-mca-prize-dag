@@ -5183,6 +5183,8 @@ critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_shell_certificate.json
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_shell_certificate_p4289.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_profile.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_profile_q3.json
 critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
 ```
 
@@ -5196,6 +5198,7 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_ce
 F3_H8_RADIUS3_CERT=f3_h8_n64_x83_radius3_shell_certificate_p4289.json \
   F3_H8_RADIUS3_EXPECTED_PRIMES=4289 \
   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_profile.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
 
@@ -5216,3 +5219,8 @@ x83-zero supports, with max shard time `28.446s`.  At `p=4289`, it found
 max shard time `24.970s`.  This rules out every support three exchanges away
 from the paid h=8 square-lift branch at both primes; the farther non-antipodal
 branch remains open.
+
+Follow-up profile: the q3 radius-three shell has suffix profile
+`[67800000, 320, 0, 0, 0, 0, 0, 0]`.  Thus every one of the `320`
+first-obstruction-zero candidates fails the next low obstruction; there are no
+depth-two examples to classify.

@@ -2043,6 +2043,8 @@ actual `q3_n64_h8` prime `p=262337`.  Each Modal replay completed `196/196`
 shards under the 60-second worker cap and processed `67,800,320` preimage
 candidates.  The actual q3 prime had `320` first-obstruction-zero candidates;
 the boundary-style prime had `16048`; neither had a full x83-zero support.
-The local verifier checks the pinned JSON certificates and the aggregate h6/h8
-replay now consumes both.  This is still a deformation-shell certificate, not a
-full h=8 n64 non-antipodal enumeration.
+The q3 suffix profile is `[67800000, 320, 0, 0, 0, 0, 0, 0]`, so none of the
+first-obstruction-zero candidates survives the second low obstruction.  The
+local verifiers check the pinned JSON certificates/profile and the aggregate
+h6/h8 replay now consumes them.  This is still a deformation-shell certificate,
+not a full h=8 n64 non-antipodal enumeration.

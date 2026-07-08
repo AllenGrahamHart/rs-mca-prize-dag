@@ -58,6 +58,12 @@ F3_H8_RADIUS3_MODE=full F3_H8_RADIUS3_PRIMES=4289 \
 F3_H8_RADIUS3_CERT=f3_h8_n64_x83_radius3_shell_certificate_p4289.json \
   F3_H8_RADIUS3_EXPECTED_PRIMES=4289 \
   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
+F3_H8_RADIUS3_MODE=full F3_H8_RADIUS3_PRIMES=262337 \
+  F3_H8_RADIUS3_PROFILE=1 \
+  F3_H8_RADIUS3_OUT=f3_h8_n64_x83_radius3_profile_q3.json \
+  ~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_profile.py
 ```
 
 Expected digests:
@@ -79,8 +85,10 @@ max_shard_elapsed=28.446s complete=True
 p=4289 radius-three shell: paid=7 pair_chunks=196
 processed=67,800,320 first_obstruction_zero=16048 full_zero=0
 max_shard_elapsed=24.970s complete=True
+q3 suffix profile: [67800000, 320, 0, 0, 0, 0, 0, 0]
 H8_N64_X83_RADIUS3_SHELL_PASS
 H8_N64_X83_RADIUS3_CERTIFICATE_PASS
+H8_N64_X83_RADIUS3_PROFILE_PASS
 ```
 
 Interpretation:
@@ -91,3 +99,9 @@ the seven paid h=8 square-lift supports at the actual `q3_n64_h8` prime
 at exchange distance at most three from the paid square-lift branch at those
 primes.  It is still a local deformation-shell certificate, not a full
 enumeration of the non-antipodal h=8 branch.
+
+The q3 suffix profile gives a sharper local obstruction statement: of the
+`67,800,320` radius-three preimage candidates, exactly `320` satisfy the first
+low obstruction, and none satisfy the next low obstruction.  Thus the
+radius-three shell dies at obstruction depth two before any square-`lambda`
+condition is relevant.

@@ -41,6 +41,7 @@ DEFAULT_CHUNK_PAIRS = 20
 
 def make_jobs(primes: tuple[int, ...], chunk_pairs: int) -> list[dict]:
     total_pairs = 7 * math.comb(16, RADIUS)
+    profile = os.environ.get("F3_H8_RADIUS3_PROFILE", "0") == "1"
     jobs = []
     for p in primes:
         for start in range(0, total_pairs, chunk_pairs):
@@ -50,6 +51,7 @@ def make_jobs(primes: tuple[int, ...], chunk_pairs: int) -> list[dict]:
                     "pair_start": start,
                     "pair_end": min(start + chunk_pairs, total_pairs),
                     "total_pairs": total_pairs,
+                    "profile": profile,
                 }
             )
     return jobs
@@ -207,6 +209,10 @@ def scan_radius3_job(job: dict) -> dict:
     first_zero = 0
     full_zero = 0
     examples = []
+    profile = bool(job.get("profile"))
+    suffix_counts = [0] * H
+    first_zero_examples = []
+    deep_examples = []
     complete = True
     for _, support, removed in pairs[start:end]:
         support_set = set(support)
@@ -216,6 +222,24 @@ def scan_radius3_job(job: dict) -> dict:
             candidate = tuple(sorted(reduced | set(added)))
             L = locator_from_exponents(candidate, vals, p)
             _, obs, lam = forced_obstructions(L, p, H)
+            suffix_len = 0
+            if profile:
+                for obstruction in reversed(obs):
+                    if obstruction != 0:
+                        break
+                    suffix_len += 1
+                suffix_counts[suffix_len] += 1
+                if suffix_len >= 1 and len(first_zero_examples) < 8:
+                    first_zero_examples.append(list(candidate))
+                if suffix_len >= 2 and len(deep_examples) < 8:
+                    deep_examples.append(
+                        {
+                            "support": list(candidate),
+                            "suffix_len": suffix_len,
+                            "obs": obs,
+                            "lambda": lam,
+                        }
+                    )
             processed += 1
             first_zero += int(obs[-1] == 0)
             if all(v == 0 for v in obs) and lam != 0 and is_square_mod(lam, p):
@@ -226,7 +250,7 @@ def scan_radius3_job(job: dict) -> dict:
             complete = False
             break
 
-    return {
+    result = {
         "p": p,
         "radius": RADIUS,
         "pair_start": start,
@@ -238,6 +262,11 @@ def scan_radius3_job(job: dict) -> dict:
         "complete": complete,
         "elapsed_sec": time.monotonic() - t0,
     }
+    if profile:
+        result["suffix_counts"] = suffix_counts
+        result["first_zero_examples"] = first_zero_examples
+        result["deep_examples"] = deep_examples
+    return result
 
 
 @app.local_entrypoint()
@@ -282,6 +311,18 @@ def main():
     cert["processed"] = sum(row["processed"] for row in results)
     cert["first_obstruction_zero"] = sum(row["first_obstruction_zero"] for row in results)
     cert["full_zero"] = sum(row["full_zero"] for row in results)
+    if os.environ.get("F3_H8_RADIUS3_PROFILE", "0") == "1":
+        suffix_counts = [0] * H
+        first_zero_examples = []
+        deep_examples = []
+        for row in results:
+            for index, count in enumerate(row.get("suffix_counts", [])):
+                suffix_counts[index] += count
+            first_zero_examples.extend(row.get("first_zero_examples", []))
+            deep_examples.extend(row.get("deep_examples", []))
+        cert["suffix_counts"] = suffix_counts
+        cert["first_zero_examples"] = first_zero_examples[:32]
+        cert["deep_examples"] = deep_examples[:32]
     cert["complete"] = (
         mode == "full"
         and not errors

@@ -214,6 +214,28 @@ def require_h8_radius3_certificate(
         raise AssertionError("radius3 timeout-risk shard")
 
 
+def require_h8_radius3_profile(cert: dict) -> None:
+    require_h8_radius3_certificate(cert, [262337], 320)
+    expected_suffix = [67800000, 320, 0, 0, 0, 0, 0, 0]
+    if cert.get("suffix_counts") != expected_suffix:
+        raise AssertionError(("radius3 profile suffix", cert.get("suffix_counts")))
+    if cert.get("deep_examples") != []:
+        raise AssertionError("radius3 profile has depth >= 2 examples")
+    suffix = [0] * 8
+    for row in cert["rows"]:
+        row_suffix = row.get("suffix_counts")
+        if not isinstance(row_suffix, list) or len(row_suffix) != 8:
+            raise AssertionError(("radius3 row suffix", row_suffix))
+        if sum(row_suffix) != row.get("processed"):
+            raise AssertionError(("radius3 row suffix sum", row))
+        if sum(row_suffix[1:]) != row.get("first_obstruction_zero"):
+            raise AssertionError(("radius3 row first zero", row))
+        for index, count in enumerate(row_suffix):
+            suffix[index] += count
+    if suffix != expected_suffix:
+        raise AssertionError(("radius3 profile row aggregate", suffix))
+
+
 def main() -> None:
     loaded = {filename: load_rows(filename) for filename in FULL_ZERO_ROWS}
     full_count = 0
@@ -249,6 +271,10 @@ def main() -> None:
         (NOTES / "f3_h8_n64_x83_radius3_shell_certificate_p4289.json").read_text()
     )
     require_h8_radius3_certificate(h8_radius3_p4289, [4289], 16048)
+    h8_radius3_profile = json.loads(
+        (NOTES / "f3_h8_n64_x83_radius3_profile_q3.json").read_text()
+    )
+    require_h8_radius3_profile(h8_radius3_profile)
 
     print(f"h=6/h=7 full zero rows verified: {full_count}")
     print("h=6 n64 full anchored certificates verified: 1")
@@ -256,6 +282,7 @@ def main() -> None:
     print("h=7 n64 full anchored certificates verified: 1")
     print("h=8 full anchored certificates verified: 6")
     print("h=8 n64 x83 radius-three shell certificates verified: 2")
+    print("h=8 n64 x83 radius-three q3 suffix profile verified: 1")
     print(f"h=8 partial zero slices remaining: {len(PARTIAL_H8_ROWS)}")
     print("H6_H8_BONUS_SWEEP_PASS")
 
