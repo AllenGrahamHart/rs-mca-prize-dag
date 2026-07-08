@@ -29,7 +29,8 @@ consecutive-core subfamily census gives the first exact activation rate:
 families whose union has zero activation-free complement outside it.  The
 remaining full census can now be organized into 91 affine/Galois core types.
 The second core type, `(0,1,3)`, is also complete: it has only `3/129766`
-actual common-root activation exceptions.
+actual common-root activation exceptions.  The third core type, `(0,1,4)`, is
+complete with `5/129766` actual activations.
 
 ## Claims
 
@@ -510,6 +511,57 @@ actual common-root activation exceptions.
    activation `0.0023%`.  The core-by-core census is now 2 of 91 core types
    complete.
 
+16. **MACHINE-VERIFIED SUBFAMILY CENSUS:** complete core `(0,1,4)` slice.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_014_CENSUS.md
+   ```
+
+   Scripts:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_modal.py
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_check.py
+   ```
+
+   Replay:
+
+   ```bash
+   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_modal.py
+   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_check.py
+   ```
+
+   Modal run:
+
+   ```text
+   https://modal.com/apps/allengrahamhart/main/ap-2l3BsQqnwrHBRX5d0uSYFg
+   ```
+
+   Result:
+
+   ```text
+   TOTAL shapes=129766 norm_exceptions=1142 activation_exceptions=5
+   H3_CORE_014_CENSUS_DONE
+   H3_CORE_014_CENSUS_CHECK_PASS
+   ```
+
+   Activation exceptions:
+
+   ```text
+   [0, 1, 4 | 9, 37, 60]    activates at p=37633
+   [0, 1, 4 | 12, 23, 33]   activates at p=17377
+   [0, 1, 4 | 40, 44, 53]   activates at p=37633
+   [0, 1, 4 | 40, 61, 89]   activates at p=37633
+   [0, 1, 4 | 45, 56, 60]   activates at p=37633
+   ```
+
+   This completely scans the oriented slice `A=[0,1,4]`, `B` any disjoint
+   triple.  Rates: rational norm exception `0.8800%`; actual common-root
+   activation `0.0039%`.  The core-by-core census is now 3 of 91 core types
+   complete.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -549,7 +601,8 @@ actual common-root activation exceptions.
 
 - The next complete core slice `(0,1,3)` has only three actual activations,
   showing that the dense consecutive-core behavior is not typical across the
-  first two core types.
+  first two core types.  The third core slice `(0,1,4)` also remains sparse,
+  with five actual activations.
 
 ## Terminal Status
 
@@ -576,6 +629,7 @@ now exactly sized at `3,135,641` affine/Galois representatives, and the first
 deterministic slices give a 44-entry complete subfamily exceptional list.  The
 consecutive-core exceptional list has a checked two-family classification.  The
 outside-family complement is activation-free in that complete slice.  The
-remaining full census is now organized into 91 core-orbit slices; 2 are
-complete, represented by `(0,1,2)` and `(0,1,3)`.  The resultant/common-root
-pass over all representatives and final empirical rate remain open.
+remaining full census is now organized into 91 core-orbit slices; 3 are
+complete, represented by `(0,1,2)`, `(0,1,3)`, and `(0,1,4)`.  The
+resultant/common-root pass over all representatives and final empirical rate
+remain open.
