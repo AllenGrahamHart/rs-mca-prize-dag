@@ -20,7 +20,8 @@ theorem is still open.  Terminal C has a light pilot: observed activated
 A random exact-norm Modal sample refutes the naive rational norm-coprimality
 form as too strong, but finds zero actual common-root activations in 2000
 random normalized shapes.  A 64-prime activation ladder finds 71 activated
-shape orbits and zero repeated shapes.
+shape orbits and zero repeated shapes.  The full all-shapes `n=96` census has
+now been sized exactly: `3,135,641` affine/Galois orbit representatives.
 
 ## Claims
 
@@ -236,6 +237,45 @@ shape orbits and zero repeated shapes.
    activated non-toral shape orbits; `71` distinct canonical shapes; `0`
    repeated activations.  Digest: `H3_ACTIVATION_LADDER_PASS`.
 
+9. **MACHINE-VERIFIED:** exact affine/Galois orbit count for the full
+   `n=96` Terminal C census.
+
+   File:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_AFFINE_ORBIT_COUNT.md
+   ```
+
+   Script:
+
+   ```text
+   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_orbit_count_modal.py
+   ```
+
+   Replay:
+
+   ```bash
+   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_orbit_count_modal.py
+   ```
+
+   Modal run:
+
+   ```text
+   https://modal.com/apps/allengrahamhart/main/ap-XVtUnVPEitz3WXSczroC2x
+   ```
+
+   Result:
+
+   ```text
+   GROUP_ORDER 3072
+   FIXED_TOTAL 9632689152
+   AFFINE_ORBITS 3135641
+   H3_AFFINE_ORBIT_COUNT_PASS
+   ```
+
+   This is the exact number of unordered disjoint h=3 shape orbits modulo
+   translation and Galois multiplication on `Z/96Z`.
+
 ## Catches
 
 - The first checker version did repeated Sympy polynomial reductions inside the
@@ -278,5 +318,7 @@ Stepanov/HBK steps above are proved in-house.
 Terminal C status: started, not complete.  The observed-shape pilot supports
 common-root pair-coprimality, and the random exact-norm sample refines the
 statement away from rational norm gcds.  The 64-prime activation ladder gives
-stronger direct finite-field evidence.  The full `n=96` all-shapes census and
-exceptional-list task remains open.
+stronger direct finite-field evidence.  The full `n=96` all-shapes census is
+now exactly sized at `3,135,641` affine/Galois representatives, but the
+resultant/common-root pass over all representatives and exceptional-list task
+remain open.

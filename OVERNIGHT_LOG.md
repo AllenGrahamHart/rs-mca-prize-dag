@@ -174,3 +174,40 @@ non-toral shape orbits; `71` distinct shapes; `0` repeats.  Digest:
 Interpretation: strong evidence for the refined common-root formulation of
 Terminal C.  The all-shapes norm census remains open, but a direct finite-field
 activation ladder found no repeated activated shape.
+
+## 2026-07-08 Terminal C affine-orbit count
+
+Stage: Terminal C, exact sizing of the full `n=96` all-shapes census.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_AFFINE_ORBIT_COUNT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_orbit_count_modal.py
+```
+
+Replay:
+
+```bash
+~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_orbit_count_modal.py
+```
+
+Modal run:
+
+```text
+https://modal.com/apps/allengrahamhart/main/ap-XVtUnVPEitz3WXSczroC2x
+```
+
+Result: Burnside count over the affine/Galois group
+`x -> u*x+s`, `u in (Z/96Z)^*`, gives `3,135,641` orbit representatives:
+
+```text
+GROUP_ORDER 3072
+FIXED_TOTAL 9632689152
+AFFINE_ORBITS 3135641
+H3_AFFINE_ORBIT_COUNT_PASS
+```
+
+Interpretation: the full Terminal C `n=96` census is finite and Modal-feasible
+after quotienting by the symmetries that preserve obstruction norms and
+common-root activation.  It remains open, but it is now sized exactly.
