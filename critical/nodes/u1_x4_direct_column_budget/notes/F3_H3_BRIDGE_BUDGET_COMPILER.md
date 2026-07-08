@@ -13,6 +13,12 @@ H3-ACT(16): A_3(n,p) <= 16 n.
 It does not prove that activated shape pairs actually batch into that many
 curves.
 
+This is the legacy diagonal-box budget table.  The active h=3 bridge target now
+uses the strictly larger non-diagonal table in
+`F3_H3_NONDIAGONAL_LOWROW_BUDGET.md` and
+`F3_H3_NONDIAGONAL_HIGHROW_BUDGET.md`; see
+`F3_H3_BRIDGE_BUDGET_LINEAGE.md` for the replayed comparison.
+
 ## Pre-registration
 
 Question:

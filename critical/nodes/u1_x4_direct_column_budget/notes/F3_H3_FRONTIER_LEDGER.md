@@ -20,7 +20,8 @@ H3-ACT-COMPILER: REPLAYED/CONDITIONAL
 
 F3-RANK-AVOID / RC-NV: OPEN
   The non-diagonal official-row arithmetic covers s=13..41 with
-  Z_budget=16..10795.
+  Z_budget=16..10795.  The older diagonal bridge-budget table is only
+  11..7420 and is retained as a legacy lower bound.
   Residual: prove finite-row rank-good minor nonvanishing on repaired
   degree-2 signature-curve images.
 

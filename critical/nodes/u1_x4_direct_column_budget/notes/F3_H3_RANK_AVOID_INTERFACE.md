@@ -38,6 +38,10 @@ row `n=2^s`, let `Z_budget(s)` be the improved non-diagonal bridge budget from
 the low/mid and high-row budget packets, and let `Z_private(s)` be the retuned
 private-linear budget.
 
+The older diagonal bridge-budget table is retained as a legacy lower bound.
+The active non-diagonal table is replayed against it in
+`F3_H3_BRIDGE_BUDGET_LINEAGE.md` and is the `Z_budget(s)` used below.
+
 The degree-2 non-diagonal route needs:
 
 ```text

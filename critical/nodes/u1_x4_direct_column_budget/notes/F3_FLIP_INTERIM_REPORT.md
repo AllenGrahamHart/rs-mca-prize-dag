@@ -1562,6 +1562,11 @@ Both arithmetic tables cover every official exponent `s=13..41`, with
 `Z_private(41)=15267`.  This is still conditional: neither rank-good minor
 avoidance theorem nor the geometric bridge/rank-capacity assignment is proved.
 
+The bridge-budget lineage packet records that this `Z_budget` is the improved
+non-diagonal table.  The older diagonal compiler remains a valid lower-bound
+ledger with range `11..7420`, but the active bridge target is the non-diagonal
+range `16..10795`.
+
 The rank-form parameter compiler gives the current conditional constants for
 representative repaired curve-family sizes.  Under `RC-RANK`, the diagonal
 `A=D` boxes give, for example:

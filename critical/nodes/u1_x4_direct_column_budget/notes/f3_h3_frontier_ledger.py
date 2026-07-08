@@ -15,6 +15,7 @@ from f3_h3_activation_bound_compiler import (
     prime_activation_counts,
 )
 from f3_h3_conic_bridge_accounting_ledger import conic_bridge_accounting_summary
+from f3_h3_bridge_budget_lineage import budget_lineage_summary
 from f3_h3_l2_levelset_bridge_compiler import (
     check_ledger,
     synthetic_ledgers,
@@ -64,6 +65,7 @@ def activation_summary() -> dict[str, int]:
 def official_budget_summary() -> dict[str, int]:
     rows = (*LOW_ROWS, *HIGH_ROWS)
     private = tuple(PRIVATE_ROWS)
+    lineage = budget_lineage_summary()
     exponents = [row.s for row in rows]
     private_exponents = [row.s for row in private]
     expected = list(range(13, 42))
@@ -76,6 +78,8 @@ def official_budget_summary() -> dict[str, int]:
         "last_s": 41,
         "z_budget_min": min(row.z for row in rows),
         "z_budget_max": max(row.z for row in rows),
+        "diagonal_z_budget_min": lineage["diagonal_min"],
+        "diagonal_z_budget_max": lineage["diagonal_max"],
         "z_private_min": min(row.z for row in private),
         "z_private_max": max(row.z for row in private),
         "private_separation_margin": private_separation_summary()["min_pass_margin"],
@@ -219,6 +223,7 @@ def main() -> None:
     print(
         "official rank-capacity budgets: "
         f"Z_budget={budgets['z_budget_min']}..{budgets['z_budget_max']} "
+        f"(legacy_diag={budgets['diagonal_z_budget_min']}..{budgets['diagonal_z_budget_max']}) "
         f"Z_private={budgets['z_private_min']}..{budgets['z_private_max']} "
         f"private_sep_margin={budgets['private_separation_margin']}"
     )
