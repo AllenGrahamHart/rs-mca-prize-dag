@@ -1975,3 +1975,51 @@ bank covers every admissible prime through `p <= 26177`, plus
 max are `613`.  The h4/h5 bonus replay now reports `81` n=64 complete zero
 certificates and passes in `0.03s` locally.  The default aggregate replay still
 passes in `42.74s` locally (`maxrss=98632`).
+
+## T4 h=5 n64 prefix-to-28097 certificate expansion
+
+Stage selected: extend the h=5 `n=64` finite certificate bank from complete
+prefix coverage through `p <= 26177` to prefix coverage through `p <= 28097`,
+using one 7-prime local chunk.
+
+Pre-registered primes:
+
+```text
+26497, 26561, 26881, 27073, 27329, 27457, 28097
+```
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_28097_chunk_a.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_28097_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_28097_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digests:
+
+```text
+H5_N64_PREFIX_28097_CHUNK_A_PASS
+H5_CERTIFICATE_COVERAGE_AUDIT_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the new chunk passes in `33.21s` locally (`maxrss=86396`) and writes
+7 complete zero rows.  The h=5 coverage audit now verifies `498` total
+complete zero rows and `2,524,405,702` total right-side probes.  The `n=64`
+bank covers every admissible prime through `p <= 28097`, plus
+`{40961, 65537, 262337}`; remaining missing admissible primes up to the current
+max are `606`.  The h4/h5 bonus replay now reports `88` n=64 complete zero
+certificates and passes in `0.03s` locally.  The default aggregate replay still
+passes in `41.14s` locally (`maxrss=98656`).
