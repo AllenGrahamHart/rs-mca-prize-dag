@@ -3076,11 +3076,14 @@ s=26: Z_private=477
 s=27: Z_private=601
 s=28: Z_private=757
 s=29: Z_private=954
+s=30: Z_private=1202
+s=31: Z_private=1514
+s=32: Z_private=1908
 ```
 
 For each row the verifier checks a pinned passing witness and scans the exact
 finite `B` cap for `Z+1` failure.  This is a conditional arithmetic compiler
-slice only: it does not prove private-linear rank, it does not cover `s>=30`,
+slice only: it does not prove private-linear rank, it does not cover `s>=33`,
 and it does not prove the geometric bridge.  Standalone replay passes in
-`0.30s` locally (`maxrss=13180`).  The default aggregate replay passes with
-this packet included in `40.31s` locally (`maxrss=98800`).
+`0.65s` locally (`maxrss=13184`).  The default aggregate replay passes with
+this packet included in `39.37s` locally (`maxrss=98684`).

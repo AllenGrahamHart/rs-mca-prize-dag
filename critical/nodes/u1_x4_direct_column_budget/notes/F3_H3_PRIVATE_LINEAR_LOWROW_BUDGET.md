@@ -5,7 +5,7 @@ Status: CONDITIONAL ARITHMETIC COMPILER SLICE, NOT `RC-RANK` AND NOT `H3-ACT`.
 The private-linear compiler guard shows that a private-linear rank theorem
 cannot reuse the current degree-2 non-diagonal budget table.  This packet starts
 the required retuning: it gives exact private-linear rank-capacity budgets for
-the official rows `s=13..29`.
+the official rows `s=13..32`.
 
 ## Pre-registration
 
@@ -21,7 +21,7 @@ Success criterion:
 
 - use the private-linear degree cap
   `L_private = (A-1) + 3n(B-1)`;
-- verify a pinned passing witness for each row `s=13..29`;
+- verify a pinned passing witness for each row `s=13..32`;
 - scan the exact finite `B` cap for `Z+1` and prove the next budget fails;
 - keep the result conditional on a future private-linear rank theorem and the
   geometric bridge.
@@ -29,7 +29,7 @@ Success criterion:
 Failure criterion:
 
 - mix the private-linear degree cap with the existing degree-2 budget table;
-- claim rows `s >= 30` are covered by this low/mid-row slice;
+- claim rows `s >= 33` are covered by this low/mid-row slice;
 - treat the arithmetic compiler as `RC-RANK`.
 
 ## Compiler
@@ -76,6 +76,9 @@ s=26: Z_private=477
 s=27: Z_private=601
 s=28: Z_private=757
 s=29: Z_private=954
+s=30: Z_private=1202
+s=31: Z_private=1514
+s=32: Z_private=1908
 ```
 
 For comparison, the current degree-2 non-diagonal budgets at these rows are:
@@ -98,6 +101,9 @@ s=26: Z_degree2=337
 s=27: Z_degree2=425
 s=28: Z_degree2=535
 s=29: Z_degree2=674
+s=30: Z_degree2=850
+s=31: Z_degree2=1071
+s=32: Z_degree2=1349
 ```
 
 The private-linear retuning can pay more capacity at these low rows because the

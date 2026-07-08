@@ -254,7 +254,7 @@ just needs its own maximality compiler.
 
 The private-linear low/mid-row compiler now supplies the first exact slice of
 that retuned table.  Using `L_private=(A-1)+3n(B-1)`, it proves maximal
-private-linear rank-capacity budgets for `s=13..29`:
+private-linear rank-capacity budgets for `s=13..32`:
 
 ```text
 s=13: Z_private=23
@@ -274,6 +274,9 @@ s=26: Z_private=477
 s=27: Z_private=601
 s=28: Z_private=757
 s=29: Z_private=954
+s=30: Z_private=1202
+s=31: Z_private=1514
+s=32: Z_private=1908
 ```
 
 For each row, the replay checks a pinned passing witness and scans the exact
