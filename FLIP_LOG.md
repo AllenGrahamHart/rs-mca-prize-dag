@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=19.41 maxrss=50100
+elapsed=16.94 maxrss=50104
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4702,7 +4702,7 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=19.41 maxrss=50100
+elapsed=16.94 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat forced-coordinate-2 normal form
@@ -4752,7 +4752,7 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=19.41 maxrss=50100
+elapsed=16.94 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat hitting exception scan
@@ -4796,7 +4796,7 @@ Focused replay:
 ```text
 H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=19.41 maxrss=50100
+elapsed=16.94 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat singleton-hitting stress
@@ -4854,7 +4854,7 @@ Focused replay:
 ```text
 H3_REPEAT_SINGLETON_HITTING_STRESS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=19.41 maxrss=50100
+elapsed=16.94 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat star-obstruction compiler
@@ -4906,7 +4906,7 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=19.41 maxrss=50100
+elapsed=16.94 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat edge reciprocal form
@@ -4948,7 +4948,7 @@ Focused replay:
 ```text
 H3_REPEAT_EDGE_RECIPROCAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=19.41 maxrss=50100
+elapsed=16.94 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat star-obstruction taxonomy
@@ -4991,7 +4991,7 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_TAXONOMY_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=19.41 maxrss=50100
+elapsed=16.94 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat edge cubic gcd form
@@ -5033,7 +5033,7 @@ Focused replay:
 ```text
 H3_REPEAT_EDGE_CUBIC_GCD_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=19.41 maxrss=50100
+elapsed=16.94 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat pair-intersection compiler
@@ -5082,7 +5082,7 @@ Focused replay:
 ```text
 H3_REPEAT_PAIR_INTERSECTION_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=19.41 maxrss=50100
+elapsed=16.94 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat lambda-fiber ledger
@@ -5123,7 +5123,7 @@ Focused replay:
 ```text
 H3_REPEAT_LAMBDA_FIBER_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=19.41 maxrss=50100
+elapsed=16.94 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat quadratic-rho compiler
@@ -5171,5 +5171,49 @@ Focused replay:
 ```text
 H3_REPEAT_QUADRATIC_RHO_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=19.41 maxrss=50100
+elapsed=16.94 maxrss=50104
+```
+
+## T2/T3 h=3 repeat pairwise-coreless compiler
+
+Stage selected: split the pairwise-coreless obstruction into minimal
+hypergraph shapes.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_PAIRWISE_CORELESS_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_pairwise_coreless_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_pairwise_coreless_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_PAIRWISE_CORELESS_COMPILER_PASS
+```
+
+Result: a pairwise-intersecting coreless obstruction on at most four active
+3-edges is either:
+
+```text
+THREE-EDGE-CORELESS
+TETRAHEDRON
+```
+
+In the tetrahedron case, the four edges are exactly the four 3-subsets of a
+four-point set.  Thus `H3-NO-PAIRWISE-CORELESS` splits into
+`H3-NO-THREE-EDGE-CORELESS` and `H3-NO-TETRAHEDRON`.
+
+Focused replay:
+
+```text
+H3_REPEAT_PAIRWISE_CORELESS_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=16.94 maxrss=50104
 ```

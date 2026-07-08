@@ -147,6 +147,11 @@ COMMANDS = [
         "f3_h3_repeat_star_obstruction_taxonomy.py",
         "H3_REPEAT_STAR_OBSTRUCTION_TAXONOMY_PASS",
     ),
+    (
+        "h3 repeat pairwise-coreless compiler",
+        "f3_h3_repeat_pairwise_coreless_compiler.py",
+        "H3_REPEAT_PAIRWISE_CORELESS_COMPILER_PASS",
+    ),
 ]
 
 

@@ -598,6 +598,13 @@ Then common coordinates of the two active edges are exactly
 So `H3-NO-QUADRATIC-MISS` is the scalar hit condition
 `rho in {t(2-t): t in E}` for every lambda-distinct pair.
 
+The pairwise-coreless compiler splits the other taxonomy branch.  A
+pairwise-intersecting coreless obstruction on at most four active 3-edges
+either has a 3-edge coreless subfamily, or every triple has a common point and
+the four edges must be the tetrahedral four 3-subsets of a 4-point set.
+Therefore `H3-NO-PAIRWISE-CORELESS` reduces to
+`H3-NO-THREE-EDGE-CORELESS` and `H3-NO-TETRAHEDRON`.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -626,7 +633,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `19.41s` locally and ends with
+It runs in about `16.94s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
