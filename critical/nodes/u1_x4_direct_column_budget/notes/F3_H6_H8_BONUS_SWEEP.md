@@ -134,6 +134,21 @@ The probe is in `f3_h8_n64_square_lift_probe.py`.  It does not certify the
 non-antipodal h=8 branch, but it shows that the `q3_n64_h8` antipodal
 square-lift branch is clean after the h=4 quotient ledger.
 
+X83 h=8 n=64 obstruction interface:
+
+```text
+p=193     lifted h8 branch: total=15, toral=7, x83_zero=15
+p=4289    lifted h8 branch: total=7,  toral=7, x83_zero=7
+p=262337  lifted h8 branch: total=7,  toral=7, x83_zero=7
+p=4289    non-antipodal sample: 4096 supports, full_zero=0
+p=262337  non-antipodal sample: 4096 supports, full_zero=0
+```
+
+The interface check is in `f3_h8_n64_x83_obstruction_interface.py`.  It aligns
+the paid antipodal branch with the x83 forced-root obstruction vector and gives
+the exact key format for a later non-antipodal sharded certifier.  It is a
+sampled structural interface check, not a full certificate.
+
 ## Interpretation
 
 The h=6/h=7 rows mostly continue the pattern from the shallow ladder, but the
@@ -147,14 +162,19 @@ direct-column floor: `6 << n^3 = 262144`.  The h=7 n=64 boundary row now meets
 the complete anchored standard as well.  The n=32 h=8 boundary rows meet the
 same complete anchored standard at six primes.  The n=64 h=8 rows do not yet
 meet that standard because the runs were sliced by the 60-second Modal budget.
+The x83 interface now proves that the already-paid antipodal square-lift branch
+is seen by the obstruction keys; any remaining h=8 n=64 obstruction must be a
+non-antipodal primitive support or a p-specific norm-gate event isolated by the
+same forced-root key.
 
 Next h=8 action:
 
 ```text
 do not launch a blind all-left-hash h=8 n=64 certificate; the left table alone
 is about 16.5 GiB at 32 bytes/record.  Use the x83 square-shift certifier keys,
-or design a true external/sharded signature join.  h=7 n=64 is a separate
-one-shard Modal timing gate.
+starting from the obstruction vector replayed here, or design a true
+external/sharded signature join.  h=7 n=64 is already complete at the boundary
+prime.
 ```
 
 ## Replay
@@ -166,6 +186,7 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_c
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_p4993_square_lift_analysis.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_boundary_certificate.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_square_lift_probe.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_obstruction_interface.py
 ~/.venvs/modal/bin/modal run \
   critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 F3_H6_N64_MODE=extra ~/.venvs/modal/bin/modal run \
@@ -183,6 +204,7 @@ H6_N64_EXTRA_PRIMES_SWEEP_VERIFY_PASS
 H6_P4993_SQUARE_LIFT_ANALYSIS_PASS
 H7_N64_BOUNDARY_CERTIFICATE_JSON_PASS
 H8_N64_SQUARE_LIFT_PROBE_PASS
+H8_N64_X83_INTERFACE_PASS
 H6_N64_BOUNDARY_CERTIFICATE_PASS
 H6_N64_EXTRA_PRIMES_SWEEP_DONE
 H7_N64_BOUNDARY_CERTIFICATE_PASS

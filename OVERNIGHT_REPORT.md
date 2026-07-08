@@ -2019,3 +2019,12 @@ prime `p=262337` has only `7` toral quotient trades and zero nontoral quotient
 residue.  This does not certify the full h=8 n64 row; it says the remaining
 q3 obstruction, if any, is non-antipodal primitive structure or another paid
 branch, not an antipodal square-lift.
+
+Continuation h=8 x83 interface update: the forced-root obstruction interface
+has now been replayed directly on the h=8 n64 square-lift branch.  All paid
+antipodal lifts are x83-zero with nonzero square `lambda`: `15/15` at low
+`p=193`, `7/7` at `p=4289`, and `7/7` at `p=262337`.  The h=8
+first-obstruction sensitivity check passes, and deterministic non-antipodal
+samples of `4096` supports at `p=4289` and `p=262337` contain zero full x83-zero
+supports.  This is an interface packet, not a full certificate; the remaining
+h=8 n64 task is a sharded non-antipodal certifier using these obstruction keys.

@@ -5105,3 +5105,36 @@ diagnostic.  At the `q3_n64_h8` prime `p=262337`, the quotient h=4 branch has
 only `7` toral anchored trades and zero nontoral quotient residue.  This does
 not certify the non-antipodal h=8 branch, but it rules out an unaccounted
 antipodal square-lift obstruction at the q3 row.
+
+## 2026-07-08 Bonus queue continuation: h=8 n=64 x83 obstruction interface
+
+Stage: bonus item (ii), h=6/7/8 ladder sweep.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_OBSTRUCTION_INTERFACE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_obstruction_interface.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_obstruction_interface.py
+```
+
+Digest:
+
+```text
+H8_N64_X83_INTERFACE_PASS
+```
+
+Result: the x83 forced-root obstruction vector recognizes every paid antipodal
+h=8 lift from the h=4 quotient branch: `15/15` at low `p=193`, `7/7` at
+`p=4289`, and `7/7` at `p=262337` have all seven low obstructions zero and
+nonzero square `lambda`.  The h=8 first-obstruction sensitivity check also
+passes at these primes.  Deterministic non-antipodal support samples of size
+`4096` at `p=4289` and `p=262337` found zero full x83-zero supports.  This is
+not a full h=8 n64 certificate; it banks the exact key interface for the future
+non-antipodal sharded certifier.
