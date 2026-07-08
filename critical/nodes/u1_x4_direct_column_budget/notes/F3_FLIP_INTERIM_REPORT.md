@@ -248,6 +248,26 @@ under the same single-shift hypothesis `n^4 < p^3`.  Its repeat-residue
 contribution is therefore at most `1584 n^(5/3)`.  The future LP4 theorem may
 exclude `r^2+r+1=0` and focus on the genuine four-form cell.
 
+The repeat-boundary fiber-cap packet gives a second route for the genuine
+cell.  For any fixed nondegenerate `r`, dropping the last two line conditions
+leaves a two-affine coset intersection, hence
+
+```text
+T_r <= 66 n^(2/3).
+```
+
+If `R_genuine` is the number of active non-q0 line parameters, then
+
+```text
+B_line <= 132 n^(2/3) + 66 n^(2/3) R_genuine,
+repeat_residue
+  <= 1584 n^(5/3) + 792 n^(5/3) R_genuine + 18n^2.
+```
+
+Thus a support theorem `R_genuine <= C n^beta` with `beta < 4/3` would pay the
+repeat residue subcubically; a linear support theorem would give an
+`O(n^(8/3))` residue payment.
+
 The dilation-lift packet justifies the normalization factor in the activation
 compiler.  If `A_3(n,p)` counts activated unordered shape-pair orbits modulo
 common multiplication by `H`, then the raw unnormalized shape-pair count is at

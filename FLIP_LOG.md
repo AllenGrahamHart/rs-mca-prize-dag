@@ -4070,3 +4070,55 @@ p=257 n=128 q0_roots=0 q0_count=0
 H3_REPEAT_BOUNDARY_Q0_CELL_PASS
 elapsed=0.02 maxrss=11392
 ```
+
+## T2 h=3 repeat-boundary fiber cap
+
+Stage selected: extract a support-reduction route from the h=2 coset-pair
+Stepanov corollary for all line-pencil parameters, not just q0.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_FIBER_CAP.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_fiber_cap.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_fiber_cap.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_BOUNDARY_FIBER_CAP_PASS
+```
+
+Result: for every fixed nondegenerate line parameter, dropping two membership
+conditions leaves a two-affine multiplicative-coset intersection, so
+
+```text
+T_r <= 66 n^(2/3).
+```
+
+After paying q0, the repeat boundary satisfies
+
+```text
+B_line <= 132 n^(2/3) + 66 n^(2/3) R_genuine,
+repeat_residue
+  <= 1584 n^(5/3) + 792 n^(5/3) R_genuine + 18n^2.
+```
+
+A future support bound `R_genuine=O(n^beta)`, `beta<4/3`, is enough for a
+subcubic repeat-residue payment.
+
+Focused replay:
+
+```text
+p=97 n=32 B_line=90 support=62 genuine_support=60 max_fiber=3
+p=193 n=64 B_line=342 support=170 genuine_support=168 max_fiber=5
+p=257 n=128 B_line=3786 support=252 genuine_support=252 max_fiber=20
+H3_REPEAT_BOUNDARY_FIBER_CAP_PASS
+elapsed=0.04 maxrss=11516
+```

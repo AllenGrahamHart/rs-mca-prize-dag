@@ -66,7 +66,9 @@ No Modal job is required for the aggregate replay.
    LP4 Stepanov compiler has reduced-condition gate `LP4-RED(5)`; the missing
    theorem is now the named `LP4-RANK/LP4-NV` line-pencil nonvanishing gate.
    The special triple-repeat cell `r^2+r+1=0` is already paid by the h=2
-   coset-pair Stepanov corollary: `B_q0 <= 132 n^(2/3)`.
+   coset-pair Stepanov corollary: `B_q0 <= 132 n^(2/3)`.  Every fixed
+   non-q0 line fiber also has the h=2 cap `T_r <= 66 n^(2/3)`, reducing the
+   remaining residue problem to an active-support bound for line parameters.
 8. The h=3 dilation-normalized activation count lifts to at most `n` raw
    shape pairs per orbit; side-swap stabilizers only reduce the lift size.
 9. Nondegenerate h=3 conic charts have no internal constant-ratio collapse
