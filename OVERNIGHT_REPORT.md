@@ -76,7 +76,8 @@ complete with `1/129766` actual activation.  The thirty-ninth core type
 core type `(0,1,41)` is complete with `3/129766` actual activations.  The
 forty-first core type `(0,1,42)` is complete with `3/129766` actual
 activations.  The forty-second core type `(0,1,43)` is complete with
-`3/129766` actual activations.
+`3/129766` actual activations.  The forty-third core type `(0,1,44)` is
+complete with `3/129766` actual activations.
 
 ## Claims
 
