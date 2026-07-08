@@ -72,6 +72,9 @@ certificate give:
 - the compiled h=5 replay gives complete zero anchored nontoral certificates
   at `n=32,h=5` for
   `p in {1153,3137,12289,32801,40961,61441,65537}`;
+- the compiled n=64 h=5 replay gives complete zero anchored nontoral
+  certificates for
+  `p in {4289,12289,40961,65537,262337}`;
 - M720 separately replays the low-row h=5 gate `full_census(32,5,97)=96`,
   all non-toral, below the q >= n^2 regime.
 
@@ -106,6 +109,7 @@ Do not promote h=5 to `PROVED` from the current evidence alone.
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
 ```
 
 Expected digest:
@@ -113,4 +117,5 @@ Expected digest:
 ```text
 H4_H5_BONUS_REDUCTION_PASS
 H5_N32_MULTIROW_CERTIFICATE_PASS
+H5_N64_MULTIROW_CERTIFICATE_PASS
 ```

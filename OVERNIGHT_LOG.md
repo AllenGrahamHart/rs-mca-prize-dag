@@ -4753,3 +4753,37 @@ dilation-shape orbits at a fixed row.  The target theorem
 `T_3 < n^3` from `n>=17` already for `C=16`.  The note records the
 hyperbola/Stepanov ansatz as a multi-Delta rich-value theorem for shifted
 subgroup product incidences.
+
+## 2026-07-08 Bonus queue continuation: h=5 n=64 certificates
+
+Stage: bonus item (i), h=4/h=5 emptiness evidence extension.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.json
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+```
+
+Digests:
+
+```text
+H5_N64_MULTIROW_CERTIFICATE_PASS
+H4_H5_BONUS_REDUCTION_PASS
+```
+
+Result: complete anchored certificates at `n=64,h=5` for
+`p=4289,12289,40961,65537,262337`.  Each row checks `595665` anchored
+left subsets and `7028847` right subsets, with zero anchored nontoral trades
+and no `n^3` alarm.  The single-prime timing gate `p=4289` ran in under
+4 seconds and the full five-prime replay ran in under 18 seconds, with peak
+RSS below 90 MB.  This strengthens finite-row h=5 no-primitive evidence; no
+uniform h=5 theorem is claimed.

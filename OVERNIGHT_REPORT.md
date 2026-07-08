@@ -1945,3 +1945,11 @@ With `A_3(n,p)` the number of activated non-toral dilation-shape orbits at a
 fixed row, the target `A_3(n,p) <= Cn` compiles to `T_3<n^3` for all `n>=17`
 when `C=16`.  The note records the hyperbola/Stepanov ansatz as a multi-Delta
 rich-value theorem; no proof of this target is claimed.
+
+Continuation h=5 update: a compiled complete `n=64,h=5` multirow certificate
+now covers `p=4289,12289,40961,65537,262337`.  Each row checks `595665`
+anchored left subsets and `7028847` right subsets, with zero anchored
+nontoral trades and no `n^3` alarm.  The replay is local-light
+(`p=4289` under 4 seconds; all five primes under 18 seconds; peak RSS below
+90 MB).  This extends the h=5 finite-row zero evidence from n=32 to n=64, but
+does not promote a uniform h=5 no-primitive theorem.
