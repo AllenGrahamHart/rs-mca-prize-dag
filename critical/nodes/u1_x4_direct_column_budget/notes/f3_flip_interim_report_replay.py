@@ -173,6 +173,14 @@ COMMANDS = [
         "H3_PRIVATE_LINEAR_COMPILER_GUARD_PASS",
     ),
     (
+        "h3 private-linear low-row budget",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_lowrow_budget.py",
+        ],
+        "H3_PRIVATE_LINEAR_LOWROW_BUDGET_PASS",
+    ),
+    (
         "h3 rank-avoidance interface",
         [
             sys.executable,

@@ -3040,3 +3040,35 @@ budget.  This is a ledger simplification, not a proof of `RC-RANK` or the
 geometric bridge.  Standalone replay passes in `0.03s` locally
 (`maxrss=11648`).  The default aggregate replay passes with this packet
 included in `42.86s` locally (`maxrss=98780`).
+
+## T1 h=3 private-linear low-row budget
+
+Stage selected: make the private-linear fallback route concrete for the first
+official h=3 rows.  The private-linear compiler guard says the current
+degree-2 budget table cannot be reused if the eventual rank theorem only proves
+private-linear degree-space fullness; this packet starts the required retuned
+compiler.
+
+New packet:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_LOWROW_BUDGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_lowrow_budget.py
+```
+
+Result: with `L_private=(A-1)+3n(B-1)`, the exact low-row budgets are:
+
+```text
+s=13: Z_private=23
+s=14: Z_private=29
+s=15: Z_private=37
+s=16: Z_private=47
+s=17: Z_private=59
+```
+
+For each row the verifier checks a pinned passing witness and scans the exact
+finite `B` cap for `Z+1` failure.  This is a conditional arithmetic compiler
+slice only: it does not prove private-linear rank, it does not cover `s>=18`,
+and it does not prove the geometric bridge.  Standalone replay passes in
+`0.04s` locally (`maxrss=13056`).  The default aggregate replay passes with
+this packet included in `43.10s` locally (`maxrss=98796`).
