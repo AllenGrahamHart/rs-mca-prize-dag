@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4702,7 +4702,7 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat forced-coordinate-2 normal form
@@ -4752,7 +4752,7 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat hitting exception scan
@@ -4796,7 +4796,7 @@ Focused replay:
 ```text
 H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat singleton-hitting stress
@@ -4854,7 +4854,7 @@ Focused replay:
 ```text
 H3_REPEAT_SINGLETON_HITTING_STRESS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat star-obstruction compiler
@@ -4906,7 +4906,7 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat edge reciprocal form
@@ -4948,7 +4948,7 @@ Focused replay:
 ```text
 H3_REPEAT_EDGE_RECIPROCAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat star-obstruction taxonomy
@@ -4991,7 +4991,7 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_TAXONOMY_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat edge cubic gcd form
@@ -5033,7 +5033,7 @@ Focused replay:
 ```text
 H3_REPEAT_EDGE_CUBIC_GCD_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat pair-intersection compiler
@@ -5082,7 +5082,7 @@ Focused replay:
 ```text
 H3_REPEAT_PAIR_INTERSECTION_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat lambda-fiber ledger
@@ -5123,7 +5123,7 @@ Focused replay:
 ```text
 H3_REPEAT_LAMBDA_FIBER_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat quadratic-rho compiler
@@ -5171,7 +5171,7 @@ Focused replay:
 ```text
 H3_REPEAT_QUADRATIC_RHO_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat pairwise-coreless compiler
@@ -5215,7 +5215,7 @@ Focused replay:
 ```text
 H3_REPEAT_PAIRWISE_CORELESS_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat affine value-slope compiler
@@ -5257,7 +5257,7 @@ Focused replay:
 ```text
 H3_REPEAT_AFFINE_VALUE_SLOPE_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## T2/T3 h=3 repeat coreless-pattern compiler
@@ -5301,5 +5301,53 @@ Focused replay:
 ```text
 H3_REPEAT_CORELESS_PATTERN_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
+```
+
+## T2/T3 h=3 repeat linear-hypergraph compiler
+
+Stage selected: use the active-edge formula to remove non-linear coreless
+patterns.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LINEAR_HYPERGRAPH_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_linear_hypergraph_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_linear_hypergraph_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LINEAR_HYPERGRAPH_COMPILER_PASS
+```
+
+Result: any active coordinate pair `a,b` determines the third coordinate
+
+```text
+c = 1 - (a-1)(b-1)/(a+b-2).
+```
+
+Thus distinct active edges intersect in at most one coordinate.  Pinched
+triangles and tetrahedra repeat coordinate pairs, so they are impossible for
+active repeat-boundary edges.  The surviving obstruction targets are now:
+
+```text
+H3-VALUE-INJECTIVE
+H3-SLOPE-HIT
+H3-NO-LOOSE-TRIANGLE
+```
+
+Focused replay:
+
+```text
+H3_REPEAT_LINEAR_HYPERGRAPH_COMPILER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=16.49 maxrss=50104
 ```

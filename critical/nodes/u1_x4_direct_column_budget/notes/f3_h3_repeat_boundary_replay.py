@@ -162,6 +162,11 @@ COMMANDS = [
         "f3_h3_repeat_coreless_pattern_compiler.py",
         "H3_REPEAT_CORELESS_PATTERN_COMPILER_PASS",
     ),
+    (
+        "h3 repeat linear-hypergraph compiler",
+        "f3_h3_repeat_linear_hypergraph_compiler.py",
+        "H3_REPEAT_LINEAR_HYPERGRAPH_COMPILER_PASS",
+    ),
 ]
 
 

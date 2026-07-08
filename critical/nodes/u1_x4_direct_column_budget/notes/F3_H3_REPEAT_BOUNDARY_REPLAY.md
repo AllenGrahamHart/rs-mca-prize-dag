@@ -40,6 +40,7 @@ The harness runs:
 - the star-obstruction taxonomy.
 - the pairwise-coreless compiler.
 - the coreless-pattern compiler.
+- the linear-hypergraph compiler.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch
 Modal.

@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=17.20 maxrss=50024
+elapsed=16.49 maxrss=50104
 ```
 
 ## Confidence-ranked claims
@@ -138,7 +138,10 @@ elapsed=17.20 maxrss=50024
    The pairwise-coreless case further splits into a 3-edge coreless triangle
    or the tetrahedral four-3-subsets pattern.  The 3-edge coreless triangle
    further has only two combinatorial patterns: loose `(1,1,1)` and pinched
-   `(1,1,2)` pair-intersection sizes.
+   `(1,1,2)` pair-intersection sizes.  But active edges are linear: a pair of
+   coordinates determines the third, so pinched triangles and tetrahedra are
+   impossible.  The only surviving pairwise-coreless obstruction is the loose
+   triangle.
    A full-degree-space shortcut for LP4 affine factors is false already in a
    two-factor rational model, so the rank gate must be proved in its weaker
    threshold form or bypassed by support/incidence arguments.

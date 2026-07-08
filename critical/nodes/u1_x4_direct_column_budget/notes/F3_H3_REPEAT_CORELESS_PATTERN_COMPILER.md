@@ -44,6 +44,11 @@ H3-NO-PINCHED-TRIANGLE
 H3-NO-TETRAHEDRON
 ```
 
+The later linear-hypergraph compiler proves that active edges cannot repeat a
+coordinate pair.  Hence the pinched-triangle and tetrahedron cases are
+automatic for active repeat-boundary edges, leaving only the loose-triangle
+case.
+
 ## Guardrails
 
 The verifier checks abstract models for all three obstruction patterns.  The

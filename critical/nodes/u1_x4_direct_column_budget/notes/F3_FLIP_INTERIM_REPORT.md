@@ -621,6 +621,17 @@ pairwise-intersecting coreless triple of 3-edges has sorted pair-intersection
 sizes only `(1,1,1)` or `(1,1,2)`, giving the two targets
 `H3-NO-LOOSE-TRIANGLE` and `H3-NO-PINCHED-TRIANGLE`.
 
+The linear-hypergraph compiler then removes two of these cases for active
+repeat-boundary edges.  Any coordinate pair `a,b` forces the third coordinate
+
+```text
+c = 1 - (a-1)(b-1)/(a+b-2),
+```
+
+so two distinct active edges cannot share two coordinates.  Therefore
+pinched triangles and tetrahedra are impossible; the only remaining
+pairwise-coreless target is `H3-NO-LOOSE-TRIANGLE`.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -649,7 +660,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `17.20s` locally and ends with
+It runs in about `16.49s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
