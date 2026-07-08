@@ -74,6 +74,35 @@ def require_h8_full_certificate(row: dict, p: int = 1153) -> None:
             raise AssertionError((key, row.get(key), value, row))
 
 
+def require_h6_n64_certificate(row: dict) -> None:
+    expected = {
+        "name": "boundary_n64_h6_p4289_SHARDED_CPP",
+        "n": 64,
+        "h": 6,
+        "p": 4289,
+        "W": 64,
+        "shards": 16,
+        "shards_completed": 16,
+        "hashed_per_shard": 7028847,
+        "probed": 67945521,
+        "anchored_toral_trades": 0,
+        "anchored_nontoral_trades": 0,
+        "partial": False,
+        "complete": True,
+        "direct_n3_exceeded": False,
+    }
+    for key, value in expected.items():
+        if row.get(key) != value:
+            raise AssertionError((key, row.get(key), value, row))
+    rows = row.get("rows")
+    if not isinstance(rows, list) or len(rows) != 16:
+        raise AssertionError(row)
+    if [item.get("shard") for item in rows] != list(range(16)):
+        raise AssertionError(rows)
+    if sum(item.get("probed", 0) for item in rows) != row["probed"]:
+        raise AssertionError(row)
+
+
 def main() -> None:
     loaded = {filename: load_rows(filename) for filename in FULL_ZERO_ROWS}
     full_count = 0
@@ -93,8 +122,11 @@ def main() -> None:
         raise AssertionError(h8_multi)
     for row in h8_multi:
         require_h8_full_certificate(row, row["p"])
+    h6_n64 = json.loads((NOTES / "f3_h6_n64_boundary_certificate.json").read_text())
+    require_h6_n64_certificate(h6_n64)
 
     print(f"h=6/h=7 full zero rows verified: {full_count}")
+    print("h=6 n64 full anchored certificates verified: 1")
     print("h=8 full anchored certificates verified: 6")
     print(f"h=8 partial zero slices remaining: {len(PARTIAL_H8_ROWS)}")
     print("H6_H8_BONUS_SWEEP_PASS")

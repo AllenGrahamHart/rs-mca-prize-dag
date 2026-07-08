@@ -1,12 +1,12 @@
 # F3 h=6/7/8 bonus sweep status
 
-Status: VERIFIED-AT-ROWS + SIX FULL H8 N32 CERTIFICATES + HONEST REMAINING H8
-PARTIALS.  This is bonus item (ii) after Terminals A/B/C: sweep `h = 6,7,8`
-with the ladder machinery.
+Status: VERIFIED-AT-ROWS + FULL H6 N64 CERTIFICATE + SIX FULL H8 N32
+CERTIFICATES + HONEST REMAINING H8 PARTIALS.  This is bonus item (ii) after
+Terminals A/B/C: sweep `h = 6,7,8` with the ladder machinery.
 
-No new heavy computation is claimed here.  The pass consolidates the existing
-Modal artifacts into a replayed status ledger and separates full certificates
-from partial slices.
+This pass consolidates the existing Modal artifacts, adds one new complete
+Modal-sharded h=6 n=64 certificate, and separates full certificates from
+partial slices.
 
 ## Pre-registration
 
@@ -50,6 +50,17 @@ smooth_n32_h6_p65537        zero, full
 smooth_n32_h7_p65537        zero, full
 ```
 
+New complete h=6 n=64 row:
+
+```text
+boundary_n64_h6_p4289_SHARDED_CPP  complete anchored certificate:
+                                    toral=0, nontoral=0, partial=False
+```
+
+The certificate is in `f3_h6_n64_boundary_certificate.json`; it is produced by
+`f3_h6_n64_boundary_modal.py` and locally verified by
+`f3_h6_n64_boundary_certificate.py`.
+
 Upgraded complete h=8 rows:
 
 ```text
@@ -81,10 +92,11 @@ q3_n64_h8                   zero in checked slice, partial=True
 ## Interpretation
 
 The h=6/h=7 rows continue the pattern from the shallow ladder: no primitive
-residue appears in the q>=n^2 boundary/smooth tests.  The n=32 h=8 boundary
-rows now meet the same complete anchored standard at six primes.  The n=64
-h=8 rows do not yet meet that standard because the runs were sliced by the
-60-second Modal budget.
+residue appears in the q>=n^2 boundary/smooth tests.  The h=6 evidence now
+includes a complete `n=64` row at the first boundary prime above `n^2`.  The
+n=32 h=8 boundary rows meet the same complete anchored standard at six primes.
+The n=64 h=8 rows do not yet meet that standard because the runs were sliced by
+the 60-second Modal budget.
 
 Next h=8 action:
 
@@ -98,10 +110,15 @@ explicit norm-gate keys.
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.py
+~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
 ```
 
 Expected digest:
 
 ```text
 H6_H8_BONUS_SWEEP_PASS
+H6_N64_BOUNDARY_CERTIFICATE_JSON_PASS
+H6_N64_BOUNDARY_CERTIFICATE_PASS
 ```

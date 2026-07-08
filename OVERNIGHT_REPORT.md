@@ -1977,3 +1977,12 @@ finding zero anchored toral trades, zero anchored nontoral trades, and no
 `n^3` alarm.  Max shard times were `17.419s`, `14.298s`, `13.750s`,
 `15.603s`, `17.424s`, and `14.759s`.  The n=128 h=5 ladder therefore has
 seven complete zero rows: `17921,18049,18433,19073,19457,19841,20353`.
+
+Continuation h=6 Modal update: the first complete `n=64,h=6` boundary row is
+now certified at `p=4289`.  A single local compiled run hit the 60-second cap,
+so the replay was converted to 16 Modal shards with 60-second container
+timeouts.  The complete aggregate checks `67945521` right subsets with
+`7028847` anchored left subsets per shard, finding zero anchored toral trades,
+zero anchored nontoral trades, and no `n^3` alarm.  Max shard elapsed time was
+`10.634s`.  The aggregate h6/h8 replay now requires this JSON certificate and
+still reports the two remaining h=8 n=64 slices as partial evidence.

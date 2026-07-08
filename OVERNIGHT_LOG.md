@@ -4897,3 +4897,47 @@ anchored toral trades, zero anchored nontoral trades, and no `n^3` alarm.
 Max shard times were `17.419s`, `14.298s`, `13.750s`, `15.603s`,
 `17.424s`, and `14.759s`.  The n=128 h=5 boundary ladder now has seven
 complete prime rows: `17921,18049,18433,19073,19457,19841,20353`.
+
+## 2026-07-08 Bonus queue continuation: h=6 n=64 Modal boundary certificate
+
+Stage: bonus item (ii), h=6/7/8 ladder sweep.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_N64_BOUNDARY_CERTIFICATE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.json
+```
+
+Replay:
+
+```bash
+~/.venvs/modal/bin/modal run \
+  critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+```
+
+Digests:
+
+```text
+H6_N64_BOUNDARY_CERTIFICATE_PASS
+H6_N64_BOUNDARY_CERTIFICATE_JSON_PASS
+H6_H8_BONUS_SWEEP_PASS
+```
+
+Result: complete Modal-sharded anchored certificate at `n=64,h=6,p=4289`.
+The first local compiled attempt was killed by `timeout 60s` at `60.00s` with
+max RSS `86840KB`, so the row was sharded into 16 Modal tasks under the
+60-second container cap.  The complete replay checks `67945521` right subsets
+with `7028847` anchored left subsets per shard, finding zero anchored toral
+trades, zero anchored nontoral trades, and no `n^3` alarm.  Max shard elapsed
+time was `10.634s`.
+
+Modal run:
+
+```text
+https://modal.com/apps/allengrahamhart/main/ap-9ZeZrlz8FyYuLIIJAq2TgD
+```
