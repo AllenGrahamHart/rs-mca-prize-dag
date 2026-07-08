@@ -1556,6 +1556,14 @@ This is arithmetic slack for high rows, not `H3-ACT(C)`: the missing pieces are
 still the rank theorem and the F3 geometric batching/charging from activated
 shape pairs to repaired curve families.
 
+The h=3 frontier ledger now replays this surface in one place.  It imports the
+activation compiler, the official non-diagonal and private-linear budget
+tables, the rank-effective capacity repair, the L2/level-set bridge compiler,
+and the repeat-boundary frontier ledger.  Its printed open gates are
+`F3-RANK-AVOID/RC-NV`, `H3-BRIDGE-RANKCAP`, the private-linear alternate, and
+the h=3 repeat-boundary star gates.  This is a consistency ledger, not a new
+proof of `H3-ACT`.
+
 The bridge-budget compiler turns that geometry gap into an explicit contract.
 If, on row `n=2^s`, activated shape pairs batch into a repaired curve family of
 size at most `Z_budget(s)`, then `RC-RANK` plus the current diagonal arithmetic

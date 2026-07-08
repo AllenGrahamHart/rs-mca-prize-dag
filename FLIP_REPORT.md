@@ -46,6 +46,18 @@ F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=43.61 maxrss=53264
 ```
 
+The h=3 proof surface now has a standalone frontier ledger:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digest:
+
+```text
+H3_FRONTIER_LEDGER_PASS
+```
+
 The T4 residual frontier also has a standalone ledger:
 
 ```bash
