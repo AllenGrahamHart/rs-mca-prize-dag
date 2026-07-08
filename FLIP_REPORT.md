@@ -299,7 +299,8 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    p-specific x83 norm-gate event.  The h=5 x83 low obstruction keys are now
    compiled into a triangular system
    `D_j E_j = -D_j l_j + P_j(l5,...,l9)`, giving exact per-key
-   norm-divisor bounds for the remaining branch.
+   norm-divisor bounds and reciprocal high-coefficient equations for the
+   remaining branch.
 17. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.

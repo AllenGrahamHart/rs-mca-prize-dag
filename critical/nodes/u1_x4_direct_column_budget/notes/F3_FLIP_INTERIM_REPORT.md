@@ -1686,7 +1686,10 @@ The h=5 x83 obstruction interface is now triangularized.  For the
 denominators are `16384,16384,256,512`, and the largest conservative conjugate
 bound is `1,104,676,577,280`.  Thus every finite-row primitive h=5 survivor is
 now an explicit divisor event for one of four triangular obstruction keys, not
-an unstructured norm-gate phrase.
+an unstructured norm-gate phrase.  Since a 10-support locator in `mu_n` also
+satisfies `l_j=delta*conjugate(l_{10-j})`, these keys become four explicit
+reciprocal equations on the top half of the locator and the support product
+`delta`.
 
 The certificate scaling frontier explains why the current finite-certificate
 format is not that maintainable family.  The banked n=128 Modal rows use

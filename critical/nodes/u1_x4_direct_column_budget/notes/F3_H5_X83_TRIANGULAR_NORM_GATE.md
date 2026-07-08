@@ -61,6 +61,30 @@ Thus the first x83 obstruction already forces `l4` as an explicit polynomial in
 the top five locator coefficients modulo any odd row prime.  The remaining
 three keys then successively force `l3,l2,l1`.
 
+## Reciprocal Unit-Root Form
+
+Because all support roots lie in `mu_n` and the support size is even, the
+locator is self-reciprocal up to its product `delta=l0`:
+
+```text
+l_j = delta * conjugate(l_{10-j}),  j=1,...,9.
+```
+
+Substituting this into the triangular equations gives four equations involving
+only the top coefficients, their reciprocal conjugates, and `delta`.  The first
+one is:
+
+```text
+512*delta*bar_l6 =
+256*l5*l9 + 256*l6*l8 - 192*l6*l9^2
++ 128*l7^2 - 384*l7*l8*l9 + 160*l7*l9^3
+- 64*l8^3 + 240*l8^2*l9^2 - 140*l8*l9^4 + 21*l9^6.
+```
+
+This is a sharper h=5 theorem target than a raw norm-gate slogan: a primitive
+h=5 survivor must satisfy four explicit reciprocal polynomial identities on
+the high half of its locator.
+
 ## Norm-Divisor Consequence
 
 For a 10-root locator, every conjugate satisfies
@@ -88,7 +112,8 @@ n=2^41: <= 536,437,794,038
 
 This is not strong enough by itself to close h=5, because it is a per-support
 bound.  Its role is to replace the vague "p-specific norm-gate event" with an
-explicit triangular obstruction system plus exact norm-divisor constants.
+explicit reciprocal triangular obstruction system plus exact norm-divisor
+constants.
 
 ## Replay
 

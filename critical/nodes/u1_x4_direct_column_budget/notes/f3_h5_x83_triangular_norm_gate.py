@@ -16,6 +16,8 @@ import sympy as sp
 H = 5
 X = sp.Symbol("X")
 LOCATOR = sp.symbols("l0:10")
+DELTA = sp.Symbol("delta")
+BAR_HIGH = {index: sp.Symbol(f"bar_l{index}") for index in range(6, 10)}
 
 
 @dataclass(frozen=True)
@@ -126,6 +128,21 @@ def first_obstruction_formula() -> str:
     return str(sp.factor(sp.expand(expr * denominator)))
 
 
+def reciprocal_equation(key_index: int) -> sp.Expr:
+    """Return P_j - D_j delta*bar(l_{10-j}) for the cleared key E_j."""
+    expr = low_obstructions()[key_index]
+    denominator = integer_denominator(expr)
+    cleared = sp.expand(expr * denominator)
+    poly = sp.Poly(cleared, *LOCATOR, domain=sp.ZZ)
+    require_triangular(key_index, poly, denominator)
+    without_low = sp.expand(cleared + denominator * LOCATOR[key_index])
+    return sp.factor(without_low - denominator * DELTA * BAR_HIGH[2 * H - key_index])
+
+
+def first_reciprocal_formula() -> str:
+    return str(reciprocal_equation(4))
+
+
 def main() -> None:
     rows = key_bounds()
     expected = {
@@ -163,6 +180,8 @@ def main() -> None:
         )
     print("first obstruction E4 cleared formula:")
     print(first_obstruction_formula())
+    print("first reciprocal obstruction E4=0 with l4=delta*bar_l6:")
+    print(first_reciprocal_formula())
     print(f"max low-key conjugate bound: {max_low_bound}")
     print("per fixed nonzero key, prime-divisor bound for p>=n^2:")
     for s, value in official_samples.items():
