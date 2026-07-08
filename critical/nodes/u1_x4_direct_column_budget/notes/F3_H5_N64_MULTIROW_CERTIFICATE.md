@@ -45,8 +45,8 @@ direct n^3 alarm        = false
 ```
 
 Thus the h=5 no-primitive evidence now has five complete `n=64` rows in
-addition to the seven complete `n=32` rows.  This remains finite-row evidence,
-not a uniform h=5 theorem.
+addition to the expanded `56`-row `n=32` bank.  This remains finite-row
+evidence, not a uniform h=5 theorem.
 
 ## Replay
 

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import subprocess
+import sys
 import tempfile
 from pathlib import Path
 
@@ -16,7 +17,64 @@ OUT = (
     / "f3_h5_n32_multirow_certificate.json"
 )
 
-PRIMES = (1153, 3137, 12289, 32801, 40961, 61441, 65537)
+PRIMES = (
+    1153,
+    1217,
+    1249,
+    1409,
+    1601,
+    1697,
+    1889,
+    2017,
+    2081,
+    2113,
+    2273,
+    2593,
+    2657,
+    2689,
+    2753,
+    3041,
+    3137,
+    3169,
+    3329,
+    3361,
+    3457,
+    3617,
+    4001,
+    4129,
+    4289,
+    4481,
+    4513,
+    4673,
+    4801,
+    4993,
+    5153,
+    5281,
+    5441,
+    5569,
+    5857,
+    5953,
+    6113,
+    6337,
+    6529,
+    6689,
+    6977,
+    7297,
+    7393,
+    7457,
+    7489,
+    7649,
+    7681,
+    7841,
+    7873,
+    7937,
+    8161,
+    12289,
+    32801,
+    40961,
+    61441,
+    65537,
+)
 
 CPP = r'''
 #include <algorithm>
@@ -217,8 +275,9 @@ def run_certificate(p: int) -> dict:
 
 
 def main() -> None:
+    primes = tuple(int(arg) for arg in sys.argv[1:]) or PRIMES
     rows = []
-    for p in PRIMES:
+    for p in primes:
         row = run_certificate(p)
         expected = {
             "n": 32,
@@ -238,7 +297,8 @@ def main() -> None:
                 raise AssertionError((p, key, row.get(key), value, row))
         rows.append(row)
 
-    OUT.write_text(json.dumps(rows, indent=2, sort_keys=True) + "\n")
+    if not sys.argv[1:]:
+        OUT.write_text(json.dumps(rows, indent=2, sort_keys=True) + "\n")
     for row in rows:
         print(json.dumps(row, sort_keys=True))
     print("H5_N32_MULTIROW_CERTIFICATE_PASS")

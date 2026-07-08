@@ -36,10 +36,11 @@ Failure criterion:
 
 ## Certified rows
 
-The existing evidence consists of 20 complete zero rows:
+The existing evidence consists of 69 complete zero rows:
 
 ```text
-n=32:  p in {1153, 3137, 12289, 32801, 40961, 61441, 65537}
+n=32:  all admissible primes p = 1 mod 32 with 32^2 < p <= 8161,
+       plus p in {12289, 32801, 40961, 61441, 65537}
 n=64:  p in {4289, 12289, 40961, 65537, 262337}
 n=96:  p = 9601
 n=128: p in {17921, 18049, 18433, 19073, 19457, 19841, 20353}
@@ -75,7 +76,7 @@ The current replay output is:
 
 ```text
  n  cert  first_p  max_p   admiss<=max  missing<=max  right_probes
- 32     7     1153   65537          402          395       1189377
+ 32    56     1153   65537          402          346       9515016
  64     5     4289  262337          694          689      35144235
  96     1     9601    9601            1            0      57940519
 128     7    17921   20353            7            0    1779622425

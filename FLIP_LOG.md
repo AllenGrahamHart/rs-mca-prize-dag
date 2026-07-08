@@ -1394,3 +1394,49 @@ p=262337,r=2: supports=947,520 first_zero=1344 full_zero=0
 
 The final single-prime radius-two replays took 33.19s and 38.06s locally, so they are
 kept as standalone commands rather than folded into the default aggregate.
+
+## T4 h=5 n32 contiguous-prefix certificate expansion
+
+Stage selected: convert the h=5 `n=32` evidence from sparse selected primes to
+a certified contiguous low-prime prefix, while keeping the replay local and
+under the 60-second cap.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N32_MULTIROW_CERTIFICATE.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digests:
+
+```text
+H5_N32_MULTIROW_CERTIFICATE_PASS
+H5_CERTIFICATE_COVERAGE_AUDIT_PASS
+H4_H5_BONUS_REDUCTION_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the `n=32,h=5` certificate bank now covers every admissible prime
+`p = 1 mod 32` with `32^2 < p <= 8161`, plus the previous high selected rows
+`{12289, 32801, 40961, 61441, 65537}`.  This is `56` complete zero rows at
+`n=32`, up from `7`.  The full generator replay took `33.05s` locally and
+processed `9,515,016` total right-side subsets.  The h=5 coverage audit now
+checks `69` total complete zero rows and `1,882,222,195` total right-side
+probes; remaining missing admissible primes up to the current max are `346` for
+`n=32` and `689` for `n=64`.
