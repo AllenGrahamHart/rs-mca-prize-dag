@@ -21,6 +21,7 @@ order 12 precedent, already encoded in v13_prefix_collision_ledger).
 | image-fiber list-side correction | TARGET pending read | v13 raw | ledger only (petal lane) | -- | hygiene import; verify before wiring |
 | entropy-subfield envelope | stays CONJECTURE (agree with Codex) | def:capff1-gstar | v13_entropy_envelope_conjecture (unchanged) | -- | never a proof parent |
 | Lean packages | statement-discipline reference only (agree) | experimental/lean | none | -- | not proof |
+| line-ray saturation identity | PROVED (2026-07-08: proof read + independent Modal replay, 14 pairs, per-word + line + W-scan forms all exact) | grande_finale thm:saturation + prop:line-ray-saturation | f5_lineray_saturation_instrument (NEW, ev -> xr_smallcore_spread_count); F5_SKELETON P8 | support censuses factor through rays with exact fiber C(s,m); F5's per-W scan overcounts each ray by exactly C(s,k) | NOT an anti-concentration bound; the W-collision moment stays open |
 
 Codex's "7 not 8" caveat: resolved — the critical surface has exactly 7 reds
 (correct as rendered); the shared_census_kernel red is off-critical by design.

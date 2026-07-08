@@ -641,3 +641,51 @@ honestly cited); NPB discharged conditionally on that kernel with the
 C(2r,t+1) budget. F5-OS ledger: sunflower stratum PROVED; near-pencil
 stratum DISCHARGED-MODULO-KERNEL; remaining genuinely open: the
 far-from-pencil anti-concentration heart + W-aggregation + low-core.
+
+## P8 (2026-07-08): the W-MULTIPLICITY AGGREGATION INSTRUMENT — imported
+## from upstream, proof-read, and machine-replayed (import, not new math)
+
+Upstream's grande_finale.tex proves an exact saturation identity
+(thm:saturation): for any word U, the size-m agreement-support census
+factors EXACTLY through codeword rays,
+
+    Cen(U; m) = sum_c C(s_c(U), m),
+
+with the forgetful fiber above ray c exactly C(s_c, m); and the line
+version (prop:line-ray-saturation): sum_z Cen(U_z; m) = sum over line
+rays (z,c) of C(s_{z,c}, m), whence
+
+    N_live_slopes <= #rays <= sum_z Cen(U_z; m).
+
+PROOF READ (correct; elementary (T,c)-double-count: W = ell_{D\T} monic
+of degree n-m pins T; N/W = c pins the codeword; W(x) != 0 on T forces
+U|_T = c|_T; converse trivial). MACHINE REPLAY
+(f5_p8_lineray_saturation_modal.py, 14 pairs, full enumeration, exact):
+per-word identity, line identity, AND the W-scan corollary F5 actually
+consumes,
+
+    sum_{|W|=k} #{rays through W} = sum_rays C(s_{z,c}, k),
+
+both sides counted independently — all EXACT on every pair (random +
+near-pencil, n = 12/16, q = 97). Instructive datum at the n=16
+near-pencil pairs: 8442 raw (W,z) pairs -> 160 rays -> 97 slopes; the
+mean per-ray W-fiber 45-53 vs the guaranteed minimum C(A,k).
+
+WHAT THE INSTRUMENT SETTLES: per-W pencil budgets (P5's sunflower
+lemma) now aggregate by RAYS with an exact, known fiber factor — never
+by raw (W,z) pairs; the C(n,k) naive aggregation factor was never real.
+In upstream language: MCA counts a bad slope once; the support census
+overcounts by exactly the saturation factor.
+
+WHAT REMAINS OPEN IN STRATUM (i), NOW POSED SHARPLY: the high-core
+stratum needs a bound on W-COLLISIONS — the number of k-cores W
+carrying >= 2 live slopes (each high-core pair of family members
+donates one), with per-W multiplicity already capped at (n-k)/(t-d) by
+the sunflower lemma. This is a second-moment-shaped count, adjacent to
+the PROVED shift-pair second-moment identity
+(v13_second_moment_shift_pair_identity) — the natural next tennis ball.
+F5-OS ledger after P8: sunflower PROVED; near-pencil
+DISCHARGED-MODULO-KERNEL; W-aggregation INSTRUMENTED (exact bookkeeping
+imported + replayed, collision count posed); remaining genuinely open:
+far-from-pencil anti-concentration heart, W-collision moment, low-core
+instrument.
