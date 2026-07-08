@@ -1368,6 +1368,10 @@ gives a bidegree `(2,2)` relation in `u,v`.  After clearing denominators this
 is exactly a linear relation among the nine `A=1,B=3,H=2` two-factor products;
 for `(2,3,5,7)` its coefficients are the guardrail relation
 `(81,-450,625,-72,472,-800,16,-128,256)`.
+The degree guard then checks why this does not literally hit the official
+private-linear compiler boxes: the two-factor resultant relation has bidegree
+`(H,H)`, while every official private-linear passing and next-failure witness
+has `B-1 < H=n`; the smallest margin is `8128`.
 
 The bad-prime guardrail prevents a second overstatement.  In a three-factor
 private-linear model with `A=1,B=5,H=9`, the integer coefficient matrix has

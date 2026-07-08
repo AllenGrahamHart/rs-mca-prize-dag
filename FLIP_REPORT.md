@@ -364,7 +364,8 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 4. The private-linear multigenerator theorem cannot be obtained by naive
    factor-by-factor induction.  The first two-factor loss is structural: a
    bidegree `(2,2)` resultant relation explains the exact rational rank drop
-   from `9` to `8` at `A=1,B=3,H=2`.
+   from `9` to `8` at `A=1,B=3,H=2`.  The same resultant obstruction is outside
+   every official private-linear box because all those boxes have `B-1 < H`.
 5. Characteristic-zero rank fullness is not enough by itself; rank-good minors
    must remain nonzero over the actual finite row field.
 6. h=8 exponent-unit maps and dihedral reflection are not x83 symmetries.
