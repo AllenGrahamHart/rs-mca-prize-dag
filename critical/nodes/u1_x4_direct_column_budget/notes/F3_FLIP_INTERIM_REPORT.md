@@ -1362,6 +1362,12 @@ at `A=1,B=3,H=2` with distinct private pairs `(2,3)` and `(5,7)`, the
 two-factor span has exact rational rank `8`, while
 `min(A B^2,A+2H(B-1))=9`.  The full private-linear theorem therefore needs a
 global multigenerator argument, not a factor-by-factor valuation iteration.
+The resultant packet explains this loss structurally: for
+`u=((X-alpha)/(X-beta))^2` and `v=((X-gamma)/(X-delta))^2`, eliminating `X`
+gives a bidegree `(2,2)` relation in `u,v`.  After clearing denominators this
+is exactly a linear relation among the nine `A=1,B=3,H=2` two-factor products;
+for `(2,3,5,7)` its coefficients are the guardrail relation
+`(81,-450,625,-72,472,-800,16,-128,256)`.
 
 The bad-prime guardrail prevents a second overstatement.  In a three-factor
 private-linear model with `A=1,B=5,H=9`, the integer coefficient matrix has
