@@ -29,6 +29,14 @@ COMMANDS = [
         "H2_MIDRANGE_CERTIFICATE_COSTS_PASS",
     ),
     (
+        "h3 hyperbola identity",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_hyperbola_identity.py",
+        ],
+        "H3_HYPERBOLA_IDENTITY_PASS",
+    ),
+    (
         "h3 reduced-condition compiler",
         [
             sys.executable,

@@ -365,6 +365,43 @@ p-specific norm-gate events.  The h=5 blocker is therefore precisely:
 symbolically exclude that norm-gate branch at `p = 1 mod n`, `p >= n^2`, or
 replace selected row evidence with a complete official-row certificate family.
 
+## T1 foundation: h=3 hyperbola identity
+
+Stage selected: bank the symbolic hyperbola normal form locally.  The existing
+Modal script verifies the identity on enumerated finite trades; this packet
+proves the algebraic identity that the rich-curve `RC-RED` and `RC-NV` gates
+consume.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_HYPERBOLA_IDENTITY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_hyperbola_identity.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_hyperbola_identity.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Expected digest:
+
+```text
+H3_HYPERBOLA_IDENTITY_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: for `F(T)=T^3+aT^2+bT+c`,
+
+```text
+G_F(u,v) = u^2 + uv + v^2 + a(u+v) + b = X Y - Delta
+```
+
+with the explicit `omega`-coordinates printed in the note.  This does not close
+`RC-RED` or `RC-NV`; it makes the normal-form input replayable without Modal.
+
 Next step: either attack `RC-RED` for the actual hyperbola normal-form curves,
 or pivot to T4(a)'s h=4 rigidity route while T1's nonvanishing gate is still
 open.

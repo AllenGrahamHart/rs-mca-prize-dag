@@ -40,7 +40,10 @@ the `<2000` shard policy.
 ### h=3
 
 The char-zero classification and norm-gate mechanism are banked.  The current
-per-row compiler consumes the corrected activation statement:
+hyperbola identity is now locally replayed: same-fiber pairs of
+`F(T)=T^3+aT^2+bT+c` satisfy `G_F(u,v)=XY-Delta` after the explicit
+`omega`-coordinate change.  The per-row compiler consumes the corrected
+activation statement:
 
 ```text
 H3-ACT(C): A_3(n,p) <= C n
