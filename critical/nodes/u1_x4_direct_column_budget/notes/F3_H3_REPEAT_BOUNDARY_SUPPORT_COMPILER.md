@@ -85,6 +85,16 @@ repeat_residue <= 4752 C n^(5/3+beta) + 1584 n^(5/3) + 18 n^2.
 In particular, a linear quotient-support theorem `R_orb <= Cn` gives an
 `O_C(n^(8/3))` repeat-residue bound.
 
+The support crossover compiler gives the official-row constants for this
+linear case using the integer q0/fiber caps:
+
+```text
+C=1/4: covers 2^31..2^41,
+C=1/2: covers 2^34..2^41,
+C=1:   covers 2^37..2^41,
+C=2:   covers 2^40..2^41.
+```
+
 ## Role in h=3
 
 This does not close the h=3 moment route.  It removes the bookkeeping ambiguity

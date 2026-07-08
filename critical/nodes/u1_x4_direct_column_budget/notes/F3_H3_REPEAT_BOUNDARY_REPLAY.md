@@ -43,6 +43,7 @@ The harness runs:
 - the `S_3` support symmetry;
 - the LP4 rank guardrail;
 - the combined support compiler;
+- the support crossover compiler;
 - the boundary-style support evidence and zero-support falsifier;
 - the forced-point support reduction;
 - the forced-fiber Stepanov compiler;

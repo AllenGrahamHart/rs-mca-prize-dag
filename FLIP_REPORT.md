@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=45.82 maxrss=53264
+elapsed=43.61 maxrss=53264
 ```
 
 ## Confidence-ranked claims
@@ -96,9 +96,10 @@ elapsed=45.82 maxrss=53264
    support target should be stated on quotient line parameters.  The combined
    compiler says that `R_orb <= C n^beta` with `beta < 4/3` pays the repeat
    residue subcubically; a linear quotient-support theorem gives an
-   `O_C(n^(8/3))` payment.  The conservative official-row crossover for a
-   linear support theorem is constant-sensitive: `C=1/2` covers `2^36..2^41`,
-   `C=1` covers `2^38..2^41`, and `C=2` covers only `2^41`.
+   `O_C(n^(8/3))` payment.  The exact integer-cap crossover for a linear
+   support theorem is constant-sensitive: `C=1/4` covers `2^31..2^41`,
+   `C=1/2` covers `2^34..2^41`, `C=1` covers `2^37..2^41`, and `C=2` covers
+   `2^40..2^41`.
    Boundary-style finite evidence has tiny support but not emptiness:
    `B_line=0` at `n=16,32,64,128,512,1024` in the tested boundary rows, while
    `n=256,p=65537` has `B_line=48` and `R_orb=8`.  In that nonzero row, every

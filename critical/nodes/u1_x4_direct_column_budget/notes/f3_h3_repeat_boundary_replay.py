@@ -178,6 +178,11 @@ COMMANDS = [
         "H3_REPEAT_BOUNDARY_SUPPORT_COMPILER_PASS",
     ),
     (
+        "h3 repeat support crossover",
+        "f3_h3_repeat_support_crossover.py",
+        "H3_REPEAT_SUPPORT_CROSSOVER_PASS",
+    ),
+    (
         "h3 repeat-support boundary evidence",
         "f3_h3_repeat_support_boundary_evidence.py",
         "H3_REPEAT_SUPPORT_BOUNDARY_EVIDENCE_PASS",

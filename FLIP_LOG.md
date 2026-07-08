@@ -7133,3 +7133,51 @@ H3_REPEAT_LP4_EXCEPTION_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=45.82 maxrss=53264
 ```
+
+## T2/T3 h=3 repeat support crossover
+
+Stage selected: replace the stale conservative prose thresholds for a linear
+quotient-support theorem with an exact replayed integer-cap crossover table.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SUPPORT_CROSSOVER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_crossover.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_crossover.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_SUPPORT_CROSSOVER_PASS
+```
+
+Result: using
+
+```text
+B_line <= ceil(132 n^(2/3)) + 6 floor(Cn) ceil(66 n^(2/3)),
+```
+
+the official-row tails for `R_orb <= Cn` are:
+
+```text
+C=1/4: 2^31..2^41,
+C=1/2: 2^34..2^41,
+C=1:   2^37..2^41,
+C=2:   2^40..2^41,
+C=4:   no official tail.
+```
+
+Focused replay:
+
+```text
+H3_REPEAT_SUPPORT_CROSSOVER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=43.61 maxrss=53264
+```

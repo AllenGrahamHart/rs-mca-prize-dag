@@ -1,63 +1,45 @@
-# F3 h=3 repeat-support crossover compiler
+# F3 h=3 repeat support crossover
 
-Status: CONDITIONAL CONSTANT COMPILER, NOT A SUPPORT THEOREM.
+Status: PROVED CONSTANT COMPILER, NOT A SUPPORT THEOREM.
 
-This packet translates the repeat-boundary support compiler into official-row
-constant pressure.  It answers: if the remaining quotient support has a linear
-bound, which official rows does the repeat-residue payment cover by itself?
-
-## Input
-
-The support compiler proves
-
-```text
-repeat_residue
-  <= 1584 n^(5/3) + 4752 R_orb n^(5/3) + 18n^2.
-```
-
-Assume a future theorem
+This packet gives the exact official-row crossover table for linear quotient
+support theorems of the form
 
 ```text
 R_orb <= C n.
 ```
 
-Then
+It uses the integer caps from the q0 and fixed-fiber packets:
 
 ```text
-repeat_residue
-  <= 4752 C n^(8/3) + 1584 n^(5/3) + 18n^2.
+B_line <= ceil(132 n^(2/3)) + 6 floor(Cn) ceil(66 n^(2/3)).
 ```
 
-For `n >= 1`, the lower powers are bounded by `n^(8/3)`, so the proof-safe
-sufficient bound is
+Then it checks
 
 ```text
-repeat_residue <= (4752 C + 1602) n^(8/3).
+12 n B_line + 18 n^2 < n^3
 ```
 
-Therefore this repeat-residue payment is below the cubic floor whenever
+on the official rows `n=2^13..2^41`.
+
+## Crossover Table
 
 ```text
-n > (4752 C + 1602)^3.
+C=1/4: covers 2^31..2^41,
+C=1/2: covers 2^34..2^41,
+C=1:   covers 2^37..2^41,
+C=2:   covers 2^40..2^41,
+C=4:   covers no official tail.
 ```
 
-This is conservative but exact.
+These are exact for the replayed integer cap model and improve the older
+conservative prose thresholds.
 
-## Official-Row Interpretation
+## Role in h=3
 
-The replay prints the first official power of two `2^s`, `13 <= s <= 41`, for
-which this sufficient inequality applies.  Representative conclusions:
-
-- `C=1/2` covers official rows from `2^36` upward;
-- `C=1` covers official rows from `2^38` upward;
-- `C=2` covers `2^41`;
-- `C=4` does not cover any official row by this sufficient test.
-
-Thus a merely linear support theorem is not enough by itself for all official
-rows unless its constant is very small or the lower/mid rows are carried by
-another certificate or sharper arithmetic.  This is useful T3 information:
-the repeat-residue branch is asymptotically harmless under linear support, but
-constants still matter.
+This packet does not prove a support theorem.  It gives a replayed constants
+target for any future theorem bounding the quotient line support.
 
 ## Replay
 

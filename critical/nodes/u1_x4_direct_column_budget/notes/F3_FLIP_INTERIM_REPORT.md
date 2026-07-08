@@ -324,19 +324,14 @@ pays the repeat residue subcubically.  The natural linear target
 `R_orb <= Cn` would give an `O_C(n^(8/3))` residue bound.
 
 The repeat-support crossover compiler quantifies the constant pressure for
-that linear target.  Using the proof-safe sufficient bound
+that linear target using the integer q0/fiber caps:
 
 ```text
-repeat_residue <= (4752C+1602)n^(8/3),
-```
-
-the official-row coverage is:
-
-```text
-C=1/2: 2^36..2^41
-C=1:   2^38..2^41
-C=2:   2^41 only
-C=4:   no official row by this sufficient test.
+C=1/4: 2^31..2^41
+C=1/2: 2^34..2^41
+C=1:   2^37..2^41
+C=2:   2^40..2^41
+C=4:   no official tail.
 ```
 
 So linear support is asymptotically enough, but a full h=3 constants campaign
@@ -1113,7 +1108,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `45.82s` locally and ends with
+It runs in about `43.61s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
