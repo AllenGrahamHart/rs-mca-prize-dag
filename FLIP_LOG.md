@@ -4332,7 +4332,7 @@ Focused replay:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.96 maxrss=50100
+elapsed=17.42 maxrss=50020
 ```
 
 ## T3 h=3 repeat-support crossover
@@ -4702,7 +4702,7 @@ Focused replay:
 ```text
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.96 maxrss=50100
+elapsed=17.42 maxrss=50020
 ```
 
 ## T2/T3 h=3 repeat forced-coordinate-2 normal form
@@ -4752,7 +4752,7 @@ Focused replay:
 ```text
 H3_REPEAT_FORCED_TWO_NORMAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.96 maxrss=50100
+elapsed=17.42 maxrss=50020
 ```
 
 ## T2/T3 h=3 repeat hitting exception scan
@@ -4796,7 +4796,7 @@ Focused replay:
 ```text
 H3_REPEAT_HITTING_EXCEPTION_SCAN_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.96 maxrss=50100
+elapsed=17.42 maxrss=50020
 ```
 
 ## T2/T3 h=3 repeat singleton-hitting stress
@@ -4854,7 +4854,7 @@ Focused replay:
 ```text
 H3_REPEAT_SINGLETON_HITTING_STRESS_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.96 maxrss=50100
+elapsed=17.42 maxrss=50020
 ```
 
 ## T2/T3 h=3 repeat star-obstruction compiler
@@ -4906,7 +4906,7 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_COMPILER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.96 maxrss=50100
+elapsed=17.42 maxrss=50020
 ```
 
 ## T2/T3 h=3 repeat edge reciprocal form
@@ -4948,7 +4948,7 @@ Focused replay:
 ```text
 H3_REPEAT_EDGE_RECIPROCAL_FORM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.96 maxrss=50100
+elapsed=17.42 maxrss=50020
 ```
 
 ## T2/T3 h=3 repeat star-obstruction taxonomy
@@ -4991,5 +4991,47 @@ Focused replay:
 ```text
 H3_REPEAT_STAR_OBSTRUCTION_TAXONOMY_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=16.96 maxrss=50100
+elapsed=17.42 maxrss=50020
+```
+
+## T2/T3 h=3 repeat edge cubic gcd form
+
+Stage selected: recast singleton hitting as a common-root statement for the
+active edge cubics.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_EDGE_CUBIC_GCD_FORM.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_edge_cubic_gcd_form.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_edge_cubic_gcd_form.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_EDGE_CUBIC_GCD_FORM_PASS
+```
+
+Result: for an active edge `E={u,v,w}` with `lambda=u+v+w-2`, the cubic
+
+```text
+P_E(T)=T^3-(lambda+2)T^2+(2lambda+1)T-uvw
+```
+
+has subgroup roots exactly `E`.  Therefore singleton hitting is equivalent to
+the active cubics having positive-degree gcd.  The non-boundary contrast row
+has `gcd_positive=0`; the boundary witness rows have `gcd_positive=1`.
+
+Focused replay:
+
+```text
+H3_REPEAT_EDGE_CUBIC_GCD_FORM_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=17.42 maxrss=50020
 ```

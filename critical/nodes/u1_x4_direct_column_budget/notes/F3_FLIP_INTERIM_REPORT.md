@@ -571,13 +571,23 @@ Conversely, with nonzero shifted coordinates, this equation recovers the
 repeat-boundary formula.  Thus a star obstruction is a four-row system of
 shifted reciprocal triples with no common unshifted coordinate.
 
+The cubic gcd form gives an equivalent common-root interface.  For an active
+edge `E={u,v,w}` with `lambda=u+v+w-2`,
+
+```text
+P_E(T)=T^3-(lambda+2)T^2+(2lambda+1)T-uvw
+```
+
+has root set `E`.  The star theorem is equivalent to the active cubics having
+a nonconstant gcd.
+
 The repeat-boundary chain has a focused replay:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `16.96s` locally and ends with
+It runs in about `17.42s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

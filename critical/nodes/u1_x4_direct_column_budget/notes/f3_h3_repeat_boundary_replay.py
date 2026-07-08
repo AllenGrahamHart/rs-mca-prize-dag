@@ -38,6 +38,11 @@ COMMANDS = [
         "H3_REPEAT_EDGE_RECIPROCAL_FORM_PASS",
     ),
     (
+        "h3 repeat edge cubic gcd form",
+        "f3_h3_repeat_edge_cubic_gcd_form.py",
+        "H3_REPEAT_EDGE_CUBIC_GCD_FORM_PASS",
+    ),
+    (
         "h3 repeat-boundary LP4 Stepanov compiler",
         "f3_h3_repeat_boundary_lp4_stepanov_compiler.py",
         "H3_REPEAT_BOUNDARY_LP4_STEPANOV_COMPILER_PASS",
