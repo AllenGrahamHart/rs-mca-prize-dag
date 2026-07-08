@@ -122,7 +122,9 @@ F3-RANK-AVOID:
 
 This packet proves that such open sets are algebraically meaningful and
 nonempty in both the private-linear and repaired degree-2 toy model families.
-It does not prove `F3-RANK-AVOID`.
+It does not prove `F3-RANK-AVOID`.  The bad-prime guardrail also shows why
+generic nonemptiness is only the first step: a row-level proof must exhibit a
+minor that remains nonzero modulo the actual row prime, not just over Q.
 
 ## Replay
 

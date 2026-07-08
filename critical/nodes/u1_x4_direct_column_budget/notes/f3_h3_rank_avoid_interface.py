@@ -6,6 +6,7 @@ from __future__ import annotations
 from f3_h3_nondiagonal_highrow_budget import EXPECTED_ROWS as HIGH_ROWS
 from f3_h3_nondiagonal_lowrow_budget import C_RED, H3_ACT_C, EXPECTED_ROWS as LOW_ROWS
 from f3_h3_nondiagonal_lowrow_budget import witness_bound
+from f3_h3_private_linear_bad_prime_guardrail import EXPECTED_RANKS as BAD_PRIME_RANKS
 from f3_h3_private_linear_lowrow_budget import EXPECTED_ROWS as PRIVATE_ROWS
 from f3_h3_private_linear_lowrow_budget import feasible_witness as private_feasible_witness
 
@@ -71,8 +72,11 @@ def main() -> None:
 
     if private_min_z != 23 or private_max_z != 15267:
         raise AssertionError((private_min_z, private_max_z))
+    if not (BAD_PRIME_RANKS[1009] < BAD_PRIME_RANKS[1013]):
+        raise AssertionError(BAD_PRIME_RANKS)
 
     print("official h=3 rows covered by both conditional arithmetic routes: s=13..41")
+    print("rank theorem must be finite-row minor nonvanishing, not only char-zero fullness")
     print(
         "theorem interface: either non-diagonal rank-avoidance or private-linear "
         "rank-avoidance, plus the matching bridge, implies H3-ACT(16)"

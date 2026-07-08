@@ -44,9 +44,10 @@ The degree-2 non-diagonal route needs:
 F3-RANK-AVOID:
   after toral, constant-ratio, and hyperbola-line cells are paid or excluded,
   every repaired h=3 signature-curve image family needed by the bridge lies in
-  a rank-good minor open set.  Equivalently, its cleared substitution image has
-  rank greater than 13 D(A+D) times its rank-effective capacity, for the
-  printed non-diagonal witness parameters.
+  a rank-good minor open set over the actual row field.  Equivalently, at the
+  row prime `p`, its cleared substitution image has rank greater than
+  13 D(A+D) times its rank-effective capacity, for the printed non-diagonal
+  witness parameters.
 
 H3-BRIDGE-RANKCAP(Z_budget):
   activated non-toral h=3 shape pairs can be assigned to repaired
@@ -70,7 +71,8 @@ F3-PRIVATE-LINEAR-RANK-AVOID:
   after the same toral, constant-ratio, and hyperbola-line cells are paid or
   excluded, every repaired private-linear signature-curve image family needed
   by the bridge has rank greater than 13 D(A+D) times its rank-effective
-  capacity, for the printed private-linear witness parameters.
+  capacity over the actual row field, for the printed private-linear witness
+  parameters.
 
 H3-BRIDGE-PRIVATE-RANKCAP(Z_private):
   activated non-toral h=3 shape pairs can be assigned to repaired
@@ -128,6 +130,12 @@ ceil(Z_private L_private / D) <= 16n,
 
 and verifies the stored `Z_private+1` bound is already above `16n`.  The
 maximality scans remain in `F3_H3_PRIVATE_LINEAR_LOWROW_BUDGET.md`.
+
+The finite-field qualifier is essential.  `F3_H3_PRIVATE_LINEAR_BAD_PRIME_GUARDRAIL.md`
+exhibits an integer private-linear coefficient matrix with full degree-space
+rank over Q but a rank drop modulo `p=1009`.  Therefore a proof of the
+rank-avoidance theorem must leave a rank-good minor nonzero modulo the actual
+row prime; characteristic-zero fullness alone is not enough.
 
 ## Replay
 
