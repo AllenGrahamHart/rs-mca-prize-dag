@@ -37,6 +37,30 @@ COMMANDS = [
         "H3_HYPERBOLA_IDENTITY_PASS",
     ),
     (
+        "h3 rich-curve denominator compiler",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py",
+        ],
+        "H3_RICH_CURVE_DENOMINATOR_COMPILER_PASS",
+    ),
+    (
+        "h3 rich-curve degeneracy audit",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_audit.py",
+        ],
+        "H3_RICH_CURVE_DEGENERACY_AUDIT_PASS",
+    ),
+    (
+        "h3 rich-curve degeneracy filter",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_filter.py",
+        ],
+        "H3_RICH_CURVE_DEGENERACY_FILTER_PASS",
+    ),
+    (
         "h3 reduced-condition compiler",
         [
             sys.executable,

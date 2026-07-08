@@ -1030,3 +1030,44 @@ non-antipodal samples have no full zero at the two boundary-style primes, and
 the complete one-exchange shell around the seven paid supports at each of
 `p=4289,262337` has `full_zero=0`.  The radius-two shell remains a separate
 heavier replay, not part of the aggregate.
+
+## T1 h=3 rich-curve guard integration
+
+Stage selected: integrate the already-banked h=3 denominator and degeneracy
+guard packets into the aggregate F3 replay.  These are prerequisites for a
+sound `RC-RANK` theorem statement: the denominator bound fixes the degree
+budget, and the degeneracy guards prevent collapsed multiplicative-dependence
+families from being treated as rich-curve input.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DENOMINATOR_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DEGENERACY_AUDIT.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DEGENERACY_FILTER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_filter.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+```
+
+Digest:
+
+```text
+H3_RICH_CURVE_DENOMINATOR_COMPILER_PASS
+H3_RICH_CURVE_DEGENERACY_AUDIT_PASS
+H3_RICH_CURVE_DEGENERACY_FILTER_PASS
+F3_FLIP_INTERIM_REPORT_REPLAY_PASS
+```
+
+Result: the aggregate replay now checks the degree-clearing identity
+`deg <= (A-1)+6h(B-1)` and the collapsed-ratio obstruction before the
+reduced-condition/rank-form packets.  The h=3 blocker remains `RC-RANK` plus
+the geometric batching bridge, but the replayed theorem surface now includes
+the hypotheses needed to state that target honestly.

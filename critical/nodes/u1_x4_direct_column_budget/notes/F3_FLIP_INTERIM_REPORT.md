@@ -69,6 +69,18 @@ activating at exactly one threshold prime; the common obstruction norm factors
 are `{1153,9601}`, `{97,13249}`, and `{18433}`, so below-threshold rational
 norm factors do not create extra threshold activations.
 
+The h=3 rich-curve setup guards are now in the aggregate replay.  The
+denominator compiler verifies the cleared degree bound
+
+```text
+deg <= (A - 1) + 6h(B - 1)
+```
+
+for degree-2 rational maps.  The degeneracy audit and filter replay the known
+constant-ratio obstruction: collapsed `r_i/r_j in H` cases can have `T=h`, so
+the eventual `RC-RANK` theorem must explicitly exclude or pay multiplicative
+dependence cells before applying the rank-form nonvanishing target.
+
 ```text
 RC-RED(13)              => banked by the log-jet reduction
 RC-RANK/RC-NV + constants => rich-curve Stepanov theorem
