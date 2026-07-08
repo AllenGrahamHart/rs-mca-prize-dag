@@ -838,6 +838,25 @@ In that case the six reciprocal points are distinct and form three zero-sum
 active edges whose pairwise intersections are the core vertices `r,s,t` and
 whose total intersection is empty.
 
+The loose normalized-system compiler reduces this to scale and two ratios.
+With `s=ar`, `t=br`, and `X=1/r`, the six reciprocal points are
+
+```text
+r * {1,a,b,-(1+a),-(1+b),-(a+b)}.
+```
+
+The coordinate tests are `1+X/q in H` for those six multipliers `q`; the
+lambda tests are
+
+```text
+1 + X*(1 + 1/a - 1/(1+a)) in H,
+1 + X*(1 + 1/b - 1/(1+b)) in H,
+1 + X*(1/a + 1/b - 1/(a+b)) in H.
+```
+
+The loose condition is `1+a+b != 0`; equality is exactly the contained
+zero-sum triangle case.
+
 The reciprocal edge normal form gives the equations for that incidence
 problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
 
@@ -866,7 +885,7 @@ The repeat-boundary chain has a focused replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
-It runs in about `17.96s` locally and ends with
+It runs in about `19.23s` locally and ends with
 `F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
 
 The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for

@@ -5940,3 +5940,45 @@ H3_REPEAT_LOOSE_SIX_POINT_SYSTEM_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=17.96 maxrss=50036
 ```
+
+## T2/T3 h=3 repeat loose normalized system
+
+Stage selected: normalize a loose six-point system by scaling one core
+reciprocal vertex.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_NORMALIZED_SYSTEM.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_normalized_system.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_normalized_system.py
+```
+
+Expected digest:
+
+```text
+H3_REPEAT_LOOSE_NORMALIZED_SYSTEM_PASS
+```
+
+Result: with `s=ar`, `t=br`, and `X=1/r`, a loose six-point system becomes
+six coordinate tests
+
+```text
+1+X/q in H, q in {1,a,b,-(1+a),-(1+b),-(a+b)}
+```
+
+plus three lambda tests and `1+a+b != 0`.  The contrast row has two loose
+systems, giving twelve ordered normalizations; boundary guardrails have none.
+
+Focused replay:
+
+```text
+H3_REPEAT_LOOSE_NORMALIZED_SYSTEM_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=19.23 maxrss=50108
+```

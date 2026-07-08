@@ -53,7 +53,8 @@ The harness runs:
 - the loose-triangle shadow compiler;
 - the loose reciprocal-closure compiler;
 - the loose pair-membership compiler;
-- the loose six-point system compiler.
+- the loose six-point system compiler;
+- the loose normalized-system compiler.
 
 It does not run the older h=3 rank/bridge aggregate and it does not launch
 Modal.

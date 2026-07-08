@@ -232,6 +232,11 @@ COMMANDS = [
         "f3_h3_repeat_loose_six_point_system.py",
         "H3_REPEAT_LOOSE_SIX_POINT_SYSTEM_PASS",
     ),
+    (
+        "h3 repeat loose normalized system",
+        "f3_h3_repeat_loose_normalized_system.py",
+        "H3_REPEAT_LOOSE_NORMALIZED_SYSTEM_PASS",
+    ),
 ]
 
 
