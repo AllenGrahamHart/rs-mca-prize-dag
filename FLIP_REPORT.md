@@ -63,24 +63,28 @@ No Modal job is required for the aggregate replay.
 9. The affine conic chart counts all ordered same-fiber `H`-triples except
    possibly one vertical/projective point, so local ordered fibers satisfy
    `R = T_chart + epsilon`, `epsilon in {0,1}`.
-10. The rich-curve denominator compiler and log-jet reduction are banked.  The
+10. The h=3 pair-count compiler is exact locally:
+    `P_z = binom((T_z+epsilon_z)/6,2)`, and a chart ledger with
+    `T_z <= M`, `sum T_z <= S`, and `Z` charts is enough for `H3-ACT(16)` if
+    `(M+1)(S+Z) <= 1152 n`.
+11. The rich-curve denominator compiler and log-jet reduction are banked.  The
    reduced-condition side is now `RC-RED(13)`.
-11. Several h=3 rank guardrails are proved or replayed:
+12. Several h=3 rank guardrails are proved or replayed:
    constant-ratio collapsed rank, small-`H` failure, one-factor private-linear
    rank, two-factor failure of naive induction, finite-row bad-prime rank drop,
    generic-open rank-minor formulation, and normalization invariance.
-12. The h=3 arithmetic interfaces now cover every official row.  The current
+13. The h=3 arithmetic interfaces now cover every official row.  The current
    non-diagonal route is:
    `F3-RANK-AVOID + H3-BRIDGE-RANKCAP(Z_budget(s)) => H3-ACT(16)`.
    The private-linear alternate route is:
    `F3-PRIVATE-LINEAR-RANK-AVOID + H3-BRIDGE-PRIVATE-RANKCAP(Z_private(s)) => H3-ACT(16)`.
-13. h=5 has been structurally localized.  Since `5` is not dyadic, the
+14. h=5 has been structurally localized.  Since `5` is not dyadic, the
    char-zero dyadic branch is excluded; every remaining survivor must be a
    p-specific x83 norm-gate event.
-14. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
+15. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.
-15. The h=8 x83 support-to-trade reduction is compatible with root-scaling
+16. The h=8 x83 support-to-trade reduction is compatible with root-scaling
     rotations, up to swapping the two recovered sides.
 
 ### Conditional but useful
@@ -130,8 +134,9 @@ No Modal job is required for the aggregate replay.
 `u1_x4_direct_column_budget` remains blocked by three concrete gaps:
 
 1. h=3: prove `H3-ACT(16)` via a finite-row-valid rank-minor avoidance theorem
-   plus the matching geometric bridge/rank-capacity assignment, or replace that
-   route with complete official-row certificates.
+   plus the matching geometric bridge/rank-capacity assignment, including the
+   max-fiber or level-set control needed by the pair-count compiler; or replace
+   that route with complete official-row certificates.
 2. h=5: prove a uniform p-specific x83 norm-gate incompatibility, or design a
    certificate family that scales beyond the current left-table format.
 3. h=8: close the n=64 non-antipodal x83 support branch, either by a global

@@ -160,6 +160,32 @@ base point.  This lets the rich-curve chart count control the local ordered
 fiber count up to one point per conic, but it still does not prove global
 rank-capacity batching.
 
+The pair-count compiler now makes the remaining local arithmetic explicit.
+For charts `z` with finite counts `T_z`, vertical losses `epsilon_z`, and
+ordered triple counts `R_z=T_z+epsilon_z`,
+
+```text
+P_z = binom(R_z/6,2) = R_z(R_z-6)/72.
+```
+
+Thus a chart ledger with `T_z <= M`, `sum_z T_z <= S`, and at most `Z` charts
+has
+
+```text
+P_total <= (M+1)(S+Z)/72.
+```
+
+A sufficient normalized h=3 target condition is therefore
+
+```text
+(M+1)(S+Z) <= 1152 n       =>       P_total <= 16 n.
+```
+
+This is standalone bridge bookkeeping, not an activation proof.  Its main
+message is that a linear chart-mass estimate alone cannot close `H3-ACT(16)`;
+the global bridge must also supply a max-fiber cap, a dyadic level-set theorem,
+or an equivalent rank-capacity batching bound.
+
 The earlier exact pair-coprimality pilot is now included in the aggregate
 replay.  On the seven-prime n=96 ladder it finds three activated shapes, each
 activating at exactly one threshold prime; the common obstruction norm factors

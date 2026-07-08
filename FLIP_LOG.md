@@ -3518,3 +3518,54 @@ The standalone verifier checks selected rich fibers in rows
 `(p,n)=(97,16),(97,32),(193,64)` and finds the expected one vertical point per
 selected fiber.  This is bridge bookkeeping only; it does not prove a global
 bound on the number of conics or on rank-capacity consumption.
+
+## T1 h=3 pair-count from charts compiler
+
+Stage selected: turn the local conic-chart count into the exact activated
+pair-count arithmetic, and record why the future bridge theorem needs more
+than a linear incidence estimate.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COUNT_FROM_CHARTS_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_pair_count_from_charts_compiler.py
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_pair_count_from_charts_compiler.py
+```
+
+Expected digest:
+
+```text
+H3_PAIR_COUNT_FROM_CHARTS_COMPILER_PASS
+```
+
+Result: if a repaired chart `z` has finite count `T_z`, vertical contribution
+`epsilon_z in {0,1}`, and ordered triple count `R_z=T_z+epsilon_z`, then its
+activated local pair contribution is
+
+```text
+P_z = binom(R_z/6,2) = R_z(R_z-6)/72.
+```
+
+Consequently, a chart ledger with `T_z <= M`, `sum_z T_z <= S`, and at most
+`Z` charts gives
+
+```text
+P_total <= (M+1)(S+Z)/72.
+```
+
+For the normalized h=3 target, it is sufficient to prove
+
+```text
+(M+1)(S+Z) <= 1152 n.
+```
+
+The standalone verifier replays this arithmetic on selected rich fibers in
+rows `(p,n)=(97,16),(97,32),(193,64)`.  This is not added to the aggregate
+replay; it is a bridge-side compiler showing that `H3-ACT(16)` needs total
+chart mass plus a max-fiber, level-set, or equivalent rank-capacity bound.
