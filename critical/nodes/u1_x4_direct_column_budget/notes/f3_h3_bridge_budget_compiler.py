@@ -67,34 +67,33 @@ def best_bound(n: int, z: int) -> int:
     return best
 
 
-def max_budget_for_n(n: int) -> tuple[int, int]:
+def verified_budget_for_n(s: int) -> tuple[int, int, int]:
+    n = 2**s
     target = H3_ACT_C * n
-    lo, hi = 1, 4096
-    while best_bound(n, hi) <= target and hi < 1 << 20:
-        hi *= 2
-    while lo < hi:
-        mid = (lo + hi + 1) // 2
-        if best_bound(n, mid) <= target:
-            lo = mid
-        else:
-            hi = mid - 1
-    return lo, best_bound(n, lo)
+    budget = EXPECTED_BUDGETS[s]
+    bound = best_bound(n, budget)
+    next_bound = best_bound(n, budget + 1)
+    if bound > target:
+        raise AssertionError((s, "budget no longer passes", budget, bound, target))
+    if next_bound <= target:
+        raise AssertionError((s, "budget not maximal", budget, next_bound, target))
+    return budget, bound, next_bound
 
 
 def main() -> None:
     print("h=3 bridge-budget compiler")
     print(f"C_red={C_RED} H3_ACT_C={H3_ACT_C} B_max={B_MAX}")
-    print(" s      n                 Z_budget       bound          16n")
+    print(" s      n                 Z_budget       bound          16n       next_bound")
     for s in range(13, 42):
         n = 2**s
-        budget, bound = max_budget_for_n(n)
-        if budget != EXPECTED_BUDGETS[s]:
-            raise AssertionError((s, budget, EXPECTED_BUDGETS[s]))
-        if bound > H3_ACT_C * n:
-            raise AssertionError((s, bound, H3_ACT_C * n))
-        print(f"{s:2d} {n:16d} {budget:10d} {bound:14d} {H3_ACT_C * n:14d}")
+        budget, bound, next_bound = verified_budget_for_n(s)
+        print(
+            f"{s:2d} {n:16d} {budget:10d} {bound:14d}"
+            f" {H3_ACT_C * n:14d} {next_bound:16d}"
+        )
 
     print("bridge contract: activated shapes must batch into <= Z_budget repaired curves")
+    print("maximality check: Z_budget passes and Z_budget+1 fails")
     print("conditional conclusion: RC-RANK + bridge contract => H3-ACT(16)")
     print("H3_BRIDGE_BUDGET_COMPILER_PASS")
 

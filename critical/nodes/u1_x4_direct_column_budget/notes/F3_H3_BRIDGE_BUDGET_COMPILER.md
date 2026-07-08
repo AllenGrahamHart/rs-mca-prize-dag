@@ -25,7 +25,7 @@ deduce H3-ACT(16) on each official row n=2^13..2^41?
 
 Success criterion:
 
-- compute the maximum verified `|Z|` budget for every official power of two;
+- verify the maximum `|Z|` budget for every official power of two;
 - use only exact integer inequalities from the rank-parameter compiler;
 - state the bridge contract as an explicit remaining theorem.
 
@@ -70,9 +70,10 @@ n=2^41: Z_budget=4529
 ```
 
 The full replay prints every exponent `13 <= s <= 41`.  For each row, the
-printed bound is at most `16n`.  The plateau at `s=39..41` is a verified lower
-budget under the `B_max=20000` diagonal search, not a proof that larger
-families are impossible.
+printed bound at `Z_budget` is at most `16n`, and the printed bound at
+`Z_budget+1` is larger than `16n`.  The plateau at `s=39..41` is the verified
+maximum under the `B_max=20000` diagonal search, not a proof that larger
+families are impossible under other parameter families.
 
 ## Interpretation
 
