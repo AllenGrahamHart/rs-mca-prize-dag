@@ -7398,8 +7398,8 @@ Q=1+t+t^2.
 For the toy box `H=32,A=5,B=4,D=1`, this actual bridge-family chart has exact
 substitution rank `320=A B^3`, hence passes the rank target `320>78`.  This
 proves the rank-good open set intersects the same-fiber conic-chart subfamily
-in the toy row.  It is still not `RC-RANK`; uniform finite-row minor avoidance
-remains open.
+in the toy row.  The h=3 frontier ledger now reports this pinned witness.  It
+is still not `RC-RANK`; uniform finite-row minor avoidance remains open.
 
 Replays:
 

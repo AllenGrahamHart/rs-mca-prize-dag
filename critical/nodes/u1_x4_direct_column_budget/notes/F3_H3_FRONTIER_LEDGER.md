@@ -32,6 +32,9 @@ F3-RANK-AVOID / RC-NV: OPEN
   boxes, a degree-space-full repaired image has capacity exactly `1` and the
   constant-ratio collapsed model has capacity `0`; the larger budget therefore
   buys more distinct rank-effective images, not duplicate-image reuse.
+  The rank-good open set is now witnessed inside the actual same-fiber conic
+  chart family in the toy row: the conic chart
+  `p=769,a=37,b=706,base=(101,333)` has rank `320=A B^3`.
   Residual: prove finite-row rank-good minor nonvanishing on repaired
   degree-2 signature-curve images.
 
