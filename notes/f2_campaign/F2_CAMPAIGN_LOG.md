@@ -783,3 +783,18 @@ random sets (3 scales x s = 4/6/8), zero violations. With logs
 edge divisor shapes (p-multiple AP + window exponents, span proof =
 AP-normalize + two-form Dirichlet + parity descent — all proved
 pieces). Chain: edge lemma write-up -> crux assembly -> L5.
+
+## 44 — 2026-07-10: the EDGE SHAPE LEMMA — direct instantiation
+
+Composing f2_full_ladder_dictionary (edge divisors are s'-sparse,
+s' = 1 + t/p + k) with f2_ssparse_tower_extension (Z <= struct +
+tower) at the application-shape span law (log #40): EVERY t-null
+block at edge sizes b = t + k is a union of full cosets plus a
+residual of < 2^25 points, against b >= 2^36 — structured to within
+10^-3 fraction at worst, BY THEOREM (instantiation arithmetic exact,
+16x safety factor; toy consistency: edge extras = 0 at every measured
+cell, banked logs #11/#15). REMAINING FOR THE EDGE COUNT: convert
+shape to count — the residual-factor census (r = ell*/binomial-part,
+deg r < 2^25, with the divided gap conditions); then the crux
+assembly consumes shape + count. The campaign's chain is now: edge
+count conversion -> crux assembly -> L5.
