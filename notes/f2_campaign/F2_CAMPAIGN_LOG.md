@@ -54,3 +54,23 @@ L3 REDESIGN (from the L1 datum): absolute inversion is lossy — L3 goes
 via Parseval (sum_lambda |E_b|^2 = q^t sum_s N(s)^2): census power =
 the SP-shaped second moment (v13 identity family), connecting the F2
 lane to the same object as F5 P9. One mechanism, two floors.
+
+## 3 — 2026-07-09: L2b strata — two catches, one discovery; L2a re-posed
+
+F2_L2B_KAPPA_STRATA_PASS (7 cells). CATCH vs L1 reading (i): top-arc
+vs kappa NOT monotone (97: kappa=4 beats 5,6; 193/b=6: kappa=3 beats
+4) — L1 statement addendum corrected in dag.json. CATCH (ii):
+Chebyshev membership does not discriminate at t=2 — L2c's
+inverse-symmetric routing hypothesis dropped; re-pose pending L2a.
+DISCOVERY: kappa and per-chord maxima are mu_n-orbit functions; the
+generic chord space = (q-1)/n orbits (3/6/8 at 97/193/257; strata
+partition exact, max=mean inside single orbits). Quotient chord (c=0,
+kappa=n/2) dominates every cell, grows with b, and there are only q-1
+quotient arcs -> handle exactly in L3's Parseval budget.
+
+L2a RE-POSED (next move): per-ORBIT Jacobi-sum evaluation of kappa
+(kappa(c) constant on c*mu_n; compute via multiplicative characters
+with printed error) + per-orbit arc-max bound. The orbit collapse
+makes L2a a finite computation with a theorem attached, and the
+official-row reading goes through the beta-normalized generated field
+(catch #11 discipline).
