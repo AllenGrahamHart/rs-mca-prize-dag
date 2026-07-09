@@ -13,6 +13,7 @@ from f3_h2_midrange_certificate_costs import (
     row_for_exponent,
 )
 from f3_h3_per_row_accident_pose import compiled_bound
+from f3_h3_official_accident_slack import official_accident_slack_summary
 
 
 H3_ACCIDENT_C = 16
@@ -71,6 +72,7 @@ def h3_conditional_split() -> dict[str, int | tuple[int, ...]]:
 def t3_summary() -> dict[str, int]:
     h2 = h2_inhouse_split()
     h3 = h3_conditional_split()
+    h3_slack = official_accident_slack_summary()
     return {
         "official_rows": len(tuple(OFFICIAL_EXPONENTS)),
         "h2_theorem_rows": len(h2.theorem),
@@ -84,6 +86,9 @@ def t3_summary() -> dict[str, int]:
         "h3_threshold": int(h3["threshold"]),
         "h3_conditional_rows": len(h3["covered_exponents"]),  # type: ignore[arg-type]
         "h3_first_ratio_ppm_floor": int(h3["first_ratio_ppm_floor"]),
+        "h3_official_max_safe_c": h3_slack["min_max_safe_c"],
+        "h3_midpoint_c": h3_slack["midpoint_c"],
+        "h3_midpoint_first_ratio_ppm": h3_slack["first_midpoint_ratio_ppm"],
     }
 
 
@@ -105,6 +110,9 @@ def main() -> None:
         "h3_threshold": 17,
         "h3_conditional_rows": 29,
         "h3_first_ratio_ppm_floor": 1954,
+        "h3_official_max_safe_c": 8191,
+        "h3_midpoint_c": 4096,
+        "h3_midpoint_first_ratio_ppm": 500001,
     }
     if summary != expected:
         raise AssertionError(summary)
@@ -130,6 +138,12 @@ def main() -> None:
     print(
         "h=3 residual: prove H3-ACCIDENT(16), or replace it with official-row "
         "activation certificates"
+    )
+    print(
+        "h=3 official-row slack: "
+        f"uniform_max_safe_C={summary['h3_official_max_safe_c']} "
+        f"midpoint_C={summary['h3_midpoint_c']} "
+        f"first_midpoint_ratio_ppm={summary['h3_midpoint_first_ratio_ppm']}"
     )
     print("F3_T3_CONSTANT_CAMPAIGN_LEDGER_PASS")
 

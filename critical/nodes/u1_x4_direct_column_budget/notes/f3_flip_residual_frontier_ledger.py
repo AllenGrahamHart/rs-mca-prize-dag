@@ -173,6 +173,9 @@ def residual_data():
         "h3_conditional_rows": t3["h3_conditional_rows"],
         "h3_accident_c": t3["h3_accident_c"],
         "h3_threshold": t3["h3_threshold"],
+        "h3_official_max_safe_c": t3["h3_official_max_safe_c"],
+        "h3_midpoint_c": t3["h3_midpoint_c"],
+        "h3_midpoint_first_ratio_ppm": t3["h3_midpoint_first_ratio_ppm"],
         "h3_frontier_items": len(h3_frontier_items),
         "h3_activation_oriented": activation["oriented_activations"],
         "h3_activation_deduped_orbits": activation["deduped_orbits"],
@@ -206,6 +209,9 @@ def residual_data():
         "h3_conditional_rows": 29,
         "h3_accident_c": 16,
         "h3_threshold": 17,
+        "h3_official_max_safe_c": 8191,
+        "h3_midpoint_c": 4096,
+        "h3_midpoint_first_ratio_ppm": 500001,
         "h3_frontier_items": 5,
         "h3_activation_oriented": 720,
         "h3_activation_deduped_orbits": 167,
@@ -242,6 +248,12 @@ def main() -> None:
         f"in-house h2 residual rows={summary['h2_inhouse_residual_rows']}; "
         f"H3-ACCIDENT({summary['h3_accident_c']}) would cover "
         f"{summary['h3_conditional_rows']} rows from n>={summary['h3_threshold']}"
+    )
+    print(
+        "T3 official h=3 slack: "
+        f"max_safe_C={summary['h3_official_max_safe_c']} "
+        f"midpoint_C={summary['h3_midpoint_c']} "
+        f"midpoint_first_ratio_ppm={summary['h3_midpoint_first_ratio_ppm']}"
     )
     print("h=3 frontier items:")
     for gate in h3_gates:

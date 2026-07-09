@@ -7898,6 +7898,42 @@ Expected digest:
 H8_ODD_CHART_ORBIT_INVARIANCE_PASS
 ```
 
+## 2026-07-09 h=3 official accident constant slack
+
+Stage selected: relax the h=3 activation constant needed by the T3 arithmetic
+on official rows.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_OFFICIAL_ACCIDENT_SLACK.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_official_accident_slack.py
+```
+
+Because all official rows have `n=2^s`, the toral `3|n` term in the h=3
+accident compiler vanishes.  The first official row `n=8192` is tight and
+allows every integer `C<=8191` in
+
+```text
+T_3 <= n^2/72 + C n^2 < n^3.
+```
+
+Thus `H3-ACT(16)` is far stronger than needed for the official-row F3 floor.
+The midpoint target `H3-ACT(4096)` still leaves about a factor-two first-row
+margin and relaxes the activation budget by a factor `256` relative to `16`.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_official_accident_slack.py
+```
+
+Expected digest:
+
+```text
+H3_OFFICIAL_ACCIDENT_SLACK_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without

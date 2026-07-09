@@ -16,6 +16,8 @@ T3:
   h=2 external import closes all 29 official rows.
   h=2 in-house chain still has four accounting-only residual rows, 2^19..2^22.
   H3-ACCIDENT(16) would cover all 29 official h=3 rows from n>=17.
+  Official-row h=3 arithmetic would also accept any uniform accident constant
+  C <= 8191, with C=4096 leaving about a factor-two first-row margin.
 
 h=3:
   H3-ACT-COMPILER is conditional.
@@ -43,6 +45,8 @@ degree-2 budget has `Z_exact=33..21421`; a bounded rank-deficit theorem with
 `Delta <= 1847` would suffice for those official boxes.  The private-linear
 alternate has `Z_private=23..15267`, with required bounded deficit
 `Delta <= 25`.
+The current bridge/rank interfaces target `H3-ACT(16)`, but the official-row
+T3 arithmetic can be retuned to a weaker target up to `H3-ACT(8191)`.
 
 Second, T4 has been reduced to the h=8 non-antipodal x83 branch.  The current
 remaining certificate scale is

@@ -46,6 +46,19 @@ The residual is not a finite low-row problem:
 prove H3-ACCIDENT(16), or replace it with official-row activation certificates.
 ```
 
+The official-row arithmetic has much more slack than the all-`n` default
+constant.  Since every official row has `n=2^s`, the toral term vanishes and
+the first official row permits every integer
+
+```text
+C <= 8191.
+```
+
+Thus an official-row-only proof of `H3-ACT(4096)` would still leave about a
+factor-two margin at `n=2^13`, and `H3-ACT(8191)` is the largest uniform
+integer target accepted by this arithmetic compiler on all official rows.
+The current bridge/rank ledgers remain stated for `C=16` until retuned.
+
 ## Role
 
 This ledger does not change the h=3 frontier gates.  Its purpose is to make
