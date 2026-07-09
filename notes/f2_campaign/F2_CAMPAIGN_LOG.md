@@ -264,3 +264,17 @@ Session 1 terminal state: u2c red, T-WIN/T-FLOOR unmet, ladder open
 at exactly one lemma (EXTRAS_CONTRACTION_TARGET.md: statement,
 sufficiency, O1-O3, R1-R4, falsifier) + L4 + L5. All banked facts
 carry digests; 6 catches corrected; the campaign resumes there.
+
+## 13 — 2026-07-09/10 (continuation): O1-geometric PROVED; R4 crux posed
+
+The orbit power-sum fact (p_i(y*mu_M) = y^i*M*[M|i], exact at 5 pairs,
+digest O1_GEOMETRIC_PASS) gives O1's geometric half: the structured
+census is EXACTLY the set of mu_n-torsion points (distinct coords) of
+the orbit-type components of W_j, and those components are precisely
+the loci where successive torsion intersection is improper. The
+extras-contraction lemma is therefore equivalent to: NON-ORBIT
+components of the power-sum complete intersection meet the torsion
+grid properly (or with per-condition excess <= 2^15). One geometric
+statement, Galois/monodromy-amenable, replacing all fiber-counting
+formulations. This is the campaign's sharpest object and the sole
+remaining mathematical content of F2 (with L4/L5 mechanical).
