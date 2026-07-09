@@ -325,3 +325,15 @@ the crux in excess-intersection form with a clean final-form
 falsifier pass, and the kernel identification. The proof of the crux
 — now attackable from the Q side, the geometry side, or both — is
 the sole remaining mathematics between u2c and green.
+
+## 17 — 2026-07-10: Pro brief prepared — the delegation lane opens
+
+PRO_FLOOR_2_F2_CRUX.md written in the DLI-CLOSE format (per the
+floor-campaign report's standing recommendation): the crux in both
+faces, the do-not-reprove ledger, both no-gos, the exact empirical
+support, the immutable falsifier, and three ordered attack surfaces.
+The brief is self-contained for any strong prover (Pro thread, a
+fresh Claude session, or Codex after F3). With this, every lane the
+campaign can open is open: the proof attempt (two faces), the
+delegation brief, the instrument (green), and the assembly plan.
+u2c stays red until one of them lands the crux.
