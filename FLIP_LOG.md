@@ -8951,3 +8951,46 @@ H3_CONIC_CHART_LINEAR_RELATION_GUARD_PASS
 H3_RANK_AVOID_INTERFACE_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
+
+## 2026-07-09 F3 residual frontier ledger
+
+Stage selected: consolidate the current T3, h=3, and T4 branch state into one
+top-level residual ledger before further proof attacks.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_RESIDUAL_FRONTIER_LEDGER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_residual_frontier_ledger.py
+```
+
+The ledger imports the existing T3 constant-campaign summary and h=3 frontier
+ledger, and checks the pinned T4 residual frontier state without re-running
+the heavier T4 audit.  It launches no search and does not promote the F3 flip.
+The consolidated residual state is:
+
+```text
+T3: h=2 is closed by the external import; H3-ACCIDENT(16) would cover all
+    official h=3 rows from n>=17.
+h=3: five open/conditional frontier items remain, including H3-ACT-COMPILER,
+     rank/nonvanishing, rank-capacity bridge, private-linear alternate, and
+     repeat-boundary star.
+T4: h=4/h=5/h=6/h=7 are paid for the current direct budget; h=8 n=64
+    non-antipodal x83 is the remaining T4 blocker.
+```
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_residual_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t3_constant_campaign_ledger.py
+```
+
+Expected digests:
+
+```text
+F3_FLIP_RESIDUAL_FRONTIER_LEDGER_PASS
+H3_FRONTIER_LEDGER_PASS
+F3_T3_CONSTANT_CAMPAIGN_LEDGER_PASS
+```
