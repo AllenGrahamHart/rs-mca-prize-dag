@@ -420,3 +420,22 @@ theorem + pre-registered falsification test recorded in the brief
 domain structure specifically — the vanishing-sums literature
 (Coven-Meyerowitz-adjacent) is its toolbox. Next cycle: run the R5
 falsification test before any proof work.
+
+## 24 — 2026-07-10: R5 falsification test PASSED — the dichotomy is real
+
+F2_R5_SPARSE_ROOTS_PASS (10 cells, 200k samples, exact evaluation):
+NON-COLLAPSIBLE s-sparse functions on mu_{2^k} carry 2-5 roots at
+every cell (s-scale, flat as n grows 16 -> 128; p999 = 2-4);
+COLLAPSIBLE samples (exponent-diff 2-power gcd with n — the
+binomial/subgroup channel) alone reach n-proportional counts (16 =
+n/4 at (193,64)). One flagged event honestly classified: (97,16,s=4)
+has n/4 = s = 4 — a threshold-scale collision, not an n-proportional
+phenomenon; zero events at every n >= 32 cell. READ: R5's target
+dichotomy (generic sparse => O(s) roots; many roots => collapse) is
+empirically exact, and the non-collapsible maxima hugging s+-1
+suggest near-Chebotarev behavior at 2-power n away from collapse.
+R5 is now the LEADING route: its target theorem ("an s-sparse
+polynomial with > R(s) roots in mu_{2^k} has exponent collapse")
+would close the mid-band's lower edge for b - t up to the sparsity
+threshold, with the k = 1 anchor already proved (support rigidity).
+Next: attempt the R5 theorem via the 2-adic exponent filtration.
