@@ -7663,6 +7663,54 @@ H3_REPEAT_FRONTIER_LEDGER_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 T3 constant-campaign ledger
+
+Stage selected: make the current T3 theorem/certificate/residual split
+machine-readable without launching new searches.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_T3_CONSTANT_CAMPAIGN_LEDGER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_t3_constant_campaign_ledger.py
+```
+
+The ledger aggregates existing arithmetic:
+
+```text
+h=2 in-house optimized theorem: 2^23..2^41;
+h=2 feasible exact-census accounting: 2^13..2^18;
+h=2 in-house residual midrange: 2^19..2^22;
+h=2 external Cochrane--Pinner import: all 29 official rows closed.
+```
+
+For h=3, it records the conditional accident arithmetic:
+
+```text
+H3-ACCIDENT(16) => T3 < n^3 for all n >= 17,
+```
+
+so every official h=3 row `2^13..2^41` is covered once the accident theorem
+is proved or replaced by official-row activation certificates.  At the first
+official row, the compiled conditional bound is below `1955` parts per million
+of `n^3`.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t3_constant_campaign_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_midrange_certificate_costs.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
+```
+
+Expected digests:
+
+```text
+F3_T3_CONSTANT_CAMPAIGN_LEDGER_PASS
+H2_MIDRANGE_CERTIFICATE_COSTS_PASS
+H3_PER_ROW_ACCIDENT_POSE_PASS
+```
+
 ## 2026-07-09 h=5 central projective-infinity exclusion
 
 Stage selected: upgrade the h=5 central infinity flag from a route guide to
