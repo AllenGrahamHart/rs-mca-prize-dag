@@ -186,6 +186,12 @@ def official_budget_summary() -> dict[str, int]:
         "conic_sixa_official_margin": conic_sixa["min_margin"],
         "conic_curve_box_margin": conic_curve["min_box_column_margin"],
         "conic_curve_linear_defect": conic_curve["min_linear_normality_defect"],
+        "conic_curve_4096_box_margin": conic_curve[
+            "min_4096_box_column_margin"
+        ],
+        "conic_curve_4096_simplex_margin": conic_curve[
+            "min_4096_simplex_column_margin"
+        ],
         "conic_dual_allowance": conic_dual["allowance"],
         "conic_dual_min_base_products": conic_dual["min_base_products"],
         "conic_dual_4096_allowance": conic_dual["allowance_4096"],
@@ -433,7 +439,10 @@ def frontier_gates(
                 f"but six-A alone is not sufficient outside dense boxes; "
                 f"conic rational-curve interface has box column margin "
                 f"{budgets['conic_curve_box_margin']} and linear-normality "
-                f"defect {budgets['conic_curve_linear_defect']}; "
+                f"defect {budgets['conic_curve_linear_defect']} "
+                f"(retuned box/simplex margins "
+                f"{budgets['conic_curve_4096_box_margin']}/"
+                f"{budgets['conic_curve_4096_simplex_margin']}); "
                 f"conic dual-annihilator target allows dimension "
                 f"{budgets['conic_dual_allowance']} against at least "
                 f"{budgets['conic_dual_min_base_products']} product windows "

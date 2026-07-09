@@ -63,7 +63,10 @@ F3-RANK-AVOID / RC-NV: OPEN
   The conic rational-curve interface restates the map as
   `H0(O(A-1))` times boxed degree-`3(B-1)` monomials in four sections of
   `O(2H)`; official rows have positive column-supply margin, but the four
-  generators are not a complete linear series.
+  generators are not a complete linear series.  On the retuned boxes, the
+  box/simplex column margins rise to
+  `19,301,121,234`/`86,422,920,495`, while the complete-series shortcut remains
+  invalid.
   The conic dual-annihilator target rewrites the same codimension bound as
   `dim Ann <= 1847` for coefficient sequences killed by `B^3` length-`A`
   shifted product windows.  On the retuned boxes this becomes

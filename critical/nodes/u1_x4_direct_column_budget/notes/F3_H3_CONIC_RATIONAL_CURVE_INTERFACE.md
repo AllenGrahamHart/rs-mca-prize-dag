@@ -88,6 +88,34 @@ It also prevents a false shortcut: the conic rank theorem is not a direct
 consequence of normal generation of the complete `O(2H)` series, because only
 four sections of `O(2H)` are available.
 
+## Retuned H3-ACT(4096) Interface
+
+For the constructive `H3-ACT(4096)` floor boxes, the same rational-curve
+interface has allowance
+
+```text
+codim <= 2899.
+```
+
+The retuned rows have
+
+```text
+M = 558..359757,
+box columns - target dimension >= 19,301,121,234,
+simplex columns - target dimension >= 86,422,920,495.
+```
+
+The four-generator linear-normality defect remains positive, with the same
+first-row minimum
+
+```text
+h0(O(2H)) - 4 = 16,381.
+```
+
+Thus the retuned interface is much more overdetermined dimensionally, but it
+still does not justify replacing the four generated sections by the complete
+linear series.
+
 ## Replay
 
 Standalone:

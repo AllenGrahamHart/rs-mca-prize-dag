@@ -8108,6 +8108,42 @@ H3_CONIC_BINARY_FORM_TARGET_PASS
 H3_CONIC_DUAL_ANNIHILATOR_TARGET_PASS
 ```
 
+## 2026-07-09 h=3 conic 4096 rational-curve interface
+
+Stage selected: propagate the `H3-ACT(4096)` floor boxes into the rational-curve
+multiplication interface.
+
+Updated files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_RATIONAL_CURVE_INTERFACE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_rational_curve_interface.py
+```
+
+Retuned interface:
+
+```text
+codim <= 2899
+M = 558..359757
+box columns - target >= 19,301,121,234
+simplex columns - target >= 86,422,920,495
+```
+
+The four-generator complete-series shortcut remains invalid; the first-row
+linear-normality defect is still `16,381`.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_rational_curve_interface.py
+```
+
+Expected digest:
+
+```text
+H3_CONIC_RATIONAL_CURVE_INTERFACE_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without
