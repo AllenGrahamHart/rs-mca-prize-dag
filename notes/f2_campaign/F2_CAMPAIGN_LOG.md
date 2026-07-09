@@ -278,3 +278,14 @@ grid properly (or with per-condition excess <= 2^15). One geometric
 statement, Galois/monodromy-amenable, replacing all fiber-counting
 formulations. This is the campaign's sharpest object and the sole
 remaining mathematical content of F2 (with L4/L5 mechanical).
+
+## 14 — 2026-07-10: crux refined to excess-intersection form
+
+Hand-verified at (b,j) = (4,2): W_2 is IRREDUCIBLE (full-rank quadric
+on the sum-zero hyperplane) with the orbit loci as proper subvarieties
+— so component-removal language was still too coarse. Final form: the
+torsion count = Bezout-proper part + excess intersection supported on
+the orbit subloci; the excess IS the struct census; the lemma = the
+excess is supported only there with the proper part within
+per-condition tolerance. Fulton machinery now applies. Session 2
+attacks exactly this statement.
