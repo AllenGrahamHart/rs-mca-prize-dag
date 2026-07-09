@@ -86,6 +86,9 @@ local 60-second policy, so the next proof attempt should preserve the graph
 form and attack conjugation/support compatibility lazily.
 The companion `F3_H8_CHART7_FIXEDPOINT_SKELETON.md` quantifies the same warning
 without expanding the fixed-point numerators.
+The companions `F3_H8_WEIGHTED_HOMOGENEITY.md` and
+`F3_H8_CHART7_OFFICIAL_SCALING_ACTION.md` record the root-scaling grading and
+the finite official orbit freeness on this chart.
 
 ## Replay
 

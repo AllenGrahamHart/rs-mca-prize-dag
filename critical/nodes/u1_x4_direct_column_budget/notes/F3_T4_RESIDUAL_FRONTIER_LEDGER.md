@@ -132,6 +132,11 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   still the wrong primitive: the seven fixed-point rows have common `P7` power
   up to `15`, pre-cancellation term bounds up to
   `193755121556618651323524735233987`, and total degree up to `241`.
+  The h=8 weighted-homogeneity packet verifies the root-scaling grading
+  `c8..c15 -> 8..1`; all 28 pairwise minors are homogeneous with weight range
+  `1..13`, and the unit rows have weight `0`.  The chart-7 official scaling
+  ledger proves the finite `mu_n` action is free on chart 7 for all official
+  rows because `gcd(7,2^s)=1`.
   Residual: certify 122,131,731,640,320 anchored non-antipodal 16-supports
   (7,633,233,227,520 aperiodic rotation orbits), or build a sharded signature
   join avoiding the blind left table.
@@ -187,6 +192,8 @@ h8 antipodal quotient
   + h8 rank-one chart propagation
   + h8 chart-7 graph reduction
   + h8 chart-7 fixed-point skeleton
+  + h8 weighted homogeneity
+  + h8 chart-7 official scaling action
   + residual frontier/support-universe audits
   => T4-H8-N64-NONANTIPODAL-X83 remains the only h=8 blocker
 ```

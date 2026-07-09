@@ -88,6 +88,9 @@ from f3_h8_chart7_fixedpoint_skeleton import (
     fixedpoint_skeleton_summary as h8_chart7_fixedpoint_summary,
 )
 from f3_h8_chart7_graph_reduction import chart7_graph_summary as h8_chart7_summary
+from f3_h8_chart7_official_scaling_action import (
+    official_scaling_summary as h8_chart7_scaling_summary,
+)
 from f3_h8_odd_chart_recovery_compiler import (
     odd_chart_recovery_summary as h8_odd_chart_summary,
 )
@@ -95,6 +98,7 @@ from f3_h8_reciprocal_compatibility_compiler import (
     reciprocal_compatibility_summary as h8_reciprocal_summary,
 )
 from f3_h8_unit_norm_reciprocal_gate import unit_norm_summary as h8_unit_norm_summary
+from f3_h8_weighted_homogeneity import weighted_homogeneity_summary as h8_weight_summary
 from f3_h8_x83_parity_reduction import parity_reduction_summary as h8_parity_summary
 from f3_h8_x83_triangular_obstruction import h8_triangular_summary
 
@@ -360,6 +364,8 @@ def h8_summary() -> dict[str, int]:
     odd_chart = h8_odd_chart_summary()
     chart7 = h8_chart7_summary()
     chart7_fixedpoint = h8_chart7_fixedpoint_summary()
+    weighted = h8_weight_summary()
+    chart7_scaling = h8_chart7_scaling_summary()
     if (
         aperiodic["nonantipodal_rotation_orbits"]
         != actual_rotation["nonantipodal_rotation_orbits"]
@@ -415,6 +421,11 @@ def h8_summary() -> dict[str, int]:
         "chart7_fixedpoint_max_degree": chart7_fixedpoint[
             "max_total_degree_bound"
         ],
+        "weighted_pairwise_rows": weighted["pairwise_rows"],
+        "weighted_pairwise_min": weighted["min_pairwise_weight"],
+        "weighted_pairwise_max": weighted["max_pairwise_weight"],
+        "chart7_scaling_rows": chart7_scaling["rows"],
+        "chart7_scaling_stabilizer": chart7_scaling["max_stabilizer_size"],
         **actual_support,
         **actual_rotation,
     }
@@ -508,7 +519,10 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"{h8['odd_chart_unit_syzygies']}); "
                 f"chart7 graph_terms={h8['chart7_total_graph_terms']} "
                 f"P7_terms={h8['chart7_p7_terms']} N7_terms={h8['chart7_n7_terms']} "
-                f"fixedpoint_degree<={h8['chart7_fixedpoint_max_degree']}"
+                f"fixedpoint_degree<={h8['chart7_fixedpoint_max_degree']}; "
+                f"weights pairwise={h8['weighted_pairwise_min']}.."
+                f"{h8['weighted_pairwise_max']} "
+                f"chart7_stabilizer={h8['chart7_scaling_stabilizer']}"
             ),
             (
                 "certify "
@@ -671,6 +685,14 @@ def main() -> None:
         f"P7_power<={h8['chart7_fixedpoint_p7_power']} "
         f"pre_cancel_max={h8['chart7_fixedpoint_max_terms']} "
         f"max_degree={h8['chart7_fixedpoint_max_degree']}"
+    )
+    print(
+        "h=8 weighted/scaling: "
+        f"pairwise_rows={h8['weighted_pairwise_rows']} "
+        f"pairwise_weight_range={h8['weighted_pairwise_min']}.."
+        f"{h8['weighted_pairwise_max']} "
+        f"chart7_scaling_rows={h8['chart7_scaling_rows']} "
+        f"max_stabilizer={h8['chart7_scaling_stabilizer']}"
     )
     print("F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS")
 

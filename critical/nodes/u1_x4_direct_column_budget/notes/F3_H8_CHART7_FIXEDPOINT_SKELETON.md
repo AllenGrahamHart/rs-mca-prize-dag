@@ -60,6 +60,8 @@ The chart-7 h=8 target should be attacked as a structured rational graph with
 conjugation/support compatibility and saturations, not by forming the cleared
 fixed-point polynomials.  Any elimination or resultant route should preserve
 the `P7`-denominator structure.
+The companion `F3_H8_WEIGHTED_HOMOGENEITY.md` adds the root-scaling grading
+that such a route should preserve.
 
 This packet does not prove the chart empty.
 

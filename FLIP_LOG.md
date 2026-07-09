@@ -9359,3 +9359,47 @@ Expected digest:
 ```text
 H8_CHART7_FIXEDPOINT_SKELETON_PASS
 ```
+
+## 2026-07-09 h=8 weighted homogeneity and chart-7 official scaling
+
+Stage selected: expose the root-scaling grading and finite official orbit
+freeness for the h=8 chart-7 target.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_WEIGHTED_HOMOGENEITY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_weighted_homogeneity.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_CHART7_OFFICIAL_SCALING_ACTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_official_scaling_action.py
+```
+
+The weighted compiler verifies the grading
+
+```text
+c8,c9,...,c15 -> 8,7,...,1
+bar_c8,bar_c9,... -> -8,-7,...,-1.
+```
+
+All `28` rank-one minors are homogeneous with weight range `1..13`; the unit
+rows have weight `0` by the conjugate-weight identity, avoiding expansion of
+the large Hermitian rows.
+
+The official scaling ledger verifies that the finite `mu_n` action is free on
+chart 7 for every official exponent `s=13..41`, because `gcd(7,2^s)=1`.
+Thus chart-7 count/payment arguments can quotient by official scaling without
+stabilizer losses, while still not using arbitrary ambient-field scaling.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_weighted_homogeneity.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_official_scaling_action.py
+```
+
+Expected digests:
+
+```text
+H8_WEIGHTED_HOMOGENEITY_PASS
+H8_CHART7_OFFICIAL_SCALING_ACTION_PASS
+```
