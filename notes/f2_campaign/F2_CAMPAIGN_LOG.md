@@ -1368,3 +1368,25 @@ signed structure — small h is closed from both directions; unbounded
 h is fenced by no-go #6; the frequency dual by no-go #8. The
 campaign's record and the sibling campaign's record now certify each
 other at their intersection.
+
+## 74 — 2026-07-10: the k=2+ breakage study — NO-GO #9; the summit's
+## FINAL coordinates: algebraic-only
+
+The breakage resolves by derivation, no experiment needed: the
+per-condition Esseen chain (and every level-set/Halasz variant)
+requires n >= ~3 sqrt(q) — at official extension fields sqrt(q) ~
+2^{2^20} >> n = 2^40: the ENTIRE ANALYTIC LANE is structurally
+vacuous there (NO-GO #9; the k=1 theatre works precisely because
+prime fields keep q ~ poly(n)). At n << sqrt(q) the census mean
+vanishes hyper-fast and the question is not equidistribution but
+ALGEBRAIC HITTING — does the moment image touch 0 beyond struct —
+which is exactly where the campaign's proved q-INDEPENDENT machinery
+lives (dictionary, determination, semigroup, Bezout certificates:
+the edge chain). THE SUMMIT'S FINAL CHARACTERIZATION: at official
+rows the F2 interior is PURELY ALGEBRAIC territory; the proved edge
+chain is the sole live toolkit; the exact open set is the Frobenius-
+slot interior (rho >= p) beyond the proved bands. The campaign's
+analysis program is COMPLETE: every probe executed or derived, nine
+no-gos fencing every lane at its true boundary, fifteen proved
+satellites, and a summit whose remaining content is one algebraic
+question in exactly known coordinates. Seventy-four entries.
