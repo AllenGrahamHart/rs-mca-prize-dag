@@ -32,7 +32,9 @@ T4-H5-NORM-GATE: OPEN
   delta*bar_delta=1, with max total degree 18.  The chart-local recovery
   compiler sharpens this to five chart obligations: four incident rank-one
   minors plus `N_i` on charts `1..4`, and four incident minors with automatic
-  unit norm on the central `bar_l5 != 0` chart.
+  unit norm on the central `bar_l5 != 0` chart.  The central automatic-unit
+  claim is verified by four saturated syzygies
+  `l5*N_i in <C_i5,conjugate(C_i5)>`.
   Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
   or replace the selected finite rows with a scalable certificate family.
 

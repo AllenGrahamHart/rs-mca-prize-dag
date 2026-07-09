@@ -1747,7 +1747,8 @@ four Hermitian equations from `delta*conjugate(delta)=1`, and the chart-local
 recovery compiler sharpens their use: on charts `1..4`, four incident minors
 plus the matching `N_i` suffice to recover a unit `delta`; on the central
 `bar_l5 != 0` chart, `delta=l5/bar_l5` has unit norm identically, so only the
-four incident minors remain.
+four incident minors remain.  The central assertion is backed by four saturated
+syzygies `l5*N_i in <C_i5,conjugate(C_i5)>`.
 
 The certificate scaling frontier explains why the current finite-certificate
 format is not that maintainable family.  The banked n=128 Modal rows use

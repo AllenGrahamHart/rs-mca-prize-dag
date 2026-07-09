@@ -116,6 +116,7 @@ def h5_summary() -> dict[str, int]:
         "chart_tautological_unit_charts": chart_recovery[
             "tautological_unit_charts"
         ],
+        "central_unit_syzygies": chart_recovery["central_unit_syzygies"],
         "max_unit_norm_degree": unit_norm["max_total_degree"],
         "max_reciprocal_compatibility_degree": reciprocal[
             "max_compatibility_total_degree"
@@ -226,7 +227,8 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"unit-norm equations={h5['unit_norm_equations']}; "
                 f"chart-local unit obligations="
                 f"{h5['chart_nontrivial_unit_charts']}+"
-                f"{h5['chart_tautological_unit_charts']} tautological"
+                f"{h5['chart_tautological_unit_charts']} tautological; "
+                f"central unit syzygies={h5['central_unit_syzygies']}"
             ),
             "prove symbolic p-specific x83 norm-gate incompatibility or replace selected rows by a scalable certificate family",
         ),
@@ -290,6 +292,7 @@ def main() -> None:
         f"incident_minors_per_chart={h5['chart_incident_minors_per_chart']} "
         f"chart_unit_obligations={h5['chart_nontrivial_unit_charts']}+"
         f"{h5['chart_tautological_unit_charts']} tautological "
+        f"central_unit_syzygies={h5['central_unit_syzygies']} "
         f"unit_norm_max_degree={h5['max_unit_norm_degree']} "
         f"max_total_degree={h5['max_basefree_reciprocal_degree']}"
     )

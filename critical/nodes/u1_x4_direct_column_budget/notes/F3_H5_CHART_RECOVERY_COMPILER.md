@@ -38,6 +38,17 @@ has unit norm identically, because conjugation swaps `l5` and `bar_l5`.  Thus
 the central chart needs no additional high-degree Hermitian equation beyond the
 four incident rank-one minors.
 
+The compiler also verifies the saturated syzygies behind this statement.  For
+each `j=1..4`,
+
+```text
+l5 * N_j in < Cj5, conjugate(Cj5) >.
+```
+
+On official rows the central chart has `bar_l5 != 0`, hence also `l5 != 0`, so
+the four Hermitian rows follow from the incident central minors and their
+conjugates.
+
 The companion open-cover packet proves that official rows have at least one of
 these five charts: the all-zero denominator cell would force
 `L_R(X)=X^10+l0`, impossible for a 10-support in `mu_{2^s}`.
@@ -55,7 +66,9 @@ chart 5: denominator=bar_l5,       minors=C15,C25,C35,C45, unit=TAUTOLOGY
 ```
 
 The largest nontrivial unit equation is still `N1`, with `485` terms and total
-degree `18`; the central chart has unit degree `0`.
+degree `18`; the central chart has unit degree `0`.  Four central syzygies
+verify that the global unit rows are saturated consequences of the central
+rank-one equations.
 
 ## Consequence
 

@@ -10,6 +10,7 @@ import sympy as sp
 from f3_h5_basefree_reciprocal_system import (
     ALL_BARS,
     basefree_summary,
+    pairwise_polynomial,
     pairwise_rows,
     reciprocal_slots,
 )
@@ -20,6 +21,7 @@ from f3_h5_unit_norm_reciprocal_gate import (
     unit_norm_rows,
     unit_norm_summary,
 )
+from f3_h5_x83_triangular_norm_gate import LOCATOR
 
 
 CONJUGATE = {
@@ -37,6 +39,15 @@ class ChartRecoveryRow:
     unit_terms: int
     unit_total_degree: int
     automatic_unit_norm: bool
+
+
+@dataclass(frozen=True)
+class CentralUnitSyzygy:
+    key_index: int
+    incident_minor: str
+    conjugate_minor: str
+    unit_norm_row: str
+    saturation_multiplier: str
 
 
 def conjugate(expr: sp.Expr) -> sp.Expr:
@@ -109,11 +120,40 @@ def chart_rows() -> tuple[ChartRecoveryRow, ...]:
     return tuple(rows)
 
 
+def central_unit_syzygies() -> tuple[CentralUnitSyzygy, ...]:
+    slots = {slot[0]: slot for slot in reciprocal_slots()}
+    rows: list[CentralUnitSyzygy] = []
+    for key_index in range(1, 5):
+        slot = slots[key_index]
+        denominator, high_part = slot[1], slot[2]
+        paired_top = LOCATOR[10 - key_index]
+        incident_minor = pairwise_polynomial(slot, slots[5])
+        conjugate_minor = conjugate(incident_minor)
+        unit_norm = unit_norm_polynomial(key_index)
+
+        lhs = sp.expand(LOCATOR[5] * unit_norm)
+        rhs = sp.expand(high_part * conjugate_minor + denominator * paired_top * incident_minor)
+        if sp.factor(lhs - rhs) != 0:
+            raise AssertionError((key_index, sp.factor(lhs - rhs)))
+
+        rows.append(
+            CentralUnitSyzygy(
+                key_index=key_index,
+                incident_minor=f"C{key_index}5",
+                conjugate_minor=f"conj(C{key_index}5)",
+                unit_norm_row=f"N{key_index}",
+                saturation_multiplier="l5",
+            )
+        )
+    return tuple(rows)
+
+
 def chart_recovery_summary() -> dict[str, int]:
     basefree = basefree_summary()
     open_cover = open_cover_summary()
     unit_norm = unit_norm_summary()
     rows = chart_rows()
+    syzygies = central_unit_syzygies()
 
     expected = {
         1: ("16384*bar_l9", ("C12", "C13", "C14", "C15"), "N1", 485, 18, False),
@@ -142,6 +182,8 @@ def chart_recovery_summary() -> dict[str, int]:
         raise AssertionError(open_cover)
     if unit_norm["equations"] != len(nontrivial):
         raise AssertionError(unit_norm)
+    if len(syzygies) != len(nontrivial):
+        raise AssertionError(syzygies)
 
     return {
         "charts": len(rows),
@@ -149,6 +191,7 @@ def chart_recovery_summary() -> dict[str, int]:
         "incident_minors_per_chart": len(rows[0].incident_minors),
         "nontrivial_unit_charts": len(nontrivial),
         "tautological_unit_charts": len(tautological),
+        "central_unit_syzygies": len(syzygies),
         "max_chart_unit_degree": max(row.unit_total_degree for row in rows),
         "max_chart_unit_terms": max(row.unit_terms for row in rows),
         "official_max_x10_fiber": open_cover["official_max_x10_fiber"],
@@ -165,6 +208,12 @@ def main() -> None:
             f"unit_norm={row.unit_norm_row} "
             f"terms={row.unit_terms} degree={row.unit_total_degree}"
         )
+    for row in central_unit_syzygies():
+        print(
+            f"  central syzygy {row.unit_norm_row}: "
+            f"{row.saturation_multiplier}*{row.unit_norm_row} in "
+            f"<{row.incident_minor},{row.conjugate_minor}>"
+        )
     print(
         "summary: "
         f"charts={summary['charts']} "
@@ -172,6 +221,7 @@ def main() -> None:
         f"incident_minors_per_chart={summary['incident_minors_per_chart']} "
         f"nontrivial_unit_charts={summary['nontrivial_unit_charts']} "
         f"tautological_unit_charts={summary['tautological_unit_charts']} "
+        f"central_unit_syzygies={summary['central_unit_syzygies']} "
         f"max_unit_degree={summary['max_chart_unit_degree']} "
         f"max_unit_terms={summary['max_chart_unit_terms']} "
         f"official_max_x10_fiber={summary['official_max_x10_fiber']}"

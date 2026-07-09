@@ -7367,6 +7367,12 @@ chart 4: C14,C24,C34,C45 + N4
 chart 5: C15,C25,C35,C45 + tautological unit norm
 ```
 
+The central tautology is also verified as a saturated ideal statement:
+
+```text
+l5*N_i in <C_i5, conjugate(C_i5)> for i=1..4.
+```
+
 Replays:
 
 ```bash
