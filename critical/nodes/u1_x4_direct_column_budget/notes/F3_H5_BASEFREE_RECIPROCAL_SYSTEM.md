@@ -74,6 +74,10 @@ incident pairwise equations are needed to recover `delta`; the unit-norm
 condition is the matching `N_j` on charts `1..4` and is tautological on the
 central `bar_l5` chart.
 
+The abstract proof that four incident minors imply the six nonincident minors
+after chart saturation is recorded in
+`F3_H5_RANK_ONE_MINOR_PROPAGATION.md`.
+
 ## Replay
 
 Standalone:

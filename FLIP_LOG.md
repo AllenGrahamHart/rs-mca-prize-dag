@@ -7382,9 +7382,20 @@ B_i*bar_B_i*N_j - B_j*bar_B_j*N_i
 
 It verifies all `5*4=20` ordered chart-to-slot syzygies.
 
+The abstract rank-one minor-propagation compiler adds the parallel identity:
+
+```text
+B_i*C_jk + B_k*C_ij - B_j*C_ik = 0.
+```
+
+It verifies all `5*binom(4,2)=30` chart-to-nonincident-minor syzygies, so the
+four incident minors on a chart imply all ten pairwise minors after saturating
+by the chart denominator.
+
 Replays:
 
 ```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_rank_one_minor_propagation.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_rank_one_unit_propagation.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_chart_recovery_compiler.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
@@ -7393,6 +7404,7 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_
 Expected digests:
 
 ```text
+H5_RANK_ONE_MINOR_PROPAGATION_PASS
 H5_RANK_ONE_UNIT_PROPAGATION_PASS
 H5_CHART_RECOVERY_COMPILER_PASS
 F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS

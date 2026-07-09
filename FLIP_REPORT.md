@@ -330,7 +330,9 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    on charts `1..4`, and only four incident minors on the central chart because
    `l5/bar_l5` has unit norm identically.  The central claim is verified by
    saturated identities `l5*N_i in <C_i5,conjugate(C_i5)>`; an abstract
-   rank-one identity gives 20 unit-propagation syzygies across all charts.
+   rank-one identity gives 20 unit-propagation syzygies across all charts, and
+   a second identity gives 30 minor-propagation syzygies showing that four
+   incident minors imply all ten pairwise minors after chart saturation.
 17. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.

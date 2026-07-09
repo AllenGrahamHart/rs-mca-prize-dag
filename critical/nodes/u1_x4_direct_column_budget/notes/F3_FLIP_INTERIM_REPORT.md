@@ -1750,7 +1750,10 @@ plus the matching `N_i` suffice to recover a unit `delta`; on the central
 four incident minors remain.  The central assertion is backed by four saturated
 syzygies `l5*N_i in <C_i5,conjugate(C_i5)>`.  An abstract rank-one propagation
 packet verifies the 20 chart syzygies showing that one unit row on a nonzero
-denominator chart forces all other unit rows.
+denominator chart forces all other unit rows.  A second abstract rank-one
+packet verifies the 30 chart syzygies showing that the four incident minors on
+a chart force the six nonincident minors after saturation by the chart
+denominator.
 
 The certificate scaling frontier explains why the current finite-certificate
 format is not that maintainable family.  The banked n=128 Modal rows use
