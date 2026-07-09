@@ -719,3 +719,23 @@ FLAGGED for the s-generalization: Dirichlet span degrades as
 n^{1-1/(s-1)} — at edge sparsity s ~ 33 that is ~2^38.75 > t: the
 s-sparse tower needs its own scaling check BEFORE the edge
 application relies on it (next cycle's falsification-first item).
+
+## 40 — 2026-07-10: s-scaling RESOLVED POSITIVE — the tower survives
+## at the edge's actual exponent shapes
+
+F2_SSPARSE_TOWER_SCALING_PASS (9 cells, random + application-shaped):
+random s-sparse sets track the adversarial Dirichlet degradation
+(B ~ n^{1-1/(s-1)}; near n-scale at s = 33 — the tower is useless
+adversarially, exactly as flagged); APPLICATION-SHAPED sets
+(p-multiple AP + window, the mid-band edge divisor shape) obey a
+clean ~12 sqrt(n) law (714 -> 1504 as n quadruples at s = 33) — the
+AP normalizes to span ~s under k = p^{-1}, only the window exponent
+pays two-form Dirichlet. OFFICIAL CHECK: 12 sqrt(n) = 2^23.6 << t =
+2^36 (13 bits of room). The char-q program is now fully scoped and
+unblocked: (i) write up the trinomial tower theorem (all ingredients
+banked, target ~4 sqrt n); (ii) extend to application-shaped s-sparse
+(calibrated ~12 sqrt n); (iii) the edge lemma follows; then the
+s-induction is REPLACED by the direct s-sparse tower at the edge
+shapes — a shorter chain than designed. Thirty-one cycles: every
+flagged dependency of the campaign has now been either resolved
+positive, corrected, or banked as a no-go.
