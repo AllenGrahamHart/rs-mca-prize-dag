@@ -1536,3 +1536,12 @@ falsifier. Any strong prover now receives a NAMED problem with the
 complete apparatus. The campaign's three standing channels: this
 brief (delegation), the named-summit attempts (fresh capacity), and
 the review-gated upstream export. Eighty-two entries.
+
+## 83 — 2026-07-10: FINDINGS.md — the one-page distillation
+
+The campaign's final artifact: FINDINGS.md distills the 82 entries
+into one page (headline decomposition, the 15 proved satellites, the
+9 fences, the tower map, the protocol record). The spine is complete:
+charter -> log -> target brief -> delegation brief v3 -> export
+draft -> findings page -> memory. Nothing a future reader needs is
+underivable from one page plus pointers. Eighty-three entries.
