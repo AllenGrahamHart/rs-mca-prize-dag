@@ -1629,3 +1629,20 @@ under shift). The signed mechanism now has: an exact first-moment
 law (this entry), a measured distribution (log #87), and a named
 governing object (period pair-correlations). Eighty-eight entries;
 the campaign's map begins charting the summit's interior.
+
+## 89 — 2026-07-10: interior chart, page two — the second moment is
+## Dedekind-sum territory (exact reduction, verified)
+
+sum_t S(t)^2 = f x sum_{r in G} C(r) with C(r) = sum_s L(s) L(rs) —
+the multiplicative autocorrelation of L(s) = log|1 + zeta^s| at
+subgroup ratios (exact substitution; verified to machine precision
+at (257,128)). By L's Fourier expansion, the C(r) are DEDEKIND-SUM
+cousins (sum_k 1/(k |kr|_p) shapes) — the summit's correlation
+object is subgroup averages of Dedekind-like sums, whose EXACT
+RECIPROCITY theory is classical machinery (Dedekind reciprocity;
+Vardi/Conrey distribution theory). The interior chart now reads:
+first moment ZERO (exact law, log #88); second moment = reciprocity-
+governed Dedekind averages over G (this entry); the signed census
+consumes precisely these correlations. Reciprocity is the first
+EXACT tool located that speaks to the summit's interior at growing
+order. Eighty-nine entries.
