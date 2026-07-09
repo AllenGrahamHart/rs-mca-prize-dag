@@ -925,3 +925,21 @@ splitting filter is empirically total at the toy. The dichotomy now
 has: proved bands (empty + edge) and its first interior data point
 (clean). Chain: the 33-parameter splitting census (the single
 remaining object) -> crux assembly -> L5.
+
+## 52 — 2026-07-10: the census's TERMINAL FORM — divisors of X^n - 1
+## in a fixed low-dimensional affine family
+
+Interior extras per core = #{divisors of X^n - 1 whose coefficient
+vector lies in the core's 33-dimensional affine family
+trunc(B^{-1} Abar^p)} — a nearly-fully-prescribed prefix census
+(rho - 33 of rho coefficients pinned): the EASIEST instance on the Q
+spectrum (prescription length ~ total; at full prescription the count
+is trivially <= 1). The level-1 pairing Abar' = trunc(Abar^{-1})
+(complementation upstairs) is consistent. The kernel reconnection is
+now at MAXIMAL prescription where rigidity is strongest — the
+remaining lemma: #divisors-in-affine-family << (cores' growth)^{-1} x
+n^3. Toy status: the filter is empirically TOTAL at every slot-bearing
+toy tested (F_25: extras 0). This is the campaign's single remaining
+mathematical object, in its final coordinates: fixed dimension 33,
+maximal rigidity, clean toy data, and all fourteen satellites behind
+it. Chain: divisor-in-family lemma -> crux assembly -> L5.
