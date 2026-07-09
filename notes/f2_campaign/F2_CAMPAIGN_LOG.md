@@ -100,3 +100,20 @@ energy dichotomy; L4 explicit BSG constants; L5 assembly. NEXT MOVE:
 L3 design note — write the exact Parseval budget split (structured
 arcs | Weil-Newton band | mid-band residual) and pose the mid-band
 estimate sharply before attacking it.
+
+## 5 — 2026-07-09 (close of day): L3 posed with a proved no-go guardrail
+
+F2_L3_DESIGN.md written (design, pre-registered before experiments):
+exact Parseval frame (census power = SP/trade census, v13 strata);
+structured arcs (linear = Gauss sums, quotient = double-cover e_b)
+enter EXACTLY, never bounded; PROVED NO-GO banked: raw Parseval gives
+only N(0) <~ sqrt(C(n,b)) — exponentially insufficient at the window
+peak, so any L3 proof must use the specialness of the value 0 (the
+coset-union value). Mechanisms pre-registered in order: M1 moment
+ladder (2k-th moments + the banked energy dichotomy; L4 constants
+feed it), M2 algebraic rigidity (trade-variety route through the
+proved rigidity lemmas), M3 sub-balance entropy (the ~2% margin as a
+deviation resource at 0 only). Each gets a pre-registered calibration
+experiment before proof work. Session totals: 5 log entries, 2 proved
+rungs (L2a, L2b'), 2 instruments (L1, L2b strata), 1 no-go, extreme
+bands paid at official rows.
