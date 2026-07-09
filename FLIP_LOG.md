@@ -7333,3 +7333,54 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 Residual h=5 target: combine the rank-one compatibility system, the official
 open cover, and the unit-norm equations to prove symbolic incompatibility, or
 replace this route with a scalable certificate family.
+
+## 2026-07-09 h=5 chart-local reciprocal recovery
+
+Stage selected: localize the h=5 reciprocal norm-gate equations chart by chart,
+so the remaining symbolic target is smaller than the global equation pile.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CHART_RECOVERY_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_chart_recovery_compiler.py
+```
+
+Key result:
+
+```text
+On chart i, the four incident 2x2 minors recover
+  delta = slot_i_num / slot_i_den.
+
+For charts 1..4, unit norm is the matching Hermitian equation N_i.
+For the central chart bar_l5 != 0, delta=l5/bar_l5 has unit norm
+identically, so no Hermitian row is needed there.
+```
+
+The replay verifies the five chart obligations:
+
+```text
+chart 1: C12,C13,C14,C15 + N1
+chart 2: C12,C23,C24,C25 + N2
+chart 3: C13,C23,C34,C35 + N3
+chart 4: C14,C24,C34,C45 + N4
+chart 5: C15,C25,C35,C45 + tautological unit norm
+```
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_chart_recovery_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H5_CHART_RECOVERY_COMPILER_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```
+
+Residual h=5 target: prove that no official-row support satisfies any one of
+these five chart-local systems, or replace the route with a scalable
+certificate family.

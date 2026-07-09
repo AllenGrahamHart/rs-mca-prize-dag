@@ -45,6 +45,12 @@ on every reciprocal chart and do not require choosing a value of `delta`.
 
 This still does not prove that the h=5 branch is empty.
 
+The companion `F3_H5_CHART_RECOVERY_COMPILER.md` refines the chart use of these
+equations.  On charts `1..4`, only the matching `N_j` is needed once the four
+incident rank-one minors recover `delta`; on the central chart
+`bar_l5 != 0`, `delta=l5/bar_l5` has unit norm identically, so no Hermitian row
+is needed there.
+
 ## Replay
 
 Standalone:

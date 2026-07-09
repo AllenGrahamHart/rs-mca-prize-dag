@@ -29,7 +29,10 @@ T4-H5-NORM-GATE: OPEN
   reciprocal open-cover packet excludes the all-zero high-coefficient chart on
   official rows because x -> x^10 has fibers of size at most 2 in mu_{2^s}.
   The unit-norm reciprocal gate adds four Hermitian equations using
-  delta*bar_delta=1, with max total degree 18.
+  delta*bar_delta=1, with max total degree 18.  The chart-local recovery
+  compiler sharpens this to five chart obligations: four incident rank-one
+  minors plus `N_i` on charts `1..4`, and four incident minors with automatic
+  unit norm on the central `bar_l5 != 0` chart.
   Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
   or replace the selected finite rows with a scalable certificate family.
 
@@ -66,6 +69,7 @@ h5_structural_reduction
   + h=5 base-free reciprocal system
   + h=5 reciprocal open-cover exclusion
   + h=5 unit-norm reciprocal gate
+  + h=5 chart-local reciprocal recovery
   => T4-H5-NORM-GATE remains the only h=5 blocker
 
 h6/h7 bonus sweep replay

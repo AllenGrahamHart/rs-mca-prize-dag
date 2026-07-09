@@ -13,6 +13,9 @@ from pathlib import Path
 
 from f3_h5_certificate_coverage_audit import audit as h5_audit
 from f3_h5_basefree_reciprocal_system import basefree_summary as h5_basefree_summary
+from f3_h5_chart_recovery_compiler import (
+    chart_recovery_summary as h5_chart_recovery_summary,
+)
 from f3_h5_reciprocal_compatibility_compiler import (
     compatibility_summary as h5_reciprocal_summary,
 )
@@ -71,6 +74,7 @@ def h5_summary() -> dict[str, int]:
     basefree = h5_basefree_summary()
     open_cover = h5_open_cover_summary()
     unit_norm = h5_unit_norm_summary()
+    chart_recovery = h5_chart_recovery_summary()
     by_n = {row["n"]: row for row in rows}
     expected_by_n = {
         32: (402, 65537, 0, 68304222),
@@ -104,6 +108,14 @@ def h5_summary() -> dict[str, int]:
         "reciprocal_charts": open_cover["charts"],
         "official_max_x10_fiber": open_cover["official_max_x10_fiber"],
         "unit_norm_equations": unit_norm["equations"],
+        "chart_local_charts": chart_recovery["charts"],
+        "chart_incident_minors_per_chart": chart_recovery[
+            "incident_minors_per_chart"
+        ],
+        "chart_nontrivial_unit_charts": chart_recovery["nontrivial_unit_charts"],
+        "chart_tautological_unit_charts": chart_recovery[
+            "tautological_unit_charts"
+        ],
         "max_unit_norm_degree": unit_norm["max_total_degree"],
         "max_reciprocal_compatibility_degree": reciprocal[
             "max_compatibility_total_degree"
@@ -211,7 +223,10 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"n64={h5['n64_certified_primes']} selected/contiguous rows; "
                 f"x83 low-key bound={h5['max_x83_low_key_bound']}; "
                 f"base-free reciprocal equations={h5['basefree_reciprocal_equations']}; "
-                f"unit-norm equations={h5['unit_norm_equations']}"
+                f"unit-norm equations={h5['unit_norm_equations']}; "
+                f"chart-local unit obligations="
+                f"{h5['chart_nontrivial_unit_charts']}+"
+                f"{h5['chart_tautological_unit_charts']} tautological"
             ),
             "prove symbolic p-specific x83 norm-gate incompatibility or replace selected rows by a scalable certificate family",
         ),
@@ -271,6 +286,10 @@ def main() -> None:
         f"charts={h5['reciprocal_charts']} "
         f"max_x10_fiber={h5['official_max_x10_fiber']} "
         f"unit_norm_equations={h5['unit_norm_equations']} "
+        f"chart_local_charts={h5['chart_local_charts']} "
+        f"incident_minors_per_chart={h5['chart_incident_minors_per_chart']} "
+        f"chart_unit_obligations={h5['chart_nontrivial_unit_charts']}+"
+        f"{h5['chart_tautological_unit_charts']} tautological "
         f"unit_norm_max_degree={h5['max_unit_norm_degree']} "
         f"max_total_degree={h5['max_basefree_reciprocal_degree']}"
     )

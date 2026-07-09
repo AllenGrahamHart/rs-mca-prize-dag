@@ -68,6 +68,12 @@ official rows: the all-zero denominator cell would force a locator
 `X^10+l0`, impossible for a 10-support in `mu_{2^s}` because `x -> x^10` has
 fibers of size at most `2`.
 
+The companion `F3_H5_CHART_RECOVERY_COMPILER.md` records the chart-local
+version of the same target.  On any one denominator chart, only the four
+incident pairwise equations are needed to recover `delta`; the unit-norm
+condition is the matching `N_j` on charts `1..4` and is tautological on the
+central `bar_l5` chart.
+
 ## Replay
 
 Standalone:

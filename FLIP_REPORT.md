@@ -325,7 +325,10 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    for a 10-support in `mu_{2^s}` because `x -> x^10` has fibers of size at
    most `2`.  Since the support product has unit norm, four additional
    Hermitian equations `P_j conjugate(P_j)=D_j^2 l(10-j)bar_l(10-j)` are now
-   compiled, with max total degree `18`.
+   compiled, with max total degree `18`.  Chart-local recovery reduces the
+   target to four incident rank-one minors plus one matching Hermitian equation
+   on charts `1..4`, and only four incident minors on the central chart because
+   `l5/bar_l5` has unit norm identically.
 17. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.

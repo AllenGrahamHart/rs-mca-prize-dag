@@ -1740,6 +1740,15 @@ high locator coefficients and their conjugates, with maximum total degree
 `10`.  This is still not the h=5 closure, but it is the current algebraic
 surface for a symbolic norm-gate incompatibility proof.
 
+The base-free reciprocal system records all ten rank-one pairwise equations
+among the four low-key rows and the central `l5` row.  The official open-cover
+packet excludes the all-zero denominator chart.  The unit-norm packet adds the
+four Hermitian equations from `delta*conjugate(delta)=1`, and the chart-local
+recovery compiler sharpens their use: on charts `1..4`, four incident minors
+plus the matching `N_i` suffice to recover a unit `delta`; on the central
+`bar_l5 != 0` chart, `delta=l5/bar_l5` has unit norm identically, so only the
+four incident minors remain.
+
 The certificate scaling frontier explains why the current finite-certificate
 format is not that maintainable family.  The banked n=128 Modal rows use
 `32` shards, but each shard rebuilds the full `binom(127,4)=10,334,625`
