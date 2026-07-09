@@ -1328,3 +1328,24 @@ and the ledger bookkeeping (multi-page, all pieces proved) is the
 prime-field flatness write-up. The campaign's arc is self-similar to
 the last: the final object is its own machinery, one Fourier dual
 away. Seventy-one entries.
+
+## 72 — 2026-07-10: NO-GO #8 — full-ladder absolute Esseen is
+## structurally impossible; partial flatness provable at 1/22 exponent
+
+The frequency-ledger opener came back CLEAN (zero degenerate
+frequencies of 66,048 at d = 2, four exponent pairs — the dual-
+collapse set is empty off the avoided classes), and that sharpened
+the joint analysis to its verdict: floors cap at n/4 (each summand
+<= 1/4) while the frequency count is p^t ~ e^{0.69n} — the absolute-
+Esseen union over the FULL ladder diverges REGARDLESS of floor
+quality: NO-GO #8, the frequency-space dual of no-go #2 (absolute
+methods blind; signed structure required). SURVIVING AND PROVABLE:
+partial joint flatness over any c n/log p conditions (the Esseen sum
+closes there with our floors) — worth ~1/22 of the needed exponent;
+the factor-22 gap needs signed frequency structure. THE CAMPAIGN'S
+GEOMETRY, stated honestly: the prime-field theatre's own summit
+mirrors the main summit — every level of this problem reproduces the
+same signed-vs-absolute battle, each time surrounded by more proved
+structure. The theatre yields: per-condition 1 + o(1) [proved],
+partial-joint flatness [provable, 1/22 exponent], and the mirrored
+summit [signed structure, open]. Seventy-two entries.
