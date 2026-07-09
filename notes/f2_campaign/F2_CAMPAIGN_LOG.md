@@ -458,3 +458,18 @@ attack objects are now: the generalized chord counts (s=3, Jacobi-
 exact at toys) and torsion vanishing loci of Schur polynomials
 (general s). Campaign totals: 3 no-gos, 5 routes, R5 leading with
 its first reduction chain banked.
+
+## 26 — 2026-07-10: R5 s=3 rung PROVED (generalized chord lemma); catch #7
+
+f2_generalized_chord_lemma (ninth satellite): Z <= d(sqrt q + 3) for
+every 3-sparse polynomial on mu_n — collapse factorization (scale-
+free) + exact ambient-annihilator Jacobi formula (digit-exact, 6
+rows) + the gcd-1 sqrt(q) bound. CATCH #7: first derivation used the
+product-subgroup annihilator; the verifier refused it (formula
+overcounted 6-48x); corrected to the ambient group and passed exactly
+— the seventh catch, and the fourth caught BY a verifier before
+banking. R5 status: s = 3 rung proved with its exact template
+(annihilator + Jacobi) ready for the s-induction; official mid-band
+still needs the algebraic route (sqrt q astronomical there, as
+known). Next rung: s = 4 via the same template or the Schur-vanishing
+formulation.
