@@ -152,3 +152,29 @@ verbatim (arcs are 1-dimensional, orbits are mu_n-cosets in F_q^x,
 Lemma A gives sqrt(q)+1 there). Then L4 constants. Day-1 close:
 3 PROVED lemma satellites, 7 green digests, 3 catches, extreme bands
 paid, the heart reduced to its mildest instance.
+
+## 8 — 2026-07-09 (very late): M1-t1 profile run — catches #4 and #5
+
+The t=1 full-band profile experiment fired two catches, both banked:
+(#4) the Weil-Newton reach table's "official rows" phrasing computed
+at q = mn+1 small-m shapes; F2's official sub-balance rows have
+q^t >= 2^n at LARGE t (catch-#11 scale: n = 2^21, q ~ 2^31, t ~ 1e4).
+Reach claim quarantined to the printed shapes; official (q,n,t) row
+table = session-2 item #1. The three proved lemmas are shape-generic
+and stand. (#5) the m=1 anchors (n = q-1 rows) PROVE the mid-band
+point: exact identity |E_b| = 1 for all b (factorization through
+(1+z^q)/(1+z)) while float partial products reach 2^93 — mid-band
+signed cancellation is astronomical; float/absolute Fourier machinery
+is structurally blind there. Session-2 machinery must be exact
+(integer DP; cyclotomic arithmetic mod auxiliary primes). Valid
+small-row data: per-arc mid-band R_mid = 0.0001..1.7 (far below
+sqrt-flat) — the arcs themselves are tame; the assembly question is
+signed-sum exactness. PROVED anchors banked from the run design: t=1
+orbit collapse (census = m orbit values) and the factorization
+identity (orbit polynomials multiply to (1+z^q)/(1+z), +-1 flat).
+
+SESSION-2 QUEUE (in order): (1) pin the official (q,n,t) u2c row
+table from the consumer chain (b2_modp_giant_extras / catch-#11
+numbers) and re-instantiate the Weil-Newton reach exactly; (2) rebuild
+the M1-t1 profile in exact arithmetic; (3) the t=1 flatness lemma
+attempt with the corrected shape; (4) L4 constants.
