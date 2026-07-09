@@ -674,3 +674,27 @@ sparse-Euclid recursion — worst case still open; witnesses collapse
 in 1-2 rounds) and the Lenstra literature check. The descent program
 now has: a proved uniform first round, calibrated witnesses, and a
 precisely posed recursion question.
+
+## 38 — 2026-07-10: CATCH #10 — the sqrt-n one-round certificate was
+## FALSE; soundness gate stopped it; corrected to the full recursion
+
+The claimed one-round proof (fiber <= V via binomial remainder) had a
+sign-slip: roots satisfy X^n - 1 == 0 mod g, so the remainder is
+R - 1 — a TRINOMIAL, not a binomial. The mechanism check alone
+PASSED (all branch guarantees held); the SOUNDNESS check against
+actual fibers found 168 violations (3-fibers vs certified 2s) at
+(97,32) and (193,64) — a false theorem stopped by the second gate
+BEFORE banking. This is the protocol's deepest catch (tenth overall;
+sixth machine-caught): mechanism-valid but unsound.
+
+CORRECTED STRUCTURE: the descent is a trinomial -> trinomial
+recursion (one reduction round maps degree-n trinomials to trinomials
+of degree ~V + n - U ~ n/2, per the proved orbit lemma), terminating
+at the 2 sqrt(n) degree floor after ~s/2 rounds. The calibrated
+witnesses (remainder degrees 7-22) are R - 1 values — the DATA
+stands; the THEOREM requires per-round bookkeeping: the new exponent
+triple's collapse status and degenerate values at each level. The
+sqrt-n bound is DOWNGRADED to conjecture-with-calibrated-recursion.
+Next: the per-round invariant (what property of the trinomial triple
+is preserved under one reduction round) — the recursion's induction
+hypothesis, to be formalized and machine-checked level by level.
