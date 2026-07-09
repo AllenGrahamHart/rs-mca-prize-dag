@@ -639,3 +639,23 @@ fields — the small-field accident regime (q < n^2) must be tracked
 level-by-level in the recursion bookkeeping. State: char-0 half
 PROVED; char-q half open with its no-go map complete; target slack
 repriced upward by two orders.
+
+## 36 — 2026-07-10: the NORMALIZE-SQUARE-REDUCE DESCENT — char-q proof
+## program calibrated at round 1
+
+Design: fiber counts are invariant under alpha -> alpha^k, so
+normalize the trinomial's top exponent to ~n/2 (orbit argument), then
+X^n mod g collapses in a few reduction steps to a sparse remainder of
+much lower degree; f <= deg gcd(g, X^n - 1) <= deg(remainder);
+recurse on sparse gcds. ROUND-1 CALIBRATION at the extremal
+witnesses: sparsity 3-5 terms, degree n -> 7/7/22/18 at n =
+32/30/64/128, in <= 8 reduction steps — the poly(s) * polylog(n)
+target shape (repriced application need, log #35) is empirically
+live. REMAINING for the proof write-up (fresh-session task): the
+worst-case normalization analysis (which (u,v) classes admit top ~n/2
+with small co-exponent — orbit arithmetic on (ku, kv) mod n),
+termination bookkeeping, and the formal statement. Literature pointer
+to verify (not assume): Lenstra's lacunary-polynomial factor theory
+covers the cyclotomic-factor structure of sparse polynomials — check
+whether the needed bound is already a theorem there. This is the
+char-q half's proof program, calibrated and posed.
