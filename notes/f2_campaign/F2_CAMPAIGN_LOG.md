@@ -289,3 +289,19 @@ the orbit subloci; the excess IS the struct census; the lemma = the
 excess is supported only there with the proper part within
 per-condition tolerance. Fulton machinery now applies. Session 2
 attacks exactly this statement.
+
+## 15 — 2026-07-10: the extras falsifier instrument, final form — PASS
+
+F2_EXTRAS_FALSIFIER_PASS (7 rows, exact: DP census + struct by DIRECT
+j-null testing of all disjoint full-coset unions, cross-cancellation
+included — struct = 270 -> 20 at n = 30 shows the full definition
+working). RESULT: extras contraction L_x in [0.705, 1.278] at every
+level of every row — within 30% of exactly flat — and extras reach
+EXACTLY ZERO at deeper levels on three rows (the surviving census is
+100% structured: N = struct = 6/2 exactly). Zero falsifier events.
+The extras-contraction lemma (excess-intersection crux) now has
+complete, exact empirical support: extras contract flat until they
+vanish; only structure survives deep conditioning. The campaign's
+day-1 record closes with the crux posed (log #14), the instrument
+green (this entry), and the proof attempt as the sole remaining
+mathematical content of F2.
