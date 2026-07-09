@@ -96,6 +96,9 @@ fixed <=1847-dimensional boundary/exception space.
 
 It also keeps the finite-field issue explicit.  A successful proof must work
 over the actual official row fields, not just over characteristic zero.
+The companion kernel-bundle reduction gives an equivalent geometric way to
+bound this annihilator: control the splitting excess of the boxed base-product
+linear series before multiplying by `H0(O(A-1))`.
 
 ## Replay
 

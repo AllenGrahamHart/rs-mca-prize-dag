@@ -44,6 +44,8 @@ The box restriction `0 <= b_i < B` is part of the theorem.  Replacing it by the
 full simplex would be a different, easier problem.
 The companion dual-annihilator target rewrites the same theorem as a bound on
 the coefficient functionals that kill all boxed shifted products.
+The companion kernel-bundle reduction rewrites it as a splitting-excess bound
+for the boxed base-product linear series on `P^1`.
 
 ## Official Arithmetic
 

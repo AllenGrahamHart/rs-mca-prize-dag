@@ -56,6 +56,10 @@ F3-RANK-AVOID / RC-NV: OPEN
   The conic dual-annihilator target rewrites the same codimension bound as
   `dim Ann <= 1847` for coefficient sequences killed by `B^3` length-`A`
   shifted product windows.
+  The conic kernel-bundle reduction proves the exact formula
+  `codim = sum_i max(e_i-A,0)` for the kernel splitting of the boxed base
+  product series `W`, and the official full-window balanced slope sits below
+  `A` with margin at least `1320`.
   The conic-chart linear-relation guard verifies `P_U+P_V+P_W+aQ=0` on the
   same-fiber conic chart despite pairwise coprime chart polynomials, so
   separated-divisor arguments alone cannot prove full rank.

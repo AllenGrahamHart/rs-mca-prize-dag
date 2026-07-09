@@ -7705,6 +7705,67 @@ Expected digest:
 H3_CONIC_DUAL_ANNIHILATOR_TARGET_PASS
 ```
 
+## 2026-07-09 h=3 conic kernel-bundle reduction
+
+Stage selected: replace the conic rank target by the exact `P^1`
+kernel-bundle splitting quantity controlling multiplication by
+`H0(O(A-1))`.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_KERNEL_BUNDLE_REDUCTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_kernel_bundle_reduction.py
+```
+
+For the boxed base-product series
+
+```text
+W <= H0(P^1,O(d)),      d=6H(B-1),
+```
+
+the final conic span is the image of
+
+```text
+H0(O(A-1)) tensor W -> H0(O(d+A-1)).
+```
+
+If `W` is basepoint-free and its kernel bundle splits as
+
+```text
+M_W = direct sum O(-e_i),
+```
+
+then the codimension is exactly
+
+```text
+sum_i max(e_i-A,0).
+```
+
+Thus the official conic theorem is reduced to proving splitting excess
+`<=1847`.  The replay verifies the official slope arithmetic: if the `B^3`
+base windows are independent and balanced, then
+
+```text
+ceil(d/(B^3-1)) <= A
+```
+
+with minimum margin `1320`.  This is not the splitting theorem, but it explains
+why the dense official boxes are plausible and gives a concrete geometric proof
+target.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_kernel_bundle_reduction.py
+```
+
+Expected digest:
+
+```text
+H3_CONIC_KERNEL_BUNDLE_REDUCTION_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without
