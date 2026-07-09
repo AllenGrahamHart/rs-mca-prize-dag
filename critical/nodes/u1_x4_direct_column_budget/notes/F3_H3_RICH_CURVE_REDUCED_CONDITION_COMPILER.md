@@ -65,6 +65,14 @@ RC-RED(13):
   coefficient conditions.
 ```
 
+The sharper derivative-order profile is now also recorded:
+
+```text
+RC-RED-PROFILE:
+  per repaired curve, all j<D reduced conditions are over-imposed by
+  DA + 6D(D-1) linear coefficient conditions.
+```
+
 The rank audit `F3_H3_RICH_CURVE_NV_RANK_AUDIT.md` clarifies that the
 nonvanishing gate should be proved as an image-rank statement, not as full
 injectivity of the `A B^3` coefficient box.  The sufficient form is:
@@ -79,6 +87,12 @@ RC-RANK:
 space to the log-jet conditions cannot be contained in the substitution
 kernel.  It remains false without the degeneracy repairs in the previous
 packets.
+
+Using `RC-RED-PROFILE`, the sharper sufficient rank target is:
+
+```text
+rank(S_Z) > (DA + 6D(D-1)) |Z|.
+```
 
 ## Compiler
 

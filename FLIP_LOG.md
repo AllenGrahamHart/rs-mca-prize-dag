@@ -7289,6 +7289,62 @@ H5_RECIPROCAL_OPEN_COVER_PASS
 F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=3 rich-curve exact condition profile
+
+Stage selected: optimize the arithmetic side of the h=3 rich-curve
+`RC-RED` route without changing the open nonvanishing theorem.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_CONDITION_PROFILE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_condition_profile.py
+```
+
+The log-jet proof gives, for derivative order `j`, a reduced numerator degree
+at most `(A-1)+12j`.  Therefore the exact over-imposed condition profile per
+repaired curve is
+
+```text
+sum_{j=0}^{D-1}(A+12j) = DA + 6D(D-1),
+```
+
+instead of the legacy sufficient bound
+
+```text
+13D(A+D).
+```
+
+On the five reduced-condition sample boxes, the exact profile uses only
+`7.84%..8.77%` of the legacy condition count and saves `3,444,473,440`
+sample conditions in total.  This does not prove `RC-NV`, but it gives future
+bridge-budget optimizers the sharper arithmetic target:
+
+```text
+rank(S_Z) > (DA + 6D(D-1)) |Z|.
+```
+
+Existing official budget tables remain valid because they use the larger
+legacy condition count.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_condition_profile.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_reduced_condition_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_nv_rank_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_RICH_CURVE_CONDITION_PROFILE_PASS
+H3_RICH_CURVE_REDUCED_CONDITION_COMPILER_PASS
+H3_RICH_CURVE_NV_RANK_AUDIT_PASS
+H3_FRONTIER_LEDGER_PASS
+```
+
 Residual h=5 target: prove the resulting official-row rank-one compatibility
 system has no support solutions, or replace it by a scalable certificate
 family.

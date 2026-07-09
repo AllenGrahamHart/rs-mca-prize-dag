@@ -102,6 +102,16 @@ contained in the coefficient vector of a polynomial of degree `< A + 12D`.
 This over-imposes the pointwise vanishing conditions, but that is allowed in
 the auxiliary-polynomial construction.
 
+Keeping the derivative order instead of collapsing immediately to a uniform
+constant gives the sharper exact profile
+
+```text
+sum_{j=0}^{D-1} (A+12j) = DA + 6D(D-1)
+```
+
+conditions per repaired curve.  The companion condition-profile packet records
+this arithmetic strengthening for future budget optimizers.
+
 ## RC-RED constant
 
 The reduction proves the gate

@@ -27,6 +27,7 @@ from f3_h3_private_linear_official_separation_guard import (
     separation_summary as private_separation_summary,
 )
 from f3_h3_rank_effective_bridge import EXPECTED_CAPACITIES, PINNED_RANKS, rank_capacity
+from f3_h3_rich_curve_condition_profile import condition_profile_summary
 from f3_h3_repeat_frontier_ledger import (
     count_route_frontier_gates,
     paid_ledgers,
@@ -175,6 +176,15 @@ def repeat_loose_geometry_summary() -> dict[str, int]:
     return summary
 
 
+def rich_curve_condition_summary() -> dict[str, int]:
+    summary = condition_profile_summary()
+    if summary["legacy_c_red"] != 13:
+        raise AssertionError(summary)
+    if summary["sample_rows"] != 5:
+        raise AssertionError(summary)
+    return summary
+
+
 def repeat_value_summary() -> dict[str, int]:
     summary = same_lambda_j_summary()
     expected = {
@@ -205,6 +215,7 @@ def frontier_gates(
     repeat_value: dict[str, int],
     repeat_slope: dict[str, int],
     repeat_loose: dict[str, int],
+    rich_curve_conditions: dict[str, int],
 ) -> tuple[H3FrontierGate, ...]:
     return (
         H3FrontierGate(
@@ -221,7 +232,11 @@ def frontier_gates(
             "OPEN",
             (
                 f"non-diagonal official budgets cover s={budgets['first_s']}..{budgets['last_s']} "
-                f"with Z={budgets['z_budget_min']}..{budgets['z_budget_max']}"
+                f"with Z={budgets['z_budget_min']}..{budgets['z_budget_max']}; "
+                f"exact RC-RED profile uses "
+                f"{rich_curve_conditions['min_exact_to_legacy_percent'] / 100:.2f}.."
+                f"{rich_curve_conditions['max_exact_to_legacy_percent'] / 100:.2f}% "
+                "of the legacy condition count on sample boxes"
             ),
             "prove finite-row rank-good minor nonvanishing on repaired degree-2 signature-curve images",
         ),
@@ -280,6 +295,7 @@ def main() -> None:
     repeat_value = repeat_value_summary()
     repeat_slope = repeat_slope_summary()
     repeat_loose = repeat_loose_geometry_summary()
+    rich_curve_conditions = rich_curve_condition_summary()
     gates = frontier_gates(
         activation,
         budgets,
@@ -291,6 +307,7 @@ def main() -> None:
         repeat_value,
         repeat_slope,
         repeat_loose,
+        rich_curve_conditions,
     )
 
     print("F3 h=3 frontier ledger")
@@ -342,6 +359,13 @@ def main() -> None:
         f"branch_B_private={repeat_loose['branch_b_private_slope_maps']} "
         f"active_finite_ramification_points="
         f"{repeat_loose['active_finite_ramification_points']}"
+    )
+    print(
+        "rich-curve condition profile: "
+        f"exact_to_legacy_percent="
+        f"{rich_curve_conditions['min_exact_to_legacy_percent'] / 100:.2f}.."
+        f"{rich_curve_conditions['max_exact_to_legacy_percent'] / 100:.2f} "
+        f"total_saved_conditions={rich_curve_conditions['total_saved_conditions']}"
     )
     print("frontier gates:")
     for gate in gates:

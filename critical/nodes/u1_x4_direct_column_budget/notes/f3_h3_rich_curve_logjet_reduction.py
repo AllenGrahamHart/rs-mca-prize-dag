@@ -291,7 +291,7 @@ def main() -> None:
     print("log-jet identity evaluations checked:", total_evals)
     print("max reduced numerator degree observed:", max_reduced_degree)
     print("degree bound: deg(X^a W_j) <= a + j(deg S - 1) <= a + 12j")
-    print("condition-count corollary: RC-RED(13)")
+    print("condition-count corollaries: RC-RED(13), exact profile DA+6D(D-1)")
     print("H3_RICH_CURVE_LOGJET_REDUCTION_PASS")
 
 
