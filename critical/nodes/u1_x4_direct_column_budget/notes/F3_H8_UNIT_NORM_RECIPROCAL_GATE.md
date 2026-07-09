@@ -48,6 +48,9 @@ but they use the official-row unit-root property of the support product.  They
 give the h=8 x83 branch a second `delta`-free surface that is independent of
 the chosen base reciprocal row.
 
+The companion `F3_H8_ODD_CHART_RECOVERY_COMPILER.md` records the chart-local
+use of these rows on the four odd charts forced by the parity reduction.
+
 ## Role In h=8
 
 This still does not prove the h=8 non-antipodal x83 branch empty.  The current

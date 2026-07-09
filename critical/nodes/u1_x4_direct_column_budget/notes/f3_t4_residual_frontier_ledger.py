@@ -84,6 +84,9 @@ from f3_h8_nonantipodal_aperiodic import count_summary as h8_aperiodic_summary
 from f3_h8_rotation_orbit_compiler import EXPECTED as H8_ROTATION_EXPECTED
 from f3_h8_support_universe_compiler import EXPECTED as H8_SUPPORT_EXPECTED
 from f3_h8_basefree_reciprocal_system import basefree_summary as h8_basefree_summary
+from f3_h8_odd_chart_recovery_compiler import (
+    odd_chart_recovery_summary as h8_odd_chart_summary,
+)
 from f3_h8_reciprocal_compatibility_compiler import (
     reciprocal_compatibility_summary as h8_reciprocal_summary,
 )
@@ -350,6 +353,7 @@ def h8_summary() -> dict[str, int]:
     reciprocal = h8_reciprocal_summary()
     basefree = h8_basefree_summary()
     unit_norm = h8_unit_norm_summary()
+    odd_chart = h8_odd_chart_summary()
     if (
         aperiodic["nonantipodal_rotation_orbits"]
         != actual_rotation["nonantipodal_rotation_orbits"]
@@ -385,6 +389,10 @@ def h8_summary() -> dict[str, int]:
         "unit_norm_equations": unit_norm["equations"],
         "unit_norm_max_terms": unit_norm["max_terms"],
         "unit_norm_max_total_degree": unit_norm["max_total_degree"],
+        "odd_chart_count": odd_chart["odd_charts"],
+        "odd_chart_min_terms": odd_chart["min_chart_total_terms"],
+        "odd_chart_max_terms": odd_chart["max_chart_total_terms"],
+        "odd_chart_max_degree": odd_chart["max_chart_max_degree"],
         **actual_support,
         **actual_rotation,
     }
@@ -471,7 +479,9 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"basefree pairwise={h8['basefree_pairwise_equations']} "
                 f"max_degree={h8['basefree_max_total_degree']}; "
                 f"unit-norm rows={h8['unit_norm_equations']} "
-                f"max_degree={h8['unit_norm_max_total_degree']}"
+                f"max_degree={h8['unit_norm_max_total_degree']}; "
+                f"odd charts={h8['odd_chart_count']} "
+                f"terms={h8['odd_chart_min_terms']}..{h8['odd_chart_max_terms']}"
             ),
             (
                 "certify "
@@ -612,6 +622,12 @@ def main() -> None:
         f"equations={h8['unit_norm_equations']} "
         f"max_terms={h8['unit_norm_max_terms']} "
         f"max_total_degree={h8['unit_norm_max_total_degree']}"
+    )
+    print(
+        "h=8 odd-chart recovery: "
+        f"charts={h8['odd_chart_count']} "
+        f"chart_terms={h8['odd_chart_min_terms']}..{h8['odd_chart_max_terms']} "
+        f"max_degree={h8['odd_chart_max_degree']}"
     )
     print("F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS")
 

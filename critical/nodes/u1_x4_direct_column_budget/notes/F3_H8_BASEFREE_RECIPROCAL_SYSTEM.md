@@ -50,6 +50,8 @@ The `E7`-based reciprocal compatibility rows are the seven incident equations
 against the `E7`/central chart.  This base-free packet records the full
 rank-one surface so future chart-local attacks can choose any nonzero
 denominator slot.
+The companion `F3_H8_ODD_CHART_RECOVERY_COMPILER.md` uses the parity reduction
+to restrict the non-antipodal x83 branch to the four odd charts.
 
 ## Role In h=8
 

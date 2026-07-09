@@ -119,6 +119,11 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   `delta*bar_delta=1`, giving seven Hermitian equations independent of the
   base reciprocal row, with maximum total degree `30` and maximum term count
   `19601`.
+  The h=8 odd-chart recovery compiler combines this with the parity reduction:
+  every non-antipodal x83 survivor lies on one of four odd charts
+  `c15,c13,c11,c9`, where seven incident minors plus one matching Hermitian row
+  suffice.  The four local systems have `1552..20977` total terms and maximum
+  degree `30`.
   Residual: certify 122,131,731,640,320 anchored non-antipodal 16-supports
   (7,633,233,227,520 aperiodic rotation orbits), or build a sharded signature
   join avoiding the blind left table.
@@ -170,6 +175,7 @@ h8 antipodal quotient
   + h8 reciprocal compatibility compiler
   + h8 base-free reciprocal system
   + h8 unit-norm reciprocal gate
+  + h8 odd-chart recovery compiler
   + residual frontier/support-universe audits
   => T4-H8-N64-NONANTIPODAL-X83 remains the only h=8 blocker
 ```

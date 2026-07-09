@@ -9216,3 +9216,45 @@ Expected digest:
 ```text
 H8_BASEFREE_RECIPROCAL_SYSTEM_PASS
 ```
+
+## 2026-07-09 h=8 odd-chart reciprocal recovery
+
+Stage selected: combine the h=8 parity open cover with the reciprocal
+rank-one and unit-norm systems.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_RECOVERY_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_recovery_compiler.py
+```
+
+The parity reduction proves that a non-antipodal x83 survivor has one of
+`c15,c13,c11,c9` nonzero.  Since conjugation is an automorphism on official
+rows, this gives four reciprocal charts:
+
+```text
+D1*bar_c15, D3*bar_c13, D5*bar_c11, D7*bar_c9.
+```
+
+On each chart the local target is seven incident rank-one minors plus the
+matching unit-norm row.  The chart profiles are:
+
+```text
+chart 1: 8 equations, 20977 total terms, max degree 30
+chart 3: 8 equations, 8992 total terms, max degree 26
+chart 5: 8 equations, 3553 total terms, max degree 22
+chart 7: 8 equations, 1552 total terms, max degree 18
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_recovery_compiler.py
+```
+
+Expected digest:
+
+```text
+H8_ODD_CHART_RECOVERY_COMPILER_PASS
+```

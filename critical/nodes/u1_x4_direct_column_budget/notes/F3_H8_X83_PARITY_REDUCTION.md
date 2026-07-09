@@ -59,6 +59,10 @@ packet lets that certifier safely skip any non-antipodal support whose high odd
 locator coefficients all vanish, because such a support cannot be x83
 full-zero.
 
+The companion `F3_H8_ODD_CHART_RECOVERY_COMPILER.md` uses the same
+contrapositive as an open cover: the remaining non-antipodal reciprocal target
+lies on one of the four odd charts `c15,c13,c11,c9`.
+
 This is deliberately weaker than exponent-unit or reflection canonicalization.
 Those shortcuts are already refuted by
 `F3_H8_EXPONENT_UNIT_FALSIFIER.md`.
