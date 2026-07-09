@@ -603,3 +603,19 @@ algebraic/torsion-structural — the proof should classify q-robust
 solutions of the 6-term torsion relation. The falsification arc
 (flat -> falsified -> regime-restricted flat) took three cycles and
 left the target strictly better calibrated than the original guess.
+
+## 34 — 2026-07-10: CHAR-0 CLASSIFICATION PROVED — the base lemma's
+## char-0 half is closed; official conjecture sharpens to C(3) <= 2
+
+f2_char0_sixterm_classification (tenth satellite): over Z[zeta_{2^s}]
+the 6-term coincidence relation has only ledger/degenerate/diagonal
+solutions — Lam-Leung pair decomposition + all six matchings
+case-checked; verified exactly in Z[x]/(x^{n/2}+1) (277 pairs, zero
+violations). Every finite-q fiber coincidence is a char-q accident
+(a prime above p divides a FIXED nonzero cyclotomic integer with all
+conjugates <= 6). All tested q were < n^2 — the observed 3-fibers are
+accidents in-regime; at official q >> n^2 the sharpened conjecture is
+C(3) <= 2. REMAINING for the base lemma: bound the p-divisibility
+incidences (char-q half) — a statement about the fixed family
+{S(a,b)} and the specific official prime, i.e. arithmetic, not
+geometry. The proof of the crux's lower edge is now half done.
