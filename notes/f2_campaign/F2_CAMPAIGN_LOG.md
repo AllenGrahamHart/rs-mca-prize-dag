@@ -1390,3 +1390,21 @@ analysis program is COMPLETE: every probe executed or derived, nine
 no-gos fencing every lane at its true boundary, fifteen proved
 satellites, and a summit whose remaining content is one algebraic
 question in exactly known coordinates. Seventy-four entries.
+
+## 75 — 2026-07-10: THE FROBENIUS SECTOR DECOMPOSITION — the first
+## official sector governed by proved machinery
+
+Frobenius x -> x^p permutes mu_n (p coprime to n) and preserves the
+t-null census (p_j(phi S) = p_{pj}(S), Frobenius redundancy); struct
+maps to struct. The official census decomposes by phi-orbit
+structure. THE FIXED SECTOR: phi-fixed blocks live on mu_n cap F_p =
+mu_{gcd(n, p-1)} = mu_{2^24} — and n_1 = 2^24 >= 3 sqrt(p) = 2^17.1:
+IN THE ANALYTIC REGIME (verified exact). The proved k=1 machinery
+(per-condition 1 + o(1), f2_k1_contraction_theorem chain) applies to
+a genuine sector of the OFFICIAL problem for the first time. MOVING
+SECTORS (orbit size 2^j >= 2): n_j = 2^{24+j} vs sqrt(q_j) doubling
+in exponent — out of the analytic regime at j >= 1 (verified);
+their rigidity gain (a moving block is determined by 1/2^j of its
+data) is the algebraic handle. The summit's open set narrows again:
+the moving sectors of the Frobenius-slot interior. Seventy-five
+entries; the official problem has its first proved-machinery sector.
