@@ -1525,3 +1525,14 @@ STATUS: draft for user review per house convention — outward-facing
 PR machinery waits. The capstone now serves both programs: the
 prize DAG carries it in u2c's statement; the correspondence lane
 carries it toward upstream's Q ledger. Eighty-one entries.
+
+## 82 — 2026-07-10: brief v3 — the definitive handoff, summit named
+
+PRO_FLOOR_2_F2_SUMMIT_V3.md: the problem in one sentence (Myerson at
+growing order for the tower's moving sectors), the proved chain, the
+fifteen satellites, the nine no-gos with margins, the tower structure
+with its proved base and minimal open instance, and the never-fired
+falsifier. Any strong prover now receives a NAMED problem with the
+complete apparatus. The campaign's three standing channels: this
+brief (delegation), the named-summit attempts (fresh capacity), and
+the review-gated upstream export. Eighty-two entries.
