@@ -178,3 +178,29 @@ table from the consumer chain (b2_modp_giant_extras / catch-#11
 numbers) and re-instantiate the Weil-Newton reach exactly; (2) rebuild
 the M1-t1 profile in exact arithmetic; (3) the t=1 flatness lemma
 attempt with the corrected shape; (4) L4 constants.
+
+## 9 — 2026-07-09 (session close): official shape pinned; extremes EMPTIED
+
+Session-2 queue item (1) executed early: the official (q,n,t) shape
+was already banked in SURVEY_X4_CLUSTER — prize-max t*log2(q) ~
+2.15e12 > n ~ 1.1e12, t ~ 7e10, window EMPTY at every b (q generated
+per catch #11). Consequences, all banked:
+- f2_newton_empty_extremes PROVED (three-line Newton + the proved
+  complementation): NO t-null blocks at b <= t or b >= n-t — the
+  extreme bands are EMPTY out to width ~2^36 each side at prize-max.
+- Weil-Newton's F2-official reach is ZERO (t*sqrt q > n): catch #4
+  resolved by replacement; the lemma stays for small-t shapes.
+- THE REFRAMED HEART: mid-band t < b < n-t, flat mean < 2^{-1e12}
+  scale vs budget n^3 — required anti-concentration = fiber-to-mean
+  ratio <= ~2^{1.05e12}, i.e. EXPONENTIALLY WEAK. M1's target is any
+  sub-double-exponential max/mean bound.
+Verification: exhaustive at 6 toy rows (t = 2..5), zero violations.
+
+SESSION-2 QUEUE (updated): (1) DONE. (2) exact-arithmetic mid-band
+machinery (catch #5) aimed at the REFRAMED target — candidate first
+lemma: a fiber-to-mean bound via the t-condition DP's contraction
+(each added power-sum condition divides the fiber by ~q up to bounded
+loss — if a per-condition loss factor L is proved, the ladder gives
+max/mean <= L^t and ANY L < 2^{(1.05e12)/t} ~ 2^{15} = 32768 wins:
+a per-condition loss of 32768x SUFFICES). (3) L4 constants. The
+per-condition formulation is the campaign's sharpest posing yet.
