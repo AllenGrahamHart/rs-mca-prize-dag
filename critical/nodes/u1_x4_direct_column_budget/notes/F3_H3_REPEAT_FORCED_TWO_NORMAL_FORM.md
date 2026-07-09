@@ -6,6 +6,10 @@ This packet explains the special role of the forced coordinate `2` in the
 nonzero repeat-boundary row.  It does not prove that every active edge contains
 `2`; it records what the support problem becomes on the `2`-hit cell.
 
+The companion `F3_H3_REPEAT_FORCED_MOBIUS_INVOLUTION.md` proves the general
+forced-coordinate normal form.  The `2`-cell below is the special case where
+that Mobius involution becomes ordinary inversion.
+
 ## Normal Form
 
 For a fixed forced coordinate `a`, the forced-fiber map is

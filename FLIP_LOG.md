@@ -8994,3 +8994,47 @@ F3_FLIP_RESIDUAL_FRONTIER_LEDGER_PASS
 H3_FRONTIER_LEDGER_PASS
 F3_T3_CONSTANT_CAMPAIGN_LEDGER_PASS
 ```
+
+## 2026-07-09 h=3 forced-coordinate Mobius normal form
+
+Stage selected: push the repeat-boundary support route symbolically, without
+launching a broader finite scan.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_MOBIUS_INVOLUTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_mobius_involution.py
+```
+
+For a forced coordinate `a`, with `A=a-1` and `X=v-1`, the forced-fiber map
+satisfies
+
+```text
+w_a(v)-1 = T_A(X),  T_A(X) = -A X/(A+X).
+```
+
+The packet proves symbolically that `T_A` is an involution, that its only
+fixed factors are `X` and `X+2A`, and that `lambda_a(v)` is invariant under
+the involution.  Therefore every active edge hit by `a` is organized by
+Mobius-involution pairs `{v,w_a(v)}` after excluding the usual pole and
+repeated-coordinate loci.  The old forced-coordinate-2 trace cell is recovered
+as the special case `w_2(v)=v^-1`, `lambda_2(v)=v+v^-1`.
+
+This does not prove a small forced-coordinate cover, but it sharpens the
+surviving target: cover the active support by a small collection of these
+Mobius cells, then use the existing forced-fiber degree payment.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_mobius_involution.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_hitting_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_REPEAT_FORCED_MOBIUS_INVOLUTION_PASS
+H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
+```

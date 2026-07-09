@@ -52,6 +52,7 @@ The harness runs:
 - the forced-point support reduction;
 - the forced-fiber Stepanov compiler;
 - the elementary forced-fiber degree bound;
+- the forced-coordinate Mobius involution normal form;
 - the forced-cover crossover table;
 - the coordinate-cover ledger;
 - the coordinate-hitting ledger;
