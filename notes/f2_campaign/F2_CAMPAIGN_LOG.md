@@ -1263,3 +1263,23 @@ from the 1-dim lemma with quotiented systems (the in-house
 alternative if the citation fails). The convergent pattern continues:
 one dependency at a time, each either verified, replaced in-house, or
 fenced. Sixty-eight entries.
+
+## 69 — 2026-07-10: the final citation exists in the RIGHT form — the
+## subspace formulation absorbs the d-dimensional question
+
+The joint anti-concentration over d moment conditions IS the
+subspace-membership probability Pr[indicator vector in a fixed
+codim-d subspace of F_p^n] — the core object of the F_p random-matrix
+corank literature: Maples (the F_p paper's subspace/corank bounds —
+the source catch #16 rejected for the WRONG statement carries the
+RIGHT one) and Nguyen's "Some new results in random matrices over
+finite fields" (Modp, located: people.math.osu.edu/nguyen.1261/cikk/
+Modp.pdf). No separate d-dim Halasz needed: the subspace formulation
+absorbs it, with structured subspaces (the exceptional classes in
+those theorems) mapping to our struct directions once more. NEXT
+UNIT: the precise-statement read of Nguyen's Modp paper (constants,
+structured-subspace exceptions), then the joint composition = our
+census fiber as subspace membership + BGK level floors + the
+structured-exception ledger = the prime-field dichotomy end-to-end.
+The dependency count is now: ONE statement-read, one composition,
+one assembly. Sixty-nine entries.
