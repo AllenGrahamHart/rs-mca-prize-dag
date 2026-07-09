@@ -368,3 +368,18 @@ excess-intersection <-> zero-prefix Q <-> unit-group q-th-powers —
 five faces, one irreducible object. The crux is confirmed
 kernel-hard; the open lanes are the two proof faces (Fulton; Q
 machinery), the delegation brief, and nothing else.
+
+## 20 — 2026-07-10: EMPTY BAND UNCONDITIONAL — catch #6 superseded
+
+The squarefree/p-th-power argument (via the full-ladder dictionary):
+b <= t forces ell*_S in F_q[X^p] = a p-th power, but ell*_S is
+squarefree => b = 0. The empty bands have FULL width t (~2^36/side at
+prize-max) in any characteristic — the original width claim restored
+with a correct proof; catch #6's char-limited version superseded.
+Decisive test where the Newton proof was silent: F_25 (p = 5, n = 24),
+b = 6/7/8 > p-1, 1.2M subsets — dictionary (p-free form) exact, zero
+t-nulls (F2_UNCONDITIONAL_EMPTY_BAND_PASS). Char-p precision banked on
+the dictionary (official extension-field rows: free indices are
+p-multiples). Ledger: the arc from catch #6 (overclaim) -> correction
+-> stronger unconditional theorem is the falsification protocol's
+ideal trajectory, completed within one campaign day.
