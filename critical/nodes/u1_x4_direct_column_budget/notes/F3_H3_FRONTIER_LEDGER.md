@@ -88,6 +88,9 @@ H3-REPEAT-BOUNDARY-STAR: OPEN FRONTIER
   The shared-core degree split records this common six-map target with
   `S_total=14`, leaving private two-map tails with `S_total=8` on branch A and
   `S_total=10` on branch B; the full clean branch totals remain `22` and `24`.
+  The shared-core rank-target compiler gives a sample-box count-route target
+  with rank target `1049`, entry degree `1359`, minor degree at most
+  `1425591`, point bound `1087/2`, and rank-capacity slack `40`.
   Residual: prove or replace the strict same-lambda, slope, and loose-triangle
   branch gates needed by the star route.
 ```

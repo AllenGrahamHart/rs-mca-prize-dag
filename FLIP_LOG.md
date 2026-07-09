@@ -7612,6 +7612,57 @@ H3_REPEAT_FRONTIER_LEDGER_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=3 loose shared-core rank target
+
+Stage selected: quantify the shared six-map loose core as its own
+Stepanov/rank-minor target.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SHARED_CORE_RANK_TARGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_shared_core_rank_target.py
+```
+
+For the sample box
+
+```text
+P=16, C=512, B=4, D=2, |Z|=1, n=32,
+```
+
+the shared core has
+
+```text
+maps=6, S_total=14, coefficients=33554432, conditions=1048,
+X-degree=1087, point bound=1087/2, rank-capacity slack=40.
+```
+
+The corresponding strong rank-minor target is
+
+```text
+rank target=1049, entry degree=1359, minor degree <= 1425591.
+```
+
+This is not a proof of the loose branch gates.  It records a possible common
+count-route replacement for both clean special branches if the shared-core
+rank/NV theorem can be proved.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_shared_core_rank_target.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_REPEAT_LOOSE_SHARED_CORE_RANK_TARGET_PASS
+H3_REPEAT_FRONTIER_LEDGER_PASS
+H3_FRONTIER_LEDGER_PASS
+```
+
 ## 2026-07-09 h=5 central projective-infinity exclusion
 
 Stage selected: upgrade the h=5 central infinity flag from a route guide to

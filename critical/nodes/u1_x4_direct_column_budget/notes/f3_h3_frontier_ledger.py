@@ -49,6 +49,7 @@ from f3_h3_repeat_frontier_ledger import (
 )
 from f3_h3_repeat_loose_branch_geometry import branch_geometry_summary
 from f3_h3_repeat_loose_shared_core_degree import loose_shared_core_summary
+from f3_h3_repeat_loose_shared_core_rank_target import shared_core_rank_summary
 
 
 @dataclass(frozen=True)
@@ -226,7 +227,25 @@ def repeat_loose_geometry_summary() -> dict[str, int]:
     }
     if shared != expected_shared:
         raise AssertionError(shared)
-    return {**geometry, **shared}
+    rank = shared_core_rank_summary()
+    expected_rank = {
+        "maps": 6,
+        "parameter_blocks": 1,
+        "parameter_sum_total": 14,
+        "coefficients": 33_554_432,
+        "conditions": 1048,
+        "x_degree": 1087,
+        "point_bound_num": 1087,
+        "point_bound_den": 2,
+        "rank_capacity_slack": 40,
+        "cleared_total_degree": 1870,
+        "rank_target": 1049,
+        "entry_parameter_degree": 1359,
+        "minor_total_degree": 1_425_591,
+    }
+    if rank != expected_rank:
+        raise AssertionError(rank)
+    return {**geometry, **shared, **{f"shared_core_rank_{k}": v for k, v in rank.items()}}
 
 
 def rich_curve_condition_summary() -> dict[str, int]:
@@ -355,7 +374,10 @@ def frontier_gates(
                 f"with active finite ramification={repeat_loose['active_finite_ramification_points']}; "
                 f"shared-core S_total={repeat_loose['shared_sum_total']} and private "
                 f"S_totals A/B={repeat_loose['branch_a_private_sum_total']}/"
-                f"{repeat_loose['branch_b_private_sum_total']}"
+                f"{repeat_loose['branch_b_private_sum_total']}; "
+                f"shared-core sample rank target="
+                f"{repeat_loose['shared_core_rank_rank_target']} "
+                f"with slack={repeat_loose['shared_core_rank_rank_capacity_slack']}"
             ),
             "prove or replace the strict same-lambda, slope, and loose-triangle branch gates needed by the star route",
         ),
@@ -442,7 +464,9 @@ def main() -> None:
         f"{repeat_loose['active_finite_ramification_points']} "
         f"shared_core_total={repeat_loose['shared_sum_total']} "
         f"private_totals=({repeat_loose['branch_a_private_sum_total']},"
-        f"{repeat_loose['branch_b_private_sum_total']})"
+        f"{repeat_loose['branch_b_private_sum_total']}) "
+        f"shared_core_rank_target={repeat_loose['shared_core_rank_rank_target']} "
+        f"rank_slack={repeat_loose['shared_core_rank_rank_capacity_slack']}"
     )
     print(
         "rich-curve condition profile: "

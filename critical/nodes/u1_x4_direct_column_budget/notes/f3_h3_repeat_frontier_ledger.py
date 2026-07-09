@@ -32,6 +32,7 @@ from f3_h3_repeat_same_lambda_j_ramification import j_ramification_summary
 from f3_h3_repeat_same_lambda_product_parameter import product_parameter_summary
 from f3_h3_repeat_loose_branch_geometry import branch_geometry_summary
 from f3_h3_repeat_loose_shared_core_degree import loose_shared_core_summary
+from f3_h3_repeat_loose_shared_core_rank_target import shared_core_rank_summary
 
 
 @dataclass(frozen=True)
@@ -283,6 +284,32 @@ def main() -> None:
         f"branch_B_private_sum_total={loose_shared['branch_b_private_sum_total']} "
         f"full_totals=({loose_shared['branch_a_full_total']},"
         f"{loose_shared['branch_b_full_total']})"
+    )
+    shared_rank = shared_core_rank_summary()
+    if shared_rank != {
+        "maps": 6,
+        "parameter_blocks": 1,
+        "parameter_sum_total": 14,
+        "coefficients": 33_554_432,
+        "conditions": 1048,
+        "x_degree": 1087,
+        "point_bound_num": 1087,
+        "point_bound_den": 2,
+        "rank_capacity_slack": 40,
+        "cleared_total_degree": 1870,
+        "rank_target": 1049,
+        "entry_parameter_degree": 1359,
+        "minor_total_degree": 1_425_591,
+    }:
+        raise AssertionError(shared_rank)
+    print(
+        "loose_shared_core_rank_target: "
+        f"rank_target={shared_rank['rank_target']} "
+        f"entry_degree={shared_rank['entry_parameter_degree']} "
+        f"minor_degree<={shared_rank['minor_total_degree']} "
+        f"rank_capacity_slack={shared_rank['rank_capacity_slack']} "
+        f"point_bound={shared_rank['point_bound_num']}/"
+        f"{shared_rank['point_bound_den']}"
     )
 
     minor_rows = rank_minor_rows()

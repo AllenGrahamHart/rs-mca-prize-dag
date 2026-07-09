@@ -130,6 +130,24 @@ branch B private: maps=2, sum_a_degrees=9, S_total=10, max_total=7.
 This does not prove either loose branch, but it separates the common reusable
 one-parameter target from the two smaller private debts.
 
+The shared-core rank-target compiler applies the same loose Stepanov and
+rank-minor bookkeeping to the six-map core.  For the sample box
+
+```text
+P=16, C=512, B=4, D=2, |Z|=1, n=32,
+```
+
+it gives
+
+```text
+shared core: rank target 1049, entry degree 1359,
+minor degree <= 1425591, rank-capacity slack 40,
+point bound 1087/2.
+```
+
+Thus a future shared-core rank/NV theorem could bound both clean special
+branches on a common count route, even without proving the two private tails.
+
 ## Count Route Frontier
 
 The scale same-lambda branch has a separate count payment:
