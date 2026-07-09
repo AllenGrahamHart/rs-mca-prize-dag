@@ -1816,10 +1816,14 @@ central chart may be sliced at `l5=bar_l5=1`; the four graph equations still
 have `67` terms, but max degree drops from `10` to `9`.  The sliced fixed-point
 skeleton lowers the compatibility degree bounds from `91,81,71,61` to
 `81,72,63,54`, while leaving the pre-cancellation term bounds unchanged and
-still prohibitive.  The official scaling packet records the finite-row caveat:
-only scaling by `mu_n` preserves the support condition, and this action is
-free on the central chart since `bar_l5 != 0` has weight `-5` and
-`gcd(5,2^s)=1`.
+still prohibitive.  The central slice tangent compiler extracts the local
+normal form without expanding fixed-point numerators: the graph tangent is the
+`1/2` anti-diagonal map, hence the relaxed fixed-point equations have linear
+part `3/4 I` and determinant `81/256`.  This is a local algebraic statement
+away from characteristics `2,3`, not an official-row closure.  The official
+scaling packet records the finite-row caveat: only scaling by `mu_n` preserves
+the support condition, and this action is free on the central chart since
+`bar_l5 != 0` has weight `-5` and `gcd(5,2^s)=1`.
 
 The certificate scaling frontier explains why the current finite-certificate
 format is not that maintainable family.  The banked n=128 Modal rows use

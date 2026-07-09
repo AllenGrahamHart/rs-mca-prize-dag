@@ -347,9 +347,13 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    `l5=bar_l5=1`, reducing the central graph max degree from `10` to `9`
    without treating it as an official row quotient.  On that slice the
    fixed-point degree bounds drop from `91,81,71,61` to `81,72,63,54`, but the
-   expansion-size bounds remain prohibitive.  On official rows the central
-   chart has a free finite `mu_n` scaling action because `bar_l5` has weight
-   `-5` and `gcd(5,2^s)=1`.
+   expansion-size bounds remain prohibitive.  The slice tangent compiler adds
+   a local normal form: the graph tangent is the `1/2` anti-diagonal map, so
+   the relaxed fixed-point equations have linear part `3/4 I` and determinant
+   `81/256`.  This proves only that the normalized origin is a simple local
+   fixed point away from characteristics `2,3`; it is not a global h=5 closure.
+   On official rows the central chart has a free finite `mu_n` scaling action
+   because `bar_l5` has weight `-5` and `gcd(5,2^s)=1`.
 17. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.

@@ -7683,3 +7683,49 @@ Expected digests:
 H5_CENTRAL_SLICE_FIXEDPOINT_SKELETON_PASS
 F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 ```
+
+## 2026-07-09 h=5 central slice tangent compiler
+
+Stage selected: extract a local normal form from the weighted central slice,
+without expanding the fixed-point equations.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_TANGENT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_tangent.py
+```
+
+Key graph tangent on the slice `l5=bar_l5=1`:
+
+```text
+bar_l9 = (1/2) l6 + higher order terms
+bar_l8 = (1/2) l7 + higher order terms
+bar_l7 = (1/2) l8 + higher order terms
+bar_l6 = (1/2) l9 + higher order terms
+```
+
+Thus, in the orders `l6,l7,l8,l9` and `bar_l6,bar_l7,bar_l8,bar_l9`, the
+graph tangent is the `1/2` anti-diagonal matrix.  Conjugating the graph gives
+the same tangent matrix, so the relaxed fixed-point map has tangent `1/4 I`
+and the fixed-point equations have linear part `3/4 I` with determinant
+`81/256`.
+
+Conclusion: away from characteristics `2` and `3`, the normalized origin is a
+simple isolated fixed point of the relaxed sliced central graph.  This is a
+local algebraic route guide, not an official-row h=5 closure and not a global
+central-chart emptiness proof.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_tangent.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H5_CENTRAL_SLICE_TANGENT_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```
