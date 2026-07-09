@@ -305,3 +305,23 @@ vanish; only structure survives deep conditioning. The campaign's
 day-1 record closes with the crux posed (log #14), the instrument
 green (this entry), and the proof attempt as the sole remaining
 mathematical content of F2.
+
+## 16 — 2026-07-10: ZERO-PREFIX Q EQUIVALENCE PROVED — F2 = kernel instance
+
+f2_zero_prefix_q_equivalence (F2_ZERO_PREFIX_EQUIVALENCE_PASS, two
+independent exact DPs, 20 cells): below char q, the F2 level-j census
+equals the v13 zero-prefix census (Newton dictionary + divisor
+bijection). F2's crux is FORMALLY an instance of the shared census
+kernel — the summit architecture is now a theorem, not an analogy.
+The excess-intersection statement (log #14) and row-sharp Q at the
+zero prefix are two faces of one object; all upstream Q machinery
+(PROVED shift-pair strata, BC charts) and F5 P9 apply directly, and
+any proof of the crux advances the kernel awaited by F5/F1/F4.
+ev edges: -> u2c, -> shared_census_kernel (TARGET).
+
+The campaign's day-1+continuation record now stands at: 6 PROVED
+satellites + 2 anchors, 13 digests, 6 catches corrected, 2 no-gos,
+the crux in excess-intersection form with a clean final-form
+falsifier pass, and the kernel identification. The proof of the crux
+— now attackable from the Q side, the geometry side, or both — is
+the sole remaining mathematics between u2c and green.
