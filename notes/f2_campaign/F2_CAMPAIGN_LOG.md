@@ -439,3 +439,22 @@ polynomial with > R(s) roots in mu_{2^k} has exponent collapse")
 would close the mid-band's lower edge for b - t up to the sparsity
 threshold, with the k = 1 anchor already proved (support rigidity).
 Next: attempt the R5 theorem via the 2-adic exponent filtration.
+
+## 25 — 2026-07-10: R5 theorem state — s=3 = generalized chords; lift no-go
+
+Two banked facts from the R5 proof attempt. (a) REDUCTION: the s = 3
+non-collapsible instance is exactly the generalized chord problem —
+roots are torsion points (x^{d2}, x^{d3}) on a line; L2a's Jacobi
+machinery is its toy-scale theory; general s reduces via the singular
+exponent matrix to VANISHING SCHUR POLYNOMIALS at torsion points
+(generalized Vandermonde = Schur x Vandermonde, distinct roots kill
+the Vandermonde factor). (b) NO-GO #3 (quantified): Teichmuller-
+lifting roots to char 0 to import Lam-Leung/Mann fails — S != 0 in
+Z[zeta_n] vanishing mod a prime above p gives only |N(S)| >= p
+against a norm bound exp(phi(n)|lambda| log s) >> p at every official
+shape; the char-q effects are real (data: nc maxima = s+1 exceed
+Chebotarev's char-0 cap s-1). The R5 theorem is its own problem; its
+attack objects are now: the generalized chord counts (s=3, Jacobi-
+exact at toys) and torsion vanishing loci of Schur polynomials
+(general s). Campaign totals: 3 no-gos, 5 routes, R5 leading with
+its first reduction chain banked.
