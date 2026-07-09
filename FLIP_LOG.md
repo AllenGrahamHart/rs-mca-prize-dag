@@ -7399,9 +7399,20 @@ chart terms: 615,443,273,195,67
 central chart: 4 equations, 67 total terms, max degree 10
 ```
 
+The central chart graph compiler then verifies that the four central equations
+are linear in `bar_l9,bar_l8,bar_l7,bar_l6` respectively:
+
+```text
+Cj5 = bar_l5*P_j - D_j*l5*bar_l(10-j).
+```
+
+Thus, on `bar_l5 != 0`, the central chart is an explicit rational graph after
+saturating by `l5*bar_l5`.
+
 Replays:
 
 ```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_chart_graph.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_rank_one_minor_propagation.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_rank_one_unit_propagation.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_chart_recovery_compiler.py
@@ -7411,6 +7422,7 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_
 Expected digests:
 
 ```text
+H5_CENTRAL_CHART_GRAPH_PASS
 H5_RANK_ONE_MINOR_PROPAGATION_PASS
 H5_RANK_ONE_UNIT_PROPAGATION_PASS
 H5_CHART_RECOVERY_COMPILER_PASS

@@ -41,7 +41,9 @@ T4-H5-NORM-GATE: OPEN
   the four incident minors on a chart imply the six nonincident minors after
   saturating by that chart denominator.  The chart-local profiles range from
   `67` total terms on the central chart to `615` terms on chart `1`; the
-  central chart has max degree `10` and no Hermitian equation.
+  central chart has max degree `10` and no Hermitian equation.  The central
+  chart graph compiler sharpens this further: after saturating by `l5*bar_l5`,
+  the four central equations solve `bar_l9,bar_l8,bar_l7,bar_l6` explicitly.
   Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
   or replace the selected finite rows with a scalable certificate family.
 
@@ -79,6 +81,7 @@ h5_structural_reduction
   + h=5 reciprocal open-cover exclusion
   + h=5 unit-norm reciprocal gate
   + h=5 chart-local reciprocal recovery
+  + h=5 central chart graph
   + h=5 rank-one minor propagation
   + h=5 rank-one unit propagation
   => T4-H5-NORM-GATE remains the only h=5 blocker

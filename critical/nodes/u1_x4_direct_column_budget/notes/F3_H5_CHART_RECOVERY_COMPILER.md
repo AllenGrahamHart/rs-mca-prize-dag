@@ -91,6 +91,9 @@ chart 5: 4 equations,  67 total terms, max degree 10
 
 Thus the central chart is the smallest immediate symbolic target: it has only
 the four incident rank-one minors and no Hermitian equation.
+`F3_H5_CENTRAL_CHART_GRAPH.md` records the sharper graph form: after
+saturating by `l5*bar_l5`, those four equations solve
+`bar_l9,bar_l8,bar_l7,bar_l6` explicitly.
 
 ## Consequence
 

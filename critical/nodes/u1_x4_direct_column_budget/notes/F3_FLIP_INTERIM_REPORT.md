@@ -1756,7 +1756,9 @@ a chart force the six nonincident minors after saturation by the chart
 denominator.  The chart profiles are uneven: chart `1` has five equations with
 `615` total terms and max degree `18`, while the central chart has four
 equations with `67` total terms and max degree `10`, making it the smallest
-next symbolic h=5 target.
+next symbolic h=5 target.  The central chart graph compiler shows these four
+equations are linear in `bar_l9,bar_l8,bar_l7,bar_l6` respectively, so after
+saturating by `l5*bar_l5` the central chart is an explicit rational graph.
 
 The certificate scaling frontier explains why the current finite-certificate
 format is not that maintainable family.  The banked n=128 Modal rows use
