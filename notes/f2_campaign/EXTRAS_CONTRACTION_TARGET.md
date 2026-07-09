@@ -61,6 +61,22 @@ even 32, four below the 2^15 requirement.
      (R3) trade-variety / rigidity (M2): a level-j extras pair is a
           signed t-null configuration; route through
           a_universal_trade_variety.
+     (R4) BEZOUT / COMPLETE-INTERSECTION (added at session close,
+          route sketch only): p_1..p_j is a regular sequence, so
+          W_j = {p_1 = .. = p_j = 0} in A^b is a complete intersection
+          of dimension b - j and degree j! (Bezout, degrees 1..j).
+          IF the successive intersections with the torsion conditions
+          x_i^n = 1 are proper (the obligation: no component in a
+          torsion coset eats the bound — note the structured blocks
+          live EXACTLY in torsion cosets, so properness-after-
+          removing-struct is the right statement), then
+          N^(j) <= j! n^{b-j} / (b-j)!-scale, giving per-condition
+          contraction n/q-ish with cumulative loss ~ log2(j!). The
+          OBSTRUCTION, quantified: log2(j!) exceeds the 1.05e12-bit
+          tolerance at j ~ 3.5e10 ~ t/2 — R4 alone covers the FIRST
+          HALF of the ladder and must be spliced with R1/R2/R3 (or an
+          aggregate argument) for the upper half. Frobenius (catch
+          #6) prunes the ladder to q-free indices first.
 (O3) the q-free/Frobenius bookkeeping (catch #6): conditions at
      indices divisible by q are free; the ladder runs on ~t(1-1/q)
      independent conditions — a negligible correction to the
