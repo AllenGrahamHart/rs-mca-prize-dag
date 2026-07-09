@@ -1545,3 +1545,20 @@ into one page (headline decomposition, the 15 proved satellites, the
 charter -> log -> target brief -> delegation brief v3 -> export
 draft -> findings page -> memory. Nothing a future reader needs is
 underivable from one page plus pointers. Eighty-three entries.
+
+## 84 — 2026-07-10: bidirectional cross-lane traffic confirmed;
+## maintainer check — no integration due
+
+Codex's latest commit (40d2bb0, 00:36) is an AUDIT OF OUR CAMPAIGN'S
+six-term theorem: they read f2_char0_sixterm_classification from
+master, verified S(x,y) = numerator(phi_{u,v}(x) - phi_{u,v}(y))
+directly, and banked a PROVED TRANSPORT NO-GO — their J-invariant
+compiler already closes the analogous equal-value statement (equal
+J-values = one S3 ratio orbit), and their open gate
+(H3-VALUE-GEN-INJECTIVE) asks a different question (distinct active
+J-values at fixed lambda). The two campaigns now audit each other's
+banked results with the same discipline. MAINTAINER VERDICT: Codex's
+integration trigger has NOT fired (h8 tail converging at 2^29;
+splitting control open; the H3_CONIC_* passes are guardrails/models
+per their ledger); no action due; one-writer rule intact.
+Eighty-four entries.
