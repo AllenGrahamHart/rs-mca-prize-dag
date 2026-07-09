@@ -508,3 +508,18 @@ posed base lemma, now with: exhaustive oracles (3 rows), the full
 extremal atlas, a symmetry no-go, and the ambient-annihilator exact
 formula as the analytic handle. This is the state handed to the next
 prover: one small q-blind lemma, maximally instrumented.
+
+## 29 — 2026-07-10: C(3) = 4 FLAT ACROSS FIVE SCALES (exhaustive)
+
+F2_R5_C3SCALE_PASS: exhaustive-up-to-symmetry (mu_n-action transversal
+— every orbit covered, overcount harmless for a max) at n = 64
+(q = 193, 2976 exponent pairs) and n = 128 (q = 257, 12096 pairs):
+C(3) = 4 at BOTH. Five-scale table: n = 16/30/32/64/128 -> C(3) =
+3/4/4/4/4 — flat across three octaves, at 2-power and non-2-power n,
+across four fields. The R5 base lemma 'a non-collapsed trinomial has
+at most 4 roots in mu_n' is now exhaustively true at every tested
+scale and its proof is the campaign's single sharpest open item —
+q-blind, n-uniform (empirically), with the full extremal atlas,
+witnesses at each scale, a symmetry no-go, the collapse
+factorization, and the exact annihilator formula all banked around
+it. Everything the proof needs, short of the proof.
