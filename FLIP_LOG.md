@@ -9328,3 +9328,34 @@ Expected digest:
 ```text
 H8_CHART7_GRAPH_REDUCTION_PASS
 ```
+
+## 2026-07-09 h=8 chart-7 fixed-point skeleton
+
+Stage selected: profile the conjugation fixed-point equations for the chart-7
+graph without expanding them.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_CHART7_FIXEDPOINT_SKELETON.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_fixedpoint_skeleton.py
+```
+
+The chart-7 graph has only `710` terms, but the conjugated fixed-point rows
+have common `P7` denominator power up to `15`, total degree up to `241`, and
+pre-cancellation term bounds up to
+`193755121556618651323524735233987`.  The replay forms no expanded
+fixed-point numerators and now runs in a few seconds using cached sparse
+profiles.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_fixedpoint_skeleton.py
+```
+
+Expected digest:
+
+```text
+H8_CHART7_FIXEDPOINT_SKELETON_PASS
+```

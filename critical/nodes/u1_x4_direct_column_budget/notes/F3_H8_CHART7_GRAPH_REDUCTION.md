@@ -84,6 +84,8 @@ plus the single `N7` unit equation and the official support/root constraints.
 The direct global substitution of this graph into `N7` is too large for the
 local 60-second policy, so the next proof attempt should preserve the graph
 form and attack conjugation/support compatibility lazily.
+The companion `F3_H8_CHART7_FIXEDPOINT_SKELETON.md` quantifies the same warning
+without expanding the fixed-point numerators.
 
 ## Replay
 

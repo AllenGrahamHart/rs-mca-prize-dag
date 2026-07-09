@@ -61,6 +61,8 @@ The companion `F3_H8_CHART7_GRAPH_REDUCTION.md` sharpens chart `7`: the seven
 incident minors solve all non-chart bar variables over `P7`, and `N7` forces
 that denominator to be live on the official chart after saturation by
 `c9*bar_c9`.
+The companion `F3_H8_CHART7_FIXEDPOINT_SKELETON.md` profiles the conjugation
+fixed-point equations for that graph without expanding them.
 
 ## Role In h=8
 

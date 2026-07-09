@@ -84,6 +84,9 @@ from f3_h8_nonantipodal_aperiodic import count_summary as h8_aperiodic_summary
 from f3_h8_rotation_orbit_compiler import EXPECTED as H8_ROTATION_EXPECTED
 from f3_h8_support_universe_compiler import EXPECTED as H8_SUPPORT_EXPECTED
 from f3_h8_basefree_reciprocal_system import basefree_summary as h8_basefree_summary
+from f3_h8_chart7_fixedpoint_skeleton import (
+    fixedpoint_skeleton_summary as h8_chart7_fixedpoint_summary,
+)
 from f3_h8_chart7_graph_reduction import chart7_graph_summary as h8_chart7_summary
 from f3_h8_odd_chart_recovery_compiler import (
     odd_chart_recovery_summary as h8_odd_chart_summary,
@@ -356,6 +359,7 @@ def h8_summary() -> dict[str, int]:
     unit_norm = h8_unit_norm_summary()
     odd_chart = h8_odd_chart_summary()
     chart7 = h8_chart7_summary()
+    chart7_fixedpoint = h8_chart7_fixedpoint_summary()
     if (
         aperiodic["nonantipodal_rotation_orbits"]
         != actual_rotation["nonantipodal_rotation_orbits"]
@@ -401,6 +405,16 @@ def h8_summary() -> dict[str, int]:
         "chart7_total_graph_terms": chart7["total_graph_terms"],
         "chart7_p7_terms": chart7["chart_part_terms"],
         "chart7_n7_terms": chart7["unit_terms"],
+        "chart7_fixedpoint_rows": chart7_fixedpoint["fixedpoint_rows"],
+        "chart7_fixedpoint_p7_power": chart7_fixedpoint[
+            "max_common_denominator_p7_power"
+        ],
+        "chart7_fixedpoint_max_terms": chart7_fixedpoint[
+            "max_pre_cancellation_terms"
+        ],
+        "chart7_fixedpoint_max_degree": chart7_fixedpoint[
+            "max_total_degree_bound"
+        ],
         **actual_support,
         **actual_rotation,
     }
@@ -493,7 +507,8 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"propagation=({h8['odd_chart_minor_syzygies']},"
                 f"{h8['odd_chart_unit_syzygies']}); "
                 f"chart7 graph_terms={h8['chart7_total_graph_terms']} "
-                f"P7_terms={h8['chart7_p7_terms']} N7_terms={h8['chart7_n7_terms']}"
+                f"P7_terms={h8['chart7_p7_terms']} N7_terms={h8['chart7_n7_terms']} "
+                f"fixedpoint_degree<={h8['chart7_fixedpoint_max_degree']}"
             ),
             (
                 "certify "
@@ -649,6 +664,13 @@ def main() -> None:
         f"total_graph_terms={h8['chart7_total_graph_terms']} "
         f"P7_terms={h8['chart7_p7_terms']} "
         f"N7_terms={h8['chart7_n7_terms']}"
+    )
+    print(
+        "h=8 chart-7 fixed-point skeleton: "
+        f"rows={h8['chart7_fixedpoint_rows']} "
+        f"P7_power<={h8['chart7_fixedpoint_p7_power']} "
+        f"pre_cancel_max={h8['chart7_fixedpoint_max_terms']} "
+        f"max_degree={h8['chart7_fixedpoint_max_degree']}"
     )
     print("F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS")
 
