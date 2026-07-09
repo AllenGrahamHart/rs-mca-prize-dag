@@ -60,6 +60,8 @@ size `64`, and `F3_H8_X83_SPLIT_ROTATION_EQUIVARIANCE.md` proves the x83 split
 commutes with root scaling up to side swap.  The high-odd skip is sound by
 `F3_H8_X83_PARITY_REDUCTION.md`: if a full-zero support has all high odd
 locator coefficients zero, then it is antipodal.
+The companion `F3_H8_ODD_CHART_ROUTER.md` refines this skip into a deterministic
+chart route for the remaining high-odd canonical supports.
 
 The resulting global target is therefore exactly:
 

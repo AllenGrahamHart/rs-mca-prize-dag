@@ -137,6 +137,10 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   `1..13`, and the unit rows have weight `0`.  The chart-7 official scaling
   ledger proves the finite `mu_n` action is free on chart 7 for all official
   rows because `gcd(7,2^s)=1`.
+  The odd-chart router turns the parity reduction into a deterministic
+  chart-priority interface `7,5,3,1`, so future certifiers can route canonical
+  supports without double-counting.  Its replay is only a bounded prefix dry
+  run, not a global chart distribution certificate.
   Residual: certify 122,131,731,640,320 anchored non-antipodal 16-supports
   (7,633,233,227,520 aperiodic rotation orbits), or build a sharded signature
   join avoiding the blind left table.
@@ -194,6 +198,7 @@ h8 antipodal quotient
   + h8 chart-7 fixed-point skeleton
   + h8 weighted homogeneity
   + h8 chart-7 official scaling action
+  + h8 odd-chart router
   + residual frontier/support-universe audits
   => T4-H8-N64-NONANTIPODAL-X83 remains the only h=8 blocker
 ```

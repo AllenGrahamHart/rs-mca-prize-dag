@@ -91,6 +91,7 @@ from f3_h8_chart7_graph_reduction import chart7_graph_summary as h8_chart7_summa
 from f3_h8_chart7_official_scaling_action import (
     official_scaling_summary as h8_chart7_scaling_summary,
 )
+from f3_h8_odd_chart_router import router_summary as h8_odd_chart_router_summary
 from f3_h8_odd_chart_recovery_compiler import (
     odd_chart_recovery_summary as h8_odd_chart_summary,
 )
@@ -366,6 +367,7 @@ def h8_summary() -> dict[str, int]:
     chart7_fixedpoint = h8_chart7_fixedpoint_summary()
     weighted = h8_weight_summary()
     chart7_scaling = h8_chart7_scaling_summary()
+    router = h8_odd_chart_router_summary()
     if (
         aperiodic["nonantipodal_rotation_orbits"]
         != actual_rotation["nonantipodal_rotation_orbits"]
@@ -426,6 +428,11 @@ def h8_summary() -> dict[str, int]:
         "weighted_pairwise_max": weighted["max_pairwise_weight"],
         "chart7_scaling_rows": chart7_scaling["rows"],
         "chart7_scaling_stabilizer": chart7_scaling["max_stabilizer_size"],
+        "router_priority_charts": router["priority_charts"],
+        "router_sample_processed": router["processed"],
+        "router_sample_routed": router["routed"],
+        "router_sample_chart7": router["chart_7"],
+        "router_sample_unrouted": router["unrouted_high_odd_zero"],
         **actual_support,
         **actual_rotation,
     }
@@ -522,7 +529,10 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"fixedpoint_degree<={h8['chart7_fixedpoint_max_degree']}; "
                 f"weights pairwise={h8['weighted_pairwise_min']}.."
                 f"{h8['weighted_pairwise_max']} "
-                f"chart7_stabilizer={h8['chart7_scaling_stabilizer']}"
+                f"chart7_stabilizer={h8['chart7_scaling_stabilizer']}; "
+                f"router_priority={h8['router_priority_charts']} "
+                f"sample_routed={h8['router_sample_routed']}/"
+                f"{h8['router_sample_processed']}"
             ),
             (
                 "certify "
@@ -693,6 +703,14 @@ def main() -> None:
         f"{h8['weighted_pairwise_max']} "
         f"chart7_scaling_rows={h8['chart7_scaling_rows']} "
         f"max_stabilizer={h8['chart7_scaling_stabilizer']}"
+    )
+    print(
+        "h=8 odd-chart router: "
+        f"priority_charts={h8['router_priority_charts']} "
+        f"sample_processed={h8['router_sample_processed']} "
+        f"sample_routed={h8['router_sample_routed']} "
+        f"sample_chart7={h8['router_sample_chart7']} "
+        f"sample_unrouted={h8['router_sample_unrouted']}"
     )
     print("F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS")
 

@@ -9403,3 +9403,39 @@ Expected digests:
 H8_WEIGHTED_HOMOGENEITY_PASS
 H8_CHART7_OFFICIAL_SCALING_ACTION_PASS
 ```
+
+## 2026-07-09 h=8 odd-chart router
+
+Stage selected: make the four odd-chart symbolic split usable by future h=8
+certifiers.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_ROUTER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_router.py
+```
+
+The router gives a deterministic priority order:
+
+```text
+c9 -> chart 7, c11 -> chart 5, c13 -> chart 3, c15 -> chart 1.
+```
+
+This partitions the high-odd branch without double-counting; all-high-odd-zero
+canonical supports remain skipped by the parity reduction.  The replay scans a
+bounded default prefix of `2048` anchored supports and emits a machine-readable
+`ROUTER_RECORD`.  This is an interface dry run, not a global chart-distribution
+certificate.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_router.py
+```
+
+Expected digest:
+
+```text
+H8_ODD_CHART_ROUTER_PASS
+```
