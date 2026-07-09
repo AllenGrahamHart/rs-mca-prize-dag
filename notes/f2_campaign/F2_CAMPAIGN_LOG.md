@@ -1148,3 +1148,23 @@ study the k = 2 breakage as the minimal true obstacle). The campaign
 is now in its terminal posture: summit + total map + definitive
 handoff; it continues via delegation and fresh capacity until T-WIN
 or T-FLOOR.
+
+## 63 — 2026-07-10: the k=1 THEOREM CORE — pigeonhole + CMMM close the
+## prime-field contraction; the model theatre opens
+
+The k=1 composition is simpler than the bridge ever was: moment
+coefficients are DISTINCT subgroup values (multiplicity gcd(j+1, n)),
+so a CMMM container capturing 3n/4 of them has |B| >= 3n/(4 gcd);
+against |B| <= 2^16/(rho sqrt|v|): rho <= 2^18 gcd/(3 n^{3/2}) —
+per-condition contraction L = p rho <= p 2^18 gcd/(3 n^{3/2}), no BGK
+needed. Non-vacuous for p <= ~n^{3/2}/8: at (257,128) the bound is
+L <= ~2^13.9 (inside the 2^15 target; observed L ~ 1); at (7681,512)
+even stronger. THE MODEL-THEATRE PROGRAM: (i) formalize the loop
+induction over the p-free ladder with gcd bookkeeping (restrict to
+low-gcd indices, cost a vanishing fraction); (ii) CMMM support
+thresholds (|v| >= 2^18 log p — satisfied at theatre scales); (iii)
+assemble with the proved bands => THE F2 DICHOTOMY AT PRIME-FIELD
+ROWS with p <= n^{3/2}/8, end-to-end. Then the k = 2 breakage study
+= the minimal instance of the summit's true obstacle. The campaign's
+first END-TO-END theorem target with no unverified dependency of any
+kind is now on the table.
