@@ -1309,3 +1309,22 @@ consumer replay AT PRIME-FIELD ROWS. The summit (extension fields,
 p <= exp(n^c) barrier) remains F_q-native beyond this. Seventy
 entries; the prime-field endgame: one section-read, one write-up,
 one assembly.
+
+## 71 — 2026-07-10: mechanism CONFIRMED — per-condition 1 + o(1) for
+## fixed functionals; the joint battle in dual coordinates
+
+The LMN section-read (pp. 7-8): their Theorem 3.1 proof is the
+generic Esseen chain — rho <= (1/p) sum_{x != 0} prod |char factors|
+with the cosine inequality |cos(pi x/p)| <= 1 - 2||x/p||^2 — EXACTLY
+our level-set computation; no random-subspace input anywhere. The
+fixed-subspace adaptation is therefore one paragraph: their chain +
+our proved floor => rho <= 1/p + e^{-n/15} per condition at theatre
+rows (upgrade of the 15th satellite from L <= 4 to 1 + o(1)). THE
+JOINT VERSION'S FINAL FORM: the p^t - 1 joint frequencies need the
+FREQUENCY-SPACE STRUCT LEDGER — degenerate combos are the campaign's
+proved collapse/orbit directions in dual coordinates; generic combos
+carry BGK floors; the naive union diverges by the familiar margins,
+and the ledger bookkeeping (multi-page, all pieces proved) is the
+prime-field flatness write-up. The campaign's arc is self-similar to
+the last: the final object is its own machinery, one Fourier dual
+away. Seventy-one entries.
