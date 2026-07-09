@@ -405,3 +405,18 @@ no energy argument, so L4 (explicit BSG constants) is needed only if
 crux route R2 wins — de-scoped to route-R2 support. The declared
 critical path shortens to exactly two items: PROVE THE CRUX, run L5.
 Nothing else stands between u2c and green.
+
+## 23 — 2026-07-10: route R5 posed — sparsity / vanishing sums at the
+## mid-band's lower edge
+
+At b = t + k the dictionary makes ell*_S (t/p + 1 + k)-sparse with
+t + k roots in mu_{2^s} — the crux's lower edge is a SPARSE-POLYNOMIAL
+ROOT-COUNT problem on 2-power roots-of-unity groups, where the
+binomial-product exceptions (Chebotarev caps prime n at s - 1; the
+2-power subgroup structure admits more) are exactly the coset-union
+blocks. k = 1 re-derives the proved (t+1)-support rigidity. Target
+theorem + pre-registered falsification test recorded in the brief
+(R5). This is the fifth route and the first that engages the 2-power
+domain structure specifically — the vanishing-sums literature
+(Coven-Meyerowitz-adjacent) is its toolbox. Next cycle: run the R5
+falsification test before any proof work.

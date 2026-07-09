@@ -82,6 +82,26 @@ even 32, four below the 2^15 requirement.
      independent conditions — a negligible correction to the
      tolerance, to be printed exactly in L5.
 
+     (R5) SPARSITY / VANISHING-SUMS (added cycle 15, posing +
+          k = 1 anchor): at b = t + k the dictionary forces ell*_S to
+          be (t/p + 1 + k)-SPARSE (officially ~33 + k terms) with
+          t + k distinct roots all in mu_n, n = 2^s. Root counts of
+          s-sparse polynomials on 2-power roots-of-unity groups are
+          governed by vanishing-sum / 2-adic exponent structure
+          (at prime n, Chebotarev's DFT-minor theorem caps them at
+          s - 1; the 2-power subgroup structure admits exactly the
+          binomial-product exceptions = the coset-union blocks). The
+          k = 1 case re-derives the PROVED (t+1)-support rigidity.
+          TARGET THEOREM: an s-sparse polynomial with more than R(s)
+          roots in mu_{2^k} has binomial-product structure — would
+          close the mid-band's lower edge for b - t up to the
+          sparsity threshold and give the contraction induction its
+          base region. PRE-REGISTERED FIRST TEST (falsification
+          before proof): at toy 2-power n, measure max mu_n-root
+          counts of random s-sparse polynomials vs binomial-
+          structured ones; if generic sparse polynomials achieve
+          near-maximal root counts, R5 is dead.
+
 ## O1-geometric lemma (PROVED at session close; digest O1_GEOMETRIC_PASS)
 
 For any partition of the b coordinates into blocks of sizes
