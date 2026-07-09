@@ -84,6 +84,7 @@ from f3_h8_nonantipodal_aperiodic import count_summary as h8_aperiodic_summary
 from f3_h8_rotation_orbit_compiler import EXPECTED as H8_ROTATION_EXPECTED
 from f3_h8_support_universe_compiler import EXPECTED as H8_SUPPORT_EXPECTED
 from f3_h8_x83_parity_reduction import parity_reduction_summary as h8_parity_summary
+from f3_h8_x83_triangular_obstruction import h8_triangular_summary
 
 
 ROOT = Path(__file__).resolve().parents[4]
@@ -340,6 +341,7 @@ def h8_summary() -> dict[str, int]:
     }
     aperiodic = h8_aperiodic_summary()
     parity = h8_parity_summary()
+    triangular = h8_triangular_summary()
     if (
         aperiodic["nonantipodal_rotation_orbits"]
         != actual_rotation["nonantipodal_rotation_orbits"]
@@ -359,6 +361,12 @@ def h8_summary() -> dict[str, int]:
         "parity_high_odd_degrees": parity["high_odd_degrees"],
         "parity_low_odd_degrees": parity["low_odd_degrees"],
         "parity_max_denominator_prime": parity["max_denominator_prime"],
+        "triangular_keys": triangular["keys"],
+        "triangular_max_terms": triangular["max_terms"],
+        "triangular_max_total_degree": triangular["max_total_degree"],
+        "triangular_first_key_denominator": triangular["first_key_denominator"],
+        "triangular_first_key_terms": triangular["first_key_terms"],
+        "triangular_first_key_total_degree": triangular["first_key_total_degree"],
         **actual_support,
         **actual_rotation,
     }
@@ -436,7 +444,10 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"{h8['radius3_rows']} radius-three x83 shell certificates; "
                 f"x83 parity filter high_odd={h8['parity_high_odd_degrees']} "
                 f"low_odd={h8['parity_low_odd_degrees']} "
-                f"denom_prime={h8['parity_max_denominator_prime']}"
+                f"denom_prime={h8['parity_max_denominator_prime']}; "
+                f"x83 triangular keys={h8['triangular_keys']} "
+                f"first_key_terms={h8['triangular_first_key_terms']} "
+                f"first_key_degree={h8['triangular_first_key_total_degree']}"
             ),
             (
                 "certify "
@@ -549,6 +560,15 @@ def main() -> None:
         f"high_odd_degrees={h8['parity_high_odd_degrees']} "
         f"low_odd_degrees={h8['parity_low_odd_degrees']} "
         f"max_denominator_prime={h8['parity_max_denominator_prime']}"
+    )
+    print(
+        "h=8 x83 triangular obstruction keys: "
+        f"keys={h8['triangular_keys']} "
+        f"max_terms={h8['triangular_max_terms']} "
+        f"max_total_degree={h8['triangular_max_total_degree']} "
+        f"first_key_denominator={h8['triangular_first_key_denominator']} "
+        f"first_key_terms={h8['triangular_first_key_terms']} "
+        f"first_key_total_degree={h8['triangular_first_key_total_degree']}"
     )
     print("F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS")
 

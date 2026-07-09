@@ -9038,3 +9038,50 @@ Expected digests:
 H3_REPEAT_FORCED_MOBIUS_INVOLUTION_PASS
 H3_REPEAT_COORDINATE_HITTING_LEDGER_PASS
 ```
+
+## 2026-07-09 h=8 x83 triangular obstruction compiler
+
+Stage selected: sharpen the remaining h=8 non-antipodal support target without
+enumerating supports.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_X83_TRIANGULAR_OBSTRUCTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_triangular_obstruction.py
+```
+
+For a 16-support locator
+
+```text
+L_R(X)=X^16+c15 X^15+...+c0,
+```
+
+the x83 square-shift recurrence forces a monic degree-8 polynomial `S_R` from
+`c8,...,c15`.  The seven low obstruction keys satisfy
+
+```text
+D_j E_j = -D_j c_j + P_j(c8,...,c15),  j=1,...,7.
+```
+
+Thus any h=8 x83 full-zero support lies on an explicit graph over the high
+locator half.  The first radius-shell obstruction `E7` has denominator
+`32768`, `30` terms, and total degree `9`.  Combined with the parity reduction,
+the primitive non-antipodal residual must have at least one high odd coefficient
+among `c9,c11,c13,c15` nonzero while satisfying this triangular graph.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_triangular_obstruction.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_parity_reduction.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_orbit_certifier_skeleton.py
+```
+
+Expected digests:
+
+```text
+H8_X83_TRIANGULAR_OBSTRUCTION_PASS
+H8_X83_PARITY_REDUCTION_PASS
+H8_X83_ORBIT_CERTIFIER_SKELETON_PASS
+```

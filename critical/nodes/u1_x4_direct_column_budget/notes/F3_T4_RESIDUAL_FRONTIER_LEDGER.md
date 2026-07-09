@@ -100,6 +100,12 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   support must have a nonzero high odd locator coefficient among
   `c15,c13,c11,c9`; if those four coefficients vanish, full-zero forces the
   locator even and hence the support is antipodal.
+  The x83 triangular obstruction compiler proves that the seven low
+  obstruction equations have the form
+  `D_j E_j = -D_j c_j + P_j(c8,...,c15)`.  Thus any primitive full-zero
+  support lies on an explicit graph over the high locator half, with
+  first obstruction `E7` having denominator `32768`, `30` terms, and total
+  degree `9`.
   Residual: certify 122,131,731,640,320 anchored non-antipodal 16-supports
   (7,633,233,227,520 aperiodic rotation orbits), or build a sharded signature
   join avoiding the blind left table.
@@ -147,6 +153,7 @@ h8 antipodal quotient
   + split rotation equivariance
   + non-antipodal aperiodicity
   + x83 parity reduction
+  + x83 triangular obstruction compiler
   + residual frontier/support-universe audits
   => T4-H8-N64-NONANTIPODAL-X83 remains the only h=8 blocker
 ```
