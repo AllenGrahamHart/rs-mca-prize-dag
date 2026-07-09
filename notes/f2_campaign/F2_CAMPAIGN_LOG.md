@@ -1349,3 +1349,22 @@ same signed-vs-absolute battle, each time surrounded by more proved
 structure. The theatre yields: per-condition 1 + o(1) [proved],
 partial-joint flatness [provable, 1/22 exponent], and the mirrored
 summit [signed structure, open]. Seventy-two entries.
+
+## 73 — 2026-07-10: cross-lane harvest audit + maintainer check
+
+Codex status (maintainer duty, overdue): 869 commits on the F3 flip
+branch; the h8 odd-chart tail is being paid row-by-row (2^36 down to
+2^29 through the night) — the T4 program converging; no interference
+with this campaign (one-writer rule held throughout). HARVEST: their
+F3_H3_CHAR0_CLASSIFICATION (PROVED + machine-verified) is the
+SIGNED-TRADE char-0 statement at h=3 — matching-(e1,e2) triples of
+roots of unity force zero-sum mu_3 structure — the exact complement
+of our f2_char0_sixterm_classification (fiber-coincidence form).
+With their proved good-reduction lemma (a3), the small-h trade
+foundations are classified CROSS-LANE: two campaigns, independent
+methods, same char-0 conclusions. The harvest confirms (does not
+extend): the summit's irreducible content is LARGE-h / full-ladder
+signed structure — small h is closed from both directions; unbounded
+h is fenced by no-go #6; the frequency dual by no-go #8. The
+campaign's record and the sibling campaign's record now certify each
+other at their intersection.
