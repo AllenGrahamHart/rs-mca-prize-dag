@@ -42,6 +42,8 @@ H0(O(A-1)) * boxed degree-M monomials in <R_U,R_V,R_W,R_Q>
 
 The box restriction `0 <= b_i < B` is part of the theorem.  Replacing it by the
 full simplex would be a different, easier problem.
+The companion dual-annihilator target rewrites the same theorem as a bound on
+the coefficient functionals that kill all boxed shifted products.
 
 ## Official Arithmetic
 

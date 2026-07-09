@@ -85,6 +85,8 @@ The packet does not prove this codimension bound, does not identify the needed
 minor, and does not solve the bridge assignment.
 The companion rational-curve interface rewrites the same target as a boxed
 multiplication map using four sections of `O(2H)` on `P^1`.
+The companion dual-annihilator target rewrites it as the assertion that the
+annihilator of the boxed span has dimension at most `1847`.
 
 ## Replay
 

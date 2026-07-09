@@ -53,6 +53,9 @@ F3-RANK-AVOID / RC-NV: OPEN
   `H0(O(A-1))` times boxed degree-`3(B-1)` monomials in four sections of
   `O(2H)`; official rows have positive column-supply margin, but the four
   generators are not a complete linear series.
+  The conic dual-annihilator target rewrites the same codimension bound as
+  `dim Ann <= 1847` for coefficient sequences killed by `B^3` length-`A`
+  shifted product windows.
   The conic-chart linear-relation guard verifies `P_U+P_V+P_W+aQ=0` on the
   same-fiber conic chart despite pairwise coprime chart polynomials, so
   separated-divisor arguments alone cannot prove full rank.

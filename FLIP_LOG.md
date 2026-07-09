@@ -7656,6 +7656,55 @@ Expected digest:
 H3_CONIC_RATIONAL_CURVE_INTERFACE_PASS
 ```
 
+## 2026-07-09 h=3 conic dual-annihilator target
+
+Stage selected: convert the conic codimension theorem into the exact dual
+linear-algebra object that a proof must kill.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_DUAL_ANNIHILATOR_TARGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_dual_annihilator_target.py
+```
+
+Writing
+
+```text
+G_b=R_U^b1 R_V^b2 R_W^b3 R_Q^(M-b1-b2-b3),
+```
+
+the primal codimension target is equivalent to bounding the space of coefficient
+functionals `ell_0,...,ell_L` satisfying
+
+```text
+sum_j coeff_j(G_b) ell_{j+a} = 0
+```
+
+for every `0<=a<A` and every boxed `0<=b_i<B`.  Thus the official theorem can
+be attacked as
+
+```text
+dim Ann <= 1847
+```
+
+for `B^3` length-`A` shifted product windows.  The replay verifies that the
+tight official row still has `B^3=39304` base product windows and
+`constraints-ambient >= 51908670`; this is only supply arithmetic, not the
+annihilator bound.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_dual_annihilator_target.py
+```
+
+Expected digest:
+
+```text
+H3_CONIC_DUAL_ANNIHILATOR_TARGET_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without

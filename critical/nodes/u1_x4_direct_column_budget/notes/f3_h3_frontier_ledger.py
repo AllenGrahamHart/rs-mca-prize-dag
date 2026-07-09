@@ -38,6 +38,7 @@ from f3_h3_conic_chart_largegap_pilot import largegap_pilot_summary
 from f3_h3_conic_binary_form_target import conic_binary_form_summary
 from f3_h3_conic_sixa_threshold_target import official_sixa_summary
 from f3_h3_conic_rational_curve_interface import conic_rational_curve_summary
+from f3_h3_conic_dual_annihilator_target import conic_dual_annihilator_summary
 from f3_h3_exact_profile_rank_capacity_guard import exact_profile_capacity_guard_summary
 from f3_h3_exact_profile_rank_deficit_budget import rank_deficit_budget_summary
 from f3_h3_conic_chart_rank_minor_certificate import EXPECTED_DETERMINANT as TOY_CONIC_MINOR_DET
@@ -104,6 +105,7 @@ def official_budget_summary() -> dict[str, int]:
     conic_binary = conic_binary_form_summary()
     conic_sixa = official_sixa_summary()
     conic_curve = conic_rational_curve_summary()
+    conic_dual = conic_dual_annihilator_summary()
     exact_capacity = exact_profile_capacity_guard_summary()
     exact_deficit = rank_deficit_budget_summary()
     private_deficit = private_rank_deficit_budget_summary()
@@ -147,6 +149,8 @@ def official_budget_summary() -> dict[str, int]:
         "conic_sixa_official_margin": conic_sixa["min_margin"],
         "conic_curve_box_margin": conic_curve["min_box_column_margin"],
         "conic_curve_linear_defect": conic_curve["min_linear_normality_defect"],
+        "conic_dual_allowance": conic_dual["allowance"],
+        "conic_dual_min_base_products": conic_dual["min_base_products"],
         "toy_conic_chart_rank": PINNED_DEGREE2_CONIC_CHART_RANK,
         "toy_conic_chart_minor_det": TOY_CONIC_MINOR_DET,
         "private_separation_margin": private_separation_summary()["min_pass_margin"],
@@ -363,6 +367,9 @@ def frontier_gates(
                 f"conic rational-curve interface has box column margin "
                 f"{budgets['conic_curve_box_margin']} and linear-normality "
                 f"defect {budgets['conic_curve_linear_defect']}; "
+                f"conic dual-annihilator target allows dimension "
+                f"{budgets['conic_dual_allowance']} against at least "
+                f"{budgets['conic_dual_min_base_products']} product windows; "
                 f"toy same-fiber conic chart has full rank "
                 f"{budgets['toy_conic_chart_rank']}=A B^3 "
                 f"with minor det {budgets['toy_conic_chart_minor_det']} mod 769; "
