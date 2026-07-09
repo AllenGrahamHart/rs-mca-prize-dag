@@ -43,7 +43,7 @@ Latest focused digest:
 
 ```text
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
-elapsed=43.61 maxrss=53264
+elapsed=45.74 maxrss=53264
 ```
 
 The h=3 proof surface now has a standalone frontier ledger:

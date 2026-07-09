@@ -732,6 +732,29 @@ product `z(1+z)(1+z+z^2)y(1+y)(1+y+y^2)` has profile
 `deg_z=4, deg_y=4, total=8`.  In the `lambda=1` scale branch, two
 representatives are distinct exactly when `x^3-y^3 != 0`.
 
+The same-lambda J-invariant compiler identifies the generic off-orbit product
+as the numerator of one complete quotient invariant.  With
+
+```text
+J(z) = (1+z+z^2)^3 / (z^2(1+z)^2),
+```
+
+the reciprocal product for fixed `a=lambda-1` is
+
+```text
+R(a,z) = -J(z)/a^3,
+```
+
+and the compiler verifies
+
+```text
+numerator(J(z)-J(y)) = - product_orbit(z,y).
+```
+
+Thus `H3-VALUE-GEN-INJECTIVE` is a value-uniqueness target for the complete
+`S_3` quotient invariant `J`, not a raw six-factor bookkeeping artifact.  This
+does not close the gate; it sharpens the object a proof must control.
+
 The slope-ratio compiler gives the lambda-distinct target the same
 coordinates.  In the generic branch,
 
@@ -772,6 +795,25 @@ H3-SLOPE-HIT  <=>  Q_0 Q_1 Q_2 = 0.
 
 The `lambda=1` source branch has the analogous product over
 `1-x^2,1-(omega x)^2,1-(omega^2 x)^2`.
+
+The slope equality-factorization compiler proves that these numerator products
+are exactly coordinate-overlap products.  In the generic-generic case,
+
+```text
+Q_i = +/- product_j (source_increment_i*M - target_increment_j*N),
+```
+
+with total product degree `41`.  In the mixed generic/scale case,
+
+```text
+Q_i = +/- (source_increment_i^3 - x^3*N^3),
+```
+
+with total product degree `27`.  Consequently the slope gates are precisely
+coordinate-intersection targets after denominator clearing.  In particular,
+the `lambda=1` scale count alone does not pay `H3-SLOPE-MIXED-HIT`; a proof
+still needs a mechanism forcing overlap with each admissible generic edge, or
+a separate residue payment for all mixed misses.
 
 The pairwise-coreless compiler splits the other taxonomy branch.  A
 pairwise-intersecting coreless obstruction on at most four active 3-edges

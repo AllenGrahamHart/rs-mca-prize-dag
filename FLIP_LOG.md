@@ -7518,3 +7518,61 @@ H3_REPEAT_SAME_LAMBDA_BRANCH_ASSEMBLY_PASS
 H3_REPEAT_FRONTIER_LEDGER_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
+
+## 2026-07-09 h=3 repeat quotient/factorization refinements
+
+Stage selected: tighten two open repeat-boundary star gates without adding a
+new finite sweep.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_J_INVARIANT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_j_invariant.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_EQUALITY_FACTORIZATION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_equality_factorization.py
+```
+
+Same-lambda refinement:
+
+```text
+J(z) = (1+z+z^2)^3 / (z^2(1+z)^2)
+R(a,z) = -J(z)/a^3
+numerator(J(z)-J(y)) = - generic_off_orbit_product(z,y)
+```
+
+Thus the degree-10 generic off-orbit product is the complete `S_3` quotient
+invariant for ratio orbits.  `H3-VALUE-GEN-INJECTIVE` remains open, but is now
+a value-uniqueness target for `J`, not a raw six-factor exclusion.
+
+Slope refinement:
+
+```text
+generic-generic:
+  Q_i = +/- product_j (source_increment_i*M - target_increment_j*N)
+  product total degree = 41
+
+mixed generic/scale:
+  Q_i = +/- (source_increment_i^3 - x^3*N^3)
+  product total degree = 27
+```
+
+Thus `H3-SLOPE-GG-HIT` and `H3-SLOPE-MIXED-HIT` are exactly
+coordinate-intersection targets after denominator clearing.  The important
+negative information is that the `lambda=1` scale count does not by itself pay
+the mixed slope branch; a proof still needs forced generic/scale overlap or a
+separate residue payment for mixed misses.
+
+Focused replay:
+
+```bash
+/usr/bin/time -f 'elapsed=%e maxrss=%M' \
+  python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+```
+
+Digest and timing:
+
+```text
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+elapsed=45.74 maxrss=53264
+```
