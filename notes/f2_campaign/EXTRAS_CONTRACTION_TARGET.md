@@ -105,6 +105,19 @@ conditions are implied by the first). Hence:
   monodromy and specialization tools that fiber-counting language
   could not reach.
 
+  REFINEMENT (next cycle, hand-verified example): orbit loci need
+  not be COMPONENTS — at (b, j) = (4, 2), W_2 is an irreducible
+  quadric section (the form x1^2+..+x4^2 restricted to the sum-zero
+  hyperplane has full rank 3), with the M = 4 orbit lines as proper
+  SUBVARIETIES; the banked DP count (8 = the mu_4-cosets at
+  (97,32,b=4)) sits far under proper-Bezout 2n^2. So the crux must
+  be posed in EXCESS-INTERSECTION language (Fulton), not
+  component-removal: torsion count = proper part (Bezout-bounded)
+  + excess contributions supported on the orbit subloci, and the
+  excess IS the struct census. The lemma = the excess is supported
+  ONLY there, with per-condition proper part within tolerance.
+  This is the exact statement session 2 attacks.
+
 ## Falsifier (pre-registered, immutable)
 
 A calibration row and level j where the EXTRAS (census minus exact
