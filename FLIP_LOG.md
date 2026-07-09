@@ -7832,6 +7832,38 @@ Expected digest:
 H8_ODD_CHART_PARTITION_PASS
 ```
 
+## 2026-07-09 h=8 all-odd-chart official scaling action
+
+Stage selected: extend the official root-scaling freeness ledger from chart 7
+to the full routed odd-chart partition.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_SCALING_ACTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_scaling_action.py
+```
+
+On the four routed charts the live denominator weights are `-7,-5,-3,-1`.
+Since official rows have `n=2^s`, all four weights are coprime to `n`; a
+scaling element fixing a routed chart point must therefore be the identity.
+Thus every routed odd-chart orbit has size exactly `n`.
+
+This still does not prove any h=8 chart empty or paid, but it removes
+stabilizer losses from future chart-wise count/payment arguments.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_scaling_action.py
+```
+
+Expected digest:
+
+```text
+H8_ODD_CHART_SCALING_ACTION_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without

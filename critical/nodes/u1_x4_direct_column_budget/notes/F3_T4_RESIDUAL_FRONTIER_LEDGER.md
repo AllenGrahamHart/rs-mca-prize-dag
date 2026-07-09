@@ -140,6 +140,9 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   The odd-chart partition packet promotes the parity-reduction cover to a
   structural disjoint partition: every non-antipodal x83 full-zero support
   routes uniquely to chart `7,5,3,1` by the first nonzero high odd coefficient.
+  The odd-chart official scaling packet extends the chart-7 freeness argument
+  to all four routed odd charts; each has trivial stabilizer under official
+  `mu_n` scaling because the chart weights `7,5,3,1` are coprime to `2^s`.
   The odd-chart router turns the parity reduction into a deterministic
   chart-priority interface `7,5,3,1`, so future certifiers can route canonical
   supports without double-counting.  Its replay is only a bounded prefix dry
