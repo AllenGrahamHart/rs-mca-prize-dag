@@ -1469,3 +1469,27 @@ confirmed equivalent to open classical territory and the campaign's
 terminal deliverable is the sharpest known reduction OF a recognized
 open problem TO the prize floor. Either way the campaign's record is
 the definitive map. Seventy-eight entries.
+
+## 79 — 2026-07-10: CAPSTONE — the F2 summit IS Myerson's conjecture at
+## growing subgroup order (exact identification, not analogy)
+
+The regime-check read (Habegger, "The Norm of Gaussian Periods",
+arXiv:1611.07287, pp. 1-3): his equation (2) — Myerson's own
+combinatorial framing — is LITERALLY our census: #{solutions of a
+subgroup linear equation} - flat count = ((p-1)/p) * Delta with
+Delta = the product of Gaussian-period values. Our extras-vs-flat
+question IS the Gaussian-period-norm question, identically. REGIME
+MAP: every known result (Habegger Thm 1: f a FIXED odd prime,
+p -> infinity, rate O(p^{-1/(5(f-1)^2)}); Duke; Myerson's own cases
+f <= 4) and MYERSON'S CONJECTURE ITSELF are fixed-f statements; the
+tower's rungs need f = n_j ~ p^{0.77}+ GROWING. THE F2 SUMMIT = a
+growing-order generalization of Myerson's conjecture — strictly
+beyond the literature AND beyond the stated open conjecture. One
+possible crack noted for the record: Lind-Schmidt-Verbitskiy's
+ergodic averages over "certain sequences of groups of roots of
+unity" (which sequences = the follow-up read). THE CAMPAIGN'S
+TERMINAL DELIVERABLE, now exact: the prize floor F2's remaining
+content is a recognized-open-conjecture generalization, reduced to
+it through 15 proved satellites, 9 no-gos, and 79 log entries of
+verified structure — the sharpest placement this problem has ever
+had. Seventy-nine entries.
