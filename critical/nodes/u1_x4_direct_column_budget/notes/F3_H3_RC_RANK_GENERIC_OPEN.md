@@ -141,6 +141,12 @@ The generic-open replay consumes this as a pinned input from
 verifier is the authoritative exact rank check; the conic-chart minor
 certificate is the authoritative explicit minor check.
 
+The companion degree-space guardrail checks the same conic chart in several
+other small boxes and shows that the naive fullness statement
+`rank=min(A B^3,L+1)` is false in general.  Therefore the open theorem remains
+an explicit finite-row minor/lower-bound theorem, not an automatic
+degree-space-fullness assertion.
+
 ## Remaining Theorem
 
 The useful next theorem is now sharply stated:

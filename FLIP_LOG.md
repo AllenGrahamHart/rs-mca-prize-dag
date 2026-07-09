@@ -7489,6 +7489,44 @@ Expected digest:
 H3_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=3 conic-chart degree-space guardrail
+
+Stage selected: prevent the next `RC-RANK` theorem statement from assuming
+false automatic degree-space fullness for same-fiber conic charts.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_DEGREE_SPACE_GUARD.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_degree_space_guard.py
+```
+
+The same toy conic chart `p=769,a=37,b=706,base=(101,333)` is checked across
+seven small boxes.  The naive target `rank=min(A B^3,L+1)` fails in four of
+them, for example:
+
+```text
+A=5,B=4,H=16: rank=247, min(A B^3,L+1)=293.
+```
+
+It also succeeds in three boxes, including the previously banked full-rank
+minor at `A=5,B=4,H=32`.  Conclusion: future h=3 work should prove the actual
+finite-row rank inequality above the exact condition count, or exhibit row
+minors, rather than trying to state a blanket conic-chart degree-space
+fullness theorem.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_degree_space_guard.py
+```
+
+Expected digest:
+
+```text
+H3_CONIC_CHART_DEGREE_SPACE_GUARD_PASS
+```
+
 Residual next targets remain unchanged: finite-row-valid h=3 rank/minor
 avoidance plus the matching bridge assignment, symbolic h=5 norm-gate
 incompatibility, and h=8 non-antipodal support certification.

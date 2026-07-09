@@ -167,6 +167,12 @@ witnesses, their `Z_exact+1` infeasibility under the analytic `B` cap, total
 gain `51451` over the active non-diagonal table, degree-space one-image
 capacity `1`, and collapsed constant-ratio capacity `0`.
 
+The conic-chart degree-space guardrail shows that repaired same-fiber conic
+charts should not be assumed to have automatic full degree-space rank in every
+box.  The exact-profile theorem obligation is therefore intentionally stated
+as a finite-row rank/minor nonvanishing inequality above the exact condition
+count, not as a blanket degree-space-fullness theorem.
+
 For the private-linear table it checks the pinned `Z_private` witnesses with
 
 ```text
