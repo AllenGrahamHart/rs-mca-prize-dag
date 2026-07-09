@@ -48,6 +48,7 @@ from f3_h3_repeat_frontier_ledger import (
     strict_frontier_gates,
 )
 from f3_h3_repeat_loose_branch_geometry import branch_geometry_summary
+from f3_h3_repeat_loose_shared_core_degree import loose_shared_core_summary
 
 
 @dataclass(frozen=True)
@@ -196,17 +197,36 @@ def repeat_slope_summary() -> dict[str, int]:
 
 
 def repeat_loose_geometry_summary() -> dict[str, int]:
-    summary = branch_geometry_summary()
-    expected = {
+    geometry = branch_geometry_summary()
+    expected_geometry = {
         "shared_slope_maps": 6,
         "branch_a_private_slope_maps": 2,
         "branch_b_private_slope_maps": 2,
         "active_finite_ramification_points": 0,
         "finite_checks": 186,
     }
-    if summary != expected:
-        raise AssertionError(summary)
-    return summary
+    if geometry != expected_geometry:
+        raise AssertionError(geometry)
+    shared = loose_shared_core_summary()
+    expected_shared = {
+        "shared_maps": 6,
+        "shared_sum_a": 10,
+        "shared_sum_total": 14,
+        "shared_max_total": 5,
+        "branch_a_private_maps": 2,
+        "branch_a_private_sum_a": 7,
+        "branch_a_private_sum_total": 8,
+        "branch_a_private_max_total": 5,
+        "branch_b_private_maps": 2,
+        "branch_b_private_sum_a": 9,
+        "branch_b_private_sum_total": 10,
+        "branch_b_private_max_total": 7,
+        "branch_a_full_total": 22,
+        "branch_b_full_total": 24,
+    }
+    if shared != expected_shared:
+        raise AssertionError(shared)
+    return {**geometry, **shared}
 
 
 def rich_curve_condition_summary() -> dict[str, int]:
@@ -332,7 +352,10 @@ def frontier_gates(
                 f"and mixed={repeat_slope['mixed_product_total']} "
                 f"(reverse={repeat_slope['mixed_reverse_product_total']}); "
                 f"loose branches share {repeat_loose['shared_slope_maps']} slope maps "
-                f"with active finite ramification={repeat_loose['active_finite_ramification_points']}"
+                f"with active finite ramification={repeat_loose['active_finite_ramification_points']}; "
+                f"shared-core S_total={repeat_loose['shared_sum_total']} and private "
+                f"S_totals A/B={repeat_loose['branch_a_private_sum_total']}/"
+                f"{repeat_loose['branch_b_private_sum_total']}"
             ),
             "prove or replace the strict same-lambda, slope, and loose-triangle branch gates needed by the star route",
         ),
@@ -416,7 +439,10 @@ def main() -> None:
         f"branch_A_private={repeat_loose['branch_a_private_slope_maps']} "
         f"branch_B_private={repeat_loose['branch_b_private_slope_maps']} "
         f"active_finite_ramification_points="
-        f"{repeat_loose['active_finite_ramification_points']}"
+        f"{repeat_loose['active_finite_ramification_points']} "
+        f"shared_core_total={repeat_loose['shared_sum_total']} "
+        f"private_totals=({repeat_loose['branch_a_private_sum_total']},"
+        f"{repeat_loose['branch_b_private_sum_total']})"
     )
     print(
         "rich-curve condition profile: "

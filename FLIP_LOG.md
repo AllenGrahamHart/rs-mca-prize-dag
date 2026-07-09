@@ -7567,6 +7567,51 @@ H3_RANK_AVOID_INTERFACE_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=3 loose shared-core degree split
+
+Stage selected: refine the repeat-boundary loose special branches without
+running a larger search.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SHARED_CORE_DEGREE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_shared_core_degree.py
+```
+
+The clean loose branch targets share a six-map one-parameter core:
+
+```text
+maps=6, sum_a_degrees=10, S_total=14, max_total=5.
+```
+
+The branch-private tails are exactly `C_ab,L_ab`, with budgets
+
+```text
+branch A private: maps=2, sum_a_degrees=7, S_total=8,  max_total=5;
+branch B private: maps=2, sum_a_degrees=9, S_total=10, max_total=7.
+```
+
+Thus the full clean branch totals remain `22` and `24`, but the residual is
+now split into a reusable shared-core target plus two smaller private debts.
+This does not prove either loose branch gate.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_shared_core_degree.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_REPEAT_LOOSE_SHARED_CORE_DEGREE_PASS
+H3_REPEAT_FRONTIER_LEDGER_PASS
+H3_FRONTIER_LEDGER_PASS
+```
+
 ## 2026-07-09 h=5 central projective-infinity exclusion
 
 Stage selected: upgrade the h=5 central infinity flag from a route guide to

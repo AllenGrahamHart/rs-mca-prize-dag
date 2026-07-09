@@ -29,10 +29,12 @@ LOOSE-GEN-RANK/NV:
   generic two-parameter loose nine-slope target, S_total=15;
 
 LOOSE-A-RANK/NV:
-  clean branch-A one-parameter loose eight-slope target, S_total=22;
+  clean branch-A one-parameter loose eight-slope target, S_total=22
+  = shared core 14 + private tail 8;
 
 LOOSE-B-RANK/NV:
-  clean branch-B one-parameter loose eight-slope target, S_total=24.
+  clean branch-B one-parameter loose eight-slope target, S_total=24
+  = shared core 14 + private tail 10.
 ```
 
 The generic same-lambda J-invariant compiler now verifies that the off-orbit
@@ -110,6 +112,23 @@ of their eight unique slope maps; the private maps on each branch are `C_ab`
 and `L_ab`.  Thus a future loose-branch proof can transfer any argument using
 only the six shared maps, but the full `LOOSE-A-RANK/NV` and `LOOSE-B-RANK/NV`
 gates still require handling the two private maps.
+
+The shared-core degree compiler makes this split quantitative.  The six shared
+maps have denominator-cleared budget
+
+```text
+maps=6, sum_a_degrees=10, S_total=14, max_total=5.
+```
+
+The branch-private tails are exactly `C_ab,L_ab`, with
+
+```text
+branch A private: maps=2, sum_a_degrees=7, S_total=8,  max_total=5;
+branch B private: maps=2, sum_a_degrees=9, S_total=10, max_total=7.
+```
+
+This does not prove either loose branch, but it separates the common reusable
+one-parameter target from the two smaller private debts.
 
 ## Count Route Frontier
 

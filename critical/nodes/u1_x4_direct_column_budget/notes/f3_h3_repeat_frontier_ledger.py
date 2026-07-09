@@ -31,6 +31,7 @@ from f3_h3_repeat_same_lambda_j_invariant import (
 from f3_h3_repeat_same_lambda_j_ramification import j_ramification_summary
 from f3_h3_repeat_same_lambda_product_parameter import product_parameter_summary
 from f3_h3_repeat_loose_branch_geometry import branch_geometry_summary
+from f3_h3_repeat_loose_shared_core_degree import loose_shared_core_summary
 
 
 @dataclass(frozen=True)
@@ -255,6 +256,33 @@ def main() -> None:
         f"active_finite_ramification_points="
         f"{loose_geometry['active_finite_ramification_points']} "
         f"finite_checks={loose_geometry['finite_checks']}"
+    )
+    loose_shared = loose_shared_core_summary()
+    if loose_shared != {
+        "shared_maps": 6,
+        "shared_sum_a": 10,
+        "shared_sum_total": 14,
+        "shared_max_total": 5,
+        "branch_a_private_maps": 2,
+        "branch_a_private_sum_a": 7,
+        "branch_a_private_sum_total": 8,
+        "branch_a_private_max_total": 5,
+        "branch_b_private_maps": 2,
+        "branch_b_private_sum_a": 9,
+        "branch_b_private_sum_total": 10,
+        "branch_b_private_max_total": 7,
+        "branch_a_full_total": 22,
+        "branch_b_full_total": 24,
+    }:
+        raise AssertionError(loose_shared)
+    print(
+        "loose_shared_core_degree: "
+        f"shared_maps={loose_shared['shared_maps']} "
+        f"shared_sum_total={loose_shared['shared_sum_total']} "
+        f"branch_A_private_sum_total={loose_shared['branch_a_private_sum_total']} "
+        f"branch_B_private_sum_total={loose_shared['branch_b_private_sum_total']} "
+        f"full_totals=({loose_shared['branch_a_full_total']},"
+        f"{loose_shared['branch_b_full_total']})"
     )
 
     minor_rows = rank_minor_rows()

@@ -85,6 +85,9 @@ H3-REPEAT-BOUNDARY-STAR: OPEN FRONTIER
   fixed-parameter complement of branch A, `b_B(a)=-1-b_A(a)`, that finite
   branch-map ramification is killed by reciprocal-multiplier distinctness, and
   that the clean branches share six of their eight unique slope maps.
+  The shared-core degree split records this common six-map target with
+  `S_total=14`, leaving private two-map tails with `S_total=8` on branch A and
+  `S_total=10` on branch B; the full clean branch totals remain `22` and `24`.
   Residual: prove or replace the strict same-lambda, slope, and loose-triangle
   branch gates needed by the star route.
 ```
