@@ -7635,3 +7635,51 @@ Expected digests:
 H5_CENTRAL_WEIGHTED_SLICE_PASS
 F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 ```
+
+## 2026-07-09 h=5 central slice fixed-point skeleton
+
+Stage selected: profile the central fixed-point compatibility after the
+weighted slice, still without forming expanded fixed-point numerators.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_FIXEDPOINT_SKELETON.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_fixedpoint_skeleton.py
+```
+
+Key result:
+
+```text
+unsliced total degree bounds: 91, 81, 71, 61
+sliced degree bounds:        81, 72, 63, 54
+degree drops:                10, 9, 8, 7
+```
+
+The slice improves degree bookkeeping, but it does not improve the
+pre-cancellation expansion-size bounds:
+
+```text
+F1 <= 1,255,488,415,957 terms
+F2 <=    57,067,651,704 terms
+F3 <=     2,593,979,107 terms
+F4 <=       117,907,944 terms
+```
+
+Conclusion: the central slice is a useful normalization, but direct fixed-point
+expansion remains the wrong primitive.  A central-chart proof should preserve
+the sparse graph/saturation structure.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_fixedpoint_skeleton.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H5_CENTRAL_SLICE_FIXEDPOINT_SKELETON_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```

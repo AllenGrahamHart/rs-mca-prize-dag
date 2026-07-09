@@ -17,6 +17,9 @@ from f3_h5_central_chart_graph import central_graph_summary as h5_central_graph_
 from f3_h5_central_fixedpoint_skeleton import (
     fixedpoint_skeleton_summary as h5_central_fixedpoint_summary,
 )
+from f3_h5_central_slice_fixedpoint_skeleton import (
+    slice_fixedpoint_summary as h5_central_slice_fixedpoint_summary,
+)
 from f3_h5_central_weighted_slice import (
     central_slice_summary as h5_central_slice_summary,
 )
@@ -97,6 +100,7 @@ def h5_summary() -> dict[str, int]:
     central_graph = h5_central_graph_summary()
     central_slice = h5_central_slice_summary()
     central_fixedpoint = h5_central_fixedpoint_summary()
+    central_slice_fixedpoint = h5_central_slice_fixedpoint_summary()
     unit_propagation = h5_unit_propagation_summary()
     minor_propagation = h5_minor_propagation_summary()
     weighted = h5_weighted_summary()
@@ -158,6 +162,18 @@ def h5_summary() -> dict[str, int]:
         ],
         "central_fixedpoint_max_degree": central_fixedpoint[
             "max_total_degree_bound"
+        ],
+        "central_slice_fixedpoint_max_terms": central_slice_fixedpoint[
+            "max_pre_cancellation_terms"
+        ],
+        "central_slice_fixedpoint_max_degree": central_slice_fixedpoint[
+            "max_slice_degree_bound"
+        ],
+        "central_slice_fixedpoint_min_drop": central_slice_fixedpoint[
+            "min_degree_drop"
+        ],
+        "central_slice_fixedpoint_max_drop": central_slice_fixedpoint[
+            "max_degree_drop"
         ],
         "weighted_pairwise_rows": weighted["pairwise_rows"],
         "weighted_unit_rows": weighted["unit_rows"],
@@ -285,6 +301,7 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"{h5['max_chart_total_terms']}; "
                 f"central graph rows={h5['central_graph_rows']}; "
                 f"central slice max degree={h5['central_slice_max_degree']}; "
+                f"slice fixed-point max degree={h5['central_slice_fixedpoint_max_degree']}; "
                 f"fixed-point pre-cancel max={h5['central_fixedpoint_max_terms']}; "
                 f"weighted rows={h5['weighted_pairwise_rows']}+"
                 f"{h5['weighted_unit_rows']}; "
@@ -365,6 +382,10 @@ def main() -> None:
         f"central_slice_action_rows={h5['central_slice_action_rows']} "
         f"central_fixedpoint_precancel_max={h5['central_fixedpoint_max_terms']} "
         f"central_fixedpoint_max_degree={h5['central_fixedpoint_max_degree']} "
+        f"central_slice_fixedpoint_precancel_max={h5['central_slice_fixedpoint_max_terms']} "
+        f"central_slice_fixedpoint_max_degree={h5['central_slice_fixedpoint_max_degree']} "
+        f"central_slice_fixedpoint_degree_drop={h5['central_slice_fixedpoint_min_drop']}.."
+        f"{h5['central_slice_fixedpoint_max_drop']} "
         f"weighted_pairwise_rows={h5['weighted_pairwise_rows']} "
         f"weighted_unit_rows={h5['weighted_unit_rows']} "
         f"central_scaling_stabilizer={h5['central_scaling_stabilizer']} "
