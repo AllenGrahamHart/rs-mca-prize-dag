@@ -523,3 +523,24 @@ q-blind, n-uniform (empirically), with the full extremal atlas,
 witnesses at each scale, a symmetry no-go, the collapse
 factorization, and the exact annihilator formula all banked around
 it. Everything the proof needs, short of the proof.
+
+## 30 — 2026-07-10: the CANONICAL FORM of the base lemma; catch #8;
+## cross-lane convergence with F3
+
+The coefficient-elimination reduction: x, ax, bx are co-roots of a
+trinomial iff phi(a) = phi(b) with phi(alpha) = (alpha^u - 1)/
+(alpha^v - 1), PROVIDED the common value is nondegenerate (not in
+{0, 1, inf}: c = 1 is the line-through-origin case — no trinomial
+with constant term realizes it; c = 0/inf are binomial degenerations).
+CATCH #8 (fifth machine-caught pre-banking): the first form omitted
+the degeneracy exclusion — fibers at c = 1 have size up to n/2 - 1
+(gcd(v-u, n) structure) and the naive check MISMATCHED 7-63 vs 2-3;
+with the exclusion: MATCH at all five scales (2/3/3/3/3 = C(3)-1),
+witnesses aligned with the extremal census orbits. FINAL FORM of the
+base lemma: phi_{u,v} takes no nondegenerate value more than 3 times
+on mu_n (non-collapsed u, v). Cross-multiplied, equal fibers are a
+6-TERM VANISHING RELATION in two torsion variables — the SAME object
+class as Codex's banked F3 char-0 work (Conway-Jones route, 6-term
+sums): the F2 and F3 campaigns converge on one core object. The
+c = 1 degenerate fiber's n/2-size is itself the collapse channel
+seen through phi — the dichotomy in one picture.
