@@ -49,6 +49,10 @@ F3-RANK-AVOID / RC-NV: OPEN
   The six-A guardrail records that all official exact-profile rows have
   `H-6A >= 20`, but it also refutes the unrestricted claim that `H>=6A` alone
   implies full conic rank outside the official dense-box regime.
+  The conic rational-curve interface restates the map as
+  `H0(O(A-1))` times boxed degree-`3(B-1)` monomials in four sections of
+  `O(2H)`; official rows have positive column-supply margin, but the four
+  generators are not a complete linear series.
   The conic-chart linear-relation guard verifies `P_U+P_V+P_W+aQ=0` on the
   same-fiber conic chart despite pairwise coprime chart polynomials, so
   separated-divisor arguments alone cannot prove full rank.

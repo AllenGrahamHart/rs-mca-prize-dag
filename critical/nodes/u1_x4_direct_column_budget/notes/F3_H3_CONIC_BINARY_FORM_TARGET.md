@@ -83,6 +83,8 @@ at most 1847.
 
 The packet does not prove this codimension bound, does not identify the needed
 minor, and does not solve the bridge assignment.
+The companion rational-curve interface rewrites the same target as a boxed
+multiplication map using four sections of `O(2H)` on `P^1`.
 
 ## Replay
 

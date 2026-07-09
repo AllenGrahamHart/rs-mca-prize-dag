@@ -7612,6 +7612,50 @@ Expected digest:
 H3_CONIC_SIXA_THRESHOLD_TARGET_PASS
 ```
 
+## 2026-07-09 h=3 conic rational-curve multiplication interface
+
+Stage selected: state the exact algebraic multiplication map behind the conic
+codimension target.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_RATIONAL_CURVE_INTERFACE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_rational_curve_interface.py
+```
+
+Writing `R_i=P_i^H` and `R_Q=Q^H`, the conic rank columns are
+
+```text
+X^a R_U^b1 R_V^b2 R_W^b3 R_Q^(M-b1-b2-b3),
+M=3(B-1), 0<=a<A, 0<=b_i<B.
+```
+
+So the open rank theorem is a boxed multiplication statement
+
+```text
+H0(O(A-1)) * boxed degree-M monomials in four sections of O(2H)
+  -> H0(O((A-1)+2HM)).
+```
+
+The replay verifies that all official rows have positive column-supply margin
+for both the boxed set and the full simplex, while also recording the positive
+linear-normality defect `h0(O(2H))-4`.  Thus the issue is not column count, and
+not complete-series normal generation; it is finite-field codimension
+`<=1847` for the boxed four-generator subalgebra.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_rational_curve_interface.py
+```
+
+Expected digest:
+
+```text
+H3_CONIC_RATIONAL_CURVE_INTERFACE_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without
