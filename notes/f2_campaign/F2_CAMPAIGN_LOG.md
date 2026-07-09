@@ -337,3 +337,18 @@ fresh Claude session, or Codex after F3). With this, every lane the
 campaign can open is open: the proof attempt (two faces), the
 delegation brief, the instrument (green), and the assembly plan.
 u2c stays red until one of them lands the crux.
+
+## 18 — 2026-07-10: FULL-LADDER DICTIONARY PROVED — catch #6 dissolved
+## at the dictionary level
+
+f2_full_ladder_dictionary (log-derivative identity, five lines,
+char-free; exhaustive two-branch verification, 750k+ subsets, 10
+cells, five with t > q): t-null <=> reversed-locator coefficients
+vanish at the q-free indices <= min(t,b); q-multiples exactly free.
+The official F2 object is now, by theorem, the census of degree-b
+divisors of X^n - 1 with coefficients vanishing on the q-free indices
+<= t — the divisor/Q frame covers the WHOLE official ladder. Both
+crux faces upgraded; effective condition count for L5 pinned exactly.
+The Pro brief's FACE B should be read with this upgrade (brief
+pre-dates it by one entry; the target file remains authoritative).
+Campaign ledger: 7 PROVED satellites + 2 anchors, 15 digests.
