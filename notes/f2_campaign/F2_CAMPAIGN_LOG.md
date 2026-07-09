@@ -964,3 +964,22 @@ statement from which the crux assembly follows. Forty-three cycles
 have converted everything else. The campaign stands at: prove
 SP-flatness of the t-null pair census (or any bound within the
 2^{1.05e12} tolerance) -> assembly -> flip.
+
+## 54 — 2026-07-10: the TRADE-VARIETY LANDING — the final lemma lives
+## in pre-built territory
+
+The core-sharing pair census decomposes over signed trades: (S1, S2)
+sharing a core <=> the residual pair (R1, R2) is a SIGNED t-null
+configuration (R1 - R2 null as a signed multiset), and the dictionary
+extends to rational form: ell*_{R1}/ell*_{R2} == H(X)^p mod X^{t+1}.
+The last redoubt (SP-flatness of the pair census) is therefore an
+instance of the UNIVERSAL TRADE VARIETY framework —
+a_universal_trade_variety, an ev-parent of u2c wired into the
+critical DAG before this campaign began, with its own banked
+apparatus (the M2 route, always one of the five). The campaign's
+compressed object needs no new theory lane: it needs the trade
+machinery instantiated at signed interior residual configurations
+with the rational dictionary. CHAIN, final form: trade-variety
+instance (existing lane) -> assembly -> flip. Fifty-four entries;
+everything the campaign built converges on machinery that predates
+it — the DAG's architecture doing exactly what it was designed for.
