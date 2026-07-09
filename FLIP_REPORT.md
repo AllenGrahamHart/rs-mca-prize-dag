@@ -320,7 +320,10 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    `l5=delta*bar_l5` compatibility row, four equations total with max total
    degree `10`.  The base-free version is the full rank-one compatibility
    system: ten pairwise equations among `E1,E2,E3,E4` and the central row,
-   again with max total degree `10`.
+   again with max total degree `10`.  The all-zero high-coefficient chart is
+   excluded on official rows: it would force a locator `X^10+l0`, impossible
+   for a 10-support in `mu_{2^s}` because `x -> x^10` has fibers of size at
+   most `2`.
 17. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.

@@ -63,6 +63,11 @@ slot denominator is nonzero, the corresponding four equations recover the
 single `delta`; if all available denominators vanish, a future proof must handle
 that degenerate reciprocal cell separately.
 
+The companion `F3_H5_RECIPROCAL_OPEN_COVER.md` handles that chart issue on
+official rows: the all-zero denominator cell would force a locator
+`X^10+l0`, impossible for a 10-support in `mu_{2^s}` because `x -> x^10` has
+fibers of size at most `2`.
+
 ## Replay
 
 Standalone:

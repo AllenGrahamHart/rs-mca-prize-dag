@@ -25,7 +25,9 @@ T4-H5-NORM-GATE: OPEN
   1,104,676,577,280.  The reciprocal compatibility compiler eliminates the
   shared support product delta to give four delta-free compatibility
   equations of max total degree 10; the base-free reciprocal system records
-  all ten pairwise rank-one equations, also of max total degree 10.
+  all ten pairwise rank-one equations, also of max total degree 10.  The
+  reciprocal open-cover packet excludes the all-zero high-coefficient chart on
+  official rows because x -> x^10 has fibers of size at most 2 in mu_{2^s}.
   Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
   or replace the selected finite rows with a scalable certificate family.
 
@@ -59,6 +61,7 @@ h5_structural_reduction
   + h=5 x83 triangular norm-gate compiler
   + h=5 reciprocal compatibility compiler
   + h=5 base-free reciprocal system
+  + h=5 reciprocal open-cover exclusion
   => T4-H5-NORM-GATE remains the only h=5 blocker
 
 h6/h7 bonus sweep replay
