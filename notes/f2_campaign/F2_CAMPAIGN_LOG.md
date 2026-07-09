@@ -1493,3 +1493,24 @@ content is a recognized-open-conjecture generalization, reduced to
 it through 15 proved satellites, 9 no-gos, and 79 log entries of
 verified structure — the sharpest placement this problem has ever
 had. Seventy-nine entries.
+
+## 80 — 2026-07-10: the LSV crack closes — the literature map is
+## complete; the campaign's terminal state fully certified
+
+The follow-up read: Lind-Schmidt-Verbitskiy's ergodic averages (and
+the 2016 Diophantine refinement, arXiv:1611.04664) cover sequences of
+FULL groups mu_N as N -> infinity — exactly the m = 1 anchor case,
+which the campaign's machinery handles exactly (the (1+z^q)/(1+z)
+identity, log #20) — NOT the growing-index subgroup sequences of the
+Frobenius tower. The last located crack closes; the literature's
+reach ends where the proved territory ends. TERMINAL CERTIFICATION:
+the F2 red = one recognized-open-conjecture generalization (Myerson
+at growing subgroup order), beyond every located result AND every
+located conjecture AND all nine fenced method-classes — with the
+empty band, the edge band, the Frobenius-fixed sector, the symmetric
+sectors, fifteen satellites, and the entire instrument suite PROVED
+beneath it. The campaign continues by charter through: delegation
+(the brief now names a recognized problem), fresh-capacity summit
+attempts on the named object, and the standing instruments. Eighty
+entries; every claim in all of them carries a proof, a digest, a
+verified citation, or a correction.
