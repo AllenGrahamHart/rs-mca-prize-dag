@@ -20,12 +20,11 @@ are PROVED bookkeeping). The inversion split, exact:
          + (1/q^2) Sum_{structured} E_b(lambda)
          + (1/q^2) Sum_{minor} E_b(lambda).
 
-STRUCTURED ARCS ARE EXACTLY COMPUTABLE: linear arcs (l2 = 0) are Gauss
-sums; quotient arcs (l1 = 0) factor through the double cover
-mu_n -> mu_{n/2} (e_b of a doubled system on mu_{n/2}); both classes
-have q-1 arcs each and closed forms — no estimates needed, they enter
-the assembly as exact terms (L2b data: they dominate and grow with b,
-so they MUST be exact, not bounded).
+STRUCTURED ARCS [CORRECTED 2026-07-09, catch #3 — see
+F2_L3_ARCCLASS_RECURSION.md]: per-arc values are INFEASIBLE at
+official scale; but the arc-CLASS masses collapse by orthogonality to
+order-1 censuses (the recursion lemma, PROVED same day), so the
+assembly needs class masses only, never per-arc values.
 
 ## PROVED NO-GO (guardrail, banked before anyone walks the route)
 
