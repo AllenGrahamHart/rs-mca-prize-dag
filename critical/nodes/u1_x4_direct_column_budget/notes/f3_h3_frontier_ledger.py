@@ -46,6 +46,7 @@ from f3_h3_conic_rational_curve_interface import conic_rational_curve_summary
 from f3_h3_conic_dual_annihilator_target import conic_dual_annihilator_summary
 from f3_h3_conic_box_basepoint_free import conic_box_basepoint_free_summary
 from f3_h3_conic_kernel_bundle_reduction import conic_kernel_bundle_summary
+from f3_h3_conic_kernel_bundle_4096_reduction import conic_kernel_4096_summary
 from f3_h3_exact_profile_rank_capacity_guard import exact_profile_capacity_guard_summary
 from f3_h3_exact_profile_rank_deficit_budget import rank_deficit_budget_summary
 from f3_h3_conic_chart_rank_minor_certificate import EXPECTED_DETERMINANT as TOY_CONIC_MINOR_DET
@@ -123,6 +124,7 @@ def official_budget_summary() -> dict[str, int]:
     conic_dual = conic_dual_annihilator_summary()
     conic_basepoint = conic_box_basepoint_free_summary()
     conic_kernel = conic_kernel_bundle_summary()
+    conic_kernel_4096 = conic_kernel_4096_summary()
     exact_capacity = exact_profile_capacity_guard_summary()
     exact_deficit = rank_deficit_budget_summary()
     private_deficit = private_rank_deficit_budget_summary()
@@ -137,6 +139,8 @@ def official_budget_summary() -> dict[str, int]:
         raise AssertionError(exact_4096)
     if exact_4096_deficit["min_allowed_deficit"] != 2899:
         raise AssertionError(exact_4096_deficit)
+    if conic_kernel_4096["allowance"] != 2899:
+        raise AssertionError(conic_kernel_4096)
     return {
         "first_s": 13,
         "last_s": 41,
@@ -182,6 +186,14 @@ def official_budget_summary() -> dict[str, int]:
         "conic_basepoint_min_b": conic_basepoint["official_min_b"],
         "conic_kernel_balanced_margin": conic_kernel["min_balanced_margin"],
         "conic_kernel_max_slope": conic_kernel["max_balanced_slope"],
+        "conic_kernel_4096_allowance": conic_kernel_4096["allowance"],
+        "conic_kernel_4096_balanced_margin": conic_kernel_4096[
+            "min_balanced_margin"
+        ],
+        "conic_kernel_4096_max_slope": conic_kernel_4096["max_balanced_slope"],
+        "conic_kernel_4096_margin_minus_allowance": conic_kernel_4096[
+            "min_margin_minus_allowance"
+        ],
         "toy_conic_chart_rank": PINNED_DEGREE2_CONIC_CHART_RANK,
         "toy_conic_chart_minor_det": TOY_CONIC_MINOR_DET,
         "private_separation_margin": private_separation_summary()["min_pass_margin"],
@@ -417,6 +429,12 @@ def frontier_gates(
                 f"kernel-bundle reduction has balanced full-window slope at "
                 f"most {budgets['conic_kernel_max_slope']} and min A-slope "
                 f"margin {budgets['conic_kernel_balanced_margin']}; "
+                f"the H3-ACT(4096) boxes retune this to allowance "
+                f"{budgets['conic_kernel_4096_allowance']}, max slope "
+                f"{budgets['conic_kernel_4096_max_slope']}, min margin "
+                f"{budgets['conic_kernel_4096_balanced_margin']} "
+                f"(margin minus allowance "
+                f"{budgets['conic_kernel_4096_margin_minus_allowance']}); "
                 f"toy same-fiber conic chart has full rank "
                 f"{budgets['toy_conic_chart_rank']}=A B^3 "
                 f"with minor det {budgets['toy_conic_chart_minor_det']} mod 769; "
@@ -531,6 +549,7 @@ def main() -> None:
         f"Z_private={budgets['z_private_min']}..{budgets['z_private_max']} "
         f"private_sep_margin={budgets['private_separation_margin']} "
         f"exact_4096_deficit_min={budgets['exact_4096_min_allowed_deficit']} "
+        f"conic_4096_margin={budgets['conic_kernel_4096_balanced_margin']} "
         f"private_deficit_min={budgets['private_min_allowed_deficit']}"
     )
     print(

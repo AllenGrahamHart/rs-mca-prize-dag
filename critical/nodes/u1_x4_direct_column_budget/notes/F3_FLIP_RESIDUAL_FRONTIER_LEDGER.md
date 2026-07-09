@@ -55,6 +55,8 @@ A conservative exact-profile retuning is now banked for the weaker target:
 `Z_exact_4096_floor=2112..1370944 = 64 * Z_exact`, with no maximality claim.
 On these pinned boxes, the bounded conic rank-deficit tolerance improves from
 `Delta <= 1847` to `Delta <= 2899`.
+The corresponding kernel-bundle target is splitting excess `<=2899`; balanced
+full-window splitting would be stronger, with official margin at least `2951`.
 
 Second, T4 has been reduced to the h=8 non-antipodal x83 branch.  The current
 remaining certificate scale is

@@ -69,6 +69,9 @@ F3-RANK-AVOID / RC-NV: OPEN
   `codim = sum_i max(e_i-A,0)` for the kernel splitting of the boxed base
   product series `W`, and the official full-window balanced slope sits below
   `A` with margin at least `1320`.
+  On the `H3-ACT(4096)` floor boxes, the same kernel-bundle target is retuned
+  to excess `<=2899`; the balanced full-window slope has maximum `918`, margin
+  at least `2951`, and margin-minus-allowance at least `52`.
   The boxed-product basepoint-free guard proves that the pairwise-coprime conic
   chart polynomials make this `W` basepoint-free, since the official rows have
   `B>=34`.
@@ -165,6 +168,10 @@ One conservative retuning packet is now banked: the exact-profile arithmetic
 accepts `64 * Z_exact` under `H3-ACT(4096)`, giving
 `Z_4096_floor=2112..1370944` for a future bridge theorem.  On these retuned
 boxes, a bounded conic rank-deficit theorem with `Delta <= 2899` would suffice.
+Equivalently through the kernel-bundle reduction, it is enough on the retuned
+boxes to prove splitting excess
+`sum_i max(e_i-A,0) <= 2899`; balanced splitting would be stronger, with the
+official balanced-slope margin still at least `2951`.
 
 The legacy degree-2 route remains valid but weaker:
 

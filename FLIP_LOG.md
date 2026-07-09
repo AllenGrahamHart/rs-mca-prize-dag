@@ -8035,6 +8035,41 @@ Expected digest:
 H3_EXACT_PROFILE_4096_RANK_DEFICIT_BUDGET_PASS
 ```
 
+## 2026-07-09 h=3 conic 4096 kernel-bundle target
+
+Stage selected: carry the retuned exact-profile boxes into the conic
+kernel-bundle reduction.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_KERNEL_BUNDLE_4096_REDUCTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_kernel_bundle_4096_reduction.py
+```
+
+The exact kernel-bundle formula remains
+
+```text
+codim = sum_i max(e_i - A, 0).
+```
+
+For the `H3-ACT(4096)` floor boxes, the target becomes splitting excess
+`<=2899`.  The balanced full-window slope check has margin at least `2951`,
+so balanced splitting would beat the required excess allowance by at least
+`52` on every official row.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_kernel_bundle_4096_reduction.py
+```
+
+Expected digest:
+
+```text
+H3_CONIC_KERNEL_BUNDLE_4096_REDUCTION_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without
