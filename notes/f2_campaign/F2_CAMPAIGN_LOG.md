@@ -1408,3 +1408,23 @@ their rigidity gain (a moving block is determined by 1/2^j of its
 data) is the algebraic handle. The summit's open set narrows again:
 the moving sectors of the Frobenius-slot interior. Seventy-five
 entries; the official problem has its first proved-machinery sector.
+
+## 76 — 2026-07-10: THE FROBENIUS TOWER — the summit as sixteen descent
+## steps from a proved base
+
+The moving sectors organize completely: the level-j sector
+(phi^{2^j}-stable blocks) is a SELF-SIMILAR instance of the whole
+problem at (n_j ~ 2^{24+j}, q_j = p^{2^j}, k_j = 2^j) — conditions on
+stable blocks live in the subfield automatically (Frobenius-stable
+power sums). The official problem (k = 2^16) is the TOWER of its own
+smaller instances: sixteen levels; the BASE (j = 0) is the proved
+k=1 sector in analytic regime (log #75); each subsequent level is
+one GALOIS-DESCENT step (relate phi^{2^{j+1}}-stable extras to
+level-j structure — the census's Galois cohomology). THE MINIMAL
+OPEN INSTANCE, concrete: the first descent step j: 0 -> 1 (n = 2^25,
+q = p^2, blocks stable under phi^2, split by phi) — one new
+mathematical question, the smallest that contains the summit's
+content, with the proved base one step below it. The campaign's
+terminal object: a sixteen-rung tower, base proved, every rung the
+same shaped question, the first rung named and minimal.
+Seventy-six entries.
