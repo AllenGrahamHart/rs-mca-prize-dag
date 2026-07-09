@@ -7292,3 +7292,44 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 Residual h=5 target: prove the resulting official-row rank-one compatibility
 system has no support solutions, or replace it by a scalable certificate
 family.
+
+## 2026-07-09 h=5 unit-norm reciprocal gate
+
+Stage selected: use the root-of-unity nature of the h=5 support product to add
+delta-free Hermitian equations to the symbolic norm-gate target.
+
+Banked commit:
+
+```text
+6311ceb Add h5 unit-norm reciprocal gate
+```
+
+Key result:
+
+```text
+For reciprocal rows P_j = D_j delta*bar_l(10-j), the identity
+delta*bar_delta=1 gives
+
+  P_j * conjugate(P_j) = D_j^2 l(10-j) bar_l(10-j),  j=1..4.
+
+The replay verifies four equations N1..N4 with term counts
+485,325,170,101 and max total degree 18.
+```
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_unit_norm_reciprocal_gate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H5_UNIT_NORM_RECIPROCAL_GATE_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```
+
+Residual h=5 target: combine the rank-one compatibility system, the official
+open cover, and the unit-norm equations to prove symbolic incompatibility, or
+replace this route with a scalable certificate family.
