@@ -79,6 +79,19 @@ degree `18`; the central chart has unit degree `0`.  Four central syzygies
 verify that the global unit rows are saturated consequences of the central
 rank-one equations.
 
+The compiler also profiles the local equation systems:
+
+```text
+chart 1: 5 equations, 615 total terms, max degree 18
+chart 2: 5 equations, 443 total terms, max degree 16
+chart 3: 5 equations, 273 total terms, max degree 14
+chart 4: 5 equations, 195 total terms, max degree 12
+chart 5: 4 equations,  67 total terms, max degree 10
+```
+
+Thus the central chart is the smallest immediate symbolic target: it has only
+the four incident rank-one minors and no Hermitian equation.
+
 ## Consequence
 
 The h=5 symbolic residual can now be attacked chart by chart:

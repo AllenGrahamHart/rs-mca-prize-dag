@@ -124,6 +124,10 @@ def h5_summary() -> dict[str, int]:
         "chart_tautological_unit_charts": chart_recovery[
             "tautological_unit_charts"
         ],
+        "min_chart_total_terms": chart_recovery["min_chart_total_terms"],
+        "max_chart_total_terms": chart_recovery["max_chart_total_terms"],
+        "central_chart_total_terms": chart_recovery["central_chart_total_terms"],
+        "central_chart_max_degree": chart_recovery["central_chart_max_degree"],
         "central_unit_syzygies": chart_recovery["central_unit_syzygies"],
         "minor_propagation_syzygies": minor_propagation["ordered_chart_syzygies"],
         "nonincident_minors_per_chart": minor_propagation[
@@ -241,6 +245,8 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"chart-local unit obligations="
                 f"{h5['chart_nontrivial_unit_charts']}+"
                 f"{h5['chart_tautological_unit_charts']} tautological; "
+                f"chart terms={h5['min_chart_total_terms']}.."
+                f"{h5['max_chart_total_terms']}; "
                 f"minor propagation syzygies={h5['minor_propagation_syzygies']}; "
                 f"unit propagation syzygies={h5['unit_propagation_syzygies']}"
             ),
@@ -304,6 +310,10 @@ def main() -> None:
         f"unit_norm_equations={h5['unit_norm_equations']} "
         f"chart_local_charts={h5['chart_local_charts']} "
         f"incident_minors_per_chart={h5['chart_incident_minors_per_chart']} "
+        f"chart_total_terms={h5['min_chart_total_terms']}.."
+        f"{h5['max_chart_total_terms']} "
+        f"central_chart_terms={h5['central_chart_total_terms']} "
+        f"central_chart_max_degree={h5['central_chart_max_degree']} "
         f"chart_unit_obligations={h5['chart_nontrivial_unit_charts']}+"
         f"{h5['chart_tautological_unit_charts']} tautological "
         f"nonincident_minors_per_chart={h5['nonincident_minors_per_chart']} "

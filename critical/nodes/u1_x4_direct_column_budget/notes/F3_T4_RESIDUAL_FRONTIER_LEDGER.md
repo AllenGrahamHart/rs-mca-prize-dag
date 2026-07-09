@@ -39,7 +39,9 @@ T4-H5-NORM-GATE: OPEN
   on a nonzero denominator chart propagates to every other slot.  The
   rank-one minor propagation packet verifies 30 abstract syzygies showing that
   the four incident minors on a chart imply the six nonincident minors after
-  saturating by that chart denominator.
+  saturating by that chart denominator.  The chart-local profiles range from
+  `67` total terms on the central chart to `615` terms on chart `1`; the
+  central chart has max degree `10` and no Hermitian equation.
   Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
   or replace the selected finite rows with a scalable certificate family.
 

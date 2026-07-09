@@ -50,6 +50,16 @@ class CentralUnitSyzygy:
     saturation_multiplier: str
 
 
+@dataclass(frozen=True)
+class ChartSystemProfile:
+    chart: int
+    equations: int
+    total_terms: int
+    max_terms: int
+    max_total_degree: int
+    unit_norm_row: str
+
+
 def conjugate(expr: sp.Expr) -> sp.Expr:
     return sp.expand(expr.xreplace(CONJUGATE))
 
@@ -148,12 +158,36 @@ def central_unit_syzygies() -> tuple[CentralUnitSyzygy, ...]:
     return tuple(rows)
 
 
+def chart_system_profiles() -> tuple[ChartSystemProfile, ...]:
+    pairwise = {row.name: row for row in pairwise_rows()}
+    profiles = []
+    for row in chart_rows():
+        minor_terms = [pairwise[name].terms for name in row.incident_minors]
+        minor_degrees = [pairwise[name].total_degree for name in row.incident_minors]
+        equation_terms = minor_terms + ([] if row.automatic_unit_norm else [row.unit_terms])
+        equation_degrees = minor_degrees + (
+            [] if row.automatic_unit_norm else [row.unit_total_degree]
+        )
+        profiles.append(
+            ChartSystemProfile(
+                chart=row.chart,
+                equations=len(row.incident_minors) + int(not row.automatic_unit_norm),
+                total_terms=sum(equation_terms),
+                max_terms=max(equation_terms),
+                max_total_degree=max(equation_degrees),
+                unit_norm_row=row.unit_norm_row,
+            )
+        )
+    return tuple(profiles)
+
+
 def chart_recovery_summary() -> dict[str, int]:
     basefree = basefree_summary()
     open_cover = open_cover_summary()
     unit_norm = unit_norm_summary()
     rows = chart_rows()
     syzygies = central_unit_syzygies()
+    profiles = chart_system_profiles()
 
     expected = {
         1: ("16384*bar_l9", ("C12", "C13", "C14", "C15"), "N1", 485, 18, False),
@@ -184,6 +218,25 @@ def chart_recovery_summary() -> dict[str, int]:
         raise AssertionError(unit_norm)
     if len(syzygies) != len(nontrivial):
         raise AssertionError(syzygies)
+    expected_profiles = {
+        1: (5, 615, 485, 18, "N1"),
+        2: (5, 443, 325, 16, "N2"),
+        3: (5, 273, 170, 14, "N3"),
+        4: (5, 195, 101, 12, "N4"),
+        5: (4, 67, 23, 10, "TAUTOLOGY"),
+    }
+    actual_profiles = {
+        row.chart: (
+            row.equations,
+            row.total_terms,
+            row.max_terms,
+            row.max_total_degree,
+            row.unit_norm_row,
+        )
+        for row in profiles
+    }
+    if actual_profiles != expected_profiles:
+        raise AssertionError(actual_profiles)
 
     return {
         "charts": len(rows),
@@ -192,6 +245,12 @@ def chart_recovery_summary() -> dict[str, int]:
         "nontrivial_unit_charts": len(nontrivial),
         "tautological_unit_charts": len(tautological),
         "central_unit_syzygies": len(syzygies),
+        "min_chart_total_terms": min(row.total_terms for row in profiles),
+        "max_chart_total_terms": max(row.total_terms for row in profiles),
+        "min_chart_equations": min(row.equations for row in profiles),
+        "max_chart_equations": max(row.equations for row in profiles),
+        "central_chart_total_terms": profiles[-1].total_terms,
+        "central_chart_max_degree": profiles[-1].max_total_degree,
         "max_chart_unit_degree": max(row.unit_total_degree for row in rows),
         "max_chart_unit_terms": max(row.unit_terms for row in rows),
         "official_max_x10_fiber": open_cover["official_max_x10_fiber"],
@@ -214,6 +273,12 @@ def main() -> None:
             f"{row.saturation_multiplier}*{row.unit_norm_row} in "
             f"<{row.incident_minor},{row.conjugate_minor}>"
         )
+    for row in chart_system_profiles():
+        print(
+            f"  chart profile {row.chart}: equations={row.equations} "
+            f"total_terms={row.total_terms} max_terms={row.max_terms} "
+            f"max_degree={row.max_total_degree} unit={row.unit_norm_row}"
+        )
     print(
         "summary: "
         f"charts={summary['charts']} "
@@ -222,6 +287,10 @@ def main() -> None:
         f"nontrivial_unit_charts={summary['nontrivial_unit_charts']} "
         f"tautological_unit_charts={summary['tautological_unit_charts']} "
         f"central_unit_syzygies={summary['central_unit_syzygies']} "
+        f"chart_terms={summary['min_chart_total_terms']}.."
+        f"{summary['max_chart_total_terms']} "
+        f"central_chart_terms={summary['central_chart_total_terms']} "
+        f"central_chart_max_degree={summary['central_chart_max_degree']} "
         f"max_unit_degree={summary['max_chart_unit_degree']} "
         f"max_unit_terms={summary['max_chart_unit_terms']} "
         f"official_max_x10_fiber={summary['official_max_x10_fiber']}"

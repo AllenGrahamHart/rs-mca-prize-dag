@@ -7392,6 +7392,13 @@ It verifies all `5*binom(4,2)=30` chart-to-nonincident-minor syzygies, so the
 four incident minors on a chart imply all ten pairwise minors after saturating
 by the chart denominator.
 
+The chart compiler now also profiles the five local systems:
+
+```text
+chart terms: 615,443,273,195,67
+central chart: 4 equations, 67 total terms, max degree 10
+```
+
 Replays:
 
 ```bash

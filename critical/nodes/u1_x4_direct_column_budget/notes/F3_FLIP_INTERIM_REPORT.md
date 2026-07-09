@@ -1753,7 +1753,10 @@ packet verifies the 20 chart syzygies showing that one unit row on a nonzero
 denominator chart forces all other unit rows.  A second abstract rank-one
 packet verifies the 30 chart syzygies showing that the four incident minors on
 a chart force the six nonincident minors after saturation by the chart
-denominator.
+denominator.  The chart profiles are uneven: chart `1` has five equations with
+`615` total terms and max degree `18`, while the central chart has four
+equations with `67` total terms and max degree `10`, making it the smallest
+next symbolic h=5 target.
 
 The certificate scaling frontier explains why the current finite-certificate
 format is not that maintainable family.  The banked n=128 Modal rows use
