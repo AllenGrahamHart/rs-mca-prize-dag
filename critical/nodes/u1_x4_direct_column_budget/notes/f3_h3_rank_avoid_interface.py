@@ -6,6 +6,10 @@ from __future__ import annotations
 from f3_h3_nondiagonal_highrow_budget import EXPECTED_ROWS as HIGH_ROWS
 from f3_h3_nondiagonal_lowrow_budget import C_RED, H3_ACT_C, EXPECTED_ROWS as LOW_ROWS
 from f3_h3_nondiagonal_lowrow_budget import witness_bound
+from f3_h3_exact_profile_bridge_budget import exact_profile_budget_summary
+from f3_h3_exact_profile_rank_capacity_guard import (
+    exact_profile_capacity_guard_summary,
+)
 from f3_h3_private_linear_bad_prime_guardrail import EXPECTED_RANKS as BAD_PRIME_RANKS
 from f3_h3_private_linear_lowrow_budget import EXPECTED_ROWS as PRIVATE_ROWS
 from f3_h3_private_linear_lowrow_budget import feasible_witness as private_feasible_witness
@@ -50,6 +54,26 @@ def main() -> None:
     if min_z != 16 or max_z != 10795:
         raise AssertionError((min_z, max_z))
 
+    exact_profile = exact_profile_budget_summary()
+    exact_capacity = exact_profile_capacity_guard_summary()
+    if exact_profile["exact_min"] != 33 or exact_profile["exact_max"] != 21421:
+        raise AssertionError(exact_profile)
+    if exact_capacity["degree_space_capacity_min"] != 1:
+        raise AssertionError(exact_capacity)
+    if exact_capacity["degree_space_capacity_max"] != 1:
+        raise AssertionError(exact_capacity)
+    if exact_capacity["collapsed_capacity_max"] != 0:
+        raise AssertionError(exact_capacity)
+    print("exact-profile degree-2 route")
+    print(
+        " official rows s=13..41 "
+        f"Z_exact={exact_profile['exact_min']}..{exact_profile['exact_max']} "
+        f"total_gain={exact_profile['gain_total']} "
+        f"one_image_degree_capacity={exact_capacity['degree_space_capacity_min']}.."
+        f"{exact_capacity['degree_space_capacity_max']} "
+        f"collapsed_capacity_max={exact_capacity['collapsed_capacity_max']}"
+    )
+
     private_min_z = None
     private_max_z = None
     print("private-linear route")
@@ -75,10 +99,11 @@ def main() -> None:
     if not (BAD_PRIME_RANKS[1009] < BAD_PRIME_RANKS[1013]):
         raise AssertionError(BAD_PRIME_RANKS)
 
-    print("official h=3 rows covered by both conditional arithmetic routes: s=13..41")
+    print("official h=3 rows covered by all three conditional arithmetic routes: s=13..41")
+    print("exact-profile degree-2 route is the strongest current conditional route")
     print("rank theorem must be finite-row minor nonvanishing, not only char-zero fullness")
     print(
-        "theorem interface: either non-diagonal rank-avoidance or private-linear "
+        "theorem interface: legacy degree-2, exact-profile degree-2, or private-linear "
         "rank-avoidance, plus the matching bridge, implies H3-ACT(16)"
     )
     print("H3_RANK_AVOID_INTERFACE_PASS")

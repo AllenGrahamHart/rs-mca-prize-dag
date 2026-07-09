@@ -7340,6 +7340,37 @@ H3_EXACT_PROFILE_RANK_CAPACITY_GUARD_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=3 rank-avoidance exact-profile interface
+
+Stage selected: update the theorem interface so future h=3 rank/bridge work
+targets the strongest banked arithmetic route.
+
+Changed files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RANK_AVOID_INTERFACE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+```
+
+The interface now lists three conditional routes: legacy degree-2
+`Z_budget=16..10795`, exact-profile degree-2 `Z_exact=33..21421`, and
+private-linear `Z_private=23..15267`.  The exact-profile route consumes the
+condition count `DA+6D(D-1)`, imports the exact-profile maximality replay, and
+imports the rank-capacity guard showing one-image degree capacity `1` and
+collapsed constant-ratio capacity `0` on all official rows.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+```
+
+Expected digest:
+
+```text
+H3_RANK_AVOID_INTERFACE_PASS
+```
+
 Residual next targets remain unchanged: finite-row-valid h=3 rank/minor
 avoidance plus the matching bridge assignment, symbolic h=5 norm-gate
 incompatibility, and h=8 non-antipodal support certification.

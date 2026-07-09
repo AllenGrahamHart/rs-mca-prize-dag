@@ -33,10 +33,11 @@ Failure criterion:
 
 ## Interface
 
-There are now two separately compiled arithmetic routes.  For each official
-row `n=2^s`, let `Z_budget(s)` be the improved non-diagonal bridge budget from
-the low/mid and high-row budget packets, and let `Z_private(s)` be the retuned
-private-linear budget.
+There are now three compiled arithmetic interfaces.  For each official row
+`n=2^s`, let `Z_budget(s)` be the improved non-diagonal bridge budget from the
+low/mid and high-row budget packets, let `Z_exact(s)` be the exact-profile
+degree-2 bridge budget, and let `Z_private(s)` be the retuned private-linear
+budget.
 
 The older diagonal bridge-budget table is retained as a legacy lower bound.
 The active non-diagonal table is replayed against it in
@@ -65,6 +66,40 @@ Then the already-banked arithmetic compiler gives:
 F3-RANK-AVOID + H3-BRIDGE-RANKCAP(Z_budget(s))
   => H3-ACT(16) on row s.
 ```
+
+The exact-profile degree-2 route is the strongest current conditional route.
+It uses the proved log-jet condition profile
+
+```text
+C_exact(A,D) = DA + 6D(D-1)
+```
+
+and needs the sharper finite-row rank theorem
+
+```text
+F3-RANK-AVOID-EXACT:
+  after the same degeneracy repairs, every repaired h=3 signature-curve image
+  family needed by the bridge has rank greater than
+  (DA + 6D(D-1)) times its consumed exact-profile capacity, for the printed
+  exact-profile witness parameters.
+
+H3-BRIDGE-RANKCAP-EXACT(Z_exact):
+  activated non-toral h=3 shape pairs can be assigned to repaired
+  signature-curve images with total consumed exact-profile capacity at most
+  Z_exact(s).
+```
+
+Then:
+
+```text
+F3-RANK-AVOID-EXACT + H3-BRIDGE-RANKCAP-EXACT(Z_exact(s))
+  => H3-ACT(16) on row s.
+```
+
+The exact-profile capacity guard verifies that on these official boxes a
+degree-space-full repaired image has capacity exactly `1`, while the
+constant-ratio collapsed model has capacity `0`.  Thus `Z_exact` buys more
+distinct rank-effective repaired images, not repeated copies of one image.
 
 The private-linear route is separate.  It may be used only with the
 private-linear degree cap `L_private=(A-1)+3n(B-1)` and the retuned
@@ -108,6 +143,8 @@ The minimum and maximum printed rank-capacity budgets are:
 ```text
 Z_budget(13) = 16
 Z_budget(41) = 10795
+Z_exact(13) = 33
+Z_exact(41) = 21421
 Z_private(13) = 23
 Z_private(41) = 15267
 ```
@@ -124,6 +161,11 @@ ceil(Z L / D) <= 16n,
 and that the already-banked `Z+1` row fails the `16n` target.  This packet does
 not rescan parameter space; the exhaustive scans remain in the low/high budget
 packets.
+
+For the exact-profile route, the replay verifies the pinned exact-profile
+witnesses, their `Z_exact+1` infeasibility under the analytic `B` cap, total
+gain `51451` over the active non-diagonal table, degree-space one-image
+capacity `1`, and collapsed constant-ratio capacity `0`.
 
 For the private-linear table it checks the pinned `Z_private` witnesses with
 
