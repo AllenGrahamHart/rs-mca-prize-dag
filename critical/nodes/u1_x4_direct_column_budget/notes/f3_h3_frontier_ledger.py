@@ -36,7 +36,7 @@ from f3_h3_exact_profile_bridge_budget import exact_profile_budget_summary
 from f3_h3_conic_chart_linear_relation_guard import linear_relation_guard_summary
 from f3_h3_conic_chart_largegap_pilot import largegap_pilot_summary
 from f3_h3_conic_binary_form_target import conic_binary_form_summary
-from f3_h3_conic_sixa_threshold_target import sixa_threshold_summary
+from f3_h3_conic_sixa_threshold_target import official_sixa_summary
 from f3_h3_exact_profile_rank_capacity_guard import exact_profile_capacity_guard_summary
 from f3_h3_exact_profile_rank_deficit_budget import rank_deficit_budget_summary
 from f3_h3_conic_chart_rank_minor_certificate import EXPECTED_DETERMINANT as TOY_CONIC_MINOR_DET
@@ -101,7 +101,7 @@ def official_budget_summary() -> dict[str, int]:
     conic_relation = linear_relation_guard_summary()
     conic_largegap = largegap_pilot_summary()
     conic_binary = conic_binary_form_summary()
-    conic_sixa = sixa_threshold_summary()
+    conic_sixa = official_sixa_summary()
     exact_capacity = exact_profile_capacity_guard_summary()
     exact_deficit = rank_deficit_budget_summary()
     private_deficit = private_rank_deficit_budget_summary()
@@ -142,8 +142,7 @@ def official_budget_summary() -> dict[str, int]:
         ],
         "conic_binary_span_rank": conic_binary["quadratic_span_rank"],
         "conic_binary_allowed_codimension": conic_binary["allowed_codimension"],
-        "conic_sixa_official_margin": conic_sixa["official_min_h_minus_6a"],
-        "conic_sixa_threshold_deficit": conic_sixa["threshold_deficit"],
+        "conic_sixa_official_margin": conic_sixa["min_margin"],
         "toy_conic_chart_rank": PINNED_DEGREE2_CONIC_CHART_RANK,
         "toy_conic_chart_minor_det": TOY_CONIC_MINOR_DET,
         "private_separation_margin": private_separation_summary()["min_pass_margin"],
@@ -354,9 +353,9 @@ def frontier_gates(
                 f"conic binary-form target has quadratic span rank "
                 f"{budgets['conic_binary_span_rank']} and allowed codimension "
                 f"{budgets['conic_binary_allowed_codimension']}; "
-                f"six-A conic target has official min H-6A margin "
-                f"{budgets['conic_sixa_official_margin']} and toy threshold "
-                f"deficit {budgets['conic_sixa_threshold_deficit']}; "
+                f"six-A conic guardrail has official min H-6A margin "
+                f"{budgets['conic_sixa_official_margin']} "
+                f"but six-A alone is not sufficient outside dense boxes; "
                 f"toy same-fiber conic chart has full rank "
                 f"{budgets['toy_conic_chart_rank']}=A B^3 "
                 f"with minor det {budgets['toy_conic_chart_minor_det']} mod 769; "

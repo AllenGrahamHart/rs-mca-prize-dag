@@ -10,6 +10,17 @@ from f3_h3_exact_profile_rank_deficit_budget import rank_deficit_budget_summary
 
 THRESHOLD_CASE = (5, 4, 30)
 EXPECTED_THRESHOLD_RANK = 320
+PASS_CASES = (
+    (2, 4, 12, 128, 128, 0),
+    (3, 4, 18, 192, 192, 0),
+    (4, 4, 24, 256, 256, 0),
+    (5, 4, 30, 320, 320, 0),
+)
+FAIL_CASES = (
+    (3, 5, 18, 346, 375, 29),
+    (4, 5, 24, 468, 500, 32),
+    (3, 6, 18, 459, 543, 84),
+)
 
 
 def official_sixa_summary() -> dict[str, int]:
@@ -30,13 +41,23 @@ def official_sixa_summary() -> dict[str, int]:
     }
 
 
-def sixa_threshold_summary() -> dict[str, int]:
-    a_count, b_count, h_order = THRESHOLD_CASE
+def checked_rank_case(case: tuple[int, int, int, int, int, int]) -> tuple[int, int, int]:
+    a_count, b_count, h_order, expected_rank, expected_target, expected_deficit = case
     rank, degree_dim, coefficient_dim = conic_chart_rank(a_count, b_count, h_order)
     target = min(degree_dim, coefficient_dim)
-    if rank != EXPECTED_THRESHOLD_RANK or rank != target:
-        raise AssertionError((rank, target, THRESHOLD_CASE))
+    deficit = target - rank
+    if (rank, target, deficit) != (
+        expected_rank,
+        expected_target,
+        expected_deficit,
+    ):
+        raise AssertionError((case, rank, target, deficit))
+    return rank, target, deficit
 
+
+def sixa_threshold_summary() -> dict[str, int]:
+    for case in (*PASS_CASES, *FAIL_CASES):
+        checked_rank_case(case)
     official = official_sixa_summary()
     deficit = rank_deficit_budget_summary()
     if official["min_margin"] != 20:
@@ -47,12 +68,15 @@ def sixa_threshold_summary() -> dict[str, int]:
         raise AssertionError(deficit)
 
     return {
-        "threshold_a": a_count,
-        "threshold_b": b_count,
-        "threshold_h": h_order,
-        "threshold_rank": rank,
-        "threshold_target": target,
-        "threshold_deficit": target - rank,
+        "threshold_a": THRESHOLD_CASE[0],
+        "threshold_b": THRESHOLD_CASE[1],
+        "threshold_h": THRESHOLD_CASE[2],
+        "threshold_rank": EXPECTED_THRESHOLD_RANK,
+        "threshold_target": EXPECTED_THRESHOLD_RANK,
+        "threshold_deficit": 0,
+        "pass_cases": len(PASS_CASES),
+        "fail_cases": len(FAIL_CASES),
+        "max_fail_deficit": max(case[-1] for case in FAIL_CASES),
         "official_rows": official["rows"],
         "official_min_h_minus_6a": official["min_margin"],
         "official_tight_s": official["tight_s"],
@@ -83,8 +107,13 @@ def main() -> None:
         f"B={summary['official_min_b']}..{summary['official_max_b']}"
     )
     print(
-        "sufficient theorem target: full conic binary-form rank whenever "
-        "H >= 6A on the repaired same-fiber conic charts"
+        "guardrail: H >= 6A alone is not a sufficient theorem outside the "
+        "official dense regime"
+    )
+    print(
+        f"bounded checks: pass_cases={summary['pass_cases']} "
+        f"fail_cases={summary['fail_cases']} "
+        f"max_fail_deficit={summary['max_fail_deficit']}"
     )
     print(f"official fallback codimension allowance={summary['allowed_deficit']}")
     print("H3_CONIC_SIXA_THRESHOLD_TARGET_PASS")

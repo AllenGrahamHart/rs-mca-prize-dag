@@ -216,9 +216,10 @@ same-fiber conic charts: the cleared columns span binary forms of degree
 `(A-1)+6H(B-1)`, and it is enough to prove codimension at most `1847` in that
 space.  In the pinned conic chart the four quadratics `P_U,P_V,P_W,Q` have
 span rank `3`, with the same-fiber relation as the sole linear relation.
-The sharpened six-A target is a stronger sufficient theorem: all official
-exact-profile rows satisfy `H-6A >= 20`, so full conic binary-form rank under
-the hypothesis `H >= 6A` would close the conic rank side with zero deficit.
+The six-A guardrail records that all official exact-profile rows satisfy
+`H-6A >= 20`, but it also checks that `H >= 6A` alone is not a sufficient
+full-rank theorem outside the official dense-box regime.  The target remains
+the official conic codimension bound `<=1847`.
 
 For the private-linear table it checks the pinned `Z_private` witnesses with
 

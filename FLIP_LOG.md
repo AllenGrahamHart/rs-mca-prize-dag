@@ -7567,10 +7567,10 @@ H3_RANK_AVOID_INTERFACE_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
 
-## 2026-07-09 h=3 conic six-A threshold target
+## 2026-07-09 h=3 conic six-A threshold guardrail
 
-Stage selected: extract a clean sufficient theorem from the conic binary-form
-target.
+Stage selected: test and repair the tempting six-A sufficient theorem from the
+conic binary-form target.
 
 Banked files:
 
@@ -7585,13 +7585,20 @@ All official exact-profile rows satisfy
 H - 6A >= 20,
 ```
 
-tight at `s=13`.  Therefore a theorem proving full conic binary-form rank on
-repaired same-fiber conic charts whenever `H >= 6A` would close the
-exact-profile conic rank side with zero deficit, stronger than the currently
-needed codimension allowance `1847`.
+tight at `s=13`.  The replay checks the pinned toy conic chart at the
+threshold `B=4` line, where `A=2,3,4,5` with `H=6A` all have zero deficit.
 
-The replay also checks the pinned toy conic chart at the threshold
-`A=5,B=4,H=30=6A`, where `rank=target=320`.
+It also refutes the unrestricted six-A theorem outside that slice:
+
+```text
+A=3, B=5, H=18: deficit=29
+A=4, B=5, H=24: deficit=32
+A=3, B=6, H=18: deficit=84
+```
+
+Thus `H>=6A` is useful official-row arithmetic, not a standalone rank theorem.
+The repaired target remains the official dense-box codimension bound
+`<=1847`.
 
 Replay:
 
