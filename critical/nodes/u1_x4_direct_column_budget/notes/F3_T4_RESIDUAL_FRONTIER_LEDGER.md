@@ -59,7 +59,10 @@ T4-H5-NORM-GATE: OPEN
   The central slice quadratic normal-form packet composes the graph only
   through degree two and verifies that the relaxed fixed equations are a
   triangular four-row system to quadratic order, with the same linear
-  determinant `81/256`.
+  determinant `81/256`.  The central slice cubic normal-form packet extends
+  this to degree three without expanding the global fixed numerators; the
+  four cubic fixed equations have only `4..7` terms and retain the same
+  linear determinant.
   The official scaling packet verifies that the
   finite `mu_n` action is free on the central chart for all official rows
   because `gcd(5,2^s)=1`; arbitrary ambient scaling is not allowed.

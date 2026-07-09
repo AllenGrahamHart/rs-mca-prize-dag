@@ -8062,6 +8062,39 @@ H5_CENTRAL_SLICE_QUADRATIC_NORMAL_FORM_PASS
 F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=5 central slice cubic normal form
+
+Stage selected: push the symbolic `T4-H5-NORM-GATE` central-chart obstruction
+one order past the quadratic normal form without expanding the full
+fixed-point numerators.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_CUBIC_NORMAL_FORM.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_cubic_normal_form.py
+```
+
+The compact graph-truncation compiler gives four fixed equations through
+degree three with `4..7` terms and the same invertible linear determinant
+`81/256`.  This confirms that the normalized central origin has no hidden
+branch through cubic order and gives the next central-chart attack a sparse
+local model.  It still does not prove global central-chart emptiness.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_cubic_normal_form.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H5_CENTRAL_SLICE_CUBIC_NORMAL_FORM_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```
+
 ## 2026-07-09 h=3 loose branch geometry
 
 Stage selected: sharpen the `LOOSE-A-RANK/NV` and `LOOSE-B-RANK/NV`
