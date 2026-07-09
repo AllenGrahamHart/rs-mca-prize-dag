@@ -7576,3 +7576,62 @@ Digest and timing:
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=45.74 maxrss=53264
 ```
+
+## 2026-07-09 h=5 central weighted slice
+
+Stage selected: tighten the central-chart h=5 norm-gate target without
+launching a new certificate sweep.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_WEIGHTED_SLICE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_weighted_slice.py
+```
+
+Key result:
+
+```text
+l5..l9 weights = 5,4,3,2,1
+bar_l5..bar_l9 weights = -5,-4,-3,-2,-1
+l5*bar_l5 has weight 0
+```
+
+For algebraic emptiness proofs on the central chart, any solution with
+`l5*bar_l5=1` can be scaled over an algebraic extension to the slice
+
+```text
+l5 = 1,
+bar_l5 = 1.
+```
+
+On this slice the four central graph equations remain linear in
+`bar_l9,bar_l8,bar_l7,bar_l6` and have profile:
+
+```text
+C15: 23 terms, degree 9
+C25: 19 terms, degree 8
+C35: 14 terms, degree 7
+C45: 11 terms, degree 6
+```
+
+The total central term count remains `67`, while the max graph degree drops
+from `10` to `9`.
+
+Caveat: this is an algebraic emptiness slice only.  It is not the official
+finite-row orbit quotient; official row counting still uses the finite
+`mu_n` action from the scaling-action packet.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_weighted_slice.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H5_CENTRAL_WEIGHTED_SLICE_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```

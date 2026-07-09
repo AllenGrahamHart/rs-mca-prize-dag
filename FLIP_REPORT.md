@@ -342,9 +342,12 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    graph after saturation by `l5*bar_l5`.  The fixed-point skeleton shows that
    direct expanded conjugation is too large: the pre-cancellation term bound is
    up to `1,255,488,415,957`.  The reciprocal system is homogeneous for the
-   natural root-scaling weights; all unit rows have weight zero.  On official
-   rows the central chart has a free finite `mu_n` scaling action because
-   `bar_l5` has weight `-5` and `gcd(5,2^s)=1`.
+   natural root-scaling weights; all unit rows have weight zero.  The central
+   weighted-slice compiler now permits the algebraic emptiness slice
+   `l5=bar_l5=1`, reducing the central graph max degree from `10` to `9`
+   without treating it as an official row quotient.  On official rows the
+   central chart has a free finite `mu_n` scaling action because `bar_l5` has
+   weight `-5` and `gcd(5,2^s)=1`.
 17. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.

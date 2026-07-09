@@ -17,6 +17,9 @@ from f3_h5_central_chart_graph import central_graph_summary as h5_central_graph_
 from f3_h5_central_fixedpoint_skeleton import (
     fixedpoint_skeleton_summary as h5_central_fixedpoint_summary,
 )
+from f3_h5_central_weighted_slice import (
+    central_slice_summary as h5_central_slice_summary,
+)
 from f3_h5_chart_recovery_compiler import (
     chart_recovery_summary as h5_chart_recovery_summary,
 )
@@ -92,6 +95,7 @@ def h5_summary() -> dict[str, int]:
     unit_norm = h5_unit_norm_summary()
     chart_recovery = h5_chart_recovery_summary()
     central_graph = h5_central_graph_summary()
+    central_slice = h5_central_slice_summary()
     central_fixedpoint = h5_central_fixedpoint_summary()
     unit_propagation = h5_unit_propagation_summary()
     minor_propagation = h5_minor_propagation_summary()
@@ -145,6 +149,10 @@ def h5_summary() -> dict[str, int]:
         "central_graph_rows": central_graph["graph_rows"],
         "central_graph_terms": central_graph["total_graph_terms"],
         "central_graph_max_degree": central_graph["max_graph_degree"],
+        "central_slice_rows": central_slice["slice_rows"],
+        "central_slice_terms": central_slice["total_slice_terms"],
+        "central_slice_max_degree": central_slice["max_slice_degree"],
+        "central_slice_action_rows": central_slice["action_rows_checked"],
         "central_fixedpoint_max_terms": central_fixedpoint[
             "max_pre_cancellation_terms"
         ],
@@ -276,6 +284,7 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"chart terms={h5['min_chart_total_terms']}.."
                 f"{h5['max_chart_total_terms']}; "
                 f"central graph rows={h5['central_graph_rows']}; "
+                f"central slice max degree={h5['central_slice_max_degree']}; "
                 f"fixed-point pre-cancel max={h5['central_fixedpoint_max_terms']}; "
                 f"weighted rows={h5['weighted_pairwise_rows']}+"
                 f"{h5['weighted_unit_rows']}; "
@@ -350,6 +359,10 @@ def main() -> None:
         f"central_graph_rows={h5['central_graph_rows']} "
         f"central_graph_terms={h5['central_graph_terms']} "
         f"central_graph_max_degree={h5['central_graph_max_degree']} "
+        f"central_slice_rows={h5['central_slice_rows']} "
+        f"central_slice_terms={h5['central_slice_terms']} "
+        f"central_slice_max_degree={h5['central_slice_max_degree']} "
+        f"central_slice_action_rows={h5['central_slice_action_rows']} "
         f"central_fixedpoint_precancel_max={h5['central_fixedpoint_max_terms']} "
         f"central_fixedpoint_max_degree={h5['central_fixedpoint_max_degree']} "
         f"weighted_pairwise_rows={h5['weighted_pairwise_rows']} "

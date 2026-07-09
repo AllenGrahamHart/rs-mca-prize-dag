@@ -1810,7 +1810,10 @@ directly is not viable locally: the pre-cancellation term bounds run from
 `67` terms.  The weighted-homogeneity packet verifies the natural root-scaling
 grading: all pairwise minors are homogeneous, and the Hermitian unit rows have
 weight zero.  The central chart should therefore be attacked in a weighted
-chart or quotient, not as a dense affine expansion.  The official scaling
+chart or quotient, not as a dense affine expansion.  The central weighted-slice
+compiler makes one such algebraic reduction precise: for emptiness proofs, the
+central chart may be sliced at `l5=bar_l5=1`; the four graph equations still
+have `67` terms, but max degree drops from `10` to `9`.  The official scaling
 packet records the finite-row caveat: only scaling by `mu_n` preserves the
 support condition, and this action is free on the central chart since
 `bar_l5 != 0` has weight `-5` and `gcd(5,2^s)=1`.

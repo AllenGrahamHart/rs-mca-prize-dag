@@ -49,7 +49,11 @@ T4-H5-NORM-GATE: OPEN
   `1,255,488,415,957`.  The weighted-homogeneity packet verifies the natural
   root-scaling grading: all ten pairwise minors are homogeneous and all four
   unit rows have weight zero, so the next central-chart attack should preserve
-  this weighted quotient.  The official scaling packet verifies that the
+  this weighted quotient.  The central weighted-slice packet verifies that
+  algebraic emptiness proofs may work on the slice `l5=bar_l5=1`, where the
+  four central graph equations still have `67` terms but max degree drops from
+  `10` to `9`; this is not an official row orbit quotient.  The official
+  scaling packet verifies that the
   finite `mu_n` action is free on the central chart for all official rows
   because `gcd(5,2^s)=1`; arbitrary ambient scaling is not allowed.
   Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
@@ -92,6 +96,7 @@ h5_structural_reduction
   + h=5 central chart graph
   + h=5 central fixed-point skeleton
   + h=5 weighted homogeneity
+  + h=5 central weighted slice
   + h=5 official scaling action
   + h=5 rank-one minor propagation
   + h=5 rank-one unit propagation
