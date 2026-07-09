@@ -204,3 +204,21 @@ loss — if a per-condition loss factor L is proved, the ladder gives
 max/mean <= L^t and ANY L < 2^{(1.05e12)/t} ~ 2^{15} = 32768 wins:
 a per-condition loss of 32768x SUFFICES). (3) L4 constants. The
 per-condition formulation is the campaign's sharpest posing yet.
+
+## 10 — 2026-07-09 (post-close correction): CATCH #6, self-caught
+
+The empty-extremes lemma's official-row application overclaimed:
+Newton inversion is char-limited (needs b < char q), so the empty
+bands have width min(t, q-1) ~ 2^31 per side at official rows, NOT
+t ~ 2^36. The toy verification rows all had q > n and could not
+expose the bound. Corrected in dag.json and the note within the hour
+of banking. Two standing consequences for all future mid-band work:
+(a) Frobenius redundancy p_{qj} = p_j^q — pose condition systems on
+the q-free index set; (b) any p -> e dictionary at indices >= q is
+invalid as stated (gap-divisor framings must handle Frobenius
+explicitly). Tolerance ~2^{1.05e12} and the per-condition-loss target
+~2^15 are UNCHANGED (never used the band width). Six catches today,
+four against my own same-day work — the protocol's value in one
+number. Session hard-closes here; session 2 opens on the
+per-condition-loss lemma with exact machinery and the char-q
+discipline now on the record.
