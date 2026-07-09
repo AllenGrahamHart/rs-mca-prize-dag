@@ -27,6 +27,9 @@ from f3_h3_private_linear_lowrow_budget import EXPECTED_ROWS as PRIVATE_ROWS
 from f3_h3_private_linear_official_separation_guard import (
     separation_summary as private_separation_summary,
 )
+from f3_h3_private_linear_rank_deficit_budget import (
+    private_rank_deficit_budget_summary,
+)
 from f3_h3_rank_effective_bridge import EXPECTED_CAPACITIES, PINNED_RANKS, rank_capacity
 from f3_h3_exact_profile_bridge_budget import exact_profile_budget_summary
 from f3_h3_conic_chart_linear_relation_guard import linear_relation_guard_summary
@@ -84,6 +87,7 @@ def official_budget_summary() -> dict[str, int]:
     conic_relation = linear_relation_guard_summary()
     exact_capacity = exact_profile_capacity_guard_summary()
     exact_deficit = rank_deficit_budget_summary()
+    private_deficit = private_rank_deficit_budget_summary()
     exponents = [row.s for row in rows]
     private_exponents = [row.s for row in private]
     expected = list(range(13, 42))
@@ -109,6 +113,8 @@ def official_budget_summary() -> dict[str, int]:
         "exact_profile_degree_capacity_max": exact_capacity["degree_space_capacity_max"],
         "exact_profile_collapsed_capacity_max": exact_capacity["collapsed_capacity_max"],
         "exact_profile_min_allowed_deficit": exact_deficit["min_allowed_deficit"],
+        "private_min_allowed_deficit": private_deficit["min_allowed_deficit"],
+        "private_deficit_tight_s": private_deficit["tight_s"],
         "conic_relation_gcd_checks": conic_relation["pairwise_gcd_checks"],
         "conic_relation_max_gcd_degree": conic_relation["max_gcd_degree"],
         "toy_conic_chart_rank": PINNED_DEGREE2_CONIC_CHART_RANK,
@@ -303,7 +309,10 @@ def frontier_gates(
             (
                 f"private-linear budgets cover s={budgets['first_s']}..{budgets['last_s']} "
                 f"with Z={budgets['z_private_min']}..{budgets['z_private_max']}; "
-                f"official separation margin={budgets['private_separation_margin']}"
+                f"official separation margin={budgets['private_separation_margin']}; "
+                f"bounded rank-deficit tolerance is "
+                f"{budgets['private_min_allowed_deficit']} "
+                f"(tight at s={budgets['private_deficit_tight_s']})"
             ),
             "prove finite-row minor nonvanishing on the three-parameter private-linear normal-form image, plus the matching bridge",
         ),
@@ -370,7 +379,8 @@ def main() -> None:
         f"{budgets['z_exact_profile_max']} "
         f"(legacy_diag={budgets['diagonal_z_budget_min']}..{budgets['diagonal_z_budget_max']}) "
         f"Z_private={budgets['z_private_min']}..{budgets['z_private_max']} "
-        f"private_sep_margin={budgets['private_separation_margin']}"
+        f"private_sep_margin={budgets['private_separation_margin']} "
+        f"private_deficit_min={budgets['private_min_allowed_deficit']}"
     )
     print(
         "rank-effective capacities: "

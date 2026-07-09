@@ -60,7 +60,10 @@ H3-BRIDGE-RANKCAP: OPEN
 F3-PRIVATE-LINEAR-RANK-AVOID: OPEN/ALTERNATE
   The retuned private-linear arithmetic covers s=13..41 with
   Z_private=23..15267.  Every official private-linear passing witness has
-  max(A,D,B-1)<H with margin at least 7904.
+  max(A,D,B-1)<H with margin at least 7904.  The private-linear rank-deficit
+  budget shows that a bounded-deficit theorem with
+  `rank >= A+3H(B-1)-Delta` and `Delta <= 25` would already suffice for all
+  official private-linear boxes; the tight row is `s=16`.
   Residual: prove finite-row minor nonvanishing on the private-linear
   three-parameter normal-form image, plus the matching private-linear bridge.
 

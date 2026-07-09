@@ -7662,6 +7662,60 @@ H8_X83_ORBIT_CERTIFIER_SKELETON_PASS
 F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=3 private-linear rank-deficit budget
+
+Stage selected: tighten the private-linear alternate rank theorem interface
+without claiming a new rank-minor theorem.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_RANK_DEFICIT_BUDGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_rank_deficit_budget.py
+```
+
+The retuned private-linear `Z_private` boxes do not require literal
+degree-space fullness.  For one repaired private-linear image, with
+
+```text
+degree_dim = A + 3H(B-1),
+```
+
+a lower bound
+
+```text
+rank >= degree_dim - Delta
+```
+
+is sufficient whenever `Delta <= degree_dim - 13D(A+D) - 1`.  Across the
+official rows, the minimum tolerance is only
+
+```text
+Delta <= 25,
+```
+
+tight at `s=16`, where the one-image rank room is `26`.
+
+This keeps the private-linear route honest: it has a larger bridge budget than
+the degree-2 route, but a much stricter rank-deficit tolerance than the
+exact-profile degree-2 tolerance `1847`.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_rank_deficit_budget.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_PRIVATE_LINEAR_RANK_DEFICIT_BUDGET_PASS
+H3_RANK_AVOID_INTERFACE_PASS
+H3_FRONTIER_LEDGER_PASS
+```
+
 ## 2026-07-09 h=3 conic-chart official-ratio deficit pilot
 
 Stage selected: test whether the bounded-deficit route can be treated as

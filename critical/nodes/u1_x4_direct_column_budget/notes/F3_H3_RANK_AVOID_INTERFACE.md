@@ -127,6 +127,18 @@ F3-PRIVATE-LINEAR-RANK-AVOID
   => H3-ACT(16) on row s.
 ```
 
+The private-linear route has a bounded-deficit variant.  The official
+`Z_private` boxes only need
+
+```text
+rank >= A + 3H(B-1) - Delta
+```
+
+with `Delta <= 25` on every row.  The tight row is `s=16`, where the one-image
+rank room is only `26`.  This is a much stricter deficit tolerance than the
+exact-profile degree-2 tolerance `1847`, but it avoids requiring literal
+degree-space fullness.
+
 Together with `F3_H3_PER_ROW_ACCIDENT_STEPANOV_POSE.md`, `H3-ACT(16)` gives
 the h=3 contribution bound needed for the F3 floor for all official rows.
 
@@ -209,6 +221,13 @@ ceil(Z_private L_private / D) <= 16n,
 
 and verifies the stored `Z_private+1` bound is already above `16n`.  The
 maximality scans remain in `F3_H3_PRIVATE_LINEAR_LOWROW_BUDGET.md`.
+The private-linear rank-deficit budget records the weaker sufficient rank form:
+
+```text
+rank >= (L_private+1) - Delta
+```
+
+with `Delta <= 25` for every official row.
 
 The finite-field qualifier is essential.  `F3_H3_PRIVATE_LINEAR_BAD_PRIME_GUARDRAIL.md`
 exhibits an integer private-linear coefficient matrix with full degree-space
@@ -219,11 +238,13 @@ row prime; characteristic-zero fullness alone is not enough.
 ## Replay
 
 ```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_rank_deficit_budget.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
 ```
 
 Expected digest:
 
 ```text
+H3_PRIVATE_LINEAR_RANK_DEFICIT_BUDGET_PASS
 H3_RANK_AVOID_INTERFACE_PASS
 ```
