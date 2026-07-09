@@ -318,7 +318,9 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    remaining branch.  Eliminating the shared support product `delta` now gives
    three pairwise delta-free compatibility equations plus the central
    `l5=delta*bar_l5` compatibility row, four equations total with max total
-   degree `10`.
+   degree `10`.  The base-free version is the full rank-one compatibility
+   system: ten pairwise equations among `E1,E2,E3,E4` and the central row,
+   again with max total degree `10`.
 17. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.

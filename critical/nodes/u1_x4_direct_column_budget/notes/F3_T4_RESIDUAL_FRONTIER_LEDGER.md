@@ -24,7 +24,8 @@ T4-H5-NORM-GATE: OPEN
   D_j E_j = -D_j l_j + P_j(l5,...,l9), with max low-key conjugate bound
   1,104,676,577,280.  The reciprocal compatibility compiler eliminates the
   shared support product delta to give four delta-free compatibility
-  equations of max total degree 10.
+  equations of max total degree 10; the base-free reciprocal system records
+  all ten pairwise rank-one equations, also of max total degree 10.
   Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
   or replace the selected finite rows with a scalable certificate family.
 
@@ -57,6 +58,7 @@ h5_structural_reduction
   + h=5 certificate coverage/scaling audits
   + h=5 x83 triangular norm-gate compiler
   + h=5 reciprocal compatibility compiler
+  + h=5 base-free reciprocal system
   => T4-H5-NORM-GATE remains the only h=5 blocker
 
 h6/h7 bonus sweep replay

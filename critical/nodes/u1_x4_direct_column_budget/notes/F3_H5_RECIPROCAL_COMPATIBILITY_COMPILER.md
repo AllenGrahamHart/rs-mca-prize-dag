@@ -83,6 +83,10 @@ So the symbolic h=5 norm-gate obstruction can be attacked as three explicit
 pairwise reciprocal compatibility equations, one central compatibility
 equation, and one remaining equation that recovers `delta`.
 
+The companion `F3_H5_BASEFREE_RECIPROCAL_SYSTEM.md` removes the choice of the
+`E4` base chart.  It records all ten pairwise rank-one equations among
+`E1,E2,E3,E4` and the central `l5` row.
+
 This still does not prove the h=5 branch empty.  It gives the next algebraic
 surface that a norm-gate incompatibility proof or certificate family should
 target.
