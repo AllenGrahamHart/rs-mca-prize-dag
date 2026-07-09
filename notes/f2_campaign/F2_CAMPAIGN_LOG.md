@@ -1168,3 +1168,15 @@ ROWS with p <= n^{3/2}/8, end-to-end. Then the k = 2 breakage study
 = the minimal instance of the summit's true obstacle. The campaign's
 first END-TO-END theorem target with no unverified dependency of any
 kind is now on the table.
+
+## 64 — 2026-07-10: CATCH #18 — the theatre's exact instance list
+
+Log #63's "(7681,512) even stronger" was WRONG: exact arithmetic
+gives L_bound = 59,585 > 2^15 there (p/n^{3/2} = 0.66 > 3/8), and
+7681 is the SMALLEST prime = 1 mod 512 — the n = 512 theatre is
+EMPTY. Corrected regime: p <= (3/8) n^{3/2}; verified instances:
+(257, 128) [L <= 15,949 = 2^13.96] and (12289, 2048) [the NTT prime;
+L <= 11,587 = 2^13.5] — the model theatre's stages are the
+FFT/NTT-prime rows, one per few octaves. Eighteenth catch, corrected
+same-cycle by the arithmetic gate. The theatre program stands with
+the corrected instance list.
