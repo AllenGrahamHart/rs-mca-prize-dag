@@ -65,7 +65,7 @@ LOOSE-B-RANK/NV.
 ```
 
 This does not prove `H3-VALUE-INJECTIVE`; it records the alternate payment
-route for arguments that can tolerate the quadratic scale branch.
+route for arguments that can tolerate the paid scale branch.
 
 ## Loose Rank-Minor Sample Box
 

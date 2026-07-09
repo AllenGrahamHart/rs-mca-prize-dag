@@ -66,6 +66,8 @@ If the row field has no primitive cube root of unity, this branch is empty.
 The separate scale-count compiler also gives the trivial count bound
 `K_1 <= floor((n-1)/3)`, so scale collision pairs are already bounded by
 `binom(floor((n-1)/3),2)` in count/payment routes.
+The companion h=2 affine-coset cap improves this scale count from `n=2^19`
+onward, but does not change the strict scale-injectivity target.
 
 ## Role in h=3
 

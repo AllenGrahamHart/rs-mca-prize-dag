@@ -40,8 +40,8 @@ For every official row `n=2^s`, `13 <= s <= 41`, this pair bound is below
 ## Role in h=3
 
 This does not prove the `lambda=1` scale part of `H3-VALUE-INJECTIVE`.
-Instead, it shows that the exceptional scale branch is already quadratically
-bounded and can be separated in count/payment routes.  The generic
+Instead, it shows that the exceptional scale branch is already bounded below
+the cubic floor and can be separated in count/payment routes.  The generic
 `lambda != 1` same-lambda branch remains the main injectivity target.
 
 The companion `F3_H3_REPEAT_LAMBDA_ONE_SCALE_H2_CAP.md` improves the count

@@ -79,6 +79,10 @@ for the number of admissible `lambda=1` scale orbits, hence
 `binom(floor((n-1)/3),2)` same-lambda scale collision pairs in count/payment
 routes.
 
+The companion `F3_H3_REPEAT_LAMBDA_ONE_SCALE_H2_CAP.md` improves this payment
+on large official rows by applying the h=2 affine-coset pair corollary to
+`1+x` and `1+omega*x`; this first beats the trivial count at `n=2^19`.
+
 ## Replay
 
 Standalone:
