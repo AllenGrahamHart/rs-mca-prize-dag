@@ -769,3 +769,17 @@ scales (F2_TOWER_P2WEAK_PASS). Official: 2^{28.7} << 2^36 — nine bits
 of room. With log #41's Part 1, the campaign's first COMPLETE
 unconditional root-count theorem stands. The chain: s-sparse
 extension -> edge lemma -> crux assembly -> L5.
+
+## 43 — 2026-07-10: s-SPARSE EXTENSION PROVED (twelfth satellite) — the
+## theorem splits along the struct/extras line by construction
+
+Z(g) <= M(g) + tower for every non-collapsed s-sparse g: the
+merge-cancellation case (all class-coefficients vanish on a coset) is
+EXACTLY a binomial factor X^m - c^m | g = a full structured coset —
+struct and extras separate inside the proof itself. Verified on 2574
+random sets (3 scales x s = 4/6/8), zero violations. With logs
+#41-42 (complete trinomial theorem) and #40 (application-shape span
+~12 sqrt n): the EDGE LEMMA is now this theorem instantiated at the
+edge divisor shapes (p-multiple AP + window exponents, span proof =
+AP-normalize + two-form Dirichlet + parity descent — all proved
+pieces). Chain: edge lemma write-up -> crux assembly -> L5.
