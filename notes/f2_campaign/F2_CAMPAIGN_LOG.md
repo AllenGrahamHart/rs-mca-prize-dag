@@ -352,3 +352,19 @@ crux faces upgraded; effective condition count for L5 pinned exactly.
 The Pro brief's FACE B should be read with this upgrade (brief
 pre-dates it by one entry; the target file remains authoritative).
 Campaign ledger: 7 PROVED satellites + 2 anchors, 15 digests.
+
+## 19 — 2026-07-10: reformulation closure — the frames round-trip
+
+Probed the unit-group face: ell*_S * ell*_{D\S} = 1 - X^n (exact,
+one line); t-null <=> ell*_S is a q-th power in U_1/U^q mod X^{t+1},
+an elementary abelian q-group of dimension d = #q-free indices <= t.
+RESULT: the frame ROUND-TRIPS — the group coordinates are exactly the
+q-free power sums (via our own log-derivative identity), so the
+subset-product-in-q-group census IS the q-free Vandermonde subset-sum
+census. No new leverage; banked as a documented closure so future
+sessions do not re-walk the loop. The reformulation space around the
+crux is now closed under: fiber-counting <-> gap-divisor <->
+excess-intersection <-> zero-prefix Q <-> unit-group q-th-powers —
+five faces, one irreducible object. The crux is confirmed
+kernel-hard; the open lanes are the two proof faces (Fulton; Q
+machinery), the delegation brief, and nothing else.
