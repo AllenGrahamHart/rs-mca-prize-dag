@@ -1049,3 +1049,28 @@ field Littlewood-Offord — both quarantine-disciplined citations);
 Nothing else. Every piece is either proved (ours), published (two
 citations to verify), or arithmetic. Fifty-seven entries; the summit
 has a route with quantified margins.
+
+## 58 — 2026-07-10: citation verifications — Schoen exponents VERIFIED;
+## F_p Halasz existence VERIFIED with named sources
+
+Web verification (quarantine discipline, verify-not-assume):
+(1) SCHOEN (Combinatorica 35 (2015) 695-701, "New bounds in
+Balog-Szemeredi-Gowers theorem"): E(A) = kappa|A|^3 => exists A' with
+|A'| >> kappa|A| and |A'-A'| << kappa^{-4}|A'| — exponents (e1, e2) =
+(1, 4) EXACTLY as the energy-dichotomy table assumed; absolute
+constants unprinted in the record consulted, covered by the table's
+conservative row (c = 2^10). L4's exponent half is DONE.
+(2) F_p HALASZ / LITTLEWOOD-OFFORD: the finite-field anti-
+concentration theory with additive-energy hypotheses exists in the
+published literature — the Maples lineage (arXiv:1012.2372,
+Singularity of Random Matrices over Finite Fields) and successors
+(Spielman-Teng-type over F_p, energy form E_{2k}: solutions of
++-a_{i1}+-...+-a_{i2k} = 0 mod p) — the exact input shape the Halasz
+bridge consumes. Remaining: extract the specific theorem's constants
+(paper read, queued). The campaign's two external inputs: one
+exponent-verified, one existence-verified with named sources. The
+bridge's write-up can proceed with symbolic LO constants and the
+extraction as its final numeric step.
+
+Sources: link.springer.com/article/10.1007/s00493-014-3077-4;
+arxiv.org/pdf/1012.2372
