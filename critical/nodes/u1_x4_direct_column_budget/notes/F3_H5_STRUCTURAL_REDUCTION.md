@@ -38,8 +38,11 @@ Every finite-row h=5 minimal trade is a p-specific x83 norm-gate event.
 The remaining h=5 task is now exactly one of:
 
 1. prove a norm-gate incompatibility theorem excluding the h=5 x83
-   p-specific branch for all `p = 1 mod n`, `p >= n^2`; or
-2. produce a maintainable certificate family that verifies that branch is empty
+   p-specific branch for all `p = 1 mod n`, `p >= n^2`;
+2. prove the weaker row-wise saturated central-slice zero-dimensionality
+   condition from `F3_H5_CENTRAL_FINITE_SCHEME_PAYMENT.md`, which would pay
+   the central branch by `19840464 n < n^3`; or
+3. produce a maintainable certificate family that verifies that branch is empty
    for every official row.
 
 The current row certificates already prove selected zero instances.  They do

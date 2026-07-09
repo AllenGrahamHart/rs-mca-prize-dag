@@ -11,6 +11,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from f3_h5_central_finite_scheme_payment import finite_scheme_payment_summary
+
 
 ROOT = Path(__file__).resolve().parents[4]
 
@@ -65,11 +67,19 @@ def main() -> None:
     if h & (h - 1) == 0:
         raise AssertionError("h=5 incorrectly classified as a power of two")
 
+    finite_payment = finite_scheme_payment_summary()
+    if finite_payment["degree_product"] != 19840464:
+        raise AssertionError(finite_payment)
+
     print("proved inputs:")
     for node_id in REQUIRED_PROVED:
         print(f"  {node_id}: PROVED")
     print("h=5 is not a power of two: char-zero dyadic branch is empty")
     print("x83 leaves only p-specific norm-gate events at finite rows")
+    print(
+        "central finite-scheme payment route: "
+        f"K={finite_payment['degree_product']} gives K*n<n^3 on official rows"
+    )
     print("H5_STRUCTURAL_REDUCTION_PASS")
 
 
