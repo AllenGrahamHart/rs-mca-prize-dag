@@ -473,3 +473,22 @@ banking. R5 status: s = 3 rung proved with its exact template
 still needs the algebraic route (sqrt q astronomical there, as
 known). Next rung: s = 4 via the same template or the Schur-vanishing
 formulation.
+
+## 27 — 2026-07-10: adversarial max EXHAUSTIVE — s-scale truth confirmed
+
+F2_R5_ADVMAX_PASS: over 7.2M exhaustively enumerated gcd-1 3-sparse
+instances (a1 normalized): Zmax = 3 at (17,16), 4 at (31,30), 4 at
+(97,32) — s to s+1, with the sqrt(q) tail PROVABLY ABSENT at these
+rows (the counting bound permitted ~13 at (97,32); exhaustive truth
+is 4). Witnesses banked: (1,2,1,6), (1,5,2,9), (1,14,2,9). READ (per
+pre-registration): the s-scale conjecture is adversarially supported
+— C(3) <= 4 exhaustively; C(4) <= 5, C(6) <= 5, C(8) <= 4 sampled.
+The R5 target theorem is now maximally supported in the form:
+NON-COLLAPSED s-SPARSE POLYNOMIALS HAVE <= C(s) ~ s ROOTS IN mu_n —
+a q-blind statement demanding an algebraic proof, which is precisely
+what the official shape needs (sqrt-q counting is structurally
+insufficient there). Proof targets, ordered: C(3) <= 4 exactly (the
+base case, three exhaustive rows as test oracles + witnesses for the
+extremal structure); then the s-induction via the squaring recursion
+(E/O split — sparsity doubles per level, but C(s) ~ s absorbs it if
+the recursion is entered with the collapse channel already factored).
