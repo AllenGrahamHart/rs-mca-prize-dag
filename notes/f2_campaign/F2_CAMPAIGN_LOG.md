@@ -23,3 +23,34 @@ routing seed). Kill criterion pre-registered IN the script header:
 gen_max_r > R* = 32 at ALL THREE scales at the common sub-balance cell
 b = 3 => F2_L1_FALSIFIER_FIRED (T-FLOOR path). Coset-union context
 count fixed to real disjointness enumeration before launch.
+
+## 2 — 2026-07-09: L1 COMPLETE — falsifier NOT fired; L2 pre-registered
+
+F2_L1_FOURIER_SPECTRUM_PASS, 14/14 cells, all gates exact. Results:
+falsifier maxima 3.8/6.6/8.4 vs R* = 32 (4-8x under the kill line);
+top generic arcs = the MAXIMAL-kappa chords at every cell; generic
+median r ~ 0.05-0.3 (bulk flat); kappa_max tracks n^2/q exactly-ish
+(10.6->4, 5.3->3, 4->4); inversion gate reproduced the banked b=6
+accident family (160 witnesses, digit-exact) and 0 extras at every
+sub-balance cell; b=4 N0 = coset-union count (8) at all scales.
+Banked: u2c statement addendum + dag_commit + artifact/site.
+
+L2 PRE-REGISTRATION (next move, three parts):
+  L2a CHORD-COUNT LEMMA (prove first — standard machinery): kappa(c) =
+      #{pairs {x,y} in mu_n : x+y = c} obeys the multiplicative-
+      character formula with main term ~ n^2/2q and Jacobi-sum error
+      (|J| <= sqrt(q)); exact verifier vs direct counts at the L1 rows
+      + printed error constants. Official-row reading must be
+      beta-normalized (generated field) per catch #11.
+  L2b ARC BOUND VIA MULTIPLICITY FACTORIZATION: generic phase multiset
+      = (n-2kappa) singletons + kappa doubles; bound |E_b| as a
+      function of kappa and the flat scale. EXPERIMENT FIRST: per-kappa
+      stratified max |E_b| at the L1 rows to fit the functional form
+      before proving anything.
+  L2c ROUTING: inverse-symmetric chords (c in the x + x^{-1} Chebyshev
+      locus) route to the PROVED coset/dihedral classification;
+      non-symmetric high-kappa chords shown thin via L2a.
+L3 REDESIGN (from the L1 datum): absolute inversion is lossy — L3 goes
+via Parseval (sum_lambda |E_b|^2 = q^t sum_s N(s)^2): census power =
+the SP-shaped second moment (v13 identity family), connecting the F2
+lane to the same object as F5 P9. One mechanism, two floors.
