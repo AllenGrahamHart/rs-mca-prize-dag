@@ -222,3 +222,30 @@ four against my own same-day work — the protocol's value in one
 number. Session hard-closes here; session 2 opens on the
 per-condition-loss lemma with exact machinery and the char-q
 discipline now on the record.
+
+## 11 — 2026-07-09 (data coda): per-condition calibration — the lemma
+## finds its correct form
+
+F2_M1_PERCOND_CALIBRATION_PASS (7 rows, exact integer DP, measurement
+only — no claims banked). RAW pre-registered read returned FALSE, and
+the failure structure is the finding: L_obs ~ 1.0 (flat contraction,
+far under the 2^15 target) at EVERY bulk cell — (31,30): 1.0/1.0/
+1.017/0.819; (61,30): 1.0/1.004/0.991; (97,32): 1.0/1.009/1.309;
+(193,32): 1.0/0.988 — while every super-32 value occurs exactly where
+the census hits its STRUCTURED floor and stops contracting: (113,16)
+and (257,16) terminate at 6 = C(4,2) mu_4-coset pairs (containing the
+mu_8-cosets) with L_obs = q = "forced blocks are condition-immune";
+(17,16) tail = 2 = the mu_8-cosets at t >= 4. The deviation from flat
+IS the floor's structured census, nothing else, at every cell.
+
+SHARPENED LEMMA FORM (session-2 target, now with empirical support at
+every measured cell): per-condition EXTRAS contraction —
+  (N^(j)(0) - struct^(j)) * q / (N^(j-1)(0) - struct^(j-1)) <= L
+with L observed at 1.0-1.3. Proving ANY L <= 2^15 on the extras flips
+the floor via the tolerance chain (log #9). The structured column
+struct^(j) is exact combinatorics (coset-union census; giant-block
+closure PROVED). Machinery: exact DP (the char-q and Frobenius
+disciplines from catch #6 apply for j >= q only — irrelevant at j <=
+J here). Day-1 truly closes at 10 green digests, 4 proved satellites,
+2 anchors, 6 catches, and the heart posed in extras-contraction form
+with support at every cell measured.
