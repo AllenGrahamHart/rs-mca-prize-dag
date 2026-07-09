@@ -7454,6 +7454,41 @@ H3_RC_RANK_GENERIC_OPEN_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=3 frontier use-chain alignment
+
+Stage selected: align the h=3 frontier note with the exact-profile route now
+banked in the replayed compilers.
+
+Changed file:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_FRONTIER_LEDGER.md
+```
+
+The `Use In The F3 Brief` section now lists the exact-profile chain first:
+
+```text
+RC-RED-PROFILE + F3-RANK-AVOID-EXACT
+  + H3-BRIDGE-RANKCAP-EXACT(Z_exact)
+  => H3-ACT(16).
+```
+
+It keeps the legacy `RC-RED(13)` degree-2 and private-linear routes as weaker
+or alternate interfaces.  This is not a new theorem; it prevents future h=3
+work from targeting the stale lower budget.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digest:
+
+```text
+H3_FRONTIER_LEDGER_PASS
+```
+
 Residual next targets remain unchanged: finite-row-valid h=3 rank/minor
 avoidance plus the matching bridge assignment, symbolic h=5 norm-gate
 incompatibility, and h=8 non-antipodal support certification.

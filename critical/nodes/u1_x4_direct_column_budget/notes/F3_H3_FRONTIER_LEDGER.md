@@ -79,7 +79,21 @@ H3-REPEAT-BOUNDARY-STAR: OPEN FRONTIER
 
 ## Use In The F3 Brief
 
-This ledger keeps T1/T2 honest:
+This ledger keeps T1/T2 honest.  The strongest current degree-2 route is the
+exact-profile route:
+
+```text
+RC-RED-PROFILE + F3-RANK-AVOID-EXACT
+  + H3-BRIDGE-RANKCAP-EXACT(Z_exact)
+  => H3-ACT(16)
+  => T3 < n^3 on all official rows.
+```
+
+Here `Z_exact=33..21421`, and the bridge must spend those units on distinct
+rank-effective repaired images because the official exact-profile boxes have
+one-image degree-space capacity `1`.
+
+The legacy degree-2 route remains valid but weaker:
 
 ```text
 RC-RED(13) + F3-RANK-AVOID + H3-BRIDGE-RANKCAP
