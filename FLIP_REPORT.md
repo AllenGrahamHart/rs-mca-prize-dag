@@ -269,7 +269,10 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    numerator factors of total degrees `15,13,13`.  The mixed generic/scale
    branch has six membership maps with `S_total=10`; orienting the generic edge
    as source gives three hit factors of total degree `9`, hence mixed
-   hit-product total degree at most `27`.  Thus the slope gate splits into
+   hit-product total degree at most `27`.  In the reverse orientation, the
+   exact identity is `Q_{c^2}=+/- product_j(c*x*M-target_increment_j)` for
+   `c^3=1`, so the scale-source case is the same coordinate-overlap target
+   after relabelling cube-root constants.  Thus the slope gate splits into
    `H3-SLOPE-GG-HIT` and `H3-SLOPE-MIXED-HIT`; scale-scale is impossible for
    lambda-distinct pairs.
    A full-degree-space shortcut for LP4 affine factors is false already in a

@@ -150,8 +150,10 @@ def repeat_slope_summary() -> dict[str, int]:
     expected = {
         "generic_product_total": 41,
         "mixed_product_total": 27,
+        "mixed_reverse_product_total": 27,
         "generic_rows": 3,
         "mixed_rows": 3,
+        "mixed_reverse_rows": 3,
     }
     if summary != expected:
         raise AssertionError(summary)
@@ -231,7 +233,8 @@ def frontier_gates(
                 f"h2 scale cap improves from 2^{repeat_count['scale_h2_first_better_s']}; "
                 f"same-lambda J quotient total={repeat_value['j_difference_total']}; "
                 f"slope factorization totals are generic={repeat_slope['generic_product_total']} "
-                f"and mixed={repeat_slope['mixed_product_total']}"
+                f"and mixed={repeat_slope['mixed_product_total']} "
+                f"(reverse={repeat_slope['mixed_reverse_product_total']})"
             ),
             "prove or replace the strict same-lambda, slope, and loose-triangle branch gates needed by the star route",
         ),

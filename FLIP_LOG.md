@@ -7555,13 +7555,18 @@ generic-generic:
 mixed generic/scale:
   Q_i = +/- (source_increment_i^3 - x^3*N^3)
   product total degree = 27
+
+mixed scale/generic:
+  Q_{c^2} = +/- product_j(c*x*M - target_increment_j), c^3=1
+  product total degree = 27
 ```
 
 Thus `H3-SLOPE-GG-HIT` and `H3-SLOPE-MIXED-HIT` are exactly
-coordinate-intersection targets after denominator clearing.  The important
-negative information is that the `lambda=1` scale count does not by itself pay
-the mixed slope branch; a proof still needs forced generic/scale overlap or a
-separate residue payment for mixed misses.
+coordinate-intersection targets after denominator clearing, in both mixed
+orientations after cube-root relabelling.  The important negative information
+is that the `lambda=1` scale count does not by itself pay the mixed slope
+branch; a proof still needs forced generic/scale overlap or a separate residue
+payment for mixed misses.
 
 Focused replay:
 
@@ -7728,4 +7733,51 @@ Expected digests:
 ```text
 H5_CENTRAL_SLICE_TANGENT_PASS
 F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```
+
+## 2026-07-09 h=3 mixed slope reverse factorization
+
+Stage selected: sharpen the `H3-SLOPE-MIXED-HIT` interface without launching a
+finite search.
+
+Updated files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_EQUALITY_FACTORIZATION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_equality_factorization.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FRONTIER_LEDGER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+```
+
+New exact reverse-orientation identity:
+
+```text
+for c^3=1:
+  Q_{c^2} = +/- product_j(c*x*M(y) - target_increment_j)
+```
+
+The square map permutes the three cube-root labels, so the scale-source /
+generic-target orientation is the same coordinate-overlap condition as the
+generic-source / scale-target orientation, after relabelling.  The product
+total remains `27`.
+
+Conclusion: this does not prove `H3-SLOPE-MIXED-HIT`, but it removes an
+orientation caveat from the mixed slope target.  Any future mixed-branch proof
+can target coordinate overlap without caring which edge was oriented as the
+source.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_equality_factorization.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_REPEAT_SLOPE_EQUALITY_FACTORIZATION_PASS
+H3_REPEAT_FRONTIER_LEDGER_PASS
+H3_FRONTIER_LEDGER_PASS
 ```

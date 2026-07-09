@@ -810,10 +810,13 @@ Q_i = +/- (source_increment_i^3 - x^3*N^3),
 ```
 
 with total product degree `27`.  Consequently the slope gates are precisely
-coordinate-intersection targets after denominator clearing.  In particular,
-the `lambda=1` scale count alone does not pay `H3-SLOPE-MIXED-HIT`; a proof
-still needs a mechanism forcing overlap with each admissible generic edge, or
-a separate residue payment for all mixed misses.
+coordinate-intersection targets after denominator clearing.  The reverse
+scale/generic orientation has the same exact form after cube-root relabelling:
+for `c^3=1`, `Q_{c^2}=+/- product_j(c*x*M-target_increment_j)`.  In
+particular, the `lambda=1` scale count alone does not pay
+`H3-SLOPE-MIXED-HIT`; a proof still needs a mechanism forcing overlap with
+each admissible generic edge, or a separate residue payment for all mixed
+misses.
 
 The pairwise-coreless compiler splits the other taxonomy branch.  A
 pairwise-intersecting coreless obstruction on at most four active 3-edges

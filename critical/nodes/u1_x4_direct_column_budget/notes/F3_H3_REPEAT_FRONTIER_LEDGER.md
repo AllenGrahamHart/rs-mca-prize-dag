@@ -58,6 +58,10 @@ generic-generic:
 
 mixed generic/scale:
   Q_i = +/- (source_increment_i^3 - x^3*N^3),
+  product total degree = 27;
+
+mixed scale/generic:
+  Q_{c^2} = +/- product_j (c*x*M - target_increment_j), c^3=1,
   product total degree = 27.
 ```
 

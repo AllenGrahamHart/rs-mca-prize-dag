@@ -22,6 +22,7 @@ from f3_h3_repeat_slope_branch_assembly import BRANCHES as SLOPE_BRANCHES
 from f3_h3_repeat_slope_equality_factorization import (
     verify_generic_factorization,
     verify_mixed_factorization,
+    verify_scale_source_mixed_factorization,
 )
 from f3_h3_repeat_same_lambda_j_invariant import (
     verify_j_separates_orbits,
@@ -126,11 +127,14 @@ def paid_ledgers(n: int) -> dict[str, int]:
 def slope_factorization_summary() -> dict[str, int]:
     generic = verify_generic_factorization()
     mixed = verify_mixed_factorization()
+    mixed_reverse = verify_scale_source_mixed_factorization()
     return {
         "generic_product_total": sum(generic.values()),
         "mixed_product_total": sum(mixed.values()),
+        "mixed_reverse_product_total": sum(mixed_reverse.values()),
         "generic_rows": len(generic),
         "mixed_rows": len(mixed),
+        "mixed_reverse_rows": len(mixed_reverse),
     }
 
 
@@ -195,8 +199,10 @@ def main() -> None:
     if slope_factors != {
         "generic_product_total": 41,
         "mixed_product_total": 27,
+        "mixed_reverse_product_total": 27,
         "generic_rows": 3,
         "mixed_rows": 3,
+        "mixed_reverse_rows": 3,
     }:
         raise AssertionError(slope_factors)
     print(
@@ -204,7 +210,9 @@ def main() -> None:
         f"generic_rows={slope_factors['generic_rows']} "
         f"generic_product_total={slope_factors['generic_product_total']} "
         f"mixed_rows={slope_factors['mixed_rows']} "
-        f"mixed_product_total={slope_factors['mixed_product_total']}"
+        f"mixed_product_total={slope_factors['mixed_product_total']} "
+        f"mixed_reverse_rows={slope_factors['mixed_reverse_rows']} "
+        f"mixed_reverse_product_total={slope_factors['mixed_reverse_product_total']}"
     )
 
     minor_rows = rank_minor_rows()

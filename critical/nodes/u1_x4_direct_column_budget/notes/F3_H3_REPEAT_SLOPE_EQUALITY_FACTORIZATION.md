@@ -63,6 +63,18 @@ Again, vanishing is exactly coordinate overlap between the generic edge and the
 scale edge.  Each mixed factor has total degree `9`; the product bound remains
 `27`.
 
+The reverse orientation has the same interpretation.  If the scale source
+coordinate is `1+c x` with `c^3=1` and the generic target increments are
+`R_j(b,y)`, then
+
+```text
+Q_{c^2} = +/- product_j (c x M(y) - R_j(b,y)).
+```
+
+The square map permutes the three cube-root labels, so this is the same
+coordinate-overlap condition with labels relabelled.  The reverse-orientation
+product bound is also `27`.
+
 ## Role in h=3
 
 This does not prove
