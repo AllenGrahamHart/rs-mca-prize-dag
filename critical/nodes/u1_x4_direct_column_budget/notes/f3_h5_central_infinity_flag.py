@@ -4,8 +4,6 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from math import prod
-
 import sympy as sp
 
 from f3_h5_central_slice_quadratic_normal_form import (
@@ -215,7 +213,9 @@ def sparse_graph_summary(graph: tuple[sp.Expr, ...]) -> dict[str, int | tuple[in
     max_coeff_bits = 0
     for equation in equations:
         poly = sp.Poly(equation, *variables, domain=sp.QQ)
-        denominator_lcm = prod({coefficient.q for coefficient in poly.coeffs()})
+        denominator_lcm = 1
+        for coefficient in poly.coeffs():
+            denominator_lcm = sp.ilcm(denominator_lcm, coefficient.q)
         integral = sp.Poly(denominator_lcm * equation, *variables, domain=sp.QQ)
         term_counts.append(len(integral.terms()))
         degrees.append(integral.total_degree())
