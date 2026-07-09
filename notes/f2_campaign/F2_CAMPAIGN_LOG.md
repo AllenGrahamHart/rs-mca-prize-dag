@@ -830,3 +830,24 @@ mathematics: bound that census (the consistency rows are the same
 functional at every core — a structured rank/character question, the
 final boss in its sharpest form yet). Chain: consistency census ->
 crux assembly -> L5.
+
+## 47 — 2026-07-10: CORE-FREE KILL + inverse-complement identity;
+## catch #13 (vacuous-test harness bug)
+
+Three results. (1) CATCH #13: the identity test printed REFUTED on an
+EMPTY test set (the 160 toy accidents all have empty structured
+cores — no with-core cases exist at toys); non-vacuity assertions are
+now mandatory harness law. (2) CORE-FREE KILL (proved corollary of
+the determination lemma): at t >= rho, an extras block with no
+structured core has determined residual trunc_rho(1^{-1}) = 1 — no
+roots — so ZERO core-free extras at the edge officially; the toy 160
+exist precisely because toys are under-determined (rho = 6 > t = 2).
+(3) THE INVERSE-COMPLEMENT IDENTITY (proved algebraically, no
+empirical rescue needed): r_B = trunc_rho(B^{-1}) (triangular solve,
+no p-slots below rho < p) and B^{-1} == ell*_{D \ core} mod X^n (the
+proved product identity) — the determined residual IS the truncated
+complement locator. THE CENSUS now covers only WITH-CORE extras:
+consistency rows = the core's 2-power part-size subset-sums avoiding
+p-free window positions (2-powers summing to p-multiples — sparse
+arithmetic), with the repeated-size cancellation caveat for the
+write-up. Chain: with-core census write-up -> crux assembly -> L5.
