@@ -39,6 +39,8 @@ F3-RANK-AVOID / RC-NV: OPEN
   a constructive exact-profile floor gives
   `Z_4096_floor=2112..1370944 = 64 * Z_exact`; this is not maximal, but its
   pinned witnesses use at most `576927` ppm of the `4096n` activation target.
+  The same pinned boxes raise the bounded rank-deficit tolerance from
+  `Delta <= 1847` to `Delta <= 2899`.
   The exact-profile rank-capacity guard verifies that, on these official
   boxes, a degree-space-full repaired image has capacity exactly `1` and the
   constant-ratio collapsed model has capacity `0`; the larger budget therefore
@@ -161,7 +163,8 @@ and the largest uniform integer accepted by this arithmetic compiler is
 stronger `H3-ACT(16)` until a separate retuning packet replaces them.
 One conservative retuning packet is now banked: the exact-profile arithmetic
 accepts `64 * Z_exact` under `H3-ACT(4096)`, giving
-`Z_4096_floor=2112..1370944` for a future bridge theorem.
+`Z_4096_floor=2112..1370944` for a future bridge theorem.  On these retuned
+boxes, a bounded conic rank-deficit theorem with `Delta <= 2899` would suffice.
 
 The legacy degree-2 route remains valid but weaker:
 

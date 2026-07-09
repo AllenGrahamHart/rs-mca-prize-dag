@@ -53,6 +53,8 @@ factor-two first-row margin, and `H3-ACT(8191)` is the largest uniform integer
 accepted by this compiler.
 A conservative exact-profile retuning is now banked for the weaker target:
 `Z_exact_4096_floor=2112..1370944 = 64 * Z_exact`, with no maximality claim.
+On these pinned boxes, the bounded conic rank-deficit tolerance improves from
+`Delta <= 1847` to `Delta <= 2899`.
 
 Second, T4 has been reduced to the h=8 non-antipodal x83 branch.  The current
 remaining certificate scale is

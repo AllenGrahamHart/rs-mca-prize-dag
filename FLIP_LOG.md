@@ -8001,6 +8001,40 @@ Expected digest:
 H3_EXACT_PROFILE_4096_BUDGET_FLOOR_PASS
 ```
 
+## 2026-07-09 h=3 exact-profile 4096 rank-deficit budget
+
+Stage selected: propagate the new exact-profile `H3-ACT(4096)` boxes into the
+rank-deficit interface.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_4096_RANK_DEFICIT_BUDGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_4096_rank_deficit_budget.py
+```
+
+The pinned `64 * Z_exact` boxes improve the uniform conic rank-deficit
+tolerance:
+
+```text
+old exact-profile boxes:     Delta <= 1847
+H3-ACT(4096) floor boxes:    Delta <= 2899
+```
+
+The tight row is still `s=13`; the new first-row room is `2900`.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_4096_rank_deficit_budget.py
+```
+
+Expected digest:
+
+```text
+H3_EXACT_PROFILE_4096_RANK_DEFICIT_BUDGET_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without

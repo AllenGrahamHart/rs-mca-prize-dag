@@ -185,6 +185,9 @@ def residual_data():
         "h3_exact_4096_z_min": budgets["z_exact_4096_min"],
         "h3_exact_4096_z_max": budgets["z_exact_4096_max"],
         "h3_exact_min_allowed_deficit": budgets["exact_profile_min_allowed_deficit"],
+        "h3_exact_4096_min_allowed_deficit": budgets[
+            "exact_4096_min_allowed_deficit"
+        ],
         "h3_private_min_allowed_deficit": budgets["private_min_allowed_deficit"],
         "h3_repeat_strict_gates": len(repeat),
         "h3_repeat_count_route_open_gates": repeat_count["open_gates"],
@@ -223,6 +226,7 @@ def residual_data():
         "h3_exact_4096_z_min": 2112,
         "h3_exact_4096_z_max": 1370944,
         "h3_exact_min_allowed_deficit": 1847,
+        "h3_exact_4096_min_allowed_deficit": 2899,
         "h3_private_min_allowed_deficit": 25,
         "h3_repeat_strict_gates": 7,
         "h3_repeat_count_route_open_gates": 6,
@@ -272,6 +276,8 @@ def main() -> None:
         f"Z_exact_4096_floor={summary['h3_exact_4096_z_min']}.."
         f"{summary['h3_exact_4096_z_max']} "
         f"exact_deficit_min={summary['h3_exact_min_allowed_deficit']} "
+        f"exact_4096_deficit_min="
+        f"{summary['h3_exact_4096_min_allowed_deficit']} "
         f"private_deficit_min={summary['h3_private_min_allowed_deficit']} "
         f"repeat_strict_gates={summary['h3_repeat_strict_gates']} "
         f"repeat_count_route_open={summary['h3_repeat_count_route_open_gates']} "
