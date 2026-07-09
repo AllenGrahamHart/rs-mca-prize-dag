@@ -9181,3 +9181,38 @@ Expected digest:
 ```text
 H8_UNIT_NORM_RECIPROCAL_GATE_PASS
 ```
+
+## 2026-07-09 h=8 base-free reciprocal system
+
+Stage selected: remove the arbitrary `E7` base choice from the h=8 reciprocal
+compatibility surface.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_BASEFREE_RECIPROCAL_SYSTEM.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_basefree_reciprocal_system.py
+```
+
+The eight reciprocal slots are
+
+```text
+(P_1, D_1 bar_c15), ..., (P_7, D_7 bar_c9), (c8, bar_c8).
+```
+
+The compiler records all `28` pairwise rank-one equations.  They remain linear
+in the bar variables, with maximum total degree `16` and maximum term count
+`255`.  This gives future h=8 chart attacks the same base-free interface that
+was useful in h=5.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_basefree_reciprocal_system.py
+```
+
+Expected digest:
+
+```text
+H8_BASEFREE_RECIPROCAL_SYSTEM_PASS
+```

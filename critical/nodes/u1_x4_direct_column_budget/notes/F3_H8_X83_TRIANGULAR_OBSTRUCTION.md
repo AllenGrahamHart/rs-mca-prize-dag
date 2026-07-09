@@ -82,6 +82,8 @@ product `delta`, producing seven delta-free compatibility equations on the
 same high-half graph.
 The companion `F3_H8_UNIT_NORM_RECIPROCAL_GATE.md` adds the further official
 unit-root constraint on `delta`.
+The companion `F3_H8_BASEFREE_RECIPROCAL_SYSTEM.md` records the full rank-one
+compatibility surface among all reciprocal slots.
 
 ## Replay
 

@@ -89,6 +89,9 @@ bar variables and with maximum total degree `16`.
 The companion `F3_H8_UNIT_NORM_RECIPROCAL_GATE.md` adds the official-row
 constraint `delta*bar_delta=1`, producing seven Hermitian equations on the
 same top/bar variables.
+The companion `F3_H8_BASEFREE_RECIPROCAL_SYSTEM.md` records all twenty-eight
+pairwise rank-one equations, so future chart-local attacks do not have to use
+`E7` as the base row.
 
 ## Role In h=8
 

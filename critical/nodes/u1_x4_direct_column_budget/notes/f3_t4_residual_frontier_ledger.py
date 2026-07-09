@@ -83,6 +83,7 @@ from f3_h8_residual_frontier_audit import (
 from f3_h8_nonantipodal_aperiodic import count_summary as h8_aperiodic_summary
 from f3_h8_rotation_orbit_compiler import EXPECTED as H8_ROTATION_EXPECTED
 from f3_h8_support_universe_compiler import EXPECTED as H8_SUPPORT_EXPECTED
+from f3_h8_basefree_reciprocal_system import basefree_summary as h8_basefree_summary
 from f3_h8_reciprocal_compatibility_compiler import (
     reciprocal_compatibility_summary as h8_reciprocal_summary,
 )
@@ -347,6 +348,7 @@ def h8_summary() -> dict[str, int]:
     parity = h8_parity_summary()
     triangular = h8_triangular_summary()
     reciprocal = h8_reciprocal_summary()
+    basefree = h8_basefree_summary()
     unit_norm = h8_unit_norm_summary()
     if (
         aperiodic["nonantipodal_rotation_orbits"]
@@ -377,6 +379,9 @@ def h8_summary() -> dict[str, int]:
         "reciprocal_max_terms": reciprocal["max_compatibility_terms"],
         "reciprocal_max_total_degree": reciprocal["max_compatibility_total_degree"],
         "reciprocal_central_terms": reciprocal["central_terms"],
+        "basefree_pairwise_equations": basefree["pairwise_equations"],
+        "basefree_max_terms": basefree["max_terms"],
+        "basefree_max_total_degree": basefree["max_total_degree"],
         "unit_norm_equations": unit_norm["equations"],
         "unit_norm_max_terms": unit_norm["max_terms"],
         "unit_norm_max_total_degree": unit_norm["max_total_degree"],
@@ -463,6 +468,8 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"first_key_degree={h8['triangular_first_key_total_degree']}; "
                 f"reciprocal delta-free rows={h8['reciprocal_delta_free_rows']} "
                 f"max_degree={h8['reciprocal_max_total_degree']}; "
+                f"basefree pairwise={h8['basefree_pairwise_equations']} "
+                f"max_degree={h8['basefree_max_total_degree']}; "
                 f"unit-norm rows={h8['unit_norm_equations']} "
                 f"max_degree={h8['unit_norm_max_total_degree']}"
             ),
@@ -593,6 +600,12 @@ def main() -> None:
         f"max_terms={h8['reciprocal_max_terms']} "
         f"max_total_degree={h8['reciprocal_max_total_degree']} "
         f"central_terms={h8['reciprocal_central_terms']}"
+    )
+    print(
+        "h=8 base-free reciprocal system: "
+        f"pairwise_equations={h8['basefree_pairwise_equations']} "
+        f"max_terms={h8['basefree_max_terms']} "
+        f"max_total_degree={h8['basefree_max_total_degree']}"
     )
     print(
         "h=8 unit-norm reciprocal gate: "
