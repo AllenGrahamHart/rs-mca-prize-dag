@@ -21,6 +21,7 @@ from f3_h8_n64_x83_obstruction_interface import (
     locator_from_exponents,
     root_table,
 )
+from f3_h8_x83_parity_reduction import has_high_odd_locator_term
 
 
 N = 64
@@ -121,6 +122,7 @@ def scan() -> dict[str, int | tuple[int, ...] | None]:
     processed = 0
     nonantipodal = 0
     canonical = 0
+    high_odd_zero_skipped = 0
     first_obstruction_zero = 0
     full_zero = 0
     first_full_zero: tuple[int, ...] | None = None
@@ -137,6 +139,10 @@ def scan() -> dict[str, int | tuple[int, ...] | None]:
             if is_rotation_canonical(support):
                 canonical += 1
                 locator = locator_from_exponents(support, vals, p)
+                if not has_high_odd_locator_term(locator):
+                    high_odd_zero_skipped += 1
+                    rank += 1
+                    continue
                 _, obstructions, lam = forced_obstructions(locator, p, 8)
                 first_obstruction_zero += int(obstructions[-1] == 0)
                 if all(v == 0 for v in obstructions) and lam != 0 and is_square_mod(lam, p):
@@ -157,6 +163,7 @@ def scan() -> dict[str, int | tuple[int, ...] | None]:
         "processed": processed,
         "nonantipodal": nonantipodal,
         "canonical": canonical,
+        "high_odd_zero_skipped": high_odd_zero_skipped,
         "first_obstruction_zero": first_obstruction_zero,
         "full_zero": full_zero,
         "first_full_zero": first_full_zero,

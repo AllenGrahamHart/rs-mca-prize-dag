@@ -50,12 +50,16 @@ For each support, it applies the already-proved filters:
 1. skip antipodal supports;
 2. compute the lexicographically minimal anchored rotation among the 16 anchors
    in the support;
-3. test x83 only when the current support is that canonical representative.
+3. test x83 only when the current support is that canonical representative;
+4. skip non-antipodal canonical supports whose high odd locator coefficients
+   `c15,c13,c11,c9` all vanish.
 
 For non-antipodal supports this is sound because
 `F3_H8_NONANTIPODAL_APERIODIC.md` proves every non-antipodal rotation orbit has
 size `64`, and `F3_H8_X83_SPLIT_ROTATION_EQUIVARIANCE.md` proves the x83 split
-commutes with root scaling up to side swap.
+commutes with root scaling up to side swap.  The high-odd skip is sound by
+`F3_H8_X83_PARITY_REDUCTION.md`: if a full-zero support has all high odd
+locator coefficients zero, then it is antipodal.
 
 The resulting global target is therefore exactly:
 

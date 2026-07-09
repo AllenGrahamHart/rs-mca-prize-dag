@@ -7618,6 +7618,50 @@ H5_STRUCTURAL_REDUCTION_PASS
 F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=8 x83 parity reduction
+
+Stage selected: reduce the remaining h=8 non-antipodal certifier target
+without launching broad support enumeration.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_X83_PARITY_REDUCTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_parity_reduction.py
+```
+
+The symbolic forced-square-root recurrence proves that if the high odd locator
+coefficients
+
+```text
+c15,c13,c11,c9
+```
+
+all vanish, then the odd coefficients of the forced degree-8 square root
+vanish.  If the support is x83 full-zero, the low odd obstruction equations
+then force `c7,c5,c3,c1` to vanish as well.  The locator is even, so its root
+set is antipodal.  Therefore any non-antipodal x83 full-zero support must have
+at least one nonzero high odd locator coefficient.
+
+The h=8 orbit-certifier skeleton now consumes this as a safe skip and emits
+`high_odd_zero_skipped` in its partial certificate record.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_parity_reduction.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_orbit_certifier_skeleton.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H8_X83_PARITY_REDUCTION_PASS
+H8_X83_ORBIT_CERTIFIER_SKELETON_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```
+
 ## 2026-07-09 h=3 conic-chart official-ratio deficit pilot
 
 Stage selected: test whether the bounded-deficit route can be treated as

@@ -96,6 +96,10 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   are complete with full_zero=0, but they only cover local shells around the
   paid antipodal branch.  The non-antipodal aperiodicity packet proves there
   is no separate periodic non-antipodal branch.
+  The x83 parity-reduction packet proves that any non-antipodal x83 full-zero
+  support must have a nonzero high odd locator coefficient among
+  `c15,c13,c11,c9`; if those four coefficients vanish, full-zero forces the
+  locator even and hence the support is antipodal.
   Residual: certify 122,131,731,640,320 anchored non-antipodal 16-supports
   (7,633,233,227,520 aperiodic rotation orbits), or build a sharded signature
   join avoiding the blind left table.
@@ -142,6 +146,7 @@ h8 antipodal quotient
   + support-to-trade reduction
   + split rotation equivariance
   + non-antipodal aperiodicity
+  + x83 parity reduction
   + residual frontier/support-universe audits
   => T4-H8-N64-NONANTIPODAL-X83 remains the only h=8 blocker
 ```
