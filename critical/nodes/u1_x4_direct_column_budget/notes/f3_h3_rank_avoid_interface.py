@@ -11,6 +11,7 @@ from f3_h3_exact_profile_rank_capacity_guard import (
     exact_profile_capacity_guard_summary,
 )
 from f3_h3_exact_profile_rank_deficit_budget import rank_deficit_budget_summary
+from f3_h3_conic_chart_linear_relation_guard import linear_relation_guard_summary
 from f3_h3_private_linear_bad_prime_guardrail import EXPECTED_RANKS as BAD_PRIME_RANKS
 from f3_h3_private_linear_lowrow_budget import EXPECTED_ROWS as PRIVATE_ROWS
 from f3_h3_private_linear_lowrow_budget import feasible_witness as private_feasible_witness
@@ -58,6 +59,7 @@ def main() -> None:
     exact_profile = exact_profile_budget_summary()
     exact_capacity = exact_profile_capacity_guard_summary()
     exact_deficit = rank_deficit_budget_summary()
+    conic_relation = linear_relation_guard_summary()
     if exact_profile["exact_min"] != 33 or exact_profile["exact_max"] != 21421:
         raise AssertionError(exact_profile)
     if exact_capacity["degree_space_capacity_min"] != 1:
@@ -77,6 +79,13 @@ def main() -> None:
         f"{exact_capacity['degree_space_capacity_max']} "
         f"collapsed_capacity_max={exact_capacity['collapsed_capacity_max']} "
         f"allowed_rank_deficit_min={exact_deficit['min_allowed_deficit']}"
+    )
+    print(
+        "conic-chart relation guard: "
+        f"pairwise_gcd_checks={conic_relation['pairwise_gcd_checks']} "
+        f"max_gcd_degree={conic_relation['max_gcd_degree']} "
+        f"degree_guard_failures={conic_relation['degree_guard_failures']} "
+        f"pilot_failures={conic_relation['pilot_failures']}"
     )
 
     private_min_z = None

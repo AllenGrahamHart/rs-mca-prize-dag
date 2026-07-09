@@ -8575,3 +8575,44 @@ Expected digests:
 H5_CENTRAL_INFINITY_FLAG_PASS
 F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 ```
+
+## 2026-07-09 h=3 conic-chart linear-relation guard
+
+Stage selected: repair a tempting false rank-proof route discovered while
+probing conic-chart rank deficits.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_LINEAR_RELATION_GUARD.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_linear_relation_guard.py
+```
+
+The pinned same-fiber conic chart has pairwise coprime chart polynomials, but
+the cleared numerators satisfy
+
+```text
+P_U + P_V + P_W + a Q = 0.
+```
+
+Thus a separated-divisor or valuation argument alone cannot prove
+conic-chart degree-space fullness.  This explains why the exact-profile
+rank target is correctly stated as a finite-row lower-bound/minor theorem
+above `C_exact`, or as a bounded-deficit theorem with `Delta <= 1847`, rather
+than as automatic full rank for all conic charts.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_linear_relation_guard.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_CONIC_CHART_LINEAR_RELATION_GUARD_PASS
+H3_RANK_AVOID_INTERFACE_PASS
+H3_FRONTIER_LEDGER_PASS
+```

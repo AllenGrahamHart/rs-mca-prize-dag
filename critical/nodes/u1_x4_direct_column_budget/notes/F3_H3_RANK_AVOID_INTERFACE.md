@@ -173,6 +173,17 @@ box.  The exact-profile theorem obligation is therefore intentionally stated
 as a finite-row rank/minor nonvanishing inequality above the exact condition
 count, not as a blanket degree-space-fullness theorem.
 
+The conic-chart linear-relation guard explains one source of this caution:
+even when the chart numerators and common denominator are pairwise coprime, the
+same-fiber identity
+
+```text
+P_U + P_V + P_W + aQ = 0
+```
+
+holds.  Thus separated divisor arguments alone cannot prove the required rank
+lower bound.
+
 The exact-profile deficit budget records the weaker sufficient form.  If a
 future theorem proves
 
