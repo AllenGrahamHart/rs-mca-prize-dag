@@ -28,6 +28,8 @@ T4-H5-NORM-GATE: OPEN
   all ten pairwise rank-one equations, also of max total degree 10.  The
   reciprocal open-cover packet excludes the all-zero high-coefficient chart on
   official rows because x -> x^10 has fibers of size at most 2 in mu_{2^s}.
+  The unit-norm reciprocal gate adds four Hermitian equations using
+  delta*bar_delta=1, with max total degree 18.
   Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
   or replace the selected finite rows with a scalable certificate family.
 
@@ -63,6 +65,7 @@ h5_structural_reduction
   + h=5 reciprocal compatibility compiler
   + h=5 base-free reciprocal system
   + h=5 reciprocal open-cover exclusion
+  + h=5 unit-norm reciprocal gate
   => T4-H5-NORM-GATE remains the only h=5 blocker
 
 h6/h7 bonus sweep replay

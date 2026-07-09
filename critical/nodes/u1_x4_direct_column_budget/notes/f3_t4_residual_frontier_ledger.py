@@ -17,6 +17,7 @@ from f3_h5_reciprocal_compatibility_compiler import (
     compatibility_summary as h5_reciprocal_summary,
 )
 from f3_h5_reciprocal_open_cover import open_cover_summary as h5_open_cover_summary
+from f3_h5_unit_norm_reciprocal_gate import unit_norm_summary as h5_unit_norm_summary
 from f3_h5_x83_triangular_norm_gate import key_bounds as h5_x83_key_bounds
 from f3_h6_h8_bonus_sweep_replay import (
     FULL_ZERO_ROWS,
@@ -69,6 +70,7 @@ def h5_summary() -> dict[str, int]:
     reciprocal = h5_reciprocal_summary()
     basefree = h5_basefree_summary()
     open_cover = h5_open_cover_summary()
+    unit_norm = h5_unit_norm_summary()
     by_n = {row["n"]: row for row in rows}
     expected_by_n = {
         32: (402, 65537, 0, 68304222),
@@ -101,6 +103,8 @@ def h5_summary() -> dict[str, int]:
         "basefree_reciprocal_equations": basefree["pairwise_equations"],
         "reciprocal_charts": open_cover["charts"],
         "official_max_x10_fiber": open_cover["official_max_x10_fiber"],
+        "unit_norm_equations": unit_norm["equations"],
+        "max_unit_norm_degree": unit_norm["max_total_degree"],
         "max_reciprocal_compatibility_degree": reciprocal[
             "max_compatibility_total_degree"
         ],
@@ -207,7 +211,7 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"n64={h5['n64_certified_primes']} selected/contiguous rows; "
                 f"x83 low-key bound={h5['max_x83_low_key_bound']}; "
                 f"base-free reciprocal equations={h5['basefree_reciprocal_equations']}; "
-                f"charts={h5['reciprocal_charts']}"
+                f"unit-norm equations={h5['unit_norm_equations']}"
             ),
             "prove symbolic p-specific x83 norm-gate incompatibility or replace selected rows by a scalable certificate family",
         ),
@@ -266,6 +270,8 @@ def main() -> None:
         f"basefree_equations={h5['basefree_reciprocal_equations']} "
         f"charts={h5['reciprocal_charts']} "
         f"max_x10_fiber={h5['official_max_x10_fiber']} "
+        f"unit_norm_equations={h5['unit_norm_equations']} "
+        f"unit_norm_max_degree={h5['max_unit_norm_degree']} "
         f"max_total_degree={h5['max_basefree_reciprocal_degree']}"
     )
     print(f"h=8 n32 right-side probes audited: {h8['n32_right_probes']}")

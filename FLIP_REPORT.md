@@ -323,7 +323,9 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    again with max total degree `10`.  The all-zero high-coefficient chart is
    excluded on official rows: it would force a locator `X^10+l0`, impossible
    for a 10-support in `mu_{2^s}` because `x -> x^10` has fibers of size at
-   most `2`.
+   most `2`.  Since the support product has unit norm, four additional
+   Hermitian equations `P_j conjugate(P_j)=D_j^2 l(10-j)bar_l(10-j)` are now
+   compiled, with max total degree `18`.
 17. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.
