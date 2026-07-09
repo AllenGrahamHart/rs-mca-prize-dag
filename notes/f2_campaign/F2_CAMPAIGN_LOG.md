@@ -1202,3 +1202,23 @@ stages). The campaign's honest arc on this branch: a promising bridge
 -> three audits -> a true theorem in a real but unreachable-by-
 enumeration regime. Every constant of both citations is now
 load-bearing and checked.
+
+## 66 — 2026-07-10: k=1 CONTRACTION THEOREM PROVED (fifteenth satellite)
+## — catch #19 eliminated inside the same source
+
+Threshold-shopping succeeded one page below the container theorem:
+CMMM Lemma 2.3 (Halasz) is THRESHOLD-FREE. The composition: our
+PROVED Lemma A (subgroup Gauss sums <= 2 sqrt p) + cosine inequality
+=> the level set T_{n/64}(v) = {0} for every k != 0 (verified exactly
+at (257,128) and (12289,2048), multiple exponents; theory floor
+(n - 2 sqrt p)/20 clears ell with room) => rho <= 3/p + 4/(p sqrt
+ell) + e^{-ell} <= 3.71/p => L <= 4 at n >= 512, n >= 3 sqrt(p).
+The NTT-prime row (12289, 2048) is an EMPIRICAL STAGE after all.
+Remaining for the prime-field dichotomy end-to-end: the loop
+induction write-up (the contraction is now a theorem; the induction
+routes it down the p-free ladder with the struct census as the
+fixed point) + assembly at the theatre rows. Then: the k=2 breakage
+study — where exactly does this chain fail at q = p^2? (The Gauss-sum
+bound survives; the Halasz lemma is Z_p-native: the breakage is the
+restriction-of-scalars compounding — now with a PROVED k=1 baseline
+to measure against.) Fifteen satellites.
