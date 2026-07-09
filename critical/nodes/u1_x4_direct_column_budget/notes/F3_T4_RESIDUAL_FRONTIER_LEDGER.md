@@ -44,6 +44,9 @@ T4-H5-NORM-GATE: OPEN
   central chart has max degree `10` and no Hermitian equation.  The central
   chart graph compiler sharpens this further: after saturating by `l5*bar_l5`,
   the four central equations solve `bar_l9,bar_l8,bar_l7,bar_l6` explicitly.
+  The fixed-point skeleton shows why this graph structure should be preserved:
+  fully expanded fixed-point numerators have pre-cancellation term bounds up to
+  `1,255,488,415,957`.
   Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
   or replace the selected finite rows with a scalable certificate family.
 
@@ -82,6 +85,7 @@ h5_structural_reduction
   + h=5 unit-norm reciprocal gate
   + h=5 chart-local reciprocal recovery
   + h=5 central chart graph
+  + h=5 central fixed-point skeleton
   + h=5 rank-one minor propagation
   + h=5 rank-one unit propagation
   => T4-H5-NORM-GATE remains the only h=5 blocker

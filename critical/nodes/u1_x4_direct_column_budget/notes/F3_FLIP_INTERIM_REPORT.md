@@ -1759,6 +1759,10 @@ equations with `67` total terms and max degree `10`, making it the smallest
 next symbolic h=5 target.  The central chart graph compiler shows these four
 equations are linear in `bar_l9,bar_l8,bar_l7,bar_l6` respectively, so after
 saturating by `l5*bar_l5` the central chart is an explicit rational graph.
+The fixed-point skeleton shows that conjugating this graph and expanding it
+directly is not viable locally: the pre-cancellation term bounds run from
+`117,907,944` to `1,255,488,415,957`, despite the graph itself having only
+`67` terms.
 
 The certificate scaling frontier explains why the current finite-certificate
 format is not that maintainable family.  The banked n=128 Modal rows use

@@ -58,6 +58,11 @@ The graph form does not prove emptiness.  It identifies the next algebraic
 object to attack: the fixed-point compatibility of this rational central
 chart graph with conjugation and support in `mu_{2^s}`.
 
+The companion `F3_H5_CENTRAL_FIXEDPOINT_SKELETON.md` profiles that next
+object without expanding it.  It shows that the graph has only `67` terms, but
+the first fully expanded fixed-point numerator has a pre-cancellation term
+upper bound above `10^12`, so direct expansion is not the right primitive.
+
 ## Replay
 
 Standalone:

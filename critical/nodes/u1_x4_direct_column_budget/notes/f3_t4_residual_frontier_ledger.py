@@ -14,6 +14,9 @@ from pathlib import Path
 from f3_h5_certificate_coverage_audit import audit as h5_audit
 from f3_h5_basefree_reciprocal_system import basefree_summary as h5_basefree_summary
 from f3_h5_central_chart_graph import central_graph_summary as h5_central_graph_summary
+from f3_h5_central_fixedpoint_skeleton import (
+    fixedpoint_skeleton_summary as h5_central_fixedpoint_summary,
+)
 from f3_h5_chart_recovery_compiler import (
     chart_recovery_summary as h5_chart_recovery_summary,
 )
@@ -83,6 +86,7 @@ def h5_summary() -> dict[str, int]:
     unit_norm = h5_unit_norm_summary()
     chart_recovery = h5_chart_recovery_summary()
     central_graph = h5_central_graph_summary()
+    central_fixedpoint = h5_central_fixedpoint_summary()
     unit_propagation = h5_unit_propagation_summary()
     minor_propagation = h5_minor_propagation_summary()
     by_n = {row["n"]: row for row in rows}
@@ -133,6 +137,12 @@ def h5_summary() -> dict[str, int]:
         "central_graph_rows": central_graph["graph_rows"],
         "central_graph_terms": central_graph["total_graph_terms"],
         "central_graph_max_degree": central_graph["max_graph_degree"],
+        "central_fixedpoint_max_terms": central_fixedpoint[
+            "max_pre_cancellation_terms"
+        ],
+        "central_fixedpoint_max_degree": central_fixedpoint[
+            "max_total_degree_bound"
+        ],
         "central_unit_syzygies": chart_recovery["central_unit_syzygies"],
         "minor_propagation_syzygies": minor_propagation["ordered_chart_syzygies"],
         "nonincident_minors_per_chart": minor_propagation[
@@ -253,6 +263,7 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"chart terms={h5['min_chart_total_terms']}.."
                 f"{h5['max_chart_total_terms']}; "
                 f"central graph rows={h5['central_graph_rows']}; "
+                f"fixed-point pre-cancel max={h5['central_fixedpoint_max_terms']}; "
                 f"minor propagation syzygies={h5['minor_propagation_syzygies']}; "
                 f"unit propagation syzygies={h5['unit_propagation_syzygies']}"
             ),
@@ -323,6 +334,8 @@ def main() -> None:
         f"central_graph_rows={h5['central_graph_rows']} "
         f"central_graph_terms={h5['central_graph_terms']} "
         f"central_graph_max_degree={h5['central_graph_max_degree']} "
+        f"central_fixedpoint_precancel_max={h5['central_fixedpoint_max_terms']} "
+        f"central_fixedpoint_max_degree={h5['central_fixedpoint_max_degree']} "
         f"chart_unit_obligations={h5['chart_nontrivial_unit_charts']}+"
         f"{h5['chart_tautological_unit_charts']} tautological "
         f"nonincident_minors_per_chart={h5['nonincident_minors_per_chart']} "

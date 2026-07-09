@@ -336,7 +336,9 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    central chart is the smallest local target: four equations, 67 total terms,
    and max degree `10`.  On that chart the four equations are linear in
    `bar_l9,bar_l8,bar_l7,bar_l6` respectively, giving an explicit rational
-   graph after saturation by `l5*bar_l5`.
+   graph after saturation by `l5*bar_l5`.  The fixed-point skeleton shows that
+   direct expanded conjugation is too large: the pre-cancellation term bound is
+   up to `1,255,488,415,957`.
 17. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.
