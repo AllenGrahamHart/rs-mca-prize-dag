@@ -492,3 +492,19 @@ base case, three exhaustive rows as test oracles + witnesses for the
 extremal structure); then the s-induction via the squaring recursion
 (E/O split — sparsity doubles per level, but C(s) ~ s absorbs it if
 the recursion is entered with the collapse channel already factored).
+
+## 28 — 2026-07-10: extremal census — proof guidance + a symmetry no-go
+
+F2_R5_EXTREMAL_CENSUS_PASS (full enumeration at 3 rows): the maximal
+root-count instances form FEW exponent orbits at the strict row
+((97,32): only (1,15) and (1,18) achieve Z = 4; 1536 instances) but
+scatter more at looser rows (8 orbits at (17,16) where Zmax = 3 = s).
+NO-GO #4 (small): extremal root sets have NO inversion or negation
+closure (0.00 at every orbit of every row) — symmetry-classification
+proof shapes for C(3) <= 4 are excluded; the proof must handle thin,
+asymmetric extremal families. Root index-difference multisets banked
+per orbit for the extremal-structure analysis. C(3) <= 4 remains the
+posed base lemma, now with: exhaustive oracles (3 rows), the full
+extremal atlas, a symmetry no-go, and the ambient-annihilator exact
+formula as the analytic handle. This is the state handed to the next
+prover: one small q-blind lemma, maximally instrumented.
