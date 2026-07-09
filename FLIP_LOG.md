@@ -9476,3 +9476,48 @@ Expected digests:
 H3_CONIC_CHART_LARGEGAP_PILOT_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
+
+## 2026-07-09 h=3 conic binary-form rank target
+
+Stage selected: turn the exact-profile conic rank route into a proof-level
+binary-form codimension statement.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_BINARY_FORM_TARGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_binary_form_target.py
+```
+
+On a same-fiber conic chart with common denominator `Q`, the cleared rank
+columns are binary forms
+
+```text
+X^a P_U^(H b_1) P_V^(H b_2) P_W^(H b_3)
+    Q^(H(3(B-1)-b_1-b_2-b_3))
+```
+
+of degree `(A-1)+6H(B-1)`.  In the pinned chart the four quadratics
+`P_U,P_V,P_W,Q` have span rank `3`, with the same-fiber affine relation as the
+single linear relation.  Therefore the exact-profile conic rank theorem can be
+attacked as a binary-form codimension bound; the official rows need
+codimension at most `1847`.
+
+This is not a rank theorem.  It is a sharper statement of the theorem that
+would make the conic route close.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_binary_form_target.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_CONIC_BINARY_FORM_TARGET_PASS
+H3_RANK_AVOID_INTERFACE_PASS
+H3_FRONTIER_LEDGER_PASS
+```

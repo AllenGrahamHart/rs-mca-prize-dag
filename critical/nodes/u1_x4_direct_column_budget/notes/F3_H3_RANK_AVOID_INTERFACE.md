@@ -211,6 +211,11 @@ Delta <= 1847.
 ```
 
 The tight row is `s=13`; higher rows have more room.
+The conic binary-form target reduction restates this exact-profile route on
+same-fiber conic charts: the cleared columns span binary forms of degree
+`(A-1)+6H(B-1)`, and it is enough to prove codimension at most `1847` in that
+space.  In the pinned conic chart the four quadratics `P_U,P_V,P_W,Q` have
+span rank `3`, with the same-fiber relation as the sole linear relation.
 
 For the private-linear table it checks the pinned `Z_private` witnesses with
 

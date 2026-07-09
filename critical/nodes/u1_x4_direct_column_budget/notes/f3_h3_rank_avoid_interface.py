@@ -12,6 +12,7 @@ from f3_h3_exact_profile_rank_capacity_guard import (
 )
 from f3_h3_exact_profile_rank_deficit_budget import rank_deficit_budget_summary
 from f3_h3_conic_chart_linear_relation_guard import linear_relation_guard_summary
+from f3_h3_conic_binary_form_target import conic_binary_form_summary
 from f3_h3_private_linear_bad_prime_guardrail import EXPECTED_RANKS as BAD_PRIME_RANKS
 from f3_h3_private_linear_lowrow_budget import EXPECTED_ROWS as PRIVATE_ROWS
 from f3_h3_private_linear_lowrow_budget import feasible_witness as private_feasible_witness
@@ -63,6 +64,7 @@ def main() -> None:
     exact_capacity = exact_profile_capacity_guard_summary()
     exact_deficit = rank_deficit_budget_summary()
     conic_relation = linear_relation_guard_summary()
+    conic_binary = conic_binary_form_summary()
     private_deficit = private_rank_deficit_budget_summary()
     if exact_profile["exact_min"] != 33 or exact_profile["exact_max"] != 21421:
         raise AssertionError(exact_profile)
@@ -74,6 +76,10 @@ def main() -> None:
         raise AssertionError(exact_capacity)
     if exact_deficit["min_allowed_deficit"] != 1847:
         raise AssertionError(exact_deficit)
+    if conic_binary["allowed_codimension"] != 1847:
+        raise AssertionError(conic_binary)
+    if conic_binary["quadratic_span_rank"] != 3:
+        raise AssertionError(conic_binary)
     if private_deficit["min_allowed_deficit"] != 25:
         raise AssertionError(private_deficit)
     print("exact-profile degree-2 route")
@@ -92,6 +98,12 @@ def main() -> None:
         f"max_gcd_degree={conic_relation['max_gcd_degree']} "
         f"degree_guard_failures={conic_relation['degree_guard_failures']} "
         f"pilot_failures={conic_relation['pilot_failures']}"
+    )
+    print(
+        "conic binary-form target: "
+        f"quadratic_span_rank={conic_binary['quadratic_span_rank']} "
+        f"allowed_codimension={conic_binary['allowed_codimension']} "
+        f"official_min_H/A_ppm={conic_binary['official_min_gap_ppm']}"
     )
     print(
         "private-linear bounded-deficit route: "

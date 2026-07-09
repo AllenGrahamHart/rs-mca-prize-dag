@@ -35,6 +35,7 @@ from f3_h3_rank_effective_bridge import EXPECTED_CAPACITIES, PINNED_RANKS, rank_
 from f3_h3_exact_profile_bridge_budget import exact_profile_budget_summary
 from f3_h3_conic_chart_linear_relation_guard import linear_relation_guard_summary
 from f3_h3_conic_chart_largegap_pilot import largegap_pilot_summary
+from f3_h3_conic_binary_form_target import conic_binary_form_summary
 from f3_h3_exact_profile_rank_capacity_guard import exact_profile_capacity_guard_summary
 from f3_h3_exact_profile_rank_deficit_budget import rank_deficit_budget_summary
 from f3_h3_conic_chart_rank_minor_certificate import EXPECTED_DETERMINANT as TOY_CONIC_MINOR_DET
@@ -98,6 +99,7 @@ def official_budget_summary() -> dict[str, int]:
     exact_profile = exact_profile_budget_summary()
     conic_relation = linear_relation_guard_summary()
     conic_largegap = largegap_pilot_summary()
+    conic_binary = conic_binary_form_summary()
     exact_capacity = exact_profile_capacity_guard_summary()
     exact_deficit = rank_deficit_budget_summary()
     private_deficit = private_rank_deficit_budget_summary()
@@ -136,6 +138,8 @@ def official_budget_summary() -> dict[str, int]:
         "conic_largegap_official_min_gap_ppm": conic_largegap[
             "official_min_gap_ppm"
         ],
+        "conic_binary_span_rank": conic_binary["quadratic_span_rank"],
+        "conic_binary_allowed_codimension": conic_binary["allowed_codimension"],
         "toy_conic_chart_rank": PINNED_DEGREE2_CONIC_CHART_RANK,
         "toy_conic_chart_minor_det": TOY_CONIC_MINOR_DET,
         "private_separation_margin": private_separation_summary()["min_pass_margin"],
@@ -343,6 +347,9 @@ def frontier_gates(
                 f"{budgets['conic_largegap_cases']} cases "
                 f"(official min H/A ppm "
                 f"{budgets['conic_largegap_official_min_gap_ppm']}); "
+                f"conic binary-form target has quadratic span rank "
+                f"{budgets['conic_binary_span_rank']} and allowed codimension "
+                f"{budgets['conic_binary_allowed_codimension']}; "
                 f"toy same-fiber conic chart has full rank "
                 f"{budgets['toy_conic_chart_rank']}=A B^3 "
                 f"with minor det {budgets['toy_conic_chart_minor_det']} mod 769; "

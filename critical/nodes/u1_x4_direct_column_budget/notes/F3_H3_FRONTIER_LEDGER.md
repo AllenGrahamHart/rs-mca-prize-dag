@@ -43,6 +43,9 @@ F3-RANK-AVOID / RC-NV: OPEN
   in three larger-gap boxes `H=20,24,32`; its deficits are `27,1,0`, far below
   the official exact-profile tolerance `1847`, while official rows have
   minimum `H/A = 4096/681`.
+  The conic binary-form target reduction restates the exact-profile conic rank
+  theorem as codimension `<=1847` inside binary forms of degree
+  `(A-1)+6H(B-1)`; the pinned chart quadratics have span rank `3`.
   The conic-chart linear-relation guard verifies `P_U+P_V+P_W+aQ=0` on the
   same-fiber conic chart despite pairwise coprime chart polynomials, so
   separated-divisor arguments alone cannot prove full rank.
