@@ -1646,3 +1646,20 @@ governed Dedekind averages over G (this entry); the signed census
 consumes precisely these correlations. Reciprocity is the first
 EXACT tool located that speaks to the summit's interior at growing
 order. Eighty-nine entries.
+
+## 90 — 2026-07-10: interior chart, page three — the per-shift coset
+## law and the INDEX-2 VANISHING THEOREM
+
+Two exact laws, proved in lines and verified to machine precision:
+(1) PER-SHIFT COSET LAW: for every shift t, the m coset-deviations
+sum to zero (the coset products multiply to prod_{s!=0}(1+zeta^s)=1)
+— the mean-zero law holds per shift, not merely on average; the
+deviation field has m-1 free dimensions per shift. (2) INDEX-2
+VANISHING: for m = 2 (quadratic residues), the two coset values are
+Galois-conjugate AND multiply to 1, so |each| = 1: S == 0 IDENTICALLY
+— the index-2 instance of the summit's field is EXACTLY SOLVED (this
+explains the accidental zero in log #89's check row). The interior
+chart: first moment zero (per shift); index-2 exactly flat; second
+moment = Dedekind-reciprocity territory; the open content = the
+correlations at growing index. The summit's interior keeps yielding
+exact structure wherever it is probed. Ninety entries.
