@@ -7711,6 +7711,48 @@ H2_MIDRANGE_CERTIFICATE_COSTS_PASS
 H3_PER_ROW_ACCIDENT_POSE_PASS
 ```
 
+## 2026-07-09 h=3 activation dedup frontier wiring
+
+Stage selected: surface the strongest banked n=96 activation evidence in the
+h=3 frontier ledger.
+
+Changed files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_FRONTIER_LEDGER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_orbit_dedup.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+The activation dedup replay now exposes a reusable summary.  The h=3 frontier
+ledger imports it and records:
+
+```text
+raw oriented activation records: 720,
+unique affine/Galois pair-orbits: 167,
+activation primes: 82,
+max oriented per-prime activation: 92 at p=37633,
+max deduped per-prime activation: 27 at p=37633,
+repeated canonical orbits across threshold primes: 0.
+```
+
+This does not prove `H3-ACT(16)`.  It keeps the main frontier ledger aligned
+with the best current activation evidence and the repaired common-root target.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_orbit_dedup.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_ACTIVATION_ORBIT_DEDUP_PASS
+H3_FRONTIER_LEDGER_PASS
+```
+
 ## 2026-07-09 h=5 central projective-infinity exclusion
 
 Stage selected: upgrade the h=5 central infinity flag from a route guide to

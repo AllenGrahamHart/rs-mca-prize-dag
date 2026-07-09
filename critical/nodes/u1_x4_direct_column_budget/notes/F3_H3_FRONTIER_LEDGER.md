@@ -15,7 +15,10 @@ geometric batching theorem.
 H3-ACT-COMPILER: REPLAYED/CONDITIONAL
   C=16 would imply T3<n^3 from n>=17.  The n=96 all-core evidence has
   720 oriented activation records over 82 threshold primes, with maximum
-  92 oriented activations at p=37633.
+  92 oriented activations at p=37633.  The activation orbit-dedup replay
+  reduces the same list to 167 affine/Galois pair-orbits, with maximum
+  27 deduped orbits at one prime and no repeated canonical orbit across
+  threshold primes.
   Residual: prove H3-ACT(16), or replace it with official-row activation
   certificates.
 

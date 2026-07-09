@@ -14,6 +14,7 @@ from f3_h3_activation_bound_compiler import (
     load_summary,
     prime_activation_counts,
 )
+from f3_h3_activation_orbit_dedup import activation_orbit_dedup_summary
 from f3_h3_conic_bridge_accounting_ledger import conic_bridge_accounting_summary
 from f3_h3_bridge_budget_lineage import budget_lineage_summary
 from f3_h3_exact_profile_bridge_contract import exact_profile_bridge_contract_summary
@@ -63,11 +64,16 @@ class H3FrontierGate:
 def activation_summary() -> dict[str, int]:
     data = load_summary()
     counts = prime_activation_counts(data)
+    dedup = activation_orbit_dedup_summary()
     max_prime, max_count = max(counts.items(), key=lambda item: (item[1], -item[0]))
     if data["activation_exception_count"] != 720:
         raise AssertionError(data["activation_exception_count"])
     if max_count != 92 or max_prime != 37633:
         raise AssertionError((max_prime, max_count))
+    if dedup["max_prime"] != max_prime:
+        raise AssertionError((dedup, max_prime))
+    if dedup["max_deduped_per_prime"] != 27 or dedup["unique_orbits"] != 167:
+        raise AssertionError(dedup)
     if first_n_below_floor(16) != 17:
         raise AssertionError(first_n_below_floor(16))
     return {
@@ -76,6 +82,9 @@ def activation_summary() -> dict[str, int]:
         "activation_primes": len(counts),
         "max_prime": max_prime,
         "max_count": max_count,
+        "deduped_orbits": dedup["unique_orbits"],
+        "max_deduped_count": dedup["max_deduped_per_prime"],
+        "repeated_deduped_orbits": dedup["repeated_orbits"],
         "c16_threshold": 17,
     }
 
@@ -295,7 +304,9 @@ def frontier_gates(
             "REPLAYED/CONDITIONAL",
             (
                 f"C=16 gives T3<n^3 from n>={activation['c16_threshold']}; "
-                f"n=96 evidence has max {activation['max_count']} oriented activations"
+                f"n=96 evidence has max {activation['max_count']} oriented "
+                f"activations and max {activation['max_deduped_count']} "
+                "deduped affine/Galois pair-orbits at one prime"
             ),
             "prove H3-ACT(16), or replace with official-row activation certificates",
         ),
@@ -415,7 +426,10 @@ def main() -> None:
         f"activation evidence: n={activation['n']} "
         f"oriented={activation['oriented_activations']} "
         f"primes={activation['activation_primes']} "
-        f"max={activation['max_count']} at p={activation['max_prime']}"
+        f"max={activation['max_count']} at p={activation['max_prime']} "
+        f"dedup_orbits={activation['deduped_orbits']} "
+        f"dedup_max={activation['max_deduped_count']} "
+        f"dedup_repeats={activation['repeated_deduped_orbits']}"
     )
     print(
         "official rank-capacity budgets: "
