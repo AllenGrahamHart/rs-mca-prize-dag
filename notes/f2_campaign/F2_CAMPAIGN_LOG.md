@@ -619,3 +619,23 @@ C(3) <= 2. REMAINING for the base lemma: bound the p-divisibility
 incidences (char-q half) — a statement about the fixed family
 {S(a,b)} and the specific official prime, i.e. arithmetic, not
 geometry. The proof of the crux's lower edge is now half done.
+
+## 35 — 2026-07-10: char-q half — norm-counting no-go #5; application
+## slack repriced
+
+Attack on the char-q half (p-divisibility incidences of {S(a,b)}).
+NO-GO #5 (quantified): global resultant/norm counting is VACUOUS —
+total incidence mass <= n^2 phi(n) log_p(6) / k ~ 2^99.6 at official
+parameters vs n^2 = 2^80 pairs total (20 bits past useless; each
+conjugate <= 6 is too weak a handle globally). The char-q half needs
+PER-FIBER trinomial rigidity at large q (a fiber of size f = f
+mu_n-roots of ONE trinomial — the gcd(trinomial, X^n - 1) structure),
+not pair-counting. REPRICED APPLICATION SLACK: the s-induction only
+needs C(s) <= poly(s) — even C(3) <= 1000 suffices for the mid-band
+edge (b ~ 7e10 roots vs ~33-sparse divisors); the sharp C(3) <= 2
+official conjecture is bonus, not requirement. DESIGN FLAG for the
+s-induction: the E/O recursion may pass through smaller effective
+fields — the small-field accident regime (q < n^2) must be tracked
+level-by-level in the recursion bookkeeping. State: char-0 half
+PROVED; char-q half open with its no-go map complete; target slack
+repriced upward by two orders.
