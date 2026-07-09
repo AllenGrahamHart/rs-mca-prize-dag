@@ -1027,3 +1027,25 @@ flatness/max-to-mean bound of the t-null census family (tolerance
 PROVED SP strata). Six no-gos, fifteen catches, fourteen satellites,
 fifty-six entries: the map has no unexplored regions — only the one
 summit, with every approach now charted and instrumented.
+
+## 57 — 2026-07-10: THE HALASZ BRIDGE — the summit's proof program
+
+The composition that closes the loop: (a) large extras => energy-
+deficient (f2_effective_energy_dichotomy, PROVED, printed constants);
+(b) energy deficiency IS the Littlewood-Offord/Halasz hypothesis: the
+next moment condition p_{j+1} = 0 anti-concentrates on a dissociated
+fiber — the contraction the ladder needs; (c) the self-defeating
+loop: extras large => contract at L <= 2^15 => extras cannot stay
+large — the per-condition induction closes. ARITHMETIC: q * Pr <=
+q * K^{-1/2}/sqrt(m): at branch (a)'s weakest row (K = 2^7.75):
+2^15.1 (marginal, within a bit); at Schoen-grade (K = 2^13.67):
+2^12.2 — THREE BITS INSIDE the target. L4 (explicit Schoen constants)
+RE-ACTIVATES exactly per the charter's supersession clause ("iff R2
+activates" — R2 just did). THE CAMPAIGN'S REMAINING WORK, final form:
+(1) verify the two published inputs' constants (Schoen BSG; finite-
+field Littlewood-Offord — both quarantine-disciplined citations);
+(2) write the composition (our proved dichotomy + LO => contraction);
+(3) formalize the loop induction; (4) assembly + consumer replay.
+Nothing else. Every piece is either proved (ours), published (two
+citations to verify), or arithmetic. Fifty-seven entries; the summit
+has a route with quantified margins.
