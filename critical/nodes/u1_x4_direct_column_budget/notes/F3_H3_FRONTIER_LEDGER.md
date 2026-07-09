@@ -25,6 +25,9 @@ F3-RANK-AVOID / RC-NV: OPEN
   The exact rich-curve reduced-condition profile now records
   `DA+6D(D-1)` conditions per repaired curve, about `7.84%..8.77%`
   of the legacy `13D(A+D)` count on the sample boxes.
+  Feeding this exact profile into the bridge-budget optimizer gives the
+  alternate conditional budget `Z_exact=33..21421`, with total gain `51451`
+  over the active non-diagonal table.
   Residual: prove finite-row rank-good minor nonvanishing on repaired
   degree-2 signature-curve images.
 

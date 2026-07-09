@@ -27,6 +27,7 @@ from f3_h3_private_linear_official_separation_guard import (
     separation_summary as private_separation_summary,
 )
 from f3_h3_rank_effective_bridge import EXPECTED_CAPACITIES, PINNED_RANKS, rank_capacity
+from f3_h3_exact_profile_bridge_budget import exact_profile_budget_summary
 from f3_h3_rich_curve_condition_profile import condition_profile_summary
 from f3_h3_repeat_frontier_ledger import (
     count_route_frontier_gates,
@@ -70,6 +71,7 @@ def official_budget_summary() -> dict[str, int]:
     rows = (*LOW_ROWS, *HIGH_ROWS)
     private = tuple(PRIVATE_ROWS)
     lineage = budget_lineage_summary()
+    exact_profile = exact_profile_budget_summary()
     exponents = [row.s for row in rows]
     private_exponents = [row.s for row in private]
     expected = list(range(13, 42))
@@ -86,6 +88,9 @@ def official_budget_summary() -> dict[str, int]:
         "diagonal_z_budget_max": lineage["diagonal_max"],
         "z_private_min": min(row.z for row in private),
         "z_private_max": max(row.z for row in private),
+        "z_exact_profile_min": exact_profile["exact_min"],
+        "z_exact_profile_max": exact_profile["exact_max"],
+        "z_exact_profile_gain_total": exact_profile["gain_total"],
         "private_separation_margin": private_separation_summary()["min_pass_margin"],
     }
 
@@ -233,6 +238,10 @@ def frontier_gates(
             (
                 f"non-diagonal official budgets cover s={budgets['first_s']}..{budgets['last_s']} "
                 f"with Z={budgets['z_budget_min']}..{budgets['z_budget_max']}; "
+                f"exact-profile arithmetic raises this to "
+                f"Z={budgets['z_exact_profile_min']}.."
+                f"{budgets['z_exact_profile_max']} "
+                f"(total gain {budgets['z_exact_profile_gain_total']}); "
                 f"exact RC-RED profile uses "
                 f"{rich_curve_conditions['min_exact_to_legacy_percent'] / 100:.2f}.."
                 f"{rich_curve_conditions['max_exact_to_legacy_percent'] / 100:.2f}% "
@@ -320,6 +329,8 @@ def main() -> None:
     print(
         "official rank-capacity budgets: "
         f"Z_budget={budgets['z_budget_min']}..{budgets['z_budget_max']} "
+        f"Z_exact_profile={budgets['z_exact_profile_min']}.."
+        f"{budgets['z_exact_profile_max']} "
         f"(legacy_diag={budgets['diagonal_z_budget_min']}..{budgets['diagonal_z_budget_max']}) "
         f"Z_private={budgets['z_private_min']}..{budgets['z_private_max']} "
         f"private_sep_margin={budgets['private_separation_margin']}"

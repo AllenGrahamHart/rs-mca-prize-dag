@@ -7241,6 +7241,66 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=3 exact-profile bridge budget
+
+Stage selected: consume the exact rich-curve reduced-condition profile in the
+h=3 bridge-budget arithmetic.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_BRIDGE_BUDGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_bridge_budget.py
+```
+
+The compiler replaces the legacy condition count
+
+```text
+13D(A+D)|Z|
+```
+
+by the proved exact profile
+
+```text
+|Z|*(DA + 6D(D-1)).
+```
+
+For every official row `n=2^s`, `13 <= s <= 41`, it verifies a passing
+non-diagonal box with
+
+```text
+Z_exact = 33..21421,
+```
+
+where the active legacy non-diagonal table had
+
+```text
+Z_legacy = 16..10795.
+```
+
+The total gain over the active non-diagonal table is `51451`.  The compiler
+also verifies maximality within the same box search: `Z_exact+1` has no
+feasible box under the analytic `B` cap derived from the `16n` target and the
+image-rank room condition.
+
+This does not prove `RC-NV` or the bridge assignment theorem; it gives those
+future steps a larger conditional budget once the exact-profile rank theorem
+is proved.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_bridge_budget.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_EXACT_PROFILE_BRIDGE_BUDGET_PASS
+H3_FRONTIER_LEDGER_PASS
+```
+
 Residual next targets remain unchanged: finite-row-valid h=3 rank/minor
 avoidance plus the matching bridge assignment, symbolic h=5 norm-gate
 incompatibility, and h=8 non-antipodal support certification.
