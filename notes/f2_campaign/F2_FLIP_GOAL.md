@@ -66,9 +66,21 @@ L3 MINOR-ARC FLATNESS => FIBER BOUND: Fourier inversion converts
 L4 EXPLICIT CONSTANTS: pin (c1, e1, c2, e2) from one specific
    published BSG proof (verify the derivation, not just the claim);
    harden the energy-dichotomy table from symbolic to numeric.
+   [SUPERSEDED 2026-07-10, log #22: DE-SCOPED from the critical
+   ladder. The assembled T-WIN path (unconditional empty band + the
+   extras-contraction crux + exact struct census + consumer
+   arithmetic) references no energy argument; BSG constants are
+   needed ONLY if crux route R2 (energy dichotomy on level fibers)
+   is the winning route. L4 becomes route-R2 support, activated iff
+   R2 activates.]
 L5 ASSEMBLY + FLIP: branch (a) [banked] + branch (b) [L2+L3] + the
    700-count => extras <= n^3 at every official row; replay the
    consumer arithmetic; dag_commit the status change; artifact + site.
+   [AMENDED 2026-07-10, log #22: the assembly is now — unconditional
+   empty band (b <= t, b >= n-t, PROVED) + the crux at mid-band
+   (t < b < n-t, the open event) + exact struct + p-free effective
+   condition count (dictionary) => extras <= n^3; replay consumer;
+   flip. T-WIN critical path = CRUX + L5, nothing else.]
 
 ## LAWS BINDING THE CAMPAIGN (restated, immutable)
 

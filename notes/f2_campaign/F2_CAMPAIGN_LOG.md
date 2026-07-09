@@ -395,3 +395,13 @@ Honest labels: structure for the face-A rigidity route (the
 certificate parametrization), NOT count progress; naive
 Mason-Stothers on the relation is vacuous (checked: needs t > n-1).
 Eighth proved satellite. The crux remains the sole open event.
+
+## 22 — 2026-07-10: ladder amendment — L4 de-scoped; critical path = CRUX + L5
+
+Charter amended per its own supersession rule (dated, in place): the
+T-WIN assembly as it now stands (unconditional empty band + crux +
+exact struct + p-free condition count + consumer replay) references
+no energy argument, so L4 (explicit BSG constants) is needed only if
+crux route R2 wins — de-scoped to route-R2 support. The declared
+critical path shortens to exactly two items: PROVE THE CRUX, run L5.
+Nothing else stands between u2c and green.
