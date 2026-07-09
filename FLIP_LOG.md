@@ -7934,6 +7934,38 @@ Expected digest:
 H3_OFFICIAL_ACCIDENT_SLACK_PASS
 ```
 
+## 2026-07-09 h=3 activation frontier retarget
+
+Stage selected: propagate the official-row accident slack into the h=3 frontier
+wording so the live compiler gate no longer overstates the needed constant.
+
+Changed files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_FRONTIER_LEDGER.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_RESIDUAL_FRONTIER_LEDGER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+The h=3 frontier now records the proof-facing target as
+`official-row H3-ACT(4096)` while retaining `H3-ACT(16)` as a stronger
+sufficient route.  The rank-capacity and bridge ledgers are not retuned by
+this packet; they still certify interfaces for the stronger constant.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_FRONTIER_LEDGER_PASS
+F3_FLIP_RESIDUAL_FRONTIER_LEDGER_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without

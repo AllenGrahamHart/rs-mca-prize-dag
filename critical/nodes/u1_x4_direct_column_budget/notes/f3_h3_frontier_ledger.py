@@ -15,6 +15,7 @@ from f3_h3_activation_bound_compiler import (
     prime_activation_counts,
 )
 from f3_h3_activation_orbit_dedup import activation_orbit_dedup_summary
+from f3_h3_official_accident_slack import official_accident_slack_summary
 from f3_h3_conic_bridge_accounting_ledger import conic_bridge_accounting_summary
 from f3_h3_bridge_budget_lineage import budget_lineage_summary
 from f3_h3_exact_profile_bridge_contract import exact_profile_bridge_contract_summary
@@ -72,6 +73,7 @@ def activation_summary() -> dict[str, int]:
     data = load_summary()
     counts = prime_activation_counts(data)
     dedup = activation_orbit_dedup_summary()
+    slack = official_accident_slack_summary()
     max_prime, max_count = max(counts.items(), key=lambda item: (item[1], -item[0]))
     if data["activation_exception_count"] != 720:
         raise AssertionError(data["activation_exception_count"])
@@ -83,6 +85,8 @@ def activation_summary() -> dict[str, int]:
         raise AssertionError(dedup)
     if first_n_below_floor(16) != 17:
         raise AssertionError(first_n_below_floor(16))
+    if slack["midpoint_c"] != 4096 or slack["min_max_safe_c"] != 8191:
+        raise AssertionError(slack)
     return {
         "n": data["n"],
         "oriented_activations": data["activation_exception_count"],
@@ -93,6 +97,9 @@ def activation_summary() -> dict[str, int]:
         "max_deduped_count": dedup["max_deduped_per_prime"],
         "repeated_deduped_orbits": dedup["repeated_orbits"],
         "c16_threshold": 17,
+        "official_midpoint_c": slack["midpoint_c"],
+        "official_max_safe_c": slack["min_max_safe_c"],
+        "official_midpoint_first_ratio_ppm": slack["first_midpoint_ratio_ppm"],
     }
 
 
@@ -334,11 +341,15 @@ def frontier_gates(
             "REPLAYED/CONDITIONAL",
             (
                 f"C=16 gives T3<n^3 from n>={activation['c16_threshold']}; "
+                f"official rows only need C<={activation['official_max_safe_c']} "
+                f"and C={activation['official_midpoint_c']} uses "
+                f"{activation['official_midpoint_first_ratio_ppm']} ppm "
+                "of the first-row budget; "
                 f"n=96 evidence has max {activation['max_count']} oriented "
                 f"activations and max {activation['max_deduped_count']} "
                 "deduped affine/Galois pair-orbits at one prime"
             ),
-            "prove H3-ACT(16), or replace with official-row activation certificates",
+            "prove official-row H3-ACT(4096), the stronger H3-ACT(16), or replace with certificates",
         ),
         H3FrontierGate(
             "F3-RANK-AVOID / RC-NV",
@@ -481,7 +492,9 @@ def main() -> None:
         f"max={activation['max_count']} at p={activation['max_prime']} "
         f"dedup_orbits={activation['deduped_orbits']} "
         f"dedup_max={activation['max_deduped_count']} "
-        f"dedup_repeats={activation['repeated_deduped_orbits']}"
+        f"dedup_repeats={activation['repeated_deduped_orbits']} "
+        f"official_midpoint_C={activation['official_midpoint_c']} "
+        f"official_max_safe_C={activation['official_max_safe_c']}"
     )
     print(
         "official rank-capacity budgets: "

@@ -20,7 +20,8 @@ T3:
   C <= 8191, with C=4096 leaving about a factor-two first-row margin.
 
 h=3:
-  H3-ACT-COMPILER is conditional.
+  H3-ACT-COMPILER is conditional; the official-row target can be weakened to
+  H3-ACT(4096), while H3-ACT(16) remains a stronger sufficient target.
   F3-RANK-AVOID / RC-NV remains open.
   H3-BRIDGE-RANKCAP remains open.
   F3-PRIVATE-LINEAR-RANK-AVOID remains an open alternate.
@@ -46,7 +47,9 @@ degree-2 budget has `Z_exact=33..21421`; a bounded rank-deficit theorem with
 alternate has `Z_private=23..15267`, with required bounded deficit
 `Delta <= 25`.
 The current bridge/rank interfaces target `H3-ACT(16)`, but the official-row
-T3 arithmetic can be retuned to a weaker target up to `H3-ACT(8191)`.
+T3 arithmetic can be retuned to a weaker target; `H3-ACT(4096)` keeps about a
+factor-two first-row margin, and `H3-ACT(8191)` is the largest uniform integer
+accepted by this compiler.
 
 Second, T4 has been reduced to the h=8 non-antipodal x83 branch.  The current
 remaining certificate scale is

@@ -19,8 +19,11 @@ H3-ACT-COMPILER: REPLAYED/CONDITIONAL
   reduces the same list to 167 affine/Galois pair-orbits, with maximum
   27 deduped orbits at one prime and no repeated canonical orbit across
   threshold primes.
-  Residual: prove H3-ACT(16), or replace it with official-row activation
-  certificates.
+  On the official rows, the arithmetic compiler is much less demanding:
+  because n=2^s kills the toral term, any uniform C<=8191 suffices; the
+  retargeted midpoint H3-ACT(4096) uses 500001 ppm of the first-row budget.
+  Residual: prove official-row H3-ACT(4096), prove the stronger H3-ACT(16),
+  or replace the target with official-row activation certificates.
 
 F3-RANK-AVOID / RC-NV: OPEN
   The non-diagonal official-row arithmetic covers s=13..41 with
@@ -141,6 +144,17 @@ one-image degree-space capacity `1`.
 The companion exact-profile bridge contract also keeps this rank-family route
 separate from the L2/level-set route: the L2 target remains
 `sum_z R_z(R_z-6) <= 1152n`, not a consequence of `Z_exact` alone.
+
+For the official-row F3 floor, the activation target can be weakened before
+retuning the bridge/rank ledgers:
+
+```text
+official-row H3-ACT(4096) => T3 < n^3 on all official rows,
+```
+
+and the largest uniform integer accepted by this arithmetic compiler is
+`H3-ACT(8191)`.  The current rank-capacity budgets are still stated for the
+stronger `H3-ACT(16)` until a separate retuning packet replaces them.
 
 The legacy degree-2 route remains valid but weaker:
 
