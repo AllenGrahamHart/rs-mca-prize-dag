@@ -943,3 +943,24 @@ toy tested (F_25: extras 0). This is the campaign's single remaining
 mathematical object, in its final coordinates: fixed dimension 33,
 maximal rigidity, clean toy data, and all fourteen satellites behind
 it. Chain: divisor-in-family lemma -> crux assembly -> L5.
+
+## 53 — 2026-07-10: the LAST REDOUBT — the final lemma is SP-flatness
+## of the core-sharing t-null pair census
+
+The divisor-in-family difference structure: two family divisors share
+their core, so both FULL blocks are t-null — the family-pair count IS
+the SP census of core-sharing t-null pairs (the PROVED v13 identity's
+object, restricted to the t-null subfamily). The campaign's complete
+compression chain, every step proved except the last:
+  dichotomy (conjecture) -> mid-band (tolerance 2^{1.05e12})
+  -> empty band [PROVED, unconditional, width t]
+  -> edge band [PROVED, extras 0, width ~315]
+  -> interior = Frobenius slots -> ONE 33-parameter splitting census
+  -> divisor-in-family count -> SP-FLATNESS OF THE t-NULL PAIR CENSUS.
+The last object is the kernel in its final coordinates: measured
+L2-flat at every cell ever tested (M1 calibration, M2/flat 0.91-1.17),
+adjacent to the proved SP strata, and now known to be THE single
+statement from which the crux assembly follows. Forty-three cycles
+have converted everything else. The campaign stands at: prove
+SP-flatness of the t-null pair census (or any bound within the
+2^{1.05e12} tolerance) -> assembly -> flip.
