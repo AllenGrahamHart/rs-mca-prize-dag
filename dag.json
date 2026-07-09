@@ -4605,7 +4605,7 @@
    "title": "FLOOR CONJECTURE: fully-stripped primitive residue <= n^3 at official corridor rows (already the floor)",
    "status": "TARGET",
    "key": true,
-   "statement": "FLOOR RE-POSE (2026-07-07, floor campaign): this node was already floor-shaped (created 2026-07-06 as the weakest x4 premise; consumer sufficiency proved at 16n^3). Now framed as a standing conjecture with the pre-registered falsifier below. DOC CORRECTION BANKED: x4's statement.md prose still prints the stale n^2 primitive target and names u1_pullback_dichotomy \u2014 the DAG edge and this n^3 form are authoritative. Opening evidence: budget probe PASS at 1.5% of budget with positive control detected. | At the official X4/list corridor rows, after quotient, dihedral, moment-trade, U2 boundary, and DLI/skew strips have removed their paid columns, the remaining primitive exact-list active-core residue fits inside the direct row column consumed by x4_exactlist_staircase_split. A sufficient concrete target is <= n^3 at the official rows. This is strictly weaker than u1_pullback_dichotomy: it does not classify every canonical trade into a pullback dictionary and does not require the older orbit-converted n^2 survivor bound. | SURVIVAL +1 scoped (2026-07-07, F3-A1): boundary sweep with exact instrument gate (positive control 60 trades) \u2014 zero nontoral trades, zero n^3 alarms at 11 rows incl. FULL-window versions of the previously sliced boundary rows and extended primes 3137/12289; n=64 rows clean-but-partial, queued for anchor-sharded F3-A1b. | SURVIVAL +3 -> **HARDENED** (2026-07-07, F3-A2): adversarially smooth q (incl. Fermat 65537) zero trades at full windows; exceptional structure confined to the tiny-field window (zero at p >= 97). Families: boundary sweep / smooth-q engineering / exceptional confinement. Remaining follow-up: n=64 full windows (numpy rewrite). | SURVIVAL +4 (2026-07-07, Pro floor-window 3): independent Pro anchored-PTE probe \u2014 gate reproduced exactly, all banked rows re-verified, and our open n=64 flank EXTENDED (complete exact h=5,6 sweeps at the first four primes above n^2: zero non-toral hits). Remaining flank by both sides' accounting: n=64, h >= 7.",
+   "statement": "FLOOR RE-POSE (2026-07-07, floor campaign): this node was already floor-shaped (created 2026-07-06 as the weakest x4 premise; consumer sufficiency proved at 16n^3). Now framed as a standing conjecture with the pre-registered falsifier below. DOC CORRECTION BANKED: x4's statement.md prose still prints the stale n^2 primitive target and names u1_pullback_dichotomy \u2014 the DAG edge and this n^3 form are authoritative. Opening evidence: budget probe PASS at 1.5% of budget with positive control detected. | At the official X4/list corridor rows, after quotient, dihedral, moment-trade, U2 boundary, and DLI/skew strips have removed their paid columns, the remaining primitive exact-list active-core residue fits inside the direct row column consumed by x4_exactlist_staircase_split. A sufficient concrete target is <= n^3 at the official rows. This is strictly weaker than u1_pullback_dichotomy: it does not classify every canonical trade into a pullback dictionary and does not require the older orbit-converted n^2 survivor bound. | SURVIVAL +1 scoped (2026-07-07, F3-A1): boundary sweep with exact instrument gate (positive control 60 trades) \u2014 zero nontoral trades, zero n^3 alarms at 11 rows incl. FULL-window versions of the previously sliced boundary rows and extended primes 3137/12289; n=64 rows clean-but-partial, queued for anchor-sharded F3-A1b. | SURVIVAL +3 -> **HARDENED** (2026-07-07, F3-A2): adversarially smooth q (incl. Fermat 65537) zero trades at full windows; exceptional structure confined to the tiny-field window (zero at p >= 97). Families: boundary sweep / smooth-q engineering / exceptional confinement. Remaining follow-up: n=64 full windows (numpy rewrite). | SURVIVAL +4 (2026-07-07, Pro floor-window 3): independent Pro anchored-PTE probe \u2014 gate reproduced exactly, all banked rows re-verified, and our open n=64 flank EXTENDED (complete exact h=5,6 sweeps at the first four primes above n^2: zero non-toral hits). Remaining flank by both sides' accounting: n=64, h >= 7. || FLIP-CHAIN ADDENDUM (2026-07-09, overnight flip branch integrated at merge daa30d2): h=3 obligation provably reduced (f3_h3_officialrow_conditional_close) to two named gates \u2014 conic rank deficit (Delta <= 2899 via kernel-bundle splitting, margin 52 of slack in the balanced form) + bridge rank-capacity (Z_4096_floor units) \u2014 under the official-row retarget H3-ACT(4096) (n = 2^s kills the toral term). Independent backup lanes: moment program (six star gates + M-bound), private-linear alternate (Delta <= 25). Remaining for the red beyond h=3: h=5 n=64 certificate completion, h=8 residual certification, h-ladder coverage audit.",
    "attack_surface": "anchored same-moment/PTE active-core families over mu_n at q >= n^2, especially boundary p = 1 mod n rows where stronger hn or n^2 trophies can fail; also the X4 row arithmetic after all explicit staircase columns are charged",
    "falsifier": "Pre-registered: a complete or certified row/slice with more than n^3 fully-stripped non-toral primitive active-core trades (post quotient/dihedral/moment/U2/DLI strips), or row arithmetic showing the direct column no longer fits. Pre-strip counts do NOT count.",
    "refs": [
@@ -4741,6 +4741,41 @@
    "id": "f5_lineray_saturation_instrument",
    "status": "PROVED",
    "statement": "F5 W-AGGREGATION INSTRUMENT (2026-07-08, P8; IMPORT from upstream grande_finale.tex thm:saturation + prop:line-ray-saturation, proof read + machine-replayed under our laws): the size-m agreement-support census factors EXACTLY through codeword rays, Cen(U;m) = sum_c C(s_c(U),m), fiber above ray c exactly C(s_c,m); line version sum_z Cen(U_z;m) = sum_{rays (z,c)} C(s_{z,c},m), so N_live_slopes <= #rays <= sum_z Cen(U_z;m). W-scan corollary (the form F5 consumes): sum_{|W|=k} #(rays through W) = sum_rays C(s_{z,c},k) \u2014 per-W pencil budgets aggregate by RAYS with an exact fiber factor, never by raw (W,z) pairs. Replay: f5_p8_lineray_saturation_modal.py, 14 pairs (random + near-pencil, n=12/16, q=97), full enumeration, all three identities EXACT; datum: n=16 near-pencil 8442 (W,z) pairs -> 160 rays -> 97 slopes. Consequence for F5-OS stratum (i): the naive C(n,k) aggregation factor is not real; the open reduces to the W-COLLISION count (#k-cores carrying >= 2 live slopes; per-W multiplicity <= (n-k)/(t-d) by the sunflower lemma) \u2014 a second-moment-shaped question adjacent to v13_second_moment_shift_pair_identity."
+  },
+  {
+   "id": "f3_exact_condition_profile",
+   "status": "PROVED",
+   "statement": "F3 EXACT CONDITION PROFILE (2026-07-09, Codex flip branch, replayed): the rich-curve reduced-condition count per repaired curve is exactly DA + 6D(D-1) (about 8% of the legacy 13D(A+D) on sample boxes); feeding the exact profile into the bridge-budget optimizer gives Z_exact = 33..21421 distinct-rank-effective-image units across official rows s=13..41 (legacy diagonal table 11..7420 retained as lower bound). RC-RED-PROFILE replaces RC-RED(13) in the strongest compiled chain. Verifier: frontier ledger + budget compilers in u1_x4 notes; aggregate replay green."
+  },
+  {
+   "id": "f3_officialrow_act4096_retarget",
+   "status": "PROVED",
+   "statement": "F3 OFFICIAL-ROW ACTIVATION RETARGET (2026-07-09, Codex flip branch, replayed): official rows have n = 2^s, which kills the toral term in the h=3 activation compiler; the arithmetic then accepts any uniform C <= 8191, and the banked midpoint target is official-row H3-ACT(4096) => T3 < n^3 on all official rows \u2014 256x weaker than the general H3-ACT(16) (which is retained as the stronger all-n target). Conservative retuning: exact-profile arithmetic accepts 64*Z_exact under H3-ACT(4096), giving Z_4096_floor = 2112..1370944 and bounded rank-deficit tolerance Delta <= 2899. Evidence scale: n=96 all-core scan max 27 deduped orbit activations vs budget 4096n."
+  },
+  {
+   "id": "f3_conic_chart_apparatus",
+   "status": "PROVED",
+   "statement": "F3 CONIC-CHART APPARATUS (2026-07-09, Codex flip branch, replayed): the actual h=3 same-fiber conic chart family is now rank-instrumented: (1) exact kernel-bundle formula codim = sum_i max(e_i - A, 0) for the boxed base product series, official balanced-slope margin >= 2951 vs allowance 2899 (margin-minus-allowance >= 52); (2) basepoint-freeness of the boxed series at official rows (B >= 34); (3) rank-good open set WITNESSED INSIDE THE ACTUAL FAMILY: conic chart p=769, a=37, b=706, base=(101,333) has full rank 320 = A*B^3 certified by an explicit minor (det 514 mod 769); (4) ROUTE-CUT: the chart polynomials satisfy P_U + P_V + P_W + aQ = 0, so separated-divisor arguments cannot prove full rank; (5) equivalent restatements of the remaining theorem: binary-form codimension, dual annihilator dim <= 2899 vs 6.5M product windows, kernel-bundle splitting excess. PGL2/Mobius rank invariance + the 3-parameter private-linear normal form (Y, (Y-1)/(Y-lambda), (Y-eta)/(Y-theta)) bank the alternate lane."
+  },
+  {
+   "id": "f3_moment_bookkeeping_program",
+   "status": "PROVED",
+   "statement": "F3 MOMENT BOOKKEEPING PROGRAM (2026-07-08/09, Codex flip branch, replayed; identity + proved reductions; named gates stay open): EXACT identity M = trivial + 72*T3 + repeat_residue over H^3 x H^3 signature coincidences sigma = (e1, e2), trivial = 36*C(n,3) + 9n(n-1) + n, factor 72 exact. Residue chain: repeat_residue <= (72*tau_coord + 18)n^2 where tau_coord = min hitting set of the active coordinate hypergraph (elementary <= 2-solutions fiber bound, no Stepanov); active edges have exact form xy + xz + yz = 0 (shifted), = 3-point H-fibers of A_lambda(T), S3-Mobius orbit structure; same-lambda obstruction product = -numerator(J(z) - J(y)) for J(z) = (1+z+z^2)^3/(z^2(1+z)^2). Boundary row (256, 65537) CERTIFIED: payment 5898240 < 256^3. Star reduction: tau_coord > 1 iff a <= 4-edge empty-intersection configuration; contrast row (97,32) has tau = 7, so the star theorem is boundary-regime only. OPEN: six strict branch gates (frontier ledger) + the M-side upper bound (sixth-moment-of-character-sums class; explicitly NOT assumed). If star holds in boundary regime: repeat_residue <= 90n^2 pays every official row."
+  },
+  {
+   "id": "f3_conic_rank_deficit_gate",
+   "status": "TARGET",
+   "statement": "F3 GATE (posed 2026-07-09): CONIC RANK DEFICIT \u2014 on official exact-profile boxes (retuned H3-ACT(4096) floor), the repaired same-fiber conic-chart image has substitution rank >= (L+1) - Delta with Delta <= 2899; via the kernel-bundle reduction it suffices to prove splitting excess sum_i max(e_i - A, 0) <= 2899 (balanced splitting would be stronger; official balanced-slope margin >= 2951). Calibration: actual-chart pilots at H = 20/24/32 have deficits 27/1/0; full-rank witness exists in the actual family. Falsifier shape: an official-box chart family with sustained splitting excess > 2899."
+  },
+  {
+   "id": "f3_h3_bridge_rankcap_gate",
+   "status": "TARGET",
+   "statement": "F3 GATE (posed 2026-07-09): BRIDGE RANK-CAPACITY \u2014 assign activated non-toral h=3 shape pairs to repaired conic-chart images with total consumed rank capacity <= Z_4096_floor(s) = 2112..1370944 (s = 13..41), counting rank-effective capacity units, never raw duplicate curves (duplicate images add conditions, not rank; official exact-profile boxes have one-image capacity exactly 1, so units = distinct images). Interface proved: conic bridge accounting (same-(e1,e2)-fiber base points are not new images); the separate L2/level-set target sum_z R_z(R_z - 6) <= 1152n is NOT implied by Z_exact and stays its own lane."
+  },
+  {
+   "id": "f3_h3_officialrow_conditional_close",
+   "status": "CONDITIONAL",
+   "statement": "F3 h=3 OFFICIAL-ROW CONDITIONAL CLOSE (2026-07-09, proved implication, machine-verified arithmetic on all official rows s = 13..41; frontier ledger replayed): IF f3_conic_rank_deficit_gate AND f3_h3_bridge_rankcap_gate THEN official-row H3-ACT(4096) holds, hence T3 < n^3 on all official rows. Chain: RC-RED-PROFILE (proved) + exact-profile budgets Z_4096_floor + retarget compiler. Backup lanes kept independent: (a) moment program (needs six star gates + M-bound), (b) private-linear alternate (Delta <= 25 on the 3-parameter normal form + matching bridge). NOTE: closes the h=3 stratum only; the x4 red also needs the h=5/h=8 finite certification residuals and the h-ladder coverage audit."
   }
  ],
  "edges": [
@@ -9247,6 +9282,46 @@
   {
    "from": "f5_lineray_saturation_instrument",
    "to": "xr_smallcore_spread_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_exact_condition_profile",
+   "to": "u1_x4_direct_column_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_officialrow_act4096_retarget",
+   "to": "u1_x4_direct_column_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_conic_chart_apparatus",
+   "to": "u1_x4_direct_column_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_moment_bookkeeping_program",
+   "to": "u1_x4_direct_column_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_conic_rank_deficit_gate",
+   "to": "f3_h3_officialrow_conditional_close",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_bridge_rankcap_gate",
+   "to": "f3_h3_officialrow_conditional_close",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_officialrow_conditional_close",
+   "to": "u1_x4_direct_column_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_conic_chart_apparatus",
+   "to": "f3_conic_rank_deficit_gate",
    "kind": "ev"
   }
  ]
