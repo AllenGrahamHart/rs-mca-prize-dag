@@ -739,3 +739,18 @@ s-induction is REPLACED by the direct s-sparse tower at the edge
 shapes — a shorter chain than designed. Thirty-one cycles: every
 flagged dependency of the campaign has now been either resolved
 positive, corrected, or banked as a no-go.
+
+## 41 — 2026-07-10: TRINOMIAL TOWER THEOREM (Part 1) PROVED — eleventh
+## satellite; the campaign's first mid-band root-count theorem
+
+Statement: Z <= min_j 2^j (2 span_j + 2), any odd characteristic,
+unconditional. Proof complete and elementary (coset split with
+coefficient absorption; per-coset unit substitution to the span
+normalization; Laurent-shift degree bound; collision cases closed —
+binomial fallback and the a0-nonvanishing guard). Soundness: 1200
+random trinomials at 4 scales, zero violations, worst ratio 0.33 —
+this attempt passes BOTH gates (contrast catch #10). Remaining on the
+char-q chain: Part 2 (span estimate <= C sqrt n — Dirichlet with the
+parity fix; C <= 3.2 measured at six scales) and the s-sparse
+application-shaped extension (proof extends verbatim; calibrated
+~12 sqrt n). The edge lemma then follows, then the crux assembly.
