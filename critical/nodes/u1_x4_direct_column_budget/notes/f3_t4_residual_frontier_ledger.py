@@ -32,6 +32,9 @@ from f3_h5_central_slice_cubic_normal_form import (
 from f3_h5_central_slice_formal_isolation import (
     formal_isolation_summary as h5_central_slice_formal_isolation_summary,
 )
+from f3_h5_central_finite_scheme_payment import (
+    finite_scheme_payment_summary as h5_central_finite_payment_summary,
+)
 from f3_h5_central_weighted_slice import (
     central_slice_summary as h5_central_slice_summary,
 )
@@ -115,6 +118,7 @@ def h5_summary() -> dict[str, int]:
     central_slice_quadratic = h5_central_slice_quadratic_summary()
     central_slice_cubic = h5_central_slice_cubic_summary()
     central_slice_formal_isolation = h5_central_slice_formal_isolation_summary()
+    central_finite_payment = h5_central_finite_payment_summary()
     central_fixedpoint = h5_central_fixedpoint_summary()
     central_slice_fixedpoint = h5_central_slice_fixedpoint_summary()
     unit_propagation = h5_unit_propagation_summary()
@@ -219,6 +223,8 @@ def h5_summary() -> dict[str, int]:
         "central_slice_formal_isolation_det_den": central_slice_formal_isolation[
             "det_den"
         ],
+        "central_finite_degree_product": central_finite_payment["degree_product"],
+        "central_finite_first_margin": central_finite_payment["first_margin"],
         "central_fixedpoint_max_terms": central_fixedpoint[
             "max_pre_cancellation_terms"
         ],
@@ -374,6 +380,8 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"{h5['central_slice_cubic_max_fixed_terms']}; "
                 f"formal isolated variables={h5['central_slice_formal_isolation_variables']}; "
                 f"slice fixed-point max degree={h5['central_slice_fixedpoint_max_degree']}; "
+                f"finite-slice payment K={h5['central_finite_degree_product']} "
+                f"first margin={h5['central_finite_first_margin']}; "
                 f"fixed-point pre-cancel max={h5['central_fixedpoint_max_terms']}; "
                 f"weighted rows={h5['weighted_pairwise_rows']}+"
                 f"{h5['weighted_unit_rows']}; "
@@ -381,7 +389,7 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"minor propagation syzygies={h5['minor_propagation_syzygies']}; "
                 f"unit propagation syzygies={h5['unit_propagation_syzygies']}"
             ),
-            "prove symbolic p-specific x83 norm-gate incompatibility or replace selected rows by a scalable certificate family",
+            "prove symbolic p-specific x83 norm-gate incompatibility, prove row-wise saturated central-slice zero-dimensionality, or replace selected rows by a scalable certificate family",
         ),
         FrontierNode(
             "T4-H6-H7-BUDGET",
@@ -476,6 +484,8 @@ def main() -> None:
         f"central_slice_fixedpoint_max_degree={h5['central_slice_fixedpoint_max_degree']} "
         f"central_slice_fixedpoint_degree_drop={h5['central_slice_fixedpoint_min_drop']}.."
         f"{h5['central_slice_fixedpoint_max_drop']} "
+        f"central_finite_K={h5['central_finite_degree_product']} "
+        f"central_finite_first_margin={h5['central_finite_first_margin']} "
         f"weighted_pairwise_rows={h5['weighted_pairwise_rows']} "
         f"weighted_unit_rows={h5['weighted_unit_rows']} "
         f"central_scaling_stabilizer={h5['central_scaling_stabilizer']} "

@@ -8485,3 +8485,48 @@ Expected digests:
 H3_EXACT_PROFILE_BRIDGE_CONTRACT_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
+
+## 2026-07-09 h=5 central finite-scheme payment
+
+Stage selected: weaken the h=5 central residual from emptiness to a sufficient
+finite-scheme payment condition.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_FINITE_SCHEME_PAYMENT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_finite_scheme_payment.py
+```
+
+The central slice fixed-point skeleton has degree bounds
+
+```text
+81, 72, 63, 54,
+```
+
+so a row-wise saturated zero-dimensional central slice has Bezout degree at
+most
+
+```text
+K = 19840464.
+```
+
+The official central scaling action is free on every row `n=2^s`, so such a
+finite central slice would contribute at most `K n` official points.  Since
+`K < (2^13)^2`, this is below `n^3` on every official row.  Thus h=5 central
+work no longer has to prove emptiness; row-wise saturated zero-dimensionality
+would already be enough.  This remains conditional and p-specific.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_finite_scheme_payment.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H5_CENTRAL_FINITE_SCHEME_PAYMENT_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```
