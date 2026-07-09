@@ -1180,3 +1180,25 @@ L <= 11,587 = 2^13.5] — the model theatre's stages are the
 FFT/NTT-prime rows, one per few octaves. Eighteenth catch, corrected
 same-cycle by the arithmetic gate. The theatre program stands with
 the corrected instance list.
+
+## 65 — 2026-07-10: CATCH #19 — the CMMM support threshold; the theatre
+## moves to theorem-only scales
+
+The composition's final hypothesis audit: CMMM Thm 1.2 requires
+support |v| >= 2^18 log p ~ 2^21; our coefficient vectors have
+support <= n, and at the named theatre instances n <= 2048 — LOG
+#63'S THEOREM CORE IS VACUOUS AT (257,128) AND (12289,2048). Catch
+#19 (the third consecutive quantitative-audit catch on this branch:
+#17 compounding, #18 instance list, #19 support threshold — the
+discipline grinding the composition against every printed constant).
+CORRECTED REGIME: n >= 2^18 log n ~ 2^23 AND p <= (3/8) n^{3/2} AND
+p = 1 mod n — instances exist (Linnik-density NTT-type primes at
+n >= 2^23) but are beyond enumeration: the k=1 theatre is
+THEOREM-ONLY (hypotheses verified, no empirical stage — the theorem
+stands on the two verified citations at scales where their printed
+thresholds genuinely hold). Follow-up: threshold-shopping (LO
+variants with weaker support requirements would restore empirical
+stages). The campaign's honest arc on this branch: a promising bridge
+-> three audits -> a true theorem in a real but unreachable-by-
+enumeration regime. Every constant of both citations is now
+load-bearing and checked.
