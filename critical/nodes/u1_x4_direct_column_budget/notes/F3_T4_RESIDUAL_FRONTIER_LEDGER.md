@@ -137,6 +137,9 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   `1..13`, and the unit rows have weight `0`.  The chart-7 official scaling
   ledger proves the finite `mu_n` action is free on chart 7 for all official
   rows because `gcd(7,2^s)=1`.
+  The odd-chart partition packet promotes the parity-reduction cover to a
+  structural disjoint partition: every non-antipodal x83 full-zero support
+  routes uniquely to chart `7,5,3,1` by the first nonzero high odd coefficient.
   The odd-chart router turns the parity reduction into a deterministic
   chart-priority interface `7,5,3,1`, so future certifiers can route canonical
   supports without double-counting.  Its replay is only a bounded prefix dry

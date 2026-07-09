@@ -91,6 +91,9 @@ from f3_h8_chart7_graph_reduction import chart7_graph_summary as h8_chart7_summa
 from f3_h8_chart7_official_scaling_action import (
     official_scaling_summary as h8_chart7_scaling_summary,
 )
+from f3_h8_odd_chart_partition import (
+    odd_chart_partition_summary as h8_odd_chart_partition_summary,
+)
 from f3_h8_odd_chart_router import router_summary as h8_odd_chart_router_summary
 from f3_h8_odd_chart_recovery_compiler import (
     odd_chart_recovery_summary as h8_odd_chart_summary,
@@ -367,6 +370,7 @@ def h8_summary() -> dict[str, int]:
     chart7_fixedpoint = h8_chart7_fixedpoint_summary()
     weighted = h8_weight_summary()
     chart7_scaling = h8_chart7_scaling_summary()
+    partition = h8_odd_chart_partition_summary()
     router = h8_odd_chart_router_summary()
     if (
         aperiodic["nonantipodal_rotation_orbits"]
@@ -428,6 +432,9 @@ def h8_summary() -> dict[str, int]:
         "weighted_pairwise_max": weighted["max_pairwise_weight"],
         "chart7_scaling_rows": chart7_scaling["rows"],
         "chart7_scaling_stabilizer": chart7_scaling["max_stabilizer_size"],
+        "partition_priority_charts": partition["priority_charts"],
+        "partition_first_chart": partition["first_chart"],
+        "partition_last_chart": partition["last_chart"],
         "router_priority_charts": router["priority_charts"],
         "router_sample_processed": router["processed"],
         "router_sample_routed": router["routed"],
@@ -530,6 +537,8 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"weights pairwise={h8['weighted_pairwise_min']}.."
                 f"{h8['weighted_pairwise_max']} "
                 f"chart7_stabilizer={h8['chart7_scaling_stabilizer']}; "
+                f"partition={h8['partition_first_chart']}.."
+                f"{h8['partition_last_chart']} "
                 f"router_priority={h8['router_priority_charts']} "
                 f"sample_routed={h8['router_sample_routed']}/"
                 f"{h8['router_sample_processed']}"

@@ -7796,6 +7796,42 @@ Expected digest:
 H3_CONIC_BOX_BASEPOINT_FREE_PASS
 ```
 
+## 2026-07-09 h=8 odd-chart structural partition
+
+Stage selected: promote the h=8 odd-chart priority rule from dry-run router
+machinery to a proved structural cover.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_PARTITION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_partition.py
+```
+
+The parity reduction proves that a non-antipodal x83 full-zero support has at
+least one nonzero high odd locator coefficient among `c15,c13,c11,c9`.  The new
+packet defines a disjoint priority route
+
+```text
+c9 -> chart 7, c11 -> chart 5, c13 -> chart 3, c15 -> chart 1.
+```
+
+Existence comes from the parity reduction; uniqueness comes from the first-live
+priority rule.  This does not certify any support, but future h=8 certifiers can
+now cite a proved chart partition rather than the bounded router sample.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_partition.py
+```
+
+Expected digest:
+
+```text
+H8_ODD_CHART_PARTITION_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without
