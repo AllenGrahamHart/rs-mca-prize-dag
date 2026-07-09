@@ -35,6 +35,10 @@ F3-RANK-AVOID / RC-NV: OPEN
   Feeding this exact profile into the bridge-budget optimizer gives the
   alternate conditional budget `Z_exact=33..21421`, with total gain `51451`
   over the active non-diagonal table.
+  After retargeting the official-row activation compiler to `H3-ACT(4096)`,
+  a constructive exact-profile floor gives
+  `Z_4096_floor=2112..1370944 = 64 * Z_exact`; this is not maximal, but its
+  pinned witnesses use at most `576927` ppm of the `4096n` activation target.
   The exact-profile rank-capacity guard verifies that, on these official
   boxes, a degree-space-full repaired image has capacity exactly `1` and the
   constant-ratio collapsed model has capacity `0`; the larger budget therefore
@@ -155,6 +159,9 @@ official-row H3-ACT(4096) => T3 < n^3 on all official rows,
 and the largest uniform integer accepted by this arithmetic compiler is
 `H3-ACT(8191)`.  The current rank-capacity budgets are still stated for the
 stronger `H3-ACT(16)` until a separate retuning packet replaces them.
+One conservative retuning packet is now banked: the exact-profile arithmetic
+accepts `64 * Z_exact` under `H3-ACT(4096)`, giving
+`Z_4096_floor=2112..1370944` for a future bridge theorem.
 
 The legacy degree-2 route remains valid but weaker:
 

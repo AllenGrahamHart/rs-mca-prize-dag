@@ -182,6 +182,8 @@ def residual_data():
         "h3_activation_max_deduped_count": activation["max_deduped_count"],
         "h3_exact_z_min": budgets["z_exact_profile_min"],
         "h3_exact_z_max": budgets["z_exact_profile_max"],
+        "h3_exact_4096_z_min": budgets["z_exact_4096_min"],
+        "h3_exact_4096_z_max": budgets["z_exact_4096_max"],
         "h3_exact_min_allowed_deficit": budgets["exact_profile_min_allowed_deficit"],
         "h3_private_min_allowed_deficit": budgets["private_min_allowed_deficit"],
         "h3_repeat_strict_gates": len(repeat),
@@ -218,6 +220,8 @@ def residual_data():
         "h3_activation_max_deduped_count": 27,
         "h3_exact_z_min": 33,
         "h3_exact_z_max": 21421,
+        "h3_exact_4096_z_min": 2112,
+        "h3_exact_4096_z_max": 1370944,
         "h3_exact_min_allowed_deficit": 1847,
         "h3_private_min_allowed_deficit": 25,
         "h3_repeat_strict_gates": 7,
@@ -265,6 +269,8 @@ def main() -> None:
         f"activation_deduped_orbits={summary['h3_activation_deduped_orbits']} "
         f"deduped_max_per_prime={summary['h3_activation_max_deduped_count']} "
         f"Z_exact={summary['h3_exact_z_min']}..{summary['h3_exact_z_max']} "
+        f"Z_exact_4096_floor={summary['h3_exact_4096_z_min']}.."
+        f"{summary['h3_exact_4096_z_max']} "
         f"exact_deficit_min={summary['h3_exact_min_allowed_deficit']} "
         f"private_deficit_min={summary['h3_private_min_allowed_deficit']} "
         f"repeat_strict_gates={summary['h3_repeat_strict_gates']} "

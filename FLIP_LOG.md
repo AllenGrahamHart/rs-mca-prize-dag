@@ -7966,6 +7966,41 @@ H3_FRONTIER_LEDGER_PASS
 F3_FLIP_RESIDUAL_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=3 exact-profile 4096 budget floor
+
+Stage selected: retune the exact-profile bridge arithmetic constructively under
+the weaker official-row activation target.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_4096_BUDGET_FLOOR.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_4096_budget_floor.py
+```
+
+The packet pins explicit exact-profile witnesses showing that every official
+`Z_exact` row can be multiplied by `64` under `H3-ACT(4096)`:
+
+```text
+Z_exact_4096_floor = 2112..1370944 = 64 * (33..21421).
+```
+
+This is only a conservative floor, not a maximal retuning and not the bridge
+theorem.  It means a future bridge/rank proof may target a much larger
+rank-effective image budget if it proves official-row `H3-ACT(4096)`.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_4096_budget_floor.py
+```
+
+Expected digest:
+
+```text
+H3_EXACT_PROFILE_4096_BUDGET_FLOOR_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without

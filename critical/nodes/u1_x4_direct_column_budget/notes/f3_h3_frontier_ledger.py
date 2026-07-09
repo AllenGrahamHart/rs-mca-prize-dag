@@ -34,6 +34,7 @@ from f3_h3_private_linear_rank_deficit_budget import (
 )
 from f3_h3_rank_effective_bridge import EXPECTED_CAPACITIES, PINNED_RANKS, rank_capacity
 from f3_h3_exact_profile_bridge_budget import exact_profile_budget_summary
+from f3_h3_exact_profile_4096_budget_floor import retarget_summary as exact_4096_summary
 from f3_h3_conic_chart_linear_relation_guard import linear_relation_guard_summary
 from f3_h3_conic_chart_largegap_pilot import largegap_pilot_summary
 from f3_h3_conic_binary_form_target import conic_binary_form_summary
@@ -109,6 +110,7 @@ def official_budget_summary() -> dict[str, int]:
     lineage = budget_lineage_summary()
     exact_contract = exact_profile_bridge_contract_summary()
     exact_profile = exact_profile_budget_summary()
+    exact_4096 = exact_4096_summary()
     conic_relation = linear_relation_guard_summary()
     conic_largegap = largegap_pilot_summary()
     conic_binary = conic_binary_form_summary()
@@ -127,6 +129,8 @@ def official_budget_summary() -> dict[str, int]:
         raise AssertionError(exponents)
     if private_exponents != expected:
         raise AssertionError(private_exponents)
+    if exact_4096["budget_multiplier"] != 64 or exact_4096["target_c"] != 4096:
+        raise AssertionError(exact_4096)
     return {
         "first_s": 13,
         "last_s": 41,
@@ -139,6 +143,10 @@ def official_budget_summary() -> dict[str, int]:
         "z_exact_profile_min": exact_profile["exact_min"],
         "z_exact_profile_max": exact_profile["exact_max"],
         "z_exact_profile_gain_total": exact_profile["gain_total"],
+        "z_exact_4096_min": exact_4096["min_z"],
+        "z_exact_4096_max": exact_4096["max_z"],
+        "z_exact_4096_multiplier": exact_4096["budget_multiplier"],
+        "z_exact_4096_max_ratio_ppm": exact_4096["max_ratio_ppm"],
         "exact_profile_contract_rows": exact_contract["rows"],
         "exact_profile_contract_l2_target": exact_contract["l2_target_multiplier"],
         "exact_profile_degree_capacity_min": exact_capacity["degree_space_capacity_min"],
@@ -361,6 +369,11 @@ def frontier_gates(
                 f"Z={budgets['z_exact_profile_min']}.."
                 f"{budgets['z_exact_profile_max']} "
                 f"(total gain {budgets['z_exact_profile_gain_total']}); "
+                f"official H3-ACT(4096) has a constructive exact-profile "
+                f"floor Z={budgets['z_exact_4096_min']}.."
+                f"{budgets['z_exact_4096_max']} "
+                f"({budgets['z_exact_4096_multiplier']}x, "
+                f"max ratio {budgets['z_exact_4096_max_ratio_ppm']} ppm); "
                 f"official exact-profile boxes have one-image degree-space "
                 f"capacity {budgets['exact_profile_degree_capacity_min']}.."
                 f"{budgets['exact_profile_degree_capacity_max']} and "
@@ -501,6 +514,8 @@ def main() -> None:
         f"Z_budget={budgets['z_budget_min']}..{budgets['z_budget_max']} "
         f"Z_exact_profile={budgets['z_exact_profile_min']}.."
         f"{budgets['z_exact_profile_max']} "
+        f"Z_exact_4096_floor={budgets['z_exact_4096_min']}.."
+        f"{budgets['z_exact_4096_max']} "
         f"(legacy_diag={budgets['diagonal_z_budget_min']}..{budgets['diagonal_z_budget_max']}) "
         f"Z_private={budgets['z_private_min']}..{budgets['z_private_max']} "
         f"private_sep_margin={budgets['private_separation_margin']} "

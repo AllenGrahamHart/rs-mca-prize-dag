@@ -38,8 +38,9 @@ T4:
 
 The top-level F3 flip is still open for two reasons.
 
-First, the h=3 route still needs a proof of `H3-ACT(16)` or a replacement by
-official-row activation certificates.  The current route to `H3-ACT(16)` is
+First, the h=3 route still needs a proof of official-row `H3-ACT(4096)`, the
+stronger `H3-ACT(16)`, or a replacement by official-row activation
+certificates.  The current route to `H3-ACT(16)` is
 not a single numerical gap: it runs through rank/nonvanishing, rank-capacity
 bridge accounting, and the repeat-boundary star route.  The strongest current
 degree-2 budget has `Z_exact=33..21421`; a bounded rank-deficit theorem with
@@ -50,6 +51,8 @@ The current bridge/rank interfaces target `H3-ACT(16)`, but the official-row
 T3 arithmetic can be retuned to a weaker target; `H3-ACT(4096)` keeps about a
 factor-two first-row margin, and `H3-ACT(8191)` is the largest uniform integer
 accepted by this compiler.
+A conservative exact-profile retuning is now banked for the weaker target:
+`Z_exact_4096_floor=2112..1370944 = 64 * Z_exact`, with no maximality claim.
 
 Second, T4 has been reduced to the h=8 non-antipodal x83 branch.  The current
 remaining certificate scale is
