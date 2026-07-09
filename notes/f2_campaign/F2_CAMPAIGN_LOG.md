@@ -1562,3 +1562,16 @@ integration trigger has NOT fired (h8 tail converging at 2^29;
 splitting control open; the H3_CONIC_* passes are guardrails/models
 per their ledger); no action due; one-writer rule intact.
 Eighty-four entries.
+
+## 85 — 2026-07-10: THE CONDITIONAL CLOSE — the campaign as wired DAG
+## structure; the red reduces to one named input
+
+f2_growing_order_myerson (TARGET: the summit as a first-class node)
++ f2_conditional_close (CONDITIONAL, req from the summit, ev -> u2c)
+— the exact house pattern (F3's conditional close; F5's kernel-
+conditional). The assembly arithmetic: empty band 0 + edge band 0 +
+fixed/symmetric sectors 1+o(1) + moving interior <= mean x tolerance
+<< n^3 — every non-summit link PROVED. The F2 red now reduces AS DAG
+STRUCTURE to exactly one named open input. This is the campaign's
+final structural act: the 85-entry record compiled into the graph
+the program navigates by. Eighty-five entries.
