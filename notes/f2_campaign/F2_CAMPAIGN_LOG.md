@@ -906,3 +906,22 @@ experiment at F_25 (edge/interior censuses vs the ladder prediction),
 then the ladder write-up, then crux assembly (= empty band + edge
 band + laddered interior + struct census + consumer replay), then L5.
 The campaign's remaining mathematics: one testable recursion.
+
+## 51 — 2026-07-10: ladder corrected (catch #14); interior collapsed to
+## one fixed census; first slot-bearing empirical datum — extras 0
+
+CATCH #14 (pre-experiment, self-caught in design): log #50's "Abar
+inherits ~t/p gap conditions" is FALSE — in char p, Abar^p reproduces
+any Abar exactly on the p-lattice; the gap conditions constrain Abar
+not at all. The level-1 freedom is killed by the SPLITTING filter
+(ell*_S | X^n - 1), not by gap conditions. CORRECTED LADDER (stronger
+where it counts): the interior for ALL block sizes collapses to ONE
+fixed splitting census over the ~33-parameter Abar-space — b-independent.
+FIRST INTERIOR DATA: (F_49, n=16, t=8): zero t-null blocks at slot-
+bearing sizes (struct unavailable there — consistent, vacuous);
+(F_25, n=24, t=5, live slot + live struct): ALL 5-null blocks at
+b = 6/7/8 are coset unions — EXTRAS = 0 in a slot-bearing regime: the
+splitting filter is empirically total at the toy. The dichotomy now
+has: proved bands (empty + edge) and its first interior data point
+(clean). Chain: the 33-parameter splitting census (the single
+remaining object) -> crux assembly -> L5.
