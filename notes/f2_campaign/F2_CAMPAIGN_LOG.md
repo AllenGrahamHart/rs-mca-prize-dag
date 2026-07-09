@@ -1428,3 +1428,24 @@ content, with the proved base one step below it. The campaign's
 terminal object: a sixteen-rung tower, base proved, every rung the
 same shaped question, the first rung named and minimal.
 Seventy-six entries.
+
+## 77 — 2026-07-10: the first descent DECOMPOSES — the summit's content
+## in its final, classical name: GAUSS-PERIOD ANTI-CONCENTRATION
+
+Level-1 structure: phi^2 = id on mu_{2^25}, so phi is an INVOLUTION
+(x <-> x^p; fixed points mu_{2^24}). Every level-1 block splits into
+SYMMETRIC (whole pairs) and ASYMMETRIC (split pairs) parts. The
+symmetric part: conditions are trace-real — a k=1-type census on the
+2^24-element PAIR SPACE, IN the analytic regime: the proved machinery
+applies. The asymmetric part: carries the imaginary/trace-complement
+conditions, whose coefficient systems are the trace fibers of
+subgroup values — GAUSS PERIODS. Their anti-concentration is exactly
+what the n < sqrt(q) wall blocks (period sums face the same
+dimensional wall; Gauss-sum bounds vacuous). BY SELF-SIMILARITY every
+tower rung has the same shape. THE SUMMIT'S CONTENT, final classical
+name: ANTI-CONCENTRATION OF GAUSS-PERIOD SUMS in the moving
+directions of the Frobenius tower — a named, classical-adjacent open
+problem (the level-set theory of Gauss periods), with: a proved base,
+a proved symmetric sector at every level, fifteen satellites of
+machinery, nine no-gos, and the entire campaign record beneath it.
+Seventy-seven entries.
