@@ -9295,3 +9295,36 @@ Expected digests:
 H8_RANK_ONE_CHART_PROPAGATION_PASS
 H8_ODD_CHART_RECOVERY_COMPILER_PASS
 ```
+
+## 2026-07-09 h=8 chart-7 graph reduction
+
+Stage selected: sharpen the smallest h=8 odd chart without expanding the
+global fixed-point substitution.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_CHART7_GRAPH_REDUCTION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_graph_reduction.py
+```
+
+On chart `bar_c9 != 0`, official conjugation gives `c9 != 0`; the row `N7`
+then forces `P7` and `conjugate(P7)` to be nonzero.  After saturation, the
+seven incident minors solve all non-chart bar variables over `P7`.
+
+The replay verifies seven graph rows with total graph terms `710`; `P7` has
+`29` terms and `N7` has `842` terms.  A direct full substitution into `N7`
+hit the local 60-second cap, so this packet records the lazy graph form as the
+right primitive for the next chart-7 attack.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_graph_reduction.py
+```
+
+Expected digest:
+
+```text
+H8_CHART7_GRAPH_REDUCTION_PASS
+```

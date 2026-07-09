@@ -84,6 +84,7 @@ from f3_h8_nonantipodal_aperiodic import count_summary as h8_aperiodic_summary
 from f3_h8_rotation_orbit_compiler import EXPECTED as H8_ROTATION_EXPECTED
 from f3_h8_support_universe_compiler import EXPECTED as H8_SUPPORT_EXPECTED
 from f3_h8_basefree_reciprocal_system import basefree_summary as h8_basefree_summary
+from f3_h8_chart7_graph_reduction import chart7_graph_summary as h8_chart7_summary
 from f3_h8_odd_chart_recovery_compiler import (
     odd_chart_recovery_summary as h8_odd_chart_summary,
 )
@@ -354,6 +355,7 @@ def h8_summary() -> dict[str, int]:
     basefree = h8_basefree_summary()
     unit_norm = h8_unit_norm_summary()
     odd_chart = h8_odd_chart_summary()
+    chart7 = h8_chart7_summary()
     if (
         aperiodic["nonantipodal_rotation_orbits"]
         != actual_rotation["nonantipodal_rotation_orbits"]
@@ -395,6 +397,10 @@ def h8_summary() -> dict[str, int]:
         "odd_chart_max_degree": odd_chart["max_chart_max_degree"],
         "odd_chart_minor_syzygies": odd_chart["minor_syzygies"],
         "odd_chart_unit_syzygies": odd_chart["unit_syzygies"],
+        "chart7_graph_rows": chart7["graph_rows"],
+        "chart7_total_graph_terms": chart7["total_graph_terms"],
+        "chart7_p7_terms": chart7["chart_part_terms"],
+        "chart7_n7_terms": chart7["unit_terms"],
         **actual_support,
         **actual_rotation,
     }
@@ -485,7 +491,9 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"odd charts={h8['odd_chart_count']} "
                 f"terms={h8['odd_chart_min_terms']}..{h8['odd_chart_max_terms']} "
                 f"propagation=({h8['odd_chart_minor_syzygies']},"
-                f"{h8['odd_chart_unit_syzygies']})"
+                f"{h8['odd_chart_unit_syzygies']}); "
+                f"chart7 graph_terms={h8['chart7_total_graph_terms']} "
+                f"P7_terms={h8['chart7_p7_terms']} N7_terms={h8['chart7_n7_terms']}"
             ),
             (
                 "certify "
@@ -634,6 +642,13 @@ def main() -> None:
         f"max_degree={h8['odd_chart_max_degree']} "
         f"minor_syzygies={h8['odd_chart_minor_syzygies']} "
         f"unit_syzygies={h8['odd_chart_unit_syzygies']}"
+    )
+    print(
+        "h=8 chart-7 graph reduction: "
+        f"graph_rows={h8['chart7_graph_rows']} "
+        f"total_graph_terms={h8['chart7_total_graph_terms']} "
+        f"P7_terms={h8['chart7_p7_terms']} "
+        f"N7_terms={h8['chart7_n7_terms']}"
     )
     print("F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS")
 

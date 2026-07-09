@@ -57,6 +57,11 @@ This isolates the h=8 symbolic residual to four explicit local systems.  Chart
 `7` is the smallest immediate target; chart `1` is the largest because it
 contains `N1`.
 
+The companion `F3_H8_CHART7_GRAPH_REDUCTION.md` sharpens chart `7`: the seven
+incident minors solve all non-chart bar variables over `P7`, and `N7` forces
+that denominator to be live on the official chart after saturation by
+`c9*bar_c9`.
+
 ## Role In h=8
 
 This packet does not prove that the local systems are empty.  It replaces the

@@ -125,6 +125,9 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   suffice.  The four local systems have `1552..20977` total terms and maximum
   degree `30`; the rank-one propagation packet proves that these local systems
   recover the full base-free reciprocal/unit surface after chart saturation.
+  The chart-7 graph reduction sharpens the smallest chart: its seven incident
+  minors solve all non-chart bar variables over `P7`; the graph has `710` total
+  terms, with `P7` having `29` terms and `N7` having `842` terms.
   Residual: certify 122,131,731,640,320 anchored non-antipodal 16-supports
   (7,633,233,227,520 aperiodic rotation orbits), or build a sharded signature
   join avoiding the blind left table.
@@ -178,6 +181,7 @@ h8 antipodal quotient
   + h8 unit-norm reciprocal gate
   + h8 odd-chart recovery compiler
   + h8 rank-one chart propagation
+  + h8 chart-7 graph reduction
   + residual frontier/support-universe audits
   => T4-H8-N64-NONANTIPODAL-X83 remains the only h=8 blocker
 ```
