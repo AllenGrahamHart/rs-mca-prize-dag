@@ -304,6 +304,9 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 15. The h=3 arithmetic interfaces now cover every official row.  The current
    non-diagonal route is:
    `F3-RANK-AVOID + H3-BRIDGE-RANKCAP(Z_budget(s)) => H3-ACT(16)`.
+   The active `Z_budget` table is the non-diagonal one, with range
+   `16..10795`; the older diagonal bridge-budget table is only a legacy lower
+   bound with range `11..7420`.
    The private-linear alternate route is:
    `F3-PRIVATE-LINEAR-RANK-AVOID + H3-BRIDGE-PRIVATE-RANKCAP(Z_private(s)) => H3-ACT(16)`.
 16. h=5 has been structurally localized.  Since `5` is not dyadic, the
@@ -312,12 +315,18 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    compiled into a triangular system
    `D_j E_j = -D_j l_j + P_j(l5,...,l9)`, giving exact per-key
    norm-divisor bounds and reciprocal high-coefficient equations for the
-   remaining branch.
+   remaining branch.  Eliminating the shared support product `delta` now gives
+   three pairwise delta-free compatibility equations plus the central
+   `l5=delta*bar_l5` compatibility row, four equations total with max total
+   degree `10`.
 17. h=8 has an intrinsic antipodal split: a 16-support in `mu_64` is antipodal
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.
 18. The h=8 x83 support-to-trade reduction is compatible with root-scaling
-    rotations, up to swapping the two recovered sides.
+    rotations, up to swapping the two recovered sides.  The safe rotation
+    quotient reduces the non-antipodal residual to `7,633,233,227,520` support
+    orbits, but exponent-unit maps and reflection remain refuted as x83
+    symmetries.
 
 ### Conditional but useful
 
@@ -334,7 +343,8 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    certificate pile.
 5. If every non-antipodal h=8 n=64 x83 support is certified nonzero, or an
    equivalent sharded signature join is supplied, the current h=8 residual
-   should close.
+   should close.  With only proved rotation canonicalization, the support-first
+   target is `7,633,233,227,520` non-antipodal orbits.
 
 ### Evidence only
 

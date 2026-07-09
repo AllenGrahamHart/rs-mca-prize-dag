@@ -7181,3 +7181,66 @@ H3_REPEAT_SUPPORT_CROSSOVER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 elapsed=43.61 maxrss=53264
 ```
+
+## 2026-07-09 resumed frontier tightening
+
+Stage selected: proof-surface tightening on the current h=3/T4 blockers, with
+no broad numerical sweep.  The aim was to prevent stale interfaces from
+misdirecting the next theorem attempt.
+
+Banked commits:
+
+```text
+13ed128 Add h3 conic bridge accounting ledger
+526b3ee Clarify h3 repeat count-route frontier
+496865d Add h5 reciprocal compatibility compiler
+642160d Record h8 rotation-orbit residual target
+60d0105 Add h5 central reciprocal compatibility row
+949a1ac Add h3 bridge-budget lineage ledger
+```
+
+Key results:
+
+```text
+h=3 conic bridge: charge one conic image/key per same-(e1,e2) fiber,
+not one per ordered triple or basepoint.
+
+h=3 repeat frontier: strict route has seven gates; count route pays the
+lambda=1 scale branch and leaves six strict gates.
+
+h=3 bridge budget: active Z_budget is the non-diagonal table 16..10795;
+the diagonal 11..7420 table is legacy only.
+
+h=5 norm gate: reciprocal elimination gives four delta-free equations:
+C14,C24,C34 plus central C54, with max total degree 10.
+
+h=8 residual: safe rotation canonicalization reduces the non-antipodal
+support target to 7,633,233,227,520 orbits, still far from a direct
+laptop-scale enumeration.
+```
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_bridge_accounting_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_lineage.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_reciprocal_compatibility_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_CONIC_BRIDGE_ACCOUNTING_LEDGER_PASS
+H3_REPEAT_FRONTIER_LEDGER_PASS
+H3_BRIDGE_BUDGET_LINEAGE_PASS
+H5_RECIPROCAL_COMPATIBILITY_COMPILER_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+H3_FRONTIER_LEDGER_PASS
+```
+
+Residual next targets remain unchanged: finite-row-valid h=3 rank/minor
+avoidance plus the matching bridge assignment, symbolic h=5 norm-gate
+incompatibility, and h=8 non-antipodal support certification.
