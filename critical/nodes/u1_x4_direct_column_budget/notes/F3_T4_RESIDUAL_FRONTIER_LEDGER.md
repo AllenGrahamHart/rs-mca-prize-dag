@@ -123,7 +123,8 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   every non-antipodal x83 survivor lies on one of four odd charts
   `c15,c13,c11,c9`, where seven incident minors plus one matching Hermitian row
   suffice.  The four local systems have `1552..20977` total terms and maximum
-  degree `30`.
+  degree `30`; the rank-one propagation packet proves that these local systems
+  recover the full base-free reciprocal/unit surface after chart saturation.
   Residual: certify 122,131,731,640,320 anchored non-antipodal 16-supports
   (7,633,233,227,520 aperiodic rotation orbits), or build a sharded signature
   join avoiding the blind left table.
@@ -176,6 +177,7 @@ h8 antipodal quotient
   + h8 base-free reciprocal system
   + h8 unit-norm reciprocal gate
   + h8 odd-chart recovery compiler
+  + h8 rank-one chart propagation
   + residual frontier/support-universe audits
   => T4-H8-N64-NONANTIPODAL-X83 remains the only h=8 blocker
 ```

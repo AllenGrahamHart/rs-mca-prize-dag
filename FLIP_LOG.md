@@ -9258,3 +9258,40 @@ Expected digest:
 ```text
 H8_ODD_CHART_RECOVERY_COMPILER_PASS
 ```
+
+## 2026-07-09 h=8 rank-one chart propagation
+
+Stage selected: prove the abstract propagation identities supporting the h=8
+odd-chart local systems.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_RANK_ONE_CHART_PROPAGATION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_rank_one_chart_propagation.py
+```
+
+For eight reciprocal slots `(A_i,B_i)`, the compiler verifies:
+
+```text
+B_i*C_jk + B_k*C_ij - B_j*C_ik = 0
+B_i*bar_B_i*N_j - B_j*bar_B_j*N_i in <C_ij,conj(C_ij)>.
+```
+
+Thus on a nonzero chart, seven incident minors imply the other `21` minors,
+and one unit row implies the other `7` unit rows after conjugate saturation.
+The replay records `168` minor syzygies and `56` unit syzygies.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_rank_one_chart_propagation.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_recovery_compiler.py
+```
+
+Expected digests:
+
+```text
+H8_RANK_ONE_CHART_PROPAGATION_PASS
+H8_ODD_CHART_RECOVERY_COMPILER_PASS
+```

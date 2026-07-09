@@ -10,6 +10,7 @@ from f3_h8_basefree_reciprocal_system import (
     pairwise_rows,
     reciprocal_slots,
 )
+from f3_h8_rank_one_chart_propagation import chart_propagation_summary
 from f3_h8_unit_norm_reciprocal_gate import unit_norm_rows, unit_norm_summary
 from f3_h8_x83_parity_reduction import parity_reduction_summary
 
@@ -92,6 +93,7 @@ def chart_system_profiles() -> tuple[ChartSystemProfile, ...]:
 def odd_chart_recovery_summary() -> dict[str, int]:
     parity = parity_reduction_summary()
     basefree = basefree_summary()
+    propagation = chart_propagation_summary()
     unit_norm = unit_norm_summary()
     rows = odd_chart_rows()
     profiles = chart_system_profiles()
@@ -166,10 +168,16 @@ def odd_chart_recovery_summary() -> dict[str, int]:
         raise AssertionError(parity)
     if basefree["pairwise_equations"] != 28 or unit_norm["equations"] != 7:
         raise AssertionError((basefree, unit_norm))
+    if propagation["incident_minors_per_chart"] != 7:
+        raise AssertionError(propagation)
 
     return {
         "odd_charts": len(rows),
         "incident_minors_per_chart": len(rows[0].incident_minors),
+        "nonincident_minors_per_chart": propagation["nonincident_minors_per_chart"],
+        "unit_targets_per_chart": propagation["unit_targets_per_chart"],
+        "minor_syzygies": propagation["minor_syzygies"],
+        "unit_syzygies": propagation["unit_syzygies"],
         "equations_per_chart": min(row.equations for row in profiles),
         "min_chart_total_terms": min(row.total_terms for row in profiles),
         "max_chart_total_terms": max(row.total_terms for row in profiles),
@@ -204,12 +212,16 @@ def main() -> None:
         "summary: "
         f"odd_charts={summary['odd_charts']} "
         f"incident_minors_per_chart={summary['incident_minors_per_chart']} "
+        f"nonincident_minors_per_chart={summary['nonincident_minors_per_chart']} "
+        f"unit_targets_per_chart={summary['unit_targets_per_chart']} "
         f"equations_per_chart={summary['equations_per_chart']} "
         f"chart_terms={summary['min_chart_total_terms']}.."
         f"{summary['max_chart_total_terms']} "
         f"chart_max_degrees={summary['min_chart_max_degree']}.."
         f"{summary['max_chart_max_degree']} "
         f"max_unit_terms={summary['max_unit_terms']} "
+        f"minor_syzygies={summary['minor_syzygies']} "
+        f"unit_syzygies={summary['unit_syzygies']} "
         f"basefree_pairwise_equations={summary['basefree_pairwise_equations']} "
         f"parity_high_odd_degrees={summary['parity_high_odd_degrees']}"
     )

@@ -393,6 +393,8 @@ def h8_summary() -> dict[str, int]:
         "odd_chart_min_terms": odd_chart["min_chart_total_terms"],
         "odd_chart_max_terms": odd_chart["max_chart_total_terms"],
         "odd_chart_max_degree": odd_chart["max_chart_max_degree"],
+        "odd_chart_minor_syzygies": odd_chart["minor_syzygies"],
+        "odd_chart_unit_syzygies": odd_chart["unit_syzygies"],
         **actual_support,
         **actual_rotation,
     }
@@ -481,7 +483,9 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"unit-norm rows={h8['unit_norm_equations']} "
                 f"max_degree={h8['unit_norm_max_total_degree']}; "
                 f"odd charts={h8['odd_chart_count']} "
-                f"terms={h8['odd_chart_min_terms']}..{h8['odd_chart_max_terms']}"
+                f"terms={h8['odd_chart_min_terms']}..{h8['odd_chart_max_terms']} "
+                f"propagation=({h8['odd_chart_minor_syzygies']},"
+                f"{h8['odd_chart_unit_syzygies']})"
             ),
             (
                 "certify "
@@ -627,7 +631,9 @@ def main() -> None:
         "h=8 odd-chart recovery: "
         f"charts={h8['odd_chart_count']} "
         f"chart_terms={h8['odd_chart_min_terms']}..{h8['odd_chart_max_terms']} "
-        f"max_degree={h8['odd_chart_max_degree']}"
+        f"max_degree={h8['odd_chart_max_degree']} "
+        f"minor_syzygies={h8['odd_chart_minor_syzygies']} "
+        f"unit_syzygies={h8['odd_chart_unit_syzygies']}"
     )
     print("F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS")
 

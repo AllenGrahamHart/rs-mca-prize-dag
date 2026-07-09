@@ -52,6 +52,8 @@ rank-one surface so future chart-local attacks can choose any nonzero
 denominator slot.
 The companion `F3_H8_ODD_CHART_RECOVERY_COMPILER.md` uses the parity reduction
 to restrict the non-antipodal x83 branch to the four odd charts.
+The companion `F3_H8_RANK_ONE_CHART_PROPAGATION.md` proves abstractly that
+incident minors recover the nonincident minors after chart saturation.
 
 ## Role In h=8
 

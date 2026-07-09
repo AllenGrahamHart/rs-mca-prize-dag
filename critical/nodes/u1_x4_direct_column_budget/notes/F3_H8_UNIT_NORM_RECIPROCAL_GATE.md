@@ -50,6 +50,8 @@ the chosen base reciprocal row.
 
 The companion `F3_H8_ODD_CHART_RECOVERY_COMPILER.md` records the chart-local
 use of these rows on the four odd charts forced by the parity reduction.
+The companion `F3_H8_RANK_ONE_CHART_PROPAGATION.md` proves abstract unit-row
+propagation from one chart unit row and the incident rank-one minors.
 
 ## Role In h=8
 

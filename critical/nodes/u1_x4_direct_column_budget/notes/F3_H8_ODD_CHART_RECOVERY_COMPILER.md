@@ -30,6 +30,10 @@ non-antipodal branch; they only need charts `1,3,5,7`.
 On each odd chart, the seven incident rank-one minors recover the shared
 support product `delta`, and the matching Hermitian row imposes
 `delta*bar_delta=1`.
+`F3_H8_RANK_ONE_CHART_PROPAGATION.md` proves the abstract propagation:
+the seven incident minors imply the other twenty-one pairwise minors after
+chart saturation, and the matching unit row implies the other seven unit rows
+after conjugate saturation.
 
 The compiler verifies:
 
@@ -62,7 +66,8 @@ global non-antipodal x83 target with the sharper necessary form:
 non-antipodal x83 survivor
   => one of four odd charts
   => seven incident rank-one minors on that chart
-  => matching Hermitian unit row.
+  => matching Hermitian unit row
+  => full reciprocal/unit surface after chart propagation.
 ```
 
 ## Replay
