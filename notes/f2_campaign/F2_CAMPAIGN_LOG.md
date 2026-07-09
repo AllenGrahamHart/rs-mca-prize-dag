@@ -1005,3 +1005,25 @@ route after all. Falsification-first: SEARCH for large minimal
 trades at toys (a minimal signed t-null configuration that does not
 decompose) — the decisive experiment, designed next cycle. Chain:
 trade decomposition (test, then theorem-or-refutation) -> assembly.
+
+## 56 — 2026-07-10: NO-GO #6 — trade decomposition is FALSE; the map
+## is complete; the flatness redoubt is the final path
+
+F2_MINIMAL_TRADES_PASS (4 cells): minimal trades exist at EVERY size
+tested — exhaustive at (113,16,t=2) through h = 6 (40 minimal), and
+100% of sampled trades are minimal everywhere (generic same-moment
+pairs contain no sub-trades). The bounded-minimal-size decomposition
+theorem is FALSE; the M2 lane's effective range (h <= 40) cannot be
+reached by decomposition from h ~ 2^32. Per the pre-registered read:
+the FLATNESS ROUTE is the final path. THE CAMPAIGN'S MAP IS NOW
+COMPLETE — every route has a verdict: R1 Fourier (absolute: no-go;
+exact: instruments proved), R2 energy (branch (a) proved, instrument
+banked), R3 trades (lane proved at small h; decomposition no-go #6),
+R4 Bezout (half-ladder reach, quantified), R5 sparsity (edge band
+PROVED via the full chain). The dichotomy stands PROVED on the empty
+and edge bands; the interior rests on exactly one statement: the
+flatness/max-to-mean bound of the t-null census family (tolerance
+2^{1.05e12}, measured flat at every cell ever tested, adjacent to the
+PROVED SP strata). Six no-gos, fifteen catches, fourteen satellites,
+fifty-six entries: the map has no unexplored regions — only the one
+summit, with every approach now charted and instrumented.
