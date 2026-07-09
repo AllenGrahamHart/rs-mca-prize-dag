@@ -4876,6 +4876,11 @@
    "id": "f2_lfunc_diagonalization",
    "status": "PROVED",
    "statement": "F2 L-FUNCTION DIAGONALIZATION (2026-07-10, campaign cycle 79; digest F2_LFUNC_DIAGONALIZATION_PASS): the summit's deviation field diagonalizes EXACTLY in Dirichlet L-values at s=1. For odd prime p and G <= (Z/p)^x of index m with |G| = f even, the field S(t) = sum_{g in G} log|1+zeta_p^{tg}| satisfies, POINTWISE FOR EVERY t: S(t) = (fp/(p-1)) * sum over the m-1 nontrivial quotient characters chi of (1-chi(2)) * (L(1,chi)/tau(chi)) * chi(t). Proof: (i) multiplicative Fourier + orthogonality kills all characters nontrivial on G; (ii) 1+x=(1-x^2)/(1-x) factors each coefficient as (chi(2)-1)*a_chi(log|1-zeta^s|); (iii) the classical even-character evaluation sum_a conj(chi)(a) log|1-zeta^a| = -p L(1,chi)/tau(chi) (Washington, Cyclotomic Fields, Thm 4.9 shape; numerically confirmed against independent partial-sum L(1,chi) at p=97,257, all quotient characters, err < 1e-6). COROLLARIES: (a) second moment sum_t S(t)^2 = (f^2 p/(p-1)) sum_chi |1-chi(2)|^2 |L(1,chi)|^2 \u2014 the summit's energy IS a mean-square of L(1,chi) over the quotient character group (supersedes the log #89 Dedekind autocorrelation reduction by full diagonalization); (b) DOUBLING VANISHING: 2 in G => S == 0 identically (2G=G, the two ell-sums cancel; subsumes the index-2 vanishing for p = +-1 mod 8 and explains every accidentally-flat probe row, e.g. (257, m=4)); (c) with L(1,chi) = O(log p) the diagonalization re-derives the ETK-scale bound, so growing-order Myerson is EXACTLY the statement that the L-value-weighted character sum sum_chi (1-chi(2))(L(1,chi)/tau(chi))chi(t) exhibits square-root cancellation in m uniformly in t \u2014 a STANDARD-FORM object of analytic number theory (character sums with L-value weights; Chowla/class-number circle). Verified: pointwise reconstruction, factorization, second moment at (97,m=3),(257,m=4),(7681,m=15) to 1e-10; doubling rows (7,<2>),(73,<2>) flat to 3e-15. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_lfunc_diagonalization_check.py. Sixteenth satellite; the summit's interior is now a NAMED ANT OBJECT."
+  },
+  {
+   "id": "f2_second_moment_budget",
+   "status": "PROVED",
+   "statement": "F2 UNCONDITIONAL SECOND-MOMENT BUDGET (2026-07-10, campaign cycle 80; digest F2_SECOND_MOMENT_BUDGET_PASS): first unconditional control of the summit's deviation field at ALL growing orders. From the L-function diagonalization (satellite f2_lfunc_diagonalization): (i) S is constant on cosets of G \u2014 the field has only m distinct values; (ii) sum_t S(t)^2 = (f^2 p/(p-1)) sum_{chi != 1} |1-chi(2)|^2 |L(1,chi)|^2 exactly; (iii) RMS_t S <= 2 sqrt(f) max|L(1,chi)| \u2014 with the classical even-character bound L(1,chi) <= (1/2)log p + O(1) (explicit Louboutin-type constants), RMS <= ~sqrt(f) log p UNCONDITIONALLY; (iv) EFFECTIVE INDEX: characters trivial on <G,2> contribute zero, so the field descends to the quotient mod the image of 2 (effective dimension m - m/ord_quotient(2); Fermat-prime rows p=65537 are fully degenerate at m=16,256 \u2014 found in the wild by the doubling law); (v) Chebyshev tail #{t: |S|>=A} <= 4 f^2 (m-1) M^2/A^2. MEASURED across (97,3)...(786433,768), all pre-registered reads favorable: effective L-constant RMS/sqrt(f) = 1.0-1.6 FLAT over three decades (quotient characters behave like average characters \u2014 sum |L(1,chi)|^2 ~ const*m, the classical L(1,chi) second-moment scale); max/RMS grows like sqrt(2 log m) (3.04 at m=768 vs Gaussian 3.65 vs adversarial sqrt(m)=27.7) \u2014 the field is GAUSSIAN-LIKE, exactly the square-root-cancellation shape the summit asserts; P(|S|>10 nats) = 0.8-1.0 at f >= 512 \u2014 QUANTITATIVE re-confirmation that no pointwise or exceptional-shift consumer route exists (the per-condition budget is exceeded on most shifts once f > ~100; the saving must be signed cancellation in the aggregate over conditions, consistent with no-gos 2 and 9). Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_second_moment_budget_check.py. Seventeenth satellite; the summit now has an unconditional moment theory."
   }
  ],
  "edges": [
@@ -9541,6 +9546,11 @@
   },
   {
    "from": "f2_lfunc_diagonalization",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_second_moment_budget",
    "to": "u2c_giant_tnull_dichotomy",
    "kind": "ev"
   }

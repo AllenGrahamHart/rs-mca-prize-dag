@@ -1686,3 +1686,26 @@ Chowla/class-number territory, moments of L(1,chi) are classical.
 Banked as sixteenth satellite f2_lfunc_diagonalization (PROVED,
 ev -> u2c). The summit's interior now has a name, an exact basis,
 and a literature. Ninety-one entries.
+
+## 92 — 2026-07-10: interior chart, page five — the unconditional
+## second-moment budget (the summit gets a moment theory)
+
+Satellite 17 (f2_second_moment_budget, PROVED): from the
+diagonalization, S has only m distinct values (constant on cosets),
+its second moment is exactly the |1-chi(2)|^2 |L(1,chi)|^2 sum, and
+RMS_t S <= 2 sqrt(f) max|L(1,chi)| <= ~sqrt(f) log p UNCONDITIONALLY
+— the first unconditional control of the field at every growing
+order. Effective-index corollary: the field descends to the quotient
+mod <2> (Fermat rows p=65537 fully degenerate — the doubling law
+found them in the wild). Measured, all three pre-registered reads
+favorable: effective L-constant FLAT (1.0-1.6) over three decades —
+budget-scale second moment; max/RMS ~ sqrt(2 log m) — GAUSSIAN-LIKE
+field, the square-root-cancellation shape the summit asserts;
+P(|S| > 10 nats) = 0.8-1.0 at f >= 512 — the pointwise and
+exceptional-set consumer routes are quantitatively dead (no-gos 2/9
+re-derived from the interior; the saving must be signed aggregate
+cancellation across conditions). The ledger after eighty cycles:
+the summit field has an exact basis (L-values), an exact moment
+theory (this entry), an exact vanishing lattice (doubling law), and
+a Gaussian empirical profile. What it does not yet have is the
+pointwise theorem. Ninety-two entries.
