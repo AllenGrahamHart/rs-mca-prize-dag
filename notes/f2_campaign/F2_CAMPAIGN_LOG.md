@@ -1074,3 +1074,22 @@ extraction as its final numeric step.
 
 Sources: link.springer.com/article/10.1007/s00493-014-3077-4;
 arxiv.org/pdf/1012.2372
+
+## 59 — 2026-07-10: CATCH #16 — LO source chain corrected and pinned
+
+Log #58 attributed the F_p Halasz statement to Maples arXiv:1012.2372;
+the full-paper fetch shows its LO material is over R, not F_p —
+CATCH #16 (source precision; the citation-quarantine discipline
+catching its own first pass). CORRECTED CHAIN (triangulated via the
+literature): Ferber-Jain, "On the counting problem in inverse
+Littlewood-Offord theory" (arXiv:1904.10425, JLMS 2021) + the
+explicit F_p reduction lemmas in the random symmetric matrix
+literature (arXiv:1904.11478 and successors, which state the
+reduce-to-F_p anti-concentration steps consuming Ferber-Jain +
+Costello-Tao-Vu + Nguyen). The abstracts formulate over Z; the F_p
+lemma statements live in the paper BODIES — the extraction task is
+now pinned to those specific sections (body-read, next unit). The
+Halasz-bridge composition proceeds with symbolic LO constants
+meanwhile (the extraction refines, does not block). Campaign totals:
+16 catches, every one corrected in-cycle or next-cycle; the summit
+route's dependency list is unchanged and shrinking.
