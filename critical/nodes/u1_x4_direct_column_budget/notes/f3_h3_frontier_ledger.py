@@ -39,6 +39,7 @@ from f3_h3_conic_binary_form_target import conic_binary_form_summary
 from f3_h3_conic_sixa_threshold_target import official_sixa_summary
 from f3_h3_conic_rational_curve_interface import conic_rational_curve_summary
 from f3_h3_conic_dual_annihilator_target import conic_dual_annihilator_summary
+from f3_h3_conic_box_basepoint_free import conic_box_basepoint_free_summary
 from f3_h3_conic_kernel_bundle_reduction import conic_kernel_bundle_summary
 from f3_h3_exact_profile_rank_capacity_guard import exact_profile_capacity_guard_summary
 from f3_h3_exact_profile_rank_deficit_budget import rank_deficit_budget_summary
@@ -107,6 +108,7 @@ def official_budget_summary() -> dict[str, int]:
     conic_sixa = official_sixa_summary()
     conic_curve = conic_rational_curve_summary()
     conic_dual = conic_dual_annihilator_summary()
+    conic_basepoint = conic_box_basepoint_free_summary()
     conic_kernel = conic_kernel_bundle_summary()
     exact_capacity = exact_profile_capacity_guard_summary()
     exact_deficit = rank_deficit_budget_summary()
@@ -153,6 +155,7 @@ def official_budget_summary() -> dict[str, int]:
         "conic_curve_linear_defect": conic_curve["min_linear_normality_defect"],
         "conic_dual_allowance": conic_dual["allowance"],
         "conic_dual_min_base_products": conic_dual["min_base_products"],
+        "conic_basepoint_min_b": conic_basepoint["official_min_b"],
         "conic_kernel_balanced_margin": conic_kernel["min_balanced_margin"],
         "conic_kernel_max_slope": conic_kernel["max_balanced_slope"],
         "toy_conic_chart_rank": PINNED_DEGREE2_CONIC_CHART_RANK,
@@ -374,6 +377,8 @@ def frontier_gates(
                 f"conic dual-annihilator target allows dimension "
                 f"{budgets['conic_dual_allowance']} against at least "
                 f"{budgets['conic_dual_min_base_products']} product windows; "
+                f"boxed conic products are basepoint-free under pairwise gcd "
+                f"with official min B {budgets['conic_basepoint_min_b']}; "
                 f"kernel-bundle reduction has balanced full-window slope at "
                 f"most {budgets['conic_kernel_max_slope']} and min A-slope "
                 f"margin {budgets['conic_kernel_balanced_margin']}; "

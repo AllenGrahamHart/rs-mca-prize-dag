@@ -26,10 +26,9 @@ The full conic span is exactly the image of
 H0(O(A-1)) tensor W -> H0(O(d+A-1)).
 ```
 
-Assume the boxed base products have no common base point.  In the repaired
-same-fiber conic chart this is supported by the pairwise-gcd guard for
-`P_U,P_V,P_W,Q`; the general theorem should keep this as an explicit
-degeneracy exclusion.
+The boxed-product basepoint-free guard proves this series has no common base
+point whenever `P_U,P_V,P_W,Q` are pairwise coprime and `B>=2`.  The general
+theorem should keep pairwise coprimality as an explicit degeneracy exclusion.
 
 ## Exact Formula
 

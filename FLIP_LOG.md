@@ -7766,6 +7766,36 @@ Expected digest:
 H3_CONIC_KERNEL_BUNDLE_REDUCTION_PASS
 ```
 
+## 2026-07-09 h=3 conic boxed-product basepoint-free guard
+
+Stage selected: close the basepoint-free prerequisite for the conic
+kernel-bundle reduction under the repaired pairwise-gcd chart condition.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_BOX_BASEPOINT_FREE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_box_basepoint_free.py
+```
+
+If `P_U,P_V,P_W,Q` are pairwise coprime and `B>=2`, then at any point of
+`P^1` at most one factor vanishes.  For a zero of one of `P_U,P_V,P_W`, choose
+the corresponding boxed exponent `b_i=0`; for a zero of `Q`, choose
+`b1=b2=b3=B-1`, so the `Q` exponent is zero.  Hence some boxed product is
+nonzero at every point, and the base-product series `W` is basepoint-free.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_box_basepoint_free.py
+```
+
+Expected digest:
+
+```text
+H3_CONIC_BOX_BASEPOINT_FREE_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without
