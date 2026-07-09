@@ -178,11 +178,21 @@ def official_budget_summary() -> dict[str, int]:
         ],
         "conic_binary_span_rank": conic_binary["quadratic_span_rank"],
         "conic_binary_allowed_codimension": conic_binary["allowed_codimension"],
+        "conic_binary_4096_allowed_codimension": conic_binary[
+            "allowed_4096_codimension"
+        ],
+        "conic_binary_4096_min_b": conic_binary["official_4096_min_b"],
+        "conic_binary_4096_max_b": conic_binary["official_4096_max_b"],
         "conic_sixa_official_margin": conic_sixa["min_margin"],
         "conic_curve_box_margin": conic_curve["min_box_column_margin"],
         "conic_curve_linear_defect": conic_curve["min_linear_normality_defect"],
         "conic_dual_allowance": conic_dual["allowance"],
         "conic_dual_min_base_products": conic_dual["min_base_products"],
+        "conic_dual_4096_allowance": conic_dual["allowance_4096"],
+        "conic_dual_4096_min_base_products": conic_dual[
+            "min_4096_base_products"
+        ],
+        "conic_dual_4096_min_surplus": conic_dual["min_4096_column_surplus"],
         "conic_basepoint_min_b": conic_basepoint["official_min_b"],
         "conic_kernel_balanced_margin": conic_kernel["min_balanced_margin"],
         "conic_kernel_max_slope": conic_kernel["max_balanced_slope"],
@@ -414,7 +424,10 @@ def frontier_gates(
                 f"{budgets['conic_largegap_official_min_gap_ppm']}); "
                 f"conic binary-form target has quadratic span rank "
                 f"{budgets['conic_binary_span_rank']} and allowed codimension "
-                f"{budgets['conic_binary_allowed_codimension']}; "
+                f"{budgets['conic_binary_allowed_codimension']} "
+                f"(retuned {budgets['conic_binary_4096_allowed_codimension']}, "
+                f"B={budgets['conic_binary_4096_min_b']}.."
+                f"{budgets['conic_binary_4096_max_b']}); "
                 f"six-A conic guardrail has official min H-6A margin "
                 f"{budgets['conic_sixa_official_margin']} "
                 f"but six-A alone is not sufficient outside dense boxes; "
@@ -423,7 +436,11 @@ def frontier_gates(
                 f"defect {budgets['conic_curve_linear_defect']}; "
                 f"conic dual-annihilator target allows dimension "
                 f"{budgets['conic_dual_allowance']} against at least "
-                f"{budgets['conic_dual_min_base_products']} product windows; "
+                f"{budgets['conic_dual_min_base_products']} product windows "
+                f"(retuned allows {budgets['conic_dual_4096_allowance']} "
+                f"against at least "
+                f"{budgets['conic_dual_4096_min_base_products']} windows, "
+                f"surplus {budgets['conic_dual_4096_min_surplus']}); "
                 f"boxed conic products are basepoint-free under pairwise gcd "
                 f"with official min B {budgets['conic_basepoint_min_b']}; "
                 f"kernel-bundle reduction has balanced full-window slope at "

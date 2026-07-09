@@ -6,6 +6,8 @@ from __future__ import annotations
 from fractions import Fraction
 
 from f3_h3_conic_degree2_chart import numerator_coefficients
+from f3_h3_exact_profile_4096_budget_floor import EXPECTED_ROWS as ROWS_4096
+from f3_h3_exact_profile_4096_rank_deficit_budget import retarget_deficit_summary
 from f3_h3_exact_profile_bridge_budget import EXPECTED_ROWS
 from f3_h3_exact_profile_rank_deficit_budget import rank_deficit_budget_summary
 
@@ -46,14 +48,14 @@ def rank_mod_p(rows: list[tuple[int, ...]], p: int) -> int:
     return rank
 
 
-def official_gap_summary() -> dict[str, int]:
+def official_gap_summary(rows=EXPECTED_ROWS) -> dict[str, int]:
     gaps = []
-    for row in EXPECTED_ROWS:
+    for row in rows:
         h_order = 2**row.s
         gaps.append((Fraction(h_order, row.a), row.s, h_order, row.a, row.b))
     gap, s, h_order, a_count, b_count = min(gaps)
     return {
-        "rows": len(EXPECTED_ROWS),
+        "rows": len(rows),
         "min_gap_s": s,
         "min_gap_num": gap.numerator,
         "min_gap_den": gap.denominator,
@@ -61,8 +63,8 @@ def official_gap_summary() -> dict[str, int]:
         "min_gap_h": h_order,
         "min_gap_a": a_count,
         "min_gap_b": b_count,
-        "min_b": min(row.b for row in EXPECTED_ROWS),
-        "max_b": max(row.b for row in EXPECTED_ROWS),
+        "min_b": min(row.b for row in rows),
+        "max_b": max(row.b for row in rows),
     }
 
 
@@ -87,11 +89,22 @@ def conic_binary_form_summary() -> dict[str, int]:
         raise AssertionError((span_rank, quadratics))
 
     deficit = rank_deficit_budget_summary()
+    deficit_4096 = retarget_deficit_summary()
     official = official_gap_summary()
+    official_4096 = official_gap_summary(ROWS_4096)
     if deficit["min_allowed_deficit"] != 1847:
         raise AssertionError(deficit)
+    if deficit_4096["min_allowed_deficit"] != 2899:
+        raise AssertionError(deficit_4096)
     if (official["min_gap_num"], official["min_gap_den"]) != (4096, 681):
         raise AssertionError(official)
+    if (official_4096["min_gap_num"], official_4096["min_gap_den"]) != (
+        8192,
+        2953,
+    ):
+        raise AssertionError(official_4096)
+    if (official_4096["min_b"], official_4096["max_b"]) != (187, 119_920):
+        raise AssertionError(official_4096)
 
     return {
         "p": P,
@@ -112,6 +125,15 @@ def conic_binary_form_summary() -> dict[str, int]:
         "official_max_b": official["max_b"],
         "allowed_codimension": deficit["min_allowed_deficit"],
         "tight_deficit_s": deficit["first_s"],
+        "official_4096_min_gap_ppm": official_4096["min_gap_ppm"],
+        "official_4096_min_gap_s": official_4096["min_gap_s"],
+        "official_4096_min_gap_h": official_4096["min_gap_h"],
+        "official_4096_min_gap_a": official_4096["min_gap_a"],
+        "official_4096_min_gap_b": official_4096["min_gap_b"],
+        "official_4096_min_b": official_4096["min_b"],
+        "official_4096_max_b": official_4096["max_b"],
+        "allowed_4096_codimension": deficit_4096["min_allowed_deficit"],
+        "tight_4096_deficit_s": deficit_4096["tight_s"],
     }
 
 
@@ -139,6 +161,14 @@ def main() -> None:
         "sufficient theorem target: "
         f"binary-form span codimension <= {summary['allowed_codimension']} "
         f"(tight_s={summary['tight_deficit_s']})"
+    )
+    print(
+        "retuned H3-ACT(4096) target: "
+        f"codimension <= {summary['allowed_4096_codimension']} "
+        f"B={summary['official_4096_min_b']}.."
+        f"{summary['official_4096_max_b']} "
+        f"min_H/A_ppm={summary['official_4096_min_gap_ppm']} "
+        f"at_s={summary['official_4096_min_gap_s']}"
     )
     print("H3_CONIC_BINARY_FORM_TARGET_PASS")
 

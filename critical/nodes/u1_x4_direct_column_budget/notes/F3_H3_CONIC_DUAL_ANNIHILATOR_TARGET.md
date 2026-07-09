@@ -100,6 +100,25 @@ The companion kernel-bundle reduction gives an equivalent geometric way to
 bound this annihilator: control the splitting excess of the boxed base-product
 linear series before multiplying by `H0(O(A-1))`.
 
+## Retuned H3-ACT(4096) Target
+
+For the constructive `H3-ACT(4096)` floor boxes, the dual target becomes
+
+```text
+annihilator dimension <= 2899.
+```
+
+The replay verifies that these retuned rows have
+
+```text
+B^3 product windows >= 6,539,203,
+constraints - ambient >= 19,301,121,234.
+```
+
+The tight row is again `s=13`.  This is not a proof of the annihilator bound;
+it records that the retuned dual system is vastly overdetermined while allowing
+a larger exceptional space than the older `1847` target.
+
 ## Replay
 
 Standalone:

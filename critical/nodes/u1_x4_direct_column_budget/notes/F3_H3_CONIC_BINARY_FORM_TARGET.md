@@ -88,6 +88,26 @@ multiplication map using four sections of `O(2H)` on `P^1`.
 The companion dual-annihilator target rewrites it as the assertion that the
 annihilator of the boxed span has dimension at most `1847`.
 
+## Retuned H3-ACT(4096) Target
+
+For the constructive `H3-ACT(4096)` floor boxes, the same binary-form
+reduction gives the weaker sufficient codimension theorem
+
+```text
+codim span <= 2899.
+```
+
+The retuned boxes have
+
+```text
+B = 187..119920,
+min H/A = 8192/2953.
+```
+
+This is the binary-form version of the same retuned rank-deficit interface as
+`F3_H3_EXACT_PROFILE_4096_RANK_DEFICIT_BUDGET.md` and the same splitting
+excess target as `F3_H3_CONIC_KERNEL_BUNDLE_4096_REDUCTION.md`.
+
 ## Replay
 
 Standalone:

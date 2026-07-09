@@ -8070,6 +8070,44 @@ Expected digest:
 H3_CONIC_KERNEL_BUNDLE_4096_REDUCTION_PASS
 ```
 
+## 2026-07-09 h=3 conic 4096 binary and dual targets
+
+Stage selected: propagate the `H3-ACT(4096)` rank allowance into the conic
+binary-form and dual-annihilator target ledgers.
+
+Updated files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_BINARY_FORM_TARGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_DUAL_ANNIHILATOR_TARGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_binary_form_target.py
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_dual_annihilator_target.py
+```
+
+Retuned target:
+
+```text
+binary-form codim <= 2899
+dual-annihilator dimension <= 2899
+B = 187..119920
+B^3 product windows >= 6,539,203
+constraints - ambient >= 19,301,121,234
+```
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_binary_form_target.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_dual_annihilator_target.py
+```
+
+Expected digests:
+
+```text
+H3_CONIC_BINARY_FORM_TARGET_PASS
+H3_CONIC_DUAL_ANNIHILATOR_TARGET_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without

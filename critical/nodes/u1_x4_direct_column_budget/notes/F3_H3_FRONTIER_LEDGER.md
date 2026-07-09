@@ -54,7 +54,9 @@ F3-RANK-AVOID / RC-NV: OPEN
   minimum `H/A = 4096/681`.
   The conic binary-form target reduction restates the exact-profile conic rank
   theorem as codimension `<=1847` inside binary forms of degree
-  `(A-1)+6H(B-1)`; the pinned chart quadratics have span rank `3`.
+  `(A-1)+6H(B-1)`; the pinned chart quadratics have span rank `3`.  On the
+  `H3-ACT(4096)` floor boxes, the same target is codimension `<=2899` with
+  `B=187..119920`.
   The six-A guardrail records that all official exact-profile rows have
   `H-6A >= 20`, but it also refutes the unrestricted claim that `H>=6A` alone
   implies full conic rank outside the official dense-box regime.
@@ -64,7 +66,9 @@ F3-RANK-AVOID / RC-NV: OPEN
   generators are not a complete linear series.
   The conic dual-annihilator target rewrites the same codimension bound as
   `dim Ann <= 1847` for coefficient sequences killed by `B^3` length-`A`
-  shifted product windows.
+  shifted product windows.  On the retuned boxes this becomes
+  `dim Ann <= 2899` against at least `6,539,203` product windows and
+  `19,301,121,234` constraints-minus-ambient surplus.
   The conic kernel-bundle reduction proves the exact formula
   `codim = sum_i max(e_i-A,0)` for the kernel splitting of the boxed base
   product series `W`, and the official full-window balanced slope sits below
