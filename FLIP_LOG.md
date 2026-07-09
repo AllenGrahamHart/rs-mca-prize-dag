@@ -7527,6 +7527,39 @@ Expected digest:
 H3_CONIC_CHART_DEGREE_SPACE_GUARD_PASS
 ```
 
+## 2026-07-09 h=5 central slice formal isolation
+
+Stage selected: promote the central tangent determinant into the precise
+completed-local algebra statement.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_FORMAL_ISOLATION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_formal_isolation.py
+```
+
+The verifier imports the central tangent compiler and official scaling action.
+The fixed-equation linearization is `(3/4)I_4`, determinant `81/256`, and this
+is a unit in every official row characteristic.  Therefore the completed local
+fixed-point quotient at the normalized central origin is the residue field:
+there is no formal h=5 central branch through that point.  The global central
+chart can still have solutions away from this local origin.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_formal_isolation.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H5_CENTRAL_SLICE_FORMAL_ISOLATION_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```
+
 Residual next targets remain unchanged: finite-row-valid h=3 rank/minor
 avoidance plus the matching bridge assignment, symbolic h=5 norm-gate
 incompatibility, and h=8 non-antipodal support certification.

@@ -62,7 +62,10 @@ T4-H5-NORM-GATE: OPEN
   determinant `81/256`.  The central slice cubic normal-form packet extends
   this to degree three without expanding the global fixed numerators; the
   four cubic fixed equations have only `4..7` terms and retain the same
-  linear determinant.
+  linear determinant.  The central slice formal-isolation packet records the
+  all-orders local consequence: since this determinant is a unit in every
+  official row characteristic, the completed local fixed-point quotient at
+  the normalized central origin is just the residue field.
   The official scaling packet verifies that the
   finite `mu_n` action is free on the central chart for all official rows
   because `gcd(5,2^s)=1`; arbitrary ambient scaling is not allowed.
@@ -107,6 +110,7 @@ h5_structural_reduction
   + h=5 central fixed-point skeleton
   + h=5 weighted homogeneity
   + h=5 central weighted slice
+  + h=5 central slice formal isolation
   + h=5 central slice quadratic normal form
   + h=5 central slice fixed-point skeleton
   + h=5 official scaling action
