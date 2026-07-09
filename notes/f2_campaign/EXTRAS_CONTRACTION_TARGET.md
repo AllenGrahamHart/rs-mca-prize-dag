@@ -82,6 +82,29 @@ even 32, four below the 2^15 requirement.
      independent conditions — a negligible correction to the
      tolerance, to be printed exactly in L5.
 
+## O1-geometric lemma (PROVED at session close; digest O1_GEOMETRIC_PASS)
+
+For any partition of the b coordinates into blocks of sizes
+M_alpha | n with every M_alpha > j, the ORBIT LOCUS {each block = a
+full mu_{M_alpha}-orbit scaled by a free parameter y_alpha} lies in
+W_j IDENTICALLY: p_i restricted to it equals
+sum_alpha y_alpha^i * M_alpha * [M_alpha | i] = 0 for all i <= j
+(the orbit power-sum fact, verified exactly at 5 (q, M) pairs). Its
+dimension is the number of blocks, and its mu_n-torsion points with
+distinct coordinates are EXACTLY the disjoint coset-union structured
+blocks. Moreover these loci are precisely where successive torsion
+intersection is IMPROPER (within a block, the 2nd..M-th torsion
+conditions are implied by the first). Hence:
+
+  R4 CRUX (the lemma in geometric clothing, now exactly posed):
+  every component of W_j NOT of orbit type meets the successive
+  torsion conditions properly (or with excess bounded by 2^15 per
+  condition). Struct = the torsion points of the orbit components —
+  obligation O1's geometric half is DONE; the crux is a statement
+  about components of a fixed complete intersection, opening Galois/
+  monodromy and specialization tools that fiber-counting language
+  could not reach.
+
 ## Falsifier (pre-registered, immutable)
 
 A calibration row and level j where the EXTRAS (census minus exact
