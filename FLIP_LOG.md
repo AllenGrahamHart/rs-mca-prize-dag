@@ -7567,6 +7567,35 @@ H3_RANK_AVOID_INTERFACE_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=3 conic-chart official-ratio deficit pilot
+
+Stage selected: test whether the bounded-deficit route can be treated as
+automatic near official-like `A/H` ratios.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_OFFICIAL_RATIO_DEFICIT_PILOT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_official_ratio_deficit_pilot.py
+```
+
+The small replay checks six boxes on the same conic chart over `F_769`.
+Deficits occur in four cases, with maximum `69` at `A=3,B=6,H=16`.  This does
+not refute the official `Delta<=1847` route, but it warns that the route is a
+real rank/minor theorem, not a consequence of dimension counting.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_official_ratio_deficit_pilot.py
+```
+
+Expected digest:
+
+```text
+H3_CONIC_CHART_OFFICIAL_RATIO_DEFICIT_PILOT_PASS
+```
+
 ## 2026-07-09 h=5 central slice formal isolation
 
 Stage selected: promote the central tangent determinant into the precise
