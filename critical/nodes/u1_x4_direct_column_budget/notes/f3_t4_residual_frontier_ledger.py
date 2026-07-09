@@ -721,6 +721,14 @@ def main() -> None:
         f"max_stabilizer={h8['chart7_scaling_stabilizer']}"
     )
     print(
+        "h=8 odd-chart partition/scaling: "
+        f"partition_charts={h8['partition_priority_charts']} "
+        f"first_last={h8['partition_first_chart']}.."
+        f"{h8['partition_last_chart']} "
+        f"scaling_rows={h8['odd_chart_scaling_rows']} "
+        f"max_stabilizer={h8['odd_chart_scaling_stabilizer']}"
+    )
+    print(
         "h=8 odd-chart router: "
         f"priority_charts={h8['router_priority_charts']} "
         f"sample_processed={h8['router_sample_processed']} "

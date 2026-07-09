@@ -7864,6 +7864,10 @@ Expected digest:
 H8_ODD_CHART_SCALING_ACTION_PASS
 ```
 
+Ledger wiring note: the T4 dependency-shape list now includes both the
+odd-chart structural partition and the all-odd-chart official scaling action,
+so the h=8 route no longer cites only the bounded router dry run at that point.
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without

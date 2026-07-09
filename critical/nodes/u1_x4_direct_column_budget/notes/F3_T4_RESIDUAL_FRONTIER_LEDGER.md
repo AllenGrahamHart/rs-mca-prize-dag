@@ -204,6 +204,8 @@ h8 antipodal quotient
   + h8 chart-7 fixed-point skeleton
   + h8 weighted homogeneity
   + h8 chart-7 official scaling action
+  + h8 odd-chart structural partition
+  + h8 all-odd-chart official scaling action
   + h8 odd-chart router
   + residual frontier/support-universe audits
   => T4-H8-N64-NONANTIPODAL-X83 remains the only h=8 blocker
