@@ -983,3 +983,25 @@ with the rational dictionary. CHAIN, final form: trade-variety
 instance (existing lane) -> assembly -> flip. Fifty-four entries;
 everything the campaign built converges on machinery that predates
 it — the DAG's architecture doing exactly what it was designed for.
+
+## 55 — 2026-07-10: CATCH #15 — the landing's scale audit; the true
+## final object is TRADE DECOMPOSITION
+
+Reading the pre-built lane (log #54 celebrated the landing without
+the scale audit): a_universal_trade_variety [PROVED] + a2_laurent
+[PROVABLE, citation quarantined] + a3_good_reduction [PROVED at fixed
+(n,h), computable exceptional primes] are effective at h <= ~40 —
+our interior trades have h ~ 2^32: the lane as banked is 30 orders
+out of effective range. CATCH #15: the landing stands structurally
+but NOT quantitatively as celebrated. THE TRUE FINAL OBJECT: TRADE
+DECOMPOSITION — do large signed t-null configurations decompose into
+minimal trades of bounded size (Lam-Leung-type structure: char-0
+vanishing sums decompose into minimal ones; the trade analogue at
+2-power n would give bounded minimal size and re-enter the lane's
+effective range)? If YES: interior census <= (bounded-h lane
+machinery) composed over decompositions — the assembly closes. If
+NO (unbounded minimal trades exist): the interior needs the flatness
+route after all. Falsification-first: SEARCH for large minimal
+trades at toys (a minimal signed t-null configuration that does not
+decompose) — the decisive experiment, designed next cycle. Chain:
+trade decomposition (test, then theorem-or-refutation) -> assembly.
