@@ -7373,9 +7373,19 @@ The central tautology is also verified as a saturated ideal statement:
 l5*N_i in <C_i5, conjugate(C_i5)> for i=1..4.
 ```
 
+The abstract rank-one unit-propagation compiler adds the general identity:
+
+```text
+B_i*bar_B_i*N_j - B_j*bar_B_j*N_i
+  in <C_ij, conjugate(C_ij)>.
+```
+
+It verifies all `5*4=20` ordered chart-to-slot syzygies.
+
 Replays:
 
 ```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_rank_one_unit_propagation.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_chart_recovery_compiler.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
@@ -7383,6 +7393,7 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_
 Expected digests:
 
 ```text
+H5_RANK_ONE_UNIT_PROPAGATION_PASS
 H5_CHART_RECOVERY_COMPILER_PASS
 F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 ```

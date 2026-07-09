@@ -16,6 +16,9 @@ from f3_h5_basefree_reciprocal_system import basefree_summary as h5_basefree_sum
 from f3_h5_chart_recovery_compiler import (
     chart_recovery_summary as h5_chart_recovery_summary,
 )
+from f3_h5_rank_one_unit_propagation import (
+    unit_propagation_summary as h5_unit_propagation_summary,
+)
 from f3_h5_reciprocal_compatibility_compiler import (
     compatibility_summary as h5_reciprocal_summary,
 )
@@ -75,6 +78,7 @@ def h5_summary() -> dict[str, int]:
     open_cover = h5_open_cover_summary()
     unit_norm = h5_unit_norm_summary()
     chart_recovery = h5_chart_recovery_summary()
+    unit_propagation = h5_unit_propagation_summary()
     by_n = {row["n"]: row for row in rows}
     expected_by_n = {
         32: (402, 65537, 0, 68304222),
@@ -117,6 +121,7 @@ def h5_summary() -> dict[str, int]:
             "tautological_unit_charts"
         ],
         "central_unit_syzygies": chart_recovery["central_unit_syzygies"],
+        "unit_propagation_syzygies": unit_propagation["ordered_syzygies"],
         "max_unit_norm_degree": unit_norm["max_total_degree"],
         "max_reciprocal_compatibility_degree": reciprocal[
             "max_compatibility_total_degree"
@@ -228,7 +233,7 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"chart-local unit obligations="
                 f"{h5['chart_nontrivial_unit_charts']}+"
                 f"{h5['chart_tautological_unit_charts']} tautological; "
-                f"central unit syzygies={h5['central_unit_syzygies']}"
+                f"unit propagation syzygies={h5['unit_propagation_syzygies']}"
             ),
             "prove symbolic p-specific x83 norm-gate incompatibility or replace selected rows by a scalable certificate family",
         ),
@@ -293,6 +298,7 @@ def main() -> None:
         f"chart_unit_obligations={h5['chart_nontrivial_unit_charts']}+"
         f"{h5['chart_tautological_unit_charts']} tautological "
         f"central_unit_syzygies={h5['central_unit_syzygies']} "
+        f"unit_propagation_syzygies={h5['unit_propagation_syzygies']} "
         f"unit_norm_max_degree={h5['max_unit_norm_degree']} "
         f"max_total_degree={h5['max_basefree_reciprocal_degree']}"
     )

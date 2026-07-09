@@ -49,6 +49,11 @@ On official rows the central chart has `bar_l5 != 0`, hence also `l5 != 0`, so
 the four Hermitian rows follow from the incident central minors and their
 conjugates.
 
+The abstract propagation identity is recorded in
+`F3_H5_RANK_ONE_UNIT_PROPAGATION.md`.  It proves that on any nonzero
+denominator chart, one unit row plus the rank-one minors and their conjugates
+forces the unit rows for all other slots.
+
 The companion open-cover packet proves that official rows have at least one of
 these five charts: the all-zero denominator cell would force
 `L_R(X)=X^10+l0`, impossible for a 10-support in `mu_{2^s}`.

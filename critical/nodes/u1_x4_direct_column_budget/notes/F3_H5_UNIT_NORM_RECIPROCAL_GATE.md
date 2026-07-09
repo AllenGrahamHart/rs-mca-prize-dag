@@ -51,6 +51,8 @@ incident rank-one minors recover `delta`; on the central chart
 `bar_l5 != 0`, `delta=l5/bar_l5` has unit norm identically, so no Hermitian row
 is needed there.  The compiler verifies this in saturated form as
 `l5*N_j in <Cj5,conjugate(Cj5)>` for `j=1..4`.
+The abstract identity in `F3_H5_RANK_ONE_UNIT_PROPAGATION.md` proves the same
+propagation on every reciprocal chart.
 
 ## Replay
 

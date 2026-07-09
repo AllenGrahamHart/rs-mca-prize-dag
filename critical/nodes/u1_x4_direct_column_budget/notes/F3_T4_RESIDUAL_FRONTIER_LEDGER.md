@@ -34,7 +34,9 @@ T4-H5-NORM-GATE: OPEN
   minors plus `N_i` on charts `1..4`, and four incident minors with automatic
   unit norm on the central `bar_l5 != 0` chart.  The central automatic-unit
   claim is verified by four saturated syzygies
-  `l5*N_i in <C_i5,conjugate(C_i5)>`.
+  `l5*N_i in <C_i5,conjugate(C_i5)>`.  More generally, the rank-one unit
+  propagation packet verifies 20 abstract syzygies showing that one unit row
+  on a nonzero denominator chart propagates to every other slot.
   Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
   or replace the selected finite rows with a scalable certificate family.
 
@@ -72,6 +74,7 @@ h5_structural_reduction
   + h=5 reciprocal open-cover exclusion
   + h=5 unit-norm reciprocal gate
   + h=5 chart-local reciprocal recovery
+  + h=5 rank-one unit propagation
   => T4-H5-NORM-GATE remains the only h=5 blocker
 
 h6/h7 bonus sweep replay
