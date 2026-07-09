@@ -383,3 +383,15 @@ the dictionary (official extension-field rows: free indices are
 p-multiples). Ledger: the arc from catch #6 (overclaim) -> correction
 -> stronger unconditional theorem is the falsification protocol's
 ideal trajectory, completed within one campaign day.
+
+## 21 — 2026-07-10: Bezout certificate PROVED (face-A structure)
+
+f2_bezout_certificate: differentiating ell*_S ell*_{S^c} = 1 - X^n
+with both derivatives divisible by X^t (dictionary + complementation)
+gives U ell*_{S^c} + V ell*_S = -n X^{n-1-t} with UNIQUE
+degree-bounded cofactors — every t-null pair is an X-power Bezout
+pair of divisors of 1 - X^n. Exact on all 52 known nulls (3 cells).
+Honest labels: structure for the face-A rigidity route (the
+certificate parametrization), NOT count progress; naive
+Mason-Stothers on the relation is vacuous (checked: needs t > n-1).
+Eighth proved satellite. The crux remains the sole open event.
