@@ -754,3 +754,18 @@ char-q chain: Part 2 (span estimate <= C sqrt n — Dirichlet with the
 parity fix; C <= 3.2 measured at six scales) and the s-sparse
 application-shaped extension (proof extends verbatim; calibrated
 ~12 sqrt n). The edge lemma then follows, then the crux assembly.
+
+## 42 — 2026-07-10: THE TRINOMIAL THEOREM IS COMPLETE — Z <= 4n^{2/3},
+## unconditional, both parts proved
+
+Part 2-weak (the span estimate): pigeonhole over k <= Q^2 yields an
+even difference 2^a delta'; taking 2-adic valuations, delta' (odd)
+satisfies the same smallness at tower level a — the parity obstacle
+IS the descent, costing only the 2Q^2 term. At Q ~ n^{1/3}:
+Z <= 4n^{2/3} + O(n^{1/3}), any odd characteristic, every
+non-collapsed trinomial. Verified: bound dominates measured worst at
+six scales; certificates exist for every pair at two exhaustive
+scales (F2_TOWER_P2WEAK_PASS). Official: 2^{28.7} << 2^36 — nine bits
+of room. With log #41's Part 1, the campaign's first COMPLETE
+unconditional root-count theorem stands. The chain: s-sparse
+extension -> edge lemma -> crux assembly -> L5.
