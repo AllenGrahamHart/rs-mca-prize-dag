@@ -41,10 +41,11 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   The current bank has six complete h=8 n=32 rows and two explicitly partial
   h=8 n=64 rows.  The p=4289 and p=262337 x83 radius-three shell certificates
   are complete with full_zero=0, but they only cover local shells around the
-  paid antipodal branch.
+  paid antipodal branch.  The non-antipodal aperiodicity packet proves there
+  is no separate periodic non-antipodal branch.
   Residual: certify 122,131,731,640,320 anchored non-antipodal 16-supports
-  (7,633,233,227,520 safe rotation orbits), or build a sharded signature join
-  avoiding the blind left table.
+  (7,633,233,227,520 aperiodic rotation orbits), or build a sharded signature
+  join avoiding the blind left table.
 ```
 
 ## Dependency Shape
@@ -72,6 +73,7 @@ h8 antipodal quotient
   + locator parity antipodal criterion
   + support-to-trade reduction
   + split rotation equivariance
+  + non-antipodal aperiodicity
   + residual frontier/support-universe audits
   => T4-H8-N64-NONANTIPODAL-X83 remains the only h=8 blocker
 ```

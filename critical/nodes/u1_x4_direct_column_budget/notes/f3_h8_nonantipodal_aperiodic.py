@@ -31,7 +31,7 @@ def verify_stabilizer_lemma() -> None:
             raise AssertionError(("unexpected stabilizer order", shift, order))
 
 
-def verify_counts() -> None:
+def count_summary() -> dict[str, int]:
     anchored = math.comb(N - 1, SUPPORT_SIZE - 1)
     anchored_antipodal = math.comb(N // 2 - 1, SUPPORT_SIZE // 2 - 1)
     anchored_nonantipodal = anchored - anchored_antipodal
@@ -50,11 +50,12 @@ def verify_counts() -> None:
         raise AssertionError((actual, EXPECTED))
     if anchored_nonantipodal % nonantipodal_rotation_orbits:
         raise AssertionError("nonintegral anchored/orbit ratio")
+    return actual
 
 
 def main() -> None:
     verify_stabilizer_lemma()
-    verify_counts()
+    count_summary()
     print("non-antipodal 16-supports in Z/64Z have trivial rotation stabilizer")
     print(
         "anchored_nonantipodal = "

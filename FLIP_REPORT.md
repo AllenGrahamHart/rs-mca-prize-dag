@@ -328,10 +328,11 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    if and only if its monic locator has all odd coefficients equal to zero.
    Antipodal x83 full-zero supports route to the h=4 quotient ledger.
 18. The h=8 x83 support-to-trade reduction is compatible with root-scaling
-    rotations, up to swapping the two recovered sides.  The safe rotation
-    quotient reduces the non-antipodal residual to `7,633,233,227,520` support
-    orbits, but exponent-unit maps and reflection remain refuted as x83
-    symmetries.
+    rotations, up to swapping the two recovered sides.  The non-antipodal
+    residual has no periodic rotation subcase: every non-antipodal orbit is
+    aperiodic, and the anchored count is exactly `16` times the orbit count.
+    The residual is therefore `7,633,233,227,520` aperiodic support orbits.
+    Exponent-unit maps and reflection remain refuted as x83 symmetries.
 
 ### Conditional but useful
 
@@ -349,7 +350,7 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 5. If every non-antipodal h=8 n=64 x83 support is certified nonzero, or an
    equivalent sharded signature join is supplied, the current h=8 residual
    should close.  With only proved rotation canonicalization, the support-first
-   target is `7,633,233,227,520` non-antipodal orbits.
+   target is `7,633,233,227,520` aperiodic non-antipodal orbits.
 
 ### Evidence only
 

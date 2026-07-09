@@ -33,6 +33,7 @@ from f3_h8_residual_frontier_audit import (
     require_q3_profile,
     require_radius3_certificate,
 )
+from f3_h8_nonantipodal_aperiodic import count_summary as h8_aperiodic_summary
 from f3_h8_rotation_orbit_compiler import EXPECTED as H8_ROTATION_EXPECTED
 from f3_h8_support_universe_compiler import EXPECTED as H8_SUPPORT_EXPECTED
 
@@ -167,6 +168,12 @@ def h8_summary() -> dict[str, int]:
             "nonantipodal_rotation_orbits"
         ]
     }
+    aperiodic = h8_aperiodic_summary()
+    if (
+        aperiodic["nonantipodal_rotation_orbits"]
+        != actual_rotation["nonantipodal_rotation_orbits"]
+    ):
+        raise AssertionError((aperiodic, actual_rotation))
     if {**actual_support, **actual_rotation} != expected_support:
         raise AssertionError((actual_support, actual_rotation))
     return {
@@ -175,6 +182,9 @@ def h8_summary() -> dict[str, int]:
         "n64_partial_rows": len(PARTIAL_H8_N64),
         "radius3_rows": 2,
         "radius3_processed_each": min(p4289_processed, q3_processed),
+        "anchored_per_nonantipodal_orbit": aperiodic[
+            "anchored_per_nonantipodal_orbit"
+        ],
         **actual_support,
         **actual_rotation,
     }
@@ -222,7 +232,7 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
             (
                 "certify "
                 f"{h8['anchored_nonantipodal_supports']} non-antipodal supports "
-                f"({h8['nonantipodal_rotation_orbits']} safe rotation orbits) "
+                f"({h8['nonantipodal_rotation_orbits']} aperiodic rotation orbits) "
                 "or build a sharded signature join avoiding the blind left table"
             ),
         ),
@@ -263,7 +273,11 @@ def main() -> None:
         "h=8 blind join scale: "
         f"left={h8['blind_left_records']} right={h8['blind_right_records']}"
     )
-    print(f"h=8 safe non-antipodal rotation orbits: {h8['nonantipodal_rotation_orbits']}")
+    print(f"h=8 aperiodic non-antipodal rotation orbits: {h8['nonantipodal_rotation_orbits']}")
+    print(
+        "h=8 anchored supports per non-antipodal orbit: "
+        f"{h8['anchored_per_nonantipodal_orbit']}"
+    )
     print(f"h=8 paid shell radius<=3 workload: {h8['shell_le_3_workload']}")
     print("F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS")
 
