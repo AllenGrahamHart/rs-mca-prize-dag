@@ -11,6 +11,7 @@ from f3_h3_rich_curve_rank_stress import (
     D,
     H,
 )
+from f3_h3_conic_chart_rank_minor_certificate import minor_certificate_summary
 from f3_h3_rc_rank_model_lemmas import private_linear_degree_dim
 
 
@@ -49,6 +50,15 @@ def main() -> None:
     if conic_chart_rank != COEFFS:
         raise AssertionError(("conic-chart full-rank pin drift", conic_chart_rank, COEFFS))
     print(f"same-fiber conic-chart witness rank={conic_chart_rank}")
+
+    minor = minor_certificate_summary()
+    if minor["rank_lower_bound"] != COEFFS or minor["determinant"] == 0:
+        raise AssertionError(minor)
+    print(
+        "same-fiber conic-chart explicit minor: "
+        f"rows={minor['row_min']}..{minor['row_max']} "
+        f"det={minor['determinant']} mod {minor['p']}"
+    )
 
     print("rank >= r is a nonzero-minor Zariski-open condition")
     print("finite-field witness proves the private-linear fullness open set is nonempty")

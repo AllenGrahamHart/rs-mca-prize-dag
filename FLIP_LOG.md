@@ -7415,6 +7415,45 @@ H3_RICH_CURVE_RANK_SAMPLE_PASS
 H3_RC_RANK_GENERIC_OPEN_PASS
 ```
 
+## 2026-07-09 h=3 conic-chart rank minor certificate
+
+Stage selected: make the conic-chart rank-good witness into an explicit
+minor certificate.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_RANK_MINOR_CERTIFICATE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_rank_minor_certificate.py
+```
+
+For the same toy conic chart over `F_769`, the certificate takes coefficient
+rows `261..580` and all `320=A B^3` monomial columns.  The replay verifies
+
+```text
+determinant mod 769 = 514 != 0.
+```
+
+This gives a concrete full-rank minor on the actual same-fiber conic-chart
+subfamily.  It is still a toy finite-field certificate, not the official-row
+`RC-RANK` theorem.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_rank_minor_certificate.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_CONIC_CHART_RANK_MINOR_CERTIFICATE_PASS
+H3_RC_RANK_GENERIC_OPEN_PASS
+H3_FRONTIER_LEDGER_PASS
+```
+
 Residual next targets remain unchanged: finite-row-valid h=3 rank/minor
 avoidance plus the matching bridge assignment, symbolic h=5 norm-gate
 incompatibility, and h=8 non-antipodal support certification.

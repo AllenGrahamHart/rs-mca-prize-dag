@@ -34,7 +34,8 @@ F3-RANK-AVOID / RC-NV: OPEN
   buys more distinct rank-effective images, not duplicate-image reuse.
   The rank-good open set is now witnessed inside the actual same-fiber conic
   chart family in the toy row: the conic chart
-  `p=769,a=37,b=706,base=(101,333)` has rank `320=A B^3`.
+  `p=769,a=37,b=706,base=(101,333)` has rank `320=A B^3`, certified by a
+  concrete minor with determinant `514 mod 769`.
   Residual: prove finite-row rank-good minor nonvanishing on repaired
   degree-2 signature-curve images.
 

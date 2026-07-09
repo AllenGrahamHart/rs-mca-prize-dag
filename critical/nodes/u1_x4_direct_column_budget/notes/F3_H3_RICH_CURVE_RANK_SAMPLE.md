@@ -89,6 +89,13 @@ and its exact substitution rank is again
 320 = A B^3.
 ```
 
+The companion `F3_H3_CONIC_CHART_RANK_MINOR_CERTIFICATE.md` upgrades this
+rank computation to a concrete full-rank minor:
+
+```text
+rows 261..580, all 320 monomial columns, determinant 514 mod 769.
+```
+
 Thus the full-rank good locus is not merely nonempty in the ambient degree-2
 model; it intersects the actual same-fiber conic-chart family in this finite
 toy row.

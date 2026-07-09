@@ -124,6 +124,13 @@ This conic-chart witness also has exact rank
 320 = A B^3.
 ```
 
+The companion conic-chart minor certificate makes this nonemptiness explicit:
+using coefficient rows `261..580` and all `320` monomial columns, it verifies
+
+```text
+determinant mod 769 = 514 != 0.
+```
+
 Thus a full coefficient-rank minor is nonzero not only on the ambient degree-2
 model family, but also on the actual same-fiber conic-chart subfamily in this
 toy row.  This still does not prove that every repaired F3 signature-curve
@@ -131,8 +138,8 @@ parameter image lands inside the good locus.
 
 The generic-open replay consumes this as a pinned input from
 `F3_H3_RICH_CURVE_RANK_SAMPLE.md`.  In the aggregate replay, the rank-sample
-verifier is the authoritative exact matrix check; the generic-open verifier
-does not recompute the same degree-2 or conic-chart ranks.
+verifier is the authoritative exact rank check; the conic-chart minor
+certificate is the authoritative explicit minor check.
 
 ## Remaining Theorem
 

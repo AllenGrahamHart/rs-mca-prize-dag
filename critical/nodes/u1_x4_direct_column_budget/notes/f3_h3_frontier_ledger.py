@@ -29,6 +29,7 @@ from f3_h3_private_linear_official_separation_guard import (
 from f3_h3_rank_effective_bridge import EXPECTED_CAPACITIES, PINNED_RANKS, rank_capacity
 from f3_h3_exact_profile_bridge_budget import exact_profile_budget_summary
 from f3_h3_exact_profile_rank_capacity_guard import exact_profile_capacity_guard_summary
+from f3_h3_conic_chart_rank_minor_certificate import EXPECTED_DETERMINANT as TOY_CONIC_MINOR_DET
 from f3_h3_rc_rank_generic_open import (
     PINNED_DEGREE2_CONIC_CHART_RANK,
 )
@@ -100,6 +101,7 @@ def official_budget_summary() -> dict[str, int]:
         "exact_profile_degree_capacity_max": exact_capacity["degree_space_capacity_max"],
         "exact_profile_collapsed_capacity_max": exact_capacity["collapsed_capacity_max"],
         "toy_conic_chart_rank": PINNED_DEGREE2_CONIC_CHART_RANK,
+        "toy_conic_chart_minor_det": TOY_CONIC_MINOR_DET,
         "private_separation_margin": private_separation_summary()["min_pass_margin"],
     }
 
@@ -257,7 +259,8 @@ def frontier_gates(
                 f"constant-ratio collapsed capacity "
                 f"{budgets['exact_profile_collapsed_capacity_max']}; "
                 f"toy same-fiber conic chart has full rank "
-                f"{budgets['toy_conic_chart_rank']}=A B^3; "
+                f"{budgets['toy_conic_chart_rank']}=A B^3 "
+                f"with minor det {budgets['toy_conic_chart_minor_det']} mod 769; "
                 f"exact RC-RED profile uses "
                 f"{rich_curve_conditions['min_exact_to_legacy_percent'] / 100:.2f}.."
                 f"{rich_curve_conditions['max_exact_to_legacy_percent'] / 100:.2f}% "
