@@ -1113,3 +1113,25 @@ then the composition write-up (dichotomy + CMMM => per-condition
 contraction), the loop induction, and the assembly. The citation
 phase of the campaign is COMPLETE: no external input remains
 unverified. Sixty entries.
+
+## 61 — 2026-07-10: CATCH #17 + NO-GO #7 — the bridge compounds fatally
+## at official k; the summit is F_q-native flatness
+
+The restriction-of-scalars adaptation audit: F_q = F_{p^k} census
+values = k parallel Z_p coordinates; CMMM's per-coordinate constant 4
+(the 4/p threshold) COMPOUNDS across coordinates: L <= 4^k with
+k ~ 2^16 — astronomically over the 2^15 tolerance. CATCH #17: log
+#57's marginal arithmetic (2^12.2-2^15.1) was one-coordinate; the
+compounding was unexamined. NO-GO #7: the CMMM/Halasz bridge is DEAD
+at official k (it remains a valid proof route for k = 1 prime-field
+instances — banked as such). A promising aside discovered en route:
+BGK subgroup unstructure (Bourgain-Glibichuk-Konyagin) supplies the
+coefficient-side hypothesis cleanly at every coordinate — useful for
+the k=1 route and any future F_q-native argument. THE SUMMIT, final
+honest form: F_q-NATIVE anti-concentration with per-coordinate
+constant 1 + o(1) — the kernel statement, as the reformulation
+closure (log #19) predicted all routes would reach. The campaign's
+map is now truly total: seven no-gos fence every classical approach;
+the summit requires genuinely new mathematics; everything else in
+F2 — the empty band, the edge band, the struct census, the
+determination rigidity, fourteen satellites of machinery — is PROVED.
