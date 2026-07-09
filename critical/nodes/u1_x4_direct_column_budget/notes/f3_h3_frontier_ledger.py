@@ -171,6 +171,8 @@ def repeat_value_summary() -> dict[str, int]:
         "j_active_critical_points": 0,
         "j_critical_value_num": 27,
         "j_critical_value_den": 4,
+        "product_active_critical_points": 0,
+        "product_finite_generic_checks": 174,
     }
     if summary != expected:
         raise AssertionError(summary)
@@ -239,6 +241,7 @@ def frontier_gates(
                 f"J critical value={repeat_value['j_critical_value_num']}/"
                 f"{repeat_value['j_critical_value_den']} "
                 f"(active critical points={repeat_value['j_active_critical_points']}); "
+                f"product active critical points={repeat_value['product_active_critical_points']}; "
                 f"slope factorization totals are generic={repeat_slope['generic_product_total']} "
                 f"and mixed={repeat_slope['mixed_product_total']} "
                 f"(reverse={repeat_slope['mixed_reverse_product_total']})"

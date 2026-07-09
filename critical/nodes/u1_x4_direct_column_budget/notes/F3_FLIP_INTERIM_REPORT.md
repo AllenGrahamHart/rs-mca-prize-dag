@@ -760,7 +760,11 @@ exclusions, the only admissible critical orbit is `{1,-2,-1/2}` with value
 `{r,zr,-(1+z)r}`, so active-edge distinctness leaves no active critical
 points.  This does not close the gate; it sharpens the object a proof must
 control and rules out hidden quotient ramification as the source of the
-remaining obstruction.
+remaining obstruction.  The product-parameter compiler restates the same
+interface in the edge-cubic coefficient: for fixed `a=lambda-1`,
+`U+V+W=a+3`, `UV+UW+VW=2a+3`, and `m=UVW=a+1-a^3/J(z)`.  Thus the only free
+coefficient in the fixed-lambda cubic is a separable product coordinate on
+the distinct generic quotient domain.
 
 The slope-ratio compiler gives the lambda-distinct target the same
 coordinates.  In the generic branch,

@@ -29,6 +29,7 @@ from f3_h3_repeat_same_lambda_j_invariant import (
     verify_reciprocal_product_formula,
 )
 from f3_h3_repeat_same_lambda_j_ramification import j_ramification_summary
+from f3_h3_repeat_same_lambda_product_parameter import product_parameter_summary
 
 
 @dataclass(frozen=True)
@@ -143,6 +144,7 @@ def same_lambda_j_summary() -> dict[str, int]:
     product_degrees = verify_reciprocal_product_formula()
     j_degrees = verify_j_separates_orbits()
     ramification = j_ramification_summary()
+    product_parameter = product_parameter_summary()
     return {
         "r_degree_a": product_degrees[0],
         "r_degree_z": product_degrees[1],
@@ -152,6 +154,8 @@ def same_lambda_j_summary() -> dict[str, int]:
         "j_active_critical_points": ramification["active_critical_points"],
         "j_critical_value_num": ramification["critical_value_num"],
         "j_critical_value_den": ramification["critical_value_den"],
+        "product_active_critical_points": product_parameter["active_critical_points"],
+        "product_finite_generic_checks": product_parameter["generic_checks"],
     }
 
 
@@ -196,6 +200,8 @@ def main() -> None:
         "j_active_critical_points": 0,
         "j_critical_value_num": 27,
         "j_critical_value_den": 4,
+        "product_active_critical_points": 0,
+        "product_finite_generic_checks": 174,
     }:
         raise AssertionError(same_lambda_j)
     print(
@@ -206,7 +212,9 @@ def main() -> None:
         f"critical_points={same_lambda_j['j_critical_points']} "
         f"active_critical_points={same_lambda_j['j_active_critical_points']} "
         f"critical_value={same_lambda_j['j_critical_value_num']}/"
-        f"{same_lambda_j['j_critical_value_den']}"
+        f"{same_lambda_j['j_critical_value_den']} "
+        f"product_active_critical_points={same_lambda_j['product_active_critical_points']} "
+        f"product_checks={same_lambda_j['product_finite_generic_checks']}"
     )
 
     slope_factors = slope_factorization_summary()

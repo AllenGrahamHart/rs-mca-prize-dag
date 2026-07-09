@@ -118,6 +118,11 @@ COMMANDS = [
         "H3_REPEAT_SAME_LAMBDA_J_RAMIFICATION_PASS",
     ),
     (
+        "h3 repeat same-lambda product parameter",
+        "f3_h3_repeat_same_lambda_product_parameter.py",
+        "H3_REPEAT_SAME_LAMBDA_PRODUCT_PARAMETER_PASS",
+    ),
+    (
         "h3 repeat same-lambda degree compiler",
         "f3_h3_repeat_same_lambda_degree_compiler.py",
         "H3_REPEAT_SAME_LAMBDA_DEGREE_COMPILER_PASS",

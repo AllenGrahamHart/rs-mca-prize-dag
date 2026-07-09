@@ -60,6 +60,19 @@ That orbit is exactly the duplicate-coordinate locus for
 `0` active critical points.  Thus the generic value gate is an arithmetic
 uniqueness problem, not an unresolved quotient-singularity issue.
 
+The product-parameter compiler translates this into the edge-cubic
+coordinate.  For fixed `a=lambda-1`,
+
+```text
+U+V+W = a+3,
+UV+UW+VW = 2a+3,
+m(z)=UVW = a+1-a^3/J(z).
+```
+
+Thus the same-lambda quotient may also be parametrized by the single free
+cubic coefficient `m`; this product coordinate has `0` active critical points
+after the same generic exclusions and distinctness conditions.
+
 The slope equality-factorization compiler now verifies that the two slope
 targets are exactly coordinate-intersection targets after denominator
 clearing:

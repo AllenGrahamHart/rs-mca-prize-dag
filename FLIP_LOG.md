@@ -7818,6 +7818,19 @@ This orbit is also exactly the duplicate-coordinate locus for the normalized
 reciprocal triple `{r,zr,-(1+z)r}`.  After active-edge distinctness is imposed,
 `J` has `0` active critical points on the generic domain.
 
+The product-parameter compiler translates this into the original active-edge
+cubic:
+
+```text
+U+V+W = a+3
+UV+UW+VW = 2a+3
+m(z)=UVW = a+1-a^3/J(z)
+```
+
+The product derivative has numerator
+`a^3 z(z-1)(z+1)(z+2)(2z+1)`, so the product coordinate also has `0` active
+critical points after generic non-poles and distinctness exclusions.
+
 Conclusion: `H3-VALUE-GEN-INJECTIVE` remains open, but the remaining obstacle
 is not hidden ramification of the quotient map `J`; it is the arithmetic
 question of whether two distinct admissible `S_3` ratio orbits can satisfy the
@@ -7827,6 +7840,7 @@ Replays:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_j_ramification.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_product_parameter.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
@@ -7836,6 +7850,7 @@ Expected digests:
 
 ```text
 H3_REPEAT_SAME_LAMBDA_J_RAMIFICATION_PASS
+H3_REPEAT_SAME_LAMBDA_PRODUCT_PARAMETER_PASS
 H3_REPEAT_FRONTIER_LEDGER_PASS
 H3_FRONTIER_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS

@@ -30,6 +30,8 @@ The harness runs:
 - the same-lambda collision-system compiler;
 - the same-lambda orbit-domain compiler;
 - the same-lambda J-invariant compiler;
+- the same-lambda J-ramification compiler;
+- the same-lambda product-parameter compiler;
 - the same-lambda degree compiler;
 - the same-lambda branch assembly;
 - the slope-ratio compiler;
