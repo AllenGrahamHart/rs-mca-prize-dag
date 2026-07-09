@@ -1514,3 +1514,14 @@ beneath it. The campaign continues by charter through: delegation
 attempts on the named object, and the standing instruments. Eighty
 entries; every claim in all of them carries a proof, a digest, a
 verified citation, or a correction.
+
+## 81 — 2026-07-10: the capstone's dual-use export drafted
+
+MYERSON_IDENTIFICATION_EXPORT.md written (notes/correspondence/):
+the identification chain in upstream's language (row-sharp Q at zero
+prefix = Gaussian-period norms; growing-order regime gap; our proved
+sectors as consumable evidence; suggested consumption items a-c).
+STATUS: draft for user review per house convention — outward-facing
+PR machinery waits. The capstone now serves both programs: the
+prize DAG carries it in u2c's statement; the correspondence lane
+carries it toward upstream's Q ledger. Eighty-one entries.
