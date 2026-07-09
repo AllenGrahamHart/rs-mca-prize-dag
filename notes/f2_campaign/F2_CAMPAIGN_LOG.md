@@ -1243,3 +1243,23 @@ write-up attempt exposes one precise dependency; each is hunted,
 verified, and composed. The k=1 dichotomy end-to-end = these two
 citations + the joint composition + assembly. The summit (general k)
 waits behind the k=2 breakage study.
+
+## 68 — 2026-07-10: BGK verified-sufficient; the final citation is the
+## d-dimensional Z_p Halasz
+
+Citation (a) LANDS with room: BGK (Bourgain-Glibichuk-Konyagin; modern
+exposition Kowalski arXiv:2401.04756) gives power savings p^{-eps}|H|
+for |H| >= p^delta, ANY delta — our level-set floor needs only a
+CONSTANT-factor saving (the 2^{1.05e12} tolerance yet again), and in
+the theatre regime (n >= 3 sqrt p) the explicit classical bounds
+(Heath-Brown-Konyagin; and our own Lemma A for the linear case)
+suffice without BGK's asymptotics. Citation (b) refined by the
+joint-dimension analysis: the stacked system over t conditions needs
+the d-DIMENSIONAL Z_p Halasz (frequencies k in Z_p^d; level sets =
+degenerate combos = the STRUCT directions, again); the d-dim
+statement lives in the F_p random-matrix corner (Maples' companion
+work / thesis — the hunt's next target) OR is provable by induction
+from the 1-dim lemma with quotiented systems (the in-house
+alternative if the citation fails). The convergent pattern continues:
+one dependency at a time, each either verified, replaced in-house, or
+fenced. Sixty-eight entries.
