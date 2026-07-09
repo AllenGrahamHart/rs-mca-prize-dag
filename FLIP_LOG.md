@@ -8530,3 +8530,48 @@ Expected digests:
 H5_CENTRAL_FINITE_SCHEME_PAYMENT_PASS
 F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 ```
+
+## 2026-07-09 h=5 central infinity flag
+
+Stage selected: probe the new finite-scheme route without expanding
+`G(G(l))`.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_INFINITY_FLAG.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_infinity_flag.py
+```
+
+The sparse graph formulation of the central fixed scheme has eight equations
+with term counts
+
+```text
+11,14,19,23,11,14,19,23
+```
+
+and degrees
+
+```text
+6,7,8,9,6,7,8,9.
+```
+
+The dominant initial forms give a boundary flag: first `l9=0`; on that
+boundary the dominant equations split into `l7=0` or `l8=0`; both coordinate
+branches then terminate by forcing the remaining active variables to zero.
+This is a checked route guide for `H5-CENTRAL-SLICE-FINITE`, not the saturated
+zero-dimensionality proof itself.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_infinity_flag.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H5_CENTRAL_INFINITY_FLAG_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```

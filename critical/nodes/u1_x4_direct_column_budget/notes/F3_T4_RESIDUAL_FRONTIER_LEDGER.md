@@ -73,6 +73,10 @@ T4-H5-NORM-GATE: OPEN
   target than emptiness: if the saturated row-wise central slice is
   zero-dimensional, the Bezout bound `81*72*63*54=19840464` gives at most
   `19840464 n < n^3` central points on every official row.
+  The central infinity-flag packet verifies a sparse eight-equation graph
+  formulation and a dominant boundary flag
+  `l9=0`, then `l7=0` or `l8=0`, terminating on coordinate branches; this is a
+  route guide, not yet the required saturated finiteness proof.
   Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
   prove row-wise saturated central-slice zero-dimensionality, or replace the
   selected finite rows with a scalable certificate family.
@@ -117,6 +121,7 @@ h5_structural_reduction
   + h=5 central weighted slice
   + h=5 central slice formal isolation
   + h=5 central finite-scheme payment
+  + h=5 central infinity flag
   + h=5 central slice quadratic normal form
   + h=5 central slice fixed-point skeleton
   + h=5 official scaling action

@@ -35,6 +35,9 @@ from f3_h5_central_slice_formal_isolation import (
 from f3_h5_central_finite_scheme_payment import (
     finite_scheme_payment_summary as h5_central_finite_payment_summary,
 )
+from f3_h5_central_infinity_flag import (
+    infinity_flag_summary as h5_central_infinity_flag_summary,
+)
 from f3_h5_central_weighted_slice import (
     central_slice_summary as h5_central_slice_summary,
 )
@@ -119,6 +122,7 @@ def h5_summary() -> dict[str, int]:
     central_slice_cubic = h5_central_slice_cubic_summary()
     central_slice_formal_isolation = h5_central_slice_formal_isolation_summary()
     central_finite_payment = h5_central_finite_payment_summary()
+    central_infinity_flag = h5_central_infinity_flag_summary()
     central_fixedpoint = h5_central_fixedpoint_summary()
     central_slice_fixedpoint = h5_central_slice_fixedpoint_summary()
     unit_propagation = h5_unit_propagation_summary()
@@ -225,6 +229,8 @@ def h5_summary() -> dict[str, int]:
         ],
         "central_finite_degree_product": central_finite_payment["degree_product"],
         "central_finite_first_margin": central_finite_payment["first_margin"],
+        "central_infinity_branch_checks": central_infinity_flag["branch_checks"],
+        "central_infinity_split_options": central_infinity_flag["split_options"],
         "central_fixedpoint_max_terms": central_fixedpoint[
             "max_pre_cancellation_terms"
         ],
@@ -382,6 +388,8 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"slice fixed-point max degree={h5['central_slice_fixedpoint_max_degree']}; "
                 f"finite-slice payment K={h5['central_finite_degree_product']} "
                 f"first margin={h5['central_finite_first_margin']}; "
+                f"infinity flag checks={h5['central_infinity_branch_checks']} "
+                f"with split options={h5['central_infinity_split_options']}; "
                 f"fixed-point pre-cancel max={h5['central_fixedpoint_max_terms']}; "
                 f"weighted rows={h5['weighted_pairwise_rows']}+"
                 f"{h5['weighted_unit_rows']}; "
@@ -486,6 +494,7 @@ def main() -> None:
         f"{h5['central_slice_fixedpoint_max_drop']} "
         f"central_finite_K={h5['central_finite_degree_product']} "
         f"central_finite_first_margin={h5['central_finite_first_margin']} "
+        f"central_infinity_branch_checks={h5['central_infinity_branch_checks']} "
         f"weighted_pairwise_rows={h5['weighted_pairwise_rows']} "
         f"weighted_unit_rows={h5['weighted_unit_rows']} "
         f"central_scaling_stabilizer={h5['central_scaling_stabilizer']} "
