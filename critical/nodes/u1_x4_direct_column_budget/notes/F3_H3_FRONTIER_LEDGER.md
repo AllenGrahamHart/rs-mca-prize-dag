@@ -46,6 +46,9 @@ F3-RANK-AVOID / RC-NV: OPEN
   The conic binary-form target reduction restates the exact-profile conic rank
   theorem as codimension `<=1847` inside binary forms of degree
   `(A-1)+6H(B-1)`; the pinned chart quadratics have span rank `3`.
+  The sharpened six-A target records that all official exact-profile rows have
+  `H-6A >= 20`; proving full conic binary-form rank under `H>=6A` would close
+  the exact-profile conic rank side with zero deficit.
   The conic-chart linear-relation guard verifies `P_U+P_V+P_W+aQ=0` on the
   same-fiber conic chart despite pairwise coprime chart polynomials, so
   separated-divisor arguments alone cannot prove full rank.

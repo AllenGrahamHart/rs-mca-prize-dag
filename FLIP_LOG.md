@@ -7567,6 +7567,44 @@ H3_RANK_AVOID_INTERFACE_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=3 conic six-A threshold target
+
+Stage selected: extract a clean sufficient theorem from the conic binary-form
+target.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_SIXA_THRESHOLD_TARGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_sixa_threshold_target.py
+```
+
+All official exact-profile rows satisfy
+
+```text
+H - 6A >= 20,
+```
+
+tight at `s=13`.  Therefore a theorem proving full conic binary-form rank on
+repaired same-fiber conic charts whenever `H >= 6A` would close the
+exact-profile conic rank side with zero deficit, stronger than the currently
+needed codimension allowance `1847`.
+
+The replay also checks the pinned toy conic chart at the threshold
+`A=5,B=4,H=30=6A`, where `rank=target=320`.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_sixa_threshold_target.py
+```
+
+Expected digest:
+
+```text
+H3_CONIC_SIXA_THRESHOLD_TARGET_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without
