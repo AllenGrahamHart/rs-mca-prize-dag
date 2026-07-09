@@ -851,3 +851,19 @@ consistency rows = the core's 2-power part-size subset-sums avoiding
 p-free window positions (2-powers summing to p-multiples — sparse
 arithmetic), with the repeated-size cancellation caveat for the
 write-up. Chain: with-core census write-up -> crux assembly -> L5.
+
+## 48 — 2026-07-10: THE EDGE LEMMA IS PROVED — the dichotomy's first
+## proved band; zero extras on the edge
+
+Six-link chain, every link proved and machine-verified: dictionary ->
+shape (residual < 2^28 < p) -> determination (unit-triangular) ->
+inverse-complement identity -> SEMIGROUP SUPPORT (B^{-1} of 2-power
+cores supported on 2^{e_min}-multiples; 180 cores exact) -> residual
+roots are FULL cosets -> maximality contradiction. Every edge-size
+t-null block is a union of full cosets: extras = 0 on the edge band
+(not merely <= budget). Core-free case killed separately (log #47).
+The mid-band interior (rho >= p, i.e. b - t >= ~2^31 past the edge)
+remains; the rho < p boundary is the frontier and the same machinery
+is the tool. Fourteen satellites; the campaign's central conjecture
+now has a PROVED band where it was pure conjecture 40 log entries
+ago.
