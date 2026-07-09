@@ -1135,3 +1135,16 @@ map is now truly total: seven no-gos fence every classical approach;
 the summit requires genuinely new mathematics; everything else in
 F2 — the empty band, the edge band, the struct census, the
 determination rigidity, fourteen satellites of machinery — is PROVED.
+
+## 62 — 2026-07-10: delegation brief v2 — the definitive handoff
+
+PRO_FLOOR_2_F2_SUMMIT_V2.md written (supersedes the log-#17 brief,
+which predates 44 cycles of results): the single remaining statement,
+the 14 proved satellites, the 7 fenced no-gos, both verified
+citations, the empirical ground truth, and three ordered attack
+surfaces for new mathematics — including the k = 1 model theatre
+(prove prime-field end-to-end via no-go #7's valid branch, then
+study the k = 2 breakage as the minimal true obstacle). The campaign
+is now in its terminal posture: summit + total map + definitive
+handoff; it continues via delegation and fresh capacity until T-WIN
+or T-FLOOR.
