@@ -55,6 +55,11 @@ this grading, for example by choosing a weighted affine chart or by working in
 the weighted projective quotient, rather than expanding the fixed-point
 equations as ordinary dense polynomials.
 
+The companion `F3_H5_OFFICIAL_SCALING_ACTION.md` keeps this honest on official
+rows: the available scaling group is finite, namely `mu_n`, not the whole
+ambient multiplicative group.  On the central chart its action is free because
+`gcd(5,2^s)=1`.
+
 This does not prove the central chart is empty.
 
 ## Replay

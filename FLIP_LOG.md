@@ -7429,9 +7429,20 @@ pairwise minor weights: 1..7
 unit-row weights: 0
 ```
 
+The official scaling-action compiler keeps the quotient finite-row honest:
+
+```text
+central chart stabilizer in mu_{2^s}: 1
+central orbit size: n
+```
+
+This uses `bar_l5 != 0` and `gcd(5,2^s)=1`; arbitrary ambient scaling is not
+an official-row symmetry.
+
 Replays:
 
 ```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_official_scaling_action.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_weighted_homogeneity.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_fixedpoint_skeleton.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_chart_graph.py
@@ -7444,6 +7455,7 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_
 Expected digests:
 
 ```text
+H5_OFFICIAL_SCALING_ACTION_PASS
 H5_WEIGHTED_HOMOGENEITY_PASS
 H5_CENTRAL_FIXEDPOINT_SKELETON_PASS
 H5_CENTRAL_CHART_GRAPH_PASS

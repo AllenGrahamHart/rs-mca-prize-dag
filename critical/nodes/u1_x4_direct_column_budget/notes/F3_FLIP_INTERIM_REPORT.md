@@ -1765,7 +1765,10 @@ directly is not viable locally: the pre-cancellation term bounds run from
 `67` terms.  The weighted-homogeneity packet verifies the natural root-scaling
 grading: all pairwise minors are homogeneous, and the Hermitian unit rows have
 weight zero.  The central chart should therefore be attacked in a weighted
-chart or quotient, not as a dense affine expansion.
+chart or quotient, not as a dense affine expansion.  The official scaling
+packet records the finite-row caveat: only scaling by `mu_n` preserves the
+support condition, and this action is free on the central chart since
+`bar_l5 != 0` has weight `-5` and `gcd(5,2^s)=1`.
 
 The certificate scaling frontier explains why the current finite-certificate
 format is not that maintainable family.  The banked n=128 Modal rows use
