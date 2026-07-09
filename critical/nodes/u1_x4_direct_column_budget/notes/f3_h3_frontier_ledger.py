@@ -16,6 +16,7 @@ from f3_h3_activation_bound_compiler import (
 )
 from f3_h3_conic_bridge_accounting_ledger import conic_bridge_accounting_summary
 from f3_h3_bridge_budget_lineage import budget_lineage_summary
+from f3_h3_exact_profile_bridge_contract import exact_profile_bridge_contract_summary
 from f3_h3_l2_levelset_bridge_compiler import (
     check_ledger,
     synthetic_ledgers,
@@ -77,6 +78,7 @@ def official_budget_summary() -> dict[str, int]:
     rows = (*LOW_ROWS, *HIGH_ROWS)
     private = tuple(PRIVATE_ROWS)
     lineage = budget_lineage_summary()
+    exact_contract = exact_profile_bridge_contract_summary()
     exact_profile = exact_profile_budget_summary()
     exact_capacity = exact_profile_capacity_guard_summary()
     exact_deficit = rank_deficit_budget_summary()
@@ -99,6 +101,8 @@ def official_budget_summary() -> dict[str, int]:
         "z_exact_profile_min": exact_profile["exact_min"],
         "z_exact_profile_max": exact_profile["exact_max"],
         "z_exact_profile_gain_total": exact_profile["gain_total"],
+        "exact_profile_contract_rows": exact_contract["rows"],
+        "exact_profile_contract_l2_target": exact_contract["l2_target_multiplier"],
         "exact_profile_degree_capacity_min": exact_capacity["degree_space_capacity_min"],
         "exact_profile_degree_capacity_max": exact_capacity["degree_space_capacity_max"],
         "exact_profile_collapsed_capacity_max": exact_capacity["collapsed_capacity_max"],
@@ -280,7 +284,9 @@ def frontier_gates(
                 f"rank-effective capacities are pinned: collapsed={capacity['collapsed_capacity']}, "
                 f"private={capacity['private_capacity']}, random={capacity['random_capacity']}; "
                 f"conic keys are charged once for {conic['sample_fibers']} replayed fibers; "
-                f"L2 target is sum R_z(R_z-6)<={l2['target_multiplier']}n"
+                f"L2 target is sum R_z(R_z-6)<={l2['target_multiplier']}n; "
+                f"exact-profile contract keeps Z_exact distinct from the L2 target "
+                f"on {budgets['exact_profile_contract_rows']} official rows"
             ),
             "assign activated non-toral shape pairs to repaired chart images with total rank capacity within the official budget",
         ),

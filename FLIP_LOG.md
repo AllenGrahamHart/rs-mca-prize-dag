@@ -8442,3 +8442,46 @@ H3_REPEAT_FRONTIER_LEDGER_PASS
 H3_FRONTIER_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 ```
+
+## 2026-07-09 h=3 exact-profile bridge contract
+
+Stage selected: clarify the strongest h=3 degree-2 route without launching a
+new numerical campaign.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_BRIDGE_CONTRACT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_bridge_contract.py
+```
+
+The contract ledger composes the exact reduced-condition profile, the
+exact-profile bridge-budget compiler, the one-image rank-capacity guard, the
+rank-deficit budget, and the L2/level-set bridge target.  It pins the current
+route as:
+
+```text
+RC-RED-PROFILE + F3-RANK-AVOID-EXACT
+  + H3-BRIDGE-RANKCAP-EXACT(Z_exact)
+  => H3-ACT(16),
+```
+
+with `Z_exact=33..21421`, one exact-profile capacity unit per distinct
+rank-effective repaired image, collapsed capacity `0`, and minimum allowed
+rank deficit `1847`.  It also records the important separation: `Z_exact` is
+not an L2 pair-count bound; the L2 route still needs
+`sum_z R_z(R_z-6) <= 1152n`.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_bridge_contract.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_EXACT_PROFILE_BRIDGE_CONTRACT_PASS
+H3_FRONTIER_LEDGER_PASS
+```

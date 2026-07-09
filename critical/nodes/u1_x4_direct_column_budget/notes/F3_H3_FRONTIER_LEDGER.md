@@ -5,8 +5,9 @@ Status: REPLAYED FRONTIER LEDGER, NOT `H3-ACT`, NOT `RC-RANK`.
 This packet compiles the current h=3 proof surface for the F3 flip brief.  It
 imports the activation-bound compiler, official bridge-budget tables, the
 rank-effective bridge repair, the conic bridge accounting ledger, the
-L2/level-set bridge compiler, and the h=3 repeat-boundary frontier ledger.  It
-does not prove a new rank theorem or a new geometric batching theorem.
+L2/level-set bridge compiler, the exact-profile bridge contract, and the h=3
+repeat-boundary frontier ledger.  It does not prove a new rank theorem or a new
+geometric batching theorem.
 
 ## Frontier Gates
 
@@ -48,6 +49,8 @@ H3-BRIDGE-RANKCAP: OPEN
   conic bridge accounting ledger proves that different base points in the same
   same-(e1,e2) fiber are not new conic images; the exact local L2 target is
   sum_z R_z(R_z-6) <= 1152 n, equivalently P_total <= 16 n.
+  The exact-profile bridge contract records that Z_exact=33..21421 is a
+  distinct-rank-effective-image budget and not an L2 pair-count bound.
   Residual: assign activated non-toral shape pairs to repaired chart images
   within the official rank-capacity budget.
 
@@ -95,6 +98,10 @@ RC-RED-PROFILE + F3-RANK-AVOID-EXACT
 Here `Z_exact=33..21421`, and the bridge must spend those units on distinct
 rank-effective repaired images because the official exact-profile boxes have
 one-image degree-space capacity `1`.
+
+The companion exact-profile bridge contract also keeps this rank-family route
+separate from the L2/level-set route: the L2 target remains
+`sum_z R_z(R_z-6) <= 1152n`, not a consequence of `Z_exact` alone.
 
 The legacy degree-2 route remains valid but weaker:
 
