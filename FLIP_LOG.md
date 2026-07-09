@@ -7244,3 +7244,51 @@ H3_FRONTIER_LEDGER_PASS
 Residual next targets remain unchanged: finite-row-valid h=3 rank/minor
 avoidance plus the matching bridge assignment, symbolic h=5 norm-gate
 incompatibility, and h=8 non-antipodal support certification.
+
+## 2026-07-09 h=5 reciprocal chart cover
+
+Stage selected: remove the remaining chart-choice caveat from the h=5
+reciprocal norm-gate interface.
+
+Banked commits:
+
+```text
+3692b3d Add h5 base-free reciprocal system
+eb5bff2 Add h5 reciprocal open-cover exclusion
+```
+
+Key results:
+
+```text
+Base-free reciprocal system:
+  Treat E1,E2,E3,E4 and the central l5 row as five slots.
+  Vanishing of all 2x2 minors gives 10 pairwise equations.
+  All are linear in bar_l5..bar_l9 and have max total degree 10.
+
+Open cover:
+  If any denominator slot is nonzero, the pairwise equations recover delta.
+  The only uncovered cell is bar_l5=...=bar_l9=0.
+  On official rows n=2^s this cell is empty: it forces L_R(X)=X^10+l0,
+  but x -> x^10 has fibers of size gcd(10,2^s)=2 in mu_{2^s}, too small
+  for a 10-support.
+```
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_basefree_reciprocal_system.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_reciprocal_open_cover.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H5_BASEFREE_RECIPROCAL_SYSTEM_PASS
+H5_RECIPROCAL_OPEN_COVER_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```
+
+Residual h=5 target: prove the resulting official-row rank-one compatibility
+system has no support solutions, or replace it by a scalable certificate
+family.
