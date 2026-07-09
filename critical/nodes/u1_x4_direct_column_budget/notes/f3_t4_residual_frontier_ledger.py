@@ -23,6 +23,9 @@ from f3_h5_central_slice_fixedpoint_skeleton import (
 from f3_h5_central_slice_tangent import (
     slice_tangent_summary as h5_central_slice_tangent_summary,
 )
+from f3_h5_central_slice_quadratic_normal_form import (
+    quadratic_normal_form_summary as h5_central_slice_quadratic_summary,
+)
 from f3_h5_central_weighted_slice import (
     central_slice_summary as h5_central_slice_summary,
 )
@@ -103,6 +106,7 @@ def h5_summary() -> dict[str, int]:
     central_graph = h5_central_graph_summary()
     central_slice = h5_central_slice_summary()
     central_slice_tangent = h5_central_slice_tangent_summary()
+    central_slice_quadratic = h5_central_slice_quadratic_summary()
     central_fixedpoint = h5_central_fixedpoint_summary()
     central_slice_fixedpoint = h5_central_slice_fixedpoint_summary()
     unit_propagation = h5_unit_propagation_summary()
@@ -178,6 +182,18 @@ def h5_summary() -> dict[str, int]:
         ],
         "central_slice_fixed_det_den": central_slice_tangent[
             "fixed_equation_det_denominator"
+        ],
+        "central_slice_quadratic_rows": central_slice_quadratic[
+            "quadratic_rows"
+        ],
+        "central_slice_quadratic_triangular_rows": central_slice_quadratic[
+            "triangular_rows"
+        ],
+        "central_slice_quadratic_max_graph_terms": central_slice_quadratic[
+            "max_graph_quadratic_terms"
+        ],
+        "central_slice_quadratic_max_fixed_terms": central_slice_quadratic[
+            "max_fixed_quadratic_terms"
         ],
         "central_fixedpoint_max_terms": central_fixedpoint[
             "max_pre_cancellation_terms"
@@ -327,6 +343,9 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"{h5['central_slice_tangent_denominator']} anti-diagonal; "
                 f"fixed linear det={h5['central_slice_fixed_det_num']}/"
                 f"{h5['central_slice_fixed_det_den']}; "
+                f"quadratic normal form rows="
+                f"{h5['central_slice_quadratic_triangular_rows']}/"
+                f"{h5['central_slice_quadratic_rows']} triangular; "
                 f"slice fixed-point max degree={h5['central_slice_fixedpoint_max_degree']}; "
                 f"fixed-point pre-cancel max={h5['central_fixedpoint_max_terms']}; "
                 f"weighted rows={h5['weighted_pairwise_rows']}+"
@@ -412,6 +431,12 @@ def main() -> None:
         f"{h5['central_slice_fixed_linear_den']} "
         f"central_slice_fixed_det={h5['central_slice_fixed_det_num']}/"
         f"{h5['central_slice_fixed_det_den']} "
+        f"central_slice_quadratic_rows={h5['central_slice_quadratic_rows']} "
+        f"central_slice_quadratic_triangular_rows="
+        f"{h5['central_slice_quadratic_triangular_rows']} "
+        f"central_slice_quadratic_terms="
+        f"{h5['central_slice_quadratic_max_graph_terms']}.."
+        f"{h5['central_slice_quadratic_max_fixed_terms']} "
         f"central_fixedpoint_precancel_max={h5['central_fixedpoint_max_terms']} "
         f"central_fixedpoint_max_degree={h5['central_fixedpoint_max_degree']} "
         f"central_slice_fixedpoint_precancel_max={h5['central_slice_fixedpoint_max_terms']} "

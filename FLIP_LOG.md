@@ -7856,6 +7856,57 @@ H3_FRONTIER_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 ```
 
+## 2026-07-09 h=5 central slice quadratic normal form
+
+Stage selected: improve the symbolic `T4-H5-NORM-GATE` route without expanding
+the huge central fixed-point numerators.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_QUADRATIC_NORMAL_FORM.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_quadratic_normal_form.py
+```
+
+The compiler composes the central weighted-slice graph only through total
+degree two, using simultaneous substitution to avoid cascading graph
+components.  The relaxed fixed map through degree two is:
+
+```text
+F_l6 = l6/4
+F_l7 = (3 l6^2 + 8 l7)/32
+F_l8 = (3 l6 l7 + 4 l8)/16
+F_l9 = (6 l6 l8 + 3 l7^2 + 8 l9)/32
+```
+
+Thus the fixed equations are `3/4` times the triangular quadratic system:
+
+```text
+l6 = 0
+l7 - l6^2/8 = 0
+l8 - l6 l7/4 = 0
+l9 - l6 l8/4 - l7^2/8 = 0
+```
+
+The linear determinant remains `81/256`.  This still does not prove the h=5
+central chart empty, but it gives a sharper local normal form for the
+sparse/saturated route and confirms that the origin has no quadratic branch
+hidden by the tangent calculation.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_quadratic_normal_form.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H5_CENTRAL_SLICE_QUADRATIC_NORMAL_FORM_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```
+
 ## 2026-07-09 h=3 loose branch geometry
 
 Stage selected: sharpen the `LOOSE-A-RANK/NV` and `LOOSE-B-RANK/NV`

@@ -56,6 +56,10 @@ T4-H5-NORM-GATE: OPEN
   fixed-point skeleton shows the corresponding compatibility degree bounds
   drop from `91,81,71,61` to `81,72,63,54`, but the pre-cancellation term
   bounds remain prohibitive, so direct expansion is still the wrong primitive.
+  The central slice quadratic normal-form packet composes the graph only
+  through degree two and verifies that the relaxed fixed equations are a
+  triangular four-row system to quadratic order, with the same linear
+  determinant `81/256`.
   The official scaling packet verifies that the
   finite `mu_n` action is free on the central chart for all official rows
   because `gcd(5,2^s)=1`; arbitrary ambient scaling is not allowed.
@@ -100,6 +104,7 @@ h5_structural_reduction
   + h=5 central fixed-point skeleton
   + h=5 weighted homogeneity
   + h=5 central weighted slice
+  + h=5 central slice quadratic normal form
   + h=5 central slice fixed-point skeleton
   + h=5 official scaling action
   + h=5 rank-one minor propagation
