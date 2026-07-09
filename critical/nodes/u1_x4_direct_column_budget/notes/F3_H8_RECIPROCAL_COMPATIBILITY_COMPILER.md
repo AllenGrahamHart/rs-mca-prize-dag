@@ -86,6 +86,10 @@ So the primitive h=8 x83 obstruction can be attacked as seven explicit
 delta-free reciprocal compatibility equations, all linear in the reciprocal
 bar variables and with maximum total degree `16`.
 
+The companion `F3_H8_UNIT_NORM_RECIPROCAL_GATE.md` adds the official-row
+constraint `delta*bar_delta=1`, producing seven Hermitian equations on the
+same top/bar variables.
+
 ## Role In h=8
 
 This is still a necessary surface, not a proof of emptiness.  Combined with

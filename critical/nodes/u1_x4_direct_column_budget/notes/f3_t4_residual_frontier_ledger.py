@@ -86,6 +86,7 @@ from f3_h8_support_universe_compiler import EXPECTED as H8_SUPPORT_EXPECTED
 from f3_h8_reciprocal_compatibility_compiler import (
     reciprocal_compatibility_summary as h8_reciprocal_summary,
 )
+from f3_h8_unit_norm_reciprocal_gate import unit_norm_summary as h8_unit_norm_summary
 from f3_h8_x83_parity_reduction import parity_reduction_summary as h8_parity_summary
 from f3_h8_x83_triangular_obstruction import h8_triangular_summary
 
@@ -346,6 +347,7 @@ def h8_summary() -> dict[str, int]:
     parity = h8_parity_summary()
     triangular = h8_triangular_summary()
     reciprocal = h8_reciprocal_summary()
+    unit_norm = h8_unit_norm_summary()
     if (
         aperiodic["nonantipodal_rotation_orbits"]
         != actual_rotation["nonantipodal_rotation_orbits"]
@@ -375,6 +377,9 @@ def h8_summary() -> dict[str, int]:
         "reciprocal_max_terms": reciprocal["max_compatibility_terms"],
         "reciprocal_max_total_degree": reciprocal["max_compatibility_total_degree"],
         "reciprocal_central_terms": reciprocal["central_terms"],
+        "unit_norm_equations": unit_norm["equations"],
+        "unit_norm_max_terms": unit_norm["max_terms"],
+        "unit_norm_max_total_degree": unit_norm["max_total_degree"],
         **actual_support,
         **actual_rotation,
     }
@@ -457,7 +462,9 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"first_key_terms={h8['triangular_first_key_terms']} "
                 f"first_key_degree={h8['triangular_first_key_total_degree']}; "
                 f"reciprocal delta-free rows={h8['reciprocal_delta_free_rows']} "
-                f"max_degree={h8['reciprocal_max_total_degree']}"
+                f"max_degree={h8['reciprocal_max_total_degree']}; "
+                f"unit-norm rows={h8['unit_norm_equations']} "
+                f"max_degree={h8['unit_norm_max_total_degree']}"
             ),
             (
                 "certify "
@@ -586,6 +593,12 @@ def main() -> None:
         f"max_terms={h8['reciprocal_max_terms']} "
         f"max_total_degree={h8['reciprocal_max_total_degree']} "
         f"central_terms={h8['reciprocal_central_terms']}"
+    )
+    print(
+        "h=8 unit-norm reciprocal gate: "
+        f"equations={h8['unit_norm_equations']} "
+        f"max_terms={h8['unit_norm_max_terms']} "
+        f"max_total_degree={h8['unit_norm_max_total_degree']}"
     )
     print("F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS")
 

@@ -111,6 +111,10 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   product `delta`, giving seven delta-free reciprocal compatibility equations.
   These are linear in the reciprocal bar variables, with maximum total degree
   `16`.
+  The h=8 unit-norm reciprocal gate adds the official-row constraint
+  `delta*bar_delta=1`, giving seven Hermitian equations independent of the
+  base reciprocal row, with maximum total degree `30` and maximum term count
+  `19601`.
   Residual: certify 122,131,731,640,320 anchored non-antipodal 16-supports
   (7,633,233,227,520 aperiodic rotation orbits), or build a sharded signature
   join avoiding the blind left table.
@@ -160,6 +164,7 @@ h8 antipodal quotient
   + x83 parity reduction
   + x83 triangular obstruction compiler
   + h8 reciprocal compatibility compiler
+  + h8 unit-norm reciprocal gate
   + residual frontier/support-universe audits
   => T4-H8-N64-NONANTIPODAL-X83 remains the only h=8 blocker
 ```

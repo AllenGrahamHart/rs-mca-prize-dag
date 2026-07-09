@@ -80,6 +80,8 @@ The companion `F3_H8_RECIPROCAL_COMPATIBILITY_COMPILER.md` adds the reciprocal
 coefficient identities for roots of unity and eliminates the shared support
 product `delta`, producing seven delta-free compatibility equations on the
 same high-half graph.
+The companion `F3_H8_UNIT_NORM_RECIPROCAL_GATE.md` adds the further official
+unit-root constraint on `delta`.
 
 ## Replay
 

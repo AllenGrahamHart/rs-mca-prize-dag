@@ -9141,3 +9141,43 @@ Expected digests:
 H8_RECIPROCAL_COMPATIBILITY_COMPILER_PASS
 H8_X83_TRIANGULAR_OBSTRUCTION_PASS
 ```
+
+## 2026-07-09 h=8 unit-norm reciprocal gate
+
+Stage selected: add the official-row support-product unit constraint to the
+h=8 reciprocal x83 surface.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_UNIT_NORM_RECIPROCAL_GATE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_unit_norm_reciprocal_gate.py
+```
+
+For the h=8 reciprocal rows
+
+```text
+P_j = D_j delta * bar_c(16-j),  j=1,...,7,
+```
+
+the official-row relation `delta*bar_delta=1` gives seven Hermitian equations
+
+```text
+P_j * conjugate(P_j) = D_j^2 c(16-j) bar_c(16-j).
+```
+
+The replay verifies equation degrees `30,28,26,24,22,20,18`; the largest row
+has `19601` terms.  This does not close h=8, but it adds a base-independent
+`delta`-free surface to the non-antipodal x83 branch.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_unit_norm_reciprocal_gate.py
+```
+
+Expected digest:
+
+```text
+H8_UNIT_NORM_RECIPROCAL_GATE_PASS
+```
