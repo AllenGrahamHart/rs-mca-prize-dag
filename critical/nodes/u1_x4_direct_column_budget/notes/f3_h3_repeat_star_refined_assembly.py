@@ -6,7 +6,10 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from f3_h3_repeat_loose_secondary_payment import total_secondary_bound
-from f3_h3_repeat_same_lambda_scale_count import scale_collision_pair_bound
+from f3_h3_repeat_lambda_one_scale_h2_cap import (
+    combined_scale_pair_bound,
+    scale_h2_cap_summary,
+)
 from f3_h3_repeat_star_conditional_assembly import OFFICIAL_MIN_N, residue_bound
 
 
@@ -100,13 +103,15 @@ def main() -> None:
     if bad_repeat:
         raise AssertionError(("strict repeat-residue payment failed", bad_repeat[:5]))
 
-    scale_bad = [n for n in official_ns if scale_collision_pair_bound(n) >= n * n]
+    scale_bad = [n for n in official_ns if combined_scale_pair_bound(n) >= n * n]
     secondary_bad = [n for n in official_ns if total_secondary_bound(n) >= n * n]
     if scale_bad or secondary_bad:
         raise AssertionError((scale_bad[:5], secondary_bad[:5]))
+    scale_refined = scale_h2_cap_summary()
     print(
         "paid ledgers kept separate from strict tau route: "
-        f"scale_pairs(first_official)={scale_collision_pair_bound(OFFICIAL_MIN_N)}, "
+        f"scale_pairs(first_official)={combined_scale_pair_bound(OFFICIAL_MIN_N)}, "
+        f"h2_scale_cap_first_better=2^{scale_refined['first_h2_better_s']}, "
         f"loose_secondary(first_official)={total_secondary_bound(OFFICIAL_MIN_N)}"
     )
     print(

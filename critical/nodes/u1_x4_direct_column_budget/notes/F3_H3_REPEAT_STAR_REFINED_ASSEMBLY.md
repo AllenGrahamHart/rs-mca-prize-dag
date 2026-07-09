@@ -53,13 +53,14 @@ route:
 
 ```text
 lambda=1 scale pairs:
-  <= binom(floor((n-1)/3), 2);
+  <= binom(min(floor((n-1)/3), floor(ceil(66 n^(2/3))/3)), 2);
 
 loose secondary subcells:
   <= 53n.
 ```
 
-Both are below `n^2` on every official row.  They are useful for future
+Both are below `n^2` on every official row.  The h=2 affine cap first improves
+the scale ledger at `n=2^19`.  These ledgers are useful for future
 count/payment routes, but they do not by themselves imply `tau_coord<=1`.
 
 ## Role in h=3
@@ -73,7 +74,8 @@ strict route:
 
 count route ingredients:
   the scale same-lambda branch and loose secondary subcells already have
-  quadratic-or-better payments, but still need a bridge into any non-strict
+  paid ledgers, with the scale ledger becoming `O(n^(4/3))` after the h=2
+  affine cap takes over, but they still need a bridge into any non-strict
   residue argument.
 ```
 
