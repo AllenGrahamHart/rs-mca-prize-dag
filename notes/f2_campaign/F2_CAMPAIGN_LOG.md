@@ -1093,3 +1093,23 @@ Halasz-bridge composition proceeds with symbolic LO constants
 meanwhile (the extraction refines, does not block). Campaign totals:
 16 catches, every one corrected in-cycle or next-cycle; the summit
 route's dependency list is unchanged and shrinking.
+
+## 60 — 2026-07-10: the F_p LO statement EXTRACTED — citation phase DONE
+
+Body-read of arXiv:1904.11478 (Campos-Mattos-Morris-Morrison, "On the
+singularity of random symmetric matrices") via saved PDF: THEOREM 1.2
+is the exact F_p inverse Littlewood-Offord input, ALL CONSTANTS
+PRINTED: for prime p there is a container family C of subsets of Z_p,
+|C| <= exp(2^12 (log p)^2), such that every v in Z_p^n with rho(v) >=
+4/p and support |v| >= 2^18 log p admits B(v) in C and Y subset [n]
+(n/4 <= |Y| <= n/2) with #{i : v_i not in B(v)} <= n/4 and |B(v)| <=
+2^16 / (rho(v_Y) sqrt(|v|)). Their Halasz input is Lemma 2.3
+(classical). The bridge's two external inputs are now BOTH verified:
+Schoen (1,4) [log #58] + CMMM Thm 1.2 [this entry, constants 2^16 /
+2^18 / 2^12 / 4/p printed]. REMAINING ADAPTATION: our census values
+live in F_q = F_{p^k} — restriction of scalars to k parallel Z_p
+coordinates (the anti-concentration compounds across coordinates);
+then the composition write-up (dichotomy + CMMM => per-condition
+contraction), the loop induction, and the assembly. The citation
+phase of the campaign is COMPLETE: no external input remains
+unverified. Sixty entries.
