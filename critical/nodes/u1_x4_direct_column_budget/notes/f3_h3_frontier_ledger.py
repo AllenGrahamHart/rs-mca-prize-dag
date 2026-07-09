@@ -28,6 +28,7 @@ from f3_h3_private_linear_official_separation_guard import (
 )
 from f3_h3_rank_effective_bridge import EXPECTED_CAPACITIES, PINNED_RANKS, rank_capacity
 from f3_h3_exact_profile_bridge_budget import exact_profile_budget_summary
+from f3_h3_exact_profile_rank_capacity_guard import exact_profile_capacity_guard_summary
 from f3_h3_rich_curve_condition_profile import condition_profile_summary
 from f3_h3_repeat_frontier_ledger import (
     count_route_frontier_gates,
@@ -72,6 +73,7 @@ def official_budget_summary() -> dict[str, int]:
     private = tuple(PRIVATE_ROWS)
     lineage = budget_lineage_summary()
     exact_profile = exact_profile_budget_summary()
+    exact_capacity = exact_profile_capacity_guard_summary()
     exponents = [row.s for row in rows]
     private_exponents = [row.s for row in private]
     expected = list(range(13, 42))
@@ -91,6 +93,9 @@ def official_budget_summary() -> dict[str, int]:
         "z_exact_profile_min": exact_profile["exact_min"],
         "z_exact_profile_max": exact_profile["exact_max"],
         "z_exact_profile_gain_total": exact_profile["gain_total"],
+        "exact_profile_degree_capacity_min": exact_capacity["degree_space_capacity_min"],
+        "exact_profile_degree_capacity_max": exact_capacity["degree_space_capacity_max"],
+        "exact_profile_collapsed_capacity_max": exact_capacity["collapsed_capacity_max"],
         "private_separation_margin": private_separation_summary()["min_pass_margin"],
     }
 
@@ -242,6 +247,11 @@ def frontier_gates(
                 f"Z={budgets['z_exact_profile_min']}.."
                 f"{budgets['z_exact_profile_max']} "
                 f"(total gain {budgets['z_exact_profile_gain_total']}); "
+                f"official exact-profile boxes have one-image degree-space "
+                f"capacity {budgets['exact_profile_degree_capacity_min']}.."
+                f"{budgets['exact_profile_degree_capacity_max']} and "
+                f"constant-ratio collapsed capacity "
+                f"{budgets['exact_profile_collapsed_capacity_max']}; "
                 f"exact RC-RED profile uses "
                 f"{rich_curve_conditions['min_exact_to_legacy_percent'] / 100:.2f}.."
                 f"{rich_curve_conditions['max_exact_to_legacy_percent'] / 100:.2f}% "

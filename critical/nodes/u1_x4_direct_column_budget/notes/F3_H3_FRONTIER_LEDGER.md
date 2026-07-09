@@ -28,6 +28,10 @@ F3-RANK-AVOID / RC-NV: OPEN
   Feeding this exact profile into the bridge-budget optimizer gives the
   alternate conditional budget `Z_exact=33..21421`, with total gain `51451`
   over the active non-diagonal table.
+  The exact-profile rank-capacity guard verifies that, on these official
+  boxes, a degree-space-full repaired image has capacity exactly `1` and the
+  constant-ratio collapsed model has capacity `0`; the larger budget therefore
+  buys more distinct rank-effective images, not duplicate-image reuse.
   Residual: prove finite-row rank-good minor nonvanishing on repaired
   degree-2 signature-curve images.
 

@@ -7301,6 +7301,45 @@ H3_EXACT_PROFILE_BRIDGE_BUDGET_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=3 exact-profile rank-capacity guard
+
+Stage selected: prevent the exact-profile bridge budget from being interpreted
+as duplicate curve-image capacity.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_RANK_CAPACITY_GUARD.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_rank_capacity_guard.py
+```
+
+For every official exact-profile box, the compiler verifies
+
+```text
+floor((A B^3 - 1) / (DA+6D(D-1))) = Z_exact,
+floor(((A + 6n(B-1)) - 1) / (DA+6D(D-1))) = 1,
+floor((A(3B-2) - 1) / (DA+6D(D-1))) = 0.
+```
+
+Thus the larger `Z_exact=33..21421` budget buys more distinct rank-effective
+repaired images.  It does not allow one repaired curve image to be paid twice,
+and it does not resurrect the constant-ratio collapsed cells.  This is still
+only an arithmetic guard; `RC-RANK` and the bridge assignment remain open.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_rank_capacity_guard.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_EXACT_PROFILE_RANK_CAPACITY_GUARD_PASS
+H3_FRONTIER_LEDGER_PASS
+```
+
 Residual next targets remain unchanged: finite-row-valid h=3 rank/minor
 avoidance plus the matching bridge assignment, symbolic h=5 norm-gate
 incompatibility, and h=8 non-antipodal support certification.
