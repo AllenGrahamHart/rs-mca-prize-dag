@@ -37,6 +37,46 @@ COMMANDS = [
         "H3_HYPERBOLA_IDENTITY_PASS",
     ),
     (
+        "h3 hyperbola-line degeneracy",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_hyperbola_line_degeneracy.py",
+        ],
+        "H3_HYPERBOLA_LINE_DEGENERACY_PASS",
+    ),
+    (
+        "h3 conic degree-2 chart",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_degree2_chart.py",
+        ],
+        "H3_CONIC_DEGREE2_CHART_PASS",
+    ),
+    (
+        "h3 local fiber-count bridge",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_local_fiber_count_bridge.py",
+        ],
+        "H3_LOCAL_FIBER_COUNT_BRIDGE_PASS",
+    ),
+    (
+        "h3 dilation lift bound",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_dilation_lift_bound.py",
+        ],
+        "H3_DILATION_LIFT_BOUND_PASS",
+    ),
+    (
+        "h3 official degeneracy ledger",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_official_degeneracy_ledger.py",
+        ],
+        "H3_OFFICIAL_DEGENERACY_LEDGER_PASS",
+    ),
+    (
         "h3 rich-curve denominator compiler",
         [
             sys.executable,
@@ -93,6 +133,14 @@ COMMANDS = [
         "H3_RICH_CURVE_RANK_SAMPLE_PASS",
     ),
     (
+        "h3 rich-curve rank stress",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_stress.py",
+        ],
+        "H3_RICH_CURVE_RANK_STRESS_PASS",
+    ),
+    (
         "h3 rank-form parameter compiler",
         [
             sys.executable,
@@ -107,6 +155,110 @@ COMMANDS = [
             "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py",
         ],
         "H3_BRIDGE_BUDGET_COMPILER_PASS",
+    ),
+    (
+        "h3 rank-effective bridge",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_effective_bridge.py",
+        ],
+        "H3_RANK_EFFECTIVE_BRIDGE_PASS",
+    ),
+    (
+        "h3 RC-RANK model lemmas",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_model_lemmas.py",
+        ],
+        "H3_RC_RANK_MODEL_LEMMAS_PASS",
+    ),
+    (
+        "h3 RC-RANK small-H guardrail",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py",
+        ],
+        "H3_RC_RANK_HFLOOR_GUARD_PASS",
+    ),
+    (
+        "h3 private-linear one-factor rank",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_one_factor_rank.py",
+        ],
+        "H3_PRIVATE_LINEAR_ONE_FACTOR_RANK_PASS",
+    ),
+    (
+        "h3 private-linear two-factor guardrail",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_two_factor_guardrail.py",
+        ],
+        "H3_PRIVATE_LINEAR_TWO_FACTOR_GUARDRAIL_PASS",
+    ),
+    (
+        "h3 private-linear bad-prime guardrail",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_bad_prime_guardrail.py",
+        ],
+        "H3_PRIVATE_LINEAR_BAD_PRIME_GUARDRAIL_PASS",
+    ),
+    (
+        "h3 RC-RANK generic-open reduction",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py",
+        ],
+        "H3_RC_RANK_GENERIC_OPEN_PASS",
+    ),
+    (
+        "h3 RC-RANK normalization invariance",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_normalization_invariance.py",
+        ],
+        "H3_RC_RANK_NORMALIZATION_INVARIANCE_PASS",
+    ),
+    (
+        "h3 private-linear compiler guard",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_compiler_guard.py",
+        ],
+        "H3_PRIVATE_LINEAR_COMPILER_GUARD_PASS",
+    ),
+    (
+        "h3 private-linear official-row budget",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_lowrow_budget.py",
+        ],
+        "H3_PRIVATE_LINEAR_LOWROW_BUDGET_PASS",
+    ),
+    (
+        "h3 rank-avoidance interface",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py",
+        ],
+        "H3_RANK_AVOID_INTERFACE_PASS",
+    ),
+    (
+        "h3 non-diagonal low-row budget",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_lowrow_budget.py",
+        ],
+        "H3_NONDIAGONAL_LOWROW_BUDGET_PASS",
+    ),
+    (
+        "h3 non-diagonal high-row budget",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_highrow_budget.py",
+        ],
+        "H3_NONDIAGONAL_HIGHROW_BUDGET_PASS",
     ),
     (
         "h3 private-divisor full-rank refutation",
@@ -141,6 +293,14 @@ COMMANDS = [
         "H3_ACTIVATION_ORBIT_DEDUP_PASS",
     ),
     (
+        "h3 activation symmetry",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_symmetry.py",
+        ],
+        "H3_ACTIVATION_SYMMETRY_PASS",
+    ),
+    (
         "h5 structural reduction",
         [
             sys.executable,
@@ -155,6 +315,14 @@ COMMANDS = [
             "critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py",
         ],
         "H5_CERTIFICATE_COVERAGE_AUDIT_PASS",
+    ),
+    (
+        "h5 certificate scaling frontier",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_scaling_frontier.py",
+        ],
+        "H5_CERTIFICATE_SCALING_FRONTIER_PASS",
     ),
     (
         "h4/h5 bonus replay",
@@ -197,6 +365,22 @@ COMMANDS = [
         "H8_N64_X83_NEARLIFT_SHELL_PASS",
     ),
     (
+        "h8 antipodal x83 quotient",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_antipodal_x83_quotient.py",
+        ],
+        "H8_ANTIPODAL_X83_QUOTIENT_PASS",
+    ),
+    (
+        "h8 locator parity antipodal criterion",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_locator_parity_antipodal.py",
+        ],
+        "H8_LOCATOR_PARITY_ANTIPODAL_PASS",
+    ),
+    (
         "h8 support universe compiler",
         [
             sys.executable,
@@ -213,6 +397,14 @@ COMMANDS = [
         "H8_ROTATION_ORBIT_COMPILER_PASS",
     ),
     (
+        "h8 non-antipodal aperiodicity",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_nonantipodal_aperiodic.py",
+        ],
+        "H8_NONANTIPODAL_APERIODIC_PASS",
+    ),
+    (
         "h8 exponent-unit falsifier",
         [
             sys.executable,
@@ -227,6 +419,14 @@ COMMANDS = [
             "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_support_certifier_reduction.py",
         ],
         "H8_X83_SUPPORT_CERTIFIER_REDUCTION_PASS",
+    ),
+    (
+        "h8 x83 split rotation equivariance",
+        [
+            sys.executable,
+            "critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_split_rotation_equivariance.py",
+        ],
+        "H8_X83_SPLIT_ROTATION_EQUIVARIANCE_PASS",
     ),
 ]
 

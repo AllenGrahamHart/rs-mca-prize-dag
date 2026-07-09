@@ -37,8 +37,25 @@ def require_zero(row) -> None:
         raise AssertionError(row)
 
 
+def is_prime(n: int) -> bool:
+    if n < 2:
+        return False
+    if n % 2 == 0:
+        return n == 2
+    d = 3
+    while d * d <= n:
+        if n % d == 0:
+            return False
+        d += 2
+    return True
+
+
+def admissible_primes(n: int, hi: int) -> list[int]:
+    return [p for p in range(n * n + 1, hi + 1) if p % n == 1 and is_prime(p)]
+
+
 def require_h5_n32_certificate(rows) -> None:
-    expected_primes = [1153, 3137, 12289, 32801, 40961, 61441, 65537]
+    expected_primes = admissible_primes(32, 65537)
     if [row.get("p") for row in rows] != expected_primes:
         raise AssertionError(rows)
     for row in rows:
@@ -60,7 +77,7 @@ def require_h5_n32_certificate(rows) -> None:
 
 
 def require_h5_n64_certificate(rows) -> None:
-    expected_primes = [4289, 12289, 40961, 65537, 262337]
+    expected_primes = admissible_primes(64, 60161) + [65537, 262337]
     if [row.get("p") for row in rows] != expected_primes:
         raise AssertionError(rows)
     for row in rows:
@@ -169,6 +186,29 @@ def main() -> None:
     h5_rows = load_json(notes / "f3_h5_n32_multirow_certificate.json")
     require_h5_n32_certificate(h5_rows)
     h5_n64_rows = load_json(notes / "f3_h5_n64_multirow_certificate.json")
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_12289_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_12289_chunk_b.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_20353_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_20353_chunk_b.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_20353_chunk_c.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_23873_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_26177_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_28097_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_30977_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_33601_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_36161_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_38977_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_40577_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_40961_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_44417_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_48193_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_51521_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_51521_chunk_b.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_53377_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_54721_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_57793_chunk_a.json"))
+    h5_n64_rows.extend(load_json(notes / "f3_h5_n64_prefix_60161_chunk_a.json"))
+    h5_n64_rows.sort(key=lambda row: row["p"])
     require_h5_n64_certificate(h5_n64_rows)
     h5_n96_row = load_json(notes / "f3_h5_n96_boundary_certificate.json")
     require_h5_n96_certificate(h5_n96_row)

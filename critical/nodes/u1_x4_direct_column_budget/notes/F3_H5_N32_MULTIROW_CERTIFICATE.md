@@ -3,8 +3,9 @@
 Status: MACHINE-VERIFIED COMPLETE ROW CERTIFICATES.
 
 This note strengthens the h=5 side of the h=4/h=5 bonus item.  The existing
-artifact had one full `n=32,h=5,p=1153` zero row.  This replay checks seven
-complete `n=32,h=5` rows at boundary/smooth primes in the `p >= n^2` regime.
+artifact had one full `n=32,h=5,p=1153` zero row, then seven selected rows.
+This replay now checks a contiguous low-prime prefix plus the original high
+selected rows in the `p >= n^2` regime.
 
 ## Scope
 
@@ -12,7 +13,7 @@ Rows:
 
 ```text
 n = 32, h = 5,
-p in {1153, 3137, 12289, 32801, 40961, 61441, 65537}.
+p = every admissible prime 1 mod 32 with 32^2 < p <= 65537.
 ```
 
 Object:
@@ -37,13 +38,22 @@ anchored nontoral trades= 0
 partial                 = false
 ```
 
-Thus the h=5 no-primitive evidence at `n=32` now covers seven complete
-`p >= n^2` rows, including both boundary and smooth primes.
+Thus the h=5 no-primitive evidence at `n=32` now covers `402` complete
+`p >= n^2` rows.  In particular, it is no longer only selected-row evidence at
+the beginning of the row: every admissible prime through `65537` is certified.
+The replay processes `68,304,222` total right-side subsets and completed locally
+in `19.18s` in the banked run.
 
 ## Replay
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+```
+
+Single-prime timing gate:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py 1153
 ```
 
 Expected digest:

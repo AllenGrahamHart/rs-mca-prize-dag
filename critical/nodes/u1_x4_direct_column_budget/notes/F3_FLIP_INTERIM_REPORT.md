@@ -37,6 +37,16 @@ the external import, the remaining finite midrange is exactly `2^19..2^22`;
 `2^13..2^18` are the rows estimated as feasible for exact certificates under
 the `<2000` shard policy.
 
+The affine coset-pair h=2 corollary is also banked.  The same optimized
+Stepanov proof gives, for two non-proportional affine forms,
+
+```text
+#{X : L_1(X) in H, L_2(X) in H} <= 66 n^(2/3)
+```
+
+under `n^4 < p^3`.  This is the h=2 input used below to pay the q0
+repeat-boundary cell and cap each fixed repeat-boundary line fiber.
+
 ### h=3
 
 The char-zero classification and norm-gate mechanism are banked.  The current
@@ -62,6 +72,1230 @@ to `167` affine/Galois pair-orbits, with maximum per-prime deduped count
 `27 < 96` and no repeated canonical orbit across threshold primes.  This is
 evidence at the right scale but not a proof.  The remaining h=3 proof debt is
 exact:
+
+The activation symmetry packet proves the algebra behind that deduplication:
+unit-affine exponent maps and side swap preserve the h=3 activation predicate
+when the primitive-root embedding is transformed contragrediently.  The replay
+checks this over finite-field samples and all `720` banked activation records.
+This is a bridge-side symmetry lemma, not an activation bound.
+
+The hyperbola-line degeneracy packet classifies one of the bridge exclusions
+exactly.  In the same `omega`-coordinates,
+
+```text
+Delta = a^2/3 - b.
+```
+
+Thus the `3 | q-1` rational-line cell is precisely `b=a^2/3`, where
+`G_F(u,v)` splits into the two translated asymptote lines.  For
+`Delta != 0`, the conic `XY=Delta` is irreducible over the coefficient field.
+This is a theorem-statement repair for the bridge/rank theorem, not an
+activation-count proof.
+
+The official degeneracy ledger removes one named exception from the actual F3
+rows.  The char-zero theorem says the toral h=3 column exists only when
+`3 | n`, with count `binom(n/3,2)`.  Since every official row is `n=2^s`,
+`13 <= s <= 41`, the toral term is zero on the rows that matter for the F3
+floor.  The remaining official degeneracy cells for the repaired rank theorem
+are the constant-ratio cells and the hyperbola-line cell `b=a^2/3`.
+
+The conic-chart packet makes the bridge setup field-rational.  Given any
+row-field point `(u0,v0)` on the same-fiber conic
+`u^2+uv+v^2+a(u+v)+b=0`, the line-through-point chart gives
+
+```text
+U(t), V(t), W(t) = -a-U(t)-V(t)
+```
+
+with numerator and denominator degrees at most `2`, and
+`F0(U)=F0(V)=F0(W)` for `F0(T)=T^3+aT^2+bT`.  Thus the h=3 same-fiber
+membership conditions land in the exact degree-2 rational-map class consumed by
+the rich-curve compiler, without adjoining a cube root.  This does not prove
+the rank-good minor theorem or the geometric batching theorem.
+
+The local fiber-count bridge fixes the multiplicity on each same-`(e1,e2)`
+ledger.  If `N(s1,s2)` is the number of unordered triples in `H` with those
+elementary data, and `R(s1,s2)` is the number of ordered pairwise-distinct
+same-fiber triples, then
+
+```text
+R(s1,s2) = 6 N(s1,s2),
+local activated pairs = binom(N(s1,s2),2).
+```
+
+Equivalently, the conic chart counts ordered triple points, and the bridge must
+pay the exact sixfold ordering multiplicity before quotienting activated
+triple-pairs.  This is a local counting identity, not the global
+rank-capacity batching theorem.
+
+The h=3 moment bookkeeping packet pins the T2 identity used by the older
+moment program.  For the ordered-triple moment
+
+```text
+M = #{(x,y) in H^3 x H^3 : sum(x)=sum(y), sum(x^2)=sum(y^2)},
+```
+
+one has exactly
+
+```text
+M = trivial + 72 T_3 + repeat_residue,
+trivial = 36 binom(n,3) + 9 n(n-1) + n.
+```
+
+The factor `72` is `2*6*6` from unordered disjoint distinct triple-pairs.  The
+`repeat_residue` term consists of same-signature multiset-pairs where at least
+one side has a repeated entry; the replay finds it nonzero on small rows, so a
+moment-form proof must bound or pay it rather than dropping it.
+
+The repeat-residue boundary compiler turns that residue into a smaller exact
+ledger.  In characteristic not `2,3`, repeated multisets with a fixed
+`(sum, sumsq)` signature have ordered repeated weight
+
+```text
+R_sigma in {0,1,3,6}.
+```
+
+Triple repeats do not collide with double repeats, and the only possible
+second double-repeat solution to `(a,a,b)` is the involution
+
+```text
+((a+2b)/3, (4a-b)/3).
+```
+
+If `D_sigma` is the ordered distinct-entry weight over a repeated signature,
+then
+
+```text
+repeat_residue_sigma = 2 D_sigma R_sigma + R_sigma^2 - Q_sigma,
+repeat_residue <= 12 D_boundary + 18 Z_repeat.
+```
+
+Here `D_boundary=sum_{R_sigma>0} D_sigma` and
+`Z_repeat=#{sigma: R_sigma>0}`.  Thus the moment route no longer has a vague
+residue term; it has a precise boundary target to bound.
+
+The repeat-boundary line compiler further normalizes `D_boundary`.  Divide a
+same-signature pair consisting of a repeated source `(a,a,b)` and a distinct
+triple `(x,y,z)` by `a`, and write `lambda=b/a`.  The normalized distinct
+triple `(u,v,w)` satisfies
+
+```text
+lambda = u+v+w-2 in H,
+(u-1)(v-1)+(u-1)(w-1)+(v-1)(w-1)=0.
+```
+
+Thus `w` is forced by `u,v`.  With
+
+```text
+t=v-1,  r=(u-1)/(v-1),
+```
+
+the normalized boundary is represented by the four affine forms
+
+```text
+1+t,
+1+rt,
+1-(r/(r+1))t,
+1+((r^2+r+1)/(r+1))t.
+```
+
+Let `B_line` count pairs `(r,t)` for which these four values lie in `H` and
+the first three are distinct.  Since source normalization can count an
+involutive double-repeat signature twice,
+
+```text
+D_boundary <= n B_line,    Z_repeat <= n^2,
+repeat_residue <= 12 n B_line + 18 n^2.
+```
+
+So the moment-form residue is now reduced to a concrete line-pencil membership
+bound.  The fourth coefficient vanishes at `r^2+r+1=0`, exactly the
+triple-repeat cell `lambda=1`, which should be paid separately or included in
+the same line theorem.
+
+The repeat-boundary LP4 Stepanov compiler records the arithmetic for such a
+line theorem.  For a repaired family `R` of line parameters, use
+
+```text
+Phi(X,Y_1,Y_2,Y_3,Y_4),
+deg_X < A,  deg_{Y_i} < B.
+```
+
+Since the four maps are affine, the substituted degree is only
+
+```text
+L_4(A,B,n) = (A-1) + 4n(B-1),
+```
+
+and the logarithmic jet recurrence has `S=X prod_i L_i` with `deg S <= 5`.
+Thus the reduced-condition gate is
+
+```text
+LP4-RED(5):  conditions <= 5D(A+D)|R|.
+```
+
+Under the missing line-pencil rank/nonvanishing theorem `LP4-RANK/LP4-NV`,
+
+```text
+5D(A+D)|R| < A B^4
+  =>  B_line < |R| ((A-1)+4n(B-1))/D.
+```
+
+This is not supplied by the h=2 rich-coset theorem: the h=2 theorem controls
+two affine membership conditions, while the repeat boundary genuinely needs
+the fourth condition `lambda in H`.
+
+The LP4 exception ledger isolates the non-generic line parameters.  The
+coefficient-collision set
+
+```text
+r in {0, -1, 1, -1/2, -2}
+```
+
+is inadmissible for distinct boundary triples: `0` and `-1` are invalid, and
+the other three force equality among `u,v,w`.
+
+The q0-cell packet pays the one lower-condition LP4 subcell.  When
+`r^2+r+1=0`, the fourth form is constant `lambda=1`, and there are at most two
+such line parameters.  Dropping the third nonconstant form leaves a two-affine
+multiplicative-coset intersection, so the optimized h=2 Stepanov proof gives
+
+```text
+B_q0 <= 132 n^(2/3)
+```
+
+under the same single-shift hypothesis `n^4 < p^3`.  Its repeat-residue
+contribution is therefore at most `1584 n^(5/3)`.  The future LP4 theorem may
+exclude `r^2+r+1=0` and focus on the genuine four-form cell.
+
+The repeat-boundary fiber-cap packet gives a second route for the genuine
+cell.  For any fixed nondegenerate `r`, dropping the last two line conditions
+leaves a two-affine coset intersection, hence
+
+```text
+T_r <= 66 n^(2/3).
+```
+
+If `R_genuine` is the number of active non-q0 line parameters, then
+
+```text
+B_line <= 132 n^(2/3) + 66 n^(2/3) R_genuine,
+repeat_residue
+  <= 1584 n^(5/3) + 792 n^(5/3) R_genuine + 18n^2.
+```
+
+Thus a support theorem `R_genuine <= C n^beta` with `beta < 4/3` would pay the
+repeat residue subcubically; a linear support theorem would give an
+`O(n^(8/3))` residue payment.
+
+The support-symmetry packet identifies the right quotient support.  If
+`r=(u-1)/(v-1)`, permuting the three distinct boundary entries sends `r` to
+
+```text
+r, 1/r, -r/(r+1), -(r+1)/r, -(r+1), -1/(r+1).
+```
+
+Outside the coefficient-collision cells and the paid q0 cell, these are six
+distinct active parameters.  Hence
+
+```text
+R_genuine = 6 R_orb.
+```
+
+Future support bounds should target `R_orb`; this is a quotient compiler, not
+a support theorem.
+
+The repeat-boundary support compiler combines these pieces into the exact
+residue interface:
+
+```text
+B_line <= 132 n^(2/3) + 396 R_orb n^(2/3),
+repeat_residue
+  <= 1584 n^(5/3) + 4752 R_orb n^(5/3) + 18n^2.
+```
+
+Therefore a quotient-support theorem
+
+```text
+R_orb <= C n^beta,   beta < 4/3
+```
+
+pays the repeat residue subcubically.  The natural linear target
+`R_orb <= Cn` would give an `O_C(n^(8/3))` residue bound.
+
+The repeat-support crossover compiler quantifies the constant pressure for
+that linear target using the integer q0/fiber caps:
+
+```text
+C=1/4: 2^31..2^41
+C=1/2: 2^34..2^41
+C=1:   2^37..2^41
+C=2:   2^40..2^41
+C=4:   no official tail.
+```
+
+So linear support is asymptotically enough, but a full h=3 constants campaign
+still needs either a small support constant, sharper arithmetic, or finite
+certificates for the lower official rows.
+
+The repeat-support boundary-evidence packet uses the equivalent `O(n^2)`
+subgroup-pair scanner on boundary-style rows `p >= n^2`.  It finds
+
+```text
+n=16,32,64,128: B_line=0
+n=256, p=65537: B_line=48, support=48, R_orb=8
+n=512,1024: B_line=0
+```
+
+Thus boundary support is tiny in these rows, but a zero-support theorem is
+false.  The remaining target should stay a support bound, not support
+emptiness.
+
+The forced-point reduction packet gives a more structured possible support
+route.  If every active normalized triple contains a coordinate from a set
+`A <= H\{1}`, and `N_a` counts the one-variable fiber
+
+```text
+w_a(v)=1-(a-1)(v-1)/(a+v-2),
+lambda_a(v)=a+v+w_a(v)-2
+```
+
+with `v,w_a(v),lambda_a(v) in H`, then symmetry gives
+
+```text
+B_line <= 3 sum_{a in A} N_a.
+```
+
+For the nonzero boundary row `n=256,p=65537`, the common forced set is `{2}`
+and the reduction is exact:
+
+```text
+B_line = 48 = 3N_2.
+```
+
+This is finite evidence only, but it identifies another theorem route:
+prove a small forced-coordinate cover, then bound the resulting one-variable
+PGL2 fibers.
+
+The forced-fiber Stepanov compiler pins the arithmetic for those fibers.  For
+fixed `a`, the maps have degrees
+
+```text
+w_a(X)=P_1(X)/Q_a(X),       deg P_1 <= 1, deg Q_a = 1,
+lambda_a(X)=P_2(X)/Q_a(X),  deg P_2 = 2,  deg Q_a = 1.
+```
+
+Using `Phi(X,Y_1,Y_2)` with `deg_X<A`, `deg_{Y_i}<B`, the cleared substituted
+degree is
+
+```text
+L_FF(A,B,n) = (A-1) + 3n(B-1),
+```
+
+and the log-jet reduction gives
+
+```text
+FF-RED(5): conditions <= 5D(A+D)F
+```
+
+for a forced-coordinate family of size `F`.  Under the missing
+`FF-RANK/FF-NV` gate,
+
+```text
+sum_{a in A0} N_a < F((A-1)+3n(B-1))/D.
+```
+
+So the forced-coordinate route now has the same shape as the LP4 route:
+reduced-condition arithmetic is banked, rank/nonvanishing remains open.
+
+There is also a simpler forced-fiber bound that does not need Stepanov.  Since
+`lambda_a(X)=P_a(X)/(a+X-2)` with `P_a` quadratic and leading coefficient `1`,
+each equation `lambda_a(X)=mu`, `mu in H`, has at most two solutions.  Dropping
+the `w_a(X) in H` condition gives
+
+```text
+N_a <= 2n.
+```
+
+Therefore any forced-coordinate cover `A0` gives
+
+```text
+B_line <= 6 |A0| n,
+repeat_residue <= 72 |A0| n^2 + 18n^2.
+```
+
+So a sublinear forced-coordinate cover already pays the repeat residue
+subcubically, and a constant-size cover pays it quadratically.  This reduces
+the forced route to proving a small forced-coordinate cover; `FF-RANK/FF-NV`
+is only needed if one wants sharper fiber constants or sublinear `N_a`.
+
+The forced-cover crossover compiler shows the official-row constant pressure.
+For a cover size `F`, the sufficient condition is simply
+
+```text
+n > 72F + 18.
+```
+
+Consequences:
+
+```text
+F=64:       covers 2^13..2^41
+F=128:      covers 2^14..2^41
+F=1024:     covers 2^17..2^41
+F<=sqrt(n): covers 2^13..2^41
+F<=n^(2/3): covers 2^19..2^41
+```
+
+Thus the forced-coordinate route can tolerate covers much larger than constant
+size; any substantially sublinear cover is enough asymptotically.
+
+The coordinate-cover ledger defines the canonical measurable cover
+
+```text
+A_coord = union_{active triples (u,v,w)} {u,v,w}.
+```
+
+It is automatic, but can be too crude.  On the boundary evidence rows,
+`C_coord=0` except at `n=256,p=65537`, where
+
+```text
+B_line=48, support=48, C_coord=17.
+```
+
+The resulting degree-bound payment is larger than `n^3` at that row, so the
+canonical cover is useful as a target object but not yet a row certificate.
+The smaller common forced cover `{2}` remains the sharper explanation.
+
+The coordinate-hitting ledger sharpens the target object.  Let `tau_coord` be
+the minimum size of a set of subgroup coordinates hitting every active
+coordinate edge `{u,v,w}`.  Then the same forced-fiber degree bound gives
+
+```text
+B_line <= 6 tau_coord n,
+repeat_residue <= (72 tau_coord + 18)n^2.
+```
+
+This is the invariant actually consumed by the forced-coordinate route.  On
+the nonzero boundary row, the active hypergraph has eight distinct coordinate
+edges and
+
+```text
+tau_coord=1, hitter={2}.
+```
+
+Thus the elementary payment is
+
+```text
+(72*1+18)256^2 = 5898240 < 256^3.
+```
+
+This certifies the nonzero boundary row by the forced-coordinate route, while
+leaving the uniform small-hitting theorem open.
+
+The forced-coordinate-2 normal form explains the singleton hitter.  For the
+forced-fiber maps
+
+```text
+w_a(v)=1-(a-1)(v-1)/(a+v-2),
+lambda_a(v)=a+v+w_a(v)-2,
+```
+
+the specialization `a=2` gives
+
+```text
+w_2(v)=v^{-1},
+lambda_2(v)=v+v^{-1}.
+```
+
+Thus every active edge hit by `2` is of the inverse-pair form
+`{2,v,v^{-1}}`, with `v+v^{-1} in H`.  In the nonzero boundary row this
+accounts for all eight active coordinate edges and gives `N_2=16`,
+`B_line=3N_2=48`.
+
+The hitting exception scan prevents overfitting this pattern.  The pure claim
+that all active edges are hit by `2` is false on boundary-style rows, for
+example:
+
+```text
+p=337   n=16  active_edges=1 non_two_edges=1 tau_coord=1
+p=2017  n=32  active_edges=1 non_two_edges=1 tau_coord=1
+p=91393 n=256 active_edges=2 non_two_edges=2 tau_coord=1
+```
+
+So the right structural target is still `tau_coord`, not a fixed coordinate.
+The `2`-cell is useful, but must be paired with an exception-hitting argument.
+
+The singleton-hitting stress scan then tests the stronger star target
+`tau_coord<=1` directly.  It scans the first boundary-style primes in windows
+through `n=256` and finds no `tau_coord>1` row:
+
+```text
+n=16  nonzero_rows=1 max_row=p=337,B=6,edges=1,tau=1
+n=32  nonzero_rows=1 max_row=p=2017,B=6,edges=1,tau=1
+n=64  nonzero_rows=5 max_row=p=65537,B=24,edges=4,tau=1
+n=128 nonzero_rows=3 max_row=p=65537,B=48,edges=8,tau=1
+n=256 nonzero_rows=6 max_row=p=65537,B=48,edges=8,tau=1
+```
+
+If this star target is proved in the boundary regime, then
+`repeat_residue <= 90n^2`, which pays every official row.  This remains finite
+evidence, not a theorem.
+
+The star-obstruction compiler converts that target into a smaller algebraic
+exclusion.  For a 3-uniform active coordinate hypergraph, `tau_coord>1` is
+equivalent to the existence of at most four distinct active edges with empty total
+intersection: choose one edge `{a,b,c}` and one further edge missing each of
+`a,b,c`.  Therefore proving singleton hitting is the same as ruling out this
+four-edge obstruction in the boundary-style incidence variety.
+
+The non-boundary contrast row `(p,n)=(97,32)` has `active_edges=15`,
+`tau_coord=7`, and a two-edge empty-intersection obstruction, so this is a real
+phenomenon outside the boundary-style regime.
+
+The obstruction taxonomy splits the remaining exclusion into two cases:
+
+```text
+H3-NO-DISJOINT-EDGES
+H3-NO-PAIRWISE-CORELESS
+```
+
+The first rules out two disjoint active reciprocal edges.  The second rules
+out an at-most-four family of active reciprocal edges that are pairwise
+intersecting but have empty total intersection.  Together they imply the
+star theorem.
+
+The pair-intersection compiler splits `H3-NO-DISJOINT-EDGES`.  For active
+cubics with data `(lambda,m)` and `(mu,n)`, their difference is
+
+```text
+-(lambda-mu)T^2 + 2(lambda-mu)T - (m-n).
+```
+
+If `lambda=mu`, distinct active edges are automatically disjoint.  If
+`lambda!=mu`, common roots must lie on this quadratic difference locus.  Thus
+the disjoint-pair target reduces to `H3-NO-SAME-LAMBDA` and
+`H3-NO-QUADRATIC-MISS`.
+
+The lambda-fiber ledger makes the first target exact.  If `K_lambda` is the
+number of active coordinate edges over a fixed `lambda`, then the number of
+same-`lambda` disjoint pairs is
+
+```text
+sum_lambda binom(K_lambda,2).
+```
+
+So `H3-NO-SAME-LAMBDA` is precisely injectivity of `E -> lambda(E)` on active
+boundary-style edges.
+
+The quadratic-rho compiler makes the second target exact.  For
+`lambda != mu`, set
+
+```text
+rho = (m-n)/(lambda-mu).
+```
+
+Then common coordinates of the two active edges are exactly
+
+```text
+{t in E : t(2-t)=rho}.
+```
+
+So `H3-NO-QUADRATIC-MISS` is the scalar hit condition
+`rho in {t(2-t): t in E}` for every lambda-distinct pair.
+
+The affine value-slope form unifies the two disjoint-edge subtargets:
+
+```text
+A_lambda(T)=T(T-1)^2 + lambda*T(2-T).
+```
+
+Active edges are 3-point H-level fibers of `A_lambda`; rho values are secant
+slopes in the lambda direction.  Thus `H3-LAMBDA-INJECTIVE` becomes uniqueness
+of active 3-point H-level values for fixed lambda, and `H3-RHO-HIT` becomes a
+slope-hit statement for `T(2-T)` on the source edge.
+
+The reciprocal-product compiler gives the parallel invariant form.  For
+reciprocal roots `{r,s,t}` with `r+s+t=0`, write
+
+```text
+R=rst.
+```
+
+Then the edge is the root set of
+
+```text
+X^3+(lambda-1)R X-R,
+```
+
+and the coordinate product is `m=lambda+R^-1`.  Therefore fixed-`lambda`
+injectivity is uniqueness of the reciprocal product `R`.  For lambda-distinct
+edges `(lambda,R)` and `(mu,S)`,
+
+```text
+rho = 1 + (R^-1-S^-1)/(lambda-mu),
+```
+
+and the source-edge slope values are `1-r^-2` on reciprocal roots.
+
+The lambda-root fiber compiler solves the reciprocal cubic for `R` from one
+reciprocal root:
+
+```text
+Phi_lambda(r)=r^3/(1-(lambda-1)r).
+```
+
+For each `lambda in H`, active edges with that lambda are exactly the 3-point
+fibers of `Phi_lambda` on `S={1/(u-1):u in H,u!=1}`.  Hence
+`H3-VALUE-INJECTIVE` is equivalently the assertion that every `Phi_lambda` has
+at most one 3-point fiber on `S`.
+
+The lambda-ratio parametrization makes each such fiber explicit.  If
+`lambda != 1` and `s=zr` is a second root in the same fiber, then
+
+```text
+r = (1+z+z^2)/((lambda-1)z(1+z)),
+s = zr,
+t = -(1+z)r.
+```
+
+The special case `lambda=1` reduces to `Phi_1(r)=r^3`, so the only possible
+ratios are primitive cube roots:
+
+```text
+z^2+z+1=0.
+```
+
+Thus the fixed-`lambda` target can be phrased as uniqueness of an admissible
+ratio orbit for the reconstructed three reciprocal roots.
+
+The lambda-ratio membership compiler writes the generic branch as three
+explicit subgroup-membership functions.  With `a=lambda-1` and
+`N(z)=1+z+z^2`,
+
+```text
+U_lambda(z)=1+a z(1+z)/N(z),
+V_lambda(z)=1+a(1+z)/N(z),
+W_lambda(z)=1-a z/N(z).
+```
+
+For `lambda != 1`, an admissible ratio is exactly a non-pole `z` with
+`U_lambda(z),V_lambda(z),W_lambda(z) in H`.  The `lambda=1` branch remains the
+separate primitive-cube scale condition.
+
+The ratio-orbit compiler quotients the ordered ratios by the `S_3` relabeling
+of the three roots.  The six generic transforms are
+
+```text
+z, 1/z, -(1+z), -1/(1+z), -(1+z)/z, -z/(1+z).
+```
+
+Thus the generic fixed-`lambda` target is uniqueness of an admissible
+`S_3`-orbit of ratios, not uniqueness of a raw ordered ratio.  For
+`lambda=1`, the ordered-ratio set has size two and remains in the primitive
+cube-root scale branch.
+
+The lambda-one scale compiler makes that exceptional branch explicit.  If
+`omega` is a primitive cube root of unity and `x=1/r`, then a `lambda=1` active
+edge is exactly
+
+```text
+{1+x, 1+omega x, 1+omega^2 x} subset H,
+```
+
+modulo the scale orbit `x -> omega x`.  If the field has no primitive cube
+root, the branch is empty.
+The scale-count compilers give the combined bound
+`K_1 <= min(floor((n-1)/3), floor(ceil(66 n^(2/3))/3))` on the number of
+admissible scale orbits.  The second term comes from applying the h=2
+affine-coset pair corollary to the two conditions `1+x,1+omega x in H`, and
+first improves the trivial count at `n=2^19`.
+The same-lambda branch assembly now separates the strict route
+`H3-VALUE-GEN-INJECTIVE + H3-VALUE-SCALE-INJECTIVE => H3-VALUE-INJECTIVE`
+from the count route where only the scale branch is paid by this combined
+scale-collision ledger.
+
+The same-lambda collision-system compiler combines these pieces.  A
+fixed-`lambda` failure is precisely either two distinct admissible generic
+`S_3` ratio orbits for one `lambda != 1`, or two distinct primitive-cube scale
+orbits in the `lambda=1` branch.  The contrast row realizes the first case at
+`lambda=27`.
+
+The same-lambda orbit-domain compiler makes the word "distinct" algebraic.
+For generic ratios `z,y`, the six forbidden same-orbit divisors are
+
+```text
+y-z, yz-1, y+z+1, y(1+z)+1, yz+z+1, y(1+z)+z.
+```
+
+Their product has degree profile `deg_z=6, deg_y=6, total=10`.  The non-pole
+product `z(1+z)(1+z+z^2)y(1+y)(1+y+y^2)` has profile
+`deg_z=4, deg_y=4, total=8`.  In the `lambda=1` scale branch, two
+representatives are distinct exactly when `x^3-y^3 != 0`.
+
+The same-lambda J-invariant compiler identifies the generic off-orbit product
+as the numerator of one complete quotient invariant.  With
+
+```text
+J(z) = (1+z+z^2)^3 / (z^2(1+z)^2),
+```
+
+the reciprocal product for fixed `a=lambda-1` is
+
+```text
+R(a,z) = -J(z)/a^3,
+```
+
+and the compiler verifies
+
+```text
+numerator(J(z)-J(y)) = - product_orbit(z,y).
+```
+
+Thus `H3-VALUE-GEN-INJECTIVE` is a value-uniqueness target for the complete
+`S_3` quotient invariant `J`, not a raw six-factor bookkeeping artifact.  The
+ramification compiler further verifies
+`J'(z) numerator=(z-1)(z+2)(2z+1)(z^2+z+1)^2`; after the generic-domain
+exclusions, the only admissible critical orbit is `{1,-2,-1/2}` with value
+`27/4`.  That orbit is exactly the duplicate-coordinate locus for
+`{r,zr,-(1+z)r}`, so active-edge distinctness leaves no active critical
+points.  This does not close the gate; it sharpens the object a proof must
+control and rules out hidden quotient ramification as the source of the
+remaining obstruction.  The product-parameter compiler restates the same
+interface in the edge-cubic coefficient: for fixed `a=lambda-1`,
+`U+V+W=a+3`, `UV+UW+VW=2a+3`, and `m=UVW=a+1-a^3/J(z)`.  Thus the only free
+coefficient in the fixed-lambda cubic is a separable product coordinate on
+the distinct generic quotient domain.
+
+The slope-ratio compiler gives the lambda-distinct target the same
+coordinates.  In the generic branch,
+
+```text
+R^-1 = -(lambda-1)^3 z^2(1+z)^2/(1+z+z^2)^3.
+```
+
+For two lambda-distinct edges `(lambda,R)` and `(mu,S)`,
+
+```text
+rho = 1 + (R^-1-S^-1)/(lambda-mu).
+```
+
+The `H3-SLOPE-HIT` target is therefore that this rho lies in the three source
+slope values `u(2-u)`, equivalently the three values coming from
+`U_lambda(z),V_lambda(z),W_lambda(z)`.  Pairs involving `lambda=1` use
+`R^-1=x^3` from the scale branch.
+
+The slope numerator compiler denominator-clears this condition.  For a generic
+source, with `A=-a^3z^2(1+z)^2`, `B=N^3`, `Delta=lambda-mu`, and target
+invariant `S^-1`, set
+
+```text
+rho_num = Delta*B + A - S^-1*B.
+```
+
+Writing the three source slopes as `S_i/N^2`, define
+
+```text
+Q_i = rho_num - S_i*Delta*N.
+```
+
+Then, away from the registered non-poles,
+
+```text
+H3-SLOPE-HIT  <=>  Q_0 Q_1 Q_2 = 0.
+```
+
+The `lambda=1` source branch has the analogous product over
+`1-x^2,1-(omega x)^2,1-(omega^2 x)^2`.
+
+The slope equality-factorization compiler proves that these numerator products
+are exactly coordinate-overlap products.  In the generic-generic case,
+
+```text
+Q_i = +/- product_j (source_increment_i*M - target_increment_j*N),
+```
+
+with total product degree `41`.  In the mixed generic/scale case,
+
+```text
+Q_i = +/- (source_increment_i^3 - x^3*N^3),
+```
+
+with total product degree `27`.  Consequently the slope gates are precisely
+coordinate-intersection targets after denominator clearing.  The reverse
+scale/generic orientation has the same exact form after cube-root relabelling:
+for `c^3=1`, `Q_{c^2}=+/- product_j(c*x*M-target_increment_j)`.  In
+particular, the `lambda=1` scale count alone does not pay
+`H3-SLOPE-MIXED-HIT`; a proof still needs a mechanism forcing overlap with
+each admissible generic edge, or a separate residue payment for all mixed
+misses.
+
+The pairwise-coreless compiler splits the other taxonomy branch.  A
+pairwise-intersecting coreless obstruction on at most four active 3-edges
+either has a 3-edge coreless subfamily, or every triple has a common point and
+the four edges must be the tetrahedral four 3-subsets of a 4-point set.
+Therefore `H3-NO-PAIRWISE-CORELESS` reduces to
+`H3-NO-THREE-EDGE-CORELESS` and `H3-NO-TETRAHEDRON`.
+
+The coreless-pattern compiler then splits the three-edge case.  A
+pairwise-intersecting coreless triple of 3-edges has sorted pair-intersection
+sizes only `(1,1,1)` or `(1,1,2)`, giving the two targets
+`H3-NO-LOOSE-TRIANGLE` and `H3-NO-PINCHED-TRIANGLE`.
+
+The linear-hypergraph compiler then removes two of these cases for active
+repeat-boundary edges.  Any coordinate pair `a,b` forces the third coordinate
+
+```text
+c = 1 - (a-1)(b-1)/(a+b-2),
+```
+
+so two distinct active edges cannot share two coordinates.  Therefore
+pinched triangles and tetrahedra are impossible; the only remaining
+pairwise-coreless target is `H3-NO-LOOSE-TRIANGLE`.
+
+The loose-triangle shadow compiler makes that final combinatorial target exact.
+Put a graph edge between every coordinate pair contained in an active
+3-coordinate edge.  Linearity says each shadow pair has at most one active-edge
+owner.  Hence each shadow triangle is either contained in one active edge or is
+supported by three distinct active edges.  The second case is exactly a loose
+triangle
+
+```text
+{a,b,x}, {a,c,y}, {b,c,z}.
+```
+
+Thus `H3-NO-LOOSE-TRIANGLE` is equivalent to every active-pair shadow triangle
+being contained in a single active edge.  The boundary-style guardrail rows
+have no loose shadow triangles; the non-boundary contrast row `(p,n)=(97,32)`
+has two, confirming that this remaining target is non-vacuous.
+
+The reciprocal-closure compiler turns the same target into an additive
+subgroup-image statement.  With
+
+```text
+r(u)=1/(u-1),
+```
+
+the shifted reciprocal equation says that active edges are zero-sum triples:
+
+```text
+r+s+t=0.
+```
+
+For a shadow pair `{r,s}`, the forced third reciprocal coordinate is
+`-(r+s)`, and the lambda test is
+
+```text
+Lambda(r,s)=1+1/r+1/s-1/(r+s) in H.
+```
+
+So `H3-NO-LOOSE-TRIANGLE` is equivalent to the following closure theorem:
+every triangle in the reciprocal active-pair graph has `r+s+t=0`.  Nonzero
+`r+s+t` is exactly the loose-triangle obstruction.
+
+The loose pair-membership compiler writes that active-pair graph explicitly.
+For `r,s in S`, with `r+s != 0`,
+
+```text
+U=1+1/r,
+V=1+1/s,
+W=1-1/(r+s),
+Lambda=1+1/r+1/s-1/(r+s).
+```
+
+The pair `{r,s}` is active exactly when these are the registered subgroup
+memberships, with `U,V in H` automatic from `r,s in S` and the non-pole
+distinctness exclusions enforced.  Thus the loose target is an explicit
+four-membership triangle theorem on the reciprocal pair graph.
+
+The loose six-point system compiler spells out the genuine obstruction.  A
+loose triangle is exactly a solution with
+
+```text
+r,s,t,-(r+s),-(r+t),-(s+t) in S,
+Lambda(r,s), Lambda(r,t), Lambda(s,t) in H,
+r+s+t != 0.
+```
+
+In that case the six reciprocal points are distinct and form three zero-sum
+active edges whose pairwise intersections are the core vertices `r,s,t` and
+whose total intersection is empty.
+
+The loose normalized-system compiler reduces this to scale and two ratios.
+With `s=ar`, `t=br`, and `X=1/r`, the six reciprocal points are
+
+```text
+r * {1,a,b,-(1+a),-(1+b),-(a+b)}.
+```
+
+The coordinate tests are `1+X/q in H` for those six multipliers `q`; the
+lambda tests are
+
+```text
+1 + X*(1 + 1/a - 1/(1+a)) in H,
+1 + X*(1 + 1/b - 1/(1+b)) in H,
+1 + X*(1/a + 1/b - 1/(a+b)) in H.
+```
+
+The loose condition is `1+a+b != 0`; equality is exactly the contained
+zero-sum triangle case.
+
+The loose affine-slope compiler packages these nine tests as one affine-line
+condition:
+
+```text
+1 + c_i X in H.
+```
+
+The six coordinate slopes are
+
+```text
+1, 1/a, 1/b, -1/(1+a), -1/(1+b), -1/(a+b),
+```
+
+and the three lambda slopes are
+
+```text
+1 + 1/a - 1/(1+a),
+1 + 1/b - 1/(1+b),
+1/a + 1/b - 1/(a+b).
+```
+
+The normalized-orbit compiler removes the sixfold ordering artifact.  The
+`S_3` orbit of `(a,b)` is
+
+```text
+(a,b), (b,a), (1/a,b/a), (b/a,1/a), (1/b,a/b), (a/b,1/b).
+```
+
+Thus a future proof should count normalized `S_3` orbits of admissible
+nine-slope affine systems, not ordered triples of core vertices.
+
+The loose coordinate-slope distinctness compiler records the exact
+hypotheses behind the first six slopes: they are distinct under the full
+normalized loose-system hypotheses, meaning non-poles plus distinctness of
+the six reciprocal points.  Non-poles alone would be too weak, since `a=1`
+already collides `1` with `1/a`.  The lambda-slope collision compiler proves
+that the three lambda slopes are mutually distinct in a genuine loose system;
+their pairwise collision numerators factor through `a=b`, `a=1`, `b=1`, or
+`1+a+b=0`, all excluded.  The loose slope-multiplicity ledger then records
+the effective condition count: only lambda-coordinate collisions remain, on
+nine explicit divisors.  The collision-orbit compiler quotients these nine
+divisors by the normalized `S_3` action and leaves only two special branch
+types, represented by `L_a=1/b` and `L_a=-1/(1+b)`.  The collision-branch
+parametrization compiler solves both representatives explicitly:
+
+```text
+branch A: b = a(a+1)/(a^2+a+1),
+branch B: b = -(2a^2+2a+1)/(a^2+a+1).
+```
+
+Thus the target should be phrased using the distinct slope set `C(a,b)`, not a
+fixed assumption of nine distinct conditions; after `S_3` quotienting, the
+special multiplicity analysis is two one-parameter families plus their
+one-variable secondary subcells.  The case-split interface records this as
+three counting targets: generic nine-slope systems, branch A, and branch B.
+The secondary-subcell compiler makes the finite exceptions explicit: after
+stripping structural non-poles, the residual secondary products have degrees
+`24` on branch A and `29` on branch B.  Away from those finite parameter
+loci, the special branches have exactly eight distinct slopes.  The finite
+secondary loci are paid directly by the slope `1` condition, giving the bound
+`24n+29n=53n`, below `n^2` on every official row.
+The branch slope-map compiler writes the special targets explicitly:
+
+```text
+branch A: eight slopes, max rational degree 4,
+branch B: eight slopes, max rational degree 6.
+```
+
+Thus the special branches are one-parameter rational slope families, but they
+do not reduce to the original degree-2 rich-curve template.  The branch degree
+compiler translates the actual membership maps `1+c_i(a)X=P_i(a,X)/Q_i(a)`
+into denominator-clearing budgets:
+
+```text
+branch A: S_a=17, S_total=22,
+branch B: S_a=19, S_total=24.
+```
+
+For an auxiliary with `deg_a<A`, `deg_X<C`, `deg_Y<B` and subgroup order `n`,
+the cleared special-branch polynomial has
+
+```text
+deg_a     <= A-1+n(B-1)S_a,
+deg_X     <= C-1+8n(B-1),
+total_deg <= A+C-2+n(B-1)S_total.
+```
+
+The generic degree compiler gives the matching two-parameter budget for the
+nine-slope target:
+
+```text
+S_a=7, S_b=7, S_total=15,
+deg_a     <= A-1+7n(Y-1),
+deg_b     <= B0-1+7n(Y-1),
+deg_X     <= C-1+9n(Y-1),
+total_deg <= A+B0+C-3+15n(Y-1).
+```
+
+The loose Stepanov compiler now packages these degree budgets into a conditional
+counting interface.  For a target with `m` parameter variables and `k`
+membership maps, an auxiliary with `P` parameter degree, `C` source degree,
+`B` subgroup degree, and multiplicity `D` has
+
+```text
+coefficients = P^m C B^k,
+conditions   <= D(C+kD) |Z|,
+L_X          = C-1+k n(B-1).
+```
+
+The missing theorem gates are named:
+
+```text
+LOOSE-GEN-RANK/NV,
+LOOSE-A-RANK/NV,
+LOOSE-B-RANK/NV.
+```
+
+Under the corresponding gate and the strict linear-system inequality, the
+fiber count is `< |Z| L_X/D`.
+
+The loose rank-minor compiler turns the strong sufficient rank form into an
+explicit bad-minor degree problem.  For the sample box
+`P=16, C=512, B=4, D=2, |Z|=1, n=32`, the rank targets and entry-degree bounds
+are
+
+```text
+generic:  r=1061, E=1470, minor degree <= 1559670,
+branch A: r=1057, E=2127, minor degree <= 2248239,
+branch B: r=1057, E=2319, minor degree <= 2451183.
+```
+
+The remaining theorem is to exhibit rank-good minors nonzero on the repaired
+loose parameter images over the actual row fields.
+
+The star conditional assembly now records the full route back to the repeat
+residue.  The five open gates
+
+```text
+H3-VALUE-INJECTIVE,
+H3-SLOPE-RATIO-HIT,
+LOOSE-GEN-RANK/NV,
+LOOSE-A-RANK/NV,
+LOOSE-B-RANK/NV
+```
+
+imply `H3-NO-DISJOINT-EDGES` and `H3-NO-LOOSE-TRIANGLE`, hence
+`tau_coord<=1`.  The coordinate-hitting ledger then gives
+
+```text
+repeat_residue <= 90n^2,
+```
+
+which is below `n^3` for every official row `n=2^s`, `13 <= s <= 41`.
+The refined assembly expands the two disjoint-edge gates into four strict
+branch gates:
+
+```text
+H3-VALUE-GEN-INJECTIVE,
+H3-VALUE-SCALE-INJECTIVE,
+H3-SLOPE-GG-HIT,
+H3-SLOPE-MIXED-HIT.
+```
+
+It keeps the `lambda=1` scale-pair count and the loose-secondary `53n` payment
+as separate count-route ledgers, not as premises for `tau_coord<=1`.
+The frontier ledger replays the current seven strict branch gates, the loose
+rank-minor sample degrees, and the paid ledgers in one consistency checkpoint.
+
+For the first of those gates, the orbit-domain compiler gives the explicit
+off-orbit exclusions and the same-lambda degree compiler gives the raw
+collision-incidence budgets.  In the generic `lambda != 1` branch, two
+distinct ratio orbits for the same `lambda` give six membership maps in
+variables `(a,z,y)` with
+
+```text
+S_a=6, S_z=6, S_y=6, S_total=14.
+```
+
+The exceptional `lambda=1` scale collision has two scale variables and six
+affine maps, with `S_total=6` over a field containing a primitive cube root.
+
+For the second disjoint-pair gate, the slope-miss degree compiler now records
+the generic lambda-distinct target.  Generic source and target edges have six
+membership maps with
+
+```text
+S_a=3, S_b=3, S_z=6, S_y=6, S_total=14.
+```
+
+The cleared slope-hit factors have total degrees `15,13,13`, so the generic
+miss complement is controlled by a numerator product of total degree at most
+`41`.  The mixed generic/scale branch has six membership maps with
+`S_total=10`; choosing the generic edge as source gives hit-factor degrees
+`deg_a=3, deg_z=6, deg_x=3, total=9`, so the mixed hit-product total degree is
+at most `27`.  The reverse scale-source orientation has the same total bound
+and is recorded for compatibility with the oriented numerator compiler.
+Thus `H3-SLOPE-RATIO-HIT` has two named branch gates:
+`H3-SLOPE-GG-HIT` and `H3-SLOPE-MIXED-HIT`; the scale-scale case is not
+lambda-distinct.
+
+The reciprocal edge normal form gives the equations for that incidence
+problem.  For `x=u-1`, `y=v-1`, `z=w-1`, every active edge satisfies
+
+```text
+xy+xz+yz=0,
+lambda=1+x+y+z in H.
+```
+
+Conversely, with nonzero shifted coordinates, this equation recovers the
+repeat-boundary formula.  Thus a star obstruction is a four-row system of
+shifted reciprocal triples with no common unshifted coordinate.
+
+The cubic gcd form gives an equivalent common-root interface.  For an active
+edge `E={u,v,w}` with `lambda=u+v+w-2`,
+
+```text
+P_E(T)=T^3-(lambda+2)T^2+(2lambda+1)T-uvw
+```
+
+has root set `E`.  The star theorem is equivalent to the active cubics having
+a nonconstant gcd.
+
+The repeat-boundary chain has a focused replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+```
+
+It runs in about `43.61s` locally and ends with
+`F3_H3_REPEAT_BOUNDARY_REPLAY_PASS`.
+
+The LP4 rank guardrail rules out a tempting nonvanishing shortcut.  Even for
+two affine factors, the claim that the products span the full degree space is
+false.  With
+
+```text
+P_ij(X)=(X-2)^(2i)(X-5)^(2j),  0<=i,j<=2,
+```
+
+the predicted degree-space rank is `9`, but the exact rational rank is `8`:
+
+```text
+81 P_00 - 18 P_01 + P_02 - 18 P_10 - 2 P_11 + P_20 = 0.
+```
+
+Thus the LP4 path must prove the actual threshold rank/nonvanishing statement,
+or use the support route above; it cannot assume per-line full degree span.
+
+The dilation-lift packet justifies the normalization factor in the activation
+compiler.  If `A_3(n,p)` counts activated unordered shape-pair orbits modulo
+common multiplication by `H`, then the raw unnormalized shape-pair count is at
+most
+
+```text
+n A_3(n,p).
+```
+
+This is an orbit-stabilizer upper bound, not a freeness assertion: finite rows
+can have side-swap stabilizers, and those only make the raw orbit smaller.
+This supports the existing `T_3 <= toral + poisson_boundary + n A_3(n,p)`
+compiler term.
+
+The conic-chart ratio guard closes another bridge-side degeneracy ambiguity.
+After excluding the hyperbola-line cell `a^2=3b`, none of the three
+field-rational chart maps
+
+```text
+U(t), V(t), W(t)
+```
+
+has a constant ratio with another.  Therefore the constant-ratio collapse
+handled by the generic rich-curve degeneracy filter cannot occur inside a
+repaired nondegenerate same-fiber conic chart.  This is a standalone replay,
+not part of the default aggregate, because the aggregate is already close to
+the 60 second cap.
+
+The conic-chart H-point coverage packet pins the additive loss between the
+affine chart count and ordered same-fiber triples.  For fixed `(e1,e2)`, if
+`T_chart` counts finite parameters `t` with `U(t),V(t),W(t) in H`, then the
+ordered triple count satisfies
+
+```text
+R = T_chart + epsilon,    epsilon in {0,1}.
+```
+
+The only possible missing point is the vertical/projective mate of the chosen
+base point.  This lets the rich-curve chart count control the local ordered
+fiber count up to one point per conic, but it still does not prove global
+rank-capacity batching.
+
+The conic base-point equivalence packet prevents overcharging this ledger.
+Different ordered triples in the same nondegenerate same-`(e1,e2)` fiber give
+different line-through-point parametrizations, but they have the same
+projective conic image and recover the same ordered `H`-triple set after adding
+the one vertical mate.  Thus incidence bookkeeping may choose one base point
+per nonempty conic fiber; it should not pay one geometric curve image per
+ordered triple.
+
+The rank-normalization invariance packet has now been strengthened to remove
+the remaining parametrization caveat: source Mobius reparametrizations preserve
+the cleared `RC-RANK` substitution rank after homogeneous denominator
+clearing.  Therefore changing the base point on a nondegenerate conic does not
+change the rank target.  This still does not prove the rank-good minor theorem
+itself.
+
+The conic bridge accounting ledger now compiles these local bridge facts into
+the exact charge used downstream: one repaired conic image/key per nonempty
+same-`(e1,e2)` fiber, not one image per ordered triple or per choice of base
+point.  The remaining h=3 bridge theorem is therefore the global assignment of
+activated non-toral shape-pairs to those repaired conic images with the L2
+budget below.
+
+The pair-count compiler now makes the remaining local arithmetic explicit.
+For charts `z` with finite counts `T_z`, vertical losses `epsilon_z`, and
+ordered triple counts `R_z=T_z+epsilon_z`,
+
+```text
+P_z = binom(R_z/6,2) = R_z(R_z-6)/72.
+```
+
+Thus a chart ledger with `T_z <= M`, `sum_z T_z <= S`, and at most `Z` charts
+has
+
+```text
+P_total <= (M+1)(S+Z)/72.
+```
+
+A sufficient normalized h=3 target condition is therefore
+
+```text
+(M+1)(S+Z) <= 1152 n       =>       P_total <= 16 n.
+```
+
+This is standalone bridge bookkeeping, not an activation proof.  Its main
+message is that a linear chart-mass estimate alone cannot close `H3-ACT(16)`.
+The native target is the exact L2 ledger or the equivalent weighted level-set
+tail bound below; a max-fiber cap is only one sufficient way to imply it.
+
+The L2/level-set bridge compiler weakens that sufficient condition to the
+native quadratic ledger.  For ordered same-fiber triple counts `R_z`, the
+normalized target is equivalent to
+
+```text
+sum_z R_z(R_z-6) <= 1152 n.
+```
+
+Equivalently, with `N_z=R_z/6` and tail counts
+`L_m = #{z : N_z >= m}`,
+
+```text
+P_total = sum_{m >= 2} (m-1)L_m.
+```
+
+Thus a future bridge can close h=3 either by proving this exact L2 ledger, or
+by proving the equivalent weighted level-set tail bound.  The earlier
+`(M+1)(S+Z)` condition is only a convenient corollary via
+`sum R_z^2 <= max(R_z) sum R_z`.
 
 The earlier exact pair-coprimality pilot is now included in the aggregate
 replay.  On the seven-prime n=96 ladder it finds three activated shapes, each
@@ -101,7 +1335,296 @@ already refuted by the random norm sample.
 The finite-field rank sample supports this target without proving it.  At
 `p=769, h=32, A=5, B=4, D=1`, the constant-ratio collapsed control has rank
 `50 < 78` and fails `RC-RANK`, while a deterministic repaired random degree-2
-curve has full coefficient rank `320 > 78`.
+curve has full coefficient rank `320 > 78`.  Since that rank is the whole
+coefficient dimension, any direct-sum family containing this repaired curve
+passes the same toy rank inequality for `Z <= 4`; `Z=5` is impossible with the
+same parameters because `5*78 > 320`.
+
+The rank stress packet extends this exact toy row.  It verifies that
+private-divisor, shifted-polynomial, and shared-denominator non-collapsed
+curves pass the weaker `RC-RANK` inequality even with rank below full
+coefficient rank:
+
+```text
+private-divisor rational: rank 293 > 78
+shifted polynomial:       rank 247 > 78
+shared denominator:       rank 247 > 78
+```
+
+It also records a family-level warning by the diagonal duplicate-image rank:
+repeating the private-divisor curve twice still passes (`293 > 156`), but
+repeating it four times fails (`293 < 312`).  Thus the geometric batching
+theorem must count repaired inequivalent curve images, not raw multiplicity.
+
+The rank-effective bridge packet converts this warning into a precise
+interface.  In the same toy row, a curve image of rank `r` has capacity
+
+```text
+floor((r-1)/78)
+```
+
+raw copies under `RC-RANK`.  The pinned capacities are:
+
+```text
+collapsed: 0
+private-divisor / shifted / shared-denominator: 3
+full-rank random: 4
+```
+
+Therefore the bridge theorem needed downstream is not raw `|Z| <= Z_budget`,
+but rank-effective capacity consumption `<= Z_budget`.
+
+The small-`H` rank guardrail prevents overstatement of the future theorem.  In
+the same private-divisor toy family and Stepanov box, varying only the subgroup
+order gives exact ranks
+
+```text
+H=4:  rank 41   degree_dim 41   fails RC-RANK
+H=8:  rank 77   degree_dim 77   fails RC-RANK by one
+H=16: rank 149  degree_dim 149  passes
+H=32: rank 293  degree_dim 293  passes
+H=64: rank 320  degree_dim 581  full coefficient rank
+```
+
+The same verifier checks the model formula
+`rank = min(A B^3, A + 3H(B - 1))` for this private-linear control, so the
+small-rank failures are explained by degree-space dimension rather than by a
+new degeneracy.
+
+So non-collapse plus private divisors do not imply a uniform tiny-`H`
+`RC-RANK` theorem.  The future large-row theorem must print an `H` floor, or
+route the tiny rows to finite certificates.  This is a theorem-statement
+guardrail, not an official-row obstruction.
+
+The model-lemma packet separates the algebraic part of that guardrail from the
+unproved rank lower bound.  Constant-ratio collapsed curves have exact rank
+
+```text
+| { a + Hs : 0 <= a < A, 0 <= s <= 3(B-1) } |,
+```
+
+so the toy `A=5,B=4,H=32` collapsed rank is exactly `50`, giving zero
+`RC-RANK` capacity against the `78` conditions.  For private-linear curves,
+degree alone gives the one-curve ceiling
+
+```text
+rank <= min(A B^3, A + 3H(B - 1)).
+```
+
+Thus even a perfect private-linear degree-space theorem needs an explicit
+`H` floor; in the toy box the first possible one-curve pass is `H=9`.  The
+remaining theorem is the lower bound, namely degree-space fullness under
+explicit repaired/private-divisor hypotheses.
+
+The private-linear one-factor rank lemma proves the local version of that
+lower-bound target.  For one generator `(X-alpha)/(X-beta)`, the span of
+`X^a (X-alpha)^(Hb)(X-beta)^(H(B-1-b))` has exact dimension
+`min(A B, A+H(B-1))` by the `alpha`-adic valuation filtration.  Thus any
+remaining private-linear rank loss must be a genuinely three-generator
+interaction, not a defect of a single private-linear level.
+
+The two-factor guardrail rules out a naive induction from that lemma.  Already
+at `A=1,B=3,H=2` with distinct private pairs `(2,3)` and `(5,7)`, the
+two-factor span has exact rational rank `8`, while
+`min(A B^2,A+2H(B-1))=9`.  The full private-linear theorem therefore needs a
+global multigenerator argument, not a factor-by-factor valuation iteration.
+The resultant packet explains this loss structurally: for
+`u=((X-alpha)/(X-beta))^2` and `v=((X-gamma)/(X-delta))^2`, eliminating `X`
+gives a bidegree `(2,2)` relation in `u,v`.  After clearing denominators this
+is exactly a linear relation among the nine `A=1,B=3,H=2` two-factor products;
+for `(2,3,5,7)` its coefficients are the guardrail relation
+`(81,-450,625,-72,472,-800,16,-128,256)`.
+The degree guard then checks why this does not literally hit the official
+private-linear compiler boxes: the two-factor resultant relation has bidegree
+`(H,H)`, while every official private-linear passing and next-failure witness
+has `B-1 < H=n`; the smallest margin is `8128`.
+The official separation guard strengthens the compiler-side hypothesis:
+for every official private-linear passing witness, `max(A,D,B-1)<H`, with
+minimum margin `7904`; the stored next-failure witnesses have margin at least
+`7911`.
+
+The bad-prime guardrail prevents a second overstatement.  In a three-factor
+private-linear model with `A=1,B=5,H=9`, the integer coefficient matrix has
+full degree-space rank `109` over Q, witnessed by rank `109` modulo `1013`, but
+the same matrix drops to rank `108` modulo `1009`.  Thus even
+characteristic-zero degree-space fullness must be paired with a finite-row
+minor nonvanishing argument at the actual row prime.
+
+The generic-open packet converts that lower-bound target into an algebraic
+avoidance problem.  For fixed Stepanov parameters, `rank >= r` is equivalent to
+nonvanishing of some `r x r` minor of the universal cleared-substitution
+matrix.  The private-linear witness
+
+```text
+(X-2)/(X-3), (X-5)/(X-7), (X-11)/(X-13)
+```
+
+has exact rank `293 = A + 3H(B-1)` over `F_769`, so the private-linear
+degree-space-fullness open set is nonempty in the toy box.  The remaining
+`RC-RANK` theorem can now be stated as a rank-good minor avoidance theorem for
+the actual repaired F3 signature-curve parameter image, with rank-effective
+capacity accounting for repeated images.  The same generic-open verifier also
+uses the deterministic repaired degree-2 random curve from the rank sample,
+whose exact rank is `320 = A B^3`, proving that the full coefficient-rank
+degree-2 open set is nonempty in the toy box.
+
+The normalization-invariance packet proves two harmless rank symmetries for
+that future theorem.  Source Mobius changes
+`X -> (alpha X + beta)/(gamma X + delta)` preserve the cleared coefficient
+rank after homogeneous denominator clearing; affine source changes are the
+special case `gamma=0`.  Nonzero target coordinate scalings only rescale
+columns, while target permutations and target inversions only permute the
+multi-index columns.  Thus `RC-RANK` is unchanged by these normalizations.  This
+lets the eventual `F3-RANK-AVOID` theorem quotient repaired representatives by
+source Mobius changes and the listed target operations.
+
+The private-linear PGL2 normal-form packet applies that invariance to the
+alternate rank route.  Any repaired private-linear triple
+
+```text
+(X-alpha_i)/(X-beta_i),    i=1,2,3,
+```
+
+with distinct zero/pole points can be source-normalized and target-rescaled to
+
+```text
+Y,        (Y-1)/(Y-lambda),        (Y-eta)/(Y-theta).
+```
+
+Thus the private-linear rank-avoidance theorem may be posed on the explicit
+three-parameter normal-form space `(lambda,eta,theta)`.  The bad-minor
+avoidance over the actual row fields is still open; this only removes
+extraneous `PGL_2` coordinates from that target.
+
+The private-linear normal-form degeneracy chart makes the repaired open set
+explicit.  In the normal form, the six zero/pole points are
+
+```text
+0, infinity, 1, lambda, eta, theta.
+```
+
+The private-divisor hypotheses are exactly
+
+```text
+lambda, eta, theta notin {0,1},
+lambda, eta, theta pairwise distinct.
+```
+
+On this open set, pairwise constant-ratio collapse is automatically absent.
+The only possible normal-form pairwise collapse is `r_2/r_3`, and it occurs
+precisely when `{1,theta}={lambda,eta}`, which lies on the excluded diagonals.
+
+The private-linear minor-degree compiler turns the resulting universal matrix
+into an explicit bounded-degree bad-locus problem.  For a cleared normal-form
+column
+
+```text
+Y^(a+H b_1)
+(Y-1)^(H b_2)(Y-lambda)^(H(B-1-b_2))
+(Y-eta)^(H b_3)(Y-theta)^(H(B-1-b_3)),
+```
+
+each coefficient has
+
+```text
+deg_lambda <= H(B-1),
+deg_eta + deg_theta <= H(B-1),
+total parameter degree <= 2H(B-1).
+```
+
+Therefore every `r x r` rank minor in the normal-form parameters satisfies
+
+```text
+deg_lambda <= rH(B-1),
+deg_eta+theta <= rH(B-1),
+total degree <= 2rH(B-1).
+```
+
+So the remaining private-linear finite-row theorem can be phrased as
+nonvanishing, modulo the actual row prime, of an explicitly bounded-degree
+minor on the repaired `(lambda,eta,theta)` parameter image.
+
+The private-linear compiler guard prevents a wrong shortcut from this point.
+All current official non-diagonal h=3 bridge witnesses use the degree-2
+denominator room `A + 6n(B-1)`: for every row `s=13..41`, the per-curve
+condition count is larger than the private-linear degree room
+`A + 3n(B-1)`.  Therefore a theorem proving only private-linear degree-space
+fullness cannot be plugged into the current compiler unchanged.  The route
+splits:
+
+```text
+degree-2 rank theorem        => keep the current non-diagonal compiler;
+private-linear rank theorem  => rerun a private-linear compiler with L_private.
+```
+
+The guard also verifies representative private-linear retuned boxes at
+`s in {13,16,20,23,32,41}`, so the private-linear track is not ruled out; it
+just needs its own maximality compiler.
+
+The private-linear compiler now supplies the full retuned official-row table.
+Using `L_private=(A-1)+3n(B-1)`, it proves maximal private-linear
+rank-capacity budgets for `s=13..41`:
+
+```text
+s=13: Z_private=23
+s=14: Z_private=29
+s=15: Z_private=37
+s=16: Z_private=47
+s=17: Z_private=59
+s=18: Z_private=75
+s=19: Z_private=94
+s=20: Z_private=119
+s=21: Z_private=150
+s=22: Z_private=189
+s=23: Z_private=238
+s=24: Z_private=300
+s=25: Z_private=378
+s=26: Z_private=477
+s=27: Z_private=601
+s=28: Z_private=757
+s=29: Z_private=954
+s=30: Z_private=1202
+s=31: Z_private=1514
+s=32: Z_private=1908
+s=33: Z_private=2404
+s=34: Z_private=3029
+s=35: Z_private=3816
+s=36: Z_private=4809
+s=37: Z_private=6058
+s=38: Z_private=7633
+s=39: Z_private=9617
+s=40: Z_private=12117
+s=41: Z_private=15267
+```
+
+For each row, the replay checks a pinned passing witness and scans the exact
+finite `B` cap for `Z+1` to prove the next budget fails.  This is still
+conditional on a future private-linear rank theorem and the matching
+private-linear bridge/rank-capacity theorem.
+
+The rank-avoidance interface packet now pins the exact theorem pair needed to
+close h=3 through the current compiler:
+
+```text
+F3-RANK-AVOID + H3-BRIDGE-RANKCAP(Z_budget(s)) => H3-ACT(16)
+```
+
+It now also records the private-linear alternate route:
+
+```text
+F3-PRIVATE-LINEAR-RANK-AVOID
+  + H3-BRIDGE-PRIVATE-RANKCAP(Z_private(s)) => H3-ACT(16)
+```
+
+Both arithmetic tables cover every official exponent `s=13..41`, with
+`Z_budget(13)=16`, `Z_budget(41)=10795`, `Z_private(13)=23`, and
+`Z_private(41)=15267`.  This is still conditional: neither rank-good minor
+avoidance theorem nor the geometric bridge/rank-capacity assignment is proved.
+
+The bridge-budget lineage packet records that this `Z_budget` is the improved
+non-diagonal table.  The older diagonal compiler remains a valid lower-bound
+ledger with range `11..7420`, but the active bridge target is the non-diagonal
+range `16..10795`.
 
 The rank-form parameter compiler gives the current conditional constants for
 representative repaired curve-family sizes.  Under `RC-RANK`, the diagonal
@@ -118,6 +1641,21 @@ This is arithmetic slack for high rows, not `H3-ACT(C)`: the missing pieces are
 still the rank theorem and the F3 geometric batching/charging from activated
 shape pairs to repaired curve families.
 
+The h=3 frontier ledger now replays this surface in one place.  It imports the
+activation compiler, the official non-diagonal and private-linear budget
+tables, the rank-effective capacity repair, the conic bridge accounting
+ledger, the L2/level-set bridge compiler, and the repeat-boundary frontier
+ledger.  Its printed open gates are `F3-RANK-AVOID/RC-NV`,
+`H3-BRIDGE-RANKCAP`, the private-linear alternate, and the h=3
+repeat-boundary star gates.  This is a consistency ledger, not a new proof of
+`H3-ACT`.
+
+The repeat-boundary frontier now distinguishes the strict route from the count
+route.  The strict route has seven branch gates.  On the count route,
+`H3-VALUE-SCALE-INJECTIVE` is replaced by the already-paid quadratic
+scale-collision bound, leaving six strict repeat-boundary gates to prove or
+replace.
+
 The bridge-budget compiler turns that geometry gap into an explicit contract.
 If, on row `n=2^s`, activated shape pairs batch into a repaired curve family of
 size at most `Z_budget(s)`, then `RC-RANK` plus the current diagonal arithmetic
@@ -133,8 +1671,64 @@ s=40: Z_budget=5889
 s=41: Z_budget=7420
 ```
 
-These are verified lower budgets under the `B_max=50000` diagonal search, not
-impossibility results for larger families.
+For each printed row the replay now verifies a pinned passing diagonal-box
+witness at `Z_budget`, and exhaustively scans the same `B_max=50000` diagonal
+search at `Z_budget+1` to verify failure.  Monotonicity in `|Z|` therefore
+makes the table maximal inside the stated diagonal search box.  This still does
+not prove the geometric batching contract, `RC-RANK`, or impossibility under
+other Stepanov parameter families.
+
+The first non-diagonal parameter pass improves the low/middle official rows
+`s=13..35`.  It uses the same compiler inequalities, but chooses the least
+admissible `A` for each `(B,D)` instead of imposing `A=D`.  The aggregate replay
+now verifies that the improved `Z` passes and `Z+1` fails up to the exact
+analytic `B` cap for any possible passing box:
+
+```text
+s=13:  11 -> 16
+s=14:  14 -> 21
+s=15:  18 -> 26
+s=16:  23 -> 33
+s=17:  29 -> 42
+s=18:  36 -> 53
+s=19:  46 -> 67
+s=20:  58 -> 84
+s=21:  73 -> 106
+s=22:  92 -> 134
+s=23: 116 -> 168
+s=24: 146 -> 212
+s=25: 184 -> 267
+s=26: 232 -> 337
+s=27: 292 -> 425
+s=28: 368 -> 535
+s=29: 463 -> 674
+s=30: 584 -> 850
+s=31: 736 -> 1071
+s=32: 927 -> 1349
+s=33: 1168 -> 1700
+s=34: 1472 -> 2142
+s=35: 1855 -> 2699
+```
+
+This reduces the low/middle-row batching burden but still remains conditional
+on the same two open h=3 gates: `RC-RANK` and the actual geometric batching
+theorem.
+
+The aggregate replay now extends the same non-diagonal search to `s=36..41`:
+
+```text
+s=36: 2337 -> 3400
+s=37: 2944 -> 4284
+s=38: 3710 -> 5397
+s=39: 4674 -> 6800
+s=40: 5889 -> 8568
+s=41: 7420 -> 10795
+```
+
+The high-row replay again checks a pinned passing witness at the improved `Z`
+and an exhaustive `Z+1` failure up to the exact analytic `B` cap for any
+possible passing box.  The largest cap is `B <= 61923` at `s=41`, so this is
+still lightweight enough for the default local replay.
 
 A tempting shortcut for the rank theorem is already refuted.  Private
 zeros/poles for `X,r_1,r_2,r_3` do not imply full coefficient-rank
@@ -167,22 +1761,92 @@ The h=5 row evidence is strong but not a theorem.  Complete zero certificates
 exist for:
 
 ```text
-n=32: 7 primes
-n=64: 5 primes
+n=32: 402 primes (all admissible primes through p=65537)
+n=64: 179 primes (contiguous admissible prefix through p=60161, plus high selected rows)
 n=96: boundary prime 9601
 n=128: boundary prime 17921 plus 6 nearby primes
 ```
 
-The coverage audit is now in the aggregate replay.  It verifies `20` complete
-zero rows and `1,873,896,556` total right-side probes.  It also prints the
-selected-row limitation: up to the largest certified primes, the current bank
-misses `395` admissible primes for `n=32` and `689` admissible primes for
-`n=64`, while the current `n=96` and `n=128` banks are only boundary/nearby
-windows.
+The coverage audit is now in the aggregate replay.  It verifies `589` complete
+zero rows and `3,164,030,779` total right-side probes.  It also prints the
+remaining coverage limitation: up to the largest certified primes, the current
+bank misses `0` admissible primes for `n=32` and `515` admissible primes for
+`n=64`, while the current `n=96` and `n=128` banks are still only
+boundary/nearby windows.
 
 The missing h=5 theorem is exactly a symbolic norm-gate incompatibility or a
 maintainable per-row certificate family for all official `p = 1 mod n`,
 `p >= n^2` rows.
+
+The h=5 x83 obstruction interface is now triangularized.  For the
+10-support locator
+`L_R(X)=X^10+l9 X^9+...+l1 X+l0`, the forced square root gives low keys
+`E_j=[X^j](S_R^2-L_R)` satisfying
+`D_j E_j=-D_j l_j+P_j(l5,l6,l7,l8,l9)` for `j=1..4`.  The exact low-key
+denominators are `16384,16384,256,512`, and the largest conservative conjugate
+bound is `1,104,676,577,280`.  Thus every finite-row primitive h=5 survivor is
+now an explicit divisor event for one of four triangular obstruction keys, not
+an unstructured norm-gate phrase.  Since a 10-support locator in `mu_n` also
+satisfies `l_j=delta*conjugate(l_{10-j})`, these keys become four explicit
+reciprocal equations on the top half of the locator and the support product
+`delta`.
+
+The reciprocal compatibility compiler eliminates that shared `delta` from the
+four equations and from the central relation `l5=delta*conjugate(l5)`.  Using
+the `E4` row as the base, it produces three pairwise delta-free compatibility
+equations `C14,C24,C34` and one central compatibility equation `C54` on the
+high locator coefficients and their conjugates, with maximum total degree
+`10`.  This is still not the h=5 closure, but it is the current algebraic
+surface for a symbolic norm-gate incompatibility proof.
+
+The base-free reciprocal system records all ten rank-one pairwise equations
+among the four low-key rows and the central `l5` row.  The official open-cover
+packet excludes the all-zero denominator chart.  The unit-norm packet adds the
+four Hermitian equations from `delta*conjugate(delta)=1`, and the chart-local
+recovery compiler sharpens their use: on charts `1..4`, four incident minors
+plus the matching `N_i` suffice to recover a unit `delta`; on the central
+`bar_l5 != 0` chart, `delta=l5/bar_l5` has unit norm identically, so only the
+four incident minors remain.  The central assertion is backed by four saturated
+syzygies `l5*N_i in <C_i5,conjugate(C_i5)>`.  An abstract rank-one propagation
+packet verifies the 20 chart syzygies showing that one unit row on a nonzero
+denominator chart forces all other unit rows.  A second abstract rank-one
+packet verifies the 30 chart syzygies showing that the four incident minors on
+a chart force the six nonincident minors after saturation by the chart
+denominator.  The chart profiles are uneven: chart `1` has five equations with
+`615` total terms and max degree `18`, while the central chart has four
+equations with `67` total terms and max degree `10`, making it the smallest
+next symbolic h=5 target.  The central chart graph compiler shows these four
+equations are linear in `bar_l9,bar_l8,bar_l7,bar_l6` respectively, so after
+saturating by `l5*bar_l5` the central chart is an explicit rational graph.
+The fixed-point skeleton shows that conjugating this graph and expanding it
+directly is not viable locally: the pre-cancellation term bounds run from
+`117,907,944` to `1,255,488,415,957`, despite the graph itself having only
+`67` terms.  The weighted-homogeneity packet verifies the natural root-scaling
+grading: all pairwise minors are homogeneous, and the Hermitian unit rows have
+weight zero.  The central chart should therefore be attacked in a weighted
+chart or quotient, not as a dense affine expansion.  The central weighted-slice
+compiler makes one such algebraic reduction precise: for emptiness proofs, the
+central chart may be sliced at `l5=bar_l5=1`; the four graph equations still
+have `67` terms, but max degree drops from `10` to `9`.  The sliced fixed-point
+skeleton lowers the compatibility degree bounds from `91,81,71,61` to
+`81,72,63,54`, while leaving the pre-cancellation term bounds unchanged and
+still prohibitive.  The central slice tangent compiler extracts the local
+normal form without expanding fixed-point numerators: the graph tangent is the
+`1/2` anti-diagonal map, hence the relaxed fixed-point equations have linear
+part `3/4 I` and determinant `81/256`.  This is a local algebraic statement
+away from characteristics `2,3`, not an official-row closure.  The official
+scaling packet records the finite-row caveat: only scaling by `mu_n` preserves
+the support condition, and this action is free on the central chart since
+`bar_l5 != 0` has weight `-5` and `gcd(5,2^s)=1`.
+
+The certificate scaling frontier explains why the current finite-certificate
+format is not that maintainable family.  The banked n=128 Modal rows use
+`32` shards, but each shard rebuilds the full `binom(127,4)=10,334,625`
+left table.  At n=256 the same format has a `binom(255,4)=172,061,505`
+record left table, at least `5.13 GiB` before metadata; at n=512 the left
+table is at least `83.68 GiB` and the right side needs about `35,836` shards
+at the n=128 right-probe rate.  Thus h=5 needs a symbolic norm-gate theorem or
+a redesigned certificate join, not blind extension of the current shard format.
 
 ### h=6 and h=7
 
@@ -209,7 +1873,30 @@ aggregate replay.  The interface verifies that all paid antipodal lifts are
 x83-zero at `p in {193,4289,262337}` and that deterministic non-antipodal
 samples at `p=4289,262337` have no full zero.  The one-exchange shell checks
 `5,376` supports around each paid branch at both boundary-style primes, again
-with `full_zero = 0`.
+with `full_zero = 0`.  The same standalone verifier also pins the complete
+two-exchange shells at both primes:
+
+```text
+p=4289:   947,520 supports, first_obstruction_zero=1504, full_zero=0
+p=262337: 947,520 supports, first_obstruction_zero=1344, full_zero=0
+```
+
+Those radius-two replays run under the per-task 60-second cap one prime at a
+time, but they are not included in the default aggregate because the aggregate
+must remain laptop-safe.
+
+The antipodal x83 quotient packet proves the algebra behind the paid branch:
+if a 16-support in `mu_64` is antipodal, its locator has the form
+`L_R(X)=M_A(X^2)` for an 8-support in `mu_32`, and the h=8 forced-root
+obstruction is exactly the h=4 quotient obstruction with zeros inserted in odd
+degrees.  Therefore antipodal x83 full-zero supports are paid by the h=4
+quotient ledger.  The primitive h=8 residual is genuinely non-antipodal.
+
+The locator parity packet makes this branch split intrinsic to the support
+polynomial.  A 16-support in `mu_64` is antipodal if and only if all odd
+coefficients of its monic locator vanish.  Therefore any primitive
+non-antipodal support has a nonzero odd locator coefficient, and an even
+locator is routed directly to the h=4 quotient ledger.
 
 The remaining support universe is now exactly compiled.  Anchored 16-supports
 with exponent `0` have size
@@ -243,15 +1930,28 @@ to
 7,633,233,227,520
 ```
 
-rotation orbits.  This is an average factor of about `16` below the anchored
-non-antipodal support count, so rotation canonicalization alone is not a
-feasible global certifier.
+rotation orbits.  The non-antipodal aperiodicity packet proves this is not
+hiding a separate periodic branch: any 16-support fixed by a nontrivial
+rotation is necessarily antipodal, because its stabilizer contains the
+half-turn.  Therefore every non-antipodal orbit has size `64`, and the
+anchored non-antipodal count is exactly `16` times the rotation-orbit count.
+Rotation canonicalization alone is still not a feasible global certifier.
+
+The x83 split-rotation equivariance packet proves the support-to-trade
+reduction is compatible with that quotient: if an x83 full-zero support is
+rotated, the forced square root and the recovered `S_R +/- alpha` split rotate
+with it, up to swapping the two sides.  A future orbit certifier can therefore
+canonicalize supports under rotation without losing the recovered h=8 trade
+split.
 
 The tempting larger exponent-unit quotient is refuted.  At `p=193`, a banked
 x83 full-zero support maps under `e -> 3e mod 64` to a support with obstruction
-vector `[0, 180, 0, 60, 0, 20, 0]` and nonsquare `lambda = 30`.  Thus arbitrary
-unit maps on exponents are not symmetries of the x83 condition and cannot be
-used for certifier canonicalization without rechecking the classifier.
+vector `[0, 180, 0, 60, 0, 20, 0]` and nonsquare `lambda = 30`.  The same banked
+support maps under reflection `e -> -e mod 64` to obstruction vector
+`[0, 64, 0, 82, 0, 87, 0]` and nonsquare `lambda = 125`.  Thus arbitrary unit
+maps, including dihedral reflection, are not symmetries of the x83 condition
+and cannot be used for certifier canonicalization without rechecking the
+classifier.
 
 The honest h=8 residual is:
 

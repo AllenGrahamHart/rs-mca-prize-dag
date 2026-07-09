@@ -65,6 +65,15 @@ rank(S_Z) > 13 D (A + D) |Z|.       (RC-RANK)
 
 This is the rank form of the remaining `RC-NV` gate.
 
+The exact reduced-condition profile strengthens the right-hand side to
+
+```text
+rank(S_Z) > (DA + 6D(D-1)) |Z|.
+```
+
+Existing legacy audits keep the larger `13D(A+D)|Z|` target as a conservative
+sufficient form; future optimizers should use the exact profile.
+
 ## Why full injectivity is too strong
 
 For one curve, the cleared substitution degree is

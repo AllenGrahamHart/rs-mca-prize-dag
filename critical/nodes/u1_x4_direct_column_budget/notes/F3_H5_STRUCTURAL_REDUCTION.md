@@ -1,6 +1,6 @@
 # F3 h=5 structural reduction
 
-Status: PROVED CLASSIFICATION REDUCTION, NOT AN h=5 ZERO THEOREM.
+Status: PROVED CLASSIFICATION REDUCTION; h=5 PAID FOR THE F3 BUDGET.
 
 This note tightens the h=5 residual in T4.  The h=5 blocker is not an unknown
 classification problem: the existing DAG already reduces every finite-row h=5
@@ -38,19 +38,30 @@ Every finite-row h=5 minimal trade is a p-specific x83 norm-gate event.
 The remaining h=5 task is now exactly one of:
 
 1. prove a norm-gate incompatibility theorem excluding the h=5 x83
-   p-specific branch for all `p = 1 mod n`, `p >= n^2`; or
-2. produce a maintainable certificate family that verifies that branch is empty
+   p-specific branch for all `p = 1 mod n`, `p >= n^2`;
+2. prove the weaker row-wise saturated central-slice zero-dimensionality
+   condition from `F3_H5_CENTRAL_FINITE_SCHEME_PAYMENT.md`, which would pay
+   the central branch by `19840464 n < n^3`; or
+3. produce a maintainable certificate family that verifies that branch is empty
    for every official row.
 
 The current row certificates already prove selected zero instances.  They do
 not cover the whole official row family and should not be promoted to a uniform
 h=5 theorem.
 
+The second route is now discharged by
+`F3_H5_CENTRAL_PROJECTIVE_INFINITY_EXCLUSION`: the central fixed scheme has no
+projective-infinity point on official rows, hence is zero-dimensional, and the
+finite-scheme payment gives `19840464 n < n^3`.  This pays h=5 for the direct
+column budget.  It is still not a uniform theorem saying the p-specific
+norm-gate branch is empty.
+
 ## Replay
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_structural_reduction.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_projective_infinity_exclusion.py
 ```
 
 Expected digests:
@@ -58,4 +69,5 @@ Expected digests:
 ```text
 H5_STRUCTURAL_REDUCTION_PASS
 H5_CERTIFICATE_COVERAGE_AUDIT_PASS
+H5_CENTRAL_PROJECTIVE_INFINITY_EXCLUSION_PASS
 ```

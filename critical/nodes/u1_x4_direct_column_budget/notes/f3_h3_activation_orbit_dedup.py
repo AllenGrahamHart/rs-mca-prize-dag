@@ -39,7 +39,7 @@ def canonical_pair(flat: list[int]) -> tuple[int, ...]:
     return best
 
 
-def main() -> None:
+def activation_orbit_dedup_summary() -> dict[str, int]:
     data = json.loads(SUMMARY_PATH.read_text())
     if data["n"] != N:
         raise AssertionError(data["n"])
@@ -73,7 +73,22 @@ def main() -> None:
         key=lambda item: (-item[1], item[0]),
     )
     max_prime, max_orbits = top[0]
-    if (len(all_orbits), len(by_prime), raw_prime_incidences, max_prime, max_orbits) != (
+    summary = {
+        "raw_oriented_activations": len(activations),
+        "raw_prime_incidences": raw_prime_incidences,
+        "unique_orbits": len(all_orbits),
+        "activation_primes": len(by_prime),
+        "max_prime": max_prime,
+        "max_deduped_per_prime": max_orbits,
+        "repeated_orbits": len(repeated),
+    }
+    if (
+        summary["unique_orbits"],
+        summary["activation_primes"],
+        summary["raw_prime_incidences"],
+        summary["max_prime"],
+        summary["max_deduped_per_prime"],
+    ) != (
         167,
         82,
         720,
@@ -81,19 +96,32 @@ def main() -> None:
         27,
     ):
         raise AssertionError(
-            (len(all_orbits), len(by_prime), raw_prime_incidences, max_prime, max_orbits)
+            (
+                summary["unique_orbits"],
+                summary["activation_primes"],
+                summary["raw_prime_incidences"],
+                summary["max_prime"],
+                summary["max_deduped_per_prime"],
+            )
         )
+    if summary["repeated_orbits"] != 0:
+        raise AssertionError(summary)
+    return summary
+
+
+def main() -> None:
+    summary = activation_orbit_dedup_summary()
 
     print("h=3 n=96 activation orbit dedup")
-    print(f"raw oriented activation records: {len(activations)}")
-    print(f"raw prime incidences: {raw_prime_incidences}")
-    print(f"unique affine/Galois pair-orbits: {len(all_orbits)}")
-    print(f"activation primes: {len(by_prime)}")
-    print(f"max deduped per-prime activation: p={max_prime} count={max_orbits}")
-    print("top deduped activation primes:")
-    for prime, count in top[:10]:
-        print(f"  p={prime}: {count}")
-    print("repeated canonical orbits across primes: 0")
+    print(f"raw oriented activation records: {summary['raw_oriented_activations']}")
+    print(f"raw prime incidences: {summary['raw_prime_incidences']}")
+    print(f"unique affine/Galois pair-orbits: {summary['unique_orbits']}")
+    print(f"activation primes: {summary['activation_primes']}")
+    print(
+        "max deduped per-prime activation: "
+        f"p={summary['max_prime']} count={summary['max_deduped_per_prime']}"
+    )
+    print(f"repeated canonical orbits across primes: {summary['repeated_orbits']}")
     print("H3_ACTIVATION_ORBIT_DEDUP_PASS")
 
 

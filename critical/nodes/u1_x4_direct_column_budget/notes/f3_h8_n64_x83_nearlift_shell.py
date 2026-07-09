@@ -21,6 +21,14 @@ from itertools import combinations
 import os
 
 
+EXPECTED_ROWS = {
+    (1, 4289): {"paid_supports": 7, "shell_supports": 5376, "first_zero": 0, "full_zero": 0},
+    (1, 262337): {"paid_supports": 7, "shell_supports": 5376, "first_zero": 0, "full_zero": 0},
+    (2, 4289): {"paid_supports": 7, "shell_supports": 947520, "first_zero": 1504, "full_zero": 0},
+    (2, 262337): {"paid_supports": 7, "shell_supports": 947520, "first_zero": 1344, "full_zero": 0},
+}
+
+
 def paid_lift_supports(p: int) -> list[tuple[int, ...]]:
     supports = []
     for left4, right4, is_paid_toral in h4_anchored_trades(p):
@@ -82,6 +90,9 @@ def main() -> None:
     label = {1: "one-exchange", 2: "two-exchange"}[radius]
     for p in primes:
         row = scan_exchange_shell(p, radius)
+        expected = EXPECTED_ROWS.get((radius, p))
+        if expected is not None and row != expected:
+            raise AssertionError((radius, p, row, expected))
         print(
             f"p={p} {label} shell: paid={row['paid_supports']} "
             f"supports={row['shell_supports']} full_zero={row['full_zero']} "

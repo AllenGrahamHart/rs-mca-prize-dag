@@ -12,7 +12,8 @@ Rows:
 
 ```text
 n = 64, h = 5,
-p in {4289, 12289, 40961, 65537, 262337}.
+p = every admissible prime 1 mod 64 with 64^2 < p <= 60161,
+plus p in {65537, 262337}.
 ```
 
 Object:
@@ -32,8 +33,21 @@ Success evidence:
 
 ## Result
 
-The full replay completed locally in 18 seconds with peak RSS below 90 MB.  For
-every listed prime:
+The default replay covers the base `15`-row bank and completed locally in
+`56.08s` with peak RSS below 90 MB.  Twenty-two explicit prefix chunks cover the
+remaining admissible primes through `60161`.  The `12289` chunks completed in
+`44.94s` and `48.75s`; the `20353` chunks completed in `36.73s`, `36.66s`,
+and `25.98s`; the `23873` chunk completed in `47.09s`; the `26177` chunk
+completed in `36.51s`; the `28097` chunk completed in `33.21s`; the `30977`
+chunk completed in `31.09s`; the `33601` chunk completed in `33.31s`; the
+`36161` chunk completed in `33.65s`; the `38977` chunk completed in `39.40s`;
+the `40577` chunk completed in `25.41s`; the `40961` chunk completed in
+`4.85s`; the `44417` chunk completed in `39.65s`; the `48193` chunk completed
+in `50.61s`; the split `51521` chunks completed in `30.76s` and `32.69s`
+after the combined 10-prime attempt timed out at `60.00s`; the `53377` chunk
+completed in `21.16s`; the `54721` chunk completed in `21.20s`; the `57793`
+chunk completed in `20.43s`; the `60161` chunk completed in `19.88s`.
+For every listed prime:
 
 ```text
 left anchored subsets   = binom(63,4) = 595665
@@ -44,9 +58,11 @@ partial                 = false
 direct n^3 alarm        = false
 ```
 
-Thus the h=5 no-primitive evidence now has five complete `n=64` rows in
-addition to the seven complete `n=32` rows.  This remains finite-row evidence,
-not a uniform h=5 theorem.
+Thus the h=5 no-primitive evidence now has `179` complete `n=64` rows in
+addition to the expanded `402`-row `n=32` bank.  In particular, every admissible
+`n=64` prime through `60161` is certified.  The combined replay processes
+`1,258,163,613` total right-side subsets.  This remains finite-row evidence, not
+a uniform h=5 theorem.
 
 ## Replay
 
@@ -62,14 +78,85 @@ Full default replay:
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
 ```
 
+Prefix chunks:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_b.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_b.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_c.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_23873_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_26177_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_28097_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_30977_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_33601_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_36161_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_38977_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40577_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40961_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_44417_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_48193_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_b.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_53377_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_54721_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_57793_chunk_a.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_60161_chunk_a.py
+```
+
 Expected digest after a successful complete replay:
 
 ```text
 H5_N64_MULTIROW_CERTIFICATE_PASS
+H5_N64_PREFIX_12289_CHUNK_A_PASS
+H5_N64_PREFIX_12289_CHUNK_B_PASS
+H5_N64_PREFIX_20353_CHUNK_A_PASS
+H5_N64_PREFIX_20353_CHUNK_B_PASS
+H5_N64_PREFIX_20353_CHUNK_C_PASS
+H5_N64_PREFIX_23873_CHUNK_A_PASS
+H5_N64_PREFIX_26177_CHUNK_A_PASS
+H5_N64_PREFIX_28097_CHUNK_A_PASS
+H5_N64_PREFIX_30977_CHUNK_A_PASS
+H5_N64_PREFIX_33601_CHUNK_A_PASS
+H5_N64_PREFIX_36161_CHUNK_A_PASS
+H5_N64_PREFIX_38977_CHUNK_A_PASS
+H5_N64_PREFIX_40577_CHUNK_A_PASS
+H5_N64_PREFIX_40961_CHUNK_A_PASS
+H5_N64_PREFIX_44417_CHUNK_A_PASS
+H5_N64_PREFIX_48193_CHUNK_A_PASS
+H5_N64_PREFIX_51521_CHUNK_A_PASS
+H5_N64_PREFIX_51521_CHUNK_B_PASS
+H5_N64_PREFIX_53377_CHUNK_A_PASS
+H5_N64_PREFIX_54721_CHUNK_A_PASS
+H5_N64_PREFIX_57793_CHUNK_A_PASS
+H5_N64_PREFIX_60161_CHUNK_A_PASS
 ```
 
-The full replay writes:
+The replays write:
 
 ```text
 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_b.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_b.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_c.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_23873_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_26177_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_28097_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_30977_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_33601_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_36161_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_38977_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40577_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40961_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_44417_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_48193_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_b.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_53377_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_54721_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_57793_chunk_a.json
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_60161_chunk_a.json
 ```

@@ -15,8 +15,8 @@ from pathlib import Path
 NOTES = Path(__file__).resolve().parent
 
 EXPECTED_PRIMES = {
-    32: [1153, 3137, 12289, 32801, 40961, 61441, 65537],
-    64: [4289, 12289, 40961, 65537, 262337],
+    32: [],
+    64: [],
     96: [9601],
     128: [17921, 18049, 18433, 19073, 19457, 19841, 20353],
 }
@@ -59,6 +59,10 @@ def is_prime(n: int) -> bool:
 def admissible_primes(n: int, hi: int) -> list[int]:
     lo = n * n
     return [p for p in range(lo + 1, hi + 1) if (p - 1) % n == 0 and is_prime(p)]
+
+
+EXPECTED_PRIMES[32] = admissible_primes(32, 65537)
+EXPECTED_PRIMES[64] = admissible_primes(64, 60161) + [65537, 262337]
 
 
 def require_zero_common(row: dict, n: int, p: int) -> None:
@@ -122,6 +126,29 @@ def require_complete_sharded(row: dict, n: int, p: int) -> None:
 def certificate_rows() -> dict[int, list[dict]]:
     n32 = load_json("f3_h5_n32_multirow_certificate.json")
     n64 = load_json("f3_h5_n64_multirow_certificate.json")
+    n64.extend(load_json("f3_h5_n64_prefix_12289_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_12289_chunk_b.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_20353_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_20353_chunk_b.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_20353_chunk_c.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_23873_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_26177_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_28097_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_30977_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_33601_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_36161_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_38977_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_40577_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_40961_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_44417_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_48193_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_51521_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_51521_chunk_b.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_53377_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_54721_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_57793_chunk_a.json"))
+    n64.extend(load_json("f3_h5_n64_prefix_60161_chunk_a.json"))
+    n64.sort(key=lambda row: row["p"])
     n96 = [load_json("f3_h5_n96_boundary_certificate.json")]
     n128 = [load_json("f3_h5_n128_boundary_certificate.json")]
     n128.extend(load_json("f3_h5_n128_extra_primes_certificate.json"))
