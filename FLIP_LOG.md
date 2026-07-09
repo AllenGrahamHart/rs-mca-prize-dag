@@ -7567,6 +7567,57 @@ H3_RANK_AVOID_INTERFACE_PASS
 H3_FRONTIER_LEDGER_PASS
 ```
 
+## 2026-07-09 h=5 central projective-infinity exclusion
+
+Stage selected: upgrade the h=5 central infinity flag from a route guide to
+the saturated central-slice finiteness proof needed by the finite-scheme
+payment route.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_PROJECTIVE_INFINITY_EXCLUSION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_projective_infinity_exclusion.py
+```
+
+The replay derives the projective-infinity branch tree from the actual leading
+monomial equations.  The descent forces `l9=0`, then splits into `l7=0` or
+`l8=0`; both branches force the remaining active coordinates to zero.  Hence
+every projective-infinity branch terminates at `l6=l7=l8=l9=0`, impossible in
+projective space.  The largest leading-coefficient prime is `19`, below the
+official characteristic range.
+
+Consequences:
+
+```text
+central projective-infinity exclusion
+  => row-wise saturated central-slice zero-dimensionality
+  => central finite-scheme payment K*n < n^3
+  => h=5 is paid for the F3 direct-column budget
+```
+
+This does not prove h=5 central emptiness or a symbolic p-specific norm-gate
+incompatibility theorem; those stronger statements are no longer needed for
+the direct `n^3` budget.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_projective_infinity_exclusion.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_finite_scheme_payment.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_structural_reduction.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H5_CENTRAL_PROJECTIVE_INFINITY_EXCLUSION_PASS
+H5_CENTRAL_FINITE_SCHEME_PAYMENT_PASS
+H5_STRUCTURAL_REDUCTION_PASS
+F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
+```
+
 ## 2026-07-09 h=3 conic-chart official-ratio deficit pilot
 
 Stage selected: test whether the bounded-deficit route can be treated as

@@ -1,6 +1,6 @@
 # F3 h=5 structural reduction
 
-Status: PROVED CLASSIFICATION REDUCTION, NOT AN h=5 ZERO THEOREM.
+Status: PROVED CLASSIFICATION REDUCTION; h=5 PAID FOR THE F3 BUDGET.
 
 This note tightens the h=5 residual in T4.  The h=5 blocker is not an unknown
 classification problem: the existing DAG already reduces every finite-row h=5
@@ -49,11 +49,19 @@ The current row certificates already prove selected zero instances.  They do
 not cover the whole official row family and should not be promoted to a uniform
 h=5 theorem.
 
+The second route is now discharged by
+`F3_H5_CENTRAL_PROJECTIVE_INFINITY_EXCLUSION`: the central fixed scheme has no
+projective-infinity point on official rows, hence is zero-dimensional, and the
+finite-scheme payment gives `19840464 n < n^3`.  This pays h=5 for the direct
+column budget.  It is still not a uniform theorem saying the p-specific
+norm-gate branch is empty.
+
 ## Replay
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_structural_reduction.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_projective_infinity_exclusion.py
 ```
 
 Expected digests:
@@ -61,4 +69,5 @@ Expected digests:
 ```text
 H5_STRUCTURAL_REDUCTION_PASS
 H5_CERTIFICATE_COVERAGE_AUDIT_PASS
+H5_CENTRAL_PROJECTIVE_INFINITY_EXCLUSION_PASS
 ```

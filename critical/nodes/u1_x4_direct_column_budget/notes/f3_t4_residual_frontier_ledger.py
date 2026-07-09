@@ -38,6 +38,9 @@ from f3_h5_central_finite_scheme_payment import (
 from f3_h5_central_infinity_flag import (
     infinity_flag_summary as h5_central_infinity_flag_summary,
 )
+from f3_h5_central_projective_infinity_exclusion import (
+    projective_infinity_exclusion_summary as h5_central_projective_summary,
+)
 from f3_h5_central_weighted_slice import (
     central_slice_summary as h5_central_slice_summary,
 )
@@ -123,6 +126,7 @@ def h5_summary() -> dict[str, int]:
     central_slice_formal_isolation = h5_central_slice_formal_isolation_summary()
     central_finite_payment = h5_central_finite_payment_summary()
     central_infinity_flag = h5_central_infinity_flag_summary()
+    central_projective = h5_central_projective_summary()
     central_fixedpoint = h5_central_fixedpoint_summary()
     central_slice_fixedpoint = h5_central_slice_fixedpoint_summary()
     unit_propagation = h5_unit_propagation_summary()
@@ -231,6 +235,11 @@ def h5_summary() -> dict[str, int]:
         "central_finite_first_margin": central_finite_payment["first_margin"],
         "central_infinity_branch_checks": central_infinity_flag["branch_checks"],
         "central_infinity_split_options": central_infinity_flag["split_options"],
+        "central_projective_branches": central_projective["branches"],
+        "central_projective_terminal_leaves": central_projective["terminal_leaves"],
+        "central_projective_max_coeff_prime": central_projective[
+            "max_coefficient_prime"
+        ],
         "central_fixedpoint_max_terms": central_fixedpoint[
             "max_pre_cancellation_terms"
         ],
@@ -360,7 +369,7 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
         ),
         FrontierNode(
             "T4-H5-NORM-GATE",
-            "OPEN",
+            "REPLAYED/PAID",
             (
                 f"{h5['certified_rows']} complete zero rows; "
                 f"n32={h5['n32_certified_primes']} contiguous-through-65537, "
@@ -390,6 +399,10 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"first margin={h5['central_finite_first_margin']}; "
                 f"infinity flag checks={h5['central_infinity_branch_checks']} "
                 f"with split options={h5['central_infinity_split_options']}; "
+                f"projective-infinity exclusion branches="
+                f"{h5['central_projective_branches']} terminal_leaves="
+                f"{h5['central_projective_terminal_leaves']} "
+                f"max_coeff_prime={h5['central_projective_max_coeff_prime']}; "
                 f"fixed-point pre-cancel max={h5['central_fixedpoint_max_terms']}; "
                 f"weighted rows={h5['weighted_pairwise_rows']}+"
                 f"{h5['weighted_unit_rows']}; "
@@ -397,7 +410,7 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"minor propagation syzygies={h5['minor_propagation_syzygies']}; "
                 f"unit propagation syzygies={h5['unit_propagation_syzygies']}"
             ),
-            "prove symbolic p-specific x83 norm-gate incompatibility, prove row-wise saturated central-slice zero-dimensionality, or replace selected rows by a scalable certificate family",
+            "no h=5 residual for the direct n^3 budget; stronger norm-gate emptiness remains optional and is not needed here",
         ),
         FrontierNode(
             "T4-H6-H7-BUDGET",
@@ -495,6 +508,9 @@ def main() -> None:
         f"central_finite_K={h5['central_finite_degree_product']} "
         f"central_finite_first_margin={h5['central_finite_first_margin']} "
         f"central_infinity_branch_checks={h5['central_infinity_branch_checks']} "
+        f"central_projective_branches={h5['central_projective_branches']} "
+        f"central_projective_terminal_leaves={h5['central_projective_terminal_leaves']} "
+        f"central_projective_max_coeff_prime={h5['central_projective_max_coeff_prime']} "
         f"weighted_pairwise_rows={h5['weighted_pairwise_rows']} "
         f"weighted_unit_rows={h5['weighted_unit_rows']} "
         f"central_scaling_stabilizer={h5['central_scaling_stabilizer']} "

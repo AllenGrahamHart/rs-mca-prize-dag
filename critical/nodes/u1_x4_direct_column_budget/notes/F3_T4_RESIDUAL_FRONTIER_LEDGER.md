@@ -1,12 +1,12 @@
 # F3 T4 residual frontier ledger
 
-Status: REPLAYED FRONTIER LEDGER, NOT A NEW GENERAL-N THEOREM.
+Status: REPLAYED FRONTIER LEDGER; h=5 PAID, h=8 STILL OPEN.
 
 This packet compiles the current T4 frontier for
 `notes/codex_briefs/F3_FLIP_20260708.md` from existing proved nodes and
-certificate audits.  It launches no search.  Its purpose is to keep the
-remaining h=5 and h=8 blockers explicit, so later work does not spend cycles on
-already localized strata.
+certificate audits.  It launches no search.  Its purpose is to keep the T4
+frontier explicit, so later work does not spend cycles on already localized or
+paid strata.
 
 ## Frontier Nodes
 
@@ -15,7 +15,7 @@ T4-H4-STRUCTURAL: PROVED
   h4_terminal_dichotomy and x83_uniform_square_shift_obstruction_gate are
   PROVED.  There is no hidden h=4 classification residual.
 
-T4-H5-NORM-GATE: OPEN
+T4-H5-NORM-GATE: REPLAYED/PAID
   The current bank has 589 complete h=5 zero rows and 3,164,030,779 audited
   right-side probes.  This includes all admissible n=32 primes through 65537,
   179 n=64 certified primes with 515 admissible primes still missing up to the
@@ -75,11 +75,14 @@ T4-H5-NORM-GATE: OPEN
   `19840464 n < n^3` central points on every official row.
   The central infinity-flag packet verifies a sparse eight-equation graph
   formulation and a dominant boundary flag
-  `l9=0`, then `l7=0` or `l8=0`, terminating on coordinate branches; this is a
-  route guide, not yet the required saturated finiteness proof.
-  Residual: prove a symbolic p-specific x83 norm-gate incompatibility theorem,
-  prove row-wise saturated central-slice zero-dimensionality, or replace the
-  selected finite rows with a scalable certificate family.
+  `l9=0`, then `l7=0` or `l8=0`, terminating on coordinate branches.
+  The central projective-infinity exclusion upgrades this flag into the needed
+  finiteness proof: all projective-infinity branches terminate at
+  `l6=l7=l8=l9=0`, and the largest leading-coefficient prime is `19`, below
+  the official characteristic range.  Combined with the finite-scheme payment,
+  this gives the h=5 contribution `< n^3` on all official rows.
+  Residual: no h=5 residual for the direct `n^3` budget.  Stronger
+  norm-gate emptiness remains optional and is not needed here.
 
 T4-H6-H7-BUDGET: REPLAYED/PAID
   The local replay verifies 11 n=32 h=6/h=7 full zero rows, seven complete h=6
@@ -122,12 +125,13 @@ h5_structural_reduction
   + h=5 central slice formal isolation
   + h=5 central finite-scheme payment
   + h=5 central infinity flag
+  + h=5 central projective-infinity exclusion
   + h=5 central slice quadratic normal form
   + h=5 central slice fixed-point skeleton
   + h=5 official scaling action
   + h=5 rank-one minor propagation
   + h=5 rank-one unit propagation
-  => T4-H5-NORM-GATE remains the only h=5 blocker
+  => T4-H5-NORM-GATE is paid for the direct n^3 budget
 
 h6/h7 bonus sweep replay
   + h6 p4993 square-lift analysis
@@ -143,7 +147,7 @@ h8 antipodal quotient
 ```
 
 Thus the T4 part of the flip should not be advanced by another broad finite
-sweep unless it directly attacks one of the two open frontier nodes above.
+sweep unless it directly attacks the h=8 open frontier node above.
 
 ## Replay
 

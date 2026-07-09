@@ -5,11 +5,20 @@ from __future__ import annotations
 
 from math import prod
 
+from f3_h5_central_projective_infinity_exclusion import (
+    projective_infinity_exclusion_summary,
+)
 from f3_h5_central_slice_fixedpoint_skeleton import slice_fixedpoint_rows
 from f3_h5_official_scaling_action import official_scaling_rows
 
 
 def finite_scheme_payment_summary() -> dict[str, int]:
+    projective = projective_infinity_exclusion_summary()
+    if projective["terminal_leaves"] != 2:
+        raise AssertionError(projective)
+    if projective["max_coefficient_prime"] >= projective["official_min_characteristic"]:
+        raise AssertionError(projective)
+
     degrees = tuple(row.slice_degree_bound for row in slice_fixedpoint_rows())
     if degrees != (81, 72, 63, 54):
         raise AssertionError(degrees)
@@ -34,6 +43,9 @@ def finite_scheme_payment_summary() -> dict[str, int]:
         "degree_rows": len(degrees),
         "degree_product": bezout_bound,
         "max_degree": max(degrees),
+        "projective_branches": projective["branches"],
+        "projective_terminal_leaves": projective["terminal_leaves"],
+        "projective_max_coefficient_prime": projective["max_coefficient_prime"],
         "first_s": first.s,
         "last_s": scaling_rows[-1].s,
         "official_rows": len(scaling_rows),
@@ -66,7 +78,13 @@ def main() -> None:
     )
     print(
         "conditional target: row-wise saturated zero-dimensional central slice "
-        "is enough; emptiness is stronger than needed"
+        "is enough; projective-infinity exclusion discharges this target"
+    )
+    print(
+        "projective-infinity exclusion: "
+        f"branches={summary['projective_branches']} "
+        f"terminal_leaves={summary['projective_terminal_leaves']} "
+        f"max_coeff_prime={summary['projective_max_coefficient_prime']}"
     )
     print("H5_CENTRAL_FINITE_SCHEME_PAYMENT_PASS")
 

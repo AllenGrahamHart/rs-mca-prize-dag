@@ -1,12 +1,13 @@
 # F3 h=5 central finite-scheme payment
 
-Status: PROVED CONDITIONAL PAYMENT COMPILER, NOT `T4-H5-NORM-GATE`.
+Status: PROVED PAYMENT COMPILER; CENTRAL FINITENESS PREMISE DISCHARGED.
 
 This packet weakens the remaining h=5 central-chart target.  The central chart
 does not have to be proved empty in order to be harmless for the F3 floor.  It
-is enough to prove that, on each official row field, the saturated central
-weighted-slice fixed scheme is zero-dimensional with the already-recorded
-degree bounds.
+is enough that, on each official row field, the saturated central weighted
+slice fixed scheme is zero-dimensional with the already-recorded degree
+bounds.  `F3_H5_CENTRAL_PROJECTIVE_INFINITY_EXCLUSION` now proves that
+zero-dimensionality premise.
 
 ## Conditional Target
 
@@ -18,9 +19,9 @@ denominators, the fixed-point equations on the slice l5=bar_l5=1 define a
 zero-dimensional scheme.
 ```
 
-This is a row-wise finite-field statement.  A characteristic-zero finiteness
-claim is not by itself enough unless it also controls bad reductions modulo
-the official row primes.
+This is a row-wise finite-field statement.  The projective-infinity exclusion
+controls bad reductions on official rows by checking that the leading-form
+coefficients have no prime divisor in the official characteristic range.
 
 ## Bezout Payment
 
@@ -58,16 +59,24 @@ So for every official row,
 K n < n^3.
 ```
 
+## Finiteness Input
+
+The projective-infinity exclusion derives the forced coordinate descent
+
+```text
+l9=0, then l7=0 or l8=0, then the remaining active coordinates are forced
+to zero.
+```
+
+Both projective-infinity branches terminate at `l6=l7=l8=l9=0`, impossible in
+projective space.  Therefore the central fixed scheme has no projective
+infinity point and is zero-dimensional on official rows.
+
 ## Consequence
 
-The h=5 central residual can now be attacked by either of the following:
-
-- prove central-chart emptiness, as before;
-- prove the weaker row-wise saturated zero-dimensionality statement above;
-- or keep using a scalable finite-row certificate family.
-
-The finite-scheme route would not prove there are no h=5 central points.  It
-would prove that they are too sparse to threaten the direct `n^3` budget.
+The finite-scheme route does not prove there are no h=5 central points.  It
+proves that any such points are too sparse to threaten the direct `n^3`
+budget.
 
 ## Replay
 
@@ -75,10 +84,12 @@ Standalone:
 
 ```bash
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_finite_scheme_payment.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_projective_infinity_exclusion.py
 ```
 
 Expected digest:
 
 ```text
 H5_CENTRAL_FINITE_SCHEME_PAYMENT_PASS
+H5_CENTRAL_PROJECTIVE_INFINITY_EXCLUSION_PASS
 ```
