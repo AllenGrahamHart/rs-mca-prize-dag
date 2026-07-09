@@ -1614,3 +1614,18 @@ in the signed assembly, not because they are individually small.
 The summit's coordinates stand: SIGNED STRUCTURE, named as
 growing-order Myerson, gap-measured, wired as one DAG input.
 Eighty-seven entries; the map absorbs its last probe.
+
+## 88 — 2026-07-10: the signed mechanism's FIRST EXACT LAW — the
+## deviation field is mean-zero identically
+
+PROVED (two lines) + verified (three rows, machine precision):
+sum_{t != 0} S(t) = 0 EXACTLY — prod over all (t, g) of (1+zeta^{tg})
+= (prod_{s != 0}(1 + zeta^s))^f = 1^f (odd p; the cyclotomic
+evaluation (1^p + 1)/2 = 1). The deviation field {S(t)} whose signed
+cancellation IS the summit has identically vanishing first moment;
+the summit's content is its CORRELATION structure (second and higher
+moments of the field — the pair-correlations of Gaussian periods
+under shift). The signed mechanism now has: an exact first-moment
+law (this entry), a measured distribution (log #87), and a named
+governing object (period pair-correlations). Eighty-eight entries;
+the campaign's map begins charting the summit's interior.
