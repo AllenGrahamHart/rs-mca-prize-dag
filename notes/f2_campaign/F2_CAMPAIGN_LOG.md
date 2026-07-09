@@ -564,3 +564,24 @@ struct census. The reconnaissance prevented a mid-proof death; the
 design is now: (1) formalize the collapse ledger per family member;
 (2) verify the ledgered uniform bound empirically; (3) then the
 recursion step. The campaign's next session opens at step (1).
+
+## 32 — 2026-07-10: the ledger law + the flat-C falsification arc
+
+Three results in one cycle, all machine-gated. (1) THE COLLAPSE
+LEDGER LAW (formalized, closed form): psi_{u,v,eps,del} is constant
+exactly on cosets c*mu_d with d | (u-v) and c^{u-v} = eps/del; ledger
+values = psi({z : z^{u-v} = eps/del}); UNIFIES catch #8's c=1
+exclusion and the half-coset collapse as one law. (2) LEDGERED BOUND:
+holds (<= 3) at n = 16/30/32/64; VIOLATED at n = 128 (shifted member,
+4) and decisively at n = 256: canonical max = 6 (m=1) / 4 (m=3) —
+FLAT-C(3) IS FALSIFIED; growth is slow and field-dependent (at
+n = 128: m = 2 -> 3, m = 6 -> 4, m = 9 -> 3; not monotone in m).
+(3) RE-POSED TARGET (the application never needed flat): C(3; n, q)
+<= slowly-growing (observed <= 7 through n = 256) vs per-condition
+tolerance ~2^15 — four orders of margin. The base lemma is now:
+non-ledger fibers of the sign family are polylog(n)-bounded (or any
+bound << 2^15 at official n) — weaker to state, easier to prove, and
+fully sufficient for the mid-band lower edge. Protocol note: this
+cycle falsified the campaign's own five-scale-supported conjecture by
+pushing one octave and one field further — exactly why the laws say
+measure before proving.
