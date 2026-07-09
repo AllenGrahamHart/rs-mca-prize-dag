@@ -585,3 +585,21 @@ fully sufficient for the mid-band lower edge. Protocol note: this
 cycle falsified the campaign's own five-scale-supported conjecture by
 pushing one octave and one field further — exactly why the laws say
 measure before proving.
+
+## 33 — 2026-07-10: growth-curve RESOLVED — flat in the large-field
+## regime, which is the official regime
+
+n = 512 (q = 7681, m = 15): canonical max = 3, shifted = 4 — the
+bound DROPS BACK one octave above the falsification point. Full
+curve: the fiber max anti-correlates with m (m=1: 6/7; m=2: 3/4;
+m=3: 4/5; m=6: 4/4; m=9: 3/3; m=15: 3/4) — the n=256 jump was a
+SMALL-FIELD effect (q barely above n: Weil-error-sized coincidences),
+not n-growth. THE OFFICIAL REGIME (generated field astronomically
+larger than n) IS THE FLAT REGIME. Re-posed target, final form:
+LARGE-FIELD FLAT BOUND — C(3; n, q) <= 4 for q >> n (empirically
+exact in-regime through n = 512), with the mechanism: at large q the
+per-fiber counting error is sub-unit, so all observed solutions are
+algebraic/torsion-structural — the proof should classify q-robust
+solutions of the 6-term torsion relation. The falsification arc
+(flat -> falsified -> regime-restricted flat) took three cycles and
+left the target strictly better calibrated than the original guess.

@@ -18,9 +18,7 @@ from math import gcd
 app = modal.App("rs-mca-f2-n256")
 image = modal.Image.debian_slim()
 
-JOBS = [(769, 256, i, 16) for i in range(16)] + \
-       [(769, 128, i, 8) for i in range(8)] + \
-       [(1153, 128, i, 8) for i in range(8)]
+JOBS = [(7681, 512, i, 24) for i in range(24)]
 
 
 @app.function(image=image, cpu=2, memory=1024, timeout=280)
