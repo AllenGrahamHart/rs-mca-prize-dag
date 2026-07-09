@@ -108,6 +108,11 @@ COMMANDS = [
         "H3_REPEAT_SAME_LAMBDA_ORBIT_DOMAIN_PASS",
     ),
     (
+        "h3 repeat same-lambda J-invariant",
+        "f3_h3_repeat_same_lambda_j_invariant.py",
+        "H3_REPEAT_SAME_LAMBDA_J_INVARIANT_PASS",
+    ),
+    (
         "h3 repeat same-lambda degree compiler",
         "f3_h3_repeat_same_lambda_degree_compiler.py",
         "H3_REPEAT_SAME_LAMBDA_DEGREE_COMPILER_PASS",
@@ -136,6 +141,11 @@ COMMANDS = [
         "h3 repeat slope mixed degree compiler",
         "f3_h3_repeat_slope_mixed_degree_compiler.py",
         "H3_REPEAT_SLOPE_MIXED_DEGREE_COMPILER_PASS",
+    ),
+    (
+        "h3 repeat slope equality factorization",
+        "f3_h3_repeat_slope_equality_factorization.py",
+        "H3_REPEAT_SLOPE_EQUALITY_FACTORIZATION_PASS",
     ),
     (
         "h3 repeat slope branch assembly",

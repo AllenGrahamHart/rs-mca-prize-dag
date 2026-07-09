@@ -49,6 +49,9 @@ H3-REPEAT-BOUNDARY-STAR: OPEN FRONTIER
   scale-collision ledger, leaving six still-open strict gates.  The scale
   ledger now uses the minimum of the trivial orbit bound and the h=2
   affine-coset cap; the h=2 cap first improves the bound at `n=2^19`.
+  The same-lambda J-invariant compiler identifies the generic off-orbit
+  degree-10 product as `-numerator(J(z)-J(y))`, where
+  `J(z)=(1+z+z^2)^3/(z^2(1+z)^2)`.
   The slope equality-factorization compiler verifies that the generic and
   mixed slope gates are exactly coordinate-intersection targets after
   denominator clearing, with product totals 41 and 27 respectively.

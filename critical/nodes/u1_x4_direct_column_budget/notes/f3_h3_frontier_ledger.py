@@ -30,6 +30,7 @@ from f3_h3_rank_effective_bridge import EXPECTED_CAPACITIES, PINNED_RANKS, rank_
 from f3_h3_repeat_frontier_ledger import (
     count_route_frontier_gates,
     paid_ledgers,
+    same_lambda_j_summary,
     slope_factorization_summary,
     strict_frontier_gates,
 )
@@ -157,6 +158,19 @@ def repeat_slope_summary() -> dict[str, int]:
     return summary
 
 
+def repeat_value_summary() -> dict[str, int]:
+    summary = same_lambda_j_summary()
+    expected = {
+        "r_degree_a": 3,
+        "r_degree_z": 6,
+        "r_total": 7,
+        "j_difference_total": 10,
+    }
+    if summary != expected:
+        raise AssertionError(summary)
+    return summary
+
+
 def frontier_gates(
     activation: dict[str, int],
     budgets: dict[str, int],
@@ -165,6 +179,7 @@ def frontier_gates(
     conic: dict[str, int],
     repeat: dict[str, tuple[int, int]],
     repeat_count: dict[str, int],
+    repeat_value: dict[str, int],
     repeat_slope: dict[str, int],
 ) -> tuple[H3FrontierGate, ...]:
     return (
@@ -214,6 +229,7 @@ def frontier_gates(
                 f"{len(repeat)} strict branch gates replayed; count route leaves "
                 f"{repeat_count['open_gates']} gates after paying scale pairs; "
                 f"h2 scale cap improves from 2^{repeat_count['scale_h2_first_better_s']}; "
+                f"same-lambda J quotient total={repeat_value['j_difference_total']}; "
                 f"slope factorization totals are generic={repeat_slope['generic_product_total']} "
                 f"and mixed={repeat_slope['mixed_product_total']}"
             ),
@@ -230,8 +246,19 @@ def main() -> None:
     conic = conic_bridge_accounting_summary()
     repeat = repeat_frontier_summary()
     repeat_count = repeat_count_route_summary()
+    repeat_value = repeat_value_summary()
     repeat_slope = repeat_slope_summary()
-    gates = frontier_gates(activation, budgets, capacity, l2, conic, repeat, repeat_count, repeat_slope)
+    gates = frontier_gates(
+        activation,
+        budgets,
+        capacity,
+        l2,
+        conic,
+        repeat,
+        repeat_count,
+        repeat_value,
+        repeat_slope,
+    )
 
     print("F3 h=3 frontier ledger")
     print(

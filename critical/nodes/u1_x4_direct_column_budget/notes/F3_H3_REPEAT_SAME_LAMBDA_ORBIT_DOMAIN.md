@@ -44,6 +44,16 @@ Their product has degree profile
 deg_z = 6, deg_y = 6, total = 10.
 ```
 
+The companion J-invariant compiler identifies this product as
+
+```text
+- numerator(J(z)-J(y)),
+J(z) = (1+z+z^2)^3 / (z^2(1+z)^2).
+```
+
+Thus the six off-orbit divisors are exactly the equality fibers of the
+complete `S_3` quotient invariant `J`.
+
 The non-pole product has degree profile
 
 ```text

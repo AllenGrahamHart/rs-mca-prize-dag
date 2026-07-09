@@ -29,12 +29,14 @@ The harness runs:
 - the same-lambda scale-count compiler;
 - the same-lambda collision-system compiler;
 - the same-lambda orbit-domain compiler;
+- the same-lambda J-invariant compiler;
 - the same-lambda degree compiler;
 - the same-lambda branch assembly;
 - the slope-ratio compiler;
 - the slope numerator compiler;
 - the slope-miss degree compiler;
 - the slope mixed degree compiler;
+- the slope equality-factorization compiler;
 - the slope branch assembly;
 - the LP4 Stepanov compiler;
 - the LP4 exception ledger;

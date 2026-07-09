@@ -23,6 +23,10 @@ from f3_h3_repeat_slope_equality_factorization import (
     verify_generic_factorization,
     verify_mixed_factorization,
 )
+from f3_h3_repeat_same_lambda_j_invariant import (
+    verify_j_separates_orbits,
+    verify_reciprocal_product_formula,
+)
 
 
 @dataclass(frozen=True)
@@ -130,6 +134,17 @@ def slope_factorization_summary() -> dict[str, int]:
     }
 
 
+def same_lambda_j_summary() -> dict[str, int]:
+    product_degrees = verify_reciprocal_product_formula()
+    j_degrees = verify_j_separates_orbits()
+    return {
+        "r_degree_a": product_degrees[0],
+        "r_degree_z": product_degrees[1],
+        "r_total": product_degrees[2],
+        "j_difference_total": j_degrees[2],
+    }
+
+
 def main() -> None:
     print("h=3 repeat frontier ledger")
     gates = strict_frontier_gates()
@@ -160,6 +175,21 @@ def main() -> None:
     print("  H3-VALUE-SCALE-INJECTIVE: replaced by paid scale-collision count")
     for gate in count_route:
         print(f"  {gate.name}: still open on the count route")
+
+    same_lambda_j = same_lambda_j_summary()
+    if same_lambda_j != {
+        "r_degree_a": 3,
+        "r_degree_z": 6,
+        "r_total": 7,
+        "j_difference_total": 10,
+    }:
+        raise AssertionError(same_lambda_j)
+    print(
+        "same_lambda_j_invariant: "
+        f"R_degrees=({same_lambda_j['r_degree_a']},{same_lambda_j['r_degree_z']},"
+        f"{same_lambda_j['r_total']}) "
+        f"J_difference_total={same_lambda_j['j_difference_total']}"
+    )
 
     slope_factors = slope_factorization_summary()
     if slope_factors != {

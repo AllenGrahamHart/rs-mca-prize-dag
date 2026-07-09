@@ -35,6 +35,18 @@ LOOSE-B-RANK/NV:
   clean branch-B one-parameter loose eight-slope target, S_total=24.
 ```
 
+The generic same-lambda J-invariant compiler now verifies that the off-orbit
+degree-10 product is exactly
+
+```text
+- numerator(J(z)-J(y)),
+J(z) = (1+z+z^2)^3 / (z^2(1+z)^2).
+```
+
+For fixed `a=lambda-1`, the reciprocal product is `R(a,z)=-J(z)/a^3`.
+Thus `H3-VALUE-GEN-INJECTIVE` is a value-uniqueness target for this complete
+`S_3` quotient invariant, not a six-factor bookkeeping artifact.
+
 The slope equality-factorization compiler now verifies that the two slope
 targets are exactly coordinate-intersection targets after denominator
 clearing:
