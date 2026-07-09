@@ -105,14 +105,34 @@ packet has exact rank
 ```
 
 Thus a full coefficient-rank minor is also nonzero on the repaired degree-2
-model family in the same toy box.  This proves nonemptiness of the degree-2
-rank-good open set; it still does not prove that the actual F3
-signature-curve parameter image lands inside it.
+model family in the same toy box.
+
+More importantly, the rank sample now checks an actual same-fiber conic chart
+from the h=3 bridge geometry:
+
+```text
+p=769, a=37, b=706, base=(101,333),
+U=(298+66t+101t^2)/Q,
+V=(333+530t+298t^2)/Q,
+W=(101+136t+333t^2)/Q,
+Q=1+t+t^2.
+```
+
+This conic-chart witness also has exact rank
+
+```text
+320 = A B^3.
+```
+
+Thus a full coefficient-rank minor is nonzero not only on the ambient degree-2
+model family, but also on the actual same-fiber conic-chart subfamily in this
+toy row.  This still does not prove that every repaired F3 signature-curve
+parameter image lands inside the good locus.
 
 The generic-open replay consumes this as a pinned input from
 `F3_H3_RICH_CURVE_RANK_SAMPLE.md`.  In the aggregate replay, the rank-sample
-verifier runs earlier and is the authoritative exact matrix check; the
-generic-open verifier does not recompute the same heavy degree-2 rank.
+verifier is the authoritative exact matrix check; the generic-open verifier
+does not recompute the same degree-2 or conic-chart ranks.
 
 ## Remaining Theorem
 
@@ -126,10 +146,11 @@ F3-RANK-AVOID:
 ```
 
 This packet proves that such open sets are algebraically meaningful and
-nonempty in both the private-linear and repaired degree-2 toy model families.
-It does not prove `F3-RANK-AVOID`.  The bad-prime guardrail also shows why
-generic nonemptiness is only the first step: a row-level proof must exhibit a
-minor that remains nonzero modulo the actual row prime, not just over Q.
+nonempty in the private-linear model, the ambient repaired degree-2 model, and
+the actual same-fiber conic-chart subfamily at the toy row.  It does not prove
+`F3-RANK-AVOID`.  The bad-prime guardrail also shows why generic nonemptiness
+is only the first step: a row-level proof must exhibit a minor that remains
+nonzero modulo the actual row prime, not just over Q.
 
 ## Replay
 

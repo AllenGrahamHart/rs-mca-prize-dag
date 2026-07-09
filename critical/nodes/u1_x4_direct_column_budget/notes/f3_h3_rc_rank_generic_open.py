@@ -16,6 +16,7 @@ from f3_h3_rc_rank_model_lemmas import private_linear_degree_dim
 
 PINNED_PRIVATE_LINEAR_RANK = 293
 PINNED_DEGREE2_RANDOM_RANK = 320
+PINNED_DEGREE2_CONIC_CHART_RANK = 320
 
 
 def main() -> None:
@@ -44,9 +45,14 @@ def main() -> None:
         raise AssertionError(("degree-2 full-rank pin drift", degree2_rank, COEFFS))
     print(f"repaired degree-2 witness rank={degree2_rank}")
 
+    conic_chart_rank = PINNED_DEGREE2_CONIC_CHART_RANK
+    if conic_chart_rank != COEFFS:
+        raise AssertionError(("conic-chart full-rank pin drift", conic_chart_rank, COEFFS))
+    print(f"same-fiber conic-chart witness rank={conic_chart_rank}")
+
     print("rank >= r is a nonzero-minor Zariski-open condition")
     print("finite-field witness proves the private-linear fullness open set is nonempty")
-    print("rank-sample pin proves the repaired degree-2 full-rank open set is nonempty")
+    print("rank-sample pins prove the degree-2 and conic-chart full-rank open sets are nonempty")
     print("H3_RC_RANK_GENERIC_OPEN_PASS")
 
 

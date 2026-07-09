@@ -7371,6 +7371,50 @@ Expected digest:
 H3_RANK_AVOID_INTERFACE_PASS
 ```
 
+## 2026-07-09 h=3 conic-chart rank-good witness
+
+Stage selected: move the degree-2 rank-good nonemptiness evidence from the
+ambient random model into the actual same-fiber conic-chart family.
+
+Changed files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_RANK_SAMPLE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_GENERIC_OPEN.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
+```
+
+The rank sample now checks the conic chart
+
+```text
+p=769, a=37, b=706, base=(101,333),
+U=(298+66t+101t^2)/Q,
+V=(333+530t+298t^2)/Q,
+W=(101+136t+333t^2)/Q,
+Q=1+t+t^2.
+```
+
+For the toy box `H=32,A=5,B=4,D=1`, this actual bridge-family chart has exact
+substitution rank `320=A B^3`, hence passes the rank target `320>78`.  This
+proves the rank-good open set intersects the same-fiber conic-chart subfamily
+in the toy row.  It is still not `RC-RANK`; uniform finite-row minor avoidance
+remains open.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
+```
+
+Expected digests:
+
+```text
+H3_RICH_CURVE_RANK_SAMPLE_PASS
+H3_RC_RANK_GENERIC_OPEN_PASS
+```
+
 Residual next targets remain unchanged: finite-row-valid h=3 rank/minor
 avoidance plus the matching bridge assignment, symbolic h=5 norm-gate
 incompatibility, and h=8 non-antipodal support certification.

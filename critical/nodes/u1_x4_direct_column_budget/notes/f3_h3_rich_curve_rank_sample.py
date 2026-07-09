@@ -7,6 +7,8 @@ import random
 from dataclasses import dataclass
 from itertools import product
 
+from f3_h3_conic_degree2_chart import case_b, numerator_coefficients
+
 
 P = 769
 H = 32
@@ -97,6 +99,22 @@ def random_curve(seed: int) -> Curve:
     )
 
 
+def conic_chart_curve() -> tuple[Curve, int]:
+    a = 37
+    u0 = 101
+    v0 = 333
+    b = case_b(P, a, u0, v0)
+    nums = numerator_coefficients(P, a, u0, v0)
+    common_denominator = (1, 1, 1)
+    return (
+        Curve(
+            ps=(tuple(nums["U"]), tuple(nums["V"]), tuple(nums["W"])),
+            qs=(common_denominator, common_denominator, common_denominator),
+        ),
+        b,
+    )
+
+
 def precompute(curve: Curve) -> tuple[list[list[int]], list[list[int]]]:
     p_powers = [[1] for _ in range(3 * B)]
     q_powers = [[1] for _ in range(3 * B)]
@@ -140,6 +158,7 @@ def main() -> None:
         ps=((0, 1), (0, 3), (0, 5)),
         qs=((1,), (1,), (1,)),
     )
+    conic_chart, conic_b = conic_chart_curve()
     cases = [
         Case(
             name="constant-ratio collapsed control",
@@ -150,6 +169,12 @@ def main() -> None:
         Case(
             name="deterministic repaired random curve",
             curves=(random_curve(20260708),),
+            expected_rank=320,
+            expect_rank_target=True,
+        ),
+        Case(
+            name=f"same-fiber conic chart a=37 b={conic_b}",
+            curves=(conic_chart,),
             expected_rank=320,
             expect_rank_target=True,
         ),
@@ -175,7 +200,7 @@ def main() -> None:
         raise AssertionError(("full-rank family cap drift", full_rank_family_cap))
 
     print("collapsed constant-ratio family fails the rank target")
-    print("repaired random curve has full coefficient rank in this toy row")
+    print("repaired random curve and same-fiber conic chart have full coefficient rank in this toy row")
     print(
         "full-rank subcurve certifies any containing family with "
         f"Z <= {full_rank_family_cap} in this toy box"
