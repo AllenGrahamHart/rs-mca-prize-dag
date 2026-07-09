@@ -659,3 +659,18 @@ to verify (not assume): Lenstra's lacunary-polynomial factor theory
 covers the cyclotomic-factor structure of sparse polynomials — check
 whether the needed bound is already a theorem there. This is the
 char-q half's proof program, calibrated and posed.
+
+## 37 — 2026-07-10: the ORBIT LEMMA — descent round 1 is UNIFORM
+
+PROVED (bit argument) + exhaustively verified (64,560 non-collapsed
+pairs, n = 32/64/128/256, zero failures): every non-collapsed (u,v)
+on mu_{2^s} normalizes via k = v^{-1} 2^j to (U, V) = (2^j w mod n,
+2^j) with w = u/v odd >= 3, and some j puts U >= n/2 with V <= n/4 —
+hence X^n mod g terminates in <= 2 reduction steps with a <= 4-term
+remainder of degree < U. Round 1 of the normalize-square-reduce
+descent is UNIFORM over all inputs. Remaining for the char-q half:
+the multi-round bookkeeping (sparsity growth vs degree descent in the
+sparse-Euclid recursion — worst case still open; witnesses collapse
+in 1-2 rounds) and the Lenstra literature check. The descent program
+now has: a proved uniform first round, calibrated witnesses, and a
+precisely posed recursion question.
