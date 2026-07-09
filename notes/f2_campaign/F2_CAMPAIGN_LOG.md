@@ -1283,3 +1283,29 @@ census fiber as subspace membership + BGK level floors + the
 structured-exception ledger = the prime-field dichotomy end-to-end.
 The dependency count is now: ONE statement-read, one composition,
 one assembly. Sixty-nine entries.
+
+## 70 — 2026-07-10: LMN EXTRACTED — per-condition constant 1 + o(1);
+## the prime-field FLATNESS composition is fully specified
+
+Body-read of Luh-Meehan-Nguyen ("Some new results in random matrices
+over finite fields", the located Modp paper): THEOREM 1.5
+(non-structure of normal vectors): sup_a |P(sum xi_i w_i = a) - 1/p|
+<= exp(-n^c) — per-condition constant 1 + o(1) with EXPONENTIALLY
+small error; THEOREM 1.4 (rank distribution): the codim-d joint
+scales as p^{-d^2} x explicit products + O(e^{-n^{c'}}), for
+p <= exp(n^c), alpha-balanced entries. Their hypotheses are for
+RANDOM subspaces; the mechanism consumes only the NON-STRUCTURE of
+the normal vectors — which for our FIXED moment functionals is
+PROVED (trivial level sets via our Lemma A, f2_k1_contraction_theorem
+chain). THE COMPOSITION, fully specified: our proved non-structure +
+the LMN/CMMM Halasz mechanism => per-condition error exp(-n^c) =>
+accumulated constant (1 + e^{-n^c})^t = 1 + o(1) over the whole
+ladder => PRIME-FIELD FLATNESS ITSELF (max/mean = 1 + o(1) modulo
+struct) at theatre rows — the full dichotomy, not merely
+contraction. REMAINING: (a) the LMN section-6 body-read (confirm the
+mechanism consumes only normal-vector non-structure — the fixed-
+subspace adaptation); (b) the composition write-up; (c) assembly +
+consumer replay AT PRIME-FIELD ROWS. The summit (extension fields,
+p <= exp(n^c) barrier) remains F_q-native beyond this. Seventy
+entries; the prime-field endgame: one section-read, one write-up,
+one assembly.
