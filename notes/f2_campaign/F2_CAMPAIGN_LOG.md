@@ -1575,3 +1575,23 @@ fixed/symmetric sectors 1+o(1) + moving interior <= mean x tolerance
 STRUCTURE to exactly one named open input. This is the campaign's
 final structural act: the 85-entry record compiled into the graph
 the program navigates by. Eighty-five entries.
+
+## 86 — 2026-07-10: the summit's gap MEASURED — ~19 bits in log-space
+## at the base rung; the closest standard tools have ever come
+
+Direct attempt at the named summit (tower base, f ~ 2^24, p ~ 2^31):
+the per-condition census deviation is the subgroup average
+sum_g log|1 + zeta^{tg}| — Mahler-measure mean ZERO (m(1+X) = 0):
+everything is equidistribution error against a log-singular
+integrand. Erdos-Turan-Koksma with OUR Lemma A (|subgroup Fourier
+coefficient| <= 2 sqrt(p) at EVERY frequency) + the nearest-approach
+bound (log-terms >= -log p) gives log-deviation <= ~2 sqrt(p) log p
+~ 2^19 nats vs the per-condition budget ~10.4 nats (2^15 tolerance
+over the ladder). THE GAP: a factor ~2^15.6 in log-deviation at the
+base rung — FINITE AND SMALL where every previous wall was
+astronomic. What would close it: any subgroup-discrepancy improvement
+from sqrt(p) toward p^{1/4}-ish at f ~ p^{0.77} (Konyagin-class
+territory), OR per-condition budget rebalancing across the ladder
+(the tolerance is an AVERAGE — conditions with small deviation
+subsidize; the deviation-distribution across t is measurable). The
+summit now has a NUMBER on it. Eighty-six entries.
