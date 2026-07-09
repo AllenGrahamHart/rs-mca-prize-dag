@@ -74,3 +74,29 @@ with printed error) + per-orbit arc-max bound. The orbit collapse
 makes L2a a finite computation with a theorem attached, and the
 official-row reading goes through the beta-normalized generated field
 (catch #11 discipline).
+
+## 4 — 2026-07-09 (late): L2a PROVED, L2b' PROVED — extreme bands paid
+
+L2a (f2_chord_orbit_lemma, F2_L2A_CHORD_ORBIT_PASS, 9 rows, err <=
+6e-13 per orbit): exact Jacobi-sum formula, N(c) = (q+1-2m*1_mu -
+m*delta + E)/m^2, |E| <= (m-1)(m-2)sqrt(q) with each Jacobi term of
+EXACT modulus sqrt(q); manifestly orbit-invariant (detecting
+characters trivial on mu_n); reproduces the L2b strata windows.
+
+L2b' (f2_weil_newton_arc_bound, F2_L2B_WEIL_NEWTON_PASS, exhaustive):
+supersedes the per-orbit plan with a UNIFORM bound. Dilation identity
+p_r(lambda) = e_1(r*lambda) + subgroup Weil (<= 2 sqrt q, any arc) +
+Newton majorization => |E_b| <= prod_{r<b}(2 sqrt q + r)/b!. Verified
+at every arc of 5 cells (max ratio 0.06). REACH (exact integers):
+b* = 5 at ALL official shapes => extreme bands b <= 5, b >= n-5 paid
+(~2^107 total vs 2^123 budget at prize-max) — the campaign's first
+exact official-row payment. Degree-t remark: t*sqrt(q) verbatim.
+
+LADDER STATE: L1 done; L2a done; L2b' done; L2c dropped (Chebyshev
+non-discriminating — L2b catch); L3 = MID-BAND census via Parseval/SP
+(census power = shift-pair second moment; the structured arcs must be
+subtracted exactly first — quotient arcs grow with b) + the banked
+energy dichotomy; L4 explicit BSG constants; L5 assembly. NEXT MOVE:
+L3 design note — write the exact Parseval budget split (structured
+arcs | Weil-Newton band | mid-band residual) and pose the mid-band
+estimate sharply before attacking it.
