@@ -31,6 +31,9 @@ from f3_h5_reciprocal_compatibility_compiler import (
 )
 from f3_h5_reciprocal_open_cover import open_cover_summary as h5_open_cover_summary
 from f3_h5_unit_norm_reciprocal_gate import unit_norm_summary as h5_unit_norm_summary
+from f3_h5_weighted_homogeneity import (
+    weighted_homogeneity_summary as h5_weighted_summary,
+)
 from f3_h5_x83_triangular_norm_gate import key_bounds as h5_x83_key_bounds
 from f3_h6_h8_bonus_sweep_replay import (
     FULL_ZERO_ROWS,
@@ -89,6 +92,7 @@ def h5_summary() -> dict[str, int]:
     central_fixedpoint = h5_central_fixedpoint_summary()
     unit_propagation = h5_unit_propagation_summary()
     minor_propagation = h5_minor_propagation_summary()
+    weighted = h5_weighted_summary()
     by_n = {row["n"]: row for row in rows}
     expected_by_n = {
         32: (402, 65537, 0, 68304222),
@@ -143,6 +147,8 @@ def h5_summary() -> dict[str, int]:
         "central_fixedpoint_max_degree": central_fixedpoint[
             "max_total_degree_bound"
         ],
+        "weighted_pairwise_rows": weighted["pairwise_rows"],
+        "weighted_unit_rows": weighted["unit_rows"],
         "central_unit_syzygies": chart_recovery["central_unit_syzygies"],
         "minor_propagation_syzygies": minor_propagation["ordered_chart_syzygies"],
         "nonincident_minors_per_chart": minor_propagation[
@@ -264,6 +270,8 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"{h5['max_chart_total_terms']}; "
                 f"central graph rows={h5['central_graph_rows']}; "
                 f"fixed-point pre-cancel max={h5['central_fixedpoint_max_terms']}; "
+                f"weighted rows={h5['weighted_pairwise_rows']}+"
+                f"{h5['weighted_unit_rows']}; "
                 f"minor propagation syzygies={h5['minor_propagation_syzygies']}; "
                 f"unit propagation syzygies={h5['unit_propagation_syzygies']}"
             ),
@@ -336,6 +344,8 @@ def main() -> None:
         f"central_graph_max_degree={h5['central_graph_max_degree']} "
         f"central_fixedpoint_precancel_max={h5['central_fixedpoint_max_terms']} "
         f"central_fixedpoint_max_degree={h5['central_fixedpoint_max_degree']} "
+        f"weighted_pairwise_rows={h5['weighted_pairwise_rows']} "
+        f"weighted_unit_rows={h5['weighted_unit_rows']} "
         f"chart_unit_obligations={h5['chart_nontrivial_unit_charts']}+"
         f"{h5['chart_tautological_unit_charts']} tautological "
         f"nonincident_minors_per_chart={h5['nonincident_minors_per_chart']} "

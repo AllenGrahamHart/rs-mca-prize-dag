@@ -7420,9 +7420,19 @@ max fixed-point total degree bound: 91
 This records that the central chart should be attacked through the structured
 graph, not by full fixed-point expansion.
 
+The weighted-homogeneity compiler verifies the root-scaling grading:
+
+```text
+l5..l9 weights: 5,4,3,2,1
+bar_l5..bar_l9 weights: -5,-4,-3,-2,-1
+pairwise minor weights: 1..7
+unit-row weights: 0
+```
+
 Replays:
 
 ```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_weighted_homogeneity.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_fixedpoint_skeleton.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_chart_graph.py
 python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_rank_one_minor_propagation.py
@@ -7434,6 +7444,7 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_
 Expected digests:
 
 ```text
+H5_WEIGHTED_HOMOGENEITY_PASS
 H5_CENTRAL_FIXEDPOINT_SKELETON_PASS
 H5_CENTRAL_CHART_GRAPH_PASS
 H5_RANK_ONE_MINOR_PROPAGATION_PASS

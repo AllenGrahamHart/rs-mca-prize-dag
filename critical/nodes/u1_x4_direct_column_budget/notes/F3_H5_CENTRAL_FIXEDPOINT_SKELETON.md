@@ -43,6 +43,10 @@ conjugation/support compatibility, not as four fully expanded cleared
 polynomials.  If resultants or Groebner-style eliminations are needed, they
 should exploit the graph equations and saturations explicitly.
 
+The companion `F3_H5_WEIGHTED_HOMOGENEITY.md` adds another route constraint:
+the central graph is homogeneous for the natural root-scaling weights.  A
+future fixed-point attack should preserve that weighted quotient.
+
 This packet does not prove that the central chart is empty.
 
 ## Replay

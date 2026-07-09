@@ -1762,7 +1762,10 @@ saturating by `l5*bar_l5` the central chart is an explicit rational graph.
 The fixed-point skeleton shows that conjugating this graph and expanding it
 directly is not viable locally: the pre-cancellation term bounds run from
 `117,907,944` to `1,255,488,415,957`, despite the graph itself having only
-`67` terms.
+`67` terms.  The weighted-homogeneity packet verifies the natural root-scaling
+grading: all pairwise minors are homogeneous, and the Hermitian unit rows have
+weight zero.  The central chart should therefore be attacked in a weighted
+chart or quotient, not as a dense affine expansion.
 
 The certificate scaling frontier explains why the current finite-certificate
 format is not that maintainable family.  The banked n=128 Modal rows use
