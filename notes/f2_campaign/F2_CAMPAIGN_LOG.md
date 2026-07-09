@@ -888,3 +888,21 @@ machinery as its base camp and the aggregate arsenal (M1 flatness,
 SP census, energy dichotomy) as the interior tools. Fourteen
 satellites; the first proved band; the frontier now has exact
 coordinates.
+
+## 50 — 2026-07-10: the p-ADIC LADDER — the interior's proof program
+
+The Frobenius slots past the char boundary inject as r = trunc(B^{-1}
+Abar^p) (char p: A(X^p) = Abar(X)^p) — the interior freedom IS a
+level-1 instance of the same gap census: Abar has degree ~rho/p and
+inherits ~t/p gap conditions (the Frobenius-redundancy law from catch
+#6 as the level transition). Recursion depth ceil(log_p t) = 2 at
+official parameters (t/p ~ 33, t/p^2 < 1): the interior extras count
+= #cores x census(level 1, degree ~33) with level 1 bounded by the
+SAME edge machinery at its own scale. LAB IDENTIFIED: extension-field
+toys (F_25, p = 5, n = 24) have reachable interiors (t >= rho >= p
+attainable) — the ladder is empirically testable at toy scale, unlike
+every prior official-regime mechanism. NEXT: the ladder verification
+experiment at F_25 (edge/interior censuses vs the ladder prediction),
+then the ladder write-up, then crux assembly (= empty band + edge
+band + laddered interior + struct census + consumer replay), then L5.
+The campaign's remaining mathematics: one testable recursion.
