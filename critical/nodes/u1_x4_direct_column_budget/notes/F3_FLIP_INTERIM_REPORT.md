@@ -1214,9 +1214,9 @@ A sufficient normalized h=3 target condition is therefore
 ```
 
 This is standalone bridge bookkeeping, not an activation proof.  Its main
-message is that a linear chart-mass estimate alone cannot close `H3-ACT(16)`;
-the global bridge must also supply a max-fiber cap, a dyadic level-set theorem,
-or an equivalent rank-capacity batching bound.
+message is that a linear chart-mass estimate alone cannot close `H3-ACT(16)`.
+The native target is the exact L2 ledger or the equivalent weighted level-set
+tail bound below; a max-fiber cap is only one sufficient way to imply it.
 
 The L2/level-set bridge compiler weakens that sufficient condition to the
 native quadratic ledger.  For ordered same-fiber triple counts `R_z`, the

@@ -285,10 +285,10 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
     `H`-triple ledger.  The bridge should count one conic fiber, not one curve
     image per ordered triple.
 12. The h=3 pair-count compiler is exact locally:
-    `P_z = binom((T_z+epsilon_z)/6,2)`, and a chart ledger with
-    `T_z <= M`, `sum T_z <= S`, and `Z` charts is enough for `H3-ACT(16)` if
-    `(M+1)(S+Z) <= 1152 n`.  The sharper native bridge target is the exact
-    L2/level-set ledger `sum R_z(R_z-6) <= 1152 n`.
+    `P_z = binom(R_z/6,2) = R_z(R_z-6)/72`.  The native bridge target is the
+    exact L2/level-set ledger `sum R_z(R_z-6) <= 1152 n`; the older chart
+    ledger condition `(M+1)(S+Z) <= 1152 n` is only a convenient corollary
+    from `sum R_z^2 <= max(R_z) sum R_z`.
 13. The rich-curve denominator compiler and log-jet reduction are banked.  The
    reduced-condition side is now `RC-RED(13)`.
 14. Several h=3 rank guardrails are proved or replayed:
