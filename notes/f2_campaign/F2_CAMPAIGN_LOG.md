@@ -249,3 +249,18 @@ disciplines from catch #6 apply for j >= q only — irrelevant at j <=
 J here). Day-1 truly closes at 10 green digests, 4 proved satellites,
 2 anchors, 6 catches, and the heart posed in extras-contraction form
 with support at every cell measured.
+
+## 12 — 2026-07-09 (terminal): route R4 banked; session handoff
+
+R4 (Bezout/complete-intersection) added to the target brief: power
+sums form a regular sequence; W_j is a complete intersection of
+degree j!; torsion-properness (with struct removed — the structured
+blocks are exactly the torsion-coset components) gives per-condition
+contraction with cumulative loss log2(j!), which fits the tolerance
+through j ~ t/2. Splice with R1/R2/R3 for the upper ladder. This is
+the fourth named route and the first with a quantified reach.
+
+Session 1 terminal state: u2c red, T-WIN/T-FLOOR unmet, ladder open
+at exactly one lemma (EXTRAS_CONTRACTION_TARGET.md: statement,
+sufficiency, O1-O3, R1-R4, falsifier) + L4 + L5. All banked facts
+carry digests; 6 catches corrected; the campaign resumes there.
