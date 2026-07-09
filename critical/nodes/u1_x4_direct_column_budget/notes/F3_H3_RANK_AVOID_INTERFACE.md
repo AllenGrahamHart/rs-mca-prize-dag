@@ -173,6 +173,22 @@ box.  The exact-profile theorem obligation is therefore intentionally stated
 as a finite-row rank/minor nonvanishing inequality above the exact condition
 count, not as a blanket degree-space-fullness theorem.
 
+The exact-profile deficit budget records the weaker sufficient form.  If a
+future theorem proves
+
+```text
+rank >= (L+1) - Delta
+```
+
+for every repaired image, then the official exact-profile boxes all pass as
+soon as
+
+```text
+Delta <= 1847.
+```
+
+The tight row is `s=13`; higher rows have more room.
+
 For the private-linear table it checks the pinned `Z_private` witnesses with
 
 ```text

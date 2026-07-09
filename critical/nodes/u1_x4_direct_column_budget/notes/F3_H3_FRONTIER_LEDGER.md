@@ -32,6 +32,9 @@ F3-RANK-AVOID / RC-NV: OPEN
   boxes, a degree-space-full repaired image has capacity exactly `1` and the
   constant-ratio collapsed model has capacity `0`; the larger budget therefore
   buys more distinct rank-effective images, not duplicate-image reuse.
+  The exact-profile rank-deficit budget shows that a bounded-deficit theorem
+  with `rank >= (L+1)-Delta` and `Delta <= 1847` would already suffice for all
+  official exact-profile boxes.
   The rank-good open set is now witnessed inside the actual same-fiber conic
   chart family in the toy row: the conic chart
   `p=769,a=37,b=706,base=(101,333)` has rank `320=A B^3`, certified by a

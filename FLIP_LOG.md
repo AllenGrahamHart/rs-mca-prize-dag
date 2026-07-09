@@ -7527,6 +7527,46 @@ Expected digest:
 H3_CONIC_CHART_DEGREE_SPACE_GUARD_PASS
 ```
 
+## 2026-07-09 h=3 exact-profile rank-deficit budget
+
+Stage selected: convert the conic-chart degree-space guardrail into a useful
+weaker theorem target for official exact-profile boxes.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_RANK_DEFICIT_BUDGET.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_rank_deficit_budget.py
+```
+
+For one repaired image, if a future theorem proves
+
+```text
+rank >= (L+1) - Delta,
+```
+
+then the exact-profile rank inequality `rank > DA+6D(D-1)` holds whenever
+`Delta <= (L+1)-C_exact-1`.  Across all official exact-profile boxes this
+allowance is at least `1847`, with the tight row at `s=13`.  Thus a bounded
+rank-deficit theorem with `Delta <= 1847` would be enough for the exact-profile
+h=3 route; full degree-space rank is not necessary.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_rank_deficit_budget.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_EXACT_PROFILE_RANK_DEFICIT_BUDGET_PASS
+H3_RANK_AVOID_INTERFACE_PASS
+H3_FRONTIER_LEDGER_PASS
+```
+
 ## 2026-07-09 h=5 central slice formal isolation
 
 Stage selected: promote the central tangent determinant into the precise
