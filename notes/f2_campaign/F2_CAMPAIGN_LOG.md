@@ -867,3 +867,24 @@ remains; the rho < p boundary is the frontier and the same machinery
 is the tool. Fourteen satellites; the campaign's central conjecture
 now has a PROVED band where it was pure conjecture 40 log entries
 ago.
+
+## 49 — 2026-07-10: the proved band's honest width; the interior
+## frontier posed
+
+The edge lemma's chain requires residual bound < p; with the
+calibrated app-shape law (16x safety), the PROVED band at official
+parameters is b in (t, t + ~317] (computed exactly), plus b <= t
+empty unconditionally and the complementation mirrors. Narrow but
+NONZERO — the dichotomy's first proved extras-free band beyond
+trivial, and the width grows with every constant improvement (the
+sqrt-n refinement of Part 2, the safety factor, the span constants).
+THE INTERIOR FRONTIER, posed exactly: past the boundary (rho >= p),
+the determination acquires FROBENIUS SLOTS (p-multiple rows below rho
+= free parameters, ~rho/p of them); the semigroup argument breaks
+there precisely (p-shifts leave the 2-power lattice). Interior
+extras <= #cores x q^{#slots}: the interior obligation = bounding
+slot-bearing cores — the campaign's next phase, with the edge
+machinery as its base camp and the aggregate arsenal (M1 flatness,
+SP census, energy dichotomy) as the interior tools. Fourteen
+satellites; the first proved band; the frontier now has exact
+coordinates.
