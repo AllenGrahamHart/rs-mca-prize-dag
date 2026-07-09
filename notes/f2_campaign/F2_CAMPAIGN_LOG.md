@@ -1663,3 +1663,26 @@ chart: first moment zero (per shift); index-2 exactly flat; second
 moment = Dedekind-reciprocity territory; the open content = the
 correlations at growing index. The summit's interior keeps yielding
 exact structure wherever it is probed. Ninety entries.
+
+## 91 — 2026-07-10: interior chart, page four — THE L-FUNCTION
+## DIAGONALIZATION (the summit's field named exactly)
+
+The deviation field diagonalizes EXACTLY in Dirichlet L-values at
+s=1: pointwise, S(t) = (fp/(p-1)) sum_{chi != 1, chi|G = 1}
+(1-chi(2)) (L(1,chi)/tau(chi)) chi(t). Six lines of character
+algebra + the classical even-character evaluation (Washington 4.9
+shape, numerically confirmed to 1e-6 against independent partial
+sums). All links machine-verified at (97,3), (257,4), (7681,15);
+digest F2_LFUNC_DIAGONALIZATION_PASS. Corollaries: the second
+moment is a mean-square of |1-chi(2)|^2 |L(1,chi)|^2 over the
+quotient characters (supersedes #89's autocorrelation page); the
+DOUBLING VANISHING law 2 in G => S == 0 (subsumes #90's index-2
+theorem at p = +-1 mod 8 and explains every flat probe row — 257
+at m=4 was one and we did not know it). The summit restated: the
+open content of growing-order Myerson at our rows IS square-root
+cancellation in m of an L(1,chi)-weighted character sum, uniformly
+in t. That is a STANDARD-FORM analytic-number-theory object —
+Chowla/class-number territory, moments of L(1,chi) are classical.
+Banked as sixteenth satellite f2_lfunc_diagonalization (PROVED,
+ev -> u2c). The summit's interior now has a name, an exact basis,
+and a literature. Ninety-one entries.
