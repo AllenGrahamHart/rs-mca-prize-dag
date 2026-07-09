@@ -54,9 +54,11 @@ J'(z) numerator = (z-1)(z+2)(2z+1)(z^2+z+1)^2.
 ```
 
 On the generic ratio domain the `z^2+z+1=0` orbit is already excluded, so the
-only admissible critical orbit is `{1,-2,-1/2}` with critical value `27/4`.
-Thus the generic value gate is an arithmetic uniqueness problem, not an
-unresolved quotient-singularity issue.
+only remaining critical orbit is `{1,-2,-1/2}` with critical value `27/4`.
+That orbit is exactly the duplicate-coordinate locus for
+`{r,zr,-(1+z)r}`, so after active-edge distinctness there are
+`0` active critical points.  Thus the generic value gate is an arithmetic
+uniqueness problem, not an unresolved quotient-singularity issue.
 
 The slope equality-factorization compiler now verifies that the two slope
 targets are exactly coordinate-intersection targets after denominator

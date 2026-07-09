@@ -7545,7 +7545,8 @@ Thus the degree-10 generic off-orbit product is the complete `S_3` quotient
 invariant for ratio orbits.  `H3-VALUE-GEN-INJECTIVE` remains open, but is now
 a value-uniqueness target for `J`, not a raw six-factor exclusion.  The
 J-ramification compiler further shows that, on the generic domain, the only
-admissible critical orbit is `{1,-2,-1/2}` with critical value `27/4`.
+remaining critical orbit is `{1,-2,-1/2}` with critical value `27/4`, and this
+is exactly the duplicate-coordinate locus excluded by active-edge distinctness.
 
 Slope refinement:
 
@@ -7812,6 +7813,10 @@ and `3`, the only admissible critical orbit is
 ```
 
 with common critical value `27/4`.
+
+This orbit is also exactly the duplicate-coordinate locus for the normalized
+reciprocal triple `{r,zr,-(1+z)r}`.  After active-edge distinctness is imposed,
+`J` has `0` active critical points on the generic domain.
 
 Conclusion: `H3-VALUE-GEN-INJECTIVE` remains open, but the remaining obstacle
 is not hidden ramification of the quotient map `J`; it is the arithmetic

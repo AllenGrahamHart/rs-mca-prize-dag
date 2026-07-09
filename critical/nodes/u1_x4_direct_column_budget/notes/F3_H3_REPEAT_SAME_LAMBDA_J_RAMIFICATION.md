@@ -42,12 +42,28 @@ These three points are one `S_3` orbit, and the common critical value is
 J(1) = J(-2) = J(-1/2) = 27/4.
 ```
 
+In the normalized reciprocal triple
+
+```text
+{r, zr, -(1+z)r},
+```
+
+the pairwise distinctness product is
+
+```text
+-(z-1)(z+2)(2z+1).
+```
+
+Thus the only derivative-zero orbit in the generic ratio domain is exactly
+the duplicate-coordinate orbit.  After imposing the active-edge distinctness
+condition, `J` has no ramification left on the generic active-edge domain.
+
 ## Meaning
 
 The quotient map has the expected finite stabilizer ramification at the
-exceptional orbit `{1,-2,-1/2}`.  Apart from the already-excluded
-`z^2+z+1=0` orbit, there is no additional structural ramification in the
-generic ratio domain.
+exceptional orbit `{1,-2,-1/2}`, but that orbit is not an admissible distinct
+active edge.  Apart from the already-excluded `z^2+z+1=0` orbit, there is no
+additional structural ramification in the generic ratio domain.
 
 Thus the remaining `H3-VALUE-GEN-INJECTIVE` obstruction is not a hidden
 singularity of `J`; it is the arithmetic question of whether two distinct

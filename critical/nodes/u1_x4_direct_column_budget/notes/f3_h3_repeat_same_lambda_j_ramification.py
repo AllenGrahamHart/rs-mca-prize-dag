@@ -35,6 +35,15 @@ def s3_orbit_of_one() -> tuple[sp.Rational, sp.Rational, sp.Rational]:
     return tuple(sorted({sp.Rational(transform.subs(Z, 1)) for transform in transforms}))
 
 
+def distinctness_product() -> sp.Expr:
+    coordinates = (sp.Integer(1), Z, -(1 + Z))
+    return sp.factor(
+        (coordinates[0] - coordinates[1])
+        * (coordinates[0] - coordinates[2])
+        * (coordinates[1] - coordinates[2])
+    )
+
+
 def finite_ramification_guardrails() -> dict[str, int]:
     primes = (5, 7, 11, 13, 17, 19, 97)
     checked = 0
@@ -72,6 +81,11 @@ def j_ramification_summary() -> dict[str, int]:
     if orbit != (sp.Rational(-2), sp.Rational(-1, 2), sp.Rational(1)):
         raise AssertionError(orbit)
 
+    distinctness = distinctness_product()
+    expected_distinctness = sp.factor(-(Z - 1) * (Z + 2) * (2 * Z + 1))
+    if sp.expand(distinctness - expected_distinctness) != 0:
+        raise AssertionError((distinctness, expected_distinctness))
+
     values = exceptional_orbit_values()
     if values != (sp.Rational(27, 4), sp.Rational(27, 4), sp.Rational(27, 4)):
         raise AssertionError(values)
@@ -85,6 +99,8 @@ def j_ramification_summary() -> dict[str, int]:
         "derivative_numerator_degree": sp.degree(numerator, Z),
         "derivative_denominator_degree": sp.degree(denominator, Z),
         "admissible_critical_points": len(orbit),
+        "distinctness_excluded_critical_points": len(orbit),
+        "active_critical_points": 0,
         "critical_value_num": critical_value.numerator,
         "critical_value_den": critical_value.denominator,
         "finite_checked_generic_ratios": finite["checked_generic_ratios"],
@@ -99,12 +115,15 @@ def main() -> None:
     print(f"J'(z) numerator = {numerator}")
     print(f"J'(z) denominator = {denominator}")
     print("generic-domain derivative zeros are the S3 orbit {-2,-1/2,1}")
+    print("that orbit is exactly the duplicate-coordinate locus for {r,zr,-(1+z)r}")
     print("excluded derivative zeros are roots of z^2+z+1, already outside the generic ratio domain")
     print(
         "summary: "
         f"num_degree={summary['derivative_numerator_degree']} "
         f"den_degree={summary['derivative_denominator_degree']} "
         f"admissible_critical_points={summary['admissible_critical_points']} "
+        f"distinctness_excluded={summary['distinctness_excluded_critical_points']} "
+        f"active_critical_points={summary['active_critical_points']} "
         f"critical_value={summary['critical_value_num']}/{summary['critical_value_den']} "
         f"finite_checked={summary['finite_checked_generic_ratios']} "
         f"finite_critical_hits={summary['finite_critical_hits']}"

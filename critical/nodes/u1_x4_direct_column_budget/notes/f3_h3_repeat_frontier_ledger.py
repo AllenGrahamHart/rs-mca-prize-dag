@@ -149,6 +149,7 @@ def same_lambda_j_summary() -> dict[str, int]:
         "r_total": product_degrees[2],
         "j_difference_total": j_degrees[2],
         "j_critical_points": ramification["admissible_critical_points"],
+        "j_active_critical_points": ramification["active_critical_points"],
         "j_critical_value_num": ramification["critical_value_num"],
         "j_critical_value_den": ramification["critical_value_den"],
     }
@@ -192,6 +193,7 @@ def main() -> None:
         "r_total": 7,
         "j_difference_total": 10,
         "j_critical_points": 3,
+        "j_active_critical_points": 0,
         "j_critical_value_num": 27,
         "j_critical_value_den": 4,
     }:
@@ -202,6 +204,7 @@ def main() -> None:
         f"{same_lambda_j['r_total']}) "
         f"J_difference_total={same_lambda_j['j_difference_total']} "
         f"critical_points={same_lambda_j['j_critical_points']} "
+        f"active_critical_points={same_lambda_j['j_active_critical_points']} "
         f"critical_value={same_lambda_j['j_critical_value_num']}/"
         f"{same_lambda_j['j_critical_value_den']}"
     )

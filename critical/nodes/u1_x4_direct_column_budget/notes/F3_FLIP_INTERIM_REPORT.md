@@ -756,7 +756,9 @@ Thus `H3-VALUE-GEN-INJECTIVE` is a value-uniqueness target for the complete
 ramification compiler further verifies
 `J'(z) numerator=(z-1)(z+2)(2z+1)(z^2+z+1)^2`; after the generic-domain
 exclusions, the only admissible critical orbit is `{1,-2,-1/2}` with value
-`27/4`.  This does not close the gate; it sharpens the object a proof must
+`27/4`.  That orbit is exactly the duplicate-coordinate locus for
+`{r,zr,-(1+z)r}`, so active-edge distinctness leaves no active critical
+points.  This does not close the gate; it sharpens the object a proof must
 control and rules out hidden quotient ramification as the source of the
 remaining obstruction.
 
