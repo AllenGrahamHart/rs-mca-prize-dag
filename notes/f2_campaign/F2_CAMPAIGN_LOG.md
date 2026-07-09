@@ -1595,3 +1595,22 @@ territory), OR per-condition budget rebalancing across the ladder
 (the tolerance is an AVERAGE — conditions with small deviation
 subsidize; the deviation-distribution across t is measurable). The
 summit now has a NUMBER on it. Eighty-six entries.
+
+## 87 — 2026-07-10: the rebalancing probe — both closers DEAD; the
+## signed-structure verdict re-confirmed by measurement
+
+Deviation-distribution probe at tower-base shapes (f ~ p^{0.77};
+(7681,512) and (12289,1024), all shifts, exact): max|S(t)| = 45-105
+nats, median 21-39 — 20-35x BELOW the ETK worst case (the bound's
+pessimism is real) but ABOVE the ~10-nat per-condition budget
+POINTWISE, with growth ~f^{1.2} across the doubling. VERDICT: the
+budget-rebalancing closer is dead (median > budget); the
+Konyagin-discrepancy closer is moot (the truth already beats ETK and
+still exceeds budget). The absolute per-condition route to the
+summit is closed at every constant quality — re-confirming no-go
+#8's structural verdict FROM LIVE DATA: the census stays flat (the
+falsifier never fires) because deviations CANCEL ACROSS CONDITIONS
+in the signed assembly, not because they are individually small.
+The summit's coordinates stand: SIGNED STRUCTURE, named as
+growing-order Myerson, gap-measured, wired as one DAG input.
+Eighty-seven entries; the map absorbs its last probe.
