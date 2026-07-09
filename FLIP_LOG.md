@@ -7855,3 +7855,62 @@ H3_REPEAT_FRONTIER_LEDGER_PASS
 H3_FRONTIER_LEDGER_PASS
 F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 ```
+
+## 2026-07-09 h=3 loose branch geometry
+
+Stage selected: sharpen the `LOOSE-A-RANK/NV` and `LOOSE-B-RANK/NV`
+interfaces without launching a finite search.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_BRANCH_GEOMETRY.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_geometry.py
+```
+
+Exact branch relation:
+
+```text
+b_A(a) = a(a+1)/(a^2+a+1)
+b_B(a) = -(2a^2+2a+1)/(a^2+a+1) = -1-b_A(a)
+```
+
+For both branches, `db/da` has denominator `(a^2+a+1)^2` and finite critical
+factor `2a+1` up to sign.  The compiler verifies that this factor occurs in
+the six-reciprocal-multiplier distinctness product, so after clean loose
+distinctness there are `0` active finite branch-map ramification points.
+
+The two clean eight-slope targets share exactly six unique slope maps:
+
+```text
+branch_A.C_1  = branch_B.C_1
+branch_A.C_a  = branch_B.C_a
+branch_A.C_b  = branch_B.C_1b
+branch_A.C_1a = branch_B.C_1a
+branch_A.C_1b = branch_B.C_b
+branch_A.L_b  = branch_B.L_b
+```
+
+The private maps on both branches are `C_ab` and `L_ab`.  Conclusion:
+branch-A and branch-B rank/NV proofs can share any argument that only uses the
+six common maps, but a full eight-map proof still has to handle the private
+maps separately.  This explains the branch-B degree premium without closing
+either loose rank gate.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_geometry.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+```
+
+Expected digests:
+
+```text
+H3_REPEAT_LOOSE_BRANCH_GEOMETRY_PASS
+H3_REPEAT_FRONTIER_LEDGER_PASS
+H3_FRONTIER_LEDGER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
+```

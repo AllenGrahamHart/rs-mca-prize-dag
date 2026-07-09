@@ -30,6 +30,7 @@ from f3_h3_repeat_same_lambda_j_invariant import (
 )
 from f3_h3_repeat_same_lambda_j_ramification import j_ramification_summary
 from f3_h3_repeat_same_lambda_product_parameter import product_parameter_summary
+from f3_h3_repeat_loose_branch_geometry import branch_geometry_summary
 
 
 @dataclass(frozen=True)
@@ -235,6 +236,25 @@ def main() -> None:
         f"mixed_product_total={slope_factors['mixed_product_total']} "
         f"mixed_reverse_rows={slope_factors['mixed_reverse_rows']} "
         f"mixed_reverse_product_total={slope_factors['mixed_reverse_product_total']}"
+    )
+
+    loose_geometry = branch_geometry_summary()
+    if loose_geometry != {
+        "shared_slope_maps": 6,
+        "branch_a_private_slope_maps": 2,
+        "branch_b_private_slope_maps": 2,
+        "active_finite_ramification_points": 0,
+        "finite_checks": 186,
+    }:
+        raise AssertionError(loose_geometry)
+    print(
+        "loose_branch_geometry: "
+        f"shared_slope_maps={loose_geometry['shared_slope_maps']} "
+        f"branch_A_private={loose_geometry['branch_a_private_slope_maps']} "
+        f"branch_B_private={loose_geometry['branch_b_private_slope_maps']} "
+        f"active_finite_ramification_points="
+        f"{loose_geometry['active_finite_ramification_points']} "
+        f"finite_checks={loose_geometry['finite_checks']}"
     )
 
     minor_rows = rank_minor_rows()

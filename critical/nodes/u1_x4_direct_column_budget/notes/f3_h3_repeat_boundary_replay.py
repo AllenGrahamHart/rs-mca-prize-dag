@@ -343,6 +343,11 @@ COMMANDS = [
         "H3_REPEAT_LOOSE_BRANCH_SLOPE_MAPS_PASS",
     ),
     (
+        "h3 repeat loose branch geometry",
+        "f3_h3_repeat_loose_branch_geometry.py",
+        "H3_REPEAT_LOOSE_BRANCH_GEOMETRY_PASS",
+    ),
+    (
         "h3 repeat loose secondary subcells",
         "f3_h3_repeat_loose_secondary_subcells.py",
         "H3_REPEAT_LOOSE_SECONDARY_SUBCELLS_PASS",

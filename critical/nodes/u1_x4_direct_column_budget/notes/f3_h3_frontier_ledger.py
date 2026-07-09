@@ -34,6 +34,7 @@ from f3_h3_repeat_frontier_ledger import (
     slope_factorization_summary,
     strict_frontier_gates,
 )
+from f3_h3_repeat_loose_branch_geometry import branch_geometry_summary
 
 
 @dataclass(frozen=True)
@@ -160,6 +161,20 @@ def repeat_slope_summary() -> dict[str, int]:
     return summary
 
 
+def repeat_loose_geometry_summary() -> dict[str, int]:
+    summary = branch_geometry_summary()
+    expected = {
+        "shared_slope_maps": 6,
+        "branch_a_private_slope_maps": 2,
+        "branch_b_private_slope_maps": 2,
+        "active_finite_ramification_points": 0,
+        "finite_checks": 186,
+    }
+    if summary != expected:
+        raise AssertionError(summary)
+    return summary
+
+
 def repeat_value_summary() -> dict[str, int]:
     summary = same_lambda_j_summary()
     expected = {
@@ -189,6 +204,7 @@ def frontier_gates(
     repeat_count: dict[str, int],
     repeat_value: dict[str, int],
     repeat_slope: dict[str, int],
+    repeat_loose: dict[str, int],
 ) -> tuple[H3FrontierGate, ...]:
     return (
         H3FrontierGate(
@@ -244,7 +260,9 @@ def frontier_gates(
                 f"product active critical points={repeat_value['product_active_critical_points']}; "
                 f"slope factorization totals are generic={repeat_slope['generic_product_total']} "
                 f"and mixed={repeat_slope['mixed_product_total']} "
-                f"(reverse={repeat_slope['mixed_reverse_product_total']})"
+                f"(reverse={repeat_slope['mixed_reverse_product_total']}); "
+                f"loose branches share {repeat_loose['shared_slope_maps']} slope maps "
+                f"with active finite ramification={repeat_loose['active_finite_ramification_points']}"
             ),
             "prove or replace the strict same-lambda, slope, and loose-triangle branch gates needed by the star route",
         ),
@@ -261,6 +279,7 @@ def main() -> None:
     repeat_count = repeat_count_route_summary()
     repeat_value = repeat_value_summary()
     repeat_slope = repeat_slope_summary()
+    repeat_loose = repeat_loose_geometry_summary()
     gates = frontier_gates(
         activation,
         budgets,
@@ -271,6 +290,7 @@ def main() -> None:
         repeat_count,
         repeat_value,
         repeat_slope,
+        repeat_loose,
     )
 
     print("F3 h=3 frontier ledger")
@@ -314,6 +334,14 @@ def main() -> None:
         f"open_gates={repeat_count['open_gates']} "
         f"scale_pairs_first_official<={repeat_count['scale_pairs_first_official']} "
         f"h2_scale_cap_first_better=2^{repeat_count['scale_h2_first_better_s']}"
+    )
+    print(
+        "repeat-boundary loose branch geometry: "
+        f"shared_slope_maps={repeat_loose['shared_slope_maps']} "
+        f"branch_A_private={repeat_loose['branch_a_private_slope_maps']} "
+        f"branch_B_private={repeat_loose['branch_b_private_slope_maps']} "
+        f"active_finite_ramification_points="
+        f"{repeat_loose['active_finite_ramification_points']}"
     )
     print("frontier gates:")
     for gate in gates:

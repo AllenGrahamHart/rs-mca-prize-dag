@@ -76,6 +76,7 @@ The harness runs:
 - the loose collision-branch parametrization compiler;
 - the loose case-split interface;
 - the loose branch slope-map compiler;
+- the loose branch-geometry compiler;
 - the loose secondary-subcell compiler;
 - the loose secondary payment compiler;
 - the loose branch degree compiler;

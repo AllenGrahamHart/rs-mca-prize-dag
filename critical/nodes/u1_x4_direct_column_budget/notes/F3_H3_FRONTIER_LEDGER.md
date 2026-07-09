@@ -55,6 +55,10 @@ H3-REPEAT-BOUNDARY-STAR: OPEN FRONTIER
   The slope equality-factorization compiler verifies that the generic and
   mixed slope gates are exactly coordinate-intersection targets after
   denominator clearing, with product totals 41 and 27 respectively.
+  The loose branch-geometry compiler verifies that branch B is the
+  fixed-parameter complement of branch A, `b_B(a)=-1-b_A(a)`, that finite
+  branch-map ramification is killed by reciprocal-multiplier distinctness, and
+  that the clean branches share six of their eight unique slope maps.
   Residual: prove or replace the strict same-lambda, slope, and loose-triangle
   branch gates needed by the star route.
 ```

@@ -95,6 +95,22 @@ This does not close either slope gate.  It makes explicit that the mixed count
 route still needs a mechanism forcing generic/scale coordinate overlap, or a
 separate residue payment for all mixed misses.
 
+The loose branch-geometry compiler verifies that the two special loose
+branches satisfy
+
+```text
+b_B(a) = -1 - b_A(a),
+```
+
+with the same denominator `a^2+a+1`.  Their only finite branch-map
+ramification factor is `2a+1`, and that factor already lies in the reciprocal
+multiplier distinctness product, so there are `0` active finite ramification
+points on the clean loose branch domains.  The clean branch targets share six
+of their eight unique slope maps; the private maps on each branch are `C_ab`
+and `L_ab`.  Thus a future loose-branch proof can transfer any argument using
+only the six shared maps, but the full `LOOSE-A-RANK/NV` and `LOOSE-B-RANK/NV`
+gates still require handling the two private maps.
+
 ## Count Route Frontier
 
 The scale same-lambda branch has a separate count payment:
