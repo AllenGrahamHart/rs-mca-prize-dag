@@ -1449,3 +1449,23 @@ problem (the level-set theory of Gauss periods), with: a proved base,
 a proved symmetric sector at every level, fifteen satellites of
 machinery, nine no-gos, and the entire campaign record beneath it.
 Seventy-seven entries.
+
+## 78 — 2026-07-10: the summit sits in ACTIVE classical mathematics —
+## the Gauss-period equidistribution literature located
+
+The hunt confirms: the summit's named object has a living literature.
+Duke-Garcia-Lutz: Galois-orbit equidistribution of Gaussian periods
+(their Thm 6.3 class — the statement shape the moving directions
+consume); MYERSON'S CONJECTURE (norms of Gaussian periods): OPEN in
+general with partial resolutions (odd-length cases, q = p cases) —
+fully consistent with our summit's resistance: it is equivalent-
+adjacent to a recognized open problem. Also located: subgroup-indexed
+exponential-sum equidistribution (Cambridge Proc.) and Gauss-sum
+independence results. THE DECISIVE NEXT READ: the regime-check —
+which (n_j, p^{2^j}) parameter ranges the known equidistribution
+theorems cover vs the tower's rungs. If any rung's regime is covered:
+that rung falls to citation + composition; if none: the summit is
+confirmed equivalent to open classical territory and the campaign's
+terminal deliverable is the sharpest known reduction OF a recognized
+open problem TO the prize floor. Either way the campaign's record is
+the definitive map. Seventy-eight entries.
