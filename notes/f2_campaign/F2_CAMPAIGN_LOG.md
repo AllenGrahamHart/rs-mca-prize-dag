@@ -117,3 +117,18 @@ deviation resource at 0 only). Each gets a pre-registered calibration
 experiment before proof work. Session totals: 5 log entries, 2 proved
 rungs (L2a, L2b'), 2 instruments (L1, L2b strata), 1 no-go, extreme
 bands paid at official rows.
+
+## 6 — 2026-07-09 (end of day): M1 calibration PASS — M1 VIABLE
+
+F2_L3_M1_CALIBRATION_PASS (10 cells, exact full-census DP): M2/flat =
+0.91-1.17 everywhere (L2-flat); sub-balance maxima Poisson-consistent;
+N(0) exactly structured at every cell (coset-union 8s; the 160/64
+banked accident families reproduced at above-balance contrast). Per
+the pre-registered read: M1 VIABLE — the mid-band splits into (i) the
+generic-fiber L2/SP flatness statement and (ii) the exact structured
+mass at s=0 (coset-union census + the proved giant-block closure).
+DAY TOTALS: 6 green verifiers, 2 proved lemmas banked as satellites
+(f2_chord_orbit_lemma, f2_weil_newton_arc_bound), extreme bands PAID
+at official rows, 1 no-go guardrail, 2 catches honestly corrected.
+NEXT SESSION: M1 proper — pose the generic-fiber flatness lemma
+(SP/trade census route) with its falsifier; then L4 constants.
