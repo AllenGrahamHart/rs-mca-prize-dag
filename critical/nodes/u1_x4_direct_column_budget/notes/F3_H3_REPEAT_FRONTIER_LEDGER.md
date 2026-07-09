@@ -41,8 +41,17 @@ The scale same-lambda branch has a separate count payment:
 
 ```text
 H3-VALUE-SCALE-INJECTIVE
-  replaced by scale collision pairs <= binom(floor((n-1)/3),2).
+  replaced by a scale collision-pair count.
 ```
+
+The count is now the minimum of two proved bounds:
+
+```text
+K_1 <= floor((n-1)/3)                         (trivial orbit count)
+K_1 <= floor(ceil(66 n^(2/3))/3)              (h=2 affine-coset cap)
+```
+
+The h=2 cap first improves the trivial bound at `n=2^19`.
 
 Therefore the count route has six still-open strict gates:
 
@@ -81,10 +90,12 @@ At the first official row `n=2^13`, the paid ledgers are:
 ```text
 scale orbits <= 2730,
 scale collision pairs <= 3725085,
+scale h=2 cap first improves at n=2^19,
 loose secondary points <= 434176.
 ```
 
 Both paid point/pair ledgers are below `n^2` throughout the official range.
+The scale payment is asymptotically `O(n^(4/3))` after the h=2 cap takes over.
 
 ## Role in h=3
 

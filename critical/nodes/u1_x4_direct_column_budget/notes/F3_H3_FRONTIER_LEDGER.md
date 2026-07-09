@@ -46,7 +46,9 @@ H3-REPEAT-BOUNDARY-STAR: OPEN FRONTIER
   H3-VALUE-GEN-INJECTIVE, H3-VALUE-SCALE-INJECTIVE, H3-SLOPE-GG-HIT,
   H3-SLOPE-MIXED-HIT, LOOSE-GEN-RANK/NV, LOOSE-A-RANK/NV, and LOOSE-B-RANK/NV.
   On the count route, H3-VALUE-SCALE-INJECTIVE is replaced by the paid
-  quadratic scale-collision ledger, leaving six still-open strict gates.
+  scale-collision ledger, leaving six still-open strict gates.  The scale
+  ledger now uses the minimum of the trivial orbit bound and the h=2
+  affine-coset cap; the h=2 cap first improves the bound at `n=2^19`.
   Residual: prove or replace the strict same-lambda, slope, and loose-triangle
   branch gates needed by the star route.
 ```

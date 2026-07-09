@@ -13,6 +13,11 @@ from f3_h3_repeat_loose_stepanov_compiler import sample_targets
 from f3_h3_repeat_same_lambda_degree_compiler import generic_budget, scale_branch_budget
 from f3_h3_repeat_same_lambda_orbit_domain import generic_off_orbit_product, poly_degrees
 from f3_h3_repeat_same_lambda_scale_count import scale_collision_pair_bound, scale_orbit_bound
+from f3_h3_repeat_lambda_one_scale_h2_cap import (
+    combined_scale_orbit_bound,
+    combined_scale_pair_bound,
+    scale_h2_cap_summary,
+)
 from f3_h3_repeat_slope_branch_assembly import BRANCHES as SLOPE_BRANCHES
 
 
@@ -99,9 +104,13 @@ def rank_minor_rows() -> dict[str, tuple[int, int, int]]:
 
 
 def paid_ledgers(n: int) -> dict[str, int]:
+    scale_refined = scale_h2_cap_summary()
     return {
-        "scale_orbits": scale_orbit_bound(n),
-        "scale_collision_pairs": scale_collision_pair_bound(n),
+        "scale_orbits": combined_scale_orbit_bound(n),
+        "scale_collision_pairs": combined_scale_pair_bound(n),
+        "scale_trivial_orbits": scale_orbit_bound(n),
+        "scale_trivial_collision_pairs": scale_collision_pair_bound(n),
+        "scale_h2_first_better_s": scale_refined["first_h2_better_s"],
         "loose_secondary_points": sum(row.point_bound(n) for row in secondary_payments()),
     }
 
@@ -162,6 +171,7 @@ def main() -> None:
         "paid_ledgers_first_official: "
         f"scale_orbits<={ledgers['scale_orbits']} "
         f"scale_pairs<={ledgers['scale_collision_pairs']} "
+        f"scale_h2_first_better=2^{ledgers['scale_h2_first_better_s']} "
         f"loose_secondary<={ledgers['loose_secondary_points']}"
     )
     print("H3_REPEAT_FRONTIER_LEDGER_PASS")

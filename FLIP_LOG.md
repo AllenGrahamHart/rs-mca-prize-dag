@@ -7468,3 +7468,53 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
 Residual h=5 target: prove that no official-row support satisfies any one of
 these five chart-local systems, or replace the route with a scalable
 certificate family.
+
+## 2026-07-09 h=3 lambda-one scale h=2 cap
+
+Stage selected: sharpen the paid count route for the `lambda=1` scale branch
+in the h=3 repeat-boundary star frontier.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_ONE_SCALE_H2_CAP.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_one_scale_h2_cap.py
+```
+
+Key result:
+
+```text
+{1+x,1+omega*x,1+omega^2*x} subset H
+  => 1+x in H and 1+omega*x in H.
+
+With Y=1+x, the second condition is omega*Y+(1-omega) in H,
+so the h=2 affine-coset pair corollary gives at most 66 n^(2/3)
+x-values.
+```
+
+Thus the scale-orbit count route now uses
+
+```text
+K_1 <= min(floor((n-1)/3), floor(ceil(66 n^(2/3))/3)).
+```
+
+The h=2 cap first improves the trivial orbit bound at `n=2^19`; the
+first-official pair bound remains `3725085`.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_one_scale_h2_cap.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_branch_assembly.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_REPEAT_LAMBDA_ONE_SCALE_H2_CAP_PASS
+H3_REPEAT_SAME_LAMBDA_BRANCH_ASSEMBLY_PASS
+H3_REPEAT_FRONTIER_LEDGER_PASS
+H3_FRONTIER_LEDGER_PASS
+```

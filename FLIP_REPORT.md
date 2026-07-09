@@ -183,8 +183,11 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    of an admissible ratio orbit, with `lambda=1` handled by the primitive-cube
    scale branch.  That special branch is exactly the scale condition
    `{1+x,1+omega x,1+omega^2 x} subset H`, modulo `x -> omega x`; it has
-   `K_1 <= floor((n-1)/3)` admissible scale orbits and fewer than `n^2`
-   scale collision pairs on every official row.  The strict value gate splits
+   the combined count bound
+   `K_1 <= min(floor((n-1)/3), floor(ceil(66 n^(2/3))/3))`; the h=2
+   affine-coset cap first improves the trivial orbit count at `n=2^19`.  The
+   resulting scale collision-pair payment is below `n^2` on every official
+   row.  The strict value gate splits
    into `H3-VALUE-GEN-INJECTIVE` and `H3-VALUE-SCALE-INJECTIVE`; count routes
    can instead keep the generic strict gate and pay the scale branch
    quadratically.  Thus
@@ -259,8 +262,8 @@ F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS
    The same-lambda orbit-domain and degree compilers now give the
    `H3-VALUE-INJECTIVE` collision budgets: generic `S_total=14` plus
    off-orbit product total degree `10`, and lambda-one scale `S_total=6` plus
-   scale exclusion `x^3-y^3 != 0`; the scale branch also has the direct
-   collision-pair bound `binom(floor((n-1)/3),2)`.
+   scale exclusion `x^3-y^3 != 0`; the scale branch also has the combined
+   trivial/h=2 affine count-payment route.
    The slope-miss degree compiler now gives the generic `H3-SLOPE-RATIO-HIT`
    miss budget: six membership maps with `S_total=14`, and cleared hit
    numerator factors of total degrees `15,13,13`.  The mixed generic/scale

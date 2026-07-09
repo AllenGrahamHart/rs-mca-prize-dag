@@ -139,6 +139,7 @@ def repeat_count_route_summary() -> dict[str, int]:
     return {
         "open_gates": len(count_route),
         "scale_pairs_first_official": ledgers["scale_collision_pairs"],
+        "scale_h2_first_better_s": ledgers["scale_h2_first_better_s"],
     }
 
 
@@ -196,7 +197,8 @@ def frontier_gates(
             "OPEN FRONTIER",
             (
                 f"{len(repeat)} strict branch gates replayed; count route leaves "
-                f"{repeat_count['open_gates']} gates after paying scale pairs"
+                f"{repeat_count['open_gates']} gates after paying scale pairs; "
+                f"h2 scale cap improves from 2^{repeat_count['scale_h2_first_better_s']}"
             ),
             "prove or replace the strict same-lambda, slope, and loose-triangle branch gates needed by the star route",
         ),
@@ -252,7 +254,8 @@ def main() -> None:
     print(
         "repeat-boundary count route: "
         f"open_gates={repeat_count['open_gates']} "
-        f"scale_pairs_first_official<={repeat_count['scale_pairs_first_official']}"
+        f"scale_pairs_first_official<={repeat_count['scale_pairs_first_official']} "
+        f"h2_scale_cap_first_better=2^{repeat_count['scale_h2_first_better_s']}"
     )
     print("frontier gates:")
     for gate in gates:

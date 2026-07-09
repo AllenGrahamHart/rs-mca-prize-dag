@@ -704,12 +704,15 @@ edge is exactly
 
 modulo the scale orbit `x -> omega x`.  If the field has no primitive cube
 root, the branch is empty.
-The scale-count compiler gives the direct bound
-`K_1 <= floor((n-1)/3)` on the number of admissible scale orbits, hence
-`binom(floor((n-1)/3),2) < n^2` scale collision pairs on every official row.
+The scale-count compilers give the combined bound
+`K_1 <= min(floor((n-1)/3), floor(ceil(66 n^(2/3))/3))` on the number of
+admissible scale orbits.  The second term comes from applying the h=2
+affine-coset pair corollary to the two conditions `1+x,1+omega x in H`, and
+first improves the trivial count at `n=2^19`.
 The same-lambda branch assembly now separates the strict route
 `H3-VALUE-GEN-INJECTIVE + H3-VALUE-SCALE-INJECTIVE => H3-VALUE-INJECTIVE`
-from the count route where only the scale branch is paid quadratically.
+from the count route where only the scale branch is paid by this combined
+scale-collision ledger.
 
 The same-lambda collision-system compiler combines these pieces.  A
 fixed-`lambda` failure is precisely either two distinct admissible generic

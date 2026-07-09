@@ -44,6 +44,15 @@ Instead, it shows that the exceptional scale branch is already quadratically
 bounded and can be separated in count/payment routes.  The generic
 `lambda != 1` same-lambda branch remains the main injectivity target.
 
+The companion `F3_H3_REPEAT_LAMBDA_ONE_SCALE_H2_CAP.md` improves the count
+route on larger official rows by applying the h=2 affine-coset pair corollary:
+
+```text
+K_1 <= floor(ceil(66 n^(2/3))/3).
+```
+
+This first beats the trivial orbit count at `n=2^19`.
+
 ## Replay
 
 Standalone:

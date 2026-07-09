@@ -5,7 +5,10 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from f3_h3_repeat_same_lambda_scale_count import scale_collision_pair_bound
+from f3_h3_repeat_lambda_one_scale_h2_cap import (
+    combined_scale_pair_bound,
+    scale_h2_cap_summary,
+)
 
 
 @dataclass(frozen=True)
@@ -52,14 +55,16 @@ def main() -> None:
         raise AssertionError(closed)
     print("H3-VALUE-GEN-INJECTIVE + H3-VALUE-SCALE-INJECTIVE => H3-VALUE-INJECTIVE")
     first_official = 2**13
-    scale_bound = scale_collision_pair_bound(first_official)
+    scale_bound = combined_scale_pair_bound(first_official)
     if scale_bound >= first_official * first_official:
         raise AssertionError((first_official, scale_bound))
+    scale_refined = scale_h2_cap_summary()
     print(
-        "count route: H3-VALUE-GEN-INJECTIVE plus scale-count leaves at most "
-        "binom(floor((n-1)/3),2) scale collision pairs"
+        "count route: H3-VALUE-GEN-INJECTIVE plus scale-count leaves the "
+        "combined trivial/h2 affine scale collision payment"
     )
     print(f"first_official_scale_pair_bound={scale_bound}")
+    print(f"h2_scale_cap_first_better=2^{scale_refined['first_h2_better_s']}")
     print("H3_REPEAT_SAME_LAMBDA_BRANCH_ASSEMBLY_PASS")
 
 

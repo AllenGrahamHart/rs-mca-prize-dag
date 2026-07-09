@@ -39,22 +39,24 @@ H3-VALUE-GEN-INJECTIVE + H3-VALUE-SCALE-INJECTIVE
 
 ## Count Route
 
-The scale-count compiler gives
+The scale-count compilers give
 
 ```text
 K_1 <= floor((n-1)/3)
+K_1 <= floor(ceil(66 n^(2/3))/3)
 ```
 
-for the number of admissible `lambda=1` scale orbits.  Therefore, if the
-generic branch is strictly injective but the scale branch is handled by
-counting, at most
+for the number of admissible `lambda=1` scale orbits; the second bound follows
+from the h=2 affine-coset pair corollary and first improves the trivial bound
+at `n=2^19`.  Therefore, if the generic branch is strictly injective but the
+scale branch is handled by counting, at most
 
 ```text
-binom(floor((n-1)/3), 2)
+binom(min(floor((n-1)/3), floor(ceil(66 n^(2/3))/3)), 2)
 ```
 
 same-lambda scale collision pairs remain.  This is below `n^2` on every
-official row.
+official row, and asymptotically `O(n^(4/3))`.
 
 This count route is not the same as proving `H3-VALUE-INJECTIVE`; it is a
 separate payment option for arguments that can tolerate a quadratic exceptional
