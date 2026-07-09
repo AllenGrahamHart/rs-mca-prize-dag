@@ -698,3 +698,24 @@ sqrt-n bound is DOWNGRADED to conjecture-with-calibrated-recursion.
 Next: the per-round invariant (what property of the trinomial triple
 is preserved under one reduction round) — the recursion's induction
 hypothesis, to be formalized and machine-checked level by level.
+
+## 39 — 2026-07-10: the TOWER BOUND — the trinomial mechanism complete
+## at measurement level; all proof ingredients banked
+
+Cycle arc: Dirichlet-span alone fails (unit-fixed exponents like n/2);
+the coset bound covers 2-adically heavy exponents (Z <= n/2^{v2},
+e.g. Z <= 2 at (1, n/2)); both-odd resistant pairs (1, n/2 - 1)
+resolve by LAURENT span at quotient levels (x^{n/2-1} = +-x^{-1});
+the unified TOWER BOUND Z <= min_j 2^j (2 span_j + 2) measures
+WORST CASE 2.1-3.2 x sqrt(n) at six exhaustive scales (worst pairs =
+middle-dyadic (1, 2^j)). CONVERGENCE: the per-level coset-constant
+bookkeeping IS the proved sign-family/ledger law (cycles 22-23) — the
+campaign's instruments assembled themselves into the proof's parts.
+TARGET THEOREM (write-up scoped, all ingredients banked): non-
+collapsed trinomials have Z <= ~4 sqrt(n) on mu_{2^s} via tower-split
++ Dirichlet-with-parity-fix + per-coset degree bound. Application
+check: 4 sqrt(n) = 2^22 << t = 2^36 at official rows (14 bits room).
+FLAGGED for the s-generalization: Dirichlet span degrades as
+n^{1-1/(s-1)} — at edge sparsity s ~ 33 that is ~2^38.75 > t: the
+s-sparse tower needs its own scaling check BEFORE the edge
+application relies on it (next cycle's falsification-first item).
