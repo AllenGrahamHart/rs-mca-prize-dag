@@ -798,3 +798,17 @@ shape to count — the residual-factor census (r = ell*/binomial-part,
 deg r < 2^25, with the divided gap conditions); then the crux
 assembly consumes shape + count. The campaign's chain is now: edge
 count conversion -> crux assembly -> L5.
+
+## 45 — 2026-07-10: CATCH #11 — log #44's constants corrected
+
+Self-caught within the cycle: the instantiation arithmetic (with the
+16x safety factor) gives residual ~2^27.6 at k = 1, NOT < 2^25; the
+structured fraction is >= 99.71%, not "within 10^-3". The assertion
+in the check script fired on exactly this (my threshold b/1000 was
+stricter than the truth) — but the log entry had been appended before
+the script's failure was read: entry #44's numbers are superseded by
+these. THE SHAPE LEMMA STANDS with corrected constants: edge blocks
+are coset-unions + residual < 2^28 against b >= 2^36 (structured
+fraction >= 99.7%). Process note: log entries must be written AFTER
+their check passes, never alongside — encoded here as campaign
+procedure. Eleventh catch; seventh self-caught same-cycle.
