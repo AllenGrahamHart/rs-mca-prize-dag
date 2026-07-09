@@ -7543,7 +7543,9 @@ numerator(J(z)-J(y)) = - generic_off_orbit_product(z,y)
 
 Thus the degree-10 generic off-orbit product is the complete `S_3` quotient
 invariant for ratio orbits.  `H3-VALUE-GEN-INJECTIVE` remains open, but is now
-a value-uniqueness target for `J`, not a raw six-factor exclusion.
+a value-uniqueness target for `J`, not a raw six-factor exclusion.  The
+J-ramification compiler further shows that, on the generic domain, the only
+admissible critical orbit is `{1,-2,-1/2}` with critical value `27/4`.
 
 Slope refinement:
 
@@ -7780,4 +7782,56 @@ Expected digests:
 H3_REPEAT_SLOPE_EQUALITY_FACTORIZATION_PASS
 H3_REPEAT_FRONTIER_LEDGER_PASS
 H3_FRONTIER_LEDGER_PASS
+```
+
+## 2026-07-09 h=3 same-lambda J ramification
+
+Stage selected: isolate structural ramification of the same-lambda quotient
+invariant, without attempting a finite-field value-injectivity proof.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_J_RAMIFICATION.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_j_ramification.py
+```
+
+Exact derivative profile:
+
+```text
+J'(z) numerator   = (z-1)(z+2)(2z+1)(z^2+z+1)^2
+J'(z) denominator = z^3(z+1)^3
+```
+
+The generic same-lambda ratio domain already excludes
+`z=0`, `z=-1`, and `z^2+z+1=0`.  Therefore, away from characteristics `2`
+and `3`, the only admissible critical orbit is
+
+```text
+{1, -2, -1/2},
+```
+
+with common critical value `27/4`.
+
+Conclusion: `H3-VALUE-GEN-INJECTIVE` remains open, but the remaining obstacle
+is not hidden ramification of the quotient map `J`; it is the arithmetic
+question of whether two distinct admissible `S_3` ratio orbits can satisfy the
+same six membership conditions for fixed `lambda`.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_j_ramification.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+```
+
+Expected digests:
+
+```text
+H3_REPEAT_SAME_LAMBDA_J_RAMIFICATION_PASS
+H3_REPEAT_FRONTIER_LEDGER_PASS
+H3_FRONTIER_LEDGER_PASS
+F3_H3_REPEAT_BOUNDARY_REPLAY_PASS
 ```

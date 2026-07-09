@@ -28,6 +28,7 @@ from f3_h3_repeat_same_lambda_j_invariant import (
     verify_j_separates_orbits,
     verify_reciprocal_product_formula,
 )
+from f3_h3_repeat_same_lambda_j_ramification import j_ramification_summary
 
 
 @dataclass(frozen=True)
@@ -141,11 +142,15 @@ def slope_factorization_summary() -> dict[str, int]:
 def same_lambda_j_summary() -> dict[str, int]:
     product_degrees = verify_reciprocal_product_formula()
     j_degrees = verify_j_separates_orbits()
+    ramification = j_ramification_summary()
     return {
         "r_degree_a": product_degrees[0],
         "r_degree_z": product_degrees[1],
         "r_total": product_degrees[2],
         "j_difference_total": j_degrees[2],
+        "j_critical_points": ramification["admissible_critical_points"],
+        "j_critical_value_num": ramification["critical_value_num"],
+        "j_critical_value_den": ramification["critical_value_den"],
     }
 
 
@@ -186,13 +191,19 @@ def main() -> None:
         "r_degree_z": 6,
         "r_total": 7,
         "j_difference_total": 10,
+        "j_critical_points": 3,
+        "j_critical_value_num": 27,
+        "j_critical_value_den": 4,
     }:
         raise AssertionError(same_lambda_j)
     print(
         "same_lambda_j_invariant: "
         f"R_degrees=({same_lambda_j['r_degree_a']},{same_lambda_j['r_degree_z']},"
         f"{same_lambda_j['r_total']}) "
-        f"J_difference_total={same_lambda_j['j_difference_total']}"
+        f"J_difference_total={same_lambda_j['j_difference_total']} "
+        f"critical_points={same_lambda_j['j_critical_points']} "
+        f"critical_value={same_lambda_j['j_critical_value_num']}/"
+        f"{same_lambda_j['j_critical_value_den']}"
     )
 
     slope_factors = slope_factorization_summary()

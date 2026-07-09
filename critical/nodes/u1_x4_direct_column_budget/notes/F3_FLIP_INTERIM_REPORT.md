@@ -752,8 +752,13 @@ numerator(J(z)-J(y)) = - product_orbit(z,y).
 ```
 
 Thus `H3-VALUE-GEN-INJECTIVE` is a value-uniqueness target for the complete
-`S_3` quotient invariant `J`, not a raw six-factor bookkeeping artifact.  This
-does not close the gate; it sharpens the object a proof must control.
+`S_3` quotient invariant `J`, not a raw six-factor bookkeeping artifact.  The
+ramification compiler further verifies
+`J'(z) numerator=(z-1)(z+2)(2z+1)(z^2+z+1)^2`; after the generic-domain
+exclusions, the only admissible critical orbit is `{1,-2,-1/2}` with value
+`27/4`.  This does not close the gate; it sharpens the object a proof must
+control and rules out hidden quotient ramification as the source of the
+remaining obstruction.
 
 The slope-ratio compiler gives the lambda-distinct target the same
 coordinates.  In the generic branch,

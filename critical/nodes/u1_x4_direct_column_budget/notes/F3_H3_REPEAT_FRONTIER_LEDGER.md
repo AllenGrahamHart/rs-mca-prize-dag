@@ -47,6 +47,17 @@ For fixed `a=lambda-1`, the reciprocal product is `R(a,z)=-J(z)/a^3`.
 Thus `H3-VALUE-GEN-INJECTIVE` is a value-uniqueness target for this complete
 `S_3` quotient invariant, not a six-factor bookkeeping artifact.
 
+The J-ramification compiler also verifies
+
+```text
+J'(z) numerator = (z-1)(z+2)(2z+1)(z^2+z+1)^2.
+```
+
+On the generic ratio domain the `z^2+z+1=0` orbit is already excluded, so the
+only admissible critical orbit is `{1,-2,-1/2}` with critical value `27/4`.
+Thus the generic value gate is an arithmetic uniqueness problem, not an
+unresolved quotient-singularity issue.
+
 The slope equality-factorization compiler now verifies that the two slope
 targets are exactly coordinate-intersection targets after denominator
 clearing:

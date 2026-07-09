@@ -167,6 +167,9 @@ def repeat_value_summary() -> dict[str, int]:
         "r_degree_z": 6,
         "r_total": 7,
         "j_difference_total": 10,
+        "j_critical_points": 3,
+        "j_critical_value_num": 27,
+        "j_critical_value_den": 4,
     }
     if summary != expected:
         raise AssertionError(summary)
@@ -232,6 +235,8 @@ def frontier_gates(
                 f"{repeat_count['open_gates']} gates after paying scale pairs; "
                 f"h2 scale cap improves from 2^{repeat_count['scale_h2_first_better_s']}; "
                 f"same-lambda J quotient total={repeat_value['j_difference_total']}; "
+                f"J critical value={repeat_value['j_critical_value_num']}/"
+                f"{repeat_value['j_critical_value_den']}; "
                 f"slope factorization totals are generic={repeat_slope['generic_product_total']} "
                 f"and mixed={repeat_slope['mixed_product_total']} "
                 f"(reverse={repeat_slope['mixed_reverse_product_total']})"
