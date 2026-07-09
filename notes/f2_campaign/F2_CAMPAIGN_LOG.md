@@ -132,3 +132,23 @@ DAY TOTALS: 6 green verifiers, 2 proved lemmas banked as satellites
 at official rows, 1 no-go guardrail, 2 catches honestly corrected.
 NEXT SESSION: M1 proper — pose the generic-fiber flatness lemma
 (SP/trade census route) with its falsifier; then L4 constants.
+
+## 7 — 2026-07-09 (final): arc-class recursion PROVED; mid-band drops to t=1
+
+f2_arcclass_recursion (F2_L3_ARCCLASS_RECURSION_PASS, 6 cells, four
+identities exact): structured arc classes collapse by orthogonality
+to order-1 censuses; exact regrouping N2(0) = mean + p1-excess +
+p2-excess + generic mass (signed — observed negative where N2 = 0).
+CATCH #3 banked: the design note's "structured arcs exactly
+computable" was wrong at official scale; corrected in place. The
+mid-band obligation now recurses to t = 1 — the census
+#{S : sum(S) = 0} — the mildest possible kernel instance, plus the
+generic-class mass (chord-orbit + Weil-Newton at extremes, M1 at
+mid-band). p2's census = doubled t=1 on mu_{n/2} (exact double cover).
+
+NEXT SESSION: M1 at t = 1 — pose the flatness/0-pricing lemma for the
+linear census with its falsifier; the L1/L2 machinery transfers
+verbatim (arcs are 1-dimensional, orbits are mu_n-cosets in F_q^x,
+Lemma A gives sqrt(q)+1 there). Then L4 constants. Day-1 close:
+3 PROVED lemma satellites, 7 green digests, 3 catches, extreme bands
+paid, the heart reduced to its mildest instance.
