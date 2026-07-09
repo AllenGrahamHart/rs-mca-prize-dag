@@ -106,6 +106,11 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   support lies on an explicit graph over the high locator half, with
   first obstruction `E7` having denominator `32768`, `30` terms, and total
   degree `9`.
+  The h=8 reciprocal compatibility compiler combines this triangular graph
+  with the unit-root coefficient identities and eliminates the shared support
+  product `delta`, giving seven delta-free reciprocal compatibility equations.
+  These are linear in the reciprocal bar variables, with maximum total degree
+  `16`.
   Residual: certify 122,131,731,640,320 anchored non-antipodal 16-supports
   (7,633,233,227,520 aperiodic rotation orbits), or build a sharded signature
   join avoiding the blind left table.
@@ -154,6 +159,7 @@ h8 antipodal quotient
   + non-antipodal aperiodicity
   + x83 parity reduction
   + x83 triangular obstruction compiler
+  + h8 reciprocal compatibility compiler
   + residual frontier/support-universe audits
   => T4-H8-N64-NONANTIPODAL-X83 remains the only h=8 blocker
 ```

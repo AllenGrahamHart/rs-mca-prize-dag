@@ -83,6 +83,9 @@ from f3_h8_residual_frontier_audit import (
 from f3_h8_nonantipodal_aperiodic import count_summary as h8_aperiodic_summary
 from f3_h8_rotation_orbit_compiler import EXPECTED as H8_ROTATION_EXPECTED
 from f3_h8_support_universe_compiler import EXPECTED as H8_SUPPORT_EXPECTED
+from f3_h8_reciprocal_compatibility_compiler import (
+    reciprocal_compatibility_summary as h8_reciprocal_summary,
+)
 from f3_h8_x83_parity_reduction import parity_reduction_summary as h8_parity_summary
 from f3_h8_x83_triangular_obstruction import h8_triangular_summary
 
@@ -342,6 +345,7 @@ def h8_summary() -> dict[str, int]:
     aperiodic = h8_aperiodic_summary()
     parity = h8_parity_summary()
     triangular = h8_triangular_summary()
+    reciprocal = h8_reciprocal_summary()
     if (
         aperiodic["nonantipodal_rotation_orbits"]
         != actual_rotation["nonantipodal_rotation_orbits"]
@@ -367,6 +371,10 @@ def h8_summary() -> dict[str, int]:
         "triangular_first_key_denominator": triangular["first_key_denominator"],
         "triangular_first_key_terms": triangular["first_key_terms"],
         "triangular_first_key_total_degree": triangular["first_key_total_degree"],
+        "reciprocal_delta_free_rows": reciprocal["delta_free_rows"],
+        "reciprocal_max_terms": reciprocal["max_compatibility_terms"],
+        "reciprocal_max_total_degree": reciprocal["max_compatibility_total_degree"],
+        "reciprocal_central_terms": reciprocal["central_terms"],
         **actual_support,
         **actual_rotation,
     }
@@ -447,7 +455,9 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"denom_prime={h8['parity_max_denominator_prime']}; "
                 f"x83 triangular keys={h8['triangular_keys']} "
                 f"first_key_terms={h8['triangular_first_key_terms']} "
-                f"first_key_degree={h8['triangular_first_key_total_degree']}"
+                f"first_key_degree={h8['triangular_first_key_total_degree']}; "
+                f"reciprocal delta-free rows={h8['reciprocal_delta_free_rows']} "
+                f"max_degree={h8['reciprocal_max_total_degree']}"
             ),
             (
                 "certify "
@@ -569,6 +579,13 @@ def main() -> None:
         f"first_key_denominator={h8['triangular_first_key_denominator']} "
         f"first_key_terms={h8['triangular_first_key_terms']} "
         f"first_key_total_degree={h8['triangular_first_key_total_degree']}"
+    )
+    print(
+        "h=8 reciprocal compatibility: "
+        f"delta_free_rows={h8['reciprocal_delta_free_rows']} "
+        f"max_terms={h8['reciprocal_max_terms']} "
+        f"max_total_degree={h8['reciprocal_max_total_degree']} "
+        f"central_terms={h8['reciprocal_central_terms']}"
     )
     print("F3_T4_RESIDUAL_FRONTIER_LEDGER_PASS")
 

@@ -9085,3 +9085,59 @@ H8_X83_TRIANGULAR_OBSTRUCTION_PASS
 H8_X83_PARITY_REDUCTION_PASS
 H8_X83_ORBIT_CERTIFIER_SKELETON_PASS
 ```
+
+## 2026-07-09 h=8 reciprocal compatibility compiler
+
+Stage selected: add the reciprocal unit-root constraints to the h=8 triangular
+x83 obstruction surface.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_RECIPROCAL_COMPATIBILITY_COMPILER.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_reciprocal_compatibility_compiler.py
+```
+
+The h=8 triangular compiler gives
+
+```text
+D_j E_j = -D_j c_j + P_j(c8,...,c15),  j=1,...,7.
+```
+
+For supports in `mu_64`, the locator coefficients also satisfy
+
+```text
+c_j = delta * conjugate(c_{16-j}),   c8 = delta * bar_c8.
+```
+
+Using `E7` as the base reciprocal row, the new compiler eliminates `delta`
+and verifies six rows
+
+```text
+Cj7 = D_7 bar_c9 P_j - D_j bar_c(16-j) P_7 = 0,
+```
+
+plus the central row
+
+```text
+C87 = D_7 bar_c9 c8 - P_7 bar_c8 = 0.
+```
+
+The seven delta-free rows are linear in reciprocal bar variables; their maximum
+total degree is `16`, with maximum term count `169`.  This still does not
+certify h=8, but it gives the non-antipodal x83 branch a sharper algebraic
+surface than support enumeration alone.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_reciprocal_compatibility_compiler.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_triangular_obstruction.py
+```
+
+Expected digests:
+
+```text
+H8_RECIPROCAL_COMPATIBILITY_COMPILER_PASS
+H8_X83_TRIANGULAR_OBSTRUCTION_PASS
+```

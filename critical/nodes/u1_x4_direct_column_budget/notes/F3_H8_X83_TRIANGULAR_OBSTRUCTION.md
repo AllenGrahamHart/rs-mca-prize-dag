@@ -76,6 +76,11 @@ is exactly a non-even locator satisfying this triangular graph and the support
 root constraints.  This is the algebraic target for a future obstruction-key
 join or symbolic nonvanishing argument; it is not a global h=8 certificate.
 
+The companion `F3_H8_RECIPROCAL_COMPATIBILITY_COMPILER.md` adds the reciprocal
+coefficient identities for roots of unity and eliminates the shared support
+product `delta`, producing seven delta-free compatibility equations on the
+same high-half graph.
+
 ## Replay
 
 Standalone:
