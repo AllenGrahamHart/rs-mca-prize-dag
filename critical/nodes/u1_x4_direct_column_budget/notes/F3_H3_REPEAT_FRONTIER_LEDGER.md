@@ -35,6 +35,24 @@ LOOSE-B-RANK/NV:
   clean branch-B one-parameter loose eight-slope target, S_total=24.
 ```
 
+The slope equality-factorization compiler now verifies that the two slope
+targets are exactly coordinate-intersection targets after denominator
+clearing:
+
+```text
+generic-generic:
+  Q_i = +/- product_j (source_increment_i*M - target_increment_j*N),
+  product total degree = 41;
+
+mixed generic/scale:
+  Q_i = +/- (source_increment_i^3 - x^3*N^3),
+  product total degree = 27.
+```
+
+This does not close either slope gate.  It makes explicit that the mixed count
+route still needs a mechanism forcing generic/scale coordinate overlap, or a
+separate residue payment for all mixed misses.
+
 ## Count Route Frontier
 
 The scale same-lambda branch has a separate count payment:

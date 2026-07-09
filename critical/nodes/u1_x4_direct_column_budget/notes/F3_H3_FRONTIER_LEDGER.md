@@ -49,6 +49,9 @@ H3-REPEAT-BOUNDARY-STAR: OPEN FRONTIER
   scale-collision ledger, leaving six still-open strict gates.  The scale
   ledger now uses the minimum of the trivial orbit bound and the h=2
   affine-coset cap; the h=2 cap first improves the bound at `n=2^19`.
+  The slope equality-factorization compiler verifies that the generic and
+  mixed slope gates are exactly coordinate-intersection targets after
+  denominator clearing, with product totals 41 and 27 respectively.
   Residual: prove or replace the strict same-lambda, slope, and loose-triangle
   branch gates needed by the star route.
 ```

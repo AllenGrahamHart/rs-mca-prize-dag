@@ -19,6 +19,10 @@ from f3_h3_repeat_lambda_one_scale_h2_cap import (
     scale_h2_cap_summary,
 )
 from f3_h3_repeat_slope_branch_assembly import BRANCHES as SLOPE_BRANCHES
+from f3_h3_repeat_slope_equality_factorization import (
+    verify_generic_factorization,
+    verify_mixed_factorization,
+)
 
 
 @dataclass(frozen=True)
@@ -115,6 +119,17 @@ def paid_ledgers(n: int) -> dict[str, int]:
     }
 
 
+def slope_factorization_summary() -> dict[str, int]:
+    generic = verify_generic_factorization()
+    mixed = verify_mixed_factorization()
+    return {
+        "generic_product_total": sum(generic.values()),
+        "mixed_product_total": sum(mixed.values()),
+        "generic_rows": len(generic),
+        "mixed_rows": len(mixed),
+    }
+
+
 def main() -> None:
     print("h=3 repeat frontier ledger")
     gates = strict_frontier_gates()
@@ -145,6 +160,22 @@ def main() -> None:
     print("  H3-VALUE-SCALE-INJECTIVE: replaced by paid scale-collision count")
     for gate in count_route:
         print(f"  {gate.name}: still open on the count route")
+
+    slope_factors = slope_factorization_summary()
+    if slope_factors != {
+        "generic_product_total": 41,
+        "mixed_product_total": 27,
+        "generic_rows": 3,
+        "mixed_rows": 3,
+    }:
+        raise AssertionError(slope_factors)
+    print(
+        "slope_equality_factorization: "
+        f"generic_rows={slope_factors['generic_rows']} "
+        f"generic_product_total={slope_factors['generic_product_total']} "
+        f"mixed_rows={slope_factors['mixed_rows']} "
+        f"mixed_product_total={slope_factors['mixed_product_total']}"
+    )
 
     minor_rows = rank_minor_rows()
     expected_minors = {

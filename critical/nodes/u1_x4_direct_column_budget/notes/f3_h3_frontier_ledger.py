@@ -30,6 +30,7 @@ from f3_h3_rank_effective_bridge import EXPECTED_CAPACITIES, PINNED_RANKS, rank_
 from f3_h3_repeat_frontier_ledger import (
     count_route_frontier_gates,
     paid_ledgers,
+    slope_factorization_summary,
     strict_frontier_gates,
 )
 
@@ -143,6 +144,19 @@ def repeat_count_route_summary() -> dict[str, int]:
     }
 
 
+def repeat_slope_summary() -> dict[str, int]:
+    summary = slope_factorization_summary()
+    expected = {
+        "generic_product_total": 41,
+        "mixed_product_total": 27,
+        "generic_rows": 3,
+        "mixed_rows": 3,
+    }
+    if summary != expected:
+        raise AssertionError(summary)
+    return summary
+
+
 def frontier_gates(
     activation: dict[str, int],
     budgets: dict[str, int],
@@ -151,6 +165,7 @@ def frontier_gates(
     conic: dict[str, int],
     repeat: dict[str, tuple[int, int]],
     repeat_count: dict[str, int],
+    repeat_slope: dict[str, int],
 ) -> tuple[H3FrontierGate, ...]:
     return (
         H3FrontierGate(
@@ -198,7 +213,9 @@ def frontier_gates(
             (
                 f"{len(repeat)} strict branch gates replayed; count route leaves "
                 f"{repeat_count['open_gates']} gates after paying scale pairs; "
-                f"h2 scale cap improves from 2^{repeat_count['scale_h2_first_better_s']}"
+                f"h2 scale cap improves from 2^{repeat_count['scale_h2_first_better_s']}; "
+                f"slope factorization totals are generic={repeat_slope['generic_product_total']} "
+                f"and mixed={repeat_slope['mixed_product_total']}"
             ),
             "prove or replace the strict same-lambda, slope, and loose-triangle branch gates needed by the star route",
         ),
@@ -213,7 +230,8 @@ def main() -> None:
     conic = conic_bridge_accounting_summary()
     repeat = repeat_frontier_summary()
     repeat_count = repeat_count_route_summary()
-    gates = frontier_gates(activation, budgets, capacity, l2, conic, repeat, repeat_count)
+    repeat_slope = repeat_slope_summary()
+    gates = frontier_gates(activation, budgets, capacity, l2, conic, repeat, repeat_count, repeat_slope)
 
     print("F3 h=3 frontier ledger")
     print(
