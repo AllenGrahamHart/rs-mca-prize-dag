@@ -40,6 +40,9 @@ A  B   H   rank  min(AB^3,L+1)  deficit
 Thus degree-space fullness can hold or fail depending on the box.  The
 failure is not the constant-ratio collapse; it happens on the same
 nondegenerate conic chart that has a full-rank `A=5,B=4,H=32` minor.
+The companion large-gap pilot checks the same chart at `A=5,B=4` and
+`H=20,24,32`; the deficits are `27,1,0`, which is far below the official
+exact-profile bounded-deficit tolerance `1847`.
 
 ## Consequence
 

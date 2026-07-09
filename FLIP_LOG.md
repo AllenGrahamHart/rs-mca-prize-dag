@@ -9439,3 +9439,40 @@ Expected digest:
 ```text
 H8_ODD_CHART_ROUTER_PASS
 ```
+
+## 2026-07-09 h=3 conic-chart large-gap pilot
+
+Stage selected: sharpen the h=3 bounded-deficit rank target with one fixed
+same-fiber conic chart, without starting a broad numerical sweep.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_LARGEGAP_PILOT.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_largegap_pilot.py
+```
+
+The replay uses the same conic chart as the degree-space guardrail over
+`F_769` and checks `A=5,B=4` at `H=20,24,32`.  The exact rank deficits are
+`27,1,0`; the official exact-profile rows have minimum
+`H/A = 8192/1362 = 4096/681`, and the exact-profile bridge can tolerate a
+uniform bounded deficit `Delta <= 1847`.
+
+This is evidence for the finite-row bounded-deficit route, not `RC-RANK`.
+It also keeps the theorem target narrow: prove rank above `C_exact`, or prove
+`rank >= (L+1)-Delta` with `Delta <= 1847`, rather than asserting automatic
+degree-space fullness.
+
+Replays:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_largegap_pilot.py
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+```
+
+Expected digests:
+
+```text
+H3_CONIC_CHART_LARGEGAP_PILOT_PASS
+H3_FRONTIER_LEDGER_PASS
+```

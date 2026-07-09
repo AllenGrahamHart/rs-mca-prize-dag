@@ -72,6 +72,10 @@ the next `RC-RANK` theorem may instead prove a bounded-deficit statement.  Any
 uniform deficit bound at most `1847` would already be enough for all official
 exact-profile boxes, after the bridge assigns one exact-profile capacity unit
 per repaired image.
+The companion conic-chart large-gap pilot records bounded exact-rank evidence
+on the known same-fiber chart: at `A=5,B=4` and `H=20,24,32`, the deficits are
+`27,1,0`, while the first official exact-profile row has
+`H/A = 8192/1362 = 4096/681`.
 
 This is only arithmetic.  It does not prove the bounded-deficit theorem and it
 does not assign activated shapes to repaired images.

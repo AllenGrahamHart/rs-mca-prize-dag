@@ -39,6 +39,10 @@ F3-RANK-AVOID / RC-NV: OPEN
   The exact-profile rank-deficit budget shows that a bounded-deficit theorem
   with `rank >= (L+1)-Delta` and `Delta <= 1847` would already suffice for all
   official exact-profile boxes.
+  The conic-chart large-gap pilot checks the same actual same-fiber conic chart
+  in three larger-gap boxes `H=20,24,32`; its deficits are `27,1,0`, far below
+  the official exact-profile tolerance `1847`, while official rows have
+  minimum `H/A = 4096/681`.
   The conic-chart linear-relation guard verifies `P_U+P_V+P_W+aQ=0` on the
   same-fiber conic chart despite pairwise coprime chart polynomials, so
   separated-divisor arguments alone cannot prove full rank.
