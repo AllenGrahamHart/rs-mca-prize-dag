@@ -7868,6 +7868,36 @@ Ledger wiring note: the T4 dependency-shape list now includes both the
 odd-chart structural partition and the all-odd-chart official scaling action,
 so the h=8 route no longer cites only the bounded router dry run at that point.
 
+## 2026-07-09 h=8 odd-chart orbit invariance
+
+Stage selected: make chart-wise h=8 support sharding compatible with official
+root-scaling orbits.
+
+Banked files:
+
+```text
+critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_ORBIT_INVARIANCE.md
+critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_orbit_invariance.py
+```
+
+Root scaling multiplies each locator coefficient by a nonzero scalar, so it
+preserves the zero/nonzero pattern of `c15,c13,c11,c9`.  Hence the first-live
+priority chart is invariant under official scaling.  Combined with the
+all-odd-chart scaling action, each routed chart is a union of free official
+scaling orbits.
+
+Replay:
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_orbit_invariance.py
+```
+
+Expected digest:
+
+```text
+H8_ODD_CHART_ORBIT_INVARIANCE_PASS
+```
+
 ## 2026-07-09 h=3 loose shared-core degree split
 
 Stage selected: refine the repeat-boundary loose special branches without

@@ -143,6 +143,9 @@ T4-H8-N64-NONANTIPODAL-X83: OPEN
   The odd-chart official scaling packet extends the chart-7 freeness argument
   to all four routed odd charts; each has trivial stabilizer under official
   `mu_n` scaling because the chart weights `7,5,3,1` are coprime to `2^s`.
+  The odd-chart orbit-invariance packet proves that official scaling preserves
+  the first-live high-odd chart, so routed chart cells are scaling-invariant
+  free-orbit unions.
   The odd-chart router turns the parity reduction into a deterministic
   chart-priority interface `7,5,3,1`, so future certifiers can route canonical
   supports without double-counting.  Its replay is only a bounded prefix dry
@@ -206,6 +209,7 @@ h8 antipodal quotient
   + h8 chart-7 official scaling action
   + h8 odd-chart structural partition
   + h8 all-odd-chart official scaling action
+  + h8 odd-chart orbit invariance
   + h8 odd-chart router
   + residual frontier/support-universe audits
   => T4-H8-N64-NONANTIPODAL-X83 remains the only h=8 blocker

@@ -97,6 +97,9 @@ from f3_h8_odd_chart_partition import (
 from f3_h8_odd_chart_scaling_action import (
     odd_chart_scaling_summary as h8_odd_chart_scaling_summary,
 )
+from f3_h8_odd_chart_orbit_invariance import (
+    odd_chart_orbit_invariance_summary as h8_odd_chart_orbit_summary,
+)
 from f3_h8_odd_chart_router import router_summary as h8_odd_chart_router_summary
 from f3_h8_odd_chart_recovery_compiler import (
     odd_chart_recovery_summary as h8_odd_chart_summary,
@@ -375,6 +378,7 @@ def h8_summary() -> dict[str, int]:
     chart7_scaling = h8_chart7_scaling_summary()
     partition = h8_odd_chart_partition_summary()
     odd_scaling = h8_odd_chart_scaling_summary()
+    odd_orbits = h8_odd_chart_orbit_summary()
     router = h8_odd_chart_router_summary()
     if (
         aperiodic["nonantipodal_rotation_orbits"]
@@ -441,6 +445,8 @@ def h8_summary() -> dict[str, int]:
         "partition_last_chart": partition["last_chart"],
         "odd_chart_scaling_rows": odd_scaling["rows"],
         "odd_chart_scaling_stabilizer": odd_scaling["max_stabilizer_size"],
+        "odd_chart_orbit_charts": odd_orbits["priority_charts"],
+        "odd_chart_orbit_stabilizer": odd_orbits["max_stabilizer_size"],
         "router_priority_charts": router["priority_charts"],
         "router_sample_processed": router["processed"],
         "router_sample_routed": router["routed"],
@@ -546,6 +552,7 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"partition={h8['partition_first_chart']}.."
                 f"{h8['partition_last_chart']} "
                 f"odd_chart_stabilizer={h8['odd_chart_scaling_stabilizer']} "
+                f"orbit_charts={h8['odd_chart_orbit_charts']} "
                 f"router_priority={h8['router_priority_charts']} "
                 f"sample_routed={h8['router_sample_routed']}/"
                 f"{h8['router_sample_processed']}"
@@ -726,7 +733,8 @@ def main() -> None:
         f"first_last={h8['partition_first_chart']}.."
         f"{h8['partition_last_chart']} "
         f"scaling_rows={h8['odd_chart_scaling_rows']} "
-        f"max_stabilizer={h8['odd_chart_scaling_stabilizer']}"
+        f"max_stabilizer={h8['odd_chart_scaling_stabilizer']} "
+        f"orbit_charts={h8['odd_chart_orbit_charts']}"
     )
     print(
         "h=8 odd-chart router: "
