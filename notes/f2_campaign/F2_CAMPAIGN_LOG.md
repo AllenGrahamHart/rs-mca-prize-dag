@@ -1222,3 +1222,24 @@ study — where exactly does this chain fail at q = p^2? (The Gauss-sum
 bound survives; the Halasz lemma is Z_p-native: the breakage is the
 restriction-of-scalars compounding — now with a PROVED k=1 baseline
 to measure against.) Fifteen satellites.
+
+## 67 — 2026-07-10: the loop induction's true structure — joint-system
+## formulation; two citation targets named
+
+Formalizing the induction exposed the conditioning obstacle: the k=1
+contraction theorem is free-cube Halasz; the ladder needs FIBER-
+conditional contraction, which does not transfer automatically.
+RESOLUTION (structural): the joint-system formulation — bound the
+(j+1)-dimensional anti-concentration of the stacked moment map
+directly (no conditioning). Its level sets are controlled by SPARSE
+exponential sums over mu_n: sum_x e_p(f_k(x)) with f_k
+(j+1)-sparse — vacuous via Weil degree (deg ~ n), STRONG via
+Bourgain-Glibichuk-Konyagin (any delta > 0 gives level-set floor
+~n/20). TWO CITATION TARGETS for the write-up: (a) multi-dimensional
+Z_p Halasz (the d-dim analogue of CMMM Lemma 2.3); (b) BGK sparse-sum
+bounds with explicit delta and gcd hypotheses (matching the p-free
+ladder's exponents). The pattern of the campaign's final phase: each
+write-up attempt exposes one precise dependency; each is hunted,
+verified, and composed. The k=1 dichotomy end-to-end = these two
+citations + the joint composition + assembly. The summit (general k)
+waits behind the k=2 breakage study.
