@@ -812,3 +812,21 @@ are coset-unions + residual < 2^28 against b >= 2^36 (structured
 fraction >= 99.7%). Process note: log entries must be written AFTER
 their check passes, never alongside — encoded here as campaign
 procedure. Eleventh catch; seventh self-caught same-cycle.
+
+## 46 — 2026-07-10: RESIDUAL DETERMINATION LEMMA (thirteenth satellite);
+## catch #12
+
+The count conversion's first reading (kernel census) was refuted by
+its own toy check — toys are under-determined (t < rho), the official
+regime is the opposite (catch #12, same-cycle). The correction is a
+sharper theorem: below char (rho < p, official 2^27.6 < 2^31), the
+gap operator's [1..rho]^2 block is unit-triangular Toeplitz for ANY
+core — the residual of every extras block is UNIQUELY DETERMINED by
+its structured core (verified on all 160 real accident blocks).
+Extras have zero residual freedom; the edge count is now a
+deterministic-test census: #{cores whose determined residual passes
+~t - rho consistency rows + mu_n-splitting}. The crux's remaining
+mathematics: bound that census (the consistency rows are the same
+functional at every core — a structured rank/character question, the
+final boss in its sharpest form yet). Chain: consistency census ->
+crux assembly -> L5.
