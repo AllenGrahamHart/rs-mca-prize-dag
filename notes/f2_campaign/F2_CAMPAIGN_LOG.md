@@ -1940,3 +1940,24 @@ pseudorandom', while the alignment stays exactly at the per-orbit
 random-model value ~1 (sat 25) — the field IS what the summit
 conjecture says it is; proving it is the residual. One hundred
 three entries.
+
+## 104 — 2026-07-10: maintainer sweep (PR #174 was integrated; Codex
+## idle) + E1 first contact (components individually pseudorandom)
+
+Cycle 92, two parts. MAINTAINER SWEEP (overdue ~15 cycles):
+(1) upstream PR #174 was CLOSED-WITH-INTEGRATION on 2026-07-02 —
+Przemek's comment: 'Integrated in 01add412 as subordinate
+roadmap/DAG material. towards-prize.md remains the source of
+truth, updated with the main r2 correction that the prize band is
+underdetermined.' The standing watch item is RESOLVED (favorably);
+memory updated. (2) Upstream main is active on the ASYMPTOTIC
+proof + 'Grande Finale' Lean package (07-07..07-09) — the lane the
+user assigned to others; no action for us. (3) Codex: f3-flip
+branch merged earlier (daa30d2, banked), latest activity 2026-07-05
+(E22 packets), idle since; no trigger pending. E1 FIRST CONTACT:
+K and U parities over orbit reps are individually balanced, weakly
+and inconsistently correlated, and SEPARATELY multiplicatively
+flat — the pseudorandomness is component-wise; eps does not reduce
+to either coordinate; the lattice attack must take the pair (K, U)
+jointly (addendum banked on satellite 26). One hundred four
+entries.
