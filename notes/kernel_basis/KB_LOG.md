@@ -743,3 +743,8 @@ PROVED, 25 CONDITIONAL... see verifier} — reds now 14: the last
 pre-decomposition floor is gone; EVERY red on the board is an
 audit-minted predicate, an irreducible kernel, or an
 honest-refusal floor with named seams.
+
+## 31a — correction (same session): entry #31's surface figures were
+## written pre-computation. Actual: 227 = {186 PROVED, 27 CONDITIONAL,
+## 14 UNPROVED}. The qualitative claim stands (14 reds, zero
+## pre-decomposition floors).

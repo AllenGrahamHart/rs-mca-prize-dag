@@ -5048,7 +5048,7 @@
   {
    "id": "f3_h1_singleton_injectivity",
    "status": "PROVED",
-   "statement": "H1 SINGLETON INJECTIVITY (R_1 = 0; minted at the U16 surgery, catch #73 \u2014 the proposal labeled it PROVED with no artifact). At any row, distinct width-1 supports {a}, {b} <= H with e1({a}) = e1({b}) force a = b (e1 of a singleton IS the element); no width-1 collision pair exists, so the fully stripped width-1 direct-column residue R_1 = 0. Consistent with (and implied by) the proved band pin 2 <= h <= H_max (star_pte_support_bound: t < h). Proof: critical/nodes/u1_x4_direct_column_budget/notes/F3_H1_SINGLETON_INJECTIVITY_PROOF.md. FALSIFIER: a certified width-1 stripped record at any official row."
+   "statement": "H1 SINGLETON INJECTIVITY (R_1 = 0; minted at the U16 surgery, catch #73 \u2014 the proposal labeled it PROVED with no artifact). At any row, distinct width-1 supports {a}, {b} <= H with e1({a}) = e1({b}) force a = b (e1 of a singleton IS the element); no width-1 collision pair exists, so the fully stripped width-1 direct-column residue R_1 = 0. Consistent with (and implied by) the proved band pin 2 <= h <= H_max (star_pte_support_bound: t < h). Proof: critical/nodes/f3_h1_singleton_injectivity/proof.md. FALSIFIER: a certified width-1 stripped record at any official row."
   },
   {
    "id": "f3_h3_three_to_one_c36",
