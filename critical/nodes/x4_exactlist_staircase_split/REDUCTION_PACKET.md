@@ -37,7 +37,7 @@ full central band is 2 C_< + C_=, so 'half-band <= 2^122' + 'tails
 < 2^122' composes to > n^3. CORRECTED FACE: the weighted two-sided
 form 2 sum_{b=t+16}^{N/2-1} |C_b| + |C_{N/2}| <= n^3 / 2 (tails keep
 the other half), equivalently half-band count <= 2^121. ALSO (V2):
-this face must carry the q-free effective-index guard explicitly
+this face must carry the P-FREE (p = char) effective-index guard explicitly (I4 of the 3C extraction: the dictionary's extension-field-verified addendum fixes p-multiples, not q-multiples, as the free indices)
 (char-divisible moment indices are redundant — Sol's char-3
 construction exploits exactly this at unguarded faces). NOTE: this
 is a ROUTE face; the u2c floor's own assembly tolerance

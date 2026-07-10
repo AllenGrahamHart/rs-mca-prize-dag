@@ -228,3 +228,22 @@ the live consumer (the catch-#30-corrected b2b face + M_0 +
 multilevel quotient subtractions + trade multiplicity + the
 aspect guard), then one intensive falsification round, then
 proof mode. Catches now 31.
+
+## 14 — 2026-07-10: TARGET 3C FROZEN (mechanical extraction, 32/32
+## checklist) + the I1-I7 inconsistency ledger
+
+The extraction delivered: the primitive-census floor with dressing
++ lift strips, guards G1-G3 (aspect included), weighted two-sided
+form <= N^3/2, internal-closure resolution of trade multiplicity
+(no external charging lemma needed), the P0-P6 paid ledger fully
+cited, and verification that EVERY known falsifier family fails
+the frozen hypotheses by exact computation. Posted as
+SOL_TARGET_3C. SEVEN source inconsistencies found and triaged:
+I1/I3/I5 annotated on the nodes, I4 wording fixed, I6/I7 flagged.
+THE BIG ONE (I2): the official factorization q = p^k is pinned
+NOWHERE and the admissible prize-max sliver is 0.089 bits wide —
+upstream's own 'prize band underdetermined' r2 note made
+quantitative; a maintainer pin is required for any verbatim
+prize-max instantiation (candidate second upstream issue; user
+decision). Catches: the extraction validated rather than extended
+the count — the discipline held.

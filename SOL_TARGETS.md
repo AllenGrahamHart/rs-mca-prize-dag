@@ -15,8 +15,9 @@ in-repo and are not the ask.
 - SOL_TARGET_3_OFFICIAL_EXTRAS_FLOOR.md — REFUTED AS WRITTEN (Sol
   round 2; the char-7 tensor family). YIELD: the aspect-ratio guard
   proved necessary; the banked floor (official-aspect scope) stands.
-  Successor: TARGET 3C, to be MECHANICALLY EXTRACTED from the live
-  consumer (in progress — not guessed)
+  Successor posted: SOL_TARGET_3C_PRIMITIVE_CENSUS.md — MECHANICALLY
+  EXTRACTED from the live consumer, 32/32 adversarial checklist,
+  every known falsifier family provably fails its hypotheses. OPEN.
 - SOL_TARGET_4_H4_COLLISION_CENSUS.md — the next ladder rung above
   two proved predecessors (h=2 Heath-Brown--Konyagin, h=3 char-0
   classification)
