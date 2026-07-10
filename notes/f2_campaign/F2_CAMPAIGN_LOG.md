@@ -1783,3 +1783,22 @@ alignment ratio (struct = 2^{n/4} at 2-power rows) as the honest
 falsifier-adjacent number. The Rademacher frame survives its first
 scaling test; the struct census re-enters as the deterministic
 drift it always was. Ninety-five entries.
+
+## 96 — 2026-07-10: struct-subtracted alignment is SCALE-STABLE —
+## the Rademacher model passes its full test (satellite 20)
+
+Cycle 84, digest F2_STRUCT_SUB_ALIGNMENT_PASS. The refined number
+from log #95, measured at 13 exact rows over two decades of
+frequency population (12.7k to 44.0M): every row lands in one band
+(0.17..11.4), slope -0.067 — STABILIZATION. Both pre-registered
+collapse predictions hit exactly ((113,16,3): 60 -> 0.17 with
+extras_dev = -(2^n - 2^{n/4}) on the nose; (353,32,3): 25 -> 5).
+The census at reachable scales is now quantitatively: EXACT STRUCT
++ random-sign-like extras with constant alignment ~7 — four orders
+below the 2^15/condition slack, and exactly the shape the summit
+conjecture asserts. The falsifier direction 'alignment grows with
+scale' is tested and NEGATIVE. Bonus: an invalid row (929,64) was
+caught by the quantization assertion — the guardrails, not luck.
+The empirical case for the summit is now as strong as measurement
+can make it at exact-enumeration scales; what remains is what has
+always remained: the theorem. Ninety-six entries.
