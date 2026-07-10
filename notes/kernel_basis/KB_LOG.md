@@ -572,3 +572,42 @@ falsification octave on Modal (13 primes, populations to ~8e9,
 pre-registered kill line per-orbit > 10 at 3+ primes) — the first
 NEW executed attempt of the program; certificate execution log to
 be filled on completion.
+
+## 26 — 2026-07-10: fifth-branch replay — G3 discharge KILLED, scaffold
+## survived; catches #44-#47; G3 clause (b) re-posed
+
+Fresh-context replay (exhaustive n=8/16 over all 2^n supports +
+sampled n=32; fresh verifier suites with mutation controls, banked
+at petal_growth/notes/g3_replay_20260710/). VERDICT: REPLAY-CLEAN
+as WEIGHT-PARAMETRIC bookkeeping; G3 NOT DISCHARGED — the petal
+amber's "not consumed" stance was CORRECT and re-surgery criterion
+3 does NOT fire (no declared W existed to contradict).
+
+CATCH #44 (against my own banking): the REPLAY-PENDING annotation
+said one verifier existed; THREE did — and the one I cited as the
+green datapoint is the vacuous one. CATCH #45: the selector's
+verify.py cannot fail (mutant dropping the true minimal modulus
+passes; witness banked). CATCH #46: the IE statement's minimality
+quantifier, as worded, admits M'=1 and makes the literal sum
+IDENTICALLY ZERO (machine-confirmed) — eligibility correction
+appended to the CRITICAL-SURFACE statement (it is req-wired under
+petal_growth); same drift in tail_criterion. CATCH #47 (core): the
+branch's 'declared multiplicity' placeholder is UNFILLABLE — the
+class-column and coset-column weights differ by the profile-
+dependent RATIONAL factor N/(N-h) * [x^b]H_M^{N-h} (exact ratios
+8/5, 640/3; the IE proof itself requires integer weights). The
+four pricing nodes' PROVED labels certify parametric identities
+only — scope caveats banked on all eight nodes.
+
+RESOLUTION: G3's clause (b) RE-POSED as the explicit conversion
+identity + w=1-per-class declaration (verified exactly at every
+tabulated cell; general proof = finite algebra, likely the easiest
+partial close on the board). Clause (a) confirmed as the honest
+open content: triple quantifier drift (codewords-per-(U,datum) vs
+support-class columns; no U anywhere in the branch; sup vs sum) —
+the same per-U-uniformity bite WP6 recorded. G3 QUALITY certificate
+COMPLETE (the replay itself = the executed falsification-grade
+stress; queued: per-U charging-map probe). Fifth instance of the
+existence/label failure shape (#33/#35/#36/#41/#44) — the
+label-audit sweep is now formally overdue: queued as a program
+item.
