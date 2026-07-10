@@ -1903,3 +1903,22 @@ reciprocity space (E2 Dedekind-integer), or Galois-orbit space
 (E4). The map keeps shrinking toward the true summit; every closed
 lane is effort the delegate does not waste. One hundred one
 entries.
+
+## 102 — 2026-07-10: E4 closed by proof; the alignment constant WAS
+## the orbit multiplicity (satellite 25)
+
+Cycle 90. THEOREM: (S, eps) are Frobenius-invariant (z = x^{p^{-1}}
+substitution; verified 2e-15 at F_49, F_25, F_81) => E4 is vacuous
+(NO-GO #12) — the sign is constant on orbits, nothing to average.
+THE EXPLANATION: with signs constant on orbits of size ~ n k, the
+random-sign baseline is per-orbit, predicting ratio = sqrt(n k) x
+O(1). All 13 banked ratios / sqrt(n): [0.04, 1.56], eleven tightly
+around 1, the two low rows exactly the zero-extras rows; prime-
+power rows / sqrt(n k): 1.53, 1.00, 0.24. The campaign's measured
+'constant ~7' dissolves into orbit bookkeeping; the per-orbit
+Rademacher constant is ~1 — the parity field is AS RANDOM AS IT
+COULD POSSIBLY MEASURE. Refined falsifier: per-orbit constant > 10
+at 3+ scales. At official rows sqrt(n k) ~ 2^28: polynomial,
+harmless. Brief v4 updated: E1 and E2 are the only named lanes
+left. Verifier run inline (local, small — the field harness reused
+from cycle 85). One hundred two entries.

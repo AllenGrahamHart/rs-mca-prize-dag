@@ -4916,6 +4916,11 @@
    "id": "f2_cross_support_verdict",
    "status": "PROVED",
    "statement": "F2 CROSS-SUPPORT VERDICT \u2014 E3 CLOSED (2026-07-10, campaign cycle 89; digest F2_CROSS_SUPPORT_PASS): NO-GO #11 \u2014 the Fourier-pairing lane is dead in full. Measured at 7 exact rows (pairing identity (1/Q) sum_d eps-hat conj(W-hat) = signed deviation verified to 1e-15; weight spectrum taken on e^S restricted to c != 0, the flat spike removed): (a) k_surgery/Q = 0.57-0.76 at ALL rows \u2014 the absolute pairing tail sum_{d not in top-k} |t_d| never falls to alignment scale until k is a constant fraction of the whole frequency space; no small census-defined support exists to attack; (b) the total absolute pairing cost is within 0.6-1.0 bits of the trivial sqrt(Q) Cauchy-Schwarz bound at every row \u2014 the pairing-level spectra are near-random (consistent with satellite 23), so support surgery has no structure to exploit; (c) the SIGNED value is captured by a tiny top set (capture k/Q ~ 1e-4) \u2014 diffuse, mean-zero, random-walk-like accrual: the cancellation is GLOBAL, not localized on any frequency subset. CONSEQUENCE: E1 (Ehrhart mod-2 lattice parity), E2 (Dedekind-integer reciprocity), and E4 (Frobenius-orbit averaging) are the only remaining named lanes; brief v4 updated. The campaign's Fourier program (satellites 18, 19, 23, and this) is COMPLETE: it produced the sign quantization, the pseudorandomness evidence, and two no-gos \u2014 the parity field must be engaged in physical (lattice/orbit) space, not frequency space. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_cross_support_modal.py. Twenty-fourth satellite."
+  },
+  {
+   "id": "f2_frobenius_orbit_model",
+   "status": "PROVED",
+   "statement": "F2 FROBENIUS INVARIANCE + THE ORBIT-MULTIPLICITY EXPLANATION (2026-07-10, campaign cycle 90): E4 closed by proof, and the measured alignment constant EXPLAINED. THEOREM (5 lines, verified to 2e-15 at F_49, F_25, F_81): (S, eps) are invariant under coordinatewise Frobenius phi(c) = (c_i^p) \u2014 substituting z = x^{p^{-1} mod n} gives {Tr(phi(c).xbar(x))}_x = {Tr(c.xbar(z))}_z as multisets. CONSEQUENCE 1 (NO-GO #12): E4 \u2014 averaging the sign over Frobenius orbits \u2014 is VACUOUS: the sign is CONSTANT on orbits; there is nothing to average. Frequency space now carries a proved invariance group of order ~ n*k (twisted scaling, sat 19, times Frobenius). CONSEQUENCE 2 (the explanation): signs constant on orbits of size ~ n*k means the correct random-sign baseline is PER-ORBIT: predicted alignment ratio = sqrt(n*k) * O(1), NOT O(1). MEASURED COLLAPSE: all 13 banked struct-subtracted ratios (satellite 20) divided by sqrt(n) land in [0.04, 1.56] \u2014 eleven in [0.55, 1.56] tightly around 1, and the two below-band rows are exactly the zero-extras rows ((113,16,3) and (769,64,2)); the three prime-power rows divided by sqrt(n*k) give 1.53, 1.00, 0.24. The mysterious 'alignment ~7' of satellites 19-20 IS the orbit multiplicity. THE REFINED SUMMIT MODEL (sharpest falsifiable form): the parity field is RANDOM PER ORBIT with constant ~ 1; refined falsifier \u2014 the per-orbit constant (struct-sub ratio / sqrt(n k)) sustained above ~10 at 3+ scales. At official rows the orbit factor sqrt(n k) ~ 2^28 is polynomial in n \u2014 harmless to the 2^{o(n)} budget; the summit statement is UNCHANGED in strength but its empirical model is now exact to the measurement floor. Verifier: inline in campaign log #102 (local, small). Twenty-fifth satellite; named lanes remaining: E1 (Ehrhart mod 2), E2 (Dedekind-integer reciprocity)."
   }
  ],
  "edges": [
@@ -9621,6 +9626,11 @@
   },
   {
    "from": "f2_cross_support_verdict",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_frobenius_orbit_model",
    "to": "u2c_giant_tnull_dichotomy",
    "kind": "ev"
   }

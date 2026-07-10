@@ -121,12 +121,16 @@ E3. PARITY FOURIER SPECTRUM — CLOSED (catch #23 cycle 88; NO-GO #11 cycle 89, 
     weight spectrum's heavy support. Weil applies levelwise to
     individual eps-hat(d); the new required input is the SUPPORT
     geometry of E-hat (which the census machinery describes exactly).
-E4. FROBENIUS/GALOIS AVERAGING at q = p^k: eps and S are
-    Galois-invariant; the frequency space fibers over Frobenius orbits
-    of length k ~ 2^16. Averaging the sign over a Frobenius orbit
-    before bounding may expose cancellation that per-frequency methods
-    cannot see (the orbit sums are traces — algebraic objects with
-    their own Weil theory).
+E4. FROBENIUS AVERAGING — CLOSED BY PROOF (NO-GO #12, cycle 90):
+    (S, eps) are CONSTANT on coordinatewise-Frobenius orbits (5-line
+    proof via z = x^{p^{-1}}); there is nothing to average. The
+    positive residue: the invariance group (twisted scaling x
+    Frobenius, order ~ n k) makes the correct random-sign baseline
+    PER-ORBIT — the measured 'alignment ~7' is EXACTLY the orbit
+    multiplicity sqrt(n) (all 13 rows collapse to [0.5, 1.6] around
+    1; prime-power rows collapse with sqrt(n k)). REFINED MODEL: the
+    parity field is random per orbit with constant ~ 1. Refined
+    falsifier: per-orbit constant > ~10 sustained at 3+ scales.
 
 ## DELIVERABLES (any one)
 
