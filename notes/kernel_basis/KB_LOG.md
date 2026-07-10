@@ -126,3 +126,22 @@ worst_word's true line: K2 via SCK, constant-exact clause (ii)
 agent tally (rate_half = K5, not K3). ALL SEVEN REDS NOW MAPPED;
 the cross-face residue is two-fold: constant-exact clause (ii)
 and axis-Q small-core classification. Next: the T-BASIS ASSEMBLY.
+
+## 9 — 2026-07-10: T-BASIS ASSEMBLY — the program's termination
+## condition is SATISFIED
+
+T_BASIS_ASSEMBLY.md banked: all seven reds carry a verified
+conditional-close (u2c) or a banked named-kernel verdict (the
+six others, on their own node statements); the minimal basis is
+{K2* enlarged rigidity kernel, K4* petal kernel, K5 razor-band
+witness kernel} with minimality argued structurally per pair;
+delegation briefs written for all three. T-COLLAPSE was not
+reached (k = 3, not <= 2): M2 and U1 collapsed INTO K2*, but K4*
+and K5 resisted absorption for proved structural reasons (per-U
+lower-bound necessity; deficit-side witnesses). Program record:
+9 log entries, 5 fresh-context replays, 4 catches (#24-#27),
+zero false ambers, two face-consumes-red unification data, one
+falsified lead (our own M2 jointness conjecture), and the
+sharpest formulation either program has produced of what the
+prize still needs: constant-exact clause (ii), the axis-Q
+small-core heart, and the joint reserve. T-BASIS: SATISFIED.
