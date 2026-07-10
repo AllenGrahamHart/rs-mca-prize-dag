@@ -2173,3 +2173,21 @@ session (they need upstream v13 definitions; loading those at the
 tail of a 100+-cycle session risks sloppy replay of someone
 else's definitions, which the one-writer discipline exists to
 prevent). No other action. One hundred seventeen entries.
+
+## 118 — 2026-07-10: quarantine lifted — prefix rigidity replayed
+## green by fresh-context delegation (two deferred items discharged)
+
+Cycle 106. The queued v13 replay ran in a fresh-context subagent
+(read-only; banking by the one writer): lem:capg-prefix-rigidity
+CONFIRMED — 109,200 colliding pairs, 30,579 at the critical
+e = w+1 stratum, zero violations, 46 configurations across five
+characteristics; minimum e = w+1 exactly (tight, with teeth). The
+second-moment stratification also replayed digit-exactly at
+GENERAL m — discharging the standing caveat on
+v13_second_moment_shift_pair_identity as a bonus. Node promoted
+TARGET -> PROVED with scope nonclaims intact (primitive sp_w open;
+no max-fiber control); ledger rows updated; verifier archived.
+One deferred item remains (Veronese z*=0 emptiness). The
+delegation pattern works: fresh context for reading others'
+definitions, one writer for the banking. One hundred eighteen
+entries.
