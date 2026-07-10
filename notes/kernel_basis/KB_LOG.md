@@ -78,3 +78,19 @@ the evidence shelf. Bonus finding: the floor's 'first-moment
 model' is under-specified at row level (worst-word crossing not
 formalized) — an open item of the floor itself, banked. Next:
 WP6 (petal -> K4 + E22 import).
+
+## 6 — 2026-07-10: WP6 DONE — E22 imported (4 packets replayed
+## green), petal REDUCTION-PARTIAL with G1/G2/G3 named
+
+The E22 lane is real mathematics, now replayed: cofactor equations,
+petal divisibility, tail-coset algebra, and the seven-lemma
+quotient-staircase composite — the exact separate-charge pricing
+K4's premise demands, with our planted node proving the charge
+necessary (columns match exactly). The amber is blocked by G1
+(per-U layer maps, upstream-withheld), G2 (support-forcing
+dichotomy — the bridge nothing proves; the natural pool-with-K4
+candidate), G3 (pricing multiplicity — the ledger's own named
+missing node, absent everywhere). Basis tally: K2 (u2c; F5
+partial), K4+G2 (petal), K5 (rate_half); K3 evidence shelf.
+Remaining: WP3+WP4 (x4 + dli, RK Faces 1/2), WP7 (worst_word,
+Face 4), then the T-BASIS assembly pass.
