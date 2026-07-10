@@ -1,4 +1,4 @@
-# F2 FLIP CAMPAIGN — FINDINGS (one page; the 110-entry log distilled)
+# F2 FLIP CAMPAIGN — FINDINGS (one page; the 125-entry log distilled)
 # (campaign of 2026-07-09/10; charter F2_FLIP_GOAL.md; all claims
 #  carry digests, proofs, verified citations, or corrections)
 
@@ -23,8 +23,16 @@ additive Walsh spectrum, multiplicative character spectrum,
 component spectra, Zolotarev permutation signs, naive CF-depth
 parities. The measured alignment equals the per-orbit random-sign
 model with constant ~ 1 (the once-mysterious ~7 was exactly the
-orbit multiplicity sqrt(n)); verified 9.4k-44M states, 21 rows,
-zero anomalies.
+orbit multiplicity sqrt(n)); verified 9.4k-44M states, 21+ rows,
+zero anomalies — and B-RESOLVED (satellite 30): the model holds at
+every mid-band size b, the axis where the consumer contract runs.
+Two theorems frame the phase diagram's far corner: DEEP-REGIME
+EXACTNESS (satellite 29, Lam-Leung descent note at full rigor):
+beyond q ~ 2^{(1+eps)n} almost every prime row has extras = 0
+EXACTLY (cyclotomic rigidity; 1247/1247 primes exact at n=8) —
+the opposite corner from official rows, but the cleanest
+explanation of extras scarcity, and it DERIVES struct(j=2) =
+struct(j=3) = 2^{n/4}.
 
 ## The instrument suite (satellites 16-28, all machine-verified)
 
@@ -62,7 +70,7 @@ higher-dimensional reciprocity.
 
 ## Protocol record and standing posture
 
-98 cycles, 98 verified increments, 23 catches (all corrected,
+114 cycles, 114 verified increments, 23 catches (all corrected,
 many machine-caught pre-banking — including two of the campaign's
 own proposed reductions), 12 no-gos, 0 unverified claims banked.
 Consumer arithmetic wired (f2_conditional_close): any 2^{o(n)}
@@ -71,4 +79,8 @@ T-WIN via a real proof effort (delegation brief v4 carries the
 complete chart) or T-FLOOR via the never-approached falsifier
 (per-orbit constant > 10 at 3+ scales). Posture: low-frequency
 rotation — maintainer duties, occasional watch octaves, periodic
-literature re-scans, delegation surfacing.
+literature re-scans, delegation surfacing. HOUSE STATE (cycle 114):
+ZERO flagged debts — no quarantines, write-up flags, deferred
+replays, parked ideas, or untested axes; the pre-campaign import
+ledger fully discharged (five fresh-context delegation replays,
+5-for-5, four new proved background nodes + one promotion).

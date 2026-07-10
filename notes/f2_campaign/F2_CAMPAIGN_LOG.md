@@ -2298,3 +2298,12 @@ full rigor for j <= 3. With this, the campaign carries ZERO
 flagged debts of any kind: no quarantines, no write-up flags, no
 deferred replays, no parked ideas, no untested axes. One hundred
 twenty-five entries.
+
+## 126 — 2026-07-10: FINDINGS.md brought current (satellites 29-30,
+## delegation program, zero debts)
+
+Cycle 115, periodic maintenance: the first-read document now
+carries the deep-regime exactness theorem (with the completed
+Lam-Leung note), the b-resolved model verification, the emptied
+import ledger, and the zero-debts house state. One hundred
+twenty-six entries.
