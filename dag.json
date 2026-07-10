@@ -4961,6 +4961,11 @@
    "id": "v13_bc_l4_interior_chart_to_q",
    "status": "PROVED",
    "statement": "L4 INTERIOR CHART -> Q \u2014 CONDITIONAL REDUCTION, PROOF-READ SOUND (2026-07-10, cycle 110; independent fresh-context proof-read + 85/85-gate independent checker, archived in node notes; upstream verifier 83/83 + 45/45 tamper-covered): upstream note cap25_v13_bc_l4_interior_chart_to_q.md (integrated at e83962ae). ESTABLISHED UNCONDITIONALLY: (1) the exact decomposition \u2014 at the L4 fixture (n=2^17, K=65537, m=69753, w=4216, d1=w+2=4218, e=1, p = KoalaBear), for the planted interior family U_{z*} with pole alpha not in B, #valid T = sum_{s in B} |Fib_{w+1}(theta(s))| \u2014 the twisted fiber is EXACTLY a p-fold curve-restricted sum of ordinary depth-(w+1) prefix fibers of the base code RS[k] at the same agreement m (theorem machine-confirmed at two toys + an F_7 exact-p instance beyond upstream's own verifier: totals 105/735, ratio exactly 7); (2) the conditional discharge: any row-sharp depth-(w+1) max-fiber bound R_{w+1} yields #rays <= R_{w+1} C(n,m) p^{-w} for this chart (cost: explicit factor |B| = p); (3) unconditional ceilings (packing 2^103810.24 \u2014 with the feasibility check 2t+1 = w+1 exact \u2014 and anticode 2^108108.04 via an exact binomial identity) and floors (2^23.139 valid T, matching #361/#369 pins to 9 decimals); (4) resolution type (b) of prob:saturated-bc for this chart: explicitly split, charge goes to Q, not a new obstruction, not a moving-root pencil. NAMED OPEN INPUTS (the node's own \u00a78, carried here per the node-local rule): the depth-(w+1) row-sharp max-fiber bound itself (= prob:row-sharp-q one dimension down \u2014 the sole open input for the discharge), and curve equidistribution (sum vs p*max \u2014 a strictly weaker named target). SCOPE GUARDS: general-line (non-planted) chart and profiles e >= 2 remain open; B* comparison fenced off; per-slope F-minus-B membership NOT asserted (the note's own counterexample evidence reproduced); the grande_finale instance-web (pole-line, saturation, lattice-split, near-rational) label-verified but not re-audited. Disambiguation banked: omega := n - m = 61319 (symbol undefined in the note; uniquely consistent). Wiring: SUPPORTS/INSTANTIATES the parent identification at this chart \u2014 does NOT prove the parent (which quantifies over all remaining charts/rows; transport check pending). Verifier: background/nodes/v13_bc_l4_interior_chart_to_q/notes/independent_check.py."
+  },
+  {
+   "id": "f2_bresolved_rademacher",
+   "status": "PROVED",
+   "statement": "F2 B-RESOLVED RADEMACHER TEST (2026-07-10, campaign cycle 113; digest F2_BRESOLVED_RADEMACHER_PASS): the falsifier watch extended to the axis where the consumer lives \u2014 and the model holds. All prior alignment measurements (satellites 19-20, watches W1-W2) used the full-window census; the consumer contract runs at mid-band sizes b, where the census is the [z^b] coefficient extraction. Measured at 4 exact rows (q = 97..257, n = 16..64): per-b signed deviation q^j N_b - C(n,b) - struct_b (q^j - 1), with struct_b = C(n/4, b/4) [4 | b] the exact size-b coset-union census, against the b-resolved variance sqrt(sum_{c != 0} |[z^b] P_c|^2) (positive sum, float-sound). The b-resolved census identity verified integer-exact at every (row, b) (worst 3e-14). RESULT: mid-band (n/4 <= b <= 3n/4) orbit-normalized ratios all in [0.001, 1.47] \u2014 inside the same O(1) band as the full-window measurements; the kill line (>10 at 3+ rows) nowhere approached. The per-orbit Rademacher model is now verified on BOTH axes: across scales (9.4k-44M states, watches W1-W2) and across band positions b (this satellite). The falsifier direction is negative in every dimension the contract touches at enumerable scales. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_bresolved_rademacher_modal.py. Thirtieth satellite."
   }
  ],
  "edges": [
@@ -9712,6 +9717,11 @@
   {
    "from": "v13_bc_l4_interior_chart_to_q",
    "to": "v13_bc_split_pencil_normal_form",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_bresolved_rademacher",
+   "to": "u2c_giant_tnull_dichotomy",
    "kind": "ev"
   }
  ]

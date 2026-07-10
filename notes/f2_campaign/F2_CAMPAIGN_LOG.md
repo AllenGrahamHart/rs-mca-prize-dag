@@ -2269,3 +2269,17 @@ Cycle 111. Upstream unchanged (07-09 head); Codex idle (user
 flag standing); F2 steady state; ledger empty; maintainer debt
 zero. No new information; no action warranted. One hundred
 twenty-three entries.
+
+## 124 — 2026-07-10: the b-resolved Rademacher test — the model
+## holds where the consumer lives (satellite 30)
+
+Cycle 113 found one genuinely untested axis: every prior alignment
+measurement was full-window, but the contract runs at mid-band b.
+The b-resolved test (exact size-resolved census DP, integer-exact
+identity at every (row, b); positive-sum variance, float-sound):
+mid-band orbit-normalized ratios in [0.001, 1.47] at all 4 rows —
+the same O(1) band as everywhere else. The per-orbit Rademacher
+model is now verified across scales AND across band positions;
+the falsifier direction is negative in every dimension the
+contract touches at enumerable scales. One hundred twenty-four
+entries.
