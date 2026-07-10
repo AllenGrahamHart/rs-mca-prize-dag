@@ -191,3 +191,18 @@ face's location and its guard status). The falsification-first
 economy is working exactly as designed: an external prover with
 fresh eyes found our transcription errors in hours and confirmed
 the load-bearing guards hold.
+
+## 12 — 2026-07-10: V1 CONFIRMED (CATCH #30) and fixed; SOL round 2
+## posted (targets 3 + 4)
+
+V1: Sol's complement double-count is REAL — the archived
+b2b_primitive_core face's split ('half-band <= 2^122' + 'tails
+< 2^122') composes to > n^3 under duality; corrected in the
+reduction packet to the two-sided form (half-band <= 2^121 /
+weighted 2C_< + C_= <= n^3/2). ROUTE face only — the u2c floor's
+assembly tolerance is unaffected. V2: the face now carries the
+q-free guard explicitly. ROUND 2 POSTED to the public repo:
+TARGET 3 = the guarded official extras floor (all four round-1
+exploits excluded by hypothesis; falsification = T-FLOOR,
+legitimately); TARGET 4 = the h=4 collision census (the ladder
+rung above two proved predecessors). Catches now 30.

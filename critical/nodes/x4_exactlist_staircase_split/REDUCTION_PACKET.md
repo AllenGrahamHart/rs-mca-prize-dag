@@ -31,7 +31,18 @@ NOT the folded-resultant divisi
 NOTES: CONDITIONAL (Pro D3 route C, verified): EJM_{2m} => flatness by exact Holder cancellation; the D2 falsifier is now a diagnostic (short by (3/5)^N); the proved 255L+1-coordinate lever replaces the dead resultant-gcd. | FALSIFICATION-PASS HANDOFF (for 
 
 ### [CONDITIONAL] b2b_primitive_core
-THE REMAINING CORE of B2b: #{t-null primitive B : t+16 <= |B| <= n/2} <= 2^122 (after complement duality, the M > t dictionary, the M_0-boundary class, and the proved near-tails). The descent packet reduces this to counting bounded-multiplicity multiset-null objects WITH the odd skew equations retained; interpolation is dead at k = 16 (reaches 2^128). One structural input needed — candidate shapes: the skew-equation rigidity at successive scales,
+CATCH #30 (2026-07-10, found by GPT-5.6 'Sol', V1-verified in-repo):
+the budget split below DOUBLE-COUNTS under complement duality — the
+full central band is 2 C_< + C_=, so 'half-band <= 2^122' + 'tails
+< 2^122' composes to > n^3. CORRECTED FACE: the weighted two-sided
+form 2 sum_{b=t+16}^{N/2-1} |C_b| + |C_{N/2}| <= n^3 / 2 (tails keep
+the other half), equivalently half-band count <= 2^121. ALSO (V2):
+this face must carry the q-free effective-index guard explicitly
+(char-divisible moment indices are redundant — Sol's char-3
+construction exploits exactly this at unguarded faces). NOTE: this
+is a ROUTE face; the u2c floor's own assembly tolerance
+(2^{1.05e12}-scale) is unaffected by the factor 2.
+ORIGINAL (superseded): THE REMAINING CORE of B2b: #{t-null primitive B : t+16 <= |B| <= n/2} <= 2^122 (after complement duality, the M > t dictionary, the M_0-boundary class, and the proved near-tails). The descent packet reduces this to counting bounded-multiplicity multiset-null objects WITH the odd skew equations retained; interpolation is dead at k = 16 (reaches 2^128). One structural input needed — candidate shapes: the skew-equation rigidity at successive scales,
 NOTES: ATTACK OPENED (my lane): the skew-tower factorization is EXACT at level 1 (verified F_17/97/193; rich branching exactly at the exceptional prime, coset recursion elsewhere). Not ruled out — strengthened into a framework. | PRO SKEW PACKET INTEGRATED 
 
 ### [CONDITIONAL] b2_modp_giant_extras
