@@ -1961,3 +1961,26 @@ flat — the pseudorandomness is component-wise; eps does not reduce
 to either coordinate; the lattice attack must take the pair (K, U)
 jointly (addendum banked on satellite 26). One hundred four
 entries.
+
+## 105 — 2026-07-10: the parity is a generalized Gauss-lemma symbol
+## (satellite 27) — the summit named in one sentence
+
+Cycle 93. E1's identification is complete and exact: U is the
+Gauss-lemma half-interval count with the interval replaced by the
+subgroup orbit (Gauss's lemma verified as the special case, 0
+mismatches); K is an exact floor-sum lattice count under n lines
+(identity verified at 4 rows, all a). eps = (-1)^{K+U} is thus a
+generalized Gauss-lemma parity — the object classical reciprocity
+computes EXACTLY when the counting set is a fundamental half-domain
+(Gauss, Eisenstein, Zolotarev, Duke-Hopkins), and which our
+measurements certify as pseudorandom when the counting set is a
+subgroup orbit. The naive Zolotarev candidate (sorting-permutation
+sign) is refuted (corr ~ 0). The summit in one sentence: prove
+square-root cancellation for generalized Gauss-lemma parities of
+subgroup orbit configurations. Every classical mechanism is now
+checked and closed: character formulas (26), spectral bases (23,
+26), ladder inductions (22), Frobenius averaging (25), naive
+permutation signs (this), fundamental-domain reciprocity
+(structurally absent). The problem is genuinely open and now
+PERFECTLY posed for the delegation channel and the literature.
+One hundred five entries.
