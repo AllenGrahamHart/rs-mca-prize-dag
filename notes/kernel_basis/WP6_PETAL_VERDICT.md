@@ -14,7 +14,13 @@ FLAGS: a FIFTH branch exists (vendor-e22-minimal-scale-accounting)
 — NOT replayed, must not be treated as imported; the inclusion-
 exclusion weight W is a declared placeholder; the referenced node
 e22_cross_scale_pricing_multiplicity EXISTS NOWHERE (reference
-only).
+only). [CORRECTION 2026-07-10, amber audit Catch A: this last line
+is WRONG — the node EXISTS at background/nodes/ (since Jul 5, dag
+status PROVED). The substance survives: its req parents are the
+un-replayed fifth branch, and the key parent
+e22_minimal_scale_pricing_compatibility has NO verifier, so it is
+still not consumable (anti-goal). Fifth-branch nodes now carry
+REPLAY-PENDING annotations in dag.json.]
 
 CHAIN (petal_growth <- K4), 12 steps: PROVED/replayed at 2,4,5,7,8;
 ARITHMETIC checked at 10 (staircase column 5005 = C(15,6) matches

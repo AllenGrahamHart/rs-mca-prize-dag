@@ -753,15 +753,15 @@
   {
    "id": "petal_growth",
    "title": "FLOOR CONJECTURE (PETAL-ESCAPE-BUDGET): top-band full-petal contribution to #ImgFib_U fits n^B at official rows",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
    "refs": [
     "proof_sketch/s7_list_side.md#4"
    ],
-   "statement": "FLOOR RE-POSE (2026-07-07, floor campaign \u2014 notes/floor_campaign/SURVEY_OTHER_LANES.md): the consumer (imgfib) consumes ONLY 'for ALL received words U: #ImgFib_U(k+sigma) <= n^B' with the petal escape route as the single open branch. FLOOR: at the official rows, for every U, the full-petal (top-defect band d >= M(t-2)) contribution to #ImgFib_U fits the n^B budget. NO uniformity-in-c claim and NO per-c polynomial claim \u2014 those are route strengthenings (kept below). Pre-registered falsifier: scaled official-like rows with a super-budget top-band petal family, sustained across scales; below-top behavior is Lemma-13-clean (76-row scan, max exact count 1). | Full-petal extras at cofactor excess d-ell = c are poly(n) uniformly in c (equivalently: the amplification bound closes the Thm 21/B11 escape route). | SURVIVAL +1 (2026-07-07, F4-A1, notes/f4a1_topband_ladder_modal.py): 7-rung prime ladder (109..6421, all gates PASS) \u2014 top-band max exact count EXACTLY 5005 = C(15,6) at every rung (slope +0.000; p-independent, purely binomial), below-top <= 1, zero Lemma-13 violations. The floor's n^B claim holds flat; constructive lead: the top-band family is combinatorially parameterized (the demanded paid family is a binomial column \u2014 identify and prove it on the route side). | SURVIVAL +2 scoped (2026-07-07, F4-A2): adversarial c-sweep to c=14 \u2014 top-band count steps C(15,6) -> C(20,6) = 38760: bounded-degree (6) binomial growth in the excess parameter, absorbed by any c-uniform n^B budget; the paid-family lead sharpens to a 6-dimensional binomial column. Large-p c-sweep completeness and the exact offset formula to F4-A2b. | SURVIVAL +3 -> **HARDENED** (2026-07-07, F4-A2b): the top band has a two-regime structure \u2014 at-top realizability SATURATES to the full binomial window p-independently (the paid family, exactly chargeable; the ladder's constant 5005 refined to this semantics), below-top accidents decay with p (4->0, 2->0), Lemma-13 zero violations everywhere. Families: p-ladder / c-growth / kernel-ceiling. | Pro floor-window 4: no kill; budget implication completed and replayed (C(n+6,6) <= n^6 at all four official maximal rows, exponent <= 5.785) \u2014 the saturated column provably fits n^6. || SLACK-SCAN ADDENDUM (2026-07-09, floor_budget_slack_scan): NOT BINDING \u2014 the saturated degree-6 binomial column sits ~9.5 bits under n^6 at all four official maximal rows (exponents 5.7685..5.7843, exact recompute; banked <= 5.785 confirmed); the excess-c column keeps degree 6. B_max > 6 would be gated by the codegree-conversion emission (imgfib -> list_safe): named open cell, compute only if the route needs it. | WP6 KERNEL-BASIS VERDICT (2026-07-10, notes/kernel_basis/WP6_PETAL_VERDICT.md): REDUCTION-PARTIAL onto K4 (stabilizer-primitive image-fiber bound) \u2014 Codex's four E22 packets replayed PROVED (10/10 verifiers; ledger walls + algebraic entry real; staircase column exactly matches the planted lower count, separate charge NECESSARY; ~9.5 bits slack at exponent 5.785) but three named gaps block the amber: G1 layer-map supply for arbitrary U (upstream withholds), G2 support-forcing dichotomy (the central bridge, proved nowhere; F4-A2b empirics are evidence only), G3 pricing multiplicity (referenced node exists nowhere). Fifth E22 branch (minimal-scale accounting) NOT imported.",
+   "statement": "FLOOR RE-POSE (2026-07-07, floor campaign \u2014 notes/floor_campaign/SURVEY_OTHER_LANES.md): the consumer (imgfib) consumes ONLY 'for ALL received words U: #ImgFib_U(k+sigma) <= n^B' with the petal escape route as the single open branch. FLOOR: at the official rows, for every U, the full-petal (top-defect band d >= M(t-2)) contribution to #ImgFib_U fits the n^B budget. NO uniformity-in-c claim and NO per-c polynomial claim \u2014 those are route strengthenings (kept below). Pre-registered falsifier: scaled official-like rows with a super-budget top-band petal family, sustained across scales; below-top behavior is Lemma-13-clean (76-row scan, max exact count 1). | Full-petal extras at cofactor excess d-ell = c are poly(n) uniformly in c (equivalently: the amplification bound closes the Thm 21/B11 escape route). | SURVIVAL +1 (2026-07-07, F4-A1, notes/f4a1_topband_ladder_modal.py): 7-rung prime ladder (109..6421, all gates PASS) \u2014 top-band max exact count EXACTLY 5005 = C(15,6) at every rung (slope +0.000; p-independent, purely binomial), below-top <= 1, zero Lemma-13 violations. The floor's n^B claim holds flat; constructive lead: the top-band family is combinatorially parameterized (the demanded paid family is a binomial column \u2014 identify and prove it on the route side). | SURVIVAL +2 scoped (2026-07-07, F4-A2): adversarial c-sweep to c=14 \u2014 top-band count steps C(15,6) -> C(20,6) = 38760: bounded-degree (6) binomial growth in the excess parameter, absorbed by any c-uniform n^B budget; the paid-family lead sharpens to a 6-dimensional binomial column. Large-p c-sweep completeness and the exact offset formula to F4-A2b. | SURVIVAL +3 -> **HARDENED** (2026-07-07, F4-A2b): the top band has a two-regime structure \u2014 at-top realizability SATURATES to the full binomial window p-independently (the paid family, exactly chargeable; the ladder's constant 5005 refined to this semantics), below-top accidents decay with p (4->0, 2->0), Lemma-13 zero violations everywhere. Families: p-ladder / c-growth / kernel-ceiling. | Pro floor-window 4: no kill; budget implication completed and replayed (C(n+6,6) <= n^6 at all four official maximal rows, exponent <= 5.785) \u2014 the saturated column provably fits n^6. || SLACK-SCAN ADDENDUM (2026-07-09, floor_budget_slack_scan): NOT BINDING \u2014 the saturated degree-6 binomial column sits ~9.5 bits under n^6 at all four official maximal rows (exponents 5.7685..5.7843, exact recompute; banked <= 5.785 confirmed); the excess-c column keeps degree 6. B_max > 6 would be gated by the codegree-conversion emission (imgfib -> list_safe): named open cell, compute only if the route needs it. | WP6 KERNEL-BASIS VERDICT (2026-07-10, notes/kernel_basis/WP6_PETAL_VERDICT.md): REDUCTION-PARTIAL onto K4 (stabilizer-primitive image-fiber bound) \u2014 Codex's four E22 packets replayed PROVED (10/10 verifiers; ledger walls + algebraic entry real; staircase column exactly matches the planted lower count, separate charge NECESSARY; ~9.5 bits slack at exponent 5.785) but three named gaps block the amber: G1 layer-map supply for arbitrary U (upstream withholds), G2 support-forcing dichotomy (the central bridge, proved nowhere; F4-A2b empirics are evidence only), G3 pricing multiplicity (WP6 wrote 'referenced node exists nowhere' \u2014 CORRECTED 2026-07-10 amber audit Catch A: e22_cross_scale_pricing_multiplicity EXISTS locally since Jul 5 with status PROVED, but rides on the WP6-unreplayed fifth branch, so G3 stays a predicate per the anti-goal). Fifth E22 branch (minimal-scale accounting) NOT imported. || AMBER SURGERY (2026-07-10, petal amber audit, sequel to WP6): CONDITIONAL \u2014 machine-verified assembly implication: IF petal_g1_layer_maps AND petal_g2_support_forcing AND petal_g3_pricing_multiplicity AND petal_k4_primitive_bound (G4/G5 + P1/P3 pinned as definitions in conditional.md) THEN at every official row and every U, the top-band full-petal contribution to #ImgFib_U(k+sigma) splits as [primitive: <= n^{b1+b4}, charged to n^B] + [staircase: <= n^{b1+b3} x planted column, charged to imgfib's quotient-profile budget \u2014 the charge proved NECESSARY by v13_capf_planted_lower_count, exact column match]. Every non-predicate link PROVED: pma injection + four E22 packets (verifiers replayed exit-0 twice: WP6 and this audit) + exact arithmetic (exponent <= 5.785, slack = log2 6! = 9.4919 bits at n = 2^41..2^44, composition machine-checked; the 9.5 bits IS the binomial denominator, not structural headroom \u2014 do not spend it in predicate exponents). ROUTE OF RECORD: G1 -> pma -> [G4 pin] -> cofactor packets -> G2 -> {staircase: tail-coset + 7-lemma composite -> G3 -> quotient budget | primitive: K4} -> floor. RE-SURGERY (demote to TARGET) if: any predicate falsified as stated; the G4 dictionary check fails on a sweep cell; the fifth-branch replay contradicts the declared W semantics; the band pin P1 (floor band M(t-2) vs scan band (t-1)M \u2014 Catch B) is resolved to a different constant; or imgfib's quotient clause is re-scoped so the P3 emission no longer lands. SCOPE: top band only \u2014 mixed-petal and below-top are separate obligations, untouched.",
    "attack_surface": "fixed-excess enumerations (Q2.9) then the amplification statement; CRT compression makes small cases finite",
    "falsifier": "Pre-registered: a sustained super-n^B top-band full-petal family at scaled official-like rows (transported arithmetic). Below-top Lemma-13 territory and single window accidents do NOT count.",
-   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_growth/conditional.md. | FRONTIER RETRACTION 2026-07-05: demoted CONDITIONAL->TARGET and the sub-frontier CUT (archive/retraction_petal_20260705/). Reason: the petal machinery below (chargeability band frontier, band-split sparsity interface, uniformity/amplification nodes) suffered repeated falsifications-as-stated (Gate N, PRK, chargeability) and the audit surface was no longer trusted. This node -- full-petal extras poly(n) uniformly in c -- is the honest open obligation. Best-known structure from the cut exploration: the multi-char threat is confined to the top-defect band d>=M(t-2) (verified); off-band has an induction proof route via top-coefficient forcing; the band needs a parameterized paid family. See archive + EMPIRICAL_OBSERVATIONS. | AMBER STRESS 2026-07-06: local petal_excess scan checked 16 coset-chart configs / 76 rows, with no below-top Lemma-13 violations. Ambient dimK grows with c, so flat-kernel induction is not viable; exact realizable counts were max 1 below top and max 5005 at/top beyond, reinforcing top-band paid-family focus. | residual gate:any attribute removed 2026-07-06 (no alt edges exist; red-leaf law forbids them on a TARGET anyway)."
+   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_growth/conditional.md. | FRONTIER RETRACTION 2026-07-05: demoted CONDITIONAL->TARGET and the sub-frontier CUT (archive/retraction_petal_20260705/). Reason: the petal machinery below (chargeability band frontier, band-split sparsity interface, uniformity/amplification nodes) suffered repeated falsifications-as-stated (Gate N, PRK, chargeability) and the audit surface was no longer trusted. This node -- full-petal extras poly(n) uniformly in c -- is the honest open obligation. Best-known structure from the cut exploration: the multi-char threat is confined to the top-defect band d>=M(t-2) (verified); off-band has an induction proof route via top-coefficient forcing; the band needs a parameterized paid family. See archive + EMPIRICAL_OBSERVATIONS. | AMBER STRESS 2026-07-06: local petal_excess scan checked 16 coset-chart configs / 76 rows, with no below-top Lemma-13 violations. Ambient dimK grows with c, so flat-kernel induction is not viable; exact realizable counts were max 1 below top and max 5005 at/top beyond, reinforcing top-band paid-family focus. | residual gate:any attribute removed 2026-07-06 (no alt edges exist; red-leaf law forbids them on a TARGET anyway). | AMBER 2026-07-10: route of record = G1/G2/G3/K4 predicate split (audit AMBER-READY); conditional packet rewritten (conditional.md); direct form chosen over a companion close-node because the maintainer's brief converts the red itself and petal_growth was historically the conditional node."
   },
   {
    "id": "petal_witnesses",
@@ -4330,7 +4330,8 @@
    "status": "PROVED",
    "statement": "The quotient staircase pricing column counts the canonical support-scale equivalence classes from e22_cross_scale_support_canonical_form with exactly the declared multiplicity, so quotienting by cross-scale duplicates neither overcounts nor undercounts E22 challengers. This is reduced to the proved dyadic minimal-scale selector plus the remaining pricing-column compatibility theorem.",
    "attack_surface": "assembly from e22_dyadic_minimal_scale_selector and e22_minimal_scale_pricing_compatibility",
-   "falsifier": "a canonical cross-scale equivalence class whose contribution to the pricing column has the wrong multiplicity"
+   "falsifier": "a canonical cross-scale equivalence class whose contribution to the pricing column has the wrong multiplicity",
+   "notes": "REPLAY-PENDING (2026-07-10 petal amber audit, Catch A): PROVED status rides on the fifth E22 branch (minimal-scale accounting), which WP6 explicitly did not replay; of the probed nodes only e22_dyadic_minimal_scale_selector has a verifier (passes). Do NOT consume on the critical surface until a fresh-context replay; candidate discharge of petal_g3_pricing_multiplicity."
   },
   {
    "id": "e22_overlap_nested_fiber_residual_identity",
@@ -4354,7 +4355,8 @@
    "status": "PROVED",
    "statement": "The dyadic quotient staircase pricing column, with any declared duplicate subtraction or multiplicity factor, counts exactly the supports whose canonical tail data satisfy the minimal-scale tail criterion. This is reduced to the proved minimal-scale partition plus the remaining exact column-evaluation theorem.",
    "attack_surface": "assembly from the dyadic minimal-scale partition and the remaining exact pricing-column evaluation",
-   "falsifier": "a tail-minimal support class omitted, duplicated, or assigned the wrong multiplicity by the refined pricing formula"
+   "falsifier": "a tail-minimal support class omitted, duplicated, or assigned the wrong multiplicity by the refined pricing formula",
+   "notes": "REPLAY-PENDING (2026-07-10 petal amber audit, Catch A): PROVED status rides on the fifth E22 branch (minimal-scale accounting), which WP6 explicitly did not replay; of the probed nodes only e22_dyadic_minimal_scale_selector has a verifier (passes). Do NOT consume on the critical surface until a fresh-context replay; candidate discharge of petal_g3_pricing_multiplicity."
   },
   {
    "id": "e22_dyadic_chain_mobius_accounting",
@@ -4402,7 +4404,8 @@
    "status": "PROVED",
    "statement": "For dyadic domains, the admissible quotient moduli form a finite chain, so every canonical support-scale class with at least one admissible modulus has a unique minimal admissible modulus. Selecting that modulus gives a canonical representative of the cross-scale class.",
    "attack_surface": "finite-chain selector on the canonical support-scale data",
-   "falsifier": "a dyadic canonical support-scale class with two distinct minimal admissible moduli or no well-defined selected representative"
+   "falsifier": "a dyadic canonical support-scale class with two distinct minimal admissible moduli or no well-defined selected representative",
+   "notes": "REPLAY-PENDING (2026-07-10 petal amber audit, Catch A): PROVED status rides on the fifth E22 branch (minimal-scale accounting), which WP6 explicitly did not replay; of the probed nodes only e22_dyadic_minimal_scale_selector has a verifier (passes). Do NOT consume on the critical surface until a fresh-context replay; candidate discharge of petal_g3_pricing_multiplicity."
   },
   {
    "id": "e22_tail_coset_locator_algebra",
@@ -4426,7 +4429,8 @@
    "status": "PROVED",
    "statement": "For each dyadic pair of scales M_i<M_j, compute exactly the number of support classes whose minimal admissible scale is M_i and which are also counted by the raw quotient staircase summand at M_j. This is reduced to the proved nested-fiber residual identity and the remaining exact residual-profile formula, including all declared duplicate or multiplicity factors used by dyadic_profile_evaluation.",
    "attack_surface": "assembly from the nested-fiber residual identity and the remaining exact residual-profile formulas",
-   "falsifier": "a smaller-minimal-scale class contributing to a larger raw scale with an unaccounted or wrongly weighted overlap"
+   "falsifier": "a smaller-minimal-scale class contributing to a larger raw scale with an unaccounted or wrongly weighted overlap",
+   "notes": "REPLAY-PENDING (2026-07-10 petal amber audit, Catch A): PROVED status rides on the fifth E22 branch (minimal-scale accounting), which WP6 explicitly did not replay; of the probed nodes only e22_dyadic_minimal_scale_selector has a verifier (passes). Do NOT consume on the critical surface until a fresh-context replay; candidate discharge of petal_g3_pricing_multiplicity."
   },
   {
    "id": "e22_kernel_invariance_full_fiber_criterion",
@@ -4458,7 +4462,8 @@
    "status": "PROVED",
    "statement": "The dyadic quotient staircase pricing column, as evaluated by dyadic_profile_evaluation, counts the minimal-scale representatives selected by e22_dyadic_minimal_scale_selector with exactly the declared multiplicity. This is reduced to the proved tail-minimality criterion plus the remaining count formula for supports satisfying that criterion.",
    "attack_surface": "assembly from e22_minimal_scale_tail_criterion and e22_minimal_scale_count_formula",
-   "falsifier": "a selected canonical representative that is omitted, duplicated, or assigned the wrong multiplicity by the dyadic pricing column"
+   "falsifier": "a selected canonical representative that is omitted, duplicated, or assigned the wrong multiplicity by the dyadic pricing column",
+   "notes": "REPLAY-PENDING (2026-07-10 petal amber audit, Catch A): PROVED status rides on the fifth E22 branch (minimal-scale accounting), which WP6 explicitly did not replay; of the probed nodes only e22_dyadic_minimal_scale_selector has a verifier (passes). Do NOT consume on the critical surface until a fresh-context replay; candidate discharge of petal_g3_pricing_multiplicity."
   },
   {
    "id": "e22_minimal_scale_tail_criterion",
@@ -4466,7 +4471,8 @@
    "status": "PROVED",
    "statement": "For dyadic E22 support-scale data, a modulus M is the selected minimal admissible scale exactly when |B_M(R)|<M and every smaller admissible dyadic modulus M'<M has |B_{M'}(R)|>=M'.",
    "attack_surface": "finite-chain reformulation of the canonical full-fiber/tail recovery rule",
-   "falsifier": "a support whose selected minimal scale disagrees with the tail-size criterion"
+   "falsifier": "a support whose selected minimal scale disagrees with the tail-size criterion",
+   "notes": "REPLAY-PENDING (2026-07-10 petal amber audit, Catch A): PROVED status rides on the fifth E22 branch (minimal-scale accounting), which WP6 explicitly did not replay; of the probed nodes only e22_dyadic_minimal_scale_selector has a verifier (passes). Do NOT consume on the critical surface until a fresh-context replay; candidate discharge of petal_g3_pricing_multiplicity."
   },
   {
    "id": "e22_cross_scale_support_canonical_form",
@@ -4506,7 +4512,8 @@
    "status": "PROVED",
    "statement": "The dyadic quotient staircase pricing column, as evaluated by dyadic_profile_evaluation and with the declared duplicate subtraction or multiplicity factor, equals the sum over the disjoint minimal-scale partition cells from e22_minimal_scale_partition. This is reduced to the proved dyadic-chain accounting identity plus the remaining exact cross-scale overlap count formulas.",
    "attack_surface": "assembly from dyadic-chain triangular accounting and the remaining exact overlap-count inputs",
-   "falsifier": "a minimal-scale partition cell whose contribution to the dyadic pricing column is omitted, duplicated, or assigned the wrong multiplicity"
+   "falsifier": "a minimal-scale partition cell whose contribution to the dyadic pricing column is omitted, duplicated, or assigned the wrong multiplicity",
+   "notes": "REPLAY-PENDING (2026-07-10 petal amber audit, Catch A): PROVED status rides on the fifth E22 branch (minimal-scale accounting), which WP6 explicitly did not replay; of the probed nodes only e22_dyadic_minimal_scale_selector has a verifier (passes). Do NOT consume on the critical surface until a fresh-context replay; candidate discharge of petal_g3_pricing_multiplicity."
   },
   {
    "id": "e22_cofactor_petal_divisibility",
@@ -4522,7 +4529,8 @@
    "status": "PROVED",
    "statement": "For dyadic E22 support-scale data, the classes with at least one admissible quotient modulus decompose disjointly by their unique minimal admissible modulus. Equivalently, the tail-minimal predicates from e22_minimal_scale_tail_criterion form a disjoint partition of the selected canonical representatives.",
    "attack_surface": "finite-chain partition induced by the dyadic minimal-scale selector",
-   "falsifier": "a dyadic support class with two different minimal admissible moduli, or with an admissible modulus but no tail-minimal partition cell"
+   "falsifier": "a dyadic support class with two different minimal admissible moduli, or with an admissible modulus but no tail-minimal partition cell",
+   "notes": "REPLAY-PENDING (2026-07-10 petal amber audit, Catch A): PROVED status rides on the fifth E22 branch (minimal-scale accounting), which WP6 explicitly did not replay; of the probed nodes only e22_dyadic_minimal_scale_selector has a verifier (passes). Do NOT consume on the critical surface until a fresh-context replay; candidate discharge of petal_g3_pricing_multiplicity."
   },
   {
    "id": "e22_lower_scale_intersection_profile_counts",
@@ -4991,6 +4999,28 @@
    "id": "ww_lemma_a_exhaustion",
    "status": "PROVED",
    "statement": "LEMMA A \u2014 CHALLENGER EXHAUSTION (clause (i) of the worst_word floor; proof at critical/nodes/worst_word_challenger_pricing/LEMMA_A_EXHAUSTION_PROOF.md; re-derived line-by-line + the E15 gate replayed PASS at the 2026-07-10 amber audit): in every official-convention cell (max-fill, bg <= 1), every non-planted list word (deg < k, agreement >= k + sigma, sigma >= 1) touches >= 2 petals \u2014 it IS a mixed/full-petal challenger; no third class exists. The bg <= 1 hypothesis is load-bearing and SHARP (bg = 5/9 counterexample witnesses banked). Consequence used by the close: 'challenger count' = ALL non-planted list-word count at official cells \u2014 the W3 predicate's envelope covers everything non-planted."
+  },
+  {
+   "id": "petal_g1_layer_maps",
+   "status": "TARGET",
+   "statement": "PETAL PREDICATE G1 (layer-map supply for arbitrary U): at every official row and for every received word U, the top-band (d >= M(t-2), pin P1) full-petal contributors to ImgFib_U^{<k}(k+sigma) are covered by fixed (D0,R0) sunflower auxiliary layers (def:capf-sunflower-layer, cap25_cap_v13_raw.tex sec:capf-l1) each supplying: (i) the injective layer map Psi into F[X]_{<=d} with agreement a = sigma+d+1-r against U_{D0} on the petal domain; (ii) petals realized as cosets of the scale subgroup (quotient fibers), so that periodicity scale is defined in the chart; (iii) joint chart control \u2014 each listed codeword is charged at most n^{b1} times, jointly over missed cores (the union-injective form proved in prop:capf-zero-excess-chart / prop:capf-distinct-excess-chart, which recover D0 from chart data). PROVED AROUND IT: the concrete-word injection (prop:capf-concrete-sunflower) and the distinct-label residual-free charts (with the joint form) are unconditional; upstream withholds exactly this supply for arbitrary U ('theorems ... only when the decomposition supplies the stated layer maps'). FALSIFIER: an official-like row and U with a top-band full-petal contributor covered by no chart, or with chart multiplicity growing super-polynomially. SCOPE: top band only; without clause (iii) the assembly fails on the chart union (C(k-1,d) cost) \u2014 the clause is load-bearing, not decoration (2026-07-10 amber audit, Finding D)."
+  },
+  {
+   "id": "petal_g2_support_forcing",
+   "status": "TARGET",
+   "key": true,
+   "statement": "PETAL PREDICATE G2 (support-forcing dichotomy, closure form): at official rows, every top-band full-petal contributor's agreement set is STAIRCASE at some dyadic scale M >= 2 (tail |B| < M plus full M-fibers; locator L_B(X)G(X^M)) OR is APERIODIC (c(S)=1, def:periodicity-scale) \u2014 exactly, with no third class. Deliberately stronger than SOL_TARGET_2's fixed-M form: the per-M trivial-stabilizer version leaves scales M <= sigma+1 uncharged and does not compose to the aperiodic charge (2026-07-10 amber audit, Finding C); SOL_TARGET_2 remains the solicitation vehicle, THIS statement is binding. PROVED AROUND IT: packets e22_agreement_cofactor_equations + e22_cofactor_petal_divisibility convert the hypothesis side to a divisibility system (its entry point); the tail-coset algebra and the 7-lemma staircase composite consume its staircase branch; F4-A2b two-regime empirics (staircase counts p-independent, everything else decays ~1/p) are evidence only. FALSIFIER (pre-registered, from SOL_TARGET_2): an explicit (p,n,M,k,sigma,U) with a top-band codeword neither staircase-at-any-scale nor aperiodic, or a super-polynomial hybrid family."
+  },
+  {
+   "id": "petal_g3_pricing_multiplicity",
+   "status": "TARGET",
+   "statement": "PETAL PREDICATE G3 (pricing multiplicity): per U at official rows, the number of listed codewords charged to one canonical staircase support datum (scale, tail, selected fibers \u2014 canonicalization per the replayed staircase composite) is <= n^{b3}, and the inclusion-exclusion weight W of e22_lower_scale_filter_inclusion_exclusion is exactly the dyadic_profile_evaluation multiplicity weight (the declared-placeholder discharge). PROVED AROUND IT: support-level multiplicity is exactly zero-hidden (7-lemma composite, replayed); for staircase parts of size >= k, interpolation gives multiplicity <= 1 \u2014 the open content is sub-k staircase parts. CANDIDATE DISCHARGE, not consumed: e22_cross_scale_pricing_multiplicity + the minimal-scale branch (un-replayed, largely verifier-less \u2014 2026-07-10 amber audit, Catch A); a fresh-context replay of that branch is the fastest close. FALSIFIER: a (U, canonical support) pair with super-polynomial codeword multiplicity, or a weighted cell where the declared W disagrees with dyadic_profile_evaluation."
+  },
+  {
+   "id": "petal_k4_primitive_bound",
+   "status": "TARGET",
+   "key": true,
+   "statement": "PETAL PREDICATE K4 (stabilizer-primitive bound, band-restricted chart form; pin G5 inside): for every chart supplied by petal_g1_layer_maps at official rows, the stabilizer-primitive part (aperiodic agreement sets, c(S)=1, the same pinned notion as petal_g2_support_forcing \u2014 pin G5) of the auxiliary list ImgFib_{U_{D0}}^{<=d}(a;T) has size <= n^{b4}, uniformly over charts and U, under imgfib's reserve and lower cutoff. PROVENANCE: the band-restricted instantiation of upstream prob:capf-primitive-image-fiber (kernel K4 of the kernel-basis program; v13_capf_planted_lower_count fixed the correct target form \u2014 the quotient-periodic branch must be charged separately, and that charge is NECESSARY). HONEST SCOPE: stated where the chain consumes it; neither implies nor follows from the row-level upstream form; a future row-level proof needs a band-restriction bridge before consumption here. FALSIFIER: a chart family with super-polynomial aperiodic auxiliary lists above the reserve."
   }
  ],
  "edges": [
@@ -9807,6 +9837,56 @@
   {
    "from": "xr_target_budget_audit",
    "to": "worst_word_challenger_pricing",
+   "kind": "req"
+  },
+  {
+   "from": "petal_g1_layer_maps",
+   "to": "petal_growth",
+   "kind": "req"
+  },
+  {
+   "from": "petal_g2_support_forcing",
+   "to": "petal_growth",
+   "kind": "req"
+  },
+  {
+   "from": "petal_g3_pricing_multiplicity",
+   "to": "petal_growth",
+   "kind": "req"
+  },
+  {
+   "from": "petal_k4_primitive_bound",
+   "to": "petal_growth",
+   "kind": "req"
+  },
+  {
+   "from": "e22_agreement_cofactor_equations",
+   "to": "petal_growth",
+   "kind": "req"
+  },
+  {
+   "from": "e22_cofactor_petal_divisibility",
+   "to": "petal_growth",
+   "kind": "req"
+  },
+  {
+   "from": "e22_tail_coset_locator_algebra",
+   "to": "petal_growth",
+   "kind": "req"
+  },
+  {
+   "from": "e22_lower_scale_filter_inclusion_exclusion",
+   "to": "petal_growth",
+   "kind": "req"
+  },
+  {
+   "from": "v13_capf_planted_lower_count",
+   "to": "petal_growth",
+   "kind": "req"
+  },
+  {
+   "from": "e22_fiber_locator_saturation",
+   "to": "petal_growth",
    "kind": "req"
   }
  ]

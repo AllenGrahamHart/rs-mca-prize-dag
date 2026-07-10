@@ -53,3 +53,32 @@ band codeword that is neither staircase nor stabilizer-primitive
 — or a family showing the band contains super-polynomially many
 such hybrids. Either resolution is decisive for the prize node
 petal_growth (see notes/kernel_basis/WP6_PETAL_VERDICT.md).
+
+---
+
+## APPENDIX (2026-07-10, internal audit): the BINDING form is the
+## all-scales closure, not the fixed-M form above
+
+An adversarial audit of our own consumption chain found a
+composition gap in the statement as posed above: fixing one scale
+M > sigma + 1 and using trivial-order-M-stabilizer leaves the
+scales M <= sigma + 1 (in particular M = 2 at sigma = 1 on 2-power
+rows) charged to NEITHER branch, so the per-M dichotomy does not
+compose to the aperiodicity charge (c(S) = 1) that the downstream
+primitive bound consumes.
+
+The form our proof chain actually needs (now the binding statement,
+node petal_g2_support_forcing in the critical DAG) is the CLOSURE
+over all dyadic scales:
+
+  at official rows, every top-band full-petal contributor's
+  agreement set is STAIRCASE at SOME dyadic scale M >= 2 (tail
+  |B| < M plus full M-fibers) OR is APERIODIC (periodicity scale
+  c(S) = 1) — exactly, with no third class.
+
+This is deliberately STRONGER than the fixed-M form above. A proof
+of the fixed-M form is still valuable partial progress; a
+falsification of either form at the stated band is decisive. The
+falsifier shape is unchanged: an explicit (p, n, M, k, sigma, U)
+with a top-band codeword neither staircase-at-any-scale nor
+aperiodic, or a super-polynomial hybrid family.

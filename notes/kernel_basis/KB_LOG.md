@@ -352,3 +352,53 @@ recomputed figures (1.75x/3.64x-with-rise) in the node statement.
 RED-COUNT SEMANTICS: 7 -> 9 is the invariant working — one blunt
 floor swapped for three sharp predicates; the roadmap now shows
 the true grain. Petal audit still running; u1_x4/dli/xr queued.
+
+## 20 — 2026-07-10: petal_growth AMBER — the third route commitment;
+## surface 216 = {180 PROVED, 24 COND, 12 UNPROVED}
+
+Fresh-context amber audit (sequel to WP6): verdict AMBER-READY. The
+14-link assembly chain verified end to end — every non-predicate
+link PROVED (all 9 available E22 packet verifiers + two_class +
+verify_capf_planted re-run exit-0, a SECOND independent replay) or
+DEFINITIONAL (pins P1/G4/G5/P3), budget arithmetic machine-checked
+exactly (banked: critical/nodes/petal_growth/notes/
+amber_audit_budget_check_20260710.py — exponents 5.7685..5.7843
+<= 5.785, slack exactly log2 6! = 9.4919 bits, v13 columns 507/
+32760 bits, crossing table exact).
+
+SURGERY: four predicates minted and req-wired (petal_g1_layer_maps,
+petal_g2_support_forcing [key], petal_g3_pricing_multiplicity,
+petal_k4_primitive_bound [key]); green skeleton req-wired
+(cofactor + divisibility + tail-coset packets, the 7-lemma
+staircase composite head + its req-chain + fiber-locator
+saturation, v13_capf_planted_lower_count); petal_growth ->
+CONDITIONAL with route of record + 5 re-surgery criteria;
+partition law: 11 folders background -> critical; conditional.md
+rewritten (stale 07-05 content archived inside it).
+
+CATCHES/FINDINGS (all absorbed, none breaks the amber):
+- CATCH A (#33 house ledger): WP6's "e22_cross_scale_pricing_
+  multiplicity EXISTS NOWHERE" is FALSE — it exists (PROVED) but
+  rides on the un-replayed fifth branch whose key parent has NO
+  verifier. WP6 verdict corrected in place; fifth branch (8 nodes)
+  annotated REPLAY-PENDING in dag.json; status-hygiene lesson: a
+  naive assembly would have silently consumed a PROVED-labelled
+  un-replayed chain.
+- CATCH B (#34): band-constant mismatch — floor band d >= M(t-2)
+  vs operational scan band (t-1)M (one petal narrower). Floor's is
+  the safe/wider direction; predicates quantified over the floor's
+  band; maintainer decision owed (pin P1).
+- FINDING C: SOL_TARGET_2's fixed-M trivial-stabilizer form does
+  NOT compose to the aperiodic charge (scales M <= sigma+1 leak).
+  G2 minted in all-dyadic-scales CLOSURE form; binding-form
+  appendix added to SOL_TARGET_2 (solicitation vehicle unchanged).
+- FINDING D: joint chart-control clause (iii) pinned INSIDE G1 —
+  without it the C(k-1,d) chart union destroys the budget.
+- Adversarial slack note: the 9.5 bits IS log2(6!) — consistency
+  margin only, never spendable in predicate exponents.
+
+Route note: G3's fastest close is a fresh-context fifth-branch
+replay (candidate discharge already exists). K4 remains the
+kernel-basis K4 (band-restricted instantiation; bridge obligation
+documented). Red count 9 -> 12: petal's blunt floor swapped for
+four sharp predicates — the invariant working as designed.
