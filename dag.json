@@ -4941,6 +4941,11 @@
    "id": "f2_deep_regime_exactness",
    "status": "PROVED",
    "statement": "F2 DEEP-REGIME EXACTNESS THEOREM (2026-07-10, campaign cycle 103): in the deep regime (q large against 2^n), the dichotomy holds EXACTLY for almost every prime row \u2014 zero extras, no tolerance needed. THEOREM: fix n = 2^s, j <= 3. The moment vectors of a subset T of mu_n(F_q) are the reductions mod the prime q-above of FIXED cyclotomic integers M_i(T) in Z[zeta_n]; if T is not a coset-union struct block then some M_i(T) != 0 (Lam-Leung at 2-power n: 0/1 vanishing sums are antipodal-pair unions; applied per power i <= j), and its norm is a nonzero integer of size <= n^{phi(n)}, so T can be j-null for at most phi(n) log_2(n)-ish sporadic primes; union over 2^n subsets gives: the number of primes q = 1 mod n in a dyadic window [Q, 2Q] carrying ANY non-struct j-null subset is O(2^n n log n / log Q) \u2014 for Q >= 2^{(1+eps)n}, ALMOST EVERY row is EXACT. EMPIRICAL (stronger than the statement): at n = 8, j = 2, ALL 1247 primes q = 1 mod 8 in [257, 50000) have extras = 0 \u2014 1247/1247 exact; this also EXPLAINS the (113,16,j=3) zero-extras autopsy row (q^3 = 1.4M >> 2^16, deep regime). HONEST REGIME CAVEAT (prominent): official rows sit in the OPPOSITE corner (q ~ 2^31 << 2^n, n ~ 2^40) \u2014 this theorem closes the sparse-prime corner of the phase diagram and is NOT on the critical path; its value is (a) the first unconditional EXACT-dichotomy regime, (b) the mechanism (cyclotomic rigidity: extras exist mod q only where q divides fixed nonzero cyclotomic norms) \u2014 the cleanest available explanation of WHY extras are scarce everywhere measured, and (c) a sharpened falsifier context: deep-regime rows with extras would contradict a THEOREM, not a conjecture. One careful-write-up flag: the per-power Lam-Leung step for i >= 2 (squares map exponents mod n/2) deserves a full proof note if this node ever becomes load-bearing. Verifier: inline in campaign log #115 (local, exhaustive at n=8). Twenty-ninth satellite."
+  },
+  {
+   "id": "v13_veronese_top_stratum_char0",
+   "status": "PROVED",
+   "statement": "VERONESE z*=0 TOP-STRATUM EMPTINESS, CHAR 0 (2026-07-10, cycle 107; independent fresh-context replay, verifier archived in node notes): upstream Theorem T4 (note cap25_v13_bc_l4_veronese_top_stratum.md, integrated upstream at e83962ae \u2014 SOURCE CORRECTION: not v13 raw) CONFIRMED at char 0 \u2014 for n = 2^a, ordered constant-shift pairs of disjoint d-subsets of mu_n with equal power sums p_1..p_{d-1} exist IFF d is a power of 2 (and are mu_d-coset pairs); hence the L4 top stratum A(mu_{2^17}, 4218) = 0 since 4218 = 2*3*19*37 is not a 2-power. Replay: exact Z[zeta_n] census over ~575,000 subsets, 3248 constant-shift pairs examined; the iff-2-power law exact at n = 8,16,32 (and 10,12,20,24 controls, n=20 full-depth beyond upstream's tested set); Lemma A antipodal forcing held on all 1124 disjoint equal-p_1 pairs (upstream count reproduced digit-exactly); both lemma proofs read sound modulo classical Lam-Leung; positive control (X^4-1, X^4+1) and all L4 arithmetic pins exact; upstream's own verifier independently green with 27/27 tamper-selftest coverage. SCOPE GUARDS (do not import beyond): (i) CHAR 0 ONLY \u2014 char-p emptiness at the L4 prime remains conjectural upstream (degenerate primes genuinely exist: count 32 at p = 97, n = 16); (ii) only the top stratum e = w+2 is zeroed \u2014 deeper strata and the overall M2 bound untouched; (iii) the generic z* != 0 transversal branch is open; (iv) the companion 'BC curve second moment' claim (#395 Thm C1) is SEPARATE and NOT verified (ledger row split accordingly). Statement hygiene: 'A_prim = 0' requires d >= 2 (d = 1 is the trivial singleton family). Verifier: background/nodes/v13_veronese_top_stratum_char0/notes/veronese_check.py."
   }
  ],
  "edges": [
@@ -9672,6 +9677,11 @@
   {
    "from": "f2_deep_regime_exactness",
    "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_veronese_top_stratum_char0",
+   "to": "v13_bc_split_pencil_normal_form",
    "kind": "ev"
   }
  ]
