@@ -198,6 +198,7 @@ def main() -> None:
 
     # status propagation + RIPE list
     ripe: list[str] = []
+    amber_warns: list[str] = []
     okset = {"PROVED"}
     okset2 = {"PROVED", "PROVABLE"}
     for i, n in nodes.items():
@@ -210,6 +211,19 @@ def main() -> None:
         elif n["status"] == "PROVABLE":
             if any(s not in okset2 for s in reqs) or (gate_any and not any(s in okset2 for s in alts)):
                 errors.append(f"{i}: declared PROVABLE but requirements exceed PROVED/PROVABLE")
+        elif n["status"] == "CONDITIONAL":
+            # (2026-07-10) AMBER INVARIANT (maintainer + user): CONDITIONAL
+            # means "proved true conditional on wired predicate nodes" — so
+            # (a) the predicates must be wired (req/alt edges ON the DAG),
+            # (b) at least one must be open (else promote or re-wire).
+            # Reported as warnings during the progressive wiring campaign.
+            hyp = [f for f, k in inc[i] if k in ("req", "alt")]
+            open_hyp = [f for f in hyp
+                        if nodes[f]["status"] not in {"PROVED", "PROVABLE"}]
+            if not hyp:
+                amber_warns.append(f"{i}: CONDITIONAL with NO wired hypotheses (predicates invisible)")
+            elif not open_hyp:
+                amber_warns.append(f"{i}: CONDITIONAL but all wired hypotheses PROVED (promote or re-wire)")
         elif n["status"] in {"CONJECTURE", "TARGET"} and (reqs or gate_any):
             # own-content rule: a node carrying an attack_surface has open
             # mathematical work of its own - requirements-met never makes it
@@ -338,6 +352,10 @@ def main() -> None:
         print("STATUS-ARTIFACT GAPS (folders lagging statuses):", len(_bad))
         for _x in _bad[:8]:
             print("  -", _x)
+    if amber_warns:
+        print(f"AMBER-INVARIANT WARNINGS ({len(amber_warns)}) — predicates to wire:")
+        for w in amber_warns[:40]:
+            print("  ~", w)
     print("PASS: structure, refs, acyclicity, reachability, status propagation")
 
 

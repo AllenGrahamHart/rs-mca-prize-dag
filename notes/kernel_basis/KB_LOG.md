@@ -314,3 +314,21 @@ roadmap). Standing task: progressive second-order wiring (the
 edge lemma's own six-link chain; the dictionary's precision
 addenda) as statements are consumed; and every future bridge
 commitment brings its green skeleton along the same way.
+
+## 18 — 2026-07-10: the STATUS-SEMANTICS INVARIANT codified and
+## machine-enforced
+
+The law (user + maintainer): GREEN = proved with all wired
+predicates green (already enforced); AMBER = proved true
+CONDITIONAL on wired predicate nodes that APPEAR on the DAG, at
+least one open (NEW check added to verify_prize_dag.py); RED = an
+open leaf of the committed plan. Display corollary: if red A is
+being attacked by proving B with B => A verified, then A is amber
+and B is the displayed red — exactly the u2c/summit surgery
+pattern, now the standing rule for the amber pass. AUDIT RESULT:
+ZERO violations across the whole DAG — every existing CONDITIONAL
+already has wired open hypotheses; the invariant was implicit
+discipline, now enforced. The amber pass continues: petal and
+worst_word audits running; u1_x4 (Codex coordination), dli (C2''
+posing first), xr_smallcore queued; summit and rate_half exempt
+with documented reasons.
