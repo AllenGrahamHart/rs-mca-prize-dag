@@ -4906,6 +4906,11 @@
    "id": "f2_ladder_termination",
    "status": "PROVED",
    "statement": "F2 LADDER TERMINATION (2026-07-10, campaign cycle 86; digest F2_RUNG2_LADDER_PASS, reads corrected by CATCH #22): the alphabet ladder terminates at rung 1 \u2014 the summit's sign problem is irreducible. POSITIVES (verified): (a) RUNG-2 STRUCT THEOREM (proved by construction): sign patterns constant on mod-4 exponent classes lie in the rung-2 census with total weight 18^{n/4} = (2^4+1+1)^{n/4}; C'' >= 18^{n/4} verified at 9 rows. (b) DEEP-ROW EXACTNESS: at (113,16,j=3) \u2014 the row with rung-1 extras = 0 \u2014 the rung-2 census EQUALS its struct: C'' = 18^4 = 104976 exactly; the struct/extras dichotomy propagates up the ladder as a counting fact. (c) TERMINATION THEOREM (one line, clarifying): for every rung r >= 2 the frequency terms e^{r S_c} are POSITIVE, so the rung-r deviation q^j C^(r) - (mass)^n = sum_{c != 0} e^{r S_c} is positive-definite \u2014 no cancellation exists or is needed above rung 1; the recursion (satellite 21) yields exact variance identities but CANNOT transfer cancellation downward. Consequently the imagined telescoping induction (each rung's alignment controlled by the next) is DEAD as a proof lane \u2014 no-go #10 for the campaign ledger: the summit's signed content lives irreducibly in the rung-1 sign field eps_c = (-1)^{K+U}, and any proof must engage that combinatorial parity directly (Ehrhart/lattice-parity, Dedekind-integer reciprocity, or a genuinely new mechanism). CATCH #22 (read design): the pre-registered ratio2/slope read for this cycle was conceptually ill-posed \u2014 it subtracted struct mass from a positive-definite deviation and its fit conflated n-dependence with population-dependence; the digest's 'stabilization' line is DISREGARDED; only reads (a) and (b) are banked. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_rung2_ladder_modal.py. Twenty-second satellite; the target is now uniquely and finally posed."
+  },
+  {
+   "id": "f2_parity_spectrum",
+   "status": "PROVED",
+   "statement": "F2 PARITY WALSH SPECTRUM + CATCH #23 (2026-07-10, campaign cycle 88; digest F2_PARITY_SPECTRUM_PASS after read correction): the parity field is SPECTRALLY NEAR-RANDOM, and the naive E3 reduction is FALSE. MEASURED (FFT of the +-1 parity grid over (Z/q)^j at 9 exact rows, argmax coefficients re-verified by direct summation, Parseval to 1e-15): W* = max_{d != 0}|eps-hat(d)|/sqrt(q^j) = 2.4-5.7 at j=2 rows \u2014 AT OR BELOW the random +-1-field maximum sqrt(2 ln q^j) \u2014 and 13.4-16.8 at j=3 rows (~3x random: structured multiplets; top-3 magnitudes exactly equal = twisted-orbit families). The d=0 coefficient (sign imbalance) grows separately and is handled apart. CATCH #23 (the cycle's chief product): the naive Holder/Cauchy-Schwarz chain 'alignment <= W* sqrt(sum e^2S)' asserted in brief v4's E3 is WRONG BY A FACTOR sqrt(q^j) \u2014 Parseval is an isometry, so single-domain Holder splits reproduce only the trivial c-space bound; the false chain was CAUGHT BY THE VERIFIER's own chain check at the struct-heavy row (113,16,3) (8 rows passed on slack \u2014 passing on slack is not correctness). E3 RE-POSED (brief v4 corrected in place): the Fourier pairing wins only via CROSS-SUPPORT MISALIGNMENT \u2014 E-hat of the weight exp(S) concentrates on census frequencies (moment vectors of near-null configurations, described exactly by the banked census machinery); the required statement is that the parity spectrum carries 2^{o(n)}-small mass ON that heavy support. Walsh flatness alone is insufficient; joint support geometry is the content. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_parity_spectrum_modal.py. Twenty-third satellite; twenty-third catch \u2014 the protocol caught the campaign's own reduction error before a single proof-hour was spent on it."
   }
  ],
  "edges": [
@@ -9601,6 +9606,11 @@
   },
   {
    "from": "f2_ladder_termination",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_parity_spectrum",
    "to": "u2c_giant_tnull_dichotomy",
    "kind": "ev"
   }

@@ -104,14 +104,23 @@ E2. DEDEKIND-INTEGER RECIPROCITY. K_c is the integer value of a
     sums; Zagier's higher-dimensional reciprocity covers multi-
     argument versions (our j >= 2). Sought: reciprocity => carry
     parity equidistributes over the frequency orbits.
-E3. PARITY FOURIER SPECTRUM. Expand eps_c over additive characters of
-    F_q^j: the Walsh–Fourier weight of eps at frequency d is a
-    complete exponential sum over the orbit — Weil/Bombieri bounds
-    apply LEVELWISE (curves, not the vacuous global norms of no-go 5).
-    If the spectrum of eps is 2^{o(n)}-flat outside a struct-explained
-    set, Cauchy–Schwarz against the KNOWN spectrum of exp(S) (Frame 5)
-    closes the alignment bound. This is the most mechanical lane; its
-    risk is spectral mass hiding on intermediate-dimension subvarieties.
+E3. PARITY FOURIER SPECTRUM — CORRECTED (catch #23, cycle 88). The
+    naive Holder chain (max|eps-hat| times L1/L2 of the weight
+    spectrum) LOSES a factor sqrt(q^j): Parseval is an isometry, so
+    single-domain splits reproduce only the trivial bound. Walsh
+    flatness alone does NOT suffice. MEASURED (digest
+    F2_PARITY_SPECTRUM_PASS): the parity spectrum is nonetheless
+    spectrally near-random — W* = max_{d != 0}|eps-hat|/sqrt(q^j) =
+    2.4-5.7 at j=2 rows (at/below the random +-1-field max
+    sqrt(2 ln q^j)), ~3x random at j=3 (twisted-orbit multiplets).
+    THE RE-POSED LANE: alignment = (1/q^j) sum_d eps-hat(d) *
+    conj(E-hat(d)) — win by CROSS-SUPPORT MISALIGNMENT: E-hat's mass
+    concentrates on census frequencies (moment vectors of near-null
+    configurations); bound sum over THAT set of |eps-hat| — i.e.,
+    prove the parity spectrum carries 2^{o(n)}-small mass ON the
+    weight spectrum's heavy support. Weil applies levelwise to
+    individual eps-hat(d); the new required input is the SUPPORT
+    geometry of E-hat (which the census machinery describes exactly).
 E4. FROBENIUS/GALOIS AVERAGING at q = p^k: eps and S are
     Galois-invariant; the frequency space fibers over Frobenius orbits
     of length k ~ 2^16. Averaging the sign over a Frobenius orbit

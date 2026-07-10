@@ -1863,3 +1863,25 @@ D3 named-problem reduction. Every claim cross-checked against the
 banked satellite statements. The delegation channel is armed with
 the strongest brief the campaign can write; my own next cycles take
 E3 (the most mechanical lane) first. Ninety-nine entries.
+
+## 100 — 2026-07-10: the parity spectrum is near-random; CATCH #23
+## kills the naive E3 chain before it cost anything (satellite 23)
+
+Cycle 88, one hundred entries. The E3 measurement: full Walsh
+spectra of the parity field at 9 rows (FFT, argmax re-verified,
+Parseval 1e-15). W*/sqrt(q^j) = 2.4-5.7 at j=2 — at or below the
+random-field max sqrt(2 ln q^j); ~3x random at j=3 with exact
+orbit multiplets. The parity field eps = (-1)^{K+U} is spectrally
+PSEUDORANDOM at reachable scales — a strong structural positive.
+CATCH #23, the cycle's chief product: my own two-line 'reduction'
+of the summit to Walsh flatness (alignment <= W* sqrt(sum e^{2S}))
+is FALSE by sqrt(q^j) — Parseval is an isometry and single-domain
+Holder splits give only the trivial bound; the verifier's chain
+check caught it at the one row where slack was thin, exactly as
+falsification-first intends. Eight rows passing on slack would
+have looked like confirmation to a less suspicious protocol.
+Brief v4's E3 corrected in place: the lane's true content is
+CROSS-SUPPORT MISALIGNMENT — the weight spectrum E-hat lives on
+census frequencies; the needed statement is that the parity
+spectrum is 2^{o(n)}-small ON that support. One hundred entries:
+23 satellites, 23 catches, 10 no-gos, zero unverified claims.
