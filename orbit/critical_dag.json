@@ -577,6 +577,11 @@
    "title": "Confirm k<=2^40, |F|<2^256 in ePrint"
   },
   {
+   "id": "floor_budget_slack_scan",
+   "label": "PROVED",
+   "title": ""
+  },
+  {
    "id": "fm1",
    "label": "PROVED",
    "title": "FM1: E[#aligned] = C(n,j)(1-q^-t)q^{1-t} exactly"
@@ -907,6 +912,11 @@
    "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)"
   },
   {
+   "id": "v13_base_field_normalization_guard",
+   "label": "PROVED",
+   "title": "v13 base-field normalization guard (ledger law)"
+  },
+  {
    "id": "v8_ledger",
    "label": "PROVED",
    "title": "v8 one-support-one-slope ledger"
@@ -928,13 +938,33 @@
   },
   {
    "id": "worst_word_challenger_pricing",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "FLOOR CONJECTURE (ROWWISE-ENVELOPE): non-planted low-slack contributions obey the certified K_cell/q^sigma envelope at official rows"
   },
   {
    "id": "worst_word_planted",
    "label": "CONDITIONAL",
    "title": "LEAP: at the crossing radii the extremal words are the planted sunflower family"
+  },
+  {
+   "id": "ww_kcell_upper_lemma",
+   "label": "UNPROVED",
+   "title": ""
+  },
+  {
+   "id": "ww_lemma_a_exhaustion",
+   "label": "PROVED",
+   "title": ""
+  },
+  {
+   "id": "ww_lower_witnesses",
+   "label": "UNPROVED",
+   "title": ""
+  },
+  {
+   "id": "ww_row_envelope_clause",
+   "label": "UNPROVED",
+   "title": ""
   },
   {
    "id": "x4_exactlist_staircase_split",
@@ -1981,6 +2011,14 @@
    "to": "x4_exactlist_staircase_split"
   },
   {
+   "from": "v13_base_field_normalization_guard",
+   "to": "worst_word_challenger_pricing"
+  },
+  {
+   "from": "floor_budget_slack_scan",
+   "to": "worst_word_challenger_pricing"
+  },
+  {
    "from": "f2_growing_order_myerson",
    "to": "f2_conditional_close"
   },
@@ -2011,6 +2049,26 @@
   {
    "from": "b1_char0_giant_coset_theorem",
    "to": "f2_conditional_close"
+  },
+  {
+   "from": "ww_row_envelope_clause",
+   "to": "worst_word_challenger_pricing"
+  },
+  {
+   "from": "ww_kcell_upper_lemma",
+   "to": "worst_word_challenger_pricing"
+  },
+  {
+   "from": "ww_lower_witnesses",
+   "to": "worst_word_challenger_pricing"
+  },
+  {
+   "from": "ww_lemma_a_exhaustion",
+   "to": "worst_word_challenger_pricing"
+  },
+  {
+   "from": "xr_target_budget_audit",
+   "to": "worst_word_challenger_pricing"
   }
  ]
 }
