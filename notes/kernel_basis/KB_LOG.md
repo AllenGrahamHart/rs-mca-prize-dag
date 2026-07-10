@@ -471,3 +471,36 @@ subtractive #26 resolution, per-stratum budget ledger — h=3 alone
 = 50.002% of n^3 at s=13, minimal-trade scope pin) recorded on
 the node. Cheapest path banked in node notes. Codex handoff:
 reconcile on merge (banner says exactly what master changed).
+
+## 23 — 2026-07-10: dli audit NOT-READY (the F-round discipline
+## holding); C2'' POSED; catches #40/#41
+
+Fresh-context audit, falsification-first as briefed. VERDICT
+NOT-READY on four independent blockers (F-round rule violated by
+both candidate predicates; no machine-verified assembly; naive
+C2'' already refuted by banked data — stripped junction ratios
+2.752/2.874 vs 1.534; stale endpoint constant). This is the
+protocol working: the queue said "pose C2'' first", and the audit
+delivered exactly that.
+
+BANKED: (a) C2'' posed at full house standard (three-part
+coset-routed/accident-priced/bulk-reserve form; falsifiers
+F-a/F-b/F-c pre-registered at pose time; pose-time calibration on
+the 8 exact rows: bulk GM 0.967 < 1, sparse-row stripped mass
+IDENTICALLY ZERO; survival-vs-old-killers demonstrated) —
+notes/C2PP_POSED_20260710.md + calibration/replay scripts.
+(b) CATCH #40: B-WEAK endpoint re-pinned 2^122 -> 2^121 (catch
+#30 propagation; reserve 22 -> 21 bits; evidence insensitive) —
+statement addendum + REPOSE addendum; maintainer line owed.
+(c) CATCH #41: the pro_floor1 SURVIVAL +4 verifier was an EMPTY
+2-line placeholder cited as banked (fourth instance of the
+existence-claim shape: #33/#35/#36/#41) — spike independently
+reconstructed and replayed (q=15,249,281, ord 128, 256 signed
+weight-5 vanishers, K=16.000270 vs claimed 16.0003); artifact
+restored. (d) Finding C (C1-prime needs level-scaled w_max — else
+degenerate at 33/34 levels) and Finding D (deep-regime recycling:
+NO free upgrade; the transfer is exactly A1-PROD's proved facts)
+recorded on the node. Second-replay record: round6/round7,
+A1-PROD byte-identical table, S2, exact-E rows — all PASS.
+M-ledger M1-M6 ordered by cost; M1 (the C2'' adversarial round,
+n=64 sharded MITM, Modal) is the decisive next experiment.

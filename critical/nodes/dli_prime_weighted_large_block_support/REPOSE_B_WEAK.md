@@ -91,3 +91,17 @@ E_U[Π ρ] against (C log q)^J with the coset column routed through exact
 accounting — the direct test of whether the F-round's growing conditional
 ratios compound in the joint (B in danger) or are absorbed by the exact
 coset arithmetic (B safe, C2's failure was route noise).
+
+---
+
+## ADDENDUM (2026-07-10, catch #40): endpoint constant re-pin 2^122 -> 2^121
+
+The floor as posed above targets 2^122; catch #30 (Sol round 1,
+V1-confirmed; KB_LOG #12; x4_exactlist_staircase_split/REDUCTION_PACKET.md)
+corrected the consumer face to the two-sided weighted form with half-band
+<= 2^121 (complement-duality double-count). The floor's operative endpoint
+is therefore **2^121** and the joint reserve shrinks 22 -> 21 bits. The
+evidence ledger is insensitive (strongest priced attack ever: 2.25 bits;
+every exactly-computed extreme row <= 0.015 bits). Maintainer confirmation
+owed as a one-line ruling; all C2''-lane documents (C2PP_POSED_20260710.md)
+already use 21 bits.
