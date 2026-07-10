@@ -2223,3 +2223,21 @@ the Veronese emptiness — the top stratum is genuinely nonempty at
 other parameters). Ledger row advanced. Remaining ledger queue:
 the L4-interior-chart proof-read and the image-fiber correction
 read. One hundred twenty entries.
+
+## 121 — 2026-07-10: image-fiber list-side correction replayed green
+## — delegation 4-for-4; one ledger item remains
+
+Cycle 109. Fourth fresh-context delegation identified and verified
+the ledger's shorthand: the sec:capf-l1 hygiene package, whose
+enumerable core (thm:capf-planted) replayed green — planted
+quotient-periodic sublists with no pigeonhole loss, 6 instances
+across 4 characteristics, full brute-force cross-check at GF(13),
+tamper control detected, dyadic crossing table digit-exact. The
+corrective consequence is arithmetic: full-image-fiber polynomial
+bounds are FALSE under entropy reserves alone (planted counts are
+field-size independent), so the L1 target must charge
+quotient-periodic codewords separately — confirming the imgfib
+node's existing clause against upstream. Banked as background node
+feeding imgfib; the corrected L1 problem itself stays open.
+Remaining ledger queue: the L4-interior-chart proof-read only.
+One hundred twenty-one entries.

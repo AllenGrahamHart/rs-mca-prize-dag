@@ -4951,6 +4951,11 @@
    "id": "v13_bc_curve_second_moment_identity",
    "status": "PROVED",
    "statement": "BC CURVE SECOND MOMENT IDENTITY \u2014 #395 THEOREM C1, REPLAYED GREEN (2026-07-10, cycle 108; independent fresh-context replay + proof-read, verifier archived in node notes): the exact identity M2 = sum_s N_{w+1}(theta(s))^2 = S1 + sum_{e=w+2}^{min(m,n-m)} sum_{R, |R|=m-e} sp^Gamma_{w+1}(e;R) CONFIRMED \u2014 with the stratum floor e >= w+2, ceiling e <= min(m,n-m), constant-shift shape of the top stratum (A - B a nonzero constant), and Prop C1-1 (a_1-equality = full-prefix equality on V x V). Replay: exhaustive exact enumeration at 10 parameter rows (p = 13..113, both z* = 0 and z* != 0; off-diagonal non-vacuous at 4 rows including 2 at z* != 0; strongest row (13,12,5,1) with strata 164/48/4 matching the direct census cell-by-cell), TWO independent RHS enumeration methods agreeing, three independent LHS computations agreeing; per-stratum comparison strictly stronger than the aggregate identity. PROOF-READ SOUND at general parameters: every step characteristic-free and parameter-uniform (Fact 0, Prop C1-1, the (R,A,B) encoding bijection, the degree constraint via ell_T - ell_T' = ell_R(A-B) over an integral domain, T'-validity derived from T-validity + equal prefix) \u2014 the L4-scale instance (n = 2^17, m = 69753, w = 4216) follows by the same argument, not by enumeration. SCOPE GUARDS (do not import beyond): nothing about MAGNITUDES (no M2 bound, no Cauchy-Schwarz consequence); #395's other claims (C2 twist-equivariance, twist dichotomy, ceilings, residual-equidistribution conjecture) NOT verified; distinct from the Veronese top-stratum emptiness (which zeroes the top stratum only at the specific L4 d \u2014 the top stratum is genuinely nonempty at other parameters, e.g. 2 pairs at (97,8,4,2)); PR #395 itself remains unintegrated upstream (closed 2026-07-08 without merge). Feeds v13_bc_split_pencil_normal_form as the exact-decomposition input. Verifier: background/nodes/v13_bc_curve_second_moment_identity/notes/verify_c1.py."
+  },
+  {
+   "id": "v13_capf_planted_lower_count",
+   "status": "PROVED",
+   "statement": "PLANTED QUOTIENT-CORE LOWER COUNT \u2014 the image-fiber list-side correction, REPLAYED GREEN (2026-07-10, cycle 109; independent fresh-context replay, verifier archived in node notes): upstream thm:capf-planted (cap25_cap_v13_raw.tex sec:capf-l1, the petal lane) CONFIRMED \u2014 for D = alpha*H a coset of a cyclic subgroup of order n, C = RS[F,D,k], and M | gcd(n,k) with 1 <= sigma < M, k/M <= n/M - 1, the explicit word U = x^k E_T(x) carries at least C(n/M - 1, k/M) distinct codewords agreeing on >= k + sigma positions \u2014 a single received word carries the whole binomial sublist with NO pigeonhole loss and NO subfield denominator (correcting the earlier lem:fiber count C(N,l)/|B|). Replay: 6 exact instances across characteristics 31/61/13/2, trivial and nontrivial cosets, planted families up to 3003 codewords, one FULL brute-force cross-check (all 28561 low-degree words at GF(13)), tamper control correctly detected; all four proof steps read sound (characteristic-free; the separability parenthetical is subsumed by M | q-1). BONUS REPLAYED EXACT: the dyadic crossing table of prop:capf-dyadic-planted (bit counts 124/251, 100/204, 67/136, 83/169; first crossings 256,256,256,512). CORRECTIVE CONSEQUENCE (arithmetic fact): at M=2, k=n/2 the planted count is 507..32760 bits at n = 2^10..2^16 vs 100-160 bits for an n^10 budget \u2014 field-size independent, so any FULL-image-fiber polynomial bound under an entropy reserve alone is FALSE; the polynomial-bound target must be the stabilizer-primitive part with quotient-periodic codewords charged separately (prob:capf-primitive-image-fiber) \u2014 precisely the quotient-budget clause the local imgfib node statement already carries, now confirmed consistent with upstream. SCOPE GUARDS: the corrected L1 problem (poly bound for the stabilizer-primitive part) remains OPEN (a posed problem, not a theorem); no upper bounds established; cor:capf-polyfold-planted proof-read only; the identification of the ledger's shorthand phrase is inferential (flagged; no other candidate matches image-fiber + list-side + petal). Verifier: background/nodes/v13_capf_planted_lower_count/notes/verify_capf_planted.py."
   }
  ],
  "edges": [
@@ -9692,6 +9697,11 @@
   {
    "from": "v13_bc_curve_second_moment_identity",
    "to": "v13_bc_split_pencil_normal_form",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_capf_planted_lower_count",
+   "to": "imgfib",
    "kind": "ev"
   }
  ]
