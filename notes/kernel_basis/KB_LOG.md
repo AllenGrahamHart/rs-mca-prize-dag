@@ -332,3 +332,23 @@ discipline, now enforced. The amber pass continues: petal and
 worst_word audits running; u1_x4 (Codex coordination), dli (C2''
 posing first), xr_smallcore queued; summit and rate_half exempt
 with documented reasons.
+
+## 19 — 2026-07-10: worst_word AMBER — the second route commitment;
+## surface 202 = {170 PROVED, 23 COND, 9 UNPROVED}
+
+The amber audit returned AMBER-READY with four pins and executed:
+worst_word -> CONDITIONAL on {ww_row_envelope_clause (W3, sup-form
++ generated-field + #493-branched constant pin), ww_kcell_upper_
+lemma (W1), ww_lower_witnesses (W2)}; green skeleton joined
+(ww_lemma_a_exhaustion minted PROVED; xr_target_budget_audit,
+v13_base_field_normalization_guard, floor_budget_slack_scan
+promoted to req); stale node-local conditional.md replaced (it
+named a retracted predicate). THE AUDIT'S CATCHES: (G1) a
+mean-form W3 would make the assembly FALSE by 1.263 bits against
+the 0.9-bit line — the sup-form pin is load-bearing, found BEFORE
+the surgery (the anti-goal economy working); (evidence) the
+banked F7-A2 'drift <= 1.5x' is not reproducible — restated with
+recomputed figures (1.75x/3.64x-with-rise) in the node statement.
+RED-COUNT SEMANTICS: 7 -> 9 is the invariant working — one blunt
+floor swapped for three sharp predicates; the roadmap now shows
+the true grain. Petal audit still running; u1_x4/dli/xr queued.
