@@ -2145,3 +2145,19 @@ explanation yet of why extras are scarce at every scale measured,
 and a context upgrade for the falsifier (deep-regime extras would
 now contradict a theorem). The steady state continues to pay out
 small truths when pressed. One hundred fifteen entries.
+
+## 116 — 2026-07-10: the parked tower-rigidity idea, checked and
+## closed (negative)
+
+Cycle 104. The cycle-103 parked thought — can cyclotomic rigidity
+say anything at official rows via the prime-power tower — resolves
+negatively in ten lines: at FIXED p the reduction Z[zeta_n] ->
+F_{p^f} is a fixed map (f = ord_n(p)), so the official extras
+count is the deterministic census #{non-struct T : the prime above
+p divides all M_i(T)} — the original problem at the minimal field,
+unchanged. Rigidity counts only when the prime varies. Verified:
+ord_{2^40}(KoalaBear p) = 2^16 exactly — the official row IS the
+minimal field (matches the banked tower constant k ~ 2^16; the
+deep-regime theorem and the official problem occupy disjoint
+corners, as satellite 29's caveat stated). No leverage; idea
+closed; nothing overclaimed. One hundred sixteen entries.
