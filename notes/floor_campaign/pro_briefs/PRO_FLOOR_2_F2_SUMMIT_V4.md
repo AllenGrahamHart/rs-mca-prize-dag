@@ -33,7 +33,11 @@ p ~ 2^31, k ~ 2^16, j up to t ~ 7e10 conditions), the ALIGNMENT BOUND
     | sum_{c != 0} eps_c exp(S_c)  -  STRUCT DRIFT |
         <=  2^{o(n)} * sqrt( sum_{c != 0} exp(2 S_c) )
 
-where STRUCT DRIFT = 2^{n/4}(q^j - 1) (the proved coset-union census)
+where STRUCT DRIFT = Struct_j(q^j - 1) with Struct_j = 2^{n/M_j},
+M_j = 2^{ceil(log2(j+1))} (the proved coset-union census at level j —
+CORRECTED 2026-07-10 after Sol's j=4 refutation, catch #28: the
+2^{n/4} constant is the j <= 3 case only; b1_char0_giant_coset_theorem
+gives M > j in general)
 and the right side is an EXACT INTEGER via the ladder identity
 (Frame 5). Any 2^{o(n)} — even 2^{n/100} — beats the 2^15-per-condition
 budget with astronomical room (consumer arithmetic banked in
