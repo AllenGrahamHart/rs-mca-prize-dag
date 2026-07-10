@@ -437,6 +437,16 @@
    "title": "Hypothesis (node-ified from f1_case_pole prose): the list-side threshold location at non-generating rows"
   },
   {
+   "id": "f2_conditional_close",
+   "label": "CONDITIONAL",
+   "title": ""
+  },
+  {
+   "id": "f2_growing_order_myerson",
+   "label": "UNPROVED",
+   "title": ""
+  },
+  {
    "id": "f_concurrency_equiv",
    "label": "PROVED",
    "title": "F-primitive = j-fold concurrency of the evaluation-hyperplane arrangement (exact reformulation)"
@@ -863,7 +873,7 @@
   },
   {
    "id": "u2c_giant_tnull_dichotomy",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "FLOOR CONJECTURE (EXTRAS-BUDGET): non-coset-union t-null extras <= n^3 = 2^123 at official prize-max rows"
   },
   {
@@ -1944,6 +1954,14 @@
   {
    "from": "u1_x4_direct_column_budget",
    "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "f2_growing_order_myerson",
+   "to": "f2_conditional_close"
+  },
+  {
+   "from": "f2_conditional_close",
+   "to": "u2c_giant_tnull_dichotomy"
   }
  ]
 }

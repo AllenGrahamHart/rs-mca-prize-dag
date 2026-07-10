@@ -250,7 +250,7 @@ def main() -> None:
                     if not satisfiable(frozenset(i for i in open_ids if i != x))]
         print("CRITICAL open nodes (on EVERY route to the prize):")
         for c in sorted(critical):
-            print(f"  ! {c}: {nodes[c]['title'][:66]} [{nodes[c]['status']}]")
+            print(f"  ! {c}: {nodes[c].get('title', nodes[c].get('statement',''))[:66]} [{nodes[c]['status']}]")
         # precision invariant: critical nodes must carry an exact statement
         for c in sorted(critical):
             if not nodes[c].get("statement"):

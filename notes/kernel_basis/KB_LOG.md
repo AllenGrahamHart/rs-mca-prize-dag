@@ -267,3 +267,30 @@ counterexample constructions. Standing watches now: #493
 (h=3 corridor + J_5 leaf). One check-arithmetic catch during
 preparation (the N=8 struct constant in my own sweep check),
 fixed before push.
+
+## 16 — 2026-07-10: THE FIRST ROUTE COMMITMENT — u2c relocated onto
+## the summit; the critical surface now displays the true frontier
+
+Governance decision (user + maintainer): the critical DAG is the
+roadmap, and the roadmap's frontier has moved downstream through
+the campaign's proved/conditional mass — so commitments should
+follow rigor. RIGOR-GATED COMMITMENT RULE adopted: a red relocates
+onto its kernel exactly when the bridge is machine-verified at
+conditional-close standard; route-layer candidates (alt) do not
+relocate anything. TODAY exactly ONE bridge qualifies: u2c's K1
+chain. SURGERY: f2_conditional_close's edge into u2c upgraded
+ev -> req; u2c TARGET -> CONDITIONAL (statement records the
+commitment, the K2 alternate, and the re-surgery criteria);
+partition law honored (both nodes' folders moved to critical/).
+RESULT: critical surface 191 nodes {PROVED 162, CONDITIONAL 22,
+UNPROVED 7} — the red count is unchanged (as predicted:
+commitments relocate redness, only theorems remove it) but the
+red LIST now names the true frontier: f2_growing_order_myerson
+(the summit) stands where u2c stood. The verifier's cut analysis
+independently confirms the summit is on every route to the prize.
+Tool fix en route: the critical-open printer assumed a 'title'
+field. STANDING RULE for the other six reds: each kernel-basis
+bridge that reaches full rigor triggers the same relocation
+(xr_smallcore, petal, dli, worst_word await bridge completion;
+u1_x4 awaits Codex's gates; rate_half's kernel IS its own
+content — no relocation available).
