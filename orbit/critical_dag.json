@@ -522,6 +522,16 @@
    "title": ""
   },
   {
+   "id": "f5_lineray_saturation_instrument",
+   "label": "PROVED",
+   "title": ""
+  },
+  {
+   "id": "f5_wcollision_pair_moment_identity",
+   "label": "PROVED",
+   "title": ""
+  },
+  {
    "id": "f_concurrency_equiv",
    "label": "PROVED",
    "title": "F-primitive = j-fold concurrency of the evaluation-hyperplane arrangement (exact reformulation)"
@@ -1052,9 +1062,19 @@
    "title": "THE NAMED INGREDIENT (X-1 verdict): per-pair post-strip EMPTINESS at clean-rate corridor points"
   },
   {
+   "id": "xr_highcore_collision_count",
+   "label": "UNPROVED",
+   "title": ""
+  },
+  {
    "id": "xr_ledger_exponent_reconciliation",
    "label": "PROVED",
    "title": "Micro-lemma: pin the pair-ledger exponent (min(s,t) vs min(s,t-1))"
+  },
+  {
+   "id": "xr_lowcore_spread_heart",
+   "label": "UNPROVED",
+   "title": ""
   },
   {
    "id": "xr_pencil_cascade",
@@ -1068,8 +1088,13 @@
   },
   {
    "id": "xr_smallcore_spread_count",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "FLOOR CONJECTURE: per-pair spread remainder inside R_post <= 16 n^3 at the official candidates"
+  },
+  {
+   "id": "xr_strip_classification_rungs",
+   "label": "PROVED",
+   "title": ""
   },
   {
    "id": "xr_syzygy_flat_transport",
@@ -2114,6 +2139,18 @@
    "to": "worst_word_challenger_pricing"
   },
   {
+   "from": "f5_lineray_saturation_instrument",
+   "to": "xr_smallcore_spread_count"
+  },
+  {
+   "from": "f5_wcollision_pair_moment_identity",
+   "to": "xr_smallcore_spread_count"
+  },
+  {
+   "from": "floor_budget_slack_scan",
+   "to": "xr_smallcore_spread_count"
+  },
+  {
    "from": "floor_budget_slack_scan",
    "to": "worst_word_challenger_pricing"
   },
@@ -2208,6 +2245,18 @@
   {
    "from": "e22_fiber_locator_saturation",
    "to": "petal_growth"
+  },
+  {
+   "from": "xr_highcore_collision_count",
+   "to": "xr_smallcore_spread_count"
+  },
+  {
+   "from": "xr_lowcore_spread_heart",
+   "to": "xr_smallcore_spread_count"
+  },
+  {
+   "from": "xr_strip_classification_rungs",
+   "to": "xr_smallcore_spread_count"
   }
  ]
 }
