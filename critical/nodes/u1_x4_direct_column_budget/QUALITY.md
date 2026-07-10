@@ -39,3 +39,15 @@ poseable only after f3_active_core_width_cap or a general-h ACT compiler.
 Executed stress record: the coverage audit (23 verifier replays, witness
 replay, catches #36-#39) + this derivation (all figures exact,
 notes/band_hband_arithmetic_20260710.py).
+
+## U16 AMBER UPDATE (2026-07-10, the fifth route commitment)
+
+The pre-decomposition status is RESOLVED: Codex's U16 proposal survived the
+fresh-context audit (AMBER-READY with amendments; catch #71 — a false
+trace-zero envelope — repaired before minting; catches #72-#75 applied as
+pins/mints/owed items). u1_x4 is now CONDITIONAL on the U-PART assembly
+with two sharp open leaves (C36', HGE4-14), each carrying its own quality
+certificate in notes/. Q-SUFF: the machine-verified assembly (compiler +
+32-check audit + mutation controls). Q-SURV: inherited record + the audit
+itself; the node-level falsifier now lives in the leaves. OWED: the A1
+29-row consumer-gate table (catch #75).

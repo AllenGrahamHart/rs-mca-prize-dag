@@ -707,3 +707,39 @@ folders lack proof.md — triage before mass-fixing). QUEUED: #62
 integer_code_distance_cert (pin the Modal run + supersede banner),
 #65 archived-id annotation pass (23 dag entries), #67/#68
 pointers, background/ sweep extension.
+
+## 31 — 2026-07-10: u1_x4 U16 AMBER — the FIFTH route commitment
+## (Codex-proposed, audit-gated, catch #71 repaired at import)
+
+Codex's worktree proposal (ecf84fc: U16 re-pose + width partition +
+two gates) audited fresh-context: AMBER-READY WITH AMENDMENTS
+A1-A5. CATCH #71 (load-bearing): the trace-zero envelope A_3^0 <=
+binom(R,2) is FALSE for the pair-orbit count the compiler consumes
+— falsified by exact enumeration at (7937,64) (the {P,-P} class
+escapes the binomial; 2 > 1); REPAIRED at import: A_3^0 <= R^2 <=
+I^2/36 < (4/9)n^(4/3), C36 threshold 8n^(4/3) -> 16n^(4/3), the
+closing identity re-lands at EXACTLY n^3 (4/9 = 16/36), stress
+margin 2.772% -> 2.774%; the "no ACT retune needed" corollary
+DIES (9876 > 8191) — only the identity route survives, which is
+the route used. #72: the unused in-house K6 chain (211/8, all 29
+rows import-free) imported + cited, dissolving the h=2 import
+caveat. #73: f3_h1_singleton_injectivity was labeled PROVED with
+no artifact anywhere — minted with a one-paragraph proof (seventh
+label-shape instance). #74: HGE4 falsifier weakened to
+row-complete only — slice semantics restored (A4). #75: the
+16n^3 consumer gate is an artifact at six candidates, not 29 rows
+— row-set pinned, 29-row table OWED.
+
+SURGERY: four nodes minted (h1 PROVED, C36' TARGET key, close
+CONDITIONAL, HGE4-14 TARGET key); f3_h2_stratum_theorem ev->req
+(+1 partition move); u1_x4 -> CONDITIONAL at the U16 form; old
+ACT route + width-cap lemma stay ev alternates; chain notes
+imported WITH repairs (Codex branch untouched — reconciliation
+note in the banners). Both new reds carry QUALITY certificates
+(C36' pre-stressed: 12-prime exhaustive sweep at 2.774% of
+threshold; HGE4's first executed attempt spec'd: stripped census
+vs SP-CENSUS-2 + n=64 boundary primes). Surface: 231 = {192
+PROVED, 25 CONDITIONAL... see verifier} — reds now 14: the last
+pre-decomposition floor is gone; EVERY red on the board is an
+audit-minted predicate, an irreducible kernel, or an
+honest-refusal floor with named seams.
