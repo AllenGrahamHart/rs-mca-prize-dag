@@ -2161,3 +2161,15 @@ minimal field (matches the banked tower constant k ~ 2^16; the
 deep-regime theorem and the official problem occupy disjoint
 corners, as satellite 29's caveat stated). No leverage; idea
 closed; nothing overclaimed. One hundred sixteen entries.
+
+## 117 — 2026-07-10: pre-campaign deferred items surfaced and queued
+
+Cycle 105. Housekeeping: the UPSTREAM_IMPORT_LEDGER's two queued
+cheap replays (prefix rigidity for the quarantined
+v13_prefix_collision_ledger; Veronese z*=0 emptiness) — standing
+items that predate the F2 charter and were invisible in campaign
+memory — are now recorded with precise pointers for a fresh
+session (they need upstream v13 definitions; loading those at the
+tail of a 100+-cycle session risks sloppy replay of someone
+else's definitions, which the one-writer discipline exists to
+prevent). No other action. One hundred seventeen entries.
