@@ -2101,3 +2101,20 @@ field higher Dedekind sums (noted). The brief now makes no promise
 resting on an unread source. One hundred cycles: 28 satellites,
 23 catches, 12 no-gos, one precisely-named open problem, zero
 unverified claims. One hundred twelve entries.
+
+## 113 — 2026-07-10: the last shelf read — the literature program is
+## terminal; no parity theory exists anywhere adjacent
+
+Cycle 101. The finite-field Dedekind shelf (Hamahata-Bayad) turns
+out to be Drinfeld-module theory — char-p identities valued in
+function-field completions; nothing archimedean, nothing parity.
+The newest cone-decomposition reciprocity (Torres-Nova, Dec 2025)
+generalizes test functions, not index sets. FINAL VERDICT of the
+literature program: classical, modern-frontier, group-theoretic,
+higher-dimensional, function-field, and cone-method shelves are
+ALL read or vetted, and none contains a parity theory for
+restricted-index sawtooth sums. The summit's problem is beyond the
+entire visible literature. The campaign's boundary map is complete
+in every direction it knows how to look; what remains is invention
+(ours or a delegate's) or the falsifier. One hundred thirteen
+entries.
