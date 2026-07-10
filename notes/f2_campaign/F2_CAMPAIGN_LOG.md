@@ -2084,3 +2084,20 @@ Mersenne exclusion), the protocol record (98 cycles, 23 catches,
 0 unverified), and the standing posture. This is the document a
 future session, a delegate, or Przemek reads first; it now tells
 the truth at current depth. One hundred eleven entries.
+
+## 112 — 2026-07-10: cycle 100 — source audit complete; the
+## Duke-Hopkins exclusion
+
+The centennial cycle closed the source audit: every reference in
+brief v4 is now read at depth. The yield: Duke-Hopkins' beautiful
+machinery (symbol = Galois twist of the character-table
+determinant's square root) STRUCTURALLY produces only Dirichlet
+characters — and eps is measured to be none — so the entire
+permutation-sign/Galois-twist class of mechanisms is excluded,
+upgrading cycle 93's naive refutation to a framework-level no-go.
+Zagier's reciprocity confirmed as a shape mismatch (cotangent
+products, linear arguments). One shelf remains unread: finite-
+field higher Dedekind sums (noted). The brief now makes no promise
+resting on an unread source. One hundred cycles: 28 satellites,
+23 catches, 12 no-gos, one precisely-named open problem, zero
+unverified claims. One hundred twelve entries.

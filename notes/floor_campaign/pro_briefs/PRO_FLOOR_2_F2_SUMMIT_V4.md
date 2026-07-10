@@ -87,6 +87,14 @@ Plus the annealed death constant (sat 18): any bound routed through
 
 ## NAMED ENTRY POINTS (in order of our current credence)
 
+E0-VERDICTS (cycle 100 source audit): Duke-Hopkins read in full —
+    its mechanism (Galois twist of a fixed algebraic number) yields
+    ONLY Dirichlet characters in a; eps is measured non-character
+    (sat 26), so ALL permutation-sign/Galois-twist routes are
+    excluded, not just naive Zolotarev. Zagier reciprocity: cotangent
+    products at linear arguments, coprime moduli — shape mismatch, no
+    direct application. Unread adjacent shelf: finite-field higher
+    Dedekind sums (ScienceDirect S1071579711000438).
 E1. LATTICE-POINT PARITY / EHRHART MOD 2. eps_c is the parity of
     K_c + U_c — both are lattice counts attached to the rational point
     c/q and the subgroup orbit {x}: U counts orbit points in a
