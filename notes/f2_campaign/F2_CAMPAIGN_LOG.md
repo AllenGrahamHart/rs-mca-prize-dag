@@ -2118,3 +2118,13 @@ entire visible literature. The campaign's boundary map is complete
 in every direction it knows how to look; what remains is invention
 (ours or a delegate's) or the falsifier. One hundred thirteen
 entries.
+
+## 114 — 2026-07-10: steady-state tick
+
+Cycle 102. Duties re-checked: upstream unchanged (latest still the
+07-09 asymptotic-priorities commit); Codex unchanged (idle since
+07-05, standing user flag). No new information; no stale rotation
+item; no action warranted beyond this tick. The steady state
+holds: one precisely-named open problem beyond the visible
+literature, armed delegation, clean watch, complete boundary map.
+One hundred fourteen entries.
