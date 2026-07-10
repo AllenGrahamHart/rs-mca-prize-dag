@@ -145,3 +145,17 @@ falsified lead (our own M2 jointness conjecture), and the
 sharpest formulation either program has produced of what the
 prize still needs: constant-exact clause (ii), the axis-Q
 small-core heart, and the joint reserve. T-BASIS: SATISFIED.
+
+## 10 — 2026-07-10: the conventions-decision flag raised upstream
+## (issue #493)
+
+The program's cheapest-large-win finding — the QA.22 within-column
+room (27.0/60.6+ bits) vs the 0.9-bit aggregate line, and its
+consequence that two kernels' clause-(ii) instances are currently
+CONSTANT-EXACT obligations — posted to Przemek as a maintainer
+decision request: https://github.com/przchojecki/rs-mca/issues/493
+(issue, not PR: it is a governance question about budget
+attribution, and the C9 episode shows that adjudication lane is
+active). If granted: F5's and worst_word's open problems relax to
+ordinary poly(n) bounds at zero proof cost. Flagged-not-spent
+discipline maintained on our side pending the ruling.
