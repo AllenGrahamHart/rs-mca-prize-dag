@@ -2041,3 +2041,22 @@ only explicit parity mechanism for sawtooth sums — queued with the
 cyclotomic-norm partial-quotient bound as the two transferable
 leads for future proof cycles and the delegation brief. The
 rotation continues. One hundred eight entries.
+
+## 109 — 2026-07-10: rotation cycle — Codex idle 5 days; naive
+## CF-depth parity composition refuted
+
+Cycle 97. MAINTAINER: Codex latest activity remains 2026-07-05
+(E22 packets) — 5 days idle, worth flagging to the user at next
+engagement; upstream unchanged since the 07-09 asymptotic/Grande
+Finale commits. PROOF LEAD (first contact, negative): the naive
+composition of the Barkan-Hickerson CF-depth parity mechanism over
+orbits — corr(K mod 2, sum of CF depths mod 2) = 0.02-0.21,
+decaying with q; corr with eps similar. No law, no usable
+correlation; the naive version of the CF lead is closed (the
+refined per-element BH formula, with its signed partial-quotient
+sums, remains in the delegation queue as a genuine research
+program). The rotation's honest yield curve is flattening exactly
+as the posture predicted: identification and literature are
+complete, cheap leads are exhausting, and the campaign's live
+exits remain a real proof effort (delegated or a new idea) or the
+falsifier at untested scales. One hundred nine entries.
