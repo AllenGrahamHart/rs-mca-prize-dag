@@ -1922,3 +1922,21 @@ at 3+ scales. At official rows sqrt(n k) ~ 2^28: polynomial,
 harmless. Brief v4 updated: E1 and E2 are the only named lanes
 left. Verifier run inline (local, small — the field harness reused
 from cycle 85). One hundred two entries.
+
+## 103 — 2026-07-10: no character formula — the sign is pseudorandom
+## in every Fourier basis (satellite 26)
+
+Cycle 91, E2 first contact. The one-variable reduction (orbit reps
+c = (1,a)) and the full-group closed form pointed at a possible
+character formula for eps(a); the measurement says no: max
+multiplicative-character weight AT OR BELOW the random baseline at
+all 6 rows, chi_2 correlation negligible, no consistent low-order
+family. With satellite 23: the parity field has NO spectral
+description in either Fourier basis. E2's character shortcut is
+closed; E2 survives only as exact reciprocity for the carry K;
+E1 (Ehrhart mod 2) is now the primary lane. The record reads
+consistently: every structure test the parity passes as 'perfectly
+pseudorandom', while the alignment stays exactly at the per-orbit
+random-model value ~1 (sat 25) — the field IS what the summit
+conjecture says it is; proving it is the residual. One hundred
+three entries.

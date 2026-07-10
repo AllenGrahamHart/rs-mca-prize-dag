@@ -4921,6 +4921,11 @@
    "id": "f2_frobenius_orbit_model",
    "status": "PROVED",
    "statement": "F2 FROBENIUS INVARIANCE + THE ORBIT-MULTIPLICITY EXPLANATION (2026-07-10, campaign cycle 90): E4 closed by proof, and the measured alignment constant EXPLAINED. THEOREM (5 lines, verified to 2e-15 at F_49, F_25, F_81): (S, eps) are invariant under coordinatewise Frobenius phi(c) = (c_i^p) \u2014 substituting z = x^{p^{-1} mod n} gives {Tr(phi(c).xbar(x))}_x = {Tr(c.xbar(z))}_z as multisets. CONSEQUENCE 1 (NO-GO #12): E4 \u2014 averaging the sign over Frobenius orbits \u2014 is VACUOUS: the sign is CONSTANT on orbits; there is nothing to average. Frequency space now carries a proved invariance group of order ~ n*k (twisted scaling, sat 19, times Frobenius). CONSEQUENCE 2 (the explanation): signs constant on orbits of size ~ n*k means the correct random-sign baseline is PER-ORBIT: predicted alignment ratio = sqrt(n*k) * O(1), NOT O(1). MEASURED COLLAPSE: all 13 banked struct-subtracted ratios (satellite 20) divided by sqrt(n) land in [0.04, 1.56] \u2014 eleven in [0.55, 1.56] tightly around 1, and the two below-band rows are exactly the zero-extras rows ((113,16,3) and (769,64,2)); the three prime-power rows divided by sqrt(n*k) give 1.53, 1.00, 0.24. The mysterious 'alignment ~7' of satellites 19-20 IS the orbit multiplicity. THE REFINED SUMMIT MODEL (sharpest falsifiable form): the parity field is RANDOM PER ORBIT with constant ~ 1; refined falsifier \u2014 the per-orbit constant (struct-sub ratio / sqrt(n k)) sustained above ~10 at 3+ scales. At official rows the orbit factor sqrt(n k) ~ 2^28 is polynomial in n \u2014 harmless to the 2^{o(n)} budget; the summit statement is UNCHANGED in strength but its empirical model is now exact to the measurement floor. Verifier: inline in campaign log #102 (local, small). Twenty-fifth satellite; named lanes remaining: E1 (Ehrhart mod 2), E2 (Dedekind-integer reciprocity)."
+  },
+  {
+   "id": "f2_multiplicative_flatness",
+   "status": "PROVED",
+   "statement": "F2 MULTIPLICATIVE FLATNESS OF THE SIGN FIELD (2026-07-10, campaign cycle 91): the parity has NO character formula \u2014 pseudorandom in BOTH Fourier bases. Setup: by twisted-orbit invariance (sat 19) every generic j=2 frequency orbit has representative c = (1, a), so the sign field is a one-variable arithmetic function eps(a) on F_q^x. The full-group closed form (N(y) = 1 + chi_2(disc) fiber count turns the period product into a quadratic-character-twisted log-sum) suggested eps might be character-expressible \u2014 the theory-favored E2 shortcut. MEASURED at 6 exact rows (q = 97..577; full multiplicative-character spectrum via discrete-log FFT): max nontrivial character weight = 2.5-3.4 vs random +-1 baseline sqrt(2 ln(q-1)) = 3.0-3.6 \u2014 AT OR BELOW RANDOM at every row; explicit quadratic-character correlation 0.6-2.4 (negligible); top-character orders scattered (16/14/32/128/16/48 \u2014 no consistent low-order family). VERDICT: eps(a) carries no multiplicative structure; with satellite 23 (additive flatness) the sign field is spectrally pseudorandom in every available Fourier basis \u2014 it admits NO spectral description. CONSEQUENCE for the lane map: E2's character-shortcut is CLOSED; E2 survives only as exact Dedekind-type reciprocity for the carry integer K (identity theory, not spectral theory); E1 (Ehrhart mod-2 lattice parity) is the PRIMARY surviving lane. The sign quantization theorem's object is as hard as its coordinates are elementary \u2014 the campaign's honest reading: the parity field behaves like a perfect pseudorandom sign in every tested structure EXCEPT its exact lattice definition, which is where any proof must now live. Verifier: inline in campaign log #103 (local, small). Twenty-sixth satellite."
   }
  ],
  "edges": [
@@ -9631,6 +9636,11 @@
   },
   {
    "from": "f2_frobenius_orbit_model",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_multiplicative_flatness",
    "to": "u2c_giant_tnull_dichotomy",
    "kind": "ev"
   }
