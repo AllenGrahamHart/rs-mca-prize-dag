@@ -1759,3 +1759,27 @@ at Dedekind sums; cycle 81 relocated them to the phase; this cycle
 shows the phase is their INTEGER special values — the reciprocity
 theory the summit needs is the parity/lattice-point one, not the
 continuous one. Ninety-four entries.
+
+## 95 — 2026-07-10: alignment scaling across 12 rows, CATCH #21, and
+## the outlier autopsy that verified the dichotomy exactly
+
+Cycle 83, digest F2_ALIGNMENT_SCALING_PASS. CATCH #21: satellite
+19's transcribed sign formula omitted the carry term — correctly
+eps_c = (-1)^{K+U}, K = (sum s_x)/q; caught by the identity check
+failing at 1e0 instead of 1e-15 on the study's first run; the
+theorem and all verified identities stand (the cycle-82 verifier
+used exact arguments); statement corrected in place. THE STUDY:
+12 exact rows, frequency populations 12.7k to 36.3M. j=2 subfamily:
+R/R_pred flat at ~7 +- 2, no growth over 35x population — the
+sign-magnitude alignment shows no scale drift where flat dominates.
+j=3 inflation (60 at (113,16)) AUTOPSIED by brute force over all
+2^16 subsets: N_total = 16 = exactly the coset-union struct blocks,
+EXTRAS = ZERO — the inflation is deterministic struct drift, and
+that row is a LITERAL EXACT VERIFICATION of the F2 dichotomy (every
+3-null block of mu_16 in F_113 is a coset union, no extras at all).
+Twisted-orbit invariance proved and verified (effective population
+(q^j-1)/n). Pre-registered for cycle 84: the struct-subtracted
+alignment ratio (struct = 2^{n/4} at 2-power rows) as the honest
+falsifier-adjacent number. The Rademacher frame survives its first
+scaling test; the struct census re-enters as the deterministic
+drift it always was. Ninety-five entries.
