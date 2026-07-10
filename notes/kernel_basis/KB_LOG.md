@@ -504,3 +504,47 @@ recorded on the node. Second-replay record: round6/round7,
 A1-PROD byte-identical table, S2, exact-E rows — all PASS.
 M-ledger M1-M6 ordered by cost; M1 (the C2'' adversarial round,
 n=64 sharded MITM, Modal) is the decisive next experiment.
+
+## 24 — 2026-07-10: xr_smallcore AMBER — the fourth route commitment;
+## surface 222 = {184 PROVED, 25 COND, 13 UNPROVED}; AMBER PASS COMPLETE
+
+Fresh-context audit verdict AMBER-READY on the TWO-PREDICATE
+STRATUM route (high-core / low-core split of the post-strip live
+remainder) — NOT the K2-reduction route, whose WP2 refusal stands
+(different question; both answers coexist). The WP2-named blocker
+M6 (symbolic-constants composition) was done exactly end-to-end:
+no proved stratum consumes budget inside R_post at the six
+candidates, so the full 16 splits 8+8 with zero hidden constants;
+prize rows tight at 29n^3 (30n^3 fails), slack log2(29/16) =
+0.858 bits. Three independent implementations of the consumption
+arithmetic agree (52/52 shipped, 50/50 budget, 69/69 fresh —
+re-replayed at banking). Rung-2b forcing replayed EXHAUSTIVELY
+(4,662 pairs, 0 violations, t=3 control).
+
+SURGERY: minted xr_highcore_collision_count (P-A, key) +
+xr_lowcore_spread_heart (P-B, key) + xr_strip_classification_rungs
+(PROVED carrier, the ww_lemma_a_exhaustion pattern); req-wired
+P-A/P-B/carrier; promoted f5_wcollision_pair_moment_identity,
+f5_lineray_saturation_instrument, floor_budget_slack_scan ev->req
+(two partition-law moves); ev context edges from BOTH RK ids to
+both predicates (catch #35 rule); node -> CONDITIONAL with pins
+P1-P6 + 5 re-surgery criteria; stale statement.md and
+conditional.md rewritten (old conditional cited two nodes ABSENT
+from the DAG); gate-side dihedral_staircase overstatement
+annotated.
+
+CATCH #42 (posedness, load-bearing): P-A posed on the SLOPE
+COUNT, not the collision moment — the moment can sit at ~n^6
+while the floor holds (np1: moment 130,370 vs 98 rays); a
+moment-posed predicate invites spurious re-surgery. CATCH #43
+(drift bundle): stale generic-poly statement.md (a Cn^5 proof
+would have passed it and broken the consumer); retracted
+'WIRING FIX ev->req' line; '~2^100 slack' -> 2^92.000/2^4.9.
+
+AMBER-PASS COMPLETION: all five auditable reds audited (u2c #16,
+worst_word #19, petal #20, u1_x4 #22 NOT-READY, dli #23
+NOT-READY, xr #24); summit + rate_half exempt (documented). The
+13 surface reds = 4 audit-minted predicate pairs/quads + the two
+irreducible kernels + the three floors that honestly refused
+their ambers. Every green/amber on the surface satisfies the
+machine-enforced invariant.
