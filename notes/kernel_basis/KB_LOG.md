@@ -94,3 +94,22 @@ missing node, absent everywhere). Basis tally: K2 (u2c; F5
 partial), K4+G2 (petal), K5 (rate_half); K3 evidence shelf.
 Remaining: WP3+WP4 (x4 + dli, RK Faces 1/2), WP7 (worst_word,
 Face 4), then the T-BASIS assembly pass.
+
+## 7 — 2026-07-10: WP3+WP4 DONE — both REDUCTION-PARTIAL; CATCH #26;
+## the jointness lead falsified; the strongest unification datum yet
+
+Combined replay (WP3_WP4_VERDICT.md, 8 verifiers green): u1_x4 —
+Face 1 CONSUMES the node rather than supplying it (TR ~ quotient-row
+x4: one open instance, two consumers); X1-X6 named, including
+CATCH #26 (U2's banked window over-broad; FM covers b only to
+t log2 q/log2 n — exact arithmetic; K2 silent on the gap window)
+and one simplification (absolute n^3 budget kills M6 at
+FM-suppressed strata). dli — the Face-2 identification is EXACT;
+M2's #212-jointness conjecture FALSIFIED on three machine-checked
+grounds (the falsification-first protocol working on our own
+leads); Y1-Y4 named, with Y2 (the joint reserve, C2'') plausibly
+ONE kernel clause with TR — unification lead U3-KB. Remaining:
+WP7 (worst_word, Face 4), then the T-BASIS assembly. The basis
+is converging on: K2-enlarged (clause-(ii) instances + joint
+reserve + extended taxonomy), K4+G2 (petal), K5 (rate_half),
+plus finite certifications and the X/Y/G/M work ledgers.
