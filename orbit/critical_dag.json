@@ -337,6 +337,56 @@
    "title": "E1 two-cell folded manifest assembly soundness"
   },
   {
+   "id": "e22_agreement_cofactor_equations",
+   "label": "PROVED",
+   "title": "E22 agreement cofactor equations"
+  },
+  {
+   "id": "e22_cofactor_petal_divisibility",
+   "label": "PROVED",
+   "title": "E22 cofactor petal divisibility"
+  },
+  {
+   "id": "e22_cross_scale_rootset_recovery",
+   "label": "PROVED",
+   "title": "E22 cross-scale root-set recovery"
+  },
+  {
+   "id": "e22_cross_scale_support_canonical_form",
+   "label": "PROVED",
+   "title": "E22 cross-scale support canonical form"
+  },
+  {
+   "id": "e22_fiber_locator_saturation",
+   "label": "PROVED",
+   "title": "E22 quotient-fiber locator saturation"
+  },
+  {
+   "id": "e22_fixed_scale_staircase_injectivity",
+   "label": "PROVED",
+   "title": "E22 fixed-scale staircase injectivity"
+  },
+  {
+   "id": "e22_lower_scale_filter_inclusion_exclusion",
+   "label": "PROVED",
+   "title": "E22 lower-scale filter inclusion-exclusion"
+  },
+  {
+   "id": "e22_overlap_nested_fiber_residual_identity",
+   "label": "PROVED",
+   "title": "E22 nested-fiber residual identity"
+  },
+  {
+   "id": "e22_residual_profile_generating_function",
+   "label": "PROVED",
+   "title": "E22 residual-profile generating function"
+  },
+  {
+   "id": "e22_tail_coset_locator_algebra",
+   "label": "PROVED",
+   "title": "E22 tail-coset staircase locator algebra"
+  },
+  {
    "id": "ef_component_control_alignment",
    "label": "PROVED",
    "title": "EF component-control alignment"
@@ -792,9 +842,29 @@
    "title": "Periodic strata C(n/M, j/M); exchange-independent; coset recursion"
   },
   {
-   "id": "petal_growth",
+   "id": "petal_g1_layer_maps",
    "label": "UNPROVED",
+   "title": ""
+  },
+  {
+   "id": "petal_g2_support_forcing",
+   "label": "UNPROVED",
+   "title": ""
+  },
+  {
+   "id": "petal_g3_pricing_multiplicity",
+   "label": "UNPROVED",
+   "title": ""
+  },
+  {
+   "id": "petal_growth",
+   "label": "CONDITIONAL",
    "title": "FLOOR CONJECTURE (PETAL-ESCAPE-BUDGET): top-band full-petal contribution to #ImgFib_U fits n^B at official rows"
+  },
+  {
+   "id": "petal_k4_primitive_bound",
+   "label": "UNPROVED",
+   "title": ""
   },
   {
    "id": "q_recursion",
@@ -915,6 +985,11 @@
    "id": "v13_base_field_normalization_guard",
    "label": "PROVED",
    "title": "v13 base-field normalization guard (ledger law)"
+  },
+  {
+   "id": "v13_capf_planted_lower_count",
+   "label": "PROVED",
+   "title": ""
   },
   {
    "id": "v8_ledger",
@@ -1923,6 +1998,30 @@
    "to": "dli_reduced_phase_manifest_soundness"
   },
   {
+   "from": "e22_agreement_cofactor_equations",
+   "to": "e22_cofactor_petal_divisibility"
+  },
+  {
+   "from": "e22_fixed_scale_staircase_injectivity",
+   "to": "e22_cross_scale_rootset_recovery"
+  },
+  {
+   "from": "e22_cross_scale_rootset_recovery",
+   "to": "e22_cross_scale_support_canonical_form"
+  },
+  {
+   "from": "e22_cross_scale_support_canonical_form",
+   "to": "e22_overlap_nested_fiber_residual_identity"
+  },
+  {
+   "from": "e22_overlap_nested_fiber_residual_identity",
+   "to": "e22_residual_profile_generating_function"
+  },
+  {
+   "from": "e22_residual_profile_generating_function",
+   "to": "e22_lower_scale_filter_inclusion_exclusion"
+  },
+  {
    "from": "dli_prime_weighted_large_block_support",
    "to": "x4_exactlist_staircase_split"
   },
@@ -2069,6 +2168,46 @@
   {
    "from": "xr_target_budget_audit",
    "to": "worst_word_challenger_pricing"
+  },
+  {
+   "from": "petal_g1_layer_maps",
+   "to": "petal_growth"
+  },
+  {
+   "from": "petal_g2_support_forcing",
+   "to": "petal_growth"
+  },
+  {
+   "from": "petal_g3_pricing_multiplicity",
+   "to": "petal_growth"
+  },
+  {
+   "from": "petal_k4_primitive_bound",
+   "to": "petal_growth"
+  },
+  {
+   "from": "e22_agreement_cofactor_equations",
+   "to": "petal_growth"
+  },
+  {
+   "from": "e22_cofactor_petal_divisibility",
+   "to": "petal_growth"
+  },
+  {
+   "from": "e22_tail_coset_locator_algebra",
+   "to": "petal_growth"
+  },
+  {
+   "from": "e22_lower_scale_filter_inclusion_exclusion",
+   "to": "petal_growth"
+  },
+  {
+   "from": "v13_capf_planted_lower_count",
+   "to": "petal_growth"
+  },
+  {
+   "from": "e22_fiber_locator_saturation",
+   "to": "petal_growth"
   }
  ]
 }
