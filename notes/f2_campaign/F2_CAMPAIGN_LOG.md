@@ -2208,3 +2208,18 @@ source column corrected to the e83962ae note). Both pre-campaign
 deferred verifications are now discharged; the delegation pattern
 (fresh context reads, one writer banks) is 2-for-2. One hundred
 nineteen entries.
+
+## 120 — 2026-07-10: #395 Theorem C1 replayed green — delegation
+## 3-for-3; the BC lane gains its exact decomposition
+
+Cycle 108. Third fresh-context delegation: the curve second-moment
+identity CONFIRMED at 10 rows (two independent RHS enumerations,
+per-stratum cell matches, z* both zero and nonzero) and the proof
+READ SOUND uniformly in parameters — the L4-scale instance follows
+by argument, not enumeration. Banked as a background node feeding
+v13_bc_split_pencil_normal_form, with hard scope guards (no
+magnitude bounds; C2/dichotomy/ceilings untouched; distinct from
+the Veronese emptiness — the top stratum is genuinely nonempty at
+other parameters). Ledger row advanced. Remaining ledger queue:
+the L4-interior-chart proof-read and the image-fiber correction
+read. One hundred twenty entries.

@@ -4946,6 +4946,11 @@
    "id": "v13_veronese_top_stratum_char0",
    "status": "PROVED",
    "statement": "VERONESE z*=0 TOP-STRATUM EMPTINESS, CHAR 0 (2026-07-10, cycle 107; independent fresh-context replay, verifier archived in node notes): upstream Theorem T4 (note cap25_v13_bc_l4_veronese_top_stratum.md, integrated upstream at e83962ae \u2014 SOURCE CORRECTION: not v13 raw) CONFIRMED at char 0 \u2014 for n = 2^a, ordered constant-shift pairs of disjoint d-subsets of mu_n with equal power sums p_1..p_{d-1} exist IFF d is a power of 2 (and are mu_d-coset pairs); hence the L4 top stratum A(mu_{2^17}, 4218) = 0 since 4218 = 2*3*19*37 is not a 2-power. Replay: exact Z[zeta_n] census over ~575,000 subsets, 3248 constant-shift pairs examined; the iff-2-power law exact at n = 8,16,32 (and 10,12,20,24 controls, n=20 full-depth beyond upstream's tested set); Lemma A antipodal forcing held on all 1124 disjoint equal-p_1 pairs (upstream count reproduced digit-exactly); both lemma proofs read sound modulo classical Lam-Leung; positive control (X^4-1, X^4+1) and all L4 arithmetic pins exact; upstream's own verifier independently green with 27/27 tamper-selftest coverage. SCOPE GUARDS (do not import beyond): (i) CHAR 0 ONLY \u2014 char-p emptiness at the L4 prime remains conjectural upstream (degenerate primes genuinely exist: count 32 at p = 97, n = 16); (ii) only the top stratum e = w+2 is zeroed \u2014 deeper strata and the overall M2 bound untouched; (iii) the generic z* != 0 transversal branch is open; (iv) the companion 'BC curve second moment' claim (#395 Thm C1) is SEPARATE and NOT verified (ledger row split accordingly). Statement hygiene: 'A_prim = 0' requires d >= 2 (d = 1 is the trivial singleton family). Verifier: background/nodes/v13_veronese_top_stratum_char0/notes/veronese_check.py."
+  },
+  {
+   "id": "v13_bc_curve_second_moment_identity",
+   "status": "PROVED",
+   "statement": "BC CURVE SECOND MOMENT IDENTITY \u2014 #395 THEOREM C1, REPLAYED GREEN (2026-07-10, cycle 108; independent fresh-context replay + proof-read, verifier archived in node notes): the exact identity M2 = sum_s N_{w+1}(theta(s))^2 = S1 + sum_{e=w+2}^{min(m,n-m)} sum_{R, |R|=m-e} sp^Gamma_{w+1}(e;R) CONFIRMED \u2014 with the stratum floor e >= w+2, ceiling e <= min(m,n-m), constant-shift shape of the top stratum (A - B a nonzero constant), and Prop C1-1 (a_1-equality = full-prefix equality on V x V). Replay: exhaustive exact enumeration at 10 parameter rows (p = 13..113, both z* = 0 and z* != 0; off-diagonal non-vacuous at 4 rows including 2 at z* != 0; strongest row (13,12,5,1) with strata 164/48/4 matching the direct census cell-by-cell), TWO independent RHS enumeration methods agreeing, three independent LHS computations agreeing; per-stratum comparison strictly stronger than the aggregate identity. PROOF-READ SOUND at general parameters: every step characteristic-free and parameter-uniform (Fact 0, Prop C1-1, the (R,A,B) encoding bijection, the degree constraint via ell_T - ell_T' = ell_R(A-B) over an integral domain, T'-validity derived from T-validity + equal prefix) \u2014 the L4-scale instance (n = 2^17, m = 69753, w = 4216) follows by the same argument, not by enumeration. SCOPE GUARDS (do not import beyond): nothing about MAGNITUDES (no M2 bound, no Cauchy-Schwarz consequence); #395's other claims (C2 twist-equivariance, twist dichotomy, ceilings, residual-equidistribution conjecture) NOT verified; distinct from the Veronese top-stratum emptiness (which zeroes the top stratum only at the specific L4 d \u2014 the top stratum is genuinely nonempty at other parameters, e.g. 2 pairs at (97,8,4,2)); PR #395 itself remains unintegrated upstream (closed 2026-07-08 without merge). Feeds v13_bc_split_pencil_normal_form as the exact-decomposition input. Verifier: background/nodes/v13_bc_curve_second_moment_identity/notes/verify_c1.py."
   }
  ],
  "edges": [
@@ -9681,6 +9686,11 @@
   },
   {
    "from": "v13_veronese_top_stratum_char0",
+   "to": "v13_bc_split_pencil_normal_form",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_bc_curve_second_moment_identity",
    "to": "v13_bc_split_pencil_normal_form",
    "kind": "ev"
   }
