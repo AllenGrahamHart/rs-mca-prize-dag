@@ -4886,6 +4886,11 @@
    "id": "f2_annealed_phase_split",
    "status": "PROVED",
    "statement": "F2 ANNEALED/PHASE SPLIT (2026-07-10, campaign cycle 81; digest F2_ANNEALED_PHASE_SPLIT_PASS): the consumer contract's Fourier anatomy, pinned. (I) CENSUS-FOURIER IDENTITY (orthogonality, exact; verified integer-exact against the DP census at (97,32,j=2), all b): N_b^(j) = (1/q^j) sum_{c in F_q^j} [z^b] prod_{x in mu_n}(1 + z psi(c.(x,..,x^j))). The period product splits into MODULUS field S_c = sum_x log|1+psi(c.xbar)| (= the satellites-16/17 field) and PHASE field Phi_c. (II) ANNEALED DEATH CONSTANT: E_c[exp(S_c)] = (4/pi)^{n(1+o(1))} under phase equidistribution (E_theta|1+e(i theta)| = 4/pi, one line); at official depth q^t = 2^{2.15e12} >> exp(0.411 n) the Gaussian tail is fully available, so ANY absolute/triangle-inequality route (annealed, max, or L-value moments of |S|) misses the n^3 budget by >= n log2(4/pi) ~ 0.3485 n ~ 3.8e11 bits \u2014 the required signed recovery is the ENTIRE annealed mass; no bound on |S| alone can close the contract. Measured at 6 rows: rates 0.10-0.26 nats/root, every deviation from the ideal explained and checked (CATCH #20: finite-frequency-population cap \u2014 q^j points cannot realize the tail S ~ 0.822n unless j log q > 0.411 n; sampled estimators are tail-blind/biased-low, the sample-max-dominated formula (maxS - log N)/n reproduced every low rate to 0.001; the exact-population j=3 rate 0.2569 slightly EXCEEDS the discrete envelope 0.2416 \u2014 mild positive dependence \u2014 the death constant is a FLOOR). (III) PHASE FIELD = GENERALIZED DEDEKIND SUM (proved per-factor: arg(1+e(i theta)) = theta/2, psi never -1 at odd q): Phi_c = pi * sum_{x in mu_n} ((c.xbar/q)) with ((.)) the centered sawtooth \u2014 verified to 5e-13 at all rows. REDIRECT (the split's consequence for the summit lane): the census's needed cancellation is the mod-2pi oscillation of Phi_c \u2014 a SAWTOOTH/DEDEKIND SUM OVER THE SUBGROUP, the exact classical home of Dedekind reciprocity and Vardi/Conrey distribution theory; the L-function diagonalization governs the modulus component, reciprocity must govern the phase. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_annealed_phase_split_modal.py. Eighteenth satellite; the summit's open content now has coordinates: (modulus, phase) = (L-values at 1, Dedekind sawtooth sums)."
+  },
+  {
+   "id": "f2_sign_quantization",
+   "status": "PROVED",
+   "statement": "F2 SIGN QUANTIZATION THEOREM (2026-07-10, campaign cycle 82; digest F2_PHASE_CANCELLATION_PASS): the phase field is PI-QUANTIZED \u2014 every census frequency term is a SIGNED REAL. For j < n, Phi_c = pi * sum_{x in mu_n}((c.xbar/q)) is an integer multiple of pi: sum_x (c.xbar mod q) = c.(p_1(mu_n),..,p_j(mu_n)) = 0 mod q because full-group power sums vanish below index n, so the sawtooth sum is an INTEGER (one-paragraph proof; discovered by the Weyl k=2 sums measuring exactly 1.0000 at every row). Hence prod_{x in mu_n}(1+psi(c.xbar)) = eps_c * exp(S_c) with SIGN eps_c = (-1)^{#{x in mu_n : c.xbar mod q > q/2}} \u2014 a half-interval count parity, purely combinatorial. COROLLARIES: (a) j=1 phase vanishing for even f (verified exactly); (b) THE SUMMIT REFRAMED: growing-order Myerson at official rows = square-root cancellation of the RADEMACHER-TYPE sign field eps_c weighted by exp(S_c) \u2014 the census deviation is q^j N_total - 2^n = sum_{c != 0} eps_c exp(S_c), an identity verified exactly against integer DP censuses at (97,32,j=2), (97,32,j=3), (193,64,j=2) to 6e-15. FIRST ALIGNMENT MEASUREMENT (the falsifier-adjacent number): R/R_pred = measured signed recovery vs random-sign prediction sqrt(sum exp 2S)/sum exp S = 6.53, 7.98, 7.41 at the three exact rows \u2014 systematically ~7x above perfect-random but FLAT across rows so far; unweighted sign imbalance |E eps| = 0.002-0.15 (nearly balanced, one notable 0.148 at (193,64)). Pre-registered continuation: if the alignment factor GROWS with scale (more exact rows, higher j), the sign-magnitude correlation is the danger lane \u2014 measure before any proof attempt; if it stabilizes O(1), constant-factor alignment is absorbable in the 2^15-per-condition slack. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_phase_cancellation_modal.py. Nineteenth satellite; the summit's coordinates sharpen: (modulus, sign) = (L-values/Gaussian field, half-interval parities)."
   }
  ],
  "edges": [
@@ -9561,6 +9566,11 @@
   },
   {
    "from": "f2_annealed_phase_split",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_sign_quantization",
    "to": "u2c_giant_tnull_dichotomy",
    "kind": "ev"
   }

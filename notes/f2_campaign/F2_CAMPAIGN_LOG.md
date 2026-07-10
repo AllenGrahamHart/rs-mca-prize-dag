@@ -1735,3 +1735,27 @@ side. The lane redirect: modulus = L(1,chi) theory (done, cycles
 79-80); phase = reciprocity theory (open, THE target). Log #89's
 instinct was right about the tool and wrong about the component.
 Ninety-three entries.
+
+## 94 — 2026-07-10: SIGN QUANTIZATION — the phase field collapses to
+## a combinatorial sign, and the summit becomes a Rademacher problem
+
+Satellite 19 (f2_sign_quantization, PROVED). The cycle asked whether
+Phi_c equidistributes mod 2pi; the answer is QUANTIZATION, not
+equidistribution: Weyl k=2 sums measured exactly 1.0000 everywhere,
+and the one-paragraph proof followed — full-group power sums vanish
+below index n, so the sawtooth sum is an integer and Phi_c is in
+pi*Z. Every census frequency term is a SIGNED REAL: eps_c exp(S_c)
+with eps_c = (-1)^{#{x : c.xbar mod q > q/2}} — a half-interval
+count parity. The census identity sum_{c!=0} eps_c exp(S_c) =
+q^j N_total - 2^n verified exactly (integer DP, 6e-15) at three
+rows. The summit in its sharpest coordinates yet: square-root
+cancellation of a combinatorial Rademacher-like sign field against
+the Gaussian modulus field. First alignment measurement: R/R_pred
+~ 6.5-8.0, flat across the three exact rows — ~7x above perfect
+random-sign, far from the q/2^15-scale danger; its SCALING is now
+the campaign's falsifier-adjacent number (pre-registered: growth =
+danger lane, stabilization = absorbable constant). Log #89 pointed
+at Dedekind sums; cycle 81 relocated them to the phase; this cycle
+shows the phase is their INTEGER special values — the reciprocity
+theory the summit needs is the parity/lattice-point one, not the
+continuous one. Ninety-four entries.
