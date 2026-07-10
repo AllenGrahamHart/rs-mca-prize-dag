@@ -2352,3 +2352,14 @@ falsifier never fired: any axis, any band, any scale, six decades
 of population. What remains of the charter is what has remained
 since cycle 93: the theorem, or new information. One hundred
 twenty-nine entries.
+
+## 130 — 2026-07-10: charter suspended by user decision
+
+The user cancelled the standing goal ("lets just cancel the goal
+for now"). Not a termination event: neither T-WIN nor T-FLOOR was
+reached, and the suspension notice in F2_FLIP_GOAL.md records it
+as reversible. The campaign closes its active phase after 121
+working cycles with every program complete, zero debts, and the
+summit posed in one sentence for whoever takes it next — a Pro
+thread, a fresh session, or the literature catching up. One
+hundred thirty entries.

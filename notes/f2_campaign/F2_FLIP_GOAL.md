@@ -100,3 +100,18 @@ L5 ASSEMBLY + FLIP: branch (a) [banked] + branch (b) [L2+L3] + the
 Asymptotic formalization (upstream's lane); F3 (Codex's); the F6/F7
 certificate track (separate lane); upstream PRs are welcome dual-use
 exports but never gate a rung.
+
+---
+
+## CHARTER SUSPENDED BY USER (2026-07-10)
+
+The user has cancelled this standing goal effective immediately
+("lets just cancel the goal for now"). Neither T-WIN nor T-FLOOR
+was reached; the suspension is a USER DECISION, not a termination
+event, and is reversible by re-invoking the goal. The campaign
+record stands in full: 30 satellites, 24 catches, 12 no-gos, the
+one-sentence summit (open, beyond the visible literature), brief
+v4 armed, the falsifier never fired across the complete measured
+phase diagram. Resume point: rs-mca-f2-flip-campaign memory,
+log #129, FINDINGS.md. The Stop-hook loop tied to this file is
+void as of this notice.
