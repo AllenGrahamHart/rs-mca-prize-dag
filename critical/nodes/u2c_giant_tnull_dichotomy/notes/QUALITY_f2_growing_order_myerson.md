@@ -27,4 +27,14 @@ tolerance leaves ~2^{1.05e12} room — attackers have essentially unlimited
 slack; only the SHAPE (sub-exponential alignment) is load-bearing.
 
 ## EXECUTION LOG
-- 2026-07-10 W3 transition octave (f2_watch_w3_transition_modal.py): PENDING — fill on completion.
+- 2026-07-10 W3 transition octave (f2_watch_w3_transition_modal.py, Modal,
+  this program): **F2_WATCH_W3_PASS — SURVIVED.** 13 primes (193..2113, all
+  1 mod 32), exact MTM censuses at populations 7.2e6..9.4e9; teeth at 5
+  primes (extras 768/128/160/64/64 at q = 193..577, then exact zero from
+  q = 641 up — the deep-regime theorem visible in-band); kill-line hits
+  (per-orbit > 10): ZERO; per-orbit constants 0.073..1.043, inside the
+  established [0.03, 3] band. The Rademacher model holds in the transition
+  band at 200x the prior watch frontier. Non-vacuity confirmed (>= 3 primes
+  with teeth). CERTIFICATE STATUS: Q-SURV EXECUTED — the summit's
+  certificate is COMPLETE (Q-SUFF pointer + extensive dossier + fresh
+  executed attempt + standing watch registered).
