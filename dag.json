@@ -4881,6 +4881,11 @@
    "id": "f2_second_moment_budget",
    "status": "PROVED",
    "statement": "F2 UNCONDITIONAL SECOND-MOMENT BUDGET (2026-07-10, campaign cycle 80; digest F2_SECOND_MOMENT_BUDGET_PASS): first unconditional control of the summit's deviation field at ALL growing orders. From the L-function diagonalization (satellite f2_lfunc_diagonalization): (i) S is constant on cosets of G \u2014 the field has only m distinct values; (ii) sum_t S(t)^2 = (f^2 p/(p-1)) sum_{chi != 1} |1-chi(2)|^2 |L(1,chi)|^2 exactly; (iii) RMS_t S <= 2 sqrt(f) max|L(1,chi)| \u2014 with the classical even-character bound L(1,chi) <= (1/2)log p + O(1) (explicit Louboutin-type constants), RMS <= ~sqrt(f) log p UNCONDITIONALLY; (iv) EFFECTIVE INDEX: characters trivial on <G,2> contribute zero, so the field descends to the quotient mod the image of 2 (effective dimension m - m/ord_quotient(2); Fermat-prime rows p=65537 are fully degenerate at m=16,256 \u2014 found in the wild by the doubling law); (v) Chebyshev tail #{t: |S|>=A} <= 4 f^2 (m-1) M^2/A^2. MEASURED across (97,3)...(786433,768), all pre-registered reads favorable: effective L-constant RMS/sqrt(f) = 1.0-1.6 FLAT over three decades (quotient characters behave like average characters \u2014 sum |L(1,chi)|^2 ~ const*m, the classical L(1,chi) second-moment scale); max/RMS grows like sqrt(2 log m) (3.04 at m=768 vs Gaussian 3.65 vs adversarial sqrt(m)=27.7) \u2014 the field is GAUSSIAN-LIKE, exactly the square-root-cancellation shape the summit asserts; P(|S|>10 nats) = 0.8-1.0 at f >= 512 \u2014 QUANTITATIVE re-confirmation that no pointwise or exceptional-shift consumer route exists (the per-condition budget is exceeded on most shifts once f > ~100; the saving must be signed cancellation in the aggregate over conditions, consistent with no-gos 2 and 9). Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_second_moment_budget_check.py. Seventeenth satellite; the summit now has an unconditional moment theory."
+  },
+  {
+   "id": "f2_annealed_phase_split",
+   "status": "PROVED",
+   "statement": "F2 ANNEALED/PHASE SPLIT (2026-07-10, campaign cycle 81; digest F2_ANNEALED_PHASE_SPLIT_PASS): the consumer contract's Fourier anatomy, pinned. (I) CENSUS-FOURIER IDENTITY (orthogonality, exact; verified integer-exact against the DP census at (97,32,j=2), all b): N_b^(j) = (1/q^j) sum_{c in F_q^j} [z^b] prod_{x in mu_n}(1 + z psi(c.(x,..,x^j))). The period product splits into MODULUS field S_c = sum_x log|1+psi(c.xbar)| (= the satellites-16/17 field) and PHASE field Phi_c. (II) ANNEALED DEATH CONSTANT: E_c[exp(S_c)] = (4/pi)^{n(1+o(1))} under phase equidistribution (E_theta|1+e(i theta)| = 4/pi, one line); at official depth q^t = 2^{2.15e12} >> exp(0.411 n) the Gaussian tail is fully available, so ANY absolute/triangle-inequality route (annealed, max, or L-value moments of |S|) misses the n^3 budget by >= n log2(4/pi) ~ 0.3485 n ~ 3.8e11 bits \u2014 the required signed recovery is the ENTIRE annealed mass; no bound on |S| alone can close the contract. Measured at 6 rows: rates 0.10-0.26 nats/root, every deviation from the ideal explained and checked (CATCH #20: finite-frequency-population cap \u2014 q^j points cannot realize the tail S ~ 0.822n unless j log q > 0.411 n; sampled estimators are tail-blind/biased-low, the sample-max-dominated formula (maxS - log N)/n reproduced every low rate to 0.001; the exact-population j=3 rate 0.2569 slightly EXCEEDS the discrete envelope 0.2416 \u2014 mild positive dependence \u2014 the death constant is a FLOOR). (III) PHASE FIELD = GENERALIZED DEDEKIND SUM (proved per-factor: arg(1+e(i theta)) = theta/2, psi never -1 at odd q): Phi_c = pi * sum_{x in mu_n} ((c.xbar/q)) with ((.)) the centered sawtooth \u2014 verified to 5e-13 at all rows. REDIRECT (the split's consequence for the summit lane): the census's needed cancellation is the mod-2pi oscillation of Phi_c \u2014 a SAWTOOTH/DEDEKIND SUM OVER THE SUBGROUP, the exact classical home of Dedekind reciprocity and Vardi/Conrey distribution theory; the L-function diagonalization governs the modulus component, reciprocity must govern the phase. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_annealed_phase_split_modal.py. Eighteenth satellite; the summit's open content now has coordinates: (modulus, phase) = (L-values at 1, Dedekind sawtooth sums)."
   }
  ],
  "edges": [
@@ -9551,6 +9556,11 @@
   },
   {
    "from": "f2_second_moment_budget",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_annealed_phase_split",
    "to": "u2c_giant_tnull_dichotomy",
    "kind": "ev"
   }

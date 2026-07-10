@@ -1709,3 +1709,29 @@ the summit field has an exact basis (L-values), an exact moment
 theory (this entry), an exact vanishing lattice (doubling law), and
 a Gaussian empirical profile. What it does not yet have is the
 pointwise theorem. Ninety-two entries.
+
+## 93 — 2026-07-10: the annealed/phase split — the consumer contract
+## pinned, the absolute lane's death constant in closed form, and
+## CATCH #20
+
+Satellite 18 (f2_annealed_phase_split, PROVED + measured). The
+census-Fourier identity (verified integer-exact at (97,32,j=2))
+splits every frequency term into modulus exp(S_c) and phase
+exp(i Phi_c). Consequences banked: (1) the consumer contract is
+INHERENTLY SIGNED — E_c[exp S_c] = (4/pi)^{n(1+o(1))}, so at
+official depth every absolute route misses by >= n log2(4/pi) ~
+3.8e11 bits; no theory of |S| (L-values, moments, max bounds —
+satellites 16/17 included) can close u2c alone; (2) CATCH #20: the
+v1 pre-registered rate window ignored the finite-frequency-
+population cap and sampler tail-blindness — corrected reads bracket
+every measured rate, and the exact j=3 population slightly EXCEEDS
+the independent-phase envelope (the death constant is a floor);
+(3) the PHASE FIELD IS A GENERALIZED DEDEKIND SUM: Phi_c = pi *
+sum_{x in mu_n} ((c.xbar/q)) — proved in one line, verified to
+5e-13. The summit's cancellation is the mod-2pi oscillation of
+subgroup sawtooth sums — Dedekind reciprocity's exact classical
+home, now reached from the consumer side rather than the L-value
+side. The lane redirect: modulus = L(1,chi) theory (done, cycles
+79-80); phase = reciprocity theory (open, THE target). Log #89's
+instinct was right about the tool and wrong about the component.
+Ninety-three entries.
