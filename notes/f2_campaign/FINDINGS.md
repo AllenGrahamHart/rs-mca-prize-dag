@@ -1,54 +1,74 @@
-# F2 FLIP CAMPAIGN — FINDINGS (one page; the 82-entry log distilled)
+# F2 FLIP CAMPAIGN — FINDINGS (one page; the 110-entry log distilled)
 # (campaign of 2026-07-09/10; charter F2_FLIP_GOAL.md; all claims
 #  carry digests, proofs, verified citations, or corrections)
 
-## The headline
+## The headline (terminal form, cycles 79-98)
 
 The prize floor u2c_giant_tnull_dichotomy (F2) decomposes EXACTLY as:
 
-  PROVED STRUCTURE  +  ONE RECOGNIZED-OPEN-CONJECTURE GENERALIZATION.
+  PROVED STRUCTURE  +  ONE PRECISELY-NAMED OPEN PROBLEM:
 
-The open part is Myerson's conjecture on Gaussian-period norms AT
-GROWING SUBGROUP ORDER (identification exact, via Habegger eq. (2));
-all known results and the stated conjecture are fixed-order.
+  "Prove square-root cancellation for generalized Gauss-lemma
+   parities of subgroup orbit configurations."
 
-## What was proved (15 satellites, all machine-verified)
+Every census frequency term is a SIGNED REAL eps_c * exp(S_c)
+(sign quantization theorem). The modulus field S has a complete
+exact theory (Dirichlet L(1,chi) diagonalization, unconditional
+moment bounds, exact integer variance via the trade-census ladder,
+proved transfer to prime-power fields). The sign field
+eps_c = (-1)^{K_c + U_c} — K a floor-sum lattice count, U a
+Gauss-lemma half-interval count over the orbit — is the ENTIRE
+remaining content, and it is certified pseudorandom by every test:
+additive Walsh spectrum, multiplicative character spectrum,
+component spectra, Zolotarev permutation signs, naive CF-depth
+parities. The measured alignment equals the per-orbit random-sign
+model with constant ~ 1 (the once-mysterious ~7 was exactly the
+orbit multiplicity sqrt(n)); verified 9.4k-44M states, 21 rows,
+zero anomalies.
 
-1. EMPTY BAND: no t-null blocks at b <= t or b >= n-t (unconditional,
-   any characteristic; squarefree vs p-th power).
-2. EDGE BAND: every edge-size t-null block is a full-coset union —
-   extras = 0 (six-link chain: dictionary, shape, determination,
-   inverse-complement, semigroup, maximality).
-3. SECTORS: the Frobenius-fixed sector and the symmetric sector at
-   every tower level obey per-condition anti-concentration 1 + o(1)
-   (threshold-free Halasz + our subgroup Gauss bounds).
-4. MACHINERY: full-ladder dictionary; residual determination
-   rigidity; trinomial tower theorem (Z <= 4n^{2/3}, unconditional);
-   s-sparse extension with built-in struct/extras split; chord-orbit
-   Jacobi formula; char-0 six-term classification; energy dichotomy
-   with printed constants; Bezout trade certificates.
+## The instrument suite (satellites 16-28, all machine-verified)
 
-## What was fenced (9 no-gos, quantified)
+L-function diagonalization; unconditional moment theory (RMS <=
+2 sqrt(f) max|L(1,chi)|); annealed/phase split with closed-form
+death constant (4/pi)^n; sign quantization (Phi in pi*Z); ladder
+identity (variance = weighted signed-trade census, an integer);
+tower transfer (frame holds verbatim at q = p^k); ladder
+termination (rung 1 is the only signed level); struct censuses at
+both rungs (2^{n/4} and 18^{n/4}, exact at deep rows); alignment
+stability; Frobenius invariance; Gauss-lemma frame; literature
+anchor.
 
-Parseval; absolute Fourier; Teichmuller lifts; symmetry
-classification; norm counting; trade decomposition; CMMM compounding
-(k >= 2); full-ladder Esseen; the entire analytic lane at official
-fields (n << sqrt q). The literature's reach (LSV ergodic averages)
-ends exactly at the solved full-group anchors.
+## What was fenced (12 no-gos, quantified; plus 15 satellites of
+## the pre-79 campaign — see the log and dag.json)
 
-## The structure (the attack map for whoever comes next)
+The pre-79 nine (Parseval through the analytic lane), plus:
+10 — alphabet-ladder induction (rungs >= 2 carry no signs);
+11 — Fourier cross-support surgery (the cancellation is global);
+12 — Frobenius-orbit averaging (the sign is orbit-constant).
+Frequency space is closed in full. Every classical reciprocity
+mechanism fails structurally: G = -G is maximally non-half-system.
 
-The FROBENIUS TOWER: 16 self-similar levels from a proved base;
-each rung one Galois-descent step; per rung the open direction's
-coefficients are Gauss periods. Minimal open instance: the first
-descent (n = 2^25, q = p^2). Tolerance: 2^{1.05e12} — the weakest
-anti-concentration statement in the program's history, never
-falsified by any instrument at any scale.
+## The literature position (cycle 94/96)
 
-## Protocol record
+Closest living work: Borda-Munsch-Shparlinski (RNT 2024) — SIZE
+bounds for Dedekind sums over small subgroups via the same
+L(1,chi)/Dedekind bridge our satellites built independently;
+conditionally optimal; NO parity theory exists at the frontier.
+Their one degeneracy family (Mersenne) is structurally excluded
+from official rows (2-adic valuation). Transferable leads queued
+for delegation: per-element Barkan-Hickerson CF machinery;
+cyclotomic-norm partial-quotient bounds; Ehrhart-mod-2; Zagier
+higher-dimensional reciprocity.
 
-72 cycles, 72 verified increments, 19 catches (all corrected, 7
-machine-caught pre-banking), 2 falsification arcs on the campaign's
-own conjectures, 0 unverified claims banked. Standing channels:
-brief v3 (named problem), the review-gated upstream export, fresh
-summit attempts, the replayable instrument suite.
+## Protocol record and standing posture
+
+98 cycles, 98 verified increments, 23 catches (all corrected,
+many machine-caught pre-banking — including two of the campaign's
+own proposed reductions), 12 no-gos, 0 unverified claims banked.
+Consumer arithmetic wired (f2_conditional_close): any 2^{o(n)}
+alignment bound flips F2 with astronomical room. Standing exits:
+T-WIN via a real proof effort (delegation brief v4 carries the
+complete chart) or T-FLOOR via the never-approached falsifier
+(per-orbit constant > 10 at 3+ scales). Posture: low-frequency
+rotation — maintainer duties, occasional watch octaves, periodic
+literature re-scans, delegation surfacing.

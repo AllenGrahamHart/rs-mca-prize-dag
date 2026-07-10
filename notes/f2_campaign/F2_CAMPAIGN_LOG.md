@@ -2071,3 +2071,16 @@ zero anomalies (the two sub-band rows both explained as zero-
 extras). The watch cadence can now relax (each new octave costs
 more and moves belief less); the standing posture holds. One
 hundred ten entries.
+
+## 111 — 2026-07-10: FINDINGS.md refreshed to the terminal form
+
+Cycle 99, consolidation. The campaign's one-page distillation was
+16 satellites stale (it ended at the growing-order-Myerson
+identification); rewritten to the terminal form: the one-sentence
+summit, the (S, eps) split with the complete modulus theory and
+the certified-pseudorandom sign field, the 12 no-gos, the
+literature position (BMS 2024, no parity theory at the frontier,
+Mersenne exclusion), the protocol record (98 cycles, 23 catches,
+0 unverified), and the standing posture. This is the document a
+future session, a delegate, or Przemek reads first; it now tells
+the truth at current depth. One hundred eleven entries.
