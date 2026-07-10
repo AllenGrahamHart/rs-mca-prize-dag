@@ -104,6 +104,16 @@ E2. DEDEKIND-INTEGER RECIPROCITY. K_c is the integer value of a
     sums; Zagier's higher-dimensional reciprocity covers multi-
     argument versions (our j >= 2). Sought: reciprocity => carry
     parity equidistributes over the frequency orbits.
+    LITERATURE ANCHOR (cycle 94): Borda-Munsch-Shparlinski, RNT 2024
+    (arXiv 2305.04304) is the closest living work — SIZE bounds for
+    Dedekind sums over small subgroups via the same L(1,chi)-over-
+    subgroup-characters bridge as satellites 16-18; conditionally
+    optimal (Mersenne caveat). The PARITY theory is absent from the
+    literature — the summit is one step beyond this named frontier.
+    Also: Madritsch-Tichy 2025 (arXiv 2509.19810) for the function
+    class (floor-polynomial binary sequences), interval domains only.
+    Gauss-lemma generalizations need HALF-SYSTEMS; G = -G is
+    maximally non-half-system (why no classical symbol exists).
 E3. PARITY FOURIER SPECTRUM — CLOSED (catch #23 cycle 88; NO-GO #11 cycle 89, digest F2_CROSS_SUPPORT_PASS: k_surgery/Q = 0.57-0.76 at 7/7 rows — the absolute pairing tail never thins, the pairing is within 1 bit of trivial sqrt(Q), and the signed value accrues diffusely; DO NOT ATTACK IN FREQUENCY SPACE — the record below is kept for the negative's derivation). The
     naive Holder chain (max|eps-hat| times L1/L2 of the weight
     spectrum) LOSES a factor sqrt(q^j): Parseval is an isometry, so

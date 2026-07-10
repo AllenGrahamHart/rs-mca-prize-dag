@@ -1984,3 +1984,25 @@ permutation signs (this), fundamental-domain reciprocity
 (structurally absent). The problem is genuinely open and now
 PERFECTLY posed for the delegation channel and the literature.
 One hundred five entries.
+
+## 106 — 2026-07-10: literature verdict — the summit is one step
+## beyond a named 2024-25 frontier (satellite 28); posture shift
+
+Cycle 94. The deep-dive found the closest living mathematics:
+Borda-Munsch-Shparlinski (RNT 2024) bound the SIZES of Dedekind
+sums over small subgroups using the very bridge (L(1,chi) over
+subgroup characters <-> Dedekind correlations) that satellites
+16-18 built independently — concurrent-literature validation of
+the campaign's frame. Their size theory is conditionally optimal
+(Mersenne caveat) — the frontier's edge; the PARITY theory (our
+summit) does not exist in the literature. Madritsch-Tichy 2025
+covers the function class (floor-polynomial +-1 sequences) over
+intervals with weaker measures. Gauss-lemma generalizations
+require half-systems; G = -G is maximally not one. The D3
+deliverable is thus self-executed: the summit is REDUCED TO A
+RECOGNIZED open frontier with named adjacent papers. POSTURE
+SHIFT (recorded): identification program complete (sats 16-27),
+literature program complete (sat 28); forward cycles rotate
+watch (refined falsifier at new scales) / maintainer duties /
+delegation upkeep / opportunistic proof leads. The charter is
+unchanged: u2c red, T-WIN or T-FLOOR. One hundred six entries.

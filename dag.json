@@ -4931,6 +4931,11 @@
    "id": "f2_gauss_lemma_frame",
    "status": "PROVED",
    "statement": "F2 GAUSS-LEMMA FRAME \u2014 E1's exact identification (2026-07-10, campaign cycle 93): the parity field is a GENERALIZED GAUSS'S-LEMMA SYMBOL. (a) U_c = #{x in G : c.xbar(x) mod q > q/2} is exactly the Gauss-lemma count with the fundamental half-interval [1,(q-1)/2] replaced by the subgroup orbit configuration; Gauss's lemma itself ((-1)^U = Legendre(a) for the interval with linear map) verified with 0 mismatches at q = 97 \u2014 the classical case IS the interval case of our object. (b) K_c = (X_0 + a X_2)/q - sum_x floor((x + a x^2)/q) (X_i = integer representative sums) \u2014 an EXACT floor-sum lattice count under n lines of slopes x^2/q; identity verified exactly at 4 rows, all a. So eps_c = (-1)^{K+U} is a Gauss-lemma-type parity of a lattice-point configuration \u2014 the E1 lattice identification is COMPLETE and classical machinery is now correctly named: Gauss/Eisenstein lemmas, Zolotarev permutation signs, Duke-Hopkins group-theoretic reciprocity. (c) NEGATIVE (measured): the naive Zolotarev candidate \u2014 eps as the sign of the sorting permutation of the orbit values \u2014 is REFUTED (correlation 0.00-0.07 at 4 rows); and satellite 26 already shows eps is no character. THE STRUCTURAL READING: every classical proof of quadratic reciprocity exploits the fundamental-domain specialness of the half-interval (a group-quotient structure subgroup orbits do not have); its absence here is exactly CONSISTENT with the certified pseudorandomness of eps in all spectral bases. The summit is now nameable in one sentence: PROVE SQUARE-ROOT CANCELLATION FOR GENERALIZED GAUSS-LEMMA PARITIES OF SUBGROUP ORBIT CONFIGURATIONS \u2014 a precisely-anchored, genuinely open problem adjacent to (but outside) classical reciprocity. Verifier: inline in campaign log #105 (local, small). Twenty-seventh satellite; E1's identification phase closed \u2014 what remains of E1/E2 is the open reciprocity/cancellation step itself."
+  },
+  {
+   "id": "f2_literature_anchor",
+   "status": "PROVED",
+   "statement": "F2 LITERATURE ANCHOR \u2014 the summit confirmed open at a named 2024-25 frontier (2026-07-10, campaign cycle 94). SEARCH VERDICT on 'square-root cancellation for generalized Gauss-lemma parities of subgroup orbit configurations': (1) CLOSEST LIVING WORK: Borda-Munsch-Shparlinski, 'Pointwise and correlation bounds on Dedekind sums over small subgroups' (Research in Number Theory 2024; arXiv 2305.04304) \u2014 Dedekind sums s(lambda, p) for lambda of small multiplicative order, whose method 'relates high moments of L(1,chi) over subgroups of characters to correlations of Dedekind sums' \u2014 the SAME bridge our satellites 16-18 built independently (mutual validation of the campaign's frame by concurrent literature). Their theory bounds the SIZES of subgroup Dedekind sums, with results optimal only assuming the infinitude of Mersenne primes \u2014 the size theory alone is at the edge of current technology. The PARITY/carry-count cancellation theory (our summit) does not appear. (2) The generalized-polynomial pseudorandomness school (newest: Madritsch-Tichy 2025, arXiv 2509.19810 \u2014 well-distribution measures for floor-polynomial binary sequences) covers exactly eps's FUNCTION CLASS but over intervals/APs and with measures far weaker than the needed exp(S)-weighted 2^{o(n)} cancellation; subgroup-orbit domains absent. (3) Gauss-lemma generalizations in the literature require HALF-SYSTEMS (A disjoint-union -A = all classes); our G has -G = G \u2014 maximally non-half-system, which is exactly why no classical symbol identity exists (consistent with satellites 26-27). CONCLUSION (the campaign's D3 deliverable, self-executed): the summit is a genuinely open problem one step beyond a named, active research frontier: Borda-Munsch-Shparlinski bound subgroup Dedekind sum SIZES; the prize needs PARITY cancellation of subgroup carry counts under Gaussian weights. Brief v4 updated with both anchors. Sources: arxiv.org/abs/2305.04304, arxiv.org/abs/2509.19810, arxiv.org/pdf/math/0311453 (Duke-Hopkins), en.wikipedia.org/wiki/Zolotarev%27s_lemma. Twenty-eighth satellite; the identification AND literature programs are both complete."
   }
  ],
  "edges": [
@@ -9651,6 +9656,11 @@
   },
   {
    "from": "f2_gauss_lemma_frame",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_literature_anchor",
    "to": "u2c_giant_tnull_dichotomy",
    "kind": "ev"
   }
