@@ -1,82 +1,103 @@
-# THE RED-QUALITY PROGRAM — charter draft (2026-07-10, for commitment
-# as a goal; successor of the amber pass, KB_LOG #16-#24)
+# THE RED-QUALITY PROGRAM — charter draft r2 (2026-07-10, for
+# commitment as a goal; successor of the amber pass, KB_LOG #16-#24)
+# r2 (owner refinement): minimality is NOT the gate. Bounds with
+# unstated constants are fine. The bar is SUFFICIENCY + SURVIVAL.
 
-## Objective (owner's criterion, verbatim intent)
+## Objective (owner's criterion)
 
-Every red on the critical surface must be HIGH QUALITY in one of two
-senses:
+Every red on the critical surface must satisfy BOTH:
 
-  Q-MIN  (minimality): the red is "the minimal predicate for the
-         upstream amber" — a documented argument that the amber's
-         route of record needs exactly this statement: the
-         implication fails without it, and no strictly weaker
-         statement that the proved links can consume would do.
-         (House exemplar: dli B-WEAK — "EXACTLY and ONLY what the
-         x4 interface consumes"; nine adversarial rounds killed
-         only strengthenings, the minimal form never scratched.)
+  Q-SUFF (sufficiency): the red, as stated, is strong enough to
+         support its upstream amber — the assembly implication
+         (predicates => floor) is machine-verified with this red
+         in its slot. For every red wired by the amber pass this
+         is ALREADY CERTIFIED (the audits' assembly chains); the
+         certificate just points at the banked audit record.
+         Existential-constant forms (<= n^b, unstated b; chosen
+         reserve splits like 8n^3+8n^3=16n^3) are explicitly OK —
+         the consumer needs some constant, the predicate supplies
+         some constant.
 
-  Q-CONF (confidence): where the red is not minimal (or minimality
-         is not decidable), an explicit CONFIDENCE DOSSIER: the
-         enumerated evidence (falsifier-survival volume, empirical
-         scans, structural anchors, literature position) plus at
-         least ONE EXECUTED falsification attempt at maximum
-         feasible volume, banked with its outcome.
+  Q-SURV (survival): the red is likely enough to be TRUE to
+         survive EXTENSIVE falsification — demonstrated, not
+         assumed: at least one executed falsification attempt at
+         maximum feasible volume against the pre-registered
+         falsifier, banked with its outcome; plus the collected
+         prior evidence (volumes, dates) as a dossier. Standing
+         watches where the falsifier is asymptotic.
 
-A red failing both is RE-POSED toward the minimal consumable form
-(the B-WEAK pattern) or demoted to its honest state. Falsification
-attempts are first-class deliverables: a fired falsifier on a
-minimal predicate is decisive prize information (the floor fails,
-the route must change), not a setback.
+  Q-MIN (optional annotation, not a gate): where a minimality or
+         split-freedom fact is known — e.g. the consumer accepts
+         any 2^{o(n)} bound (summit); the xr 8/8 split is
+         re-balanceable without re-surgery — record it as a pin.
+         Value: route flexibility at re-surgery time, and it tells
+         attackers (Sol, Pro, Codex) exactly how much room they
+         have. Never strengthen a red to make it "cleaner".
+
+A red failing Q-SUFF is a wiring bug (fix the amber or re-pose the
+red). A red failing Q-SURV after real attempts fired its falsifier
+— that is T-KILL: decisive prize information, bank at maximum
+volume, apply the amber's pre-registered re-surgery criteria.
 
 ## Deliverable per red: a QUALITY CERTIFICATE
 
-One note per red (critical/nodes/<consumer>/notes/ or the red's own
-folder): classification Q-MIN / Q-CONF / RE-POSE, the minimality
-argument or dossier, the executed falsification record (script,
-volume, outcome), and a standing-watch entry where a watch is the
-right instrument. dag.json statement gets a one-line QUALITY tag
-pointing at the note.
+One note per red: (1) the Q-SUFF pointer (which audit chain, which
+slot, quantifier form); (2) the Q-SURV record — dossier + the
+executed falsification attempt(s) with scripts, volumes, outcomes;
+(3) any Q-MIN annotations. dag.json statement gets a one-line
+QUALITY tag pointing at the note.
 
-## Provisional grading of the 13 surface reds (to be certified)
+## The 13 surface reds — status against the bar
 
-| red | prior | expected class | falsification lane |
-|-----|-------|----------------|--------------------|
-| f2_growing_order_myerson (summit) | 44M states, kill-line never approached; tolerance 2^{1.05e12} calibrated to the consumer | Q-MIN candidate (consumer needs any 2^{o(n)}; statement is the calibrated form) + strongest dossier in the house | W3 transition-band watch octaves (Modal, banked scripts) |
-| ww_row_envelope_clause (W3) | SCK clause (ii) instance; sup-form forced by audit | Q-MIN argument owed vs the K2 door; #493 branch pending | adversarial layout/cell sweeps (banked machinery) |
-| ww_kcell_upper_lemma (W1) | consumer's word 'certified' discharges here by construction | Q-MIN by construction (document it) | per-row certificate attempts ARE the falsifier |
-| ww_lower_witnesses (W2) | needed only where the unsafe side spends | Q-MIN scope note owed (possibly vacuous at some rows — check spend map) | E15-successor construction attempts |
-| petal_g1_layer_maps | upstream says reductions become theorems exactly when supplied | Q-MIN vs upstream compiler (document); clause (iii) necessity already shown (Finding D) | chart-coverage search at sweep cells |
-| petal_g2_support_forcing | closure form forced by Finding C; two-regime empirics | Q-CONF (dichotomies are rarely minimal; the third-class falsifier is sharp) | SOL_TARGET_2 + direct hybrid search at small scales |
-| petal_g3_pricing_multiplicity | fifth-branch replay IN FLIGHT — may be PROVED outright | resolve by replay first | (replay) |
-| petal_k4_primitive_bound | the kernel; planted count fixed its form | Q-MIN as kernel (band-restricted form = exactly what the chain consumes — document) | chart-family census growth scans |
-| dli B-WEAK | the exemplar | Q-MIN (certificate = REPOSE_B_WEAK + nine-round record; refresh to 2^121) | M1: the C2'' adversarial round (n=64 sharded MITM, Modal) doubles as B-WEAK stress |
-| rate_half_band_closure | is its own kernel (exempt from decomposition) | Q-MIN note (window law = the honest open content between two proved sides) | razor-slice first-moment tracking replay |
-| u1_x4_direct_column_budget | audit NOT-READY; band unpinned | NEITHER yet -> the band pin IS the minimality question (what h-range does the consumer actually need?) | budget probes at official-like rows (banked probe PASS at 1.5%) |
-| xr_highcore_collision_count (P-A) | 8n^3 = chosen reserve split, NOT minimal (consumer needs only the sum <= 16n^3) | Q-CONF + document the split-freedom (re-balanceable 10/6 etc. without re-surgery — record as a pin) | E27/P9 high-core census at scaled rows |
-| xr_lowcore_spread_heart (P-B) | same split caveat; the anti-concentration heart | Q-CONF (E27: FM-band rates, classifiers at chance) + f2 energy-dichotomy transfer | E27 spectrum scans at scaled rows; SCK adjacency attack |
+Q-SUFF: certified by construction for the 9 audit-minted
+predicates (summit slot via f2_conditional_close; W1-W3 via the
+worst_word chain; G1-K4 via the petal chain; P-A/P-B via the xr
+chain — each machine-verified at surgery). dli and rate_half are
+their own consumable forms (B-WEAK is the consumer's exact input;
+the window law is the honest open content). u1_x4 is the ONE red
+that cannot yet be certified: with the h-band unpinned there is no
+decomposition to be sufficient FOR — the band pin remains its
+gating item (coverage audit, KB_LOG #22).
 
-## Method (per certificate)
+Q-SURV: the work of this program. Falsification lanes, by red:
+- summit: W3 transition-band watch octaves (Modal, banked
+  scripts); volume record already 9.4k-44M states, 21+ rows.
+- W3: adversarial layout/cell sweeps (banked machinery); W1:
+  per-row certificate attempts ARE the falsifier; W2: E15-
+  successor construction attempts + the spend-map check.
+- G1: chart-coverage search at sweep cells; G2: SOL_TARGET_2 +
+  direct hybrid search at small scales (the third-class
+  falsifier); G3: the fifth-branch replay IN FLIGHT may prove it
+  outright; K4: chart-family census growth scans.
+- dli: M1 (the C2'' adversarial round, n=64 sharded MITM, Modal)
+  doubles as the B-WEAK stress run.
+- rate_half: razor-slice first-moment tracking replay.
+- xr P-A/P-B: E27/P9 census + spectrum scans at scaled rows;
+  f2 energy-dichotomy transfer as an attack on P-B. Q-MIN pin:
+  the 8/8 split freedom.
+- u1_x4: band pin first; then budget probes (banked probe PASS at
+  1.5% of budget with positive control).
 
-1. MINIMALITY TEST: state what the consuming amber's implication
-   actually requires at the red's slot (quote the route of record);
-   attempt to weaken the red and show the chain breaks (or does
-   not — then re-pose weaker). The audits' assembly chains are the
-   input; this is mostly reading + small exact checks.
-2. DOSSIER: collect the banked evidence with volumes and dates; no
-   new claims without replay.
-3. FALSIFY: run the red's pre-registered falsifier at the largest
-   feasible volume (Modal for anything > 10^7 states; RAM law).
-   Bank outcome either way. Watches for the asymptotic ones.
-4. One-writer banking; fresh-context delegation for anything
+## Method
+
+1. Q-SUFF certificate: quote the amber's route of record and the
+   red's slot; confirm the quantifier form matches (sup vs mean,
+   per-U vs per-cell — the drift that has bitten repeatedly). No
+   new math; pointers to banked audits.
+2. Q-SURV: run the pre-registered falsifier at the largest
+   feasible volume (Modal for anything > 10^7 states; RAM law:
+   local < 10^7, jobs < 280s). Bank outcome either way. Register
+   standing watches for asymptotic falsifiers.
+3. One-writer banking; fresh-context delegation for anything
    consumed; catches logged (ledger at #43).
 
 ## Termination
 
 T-QUALITY: every surface red carries a banked quality certificate
-(Q-MIN or Q-CONF-with-executed-falsification), and any red that
-failed both has been re-posed or demoted. T-KILL (early exit,
-better for knowledge): a falsifier fires on a Q-MIN red — bank at
-maximum volume, re-route the amber (its pre-registered re-surgery
-criteria apply).
-Anti-goal: no confidence dossier from unreplayed claims; no
-minimality argument that silently strengthens the red.
+(Q-SUFF pointer + Q-SURV executed record), u1_x4's band is pinned
+(or the node honestly documented as pre-decomposition), and
+standing watches are registered where falsifiers are asymptotic.
+T-KILL (early exit, better for knowledge): a falsifier fires —
+bank at maximum volume, re-route the amber.
+Anti-goal: no dossier from unreplayed claims; no strengthening a
+red for cleanliness; no counting a toy-scale run as "extensive".
