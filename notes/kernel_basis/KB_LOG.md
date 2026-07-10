@@ -61,3 +61,20 @@ jointness (#212) becomes the lead for dli's missing aggregation
 theorem-bearing. M6 (constant-exactness) untouched — both schemas
 leave poly(n) unpinned; F5 still needs 16n^3 net. Next: WP5
 (rate-half -> K3).
+
+## 5 — 2026-07-10: WP5 DONE — ANALOGY-ONLY; K5 minted; K3 re-scoped
+
+rate_half does NOT close on K3 (side mismatch + quantifier
+mismatch, both fatal — WP5_RATEHALF_VERDICT.md); the program's
+alternative outcome fired for the first time: the node needs its
+OWN kernel, K5 = razor-band witness kernel (deficit-side witness
+families over the band, uniform in q). K3 re-scoped: an UPSTREAM
+kernel whose conditional yield for us is an evidence upgrade
+(four-row determination full-theorem at n = 2^21), not an amber.
+Basis tally after WP0/U1/WP2/M2/WP5: K2 (u2c proved-instance via
+U1; F5 partial via WP2; F3/dli faces pending), K4 (petal,
+pending WP6), K5 (rate_half, NEW), + the M-ledger; K3 moves to
+the evidence shelf. Bonus finding: the floor's 'first-moment
+model' is under-specified at row level (worst-word crossing not
+formalized) — an open item of the floor itself, banked. Next:
+WP6 (petal -> K4 + E22 import).
