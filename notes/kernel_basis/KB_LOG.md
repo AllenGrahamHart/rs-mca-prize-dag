@@ -611,3 +611,34 @@ stress; queued: per-U charging-map probe). Fifth instance of the
 existence/label failure shape (#33/#35/#36/#41/#44) — the
 label-audit sweep is now formally overdue: queued as a program
 item.
+
+## 27 — 2026-07-10: u1_x4 band derivation — OUTER PIN PROVED, interior
+## open, lemma named (catch #38 resolved; catch #48)
+
+Fresh-context derivation audit. The direct column's h-band is
+2 <= h <= min(A(row), floor(n/2)), A = k+t — a PROVED outer pin
+assembled entirely from master (star_pte_support_bound: full
+trades occupy (t, A], both edges realized; star-PTE injectivity;
+h_window_derivation had ALREADY adjudicated H_max := A for the
+previous consumer — the ruling existed, unattached to this node:
+sixth instance of the attachment/label shape). All three
+circulating candidates STRUCK as artifacts: h <= 8 = probe range +
+s=13 vacancy coincidence (heuristic, row-dependent — rises to 16
+at s=41 — and model-violated in-range by SP-CENSUS-2); 7..20 =
+scannability edge of an archived lane; (log2 n)^2 = frozen W3 v1
+grammar window, wrong in both directions (silent-void hazard:
+reading the refs' band would un-charge ((log2 n)^2, A] ~ 2^30 of
+band at prize rows).
+
+INTERIOR OPEN: no proved per-h cap for h >= 4 (fiber cap explodes
+2^18-fold at h=4); h!-decay is unproved Poisson heuristic. NAMED
+LEMMA MINTED: f3_active_core_width_cap (ev -> u1_x4) — vacancy
+target H_vac(row) = 8..16, must beat the norm-gate counterexample
+class; equivalently a per-h cap summing to n. Absent it the
+uniform-in-h gate is FORCED: exact budget (catch #48 correction:
+h=3 = 50.0002% of n^3, not 50.002%; = (4096+1/72)/8192): h=2
+0.7366% + h=3 50.0002% leaves 49.263% for ~519-4095 strata at
+s=13 (~2^40 at prize rows), room for exactly ONE more
+ACT(4096)-grade stratum. F-4 interaction: resolve with the
+minimal-trade scope pin together. u1_x4 QUALITY certificate now
+COMPLETE (honest pre-decomposition + well-defined obligation).

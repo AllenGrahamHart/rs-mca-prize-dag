@@ -21,6 +21,21 @@ recount 5/5, the h=5 revoking witness independently replayed — catches
 constants re-derived. QUEUED: after the band pin — per-h budget probes
 under the F-3 ledger (h=3 alone = 50.002% of n^3 at s=13).
 
-NEXT: band pin lands -> either predicates {conic gate, rankcap gate,
-f3_hband_act_gate} become poseable (then the standard certificate) or
-BAND-OPEN is documented as the named lemma.
+BAND RESOLUTION (2026-07-10, derivation audit): OUTER PIN PROVED —
+the obligation is 2 <= h <= min(A(row), floor(n/2)), A = k+t
+(star_pte_support_bound + star-PTE injectivity; h_window_derivation had
+already adjudicated H_max := A). All three circulating candidates (8,
+7..20, (log2 n)^2) STRUCK as non-inherited artifacts. INTERIOR OPEN —
+named lemma minted: f3_active_core_width_cap (ev-wired); absent it the
+uniform-in-h gate shape is FORCED (exact ledger: h=3 alone = 50.0002% of
+n^3; one ACT(4096)-grade stratum fits; ~2^40 strata at prize rows).
+
+CERTIFICATE STATUS: COMPLETE per charter — the node is honestly
+documented pre-decomposition WITH its obligation band now well-defined
+(proved outer pin + named interior lemma + exact budget ledger). The
+minimality question has its answer: the minimal decomposition is
+{conic gate, rankcap gate, uniform-h band gate covering (3, H_max]} —
+poseable only after f3_active_core_width_cap or a general-h ACT compiler.
+Executed stress record: the coverage audit (23 verifier replays, witness
+replay, catches #36-#39) + this derivation (all figures exact,
+notes/band_hband_arithmetic_20260710.py).
