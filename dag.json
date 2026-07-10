@@ -4901,6 +4901,11 @@
    "id": "f2_ladder_tower_transfer",
    "status": "PROVED",
    "statement": "F2 LADDER IDENTITY + TOWER TRANSFER (2026-07-10, campaign cycle 85; digest F2_LADDER_TOWER_TRANSFER_PASS). PART 1 \u2014 LADDER IDENTITY (orthogonality, 3 lines): sum_{c != 0} exp(2 S_c) = q^j C''_j - 4^n, where C''_j = sum over delta in {0,+1,-1}^n with vanishing moments p_1..p_j of 2^{#{delta=0}} (the weighted signed-trade census, an integer DP). The random-sign variance of the census deviation IS a census one alphabet up ({0,1} -> {0,+-1}) \u2014 the alphabet-widening recursion is now an exact banked identity, making every satellite-20 denominator integer-computable. Verified integer-exact at (97,32,2), (113,16,2), (113,16,3) and via bigint DP at (257,64,2); the n=64 row PROVES the house exact-arithmetic law quantitatively \u2014 the identity's two sides agree to 62+ significant bits (their difference IS the deviation), so float64 categorically cannot verify it. PART 2 \u2014 TOWER TRANSFER (the model-validity gap, closed): at q = p^k with psi_c(y) = e_p(Tr(cy)), the quantization proof transfers verbatim (sum_x Tr(c.xbar) = Tr(c.(vanishing power sums)) = 0 mod p), so Phi_c in pi*Z and the ENTIRE (S, eps) frame \u2014 census-Fourier split, sign quantization, Rademacher form \u2014 holds at PRIME-POWER fields, the official-row shape. Verified at (p,k) = (7,2), (5,2), (3,4): quantization exact at every frequency, census-Fourier identity integer-exact against F_{p^k} DP censuses (field arithmetic via irreducible-polynomial construction), alignment ratios 8.7/4.0/1.9 in the satellites-19/20 band. Every prime-q campaign measurement is now backed by a proved-and-verified transfer principle to the tower. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_ladder_tower_transfer_modal.py. Twenty-first satellite."
+  },
+  {
+   "id": "f2_ladder_termination",
+   "status": "PROVED",
+   "statement": "F2 LADDER TERMINATION (2026-07-10, campaign cycle 86; digest F2_RUNG2_LADDER_PASS, reads corrected by CATCH #22): the alphabet ladder terminates at rung 1 \u2014 the summit's sign problem is irreducible. POSITIVES (verified): (a) RUNG-2 STRUCT THEOREM (proved by construction): sign patterns constant on mod-4 exponent classes lie in the rung-2 census with total weight 18^{n/4} = (2^4+1+1)^{n/4}; C'' >= 18^{n/4} verified at 9 rows. (b) DEEP-ROW EXACTNESS: at (113,16,j=3) \u2014 the row with rung-1 extras = 0 \u2014 the rung-2 census EQUALS its struct: C'' = 18^4 = 104976 exactly; the struct/extras dichotomy propagates up the ladder as a counting fact. (c) TERMINATION THEOREM (one line, clarifying): for every rung r >= 2 the frequency terms e^{r S_c} are POSITIVE, so the rung-r deviation q^j C^(r) - (mass)^n = sum_{c != 0} e^{r S_c} is positive-definite \u2014 no cancellation exists or is needed above rung 1; the recursion (satellite 21) yields exact variance identities but CANNOT transfer cancellation downward. Consequently the imagined telescoping induction (each rung's alignment controlled by the next) is DEAD as a proof lane \u2014 no-go #10 for the campaign ledger: the summit's signed content lives irreducibly in the rung-1 sign field eps_c = (-1)^{K+U}, and any proof must engage that combinatorial parity directly (Ehrhart/lattice-parity, Dedekind-integer reciprocity, or a genuinely new mechanism). CATCH #22 (read design): the pre-registered ratio2/slope read for this cycle was conceptually ill-posed \u2014 it subtracted struct mass from a positive-definite deviation and its fit conflated n-dependence with population-dependence; the digest's 'stabilization' line is DISREGARDED; only reads (a) and (b) are banked. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_rung2_ladder_modal.py. Twenty-second satellite; the target is now uniquely and finally posed."
   }
  ],
  "edges": [
@@ -9591,6 +9596,11 @@
   },
   {
    "from": "f2_ladder_tower_transfer",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_ladder_termination",
    "to": "u2c_giant_tnull_dichotomy",
    "kind": "ev"
   }

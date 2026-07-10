@@ -1822,3 +1822,25 @@ now stands on a proved transfer principle to the official tower
 shape. The chart's six instruments (diagonalization, moment theory,
 split, quantization, alignment stability, ladder/transfer) are
 complete and mutually consistent. Ninety-seven entries.
+
+## 98 — 2026-07-10: the ladder terminates at rung 1 — the sign
+## problem is irreducible (satellite 22, CATCH #22)
+
+Cycle 86 asked whether the struct/extras dichotomy propagates up
+the alphabet ladder and whether the ladder could carry an induction.
+Answers: the DICHOTOMY propagates (rung-2 struct = 18^{n/4} proved;
+at the doubly-exact row (113,16,3) the rung-2 census EQUALS struct
+on the nose — 104976); the INDUCTION does not — rungs >= 2 are
+positive-sum (their deviation IS the annealed mass, exactly known
+via C''), so no cancellation exists above rung 1 and the recursion
+cannot transfer any. No-go #10: the ladder-induction lane is dead.
+CATCH #22: this cycle's pre-registered ratio2/slope read was
+conceptually ill-posed (struct subtracted from a positive-definite
+quantity; fit conflated n with population) — its 'stabilization'
+output is disregarded; only the struct theorem and deep-row
+exactness are banked. The net of cycles 79-86: the summit is now
+UNIQUELY POSED — prove 2^{o(n)}-alignment of the combinatorial
+parity field eps_c = (-1)^{K+U} against exp(S_c) at official rows;
+every auxiliary structure (modulus, phase, variance, tower, struct)
+is proved, exact, and closed. What remains is one parity problem.
+Ninety-eight entries.
