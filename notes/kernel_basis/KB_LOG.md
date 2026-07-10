@@ -113,3 +113,16 @@ WP7 (worst_word, Face 4), then the T-BASIS assembly. The basis
 is converging on: K2-enlarged (clause-(ii) instances + joint
 reserve + extended taxonomy), K4+G2 (petal), K5 (rate_half),
 plus finite certifications and the X/Y/G/M work ledgers.
+
+## 8 — 2026-07-10: WP7 DONE (final face) — ANALOGY-ONLY + CATCH #27
+## (mis-attributed map found and retargeted); all seven reds mapped
+
+Face 4 never claimed worst_word (import artifact — catch #27; RK
+node statement corrected); its real residue is Face 3's red (second
+face-consumes-red datum). Pigeonhole confronted: overlaps NEGATIVE
+at all six candidates, axis R has zero proved instances.
+worst_word's true line: K2 via SCK, constant-exact clause (ii)
+(P1/P2), no new kernel. One-writer correction applied to the
+agent tally (rate_half = K5, not K3). ALL SEVEN REDS NOW MAPPED;
+the cross-face residue is two-fold: constant-exact clause (ii)
+and axis-Q small-core classification. Next: the T-BASIS ASSEMBLY.
