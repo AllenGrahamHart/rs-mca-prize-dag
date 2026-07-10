@@ -2021,3 +2021,23 @@ weakens the prospect of T-FLOOR; the charter's exit remains a
 proof (ours or delegated) or a surprise at scales beyond
 enumeration. Next rotation: BMS deep-read (transferable technique)
 or duties, per the posture. One hundred seven entries.
+
+## 108 — 2026-07-10: BMS deep-read — no parity theory at the
+## frontier; the Mersenne degeneracy is structurally excluded from
+## official rows; CF-depth parity queued as a lead
+
+Cycle 96, rotation item: full-text read of Borda-Munsch-Shparlinski
+(the literature anchor's core paper). Verdict from the body, not
+just the abstract: size bounds via continued fractions + a
+cyclotomic-norm Liouville lemma; explicitly nothing on signs or
+parities. Two campaign-relevant extractions: (1) their extremal
+family (Mersenne s(2, 2^d-1) ~ p/24, zero cancellation) NEEDS
+2-adic valuation 1 of q-1 — official rows force 2-power n | q-1
+(KoalaBear p-1 = 2^24*127), so the only known degeneracy family
+for subgroup sawtooth objects CANNOT occur at prize rows: a small
+unconditional safety theorem, banked on satellite 28. (2) The
+Barkan-Hickerson sign term makes CF-DEPTH PARITY the literature's
+only explicit parity mechanism for sawtooth sums — queued with the
+cyclotomic-norm partial-quotient bound as the two transferable
+leads for future proof cycles and the delegation brief. The
+rotation continues. One hundred eight entries.
