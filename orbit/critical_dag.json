@@ -522,6 +522,31 @@
    "title": ""
   },
   {
+   "id": "f3_h1_singleton_injectivity",
+   "label": "PROVED",
+   "title": ""
+  },
+  {
+   "id": "f3_h2_stratum_theorem",
+   "label": "PROVED",
+   "title": ""
+  },
+  {
+   "id": "f3_h3_direct_floor_conditional_close",
+   "label": "CONDITIONAL",
+   "title": ""
+  },
+  {
+   "id": "f3_h3_three_to_one_c36",
+   "label": "UNPROVED",
+   "title": ""
+  },
+  {
+   "id": "f3_hge4_aggregate_budget",
+   "label": "UNPROVED",
+   "title": ""
+  },
+  {
    "id": "f5_lineray_saturation_instrument",
    "label": "PROVED",
    "title": ""
@@ -973,7 +998,7 @@
   },
   {
    "id": "u1_x4_direct_column_budget",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "FLOOR CONJECTURE: fully-stripped primitive residue <= n^3 at official corridor rows (already the floor)"
   },
   {
@@ -2135,6 +2160,10 @@
    "to": "x4_exactlist_staircase_split"
   },
   {
+   "from": "f3_h2_stratum_theorem",
+   "to": "u1_x4_direct_column_budget"
+  },
+  {
    "from": "v13_base_field_normalization_guard",
    "to": "worst_word_challenger_pricing"
   },
@@ -2257,6 +2286,22 @@
   {
    "from": "xr_strip_classification_rungs",
    "to": "xr_smallcore_spread_count"
+  },
+  {
+   "from": "f3_h1_singleton_injectivity",
+   "to": "u1_x4_direct_column_budget"
+  },
+  {
+   "from": "f3_h3_direct_floor_conditional_close",
+   "to": "u1_x4_direct_column_budget"
+  },
+  {
+   "from": "f3_hge4_aggregate_budget",
+   "to": "u1_x4_direct_column_budget"
+  },
+  {
+   "from": "f3_h3_three_to_one_c36",
+   "to": "f3_h3_direct_floor_conditional_close"
   }
  ]
 }
