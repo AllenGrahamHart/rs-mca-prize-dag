@@ -106,10 +106,10 @@ def t4_node_rows():
 
     note = (NOTES / "F3_T4_RESIDUAL_FRONTIER_LEDGER.md").read_text()
     required_snippets = (
-        "Status: REPLAYED FRONTIER LEDGER; h=5 PAID, h=8 STILL OPEN.",
+        "Status: FRONTIER LEDGER — SCOPE RETRACTED 2026-07-10 (see banner); artifacts replayed, official-row T4 frontier = h>=4 band.",
         "T4-H4-STRUCTURAL: PROVED",
-        "T4-H5-NORM-GATE: REPLAYED/PAID",
-        "T4-H6-H7-BUDGET: REPLAYED/PAID",
+        "T4-H5-NORM-GATE: SCOPE-RETRACTED 2026-07-10",
+        "T4-H6-H7-BUDGET: SAMPLED-ROW EVIDENCE ONLY",
         "T4-H8-N64-NONANTIPODAL-X83: OPEN",
         "122,131,731,640,320 anchored non-antipodal 16-supports",
         "7,633,233,227,520 aperiodic rotation orbits",
@@ -127,13 +127,13 @@ def t4_node_rows():
         ),
         T4FrontierNode(
             "T4-H5-NORM-GATE",
-            "REPLAYED/PAID",
-            "no h=5 residual for the direct n^3 budget",
+            "SCOPE-RETRACTED 2026-07-10",
+            "h=5 official-row residual OPEN (conjugation guardrail)",
         ),
         T4FrontierNode(
             "T4-H6-H7-BUDGET",
-            "REPLAYED/PAID",
-            "h=6/h=7 are paid for the current direct budget",
+            "SAMPLED-ROW EVIDENCE ONLY",
+            "h=6/h=7 official rows OPEN (n=32/64 evidence only)",
         ),
         T4FrontierNode(
             "T4-H8-N64-NONANTIPODAL-X83",

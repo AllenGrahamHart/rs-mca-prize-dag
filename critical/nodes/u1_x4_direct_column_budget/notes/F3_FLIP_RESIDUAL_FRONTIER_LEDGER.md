@@ -1,5 +1,27 @@
 # F3 residual frontier ledger
 
+> **RETRACTION (2026-07-10, fresh-context coverage audit — banked on master):**
+> The `h=5 PAID` / `T4-H5-NORM-GATE: REPLAYED/PAID` and `h=6/h=7 are paid`
+> claims below are RETRACTED at official rows. The h=5 fixed-scheme payment's
+> supporting chain consumes reciprocal-system rows (formal-transpose /
+> Hermitian / unit) that treat cyclotomic conjugation as a same-prime
+> automorphism of F_p; Aut(F_p) is trivial and at split primes conjugation
+> permutes the two primes above p — those rows are unjustified at official
+> rows. The revoking witness (n=8192, p=67,239,937, non-toral equal-e1,e2
+> trade) is independently replayed from master state alone:
+> `audit_witness_check_20260710.py` in this directory. h=6/h=7 "paid" was
+> sampled-row (n=32/64) evidence, not official-row budget coverage (the
+> source packets themselves say "not uniform theorems"). Consequently "T4
+> reduced to the h=8 non-antipodal branch" is FALSE at official rows: the
+> honest T4 frontier is h=4,5,6,7,8(non-antipodal) + the h>8 band. This
+> concurs with the author's own worktree scope revocation (codex/
+> f3-flip-20260708, frozen at d670b7c) — re-derived here independently, not
+> copied. Full guardrail: F3_H5_CONJUGATION_GUARDRAIL_20260710.md. Ledger
+> verifier digests remain valid for the PINNED ARTIFACTS (census counts,
+> Bezout arithmetic); they never certified the scope labels. Codex: on
+> resume/merge, reconcile with this banking; catches #36/#37 in KB_LOG.
+
+
 Status: REPLAYED RESIDUAL LEDGER, NOT `F3_FLIP_DOSSIER`.
 
 This packet aggregates the current T3, h=3, and T4 frontier ledgers for
@@ -29,8 +51,8 @@ h=3:
 
 T4:
   h=4 structural localization is proved.
-  h=5 is paid for the direct n^3 budget.
-  h=6/h=7 are paid for the current budget.
+  h=5 official-row payment RETRACTED 2026-07-10 (see banner); OPEN.
+  h=6/h=7 sampled-row evidence only (n=32/64); official rows OPEN (2026-07-10 audit).
   h=8 n=64 non-antipodal x83 remains open.
 ```
 

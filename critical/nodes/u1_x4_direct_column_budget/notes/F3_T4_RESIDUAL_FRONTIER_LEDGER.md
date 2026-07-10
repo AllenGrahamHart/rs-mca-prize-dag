@@ -1,6 +1,28 @@
 # F3 T4 residual frontier ledger
 
-Status: REPLAYED FRONTIER LEDGER; h=5 PAID, h=8 STILL OPEN.
+> **RETRACTION (2026-07-10, fresh-context coverage audit — banked on master):**
+> The `h=5 PAID` / `T4-H5-NORM-GATE: REPLAYED/PAID` and `h=6/h=7 are paid`
+> claims below are RETRACTED at official rows. The h=5 fixed-scheme payment's
+> supporting chain consumes reciprocal-system rows (formal-transpose /
+> Hermitian / unit) that treat cyclotomic conjugation as a same-prime
+> automorphism of F_p; Aut(F_p) is trivial and at split primes conjugation
+> permutes the two primes above p — those rows are unjustified at official
+> rows. The revoking witness (n=8192, p=67,239,937, non-toral equal-e1,e2
+> trade) is independently replayed from master state alone:
+> `audit_witness_check_20260710.py` in this directory. h=6/h=7 "paid" was
+> sampled-row (n=32/64) evidence, not official-row budget coverage (the
+> source packets themselves say "not uniform theorems"). Consequently "T4
+> reduced to the h=8 non-antipodal branch" is FALSE at official rows: the
+> honest T4 frontier is h=4,5,6,7,8(non-antipodal) + the h>8 band. This
+> concurs with the author's own worktree scope revocation (codex/
+> f3-flip-20260708, frozen at d670b7c) — re-derived here independently, not
+> copied. Full guardrail: F3_H5_CONJUGATION_GUARDRAIL_20260710.md. Ledger
+> verifier digests remain valid for the PINNED ARTIFACTS (census counts,
+> Bezout arithmetic); they never certified the scope labels. Codex: on
+> resume/merge, reconcile with this banking; catches #36/#37 in KB_LOG.
+
+
+Status: FRONTIER LEDGER — SCOPE RETRACTED 2026-07-10 (see banner); artifacts replayed, official-row T4 frontier = h>=4 band.
 
 This packet compiles the current T4 frontier for
 `notes/codex_briefs/F3_FLIP_20260708.md` from existing proved nodes and
@@ -15,7 +37,7 @@ T4-H4-STRUCTURAL: PROVED
   h4_terminal_dichotomy and x83_uniform_square_shift_obstruction_gate are
   PROVED.  There is no hidden h=4 classification residual.
 
-T4-H5-NORM-GATE: REPLAYED/PAID
+T4-H5-NORM-GATE: SCOPE-RETRACTED 2026-07-10 (artifact replay valid; official-row payment revoked)
   The current bank has 589 complete h=5 zero rows and 3,164,030,779 audited
   right-side probes.  This includes all admissible n=32 primes through 65537,
   179 n=64 certified primes with 515 admissible primes still missing up to the
@@ -81,10 +103,10 @@ T4-H5-NORM-GATE: REPLAYED/PAID
   `l6=l7=l8=l9=0`, and the largest leading-coefficient prime is `19`, below
   the official characteristic range.  Combined with the finite-scheme payment,
   this gives the h=5 contribution `< n^3` on all official rows.
-  Residual: no h=5 residual for the direct `n^3` budget.  Stronger
+  Residual (RETRACTED 2026-07-10): h=5 official-row residual is OPEN (conjugation guardrail).  Stronger
   norm-gate emptiness remains optional and is not needed here.
 
-T4-H6-H7-BUDGET: REPLAYED/PAID
+T4-H6-H7-BUDGET: SAMPLED-ROW EVIDENCE ONLY (n=32/64; official rows OPEN, 2026-07-10 audit)
   The local replay verifies 11 n=32 h=6/h=7 full zero rows, seven complete h=6
   n=64 rows, and one complete h=7 n=64 row.  The h=6 p=4993 row has six
   nontoral witnesses, far below n^3, and the square-lift packet routes them to
@@ -185,7 +207,7 @@ h5_structural_reduction
   + h=5 official scaling action
   + h=5 rank-one minor propagation
   + h=5 rank-one unit propagation
-  => T4-H5-NORM-GATE is paid for the direct n^3 budget
+  => T4-H5-NORM-GATE payment RETRACTED at official rows (2026-07-10)
 
 h6/h7 bonus sweep replay
   + h6 p4993 square-lift analysis

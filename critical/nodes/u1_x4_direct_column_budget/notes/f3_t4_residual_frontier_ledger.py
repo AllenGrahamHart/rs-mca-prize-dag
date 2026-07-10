@@ -467,7 +467,7 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
         ),
         FrontierNode(
             "T4-H5-NORM-GATE",
-            "REPLAYED/PAID",
+            "SCOPE-RETRACTED 2026-07-10 (artifact replay valid; official-row payment revoked - see ledger banner)",
             (
                 f"{h5['certified_rows']} complete zero rows; "
                 f"n32={h5['n32_certified_primes']} contiguous-through-65537, "
@@ -508,11 +508,11 @@ def frontier_nodes(h5: dict[str, int], h6_h7: dict[str, int], h8: dict[str, int]
                 f"minor propagation syzygies={h5['minor_propagation_syzygies']}; "
                 f"unit propagation syzygies={h5['unit_propagation_syzygies']}"
             ),
-            "no h=5 residual for the direct n^3 budget; stronger norm-gate emptiness remains optional and is not needed here",
+            "RETRACTED 2026-07-10: h=5 official-row residual is OPEN (conjugation guardrail); sampled-row certificates remain valid evidence",
         ),
         FrontierNode(
             "T4-H6-H7-BUDGET",
-            "REPLAYED/PAID",
+            "SCOPE-RETRACTED 2026-07-10 (artifact replay valid; official-row payment revoked - see ledger banner)",
             (
                 f"{h6_h7['n32_h6_h7_full_zero_rows']} n32 h6/h7 full zero rows; "
                 f"{h6_h7['h6_n64_complete_rows']} h6 n64 complete rows; "

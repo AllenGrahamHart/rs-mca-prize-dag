@@ -434,3 +434,40 @@ amplification_range_ext[alt]->e1_fullness. Both demoted alt->ev
 per the normalization-on-close law (nodes closed on their req
 routes; conj_f's tree is green WITHOUT the RK reserve — verified).
 Verifier PASS.
+
+## 22 — 2026-07-10: u1_x4 coverage audit NOT-READY; the h=5 "PAID"
+## retraction banked on master (catches #36-#39)
+
+Fresh-context audit (23 verifier replays exit-0, weld censuses
+recounted 5/5 from independent code, all ACT constants re-derived
+exactly). VERDICT NOT-READY: h=2 proved, h=3 amber-grade on the
+two gates, but h=4/5/6/7/8(non-antipodal)/h>8 are open at official
+rows and the direct column's h-band is itself unpinned.
+
+CATCH #36 (anti-goal-critical): master's T4/FLIP residual ledgers
+printed "h=5 PAID / REPLAYED/PAID / no h=5 residual" for a payment
+whose fixed-scheme premise fails at split primes (conjugation is
+not a same-prime automorphism; Aut(F_p) trivial). Codex had
+revoked it in its frozen worktree; master never got the memo. The
+revoking witness (n=8192, p=67,239,937 non-toral equal-e1,e2
+trade) was INDEPENDENTLY REPLAYED from master state (banked:
+audit_witness_check_20260710.py). BANKED REPAIR: retraction
+banners + label corrections on both ledger .md/.py pairs (both
+verifiers re-run exit-0 after edit — the flip ledger pins the T4
+md's exact Status/heading strings, so md+py were corrected as a
+unit), guardrail note F3_H5_CONJUGATION_GUARDRAIL_20260710.md
+(lists all affected packets), payment-packet annotation. Lesson
+(third instance of the shape: #33, #35, now #36): green ledger
+digests certify pinned artifacts, NOT scope labels — labels need
+their own audit.
+
+CATCH #37: h=6/h=7 "paid" = n=32/64 sampled evidence, official
+rows open ("T4 reduced to h=8 non-antipodal" false at official
+rows). CATCH #38: the h-band hole — prose h<=8 vs refs
+(log2 n)^2; the band pin is the gating decision. CATCH #39: both
+reusable gates lacked falsifier fields — filled (full-corridor
+quantifier per finding F-1). Findings F-2/F-3/F-4 (strip-
+subtractive #26 resolution, per-stratum budget ledger — h=3 alone
+= 50.002% of n^3 at s=13, minimal-trade scope pin) recorded on
+the node. Cheapest path banked in node notes. Codex handoff:
+reconcile on merge (banner says exactly what master changed).

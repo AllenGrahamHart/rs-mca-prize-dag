@@ -1,5 +1,11 @@
 # F3 h=5 central finite-scheme payment
 
+> **RETRACTED AT OFFICIAL ROWS (2026-07-10):** the Bezout arithmetic below
+> (K = 19,840,464; Kn < n^3) is correct, but the fixed-scheme premise rests
+> on reciprocal-system rows invalid at split primes — see
+> F3_H5_CONJUGATION_GUARDRAIL_20260710.md and the witness replay
+> audit_witness_check_20260710.py. Do not consume as an official-row payment.
+
 Status: PROVED PAYMENT COMPILER; CENTRAL FINITENESS PREMISE DISCHARGED.
 
 This packet weakens the remaining h=5 central-chart target.  The central chart
