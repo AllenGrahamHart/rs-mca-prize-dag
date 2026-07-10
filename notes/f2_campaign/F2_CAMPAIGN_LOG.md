@@ -2307,3 +2307,16 @@ carries the deep-regime exactness theorem (with the completed
 Lam-Leung note), the b-resolved model verification, the emptied
 import ledger, and the zero-debts house state. One hundred
 twenty-six entries.
+
+## 127 — 2026-07-10: the phase transition, observed — exactness
+## begins an order of magnitude early
+
+Cycle 119. Meet-in-the-middle unlocked the full phase diagram at
+(n=32, j=3): 78 primes scanned across three decades. Extras exist
+only in the trivially-shallow band (5/8 primes below q ~ 1000);
+from occupancy ~4 onward the dichotomy is EXACT at all 70 primes —
+no extras, no sporadic primes, an order of magnitude before
+satellite 29's guaranteed corner. The deep-regime theorem is not
+just true but conservative; the exact-dichotomy region covers
+essentially everything except the flat-dominated sliver. Banked as
+a satellite-29 addendum. One hundred twenty-seven entries.
