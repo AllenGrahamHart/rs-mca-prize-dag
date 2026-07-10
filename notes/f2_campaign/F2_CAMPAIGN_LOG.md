@@ -2006,3 +2006,18 @@ literature program complete (sat 28); forward cycles rotate
 watch (refined falsifier at new scales) / maintainer duties /
 delegation upkeep / opportunistic proof leads. The charter is
 unchanged: u2c red, T-WIN or T-FLOOR. One hundred six entries.
+
+## 107 — 2026-07-10: falsifier watch W1 — four new scales, model
+## holds, no fire
+
+Cycle 95, first rotation watch cycle. Four new rows, populations
+4.5M-10M (7.5x beyond the previous j=2 maximum): per-orbit
+constants 0.70, 0.70, 1.01, 0.07 — the per-orbit Rademacher model
+(satellite 25) holds through every tested scale; the refined
+falsifier (constant > 10 at 3+ scales) did not fire and was not
+approached. Addendum banked on satellite 25. The watch's honest
+epistemics: each clean scale strengthens the summit conjecture and
+weakens the prospect of T-FLOOR; the charter's exit remains a
+proof (ours or delegated) or a surprise at scales beyond
+enumeration. Next rotation: BMS deep-read (transferable technique)
+or duties, per the posture. One hundred seven entries.
