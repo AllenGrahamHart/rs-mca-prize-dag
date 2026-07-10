@@ -30,3 +30,19 @@ corrected on satellite 25; the q=24001 recount vindicated W4's
 count (N = 512) and classified all 256 extras as unstructured
 clause-(ii) primitives within both budgets. Next: WP2 (F5 -> RK
 Face 3), the consumption-map pattern-setter.
+
+## 3 — 2026-07-10: WP2 DONE — Face 3 is REDUCTION-PARTIAL; seven
+## named missing items; the anti-goal held
+
+The pattern-setter replay (WP2_FACE3_VERDICT.md): the consumption
+map is REAL (two falsification events at xr_smallcore were absorbed
+as clause (i); the live opens are clause-(ii)-shaped) but the amber
+is blocked by M1-M7 — most notably M6: Face 3 needs a
+CONSTANT-EXACT RK (16n^3, 0.86 bits slack), strictly stronger than
+the schema, and M2: the near-pencil stratum conditions on
+shared_census_kernel, not RK (SCK-as-RK = the next unification
+check). The program's method worked as designed: the replay
+produced a work-item ledger instead of a false amber. Basis
+bookkeeping: K2 alone does not cover F5; candidates now K2 + K3 +
+K4 + {SCK or its RK-identification} + the M-items as work. Next:
+M2 (SCK vs RK), then WP5.
