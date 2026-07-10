@@ -1802,3 +1802,23 @@ caught by the quantization assertion — the guardrails, not luck.
 The empirical case for the summit is now as strong as measurement
 can make it at exact-enumeration scales; what remains is what has
 always remained: the theorem. Ninety-six entries.
+
+## 97 — 2026-07-10: the ladder identity and the tower transfer —
+## the recursion made exact, the model-validity gap closed
+
+Satellite 21 (f2_ladder_tower_transfer, PROVED, two parts). Part 1:
+sum_{c!=0} exp(2S_c) = q^j C''_j - 4^n with C'' the weighted signed-
+trade census — the alphabet-widening recursion ({0,1} -> {0,+-1})
+is an exact identity; the second-moment denominator is an integer.
+Verified at 4 rows; the n=64 row required bigint DP because the two
+sides agree to 62+ significant bits — the identity's difference IS
+the deviation, so floats categorically cannot see it (the exact-
+arithmetic law, now quantified). Part 2: the quantization proof
+uses only Tr(0) = 0 and vanishing power sums, so the whole (S, eps)
+frame transfers verbatim to q = p^k — verified at three prime-power
+fields (7^2, 5^2, 3^4) with exact field-arithmetic censuses;
+alignment ratios in band. Every prime-q measurement in the campaign
+now stands on a proved transfer principle to the official tower
+shape. The chart's six instruments (diagonalization, moment theory,
+split, quantization, alignment stability, ladder/transfer) are
+complete and mutually consistent. Ninety-seven entries.

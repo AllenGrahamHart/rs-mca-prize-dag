@@ -4896,6 +4896,11 @@
    "id": "f2_struct_sub_alignment",
    "status": "PROVED",
    "statement": "F2 STRUCT-SUBTRACTED ALIGNMENT STABILITY (2026-07-10, campaign cycle 84; digest F2_STRUCT_SUB_ALIGNMENT_PASS): the honest falsifier-adjacent number is STABLE \u2014 the Rademacher model survives its full scaling test. Since the 2^{n/4} proved coset-union blocks contribute exactly 1 at every frequency (their moments vanish), the extras fluctuation extras_dev = (q^j N_total - 2^n) - 2^{n/4}(q^j - 1) is exactly the signed sum of the extras census, and ratio' = |extras_dev|/sqrt(sum_{c!=0} exp 2S_c) measures pure sign-magnitude alignment (subtracting a proved subclass is unconditionally valid). MEASURED at 13 exact 2-power-n rows, frequency populations 12.7k to 44.0M (q = 97..1153, n = 16..64, j = 2,3): ALL rows in one band ratio' = 0.17..11.4, least-squares slope of log(ratio') vs log(population) = -0.067 => STABILIZATION \u2014 the alignment factor is a scale-stable O(1) constant ~7, four orders below the 2^15-per-condition slack. Both pre-registered collapse predictions hit exactly: (113,16,j=3) 60.0 -> 0.17 with extras_dev = -(2^n - 2^{n/4}) = -65520 exactly (zero extras row), (353,32,j=3) 25.4 -> 5.0. One row sub-random (769,64: 0.78). Bonus guardrail catch: an invalid row (929,64 \u2014 64 does not divide 928) was caught by the quantization assertion, not by silent wrong output; subgroup-existence assert added. READING: at every reachable scale the census = EXACT STRUCT + extras whose signed deviation is random-sign-like with constant alignment \u2014 precisely the quantitative shape of the growing-order Myerson/Rademacher square-root cancellation the summit asserts; the pre-registered falsifier direction (alignment growth) is now tested and NEGATIVE across two decades. The open content remains the PROOF at official scale, unchanged. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_struct_sub_alignment_modal.py. Twentieth satellite."
+  },
+  {
+   "id": "f2_ladder_tower_transfer",
+   "status": "PROVED",
+   "statement": "F2 LADDER IDENTITY + TOWER TRANSFER (2026-07-10, campaign cycle 85; digest F2_LADDER_TOWER_TRANSFER_PASS). PART 1 \u2014 LADDER IDENTITY (orthogonality, 3 lines): sum_{c != 0} exp(2 S_c) = q^j C''_j - 4^n, where C''_j = sum over delta in {0,+1,-1}^n with vanishing moments p_1..p_j of 2^{#{delta=0}} (the weighted signed-trade census, an integer DP). The random-sign variance of the census deviation IS a census one alphabet up ({0,1} -> {0,+-1}) \u2014 the alphabet-widening recursion is now an exact banked identity, making every satellite-20 denominator integer-computable. Verified integer-exact at (97,32,2), (113,16,2), (113,16,3) and via bigint DP at (257,64,2); the n=64 row PROVES the house exact-arithmetic law quantitatively \u2014 the identity's two sides agree to 62+ significant bits (their difference IS the deviation), so float64 categorically cannot verify it. PART 2 \u2014 TOWER TRANSFER (the model-validity gap, closed): at q = p^k with psi_c(y) = e_p(Tr(cy)), the quantization proof transfers verbatim (sum_x Tr(c.xbar) = Tr(c.(vanishing power sums)) = 0 mod p), so Phi_c in pi*Z and the ENTIRE (S, eps) frame \u2014 census-Fourier split, sign quantization, Rademacher form \u2014 holds at PRIME-POWER fields, the official-row shape. Verified at (p,k) = (7,2), (5,2), (3,4): quantization exact at every frequency, census-Fourier identity integer-exact against F_{p^k} DP censuses (field arithmetic via irreducible-polynomial construction), alignment ratios 8.7/4.0/1.9 in the satellites-19/20 band. Every prime-q campaign measurement is now backed by a proved-and-verified transfer principle to the tower. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_ladder_tower_transfer_modal.py. Twenty-first satellite."
   }
  ],
  "edges": [
@@ -9581,6 +9586,11 @@
   },
   {
    "from": "f2_struct_sub_alignment",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_ladder_tower_transfer",
    "to": "u2c_giant_tnull_dichotomy",
    "kind": "ev"
   }
