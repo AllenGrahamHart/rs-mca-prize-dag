@@ -1844,3 +1844,22 @@ parity field eps_c = (-1)^{K+U} against exp(S_c) at official rows;
 every auxiliary structure (modulus, phase, variance, tower, struct)
 is proved, exact, and closed. What remains is one parity problem.
 Ninety-eight entries.
+
+## 99 — 2026-07-10: Pro brief v4 — the terminal handoff
+
+Cycle 87. With the chart complete and terminated (satellites 16-22),
+wrote PRO_FLOOR_2_F2_SUMMIT_V4.md: the uniquely-posed target (the
+2^{o(n)} alignment bound for eps_c = (-1)^{K+U} against exp(S_c),
+with integer-exact denominator via the ladder identity), the seven
+proved instruments, the measured evidence, no-gos 1-10 + the
+annealed death constant, and four NAMED ENTRY POINTS in credence
+order: E1 Ehrhart-mod-2/lattice-point parity, E2 Dedekind-integer
+reciprocity (K is a sawtooth-sum value; Zagier higher-dimensional
+for j >= 2), E3 parity Fourier spectrum (Walsh weights of eps are
+complete exponential sums — Weil applies levelwise; Cauchy-Schwarz
+against the KNOWN spectrum of exp(S)), E4 Frobenius-orbit averaging
+at q = p^k. Deliverables D1 proof / D2 counterexample (T-FLOOR) /
+D3 named-problem reduction. Every claim cross-checked against the
+banked satellite statements. The delegation channel is armed with
+the strongest brief the campaign can write; my own next cycles take
+E3 (the most mechanical lane) first. Ninety-nine entries.
