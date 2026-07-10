@@ -247,3 +247,23 @@ quantitative; a maintainer pin is required for any verbatim
 prize-max instantiation (candidate second upstream issue; user
 decision). Catches: the extraction validated rather than extended
 the count — the discipline held.
+
+## 15 — 2026-07-10: upstream contribution PR #543 opened (the
+## finite-track theory packets)
+
+Four packets pushed via fork branch allen/finite-census-packets
+and opened as https://github.com/przchojecki/rs-mca/pull/543:
+(1) necessary hypotheses for finite census statements (the three
+counterexample families + guards, aspect necessity included);
+(2) the signed census frame (quantization, census + ladder
+identities, tower transfer, L-function diagonalization);
+(3) deep-regime exactness (cyclotomic rigidity, Lam-Leung descent,
+the measured phase transition — verifiers re-run the sweeps live);
+(4) the kernel-basis roadmap (7 reds -> 3 kernels + the frontier +
+the q-pin spec item). All verifiers stdlib, green; every header
+marks finite-track/park-until-pivot; GPT-5.6 credited for the
+counterexample constructions. Standing watches now: #493
+(conventions), #543 (packets), Sol round 3 (3C), Codex's F3 flip
+(h=3 corridor + J_5 leaf). One check-arithmetic catch during
+preparation (the N=8 struct constant in my own sweep check),
+fixed before push.
