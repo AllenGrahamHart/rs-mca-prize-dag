@@ -2060,3 +2060,14 @@ as the posture predicted: identification and literature are
 complete, cheap leads are exhausting, and the campaign's live
 exits remain a real proof effort (delegated or a new idea) or the
 falsifier at untested scales. One hundred nine entries.
+
+## 110 — 2026-07-10: falsifier watch W2 — four more scales clean
+
+Cycle 98. W2: j=2 pushed to 25M frequencies (q = 4993) and j=3
+extended to two new n=32 rows (7.2M and 17M states). Per-orbit
+constants 0.75, 0.90, 1.04, 0.62 — the per-orbit Rademacher model
+now verified from 9.4k to 44M states with 21 independent rows and
+zero anomalies (the two sub-band rows both explained as zero-
+extras). The watch cadence can now relax (each new octave costs
+more and moves belief less); the standing posture holds. One
+hundred ten entries.
