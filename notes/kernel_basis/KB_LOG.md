@@ -548,3 +548,27 @@ NOT-READY, xr #24); summit + rate_half exempt (documented). The
 irreducible kernels + the three floors that honestly refused
 their ambers. Every green/amber on the surface satisfies the
 machine-enforced invariant.
+
+## 25 — 2026-07-10: RED-QUALITY PROGRAM armed (goal set); 13
+## certificates banked; three runners launched
+
+Charter r2 committed (bar = Q-SUFF + Q-SURV; unstated constants OK;
+Q-MIN demoted to annotation). Banked: one quality certificate per
+surface red (consumer-folder notes; QUALITY tags in all 13 dag
+statements). Q-SUFF status: certified-by-pointer for 12 (the amber
+audits' machine-verified chains); u1_x4 honestly PRE-DECOMPOSITION
+(band pin = its sufficiency question). Q-SURV status: extensive
+prior executed records cited for summit (44M-state campaign,
+kill-line never approached), dli (nine rounds + fresh audit
+calibration), rate_half (pinched between two theorems + floor
+campaign), E27-backed xr pair, F4-backed petal trio; QUEUED runs
+named per red.
+
+RUNNERS LAUNCHED: (1) G3 fifth-branch replay (in flight — may
+retire a red outright); (2) u1_x4 band-pin derivation agent
+(consumer-arithmetic H_max; BAND-OPEN is an acceptable verdict —
+converts catch #38 into a named lemma); (3) fresh summit W3
+falsification octave on Modal (13 primes, populations to ~8e9,
+pre-registered kill line per-orbit > 10 at 3+ primes) — the first
+NEW executed attempt of the program; certificate execution log to
+be filled on completion.
