@@ -46,3 +46,18 @@ produced a work-item ledger instead of a false amber. Basis
 bookkeeping: K2 alone does not cover F5; candidates now K2 + K3 +
 K4 + {SCK or its RK-identification} + the M-items as work. Next:
 M2 (SCK vs RK), then WP5.
+
+## 4 — 2026-07-10: M2 DONE — SCK is K2's census core; gap 4 pinned
+## from our side; the box grows
+
+The identification runs both directions: SCK instances are RK
+instances (two pins recorded: sub-balance = FM-suppression;
+toral = extension-type — which gives WP0's gap 4 its positive
+definition from OUR h3 classification), and our h=2/h=3 theorems
+become K2's first proved instances outside its box. WP2's blocker
+M2 resolves (step 5d now conditions on K2 through SCK); RK's
+jointness (#212) becomes the lead for dli's missing aggregation
+(WP4). Basis holds at k = 3 with K2's census core now
+theorem-bearing. M6 (constant-exactness) untouched — both schemas
+leave poly(n) unpinned; F5 still needs 16n^3 net. Next: WP5
+(rate-half -> K3).
