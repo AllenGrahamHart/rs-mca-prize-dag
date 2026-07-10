@@ -2363,3 +2363,19 @@ working cycles with every program complete, zero debts, and the
 summit posed in one sentence for whoever takes it next — a Pro
 thread, a fresh session, or the literature catching up. One
 hundred thirty entries.
+
+## 131 — 2026-07-10: the kernel-basis program mapped (successor
+## program, joint over ours and Codex's results)
+
+Post-suspension, with the user: surveyed Codex's endgame (RK — the
+rigidity kernel, its four consumption faces, proved-instance table;
+packets all integrated upstream) and mapped THE KERNEL-BASIS
+PROGRAM (notes/kernel_basis/KERNEL_BASIS_PROGRAM.md): reduce all 7
+critical reds to a minimal kernel basis (candidates K1 parity
+summit, K2 RK, K3 row-sharp Q, K4 stabilizer-primitive bound; two
+unification checks could shrink it), one verified conditional-close
+per red, WP0-WP7 sequenced cheap-first, recycling ledger seeded,
+draft termination conditions written. Anti-goal pinned: no red
+ambers on an unreplayed consumption map (catch #23's lesson). The
+map awaits the user's commitment to become the next standing goal.
+One hundred thirty-one entries.
