@@ -4911,6 +4911,11 @@
    "id": "f2_parity_spectrum",
    "status": "PROVED",
    "statement": "F2 PARITY WALSH SPECTRUM + CATCH #23 (2026-07-10, campaign cycle 88; digest F2_PARITY_SPECTRUM_PASS after read correction): the parity field is SPECTRALLY NEAR-RANDOM, and the naive E3 reduction is FALSE. MEASURED (FFT of the +-1 parity grid over (Z/q)^j at 9 exact rows, argmax coefficients re-verified by direct summation, Parseval to 1e-15): W* = max_{d != 0}|eps-hat(d)|/sqrt(q^j) = 2.4-5.7 at j=2 rows \u2014 AT OR BELOW the random +-1-field maximum sqrt(2 ln q^j) \u2014 and 13.4-16.8 at j=3 rows (~3x random: structured multiplets; top-3 magnitudes exactly equal = twisted-orbit families). The d=0 coefficient (sign imbalance) grows separately and is handled apart. CATCH #23 (the cycle's chief product): the naive Holder/Cauchy-Schwarz chain 'alignment <= W* sqrt(sum e^2S)' asserted in brief v4's E3 is WRONG BY A FACTOR sqrt(q^j) \u2014 Parseval is an isometry, so single-domain Holder splits reproduce only the trivial c-space bound; the false chain was CAUGHT BY THE VERIFIER's own chain check at the struct-heavy row (113,16,3) (8 rows passed on slack \u2014 passing on slack is not correctness). E3 RE-POSED (brief v4 corrected in place): the Fourier pairing wins only via CROSS-SUPPORT MISALIGNMENT \u2014 E-hat of the weight exp(S) concentrates on census frequencies (moment vectors of near-null configurations, described exactly by the banked census machinery); the required statement is that the parity spectrum carries 2^{o(n)}-small mass ON that heavy support. Walsh flatness alone is insufficient; joint support geometry is the content. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_parity_spectrum_modal.py. Twenty-third satellite; twenty-third catch \u2014 the protocol caught the campaign's own reduction error before a single proof-hour was spent on it."
+  },
+  {
+   "id": "f2_cross_support_verdict",
+   "status": "PROVED",
+   "statement": "F2 CROSS-SUPPORT VERDICT \u2014 E3 CLOSED (2026-07-10, campaign cycle 89; digest F2_CROSS_SUPPORT_PASS): NO-GO #11 \u2014 the Fourier-pairing lane is dead in full. Measured at 7 exact rows (pairing identity (1/Q) sum_d eps-hat conj(W-hat) = signed deviation verified to 1e-15; weight spectrum taken on e^S restricted to c != 0, the flat spike removed): (a) k_surgery/Q = 0.57-0.76 at ALL rows \u2014 the absolute pairing tail sum_{d not in top-k} |t_d| never falls to alignment scale until k is a constant fraction of the whole frequency space; no small census-defined support exists to attack; (b) the total absolute pairing cost is within 0.6-1.0 bits of the trivial sqrt(Q) Cauchy-Schwarz bound at every row \u2014 the pairing-level spectra are near-random (consistent with satellite 23), so support surgery has no structure to exploit; (c) the SIGNED value is captured by a tiny top set (capture k/Q ~ 1e-4) \u2014 diffuse, mean-zero, random-walk-like accrual: the cancellation is GLOBAL, not localized on any frequency subset. CONSEQUENCE: E1 (Ehrhart mod-2 lattice parity), E2 (Dedekind-integer reciprocity), and E4 (Frobenius-orbit averaging) are the only remaining named lanes; brief v4 updated. The campaign's Fourier program (satellites 18, 19, 23, and this) is COMPLETE: it produced the sign quantization, the pseudorandomness evidence, and two no-gos \u2014 the parity field must be engaged in physical (lattice/orbit) space, not frequency space. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_cross_support_modal.py. Twenty-fourth satellite."
   }
  ],
  "edges": [
@@ -9611,6 +9616,11 @@
   },
   {
    "from": "f2_parity_spectrum",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_cross_support_verdict",
    "to": "u2c_giant_tnull_dichotomy",
    "kind": "ev"
   }

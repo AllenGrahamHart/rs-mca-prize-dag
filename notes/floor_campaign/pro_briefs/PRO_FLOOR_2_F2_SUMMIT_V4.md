@@ -104,7 +104,7 @@ E2. DEDEKIND-INTEGER RECIPROCITY. K_c is the integer value of a
     sums; Zagier's higher-dimensional reciprocity covers multi-
     argument versions (our j >= 2). Sought: reciprocity => carry
     parity equidistributes over the frequency orbits.
-E3. PARITY FOURIER SPECTRUM — CORRECTED (catch #23, cycle 88). The
+E3. PARITY FOURIER SPECTRUM — CLOSED (catch #23 cycle 88; NO-GO #11 cycle 89, digest F2_CROSS_SUPPORT_PASS: k_surgery/Q = 0.57-0.76 at 7/7 rows — the absolute pairing tail never thins, the pairing is within 1 bit of trivial sqrt(Q), and the signed value accrues diffusely; DO NOT ATTACK IN FREQUENCY SPACE — the record below is kept for the negative's derivation). The
     naive Holder chain (max|eps-hat| times L1/L2 of the weight
     spectrum) LOSES a factor sqrt(q^j): Parseval is an isometry, so
     single-domain splits reproduce only the trivial bound. Walsh
