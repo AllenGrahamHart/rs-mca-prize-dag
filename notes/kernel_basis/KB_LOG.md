@@ -206,3 +206,25 @@ TARGET 3 = the guarded official extras floor (all four round-1
 exploits excluded by hypothesis; falsification = T-FLOOR,
 legitimately); TARGET 4 = the h=4 collision census (the ladder
 rung above two proved predecessors). Catches now 30.
+
+## 13 — 2026-07-10: SOL round 2 triaged — Target 3 refuted (CATCH
+## #31), the ASPECT-RATIO GUARD proved necessary, floor stands
+
+Replayed and confirmed: the char-7 seed (5-null, 11 elements,
+order-32 omega), the aspect crossover (super-budget exactly above
+256/41; sub-budget below), and the M_0 lift identity. VERDICTS:
+(1) Target 3 as posted dies to the tensor/level-lift mode — its
+'scaled family' clause was undefined (catch #31); (2) THE BANKED
+u2c FLOOR STANDS and its official-row scope is now PROVED
+NECESSARY — the round's genuinely new structure: sub-balance +
+p-free do NOT suffice; the aspect ratio does the remaining work
+in every tested family. T-FLOOR does not fire (the family is not
+official-like). (3) Sol's own 3B died to the ALREADY-PAID
+M_0-boundary class — by its own monotonicity standard, target-
+extraction failure. PROCESS ADOPTED (Sol's recommendation =
+our kernel-basis discipline, independently converged): no more
+guessed targets; TARGET 3C will be MECHANICALLY EXTRACTED from
+the live consumer (the catch-#30-corrected b2b face + M_0 +
+multilevel quotient subtractions + trade multiplicity + the
+aspect guard), then one intensive falsification round, then
+proof mode. Catches now 31.

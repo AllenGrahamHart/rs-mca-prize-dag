@@ -1,3 +1,8 @@
+# STATUS: REFUTED AS WRITTEN (2026-07-10, Sol round 2; replayed and
+# confirmed in-repo — appendix below). The BANKED u2c floor is NOT
+# touched: the falsifying family violates the official aspect ratio,
+# which is exactly the floor's scope. Preserved unedited.
+
 # TARGET 3 — THE GUARDED OFFICIAL EXTRAS FLOOR. Prove or falsify.
 
 This is the load-bearing conjecture of the finite prize (DAG node
@@ -51,3 +56,38 @@ is a census). Do not attack: char-divisible index redundancy
 (excluded by t*), unbalanced rows (excluded by hypothesis),
 mis-centered struct (level-dependent by definition above),
 complement double-counts (the count is defined two-sided).
+
+
+---
+
+## REFUTATION APPENDIX (2026-07-10, banked after exact replay)
+
+Sol's char-7 tensor family falsifies THIS TARGET AS POSED (its
+'scaled family' clause was undefined and its guards insufficient —
+CATCH #31): omega of order 32 over F_7 (root of X^4 - X^2 - 1), an
+11-element 5-null seed block (REPLAYED: p_1..p_5 all zero), and
+independent per-mu_32-coset choices of rotations/complements give
+2^{3N/16} five-null non-coset subsets at K_N = F_{7^{N/8}} —
+satisfying the p-free (t* = 5, char 7) and generated-field
+sub-balance guards, yet beating N^3 from N = 128.
+
+THE ROUND'S REAL YIELD (new structure, banked):
+1. THE ASPECT-RATIO GUARD IS NECESSARY (theorem-grade negative,
+   replayed): sub-balance + p-free discipline do NOT imply the N^3
+   census bound. The char-7 family crosses super-budget EXACTLY
+   where log Q / log N exceeds the official aspect 256/41 = 6.244
+   (replayed: N=64 aspect 3.74 sub-budget; N=128/256/512 aspects
+   6.42/11.2/20.0 all super-budget). The official-row restriction
+   on the u2c floor is hereby PROVED NECESSARY, not conservative.
+   T-FLOOR does NOT fire: the floor's pre-registered falsifier
+   requires official-LIKE (aspect-respecting) rows.
+2. THE TENSOR/LEVEL-LIFT FALSIFIER MODE (named, two instances):
+   independent per-coset seed choices amplify multiplicatively
+   (char-7 rotations here; M_0 zero-sum lifts in Sol's 3B
+   falsifier). Any viable census target must pay the lifted
+   classes (the M_0-boundary class IS already banked:
+   u2c_boundary_scale_column) or carry the aspect guard.
+3. Sol's 3B self-falsification hit the ALREADY-PAID M_0-boundary
+   class (lift identity replayed exact at (97,32,8)) — by Sol's
+   own monotonicity standard an extraction failure, validating
+   the paid-class ledger rather than shrinking the residual.
