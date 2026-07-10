@@ -1,3 +1,9 @@
+# STATUS: REFUTED AS WRITTEN (2026-07-10, GPT-5.6 'Sol'; replayed
+# and confirmed in-repo the same day — see the appendix below and
+# SOL_TARGET_1B for the corrected open conjecture). Preserved
+# unedited per house discipline; do not cite the conjecture below
+# without the correction.
+
 # TARGET 1 — THE PARITY SUMMIT. Prove or falsify.
 
 ## Setup (self-contained)
@@ -62,3 +68,28 @@ A falsification means: an explicit infinite family (or a family at
 2^{c n}. A proof at any delta(n) -> 0, even for j = 2 only, is a
 breakthrough (it flips a prize floor via the banked conditional
 close).
+
+
+---
+
+## REFUTATION APPENDIX (2026-07-10, banked after independent replay)
+
+Sol's falsification is CORRECT and was confirmed by exact replay:
+1. The centering 2^{n/4} is the structural count only for j in
+   {2,3}. At j = 4 the char-0 census is mu_8-coset unions, count
+   2^{n/8} (our own banked theorem b1_char0_giant_coset_theorem:
+   M > t; replayed exhaustively at (q=12289, n=16): N = 4 = 2^{n/8},
+   all members mu_8-unions). For deep primes (q > n^{n/2}: no
+   modular accidents, our deep-regime exactness theorem) the
+   mis-centering term q^j(2^{n/4} - 2^{n/8}) dominates and the
+   stated ratio diverges like 2^{Omega(n log n)}. CATCH #28: the
+   target's 'for every fixed j >= 2' over-generalized the j <= 3
+   constant, contradicting the repo's own banked mathematics.
+2. CATCH #29: the closing line ('a proof for j = 2 only flips a
+   prize floor') was OVERCLAIMED — the banked conditional close
+   consumes the census at ALL q-free levels up to t; no fixed-j to
+   growing-t reduction is wired. Withdrawn.
+3. All in-repo j <= 3 satellites, identities, and measurements are
+   unaffected (they are stated and verified with j in {2,3} scope).
+   The 'right side is an exact integer' phrasing is corrected in
+   1B (the squared norm is the exact integer).

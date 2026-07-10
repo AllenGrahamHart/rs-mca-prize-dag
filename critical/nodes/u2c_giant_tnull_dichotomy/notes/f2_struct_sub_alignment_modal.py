@@ -40,6 +40,7 @@ JOBS = [
 @app.function(image=image, cpu=2, memory=10240, timeout=280)
 def cell(job):
     q, n, j = job
+    assert j <= 3, "struct = 2^(n/4) is the j <= 3 census ONLY (catch #28)"
     assert (q - 1) % n == 0, f"mu_{n} does not exist in F_{q}"
     import numpy as np
 

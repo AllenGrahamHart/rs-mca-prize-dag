@@ -159,3 +159,35 @@ attribution, and the C9 episode shows that adjudication lane is
 active). If granted: F5's and worst_word's open problems relax to
 ordinary poly(n) bounds at zero proof cost. Flagged-not-spent
 discipline maintained on our side pending the ruling.
+
+## 11 — 2026-07-10: SOL round 1 — two falsifications received, both
+## replayed and confirmed; the guarded floors survive; CATCHES #28-#29
+
+GPT-5.6 ('Sol') attacked the public targets. VERDICTS AFTER REPLAY:
+(1) SOL_TARGET_1 REFUTED AS WRITTEN — the centering 2^{n/4} is the
+j <= 3 census only; at j = 4 the true census is 2^{n/8} (OUR OWN
+b1_char0_giant_coset_theorem, M > t; replayed exhaustively at
+(12289,16): N = 4, all mu_8-unions); at deep primes the
+mis-centering dominates and the ratio diverges 2^{Omega(n log n)}.
+CATCH #28 (transcription over-generalized j with the j<=3
+constant); CATCH #29 (the 'fixed j=2 flips the floor' line
+overclaimed — no fixed-j -> growing-t reduction is wired;
+withdrawn). Target marked refuted-preserved; SOL_TARGET_1B issued
+with level-dependent centering Struct_j = 2^{n/M_j}; j<=3 asserts
+added to the five struct-subtracting harnesses; brief v4 correction
+queued. All j <= 3 satellites unaffected (scoped as stated).
+(2) Sol's own proposed replacement (unweighted PC-122 face)
+FALSIFIED BY SOL ITSELF via a char-3 construction (eta in mu_16 of
+F_81, 7-element block with p_1 = p_2 = 0 — REPLAYED EXACT in-repo;
+p_3 = p_1^3 redundant in char 3; 16^32 = 2^128 primitive 3-null
+blocks). THE CURRENT GUARDED FLOOR SURVIVES: under the banked
+q-free-index discipline (catch #6 / the dictionary in u2c's
+statement) the row's effective t is 2 and 3^256 < 2^512 — NOT
+sub-balance; the construction kills only the archived unguarded
+face and Sol's own broader restatement. Sol's residual claims
+queued for verification: V1 (complement accounting 2C_< + C_= + T
+— does any banked bound double-count?); V2 (the exact archived
+face's location and its guard status). The falsification-first
+economy is working exactly as designed: an external prover with
+fresh eyes found our transcription errors in hours and confirmed
+the load-bearing guards hold.

@@ -37,6 +37,7 @@ PRIMES = [193, 257, 353, 449, 577, 641, 769, 929, 1153, 1409,
 @app.function(image=image, cpu=4, memory=16384, timeout=280)
 def one_prime(q):
     n, j = 32, 3
+    assert j <= 3, "struct = 2^(n/4) is the j <= 3 census ONLY (catch #28)"
     assert (q - 1) % n == 0, f"mu_{n} does not exist in F_{q}"
     import numpy as np
 
