@@ -2283,3 +2283,18 @@ model is now verified across scales AND across band positions;
 the falsifier direction is negative in every dimension the
 contract touches at enumerable scales. One hundred twenty-four
 entries.
+
+## 125 — 2026-07-10: the last write-up flag discharged — the
+## Lam-Leung descent note
+
+Cycle 114. Satellite 29's flagged step is now proved in full
+(F2_DEEP_REGIME_LAMLEUNG_NOTE.md): M_1 = M_2 = 0 forces mu_4-coset
+unions by two Lam-Leung descents (n then n/2, the antipodal pairing
+at each level), and M_3 vanishes automatically on mu_4-unions
+(3 coprime to 4) — which simultaneously explains why struct(j=2) =
+struct(j=3) = 2^{n/4}, closing a loop the campaign had observed
+but not derived. The deep-regime exactness theorem is complete at
+full rigor for j <= 3. With this, the campaign carries ZERO
+flagged debts of any kind: no quarantines, no write-up flags, no
+deferred replays, no parked ideas, no untested axes. One hundred
+twenty-five entries.
