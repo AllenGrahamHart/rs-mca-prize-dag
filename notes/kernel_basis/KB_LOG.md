@@ -402,3 +402,35 @@ replay (candidate discharge already exists). K4 remains the
 kernel-basis K4 (band-restricted instantiation; bridge obligation
 documented). Red count 9 -> 12: petal's blunt floor swapped for
 four sharp predicates — the invariant working as designed.
+
+## 21 — 2026-07-10: proof-tree trace of conj_f; catch #35 (duplicate
+## RK nodes); gate-normalization sweep
+
+Owner asked after the substantial proved results. Trace: conj_f
+(plane sections of D_j have poly unpaid points) has a 27-node,
+depth-7, fully-green proof tree (12 proved leaves: gcd reduction,
+spread-descent dichotomy, divisor-depth induction chain, Hankel
+moment clean leaves + sparse atoms, dihedral/periodic strata, dual
+distance frame, termination MDS, wild row audit); req-consumed by
+imgfib and spi_point_counting. Largest proved surface subtrees:
+mca_unsafe (33), conj_f (26), zone_b (23), f_primitive_case (23),
+f1_full_field_pole_forcing (22), e1_fullness (22).
+
+CATCH #35: TWO nodes carry the rigidity kernel — rigidity_kernel
+(original, pre-layout, consumer-wired: f_many_sparse_structure,
+gap1_noneq_mass, xr_clean_residual_any_gate + ev edges; live
+Face-4/E30 audit notes) and rk_rigidity_kernel (WP0 2026-07-10
+import with provenance + nine gaps). The kernel-basis charter's
+"K2 ... NOT YET a local node" line was WRONG (same failure shape
+as catch #33: an existence claim not checked against the DAG).
+Both nodes now carry DUPLICATION NOTICE pins; merge queued
+(survivor decision owed); interim rule: status changes apply to
+BOTH.
+
+GATE-NORMALIZATION SWEEP (whole DAG): exactly 2 PROVED nodes
+carried residual alt edges from open nodes —
+rigidity_kernel[alt]->f_many_sparse_structure and
+amplification_range_ext[alt]->e1_fullness. Both demoted alt->ev
+per the normalization-on-close law (nodes closed on their req
+routes; conj_f's tree is green WITHOUT the RK reserve — verified).
+Verifier PASS.
