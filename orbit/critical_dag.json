@@ -72,6 +72,11 @@
    "title": "Axis 9: exact rates (dither adverse, provisional)"
   },
   {
+   "id": "b1_char0_giant_coset_theorem",
+   "label": "PROVED",
+   "title": "PROVED (roadmap-lane, toy-verified): the char-0 giant coset theorem"
+  },
+  {
    "id": "b2b_dyadic_descent_packet",
    "label": "PROVED",
    "title": "b2b dyadic descent packet"
@@ -442,8 +447,28 @@
    "title": ""
   },
   {
+   "id": "f2_edge_lemma",
+   "label": "PROVED",
+   "title": ""
+  },
+  {
+   "id": "f2_full_ladder_dictionary",
+   "label": "PROVED",
+   "title": ""
+  },
+  {
    "id": "f2_growing_order_myerson",
    "label": "UNPROVED",
+   "title": ""
+  },
+  {
+   "id": "f2_k1_contraction_theorem",
+   "label": "PROVED",
+   "title": ""
+  },
+  {
+   "id": "f2_newton_empty_extremes",
+   "label": "PROVED",
    "title": ""
   },
   {
@@ -1962,6 +1987,30 @@
   {
    "from": "f2_conditional_close",
    "to": "u2c_giant_tnull_dichotomy"
+  },
+  {
+   "from": "f2_newton_empty_extremes",
+   "to": "f2_conditional_close"
+  },
+  {
+   "from": "f2_edge_lemma",
+   "to": "f2_conditional_close"
+  },
+  {
+   "from": "f2_full_ladder_dictionary",
+   "to": "f2_conditional_close"
+  },
+  {
+   "from": "f2_k1_contraction_theorem",
+   "to": "f2_conditional_close"
+  },
+  {
+   "from": "b2b_near_tail_bound",
+   "to": "f2_conditional_close"
+  },
+  {
+   "from": "b1_char0_giant_coset_theorem",
+   "to": "f2_conditional_close"
   }
  ]
 }

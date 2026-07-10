@@ -4870,7 +4870,7 @@
   {
    "id": "f2_conditional_close",
    "status": "CONDITIONAL",
-   "statement": "F2 CONDITIONAL CLOSE (2026-07-10, the campaign's L5 assembly executed conditionally \u2014 house pattern of f3_h3_officialrow_conditional_close and f5_npb_conditional_close): CONDITIONAL ON f2_growing_order_myerson, the consumer arithmetic closes: extras(official row) = [b <= t: 0, EMPTY unconditional] + [edge band: 0, PROVED] + [Frobenius-fixed and symmetric sectors: 1 + o(1) flat, PROVED chain] + [moving-sector interior: <= mean x 2^{1.05e12} by the assumed summit <= 2^{-1e12}-scale x tolerance << n^3] => total extras + trades <= n^3 = 2^123 at official prize-max rows with astronomical room; the consumer (x4 via the giant-extras budget) is served. The F2 red therefore reduces, as wired DAG structure, to exactly one named open input. Assembly arithmetic replayed in the campaign log; every non-summit link PROVED with digests."
+   "statement": "F2 CONDITIONAL CLOSE (2026-07-10, the campaign's L5 assembly executed conditionally \u2014 house pattern of f3_h3_officialrow_conditional_close and f5_npb_conditional_close): CONDITIONAL ON f2_growing_order_myerson, the consumer arithmetic closes: extras(official row) = [b <= t: 0, EMPTY unconditional] + [edge band: 0, PROVED] + [Frobenius-fixed and symmetric sectors: 1 + o(1) flat, PROVED chain] + [moving-sector interior: <= mean x 2^{1.05e12} by the assumed summit <= 2^{-1e12}-scale x tolerance << n^3] => total extras + trades <= n^3 = 2^123 at official prize-max rows with astronomical room; the consumer (x4 via the giant-extras budget) is served. The F2 red therefore reduces, as wired DAG structure, to exactly one named open input. Assembly arithmetic replayed in the campaign log; every non-summit link PROVED with digests. | PROOF-SKELETON WIRING (2026-07-10, completing the route commitment): the assembly's proved inputs are now req-wired \u2014 empty bands (f2_newton_empty_extremes), edge band (f2_edge_lemma), the dictionary (f2_full_ladder_dictionary), sector contraction (f2_k1_contraction_theorem), near-tails (b2b_near_tail_bound), and the struct census (b1_char0_giant_coset_theorem) \u2014 so the committed chain's green skeleton is on the critical surface alongside its one red leaf (the summit). Evidence-grade satellites (measurements, no-gos, watches) remain ev by design."
   },
   {
    "id": "f2_lfunc_diagonalization",
@@ -9733,6 +9733,36 @@
    "from": "rk_rigidity_kernel",
    "to": "u1_x4_direct_column_budget",
    "kind": "ev"
+  },
+  {
+   "from": "f2_newton_empty_extremes",
+   "to": "f2_conditional_close",
+   "kind": "req"
+  },
+  {
+   "from": "f2_edge_lemma",
+   "to": "f2_conditional_close",
+   "kind": "req"
+  },
+  {
+   "from": "f2_full_ladder_dictionary",
+   "to": "f2_conditional_close",
+   "kind": "req"
+  },
+  {
+   "from": "f2_k1_contraction_theorem",
+   "to": "f2_conditional_close",
+   "kind": "req"
+  },
+  {
+   "from": "b2b_near_tail_bound",
+   "to": "f2_conditional_close",
+   "kind": "req"
+  },
+  {
+   "from": "b1_char0_giant_coset_theorem",
+   "to": "f2_conditional_close",
+   "kind": "req"
   }
  ]
 }

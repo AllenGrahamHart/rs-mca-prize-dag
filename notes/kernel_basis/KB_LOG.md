@@ -294,3 +294,23 @@ bridge that reaches full rigor triggers the same relocation
 (xr_smallcore, petal, dli, worst_word await bridge completion;
 u1_x4 awaits Codex's gates; rate_half's kernel IS its own
 content — no relocation available).
+
+## 17 — 2026-07-10: the green skeleton joins — the close's proved
+## inputs req-wired onto the critical surface
+
+Completing the route commitment: the assembly's six load-bearing
+proved inputs (empty bands, edge lemma, dictionary, k=1 sector
+contraction, near-tails, char-0 struct census) are now req-wired
+into f2_conditional_close, and their folders moved per the
+partition law. Surface: 196 nodes {167 PROVED, 22 CONDITIONAL,
+7 UNPROVED} — five proved theorems joined the roadmap as GREEN
+skeleton under the committed route, alongside its one red leaf
+(the summit). DOCTRINE CLARIFIED: the proved mass divides into
+PROOF SKELETON (req; joins the surface when a committed chain
+consumes it) and EVIDENCE CORPUS (ev; measurements, no-gos,
+watches, spectral flatness, literature anchors, the kernel/route
+layer — connected, visible in the ev-fan, deliberately not
+roadmap). Standing task: progressive second-order wiring (the
+edge lemma's own six-link chain; the dictionary's precision
+addenda) as statements are consumed; and every future bridge
+commitment brings its green skeleton along the same way.
