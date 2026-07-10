@@ -1,6 +1,6 @@
 # cap_envelope_parameter_sweep
 
-- **status:** TARGET
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: TARGET]
 
 ## Statement
 

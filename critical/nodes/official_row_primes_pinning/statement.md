@@ -1,6 +1,6 @@
 # official_row_primes_pinning
 
-- **status:** TARGET
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: TARGET]
 - **closure:** proof
 - **refs (legacy):** ['experimental/notes/roadmaps/c1a_lowh_mitm_certificates.md']
 

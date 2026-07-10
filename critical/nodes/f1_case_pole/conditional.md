@@ -18,7 +18,7 @@ rather than a logical requirement.  The transitive dependency remains through
 `f1_pole_list_threshold_location`, whose statement and proof consume the
 imported bridge.
 
-Stress evidence: `experiments/amber_stress/f1_pole_threshold_probe.py` tests
+Stress evidence: `experiments/f1_pole_threshold_probe.py` tests
 the exact extension-pole floor arithmetic consumed by
 `f1_pole_list_threshold_location`.  On `92` official-like non-generating rows
 it found no premature or delayed threshold failure; two invalid near-`|B|=|F|`

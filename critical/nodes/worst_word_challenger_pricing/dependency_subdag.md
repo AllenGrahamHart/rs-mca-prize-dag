@@ -32,11 +32,11 @@ e22_challenger_staircase_pricing
   now explicit and has no hidden predicate.
 - `e22_two_class_exhaustion`: PROVED by the root-count plus ratio-flat
   exclusion in `nodes/e22_two_class_exhaustion/proof.md`.
-- `e22_challenger_staircase_pricing`: CONDITIONAL. Its three open predicates
+- `e22_challenger_staircase_pricing` [RETRACTED 2026-07-05 -> archive/retraction_e22_20260705/; catch #64]: CONDITIONAL. Its three open predicates
   are exact parametrization, injectivity/no-overlap, and arithmetic pricing.
-- `e22_staircase_parametrization`: TARGET.
-- `e22_staircase_injectivity`: TARGET.
-- `e22_staircase_arithmetic_pricing`: TARGET.
+- `e22_staircase_parametrization` [RETRACTED 2026-07-05 -> archive/retraction_e22_20260705/; catch #64]: TARGET.
+- `e22_staircase_injectivity` [RETRACTED 2026-07-05 -> archive/retraction_e22_20260705/; catch #64]: TARGET.
+- `e22_staircase_arithmetic_pricing` [RETRACTED 2026-07-05 -> archive/retraction_e22_20260705/; catch #64]: TARGET.
 
 ## Light-compute boundary
 

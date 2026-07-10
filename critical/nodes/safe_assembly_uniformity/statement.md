@@ -1,6 +1,6 @@
 # safe_assembly_uniformity
 
-- **status:** TARGET
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: TARGET]
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s8_s9_assembly_and_negative.md']
 

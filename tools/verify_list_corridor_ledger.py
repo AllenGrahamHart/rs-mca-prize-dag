@@ -20,9 +20,9 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-LEDGER = ROOT / "nodes" / "list_corridor_ledger" / "list_corridor_ledger_table.json"
-WIDTHS = ROOT / "nodes" / "list_corridor_widths" / "list_corridor_widths_table.json"
-SWEEP = ROOT / "nodes" / "cap_envelope_parameter_sweep" / "notes" / "verify_sweep.py"
+LEDGER = ROOT / "critical" / "nodes" / "list_corridor_ledger" / "list_corridor_ledger_table.json"
+WIDTHS = ROOT / "critical" / "nodes" / "list_corridor_widths" / "list_corridor_widths_table.json"
+SWEEP = ROOT / "critical" / "nodes" / "cap_envelope_parameter_sweep" / "notes" / "verify_sweep.py"
 TOL = 5e-12
 
 

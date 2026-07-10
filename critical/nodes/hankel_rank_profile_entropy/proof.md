@@ -22,3 +22,8 @@ branching levels of width <= n^W.
 TOTAL (entropy/Kraft + QF.12 budget chains): unpaid primitive saturated
 states <= n^{O(W^2)}, fixed cutoff W. Verifier:
 notes/verify_rank_profile_lemmas.py + verify_corrected_lemma_and_pinned.py.
+
+
+> CATCH #60 (2026-07-10 label sweep): the two verifiers cited above are NOT
+> ON DISK anywhere in the tree; the 5086/5086 run has no pinned artifact. The
+> claim currently rests on the round 7-8 replay record only. RESTORE ITEM OPEN.

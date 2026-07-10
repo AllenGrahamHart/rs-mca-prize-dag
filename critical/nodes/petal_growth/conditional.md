@@ -122,7 +122,7 @@ obligations, untouched by this packet (below-top is Lemma-13-clean on the
 
 ## Stress evidence 2026-07-06 (retained)
 
-`experiments/amber_stress/petal_excess_local_scan.py` ran a local coset-chart
+`experiments/petal_excess_local_scan.py` ran a local coset-chart
 residue scan (16 configurations, 76 rows): no below-top Lemma-13 violations;
 ambient `dim K` grows with `c` (flat-kernel induction not revivable); exact
 realizable counts max `1` below top, max `5005` at/beyond top — the shape

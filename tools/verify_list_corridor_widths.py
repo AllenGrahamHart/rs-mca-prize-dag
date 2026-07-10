@@ -19,7 +19,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TABLE = ROOT / "nodes" / "list_corridor_widths" / "list_corridor_widths_table.json"
+TABLE = ROOT / "critical" / "nodes" / "list_corridor_widths" / "list_corridor_widths_table.json"
 LGQ = 256.0
 TOL = 5e-12
 

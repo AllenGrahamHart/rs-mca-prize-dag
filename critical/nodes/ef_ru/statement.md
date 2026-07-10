@@ -1,5 +1,5 @@
 # ef_ru
-- **status:** CONDITIONAL
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: CONDITIONAL]
 ## Statement
 The row-uniform extension-fiber hypothesis (Theorem K's one input): for every
 admissible intermediate row B <= E <= F and B-rational pair (u,v), after

@@ -16,7 +16,7 @@ from __future__ import annotations
 
 import json
 import os
-import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -337,8 +337,12 @@ def main() -> None:
     # status-artifact invariant (node-per-folder layout): the folder shape
     # must match the status for every critical node that has a folder.
     _need = {"PROVED": "proof.md", "PROVABLE": "sketch.md", "CONDITIONAL": "conditional.md"}
-    _root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "nodes")
+    # catch #69/#70 (2026-07-10 label sweep): this check had pointed at the
+    # LEGACY nodes/ path since the partition-law migration and never fired.
+    _root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "critical", "nodes")
     _bad = []
+    _hdr = []
+    _sw = {"TARGET", "CONDITIONAL", "CONJECTURE", "PROVABLE", "PROVED", "REFUTED", "WALL"}
     for _id, _n in nodes.items():
         _dir = os.path.join(_root, _id)
         if not os.path.isdir(_dir):
@@ -348,9 +352,27 @@ def main() -> None:
         _want = _need.get(_n["status"])
         if _want and not os.path.exists(os.path.join(_dir, _want)):
             _bad.append(f"{_id}: status {_n['status']} but no {_want}")
+        # header-consistency law (catch #69): an in-folder status header, if
+        # present and not 'see dag', must equal the dag status.
+        for _fn in ("statement.md", "conditional.md"):
+            _p = os.path.join(_dir, _fn)
+            if not os.path.exists(_p):
+                continue
+            for _ln in open(_p).read().split("\n")[:8]:
+                _m = re.match(r"^\s*-?\s*\*\*status:?\*\*:?\s*(.*)$", _ln, re.I)
+                if not _m:
+                    continue
+                _val = _m.group(1).strip()
+                _tok = _val.split()[0].strip("*.,;:").upper() if _val else ""
+                if _tok in _sw and _tok != _n["status"] and "see dag" not in _val.lower():
+                    _hdr.append(f"{_id}/{_fn}: header says {_tok}, dag says {_n['status']}")
     if _bad:
         print("STATUS-ARTIFACT GAPS (folders lagging statuses):", len(_bad))
         for _x in _bad[:8]:
+            print("  -", _x)
+    if _hdr:
+        print(f"STALE STATUS HEADERS (catch #69 law) ({len(_hdr)}):")
+        for _x in _hdr[:10]:
             print("  -", _x)
     if amber_warns:
         print(f"AMBER-INVARIANT WARNINGS ({len(amber_warns)}) — predicates to wire:")

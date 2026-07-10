@@ -1,6 +1,6 @@
 # f_primitive_case conditional proof
 
-- **status:** CONDITIONAL
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: CONDITIONAL]
 - **closure:** proof from predicate nodes
 
 ## Predicate nodes

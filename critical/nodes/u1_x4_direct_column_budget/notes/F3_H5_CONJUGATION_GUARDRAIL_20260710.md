@@ -43,6 +43,10 @@ but it kills the conjugation-based h=5/h=8 payment chains.)
 - F3_H5_X83_TRIANGULAR_NORM_GATE.md (triangularization rows)
 - the h=8 reciprocal/mixed-volume worktree packets (never banked; listed for
   the merge reconciliation)
+- F3_H5_STRUCTURAL_REDUCTION.md (payment line; added catch #59 — the label sweep
+  found it missed by the original retrofit)
+- F3_H4_H5_BONUS_REDUCTION.md (h=5 classification premise, same chain; added
+  catch #59)
 
 Unaffected: the h=5/h=6/h=7 finite certificate banks at n=32/64/96/128 (pure
 enumeration, no conjugation rows) — valid at their sampled rows; the h=2

@@ -1,6 +1,6 @@
 # list_corridor_widths
 
-- **status:** TARGET
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: TARGET]
 - **closure:** proof
 
 ## Statement

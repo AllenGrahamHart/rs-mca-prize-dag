@@ -1,6 +1,6 @@
 # f1_minimal_field_descent
 
-- **status:** PROVABLE
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: PROVABLE]
 - **closure:** proof
 
 ## Statement

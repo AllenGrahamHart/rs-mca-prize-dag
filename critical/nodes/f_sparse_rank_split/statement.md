@@ -1,6 +1,6 @@
 # f_sparse_rank_split
 
-- **status:** CONDITIONAL
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: CONDITIONAL]
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/xr_syzygy_flat_transport.md']
 

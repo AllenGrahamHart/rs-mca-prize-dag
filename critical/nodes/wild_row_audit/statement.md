@@ -1,6 +1,6 @@
 # wild_row_audit
 
-- **status:** TARGET
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: TARGET]
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/e36_pgl2_stabilizer.md']
 

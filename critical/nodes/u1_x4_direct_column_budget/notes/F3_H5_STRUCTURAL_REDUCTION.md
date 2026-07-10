@@ -1,6 +1,12 @@
 # F3 h=5 structural reduction
 
-Status: PROVED CLASSIFICATION REDUCTION; h=5 PAID FOR THE F3 BUDGET.
+> **RETRACTED AT OFFICIAL ROWS (2026-07-10, catch #59 — label sweep):** the
+> 'h=5 PAID' status below rests on F3_H5_CENTRAL_FINITE_SCHEME_PAYMENT.md,
+> retracted 2026-07-10 (split-prime conjugation; see
+> F3_H5_CONJUGATION_GUARDRAIL_20260710.md + audit_witness_check_20260710.py).
+> The classification reduction itself stands; the payment claim does not.
+
+Status: PROVED CLASSIFICATION REDUCTION; payment claim RETRACTED 2026-07-10 (see banner).
 
 This note tightens the h=5 residual in T4.  The h=5 blocker is not an unknown
 classification problem: the existing DAG already reduces every finite-row h=5

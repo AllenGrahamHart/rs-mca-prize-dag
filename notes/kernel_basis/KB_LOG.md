@@ -642,3 +642,68 @@ s=13 (~2^40 at prize rows), room for exactly ONE more
 ACT(4096)-grade stratum. F-4 interaction: resolve with the
 minimal-trade scope pin together. u1_x4 QUALITY certificate now
 COMPLETE (honest pre-decomposition + well-defined obligation).
+
+## 28 — 2026-07-10: W2 spend-map resolved (catches #49-#54)
+
+Trigger fully computable: ONE spending cell per clean-rate row
+(t_u = n/N*-1; T* = 5/13/29 vacuity thresholds n-independent).
+Vacuity hope INVERTED (#49) — but every spend is covered by the
+PROVED qcore staircase count (margins +75.15/+7.23/+40.82 bits;
+rate-1/8's 7.23 = the watch number). TWO STATEMENT DEFECTS
+REPAIRED: #50 receiver drift (a receiver-local W2 contradicts
+W3's pin P1 at every spending cell — W1^W2^W3 would be
+UNSATISFIABLE; own-receiver pin applied); #53 rate-1/2 scope hole
+(spend real and NOT covered there — clean-rate pin applied,
+falsifier-adjacent). #51 stale "witnesses free" ledger line; #52
+cross-receiver subtraction pin; #54 two corridor verifiers read
+legacy paths — FIXED, both PASS. W2's honest residue: the
+conventions seam (WP-0.1/F1) + X-4 taxonomy. QUALITY certificate
+COMPLETE (7 of 13).
+
+## 29 — 2026-07-10: G2 falsification run — closure form VACUOUSLY
+## TRUE, SOL_TARGET_2 fixed-M FALSIFIED (catches #55-#58)
+
+The run could not kill G2-as-stated AND NOBODY EVER WILL: its
+falsifier is unsatisfiable at 2-power rows (any periodic S = union
+of full c(S)-fibers = staircase at scale c, empty tail —
+thm:stabilizer-partition(i); machine-confirmed over ALL 2^8/2^16
+subsets + all periodic subsets of Z_32; 2,065,389 contributors,
+551 cells, zero third-class). #55: G2 is CONSTRAINT-FREE — a new
+failure mode for the quality bar (not false, not risky: vacuous).
+#56: SOL_TARGET_2's fixed-M form FALSIFIED as stated — 4,550
+in-band hybrids, 3,661 top-band full-petal witnesses,
+p-INDEPENDENT; two hardcoded verifiers exit 0 (banked at
+petal_growth/notes/g2_falsification_20260710/); public resolution
+appendix posted with the re-posed REAL problem (dichotomy at
+scales M > t — contentful, witness-calibrated). #57 strict-tail
+pin; #58 chart-local t pin. DISPOSITION QUEUED (route decision,
+audit-gated): re-pose G2 at M > t + re-verify the amber slot, or
+flip PROVED and move load to G3/K4/P3 — needs a focused re-audit
+of which petal links actually consume M > t. QUALITY certificate
+COMPLETE with the novel verdict (8 of 13).
+
+## 30 — 2026-07-10: label-audit sweep BANKED (catches #59-#70);
+## validator's own path bug fixed; header law armed
+
+Sweep verdict: rot systemic in SHAPE, bounded in DIRECTION — two
+one-way mechanisms (promotion staleness: dag moved, folders
+lagged, all under-claims; compression/retraction rot: archive
+moves not propagated to siblings/consumers). NO vacuous verifiers
+beyond #45; NO new phantom banked artifacts — the failures live in
+prose labels and paths around real artifacts. EXECUTED REPAIRS:
+#59 un-retracted "h=5 PAID" in F3_H5_STRUCTURAL_REDUCTION.md
+(bannered; +F3_H4_H5_BONUS_REDUCTION.md added to the guardrail
+list — the retrofit had missed both); #63 rules_freeze filename;
+#64 worst_word dependency map (4 retracted rows annotated); #66
+five compression-broken proof paths -> archive; #60/#61 phantom
+verifier honesty strikes (hankel 5086/5086 + e1-256 payload —
+restore items OPEN); LOW fixes (amber_stress paths, near-miss id).
+#69 SYSTEMIC: 73 stale status headers retrofitted to the see-dag
+pattern; ROOT CAUSE found — the validator's status-artifact check
+pointed at the LEGACY nodes/ path since the partition migration
+and never fired; FIXED + new header-consistency law armed (25
+status-artifact gaps now visible = #70 triage queue: 11 PROVED
+folders lack proof.md — triage before mass-fixing). QUEUED: #62
+integer_code_distance_cert (pin the Modal run + supersede banner),
+#65 archived-id annotation pass (23 dag entries), #67/#68
+pointers, background/ sweep extension.

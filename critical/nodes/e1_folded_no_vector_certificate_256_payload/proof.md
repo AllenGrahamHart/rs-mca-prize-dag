@@ -12,7 +12,7 @@ With <= 5^d folded vectors and |{p ~ [P,2P): p=1 mod N'}| ~ P/(d log P) (PNT in
 APs), the first-moment average is
     E_p S_p <= (1+o(1)) 5^d r_N d log P / P.
 
-Prize scale P=2^250 (VERIFIED, notes/verify_density_suffices.py):
+Prize scale P=2^250 (arithmetic re-checkable; cited script NOT ON DISK, notes/ empty — catch #61, restore item open):
 - N'=128: d=64, r_N=1, E S_p <= 2^-87.4 => Pr[S_p>0] <= p^-0.350.
 - N'=256: d=128, r_N=4, E S_p <= 2^64.2 => Pr[S_p > p^1/2] <= p^-0.243.
 

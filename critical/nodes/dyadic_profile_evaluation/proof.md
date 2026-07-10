@@ -107,7 +107,7 @@ At the rate-1/2 clean-rate candidate the co-support size `j = n - A` is **odd**
 are `M in {256, 512}`, giving quotient rows of length `N in {2, 1}` and trivial
 coset counts `C(1,1) = C(0,0) = 1`; after the trivial-class dedup (whole-domain /
 empty coset) the profile is `0`. This reproduces `B_quot = 0 (exact)` at the
-pinned row (`xr_budget_audit`): **the deciding dyadic scales are killed by
+pinned row (`xr_target_budget_audit`): **the deciding dyadic scales are killed by
 parity, so rate 1/2 carries no dyadic quotient mass** — consistent with rate 1/2
 being tangent-decided (`n - A + 1` at `A = 507`), not quotient-decided. This is a
 faithful output of the computation, not an exclusion.

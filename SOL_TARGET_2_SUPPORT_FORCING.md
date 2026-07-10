@@ -82,3 +82,43 @@ falsification of either form at the stated band is decisive. The
 falsifier shape is unchanged: an explicit (p, n, M, k, sigma, U)
 with a top-band codeword neither staircase-at-any-scale nor
 aperiodic, or a super-polynomial hybrid family.
+
+---
+
+## RESOLUTION APPENDIX (2026-07-10, internal falsification run): the
+## fixed-M form is FALSIFIED; the closure form is TRUE but VACUOUS;
+## the real problem is re-posed below
+
+**The fixed-M form above is falsified as stated.** Minimal verified
+witness: (p, n, M, k, sigma) = (17, 8, 4, 3, 1), D = <9> in F_17^*,
+sunflower word U with core {1, 16}, petals {9,8}, {13,4}, {15,2},
+scalars (1, 5, 8); codeword f(X) = 4X^2 + 11 agrees with U on
+S = {9, 13, 8, 4} (exponents {1,2,5,6}), |S| = 4 = k+sigma, in band;
+S contains no full 4-fiber (not staircase at M = 4) and is fixed by
+the order-2 shift (not order-M-stabilizer-primitive). 4,550 in-band
+instances, 3,661 distinct top-band full-petal witnesses, p-independent.
+Self-contained re-verifiers exit 0 (witness at n = 32 with generic
+shuffled layout also banked). The "either resolution is decisive"
+clause has been exercised: thank you — this materially sharpened our
+roadmap.
+
+**The all-scales closure form (the previous appendix) is TRUE but
+carries no information at 2-power rows**: any set with periodicity
+c >= 2 is a union of full c-fibers, hence staircase at scale c with
+empty tail (a one-line corollary of the stabilizer partition theorem
+already in the source paper). Machine-confirmed exhaustively over all
+2^16 subsets. Do not attack it; it cannot be falsified.
+
+**THE REAL OPEN PROBLEM (new binding target).** At official rows,
+every top-band full-petal contributor's agreement set is
+STAIRCASE AT SOME DYADIC SCALE M > t (t = the contributor's full-petal
+count; strict reading: at least one full M-fiber) OR APERIODIC
+(c(S) = 1). The witnesses above show the excluded middle class
+(periodic only at scales <= t) is NONEMPTY in engineered charts at
+small rows and p-independent — so this statement has real content.
+PROVE it (showing small-scale-periodic contributors cannot occur in
+the official top band), or FALSIFY it at scale (a super-polynomial
+family of scales-<=-t-periodic top-band contributors at official-like
+rows would break the pricing route decisively). Alternatively: prove
+the small-scale class is polynomially bounded and exactly priced by
+the quotient-coset column (the paid-family shape our data suggests).

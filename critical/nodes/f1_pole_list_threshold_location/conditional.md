@@ -36,7 +36,7 @@ safe direction. Thus no additional F-lane case remains after
 
 ## Stress evidence
 
-`experiments/amber_stress/f1_pole_threshold_probe.py` checks the exact
+`experiments/f1_pole_threshold_probe.py` checks the exact
 extension-pole floor
 
 ```text

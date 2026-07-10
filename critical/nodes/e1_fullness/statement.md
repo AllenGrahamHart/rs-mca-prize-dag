@@ -1,5 +1,5 @@
 # e1_fullness
-- **status:** CONDITIONAL
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: CONDITIONAL]
 ## Statement
 The e1 non-quotient collision density estimate: for admissible prize primes,
 non-quotient e_1 collisions on C(mu_N', l') are o(1)-sparse relative to the

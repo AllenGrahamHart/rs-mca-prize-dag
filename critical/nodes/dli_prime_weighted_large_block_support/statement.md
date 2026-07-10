@@ -23,7 +23,7 @@ evaluation matrix.  Any proof of this node must therefore control the
 
 ## Stress Evidence 2026-07-06
 
-`experiments/amber_stress/dli_weighted_res_probe.py` is an exact small-scale
+`experiments/dli_weighted_res_probe.py` is an exact small-scale
 falsification probe for this reduction.  It reproduces the known low-mass
 full-rank ternary refutation of the old sup premise:
 

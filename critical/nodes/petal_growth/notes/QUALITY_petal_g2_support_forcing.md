@@ -21,3 +21,22 @@ live as the public solicitation (binding-form appendix posted 2026-07-10).
 Q-MIN (annotation): dichotomies are rarely minimal, but the leak analysis
 shows nothing weaker composes — closure over all scales is forced by the
 consumption, not by taste.
+
+## EXECUTION LOG (2026-07-10, the falsification run — outcome of record)
+- Closure form: SURVIVED VACUOUSLY — the pre-registered falsifier is
+  UNSATISFIABLE (thm:stabilizer-partition(i); exhaustive set-level
+  confirmation over all 2^8/2^16 subsets + all periodic subsets of Z_32).
+  2,065,389 contributors classified across 551 cells / 28.1M states /
+  11 primes: zero third-class, as the theorem forces. Catch #55.
+- Fixed-M form (SOL_TARGET_2): FALSIFIER FIRED — 4,550 in-band hybrids,
+  3,661 distinct top-band full-petal witnesses, p-independent; two
+  independent hardcoded verifiers exit 0 (banked at
+  notes/g2_falsification_20260710/). Catch #56; public appendix posted.
+- CERTIFICATE VERDICT: G2-as-stated FAILS the quality bar in a novel
+  way — not false, not risky, but CONSTRAINT-FREE (Q-SURV trivially
+  satisfied, Q-SUFF only formally). The honest content moved to the
+  small-scale/pricing seam (scales <= t class: real, p-independent,
+  witness-calibrated). DISPOSITION QUEUED: re-pose at M > t (contentful,
+  falsifiable) with amber slot re-verified, or flip PROVED and move the
+  load to G3/K4/P3. Pins banked: strict tail reading (#57), chart-local
+  t (#58).

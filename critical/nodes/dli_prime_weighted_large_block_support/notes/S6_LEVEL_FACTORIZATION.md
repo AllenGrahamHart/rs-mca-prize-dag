@@ -7,7 +7,7 @@ The pinned file justifies the level-product step as: "the central tower
 measure is a product across levels (levels use disjoint coordinate sets),
 so E[prod] = prod E". The parenthetical is NOT supported by the packet
 docs: per the verified skew-tower packet (archive/compressed_dli_lane/
-b2b_primitive_core/notes/pro_skew_tower_packet.md, points 2 and 4), the
+archive/compressed_dli_lane_20260705/b2b_primitive_core/notes/pro_skew_tower_packet.md, points 2 and 4), the
 levels partition the MOMENT indices (each m ≤ t uniquely 2^j·odd,
 Σ_j L_j = t) while the skew variables live on the SHARED codeword cells.
 Disjoint moment-rows over shared coordinates do NOT give measure

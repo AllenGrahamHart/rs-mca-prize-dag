@@ -1,6 +1,6 @@
 # worst_word_planted
 
-- **status:** CONJECTURE
+- **status:** see dag.json (single source of truth; dag status CONDITIONAL) [header retrofit 2026-07-10, catch #69 — was: CONJECTURE]
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s7_list_side.md']
 

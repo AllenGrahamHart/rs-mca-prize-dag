@@ -1,6 +1,6 @@
 # u2_per_row_certifier
 
-- **status:** TARGET
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: TARGET]
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/f2_moment_trade_census.md']
 

@@ -1,6 +1,6 @@
 # ef_descended_cycle_inventory_payload
 
-- **status:** TARGET
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: TARGET]
 - **closure:** proof
 
 ## Statement

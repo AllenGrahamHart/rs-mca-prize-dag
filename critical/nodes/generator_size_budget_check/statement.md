@@ -1,5 +1,5 @@
 # generator_size_budget_check
-- **status:** TARGET
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: TARGET]
 ## Statement
 Numeric check: the Brief-F family size |F| = N' * C(N'/2-2, N'/4-1) is
 >= B*/2^33 at the prize quotient rows (N' in {128,256}), so the verified

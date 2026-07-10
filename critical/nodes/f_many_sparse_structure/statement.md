@@ -1,6 +1,6 @@
 # f_many_sparse_structure
 
-- **status:** CONDITIONAL
+- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: CONDITIONAL]
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1']
 
