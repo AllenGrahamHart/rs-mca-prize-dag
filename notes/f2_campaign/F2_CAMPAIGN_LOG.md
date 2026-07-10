@@ -2128,3 +2128,20 @@ item; no action warranted beyond this tick. The steady state
 holds: one precisely-named open problem beyond the visible
 literature, armed delegation, clean watch, complete boundary map.
 One hundred fourteen entries.
+
+## 115 — 2026-07-10: the deep-regime exactness theorem — the first
+## unconditional EXACT-dichotomy regime (satellite 29)
+
+Cycle 103. A fresh theorem from the cyclotomic-integer view: moment
+vectors are reductions of FIXED cyclotomic integers, non-struct
+subsets have nonzero norms, so extras exist mod q only where q
+divides one of finitely many fixed integers — almost every prime
+row beyond 2^{(1+eps)n} is EXACTLY coset-unions-only. Empirically
+stronger: 1247/1247 primes exact at n=8 (q to 50000); the
+(113,16,3) autopsy row explained. Regime caveat prominent: this is
+the corner OPPOSITE the official rows; not critical-path. Its real
+value is the mechanism — CYCLOTOMIC RIGIDITY — the cleanest
+explanation yet of why extras are scarce at every scale measured,
+and a context upgrade for the falsifier (deep-regime extras would
+now contradict a theorem). The steady state continues to pay out
+small truths when pressed. One hundred fifteen entries.
