@@ -2320,3 +2320,18 @@ satellite 29's guaranteed corner. The deep-regime theorem is not
 just true but conservative; the exact-dichotomy region covers
 essentially everything except the flat-dominated sliver. Banked as
 a satellite-29 addendum. One hundred twenty-seven entries.
+
+## 128 — 2026-07-10: watch W3 — 200x frontier jump via MTM; CATCH #24
+
+Cycle 120. The MTM technique compounds: watch W3 ran the transition
+band at (32,3) — 13 primes, populations to 9.4e9 (200x every prior
+watch), both censuses exact (rung 2 via 3^16 signed patterns and
+the ladder identity). Per-orbit constants 0.073-0.931, five teeth
+rows, zero kill hits; the ratios decay smoothly into the proved
+deep-regime exactness. CATCH #24: an invalid prime (997, not
+1 mod 32) slipped into the hand-written list because this fresh
+script omitted the subgroup-existence assert — the impossible
+negative-extras signature (census below the forced struct floor)
+exposed it before any conclusion was drawn; asserts restored. The
+model now holds across SIX decades of population. One hundred
+twenty-eight entries.
