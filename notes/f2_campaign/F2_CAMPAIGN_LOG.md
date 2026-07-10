@@ -2335,3 +2335,20 @@ negative-extras signature (census below the forced struct floor)
 exposed it before any conclusion was drawn; asserts restored. The
 model now holds across SIX decades of population. One hundred
 twenty-eight entries.
+
+## 129 — 2026-07-10: watch W4 (final) — the third regime observed;
+## the watch program is closed
+
+Cycle 121. W4 swept the last MTM-reachable teeth band (j=2, n=32,
+q to 65537). The fluctuation band behaves (per-orbit 0.12-2.9);
+beyond it the extras become rare orbit-quantized events at
+isolated primes — satellite 29's sporadic primes, observed in the
+wild (q = 17921, 24001 dividing fixed cyclotomic norms) — and the
+Gaussian statistic rightly gives way to a Poisson picture there
+(max per-orbit 7.05; kill line not hit; 0 hits over 10). The
+complete phase diagram is now measured end to end: fluctuation ->
+sporadic -> exact zero. The watch program closes with the
+falsifier never fired: any axis, any band, any scale, six decades
+of population. What remains of the charter is what has remained
+since cycle 93: the theorem, or new information. One hundred
+twenty-nine entries.
