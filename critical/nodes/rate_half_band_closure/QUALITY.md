@@ -23,3 +23,15 @@ moving it the other way; MTM censuses are the instrument).
 Q-MIN (annotation): minimal by pinching — the statement is literally "the
 undetermined stretch behaves as the first moment predicts"; any weaker
 claim leaves the band undetermined and the consumer unfed.
+
+## EXECUTION LOG (2026-07-12): WITNESS-HUNT RECON — SURVIVED / SHARPENED
+
+The early WP7 lane's first run (roadmap amendment 3). No new priced family
+in the coset universe — now THEOREM-CAPPED at 4.73-4.83 bits short of the
+razor need (Lam-Leung + nesting dedup, catch #102), with the q-sporadic
+hatch priced ~2^-5.2/row. Window law reproduced every exact count at 3
+scales / ~200 primes including the C(N-r,h) fine structure — Q-SURV
+materially strengthened in the falsifier's own terms. Open flank named:
+non-polynomial received words. Next intensity: the validated Modal census
+(notes/witness_hunt_20260712/rh_band_witness_census_modal.py, pre-registered
+reads R1a-R2d) — crossing INTO the starved regime at n = 128/256 scales.

@@ -989,3 +989,23 @@ dichotomy bridge (x81/x83 req-wired; factor-2 + strip pins). The
 U16 amber's tail slot now rides a PROVED classification + a
 survived first census. Surface reds: 11 (census gate's slot
 unchanged; HGE4 red -> NG-COUNT red).
+
+## 39 — 2026-07-12: rate-half witness hunt (recon) — coset universe
+## THEOREM-CAPPED 4.73-4.83 bits short; window law sharpened
+## (catches #102-#103; the C(N-r,h) supply law banked)
+
+The early WP7 lane's first pass: exact gap anatomy (deficit FLAT
+across all 2.98M band cells — no easier sub-cell), seven candidate
+mechanisms triaged falsification-first (2 re-params proved by
+exact bijection, 1 dominated, 1 priced 120+ bits dead, 2 vacuous,
+1 = the killed dihedral route independently re-confirmed dead),
+and the unifying moment-map fiber frame validated. CATCH #102:
+multi-scale qcore families are NESTED (2M-cosets = pairs of
+M-cosets) — deduped supply is C(127,64) ALONE; any W2-style
+sum-over-scales double-counts (banked W2 single-scale, unaffected;
+verified in vivo 3-not-4). CATCH #103: tangent (2^40), not planted
+(127), is the dominant secondary column at band cells. The
+window-law falsifier's own pre-registered no-deviation read now
+holds at 3 scales / ~200 primes / q to 2^40 with exact fine
+structure. Open flank named: non-polynomial received words. Next
+probe (Modal, validated, pre-registered) launched.
