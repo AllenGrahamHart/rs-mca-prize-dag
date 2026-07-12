@@ -548,6 +548,11 @@
   },
   {
    "id": "f3_hge4_aggregate_budget",
+   "label": "CONDITIONAL",
+   "title": ""
+  },
+  {
+   "id": "f3_hge4_norm_gate_count",
    "label": "UNPROVED",
    "title": ""
   },
@@ -1102,9 +1107,24 @@
    "title": ""
   },
   {
+   "id": "x24_char0_dyadic_descent",
+   "label": "PROVED",
+   "title": "PROVED (autonomous x24, replayed 15/15): char-0 dyadic trades ARE full fibers"
+  },
+  {
    "id": "x4_exactlist_staircase_split",
    "label": "CONDITIONAL",
    "title": "THE CORRECTED LIST TARGET (X-4 verdict, verified): staircase split + primitive bound"
+  },
+  {
+   "id": "x81_minimal_trade_square_shift",
+   "label": "PROVED",
+   "title": "PROVED (x81): minimal trades = square-shift factorizations"
+  },
+  {
+   "id": "x83_uniform_square_shift_obstruction_gate",
+   "label": "PROVED",
+   "title": "PROVED (x83, sympy-spot-verified + 97 replay checks): the UNIFORM obstruction gate \u2014 the complete dichotomy"
   },
   {
    "id": "xr_clean_residual_any_gate",
@@ -1691,6 +1711,14 @@
   {
    "from": "moment_trade_staircase",
    "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "x24_char0_dyadic_descent",
+   "to": "x83_uniform_square_shift_obstruction_gate"
+  },
+  {
+   "from": "x81_minimal_trade_square_shift",
+   "to": "x83_uniform_square_shift_obstruction_gate"
   },
   {
    "from": "rules_freeze",
@@ -2355,6 +2383,18 @@
   {
    "from": "list_subsqrt_interleaving_collapse",
    "to": "list_large_m_scope_closure"
+  },
+  {
+   "from": "f3_hge4_norm_gate_count",
+   "to": "f3_hge4_aggregate_budget"
+  },
+  {
+   "from": "x81_minimal_trade_square_shift",
+   "to": "f3_hge4_aggregate_budget"
+  },
+  {
+   "from": "x83_uniform_square_shift_obstruction_gate",
+   "to": "f3_hge4_aggregate_budget"
   }
  ]
 }
