@@ -4621,7 +4621,7 @@
     "archive/retraction_xr_20260705/active_core_count_bound/statement.md",
     "archive/retraction_xr_20260705/anchored_nontoral_pte_bound/statement.md"
    ],
-   "notes": "AMBER WEAKENING 2026-07-06: x4_exactlist_staircase_split was rewired to consume this narrower red premise instead of the full u1_pullback_dichotomy. The full U1 theorem remains a live target and route material, but the X4 consumer only needs this direct primitive-column budget. AMBER STRESS 2026-07-06: u1_x4_active_core_budget_probe.py replayed exact small active-core gates and checked complete small rows plus capped boundary slices under a 60s cap; no n^3 direct-column excess was found, and the exceptional active-core control was detected. | COVERAGE AUDIT (2026-07-10, fresh-context amber audit): NOT-READY \u2014 the honest verdict the DAG edge structure predicted. h=2 PROVED unconditionally (CP import + in-house Stepanov 22111-optimized chain); h=3 amber-grade (conditional close on the two gates, chain + all constants independently replayed: C=4096 = exact factor-2.0 first-row margin, Delta headroom 52, 23 verifiers exit-0); h=4 OPEN (no official-row bound); h=5 payment RETRACTED ON MASTER (catch #36: stale REPLAYED/PAID labels in the T4/FLIP ledgers corrected; split-prime conjugation guardrail banked at notes/F3_H5_CONJUGATION_GUARDRAIL_20260710.md; revoking witness n=8192 p=67239937 replayed from master: notes/audit_witness_check_20260710.py); h=6/7 sampled-row evidence only (catch #37: 'paid' was scope drift); h=8 non-antipodal OPEN; h>8 no per-h machinery. CATCH #38: the direct column's h-band is UNPINNED (prose says h<=8, refs say 2<=h<=(log2 n)^2) \u2014 band pin is the gating decision for the whole per-h program. Findings: F-1 full-corridor quantifier trap (any gate must range over ALL p>=n^2); F-2 strip-subtractive resolution neutralizes catch #26 here (pin owed at surgery); F-3 budget-subdivision trap (strata each posed vs full n^3; at s=13 h=3 alone spends 50.002% \u2014 per-stratum ledger required, or adopt the consumer's 16n^3 form); F-4 minimal-trade scope pin owed before x83 anchors h>=4. CHEAPEST PATH: band pin -> general-h char-0 classification + activation ceiling -> per-h ACT compiler with F-3 ledger -> predicates {conic gate, rankcap gate, f3_hband_act_gate}. Memory corrections banked: 'E(H)<=551h^{5/2}' false (banked: 83851 raw / 22111 optimized); 'h=3 proved for p>8^{n/4}' not banked (per-shape 6^{phi(n)} ceiling is). | U16 AMBER 2026-07-10: fifth route commitment; Codex-proposed, audit-gated, catch #71 repaired at import (trace-zero envelope false as written); assembly compiler + audit script banked in notes/."
+   "notes": "AMBER WEAKENING 2026-07-06: x4_exactlist_staircase_split was rewired to consume this narrower red premise instead of the full u1_pullback_dichotomy. The full U1 theorem remains a live target and route material, but the X4 consumer only needs this direct primitive-column budget. AMBER STRESS 2026-07-06: u1_x4_active_core_budget_probe.py replayed exact small active-core gates and checked complete small rows plus capped boundary slices under a 60s cap; no n^3 direct-column excess was found, and the exceptional active-core control was detected. | COVERAGE AUDIT (2026-07-10, fresh-context amber audit): NOT-READY \u2014 the honest verdict the DAG edge structure predicted. h=2 PROVED unconditionally (CP import + in-house Stepanov 22111-optimized chain); h=3 amber-grade (conditional close on the two gates, chain + all constants independently replayed: C=4096 = exact factor-2.0 first-row margin, Delta headroom 52, 23 verifiers exit-0); h=4 OPEN (no official-row bound); h=5 payment RETRACTED ON MASTER (catch #36: stale REPLAYED/PAID labels in the T4/FLIP ledgers corrected; split-prime conjugation guardrail banked at notes/F3_H5_CONJUGATION_GUARDRAIL_20260710.md; revoking witness n=8192 p=67239937 replayed from master: notes/audit_witness_check_20260710.py); h=6/7 sampled-row evidence only (catch #37: 'paid' was scope drift); h=8 non-antipodal OPEN; h>8 no per-h machinery. CATCH #38: the direct column's h-band is UNPINNED (prose says h<=8, refs say 2<=h<=(log2 n)^2) \u2014 band pin is the gating decision for the whole per-h program. Findings: F-1 full-corridor quantifier trap (any gate must range over ALL p>=n^2); F-2 strip-subtractive resolution neutralizes catch #26 here (pin owed at surgery); F-3 budget-subdivision trap (strata each posed vs full n^3; at s=13 h=3 alone spends 50.002% \u2014 per-stratum ledger required, or adopt the consumer's 16n^3 form); F-4 minimal-trade scope pin owed before x83 anchors h>=4. CHEAPEST PATH: band pin -> general-h char-0 classification + activation ceiling -> per-h ACT compiler with F-3 ledger -> predicates {conic gate, rankcap gate, f3_hband_act_gate}. Memory corrections banked: 'E(H)<=551h^{5/2}' false (banked: 83851 raw / 22111 optimized); 'h=3 proved for p>8^{n/4}' not banked (per-shape 6^{phi(n)} ceiling is). | U16 AMBER 2026-07-10: fifth route commitment; Codex-proposed, audit-gated, catch #71 repaired at import (trace-zero envelope false as written); assembly compiler + audit script banked in notes/. | 2026-07-12 C36-chain import: C36' -> CONDITIONAL on the new red f3_h3_mobius_excess_half (strictly upstream, stronger hypothesis); the direct-floor close is untouched (byte-identical at pin) \u2014 the U16 assembly stands. Catch #84: the imported prefix note carried pre-repair threshold values in its printed block (catch-#71-shaped doc rot) \u2014 corrected at import."
   },
   {
    "id": "v13_qbcsp_interface",
@@ -5053,9 +5053,9 @@
   },
   {
    "id": "f3_h3_three_to_one_c36",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
    "key": true,
-   "statement": "C36-PRIME (three-to-one census gate; the h=3 red of the U16 assembly; catch #71 repair applied at mint \u2014 the original 8n^(4/3) threshold rested on a FALSE trace-zero envelope, counterexample at (7937,64)). For every official row (n = 2^s, 13 <= s <= 41; EVERY prime p = 1 mod n with p >= n^2 \u2014 full corridor, F-1; H <= F_p^* of order n; A = (1-H)\\{0}): N_3to1(A) = #{(a1,a2,a3,a4) in A^4 : a1 a2 a3 = a4} < 36n^2 - 16n^(4/3) - n/2. Pure counting statement \u2014 no mechanism asserted. PROVED AROUND IT: C36' => T_3 < n^3 (the conditional close, exact identity, threshold positive at n = 8192: 2,413,272,762). ENVELOPE CAVEAT (pin): falsifying C36' does NOT falsify the h=3 floor (the envelope contains tuples failing the complete-split filter). Q-SURV SEED: exhaustive 12-prime n=8192 official-prefix Modal sweep, worst count 66,933,997 = 2.774% of the repaired threshold; counting method proved sound by brute-force equality at three small rows (critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_THREE_TO_ONE_OFFICIAL_PREFIX.md). FALSIFIER: one exact official row at/above threshold (executable at boundary rows \u2014 demonstrated)."
+   "statement": "C36-PRIME (three-to-one census gate; the h=3 red of the U16 assembly; catch #71 repair applied at mint \u2014 the original 8n^(4/3) threshold rested on a FALSE trace-zero envelope, counterexample at (7937,64)). For every official row (n = 2^s, 13 <= s <= 41; EVERY prime p = 1 mod n with p >= n^2 \u2014 full corridor, F-1; H <= F_p^* of order n; A = (1-H)\\{0}): N_3to1(A) = #{(a1,a2,a3,a4) in A^4 : a1 a2 a3 = a4} < 36n^2 - 16n^(4/3) - n/2. Pure counting statement \u2014 no mechanism asserted. PROVED AROUND IT: C36' => T_3 < n^3 (the conditional close, exact identity, threshold positive at n = 8192: 2,413,272,762). ENVELOPE CAVEAT (pin): falsifying C36' does NOT falsify the h=3 floor (the envelope contains tuples failing the complete-split filter). Q-SURV SEED: exhaustive 12-prime n=8192 official-prefix Modal sweep, worst count 66,933,997 = 2.774% of the repaired threshold; counting method proved sound by brute-force equality at three small rows (critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_THREE_TO_ONE_OFFICIAL_PREFIX.md). FALSIFIER: one exact official row at/above threshold (executable at boundary rows \u2014 demonstrated). || RED RETIRED TO SUCCESSOR (2026-07-12, C36-chain cluster import, audit-gated): CONDITIONAL on f3_h3_mobius_excess_half (X_35 <= n^2/2) via the PROVED compiler chain \u2014 convolution ledger N_3to1 = Sigma_t P(t)R(t) with the REPAIRED Stepanov I < 4n^(2/3) at P(1); WX35 => C36' with exact rational radical bounds at all 29 orders (gap x50 = 13n^2 + 5225n - 3500 > 0). Alternate open premises (ev): the Mobius overlap cap 35 (via paired PGL2 \u2014 all six literature citations verified against the actual papers), the factorial collision moment 69 (sharp: 139 fails at m=70), the non-swap moment 68 (sharp via the parity-closed m=69 hole). This node's envelope caveat, falsifier, and 12-prime Q-SURV seed all remain live \u2014 C36' stays the consumer contract; only its red status retires."
   },
   {
    "id": "f3_h3_direct_floor_conditional_close",
@@ -5112,6 +5112,70 @@
     "background/nodes/petal_staircase_allowance_719/verify.py"
    ],
    "statement": "For n in {2^41,2^42,2^43,2^44}, floor(n^6/C(n+6,6))=719. Equivalently, 719C(n+6,6)<=n^6<720C(n+6,6). Thus the complete joint chart-and-codeword inflation available to the petal staircase branch is the constant 719, not an unspecified n^b factor. [IMPORT REPAIR #83 (2026-07-12): '719 is the complete allowance' is gated on the banked n^6 allocation \u2014 B_max > 6 would be gated by the named open codegree-conversion emission cell (slack-scan addendum); the cross-ref is binding.]"
+  },
+  {
+   "id": "f3_h3_mobius_excess_half",
+   "title": "C36' weighted Mobius rich-fiber excess is at most n^2/2",
+   "status": "TARGET",
+   "key": true,
+   "refs": [
+    "critical/nodes/f3_h3_mobius_excess_half/statement.md",
+    "critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_MOBIUS_OVERLAP_CAP.md"
+   ],
+   "statement": "For every official row, with A=(1-H)\\{0}, P(t)=#{(a,b) in A^2:ab=t}, and R(t)=#{(c,d) in A^2:d/c=t}, the weighted rich-fiber excess X_35=sum_{t!=1} max(P(t)-35,0)R(t) is at most n^2/2. This is the exact remaining premise after the identity fiber and the first 35 units of every nonidentity quotient fiber are paid. It allows arbitrarily large individual Mobius fibers when their quotient weight is small. FALSIFIER: one exact official row with X_35>n^2/2. Boundary evidence: X_35=0 at the first twelve n=8192 official primes; their largest P on quotient support is 14..20. [IMPORT PINS 2026-07-12 (cluster audit): FULL CORRIDOR spelled \u2014 every official row n = 2^s, 13 <= s <= 41, EVERY prime p = 1 mod n with p >= n^2 (finding F-1). The successor is a STRONGER hypothesis than C36' (WX35 => C36', not conversely) \u2014 the frontier moved strictly upstream; falsifying C36' still falsifies this node by modus tollens, so both falsifiers stay live. Q-SURV transfers: the banked 12-prime sweep bounds the new quantity (max overlap P <= 20 < 35 => X_35 = 0 at all 12 rows), plus the 7,090-row small-order sweep (independently replayed: all row counts, per-order maxima, the exact global extremizer match) and two locally-replayed n=8192 rows incl. N_3to1 = 66,933,997 exact. Catch #85: the node's own 4n^2/5 mutation control bites only against the radical BUDGET \u2014 not tightness evidence for n^2/2 (true allowance ~0.775n^2 at s=13).]",
+   "attack_surface": "Prove a truncated product/quotient correlation estimate, not a global shifted-energy bound. Candidate routes: constants-explicit rich-level incidence tails paired with quotient weights; an oriented character/Jacobi estimate retaining phases; or classification of only the simultaneous rich-product/rich-quotient locus. The background pointwise M35 cap is sufficient but deliberately stronger and is not the critical claim."
+  },
+  {
+   "id": "f3_h3_quotient_block_identity",
+   "title": "H3 quotient multiplicities are coefficient-coset block sizes minus one",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/f3_h3_quotient_block_identity/proof.md",
+    "background/nodes/f3_h3_quotient_block_identity/verify.py"
+   ],
+   "statement": "For A=(1-H)\\{0} and nonidentity t, set u(t)=1/(1-t), v(t)=-t/(1-t), and partition F_p\\{0,1} by the HxH coefficient coset (u(t)H,v(t)H). If B is a block and t is in B, then the quotient multiplicity R(t)=#{(c,d) in A^2:d/c=t} equals |B|-1 and is constant on B. Consequently sum_B |B|(|B|-1)=(n-1)(n-2). Proof: coefficient points in a block are (u(t)h,v(t)k) on U+V=1; (h,k)=(1,1) is the unique zero/zero excluded pair, and every other point is exactly one valid shifted quotient representation. This is the exact quotient collision ledger consumed by the weighted C36' attack."
+  },
+  {
+   "id": "f3_h3_nonswap_moment_68",
+   "title": "The H3 non-swap moment controls weighted Mobius excess",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/f3_h3_nonswap_moment_68/proof.md",
+    "background/nodes/f3_h3_nonswap_moment_68/verify.py"
+   ],
+   "statement": "PROVED REDUCTION. Put D(t)=#{a in A:a^2=t} and S_ns=sum_{t!=1}[P(t)(P(t)-2)+D(t)]R(t). Then 136X_35<=S_ns, so the estimate S_ns<=68n^2 would close f3_h3_mobius_excess_half. Here S_ns counts exactly the product-product-quotient incidences whose product representations are neither equal nor swaps. It is also exactly the number of quadruples (lambda,a,b,c) with a,lambda*a,b,b/lambda,c,abc in A, lambda!=1, lambda!=b/a, and ab!=1. The compiler constant is sharp at product multiplicities 68,69,70. This node proves the reduction only; the uniform 68n^2 estimate remains open work on the critical leaf."
+  },
+  {
+   "id": "f3_h3_pgl2_pair_identity",
+   "title": "H3 product and quotient fibers form a paired PGL2 intersection",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/f3_h3_pgl2_pair_identity/proof.md",
+    "background/nodes/f3_h3_pgl2_pair_identity/verify.py"
+   ],
+   "statement": "For t!=0,1, put I_inv(t)=#{x in H:1+t/(x-1) in H} and I_aff(t)=#{z in H:1+t(z-1) in H}. Then P(t)=I_inv(t) and R(t)=I_aff(t)-1. Hence on quotient support R(t)>=1, the simultaneous estimate I_inv(t)+2I_aff(t)<=39 implies P(t)<=35 and closes the stronger M35 route. The identities and compiler are proved; the uniform constant-39 estimate is not claimed. Boundary evidence gives paired maximum at most 30 on the first twelve n=8192 and first four n=16384 official primes."
+  },
+  {
+   "id": "f3_h3_mobius_overlap_cap35",
+   "title": "C36' nonidentity Mobius overlap fibers have size at most 35",
+   "status": "TARGET",
+   "key": true,
+   "refs": [
+    "background/nodes/f3_h3_mobius_overlap_cap35/statement.md",
+    "critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_MOBIUS_OVERLAP_CAP.md"
+   ],
+   "statement": "BACKGROUND SUFFICIENT ROUTE. For every official row (n = 2^s, 13 <= s <= 41; p prime, p = 1 mod n, p >= n^2; H <= F_p^* of order n; A = (1-H)\\{0}), put P(t)=#{(a,b) in A^2: ab=t} and R(t)=#{(c,d) in A^2: d/c=t}. Then max{P(t): t != 1 and R(t)>0} <= 35. Equivalently, for every nonidentity t in A/A that is actually consumed by the three-to-one convolution, the Mobius involution y=(x+t-1)/(x-1) has at most 35 ordered points (x,y) in H^2. This implies zero weighted excess but is stronger than the critical f3_h3_mobius_excess_half premise. FALSIFIER: one exact official row and one t != 1 with R(t)>0 and P(t)>=36. Boundary evidence only: the first twelve n=8192 official primes have maximum 14..20.",
+   "attack_surface": "Exploit the extra restriction t in A/A rather than proving the unrestricted Mobius-intersection conjecture. Candidate routes are a Stepanov auxiliary polynomial for the paired product/quotient fibers, a cross-ratio rigidity argument for the power-of-two subgroup, or a constants-explicit rich-fiber incidence tail. A bound on average energy with an unspecified constant or log n loss does not prove this pointwise cap."
+  },
+  {
+   "id": "f3_h3_factorial_collision_69",
+   "title": "H3 product-product-quotient factorial moment is at most 69n^2",
+   "status": "TARGET",
+   "refs": [
+    "background/nodes/f3_h3_factorial_collision_69/statement.md",
+    "background/nodes/f3_h3_factorial_collision_69/attack.md"
+   ],
+   "statement": "BACKGROUND SUFFICIENT ROUTE. For every official row, with P and R as in f3_h3_mobius_excess_half, M_21=sum_{t!=1}P(t)(P(t)-1)R(t) <=69n^2. Since (m-35)_+ <=m(m-1)/138 for every integer m, this implies X_35<=n^2/2 and closes the critical weighted leaf. The count is the exact codimension-two six-variable incidence ledger consisting of two distinct ordered product representations and one quotient representation of the same t. FALSIFIER: one official row with M_21>69n^2. Boundary calibration: M_21=132310328=1.971577525n^2 at (n,p)=(8192,67657729)."
   }
  ],
  "edges": [
@@ -10073,6 +10137,36 @@
   {
    "from": "petal_g1_layer_maps",
    "to": "petal_g3_pricing_multiplicity",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_quotient_block_identity",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_nonswap_moment_68",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_pgl2_pair_identity",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_mobius_overlap_cap35",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_factorial_collision_69",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_mobius_excess_half",
+   "to": "f3_h3_three_to_one_c36",
    "kind": "req"
   }
  ]

@@ -21,3 +21,11 @@ the h=3 floor needs (it counts unfiltered tuples); falsifying it would NOT
 kill the floor (re-route via the ACT(4096) alternate or the {P,-P}
 tightening). The 16n^(4/3) subtraction is what the repaired envelope
 consumes exactly; a proved {P,-P} strip would restore 8n^(4/3).
+
+## RED RETIRED TO SUCCESSOR (2026-07-12)
+
+C36' -> CONDITIONAL on f3_h3_mobius_excess_half via the proved compiler
+chain (cluster audit: every implication re-derived exactly, exact rational
+radical bounds at all 29 orders). C36' remains the consumer contract; its
+falsifier and 12-prime Q-SURV seed stay live (falsifying C36' falsifies
+the successor by modus tollens).

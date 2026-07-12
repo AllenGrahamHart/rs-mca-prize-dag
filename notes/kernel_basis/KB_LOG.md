@@ -822,3 +822,31 @@ Petal amber predicates now {G1-atlas, K4, census gate}; G3 =
 compiler. NOTE catch-number RECONCILIATION: the ww and petal
 audits ran concurrently and both proposed #76-#78; banking order
 assigns ww = #76-#78, petal = #79-#83.
+
+## 34 — 2026-07-12: RESOLUTION-BRANCH INTEGRATION, cluster 3 of 4
+## (C36 chain): C36' retired to the Mobius excess successor
+## (catches #84-#85)
+
+Cluster audit: IMPORT-WITH-REPAIRS, no refusals. The full reduction
+ladder verified at house rigor with independent code: convolution
+ledger (N_3to1 = Sigma P(t)R(t), consuming the REPAIRED Stepanov
+bound — the chain never touches the pre-#71 constants), WX35 =>
+C36' with exact rational radicals at all 29 orders, three sharp
+alternate premises (overlap cap 35 / factorial 69 / non-swap 68 —
+sharpness verified: 139 fails at m=70, 137 at (68,0)), the paired
+PGL2 route with ALL SIX literature citations verified against the
+actual papers (no anchor drift). Q-SURV TRANSFERS: the banked
+12-prime sweep bounds the new quantity outright (max P <= 20 < 35
+=> X_35 = 0); the 7,090-row sweep independently replayed to the
+exact global extremizer; N_3to1 = 66,933,997 reconfirmed locally.
+CATCH #84: the stress-note's printed block carried pre-repair
+threshold values (catch-#71-shaped doc rot inside a repaired lane)
+— corrected. CATCH #85: the 4n^2/5 mutation control is
+budget-semantic only — annotated in the certificate. Surgery:
+f3_h3_mobius_excess_half minted (TARGET, key; full corridor
+spelled) req -> C36' (now CONDITIONAL — red retired, contract
+retained); five background nodes minted (3 PROVED identities/
+compilers + 2 open alternates, ev); the direct-floor close and
+the U16 amber UNTOUCHED (byte-identical at pin). Codex self-catch
+noted with approval: the (n-1)^2 typo fixed one commit later,
+verifier correct from mint.
