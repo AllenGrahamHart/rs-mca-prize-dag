@@ -3,17 +3,17 @@
   "counts": {
     "FAIL": 0,
     "HASH_MISMATCH": 0,
-    "PASS": 97,
+    "PASS": 104,
     "REMOTE_ERROR": 0,
     "TIMEOUT": 0
   },
-  "manifest_sha256": "33685ec6120f8a11fed2588bafc90a9e5cd1d34f764ff91a5f5bfff08ed1aade",
+  "manifest_sha256": "bdcabdad574a1ae1a6db4f90ed64eba6ae76b410d97e61388f971ff2dfd8dd61",
   "match": "",
   "results": [
     {
       "returncode": 0,
       "script": "background/nodes/aqb_amortization_threshold_accounting/verify.py",
-      "seconds": 0.225046,
+      "seconds": 0.177585,
       "sha256": "88a251ed95dbd72fbf09c7848f217117c46fac21ee2c064df63ea1966aed3114",
       "status": "PASS",
       "stderr_tail": "",
@@ -22,7 +22,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_average_member_transfer/verify.py",
-      "seconds": 1.910041,
+      "seconds": 2.22015,
       "sha256": "13e4a2a9ba697263091c3dbd481c3c83338c1a044340e787498efd0458c980a3",
       "status": "PASS",
       "stderr_tail": "",
@@ -31,7 +31,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_averaged_quotient_box/verify.py",
-      "seconds": 0.094875,
+      "seconds": 0.099323,
       "sha256": "25c6119482a321acc65bebf9a55b5993e586a8ffbc85aa842a660da29a661833",
       "status": "PASS",
       "stderr_tail": "",
@@ -40,7 +40,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_coupled_family_entropy_manifest_soundness/verify.py",
-      "seconds": 0.029989,
+      "seconds": 0.02202,
       "sha256": "041b00a4d6e9dfc7480dbac8cca114dabe1dff2f672752b2dceb69fe145a8517",
       "status": "PASS",
       "stderr_tail": "",
@@ -49,7 +49,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_entropy_ledger_certificate_soundness/verify.py",
-      "seconds": 0.015422,
+      "seconds": 0.021989,
       "sha256": "0001426044a369fec6ade99c8d393ae3268d755e53a5a60d63c05e7cbea94616",
       "status": "PASS",
       "stderr_tail": "",
@@ -58,7 +58,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_family_certificate_semantics/verify.py",
-      "seconds": 0.029723,
+      "seconds": 0.021126,
       "sha256": "a1c5934ae2ff4c8b11123272d701d4dd5c6b1392a0849ed298700e69f9139ad2",
       "status": "PASS",
       "stderr_tail": "",
@@ -66,8 +66,17 @@
     },
     {
       "returncode": 0,
+      "script": "background/nodes/cyclic_fiber_interleaving_descent/verify.py",
+      "seconds": 2.223104,
+      "sha256": "dc11fb8c20bf44236aeaaeb208789b71e7705b1b6987daa2ce31894cd6ad5b7e",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "CYCLIC_FIBER_INTERLEAVING_DESCENT_PASS models=2 polynomials=167042\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/e22_common_tail_invariance_certificate_soundness/verify.py",
-      "seconds": 0.015291,
+      "seconds": 0.021929,
       "sha256": "0da3b50b606664b13322e102c4b7af26c0e2e3f0e209316d20d7f16a9db0c61e",
       "status": "PASS",
       "stderr_tail": "",
@@ -76,7 +85,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_dyadic_chain_mobius_accounting/verify.py",
-      "seconds": 0.02775,
+      "seconds": 0.027778,
       "sha256": "8f8c759fa5a6794dd048d03a0880d34dc1797867327b45817d4e602bb53dcc1e",
       "status": "PASS",
       "stderr_tail": "",
@@ -85,7 +94,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_dyadic_local_to_common_saturation/verify.py",
-      "seconds": 0.132269,
+      "seconds": 0.102008,
       "sha256": "e3290375a6c3f2d319a863b46c72b95210bc0ea6acf7b30e467071435b338dc2",
       "status": "PASS",
       "stderr_tail": "",
@@ -94,7 +103,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_dyadic_minimal_scale_selector/verify.py",
-      "seconds": 0.549073,
+      "seconds": 0.524336,
       "sha256": "436b8220b4ab7020e07ee1082d09e5007b6ab8bd25e96e581db8314e6d6a70eb",
       "status": "PASS",
       "stderr_tail": "",
@@ -103,7 +112,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_kernel_invariance_full_fiber_criterion/verify.py",
-      "seconds": 0.032294,
+      "seconds": 0.026138,
       "sha256": "69e7578d939ff33d33d3271602f46c472b0385a06180f5d882eb3591c082fe48",
       "status": "PASS",
       "stderr_tail": "",
@@ -112,7 +121,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_lower_scale_intersection_formula_payload/verify.py",
-      "seconds": 9.052642,
+      "seconds": 7.251784,
       "sha256": "7d61d3c1c1d877cbd1fcc3ba0cdd16f630f57cc376da9652155489f450c16372",
       "status": "PASS",
       "stderr_tail": "",
@@ -121,7 +130,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_minimal_scale_partition/verify.py",
-      "seconds": 0.031018,
+      "seconds": 0.036394,
       "sha256": "ce4c020d472e625b00a3641f2a397193228f55550c13f9de8b0356b85c951864",
       "status": "PASS",
       "stderr_tail": "",
@@ -130,7 +139,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_minimal_scale_tail_criterion/verify.py",
-      "seconds": 1.162032,
+      "seconds": 0.843921,
       "sha256": "fd0606dcfe63b6fb5b52b42f2c08f35ea23a37b91f67b8fb1d31c133a009a6c0",
       "status": "PASS",
       "stderr_tail": "",
@@ -139,7 +148,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_planted_profile_disjointness/verify.py",
-      "seconds": 0.056326,
+      "seconds": 0.071284,
       "sha256": "975b177077af5d03b0fd32c25dd06b17a0a437c19788f10bd475abe3f76f4db2",
       "status": "PASS",
       "stderr_tail": "",
@@ -148,7 +157,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_tail_removed_factor_manifest_soundness/verify.py",
-      "seconds": 0.017916,
+      "seconds": 0.030457,
       "sha256": "424ad162bd8eeb472d9d169bb369293200ab6d77c94855cc7d3a0c8d0c5a90cc",
       "status": "PASS",
       "stderr_tail": "",
@@ -157,7 +166,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_tail_removed_quotient_factor_passthrough/verify.py",
-      "seconds": 0.015696,
+      "seconds": 0.032996,
       "sha256": "e33ccbe651a0c5c05258b84a8c8b198cf2ff7c2cefd05fd99262b322815348e1",
       "status": "PASS",
       "stderr_tail": "",
@@ -166,7 +175,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_two_class_exhaustion/verify.py",
-      "seconds": 0.073645,
+      "seconds": 0.102029,
       "sha256": "593344bb99a2e093b69127d31735baa2b9c43802cc4f2c96e49ccff0829d6933",
       "status": "PASS",
       "stderr_tail": "",
@@ -175,7 +184,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_weighted_intersection_certificate_soundness/verify.py",
-      "seconds": 0.015273,
+      "seconds": 0.025473,
       "sha256": "32a758743f18de6930f83ff38e23cd767e38a7402e1bec8838508d3c8e6658f5",
       "status": "PASS",
       "stderr_tail": "",
@@ -183,8 +192,17 @@
     },
     {
       "returncode": 0,
+      "script": "background/nodes/exact_support_interleaving_projection/verify.py",
+      "seconds": 3.255308,
+      "sha256": "a8d51922981533dfcf67044eaca039f0df074b8720c6b5d4467c02b84afa2e27",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "EXACT_SUPPORT_INTERLEAVING_PROJECTION_PASS rows=790390\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/f3_h3_factorial_collision_69/verify.py",
-      "seconds": 0.040944,
+      "seconds": 0.049397,
       "sha256": "b71edcc751d46cb9c4ad80a06692e087eafa6416077bc620f03256cfbb7de494",
       "status": "PASS",
       "stderr_tail": "",
@@ -193,7 +211,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_mobius_overlap_cap35/verify.py",
-      "seconds": 0.028931,
+      "seconds": 0.037903,
       "sha256": "de1e2eedf5e6ec88444534b2a134c8659d174c930ea622a7c0502e15b0a49836",
       "status": "PASS",
       "stderr_tail": "",
@@ -202,7 +220,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_nonswap_moment_68/verify.py",
-      "seconds": 0.162318,
+      "seconds": 0.18874,
       "sha256": "20055addb7de82c78385b090c319adcc3f8a51a36a701187a0f805e3d103eca4",
       "status": "PASS",
       "stderr_tail": "",
@@ -211,7 +229,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_pgl2_pair_identity/verify.py",
-      "seconds": 0.630494,
+      "seconds": 0.666392,
       "sha256": "80af115821fdb352297c276742ceef1e013d65eaf409f89501b65b7d28a1097d",
       "status": "PASS",
       "stderr_tail": "",
@@ -220,7 +238,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_quotient_block_identity/verify.py",
-      "seconds": 0.043891,
+      "seconds": 0.058669,
       "sha256": "702dd99e72f712b77aadd6a3b94bad97f7bd1b12af5be549e3ad256e5b84cbaa",
       "status": "PASS",
       "stderr_tail": "",
@@ -228,8 +246,17 @@
     },
     {
       "returncode": 0,
+      "script": "background/nodes/intrinsic_scale_geometric_ledger/verify.py",
+      "seconds": 0.042674,
+      "sha256": "69a1d0087a22e552aa758dc479a4f862099889ed29fe6ae231f7b7bbfba561d7",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "INTRINSIC_SCALE_GEOMETRIC_LEDGER_PASS rows=32 B=6 reserve=63/64\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/m720_certificate_semantics/verify.py",
-      "seconds": 0.028675,
+      "seconds": 0.042728,
       "sha256": "05e09f12f42e7968ada438a3b899ca4f6a0f79410add4c0570d8f3bb72f027a4",
       "status": "PASS",
       "stderr_tail": "",
@@ -238,7 +265,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_h3_large_gate_replay/verify.py",
-      "seconds": 4.901256,
+      "seconds": 4.843874,
       "sha256": "e5d0dadb5c2166326cff521e6a8e0e238106b3e86d28201cb00beab4a2f0b014",
       "status": "PASS",
       "stderr_tail": "",
@@ -247,7 +274,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_h5_n32_gate_replay/verify.py",
-      "seconds": 1.063459,
+      "seconds": 1.174277,
       "sha256": "ec350c9d444b73c8b4716544300b495281cc04f21aa90c2512420538387a81f7",
       "status": "PASS",
       "stderr_tail": "",
@@ -256,7 +283,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_official_norm_gate_case_manifest_soundness/verify.py",
-      "seconds": 0.018634,
+      "seconds": 0.027898,
       "sha256": "a35767be0da1968e938272a5214cb643f9d5c8f86762b304dc1b2285db7d72e2",
       "status": "PASS",
       "stderr_tail": "",
@@ -265,7 +292,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_official_norm_gate_certificate_soundness/verify.py",
-      "seconds": 0.019712,
+      "seconds": 0.025952,
       "sha256": "3ef7aa37261bbafdc83bf141b237ac8015a46253ef381ec261ff27c5f01fc840",
       "status": "PASS",
       "stderr_tail": "",
@@ -274,7 +301,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_overceiling_complete_window_certificates/verify.py",
-      "seconds": 0.019346,
+      "seconds": 0.026107,
       "sha256": "b198b5e3d1bbcd98d16f8adc05288679c9fe020068484b8ac9bfdbd4dc090f32",
       "status": "PASS",
       "stderr_tail": "",
@@ -283,7 +310,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_residual_slice_metadata/verify.py",
-      "seconds": 0.01895,
+      "seconds": 0.02683,
       "sha256": "c3bd332288f8312b7189a45ddedb23d20251b3e09b2efe07f3216c5290440ac8",
       "status": "PASS",
       "stderr_tail": "",
@@ -292,7 +319,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_small_gate_replay/verify.py",
-      "seconds": 0.032014,
+      "seconds": 0.039118,
       "sha256": "4621173e691c207df27e3e65b31f2936fd7a65b2bd4d25e8cd3e3b1d15bc4ec6",
       "status": "PASS",
       "stderr_tail": "",
@@ -301,7 +328,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_wsl_complete_zero_subcertificates/verify.py",
-      "seconds": 64.440538,
+      "seconds": 58.742436,
       "sha256": "a28ca40b64a27452eb22902e78043e4a8910a169ae571709ed1e77d64c5b2ece",
       "status": "PASS",
       "stderr_tail": "",
@@ -310,7 +337,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/petal_fixed_excess/verify.py",
-      "seconds": 0.03486,
+      "seconds": 0.044068,
       "sha256": "4999dd568c9c8d8fe5e6b5ef3d2de56ec53460f489f857ce89984f0a7af6f2c6",
       "status": "PASS",
       "stderr_tail": "",
@@ -318,8 +345,17 @@
     },
     {
       "returncode": 0,
+      "script": "background/nodes/petal_k4_johnson_slice/verify.py",
+      "seconds": 0.191635,
+      "sha256": "6708fd2f0dc604133d24a2218f9b9930679c1f509c0170e305ee723c7b7fa49b",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PETAL_K4_JOHNSON_SLICE_PASS arithmetic_rows=31973 brute_rows=14\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/petal_realizable_kernel_injection/verify.py",
-      "seconds": 0.018418,
+      "seconds": 0.026668,
       "sha256": "217538320e246d54a164afe0e516940df24e7c10160472c85eacf5e25fa4fc5a",
       "status": "PASS",
       "stderr_tail": "",
@@ -327,8 +363,17 @@
     },
     {
       "returncode": 0,
+      "script": "background/nodes/petal_retained_zero_effective_degree/verify.py",
+      "seconds": 3.605063,
+      "sha256": "08c379ceaf05a0a7a2492659b37ad7f324c9055d83a2cf6f2e2d030f5159f7ef",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PETAL_RETAINED_ZERO_EFFECTIVE_DEGREE_PASS rows=12005 quotients=49 exact_support=preserved\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/petal_squarefree_classification_counting_soundness/verify.py",
-      "seconds": 0.018212,
+      "seconds": 0.027433,
       "sha256": "99cbf0da6ca56b7166440e961ef2050b1e14fe456495ce93b70b392bbe82903e",
       "status": "PASS",
       "stderr_tail": "",
@@ -337,7 +382,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/petal_squarefree_classification_ledger_soundness/verify.py",
-      "seconds": 0.018157,
+      "seconds": 0.027482,
       "sha256": "7ef303df71b776fd18ab5ebfa7de075bafcc5b3a5fffc9fcddb67bb2239a083f",
       "status": "PASS",
       "stderr_tail": "",
@@ -346,7 +391,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/petal_staircase_allowance_719/verify.py",
-      "seconds": 0.01809,
+      "seconds": 0.022553,
       "sha256": "b5638b64b29f6d7ba61d1534ef2d4987ae08fe66c73402a2166b38e53893746a",
       "status": "PASS",
       "stderr_tail": "",
@@ -354,8 +399,26 @@
     },
     {
       "returncode": 0,
+      "script": "background/nodes/petal_top_band_residual_free_johnson/verify.py",
+      "seconds": 0.047893,
+      "sha256": "4da1034e87dbd286157b7232aef1ebe55b7cb938a3a82d8f79f002e03a1bad26",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PETAL_TOP_BAND_RESIDUAL_FREE_JOHNSON_PASS rows=68544 sharp_boundary_rows=4032 mutation=below_band\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_multiplicative_amplification_floor/verify.py",
+      "seconds": 0.027113,
+      "sha256": "f8ff25f4a0c39c00dc0b573bebed142147019f536f6015d21ce51a6ebcb6f567",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_MULTIPLICATIVE_FLOOR_PASS entropy_rows=33 exact_rows=7 max_scale=2^34 max_bits=125 minimum_multiplier=4465665068328739581094723484 log2_min=91.850934\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/sov_affine_piece_partition_certificate_soundness/verify.py",
-      "seconds": 0.02154,
+      "seconds": 0.019745,
       "sha256": "e10bb309b69b4fefbc0dc2904c291924d6f0ff48c4c8656ea6be68f1a4373cd8",
       "status": "PASS",
       "stderr_tail": "",
@@ -364,7 +427,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/sov_first_obstruction_sensitivity/verify.py",
-      "seconds": 0.073625,
+      "seconds": 0.077364,
       "sha256": "12c51ec9560cc88d2da44ea6e1a3e10eb1e001db2d847bbf185e6fbac35b6d93",
       "status": "PASS",
       "stderr_tail": "",
@@ -373,7 +436,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/sov_forced_root_recursion_algebra/verify.py",
-      "seconds": 0.024478,
+      "seconds": 0.032936,
       "sha256": "dcdb731e41068ca9f1a7668c0458f3f2582def11e1b57070cd560fe00bf9296a",
       "status": "PASS",
       "stderr_tail": "",
@@ -382,7 +445,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/sov_hminus1_fiber_fourier_duality/verify.py",
-      "seconds": 0.024639,
+      "seconds": 0.027653,
       "sha256": "5a732aabe87060b1e0d3dcd27edc7ee06cb6d08206222c695b04010f3884b464",
       "status": "PASS",
       "stderr_tail": "",
@@ -391,7 +454,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/sov_nonconstant_affine_character_cancellation/verify.py",
-      "seconds": 6.236816,
+      "seconds": 6.831806,
       "sha256": "57fdfa2da071826b11e020ed9ee24768f01110d2d85865717440322e9116ace1",
       "status": "PASS",
       "stderr_tail": "",
@@ -400,25 +463,25 @@
     {
       "returncode": 0,
       "script": "background/nodes/v13_bc_curve_second_moment_identity/notes/verify_c1.py",
-      "seconds": 0.263783,
+      "seconds": 0.368151,
       "sha256": "5b561db8f7abb4e97f9377a5e21eaf3e5ccdd1187925f80d7be8e00350723a6f",
       "status": "PASS",
       "stderr_tail": "/repo/background/nodes/v13_bc_curve_second_moment_identity/notes/verify_c1.py:10: SyntaxWarning: invalid escape sequence '\\R'\n  sets in D\\R, deg(A-B) <= e-w-2, Phi_{w+1}(l_R * A) in Gamma }\n",
-      "stdout_tail": "\n  strata sp_sum={4: 2}  direct hist={4: 2}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True constraint-i=True aug=True  (0.0s)\n--- R4: p=97 n=8 m=4 w=1 z*=(5, 9)\n  S1=0  M2_def=0  M2_pairs=0  M2_a1=0  RHS=S1+0=0\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True constraint-i=True aug=True  (0.0s)\n--- R5: p=13 n=12 m=5 w=2 z*=(0, 0, 0)\n  S1=12  M2_def=12  M2_pairs=12  M2_a1=12  RHS=S1+0=12\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True  (0.0s)\n--- R6: p=13 n=12 m=5 w=2 z*=(2, 7, 1)\n  S1=3  M2_def=3  M2_pairs=3  M2_a1=3  RHS=S1+0=3\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True  (0.0s)\n--- R7: p=97 n=8 m=5 w=2 z*=(40, 83, 52)\n  S1=1  M2_def=1  M2_pairs=1  M2_a1=1  RHS=S1+0=1\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True edge=True  (0.0s)\n--- R8: p=113 n=16 m=4 w=1 z*=(7, 11)\n  S1=19  M2_def=19  M2_pairs=19  M2_a1=19  RHS=S1+0=19\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True  (0.0s)\n--- R9: p=97 n=8 m=4 w=1 z*=(96, 0)\n  S1=6  M2_def=8  M2_pairs=8  M2_a1=8  RHS=S1+2=8\n  strata sp_sum={4: 2}  direct hist={4: 2}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True  (0.0s)\n--- R10: p=13 n=12 m=5 w=1 z*=(12, 1)\n  S1=57  M2_def=273  M2_pairs=273  M2_a1=273  RHS=S1+216=273\n  strata sp_sum={3: 164, 4: 48, 5: 4}  direct hist={3: 164, 4: 48, 5: 4}\n  top-stratum examples (P, P', c=const shift): [([3, 10, 12], [5, 9, 11], 5), ([5, 9, 11], [3, 10, 12], 8)]\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True  (0.1s)\n\nNon-vacuity: rows with S1>0: 8 (need>=5); offdiag>0: 4 (need>=2); top>0: 2 (need>=1); deep(e>w+2)>0: 3 (need>=1); z*!=0 with offdiag>0: 2 (need>=1)\naug-locator gate (C-g, flag-only): PASS\n\nVERDICT (pre-registered criteria): CONFIRMED\n"
+      "stdout_tail": "\n  strata sp_sum={4: 2}  direct hist={4: 2}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True constraint-i=True aug=True  (0.0s)\n--- R4: p=97 n=8 m=4 w=1 z*=(5, 9)\n  S1=0  M2_def=0  M2_pairs=0  M2_a1=0  RHS=S1+0=0\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True constraint-i=True aug=True  (0.0s)\n--- R5: p=13 n=12 m=5 w=2 z*=(0, 0, 0)\n  S1=12  M2_def=12  M2_pairs=12  M2_a1=12  RHS=S1+0=12\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True  (0.1s)\n--- R6: p=13 n=12 m=5 w=2 z*=(2, 7, 1)\n  S1=3  M2_def=3  M2_pairs=3  M2_a1=3  RHS=S1+0=3\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True  (0.0s)\n--- R7: p=97 n=8 m=5 w=2 z*=(40, 83, 52)\n  S1=1  M2_def=1  M2_pairs=1  M2_a1=1  RHS=S1+0=1\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True edge=True  (0.0s)\n--- R8: p=113 n=16 m=4 w=1 z*=(7, 11)\n  S1=19  M2_def=19  M2_pairs=19  M2_a1=19  RHS=S1+0=19\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True  (0.0s)\n--- R9: p=97 n=8 m=4 w=1 z*=(96, 0)\n  S1=6  M2_def=8  M2_pairs=8  M2_a1=8  RHS=S1+2=8\n  strata sp_sum={4: 2}  direct hist={4: 2}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True  (0.0s)\n--- R10: p=13 n=12 m=5 w=1 z*=(12, 1)\n  S1=57  M2_def=273  M2_pairs=273  M2_a1=273  RHS=S1+216=273\n  strata sp_sum={3: 164, 4: 48, 5: 4}  direct hist={3: 164, 4: 48, 5: 4}\n  top-stratum examples (P, P', c=const shift): [([3, 10, 12], [5, 9, 11], 5), ([5, 9, 11], [3, 10, 12], 8)]\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True  (0.2s)\n\nNon-vacuity: rows with S1>0: 8 (need>=5); offdiag>0: 4 (need>=2); top>0: 2 (need>=1); deep(e>w+2)>0: 3 (need>=1); z*!=0 with offdiag>0: 2 (need>=1)\naug-locator gate (C-g, flag-only): PASS\n\nVERDICT (pre-registered criteria): CONFIRMED\n"
     },
     {
       "returncode": 0,
       "script": "background/nodes/xr_ledger_qpower/verify.py",
-      "seconds": 30.046583,
+      "seconds": 36.618582,
       "sha256": "e5b22817a9121120c195abae93e68a101e50a2b93ffbd28a2e7eced275901514",
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PART A (exact codim): 202 checks, all match t+min(s,t)\n  t=2: conditional P[both|one] and its q-exponent vs predicted min(s,t-1):\n     s=1: P[both|one]=0.1653  emp_exp~0.75  pred=1\n     s=2: P[both|one]=0.0933  emp_exp~0.99  pred=1\n  t=3: conditional P[both|one] and its q-exponent vs predicted min(s,t-1):\n     s=1: P[both|one]=0.0846  emp_exp~1.03  pred=1\n     s=2: P[both|one]=0.0083  emp_exp~2.00  pred=2\n     s=3: P[both|one]=0.0100  emp_exp~1.92  pred=2\nPART B (slope accounting): empirical exponents track min(s,t-1) (rise with s, plateau at t-1); small-field constants apply.\nPASS\n"
+      "stdout_tail": "PART A (exact codim): 202 checks, all match t+min(s,t)\n  t=2: conditional P[both|one] and its q-exponent vs predicted min(s,t-1):\n     s=1: P[both|one]=0.1608  emp_exp~0.76  pred=1\n     s=2: P[both|one]=0.0919  emp_exp~1.00  pred=1\n  t=3: conditional P[both|one] and its q-exponent vs predicted min(s,t-1):\n     s=1: P[both|one]=0.0994  emp_exp~0.96  pred=1\n     s=2: P[both|one]=0.0063  emp_exp~2.11  pred=2\n     s=3: P[both|one]=0.0081  emp_exp~2.01  pred=2\nPART B (slope accounting): empirical exponents track min(s,t-1) (rise with s, plateau at t-1); small-field constants apply.\nPASS\n"
     },
     {
       "returncode": 0,
       "script": "background/nodes/xr_minor_specialization_certificate_semantics/verify.py",
-      "seconds": 0.021966,
+      "seconds": 0.025964,
       "sha256": "f16a5c63ca1972e5dcdbcd18a6c5d3a94f0d9acf34f5adfccd4791bfa6746df4",
       "status": "PASS",
       "stderr_tail": "",
@@ -427,7 +490,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/xr_profile_minor_record_inventory_soundness/verify.py",
-      "seconds": 0.017625,
+      "seconds": 0.023658,
       "sha256": "dea0f2c68ed08fefa19ca193edadc9737774ada9b3d1950d9cc49d2082dd2e7a",
       "status": "PASS",
       "stderr_tail": "",
@@ -436,7 +499,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/xr_radius_arithmetic/verify.py",
-      "seconds": 0.023604,
+      "seconds": 0.027773,
       "sha256": "027686ffcb7022af04159901a02f5145f90be8bd59dfb18e859ec638116e660b",
       "status": "PASS",
       "stderr_tail": "",
@@ -445,7 +508,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/xr_triangular_minor_certificate_soundness/verify.py",
-      "seconds": 0.01966,
+      "seconds": 0.025088,
       "sha256": "a949dd9c6af909560685312bf8b3e064e3755c51a0e8be46d4be2d232742b344",
       "status": "PASS",
       "stderr_tail": "",
@@ -454,7 +517,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/cap_envelope_parameter_sweep/notes/verify_sweep.py",
-      "seconds": 1.519067,
+      "seconds": 2.319906,
       "sha256": "1bbfdfc33b33cec8afa01bbb959124d85285698d24dd0f777d49946724cb8512",
       "status": "PASS",
       "stderr_tail": "",
@@ -463,7 +526,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/census_bounded_scales/verify.py",
-      "seconds": 0.034187,
+      "seconds": 0.037422,
       "sha256": "282974d287642693e9789329dc89958906c8b4757698af954e56426de8e029d0",
       "status": "PASS",
       "stderr_tail": "",
@@ -472,7 +535,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/census_exact_counts/verify.py",
-      "seconds": 0.019131,
+      "seconds": 0.020568,
       "sha256": "c92310e2610c7aa8f34f7dd2cb35ddbe668f2a977dcaa98385229e82619e2f33",
       "status": "PASS",
       "stderr_tail": "",
@@ -481,7 +544,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_artin_schreier_conductor_criterion/verify.py",
-      "seconds": 0.019625,
+      "seconds": 0.022873,
       "sha256": "c2c6ddc85bfef9b7aa3c5b4c1eee741edb5cbcbb606b3c73a60b1a8ec15073bb",
       "status": "PASS",
       "stderr_tail": "",
@@ -490,7 +553,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_odd_phase_budget_ledger_soundness/verify.py",
-      "seconds": 0.017841,
+      "seconds": 0.021781,
       "sha256": "3e4f5ce78a7752217c6ce5b5c2fc61a7cc0700bbf8a1cac530c9e4b2c800f437",
       "status": "PASS",
       "stderr_tail": "",
@@ -499,7 +562,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_odd_phase_polar_obstruction_soundness/verify.py",
-      "seconds": 0.017141,
+      "seconds": 0.021132,
       "sha256": "870a9d3d33f0b8ef4264b4e212ce342f48bb250deb195357b9db1c5431c66a94",
       "status": "PASS",
       "stderr_tail": "",
@@ -508,7 +571,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_prime_weighted_large_block_support/notes/verify_round6_reply.py",
-      "seconds": 14.956255,
+      "seconds": 20.69929,
       "sha256": "0162224679282d8fa0eea8372678e2c6a3b2a7a43c7d4c0fe91d326b9be71ac0",
       "status": "PASS",
       "stderr_tail": "",
@@ -517,7 +580,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_prime_weighted_large_block_support/notes/verify_round7_reply.py",
-      "seconds": 26.178696,
+      "seconds": 38.234379,
       "sha256": "147db66b2c6cac81b61c75140e517390c2bddc8f61697546b05adf546656707c",
       "status": "PASS",
       "stderr_tail": "",
@@ -526,7 +589,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_reduced_phase_manifest_soundness/verify.py",
-      "seconds": 0.020578,
+      "seconds": 0.026757,
       "sha256": "78e87b5a38cc361d26b350624a2c80d9cb95b71bedad85dfde9e6f07b230c410",
       "status": "PASS",
       "stderr_tail": "",
@@ -535,7 +598,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_reduced_pole_majorant_table_soundness/verify.py",
-      "seconds": 0.019795,
+      "seconds": 0.02201,
       "sha256": "97367ae200a216c0d2834d19b4e1a564afcbc0951b377832c1eee84e6b22db7a",
       "status": "PASS",
       "stderr_tail": "",
@@ -544,7 +607,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dyadic_profile_evaluation/verify.py",
-      "seconds": 0.021398,
+      "seconds": 0.023582,
       "sha256": "96ee55cc1f95d9b3704599e9690d341a8ac63c839949db9272e0212f8e96f4ef",
       "status": "PASS",
       "stderr_tail": "",
@@ -553,7 +616,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e1_folded_certificate_manifest_soundness/verify.py",
-      "seconds": 0.019585,
+      "seconds": 0.021165,
       "sha256": "31abaa74c2801b027364f24485fdaf090c69fc4d21e7ad233b11336d8f5b146e",
       "status": "PASS",
       "stderr_tail": "",
@@ -562,7 +625,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e1_folded_certificate_soundness/verify.py",
-      "seconds": 1.181203,
+      "seconds": 1.047663,
       "sha256": "2b41785ca3e9e16b6314263405e8d5e4be129ad49cb09c739e8aa4b0db27f3df",
       "status": "PASS",
       "stderr_tail": "",
@@ -571,7 +634,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e1_named_field_folded_cell_certificate_soundness/verify.py",
-      "seconds": 0.019326,
+      "seconds": 0.020841,
       "sha256": "700abd913f354c3735b4d22d41c0267aaa148d59471e156c0c8877e30728aebd",
       "status": "PASS",
       "stderr_tail": "",
@@ -580,7 +643,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e1_open_cell_route_soundness/verify.py",
-      "seconds": 0.018446,
+      "seconds": 0.020858,
       "sha256": "dfa803547df203f13463097cff67339a1ce79bb544cbe606b0a5aad8c015165c",
       "status": "PASS",
       "stderr_tail": "",
@@ -589,7 +652,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e1_pocklington_250bit_exhibit_field/verify.py",
-      "seconds": 0.0186,
+      "seconds": 0.020071,
       "sha256": "1b45dfdfe731fb5db4e1e3621a7d6aab38cef86250286cd1f363896bd90d9aeb",
       "status": "PASS",
       "stderr_tail": "",
@@ -598,7 +661,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e1_two_cell_folded_manifest_assembly_soundness/verify.py",
-      "seconds": 0.01971,
+      "seconds": 0.019032,
       "sha256": "f0bb27c5c494b6967cba473f1d44e367e6cc922b25b0c88ebfe5405cea46445e",
       "status": "PASS",
       "stderr_tail": "",
@@ -607,7 +670,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_agreement_cofactor_equations/verify.py",
-      "seconds": 1.798324,
+      "seconds": 1.482623,
       "sha256": "2d13d61bf00876f78991bf877676e0408ff74701d5536432e3bcf479eb811a8b",
       "status": "PASS",
       "stderr_tail": "",
@@ -616,7 +679,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_cofactor_petal_divisibility/verify.py",
-      "seconds": 0.033564,
+      "seconds": 0.020624,
       "sha256": "5fbeb9626fd790bae5bb10be6da5b7f3e4bded303afd4bb67b29e9e6966ca22d",
       "status": "PASS",
       "stderr_tail": "",
@@ -625,7 +688,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_cross_scale_support_canonical_form/verify.py",
-      "seconds": 0.019346,
+      "seconds": 0.01952,
       "sha256": "3bfc194cd121ceef668ea1ce20a516e61fd1f278f7104d0ecb61690706e94c02",
       "status": "PASS",
       "stderr_tail": "",
@@ -634,7 +697,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_fiber_locator_saturation/verify.py",
-      "seconds": 0.078035,
+      "seconds": 0.057656,
       "sha256": "f438f930a1fc0be6533189f1530569cedac3491c28a0adfb6e7b58d181a50429",
       "status": "PASS",
       "stderr_tail": "",
@@ -643,7 +706,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_fixed_scale_staircase_injectivity/verify.py",
-      "seconds": 0.439533,
+      "seconds": 0.266387,
       "sha256": "c9fa492ba2136c91401c3872484f911ac6cfe6ec2f0c023d858a956147671403",
       "status": "PASS",
       "stderr_tail": "",
@@ -652,7 +715,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_lower_scale_filter_inclusion_exclusion/verify.py",
-      "seconds": 0.036047,
+      "seconds": 0.02632,
       "sha256": "56b380aeb6ba5a1c9b168d381e805d3221c80bbdcb6d520272ac61b5aa0581bb",
       "status": "PASS",
       "stderr_tail": "",
@@ -661,7 +724,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_overlap_nested_fiber_residual_identity/verify.py",
-      "seconds": 0.040348,
+      "seconds": 0.041244,
       "sha256": "54feb9f14165ca2fa6d9e0f536aab63c43007a37b2e60b10c15cd1e8eb45fdc3",
       "status": "PASS",
       "stderr_tail": "",
@@ -670,7 +733,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_residual_profile_generating_function/verify.py",
-      "seconds": 0.035941,
+      "seconds": 0.03262,
       "sha256": "9969dd4e1e4ecd484f743c2dc65e60b7807cd5c2570e3eb4fbaa6b026cc00af1",
       "status": "PASS",
       "stderr_tail": "",
@@ -679,7 +742,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_tail_coset_locator_algebra/verify.py",
-      "seconds": 0.085903,
+      "seconds": 0.107556,
       "sha256": "66288f6ef525afaef9c5b3c707054e6c0f4a7ce3a118e7e52d2b1be0f868b121",
       "status": "PASS",
       "stderr_tail": "",
@@ -688,7 +751,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/ef_descended_cycle_classification_soundness/verify.py",
-      "seconds": 0.025949,
+      "seconds": 0.027682,
       "sha256": "4496c4a6972d7ebcf66c74125879433e57fa05795a299a928092d6122725958f",
       "status": "PASS",
       "stderr_tail": "",
@@ -697,7 +760,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/ef_descended_cycle_inventory_soundness/verify.py",
-      "seconds": 0.02669,
+      "seconds": 0.028798,
       "sha256": "c1fe29fb6e2bc334112edc4ea0c71b774d52ffe9522a3e46936a3430ce9d1bb4",
       "status": "PASS",
       "stderr_tail": "",
@@ -706,7 +769,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/ef_full_orbit_cycle_descent/verify.py",
-      "seconds": 0.027565,
+      "seconds": 0.02176,
       "sha256": "dc60fd2e8d4e651f0058234fbc9ed334dd49dfd48741a6ae4a5063888fc379ac",
       "status": "PASS",
       "stderr_tail": "",
@@ -715,7 +778,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/f1_minimal_field_descent/verify.py",
-      "seconds": 1.681569,
+      "seconds": 1.917334,
       "sha256": "18868ab232347b58c155c0bb382e684bff96974aacabc49c99e6ce792858ef2c",
       "status": "PASS",
       "stderr_tail": "",
@@ -724,7 +787,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/f3_h3_mobius_excess_half/verify.py",
-      "seconds": 0.043726,
+      "seconds": 0.03692,
       "sha256": "7fd0275291e338752565f33254fc4e2b7a16749ca9b0d9509b321e671b2b3b00",
       "status": "PASS",
       "stderr_tail": "",
@@ -733,7 +796,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/f_dual_distance_frame/verify.py",
-      "seconds": 0.151726,
+      "seconds": 0.153433,
       "sha256": "a547fa9678af4d7aa9ecccc5bdeb7a6d24037dc5e6c342caf31281b1fb852361",
       "status": "PASS",
       "stderr_tail": "",
@@ -742,7 +805,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/gap2_seam/verify.py",
-      "seconds": 0.023308,
+      "seconds": 0.032093,
       "sha256": "82ca70898d2e7c91e4afe34b96aa56f10319ba81ae07c0d7f50605a5b4f2ff15",
       "status": "PASS",
       "stderr_tail": "",
@@ -751,7 +814,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/list_large_m_scope_closure/verify.py",
-      "seconds": 0.050068,
+      "seconds": 0.160493,
       "sha256": "517373d07360c77a6106acaec4dc1790ba5703adc41620878dd2cc50e026ab03",
       "status": "PASS",
       "stderr_tail": "",
@@ -760,7 +823,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/petal_g2_support_forcing/verify.py",
-      "seconds": 0.278134,
+      "seconds": 0.344039,
       "sha256": "6d6b8a743a3bf169eaeaa1ea4591bc417069500eff56870cd3f33317df134ce9",
       "status": "PASS",
       "stderr_tail": "",
@@ -769,7 +832,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/petal_g3_profile_conversion_identity/verify.py",
-      "seconds": 0.401127,
+      "seconds": 0.459833,
       "sha256": "241bdf1b1f7c4c170a1f22aa98f36ab3644da4bc957c13a37bc18fcb63c648ed",
       "status": "PASS",
       "stderr_tail": "",
@@ -778,7 +841,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/spi_exceptional_class/notes/verify_writeup.py",
-      "seconds": 0.661823,
+      "seconds": 0.750309,
       "sha256": "b79890101e16b3f45e49b13079f59a39814fec0e5b3590d95b3f2671459babe5",
       "status": "PASS",
       "stderr_tail": "",
@@ -787,7 +850,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/stratification_partition_thm/verify.py",
-      "seconds": 7.632044,
+      "seconds": 4.117601,
       "sha256": "242b005daa9fdf8905660283be32526ae0f180fe4efe017ef57e1748f24c5726",
       "status": "PASS",
       "stderr_tail": "",
@@ -796,7 +859,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/v13_capf_planted_lower_count/notes/verify_capf_planted.py",
-      "seconds": 0.625632,
+      "seconds": 0.809262,
       "sha256": "d3cdc3cafbf5e5e2033c0dd157f1ad71f8947690bf6091767c44b9efdbc37eb4",
       "status": "PASS",
       "stderr_tail": "",
@@ -805,7 +868,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/weight_graded_mitm/verify.py",
-      "seconds": 0.052416,
+      "seconds": 0.07112,
       "sha256": "e24f0d531a819b3ac5f05f8c92d3b6e347778d338d409e34ed1bf97e4aa26280",
       "status": "PASS",
       "stderr_tail": "",
@@ -814,7 +877,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/ww_lower_witnesses/verify.py",
-      "seconds": 0.034951,
+      "seconds": 0.043593,
       "sha256": "5a5171aad21f4662359af8223d5eda11602ad545a50bf2aad268e1744f816289",
       "status": "PASS",
       "stderr_tail": "",
@@ -823,7 +886,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/ww_lower_witnesses/verify_construction.py",
-      "seconds": 0.331705,
+      "seconds": 0.260025,
       "sha256": "45cf386b9515c572f24f6a843db1f49651341660c0575f08c93b1e3c7e363023",
       "status": "PASS",
       "stderr_tail": "",
@@ -832,7 +895,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/xr_ledger_exponent_reconciliation/verify.py",
-      "seconds": 0.028256,
+      "seconds": 0.03056,
       "sha256": "d5e27409e66c0b1b1b6a42a08724f9069b7f60172ee18476b806a861a3f99250",
       "status": "PASS",
       "stderr_tail": "",
@@ -841,7 +904,7 @@
     {
       "returncode": 0,
       "script": "tools/verify_list_corridor_ledger.py",
-      "seconds": 2.384716,
+      "seconds": 1.722433,
       "sha256": "8d29b7d3a1dc81873fd12dea5df5339f41527aa19bc1903d92da268ef37f49c2",
       "status": "PASS",
       "stderr_tail": "",
@@ -850,7 +913,7 @@
     {
       "returncode": 0,
       "script": "tools/verify_list_corridor_widths.py",
-      "seconds": 0.037201,
+      "seconds": 0.085083,
       "sha256": "62f930c35c2c04414fd2274cbd1442bc692acd1dd0702fde5e57db03bca2733a",
       "status": "PASS",
       "stderr_tail": "",
@@ -859,7 +922,7 @@
     {
       "returncode": 0,
       "script": "tools/verify_official_row_primes_pinning.py",
-      "seconds": 0.053874,
+      "seconds": 0.096593,
       "sha256": "f6a7af8211e92ef1e5643bda43ed7e11df597956589d4cabfbe2479590814828",
       "status": "PASS",
       "stderr_tail": "",
@@ -868,16 +931,16 @@
     {
       "returncode": 0,
       "script": "tools/verify_prize_dag.py",
-      "seconds": 0.323713,
+      "seconds": 5.065288,
       "sha256": "fc78e615525a85988904f889b07cea6ade47d5eb319eab4cb882cbe14f270ff7",
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "d budget gate; the uniform-in-h shape FORCED [TARGET]\n  ! petal_g1_layer_maps: PETAL PREDICATE G1 (witness-exhaustive bounded atlas): at every of [TARGET]\n  ! petal_k4_primitive_bound: PETAL PREDICATE K4 (stabilizer-primitive bound, band-restricted ch [TARGET]\n  ! petal_small_scale_staircase_census: PETAL SMALL-SCALE STAIRCASE CENSUS (the gate node minted 2026-07-1 [TARGET]\n  ! rate_half_band_closure: FLOOR CONJECTURE (BAND-DETERMINATION): the rate-1/2 band determina [TARGET]\n  ! ww_row_envelope_clause: ROW-ENVELOPE DICHOTOMY (W3; SCK clause (ii) at the cell-conditiona [TARGET]\n  ! xr_highcore_collision_count: XR PREDICATE P-A (high-core collision count). At each of the six c [TARGET]\n  ! xr_lowcore_spread_heart: XR PREDICATE P-B (low-core spread heart \u2014 the anti-concentration h [TARGET]\nprize-dag: 578 nodes, 1006 edges\nstatus counts: CONDITIONAL:41, CONJECTURE:15, PROVABLE:27, PROVED:414, REFUTED:20, TARGET:54, WALL:7\nRIPE (requirements met, declaration pending): m4_table, window_m5_charts\nCONDITIONAL with no open wired hypothesis (prose-only conditions or flip-ready): packaging\nARTIFACT-KIND nodes (not truth-apt; reword to propositional core or demote): alpha_front, beta_front, dossier_partial, m4_table, replay_170_171, strat_tree, v13_frontier_row_packets, window_m5_charts\nSTATUS-ARTIFACT GAPS (folders lagging statuses): 25\n  - spi_exceptional_class: missing statement.md\n  - stratification_partition_thm: missing statement.md\n  - spi_component_control: missing statement.md\n  - integer_code_distance_cert: status PROVED but no proof.md\n  - u2_per_row_certifier: status PROVED but no proof.md\n  - generator_size_budget_check: status PROVED but no proof.md\n  - hankel_sparse_atoms_as_rational_defects: missing statement.md\n  - hankel_rank_profile_entropy: missing statement.md\nAMBER-INVARIANT WARNINGS (1) \u2014 predicates to wire:\n  ~ packaging: CONDITIONAL but all wired hypotheses PROVED (promote or re-wire)\nPASS: structure, refs, acyclicity, reachability, status propagation\n"
+      "stdout_tail": "red of HGE4's route-3 surgery, minted 2026-0 [TARGET]\n  ! petal_g1_layer_maps: PETAL PREDICATE G1 (witness-exhaustive bounded atlas): at every of [TARGET]\n  ! petal_k4_primitive_bound: PETAL PREDICATE K4 (stabilizer-primitive bound, band-restricted ch [TARGET]\n  ! petal_small_scale_staircase_census: PETAL SMALL-SCALE STAIRCASE CENSUS (the gate node minted 2026-07-1 [TARGET]\n  ! rate_half_band_closure: FLOOR CONJECTURE (BAND-DETERMINATION): the rate-1/2 band determina [TARGET]\n  ! ww_row_envelope_clause: ROW-ENVELOPE DICHOTOMY (W3; SCK clause (ii) at the cell-conditiona [TARGET]\n  ! xr_highcore_collision_count: XR PREDICATE P-A (high-core collision count). At each of the six c [TARGET]\n  ! xr_lowcore_spread_heart: XR PREDICATE P-B (low-core spread heart \u2014 the anti-concentration h [TARGET]\nprize-dag: 586 nodes, 1019 edges\nstatus counts: CONDITIONAL:42, CONJECTURE:15, PROVABLE:27, PROVED:421, REFUTED:20, TARGET:54, WALL:7\nRIPE (requirements met, declaration pending): m4_table, window_m5_charts\nCONDITIONAL with no open wired hypothesis (prose-only conditions or flip-ready): packaging\nARTIFACT-KIND nodes (not truth-apt; reword to propositional core or demote): alpha_front, beta_front, dossier_partial, m4_table, replay_170_171, strat_tree, v13_frontier_row_packets, window_m5_charts\nSTATUS-ARTIFACT GAPS (folders lagging statuses): 27\n  - spi_exceptional_class: missing statement.md\n  - stratification_partition_thm: missing statement.md\n  - spi_component_control: missing statement.md\n  - integer_code_distance_cert: status PROVED but no proof.md\n  - u2_per_row_certifier: status PROVED but no proof.md\n  - generator_size_budget_check: status PROVED but no proof.md\n  - hankel_sparse_atoms_as_rational_defects: missing statement.md\n  - hankel_rank_profile_entropy: missing statement.md\nAMBER-INVARIANT WARNINGS (1) \u2014 predicates to wire:\n  ~ packaging: CONDITIONAL but all wired hypotheses PROVED (promote or re-wire)\nPASS: structure, refs, acyclicity, reachability, status propagation\n"
     },
     {
       "returncode": 0,
       "script": "tools/verify_wild_row_audit.py",
-      "seconds": 26.371883,
+      "seconds": 31.645589,
       "sha256": "304aab9d7f08b41029808a829a23a7987e212ebda24dc1b8f8cd32568b72eee3",
       "status": "PASS",
       "stderr_tail": "",

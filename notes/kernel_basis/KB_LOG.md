@@ -1009,3 +1009,28 @@ window-law falsifier's own pre-registered no-deviation read now
 holds at 3 scales / ~200 primes / q to 2^40 with exact fine
 structure. Open flank named: non-polynomial received words. Next
 probe (Modal, validated, pre-registered) launched.
+
+## 40 — 2026-07-12: WAVE-3 banked — the census gate REDUCED to one
+## quantified ledger; K4 narrowed; the fence scoped (catches #104-#107)
+
+Four v2 commits audited and imported (2 clean, 2 with repairs; 8
+verifiers replayed + 3 fresh audit scripts banked). The DESCENT
+CHAIN is the prize: exact-scale-M classes inject into M-interleaved
+quotient lists (consumes the wave-1 collapse theorem; in-vivo
+perfect vs all 372 banked census cells; EXACT — bound = truth — at
+the four banked rate-half cells, 719x inside budget), ESP extends
+it property-preserving (my brute-force supplement: 606 configs, 0
+fails — codex's verifier was arithmetic-only, below house parity),
+and the geometric ledger prices the scale sum with correct #102
+dedup. THE CENSUS GATE'S OPEN CONTENT IS NOW: a row-uniform
+aperiodic quotient-row bound C (n/M)^6, C <= 63/64, over ALL
+dyadic quotient rows (catch #106 — n/M is not an official row; no
+K4 form supplies the quantifier; printed to prevent a false
+close). K4 narrowed by three proved Johnson tools (the band
+condition = pin P1 exactly; the a-seam checked against upstream;
+#107: the retained-zero chart clause pinned into G1). Rate-half
+fence: proved, but #105 — cap-proxy-only and q-graded (2^91.85 top
+-> 2^2.6 bottom); the binding eps* lane is untouched. CATCH #104
+(custody): both v2 statement rewrites were built pre-#101/#102 and
+would have clobbered banked catch content — merged, not replaced;
+the codeword-vs-class quantity swap noted, not silently adopted.

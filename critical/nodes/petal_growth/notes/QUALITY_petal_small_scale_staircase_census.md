@@ -23,3 +23,12 @@ has ~500x headroom at the tightest cell. Falsifier RE-POSED (catch #101:
 the original was structurally unsatisfiable at small rows) — rising ratio
 trend at n' < 2^11, literal column excess at n >= 2^11. Layout pin banked
 (true fiber-aligned convention). Certificate: Q-SURV EXECUTED.
+
+## PROVED REDUCTION (2026-07-12 wave-3)
+
+The gate is reduced (not closed): descent -> interleaved quotient lists ->
+ESP projection -> geometric ledger, every link PROVED and independently
+replayed (descent in-vivo perfect against all 372 banked cells; EXACT at
+the four rate-half cells). Residual (catch #106): a ROW-UNIFORM aperiodic
+quotient-row bound C(n/M)^6, C <= 63/64, over all dyadic quotient rows —
+the census gate's open content is now this single quantified ledger.

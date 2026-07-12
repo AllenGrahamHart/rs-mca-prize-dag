@@ -35,3 +35,10 @@ materially strengthened in the falsifier's own terms. Open flank named:
 non-polynomial received words. Next intensity: the validated Modal census
 (notes/witness_hunt_20260712/rh_band_witness_census_modal.py, pre-registered
 reads R1a-R2d) — crossing INTO the starved regime at n = 128/256 scales.
+
+## AMPLIFICATION FENCE (2026-07-12 wave-3, appended after the witness-hunt log)
+
+The fence theorem is proved and consistent with the hunt record (it
+re-derives the ~92-bit cap-proxy distance). Scope (catch #105): q-graded
+and cap-proxy-only — the binding eps* lane's protection remains the
+mechanism kills, not this fence.
