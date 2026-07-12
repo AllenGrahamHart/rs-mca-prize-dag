@@ -1070,3 +1070,30 @@ pending maintainer review + the remaining M-items (M2/M3/M4/M5).
 Catch #108 pinned at the posed /33 form. One driver-side fix at
 launch (host numpy — the remote shards were unaffected; shard 0
 had already passed on the first attempt).
+
+## 43 — 2026-07-13: quotient-row ledger packet r1 (own lane) —
+## PARTIAL, audit-pending; the census/K4 frontier UNIFIES
+## (catches #109-#111)
+
+Own-lane proof attempt (post-crash relaunch, 13.5MB peak): three
+proved windows pending fresh-context audit — T1 support-count
+(n' <= 32: the top FOUR dyadic scales of every official row,
+ESP-free, exact binomial arithmetic), T2 Johnson (above the
+Johnson radius at quotient parameters; Paper D theorem verified
+generic in the evaluation set), T3 a new 3-line lemma closing all
+M >= k scales (catch #111: 87 pairs that NO existing supplier
+covered — the (16,6) banked records were the exhibit). CRUX
+POSITIVE: A >= k+M at official rows => descended a >= k'+1 always
+(2,900 pairs) — no degenerate cell, edge band empty, multiplicity
+-1 a theorem. Consistency: all 514 banked profile cells + fresh
+42-word in-vivo replay pass. RESIDUAL SHARPENED to the row-level
+aperiodic sub-Johnson quotient bound — a SINGLE CELL a = k'+1 per
+(row, M) pair under P1-own — and it IS K4's content in row-level
+form at oversized field: ONE lemma now serves both reds. CATCH
+#109 (structural): ESP cannot transport C(n/M)^6-sized bounds at
+minimal field for n' > n^(1/3) — the residual must be minted at
+<= q - 2n' strength or ESP-free (O(n'^2) true size transports
+everywhere). #110: deep-regime window unconsumable (my own
+brief's tiling sketch was wrong on BOTH ends — banked honestly).
+NEXT: fresh-context packet audit (queued, single agent), then the
+gate/K4 unified-lemma surgery.
