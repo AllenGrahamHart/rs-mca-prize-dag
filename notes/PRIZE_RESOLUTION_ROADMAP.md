@@ -629,3 +629,37 @@ untracked premises, or a volume of small-case evidence. Stop only at full
 termination under section 9 of the roadmap, or when explicitly paused by the
 user.
 ```
+
+---
+
+## Master addendum r1 (2026-07-12, post-integration; maintainer)
+
+1. LEAF-TABLE RECONCILIATION: master's surface carries ELEVEN red leaves,
+   not ten — the K4 petal family (section 2.2) is three leaves: G1, K4,
+   and `petal_small_scale_staircase_census` (minted as the price of the
+   G2 flip: the M <= t class needed an OWNER node, not only a routing
+   assignment — KB #33, catch #80). The section's own prose ("the
+   periodic staircase lower floor is real and must remain a separate
+   paid profile") already agrees; the table predated the bundle.
+2. WP2 STALL CRITERION (amendment): WP2 (realized-image inverse-LO/Sidon
+   theorem) is the plan's single hardest bet with four consumers. Pin a
+   fallback: if no WP2 increment survives audit within a bounded number
+   of attempts, the consumers decouple onto their independent lanes
+   (summit -> the Dedekind/L-function lane; W3 -> the direct certificate
+   route; XR low-core -> the E27/SCK program; K4 -> chart-level census).
+   The switch trigger is a route decision to be taken explicitly, not by
+   drift.
+3. EARLY RATE-HALF WITNESS LANE (amendment): WP7's witness hunt starts
+   NOW at low intensity, not after WP5/WP6 — it is the plan's terminal
+   risk and the highest-information falsification target for the window
+   law (either a new priced family beyond the n/256 quotient plateau, or
+   sustained absence sharpening the first-moment confidence). Runs in
+   the falsification track alongside the proof program.
+4. #493 DEPENDENCY (WP5): the sub-bit-margin constants discipline is
+   gated by the pending upstream conventions ruling (issue #493); both
+   branches are pre-planned (constant-exact vs poly), and the W3-direct
+   min-branch baking means a ruling can only relax the ww lane.
+5. DIVISION OF EXECUTION: Codex's loop runs sections 4/7 (proving);
+   master runs the audit gate (every import cluster-audited at a pinned
+   SHA — KB #32-#35 pattern), the falsification track (red-quality
+   Q-SURV lanes), and upstream mining. One-writer on master unchanged.
