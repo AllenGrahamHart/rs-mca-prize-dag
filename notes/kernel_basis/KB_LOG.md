@@ -919,3 +919,41 @@ binding) and R2 (certificate obligation), with a verifier
 mechanically incompatible with house history retention. Salvage
 notes imported with re-landing conditions; message to Codex on
 the node. Task hygiene: #21 closed; grand-loop task #26 opened.
+
+## 37 — 2026-07-12: COMPLETE DICHOTOMY replayed PROVED; HGE4 route 3
+## banked; the SP-CENSUS-2 phantom dissolves (catches #95-#97)
+
+The upstream x81 + x24 + x83 classification survived full replay:
+verifiers 15/40/36/101 PASS from fresh origin/main extraction;
+proofs read line-by-line (one implicit Teichmuller lift step —
+addendum banked); independent implementations — symbolic through
+h = 12, exhaustive censuses at 76 cells (96,799 minimal trades,
+712 exact O_K norm verifications, biconditional exhaustive), and
+the hero row F1153/mu32 h = 8 FULLY ENUMERATED (sharded 10.5M):
+6 minimal 8-trades, ALL full-fiber coset pairs, ZERO norm-gate,
+ZERO non-toral. Every observed minimal h-trade is full-fiber-paid
+(2-power h) XOR a p-specific norm-gate event. No third class.
+
+CATCH #95 (MAJOR, against our bank, outlook-IMPROVING): the
+SP-CENSUS-2 'A_8 = 976 norm-gate mass' that has stalked the h >= 4
+lane since the band derivation is a CURRENCY MISLABEL — in the F-4
+minimal currency the exhaustive truth at that row is ZERO; the 976
+is anchored ordered uncharged BAND (t=3) pairs, reproduced exactly
+under both anchoring conventions. Three master texts corrected
+(width-cap node, u1_x4 band-pin note, HGE4 quality cert). The
+vacancy model is UNVIOLATED in the correct currency; the width-cap
+route is back in play; RECLASS-976 resolved; the F-4 pin is
+demonstrated LOAD-BEARING (976 vs 0 at the same row).
+
+ROUTE 3 BANKED on HGE4: stripped records ⊆ norm-gate events
+(full-fiber mass = quotient-strip material), reducing HGE4 to
+NG-COUNT — explicit arithmetic, ~9 orders of magnitude of naive
+room at s = 13. CATCH #96 GUARD: NG-ZERO (upstream's 'small-h
+mathematics DONE' framing) is NOT consumable — corridor-infinite,
+a3-infeasible at official n, and predicted FALSE at boundary rows
+for 4 <= h < H_vac (the empirical zeros all sit in the vacant
+zone). NG-COUNT mint deferred one cycle pending the in-flight
+stripped census (re-read under #95). CATCH #97: x83 stale
+title/scope counts. Catch-number reconciliation: the dich agent
+proposed #90-#92; banking order assigns #95-#97 (wave-2 took
+#90-#94).

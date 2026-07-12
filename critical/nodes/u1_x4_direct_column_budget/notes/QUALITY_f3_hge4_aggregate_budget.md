@@ -24,3 +24,16 @@ Q-MIN (annotation): the 14 is a compiler allocation, not a predicted sharp
 constant — re-balanceable against the h=2/h=3 reservations without
 re-surgery (split freedom, the xr pattern); only the total 16 is
 consumer-pinned.
+
+## ROUTE 3 + CATCH #95 (2026-07-12, dichotomy replay)
+
+The upstream complete dichotomy is PROVED and replayed (see the node's
+route-3 addendum): stripped records are norm-gate events, so HGE4 reduces
+to NG-COUNT — an explicit arithmetic object with ~9 orders of magnitude of
+room at the binding row under the naive model. CORRECTION (#95): this
+certificate's queued census "including the SP-CENSUS-2 adversarial class"
+must be re-read — that class is BAND-currency (A_8^nt = 0 exhaustively in
+minimal currency at the hero row); the vacancy model is UNVIOLATED in the
+F-4 currency, and route 1 (the width cap) is back in play. NG-ZERO remains
+NOT consumable (catch #96: predicted false at boundary rows for
+4 <= h < H_vac; empirical zeros are all in the vacant zone).
