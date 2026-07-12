@@ -883,12 +883,22 @@
   },
   {
    "id": "petal_g2_support_forcing",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": ""
   },
   {
+   "id": "petal_g3_full_support_codeword_injectivity",
+   "label": "PROVED",
+   "title": "A full canonical staircase support determines at most one codeword"
+  },
+  {
    "id": "petal_g3_pricing_multiplicity",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
+   "title": ""
+  },
+  {
+   "id": "petal_g3_profile_conversion_identity",
+   "label": "PROVED",
    "title": ""
   },
   {
@@ -898,6 +908,11 @@
   },
   {
    "id": "petal_k4_primitive_bound",
+   "label": "UNPROVED",
+   "title": ""
+  },
+  {
+   "id": "petal_small_scale_staircase_census",
    "label": "UNPROVED",
    "title": ""
   },
@@ -2293,6 +2308,22 @@
   {
    "from": "f3_h3_three_to_one_c36",
    "to": "f3_h3_direct_floor_conditional_close"
+  },
+  {
+   "from": "petal_small_scale_staircase_census",
+   "to": "petal_growth"
+  },
+  {
+   "from": "petal_g3_profile_conversion_identity",
+   "to": "petal_g3_pricing_multiplicity"
+  },
+  {
+   "from": "petal_g3_full_support_codeword_injectivity",
+   "to": "petal_g3_pricing_multiplicity"
+  },
+  {
+   "from": "petal_g1_layer_maps",
+   "to": "petal_g3_pricing_multiplicity"
   }
  ]
 }
