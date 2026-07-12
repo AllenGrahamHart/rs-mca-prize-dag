@@ -1056,3 +1056,17 @@ posed /33 form when banking results). Hygiene: the banked
 f2b_replay script overwrites its own .json if re-run in place —
 replay from copies only. Scripts + validation record banked in
 the dli node notes. LAUNCHED on Modal (background).
+
+## 42 — 2026-07-13: dli M1 SURVIVED — C2'' promotion-eligible
+
+The sharded n=64 tower census ran clean on Modal (shard-0 gate
+PASS; literal-MITM == grid-DP xcheck exact at all classes). F-a:
+no sustained super-polylog bulk trend at either depth (0 of >= 2
+required). F-c: the Poisson window law HOLDS at 30+ fixed-shape
+rows — primary exceedance p = 2.58e-2 in the UNDERSHOOT direction
+(0 observed vs 3.957 expected), secondary quanta p = 0.382. C2''
+F-round count 0 -> 1: promotion-eligible per the node-pinned rule,
+pending maintainer review + the remaining M-items (M2/M3/M4/M5).
+Catch #108 pinned at the posed /33 form. One driver-side fix at
+launch (host numpy — the remote shards were unaffected; shard 0
+had already passed on the first attempt).

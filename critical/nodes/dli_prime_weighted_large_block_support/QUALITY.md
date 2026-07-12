@@ -25,3 +25,13 @@ yet (falsifiers F-a/F-b/F-c pre-registered in notes/C2PP_POSED_20260710.md).
 Q-MIN (annotation): certified minimal by construction and by battle: the
 nine-round record is precisely the demonstration that every strictly
 stronger sibling is false or unsupported while B stands.
+
+## M1 ROUND (2026-07-13): C2'' SURVIVES — promotion-eligible
+
+The decisive queued experiment ran on Modal (sharded per the 7GB pacing
+law; shard-0 gate + cross-strategy xcheck exact): F-a and F-c both NOT
+FIRED, with the F-c primary an undershoot (0 accidents vs 3.957 expected
+— the safe direction). C2'' has survived its first adversarial round; the
+F-round rule's bar for wiring it as a predicate is now met pending
+maintainer review. The dli amber still needs M2 (C1' re-pose + round),
+M3 (ENDPOINT-EXC), M4 (assembly verifier), M5 (2^121 confirmation).
