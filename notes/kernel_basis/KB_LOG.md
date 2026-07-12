@@ -957,3 +957,35 @@ stripped census (re-read under #95). CATCH #97: x83 stale
 title/scope counts. Catch-number reconciliation: the dich agent
 proposed #90-#92; banking order assigns #95-#97 (wave-2 took
 #90-#94).
+
+## 38 — 2026-07-12: BOTH falsification first-attempts SURVIVED;
+## NG-COUNT minted; HGE4 -> CONDITIONAL (catches #98-#101)
+
+CENSUS GATE: survived with the falsifier firing in the OPPOSITE
+direction (ratio decays 100x across scales); the n'=8 cell proves
+the allowance constant necessary (>= 4/3; 719 has ~500x headroom);
+enumeration provably complete via the stabilizer partition. CATCH
+#101 (posedness, against my own mint): the original falsifier was
+structurally unsatisfiable at n' <= 32 — re-posed as ratio-trend
+(small rows) / literal excess (n >= 2^11). CATCH #98: witness-1
+verifier's w2 CLI mode is a stub (exit 1); load-bearing modes
+green.
+
+HGE4: deep aggregate EXACTLY 0 everywhere scanned — complete n=16
+row certificates, adversarial n=32 boundary rows, n=64 slices; the
+lone sub-threshold exceptional cell fully consumed. INDEPENDENT
+CONVERGENCE with the dichotomy replay on the 976 finding (two
+agents, different methods: deep = 0, the 976 is shallow currency)
+— catch #95 double-confirmed. CATCH #99 (quantified): the
+un-pinned shallow mass grows geometrically (x4.3-5.5 per h) and
+would cross 14n^3 near h ~ 12 — the F-4 pin is load-bearing-for-
+TRUTH; A5 re-open = KILL, recorded as such. CATCH #100: the
+five-strips convention is 3/5 operationally defined (U2/DLI have
+no in-repo analog; survival unaffected, kill-claims gated).
+
+SURGERY: NG-COUNT minted (TARGET, key; full corridor; the census
+record as Q-SURV seed) req -> HGE4 -> CONDITIONAL via the
+dichotomy bridge (x81/x83 req-wired; factor-2 + strip pins). The
+U16 amber's tail slot now rides a PROVED classification + a
+survived first census. Surface reds: 11 (census gate's slot
+unchanged; HGE4 red -> NG-COUNT red).

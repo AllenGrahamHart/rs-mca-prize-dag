@@ -12,3 +12,14 @@ the paid-family shape, which is the evidence FOR the budgeted-column
 form). QUEUED first executed attempt: extend the g2-falsification
 machinery to count realized small-scale classes per U at scaled rows vs
 the 719 x column line (local, exact; the falsifier's direct shape).
+
+## EXECUTION LOG (2026-07-12): FIRST ATTEMPT SURVIVED
+
+372 U-cells, provably-complete periodic enumeration, 833 small-scale class
+instances (scale-2 concentrated, multiplicity 1 everywhere), ZERO budget
+excesses, ratio decaying two orders of magnitude across scales. The n'=8
+cell (ratio 4/3) proves the allowance constant is genuinely needed; 719
+has ~500x headroom at the tightest cell. Falsifier RE-POSED (catch #101:
+the original was structurally unsatisfiable at small rows) — rising ratio
+trend at n' < 2^11, literal column excess at n >= 2^11. Layout pin banked
+(true fiber-aligned convention). Certificate: Q-SURV EXECUTED.
