@@ -812,9 +812,19 @@
    "title": "Grand List: determine delta* (|Lambda| <= 2^-128 |F|)"
   },
   {
+   "id": "list_large_m_scope_closure",
+   "label": "CONDITIONAL",
+   "title": "Arbitrary-arity list closure from the base crossing"
+  },
+  {
    "id": "list_planted_arithmetic",
    "label": "CONDITIONAL",
    "title": "Exact planted-count formulas + the Diophantine window vs eps*|F| (list dodge/census)"
+  },
+  {
+   "id": "list_subsqrt_interleaving_collapse",
+   "label": "PROVED",
+   "title": "Sub-square-root interleaving collapse"
   },
   {
    "id": "mca_grand",
@@ -2333,6 +2343,18 @@
   {
    "from": "f3_h3_mobius_excess_half",
    "to": "f3_h3_three_to_one_c36"
+  },
+  {
+   "from": "list_large_m_scope_closure",
+   "to": "list_grand"
+  },
+  {
+   "from": "list_adjacency_closing",
+   "to": "list_large_m_scope_closure"
+  },
+  {
+   "from": "list_subsqrt_interleaving_collapse",
+   "to": "list_large_m_scope_closure"
   }
  ]
 }
