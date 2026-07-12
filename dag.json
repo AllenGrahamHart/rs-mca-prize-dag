@@ -37,7 +37,7 @@
     "proof_sketch/s7_list_side.md"
    ],
    "statement": "For each admissible C and constant m: exhibit adjacent delta with |Lambda(C^{==m},.)| crossing 2^-128 |F| at it. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
-   "notes": "Same three-rate pivot applies (list side mirrors: clean extras-zero margins at 1/4-1/16; the rate-1/2 band is a list-side object). | TOP-LAYER SUFFICIENCY AUDIT (2026-07-04, user-prompted): the conjunction of the five req children IS sufficient, definitional-with-guards: list_adjacency_closing carries the grand's operational content per-row (the adjacent-delta exhibit); list_safe/list_unsafe supply the two bounds the exhibit consumes; s0_zero_open guards object-identity (axes EQUAL or BRIDGED, loss printed); mixed_radix_frontier guards the domain family (likely vacuous under the 2-power reading). QUANTIFIER COVERAGE VERIFIED: rate 1/2 is NOT silently missing \u2014 it enters as rate_half_coverage_gap, a req of list_adjacency_closing; the m-quantifier is carried by rules_m_reading (PROVED) as ev of the closing node and inside list_safe's statement. NOTED REDUNDANCY (harmless): safe/unsafe are partially restated inside the closing node's exhibit \u2014 conjunction remains sufficient. SEAM TO WATCH: list_safe's 'above the window' language must match the closing exhibit's delta convention \u2014 that seam is exactly s0's axis discipline. | FLIPPED TARGET -> CONDITIONAL 2026-07-04: the assembly implication is a PACKET (list_grand_assembly_implication.md) with a statement-pin verifier \u2014 edits to any child's statement fail the packet and force re-refereeing. The prize's list half is now proved conditional on its five inputs. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md. | CODEX ROUND-2 (replayed): premise package weakened (redundant diamonds -> ev); logical surface minimized."
+   "notes": "Same three-rate pivot applies (list side mirrors: clean extras-zero margins at 1/4-1/16; the rate-1/2 band is a list-side object). | TOP-LAYER SUFFICIENCY AUDIT (2026-07-04, user-prompted): the conjunction of the five req children IS sufficient, definitional-with-guards: list_adjacency_closing carries the grand's operational content per-row (the adjacent-delta exhibit); list_safe/list_unsafe supply the two bounds the exhibit consumes; s0_zero_open guards object-identity (axes EQUAL or BRIDGED, loss printed); mixed_radix_frontier guards the domain family (likely vacuous under the 2-power reading). QUANTIFIER COVERAGE VERIFIED: rate 1/2 is NOT silently missing \u2014 it enters as rate_half_coverage_gap, a req of list_adjacency_closing; the m-quantifier is carried by rules_m_reading (PROVED) as ev of the closing node and inside list_safe's statement. NOTED REDUNDANCY (harmless): safe/unsafe are partially restated inside the closing node's exhibit \u2014 conjunction remains sufficient. SEAM TO WATCH: list_safe's 'above the window' language must match the closing exhibit's delta convention \u2014 that seam is exactly s0's axis discipline. | FLIPPED TARGET -> CONDITIONAL 2026-07-04: the assembly implication is a PACKET (list_grand_assembly_implication.md) with a statement-pin verifier \u2014 edits to any child's statement fail the packet and force re-refereeing. The prize's list half is now proved conditional on its five inputs. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md. | CODEX ROUND-2 (replayed): premise package weakened (redundant diamonds -> ev); logical surface minimized. | 2026-07-12 ARITY SCOPE REPAIR (cluster import, audit-gated): the constant-m limitation is lifted \u2014 list_large_m_scope_closure (CONDITIONAL on exactly the m=1 adjacent crossing) req-wired, riding the PROVED general projection-collision theorem list_subsqrt_interleaving_collapse (L_m = L whenever L^2 < q; the prize cap |F| < 2^256 forces L^2 < q on the safe side; unsafe side needs only the diagonal). Same adjacent pair for EVERY m >= 1 \u2014 strictly stronger than the per-constant-m reading; supersedes the m <= 16..31 sweep coverage. TRANSPORT CONVENTIONS PINNED: closed-ball agreement (R3), integer threshold B* = floor(|F|/2^128), sup_U per-witness, base-field denominator |F|, cap |F| < 2^256 (rules_freeze) \u2014 a convention re-ruling on exactly these axes reopens the transport, nothing else."
   },
   {
    "id": "packaging",
@@ -133,7 +133,7 @@
     "wp_detail/wp0_2_wp4_4_rules_freeze_and_dither.md#2"
    ],
    "statement": "THE RULES-FACT (closed by citation, not proof): the operative prize rules are exactly \u2014 smooth domain = coset of a power-of-2-order subgroup; k <= 2^40; |F| < 2^256; rates EXACT in {1/2, 1/4, 1/8, 1/16} (no dither latitude); the m-quantifier per rules_m_reading (family-per-constant-m). Certificate = quote + hash of proximityprize.org and ePrint 2026/680 with a drift detector; on any residual ambiguity the campaign plans against the stricter reading. (Reworded 2026-07-04 from task form to propositional form \u2014 node-kind hygiene.)",
-   "notes": "ADD TO THE FREEZE TABLE (crux-2-relevant): does a proved-correct per-row decision procedure emitting machine-checkable certificates satisfy the grand challenges' 'determine for each admissible C' \u2014 i.e., are compiler semantics acceptable? The answer moves the certifier_uniformity burden dramatically. | WIRING COMPLETED (user catch #4, 2026-07-04): rules_m_reading (PROVED) was an unwired component \u2014 now req. Component ledger: field_cap_check WIRED+PROVED; m-reading WIRED+PROVED; smooth-reading and rates-exactness citations RESOLVED in the rules-layer resolution (blueprint line 102 / live-fetch quotes, ba75cec7) but not yet assembled as the quote+hash certificate \u2014 THAT assembly is exactly the declaration act this node's amber awaits. The amber is now honestly scoped: requirements-met on the wired components; certificate assembly pending. | PAPER VERIFICATION PASS (2026-07-04, abf26.pdf in-repo, sha256 426a979c13cc61db0f2cdb909067ef4c9f244388...): COMPONENT 1 CONFIRMED VERBATIM from the actual paper, p.4: 'we will focus almost exclusively on the Reed-Solomon code C := RS[F,L,k] where L is a multiplicative subgroup of F whose size is a power of two' \u2014 NUANCE: subgroup, not coset; our coset-form analysis is the conservative superset. NOT LOCATED in the pages read (1-4, 12-15, 32-33): the k <= 2^40 / |F| < 2^256 caps (sec 6.4 is the toy-protocol Koala Bear example, NOT the prize caps), the exact-rate set, the constant-m wording \u2014 these are PRIZE-PAGE constants per the earlier live-fetch quotes (wp0_2), and field_cap_check's provenance should be re-pointed accordingly. VERDICT: NO GREEN FLIP on a partial pass \u2014 remains amber; remaining act = locate/quote the caps' authoritative source (prize page + paper section sweep) and assemble the full quote+hash certificate. | FLIPPED GREEN 2026-07-04: ALL FOUR COMPONENTS CONFIRMED VERBATIM from abf26.pdf p.5 (the two grand-challenge boxes + the caps sentence) \u2014 citation certificate with quotes, pages, and PDF sha256 at experimental/data/certificates/rules-freeze/rules_freeze_citation.json. Closure: citation. BONUS: Theorem 4.7 [Jo26] (interleaved MCA = base MCA exactly) recorded for the m_handling consumers.",
+   "notes": "ADD TO THE FREEZE TABLE (crux-2-relevant): does a proved-correct per-row decision procedure emitting machine-checkable certificates satisfy the grand challenges' 'determine for each admissible C' \u2014 i.e., are compiler semantics acceptable? The answer moves the certifier_uniformity burden dramatically. | WIRING COMPLETED (user catch #4, 2026-07-04): rules_m_reading (PROVED) was an unwired component \u2014 now req. Component ledger: field_cap_check WIRED+PROVED; m-reading WIRED+PROVED; smooth-reading and rates-exactness citations RESOLVED in the rules-layer resolution (blueprint line 102 / live-fetch quotes, ba75cec7) but not yet assembled as the quote+hash certificate \u2014 THAT assembly is exactly the declaration act this node's amber awaits. The amber is now honestly scoped: requirements-met on the wired components; certificate assembly pending. | PAPER VERIFICATION PASS (2026-07-04, abf26.pdf in-repo, sha256 426a979c13cc61db0f2cdb909067ef4c9f244388...): COMPONENT 1 CONFIRMED VERBATIM from the actual paper, p.4: 'we will focus almost exclusively on the Reed-Solomon code C := RS[F,L,k] where L is a multiplicative subgroup of F whose size is a power of two' \u2014 NUANCE: subgroup, not coset; our coset-form analysis is the conservative superset. NOT LOCATED in the pages read (1-4, 12-15, 32-33): the k <= 2^40 / |F| < 2^256 caps (sec 6.4 is the toy-protocol Koala Bear example, NOT the prize caps), the exact-rate set, the constant-m wording \u2014 these are PRIZE-PAGE constants per the earlier live-fetch quotes (wp0_2), and field_cap_check's provenance should be re-pointed accordingly. VERDICT: NO GREEN FLIP on a partial pass \u2014 remains amber; remaining act = locate/quote the caps' authoritative source (prize page + paper section sweep) and assemble the full quote+hash certificate. | FLIPPED GREEN 2026-07-04: ALL FOUR COMPONENTS CONFIRMED VERBATIM from abf26.pdf p.5 (the two grand-challenge boxes + the caps sentence) \u2014 citation certificate with quotes, pages, and PDF sha256 at experimental/data/certificates/rules-freeze/rules_freeze_citation.json. Closure: citation. BONUS: Theorem 4.7 [Jo26] (interleaved MCA = base MCA exactly) recorded for the m_handling consumers. | CATCH #89 CORRECTION (2026-07-12, Codex-found, replay-CONFIRMED against the survey pdf): the BONUS sentence claiming 'interleaved MCA = base MCA exactly (Theorem 4.7)' is FALSE \u2014 survey Lemma 4.7 is the ONE-SIDED inequality eps_mca(C^{==t},delta) <= t*eps_mca(C,delta). No master consumer leaned on the false equality (m_handling closes via the per-constant-m citation + m_sweep); record hygiene. The uniform-in-m statement is now the PROVED list_subsqrt_interleaving_collapse route instead.",
    "closure": "citation"
   },
   {
@@ -1559,7 +1559,7 @@
    "refs": [
     "proof_sketch/s7_list_side.md#3"
    ],
-   "notes": "Rules resolved: family-per-constant-m. m_le3_route serves the small-m members (conditional only on imgfib now); the large-m members route through a_regular_collapse. Both branches now live, per-m partials creditable. | DISCHARGED BY CITATION (ring-2 sweep, node 3, 2026-07-04): the exhaustive disjunction resolves to its first branch \u2014 the official reading is per-CONSTANT-m (abf26.pdf p.5, the grand list challenge box: 'for a given eps*, and a constant m, determine...'; resolutions are per-(C, m, eps*); rules_m_reading PROVED = family-per-constant-m, partials creditable). Under that reading the worst-case route suffices, with m_sweep (PROVED) covering the affordable range m <= sqrt((n-k)/t) ~ 16-31. HONEST BOUNDARY: constant-m determinations beyond the affordable range would need a-regularity (as rules_m_reading already records) \u2014 each constant-m resolution is separately creditable per the official reading, and the campaign ships the affordable range. The three hypotheses were LEAF-unwired before this audit \u2014 wired as reqs (defect pattern #6, same class as axis 8). | GATE FIX: the node was gate:any over two alt routes built for the for-all-m branch \u2014 the citation killed that branch, so the discharge flows through the reqs directly; alts demoted to ev (kept for the large-m boundary where a_regular_collapse matters). All three reqs PROVED => PROVED."
+   "notes": "Rules resolved: family-per-constant-m. m_le3_route serves the small-m members (conditional only on imgfib now); the large-m members route through a_regular_collapse. Both branches now live, per-m partials creditable. | DISCHARGED BY CITATION (ring-2 sweep, node 3, 2026-07-04): the exhaustive disjunction resolves to its first branch \u2014 the official reading is per-CONSTANT-m (abf26.pdf p.5, the grand list challenge box: 'for a given eps*, and a constant m, determine...'; resolutions are per-(C, m, eps*); rules_m_reading PROVED = family-per-constant-m, partials creditable). Under that reading the worst-case route suffices, with m_sweep (PROVED) covering the affordable range m <= sqrt((n-k)/t) ~ 16-31. HONEST BOUNDARY: constant-m determinations beyond the affordable range would need a-regularity (as rules_m_reading already records) \u2014 each constant-m resolution is separately creditable per the official reading, and the campaign ships the affordable range. The three hypotheses were LEAF-unwired before this audit \u2014 wired as reqs (defect pattern #6, same class as axis 8). | GATE FIX: the node was gate:any over two alt routes built for the for-all-m branch \u2014 the citation killed that branch, so the discharge flows through the reqs directly; alts demoted to ev (kept for the large-m boundary where a_regular_collapse matters). All three reqs PROVED => PROVED. | CATCH #89 CORRECTION (2026-07-12, Codex-found, replay-CONFIRMED against the survey pdf): the BONUS sentence claiming 'interleaved MCA = base MCA exactly (Theorem 4.7)' is FALSE \u2014 survey Lemma 4.7 is the ONE-SIDED inequality eps_mca(C^{==t},delta) <= t*eps_mca(C,delta). No master consumer leaned on the false equality (m_handling closes via the per-constant-m citation + m_sweep); record hygiene. The uniform-in-m statement is now the PROVED list_subsqrt_interleaving_collapse route instead."
   },
   {
    "id": "m_le3_route",
@@ -5176,6 +5176,59 @@
     "background/nodes/f3_h3_factorial_collision_69/attack.md"
    ],
    "statement": "BACKGROUND SUFFICIENT ROUTE. For every official row, with P and R as in f3_h3_mobius_excess_half, M_21=sum_{t!=1}P(t)(P(t)-1)R(t) <=69n^2. Since (m-35)_+ <=m(m-1)/138 for every integer m, this implies X_35<=n^2/2 and closes the critical weighted leaf. The count is the exact codimension-two six-variable incidence ledger consisting of two distinct ordered product representations and one quotient representation of the same t. FALSIFIER: one official row with M_21>69n^2. Boundary calibration: M_21=132310328=1.971577525n^2 at (n,p)=(8192,67657729)."
+  },
+  {
+   "id": "list_subsqrt_interleaving_collapse",
+   "title": "Sub-square-root interleaving collapse",
+   "status": "PROVED",
+   "refs": [
+    "critical/nodes/list_subsqrt_interleaving_collapse/statement.md",
+    "critical/nodes/list_subsqrt_interleaving_collapse/proof.md"
+   ],
+   "statement": "For every F-linear code, agreement threshold, and base worst-list size 1<=L<q=|F|, the m-fold common-support interleaved worst list satisfies L<=L_m<=floor(L(q-1)/(q-L)); hence L_m=L for every m>=1 whenever L^2<q. [2026-07-12 import: independently brute-forced from the statement alone \u2014 1,132 theorem checks + 215 collapse-equality checks, 0 violations; the common-support hypothesis is LOAD-BEARING (separate-support mutation fires); honest limitation: no growth instance exists in the tested grid, so the rational bound's constant is untested (the collapse equality is the tested content). Strictly improves survey Lemma 2.10 [GGR11] in the sub-sqrt regime. audit_bruteforce_20260712.py banked.]"
+  },
+  {
+   "id": "list_large_m_scope_closure",
+   "title": "Arbitrary-arity list closure from the base crossing",
+   "status": "CONDITIONAL",
+   "key": true,
+   "refs": [
+    "critical/nodes/list_large_m_scope_closure/statement.md",
+    "critical/nodes/list_large_m_scope_closure/conditional.md",
+    "critical/nodes/list_large_m_scope_closure/verify.py"
+   ],
+   "statement": "If an admissible row has a base-code adjacent crossing L_1(a0)>B*>=L_1(a0+1), B*=floor(|F|/2^128), then every interleaving arity m>=1 has the same adjacent crossing. The safe equality follows from list_subsqrt_interleaving_collapse because B*^2<|F| under |F|<2^256; diagonal tuples preserve the unsafe witness. This consumes only the m=1 instance of list_adjacency_closing.",
+   "notes": "CONDITIONAL CLOSE 2026-07-12: arbitrary arity is no longer an independent red leaf. The general projection-collision theorem gives L_m=L_1 whenever L_1^2<|F|. The prior codegree, support-census, and extension-field routes remain proved evidence but are not required premises."
+  },
+  {
+   "id": "list_codegree_closed_form",
+   "title": "Finite-depth arbitrary-arity closed form for the codegree recursion",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/list_codegree_closed_form/statement.md",
+    "background/nodes/list_codegree_closed_form/proof.md"
+   ],
+   "statement": "For a_j=k+2^j sigma, base-list maxima B_j, d=max{j:a_j<=n}, and every m>=1, the worst m-interleaved common-support list at a_0 is at most sum_{r=0}^{min(m-1,d)} binom(m-1,r) product_{j=0}^r B_j."
+  },
+  {
+   "id": "list_interleaved_support_census",
+   "title": "Arbitrary-arity support census and exact high-arity value at agreement k",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/list_interleaved_support_census/statement.md",
+    "background/nodes/list_interleaved_support_census/proof.md"
+   ],
+   "statement": "For every RS row, m>=1, and a>=k, the worst common-support m-interleaved list is at most binom(n,a). For every a, it is at least the ceiling of sum_{s>=a} binom(n,s)(q^m-1)^(n-s)/q^(m(n-k)), the exact received-word average. If q^m>binom(n,k+1), its exact value at a=k is binom(n,k)."
+  },
+  {
+   "id": "list_extension_interleaving_identity",
+   "title": "Exact extension-code/interleaving list identity",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/list_extension_interleaving_identity/statement.md",
+    "background/nodes/list_extension_interleaving_identity/proof.md"
+   ],
+   "statement": "For every finite extension E/B of degree m and base-field domain D, coordinate expansion is a Hamming isometry mapping RS[E,D,k] bijectively to RS[B,D,k]^{==m}; all received-word and worst-case list sizes agree exactly. The prize denominator remains |B|. [IMPORT REPAIR #88 (2026-07-12): this re-proves survey Lemma 2.21 = [BCFW25, Lemma D.3] \u2014 citation added; the proof was independently verified pointwise (F_4/F_2 exhaustive) so the uncited re-derivation is sound, just unattributed.]"
   }
  ],
  "edges": [
@@ -10167,6 +10220,41 @@
   {
    "from": "f3_h3_mobius_excess_half",
    "to": "f3_h3_three_to_one_c36",
+   "kind": "req"
+  },
+  {
+   "from": "list_large_m_scope_closure",
+   "to": "list_grand",
+   "kind": "req"
+  },
+  {
+   "from": "list_adjacency_closing",
+   "to": "list_large_m_scope_closure",
+   "kind": "req"
+  },
+  {
+   "from": "list_subsqrt_interleaving_collapse",
+   "to": "list_large_m_scope_closure",
+   "kind": "req"
+  },
+  {
+   "from": "list_codegree_closed_form",
+   "to": "list_large_m_scope_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "list_interleaved_support_census",
+   "to": "list_large_m_scope_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "list_extension_interleaving_identity",
+   "to": "list_large_m_scope_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "codegree",
+   "to": "list_codegree_closed_form",
    "kind": "req"
   }
  ]

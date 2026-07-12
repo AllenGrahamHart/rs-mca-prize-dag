@@ -850,3 +850,34 @@ compilers + 2 open alternates, ev); the direct-floor close and
 the U16 amber UNTOUCHED (byte-identical at pin). Codex self-catch
 noted with approval: the (n-1)^2 typo fixed one commit later,
 verifier correct from mint.
+
+## 35 — 2026-07-12: RESOLUTION-BRANCH INTEGRATION, cluster 4 of 4
+## (arbitrary-arity list): the scope gap of grand challenge 2 goes
+## CONDITIONAL on a proved general theorem (catches #86-#89)
+
+Theorem list_subsqrt_interleaving_collapse READ-SOUND and
+independently brute-forced from the statement alone (1,132 checks
++ 215 collapse equalities, 0 violations; common-support hypothesis
+LOAD-BEARING — the separate-support mutation fires; honest
+limitation recorded: no growth instance exists in-grid, so the
+rational bound's constant is untested). L_m = L whenever L^2 < q;
+the prize cap |F| < 2^256 forces the sub-sqrt regime on the safe
+side — the SAME adjacent pair for EVERY m >= 1, strictly stronger
+than the per-constant-m reading, superseding the m <= 16..31
+sweep. list_large_m_scope_closure minted CONDITIONAL on exactly
+ONE premise: the m = 1 adjacent crossing (list_adjacency_closing).
+Transport conventions pinned on list_grand (closed-ball, integer
+B*, sup_U, base-field |F|, the 2^256 cap).
+
+CATCHES: #86 stale orphan-check pin (branch-side; not imported —
+master lacks the script); #87 wire-invisible premise — the
+codegree req edge added at import; #88 uncited re-derivation of
+survey Lemma 2.21 [BCFW25 D.3] — citation added (proof was
+independently verified, so sound-but-unattributed); #89 (Codex-
+found, replay-CONFIRMED against the survey pdf): master's
+rules_freeze/m_handling BONUS sentence 'interleaved MCA = base
+MCA exactly' is FALSE (Lemma 4.7 is the one-sided factor-t
+inequality) — node-local corrections banked; no consumer leaned
+on it. INTEGRATION COMPLETE: 4/4 math clusters banked, every one
+audit-gated; wave 2 (packaging spine: harness/compiler/dossier)
+awaits its own audit before import.
