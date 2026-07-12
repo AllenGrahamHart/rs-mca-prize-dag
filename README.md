@@ -10,6 +10,9 @@
   packet into the przchojecki/rs-mca experimental/ format for
   upstream PRs).
 - `orbit/` — built artifacts (critical_dag.json, svg, html).
+- `notes/PRIZE_RESOLUTION_ROADMAP.md` — the full-resolution execution
+  roadmap, incremental proof/audit discipline, upstream packet contract,
+  and proposed standing goal text.
 
 Workflow: edit dag.json + node folders -> tools/dag_commit.sh ->
 vendored packets pushed to the fork when mature. The legacy fork
