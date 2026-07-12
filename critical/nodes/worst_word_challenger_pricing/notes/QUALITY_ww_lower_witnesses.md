@@ -37,3 +37,13 @@ refinement.
   the endpoint-conventions seam (WP-0.1/F1, #493-adjacent) + the X-4
   taxonomy identification. WATCH NUMBER: rate-1/8's 7.23-bit coverage
   margin.
+
+## RESOLUTION (2026-07-12): PROVED — red closed by proof
+
+Both seams closed by the imported qcore-witness packet (Codex cda1b62,
+cluster-audited with repairs): endpoint conversion exact, X-4 taxonomy
+never consumed (sup_U existential), witnesses on their own receiver at
+exactly the spending cell. Independent construction replay: 5 cells + 2
+mutation controls. Pins #50/#52/#53 survived. The 7.23-bit rate-1/8
+coverage margin stays recorded as the watch number. This certificate is
+CLOSED — the first red of the program retired by proof.

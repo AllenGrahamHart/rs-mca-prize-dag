@@ -57,7 +57,8 @@ At the date above, the critical orbit contains:
  14 UNPROVED
 ```
 
-The fourteen red leaves are the atomic decomposition of three broader kernel
+The red leaves (fourteen at authoring; twelve after the 2026-07-12 ww-cluster
+import: W2 proved, W1 walled) are the atomic decomposition of three broader kernel
 families. This compression is useful for strategy, but it is not permission to
 assert one universal kernel theorem without proving each consumption bridge.
 
@@ -77,9 +78,7 @@ handled in WP8.
 | `xr_highcore_collision_count` | high-core post-strip slope count | a collision-core classification and actual-ray count within the allocated budget |
 | `xr_lowcore_spread_heart` | low-core anti-concentration in sup form | a source-specific spread/ray theorem at the six clean-rate candidates |
 | `dli_prime_weighted_large_block_support` | correlated joint reserve at nested conditional junctions | a precise C2''-type joint-reserve theorem; factorized transfer is not available |
-| `ww_kcell_upper_lemma` | symbolic rank certificate for `K_cell` | a replayable row-uniform certificate and exact allowance check |
-| `ww_lower_witnesses` | constructive challenger witnesses where that column is spent | close the endpoint/taxonomy seam for the already-large qcore staircase family |
-| `ww_row_envelope_clause` | generated-field-normalized cellwise sup envelope | a constant-exact or explicitly re-attributed source-specific census theorem |
+| `ww_row_envelope_clause` | DIRECT per-word/per-cell count-vs-allowance envelope (W1's certificate obligation absorbed, R2; min-#493 branch baked in) | an independently checkable per-row upper certificate at the exact residual allowance |
 
 The enlarged K2 schema is a coordination device. Its real frontier splits into
 at least four mathematically different tasks:

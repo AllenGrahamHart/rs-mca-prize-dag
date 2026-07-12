@@ -18,3 +18,13 @@ success and failure are both decisive.
 Q-MIN (annotation): minimal by construction (part conjecture — the
 inequality; part computation-owed — the certificate). The mathematical core
 inherits the #493 branch via the allowance clause.
+
+## RETRACTION (2026-07-12, catch #76): certificate void; node WALLED
+
+This certificate's Q-SUFF clause asserted "the symbolic rank machinery
+exists (codim-sigma coincidence system)" — NO SUCH ARTIFACT EXISTS in
+master, archive, or the resolution branch (independent greps, both
+sides). K_cell was never defined; the node was not truth-apt as posed
+(circular proxy only). Eighth instance of the existence-label failure
+shape. W1 is retired to WALL; the certificate obligation lives on in
+W3-direct (repair R2). Retained as the honest record.

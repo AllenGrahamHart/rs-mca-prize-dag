@@ -22,3 +22,13 @@ only — open-window small-q and bg >= 2 do not count).
 Q-MIN (annotation): W3 is the K2 door (SCK clause (ii) instance) — proving
 it likely proves the K2 clause at this face; the #493 branch-B (poly form)
 is the weaker admissible variant if granted.
+
+## DIRECT RE-POSE UPDATE (2026-07-12)
+
+W3 is now the DIRECT per-word/per-cell count-vs-allowance claim with the
+certificate obligation absorbed (repairs R1/R2) and the min-#493 branch
+baked in (a ruling can only relax it). Q-SUFF: re-certified under the
+re-derived assembly (import audit link 15). Q-SURV: prior record stands
+(the 2.417x layout-sup datum + 24/24 census); the queued wider cell sweep
+now targets the DIRECT form's falsifier: an official-convention cell at
+min-branch allowance with N_chal > B_chal.

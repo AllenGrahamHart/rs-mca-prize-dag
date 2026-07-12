@@ -748,3 +748,40 @@ honest-refusal floor with named seams.
 ## written pre-computation. Actual: 227 = {186 PROVED, 27 CONDITIONAL,
 ## 14 UNPROVED}. The qualitative claim stands (14 reds, zero
 ## pre-decomposition floors).
+
+## 32 — 2026-07-12: RESOLUTION-BRANCH INTEGRATION, cluster 1 of 4
+## (worst_word): W2 PROVED — first red closed by proof; W1 WALLED;
+## W3 re-posed direct (catches #76-#78)
+
+Codex's resolution branch (codex/full-prize-resolution, pinned
+0933bb9) audited cluster-by-cluster before banking. WW cluster
+verdict: IMPORT-WITH-REPAIRS (R1-R6, all applied), no refusals.
+
+W2 (ww_lower_witnesses) -> PROVED: both seams closed — endpoint
+conventions by exact conversion (closed-ball pin R3 recorded),
+X-4 taxonomy NEVER CONSUMED (the consumer's sup_U existential
+means qcore witnesses on their own receiver suffice). The packet
+contains the FIRST in-repo proof of thm:qcore (P_A = L_T0(X^k -
+L_A): exactly C(N-1,k/M) codewords at exactly k+sigma agreements)
+— independently replayed by brute polynomial arithmetic (5 cells,
+2 mutation controls); pins #50/#52/#53 all survive. Also repairs
+CATCH #78: master's PROVED qcore node ref'd a nonexistent
+proof_sketch file (compression rot the #66 sweep missed).
+
+W1 (ww_kcell_upper_lemma) -> WALL: the retirement is SOUND —
+K_cell and its coincidence matrix are DEFINED NOWHERE (master +
+archive + branch, independently confirmed); the only executable
+object was circular. CATCH #76: master's own QUALITY certificate
+carried the unsupported "machinery exists" label — the EIGHTH
+existence-label instance, this time inside the quality program's
+own artifact. The certificate obligation is absorbed into
+W3-direct (R2, in the binding statement). CATCH #77: Codex's new
+verify.py advertises three checks that are tautologies (fuzz-
+proved) — augmented at import with the auditor's real
+construction check (verify_construction.py).
+
+W3 re-posed DIRECT (R1 per-word/per-cell semantics; min-#493
+branch baked in — criterion 1 restated per R4: a ruling can only
+relax it). Amber assembly re-derived at import (tighter than the
+old two-step). Surface after cluster 1: reds 14 -> 12. Clusters
+2-4 (petal, C36 chain, arbitrary-arity list) audits in flight.
