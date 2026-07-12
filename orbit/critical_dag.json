@@ -537,8 +537,13 @@
    "title": ""
   },
   {
-   "id": "f3_h3_three_to_one_c36",
+   "id": "f3_h3_mobius_excess_half",
    "label": "UNPROVED",
+   "title": "C36' weighted Mobius rich-fiber excess is at most n^2/2"
+  },
+  {
+   "id": "f3_h3_three_to_one_c36",
+   "label": "CONDITIONAL",
    "title": ""
   },
   {
@@ -2324,6 +2329,10 @@
   {
    "from": "petal_g1_layer_maps",
    "to": "petal_g3_pricing_multiplicity"
+  },
+  {
+   "from": "f3_h3_mobius_excess_half",
+   "to": "f3_h3_three_to_one_c36"
   }
  ]
 }
