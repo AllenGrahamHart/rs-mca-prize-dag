@@ -23,7 +23,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
-CERT = os.path.join(REPO, "nodes", "wild_row_audit", "wild_row_audit.json")
+CERT = os.path.join(REPO, "critical", "nodes", "wild_row_audit", "wild_row_audit.json")
 
 P = 7
 INF = P

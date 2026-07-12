@@ -16,7 +16,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-NODE = ROOT / "nodes" / "official_row_primes_pinning"
+NODE = ROOT / "critical" / "nodes" / "official_row_primes_pinning"
 CERT = NODE / "official_row_primes_reframe.json"
 PROOF = NODE / "proof.md"
 

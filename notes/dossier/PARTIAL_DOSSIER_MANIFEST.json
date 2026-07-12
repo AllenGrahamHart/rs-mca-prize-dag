@@ -1,0 +1,33 @@
+{
+ "schema": "prize-partial-dossier-v1",
+ "status": "PARTIAL_NOT_FULL_PRIZE",
+ "certified_claims": [
+  "pinned_row"
+ ],
+ "required_proved_artifacts": [
+  "pinned_row",
+  "s0_zero_open",
+  "lean_tier1",
+  "compiler",
+  "harness",
+  "bridge_ledger"
+ ],
+ "open_truth_leaves": [
+  "dli_prime_weighted_large_block_support",
+  "f2_growing_order_myerson",
+  "f3_h3_mobius_excess_half",
+  "f3_hge4_aggregate_budget",
+  "petal_g1_layer_maps",
+  "petal_k4_primitive_bound",
+  "petal_small_scale_staircase_census",
+  "rate_half_band_closure",
+  "ww_row_envelope_clause",
+  "xr_highcore_collision_count",
+  "xr_lowcore_spread_heart"
+ ],
+ "replay": [
+  "python3 background/nodes/compiler/audit.py",
+  "python3 background/nodes/harness/audit.py",
+  "python3 background/nodes/lean_tier1/audit.py"
+ ]
+}

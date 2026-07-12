@@ -881,3 +881,41 @@ inequality) — node-local corrections banked; no consumer leaned
 on it. INTEGRATION COMPLETE: 4/4 math clusters banked, every one
 audit-gated; wave 2 (packaging spine: harness/compiler/dossier)
 awaits its own audit before import.
+
+## 36 — 2026-07-12: WAVE-2 INTEGRATION banked — the packaging tier is
+## PROVED on master; cutoff-18 weakening; one refusal enforced
+## (catches #90-#94)
+
+PACKAGING SPINE (harness/compiler/dossier_partial/lean_tier1 all
+-> PROVED as artifact certificates): the fail-closed harness
+confirmed by manifest mutations (3/3 exit-1 with correct
+diagnostics); manifest REGENERATED on master file state (97
+scripts / 173 assets) after healing catch #90 — master's replay
+layer had been SILENTLY BROKEN since the partition reorg
+(replay_all.py globbed the dead nodes/ tree; five verifiers had
+stale paths; all five heals verified against master's own
+assets); catch #91 — f_dual_distance_frame was infeasible under
+the harness budget, replaced by the proven-equivalent
+min-dependent-column form (1000x faster, stronger controls); the
+FULL contract now green: local 97/97 + Modal remote 97/97 +
+harness audit PASS. Compiler: 13/13 adversarial refusal battery
+(open axes, conjectural ledgers, contradictions, monotonicity,
+smuggling). Dossier: Lean Tier-1 REBUILT and kernel-checked
+(#print axioms on all 8 theorems — no sorryAx/native_decide);
+F_17^32 row replays; catch #92 — the non-claims manifest listed
+10 leaves vs master's 11 (the census gate invisible to the local
+orbit check) — repaired; catch #93 — stale '93 PASS' count in the
+dag statement.
+
+C36 LANE: the red weakened in place to cutoff-18 (17 X_18 <=
+300n^2; 68-compiler SHARP; close margin 48/425 > 0; Q-SURV
+transfers with 9x room); cutoff-35/M35 retained as stronger
+background routes; the source-boundary audit banked (KSV/MSS
+citation closes honestly REFUSED — the gap is real).
+
+CATCH #94 — REFUSAL ENFORCED: the 'Align W3' commit replaced the
+statement wholesale, erasing banked repairs R1 (first-match
+binding) and R2 (certificate obligation), with a verifier
+mechanically incompatible with house history retention. Salvage
+notes imported with re-landing conditions; message to Codex on
+the node. Task hygiene: #21 closed; grand-loop task #26 opened.

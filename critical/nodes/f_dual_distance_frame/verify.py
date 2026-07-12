@@ -54,52 +54,78 @@ def nullspace(A, q):
         basis.append(v)
     return basis
 
-def all_codewords(gen, q):
-    """enumerate the linear code spanned by rows of gen (small dims only)."""
-    R = len(gen); n = len(gen[0]) if R else 0
-    for coeffs in itertools.product(range(q), repeat=R):
-        w = [0]*n
-        for i, c in enumerate(coeffs):
-            if c:
-                for j in range(n): w[j] = (w[j] + c*gen[i][j]) % q
-        yield w
+def restricted_matrix(G, S):
+    return [[row[x] for x in S] for row in G]
 
-def dual_code(gen, q):
-    return nullspace(gen, q)         # words c with gen . c = 0
+def supported_dual_word(G, S, q, require_full_support=False):
+    """Return a dual word supported on S, optionally nonzero everywhere on S."""
+    for word in nullspace(restricted_matrix(G, S), q):
+        if not require_full_support or all(word):
+            return word
+    if require_full_support:
+        basis = nullspace(restricted_matrix(G, S), q)
+        for coeffs in itertools.product(range(q), repeat=len(basis)):
+            if not any(coeffs):
+                continue
+            word = [sum(c*b[j] for c,b in zip(coeffs,basis)) % q for j in range(len(S))]
+            if all(word):
+                return word
+    return None
 
 def check_flat(basis_polys, H, q):
     """basis_polys: list of coeff-lists (a poly = sum a_i X^i). Returns report."""
     G = [[sum(p[d]*pow(x, d, q) for d in range(len(p))) % q for x in H] for p in basis_polys]
     r = rank(G, q)                    # dim of the evaluation code
     n = len(H)
-    dual_basis = dual_code(G, q)
-    # (4) dual distance
-    dwords = [w for w in all_codewords(dual_basis, q) if any(w)] if dual_basis else []
-    wstar = min((sum(1 for a in w if a) for w in dwords), default=n+1)
-    # (1) test: random S, dependent traces <=> exists dual word supported in S
+    # The minimum dual weight is the minimum size of a dependent column set.
+    # This replaces the old q^(n-r) dual-codeword enumeration by at most 2^n
+    # rank checks.
+    minimal_support = None
+    for size in range(1, n + 1):
+        minimal_support = next(
+            (S for S in itertools.combinations(range(n), size)
+             if rank(restricted_matrix(G, S), q) < size),
+            None,
+        )
+        if minimal_support is not None:
+            break
+    wstar = len(minimal_support) if minimal_support is not None else n + 1
+
+    # (1) dependent traces iff a supported dual word exists.
     ok1 = True
     for _ in range(40):
         ssz = random.randint(1, min(n, r+2))
         S = random.sample(range(n), ssz)
-        cols = [[G[i][x] for i in range(len(G))] for x in S]
-        dep = rank([[cols[a][b] for a in range(len(cols))] for b in range(len(G))], q) < len(S)
-        has_dual = any(all((w[x] == 0) for x in range(n) if x not in S) and any(w[x] for x in S)
-                       for w in dwords)
+        dep = rank(restricted_matrix(G, S), q) < len(S)
+        has_dual = supported_dual_word(G, S, q) is not None
         if dep != has_dual: ok1 = False
-    # (3) closure for a minimum-support dual word
+
+    # (2) exact weight-one/common-root and weight-two/twin checks.
+    ok2 = True
+    for x in range(n):
+        common_root = all(G[i][x] == 0 for i in range(len(G)))
+        if (supported_dual_word(G, [x], q, True) is not None) != common_root:
+            ok2 = False
+    for x, y in itertools.combinations(range(n), 2):
+        has_weight_two = supported_dual_word(G, [x, y], q, True) is not None
+        twins = any(
+            all(G[i][x] == scalar * G[i][y] % q for i in range(len(G)))
+            for scalar in range(1, q)
+        )
+        if has_weight_two != twins:
+            ok2 = False
+
+    # (3) closure for a minimum-support dual word.
     ok3 = True
-    if dwords:
-        # minimal-support word
-        msupp = min(dwords, key=lambda w: sum(1 for a in w if a))
-        supp = [x for x in range(n) if msupp[x]]
-        # minimality of support -> all coords nonzero already guaranteed by min-weight;
-        # closure: any codeword-of-P (member p) vanishing on all but one supp pt vanishes on all
-        # emulate: for each member p in P, if it is zero on all but one supp point => zero there too
+    if minimal_support is not None:
+        supp = list(minimal_support)
+        relation = supported_dual_word(G, supp, q, True)
+        if relation is None:
+            ok3 = False
         for coeffs in itertools.product(range(q), repeat=len(basis_polys)):
             evalv = [sum(coeffs[i]*G[i][x] for i in range(len(G))) % q for x in range(n)]
             zeros = [x for x in supp if evalv[x] == 0]
             if len(zeros) == len(supp) - 1:
-                # the missing one must also be zero
                 miss = [x for x in supp if evalv[x] != 0]
                 if miss: ok3 = False; break
     # (4) w* > r => every r-subset of columns independent
@@ -109,7 +135,7 @@ def check_flat(basis_polys, H, q):
             cols = [[G[i][x] for i in range(len(G))] for x in Ssub]
             if rank([[cols[a][b] for a in range(len(cols))] for b in range(len(G))], q) < r:
                 ok4 = False; break
-    return r, wstar, ok1, ok3, ok4
+    return r, wstar, ok1, ok2, ok3, ok4
 
 def main():
     allok = True; nn = 0
@@ -123,11 +149,11 @@ def main():
             basis = [[random.randrange(q) for _ in range(deg+1)] for _ in range(dim)]
             if rank([[sum(p[d]*pow(x,d,q) for d in range(len(p)))%q for x in H] for p in basis], q) < dim:
                 continue
-            r, wstar, o1, o3, o4 = check_flat(basis, H, q)
+            r, wstar, o1, o2, o3, o4 = check_flat(basis, H, q)
             nn += 1
-            if not (o1 and o3 and o4):
+            if not (o1 and o2 and o3 and o4):
                 allok = False
-                print(f"  FAIL q={q} r={r} wstar={wstar} : dep<=>dual={o1} closure={o3} genpos={o4}")
+                print(f"  FAIL q={q} r={r} wstar={wstar} : dep<=>dual={o1} w1/w2={o2} closure={o3} genpos={o4}")
     print(f"checked {nn} random flats over F_7,F_11,F_13")
     print("PASS" if allok else "FAIL")
 

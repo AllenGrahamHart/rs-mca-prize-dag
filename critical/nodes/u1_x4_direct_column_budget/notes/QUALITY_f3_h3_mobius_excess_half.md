@@ -20,3 +20,17 @@ observations anywhere. CAVEAT (catch #85): the node's own 4n^2/5 mutation
 control bites only the radical budget — NOT tightness evidence for n^2/2.
 QUEUED: extend the sweep to n=16384 and deeper primes; the paired-PGL2
 literature constants (all six citations verified real) are the proof lane.
+
+## CUTOFF-18 WEAKENING (2026-07-12, wave-2 import)
+
+The red weakened in place to 17*X_18 <= 300n^2 (a strict weakening:
+cutoff-35 implies it; the C36' close re-lands with rational margin
+48/425 > 0; the 68-coefficient compiler is SHARP — equalities at m = 34,
+36). Q-SURV recomputed for the weakened form: the 12-prime sweep's max
+overlap P <= 20 gives 17*X_18 <= 34(n-1)(n-2) — 9x inside budget at every
+swept row. The source-boundary audit honestly REFUSED two would-be
+citation closes (KSV needs >= 2 monomials; MSS marginal energy does not
+bound the correlated block moment) — the gap is real, not literature-
+closable as posed. Alternate routes on file: M35 via paired PGL2
+(observed max 30 on sixteen boundary rows at n = 8192/16384), S_ns <=
+1200n^2 direct.

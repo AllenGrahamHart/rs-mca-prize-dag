@@ -899,20 +899,23 @@
   {
    "id": "compiler",
    "title": "Assembly compiler (verdicts + refusal rule)",
-   "status": "TARGET",
+   "status": "PROVED",
    "refs": [
-    "proof_sketch/s8_s9_assembly_and_negative.md#1"
+    "background/nodes/compiler/proof.md",
+    "background/nodes/compiler/audit.py",
+    "tools/prize_certificate_compiler.py"
    ],
-   "statement": "Row + packets -> SAFE/UNSAFE/CONDITIONAL/UNKNOWN verdicts per grid A; refuses prize-facing output on OPEN axes or conjectural ledgers."
+   "statement": "The exact integer compiler maps row plus upper/lower packets to SAFE/UNSAFE/CONDITIONAL/UNKNOWN per agreement cell and emits a prize-facing radius only from a unique proved adjacent unsafe/safe pair. It refuses open axes, conjectural ledgers, absent or ambiguous adjacency, and contradictory or nonmonotone proved packets. [MASTER IMPORT 2026-07-12: refusal behavior verified by a 13-case adversarial battery beyond the node's own audit \u2014 open required axis, extra conjectural axis, conditional ledger, contradictory packets, monotonicity violations, threshold-grazing, type smuggling, axis aliasing \u2014 13/13 correct refusals/errors.]"
   },
   {
    "id": "harness",
    "title": "run_all_verifiers + checker hardening + negative controls",
-   "status": "TARGET",
+   "status": "PROVED",
    "refs": [
-    "wp_detail/wp0_3_wp0_4_replay_and_harness.md#2"
+    "background/nodes/harness/proof.md",
+    "background/nodes/harness/audit.py"
    ],
-   "statement": "run_all_verifiers: discovery + manifest + cert hashes + six-packet negative-control suite all red."
+   "statement": "The fail-closed verifier harness discovers every local node/tool verifier, separates remote launchers, checks an exact SHA-256 manifest for all verifiers and adjacent proof assets, and rejects six mutation controls. The complete hash-pinned Modal replay has 97 PASS, zero FAIL/TIMEOUT/HASH_MISMATCH/REMOTE_ERROR; the audit checks every replay row against the manifest. [MASTER IMPORT 2026-07-12 (wave-2 audit): manifest REGENERATED on master file state (97 scripts / 1 remote launcher / 173 assets) and the full run replayed green on master (97/97, incl. the healed five \u2014 catch #90: master's replay layer had been silently broken since the partition reorg \u2014 and the f_dual rewrite, catch #91: proven-equivalent min-dependent-column form, 1000x faster, stronger controls). Fail-closed confirmed by three manifest mutations. tools/replay_all.py retired. Count staleness was catch #93.]"
   },
   {
    "id": "descriptor",
@@ -928,19 +931,24 @@
   {
    "id": "lean_tier1",
    "title": "Lean tier 1: gate addition certificates (witnesses computed)",
-   "status": "PROVABLE",
+   "status": "PROVED",
    "refs": [
-    "wp_detail/wp1_1_wp1_2_submission_and_lean.md#2"
-   ]
+    "background/nodes/lean_tier1/proof.md",
+    "background/nodes/lean_tier1/audit.py",
+    "formal/lean/rs_mca_formalization/CERTIFICATION_MAP.md"
+   ],
+   "statement": "The vendored stdlib-only Lean package kernel-checks the Tier-1 F_17^32 gate arithmetic: positive addition witnesses for the 6/7 bracket, B*=6, tangent-cap inclusion, 506/507 staircase values, and 5/512 < 6/512 = 3/256 endpoint conversion. Typed analytic targets remain explicit non-claims."
   },
   {
    "id": "dossier_partial",
    "title": "Dossier v-PARTIAL (buildable now, S0-conditioned)",
-   "status": "TARGET",
+   "status": "PROVED",
    "refs": [
-    "wp_detail/wp7_2_wp7_3_wp7_4_promotion_gates_dossier.md#3"
+    "notes/dossier/PARTIAL_DOSSIER.md",
+    "notes/dossier/PARTIAL_DOSSIER_MANIFEST.json",
+    "background/nodes/dossier_partial/audit.py"
    ],
-   "statement": "v-PARTIAL assembled and gate-checked: pinned-row note + envelope family + freeze tables + tier-1 Lean certificates + non-claims, S0-conditioned.",
+   "statement": "The gate-checked partial dossier packages the exact F_(17^32) adjacent row, high-agreement envelope family, closed convention freeze, Tier-1 Lean certificates, replay commands, and an exhaustive machine-checked list of current red-leaf non-claims. [MASTER IMPORT 2026-07-12: catch #92 repaired \u2014 the non-claims manifest now lists ELEVEN open truth leaves (petal_small_scale_staircase_census added; the node's audit compares only the local orbit and could not see the delta). Lean Tier-1: rebuilt at import-audit time (13.4s, 773MB, lake v4.31.0) with kernel #print axioms on all 8 pinned theorems \u2014 axioms subset {propext, Classical.choice, Quot.sound}; no sorryAx, no native_decide.]",
    "notes": "Align the v-PARTIAL assembly with Paper D as the submission spine (maintainer framing, 2026-07-03) \u2014 the dossier becomes Paper D-attached packets rather than a freestanding document. | #213's skeletons = the per-row certificate scaffolding for the determined region (clean rates, |F| < ~2^168-170) \u2014 the three-rate dossier's guaranteed floor. | Fleet A M5: the three-rate dossier skeleton exists (32 open slots, all DAG-id-verified); NEW thin-margin flag: Row C at rate 1/16 is gate-knife-edged (GM = +6.85) \u2014 add to the QA.4 census objects; Row-C-class rows carry only 23.2-61.8 bits at A*+1 (per-row-class caveats recorded, prize-max headroom 130-181 bits stands). | NODE-KIND FLAG (hygiene audit 2026-07-04): deliverable \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item.",
    "closure": "artifact"
   },
@@ -4985,7 +4993,8 @@
   {
    "id": "ww_row_envelope_clause",
    "status": "TARGET",
-   "statement": "ROW-ENVELOPE DICHOTOMY (W3; SCK clause (ii) at the cell-conditional challenger fiber; the K2 door). At every official-convention cell (planted-sunflower receiver, max-fill bg <= 1, official crossing radius s = k+sigma, sigma >= 1) and in SUP FORM over the row's cells/layouts/scalar choices and words (TR quantifier order \u2014 mean forms are OUT OF SCOPE and known-insufficient: the banked adversarial layout-sup is 2.417x median = 1.263 bits > the 0.9-bit aggregate line, so a mean-form clause makes the assembly FALSE \u2014 audit finding G1), the non-planted list-word count (= the challenger count, by Lemma A) satisfies count <= C * K_cell / |F_p(D, word)|^sigma at the GENERATED field (catch #12; the v13 base-field normalization guard \u2014 a q^sigma form is refuted by the banked 24/24 census). PIN P1 (operating point): the cell-conditional first moment, K_cell/q^sigma < 1 at official rows; the raw row FM is NOT suppressed at sigma = 1. PIN P2 (constant), #493-BRANCHED: [branch A \u2014 unruled/denied] constant-exact \u2014 total certified constant within the 0.9-bit QA.22 aggregate line at prize rows (digest: QA.22 gate 27/27; NOTE this 0.9 is F7's line, distinct from F5's log2(29/16) = 0.858); [branch B \u2014 granted] C <= n^B with B <= the binding prize-row within-column cap (27.0/60.6+ bits room; outer cap B < 1.5). Route lead (banked): the codimension-drop vs new-component dichotomy. Falsifier: an official-convention (bg <= 1) cell family at generated-field normalization with sustained counts exceeding the envelope; open-window small-q (sigma = 2 closes by q = 97) and bg >= 2 cells do NOT count. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/worst_word_challenger_pricing/notes/QUALITY_ww_row_envelope_clause.md || DIRECT RE-POSE (2026-07-12, Codex 8d1c28c + import repairs R1/R2): with W1 retired (not truth-apt) the binding claim is DIRECT: at every official row, per received word and per first-match cell (R1 \u2014 aggregate/mean reading dead), N_chal(c) <= B_chal(c) = the exact residual allowance after all paid-column subtractions under QA.22 at the MINIMUM #493 branch (baked in \u2014 a #493 ruling can only RELAX this node); sup-form and generated-field normalization retained verbatim. R2: a proof must supply an independently checkable per-row upper certificate (the consumer's 'certified' discharges here). Under the only operative reading of K_cell the old W1^W3 collapses to exactly this statement \u2014 conservative re-pose, audit-verified."
+   "statement": "ROW-ENVELOPE DICHOTOMY (W3; SCK clause (ii) at the cell-conditional challenger fiber; the K2 door). At every official-convention cell (planted-sunflower receiver, max-fill bg <= 1, official crossing radius s = k+sigma, sigma >= 1) and in SUP FORM over the row's cells/layouts/scalar choices and words (TR quantifier order \u2014 mean forms are OUT OF SCOPE and known-insufficient: the banked adversarial layout-sup is 2.417x median = 1.263 bits > the 0.9-bit aggregate line, so a mean-form clause makes the assembly FALSE \u2014 audit finding G1), the non-planted list-word count (= the challenger count, by Lemma A) satisfies count <= C * K_cell / |F_p(D, word)|^sigma at the GENERATED field (catch #12; the v13 base-field normalization guard \u2014 a q^sigma form is refuted by the banked 24/24 census). PIN P1 (operating point): the cell-conditional first moment, K_cell/q^sigma < 1 at official rows; the raw row FM is NOT suppressed at sigma = 1. PIN P2 (constant), #493-BRANCHED: [branch A \u2014 unruled/denied] constant-exact \u2014 total certified constant within the 0.9-bit QA.22 aggregate line at prize rows (digest: QA.22 gate 27/27; NOTE this 0.9 is F7's line, distinct from F5's log2(29/16) = 0.858); [branch B \u2014 granted] C <= n^B with B <= the binding prize-row within-column cap (27.0/60.6+ bits room; outer cap B < 1.5). Route lead (banked): the codimension-drop vs new-component dichotomy. Falsifier: an official-convention (bg <= 1) cell family at generated-field normalization with sustained counts exceeding the envelope; open-window small-q (sigma = 2 closes by q = 97) and bg >= 2 cells do NOT count. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/worst_word_challenger_pricing/notes/QUALITY_ww_row_envelope_clause.md || DIRECT RE-POSE (2026-07-12, Codex 8d1c28c + import repairs R1/R2): with W1 retired (not truth-apt) the binding claim is DIRECT: at every official row, per received word and per first-match cell (R1 \u2014 aggregate/mean reading dead), N_chal(c) <= B_chal(c) = the exact residual allowance after all paid-column subtractions under QA.22 at the MINIMUM #493 branch (baked in \u2014 a #493 ruling can only RELAX this node); sup-form and generated-field normalization retained verbatim. R2: a proof must supply an independently checkable per-row upper certificate (the consumer's 'certified' discharges here). Under the only operative reading of K_cell the old W1^W3 collapses to exactly this statement \u2014 conservative re-pose, audit-verified.",
+   "notes": " | CATCH #94 (2026-07-12): the resolution branch's 'Align W3' commit (7c19fa8) REFUSED at wave-2 audit \u2014 it replaced the statement wholesale, erasing the banked R1 (first-match binding) and R2 (per-row certificate obligation) repairs, and its verify.py asserts K_cell absent from the statement (incompatible with the house history-retention convention). Salvageable content (budget definition, min-#493 baking, normalization pins) already matches master. Codex: re-land against master's statement format with first-match + R2 binding."
   },
   {
    "id": "ww_kcell_upper_lemma",
@@ -5055,7 +5064,8 @@
    "id": "f3_h3_three_to_one_c36",
    "status": "CONDITIONAL",
    "key": true,
-   "statement": "C36-PRIME (three-to-one census gate; the h=3 red of the U16 assembly; catch #71 repair applied at mint \u2014 the original 8n^(4/3) threshold rested on a FALSE trace-zero envelope, counterexample at (7937,64)). For every official row (n = 2^s, 13 <= s <= 41; EVERY prime p = 1 mod n with p >= n^2 \u2014 full corridor, F-1; H <= F_p^* of order n; A = (1-H)\\{0}): N_3to1(A) = #{(a1,a2,a3,a4) in A^4 : a1 a2 a3 = a4} < 36n^2 - 16n^(4/3) - n/2. Pure counting statement \u2014 no mechanism asserted. PROVED AROUND IT: C36' => T_3 < n^3 (the conditional close, exact identity, threshold positive at n = 8192: 2,413,272,762). ENVELOPE CAVEAT (pin): falsifying C36' does NOT falsify the h=3 floor (the envelope contains tuples failing the complete-split filter). Q-SURV SEED: exhaustive 12-prime n=8192 official-prefix Modal sweep, worst count 66,933,997 = 2.774% of the repaired threshold; counting method proved sound by brute-force equality at three small rows (critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_THREE_TO_ONE_OFFICIAL_PREFIX.md). FALSIFIER: one exact official row at/above threshold (executable at boundary rows \u2014 demonstrated). || RED RETIRED TO SUCCESSOR (2026-07-12, C36-chain cluster import, audit-gated): CONDITIONAL on f3_h3_mobius_excess_half (X_35 <= n^2/2) via the PROVED compiler chain \u2014 convolution ledger N_3to1 = Sigma_t P(t)R(t) with the REPAIRED Stepanov I < 4n^(2/3) at P(1); WX35 => C36' with exact rational radical bounds at all 29 orders (gap x50 = 13n^2 + 5225n - 3500 > 0). Alternate open premises (ev): the Mobius overlap cap 35 (via paired PGL2 \u2014 all six literature citations verified against the actual papers), the factorial collision moment 69 (sharp: 139 fails at m=70), the non-swap moment 68 (sharp via the parity-closed m=69 hole). This node's envelope caveat, falsifier, and 12-prime Q-SURV seed all remain live \u2014 C36' stays the consumer contract; only its red status retires."
+   "statement": "C36-PRIME (three-to-one census gate; the h=3 red of the U16 assembly; catch #71 repair applied at mint \u2014 the original 8n^(4/3) threshold rested on a FALSE trace-zero envelope, counterexample at (7937,64)). For every official row (n = 2^s, 13 <= s <= 41; EVERY prime p = 1 mod n with p >= n^2 \u2014 full corridor, F-1; H <= F_p^* of order n; A = (1-H)\\{0}): N_3to1(A) = #{(a1,a2,a3,a4) in A^4 : a1 a2 a3 = a4} < 36n^2 - 16n^(4/3) - n/2. Pure counting statement \u2014 no mechanism asserted. PROVED AROUND IT: C36' => T_3 < n^3 (the conditional close, exact identity, threshold positive at n = 8192: 2,413,272,762). ENVELOPE CAVEAT (pin): falsifying C36' does NOT falsify the h=3 floor (the envelope contains tuples failing the complete-split filter). Q-SURV SEED: exhaustive 12-prime n=8192 official-prefix Modal sweep, worst count 66,933,997 = 2.774% of the repaired threshold; counting method proved sound by brute-force equality at three small rows (critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_THREE_TO_ONE_OFFICIAL_PREFIX.md). FALSIFIER: one exact official row at/above threshold (executable at boundary rows \u2014 demonstrated). || RED RETIRED TO SUCCESSOR (2026-07-12, C36-chain cluster import, audit-gated): CONDITIONAL on f3_h3_mobius_excess_half (X_35 <= n^2/2) via the PROVED compiler chain \u2014 convolution ledger N_3to1 = Sigma_t P(t)R(t) with the REPAIRED Stepanov I < 4n^(2/3) at P(1); WX35 => C36' with exact rational radical bounds at all 29 orders (gap x50 = 13n^2 + 5225n - 3500 > 0). Alternate open premises (ev): the Mobius overlap cap 35 (via paired PGL2 \u2014 all six literature citations verified against the actual papers), the factorial collision moment 69 (sharp: 139 fails at m=70), the non-swap moment 68 (sharp via the parity-closed m=69 hole). This node's envelope caveat, falsifier, and 12-prime Q-SURV seed all remain live \u2014 C36' stays the consumer contract; only its red status retires.",
+   "notes": " | 2026-07-12 wave-2: the wired premise weakens to cutoff-18 (17 X_18 <= 300n^2, import-verified); cutoff-35/M35 remain stronger background routes."
   },
   {
    "id": "f3_h3_direct_floor_conditional_close",
@@ -5122,7 +5132,7 @@
     "critical/nodes/f3_h3_mobius_excess_half/statement.md",
     "critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_MOBIUS_OVERLAP_CAP.md"
    ],
-   "statement": "For every official row, with A=(1-H)\\{0}, P(t)=#{(a,b) in A^2:ab=t}, and R(t)=#{(c,d) in A^2:d/c=t}, the weighted rich-fiber excess X_35=sum_{t!=1} max(P(t)-35,0)R(t) is at most n^2/2. This is the exact remaining premise after the identity fiber and the first 35 units of every nonidentity quotient fiber are paid. It allows arbitrarily large individual Mobius fibers when their quotient weight is small. FALSIFIER: one exact official row with X_35>n^2/2. Boundary evidence: X_35=0 at the first twelve n=8192 official primes; their largest P on quotient support is 14..20. [IMPORT PINS 2026-07-12 (cluster audit): FULL CORRIDOR spelled \u2014 every official row n = 2^s, 13 <= s <= 41, EVERY prime p = 1 mod n with p >= n^2 (finding F-1). The successor is a STRONGER hypothesis than C36' (WX35 => C36', not conversely) \u2014 the frontier moved strictly upstream; falsifying C36' still falsifies this node by modus tollens, so both falsifiers stay live. Q-SURV transfers: the banked 12-prime sweep bounds the new quantity (max overlap P <= 20 < 35 => X_35 = 0 at all 12 rows), plus the 7,090-row small-order sweep (independently replayed: all row counts, per-order maxima, the exact global extremizer match) and two locally-replayed n=8192 rows incl. N_3to1 = 66,933,997 exact. Catch #85: the node's own 4n^2/5 mutation control bites only against the radical BUDGET \u2014 not tightness evidence for n^2/2 (true allowance ~0.775n^2 at s=13).]",
+   "statement": "For every official row, with A=(1-H)\\{0}, P(t)=#{(a,b) in A^2:ab=t}, R(t)=#{(c,d) in A^2:d/c=t}, and X_18=sum_{t!=1}max(P(t)-18,0)R(t), one has 17X_18<=300n^2. This cutoff-18 target is strictly weaker than the former X_35<=n^2/2 premise. The proved non-swap compiler shows that S_ns<=1200n^2 is sufficient, replacing the prior 68n^2 target. FALSIFIER: one exact official row with 17X_18>300n^2. [IMPORT PINS r2 (2026-07-12 wave-2; supersedes the r1 pins block): FULL CORRIDOR \u2014 every official row n = 2^s, 13 <= s <= 41, every prime p = 1 mod n, p >= n^2. The cutoff-18 weakening (17 X_18 <= 300n^2) verified exactly at import: 68 sharp (1088 = 34*32, 1224 = 36*34), cutoff-35 => cutoff-18 strict, and the C36' close re-lands with rational margin 48/425 > 0 at n >= 8192 \u2014 the banked cutoff-35 ledger and M35 survive as strictly stronger background routes. Q-SURV TRANSFERS to the weakened form: the banked 12-prime sweep's max overlap P <= 20 gives (P-18)+ <= 2, so 17 X_18 <= 34 (n-1)(n-2) < 300n^2 with 9x room at every swept row; the 7,090-row sweep and both n=8192 replays stand. Source-boundary audit (2ab08f2) banked node-locally: KSV/MSS citation closes REFUSED honestly \u2014 open gap, not a citation close.]",
    "attack_surface": "Prove a truncated product/quotient correlation estimate, not a global shifted-energy bound. Candidate routes: constants-explicit rich-level incidence tails paired with quotient weights; an oriented character/Jacobi estimate retaining phases; or classification of only the simultaneous rich-product/rich-quotient locus. The background pointwise M35 cap is sufficient but deliberately stronger and is not the critical claim."
   },
   {
@@ -5229,6 +5239,16 @@
     "background/nodes/list_extension_interleaving_identity/proof.md"
    ],
    "statement": "For every finite extension E/B of degree m and base-field domain D, coordinate expansion is a Hamming isometry mapping RS[E,D,k] bijectively to RS[B,D,k]^{==m}; all received-word and worst-case list sizes agree exactly. The prize denominator remains |B|. [IMPORT REPAIR #88 (2026-07-12): this re-proves survey Lemma 2.21 = [BCFW25, Lemma D.3] \u2014 citation added; the proof was independently verified pointwise (F_4/F_2 exhaustive) so the uncited re-derivation is sound, just unattributed.]"
+  },
+  {
+   "id": "f3_h3_cutoff18_nonswap_compiler",
+   "title": "C36' cutoff-18 non-swap compiler",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/f3_h3_cutoff18_nonswap_compiler/statement.md",
+    "background/nodes/f3_h3_cutoff18_nonswap_compiler/proof.md"
+   ],
+   "statement": "For X_18=sum_{t!=1}(P(t)-18)_+R(t) and S_ns=sum_{t!=1}[P(t)(P(t)-2)+D(t)]R(t), one has 68X_18<=S_ns. Consequently S_ns<=1200n^2 implies 17X_18<=300n^2, the repaired critical weighted-excess target."
   }
  ],
  "edges": [
@@ -10256,6 +10276,11 @@
    "from": "codegree",
    "to": "list_codegree_closed_form",
    "kind": "req"
+  },
+  {
+   "from": "f3_h3_cutoff18_nonswap_compiler",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
   }
  ]
 }

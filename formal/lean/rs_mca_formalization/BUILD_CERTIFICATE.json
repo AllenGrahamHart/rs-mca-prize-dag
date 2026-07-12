@@ -1,0 +1,12 @@
+{
+  "schema": "lean-tier1-build-certificate-v1",
+  "upstream_repo": "przchojecki/rs-mca",
+  "upstream_commit": "53bb5df4d4d8d9be77c47c6f2e1f92e093824909",
+  "source_tree_sha256": "1668d2aafc37619914ae432161c35de5d47056784ea914807062678c00435ef3",
+  "toolchain": "leanprover/lean4:v4.31.0",
+  "command": "lake build",
+  "result": "PASS (15 jobs)",
+  "wall_seconds": 23.56,
+  "peak_rss_kb": 1712796,
+  "low_memory_replay": "lake -Kjobs=1 build"
+}
