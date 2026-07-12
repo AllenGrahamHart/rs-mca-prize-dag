@@ -40,3 +40,12 @@ consumption, not by taste.
   falsifiable) with amber slot re-verified, or flip PROVED and move the
   load to G3/K4/P3. Pins banked: strict tail reading (#57), chart-local
   t (#58).
+
+## DISPOSITION EXECUTED (2026-07-12): FLIP -> PROVED, bundled with the census gate
+
+The queued route decision resolved via the resolution-branch import: G2
+flipped PROVED (stabilizer partition, hand-replayed + exhaustive), and the
+small-scale seam the vacuity finding exposed is now OWNED by the minted
+red petal_small_scale_staircase_census (catch #80: Codex's reassignment
+alone left it unpriced — the cluster audit refused the standalone flip;
+the bundle is the honest import). Certificate CLOSED.

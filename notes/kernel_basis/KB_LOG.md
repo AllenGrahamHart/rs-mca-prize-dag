@@ -785,3 +785,40 @@ branch baked in — criterion 1 restated per R4: a ruling can only
 relax it). Amber assembly re-derived at import (tighter than the
 old two-step). Surface after cluster 1: reds 14 -> 12. Clusters
 2-4 (petal, C36 chain, arbitrary-arity list) audits in flight.
+
+## 33 — 2026-07-12: RESOLUTION-BRANCH INTEGRATION, cluster 2 of 4
+## (petal): G2 PROVED bundled with a minted census gate; G3 becomes a
+## CONDITIONAL compiler; G1 re-posed as the atlas (catches #79-#83)
+
+Cluster audit verdict: 3 IMPORT-CLEAN, 3 IMPORT-WITH-REPAIRS, and
+ONE REFUSAL-AS-STANDALONE — the G2 flip. Codex's flip reassigned
+the small-scale pricing seam to G3 by scope pin, but its G3
+conditional close contains NO census clause at any scale, and
+every existing census link (dyadic_profile_evaluation, the 7-lemma
+composite, P3) is quantified M > t ONLY: had G1 and K4 been proved
+tomorrow, the amber would have promoted with the realized
+2 <= c(S) <= t class UNPRICED — the exact silent gap the queued
+disposition existed to prevent (CATCH #80, blocking). RESOLUTION:
+the flip banks only BUNDLED with the minted red
+petal_small_scale_staircase_census (falsifier = the banked
+engineered witness family vs the budgeted column).
+
+Also banked: petal_g3_profile_conversion_identity PROVED IN
+GENERAL (our re-posed clause (b) — catch-#47 cells 8/5 and 880/3
+reproduce exactly; the banked 640/3 confirmed as the SELECTED
+column, outside raw scope); full-support codeword injectivity
+(clause (a) discharged; sub-k no-go guards the re-anchoring); the
+exact 719 allowance (= floor(n^6/C(n+6,6)) — the integer form of
+the banked 9.4919-bit slack; #83 gate cross-ref added); G1
+re-posed as the FIRST-MATCH ATLAS with total-census clause.
+
+CATCH #79 (against OUR r1 amber, found by Codex, verified): the
+old clause (iii) + K4 never implied the primitive n^{b1+b4} line
+(N disjoint singleton charts break it); r1's 'machine-verified
+assembly' covered budget arithmetic only. NINTH label-shape
+instance. #81 wiring (compiler inputs req-wired at import), #82
+stale r1 lines corrected in the r2 packet, #83 gate cross-ref.
+Petal amber predicates now {G1-atlas, K4, census gate}; G3 =
+compiler. NOTE catch-number RECONCILIATION: the ww and petal
+audits ran concurrently and both proposed #76-#78; banking order
+assigns ww = #76-#78, petal = #79-#83.

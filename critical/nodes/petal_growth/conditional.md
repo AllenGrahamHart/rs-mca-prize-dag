@@ -1,4 +1,51 @@
-# petal_growth — CONDITIONAL packet (amber surgery 2026-07-10)
+# petal_growth — CONDITIONAL packet (r2, 2026-07-12 cluster import;
+# r1 2026-07-10 amber surgery retained below where unchanged)
+
+- **status:** CONDITIONAL (amber)
+- **predicates (open, req-wired):** `petal_g1_layer_maps` (the first-match
+  ATLAS form, re-posed 2026-07-12), `petal_k4_primitive_bound`,
+  `petal_small_scale_staircase_census` (the gate minted at the G2 flip —
+  catch #80).
+- **compiler (amber, req-wired):** `petal_g3_pricing_multiplicity`,
+  CONDITIONAL on G1 — clause (b) proved in general
+  (petal_g3_profile_conversion_identity), clause (a) via full-support
+  codeword injectivity + first-match charge-once; census carve-out
+  explicit.
+- **proved this import:** G2 (stabilizer partition — flip banked WITH the
+  census gate), the conversion identity, injectivity, the exact 719
+  allowance (= floor(n^6/C(n+6,6)) at all four official maximal rows; the
+  integer sharpening of the banked 9.4919-bit slack).
+- **route of record (r2):** G1-atlas -> first-match charge-once ->
+  {per-class: injectivity + conversion identity -> 719 x column, scales
+  M > t via the replayed composite | scales 2 <= c(S) <= t: the census
+  gate} | primitive: K4 -> floor.
+- **catch #79 (2026-07-10 r1 correction):** r1's clause (iii) + K4 did NOT
+  imply the primitive n^{b1+b4} line ('machine-verified assembly' covered
+  the budget arithmetic only); the atlas total-census clause |A_U| <=
+  n^{b1} is the repaired sufficient form.
+- **stale r1 lines corrected (catch #82):** P1's 'all four predicates'
+  reads 'all wired predicates'; the fifth-branch 'fastest close of G3'
+  line is superseded (clause (b) is now PROVED; the branch remains
+  ev-only/replay-annotated); the r1 route-of-record routed ALL staircase
+  pricing through the M > t composite — the small-scale class is now
+  explicitly owned by the census gate.
+
+## Re-surgery criteria (r2)
+
+1. Any wired predicate falsified as stated.
+2. The G4 dictionary check fails on a sweep cell, or the escalation rule
+   fires.
+3. The conversion identity contradicted at any cell (mutation-controlled
+   verifier banked).
+4. Pin P1 resolved to a different band constant (maintainer line owed).
+5. imgfib's quotient clause re-scoped so the P3 emission no longer lands.
+6. The census gate falsified (the banked engineered family exceeding the
+   budgeted column at scaled rows) or its landing re-scoped.
+
+---
+
+## r1 packet (2026-07-10) — retained for pins P1/G4/G5/P3 and history
+
 
 - **status:** CONDITIONAL (amber)
 - **route of record:** G1 -> pma -> [G4 pin] -> cofactor packets -> G2 ->

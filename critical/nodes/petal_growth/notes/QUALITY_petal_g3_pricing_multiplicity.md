@@ -44,3 +44,14 @@ easiest red on the board to close partially.
   (vacuous selector verifier), #46 (IE domain drift — statement corrected
   on the critical surface), #47 (unfillable placeholder — clause (b)
   re-posed). G3 stays red; petal amber unchanged at four predicates.
+
+## COMPILER RESOLUTION (2026-07-12)
+
+Clause (b): PROVED IN GENERAL (petal_g3_profile_conversion_identity —
+the identity this certificate re-posed; catch-#47 cells reproduce
+exactly). Clause (a): discharged by full-support injectivity +
+first-match (per-(U,R) multiplicity = 1; sub-k no-go guards the
+re-anchoring). G3 -> CONDITIONAL on G1's atlas, with the small-scale
+census carved out to its own gate node. The queued per-U charging-map
+probe is superseded by the atlas falsifiers. Certificate CLOSED as
+compiler; open risk transfers to G1-atlas and the census gate.

@@ -20,3 +20,13 @@ multiplicity).
 
 Q-MIN (annotation): upstream's own framing makes G1 the named missing
 supply — the compiler is written to consume exactly this.
+
+## ATLAS RE-POSE (2026-07-12, catch #79)
+
+The r1 clause (iii) form was UNSOUND as an assembly input (overlap+K4 do
+not imply the total line — N disjoint singleton charts). Re-posed as the
+first-match atlas with the TOTAL census clause |A_U| <= n^{b1}; four
+falsifiers pinned; the degenerate one-chart-per-codeword atlas forbidden;
+F4 scans honestly downgraded (they do not test arbitrary-word coverage).
+Q-SURV queued run updates to: atlas-coverage search at sweep cells against
+the four pinned falsifiers.
