@@ -1057,18 +1057,13 @@
    "title": "LEAP: at the crossing radii the extremal words are the planted sunflower family"
   },
   {
-   "id": "ww_kcell_upper_lemma",
-   "label": "UNPROVED",
-   "title": ""
-  },
-  {
    "id": "ww_lemma_a_exhaustion",
    "label": "PROVED",
    "title": ""
   },
   {
    "id": "ww_lower_witnesses",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": ""
   },
   {
@@ -2217,10 +2212,6 @@
   },
   {
    "from": "ww_row_envelope_clause",
-   "to": "worst_word_challenger_pricing"
-  },
-  {
-   "from": "ww_kcell_upper_lemma",
    "to": "worst_word_challenger_pricing"
   },
   {
