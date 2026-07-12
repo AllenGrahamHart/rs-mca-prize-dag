@@ -1034,3 +1034,25 @@ fence: proved, but #105 — cap-proxy-only and q-graded (2^91.85 top
 (custody): both v2 statement rewrites were built pre-#101/#102 and
 would have clobbered banked catch content — merged, not replaced;
 the codeword-vs-class quantity swap noted, not silently adopted.
+
+## 41 — 2026-07-12/13: dli M1 sharded design GO (111/111 at 110MB);
+## catch #108; Modal run launched
+
+The crash-interrupted designer resumed from transcript under the
+new 7GB pacing law and delivered: the n=64 tower census sharded
+via a fused 4-option-per-fiber census + grid-DP MITM + an exact
+projective-identity direction sharding (integrity assert built
+in), with a literal prefix-sharded MITM as independent
+cross-check. VALIDATION GO: n=16 brute == all three strategies at
+3 depths; ALL 8 banked f2b rows reproduced exactly (<1e-12) incl.
+the four orbit-quantized accident classes; n=64 smoke row teeth
+confirmed. Run plan: shard-0 blocking gate, ~4-6 CPU-hr, every
+shard <280s/<16GB (Modal-law compliant); F-a/F-c reads
+pre-registered VERBATIM in the script; F-b diagnostic-only;
+non-falsifiers printed unscored. CATCH #108: junction-allowance
+denominator drift (/33 junctions vs /34 levels across three
+banked texts; display-only, no conclusion flips — pin at the
+posed /33 form when banking results). Hygiene: the banked
+f2b_replay script overwrites its own .json if re-run in place —
+replay from copies only. Scripts + validation record banked in
+the dli node notes. LAUNCHED on Modal (background).
