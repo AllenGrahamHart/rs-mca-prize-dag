@@ -675,6 +675,9 @@ def verify_certificate(cert: dict, inputs: dict,
         fired.append("item1:generated_field_normalization")
     omega = _pinned_omega(q, nprime)
     total = Fraction(0)
+    # catch #165: per-bucket certified mass, recorded so reserve credits
+    # can be tethered to the coset/accident-owned portion below
+    bucket_mass: dict[str, Fraction] = {}
     for L in cert["levels"]:
         vecs = _enum_kernel_pass2(N, L, q, omega)   # independent re-count
         if any(w <= L for _, w in vecs):
@@ -693,6 +696,10 @@ def verify_certificate(cert: dict, inputs: dict,
             if len(_orbit(k, N)) != cert["item3"][L]["quantum"]:
                 fired.append(f"item3:L{L}:quantum!=2N")
         listed = sum(Fraction(s, 2 ** w) for (w, s) in led.values())
+        for (w, s) in led.values():
+            tag = f"L{L}w{w}"
+            bucket_mass[tag] = bucket_mass.get(tag, Fraction(0)) \
+                + Fraction(s, 2 ** w)
         resid = cert["item4"][L]
         want = set(range(cert["w_led"] + 1, cert["w_cov"] + 1))
         if {int(w) for w in resid} != want:
@@ -711,6 +718,8 @@ def verify_certificate(cert: dict, inputs: dict,
             if U < Fraction(hist2.get(w, 0), 2 ** w):
                 fired.append(f"item4:L{L}w{w}:residual_bound_false")
             rmass += U
+            tag = f"L{L}w{w}"
+            bucket_mass[tag] = bucket_mass.get(tag, Fraction(0)) + U
         total += listed + rmass
     it5 = cert["item5"]
     for L in cert["levels"]:
@@ -727,8 +736,21 @@ def verify_certificate(cert: dict, inputs: dict,
     # ---- catch #163: the joint bridge is NOT consistency-only ----------
     if it5.get("c2pp_instance") != inputs["C2PP_INSTANCE"]["id"]:
         fired.append("item5:c2pp_instance_unresolved (catch #163)")
-    for c in it5["reserve_credits"]:
-        total -= Fraction(c[0], c[1])
+    # ---- catch #165: reserve credits tethered to owned mass ------------
+    # A credit discharges mass ONLY if that mass is owned coset/accident
+    # (the reserve's remit); an all-bulk certificate admits NO credit.
+    # Untethered credits made this path FAIL-OPEN (honest all-bulk cert +
+    # [[1,1]] at T=1 ACCEPTed with certified 7/8 while truth 15/8 > 1).
+    owned_mass = sum((bucket_mass.get(tag, Fraction(0))
+                      for tag, own in it5["owners"].items()
+                      if own in ("coset", "accident")), Fraction(0))
+    credit_sum = sum((Fraction(c[0], c[1])
+                      for c in it5["reserve_credits"]), Fraction(0))
+    if credit_sum > owned_mass:
+        fired.append("item5:reserve_credit_untethered (catch #165): "
+                     f"credits {credit_sum} > coset/accident-owned "
+                     f"mass {owned_mass}")
+    total -= credit_sum
     if cert["item6"]["method"] != "exact_rational":
         fired.append("item6:not_exact_rational")
     T = Fraction(cert["item6"]["T"][0], cert["item6"]["T"][1])
@@ -987,6 +1009,19 @@ def mutation_controls(inputs: dict, demo_cert: dict) -> None:
     controls.append(("MUT-7 item-5 C2'' link severed (catch #163)",
                      v == "REJECT" and any("#163" in f for f in fired),
                      f"verdict={v}"))
+
+    # MUT-8: untethered reserve credit (catch #165 regression) — the m4a
+    # audit's exact exhibit: honest all-bulk cert + [[1,1]] credit at
+    # T = 1 formerly ACCEPTed (certified 7/8, truth 15/8 > 1); the tether
+    # (credits <= coset/accident-owned mass, here 0) must REJECT it
+    t = copy.deepcopy(demo_cert)
+    t["item5"]["reserve_credits"] = [[1, 1]]
+    t["item6"]["T"] = [1, 1]
+    v, fired, total = verify_certificate(t, inputs, Fraction(1))
+    controls.append(("MUT-8 untethered reserve credit [[1,1]] at T=1 "
+                     "(catch #165)",
+                     v == "REJECT" and any("#165" in f for f in fired),
+                     f"verdict={v}, certified total={total}"))
 
     all_ok = True
     for name, tripped, why in controls:

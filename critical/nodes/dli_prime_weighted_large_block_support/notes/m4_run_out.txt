@@ -14,7 +14,6 @@ exact-rational; fail-closed; named conditional predicates
 [PASS] pin: C2'' pose aggregate form primary
 [PASS] pin: manifest R_joint == posed 21
 [PASS] pin: manifest junction convention /33 (catch #108)
-[info] catch #164: banked allowance display '1.555' is a last-digit slip; true 2^(21/33) rounds to 1.554 (display-only)
 [PASS] pin: allowance display recomputed (three decimals)  (2^(21/33) = 1.554406)
 [PASS] pin: C1' pose w_max(L) = L+5
 [PASS] pin: C1' pose kill line E-1 > 4r(1+W_cl)
@@ -75,8 +74,7 @@ exact-rational; fail-closed; named conditional predicates
 [info] assembly conclusion (CONDITIONAL): q^{-t+H} W_cen <= 2^121, conditional on C2'' (joint reserve), C1' (per-level excess), ENDPOINT-EXC (per-row W_cl zone certification + coverage)
 
 -- catch #162 statement hygiene -------------------------------------
-[PASS] catch #162: torn duplicate matches the banked spec exactly (verbatim copy, pinned sha256)  (offsets [6673:7286), 613 chars, sha256[:16]=d60593436da96d99)
-[info] catch #162: deletion OWED at M4 banking — remove statement chars [6673:7286) (the duplicate block '==gridDP PASS...pending maintainer review. ' inside the wave-4 paragraph); full spec in m4_report.md
+[PASS] catch #162: statement CLEAN (post-surgery invariants hold)
 
 -- mutation controls ------------------------------------------------
 [mutation] MUT-1 reserve 21->22: TRIPPED  (pins: checks failed: ['pin: manifest R_joint == posed 21'] | assembly: checks failed: ['A6: endpoint identity 21 + 100 =)
@@ -88,7 +86,8 @@ exact-rational; fail-closed; named conditional predicates
 [mutation] MUT-5 coverage/ENDPOINT-EXC input missing: TRIPPED  (M4InputReject: input block missing/malformed: ENDPOINT_EXC)
 [mutation] MUT-6 junction convention drift to /34: TRIPPED  (checks failed: ['pin: manifest junction convention /33 (catch #108)'])
 [mutation] MUT-7 item-5 C2'' link severed (catch #163): TRIPPED  (verdict=REJECT)
-[PASS] mutation battery: 9 controls, all tripped
+[mutation] MUT-8 untethered reserve credit [[1,1]] at T=1 (catch #165): TRIPPED  (verdict=REJECT, certified total=7/8)
+[PASS] mutation battery: 10 controls, all tripped
 
 -- M5 ---------------------------------------------------------------
 [info] M5: OUTSTANDING — the maintainer one-liner is still owed (catch #40); required exact text spec'd in m4_report.md; non-fatal for M4
@@ -100,4 +99,3 @@ M4-VERDICT: ASSEMBLY-VERIFIED-CONDITIONAL (on C2'', C1', ENDPOINT-EXC as named p
            unconditional claim is made (F-round state 1/1/1;
            promotion requires maintainer countersigns).
 ==========================================================================
-exit_code=0

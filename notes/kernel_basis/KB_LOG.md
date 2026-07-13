@@ -1538,3 +1538,33 @@ REPLAYED by the banking session under ramguard tiny: 59 PASS
 cross-validation + banked-pin reproduction 8/53/48/0). NO DAG
 SURGERY YET — the fresh-context audit gate (house law) runs next;
 the packet's own suggested surgery list is in cp_report.md.
+
+## 62 — 2026-07-13: dli AMBER SURGERY EXECUTED (R1 + #162 + addendum
+## + #164) — the amber now awaits ONLY the maintainer's M5 one-liner
+
+The full m4a execution order ran green end-to-end. R1 (#165): reserve
+credits in verify_certificate are tethered to the coset/accident-owned
+bucket mass (per-bucket masses recorded through the item2/item4 loops;
+credits > owned mass fires item5:reserve_credit_untethered; an
+all-bulk certificate admits NO credit); MUT-8 = the m4a exhibit
+(honest cert + [[1,1]] at T=1) added and TRIPS; battery now 10/10;
+m4_run_out.txt re-banked (#167). #162: the torn 613-char duplicate
+deleted from the dli statement by JSON-aware surgery (round-trip
+byte-identity gate — first attempt aborted UNTOUCHED on an
+ensure_ascii mismatch, the fail-closed design working; house
+convention pinned = indent=1, ensure_ascii=True, no trailing
+newline); pre 2/2/2 -> post 1/1/1, MITM==gridDP PASS retained, M1
+paragraph intact; M4 now prints "statement CLEAN". Amber addendum
+(draft sec 1, updated Ten-controls form) appended to the statement
+with #162-EXECUTED and #165-REPAIRED history sentences; node stays
+TARGET (law-clean primary path per m4a sec 4). #164: display 1.554
+corrected in the statement's #108 pin sentence + C2PP_POSED clause
+(ii). M3's owed certificate-soundness sentence appended (#163 + #165
+tether). Harness: the three wave-5 stage-1 nodes (f3_h3_line_star,
+xr_generic_mds, xr_direction_distance) were unmanifested — harness
+FAILED CLOSED as designed; manifest refreshed (114 scripts / 201
+assets), full run PASS. verify_prize_dag green. REMAINING for dli
+amber: the maintainer M5 file notes/M5_CONFIRMATION_2P121.md (exact
+text in m4_amber_statement_draft.md sec 3) -> M5 flips CONFIRMED;
+#166 countersign hardening at promotion time. Modal harness re-pin
+queued with the wave-5 stages 2-3 batch.

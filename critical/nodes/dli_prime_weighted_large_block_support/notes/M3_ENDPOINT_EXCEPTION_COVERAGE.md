@@ -46,6 +46,11 @@ prove completeness of the mass it prices. “No explicit construction is
 known,” “the row is likely nonexceptional,” and PPT/engineering hardness are
 rejected certificate types.
 
+Item 5 is not consistency-only: the ownership ledger's joint bridge must
+resolve to the manifest's named C2''-instance, so assumption-only item-5
+content is a REJECT (catch #163), and any reserve credit must be covered
+exactly by the mass of buckets owned coset/accident (catch #165).
+
 ## Coverage obligation
 
 The truth-apt route statement is

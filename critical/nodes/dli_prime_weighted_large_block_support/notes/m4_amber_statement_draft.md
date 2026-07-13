@@ -23,11 +23,11 @@ after maintainer review of M4 and (independently) the M5 one-liner.
 > /33 allowance exactly), the C1' M2 twelve rows (exact-rational, max
 > K' = 0.246909432 at (1,7937), positive control fires), the M1 record pins,
 > and a full 6-item ENDPOINT-EXC demo at an exact toy row (truth 15/8,
-> ACCEPT/REJECT fail-closed both directions). Nine mutation controls all
+> ACCEPT/REJECT fail-closed both directions). Ten mutation controls all
 > trip (tampered reserve 21->22, broken zone bound, removed certificate
 > item, unproved-C2'' verdict downgrade, PROVED-without-countersign reject,
 > missing coverage input, /34 drift, severed item-5 link, zone-table
-> contradiction). VERDICT CONSUMED BY THIS NODE'S WIRING:
+> contradiction, untethered reserve credit). VERDICT CONSUMED BY THIS NODE'S WIRING:
 > 'ASSEMBLY-VERIFIED-CONDITIONAL (on C2'', C1', ENDPOINT-EXC as named
 > predicates)' — never unconditional while any predicate lacks a maintainer
 > countersign. CATCH #164: the banked allowance display '2^(21/33) = 1.555'
