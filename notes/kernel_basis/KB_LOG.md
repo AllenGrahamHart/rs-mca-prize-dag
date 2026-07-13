@@ -1466,3 +1466,25 @@ the dag statement (deletion owed at M4 banking). #163: M4 must
 expose the C2''-instance as an input (item-5 semantics pin).
 DLI'S PATH TO AMBER: M4 assembly verifier + the M5 2^121
 one-liner — nothing else.
+
+## 59 — 2026-07-13: M4 BUILT AND GREEN (audit-pending) — dli's amber
+## awaits ONLY the M5 one-liner (catch #164)
+
+The assembly verifier is banked (notes/m4_*): exact-rational,
+fail-closed, 57 PASS / 9-of-9 mutations trip / ~10s ramguard-tiny;
+verdict line 'ASSEMBLY-VERIFIED-CONDITIONAL (on C2'', C1',
+ENDPOINT-EXC as named predicates)'. The chain: Lemma-1/D2/D3 +
+C1' excess + zones -> (41/8)^34 <= 2^100 exact (19.84 bits slack)
++ the 21-bit reserve -> 2^121; gates = the f2b record bit-exact +
+pose calibration + the M2 12-row replay + a live 6-item
+certificate demo fail-closed both directions. #162 pinned to the
+character (chars [6673,7286), sha-pinned; deletion spec + edit
+caution + post-surgery invariants banked). #163 implemented FOUR
+ways (named instance input, item-5 linkage, conditional downgrade,
+countersign gate). #164 (cosmetic): 2^(21/33) displays as 1.554
+not 1.555. Finding M4-F1: break-even W_cl = 0.67/level — the
+coverage obligation needs far less than spec (slack for P3).
+NEXT: the m4 packet audit (house law), then the #162 edit + the
+amber surgery — at which point dli goes amber the moment the
+maintainer speaks the M5 sentence (exact text in
+m4_amber_statement_draft.md).
