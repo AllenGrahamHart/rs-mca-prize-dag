@@ -1326,3 +1326,24 @@ not the truth). Board: reds 10. The falsification architecture
 has now killed two of our own minted forms in 24 hours — both
 times BEFORE proof investment compounded, both times leaving the
 true load-bearing structure standing and sharper.
+
+## 52 — 2026-07-13: the BRANCH-SPLIT RE-POSE design lands
+## (audit-pending; catches #145-#149) — the periodic branch is a
+## THEOREM at the column; P1 becomes decision-critical
+
+The design did more than re-pose: LEMMA COL (a ~10-line word-free
+theorem: classes <= C(n/M, A/M) = [n/(n-A)] Q <= 4Q at P1-OWN
+cells) recovers the census gate's ORIGINAL column form exactly —
+the descent/ESP/QRL scaffold had been fighting the wrong (n^6)
+currency all along, as #144 predicted. Clause (D) (periodic
+supply, DD-atlas, column-priced as CARDINALITY — #141's lesson)
+is proposed PROVED with C_col = 719 (the g1a falsification
+instances FIT with 33-275-bit margins). The K4 package IMPROVES:
+the 64/63 rider retires (#148). THE ONE OPEN RED: clause (P), the
+aperiodic supply — with CATCH #145's q-free odd-lift hazard
+dictating the FLOOR band posing (poly there, empty at rate <=
+1/4; PRE-FALSIFIED at the wide band by pure counting). PIN P1 IS
+NOW DECISION-CRITICAL (maintainer line — floor band = the posing,
+wide band = the kill). Owed: the QA.22 M <= t extension
+(dominance pre-computed, 2^-691 excess). Design audit launched;
+surgery follows its verdict.
