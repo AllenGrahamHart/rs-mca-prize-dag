@@ -1374,3 +1374,21 @@ days from retracted floor: K4 PROVED, G2 PROVED, G3 compiler
 PROVED-conditional, SUCCESSOR-A core PROVED, Lemma COL PROVED,
 clause (D) PROVED — open: one ledger-arithmetic extension + one
 floor-band supply clause + the P1 one-liner.
+
+## 54 — 2026-07-13: qa22_m_le_t_extension PROVED (audit-pending;
+## catches #155-#156) — the census gate's chain is one audit from
+## complete
+
+Full-grid exact packet (3392/3392 own cells, s = 13..44 x 4 rates;
+min certified margin 168,245 bits; five clauses incl. a NEW parity
+disjointness argument vs the banked QA.22 rows; 26 PASS / 5
+mutations trip). #155: the bsra pre-computed 2^-691 dominance
+constant was FALSE — a lg_frac rounding artifact; true worst
+excess 2^-690.2765 at the confirmed worst cell; number fixed in
+the dag statement, kept as a live mutation control (the flagged
+spot in the brief FIRED — the adversarial-check discipline works).
+#156: the 'rate-1/2 no dyadic quotient mass' banked claim scoped
+to odd-A M > t_res rows. On audit PASS the census gate goes fully
+conditional-complete: COL (proved) + (D) (proved) + K4 (proved) +
+this extension — with clause (P) + P1 the petal family's only
+remaining open items.
