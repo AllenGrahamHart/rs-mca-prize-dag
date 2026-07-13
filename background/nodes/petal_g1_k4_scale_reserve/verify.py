@@ -2,6 +2,17 @@
 # PROVED status + statement; master re-posed the node CONDITIONAL on G1 + the
 # descent-classification bridge. The pinned contract check below is adjusted
 # to the re-posed sentinel; the ledger arithmetic checks are unchanged.
+#
+# RETIREMENT RE-POSE (2026-07-13 evening, first caught by the 121-script
+# Modal replay): the node was RETIRED at the bsr surgery (catch #150 — it
+# hypothesizes exactly the falsified weighted form + the 64/63 rider, whose
+# ledger hypothesis is g1a-unsatisfiable per #148; superseded by Lemma COL +
+# clause (D)), and G1 itself is now PROVED (clause-(P) banking). Pins below
+# re-posed to the banked retired truth: G1 PROVED with the weighted-form
+# history retained in its custody-merged statement; reserve REFUTED with the
+# RETIRED block; req in-edges REMOVED (refuted nodes carry none), the ev
+# ALTERNATE edge to the census gate retained as history. The ledger
+# arithmetic checks remain unchanged (historically exact).
 #!/usr/bin/env python3
 """Exact contract and coefficient replay for the G1/K4 scale reserve."""
 
@@ -27,20 +38,29 @@ def main() -> None:
     edges = {(edge["from"], edge["to"], edge.get("kind")) for edge in dag["edges"]}
     g1 = nodes["petal_g1_layer_maps"]
     reserve = nodes["petal_g1_k4_scale_reserve"]
-    if g1["status"] != "TARGET" or "sum_(chart chi)(m_chi+1)" not in g1["statement"]:
-        raise AssertionError(("weighted G1 contract missing", g1))
-    if reserve["status"] != "CONDITIONAL" or "121/126" not in reserve["statement"]:
-        raise AssertionError(("reserve contract missing (re-posed form expected)", reserve))
-    required = {
-        # re-posed wiring (catch #116): ALTERNATE route, ev into the census
-        # gate; req hypotheses = the proved chain + G1 + the bridge red
-        ("petal_g1_k4_scale_reserve", "petal_small_scale_staircase_census", "ev"),
-        ("petal_g1_layer_maps", "petal_g1_k4_scale_reserve", "req"),
-        ("petal_descent_classification_bridge", "petal_g1_k4_scale_reserve", "req"),
-        ("petal_k4_primitive_bound", "petal_g1_k4_scale_reserve", "req"),
-    }
-    if not required <= edges:
-        raise AssertionError(("reserve wiring missing", sorted(required - edges)))
+    if g1["status"] != "PROVED" or "sum_(chart chi)(m_chi+1)" not in g1["statement"]:
+        raise AssertionError(("G1 contract drift (expected PROVED with the "
+                              "weighted-form history retained)", g1["status"]))
+    if "CLAUSE (P) PROVED" not in g1["statement"]:
+        raise AssertionError("G1 clause-(P) resolution block missing")
+    if reserve["status"] != "REFUTED" or "121/126" not in reserve["statement"]:
+        raise AssertionError(("reserve contract drift (expected REFUTED with "
+                              "the historical 121/126 constant)",
+                              reserve["status"]))
+    if "RETIRED (2026-07-13, catch #150)" not in reserve["statement"]:
+        raise AssertionError("reserve RETIRED block missing")
+    # retirement wiring: the ev ALTERNATE edge remains as history; the req
+    # in-edges were removed with the retirement and must stay gone
+    if ("petal_g1_k4_scale_reserve", "petal_small_scale_staircase_census",
+            "ev") not in edges:
+        raise AssertionError("historical ev ALTERNATE edge missing")
+    stale_req = {(f, "petal_g1_k4_scale_reserve", "req")
+                 for f in ("petal_g1_layer_maps",
+                           "petal_descent_classification_bridge",
+                           "petal_k4_primitive_bound")} & edges
+    if stale_req:
+        raise AssertionError(("req in-edges must not return on a REFUTED "
+                              "node", sorted(stale_req)))
 
     quotient_rows = 0
     for n, k, slack in ROWS:

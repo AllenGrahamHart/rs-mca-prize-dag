@@ -261,7 +261,7 @@
     "background/nodes/m720_small_gate_replay/verify.py": "4621173e691c207df27e3e65b31f2936fd7a65b2bd4d25e8cd3e3b1d15bc4ec6",
     "background/nodes/m720_wsl_complete_zero_subcertificates/verify.py": "a28ca40b64a27452eb22902e78043e4a8910a169ae571709ed1e77d64c5b2ece",
     "background/nodes/petal_fixed_excess/verify.py": "4999dd568c9c8d8fe5e6b5ef3d2de56ec53460f489f857ce89984f0a7af6f2c6",
-    "background/nodes/petal_g1_k4_scale_reserve/verify.py": "e92d4067ddf15ad9de967dd36d048bb187b39491856832bd739d6de784a1bf11",
+    "background/nodes/petal_g1_k4_scale_reserve/verify.py": "39c75720903c087da5cd4ffc96a26166fac5afacbcb29c20554e8e3237882c03",
     "background/nodes/petal_realizable_kernel_injection/verify.py": "217538320e246d54a164afe0e516940df24e7c10160472c85eacf5e25fa4fc5a",
     "background/nodes/petal_squarefree_classification_counting_soundness/verify.py": "99cbf0da6ca56b7166440e961ef2050b1e14fe456495ce93b70b392bbe82903e",
     "background/nodes/petal_squarefree_classification_ledger_soundness/verify.py": "7ef303df71b776fd18ab5ebfa7de075bafcc5b3a5fffc9fcddb67bb2239a083f",

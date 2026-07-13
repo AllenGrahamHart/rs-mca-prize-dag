@@ -1649,3 +1649,31 @@ appended to petal_growth's statement. FIFTH proof-retired red (W2,
 K4, census gate, qa22... and now G1). The petal lane's open set is
 now EXACTLY: the P1 sentence. Verify green; harness 121 scripts /
 215 assets PASS; Modal re-pin queued.
+
+## 65 — 2026-07-13: MODAL RE-PIN 121/121 (catch #177: the
+## scale_reserve verifier's stale status pin — first caught by
+## EXECUTION, invisible to the hash-only local gate)
+
+The queued full-suite Modal replay (121 scripts, repo shipped to
+the worker fleet) came back 120/1 on first run: background/nodes/
+petal_g1_k4_scale_reserve/verify.py FAILED — its #116-era pin
+required G1 status == TARGET, broken the moment G1 legitimately
+flipped PROVED at the clause-(P) banking. Root finding (#177): the
+script had TWO stale pins (G1 TARGET; reserve CONDITIONAL + req
+wiring), stale since the node's RETIREMENT at the bsr surgery
+(#150: the 64/63 rider's ledger hypothesis is g1a-unsatisfiable per
+#148) — and the staleness was INVISIBLE locally because
+run_all_verifiers.py without --run validates manifest hashes only;
+execution lives on Modal by design (COMPUTE LAW). OPERATIONAL LAW
+CONFIRMED: every banking batch that flips statuses or rewires edges
+must be followed by a Modal execution re-pin (or a targeted --run
+of the affected consumers) — hash-green is not execution-green.
+Re-pose applied in the #116 header style: G1 pinned PROVED with the
+clause-(P) block + weighted-form history present (fails loudly on
+tripwire (P)-3), reserve pinned REFUTED with the #150 RETIRED block
++ req in-edges asserted ABSENT (fails loudly if stale wiring
+returns); ledger arithmetic unchanged. Sweep: no other verifier
+pins node statuses (K4's G1 pins are custody-retained substrings,
+green). Second Modal run: 121 PASS / 0 FAIL / 0 TIMEOUT /
+0 HASH_MISMATCH, complete=true, record re-banked at
+experiments/prize_resolution/modal_verifier_replay.json.
