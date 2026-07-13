@@ -1958,3 +1958,25 @@ w7-C1..C7 banked. THE WCL RESIDUAL OF RECORD: six zero-event
 emptiness slots (1,5),(1,6),(2,5),(2,6),(2,7),(4,9) — master's
 sharpest-ever form of the dli coverage leaf. Wave-8 queue opens at
 77485270 (boundary divisor elimination fence). Modal re-pin next.
+
+## 75 — 2026-07-13: C2'' F-ROUND 2 SURVIVED (catches c2r2-C1..C5) —
+## the first of the two amber-gate rounds passes
+
+Pre-registered round 2 against dli_c2pp_joint_reserve (packet
+background/nodes/dli_c2pp_joint_reserve/notes/c2r2_fround2_20260713/,
+Modal ap-09mdHKo86TqQrV3NmKWNVz): SURVIVED, no falsifier fired.
+F-a NOT fired (wider than M1: t=2 octave 14, slope strictly
+decreasing, 0/2 depths). F-b SCORED FOR THE FIRST TIME (M1 deferred
+it) and NOT fired: worst bulk 1.0662^33 = 2^3.05 + accident charge
+= 14.53% of the 21-bit reserve, ~85% margin. F-c NOT fired (34-row
+Poisson census, X=0, p=0.0237, theta-insensitive). The stripped
+2.874^33 = 2^50.26 is the banked NOT-falsifier (accident-pricing
+mutation confirms the separation). Positive + 3/3 mutation controls
+PASS. HONEST DEFERRAL: went WIDER not DEEPER (2 depths); 3rd-depth
+F-a (t=4) + 40+-row F-c named-deferred to round 3, nothing
+suggesting they fire. c2r2-C2: bulk empirically ==1 across 8
+octaves; c2r2-C3: zero accidents even at theta=1. c2r2-C5 (process):
+caught a full-grid-routing bug pre-launch that would have OOM'd a
+36GB worker. F-round state: c2pp 2 survived. AMBER GATE: 1 of 2
+rounds passed; C1' round 2 still running; flip HELD until both land
+SURVIVED.
