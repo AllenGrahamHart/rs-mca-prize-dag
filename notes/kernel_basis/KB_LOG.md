@@ -1298,3 +1298,31 @@ days ago — IS NOW ONE OPEN RED: the G1 atlas supply, with a
 quantified demand, an exact structure theorem behind it, and
 every other petal object proved or conditional at audit grade.
 Surface reds: 9.
+
+## 51 — 2026-07-13: SECOND T-KILL — G1's weighted-atlas budget clause
+## FALSIFIED; the DEMAND was wrong, not just the supply (catches
+## #138-#144); branch-split re-pose owed
+
+The G1 constructive attack returned a packet-grade falsification:
+the diamond cofactor equation forces >= C(n'-1,k')/(4q(k'+1))
+consumed-band classes at some label vector — 15 orders over the
+n^6 atlas budget at an exact official instance, ~3970 bits over
+at the s=13 primary cell. #139 the P3-CURSE: uniqueness (our own
+proved claim) makes atlas amortization impossible. #140: pinning
+is exactly j in {1,2} — the CS/shift-pair rescue is doubly dead.
+#141: chart weight is (1-rho)k'+3, not d'+2. #143: honest PROVED
+window (DD-consistent atlas, n' <= 32 everywhere, 64 at s >= 12).
+#144 (the deep one): the exponential count IS the official census
+— COLUMN-RELATIVE it is ~1/(4q(k'+1)) of the planted column, tiny
+and consistent with every banked measurement; the n^6-capped
+atlas demand was the WRONG DEMAND at fiber-rich cells. RE-SURGERY
+FIRED per the pre-registered clauses: G1's budget clause
+falsified-as-posed (re-pose owed: branch-split — periodic branch
+column-priced, primitive branch n^6 via the PROVED K4 close);
+SUCCESSOR-A demoted (Claims 1/2/L0 REMAIN PROVED — the csp core
+stands; 3-C vacuous-as-wired pending the re-pose); census gate
+demoted (its column form SURVIVES all data; the atlas route died,
+not the truth). Board: reds 10. The falsification architecture
+has now killed two of our own minted forms in 24 hours — both
+times BEFORE proof investment compounded, both times leaving the
+true load-bearing structure standing and sharper.
