@@ -1,0 +1,34 @@
+PASS A (16, 8, 97, 'consec')
+PASS A (16, 8, 257, 'consec')
+PASS A (16, 8, 337, 'consec')
+PASS A (16, 8, 449, 'consec')
+PASS A (16, 8, 577, 'consec')
+PASS A (32, 12, 97, 'geom5')
+PASS A (32, 12, 193, 'consec')
+PASS A (32, 16, 97, 'geom5')
+PASS A (32, 16, 193, 'wtauy')
+PASS A (32, 16, 353, 'geom5')
+PASS A (32, 16, 1153, 'geom5')
+PASS A (32, 8, 97, 'rand1')
+PASS A (32, 20, 97, 'geom5')
+PASS A (32, 20, 97, 'consec')
+PASS A (16, 8, 257, 'wtauy')
+PASS B (16, 8, 97, 'consec') members=3 pin=3 charts(W)=3
+PASS B (16, 8, 257, 'wtauy') members=1 pin=1 charts(W)=1
+PASS B (16, 8, 337, 'consec') members=3 pin=3 charts(W)=3
+PASS B (32, 16, 97, 'geom5') members=63 pin=63 charts(W)=51
+PASS B (32, 16, 193, 'consec') members=56 pin=56 charts(W)=38
+PASS B (32, 12, 97, 'geom5') members=47 pin=47 charts(W)=23
+PASS B (32, 12, 193, 'consec') members=43 pin=43 charts(W)=19
+PASS B (32, 8, 97, 'geom5') members=14 pin=14 charts(W)=7
+PASS B (32, 8, 193, 'rand1') members=7 pin=7 charts(W)=5
+PASS B (32, 20, 97, 'geom5') members=30 charts(W)=28
+PASS B (32, 20, 97, 'consec') members=42 charts(W)=38
+PASS B (16, 8, 577, 'consec') members=3 charts(W)=3
+PASS B (32, 16, 353, 'geom5') members=20 charts(W)=19
+stage B total members checked: 332
+PASS C M1 word-corrupt: TRIPPED as required
+PASS C M2 fake-member: TRIPPED as required
+PASS C M3 P3-degree-margin: TRIPPED as required
+PASS C M4 pin-corrupt: TRIPPED as required
+VERDICT: ALL PASS

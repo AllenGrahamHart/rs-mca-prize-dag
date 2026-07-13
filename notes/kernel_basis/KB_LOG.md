@@ -1256,3 +1256,20 @@ fiber-rich cells). The petal endgame is now: ONE proof packet
 (structure theorem + uniqueness, both arguments already sketched)
 + G1's atlas supply. NEXT: the packet (algebraic, user-priority),
 then wave-5 (Codex's ray bounds).
+
+## 49 — 2026-07-13: the SUCCESSOR-A proof packet lands (audit-pending;
+## catches #133-#135)
+
+Claims 1 (structure theorem) + 2 (uniqueness) + 3-L0 (K_2
+reduction) PROVED; 3-C conditional on exactly ONE hypothesis — G1
+coverage. Search evidence substitutes for argument NOWHERE (the
+proof file's honesty section). Verifier: dual independent complete
+censuses matched through the lift bijection, 9 banked counts
+exact, 3 cells the search never covered, 4/4 mutations trip, 8s
+under ramguard tiny. Pins: #133 scalars are word-presentation
+only; #134 the uniqueness margin is EXACTLY one degree (reading A
+buys it, P3 spends it; false at d' — constructively); #135 parity
+halves the band (top band exactly {k+2, k+4}; odd-|S| auto-
+aperiodic) — SUCCESSOR-A's scope is exact. If the audit passes:
+SUCCESSOR-A becomes a proved compiler and the WHOLE petal family
+(gate included) rides on G1's atlas supply alone. Audit launched.
