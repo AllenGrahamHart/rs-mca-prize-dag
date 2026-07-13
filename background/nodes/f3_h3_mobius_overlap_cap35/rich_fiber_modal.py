@@ -38,6 +38,11 @@ u64 mod_pow(u64 base, u64 exponent, u64 modulus) {
     return result;
 }
 
+u64 choose_five(u64 value) {
+    if (value < 5) return 0;
+    return value * (value - 1) * (value - 2) * (value - 3) * (value - 4) / 120;
+}
+
 int main(int argc, char** argv) {
     if (argc != 3) return 1;
     const u64 n = std::strtoull(argv[1], nullptr, 10);
@@ -90,19 +95,37 @@ int main(int argc, char** argv) {
     u64 factorial_moment = 0;
     u64 swap_moment = 0;
     u64 weighted_excess = 0;
+    u64 weighted_excess18 = 0;
     std::map<u64, std::tuple<u64, u64, u64>> quotient_profile;
     std::vector<std::tuple<u64, u64, u64, u64>> contribution_ranked;
     u64 max_p_plus_r = 0;
     u64 max_p_plus_2r = 0;
     u64 max_pr = 0;
+    u64 single_accident = 0;
+    u64 double_accident = 0;
+    u64 rich_nonswap = 0;
+    u64 rich_targets = 0;
+    u64 fifth_orbit_moment = 0;
+    u64 rich_fifth_orbit_moment = 0;
     for (u64 t = 2; t < p; ++t) {
         const u64 pc = products[t];
         const u64 qc = quotients[t];
         factorial_moment += pc * (pc - (pc != 0)) * qc;
         swap_moment += (pc - diagonal_products[t]) * qc;
         if (pc > 35) weighted_excess += (pc - 35) * qc;
+        if (pc > 18) weighted_excess18 += (pc - 18) * qc;
+        const u64 orbit_count = (pc + diagonal_products[t]) / 2;
+        fifth_orbit_moment += choose_five(orbit_count) * qc;
+        if (pc >= 19) rich_fifth_orbit_moment += choose_five(orbit_count) * qc;
         if (qc != 0) {
-            const u64 nonswap = (pc * pc + diagonal_products[t] - 2 * pc) * qc;
+            const u64 qbase = pc * pc + diagonal_products[t] - 2 * pc;
+            const u64 nonswap = qbase * qc;
+            single_accident += qbase;
+            double_accident += qbase * (qc - 1);
+            if (pc >= 19) {
+                rich_nonswap += nonswap;
+                ++rich_targets;
+            }
             auto& [parameters, max_product, contribution] = quotient_profile[qc];
             ++parameters;
             max_product = std::max(max_product, pc);
@@ -125,6 +148,13 @@ int main(int argc, char** argv) {
               << ",\"max_p_plus_r\":" << max_p_plus_r
               << ",\"max_p_plus_2r\":" << max_p_plus_2r
               << ",\"max_pr\":" << max_pr
+              << ",\"single_accident\":" << single_accident
+              << ",\"double_accident\":" << double_accident
+              << ",\"rich_nonswap\":" << rich_nonswap
+              << ",\"rich_targets\":" << rich_targets
+              << ",\"fifth_orbit_moment\":" << fifth_orbit_moment
+              << ",\"rich_fifth_orbit_moment\":" << rich_fifth_orbit_moment
+              << ",\"weighted_excess18\":" << weighted_excess18
               << ",\"weighted_excess\":" << weighted_excess << ",\"top\":[";
     for (std::size_t i = 0; i < std::min<std::size_t>(ranked.size(), 12); ++i) {
         if (i) std::cout << ',';

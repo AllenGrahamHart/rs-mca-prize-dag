@@ -18,3 +18,16 @@ statement) as a structural attack; SCK adjacency.
 Q-MIN (annotation): same split freedom as P-A. This is the
 anti-concentration heart — the axis-Q instance of K2 Face 3; a kill here
 is a kill of the K2 clause at this face (maximum information).
+
+PROVED BRANCH (2026-07-13): `xr_all_lineray_affine_core_bound` pays the slope
+target whenever there exists a one-per-slope selector of affine error rank at
+most three. The open anti-concentration family must therefore have rank at
+least four for every selector. The P9 collision jobs test P-A rather than this
+low-core stratum, but confirm that high-transversal-rank post-strip families
+can occur in the shared LineRay object.
+
+PROVED COGIRTH BRANCH (2026-07-13):
+`xr_affine_core_cogirth_ray_bound` pays full-domain selector ranks through
+`4,4,3,11,11,10` on the six rows. Hence a P-B counterexample has minimum
+selector rank at least `5,5,4,12,12,11`, respectively. No collision premise is
+used in this branch.

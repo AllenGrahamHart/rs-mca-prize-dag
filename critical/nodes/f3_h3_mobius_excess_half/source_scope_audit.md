@@ -7,18 +7,18 @@ Date: 2026-07-12.
 Let `B` range over the proved quotient coefficient blocks and put
 
 ```text
-Q(B)=sum_(t in B) [P(t)(P(t)-2)+D(t)].
+Q_18(B)=sum_(t in B,P(t)>=19) [P(t)(P(t)-2)+D(t)].
 ```
 
 Since `R(t)=|B|-1` is constant on each block,
 
 ```text
-S_ns=sum_B (|B|-1)Q(B).                           (BNS)
+S_ns^rich=sum_B (|B|-1)Q_18(B).                   (BNS18)
 ```
 
 Thus the missing theorem is a correlation bound between quotient-block size
-and non-swap product-collision mass. A marginal block-size tail or ordinary
-shifted energy does not by itself prove `(BNS)<=1200n^2`.
+and rich non-swap product-collision mass. A marginal block-size tail or
+ordinary shifted energy does not by itself prove `(BNS18)<=1200n^2`.
 
 ## Konyagin--Shparlinski--Vyugin
 
@@ -52,7 +52,7 @@ E_x(A)=sum_t P(t)^2
 ```
 
 with an implicit `O(n^2 log n)` term in the relevant regime. It does not bound
-the correlated moment `(BNS)`, and multiplying by a pointwise bound for `R`
+the correlated moment `(BNS18)`, and multiplying by a pointwise bound for `R`
 loses a power of `n`. Even if a direct proof established
 `S_ns<=C n^2 log n`, the official maximum `log n=41 log 2` would require
 
@@ -65,7 +65,31 @@ No such explicit correlated theorem is printed in the audited source.
 ## Verdict
 
 The current source route is `OPEN GAP`, not a citation close. A successful
-proof must control the joint block moment `(BNS)`, retain product/quotient
+proof must control the joint rich-block moment `(BNS18)`, retain product/quotient
 correlation in a rich-level argument, or exploit the oriented character phases.
 The cutoff optimization makes an explicit logarithmic proof plausible but does
 not supply it.
+
+The in-repo theorem `f3_h3_shifted_product_sidon` additionally proves that
+the non-swap product-collision factor has no characteristic-zero component at
+dyadic order. Thus a norm-divisor aggregation is now a fourth honest route.
+Its per-collision divisibility statement does not control concentration at one
+prime and is not itself a bound for `(BNS18)`.
+
+## Combined-equation check
+
+Eliminating the shared parameter from one product and one quotient
+representation gives
+
+```text
+(1-x)(1-y)(1-z)=1-w,  x,y,z,w in H.
+```
+
+Its constant terms cancel and its lowest homogeneous part is
+`w-x-y-z`, so it avoids the single-monomial defect of an individual product
+fiber. This does not create a citation close: Konyagin--Shparlinski--Vyugin
+Theorem 1.2 is a theorem for one irreducible bivariate polynomial on `H^2`,
+whereas this is a four-variable hypersurface. Fixing any two variables
+generically restores a nonzero constant lowest term in the remaining
+bivariate equation. A multivariate Stepanov theorem with explicit constants
+would be new input, not an instance of the cited result.

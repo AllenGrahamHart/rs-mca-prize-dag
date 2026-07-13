@@ -5039,13 +5039,22 @@
    "id": "xr_highcore_collision_count",
    "status": "TARGET",
    "key": true,
-   "statement": "XR PREDICATE P-A (high-core collision count). At each of the six clean-rate candidates, for every generic-branch pair (u,v) (pairs jointly A-close to a codeword pair are tangent-paid and out of scope \u2014 the consumer's own dichotomy), the number of post-strip live slopes sharing a size-k core with another live member is <= 8n^3, dihedral-symmetric and extension-type slopes counted inside. Row pins (audit-recomputed): the six clean-rate candidates = (RowC n=1024, prize n=2^41) x rates 1/4, 1/8, 1/16; A = k + n/scale + 1 with deciding scales 256/256/512; B* = floor((2^1279)^(1/10)) at prize (log2 = 127.9000); q idealized (2^250 prime-unpinned, 2^255.9) with the I2 q = p^k pin caveat (0.089-bit sliver) inherited; extension-type mass INSIDE predicate scope. FM-witnessing caveat: all Face-3 evidence sits at FM = Theta(1)..107; candidate-row behavior is extrapolation. K2 Face-3 instance (chain step 5c), constant-exact \u2014 K2 duplication catch #35: cite BOTH rigidity_kernel AND rk_rigidity_kernel; object pin = rank-loss/collision-core configurations; operating point = the six candidates (FM-suppressed). PROVED AROUND IT: post-strip pairwise cores <= k (rung-2b two-slope forcing, replayed exhaustively \u2014 4,662 forced pairs, 0 violations, plus a t=3 control); every high-core slope is a ray through a collision core W with mult(W) >= 2, so #high-core <= 2 Sigma_W C(mult(W),2) (T1-T4 + sunflower per-W cap (n-k)/(t-d), machine-instantiated). POSEDNESS PIN (catch #42): the predicate is on the SLOPE COUNT, not the collision MOMENT \u2014 the moment can sit at ~n^6 while the floor holds (np1 datum: moment 130,370 vs 98 high-core rays); the moment identity is the instrument, not the target. PRE-REGISTERED FALSIFIER: a generic-branch pair at a scaled official-like row with post-strip high-core slope count > 8n^3 transported, sustained (E27/P9 machinery); FM-band-consistent counts and moment values alone do NOT refute. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/xr_smallcore_spread_count/notes/QUALITY_xr_highcore_collision_count.md"
+   "statement": "XR PREDICATE P-A (high-core collision count). At each of the six clean-rate candidates, for every generic-branch pair (u,v) (pairs jointly A-close to a codeword pair are tangent-paid and out of scope \u2014 the consumer's own dichotomy), the number of post-strip live slopes sharing a size-k core with another live member is <= 8n^3, dihedral-symmetric and extension-type slopes counted inside. Row pins (audit-recomputed): the six clean-rate candidates = (RowC n=1024, prize n=2^41) x rates 1/4, 1/8, 1/16; A = k + n/scale + 1 with deciding scales 256/256/512; B* = floor((2^1279)^(1/10)) at prize (log2 = 127.9000); q idealized (2^250 prime-unpinned, 2^255.9) with the I2 q = p^k pin caveat (0.089-bit sliver) inherited; extension-type mass INSIDE predicate scope. FM-witnessing caveat: all Face-3 evidence sits at FM = Theta(1)..107; candidate-row behavior is extrapolation. K2 Face-3 instance (chain step 5c), constant-exact \u2014 K2 duplication catch #35: cite BOTH rigidity_kernel AND rk_rigidity_kernel; object pin = rank-loss/collision-core configurations; operating point = the six candidates (FM-suppressed). PROVED AROUND IT: post-strip pairwise cores <= k (rung-2b two-slope forcing, replayed exhaustively \u2014 4,662 forced pairs, 0 violations, plus a t=3 control); every high-core slope is a ray through a collision core W with mult(W) >= 2, so #high-core <= 2 Sigma_W C(mult(W),2) (T1-T4 + sunflower per-W cap (n-k)/(t-d), machine-instantiated). The canonical component-union atlas now deduplicates slopes, cores, and union charts exactly: #high-core=sum_C |Z_C| and GRK bounds each component by floor(C(R+d_C,d_C)R/C(d_C+h,d_C)). The all-LineRay affine-core theorem pays any selector of rank at most three. The collision-line basis ledger proves sum b_ell<=C(n,s-1), the exact line cap, a low-basis global chart of excess <=b+s-2, and the minimum-basis self-localized ledger. The affine-core cogirth ray bound pays full-domain selector ranks 4,4,3,11,11,10 and consumes every remaining rank-four line chart. Thus selector rank four is closed unconditionally on five rows (full-domain cogirth); at RowC 1/16 it is closed for families whose min-rank selector hull admits a collision line with core-nonloop count m <= 49 (equivalently b <= 47; localized cogirth on the R+m chart, covering-free) or whose high-core members are all line-covered (CLB3, b_* >= 7) -- the line-free/line-uncovered rank-4 sub-case at RowC 1/16 remains open (catch #158); at the prize rates every open selector has rank at least 12,12,11. Uniform collision-core branches are separately paid through ranks 13,9,7,60,40,30. On the component route the higher-rank residual remains the explicit sum over component counts and union excesses d_C, not atlas construction. P9 exact search confirms the high-transversal-rank branch is nonvacuous after tangent deletion at toy rows. POSEDNESS PIN (catch #42): the predicate is on the SLOPE COUNT, not the collision MOMENT \u2014 the moment can sit at ~n^6 while the floor holds (np1 datum: moment 130,370 vs 98 high-core rays); the moment identity is the instrument, not the target. PRE-REGISTERED FALSIFIER: a generic-branch pair at a scaled official-like row with post-strip high-core slope count > 8n^3 transported, sustained (E27/P9 machinery); FM-band-consistent counts and moment values alone do NOT refute. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/xr_smallcore_spread_count/notes/QUALITY_xr_highcore_collision_count.md",
+   "refs": [
+    "critical/nodes/xr_highcore_collision_count/statement.md",
+    "critical/nodes/xr_highcore_collision_count/attack.md",
+    "critical/nodes/xr_highcore_collision_count/frontier.md",
+    "critical/nodes/xr_highcore_collision_count/claim_contract.md",
+    "critical/nodes/xr_highcore_collision_count/dependency_subdag.md",
+    "critical/nodes/xr_highcore_collision_count/component_profile_20260713.md",
+    "critical/nodes/xr_smallcore_spread_count/notes/QUALITY_xr_highcore_collision_count.md"
+   ]
   },
   {
    "id": "xr_lowcore_spread_heart",
    "status": "TARGET",
    "key": true,
-   "statement": "XR PREDICATE P-B (low-core spread heart \u2014 the anti-concentration heart). At each of the six clean-rate candidates, for every generic-branch pair (u,v), the number of post-strip live slopes with all pairwise cores <= k-1 (singletons included) is <= 8n^3, dihedral-symmetric and extension-type slopes counted inside. Row pins (audit-recomputed): the six clean-rate candidates = (RowC n=1024, prize n=2^41) x rates 1/4, 1/8, 1/16; A = k + n/scale + 1 with deciding scales 256/256/512; B* = floor((2^1279)^(1/10)) at prize (log2 = 127.9000); q idealized (2^250 prime-unpinned, 2^255.9) with the I2 q = p^k pin caveat (0.089-bit sliver) inherited; extension-type mass INSIDE predicate scope. FM-witnessing caveat: all Face-3 evidence sits at FM = Theta(1)..107; candidate-row behavior is extrapolation. K2 Face-3 axis-Q instance (chain step 5e) \u2014 cite BOTH rigidity_kernel AND rk_rigidity_kernel (catch #35). PROVED AROUND IT: validity is automatic in the generic branch (a live support with vanishing projection forces a joint A-agreement \u2014 one-line, sound); the strip ledger and consumption arithmetic are exact (three independent implementations agree: 52/52, 50/50, 69/69). SUP-FORM PIN: per-pair sup quantifier, forced by the consumer's 'for every pair' \u2014 toy evidence is mean/median-flavored, so evidence strength != predicate strength (declared). ATTACK SURFACE: f2_effective_energy_dichotomy (portable verbatim per its statement), SCK adjacency, E27 spectrum. PRE-REGISTERED FALSIFIER: post-strip spread remainder over the transported budget at a scaled official-like row, sustained. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/xr_smallcore_spread_count/notes/QUALITY_xr_lowcore_spread_heart.md"
+   "statement": "XR PREDICATE P-B (low-core spread heart \u2014 the anti-concentration heart). At each of the six clean-rate candidates, for every generic-branch pair (u,v), the number of post-strip live slopes with all pairwise cores <= k-1 (singletons included) is <= 8n^3, dihedral-symmetric and extension-type slopes counted inside. Row pins (audit-recomputed): the six clean-rate candidates = (RowC n=1024, prize n=2^41) x rates 1/4, 1/8, 1/16; A = k + n/scale + 1 with deciding scales 256/256/512; B* = floor((2^1279)^(1/10)) at prize (log2 = 127.9000); q idealized (2^250 prime-unpinned, 2^255.9) with the I2 q = p^k pin caveat (0.089-bit sliver) inherited; extension-type mass INSIDE predicate scope. FM-witnessing caveat: all Face-3 evidence sits at FM = Theta(1)..107; candidate-row behavior is extrapolation. K2 Face-3 axis-Q instance (chain step 5e) \u2014 cite BOTH rigidity_kernel AND rk_rigidity_kernel (catch #35). PROVED AROUND IT: validity is automatic in the generic branch (a live support with vanishing projection forces a joint A-agreement \u2014 one-line, sound); the strip ledger and consumption arithmetic are exact (three independent implementations agree: 52/52, 50/50, 69/69). The all-LineRay affine-core theorem pays the slope target whenever one one-per-slope selector has affine error rank sigma<=3. The affine-core cogirth ray bound strengthens the full-domain paid selector ranks to 4,4,3,11,11,10 on the six rows, so a counterexample has minimum selector rank at least 5,5,4,12,12,11 respectively. SUP-FORM PIN: per-pair sup quantifier, forced by the consumer's 'for every pair' \u2014 toy evidence is mean/median-flavored, so evidence strength != predicate strength (declared). ATTACK SURFACE: f2_effective_energy_dichotomy (portable verbatim per its statement), SCK adjacency, E27 spectrum. PRE-REGISTERED FALSIFIER: post-strip spread remainder over the transported budget at a scaled official-like row, sustained. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/xr_smallcore_spread_count/notes/QUALITY_xr_lowcore_spread_heart.md"
   },
   {
    "id": "xr_strip_classification_rungs",
@@ -5135,7 +5144,7 @@
     "critical/nodes/f3_h3_mobius_excess_half/statement.md",
     "critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_MOBIUS_OVERLAP_CAP.md"
    ],
-   "statement": "For every official row, with A=(1-H)\\{0}, P(t)=#{(a,b) in A^2:ab=t}, R(t)=#{(c,d) in A^2:d/c=t}, and X_18=sum_{t!=1}max(P(t)-18,0)R(t), one has 17X_18<=300n^2. This cutoff-18 target is strictly weaker than the former X_35<=n^2/2 premise. The proved non-swap compiler shows that S_ns<=1200n^2 is sufficient, replacing the prior 68n^2 target. FALSIFIER: one exact official row with 17X_18>300n^2. [IMPORT PINS r2 (2026-07-12 wave-2; supersedes the r1 pins block): FULL CORRIDOR \u2014 every official row n = 2^s, 13 <= s <= 41, every prime p = 1 mod n, p >= n^2. The cutoff-18 weakening (17 X_18 <= 300n^2) verified exactly at import: 68 sharp (1088 = 34*32, 1224 = 36*34), cutoff-35 => cutoff-18 strict, and the C36' close re-lands with rational margin 48/425 > 0 at n >= 8192 \u2014 the banked cutoff-35 ledger and M35 survive as strictly stronger background routes. Q-SURV TRANSFERS to the weakened form: the banked 12-prime sweep's max overlap P <= 20 gives (P-18)+ <= 2, so 17 X_18 <= 34 (n-1)(n-2) < 300n^2 with 9x room at every swept row; the 7,090-row sweep and both n=8192 replays stand. Source-boundary audit (2ab08f2) banked node-locally: KSV/MSS citation closes REFUSED honestly \u2014 open gap, not a citation close.]",
+   "statement": "For every official row, with A=(1-H)\\{0}, P(t)=#{(a,b) in A^2:ab=t}, R(t)=#{(c,d) in A^2:d/c=t}, and X_18=sum_{t!=1}max(P(t)-18,0)R(t), one has 17X_18<=300n^2. This cutoff-18 target is strictly weaker than the former X_35<=n^2/2 premise. The proved non-swap compiler shows that S_ns<=1200n^2 is sufficient, replacing the prior 68n^2 target. FALSIFIER: one exact official row with 17X_18>300n^2. [IMPORT PINS r2 (2026-07-12 wave-2; supersedes the r1 pins block): FULL CORRIDOR \u2014 every official row n = 2^s, 13 <= s <= 41, every prime p = 1 mod n, p >= n^2. The cutoff-18 weakening (17 X_18 <= 300n^2) verified exactly at import: 68 sharp (1088 = 34*32, 1224 = 36*34), cutoff-35 => cutoff-18 strict, and the C36' close re-lands with rational margin 48/425 > 0 at n >= 8192 \u2014 the banked cutoff-35 ledger and M35 survive as strictly stronger background routes. Q-SURV TRANSFERS to the weakened form: the banked 12-prime sweep's max overlap P <= 20 gives (P-18)+ <= 2, so 17 X_18 <= 34 (n-1)(n-2) < 300n^2 with 9x room at every swept row; the 7,090-row sweep and both n=8192 replays stand. Source-boundary audit (2ab08f2) banked node-locally: KSV/MSS citation closes REFUSED honestly \u2014 open gap, not a citation close.] [NARROWING r3 (2026-07-13, wave-5 audited): preferred sufficient target S_ns^rich = sum_{t!=1,P(t)>=19}[P(t)(P(t)-2)+D(t)]R(t) <= 1200n^2, strictly weaker; former full-S_ns target retained as strictly stronger envelope; Sidon narrowing: every non-swap record is a p-specific norm-gate accident, 0<|Norm(alpha)|<=6^phi(n); boundary row (8192, 67657729) exact: S_ns=65810428 vs S_ns^rich=720, X_18=4, M_5^rich=504 -- route-selection evidence only, wave-5 re-replayed exactly]",
    "attack_surface": "Prove a truncated product/quotient correlation estimate, not a global shifted-energy bound. Candidate routes: constants-explicit rich-level incidence tails paired with quotient weights; an oriented character/Jacobi estimate retaining phases; or classification of only the simultaneous rich-product/rich-quotient locus. The background pointwise M35 cap is sufficient but deliberately stronger and is not the critical claim."
   },
   {
@@ -5480,6 +5489,76 @@
     "background/nodes/xr_direction_distance_ray_bound/verify.py"
    ],
    "statement": "Let H_U:F^U->F^R have kernel K, put N=|U|, and let d_U(y1) be the minimum weight of a lift of the nonzero syndrome direction y1. If every slope in Z on y0+gamma y1 has a lift of weight at most t in U and (N-t)^2>N(N-d_U(y1)), then |Z|<=floor(N(d_U(y1)-t)/((N-t)^2-N(N-d_U(y1))))<=N^2. Proof: the selected slopes give distinct words of K+<b1> inside one radius-t Hamming ball; agreement-set second moments pay them. Failure of the inequality gives an explicit sparse-direction lift and is the exact complementary branch. This is a fixed-chart theorem and does not aggregate charts."
+  },
+  {
+   "id": "f3_h3_shifted_product_sidon",
+   "title": "Dyadic shifted roots are multiplicatively Sidon in characteristic zero",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/f3_h3_shifted_product_sidon/statement.md",
+    "background/nodes/f3_h3_shifted_product_sidon/proof.md",
+    "background/nodes/f3_h3_shifted_product_sidon/verify.py"
+   ],
+   "statement": "Let n=2^s and A=(1-mu_n(C))\\{0}. Then ab=cd with a,b,c,d in A forces {a,b}={c,d}; every nonidentity quotient fiber also has multiplicity at most one. Proof: the 2-adic cyclotomic valuation first matches the two valuation levels; separating Q(zeta_{2^j}) over Q(zeta_{2^{j-1}}) then gives either the two factors separately or their sum and product. Hence every finite-field non-equal, non-swap product collision lifts to a nonzero cyclotomic integer alpha=(1-x)(1-y)-(1-u)(1-v) killed modulo the row prime, so p divides Norm(alpha) and 0<|Norm(alpha)|<=6^phi(n). It also gives the exact finite split S_ns=sum_{R(t)>0}Q(t)+sum_t Q(t)(R(t)-1), separating one norm-gate accident from the joint double-accident term. This is not a per-prime aggregate bound or a proof of S_ns^rich<=1200n^2."
+  },
+  {
+   "id": "f3_h3_fifth_orbit_moment_compiler",
+   "title": "C36' fifth product-orbit moment compiler",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/f3_h3_fifth_orbit_moment_compiler/statement.md",
+    "background/nodes/f3_h3_fifth_orbit_moment_compiler/proof.md",
+    "background/nodes/f3_h3_fifth_orbit_moment_compiler/verify.py"
+   ],
+   "statement": "Let U(t)=(P(t)+D(t))/2 be the number of unordered product representations and M_5^rich=sum_{t!=1,P(t)>=19}binom(U(t),5)R(t). Then X_18<=(2/231)M_5^rich, with sharp compiler equality at (P,D,U)=(22,0,11). Consequently M_5^rich<=(34650/17)n^2 implies the critical target 17X_18<=300n^2. The reduction is proved; the moment estimate is not claimed."
+  },
+  {
+   "id": "xr_highcore_component_union_atlas",
+   "title": "Canonical high-core component-union atlas",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_highcore_component_union_atlas/statement.md",
+    "background/nodes/xr_highcore_component_union_atlas/proof.md",
+    "background/nodes/xr_highcore_component_union_atlas/result.md",
+    "background/nodes/xr_highcore_component_union_atlas/verify.py"
+   ],
+   "statement": "For a generic post-strip pair, graph live slopes by size-k collisions, equivalently by witness error-set unions of size R=n-k. The nonisolated slopes partition into canonical connected components C. A lexicographic spanning-tree selection chooses one witness ray per slope and a component union U_C of size R+d_C. Each slope has an r=n-A supported lift in U_C, genericity is inherited, and GRK gives |Z_C|C(d_C+h,d_C)<=C(R+d_C,d_C)R. Hence the high-core slope count is the exact disjoint sum over C and is at most sum_C floor(C(R+d_C,d_C)R/C(d_C+h,d_C)). This resolves core/chart/slope deduplication but does not bound the component count or excess ledger by 8n^3."
+  },
+  {
+   "id": "xr_all_lineray_affine_core_bound",
+   "title": "All-LineRay affine-core set-pair bound",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_all_lineray_affine_core_bound/statement.md",
+    "background/nodes/xr_all_lineray_affine_core_bound/proof.md",
+    "background/nodes/xr_all_lineray_affine_core_bound/verify.py",
+    "background/nodes/xr_all_lineray_affine_core_bound/result.md"
+   ],
+   "statement": "Let P be all distinct transverse sparse error pairs on one nonconstant syndrome line, let s be their affine error rank, and let w be their maximum weight. Zero-mask restriction is injective on the affine core; canonical full-rank zero minors form a nonuniform Bollobas set-pair system. Therefore sum_(gamma,e)1/C(s+wt(e),s)<=1 and |P|<=C(s+w,s)<=C(n,s). Applying the same theorem to any one-per-slope selector gives #slopes<=C(sigma+r,sigma), where sigma is the minimum selector rank and r=n-A. Exact arithmetic at all six XR candidates pays sigma<=3, while sigma=4 fails. Thus both XR predicates are paid whenever a rank-at-most-three selector exists; every selector in the residual has rank at least four."
+  },
+  {
+   "id": "xr_highcore_collision_line_basis_ledger",
+   "title": "High-core collision-line basis ledger",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_highcore_collision_line_basis_ledger/statement.md",
+    "background/nodes/xr_highcore_collision_line_basis_ledger/proof.md",
+    "background/nodes/xr_highcore_collision_line_basis_ledger/verify.py",
+    "background/nodes/xr_highcore_collision_line_basis_ledger/result.md"
+   ],
+   "statement": "For a syndrome-line error family of affine rank s, every size-k collision line has core-restriction rank s-1. If b_ell counts its independent (s-1)-minors, then sum_ell b_ell<=C(n,s-1), while each line contains at most floor((n-k)/(A-k)) errors. A minimum-basis line with b_*=b puts the whole affine family in a fixed chart of excess at most b+s-2 and self-localizes the line ledger to |P_hi|<=L floor(C(min(n,R+b+s-2),s-1)/b). This closes rank four on RowC 1/4 and prize 1/4,1/8 before the cogirth handoff."
+  },
+  {
+   "id": "xr_affine_core_cogirth_ray_bound",
+   "title": "Affine-core cogirth ray bound",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_affine_core_cogirth_ray_bound/statement.md",
+    "background/nodes/xr_affine_core_cogirth_ray_bound/proof.md",
+    "background/nodes/xr_affine_core_cogirth_ray_bound/verify.py",
+    "background/nodes/xr_affine_core_cogirth_ray_bound/result.md"
+   ],
+   "statement": "Let A be an affine subspace over a nonconstant syndrome line, let K=(A-A) intersect ker H have dimension a, and assume genericity at radius r. The coordinate matroid of K restricted to any error zero set has cogirth at least Delta-r and hence at least C(Delta-r+a-1,a) bases. Charging nonpersistent zeros gives |P|C(Delta-r+a-1,a)<=C(N,a)(N-a). Exact XR arithmetic pays full-domain selector ranks 4,4,3,11,11,10; combined with the collision-line self-localized charts it closes the complete high-core rank-four branch on all six rows."
   }
  ],
  "edges": [
@@ -10706,6 +10785,46 @@
   {
    "from": "f3_h3_line_star_moment_identity",
    "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_shifted_product_sidon",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_fifth_orbit_moment_compiler",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_highcore_component_union_atlas",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_all_lineray_affine_core_bound",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_all_lineray_affine_core_bound",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_highcore_collision_line_basis_ledger",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_affine_core_cogirth_ray_bound",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_affine_core_cogirth_ray_bound",
+   "to": "xr_lowcore_spread_heart",
    "kind": "ev"
   }
  ]

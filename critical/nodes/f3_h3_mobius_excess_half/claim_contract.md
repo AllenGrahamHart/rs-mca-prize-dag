@@ -10,7 +10,8 @@
 - **proved dependencies:** quotient-block identity, paired PGL2 identity,
   cutoff-18 compiler, and exact C36' arithmetic
 - **new open content:** a joint product/quotient correlation estimate; the
-  sufficient aggregate target is `S_ns<=1200n^2`
+  preferred sufficient aggregate target is `S_ns^rich<=1200n^2`, restricted
+  to the actual rich locus `P(t)>=19`
 - **falsifier:** one exact official row with `17X_18>300n^2`
 - **current proof route:** constants-explicit joint block moment or oriented
   character/Stepanov estimate retaining product/quotient correlation

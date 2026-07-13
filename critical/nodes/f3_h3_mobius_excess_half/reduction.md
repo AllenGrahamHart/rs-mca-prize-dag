@@ -25,6 +25,7 @@ Put
 ```text
 D(t)=#{a in A:a^2=t},
 S_ns=sum_(t!=1) [P(t)(P(t)-2)+D(t)]R(t).
+S_ns^rich=sum_(t!=1,P(t)>=19) [P(t)(P(t)-2)+D(t)]R(t).
 ```
 
 For every feasible product multiplicity `m` and fixed-point count `d`, parity
@@ -41,17 +42,20 @@ For `m<=18` this is immediate. For `m>=19`, right minus left is
 ```
 
 which is nonnegative; the only interior case is `m=35`, where odd parity gives
-`d>=1`. Multiplying (1) by `R(t)` and summing proves
+`d>=1`. For `m<=18` the left side vanishes, so those nonnegative right-side
+terms can be discarded. Multiplying (1) by `R(t)` and summing only over
+`P(t)>=19` proves
 
 ```text
-68X_18<=S_ns.
+68X_18<=S_ns^rich<=S_ns.
 ```
 
 Consequently the single estimate
 
 ```text
-S_ns<=1200n^2                                      (SNS1200)
+S_ns^rich<=1200n^2                                 (SNS18-1200)
 ```
 
-implies `17X_18<=300n^2`. This enlarges the prior non-swap allowance from
-`68n^2` to `1200n^2` without changing the C36' conclusion.
+implies `17X_18<=300n^2`. This is strictly weaker than the former full-moment
+target `S_ns<=1200n^2`: all product fibers below the actual cutoff are now
+discarded.

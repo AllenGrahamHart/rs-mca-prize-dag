@@ -14,9 +14,21 @@ def main() -> None:
     for multiplicity in range(0, 1000):
         fixed = minimum_fixed_points(multiplicity)
         lhs = 68 * max(multiplicity - 18, 0)
-        rhs = multiplicity * (multiplicity - 2) + fixed
+        rhs = (
+            multiplicity * (multiplicity - 2) + fixed
+            if multiplicity >= 19
+            else 0
+        )
         if lhs > rhs:
             raise AssertionError((multiplicity, fixed, lhs, rhs))
+
+    # The truncation is strict: low fibers contribute to the former full
+    # moment but are absent from both X_18 and the preferred sufficient bound.
+    low_multiplicity = 4
+    full_low_term = low_multiplicity * (low_multiplicity - 2)
+    rich_low_term = 0
+    if not full_low_term > rich_low_term:
+        raise AssertionError("rich-moment truncation is not strict")
 
     # The coefficient 68 is sharp at even multiplicities 34 and 36.
     mutation_lhs = 69 * (34 - 18)
@@ -47,7 +59,7 @@ def main() -> None:
     print(
         "H3_MOBIUS_EXCESS_COMPILER_PASS "
         "official_orders=29 baseline=18 weighted_excess=300n2/17 "
-        "nonswap_sufficient=1200n2"
+        "rich_nonswap_sufficient=1200n2"
     )
 
 

@@ -1568,3 +1568,43 @@ amber: the maintainer M5 file notes/M5_CONFIRMATION_2P121.md (exact
 text in m4_amber_statement_draft.md sec 3) -> M5 flips CONFIRMED;
 #166 countersign hardening at promotion time. Modal harness re-pin
 queued with the wave-5 stages 2-3 batch.
+
+## 63 — 2026-07-13: WAVE-5 STAGES 2-3 IMPORTED (catches #158-#161
+## applied) — C36 cluster + XR reduction cluster land on master
+
+Executed the banked import spec (WAVE5_AUDIT_FINDINGS.md, pin
+e3c08000) in full. SIX new PROVED background nodes:
+f3_h3_shifted_product_sidon (dyadic-tower norm-gate theorem; Modal
+re-pins exact), f3_h3_fifth_orbit_moment_compiler (C(u,5) >=
+231(u-9), consumer arithmetic 300 exact),
+xr_highcore_component_union_atlas (lex-BFS one-ray-per-slope; exact
+partition), xr_all_lineray_affine_core_bound (Bollobas set-pair;
+sigma<=3 paid all rows), xr_highcore_collision_line_basis_ledger
+(sum b_ell <= C(n,s-1); statement carries #158 repair 4a),
+xr_affine_core_cogirth_ray_bound (covering-free ACG; full-domain
+ranks 4,4,3,11,11,10; repair 4b). Eight new ev edges (stage-1 edges
+verified present first). P-A node folder created at
+critical/nodes/xr_highcore_collision_count/ with #158 repairs 2
+(claim_contract rank-four scoping) + 3 (frontier open-rank
+scoping); P-A dag statement spliced AS AT PIN with repair 1 (RowC
+1/16 rank-4 close scoped to line-covered/b<=47 hulls; line-free/
+line-uncovered sub-case OPEN); P-B 2-sentence addendum verbatim
+(min selector rank >= 5,5,4,12,12,11); QUALITY_xr_lowcore two
+PROVED BRANCH blocks. Mobius: NARROWING r3 appended per #160a
+(S_ns^rich preferred target; master text untouched — the pin's
+in-place rewrite REFUSED per custody law), node files at pin with
+#159 fix ((R-1)_+ subscript in attack.md's (AD) split); cutoff18
+strengthened form banked as DATED ADDENDA per #160b (original
+claims preserved); cap35 rich-fiber deltas verbatim (all constants
+Modal-re-pinned by the audit); u1_x4 QUALITY cert pin edit. P-A
+NET: REDUCED not closed — residuals = component ledger (d_C
+unbounded) + every-selector-rank branch (5,5,{4*},12,12,11 with
+{4*} = the #158 sub-case). Both P-A/P-B stay TARGET; no status
+changes anywhere. All 6 new verifiers + changed mobius verifier
+replayed green under ramguard local; verify_prize_dag green;
+harness 120 scripts / 213 assets PASS. Campaign-ledger rows live in
+WAVE5_AUDIT_FINDINGS.md (master convention: this log; the branch
+ledger file was not imported). Wave-6 queue: 9d058055+ route_limit
+fence (inherits #158), 261bef6d+ mca quadratic rows, 3ec0f716 dli
+endpoint decomposition — audit with #158 in hand. Modal harness
+re-pin queued.

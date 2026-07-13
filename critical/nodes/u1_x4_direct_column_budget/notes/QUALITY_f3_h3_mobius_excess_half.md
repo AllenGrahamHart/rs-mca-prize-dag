@@ -32,5 +32,7 @@ swept row. The source-boundary audit honestly REFUSED two would-be
 citation closes (KSV needs >= 2 monomials; MSS marginal energy does not
 bound the correlated block moment) — the gap is real, not literature-
 closable as posed. Alternate routes on file: M35 via paired PGL2
-(observed max 30 on sixteen boundary rows at n = 8192/16384), S_ns <=
-1200n^2 direct.
+(observed max 30 on sixteen boundary rows at n = 8192/16384),
+S_ns^rich <= 1200n^2 direct, where the rich moment retains only product
+fibers with P(t) >= 19. The former full S_ns target is a strictly stronger
+envelope and is no longer the preferred sufficient condition.
