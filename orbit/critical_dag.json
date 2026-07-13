@@ -897,6 +897,11 @@
    "title": "Periodic strata C(n/M, j/M); exchange-independent; coset recursion"
   },
   {
+   "id": "petal_column_lemma",
+   "label": "PROVED",
+   "title": ""
+  },
+  {
    "id": "petal_full_touched_set_injection",
    "label": "PROVED",
    "title": "A full-petal chart injects into its touched-petal index sets"
@@ -948,7 +953,7 @@
   },
   {
    "id": "petal_small_scale_staircase_census",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": ""
   },
   {
@@ -960,6 +965,11 @@
    "id": "q_recursion",
    "label": "PROVED",
    "title": "Q_M(H_n) = Q_1(H_{n/M}) rate-preserving (x1)"
+  },
+  {
+   "id": "qa22_m_le_t_extension",
+   "label": "UNPROVED",
+   "title": ""
   },
   {
    "id": "qfloor_exact",
@@ -2431,6 +2441,22 @@
   {
    "from": "petal_top_band_tail_collapse",
    "to": "petal_k4_primitive_bound"
+  },
+  {
+   "from": "petal_g2_support_forcing",
+   "to": "petal_column_lemma"
+  },
+  {
+   "from": "petal_g3_full_support_codeword_injectivity",
+   "to": "petal_column_lemma"
+  },
+  {
+   "from": "qa22_m_le_t_extension",
+   "to": "petal_small_scale_staircase_census"
+  },
+  {
+   "from": "petal_column_lemma",
+   "to": "petal_small_scale_staircase_census"
   }
  ]
 }
