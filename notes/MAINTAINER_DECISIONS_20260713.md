@@ -81,3 +81,34 @@ the hardened gate.
 *House note: decisions 1 and 2 are one-edit acts with pre-registered
 reversals; neither upgrades any mathematics by itself — they pin
 POSINGS that every downstream artifact already consumes explicitly.*
+
+---
+
+## 4. WCL-ZONE dedup ratification + the W_cl two-ledger split (from
+##    F-round 2, catches #198-#204)
+
+**State:** WCL-ZONE survived rounds 1 and 2 (2/2). Round 2 discharged
+the owed dedup canonical spec (#191) — implementation-grade, grounded
+in the banked M2 machinery, 12/12 conformance — but exposed a MAJOR
+interface finding (#198/wz2-C1): under the pose's own deduplicated
+ledger, C1' fails at the banked accident row (K'_dedup = 6.5019 > 4 at
+L=1, q=7937; the lift owns 3 canonical orbits via the previously
+unpriced admissible N=16 companion). The M3 CORRECTED POSE uses one
+symbol W_cl in both the zone bound (<= 1/32) and the C1' allowance —
+they cannot be the same ledger.
+
+**Decisions owed:**
+(a) The two-ledger split: which ledger (raw vs canonical-deduplicated)
+each of the zone bound and the C1' allowance reads. Until ruled, the
+baseline node's assembly is flagged BLOCKED AS WRITTEN.
+(b) RATIFY-1..8 (full list + defaults in
+background/nodes/dli_wcl_zone_coverage/notes/wz2_fround2_20260713/
+wz2_dedup_spec.md): two are load-bearing — RATIFY-4 (singular-source
+witness scope; the round-7 method is structurally inapplicable to
+forced orbits, and official rows with odd(L) > 1 hit this path) and
+RATIFY-6 (lift admissibility gate; flips forced mass 12 -> 0 on the
+companion's balance condition).
+
+**Effect:** ruling (a)+(b) unblocks certificate work on WCL-ZONE and
+re-arms the baseline assembly; nothing else in the dli decomposition
+changes (C2'' untouched; the F-round records stand).

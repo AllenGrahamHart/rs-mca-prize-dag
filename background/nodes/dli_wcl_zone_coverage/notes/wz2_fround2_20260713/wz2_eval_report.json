@@ -1,0 +1,299 @@
+{
+ "integrity": {
+  "replay_ok": true,
+  "replay_checks": {
+   "T1a_7937": true,
+   "MA_prim_off_trips": true,
+   "T8_sweep_subset_division": true,
+   "T1b_193L2": true,
+   "T2a_A21_r1conv": true,
+   "MC_order_reversal_trips": true,
+   "T5_order_invariance": true,
+   "T6_idempotent": true,
+   "T2b_B14": true,
+   "T2c_C21_r1conv": true,
+   "T3_synthetic_links": true,
+   "MB_gate_mutation_trips": true
+  },
+  "c1audit_banked_ok": true,
+  "xcheckl3": true,
+  "xcheck96": true,
+  "o96_l1_controls": {
+   "plant_ok": true,
+   "plant_missing_n": 0,
+   "lift_miss_total": 0,
+   "guard_gen_nonempty": true,
+   "T7_singular_sweep": true,
+   "MD_lift_mutation_trips": true,
+   "MD_misses": [
+    0,
+    1
+   ],
+   "ME_tag_mutation_trips": true
+  },
+  "o192_l1_controls": {
+   "plant_ok": true,
+   "plant_missing_n": 0,
+   "lift_miss_total": 0,
+   "guard_gen_nonempty": true
+  },
+  "o96_l1_ok": true,
+  "o192_l1_ok": true,
+  "o96_l2a_ok": true,
+  "o96_l2b_ok": true,
+  "o96_l2c_ok": true,
+  "o192_l2a_ok": true,
+  "o192_l2b_ok": true,
+  "o96_l3_ok": true,
+  "anomalous_flags": []
+ },
+ "kills": {
+  "KILL_B": {
+   "sequence": [
+    [
+     "b10",
+     1.615
+    ],
+    [
+     "b12",
+     2.395
+    ],
+    [
+     "b14",
+     4.648
+    ],
+    [
+     "b15",
+     3.6167
+    ],
+    [
+     "b16",
+     0.0
+    ]
+   ],
+   "monotone": false,
+   "top_over_bottom": null,
+   "witnesses_new_bands": 1,
+   "witnesses_b16": 0,
+   "trip": false,
+   "turnover": true,
+   "new_bands": {
+    "b15": {
+     "n": 384,
+     "nonempty": 1,
+     "Phat": 0.002604,
+     "Ppred": 0.00072,
+     "rho": 3.6167,
+     "null_expected": 0.276
+    },
+    "b16": {
+     "n": 384,
+     "nonempty": 0,
+     "Phat": 0.0,
+     "Ppred": 0.000276,
+     "rho": 0.0,
+     "null_expected": 0.106
+    }
+   },
+   "verdict_part1": "SURVIVED_WITH_EXPLANATION"
+  },
+  "KILL_O1": {
+   "saturation": [],
+   "n_generic_keys": 376,
+   "recurring_3": {},
+   "recurring_5": {},
+   "trip": false
+  },
+  "KILL_O2": {
+   "semi_rates_o96_l2": [
+    [
+     "b13",
+     3,
+     24,
+     0.125
+    ],
+    [
+     "b14",
+     2,
+     24,
+     0.0833
+    ],
+    [
+     "b15",
+     3,
+     24,
+     0.125
+    ]
+   ],
+   "trip": false,
+   "o192_l2_corroborative": [
+    [
+     "b16",
+     1
+    ],
+    [
+     "b17",
+     0
+    ]
+   ]
+  },
+  "verdict_part2": "SURVIVED"
+ },
+ "diagnostics": {
+  "b14_deep": {
+   "n": 96,
+   "nonempty": 3,
+   "rho": 6.707,
+   "note": "outside the kill sequence (pre-registered)"
+  },
+  "o96_l1_rho_gen": [
+   [
+    "b21",
+    23,
+    24,
+    0.876,
+    1.094
+   ],
+   [
+    "b23",
+    12,
+    24,
+    0.4075,
+    1.227
+   ],
+   [
+    "b25",
+    5,
+    24,
+    0.1227,
+    1.698
+   ]
+  ],
+  "o192_l1_rho_gen": [
+   [
+    "b25",
+    12,
+    12,
+    0.9914,
+    1.009
+   ],
+   [
+    "b27",
+    9,
+    12,
+    0.6958,
+    1.078
+   ],
+   [
+    "b29",
+    5,
+    12,
+    0.2574,
+    1.619
+   ]
+  ],
+  "o96_l2_rho_gen": [
+   [
+    "b13",
+    11,
+    24,
+    0.3488,
+    1.314
+   ],
+   [
+    "b14",
+    7,
+    24,
+    0.1281,
+    2.277
+   ],
+   [
+    "b15",
+    1,
+    24,
+    0.0388,
+    1.073
+   ]
+  ],
+  "c1_dedup_audit": {
+   "violations": [
+    [
+     1,
+     7937
+    ]
+   ],
+   "rows": [
+    [
+     1,
+     3137,
+     "368/1",
+     "298/1",
+     0.0,
+     false
+    ],
+    [
+     1,
+     5569,
+     "191/1",
+     "159/1",
+     0.0,
+     false
+    ],
+    [
+     1,
+     7937,
+     "236/1",
+     "8/1",
+     6.5019,
+     true
+    ],
+    [
+     1,
+     12289,
+     "89/1",
+     "78/1",
+     0.0,
+     false
+    ],
+    [
+     2,
+     193,
+     "120/1",
+     "102/1",
+     0.0015,
+     false
+    ],
+    [
+     2,
+     257,
+     "67/1",
+     "125/2",
+     0.0019,
+     false
+    ],
+    [
+     2,
+     449,
+     "35/2",
+     "17/1",
+     0.0035,
+     false
+    ],
+    [
+     2,
+     577,
+     "29/2",
+     "23/2",
+     0.0427,
+     false
+    ]
+   ]
+  }
+ },
+ "controls_ok": true,
+ "verdict": {
+  "part1_familyB": "SURVIVED_WITH_EXPLANATION",
+  "part2_odd_nprime": "SURVIVED",
+  "overall": "SURVIVED"
+ }
+}

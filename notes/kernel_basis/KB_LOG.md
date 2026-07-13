@@ -1863,3 +1863,29 @@ rewritten) + the crosswalk file; body carries the honest-scope
 section (row-scoped, P1 tripwire, scale-clause subsumption) and the
 full trail (prize-dag repo + site + 124/124 Modal replay). rs-mca
 worktree returned to main, clean.
+
+## 72 — 2026-07-13: WCL-ZONE F-ROUND 2 SURVIVED (2/2; catches
+## #198-#204) — dedup spec discharged, family-B benign, odd channel
+## clean, and ONE MAJOR interface finding
+
+Round 2 (pre-registered, 14 Modal apps, packet at
+notes/wz2_fround2_20260713/): PART 1 the round-1 family-B trend
+TURNED OVER at the pre-registered extension (rho ... 4.648 -> 3.62
+-> 0.00; Poisson-consistent; ~2x O(1) witness correlation, no scale
+growth) — resolved benign. PART 2 odd-n' mixed channel: forced
+ledger = exactly {orbit(Phi_n')} at L=1 (108 cells), empty at
+L >= 2; PROVED LEMMA: no fixed integer vector is forced at any
+official level (the whole fixed-vector channel excluded; residual
+risk = q-dependent constructions only). PART 0 (#191): the dedup
+canonical spec DISCHARGED (12/12 conformance; round-1 + M2 values
+exact) with RATIFY-1..8 owed (two load-bearing). #198 (wz2-C1,
+MAJOR): under the canonical dedup, C1' FAILS at the banked accident
+row (K'_dedup 6.5019 > 4; the unpriced N=16 companion) — the M3
+corrected pose's W_cl symbol is OVERLOADED between the zone bound
+and the C1' allowance; the two-ledger split is now MAINTAINER
+DECISION 4 and the baseline node carries a BLOCKED-AS-WRITTEN
+caveat (node-local per the notes rule). #204 (wz2-C7, ops): the
+40k Modal stdout cap truncated a shard JSON — fixed
+aggregates-first, rerun verified identical. F-rounds: C1' 1 (its
+round-2 must now use the ruled ledger), WCL-ZONE 2/2, C2'' 1.
+GOAL STATE: paused; this banking closes the in-flight worker.

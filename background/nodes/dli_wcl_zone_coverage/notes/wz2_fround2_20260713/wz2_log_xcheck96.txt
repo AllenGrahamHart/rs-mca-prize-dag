@@ -1,0 +1,12 @@
+✓ Initialized. View run at 
+https://modal.com/apps/allengrahamhart/main/ap-tiqxQldYp2xIUI86uZZ7mo
+✓ Created objects.
+├── 🔨 Created mount 
+│   /home/u2470931/smooth-read-solomin/prize/tools/modal_run_script.py
+└── 🔨 Created function run_remote.
+xcheck96 q=33555073 equal=True F192=True k3=True(96) t=2s
+WZ2_JSON {"shard":"xcheck96","q":33555073,"equal":true,"F192_found":true,"n_hits":{"2":0,"3":32,"4":0},"k3_identity_ok":true,"k3_n_sources":96,"ok":true,"wall_s":2.0}
+WZ2_SIZE 157
+
+MODAL_RUN exit=0 peak_rss=138MB
+Stopping app - uncaught exception raised locally: SystemExit(0).
