@@ -1450,3 +1450,19 @@ compiler + the fence note), the XR reduction cluster (component
 atlas, LineRay/min-selector, basis ledger + cogirth with repairs,
 the #158 five-site textual fix), then harness manifest refresh +
 Modal re-pin, then wave-6 (post-pin 9d058055 with #158 in hand).
+
+## 58 — 2026-07-13: ENDPOINT-EXC round 1 SURVIVED — dli at 1/1/1;
+## the amber attempt needs only M4 + M5 (catches #162-#163)
+
+Pre-registered adversarial round: 8-abuse battery (all rejected by
+their pre-registered blocking clauses; the exact-rational clause
+load-bearing at the 2^-80 float boundary), 252 exact row-cells
+(exhaustive n'=16, MITM n'=32, Modal n'=64), 0 soundness
+violations, fail-closed at all four banked exceptional rows; one
+fired kill line retracted by its own audit trail (the banked
+censuses replay exactly — the six-item list is irredundant, each
+item the sole blocker of some abuse). #162: torn M1 duplicate in
+the dag statement (deletion owed at M4 banking). #163: M4 must
+expose the C2''-instance as an input (item-5 semantics pin).
+DLI'S PATH TO AMBER: M4 assembly verifier + the M5 2^121
+one-liner — nothing else.
