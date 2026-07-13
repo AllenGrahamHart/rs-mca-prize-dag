@@ -1608,3 +1608,44 @@ ledger file was not imported). Wave-6 queue: 9d058055+ route_limit
 fence (inherits #158), 261bef6d+ mca quadratic rows, 3ec0f716 dli
 endpoint decomposition — audit with #158 in hand. Modal harness
 re-pin queued.
+
+## 64 — 2026-07-13: CLAUSE (P) BANKED PROVED — petal_g1_layer_maps
+## flips, the G3 compiler fires, the PETAL BRANCH CLOSES at theorem
+## level (catches #172-#176)
+
+The cp packet's audit (fresh-context, adversarial) returned SOUND
+with ZERO mathematical defects: Lemma B verified exhaustively over
+1770 layout shapes (bounds sharp, J + 2(t_ch-1) = k+1; m = t_ch-2
+impossible); official-row arithmetic re-derived (J < 0 at n =
+2^42..44; binding-row margin 2^88.5038 exact bigint); independent
+censuses via k-SUBSET method + Lagrange-only interpolation + a
+functional lift test reproduce 10/83/51-0 exactly; quotient-side
+recount set-exact; consumer-semantics check (the CRITICAL item)
+passed — petal_growth pin P1, K4 charts, and the census gate ALL
+consume the layout-anchored band, NO consumer needs the
+layout-existential reading (whose kill 2^59.67 > 2^41.92 the audit
+re-verified); the bsra boundary dispute resolved IN THE PACKET'S
+FAVOR with an in-vivo (10,4,11) witness. Catches assigned at
+banking: #172 (cpa-C1 tautological P1 atlas lines — NM3 banked as
+the discriminating mutation), #173 (cpa-C2 evidence relabel:
+re-basability = arithmetic + one witness), #174 (cpa-C3 lift-
+nonemptiness assert ADDED to run_cell_32; cp_verify now 62 PASS),
+#175 (cpa-C4 the '2k >= n-1' print corrected — operational law
+2k >= n-2; bsra_findings annotated, never rewritten), #176 (cpa-C5
+mixed-petal floor mass 4x full-petal at (16,8,97) — out of scope,
+recorded). SURGERY: petal_g1_layer_maps TARGET -> PROVED (statement
+addendum carries the #168 LAYOUT-ANCHORING PIN [banking condition],
+the #175/#170 corrections, the #171 hand-off, tripwire (P)-3);
+proof.md artifact written; node-level verify.py wrapper added (both
+suites, fail-closed, harness-tracked). CASCADE: petal_g3_pricing_
+multiplicity's ONLY open req was G1 -> HYPOTHESIS DISCHARGED ->
+PROVED (statement + proof.md discharge notes; conditional.md
+retained as history; inflation factor 1 <= 719 now unconditional).
+petal_growth: ALL ELEVEN wired hypotheses now PROVED — the
+amber-invariant warning stands as the honest signal; the node stays
+CONDITIONAL pending exactly the P1 maintainer decision (floor vs
+wide band; tripwire pre-registered both ways). #171 below-top note
+appended to petal_growth's statement. FIFTH proof-retired red (W2,
+K4, census gate, qa22... and now G1). The petal lane's open set is
+now EXACTLY: the P1 sentence. Verify green; harness 121 scripts /
+215 assets PASS; Modal re-pin queued.

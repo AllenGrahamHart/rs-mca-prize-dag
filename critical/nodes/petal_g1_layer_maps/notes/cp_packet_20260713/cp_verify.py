@@ -408,6 +408,10 @@ def run_cell_32(p, smode, pin, pin_name):
         d, j, m, s_r, fp = chart_data(S, core, petals, bg)
         if fp and d >= thr:
             qfloor.add(S)
+    # cpa-C3 (catch #174): the agreement check must not pass vacuously on
+    # an empty lift subfamily at unpinned cells (#137 discipline)
+    check(f"({n},{k},{p},{smode}) lift subfamily nonempty",
+          len(lifts) > 0, f"{len(lifts)} lifts")
     check(f"({n},{k},{p},{smode}) lift censuses agree "
           f"(candidate/official vs quotient methods)", lifts == qfloor,
           f"cand {len(lifts)} vs quotient {len(qfloor)}")

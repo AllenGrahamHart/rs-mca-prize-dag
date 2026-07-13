@@ -148,3 +148,29 @@ on the word at all.
 - The house fresh-context audit replay before PROVED lands in dag.json
   (house law; this packet is audit-ready: staged verifier, banked pins,
   required-to-trip mutations, complete-census cross-validations).
+
+---
+
+## AUDIT ANNOTATIONS (cpa banking, 2026-07-13; verdict SOUND, catches
+## assigned #172-#176)
+
+- cpa-C2 = catch #173 (evidence relabel): the #168 sentence "all 5967
+  realized |S| = k+1 lifts are re-basable (cp_verify P6/M4)" overstates
+  the verifier's role — cp_verify P6/M4 checks n_rebasable > 0 and
+  re-bases ONE witness; the universal claim rests on the spare-fiber
+  counting of cp_proof.md section 5 (exact: k'-1 spare fibers at rate
+  1/2; audit re-derived). Read the evidence as "arithmetic + one
+  in-vivo witness".
+- cpa-C1 = catch #172: cp_verify's two P1 atlas lines are tautological
+  (no discriminating power); the discriminating coverage mutation is
+  cpa_checks.py NM3 (banked alongside, REQUIRED-TO-TRIP, trips).
+- cpa-C3 = catch #174: lift-subfamily nonemptiness assert added to
+  run_cell_32 at banking (62 PASS post-repair).
+- cpa-C4 = catch #175: the dag surgery block's "2k >= n-1" print is
+  the odd-k formalization artifact; operational law 2k >= n-2;
+  divergence witnessed OUT of scope at (10,4,11) (3 realized floor
+  lifts vs predicted empty); in scope both collapse to 2k >= n.
+  Corrected in the dag statement addendum at banking.
+- cpa-C5 = catch #176 (scope-mass observation): mixed-petal floor mass
+  is 4x full-petal at (16,8,97) (43 vs 10) — explicitly outside clause
+  (P) and outside the top-band obligation; recorded, nothing dropped.

@@ -1,6 +1,6 @@
 # Witness-exhaustive bounded sunflower atlas
 
-- **status:** TARGET
+- **status:** PROVED (2026-07-13, clause-(P) banking; see proof.md)
 - **consumer:** `petal_growth`
 
 For every official row, and every rate-preserving intrinsic quotient descendant

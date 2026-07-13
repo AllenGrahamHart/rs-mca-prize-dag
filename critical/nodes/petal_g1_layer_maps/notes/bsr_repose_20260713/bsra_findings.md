@@ -241,3 +241,5 @@ note above.
   prize-q stand-ins).
 
 > #155 ANNOTATION (2026-07-13, qme audit): the 2^-691 dominance constant printed in this file is a lg_frac rounding artifact — the exact worst excess is 2^-690.2765..2^-690.2766 at (13, 1/16); honest grid constant (1 + 2^-690). The qme packet carries the corrected form; this record is annotated, not rewritten.
+
+> #175 ANNOTATION (2026-07-13, cpa audit at clause-(P) banking): the structural law printed in this record as "z0 >= 0 <=> 2k >= n-1" is an odd-k formalization artifact (its t_ch = (n-k+1)/2 is the odd-k petal count). The operational even-k law is 2k >= n-2, and the two genuinely diverge OUT of scope: at (10,4,11) three aperiodic floor-band full-petal lifts realize where the printed law predicts empty (cpa_checks.py A1, in-vivo). In scope (even-k 2-power rows) both collapse to 2k >= n by parity — every in-scope claim in this record is unaffected. This record is annotated, not rewritten.

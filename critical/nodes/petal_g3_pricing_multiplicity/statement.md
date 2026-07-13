@@ -1,6 +1,6 @@
 # Petal G3 pricing multiplicity
 
-- **status:** CONDITIONAL on `petal_g1_layer_maps`
+- **status:** PROVED (2026-07-13 — the G1 hypothesis discharged at the clause-(P) banking; see proof.md discharge note)
 - **consumer:** `petal_growth`
 
 The profile-conversion clause is proved. The remaining charging theorem is a

@@ -23,3 +23,19 @@ the joint inflation factor is `1`, which is below the exact finite allowance
 `719` proved by `petal_staircase_allowance_719`. This proves G3 conditional on
 G1.
 
+
+---
+
+## Discharge note (2026-07-13)
+
+`petal_g1_layer_maps` is PROVED (clause-(P) banking:
+`../petal_g1_layer_maps/proof.md`, worker packet cp_packet_20260713,
+fresh-context audit SOUND). The atlas supplied is word-independent —
+strictly stronger than the per-received-word supply assumed above — and
+layout-anchored (#168 pin), which the audit verified is this compiler's
+consumption semantics. At rates <= 1/4 the floor band is empty and
+coverage holds vacuously; the small-scale census carve-out is priced by
+the PROVED `petal_small_scale_staircase_census`. The implication above
+therefore fires unconditionally; the node is PROVED. Inherited
+tripwire: G1's (P)-3 (maintainer P1 wide-resolution re-opens the
+chain).
