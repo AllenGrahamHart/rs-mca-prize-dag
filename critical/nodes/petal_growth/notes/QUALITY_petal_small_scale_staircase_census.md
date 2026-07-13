@@ -45,3 +45,19 @@ pin — min((63/128)n'^6, (q-3n')/2) — after the audit showed bare-cap mints
 feed ESP yet output 64x cap at the packet's own threshold pair. Certificate:
 transfers to QUALITY of the successor (QRL-MODAL-1 is its pre-registered
 first attempt, Modal-ready).
+
+## T-KILL (2026-07-13, catch #124): the successor red REFUTED — the
+## falsification architecture's first full cycle
+
+The proof attempt on quotient_row_subjohnson_bound returned a constructive
+counterexample instead (W_tau = X^{k'}(X - tau): the list IS a subset-sum
+count; x786 over cap at the first open size; aperiodicity void at the
+consumed cell — odd-size subsets of a 2-group). Re-surgery criterion 1
+fired as pre-registered: the gate is TARGET again, with the honest route
+now SUCCESSOR-A (chart-carrying descent — word-uniform routes are dead,
+chart-carried ones untouched; the refuting family are not petal
+contributors). T1/T2/T3 and the scaffold survive (the Johnson radius is
+exactly the truth boundary). This certificate records the program's first
+fired falsifier: a Q-SUFF-certified red killed by honest proof-attempt,
+exactly as the charter intended ("T-KILL: decisive information, better for
+knowledge").

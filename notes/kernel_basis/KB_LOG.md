@@ -1192,3 +1192,43 @@ the branch CLOBBERED roadmap addendum r1 (hunks applied onto
 master's copy instead), #123 master's harness proof.md recorded
 PASS=96 vs the 104-manifest — fresh full run + Modal re-pin
 executed with this banking (now 117+ verifiers).
+
+## 47 — 2026-07-13: T-KILL — quotient_row_subjohnson_bound REFUTED
+## (catches #124-#127); the census gate re-surgered onto SUCCESSOR-A
+
+The proof attempt returned the sharpest possible answer: the red
+was open because it is FALSE. Constructive family W_tau = "
+"X^{k'}(X - tau): exact agreement of size k'+1 bijects with "
+"(k'+1)-subsets summing to tau (W - c is monic degree k'+1), so
+the list is an EXACT subset-sum count; pigeonhole floor
+C(n',k'+1)/q beats the n'^6 cap x786 at the FIRST open size
+(n'=64, s=13, q=67,239,937); margins to 2^73 at n'=128;
+prize-wide false for n' >= 512/1024 at every q < 2^256.
+APERIODICITY VOID at the consumed cell (odd-size subsets of a
+2-group are all aperiodic). Three exact verifiers banked +
+replayed (incl. an exhaustive semantics/mutation control and the
+in-vivo kill of QRL-MODAL-1's own expectations, x2.1e11 over).
+
+CATCHES: #124 the refutation; #125 the #115 ESP strength pin was
+unsatisfiable-BY-TRUTH at minimal fields (no lemma could ever
+have fed that transport at the s=13 open scales); #126
+QRL-MODAL-1 structurally blind (constructed-classes-only; spec
+annotated DO-NOT-RUN; O(n'^2) conjecture also false); #127 the
+mint overshot Paper D's own prob:band left edge k + 2n/N — the
+strip upstream deliberately excluded, and this family shows the
+edge tight within factor 2 (upstream-facing insight, PR-worthy).
+
+RE-SURGERY (all criteria pre-registered, all fired as designed):
+successor -> REFUTED; census gate -> TARGET with T1/T2/T3 as ev
+suppliers (red-leaf law); SUCCESSOR-A minted
+(petal_chart_carrying_descent: descend the scale-M subclass WITH
+its chart, apply the row-agnostic tail collapse <= m'+1 per chart
+— word-uniform routes are dead, chart-carried ones untouched; the
+refuting family are NOT petal contributors); SUCCESSOR-B recorded
+(fiber-starved remnant, bounded scales). K4's G5 honest-scope
+clause VINDICATED maximally (row-level FALSE, chart-level TRUE —
+the discipline that kept them separate is why K4's close
+survives this refutation untouched). No rate-half implication
+(the family cannot agree beyond k'+1 — scope note banked).
+Board: reds 10 (successor red out as REFUTED, gate red back in,
+SUCCESSOR-A ev-only pending its first audit).

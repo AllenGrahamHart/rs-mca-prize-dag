@@ -45,3 +45,12 @@ quotient row.
 Per (row, q): <= 10^7 interpolations of degree < k' <= 256 — Modal-sized;
 grid total <= ~3e9 field ops. Shard output: JSON of (row, q, word-class,
 a, L_P) tuples + the two pre-registered aggregates.
+
+## REFUTED-BY-DESIGN-BLINDNESS (2026-07-13, catch #126)
+
+The probe's pre-registered expectations are FALSE: at its own grid cell
+(n'=64, q=65537) every W_tau-family word has list ~2.71e13 — x2.1e11 the
+expected "<= 2n'". The design enumerated CONSTRUCTED classes only and was
+structurally blind to the subset-sum family (sjb refutation, catch #124).
+DO NOT RUN as specced. Any successor probe must include degree-(k'+1)
+received words.
