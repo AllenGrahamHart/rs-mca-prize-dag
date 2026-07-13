@@ -1838,3 +1838,28 @@ worst-word pricing; the mca-lane path runs through ext_lift <-
 f1_classification chain + mca_safe's reds. Validator green (the
 packaging warning stands, deliberate); harness 124/221 green;
 Modal execution re-pin queued per the #177 law.
+
+## 71 — 2026-07-13: L1 CROSSWALK + UPSTREAM PR #750 (maintainer-
+## approved outward presentation of the imgfib discharge)
+
+The maintainer asked whether imgfib is an open target upstream —
+answer: YES, EXPLICITLY: it is the named "Field-aware locator local
+limit" ASSUMPTION (ass:locator, archived/snarks_v4.tex) consumed by
+the list-side chain via lem:fiber-list, and the towards-prize.md
+"L1. Generated-Field Locator Local Limit" target (one of our two
+assigned branches). Clause-by-clause crosswalk banked at
+critical/nodes/imgfib/notes/l1_upstream_crosswalk_20260713.md:
+clauses 1-3,5-7 MATCH at the official rows (word-independence is
+STRONGER than upstream's per-word form; the quotient profile is
+verified EXACTLY, not merely budgeted); clause 4 (sigma >= Cn/log n)
+SUBSUMED by the entropy condition in the polynomial-field regime;
+clause 9 (the |Lambda| <= n^B list bound) TRANSFERS via upstream's
+own lem:fiber-list. VERDICT: OFFICIAL-ROW INSTANTIATION DISCHARGED;
+the asymptotic single-B_L family form honestly NOT claimed. With
+maintainer approval ("yes do this"), upstream PR #750 opened
+(przchojecki/rs-mca <- AllenGrahamHart:allen/l1-imgfib-official-rows,
+off pin 9262f63c): towards-prize.md L1 status block (appended, not
+rewritten) + the crosswalk file; body carries the honest-scope
+section (row-scoped, P1 tripwire, scale-clause subsumption) and the
+full trail (prize-dag repo + site + 124/124 Modal replay). rs-mca
+worktree returned to main, clean.
