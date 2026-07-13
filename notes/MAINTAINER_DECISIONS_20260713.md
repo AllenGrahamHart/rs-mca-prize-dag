@@ -112,3 +112,39 @@ companion's balance condition).
 **Effect:** ruling (a)+(b) unblocks certificate work on WCL-ZONE and
 re-arms the baseline assembly; nothing else in the dli decomposition
 changes (C2'' untouched; the F-round records stand).
+
+---
+
+## 4-REVISED (post wave-7 audit; supersedes the open form of decision 4)
+
+**(a) The two-ledger split is now SETTLED BY THEOREM (wave-7 cluster A,
+IMPORT-WITH-REPAIRS):** C1'-as-recorded consumes the RAW ledger by
+definition — verified verbatim against the pose file, the dyadic_k_core
+statement, and the PRO_DLI_CLOSE_6 lattice frame; the banked M2 record
+is raw; substituting a dedup zone bound into raw-C1' is invalid without
+a mass-transfer theorem (countermodel: W_owner = 1/256 vs W_raw = 9/256
+at ell=16). Catch #198's K'_dedup = 6.5019 was a MISAPPLIED LEDGER;
+the banked raw K' = 0.246909432 < 4 stands; the baseline node's
+BLOCKED-AS-WRITTEN caveat lifts on your ratification. What remains
+yours: the one-line ratification act (raw ledger for BOTH the zone
+bound and the C1' allowance); option (b) (re-pose C1' against dedup)
+stays formally open but is refuted in its literal K' <= 4 form.
+
+**(c) NEW — schedule r2 ratification (w7-C1, MAJOR):** master's
+"N_L = 256L, L = 1..34" display conflates level INDEX with level
+DIMENSION. The banked skew-tower packet / S6 / C2'' pin the dyadic
+dims ell_j = (2^32, ..., 2, 1, 1) with Sigma = t = 2^33 (the linear
+reading sums to 595, contradicting the banked Sigma_j L_j = t
+outright). Ratifying schedule r2 re-frames the WCL window in (ell, w)
+slots. RATIFY-4/6 become analogue-census-only under this fix
+(official rings are all 2-power).
+
+**Effect of ratifying (a)+(c):** WCL-ZONE becomes EQUIVALENT to SIX
+finite zero-event emptiness slots on official rows — (ell,w) =
+(1,5),(1,6) at order-512 roots; (2,5),(2,6),(2,7) at order 1024
+(P(w)=P(w^3)=0); (4,9) at order 2048 — everything else is closed
+unconditionally by the audited wave-7 ladder (Newton short-window
+w <= 2ell theorem = 30 of 34 levels outright; terminal weight-3/4
+exclusions; ell-2 census/Newton). All six slots are q-dependent
+(the A1-PROD density-vs-row gap). Full import surgery spec:
+notes/kernel_basis/WAVE7_AUDIT_FINDINGS.md.

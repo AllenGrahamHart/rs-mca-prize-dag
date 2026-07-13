@@ -1889,3 +1889,41 @@ caveat (node-local per the notes rule). #204 (wz2-C7, ops): the
 aggregates-first, rerun verified identical. F-rounds: C1' 1 (its
 round-2 must now use the ruled ledger), WCL-ZONE 2/2, C2'' 1.
 GOAL STATE: paused; this banking closes the in-flight worker.
+
+## 73 — 2026-07-13: WAVE-7 AUDIT BANKED (pin 554144a3; w7-C1..C7 =
+## catches #205-#211) — WCL-ZONE REDUCES TO SIX FINITE SLOTS
+
+CLUSTER A (raw-ledger guardrail): IMPORT-WITH-REPAIRS, and the
+decision-4(a) verdict is SETTLED BY THEOREM within the recorded
+interface — C1' consumes the RAW ledger by definition (pose +
+dyadic_k_core + PRO_DLI_CLOSE_6 verified verbatim; M2 record raw;
+dedup substitution needs a mass-transfer theorem, countermodel
+banked). #198's K'_dedup was a MISAPPLIED LEDGER; raw K' = 0.2469
+< 4 stands; wz2-C1 and the guardrail are CONSISTENT exactly as
+predicted. w7-C5: guardrail verifier's structural pins hard-code
+branch paths (repair spec'd). CLUSTER B: w7-C1 = #205 MAJOR
+(CONFIRMED): master's 'N_L = 256L, L = 1..34' conflates level index
+with DIMENSION — banked tower dims are dyadic ell_j = 2^32..1,
+Sigma = t = 2^33 (linear sums to 595, contradicting Sigma_j L_j = t
+outright) — schedule r2 ratification added to decision 4; under it
+RATIFY-4/6 go analogue-only. Weight-3 exclusion IMPORT-CLEAN (254
+classes cover 11,054,080; zero ambient factors; max v_2 = 18; my
+disjoint-CRT replays agree); weight-4 IMPORT-CLEAN (24,979 classes,
+154,086-node Pocklington graph, max v_2 = 29; Modal replays + spot
+checks); weight-5 MITM probe IMPORT-WITH-REPAIRS (w7-C4: its
+primitivity filter silently relies on the banked w <= 4 exclusions
+— one-sentence repair); both scope nodes clean; v_2(q-1) >= 41 is
+the correct conservative gate, q < 2^256 the right cap. CLUSTER C
+IMPORT-CLEAN: the NEWTON SHORT-WINDOW THEOREM (w <= 2ell
+impossible; sharp at 2ell+1 via QR subgroups; field-uniform;
+auditor re-implemented on fresh primes, 13.5M sets) closes EVERY
+window at ell >= 8 = 30 of 34 levels outright, plus w=2 at ell=1,
+w=3,4 at ell=2, w=5..8 at ell=4. No status flips, no F-round text
+touched in all eight commits. THE RESIDUAL (post-ratification):
+WCL-ZONE == six finite zero-event emptiness slots — (1,5),(1,6),
+(2,5),(2,6),(2,7),(4,9) — all q-dependent (the A1-PROD
+density-vs-row gap); (1,6)-shaped relations exist at non-ambient
+primes (engineered witness); (1,5) has first-64-primes MITM
+survival evidence. Import execution + decision-4 ratification =
+next; post-pin 77485270 (boundary divisor elimination fence) =
+wave-8 queue.
