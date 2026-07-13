@@ -1980,3 +1980,36 @@ caught a full-grid-routing bug pre-launch that would have OOM'd a
 36GB worker. F-round state: c2pp 2 survived. AMBER GATE: 1 of 2
 rounds passed; C1' round 2 still running; flip HELD until both land
 SURVIVED.
+
+## 76 — 2026-07-13/14: C1' F-ROUND 2 = T-KILL (catches c1r2-C1..) —
+## the amber gate REFUTES C1'; flip HELD, no downstream cost
+
+The pre-registered C1' round 2 (raw ledger + schedule r2, gating the
+dli amber flip) REFUTED the level-scaled pose. Literal kill K' =
+(E-1)/(r(1+W_cl)) > 4 (allowance 4) fired at three in-hypothesis
+rows (L=1, N=32, q prime, q=1 mod 64, 2^32>=q, RAW ledger): q=63361
+K'=6.199 (W_cl=76, (E-1)/r=477), q=65921 K'=4.481, q=204353 K'=4.285
+(the node's OWN k=7 cluster row). Worst 6.199 = global max over the
+L=1 scan to 262144. M2 (round 1) missed it scanning only q<=12289 —
+the accident envelope (E-1)/r grows with q while the truncated
+window W_cl doesn't keep pace on single-weight-3-orbit rows. ROBUST:
+widening to w<=7 only demotes to K'=2.5-3.4 (still amber) — the
+4-allowance itself is wrong, not a truncation artifact. Controls:
+positive control reproduced M2 EXACTLY on the raw ledger (q=7937 ->
+0.2469); mutation (W_cl:=0) fires; brute-force weight-3 witness +
+verbatim banked kernels agree; NO convention weakened. Sanity: I
+re-confirmed the 3 rows prime + =1 mod 64 + 2^32>=q under ramguard.
+RE-ROUTE (forced by the verified kill): dli_dyadic_k_core ->
+REFUTED; dli_marginal_baseline100_coverage CONDITIONAL -> TARGET
+(the posed route [C1' + WCL-ZONE => baseline] is dead; its req edges
+-> ev; re-promotion awaits a repaired C1'); dli amber FLIP HELD
+(baseline arm broken). THE GATE VINDICATED: because the
+decomposition was kept EV-LANE pending these rounds (we did NOT
+front-run the flip), the refutation costs ZERO downstream result —
+nothing rested on C1' via req. dli stays TARGET, no cascade, no
+PROVED/CONDITIONAL node touched. C2'' side stands (2 survived).
+OPEN + UNCERTAIN: the C1' round-3 re-pose (calibrated constant >4,
+full-weight ledger; whether the 34-factor product still clears
+2^100 is exactly the open question) is genuine research, NOT a
+forced correction — flagged for the maintainer / a future cycle,
+design in c1r2_report.md. Modal re-pin next (statuses changed).
