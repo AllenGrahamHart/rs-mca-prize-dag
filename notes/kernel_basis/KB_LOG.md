@@ -1677,3 +1677,44 @@ pins node statuses (K4's G1 pins are custody-retained substrings,
 green). Second Modal run: 121 PASS / 0 FAIL / 0 TIMEOUT /
 0 HASH_MISMATCH, complete=true, record re-banked at
 experiments/prize_resolution/modal_verifier_replay.json.
+
+## 66 — 2026-07-13: WAVE-6 AUDIT BANKED (pin 7e4be37f; w6-C1..C11 =
+## catches #178-#188) — two clean clusters, one repairs, one REFUSED
+## wholesale with the wave's biggest find inside
+
+Full record notes/kernel_basis/WAVE6_AUDIT_FINDINGS.md (+ replay
+scripts in wave6_audit_scripts/); import surgery spec banked there.
+CLUSTER A (9d058055 XR envelope fence): IMPORT-WITH-REPAIRS — the
+finite-extrema reduction is exact (validated against all-b brute
+force, 7278 parameter sets, 0 mismatches); the rank-5 KILL is sound
+a fortiori; the affirmative "paid 4,4,4" sentences inherit #158
+(w6-C1 = #178, textual scoping only). CLUSTER B (261bef6d quadratic
+MCA rows): IMPORT-CLEAN — the (QMS) staircase proof sound
+end-to-end; four spec-admissible rows (k=2^40, p<2^256, official
+rates) engineered so B=floor(p/2^128) sits exactly on the quadratic
+boundary = exact safe sets in mca_grand's adjacent-pair shape;
+single ev edge to mca_grand (w6-C2/C3 = #179/#180 prose).
+CLUSTER C (dli endpoint pair): SPLIT — w6-C4 = #181 (MAJOR,
+POSITIVE, against master): ENDPOINT-EXC-COVERAGE is CIRCULAR as a
+decomposition target (item 6 already checks 2^121; coverage
+dominates B-WEAK); the replacement decomposition [C2'': X <=
+2^21 A] AND [A <= 2^100 <= C1' + WCL-ZONE <= 1/32; exact pin
+41^34 < 2^202] => 2^121 is sound, non-circular, machine-verified —
+it genuinely advances the widest dli gap. Wholesale import REFUSED
+on four blockers: w6-C5 = #182 (statement replacement deleting
+falsifiers/history), w6-C6 = #183 (unauthorized status flips:
+dli -> CONDITIONAL front-runs M5 + F-round law with a ZERO-round
+predicate), w6-C7 = #184 (retires master's #165-REPAIRED verifiers
+on a stale premise), w6-C8 = #185 (self-settles the maintainer M5).
+Spec: import the three new nodes ev-lane with dated addenda; amber
+ceremony stays with the maintainer. w6-C9 = #186 (x4 2^122 display
+staleness — annotate), w6-C10 = #187 (amber-wired verifiers —
+park). CLUSTER D (C36 ladder, 5 commits): IMPORT-CLEAN — the
+6^{n/4} norm cutoff is PROVED (odd-conjugate Parseval + ten-
+representation packing + centroid 168>147 + Sidon/AM-GM transfer),
+a SQUARE-ROOT sharpening of the banked 36^{n/4} gate: the mobius
+red's large-field branch CLOSES (open range now n^2 <= p <=
+6^{n/4}); ideal batching clean; #96 guard discipline exemplary;
+all replays PASS (w6-C11 = #188 ledger fold; Fermat 4GB replay +
+FLINT recompute deferred non-blocking). IMPORT EXECUTION = next
+work item; the spec is mechanical.
