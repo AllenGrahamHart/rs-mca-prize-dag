@@ -406,6 +406,66 @@ Audit outcomes are `NO ISSUE`, `FIXED`, `OPEN GAP`, or
 The laptop is a coordination and light-replay machine. Use Modal for nontrivial
 enumeration, algebra systems, large exact integers, or parallel sweeps.
 
+#### Local RAM safety
+
+The local WSL instance has about 7.5 GiB RAM and 2 GiB swap. On 2026-07-13,
+three unguarded Python runs reached 6.4, 6.9, and 7.1 GiB resident memory and
+forced WSL restarts. Two failures came from a supposedly probe-only audit that
+materialized `set(range(...))` at an official parameter near `2^40`; the other
+came from an unguarded local validator. A stated state-count estimate is not a
+memory limit.
+
+No autonomous agent may launch an unguarded local Python, Sage, algebra-system,
+compiled experiment, or wrapper that invokes one transitively. Use the
+repository cgroup wrapper:
+
+```text
+tools/ramguard tiny  -- python3 <static-or-small-verifier.py>
+tools/ramguard local -- python3 <proved-bounded-local-check.py>
+tools/ramguard local -- tools/dag_commit.sh
+tools/ramguard modal -- ~/.venvs/modal/bin/modal run <remote-job.py>
+```
+
+The profiles cap the complete local process tree:
+
+| profile | RAM max | swap max | wall limit | intended use |
+|---|---:|---:|---:|---|
+| `tiny` | 256 MiB | 64 MiB | 60 s | static checks and small deterministic verifiers |
+| `local` | 1 GiB | 256 MiB | 5 min | explicitly bounded local replay only |
+| `modal` | 1.5 GiB | 256 MiB | 12 h | local upload/orchestration/result client; remote resources are unaffected |
+| `agent` | 2.5 GiB | 512 MiB | 24 h | optional outer fail-safe for an autonomous Codex/Fable process |
+
+The `agent` profile is defense in depth: where the launch surface permits,
+start each autonomous agent with
+`tools/ramguard agent -- <agent command>`. Its cap includes the agent and all
+forgotten local children, so a violation may kill that agent session but
+should not kill WSL. Commit or checkpoint before long runs.
+
+Do not raise a local profile to rescue a computation. Move the work to Modal.
+An exception is allowed only for non-computational packaging whose measured
+working set is understood and whose reason is recorded in the campaign
+ledger. `RAMGUARD_TIMEOUT` may extend a wall limit, but it does not alter the
+memory ceiling.
+
+#### Modal safety
+
+Modal functions may request as much remote RAM, CPU, and duration as the
+mathematical job justifies. RAMguard constrains only the local Modal client.
+Every Modal job must:
+
+1. declare remote `memory`, `cpu`, and `timeout` explicitly;
+2. upload only the required source/data subset, or record and inspect the
+   bounded repository upload size;
+3. checkpoint partial results remotely before timeout;
+4. shard independent rows and stream reductions rather than collecting all
+   shard payloads into one local list;
+5. keep large artifacts in a Modal Volume or equivalent remote store and
+   return only compact structured certificates;
+6. put a deterministic local checker under `tiny` or `local`, never replay the
+   expensive search locally;
+7. treat a local-client RAMguard kill as a job-design failure: reduce upload
+   or return volume instead of increasing the laptop limit.
+
 Default rules:
 
 1. pre-register the quantity, falsifier, and interpretation before running;
@@ -469,7 +529,7 @@ and mutation guards; they do not replace an unformalized general proof.
 After any status, node, or edge change, run:
 
 ```text
-tools/dag_commit.sh
+tools/ramguard local -- tools/dag_commit.sh
 ```
 
 Commit generated orbit artifacts only through that ritual.
@@ -611,9 +671,13 @@ critical three-color law.
 Maintain a claim contract and campaign ledger for every increment. Audit each
 proof both forward and consumer-backward, independently for high-impact claims.
 Use Modal for nontrivial computation; default to checkpointed 60-second probes,
-extend only with a documented reason, and keep laptop work light. Verify every
-counterexample against the real object and bank negative results as repaired
-frontiers or new explicit floors.
+extend only with a documented reason, and keep laptop work light. Run every
+local Python computation through `tools/ramguard tiny|local`, and run the local
+Modal launcher through `tools/ramguard modal`; never raise a laptop memory cap
+to avoid moving work remote. Stream or remotely persist large shard results
+instead of collecting them in local memory. Verify every counterexample
+against the real object and bank negative results as repaired frontiers or new
+explicit floors.
 
 Keep local work upstream-portable. For every result relevant to Przemek's five
 hard inputs, prepare a self-contained experimental note, lightweight verifier,

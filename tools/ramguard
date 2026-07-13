@@ -1,0 +1,106 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+usage() {
+    cat <<'EOF'
+Usage: tools/ramguard PROFILE -- COMMAND [ARG...]
+
+Run COMMAND in a transient user cgroup with a memory and wall-time ceiling.
+
+Profiles:
+  tiny   256M RAM,   64M swap,  60 seconds
+  local    1G RAM,  256M swap,   5 minutes
+  modal  1536M RAM, 256M swap,  12 hours (local Modal client only)
+  agent  2500M RAM, 512M swap,  24 hours (outer autonomous-agent fail-safe)
+
+Examples:
+  tools/ramguard tiny -- python3 critical/nodes/example/verify.py
+  tools/ramguard local -- python3 experiments/bounded_probe.py
+  tools/ramguard modal -- ~/.venvs/modal/bin/modal run experiments/job.py
+  tools/ramguard agent -- claude --dangerously-skip-permissions
+
+RAMGUARD_TIMEOUT may shorten or extend the selected profile's wall limit.
+Use an explicit environment command for job variables:
+  tools/ramguard modal -- env MODE=full ~/.venvs/modal/bin/modal run job.py
+EOF
+}
+
+if (( $# < 3 )); then
+    usage >&2
+    exit 64
+fi
+
+profile=$1
+shift
+if [[ $1 != "--" ]]; then
+    usage >&2
+    exit 64
+fi
+shift
+
+case "$profile" in
+    tiny)
+        memory_high=256M
+        memory_max=256M
+        swap_max=64M
+        default_timeout=60s
+        ;;
+    local)
+        memory_high=1G
+        memory_max=1G
+        swap_max=256M
+        default_timeout=5m
+        ;;
+    modal)
+        memory_high=1536M
+        memory_max=1536M
+        swap_max=256M
+        default_timeout=12h
+        ;;
+    agent)
+        memory_high=2500M
+        memory_max=2500M
+        swap_max=512M
+        default_timeout=24h
+        ;;
+    *)
+        printf 'ramguard: unknown profile: %s\n' "$profile" >&2
+        usage >&2
+        exit 64
+        ;;
+esac
+
+runtime=${RAMGUARD_TIMEOUT:-$default_timeout}
+unit="ramguard-$profile-$$-$(date +%s)"
+
+set +e
+systemd-run \
+    --user \
+    --scope \
+    --quiet \
+    --collect \
+    --unit="$unit" \
+    --property=MemoryAccounting=yes \
+    --property="MemoryHigh=$memory_high" \
+    --property="MemoryMax=$memory_max" \
+    --property="MemorySwapMax=$swap_max" \
+    /usr/bin/timeout \
+    --foreground \
+    --signal=TERM \
+    --kill-after=10s \
+    "$runtime" \
+    "$@"
+status=$?
+set -e
+
+case "$status" in
+    124)
+        printf 'ramguard: %s profile reached its %s wall limit\n' \
+            "$profile" "$runtime" >&2
+        ;;
+    137)
+        printf 'ramguard: %s profile killed the command at its RAM/swap ceiling\n' \
+            "$profile" >&2
+        ;;
+esac
+exit "$status"
