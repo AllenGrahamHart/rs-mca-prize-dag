@@ -1347,3 +1347,30 @@ NOW DECISION-CRITICAL (maintainer line — floor band = the posing,
 wide band = the kill). Owed: the QA.22 M <= t extension
 (dominance pre-computed, 2^-691 excess). Design audit launched;
 surgery follows its verdict.
+
+## 53 — 2026-07-13: THE PETAL SURGERY COMPLETES — the family stands on
+## ONE arithmetic input + ONE floor-band clause (design audited
+## SOUND-WITH-REPAIRS; catches #150-#154 applied)
+
+LEMMA COL minted PROVED (two independent fresh contexts: design +
+audit; word-free — the census gate's column form is a THEOREM
+independent of any atlas; chain = stabilizer partition +
+fiber-union injection + multiplicity-1 + Pascal; verified against
+all 514 banked cells, zero violations; #151 iff-pin recorded).
+Clause (D) PROVED (DD-atlas, column-priced cardinality, C_col =
+719; the g1a falsification instances fit with 33.5-275.5-bit
+margins recomputed exactly). CENSUS GATE -> CONDITIONAL on the
+SINGLE input qa22_m_le_t_extension (pure ledger arithmetic,
+dominance pre-computed 2^-691, provable-shaped — minted TARGET).
+G1 IS NOW CLAUSE (P) ALONE: the aperiodic floor-band supply
+(#153 both-subfamilies cap; #154 figure fix; empty at rate <= 1/4
+by the structural law z0 >= 0 <=> 2k >= n-1). SUCCESSOR-A ->
+PROVED (its audited core; 3-C superseded by COL). #150: the dead
+scale_reserve alternate RETIRED (the D4 fate-sweep's one missed
+consumer) + the bridge mooted. #152: the supplier map band-scoped
+(M >= 8 own cells COL-only). P1 UNIFIED: floor = the posing for
+BOTH open petal items; wide = the kill. The petal family, nine
+days from retracted floor: K4 PROVED, G2 PROVED, G3 compiler
+PROVED-conditional, SUCCESSOR-A core PROVED, Lemma COL PROVED,
+clause (D) PROVED — open: one ledger-arithmetic extension + one
+floor-band supply clause + the P1 one-liner.
