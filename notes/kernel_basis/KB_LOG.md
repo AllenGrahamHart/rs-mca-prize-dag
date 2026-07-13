@@ -1756,3 +1756,33 @@ absolute paths. LAW: cross-repo sessions use absolute paths for
 every write; cd is not state to trust. All verifiers green
 (cutoff/batching/mca_rows/mobius/cogirth replayed); validator
 PASS; manifest 124 scripts / 221 assets PASS. Modal re-pin next.
+
+## 68 — 2026-07-13: WCL-ZONE F-ROUND 1 SURVIVED (catches #190-#197 =
+## wz-C1..C8) — and the predicate's true shape emerges
+
+The newest dli leaf took its first pre-registered adversarial round
+(falsifiers banked BEFORE computation; 11 Modal apps; exact-rational
+verdict path; packet at background/nodes/dli_wcl_zone_coverage/
+notes/wz_fround1_20260713/). NO kill line tripped: forced-structure
+saturation (closest Phat .292 vs Poisson .214), recurring-orbit
+(673 keys, zero recurring at 2+ primes), scaling anomaly (L=1
+tracks the q^-L volume law at both tower widths). Integrity: 12/12
+banked M2 cells reproduced EXACTLY on TWO independent engines;
+dedup mutation trips (4712 vs 4497 at q=193; 224 vs 126 at 7937);
+real multiplier shadows found; lift control 6/6; one vacuous
+empty==empty cross-check self-caught and re-sited (#137 discipline
+working inside the round). #190 (STRUCTURAL): at N_L = 256L the
+min orbit mass 16L/2^L > 1/32 iff L <= 12 — WCL-ZONE at L <= 12 IS
+ledger emptiness; the threshold prices mass only at L >= 13. #193
+(NEAR-MISS, round-2 primary): family B (L=2) rho monotone 1.62 ->
+2.40 -> 4.65 (compound kill not met: 1 top-band witness < 3,
+top/bottom 2.88 < 4). #191: the pose's first-owner dedup has no
+reference implementation and moves W_cl 4 -> 1 — canonical spec
+OWED before any certificate work. #192: 2-power analogues are
+blind to the odd-n' forced-family channel (round 2 adds n'=96/192)
+— with the positive lemma that pure odd subgroup-sum relations are
+excluded at every official level. #194-#197: engine/protocol notes
+in wz_findings.md. F-round state of the dli decomposition leaves:
+C1' 1 round, WCL-ZONE 1 round, C2'' 1 round — the full non-circular
+decomposition now has one survived round per leaf. ROUND-2 DESIGN
+(queued): odd-n' cells + the family-B trend + the dedup spec.
