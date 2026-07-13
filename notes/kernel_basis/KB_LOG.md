@@ -1507,3 +1507,34 @@ R1 -> re-run -> execute the amber surgery from
 m4_amber_statement_draft.md (primary path: statement addendum,
 node stays TARGET — house-law-clean, confirmed) -> dli goes amber
 on the user's M5 file. The session's 20th and final cycle.
+
+## 61 — 2026-07-13: CLAUSE (P) PROOF PACKET BANKED (cp_, catches
+## #168-#171) — claims PROVED as posed; house audit gate PENDING
+
+The clause (P) worker returned STATUS: PROVED for
+petal_g1_layer_maps' remaining content (the aperiodic floor-band
+atlas supply), banked verbatim at
+critical/nodes/petal_g1_layer_maps/notes/cp_packet_20260713/
+(cp_report/statement/proof/verify/findings). Engine = Lemma B
+support rigidity: floor band + full-petal + |S| >= k+1 forces
+j <= J = k+3-2t_ch and m in {t_ch-1, t_ch}. Rates <= 1/4: J < 0,
+floor band EMPTY for ALL contributors (strengthens #145/#153 to
+everything; in-vivo 51-class census, zero floor-band). Rate 1/2:
+J = 3, explicit word-independent atlas with weighted census
+2(t_ch+1)S_3(k-1) ~ n^4/96 = 2^157.4 vs budget 2^245.9 (margin
+2^88.5), all rows s=3..44. Per-chart K4 m+1 line re-proved
+word-free (no dictionary transport consumed). Complement analysis:
+lift locus rank 0 (WHY #145 is q-free), non-lift rank>=1 with
+first-moment ~poly/q (measured 30/18/10 at q=97/193/257). Catches:
+#168 layout anchoring load-bearing (layout-existential reading
+pre-falsified by core re-basing; C(63,32) kill transports); #169
+rigidity/emptiness law; #170 lifts do NOT exhaust the aperiodic
+floor band (83/67/63 full vs 53/48/53 lift-only — a #153-cap-sized
+atlas would undercover); #171 wide-minus-floor lift mass ~2^59.67
+at (128,64) moves to petal_growth's below-top obligation (no
+budget line — attach to the P1 maintainer request). Verifier
+REPLAYED by the banking session under ramguard tiny: 59 PASS
+0 FAIL (P1-P7, incl. 4 required-to-trip mutations + brute
+cross-validation + banked-pin reproduction 8/53/48/0). NO DAG
+SURGERY YET — the fresh-context audit gate (house law) runs next;
+the packet's own suggested surgery list is in cp_report.md.
