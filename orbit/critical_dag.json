@@ -908,7 +908,7 @@
   },
   {
    "id": "petal_g1_layer_maps",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": ""
   },
   {
@@ -923,7 +923,7 @@
   },
   {
    "id": "petal_g3_pricing_multiplicity",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": ""
   },
   {
