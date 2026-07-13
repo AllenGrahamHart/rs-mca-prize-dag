@@ -933,7 +933,7 @@
   },
   {
    "id": "petal_small_scale_staircase_census",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": ""
   },
   {
@@ -945,6 +945,26 @@
    "id": "qfloor_exact",
    "label": "PROVED",
    "title": "prop:qfloor: quotient floor exact above norm threshold"
+  },
+  {
+   "id": "qrl_t1_support_count_window",
+   "label": "PROVED",
+   "title": ""
+  },
+  {
+   "id": "qrl_t2_johnson_window",
+   "label": "PROVED",
+   "title": ""
+  },
+  {
+   "id": "qrl_t3_one_fiber_lemma",
+   "label": "PROVED",
+   "title": ""
+  },
+  {
+   "id": "quotient_row_subjohnson_bound",
+   "label": "UNPROVED",
+   "title": ""
   },
   {
    "id": "r2_clean_rates",
@@ -2395,6 +2415,22 @@
   {
    "from": "x83_uniform_square_shift_obstruction_gate",
    "to": "f3_hge4_aggregate_budget"
+  },
+  {
+   "from": "qrl_t1_support_count_window",
+   "to": "petal_small_scale_staircase_census"
+  },
+  {
+   "from": "qrl_t2_johnson_window",
+   "to": "petal_small_scale_staircase_census"
+  },
+  {
+   "from": "qrl_t3_one_fiber_lemma",
+   "to": "petal_small_scale_staircase_census"
+  },
+  {
+   "from": "quotient_row_subjohnson_bound",
+   "to": "petal_small_scale_staircase_census"
   }
  ]
 }
