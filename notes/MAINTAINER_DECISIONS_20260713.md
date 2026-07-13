@@ -174,3 +174,24 @@ N_L = 256L displays are superseded (pose revision r2 of
 dli_wcl_zone_coverage and dli_marginal_baseline100_coverage). The
 F-round records stand as analogue-scale evidence; #190's arithmetic
 is schedule-free and its instantiation is annotated, not changed.
+
+
+---
+
+## DECISION 2 (M5) — RATIFIED + PROCESS CHANGE (2026-07-13, in-session)
+
+M5 RATIFIED: notes/.../M5_CONFIRMATION_2P121.md written; the M4 verifier
+prints "M5: CONFIRMED". Catch #40 settled — 2^121 is the operative
+endpoint (forced by the catch-#30 complement-duality two-sided split;
+the proof clears it with ~20 bits of slack); the 2^122 displays are
+superseded.
+
+PROCESS CHANGE (maintainer, standing): FORCED corrections — a pin /
+constant / display / schedule with a single mathematically-correct value
+(determined by arithmetic, audit, proof, or the strongest-true-reading
+principle) — are now applied DIRECTLY, no maintainer queue. This entry's
+M5 was the last "decision" of that kind that was queued; going forward
+such corrections are just made (banked, reversible, provenance-annotated).
+Genuine choices, status flips on named conjectures (the amber ceremony),
+and outward-facing acts remain surfaced. Full policy:
+memory rs-mca-forced-corrections-authority.md.
