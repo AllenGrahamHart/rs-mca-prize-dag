@@ -1411,3 +1411,27 @@ ENTIRE OPEN SET: clause (P) (aperiodic floor-band supply) + the P1
 maintainer one-liner. Everything else — K4, G2, G3-compiler, COL,
 (D), the extension, SUCCESSOR-A's core, the gate — is a theorem or
 an audited conditional.
+
+## 56 — 2026-07-13: WAVE-5 AUDITED (catches #158-#161) — import
+## queue banked, surgery deferred to fresh context
+
+All 11 commits importable (audit spec verbatim at
+WAVE5_AUDIT_FINDINGS.md): cluster 1 ray bounds (GRK + DDR clean,
+collinearity fence conditional on co-importing the audited
+line-star node 15ff12ab — #161 ordering); cluster 2 C36 (the
+Sidon theorem GENUINELY PROVED — 2-adic tower + quadratic
+separation traced line-by-line; boundary Modal job re-run fresh,
+all constants exact; #160 two in-place rewrites -> import as
+addenda); cluster 3 XR: P-A REDUCED not closed — paid sigma <= 3
+all rows, sigma = 4 covering-free at five rows, prize sigma <=
+11/11/10; residuals = the component ledger + the
+every-selector-rank branch; P-B inherits the covering-free bound.
+CATCH #158 (the one mathematical repair): the 'rank four closed
+on all six rows' claim has an unproven covering step at RowC 1/16
+ONLY (quantifier slip — the same commits' P-B texts state it
+correctly); 5 textual repair sites listed; post-pin 9d058055
+inherits it — wave-6 must re-audit with #158 in hand. #159 (AD)
+split text; #42/#104/P1/P5 discipline verified throughout.
+SURGERY DEFERRED: the import (dependency-ordered, 15ff12ab first)
+executes next session from the banked spec — context limit
+reached, custody care required.
