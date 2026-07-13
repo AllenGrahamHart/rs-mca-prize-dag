@@ -75,3 +75,61 @@ This blocks M4 from being presented as an unconditional DLI assembly. M4 may
 still prove the exact arithmetic implication from accepted C1', C2'', and
 endpoint certificates, but it must expose coverage as an input and must fail
 closed when that input is absent.
+
+---
+
+## M3 CORRECTED POSE (2026-07-13, appended per #104; the contract above
+## remains the banked M4 interface — w6-C4 = catch #181, credit Codex)
+
+### Interface correction
+
+The pose above requires an accepted certificate to finish with
+`q^(-t+H) W_cen(R)<=2^121` (item 6). Universal coverage by such
+certificates is equivalent to B-WEAK itself and therefore CIRCULAR as a
+decomposition target. The exact C1' theorem exposes a smaller interface:
+once its finite primitive ledger is supplied, C1' controls the whole
+level mean; no separate residual near-peak certificate is needed. The
+100-bit baseline is an amber assembly, not an independent red predicate.
+
+### Coverage obligation (the truth-apt successor)
+
+For an official row `R` and level `L=1,...,34`, let
+
+```text
+W_cl(R,L) = sum_O 2 N_L 2^(-w(O)),
+N_L       = 256L,
+```
+
+where the sum is over the complete set of reduced primitive signed-shift
+orbits in the C1' window `L+1<=w(O)<=L+5`, after generated-field
+normalization and first-owner de-duplication of multiplier shadows and
+level lifts. The truth-apt M3 statement is
+
+```text
+for every official row R and every L=1,...,34,
+W_cl(R,L) <= 1/32.                              (WCL-ZONE-COVERAGE)
+```
+
+This is the DAG node `dli_wcl_zone_coverage` (zero F-rounds; the
+F-round rule applies before any promotion). A proof or certificate
+family must pin the row and generated field, prove the primitive ledger
+complete in the exact weight window, and prove ownership. A density
+bound over primes, an engineering-hardness claim, or a list of merely
+exhibited relations is not per-row coverage.
+
+### Exact downstream assembly
+
+Together with C1', WCL-ZONE gives
+
+```text
+r_L = q^L/2^(256L) < 1,
+E_L <= 1 + 4r_L(1+W_cl) <= 41/8,
+product_(L=1)^34 E_L <= (41/8)^34 < 2^100.
+```
+
+The final comparison is exactly `41^34<2^202`. This proves the amber
+node `dli_marginal_baseline100_coverage`; C2'' then supplies the
+independent 21-bit joint reserve. The corrected M3 contains no C1'
+assertion, C2'' assertion, final endpoint check, residual certificate,
+or reserve credit. No repository asset proves WCL-ZONE-COVERAGE on
+every official level; A1-PROD proves only a density bound.

@@ -1718,3 +1718,41 @@ red's large-field branch CLOSES (open range now n^2 <= p <=
 all replays PASS (w6-C11 = #188 ledger fold; Fermat 4GB replay +
 FLINT recompute deferred non-blocking). IMPORT EXECUTION = next
 work item; the spec is mechanical.
+
+## 67 — 2026-07-13: WAVE-6 IMPORT EXECUTED (+ catch #189, a custody
+## incident, self-caught and repaired)
+
+The full WAVE6 surgery spec ran green. CLUSTER D: rich_fiber_norm_
+cutoff + rich_fiber_ideal_batching PROVED background nodes + 6
+experiments assets; mobius node files at pin (#159 re-applied);
+statement untouched (byte-identical); attack_surface range-scoped
+(content-verified: master sentence retained verbatim inside).
+CLUSTER B: mca_quadratic_prize_rows PROVED background node + ev ->
+mca_grand; roadmap r6 note with the w6-C2 rewording. CLUSTER A:
+route_limit.md + result.md + verify.py at pin WITH the w6-C1 #158
+scoping paragraph appended to both. CLUSTER C CORE: dli_c2pp_joint_
+reserve (TARGET) + dli_wcl_zone_coverage (TARGET) + dli_marginal_
+baseline100_coverage (CONDITIONAL on dyadic_k_core + wcl_zone) as
+BACKGROUND nodes (partition law relocated them from the spec's
+critical/ — ev-only wiring until the amber), the two dli in-edges
+converted req->ev per w6-C6 (the req rewiring = the maintainer's
+amber move), dli + dyadic_k_core statement APPENDS (master text
+untouched), M3 CORRECTED POSE appended (catch #181 recorded, credit
+Codex), QUALITY/REPOSE addenda EDITED per w6-C7/w6-C8 (master's
+#165-repaired interface stays of record; M5 stays owed), eex_report
+cross-reference, C2PP supersession note, x4 #40 display annotation
+(w6-C9), dli folder statement "Posed decomposition" block. Parked:
+both branch implication verifiers (w6-C10) — the baseline one
+renamed pending_amber_verify.py because the harness discover() glob
+matches verify*.py (nearly re-registered itself; fail-closed harness
+caught it). REFUSED per spec: all status flips, statement
+replacements, verifier retirements, M5 self-settlement. CATCH #189
+(custody incident, self-caught): three relative-path appends
+(QUALITY/REPOSE/M3) executed while the shell cwd sat in the CODEX
+worktree — the ONE-WRITER rule was violated for ~2 minutes; caught
+by the x4 edit's fail-closed assert + git status, REVERTED via git
+checkout (Codex tree verified pristine), re-applied in master via
+absolute paths. LAW: cross-repo sessions use absolute paths for
+every write; cd is not state to trust. All verifiers green
+(cutoff/batching/mca_rows/mobius/cogirth replayed); validator
+PASS; manifest 124 scripts / 221 assets PASS. Modal re-pin next.

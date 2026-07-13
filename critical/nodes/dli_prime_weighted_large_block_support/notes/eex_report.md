@@ -207,3 +207,15 @@ tools/ramguard modal -- ~/.venvs/modal/bin/modal run \
 Exit code 0 = no kill line; the script prints per-cell exact results and
 an EEX_VERDICT line. The banked M3 static audit
 (`notes/verify_m3_endpoint_contract.py`) was re-run this round: PASS 11/11.
+
+---
+
+> CROSS-REFERENCE (2026-07-13, wave-6): the coverage pose verified here
+> was found CIRCULAR as a decomposition target (certificate item 6
+> already checks the 2^121 endpoint; universal coverage implies B-WEAK —
+> w6-C4 = catch #181). The posed successor decomposition routes through
+> dli_wcl_zone_coverage (W_cl <= 1/32, all 34 levels) +
+> dli_marginal_baseline100_coverage + dli_c2pp_joint_reserve; see
+> M3_ENDPOINT_EXCEPTION_COVERAGE.md "M3 CORRECTED POSE". This round's
+> execution record and the #165-repaired verifier remain the banked M4
+> interface of record.

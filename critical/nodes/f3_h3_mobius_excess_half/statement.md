@@ -21,3 +21,7 @@ This is the exact remaining premise after the identity fiber and the first
 `18` units of every nonidentity quotient fiber are paid. It is weaker than the
 former cutoff-35 statement `X_35<=n^2/2`, which implies `(WX18)` by the proved
 cutoff comparison.
+
+The proved `f3_h3_rich_fiber_norm_cutoff` theorem gives `X_18=0` whenever
+`p>6^(n/4)`. Thus the universal statement remains open only for
+`n^2<=p<=6^(n/4)`.

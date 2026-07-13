@@ -105,3 +105,18 @@ evidence ledger is insensitive (strongest priced attack ever: 2.25 bits;
 every exactly-computed extreme row <= 0.015 bits). Maintainer confirmation
 owed as a one-line ruling; all C2''-lane documents (C2PP_POSED_20260710.md)
 already use 21 bits.
+
+## ADDENDUM (2026-07-13, M4/wave-6): non-circular conditional decomposition
+
+The first ENDPOINT-EXC coverage pose required each accepted certificate to
+prove the final `2^121` inequality. Universal coverage in that form is just
+B-WEAK under another name (w6-C4 = catch #181). The corrected decomposition
+uses the amber marginal baseline `product_j E_U[rho_j] <= 2^100` and the C2''
+joint reserve `q^(-t+H) W_cen <= 2^21 product_j E_U[rho_j]`. The baseline is
+proved from C1' and the independent official-row WCL-ZONE predicate; the
+exact product is the endpoint. Thus the three ultimate open predicates are
+C1', WCL-ZONE, and C2''. Master's #165-repaired M4/eex interface remains the
+banked interface of record. M5 maintainer confirmation remains owed; the
+corrected consumer identity supplies the confirming computation for the
+maintainer's ruling. (The 2^122 displays above remain as history per #155;
+the binding endpoint is 2^121, catch #40.)

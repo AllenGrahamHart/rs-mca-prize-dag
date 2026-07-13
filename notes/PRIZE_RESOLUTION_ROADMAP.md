@@ -739,3 +739,30 @@ G1 atlas supply and the unified row-level sub-Johnson successor
 the aggregate allocation law (R1'). The e0a2aa7 arity-scope
 reconciliation is accurate and incorporated; note the branch copy of this
 file lost addendum r1 (catch #122) — master's copy is authoritative.
+
+## Integration note r6 (2026-07-13, exact quadratic MCA rows; imported
+## wave-6 with w6-C2 rewording)
+
+Upstream `rs-mca@9262f63c` supplies a self-contained quadratic mean-overlap
+theorem. Independently reconstructed locally, it proves that the support-wise
+full-field MCA numerator is exactly `r+1` whenever
+
+```text
+(n-r)^2 >= n(k+r).
+```
+
+Four certified power-of-two multiplicative-subgroup rows, one at each official
+rate and with `k=2^40`, place the target `2^-128` exactly on the adjacent
+quadratic boundary. If `B=floor(p/2^128)`, their safe real-radius set is
+`[0,B/n)`, their largest safe grid radius is `(B-1)/n`, and the supremum
+`B/n` is unsafe. The local packet replays all four Proth witnesses, target
+divisions, and adjacent signs using exact integers.
+
+This realizes the milestone-2 shape on four particular eligible rows (the
+first exact full-MCA determinations at all four official rates); the corridor
+clean-rate rows and the WP5 exit gate remain open (w6-C2). It does not close
+a critical red: the canonical roots quantify over separately frozen
+near-capacity/corridor rows, `rate_half_band_closure` fixes a different
+roughly 256-bit razor row and also contains an ordinary-list obligation, and
+the quadratic theorem makes no list claim. The DAG records an evidence edge
+to `mca_grand`, with all critical leaves unchanged.

@@ -25,7 +25,7 @@ The CORRECTED flatness target (post falsification #20): for every central
 level-j profile M, the TRUE valid-skew count satisfies
 B_j(M) = #{d in D_j(M) : Q_d(zeta^{2l-1}) = 0 in F_q for all 1 <= l <= L_j}
 <= q^{-L_j + eta_j} U_j(M), with sum_j eta_j = o(t) (prize budget
-q^{-t+H} W_cen <= 2^122). The conditions are the ACTUAL odd evaluation
+q^{-t+H} W_cen <= 2^122 [#40: superseded display; binding = 2^121]). The conditions are the ACTUAL odd evaluation
 equations at the specific roots — L_j genuinely independent F_q-conditions —
 NOT the folded-resultant divisi
 NOTES: CONDITIONAL (Pro D3 route C, verified): EJM_{2m} => flatness by exact Holder cancellation; the D2 falsifier is now a diagnostic (short by (3/5)^N); the proved 255L+1-coordinate lever replaces the dead resultant-gcd. | FALSIFICATION-PASS HANDOFF (for 

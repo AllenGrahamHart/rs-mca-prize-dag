@@ -31,3 +31,12 @@ verifiers with no failures, timeouts, hash mismatches, or remote errors in app
 `ap-IZqfGQD2KDhYQJwEl55Hb2`. The five integration gates passed in
 `ap-Hk6TgSQLiV1chotFlgLlzX`, retaining exactly nine open critical truth leaves.
 The critical orbit was rebuilt remotely in `ap-Bh4acgOozNjZejFSk5b2ZL`.
+
+The exact local-envelope audit in `route_limit.md` was replayed in Modal app
+`ap-3SsE1JL5IiiOkotzT89CcR`.  It returned the same paid P-A selector ranks
+`4,4,4,11,11,10`; the third RowC rank includes the existing rank-four chart
+handoff.  Therefore iterating the present cogirth and minimum-line-basis
+bounds gives no additional official rank.
+
+
+[w6 audit 2026-07-13: the paid ranges quoted here inherit catch #158 -- at RowC 1/16 the rank-4 handoff is conditional (line-admitting b <= 47 or line-covered hulls); the line-free/line-uncovered rank-4 sub-case remains open and is not fenced by this envelope, which presupposes the covering step; the rank-five kill is unconditional on the covered branch.]

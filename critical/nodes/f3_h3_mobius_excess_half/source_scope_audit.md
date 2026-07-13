@@ -64,11 +64,12 @@ No such explicit correlated theorem is printed in the audited source.
 
 ## Verdict
 
-The current source route is `OPEN GAP`, not a citation close. A successful
-proof must control the joint rich-block moment `(BNS18)`, retain product/quotient
-correlation in a rich-level argument, or exploit the oriented character phases.
-The cutoff optimization makes an explicit logarithmic proof plausible but does
-not supply it.
+The current source route is `OPEN GAP`, not a citation close. The independent
+proved norm-cutoff packet closes `p>6^(n/4)`. On the remaining range, a
+successful proof must control the joint rich-block moment `(BNS18)`, retain
+product/quotient correlation in a rich-level argument, or exploit the oriented
+character phases. The cutoff optimization makes an explicit logarithmic proof
+plausible but does not supply it.
 
 The in-repo theorem `f3_h3_shifted_product_sidon` additionally proves that
 the non-swap product-collision factor has no characteristic-zero component at

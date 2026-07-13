@@ -35,3 +35,38 @@ FIRED, with the F-c primary an undershoot (0 accidents vs 3.957 expected
 F-round rule's bar for wiring it as a predicate is now met pending
 maintainer review. The dli amber still needs M2 (C1' re-pose + round),
 M3 (ENDPOINT-EXC), M4 (assembly verifier), M5 (2^121 confirmation).
+
+## ADDENDUM (2026-07-13, wave-6 import; branch sections appended per
+## #104, edited per w6-C7/w6-C8 — master's repaired M4 interface stands)
+
+### M2 ROUND: C1' SURVIVES
+
+The level-scaled candidate `w_max(L)=L+5` was committed before its primitive
+ratios were computed. Twelve balanced full-half-section rows at `L=1,2`
+survived; exact maximum `K'=0.246909432...<4` at the deliberately included
+`q=7937` accident row. Deleting the ledger makes that row fail. M2's
+adversarial-round requirement is complete; C1' remains a candidate predicate,
+not a theorem.
+
+### M3 AUDIT: PRIMITIVE-LEDGER ZONE COVERAGE IS OPEN (w6-C4 = catch #181)
+
+The final-endpoint certificate pose was circular (certificate item 6 already
+checks the 2^121 endpoint; universal coverage implies B-WEAK), and the
+intermediate direct baseline-certificate pose still hid more machinery than
+C1' needs. The corrected exposure is the exact missing coverage statement:
+every official row and every production level has a complete
+generated-field-normalized primitive ledger `W_cl<=1/32` in the C1' window
+(node dli_wcl_zone_coverage, zero F-rounds). A1-PROD's exceptional-prime
+density bound does not establish that either fixed official field satisfies
+this per-row claim.
+
+### THE NON-CIRCULAR DECOMPOSITION (machine-verified; wiring pending amber)
+
+C1' plus WCL-ZONE gives `E_L<=41/8` and hence `product_L E_L<2^100` by
+`41^34<2^202`; C2'' then supplies the 21-bit joint reserve and proves B-WEAK.
+Both implications are exact and mutation-tested (verifiers parked pending the
+maintainer's amber ceremony, w6-C10). The ultimate unproved DLI leaves are
+C1', WCL-ZONE, and C2''. Master's #165-REPAIRED eex/M4 interface remains the
+banked interface of record (w6-C7); M5 remains maintainer-owed (w6-C8) — the
+corrected consumer identity supplies the confirming computation for the
+maintainer's ruling.

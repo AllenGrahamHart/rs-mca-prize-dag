@@ -8,8 +8,9 @@
 - **consumer:** `f3_h3_three_to_one_c36`, nonidentity rich-fiber tail
 - **status:** `TARGET`
 - **proved dependencies:** quotient-block identity, paired PGL2 identity,
-  cutoff-18 compiler, and exact C36' arithmetic
-- **new open content:** a joint product/quotient correlation estimate; the
+  cutoff-18 compiler, rich-fiber norm cutoff, and exact C36' arithmetic
+- **new open content:** on the proved-reduced range
+  `n^2<=p<=6^(n/4)`, a joint product/quotient correlation estimate; the
   preferred sufficient aggregate target is `S_ns^rich<=1200n^2`, restricted
   to the actual rich locus `P(t)>=19`
 - **falsifier:** one exact official row with `17X_18>300n^2`

@@ -48,3 +48,31 @@ The operative endpoint is **q^{-t+H} * W_cen <= 2^121** (catch #40's
 complement-duality re-pin, propagated to this file at wave-4; the dag
 statement head and REPOSE addendum agree; maintainer one-liner M5 still
 owed).
+
+## Posed decomposition (2026-07-13, wave-6 import; retitled from the
+## branch's "Conditional close" — status stays at dag.json's TARGET)
+
+The exact live endpoint is
+
+```text
+q^{-t+H} W_cen <= 2^121.
+```
+
+The former `2^122` half-band endpoint is superseded: complement duality
+gives the full central contribution as `2 C_< + C_=`, so the consumer's
+corrected two-sided split allocates `2^121` to this half-band and the
+other half to the tails. This is the conservative binding target. M5
+maintainer confirmation remains owed (w6-C8); the corrected consumer
+identity supplies the confirming computation for the maintainer's
+ruling. The exact implication is machine-verified from two open-leaf
+assemblies:
+
+```text
+product_j E_U[rho_j] <= 2^100,
+q^(-t+H) W_cen <= 2^21 product_j E_U[rho_j].
+```
+
+These are `dli_marginal_baseline100_coverage` (CONDITIONAL on C1' +
+WCL-ZONE) and the posed C2'' node `dli_c2pp_joint_reserve`; ultimate
+open leaves = C1', WCL-ZONE, C2'' (w6-C4 = catch #181). Wiring is
+ev-lane pending the maintainer's amber ceremony.

@@ -162,7 +162,79 @@ def exhaustive_affine_lines() -> tuple[int, int]:
     return checked, maximum_pairs
 
 
-def official_rows() -> tuple[tuple[str, int, bool], ...]:
+def highcore_overlap_rank(
+    n: int, k: int, reserve: int, budget: int
+) -> int:
+    radius = n - k
+    line_cap = radius // reserve
+    quotient = budget // line_cap
+    paid_rank = 1
+    for affine_dimension in range(2, k + 2):
+        kernel_dimension = affine_dimension - 1
+        total_subsets = comb(n, kernel_dimension)
+        line_threshold = total_subsets // (quotient + 1) + 1
+        maximum_bases = comb(k, kernel_dimension)
+        largest_low_basis = min(maximum_bases, line_threshold - 1)
+        if largest_low_basis:
+            chart_size = min(
+                n, radius + largest_low_basis + kernel_dimension - 1
+            )
+            acg_paid = (
+                comb(chart_size, kernel_dimension)
+                * (chart_size - kernel_dimension)
+                <= budget * comb(reserve + kernel_dimension, kernel_dimension)
+            )
+        else:
+            acg_paid = True
+        if not acg_paid:
+            break
+        paid_rank = affine_dimension
+    return paid_rank
+
+
+def highcore_local_envelope_rank(
+    n: int, k: int, reserve: int, budget: int
+) -> int:
+    radius = n - k
+    line_cap = radius // reserve
+    paid_rank = 1
+    for affine_dimension in range(2, k + 2):
+        kernel_dimension = affine_dimension - 1
+        maximum_bases = comb(k, kernel_dimension)
+        saturation = max(1, k - kernel_dimension + 1)
+        endpoint = min(maximum_bases, saturation)
+        denominator = comb(reserve + kernel_dimension, kernel_dimension)
+
+        candidates = {1, endpoint, maximum_bases}
+        target = line_cap * denominator
+        if endpoint >= 1 and endpoint * (radius + endpoint - 1) >= target:
+            low, high = 1, endpoint
+            while low < high:
+                middle = (low + high) // 2
+                if middle * (radius + middle - 1) >= target:
+                    high = middle
+                else:
+                    low = middle + 1
+            candidates.update((max(1, low - 1), low))
+
+        worst = 0
+        for bases in candidates:
+            if not 1 <= bases <= maximum_bases:
+                continue
+            chart_size = min(
+                n, radius + bases + kernel_dimension - 1
+            )
+            subsets = comb(chart_size, kernel_dimension)
+            acg = subsets * (chart_size - kernel_dimension) // denominator
+            line = line_cap * (subsets // bases)
+            worst = max(worst, min(acg, line))
+        if worst > budget:
+            break
+        paid_rank = affine_dimension
+    return paid_rank
+
+
+def official_rows() -> tuple[tuple[str, int, int, int, bool], ...]:
     rows = (
         ("rowc-r1_4", 1024, 4, 256),
         ("rowc-r1_8", 1024, 8, 256),
@@ -206,7 +278,13 @@ def official_rows() -> tuple[tuple[str, int, bool], ...]:
         )
         if not rank4_chart:
             raise AssertionError((name, paid_rank, residual_excess))
-        output.append((name, paid_rank, rank4_chart))
+        combined_rank = highcore_overlap_rank(n, k, reserve, budget)
+        local_rank = highcore_local_envelope_rank(n, k, reserve, budget)
+        if combined_rank < 4:
+            raise AssertionError((name, "combined rank regression", combined_rank))
+        if local_rank < combined_rank:
+            raise AssertionError((name, "local envelope regression", local_rank))
+        output.append((name, paid_rank, combined_rank, local_rank, rank4_chart))
     return tuple(output)
 
 
@@ -219,8 +297,9 @@ def main() -> None:
         f"matroids={checked} equality={equality} "
         f"affine_lines={affine_lines} max_pairs={maximum_pairs} "
         + " ".join(
-            f"{name}:ambient_s<={paid},rank4={'closed' if closed else 'open'}"
-            for name, paid, closed in rows
+            f"{name}:ambient_s<={paid},PA_s<={combined},local_PA_s<={local},"
+            f"rank4={'closed' if closed else 'open'}"
+            for name, paid, combined, local, closed in rows
         )
     )
 
