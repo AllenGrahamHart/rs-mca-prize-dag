@@ -239,3 +239,5 @@ note above.
   (128,64), total 1024; conservative in bsr_check, claims unaffected).
 - #154 numeric presentation collection (2^41.92; 718x vs 359x; 52.8 bits;
   prize-q stand-ins).
+
+> #155 ANNOTATION (2026-07-13, qme audit): the 2^-691 dominance constant printed in this file is a lg_frac rounding artifact — the exact worst excess is 2^-690.2765..2^-690.2766 at (13, 1/16); honest grid constant (1 + 2^-690). The qme packet carries the corrected form; this record is annotated, not rewritten.

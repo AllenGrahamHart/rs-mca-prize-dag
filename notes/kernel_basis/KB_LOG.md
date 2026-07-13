@@ -1392,3 +1392,22 @@ to odd-A M > t_res rows. On audit PASS the census gate goes fully
 conditional-complete: COL (proved) + (D) (proved) + K4 (proved) +
 this extension — with clause (P) + P1 the petal family's only
 remaining open items.
+
+## 55 — 2026-07-13: THE CENSUS GATE IS PROVED — third red retired by
+## proof; the petal family's open set = clause (P) + pin P1
+
+The qme packet audited PACKET-SOUND (every clause re-derived;
+96/96 independent re-certification; exact bigint spot-checks;
+fresh mutations trip; the M <= t boundary sharp both ways).
+PROMOTION EXECUTED: qa22_m_le_t_extension -> PROVED; the census
+gate -> PROVED per bsr_gate_repromotion (#152 band scope verbatim;
+P1-OWN pin; widest-ALL falsifier live). #155 annotated at all bsr
+sites (record annotated, never rewritten); #156 scoped at
+dyadic_profile_evaluation + xr_target_budget_audit; #157 reworded.
+The gate's life: minted as the G2 flip's price -> survived its
+first attack -> reduced -> demoted TWICE by its own pre-registered
+criteria -> PROVED once the currency was right. THE PETAL FAMILY'S
+ENTIRE OPEN SET: clause (P) (aperiodic floor-band supply) + the P1
+maintainer one-liner. Everything else — K4, G2, G3-compiler, COL,
+(D), the extension, SUCCESSOR-A's core, the gate — is a theorem or
+an audited conditional.

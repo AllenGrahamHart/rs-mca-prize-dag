@@ -125,3 +125,5 @@ law a dead falsifier must be re-posed, not kept as decoration:
 3. The imgfib landing re-verification finds the 719 allowance not absorbed
    (then C_col renegotiates DOWN toward 4 — COL gives 180x room — or the
    profile clause re-scopes; criterion 5 of petal_growth r2 fires).
+
+> #155 ANNOTATION (2026-07-13, qme audit): the 2^-691 dominance constant printed in this file is a lg_frac rounding artifact — the exact worst excess is 2^-690.2765..2^-690.2766 at (13, 1/16); honest grid constant (1 + 2^-690). The qme packet carries the corrected form; this record is annotated, not rewritten.

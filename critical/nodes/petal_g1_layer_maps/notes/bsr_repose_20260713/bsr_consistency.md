@@ -111,3 +111,5 @@ re-verified". The extension's arithmetic is now pre-computed:
   clause (P) pre-falsified without a carve-out). The maintainer line should
   be requested WITH the #145 table in hand.
 - The below-top band and mixed-petal buckets: outside, as always.
+
+> #155 ANNOTATION (2026-07-13, qme audit): the 2^-691 dominance constant printed in this file is a lg_frac rounding artifact — the exact worst excess is 2^-690.2765..2^-690.2766 at (13, 1/16); honest grid constant (1 + 2^-690). The qme packet carries the corrected form; this record is annotated, not rewritten.

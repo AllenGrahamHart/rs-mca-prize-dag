@@ -67,3 +67,11 @@ knowledge").
 One count prices all dyadic scales (L0); band exactly {k+2, k+4} (#135);
 m'+1 fallback; aperiodic bucket with the proved K4. The gate's open risk
 is now exactly G1 coverage — the petal family is ONE red.
+
+## PROVED (2026-07-13): the gate is a theorem — third red retired by proof
+
+Minted as the price of the G2 flip; survived its first attack; reduced by
+the descent chain; demoted twice by its own pre-registered criteria (both
+T-KILLs); and finally closed by the branch-split insight — the column was
+the right currency all along. Chain: Lemma COL (word-free) + the QA.22
+extension (full grid) + K4 (chart-level) + clause (D). Certificate CLOSED.
