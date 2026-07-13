@@ -32,3 +32,16 @@ replayed (descent in-vivo perfect against all 372 banked cells; EXACT at
 the four rate-half cells). Residual (catch #106): a ROW-UNIFORM aperiodic
 quotient-row bound C(n/M)^6, C <= 63/64, over all dyadic quotient rows —
 the census gate's open content is now this single quantified ledger.
+
+## CONDITIONAL RESOLUTION (2026-07-13): the gate rides the unified lemma
+
+Packet r1 audited SOUND-WITH-REPAIRS (link-by-link; ground truth reproduced
+from scratch at all 26 exhaustive records; real mutation controls banked at
+qra_mutations.py after the built-in M2 self-test proved vacuous — catch
+#114). The sum-vs-max seam was REAL (catch #113): the widest ALL band
+reading at n' = 32, rho in {1/2, 1/4} is not delivered and is excluded from
+consumption (P1-OWN pin). The successor red carries the #115 PROVED strength
+pin — min((63/128)n'^6, (q-3n')/2) — after the audit showed bare-cap mints
+feed ESP yet output 64x cap at the packet's own threshold pair. Certificate:
+transfers to QUALITY of the successor (QRL-MODAL-1 is its pre-registered
+first attempt, Modal-ready).

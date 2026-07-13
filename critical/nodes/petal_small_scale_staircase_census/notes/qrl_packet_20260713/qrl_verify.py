@@ -1,3 +1,8 @@
+# R2 (catch #114, 2026-07-13 audit): the built-in 'MUTATION M2' self-test below
+# is a TAUTOLOGY (never feeds the tampered value through the S4 predicate) —
+# its 'correctly rejected' line overclaims. The REAL mutation controls live in
+# qra_mutations.py (audit-banked, Modal-replayed: window-widening, band-rule
+# 7->6, banked-cell tamper — all fail correctly). The S4 logic itself has teeth.
 # PATH REPAIR (2026-07-13, catch #112): the as-delivered verifier hardcoded the
 # author's scratchpad path — unreplayable from the banked location (the #90
 # replayability shape). All packet-sibling references made relative.

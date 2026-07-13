@@ -1119,3 +1119,34 @@ paths — unreplayable from the repo (the #90 replayability shape,
 FOURTH instance incl. #59) — repaired to relative/shipped-flat
 form. Machine baseline recorded: ~1.6GiB used (claude + restarted
 Codex + VS Code), ~5.8GiB headroom, swap clear.
+
+## 45 — 2026-07-13: THE UNIFIED-LEMMA SURGERY — census gate CONDITIONAL
+## on the row-level sub-Johnson successor (catches #113-#115)
+
+The qrl packet survived its third-attempt audit (Modal-only
+protocol, ramguard-wrapped, findings emitted incrementally):
+SOUND-WITH-REPAIRS. Every mathematical link held — the crux, the
+three windows, the ESP factor sweep (worst case exactly at the
+q = 4n'^2 boundary), the coverage table regenerated to exact
+agreement, ground truth rebuilt from scratch at all 26 exhaustive
+records. THE FLAGGED SEAM WAS REAL (#113): the geometric ledger's
+hypothesis is per-scale CLASS-TOTAL while T1 is per-cell; they
+coincide under P1-OWN, and the widest ALL reading at n' = 32,
+rho in {1/2, 1/4} is exactly (and only) where the proved suppliers
+fall short — excluded from consumption by pin. #114: the packet
+verifier's built-in mutation self-test was a tautology (the real
+controls, banked, do fail correctly). #115 (upgrades #109): "feeds
+ESP" is necessary-not-sufficient — a bare-cap mint outputs 64x cap
+at the packet's own threshold pair; the PROVED sufficient strength
+is min((63/128) n'^6, (q - 3n')/2), swept exactly at 4,000 points.
+
+SURGERY: QRL-T1/T2/T3 minted PROVED (T1 with the class-total
+clause; T3 = the #111 closer) req -> census gate -> CONDITIONAL on
+the minted successor red quotient_row_subjohnson_bound (the
+audit-drafted statement verbatim, #115 strength pin, QRL-MODAL-1
+falsifier pre-registered, ev -> K4 for the convergence). The petal
+amber's predicate set is now {G1-atlas, K4, successor} — and the
+successor + K4 are ONE lemma in two costumes. Board: reds 11 (gate
+amber <-> successor red swap); the successor is the sharpest red
+yet minted (single cell a = k'+1 per pair under P1-OWN, proven
+strength pin, conjectural true size O(n'^2) vs budget n'^6).
