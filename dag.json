@@ -744,7 +744,10 @@
    "status": "PROVED",
    "key": true,
    "refs": [
-    "wp_detail/wp_consolidation_sketch_extracts.md"
+    "wp_detail/wp_consolidation_sketch_extracts.md",
+    "critical/nodes/imgfib/notes/l1_upstream_crosswalk_20260713.md",
+    "critical/nodes/imgfib/proof.md",
+    "critical/nodes/imgfib/statement.md"
    ],
    "statement": "For ALL received words U: #ImgFib_U(k+sigma) <= n^B once sigma log2(q_D) >= (1+eps) log2 C(n, k+sigma) and the quotient profile is budgeted. || HYPOTHESES DISCHARGED -> PROVED (2026-07-13): the packet is a statement-level assembly over the wired kids (conditional.md), and the last open kid \u2014 petal_growth \u2014 is PROVED on the maintainer's P1 floor confirmation (the other four: conj_f, l1_program_frontier, dyadic_profile_evaluation, payment_completeness were already PROVED). Inherits the petal chain's standing tripwires (P)-3 / criterion 4 transitively.",
    "attack_surface": "close the petal escape route (the only open branch of the Thm 21/B11 frontier); monomial instance already proved in quasi-poly range",
