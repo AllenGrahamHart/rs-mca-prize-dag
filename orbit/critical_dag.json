@@ -897,6 +897,11 @@
    "title": "Periodic strata C(n/M, j/M); exchange-independent; coset recursion"
   },
   {
+   "id": "petal_full_touched_set_injection",
+   "label": "PROVED",
+   "title": "A full-petal chart injects into its touched-petal index sets"
+  },
+  {
    "id": "petal_g1_layer_maps",
    "label": "UNPROVED",
    "title": ""
@@ -927,14 +932,29 @@
    "title": "FLOOR CONJECTURE (PETAL-ESCAPE-BUDGET): top-band full-petal contribution to #ImgFib_U fits n^B at official rows"
   },
   {
+   "id": "petal_k4_johnson_slice",
+   "label": "PROVED",
+   "title": "Exact Johnson bound closes the above-threshold K4 auxiliary charts"
+  },
+  {
    "id": "petal_k4_primitive_bound",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": ""
+  },
+  {
+   "id": "petal_retained_zero_effective_degree",
+   "label": "PROVED",
+   "title": "Retained zeros lower the petal auxiliary degree and preserve exact support"
   },
   {
    "id": "petal_small_scale_staircase_census",
    "label": "CONDITIONAL",
    "title": ""
+  },
+  {
+   "id": "petal_top_band_tail_collapse",
+   "label": "PROVED",
+   "title": "P1 and the strict E22 remainder collapse the full-petal tail to m+1"
   },
   {
    "id": "q_recursion",
@@ -2417,6 +2437,10 @@
    "to": "f3_hge4_aggregate_budget"
   },
   {
+   "from": "petal_k4_johnson_slice",
+   "to": "petal_retained_zero_effective_degree"
+  },
+  {
    "from": "qrl_t1_support_count_window",
    "to": "petal_small_scale_staircase_census"
   },
@@ -2431,6 +2455,18 @@
   {
    "from": "quotient_row_subjohnson_bound",
    "to": "petal_small_scale_staircase_census"
+  },
+  {
+   "from": "petal_retained_zero_effective_degree",
+   "to": "petal_full_touched_set_injection"
+  },
+  {
+   "from": "petal_full_touched_set_injection",
+   "to": "petal_top_band_tail_collapse"
+  },
+  {
+   "from": "petal_top_band_tail_collapse",
+   "to": "petal_k4_primitive_bound"
   }
  ]
 }
