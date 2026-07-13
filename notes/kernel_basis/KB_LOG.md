@@ -1435,3 +1435,18 @@ split text; #42/#104/P1/P5 discipline verified throughout.
 SURGERY DEFERRED: the import (dependency-ordered, 15ff12ab first)
 executes next session from the banked spec — context limit
 reached, custody care required.
+
+## 57 — 2026-07-13: wave-5 surgery STAGE 1 executed — the import-clean
+## cluster-1 trio banked (line-star root + GRK + DDR)
+
+Per the banked spec's dependency order (#161): f3_h3_line_star_
+moment_identity (the 15ff12ab root, LS1/LS2 bijection audited),
+xr_generic_mds_kernel_ray_bound, xr_direction_distance_ray_bound
+— all three PROVED at the pin, verifiers replayed green at import,
+ev-wired per the pin into P-A/P-B. STAGES 2-3 REMAIN (fresh
+context, per the spec at WAVE5_AUDIT_FINDINGS.md): the C36 cluster
+(#160 addenda-form merges + the Sidon theorem + fifth-orbit
+compiler + the fence note), the XR reduction cluster (component
+atlas, LineRay/min-selector, basis ledger + cogirth with repairs,
+the #158 five-site textual fix), then harness manifest refresh +
+Modal re-pin, then wave-6 (post-pin 9d058055 with #158 in hand).

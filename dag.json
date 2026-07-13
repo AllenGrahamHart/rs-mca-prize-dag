@@ -5442,6 +5442,44 @@
     "critical/nodes/qa22_m_le_t_extension/qme_proof.md",
     "critical/nodes/qa22_m_le_t_extension/qme_verify.py"
    ]
+  },
+  {
+   "id": "f3_h3_line_star_moment_identity",
+   "title": "H3 non-swap collisions are a directed quotient-line chord moment",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/f3_h3_line_star_moment_identity/statement.md",
+    "background/nodes/f3_h3_line_star_moment_identity/proof.md",
+    "background/nodes/f3_h3_line_star_moment_identity/symbolic_search_result.md",
+    "background/nodes/f3_h3_line_star_moment_identity/classical_collinearity_no_go.md",
+    "experiments/prize_resolution/h3_collinearity_embedding_search.py",
+    "background/nodes/f3_h3_line_star_moment_identity/verify.py"
+   ],
+   "statement": "Put C_m={a in A:ma in A}, so |C_m|=R(m). The exact non-swap collision multiplicity Q(t)=P(t)(P(t)-2)+D(t) equals the number of triples (m,a,a') with m!=1, a!=a', a,a' in C_m, and m*a*a'=t. Hence S_ns=sum_{m!=1}sum_{a!=a' in C_m,maa'!=1}R(maa'), while S_ns^rich restricts the inner sum to P(maa')>=19. This is a proved bijection and re-poses C36' as a directed source-line/target-line correlation; it does not assert the open 1200n^2 rich-moment bound. Two complete symbolic fences reject an automatic non-base target in the natural Laurent-monomial ansatz and every direct coordinate-permutation embedding of the six subgroup variables into one classical collinear-triple equation."
+  },
+  {
+   "id": "xr_generic_mds_kernel_ray_bound",
+   "title": "Generic MDS residual charts have a field-independent ray bound",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_generic_mds_kernel_ray_bound/statement.md",
+    "background/nodes/xr_generic_mds_kernel_ray_bound/proof.md",
+    "background/nodes/xr_generic_mds_kernel_ray_bound/result.md",
+    "background/nodes/xr_generic_mds_kernel_ray_bound/verify.py"
+   ],
+   "statement": "Let an MDS parity-check restriction on U have rank R, |U|=R+d, and let h>=1, r=R-h. For a syndrome line with no common r-sparse support for both endpoints, if every slope in Z has an r-sparse lift supported in U, then |Z| C(d+h,d) <= C(R+d,d)R. Proof: the MDS kernel restricts bijectively to every d-set T; after cancelling T, genericity leaves fewer than h persistent zeros, so every sparse slope and every T in its zero set supplies a nonpersistent affine zero, and each (T,x) receives at most one slope. This is a fixed-chart ray theorem, not an aggregate atlas."
+  },
+  {
+   "id": "xr_direction_distance_ray_bound",
+   "title": "High-direction-distance residual charts have at most N squared rays",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_direction_distance_ray_bound/statement.md",
+    "background/nodes/xr_direction_distance_ray_bound/proof.md",
+    "background/nodes/xr_direction_distance_ray_bound/result.md",
+    "background/nodes/xr_direction_distance_ray_bound/verify.py"
+   ],
+   "statement": "Let H_U:F^U->F^R have kernel K, put N=|U|, and let d_U(y1) be the minimum weight of a lift of the nonzero syndrome direction y1. If every slope in Z on y0+gamma y1 has a lift of weight at most t in U and (N-t)^2>N(N-d_U(y1)), then |Z|<=floor(N(d_U(y1)-t)/((N-t)^2-N(N-d_U(y1))))<=N^2. Proof: the selected slopes give distinct words of K+<b1> inside one radius-t Hamming ball; agreement-set second moments pay them. Failure of the inequality gives an explicit sparse-direction lift and is the exact complementary branch. This is a fixed-chart theorem and does not aggregate charts."
   }
  ],
  "edges": [
@@ -10648,6 +10686,26 @@
   {
    "from": "petal_descent_classification_bridge",
    "to": "petal_g1_k4_scale_reserve",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_generic_mds_kernel_ray_bound",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_direction_distance_ray_bound",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_direction_distance_ray_bound",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_line_star_moment_identity",
+   "to": "f3_h3_mobius_excess_half",
    "kind": "ev"
   }
  ]
