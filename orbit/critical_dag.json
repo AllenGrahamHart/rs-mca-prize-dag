@@ -738,7 +738,7 @@
   },
   {
    "id": "imgfib",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "L1: #ImgFib_U <= n^B above reserve (image fibers)"
   },
   {
@@ -933,7 +933,7 @@
   },
   {
    "id": "petal_growth",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "FLOOR CONJECTURE (PETAL-ESCAPE-BUDGET): top-band full-petal contribution to #ImgFib_U fits n^B at official rows"
   },
   {
