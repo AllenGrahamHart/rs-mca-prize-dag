@@ -1232,3 +1232,27 @@ survives this refutation untouched). No rate-half implication
 (the family cannot agree beyond k'+1 — scope note banked).
 Board: reds 10 (successor red out as REFUTED, gate red back in,
 SUCCESSOR-A ev-only pending its first audit).
+
+## 48 — 2026-07-13: SUCCESSOR-A survives its first attack WITH
+## STRUCTURE (catches #128-#132); route re-posed M=2 + K_2-invariance
+
+Falsification-first paid again, in the good direction this time:
+neither falsifier clause fired (~85 cells, ~100k members, dual
+enumeration methods exact-matching, battery mutation-proven), and
+the attack RETURNED the proof ingredients — the structure theorem
+(#132: chart words factor exactly onto quotient chart words;
+retained-zero descends automatically; band <=> band) and P3
+uniqueness (#128: at most ONE member per descended band chart, a
+two-line degree argument — m'+1 safe by factor m'+1). The one
+mechanism gap (#130: petals->petals fails at M > ell, planted
+exhibits) has a clean fix: scale-M supports are K_2-invariant, so
+the M=2 descent prices ALL dyadic scales — node re-posed
+accordingly. #129: the tail-collapse consumption must use reading
+A (core'' = Z' union {y_nf}) — the natural reading violates the
+proved hypothesis verbatim. #131: the W_tau fiber-rich mass IS
+inside chart words but at 100% multiplicity-1 — the burden moves
+to G1's atlas exhaustiveness, now QUANTIFIED (~4e4 charts/word at
+fiber-rich cells). The petal endgame is now: ONE proof packet
+(structure theorem + uniqueness, both arguments already sketched)
++ G1's atlas supply. NEXT: the packet (algebraic, user-priority),
+then wave-5 (Codex's ray bounds).
