@@ -897,11 +897,6 @@
    "title": "Periodic strata C(n/M, j/M); exchange-independent; coset recursion"
   },
   {
-   "id": "petal_chart_carrying_descent",
-   "label": "CONDITIONAL",
-   "title": ""
-  },
-  {
    "id": "petal_full_touched_set_injection",
    "label": "PROVED",
    "title": "A full-petal chart injects into its touched-petal index sets"
@@ -953,7 +948,7 @@
   },
   {
    "id": "petal_small_scale_staircase_census",
-   "label": "CONDITIONAL",
+   "label": "UNPROVED",
    "title": ""
   },
   {
@@ -2436,14 +2431,6 @@
   {
    "from": "petal_top_band_tail_collapse",
    "to": "petal_k4_primitive_bound"
-  },
-  {
-   "from": "petal_chart_carrying_descent",
-   "to": "petal_small_scale_staircase_census"
-  },
-  {
-   "from": "petal_g1_layer_maps",
-   "to": "petal_chart_carrying_descent"
   }
  ]
 }
