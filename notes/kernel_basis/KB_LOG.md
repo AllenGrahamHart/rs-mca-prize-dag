@@ -1273,3 +1273,28 @@ halves the band (top band exactly {k+2, k+4}; odd-|S| auto-
 aperiodic) — SUCCESSOR-A's scope is exact. If the audit passes:
 SUCCESSOR-A becomes a proved compiler and the WHOLE petal family
 (gate included) rides on G1's atlas supply alone. Audit launched.
+
+## 50 — 2026-07-13: SUCCESSOR-A AUDITED SOUND -> CONDITIONAL; the
+## census gate RE-PROMOTED; the petal family is ONE RED
+## (catches #136-#137)
+
+The csp packet cleared the full import bar (every step re-derived
+by hand; the no-merging index map, margin-1 bookkeeping, #133
+use-site audit, and #124 non-implication all explicitly verified;
+4 fresh cells, 7 mutations). CATCH #136: Claim 3-C's true
+consumption map excludes the tail-collapse chain (it feeds only
+the m'+1 fallback) — annotated. CATCH #137 (hardening, important):
+the #133 normalization drift is ANNIHILATING — layer-normalized
+labels EMPTY the descended census, so a wrong-normalization
+consumer passes vacuously; nonemptiness assertions are now
+mandatory at every consumer. SURGERY: SUCCESSOR-A -> CONDITIONAL
+on the exact wired G1-coverage hypothesis (by S2, u1 is itself a
+concrete sunflower chart word — G1's quotient-closed clause, not
+a new demand); the census gate -> CONDITIONAL riding it (one
+K_2-invariant count prices every dyadic scale at once; band
+exactly {k+2, k+4}; m'+1 fallback; aperiodic bucket with the
+PROVED K4). THE PETAL FAMILY — a retracted untouchable floor nine
+days ago — IS NOW ONE OPEN RED: the G1 atlas supply, with a
+quantified demand, an exact structure theorem behind it, and
+every other petal object proved or conditional at audit grade.
+Surface reds: 9.

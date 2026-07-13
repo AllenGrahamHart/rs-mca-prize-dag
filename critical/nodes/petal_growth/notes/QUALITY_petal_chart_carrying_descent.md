@@ -15,3 +15,9 @@ factor of m'+1), the M>ell mechanism refutation + clean re-pose (#130),
 the reading-A pin (#129), the quantified G1 cost transfer (#131).
 QUEUED: the structure-theorem + uniqueness proof packet (algebraic —
 short, the arguments are already sketched); n >= 128 volumes; sigma > 1.
+
+## AUDITED -> CONDITIONAL (2026-07-13)
+
+PACKET-SOUND at the full import bar. Claims 1/2/L0 PROVED; the node is
+now amber on the single G1-coverage hypothesis (G1's own quotient-closed
+clause). Certificate transfers its open risk entirely to G1-atlas.

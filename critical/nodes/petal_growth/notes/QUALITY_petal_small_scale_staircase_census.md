@@ -61,3 +61,9 @@ exactly the truth boundary). This certificate records the program's first
 fired falsifier: a Q-SUFF-certified red killed by honest proof-attempt,
 exactly as the charter intended ("T-KILL: decisive information, better for
 knowledge").
+
+## RE-PROMOTED (2026-07-13): riding the audited SUCCESSOR-A
+
+One count prices all dyadic scales (L0); band exactly {k+2, k+4} (#135);
+m'+1 fallback; aperiodic bucket with the proved K4. The gate's open risk
+is now exactly G1 coverage — the petal family is ONE red.
