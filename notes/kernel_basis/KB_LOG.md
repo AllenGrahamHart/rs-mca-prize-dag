@@ -1097,3 +1097,25 @@ everywhere). #110: deep-regime window unconsumable (my own
 brief's tiling sketch was wrong on BOTH ends — banked honestly).
 NEXT: fresh-context packet audit (queued, single agent), then the
 gate/K4 unified-lemma surgery.
+
+## 44 — 2026-07-13: THE COMPUTE LAW (after WSL OOM root-cause);
+## tools/modal_run_script.py; catch #112
+
+Root cause of all three crashes (user's kern.log analysis): three
+LOCAL python processes at 6.4-7.1 GiB RSS on a 7.5 GiB WSL box —
+the unguarded M1 validator first run, then the packet-audit
+script qra_audit.py TWICE (it violated its own <300MB brief). NEW
+LAW (user directive): ALL compute tasks launch to Modal; if Modal
+cannot host a task, it does not run. Local execution is reserved
+for trivial file/text operations only. TOOLING:
+tools/modal_run_script.py — a generic content-shipping script
+runner (no mounts, version-proof; 2 CPU / 16GiB / 280s ceiling;
+numpy+sympy; returns stdout/stderr/exit/peak-RSS). PROVEN
+END-TO-END: the qrl packet verifier replays on Modal from the
+banked location (ALL CHECKS PASS, mutations fire, 55MB peak).
+CATCH #112 (found by the migration itself): the banked
+qrl_verify.py hardcoded the author's scratchpad + absolute notes
+paths — unreplayable from the repo (the #90 replayability shape,
+FOURTH instance incl. #59) — repaired to relative/shipped-flat
+form. Machine baseline recorded: ~1.6GiB used (claude + restarted
+Codex + VS Code), ~5.8GiB headroom, swap clear.
