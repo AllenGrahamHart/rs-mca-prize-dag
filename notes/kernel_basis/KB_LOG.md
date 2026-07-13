@@ -1488,3 +1488,22 @@ NEXT: the m4 packet audit (house law), then the #162 edit + the
 amber surgery — at which point dli goes amber the moment the
 maintainer speaks the M5 sentence (exact text in
 m4_amber_statement_draft.md).
+
+## 60 — 2026-07-13: m4 AUDITED SOUND-WITH-REPAIRS (catches #165-#167)
+## — one blocking fix, then dli's amber executes from the draft
+
+24-row link-by-link: arithmetic exact (80.156768 bits, slack
+19.84), gates non-vacuous (shadow-repo tampers, live repo
+hash-proven untouched), 9+2 mutations trip for the right reasons,
+#162 deletion + M5 flip validated both directions, #164 confirmed
+(1.554). CATCH #165 (BLOCKING): the item-5 reserve-credit path is
+FAIL-OPEN — an honest all-bulk certificate + reserve_credits
+ACCEPTs at a false threshold (inherited from eex_verify's A5,
+which only tested double-charge); repair = tether credits to
+coset/accident-owned mass + MUT-8 + re-bank the run. #166
+(latent): countersign-gate hardening owed at promotion. #167:
+re-bank the transcript across the #162 edit. NEXT SESSION: apply
+R1 -> re-run -> execute the amber surgery from
+m4_amber_statement_draft.md (primary path: statement addendum,
+node stays TARGET — house-law-clean, confirmed) -> dli goes amber
+on the user's M5 file. The session's 20th and final cycle.
