@@ -32,3 +32,19 @@ re-derived assembly (import audit link 15). Q-SURV: prior record stands
 (the 2.417x layout-sup datum + 24/24 census); the queued wider cell sweep
 now targets the DIRECT form's falsifier: an official-convention cell at
 min-branch allowance with N_chal > B_chal.
+
+## AGGREGATE ALLOCATION REPAIR (2026-07-12)
+
+The sup quantifier remains per received word. The binding payment is now the
+sum of disjoint first-match challenger counts against one row residual, or
+equivalently cell allocations whose sum fits that residual. The former demand
+that every cell separately fit the whole residual had no composition theorem.
+Q-SUFF is restored by the explicit allocation law; no averaging is admitted.
+
+## PAID/RESIDUAL OWNERSHIP REPAIR (2026-07-12)
+
+The paid columns now precede residual challenger cells in one binding
+first-match order. This prevents the asserted E15/quotient-staircase class from
+being subtracted in `P_paid` and charged again to `B_chal`. A closing
+certificate must emit and verify this ownership map. The full-scope
+E15/staircase identification remains unproved and is not consumed as a close.

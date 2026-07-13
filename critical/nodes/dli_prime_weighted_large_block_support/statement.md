@@ -41,3 +41,10 @@ zero-fiber counts:
 Thus the strengthened pointwise premise is false, while the weighted/large-active
 obligation survived this bounded probe.  This remains evidence only; the node is
 still `TARGET`.
+
+## Head repair (2026-07-13, wave-4; single-source with the dag statement)
+
+The operative endpoint is **q^{-t+H} * W_cen <= 2^121** (catch #40's
+complement-duality re-pin, propagated to this file at wave-4; the dag
+statement head and REPOSE addendum agree; maintainer one-liner M5 still
+owed).

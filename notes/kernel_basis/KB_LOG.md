@@ -1150,3 +1150,45 @@ successor + K4 are ONE lemma in two costumes. Board: reds 11 (gate
 amber <-> successor red swap); the successor is the sharpest red
 yet minted (single cell a = k'+1 per pair under P1-OWN, proven
 strength pin, conjectural true size O(n'^2) vs budget n'^6).
+
+## 46 — 2026-07-13: WAVE-4 banked — K4 CLOSED (second red retired by
+## proof); dli reaches M1+M2+M3; W3's R1 repaired; the census
+## rewiring REFUSED (catches #116-#123)
+
+THE HEADLINE: petal_k4_primitive_bound -> PROVED at the chart
+level (Codex 05d516b: retained-zero -> CRT touched-set injection
+-> EXACT tail collapse Sigma C(m,t) = m+1; audited link-by-link,
+row-agnostic, 4 verifiers + live mutations) — landed as a PACKAGE
+with G1's weighted-atlas re-pose (catch #117: either alone breaks
+the ledger; together 121/126 < 1 exact). Petal amber now
+{G1-atlas, successor} + compilers.
+
+REFUSED: the census-gate "conditional only on G1" rewiring (catch
+#116 — rests on an asserted, nowhere-proved descent-classification
+lemma contradicting its own guard sentence). The lemma is minted
+as the honest bridge red; scale_reserve re-posed CONDITIONAL on
+{G1, bridge} as the ev-wired ALTERNATE; master's successor-red
+route stands. #118: v3's census/petal edits were stale-based
+(pre-unified-lemma) — adapted, never overwritten.
+
+W3: the aggregate ALLOCATION LAW imported as R1' — CATCH #119
+(against master, audit-verified): the banked per-cell R1 form did
+NOT compose (>1 nonempty cell breaks the amber implication); the
+branch's cellwise allocation law is the consumer-exact repair and
+SATISFIES all posted #94 re-landing conditions. #120: custody
+(append, not replace).
+
+DLI: M2 BANKED (C1' level-scaled w_max(L) = L+5; genuinely
+pre-registered out-of-sample round — pose 00:09 < bank 00:19;
+numerics independently re-verified on Modal, both sample rows
+EXACT, 10 deferred with expectations) + M3 POSED (ENDPOINT-EXC as
+universal per-row certificate coverage; assumptions honestly
+rejected) + the 2^121 head repair (master's head was internally
+inconsistent with its own #40 re-pin). F-round state: C2'' 1,
+C1' 1, ENDPOINT-EXC 0. #121: the branch's in-place REPOSE
+mutations refused (custody). Also: RAW-NG pose (clean, stronger-
+sufficient, guards respected), cutoff-18 retrofit (exact), #122
+the branch CLOBBERED roadmap addendum r1 (hunks applied onto
+master's copy instead), #123 master's harness proof.md recorded
+PASS=96 vs the 104-manifest — fresh full run + Modal re-pin
+executed with this banking (now 117+ verifiers).

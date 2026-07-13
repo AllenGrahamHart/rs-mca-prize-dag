@@ -1,9 +1,9 @@
 # Attack surface
 
-The target is a truncated correlation estimate. Decompose
+The target is a truncated correlation estimate. One may decompose
 
 ```text
-X_35=sum_(j>=0) sum_(2^j*35 < P <= 2^(j+1)*35) (P-35)R
+X_18=sum_(j>=0) sum_(18+2^j <= P < 18+2^(j+1)) (P-18)R
 ```
 
 and seek a constants-explicit bound for the simultaneous rich-product and
@@ -18,7 +18,7 @@ Candidate mechanisms:
 2. retain the oriented phases in the exact multiplicative-character sum;
 3. classify only parameters for which both `P` and `R` are rich.
 
-The exact falsifier is an official row with `X_35>n^2/2`. Partial computation
+The exact falsifier is an official row with `17X_18>300n^2`. Partial computation
 must return a rigorous lower bound before it can falsify.
 
 ## Preferred moment reduction
@@ -28,7 +28,7 @@ product representations exactly.  It reduces this leaf to the sufficient
 estimate
 
 ```text
-sum_(t!=1) [P(t)(P(t)-2)+D(t)]R(t) <= 68n^2,
+sum_(t!=1) [P(t)(P(t)-2)+D(t)]R(t) <= 1200n^2,
 ```
 
 where `D(t)=#{a in A:a^2=t}`.  Equivalently, bound quadruples
@@ -41,9 +41,28 @@ lambda != 1, lambda != b/a, ab != 1.
 
 This is preferable to the older `FM69` target because it deletes the
 unavoidable swap family, observed to contribute `0.990925729n^2` at the
-boundary row.  A generic six-variable incidence estimate with a logarithmic
-loss still does not close the leaf; the needed task is a constants-explicit
+boundary row. An unspecified six-variable incidence estimate with a logarithmic
+loss does not close the leaf; the needed task is a constants-explicit
 bound for this four-variable constrained system.
+
+## Cheap paired sufficient condition
+
+The pointwise implication
+
+```text
+P(t)>=19 and R(t)>0  =>  R(t)<=17
+```
+
+would already close the leaf, because
+
+```text
+X_18 <= 17 sum_t P(t) < 17n^2,
+17X_18 < 289n^2 < 300n^2.
+```
+
+This is an attack criterion, not a new premise. It asks only for exclusion of
+the simultaneous rich rectangle `P>=19, R>=18`, but it remains a pointwise
+constant-intersection statement and is not supplied by the audited literature.
 
 ## Paired PGL2 route
 
@@ -71,7 +90,7 @@ PGL2 intersections sharing the same parameter. Boundary measurements give
 A wider bounded sweep (`ap-bHp1Epb9jC5BdW4xeXfB7l`) exhaustively checked
 7,090 admissible rows at powers of two `64<=n<=4096`. The largest paired score
 was `I_inv+2I_aff=34`, no row had `X_35>0`, and the largest non-swap moment was
-`3.824218750n^2`, against the sufficient `68n^2` target. The global paired
+`3.824218750n^2`, against the sufficient `1200n^2` target. The global paired
 extremizer has nine unordered product pairs and seven quotient pairs rather
 than the earlier one-pair telescoping pattern. This keeps the pointwise route
 alive but selects the aggregate moment as the primary analytic target. Exact

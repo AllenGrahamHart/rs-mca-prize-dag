@@ -30,3 +30,12 @@ falsifiers pinned; the degenerate one-chart-per-codeword atlas forbidden;
 F4 scans honestly downgraded (they do not test arbitrary-word coverage).
 Q-SURV queued run updates to: atlas-coverage search at sweep cells against
 the four pinned falsifiers.
+## WEIGHTED-ATLAS RE-POSE (2026-07-13, wave-4)
+
+G1 re-posed to the weighted form (sum over charts of (m_chi + 1) <=
+(121/128) n^6) — preserves first-match coverage, the #107 retained-zero
+pin, and P1; arithmetic exact. The atlas SUPPLY remains the open content
+(source-stalled frontier honestly pinned). Q-SURV queued run unchanged
+(atlas-coverage search vs the four falsifiers). Deferred check on record:
+the n' >= 256 floor's t <= t*(row) link is uncited (provenance exists in
+xr_radius_arithmetic; the link needs one line).

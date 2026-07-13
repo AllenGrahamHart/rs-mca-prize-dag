@@ -727,3 +727,15 @@ user.
    master runs the audit gate (every import cluster-audited at a pinned
    SHA — KB #32-#35 pattern), the falsification track (red-quality
    Q-SURV lanes), and upstream mining. One-writer on master unchanged.
+
+
+## Master addendum r2 (2026-07-13, wave-4)
+
+Section 2.2 update: K4 is CLOSED at the chart level (wave-4 package with
+the weighted G1 atlas; KB #46). The petal family's open leaves are the
+G1 atlas supply and the unified row-level sub-Johnson successor
+(quotient_row_subjohnson_bound — also the census gate's lemma). Section
+2.1 update: dli holds M1+M2 survived rounds and the M3 posing; W3 carries
+the aggregate allocation law (R1'). The e0a2aa7 arity-scope
+reconciliation is accurate and incorporated; note the branch copy of this
+file lost addendum r1 (catch #122) — master's copy is authoritative.

@@ -1,6 +1,6 @@
 # QUALITY CERTIFICATE (red-quality program, charter r2, 2026-07-10)
 
-## Red: f3_hge4_aggregate_budget (HGE4-14)
+## Red: f3_hge4_norm_gate_count (NG-COUNT)
 
 Q-SUFF: slot Sigma_{h>=4} of the U16 amber — the aggregate 14n^3 reservation
 composes 0+1+1+14 = 16 exactly (F-3 compliant, no double-spend; mutation
@@ -51,3 +51,18 @@ U2/DLI strips have no in-repo operational analog (3/5 implementable);
 kill-claims must define them first. HGE4 is now CONDITIONAL on the minted
 NG-COUNT red (route 3, dichotomy bridge); this certificate transfers to
 QUALITY_f3_hge4_norm_gate_count as its Q-SURV seed.
+
+## STRIP-FREE SUFFICIENT TARGET
+
+Let `N_h^raw` count all F-4-minimal, non-full-fiber x83 norm-gate records in
+the target record convention before quotient, dihedral, moment-trade, U2, and
+DLI/skew deletion. Every fully stripped record is raw, hence
+
+```text
+sum_h N_h^strip <= sum_h N_h^raw.
+```
+
+Therefore `sum_h N_h^raw<=14n^3` is a stronger, fully posed sufficient target
+that does not require operational definitions for U2 or DLI/skew. The banked
+official census has raw non-toral count zero in every scanned cell; the only
+nonzero raw cell is the deliberately sub-threshold control `(n,p)=(16,17)`.
