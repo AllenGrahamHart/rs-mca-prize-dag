@@ -1786,3 +1786,23 @@ in wz_findings.md. F-round state of the dli decomposition leaves:
 C1' 1 round, WCL-ZONE 1 round, C2'' 1 round — the full non-circular
 decomposition now has one survived round per leaf. ROUND-2 DESIGN
 (queued): odd-n' cells + the family-B trend + the dedup spec.
+
+## 69 — 2026-07-13: UPSTREAM + CODEX RECONNAISSANCE (wave-7 scoping)
+
+Upstream (przchojecki/rs-mca): main is EXACTLY our crosswalk pin
+9262f63c — nothing new to import. Open PRs #742-#746 are
+third-party leads (not dependencies until merged + independently
+audited, per roadmap rule): #745 (selected-owner unit-layer
+equivalence + dense-band guardrail) and #744 (all-LineRay exact-
+weight pair counts) are TOPICAL to our xr P-A/P-B residuals — WATCH
+for merges. Codex post-7e4be37f: three commits (52785f27 repair
+DLI tower scope + fence terminal witnesses; 26728703 exclude
+official terminal weight-THREE relations; 8c21b434 exclude official
+terminal weight-FOUR relations) — CONVERGENT with our #190
+(WCL-ZONE at L <= 12 IS ledger emptiness): low-weight exclusion
+theorems at official levels are exactly the emptiness content.
+WAVE-7 AUDIT (queued, after the batch stabilizes): check whether
+Codex's exclusions + #190 close WCL-ZONE outright at low levels;
+also re-audit its tower-scope repair against the wz round-1
+normalizations (#191 dedup spec relevant). WCL-ZONE round 2 in
+flight (wz2_ prefix, self-contained).
