@@ -766,3 +766,25 @@ near-capacity/corridor rows, `rate_half_band_closure` fixes a different
 roughly 256-bit razor row and also contains an ordinary-list obligation, and
 the quadratic theorem makes no list claim. The DAG records an evidence edge
 to `mca_grand`, with all critical leaves unchanged.
+
+## Integration note r7 (2026-07-13, wave-7: the WCL-ZONE ladder;
+## consolidates the branch's r11-r17 + schedule note per w7-C7
+## renumbering)
+
+Eight Codex commits audited at pin 554144a3 and imported with repairs:
+the raw-ledger interface guardrail (decision 4(a) settled by theorem —
+C1' consumes the RAW primitive ledger; catch #198 was a misapplied
+ledger), the schedule correction r2 (w7-C1: production dims are the
+dyadic tower (2^32,...,2,1,1), t = 2^33 — not N_L = 256L), the
+terminal weight-3/weight-4 ambient exclusion censuses (no q < 2^256
+with v_2(q-1) >= 41 divides any weight-3/4 cyclotomic norm on 256
+exponents), the weight-5 first-64-primes MITM probe (w7-C4 scope
+sentence added), the ell-2 weight-3 census + weight-4 Newton
+exclusion, and the NEWTON SHORT-WINDOW CUTOFF THEOREM (w <= 2ell
+impossible, sharp at 2ell+1, field-uniform) which closes every window
+at ell >= 8 — 30 of 34 production levels outright. Maintainer
+ratifications 4(a)/(b)/(c) recorded 2026-07-13. NET: WCL-ZONE is now
+EQUIVALENT to six finite zero-event emptiness slots (ell,w) =
+(1,5),(1,6),(2,5),(2,6),(2,7),(4,9), all q-dependent (the A1-PROD
+density-vs-row gap). Full record: notes/kernel_basis/
+WAVE7_AUDIT_FINDINGS.md.

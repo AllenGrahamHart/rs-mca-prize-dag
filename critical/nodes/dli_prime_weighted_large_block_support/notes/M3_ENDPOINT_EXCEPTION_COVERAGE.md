@@ -133,3 +133,29 @@ independent 21-bit joint reserve. The corrected M3 contains no C1'
 assertion, C2'' assertion, final endpoint check, residual certificate,
 or reserve credit. No repository asset proves WCL-ZONE-COVERAGE on
 every official level; A1-PROD proves only a density bound.
+
+### CORRIGENDUM to the corrected pose (2026-07-13, wave-7 w7-C1/w7-C2,
+### maintainer-ratified decision 4; per #155 the text above is
+### annotated, not rewritten)
+
+Two displays in the "M3 CORRECTED POSE" section above are superseded:
+
+1. **Schedule (w7-C1, catch #205):** `N_L = 256L, L = 1,...,34`
+   conflated level index with level dimension. The production tower of
+   record is `t = 2^33`, `j = 0..33`,
+   `ell_j = ceil(floor(t/2^j)/2)`, `N_j = 256*ell_j`, dims
+   `(2^32,...,2,1,1)` summing to `t` (the banked skew-tower packet, S6,
+   and C2''s `Sigma_j L_j = t` pin this; the linear reading sums to 595
+   and contradicts it). The window and assembly formulas hold verbatim
+   with `(R,j)` in place of `(R,L)` and `r_j = q^{ell_j}/2^{256 ell_j}`.
+2. **Ledger (w7-C2, catch #206; maintainer ruling 4a):** the phrase
+   "first-owner de-duplication of multiplier shadows and level lifts"
+   is STRUCK — `W_cl` is the RAW primitive signed-shift ledger (no
+   deletion; shadows/lifts classify but their primitive mass is priced
+   at its own level and weight), matching the C1' pose of record and
+   `dli_wcl_raw_ledger_interface_guardrail`. The wz2 dedup module
+   remains an analogue-census bookkeeping device (ruling 4b).
+
+Post-wave-7 state: WCL-ZONE is equivalent to six emptiness slots
+(ell,w) = (1,5),(1,6),(2,5),(2,6),(2,7),(4,9) — see the wcl node's
+official_terminal_attack.md.

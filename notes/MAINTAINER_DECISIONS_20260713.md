@@ -148,3 +148,29 @@ w <= 2ell theorem = 30 of 34 levels outright; terminal weight-3/4
 exclusions; ell-2 census/Newton). All six slots are q-dependent
 (the A1-PROD density-vs-row gap). Full import surgery spec:
 notes/kernel_basis/WAVE7_AUDIT_FINDINGS.md.
+
+---
+
+## DECISION 4 — RATIFIED (maintainer, in-session, 2026-07-13: "ok I
+## ratify it!")
+
+MAINTAINER RULING (4a): W_cl in WCL-ZONE and in the C1' allowance is
+the RAW primitive signed-shift ledger (no first-owner deletion); the
+dedup phrase in the M3 corrected pose is struck per w7-C2; wz2-C1 is
+recorded as a misapplied-ledger finding; the baseline assembly is
+re-armed as written. Pre-registered reversal: a future theorem
+re-charging deleted mass to owners may re-introduce a dedup ledger as
+a COMPUTATIONAL DEVICE with an explicit W_raw <= f(W_dedup) bridge;
+absent that theorem the raw reading stands.
+
+MAINTAINER RULING (4b): the RATIFY-1..8 defaults are ratified as
+ANALOGUE-CENSUS bookkeeping conventions (what wz2's module implements,
+12/12 conformance); RATIFY-4 and RATIFY-6 are explicitly
+non-load-bearing for official certificates under ruling (4a).
+
+MAINTAINER RATIFICATION (4c / w7-C1): the production tower of record
+is t = 2^33, ell_j = ceil(floor(t/2^j)/2), dims (2^32,...,2,1,1); the
+N_L = 256L displays are superseded (pose revision r2 of
+dli_wcl_zone_coverage and dli_marginal_baseline100_coverage). The
+F-round records stand as analogue-scale evidence; #190's arithmetic
+is schedule-free and its instantiation is annotated, not changed.

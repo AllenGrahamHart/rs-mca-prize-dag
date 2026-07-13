@@ -1927,3 +1927,34 @@ primes (engineered witness); (1,5) has first-64-primes MITM
 survival evidence. Import execution + decision-4 ratification =
 next; post-pin 77485270 (boundary divisor elimination fence) =
 wave-8 queue.
+
+## 74 — 2026-07-13: DECISION 4 RATIFIED + WAVE-7 IMPORT EXECUTED —
+## WCL-ZONE IS NOW SIX FINITE SLOTS ON MASTER
+
+The maintainer ratified 4(a)/(b)/(c) in-session ("ok I ratify it!";
+rulings recorded verbatim in MAINTAINER_DECISIONS_20260713.md). The
+full wave-7 surgery spec then ran green: NINE new PROVED background
+nodes (scope guardrail, engineered terminal scope, terminal w3/w4
+ambient exclusions, w5 first-64 MITM probe [w7-C4 sentence added],
+raw-ledger interface guardrail [w7-C5 retarget: wcl pin ->
+background path + whitespace-normalized phrase pins, dyadic_k_core
+pin -> the C1PRIME pose file], ell-2 w3 census, ell-2 w4 Newton,
+NEWTON SHORT-WINDOW CUTOFF [w7-C6 tuple fix]) + 17 experiments
+assets + 9 ev edges into the wcl TARGET. Statement custody per
+w7-C3: wcl dag + node statement/attack got DATED ADDENDA (F-ROUND
+blocks untouched); official_terminal_attack.md imported verbatim as
+the residual bookkeeping of record; baseline node re-armed (the
+#198 caveat RESOLVED by ruling 4a, schedule r2 recorded, corrected
+derivation appended to conditional.md, pending_amber_verify swapped
+to the tower-pinned v2 KEEPING parked status); M3 corrected pose
+CORRIGENDUM sub-block (schedule + ledger strike-annotations per
+#155); m3 contract verifier confirmed no-op green. All ELEVEN new
+verifier scripts replayed green locally (incl. both weight-4 and
+both ell2-w3 verifiers; the raw guardrail after retarget). Manifest
+rebuilt via --refresh-manifest: 135 scripts / 8 remote launchers /
+239 assets, diff purely additive; harness PASS; validator green.
+Roadmap r7 consolidated note (w7-C7 renumber). Catches #205-#211 =
+w7-C1..C7 banked. THE WCL RESIDUAL OF RECORD: six zero-event
+emptiness slots (1,5),(1,6),(2,5),(2,6),(2,7),(4,9) — master's
+sharpest-ever form of the dli coverage leaf. Wave-8 queue opens at
+77485270 (boundary divisor elimination fence). Modal re-pin next.

@@ -32,3 +32,12 @@ This assembly contains no cross-level joint-correlation claim. The separate
 `dli_c2pp_joint_reserve` predicate supplies the 21-bit C2'' reserve. It also
 contains no endpoint certificate, reserve credit, residual certificate, or
 typical-prime assumption.
+
+## SCHEDULE r2 + LEDGER RESOLUTION (2026-07-13, w7, maintainer-ratified)
+
+Dimensions ell_j = (2^32,...,2,1,1) (not 1..34; the proof uses only the
+34-factor count and r_j = q^{ell_j}/2^{256 ell_j} < 1). Under the
+maintainer's decision-4 ruling both premises read the RAW ledger W_raw;
+the #198 caveat is RESOLVED (the dedup ledger was never C1''s object;
+the banked raw K' = 0.246909432 stands) and the assembly is re-armed as
+written with W_cl := W_raw.

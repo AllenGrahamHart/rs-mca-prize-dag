@@ -1,6 +1,7 @@
-# PARKED PENDING AMBER (w6-C10, 2026-07-13): becomes this node's
-# verify.py VERBATIM at the maintainer's amber ceremony; its
-# structural checks expect the amber wiring (req edges + status).
+# PARKED PENDING AMBER (w6-C10; v2 swap at wave-7 import, w7-C1:
+# tower-pinned dims + 13 mutations — the v1 pinned the WRONG
+# schedule). Becomes this node's verify.py VERBATIM at the
+# maintainer's amber ceremony.
 #!/usr/bin/env python3
 """Exact fail-closed audit of the 100-bit DLI marginal assembly."""
 
@@ -15,6 +16,8 @@ ROOT = Path(__file__).resolve().parents[3]
 TARGET = "dli_marginal_baseline100_coverage"
 C1 = "dli_dyadic_k_core"
 ZONE = "dli_wcl_zone_coverage"
+TOWER_T = 2**33
+TOWER_DIMENSIONS = [2 ** (32 - j) for j in range(33)] + [1]
 
 
 class Reject(ValueError):
@@ -51,6 +54,8 @@ def compile_baseline(payload: object) -> Fraction:
         "zone_rows",
         "predicate_ids",
         "levels",
+        "tower_t",
+        "level_dimensions",
         "k_prime",
         "tau",
         "field_bits_strict",
@@ -59,7 +64,7 @@ def compile_baseline(payload: object) -> Fraction:
     }
     if not isinstance(payload, dict) or set(payload) != required:
         raise Reject("schema keys do not match")
-    if payload["schema"] != "dli-baseline100-assembly-v1":
+    if payload["schema"] != "dli-baseline100-assembly-v2":
         raise Reject("schema mismatch")
     if payload["predicate_ids"] != [C1, ZONE]:
         raise Reject("predicate identity/order mismatch")
@@ -71,7 +76,17 @@ def compile_baseline(payload: object) -> Fraction:
         raise Reject("W_cl zone coverage gap")
     if payload["levels"] != 34:
         raise Reject("production level count drift")
-    if payload["field_bits_strict"] != 256 or payload["N_rule"] != "N_L=256L":
+    if payload["tower_t"] != TOWER_T:
+        raise Reject("tower moment budget drift")
+    dimensions = payload["level_dimensions"]
+    if (
+        not isinstance(dimensions, list)
+        or any(not isinstance(value, int) or isinstance(value, bool) for value in dimensions)
+        or dimensions != TOWER_DIMENSIONS
+        or sum(dimensions) != TOWER_T
+    ):
+        raise Reject("tower dimension schedule drift")
+    if payload["field_bits_strict"] != 256 or payload["N_rule"] != "N_j=256*ell_j":
         raise Reject("balance pin drift")
 
     k_prime = exact_fraction(payload["k_prime"])
@@ -113,24 +128,28 @@ def main() -> None:
         "zone_target": nodes[ZONE]["status"] == "TARGET",
         "c1_req": (C1, TARGET, "req") in edges,
         "zone_req": (ZONE, TARGET, "req") in edges,
-        "factor_pin": "E_L <= 41/8" in proof,
+        "factor_pin": "E_j <= 41/8" in proof,
         "integer_pin": "41^34 < 2^202" in proof,
+        "schedule_pin": "ell_j = ceil(floor(t/2^j)/2)" in proof,
+        "dimension_sum_pin": "sum_j ell_j=t" in proof,
         "no_reserve_credit": "reserve credit" in proof,
     }
     if not all(structural.values()):
         raise AssertionError(structural)
 
     good = {
-        "schema": "dli-baseline100-assembly-v1",
+        "schema": "dli-baseline100-assembly-v2",
         "official_rows": ["official-row-A", "official-row-B"],
         "c1_rows": ["official-row-B", "official-row-A"],
         "zone_rows": ["official-row-A", "official-row-B"],
         "predicate_ids": [C1, ZONE],
         "levels": 34,
+        "tower_t": TOWER_T,
+        "level_dimensions": TOWER_DIMENSIONS,
         "k_prime": [4, 1],
         "tau": [1, 32],
         "field_bits_strict": 256,
-        "N_rule": "N_L=256L",
+        "N_rule": "N_j=256*ell_j",
         "baseline_endpoint": [2**100, 1],
     }
     aggregate = compile_baseline(good)
@@ -154,6 +173,8 @@ def main() -> None:
         lambda p: p.__setitem__("tau", 0.03125),
         lambda p: p.__setitem__("baseline_endpoint", [2**101, 1]),
         lambda p: p.__setitem__("predicate_ids", [ZONE, C1]),
+        lambda p: p.__setitem__("tower_t", 2**32),
+        lambda p: p["level_dimensions"].pop(),
     ):
         candidate = json.loads(json.dumps(good))
         mutate(candidate)
@@ -170,4 +191,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

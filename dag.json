@@ -5627,7 +5627,7 @@
    "id": "dli_wcl_zone_coverage",
    "title": "DLI primitive-ledger zone coverage: W_cl is at most 1/32 at every official production level",
    "status": "TARGET",
-   "statement": "At every official production row R, after generated-field normalization and first-owner de-duplication of multiplier shadows and level lifts, every level L=1,...,34 satisfies W_cl(R,L)<=1/32. Here W_cl is exactly the C1' primitive signed-shift orbit ledger sum 2N_L 2^(-w(O)) over primitive orbits with L+1<=w(O)<=L+5, and N_L=256L. A certificate must pin the row and generated field, prove the primitive ledger complete in that weight window, and prove ownership. Density bounds over primes and lists of merely exhibited relations are not coverage. No C1', C2'', residual near-peak bound, final endpoint, or reserve credit is part of this statement. || F-ROUND 1 SURVIVED (2026-07-13, pre-registered; packet at background/nodes/dli_wcl_zone_coverage/notes/wz_fround1_20260713/, 11 Modal apps, exact-rational verdict path; catches #190-#197 = wz-C1..C8): kill lines 1a (forced-structure saturation), 1b (recurring orbit family), 2 (scaling anomaly) did NOT trip across q <= 2^27, n' in {64,128}, L in {1,2}; 12/12 banked M2 cells reproduced EXACTLY on two engines; mutation + lift + shadow controls all trip. STRUCTURAL FINDING (#190/wz-C1): at official aspect N_L = 256L the minimum orbit mass is 16L/2^L > 1/32 iff L <= 12, so WCL-ZONE at L <= 12 is EQUIVALENT to ledger EMPTINESS in the window \u2014 the 1/32 threshold prices mass only at L >= 13. HONEST NEAR-MISS (#193/wz-C4, round-2 primary target): family B (L=2) shows monotone density ratio rho 1.62 -> 2.40 -> 4.65 across three scales (below the pre-registered 3-witness/4x compound kill but the only sustained trend observed). KNOWN GAPS: the pose's shadow/lift first-owner dedup has NO reference implementation and materially changes W_cl (observed 4 -> 1) \u2014 a canonical spec is owed before certificate work (#191/wz-C2); 2-power n' analogues cannot see the odd-n' forced-family channel \u2014 round 2 must add n' = 96/192 cells (#192/wz-C3), though pure odd subgroup-sum relations are PROVABLY excluded at every official level (d | 512L odd forces d | L vs survival forcing d > 2L-1). Evidence weight: analogue scales only; the official-row density-vs-row gap (the node's core difficulty) is untouched. || F-ROUND 2 SURVIVED (2026-07-13, pre-registered; packet at notes/wz2_fround2_20260713/, 14 Modal apps; catches #198-#204 = wz2-C1..C7): PART 1 \u2014 the round-1 family-B trend RESOLVED BENIGN (rho 1.615, 2.395, 4.648 then TURNOVER 3.62, 0.00 at the pre-registered extension scales; Poisson-consistent; escalate branch not triggered). PART 2 \u2014 odd-n' mixed channel clean: forced ledger = {orbit(Phi_n')} exactly at all 108 L=1 cells, absent at L >= 2 (2-3-norm exclusion, zero exceptions); PROVED LEMMA banked: no fixed integer vector is forced at any official level (upgrades round-1's pure-subgroup exclusion to the whole fixed-vector channel \u2014 official mixed-channel risk is q-dependent constructions only). PART 0 \u2014 the #191 dedup canonical spec DISCHARGED (implementation-grade, grounded in the banked M2 machinery; 12/12 conformance + mutation controls; round-1 and M2 values reproduced exactly) with EIGHT ratification points RATIFY-1..8 owed to the maintainer (two load-bearing: RATIFY-4 singular-source witness scope, RATIFY-6 lift admissibility gate). F-round state 2/2. MAJOR INTERFACE FINDING #198 (wz2-C1, blocks the downstream assembly AS WRITTEN): with the pose's own deduplicated ledger, C1' FAILS at the banked accident row (L=1, q=7937): W_cl 236 -> 8 canonical orbits (the lift owns 3 via the previously unpriced admissible N=16 companion; 1240 shadow links), K'_dedup = 6.5019 > 4 \u2014 the M3 CORRECTED POSE uses ONE symbol W_cl in both the <= 1/32 zone bound and the C1' allowance, and they cannot be the same ledger. Maintainer resolution owed before any certificate work (MAINTAINER_DECISIONS decision 4).",
+   "statement": "At every official production row R, after generated-field normalization and first-owner de-duplication of multiplier shadows and level lifts, every level L=1,...,34 satisfies W_cl(R,L)<=1/32. Here W_cl is exactly the C1' primitive signed-shift orbit ledger sum 2N_L 2^(-w(O)) over primitive orbits with L+1<=w(O)<=L+5, and N_L=256L. A certificate must pin the row and generated field, prove the primitive ledger complete in that weight window, and prove ownership. Density bounds over primes and lists of merely exhibited relations are not coverage. No C1', C2'', residual near-peak bound, final endpoint, or reserve credit is part of this statement. || F-ROUND 1 SURVIVED (2026-07-13, pre-registered; packet at background/nodes/dli_wcl_zone_coverage/notes/wz_fround1_20260713/, 11 Modal apps, exact-rational verdict path; catches #190-#197 = wz-C1..C8): kill lines 1a (forced-structure saturation), 1b (recurring orbit family), 2 (scaling anomaly) did NOT trip across q <= 2^27, n' in {64,128}, L in {1,2}; 12/12 banked M2 cells reproduced EXACTLY on two engines; mutation + lift + shadow controls all trip. STRUCTURAL FINDING (#190/wz-C1): at official aspect N_L = 256L the minimum orbit mass is 16L/2^L > 1/32 iff L <= 12, so WCL-ZONE at L <= 12 is EQUIVALENT to ledger EMPTINESS in the window \u2014 the 1/32 threshold prices mass only at L >= 13. HONEST NEAR-MISS (#193/wz-C4, round-2 primary target): family B (L=2) shows monotone density ratio rho 1.62 -> 2.40 -> 4.65 across three scales (below the pre-registered 3-witness/4x compound kill but the only sustained trend observed). KNOWN GAPS: the pose's shadow/lift first-owner dedup has NO reference implementation and materially changes W_cl (observed 4 -> 1) \u2014 a canonical spec is owed before certificate work (#191/wz-C2); 2-power n' analogues cannot see the odd-n' forced-family channel \u2014 round 2 must add n' = 96/192 cells (#192/wz-C3), though pure odd subgroup-sum relations are PROVABLY excluded at every official level (d | 512L odd forces d | L vs survival forcing d > 2L-1). Evidence weight: analogue scales only; the official-row density-vs-row gap (the node's core difficulty) is untouched. || F-ROUND 2 SURVIVED (2026-07-13, pre-registered; packet at notes/wz2_fround2_20260713/, 14 Modal apps; catches #198-#204 = wz2-C1..C7): PART 1 \u2014 the round-1 family-B trend RESOLVED BENIGN (rho 1.615, 2.395, 4.648 then TURNOVER 3.62, 0.00 at the pre-registered extension scales; Poisson-consistent; escalate branch not triggered). PART 2 \u2014 odd-n' mixed channel clean: forced ledger = {orbit(Phi_n')} exactly at all 108 L=1 cells, absent at L >= 2 (2-3-norm exclusion, zero exceptions); PROVED LEMMA banked: no fixed integer vector is forced at any official level (upgrades round-1's pure-subgroup exclusion to the whole fixed-vector channel \u2014 official mixed-channel risk is q-dependent constructions only). PART 0 \u2014 the #191 dedup canonical spec DISCHARGED (implementation-grade, grounded in the banked M2 machinery; 12/12 conformance + mutation controls; round-1 and M2 values reproduced exactly) with EIGHT ratification points RATIFY-1..8 owed to the maintainer (two load-bearing: RATIFY-4 singular-source witness scope, RATIFY-6 lift admissibility gate). F-round state 2/2. MAJOR INTERFACE FINDING #198 (wz2-C1, blocks the downstream assembly AS WRITTEN): with the pose's own deduplicated ledger, C1' FAILS at the banked accident row (L=1, q=7937): W_cl 236 -> 8 canonical orbits (the lift owns 3 via the previously unpriced admissible N=16 companion; 1240 shadow links), K'_dedup = 6.5019 > 4 \u2014 the M3 CORRECTED POSE uses ONE symbol W_cl in both the <= 1/32 zone bound and the C1' allowance, and they cannot be the same ledger. Maintainer resolution owed before any certificate work (MAINTAINER_DECISIONS decision 4). || SCHEDULE CORRECTION r2 + RAW-LEDGER RULING (2026-07-13, wave-7 audited, w7-C1/w7-C2 = catches #205/#206, MAINTAINER-RATIFIED 2026-07-13 in-session): the production schedule of record is the dyadic odd-index tower t=2^33, j=0..33, ell_j=ceil(floor(t/2^j)/2), N_j=256*ell_j, n'_j=2N_j, dims (2^32,...,2,1,1) summing to t (skew-tower packet points 2/4; S6; C2PP Sigma_j L_j = t) -- NOT N_L=256L at L=1..34, which conflated level index with level dimension; and W_cl is the RAW primitive signed-shift ledger (no shadow/lift/cluster de-duplication; every primitive orbit at its own level and weight, per the C1' pose of record and dli_wcl_raw_ledger_interface_guardrail). Instantiation of #190: the emptiness-equivalent levels are exactly the five terminal slots ell in {1,1,2,4,8}; first counting dimension ell=16 (min mass 1/256). All official rings are 2-power, so the wz2 dedup spec's singular-source path (RATIFY-4) cannot fire on official rows -- analogue-census-only. STATE AFTER THE WAVE-7 EXCLUSIONS: the Newton cutoff (w<=2ell) closes every window at ell>=8 outright (30 levels, W_cl=0) and w=2 at ell=1, w=3,4 at ell=2, w=5..8 at ell=4; the ambient censuses close w=3,4 at ell=1 for every q<2^256 with v_2(q-1)>=41. WCL-ZONE is now EQUIVALENT to six emptiness slots: (1,5),(1,6),(2,5),(2,6),(2,7),(4,9).",
    "attack_surface": "Enumerate or algebraically construct primitive signed-shift relations on official rows, with special attention to multiplier/lift ownership and omitted orbit families; seek a level whose complete ledger exceeds 1/32.",
    "falsifier": "One official production row and level with a complete generated-field-normalized primitive ledger W_cl>1/32, or a proof that the required complete ledger cannot be certified as stated.",
    "refs": [
@@ -5640,7 +5640,7 @@
    "id": "dli_marginal_baseline100_coverage",
    "title": "DLI marginal baseline assembly: C1' plus WCL-ZONE gives product of level means at most 2^100",
    "status": "CONDITIONAL",
-   "statement": "For every official prize row R, assume C1' at all 34 production levels and W_cl(R,L)<=1/32 at all those levels. The schedule N_L=256L and q<2^256 give r_L<1, hence E_L<=1+4(1+1/32)=41/8. Therefore A(R)=product_(L=1)^34 E_L <= (41/8)^34 < 2^100. The last comparison is the exact integer inequality 41^34<2^202. No C2'' reserve, endpoint certificate, reserve credit, typical-prime assumption, or floating-point comparison is used. || INTERFACE CAVEAT (#198/wz2-C1, 2026-07-13): the assembly E_L <= 1 + 4r(1+W_cl) <= 41/8 consumes W_cl from BOTH C1' and WCL-ZONE under one symbol; F-round 2 showed the deduplicated ledger and the C1' allowance ledger CANNOT be the same object (K'_dedup = 6.5019 > 4 at the banked accident row under the canonical dedup). The two-ledger split is a maintainer decision (RATIFY-1..8 + decision 4); this node's conditional assembly is BLOCKED AS WRITTEN until the symbols are separated.",
+   "statement": "For every official prize row R, assume C1' at all 34 production levels and W_cl(R,L)<=1/32 at all those levels. The schedule N_L=256L and q<2^256 give r_L<1, hence E_L<=1+4(1+1/32)=41/8. Therefore A(R)=product_(L=1)^34 E_L <= (41/8)^34 < 2^100. The last comparison is the exact integer inequality 41^34<2^202. No C2'' reserve, endpoint certificate, reserve credit, typical-prime assumption, or floating-point comparison is used. || INTERFACE CAVEAT (#198/wz2-C1, 2026-07-13): the assembly E_L <= 1 + 4r(1+W_cl) <= 41/8 consumes W_cl from BOTH C1' and WCL-ZONE under one symbol; F-round 2 showed the deduplicated ledger and the C1' allowance ledger CANNOT be the same object (K'_dedup = 6.5019 > 4 at the banked accident row under the canonical dedup). The two-ledger split is a maintainer decision (RATIFY-1..8 + decision 4); this node's conditional assembly is BLOCKED AS WRITTEN until the symbols are separated. || SCHEDULE r2 + LEDGER RESOLUTION (2026-07-13, w7, maintainer-ratified): dimensions ell_j=(2^32,...,2,1,1) (not 1..34; the proof uses only the 34-factor count and r_j=q^{ell_j}/2^{256 ell_j}<1); under the maintainer's decision-4 ruling both premises read the RAW ledger W_raw and the #198 caveat is RESOLVED: the dedup ledger was never C1''s object (w7-C2; the banked raw K'=0.246909432 stands), so the two-symbol collision disappears -- the assembly is re-armed as written with W_cl := W_raw.",
    "attack_surface": "Audit the exact implication from C1' and WCL-ZONE, including the production schedule, level count, strict field-size pin, and integer endpoint comparison.",
    "falsifier": "A row satisfying both wired predicates for which the exact marginal product exceeds 2^100, or an arithmetic/quantifier defect in the stated assembly.",
    "refs": [
@@ -5648,6 +5648,146 @@
     "background/nodes/dli_marginal_baseline100_coverage/attack.md",
     "background/nodes/dli_marginal_baseline100_coverage/conditional.md",
     "background/nodes/dli_marginal_baseline100_coverage/pending_amber_verify.py"
+   ]
+  },
+  {
+   "id": "dli_wcl_scope_guardrail",
+   "title": "DLI WCL scope guardrail: the isolated generated-row strengthening is false",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the isolated generated C1' row (q,n',N,ell)=(65537,512,256,1), omega=15028 has exact order 512 and 1+omega^95-omega^146=0. This primitive weight-3 relation has a full 512-element signed-shift orbit and first-owner ledger charge 64>1/32. The row satisfies q=1 mod n', 2^N>=q^ell, and N>=16ell, but v_2(q-1)=16<41, so it cannot host the official DLI production tower's ambient top subgroup. Thus WCL-ZONE cannot be extended from official production rows to arbitrary isolated C1' rows.",
+   "refs": [
+    "background/nodes/dli_wcl_scope_guardrail/statement.md",
+    "background/nodes/dli_wcl_scope_guardrail/proof.md",
+    "background/nodes/dli_wcl_scope_guardrail/verify.py"
+   ]
+  },
+  {
+   "id": "dli_wcl_engineered_terminal_scope",
+   "title": "DLI engineered weight-6 witness reaches order 512 but not the production ambient split",
+   "status": "PROVED",
+   "closure": "computation",
+   "statement": "For z of order 512, the exact norm of 1-z^33+z^40-z^136-z^143+z^145 is 122312418397310579415219240127455896396372121843316076135243835573788121252866 = 2q, where q=61156209198655289707609620063727948198186060921658038067621917786894060626433 is prime and v_2(q-1)=9. Thus the banked engineered weight-6 construction gives a terminal order-512 relation but none of its norm factors can host the production ambient subgroup of order 2^41. FLINT recomputes the resultant on Modal; PARI factors it; a local recursive Pocklington verifier proves the 256-bit factor prime and checks an exact order-512 vanishing dilation.",
+   "refs": [
+    "background/nodes/dli_wcl_engineered_terminal_scope/statement.md",
+    "background/nodes/dli_wcl_engineered_terminal_scope/proof.md",
+    "background/nodes/dli_wcl_engineered_terminal_scope/verify.py",
+    "background/nodes/dli_wcl_engineered_terminal_scope/notes/verify_norm_remote.py",
+    "experiments/prize_resolution/dli_wcl_engineered_norm_modal.py",
+    "experiments/prize_resolution/dli_wcl_engineered_norm_result.json"
+   ]
+  },
+  {
+   "id": "dli_wcl_weight3_ambient_exclusion",
+   "title": "DLI official terminal weight-3 relations excluded by exhaustive affine-Galois norm census",
+   "status": "PROVED",
+   "closure": "computation",
+   "statement": "All C(256,3)2^2=11,054,080 reduced signed weight-3 polynomials at order 512 form exactly 254 affine-Galois norm classes. Exact resultants and complete certified factorizations have 439 distinct prime factors; none below 2^256 has v_2(q-1)>=41, and the maximum is 18. Hence no official DLI production row contains a terminal weight-3 relation. The verifier independently proves orbit coverage, reconstructs every resultant modulo a CRT modulus exceeding 2*3^256, and checks a shared 1,498-node recursive Pocklington tree. Weights 4 through 6 and WCL-ZONE remain open.",
+   "refs": [
+    "background/nodes/dli_wcl_weight3_ambient_exclusion/statement.md",
+    "background/nodes/dli_wcl_weight3_ambient_exclusion/proof.md",
+    "background/nodes/dli_wcl_weight3_ambient_exclusion/verify.py",
+    "background/nodes/dli_wcl_weight3_ambient_exclusion/notes/verify_sweep_remote.py",
+    "experiments/prize_resolution/dli_wcl_weight3_classes_modal.py",
+    "experiments/prize_resolution/dli_wcl_weight3_classes_result.json"
+   ]
+  },
+  {
+   "id": "dli_wcl_weight4_ambient_exclusion",
+   "title": "DLI official terminal weight-4 relations excluded by normalized-section norm census",
+   "status": "PROVED",
+   "closure": "computation",
+   "statement": "All C(256,4)2^3=1,398,341,120 reduced signed weight-4 polynomials meet a 1,014,080-key normalized section that partitions into exactly 24,979 affine-Galois norm classes. Exact resultants have 88,086 factor records and 44,599 distinct prime factors; none below 2^256 has v_2(q-1)>=41, and the maximum is 29. Hence no official DLI production row contains a terminal weight-4 relation. Independent verifiers reconstruct the normalized orbit partition, certify every resultant by 17-prime CRT beyond 2*4^256, and check a shared 154,086-node recursive Pocklington graph. Weights 5 and 6 and WCL-ZONE remain open.",
+   "refs": [
+    "background/nodes/dli_wcl_weight4_ambient_exclusion/statement.md",
+    "background/nodes/dli_wcl_weight4_ambient_exclusion/proof.md",
+    "background/nodes/dli_wcl_weight4_ambient_exclusion/verify_ledger.py",
+    "background/nodes/dli_wcl_weight4_ambient_exclusion/verify_primes.py",
+    "background/nodes/dli_wcl_weight4_ambient_exclusion/notes/verify_section_remote.py",
+    "background/nodes/dli_wcl_weight4_ambient_exclusion/notes/verify_prime_cert_remote.py",
+    "experiments/prize_resolution/dli_wcl_weight4_section_modal.py",
+    "experiments/prize_resolution/dli_wcl_weight4_section_result.json.gz",
+    "experiments/prize_resolution/dli_wcl_weight4_prime_cert_modal.py",
+    "experiments/prize_resolution/dli_wcl_weight4_prime_cert_result.json.gz"
+   ]
+  },
+  {
+   "id": "dli_wcl_weight5_first64_mitm_exclusion",
+   "title": "DLI terminal weight-5 relations excluded on the first 64 ambient split primes",
+   "status": "PROVED",
+   "closure": "computation",
+   "statement": "For q=k*2^41+1, the first 64 prime rows in increasing positive k occur over 3<=k<=996. Exact pair/triple meet-in-the-middle replay checks all 130,560 legal pairs and 22,108,160 legal triples per row and finds no reduced signed weight-5 relation. Proper-divisor witnesses cover the 932 intervening composite values, and direct Pocklington certificates prove all 64 prime rows. This is finite evidence only: the remaining ambient weight-5 rows, weight 6, and WCL-ZONE remain open.",
+   "refs": [
+    "background/nodes/dli_wcl_weight5_first64_mitm_exclusion/statement.md",
+    "background/nodes/dli_wcl_weight5_first64_mitm_exclusion/proof.md",
+    "background/nodes/dli_wcl_weight5_first64_mitm_exclusion/verify.py",
+    "background/nodes/dli_wcl_weight5_first64_mitm_exclusion/notes/verify_search_remote.py",
+    "experiments/prize_resolution/dli_wcl_terminal_weight5_mitm.cpp",
+    "experiments/prize_resolution/dli_wcl_terminal_weight5_mitm_modal.py",
+    "experiments/prize_resolution/dli_wcl_terminal_weight5_mitm_result.json"
+   ]
+  },
+  {
+   "id": "dli_wcl_raw_ledger_interface_guardrail",
+   "title": "DLI WCL consumer interface requires the raw primitive-orbit ledger",
+   "status": "PROVED",
+   "closure": "deduction",
+   "statement": "C1' consumes the raw weighted sum over every reduced primitive signed-vanisher orbit in its window. Multiplier shadows, additive clusters, and level lifts remain lattice points priced at their own level and weight; first-owner classification cannot delete their mass without a separate transfer theorem. Hence WCL-ZONE must bound the raw ledger. At the actual low levels ell in {1,2,4,8}, the bound is still equivalent to primitive-window emptiness; from ell=16 onward exact raw multiplicity matters.",
+   "refs": [
+    "background/nodes/dli_wcl_raw_ledger_interface_guardrail/statement.md",
+    "background/nodes/dli_wcl_raw_ledger_interface_guardrail/proof.md",
+    "background/nodes/dli_wcl_raw_ledger_interface_guardrail/verify.py",
+    "critical/nodes/dli_prime_weighted_large_block_support/notes/C1PRIME_LEVEL_SCALED_POSE.md",
+    "critical/nodes/dli_prime_weighted_large_block_support/PRO_DLI_CLOSE_6.md"
+   ]
+  },
+  {
+   "id": "dli_wcl_ell2_weight3_ambient_exclusion",
+   "title": "DLI official ell=2 weight-3 relations excluded by order-1024 norm census",
+   "status": "PROVED",
+   "closure": "computation",
+   "statement": "All C(512,3)2^2=88,954,880 reduced signed weight-3 polynomials at order 1024 meet a 521,220-key normalized section partitioning into exactly 510 affine-Galois classes. Exact resultants have 1,329 factor records and 1,141 distinct prime roots; none below 2^256 has v_2(q-1)>=41, and the maximum is 21. Hence no official DLI production row contains a weight-3 relation at ell=2. Independent verifiers reconstruct the normalized orbit partition, certify every resultant by split-prime CRT beyond 2*3^512, and check a shared 5,608-node recursive Pocklington graph. Weights 4 through 7 at ell=2 and WCL-ZONE remain open.",
+   "refs": [
+    "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/statement.md",
+    "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/proof.md",
+    "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/verify_ledger.py",
+    "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/verify_primes.py",
+    "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/notes/verify_classes_remote.py",
+    "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/notes/verify_primes_remote.py",
+    "experiments/prize_resolution/dli_wcl_ell2_weight3_classes_modal.py",
+    "experiments/prize_resolution/dli_wcl_ell2_weight3_classes_result.json",
+    "experiments/prize_resolution/dli_wcl_ell2_weight3_prime_cert_modal.py",
+    "experiments/prize_resolution/dli_wcl_ell2_weight3_prime_cert_result.json.gz"
+   ]
+  },
+  {
+   "id": "dli_wcl_ell2_weight4_newton_exclusion",
+   "title": "DLI ell=2 weight-4 relations excluded by Newton identities",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For an exact order-1024 root omega in any official production field, no reduced signed weight-4 polynomial P satisfies P(omega)=P(omega^3)=0. Newton's identities make the monic polynomial of the four signed roots even, forcing antipodal pairs, while distinct reduced base exponents forbid antipodal terms. Hence no official DLI production row contains a weight-4 relation at ell=2. Weights 5 through 7 there and WCL-ZONE remain open.",
+   "refs": [
+    "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/statement.md",
+    "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/proof.md",
+    "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/verify.py",
+    "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/notes/resource_route.md",
+    "experiments/prize_resolution/dli_wcl_ell2_weight4_resource_modal.py",
+    "experiments/prize_resolution/dli_wcl_ell2_weight4_resource_result.json.gz",
+    "critical/nodes/dli_prime_weighted_large_block_support/DLI_CLOSE_PINNED.md"
+   ]
+  },
+  {
+   "id": "dli_wcl_newton_short_window_exclusion",
+   "title": "DLI odd-moment Newton cutoff excludes every WCL weight w<=2ell",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In characteristic zero or greater than w, a reduced signed relation satisfying the first ell odd-power equations cannot have weight w<=2ell. Newton identities kill every odd elementary symmetric coefficient: odd w contradicts the nonzero root product, while even w forces antipodal pairs forbidden by reduced support. On the actual tower every ell>=8 window is empty, ell=4 leaves only weight 9, and ell=2 leaves weights 5,6,7. Combined with the terminal ambient exclusions, WCL-ZONE has exactly six unresolved slots: (1,5),(1,6),(2,5),(2,6),(2,7),(4,9).",
+   "refs": [
+    "background/nodes/dli_wcl_newton_short_window_exclusion/statement.md",
+    "background/nodes/dli_wcl_newton_short_window_exclusion/proof.md",
+    "background/nodes/dli_wcl_newton_short_window_exclusion/verify.py",
+    "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/statement.md",
+    "critical/nodes/dli_prime_weighted_large_block_support/DLI_CLOSE_PINNED.md"
    ]
   }
  ],
@@ -10965,6 +11105,51 @@
   {
    "from": "mca_quadratic_prize_rows",
    "to": "mca_grand",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_scope_guardrail",
+   "to": "dli_wcl_zone_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_engineered_terminal_scope",
+   "to": "dli_wcl_zone_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_weight3_ambient_exclusion",
+   "to": "dli_wcl_zone_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_weight4_ambient_exclusion",
+   "to": "dli_wcl_zone_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_weight5_first64_mitm_exclusion",
+   "to": "dli_wcl_zone_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_raw_ledger_interface_guardrail",
+   "to": "dli_wcl_zone_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_ell2_weight3_ambient_exclusion",
+   "to": "dli_wcl_zone_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_ell2_weight4_newton_exclusion",
+   "to": "dli_wcl_zone_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_newton_short_window_exclusion",
+   "to": "dli_wcl_zone_coverage",
    "kind": "ev"
   }
  ]
