@@ -1806,3 +1806,35 @@ Codex's exclusions + #190 close WCL-ZONE outright at low levels;
 also re-audit its tower-scope repair against the wz round-1
 normalizations (#191 dedup spec relevant). WCL-ZONE round 2 in
 flight (wz2_ prefix, self-contained).
+
+## 70 — 2026-07-13: P1 CONFIRMED (maintainer) — petal_growth, imgfib,
+## m_le3_route ALL PROMOTED PROVED: THE PETAL LANE IS CLOSED
+
+The maintainer ruled P1 in-session: "make the conclusion as strong
+as the proof allows" — the FLOOR band d >= M(t-2), layout-anchored
+(#168), which is the widest true form (dominates the narrower
+(t-1)M scan reading; wider-than-floor killed by counting 2^59.67 >
+2^41.92). Confirmation text banked in petal_growth/conditional.md
+with provenance; re-surgery criterion 4 + tripwire (P)-3 stay
+pre-registered. PROMOTIONS: (1) petal_growth CONDITIONAL -> PROVED
+(all 11 wired hypotheses PROVED + the pin fixed; proof.md artifact
+= the conditional packet's assembly, now unconditional; #171
+below-top ledger line remains as this node's flagged separate
+obligation); (2) imgfib CONDITIONAL -> PROVED (statement-level
+assembly; last open kid was petal_growth; other four kids conj_f /
+l1_program_frontier / dyadic_profile_evaluation /
+payment_completeness were already PROVED; proof.md written);
+(3) m_le3_route CONDITIONAL -> PROVED (conditions = rules_m_reading
+[PROVED] + imgfib). THE HISTORICAL PETAL/IMGFIB FLOOR — the
+obligation whose repeated falsifications caused the 2026-07-05
+retraction — IS FULLY RETIRED BY PROOF + ONE POSING RULING. Where
+the frontier moves: imgfib's remaining consumers (list_safe,
+worst_word_planted, list_planted_arithmetic) still carry genuinely
+open reqs — worst_word_challenger_pricing (CONDITIONAL chain),
+rate_half_band_closure (TARGET — the rate-half red), and
+list_safe's REFUTED route_one_scale req (inspect: stale wiring or
+alt-gate). The list-lane critical path is now rate_half +
+worst-word pricing; the mca-lane path runs through ext_lift <-
+f1_classification chain + mca_safe's reds. Validator green (the
+packaging warning stands, deliberate); harness 124/221 green;
+Modal execution re-pin queued per the #177 law.

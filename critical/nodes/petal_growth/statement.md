@@ -1,6 +1,6 @@
 # petal_growth
 
-- **status:** see dag.json (single source of truth; dag status CONDITIONAL) [header retrofit 2026-07-10, catch #69 — was: TARGET]
+- **status:** PROVED (2026-07-13, P1 floor confirmation; see proof.md)
 - **closure:** proof
 - **refs (legacy repo):** ['proof_sketch/s7_list_side.md#4']
 

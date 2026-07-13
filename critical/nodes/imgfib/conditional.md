@@ -1,6 +1,6 @@
 # conditional proof: imgfib
 
-- **status:** CONDITIONAL
+- **status:** PROVED (discharged 2026-07-13; retained as history — see proof.md)
 - **closure:** proof
 
 ## Source

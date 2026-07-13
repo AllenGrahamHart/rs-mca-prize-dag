@@ -1,6 +1,6 @@
 # imgfib
 
-- **status:** CONDITIONAL
+- **status:** PROVED (2026-07-13; see proof.md)
 - **closure:** proof
 - **refs (legacy repo):** ['wp_detail/wp_consolidation_sketch_extracts.md']
 

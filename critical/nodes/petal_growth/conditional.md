@@ -1,7 +1,7 @@
 # petal_growth — CONDITIONAL packet (r2, 2026-07-12 cluster import;
 # r1 2026-07-10 amber surgery retained below where unchanged)
 
-- **status:** CONDITIONAL (amber)
+- **status:** PROVED (discharged 2026-07-13 — P1 confirmed; retained as the assembly of record; see proof.md)
 - **predicates (open, req-wired):** `petal_g1_layer_maps` (the first-match
   ATLAS form, re-posed 2026-07-12), `petal_k4_primitive_bound`,
   `petal_small_scale_staircase_census` (the gate minted at the G2 flip —
@@ -175,3 +175,14 @@ ambient `dim K` grows with `c` (flat-kernel induction not revivable); exact
 realizable counts max `1` below top, max `5005` at/beyond top — the shape
 that motivated the top-band paid-family focus this packet now formalizes.
 NOTE: this scan's band is the (t-1)*M operational band — see pin P1.
+
+---
+
+MAINTAINER CONFIRMATION (P1, 2026-07-13): the top-defect band of record
+is the floor band d >= M(t-2), layout-anchored per catch #168; the
+wide-band reading is closed as killed (2^59.67 > 2^41.92). Ruled by the
+maintainer in-session ("make the conclusion as strong as the proof
+allows" — the floor band is the widest band at which the chain is true;
+it strictly dominates the narrower (t-1)M scan reading). Re-surgery
+criterion 4 and tripwire (P)-3 remain pre-registered: a future
+re-resolution to a different constant re-opens the chain.
