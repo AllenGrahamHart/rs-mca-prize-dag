@@ -13,7 +13,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_amortization_threshold_accounting/verify.py",
-      "seconds": 0.160123,
+      "seconds": 0.17628,
       "sha256": "88a251ed95dbd72fbf09c7848f217117c46fac21ee2c064df63ea1966aed3114",
       "status": "PASS",
       "stderr_tail": "",
@@ -22,7 +22,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_average_member_transfer/verify.py",
-      "seconds": 2.130685,
+      "seconds": 1.563623,
       "sha256": "13e4a2a9ba697263091c3dbd481c3c83338c1a044340e787498efd0458c980a3",
       "status": "PASS",
       "stderr_tail": "",
@@ -31,7 +31,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_averaged_quotient_box/verify.py",
-      "seconds": 0.125249,
+      "seconds": 0.096137,
       "sha256": "25c6119482a321acc65bebf9a55b5993e586a8ffbc85aa842a660da29a661833",
       "status": "PASS",
       "stderr_tail": "",
@@ -40,7 +40,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_coupled_family_entropy_manifest_soundness/verify.py",
-      "seconds": 0.022124,
+      "seconds": 0.022579,
       "sha256": "041b00a4d6e9dfc7480dbac8cca114dabe1dff2f672752b2dceb69fe145a8517",
       "status": "PASS",
       "stderr_tail": "",
@@ -49,7 +49,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_entropy_ledger_certificate_soundness/verify.py",
-      "seconds": 0.02108,
+      "seconds": 0.019989,
       "sha256": "0001426044a369fec6ade99c8d393ae3268d755e53a5a60d63c05e7cbea94616",
       "status": "PASS",
       "stderr_tail": "",
@@ -58,7 +58,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_family_certificate_semantics/verify.py",
-      "seconds": 0.025649,
+      "seconds": 0.020158,
       "sha256": "a1c5934ae2ff4c8b11123272d701d4dd5c6b1392a0849ed298700e69f9139ad2",
       "status": "PASS",
       "stderr_tail": "",
@@ -67,7 +67,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/cyclic_fiber_interleaving_descent/verify.py",
-      "seconds": 1.660677,
+      "seconds": 1.341091,
       "sha256": "dc11fb8c20bf44236aeaaeb208789b71e7705b1b6987daa2ce31894cd6ad5b7e",
       "status": "PASS",
       "stderr_tail": "",
@@ -76,7 +76,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/verify_ledger.py",
-      "seconds": 12.900015,
+      "seconds": 10.107065,
       "sha256": "bcaefb2b494f4a8953ffe2ddea469f74a697605ffa7029b10c6c44ecb1ed0e98",
       "status": "PASS",
       "stderr_tail": "",
@@ -85,7 +85,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/verify_primes.py",
-      "seconds": 0.630857,
+      "seconds": 0.949173,
       "sha256": "8486611afb0fd0115d3f7821768cdc705336d3d1be9d4fea933231d221143ef1",
       "status": "PASS",
       "stderr_tail": "",
@@ -94,7 +94,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/verify.py",
-      "seconds": 0.072667,
+      "seconds": 0.065643,
       "sha256": "2a3e616adf4937554cc567a4cd7b5759b39b7ede549edfb5ef7be3f582672535",
       "status": "PASS",
       "stderr_tail": "",
@@ -103,7 +103,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/dli_wcl_engineered_terminal_scope/verify.py",
-      "seconds": 0.059555,
+      "seconds": 0.051413,
       "sha256": "06dacd9899e3187b9ea4306a632af1a90f5a3b818620e6c331231490e715ef42",
       "status": "PASS",
       "stderr_tail": "",
@@ -112,7 +112,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/dli_wcl_newton_short_window_exclusion/verify.py",
-      "seconds": 0.428654,
+      "seconds": 0.337053,
       "sha256": "62c5b637614d0fd00db5f31aa9cce7a19705f631ecffdfabbd3dedd1b2aebb97",
       "status": "PASS",
       "stderr_tail": "",
@@ -121,7 +121,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/dli_wcl_raw_ledger_interface_guardrail/verify.py",
-      "seconds": 0.064371,
+      "seconds": 0.05033,
       "sha256": "b5841e0c8f131ee6d9e94ac3fe4ce737db74e6d38eecc5b750bab782299b5218",
       "status": "PASS",
       "stderr_tail": "",
@@ -130,7 +130,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/dli_wcl_scope_guardrail/verify.py",
-      "seconds": 0.046817,
+      "seconds": 0.039664,
       "sha256": "25d1fb85a9f1132ec79248a6789f89f5ecbe94b2d5b8fa4e75825ef36ca310a0",
       "status": "PASS",
       "stderr_tail": "",
@@ -139,7 +139,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/dli_wcl_weight3_ambient_exclusion/verify.py",
-      "seconds": 33.357098,
+      "seconds": 36.848068,
       "sha256": "980348d0e4315167e89563566e25551cb39f840bbc07398abe55213318cf76e5",
       "status": "PASS",
       "stderr_tail": "",
@@ -148,7 +148,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/dli_wcl_weight4_ambient_exclusion/verify_ledger.py",
-      "seconds": 16.496887,
+      "seconds": 12.301044,
       "sha256": "b972621ddd3d8b01a7772650dab9faadcd549f17c2137ffb75f909fef23a2120",
       "status": "PASS",
       "stderr_tail": "",
@@ -157,7 +157,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/dli_wcl_weight4_ambient_exclusion/verify_primes.py",
-      "seconds": 14.07957,
+      "seconds": 20.004515,
       "sha256": "30e9dd604a29a5f5f705d6a30c899bfa52648e8d79faf4458f05cf7ff10e22d8",
       "status": "PASS",
       "stderr_tail": "",
@@ -166,7 +166,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/dli_wcl_weight5_first64_mitm_exclusion/verify.py",
-      "seconds": 46.28448,
+      "seconds": 38.384103,
       "sha256": "61a1c6cd3e57b751bb4cacae0fee19449b5eb685ec9c9806bb60a001d481eac7",
       "status": "PASS",
       "stderr_tail": "",
@@ -175,7 +175,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_common_tail_invariance_certificate_soundness/verify.py",
-      "seconds": 0.019053,
+      "seconds": 0.021078,
       "sha256": "0da3b50b606664b13322e102c4b7af26c0e2e3f0e209316d20d7f16a9db0c61e",
       "status": "PASS",
       "stderr_tail": "",
@@ -184,7 +184,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_dyadic_chain_mobius_accounting/verify.py",
-      "seconds": 0.020269,
+      "seconds": 0.020697,
       "sha256": "8f8c759fa5a6794dd048d03a0880d34dc1797867327b45817d4e602bb53dcc1e",
       "status": "PASS",
       "stderr_tail": "",
@@ -193,7 +193,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_dyadic_local_to_common_saturation/verify.py",
-      "seconds": 0.157879,
+      "seconds": 0.106925,
       "sha256": "e3290375a6c3f2d319a863b46c72b95210bc0ea6acf7b30e467071435b338dc2",
       "status": "PASS",
       "stderr_tail": "",
@@ -202,7 +202,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_dyadic_minimal_scale_selector/verify.py",
-      "seconds": 0.537969,
+      "seconds": 0.398245,
       "sha256": "436b8220b4ab7020e07ee1082d09e5007b6ab8bd25e96e581db8314e6d6a70eb",
       "status": "PASS",
       "stderr_tail": "",
@@ -211,7 +211,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_kernel_invariance_full_fiber_criterion/verify.py",
-      "seconds": 0.024754,
+      "seconds": 0.022222,
       "sha256": "69e7578d939ff33d33d3271602f46c472b0385a06180f5d882eb3591c082fe48",
       "status": "PASS",
       "stderr_tail": "",
@@ -220,7 +220,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_lower_scale_intersection_formula_payload/verify.py",
-      "seconds": 10.805303,
+      "seconds": 6.370021,
       "sha256": "7d61d3c1c1d877cbd1fcc3ba0cdd16f630f57cc376da9652155489f450c16372",
       "status": "PASS",
       "stderr_tail": "",
@@ -229,7 +229,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_minimal_scale_partition/verify.py",
-      "seconds": 0.026238,
+      "seconds": 0.023073,
       "sha256": "ce4c020d472e625b00a3641f2a397193228f55550c13f9de8b0356b85c951864",
       "status": "PASS",
       "stderr_tail": "",
@@ -238,7 +238,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_minimal_scale_tail_criterion/verify.py",
-      "seconds": 1.381428,
+      "seconds": 0.815049,
       "sha256": "fd0606dcfe63b6fb5b52b42f2c08f35ea23a37b91f67b8fb1d31c133a009a6c0",
       "status": "PASS",
       "stderr_tail": "",
@@ -247,7 +247,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_planted_profile_disjointness/verify.py",
-      "seconds": 0.057026,
+      "seconds": 0.051789,
       "sha256": "975b177077af5d03b0fd32c25dd06b17a0a437c19788f10bd475abe3f76f4db2",
       "status": "PASS",
       "stderr_tail": "",
@@ -256,7 +256,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_tail_removed_factor_manifest_soundness/verify.py",
-      "seconds": 0.031019,
+      "seconds": 0.020806,
       "sha256": "424ad162bd8eeb472d9d169bb369293200ab6d77c94855cc7d3a0c8d0c5a90cc",
       "status": "PASS",
       "stderr_tail": "",
@@ -265,7 +265,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_tail_removed_quotient_factor_passthrough/verify.py",
-      "seconds": 0.018783,
+      "seconds": 0.021996,
       "sha256": "e33ccbe651a0c5c05258b84a8c8b198cf2ff7c2cefd05fd99262b322815348e1",
       "status": "PASS",
       "stderr_tail": "",
@@ -274,7 +274,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_two_class_exhaustion/verify.py",
-      "seconds": 0.079537,
+      "seconds": 0.103065,
       "sha256": "593344bb99a2e093b69127d31735baa2b9c43802cc4f2c96e49ccff0829d6933",
       "status": "PASS",
       "stderr_tail": "",
@@ -283,7 +283,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_weighted_intersection_certificate_soundness/verify.py",
-      "seconds": 0.016544,
+      "seconds": 0.027059,
       "sha256": "32a758743f18de6930f83ff38e23cd767e38a7402e1bec8838508d3c8e6658f5",
       "status": "PASS",
       "stderr_tail": "",
@@ -292,7 +292,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/exact_support_interleaving_projection/verify.py",
-      "seconds": 2.799603,
+      "seconds": 3.276683,
       "sha256": "a8d51922981533dfcf67044eaca039f0df074b8720c6b5d4467c02b84afa2e27",
       "status": "PASS",
       "stderr_tail": "",
@@ -301,7 +301,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_factorial_collision_69/verify.py",
-      "seconds": 0.053359,
+      "seconds": 0.060067,
       "sha256": "b71edcc751d46cb9c4ad80a06692e087eafa6416077bc620f03256cfbb7de494",
       "status": "PASS",
       "stderr_tail": "",
@@ -310,7 +310,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_fifth_orbit_moment_compiler/verify.py",
-      "seconds": 0.041979,
+      "seconds": 0.077307,
       "sha256": "12372bbd062e37652d986ed820cb45a23a321dd2f36f23bbaeb698feb3d00e5d",
       "status": "PASS",
       "stderr_tail": "",
@@ -319,7 +319,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_line_star_moment_identity/verify.py",
-      "seconds": 0.075607,
+      "seconds": 0.059122,
       "sha256": "2f51249c7c55b735dd8fb3e8256c27c5e3ef22b076eb967458434b3938253cb4",
       "status": "PASS",
       "stderr_tail": "",
@@ -328,7 +328,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_mobius_overlap_cap35/verify.py",
-      "seconds": 0.030776,
+      "seconds": 0.048004,
       "sha256": "de1e2eedf5e6ec88444534b2a134c8659d174c930ea622a7c0502e15b0a49836",
       "status": "PASS",
       "stderr_tail": "",
@@ -337,7 +337,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_nonswap_moment_68/verify.py",
-      "seconds": 0.226983,
+      "seconds": 0.143623,
       "sha256": "20055addb7de82c78385b090c319adcc3f8a51a36a701187a0f805e3d103eca4",
       "status": "PASS",
       "stderr_tail": "",
@@ -346,7 +346,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_pgl2_pair_identity/verify.py",
-      "seconds": 0.791954,
+      "seconds": 0.650997,
       "sha256": "80af115821fdb352297c276742ceef1e013d65eaf409f89501b65b7d28a1097d",
       "status": "PASS",
       "stderr_tail": "",
@@ -355,7 +355,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_quotient_block_identity/verify.py",
-      "seconds": 0.059583,
+      "seconds": 0.069049,
       "sha256": "702dd99e72f712b77aadd6a3b94bad97f7bd1b12af5be549e3ad256e5b84cbaa",
       "status": "PASS",
       "stderr_tail": "",
@@ -364,7 +364,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_rich_fiber_ideal_batching/verify.py",
-      "seconds": 0.083908,
+      "seconds": 0.089063,
       "sha256": "f0e0adda9b3e3a9a6df90af6bb461295253fd8f124b5fad0e8755399ef8edc78",
       "status": "PASS",
       "stderr_tail": "",
@@ -373,7 +373,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_rich_fiber_norm_cutoff/verify.py",
-      "seconds": 0.399544,
+      "seconds": 0.386074,
       "sha256": "7f418e5bb1cf903b750f743efdbf217d9665bfeef37ff7e5f539b3ea84a199aa",
       "status": "PASS",
       "stderr_tail": "",
@@ -382,7 +382,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_shifted_product_sidon/verify.py",
-      "seconds": 1.128429,
+      "seconds": 0.848257,
       "sha256": "ccab5a33aa0fa6efdf46d6a366c2d7ffc1ac4f9e085080785914ba6ebf2bfe41",
       "status": "PASS",
       "stderr_tail": "",
@@ -391,7 +391,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/intrinsic_scale_geometric_ledger/verify.py",
-      "seconds": 0.045229,
+      "seconds": 0.051083,
       "sha256": "69a1d0087a22e552aa758dc479a4f862099889ed29fe6ae231f7b7bbfba561d7",
       "status": "PASS",
       "stderr_tail": "",
@@ -400,7 +400,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_certificate_semantics/verify.py",
-      "seconds": 0.03849,
+      "seconds": 0.050577,
       "sha256": "05e09f12f42e7968ada438a3b899ca4f6a0f79410add4c0570d8f3bb72f027a4",
       "status": "PASS",
       "stderr_tail": "",
@@ -409,7 +409,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_h3_large_gate_replay/verify.py",
-      "seconds": 7.465409,
+      "seconds": 4.794765,
       "sha256": "e5d0dadb5c2166326cff521e6a8e0e238106b3e86d28201cb00beab4a2f0b014",
       "status": "PASS",
       "stderr_tail": "",
@@ -418,7 +418,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_h5_n32_gate_replay/verify.py",
-      "seconds": 1.348827,
+      "seconds": 0.853023,
       "sha256": "ec350c9d444b73c8b4716544300b495281cc04f21aa90c2512420538387a81f7",
       "status": "PASS",
       "stderr_tail": "",
@@ -427,7 +427,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_official_norm_gate_case_manifest_soundness/verify.py",
-      "seconds": 0.033857,
+      "seconds": 0.026844,
       "sha256": "a35767be0da1968e938272a5214cb643f9d5c8f86762b304dc1b2285db7d72e2",
       "status": "PASS",
       "stderr_tail": "",
@@ -436,7 +436,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_official_norm_gate_certificate_soundness/verify.py",
-      "seconds": 0.020985,
+      "seconds": 0.020573,
       "sha256": "3ef7aa37261bbafdc83bf141b237ac8015a46253ef381ec261ff27c5f01fc840",
       "status": "PASS",
       "stderr_tail": "",
@@ -445,7 +445,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_overceiling_complete_window_certificates/verify.py",
-      "seconds": 0.031222,
+      "seconds": 0.026724,
       "sha256": "b198b5e3d1bbcd98d16f8adc05288679c9fe020068484b8ac9bfdbd4dc090f32",
       "status": "PASS",
       "stderr_tail": "",
@@ -454,7 +454,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_residual_slice_metadata/verify.py",
-      "seconds": 0.024313,
+      "seconds": 0.026238,
       "sha256": "c3bd332288f8312b7189a45ddedb23d20251b3e09b2efe07f3216c5290440ac8",
       "status": "PASS",
       "stderr_tail": "",
@@ -463,7 +463,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_small_gate_replay/verify.py",
-      "seconds": 0.037107,
+      "seconds": 0.033003,
       "sha256": "4621173e691c207df27e3e65b31f2936fd7a65b2bd4d25e8cd3e3b1d15bc4ec6",
       "status": "PASS",
       "stderr_tail": "",
@@ -472,7 +472,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_wsl_complete_zero_subcertificates/verify.py",
-      "seconds": 52.734484,
+      "seconds": 59.581071,
       "sha256": "a28ca40b64a27452eb22902e78043e4a8910a169ae571709ed1e77d64c5b2ece",
       "status": "PASS",
       "stderr_tail": "",
@@ -481,7 +481,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/mca_quadratic_prize_rows/verify.py",
-      "seconds": 0.266208,
+      "seconds": 0.316967,
       "sha256": "404d54fa3ea0262f94554d7adac8395e52a1496c3013d2cc9594d91a7c3ce91b",
       "status": "PASS",
       "stderr_tail": "",
@@ -490,7 +490,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/petal_fixed_excess/verify.py",
-      "seconds": 0.034641,
+      "seconds": 0.032684,
       "sha256": "4999dd568c9c8d8fe5e6b5ef3d2de56ec53460f489f857ce89984f0a7af6f2c6",
       "status": "PASS",
       "stderr_tail": "",
@@ -499,7 +499,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/petal_g1_k4_scale_reserve/verify.py",
-      "seconds": 0.05152,
+      "seconds": 0.053009,
       "sha256": "39c75720903c087da5cd4ffc96a26166fac5afacbcb29c20554e8e3237882c03",
       "status": "PASS",
       "stderr_tail": "",
@@ -508,7 +508,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/petal_realizable_kernel_injection/verify.py",
-      "seconds": 0.020112,
+      "seconds": 0.021014,
       "sha256": "217538320e246d54a164afe0e516940df24e7c10160472c85eacf5e25fa4fc5a",
       "status": "PASS",
       "stderr_tail": "",
@@ -517,7 +517,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/petal_squarefree_classification_counting_soundness/verify.py",
-      "seconds": 0.020304,
+      "seconds": 0.028157,
       "sha256": "99cbf0da6ca56b7166440e961ef2050b1e14fe456495ce93b70b392bbe82903e",
       "status": "PASS",
       "stderr_tail": "",
@@ -526,7 +526,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/petal_squarefree_classification_ledger_soundness/verify.py",
-      "seconds": 0.021795,
+      "seconds": 0.020672,
       "sha256": "7ef303df71b776fd18ab5ebfa7de075bafcc5b3a5fffc9fcddb67bb2239a083f",
       "status": "PASS",
       "stderr_tail": "",
@@ -535,7 +535,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/petal_staircase_allowance_719/verify.py",
-      "seconds": 0.021747,
+      "seconds": 0.02147,
       "sha256": "b5638b64b29f6d7ba61d1534ef2d4987ae08fe66c73402a2166b38e53893746a",
       "status": "PASS",
       "stderr_tail": "",
@@ -544,7 +544,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/petal_top_band_residual_free_johnson/verify.py",
-      "seconds": 0.049718,
+      "seconds": 0.043179,
       "sha256": "4da1034e87dbd286157b7232aef1ebe55b7cb938a3a82d8f79f002e03a1bad26",
       "status": "PASS",
       "stderr_tail": "",
@@ -553,7 +553,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_multiplicative_amplification_floor/verify.py",
-      "seconds": 0.024133,
+      "seconds": 0.030234,
       "sha256": "f8ff25f4a0c39c00dc0b573bebed142147019f536f6015d21ce51a6ebcb6f567",
       "status": "PASS",
       "stderr_tail": "",
@@ -562,7 +562,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/sov_affine_piece_partition_certificate_soundness/verify.py",
-      "seconds": 0.01812,
+      "seconds": 0.020794,
       "sha256": "e10bb309b69b4fefbc0dc2904c291924d6f0ff48c4c8656ea6be68f1a4373cd8",
       "status": "PASS",
       "stderr_tail": "",
@@ -571,7 +571,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/sov_first_obstruction_sensitivity/verify.py",
-      "seconds": 0.074967,
+      "seconds": 0.072111,
       "sha256": "12c51ec9560cc88d2da44ea6e1a3e10eb1e001db2d847bbf185e6fbac35b6d93",
       "status": "PASS",
       "stderr_tail": "",
@@ -580,7 +580,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/sov_forced_root_recursion_algebra/verify.py",
-      "seconds": 0.029063,
+      "seconds": 0.030724,
       "sha256": "dcdb731e41068ca9f1a7668c0458f3f2582def11e1b57070cd560fe00bf9296a",
       "status": "PASS",
       "stderr_tail": "",
@@ -589,7 +589,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/sov_hminus1_fiber_fourier_duality/verify.py",
-      "seconds": 0.024703,
+      "seconds": 0.03422,
       "sha256": "5a732aabe87060b1e0d3dcd27edc7ee06cb6d08206222c695b04010f3884b464",
       "status": "PASS",
       "stderr_tail": "",
@@ -598,7 +598,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/sov_nonconstant_affine_character_cancellation/verify.py",
-      "seconds": 4.514477,
+      "seconds": 6.633091,
       "sha256": "57fdfa2da071826b11e020ed9ee24768f01110d2d85865717440322e9116ace1",
       "status": "PASS",
       "stderr_tail": "",
@@ -607,7 +607,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/v13_bc_curve_second_moment_identity/notes/verify_c1.py",
-      "seconds": 0.310858,
+      "seconds": 0.268643,
       "sha256": "5b561db8f7abb4e97f9377a5e21eaf3e5ccdd1187925f80d7be8e00350723a6f",
       "status": "PASS",
       "stderr_tail": "/repo/background/nodes/v13_bc_curve_second_moment_identity/notes/verify_c1.py:10: SyntaxWarning: invalid escape sequence '\\R'\n  sets in D\\R, deg(A-B) <= e-w-2, Phi_{w+1}(l_R * A) in Gamma }\n",
@@ -616,7 +616,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/xr_affine_core_cogirth_ray_bound/verify.py",
-      "seconds": 4.1982,
+      "seconds": 3.167203,
       "sha256": "499ec2416b314ef8907c5db597722f3028ec3861c029bac57b836d7150d612ac",
       "status": "PASS",
       "stderr_tail": "",
@@ -625,7 +625,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/xr_all_lineray_affine_core_bound/verify.py",
-      "seconds": 0.377158,
+      "seconds": 0.253108,
       "sha256": "424aa342be3b43619129ac79da8b3ea7eff823c968d67880565fae67c0b58001",
       "status": "PASS",
       "stderr_tail": "",
@@ -634,7 +634,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/xr_direction_distance_ray_bound/verify.py",
-      "seconds": 0.172278,
+      "seconds": 0.120244,
       "sha256": "45ba708e8c94f15a9882bc7c54ba01d45283ba56c2c83a1e174c961b4da7e7fb",
       "status": "PASS",
       "stderr_tail": "",
@@ -643,7 +643,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/xr_generic_mds_kernel_ray_bound/verify.py",
-      "seconds": 2.666506,
+      "seconds": 1.754145,
       "sha256": "6e95506a9923b6f989dd7a4b6d0131414618883190a408b53ea701d0d3ff3ea1",
       "status": "PASS",
       "stderr_tail": "",
@@ -652,7 +652,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/xr_highcore_collision_line_basis_ledger/verify.py",
-      "seconds": 0.063429,
+      "seconds": 0.059215,
       "sha256": "10cf60ab487eb2791bbdf1ed51a3a4ed456b54ce864e32327fc83a2d48c6dafe",
       "status": "PASS",
       "stderr_tail": "",
@@ -661,7 +661,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/xr_highcore_component_union_atlas/verify.py",
-      "seconds": 0.265088,
+      "seconds": 0.187876,
       "sha256": "9fe697e1d8eca5471a6be0274d2899c904480d35b37ba5b24530cf04215ebd99",
       "status": "PASS",
       "stderr_tail": "",
@@ -670,16 +670,16 @@
     {
       "returncode": 0,
       "script": "background/nodes/xr_ledger_qpower/verify.py",
-      "seconds": 36.906994,
+      "seconds": 25.38769,
       "sha256": "e5b22817a9121120c195abae93e68a101e50a2b93ffbd28a2e7eced275901514",
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PART A (exact codim): 202 checks, all match t+min(s,t)\n  t=2: conditional P[both|one] and its q-exponent vs predicted min(s,t-1):\n     s=1: P[both|one]=0.1593  emp_exp~0.77  pred=1\n     s=2: P[both|one]=0.0910  emp_exp~1.00  pred=1\n  t=3: conditional P[both|one] and its q-exponent vs predicted min(s,t-1):\n     s=1: P[both|one]=0.0998  emp_exp~0.96  pred=1\n     s=2: P[both|one]=0.0065  emp_exp~2.10  pred=2\n     s=3: P[both|one]=0.0041  emp_exp~2.29  pred=2\nPART B (slope accounting): empirical exponents track min(s,t-1) (rise with s, plateau at t-1); small-field constants apply.\nPASS\n"
+      "stdout_tail": "PART A (exact codim): 202 checks, all match t+min(s,t)\n  t=2: conditional P[both|one] and its q-exponent vs predicted min(s,t-1):\n     s=1: P[both|one]=0.1530  emp_exp~0.78  pred=1\n     s=2: P[both|one]=0.1020  emp_exp~0.95  pred=1\n  t=3: conditional P[both|one] and its q-exponent vs predicted min(s,t-1):\n     s=1: P[both|one]=0.1078  emp_exp~0.93  pred=1\n     s=2: P[both|one]=0.0145  emp_exp~1.76  pred=2\n     s=3: P[both|one]=0.0020  emp_exp~2.58  pred=2\nPART B (slope accounting): empirical exponents track min(s,t-1) (rise with s, plateau at t-1); small-field constants apply.\nPASS\n"
     },
     {
       "returncode": 0,
       "script": "background/nodes/xr_minor_specialization_certificate_semantics/verify.py",
-      "seconds": 0.021116,
+      "seconds": 0.022928,
       "sha256": "f16a5c63ca1972e5dcdbcd18a6c5d3a94f0d9acf34f5adfccd4791bfa6746df4",
       "status": "PASS",
       "stderr_tail": "",
@@ -688,7 +688,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/xr_profile_minor_record_inventory_soundness/verify.py",
-      "seconds": 0.018726,
+      "seconds": 0.023821,
       "sha256": "dea0f2c68ed08fefa19ca193edadc9737774ada9b3d1950d9cc49d2082dd2e7a",
       "status": "PASS",
       "stderr_tail": "",
@@ -697,7 +697,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/xr_radius_arithmetic/verify.py",
-      "seconds": 0.026154,
+      "seconds": 0.029428,
       "sha256": "027686ffcb7022af04159901a02f5145f90be8bd59dfb18e859ec638116e660b",
       "status": "PASS",
       "stderr_tail": "",
@@ -706,7 +706,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/xr_triangular_minor_certificate_soundness/verify.py",
-      "seconds": 0.019458,
+      "seconds": 0.021768,
       "sha256": "a949dd9c6af909560685312bf8b3e064e3755c51a0e8be46d4be2d232742b344",
       "status": "PASS",
       "stderr_tail": "",
@@ -715,7 +715,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/cap_envelope_parameter_sweep/notes/verify_sweep.py",
-      "seconds": 2.308545,
+      "seconds": 1.678471,
       "sha256": "1bbfdfc33b33cec8afa01bbb959124d85285698d24dd0f777d49946724cb8512",
       "status": "PASS",
       "stderr_tail": "",
@@ -724,7 +724,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/census_bounded_scales/verify.py",
-      "seconds": 0.038072,
+      "seconds": 0.038894,
       "sha256": "282974d287642693e9789329dc89958906c8b4757698af954e56426de8e029d0",
       "status": "PASS",
       "stderr_tail": "",
@@ -733,7 +733,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/census_exact_counts/verify.py",
-      "seconds": 0.023111,
+      "seconds": 0.022373,
       "sha256": "c92310e2610c7aa8f34f7dd2cb35ddbe668f2a977dcaa98385229e82619e2f33",
       "status": "PASS",
       "stderr_tail": "",
@@ -742,7 +742,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_artin_schreier_conductor_criterion/verify.py",
-      "seconds": 0.028408,
+      "seconds": 0.022743,
       "sha256": "c2c6ddc85bfef9b7aa3c5b4c1eee741edb5cbcbb606b3c73a60b1a8ec15073bb",
       "status": "PASS",
       "stderr_tail": "",
@@ -751,7 +751,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_odd_phase_budget_ledger_soundness/verify.py",
-      "seconds": 0.024535,
+      "seconds": 0.025133,
       "sha256": "3e4f5ce78a7752217c6ce5b5c2fc61a7cc0700bbf8a1cac530c9e4b2c800f437",
       "status": "PASS",
       "stderr_tail": "",
@@ -760,7 +760,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_odd_phase_polar_obstruction_soundness/verify.py",
-      "seconds": 0.016556,
+      "seconds": 0.021357,
       "sha256": "870a9d3d33f0b8ef4264b4e212ce342f48bb250deb195357b9db1c5431c66a94",
       "status": "PASS",
       "stderr_tail": "",
@@ -769,7 +769,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_prime_weighted_large_block_support/notes/verify_m1_result.py",
-      "seconds": 0.221653,
+      "seconds": 0.145009,
       "sha256": "6a946edc23c79ecfc8afb3682a1537f1ef7056a48e06885e68a2d0c26d858767",
       "status": "PASS",
       "stderr_tail": "",
@@ -778,7 +778,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_prime_weighted_large_block_support/notes/verify_m2_c1prime_result.py",
-      "seconds": 0.084362,
+      "seconds": 0.074057,
       "sha256": "922278685f66032d50d532b35da39d83301e65a96b4aa3dcb8c847ebe7984f5d",
       "status": "PASS",
       "stderr_tail": "",
@@ -787,7 +787,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_prime_weighted_large_block_support/notes/verify_m3_endpoint_contract.py",
-      "seconds": 0.058439,
+      "seconds": 0.091182,
       "sha256": "f5571df3274cf65ed83e9154f2f51d45ff0e8cd033fd4d6ad0a437ce5eebe6bc",
       "status": "PASS",
       "stderr_tail": "",
@@ -796,7 +796,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_prime_weighted_large_block_support/notes/verify_round6_reply.py",
-      "seconds": 15.342584,
+      "seconds": 12.088301,
       "sha256": "0162224679282d8fa0eea8372678e2c6a3b2a7a43c7d4c0fe91d326b9be71ac0",
       "status": "PASS",
       "stderr_tail": "",
@@ -805,7 +805,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_prime_weighted_large_block_support/notes/verify_round7_reply.py",
-      "seconds": 32.841329,
+      "seconds": 22.976542,
       "sha256": "147db66b2c6cac81b61c75140e517390c2bddc8f61697546b05adf546656707c",
       "status": "PASS",
       "stderr_tail": "",
@@ -814,7 +814,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_reduced_phase_manifest_soundness/verify.py",
-      "seconds": 0.029281,
+      "seconds": 0.023368,
       "sha256": "78e87b5a38cc361d26b350624a2c80d9cb95b71bedad85dfde9e6f07b230c410",
       "status": "PASS",
       "stderr_tail": "",
@@ -823,7 +823,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dli_reduced_pole_majorant_table_soundness/verify.py",
-      "seconds": 0.025927,
+      "seconds": 0.020658,
       "sha256": "97367ae200a216c0d2834d19b4e1a564afcbc0951b377832c1eee84e6b22db7a",
       "status": "PASS",
       "stderr_tail": "",
@@ -832,7 +832,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/dyadic_profile_evaluation/verify.py",
-      "seconds": 0.02467,
+      "seconds": 0.022782,
       "sha256": "96ee55cc1f95d9b3704599e9690d341a8ac63c839949db9272e0212f8e96f4ef",
       "status": "PASS",
       "stderr_tail": "",
@@ -841,7 +841,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e1_folded_certificate_manifest_soundness/verify.py",
-      "seconds": 0.022973,
+      "seconds": 0.022553,
       "sha256": "31abaa74c2801b027364f24485fdaf090c69fc4d21e7ad233b11336d8f5b146e",
       "status": "PASS",
       "stderr_tail": "",
@@ -850,7 +850,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e1_folded_certificate_soundness/verify.py",
-      "seconds": 1.468758,
+      "seconds": 1.029427,
       "sha256": "2b41785ca3e9e16b6314263405e8d5e4be129ad49cb09c739e8aa4b0db27f3df",
       "status": "PASS",
       "stderr_tail": "",
@@ -859,7 +859,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e1_named_field_folded_cell_certificate_soundness/verify.py",
-      "seconds": 0.024951,
+      "seconds": 0.02147,
       "sha256": "700abd913f354c3735b4d22d41c0267aaa148d59471e156c0c8877e30728aebd",
       "status": "PASS",
       "stderr_tail": "",
@@ -868,7 +868,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e1_open_cell_route_soundness/verify.py",
-      "seconds": 0.016952,
+      "seconds": 0.020795,
       "sha256": "dfa803547df203f13463097cff67339a1ce79bb544cbe606b0a5aad8c015165c",
       "status": "PASS",
       "stderr_tail": "",
@@ -877,7 +877,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e1_pocklington_250bit_exhibit_field/verify.py",
-      "seconds": 0.02936,
+      "seconds": 0.022875,
       "sha256": "1b45dfdfe731fb5db4e1e3621a7d6aab38cef86250286cd1f363896bd90d9aeb",
       "status": "PASS",
       "stderr_tail": "",
@@ -886,7 +886,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e1_two_cell_folded_manifest_assembly_soundness/verify.py",
-      "seconds": 0.016933,
+      "seconds": 0.022619,
       "sha256": "f0bb27c5c494b6967cba473f1d44e367e6cc922b25b0c88ebfe5405cea46445e",
       "status": "PASS",
       "stderr_tail": "",
@@ -895,7 +895,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_agreement_cofactor_equations/verify.py",
-      "seconds": 2.156654,
+      "seconds": 2.529395,
       "sha256": "2d13d61bf00876f78991bf877676e0408ff74701d5536432e3bcf479eb811a8b",
       "status": "PASS",
       "stderr_tail": "",
@@ -904,7 +904,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_cofactor_petal_divisibility/verify.py",
-      "seconds": 0.020677,
+      "seconds": 0.023028,
       "sha256": "5fbeb9626fd790bae5bb10be6da5b7f3e4bded303afd4bb67b29e9e6966ca22d",
       "status": "PASS",
       "stderr_tail": "",
@@ -913,7 +913,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_cross_scale_support_canonical_form/verify.py",
-      "seconds": 0.021733,
+      "seconds": 0.027671,
       "sha256": "3bfc194cd121ceef668ea1ce20a516e61fd1f278f7104d0ecb61690706e94c02",
       "status": "PASS",
       "stderr_tail": "",
@@ -922,7 +922,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_fiber_locator_saturation/verify.py",
-      "seconds": 0.075485,
+      "seconds": 0.096686,
       "sha256": "f438f930a1fc0be6533189f1530569cedac3491c28a0adfb6e7b58d181a50429",
       "status": "PASS",
       "stderr_tail": "",
@@ -931,7 +931,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_fixed_scale_staircase_injectivity/verify.py",
-      "seconds": 0.282595,
+      "seconds": 0.457369,
       "sha256": "c9fa492ba2136c91401c3872484f911ac6cfe6ec2f0c023d858a956147671403",
       "status": "PASS",
       "stderr_tail": "",
@@ -940,7 +940,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_lower_scale_filter_inclusion_exclusion/verify.py",
-      "seconds": 0.028329,
+      "seconds": 0.021126,
       "sha256": "56b380aeb6ba5a1c9b168d381e805d3221c80bbdcb6d520272ac61b5aa0581bb",
       "status": "PASS",
       "stderr_tail": "",
@@ -949,7 +949,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_overlap_nested_fiber_residual_identity/verify.py",
-      "seconds": 0.034059,
+      "seconds": 0.038579,
       "sha256": "54feb9f14165ca2fa6d9e0f536aab63c43007a37b2e60b10c15cd1e8eb45fdc3",
       "status": "PASS",
       "stderr_tail": "",
@@ -958,7 +958,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_residual_profile_generating_function/verify.py",
-      "seconds": 0.034096,
+      "seconds": 0.026937,
       "sha256": "9969dd4e1e4ecd484f743c2dc65e60b7807cd5c2570e3eb4fbaa6b026cc00af1",
       "status": "PASS",
       "stderr_tail": "",
@@ -967,7 +967,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/e22_tail_coset_locator_algebra/verify.py",
-      "seconds": 0.107348,
+      "seconds": 0.0915,
       "sha256": "66288f6ef525afaef9c5b3c707054e6c0f4a7ce3a118e7e52d2b1be0f868b121",
       "status": "PASS",
       "stderr_tail": "",
@@ -976,7 +976,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/ef_descended_cycle_classification_soundness/verify.py",
-      "seconds": 0.028757,
+      "seconds": 0.019651,
       "sha256": "4496c4a6972d7ebcf66c74125879433e57fa05795a299a928092d6122725958f",
       "status": "PASS",
       "stderr_tail": "",
@@ -985,7 +985,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/ef_descended_cycle_inventory_soundness/verify.py",
-      "seconds": 0.02696,
+      "seconds": 0.01978,
       "sha256": "c1fe29fb6e2bc334112edc4ea0c71b774d52ffe9522a3e46936a3430ce9d1bb4",
       "status": "PASS",
       "stderr_tail": "",
@@ -994,7 +994,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/ef_full_orbit_cycle_descent/verify.py",
-      "seconds": 0.017093,
+      "seconds": 0.020323,
       "sha256": "dc60fd2e8d4e651f0058234fbc9ed334dd49dfd48741a6ae4a5063888fc379ac",
       "status": "PASS",
       "stderr_tail": "",
@@ -1003,7 +1003,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/f1_minimal_field_descent/verify.py",
-      "seconds": 1.408563,
+      "seconds": 1.912625,
       "sha256": "18868ab232347b58c155c0bb382e684bff96974aacabc49c99e6ce792858ef2c",
       "status": "PASS",
       "stderr_tail": "",
@@ -1012,7 +1012,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/f3_h3_mobius_excess_half/verify.py",
-      "seconds": 0.043516,
+      "seconds": 0.042258,
       "sha256": "6e59c0fe1ab48d65f53feef31ae0826f42e938ff4827d22d5c0960feb11543f0",
       "status": "PASS",
       "stderr_tail": "",
@@ -1021,7 +1021,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/f_dual_distance_frame/verify.py",
-      "seconds": 0.15065,
+      "seconds": 0.161728,
       "sha256": "a547fa9678af4d7aa9ecccc5bdeb7a6d24037dc5e6c342caf31281b1fb852361",
       "status": "PASS",
       "stderr_tail": "",
@@ -1030,7 +1030,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/gap2_seam/verify.py",
-      "seconds": 0.031242,
+      "seconds": 0.027602,
       "sha256": "82ca70898d2e7c91e4afe34b96aa56f10319ba81ae07c0d7f50605a5b4f2ff15",
       "status": "PASS",
       "stderr_tail": "",
@@ -1039,7 +1039,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/list_large_m_scope_closure/verify.py",
-      "seconds": 0.117898,
+      "seconds": 0.052399,
       "sha256": "517373d07360c77a6106acaec4dc1790ba5703adc41620878dd2cc50e026ab03",
       "status": "PASS",
       "stderr_tail": "",
@@ -1048,7 +1048,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/petal_full_touched_set_injection/verify.py",
-      "seconds": 0.275254,
+      "seconds": 0.223776,
       "sha256": "d7b1f50379cd42fc85b02017f58c7a689ba220313464f5ad79f5c4f166f3b5df",
       "status": "PASS",
       "stderr_tail": "",
@@ -1057,7 +1057,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/petal_g1_layer_maps/verify.py",
-      "seconds": 16.073656,
+      "seconds": 16.138728,
       "sha256": "15e47c7a703438d32a15abd1603ddcfd1b16eb5fbc06f82ef2796d87bdffa6ea",
       "status": "PASS",
       "stderr_tail": "",
@@ -1066,7 +1066,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/petal_g2_support_forcing/verify.py",
-      "seconds": 0.298114,
+      "seconds": 0.26533,
       "sha256": "6d6b8a743a3bf169eaeaa1ea4591bc417069500eff56870cd3f33317df134ce9",
       "status": "PASS",
       "stderr_tail": "",
@@ -1075,7 +1075,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/petal_g3_profile_conversion_identity/verify.py",
-      "seconds": 0.481856,
+      "seconds": 0.353043,
       "sha256": "241bdf1b1f7c4c170a1f22aa98f36ab3644da4bc957c13a37bc18fcb63c648ed",
       "status": "PASS",
       "stderr_tail": "",
@@ -1084,7 +1084,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/petal_k4_johnson_slice/verify.py",
-      "seconds": 0.18931,
+      "seconds": 0.145213,
       "sha256": "6708fd2f0dc604133d24a2218f9b9930679c1f509c0170e305ee723c7b7fa49b",
       "status": "PASS",
       "stderr_tail": "",
@@ -1093,7 +1093,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/petal_k4_primitive_bound/verify.py",
-      "seconds": 0.058507,
+      "seconds": 0.046841,
       "sha256": "948fc2081c0a2d5db7d78e1bd7e49df5a861fcb6c902092932bd133c7d7c28a7",
       "status": "PASS",
       "stderr_tail": "",
@@ -1102,7 +1102,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/petal_retained_zero_effective_degree/verify.py",
-      "seconds": 3.335143,
+      "seconds": 2.354452,
       "sha256": "08c379ceaf05a0a7a2492659b37ad7f324c9055d83a2cf6f2e2d030f5159f7ef",
       "status": "PASS",
       "stderr_tail": "",
@@ -1111,7 +1111,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/petal_top_band_tail_collapse/verify.py",
-      "seconds": 1.089754,
+      "seconds": 0.925632,
       "sha256": "fe73c6153bdc2b5bd1b7a6a19b1573250a2da65cdb9963ff72da8e8625b52c31",
       "status": "PASS",
       "stderr_tail": "",
@@ -1120,7 +1120,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/spi_exceptional_class/notes/verify_writeup.py",
-      "seconds": 0.498812,
+      "seconds": 0.401234,
       "sha256": "b79890101e16b3f45e49b13079f59a39814fec0e5b3590d95b3f2671459babe5",
       "status": "PASS",
       "stderr_tail": "",
@@ -1129,7 +1129,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/stratification_partition_thm/verify.py",
-      "seconds": 6.807389,
+      "seconds": 5.547468,
       "sha256": "242b005daa9fdf8905660283be32526ae0f180fe4efe017ef57e1748f24c5726",
       "status": "PASS",
       "stderr_tail": "",
@@ -1138,7 +1138,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/v13_capf_planted_lower_count/notes/verify_capf_planted.py",
-      "seconds": 0.593175,
+      "seconds": 0.482382,
       "sha256": "d3cdc3cafbf5e5e2033c0dd157f1ad71f8947690bf6091767c44b9efdbc37eb4",
       "status": "PASS",
       "stderr_tail": "",
@@ -1147,7 +1147,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/weight_graded_mitm/verify.py",
-      "seconds": 0.061287,
+      "seconds": 0.070647,
       "sha256": "e24f0d531a819b3ac5f05f8c92d3b6e347778d338d409e34ed1bf97e4aa26280",
       "status": "PASS",
       "stderr_tail": "",
@@ -1156,7 +1156,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/ww_lower_witnesses/verify.py",
-      "seconds": 0.045546,
+      "seconds": 0.034296,
       "sha256": "5a5171aad21f4662359af8223d5eda11602ad545a50bf2aad268e1744f816289",
       "status": "PASS",
       "stderr_tail": "",
@@ -1165,7 +1165,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/ww_lower_witnesses/verify_construction.py",
-      "seconds": 0.333143,
+      "seconds": 0.334075,
       "sha256": "45cf386b9515c572f24f6a843db1f49651341660c0575f08c93b1e3c7e363023",
       "status": "PASS",
       "stderr_tail": "",
@@ -1174,7 +1174,7 @@
     {
       "returncode": 0,
       "script": "critical/nodes/xr_ledger_exponent_reconciliation/verify.py",
-      "seconds": 0.025084,
+      "seconds": 0.022534,
       "sha256": "d5e27409e66c0b1b1b6a42a08724f9069b7f60172ee18476b806a861a3f99250",
       "status": "PASS",
       "stderr_tail": "",
@@ -1183,7 +1183,7 @@
     {
       "returncode": 0,
       "script": "tools/verify_list_corridor_ledger.py",
-      "seconds": 1.709598,
+      "seconds": 1.332718,
       "sha256": "8d29b7d3a1dc81873fd12dea5df5339f41527aa19bc1903d92da268ef37f49c2",
       "status": "PASS",
       "stderr_tail": "",
@@ -1192,7 +1192,7 @@
     {
       "returncode": 0,
       "script": "tools/verify_list_corridor_widths.py",
-      "seconds": 0.047057,
+      "seconds": 0.057675,
       "sha256": "62f930c35c2c04414fd2274cbd1442bc692acd1dd0702fde5e57db03bca2733a",
       "status": "PASS",
       "stderr_tail": "",
@@ -1201,7 +1201,7 @@
     {
       "returncode": 0,
       "script": "tools/verify_official_row_primes_pinning.py",
-      "seconds": 0.051529,
+      "seconds": 0.118894,
       "sha256": "f6a7af8211e92ef1e5643bda43ed7e11df597956589d4cabfbe2479590814828",
       "status": "PASS",
       "stderr_tail": "",
@@ -1210,16 +1210,16 @@
     {
       "returncode": 0,
       "script": "tools/verify_prize_dag.py",
-      "seconds": 6.350412,
+      "seconds": 4.866321,
       "sha256": "fc78e615525a85988904f889b07cea6ade47d5eb319eab4cb882cbe14f270ff7",
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "K: the endpoint budget for the U-weighted joint sk [TARGET]\n  ! f2_growing_order_myerson: F2 SUMMIT NODE (2026-07-10, campaign capstone as first-class targe [TARGET]\n  ! f3_h3_mobius_excess_half: C36' weighted Mobius rich-fiber excess is at most n^2/2 [TARGET]\n  ! f3_hge4_norm_gate_count: NG-COUNT (the reduced red of HGE4's route-3 surgery, minted 2026-0 [TARGET]\n  ! rate_half_band_closure: FLOOR CONJECTURE (BAND-DETERMINATION): the rate-1/2 band determina [TARGET]\n  ! ww_row_envelope_clause: ROW-ENVELOPE DICHOTOMY (W3; SCK clause (ii) at the cell-conditiona [TARGET]\n  ! xr_highcore_collision_count: XR PREDICATE P-A (high-core collision count). At each of the six c [TARGET]\n  ! xr_lowcore_spread_heart: XR PREDICATE P-B (low-core spread heart \u2014 the anti-concentration h [TARGET]\nprize-dag: 621 nodes, 1072 edges\nstatus counts: CONDITIONAL:38, CONJECTURE:15, PROVABLE:27, PROVED:457, REFUTED:23, TARGET:54, WALL:7\nRIPE (requirements met, declaration pending): m4_table, window_m5_charts\nCONDITIONAL with no open wired hypothesis (prose-only conditions or flip-ready): list_safe, packaging\nARTIFACT-KIND nodes (not truth-apt; reword to propositional core or demote): alpha_front, beta_front, dossier_partial, m4_table, replay_170_171, strat_tree, v13_frontier_row_packets, window_m5_charts\nSTATUS-ARTIFACT GAPS (folders lagging statuses): 32\n  - spi_exceptional_class: missing statement.md\n  - stratification_partition_thm: missing statement.md\n  - spi_component_control: missing statement.md\n  - integer_code_distance_cert: status PROVED but no proof.md\n  - u2_per_row_certifier: status PROVED but no proof.md\n  - generator_size_budget_check: status PROVED but no proof.md\n  - hankel_sparse_atoms_as_rational_defects: missing statement.md\n  - hankel_rank_profile_entropy: missing statement.md\nAMBER-INVARIANT WARNINGS (1) \u2014 predicates to wire:\n  ~ packaging: CONDITIONAL but all wired hypotheses PROVED (promote or re-wire)\nPASS: structure, refs, acyclicity, reachability, status propagation\n"
+      "stdout_tail": " NODE (2026-07-10, campaign capstone as first-class targe [TARGET]\n  ! f3_h3_mobius_excess_half: C36' weighted Mobius rich-fiber excess is at most n^2/2 [TARGET]\n  ! f3_hge4_norm_gate_count: NG-COUNT (the reduced red of HGE4's route-3 surgery, minted 2026-0 [TARGET]\n  ! l1_mixed_petal_amplification: L1: mixed-petal / diffuse partial-petal amplification is polynomia [TARGET]\n  ! rate_half_band_closure: FLOOR CONJECTURE (BAND-DETERMINATION): the rate-1/2 band determina [TARGET]\n  ! ww_row_envelope_clause: ROW-ENVELOPE DICHOTOMY (W3; SCK clause (ii) at the cell-conditiona [TARGET]\n  ! xr_highcore_collision_count: XR PREDICATE P-A (high-core collision count). At each of the six c [TARGET]\n  ! xr_lowcore_spread_heart: XR PREDICATE P-B (low-core spread heart \u2014 the anti-concentration h [TARGET]\nprize-dag: 622 nodes, 1073 edges\nstatus counts: CONDITIONAL:40, CONJECTURE:15, PROVABLE:27, PROVED:455, REFUTED:23, TARGET:55, WALL:7\nRIPE (requirements met, declaration pending): m4_table, window_m5_charts\nCONDITIONAL with no open wired hypothesis (prose-only conditions or flip-ready): packaging\nARTIFACT-KIND nodes (not truth-apt; reword to propositional core or demote): alpha_front, beta_front, dossier_partial, m4_table, replay_170_171, strat_tree, v13_frontier_row_packets, window_m5_charts\nSTATUS-ARTIFACT GAPS (folders lagging statuses): 32\n  - spi_exceptional_class: missing statement.md\n  - stratification_partition_thm: missing statement.md\n  - spi_component_control: missing statement.md\n  - integer_code_distance_cert: status PROVED but no proof.md\n  - u2_per_row_certifier: status PROVED but no proof.md\n  - generator_size_budget_check: status PROVED but no proof.md\n  - hankel_sparse_atoms_as_rational_defects: missing statement.md\n  - hankel_rank_profile_entropy: missing statement.md\nAMBER-INVARIANT WARNINGS (1) \u2014 predicates to wire:\n  ~ packaging: CONDITIONAL but all wired hypotheses PROVED (promote or re-wire)\nPASS: structure, refs, acyclicity, reachability, status propagation\n"
     },
     {
       "returncode": 0,
       "script": "tools/verify_wild_row_audit.py",
-      "seconds": 27.555072,
+      "seconds": 39.093123,
       "sha256": "304aab9d7f08b41029808a829a23a7987e212ebda24dc1b8f8cd32568b72eee3",
       "status": "PASS",
       "stderr_tail": "",
