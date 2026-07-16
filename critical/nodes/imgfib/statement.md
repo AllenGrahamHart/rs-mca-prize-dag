@@ -1,6 +1,6 @@
 # imgfib
 
-- **status:** PROVED (2026-07-13; see proof.md)
+- **status:** CONDITIONAL (2026-07-14, catch #212; the 2026-07-13 PROVED promotion was an over-claim — mixed-petal bucket uncovered)
 - **closure:** proof
 - **refs (legacy repo):** ['wp_detail/wp_consolidation_sketch_extracts.md']
 

@@ -741,7 +741,7 @@
   {
    "id": "imgfib",
    "title": "L1: #ImgFib_U <= n^B above reserve (image fibers)",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "key": true,
    "refs": [
     "wp_detail/wp_consolidation_sketch_extracts.md",
@@ -749,7 +749,7 @@
     "critical/nodes/imgfib/proof.md",
     "critical/nodes/imgfib/statement.md"
    ],
-   "statement": "For ALL received words U: #ImgFib_U(k+sigma) <= n^B once sigma log2(q_D) >= (1+eps) log2 C(n, k+sigma) and the quotient profile is budgeted. || HYPOTHESES DISCHARGED -> PROVED (2026-07-13): the packet is a statement-level assembly over the wired kids (conditional.md), and the last open kid \u2014 petal_growth \u2014 is PROVED on the maintainer's P1 floor confirmation (the other four: conj_f, l1_program_frontier, dyadic_profile_evaluation, payment_completeness were already PROVED). Inherits the petal chain's standing tripwires (P)-3 / criterion 4 transitively.",
+   "statement": "For ALL received words U: #ImgFib_U(k+sigma) <= n^B once sigma log2(q_D) >= (1+eps) log2 C(n, k+sigma) and the quotient profile is budgeted. || HYPOTHESES DISCHARGED -> PROVED (2026-07-13): the packet is a statement-level assembly over the wired kids (conditional.md), and the last open kid \u2014 petal_growth \u2014 is PROVED on the maintainer's P1 floor confirmation (the other four: conj_f, l1_program_frontier, dyadic_profile_evaluation, payment_completeness were already PROVED). Inherits the petal chain's standing tripwires (P)-3 / criterion 4 transitively. || DEMOTED PROVED -> CONDITIONAL (2026-07-14, catch #212, credit the UPSTREAM AUDIT l1_imgfib_crosswalk_audit.md + its 41/41 verifier, integrated at rs-mca c35a6da3 wave; verified against our own artifacts): the 2026-07-13 promotion over-claimed. The statement's count #ImgFib_U(k+sigma) includes the MIXED-PETAL / DIFFUSE PARTIAL-PETAL bucket, which NO wired kid bounds: the cited 'off-band induction' lemmas are full-petal-only, the mixed induction was retracted 2026-07-05, our own scope statements (petal_growth/proof.md, the cp packet) disclaim mixed-petal, and catch #176 shows the bucket's mass is real (43 vs 10 full-petal at (16,8,97)). The audit CONFIRMS everything else: full-petal top-band (clause (P), independently reproduced 'no defect'), full-petal below-top, periodic, primitive -- all theorem-backed; and it STRENGTHENS clause 4 of the crosswalk (the chain does not consume the H-scale hypothesis at all: clause (P) works at sigma = 1, so sigma >= Cn/log n is DROPPED, not subsumed -- the old 'entropy forces sigma = Omega(n)' reasoning was false at the rows and is struck per #155). Now CONDITIONAL on exactly the minted red l1_mixed_petal_amplification (req-wired). The upstream L1 presentation (PR #750) must carry the same narrowing: full-petal instances theorem-backed; the mixed bucket open.",
    "attack_surface": "close the petal escape route (the only open branch of the Thm 21/B11 frontier); monomial instance already proved in quasi-poly range",
    "falsifier": "a toy word family with super-poly image fibers above the corrected reserve",
    "notes": "PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/imgfib.md): statement-level assembly over the wired kids. | The upstream L1 wave (holmbuar's collapse chain + Vadim's residue bridge, both merged) matured this node's substrate externally \u2014 the petal frontier now has a normal form. | AMBER AUDIT 2026-07-06: SOUND (petal premise honestly wired as red). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
@@ -1575,12 +1575,12 @@
   {
    "id": "m_le3_route",
    "title": "Worst-case interleaved route for m <= 3 (given base exponent ~1)",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "notes": "proved-modulo: imgfib at exponent ~1 AND the rules reading; budget 128/(m*40) verified",
    "refs": [
     "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#1"
    ],
-   "statement": "Conditional on rules_m_reading and imgfib at exponent about 1, the worst-case interleaved route covers m <= 3 with the verified 128/(m*40) budget. || HYPOTHESES DISCHARGED -> PROVED (2026-07-13): both named conditions (rules_m_reading, imgfib) are PROVED \u2014 imgfib closed today via the petal chain and the maintainer's P1 floor confirmation. Inherits the petal tripwires transitively."
+   "statement": "Conditional on rules_m_reading and imgfib at exponent about 1, the worst-case interleaved route covers m <= 3 with the verified 128/(m*40) budget. || HYPOTHESES DISCHARGED -> PROVED (2026-07-13): both named conditions (rules_m_reading, imgfib) are PROVED \u2014 imgfib closed today via the petal chain and the maintainer's P1 floor confirmation. Inherits the petal tripwires transitively. || RE-DEMOTED -> CONDITIONAL (2026-07-14, cascade of catch #212): the imgfib hypothesis reverted to CONDITIONAL (mixed-petal bucket uncovered), so this node's 2026-07-13 promotion reverts with it; conditional exactly as before on imgfib (+ the PROVED rules_m_reading)."
   },
   {
    "id": "rules_m_reading",
@@ -5789,6 +5789,16 @@
     "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/statement.md",
     "critical/nodes/dli_prime_weighted_large_block_support/DLI_CLOSE_PINNED.md"
    ]
+  },
+  {
+   "id": "l1_mixed_petal_amplification",
+   "title": "L1: mixed-petal / diffuse partial-petal amplification is polynomially bounded (large-defect regime)",
+   "status": "TARGET",
+   "refs": [
+    "critical/nodes/l1_mixed_petal_amplification/statement.md",
+    "critical/nodes/l1_mixed_petal_amplification/attack.md"
+   ],
+   "statement": "At every official row and for every received word U, the MIXED-PETAL / DIFFUSE PARTIAL-PETAL contributors to #ImgFib_U(k+sigma) (supports touching >= 1 petal in fewer than 2 points, or diffuse core-heavy supports outside the full-petal stratum) are polynomially bounded above the corrected reserve, with the quotient profile budgeted. This is the bucket of the image-fiber count that the proved chain does NOT cover: clause (P) + K4 + the census gate close full-petal top-band, full-petal below-top (Lemmas 13/15/16), primitive, and periodic; the mixed bucket was labeled CONJECTURAL by the program note ('Mixed-petal sunflower amplification: CONJECTURAL. Next focused bound to prove or refute in the large-defect regime') and its naive induction (petal_excess_induction / petal_mixed_amplification_step) was RETRACTED 2026-07-05 after repeated falsifications-as-stated (dim K grows with c; the residue-line growth IS the obstruction). KNOWN MASS (catch #176): 43 mixed-petal floor-band contributors vs 10 full-petal at (16,8,97) -- real, 4x the full-petal mass at the smallest cell; no growth law measured. POSED at the upstream audit's finding (l1_imgfib_crosswalk_audit.md, upstream commit c35a6da3 wave; catch #212): B11's residual frontier = growing-excess full-petal (closed by clause (P)) PLUS this diffuse partial-petal case. FALSIFIER: a word family whose mixed-petal image-fiber count grows super-polynomially above the corrected reserve; or (route-kill) a proof that mixed-petal mass at official rows exceeds any n^B. NOTE: Codex's v4 PMA campaign (133 commits, 2026-07-13..15) appears to attack exactly this allocation problem -- survey in flight, audit-gated import pending."
   }
  ],
  "edges": [
@@ -11151,6 +11161,11 @@
    "from": "dli_wcl_newton_short_window_exclusion",
    "to": "dli_wcl_zone_coverage",
    "kind": "ev"
+  },
+  {
+   "from": "l1_mixed_petal_amplification",
+   "to": "imgfib",
+   "kind": "req"
   }
  ]
 }

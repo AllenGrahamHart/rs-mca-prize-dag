@@ -1,3 +1,5 @@
+> **SUPERSEDED 2026-07-14 (catch #212, credit the upstream audit l1_imgfib_crosswalk_audit.md):** the assembly below over-claims — the five kids do not cover the MIXED-PETAL / DIFFUSE PARTIAL-PETAL bucket of #ImgFib_U (the mixed induction was retracted 2026-07-05; catch #176 shows the mass is real). Node re-demoted to CONDITIONAL on the minted red l1_mixed_petal_amplification. The full-petal, periodic, and primitive coverage claims below remain valid and independently reproduced (upstream 41/41 verifier).
+
 # Proof — imgfib
 
 Discharged 2026-07-13. The packet (conditional.md, "statement-level

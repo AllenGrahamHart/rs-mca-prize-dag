@@ -1,6 +1,6 @@
 # conditional proof: imgfib
 
-- **status:** PROVED (discharged 2026-07-13; retained as history — see proof.md)
+- **status:** CONDITIONAL (re-demoted 2026-07-14, catch #212 — the mixed-petal bucket is uncovered; conditional on l1_mixed_petal_amplification; see the demotion addendum in dag.json and proof.md's supersession note)
 - **closure:** proof
 
 ## Source

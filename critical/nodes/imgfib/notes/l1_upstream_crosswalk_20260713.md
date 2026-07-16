@@ -47,3 +47,28 @@ asymptotic theorem.
   (P)); the G3 compiler + census gate + K4 + qa22 verifiers; harness
   124 scripts / 221 assets; Modal execution re-pin 124/124 complete
   (experiments/prize_resolution/modal_verifier_replay.json).
+
+---
+
+## AUDIT ANNOTATIONS (2026-07-14, from the upstream adversarial audit
+## l1_imgfib_crosswalk_audit.md, 41/41 verifier; per #155 the table above
+## is annotated, never rewritten — catches #212/#213)
+
+- **Clause 6 verdict corrected: MATCH -> OPEN GAP (catch #212, the
+  demotion driver).** The mixed-petal / diffuse partial-petal bucket of
+  #ImgFib_U is NOT theorem-backed: the cited "off-band induction" lemmas
+  are full-petal-only; the mixed induction was retracted 2026-07-05;
+  catch #176 quantifies the missed mass (43 vs 10 at (16,8,97)). The
+  top-line "OFFICIAL-ROW INSTANTIATION DISCHARGED" is therefore
+  narrowed to: the FULL-PETAL, PERIODIC, and PRIMITIVE instances are
+  theorem-backed; the mixed bucket is the open red
+  l1_mixed_petal_amplification. imgfib re-demoted CONDITIONAL.
+- **Clause 4 reasoning corrected (catch #213, a STRENGTHENING):** the
+  stated reason ("clause 3 forces sigma = Omega(n), far stronger") is
+  FALSE at the rows (sigma_min ~ (1+eps)H(rho)n/log2 q = O(n/log n),
+  same order as H-scale; upstream recomputed exactly at all four rows).
+  The verdict survives by a stronger route: clause (P) is proved at
+  sigma = 1, and contributors at sigma >= 1 are a subset of the sigma=1
+  contributors, so the chain does not consume H-scale AT ALL — the
+  hypothesis is DROPPED, not subsumed.
+- Verification-trail counts updated: 135/135 Modal (was 124 at writing).

@@ -2013,3 +2013,42 @@ full-weight ledger; whether the 34-factor product still clears
 2^100 is exactly the open question) is genuine research, NOT a
 forced correction — flagged for the maintainer / a future cycle,
 design in c1r2_report.md. Modal re-pin next (statuses changed).
+
+## 77 — 2026-07-14: CATCH #212 (upstream audit, credit przchojecki's
+## in-repo auditor): the imgfib PROVED promotion OVER-CLAIMED — the
+## mixed-petal bucket was never covered; DEMOTED + red minted
+
+Upstream integrated our PR #750 conservatively (crosswalk taken
+byte-identical to experimental/notes/l1/; roadmap promotion HELD) and
+ran their own adversarial audit (l1_imgfib_crosswalk_audit.md +
+deterministic 41/41 verifier with tamper self-test). VERDICT: 7/9
+clauses NO ISSUE, clause-(P) mathematics "independently reproduced,
+no defect" (every constant to the last digit, incl. the 88.5038-bit
+margin), our verifiers re-run green (62/0, 37/0, 135/135 Modal) —
+and TWO catches against us: #212 (MAJOR): clause 6's "mixed/below-top
+by off-band induction" is FALSE — the induction lemmas are
+full-petal-only, the mixed-amplification induction was RETRACTED
+2026-07-05, our own scope statements disclaim mixed-petal, and our
+own catch #176 shows the bucket's mass is real (43 vs 10 at
+(16,8,97), 4x full-petal). The imgfib count includes that bucket, so
+the 2026-07-13 PROVED flip was an over-claim of exactly the #79
+class — caught externally this time. #213 (a STRENGTHENING): clause
+4's 'entropy forces sigma = Omega(n)' is false at the rows (sigma_min
+= O(n/log n), recomputed exactly); the verdict survives better —
+clause (P) works at sigma = 1, so H-scale is NOT CONSUMED at all
+(dropped, not subsumed). EXECUTED (forced corrections — the PROVED
+label was factually unsupported): imgfib PROVED -> CONDITIONAL on
+the MINTED red l1_mixed_petal_amplification (critical/nodes/, full
+statement + attack + provenance + falsifier; catch-#176 evidence and
+the 2026-07-05 retraction pinned); m_le3_route re-demoted
+CONDITIONAL (cascade); proof.md supersession-annotated (full-petal /
+periodic / primitive claims REMAIN valid); crosswalk annotated per
+#155 (clause 6 -> OPEN GAP, clause 4 -> the stronger sigma=1 route);
+petal_growth and clause (P) UNTOUCHED (their scopes were always
+honest — the failure was the assembly's). SURFACE: +1 red (10 open
+leaves). OWED: (1) PR #750 correction note (outward-facing — user
+approval); (2) audit-gate Codex v4 PMA (survey in flight — it
+appears to attack exactly this bucket); (3) the mixed-petal
+falsification/measurement round (attack.md). The external-audit
+loop WORKED: fresh eyes on our strongest claim found the one soft
+joint within 3 days of publication.
