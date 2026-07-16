@@ -160,3 +160,92 @@ reduction with a feasible class and storage bound. A separately preregistered
 small weight-6 round is useful as a falsification probe because a six-term
 isolated-row witness is already known, but it must not be confused with
 closure.
+
+The exact Burnside sizing in `weight5_orbit_route_fence.md` now resolves the
+second option negatively as a uniform continuation: weight five has
+`2,296,920` affine-Galois norm classes and weight six has `185,569,028`, versus
+`24,979` in the completed weight-four packet. A 256-class exact norm sample
+survived, but a blind factor sweep is not a viable six-slot proof. Continue
+with the simultaneous-moment sparse-divisor system, starting at `(2,5)`.
+
+The proved `dli_wcl_ell2_weight5_pair_quadratic_router` supplies the first
+structured interface. After scaling one root to `1` and choosing two others
+`x,y`, it determines the sum and product of the final pair. Membership of that
+pair in `mu_1024` is equivalent to two explicit Dickson-recurrence equations.
+This reduces the slot from five free roots to two shape variables, but does not
+yet exclude their official-characteristic solutions.
+
+The proved `dli_wcl_ell2_weight5_pair_ideal_index_obstruction` clears those
+two equations inside `Z[zeta_M]`. For every normalized pair it packages them
+as an exact finite-index ideal; any split-row characteristic supporting the
+pair must divide that index. Odd Galois dilation preserves the index, so one
+pair per dilation orbit suffices. The complete small-order ladder has
+
+```text
+M=16,32,64,128: 14,36,82,176 pair orbits,
+308/308 exact Smith indices complete,
+12 distinct bad primes, maximum v_2(p-1)=8.
+```
+
+This is strong route evidence for the official split gate `v_2(q-1)>=41`, not
+an extrapolated theorem. Direct integer Smith form is also fenced as the
+production implementation: sampled `M=256` workers hit 600 seconds. The next
+attack should preserve the ideal obstruction while replacing full integer
+Smith form by a structured cyclotomic/resultant or modular determinantal
+certificate at `M=1024`.
+
+## Norm-gcd closure (2026-07-14)
+
+The structured resultant route is now complete. It is enough to use the
+weaker principal obstruction
+
+```text
+g(i,j)=gcd(|Norm(F)|,|Norm(G)|),
+```
+
+because every supporting characteristic divides both norms. Exact FLINT
+resultants cover all `1,514` odd-dilation pair orbits at `M=1024`; the `507`
+distinct nontrivial gcds factor over `168` Pocklington-certified primes, with
+maximum `v_2(p-1)=18`. Thus `(ell,w)=(2,5)` is empty on every official row.
+
+The current residual set is
+
+```text
+(1,5), (1,6), (2,6), (2,7), (4,9).
+```
+
+## Weight-six triple-cubic router (2026-07-14)
+
+The simultaneous-moment route now extends to `(ell,w)=(2,6)`. Normalize a
+selected triple to `{1,x,y}`, and let `d` be the product of the remaining
+three roots. The paid weight-three exclusion makes `u=1+x+y` nonzero, so
+the remaining cubic is determined by `x,y,d`. Two coupled power-of-two
+doubling recurrences characterize whether all three cubic roots lie in
+`mu_1024`.
+
+This gives at most
+
+```text
+1514 pair orbits * 1024 products = 1,550,336 candidates,
+```
+
+each with two explicit cyclotomic norm obstructions. It is substantially
+smaller than the fenced `185,569,028` blind weight-six norm classes and
+uses only ten recurrence doublings per candidate before norm evaluation.
+The next exact step is to classify algebraically zero obstruction pairs,
+benchmark sampled norm gcds, and only then decide whether a complete
+parallel certificate is feasible. No emptiness or WCL promotion occurs yet.
+
+The first deterministic norm benchmark completed on Modal
+(`ap-CQbBz0ysQOhbfp2z51zewT`). Four candidates at each order
+`64,128,256,512,1024` had no identically zero obstruction pair. Raw gcds
+reached `183,078` bits. Removing all factors shared with `Norm(u)` is
+rigorous by the paid weight-three exclusion and reduced the sampled maximum
+to `11,367` bits. A separate factor run
+(`ap-4XmwufmOFrKTfwDNWEtyiS`) completely factored all `19` nonunit
+saturated gcds over `16` primes, with maximum `v_2(p-1)=10`.
+
+The route survives, but a blind production sweep is not selected: sampled
+order-`1024` norm pairs took `28.2--44.7` seconds. The next theorem should
+batch candidates, exploit the small-prime support, or quotient the
+pair-product space further before dispatching `1.55` million norm pairs.

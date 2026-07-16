@@ -5052,7 +5052,7 @@
    "id": "xr_highcore_collision_count",
    "status": "TARGET",
    "key": true,
-   "statement": "XR PREDICATE P-A (high-core collision count). At each of the six clean-rate candidates, for every generic-branch pair (u,v) (pairs jointly A-close to a codeword pair are tangent-paid and out of scope \u2014 the consumer's own dichotomy), the number of post-strip live slopes sharing a size-k core with another live member is <= 8n^3, dihedral-symmetric and extension-type slopes counted inside. Row pins (audit-recomputed): the six clean-rate candidates = (RowC n=1024, prize n=2^41) x rates 1/4, 1/8, 1/16; A = k + n/scale + 1 with deciding scales 256/256/512; B* = floor((2^1279)^(1/10)) at prize (log2 = 127.9000); q idealized (2^250 prime-unpinned, 2^255.9) with the I2 q = p^k pin caveat (0.089-bit sliver) inherited; extension-type mass INSIDE predicate scope. FM-witnessing caveat: all Face-3 evidence sits at FM = Theta(1)..107; candidate-row behavior is extrapolation. K2 Face-3 instance (chain step 5c), constant-exact \u2014 K2 duplication catch #35: cite BOTH rigidity_kernel AND rk_rigidity_kernel; object pin = rank-loss/collision-core configurations; operating point = the six candidates (FM-suppressed). PROVED AROUND IT: post-strip pairwise cores <= k (rung-2b two-slope forcing, replayed exhaustively \u2014 4,662 forced pairs, 0 violations, plus a t=3 control); every high-core slope is a ray through a collision core W with mult(W) >= 2, so #high-core <= 2 Sigma_W C(mult(W),2) (T1-T4 + sunflower per-W cap (n-k)/(t-d), machine-instantiated). The canonical component-union atlas now deduplicates slopes, cores, and union charts exactly: #high-core=sum_C |Z_C| and GRK bounds each component by floor(C(R+d_C,d_C)R/C(d_C+h,d_C)). The all-LineRay affine-core theorem pays any selector of rank at most three. The collision-line basis ledger proves sum b_ell<=C(n,s-1), the exact line cap, a low-basis global chart of excess <=b+s-2, and the minimum-basis self-localized ledger. The affine-core cogirth ray bound pays full-domain selector ranks 4,4,3,11,11,10 and consumes every remaining rank-four line chart. Thus selector rank four is closed unconditionally on five rows (full-domain cogirth); at RowC 1/16 it is closed for families whose min-rank selector hull admits a collision line with core-nonloop count m <= 49 (equivalently b <= 47; localized cogirth on the R+m chart, covering-free) or whose high-core members are all line-covered (CLB3, b_* >= 7) -- the line-free/line-uncovered rank-4 sub-case at RowC 1/16 remains open (catch #158); at the prize rates every open selector has rank at least 12,12,11. Uniform collision-core branches are separately paid through ranks 13,9,7,60,40,30. On the component route the higher-rank residual remains the explicit sum over component counts and union excesses d_C, not atlas construction. P9 exact search confirms the high-transversal-rank branch is nonvacuous after tangent deletion at toy rows. POSEDNESS PIN (catch #42): the predicate is on the SLOPE COUNT, not the collision MOMENT \u2014 the moment can sit at ~n^6 while the floor holds (np1 datum: moment 130,370 vs 98 high-core rays); the moment identity is the instrument, not the target. PRE-REGISTERED FALSIFIER: a generic-branch pair at a scaled official-like row with post-strip high-core slope count > 8n^3 transported, sustained (E27/P9 machinery); FM-band-consistent counts and moment values alone do NOT refute. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/xr_smallcore_spread_count/notes/QUALITY_xr_highcore_collision_count.md",
+   "statement": "XR PREDICATE P-A (high-core collision count). At each of the six clean-rate candidates, for every generic-branch pair (u,v) (pairs jointly A-close to a codeword pair are tangent-paid and out of scope \u2014 the consumer's own dichotomy), the number of post-strip live slopes sharing a size-k core with another live member is <= 8n^3, dihedral-symmetric and extension-type slopes counted inside. Row pins (audit-recomputed): the six clean-rate candidates = (RowC n=1024, prize n=2^41) x rates 1/4, 1/8, 1/16; A = k + n/scale + 1 with deciding scales 256/256/512; B* = floor((2^1279)^(1/10)) at prize (log2 = 127.9000); q idealized (2^250 prime-unpinned, 2^255.9) with the I2 q = p^k pin caveat (0.089-bit sliver) inherited; extension-type mass INSIDE predicate scope. FM-witnessing caveat: all Face-3 evidence sits at FM = Theta(1)..107; candidate-row behavior is extrapolation. K2 Face-3 instance (chain step 5c), constant-exact \u2014 K2 duplication catch #35: cite BOTH rigidity_kernel AND rk_rigidity_kernel; object pin = rank-loss/collision-core configurations; operating point = the six candidates (FM-suppressed). PROVED AROUND IT: post-strip pairwise cores <= k (rung-2b two-slope forcing, replayed exhaustively \u2014 4,662 forced pairs, 0 violations, plus a t=3 control); every high-core slope is a ray through a collision core W with mult(W) >= 2, so #high-core <= 2 Sigma_W C(mult(W),2) (T1-T4 + sunflower per-W cap (n-k)/(t-d), machine-instantiated). The canonical component-union atlas now deduplicates slopes, cores, and union charts exactly: #high-core=sum_C |Z_C| and GRK bounds each component by floor(C(R+d_C,d_C)R/C(d_C+h,d_C)). The all-LineRay affine-core theorem pays any selector of rank at most three. The collision-line basis ledger proves sum b_ell<=C(n,s-1), the exact line cap, a low-basis global chart of excess <=b+s-2, and the minimum-basis self-localized ledger. The affine-core cogirth ray bound pays full-domain selector ranks 4,4,3,11,11,10 and consumes every remaining rank-four line chart. Thus selector rank four is closed unconditionally on five rows (full-domain cogirth); at RowC 1/16 it is closed for families whose min-rank selector hull admits a collision line with core-nonloop count m <= 49 (equivalently b <= 47; localized cogirth on the R+m chart, covering-free) or whose high-core members are all line-covered (CLB3, b_* >= 7) -- the line-free/line-uncovered rank-4 sub-case at RowC 1/16 remains open (catch #158); at the prize rates every open selector has rank at least 12,12,11. Uniform collision-core branches are separately paid through ranks 13,9,7,60,40,30. On the component route the higher-rank residual remains the explicit sum over component counts and union excesses d_C, not atlas construction. P9 exact search confirms the high-transversal-rank branch is nonvacuous after tangent deletion at toy rows. POSEDNESS PIN (catch #42): the predicate is on the SLOPE COUNT, not the collision MOMENT \u2014 the moment can sit at ~n^6 while the floor holds (np1 datum: moment 130,370 vs 98 high-core rays); the moment identity is the instrument, not the target. PRE-REGISTERED FALSIFIER: a generic-branch pair at a scaled official-like row with post-strip high-core slope count > 8n^3 transported, sustained (E27/P9 machinery); FM-band-consistent counts and moment values alone do NOT refute. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/xr_smallcore_spread_count/notes/QUALITY_xr_highcore_collision_count.md || WAVE-8 XR ADDENDUM (2026-07-16, audited; v4 rewrote in place -- merged as addendum per #104): catch #158's RowC-1/16 rank-4 line-free/line-uncovered sub-case is LEGITIMATELY DISCHARGED by the covering-free xr_affine_core_all_zero_charge (|P| C(Delta-r+a-1,a) <= C(N,a)(r+1); AZC arithmetic independently reproduced: 8,546,941,849 < 8,589,934,592, margin 0.5005% -- PIN NOTE w8-C9: any re-pin of (h, R, 8n^3) must re-run this). Wave-5's {4*} star is removed. New honest frontier: min open selector rank >= 5,5,5 (RowC) / >= 17,17,15 (prize); rank-5 deficiency pairs reduced to 14/70/323; residual object = the coherent GRS4 split-pencil census + rank-2 chart first-match audit + (u,v) pairs u <= 60, v <= 7.",
    "refs": [
     "critical/nodes/xr_highcore_collision_count/statement.md",
     "critical/nodes/xr_highcore_collision_count/attack.md",
@@ -5067,7 +5067,7 @@
    "id": "xr_lowcore_spread_heart",
    "status": "TARGET",
    "key": true,
-   "statement": "XR PREDICATE P-B (low-core spread heart \u2014 the anti-concentration heart). At each of the six clean-rate candidates, for every generic-branch pair (u,v), the number of post-strip live slopes with all pairwise cores <= k-1 (singletons included) is <= 8n^3, dihedral-symmetric and extension-type slopes counted inside. Row pins (audit-recomputed): the six clean-rate candidates = (RowC n=1024, prize n=2^41) x rates 1/4, 1/8, 1/16; A = k + n/scale + 1 with deciding scales 256/256/512; B* = floor((2^1279)^(1/10)) at prize (log2 = 127.9000); q idealized (2^250 prime-unpinned, 2^255.9) with the I2 q = p^k pin caveat (0.089-bit sliver) inherited; extension-type mass INSIDE predicate scope. FM-witnessing caveat: all Face-3 evidence sits at FM = Theta(1)..107; candidate-row behavior is extrapolation. K2 Face-3 axis-Q instance (chain step 5e) \u2014 cite BOTH rigidity_kernel AND rk_rigidity_kernel (catch #35). PROVED AROUND IT: validity is automatic in the generic branch (a live support with vanishing projection forces a joint A-agreement \u2014 one-line, sound); the strip ledger and consumption arithmetic are exact (three independent implementations agree: 52/52, 50/50, 69/69). The all-LineRay affine-core theorem pays the slope target whenever one one-per-slope selector has affine error rank sigma<=3. The affine-core cogirth ray bound strengthens the full-domain paid selector ranks to 4,4,3,11,11,10 on the six rows, so a counterexample has minimum selector rank at least 5,5,4,12,12,11 respectively. SUP-FORM PIN: per-pair sup quantifier, forced by the consumer's 'for every pair' \u2014 toy evidence is mean/median-flavored, so evidence strength != predicate strength (declared). ATTACK SURFACE: f2_effective_energy_dichotomy (portable verbatim per its statement), SCK adjacency, E27 spectrum. PRE-REGISTERED FALSIFIER: post-strip spread remainder over the transported budget at a scaled official-like row, sustained. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/xr_smallcore_spread_count/notes/QUALITY_xr_lowcore_spread_heart.md"
+   "statement": "XR PREDICATE P-B (low-core spread heart \u2014 the anti-concentration heart). At each of the six clean-rate candidates, for every generic-branch pair (u,v), the number of post-strip live slopes with all pairwise cores <= k-1 (singletons included) is <= 8n^3, dihedral-symmetric and extension-type slopes counted inside. Row pins (audit-recomputed): the six clean-rate candidates = (RowC n=1024, prize n=2^41) x rates 1/4, 1/8, 1/16; A = k + n/scale + 1 with deciding scales 256/256/512; B* = floor((2^1279)^(1/10)) at prize (log2 = 127.9000); q idealized (2^250 prime-unpinned, 2^255.9) with the I2 q = p^k pin caveat (0.089-bit sliver) inherited; extension-type mass INSIDE predicate scope. FM-witnessing caveat: all Face-3 evidence sits at FM = Theta(1)..107; candidate-row behavior is extrapolation. K2 Face-3 axis-Q instance (chain step 5e) \u2014 cite BOTH rigidity_kernel AND rk_rigidity_kernel (catch #35). PROVED AROUND IT: validity is automatic in the generic branch (a live support with vanishing projection forces a joint A-agreement \u2014 one-line, sound); the strip ledger and consumption arithmetic are exact (three independent implementations agree: 52/52, 50/50, 69/69). The all-LineRay affine-core theorem pays the slope target whenever one one-per-slope selector has affine error rank sigma<=3. The affine-core cogirth ray bound strengthens the full-domain paid selector ranks to 4,4,3,11,11,10 on the six rows, so a counterexample has minimum selector rank at least 5,5,4,12,12,11 respectively. SUP-FORM PIN: per-pair sup quantifier, forced by the consumer's 'for every pair' \u2014 toy evidence is mean/median-flavored, so evidence strength != predicate strength (declared). ATTACK SURFACE: f2_effective_energy_dichotomy (portable verbatim per its statement), SCK adjacency, E27 spectrum. PRE-REGISTERED FALSIFIER: post-strip spread remainder over the transported budget at a scaled official-like row, sustained. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/xr_smallcore_spread_count/notes/QUALITY_xr_lowcore_spread_heart.md || WAVE-8 XR ADDENDUM (2026-07-16, audited): P-B (0,0) outright paid; rank-5 deficiency pairs reduced to 8/49/274; min open selector rank >= 5,5,5 (RowC) / >= 17,17,15 (prize) via the covering-free AZC + the rank-five suite (no #158-class coverage premise anywhere -- audited)."
   },
   {
    "id": "xr_strip_classification_rungs",
@@ -5571,7 +5571,7 @@
     "background/nodes/xr_affine_core_cogirth_ray_bound/verify.py",
     "background/nodes/xr_affine_core_cogirth_ray_bound/result.md"
    ],
-   "statement": "Let A be an affine subspace over a nonconstant syndrome line, let K=(A-A) intersect ker H have dimension a, and assume genericity at radius r. The coordinate matroid of K restricted to any error zero set has cogirth at least Delta-r and hence at least C(Delta-r+a-1,a) bases. Charging nonpersistent zeros gives |P|C(Delta-r+a-1,a)<=C(N,a)(N-a). Exact XR arithmetic pays full-domain selector ranks 4,4,3,11,11,10; combined with the collision-line self-localized charts it closes the complete high-core rank-four branch on all six rows."
+   "statement": "Let A be an affine subspace over a nonconstant syndrome line, let K=(A-A) intersect ker H have dimension a, and assume genericity at radius r. The coordinate matroid of K restricted to any error zero set has cogirth at least Delta-r and hence at least C(Delta-r+a-1,a) bases. Charging nonpersistent zeros gives |P|C(Delta-r+a-1,a)<=C(N,a)(N-a). Exact XR arithmetic pays full-domain selector ranks 4,4,3,11,11,10; combined with the collision-line self-localized charts it closes the complete high-core rank-four branch on all six rows. || w8-C8 CORRECTION (2026-07-16, forced): the 'closes the complete high-core rank-four branch on all six rows' sentence above PRE-DATES catch #158 and contradicted the P-A statement's scoped form; correct scoping = five rows unconditional + RowC 1/16 line-covered/line-admitting hulls -- and the remaining #158 sub-case is now ALSO discharged covering-free by xr_affine_core_all_zero_charge (wave-8, AZC margin 0.5005%, pin note w8-C9)."
   },
   {
    "id": "f3_h3_rich_fiber_norm_cutoff",
@@ -6217,6 +6217,285 @@
     "background/nodes/rate_half_fixed_tail_prefix_floor/verify.py",
     "background/nodes/rate_half_fixed_tail_prefix_floor/result.md"
    ]
+  },
+  {
+   "id": "dli_wcl_ell2_weight5_norm_gcd_exclusion",
+   "title": "DLI ell=2 weight-5 relations excluded by the complete norm-gcd certificate",
+   "status": "PROVED",
+   "closure": "computation",
+   "statement": "For every official q<2^256 with v_2(q-1)>=41 and every exact order-1024 root omega in F_q, no reduced signed weight-5 polynomial P satisfies P(omega)=P(omega^3)=0. The pair-quadratic router has exactly 1,514 odd-dilation pair orbits. Every supporting q divides the gcd of the two cleared cyclotomic norms for one orbit; the 507 distinct nontrivial gcds factor over 168 Pocklington-certified primes, with maximum v_2(p-1)=18. Hence the residual WCL slot (ell,w)=(2,5) is empty on every official row.",
+   "refs": [
+    "background/nodes/dli_wcl_ell2_weight5_norm_gcd_exclusion/statement.md",
+    "background/nodes/dli_wcl_ell2_weight5_norm_gcd_exclusion/proof.md",
+    "background/nodes/dli_wcl_ell2_weight5_norm_gcd_exclusion/verify.py",
+    "background/nodes/dli_wcl_ell2_weight5_norm_gcd_exclusion/notes/verify_resultants_remote.py",
+    "experiments/prize_resolution/dli_wcl_pair_norm_gcd_probe_modal.py",
+    "experiments/prize_resolution/dli_wcl_ell2_weight5_norm_gcd_certificate_result.json",
+    "experiments/prize_resolution/dli_wcl_ell2_weight5_norm_gcd_replay_result.json",
+    "experiments/prize_resolution/dli_wcl_ell2_weight5_norm_gcd_prime_cert_modal.py",
+    "experiments/prize_resolution/dli_wcl_ell2_weight5_norm_gcd_prime_cert_result.json.gz"
+   ]
+  },
+  {
+   "id": "dli_wcl_ell2_weight5_pair_quadratic_router",
+   "title": "DLI ell=2 weight-5 relations reduce to a pair quadratic and two Dickson equations",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Over any official field, every reduced signed weight-5 relation satisfying P(omega)=P(omega^3)=0 admits the following exact normalization. Scale one signed root to 1 and choose two others x,y; with u=x+y, A=xy, v=-1-u, B=u(v-A)/v, the final two roots are exactly the roots of T^2-vT+B. Conversely any guarded pair whose quadratic has two distinct mu_1024 roots reconstructs a relation. With D_0=2, D_1=v, D_m=vD_(m-1)-B D_(m-2), quadratic membership is equivalent to B^1024=1 and D_1024(v,B)=2. This is a two-shape-variable router, not an emptiness theorem.",
+   "refs": [
+    "background/nodes/dli_wcl_ell2_weight5_pair_quadratic_router/statement.md",
+    "background/nodes/dli_wcl_ell2_weight5_pair_quadratic_router/proof.md",
+    "background/nodes/dli_wcl_ell2_weight5_pair_quadratic_router/verify.py"
+   ]
+  },
+  {
+   "id": "dli_wcl_ell2_weight5_pair_ideal_index_obstruction",
+   "title": "DLI ell=2 weight-5 pair router admits an exact cyclotomic ideal-index obstruction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For each legal normalized router pair at order M, clear the two final-pair membership equations to elements F,G of Z[zeta_M]. If the block multiplication matrix L=[M_F M_G] has full rational row rank, its maximal determinantal divisor Delta=[Z[zeta_M]:(F,G)] is divisible by every split-row characteristic supporting that pair. Delta is invariant under odd Galois dilation. Hence the official (ell,w)=(2,5) slot has an exact finite certificate: one pair per odd-dilation orbit at M=1024 and exclusion of every Delta factor q<2^256 with v_2(q-1)>=41. The reduction is proved; that production certificate is not yet complete.",
+   "refs": [
+    "background/nodes/dli_wcl_ell2_weight5_pair_ideal_index_obstruction/statement.md",
+    "background/nodes/dli_wcl_ell2_weight5_pair_ideal_index_obstruction/proof.md",
+    "background/nodes/dli_wcl_ell2_weight5_pair_ideal_index_obstruction/verify.py",
+    "experiments/prize_resolution/dli_wcl_pair_ideal_index_probe_modal.py",
+    "experiments/prize_resolution/dli_wcl_pair_ideal_index_probe_result.json"
+   ]
+  },
+  {
+   "id": "dli_wcl_ell2_weight6_triple_cubic_router",
+   "title": "DLI ell=2 weight-6 relations reduce to a guarded triple-cubic norm router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Assume the paid official order-1024 weight-3 exclusion. Normalize three roots of a reduced weight-6 relation to {1,x,y}, put u=1+x+y, A=x+y+xy, B=xy, and select the product d in mu_1024 of the remaining triple. Then u is nonzero, C=(uA-B-d)/u, and the remaining roots have cubic T^3+uT^2+CT-d. Scaling those roots by u gives division-free coupled doubling recurrences S_(2m)=S_m^2-2T_m, T_(2m)=T_m^2-2P_mS_m, P_(2m)=P_m^2. Subject to the exact distinctness/disjointness guards, the cubic roots lie in mu_1024 iff S_1024=3u^1024 and T_1024=3u^2048. Thus the residual (ell,w)=(2,6) slot reduces to at most 1,514*1,024=1,550,336 pair-product candidates, each with two explicit cyclotomic norm obstructions. An official supporting prime cannot divide Norm(u), by the weight-3 exclusion, so all shared Norm(u) factors may be saturated out of the norm gcd. This is a proved router, not an emptiness theorem.",
+   "refs": [
+    "background/nodes/dli_wcl_ell2_weight6_triple_cubic_router/statement.md",
+    "background/nodes/dli_wcl_ell2_weight6_triple_cubic_router/proof.md",
+    "background/nodes/dli_wcl_ell2_weight6_triple_cubic_router/verify.py",
+    "background/nodes/dli_wcl_ell2_weight6_triple_cubic_router/notes/verify_norm_gcd_probe.py",
+    "background/nodes/dli_wcl_ell2_weight6_triple_cubic_router/result.md",
+    "experiments/prize_resolution/dli_wcl_ell2_weight6_norm_gcd_probe_modal.py",
+    "experiments/prize_resolution/dli_wcl_ell2_weight6_norm_gcd_probe_result.json"
+   ]
+  },
+  {
+   "id": "dli_full_spectrum_polymer_majorant",
+   "title": "DLI zero-fiber mass is bounded by the full primitive-relation polymer majorant",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For signed kernel relations c with activity 2^(-|supp c|), every relation partitions into disjoint primitive relations. Hence the normalized zero-fiber partition function Z is at most the primitive independence polynomial and therefore at most exp(P), where P is the full primitive activity. The raw full-spectrum signed-shift ledger W_full dominates P, so E_j<=r_j exp(W_full,j). On the official schedule, product_j E_j<=2^100 follows from sum_j W_full,j<=100 log 2+t log(2^256/q). This exact interface replaces the refuted truncated C1' route but does not assert the aggregate full-spectrum budget, C2'', or B-WEAK.",
+   "refs": [
+    "background/nodes/dli_full_spectrum_polymer_majorant/statement.md",
+    "background/nodes/dli_full_spectrum_polymer_majorant/proof.md",
+    "background/nodes/dli_full_spectrum_polymer_majorant/verify.py",
+    "background/nodes/dli_full_spectrum_polymer_majorant/route_fence.md",
+    "critical/nodes/dli_prime_weighted_large_block_support/notes/c1r2_fround2_20260713/c1r2_report.md"
+   ]
+  },
+  {
+   "id": "dli_primitive_matching_truncation_majorant",
+   "title": "DLI primitive conflict pressure is bounded by a truncated exponential",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "If every primitive signed relation at a DLI level has support at least w_0, every compatible collection in the primitive independence polynomial has size at most K=floor(N/w_0). Weighted clique symmetrization gives the sharp total-activity bound I<=(1+P/K)^K<=Exp_K(P), hence E_j<=r_j(1+W_full,j/K_j)^K_j for the raw primitive ledger. The proved production exclusions give K=51 at ell=1, K=85 at ell=2, K=113 at ell=4, and K=floor(256ell/(2ell+1))<=127 for ell>=8. Therefore the full marginal baseline follows from sum_j K_j log(1+W_full,j/K_j)<=100log2+t log(2^256/q). The pressure bound is not asserted; this is the first exact support-conflict correction after the exp(W_full) route fence.",
+   "refs": [
+    "background/nodes/dli_primitive_matching_truncation_majorant/statement.md",
+    "background/nodes/dli_primitive_matching_truncation_majorant/proof.md",
+    "background/nodes/dli_primitive_matching_truncation_majorant/verify.py",
+    "background/nodes/dli_full_spectrum_polymer_majorant/route_fence.md"
+   ]
+  },
+  {
+   "id": "xr_affine_core_all_zero_charge",
+   "title": "Affine-core all-zero charge",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_affine_core_all_zero_charge/statement.md",
+    "background/nodes/xr_affine_core_all_zero_charge/proof.md",
+    "background/nodes/xr_affine_core_all_zero_charge/verify.py",
+    "background/nodes/xr_affine_core_all_zero_charge/result.md"
+   ],
+   "statement": "Under the affine-core cogirth hypotheses, fix a kernel-coordinate basis T and let p_T be the number of persistent zero coordinates outside T. Genericity gives p_T<=N-r-a-1. Every sparse error over T has at least N-r-a-p_T nonpersistent zeros, and those zero sets are disjoint across slopes. Hence at most r+1 pairs use T, proving |P|C(Delta-r+a-1,a)<=C(N,a)(r+1). Exact XR arithmetic pays full-domain selector ranks 4,4,4,11,11,10, closing rank four on all six rows without collision-line coverage."
+  },
+  {
+   "id": "xr_grs_split_pencil_rank_certificate",
+   "title": "XR coherent GRS split pencils have an exact extra-kernel certificate",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_grs_split_pencil_rank_certificate/statement.md",
+    "background/nodes/xr_grs_split_pencil_rank_certificate/proof.md",
+    "background/nodes/xr_grs_split_pencil_rank_certificate/verify.py",
+    "background/nodes/xr_grs_split_pencil_rank_certificate/result.md"
+   ],
+   "statement": "For a common GRS_4 split-pencil family with received word U, extension direction q, distinct slopes gamma_i, and agreement blocks A_i, stack zero-extended cubic parity checks as M_F=[H_i|-gamma_i H_i]. The unavoidable cubic-pair kernel has dimension eight, while the genuine pair (U,q) supplies a ninth direction whose second projection is noncubic, so rank M_F<=2N-9; rank 2N-8 excludes the proposed family. Moreover, on every six-set the five-face divided-difference colors are a fractional-linear function of the omitted coordinate, hence all defined colors are either pairwise distinct or all equal. This is an exact necessary rank/Plucker certificate interface, not the aggregate split-pencil count."
+  },
+  {
+   "id": "xr_lowcore_u0_v1_grs_defect_reduction",
+   "title": "XR low-core one-loop deficiency reduces to the coherent GRS split-pencil census",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_lowcore_u0_v1_grs_defect_reduction/statement.md",
+    "background/nodes/xr_lowcore_u0_v1_grs_defect_reduction/proof.md",
+    "background/nodes/xr_lowcore_u0_v1_grs_defect_reduction/verify.py",
+    "background/nodes/xr_lowcore_u0_v1_grs_defect_reduction/result.md"
+   ],
+   "statement": "In the P-B rank-five (u,v)=(0,1) branch, the loop coordinate is an agreement for at most one slope. Removing it and that possible exceptional member from a family above B=8n^3 leaves at least B regular members in a GRS_4 extension, with agreement block sizes 10/10/8 and pair cap four. Peeling at budget B-1 forces r=2 collision-direction degrees 209/207/66; every retained block is a divided-difference monochromatic clique, its reused directions are hypersurface-free through degrees 5/5/3, and optimized local zero-minor floors are 97650/52530/1782. This reduces the deficiency pair to a coherent split-pencil census but does not count it."
+  },
+  {
+   "id": "xr_poststrip_affine_pencil_charge",
+   "title": "Post-strip affine-pencil charge",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_poststrip_affine_pencil_charge/statement.md",
+    "background/nodes/xr_poststrip_affine_pencil_charge/proof.md",
+    "background/nodes/xr_poststrip_affine_pencil_charge/verify.py",
+    "background/nodes/xr_poststrip_affine_pencil_charge/result.md"
+   ],
+   "statement": "Under the affine-core charge hypotheses, assume distinct selected errors have common zero set at most kappa<=k. For each kernel basis T used by two slopes, its persistent set completes T to their exact common zero set, so p_T+a<=kappa. The all-zero incidence then gives M_T<=floor((n-kappa)/(k+h-kappa)) and |P|C(h+a,a)<=C(n,a)floor((n-kappa)/(k+h-kappa)). The post-strip high-core branch uses kappa=k and the low-core branch uses kappa=k-1. Exact XR arithmetic pays selector ranks 4,4,4,15,15,14."
+  },
+  {
+   "id": "xr_rank_five_direction_star_configuration",
+   "title": "XR rank-five collision directions form a star configuration",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_rank_five_direction_star_configuration/statement.md",
+    "background/nodes/xr_rank_five_direction_star_configuration/proof.md",
+    "background/nodes/xr_rank_five_direction_star_configuration/verify.py",
+    "background/nodes/xr_rank_five_direction_star_configuration/result.md"
+   ],
+   "statement": "For a retained rank-five u=v=0 agreement block A, the cubic interpolation hyperplanes p(x)=q(x), x in A, are in simple position: Vandermonde independence gives unique fourfold intersections I_Tq and the divided-difference bridge excludes fivefold intersections. Their C(4+h,4) vertices are the projective collision directions. A nonzero degree-d polynomial on cubic-coefficient space is nonzero on at least C(4+h-d,4) vertices for d<=h, sharply. Therefore the official r=2 reused direction sets lie on no nonzero hypersurface of degree at most 4/4/2. This is local direction rigidity, not a point count."
+  },
+  {
+   "id": "xr_rank_five_divided_difference_clique_bridge",
+   "title": "XR rank-five residual is a divided-difference monochromatic-clique census",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_rank_five_divided_difference_clique_bridge/statement.md",
+    "background/nodes/xr_rank_five_divided_difference_clique_bridge/proof.md",
+    "background/nodes/xr_rank_five_divided_difference_clique_bridge/verify.py",
+    "background/nodes/xr_rank_five_divided_difference_clique_bridge/result.md"
+   ],
+   "statement": "In the retained P-A RowC rank-five u=v=0 core, every selected agreement set A has nonzero fourth divided difference [S]q on each five-subset S. Indeed, a zero would make all five constituent four-sets unreusable, while the r=2 peeling core permits at most 1/3/4 unreused four-sets on the three rows. Therefore Phi(S)=[S]U/[S]q is defined throughout A and is identically the selected slope gamma. Distinct members are distinct-color monochromatic (4+h)-cliques, and the preceding ratio fibers and zero minors are exactly equal-color four-stars of Phi. This is an exact bridge to the split-pencil census, not a clique count."
+  },
+  {
+   "id": "xr_rank_five_extension_list_reduction",
+   "title": "XR rank-five selectors reduce to one-dimensional extension lists",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_rank_five_extension_list_reduction/statement.md",
+    "background/nodes/xr_rank_five_extension_list_reduction/proof.md",
+    "background/nodes/xr_rank_five_extension_list_reduction/verify.py",
+    "background/nodes/xr_rank_five_extension_list_reduction/result.md"
+   ],
+   "statement": "For a RowC selector of affine rank five, puncture the persistent global roots P_0. The selected slopes become codewords in distinct quotient classes of a five-dimensional code C_E containing the four-dimensional kernel code K_E, all agreeing with one received word in at least 4+h+u+v positions. Their pairwise agreement is at most 4+u+v for P-A or 3+u+v for P-B. K_E has v loop coordinates and, after deleting and scaling them, is a four-dimensional polynomial subspace W subset F[X]_<4+u. At u=v=0 this is exactly a one-dimensional extension of GRS_4. This is an exact residual reduction, not a list-size payment."
+  },
+  {
+   "id": "xr_rank_five_ratio_minor_dictionary",
+   "title": "XR rank-five rich lines force external maximal-minor zeros",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_rank_five_ratio_minor_dictionary/statement.md",
+    "background/nodes/xr_rank_five_ratio_minor_dictionary/proof.md",
+    "background/nodes/xr_rank_five_ratio_minor_dictionary/verify.py",
+    "background/nodes/xr_rank_five_ratio_minor_dictionary/result.md"
+   ],
+   "statement": "In the P-A RowC rank-five u=v=0 branch, normalize K_E to GRS_4. For a selected codeword c with residual z and chosen agreement set A, each four-set T subset A defines r_T=q-I_Tq and the exact collision line c+lambda*r_T. Other selected line members give distinct h-rich fibers of z/r_T on E\\A. Equality in a fiber is exactly a vanishing 6x6 minor of the global lift (1,x,x^2,x^3,q,U). Combining with the rich-line hierarchy forces at least 23560/12600/228 distinct external vanishing-minor records per retained member on the three RowC rows. This is a representability reduction, not a slope count."
+  },
+  {
+   "id": "xr_rank_five_reuse_core",
+   "title": "XR rank-five base residual has a near-saturated collision-line core",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_rank_five_reuse_core/statement.md",
+    "background/nodes/xr_rank_five_reuse_core/proof.md",
+    "background/nodes/xr_rank_five_reuse_core/verify.py",
+    "background/nodes/xr_rank_five_reuse_core/result.md"
+   ],
+   "statement": "In the RowC rank-five u=v=0 branch, choose 4+h agreements per selected codeword. P-B has pair cap three, so four-bases are unique and its three exact counts are below 8n^3. For P-A, a peeling argument on the C(N,4) kernel bases shows that any counterexample contains a nonempty subfamily in which every member lies on at least 125/123/31 distinct collision lines at rates 1/4,1/8,1/16, out of only 126/126/35 possible bases. The per-line post-strip caps are 153/179/320. This is a structural reduction, not a payment of the P-A line-rich core."
+  },
+  {
+   "id": "xr_rank_five_richline_hierarchy",
+   "title": "XR rank-five base residual has a multiplicity-sensitive rich-line hierarchy",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_rank_five_richline_hierarchy/statement.md",
+    "background/nodes/xr_rank_five_richline_hierarchy/proof.md",
+    "background/nodes/xr_rank_five_richline_hierarchy/verify.py",
+    "background/nodes/xr_rank_five_richline_hierarchy/result.md"
+   ],
+   "statement": "In the P-A RowC rank-five u=v=0 branch, put b=C(4+h,4), T=C(R+4,4), and B=8n^3. For every r>=2 with d_r=b-floor((r-1)T/(B+1))>0, any family above B has a nonempty subfamily in which every member lies on at least d_r distinct collision lines containing at least r members. The exact minimum degrees at r=3 are 123/120/27, and positive forced cores persist through r=74/40/9 at rates 1/4,1/8,1/16. This is a structural rich-line reduction, not a count of the surviving core."
+  },
+  {
+   "id": "xr_rank_five_u1_split_locator_nonbasis_bound",
+   "title": "XR rank-five one-defect quartic kernels have few nonbasis locators",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_rank_five_u1_split_locator_nonbasis_bound/statement.md",
+    "background/nodes/xr_rank_five_u1_split_locator_nonbasis_bound/proof.md",
+    "background/nodes/xr_rank_five_u1_split_locator_nonbasis_bound/verify.py",
+    "background/nodes/xr_rank_five_u1_split_locator_nonbasis_bound/result.md"
+   ],
+   "statement": "In a rank-five extension-list branch with u=1, the normalized kernel is a four-dimensional subspace W of quartics. A four-set T is a kernel nonbasis exactly when its split locator L_T lies in W. If W has no common evaluation root on an N-point domain, a triple-completion count and the sharp split-cubic locator line bound give at most floor((C(N,3)+(N-2)(N-4))/4) nonbasis four-sets. Official agreement blocks therefore contain at most 42/42/20 nonbases and at least 168/168/50 bases. This is a source-to-flat refinement, not an XR payment."
+  },
+  {
+   "id": "xr_rs_common_root_basis_charge",
+   "title": "RS common-root weighted basis charge",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_rs_common_root_basis_charge/statement.md",
+    "background/nodes/xr_rs_common_root_basis_charge/proof.md",
+    "background/nodes/xr_rs_common_root_basis_charge/verify.py",
+    "background/nodes/xr_rs_common_root_basis_charge/result.md"
+   ],
+   "statement": "For a post-strip RS selector with affine kernel rank a, let G be the global common-root set of the kernel slice and P_0 the roots persistent on the whole affine family. The RS gcd bound gives |G|<=k-a, while every root in G\\P_0 can vanish at only one selected slope. A loopless refinement of the cogirth basis lemma gives a*b_e>=m_e*C(a+h-1,a-1), where m_e is the number of nonloop zeros. Combining the summed basis supply with the per-basis post-strip pencil cap yields the exact common-root inequality and its endpoint envelope. Exact XR arithmetic pays selector ranks 4,4,4,16,16,14, moving the first open prize ranks to 17,17,15."
+  },
+  {
+   "id": "xr_rs_flat_nullity_basis_charge",
+   "title": "RS flat-nullity basis charge",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_rs_flat_nullity_basis_charge/statement.md",
+    "background/nodes/xr_rs_flat_nullity_basis_charge/proof.md",
+    "background/nodes/xr_rs_flat_nullity_basis_charge/verify.py",
+    "background/nodes/xr_rs_flat_nullity_basis_charge/result.md"
+   ],
+   "statement": "After factoring the global roots of a rank-a RS kernel slice, write u=k-a-|G| and v=|G|-|P_0|. Every proper rank-j flat of each nonloop zero-set matroid has size at most j+u, so ordered basis extension gives a*b_e>=m_e*C(m_e-u-1,a-1). Summing against the post-strip pencil cap and combining with the persistent-root subset-packing bound leaves only 14/8, 70/49, and 323/274 possible (u,v) pairs at RowC selector rank five for P-A/P-B, from 32131, 7875, and 1891 pairs respectively. This is a structural residual reduction, not a new rank payment."
+  },
+  {
+   "id": "xr_split_pencil_dual_trade_core",
+   "title": "XR split-pencil rank anomalies contain explicit dual-product-code trades",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_split_pencil_dual_trade_core/statement.md",
+    "background/nodes/xr_split_pencil_dual_trade_core/proof.md",
+    "background/nodes/xr_split_pencil_dual_trade_core/verify.py",
+    "background/nodes/xr_split_pencil_dual_trade_core/result.md"
+   ],
+   "statement": "Every nonzero left-kernel relation in a bounded split-pencil Maxwell core is a family of dual cubic-evaluation words lambda_i satisfying sum lambda_i=sum gamma_i lambda_i=0. On a block A_i of size 4+c_i, lambda_i(x)=P_i(x)/Lambda'_Ai(x) with deg P_i<c_i, so every active block has weight at least five. At every active coordinate at least three distinct slopes occur, and the coefficients have the dual-RS_2 form Q_x(gamma_i)/product_(j!=i)(gamma_i-gamma_j), deg Q_x<|I_x|-2. Thus every counterexample contains a bounded (block-degree at least 5, coordinate-degree at least 3) dual-product-code trade. This is a normal form, not a trade classification."
+  },
+  {
+   "id": "xr_split_pencil_maxwell_core_extraction",
+   "title": "XR split-pencil counterexamples contain bounded Maxwell-dense cores",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_split_pencil_maxwell_core_extraction/statement.md",
+    "background/nodes/xr_split_pencil_maxwell_core_extraction/proof.md",
+    "background/nodes/xr_split_pencil_maxwell_core_extraction/verify.py",
+    "background/nodes/xr_split_pencil_maxwell_core_extraction/result.md"
+   ],
+   "statement": "Any genuine GRS_4 split-pencil family of (4+c)-blocks with c|F|>=2N-8 contains an inclusion-minimal subfamily G with c|G|=2|union G|-8+e, 0<=e<=c-1, while every proper J has c|J|<=2|union J|-9. Each block has at most floor((c-1-e)/2) private coordinates, and the stacked parity matrix has left nullity at least e+1, one beyond ordinary overdetermination. Official P-A core sizes are at most 308/359/640 and P-B one-loop core sizes at most 256/299/480. This is a bounded anomalous-core extraction, not its classification."
+  },
+  {
+   "id": "xr_split_pencil_trade_rank_two_localization",
+   "title": "XR split-pencil dual trades have no rank one and localized rank two",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_split_pencil_trade_rank_two_localization/statement.md",
+    "background/nodes/xr_split_pencil_trade_rank_two_localization/proof.md",
+    "background/nodes/xr_split_pencil_trade_rank_two_localization/verify.py",
+    "background/nodes/xr_split_pencil_trade_rank_two_localization/result.md"
+   ],
+   "statement": "Let Lambda be a nonzero dual trade with distinct slopes and block intersection cap four. Rank one is impossible: dual RS_2 slope distance forces at least three proportional block rows, while dual GRS_4 distance gives them a common support of size at least five. At rank two there are at least four projectively distinct block rows; disjointness of their noncommon zero sets on the row-code line gives active coordinate support R<=floor(tm/(t-1))<=floor(4m/3). The official P-A caps are 12/12/9 and P-B one-loop caps are 13/13/10. This is a bounded-chart localization, not a payment."
   }
  ],
  "edges": [
@@ -12208,6 +12487,301 @@
   {
    "from": "petal_mixed_amplification",
    "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_ell2_weight3_ambient_exclusion",
+   "to": "dli_wcl_ell2_weight6_triple_cubic_router",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell2_weight5_pair_quadratic_router",
+   "to": "dli_wcl_zone_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_ell2_weight5_pair_quadratic_router",
+   "to": "dli_wcl_ell2_weight5_pair_ideal_index_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell2_weight5_pair_ideal_index_obstruction",
+   "to": "dli_wcl_zone_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_ell2_weight5_pair_ideal_index_obstruction",
+   "to": "dli_wcl_ell2_weight5_norm_gcd_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell2_weight5_norm_gcd_exclusion",
+   "to": "dli_wcl_zone_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_ell2_weight6_triple_cubic_router",
+   "to": "dli_wcl_zone_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_full_spectrum_polymer_majorant",
+   "to": "dli_prime_weighted_large_block_support",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_full_spectrum_polymer_majorant",
+   "to": "dli_primitive_matching_truncation_majorant",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_newton_short_window_exclusion",
+   "to": "dli_primitive_matching_truncation_majorant",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_weight3_ambient_exclusion",
+   "to": "dli_primitive_matching_truncation_majorant",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_weight4_ambient_exclusion",
+   "to": "dli_primitive_matching_truncation_majorant",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell2_weight5_norm_gcd_exclusion",
+   "to": "dli_primitive_matching_truncation_majorant",
+   "kind": "req"
+  },
+  {
+   "from": "dli_primitive_matching_truncation_majorant",
+   "to": "dli_prime_weighted_large_block_support",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_affine_core_cogirth_ray_bound",
+   "to": "xr_affine_core_all_zero_charge",
+   "kind": "req"
+  },
+  {
+   "from": "xr_affine_core_all_zero_charge",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_affine_core_all_zero_charge",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_affine_core_all_zero_charge",
+   "to": "xr_poststrip_affine_pencil_charge",
+   "kind": "req"
+  },
+  {
+   "from": "xr_strip_classification_rungs",
+   "to": "xr_poststrip_affine_pencil_charge",
+   "kind": "req"
+  },
+  {
+   "from": "xr_poststrip_affine_pencil_charge",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_poststrip_affine_pencil_charge",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_poststrip_affine_pencil_charge",
+   "to": "xr_rs_common_root_basis_charge",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rs_common_root_basis_charge",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rs_common_root_basis_charge",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rs_common_root_basis_charge",
+   "to": "xr_rs_flat_nullity_basis_charge",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rs_flat_nullity_basis_charge",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rs_flat_nullity_basis_charge",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rs_flat_nullity_basis_charge",
+   "to": "xr_rank_five_extension_list_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_five_extension_list_reduction",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_five_extension_list_reduction",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_five_extension_list_reduction",
+   "to": "xr_rank_five_reuse_core",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_five_reuse_core",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_five_reuse_core",
+   "to": "xr_rank_five_richline_hierarchy",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_five_richline_hierarchy",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_five_richline_hierarchy",
+   "to": "xr_rank_five_ratio_minor_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_five_ratio_minor_dictionary",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_five_ratio_minor_dictionary",
+   "to": "xr_rank_five_divided_difference_clique_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_five_divided_difference_clique_bridge",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_five_divided_difference_clique_bridge",
+   "to": "xr_rank_five_direction_star_configuration",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_five_direction_star_configuration",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_five_extension_list_reduction",
+   "to": "xr_rank_five_u1_split_locator_nonbasis_bound",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_five_u1_split_locator_nonbasis_bound",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_five_u1_split_locator_nonbasis_bound",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_five_extension_list_reduction",
+   "to": "xr_lowcore_u0_v1_grs_defect_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "xr_lowcore_u0_v1_grs_defect_reduction",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_five_divided_difference_clique_bridge",
+   "to": "xr_grs_split_pencil_rank_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "xr_lowcore_u0_v1_grs_defect_reduction",
+   "to": "xr_grs_split_pencil_rank_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "xr_grs_split_pencil_rank_certificate",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_grs_split_pencil_rank_certificate",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_grs_split_pencil_rank_certificate",
+   "to": "xr_split_pencil_maxwell_core_extraction",
+   "kind": "req"
+  },
+  {
+   "from": "xr_split_pencil_maxwell_core_extraction",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_split_pencil_maxwell_core_extraction",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_split_pencil_maxwell_core_extraction",
+   "to": "xr_split_pencil_dual_trade_core",
+   "kind": "req"
+  },
+  {
+   "from": "xr_split_pencil_dual_trade_core",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_split_pencil_dual_trade_core",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_split_pencil_dual_trade_core",
+   "to": "xr_split_pencil_trade_rank_two_localization",
+   "kind": "req"
+  },
+  {
+   "from": "xr_split_pencil_trade_rank_two_localization",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_split_pencil_trade_rank_two_localization",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_five_reuse_core",
+   "to": "xr_lowcore_spread_heart",
    "kind": "ev"
   }
  ]

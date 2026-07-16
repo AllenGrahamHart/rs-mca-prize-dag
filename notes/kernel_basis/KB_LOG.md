@@ -2125,3 +2125,34 @@ C+D, spec + sub-audit details in WAVE8_AUDIT_FINDINGS.md): DLI WCL
 (2,5)-closure [+ packaging flip REFUSED] + (2,6) reduction; XR 16
 nodes + ten custody addenda + w8-C8 master-side cogirth fix + the
 w8-C9 0.5005%-margin pin note. Modal re-pin next.
+
+## 80 — 2026-07-16: WAVE-8 STAGES C+D IMPORTED — the WCL residual is
+## FIVE slots; the XR #158 sub-case is PAID; wave-8 complete
+
+STAGE C (DLI WCL): 6 new PROVED nodes (weight-5 norm-gcd exclusion =
+THE (2,5) SLOT CLOSED on every official row [1,514 orbits / 507 gcds
+/ 168 Pocklington primes, max v_2(p-1)=18 vs gate 41 — margin 23
+doubling levels; certificate covers ALL prime factors, the q<2^256
+restriction is harmless understatement]; weight-6 triple-cubic
+router = (2,6) REDUCED to <= 1,550,336 certified candidates; pair
+routers + the full-spectrum polymer majorant [explicitly replaces
+the REFUTED truncated C1' route, kill rows as fences only] +
+matching-truncation majorant [caps 51/85/113/<=127, 85 consumes the
+(2,5) closure]). Zone official_terminal_attack.md + statement.md
+pure-append pins taken: THE RESIDUAL OF RECORD IS NOW FIVE SLOTS
+(1,5),(1,6),(2,6),(2,7),(4,9). PACKAGING + LIST_SAFE FLIPS REFUSED
+AND ASSERTED unchanged (w8-C1/w8-C10: v4's auto_discharge.py sweeps
+silent one-way flips with dead regression paths — the tool is NOT
+imported). STAGE D (XR): 16 new PROVED nodes; the #158
+line-free/line-uncovered RowC-1/16 rank-4 sub-case is LEGITIMATELY
+DISCHARGED covering-free (xr_affine_core_all_zero_charge, AZC
+arithmetic independently reproduced, margin 0.5005% -> pin note
+w8-C9 in the P-A addendum); P-A/P-B stay TARGET with dated addenda
+(v4's in-place rewrites NOT taken); new frontier: min open selector
+rank >= 5,5,5 (RowC) / >= 17,17,15 (prize), deficiency pairs
+14/70/323 + 8/49/274, residual = coherent GRS4 split-pencil census;
+w8-C8 forced correction on master's own cogirth statement (pre-#158
+sentence scoped). QUALITY certs pure-append taken. Manifest
+189/9/343; A+B re-pin was 166/166 complete; final full re-pin next.
+Wave-9 queue: the deferred C36 cluster (17 f3_h3 nodes,
+pre-registered expectations) + Codex post-ae2e5dd5.

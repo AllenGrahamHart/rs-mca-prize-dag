@@ -41,3 +41,23 @@ After the wave-7 exclusions (Newton short-window w <= 2ell; terminal
 and ell-2 ambient censuses), WCL-ZONE is EQUIVALENT to six emptiness
 slots: (ell,w) = (1,5),(1,6),(2,5),(2,6),(2,7),(4,9) — see
 `official_terminal_attack.md`.
+
+## NORM-GCD UPDATE (2026-07-14)
+
+The exact `dli_wcl_ell2_weight5_norm_gcd_exclusion` certificate closes
+`(ell,w)=(2,5)` on every official row. WCL-ZONE is therefore equivalent to
+the five remaining emptiness slots
+
+```text
+(1,5), (1,6), (2,6), (2,7), (4,9).
+```
+
+This is a one-slot closure only; WCL-ZONE remains unproved.
+
+## WEIGHT-SIX ROUTER UPDATE (2026-07-14)
+
+The proved `dli_wcl_ell2_weight6_triple_cubic_router` reduces the next slot
+`(ell,w)=(2,6)` to at most `1,550,336` guarded pair-product candidates.
+Each candidate has two explicit division-free cyclotomic norm obstructions.
+No candidate census or factor exclusion is yet claimed, so the five-slot
+equivalence and WCL-ZONE status do not change.

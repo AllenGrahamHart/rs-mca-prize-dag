@@ -1,0 +1,11 @@
+{
+  "actual_digest": "e784949f52f9d9956b4d96685f4305afcb2d997cccf4ff3498e19000806a3015",
+  "expected_digest": "e784949f52f9d9956b4d96685f4305afcb2d997cccf4ff3498e19000806a3015",
+  "orbit_counts": {
+    "1024": 1514
+  },
+  "rows": 1514,
+  "schema": "dli-wcl-ell2-weight5-norm-gcd-replay-v1",
+  "source_sha256": "106e09392c62610261c21dcaff997ec7949ad93d9b396404ddea3e1d5176a526",
+  "status": "COMPLETE"
+}

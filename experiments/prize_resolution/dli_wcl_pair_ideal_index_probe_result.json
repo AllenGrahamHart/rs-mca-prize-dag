@@ -1,0 +1,8943 @@
+{
+  "factor_rows": [
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        },
+        {
+          "exponent": 4,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 4,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "10259161312526500766401",
+      "seconds": 0.022298
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 8,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 2,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "11687038200387161353412558912783557445761",
+      "seconds": 0.012918
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "3",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 4,
+          "prime": "11",
+          "v2_prime_minus_1": 1
+        }
+      ],
+      "index": "1185921",
+      "seconds": 0.009199
+    },
+    {
+      "factors": [
+        {
+          "exponent": 6,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 18,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "1236346130739459783695639286180749473707133841249503708801",
+      "seconds": 0.009565
+    },
+    {
+      "factors": [
+        {
+          "exponent": 10,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "1256988294225653106805249",
+      "seconds": 0.009063
+    },
+    {
+      "factors": [
+        {
+          "exponent": 1,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 2,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "12747457",
+      "seconds": 0.008709
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "12976183355157498876109525633",
+      "seconds": 0.009167
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "1387488001",
+      "seconds": 0.00858
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "3",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 8,
+          "prime": "11",
+          "v2_prime_minus_1": 1
+        }
+      ],
+      "index": "1406408618241",
+      "seconds": 0.009311
+    },
+    {
+      "factors": [
+        {
+          "exponent": 6,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 6,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "14891642238158683459622697601",
+      "seconds": 0.009538
+    },
+    {
+      "factors": [
+        {
+          "exponent": 18,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "15333957297412878889121518901175431348663751809",
+      "seconds": 0.009589
+    },
+    {
+      "factors": [
+        {
+          "exponent": 9,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        },
+        {
+          "exponent": 1,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "1545398579878882535184059683073",
+      "seconds": 0.010334
+    },
+    {
+      "factors": [
+        {
+          "exponent": 20,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 4,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 8,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 4,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "15915935138948303957271435532487595397545015485480033300065670938095646412346241",
+      "seconds": 0.011547
+    },
+    {
+      "factors": [
+        {
+          "exponent": 9,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 4,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "1620870336776186625629226355393",
+      "seconds": 0.010141
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 8,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "1684813849009273740721054081",
+      "seconds": 0.010086
+    },
+    {
+      "factors": [
+        {
+          "exponent": 3,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "16974593",
+      "seconds": 0.009711
+    },
+    {
+      "factors": [
+        {
+          "exponent": 1,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        }
+      ],
+      "index": "17",
+      "seconds": 0.010315
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 8,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        },
+        {
+          "exponent": 8,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "171378827232003602173016061698552321060348455102596315735970414081",
+      "seconds": 0.00956
+    },
+    {
+      "factors": [
+        {
+          "exponent": 2,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 12,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "1828793955345940194634520011995326882689",
+      "seconds": 0.010282
+    },
+    {
+      "factors": [
+        {
+          "exponent": 6,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "184695693617531009",
+      "seconds": 0.009596
+    },
+    {
+      "factors": [
+        {
+          "exponent": 3,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 1,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "1847587649",
+      "seconds": 0.010236
+    },
+    {
+      "factors": [
+        {
+          "exponent": 12,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 8,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 12,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 4,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "18721855171619198095842560140270542910929725024244917603939037778117813644055324801",
+      "seconds": 0.010047
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "19031147999601100801",
+      "seconds": 0.009278
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 10,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "449",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 2,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 4,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "19762273059445943813548887671105854073315318206024769281",
+      "seconds": 0.010124
+    },
+    {
+      "factors": [
+        {
+          "exponent": 16,
+          "prime": "3",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 16,
+          "prime": "11",
+          "v2_prime_minus_1": 1
+        }
+      ],
+      "index": "1977985201462558877934081",
+      "seconds": 0.011772
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        },
+        {
+          "exponent": 1,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "2066701999560772993",
+      "seconds": 0.010152
+    },
+    {
+      "factors": [
+        {
+          "exponent": 12,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 3,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "21866112013391827088746966510073729921",
+      "seconds": 0.010104
+    },
+    {
+      "factors": [
+        {
+          "exponent": 32,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        },
+        {
+          "exponent": 16,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 16,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "21954636091157185595862356595788449426039613256508578127984459236669074002965949329558599906032148750794699285232641",
+      "seconds": 0.009991
+    },
+    {
+      "factors": [
+        {
+          "exponent": 6,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "221577204979534081",
+      "seconds": 0.010084
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "31",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 16,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 16,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 8,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "233119056911230290168280127735925799115101838066578795172996174856479109891875033058730901124993419523841",
+      "seconds": 0.009626
+    },
+    {
+      "factors": [
+        {
+          "exponent": 32,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        }
+      ],
+      "index": "2367911594760467245844106297320951247361",
+      "seconds": 0.010615
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 4,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 2,
+          "prime": "449",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "24763319162446032506881",
+      "seconds": 0.010537
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "31",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 4,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "449",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 4,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "262315579590351323516607704040890962561",
+      "seconds": 0.010386
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 8,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 4,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 4,
+          "prime": "449",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "2675162719286074600398494287743037127378697756169282561",
+      "seconds": 0.010097
+    },
+    {
+      "factors": [
+        {
+          "exponent": 2,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        },
+        {
+          "exponent": 2,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        }
+      ],
+      "index": "2719201",
+      "seconds": 0.010862
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 8,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 4,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 4,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "2791092511151471204033305139783323936209208719522186063361",
+      "seconds": 0.009044
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "2796343527041",
+      "seconds": 0.010325
+    },
+    {
+      "factors": [
+        {
+          "exponent": 32,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        },
+        {
+          "exponent": 16,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 8,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "280008815502222448813894501823725183814298270231754984729810427391805881739465967023726081",
+      "seconds": 0.009379
+    },
+    {
+      "factors": [
+        {
+          "exponent": 2,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        }
+      ],
+      "index": "289",
+      "seconds": 0.009827
+    },
+    {
+      "factors": [
+        {
+          "exponent": 17,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        },
+        {
+          "exponent": 1,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "29410709092048377346053623309095347078853986441473",
+      "seconds": 0.009646
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 2,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "29473964994049",
+      "seconds": 0.032015
+    },
+    {
+      "factors": [
+        {
+          "exponent": 16,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        },
+        {
+          "exponent": 16,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        }
+      ],
+      "index": "2989031489147713361847720093753802169093891111673601",
+      "seconds": 0.024633
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "31",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 8,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 4,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "31061969660054596494048262250948899201",
+      "seconds": 0.015629
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "31",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 8,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 4,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 4,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "3499906121933769523457296831584895708264321",
+      "seconds": 0.014183
+    },
+    {
+      "factors": [
+        {
+          "exponent": 14,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "3514971080124213062625549468152238209",
+      "seconds": 0.012168
+    },
+    {
+      "factors": [
+        {
+          "exponent": 9,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "3761182872605164354604033",
+      "seconds": 0.0121
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        },
+        {
+          "exponent": 8,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 8,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 16,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "38120070092668968079499600628479398126275266970808192183377983817391227291673814401",
+      "seconds": 0.011753
+    },
+    {
+      "factors": [
+        {
+          "exponent": 32,
+          "prime": "3",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 32,
+          "prime": "11",
+          "v2_prime_minus_1": 1
+        }
+      ],
+      "index": "3912425457204879631503516058626198046646581314561",
+      "seconds": 0.011381
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "31",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 1,
+          "prime": "449",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "414660929",
+      "seconds": 0.011141
+    },
+    {
+      "factors": [
+        {
+          "exponent": 13,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 3,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        },
+        {
+          "exponent": 1,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "4321465315542666963030329232285401465476993",
+      "seconds": 0.011559
+    },
+    {
+      "factors": [
+        {
+          "exponent": 12,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        },
+        {
+          "exponent": 2,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "45349463503293627859943862716366001904129",
+      "seconds": 0.011598
+    },
+    {
+      "factors": [
+        {
+          "exponent": 16,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        },
+        {
+          "exponent": 8,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 8,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "4685577455464500759239566944737904806405348949482626629121",
+      "seconds": 0.012707
+    },
+    {
+      "factors": [
+        {
+          "exponent": 3,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 2,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "474830025793",
+      "seconds": 0.012134
+    },
+    {
+      "factors": [
+        {
+          "exponent": 2,
+          "prime": "31",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 1,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 1,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "47666561",
+      "seconds": 0.011243
+    },
+    {
+      "factors": [
+        {
+          "exponent": 16,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        }
+      ],
+      "index": "48661191875666868481",
+      "seconds": 0.02695
+    },
+    {
+      "factors": [
+        {
+          "exponent": 1,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 1,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "49601",
+      "seconds": 0.011605
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "5029928372353",
+      "seconds": 0.011256
+    },
+    {
+      "factors": [
+        {
+          "exponent": 10,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "516472607319730574177247514369",
+      "seconds": 0.011893
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 2,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "52877546502334273",
+      "seconds": 0.011662
+    },
+    {
+      "factors": [
+        {
+          "exponent": 16,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        },
+        {
+          "exponent": 8,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 4,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "529158592013984451010954138446312336916074241",
+      "seconds": 0.011637
+    },
+    {
+      "factors": [
+        {
+          "exponent": 18,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 20,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        },
+        {
+          "exponent": 2,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "52998401071482019685170438089689051308976783627715505553508289607464716042159191228519881691815214209",
+      "seconds": 0.010134
+    },
+    {
+      "factors": [
+        {
+          "exponent": 2,
+          "prime": "31",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 2,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 1,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "5308195899521",
+      "seconds": 0.010336
+    },
+    {
+      "factors": [
+        {
+          "exponent": 12,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "53217627520843813874934510259841",
+      "seconds": 0.010001
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        },
+        {
+          "exponent": 8,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        }
+      ],
+      "index": "54672035714318461454716801",
+      "seconds": 0.009933
+    },
+    {
+      "factors": [
+        {
+          "exponent": 7,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        },
+        {
+          "exponent": 1,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "54729212628440406117889",
+      "seconds": 0.009945
+    },
+    {
+      "factors": [
+        {
+          "exponent": 3,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 3,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "449",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "54792061166331649",
+      "seconds": 0.011036
+    },
+    {
+      "factors": [
+        {
+          "exponent": 2,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 1,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "5523616961",
+      "seconds": 0.009581
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 16,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 4,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "55700932001453230177965578682832625287864839875934920432641",
+      "seconds": 0.010017
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        },
+        {
+          "exponent": 4,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        }
+      ],
+      "index": "617558790682129921",
+      "seconds": 0.009457
+    },
+    {
+      "factors": [
+        {
+          "exponent": 2,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 2,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "621455041",
+      "seconds": 0.009207
+    },
+    {
+      "factors": [
+        {
+          "exponent": 10,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        },
+        {
+          "exponent": 2,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "633432813207138468603127380794911546241",
+      "seconds": 0.009151
+    },
+    {
+      "factors": [
+        {
+          "exponent": 2,
+          "prime": "31",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 2,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "63473089",
+      "seconds": 0.008999
+    },
+    {
+      "factors": [
+        {
+          "exponent": 2,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 2,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "449",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 1,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "637386731980673",
+      "seconds": 0.009616
+    },
+    {
+      "factors": [
+        {
+          "exponent": 13,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        },
+        {
+          "exponent": 1,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "6741755562469059224696301454423403222273",
+      "seconds": 0.009246
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        }
+      ],
+      "index": "6975757441",
+      "seconds": 0.009342
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 12,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 2,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "70740185275242264856701888744688430558372532010783870988161",
+      "seconds": 0.011042
+    },
+    {
+      "factors": [
+        {
+          "exponent": 5,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "718660286449537",
+      "seconds": 0.009472
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 4,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "736486196254579330561",
+      "seconds": 0.010336
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        },
+        {
+          "exponent": 4,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        }
+      ],
+      "index": "7394054078401",
+      "seconds": 0.009896
+    },
+    {
+      "factors": [
+        {
+          "exponent": 6,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 4,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 2,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "76335382886959810674803521",
+      "seconds": 0.017333
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "7819537121224099898215681",
+      "seconds": 0.017489
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 10,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "805640576734313624106049425320228525264700040321",
+      "seconds": 0.015713
+    },
+    {
+      "factors": [
+        {
+          "exponent": 2,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 2,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "819091635529729",
+      "seconds": 0.015404
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "17",
+          "v2_prime_minus_1": 4
+        }
+      ],
+      "index": "83521",
+      "seconds": 0.01945
+    },
+    {
+      "factors": [
+        {
+          "exponent": 7,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "85380986939844627329",
+      "seconds": 0.020982
+    },
+    {
+      "factors": [
+        {
+          "exponent": 5,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        }
+      ],
+      "index": "8587340257",
+      "seconds": 0.017877
+    },
+    {
+      "factors": [
+        {
+          "exponent": 6,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 12,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "449",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "865035669868969755469526634600415125179624936449",
+      "seconds": 0.024224
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        }
+      ],
+      "index": "88529281",
+      "seconds": 0.016636
+    },
+    {
+      "factors": [
+        {
+          "exponent": 8,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        },
+        {
+          "exponent": 1,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "9015926300771387182642680193",
+      "seconds": 0.017252
+    },
+    {
+      "factors": [
+        {
+          "exponent": 3,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        }
+      ],
+      "index": "912673",
+      "seconds": 0.020434
+    },
+    {
+      "factors": [
+        {
+          "exponent": 10,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        },
+        {
+          "exponent": 2,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 2,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        }
+      ],
+      "index": "914499741369966551209531489729",
+      "seconds": 0.016347
+    },
+    {
+      "factors": [
+        {
+          "exponent": 10,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 1,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        },
+        {
+          "exponent": 1,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "929006109578236118605875794177",
+      "seconds": 0.01802
+    },
+    {
+      "factors": [
+        {
+          "exponent": 2,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        }
+      ],
+      "index": "9409",
+      "seconds": 0.011199
+    },
+    {
+      "factors": [
+        {
+          "exponent": 2,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 4,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "96094778695655791489",
+      "seconds": 0.010888
+    },
+    {
+      "factors": [
+        {
+          "exponent": 1,
+          "prime": "97",
+          "v2_prime_minus_1": 5
+        }
+      ],
+      "index": "97",
+      "seconds": 0.010937
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "31",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 4,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 2,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "577",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 4,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "9853697905447655517765710867579362561",
+      "seconds": 0.010887
+    },
+    {
+      "factors": [
+        {
+          "exponent": 10,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 2,
+          "prime": "1153",
+          "v2_prime_minus_1": 7
+        }
+      ],
+      "index": "988194716391791682688186241489721601",
+      "seconds": 0.010942
+    },
+    {
+      "factors": [
+        {
+          "exponent": 4,
+          "prime": "31",
+          "v2_prime_minus_1": 1
+        },
+        {
+          "exponent": 2,
+          "prime": "193",
+          "v2_prime_minus_1": 6
+        },
+        {
+          "exponent": 6,
+          "prime": "257",
+          "v2_prime_minus_1": 8
+        },
+        {
+          "exponent": 4,
+          "prime": "641",
+          "v2_prime_minus_1": 7
+        },
+        {
+          "exponent": 2,
+          "prime": "769",
+          "v2_prime_minus_1": 8
+        }
+      ],
+      "index": "989566377891475625960837594559532765904641",
+      "seconds": 0.010774
+    }
+  ],
+  "max_v2_prime_minus_1": 8,
+  "orbit_counts": {
+    "128": 176,
+    "16": 14,
+    "32": 36,
+    "64": 82
+  },
+  "orders": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "rows": [
+    {
+      "coefficient_bits": 44,
+      "error": "",
+      "index": "289",
+      "index_bits": 9,
+      "nonunit_invariants": [
+        "17",
+        "17"
+      ],
+      "order": 16,
+      "pair": [
+        1,
+        2
+      ],
+      "seconds": 0.001571,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 40,
+      "error": "",
+      "index": "83521",
+      "index_bits": 17,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "order": 16,
+      "pair": [
+        1,
+        3
+      ],
+      "seconds": 0.001517,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 34,
+      "error": "",
+      "index": "17",
+      "index_bits": 5,
+      "nonunit_invariants": [
+        "17"
+      ],
+      "order": 16,
+      "pair": [
+        1,
+        4
+      ],
+      "seconds": 0.001364,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 34,
+      "error": "",
+      "index": "17",
+      "index_bits": 5,
+      "nonunit_invariants": [
+        "17"
+      ],
+      "order": 16,
+      "pair": [
+        1,
+        5
+      ],
+      "seconds": 0.000725,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 40,
+      "error": "",
+      "index": "83521",
+      "index_bits": 17,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "order": 16,
+      "pair": [
+        1,
+        6
+      ],
+      "seconds": 0.000701,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 28,
+      "error": "",
+      "index": "83521",
+      "index_bits": 17,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "order": 16,
+      "pair": [
+        1,
+        7
+      ],
+      "seconds": 0.000315,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 28,
+      "error": "",
+      "index": "83521",
+      "index_bits": 17,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "order": 16,
+      "pair": [
+        1,
+        10
+      ],
+      "seconds": 0.000319,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 34,
+      "error": "",
+      "index": "17",
+      "index_bits": 5,
+      "nonunit_invariants": [
+        "17"
+      ],
+      "order": 16,
+      "pair": [
+        1,
+        12
+      ],
+      "seconds": 0.0007,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 40,
+      "error": "",
+      "index": "83521",
+      "index_bits": 17,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "order": 16,
+      "pair": [
+        1,
+        14
+      ],
+      "seconds": 0.000658,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 44,
+      "error": "",
+      "index": "289",
+      "index_bits": 9,
+      "nonunit_invariants": [
+        "17",
+        "17"
+      ],
+      "order": 16,
+      "pair": [
+        1,
+        15
+      ],
+      "seconds": 0.00067,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 36,
+      "error": "",
+      "index": "83521",
+      "index_bits": 17,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "order": 16,
+      "pair": [
+        2,
+        4
+      ],
+      "seconds": 0.000356,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 19,
+      "error": "",
+      "index": "1185921",
+      "index_bits": 21,
+      "nonunit_invariants": [
+        "33",
+        "33",
+        "33",
+        "33"
+      ],
+      "order": 16,
+      "pair": [
+        2,
+        6
+      ],
+      "seconds": 0.000155,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 19,
+      "error": "",
+      "index": "1185921",
+      "index_bits": 21,
+      "nonunit_invariants": [
+        "33",
+        "33",
+        "33",
+        "33"
+      ],
+      "order": 16,
+      "pair": [
+        2,
+        12
+      ],
+      "seconds": 0.000161,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 36,
+      "error": "",
+      "index": "83521",
+      "index_bits": 17,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "order": 16,
+      "pair": [
+        2,
+        14
+      ],
+      "seconds": 0.000347,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 92,
+      "error": "",
+      "index": "88529281",
+      "index_bits": 27,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        2
+      ],
+      "seconds": 0.008376,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 90,
+      "error": "",
+      "index": "97",
+      "index_bits": 7,
+      "nonunit_invariants": [
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        3
+      ],
+      "seconds": 0.007689,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 88,
+      "error": "",
+      "index": "1",
+      "index_bits": 1,
+      "nonunit_invariants": [],
+      "order": 32,
+      "pair": [
+        1,
+        4
+      ],
+      "seconds": 0.007855,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 84,
+      "error": "",
+      "index": "9409",
+      "index_bits": 14,
+      "nonunit_invariants": [
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        5
+      ],
+      "seconds": 0.007568,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 79,
+      "error": "",
+      "index": "8587340257",
+      "index_bits": 33,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97",
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        6
+      ],
+      "seconds": 0.007842,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 85,
+      "error": "",
+      "index": "912673",
+      "index_bits": 20,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        7
+      ],
+      "seconds": 0.007559,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 70,
+      "error": "",
+      "index": "9409",
+      "index_bits": 14,
+      "nonunit_invariants": [
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        8
+      ],
+      "seconds": 0.007312,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 70,
+      "error": "",
+      "index": "9409",
+      "index_bits": 14,
+      "nonunit_invariants": [
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        9
+      ],
+      "seconds": 0.007205,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 85,
+      "error": "",
+      "index": "912673",
+      "index_bits": 20,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        10
+      ],
+      "seconds": 0.007554,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 88,
+      "error": "",
+      "index": "1",
+      "index_bits": 1,
+      "nonunit_invariants": [],
+      "order": 32,
+      "pair": [
+        1,
+        12
+      ],
+      "seconds": 0.007418,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 79,
+      "error": "",
+      "index": "8587340257",
+      "index_bits": 33,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97",
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        14
+      ],
+      "seconds": 0.007396,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 61,
+      "error": "",
+      "index": "1",
+      "index_bits": 1,
+      "nonunit_invariants": [],
+      "order": 32,
+      "pair": [
+        1,
+        15
+      ],
+      "seconds": 0.006601,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 61,
+      "error": "",
+      "index": "1",
+      "index_bits": 1,
+      "nonunit_invariants": [],
+      "order": 32,
+      "pair": [
+        1,
+        18
+      ],
+      "seconds": 0.006363,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 79,
+      "error": "",
+      "index": "8587340257",
+      "index_bits": 33,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97",
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        19
+      ],
+      "seconds": 0.007439,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 84,
+      "error": "",
+      "index": "9409",
+      "index_bits": 14,
+      "nonunit_invariants": [
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        20
+      ],
+      "seconds": 0.007818,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 88,
+      "error": "",
+      "index": "1",
+      "index_bits": 1,
+      "nonunit_invariants": [],
+      "order": 32,
+      "pair": [
+        1,
+        21
+      ],
+      "seconds": 0.007567,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 90,
+      "error": "",
+      "index": "97",
+      "index_bits": 7,
+      "nonunit_invariants": [
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        22
+      ],
+      "seconds": 0.007511,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 70,
+      "error": "",
+      "index": "9409",
+      "index_bits": 14,
+      "nonunit_invariants": [
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        24
+      ],
+      "seconds": 0.007233,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 85,
+      "error": "",
+      "index": "912673",
+      "index_bits": 20,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        26
+      ],
+      "seconds": 0.007562,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 84,
+      "error": "",
+      "index": "9409",
+      "index_bits": 14,
+      "nonunit_invariants": [
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        28
+      ],
+      "seconds": 0.00774,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 90,
+      "error": "",
+      "index": "97",
+      "index_bits": 7,
+      "nonunit_invariants": [
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        30
+      ],
+      "seconds": 0.007615,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 92,
+      "error": "",
+      "index": "88529281",
+      "index_bits": 27,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97",
+        "97"
+      ],
+      "order": 32,
+      "pair": [
+        1,
+        31
+      ],
+      "seconds": 0.007696,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 89,
+      "error": "",
+      "index": "7394054078401",
+      "index_bits": 43,
+      "nonunit_invariants": [
+        "1649",
+        "1649",
+        "1649",
+        "1649"
+      ],
+      "order": 32,
+      "pair": [
+        2,
+        4
+      ],
+      "seconds": 0.002896,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 81,
+      "error": "",
+      "index": "617558790682129921",
+      "index_bits": 60,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "1649",
+        "1649",
+        "1649",
+        "1649"
+      ],
+      "order": 32,
+      "pair": [
+        2,
+        6
+      ],
+      "seconds": 0.003175,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 69,
+      "error": "",
+      "index": "2719201",
+      "index_bits": 22,
+      "nonunit_invariants": [
+        "1649",
+        "1649"
+      ],
+      "order": 32,
+      "pair": [
+        2,
+        8
+      ],
+      "seconds": 0.003333,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 69,
+      "error": "",
+      "index": "2719201",
+      "index_bits": 22,
+      "nonunit_invariants": [
+        "1649",
+        "1649"
+      ],
+      "order": 32,
+      "pair": [
+        2,
+        10
+      ],
+      "seconds": 0.003355,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 81,
+      "error": "",
+      "index": "617558790682129921",
+      "index_bits": 60,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "1649",
+        "1649",
+        "1649",
+        "1649"
+      ],
+      "order": 32,
+      "pair": [
+        2,
+        12
+      ],
+      "seconds": 0.003166,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 56,
+      "error": "",
+      "index": "617558790682129921",
+      "index_bits": 60,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "1649",
+        "1649",
+        "1649",
+        "1649"
+      ],
+      "order": 32,
+      "pair": [
+        2,
+        14
+      ],
+      "seconds": 0.002654,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 56,
+      "error": "",
+      "index": "617558790682129921",
+      "index_bits": 60,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "1649",
+        "1649",
+        "1649",
+        "1649"
+      ],
+      "order": 32,
+      "pair": [
+        2,
+        20
+      ],
+      "seconds": 0.002635,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 69,
+      "error": "",
+      "index": "2719201",
+      "index_bits": 22,
+      "nonunit_invariants": [
+        "1649",
+        "1649"
+      ],
+      "order": 32,
+      "pair": [
+        2,
+        24
+      ],
+      "seconds": 0.003351,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 81,
+      "error": "",
+      "index": "617558790682129921",
+      "index_bits": 60,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "1649",
+        "1649",
+        "1649",
+        "1649"
+      ],
+      "order": 32,
+      "pair": [
+        2,
+        28
+      ],
+      "seconds": 0.003137,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 89,
+      "error": "",
+      "index": "7394054078401",
+      "index_bits": 43,
+      "nonunit_invariants": [
+        "1649",
+        "1649",
+        "1649",
+        "1649"
+      ],
+      "order": 32,
+      "pair": [
+        2,
+        30
+      ],
+      "seconds": 0.00287,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 72,
+      "error": "",
+      "index": "6975757441",
+      "index_bits": 33,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "order": 32,
+      "pair": [
+        4,
+        8
+      ],
+      "seconds": 0.001331,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 37,
+      "error": "",
+      "index": "1406408618241",
+      "index_bits": 41,
+      "nonunit_invariants": [
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33"
+      ],
+      "order": 32,
+      "pair": [
+        4,
+        12
+      ],
+      "seconds": 0.001065,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 37,
+      "error": "",
+      "index": "1406408618241",
+      "index_bits": 41,
+      "nonunit_invariants": [
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33"
+      ],
+      "order": 32,
+      "pair": [
+        4,
+        24
+      ],
+      "seconds": 0.001056,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 72,
+      "error": "",
+      "index": "6975757441",
+      "index_bits": 33,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "order": 32,
+      "pair": [
+        4,
+        28
+      ],
+      "seconds": 0.00133,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 188,
+      "error": "",
+      "index": "819091635529729",
+      "index_bits": 50,
+      "nonunit_invariants": [
+        "28619777",
+        "28619777"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        2
+      ],
+      "seconds": 0.150684,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 187,
+      "error": "",
+      "index": "16974593",
+      "index_bits": 25,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        3
+      ],
+      "seconds": 0.202234,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 186,
+      "error": "",
+      "index": "1620870336776186625629226355393",
+      "index_bits": 101,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "193",
+        "193",
+        "193",
+        "49601",
+        "49601",
+        "49601",
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        4
+      ],
+      "seconds": 0.212848,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 184,
+      "error": "",
+      "index": "52877546502334273",
+      "index_bits": 56,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "49601",
+        "28619777"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        5
+      ],
+      "seconds": 0.22207,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 182,
+      "error": "",
+      "index": "414660929",
+      "index_bits": 29,
+      "nonunit_invariants": [
+        "31",
+        "31",
+        "31",
+        "13919"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        6
+      ],
+      "seconds": 0.170309,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 179,
+      "error": "",
+      "index": "5308195899521",
+      "index_bits": 43,
+      "nonunit_invariants": [
+        "5983",
+        "887213087"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        7
+      ],
+      "seconds": 0.15461,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 176,
+      "error": "",
+      "index": "5523616961",
+      "index_bits": 33,
+      "nonunit_invariants": [
+        "193",
+        "28619777"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        8
+      ],
+      "seconds": 0.207706,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 176,
+      "error": "",
+      "index": "5523616961",
+      "index_bits": 33,
+      "nonunit_invariants": [
+        "193",
+        "28619777"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        9
+      ],
+      "seconds": 0.178107,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 179,
+      "error": "",
+      "index": "5308195899521",
+      "index_bits": 43,
+      "nonunit_invariants": [
+        "5983",
+        "887213087"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        10
+      ],
+      "seconds": 0.157233,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 163,
+      "error": "",
+      "index": "637386731980673",
+      "index_bits": 50,
+      "nonunit_invariants": [
+        "49601",
+        "12850279873"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        11
+      ],
+      "seconds": 0.241288,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 175,
+      "error": "",
+      "index": "52877546502334273",
+      "index_bits": 56,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "49601",
+        "28619777"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        12
+      ],
+      "seconds": 0.161196,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 182,
+      "error": "",
+      "index": "414660929",
+      "index_bits": 29,
+      "nonunit_invariants": [
+        "31",
+        "31",
+        "31",
+        "13919"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        14
+      ],
+      "seconds": 0.16406,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 173,
+      "error": "",
+      "index": "49601",
+      "index_bits": 16,
+      "nonunit_invariants": [
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        15
+      ],
+      "seconds": 0.197112,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 142,
+      "error": "",
+      "index": "54792061166331649",
+      "index_bits": 56,
+      "nonunit_invariants": [
+        "49601",
+        "49601",
+        "22270849"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        16
+      ],
+      "seconds": 0.288472,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 142,
+      "error": "",
+      "index": "54792061166331649",
+      "index_bits": 56,
+      "nonunit_invariants": [
+        "49601",
+        "49601",
+        "22270849"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        17
+      ],
+      "seconds": 0.185911,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 173,
+      "error": "",
+      "index": "49601",
+      "index_bits": 16,
+      "nonunit_invariants": [
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        18
+      ],
+      "seconds": 0.181468,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 180,
+      "error": "",
+      "index": "1847587649",
+      "index_bits": 31,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        19
+      ],
+      "seconds": 0.251201,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 180,
+      "error": "",
+      "index": "47666561",
+      "index_bits": 26,
+      "nonunit_invariants": [
+        "31",
+        "1537631"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        20
+      ],
+      "seconds": 0.15938,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 186,
+      "error": "",
+      "index": "1620870336776186625629226355393",
+      "index_bits": 101,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "193",
+        "193",
+        "193",
+        "49601",
+        "49601",
+        "49601",
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        21
+      ],
+      "seconds": 0.157871,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 187,
+      "error": "",
+      "index": "16974593",
+      "index_bits": 25,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        22
+      ],
+      "seconds": 0.20739,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 184,
+      "error": "",
+      "index": "12747457",
+      "index_bits": 24,
+      "nonunit_invariants": [
+        "257",
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        23
+      ],
+      "seconds": 0.19904,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 177,
+      "error": "",
+      "index": "474830025793",
+      "index_bits": 39,
+      "nonunit_invariants": [
+        "193",
+        "49601",
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        24
+      ],
+      "seconds": 0.20609,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 177,
+      "error": "",
+      "index": "474830025793",
+      "index_bits": 39,
+      "nonunit_invariants": [
+        "193",
+        "49601",
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        25
+      ],
+      "seconds": 0.190089,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 184,
+      "error": "",
+      "index": "12747457",
+      "index_bits": 24,
+      "nonunit_invariants": [
+        "257",
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        26
+      ],
+      "seconds": 0.188907,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 180,
+      "error": "",
+      "index": "47666561",
+      "index_bits": 26,
+      "nonunit_invariants": [
+        "31",
+        "1537631"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        28
+      ],
+      "seconds": 0.214169,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 175,
+      "error": "",
+      "index": "52877546502334273",
+      "index_bits": 56,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "49601",
+        "28619777"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        29
+      ],
+      "seconds": 0.256294,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 163,
+      "error": "",
+      "index": "637386731980673",
+      "index_bits": 50,
+      "nonunit_invariants": [
+        "49601",
+        "12850279873"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        30
+      ],
+      "seconds": 0.161133,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 125,
+      "error": "",
+      "index": "63473089",
+      "index_bits": 26,
+      "nonunit_invariants": [
+        "7967",
+        "7967"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        31
+      ],
+      "seconds": 0.157094,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 125,
+      "error": "",
+      "index": "63473089",
+      "index_bits": 26,
+      "nonunit_invariants": [
+        "7967",
+        "7967"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        34
+      ],
+      "seconds": 0.217075,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 175,
+      "error": "",
+      "index": "52877546502334273",
+      "index_bits": 56,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "49601",
+        "28619777"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        36
+      ],
+      "seconds": 0.221929,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 180,
+      "error": "",
+      "index": "47666561",
+      "index_bits": 26,
+      "nonunit_invariants": [
+        "31",
+        "1537631"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        37
+      ],
+      "seconds": 0.217441,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 180,
+      "error": "",
+      "index": "1847587649",
+      "index_bits": 31,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        38
+      ],
+      "seconds": 0.210427,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 177,
+      "error": "",
+      "index": "474830025793",
+      "index_bits": 39,
+      "nonunit_invariants": [
+        "193",
+        "49601",
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        40
+      ],
+      "seconds": 0.155138,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 184,
+      "error": "",
+      "index": "12747457",
+      "index_bits": 24,
+      "nonunit_invariants": [
+        "257",
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        42
+      ],
+      "seconds": 0.215827,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 186,
+      "error": "",
+      "index": "1620870336776186625629226355393",
+      "index_bits": 101,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "193",
+        "193",
+        "193",
+        "49601",
+        "49601",
+        "49601",
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        44
+      ],
+      "seconds": 0.255417,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 180,
+      "error": "",
+      "index": "1847587649",
+      "index_bits": 31,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        46
+      ],
+      "seconds": 0.206753,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 142,
+      "error": "",
+      "index": "54792061166331649",
+      "index_bits": 56,
+      "nonunit_invariants": [
+        "49601",
+        "49601",
+        "22270849"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        48
+      ],
+      "seconds": 0.290339,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 173,
+      "error": "",
+      "index": "49601",
+      "index_bits": 16,
+      "nonunit_invariants": [
+        "49601"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        50
+      ],
+      "seconds": 0.206975,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 182,
+      "error": "",
+      "index": "414660929",
+      "index_bits": 29,
+      "nonunit_invariants": [
+        "31",
+        "31",
+        "31",
+        "13919"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        51
+      ],
+      "seconds": 0.1593,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 184,
+      "error": "",
+      "index": "52877546502334273",
+      "index_bits": 56,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "49601",
+        "28619777"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        52
+      ],
+      "seconds": 0.167047,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 163,
+      "error": "",
+      "index": "637386731980673",
+      "index_bits": 50,
+      "nonunit_invariants": [
+        "49601",
+        "12850279873"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        54
+      ],
+      "seconds": 0.157673,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 176,
+      "error": "",
+      "index": "5523616961",
+      "index_bits": 33,
+      "nonunit_invariants": [
+        "193",
+        "28619777"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        56
+      ],
+      "seconds": 0.181801,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 179,
+      "error": "",
+      "index": "5308195899521",
+      "index_bits": 43,
+      "nonunit_invariants": [
+        "5983",
+        "887213087"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        58
+      ],
+      "seconds": 0.190534,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 184,
+      "error": "",
+      "index": "52877546502334273",
+      "index_bits": 56,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "49601",
+        "28619777"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        60
+      ],
+      "seconds": 0.220249,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 187,
+      "error": "",
+      "index": "16974593",
+      "index_bits": 25,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        62
+      ],
+      "seconds": 0.252856,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 188,
+      "error": "",
+      "index": "819091635529729",
+      "index_bits": 50,
+      "nonunit_invariants": [
+        "28619777",
+        "28619777"
+      ],
+      "order": 64,
+      "pair": [
+        1,
+        63
+      ],
+      "seconds": 0.115861,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 187,
+      "error": "",
+      "index": "3499906121933769523457296831584895708264321",
+      "index_bits": 142,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97",
+        "97",
+        "445905023",
+        "445905023",
+        "445905023",
+        "445905023"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        4
+      ],
+      "seconds": 0.043672,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 183,
+      "error": "",
+      "index": "621455041",
+      "index_bits": 30,
+      "nonunit_invariants": [
+        "24929",
+        "24929"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        6
+      ],
+      "seconds": 0.046126,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 178,
+      "error": "",
+      "index": "1",
+      "index_bits": 1,
+      "nonunit_invariants": [],
+      "order": 64,
+      "pair": [
+        2,
+        8
+      ],
+      "seconds": 0.063222,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 170,
+      "error": "",
+      "index": "29473964994049",
+      "index_bits": 45,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "55969",
+        "55969"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        10
+      ],
+      "seconds": 0.06301,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 160,
+      "error": "",
+      "index": "914499741369966551209531489729",
+      "index_bits": 100,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "10802017",
+        "10802017"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        12
+      ],
+      "seconds": 0.060788,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 172,
+      "error": "",
+      "index": "76335382886959810674803521",
+      "index_bits": 86,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "18721",
+        "18721",
+        "4811297",
+        "4811297"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        14
+      ],
+      "seconds": 0.044757,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 142,
+      "error": "",
+      "index": "24763319162446032506881",
+      "index_bits": 75,
+      "nonunit_invariants": [
+        "18721",
+        "18721",
+        "8405729",
+        "8405729"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        16
+      ],
+      "seconds": 0.064687,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 142,
+      "error": "",
+      "index": "24763319162446032506881",
+      "index_bits": 75,
+      "nonunit_invariants": [
+        "18721",
+        "18721",
+        "8405729",
+        "8405729"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        18
+      ],
+      "seconds": 0.080108,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 172,
+      "error": "",
+      "index": "76335382886959810674803521",
+      "index_bits": 86,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "18721",
+        "18721",
+        "4811297",
+        "4811297"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        20
+      ],
+      "seconds": 0.048175,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 178,
+      "error": "",
+      "index": "1",
+      "index_bits": 1,
+      "nonunit_invariants": [],
+      "order": 64,
+      "pair": [
+        2,
+        24
+      ],
+      "seconds": 0.044219,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 160,
+      "error": "",
+      "index": "914499741369966551209531489729",
+      "index_bits": 100,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "10802017",
+        "10802017"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        28
+      ],
+      "seconds": 0.062802,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 123,
+      "error": "",
+      "index": "1387488001",
+      "index_bits": 31,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "193",
+        "193"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        30
+      ],
+      "seconds": 0.042233,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 123,
+      "error": "",
+      "index": "1387488001",
+      "index_bits": 31,
+      "nonunit_invariants": [
+        "193",
+        "193",
+        "193",
+        "193"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        36
+      ],
+      "seconds": 0.037866,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 160,
+      "error": "",
+      "index": "914499741369966551209531489729",
+      "index_bits": 100,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "10802017",
+        "10802017"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        38
+      ],
+      "seconds": 0.077096,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 170,
+      "error": "",
+      "index": "29473964994049",
+      "index_bits": 45,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "55969",
+        "55969"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        40
+      ],
+      "seconds": 0.062001,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 178,
+      "error": "",
+      "index": "1",
+      "index_bits": 1,
+      "nonunit_invariants": [],
+      "order": 64,
+      "pair": [
+        2,
+        42
+      ],
+      "seconds": 0.062159,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 183,
+      "error": "",
+      "index": "621455041",
+      "index_bits": 30,
+      "nonunit_invariants": [
+        "24929",
+        "24929"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        44
+      ],
+      "seconds": 0.063377,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 142,
+      "error": "",
+      "index": "24763319162446032506881",
+      "index_bits": 75,
+      "nonunit_invariants": [
+        "18721",
+        "18721",
+        "8405729",
+        "8405729"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        48
+      ],
+      "seconds": 0.060082,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 172,
+      "error": "",
+      "index": "76335382886959810674803521",
+      "index_bits": 86,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "18721",
+        "18721",
+        "4811297",
+        "4811297"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        52
+      ],
+      "seconds": 0.045964,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 170,
+      "error": "",
+      "index": "29473964994049",
+      "index_bits": 45,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "55969",
+        "55969"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        56
+      ],
+      "seconds": 0.044349,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 183,
+      "error": "",
+      "index": "621455041",
+      "index_bits": 30,
+      "nonunit_invariants": [
+        "24929",
+        "24929"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        60
+      ],
+      "seconds": 0.044923,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 187,
+      "error": "",
+      "index": "3499906121933769523457296831584895708264321",
+      "index_bits": 142,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97",
+        "97",
+        "445905023",
+        "445905023",
+        "445905023",
+        "445905023"
+      ],
+      "order": 64,
+      "pair": [
+        2,
+        62
+      ],
+      "seconds": 0.032483,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 180,
+      "error": "",
+      "index": "54672035714318461454716801",
+      "index_bits": 86,
+      "nonunit_invariants": [
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649"
+      ],
+      "order": 64,
+      "pair": [
+        4,
+        8
+      ],
+      "seconds": 0.017781,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 164,
+      "error": "",
+      "index": "529158592013984451010954138446312336916074241",
+      "index_bits": 149,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "318257",
+        "318257",
+        "318257",
+        "318257"
+      ],
+      "order": 64,
+      "pair": [
+        4,
+        12
+      ],
+      "seconds": 0.027306,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 140,
+      "error": "",
+      "index": "10259161312526500766401",
+      "index_bits": 74,
+      "nonunit_invariants": [
+        "318257",
+        "318257",
+        "318257",
+        "318257"
+      ],
+      "order": 64,
+      "pair": [
+        4,
+        16
+      ],
+      "seconds": 0.036873,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 140,
+      "error": "",
+      "index": "10259161312526500766401",
+      "index_bits": 74,
+      "nonunit_invariants": [
+        "318257",
+        "318257",
+        "318257",
+        "318257"
+      ],
+      "order": 64,
+      "pair": [
+        4,
+        20
+      ],
+      "seconds": 0.036208,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 164,
+      "error": "",
+      "index": "529158592013984451010954138446312336916074241",
+      "index_bits": 149,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "318257",
+        "318257",
+        "318257",
+        "318257"
+      ],
+      "order": 64,
+      "pair": [
+        4,
+        24
+      ],
+      "seconds": 0.027565,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 113,
+      "error": "",
+      "index": "4685577455464500759239566944737904806405348949482626629121",
+      "index_bits": 192,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473"
+      ],
+      "order": 64,
+      "pair": [
+        4,
+        28
+      ],
+      "seconds": 0.022263,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 113,
+      "error": "",
+      "index": "4685577455464500759239566944737904806405348949482626629121",
+      "index_bits": 192,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473"
+      ],
+      "order": 64,
+      "pair": [
+        4,
+        40
+      ],
+      "seconds": 0.020034,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 140,
+      "error": "",
+      "index": "10259161312526500766401",
+      "index_bits": 74,
+      "nonunit_invariants": [
+        "318257",
+        "318257",
+        "318257",
+        "318257"
+      ],
+      "order": 64,
+      "pair": [
+        4,
+        48
+      ],
+      "seconds": 0.03096,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 164,
+      "error": "",
+      "index": "529158592013984451010954138446312336916074241",
+      "index_bits": 149,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "318257",
+        "318257",
+        "318257",
+        "318257"
+      ],
+      "order": 64,
+      "pair": [
+        4,
+        56
+      ],
+      "seconds": 0.02088,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 180,
+      "error": "",
+      "index": "54672035714318461454716801",
+      "index_bits": 86,
+      "nonunit_invariants": [
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649"
+      ],
+      "order": 64,
+      "pair": [
+        4,
+        60
+      ],
+      "seconds": 0.031111,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 145,
+      "error": "",
+      "index": "48661191875666868481",
+      "index_bits": 66,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "order": 64,
+      "pair": [
+        8,
+        16
+      ],
+      "seconds": 0.007491,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 74,
+      "error": "",
+      "index": "1977985201462558877934081",
+      "index_bits": 81,
+      "nonunit_invariants": [
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33"
+      ],
+      "order": 64,
+      "pair": [
+        8,
+        24
+      ],
+      "seconds": 0.005338,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 74,
+      "error": "",
+      "index": "1977985201462558877934081",
+      "index_bits": 81,
+      "nonunit_invariants": [
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33"
+      ],
+      "order": 64,
+      "pair": [
+        8,
+        48
+      ],
+      "seconds": 0.005718,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 145,
+      "error": "",
+      "index": "48661191875666868481",
+      "index_bits": 66,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "order": 64,
+      "pair": [
+        8,
+        56
+      ],
+      "seconds": 0.007377,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 379,
+      "error": "",
+      "index": "516472607319730574177247514369",
+      "index_bits": 99,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        2
+      ],
+      "seconds": 14.405986,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 379,
+      "error": "",
+      "index": "988194716391791682688186241489721601",
+      "index_bits": 120,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "227870849",
+        "227870849"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        3
+      ],
+      "seconds": 18.641086,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 378,
+      "error": "",
+      "index": "718660286449537",
+      "index_bits": 50,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        4
+      ],
+      "seconds": 19.413609,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 377,
+      "error": "",
+      "index": "6741755562469059224696301454423403222273",
+      "index_bits": 133,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "126682753"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        5
+      ],
+      "seconds": 24.127889,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 376,
+      "error": "",
+      "index": "85380986939844627329",
+      "index_bits": 67,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "296321"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        6
+      ],
+      "seconds": 19.045892,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 375,
+      "error": "",
+      "index": "1545398579878882535184059683073",
+      "index_bits": 101,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "126682753"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        7
+      ],
+      "seconds": 19.051096,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 373,
+      "error": "",
+      "index": "184695693617531009",
+      "index_bits": 58,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        8
+      ],
+      "seconds": 19.794824,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 371,
+      "error": "",
+      "index": "19031147999601100801",
+      "index_bits": 65,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        9
+      ],
+      "seconds": 23.869853,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "53217627520843813874934510259841",
+      "index_bits": 106,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        10
+      ],
+      "seconds": 25.534367,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 367,
+      "error": "",
+      "index": "1256988294225653106805249",
+      "index_bits": 81,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        11
+      ],
+      "seconds": 29.667841,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "2796343527041",
+      "index_bits": 42,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        12
+      ],
+      "seconds": 30.967247,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 362,
+      "error": "",
+      "index": "16974593",
+      "index_bits": 25,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        13
+      ],
+      "seconds": 22.732803,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 368,
+      "error": "",
+      "index": "3761182872605164354604033",
+      "index_bits": 82,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "197633"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        14
+      ],
+      "seconds": 24.979405,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 372,
+      "error": "",
+      "index": "54729212628440406117889",
+      "index_bits": 76,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        15
+      ],
+      "seconds": 25.077699,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 358,
+      "error": "",
+      "index": "5029928372353",
+      "index_bits": 43,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "296321"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        16
+      ],
+      "seconds": 26.920096,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 358,
+      "error": "",
+      "index": "5029928372353",
+      "index_bits": 43,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "296321"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        17
+      ],
+      "seconds": 27.411533,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 372,
+      "error": "",
+      "index": "54729212628440406117889",
+      "index_bits": 76,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        18
+      ],
+      "seconds": 23.766355,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 375,
+      "error": "",
+      "index": "54729212628440406117889",
+      "index_bits": 76,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        19
+      ],
+      "seconds": 25.39896,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 367,
+      "error": "",
+      "index": "15333957297412878889121518901175431348663751809",
+      "index_bits": 154,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "42337409"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        20
+      ],
+      "seconds": 18.323357,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 353,
+      "error": "",
+      "index": "21866112013391827088746966510073729921",
+      "index_bits": 125,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "164737",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        21
+      ],
+      "seconds": 19.65769,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 329,
+      "error": "",
+      "index": "7819537121224099898215681",
+      "index_bits": 83,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        22
+      ],
+      "seconds": 20.411428,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 361,
+      "error": "",
+      "index": "85380986939844627329",
+      "index_bits": 67,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "296321"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        23
+      ],
+      "seconds": 24.191672,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "29410709092048377346053623309095347078853986441473",
+      "index_bits": 165,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "126682753"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        24
+      ],
+      "seconds": 23.805731,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 374,
+      "error": "",
+      "index": "929006109578236118605875794177",
+      "index_bits": 100,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        25
+      ],
+      "seconds": 21.698454,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 377,
+      "error": "",
+      "index": "221577204979534081",
+      "index_bits": 58,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "197633"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        26
+      ],
+      "seconds": 22.089365,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 367,
+      "error": "",
+      "index": "15333957297412878889121518901175431348663751809",
+      "index_bits": 154,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "42337409"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        28
+      ],
+      "seconds": 23.730249,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 373,
+      "error": "",
+      "index": "12976183355157498876109525633",
+      "index_bits": 94,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "197633",
+        "227870849"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        29
+      ],
+      "seconds": 24.044259,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 365,
+      "error": "",
+      "index": "3514971080124213062625549468152238209",
+      "index_bits": 122,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        30
+      ],
+      "seconds": 22.122328,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 350,
+      "error": "",
+      "index": "633432813207138468603127380794911546241",
+      "index_bits": 129,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "227870849",
+        "146065214209"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        31
+      ],
+      "seconds": 20.250392,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 287,
+      "error": "",
+      "index": "19031147999601100801",
+      "index_bits": 65,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        32
+      ],
+      "seconds": 25.169076,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 287,
+      "error": "",
+      "index": "19031147999601100801",
+      "index_bits": 65,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        33
+      ],
+      "seconds": 22.652398,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 350,
+      "error": "",
+      "index": "633432813207138468603127380794911546241",
+      "index_bits": 129,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "227870849",
+        "146065214209"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        34
+      ],
+      "seconds": 22.557795,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "2796343527041",
+      "index_bits": 42,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        36
+      ],
+      "seconds": 21.407908,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 375,
+      "error": "",
+      "index": "2066701999560772993",
+      "index_bits": 61,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "164737",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        37
+      ],
+      "seconds": 19.182181,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 371,
+      "error": "",
+      "index": "4321465315542666963030329232285401465476993",
+      "index_bits": 142,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "164737",
+        "126682753"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        38
+      ],
+      "seconds": 20.454344,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "29410709092048377346053623309095347078853986441473",
+      "index_bits": 165,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "126682753"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        40
+      ],
+      "seconds": 23.120079,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 377,
+      "error": "",
+      "index": "221577204979534081",
+      "index_bits": 58,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "197633"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        42
+      ],
+      "seconds": 26.755845,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 378,
+      "error": "",
+      "index": "718660286449537",
+      "index_bits": 50,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        44
+      ],
+      "seconds": 23.198591,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 371,
+      "error": "",
+      "index": "4321465315542666963030329232285401465476993",
+      "index_bits": 142,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "164737",
+        "126682753"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        46
+      ],
+      "seconds": 20.803929,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "9015926300771387182642680193",
+      "index_bits": 93,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        47
+      ],
+      "seconds": 23.441621,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 357,
+      "error": "",
+      "index": "2796343527041",
+      "index_bits": 42,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        48
+      ],
+      "seconds": 18.091557,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 357,
+      "error": "",
+      "index": "2796343527041",
+      "index_bits": 42,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        49
+      ],
+      "seconds": 27.42078,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "9015926300771387182642680193",
+      "index_bits": 93,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        50
+      ],
+      "seconds": 26.950379,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 376,
+      "error": "",
+      "index": "85380986939844627329",
+      "index_bits": 67,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "296321"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        51
+      ],
+      "seconds": 23.720275,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 377,
+      "error": "",
+      "index": "6741755562469059224696301454423403222273",
+      "index_bits": 133,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "126682753"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        52
+      ],
+      "seconds": 19.201003,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 365,
+      "error": "",
+      "index": "3514971080124213062625549468152238209",
+      "index_bits": 122,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        54
+      ],
+      "seconds": 21.094978,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 373,
+      "error": "",
+      "index": "184695693617531009",
+      "index_bits": 58,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        56
+      ],
+      "seconds": 18.651806,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "53217627520843813874934510259841",
+      "index_bits": 106,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        58
+      ],
+      "seconds": 28.112245,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 368,
+      "error": "",
+      "index": "3761182872605164354604033",
+      "index_bits": 82,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "197633"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        59
+      ],
+      "seconds": 21.337202,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 362,
+      "error": "",
+      "index": "16974593",
+      "index_bits": 25,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        60
+      ],
+      "seconds": 22.070232,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 329,
+      "error": "",
+      "index": "7819537121224099898215681",
+      "index_bits": 83,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        62
+      ],
+      "seconds": 27.309467,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 252,
+      "error": "",
+      "index": "19031147999601100801",
+      "index_bits": 65,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        63
+      ],
+      "seconds": 32.628378,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 252,
+      "error": "",
+      "index": "19031147999601100801",
+      "index_bits": 65,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        66
+      ],
+      "seconds": 31.376901,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 329,
+      "error": "",
+      "index": "7819537121224099898215681",
+      "index_bits": 83,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        67
+      ],
+      "seconds": 24.389431,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 353,
+      "error": "",
+      "index": "21866112013391827088746966510073729921",
+      "index_bits": 125,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "164737",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        68
+      ],
+      "seconds": 24.344521,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 368,
+      "error": "",
+      "index": "3761182872605164354604033",
+      "index_bits": 82,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "197633"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        70
+      ],
+      "seconds": 24.829492,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "53217627520843813874934510259841",
+      "index_bits": 106,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        71
+      ],
+      "seconds": 23.108131,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 371,
+      "error": "",
+      "index": "19031147999601100801",
+      "index_bits": 65,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        72
+      ],
+      "seconds": 28.436456,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 373,
+      "error": "",
+      "index": "184695693617531009",
+      "index_bits": 58,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        73
+      ],
+      "seconds": 18.290997,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 375,
+      "error": "",
+      "index": "1545398579878882535184059683073",
+      "index_bits": 101,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "126682753"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        74
+      ],
+      "seconds": 29.024024,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 365,
+      "error": "",
+      "index": "3514971080124213062625549468152238209",
+      "index_bits": 122,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        75
+      ],
+      "seconds": 24.363309,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 373,
+      "error": "",
+      "index": "12976183355157498876109525633",
+      "index_bits": 94,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "197633",
+        "227870849"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        76
+      ],
+      "seconds": 20.998498,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 376,
+      "error": "",
+      "index": "85380986939844627329",
+      "index_bits": 67,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "296321"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        78
+      ],
+      "seconds": 21.533395,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 357,
+      "error": "",
+      "index": "2796343527041",
+      "index_bits": 42,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        80
+      ],
+      "seconds": 22.86648,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "9015926300771387182642680193",
+      "index_bits": 93,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        82
+      ],
+      "seconds": 18.960404,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 371,
+      "error": "",
+      "index": "4321465315542666963030329232285401465476993",
+      "index_bits": 142,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "164737",
+        "126682753"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        83
+      ],
+      "seconds": 23.816119,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 375,
+      "error": "",
+      "index": "2066701999560772993",
+      "index_bits": 61,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "164737",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        84
+      ],
+      "seconds": 20.422436,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 378,
+      "error": "",
+      "index": "718660286449537",
+      "index_bits": 50,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        85
+      ],
+      "seconds": 23.699029,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 379,
+      "error": "",
+      "index": "988194716391791682688186241489721601",
+      "index_bits": 120,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "227870849",
+        "227870849"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        86
+      ],
+      "seconds": 26.251276,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 377,
+      "error": "",
+      "index": "221577204979534081",
+      "index_bits": 58,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "197633"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        87
+      ],
+      "seconds": 20.6238,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 374,
+      "error": "",
+      "index": "929006109578236118605875794177",
+      "index_bits": 100,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        88
+      ],
+      "seconds": 24.436345,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "29410709092048377346053623309095347078853986441473",
+      "index_bits": 165,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "126682753"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        89
+      ],
+      "seconds": 18.200924,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 361,
+      "error": "",
+      "index": "85380986939844627329",
+      "index_bits": 67,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "296321"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        90
+      ],
+      "seconds": 28.343107,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 375,
+      "error": "",
+      "index": "2066701999560772993",
+      "index_bits": 61,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "164737",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        92
+      ],
+      "seconds": 20.685366,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "2796343527041",
+      "index_bits": 42,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        93
+      ],
+      "seconds": 23.738959,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 367,
+      "error": "",
+      "index": "1256988294225653106805249",
+      "index_bits": 81,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        94
+      ],
+      "seconds": 18.20213,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 287,
+      "error": "",
+      "index": "19031147999601100801",
+      "index_bits": 65,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        96
+      ],
+      "seconds": 28.402184,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 350,
+      "error": "",
+      "index": "633432813207138468603127380794911546241",
+      "index_bits": 129,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "227870849",
+        "146065214209"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        98
+      ],
+      "seconds": 26.938516,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 373,
+      "error": "",
+      "index": "12976183355157498876109525633",
+      "index_bits": 94,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "197633",
+        "227870849"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        100
+      ],
+      "seconds": 24.087116,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 367,
+      "error": "",
+      "index": "15333957297412878889121518901175431348663751809",
+      "index_bits": 154,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "42337409"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        101
+      ],
+      "seconds": 27.517808,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 375,
+      "error": "",
+      "index": "54729212628440406117889",
+      "index_bits": 76,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        102
+      ],
+      "seconds": 24.45724,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 374,
+      "error": "",
+      "index": "929006109578236118605875794177",
+      "index_bits": 100,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        104
+      ],
+      "seconds": 21.86026,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 361,
+      "error": "",
+      "index": "85380986939844627329",
+      "index_bits": 67,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "296321"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        106
+      ],
+      "seconds": 23.596669,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 353,
+      "error": "",
+      "index": "21866112013391827088746966510073729921",
+      "index_bits": 125,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "164737",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        108
+      ],
+      "seconds": 23.88862,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 375,
+      "error": "",
+      "index": "54729212628440406117889",
+      "index_bits": 76,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        110
+      ],
+      "seconds": 23.306443,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 358,
+      "error": "",
+      "index": "5029928372353",
+      "index_bits": 43,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "296321"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        112
+      ],
+      "seconds": 23.473166,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 372,
+      "error": "",
+      "index": "54729212628440406117889",
+      "index_bits": 76,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        114
+      ],
+      "seconds": 23.73614,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 362,
+      "error": "",
+      "index": "16974593",
+      "index_bits": 25,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        116
+      ],
+      "seconds": 18.328737,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 367,
+      "error": "",
+      "index": "1256988294225653106805249",
+      "index_bits": 81,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        118
+      ],
+      "seconds": 20.381733,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 371,
+      "error": "",
+      "index": "19031147999601100801",
+      "index_bits": 65,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        120
+      ],
+      "seconds": 23.720295,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 375,
+      "error": "",
+      "index": "1545398579878882535184059683073",
+      "index_bits": 101,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "126682753"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        122
+      ],
+      "seconds": 21.631981,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 377,
+      "error": "",
+      "index": "6741755562469059224696301454423403222273",
+      "index_bits": 133,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "126682753"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        124
+      ],
+      "seconds": 22.089398,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 379,
+      "error": "",
+      "index": "988194716391791682688186241489721601",
+      "index_bits": 120,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "227870849",
+        "227870849"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        126
+      ],
+      "seconds": 22.30534,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 379,
+      "error": "",
+      "index": "516472607319730574177247514369",
+      "index_bits": 99,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "164737",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        1,
+        127
+      ],
+      "seconds": 16.023927,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 379,
+      "error": "",
+      "index": "55700932001453230177965578682832625287864839875934920432641",
+      "index_bits": 196,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "28619777",
+        "28619777",
+        "28619777",
+        "28619777"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        4
+      ],
+      "seconds": 4.303189,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 377,
+      "error": "",
+      "index": "45349463503293627859943862716366001904129",
+      "index_bits": 136,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "189941761",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        6
+      ],
+      "seconds": 2.690389,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 375,
+      "error": "",
+      "index": "52998401071482019685170438089689051308976783627715505553508289607464716042159191228519881691815214209",
+      "index_bits": 335,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "24449771329",
+        "24449771329"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        8
+      ],
+      "seconds": 2.743456,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 371,
+      "error": "",
+      "index": "805640576734313624106049425320228525264700040321",
+      "index_bits": 160,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "28619777",
+        "28619777"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        10
+      ],
+      "seconds": 4.656321,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 367,
+      "error": "",
+      "index": "262315579590351323516607704040890962561",
+      "index_bits": 128,
+      "nonunit_invariants": [
+        "31",
+        "31",
+        "31",
+        "31",
+        "6126623",
+        "6126623",
+        "2750853727",
+        "2750853727"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        12
+      ],
+      "seconds": 2.648982,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 361,
+      "error": "",
+      "index": "9853697905447655517765710867579362561",
+      "index_bits": 123,
+      "nonunit_invariants": [
+        "4600927",
+        "4600927",
+        "682266863903",
+        "682266863903"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        14
+      ],
+      "seconds": 3.181616,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 355,
+      "error": "",
+      "index": "11687038200387161353412558912783557445761",
+      "index_bits": 134,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "32998602881",
+        "32998602881"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        16
+      ],
+      "seconds": 3.064593,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 355,
+      "error": "",
+      "index": "11687038200387161353412558912783557445761",
+      "index_bits": 134,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "32998602881",
+        "32998602881"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        18
+      ],
+      "seconds": 3.069147,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 361,
+      "error": "",
+      "index": "9853697905447655517765710867579362561",
+      "index_bits": 123,
+      "nonunit_invariants": [
+        "4600927",
+        "4600927",
+        "682266863903",
+        "682266863903"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        20
+      ],
+      "seconds": 2.746078,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 329,
+      "error": "",
+      "index": "19762273059445943813548887671105854073315318206024769281",
+      "index_bits": 184,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "31794241",
+        "31794241",
+        "8237029398593",
+        "8237029398593"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        22
+      ],
+      "seconds": 3.848096,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 353,
+      "error": "",
+      "index": "70740185275242264856701888744688430558372532010783870988161",
+      "index_bits": 196,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "32998602881",
+        "32998602881"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        24
+      ],
+      "seconds": 2.358308,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 367,
+      "error": "",
+      "index": "262315579590351323516607704040890962561",
+      "index_bits": 128,
+      "nonunit_invariants": [
+        "31",
+        "31",
+        "31",
+        "31",
+        "6126623",
+        "6126623",
+        "2750853727",
+        "2750853727"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        28
+      ],
+      "seconds": 2.722042,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 350,
+      "error": "",
+      "index": "96094778695655791489",
+      "index_bits": 67,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "38143169",
+        "38143169"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        30
+      ],
+      "seconds": 3.282112,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 287,
+      "error": "",
+      "index": "865035669868969755469526634600415125179624936449",
+      "index_bits": 160,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "22270849",
+        "22270849"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        32
+      ],
+      "seconds": 3.401789,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 287,
+      "error": "",
+      "index": "865035669868969755469526634600415125179624936449",
+      "index_bits": 160,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "22270849",
+        "22270849"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        34
+      ],
+      "seconds": 3.434786,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 350,
+      "error": "",
+      "index": "96094778695655791489",
+      "index_bits": 67,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "38143169",
+        "38143169"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        36
+      ],
+      "seconds": 3.492408,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 363,
+      "error": "",
+      "index": "14891642238158683459622697601",
+      "index_bits": 94,
+      "nonunit_invariants": [
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        38
+      ],
+      "seconds": 3.604248,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 364,
+      "error": "",
+      "index": "989566377891475625960837594559532765904641",
+      "index_bits": 140,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "5106847",
+        "5106847",
+        "757942911199",
+        "757942911199"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        40
+      ],
+      "seconds": 3.424237,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 375,
+      "error": "",
+      "index": "52998401071482019685170438089689051308976783627715505553508289607464716042159191228519881691815214209",
+      "index_bits": 335,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "24449771329",
+        "24449771329"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        42
+      ],
+      "seconds": 2.10543,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 377,
+      "error": "",
+      "index": "45349463503293627859943862716366001904129",
+      "index_bits": 136,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "189941761",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        44
+      ],
+      "seconds": 2.735448,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 372,
+      "error": "",
+      "index": "1828793955345940194634520011995326882689",
+      "index_bits": 131,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "38143169",
+        "38143169"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        46
+      ],
+      "seconds": 3.007514,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 358,
+      "error": "",
+      "index": "1236346130739459783695639286180749473707133841249503708801",
+      "index_bits": 190,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        48
+      ],
+      "seconds": 3.379316,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 358,
+      "error": "",
+      "index": "1236346130739459783695639286180749473707133841249503708801",
+      "index_bits": 190,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        50
+      ],
+      "seconds": 4.39651,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 372,
+      "error": "",
+      "index": "1828793955345940194634520011995326882689",
+      "index_bits": 131,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "38143169",
+        "38143169"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        52
+      ],
+      "seconds": 4.00475,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 364,
+      "error": "",
+      "index": "989566377891475625960837594559532765904641",
+      "index_bits": 140,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "5106847",
+        "5106847",
+        "757942911199",
+        "757942911199"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        56
+      ],
+      "seconds": 3.342308,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 353,
+      "error": "",
+      "index": "70740185275242264856701888744688430558372532010783870988161",
+      "index_bits": 196,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "32998602881",
+        "32998602881"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        58
+      ],
+      "seconds": 2.07341,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 329,
+      "error": "",
+      "index": "19762273059445943813548887671105854073315318206024769281",
+      "index_bits": 184,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "31794241",
+        "31794241",
+        "8237029398593",
+        "8237029398593"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        60
+      ],
+      "seconds": 2.91655,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 252,
+      "error": "",
+      "index": "31061969660054596494048262250948899201",
+      "index_bits": 125,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "9185951",
+        "9185951",
+        "9185951",
+        "9185951"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        62
+      ],
+      "seconds": 23.289497,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 252,
+      "error": "",
+      "index": "31061969660054596494048262250948899201",
+      "index_bits": 125,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "9185951",
+        "9185951",
+        "9185951",
+        "9185951"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        68
+      ],
+      "seconds": 2.72712,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 353,
+      "error": "",
+      "index": "70740185275242264856701888744688430558372532010783870988161",
+      "index_bits": 196,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "32998602881",
+        "32998602881"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        72
+      ],
+      "seconds": 2.323969,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 364,
+      "error": "",
+      "index": "989566377891475625960837594559532765904641",
+      "index_bits": 140,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "5106847",
+        "5106847",
+        "757942911199",
+        "757942911199"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        74
+      ],
+      "seconds": 3.253525,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 363,
+      "error": "",
+      "index": "14891642238158683459622697601",
+      "index_bits": 94,
+      "nonunit_invariants": [
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        76
+      ],
+      "seconds": 3.023605,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 358,
+      "error": "",
+      "index": "1236346130739459783695639286180749473707133841249503708801",
+      "index_bits": 190,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        80
+      ],
+      "seconds": 2.755317,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 372,
+      "error": "",
+      "index": "1828793955345940194634520011995326882689",
+      "index_bits": 131,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "38143169",
+        "38143169"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        84
+      ],
+      "seconds": 2.670576,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 375,
+      "error": "",
+      "index": "52998401071482019685170438089689051308976783627715505553508289607464716042159191228519881691815214209",
+      "index_bits": 335,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "24449771329",
+        "24449771329"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        88
+      ],
+      "seconds": 2.134534,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 363,
+      "error": "",
+      "index": "14891642238158683459622697601",
+      "index_bits": 94,
+      "nonunit_invariants": [
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        92
+      ],
+      "seconds": 3.143193,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 287,
+      "error": "",
+      "index": "865035669868969755469526634600415125179624936449",
+      "index_bits": 160,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "22270849",
+        "22270849"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        96
+      ],
+      "seconds": 4.700399,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 350,
+      "error": "",
+      "index": "96094778695655791489",
+      "index_bits": 67,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "38143169",
+        "38143169"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        100
+      ],
+      "seconds": 3.472505,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 367,
+      "error": "",
+      "index": "262315579590351323516607704040890962561",
+      "index_bits": 128,
+      "nonunit_invariants": [
+        "31",
+        "31",
+        "31",
+        "31",
+        "6126623",
+        "6126623",
+        "2750853727",
+        "2750853727"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        102
+      ],
+      "seconds": 3.409332,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 371,
+      "error": "",
+      "index": "805640576734313624106049425320228525264700040321",
+      "index_bits": 160,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "28619777",
+        "28619777"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        104
+      ],
+      "seconds": 3.375194,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 329,
+      "error": "",
+      "index": "19762273059445943813548887671105854073315318206024769281",
+      "index_bits": 184,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "31794241",
+        "31794241",
+        "8237029398593",
+        "8237029398593"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        108
+      ],
+      "seconds": 2.596878,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 355,
+      "error": "",
+      "index": "11687038200387161353412558912783557445761",
+      "index_bits": 134,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "32998602881",
+        "32998602881"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        112
+      ],
+      "seconds": 3.359606,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 361,
+      "error": "",
+      "index": "9853697905447655517765710867579362561",
+      "index_bits": 123,
+      "nonunit_invariants": [
+        "4600927",
+        "4600927",
+        "682266863903",
+        "682266863903"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        116
+      ],
+      "seconds": 2.722252,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 371,
+      "error": "",
+      "index": "805640576734313624106049425320228525264700040321",
+      "index_bits": 160,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "49601",
+        "28619777",
+        "28619777"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        120
+      ],
+      "seconds": 3.925017,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 377,
+      "error": "",
+      "index": "45349463503293627859943862716366001904129",
+      "index_bits": 136,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "189941761",
+        "189941761"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        124
+      ],
+      "seconds": 2.796343,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 379,
+      "error": "",
+      "index": "55700932001453230177965578682832625287864839875934920432641",
+      "index_bits": 196,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "28619777",
+        "28619777",
+        "28619777",
+        "28619777"
+      ],
+      "order": 128,
+      "pair": [
+        2,
+        126
+      ],
+      "seconds": 2.36912,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 376,
+      "error": "",
+      "index": "233119056911230290168280127735925799115101838066578795172996174856479109891875033058730901124993419523841",
+      "index_bits": 347,
+      "nonunit_invariants": [
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "445905023",
+        "445905023",
+        "445905023",
+        "445905023",
+        "445905023",
+        "445905023",
+        "445905023",
+        "445905023"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        8
+      ],
+      "seconds": 1.106932,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "1684813849009273740721054081",
+      "index_bits": 91,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "24929",
+        "24929",
+        "24929",
+        "24929"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        12
+      ],
+      "seconds": 1.123606,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 358,
+      "error": "",
+      "index": "736486196254579330561",
+      "index_bits": 70,
+      "nonunit_invariants": [
+        "164737",
+        "164737",
+        "164737",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        16
+      ],
+      "seconds": 1.342967,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 343,
+      "error": "",
+      "index": "2791092511151471204033305139783323936209208719522186063361",
+      "index_bits": 191,
+      "nonunit_invariants": [
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "9220165153",
+        "9220165153",
+        "9220165153",
+        "9220165153"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        20
+      ],
+      "seconds": 1.28607,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 323,
+      "error": "",
+      "index": "15915935138948303957271435532487595397545015485480033300065670938095646412346241",
+      "index_bits": 264,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "2776118369",
+        "2776118369",
+        "2776118369",
+        "2776118369"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        24
+      ],
+      "seconds": 1.326508,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 347,
+      "error": "",
+      "index": "18721855171619198095842560140270542910929725024244917603939037778117813644055324801",
+      "index_bits": 274,
+      "nonunit_invariants": [
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "4811297",
+        "4811297",
+        "4811297",
+        "4811297",
+        "3084041377",
+        "3084041377",
+        "3084041377",
+        "3084041377"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        28
+      ],
+      "seconds": 1.467551,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 286,
+      "error": "",
+      "index": "2675162719286074600398494287743037127378697756169282561",
+      "index_bits": 181,
+      "nonunit_invariants": [
+        "18721",
+        "18721",
+        "18721",
+        "18721",
+        "2160272353",
+        "2160272353",
+        "2160272353",
+        "2160272353"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        32
+      ],
+      "seconds": 1.530028,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 286,
+      "error": "",
+      "index": "2675162719286074600398494287743037127378697756169282561",
+      "index_bits": 181,
+      "nonunit_invariants": [
+        "18721",
+        "18721",
+        "18721",
+        "18721",
+        "2160272353",
+        "2160272353",
+        "2160272353",
+        "2160272353"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        36
+      ],
+      "seconds": 1.546987,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 347,
+      "error": "",
+      "index": "18721855171619198095842560140270542910929725024244917603939037778117813644055324801",
+      "index_bits": 274,
+      "nonunit_invariants": [
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "4811297",
+        "4811297",
+        "4811297",
+        "4811297",
+        "3084041377",
+        "3084041377",
+        "3084041377",
+        "3084041377"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        40
+      ],
+      "seconds": 1.4728,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 358,
+      "error": "",
+      "index": "736486196254579330561",
+      "index_bits": 70,
+      "nonunit_invariants": [
+        "164737",
+        "164737",
+        "164737",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        48
+      ],
+      "seconds": 1.188523,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 323,
+      "error": "",
+      "index": "15915935138948303957271435532487595397545015485480033300065670938095646412346241",
+      "index_bits": 264,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "2776118369",
+        "2776118369",
+        "2776118369",
+        "2776118369"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        56
+      ],
+      "seconds": 1.164408,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 247,
+      "error": "",
+      "index": "171378827232003602173016061698552321060348455102596315735970414081",
+      "index_bits": 217,
+      "nonunit_invariants": [
+        "142641089",
+        "142641089",
+        "142641089",
+        "142641089",
+        "142641089",
+        "142641089",
+        "142641089",
+        "142641089"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        60
+      ],
+      "seconds": 1.161136,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 247,
+      "error": "",
+      "index": "171378827232003602173016061698552321060348455102596315735970414081",
+      "index_bits": 217,
+      "nonunit_invariants": [
+        "142641089",
+        "142641089",
+        "142641089",
+        "142641089",
+        "142641089",
+        "142641089",
+        "142641089",
+        "142641089"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        72
+      ],
+      "seconds": 0.937791,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 323,
+      "error": "",
+      "index": "15915935138948303957271435532487595397545015485480033300065670938095646412346241",
+      "index_bits": 264,
+      "nonunit_invariants": [
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "97",
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "2776118369",
+        "2776118369",
+        "2776118369",
+        "2776118369"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        76
+      ],
+      "seconds": 1.181141,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 343,
+      "error": "",
+      "index": "2791092511151471204033305139783323936209208719522186063361",
+      "index_bits": 191,
+      "nonunit_invariants": [
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "9220165153",
+        "9220165153",
+        "9220165153",
+        "9220165153"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        80
+      ],
+      "seconds": 1.48581,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 358,
+      "error": "",
+      "index": "736486196254579330561",
+      "index_bits": 70,
+      "nonunit_invariants": [
+        "164737",
+        "164737",
+        "164737",
+        "164737"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        84
+      ],
+      "seconds": 1.485283,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "1684813849009273740721054081",
+      "index_bits": 91,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "24929",
+        "24929",
+        "24929",
+        "24929"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        88
+      ],
+      "seconds": 1.146398,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 286,
+      "error": "",
+      "index": "2675162719286074600398494287743037127378697756169282561",
+      "index_bits": 181,
+      "nonunit_invariants": [
+        "18721",
+        "18721",
+        "18721",
+        "18721",
+        "2160272353",
+        "2160272353",
+        "2160272353",
+        "2160272353"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        96
+      ],
+      "seconds": 1.323607,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 347,
+      "error": "",
+      "index": "18721855171619198095842560140270542910929725024244917603939037778117813644055324801",
+      "index_bits": 274,
+      "nonunit_invariants": [
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "4811297",
+        "4811297",
+        "4811297",
+        "4811297",
+        "3084041377",
+        "3084041377",
+        "3084041377",
+        "3084041377"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        104
+      ],
+      "seconds": 1.318958,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 343,
+      "error": "",
+      "index": "2791092511151471204033305139783323936209208719522186063361",
+      "index_bits": 191,
+      "nonunit_invariants": [
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "9220165153",
+        "9220165153",
+        "9220165153",
+        "9220165153"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        112
+      ],
+      "seconds": 1.202213,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 369,
+      "error": "",
+      "index": "1684813849009273740721054081",
+      "index_bits": 91,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "24929",
+        "24929",
+        "24929",
+        "24929"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        120
+      ],
+      "seconds": 1.597148,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 376,
+      "error": "",
+      "index": "233119056911230290168280127735925799115101838066578795172996174856479109891875033058730901124993419523841",
+      "index_bits": 347,
+      "nonunit_invariants": [
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "24929",
+        "445905023",
+        "445905023",
+        "445905023",
+        "445905023",
+        "445905023",
+        "445905023",
+        "445905023",
+        "445905023"
+      ],
+      "order": 128,
+      "pair": [
+        4,
+        124
+      ],
+      "seconds": 0.994388,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 361,
+      "error": "",
+      "index": "2989031489147713361847720093753802169093891111673601",
+      "index_bits": 171,
+      "nonunit_invariants": [
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649"
+      ],
+      "order": 128,
+      "pair": [
+        8,
+        16
+      ],
+      "seconds": 0.80014,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 330,
+      "error": "",
+      "index": "280008815502222448813894501823725183814298270231754984729810427391805881739465967023726081",
+      "index_bits": 298,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "318257",
+        "318257",
+        "318257",
+        "318257",
+        "318257",
+        "318257",
+        "318257",
+        "318257"
+      ],
+      "order": 128,
+      "pair": [
+        8,
+        24
+      ],
+      "seconds": 0.77917,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 281,
+      "error": "",
+      "index": "38120070092668968079499600628479398126275266970808192183377983817391227291673814401",
+      "index_bits": 275,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049"
+      ],
+      "order": 128,
+      "pair": [
+        8,
+        32
+      ],
+      "seconds": 0.772373,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 281,
+      "error": "",
+      "index": "38120070092668968079499600628479398126275266970808192183377983817391227291673814401",
+      "index_bits": 275,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049"
+      ],
+      "order": 128,
+      "pair": [
+        8,
+        40
+      ],
+      "seconds": 0.752821,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 330,
+      "error": "",
+      "index": "280008815502222448813894501823725183814298270231754984729810427391805881739465967023726081",
+      "index_bits": 298,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "318257",
+        "318257",
+        "318257",
+        "318257",
+        "318257",
+        "318257",
+        "318257",
+        "318257"
+      ],
+      "order": 128,
+      "pair": [
+        8,
+        48
+      ],
+      "seconds": 14.971782,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 226,
+      "error": "",
+      "index": "21954636091157185595862356595788449426039613256508578127984459236669074002965949329558599906032148750794699285232641",
+      "index_bits": 384,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473"
+      ],
+      "order": 128,
+      "pair": [
+        8,
+        56
+      ],
+      "seconds": 0.628079,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 226,
+      "error": "",
+      "index": "21954636091157185595862356595788449426039613256508578127984459236669074002965949329558599906032148750794699285232641",
+      "index_bits": 384,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473",
+        "951473"
+      ],
+      "order": 128,
+      "pair": [
+        8,
+        80
+      ],
+      "seconds": 0.618133,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 281,
+      "error": "",
+      "index": "38120070092668968079499600628479398126275266970808192183377983817391227291673814401",
+      "index_bits": 275,
+      "nonunit_invariants": [
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "257",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049",
+        "81792049"
+      ],
+      "order": 128,
+      "pair": [
+        8,
+        96
+      ],
+      "seconds": 0.697722,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 330,
+      "error": "",
+      "index": "280008815502222448813894501823725183814298270231754984729810427391805881739465967023726081",
+      "index_bits": 298,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "318257",
+        "318257",
+        "318257",
+        "318257",
+        "318257",
+        "318257",
+        "318257",
+        "318257"
+      ],
+      "order": 128,
+      "pair": [
+        8,
+        112
+      ],
+      "seconds": 0.697156,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 361,
+      "error": "",
+      "index": "2989031489147713361847720093753802169093891111673601",
+      "index_bits": 171,
+      "nonunit_invariants": [
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649",
+        "1649"
+      ],
+      "order": 128,
+      "pair": [
+        8,
+        120
+      ],
+      "seconds": 0.830828,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 290,
+      "error": "",
+      "index": "2367911594760467245844106297320951247361",
+      "index_bits": 131,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "order": 128,
+      "pair": [
+        16,
+        32
+      ],
+      "seconds": 0.638515,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 147,
+      "error": "",
+      "index": "3912425457204879631503516058626198046646581314561",
+      "index_bits": 162,
+      "nonunit_invariants": [
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33"
+      ],
+      "order": 128,
+      "pair": [
+        16,
+        48
+      ],
+      "seconds": 0.385544,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 147,
+      "error": "",
+      "index": "3912425457204879631503516058626198046646581314561",
+      "index_bits": 162,
+      "nonunit_invariants": [
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33"
+      ],
+      "order": 128,
+      "pair": [
+        16,
+        96
+      ],
+      "seconds": 0.38895,
+      "status": "COMPLETE"
+    },
+    {
+      "coefficient_bits": 290,
+      "error": "",
+      "index": "2367911594760467245844106297320951247361",
+      "index_bits": 131,
+      "nonunit_invariants": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "order": 128,
+      "pair": [
+        16,
+        112
+      ],
+      "seconds": 0.573388,
+      "status": "COMPLETE"
+    }
+  ],
+  "schema": "dli-wcl-pair-ideal-index-probe-v2",
+  "scope": "route selection only; sampled pair orbits above the exact small ladder",
+  "status": "COMPLETE"
+}
