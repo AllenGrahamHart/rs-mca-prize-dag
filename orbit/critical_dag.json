@@ -738,7 +738,7 @@
   },
   {
    "id": "imgfib",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "L1: #ImgFib_U <= n^B above reserve (image fibers)"
   },
   {
@@ -780,6 +780,11 @@
    "id": "l1_defect_layer_bounds",
    "label": "PROVED",
    "title": "L1 Lemmas 9/13-16: defect-layer bounds (full-petal case)"
+  },
+  {
+   "id": "l1_mixed_petal_amplification",
+   "label": "UNPROVED",
+   "title": "L1: mixed-petal / diffuse partial-petal amplification is polynomially bounded (large-defect regime)"
   },
   {
    "id": "l1_program_frontier",
@@ -2457,6 +2462,10 @@
   {
    "from": "petal_column_lemma",
    "to": "petal_small_scale_staircase_census"
+  },
+  {
+   "from": "l1_mixed_petal_amplification",
+   "to": "imgfib"
   }
  ]
 }
