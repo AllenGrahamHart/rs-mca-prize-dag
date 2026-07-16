@@ -765,7 +765,7 @@
    "statement": "FLOOR RE-POSE (2026-07-07, floor campaign \u2014 notes/floor_campaign/SURVEY_OTHER_LANES.md): the consumer (imgfib) consumes ONLY 'for ALL received words U: #ImgFib_U(k+sigma) <= n^B' with the petal escape route as the single open branch. FLOOR: at the official rows, for every U, the full-petal (top-defect band d >= M(t-2)) contribution to #ImgFib_U fits the n^B budget. NO uniformity-in-c claim and NO per-c polynomial claim \u2014 those are route strengthenings (kept below). Pre-registered falsifier: scaled official-like rows with a super-budget top-band petal family, sustained across scales; below-top behavior is Lemma-13-clean (76-row scan, max exact count 1). | Full-petal extras at cofactor excess d-ell = c are poly(n) uniformly in c (equivalently: the amplification bound closes the Thm 21/B11 escape route). | SURVIVAL +1 (2026-07-07, F4-A1, notes/f4a1_topband_ladder_modal.py): 7-rung prime ladder (109..6421, all gates PASS) \u2014 top-band max exact count EXACTLY 5005 = C(15,6) at every rung (slope +0.000; p-independent, purely binomial), below-top <= 1, zero Lemma-13 violations. The floor's n^B claim holds flat; constructive lead: the top-band family is combinatorially parameterized (the demanded paid family is a binomial column \u2014 identify and prove it on the route side). | SURVIVAL +2 scoped (2026-07-07, F4-A2): adversarial c-sweep to c=14 \u2014 top-band count steps C(15,6) -> C(20,6) = 38760: bounded-degree (6) binomial growth in the excess parameter, absorbed by any c-uniform n^B budget; the paid-family lead sharpens to a 6-dimensional binomial column. Large-p c-sweep completeness and the exact offset formula to F4-A2b. | SURVIVAL +3 -> **HARDENED** (2026-07-07, F4-A2b): the top band has a two-regime structure \u2014 at-top realizability SATURATES to the full binomial window p-independently (the paid family, exactly chargeable; the ladder's constant 5005 refined to this semantics), below-top accidents decay with p (4->0, 2->0), Lemma-13 zero violations everywhere. Families: p-ladder / c-growth / kernel-ceiling. | Pro floor-window 4: no kill; budget implication completed and replayed (C(n+6,6) <= n^6 at all four official maximal rows, exponent <= 5.785) \u2014 the saturated column provably fits n^6. || SLACK-SCAN ADDENDUM (2026-07-09, floor_budget_slack_scan): NOT BINDING \u2014 the saturated degree-6 binomial column sits ~9.5 bits under n^6 at all four official maximal rows (exponents 5.7685..5.7843, exact recompute; banked <= 5.785 confirmed); the excess-c column keeps degree 6. B_max > 6 would be gated by the codegree-conversion emission (imgfib -> list_safe): named open cell, compute only if the route needs it. | WP6 KERNEL-BASIS VERDICT (2026-07-10, notes/kernel_basis/WP6_PETAL_VERDICT.md): REDUCTION-PARTIAL onto K4 (stabilizer-primitive image-fiber bound) \u2014 Codex's four E22 packets replayed PROVED (10/10 verifiers; ledger walls + algebraic entry real; staircase column exactly matches the planted lower count, separate charge NECESSARY; ~9.5 bits slack at exponent 5.785) but three named gaps block the amber: G1 layer-map supply for arbitrary U (upstream withholds), G2 support-forcing dichotomy (the central bridge, proved nowhere; F4-A2b empirics are evidence only), G3 pricing multiplicity (WP6 wrote 'referenced node exists nowhere' \u2014 CORRECTED 2026-07-10 amber audit Catch A: e22_cross_scale_pricing_multiplicity EXISTS locally since Jul 5 with status PROVED, but rides on the WP6-unreplayed fifth branch, so G3 stays a predicate per the anti-goal). Fifth E22 branch (minimal-scale accounting) NOT imported. || AMBER SURGERY (2026-07-10, petal amber audit, sequel to WP6): CONDITIONAL \u2014 machine-verified assembly implication: IF petal_g1_layer_maps AND petal_g2_support_forcing AND petal_g3_pricing_multiplicity AND petal_k4_primitive_bound (G4/G5 + P1/P3 pinned as definitions in conditional.md) THEN at every official row and every U, the top-band full-petal contribution to #ImgFib_U(k+sigma) splits as [primitive: <= n^{b1+b4}, charged to n^B] + [staircase: <= n^{b1+b3} x planted column, charged to imgfib's quotient-profile budget \u2014 the charge proved NECESSARY by v13_capf_planted_lower_count, exact column match]. Every non-predicate link PROVED: pma injection + four E22 packets (verifiers replayed exit-0 twice: WP6 and this audit) + exact arithmetic (exponent <= 5.785, slack = log2 6! = 9.4919 bits at n = 2^41..2^44, composition machine-checked; the 9.5 bits IS the binomial denominator, not structural headroom \u2014 do not spend it in predicate exponents). ROUTE OF RECORD: G1 -> pma -> [G4 pin] -> cofactor packets -> G2 -> {staircase: tail-coset + 7-lemma composite -> G3 -> quotient budget | primitive: K4} -> floor. RE-SURGERY (demote to TARGET) if: any predicate falsified as stated; the G4 dictionary check fails on a sweep cell; the fifth-branch replay contradicts the declared W semantics; the band pin P1 (floor band M(t-2) vs scan band (t-1)M \u2014 Catch B) is resolved to a different constant; or imgfib's quotient clause is re-scoped so the P3 emission no longer lands. SCOPE: top band only \u2014 mixed-petal and below-top are separate obligations, untouched. || #171 BELOW-TOP OBLIGATION NOTE (2026-07-13, from the clause-(P) banking): under the floor posing of the G1 band, the wide-minus-floor aperiodic lift mass (~2^59.67 at (128,64), spread over ~C(t,m) charts) belongs to THIS node's below-top obligation; the banked below-top evidence (76-row Lemma-13 scan, per-chart max 1) neither prices nor contradicts it, and no aggregate budget line exists for it yet. Attached to the owed P1 maintainer request (floor vs wide band decision); a P1 floor confirmation makes this the single open below-top quantity. || P1 CONFIRMED -> PROVED (2026-07-13): the maintainer ruled the top-defect band of record is the FLOOR band d >= M(t-2), layout-anchored (#168) \u2014 the strongest form the proofs support (dominates the narrower (t-1)M scan reading; wider-than-floor is killed by counting, 2^59.67 > 2^41.92). With the pin fixed, all eleven wired hypotheses are PROVED (G1 clause (P), G2, G3 compiler, K4, census gate, the E22/v13 suppliers) and the conditional packet discharges: full-petal extras are poly(n) uniformly in c on the top band, off-band by top-coefficient forcing. Confirmation text in conditional.md; proof artifact proof.md. STANDING: tripwire (P)-3 + re-surgery criterion 4 (re-resolution of the band constant re-opens); the #171 wide-minus-floor lift mass is this node's below-top ledger line (separate obligation, flagged above).",
    "attack_surface": "fixed-excess enumerations (Q2.9) then the amplification statement; CRT compression makes small cases finite",
    "falsifier": "Pre-registered: a sustained super-n^B top-band full-petal family at scaled official-like rows (transported arithmetic). Below-top Lemma-13 territory and single window accidents do NOT count.",
-   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_growth/conditional.md. | FRONTIER RETRACTION 2026-07-05: demoted CONDITIONAL->TARGET and the sub-frontier CUT (archive/retraction_petal_20260705/). Reason: the petal machinery below (chargeability band frontier, band-split sparsity interface, uniformity/amplification nodes) suffered repeated falsifications-as-stated (Gate N, PRK, chargeability) and the audit surface was no longer trusted. This node -- full-petal extras poly(n) uniformly in c -- is the honest open obligation. Best-known structure from the cut exploration: the multi-char threat is confined to the top-defect band d>=M(t-2) (verified); off-band has an induction proof route via top-coefficient forcing; the band needs a parameterized paid family. See archive + EMPIRICAL_OBSERVATIONS. | AMBER STRESS 2026-07-06: local petal_excess scan checked 16 coset-chart configs / 76 rows, with no below-top Lemma-13 violations. Ambient dimK grows with c, so flat-kernel induction is not viable; exact realizable counts were max 1 below top and max 5005 at/top beyond, reinforcing top-band paid-family focus. | residual gate:any attribute removed 2026-07-06 (no alt edges exist; red-leaf law forbids them on a TARGET anyway). | AMBER 2026-07-10: route of record = G1/G2/G3/K4 predicate split (audit AMBER-READY); conditional packet rewritten (conditional.md); direct form chosen over a companion close-node because the maintainer's brief converts the red itself and petal_growth was historically the conditional node. | FIFTH-BRANCH RESOLUTION (2026-07-10): replay verdict = clean-parametric, G3 NOT discharged (catches #44-#47); re-surgery criterion 3 does NOT fire (no declared W existed to contradict); predicate count stays four; G3's clause (b) re-posed as the explicit conversion identity. | G2 VACUITY FINDING 2026-07-10: closure form trivially true (thm:stabilizer-partition(i)); real content = the small-scale pricing seam (scales <= t staircase mass, p-independent, witnessed); disposition re-audit queued (re-pose G2' at M > t vs flip + strengthen G3/K4). Re-surgery criterion 1 NOT fired (G2 is true, not false); route honesty under review. | 2026-07-12 CLUSTER IMPORT (audit-gated): G2 PROVED (flip banked WITH the new census gate node \u2014 catch #80), G3 -> CONDITIONAL compiler on G1 (clause (b) proved in general, clause (a) via injectivity + first-match), G1 re-posed as the atlas form (catch #79 repaired), 719 exact allowance banked. Amber predicates now {G1-atlas, K4, small-scale census}. Catches #79-#83. | 2026-07-13: census gate -> CONDITIONAL on the unified successor red quotient_row_subjohnson_bound (packet audited; suppliers T1/T2/T3 PROVED; catches #113-#115). Petal amber now: {G1-atlas, K4, successor} with G3 compiler. | 2026-07-13 PROMOTED PROVED on the maintainer's P1 floor confirmation \u2014 the petal lane closes: the first of the two grand branches' historical floors fully retired by proof + one posing ruling."
+   "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_growth/conditional.md. | FRONTIER RETRACTION 2026-07-05: demoted CONDITIONAL->TARGET and the sub-frontier CUT (archive/retraction_petal_20260705/). Reason: the petal machinery below (chargeability band frontier, band-split sparsity interface, uniformity/amplification nodes) suffered repeated falsifications-as-stated (Gate N, PRK, chargeability) and the audit surface was no longer trusted. This node -- full-petal extras poly(n) uniformly in c -- is the honest open obligation. Best-known structure from the cut exploration: the multi-char threat is confined to the top-defect band d>=M(t-2) (verified); off-band has an induction proof route via top-coefficient forcing; the band needs a parameterized paid family. See archive + EMPIRICAL_OBSERVATIONS. | AMBER STRESS 2026-07-06: local petal_excess scan checked 16 coset-chart configs / 76 rows, with no below-top Lemma-13 violations. Ambient dimK grows with c, so flat-kernel induction is not viable; exact realizable counts were max 1 below top and max 5005 at/top beyond, reinforcing top-band paid-family focus. | residual gate:any attribute removed 2026-07-06 (no alt edges exist; red-leaf law forbids them on a TARGET anyway). | AMBER 2026-07-10: route of record = G1/G2/G3/K4 predicate split (audit AMBER-READY); conditional packet rewritten (conditional.md); direct form chosen over a companion close-node because the maintainer's brief converts the red itself and petal_growth was historically the conditional node. | FIFTH-BRANCH RESOLUTION (2026-07-10): replay verdict = clean-parametric, G3 NOT discharged (catches #44-#47); re-surgery criterion 3 does NOT fire (no declared W existed to contradict); predicate count stays four; G3's clause (b) re-posed as the explicit conversion identity. | G2 VACUITY FINDING 2026-07-10: closure form trivially true (thm:stabilizer-partition(i)); real content = the small-scale pricing seam (scales <= t staircase mass, p-independent, witnessed); disposition re-audit queued (re-pose G2' at M > t vs flip + strengthen G3/K4). Re-surgery criterion 1 NOT fired (G2 is true, not false); route honesty under review. | 2026-07-12 CLUSTER IMPORT (audit-gated): G2 PROVED (flip banked WITH the new census gate node \u2014 catch #80), G3 -> CONDITIONAL compiler on G1 (clause (b) proved in general, clause (a) via injectivity + first-match), G1 re-posed as the atlas form (catch #79 repaired), 719 exact allowance banked. Amber predicates now {G1-atlas, K4, small-scale census}. Catches #79-#83. | 2026-07-13: census gate -> CONDITIONAL on the unified successor red quotient_row_subjohnson_bound (packet audited; suppliers T1/T2/T3 PROVED; catches #113-#115). Petal amber now: {G1-atlas, K4, successor} with G3 compiler. | 2026-07-13 PROMOTED PROVED on the maintainer's P1 floor confirmation \u2014 the petal lane closes: the first of the two grand branches' historical floors fully retired by proof + one posing ruling. | 2026-07-16 wiring correction (forced, wave-8 import): the legacy ev in-edge from petal_mixed_amplification removed -- this node's ratified scope EXCLUDES mixed-petal (P1 record, proof.md), so mixed-petal material is not evidence for it; the edge also closed a cycle against the imported pma suite (which consumes petal_growth as a req dependency)."
   },
   {
    "id": "petal_witnesses",
@@ -1140,11 +1140,11 @@
   {
    "id": "petal_mixed_amplification",
    "title": "Mixed-petal sunflower amplification theorem",
-   "status": "CONDITIONAL",
+   "status": "TARGET",
    "refs": [
     "proof_sketch/s7_list_side.md#4"
    ],
-   "statement": "The program's first precise target (note, Consequences of the mixed-petal analysis): count degree-<=d polynomials W with many zeros across the shifted-target family W - c_i L_D on T_i; super-polynomial amplification must force quotient, low-defect, or another explicitly budgeted structured family. A lower-dimensional incidence question.",
+   "statement": "The program's first precise target (note, Consequences of the mixed-petal analysis): count degree-<=d polynomials W with many zeros across the shifted-target family W - c_i L_D on T_i; super-polynomial amplification must force quotient, low-defect, or another explicitly budgeted structured family. A lower-dimensional incidence question. || RE-POSED -> TARGET (wave-8, 2026-07-16): the conditional route consumed pma_wide_residual, now REFUTED (both readings) -- the implication is vacuous and retired; req wiring converted to ev (history). The v4 re-posed narrowed statement is banked as a dated addendum in the node folder (statement.md); the surviving inputs (root-pinning ledger, saturated kernel, rich-fiber reduction, the sigma-one payment/owner suite) are ev-wired. Crosswalk to master's critical-slot red: l1_mixed_petal_amplification (see its v4_pma_crosswalk.md note).",
    "attack_surface": "the incidence count over the shifted-target family; Q2.9's fixed-excess data grounds the exponents",
    "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_mixed_amplification/conditional.md. | AMBER STRESS 2026-07-06: PMA correlated-target search varied defect locators and scalar patterns in the F_109, ell=3, d=5 toy window; 10 exact profiles + 3 sampled M=12 profiles completed, exact M=9 max threshold count 176, no large spread-residual alarm."
   },
@@ -1774,13 +1774,15 @@
   {
    "id": "pma_wide_residual",
    "title": "PMA stage 3 (the residue): many-petal, sub-Johnson regime with CORRELATED targets",
-   "status": "TARGET",
+   "status": "REFUTED",
    "key": true,
-   "statement": "RESTATED after the pullback counterexample (verified): split L(D) = L_quot u L_lowdef u L_prim. The quotient-pullback stratum is REAL and exponential-in-M (pma_pullback_lists) \u2014 charged to the quotient-profile budget (M = O(log n) at the cutoff => poly-but-budgeted). The low-defect stratum is covered by the fixed-excess machinery. The corrected target: THE PRIMITIVE RESIDUAL \u2014 non-pullback, non-low-defect wide sub-Johnson lists are polynomial. The third appearance of strip-quotient-first (after XR's E2 caveat and F's scale recursion).",
+   "statement": "RESTATED after the pullback counterexample (verified): split L(D) = L_quot u L_lowdef u L_prim. The quotient-pullback stratum is REAL and exponential-in-M (pma_pullback_lists) \u2014 charged to the quotient-profile budget (M = O(log n) at the cutoff => poly-but-budgeted). The low-defect stratum is covered by the fixed-excess machinery. The corrected target: THE PRIMITIVE RESIDUAL \u2014 non-pullback, non-low-defect wide sub-Johnson lists are polynomial. The third appearance of strip-quotient-first (after XR's E2 caveat and F's scale recursion). || REFUTED (wave-8 audited import, 2026-07-16; both readings die): (i) master's polynomial-primitive-residual reading falls to pma_sigma_one_variable_defect_exact_hit_floor -- an EXPONENTIAL primitive wide-sub-Johnson residual at sigma=1 on poly-field rows (Linnik/Xylouris-based family; non-pullback, d=n/8 not low-defect, inside the wide regime d^2 <= d|T|); (ii) the sharpened finite n^6 Post allocation falls to pma_sigma_one_d4_generic_source_obstruction (exact first moment 2^104 > n^6 = 2^97 at (65537^2, 65536, 32768), integer-verified, escapes all three owners). Folder banked from the v4 pin with master's original statement preserved. The refutations sit OUTSIDE imgfib's entropy reserve (audited guard (b)) -- imgfib remains viable CONDITIONAL.",
    "attack_surface": "two independent angles: (a) correlated-target strengthening of GS (the c_i are scalars times a COMMON L_D \u2014 one-dimensional target space per petal); (b) descent: extras of the auxiliary problem are degree-d objects \u2014 the SAME problem at (k, sigma) -> (d+1, ...), strictly smaller; iterate until Johnson-safe. Q2.9 fixed-excess data calibrates both.",
    "falsifier": "an adversarial many-petal family (R3 attack) with super-poly auxiliary list",
    "refs": [
-    "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
+    "experimental/notes/l1/l1_full_list_quotient_proof_program.md",
+    "background/nodes/pma_wide_residual/statement.md",
+    "background/nodes/pma_wide_residual/refutation.md"
    ],
    "notes": "E4 (PR #186): exact toy window F_109 l=3 d=5 \u2014 Johnson-covered rows empty, wide rows nonempty but tame (M=12: 2023 aux polys, max agreement 11). NO_SUPERPOLY_SIGNAL. Prior up mildly; window small. | AMBER STRESS 2026-07-06: pma_correlated_target_search.py varied defect locators and scalar patterns; constant scalar controls gave the single full-agreement locator target, exact nonconstant M=6/M=9 profiles stayed small (max exact threshold count 176), sampled M=12 profiles estimated about 3.3e4-3.9e4 threshold candidates with no high-agreement runaway."
   },
@@ -5799,6 +5801,422 @@
     "critical/nodes/l1_mixed_petal_amplification/attack.md"
    ],
    "statement": "At every official row and for every received word U, the MIXED-PETAL / DIFFUSE PARTIAL-PETAL contributors to #ImgFib_U(k+sigma) (supports touching >= 1 petal in fewer than 2 points, or diffuse core-heavy supports outside the full-petal stratum) are polynomially bounded above the corrected reserve, with the quotient profile budgeted. This is the bucket of the image-fiber count that the proved chain does NOT cover: clause (P) + K4 + the census gate close full-petal top-band, full-petal below-top (Lemmas 13/15/16), primitive, and periodic; the mixed bucket was labeled CONJECTURAL by the program note ('Mixed-petal sunflower amplification: CONJECTURAL. Next focused bound to prove or refute in the large-defect regime') and its naive induction (petal_excess_induction / petal_mixed_amplification_step) was RETRACTED 2026-07-05 after repeated falsifications-as-stated (dim K grows with c; the residue-line growth IS the obstruction). KNOWN MASS (catch #176): 43 mixed-petal floor-band contributors vs 10 full-petal at (16,8,97) -- real, 4x the full-petal mass at the smallest cell; no growth law measured. POSED at the upstream audit's finding (l1_imgfib_crosswalk_audit.md, upstream commit c35a6da3 wave; catch #212): B11's residual frontier = growing-excess full-petal (closed by clause (P)) PLUS this diffuse partial-petal case. FALSIFIER: a word family whose mixed-petal image-fiber count grows super-polynomially above the corrected reserve; or (route-kill) a proof that mixed-petal mass at official rows exceeds any n^B. NOTE: Codex's v4 PMA campaign (133 commits, 2026-07-13..15) appears to attack exactly this allocation problem -- survey in flight, audit-gated import pending."
+  },
+  {
+   "id": "petal_reserve_rich_fiber_reduction",
+   "title": "Petal reserve rich-fiber reduction",
+   "status": "PROVED",
+   "statement": "For a maximal sunflower with petal size ell=sigma+1, every non-planted listed residual has at least ell petal agreements and therefore one petal containing at least ceil(ell/M) points of one value fiber of W/L_D. At sigma=Omega(n/log n) this is Omega(n/log^2 n), and the collision-free class is empty. The remaining imgfib target is a source-coupled rich-fiber count or ownership theorem.",
+   "refs": [
+    "background/nodes/petal_reserve_rich_fiber_reduction/statement.md",
+    "background/nodes/petal_reserve_rich_fiber_reduction/proof.md",
+    "background/nodes/petal_reserve_rich_fiber_reduction/audit.md",
+    "background/nodes/petal_reserve_rich_fiber_reduction/claim_contract.md",
+    "background/nodes/petal_reserve_rich_fiber_reduction/dependency_subdag.md",
+    "background/nodes/petal_reserve_rich_fiber_reduction/verify.py"
+   ]
+  },
+  {
+   "id": "pma_arbitrary_petal_source_realizability",
+   "title": "PMA arbitrary-petal maximal-source realizability",
+   "status": "PROVED",
+   "statement": "For every partition of an evaluation domain into a (k-1)-point core, arbitrary disjoint ell-point petals, and background b<ell, distinct nonzero labels define an explicit received word U whose codewords c_i L_C have exact agreement sets C union T_i. At M=floor((n-k+1)/ell) this is a maximal sunflower source. A smooth F_17^* instance has four quadratic petal locators with different linear coefficients, so maximal-source structure alone cannot force a common constant-shift pencil. This does not construct an unpaid residual contributor; any surviving bridge must be contributor-specific or the arbitrary-locator branch must be counted directly.",
+   "refs": [
+    "background/nodes/pma_arbitrary_petal_source_realizability/statement.md",
+    "background/nodes/pma_arbitrary_petal_source_realizability/proof.md",
+    "background/nodes/pma_arbitrary_petal_source_realizability/audit.md",
+    "background/nodes/pma_arbitrary_petal_source_realizability/claim_contract.md",
+    "background/nodes/pma_arbitrary_petal_source_realizability/dependency_subdag.md",
+    "background/nodes/pma_arbitrary_petal_source_realizability/verify.py"
+   ]
+  },
+  {
+   "id": "pma_b11_first_match_router",
+   "title": "PMA B11 exact first-match router: Johnson and two anchor gates",
+   "status": "PROVED",
+   "statement": "For fixed E,V_2,V_R, maximal-sunflower extras partition disjointly into GROW, J, A2, AR, and RES. The J/A2/AR union has the exact B11 Johnson plus two-petal-anchor plus background-petal-anchor bound; only GROW and RES remain.",
+   "refs": [
+    "background/nodes/pma_b11_first_match_router/statement.md",
+    "background/nodes/pma_b11_first_match_router/proof.md",
+    "background/nodes/pma_b11_first_match_router/verify.py"
+   ]
+  },
+  {
+   "id": "pma_coset_subtwoell_saturation_exclusion",
+   "title": "PMA constant-shift-pencil sub-two-ell saturation exclusion",
+   "status": "PROVED",
+   "statement": "Over every field, a saturated full-petal chart whose locators are constant shifts P-a_i of one monic degree-ell polynomial, with at least three touched petals, has no exact defect in the strict strip ell<d<2ell. Two-block division by P forces the quotient-label matrix to rank at most two; three distinct labels then force one constant value, hence W=cF, contradicting gcd(F,W)=1. The bounds are sharp: t=2 and d=2ell both have explicit saturated F_7 counterexamples. Multiplicative cosets are the case P=X^ell; the arbitrary-locator PMA source bridge remains open.",
+   "refs": [
+    "background/nodes/pma_coset_subtwoell_saturation_exclusion/statement.md",
+    "background/nodes/pma_coset_subtwoell_saturation_exclusion/proof.md",
+    "background/nodes/pma_coset_subtwoell_saturation_exclusion/audit.md",
+    "background/nodes/pma_coset_subtwoell_saturation_exclusion/claim_contract.md",
+    "background/nodes/pma_coset_subtwoell_saturation_exclusion/dependency_subdag.md",
+    "background/nodes/pma_coset_subtwoell_saturation_exclusion/verify.py"
+   ]
+  },
+  {
+   "id": "pma_full_petal_band_composition",
+   "title": "PMA full-petal band/root composition",
+   "status": "PROVED",
+   "statement": "For one carried maximal source, the G1 chart count is the total petal count M, while t counts petals touched by one full-petal codeword. On-band, t is M-1 or M, so equality is false in general. Composing the top-band payment with the E=0 root-pinning aggregate pays every full-petal source with M<=3 and the all-touched M=4 stratum. A remaining full-petal family must have M>=4, d<ell(M-2), t<2M-4, and unbounded root excess.",
+   "refs": [
+    "background/nodes/pma_full_petal_band_composition/statement.md",
+    "background/nodes/pma_full_petal_band_composition/proof.md",
+    "background/nodes/pma_full_petal_band_composition/audit.md",
+    "background/nodes/pma_full_petal_band_composition/claim_contract.md",
+    "background/nodes/pma_full_petal_band_composition/dependency_subdag.md",
+    "background/nodes/pma_full_petal_band_composition/verify.py"
+   ]
+  },
+  {
+   "id": "pma_official_rate_small_source_degree_sieve",
+   "title": "PMA official-rate small-source degree sieve",
+   "status": "PROVED",
+   "statement": "On an exact official rate-1/r row, a maximal source with M<=r-2 has petal size ell>=k+1, while every exact core defect has d<=k-1; hence its strict d>ell full-petal residual is empty. This removes M<=6 at rate 1/8 and M<=14 at rate 1/16. At rate 1/4 with M=4,t=3, the upper mu-basis branch is possible exactly when 2b>=ell+8; the complementary branch has at most 4k contributors per carried source. The surviving M=4,t=3 count is confined to rate 1/2 and the rate-quarter large-background upper branch.",
+   "refs": [
+    "background/nodes/pma_official_rate_small_source_degree_sieve/statement.md",
+    "background/nodes/pma_official_rate_small_source_degree_sieve/proof.md",
+    "background/nodes/pma_official_rate_small_source_degree_sieve/audit.md",
+    "background/nodes/pma_official_rate_small_source_degree_sieve/claim_contract.md",
+    "background/nodes/pma_official_rate_small_source_degree_sieve/dependency_subdag.md",
+    "background/nodes/pma_official_rate_small_source_degree_sieve/verify.py"
+   ]
+  },
+  {
+   "id": "pma_petal_pattern_root_pinning_ledger",
+   "title": "PMA petal-pattern root-pinning ledger",
+   "status": "PROVED",
+   "statement": "For one maximal sunflower, the non-planted exact (d,t,h) petal-support stratum has field-independent size at most binom(M,t) binom(t ell,h) binom(k-1,max(0,2d+1-h)). Petal agreements satisfy h>d, so a fixed petal pattern and split locator determine the numerator and all background hits. At the L1 lower cutoff every fixed region (t ell-h)+max(0,2d+1-h)<=E is polynomial, including new growing-defect full-petal layers. The complementary unbounded petal-entropy/root-excess family remains open.",
+   "refs": [
+    "background/nodes/pma_petal_pattern_root_pinning_ledger/statement.md",
+    "background/nodes/pma_petal_pattern_root_pinning_ledger/proof.md",
+    "background/nodes/pma_petal_pattern_root_pinning_ledger/audit.md",
+    "background/nodes/pma_petal_pattern_root_pinning_ledger/claim_contract.md",
+    "background/nodes/pma_petal_pattern_root_pinning_ledger/dependency_subdag.md",
+    "background/nodes/pma_petal_pattern_root_pinning_ledger/verify.py"
+   ]
+  },
+  {
+   "id": "pma_quotient_closure_scope",
+   "title": "PMA folded-source subsumption and low-defect raw-payment route cut",
+   "status": "PROVED",
+   "statement": "If both a received word and listed codeword factor through x -> x^d, their full agreement set is K_d-periodic and the codeword is already exhausted by the global exact-periodic owner. Low-defect error supports admit a chart-free boundary-stripping predicate and reserve-preserving periodic multisequence reduction, but on the official sigma=1 grid the raw d=2, beta=1 candidate route is n*N/(N-h) times Q_2(k+2), strictly above the 719 Q_2 line. Therefore QCLOSE is empty in the current PMA route and every low-defect exact-stabilizer-one survivor remains in the direct GROW union RES theorem.",
+   "refs": [
+    "background/nodes/pma_quotient_closure_scope/statement.md",
+    "background/nodes/pma_quotient_closure_scope/proof.md",
+    "background/nodes/pma_quotient_closure_scope/audit.md",
+    "background/nodes/pma_quotient_closure_scope/claim_contract.md",
+    "background/nodes/pma_quotient_closure_scope/dependency_subdag.md",
+    "background/nodes/pma_quotient_closure_scope/verify.py"
+   ]
+  },
+  {
+   "id": "pma_saturated_mixed_support_kernel",
+   "title": "PMA saturated mixed-support interpolation kernel",
+   "status": "PROVED",
+   "statement": "For every exact PMA mixed-support pattern X of size d+ell+lambda, the split defect locator F=L_D lies in an exact top-coefficient kernel, equivalently a weighted Hankel kernel. If a_* is the largest label class, rank T>=a_*-1, while an actual exact saturated pair has maximal rank min(d,|X|-d-1). Exact defect forces coprime fiber polynomials and removes common-factor duplicates. For one exact support, canonical core-root pinning bounds split locators by binom(k-1,max(0,d-(|X|-d-1))); aggregating these possibly exponential charges over first-match profiles remains open.",
+   "refs": [
+    "background/nodes/pma_saturated_mixed_support_kernel/statement.md",
+    "background/nodes/pma_saturated_mixed_support_kernel/proof.md",
+    "background/nodes/pma_saturated_mixed_support_kernel/audit.md",
+    "background/nodes/pma_saturated_mixed_support_kernel/claim_contract.md",
+    "background/nodes/pma_saturated_mixed_support_kernel/dependency_subdag.md",
+    "background/nodes/pma_saturated_mixed_support_kernel/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_b11_scope",
+   "title": "PMA sigma-one B11 threshold collapse and finite-payment route cut",
+   "status": "PROVED",
+   "statement": "On the official sigma=1 grid, maximality gives ell=2, b=1 and M=(n-k)/2. The exact B11 thresholds (E,V_2,V_R)=(0,2,0) collapse the post-periodic partition to d<=2 in J/A2 and d>=3 in GROW, with AR=RES empty. The paid certificate is J(n,k)+11 binom(M,2)q^4. At rates 1/8 and 1/16 its exact n^6 field-fit ceiling is below n+1 on every official row, so this certificate cannot provide a field-uniform finite primitive payment even though the threshold partition is closed.",
+   "refs": [
+    "background/nodes/pma_sigma_one_b11_scope/statement.md",
+    "background/nodes/pma_sigma_one_b11_scope/proof.md",
+    "background/nodes/pma_sigma_one_b11_scope/audit.md",
+    "background/nodes/pma_sigma_one_b11_scope/claim_contract.md",
+    "background/nodes/pma_sigma_one_b11_scope/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_b11_scope/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_d3_background_payment",
+   "title": "PMA sigma-one defect-three background payment",
+   "status": "PROVED",
+   "statement": "On every official sigma=1 maximal sunflower, the complete source class with defect d=3 and the unique background point retained has size at most C(k-1,3) floor(C(n-k,3)/4)<n^6/9216. Together with the d<=2 payment, all cells d<=2 or (d,r)=(3,1) are below n^6/8192 per sunflower. The first unpaid finite source cell is (d,r)=(3,0), followed by higher defects; the later first-layout domination theorem removes the finite chart multiplier.",
+   "refs": [
+    "background/nodes/pma_sigma_one_d3_background_payment/statement.md",
+    "background/nodes/pma_sigma_one_d3_background_payment/proof.md",
+    "background/nodes/pma_sigma_one_d3_background_payment/audit.md",
+    "background/nodes/pma_sigma_one_d3_background_payment/claim_contract.md",
+    "background/nodes/pma_sigma_one_d3_background_payment/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_d3_background_payment/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_d3_diffuse_hyperplane_reduction",
+   "title": "PMA sigma-one diffuse defect-three hyperplane reduction",
+   "status": "PROVED",
+   "statement": "Every finite sigma=1 diffuse (d,r)=(3,0) source object yields a nonzero five-point divided-difference hyperplane in the elementary symmetric coefficients of its split cubic core locator. Each fixed hyperplane contains fewer than (k-1)^2/2 split locators, giving the field-independent aggregate bound 16(k-1)^2 C((n-k)/2,5). The remaining endpoint is a one-power aggregate saving or a global owner, not an arbitrary auxiliary list.",
+   "refs": [
+    "background/nodes/pma_sigma_one_d3_diffuse_hyperplane_reduction/statement.md",
+    "background/nodes/pma_sigma_one_d3_diffuse_hyperplane_reduction/proof.md",
+    "background/nodes/pma_sigma_one_d3_diffuse_hyperplane_reduction/audit.md",
+    "background/nodes/pma_sigma_one_d3_diffuse_hyperplane_reduction/claim_contract.md",
+    "background/nodes/pma_sigma_one_d3_diffuse_hyperplane_reduction/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_d3_diffuse_hyperplane_reduction/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_d3_full_petal_payment",
+   "title": "PMA sigma-one defect-three full-petal payment",
+   "status": "PROVED",
+   "statement": "On every official sigma=1 maximal sunflower, the complete (d,r)=(3,0) source class containing a full two-point petal is at most C(k-1,3)((n-k)/2)C(n-k-2,2)<n^6/1536. Together with the prior finite source payments, all paid cells are below n^6/1024 per sunflower. The exact defect-three remainder has one agreement in each of at least five petals.",
+   "refs": [
+    "background/nodes/pma_sigma_one_d3_full_petal_payment/statement.md",
+    "background/nodes/pma_sigma_one_d3_full_petal_payment/proof.md",
+    "background/nodes/pma_sigma_one_d3_full_petal_payment/audit.md",
+    "background/nodes/pma_sigma_one_d3_full_petal_payment/claim_contract.md",
+    "background/nodes/pma_sigma_one_d3_full_petal_payment/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_d3_full_petal_payment/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_d3_reciprocal_quadratic_obstruction",
+   "title": "PMA sigma-one reciprocal-quadratic defect-three obstruction",
+   "status": "PROVED",
+   "statement": "At rate one half there is an explicit maximal-sunflower source with distinct nonzero labels c(x)=x^(-1)+rx and at least floor((M-15)(N-6)(N-3)C(M,5)/(6M)) actual primitive diffuse (d,r)=(3,0) extras, where N=n/2 and M=n/4. This is Omega(n^7) and exceeds n^6 from n=2^22 onward, including the official n=2^41 row. Therefore the complete diffuse class admits no universal per-sunflower n^6 payment; the named multiplicative-core family needs a global first-match owner or a larger audited allowance.",
+   "refs": [
+    "background/nodes/pma_sigma_one_d3_reciprocal_quadratic_obstruction/statement.md",
+    "background/nodes/pma_sigma_one_d3_reciprocal_quadratic_obstruction/proof.md",
+    "background/nodes/pma_sigma_one_d3_reciprocal_quadratic_obstruction/audit.md",
+    "background/nodes/pma_sigma_one_d3_reciprocal_quadratic_obstruction/claim_contract.md",
+    "background/nodes/pma_sigma_one_d3_reciprocal_quadratic_obstruction/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_d3_reciprocal_quadratic_obstruction/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_d4_generic_source_obstruction",
+   "title": "PMA sigma-one generic defect-four source obstruction",
+   "status": "PROVED",
+   "statement": "At the valid official row (q,n,k)=(65537^2,65536,32768), an exact first-moment argument constructs a maximal source word with more than n^6 primitive post-owner codewords of exact defect four, no background hit, and exactly six singleton petal hits. Odd support size excludes exact periodicity, a balanced core excludes the growing dyadic owner, and a base-valued {x,-x} pair excludes odd lift. Hence Top union Post exceeds n^6 and #Post>B_post, refuting the finite pma_wide_residual allocation without refuting a larger polynomial imgfib theorem.",
+   "refs": [
+    "background/nodes/pma_sigma_one_d4_generic_source_obstruction/statement.md",
+    "background/nodes/pma_sigma_one_d4_generic_source_obstruction/proof.md",
+    "background/nodes/pma_sigma_one_d4_generic_source_obstruction/audit.md",
+    "background/nodes/pma_sigma_one_d4_generic_source_obstruction/claim_contract.md",
+    "background/nodes/pma_sigma_one_d4_generic_source_obstruction/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_d4_generic_source_obstruction/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_dyadic_near_coset_owner",
+   "title": "PMA sigma-one dyadic growing-defect near-coset owner",
+   "status": "PROVED",
+   "statement": "For every official sigma=1 row n=2^j, put s_n=floor(n/(32j)) and canonically own every listed codeword missing at most s_n points of any dyadic coset of size L>=k-s_n. The all-scale class is smaller than 2^(7n/64)<Q_2(k+2); combined with exact periodicity it fits below 8(1+2^-690)Q_2(k+2), hence inside the existing 719 line. This contains the index-two owner, the complete reciprocal-quadratic obstruction, and every near-quotient finite PMA defect through d=s_n-1 in the worst background state.",
+   "refs": [
+    "background/nodes/pma_sigma_one_dyadic_near_coset_owner/statement.md",
+    "background/nodes/pma_sigma_one_dyadic_near_coset_owner/proof.md",
+    "background/nodes/pma_sigma_one_dyadic_near_coset_owner/audit.md",
+    "background/nodes/pma_sigma_one_dyadic_near_coset_owner/claim_contract.md",
+    "background/nodes/pma_sigma_one_dyadic_near_coset_owner/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_dyadic_near_coset_owner/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_first_layout_domination",
+   "title": "PMA sigma-one first-layout domination",
+   "status": "PROVED",
+   "statement": "Order the paired cores of a fixed official sigma-one word. Universal non-planted carriage implies that every Post codeword first carried after the first core is one of the first layout's M planted anchors. Hence #Post<=#E_C1+M. Evaluating the proved d<=2, (d,r)=(3,1), and full-petal (3,0) payments only in that first layout gives #Post<=B_paid+M+#R_first, with B_paid+M<n^6/1023 on every official row. Thus the finite paired-core multiplier is eliminated; it remains to pay the one-layout residual R_first within B_post-B_paid-M.",
+   "refs": [
+    "background/nodes/pma_sigma_one_first_layout_domination/statement.md",
+    "background/nodes/pma_sigma_one_first_layout_domination/proof.md",
+    "background/nodes/pma_sigma_one_first_layout_domination/audit.md",
+    "background/nodes/pma_sigma_one_first_layout_domination/claim_contract.md",
+    "background/nodes/pma_sigma_one_first_layout_domination/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_first_layout_domination/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_index_two_core_owner",
+   "title": "PMA sigma-one index-two four-defect core owner",
+   "status": "PROVED",
+   "statement": "For every listed codeword, canonically owning the first index-two coset with at most four missed agreements and retaining only enough outside agreements to reach k interpolation points gives a chart-independent injective owner. On all 128 official sigma=1 rows this class has global size below Q_2(k+2); combined with the exact-periodic owner it fits below 8(1+2^-690)Q_2(k+2), hence inside the existing 719 line. The reciprocal-quadratic Omega(n^7) per-sunflower obstruction is contained in this owner.",
+   "refs": [
+    "background/nodes/pma_sigma_one_index_two_core_owner/statement.md",
+    "background/nodes/pma_sigma_one_index_two_core_owner/proof.md",
+    "background/nodes/pma_sigma_one_index_two_core_owner/audit.md",
+    "background/nodes/pma_sigma_one_index_two_core_owner/claim_contract.md",
+    "background/nodes/pma_sigma_one_index_two_core_owner/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_index_two_core_owner/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_low_defect_payment",
+   "title": "PMA sigma-one source-pinned low-defect payment",
+   "status": "PROVED",
+   "statement": "On every official sigma=1 maximal sunflower, summing the pinned interpolation-owner bounds over all defect sets D, both exact background states, and d<=2 gives B_low=(k-1)[M+floor(C(n-k,2)/3)]+C(k-1,2)[floor(C(n-k,2)/3)+floor(C(n-k,3)/4)]<n^5/1024. This field-independent per-sunflower theorem replaces the failed ambient B11 q^4 certificate and leaves GROW={d>=3}; the later first-layout domination theorem removes the finite chart multiplier.",
+   "refs": [
+    "background/nodes/pma_sigma_one_low_defect_payment/statement.md",
+    "background/nodes/pma_sigma_one_low_defect_payment/proof.md",
+    "background/nodes/pma_sigma_one_low_defect_payment/audit.md",
+    "background/nodes/pma_sigma_one_low_defect_payment/claim_contract.md",
+    "background/nodes/pma_sigma_one_low_defect_payment/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_low_defect_payment/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_odd_lift_boundary_owner",
+   "title": "PMA sigma-one scale-two odd-lift boundary owner",
+   "status": "PROVED",
+   "statement": "If a nonzero source word has U(x)=(x-a)V(x^2), the split point a is unique. Degree-<k odd lifts with exact agreement k+1 or k+3 inject into supports {a} union pi^{-1}(A), so their complete count is binom(n/2,k/2+1)<3Q_2(k+2). Applied after the exact-periodic and growing near-coset owners, all three consume fewer than 11 of the 719 first-scale units and have no chart multiplier.",
+   "refs": [
+    "background/nodes/pma_sigma_one_odd_lift_boundary_owner/statement.md",
+    "background/nodes/pma_sigma_one_odd_lift_boundary_owner/proof.md",
+    "background/nodes/pma_sigma_one_odd_lift_boundary_owner/audit.md",
+    "background/nodes/pma_sigma_one_odd_lift_boundary_owner/claim_contract.md",
+    "background/nodes/pma_sigma_one_odd_lift_boundary_owner/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_odd_lift_boundary_owner/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_paired_core_abundance",
+   "title": "PMA sigma-one paired-core abundance obstruction",
+   "status": "PROVED",
+   "statement": "The exact first moment of the number A(U) of paired (k-1)-cores is E A(U)=binom(n,k-1)(2M+1)!/(2^M M!)(q)_{M+1}/q^{2M+1}. At the valid official rate-half cyclic row (q,n,k)=(65537,65536,32768), this mean is greater than n^6, so some word has more paired cores than the entire primitive allowance. This does not count Post extras: it route-cuts a bare unweighted core census and forces a weighted Post-carrying estimate, empty-core classification, or chart-free owner.",
+   "refs": [
+    "background/nodes/pma_sigma_one_paired_core_abundance/statement.md",
+    "background/nodes/pma_sigma_one_paired_core_abundance/proof.md",
+    "background/nodes/pma_sigma_one_paired_core_abundance/audit.md",
+    "background/nodes/pma_sigma_one_paired_core_abundance/claim_contract.md",
+    "background/nodes/pma_sigma_one_paired_core_abundance/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_paired_core_abundance/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_paired_core_normalization",
+   "title": "PMA sigma-one paired-core source-layout normalization",
+   "status": "PROVED",
+   "statement": "For a fixed received word U and every (k-1)-core C, interpolate Q_C=U|_C and evaluate phi_C=(U-Q_C)/L_C off C. Official maximal sigma-one source layouts are in bijection with cores whose phi_C fibers have signature (2,...,2,1); those fibers uniquely recover the background, petals, base polynomial, and labels, while any two planted anchors recover the core and chart. First-match Post is therefore the exact disjoint weighted sum over paired cores. No bound on that sum is claimed.",
+   "refs": [
+    "background/nodes/pma_sigma_one_paired_core_normalization/statement.md",
+    "background/nodes/pma_sigma_one_paired_core_normalization/proof.md",
+    "background/nodes/pma_sigma_one_paired_core_normalization/audit.md",
+    "background/nodes/pma_sigma_one_paired_core_normalization/claim_contract.md",
+    "background/nodes/pma_sigma_one_paired_core_normalization/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_paired_core_normalization/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_post_top_allowance",
+   "title": "PMA sigma-one carried-layout Top/Post allowance",
+   "status": "PROVED",
+   "statement": "After global profile ownership, first carried source layout partitions every remaining primitive maximal-sunflower codeword into disjoint Top and Post classes. G1 plus K4 gives #Top<=N_top=2((n-k)/2+1)sum_{j=0}^3 binom(k-1,j) at rate half and N_top=0 at lower rates. Thus B_post=n^6-N_top or n^6 is an exact common finite allowance, and #Post<=B_post would imply the complete primitive count is at most n^6. No Post bound or asymptotic allowance is claimed.",
+   "refs": [
+    "background/nodes/pma_sigma_one_post_top_allowance/statement.md",
+    "background/nodes/pma_sigma_one_post_top_allowance/proof.md",
+    "background/nodes/pma_sigma_one_post_top_allowance/audit.md",
+    "background/nodes/pma_sigma_one_post_top_allowance/claim_contract.md",
+    "background/nodes/pma_sigma_one_post_top_allowance/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_post_top_allowance/verify.py"
+   ]
+  },
+  {
+   "id": "pma_sigma_one_variable_defect_exact_hit_floor",
+   "title": "PMA sigma-one variable-defect exact-hit floor",
+   "status": "PROVED",
+   "statement": "For every admissible sigma-one defect d, a collision-free exact-hit first moment gives an explicit source-level lower bound. At d=n/8, Linnik primes p=-1 mod n produce polynomial-size generated fields F_(p^2) and an exponential post-owner family. Thus no uniform sigma-one polynomial bound exists, while the result remains outside the sigma=Omega(n/log n) imgfib reserve.",
+   "refs": [
+    "background/nodes/pma_sigma_one_variable_defect_exact_hit_floor/statement.md",
+    "background/nodes/pma_sigma_one_variable_defect_exact_hit_floor/proof.md",
+    "background/nodes/pma_sigma_one_variable_defect_exact_hit_floor/audit.md",
+    "background/nodes/pma_sigma_one_variable_defect_exact_hit_floor/claim_contract.md",
+    "background/nodes/pma_sigma_one_variable_defect_exact_hit_floor/dependency_subdag.md",
+    "background/nodes/pma_sigma_one_variable_defect_exact_hit_floor/verify.py"
+   ]
+  },
+  {
+   "id": "pma_source_paving_bridge",
+   "title": "PMA source chart embeds in the all-pair paving-basis compiler",
+   "status": "PROVED",
+   "statement": "After factoring the retained background, the PMA auxiliary list is a degree-<kappa interpolation list with threshold kappa+sigma. Pinned interpolation bases give sum_Q binom(a(Q),kappa)<=binom(|T|,kappa), and one added locator realizes every object, including repeated slopes, in the transverse weighted-RS chart of upstream PR #764.",
+   "refs": [
+    "background/nodes/pma_source_paving_bridge/statement.md",
+    "background/nodes/pma_source_paving_bridge/proof.md",
+    "background/nodes/pma_source_paving_bridge/verify.py"
+   ]
+  },
+  {
+   "id": "pma_three_petal_mu_basis_reduction",
+   "title": "PMA three-petal mu-basis reduction",
+   "status": "PROVED",
+   "statement": "For three pairwise-coprime monic degree-ell petal locators and distinct labels, the strict-strip contributor space is exactly the bounded syzygy module of the locator row. A reduced basis has degrees mu and ell-mu. Exact-defect saturation forces mu=s below the half strip and mu>=ell-s above it, so the lower branch has one projective candidate and the upper branch is a two-generator family whose coefficient-degree budget is e-1=2s-ell. The reconstructed basis-pair determinant is a nonzero scalar times L1L2L3, making saturation on core divisors equivalent to a primitive coefficient pair. This reduces the remaining M=4,t=3 branch to counting primitive pairs for which uFp+vFq is a split core divisor; it does not supply that growing-e count.",
+   "refs": [
+    "background/nodes/pma_three_petal_mu_basis_reduction/statement.md",
+    "background/nodes/pma_three_petal_mu_basis_reduction/proof.md",
+    "background/nodes/pma_three_petal_mu_basis_reduction/audit.md",
+    "background/nodes/pma_three_petal_mu_basis_reduction/claim_contract.md",
+    "background/nodes/pma_three_petal_mu_basis_reduction/dependency_subdag.md",
+    "background/nodes/pma_three_petal_mu_basis_reduction/verify.py"
+   ]
+  },
+  {
+   "id": "pma_three_petal_projective_johnson_bound",
+   "title": "PMA three-petal projective Johnson bound",
+   "status": "PROVED",
+   "statement": "Distinct primitive coefficient pairs in one three-petal mu-basis module have split core-root sets intersecting in at most e-1. A Johnson second-moment argument therefore bounds their number by N(d-e+1)/(d^2-N(e-1)) whenever the denominator is positive. This pays every rate-quarter M=4,t=3 cell with a uniform 16n^3 per-source bound and every positive-denominator rate-half cell, including all backgrounds b<=6. The only surviving three-petal cells form an explicit nonpositive-denominator rate-half top-defect tail.",
+   "refs": [
+    "background/nodes/pma_three_petal_projective_johnson_bound/statement.md",
+    "background/nodes/pma_three_petal_projective_johnson_bound/proof.md",
+    "background/nodes/pma_three_petal_projective_johnson_bound/audit.md",
+    "background/nodes/pma_three_petal_projective_johnson_bound/claim_contract.md",
+    "background/nodes/pma_three_petal_projective_johnson_bound/dependency_subdag.md",
+    "background/nodes/pma_three_petal_projective_johnson_bound/verify.py"
+   ]
+  },
+  {
+   "id": "pma_exact_periodic_owner",
+   "title": "Global exact-periodic source owner and dyadic profile charge",
+   "status": "PROVED",
+   "statement": "For every cyclic RS row and received word, listed codewords whose full agreement set has exact stabilizer M>1 inject canonically into ceil((k+sigma)/M)-subsets of the quotient fibers. The owner is chart-free and disjoint across exact scales. On the official dyadic sigma=1 grid, all exact-periodic source codewords together fit one global 719(1+2^-690)Q_2(k+2) first-scale profile line. Algebraically folded codewords against nonfolded receivers and stabilizer-one low-defect closures are explicitly not claimed; the precise folded-receiver source class is proved downstream to be included here.",
+   "refs": [
+    "critical/nodes/pma_exact_periodic_owner/statement.md",
+    "critical/nodes/pma_exact_periodic_owner/proof.md",
+    "critical/nodes/pma_exact_periodic_owner/audit.md",
+    "critical/nodes/pma_exact_periodic_owner/claim_contract.md",
+    "critical/nodes/pma_exact_periodic_owner/dependency_subdag.md",
+    "critical/nodes/pma_exact_periodic_owner/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_cyclic_rotated_prefix_floor",
+   "title": "Cyclic quotient rotation closes the rate-half list-unsafe band",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For C=RS[F,D,n/2], c|n/2, N=n/c, 0<s<c, 1<=d<=N/2-1, and m=N/2+d, cyclic rotation modulo Y^N-delta plus a fixed s-point tail gives at least ceil(C(N-1,m)/(N*q^(d-1))) distinct codewords at agreement n/2+dc+s. At the official cap row, N*q^d < 2^128*C(N-1,m) even at q=2^256, with 75.0796 bits of margin; hence the whole residual band is list-unsafe for ordinary and every constant common-support interleaving arity.",
+   "refs": [
+    "critical/nodes/rate_half_cyclic_rotated_prefix_floor/statement.md",
+    "critical/nodes/rate_half_cyclic_rotated_prefix_floor/proof.md",
+    "critical/nodes/rate_half_cyclic_rotated_prefix_floor/claim_contract.md",
+    "critical/nodes/rate_half_cyclic_rotated_prefix_floor/dependency_subdag.md",
+    "critical/nodes/rate_half_cyclic_rotated_prefix_floor/verify.py",
+    "critical/nodes/rate_half_cyclic_rotated_prefix_floor/audit.md",
+    "critical/nodes/rate_half_cyclic_rotated_prefix_floor/verify_audit.py",
+    "critical/nodes/rate_half_cyclic_rotated_prefix_floor/result.md"
+   ]
+  },
+  {
+   "id": "rate_half_fixed_tail_prefix_floor",
+   "title": "Fixed-tail quotient prefixes extend the rate-half list-unsafe slice",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For c|gcd(n,k), a fixed s-subset of one c-fiber and m=k/c+d varying full fibers produce a received word with at least ceil(C(n/c-1,m)/q^d) distinct RS[F,D,k] codewords at agreement k+dc+s. At the rate-half cap row and sigma*=8,592,912,738, c=2^22 gives the exact sufficient list-unsafe condition q^2049<2^128 C(524287,264192), extending full-band ordinary-list failure through log2(q)=255.9209759026302... . This is a list-side partial only; the top field slice and MCA band remain open.",
+   "refs": [
+    "background/nodes/rate_half_fixed_tail_prefix_floor/statement.md",
+    "background/nodes/rate_half_fixed_tail_prefix_floor/proof.md",
+    "background/nodes/rate_half_fixed_tail_prefix_floor/verify.py",
+    "background/nodes/rate_half_fixed_tail_prefix_floor/result.md"
+   ]
   }
  ],
  "edges": [
@@ -6543,11 +6961,6 @@
    "kind": "ev"
   },
   {
-   "from": "petal_mixed_amplification",
-   "to": "petal_growth",
-   "kind": "ev"
-  },
-  {
    "from": "acl_count",
    "to": "e1_fullness",
    "kind": "ev"
@@ -7170,17 +7583,17 @@
   {
    "from": "pma_aux_list_reduction",
    "to": "petal_mixed_amplification",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "pma_johnson_regime",
    "to": "petal_mixed_amplification",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "pma_wide_residual",
    "to": "petal_mixed_amplification",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "pma_aux_list_reduction",
@@ -8280,7 +8693,7 @@
   {
    "from": "rate_half_band_closure",
    "to": "list_adjacency_closing",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "worst_word_challenger_pricing",
@@ -11166,6 +11579,636 @@
    "from": "l1_mixed_petal_amplification",
    "to": "imgfib",
    "kind": "req"
+  },
+  {
+   "from": "pma_exact_periodic_owner",
+   "to": "imgfib",
+   "kind": "req"
+  },
+  {
+   "from": "pma_aux_list_reduction",
+   "to": "pma_source_paving_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "pma_source_paving_bridge",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_b11_first_match_router",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_exact_periodic_owner",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_quotient_closure_scope",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_b11_first_match_router",
+   "to": "pma_sigma_one_b11_scope",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_b11_scope",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_aux_list_reduction",
+   "to": "pma_sigma_one_low_defect_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_source_paving_bridge",
+   "to": "pma_sigma_one_low_defect_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_b11_scope",
+   "to": "pma_sigma_one_low_defect_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_low_defect_payment",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_source_paving_bridge",
+   "to": "pma_sigma_one_d3_background_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_low_defect_payment",
+   "to": "pma_sigma_one_d3_background_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_d3_background_payment",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_source_paving_bridge",
+   "to": "pma_sigma_one_d3_full_petal_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_low_defect_payment",
+   "to": "pma_sigma_one_d3_full_petal_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_d3_background_payment",
+   "to": "pma_sigma_one_d3_full_petal_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_d3_full_petal_payment",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_source_paving_bridge",
+   "to": "pma_sigma_one_d3_diffuse_hyperplane_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_d3_full_petal_payment",
+   "to": "pma_sigma_one_d3_diffuse_hyperplane_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_d3_diffuse_hyperplane_reduction",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_b11_scope",
+   "to": "pma_sigma_one_d3_reciprocal_quadratic_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_d3_diffuse_hyperplane_reduction",
+   "to": "pma_sigma_one_d3_reciprocal_quadratic_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_d3_reciprocal_quadratic_obstruction",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_d3_reciprocal_quadratic_obstruction",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_exact_periodic_owner",
+   "to": "pma_sigma_one_index_two_core_owner",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_d3_reciprocal_quadratic_obstruction",
+   "to": "pma_sigma_one_index_two_core_owner",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_index_two_core_owner",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_index_two_core_owner",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_index_two_core_owner",
+   "to": "pma_sigma_one_dyadic_near_coset_owner",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_dyadic_near_coset_owner",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_dyadic_near_coset_owner",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_source_paving_bridge",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_b11_first_match_router",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_exact_periodic_owner",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_quotient_closure_scope",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_b11_scope",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_low_defect_payment",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_d3_background_payment",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_d3_full_petal_payment",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_d3_diffuse_hyperplane_reduction",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_exact_periodic_owner",
+   "to": "pma_quotient_closure_scope",
+   "kind": "req"
+  },
+  {
+   "from": "qa22_m_le_t_extension",
+   "to": "pma_quotient_closure_scope",
+   "kind": "req"
+  },
+  {
+   "from": "petal_g2_support_forcing",
+   "to": "pma_exact_periodic_owner",
+   "kind": "req"
+  },
+  {
+   "from": "petal_g3_full_support_codeword_injectivity",
+   "to": "pma_exact_periodic_owner",
+   "kind": "req"
+  },
+  {
+   "from": "qa22_m_le_t_extension",
+   "to": "pma_exact_periodic_owner",
+   "kind": "req"
+  },
+  {
+   "from": "l1_program_frontier",
+   "to": "pma_b11_first_match_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_fixed_tail_prefix_floor",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_fixed_tail_prefix_floor",
+   "to": "rate_half_cyclic_rotated_prefix_floor",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_cyclic_rotated_prefix_floor",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_cyclic_rotated_prefix_floor",
+   "to": "list_adjacency_closing",
+   "kind": "req"
+  },
+  {
+   "from": "petal_g1_layer_maps",
+   "to": "pma_sigma_one_odd_lift_boundary_owner",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_dyadic_near_coset_owner",
+   "to": "pma_sigma_one_odd_lift_boundary_owner",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_odd_lift_boundary_owner",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_odd_lift_boundary_owner",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_b11_scope",
+   "to": "pma_sigma_one_paired_core_normalization",
+   "kind": "req"
+  },
+  {
+   "from": "l1_program_frontier",
+   "to": "pma_sigma_one_paired_core_normalization",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_paired_core_normalization",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_paired_core_normalization",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_paired_core_normalization",
+   "to": "pma_sigma_one_paired_core_abundance",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_paired_core_abundance",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_paired_core_abundance",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_program_frontier",
+   "to": "pma_sigma_one_post_top_allowance",
+   "kind": "req"
+  },
+  {
+   "from": "petal_g1_layer_maps",
+   "to": "pma_sigma_one_post_top_allowance",
+   "kind": "req"
+  },
+  {
+   "from": "petal_k4_primitive_bound",
+   "to": "pma_sigma_one_post_top_allowance",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_post_top_allowance",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_post_top_allowance",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_aux_list_reduction",
+   "to": "pma_sigma_one_first_layout_domination",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_paired_core_normalization",
+   "to": "pma_sigma_one_first_layout_domination",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_post_top_allowance",
+   "to": "pma_sigma_one_first_layout_domination",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_low_defect_payment",
+   "to": "pma_sigma_one_first_layout_domination",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_d3_background_payment",
+   "to": "pma_sigma_one_first_layout_domination",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_d3_full_petal_payment",
+   "to": "pma_sigma_one_first_layout_domination",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_first_layout_domination",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_first_layout_domination",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_aux_list_reduction",
+   "to": "pma_sigma_one_d4_generic_source_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "pma_exact_periodic_owner",
+   "to": "pma_sigma_one_d4_generic_source_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_dyadic_near_coset_owner",
+   "to": "pma_sigma_one_d4_generic_source_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_odd_lift_boundary_owner",
+   "to": "pma_sigma_one_d4_generic_source_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_post_top_allowance",
+   "to": "pma_sigma_one_d4_generic_source_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_d4_generic_source_obstruction",
+   "to": "pma_wide_residual",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_d4_generic_source_obstruction",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_d4_generic_source_obstruction",
+   "to": "imgfib",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_aux_list_reduction",
+   "to": "pma_sigma_one_variable_defect_exact_hit_floor",
+   "kind": "req"
+  },
+  {
+   "from": "pma_exact_periodic_owner",
+   "to": "pma_sigma_one_variable_defect_exact_hit_floor",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_dyadic_near_coset_owner",
+   "to": "pma_sigma_one_variable_defect_exact_hit_floor",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_odd_lift_boundary_owner",
+   "to": "pma_sigma_one_variable_defect_exact_hit_floor",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_post_top_allowance",
+   "to": "pma_sigma_one_variable_defect_exact_hit_floor",
+   "kind": "req"
+  },
+  {
+   "from": "pma_sigma_one_variable_defect_exact_hit_floor",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_variable_defect_exact_hit_floor",
+   "to": "imgfib",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_aux_list_reduction",
+   "to": "petal_reserve_rich_fiber_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_program_frontier",
+   "to": "petal_reserve_rich_fiber_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "petal_g1_layer_maps",
+   "to": "petal_reserve_rich_fiber_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "imgfib",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_aux_list_reduction",
+   "to": "pma_saturated_mixed_support_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "pma_saturated_mixed_support_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "imgfib",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "pma_petal_pattern_root_pinning_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "pma_petal_pattern_root_pinning_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "imgfib",
+   "kind": "ev"
+  },
+  {
+   "from": "e22_two_class_exhaustion",
+   "to": "pma_full_petal_band_composition",
+   "kind": "req"
+  },
+  {
+   "from": "petal_growth",
+   "to": "pma_full_petal_band_composition",
+   "kind": "req"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "pma_full_petal_band_composition",
+   "kind": "req"
+  },
+  {
+   "from": "l1_coset_chart_residue_bridge",
+   "to": "pma_coset_subtwoell_saturation_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "pma_coset_subtwoell_saturation_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "pma_coset_subtwoell_saturation_exclusion",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_arbitrary_petal_source_realizability",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "pma_three_petal_mu_basis_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "pma_full_petal_band_composition",
+   "to": "pma_three_petal_mu_basis_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "pma_three_petal_mu_basis_reduction",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_full_petal_band_composition",
+   "to": "pma_official_rate_small_source_degree_sieve",
+   "kind": "req"
+  },
+  {
+   "from": "pma_three_petal_mu_basis_reduction",
+   "to": "pma_official_rate_small_source_degree_sieve",
+   "kind": "req"
+  },
+  {
+   "from": "pma_official_rate_small_source_degree_sieve",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_three_petal_mu_basis_reduction",
+   "to": "pma_three_petal_projective_johnson_bound",
+   "kind": "req"
+  },
+  {
+   "from": "pma_official_rate_small_source_degree_sieve",
+   "to": "pma_three_petal_projective_johnson_bound",
+   "kind": "req"
+  },
+  {
+   "from": "pma_three_petal_projective_johnson_bound",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_sigma_one_variable_defect_exact_hit_floor",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_full_petal_band_composition",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "petal_mixed_amplification",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
   }
  ]
 }

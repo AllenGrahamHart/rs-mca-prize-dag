@@ -42,3 +42,27 @@ The fence theorem is proved and consistent with the hunt record (it
 re-derives the ~92-bit cap-proxy distance). Scope (catch #105): q-graded
 and cap-proxy-only — the binding eps* lane's protection remains the
 mechanism kills, not this fence.
+
+## EXECUTION LOG (2026-07-14): CYCLIC ROTATION CLOSES THE LIST BAND
+
+Rotating the quotient locator modulo `Y^N-delta` moves its variable high
+blocks to the coefficient prefix `(a_0,...,a_(d-1))`. The constant coefficient
+has only `N` possible values, so the fixed-tail lower list improves from
+`C(N-1,m)/q^d` to `C(N-1,m)/(N q^(d-1))`. At the official cap row the exact
+inequality survives `q=2^256` with `75.079624489` bits of margin. Diagonal
+embedding preserves the common agreement support for every interleaving
+arity.
+
+This closes the list branch, not the red node. The node is re-posed as
+MCA/CA-only and remains its own kernel on the distinct-slope trigger.
+
+## EXECUTION LOG (2026-07-14): FIXED-TAIL LIST FLOOR — PROVED PARTIAL
+
+The trigger audit separated the ordinary-list threshold `q/2^128` from the
+MCA/CA conversion threshold `q/k`. A fixed-tail quotient-prefix theorem now
+certifies the full band list-unsafe under the exact condition
+`q^2049 < 2^128 C(524287,264192)`, i.e. through
+`log2 q = 255.9209759026302...`. This narrows the list-side open field slice
+by about 21% without changing the MCA target. At the cap the same exact audit
+returns to the known `C(127,64)` supply and the `4.8285...`-bit gap, so no cap
+claim is made.

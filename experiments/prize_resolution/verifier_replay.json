@@ -1,15 +1,15 @@
 {
-  "complete": true,
+  "complete": false,
   "counts": {
     "FAIL": 0,
-    "PASS": 111,
+    "PASS": 50,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
       "script": "background/nodes/aqb_amortization_threshold_accounting/verify.py",
-      "seconds": 0.103144,
+      "seconds": 0.150665,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "AQB arithmetic constants verified\nN=1099511627776\nd=4296456369\nm=554052270257\ndeficit_bits_interval=[429645546.773407953684577335517, 429645546.773407953684577335517]\nclaimed_bits=429645547\ncertified_margin_bits=0.226592046315422664482561652531\nper_fiber_bits=0.00039076034863683162257\nqcrit_interval=[255.90000002097695968626637825, 255.90000002097695968626637825]\nAQB amortization threshold accounting verified\n"
@@ -17,7 +17,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_average_member_transfer/verify.py",
-      "seconds": 1.520237,
+      "seconds": 2.601263,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: finite average above threshold forces one member above threshold\n"
@@ -25,7 +25,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_averaged_quotient_box/verify.py",
-      "seconds": 0.044815,
+      "seconds": 0.076907,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "AQB arithmetic constants verified\nN=1099511627776\nd=4296456369\nm=554052270257\ndeficit_bits_interval=[429645546.773407953684577335517, 429645546.773407953684577335517]\nclaimed_bits=429645547\ncertified_margin_bits=0.226592046315422664482561652531\nper_fiber_bits=0.00039076034863683162257\nqcrit_interval=[255.90000002097695968626637825, 255.90000002097695968626637825]\n"
@@ -33,7 +33,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_coupled_family_entropy_manifest_soundness/verify.py",
-      "seconds": 0.018295,
+      "seconds": 0.037673,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: coupled AQB family/entropy manifest schema is coherent\n"
@@ -41,7 +41,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_entropy_ledger_certificate_soundness/verify.py",
-      "seconds": 0.01672,
+      "seconds": 0.032813,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: AQB entropy ledger soundness\n"
@@ -49,7 +49,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/aqb_family_certificate_semantics/verify.py",
-      "seconds": 0.020155,
+      "seconds": 0.034176,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: AQB averaged-family certificate schema is coherent\n"
@@ -57,15 +57,95 @@
     {
       "returncode": 0,
       "script": "background/nodes/cyclic_fiber_interleaving_descent/verify.py",
-      "seconds": 1.040423,
+      "seconds": 2.029209,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "CYCLIC_FIBER_INTERLEAVING_DESCENT_PASS models=2 polynomials=167042\n"
     },
     {
       "returncode": 0,
+      "script": "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/verify_ledger.py",
+      "seconds": 19.374188,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "DLI_WCL_ELL2_WEIGHT3_LEDGER_PASS section=521220 classes=510 crt_moduli=27 factor_records=1329 factor_roots=1141 max_v2=21 negative_controls=5/5\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/verify_primes.py",
+      "seconds": 1.077169,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "DLI_WCL_ELL2_WEIGHT3_PRIMES_PASS roots=1141 nodes=5608 negative_controls=3/3\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/verify.py",
+      "seconds": 0.10289,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "DLI_WCL_ELL2_WEIGHT4_NEWTON_PASS fields=9 four_sets=60796 paired_hits=344 negative_controls=5/5\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/dli_wcl_engineered_terminal_scope/verify.py",
+      "seconds": 0.091905,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "DLI_WCL_ENGINEERED_SCOPE_PASS norm_bits=257 q_bits=256 generator=10 dilation=325 v2(q-1)=9 negative_controls=5/5\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/dli_wcl_newton_short_window_exclusion/verify.py",
+      "seconds": 0.551679,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "DLI_WCL_NEWTON_SHORT_WINDOW_PASS finite_sets=208373 paired_hits=969 residual_slots=6 boundary_controls=3 negative_controls=6/6\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/dli_wcl_raw_ledger_interface_guardrail/verify.py",
+      "seconds": 0.099532,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "DLI_WCL_RAW_LEDGER_INTERFACE_PASS low_levels=1,2,4,8 owner_countermodel=1/256 raw_countermodel=9/256 negative_controls=5/5\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/dli_wcl_scope_guardrail/verify.py",
+      "seconds": 0.065859,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "DLI_WCL_SCOPE_GUARDRAIL_PASS q=65537 order=512 weight=3 orbit=512 charge=64 ambient_split=false\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/dli_wcl_weight3_ambient_exclusion/verify.py",
+      "seconds": 71.420432,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "DLI_WCL_WEIGHT3_AMBIENT_EXCLUSION_PASS classes=254 covered=11054080 crt_moduli=14 factor_roots=439 prime_nodes=1498 max_v2=18 negative_controls=5/5\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/dli_wcl_weight4_ambient_exclusion/verify_ledger.py",
+      "seconds": 30.085273,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "DLI_WCL_WEIGHT4_LEDGER_PASS classes=24979 section=1014080 max_orbit=516 crt_moduli=17 factor_records=88086 factor_roots=44599 max_v2=29 negative_controls=5/5\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/dli_wcl_weight4_ambient_exclusion/verify_primes.py",
+      "seconds": 23.815322,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "DLI_WCL_WEIGHT4_PRIMES_PASS roots=44599 nodes=154086 negative_controls=4/4\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/e22_common_tail_invariance_certificate_soundness/verify.py",
-      "seconds": 0.020092,
+      "seconds": 0.055548,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: common-tail kernel invariance certificate checks\n"
@@ -73,7 +153,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_dyadic_chain_mobius_accounting/verify.py",
-      "seconds": 0.021568,
+      "seconds": 0.049914,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: raw dyadic scale counts split triangularly by minimal scale\n"
@@ -81,7 +161,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_dyadic_local_to_common_saturation/verify.py",
-      "seconds": 0.079166,
+      "seconds": 0.204832,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: dyadic local saturated blocks glue to the minimum modulus\n"
@@ -89,7 +169,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_dyadic_minimal_scale_selector/verify.py",
-      "seconds": 0.385078,
+      "seconds": 1.264567,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "e22 dyadic minimal-scale selector checks passed: {'supports_with_selector': 65536, 'sample_moduli': [8, 16]}\n"
@@ -97,7 +177,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_kernel_invariance_full_fiber_criterion/verify.py",
-      "seconds": 0.020163,
+      "seconds": 0.078162,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: kernel invariance is equivalent to full-fiber union\n"
@@ -105,7 +185,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_lower_scale_intersection_formula_payload/verify.py",
-      "seconds": 5.666134,
+      "seconds": 17.935405,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: dyadic-tail intersection formula matches brute force in 37 cases\n"
@@ -113,7 +193,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_minimal_scale_partition/verify.py",
-      "seconds": 0.02248,
+      "seconds": 0.061518,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: dyadic admissible classes partition by unique minimal scale\n"
@@ -121,7 +201,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_minimal_scale_tail_criterion/verify.py",
-      "seconds": 0.847127,
+      "seconds": 2.246548,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "e22 minimal-scale tail criterion check passed: {'supports': 65536}\n"
@@ -129,7 +209,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_planted_profile_disjointness/verify.py",
-      "seconds": 0.03767,
+      "seconds": 0.112514,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E22 planted profile checks passed: 136\n"
@@ -137,7 +217,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_tail_removed_factor_manifest_soundness/verify.py",
-      "seconds": 0.022793,
+      "seconds": 0.054652,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: tail-removed factor manifest implies kernel-invariant non-tail set\n"
@@ -145,7 +225,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_tail_removed_quotient_factor_passthrough/verify.py",
-      "seconds": 0.031966,
+      "seconds": 0.044625,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: tail removal preserves quotient factors\n"
@@ -153,7 +233,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_two_class_exhaustion/verify.py",
-      "seconds": 0.056609,
+      "seconds": 0.13214,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E22 ratio-flat sanity check passed\nchecked_cells=72\nchecked_noncore_swap_petal_tests=6674\n"
@@ -161,7 +241,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e22_weighted_intersection_certificate_soundness/verify.py",
-      "seconds": 0.018675,
+      "seconds": 0.053141,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: weighted bijective intersection formula gives exact count\n"
@@ -169,7 +249,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/exact_support_interleaving_projection/verify.py",
-      "seconds": 2.213883,
+      "seconds": 4.539467,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "EXACT_SUPPORT_INTERLEAVING_PROJECTION_PASS rows=790390\n"
@@ -177,15 +257,31 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_factorial_collision_69/verify.py",
-      "seconds": 0.034901,
+      "seconds": 0.071367,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "H3_FACTORIAL_69_COMPILER_PASS range=0..100000 equalities=69,70\n"
     },
     {
       "returncode": 0,
+      "script": "background/nodes/f3_h3_fifth_orbit_moment_compiler/verify.py",
+      "seconds": 0.08543,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "H3_FIFTH_ORBIT_MOMENT_COMPILER_PASS sharp=P22_D0_U11 allowance=34650n2/17\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/f3_h3_line_star_moment_identity/verify.py",
+      "seconds": 0.113432,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "H3_LINE_STAR_MOMENT_IDENTITY_PASS rows=2 moments=81622,2684\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/f3_h3_mobius_overlap_cap35/verify.py",
-      "seconds": 0.0299,
+      "seconds": 0.057604,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "H3_MOBIUS_OVERLAP_CAP_COMPILER_PASS small_rows=3 official_orders=29 cap=35\n"
@@ -193,7 +289,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_nonswap_moment_68/verify.py",
-      "seconds": 0.128952,
+      "seconds": 0.25215,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "H3_NONSWAP_68_PASS subsets=1464 compiler=0..100000 mutation=137-rejected\n"
@@ -201,7 +297,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_pgl2_pair_identity/verify.py",
-      "seconds": 0.447879,
+      "seconds": 1.049922,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "H3_PGL2_PAIR_IDENTITY_PASS rows=3 parameters=12317 mutation=threshold-40-rejected\n"
@@ -209,15 +305,39 @@
     {
       "returncode": 0,
       "script": "background/nodes/f3_h3_quotient_block_identity/verify.py",
-      "seconds": 0.042088,
+      "seconds": 0.080696,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "H3_QUOTIENT_BLOCK_IDENTITY_PASS rows=3\n"
     },
     {
       "returncode": 0,
+      "script": "background/nodes/f3_h3_rich_fiber_ideal_batching/verify.py",
+      "seconds": 0.104772,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "H3_RICH_FIBER_IDEAL_BATCHING_PASS targets=2 pairs=20 norms=18 gcd=4p mutations=7/7\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/f3_h3_rich_fiber_norm_cutoff/verify.py",
+      "seconds": 0.559035,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "H3_RICH_FIBER_NORM_CUTOFF_PASS vectors=43434 parity_pairs=130293 cutoff=19 parseval=6 exponent=n/4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/f3_h3_shifted_product_sidon/verify.py",
+      "seconds": 1.400665,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "H3_SHIFTED_PRODUCT_SIDON_PASS char0_equalities=2432 finite_collisions=8424,114,2880 double_accidents=73318,56,868\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/intrinsic_scale_geometric_ledger/verify.py",
-      "seconds": 0.029952,
+      "seconds": 0.051957,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "INTRINSIC_SCALE_GEOMETRIC_LEDGER_PASS rows=32 B=6 reserve=63/64\n"
@@ -225,7 +345,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_certificate_semantics/verify.py",
-      "seconds": 0.02507,
+      "seconds": 0.061794,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "M720 certificate semantics verified: complete iff W==n and not aborted\n"
@@ -233,7 +353,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_h3_large_gate_replay/verify.py",
-      "seconds": 4.101291,
+      "seconds": 8.879857,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "full_census(128,3,17921) = {'unordered_trades': 384, 'toral': 0, 'nontoral': 384, 'anchored_cores': 18}\nfull_census(256,3,65537) = {'unordered_trades': 5504, 'toral': 0, 'nontoral': 5504, 'anchored_cores': 129}\nM720 large h=3 gate replay PASS\n"
@@ -241,7 +361,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_h5_n32_gate_replay/verify.py",
-      "seconds": 0.759308,
+      "seconds": 1.613503,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "full_census(32,5,97) = {'unordered_trades': 96, 'toral': 0, 'nontoral': 96, 'anchored_cores': 30}\nM720 h=5 n=32 gate replay PASS\n"
@@ -249,7 +369,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_official_norm_gate_case_manifest_soundness/verify.py",
-      "seconds": 0.021363,
+      "seconds": 0.042205,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: M720 official norm-gate manifest covers cases with accepted discharges\n"
@@ -257,7 +377,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_official_norm_gate_certificate_soundness/verify.py",
-      "seconds": 0.015869,
+      "seconds": 0.041267,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS: official norm-gate payload semantics\n"
@@ -265,7 +385,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_overceiling_complete_window_certificates/verify.py",
-      "seconds": 0.021663,
+      "seconds": 0.044275,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "n=32 h=16 p=1153: only toral even/odd complement trade\nn=32 h=16 p=32801: only toral even/odd complement trade\nM720 over-ceiling complete-window certificates PASS\n"
@@ -273,7 +393,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_residual_slice_metadata/verify.py",
-      "seconds": 0.02238,
+      "seconds": 0.043428,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "under-ceiling complete cells:\n  n=16 h=7 q_exp=2 W=16 cost=16445\n  n=16 h=7 q_exp=3 W=16 cost=16445\n  n=32 h=7 q_exp=2 W=32 cost=4102137\n  n=32 h=7 q_exp=3 W=32 cost=4102137\n  n=16 h=8 q_exp=2 W=16 cost=19305\n  n=16 h=8 q_exp=3 W=16 cost=19305\nover-ceiling complete-window cells:\n  n=32 h=16 q_exp=2 W=32 cost=901620585\n  n=32 h=16 q_exp=3 W=32 cost=901620585\nwindow-slice cells: 128\nM720 residual slice metadata PASS\n"
@@ -281,618 +401,10 @@
     {
       "returncode": 0,
       "script": "background/nodes/m720_small_gate_replay/verify.py",
-      "seconds": 0.023856,
+      "seconds": 0.062314,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "full_census(16,3,17) = {'unordered_trades': 352, 'toral': 0, 'nontoral': 352, 'anchored_cores': 96}\nfull_census(16,3,97) = {'unordered_trades': 16, 'toral': 0, 'nontoral': 16, 'anchored_cores': 6}\nfull_census(16,4,17) = {'unordered_trades': 126, 'toral': 6, 'nontoral': 120, 'anchored_cores': 49}\nM720 n=16 small gate replay PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/m720_wsl_complete_zero_subcertificates/verify.py",
-      "seconds": 39.693438,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "n=16 h=7 p=257 q_exp=2 cost=16445 -> {'complete': True, 'n_hash': 5005, 'n_probe': 6435, 'anchored_nontoral': 0, 'anchored_toral': 0}\nn=16 h=7 p=4129 q_exp=3 cost=16445 -> {'complete': True, 'n_hash': 5005, 'n_probe': 6435, 'anchored_nontoral': 0, 'anchored_toral': 0}\nn=32 h=7 p=1153 q_exp=2 cost=4102137 -> {'complete': True, 'n_hash': 736281, 'n_probe': 2629575, 'anchored_nontoral': 0, 'anchored_toral': 0}\nn=32 h=7 p=32801 q_exp=3 cost=4102137 -> {'complete': True, 'n_hash': 736281, 'n_probe': 2629575, 'anchored_nontoral': 0, 'anchored_toral': 0}\nn=16 h=8 p=257 q_exp=2 cost=19305 -> {'complete': True, 'n_hash': 6435, 'n_probe': 6435, 'anchored_nontoral': 0, 'anchored_toral': 1}\nn=16 h=8 p=4129 q_exp=3 cost=19305 -> {'complete': True, 'n_hash': 6435, 'n_probe': 6435, 'anchored_nontoral': 0, 'anchored_toral': 1}\nM720 WSL-safe complete zero subcertificates PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/petal_fixed_excess/verify.py",
-      "seconds": 0.035443,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "Lemma 13 (r>=ell, dimK<=d-ell+1) on toy sunflowers:\n  q= 13 t=3 ell=2 d=2 e=0: r=3 dimK=0 bound q^(e+1)=q^1  [L13 ok]\n  q= 13 t=3 ell=2 d=3 e=1: r=2 dimK=2 bound q^(e+1)=q^2  [L13 ok]\n  q= 13 t=3 ell=2 d=4 e=2: r=1 dimK=4 bound q^(e+1)=q^3  [TOPDEFECT]\n  q=101 t=3 ell=3 d=3 e=0: r=4 dimK=0 bound q^(e+1)=q^1  [L13 ok]\n  q=101 t=3 ell=3 d=4 e=1: r=4 dimK=1 bound q^(e+1)=q^2  [L13 ok]\n  q=101 t=3 ell=3 d=5 e=2: r=3 dimK=3 bound q^(e+1)=q^3  [L13 ok]\n  q=101 t=3 ell=3 d=6 e=3: r=2 dimK=5 bound q^(e+1)=q^4  [TOPDEFECT]\n  q=101 t=4 ell=3 d=3 e=0: r=4 dimK=0 bound q^(e+1)=q^1  [L13 ok]\n  q=101 t=4 ell=3 d=4 e=1: r=5 dimK=0 bound q^(e+1)=q^2  [L13 ok]\n  q=101 t=4 ell=3 d=5 e=2: r=6 dimK=0 bound q^(e+1)=q^3  [L13 ok]\n  q=101 t=4 ell=3 d=6 e=3: r=5 dimK=2 bound q^(e+1)=q^4  [L13 ok]\n  q=101 t=4 ell=3 d=7 e=4: r=4 dimK=4 bound q^(e+1)=q^5  [L13 ok]\n  q=101 t=4 ell=3 d=8 e=5: r=3 dimK=6 bound q^(e+1)=q^6  [L13 ok]\n  q=101 t=4 ell=3 d=9 e=6: r=2 dimK=8 bound q^(e+1)=q^7  [TOPDEFECT]\n(b) fixed-excess count bound q^(e+1) with q<=n^2: exponent a*(e+1) constant in n for e<=6 -> poly(n): PASS\n(d) witness A e=2: ell=3 t=3 d=5 top_defect=6 d<top:True excess=2\n(d) witness B e=5: ell=3 t=5 d=8 top_defect=12 d<top:True excess=5\nALL PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/petal_g1_k4_scale_reserve/verify.py",
-      "seconds": 0.05268,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PETAL_G1_K4_SCALE_RESERVE_PASS official_rows=4 C=121/128 combined=121/126 margin=5/126 premise=weighted\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/petal_realizable_kernel_injection/verify.py",
-      "seconds": 0.021446,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "petal realizable-kernel injection check passed: {'extras': 3, 'kernel_points': 4}\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/petal_squarefree_classification_counting_soundness/verify.py",
-      "seconds": 0.018399,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: finite classified polynomial families have polynomial union\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/petal_squarefree_classification_ledger_soundness/verify.py",
-      "seconds": 0.016916,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: Petal squarefree classification ledger covers with bounded uncharged classes\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/petal_staircase_allowance_719/verify.py",
-      "seconds": 0.016667,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PETAL_STAIRCASE_ALLOWANCE_PASS allowance=719 rows=2^41,2^42,2^43,2^44\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/petal_top_band_residual_free_johnson/verify.py",
-      "seconds": 0.032979,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PETAL_TOP_BAND_RESIDUAL_FREE_JOHNSON_PASS rows=68544 sharp_boundary_rows=4032 mutation=below_band\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_multiplicative_amplification_floor/verify.py",
-      "seconds": 0.019087,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MULTIPLICATIVE_FLOOR_PASS entropy_rows=33 exact_rows=7 max_scale=2^34 max_bits=125 minimum_multiplier=4465665068328739581094723484 log2_min=91.850934\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/sov_affine_piece_partition_certificate_soundness/verify.py",
-      "seconds": 0.020973,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: SOV affine partition covers cell with exceptional mass below budget\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/sov_first_obstruction_sensitivity/verify.py",
-      "seconds": 0.052071,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "forced-root recursion checks passed: 6\nSOV first-obstruction sensitivity covered by recursion verifier\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/sov_forced_root_recursion_algebra/verify.py",
-      "seconds": 0.020558,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "forced-root recursion checks passed: 6\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/sov_hminus1_fiber_fourier_duality/verify.py",
-      "seconds": 0.017617,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "sov h-1 Fourier fiber-duality check passed: {'max_fiber': 9, 'bound': 14.285308}\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/sov_nonconstant_affine_character_cancellation/verify.py",
-      "seconds": 4.288968,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: nonconstant affine maps have zero nontrivial character sums\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/v13_bc_curve_second_moment_identity/notes/verify_c1.py",
-      "seconds": 0.208296,
-      "status": "PASS",
-      "stderr_tail": "/home/u2470931/smooth-read-solomin/prize/background/nodes/v13_bc_curve_second_moment_identity/notes/verify_c1.py:2: SyntaxWarning: invalid escape sequence '\\R'\n  \"\"\"Independent verification of upstream PR #395 Theorem C1 (curve second moment identity).\n",
-      "stdout_tail": "\n  strata sp_sum={4: 2}  direct hist={4: 2}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True constraint-i=True aug=True  (0.0s)\n--- R4: p=97 n=8 m=4 w=1 z*=(5, 9)\n  S1=0  M2_def=0  M2_pairs=0  M2_a1=0  RHS=S1+0=0\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True constraint-i=True aug=True  (0.0s)\n--- R5: p=13 n=12 m=5 w=2 z*=(0, 0, 0)\n  S1=12  M2_def=12  M2_pairs=12  M2_a1=12  RHS=S1+0=12\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True  (0.0s)\n--- R6: p=13 n=12 m=5 w=2 z*=(2, 7, 1)\n  S1=3  M2_def=3  M2_pairs=3  M2_a1=3  RHS=S1+0=3\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True  (0.0s)\n--- R7: p=97 n=8 m=5 w=2 z*=(40, 83, 52)\n  S1=1  M2_def=1  M2_pairs=1  M2_a1=1  RHS=S1+0=1\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True edge=True  (0.0s)\n--- R8: p=113 n=16 m=4 w=1 z*=(7, 11)\n  S1=19  M2_def=19  M2_pairs=19  M2_a1=19  RHS=S1+0=19\n  strata sp_sum={}  direct hist={}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True  (0.0s)\n--- R9: p=97 n=8 m=4 w=1 z*=(96, 0)\n  S1=6  M2_def=8  M2_pairs=8  M2_a1=8  RHS=S1+2=8\n  strata sp_sum={4: 2}  direct hist={4: 2}\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True  (0.0s)\n--- R10: p=13 n=12 m=5 w=1 z*=(12, 1)\n  S1=57  M2_def=273  M2_pairs=273  M2_a1=273  RHS=S1+216=273\n  strata sp_sum={3: 164, 4: 48, 5: 4}  direct hist={3: 164, 4: 48, 5: 4}\n  top-stratum examples (P, P', c=const shift): [([3, 10, 12], [5, 9, 11], 5), ([5, 9, 11], [3, 10, 12], 8)]\n  gates: C-a=True C-b=True C-c=True C-d=True naive==bucket=True aug=True  (0.1s)\n\nNon-vacuity: rows with S1>0: 8 (need>=5); offdiag>0: 4 (need>=2); top>0: 2 (need>=1); deep(e>w+2)>0: 3 (need>=1); z*!=0 with offdiag>0: 2 (need>=1)\naug-locator gate (C-g, flag-only): PASS\n\nVERDICT (pre-registered criteria): CONFIRMED\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/xr_ledger_qpower/verify.py",
-      "seconds": 23.000675,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PART A (exact codim): 202 checks, all match t+min(s,t)\n  t=2: conditional P[both|one] and its q-exponent vs predicted min(s,t-1):\n     s=1: P[both|one]=0.1645  emp_exp~0.75  pred=1\n     s=2: P[both|one]=0.0896  emp_exp~1.01  pred=1\n  t=3: conditional P[both|one] and its q-exponent vs predicted min(s,t-1):\n     s=1: P[both|one]=0.0922  emp_exp~0.99  pred=1\n     s=2: P[both|one]=0.0201  emp_exp~1.63  pred=2\n     s=3: P[both|one]=0.0040  emp_exp~2.31  pred=2\nPART B (slope accounting): empirical exponents track min(s,t-1) (rise with s, plateau at t-1); small-field constants apply.\nPASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/xr_minor_specialization_certificate_semantics/verify.py",
-      "seconds": 0.016975,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "xr minor-specialization semantics check passed: {'point': (3, 5), 'det': 92}\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/xr_profile_minor_record_inventory_soundness/verify.py",
-      "seconds": 0.017512,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: XR minor-record inventory covers required profiles with accepted records\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/xr_radius_arithmetic/verify.py",
-      "seconds": 0.016762,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "(1) corridor edge t* and reach s*=t*-1 at L=255.9, n=2^41:\n    rate 1/2 : t*=8592912739 (ref 8592912739) match=True  s*=8592912738  s*>1(never s*=1):True\n    rate 1/4 : t*=7014660390 (ref 7014660390) match=True  s*=7014660389  s*>1(never s*=1):True\n    rate 1/8 : t*=4722556392 (ref 4722556392) match=True  s*=4722556391  s*>1(never s*=1):True\n    rate 1/16: t*=2943177800 (ref 2943177800) match=True  s*=2943177799  s*>1(never s*=1):True\n(2) ball profile N_s=C(j,s)C(n-j,s) + Vandermonde sum=C(n,j):\n    n=8 j=3: exhaustive N_s match & Vandermonde: True\n    n=9 j=4: exhaustive N_s match & Vandermonde: True\n    n=10 j=4: exhaustive N_s match & Vandermonde: True\n    n=7 j=2: exhaustive N_s match & Vandermonde: True\n(3) plateau onset c(s,t)=min(s,t-1):\n    plateau reached at s=t-1 for all t in [2,20): True\nALL PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/xr_triangular_minor_certificate_soundness/verify.py",
-      "seconds": 0.021629,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: triangular nonzero diagonal gives nonzero determinant\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/cap_envelope_parameter_sweep/notes/verify_sweep.py",
-      "seconds": 1.430273,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "[PASS] rate 1/4  optimum: c=2^25, d=209, N=2^16, m=16593, w=208\n        log2 C(N,m)=53488.499  log2 L=240.499  thr=217  margin=23.50 bits\n        hypotheses=True  trigger=True  maximal_d=True\n        net gain = 81/128 = 0.632812 grid steps (total 1.632812); expected 81/128 -> True\n        required(rate 1/4): task>=0.318  ledger X_acl>=0.367   -> MET\n\n[PASS] rate 1/8  optimum: c=2^21, d=2251, N=2^20, m=133323, w=2250\n        log2 C(N,m)=576246.531  log2 L=246.531  thr=218  margin=28.53 bits\n        hypotheses=True  trigger=True  maximal_d=True\n        net gain = 203/2048 = 0.099121 grid steps (total 1.099121); expected 203/2048 -> True\n        required(rate 1/8): task>=0.023  ledger X_acl>=0.023   -> MET\n\n[PASS] rate 1/16 optimum: c=2^28, d=11, N=2^13, m=523, w=10\n        log2 C(N,m)=2800.082  log2 L=240.082  thr=219  margin=21.08 bits\n        hypotheses=True  trigger=True  maximal_d=True\n        net gain = 3/8 = 0.375000 grid steps (total 1.375000); expected 3/8 -> True\n        required(rate 1/16): task>=0.304  ledger X_acl>=0.304   -> MET\n\n[PASS] rate 1/8  template: c=2^28, d=17, N=2^13, m=1041, w=16\n        log2 C(N,m)=4494.134  log2 L=398.134  thr=218  margin=180.13 bits\n        hypotheses=True  trigger=True  maximal_d=True\n        net gain = 1/16 = 0.062500 grid steps (total 1.062500); expected 1/16 -> True\n        required(rate 1/8): task>=0.023  ledger X_acl>=0.023   -> MET\n\nALL POINTS PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/census_bounded_scales/verify.py",
-      "seconds": 0.027308,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "(3) H(0.40)=0.97095 >= 0.97 : PASS; H monotone up on [0,.5]: PASS\n(6) crossing-scale window N*=128/H(j/n):\n    rate 1/2  j/n=0.5000 H=1.0000 N*=  128.0 in[120,400]:True\n    rate 1/4  j/n=0.7500 H=0.8113 N*=  157.8 in[120,400]:True\n    rate 1/8  j/n=0.8750 H=0.5436 N*=  235.5 in[120,400]:True\n    rate 1/16 j/n=0.9375 H=0.3373 N*=  379.5 in[120,400]:True\n    RowC 1/4    t=            5 decidingN'=128 substantive=[2, 4, 8, 16, 32, 64, 128] mono=True top_step=53.0(>=30:True) unique=True\n    prize 1/4   t=   8589934593 decidingN'=128 substantive=[2, 4, 8, 16, 32, 64, 128] mono=True top_step=53.0(>=30:True) unique=True\n    RowC 1/8    t=            5 decidingN'=128 substantive=[4, 8, 16, 32, 64, 128] mono=True top_step=37.0(>=30:True) unique=True\n    prize 1/8   t=   8589934593 decidingN'=128 substantive=[4, 8, 16, 32, 64, 128] mono=True top_step=37.0(>=30:True) unique=True\n    RowC 1/16   t=            3 decidingN'=256 substantive=[8, 16, 32, 64, 128, 256] mono=True top_step=46.5(>=30:True) unique=True\n    prize 1/16  t=   4294967297 decidingN'=256 substantive=[8, 16, 32, 64, 128, 256] mono=True top_step=46.5(>=30:True) unique=True\n(U) n-uniformity RowC(2^10) vs prize(2^41):\n    rate 1/4  : RowC (128, 95, 101.7619)  prize (128, 95, 101.7619)  identical:True\n    rate 1/8  : RowC (128, 111, 69.0591)  prize (128, 111, 69.0591)  identical:True\n    rate 1/16 : RowC (256, 239, 86.8789)  prize (256, 239, 86.8789)  identical:True\nALL PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/census_exact_counts/verify.py",
-      "seconds": 0.018174,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "ALL PASS: exact census table pinned\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/dli_artin_schreier_conductor_criterion/verify.py",
-      "seconds": 0.018976,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "dli Artin-Schreier criterion sanity check passed: {'p': 5, 'constant': 3}\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/dli_odd_phase_budget_ledger_soundness/verify.py",
-      "seconds": 0.022786,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: DLI odd-phase ledger soundness\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/dli_odd_phase_polar_obstruction_soundness/verify.py",
-      "seconds": 0.019648,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: reduced pole order prime to p certifies DLI polar obstruction\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/dli_prime_weighted_large_block_support/notes/verify_m1_result.py",
-      "seconds": 0.040143,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS DLI_M1_RESULT_AUDIT endpoint=2^121 rows=45 fa_fired_depths=0 fc_accidents=0 fc_expected=3.956570 p_exceedance=0.0258116 quanta=2 lambda=4.350079 p_quanta=0.382313\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/dli_prime_weighted_large_block_support/notes/verify_m2_c1prime_result.py",
-      "seconds": 0.034064,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS DLI_C1PRIME_M2_AUDIT rows=12 max_K=0.246909432 max_row=L1_q7937 decomposable_gaps=3 raw-ledger positive-control=detected\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/dli_prime_weighted_large_block_support/notes/verify_m3_endpoint_contract.py",
-      "seconds": 0.031124,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "{\"checks\": {\"binding_endpoint\": true, \"completeness_required\": true, \"coverage_named\": true, \"density_is_not_individual\": true, \"dli_stays_target\": true, \"engineering_rejected\": true, \"no_endpoint_node_wired\": true, \"residual_required\": true, \"soundness_implication\": true, \"source_denies_exhaustive_certificate\": true, \"universal_scope\": true}, \"status\": \"PASS\"}\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/dli_prime_weighted_large_block_support/notes/verify_round6_reply.py",
-      "seconds": 14.295454,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS V1 Pocklington certificate for 65537\nPASS V1 q \u2261 1 (mod n'=512)\nPASS V1 admissible volume 2^N >= q^L\nPASS V1 q < 2^256\nPASS V2 g=2 NOT primitive (2^16 == -1 -> ord(2)=32)\nPASS V2 g=3 primitive\nPASS V3 omega == 15028\nPASS V3 omega^512 == 1\nPASS V3 omega^256 == -1 (exact order 512)\nPASS V4 relation 1 + w^95 - w^146 == 0 (mod q)\nPASS V4 exponents reduced (< N)\nPASS V4 primitive (no proper subsum vanishes)\nPASS V4 no weight-2 relation exists (minimal weight is 3 = L+2)\nPASS V5 gross K cap = 22,108,160\nPASS V5 exact RHS numerator = 185459517751297 (den 2^256)\nPASS V5 RHS < 1  (while E >= 1 from lambda=0)\nPASS V5 RHS ~ 2^-208.60\nPASS V6 threshold bracket: S(13.290784077959) <= 100 (exact)\nPASS V6 threshold bracket: S(13.290784077960) > 100 (exact)\nPASS V6 S(13) < 100 < S(14) (exact)\nPASS V6 S(1) = 51.169972398501 (to 1e-9)\nPASS V6 S(5) = 79.70215094563 (to 1e-9)\nPASS V6 S(10) = 93.865052872155 (to 1e-9)\nPASS V6 S(13) = 99.516255311986 (to 1e-9)\nPASS V7 r*N*2^-L <= 256L*2^-L for all L<=34, N<=20000 (exact sweep)\nPASS V8 round-5 fantasy stack == S(1) == 51.16997...\n\nALL PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/dli_prime_weighted_large_block_support/notes/verify_round7_reply.py",
-      "seconds": 20.029638,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS V1 q-1 = 2^8 * 433, 433 prime\nPASS V1 Pocklington (F = q-1 > sqrt(q), witness 3)\nPASS V1 q \u2261 1 (mod 64)\nPASS V1 2^N >= q^L and q < 2^256\nPASS V2 2 not primitive (2^((q-1)/2) == 1)\nPASS V2 3 primitive\nPASS V2 our pinned_omega == 98761\nPASS V2 order exactly 64\nPASS V3 our machinery: exactly 4 primitive orbits at w<=5\nPASS V3 our multiplier closure: 4 independent components\nPASS V3 orbit keys match Pro's four polynomials exactly\nPASS V4 exact-Fraction complete check: no reduced ternary multiplier (768 systems)\nPASS V5 no level lift (mixed parity after every signed shift)\nPASS V5 no same-norm dilation coincidence\nPASS V6 orbit count 110298, sub-volume (< q)\n     volume ratio = 0.99503  (BOUNDARY row);  mu = 0.9950, P(k>=4|mu) = 0.0187\nPASS V6 boundary row: ratio in (0.99, 1.0); P(k>=4) ~ 1.9e-2 (ordinary tail)\nPASS V7 sieve constants: D = 4 primes/element cap, family bound #(G>=4) <= 110298\n     (display verified as arithmetic; production instantiation is the round-8 target)\n\nALL PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/dli_reduced_phase_manifest_soundness/verify.py",
-      "seconds": 0.027402,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: DLI reduced-phase manifest schema supplies pole and majorant data\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/dli_reduced_pole_majorant_table_soundness/verify.py",
-      "seconds": 0.027477,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: DLI reduced-pole majorant table covers and dominates below budget\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/dyadic_profile_evaluation/verify.py",
-      "seconds": 0.0295,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "row                      t            M*   N*   h   log2Q_M*  log2Qsum  log2D_M*\npinned 1/2             251            --  (trivial profile; parity-killed)  \nRowC 1/4                 5             8  128  32    99.8063   99.8063   48.3804\nRowC 1/8                 5             8  128  16    66.1465   66.1465   31.8508\nRowC 1/16                3             4  256  16    82.9664   82.9664   40.2857\nprize 1/4       8589934593   17179869184  128  32    99.8063   99.8063   48.3804\nprize 1/8       8589934593   17179869184  128  16    66.1465   66.1465   31.8508\nprize 1/16      4294967297    8589934592  256  16    82.9664   82.9664   40.2857\nn-uniformity RowC(n=2^10) == prize(n=2^41): True\nrate 1/2 profile trivial: True\nALL PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e1_folded_certificate_manifest_soundness/verify.py",
-      "seconds": 0.030756,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: E1 folded-certificate manifest covers both open cells\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e1_folded_certificate_soundness/verify.py",
-      "seconds": 0.807259,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1 folded certificate toy checks passed: N=16 p=60161 -> 0, p=10177 -> 48\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e1_named_field_folded_cell_certificate_soundness/verify.py",
-      "seconds": 0.017926,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: E1 named-field folded cell certificate soundness\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e1_open_cell_route_soundness/verify.py",
-      "seconds": 0.019362,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: E1 open-cell route shapes validated\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e1_pocklington_250bit_exhibit_field/verify.py",
-      "seconds": 0.021135,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: E1 250-bit Pocklington exhibit field\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e1_two_cell_folded_manifest_assembly_soundness/verify.py",
-      "seconds": 0.023215,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: E1 two-cell folded manifest assembly\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e22_agreement_cofactor_equations/verify.py",
-      "seconds": 1.368613,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E22 cofactor equations verified on n=16 structured agreements: 355\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e22_cofactor_petal_divisibility/verify.py",
-      "seconds": 0.01929,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "e22_cofactor_petal_divisibility checks passed\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e22_cross_scale_support_canonical_form/verify.py",
-      "seconds": 0.020777,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "e22_cross_scale_support_canonical_form checks passed: {4: ((2, 4), 2), 12: ((1, 2, 3, 4, 7, 9, 13, 15, 19, 21), 0)}\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e22_fiber_locator_saturation/verify.py",
-      "seconds": 0.058981,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: quotient-fiber locator factors are exactly full fibers\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e22_fixed_scale_staircase_injectivity/verify.py",
-      "seconds": 0.249614,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "fixed-scale staircase injectivity checks passed: 11428\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e22_lower_scale_filter_inclusion_exclusion/verify.py",
-      "seconds": 0.019303,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: weighted lower-scale inclusion-exclusion\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e22_overlap_nested_fiber_residual_identity/verify.py",
-      "seconds": 0.029497,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: nested dyadic fiber residual identity\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e22_residual_profile_generating_function/verify.py",
-      "seconds": 0.024484,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: residual-profile generating function matches brute force\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/e22_tail_coset_locator_algebra/verify.py",
-      "seconds": 0.063006,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "tail-coset locator checks passed: 1584\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/ef_descended_cycle_classification_soundness/verify.py",
-      "seconds": 0.02336,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: exhaustive EF descended-cycle classification excludes leakage\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/ef_descended_cycle_inventory_soundness/verify.py",
-      "seconds": 0.022881,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS: EF descended-cycle inventory covers all cycles with allowed labels\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/ef_full_orbit_cycle_descent/verify.py",
-      "seconds": 0.024156,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "ef full-orbit cycle descent check passed: {'orbit_size': 6, 'stable': True}\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/f1_minimal_field_descent/verify.py",
-      "seconds": 1.157288,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "(A) subfield=divisor lattice, unique minimal K (no ambiguity): PASS\n(B) F_2^6, base b=2: descent d_x|N & trichotomy partition PASS  cases={'I': 4, 'II': 0, 'III': 60} (total=64=64)\n(B) F_2^12, base b=3: descent d_x|N & trichotomy partition PASS  cases={'I': 8, 'II': 56, 'III': 4032} (total=4096=4096)\n(B) F_3^4, base b=2: descent d_x|N & trichotomy partition PASS  cases={'I': 9, 'II': 0, 'III': 72} (total=81=81)\n(B) F_5^4, base b=1: descent d_x|N & trichotomy partition PASS  cases={'I': 5, 'II': 20, 'III': 600} (total=625=625)\nALL PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/f3_h3_mobius_excess_half/verify.py",
-      "seconds": 0.025525,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "H3_MOBIUS_EXCESS_COMPILER_PASS official_orders=29 baseline=18 weighted_excess=300n2/17 nonswap_sufficient=1200n2\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/f_dual_distance_frame/verify.py",
-      "seconds": 0.088968,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "checked 24 random flats over F_7,F_11,F_13\nPASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/gap2_seam/verify.py",
-      "seconds": 0.033593,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "(a) pullback g(X^M) has M|deg (support in M*Z)        : PASS\n(b) M|gcd(n,k) => (M|j <=> M|t_win)  [5296 buckets]    : PASS\n(c) seam M|gcd(n,j),M!|k => M!|t_win  [4482 witnesses] : PASS\nALL PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/list_large_m_scope_closure/verify.py",
-      "seconds": 0.057338,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "{\n  \"checks\": [\n    {\n      \"name\": \"node_exists\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"node_is_conditional\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"theorem_is_proved\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"exact_req_inputs\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"direct_consumer_is_list_grand\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"conditional_names_theorem\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"conditional_uses_base_instance\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"conditional_pins_threshold\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"theorem_states_general_bound\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"proof_has_collision_count\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"proof_has_diagonal_lower\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"packet_complete\",\n      \"ok\": true\n    }\n  ],\n  \"node\": \"list_large_m_scope_closure\",\n  \"nonclaim\": \"This audit checks wiring and proof pins; the human-readable packet contains the general theorem proof.\",\n  \"status\": \"PASS\"\n}\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/petal_full_touched_set_injection/verify.py",
-      "seconds": 0.168307,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PETAL_FULL_TOUCHED_SET_INJECTION_PASS finite_cells=3 realized=20 arithmetic_rows=1066464 endpoint_collision=7\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/petal_g2_support_forcing/verify.py",
-      "seconds": 0.193399,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PETAL_G2_SUPPORT_FORCING_PASS nonempty_subsets=65790 mutation=fixed-scale-4,8\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/petal_g3_profile_conversion_identity/verify.py",
-      "seconds": 0.288685,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PETAL_G3_PROFILE_CONVERSION_PASS exact_cases=148 mutation=missing-N-over-N-minus-h\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/petal_k4_johnson_slice/verify.py",
-      "seconds": 0.110797,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PETAL_K4_JOHNSON_SLICE_PASS arithmetic_rows=31973 brute_rows=14\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/petal_k4_primitive_bound/verify.py",
-      "seconds": 0.037233,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PETAL_K4_PRIMITIVE_BOUND_PASS b4=1 open_petals=G1\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/petal_retained_zero_effective_degree/verify.py",
-      "seconds": 2.050606,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PETAL_RETAINED_ZERO_EFFECTIVE_DEGREE_PASS rows=12005 quotients=49 exact_support=preserved\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/petal_top_band_tail_collapse/verify.py",
-      "seconds": 0.674065,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PETAL_TOP_BAND_TAIL_COLLAPSE_PASS rows=1056640 sharp_rows=8128 b4=1 mutations=2\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/spi_exceptional_class/notes/verify_writeup.py",
-      "seconds": 0.364663,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "F_17,  H = mu_8 = [1, 2, 4, 8, 9, 13, 15, 16]\n\nCHECK 1  vertical rank-drop count <= generic rank r (<= t):\n    {'trials': 2500, 't': 3, 'j': 4, 'generic_rank_max': 3, 'worst_rank_drop_slopes': 1, 'bound': 3, 'ok': True}\nCHECK 2  R == 0 branch is tangent-paid (fixed common H-root):\n    {'trials': 1600, 'tangent_paid': 1600, 'ok': True}\nCHECK 3  arithmetic backbone (D_j emptiness ; R != 0 slope bound):\n    {'dj_emptiness': {'trials': 1000, 'passed': 1000, 'ok': True}, 'slope_bound': {'trials': 471, 'passed': 471, 'degZ_R': 8, 'ok': True}}\n\nPASS -- 2500 pencils, 1600 tangent fibres, 1000 D_j, 500 slope-bound\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/stratification_partition_thm/verify.py",
-      "seconds": 3.977726,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "stratification_partition_thm -- verify.py\n------------------------------------------------------------\n(A) exhaustive partition check : 1536 feature points, exactly one cell each -> PASS\n    cell populations           : {'T0': 768, 'T1': 384, 'T2': 192, 'T3': 128, 'T4': 32, 'T5': 16, 'T6': 8, 'T7': 4, 'L': 4}\n(B) planted constructors       : 13 pairs land in intended stratum -> PASS\n(C) residual leaf L inhabited  : 4 points in L (honesty gate, GAP-1 mass) -> PASS\n(D) structural robustness      : 307200 (randomized-predicate) checks, exactly-one holds -> PASS\n------------------------------------------------------------\nPASS: T0-T7 + residual leaf is a partition of 1536 pair types (total + disjoint, exhaustively verified).\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/v13_capf_planted_lower_count/notes/verify_capf_planted.py",
-      "seconds": 0.429097,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "[I1 p=31 coset] GF(31), n=15, k=6, M=3, sigma=2, alpha=nontrivial -> expect count C(4,2)=6, threshold k+sigma=8\n    -> PASS (6 distinct codewords, min agreement 8, threshold 8)\n[I2a p=61 M=6] GF(61), n=30, k=12, M=6, sigma=5, alpha=1 -> expect count C(4,2)=6, threshold k+sigma=17\n    -> PASS (6 distinct codewords, min agreement 17, threshold 17)\n[I2b p=61 M=2 count=3003] GF(61), n=30, k=12, M=2, sigma=1, alpha=1 -> expect count C(14,6)=3003, threshold k+sigma=13\n    -> PASS (3003 distinct codewords, min agreement 13, threshold 13)\n[I3 p=13 BRUTE] GF(13), n=12, k=4, M=2, sigma=1, alpha=1 -> expect count C(5,2)=10, threshold k+sigma=5\n    brute force: #ImgFib_U^<k(5) = 61 (>= planted 10) over 28561 polynomials\n    -> PASS (10 distinct codewords, min agreement 5, threshold 5)\n[I4a GF(16) char2] GF(16), n=15, k=6, M=3, sigma=1, alpha=1 -> expect count C(4,2)=6, threshold k+sigma=7\n    -> PASS (6 distinct codewords, min agreement 7, threshold 7)\n[I4b GF(16) sigma=2] GF(16), n=15, k=6, M=3, sigma=2, alpha=1 -> expect count C(4,2)=6, threshold k+sigma=8\n    -> PASS (6 distinct codewords, min agreement 8, threshold 8)\n[T1 TAMPER] GF(31), n=15, k=6, M=3, sigma=2, alpha=nontrivial -> expect count C(4,2)=6, threshold k+sigma=8\n    (tampered U at one point)\n    FAIL: T1 TAMPER: (ii) all planted agree >= k+sigma\n    -> FAILED (6 distinct codewords, min agreement 7, threshold 8)\n\n======================================================================\nTAMPER RUN DETECTED: True (must be True for a non-vacuous harness)\nVERDICT: CONFIRMED on all pre-registered instances (exact arithmetic)\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/weight_graded_mitm/verify.py",
-      "seconds": 0.054731,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "== correctness (MITM == brute) on small fields ==\n  N'= 6 p= 7 w=2: MITM==brute:True #coll=   6 table=C(N',w/2)2^(w/2)~12\n  N'= 6 p= 7 w=3: MITM==brute:True #coll=  34 table=C(N',w/2)2^(w/2)~72\n  N'= 6 p= 7 w=4: MITM==brute:True #coll=  70 table=C(N',w/2)2^(w/2)~72\n  N'= 8 p=17 w=2: MITM==brute:True #coll=   8 table=C(N',w/2)2^(w/2)~16\n  N'= 8 p=17 w=3: MITM==brute:True #coll=  24 table=C(N',w/2)2^(w/2)~128\n  N'= 8 p=17 w=4: MITM==brute:True #coll=  80 table=C(N',w/2)2^(w/2)~128\n  N'=12 p=13 w=2: MITM==brute:True #coll=  12 table=C(N',w/2)2^(w/2)~24\n  N'=12 p=13 w=3: MITM==brute:True #coll= 164 table=C(N',w/2)2^(w/2)~288\n  N'=12 p=13 w=4: MITM==brute:True #coll= 800 table=C(N',w/2)2^(w/2)~288\n== certificate (survivors beyond R) on large fields ==\n  N'= 4 p=1009 w=2: MITM==brute:True #coll=  4 #R=  4 survivors=0 CERT[min collision weight > 2]: True\n  N'= 4 p=1009 w=3: MITM==brute:True #coll=  4 #R=  4 survivors=0 CERT[min collision weight > 3]: True\n  N'= 6 p=1021 w=2: MITM==brute:True #coll=  6 #R=  6 survivors=0 CERT[min collision weight > 2]: True\n  N'= 6 p=1021 w=3: MITM==brute:True #coll= 22 #R=  8 survivors=14 CERT[min collision weight > 3]: False\n  N'= 8 p=1009 w=2: MITM==brute:True #coll=  8 #R=  8 survivors=0 CERT[min collision weight > 2]: True\n  N'= 8 p=1009 w=3: MITM==brute:True #coll=  8 #R=  8 survivors=0 CERT[min collision weight > 3]: True\nALL PASS (MITM correctness + radius certificate verified)\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/ww_lower_witnesses/verify.py",
-      "seconds": 0.027259,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "WW_LOWER_WITNESSES_PASS clean_rates=3 endpoint=closed mutation=sigma=M rate_half=excluded\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/ww_lower_witnesses/verify_construction.py",
-      "seconds": 0.201299,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "qcore construction spot-check (independent, brute polynomial arithmetic):\n  q=97 n=16 N=8 M=2 k=4 sigma=1: 21 = C(7,2) distinct codewords, all deg<=k-1, agreement>=k+sigma=5 PASS (agreement sizes seen: [5])\n  q=193 n=32 N=8 M=4 k=8 sigma=3: 21 = C(7,2) distinct codewords, all deg<=k-1, agreement>=k+sigma=11 PASS (agreement sizes seen: [11])\n  q=257 n=16 N=8 M=2 k=2 sigma=1: 7 = C(7,1) distinct codewords, all deg<=k-1, agreement>=k+sigma=3 PASS (agreement sizes seen: [3])\n  q=97 n=32 N=16 M=2 k=2 sigma=1: 15 = C(15,1) distinct codewords, all deg<=k-1, agreement>=k+sigma=3 PASS (agreement sizes seen: [3])\n  q=193 n=64 N=16 M=4 k=16 sigma=3: 1365 = C(15,4) distinct codewords, all deg<=k-1, agreement>=k+sigma=19 PASS (agreement sizes seen: [19])\n  MUTATION sigma=M: deg(P_A) = 4 = k -> NOT a codeword; construction correctly requires sigma < M\n  MUTATION generic k-set locator: deg(P_A) = 10 > k-1 -> not a codeword; the order-M coset-union structure is load-bearing\n  margin C(255,64) vs 2^128: +75.1519 bits (banked +75.15) match=True\n  margin C(255,32) vs 2^128: +7.2266 bits (banked +7.23) match=True\n  margin C(511,32) vs 2^128: +40.8164 bits (banked +40.82) match=True\n  rate-1/2: log2 C(127,64) = 123.17 < 128 -> correctly excluded\nALL SPOT-CHECKS PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "critical/nodes/xr_ledger_exponent_reconciliation/verify.py",
-      "seconds": 0.020032,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "ALL PASS: codim = t + min(s,t)\n"
-    },
-    {
-      "returncode": 0,
-      "script": "tools/verify_list_corridor_ledger.py",
-      "seconds": 1.3564,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS list_corridor_ledger\n1/4: required=0.612526496982 gain=0.632812500000 margin=0.020286003018\n1/8: required=0.075136156735 gain=0.099121093750 margin=0.023984937015\n1/16: required=0.328340157828 gain=0.375000000000 margin=0.046659842172\n"
-    },
-    {
-      "returncode": 0,
-      "script": "tools/verify_list_corridor_widths.py",
-      "seconds": 0.027913,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS list_corridor_widths\n1/4: W_list=1.612526496982\n1/8: W_list=1.075136156735\n1/16: W_list=1.328340157828\n"
-    },
-    {
-      "returncode": 0,
-      "script": "tools/verify_official_row_primes_pinning.py",
-      "seconds": 0.034659,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS official_row_primes_pinning reframe packet\nverified critical/nodes/official_row_primes_pinning/official_row_primes_reframe.json\n"
-    },
-    {
-      "returncode": 0,
-      "script": "tools/verify_prize_dag.py",
-      "seconds": 0.071742,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "weighted Mobius rich-fiber excess is at most n^2/2 [TARGET]\n  ! f3_hge4_norm_gate_count: NG-COUNT (the reduced red of HGE4's route-3 surgery, minted 2026-0 [TARGET]\n  ! petal_g1_layer_maps: PETAL PREDICATE G1 (witness-exhaustive bounded atlas): at every of [TARGET]\n  ! quotient_row_subjohnson_bound: ROW-LEVEL APERIODIC SUB-JOHNSON QUOTIENT BOUND (the unified succes [TARGET]\n  ! rate_half_band_closure: FLOOR CONJECTURE (BAND-DETERMINATION): the rate-1/2 band determina [TARGET]\n  ! ww_row_envelope_clause: ROW-ENVELOPE DICHOTOMY (W3; SCK clause (ii) at the cell-conditiona [TARGET]\n  ! xr_highcore_collision_count: XR PREDICATE P-A (high-core collision count). At each of the six c [TARGET]\n  ! xr_lowcore_spread_heart: XR PREDICATE P-B (low-core spread heart \u2014 the anti-concentration h [TARGET]\nprize-dag: 594 nodes, 1035 edges\nstatus counts: CONDITIONAL:44, CONJECTURE:15, PROVABLE:27, PROVED:427, REFUTED:20, TARGET:54, WALL:7\nRIPE (requirements met, declaration pending): m4_table, window_m5_charts\nCONDITIONAL with no open wired hypothesis (prose-only conditions or flip-ready): packaging\nARTIFACT-KIND nodes (not truth-apt; reword to propositional core or demote): alpha_front, beta_front, dossier_partial, m4_table, replay_170_171, strat_tree, v13_frontier_row_packets, window_m5_charts\nSTATUS-ARTIFACT GAPS (folders lagging statuses): 30\n  - spi_exceptional_class: missing statement.md\n  - stratification_partition_thm: missing statement.md\n  - spi_component_control: missing statement.md\n  - integer_code_distance_cert: status PROVED but no proof.md\n  - u2_per_row_certifier: status PROVED but no proof.md\n  - generator_size_budget_check: status PROVED but no proof.md\n  - hankel_sparse_atoms_as_rational_defects: missing statement.md\n  - hankel_rank_profile_entropy: missing statement.md\nAMBER-INVARIANT WARNINGS (1) \u2014 predicates to wire:\n  ~ packaging: CONDITIONAL but all wired hypotheses PROVED (promote or re-wire)\nPASS: structure, refs, acyclicity, reachability, status propagation\n"
-    },
-    {
-      "returncode": 0,
-      "script": "tools/verify_wild_row_audit.py",
-      "seconds": 22.933442,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": " \"subgroup_orders\": [\n            1\n          ]\n        },\n        {\n          \"partition\": [\n            1,\n            1,\n            2,\n            2,\n            2\n          ],\n          \"subgroup_orders\": [\n            2\n          ]\n        },\n        {\n          \"partition\": [\n            1,\n            1,\n            3,\n            3\n          ],\n          \"subgroup_orders\": [\n            3\n          ]\n        },\n        {\n          \"partition\": [\n            1,\n            1,\n            6\n          ],\n          \"subgroup_orders\": [\n            6\n          ]\n        },\n        {\n          \"partition\": [\n            1,\n            7\n          ],\n          \"subgroup_orders\": [\n            7,\n            14,\n            21,\n            42\n          ]\n        },\n        {\n          \"partition\": [\n            2,\n            2,\n            2,\n            2\n          ],\n          \"subgroup_orders\": [\n            2\n          ]\n        },\n        {\n          \"partition\": [\n            2,\n            2,\n            4\n          ],\n          \"subgroup_orders\": [\n            4\n          ]\n        },\n        {\n          \"partition\": [\n            2,\n            3,\n            3\n          ],\n          \"subgroup_orders\": [\n            6\n          ]\n        },\n        {\n          \"partition\": [\n            2,\n            6\n          ],\n          \"subgroup_orders\": [\n            6,\n            12\n          ]\n        },\n        {\n          \"partition\": [\n            4,\n            4\n          ],\n          \"subgroup_orders\": [\n            4,\n            8,\n            12\n          ]\n        },\n        {\n          \"partition\": [\n            8\n          ],\n          \"subgroup_orders\": [\n            8,\n            16,\n            24,\n            168,\n            336\n          ]\n        }\n      ]\n    }\n  },\n  \"status\": \"AUDIT: wild rows enumerated; F49/mu8 Dickson toy has extra orbit-window strata\",\n  \"task\": \"QA.23\",\n  \"total_wild_rows\": 26\n}\n\nPASS: 16 QA.23 wild-row audit checks\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

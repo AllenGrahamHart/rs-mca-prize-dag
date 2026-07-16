@@ -2083,3 +2083,45 @@ signed side of the band dichotomy; Paving_v8 ePrint CONSUMES four
 named inputs mapping to our lanes (profile exhaustion = v4's
 saturated-kernel residue); watch PR #827. WAVE-8 AUDIT LAUNCHING:
 priority = mixed-petal core -> rate-half floors -> WCL slots.
+
+## 79 — 2026-07-16: WAVE-8 STAGES A+B IMPORTED (pin ae2e5dd5; catches
+## w8-C1..C13 = #214-#226) — mixed-petal core + rate-half list floors
+
+STAGE A (atomic, per spec step 0): 28 new PROVED pma_*/petal_reserve
+nodes (+ pma_exact_periodic_owner critical) + the refutation pair;
+pma_wide_residual TARGET -> REFUTED (BOTH readings recorded: master's
+polynomial-primitive reading falls to the variable-defect exact-hit
+floor [Linnik/Xylouris; OUTSIDE imgfib's reserve — guard (b) PASS,
+imgfib survives CONDITIONAL]; the n^6 Post form falls to the d4
+generic-source obstruction [2^104 > 2^97, integer-verified]);
+petal_mixed_amplification CONDITIONAL -> TARGET (its conditional rode
+the refuted predicate; req wiring -> ev); v4 re-pose banked as dated
+addenda; crosswalk note v4_pma_crosswalk.md in the l1 red (guard (c):
+FAITHFUL, superset bucket, no goalpost shift; l1 open content narrows
+to u+e -> infinity profiles with Omega(n/log^2 n) rich-fiber forcing);
+imgfib scope addendum + scope-audit note banked; census artifacts in.
+WIRING REPAIRS: two cycles broken — root cause was master's stale ev
+edge petal_mixed_amplification -> petal_growth (semantically wrong
+since the P1 scope ratification: mixed-petal is NOT evidence for the
+full-petal-scoped node; removed as a forced correction, noted on
+petal_growth); pma subtree re-rooted via petal_mixed --ev--> l1 red.
+v4's whole-contract checker verify_scope_repair.py PARKED as
+notes/scope_repair_pending_adoption.py (it pins v4's ALTERNATIVE
+imgfib decomposition + its in-place petal_growth/proof.md rewrite;
+master's l1-slot wiring stands — adoption = maintainer queue).
+STAGE B: rate_half_cyclic_rotated_prefix_floor (critical, PROVED) +
+rate_half_fixed_tail_prefix_floor (background, PROVED) imported —
+THE GRAND-LIST HALF OF rate_half_band_closure IS RETIRED BY THEOREM
+(band 2^33 < sigma <= sigma* list-unsafe for all q < 2^256, margin
+75.0796 bits; trigger IS the prize's |Lambda| <= 2^-128|F| object;
+independent audit reproduction of every constant); QUALITY
+pure-append taken; statement addendum carries the retirement + the
+verbatim no-MCA-surrogate guard + trigger-separation script;
+list_adjacency_closing predicate swap executed (old red req -> ev,
+PROVED floor req in). rate_half_band_closure stays TARGET on exactly
+the MCA/CA half. All spot-replayed verifiers green (d4, floor,
+cyclic, rich-fiber). Manifest 166/8/299. REMAINING (wave-8 stages
+C+D, spec + sub-audit details in WAVE8_AUDIT_FINDINGS.md): DLI WCL
+(2,5)-closure [+ packaging flip REFUSED] + (2,6) reduction; XR 16
+nodes + ten custody addenda + w8-C8 master-side cogirth fix + the
+w8-C9 0.5005%-margin pin note. Modal re-pin next.

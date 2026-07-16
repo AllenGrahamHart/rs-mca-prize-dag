@@ -37,3 +37,13 @@ PLUS this diffuse partial-petal case.
 A word family whose mixed-petal image-fiber count grows
 super-polynomially above the corrected reserve; or a route-kill proof
 that mixed-petal mass at official rows exceeds every n^B.
+
+## Known evidence — addendum (2026-07-16, wave-8 import)
+
+The v4 PMA campaign landed (audited): all bounded u+e mixed/partial
+regions are PAID (root-pinning ledger + saturated kernel + the sigma-one
+suite); the open content narrows to u+e -> infinity profiles with an
+Omega(n/log^2 n) source-coupled rich fiber in one petal
+(petal_reserve_rich_fiber_reduction). The naive-induction killer is now
+complemented by the collision-free-emptiness theorem. See
+v4_pma_crosswalk.md.

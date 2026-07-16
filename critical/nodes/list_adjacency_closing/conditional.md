@@ -64,3 +64,17 @@ WEAKENING 2026-07-06: the direct edge
 logical requirement.  The transitive dependency remains through
 `list_planted_arithmetic`, whose statement is exactly the arithmetic reduction
 that uses worst-word extremality.
+
+---
+
+## PREDICATE SWAP (2026-07-16, wave-8 audited import)
+
+The rate-1/2 list predicate this packet consumed as
+`rate_half_band_closure` (open red, list half) is replaced by the PROVED
+`rate_half_cyclic_rotated_prefix_floor` (req-wired at import): the
+residual band's list crossing is determined by theorem, so the
+list-side hypothesis is discharged. The OLD predicate reference is
+retained here as history; rate_half_band_closure itself stays TARGET on
+its remaining MCA/CA half (which this packet does NOT consume — the
+MCA-side hypotheses are unchanged, see the trigger-separation guard in
+that node's statement addendum).

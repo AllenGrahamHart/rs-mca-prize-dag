@@ -19,3 +19,14 @@ a toy word family with super-poly image fibers above the corrected reserve
 ## Ledger (migrated notes)
 
 PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/imgfib.md): statement-level assembly over the wired kids.
+
+## SCOPE ADDENDUM (2026-07-16, wave-8 import)
+
+Explicit-hypotheses narrowing accepted (audited): the statement's
+count is read with the poly-field + lower-cutoff scoping recorded in
+notes/mixed_petal_scope_audit_20260714.md (the Linnik-family
+exponential floors sit OUTSIDE the entropy reserve — sigma >= Cn/log n
++ the reserve inequality are load-bearing, catch #213's sigma=1
+subsumption note notwithstanding: the floors live at sigma=1 on rows
+where the reserve FAILS by ~n bits). Machine check:
+verify_scope_repair.py.
