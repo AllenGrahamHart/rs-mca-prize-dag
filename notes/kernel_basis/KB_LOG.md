@@ -2052,3 +2052,34 @@ appears to attack exactly this bucket); (3) the mixed-petal
 falsification/measurement round (attack.md). The external-audit
 loop WORKED: fresh eyes on our strongest claim found the one soft
 joint within 3 days of publication.
+
+## 78 — 2026-07-16: WAVE-8 SURVEY BANKED (notes/kernel_basis/
+## WAVE8_SURVEY.md) — the v4 PMA campaign maps onto the minted red
+
+Codex v4 = the "petal mixed amplification" campaign (100 commits,
+clusters A-G, ~70 new all-PROVED nodes), targeting EXACTLY
+l1_mixed_petal_amplification's content. VERDICT: PARTIAL — no
+closure; pays all M<=3, M=4/t=4, rate-quarter M=4/t=3,
+positive-denominator rate-half cells; REFUTED pma_wide_residual
+(#Post<=n^6, constructive witness at (65537^2, 65536, 32768)) and
+the uniform sigma-one polynomial bound (Linnik-prime exponential
+family — which sits OUTSIDE imgfib's sigma >= Cn/log n reserve, so
+imgfib remains viable as CONDITIONAL). GUARD: any imported
+conditional closure that rides on pma_wide_residual must be REFUSED
+(refuted in the same campaign). Open remainder = source-coupled
+rate-half-tail certificates, M=4/t=2, larger-M full petals, partial
+petals. SIDE-CLUSTERS: (2) rate-half list floors (2af18dfd,
+5bf2cbb0) — the residual band proved list-unsafe at sigma* for all
+q<2^256, 75.08-bit margin = would retire the LIST half of
+rate_half_band_closure (the both-grand-paths red); (3) DLI WCL
+(9688c6ad, 760f4a68) — slot (2,5) CLOSED on every official row (168
+Pocklington primes), slot (2,6) reduced to <= 1,550,336 certified
+candidates. FLAGS: packaging CONDITIONAL->PROVED rode UNJUSTIFIED
+inside 9688c6ad (refuse); XR cluster needs the #158 fence; v3 tail
+superseded by v4 except the optional boundary-divisor fence.
+UPSTREAM: only ONE master red touched (their audit = our #212,
+corroborated); band_uniform_cube_reduction (note+Lean) kills the
+signed side of the band dichotomy; Paving_v8 ePrint CONSUMES four
+named inputs mapping to our lanes (profile exhaustion = v4's
+saturated-kernel residue); watch PR #827. WAVE-8 AUDIT LAUNCHING:
+priority = mixed-petal core -> rate-half floors -> WCL slots.
