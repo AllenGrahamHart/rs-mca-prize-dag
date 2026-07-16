@@ -967,6 +967,11 @@
    "title": "P1 and the strict E22 remainder collapse the full-petal tail to m+1"
   },
   {
+   "id": "pma_exact_periodic_owner",
+   "label": "PROVED",
+   "title": "Global exact-periodic source owner and dyadic profile charge"
+  },
+  {
    "id": "q_recursion",
    "label": "PROVED",
    "title": "Q_M(H_n) = Q_1(H_{n/M}) rate-preserving (x1)"
@@ -990,6 +995,11 @@
    "id": "rate_half_band_closure",
    "label": "UNPROVED",
    "title": "FLOOR CONJECTURE (BAND-DETERMINATION): the rate-1/2 band determination equals the first-moment prediction at every admissible razor row"
+  },
+  {
+   "id": "rate_half_cyclic_rotated_prefix_floor",
+   "label": "PROVED",
+   "title": "Cyclic quotient rotation closes the rate-half list-unsafe band"
   },
   {
    "id": "rules_freeze",
@@ -1800,10 +1810,6 @@
    "to": "adjacency_closing"
   },
   {
-   "from": "rate_half_band_closure",
-   "to": "list_adjacency_closing"
-  },
-  {
    "from": "worst_word_challenger_pricing",
    "to": "worst_word_planted"
   },
@@ -2466,6 +2472,26 @@
   {
    "from": "l1_mixed_petal_amplification",
    "to": "imgfib"
+  },
+  {
+   "from": "pma_exact_periodic_owner",
+   "to": "imgfib"
+  },
+  {
+   "from": "petal_g2_support_forcing",
+   "to": "pma_exact_periodic_owner"
+  },
+  {
+   "from": "petal_g3_full_support_codeword_injectivity",
+   "to": "pma_exact_periodic_owner"
+  },
+  {
+   "from": "qa22_m_le_t_extension",
+   "to": "pma_exact_periodic_owner"
+  },
+  {
+   "from": "rate_half_cyclic_rotated_prefix_floor",
+   "to": "list_adjacency_closing"
   }
  ]
 }
