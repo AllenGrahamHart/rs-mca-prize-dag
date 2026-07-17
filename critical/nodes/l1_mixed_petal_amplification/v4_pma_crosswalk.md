@@ -41,3 +41,12 @@ bounded is paid.
 pma_wide_residual is REFUTED (both readings) — nothing may condition
 on it (all wiring ev/history). The v4 conditional closure of
 petal_mixed_amplification was retired for exactly this reason.
+
+## Wave-9 addendum (2026-07-17)
+
+The v4-side rate-half full-petal tail is now an exact ONE-PARAMETER
+guarded split-divisor atom (LS6) with lambda cross-ratio normalization
+(the five-node pma_ratehalf ladder, audited + imported). This is NOT
+new open content for the l1 red (it is a clause-(P)-side stratum per
+the wave-8 guard (c)); the atom is a BC/SCK-type object (ev edge into
+shared_census_kernel) — a potential shared attack surface.

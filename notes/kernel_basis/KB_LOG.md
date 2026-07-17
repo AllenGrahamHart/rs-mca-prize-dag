@@ -2197,3 +2197,33 @@ closure flip was manual and self-corrected in-range. IMPORT
 EXECUTION AWAITS THE MAINTAINER'S GO (per "don't integrate yet");
 the surgery spec is complete in WAVE9_AUDIT_FINDINGS.md. Wave-10
 queue: 7 post-pin rate-half commits at d4e37c9a+.
+
+## 82 — 2026-07-17: WAVE-9 IMPORT EXECUTED (all four clusters; the
+## WCL residual is FOUR slots; rate-half carries the RH-ADJ pose)
+
+Per the maintainer's go ("sounds import, go for it"), the full
+surgery spec ran green. CLUSTER A (rate-half MCA): 3 PROVED nodes
+(simple-pole MCA floor, sparse-layer reduction, pinning rigidity);
+the cyclic floor's s = c-1 MAXIMAL-PREFIX instantiation banked
+(unsafe band now 1 <= sigma <= sigma_max = 8,594,128,895; pin
+verify.py taken); band_closure got the FIXED-CROSSING REFUTATION +
+RH-ADJ re-pose as dated addenda (+ refutation.md verbatim; QUALITY
+w9-C5 in-place edit NOT taken — original restored + pin blocks
+appended with note); adjacency_closing/mca_safe/mca_grand
+predicate-role addenda; conjectural_mca_delta.py pinned. CLUSTER B
+(WCL): the (2,6) recursive-norm closure + split16 counterfixture
+imported (7+7 files + 10 experiments assets); zone
+official_terminal_attack.md gets the closure + FOUR-SLOT residual
+(1,5),(1,6),(2,7),(4,9) as an APPEND (w9-C6 tense edits refused);
+w9-C8 K = 85 -> 73 sharpening banked as a dated addendum citing the
+closure. CLUSTER C (PMA ladder): 5 PROVED nodes; petal_mixed
+statement/conditional wave-9 pin bodies as addenda; crosswalk
+paragraph (the M=4,t=3 tail = ONE guarded split-divisor atom, LS6;
+no new l1 open content). CLUSTER D: HGE4 contract files verbatim +
+node refs wired (its contract verifier now PASS, 441 monotonicity
+cases). DAG: +10 PROVED nodes, +21 edges, band_closure stays
+TARGET, packaging/list_safe guards asserted. Manifest 201/10/364;
+spot replays green (cyclic, pole floor, weight-6, complement
+slice, HGE4). DEFERRED per audit: f3_h3 pair (awaits the wave-8
+cluster-A audit), weight-5 streaming (in flight). Wave-10 queue:
+d4e37c9a+ (7+ rate-half safe-side commits). Modal re-pin next.

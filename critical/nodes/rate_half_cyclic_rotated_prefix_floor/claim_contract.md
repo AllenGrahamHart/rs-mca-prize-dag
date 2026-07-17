@@ -12,3 +12,8 @@
 - **Falsifier:** a variable coefficient outside `(a_0,...,a_(d-1))` appearing
   in degree at least `k`, more than `N` possible constant terms, a root created
   or lost by the cyclic reduction on `D`, or failure of `(CR3)` at `q=2^256`.
+
+> QUANTIFIER UPDATE (wave-9, 2026-07-17): the band quantifier extends to
+> 1 <= sigma <= sigma_max = 8,594,128,895 via the s = c-1 lemma
+> (s-independence of the count); the sigma* form above is the historical
+> first statement.

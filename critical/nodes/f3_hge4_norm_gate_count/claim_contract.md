@@ -10,6 +10,10 @@
   square-shift normal form, x83 obstruction gate, and the HGE4 assembly
 - **new open content:** a uniform aggregate count of p-specific minimal
   norm-gate records
+- **posedness debt:** the U2-boundary and DLI/skew deletion predicates are
+  named by the consumer but lack operational in-repo definitions; use RAW-NG
+  for a definition-independent proof, and do not certify a stripped
+  counterexample until both predicates are positively implemented
 - **falsifier:** a certified complete row or transported slice with stripped
   aggregate greater than `14n^3`
 - **proof route:** first attempt the stronger strip-free raw bound in

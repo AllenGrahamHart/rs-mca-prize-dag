@@ -171,12 +171,14 @@ def log2_bigint(value: int) -> float:
 
 def cap_arithmetic() -> tuple[int, int, float, float, float]:
     n, k = 1 << 41, 1 << 40
-    sigma = 8_592_912_738
+    old_sigma = 8_592_912_738
     c = 1 << 22
-    d, s = divmod(sigma, c)
+    d, s = 2048, c - 1
+    sigma = d * c + s
     quotient_size = n // c
     m = k // c + d
-    assert (d, s, quotient_size, m) == (2048, 2_978_146, 524_288, 264_192)
+    assert (sigma, quotient_size, m) == (8_594_128_895, 524_288, 264_192)
+    assert old_sigma + 1 <= sigma
 
     count = comb(quotient_size - 1, m)
     left = count << 128

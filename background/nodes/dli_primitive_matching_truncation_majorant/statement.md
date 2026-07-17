@@ -54,3 +54,10 @@ This replaces the fenced relaxation `I<=exp(W_full)` by the first rigorous
 support-conflict correction. The intermediate truncated exponential remains
 a valid but weaker bound. This node does not assert `(MT4)`, bound the full
 raw ledgers, prove C2'', or close B-WEAK.
+
+## SHARPENING (wave-9 w9-C8, 2026-07-17): K = 85 -> 73
+
+With the (2,6) closure (dli_wcl_ell2_weight6_recursive_norm_exclusion,
+req-wired), the ell=2 truncation cap sharpens to K = floor(512/7) = 73.
+The K = 85 form above remains valid (larger K is weaker); this addendum
+records the justified sharpened constant.

@@ -249,3 +249,12 @@ The route survives, but a blind production sweep is not selected: sampled
 order-`1024` norm pairs took `28.2--44.7` seconds. The next theorem should
 batch candidates, exploit the small-prime support, or quotient the
 pair-product space further before dispatching `1.55` million norm pairs.
+
+---
+
+## WEIGHT-6 RECURSIVE-NORM CLOSURE + FOUR-SLOT RESIDUAL (wave-9 audited, 2026-07-17; appended — v4's two in-place tense edits of history text above are NOT taken, w9-C6)
+
+Slot (2,6) is CLOSED on every official row: the recursive-norm certificate covers all 404,740 quotient orbits (404,230 nonzero saturated norm gcds — 443 certified prime roots, max v_2(p-1) = 18 < 41; 510 structural double-zero cases = exactly the antipodal-mirror family c = 512+a+b; 3,163 complete batches; zero worker errors). Independently reproduced at the wave-9 audit (census, digests on Modal, Pocklington graph, valuation spot checks).
+
+THE RESIDUAL OF RECORD IS NOW FOUR SLOTS: (1,5), (1,6), (2,7), (4,9).
+(1,5): the streaming terminal weight-five norm sweep is in flight (no claims yet; pilot max_v2 = 21).

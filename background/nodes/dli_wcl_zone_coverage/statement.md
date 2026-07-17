@@ -61,3 +61,12 @@ The proved `dli_wcl_ell2_weight6_triple_cubic_router` reduces the next slot
 Each candidate has two explicit division-free cyclotomic norm obstructions.
 No candidate census or factor exclusion is yet claimed, so the five-slot
 equivalence and WCL-ZONE status do not change.
+
+## SPLIT-16 ROUTE CUT (2026-07-16)
+
+The proved `dli_wcl_ell2_weight6_split16_counterfixture` gives an exact
+reduced antipodal-free order-1024 six-set in `GF(65537)` satisfying both odd
+moments. Since `v_2(65537-1)=16`, exact order-1024 splitting alone does not
+exclude `(ell,w)=(2,6)`. The fixture is not official (`16<41`), so the
+five-slot frontier is unchanged; a closing norm or ideal theorem must retain
+the full official ambient valuation.

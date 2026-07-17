@@ -57,3 +57,12 @@ witness through the full residual band
 ```
 
 This theorem makes no MCA/CA claim and no safe-side list claim.
+
+## MAXIMAL-PREFIX INSTANTIATION (wave-9 audited, 2026-07-17)
+
+The s = c-1 instantiation: the cyclic construction's count is
+s-INDEPENDENT, so the maximal prefix realizes the same deep list at
+excess sigma_max = sigma_0 = 8,594,128,895 — the proved unsafe band is
+1 <= sigma <= sigma_max (superseding the former sigma* upper end as the
+proved reach; sigma* history preserved above). Verifier updated to the
+pin version (cap arithmetic with the old_sigma+1 <= sigma assert).

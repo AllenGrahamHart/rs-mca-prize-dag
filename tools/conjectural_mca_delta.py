@@ -6,9 +6,10 @@ critical-DAG program:
 
     C = RS[F, L, k]  |F| = q, |L| = n  ->  delta_C^*
 
-The output is conditional, not a proof artifact.  It assumes the remaining
+The output is conditional, not a proof artifact. It assumes the remaining
 critical DAG leaves needed by mca_safe / adjacency_closing / mca_grand close in
-their CURRENT re-posed form.  Under those assumptions, the adjacent certificate is
+their current re-posed form. Under those assumptions, the clean-rate adjacent
+certificate is
 
     B_C(a* - 1) > floor(q / 2^128) >= B_C(a*)
 
@@ -18,12 +19,17 @@ adding one to the numerator is also printed.
 Status note (2026-07-05): two leaf statements were re-posed after this tool was
 first written -- dli (sup formulation refuted; now the U-weighted-average / RES
 count) and the petal gates N/D/L (mid-stabilization; primitive-coordinate
-foundation out for definition).  These re-posings change the PROOF ROUTE, not the
-B_C counting bound this tool evaluates, so the delta VALUES here are unaffected;
-only the "close as stated" wording needed updating to "close in re-posed form".
+foundation out for definition). Those re-posings changed the proof route rather
+than the clean-rate counting expression. The later rate-half refutation below
+does change scope: that branch no longer returns a value.
 
-The computation is intentionally lightweight: it uses a monotone binary search
-and log-gamma evaluations, with no large binomial materialization.
+The former rate-half branch is retired. The proved maximal residual-prefix
+simple-pole floor makes its claimed safe point unsafe, independently of the
+remaining conjectures. No replacement rate-half map is printed until the
+field-dependent adjacent frontier is located.
+
+The clean-rate computation is intentionally lightweight: it uses a monotone
+binary search and log-gamma evaluations, with no large binomial materialization.
 """
 
 from __future__ import annotations
@@ -40,6 +46,7 @@ from typing import Any
 EPS_BITS = 128
 FIELD_BITS_CAP = 256
 MAX_K = 1 << 40
+RATE_HALF_UNSAFE_EXCESS_MAX = 8_594_128_895
 SUPPORTED_RATES = {
     Fraction(1, 2),
     Fraction(1, 4),
@@ -124,8 +131,6 @@ def rate_label(rate: Fraction) -> str:
 
 
 def branch_for_rate(rate: Fraction) -> str:
-    if rate == Fraction(1, 2):
-        return "rate_half_conjectural_band"
     return "clean_rate_conjectural_corridor"
 
 
@@ -144,10 +149,7 @@ def assumptions_for_rate(rate: Fraction) -> list[str]:
         "adjacency_closing_conditional_chain_sound",
         "crossing_localization_monotonicity_integrality_applies",
     ]
-    if rate == Fraction(1, 2):
-        assumptions.append("rate_half_band_closure_closes_as_stated")
-    else:
-        assumptions.append("clean_rate_corridor_closes_as_stated")
+    assumptions.append("clean_rate_corridor_closes_as_stated")
     return assumptions
 
 
@@ -340,6 +342,12 @@ def f_conj(
     """Return the conjectural maximal safe delta certificate for one row."""
     row = C if isinstance(C, CodeRow) else CodeRow.from_mapping(C)
     rate, warnings = validate_row(row, strict_admissible=strict_admissible)
+    if rate == Fraction(1, 2):
+        raise ValueError(
+            "rate-1/2 conjectural map retired: its former safe point is inside "
+            f"the proved unsafe interval through excess {RATE_HALF_UNSAFE_EXCESS_MAX}; "
+            "rate_half_band_closure now requires a field-dependent replacement"
+        )
     t_star = corridor_edge(row.n, row.k, row.log2_q)
     a_star = row.k + t_star
     return DeltaCertificate(
@@ -415,13 +423,20 @@ def run_self_test() -> None:
     n = 1 << 41
     log2_q = 255.9
     targets = {
-        Fraction(1, 2): 8592912739,
         Fraction(1, 4): 7014660390,
         Fraction(1, 8): 4722556392,
         Fraction(1, 16): 2943177800,
     }
     print("self-test: corridor edge t* at log2_q=255.9, n=2^41")
     ok = True
+    retired = corridor_edge(n, n // 2, log2_q)
+    retired_inside_floor = retired <= RATE_HALF_UNSAFE_EXCESS_MAX
+    ok &= retired == 8_592_912_739 and retired_inside_floor
+    print(
+        "  rate  1/2: historical t*="
+        f"{retired} RETIRED unsafe_through={RATE_HALF_UNSAFE_EXCESS_MAX} "
+        f"inside_proved_floor={retired_inside_floor}"
+    )
     for rate, expected in targets.items():
         row = CodeRow(
             n=n,
@@ -482,7 +497,7 @@ def make_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--self-test",
         action="store_true",
-        help="reproduce the banked n=2^41, log2(q)=255.9 corridor table",
+        help="replay clean-rate table and the refuted historical rate-half candidate",
     )
     return parser
 
@@ -493,8 +508,11 @@ def main() -> None:
     if args.self_test:
         run_self_test()
         return
-    row = build_row_from_args(args)
-    cert = f_conj(row, strict_admissible=args.strict_admissible)
+    try:
+        row = build_row_from_args(args)
+        cert = f_conj(row, strict_admissible=args.strict_admissible)
+    except ValueError as exc:
+        parser.error(str(exc))
     adjacent_errors = cert.adjacent_check_errors()
     if args.verify_adjacent and adjacent_errors:
         for error in adjacent_errors:

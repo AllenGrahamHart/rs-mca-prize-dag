@@ -66,3 +66,23 @@ certifies the full band list-unsafe under the exact condition
 by about 21% without changing the MCA target. At the cap the same exact audit
 returns to the known `C(127,64)` supply and the `4.8285...`-bit gap, so no cap
 claim is made.
+
+> [w9-C5 NOTE 2026-07-17: v4 edited a prior execution-log block in place ('This closes the list branch, not the red node.' was reworded); log blocks are append-only — the original sentence stands as written in master's copy above; v4's 2026-07-17 blocks follow.]
+# Quality gate: rate_half_band_closure
+
+The old fixed crossing failed a consumer-backward audit. Any replacement must
+pass all of the following gates.
+
+1. **Row scope:** `n=2^41`, `k=2^40`, `2^128<q<2^256`, and `n|(q-1)`.
+2. **Exact denominator:** compare integer bad-slope counts with
+   `B*=floor(q/2^128)`.
+3. **Lower bracket:** respect the proved unsafe interval through excess
+   `8,594,128,895`.
+4. **Safe split:** bound both the far-pair CA and sparse mutual numerators;
+   neither may be silently omitted.
+5. **Adjacency:** prove safety at `a` and strict unsafety at `a-1` for the same
+   field-dependent `a`.
+6. **No surrogate:** an ordinary-list threshold, an averaged list count, or a
+   heuristic corridor margin is not an MCA upper certificate.
+
+The node stays TARGET until one printed `a_RH(q)` satisfies every gate.

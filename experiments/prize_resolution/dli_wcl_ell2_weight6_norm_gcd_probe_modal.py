@@ -5,11 +5,15 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from random import Random
 
 import modal
 
 
 OUTPUT = Path(__file__).with_name("dli_wcl_ell2_weight6_norm_gcd_probe_result.json")
+RANDOM_OUTPUT = Path(__file__).with_name(
+    "dli_wcl_ell2_weight6_random_adversary_result.json"
+)
 app = modal.App("rs-mca-dli-wcl-ell2-weight6-norm-gcd-probe")
 image = modal.Image.debian_slim().pip_install("python-flint")
 factor_image = modal.Image.debian_slim().apt_install("pari-gp")
@@ -31,6 +35,130 @@ def candidate_exponents(order: int) -> list[tuple[int, int, int]]:
         and candidate[0] != candidate[1]
         and (candidate[0] - candidate[1]) % order != half
     ]
+
+
+def random_candidate_exponents(
+    order: int, count: int, seed: int
+) -> list[tuple[int, int, int]]:
+    rng = Random(seed)
+    half = order // 2
+    rows: set[tuple[int, int, int]] = set()
+    while len(rows) < count:
+        x, y, d = (rng.randrange(order) for _ in range(3))
+        if x in (0, half) or y in (0, half):
+            continue
+        if x == y or (x - y) % order == half:
+            continue
+        rows.add((x, y, d))
+    return sorted(rows)
+
+
+@app.function(image=image, cpu=1, memory=1024, timeout=120, max_containers=32)
+def same_embedding_test(
+    payload: tuple[tuple[int, int, int], tuple[int, ...]]
+) -> dict[str, object]:
+    exponents, primes = payload
+
+    def prime_factors(value: int) -> list[int]:
+        factors = []
+        divisor = 2
+        while divisor * divisor <= value:
+            if value % divisor == 0:
+                factors.append(divisor)
+                while value % divisor == 0:
+                    value //= divisor
+            divisor += 1
+        if value > 1:
+            factors.append(value)
+        return factors
+
+    def primitive_root(prime: int) -> int:
+        factors = prime_factors(prime - 1)
+        for candidate in range(2, prime):
+            if all(
+                pow(candidate, (prime - 1) // factor, prime) != 1
+                for factor in factors
+            ):
+                return candidate
+        raise AssertionError("primitive root not found")
+
+    order = 1024
+    rows = []
+    for prime in primes:
+        assert (prime - 1) % order == 0
+        omega = pow(primitive_root(prime), (prime - 1) // order, prime)
+        subgroup = [pow(omega, exponent, prime) for exponent in range(order)]
+        subgroup_set = set(subgroup)
+        exponent_of = {value: exponent for exponent, value in enumerate(subgroup)}
+        embedding_hits = []
+        guarded_hits = []
+        for dilation in range(1, order, 2):
+            x = pow(omega, dilation * exponents[0], prime)
+            y = pow(omega, dilation * exponents[1], prime)
+            d = pow(omega, dilation * exponents[2], prime)
+            u = (1 + x + y) % prime
+            if u == 0:
+                continue
+            a_value = (x + y + x * y) % prime
+            b_value = x * y % prime
+            w_value = (u * a_value - b_value - d) % prime
+            sigma = -(u * u) % prime
+            theta = u * w_value % prime
+            product_value = pow(u, 3, prime) * d % prime
+            u_power = u
+            power = 1
+            while power < order:
+                old_sigma, old_theta, old_product = sigma, theta, product_value
+                sigma = (old_sigma * old_sigma - 2 * old_theta) % prime
+                theta = (
+                    old_theta * old_theta - 2 * old_product * old_sigma
+                ) % prime
+                product_value = old_product * old_product % prime
+                u_power = u_power * u_power % prime
+                power *= 2
+            first = (sigma - 3 * u_power) % prime
+            second = (theta - 3 * u_power * u_power) % prime
+            if first or second:
+                continue
+            embedding_hits.append(dilation)
+
+            c_value = w_value * pow(u, -1, prime) % prime
+            roots = [
+                z
+                for z in subgroup
+                if (pow(z, 3, prime) + u * z * z + c_value * z - d)
+                % prime
+                == 0
+            ]
+            first_triple = {1, x, y}
+            root_set = set(roots)
+            union = first_triple | root_set
+            guarded = (
+                len(first_triple) == 3
+                and len(root_set) == 3
+                and first_triple.isdisjoint(root_set)
+                and len(union) == 6
+                and all((-value) % prime not in union for value in union)
+                and root_set <= subgroup_set
+            )
+            if guarded:
+                assert sum(union) % prime == 0
+                assert sum(pow(value, 3, prime) for value in union) % prime == 0
+                guarded_hits.append(
+                    {
+                        "dilation": dilation,
+                        "union_exponents": sorted(exponent_of[value] for value in union),
+                    }
+                )
+        rows.append(
+            {
+                "prime": str(prime),
+                "v2_prime_minus_1": (prime - 1 & -(prime - 1)).bit_length() - 1,
+                "embedding_hits": embedding_hits,
+                "guarded_hits": guarded_hits,
+            }
+        )
+    return {"exponents": list(exponents), "rows": rows}
 
 
 @app.function(image=image, cpu=2, memory=4096, timeout=600, max_containers=32)
@@ -203,17 +331,30 @@ def factor_gcd(value_text: str) -> dict[str, object]:
 
 
 @app.local_entrypoint()
-def main(factor_only: bool = False) -> None:
+def main(
+    factor_only: bool = False,
+    random_count: int = 0,
+    seed: int = 20260716,
+) -> None:
     if factor_only:
-        result = json.loads(OUTPUT.read_text())
+        source = RANDOM_OUTPUT if random_count else OUTPUT
+        result = json.loads(source.read_text())
         rows = result["rows"]
     else:
-        orders = (64, 128, 256, 512, 1024)
-        payloads = [
-            (order, candidate)
-            for order in orders
-            for candidate in candidate_exponents(order)
-        ]
+        if random_count:
+            payloads = [
+                (1024, candidate)
+                for candidate in random_candidate_exponents(
+                    1024, random_count, seed
+                )
+            ]
+        else:
+            orders = (64, 128, 256, 512, 1024)
+            payloads = [
+                (order, candidate)
+                for order in orders
+                for candidate in candidate_exponents(order)
+            ]
         remote_rows = list(norm_gcd.map(payloads, return_exceptions=True))
         rows: list[dict[str, object]] = []
         for payload, row in zip(payloads, remote_rows):
@@ -230,7 +371,13 @@ def main(factor_only: bool = False) -> None:
                 rows.append(row)
         result = {
             "schema": "dli-wcl-ell2-weight6-norm-gcd-probe-v1",
-            "scope": "route benchmark only; deterministic candidates, not a certificate",
+            "scope": (
+                "route falsification sample only; deterministic random candidates, not a certificate"
+                if random_count
+                else "route benchmark only; deterministic candidates, not a certificate"
+            ),
+            "random_count": random_count,
+            "seed": seed if random_count else None,
             "rows": rows,
         }
 
@@ -252,7 +399,37 @@ def main(factor_only: bool = False) -> None:
         else:
             factor_rows.append(row)
     result["factor_rows"] = factor_rows
-    OUTPUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    factor_map = {row["gcd"]: row for row in factor_rows}
+    same_embedding_payloads = []
+    for row in rows:
+        factor_row = factor_map.get(str(row.get("u_saturated_gcd", "")))
+        if not factor_row:
+            continue
+        primes = tuple(
+            int(factor["prime"])
+            for factor in factor_row.get("factors", [])
+            if int(factor["v2_prime_minus_1"]) >= 11
+        )
+        if primes:
+            same_embedding_payloads.append((tuple(row["exponents"]), primes))
+    remote_same = list(
+        same_embedding_test.map(same_embedding_payloads, return_exceptions=True)
+    )
+    same_embedding_rows = []
+    for payload, row in zip(same_embedding_payloads, remote_same):
+        if isinstance(row, BaseException):
+            same_embedding_rows.append(
+                {
+                    "exponents": list(payload[0]),
+                    "status": "REMOTE_ERROR",
+                    "error": repr(row),
+                }
+            )
+        else:
+            same_embedding_rows.append({"status": "COMPLETE", **row})
+    result["same_embedding_rows"] = same_embedding_rows
+    destination = RANDOM_OUTPUT if random_count else OUTPUT
+    destination.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     completed = [row for row in rows if row["status"] == "COMPLETE"]
     print(
         "DLI_WCL_ELL2_WEIGHT6_NORM_GCD_PROBE "
@@ -290,6 +467,19 @@ def main(factor_only: bool = False) -> None:
                         for factor in row.get("factors", [])
                     ),
                     default=0,
+                ),
+                "same_embedding_cases": sum(
+                    len(row.get("rows", [])) for row in same_embedding_rows
+                ),
+                "same_embedding_hits": sum(
+                    len(prime_row["embedding_hits"])
+                    for row in same_embedding_rows
+                    for prime_row in row.get("rows", [])
+                ),
+                "guarded_hits": sum(
+                    len(prime_row["guarded_hits"])
+                    for row in same_embedding_rows
+                    for prime_row in row.get("rows", [])
                 ),
             },
             sort_keys=True,
