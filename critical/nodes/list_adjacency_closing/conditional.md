@@ -78,3 +78,16 @@ retained here as history; rate_half_band_closure itself stays TARGET on
 its remaining MCA/CA half (which this packet does NOT consume — the
 MCA-side hypotheses are unchanged, see the trigger-separation guard in
 that node's statement addendum).
+
+---
+
+## CORRECTION to the predicate swap above (2026-07-17, w9-C3)
+
+"The list-side hypothesis is discharged" OVERCLAIMS: the PROVED cyclic
+floor supplies only the UNSAFE side of the rate-half list crossing; the
+SAFE side has no owner post-swap (the "banked safe side above sigma*"
+was planning prose — w9-C2). Until a safe-side theorem lands, this
+packet's claim for the rate-half row is BRACKET-GRADE (unsafety proved
+through sigma_0; crossing location open). The req wiring stands (the
+floor is a genuine hypothesis-supplier); what changes is the claim
+scope recorded here.

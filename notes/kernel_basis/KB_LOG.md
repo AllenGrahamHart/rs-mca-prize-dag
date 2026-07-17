@@ -2156,3 +2156,44 @@ sentence scoped). QUALITY certs pure-append taken. Manifest
 189/9/343; A+B re-pin was 166/166 complete; final full re-pin next.
 Wave-9 queue: the deferred C36 cluster (17 f3_h3 nodes,
 pre-registered expectations) + Codex post-ae2e5dd5.
+
+## 81 — 2026-07-17: WAVE-9 AUDIT BANKED (pin 4442ffd5; w9-C1..C10 =
+## catches #227-#236) + the w9-C2/C3 self-corrections APPLIED
+
+VERDICTS: CLUSTER 1 (rate-half MCA) IMPORT-WITH-REPAIRS — the
+"close" was NEITHER a closure NOR a conditional reduction: v4's own
+scope audit reverted it 8 minutes later (the "banked safe side above
+sigma*" was PLANNING PROSE), and the s=c-1 lemma then REFUTED the
+fixed crossing (the cyclic count is s-independent; sigma_0 =
+8,594,128,895 > sigma*+1 also unsafe; exact simple-pole conversion
+E(q,L) > 2^-83 hand-traced, constants reproduced). rate_half_band_
+closure stays TARGET, re-posed (RH-ADJ): field-dependent a_RH(q) >=
+k+8,594,128,896 with B_mca straddling floor(q/2^128). NO new
+TARGETs minted (dli_harmonic_conductor_ledger does not exist);
+guard (b) PASS (no trigger surrogate; verifier proves L < (q-n)/k).
+SELF-CORRECTIONS APPLIED NOW (forced): #228/w9-C2 — our wave-8
+"list crossing DETERMINED" addendum was an OVERCLAIM (unsafe side
+proved through sigma_0; safe side OPEN, field-dependent; crossing
+NOT determined) — correction addendum on rate_half_band_closure;
+#229/w9-C3 — "list-side hypothesis discharged" overclaimed
+(the floor supplies only the UNSAFE side; safe side has NO owner
+post-swap) — list_adjacency_closing claim scope marked
+bracket-grade for the rate-half row; req wiring stands. THE THIRD
+externally-triggered self-correction (#212, then these) — the
+cross-audit loop keeps working. CLUSTER 2: WCL SLOT (2,6) CLOSED
+(quotient/saturation/double-zero sound; 404,740 orbits + 3,163
+batch digests + Pocklington graph ALL independently reproduced;
+510 structural = exactly the antipodal-mirror family) — residual
+will be FOUR slots (1,5),(1,6),(2,7),(4,9) on import; hygiene
+repairs w9-C6/C7/C8. CLUSTER 3: PMA tail ladder IMPORT-WITH-REPAIRS
+(custody only; five nodes hand-traced; the M=4,t=3 tail is now ONE
+guarded split-divisor atom; no change to the l1 red's open-content
+sentence). CLUSTER 4: HGE4 contract repair IMPORT-CLEAN; two f3_h3
+nodes DEFERRED (depend on unaudited wave-8 cluster A); weight-5
+streaming = in-flight infra, DEFER (pre-registered: pilot
+max_v2=21). DAG DELTA CLEAN: 12 new nodes all PROVED, zero net
+status flips, no auto_discharge sweep; the one transient band_
+closure flip was manual and self-corrected in-range. IMPORT
+EXECUTION AWAITS THE MAINTAINER'S GO (per "don't integrate yet");
+the surgery spec is complete in WAVE9_AUDIT_FINDINGS.md. Wave-10
+queue: 7 post-pin rate-half commits at d4e37c9a+.

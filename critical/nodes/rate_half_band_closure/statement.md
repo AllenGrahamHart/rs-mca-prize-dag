@@ -32,3 +32,20 @@ only (trigger ~ q/k). GUARD (verbatim, audited): any MCA-side argument
 must not reuse the list threshold q/2^128 as an MCA surrogate — the two
 triggers are different objects (separation measured:
 notes/rate_half_trigger_separation_modal.py).
+
+## [CORRECTION to the wave-8 addendum above (2026-07-17, w9-C2 — our
+## own overclaim, caught by the wave-9 audit via v4's scope audit)]
+
+The sentence "With the banked safe side, the rate-1/2 LIST crossing is
+DETERMINED" is WITHDRAWN. The "banked safe side above sigma*" was
+planning prose, not an in-repo theorem (the Paper D pincer stops at
+half distance; r2_clean_rates excludes rate 1/2), and the s = c-1
+instantiation of the cyclic floor proves list-unsafety THROUGH
+sigma_0 = 8,594,128,895 > sigma*. Corrected state: the LIST UNSAFE
+side is proved through sigma_0 (the cyclic floor node, strengthened);
+the LIST SAFE side is OPEN (field-dependent); the crossing is NOT
+determined. The retirement claim narrows accordingly: what is retired
+is the unsafety obligation on the band, not the crossing location.
+This node's own open content remains the MCA/CA half — now re-posed by
+the audited v4 work as (RH-ADJ): find field-dependent a_RH(q) >=
+k + 8,594,128,896 with B_mca(a_RH) <= floor(q/2^128) < B_mca(a_RH - 1).
