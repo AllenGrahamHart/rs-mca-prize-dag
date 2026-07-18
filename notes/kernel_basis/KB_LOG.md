@@ -2227,3 +2227,44 @@ spot replays green (cyclic, pole floor, weight-6, complement
 slice, HGE4). DEFERRED per audit: f3_h3 pair (awaits the wave-8
 cluster-A audit), weight-5 streaming (in flight). Wave-10 queue:
 d4e37c9a+ (7+ rate-half safe-side commits). Modal re-pin next.
+
+## 83 — 2026-07-18: WAVE-10 AUDIT BANKED (v4 pin 899326a8, v5 pin
+## d5a89194; catches w10-C1..C8/H1..H5/X1..X4 = #237-#253) — THE
+## RATE-HALF MCA CROSSING IS DETERMINED BELOW 2^167
+
+THE HEADLINE (clusters 1+2, fully audited, unconditional): for
+EVERY admissible field 2^128 < q < 2^167, the rate-half MCA
+crossing is DETERMINED by the exact formula a_RH(q) = n -
+floor(q/2^128) + 1. Composition (each leg audited): the wave-6
+quadratic staircase equality covers B <= B_Q = 389,500,552,609
+(~2^166.5); the (RQ4) equivalence reduces B_Q < B <= 2^39+1 to the
+single far-CA bound; the Hankel suite's unconditional layer
+B_ca^far(n-r) <= r+1 (all r <= 2^39-2) supplies it; the universal
+coordinate-tangent family supplies the adjacent unsafe witness
+(in-repo since wave-6 — wave-9's demanded "new lower family"
+already existed). The PR4 q >= 2^168 caveat is BYPASSED below
+2^167. EXACT (RH-ADJ) RESIDUAL: budgets 2^39 and 2^39+1 (strict
+A=3 slivers + A=1 rows); beyond 2^167, brackets a_RH in [k+2^34,
+3n/4 or n]. 19/19 verifiers + 25/25 independent checks incl. an
+own-convention exhaustive MCA toy; arc CLEAN (zero v4 flips, no
+in-range weakening, no trigger surrogate). ALSO: v5 branched from
+MASTER (not v4; 17 unique commits): the LIST safe side is now
+OWNED (new TARGET pose answering w9-C3); the exact-integer Johnson
+anchor PROVED (digits match); the LIST crossing DETERMINED for
+budgets 1,2 (a_L = 3n/4); the cyclic floor re-instantiation
+(c=2^33, d=1) DOUBLES the unsafe reach to excess 2^34-1. XR: 5
+nodes sound, rank-2 first-match audit PARTIALLY PAID (chart caps
+<= 8 coords), no #158 pattern. PACKAGING FORENSICS: v5's 143de622
+flipped packaging + a descriptor node -> BOTH REFUSED (manual
+close reversing master's recorded ev-demotion + in-place statement
+narrowing; NOT auto_discharge — but master's own auto_discharge.py
+still carries the w8-C10 dead-regression bug = w10-C3, fix owed).
+The descriptor CONTENT is genuinely responsive to master's queue —
+import as content, flip stays refused. C36: v4 energy endpoint
+sound + dependency-clean; two nodes deferred with cluster A; v5's
+C36 chain has ZERO cluster-A deps (clean); node-id collision
+hazard w10-C8. Weight-5 (1,5): did NOT complete (128/2.3M partial
+prefix; expectations stand). DAG DELTAS: v4 +26 all PROVED zero
+flips; v5 +10 (9 PROVED, 1 TARGET), 2 flips REFUSED, 3 req->ev
+demotions surfaced (w10-C6). IMPORT EXECUTION AWAITS THE GO;
+surgery spec complete in WAVE10_AUDIT_FINDINGS.md.
