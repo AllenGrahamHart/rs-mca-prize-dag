@@ -2313,3 +2313,38 @@ statements into rate_half_band_closure.refs — files verified present
 before wiring). All three failures were wiring/environment; the
 mathematics replayed green throughout. FINAL: 238/238 PASS,
 complete. Manifest 238/10/429 stands.
+
+## 86 — 2026-07-18: WAVE-11 AUDIT BANKED (pin b8366bca; w11-C1..C5 =
+## catches #254-#258) — budgets {1,2} become a COMPLETE list-prize
+## determination (all arities); budget 3 = 13 chambers, honestly open
+
+VERDICTS: everything IMPORT-CLEAN (14 new nodes ALL PROVED, zero
+flips, zero collisions; 29/29 replays + 41/41 independent checks).
+CLUSTER 1: rate_half_list_low_budget_all_arity_crossing upgrades
+the wave-10 ordinary-list (m=1) determination to EVERY common-
+support interleaving arity m >= 1 at the same crossing a_L = 3n/4,
+resting only on master-PROVED nodes (exact-crossing + the
+interleaving collapse L1 <= 2 => L1^2 < q) — budgets B* in {1,2}
+at all official fields are now a COMPLETE list-prize determination.
+Fail-closed certificate generator banked (8/8 refusals trip).
+CLUSTER 2: budget 3 NOT determined and never claimed — proved: any
+4-codeword witness at 3n/4-1 reduces via the six-matrix reduction
+-> split-pencil normal form -> Plucker gate to EXACTLY 13 chambers
+(9 split-unit Grassmann-line + 4 balanced scrolls with the
+rank-deficient branch EMPTY: det C = b01^2(L12L03-L02L13) != 0,
+auditor re-derived); fourth-member residue closed. BOTH censuses
+machine-enumerated AND independently re-enumerated (the #137
+completeness question answered positively). Remaining: official-
+subgroup arithmetic in the 13 chambers; a full budget-3 close moves
+the safe point by exactly ONE step (3n/4-1). CLUSTER 3: the TARGET
+pose unnarrowed, arc CLEAN (no wave-9-style walk-backs); both
+wave-10 refusals HOLD (zero status diffs on 717 shared nodes).
+CATCHES: #254/w11-C1 (custody): the v5 merge re-broke the
+QUALITY.md gate-3 constant line master restored at wave-10 — fix at
+import + flag to Codex; #255 duplicate req+ev edges; #256 the
+refused descriptor->packaging req edge persists v5-side (master
+must not adopt); #257 the w10-C4 ~40-file in-place set persists
+unreconciled v5-side; #258 dirty worktree + 2 post-pin commits
+(scroll primitives, "Reduce maximal budget-three fields") =
+wave-12 scope. IMPORT AWAITS THE GO; spec in
+WAVE11_AUDIT_FINDINGS.md.
