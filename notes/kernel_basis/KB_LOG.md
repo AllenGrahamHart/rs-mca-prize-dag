@@ -2412,3 +2412,17 @@ clean evidence and IS imported; the ratify-or-veto decision goes to
 the maintainer. #262: the audit's own procedural slip logged (one
 bare-python3 heredoc). Persisting v5-side residues (w11-C2/C3/C4,
 w10-C6) unchanged. Manifest refresh + spot replays green.
+
+## 90 — 2026-07-18: WAVE-12 RE-PIN 274/274 (verified before writing
+## this entry) — wave-12 closed at both layers
+
+First replay 273/1: the pose verifier contract grows with its node
+set (exact incoming-edge pin + per-node statement phrases), so
+wave-12's 4 new nodes broke the wave-11 contract. STANDING LESSON
+BANKED: rate_half_list_adjacent_crossing's verify.py + statement.md
+travel together with its node set — every wave that adds pose
+in-edges must take the pin pair in the same import. Fixed (pin
+verify.py + pin statement body appended per #104), contract PASS
+locally, full rerun 274/274 complete. Board unchanged otherwise;
+the #260 Modal-spend governance decision remains with the
+maintainer.
