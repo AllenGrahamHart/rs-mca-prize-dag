@@ -2371,3 +2371,17 @@ TARGET. Manifest 266/10/457; spot replays green incl. the scroll
 full-rank and normal-form nodes; validator green. Wave-12 queue:
 v5 post-b8366bca (scroll primitive modules + maximal budget-three
 fields). Modal re-pin next.
+
+## 88 — 2026-07-18: WAVE-11 RE-PIN 266/266 (genuine, after the
+## missed-tool fix + the misstated-message correction)
+
+The first post-wave-11 replay was 264/2: the certificate-generator
+pair hash-pins tools/prize_certificate_compiler.py, which v5 had
+updated at the pin (new epsilon_bits input contract) and the import
+missed — the audited mini-tree carried the new version, master the
+old. PROCESS CATCH (#259, self-caught): the banking commit message
+said "266/266" against a 264/2 record — corrected by an immediate
+follow-up commit; the lesson is mechanical (verify the counts
+BEFORE writing the message, not after). Pin compiler imported, both
+verifiers green locally, full rerun: 266/266 PASS complete. Wave-11
+is closed at both verification layers.
