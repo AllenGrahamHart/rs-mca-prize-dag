@@ -7074,7 +7074,7 @@
     "critical/nodes/rate_half_list_adjacent_crossing/frontier.md",
     "critical/nodes/rate_half_list_adjacent_crossing/verify.py"
    ],
-   "statement": "For every admissible official rate-1/2 row, with B*=floor(|F|/2^128) and ordinary worst-list size L_1(a), find a_L(C) such that L_1(a_L(C)) <= B* < L_1(a_L(C)-1). The complete branches B*=1,2 are now exact at a_L=3n/4. At the prize-max razor row the cyclic floor and exact-integer Johnson theorem prove k+2^34 <= a_L(C) <= a_IJ(C) on the remaining B*>=3 branches. Arbitrary constant interleaving arity is handled later by list_large_m_scope_closure.",
+   "statement": "For every admissible official rate-1/2 row, with B*=floor(|F|/2^128) and ordinary worst-list size L_1(a), find a_L(C) such that L_1(a_L(C)) <= B* < L_1(a_L(C)-1). The complete branches B*=1,2 are now exact at a_L=3n/4. At the prize-max razor row the cyclic floor and exact-integer Johnson theorem prove k+2^34 <= a_L(C) <= a_IJ(C) on the remaining B*>=3 branches. Arbitrary constant interleaving arity is handled later by list_large_m_scope_closure. || BUDGET-THREE BOUNDED EDGE GEOMETRY (wave-11 audited, 2026-07-18): budgets B* in {1,2} are now a COMPLETE list-prize determination at a_L = 3n/4 \u2014 every common-support interleaving arity m >= 1 (rate_half_list_low_budget_all_arity_crossing, resting on the exact-crossing node + the interleaving collapse L1 <= 2 => L1^2 < q). BUDGET 3: any hypothetical 4-codeword witness at the Johnson predecessor 3n/4 - 1 reduces (six-matrix reduction -> split-pencil normal form -> Plucker gate) to EXACTLY 13 chambers \u2014 9 base-field split-unit Grassmann-line chambers (exceptional degrees {3,4,5,6,8}) + 4 balanced Grassmann scrolls whose rank-deficient branch is EMPTY (det C = b01^2(L12 L03 - L02 L13) != 0); the fourth-member residue is closed; BOTH censuses machine-enumerated AND independently re-enumerated at audit. OPEN: official-subgroup arithmetic in the 13 chambers; a full close moves the safe endpoint by exactly ONE step \u2014 the proved B*=3 bracket [k+2^34, 3n/4] is NOT moved by this classification (w10-H5-mirror note). Full pin bodies in the node folder. PIN DETAIL (verifier contract): the reduction factors any witness into the six incidence types of 4-wise RS agreement matrices; the split-pencil normal form is A_k b_ij+A_i b_jk=A_j b_ik with entries of degree at most two; the Plucker gate is b_01b_23-b_02b_13+b_03b_12=0 with edge polynomials of degree at most four.",
    "attack_surface": "For B*>=3, strengthen the exact-integer Johnson safe anchor with rate-half image-fiber/profile structure and construct a matching unsafe predecessor, or move the unsafe floor upward until the bounds meet.",
    "falsifier": "An admissible rate-half received word with more than B* codewords at an asserted safe agreement.",
    "notes": "SCOPE REPAIR 2026-07-18: the list-adjacency packet admitted that the wave-8 cyclic prefix theorem supplies only unsafety, but no red safe-side owner was req-wired. The exact-integer Johnson theorem supplies a nontrivial safe bracket. Explicit predecessor constructions now close B*=1,2 exactly; B*>=3 remains the honest adjacent-crossing leaf. It is distinct from rate_half_band_closure, whose live RH-ADJ statement is MCA/CA."
@@ -7225,6 +7225,248 @@
     "background/nodes/f3_h3_double_accident_derivative_ideal/verify.py",
     "background/nodes/f3_h3_double_accident_derivative_ideal/verify_audit.py",
     "background/nodes/f3_h3_double_accident_derivative_ideal/result.md"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_intersection_reduction",
+   "title": "Budget-three rate-half list intersection reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Any four distinct codewords listed at agreement 3n/4-1 in a rate-half RS code have, up to codeword relabeling, one of six incidence types and give a pairwise-distinct kernel vector of an explicit 4-wise RS intersection matrix with 3k columns. Full column rank on those six fixed-subgroup types would prove predecessor safety. An exact RS[F_17,mu_8,4] rank-11/12 witness realizes one type, so pairwise MDS and Johnson arithmetic alone cannot close B*=3. No official crossing is claimed.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_intersection_reduction/statement.md",
+    "background/nodes/rate_half_list_budget_three_intersection_reduction/proof.md",
+    "background/nodes/rate_half_list_budget_three_intersection_reduction/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_intersection_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_intersection_reduction/audit.md",
+    "background/nodes/rate_half_list_budget_three_intersection_reduction/literature_scope.md",
+    "background/nodes/rate_half_list_budget_three_intersection_reduction/result.md",
+    "background/nodes/rate_half_list_budget_three_intersection_reduction/verify.py",
+    "background/nodes/rate_half_list_budget_three_intersection_reduction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_plucker_edge_gate",
+   "title": "Budget-three Plucker edge gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every B*=3 split-pencil witness has degree-at-most-two edge factors satisfying b_01 b_23-b_02 b_13+b_03 b_12=0. This degree-at-most-four identity is independent of the large block locators. It gives an explicit rank-two rational parameterization of all four block locators from two generators and an exact two-generator factorization R A_0 A_1 N_2 N_3=b_01^2 Lambda_D with deg R<=8. The bounded gate is proved but not classified.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_plucker_edge_gate/statement.md",
+    "background/nodes/rate_half_list_budget_three_plucker_edge_gate/proof.md",
+    "background/nodes/rate_half_list_budget_three_plucker_edge_gate/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_plucker_edge_gate/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_plucker_edge_gate/audit.md",
+    "background/nodes/rate_half_list_budget_three_plucker_edge_gate/result.md",
+    "background/nodes/rate_half_list_budget_three_plucker_edge_gate/verify.py",
+    "background/nodes/rate_half_list_budget_three_plucker_edge_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_path_mobius_transversal",
+   "title": "Budget-three path Mobius transversal",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every path-plus-singleton B*=3 split pencil is a coupled pair of constant pencils with injective Mobius-transversal complements. The degree-d pencil has exactly three fully domain-split members for d>=3, and the degree-(d-1) pencil has exactly three for d>=6. The order-eight singular witness is the sharp d=2 four-member exception. A separate d=4 power-of-two witness shows that exact-three does not exclude the path; existence on official rows remains open.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_path_mobius_transversal/statement.md",
+    "background/nodes/rate_half_list_budget_three_path_mobius_transversal/proof.md",
+    "background/nodes/rate_half_list_budget_three_path_mobius_transversal/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_path_mobius_transversal/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_path_mobius_transversal/audit.md",
+    "background/nodes/rate_half_list_budget_three_path_mobius_transversal/result.md",
+    "background/nodes/rate_half_list_budget_three_path_mobius_transversal/verify.py",
+    "background/nodes/rate_half_list_budget_three_path_mobius_transversal/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_split_fiber_atlas",
+   "title": "Budget-three split-fiber atlas",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every B*=3 split-pencil witness lies in one of thirteen exact edge-degree chambers; the pendant type has at least one genuinely quadratic edge. Five of the six incidence types contain an explicit total of thirteen three-member constant split pencils. Each degree-d pencil uses three of at most four fully subgroup-split members, as does each degree-(d-1) pencil for d>=6. The cycle is the unique type with no deficit-free split pencil. The residual coupling and adjacent crossing remain open.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_split_fiber_atlas/statement.md",
+    "background/nodes/rate_half_list_budget_three_split_fiber_atlas/proof.md",
+    "background/nodes/rate_half_list_budget_three_split_fiber_atlas/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_split_fiber_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_split_fiber_atlas/audit.md",
+    "background/nodes/rate_half_list_budget_three_split_fiber_atlas/result.md",
+    "background/nodes/rate_half_list_budget_three_split_fiber_atlas/verify.py",
+    "background/nodes/rate_half_list_budget_three_split_fiber_atlas/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_split_pencil_normal_form",
+   "title": "Budget-three split-pencil normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every four-codeword rate-half witness at agreement 3n/4-1 factors into four disjoint omitted-triple locators A_i and six oriented edge factors b_ij satisfying A_k b_ij+A_i b_jk=A_j b_ik. The six incidence types give an exact degree ledger with deg b_ij<=2 and only three possible quadratic slots. The block, edge, singleton, and full locators factor the multiplicative-coset vanishing polynomial and obey an exact pair-locator product identity. This reduces B*=3 to a base-field-normalized split-pencil classification but does not exclude or construct such a pencil.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/statement.md",
+    "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/proof.md",
+    "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/audit.md",
+    "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/result.md",
+    "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/verify.py",
+    "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_low_budget_all_arity_crossing",
+   "title": "Exact all-arity rate-half list crossing at budgets one and two",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every official rate-half row with B*=floor(|F|/2^128) in {1,2}, and every common-support interleaving arity m>=1, the exact adjacent list crossing is L_m(3n/4)<=B*<L_m(3n/4-1). The safe equality follows from the proved sub-square-root interleaving collapse, while diagonal tuples preserve the explicit ordinary unsafe witness. Thus a_L=3n/4 and delta_L=1/4 uniformly in m. No larger-budget or MCA/CA claim is made.",
+   "refs": [
+    "background/nodes/rate_half_list_low_budget_all_arity_crossing/statement.md",
+    "background/nodes/rate_half_list_low_budget_all_arity_crossing/proof.md",
+    "background/nodes/rate_half_list_low_budget_all_arity_crossing/claim_contract.md",
+    "background/nodes/rate_half_list_low_budget_all_arity_crossing/dependency_subdag.md",
+    "background/nodes/rate_half_list_low_budget_all_arity_crossing/audit.md",
+    "background/nodes/rate_half_list_low_budget_all_arity_crossing/result.md",
+    "background/nodes/rate_half_list_low_budget_all_arity_crossing/verify.py",
+    "background/nodes/rate_half_list_low_budget_all_arity_crossing/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_low_budget_certificate_generator",
+   "title": "Low-budget rate-half list certificate generator",
+   "status": "PROVED",
+   "closure": "artifact semantics",
+   "statement": "The deterministic fail-closed generator maps an exact canonical rate-half row input with B*=floor(|F|/2^128) in {1,2} and an explicit LIST or INTERLEAVED_LIST selector to a self-contained prize-facing adjacent certificate. It records arity one or all positive common-support arities respectively, canonical descriptor and external preconditions, theorem provenance, proved ledgers, compiler input/output, safe agreement 3n/4, radius numerator n/4, and the unattained unsafe boundary n/4+1. Every unsupported rate, budget, object, or row shape is refused.",
+   "refs": [
+    "background/nodes/rate_half_list_low_budget_certificate_generator/statement.md",
+    "background/nodes/rate_half_list_low_budget_certificate_generator/proof.md",
+    "background/nodes/rate_half_list_low_budget_certificate_generator/claim_contract.md",
+    "background/nodes/rate_half_list_low_budget_certificate_generator/dependency_subdag.md",
+    "background/nodes/rate_half_list_low_budget_certificate_generator/audit.md",
+    "background/nodes/rate_half_list_low_budget_certificate_generator/result.md",
+    "background/nodes/rate_half_list_low_budget_certificate_generator/verify.py",
+    "background/nodes/rate_half_list_low_budget_certificate_generator/verify_audit.py",
+    "tools/rate_half_list_low_budget_certificate.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_path_power_two_witness",
+   "title": "Budget-three path witness on a power-of-two domain",
+   "status": "PROVED",
+   "closure": "exact finite certificate",
+   "statement": "Over RS[F_17,F_17^*,8], four explicit degree-less-than-eight codewords have exact agreement eleven with one word and realize the path-plus-singleton B*=3 incidence type. The 28 by 24 intersection matrix has rank 23. Thus the path survives at d=4 on a power-of-two multiplicative domain despite having exactly three first-pencil members. No official-scale transport is claimed.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_path_power_two_witness/statement.md",
+    "background/nodes/rate_half_list_budget_three_path_power_two_witness/proof.md",
+    "background/nodes/rate_half_list_budget_three_path_power_two_witness/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_path_power_two_witness/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_path_power_two_witness/audit.md",
+    "background/nodes/rate_half_list_budget_three_path_power_two_witness/result.md",
+    "background/nodes/rate_half_list_budget_three_path_power_two_witness/verify.py",
+    "background/nodes/rate_half_list_budget_three_path_power_two_witness/verify_audit.py",
+    "background/nodes/rate_half_list_budget_three_path_power_two_witness/notes/search_order16_proper.py",
+    "background/nodes/rate_half_list_budget_three_path_power_two_witness/notes/order16_proper_search_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_cycle_bimobius_transversal",
+   "title": "Budget-three 4-cycle bi-Mobius transversal",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every B*=3 4-cycle witness defines a rational map A_1/A_0 with complete fibers on T_0,T_1 and injective Mobius graph fibers on T_2,T_3. The Plucker identity gives their exact graph difference. Every further A_0,A_1 pencil member has at most six domain roots, so for d>=8 the pencil has exactly two fully domain-split degree-(d-1) members. The resulting primitive bi-Mobius map is not excluded.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/statement.md",
+    "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/proof.md",
+    "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/audit.md",
+    "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/result.md",
+    "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/verify.py",
+    "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_residual_transversal_atlas",
+   "title": "Budget-three residual transversal atlas",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The pendant, K_4-e, K_4, and triangle-plus-singleton branches have explicit Mobius or degree-two rational transversals. Together with the path theorem, all thirteen deficit-free pencils have exactly their three displayed fully domain-split members at official scale; the dense K_4-e and K_4 base pencils have exactly two. Hidden fourth members are eliminated, while simultaneous coupling with the official subgroup factorization remains open.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/statement.md",
+    "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/proof.md",
+    "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/audit.md",
+    "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/result.md",
+    "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/verify.py",
+    "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_k4_grassmann_line",
+   "title": "Budget-three K4 Grassmann-line compression",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In the all-linear K_4 chamber, the Plucker edge bivector is a projective line on Gr(2,4). The four degree-(d-2) block locators consequently satisfy one nondegenerate base-field constant relation with all coefficients nonzero, and their product misses the subgroup polynomial by exactly eight roots. The resulting four-term split-unit equation remains open.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_k4_grassmann_line/statement.md",
+    "background/nodes/rate_half_list_budget_three_k4_grassmann_line/proof.md",
+    "background/nodes/rate_half_list_budget_three_k4_grassmann_line/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_k4_grassmann_line/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_k4_grassmann_line/audit.md",
+    "background/nodes/rate_half_list_budget_three_k4_grassmann_line/result.md",
+    "background/nodes/rate_half_list_budget_three_k4_grassmann_line/verify.py",
+    "background/nodes/rate_half_list_budget_three_k4_grassmann_line/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_linear_grassmann_atlas",
+   "title": "Budget-three linear Grassmann atlas",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Exactly nine of the thirteen B*=3 edge-degree chambers are projective lines on Gr(2,4), giving nondegenerate base-field split-unit relations among the large locators with exact exceptional degrees 3,4,5,6,8. The remaining bounded-edge frontier is exactly the three pendant chambers and one K_4-e chamber with a quadratic edge.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/statement.md",
+    "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/proof.md",
+    "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/audit.md",
+    "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/result.md",
+    "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/verify.py",
+    "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_quadratic_scroll_atlas",
+   "title": "Budget-three quadratic scroll atlas",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The three quadratic pendant chambers and the quadratic K_4-e chamber are balanced Grassmann scrolls. Rank-deficient scrolls give nondegenerate base-field split-unit relations; every full-rank scroll is transformed by one constant base-field matrix to the module (alpha,Xalpha,beta,Xbeta). Together with the nine linear chambers, this completes the bounded edge-geometry classification.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/statement.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/proof.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/audit.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/result.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/verify.py",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_quadratic_scroll_full_rank",
+   "title": "Budget-three quadratic scrolls are full rank",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every one of the three quadratic pendant chambers and the quadratic K_4-e chamber has invertible balanced-scroll coefficient matrix. Its determinant is b_01^2(L_12 L_03-L_02 L_13), so the rank-deficient quadratic branch is empty and all four chambers have the full-rank module (alpha,Xalpha,beta,Xbeta).",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/statement.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/proof.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/audit.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/result.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/verify.py",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/verify_audit.py"
    ]
   }
  ],
@@ -14037,6 +14279,191 @@
   {
    "from": "f3_h3_double_accident_derivative_ideal",
    "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_intersection_reduction",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_intersection_reduction",
+   "to": "rate_half_list_budget_three_split_pencil_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_split_pencil_normal_form",
+   "to": "rate_half_list_budget_three_plucker_edge_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_plucker_edge_gate",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_split_pencil_normal_form",
+   "to": "rate_half_list_budget_three_split_fiber_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_split_fiber_atlas",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_split_fiber_atlas",
+   "to": "rate_half_list_budget_three_path_mobius_transversal",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_path_mobius_transversal",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_split_pencil_normal_form",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_low_budget_exact_crossing",
+   "to": "rate_half_list_low_budget_all_arity_crossing",
+   "kind": "req"
+  },
+  {
+   "from": "list_subsqrt_interleaving_collapse",
+   "to": "rate_half_list_low_budget_all_arity_crossing",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_low_budget_all_arity_crossing",
+   "to": "list_grand",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_low_budget_all_arity_crossing",
+   "to": "list_large_m_scope_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "descriptor",
+   "to": "rate_half_list_low_budget_certificate_generator",
+   "kind": "ev"
+  },
+  {
+   "from": "compiler",
+   "to": "rate_half_list_low_budget_certificate_generator",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_low_budget_exact_crossing",
+   "to": "rate_half_list_low_budget_certificate_generator",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_low_budget_all_arity_crossing",
+   "to": "rate_half_list_low_budget_certificate_generator",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_low_budget_certificate_generator",
+   "to": "list_grand",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_path_power_two_witness",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_plucker_edge_gate",
+   "to": "rate_half_list_budget_three_cycle_bimobius_transversal",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_split_fiber_atlas",
+   "to": "rate_half_list_budget_three_cycle_bimobius_transversal",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_cycle_bimobius_transversal",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_split_fiber_atlas",
+   "to": "rate_half_list_budget_three_residual_transversal_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_plucker_edge_gate",
+   "to": "rate_half_list_budget_three_residual_transversal_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_path_mobius_transversal",
+   "to": "rate_half_list_budget_three_residual_transversal_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_residual_transversal_atlas",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_plucker_edge_gate",
+   "to": "rate_half_list_budget_three_k4_grassmann_line",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_residual_transversal_atlas",
+   "to": "rate_half_list_budget_three_k4_grassmann_line",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_k4_grassmann_line",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_split_fiber_atlas",
+   "to": "rate_half_list_budget_three_linear_grassmann_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_k4_grassmann_line",
+   "to": "rate_half_list_budget_three_linear_grassmann_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_linear_grassmann_atlas",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_plucker_edge_gate",
+   "to": "rate_half_list_budget_three_quadratic_scroll_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_linear_grassmann_atlas",
+   "to": "rate_half_list_budget_three_quadratic_scroll_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_quadratic_scroll_atlas",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_quadratic_scroll_atlas",
+   "to": "rate_half_list_budget_three_quadratic_scroll_full_rank",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_quadratic_scroll_full_rank",
+   "to": "rate_half_list_adjacent_crossing",
    "kind": "ev"
   }
  ]

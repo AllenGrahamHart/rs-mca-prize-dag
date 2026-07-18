@@ -2348,3 +2348,26 @@ unreconciled v5-side; #258 dirty worktree + 2 post-pin commits
 (scroll primitives, "Reduce maximal budget-three fields") =
 wave-12 scope. IMPORT AWAITS THE GO; spec in
 WAVE11_AUDIT_FINDINGS.md.
+
+## 87 — 2026-07-18: WAVE-11 IMPORT EXECUTED — budgets {1,2} are a
+## COMPLETE all-arity list-prize determination on master; budget 3
+## = 13 chambers of record
+
+Per the go: 14 PROVED nodes imported (the all-arity crossing + the
+fail-closed certificate generator + the 12-node budget-three
+program), +37 edges (the descriptor edge imported as EV per
+w11-C6; duplicate-edge set w11-C2 NOT imported), the TARGET pose
+rate_half_list_adjacent_crossing carries the full pin statement
+body as a dated addendum (its grown verifier contract PASSES:
+statement pins for all 12 budget-three nodes + thresholds), dag
+statement appended with the determination + the w10-H5-mirror
+note (the classification does NOT move the proved B*=3 bracket).
+Conditional addenda on list_grand + list_large_m_scope_closure
+(B* in {1,2} delivered unconditionally at every arity; no status
+changes). The w11-C1 QUALITY re-break: master's copy retained the
+wave-10 restoration (the merge damage was v5-side only — verified,
+note stands). Guards held: packaging/list_safe CONDITIONAL, pose
+TARGET. Manifest 266/10/457; spot replays green incl. the scroll
+full-rank and normal-form nodes; validator green. Wave-12 queue:
+v5 post-b8366bca (scroll primitive modules + maximal budget-three
+fields). Modal re-pin next.

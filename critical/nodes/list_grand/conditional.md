@@ -50,3 +50,9 @@ the adjacent crossing.  Same three-rate pivot applies (list side mirrors:
 clean extras-zero margins at 1/4-1/16; the rate-1/2 band is a list-side
 object).  The m-quantifier is carried by `list_adjacency_closing` through
 `rules_m_reading`.
+
+## WAVE-11 ADDENDUM (2026-07-18)
+
+The rate-half low-budget list branches (B* in {1,2}) are delivered
+unconditionally at every arity (all-arity crossing node + fail-closed
+certificate generator, both PROVED, ev-wired). No status change.

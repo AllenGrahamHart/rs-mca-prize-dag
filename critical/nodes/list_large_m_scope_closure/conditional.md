@@ -38,3 +38,10 @@ L_m(a0)>=L_1(a0)>B*.
 Both inequalities hold at the same adjacent pair for every `m`. This proves
 the claimed implication. The codegree, support-census, and extension-field
 packets remain valid independent tools, but are not hypotheses of this close.
+
+## WAVE-11 ADDENDUM (2026-07-18)
+
+The B* in {1,2} branches are now UNCONDITIONALLY delivered at every
+common-support arity m >= 1 (rate_half_list_low_budget_all_arity_
+crossing, PROVED; ev-wired). No status change — the larger-budget
+branches remain as posed.

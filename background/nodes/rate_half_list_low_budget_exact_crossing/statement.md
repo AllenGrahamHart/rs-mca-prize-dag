@@ -38,3 +38,9 @@ put `i=zeta^d`, and partition `D` into the four fibers of
 predecessor.
 
 The theorem makes no assertion for `B>=3` and no MCA/CA assertion.
+
+## CONSUMER ADDENDUM (wave-11, 2026-07-18)
+
+Consumed by rate_half_list_low_budget_all_arity_crossing (req): the
+{1,2} determination extends to every common-support interleaving arity
+via the collapse L1 <= 2 => L1^2 <= 4 < q.
