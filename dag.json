@@ -3350,7 +3350,7 @@
    "title": "FLOOR CONJECTURE (BAND-DETERMINATION): the rate-1/2 band determination equals the first-moment prediction at every admissible razor row",
    "status": "TARGET",
    "key": true,
-   "statement": "FLOOR RE-POSE v2 (2026-07-07, floor campaign; v1 SIGN ERROR CAUGHT SAME DAY before any attack ran \u2014 v1 said 'every band radius is safe-side', but the primary docs (P6_RATEHALF_SIBLING.md) show the band is the UNDETERMINED stretch between the proved deficit side (quotient windows, reach 2^33) and the proved safe side (above sigma* = 8,592,912,738); the band is not conjectured-safe): CORRECTED FLOOR \u2014 at every admissible rate-1/2 row in the razor slice (log2 q in (255.900, 256), the only rows where the band is nonempty), the band determination equals the first-moment prediction: true counts B(sigma) track the first-moment model through the band (deficit up to the first-moment crossing, safe above), i.e. the WINDOW LAW holds at the band radii \u2014 no structural surplus (which would move the crossing down... up) and no anti-concentration failure (which would move it the other way). All three consumers (adjacency_closing, list_adjacency_closing, mca_safe) need exactly the located determination; the 'new priced mechanism' demand is route (a mechanism is how you CERTIFY the band, not what is true there). Pre-registered falsifier: scaled rate-1/2 band-analogue rows where exact counts at band-analogue radii deviate from the first-moment model beyond Poisson, sustained across >= 3 scales \u2014 EITHER direction fires it; mechanism failures (AQB, dihedral sibling) do NOT count. Opening evidence: window law verified at every band-analogue probed campaign-wide; both dead routes died as mechanisms, never as count anomalies. | Strong full-determination target: cover the rate-1/2 residual band 2^33 < sigma <= sigma* by a genuinely new priced mechanism. AQB and the dihedral/Chebyshev sibling window are both refuted. A bracket-grade obstruction for some band radius would be a creditable partial result, but it does not satisfy this node as consumed by adjacency_closing, list_adjacency_closing, or mca_safe. | SURVIVAL +1 (2026-07-07, F6-A2, notes/f6a2_fullscale_sweep_modal.py): the composite-family attack channel (nested two-scale quotient stacks, full razor sweep, mpmath dps=40) scores ZERO hits \u2014 empty at every razor row. Retained refinement: the band is lq-GRADED (width ~0 at lq=255.900 rising to 2,978,146 at the cap; reach interpolates above 2^33 mid-slice). A preliminary 'band is a fixed-sigma* artifact' hypothesis was raised and KILLED in classification (the swept crossing was the random-word mean, not the worst-word pincer object \u2014 sigma* provenance: generic pincer, pro_brief_razor.md). | SURVIVAL +2 (2026-07-07, crossing-fidelity family): 18/18 exact determination matches vs the first-moment prediction across a 9-point q-ladder at sigma = 1,2, including through the crossing transition \u2014 the BAND-DETERMINATION floor's location claim verified throughout its accessible regime. | SURVIVAL +3 -> **HARDENED** (2026-07-07): word-class anti-concentration absent (min counts Poisson-ordinary across 60 layouts x 3 q x 2 cells). Families: composite-stack sweep / crossing-fidelity / anti-concentration. | SURVIVAL +4 (2026-07-07, Pro floor-window 6): genuine engagement, no kill \u2014 razor arithmetic replayed exactly (incl. an errata catch: our 255.95 band-width log line mixed columns; correct width 1,667,426); the multi-word amortization surface CLOSED as pure averaging (avg > T forces max > T; pooling gain cancels under normalization \u2014 0 bits/fiber net, the AQB pattern); the pincer-at-cap route attempted without result and remains the floor's live open surface. | UPSTREAM DETERMINATION DATUM (2026-07-07, regime map, notes/correspondence/REGIME_MAP.md + nodes/rate_half_band_closure/notes/upstream_determination_datum.md): external crossing-fidelity evidence at n = 2^21 \u2014 upstream's four deployed adjacent pairs (KB MCA/list 1116047/1116046, M31 MCA/list 1116023/1116022) are first-moment crossing predictions (C(n,m) vs p^(m-K-s)*floor(q*eps), s = pencil shift) whose locations AND margins (22.197/22.011/3.259/3.073 bits) we replayed exactly by integer arithmetic. This is the floor's determination-location claim confirmed at a scale five orders beyond our q <= 1153 ladders (by upstream's proof, our replay). | WP5 KERNEL-BASIS VERDICT (2026-07-10, notes/kernel_basis/WP5_RATEHALF_VERDICT.md): does NOT conditionally close on row-sharp Q (side mismatch: the open content is deficit-side witnesses, no upper-bound theorem can cover a true-unsafe band; quantifier mismatch: K3's rows are n=2^21 extension fields vs the n=2^41 prime razor rows, transport NOTE-LEVEL). Own kernel minted: K5 razor-band witness kernel. Replay pinned sigma* = t*-1 = 8,592,912,738 exactly, cap reach 2^33 exact, band width 2,978,146; NEW open item OF THE FLOOR: the intended first-moment model is the worst-word/pincer object whose per-row crossing is not yet formalized (the random-word crossing is contradicted near the cap by the proved unsafe reach). || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/rate_half_band_closure/QUALITY.md || WITNESS-HUNT RECON (2026-07-12, the early WP7 lane \u2014 roadmap addendum r1 amendment 3; scripts + the validated Modal launcher banked at notes/witness_hunt_20260712/): GAP ANATOMY EXACT \u2014 the razor need is 2^127.90..2^128.00, the deduped qcore plateau supplies C(127,64) = 2^123.1714, deficit 4.73..4.83 bits, FLAT across all 2,978,146 band cells (no easier sub-cell); tangent supplies 2^39.99, planted 127 (catch #103: tangent, not planted, is the dominant secondary column \u2014 2^-88 of the need). THEOREM CAP: within the coset/dressing/perturbation universe the char-0 supply is capped at the plateau (Lam-Leung + NESTING \u2014 catch #102: order-2M cosets ARE pairs of order-M cosets, so multi-scale families dedup to C(127,64) ALONE; any sum-over-scales double-counts; verified in vivo, fiber = 3 = deduped not 4). NEW SUPPLY LAW (banked finding): for polynomial received words the complete list bijects with a truncated-locator moment-map fiber, and the generic-core law fiber = C(N-r, h) + Poisson background (r = cosets touched) holds EXACTLY in vivo \u2014 the banked one-coset core is optimal over the whole mechanism class. SEVEN candidate mechanisms triaged falsification-first: C1/C3/C4 re-params or dominated (exact bijections shown), C2 priced at O(1) vs 2^127.6 needed (divisor-quantized, satellite-29 phenomenology), C5/C6 vacuous at prime q, C7 = the killed dihedral route (NOT reopened; the fold arithmetic independently confirms the Pro T8 kill). WINDOW-LAW READ: first-moment + Poisson reproduced every count at 3 scales / ~200 primes / q to 2^40 including fine structure \u2014 the pre-registered falsifier's no-deviation direction. HONEST OPEN FLANK: non-polynomial received words (planted-hybrid at giant slack) are outside the fiber reduction and uncensused \u2014 the named residual hunt space. Sporadic escape hatch priced at ~2^-5.2 per razor row. || AMPLIFICATION FENCE (2026-07-12 wave-3; scope per catch #105): rate_half_multiplicative_amplification_floor PROVED \u2014 any multiplicative amplification route needs a factor ~2^91.85 at the slice top against the CAP PROXY (2^216 MCA-side trigger). SCOPE FACTS: the figure is q-GRADED (2^19.9 at lgq = 255.901, 2^2.6 at the slice bottom \u2014 exact computations banked) and it fences the NON-BINDING cap-proxy lane, not the binding eps* = 2^-128 list-side target (banked gap x28.4, kill line R1c) where the protection remains the mechanism kills. Dedup-safe (max over scales, catch #102); does not cut the pro-brief box-charge route; reopens nothing. || FIXED-CROSSING REFUTATION + RE-POSE (RH-ADJ) (wave-9 audited, 2026-07-17): the fixed rate-half crossing at sigma* is REFUTED (the cyclic count is s-independent; sigma_0 = 8,594,128,895 > sigma*+1 is also list-unsafe via the exact simple-pole conversion E(q,L) = L(q-n)/(q(q-n+kL)) > 2^-83). RE-POSED: find field-dependent a_RH(q) >= k + 8,594,128,896 with B_mca(a_RH) <= floor(q/2^128) < B_mca(a_RH - 1); safe side exactly = {B_ca^far <= B*, S_sparse <= B*} (proved lossless split; tangent absorbed for q >= 2^168). The LIST safe side is likewise OPEN (w9-C2 correction: the wave-8 'crossing DETERMINED' claim is withdrawn; unsafety proved through sigma_0). Full pose bodies + refutation.md in the node folder. [HISTORY: previous poses preserved in statement.md]",
+   "statement": "FLOOR RE-POSE v2 (2026-07-07, floor campaign; v1 SIGN ERROR CAUGHT SAME DAY before any attack ran \u2014 v1 said 'every band radius is safe-side', but the primary docs (P6_RATEHALF_SIBLING.md) show the band is the UNDETERMINED stretch between the proved deficit side (quotient windows, reach 2^33) and the proved safe side (above sigma* = 8,592,912,738); the band is not conjectured-safe): CORRECTED FLOOR \u2014 at every admissible rate-1/2 row in the razor slice (log2 q in (255.900, 256), the only rows where the band is nonempty), the band determination equals the first-moment prediction: true counts B(sigma) track the first-moment model through the band (deficit up to the first-moment crossing, safe above), i.e. the WINDOW LAW holds at the band radii \u2014 no structural surplus (which would move the crossing down... up) and no anti-concentration failure (which would move it the other way). All three consumers (adjacency_closing, list_adjacency_closing, mca_safe) need exactly the located determination; the 'new priced mechanism' demand is route (a mechanism is how you CERTIFY the band, not what is true there). Pre-registered falsifier: scaled rate-1/2 band-analogue rows where exact counts at band-analogue radii deviate from the first-moment model beyond Poisson, sustained across >= 3 scales \u2014 EITHER direction fires it; mechanism failures (AQB, dihedral sibling) do NOT count. Opening evidence: window law verified at every band-analogue probed campaign-wide; both dead routes died as mechanisms, never as count anomalies. | Strong full-determination target: cover the rate-1/2 residual band 2^33 < sigma <= sigma* by a genuinely new priced mechanism. AQB and the dihedral/Chebyshev sibling window are both refuted. A bracket-grade obstruction for some band radius would be a creditable partial result, but it does not satisfy this node as consumed by adjacency_closing, list_adjacency_closing, or mca_safe. | SURVIVAL +1 (2026-07-07, F6-A2, notes/f6a2_fullscale_sweep_modal.py): the composite-family attack channel (nested two-scale quotient stacks, full razor sweep, mpmath dps=40) scores ZERO hits \u2014 empty at every razor row. Retained refinement: the band is lq-GRADED (width ~0 at lq=255.900 rising to 2,978,146 at the cap; reach interpolates above 2^33 mid-slice). A preliminary 'band is a fixed-sigma* artifact' hypothesis was raised and KILLED in classification (the swept crossing was the random-word mean, not the worst-word pincer object \u2014 sigma* provenance: generic pincer, pro_brief_razor.md). | SURVIVAL +2 (2026-07-07, crossing-fidelity family): 18/18 exact determination matches vs the first-moment prediction across a 9-point q-ladder at sigma = 1,2, including through the crossing transition \u2014 the BAND-DETERMINATION floor's location claim verified throughout its accessible regime. | SURVIVAL +3 -> **HARDENED** (2026-07-07): word-class anti-concentration absent (min counts Poisson-ordinary across 60 layouts x 3 q x 2 cells). Families: composite-stack sweep / crossing-fidelity / anti-concentration. | SURVIVAL +4 (2026-07-07, Pro floor-window 6): genuine engagement, no kill \u2014 razor arithmetic replayed exactly (incl. an errata catch: our 255.95 band-width log line mixed columns; correct width 1,667,426); the multi-word amortization surface CLOSED as pure averaging (avg > T forces max > T; pooling gain cancels under normalization \u2014 0 bits/fiber net, the AQB pattern); the pincer-at-cap route attempted without result and remains the floor's live open surface. | UPSTREAM DETERMINATION DATUM (2026-07-07, regime map, notes/correspondence/REGIME_MAP.md + nodes/rate_half_band_closure/notes/upstream_determination_datum.md): external crossing-fidelity evidence at n = 2^21 \u2014 upstream's four deployed adjacent pairs (KB MCA/list 1116047/1116046, M31 MCA/list 1116023/1116022) are first-moment crossing predictions (C(n,m) vs p^(m-K-s)*floor(q*eps), s = pencil shift) whose locations AND margins (22.197/22.011/3.259/3.073 bits) we replayed exactly by integer arithmetic. This is the floor's determination-location claim confirmed at a scale five orders beyond our q <= 1153 ladders (by upstream's proof, our replay). | WP5 KERNEL-BASIS VERDICT (2026-07-10, notes/kernel_basis/WP5_RATEHALF_VERDICT.md): does NOT conditionally close on row-sharp Q (side mismatch: the open content is deficit-side witnesses, no upper-bound theorem can cover a true-unsafe band; quantifier mismatch: K3's rows are n=2^21 extension fields vs the n=2^41 prime razor rows, transport NOTE-LEVEL). Own kernel minted: K5 razor-band witness kernel. Replay pinned sigma* = t*-1 = 8,592,912,738 exactly, cap reach 2^33 exact, band width 2,978,146; NEW open item OF THE FLOOR: the intended first-moment model is the worst-word/pincer object whose per-row crossing is not yet formalized (the random-word crossing is contradicted near the cap by the proved unsafe reach). || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/rate_half_band_closure/QUALITY.md || WITNESS-HUNT RECON (2026-07-12, the early WP7 lane \u2014 roadmap addendum r1 amendment 3; scripts + the validated Modal launcher banked at notes/witness_hunt_20260712/): GAP ANATOMY EXACT \u2014 the razor need is 2^127.90..2^128.00, the deduped qcore plateau supplies C(127,64) = 2^123.1714, deficit 4.73..4.83 bits, FLAT across all 2,978,146 band cells (no easier sub-cell); tangent supplies 2^39.99, planted 127 (catch #103: tangent, not planted, is the dominant secondary column \u2014 2^-88 of the need). THEOREM CAP: within the coset/dressing/perturbation universe the char-0 supply is capped at the plateau (Lam-Leung + NESTING \u2014 catch #102: order-2M cosets ARE pairs of order-M cosets, so multi-scale families dedup to C(127,64) ALONE; any sum-over-scales double-counts; verified in vivo, fiber = 3 = deduped not 4). NEW SUPPLY LAW (banked finding): for polynomial received words the complete list bijects with a truncated-locator moment-map fiber, and the generic-core law fiber = C(N-r, h) + Poisson background (r = cosets touched) holds EXACTLY in vivo \u2014 the banked one-coset core is optimal over the whole mechanism class. SEVEN candidate mechanisms triaged falsification-first: C1/C3/C4 re-params or dominated (exact bijections shown), C2 priced at O(1) vs 2^127.6 needed (divisor-quantized, satellite-29 phenomenology), C5/C6 vacuous at prime q, C7 = the killed dihedral route (NOT reopened; the fold arithmetic independently confirms the Pro T8 kill). WINDOW-LAW READ: first-moment + Poisson reproduced every count at 3 scales / ~200 primes / q to 2^40 including fine structure \u2014 the pre-registered falsifier's no-deviation direction. HONEST OPEN FLANK: non-polynomial received words (planted-hybrid at giant slack) are outside the fiber reduction and uncensused \u2014 the named residual hunt space. Sporadic escape hatch priced at ~2^-5.2 per razor row. || AMPLIFICATION FENCE (2026-07-12 wave-3; scope per catch #105): rate_half_multiplicative_amplification_floor PROVED \u2014 any multiplicative amplification route needs a factor ~2^91.85 at the slice top against the CAP PROXY (2^216 MCA-side trigger). SCOPE FACTS: the figure is q-GRADED (2^19.9 at lgq = 255.901, 2^2.6 at the slice bottom \u2014 exact computations banked) and it fences the NON-BINDING cap-proxy lane, not the binding eps* = 2^-128 list-side target (banked gap x28.4, kill line R1c) where the protection remains the mechanism kills. Dedup-safe (max over scales, catch #102); does not cut the pro-brief box-charge route; reopens nothing. || FIXED-CROSSING REFUTATION + RE-POSE (RH-ADJ) (wave-9 audited, 2026-07-17): the fixed rate-half crossing at sigma* is REFUTED (the cyclic count is s-independent; sigma_0 = 8,594,128,895 > sigma*+1 is also list-unsafe via the exact simple-pole conversion E(q,L) = L(q-n)/(q(q-n+kL)) > 2^-83). RE-POSED: find field-dependent a_RH(q) >= k + 8,594,128,896 with B_mca(a_RH) <= floor(q/2^128) < B_mca(a_RH - 1); safe side exactly = {B_ca^far <= B*, S_sparse <= B*} (proved lossless split; tangent absorbed for q >= 2^168). The LIST safe side is likewise OPEN (w9-C2 correction: the wave-8 'crossing DETERMINED' claim is withdrawn; unsafety proved through sigma_0). Full pose bodies + refutation.md in the node folder. [HISTORY: previous poses preserved in statement.md] || CROSSING DETERMINED BELOW 2^167 (wave-10 audited, 2026-07-18): for every admissible 2^128 < q < 2^167, a_RH(q) = n - floor(q/2^128) + 1, unconditional (quadratic staircase + (RQ4) + the Hankel far-CA layer + the universal coordinate-tangent unsafe witness). EXACT residual: budgets {2^39, 2^39+1}; beyond 2^167 brackets a_RH in [k+2^34, 3n/4 or n] (the k+2^34 optimized floor supersedes sigma_0 forward-facing). LIST side: safe side OWNED (rate_half_list_adjacent_crossing TARGET), crossing determined for budgets {1,2}, unsafe reach 2^34-1. Full reconciled narrative in statement.md.",
    "attack_surface": "ROUTE 1 (extended quotient scales) CLOSED by arithmetic \u2014 see notes/floor_depth.md: the floor family caps at n/256 = 2^33 exactly; the band is its shadow. Remaining: (2) averaged conversion at giant M; (3) B2b-style balance; (4) safe-side push through sigma*; (5) QUEUED: the q-threshold refinement \u2014 the band may exist only for log2 q > ~255.91.",
    "falsifier": "Pre-registered (v2): scaled rate-1/2 band-analogue rows with exact counts deviating from the first-moment determination beyond Poisson, sustained across >= 3 scales (either direction: structural surplus or anti-concentration failure). Mechanism failures do NOT count.",
    "refs": [
@@ -5157,7 +5157,7 @@
     "critical/nodes/f3_h3_mobius_excess_half/statement.md",
     "critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_MOBIUS_OVERLAP_CAP.md"
    ],
-   "statement": "For every official row, with A=(1-H)\\{0}, P(t)=#{(a,b) in A^2:ab=t}, R(t)=#{(c,d) in A^2:d/c=t}, and X_18=sum_{t!=1}max(P(t)-18,0)R(t), one has 17X_18<=300n^2. This cutoff-18 target is strictly weaker than the former X_35<=n^2/2 premise. The proved non-swap compiler shows that S_ns<=1200n^2 is sufficient, replacing the prior 68n^2 target. FALSIFIER: one exact official row with 17X_18>300n^2. [IMPORT PINS r2 (2026-07-12 wave-2; supersedes the r1 pins block): FULL CORRIDOR \u2014 every official row n = 2^s, 13 <= s <= 41, every prime p = 1 mod n, p >= n^2. The cutoff-18 weakening (17 X_18 <= 300n^2) verified exactly at import: 68 sharp (1088 = 34*32, 1224 = 36*34), cutoff-35 => cutoff-18 strict, and the C36' close re-lands with rational margin 48/425 > 0 at n >= 8192 \u2014 the banked cutoff-35 ledger and M35 survive as strictly stronger background routes. Q-SURV TRANSFERS to the weakened form: the banked 12-prime sweep's max overlap P <= 20 gives (P-18)+ <= 2, so 17 X_18 <= 34 (n-1)(n-2) < 300n^2 with 9x room at every swept row; the 7,090-row sweep and both n=8192 replays stand. Source-boundary audit (2ab08f2) banked node-locally: KSV/MSS citation closes REFUSED honestly \u2014 open gap, not a citation close.] [NARROWING r3 (2026-07-13, wave-5 audited): preferred sufficient target S_ns^rich = sum_{t!=1,P(t)>=19}[P(t)(P(t)-2)+D(t)]R(t) <= 1200n^2, strictly weaker; former full-S_ns target retained as strictly stronger envelope; Sidon narrowing: every non-swap record is a p-specific norm-gate accident, 0<|Norm(alpha)|<=6^phi(n); boundary row (8192, 67657729) exact: S_ns=65810428 vs S_ns^rich=720, X_18=4, M_5^rich=504 -- route-selection evidence only, wave-5 re-replayed exactly]",
+   "statement": "For every official row, with A=(1-H)\\{0}, P(t)=#{(a,b) in A^2:ab=t}, R(t)=#{(c,d) in A^2:d/c=t}, and X_18=sum_{t!=1}max(P(t)-18,0)R(t), one has 17X_18<=300n^2. This cutoff-18 target is strictly weaker than the former X_35<=n^2/2 premise. The proved non-swap compiler shows that S_ns<=1200n^2 is sufficient, replacing the prior 68n^2 target. FALSIFIER: one exact official row with 17X_18>300n^2. [IMPORT PINS r2 (2026-07-12 wave-2; supersedes the r1 pins block): FULL CORRIDOR \u2014 every official row n = 2^s, 13 <= s <= 41, every prime p = 1 mod n, p >= n^2. The cutoff-18 weakening (17 X_18 <= 300n^2) verified exactly at import: 68 sharp (1088 = 34*32, 1224 = 36*34), cutoff-35 => cutoff-18 strict, and the C36' close re-lands with rational margin 48/425 > 0 at n >= 8192 \u2014 the banked cutoff-35 ledger and M35 survive as strictly stronger background routes. Q-SURV TRANSFERS to the weakened form: the banked 12-prime sweep's max overlap P <= 20 gives (P-18)+ <= 2, so 17 X_18 <= 34 (n-1)(n-2) < 300n^2 with 9x room at every swept row; the 7,090-row sweep and both n=8192 replays stand. Source-boundary audit (2ab08f2) banked node-locally: KSV/MSS citation closes REFUSED honestly \u2014 open gap, not a citation close.] [NARROWING r3 (2026-07-13, wave-5 audited): preferred sufficient target S_ns^rich = sum_{t!=1,P(t)>=19}[P(t)(P(t)-2)+D(t)]R(t) <= 1200n^2, strictly weaker; former full-S_ns target retained as strictly stronger envelope; Sidon narrowing: every non-swap record is a p-specific norm-gate accident, 0<|Norm(alpha)|<=6^phi(n); boundary row (8192, 67657729) exact: S_ns=65810428 vs S_ns^rich=720, X_18=4, M_5^rich=504 -- route-selection evidence only, wave-5 re-replayed exactly] || DOUBLE-ACCIDENT REDUCTION (wave-10 audited v5 chain, 2026-07-18; dependency-clean of the unaudited cluster A): the critical target 17X_18 <= 300n^2 reduces to the DOUBLE-accident count Y_18 via the cutoff18 double-accident reduction + derivative-ideal valuation chain (7 PROVED background nodes: identity-deficit energy close, shifted-energy zero normalization, cubic block tail energy fence, uniform product-fiber Stepanov, global derivative-ideal valuation, cutoff18 double-accident reduction, double-accident derivative ideal). Open range n^2 <= p <= 6^{n/4} preserved; full pose bodies in the node folders (w10-C8 node-id collision hazard recorded).",
    "attack_surface": "The proved rich-fiber norm cutoff closes p>6^(n/4). On the remaining range n^2<=p<=6^(n/4), prove a truncated product/quotient correlation estimate, not a global shifted-energy bound. Candidate routes: constants-explicit rich-level incidence tails paired with quotient weights; an oriented character/Jacobi estimate retaining phases; or classification of only the simultaneous rich-product/rich-quotient locus. The background pointwise M35 cap is sufficient but deliberately stronger and is not the critical claim."
   },
   {
@@ -6657,6 +6657,501 @@
     "background/nodes/pma_ratehalf_complement_linear_slice_reduction/claim_contract.md",
     "background/nodes/pma_ratehalf_complement_linear_slice_reduction/dependency_subdag.md",
     "background/nodes/pma_ratehalf_complement_linear_slice_reduction/verify.py"
+   ]
+  },
+  {
+   "id": "mca_full_agreement_endpoint",
+   "title": "Exact support-wise MCA numerator at full agreement",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every proper linear code over F_q, the finite-slope support-wise numerator at full agreement is exactly B_mca(n)=1. The same one-slope construction gives B_mca(a)>=1 at every agreement. Hence q<2^128 has grand threshold zero, while q>=2^128 has a safe full-agreement endpoint. Combined with the rate-half pole floor, k+8,594,128,896<=a_RH(q)<=n.",
+   "refs": [
+    "background/nodes/mca_full_agreement_endpoint/statement.md",
+    "background/nodes/mca_full_agreement_endpoint/proof.md",
+    "background/nodes/mca_full_agreement_endpoint/claim_contract.md",
+    "background/nodes/mca_full_agreement_endpoint/dependency_subdag.md",
+    "background/nodes/mca_full_agreement_endpoint/verify.py",
+    "background/nodes/mca_full_agreement_endpoint/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_half_distance_safe_bracket",
+   "title": "Rate-half high-field safe bracket at half the minimum distance",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the official n=2^41,k=2^40 rate-half row and q>=2^169, the exact MCA half-distance theorem plus the published CA proximity-gap import gives B_mca(3n/4)<=n<=floor(q/2^128). Hence k+8,594,128,896<=a_RH(q)<=3n/4 throughout that high-field range.",
+   "refs": [
+    "background/nodes/rate_half_half_distance_safe_bracket/statement.md",
+    "background/nodes/rate_half_half_distance_safe_bracket/proof.md",
+    "background/nodes/rate_half_half_distance_safe_bracket/claim_contract.md",
+    "background/nodes/rate_half_half_distance_safe_bracket/dependency_subdag.md",
+    "background/nodes/rate_half_half_distance_safe_bracket/verify.py",
+    "background/nodes/rate_half_half_distance_safe_bracket/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_far_ca_rider_reduction",
+   "title": "Rate-half far-CA rider and doubly sparse reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every linear code at integer radius r<n/2, the far-pair correlated-agreement numerator obeys B_ca^far(n-r)<=1+(r+1)L_2(n-2r). If a column-far pair has at least two bad slopes, translation by a code pair normalizes both received components to 2r-sparse errors. At rate one half and agreement a=k+tau, the deficient pair-list agreement is n-2r=2tau. This is a structural reduction and does not assert that its sufficient prize inequality holds.",
+   "refs": [
+    "background/nodes/rate_half_far_ca_rider_reduction/statement.md",
+    "background/nodes/rate_half_far_ca_rider_reduction/proof.md",
+    "background/nodes/rate_half_far_ca_rider_reduction/claim_contract.md",
+    "background/nodes/rate_half_far_ca_rider_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_far_ca_rider_reduction/verify.py",
+    "background/nodes/rate_half_far_ca_rider_reduction/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_quadratic_exact_range",
+   "title": "Exact low-field rate-half threshold and post-cutoff bracket",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the official n=2^41,k=2^40 rate-half row, let r_Q=389,500,552,608 and B_Q=r_Q+1. For every admissible field with B=floor(q/2^128)<=B_Q, the exact adjacent certificate is B_mca(n-B+1)=B<B_mca(n-B), the latter numerator being at least B+1. Thus every admissible q<(B_Q+1)2^128, approximately 2^166.502834419, is completely determined. More generally, for 1<=B<=k-1, n-B+1<=a_RH(q)<=n-min(B-1,r_Q). When B_Q<B<=2^39+1, safety at the lower candidate is equivalent to the single far-CA bound B_ca^far(n-B+1)<=B because its sparse numerator is already at most B-1.",
+   "refs": [
+    "background/nodes/rate_half_quadratic_exact_range/statement.md",
+    "background/nodes/rate_half_quadratic_exact_range/proof.md",
+    "background/nodes/rate_half_quadratic_exact_range/claim_contract.md",
+    "background/nodes/rate_half_quadratic_exact_range/dependency_subdag.md",
+    "background/nodes/rate_half_quadratic_exact_range/verify.py",
+    "background/nodes/rate_half_quadratic_exact_range/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_postquadratic_mds_extension_fence",
+   "title": "Post-quadratic MDS extension fence",
+   "status": "PROVED",
+   "closure": "counterexample",
+   "statement": "For RS[F_5,{0,1,2,3},2] at radius r=1, the first radius beyond the quadratic hypothesis, a column-far received pair with syndromes y_0=(0,1), y_1=(1,4) has four CA-bad finite slopes, while r+1=2. Thus the official post-quadratic CA assertion cannot follow from a universal MDS extension of B_ca^far(n-r)<=r+1; an official-row proof must exploit additional long-domain or anchor-pencil structure.",
+   "refs": [
+    "background/nodes/rate_half_postquadratic_mds_extension_fence/statement.md",
+    "background/nodes/rate_half_postquadratic_mds_extension_fence/proof.md",
+    "background/nodes/rate_half_postquadratic_mds_extension_fence/claim_contract.md",
+    "background/nodes/rate_half_postquadratic_mds_extension_fence/dependency_subdag.md",
+    "background/nodes/rate_half_postquadratic_mds_extension_fence/verify.py",
+    "background/nodes/rate_half_postquadratic_mds_extension_fence/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_far_ca_anchor_pencil_normal_form",
+   "title": "Exact far-CA anchor-pencil normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every linear code and column-far pair at radius r, fixing one bad slope with error e_0 of support size s gives an exact parametrization of every other bad slope as gamma_0+lambda with a codeword p satisfying wt(e_0+lambda(f_2-p))<=r. If t is the number of off-anchor discrepancies of p, then r-s+1<=t<=r and at least s+t-r anchor coordinates satisfy p=f_2+e_0/lambda. When 2r<d_min, p is unique per slope. This uniqueness holds throughout the first official post-quadratic CA-only range.",
+   "refs": [
+    "background/nodes/rate_half_far_ca_anchor_pencil_normal_form/statement.md",
+    "background/nodes/rate_half_far_ca_anchor_pencil_normal_form/proof.md",
+    "background/nodes/rate_half_far_ca_anchor_pencil_normal_form/claim_contract.md",
+    "background/nodes/rate_half_far_ca_anchor_pencil_normal_form/dependency_subdag.md",
+    "background/nodes/rate_half_far_ca_anchor_pencil_normal_form/verify.py",
+    "background/nodes/rate_half_far_ca_anchor_pencil_normal_form/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_split_pencil_equivalence",
+   "title": "Far-CA as a split-locator Hankel pencil",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every RS code and 1<=r<=n-k, a syndrome is within radius r exactly when its (n-k-r) by (r+1) Hankel matrix has a kernel vector that is the coefficient vector of a monic squarefree degree-r locator split over the evaluation domain. A received pair is column-close exactly when the two Hankel kernels share such a locator. Hence for a column-far pair, CA-bad slopes are exactly the parameters where the syndrome Hankel pencil has a domain-split kernel locator. At the first official transition, the missing r+1 bound is an exact supported-slope split-pencil census.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_split_pencil_equivalence/statement.md",
+    "background/nodes/rate_half_ca_hankel_split_pencil_equivalence/proof.md",
+    "background/nodes/rate_half_ca_hankel_split_pencil_equivalence/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_split_pencil_equivalence/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_split_pencil_equivalence/verify.py",
+    "background/nodes/rate_half_ca_hankel_split_pencil_equivalence/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_fullrank_branch",
+   "title": "Full-column-rank rate-half Hankel branch",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For r<(n-k)/2, if the (n-k-r) by (r+1) syndrome Hankel pencil has generic column rank r+1, then a fixed nonzero maximal minor of degree at most r+1 contains every slope with a nonzero kernel. Hence at most r+1 slopes carry a domain-split locator, proving the required far-CA bound in this branch. In the first official transition, only generically rank-deficient pencils remain; at the final CA-only block r=(n-k)/2, deficiency is forced by matrix dimensions.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_fullrank_branch/statement.md",
+    "background/nodes/rate_half_ca_hankel_fullrank_branch/proof.md",
+    "background/nodes/rate_half_ca_hankel_fullrank_branch/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_fullrank_branch/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_fullrank_branch/verify.py",
+    "background/nodes/rate_half_ca_hankel_fullrank_branch/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_fixed_kernel_branch",
+   "title": "Fixed-kernel rate-half Hankel branch",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Let rho>=1 be the generic rank of an RS syndrome Hankel pencil. If its generic right kernel is the scalar extension of a fixed F-subspace K_0, then K_0 is annihilated by both endpoint matrices. For a column-far pair K_0 contains no domain-split locator. Away from the roots of one nonzero rho-minor, specialization preserves rank and the kernel remains K_0. Hence at most rho finite slopes carry a split locator. This closes every constant-kernel rank-deficient branch, including at the half-distance endpoint; only genuinely moving generic kernels remain.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_fixed_kernel_branch/statement.md",
+    "background/nodes/rate_half_ca_hankel_fixed_kernel_branch/proof.md",
+    "background/nodes/rate_half_ca_hankel_fixed_kernel_branch/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_fixed_kernel_branch/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_fixed_kernel_branch/verify.py",
+    "background/nodes/rate_half_ca_hankel_fixed_kernel_branch/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_minimal_index_budget",
+   "title": "Two-sided minimal-index budget for moving Hankel kernels",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a generically rank-deficient scalar syndrome Hankel pencil of generic rank rho, the binary divided-power apolar complete intersection gives the same degree-rho generator Q_Z for the right and left kernels. If its primitive parameter degree is e and it has s fixed evaluation-domain factors, Kronecker degree and residual apolarity give (R+1-2rho+s)e<=rho-s. Coupling the resulting regular-block allowance with root incidence bounds all supported slopes. At the official rate-half row this proves the far-CA r+1 bound for every r<=2^39-2, extending the exact adjacent formula to every admissible q<2^167. Only budgets 2^39 and 2^39+1 remain in the first CA-only block.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_minimal_index_budget/statement.md",
+    "background/nodes/rate_half_ca_hankel_minimal_index_budget/proof.md",
+    "background/nodes/rate_half_ca_hankel_minimal_index_budget/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_minimal_index_budget/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_minimal_index_budget/verify.py",
+    "background/nodes/rate_half_ca_hankel_minimal_index_budget/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_exceptional_root_charge",
+   "title": "Exceptional-slope root charge for Hankel pencils",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a moving generic apolar generator Q_Z of parameter degree e, a supported rank-drop slope of loss c retains domain roots while c is charged to Kronecker multiplicity. The base bound is T(rho-s)<=(N-s)e+rho-(R+1-2rho)e; contracting the fixed core strengthens the regular allowance to rho-s-(R+1-2rho+s)e. At the official A=3 profiles this closes every e<=2^37-1, forces the remaining high-degree branch to have no fixed domain roots, and also closes e=2^37 at the half-distance budget. At the A=1 endpoint it closes every e<=2^37 and leaves only three explicit core-size rows with s<=2.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_exceptional_root_charge/statement.md",
+    "background/nodes/rate_half_ca_hankel_exceptional_root_charge/proof.md",
+    "background/nodes/rate_half_ca_hankel_exceptional_root_charge/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_exceptional_root_charge/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_exceptional_root_charge/verify.py",
+    "background/nodes/rate_half_ca_hankel_exceptional_root_charge/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_endpoint_saturation_rigidity",
+   "title": "Endpoint saturation rigidity for the strict A=3 Hankel profile",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the first unresolved strict A=3 parameter degree, write rho=4m-1, N=16m, e=m, and delta=m-1. If the desired T<=rho+1 cap fails, exceptional-root charging and parameter-root incidence force the unique count T=4m+1. If O is the total number of domain roots omitted from the specialized generic generators, then O<=delta and the exact column-capacity deficit is 1+O<=m. Hence at least 15m=15N/16 domain points occur as roots at exactly m supported slopes, exhausting the parameter degree of Q_Z(x). This is a necessary extremal profile, not an exclusion of it.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/statement.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/proof.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/verify.py",
+    "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_endpoint_norm_factorization",
+   "title": "Endpoint norm-defect and complementary-factor identities",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a hypothetical failure at the first strict A=3 endpoint, let H be the squarefree supported-slope form, R=product_(x in D)Q(x) the parameter norm, and O the aggregate omitted-domain-root count. There are forms J,S with J R=H^rho S, deg J=O<=m-1, and deg S=1+O<=m. If P_sat is the product of the at least 15m saturated domain points, there are complementary biforms Vbar,W with Q Vbar+P_sat W=H, deg_param Vbar=3m+1, deg_X Vbar<deg P_sat, and deg_X W<=rho-1. At least 2m+2 supported slopes are generic-rank, D-split, and parameter-transverse. The D x Z evaluation matrix is a full-row/full-column Reed-Solomon product-code word with exact column and row MDS excesses O and 1+O. These identities are necessary normal forms, not exclusions of the endpoint configuration.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/statement.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/proof.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/verify.py",
+    "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_endpoint_rational_branch_exclusion",
+   "title": "Component-profile rigidity at the strict endpoint",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Factor a hypothetical first strict A=3 endpoint counterexample into irreducible bidegree components (r_i,e_i). Component root incidence gives T r_i-I_i>=T r_i-N e_i, while the aggregate row shortfall is at most O<=m-1. Hence r_i<=4e_i. Since sum_i(4e_i-r_i)=4m-(4m-1)=1, there is exactly one component with r=4e-1 and every other component has r=4e. The balanced components consume at least four shortfall units per parameter degree, so their total parameter degree is at most floor((m-1)/4); the unique defect-one component has e>=ceil((3m+1)/4). In particular Q cannot split into rational parameter branches, but the dominant nonlinear component remains open.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/statement.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/proof.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/verify.py",
+    "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_endpoint_component_defect_localization",
+   "title": "Component-defect localization at the strict endpoint",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the first strict A=3 endpoint, let E be overlap among the distinct irreducible-component incidence sets, D_i=T r_i-I_i the row deficit, C_i=N e_i-I_i the column deficit, and b the total parameter degree outside the unique defect-one component. The generator is geometrically squarefree and the exact ledgers are sum D_i=O-E and sum C_i=1+O-E. The dominant component satisfies C_*-D_*=4b+1, while every balanced residual component satisfies D_i-C_i=4e_i. Hence 4b<=O-E and e_*>=m-floor((O-E)/4). Every component splits disjointly on at least 3m+2 supported slopes and at least 15m domain fibers; at least 3m+1-O supported slopes are also parameter-transverse. The dominant nonlinear component remains open.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/statement.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/proof.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/verify.py",
+    "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_endpoint_separated_pullback_exclusion",
+   "title": "Separated-pullback exclusion at the strict endpoint",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the official first strict A=3 endpoint, the dominant irreducible component of bidegree (4e-1,e) cannot be a separated rational fiber product f(X)=g(U:V) with map degrees 4e-1 and e. For such a pullback, grouping grid points by their common image and optimizing the two capped fiber-size sequences gives a column deficit C_*>m throughout ceil((3m+1)/4)<=e<=m. Component-defect localization instead gives C_*<=sum_i C_i=1+O-E<=m. Thus polynomial separated-variable, Kummer pullback, and general separated rational-map models are excluded. Since an irreducible separation-rank-two biform is such a cross-multiplied rational equality, the dominant component has separation rank at least three. The full primitive generator also has separation rank at least three: rank two would force column deficit at least 4(m-1)>m, versus its exact 1+O<=m. Genuinely mixed biforms remain open.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/statement.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/proof.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/verify.py",
+    "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_endpoint_rational_normal_kernel_curve",
+   "title": "Rational-normal kernel curve at the strict endpoint",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the official first strict A=3,e=m endpoint, the (4m+1) by 4m Hankel pencil has generic rank 4m-1 and exactly one right singular block. The two-sided minimal-index theorem identifies it as L_m. Consequently, if Q(U,V;X)=sum_j Q_j(X)U^(m-j)V^j is the full primitive kernel generator, its m+1 coefficient forms Q_j are linearly independent. The separation rank of Q is exactly m+1, and the projective kernel map is a degree-m rational normal curve. Domain evaluation is injective. At least 3m+2 supported points of the curve are squarefree D-split locators, and at least 15m domain-evaluation hyperplanes each cut it in m distinct supported points. This exposes the exact endpoint geometry but does not exclude it.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_endpoint_rational_normal_kernel_curve/statement.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_rational_normal_kernel_curve/proof.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_rational_normal_kernel_curve/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_rational_normal_kernel_curve/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_rational_normal_kernel_curve/verify.py",
+    "background/nodes/rate_half_ca_hankel_endpoint_rational_normal_kernel_curve/audit.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_endpoint_dominant_rank_amplification",
+   "title": "Dominant-component rank amplification at the strict endpoint",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the official first strict endpoint, maximal separation rank m+1 of the full primitive generator propagates through its irreducible factorization. For every component Q_i of parameter degree e_i, sr(Q_i)>=ceil((m+1)/(m-e_i+1)). For the unique dominant component, its complement has parameter degree b=m-e_*<=floor((O-E)/4)<=m/4-1, so sr(Q_*)>=ceil((m+1)/(b+1))>=5. If b=0, Q_*=Q has exact rank m+1. Thus all rank-three and rank-four mixed dominant models are excluded; rank-five-or-higher models remain open.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/statement.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/proof.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/verify.py",
+    "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/audit.md"
+   ]
+  },
+  {
+   "id": "xr_lowcore_u1_augmented_paving_scope_fence",
+   "title": "XR one-defect low-core lies outside the ambient augmented-paving payment",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_lowcore_u1_augmented_paving_scope_fence/statement.md",
+    "background/nodes/xr_lowcore_u1_augmented_paving_scope_fence/proof.md",
+    "background/nodes/xr_lowcore_u1_augmented_paving_scope_fence/verify.py",
+    "background/nodes/xr_lowcore_u1_augmented_paving_scope_fence/result.md"
+   ],
+   "statement": "The generic XR rank-five (u,v)=(1,0) kernel is a four-dimensional quartic subspace and need not be MDS: span(1,X,X^2,L_T) is source-compatible but has a dependent evaluation four-set T. Hence the printed all-pair weighted-RS paving theorem does not apply to this whole branch. Even granting its strongest ambient deep-hole specialization on the special MDS branch gives RowC ceilings 9,009,204,611 / 19,418,424,240 / 123,242,307,467, all above 8*1024^3. At rate quarter a closing augmented-basis proof must establish beta_5(A)<=2,164,663,517,435, a source-coupled saving of at least 105,656,044,614 five-row bases (4.653796 percent) from ambient. This is a sharp route fence, not an XR payment."
+  },
+  {
+   "id": "xr_split_pencil_nonlocal_rank_two_rational_fibers",
+   "title": "XR nonlocal rank-two trades are quadratic or cubic rational fibers",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_split_pencil_nonlocal_rank_two_rational_fibers/statement.md",
+    "background/nodes/xr_split_pencil_nonlocal_rank_two_rational_fibers/proof.md",
+    "background/nodes/xr_split_pencil_nonlocal_rank_two_rational_fibers/verify.py",
+    "background/nodes/xr_split_pencil_nonlocal_rank_two_rational_fibers/result.md"
+   ],
+   "statement": "For either nonlocal rank-two profile, dual-GRS_4 scaling identifies the two-dimensional row space with a polynomial pencil of degree at most R-5. Since there are four slopes, the row-coefficient code equals dual RS_2, so a projective change turns the pencil ratio into a rational function phi whose four fibers on the active set are exactly the row zero sets. The R=7 profile is degree two and its three pairs are orbits of one Mobius involution. The R=8 profile has degree two or three; its quadratic branch has four involution pairs, while an explicit F_103 cube-fiber trade proves the cubic branch is genuine. This is a rational-fiber dictionary, not an ownership/counting theorem."
+  },
+  {
+   "id": "xr_split_pencil_rank_two_maxwell_properness",
+   "title": "XR rank-two trades are proper subcircuits of official Maxwell cores",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_split_pencil_rank_two_maxwell_properness/statement.md",
+    "background/nodes/xr_split_pencil_rank_two_maxwell_properness/proof.md",
+    "background/nodes/xr_split_pencil_rank_two_maxwell_properness/verify.py",
+    "background/nodes/xr_split_pencil_rank_two_maxwell_properness/result.md"
+   ],
+   "statement": "Embed any of the five rank-two support profiles into full official Maxwell blocks. Charging every coordinate saved beyond private placement to newly consumed pair-intersection slack gives exact lower bounds on Delta_J=2|union J|-8-c|J|. Across P-A block types (m,c)=(9,5),(7,3) and P-B one-loop types (10,6),(8,4), the minimum is Delta_J=2 and all twenty profile bounds are explicit and set-system sharp. The full Maxwell core has deficit -e<=0, so a rank-two relation can never activate every block. Hence every rank-two anomaly is a proper local subcircuit, while every full-block-support anomaly has trade rank at least three. This is a circuit split, not a payment of the local branch."
+  },
+  {
+   "id": "xr_split_pencil_six_face_syzygy_quotient",
+   "title": "XR six-face Plucker syzygies remove three rank-two profiles",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_split_pencil_six_face_syzygy_quotient/statement.md",
+    "background/nodes/xr_split_pencil_six_face_syzygy_quotient/proof.md",
+    "background/nodes/xr_split_pencil_six_face_syzygy_quotient/verify.py",
+    "background/nodes/xr_split_pencil_six_face_syzygy_quotient/result.md"
+   ],
+   "statement": "On a six-set X, t selected five-faces with distinct split-pencil colors obey one fractional-linear color law. Their canonical dual-cubic face words mu_i have an exact left-syzygy space ker(1;x_i;gamma_i;x_i gamma_i) of dimension t-3, because that matrix has rank three. Conversely every R=6 rank-two trade from the support atlas is one of these forced local Plucker syzygies. After quotienting their span from the parity stack's left kernel, only the two nonlocal rank-two profiles (t,R;z)=(4,7;1,2,2,2) and (4,8;2,2,2,2) remain. This is an exact known-syzygy quotient, not a payment of the two residual profiles."
+  },
+  {
+   "id": "xr_split_pencil_trade_rank_two_support_atlas",
+   "title": "XR rank-two dual trades have five exact support profiles",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/xr_split_pencil_trade_rank_two_support_atlas/statement.md",
+    "background/nodes/xr_split_pencil_trade_rank_two_support_atlas/proof.md",
+    "background/nodes/xr_split_pencil_trade_rank_two_support_atlas/verify.py",
+    "background/nodes/xr_split_pencil_trade_rank_two_support_atlas/result.md"
+   ],
+   "statement": "For a rank-two dual-product-code trade, each active coordinate is nonzero in all but at most one projectively distinct block row. Double-counting pairwise support intersections excludes pair cap at most three. Under pair cap four it forces 4<=t<=6, 6<=R<=8, and exactly five zero-set profiles: (t,R;z)=(4,6;1^4),(4,7;1,2^3),(4,8;2^4),(5,6;1^5),(6,6;1^6). The row space is a two-dimensional dual-GRS_4 subcode and the row-coefficient space a two-dimensional dual-RS_2 subcode; either inclusion is equality at R=6 or t=4 respectively. Explicit finite-field trades realize all five profiles, so this is a sharp support atlas, not a chart payment."
+  },
+  {
+   "id": "rate_half_list_adjacent_crossing",
+   "title": "Rate-half ordinary-list adjacent crossing",
+   "status": "TARGET",
+   "gate": "all",
+   "key": true,
+   "refs": [
+    "critical/nodes/rate_half_list_adjacent_crossing/statement.md",
+    "critical/nodes/rate_half_list_adjacent_crossing/attack.md",
+    "critical/nodes/rate_half_list_adjacent_crossing/frontier.md",
+    "critical/nodes/rate_half_list_adjacent_crossing/verify.py"
+   ],
+   "statement": "For every admissible official rate-1/2 row, with B*=floor(|F|/2^128) and ordinary worst-list size L_1(a), find a_L(C) such that L_1(a_L(C)) <= B* < L_1(a_L(C)-1). The complete branches B*=1,2 are now exact at a_L=3n/4. At the prize-max razor row the cyclic floor and exact-integer Johnson theorem prove k+2^34 <= a_L(C) <= a_IJ(C) on the remaining B*>=3 branches. Arbitrary constant interleaving arity is handled later by list_large_m_scope_closure.",
+   "attack_surface": "For B*>=3, strengthen the exact-integer Johnson safe anchor with rate-half image-fiber/profile structure and construct a matching unsafe predecessor, or move the unsafe floor upward until the bounds meet.",
+   "falsifier": "An admissible rate-half received word with more than B* codewords at an asserted safe agreement.",
+   "notes": "SCOPE REPAIR 2026-07-18: the list-adjacency packet admitted that the wave-8 cyclic prefix theorem supplies only unsafety, but no red safe-side owner was req-wired. The exact-integer Johnson theorem supplies a nontrivial safe bracket. Explicit predecessor constructions now close B*=1,2 exactly; B*>=3 remains the honest adjacent-crossing leaf. It is distinct from rate_half_band_closure, whose live RH-ADJ statement is MCA/CA."
+  },
+  {
+   "id": "rate_half_list_integer_johnson_safe_anchor",
+   "title": "Exact-integer Johnson safe anchor for rate-half ordinary lists",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For any Reed-Solomon code, B>=1, and agreement a, put ell=B+1 and ell*a=nd+r with 0<=r<n. If n*C(d,2)+rd>C(ell,2)(k-1), then the ordinary worst list at agreement a has size at most B. The first such a is an O(log n) bigint-computable safe anchor a_IJ. At n=2^41,k=2^40 and B*=floor(q/2^128), the actual rate-half crossing lies between k+2^34 and a_IJ; a_IJ=3n/4 for B*=1,2,3 and equals floor(sqrt(n(k-1)))+1 for B*>=332114441762. No predecessor-unsafety claim is made.",
+   "refs": [
+    "background/nodes/rate_half_list_integer_johnson_safe_anchor/statement.md",
+    "background/nodes/rate_half_list_integer_johnson_safe_anchor/proof.md",
+    "background/nodes/rate_half_list_integer_johnson_safe_anchor/audit.md",
+    "background/nodes/rate_half_list_integer_johnson_safe_anchor/claim_contract.md",
+    "background/nodes/rate_half_list_integer_johnson_safe_anchor/dependency_subdag.md",
+    "background/nodes/rate_half_list_integer_johnson_safe_anchor/result.md",
+    "background/nodes/rate_half_list_integer_johnson_safe_anchor/verify.py",
+    "background/nodes/rate_half_list_integer_johnson_safe_anchor/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_low_budget_exact_crossing",
+   "title": "Exact rate-half ordinary-list crossing at budgets one and two",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every multiplicative-coset RS row with n=4d and k=2d, the ordinary worst-list crossing is exactly a_L=3n/4 for integer budgets B=1 and B=2: the exact-integer Johnson theorem proves L_1(3n/4)<=B, while explicit two- and three-codeword received-word constructions prove B<L_1(3n/4-1). Thus every official rate-half row with floor(|F|/2^128) in {1,2} has delta_L=1/4. No claim is made for B>=3 or for MCA/CA.",
+   "refs": [
+    "background/nodes/rate_half_list_low_budget_exact_crossing/statement.md",
+    "background/nodes/rate_half_list_low_budget_exact_crossing/proof.md",
+    "background/nodes/rate_half_list_low_budget_exact_crossing/claim_contract.md",
+    "background/nodes/rate_half_list_low_budget_exact_crossing/dependency_subdag.md",
+    "background/nodes/rate_half_list_low_budget_exact_crossing/audit.md",
+    "background/nodes/rate_half_list_low_budget_exact_crossing/result.md",
+    "background/nodes/rate_half_list_low_budget_exact_crossing/verify.py",
+    "background/nodes/rate_half_list_low_budget_exact_crossing/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_identity_deficit_energy_close",
+   "title": "C36' admits a 145/4 shifted-energy close after identity separation",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/f3_h3_identity_deficit_energy_close/statement.md",
+    "background/nodes/f3_h3_identity_deficit_energy_close/proof.md",
+    "background/nodes/f3_h3_identity_deficit_energy_close/audit.md",
+    "background/nodes/f3_h3_identity_deficit_energy_close/claim_contract.md",
+    "background/nodes/f3_h3_identity_deficit_energy_close/dependency_subdag.md",
+    "background/nodes/f3_h3_identity_deficit_energy_close/result.md",
+    "background/nodes/f3_h3_identity_deficit_energy_close/verify.py"
+   ],
+   "statement": "For A=(1-H)\\{0}, product and quotient multiplicities have equal L2 energy E_x(A), and N_3to1=sum_t P(t)R(t)=E_x(A)-(1/2)sum_t(P(t)-R(t))^2. The identity coordinate has R(1)=n-1 while the proved one-shift estimate gives P(1)<4n^(2/3). Keeping this compulsory separation proves that 4E_x(A)<=145(n-1)^2 implies N_3to1<36n^2-16n^(4/3)-n/2 on all 29 official orders. This strictly relaxes the former clean target E_x(A)<=35n^2, but does not prove the new energy premise or promote C36'."
+  },
+  {
+   "id": "f3_h3_shifted_energy_zero_normalization",
+   "title": "C36' full-shift energy has an exact zero-fiber correction",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/f3_h3_shifted_energy_zero_normalization/statement.md",
+    "background/nodes/f3_h3_shifted_energy_zero_normalization/proof.md",
+    "background/nodes/f3_h3_shifted_energy_zero_normalization/audit.md",
+    "background/nodes/f3_h3_shifted_energy_zero_normalization/claim_contract.md",
+    "background/nodes/f3_h3_shifted_energy_zero_normalization/dependency_subdag.md",
+    "background/nodes/f3_h3_shifted_energy_zero_normalization/result.md",
+    "background/nodes/f3_h3_shifted_energy_zero_normalization/verify.py"
+   ],
+   "statement": "For S=H-1 and A=S\\{0}, E_x(S)=E_x(A)+(2n-1)^2 exactly. Hence the full-shift estimate E_x(H-1)<=(145/4)(n-1)^2+(2n-1)^2 implies C36' on every official order. In centered-source form it is enough to bound E_x(H-1)-n^4/p by (145/4)(n-1)^2+(2n-1)^2-n^4/p, an allowance strictly greater than 39.24n^2 because every official prime has p>n^2. This corrects the zero convention in the literature audit but does not prove the energy estimate or promote C36'."
+  },
+  {
+   "id": "f3_h3_cubic_block_tail_energy_fence",
+   "title": "A cubic quotient-block tail alone cannot pay C36' energy",
+   "status": "PROVED",
+   "closure": "fence",
+   "refs": [
+    "background/nodes/f3_h3_cubic_block_tail_energy_fence/statement.md",
+    "background/nodes/f3_h3_cubic_block_tail_energy_fence/proof.md",
+    "background/nodes/f3_h3_cubic_block_tail_energy_fence/audit.md",
+    "background/nodes/f3_h3_cubic_block_tail_energy_fence/claim_contract.md",
+    "background/nodes/f3_h3_cubic_block_tail_energy_fence/dependency_subdag.md",
+    "background/nodes/f3_h3_cubic_block_tail_energy_fence/result.md",
+    "background/nodes/f3_h3_cubic_block_tail_energy_fence/verify.py"
+   ],
+   "statement": "For every official order n=2^s with 22<=s<=41, an explicit abstract quotient-block profile satisfies the exact mass sum_B m_B(m_B-1)=(n-1)(n-2) and the cubic tail #{B:m_B>=tau}<=4n^2/tau^3, yet its induced clean energy (n-1)^2+sum_B m_B(m_B-1)^2 exceeds (145/4)(n-1)^2. Hence those two marginal inputs alone cannot prove the clean C36' energy premise. The profiles are not asserted to be subgroup-realizable; this is a route fence, not a counterexample to C36'."
+  },
+  {
+   "id": "f3_h3_uniform_product_fiber_stepanov",
+   "title": "Every official nonidentity shifted-product fiber is below 33 n^(2/3)",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/f3_h3_uniform_product_fiber_stepanov/statement.md",
+    "background/nodes/f3_h3_uniform_product_fiber_stepanov/proof.md",
+    "background/nodes/f3_h3_uniform_product_fiber_stepanov/audit.md",
+    "background/nodes/f3_h3_uniform_product_fiber_stepanov/claim_contract.md",
+    "background/nodes/f3_h3_uniform_product_fiber_stepanov/dependency_subdag.md",
+    "background/nodes/f3_h3_uniform_product_fiber_stepanov/result.md",
+    "background/nodes/f3_h3_uniform_product_fiber_stepanov/verify.py"
+   ],
+   "statement": "For every prime-field C36 row n=2^s, 13<=s<=41, p=1 mod n, p>=n^2, and every tau in F_p^*\\{1}, the shifted-product fiber P(tau)=#{(a,b) in ((1-H)\\{0})^2:ab=tau} satisfies P(tau)<33n^(2/3). The proof applies the constants-explicit Konyagin--Shparlinski--Vyugin auxiliary construction after the subgroup-preserving bijection (x,y)->(U,V)=(x,x/y), which gives the irreducible bidegree-(2,1) curve U^2-UV-U+(1-tau)V with a two-term lowest homogeneous part. All finite parameter inequalities and floor repairs are proved on the 29 official orders. This is a marginal bound only and does not prove the weighted C36' correlation."
+  },
+  {
+   "id": "f3_h3_global_derivative_ideal_valuation",
+   "title": "C36 rich overlap is supported on one explicit derivative-ideal integer per order",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/f3_h3_global_derivative_ideal_valuation/statement.md",
+    "background/nodes/f3_h3_global_derivative_ideal_valuation/proof.md",
+    "background/nodes/f3_h3_global_derivative_ideal_valuation/audit.md",
+    "background/nodes/f3_h3_global_derivative_ideal_valuation/claim_contract.md",
+    "background/nodes/f3_h3_global_derivative_ideal_valuation/dependency_subdag.md",
+    "background/nodes/f3_h3_global_derivative_ideal_valuation/result.md",
+    "background/nodes/f3_h3_global_derivative_ideal_valuation/verify.py"
+   ],
+   "statement": "For every dyadic order n>=4 there is an explicit positive odd integer e_n, defined as the degree-root of the Galois-invariant norm of the first-nineteen-derivative ideals of the ordered shifted-product polynomial, such that every prime p=1 mod n satisfies p^X_18 | e_n. Hence X_18=0 for every row prime p not dividing e_n, while 17 log(e_n)<=300n^2 log(p) implies the exact C36 target. The proof retains the quotient weight by evaluating once for every ordered nonidentity quotient lift. It does not bound or factor e_n, so the universal critical leaf remains open."
+  },
+  {
+   "id": "f3_h3_cutoff18_double_accident_reduction",
+   "title": "C36' cutoff-18 double-accident reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "With Q_18(t)=(P(t)-18)_+, split X_18=sum_(t!=1)Q_18(t)R(t)=A_18+Y_18, where A_18=sum_(t!=1,R(t)>0)Q_18(t)<=(n-1)^2 and Y_18=sum_(t!=1)Q_18(t)(R(t)-1)_+. Therefore the exact residual estimate 17Y_18<=283n^2+34n-17, or the stronger Y_18<=16n^2, implies the C36' target. Every positive Y_18 record is both a rich product event and an additional quotient-collision event.",
+   "refs": [
+    "background/nodes/f3_h3_cutoff18_double_accident_reduction/statement.md",
+    "background/nodes/f3_h3_cutoff18_double_accident_reduction/proof.md",
+    "background/nodes/f3_h3_cutoff18_double_accident_reduction/claim_contract.md",
+    "background/nodes/f3_h3_cutoff18_double_accident_reduction/dependency_subdag.md",
+    "background/nodes/f3_h3_cutoff18_double_accident_reduction/audit.md",
+    "background/nodes/f3_h3_cutoff18_double_accident_reduction/verify.py",
+    "background/nodes/f3_h3_cutoff18_double_accident_reduction/verify_audit.py",
+    "background/nodes/f3_h3_cutoff18_double_accident_reduction/result.md"
+   ]
+  },
+  {
+   "id": "f3_h3_double_accident_derivative_ideal",
+   "title": "Joint derivative ideal detects exactly the C36' double-accident primes",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For each of the 29 official dyadic orders, quotient separation unit-normalizes the cutoff-18 product derivative ideal on every R=1 fiber using exponent B_n=min(n-19,ceil(33n^(2/3))-19). The resulting odd integer f_n divides gcd(e_n,h_n^B_n), where h_n is the odd quotient-discriminant integer, and satisfies p^Y_18|f_n and p|f_n iff Y_18>0 for every official row prime. Thus primes outside f_n close C36', while the global discriminant-height envelope is quantitatively insufficient and a residual-size or target-local valuation bound remains open.",
+   "refs": [
+    "background/nodes/f3_h3_double_accident_derivative_ideal/statement.md",
+    "background/nodes/f3_h3_double_accident_derivative_ideal/proof.md",
+    "background/nodes/f3_h3_double_accident_derivative_ideal/claim_contract.md",
+    "background/nodes/f3_h3_double_accident_derivative_ideal/dependency_subdag.md",
+    "background/nodes/f3_h3_double_accident_derivative_ideal/audit.md",
+    "background/nodes/f3_h3_double_accident_derivative_ideal/verify.py",
+    "background/nodes/f3_h3_double_accident_derivative_ideal/verify_audit.py",
+    "background/nodes/f3_h3_double_accident_derivative_ideal/result.md"
    ]
   }
  ],
@@ -13049,6 +13544,426 @@
   {
    "from": "pma_ratehalf_complement_linear_slice_reduction",
    "to": "shared_census_kernel",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_shifted_product_sidon",
+   "to": "f3_h3_global_derivative_ideal_valuation",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_global_derivative_ideal_valuation",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h2_stepanov_inhouse",
+   "to": "f3_h3_identity_deficit_energy_close",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_quotient_block_identity",
+   "to": "f3_h3_identity_deficit_energy_close",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_identity_deficit_energy_close",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_identity_deficit_energy_close",
+   "to": "f3_h3_three_to_one_c36",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_five_extension_list_reduction",
+   "to": "xr_lowcore_u1_augmented_paving_scope_fence",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_five_u1_split_locator_nonbasis_bound",
+   "to": "xr_lowcore_u1_augmented_paving_scope_fence",
+   "kind": "req"
+  },
+  {
+   "from": "xr_lowcore_u1_augmented_paving_scope_fence",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_split_pencil_trade_rank_two_localization",
+   "to": "xr_split_pencil_trade_rank_two_support_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "xr_split_pencil_trade_rank_two_support_atlas",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_split_pencil_trade_rank_two_support_atlas",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_split_pencil_trade_rank_two_support_atlas",
+   "to": "xr_split_pencil_rank_two_maxwell_properness",
+   "kind": "req"
+  },
+  {
+   "from": "xr_split_pencil_maxwell_core_extraction",
+   "to": "xr_split_pencil_rank_two_maxwell_properness",
+   "kind": "req"
+  },
+  {
+   "from": "xr_split_pencil_rank_two_maxwell_properness",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_split_pencil_rank_two_maxwell_properness",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_grs_split_pencil_rank_certificate",
+   "to": "xr_split_pencil_six_face_syzygy_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "xr_split_pencil_trade_rank_two_support_atlas",
+   "to": "xr_split_pencil_six_face_syzygy_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "xr_split_pencil_six_face_syzygy_quotient",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_split_pencil_six_face_syzygy_quotient",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_split_pencil_trade_rank_two_support_atlas",
+   "to": "xr_split_pencil_nonlocal_rank_two_rational_fibers",
+   "kind": "req"
+  },
+  {
+   "from": "xr_split_pencil_six_face_syzygy_quotient",
+   "to": "xr_split_pencil_nonlocal_rank_two_rational_fibers",
+   "kind": "req"
+  },
+  {
+   "from": "xr_split_pencil_nonlocal_rank_two_rational_fibers",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_split_pencil_nonlocal_rank_two_rational_fibers",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "mca_quadratic_prize_rows",
+   "to": "rate_half_quadratic_exact_range",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_layer_reduction",
+   "to": "rate_half_quadratic_exact_range",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_sparse_pinning_rigidity",
+   "to": "rate_half_quadratic_exact_range",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_quadratic_exact_range",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_postquadratic_mds_extension_fence",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_far_ca_anchor_pencil_normal_form",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_split_pencil_equivalence",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_split_pencil_equivalence",
+   "to": "rate_half_ca_hankel_fullrank_branch",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_fullrank_branch",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_split_pencil_equivalence",
+   "to": "rate_half_ca_hankel_fixed_kernel_branch",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_fixed_kernel_branch",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_split_pencil_equivalence",
+   "to": "rate_half_ca_hankel_minimal_index_budget",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_fullrank_branch",
+   "to": "rate_half_ca_hankel_minimal_index_budget",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_fixed_kernel_branch",
+   "to": "rate_half_ca_hankel_minimal_index_budget",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_quadratic_exact_range",
+   "to": "rate_half_ca_hankel_minimal_index_budget",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_minimal_index_budget",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_split_pencil_equivalence",
+   "to": "rate_half_ca_hankel_exceptional_root_charge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_minimal_index_budget",
+   "to": "rate_half_ca_hankel_exceptional_root_charge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_exceptional_root_charge",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_exceptional_root_charge",
+   "to": "rate_half_ca_hankel_endpoint_saturation_rigidity",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_saturation_rigidity",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_saturation_rigidity",
+   "to": "rate_half_ca_hankel_endpoint_norm_factorization",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_norm_factorization",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_norm_factorization",
+   "to": "rate_half_ca_hankel_endpoint_rational_branch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_rational_branch_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_rational_branch_exclusion",
+   "to": "rate_half_ca_hankel_endpoint_component_defect_localization",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_norm_factorization",
+   "to": "rate_half_ca_hankel_endpoint_component_defect_localization",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_component_defect_localization",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_component_defect_localization",
+   "to": "rate_half_ca_hankel_endpoint_separated_pullback_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_separated_pullback_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_minimal_index_budget",
+   "to": "rate_half_ca_hankel_endpoint_rational_normal_kernel_curve",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_component_defect_localization",
+   "to": "rate_half_ca_hankel_endpoint_rational_normal_kernel_curve",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_rational_normal_kernel_curve",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_rational_normal_kernel_curve",
+   "to": "rate_half_ca_hankel_endpoint_dominant_rank_amplification",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_component_defect_localization",
+   "to": "rate_half_ca_hankel_endpoint_dominant_rank_amplification",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_dominant_rank_amplification",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_uniform_product_fiber_stepanov",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_far_ca_rider_reduction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "mca_full_agreement_endpoint",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "mca_from_ca_reduction",
+   "to": "rate_half_half_distance_safe_bracket",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_half_distance_safe_bracket",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_identity_deficit_energy_close",
+   "to": "f3_h3_shifted_energy_zero_normalization",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_shifted_energy_zero_normalization",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_shifted_energy_zero_normalization",
+   "to": "f3_h3_three_to_one_c36",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_quotient_block_identity",
+   "to": "f3_h3_cubic_block_tail_energy_fence",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_identity_deficit_energy_close",
+   "to": "f3_h3_cubic_block_tail_energy_fence",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_cubic_block_tail_energy_fence",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_cubic_block_tail_energy_fence",
+   "to": "f3_h3_three_to_one_c36",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_cyclic_rotated_prefix_floor",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_cyclic_rotated_prefix_floor",
+   "to": "rate_half_list_integer_johnson_safe_anchor",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_integer_johnson_safe_anchor",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_integer_johnson_safe_anchor",
+   "to": "rate_half_list_low_budget_exact_crossing",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_low_budget_exact_crossing",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_adjacent_crossing",
+   "to": "list_adjacency_closing",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_shifted_product_sidon",
+   "to": "f3_h3_cutoff18_double_accident_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_cutoff18_double_accident_reduction",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_global_derivative_ideal_valuation",
+   "to": "f3_h3_double_accident_derivative_ideal",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_cutoff18_double_accident_reduction",
+   "to": "f3_h3_double_accident_derivative_ideal",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_uniform_product_fiber_stepanov",
+   "to": "f3_h3_double_accident_derivative_ideal",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_double_accident_derivative_ideal",
+   "to": "f3_h3_mobius_excess_half",
    "kind": "ev"
   }
  ]

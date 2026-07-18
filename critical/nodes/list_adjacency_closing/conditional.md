@@ -91,3 +91,12 @@ packet's claim for the rate-half row is BRACKET-GRADE (unsafety proved
 through sigma_0; crossing location open). The req wiring stands (the
 floor is a genuine hypothesis-supplier); what changes is the claim
 scope recorded here.
+
+## OWNER UPDATE to the w9-C3 correction (wave-10, 2026-07-18)
+
+The rate-half list SAFE side is now OWNED: the TARGET pose
+rate_half_list_adjacent_crossing (req-wired into this packet) is the
+w9-C3 repair vehicle. Unsafe side proved through excess 2^34-1 (the
+optimized floor); the list crossing is DETERMINED for budgets
+B* in {1,2} (a_L = 3n/4, rate_half_list_low_budget_exact_crossing
+PROVED); bracket-grade for larger budgets pending the pose.

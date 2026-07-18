@@ -57,7 +57,8 @@ def main():
             n["status"] = new
             flipped.append((v, new))
             changed = True
-            folder = os.path.join(HERE, "..", "nodes", v)
+            # w10-C3 fix: the legacy nodes/ path never exists (partition law) -> artifacts were silently skipped and flips traceless
+            folder = next((f for f in (os.path.join(HERE, "..", "critical", "nodes", v), os.path.join(HERE, "..", "background", "nodes", v)) if os.path.isdir(f)), os.path.join(HERE, "..", "nodes", v))
             if os.path.isdir(folder):
                 art = "proof.md" if new == "PROVED" else "sketch.md"
                 open(os.path.join(folder, art), "w").write(

@@ -156,3 +156,13 @@ For any proposed formula `A(q)`, either an admissible row with
 `B_mca(A(q))>B*(q)` or failure to prove
 `B_mca(A(q)-1)>B*(q)` falsifies that adjacent formula. The previously proposed
 constant formula is already falsified by `(RH-LOW)`.
+
+## QUADRATIC EXACT RANGE + SAFE BRACKETS + HANKEL SUITE + OPTIMIZED FLOOR (wave-10 audited, 2026-07-18 — the reconciled v4+v5 state; all previous poses preserved above)
+
+**THE CROSSING IS DETERMINED for every admissible 2^128 < q < 2^167:** a_RH(q) = n - floor(q/2^128) + 1, unconditional. Composition: the quadratic staircase equality (mca_quadratic_prize_rows) covers B = floor(q/2^128) <= B_Q = 389,500,552,609 (~2^166.503); the (RQ4) equivalence reduces B_Q < B <= 2^39+1 to the single far-CA bound; the Hankel suite's unconditional layer B_ca^far(n-r) <= r+1 (every r <= 2^39-2) supplies it; the universal coordinate-tangent family (mca_full_agreement_endpoint, in-repo since wave-6) supplies the adjacent unsafe witness. The wave-9 PR4 q >= 2^168 caveat is bypassed below 2^167.
+
+**EXACT RESIDUAL of (RH-ADJ):** budgets 2^39 (strict A=3, s=0, e in [2^37, floor((2^39-1)/3)]) and 2^39+1 (A=3 e >= 2^37+1, plus A=1 rows) — recorded per w10-H1 as the explicit open-budget set {2^39, 2^39+1}; beyond 2^167, brackets only: a_RH in [k+2^34, 3n/4] for q >= 2^169, [k+2^34, n] otherwise. The k+2^34 floor (v5's optimized re-instantiation, c=2^33, d=1, field-independent list 2^242.65) SUPERSEDES the former k+8,594,128,896 bracket lines and sigma_0 as the forward-facing constant (sigma_0 retained as history — forced-corrections authority, proved constant improvement).
+
+**Hankel suite note (w10-H5):** the seven strict-endpoint nodes rigidify the residual profile at strict budget e=m only — they are NOT q-axis coverage progress. The five wave-9 guidance lines and the three pre-suite 'Remaining proof' lines are superseded, not deleted (w10-H2).
+
+**LIST side (v5, audited):** the safe side is now OWNED by the TARGET pose rate_half_list_adjacent_crossing (the w9-C3 repair vehicle); the exact-integer Johnson anchor is PROVED; the list crossing is DETERMINED for budgets B* in {1,2} at a_L = 3n/4; the proved unsafe reach doubles to excess 2^34-1.

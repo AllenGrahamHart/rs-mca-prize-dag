@@ -169,25 +169,53 @@ def log2_bigint(value: int) -> float:
     return bits - 200 + log2(value >> (bits - 200))
 
 
-def cap_arithmetic() -> tuple[int, int, float, float, float]:
+def cap_arithmetic() -> tuple[int, int, float, float, float, int]:
     n, k = 1 << 41, 1 << 40
-    old_sigma = 8_592_912_738
-    c = 1 << 22
-    d, s = 2048, c - 1
+    previous_sigma = 8_594_128_895
+    c = 1 << 33
+    d, s = 1, c - 1
     sigma = d * c + s
     quotient_size = n // c
     m = k // c + d
-    assert (sigma, quotient_size, m) == (8_594_128_895, 524_288, 264_192)
-    assert old_sigma + 1 <= sigma
+    assert (sigma, quotient_size, m) == ((1 << 34) - 1, 256, 129)
+    assert previous_sigma < sigma
 
     count = comb(quotient_size - 1, m)
     left = count << 128
     cap_right = quotient_size << (256 * d)
     assert left > cap_right
+    assert count > 1 << 246
 
     cap_denominator = quotient_size << (256 * (d - 1))
     cap_list = (count + cap_denominator - 1) // cap_denominator
     assert cap_list > 1 << 128
+    assert cap_list > 1 << 238
+
+    # No other maximal-prefix instance certified by the same q=2^256
+    # endpoint criterion can exceed this agreement. The proof uses only
+    # C(N-1,m) <= 2^(N-1), so these exponent checks do not materialize large
+    # binomial coefficients.
+    extremality_checks = 0
+    for exponent in range(1, 42):
+        candidate_n = 1 << exponent
+        log_n = exponent
+        if candidate_n <= 128:
+            assert log_n + 256 >= candidate_n + 127
+            extremality_checks += 1
+            continue
+
+        first_strictly_better_d = candidate_n // 128
+        assert (
+            log_n + 256 * first_strictly_better_d >= candidate_n + 127
+        )
+        extremality_checks += 1
+
+        if candidate_n >= 512:
+            tie_d = candidate_n // 128 - 1
+            assert log_n + 256 * tie_d >= candidate_n + 127
+            extremality_checks += 1
+
+    assert extremality_checks == 74
 
     count_log = log2_bigint(count)
     boundary = (128 + count_log - log2(quotient_size)) / d
@@ -196,19 +224,27 @@ def cap_arithmetic() -> tuple[int, int, float, float, float]:
     assert boundary > 256
     assert margin > 0
     assert list_log > 128
-    return count.bit_length(), cap_list.bit_length(), boundary, margin, list_log
+    return (
+        count.bit_length(),
+        cap_list.bit_length(),
+        boundary,
+        margin,
+        list_log,
+        extremality_checks,
+    )
 
 
 def main() -> None:
     toy_one = toy_replay(prime=193, n=64, c=4, d=1, s=2)
     toy_two = toy_replay(prime=97, n=32, c=2, d=2, s=1)
-    count_bits, list_bits, boundary, margin, list_log = cap_arithmetic()
+    count_bits, list_bits, boundary, margin, list_log, extremality = cap_arithmetic()
     print(
         "RATE_HALF_CYCLIC_ROTATED_PREFIX_FLOOR_PASS "
         f"toy_d1={toy_one} toy_d2={toy_two} "
         f"cap_count_bits={count_bits} cap_list_bits={list_bits} "
         f"q_boundary_bits={boundary:.12f} "
-        f"cap_margin_bits={margin:.9f} cap_list_log2={list_log:.9f}"
+        f"cap_margin_bits={margin:.9f} cap_list_log2={list_log:.9f} "
+        f"cap_uniform_extremality_checks={extremality}"
     )
 
 

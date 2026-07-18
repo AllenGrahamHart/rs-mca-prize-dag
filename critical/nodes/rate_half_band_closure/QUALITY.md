@@ -86,3 +86,7 @@ pass all of the following gates.
    heuristic corridor margin is not an MCA upper certificate.
 
 The node stays TARGET until one printed `a_RH(q)` satisfies every gate.
+
+> [w10-C7 NOTE 2026-07-18: v5's QUALITY edit deleted a constant line in
+> place; log blocks are append-only — the original line stands above;
+> the optimized floor's constants are recorded in the wave-10 addendum.]

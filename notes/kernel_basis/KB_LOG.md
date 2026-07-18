@@ -2268,3 +2268,33 @@ prefix; expectations stand). DAG DELTAS: v4 +26 all PROVED zero
 flips; v5 +10 (9 PROVED, 1 TARGET), 2 flips REFUSED, 3 req->ev
 demotions surfaced (w10-C6). IMPORT EXECUTION AWAITS THE GO;
 surgery spec complete in WAVE10_AUDIT_FINDINGS.md.
+
+## 84 — 2026-07-18: WAVE-10 IMPORT EXECUTED — THE RATE-HALF MCA
+## CROSSING IS DETERMINED BELOW 2^167 ON MASTER
+
+Per the maintainer's go, all six spec sections landed: A (6 safe-
+side nodes + sparse-pinning safe-curve addendum + pin verifier),
+B (12 Hankel nodes; w10-H2 letter-repair + w10-H5 not-q-axis note
+in the band addendum), C (v5 list suite: the w9-C3 repair vehicle
+rate_half_list_adjacent_crossing TARGET + 2 PROVED; cyclic floor
+optimized re-instantiation, k+2^34 reach supersedes sigma_0
+forward-facing [forced constant improvement]; w10-C7 QUALITY
+restore-note; list_adjacency_closing owner update), D (7 v5 C36
+nodes + the mobius DOUBLE-ACCIDENT REDUCTION addendum, range
+preserved), E (descriptor tool + incremental-replay infra imported
+as CONTENT; BOTH v5 status flips REFUSED and asserted; the
+descriptor-close recommendation + ev-not-req edge + statement
+narrowing SURFACED to the maintainer queue), F (5 XR nodes;
+w10-X2 stale 16,16,15 -> 17,17,15 correction notes). FORCED FIXES:
+w10-C3 — master's auto_discharge.py wrote artifacts to the
+never-existing legacy nodes/ path (flips traceless); now resolves
+both partition trees. THE BAND NODE now records: crossing
+DETERMINED for 2^128 < q < 2^167 at a_RH(q) = n - floor(q/2^128)+1;
+residual = budgets {2^39, 2^39+1} + beyond-2^167 brackets
+[k+2^34, 3n/4 or n]; list side owned/determined-for-{1,2}/reach
+2^34-1. DAG: +33 nodes (+32 PROVED, 1 TARGET), +84 edges, zero
+unauthorized flips. Manifest 238/10/429; 6 spot replays green;
+validator green. DEFERRED: cluster-A C36 audit queue (+2 v4 nodes),
+weight-5 (1,5). Modal re-pin next. MAINTAINER QUEUE: descriptor
+close recommendation; PR #750 correction note still awaiting
+approval.

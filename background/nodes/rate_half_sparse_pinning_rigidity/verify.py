@@ -110,6 +110,14 @@ def official_tangent_budget() -> None:
     assert r == (1 << 40) - 1
     assert r <= q // (1 << 128)
 
+    for q_bits in (129, 160, 166, 167, 168, 256):
+        budget = 1 << (q_bits - 128)
+        radius = min((n - k) // 2, budget)
+        excess = (n - k) - radius
+        assert radius <= excess
+        assert radius <= budget
+    assert min((n - k) // 2, 1 << (167 - 128)) == 1 << 39
+
 
 def main() -> None:
     bad, nontangent = replay()

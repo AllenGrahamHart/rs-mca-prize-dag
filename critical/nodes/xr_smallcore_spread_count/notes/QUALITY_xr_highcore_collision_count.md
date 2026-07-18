@@ -107,3 +107,6 @@ Rank one is excluded by the block intersection cap. Rank two is supported on
 at most `12,12,9` active coordinates. This is a bounded-chart route, not yet
 a payment; an exact first-match audit must show where those charts enter the
 existing strip/tangent ledger.
+
+
+> [w10-X2 CORRECTION 2026-07-18 (forced): the `16,16,15` prize ranks above are stale — the audited frontier since wave-8 is `17,17,15`; the line stands as history, this note is the correction of record.]

@@ -116,3 +116,6 @@ Rank one is impossible and rank two uses at most `13,13,10` active
 coordinates. The one-loop branch may discard it only after these bounded
 charts are matched to an existing paid first-match cell; that audit remains
 open.
+
+
+> [w10-X2 CORRECTION 2026-07-18 (forced): the `16,16,15` prize ranks above are stale — the audited frontier since wave-8 is `17,17,15`; the line stands as history, this note is the correction of record.]
