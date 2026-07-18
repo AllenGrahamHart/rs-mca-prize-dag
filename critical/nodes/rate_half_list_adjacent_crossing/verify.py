@@ -18,9 +18,12 @@ CYCLE_BIMOBIUS = "rate_half_list_budget_three_cycle_bimobius_transversal"
 RESIDUAL_TRANSVERSAL = "rate_half_list_budget_three_residual_transversal_atlas"
 K4_GRASSMANN = "rate_half_list_budget_three_k4_grassmann_line"
 LINEAR_GRASSMANN = "rate_half_list_budget_three_linear_grassmann_atlas"
+MAXIMAL_FIELD = "rate_half_list_budget_three_maximal_field_degree_collapse"
 QUADRATIC_SCROLL = "rate_half_list_budget_three_quadratic_scroll_atlas"
 QUADRATIC_FULL_RANK = "rate_half_list_budget_three_quadratic_scroll_full_rank"
+QUADRATIC_PRIMITIVE = "rate_half_list_budget_three_quadratic_scroll_primitive_module"
 SPLIT_PENCIL = "rate_half_list_budget_three_split_pencil_normal_form"
+SPLIT_UNIT_SINGLE_FIBER = "rate_half_list_budget_three_split_unit_single_fiber_exclusion"
 PLUCKER_GATE = "rate_half_list_budget_three_plucker_edge_gate"
 SPLIT_FIBER = "rate_half_list_budget_three_split_fiber_atlas"
 PATH_MOBIUS = "rate_half_list_budget_three_path_mobius_transversal"
@@ -66,9 +69,12 @@ def main() -> int:
         ("residual_transversal_atlas_is_proved", nodes[RESIDUAL_TRANSVERSAL]["status"] == "PROVED"),
         ("k4_grassmann_line_is_proved", nodes[K4_GRASSMANN]["status"] == "PROVED"),
         ("linear_grassmann_atlas_is_proved", nodes[LINEAR_GRASSMANN]["status"] == "PROVED"),
+        ("maximal_field_degree_collapse_is_proved", nodes[MAXIMAL_FIELD]["status"] == "PROVED"),
         ("quadratic_scroll_atlas_is_proved", nodes[QUADRATIC_SCROLL]["status"] == "PROVED"),
         ("quadratic_scroll_full_rank_is_proved", nodes[QUADRATIC_FULL_RANK]["status"] == "PROVED"),
+        ("quadratic_scroll_primitive_module_is_proved", nodes[QUADRATIC_PRIMITIVE]["status"] == "PROVED"),
         ("split_pencil_normal_form_is_proved", nodes[SPLIT_PENCIL]["status"] == "PROVED"),
+        ("split_unit_single_fiber_exclusion_is_proved", nodes[SPLIT_UNIT_SINGLE_FIBER]["status"] == "PROVED"),
         ("plucker_edge_gate_is_proved", nodes[PLUCKER_GATE]["status"] == "PROVED"),
         ("split_fiber_atlas_is_proved", nodes[SPLIT_FIBER]["status"] == "PROVED"),
         ("path_mobius_transversal_is_proved", nodes[PATH_MOBIUS]["status"] == "PROVED"),
@@ -82,14 +88,17 @@ def main() -> int:
                 (BUDGET_THREE, "ev"),
                 (K4_GRASSMANN, "ev"),
                 (LINEAR_GRASSMANN, "ev"),
+                (MAXIMAL_FIELD, "ev"),
                 (PATH_MOBIUS, "ev"),
                 (PATH_WITNESS, "ev"),
                 (PLUCKER_GATE, "ev"),
                 (QUADRATIC_SCROLL, "ev"),
                 (QUADRATIC_FULL_RANK, "ev"),
+                (QUADRATIC_PRIMITIVE, "ev"),
                 (RESIDUAL_TRANSVERSAL, "ev"),
                 (SPLIT_FIBER, "ev"),
                 (SPLIT_PENCIL, "ev"),
+                (SPLIT_UNIT_SINGLE_FIBER, "ev"),
                 (SAFE_ANCHOR, "ev"),
                 (LOW_BUDGET, "ev"),
             ],
@@ -172,6 +181,30 @@ def main() -> int:
             and "rank-deficient quadratic split-unit branch is empty" in statement
             and "full-rank balanced scrolls" in statement
             and "four full-rank scroll chambers" in statement,
+        ),
+        (
+            "statement_pins_quadratic_scroll_primitive_module",
+            "automatically coprime" in statement
+            and "degrees are exactly `(d-2,d-1)`" in statement
+            and "`(d-2,d-2)`" in statement
+            and "<alpha,Xalpha> intersect <beta,Xbeta>={0}" in statement
+            and "genuinely four-dimensional" in statement,
+        ),
+        (
+            "statement_pins_maximal_field_degree_collapse",
+            "At the maximal `n=2^41` row" in statement
+            and "e=1 with p=1 mod 2^41" in statement
+            and "e=2 with p=+/-1 mod 2^40" in statement
+            and "divisible by seven" in statement
+            and "This gate is scoped" in statement
+            and "to the maximal domain" in statement,
+        ),
+        (
+            "statement_pins_split_unit_single_fiber_exclusion",
+            "direct quotient-periodic construction" in statement
+            and "at most eight geometric Vandermonde" in statement
+            and "independent for `d>=8`" in statement
+            and "primitive or use a genuinely multi-fiber" in statement,
         ),
         ("floor_disclaims_safe_side", "no safe-side list claim" in floor_statement),
         (
