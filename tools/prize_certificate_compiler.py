@@ -8,8 +8,11 @@ import json
 from pathlib import Path
 from typing import Any
 
+from prize_row_descriptor import INPUT_SCHEMA as ROW_INPUT_SCHEMA
+from prize_row_descriptor import OUTPUT_SCHEMA as ROW_OUTPUT_SCHEMA
+from prize_row_descriptor import describe_row
 
-SCHEMA = "prize-certificate-input-v1"
+SCHEMA = "prize-certificate-input-v2"
 OUTPUT_SCHEMA = "prize-certificate-output-v1"
 TRUSTED = "PROVED"
 OBJECTS = {"MCA_FINITE_SLOPE", "MCA_PROJECTIVE_SLOPE", "LIST", "INTERLEAVED_LIST"}
@@ -48,6 +51,20 @@ def packet(packet: Any, label: str) -> dict[str, Any] | None:
     }
 
 
+def validated_descriptor(value: Any) -> dict[str, Any]:
+    if not isinstance(value, dict) or value.get("schema") != ROW_OUTPUT_SCHEMA:
+        raise ValueError(f"row_descriptor must use schema {ROW_OUTPUT_SCHEMA}")
+    core = value.get("input")
+    if not isinstance(core, dict):
+        raise ValueError("row_descriptor.input must be an object")
+    source = dict(core)
+    source["schema"] = ROW_INPUT_SCHEMA
+    expected = describe_row(source)
+    if value != expected:
+        raise ValueError("row_descriptor does not match its canonical recomputation")
+    return expected
+
+
 def classify_cell(cell: dict[str, Any], threshold: int) -> dict[str, Any]:
     agreement = exact_int(cell.get("agreement"), "agreement")
     upper = packet(cell.get("upper"), f"cell[{agreement}].upper")
@@ -84,17 +101,23 @@ def classify_cell(cell: dict[str, Any], threshold: int) -> dict[str, Any]:
 def compile_certificate(source: dict[str, Any]) -> dict[str, Any]:
     if source.get("schema") != SCHEMA:
         raise ValueError(f"schema must be {SCHEMA}")
-    epsilon_bits = exact_int(source.get("epsilon_bits"), "epsilon_bits")
+    forbidden = {"epsilon_bits", "denominator", "n", "k"} & set(source)
+    if forbidden:
+        raise ValueError(f"row fields must come only from row_descriptor: {sorted(forbidden)}")
+    descriptor = validated_descriptor(source.get("row_descriptor"))
+    epsilon_bits = exact_int(descriptor["target"]["epsilon_bits"], "epsilon_bits")
     if epsilon_bits != 128:
         raise ValueError("the official compiler requires epsilon_bits=128")
-    denominator = exact_int(source.get("denominator"), "denominator")
+    denominator = exact_int(descriptor["target"]["denominator_decimal"], "denominator")
     if denominator == 0:
         raise ValueError("denominator must be positive")
-    n = exact_int(source.get("n"), "n")
-    k = exact_int(source.get("k"), "k")
+    n = exact_int(descriptor["evaluation_domain"]["order_decimal"], "n")
+    k = exact_int(descriptor["code"]["dimension_decimal"], "k")
     if not 0 < k < n:
         raise ValueError("need 0<k<n")
     threshold = denominator // (1 << epsilon_bits)
+    if descriptor["target"]["B_star_decimal"] != str(threshold):
+        raise ValueError("row_descriptor B_star is inconsistent")
 
     object_name = source.get("object")
     if object_name not in OBJECTS:
@@ -173,6 +196,7 @@ def compile_certificate(source: dict[str, Any]) -> dict[str, Any]:
         "status": status,
         "prize_facing": prize_facing,
         "object": object_name,
+        "row_fingerprint_sha256": descriptor["row_fingerprint_sha256"],
         "n": n,
         "k": k,
         "denominator": str(denominator),
