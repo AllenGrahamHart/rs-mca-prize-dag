@@ -1002,6 +1002,11 @@
    "title": "Cyclic quotient rotation closes the rate-half list-unsafe band"
   },
   {
+   "id": "rate_half_list_adjacent_crossing",
+   "label": "UNPROVED",
+   "title": "Rate-half ordinary-list adjacent crossing"
+  },
+  {
    "id": "rules_freeze",
    "label": "PROVED",
    "title": "Rules freeze + SHA drift detector"
@@ -2491,6 +2496,10 @@
   },
   {
    "from": "rate_half_cyclic_rotated_prefix_floor",
+   "to": "list_adjacency_closing"
+  },
+  {
+   "from": "rate_half_list_adjacent_crossing",
    "to": "list_adjacency_closing"
   }
  ]
