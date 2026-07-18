@@ -17,8 +17,10 @@ OUTPUT = ROOT / "experiments" / "prize_resolution" / "modal_verifier_replay.json
 app = modal.App("rs-mca-verifier-replay")
 image = (
     modal.Image.debian_slim()
-    .pip_install("mpmath", "numpy")
-    .add_local_dir(str(ROOT), remote_path="/repo", copy=True)
+    .pip_install("mpmath", "numpy", "sympy")
+    .add_local_dir(str(ROOT), remote_path="/repo", copy=True,
+                   # w10 infra fix: exclude regenerables — .git alone is 121MB
+                   ignore=[".git", "orbit", "**/__pycache__"])
 )
 
 

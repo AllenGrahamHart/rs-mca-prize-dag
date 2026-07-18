@@ -2298,3 +2298,18 @@ validator green. DEFERRED: cluster-A C36 audit queue (+2 v4 nodes),
 weight-5 (1,5). Modal re-pin next. MAINTAINER QUEUE: descriptor
 close recommendation; PR #750 correction note still awaiting
 approval.
+
+## 85 — 2026-07-18: WAVE-10 RE-PIN 238/238 (after three infra fixes,
+## none mathematical)
+
+The post-wave-10 Modal replay needed three repairs before going
+green: (1) the mount now excludes .git/orbit/__pycache__ (the 121MB
+.git made the client exceed the ramguard modal cap — exit 144 twice,
+reproducible; regenerables never belonged in the verifier image);
+(2) sympy added to the replay image (one C36 verifier imports it —
+passed locally, failed 0s remote); (3) the band node's refs wired to
+the pin's 73 entries (two Hankel endpoint verifiers pin their
+statements into rate_half_band_closure.refs — files verified present
+before wiring). All three failures were wiring/environment; the
+mathematics replayed green throughout. FINAL: 238/238 PASS,
+complete. Manifest 238/10/429 stands.
