@@ -5230,7 +5230,7 @@
     "critical/nodes/f3_h3_mobius_excess_half/statement.md",
     "critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_MOBIUS_OVERLAP_CAP.md"
    ],
-   "statement": "For every official row, with A=(1-H)\\{0}, P(t)=#{(a,b) in A^2:ab=t}, R(t)=#{(c,d) in A^2:d/c=t}, and X_18=sum_{t!=1}max(P(t)-18,0)R(t), one has 17X_18<=300n^2. This cutoff-18 target is strictly weaker than the former X_35<=n^2/2 premise. The proved non-swap compiler shows that S_ns<=1200n^2 is sufficient, replacing the prior 68n^2 target. FALSIFIER: one exact official row with 17X_18>300n^2. [IMPORT PINS r2 (2026-07-12 wave-2; supersedes the r1 pins block): FULL CORRIDOR \u2014 every official row n = 2^s, 13 <= s <= 41, every prime p = 1 mod n, p >= n^2. The cutoff-18 weakening (17 X_18 <= 300n^2) verified exactly at import: 68 sharp (1088 = 34*32, 1224 = 36*34), cutoff-35 => cutoff-18 strict, and the C36' close re-lands with rational margin 48/425 > 0 at n >= 8192 \u2014 the banked cutoff-35 ledger and M35 survive as strictly stronger background routes. Q-SURV TRANSFERS to the weakened form: the banked 12-prime sweep's max overlap P <= 20 gives (P-18)+ <= 2, so 17 X_18 <= 34 (n-1)(n-2) < 300n^2 with 9x room at every swept row; the 7,090-row sweep and both n=8192 replays stand. Source-boundary audit (2ab08f2) banked node-locally: KSV/MSS citation closes REFUSED honestly \u2014 open gap, not a citation close.] [NARROWING r3 (2026-07-13, wave-5 audited): preferred sufficient target S_ns^rich = sum_{t!=1,P(t)>=19}[P(t)(P(t)-2)+D(t)]R(t) <= 1200n^2, strictly weaker; former full-S_ns target retained as strictly stronger envelope; Sidon narrowing: every non-swap record is a p-specific norm-gate accident, 0<|Norm(alpha)|<=6^phi(n); boundary row (8192, 67657729) exact: S_ns=65810428 vs S_ns^rich=720, X_18=4, M_5^rich=504 -- route-selection evidence only, wave-5 re-replayed exactly] || DOUBLE-ACCIDENT REDUCTION (wave-10 audited v5 chain, 2026-07-18; dependency-clean of the unaudited cluster A): the critical target 17X_18 <= 300n^2 reduces to the DOUBLE-accident count Y_18 via the cutoff18 double-accident reduction + derivative-ideal valuation chain (7 PROVED background nodes: identity-deficit energy close, shifted-energy zero normalization, cubic block tail energy fence, uniform product-fiber Stepanov, global derivative-ideal valuation, cutoff18 double-accident reduction, double-accident derivative ideal). Open range n^2 <= p <= 6^{n/4} preserved; full pose bodies in the node folders (w10-C8 node-id collision hazard recorded).",
+   "statement": "For every official row, with A=(1-H)\\{0}, P(t)=#{(a,b) in A^2:ab=t}, R(t)=#{(c,d) in A^2:d/c=t}, and X_18=sum_{t!=1}max(P(t)-18,0)R(t), one has 17X_18<=300n^2. This cutoff-18 target is strictly weaker than the former X_35<=n^2/2 premise. The proved non-swap compiler shows that S_ns<=1200n^2 is sufficient, replacing the prior 68n^2 target. FALSIFIER: one exact official row with 17X_18>300n^2. [IMPORT PINS r2 (2026-07-12 wave-2; supersedes the r1 pins block): FULL CORRIDOR \u2014 every official row n = 2^s, 13 <= s <= 41, every prime p = 1 mod n, p >= n^2. The cutoff-18 weakening (17 X_18 <= 300n^2) verified exactly at import: 68 sharp (1088 = 34*32, 1224 = 36*34), cutoff-35 => cutoff-18 strict, and the C36' close re-lands with rational margin 48/425 > 0 at n >= 8192 \u2014 the banked cutoff-35 ledger and M35 survive as strictly stronger background routes. Q-SURV TRANSFERS to the weakened form: the banked 12-prime sweep's max overlap P <= 20 gives (P-18)+ <= 2, so 17 X_18 <= 34 (n-1)(n-2) < 300n^2 with 9x room at every swept row; the 7,090-row sweep and both n=8192 replays stand. Source-boundary audit (2ab08f2) banked node-locally: KSV/MSS citation closes REFUSED honestly \u2014 open gap, not a citation close.] [NARROWING r3 (2026-07-13, wave-5 audited): preferred sufficient target S_ns^rich = sum_{t!=1,P(t)>=19}[P(t)(P(t)-2)+D(t)]R(t) <= 1200n^2, strictly weaker; former full-S_ns target retained as strictly stronger envelope; Sidon narrowing: every non-swap record is a p-specific norm-gate accident, 0<|Norm(alpha)|<=6^phi(n); boundary row (8192, 67657729) exact: S_ns=65810428 vs S_ns^rich=720, X_18=4, M_5^rich=504 -- route-selection evidence only, wave-5 re-replayed exactly] || DOUBLE-ACCIDENT REDUCTION (wave-10 audited v5 chain, 2026-07-18; dependency-clean of the unaudited cluster A): the critical target 17X_18 <= 300n^2 reduces to the DOUBLE-accident count Y_18 via the cutoff18 double-accident reduction + derivative-ideal valuation chain (7 PROVED background nodes: identity-deficit energy close, shifted-energy zero normalization, cubic block tail energy fence, uniform product-fiber Stepanov, global derivative-ideal valuation, cutoff18 double-accident reduction, double-accident derivative ideal). Open range n^2 <= p <= 6^{n/4} preserved; full pose bodies in the node folders (w10-C8 node-id collision hazard recorded). || H3 LOW-DISTANCE ROUTER (wave-12 audited, 2026-07-18; dependency-clean, req-ancestry = the wave-6 rich-fiber cutoff + sidon only): at fixed order, every cutoff-18 rich prime divides a member of the finite low-distance collision-norm set; primes outside it have X_18 = Y_18 = 0. Open range unchanged; the router proves its own infeasibility fence (>= 530,590,075 orbits at n = 8192); the Modal pilot is EXPERIMENTAL route evidence with a negative dedup decision (22.98x -> 1.95x), no theorem promotion.",
    "attack_surface": "The proved rich-fiber norm cutoff closes p>6^(n/4). On the remaining range n^2<=p<=6^(n/4), prove a truncated product/quotient correlation estimate, not a global shifted-energy bound. Candidate routes: constants-explicit rich-level incidence tails paired with quotient weights; an oriented character/Jacobi estimate retaining phases; or classification of only the simultaneous rich-product/rich-quotient locus. The background pointwise M35 cap is sufficient but deliberately stronger and is not the critical claim."
   },
   {
@@ -7074,7 +7074,7 @@
     "critical/nodes/rate_half_list_adjacent_crossing/frontier.md",
     "critical/nodes/rate_half_list_adjacent_crossing/verify.py"
    ],
-   "statement": "For every admissible official rate-1/2 row, with B*=floor(|F|/2^128) and ordinary worst-list size L_1(a), find a_L(C) such that L_1(a_L(C)) <= B* < L_1(a_L(C)-1). The complete branches B*=1,2 are now exact at a_L=3n/4. At the prize-max razor row the cyclic floor and exact-integer Johnson theorem prove k+2^34 <= a_L(C) <= a_IJ(C) on the remaining B*>=3 branches. Arbitrary constant interleaving arity is handled later by list_large_m_scope_closure. || BUDGET-THREE BOUNDED EDGE GEOMETRY (wave-11 audited, 2026-07-18): budgets B* in {1,2} are now a COMPLETE list-prize determination at a_L = 3n/4 \u2014 every common-support interleaving arity m >= 1 (rate_half_list_low_budget_all_arity_crossing, resting on the exact-crossing node + the interleaving collapse L1 <= 2 => L1^2 < q). BUDGET 3: any hypothetical 4-codeword witness at the Johnson predecessor 3n/4 - 1 reduces (six-matrix reduction -> split-pencil normal form -> Plucker gate) to EXACTLY 13 chambers \u2014 9 base-field split-unit Grassmann-line chambers (exceptional degrees {3,4,5,6,8}) + 4 balanced Grassmann scrolls whose rank-deficient branch is EMPTY (det C = b01^2(L12 L03 - L02 L13) != 0); the fourth-member residue is closed; BOTH censuses machine-enumerated AND independently re-enumerated at audit. OPEN: official-subgroup arithmetic in the 13 chambers; a full close moves the safe endpoint by exactly ONE step \u2014 the proved B*=3 bracket [k+2^34, 3n/4] is NOT moved by this classification (w10-H5-mirror note). Full pin bodies in the node folder. PIN DETAIL (verifier contract): the reduction factors any witness into the six incidence types of 4-wise RS agreement matrices; the split-pencil normal form is A_k b_ij+A_i b_jk=A_j b_ik with entries of degree at most two; the Plucker gate is b_01b_23-b_02b_13+b_03b_12=0 with edge polynomials of degree at most four.",
+   "statement": "For every admissible official rate-1/2 row, with B*=floor(|F|/2^128) and ordinary worst-list size L_1(a), find a_L(C) such that L_1(a_L(C)) <= B* < L_1(a_L(C)-1). The complete branches B*=1,2 are now exact at a_L=3n/4. At the prize-max razor row the cyclic floor and exact-integer Johnson theorem prove k+2^34 <= a_L(C) <= a_IJ(C) on the remaining B*>=3 branches. Arbitrary constant interleaving arity is handled later by list_large_m_scope_closure. || BUDGET-THREE BOUNDED EDGE GEOMETRY (wave-11 audited, 2026-07-18): budgets B* in {1,2} are now a COMPLETE list-prize determination at a_L = 3n/4 \u2014 every common-support interleaving arity m >= 1 (rate_half_list_low_budget_all_arity_crossing, resting on the exact-crossing node + the interleaving collapse L1 <= 2 => L1^2 < q). BUDGET 3: any hypothetical 4-codeword witness at the Johnson predecessor 3n/4 - 1 reduces (six-matrix reduction -> split-pencil normal form -> Plucker gate) to EXACTLY 13 chambers \u2014 9 base-field split-unit Grassmann-line chambers (exceptional degrees {3,4,5,6,8}) + 4 balanced Grassmann scrolls whose rank-deficient branch is EMPTY (det C = b01^2(L12 L03 - L02 L13) != 0); the fourth-member residue is closed; BOTH censuses machine-enumerated AND independently re-enumerated at audit. OPEN: official-subgroup arithmetic in the 13 chambers; a full close moves the safe endpoint by exactly ONE step \u2014 the proved B*=3 bracket [k+2^34, 3n/4] is NOT moved by this classification (w10-H5-mirror note). Full pin bodies in the node folder. PIN DETAIL (verifier contract): the reduction factors any witness into the six incidence types of 4-wise RS agreement matrices; the split-pencil normal form is A_k b_ij+A_i b_jk=A_j b_ik with entries of degree at most two; the Plucker gate is b_01b_23-b_02b_13+b_03b_12=0 with edge polynomials of degree at most four. || WAVE-12 NOTE (2026-07-18): the single-fiber split-unit exclusion kills one construction ROUTE in all nine line chambers (each supported locator = one degree-d quotient fiber minus exceptional points; unconditional at official fields) \u2014 it closes ZERO chambers (the commit title overstates, w12-C2); the maximal-field degree collapse is maximal-row-only (n=2^41, e in {1,2}, unique cubic candidate 5*2^41+1 divisible by 7); chamber scoreboard: 0/13 closed, 13/13 further reduced.",
    "attack_surface": "For B*>=3, strengthen the exact-integer Johnson safe anchor with rate-half image-fiber/profile structure and construct a matching unsafe predecessor, or move the unsafe floor upward until the bounds meet.",
    "falsifier": "An admissible rate-half received word with more than B* codewords at an asserted safe agreement.",
    "notes": "SCOPE REPAIR 2026-07-18: the list-adjacency packet admitted that the wave-8 cyclic prefix theorem supplies only unsafety, but no red safe-side owner was req-wired. The exact-integer Johnson theorem supplies a nontrivial safe bracket. Explicit predecessor constructions now close B*=1,2 exactly; B*>=3 remains the honest adjacent-crossing leaf. It is distinct from rate_half_band_closure, whose live RH-ADJ statement is MCA/CA."
@@ -7467,6 +7467,74 @@
     "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/result.md",
     "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/verify.py",
     "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_low_distance_exceptional_prime_router",
+   "title": "H3 low-distance exceptional-prime router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For each fixed dyadic order, every prime supporting a cutoff-18 rich shifted-product fiber divides one explicitly enumerable cyclotomic collision norm whose Parseval distance is at most six. Galois and exchange orbits preserve the candidate union, reducing the fixed-order prime corridor to a finite certificate task.",
+   "refs": [
+    "background/nodes/f3_h3_low_distance_exceptional_prime_router/statement.md",
+    "background/nodes/f3_h3_low_distance_exceptional_prime_router/proof.md",
+    "background/nodes/f3_h3_low_distance_exceptional_prime_router/claim_contract.md",
+    "background/nodes/f3_h3_low_distance_exceptional_prime_router/dependency_subdag.md",
+    "background/nodes/f3_h3_low_distance_exceptional_prime_router/audit.md",
+    "background/nodes/f3_h3_low_distance_exceptional_prime_router/result.md",
+    "background/nodes/f3_h3_low_distance_exceptional_prime_router/verify.py",
+    "background/nodes/f3_h3_low_distance_exceptional_prime_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_maximal_field_degree_collapse",
+   "title": "Budget-three maximal-row field-degree collapse",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At n=2^41 and B*=3, every admissible field F_(p^e) has e in {1,2}. Prime rows satisfy p=1 mod 2^41 and quadratic rows satisfy p=+/-1 mod 2^40; the sole possible cubic interval candidate is divisible by seven.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/statement.md",
+    "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/proof.md",
+    "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/audit.md",
+    "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/result.md",
+    "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/verify.py",
+    "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_quadratic_scroll_primitive_module",
+   "title": "Budget-three quadratic scroll primitive module",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every quadratic budget-three chamber at d>=4 has coprime scroll generators of exact degrees (d-2,d-1) in pendant type or (d-2,d-2) in quadratic K_4-e. The module is the direct sum of <alpha,Xalpha> and <beta,Xbeta>, so its four locators are independent affine-linear combinations of a primitive generator pair.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/statement.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/proof.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/audit.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/result.md",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/verify.py",
+    "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_split_unit_single_fiber_exclusion",
+   "title": "Budget-three split-unit single-fiber exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "None of the nine split-unit budget-three chambers can arise by completing each locator in its constant relation to one degree-d quotient fiber with only its exceptional roots removed. Partial fractions embed the related locators into disjoint subsets of at most eight independent Vandermonde vectors.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_split_unit_single_fiber_exclusion/statement.md",
+    "background/nodes/rate_half_list_budget_three_split_unit_single_fiber_exclusion/proof.md",
+    "background/nodes/rate_half_list_budget_three_split_unit_single_fiber_exclusion/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_split_unit_single_fiber_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_split_unit_single_fiber_exclusion/audit.md",
+    "background/nodes/rate_half_list_budget_three_split_unit_single_fiber_exclusion/result.md",
+    "background/nodes/rate_half_list_budget_three_split_unit_single_fiber_exclusion/verify.py",
+    "background/nodes/rate_half_list_budget_three_split_unit_single_fiber_exclusion/verify_audit.py"
    ]
   }
  ],
@@ -14464,6 +14532,46 @@
   {
    "from": "rate_half_list_budget_three_quadratic_scroll_full_rank",
    "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_quadratic_scroll_full_rank",
+   "to": "rate_half_list_budget_three_quadratic_scroll_primitive_module",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_quadratic_scroll_primitive_module",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rules_freeze",
+   "to": "rate_half_list_budget_three_maximal_field_degree_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_linear_grassmann_atlas",
+   "to": "rate_half_list_budget_three_split_unit_single_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_split_unit_single_fiber_exclusion",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_rich_fiber_norm_cutoff",
+   "to": "f3_h3_low_distance_exceptional_prime_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_low_distance_exceptional_prime_router",
+   "to": "f3_h3_mobius_excess_half",
    "kind": "ev"
   }
  ]

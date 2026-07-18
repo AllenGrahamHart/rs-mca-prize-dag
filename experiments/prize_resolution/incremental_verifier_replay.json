@@ -1,0 +1,491 @@
+{
+  "baseline": {
+    "historical_pass_count": 238,
+    "manifest_sha256": "9272997e5b8bb40bc4003a291b6aa20a5f64785f9b5291aa7832dd99ca095ec1",
+    "path": "experiments/prize_resolution/modal_verifier_replay.json",
+    "replay_sha256": "3a14e204f33a1c957ff8b2542048e0fa8ecc8ff79ada3499e3d8ca02f90ab31f",
+    "retired_scripts": [],
+    "unchanged_current_count": 231
+  },
+  "complete": true,
+  "current_manifest_sha256": "d0732d5ca536f63b1a2796f037d6996791c2e3dd2417d19232c4cc7c36bf6c89",
+  "delta": {
+    "changed_baseline_scripts": [
+      "background/nodes/mca_quadratic_prize_rows/verify.py",
+      "background/nodes/rate_half_cyclic_simple_pole_mca_floor/verify.py",
+      "background/nodes/rate_half_cyclic_simple_pole_mca_floor/verify_audit.py",
+      "critical/nodes/f3_h3_mobius_excess_half/verify.py",
+      "critical/nodes/list_large_m_scope_closure/verify.py",
+      "critical/nodes/rate_half_cyclic_rotated_prefix_floor/verify_audit.py",
+      "critical/nodes/rate_half_list_adjacent_crossing/verify.py"
+    ],
+    "execution": "local via tools/ramguard tiny",
+    "expected_scripts": [
+      "background/nodes/compiler/verify.py",
+      "background/nodes/descriptor/verify.py",
+      "background/nodes/f3_h3_low_distance_exceptional_prime_router/verify.py",
+      "background/nodes/f3_h3_low_distance_exceptional_prime_router/verify_audit.py",
+      "background/nodes/mca_quadratic_prize_rows/verify.py",
+      "background/nodes/mca_quadratic_prize_rows/verify_rate_half_slice.py",
+      "background/nodes/rate_half_cyclic_simple_pole_mca_floor/verify.py",
+      "background/nodes/rate_half_cyclic_simple_pole_mca_floor/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/verify.py",
+      "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_intersection_reduction/verify.py",
+      "background/nodes/rate_half_list_budget_three_intersection_reduction/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_k4_grassmann_line/verify.py",
+      "background/nodes/rate_half_list_budget_three_k4_grassmann_line/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/verify.py",
+      "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/verify.py",
+      "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_path_mobius_transversal/verify.py",
+      "background/nodes/rate_half_list_budget_three_path_mobius_transversal/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_path_power_two_witness/verify.py",
+      "background/nodes/rate_half_list_budget_three_path_power_two_witness/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_plucker_edge_gate/verify.py",
+      "background/nodes/rate_half_list_budget_three_plucker_edge_gate/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/verify.py",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/verify.py",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/verify.py",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/verify.py",
+      "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_split_fiber_atlas/verify.py",
+      "background/nodes/rate_half_list_budget_three_split_fiber_atlas/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/verify.py",
+      "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_split_unit_single_fiber_exclusion/verify.py",
+      "background/nodes/rate_half_list_budget_three_split_unit_single_fiber_exclusion/verify_audit.py",
+      "background/nodes/rate_half_list_low_budget_all_arity_crossing/verify.py",
+      "background/nodes/rate_half_list_low_budget_all_arity_crossing/verify_audit.py",
+      "background/nodes/rate_half_list_low_budget_certificate_generator/verify.py",
+      "background/nodes/rate_half_list_low_budget_certificate_generator/verify_audit.py",
+      "critical/nodes/f3_h3_mobius_excess_half/verify.py",
+      "critical/nodes/list_large_m_scope_closure/verify.py",
+      "critical/nodes/rate_half_cyclic_rotated_prefix_floor/verify_audit.py",
+      "critical/nodes/rate_half_list_adjacent_crossing/verify.py"
+    ],
+    "results": [
+      {
+        "returncode": 0,
+        "script": "background/nodes/compiler/verify.py",
+        "seconds": 0.036194,
+        "sha256": "350fb6f7bb9052dc6dec992749110437adfdde3418488a334c40f32cd740e571",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "PRIZE_CERTIFICATE_COMPILER_PASS positive=1 refusal_mutations=10\nCOMPILER_DEPENDENCY_PINS_PASS dependencies=3\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/descriptor/verify.py",
+        "seconds": 0.035282,
+        "sha256": "5ebedbae046199766390519084ea6d5580a9fabc21ddab1ea67326f28eb30c01",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "PRIZE_ROW_DESCRIPTOR_PASS pinned=1 dependencies=2 wild_regressions=104 mutations=7/7\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/f3_h3_low_distance_exceptional_prime_router/verify.py",
+        "seconds": 3.722314,
+        "sha256": "df4dda84d104f60706ac6e99e2e74836436e45022d42677f4b6001b186819eb4",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "F3_H3_LOW_DISTANCE_EXCEPTIONAL_PRIME_ROUTER_PASS orbit_distance_checks=2022792 boundary6=49708 packing=10to7 n8192_orbit_floor=530590075 candidate_union=finite dag=2/2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/f3_h3_low_distance_exceptional_prime_router/verify_audit.py",
+        "seconds": 0.103181,
+        "sha256": "11ba6b742bb5ce9eac59ad56ff8b1d4a3ab2bf05dac92e397910cec731dd6766",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_F3_H3_LOW_DISTANCE_EXCEPTIONAL_PRIME_ROUTER_PASS basis_orbit_checks=58632 exchange_sign_checks=7518\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/mca_quadratic_prize_rows/verify.py",
+        "seconds": 0.155183,
+        "sha256": "dde0128103fa1bc6b404a427e0a2643c3a14c1f798a413664b2ff78f841cee71",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "MCA_QUADRATIC_PRIZE_ROWS_PASS proof_rows=32654 toy_max=(1, 2) rate_half_budget_max=389500552609 rate_half_field_upper=132540169959144315698788704090115531231543332700160 r1_2:n=2^41,pbits=167,B=389500552609,grid=(389500552609-1)/n,sup=389500552609/n r1_4:n=2^42,pbits=169,B=1210584858040,grid=(1210584858040-1)/n,sup=1210584858040/n r1_8:n=2^43,pbits=170,B=2879806199253,grid=(2879806199253-1)/n,sup=2879806199253/n r1_16:n=2^44,pbits=171,B=6233898019554,grid=(6233898019554-1)/n,sup=6233898019554/n\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/mca_quadratic_prize_rows/verify_rate_half_slice.py",
+        "seconds": 0.049849,
+        "sha256": "21abb098290a6b7347f132b95e4366afb4c64971df79395a8948ba0b149ede6d",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "MCA_QUADRATIC_RATE_HALF_SLICE_PASS budget_max=389500552609 field_upper=132540169959144315698788704090115531231543332700160 small_monotonic_checks=65518 dag=2/2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_cyclic_simple_pole_mca_floor/verify.py",
+        "seconds": 0.030445,
+        "sha256": "5846ce6b5f825b3447a3f2940c3b8a76bf27018981b85f0cd02ec619827edd2b",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_CYCLIC_SIMPLE_POLE_MCA_FLOOR_PASS toy=(3, 2, 3) cap_count_bits=251 cap_list_bits=243 reciprocal_lt_2^83\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_cyclic_simple_pole_mca_floor/verify_audit.py",
+        "seconds": 0.031612,
+        "sha256": "4f980e5c2baf02e3faebfac45ff234d4924431317d51bd74346673afda53ea4d",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_CYCLIC_SIMPLE_POLE_MCA_FLOOR_PASS list_bits=243 bad_slope_bits=216 required_list_bits=129 saturated_regime=1\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/verify.py",
+        "seconds": 0.04846,
+        "sha256": "2d8b6c4952965f221cf4e80d08e9f2dd570015e373e818a84f69c03b1393ddce",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_CYCLE_BIMOBIUS_TRANSVERSAL_PASS mobius_maps=2 residual_root_cap=6 exact_two_threshold=8 dag=3/3\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/verify_audit.py",
+        "seconds": 0.01849,
+        "sha256": "15904dc05d5e59d0ec6fbe558c74bcbb47145ee191dc62db9afca251a89c1006",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_CYCLE_BIMOBIUS_TRANSVERSAL_PASS graph_identity_points=99 injections=2 mutation_constant=1\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_intersection_reduction/verify.py",
+        "seconds": 0.040018,
+        "sha256": "4e695dc782a0d4fc39807eb4fffc57bfce381124e33a2cb3dabbec525d3021ab",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_INTERSECTION_REDUCTION_PASS incidence_types=6 toy_rank=11/12 agreements=(5, 5, 5, 5) pattern=(0, 1, 2, 0) dag=1/1\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_intersection_reduction/verify_audit.py",
+        "seconds": 0.015803,
+        "sha256": "da34a9377ac730b89904d0588a20fa7d5db84b64dd82100aef71f50feb18fc81",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_INTERSECTION_REDUCTION_PASS raw_patterns=6 impossible_singleton_labels=10\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_k4_grassmann_line/verify.py",
+        "seconds": 0.032042,
+        "sha256": "280b08068ede18db06568aa3b18a331855cf4e9a3863c128349fad97a32076e6",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_K4_GRASSMANN_LINE_PASS edge_roots=6 annihilator_nonzero=4 exceptional_degree=8 dag=3/3\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_k4_grassmann_line/verify_audit.py",
+        "seconds": 0.017139,
+        "sha256": "603473214a78f694895d52623b90eb71efada41c534fbd71f1d803abd73b36db",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_K4_GRASSMANN_LINE_PASS plucker_points=103 roots=6 zero_cofactor_mutation=1/1\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/verify.py",
+        "seconds": 0.03213,
+        "sha256": "43cb57a39eff7ceae352bafac91376f0c464ef450df76456c6a678d5f6bf1b95",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_LINEAR_GRASSMANN_ATLAS_PASS linear_chambers=9 quadratic_chambers=4 relation_supports=0123,013 dag=3/3\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/verify_audit.py",
+        "seconds": 0.016491,
+        "sha256": "c65abbe802310d99383c6dc3e1a48357db61bb6dd46cde08a86215c78c432727",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_LINEAR_GRASSMANN_ATLAS_PASS linear=9 quadratic=4 path_zero_support=2/2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/verify.py",
+        "seconds": 0.032107,
+        "sha256": "365f3c9b91bb9778719f219396e515f065261e917a1225dec190f60636e36533",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_MAXIMAL_FIELD_DEGREE_COLLAPSE_PASS degrees=1,2 cubic_candidates=1 cubic_composite=1 dag=2/2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/verify_audit.py",
+        "seconds": 0.015677,
+        "sha256": "112bdc5ccd8b75aa52a3c2978f8fdb081b11271758d5df9b745504f3ad5db9eb",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_MAXIMAL_FIELD_DEGREE_COLLAPSE_PASS cubic_interval=1 divisor7=1 high_degree_exclusions=126\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_path_mobius_transversal/verify.py",
+        "seconds": 0.029821,
+        "sha256": "f69f62e5b9d9561a6d7f9ae4c2bcb6c191316e95502976cac4ac27e71c1cce32",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_PATH_MOBIUS_TRANSVERSAL_PASS pencils=2 mobius_injective=2 exact_three_thresholds=3,6 dag=2/2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_path_mobius_transversal/verify_audit.py",
+        "seconds": 0.016254,
+        "sha256": "cbe478602533e4aa15b8a3b5bfaf8bfaca2ecd81a55ca62a367610c3f6c9fca9",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_PATH_MOBIUS_TRANSVERSAL_PASS order8_members=4 complement_vote=14,14 mutation=1/1\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_path_power_two_witness/verify.py",
+        "seconds": 0.031297,
+        "sha256": "6a79552899b7694e971c43292f889c58b7536cce697d2e60c5f1a3183a7b83ce",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_PATH_POWER_TWO_WITNESS_PASS domain=16 agreement=11x4 type=path rank=23/24 first_pencil_members=3 dag=1/1\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_path_power_two_witness/verify_audit.py",
+        "seconds": 0.027647,
+        "sha256": "d4cfb634f97a61855382856f2d03dca5ad9448870f85423f0cdeccdaec4efbad",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_PATH_POWER_TWO_WITNESS_PASS agreements=(11, 11, 11, 11) mutation=(11, 11, 11, 10) proper_F97_assignments=3830400 witnesses=0\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_plucker_edge_gate/verify.py",
+        "seconds": 0.031021,
+        "sha256": "cb31340c4ed56d5e8e3224e51e75250e4d95f1b43e0cab02df7954dda5cec364",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_PLUCKER_EDGE_GATE_PASS plucker_terms=6 edge_types=6 max_edge_degree=2 max_exception_degree=8 dag=2/2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_plucker_edge_gate/verify_audit.py",
+        "seconds": 0.024016,
+        "sha256": "d0b7a98f5372a663329c91c801d20e13915ecca74220e679a6fff2d1b30944fe",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_PLUCKER_EDGE_GATE_PASS plucker=1/1 minors=6 pencil=4/4 factorization=1/1 mutations=2/2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/verify.py",
+        "seconds": 0.030633,
+        "sha256": "b7861d2f5dd08d27cf78a48a0bc3ee27d9b6ced105912a8df5517723a60dcaae",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_QUADRATIC_SCROLL_ATLAS_PASS quadratic_chambers=4 balanced_rows=4 exceptional_degrees=4,6 dag=3/3\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/verify_audit.py",
+        "seconds": 0.017765,
+        "sha256": "6cbc1c63a2bb9346211ae8167996b8dd1702139ed47a2cc64a33861a633c6e71",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_QUADRATIC_SCROLL_ATLAS_PASS rank_branches=4,3 canonical_relations=2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/verify.py",
+        "seconds": 0.033803,
+        "sha256": "a6ea4d2f7b56e15b1c31f0e82a93009303cd894b7627822b344b2ac615150eee",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_QUADRATIC_SCROLL_FULL_RANK_PASS quadratic_chambers=4 determinant_formula=1 rank_deficient=0 dag=2/2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/verify_audit.py",
+        "seconds": 0.024107,
+        "sha256": "08ff91cee03edb52bbdaf2d91ffaae421f616b6553224c4e046e39763e7fef2f",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_QUADRATIC_SCROLL_FULL_RANK_PASS rational_determinant=2 pendant_nonzero=1 k4e_leading_match=1\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/verify.py",
+        "seconds": 0.030302,
+        "sha256": "9bb02e1e6829c1db001595ed45d406df345539db410bd7fef369e1dcbe36f93b",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_QUADRATIC_SCROLL_PRIMITIVE_MODULE_PASS chambers=4 coprime=1 direct_sum=4 degree_profiles=2 dag=2/2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/verify_audit.py",
+        "seconds": 0.017145,
+        "sha256": "f9fec28df430976c55e66ad4578001c4227a17def91a5f129855998d2cf3c7c5",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_QUADRATIC_SCROLL_PRIMITIVE_MODULE_PASS gcd_invariance=2 direct_sum=2 affine_divisibility=3\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/verify.py",
+        "seconds": 0.032689,
+        "sha256": "38eec7adb980ef5bf1ee02aee18a5bf88668ef3c1581dedebb3a3ea8e8f5464e",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_RESIDUAL_TRANSVERSAL_ATLAS_PASS new_exact_three=11 total_exact_three=13 dense_exact_two=2 max_threshold=13 dag=4/4\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/verify_audit.py",
+        "seconds": 0.024301,
+        "sha256": "72357d8fa2b39fcd52d315bae870f05171031af525e4ba8018d8ef876fd0e6cf",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_RESIDUAL_TRANSVERSAL_ATLAS_PASS fiber_caps=1,2,2,2 constant_mutation=1/1\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_split_fiber_atlas/verify.py",
+        "seconds": 0.032624,
+        "sha256": "f88aeef885187e0c1afb3e6df06a30022403dbeb967ea7ed205dfc0c7e39b287",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_SPLIT_FIBER_ATLAS_PASS degree_chambers=13 split_pencils=13 cycle_pencils=0 pendant_quadratic=1 vote_caps=d:4,d-1:4@d>=6 dag=2/2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_split_fiber_atlas/verify_audit.py",
+        "seconds": 0.016453,
+        "sha256": "b2aa25fb66d12c077eb627d4ba1609e210ea7362c64617e9273bcd5d69716375",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_SPLIT_FIBER_ATLAS_PASS chambers=3+4+2+1+2+1 pencils=1+0+2+4+2+4 mutation=1/1\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/verify.py",
+        "seconds": 0.029332,
+        "sha256": "1576cada7bc7c1811ff2ab52dd59e76a93bf8f7867156a41fc2d74a745afcfd0",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_SPLIT_PENCIL_NORMAL_FORM_PASS types=6 quadratic_slots=3 product_ledgers=6 dag=2/2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/verify_audit.py",
+        "seconds": 0.018737,
+        "sha256": "6749ae835ab29a71d40d9897f044fc735292b3a0bbcc4c3b3e272bb006ca7f57",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_SPLIT_PENCIL_NORMAL_FORM_PASS pairs=6 triangles=4 products=2 mutation=1/1\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_split_unit_single_fiber_exclusion/verify.py",
+        "seconds": 0.03017,
+        "sha256": "7b38d5c8107af674e150fcb146ea94756c8e17cc44ee53f1b7f5570ab801e510",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_BUDGET_THREE_SPLIT_UNIT_SINGLE_FIBER_EXCLUSION_PASS chambers=9 type_rows=5 max_removed=8 same_fiber_excluded=1 vandermonde=1 dag=2/2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_budget_three_split_unit_single_fiber_exclusion/verify_audit.py",
+        "seconds": 0.017597,
+        "sha256": "7428bfb91161876cdb71be9d3463d7df1b9a2a31b153192a46d6624eab35caba",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_BUDGET_THREE_SPLIT_UNIT_SINGLE_FIBER_EXCLUSION_PASS fixtures=5 independent=5 partial_fraction_divisions=19\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_low_budget_all_arity_crossing/verify.py",
+        "seconds": 0.029239,
+        "sha256": "344db21fdcefe1625c8447e5102343c3b3e5b6504ebf9f931e9750480cc911c8",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_LOW_BUDGET_ALL_ARITY_CROSSING_PASS budgets=2 arity=all safe=1649267441664 radius=549755813888 dag=4/4\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_low_budget_all_arity_crossing/verify_audit.py",
+        "seconds": 0.016341,
+        "sha256": "50304dcc325e7ad8dd7182bb88cd366d40d1a9f64712494a5f17f6d6387be67d",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_LIST_LOW_BUDGET_ALL_ARITY_CROSSING_PASS budgets=2 strictness_controls=2 endpoint=1/1\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_low_budget_certificate_generator/verify.py",
+        "seconds": 0.0426,
+        "sha256": "7895f27f52b50133453eb77cf5ab79a927b843a267ce8c60dbb1547a24e2e044",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_LOW_BUDGET_CERTIFICATE_AUDIT_PASS positive=4 refusals=8/8 tampering=1/1\nRATE_HALF_LIST_LOW_BUDGET_CERTIFICATE_GENERATOR_PASS dependencies=4 dag=5/5\n"
+      },
+      {
+        "returncode": 0,
+        "script": "background/nodes/rate_half_list_low_budget_certificate_generator/verify_audit.py",
+        "seconds": 0.036387,
+        "sha256": "98e736ce8f14849ffd7d62c5b2b35e7c0710f178185fb00056f6674df7824b67",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "RATE_HALF_LIST_LOW_BUDGET_CERTIFICATE_AUDIT_PASS positive=4 refusals=8/8 tampering=1/1\n"
+      },
+      {
+        "returncode": 0,
+        "script": "critical/nodes/f3_h3_mobius_excess_half/verify.py",
+        "seconds": 0.022704,
+        "sha256": "424e3ad4e80a1618ebb2b463815709b6157fef7156e8d11ae02133883fcd0579",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "H3_MOBIUS_EXCESS_COMPILER_PASS official_orders=29 baseline=18 weighted_excess=300n2/17 double_residual=283n2+34n-17 rich_nonswap_sufficient=1200n2\n"
+      },
+      {
+        "returncode": 0,
+        "script": "critical/nodes/list_large_m_scope_closure/verify.py",
+        "seconds": 0.032629,
+        "sha256": "584e1bf49fcac0af440f7d0f49d1f17944d8bc3e72257574f5bc18e33e38ab9e",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "{\n  \"checks\": [\n    {\n      \"name\": \"node_exists\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"node_is_conditional\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"theorem_is_proved\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"exact_req_inputs\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"direct_consumer_is_list_grand\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"base_statement_is_m1_only\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"grand_consumes_arity_transport\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"direct_base_root_edge_is_evidence\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"conditional_names_theorem\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"conditional_uses_base_instance\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"conditional_handles_zero_safe_list\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"conditional_pins_threshold\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"theorem_states_general_bound\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"proof_has_collision_count\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"proof_has_diagonal_lower\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"packet_complete\",\n      \"ok\": true\n    }\n  ],\n  \"node\": \"list_large_m_scope_closure\",\n  \"nonclaim\": \"This audit checks wiring and proof pins; the human-readable packet contains the general theorem proof.\",\n  \"status\": \"PASS\"\n}\n"
+      },
+      {
+        "returncode": 0,
+        "script": "critical/nodes/rate_half_cyclic_rotated_prefix_floor/verify_audit.py",
+        "seconds": 0.025243,
+        "sha256": "e1cc064f027f3f4d91a5126191742b627bad4a374220645f59a0084130b065b8",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "AUDIT_RATE_HALF_CYCLIC_ROTATED_PREFIX_FLOOR_PASS support_checks=3472 constant_checks=21 cap_margin_bits=114.650300488 q_boundary_bits=370.650300488320 cap_uniform_extremality_checks=74\n"
+      },
+      {
+        "returncode": 0,
+        "script": "critical/nodes/rate_half_list_adjacent_crossing/verify.py",
+        "seconds": 0.030689,
+        "sha256": "22fbf774cb8bd6e8892f5ee7fcf9ad1e7188f31fd72038d523bc3f86995e4a21",
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_tail": "k\": true\n    },\n    {\n      \"name\": \"statement_pins_ordinary_object\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_threshold\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_razor_lower_bound\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_safe_anchor\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_exact_low_budgets\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_budget_three_reduction\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_split_pencil_normal_form\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_plucker_gate\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_split_fiber_atlas\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_path_mobius_transversal\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_path_power_two_witness\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_cycle_bimobius_transversal\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_residual_transversal_atlas\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_k4_grassmann_line\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_linear_grassmann_atlas\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_quadratic_scroll_atlas\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_quadratic_scroll_full_rank\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_quadratic_scroll_primitive_module\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_maximal_field_degree_collapse\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"statement_pins_split_unit_single_fiber_exclusion\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"floor_disclaims_safe_side\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"packet_complete\",\n      \"ok\": true\n    }\n  ],\n  \"node\": \"rate_half_list_adjacent_crossing\",\n  \"nonclaim\": \"Budgets one and two are exact; the adjacent crossing remains open for B*>=3.\",\n  \"status\": \"PASS\"\n}\n"
+      }
+    ],
+    "timeout_seconds_per_script": 30.0
+  },
+  "generated_utc": "2026-07-18T14:09:39.951448+00:00",
+  "schema": "prize-verifier-composed-replay-v1"
+}

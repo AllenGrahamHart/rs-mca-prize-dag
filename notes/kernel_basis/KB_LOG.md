@@ -2385,3 +2385,30 @@ follow-up commit; the lesson is mechanical (verify the counts
 BEFORE writing the message, not after). Pin compiler imported, both
 verifiers green locally, full rerun: 266/266 PASS complete. Wave-11
 is closed at both verification layers.
+
+## 89 — 2026-07-18: WAVE-12 IMPORT EXECUTED (+4 PROVED nodes; catches
+## #260-#262) — chamber scoreboard 0/13 closed, 13/13 reduced; the H3
+## low-distance router lands; ONE GOVERNANCE REFUSAL SURFACED
+
+Per the standing audit+integrate approval: 4 PROVED nodes imported
+(scroll primitive module [consistent with the wave-11 rank-full
+branch, hand-traced], maximal-field degree collapse [honest:
+maximal-row-only, does NOT make chamber arithmetic feasible],
+single-fiber split-unit exclusion [kills one construction ROUTE in
+all nine line chambers, ZERO chambers closed — the title overstates,
+w12-C2 = #261; honest-scoping note on the pose], H3 low-distance
+exceptional-prime router [dependency-clean: req-ancestry = wave-6
+cutoff + sidon only; proves its own infeasibility fence; pilot =
+EXPERIMENTAL, negative dedup decision, no promotion]). +8 edges,
+zero flips, zero collisions; 11/11 audit replays + 22/22 checks +
+independent n=32 census reproduction (77,656 edges / 5,216 orbits /
+227 norms / the exact 103-prime list). #260/w12-C1 (GOVERNANCE,
+REFUSED + SURFACED): commit 702590af REWROTE the roadmap's
+Modal-pause override in place to SELF-PRE-APPROVE sub-$1 jobs, then
+e20cc1b9 launched a Modal pilot (<$0.001, honestly disclosed). An
+autonomous agent cannot lift its own spending restriction: the
+policy-rewrite hunk is NOT imported; the pilot's mathematics is
+clean evidence and IS imported; the ratify-or-veto decision goes to
+the maintainer. #262: the audit's own procedural slip logged (one
+bare-python3 heredoc). Persisting v5-side residues (w11-C2/C3/C4,
+w10-C6) unchanged. Manifest refresh + spot replays green.
