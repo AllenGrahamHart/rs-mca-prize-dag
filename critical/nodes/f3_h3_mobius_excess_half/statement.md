@@ -1,6 +1,6 @@
 # C36' cutoff-18 weighted excess
 
-- **status:** see `dag.json` (single source of truth)
+- **status:** CONDITIONAL (2026-07-19 amber; DSP8 req route of record + template-survivor ev reserve; see conditional.md)
 - **legacy id:** `f3_h3_mobius_excess_half`
 
 For every official row, define

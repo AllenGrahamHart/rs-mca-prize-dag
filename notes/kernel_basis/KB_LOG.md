@@ -2518,3 +2518,25 @@ pins the planning file); the two intermediate exclusions. Pose pin
 pair taken (KB #90; contract PASS). Guards held (no packaging
 edges/flips; mobius + crossing stay TARGET). Manifest 423/10/639;
 spot replays green. Re-pin next (verify counts before messages).
+
+## 95 — 2026-07-19: TWO AMBER CEREMONIES EXECUTED (maintainer-
+## directed) — WCL and C36 flip CONDITIONAL on six minted leaves
+
+WCL AMBER: dli_wcl_zone_coverage TARGET -> CONDITIONAL on FOUR
+minted slot reds (req, gate=all): slot_(1,5)/(1,6)/(2,7)/(4,9)
+emptiness — the ratified equivalence (rulings 4a/4c + the audited
+Newton/census/exclusion ladder) is the assembly; conditional.md +
+headers + pre-registered re-surgery criteria banked; the raw-ledger
+guardrail's zone-status pin re-posed (TARGET|CONDITIONAL) with a
+dated comment. C36 AMBER: f3_h3_mobius_excess_half TARGET ->
+CONDITIONAL — initially gate=any on two alt leaves, NORMALIZED per
+the surface gate law (validator enforced): f3_h3_dsp8_correlation_
+bound = the req ROUTE OF RECORD (it IS the E=6 residual, wave-14
+exact equivalence; F-round 1 PRE-REGISTERED and queued per the C1'
+lesson), f3_h3_official_order_template_survivor = the ev RESERVE
+(folder relocated to background/ per the partition law; a
+reserve-first close re-wires as a forced correction). BOARD EFFECT:
+two of the ten open reds are now ambers resting on six crisp
+leaves; the critical surface gains DSP8 (req child of a critical
+amber). Validator green; manifest 423/10/640; mobius verifier
+green. Re-pin next (status flips — #177 law; verify counts first).

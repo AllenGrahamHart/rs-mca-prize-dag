@@ -1,6 +1,6 @@
 # DLI primitive-ledger zone coverage
 
-- **status:** see `dag.json`
+- **status:** CONDITIONAL (2026-07-19 amber; four slot reds req-wired; see conditional.md)
 
 At every official production row, after generated-field normalization and
 first-owner de-duplication of multiplier shadows and level lifts, every one of

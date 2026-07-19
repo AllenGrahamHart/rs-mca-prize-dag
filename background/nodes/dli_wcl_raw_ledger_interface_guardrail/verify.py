@@ -78,7 +78,8 @@ def main() -> None:
     lattice = LATTICE.read_text()
     structural = {
         "guardrail_proved": nodes[NODE]["status"] == "PROVED",
-        "zone_target": nodes[ZONE]["status"] == "TARGET",
+        # 2026-07-19 amber: the zone is CONDITIONAL on the four slot reds; the raw-ledger interface is unchanged
+        "zone_target": nodes[ZONE]["status"] in ("TARGET", "CONDITIONAL"),
         "evidence_edge": (NODE, ZONE, "ev") in edges,
         "c1_raw_sum": "sum_(primitive O" in c1 and "2N*2^-w(O)" in c1,
         "wcl_raw_pin": "RAW primitive signed-shift ledger" in " ".join(wcl.split()) and "no shadow/lift/cluster de-duplication" in " ".join(wcl.split()),
