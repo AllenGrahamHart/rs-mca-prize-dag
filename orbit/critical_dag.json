@@ -537,8 +537,13 @@
    "title": ""
   },
   {
-   "id": "f3_h3_mobius_excess_half",
+   "id": "f3_h3_dsp8_correlation_bound",
    "label": "UNPROVED",
+   "title": "DSP8: split-pencil/line-fiber correlation bound"
+  },
+  {
+   "id": "f3_h3_mobius_excess_half",
+   "label": "CONDITIONAL",
    "title": "C36' weighted Mobius rich-fiber excess is at most n^2/2"
   },
   {
@@ -2501,6 +2506,10 @@
   {
    "from": "rate_half_list_adjacent_crossing",
    "to": "list_adjacency_closing"
+  },
+  {
+   "from": "f3_h3_dsp8_correlation_bound",
+   "to": "f3_h3_mobius_excess_half"
   }
  ]
 }
