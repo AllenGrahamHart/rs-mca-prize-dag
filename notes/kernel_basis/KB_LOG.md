@@ -2473,3 +2473,34 @@ wc -l before driving copy loops; (2) guard loop variables against
 empty ([ -n "$n" ] || continue); (3) the re-pin caught it — the
 execution layer remains the net. Re-pin rerunning for the genuine
 count.
+
+## 93 — 2026-07-19: WAVE-14 AUDIT BANKED (pin dce7460c; w14-C1..C4 =
+## catches #284-#287) — C36 honestly reduced, not closed; all 28
+## nodes import-eligible
+
+CENTERPIECE: the C36 red is NOT closed and nothing claims it is —
+the five H3 nodes deliver (i) a coupled-ideal fixed-order sieve
+(positive Y_18 forces p | Norm(alpha_F,alpha_G,theta,lambda) <=
+6^(n/4)/4; zero-coupling locus exactly {x,y,z}={q,-q,-q^2},
+w=q^4, 3(n-4)/2 anchors — auditor brute-forced 6/18/42 at
+n=8/16/32) and (ii) an EXACT integer reformulation of the E=6
+residual: 10 J_25^0 + 17 J_25^A <= 892 n^2 (J=8D exact) between
+disjoint split-pencil members and the affine line fiber. EXACT
+RESIDUAL: the DSP8 correlation bound (analytic) + the official-
+order template generator (CR-001 updated, deferred). TRACE
+SYSTEMS: neither closed — one stratum of the D*=1 system exactly
+normal-formed (b=0,c=z=1 branch); D*=0 untouched. DELETED-PAIR:
+reduced to 12 gcd triples per official p (Legendre POLYNOMIALS
+gate, sigma = 2H_{4M-1}(t); torsion-necessity fence blocks
+shortcuts); official batch honestly DEFERRED as CR-002-L ("a
+theorem/algorithm request, not a request to start containers").
+Bonus: two genuine intermediate exclusions (the maximal antipodal
+floor EMPTY; a 4.58e9-degree band EMPTY). FORENSICS: +28 PROVED /
+0 flips (NO fourth packaging attempt), ZERO new Modal launches
+(#260 backlog stays 9), manifest 1072/1072, pose contract PASS.
+CATCHES: #284 (mobius attack_surface rewritten in place a SECOND
+time — restore + addendum at import), #285 (undated appends), #286
+(IMPORT HAZARD: the Legendre verify.py pins markers inside
+notes/PRIZE_COMPUTE_REQUESTS.md — CR-002-L must land in the SAME
+import commit; flag to Codex: stop pinning planning files), #287
+(15/28 folders lack verify_audit.py). Import awaits the go.
