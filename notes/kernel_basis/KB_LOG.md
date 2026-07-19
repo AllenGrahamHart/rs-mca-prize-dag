@@ -2454,3 +2454,22 @@ deferred to PRIZE_COMPUTE_REQUESTS.md) — the ratify-or-veto
 decision now covers all 9, WITH THE MAINTAINER. Manifest
 759/20/583; validator green; Modal re-pin next (verify counts
 before messages).
+
+## 92 — 2026-07-19: CATCH #283 (self-caught via the re-pin): the
+## wave-13 copy loop mirrored the full node tree one level deep
+
+An empty trailing line in w13_newnodes.txt made one loop iteration
+run with n="" — the ls-tree guard passed on the bare directory,
+the prefix-strip pattern (with its doubled slash) failed to match,
+and v6's ENTIRE background/nodes + critical/nodes sets were copied
+NESTED (background/nodes/background/nodes/...); git add -A then
+committed the mirror and --refresh-manifest registered 377 phantom
+scripts (759 total). The 134 re-pin FAILs were ALL phantoms
+(ROOT-relative resolution breaks at the doubled depth); every
+correctly-placed script PASSED (625). CLEANUP: both doubled trees
+git-rm'd; manifest re-refreshed to 382/10/583; validator green.
+LESSONS (mechanical): (1) validate list files with `grep -c .` not
+wc -l before driving copy loops; (2) guard loop variables against
+empty ([ -n "$n" ] || continue); (3) the re-pin caught it — the
+execution layer remains the net. Re-pin rerunning for the genuine
+count.
