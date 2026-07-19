@@ -1,0 +1,65 @@
+{
+  "aggregate_candidate_digest": "2a79e7c48a1e42f7870711ba4ecb39213e57abdb33c5b445938c6ce4636fc09d",
+  "aggregate_factor_digest": "577ed61741ff183fd74e9a81d33bafa702187255de674b9587cb8b7a7d2bae11",
+  "aggregate_seconds": 0.069426,
+  "batch_count": 2,
+  "batch_size": 64,
+  "cache_hits": 2,
+  "client_errors": [],
+  "covered_rows": 128,
+  "errors": [],
+  "factor_records": 362,
+  "high_gate_cases": [],
+  "max_batch_seconds": 238.767446,
+  "max_factor_seconds": 238.623878,
+  "max_norm_bits": 284,
+  "max_prime_bits": 261,
+  "max_v2_prime_minus_1": 17,
+  "prime_groups": [
+    {
+      "batch_indices": [
+        0,
+        1
+      ],
+      "digest": "80a595a26fd2d815b57cff09be7f38481b19137149c83bc92f0a41456699c07f",
+      "group_index": 0,
+      "prime_count": 309,
+      "seconds": 1.189947,
+      "status": "COMPLETE"
+    }
+  ],
+  "prime_vocabulary": {
+    "distinct_primes": 309,
+    "group_count": 1,
+    "max_prime_bits": 261,
+    "max_v2_prime_minus_1": 17,
+    "prime_digest": "80a595a26fd2d815b57cff09be7f38481b19137149c83bc92f0a41456699c07f",
+    "schema": "dli-wcl-weight5-recursive-norm-prime-vocabulary-v1",
+    "seconds": 0.377193,
+    "status": "COMPLETE"
+  },
+  "representative_sha256": "9ac0ca650e704a13514180fe2d8bcea94943c771f125b3942888a6aba8c87f00",
+  "requested_rows": 128,
+  "resolved_rows": 126,
+  "run_id": "weight5-recursive-norm-full-v2",
+  "schema": "dli-wcl-weight5-recursive-norm-full-v2",
+  "scope": "prefix test",
+  "source_sha256": "0a1e34148c5b03a6189f02b454a82a23e4c0a2b2bcfe391350aee9713a8c191f",
+  "status": "PARTIAL",
+  "unresolved_cases": [
+    {
+      "class_index": 60,
+      "key": 481708606464,
+      "norm": "9713728501773981175967361710515053627051852159955921260871773319271597057",
+      "norm_bits": 243,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 61,
+      "key": 481708606976,
+      "norm": "672855817578974998306911691369608470843368411921501350533834874976976774437578399233",
+      "norm_bits": 279,
+      "reason": "FACTOR_TIMEOUT_60S"
+    }
+  ]
+}

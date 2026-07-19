@@ -2574,3 +2574,33 @@ constructive (build rich primes from the norm set, don't scan).
 One ops catch (a pmax fence voided a shard's window — caught by
 the rows=0 summary, re-run clean, zero coverage loss). All
 controls exact; dual-implementation equality on every rich row.
+
+## 98 — 2026-07-19: WCL SIZING PILOTS BANKED (packet notes/
+## kernel_basis/wclp_sizing_20260719/; ~$0.12 spend) — Job A is a
+## $45-60 GO, Job B a $6k-14k NO-GO; the (1,5) machinery VENDORED
+
+PILOT A (slot (1,5)): THE CHECKPOINT IS 8,300x FURTHER ALONG THAN
+THE RECORD — the Modal volume holds 16,667 valid 64-row batch
+checkpoints = 1,066,688 rows DONE (46.44%), not the recorded 128.
+Remaining 1,230,232 rows at a measured 0.698 s/row (dist: med
+0.158 / p99 6.51 / max 11.3s; production timeout rate 0.0097%) =
+~250-280 CPU-h = $45-60, wall 2-12h by fleet size; resume CLEAN
+(atomic sha-valid checkpoints). Two pre-finish repairs required:
+re-shard the final aggregation (a single-function scan dies at the
+280s cap over 35,890 parts — reproduced) + an ECM stage for
+300s-unfactorable tail norms. CUSTODY HAZARD FIXED: the streaming
+machinery lived on DANGLING v4 commits (no branch; GC-vulnerable)
+— five files VENDORED to master's experiments/ now. PILOT B (slot
+(2,7)): EXACT Burnside census = 94,652,815 orbits (233.9x the
+(2,6) job; model validated by reproducing 404,740/1,514/521,220
+exactly); measured 1.25 s/orbit production-equivalent (76% of cost
+= python math.gcd on 632k-1,140k-bit ints) => 33-39k CPU-h =
+$6k-14k as-is; a GMP/FLINT gcd swap projects ~$2k-5k (unmeasured).
+NO-GO at current machinery; path = gcd swap -> cents re-pilot ->
+census-generator reshard -> the Norm(u)-saturation gate fix (a
+found soundness gap in the would-be certificate: u = 1+x+y+z has
+no paid exclusion — cheap fix, factor Norm(u) into the v_2 gate)
+-> seek deeper quotienting -> re-quote. Good structural news: NO
+norm blow-up at weight 7 (max saturated gcd 1,625 bits vs (2,6)'s
+16,986). JOB A LAUNCH AWAITS THE MAINTAINER'S SPEND APPROVAL
+($45-60 > the cents envelope).
