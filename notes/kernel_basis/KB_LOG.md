@@ -2624,3 +2624,29 @@ implementation — the maintainer's board-visibility principle of
 record. Job A ((1,5) completion, $45-60) remains APPROVED-PENDING
 the maintainer's explicit spend go; Job B path = gcd swap ->
 re-pilot.
+
+## 100 — 2026-07-19: UPSTREAM OPEN-PR SURVEY BANKED (notes/
+## kernel_basis/UPSTREAM_PRS_SURVEY_20260719.md)
+
+72 open PRs (#882-#979), zero drafts, none older than ~50h — a
+two-day rolling window; Przemek sweeps 1-3 integration waves/day
+(25 PRs closed today alone); Paving v9.2 on main. Contributor
+ecosystem: holmbuar 43 / Scott Hughes 15 / Danny 13 / avdeevvadim
+1; strong convention culture (SHA-pinned stacks, tamper suites,
+non-claim fences); NOTHING touches the MCA threshold or prize
+claims directly. TOP LEADS: the #827-successor dense-shell lane
+(#905 INV-TAIL discharge via two-state cone + Riccati envelope —
+its 448-bit Arb cert failed audit replay in #911, watch; #900
+reduces the remainder to FOLD + FLOOR-PERSIST; #885 corrects an
+UPSTREAM banked share-floor constant gamma_req = 1.1011 not 1.036
+— checked: OUR repo consumes no such constant); #977 Lean complete-
+fiber eq-(2) wrapper (l1-topical; faithfulness read due if eq-(3)
+lands); #893 proves paving v9.2's printed RF3/RF3' insufficient
+(v9.3 expected). The paving paper's four missing inputs: NOBODY
+claims any (Sidon payment / ray compiler appear only in
+disclaimers). CONSUMES-OURS / CONTRADICTS-OURS: NONE (repo-wide
+search; only our closed #750 + their closed audit #757, both
+banked). #827 itself closed-integrated 07-16; its program is now
+the hottest thresholds thread, two leaves from an unconditional
+dense-shell statement. WATCH: #905/#911, #900, #977, #937/#942,
+#893, #914->#917 (their audit-repair cycle).
