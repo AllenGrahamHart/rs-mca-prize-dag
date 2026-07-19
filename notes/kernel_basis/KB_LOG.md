@@ -2540,3 +2540,17 @@ two of the ten open reds are now ambers resting on six crisp
 leaves; the critical surface gains DSP8 (req child of a critical
 amber). Validator green; manifest 423/10/640; mobius verifier
 green. Re-pin next (status flips — #177 law; verify counts first).
+
+## 96 — 2026-07-19: AMBER CEREMONIES CLOSED — re-pin 423/423
+## (verified in the record before this entry)
+
+The post-flip re-pin sequence: 7 consumer verifiers pinned the old
+TARGET statuses (re-posed to TARGET|CONDITIONAL, dated; the
+almost-tautology hazard in the batch edit was checked and ruled out
+— all sites took the proper two-status form); 2 of the 7 then hit a
+displaced-comma SyntaxError from the batch edit (fixed). FINAL:
+423/423 PASS complete. Both ambers stand: WCL CONDITIONAL on the
+four slot reds; C36 CONDITIONAL on DSP8 (req route of record) with
+the template-survivor ev reserve. The board's open-red set is now
+EIGHT reds + two ambers-on-six-leaves; DSP8's pre-registered
+F-round 1 is the queued next mathematics.
