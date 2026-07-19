@@ -1,0 +1,122 @@
+# RE-POSE (2026-07-07, user decision): the node is now the conjecture "B-WEAK is true"
+# — the corridor floor, the weakest statement satisfying the x4 obligation
+
+## The obligation, pinned from the consumer's packet
+
+x4_exactlist_staircase_split's interface has 19 wired inputs
+(REDUCTION_PACKET.md); this node is its frontier red — "the U-weighted/RES
+counting obligation". The terminal consumption is displayed in the
+compressed chain's pcf_evaluation_flatness step:
+
+>  B_j(M) = #{d ∈ D_j(M) : Q_d(ζ^{2l−1}) = 0 in F_q, 1 ≤ l ≤ L_j}
+>  aggregated with the actual profile weights, with prize budget
+>  **q^{−t+H} · W_cen ≤ 2^122**
+
+and the packet itself records that nothing sharper is consumed
+("STRATEGIC (verified): the sharp DLI is stronger than the primitive core
+needs — polynomial-loss per level suffices; 34 levels, reserve ≫ O(log n)").
+
+## CONJECTURE B-WEAK (the node's new statement)
+
+>  **At the official prize rows (the two grand-challenge parameter sets):
+>  q^{−t+H} · W_cen ≤ 2^122** — the U-weighted central-profile mass of TRUE
+>  valid-skew counts, taken JOINTLY across the tower (equivalently:
+>  E_U[Π_j ρ_j] within its mean-field normalization stays inside the
+>  endpoint budget). No per-level bound, no factorization, no uniform
+>  constant, no route structure is asserted — those are all strictly
+>  stronger statements (every one refuted or unproved to date), and their
+>  fates do NOT bear on this conjecture.
+
+Rationale (user-set strategy): we are stuck at this node; nine adversarial
+rounds killed only statements strictly stronger than B while B was never
+scratched. Posing the floor itself (i) makes downstream confidence the
+measurable object — the conjecture stands exactly as long as it resists
+direct falsification; (ii) if B is FALSE, a counterexample at the joint
+level is precisely the evidence that would force a genuine rethink of x4 —
+evidence no route-level refutation can supply (F-round precedent: both
+route conditions died, B and x4 unmoved).
+
+## PRE-REGISTERED FALSIFIER (fixed BEFORE any new data; route failures do NOT count)
+
+B-WEAK at deployed scale is not directly computable, so refutation goes
+through the packet's own nested tower construction at toy scale, against
+the SAME functional budget:
+
+>  **Refutation standard:** exact toy towers (the b2b nested construction,
+>  the machinery of verify_level2_tower.py / f2b) showing the JOINT loss
+>  factor E_U[Π_j ρ_j] exceeding (C · log q)^{J} — polynomial-per-junction
+>  loss, J = #junctions, for EVERY constant C — i.e. a demonstrated
+>  super-polylog PER-JUNCTION growth trend in the JOINT object, sustained
+>  across ≥ 3 increasing q-scales at ≥ 2 tower depths, with the coset/
+>  structured component routed through the packet's EXACT accounting (it
+>  is part of the budget arithmetic, not a violation).
+
+What does NOT count (the F-round taught us each of these): violations of
+factorized/per-level/uniform-constant proxies; single-row window accidents
+(Poisson-priced); super-volume/boundary-volume toy regimes; correlation
+ratios of CONDITIONAL means (composition effects through exactly-priced
+components). What DOES count besides the standard above: any replayable
+construction at ANY scale whose transported arithmetic exceeds 2^122 at
+the official rows.
+
+## Evidence ledger at re-pose time (survival record of B itself)
+
+- 7 Pro rounds + 7 self-tennis rounds + the F-round: every successful
+  refutation killed a strictly-stronger A; the strongest attack ever
+  priced against the budget: 2.25 bits of 122.
+- Exact joint measurements wherever computable: every extreme row found by
+  either side costs ≤ 0.015 bits (exact D3 sums; boundary rows r-diluted).
+- The b2b nested tower is EXACT at all 8 archive test rows (TEST 1) — the
+  joint object at those rows sits inside its scaled arithmetic including
+  the coset column.
+- Unconditional theorems narrowing the falsification search: A1-PROD
+  norm-sieve (level-1 window closed at density 2^−47.6; walls mapped),
+  moment transfer, dual-top kills (F8 lock, cosine dead-zone).
+
+## Route material (evidence lane — NOT conditions of this node)
+
+C1′ (ledger-conditioned dyadic bound; calibrated K′ ≤ 4 at 4 rows, zero
+adversarial rounds survived); C2″ (nested-junction shape: exact coset +
+mean-field noncoset + counted accidents; not yet precisely posed); the S1
+sieve theorem; the DLI-CLOSE-6 Pro window. Routes may be attacked,
+refuted, and replaced freely without touching this node; promotion of any
+route into a conditional close requires it to survive its own adversarial
+rounds first (F-round rule).
+
+## First experiment of the B-falsification program (next step)
+
+The junction-correlation scaling study aimed at the JOINT object: sweep
+the exact toy towers in q (≥ 3 scales) and depth (t = 2..4+), measuring
+E_U[Π ρ] against (C log q)^J with the coset column routed through exact
+accounting — the direct test of whether the F-round's growing conditional
+ratios compound in the joint (B in danger) or are absorbed by the exact
+coset arithmetic (B safe, C2's failure was route noise).
+
+---
+
+## ADDENDUM (2026-07-10, catch #40): endpoint constant re-pin 2^122 -> 2^121
+
+The floor as posed above targets 2^122; catch #30 (Sol round 1,
+V1-confirmed; KB_LOG #12; x4_exactlist_staircase_split/REDUCTION_PACKET.md)
+corrected the consumer face to the two-sided weighted form with half-band
+<= 2^121 (complement-duality double-count). The floor's operative endpoint
+is therefore **2^121** and the joint reserve shrinks 22 -> 21 bits. The
+evidence ledger is insensitive (strongest priced attack ever: 2.25 bits;
+every exactly-computed extreme row <= 0.015 bits). Maintainer confirmation
+owed as a one-line ruling; all C2''-lane documents (C2PP_POSED_20260710.md)
+already use 21 bits.
+
+## ADDENDUM (2026-07-13, M4/wave-6): non-circular conditional decomposition
+
+The first ENDPOINT-EXC coverage pose required each accepted certificate to
+prove the final `2^121` inequality. Universal coverage in that form is just
+B-WEAK under another name (w6-C4 = catch #181). The corrected decomposition
+uses the amber marginal baseline `product_j E_U[rho_j] <= 2^100` and the C2''
+joint reserve `q^(-t+H) W_cen <= 2^21 product_j E_U[rho_j]`. The baseline is
+proved from C1' and the independent official-row WCL-ZONE predicate; the
+exact product is the endpoint. Thus the three ultimate open predicates are
+C1', WCL-ZONE, and C2''. Master's #165-repaired M4/eex interface remains the
+banked interface of record. M5 maintainer confirmation remains owed; the
+corrected consumer identity supplies the confirming computation for the
+maintainer's ruling. (The 2^122 displays above remain as history per #155;
+the binding endpoint is 2^121, catch #40.)

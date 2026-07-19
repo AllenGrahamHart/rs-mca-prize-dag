@@ -1,0 +1,428 @@
+{
+ "threshold_Mstar": 13.290784077959,
+ "n_multiorbit_primes": 31,
+ "worst": [
+  {
+   "config": "B_n64_w5_low",
+   "q": 21569,
+   "raw_orbits": 16,
+   "generators": 12,
+   "M": 12.875,
+   "detail": [
+    {
+     "gen_w": 3,
+     "shadow_ws": [
+      4,
+      4,
+      4,
+      5
+     ],
+     "s_g": 1.875
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    }
+   ]
+  },
+  {
+   "config": "B_n64_w5_low",
+   "q": 21377,
+   "raw_orbits": 10,
+   "generators": 10,
+   "M": 10.0,
+   "detail": [
+    {
+     "gen_w": 4,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    }
+   ]
+  },
+  {
+   "config": "C_n64_w5_high",
+   "q": 204353,
+   "raw_orbits": 10,
+   "generators": 7,
+   "M": 7.75,
+   "detail": [
+    {
+     "gen_w": 3,
+     "shadow_ws": [
+      4,
+      4,
+      4
+     ],
+     "s_g": 1.75
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    }
+   ]
+  },
+  {
+   "config": "B_n64_w5_low",
+   "q": 22721,
+   "raw_orbits": 7,
+   "generators": 7,
+   "M": 7.0,
+   "detail": [
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    }
+   ]
+  },
+  {
+   "config": "B_n64_w5_low",
+   "q": 23041,
+   "raw_orbits": 6,
+   "generators": 5,
+   "M": 5.25,
+   "detail": [
+    {
+     "gen_w": 4,
+     "shadow_ws": [
+      4
+     ],
+     "s_g": 1.25
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    }
+   ]
+  },
+  {
+   "config": "B_n64_w5_low",
+   "q": 20929,
+   "raw_orbits": 5,
+   "generators": 5,
+   "M": 5.0,
+   "detail": [
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    }
+   ]
+  },
+  {
+   "config": "B_n64_w5_low",
+   "q": 21121,
+   "raw_orbits": 5,
+   "generators": 5,
+   "M": 5.0,
+   "detail": [
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    }
+   ]
+  },
+  {
+   "config": "B_n64_w5_low",
+   "q": 21313,
+   "raw_orbits": 5,
+   "generators": 5,
+   "M": 5.0,
+   "detail": [
+    {
+     "gen_w": 4,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    }
+   ]
+  },
+  {
+   "config": "B_n64_w5_low",
+   "q": 20161,
+   "raw_orbits": 4,
+   "generators": 4,
+   "M": 4.0,
+   "detail": [
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    }
+   ]
+  },
+  {
+   "config": "B_n64_w5_low",
+   "q": 22273,
+   "raw_orbits": 4,
+   "generators": 4,
+   "M": 4.0,
+   "detail": [
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    },
+    {
+     "gen_w": 5,
+     "shadow_ws": [],
+     "s_g": 1.0
+    }
+   ]
+  }
+ ],
+ "max_M": 12.875
+}

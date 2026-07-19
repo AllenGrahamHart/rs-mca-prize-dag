@@ -1,0 +1,578 @@
+# DLI-CLOSE: the pinned target (2026-07-06)
+
+The minimal sufficient obligation to close this node, in counterexample-hardened
+form. Every hypothesis explicit; every equivalent display verified; every known
+falsifier family pre-empted. This document is the source for the Pro brief and
+the Codex adversarial goal.
+
+## Setting (all verified structural facts)
+
+- q PRIME (prime-field scoping: extension rows reduce via subfield_trace_paid_gate,
+  PROVED; prime q kills subfield/trace trade families). Admissible: q < 2^256,
+  q ≡ 1 (mod n), n = 2^s.
+- Level j: L = L_j, N = N_j = 256·L seen coordinates. Section
+  X = {zeta^i : 0 <= i < n/2} (the square-root section).
+- VERIFIED section hypotheses (these kill the structural trade families — they are
+  load-bearing, not decorative):
+  (S1) X contains NO antipodal pair {x, -x}  [verified; -zeta^i = zeta^{i+n/2} is
+       outside the index window] — kills the antipodal trade family (x,-x both +1
+       is an odd-trade).
+  (S2) X contains NO full mu_M-coset for any M >= 2 [verified; equally-spaced
+       points cannot fit in a half-window] — kills the coset trade family (a full
+       even-M coset has all odd power sums zero).
+  Also killed: scaling trades (c^r = 1 for r=1 forces c=1), Frobenius trades
+  (q ≡ 1 mod n makes Frobenius trivial), subfield trades (q prime).
+
+## The obligation — three equivalent displays (identity VERIFIED exactly, D2=D3 to 1e-6)
+
+Let A be the L x N matrix A_{l,y} = x_y^{2l-1} (odd powers of the section points).
+
+- (D1, combinatorial) An ODD-TRADE is a nonzero d in {-1,0,+1}^N with A d = 0 —
+  equivalently a pair of disjoint subsets (P,Q) of X with p_r(P) = p_r(Q) for every
+  odd r <= 2L-1. Weight w(d) = |P|+|Q|. Define
+      W_j = sum over odd-trades of 2^{-w(d)}.
+- (D2, probabilistic/closed form) With d iid per coordinate (P(0)=1/2, P(+-1)=1/4
+  each — this measure is EXACTLY the U-weighted central ternary/inactive family;
+  derivation: sum_S 3^{|S|} rho(S) / sum_S 3^{|S|} telescopes to it):
+      E_U[rho_j] = q^L * Pr[A d = 0] = (q^L / 2^N) * (1 + W_j).
+- (D3, analytic) E_U[rho_j] = sum_{lambda in F_q^L} prod_{y=1}^{N}
+  cos^2(pi * a_y(lambda) / q),  a_y(lambda) = sum_l lambda_l x_y^{2l-1}.
+  (lambda = 0 contributes exactly 1; all terms nonnegative.)
+
+## THE TARGET
+
+> **For every level j: W_j <= 3.**  (Equivalently E_U[rho_j] <= (q^L/2^N)·4, or
+> D3-excess sum_{lambda != 0} prod cos^2 <= 3·q^L/2^N + 3.)
+
+Sufficiency for the endpoint: prod_j E_U[rho_j] <= (q/2^256)^t · 4^{34} <= 2^68
+(the prefactor is <= 1 at admissible q; 34 levels), far inside the q^{o(t)}
+budget the compressed packet consumes. EXPLICIT REMAINING HYPOTHESIS (flagged,
+not proved here): the central tower measure is a product across levels (levels
+use disjoint coordinate sets), so E[prod] = prod E. This is the packet's
+framing; it must appear as a stated hypothesis of the closure.
+**[CORRECTION, ROUND S6 (self-found): the parenthetical justification is
+WRONG — the skew-tower packet partitions MOMENT indices (sum L_j = t), the
+skew variables share the codeword cells; disjoint rows over shared columns
+do not factorize the measure. The hypothesis is real: banked as the named
+conjecture LEVEL-FACTORIZATION (packet-side product lemma, or the
+unconditional Hoelder + moment-transfer route which folds it into the
+DYADIC-K core at higher alphabets). See notes/S6_LEVEL_FACTORIZATION.md.]**
+
+## Proof architecture (weight split), with the evidence per piece
+
+Let w*(q,L) = max{ w : C(N,w)·2^w <= q^L · 2^{-10} } (~68·L at q = 2^{255.9}).
+
+- (a) w <= L: NO trades. **PROVED** (Vandermonde / skew_support_threshold).
+- (b) THE GAP, L < w <= w*: claim ZERO trades at admissible rows. This is the
+  real content. Evidence: (i) exhaustive + MITM structure hunts at 5 random-empty
+  toy rows (expected counts from 6.0 down to 6.8e-4) found ZERO trades;
+  (ii) at open-window toy rows (small q), trades appear in EXACTLY the
+  random-model count (e.g. (q,n,L)=(97,32,2): expected ~15 at w=5, found; L=3
+  expected 0.56, found 0) — the same window law verified for u2c, with no
+  structural surplus anywhere.
+- (c) THE TAIL, w > w*: need the true weight-w trade count N_w <= K · C(N,w) 2^w q^{-L}
+  (K absolute). Then sum_{w>w*} N_w 2^{-w} <= K · 2^N q^{-L} <= K at admissible q.
+  ALTERNATIVE (analytic route subsuming (b)+(c)): via D3, it suffices that for
+  every lambda != 0, sum_y log2 cos^2(pi a_y(lambda)/q) <= -(256+delta)·L + O(log q):
+  the circle average of log2 cos^2 is EXACTLY -2 (the proved
+  dli_circle_log_integral_constant), so the typical value is -2·256·L — the
+  requirement is HALF of typical: a 100% (one-bit-per-coordinate) margin.
+  **[CORRECTION, ROUND S2 (self-found): this display is FALSE in the random
+  model — the tail rate of the log2 cos^2 sum is ~0.21/coordinate, not 1;
+  ~2^202 violating lambda are expected at production L=1, and the round-3
+  117x sup violation was this phenomenon. The '100% margin' compared the
+  requirement to the MEAN; the enemy is the TAIL. Correct form = the
+  DYADIC-K hypothesis; see notes/S2_DYADIC_K.md and § ROUND S2 below.]**
+
+## Counterexample pre-emption record (what Pro will try, and why it fails)
+
+1. Antipodal / coset / scaling / Frobenius / subfield trade families: killed by
+   (S1), (S2), c=1, Frobenius-trivial, q prime — all verified above.
+2. Low-mass profiles: integrated into the measure (the closed form IS the
+   weighted average); the old sup-form killer contributes 2^{-245L} (verified).
+3. Small-q accidents (the u2c pattern): the window law is calibrated — accidents
+   exist iff C(N,w)2^w >= q^L, impossible in the gap at admissible q. The
+   statement carries the admissible-row hypothesis explicitly.
+4. lambda = 0 / d = 0 atoms: excluded explicitly in every display.
+5. L = 1,2 small levels: the gap is window-closed at admissible q for ALL L >= 1
+   (C(512,5)·2^5 ~ 2^50 << q^2); the toy L=2 accidents are small-q artifacts.
+6. Rotation-engineered trades (P with single surviving odd moment, Q = zeta^{2k}P):
+   requires zeta^{2k r0} = 1 with the section-disjointness constraints; hunted in
+   the MITM census (would appear at w ~ 4L) — none found. Flagged for Codex to
+   attack specifically.
+
+## Failure conversion
+
+If (b) fails — a structured gap family exists — the node re-poses with that
+family priced (the u2c playbook). If (c)'s constant K is unprovable, the node
+re-poses as the explicit conditional "K-bounded tail". Either outcome is a
+compression of the red to a strictly smaller kernel; the target above is the
+full closure.
+
+# ROUND-2 UPDATE (2026-07-06, after the Pro DLI-CLOSE response — all claims verified)
+
+## What Pro found (VERIFIED)
+1. REFUTATION of "W <= 3" as literally stated: the identity forces W >= (2^256/q)^L - 1,
+   so the target needs q >= 2^{256-2/L}; explicit witness at (q,n,L)=(65537,512,1):
+   zeta=15028, the relation 1 + zeta^95 = zeta^146 gives 110 in-section weight-3
+   odd-trades, W >= 13.75. VERIFIED end-to-end (order, relation, section, trades).
+2. A corrected conditional close: top-prime condition Delta(q,L) = 4(q/2^256)^L - 1 > 0
+   plus the uniform per-frequency bound DLI-AC: T(lambda) <= Delta/(q^L-1) for all
+   lambda != 0 implies W <= 3. Algebra VERIFIED exact.
+
+## What verification found BEYOND Pro's note
+3. Pro's uniform DLI-AC is itself FALSE at toy rows: at the matched top-of-range toy
+   (q=257, n=32, L=2, N=16), sup T(lambda) = 5.3e-3 exceeds Delta/(q^L-1) = 4.6e-5 by
+   ~117x (near-peak frequencies concentrate). Only the SUMMED form survives.
+4. THE NORMALIZATION FIX (supersedes the top-prime patch): the W-display is not
+   row-uniform — at low-q rows the huge W is BALANCED mass (E ~ 1 forces W ~ 2^N/q^L),
+   not trades (Pro's 110 trades contribute ~2^-236 to E). The row-uniform object the
+   endpoint consumes is E itself:
+       >>> RE-POSED TARGET: E_U[rho_j] <= 4 per level  (<=> sum_{lambda!=0} T(lambda) <= 3) <<<
+   This needs NO top-prime condition, gives prod_j E <= 4^34 at every admissible row,
+   and SURVIVES Pro's own counterexample row: E = 1.000000 there (computed exhaustively,
+   sup T = 7e-155). Verified at three row types: Pro's low-q row (1.000000), the
+   matched top-of-range toy (1.75), the original DPs (1.0000008).
+
+## The remaining kernel (round-3 leaf)
+    sum_{lambda != 0} prod_{y=1}^{N} cos^2(pi a_y(lambda)/q)  <=  3   per level,
+i.e. NEAR-PEAK MASS CONTROL IN SUM FORM (the uniform per-lambda form is false; the
+dyadic route: #\{lambda : T(lambda) >= 2^{-j}\} counted against 2^{-j}). The exhaustive-
+lambda ledger sweeps (n=32..2048, worst-case decay, O(1) conductors) bear directly on it.
+
+## The tennis scoreboard (each round: uniform dies, average survives)
+round 1: sup over profiles  -> U-weighted average   (low-mass profiles)
+round 2: W-display (row-nonuniform) -> E-display    (low-q balanced mass)
+round 3: uniform per-lambda -> summed over lambda   (near-peak concentration)
+The E-form target is now triply battle-tested; every known falsifier family is priced
+into the display itself.
+
+# ROUND-4 UPDATE (2026-07-06, Pro's DLI-NPM refutation — verified + diagnosed)
+
+Pro refuted DLI-NPM as written with an exact witness: (q,n,L,N)=(97,32,2,12), the
+12-point INITIAL SEGMENT of the 16-point half-section: Sum T = 3.6234 > 3 (exact
+rational ledger, 3^12 enumeration — VERIFIED). Pro's own scope note: the FULL
+half-section at the same row gives small mass (VERIFIED: E = 1.3477, matching our
+original identity computation).
+
+DIAGNOSTIC (ours): random 12-subsets ALSO fail (E = 4.1, 3.6, 3.7) — the failure
+is NOT segment structure but the coordinates-per-constraint ratio: N=12, L=2,
+q=97 violates 2^N >= q^L (4096 < 9409). THE WINDOW LAW, FIFTH INSTANCE.
+
+## ROUND-4 SCOPED TARGET (the production row class, finally pinned)
+Row class R*: X = c * (full half-section of mu_{n'}), N = n'/2, with
+    2^N >= q^L    (balanced-volume / matched-alpha; automatic at production:
+                   N = 256L and q < 2^256).
+The real tower levels ARE in R*: a dyadic residue class of the big section equals
+a rotated full half-section of mu_{n'} (n' = n/m), and kernels are rotation-
+invariant (Sum d_i (c x_i)^r = c^r Sum d_i x_i^r).
+
+>>> TARGET (DLI-NPM*): for every row in R*: Sum_{lambda != 0} T(lambda) <= 3. <<<
+
+Equivalent kernel form (Pro round 4, exact): W <= 4 * 2^N/q^L - 1 on R*.
+Verified at every R* row tested: (97,32,16): 0.348; (257,32,16): 0.751;
+(65537,512,256): 0.000000; original DPs ~1e-6. Every failure ever produced
+violates the R* membership (round-2: low-q with N=256 fixed -> W-display artifact;
+round-4: N below the volume line).
+
+## Suggested proof routes (Pro round 4, both summed/counted — guardrail-compliant)
+- Dyadic near-peak ledger: B_j = {lambda != 0 : j <= -log2 T < j+1};
+  leaf: Sum_j 2^{-j} |B_j| <= 3.
+- Half-circle counted form: G_j = {lambda != 0 : #{y : ||a_y/q|| > 1/4} <= j};
+  T >= 2^{-j} => lambda in G_j; leaf: Sum_{j>=1} 2^{-j} |G_j| <= 3.
+
+## Tennis scoreboard (5 window-law instances now)
+r1 sup-profiles -> weighted | r2 W-display -> E-display | r3 uniform-lambda -> sum
+r4 unpinned N -> the R* row class (2^N >= q^L, full half-sections).
+The object has survived every round; only the written slack keeps dying.
+
+# ROUND-5 UPDATE (2026-07-06): FIRST GENUINE REFUTATION — and its absorption
+
+Pro refuted DLI-NPM* INSIDE R* (verified end-to-end, incl. the Pocklington
+primality certificate): an ENGINEERED prime q = 0.528*2^256 chosen to divide the
+norm of the 6-term cyclotomic element 1 - z^33 + z^40 - z^136 - z^143 + z^145
+(z of order 512). The 512 folded signed shifts are distinct weight-6 kernel
+vectors: W >= 8 > 6.57 (the row threshold), E >= 4.753 > 4. Full half-section,
+volume satisfied, no scoping escape. **The per-level uniform constant is FALSE.**
+
+## The absorption (verified arithmetic)
+The endpoint (b2b <= 2^122) consumes PROD_j E_j, not per-level constants. One
+engineered relation orbit at level L costs E <= (vol)(1 + 512L*2^-(L+1)) — the
+Vandermonde floor w >= L+1 makes the cost DECAY with depth:
+  L=1: <= 129 (7.0 bits), L=5: <= 41 (5.4 bits), L=12: <= 1.75, L>=20: ~1.
+- Pro's actual row: 2.25 bits at one L=1 level. Endpoint margin: untouched.
+- Fantasy worst case (ALL 34 levels engineered simultaneously — each extra level
+  is an independent ~2^-216 norm-divisibility coincidence): 51.2 bits total,
+  71 bits of budget to spare.
+SIXTH window-law instance: per-level uniform constant -> cross-level aggregate.
+
+## ROUND-5 RE-POSED TARGET (DLI-AGG — the endpoint's actual consumption)
+> For every admissible row: SUM_j log2 E_U[rho_j] <= 100.
+Orbit decomposition: E_j <= (q^L/2^N)(1 + K_j * 2N * 2^-(L_j+1)) where K_j = the
+number of minimal-weight relation ORBITS at level j whose defining ternary
+element has q-divisible evaluation.
+**[CORRECTION, ROUND 6: this displayed inequality is FALSE as a bound on E_j
+itself — E_j >= 1 always (lambda=0 term of D3), while the RHS is < 1 at
+unbalanced admissible rows (2^N >> q^L). Verified counterexample and the
+corrected EXCESS form E_j - 1 <= R_j + M_j r_j 2N 2^-(L+1) in § ROUND-6
+RETURN below. No numeric damage: all banked bit-arithmetic was already the
+excess form.]**
+The remaining kernel is the ORBIT-COUNT:
+> K_j(q) is small (O(1) engineered + random-window mass) for every admissible q.
+Sharp sub-question (clean number theory): how many INDEPENDENT low-weight ternary
+cyclotomic elements can a single prime q < 2^256 divide? Each additional orbit
+beyond the first is an independent ~2^-216 coincidence; stacking is doubly
+unlikely — but this must become a theorem or a per-row certificate.
+
+## Strategic note
+Pro's construction VALIDATES the norm-gate as the true mechanism: the ONLY way
+into R* was norm-divisibility engineering — precisely what bounded_coeff_norm_gate
+(PROVED) prices. The battlefield was correctly identified in round 1; five rounds
+of tennis eliminated every other surface. What remains: count the norms one prime
+can hit.
+
+# ROUND-6 DISPATCH (2026-07-06): the ORBIT-COUNT census + DLI-CLOSE-4
+
+Evidence run (Modal, 25 sharded inputs, gates PASS — see
+notes/ORBIT_CENSUS_SUMMARY.md + notes/orbit_census_results.json):
+
+1. **Multiplier shadows found and priced BEFORE Pro could weaponize them**:
+   one vanisher spawns ternary multiples m*P (m weight 2-3, cancellation);
+   all observed heavy tails collapse under this closure (13->4, 10->1,
+   11->5 incl. q = 65537 = F4). The naive per-orbit independence convention
+   is FALSE; the kernel is re-posed modulo multiplier generation + level
+   lifts (lifts verified identities, 57/57).
+2. After closure: per-prime independent-generator counts Poisson-consistent
+   in every sub-volume config (A: 0.605 vs 0.630; C: 0.460 vs 0.4625);
+   doubles AT OR BELOW Poisson (A: 26x rarer). No dilation-class stacking
+   at any of ~700 primes.
+3. DLI-CLOSE-4 dispatched (PRO_DLI_CLOSE_4.md): prove the multiplier-closed
+   orbit-count bound (three routes suggested: sieve, Conway-Jones/Lam-Leung
+   mod p, per-row certificate) OR refute by engineering one admissible
+   prime dividing TWO multiplier-independent norms (our arithmetic: a
+   ~2^-216-density coincidence that cannot be selected for under the field
+   cap — this is the round-6 battlefield).
+
+Seventh window-law instance pre-empted: per-orbit independence -> orbit
+independence modulo the deterministic shadow.
+
+# ROUND-6 RETURN (2026-07-06): C-STYLE CONDITIONAL CLOSE + a literal correction
+# (Pro's reply verified end-to-end — 26/26 checks PASS, notes/verify_round6_reply.py)
+
+Pro did NOT produce the requested B-refutation (no engineered prime dividing
+two multiplier-independent norms — that channel stays empty). Instead: a
+verified literal correction of OUR printed round-5/round-6 reduction, plus a
+corrected conditional close with exact constants.
+
+## The correction (VERIFIED; the error was ours, introduced at the round-5 re-pose)
+
+The printed orbit decomposition E_j <= (q^L/2^N)(1 + K_j·2N·2^-(L+1)) is FALSE
+as a bound on E_j: the D3 identity forces E_j >= 1 (lambda = 0 contributes
+exactly 1 — stated in OUR OWN D3 display above), while the printed RHS is < 1
+at any unbalanced admissible row (2^N >> q^L). Verified counterexample:
+q = 65537 (= F4, Pocklington replayed), n' = 512, N = 256, L = 1, pinned
+omega = 3^128 = 15028, primitive weight-3 relation 1 + w^95 - w^146 = 0; even
+granting K every signed reduced weight-3 element (2^3·C(256,3) = 22,108,160)
+the RHS is 185459517751297/2^256 < 2^-208.6 < 1 <= E. Root cause: the D2
+identity E = (q^L/2^N)(1 + W) is exact, but W contains the BULK random trade
+mass (which is what inflates E back to ~1); replacing W by only the low-weight
+orbit ledger while keeping the volume prefactor on the "1" silently discarded
+the lambda = 0 mass.
+
+DAMAGE ASSESSMENT — none numeric: every banked bit figure (round-5 row cost
+2.25 bits, the decay table, the 51.2-bit fantasy stack) was already computed
+in excess form; Pro's S(1) = 51.169972398501 equals our fantasy number
+exactly, and no negative-bit credit was ever taken at unbalanced rows. The
+printed inequality was the only casualty.
+
+## The corrected conditional close (absorbed as the new working form)
+
+With r_j = q^{L_j}/2^{N_j} <= 1 and B_j := E_j - 1 = sum_{lambda != 0} T_j:
+
+>  (H)  B_j <= R_j + M_j · r_j · 2N_j · 2^-(L_j+1)
+>  M_j = SUM over new independent generators g of s_g (shadow-weighted:
+>        s_g = 1 + sum over g's multiplier/lift shadow orbits of
+>        2^-(w'-L-1) — deterministic, geometric),
+>  R_j = residual non-generator near-peak mass after closure.
+>  (C)  DLI-AGG follows from  SUM_j log2(1 + R_j + M_j·r_j·2N_j·2^-(L_j+1)) <= 100.
+
+Per-generator cap (verified, exact sweep L <= 34, N <= 20000): r·2N·2^-(L+1)
+= r·N·2^-L <= 256L·2^-L whenever q < 2^256, 2^N >= q^L. Hence for the 34-level
+production schedule, with S(M) = SUM_{L=1..34} log2(1 + M·256L·2^-L):
+
+  S(1) = 51.170,  S(5) = 79.702,  S(10) = 93.865,  S(13) = 99.516,
+  S(M*) = 100 at  M* = 13.290784077959  (exact rational bracket verified),
+  S(14) = 101.141.
+
+**Conditional DLI-AGG theorem (Pro, verified): if R_L = 0 and M_L <= M* for
+all 34 levels, then SUM_L log2 E_L <= 100.** Census headroom: worst
+post-closure independent count anywhere = 5 (uniform M <= 5 leaves 20.3 bits
+of slack for shadow-factor inflation and residual mass).
+
+## The remaining leaf, now split into TWO named obligations
+
+1. **M-BOUND (sharpened ORBIT-COUNT):** the shadow-WEIGHTED multiplicity
+   M_L <= 13.29 per level — combinatorial/number-theoretic; census evidence
+   says worst raw count 5, shadows priced geometrically. This is what
+   DLI-CLOSE-5 must pose.
+2. **R-BOUND (the old (b)+(c) content, restated):** R_j is exactly the excess
+   of the bulk trade mass over its mean-field value (r·W_bulk - (1-r)) — the
+   gap-zero + K-bounded-tail work of the weight-split architecture above.
+   R_L = 0 is a HYPOTHESIS, not a theorem; the conditional close does not
+   discharge it, it names it.
+
+Certificate format agreed (Pro's §5): Pocklington cert, pinned roots/omegas,
+new-generator reps at minimal levels, shadow factors s_g, residual cert R_j,
+final rational check of (C). Our census machinery is the verifier skeleton.
+
+Files: notes/pro_reply_round6_fulfilment.md (verbatim),
+notes/pro_reply_round6_checker.py (Pro's checker, replayed),
+notes/verify_round6_reply.py (independent, 26/26 PASS).
+
+# ROUND-7 DISPATCH (2026-07-06): DLI-CLOSE-5 — the M-bound, both sides instrumented
+
+Evidence run before dispatch (notes/RESULTANT_GATE_SUMMARY.md +
+notes/empirical_M_ledger.py): exact shadow-weighted M at all ~700 census
+primes — worst anywhere 12.875 (super-volume forced regime, 3% under M*!),
+worst sub-volume 7.75 ⟹ the uniform bound must carry the SUB-VOLUME
+hypothesis. Attacker's side: E1 prime-first engineering never donates a
+second generator (0 bonus at 61 engineered primes vs 35.2 naive-Poisson);
+E2/E2b generic pair ideals are COPRIME (243/243 norm 1; the only 3
+common-embedding pairs in 1000 sit at the super-volume floor q=97);
+E3 triples dead. Surviving attack = second short vector in the prime ideal
+above q (second-minimum obstruction).
+
+DLI-CLOSE-5 (PRO_DLI_CLOSE_5.md) poses: (A1) the sub-volume M-bound in an
+honest form — sieve above explicit size/volume thresholds, or
+exceptional-set density, or engineering-hardness (naive full uniformity is
+heuristically FALSE by Poisson tails over ~2^250 admissible primes, and
+absence-below-w* is not computationally certifiable at production q — both
+flagged by US in the brief, eighth window-law instance pre-empted);
+(A2) the R-bound via the analytic one-bit-margin route; (B) refutation bars
+updated (two independent generators at a SUB-volume prime; effective
+M > 13.29 sub-volume; or the full 100-bit budget).
+
+# ROUND-7 RETURN (2026-07-06): B1 FULFILLED AND VERIFIED — and priced at 0.0006 bits
+# (Pro's verifier PASS + our independent replay 18/18 PASS, notes/verify_round7_reply.py)
+
+Pro certified a legitimate B1 row: q = 110849 (Pocklington, q-1 = 2^8·433),
+n' = 64, sub-volume window (110298 orbits < q), FOUR multiplier-independent
+primitive weight-5 generators — independence certified COMPLETELY (all
+reduced ternary multipliers, via invertible multiplication matrix mod 10^6+3;
+our replay: exact-Fraction solve of all 768 systems in Q(zeta_64) + our own
+census machinery reproducing exactly the same 4 orbits). No escape applies.
+The bar we posed said "sub-volume" with no ratio margin — Pro parked on the
+boundary: volume ratio 0.99503, mu = 0.995.
+
+## The context we computed before absorbing (all banked in notes/)
+
+1. **Band census** (band_census_and_clusters.py; 74 admissible primes in
+   [1e5, 1.3e5], same conventions): mean k = 0.878 vs Poisson 0.962;
+   predicted #primes with k >= 4: 1.26 — observed 2, one of them an
+   UNCLAIMED k = 5 row at q = 100609 stronger than Pro's certificate.
+   The B1 row is the generic mu ~ 1 boundary population, not a mechanism.
+2. **Exact ground truth via D3** (exact_E_worst_rows.py, full lambda sum):
+   E(110849) = 1.00040 -> 0.00058 bits; E(100609) = 1.00031 -> 0.00045 bits;
+   E(204353, the k=7 census row) = 1.0104 -> 0.0149 bits. The r-dilution of
+   the corrected ledger does exactly its job: the ENTIRE boundary-volume
+   multi-generator population is aggregate-invisible.
+3. **The pinned product invariant** (why no row can turn both dials): the
+   expected ledger mass of the weight-w window is
+   mu_w · r · 2N·2^-(L+1) = C(N,w)·2^(w-N-L-1) — INDEPENDENT of q.
+   Boundary-volume rows (mu ~ 1) force r ~ window/2^N (tiny); balanced rows
+   (r ~ 1) force mu ~ 2^-216. The M-bound theorem only has to kill the
+   single-prime TAIL at r ~ 1, which is the norm-divisibility coincidence.
+4. **CLUSTER DISCOVERY (ours, ninth window-law instance pre-empted):** the
+   generators at multi-orbit primes are ADDITIVELY entangled — ternary
+   combinations P_i ± z^s P_j yield 508 new vanishers at 110849 (weights
+   6-10) and 4302 at 204353 (incl. one at weight 5; Z-rank 9 < 10 raw
+   orbits). At a fixed prime, vanishers are exactly the ternary points of
+   the rank-32 ideal lattice I_q = {c : c(omega) = 0 mod q}: per-orbit
+   Poisson independence is WRONG at cluster level — one skewed lattice
+   proliferates correlated points. This explains the census tail
+   (k = 7 at mu = 0.54: P_Poisson ~ 1.7e-6, a 3000x surprise — CORRECTION:
+   round 6 mislabeled this as mu = 1.55/6e-4) without new per-orbit
+   structure. Consequence: pose counting in the LATTICE frame (ternary
+   point count of I_q), which subsumes multiplier AND additive closure;
+   the mass ledger is unchanged (cluster members still priced at their
+   weights, geometrically).
+5. **Pro's norm-sieve leaf verified as arithmetic** (V7): |N(P)| <= wmax^N,
+   so each family element hits <= N·log(wmax)/log(Q) primes above Q; Markov
+   gives #{q in band: G(q) >= k} <= (|F|/k)·D — UNCONDITIONAL and
+   cluster-robust (a first moment needs no independence). This is now the
+   primary A1 route.
+
+## Status after round 7
+
+- Conditional theorem (R = 0, M <= 13.29 => DLI-AGG): UNTOUCHED — no
+  M > 13.29 exhibited; boundary rows are r-diluted to invisibility.
+- DEAD: any uniform "sub-volume => at most one generator" statement, and
+  the ungraded sub/super-volume dichotomy — the hypothesis must be the
+  volume RATIO.
+- LIVE (round-8 = DLI-CLOSE-6): instantiate the norm-sieve at production
+  parameters (explicit exceptional density) in the lattice frame + the
+  R-bound; refutation bars move to explicit ratio <= 2^-10 or breaking the
+  first-moment arithmetic itself.
+
+Files: notes/pro_reply_round7_fulfilment.md (verbatim),
+notes/pro_reply_round7_verifier.py (Pro's, PASS), notes/verify_round7_reply.py
+(ours, 18/18), notes/band_census_and_clusters.{py,json},
+notes/exact_E_worst_rows.py.
+
+# ROUND S1 (2026-07-07, SELF-TENNIS): A1-PROD norm-sieve PROVED; the uncovered zone computed exactly
+
+First self-tennis round (both chairs; goal file SELF_TENNIS_GOAL.md).
+
+REFUTE CHAIR: attacked the formalization at toy scale (n'=64 band): sieve
+bound dominates all observed census incidence; per-element cap D_cap = 4
+unbreached (exact resultant norms of all four B1 generators factored — each
+hits exactly ONE band prime); B1 norm-divisibility replayed. The only attack
+surface is the uncovered zone (below).
+
+PROVER CHAIR: **A1-PROD THEOREM (PROVED, unconditional count form)** —
+notes/A1_PROD_NORM_SIEVE.md + a1_prod_norm_sieve_verifier.py (ALL PASS):
+for any level and any T > 0,
+#{q in band : W_cov(q) >= T} <= TOTAL(w_cov)/T, TOTAL = SUM C(N,w)·D_cap(w),
+via complete splitting -> L distinct prime ideals -> q^L | Norm(D) <= w^N
+(norm capacity) -> weighted Markov. Density corollary under standard AP
+input. Exact production instantiation (Q = 2^255, N = 256L):
+- L=1: FULL window w <= w*(1) = 55 covered, exceptional density 2^-47.6 —
+  zone (b) at level 1 is now UNCONDITIONAL outside an explicit exceptional
+  set (first genuine theorem on the node's open surface).
+- L=2..19: partial windows (w_1 = 39 down to 21; 33% -> 0.2% of window).
+- L >= 20: NOTHING — even the minimal window's family (C(256L, L+1) >
+  2^194) exceeds the band's prime count; second moment hits the same wall.
+  The uncovered zone {(L,w): 2<=L<=19, w_1<w<=w*} u {L>=20} is EXACTLY the
+  new zone-(b) residue. CONSEQUENCE: A2 (analytic one-bit margin) is
+  promoted to THE load-bearing leaf — the only tool reaching the whole
+  residue.
+- CORRECTION: pinned round-1 estimate w* ~ 68L is wrong; exact w*(L) ~
+  57.7L - 2 (nothing banked depended on it).
+- Aggregate corollary: at T = 2^-5, the 19 covered zones cost <= 0.86 bits
+  total outside a combined exceptional density <= 2^-30.7.
+
+Round S2 target: A2/R-bound — refute-chair first (hunt a structured
+lambda-family beating the -(256+delta)L margin; the census/lattice machinery
+prices candidates), then prover chair on partial per-lambda statements.
+
+# ROUND S2 (2026-07-07, SELF-TENNIS): analytic route corrected; DYADIC-K compression
+# (verifier notes/s2_analytic_route_audit.py ALL PASS; note notes/S2_DYADIC_K.md)
+
+REFUTE CHAIR (scored against our own architecture — window-law instance #10):
+the pinned (c)-ALTERNATIVE per-lambda display is FALSE in the random model
+(tail rate 0.21/coordinate vs the ~1 required; ~2^202 violating lambda at
+production L=1; correction marker placed at the display). The round-3 117x
+sup violation was this, misread. Real-row dyadic scan (q=65089, n'=64,
+exhaustive): near-peak counts within K <= 1.45 of iid at all well-sampled
+levels; counts are orbit-quantized (multiples of 2N).
+
+PROVER CHAIR: **moment-transfer lemma PROVED** (exact, verified s=1,2):
+SUM_lambda T^s = 4^{-sN} q^L SUM_{(2s+1)-ary kernel k} prod C(2s, s+k_y) —
+every moment of the Fourier mass IS a bounded-alphabet kernel count; A2/R
+and zone (b) are ONE leaf across alphabets; no purely-analytic escape
+exists. **DYADIC-K compression THEOREM:** the single hypothesis
+  DYADIC-K(K, j1): #{lambda != 0 : T >= 2^-j} <= K q^L P_iid(T >= 2^-j)
+  for j >= j1, top range j < j1 empty
+implies E <= 1 + 2K·r per level and SUM log2 E <= 34·log2(1+2K) <= 100 for
+K <= 3.34 (exact integral form: 6.68). Measured K at the scanned row: 1.45.
+The node's hypothesis stack {M-bound ∧ R-bound} compresses to DYADIC-K +
+dual-top emptiness. The S1 norm-sieve covers the primal low-weight side per
+alphabet (tables computable with the same code).
+
+ROUND S3 TARGET: the dual top range — engineer a dual short vector (a
+lambda with T >= 2^-j1 at a balanced row; the dual analogue of the round-5
+engineered prime) or extract the transference lemma that blocks it.
+
+# ROUND S3 (2026-07-07, SELF-TENNIS): dual-top attack executed and KILLED; emptiness now a proof program
+# (Modal run notes/s3_dual_geometric_modal.py; note notes/S3_DUAL_TOP.md)
+
+REFUTE CHAIR: designed and executed the dual-geometric attack on DYADIC-K's
+top-range emptiness (omega = 2 rows, q | Phi_n'(2): geometric orbits should
+give macroscopic T(lambda) where iid predicts none). Toy instance q=6700417
+(F5 factor), full Modal lambda-scans: THE ATTACK FAILS — E = 1.000000,
+max T = 2^-64 (flatter than a random control at 2^-17). Two exact reasons:
+(K1) ord(omega) = 2N forces omega^{N-1} = -omega^{-1}; for omega = 2 the
+coordinate lands EXACTLY at (q-1)/2 — the cosine dead-zone (verified:
+fraction 0.5000, -44 bits) — every 2-adic lambda is killed identically;
+(K2) coverage: base b >= 3 loses >= 0.74N bits to wrap; rational ratios
+need lambda >= c^{N-1} >= q. Production double-lock: F8 = Phi_512(2) has no
+factor in (2^255, 2^256] (known complete factorization).
+
+PROVER CHAIR: dual-top emptiness converted from hypothesis to PROOF
+PROGRAM: Lemma A (determinant transference — uniform-small peaks are
+geometric: 2x2 determinants < q must vanish exactly, forcing omega = b/c
+with small b, c); Lemma B (geometric peaks die at balanced rows by K1+K2);
+remaining gap = mixed-case run-gluing (long small-runs are locally
+geometric by Lemma A; constants open). The dual surface mirrors the primal
+round-5 structure: only exact algebraic mechanisms, classified and killed.
+
+Node core after S1-S3: bounded-alphabet kernel counting in the
+sieve-uncovered zone (primal) + mixed-run gluing constants (dual). Next
+(S4): either the gluing constants (close the dual side fully) or the
+level-independence hypothesis (last untouched flagged assumption).
+
+# ROUND S4 (2026-07-07, SELF-TENNIS): honest audit — S3's "proof program" scoped correctly; the core is SINGULAR
+# (note appended to notes/S3_DUAL_TOP.md §5)
+
+Self-audit caught an overclaim in S3 §2 (honest-labels rule): Lemma A's
+determinant transference needs eps < (2q)^-1/2 per coordinate, but a
+T >= 2^-j peak only forces eps ~ sqrt(j/N) — the trick reaches ONLY the
+ultra-top (T >= 1 - O(N/q)). NEW orthogonality transference (S4): a uniform
+eps-peak is INTEGRALLY orthogonal to every kernel vector of weight < 1/eps
+(|u.d| <= eps*q*w < q and ≡ 0 forces = 0); spanning by light vectors kills
+peaks — but pigeonhole-abundant kernel vectors have weight ~ N/2, reaching
+only eps < 2/N: ultra-top again. The MIDDLE SCALE (eps in (2/N, 1/4), the
+iid-forbidden dual range) is EQUIVALENT to fine kernel structure by either
+transference — one problem, as the moment transfer already said.
+
+STATE OF THE NODE AFTER S1-S4 (the compression is now complete):
+- PROVED tonight: A1-PROD norm-sieve (S1); moment-transfer lemma (S2);
+  dual ultra-top emptiness + geometric-family kill + F8 production lock
+  (S3/S4). SELF-REFUTED tonight: the pinned per-lambda analytic display
+  (S2); the naive dual-geometric attack (S3).
+- THE SINGULAR CORE (everything else reduces to it): bounded-alphabet
+  kernel counting at balanced admissible rows in the sieve-uncovered zone
+  {(L,w) : 2<=L<=19, w_1(L)<w<=w*(L)} u {L>=20, w<=w*}, posed via DYADIC-K
+  (K <= 3.34 suffices; measured 1.45).
+- Approaches consumed at the core: first-moment sieve (S1: covers its
+  zone), second moment (S1: same wall), analytic/moments (S2: transfers
+  only), transference both directions (S4: ultra-top only). Untried:
+  Lam-Leung/Conway-Jones structure transport (S5 target);
+  level-independence + endpoint exceptional rule (separate, not the core).
+
+# ROUNDS S5-S7 (2026-07-07, SELF-TENNIS TERMINAL): Lam-Leung empty; level-factorization audited; NODE FLIPPED TO CONDITIONAL
+
+S5 (notes/S5_LAM_LEUNG_TRANSPORT.md): the last untried proof family — the
+Conway-Jones/Lam-Leung transport — is EMPTY at n' = 2^s: the only char-0
+vanishing sums are antipodal-pair combinations, which reduced form excludes
+identically; the transport degenerates to the S1 sieve. Approach family
+count at the core: 5 consumed, all walls documented.
+
+S6 (notes/S6_LEVEL_FACTORIZATION.md): the level-independence hypothesis is
+REAL — the pinned "(disjoint coordinate sets)" justification is WRONG
+(levels partition moments over SHARED cells; correction marker placed).
+Discharge routes: packet-side product lemma (consumer-owned) or
+unconditional Hoelder + moment transfer (folds into the core).
+
+S7 (S7_STRUCTURE_REPORT.md): IRREDUCIBLE CORE terminal condition reached
+per SELF_TENNIS_GOAL.md. DAG surgery executed: two named CONJECTURE nodes
+banked — dli_dyadic_k_core (C1, K <= 3.34; measured 1.45) and
+dli_level_factorization (C2) — with req edges into this node; STATUS
+FLIPPED: TARGET -> CONDITIONAL on exactly {C1, C2}, with the implication
+chain PROVED and verified (C1 => DLI-AGG => endpoint consumption under
+C2). Recommend DLI-CLOSE-7 to Pro: present C1/C2 + the S1 theorem; the
+old A1 ask is subsumed (proved), A2 re-posed as C1.
+
+# RE-POSE (2026-07-07, user decision): the node IS the floor conjecture B-WEAK
+
+Strategy set by the user after the F-round: rather than being stuck proving
+strengthenings that keep dying, the node now states the weakest thing the
+x4 interface consumes — q^{-t+H} W_cen <= 2^122 at the official rows, the
+JOINT object, no route structure — standing as a conjecture for exactly as
+long as it resists DIRECT falsification (pre-registered standard in
+REPOSE_B_WEAK.md; route failures do not count). Either B is true-and-hard
+(it survives, and downstream confidence in x4's conditional chain is the
+measured product) or B is false (a joint-level counterexample forces the
+x4 rethink that no route refutation could). Nine rounds of history stand
+as B's opening survival ledger. First program experiment: the
+junction-correlation scaling study on the joint object.

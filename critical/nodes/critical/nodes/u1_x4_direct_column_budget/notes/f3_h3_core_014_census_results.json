@@ -1,0 +1,78 @@
+{
+  "core": [
+    0,
+    1,
+    4
+  ],
+  "n": 96,
+  "total_shapes": 129766,
+  "norm_exception_count": 1142,
+  "activation_exception_count": 5,
+  "activation_exceptions": [
+    {
+      "shape": [
+        0,
+        1,
+        4,
+        9,
+        37,
+        60
+      ],
+      "activation_primes": [
+        37633
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        4,
+        12,
+        23,
+        33
+      ],
+      "activation_primes": [
+        17377
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        4,
+        40,
+        44,
+        53
+      ],
+      "activation_primes": [
+        37633
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        4,
+        40,
+        61,
+        89
+      ],
+      "activation_primes": [
+        37633
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        4,
+        45,
+        56,
+        60
+      ],
+      "activation_primes": [
+        37633
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "node": "list_corridor_widths",
+  "status": "PROVED_COMPUTE_PACKET",
+  "units": "cap-grid steps eta",
+  "log2_q": 256,
+  "endpoint_convention": {
+    "unsafe_reserve": "H(rho) / 128",
+    "safe_reserve": "tau_star(rho, log2_q=256), the image-fiber/F_tau reserve",
+    "grid_step": "eta = 2^-9 for rates 1/4 and 1/8; eta = 2^-10 for rate 1/16",
+    "width_formula": "W_list = (unsafe_reserve - safe_reserve) / eta",
+    "audit_column": "H(rho) / 256, the constructive dyadic window upper edge, is printed only to show its small drift from tau_star"
+  },
+  "rows": [
+    {
+      "rate": "1/4",
+      "H_rho": 0.8112781244591328,
+      "eta": 0.001953125,
+      "unsafe_reserve_H_over_128": 0.006338110347337,
+      "safe_reserve_tau_star": 0.003188644533466,
+      "dyadic_hi_reserve_H_over_256": 0.003169055173668,
+      "unsafe_delta": 0.743661889652663,
+      "safe_delta": 0.746811355466534,
+      "dyadic_hi_delta": 0.746830944826332,
+      "W_list": 1.612526496982,
+      "dyadic_window_width": 1.622556248918,
+      "tau_star_minus_H_over_256_in_grid_steps": 0.010029751936
+    },
+    {
+      "rate": "1/8",
+      "H_rho": 0.5435644431995964,
+      "eta": 0.001953125,
+      "unsafe_reserve_H_over_128": 0.004246597212497,
+      "safe_reserve_tau_star": 0.002146721906218,
+      "dyadic_hi_reserve_H_over_256": 0.002123298606248,
+      "unsafe_delta": 0.870753402787503,
+      "safe_delta": 0.872853278093782,
+      "dyadic_hi_delta": 0.872876701393752,
+      "W_list": 1.075136156735,
+      "dyadic_window_width": 1.087128886399,
+      "tau_star_minus_H_over_256_in_grid_steps": 0.011992729665
+    },
+    {
+      "rate": "1/16",
+      "H_rho": 0.3372900666170139,
+      "eta": 0.0009765625,
+      "unsafe_reserve_H_over_128": 0.002635078645446,
+      "safe_reserve_tau_star": 0.001337871459676,
+      "dyadic_hi_reserve_H_over_256": 0.001317539322723,
+      "unsafe_delta": 0.934864921354554,
+      "safe_delta": 0.936162128540324,
+      "dyadic_hi_delta": 0.936182460677277,
+      "W_list": 1.328340157828,
+      "dyadic_window_width": 1.349160266468,
+      "tau_star_minus_H_over_256_in_grid_steps": 0.02082010864
+    }
+  ],
+  "verifier": "python3 tools/verify_list_corridor_widths.py"
+}

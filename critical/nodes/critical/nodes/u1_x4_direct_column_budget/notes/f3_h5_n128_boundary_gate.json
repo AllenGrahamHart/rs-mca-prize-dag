@@ -1,0 +1,37 @@
+{
+  "W": 128,
+  "anchored_nontoral_trades": 0,
+  "anchored_toral_trades": 0,
+  "complete": false,
+  "direct_n3_budget": 2097152,
+  "direct_n3_exceeded": false,
+  "h": 5,
+  "hashed_per_shard": 10334625,
+  "max_elapsed_sec": 15.051,
+  "n": 128,
+  "name": "boundary_n128_h5_p17921_SHARDED_CPP",
+  "p": 17921,
+  "partial": true,
+  "probed": 13643876,
+  "rows": [
+    {
+      "W": 128,
+      "anchored_nontoral_trades": 0,
+      "anchored_toral_trades": 0,
+      "complete": false,
+      "direct_n3_budget": 2097152,
+      "direct_n3_exceeded": false,
+      "elapsed_sec": 15.051,
+      "h": 5,
+      "hashed": 10334625,
+      "n": 128,
+      "p": 17921,
+      "partial": true,
+      "probed": 13643876,
+      "shard": 1,
+      "shards": 32
+    }
+  ],
+  "shards": 32,
+  "shards_completed": 1
+}

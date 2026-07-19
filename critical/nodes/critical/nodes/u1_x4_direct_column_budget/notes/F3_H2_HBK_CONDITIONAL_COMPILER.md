@@ -1,0 +1,172 @@
+# F3 h=2 HBK conditional compiler (Terminal B)
+
+Status: PROVED COMPILER.  This note reduces the in-house energy proof to one
+explicit rich-coset Stepanov lemma and gives the constant propagation.  The
+companion note `F3_H2_RICH_COSET_STEPANOV.md` proves that input with `K=129`.
+
+## Source Map
+
+Primary source: Heath-Brown and Konyagin, *New bounds for Gauss sums derived
+from k-th powers, and for Heilbronn's exponential sum*, Quart. J. Math. 51
+(2000), 221--235.  Oxford ORA record:
+
+```text
+https://ora.ox.ac.uk/objects/uuid:f2d980d4-ef1d-4b72-89a9-3d9d8527a024
+```
+
+Relevant paper labels:
+
+- their `mu_h` is our subgroup `H`;
+- their `C(u)` is our shifted-intersection fiber `r_C`;
+- their Lemma 3 is exactly the additive-energy theorem `#A(h) << h^(5/2)`;
+- their Lemma 5 is the rich-coset estimate whose dyadic summation proves
+  Lemma 3.
+
+The paper is used here as a map.  The companion rich-coset note gives an
+in-house proof with explicit conservative constants.
+
+## Conditional Lemma B2-rich
+
+Let `H <= F_p^*` have size `h <= p^(2/3)`.  For each nonzero multiplicative
+coset `C=sH`, let
+
+```text
+r_C = |H cap (H+s)|.
+```
+
+For any set `U` of `T >= 1` distinct nonzero cosets, define
+
+```text
+R(U) = sum_{C in U} r_C.
+```
+
+The single remaining B2-rich input is:
+
+```text
+R(U) <= K * (h*T)^(2/3)        for every U,
+```
+
+with an explicit absolute constant `K`, in the range `h <= p^(2/3)`.
+
+This is the exact constant-bearing version of the HBK rich-coset lemma needed
+by Terminal B.  It is proved in `F3_H2_RICH_COSET_STEPANOV.md` with `K = 129`.
+
+## Compiler
+
+Order the nonzero cosets so that
+
+```text
+r_1 >= r_2 >= ...
+```
+
+The exact first moment from `F3_H2_LEVEL_SET_REDUCTION.md` is
+
+```text
+sum_i r_i = h - 1 <= h.
+```
+
+The B2-rich lemma applied to the first `T=i` cosets gives
+
+```text
+r_i <= K h^(2/3) i^(-1/3).
+```
+
+Split indices into dyadic blocks `N <= i < 2N`.  On such a block:
+
+```text
+sum_{N <= i < 2N} r_i^2 <= K^2 h^(4/3) N^(1/3)
+```
+
+from the pointwise bound and block length, and also
+
+```text
+sum_{N <= i < 2N} r_i^2 <= K h^(5/3) N^(-1/3)
+```
+
+from the pointwise bound times the first moment.
+
+Only positive fibers need to be counted.  Since each positive `r_i` is an
+integer and `sum_i r_i <= h`, there are at most `h` positive cosets; hence the
+second dyadic sum stops at `N <= h`.  Summing the first estimate for
+`N <= h^(1/2)` and the second for `h^(1/2) < N <= h`, and using
+
+```text
+sum_{dyadic N <= h^(1/2)} N^(1/3) <= 5 h^(1/6),
+sum_{dyadic h^(1/2) < N <= h} N^(-1/3) <= 5 h^(-1/6),
+```
+
+gives
+
+```text
+sum_i r_i^2 <= 5 * (K^2 + K) * h^(3/2).
+```
+
+Combining with the exact identity
+
+```text
+E(H) = h^2 + h * sum_i r_i^2
+```
+
+gives the explicit conditional energy theorem
+
+```text
+E(H) <= (1 + 5*(K^2+K)) * h^(5/2)      for h >= 1.
+```
+
+Therefore
+
+```text
+T_2 <= E(H)/8 <= ((1 + 5*(K^2+K))/8) * h^(5/2).
+```
+
+With `K=129`, the propagated theorem is
+
+```text
+E(H) <= 83851 h^(5/2),
+T_2 <= (83851/8) h^(5/2).
+```
+
+F3 flip constant-campaign update (2026-07-08):
+`F3_H2_RICH_COSET_OPTIMIZED.md` keeps the same auxiliary polynomial and
+nonvanishing proof, but replaces the coarse floor-loss inequalities by exact
+bookkeeping.  It proves the stronger rich-coset constant `K=66`, giving
+
+```text
+E(H) <= 22111 h^(5/2),
+T_2 <= (22111/8) h^(5/2).
+```
+
+This lowers the in-house h=2 `T_2 < h^3` crossover to integer
+`h >= 7,639,006`, so every official power-of-two row from `2^23` upward is
+covered by the in-house chain alone.
+
+More generally, once B2-rich is proved with any explicit `K`, the h=2 floor
+follows for all
+
+```text
+h > ((1 + 5*(K^2+K))/8)^2,
+```
+
+with the finitely many smaller `h` handled by exact replay/certificates.
+
+## Replay
+
+```bash
+python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
+```
+
+Expected digest:
+
+```text
+H2_HBK_CONDITIONAL_COMPILER_PASS
+```
+
+## Remaining Open Work
+
+The rich-coset input is now proved with a conservative constant in
+`F3_H2_RICH_COSET_STEPANOV.md`.  Remaining improvements are:
+
+```text
+optimize K toward the external 16/3 energy constant, or add finite midrange
+certificates if this large in-house constant is used alone to close every h.
+```

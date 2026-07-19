@@ -1,0 +1,884 @@
+{
+  "core": [
+    0,
+    1,
+    24
+  ],
+  "n": 96,
+  "total_shapes": 129766,
+  "norm_exception_count": 1223,
+  "activation_exception_count": 67,
+  "activation_exceptions": [
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        2,
+        26,
+        49
+      ],
+      "activation_primes": [
+        244129
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        2,
+        49,
+        74
+      ],
+      "activation_primes": [
+        37633
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        3,
+        27,
+        49
+      ],
+      "activation_primes": [
+        32833
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        3,
+        49,
+        75
+      ],
+      "activation_primes": [
+        30817
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        4,
+        28,
+        49
+      ],
+      "activation_primes": [
+        24481
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        4,
+        49,
+        76
+      ],
+      "activation_primes": [
+        1857217
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        5,
+        29,
+        49
+      ],
+      "activation_primes": [
+        3970273
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        6,
+        30,
+        49
+      ],
+      "activation_primes": [
+        39841
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        6,
+        49,
+        78
+      ],
+      "activation_primes": [
+        690817
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        7,
+        31,
+        49
+      ],
+      "activation_primes": [
+        14593
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        8,
+        32,
+        49
+      ],
+      "activation_primes": [
+        9699841
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        9,
+        33,
+        49
+      ],
+      "activation_primes": [
+        10657
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        10,
+        34,
+        49
+      ],
+      "activation_primes": [
+        600577
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        10,
+        49,
+        82
+      ],
+      "activation_primes": [
+        937537
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        11,
+        35,
+        49
+      ],
+      "activation_primes": [
+        21601
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        11,
+        49,
+        83
+      ],
+      "activation_primes": [
+        16121089
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        12,
+        36,
+        49
+      ],
+      "activation_primes": [
+        27361
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        12,
+        49,
+        84
+      ],
+      "activation_primes": [
+        12289
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        13,
+        37,
+        49
+      ],
+      "activation_primes": [
+        35417281
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        13,
+        49,
+        85
+      ],
+      "activation_primes": [
+        13729
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        14,
+        38,
+        49
+      ],
+      "activation_primes": [
+        117889
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        14,
+        49,
+        86
+      ],
+      "activation_primes": [
+        117889
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        17,
+        41,
+        49
+      ],
+      "activation_primes": [
+        37633
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        17,
+        49,
+        89
+      ],
+      "activation_primes": [
+        37633
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        18,
+        42,
+        49
+      ],
+      "activation_primes": [
+        93889
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        19,
+        43,
+        49
+      ],
+      "activation_primes": [
+        120577
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        19,
+        49,
+        91
+      ],
+      "activation_primes": [
+        18049
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        20,
+        44,
+        49
+      ],
+      "activation_primes": [
+        10753
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        20,
+        49,
+        92
+      ],
+      "activation_primes": [
+        10753
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        21,
+        45,
+        49
+      ],
+      "activation_primes": [
+        33601
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        21,
+        49,
+        93
+      ],
+      "activation_primes": [
+        80449
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        22,
+        49,
+        94
+      ],
+      "activation_primes": [
+        19009
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        23,
+        47,
+        49
+      ],
+      "activation_primes": [
+        418177
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        23,
+        49,
+        95
+      ],
+      "activation_primes": [
+        400033
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        27,
+        49,
+        51
+      ],
+      "activation_primes": [
+        8807521
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        29,
+        49,
+        53
+      ],
+      "activation_primes": [
+        1529089
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        30,
+        49,
+        54
+      ],
+      "activation_primes": [
+        39841
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        31,
+        49,
+        55
+      ],
+      "activation_primes": [
+        1799617
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        33,
+        49,
+        57
+      ],
+      "activation_primes": [
+        208921057
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        34,
+        49,
+        58
+      ],
+      "activation_primes": [
+        2240449
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        35,
+        49,
+        59
+      ],
+      "activation_primes": [
+        1259329
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        36,
+        49,
+        60
+      ],
+      "activation_primes": [
+        27361
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        37,
+        49,
+        61
+      ],
+      "activation_primes": [
+        13729
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        38,
+        49,
+        62
+      ],
+      "activation_primes": [
+        24001
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        39,
+        49,
+        63
+      ],
+      "activation_primes": [
+        25633
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        40,
+        49,
+        64
+      ],
+      "activation_primes": [
+        9601
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        41,
+        49,
+        65
+      ],
+      "activation_primes": [
+        9043009
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        43,
+        49,
+        67
+      ],
+      "activation_primes": [
+        49921
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        44,
+        49,
+        68
+      ],
+      "activation_primes": [
+        38113
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        45,
+        49,
+        69
+      ],
+      "activation_primes": [
+        471649
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        46,
+        49,
+        70
+      ],
+      "activation_primes": [
+        17377
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        50,
+        74
+      ],
+      "activation_primes": [
+        244129
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        51,
+        75
+      ],
+      "activation_primes": [
+        30817
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        52,
+        76
+      ],
+      "activation_primes": [
+        6743809
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        53,
+        77
+      ],
+      "activation_primes": [
+        43201
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        54,
+        78
+      ],
+      "activation_primes": [
+        690817
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        56,
+        80
+      ],
+      "activation_primes": [
+        9699841
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        58,
+        82
+      ],
+      "activation_primes": [
+        2556577
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        60,
+        84
+      ],
+      "activation_primes": [
+        12289
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        61,
+        85
+      ],
+      "activation_primes": [
+        52334209
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        62,
+        86
+      ],
+      "activation_primes": [
+        24001
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        64,
+        88
+      ],
+      "activation_primes": [
+        41432641
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        65,
+        89
+      ],
+      "activation_primes": [
+        7799809
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        66,
+        90
+      ],
+      "activation_primes": [
+        93889
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        67,
+        91
+      ],
+      "activation_primes": [
+        956929
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        68,
+        92
+      ],
+      "activation_primes": [
+        38113
+      ]
+    },
+    {
+      "shape": [
+        0,
+        1,
+        24,
+        49,
+        70,
+        94
+      ],
+      "activation_primes": [
+        105601
+      ]
+    }
+  ]
+}

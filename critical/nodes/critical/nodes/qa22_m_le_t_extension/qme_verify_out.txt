@@ -1,0 +1,81 @@
+========================================================================
+E1/E2/E3: nondegeneracy, COL cap vs allowance, dedup — full grid
+========================================================================
+[PASS] E1 grid size: 128 rows, 3392 own cells swept  3392 cells
+[PASS] E1 nondegeneracy Q_M(A_own) >= 1 (h <= n/M - 1; A_own <= k+M <= n-M) at EVERY cell
+[PASS] E1 band floor A_own >= k+1 at every cell
+[PASS] E2 COL cap n/(n-A_own) <= 4 <= 719 at every cell
+[PASS] E2 per-rate cap maxima EXACTLY {1/2:4, 1/4:2, 1/8:4/3, 1/16:4/3}  attained: 1/2: 4, 1/4: 2, 1/8: 4/3, 1/16: 4/3
+[PASS] E2 csp cell (2, k+4): nondegenerate and ratio n/(n-k-4) <= 4, all rows
+[PASS] E3 all extension scales in [2, t] (composite range (t, n] disjoint)
+[PASS] E3 parity: every A_own EVEN
+[PASS] E3 parity: every banked QA.22 row A ODD (no (M,A) cell collision)  banked A = [507, 261, 133, 67, 558345748481, 283467841537, 141733920769]
+[PASS] E5 planted-column ratio (a2-k/2)/(k/2+1) in [2047/2049, 15) grid-wide  min = 2047/2049, max = 8246337208319/549755813889 ~ 15.0000
+========================================================================
+E4-A: exact first-scale dominance, s = 13..20 (worst cell + #155 pin)
+========================================================================
+     s=13 rho=1/2  log2 excess = -2047.5015
+     s=13 rho=1/4  log2 excess = -1660.9996
+     s=13 rho=1/8  log2 excess = -1112.7234
+     s=13 rho=1/16 log2 excess =  -690.2765
+     s=14 rho=1/2  log2 excess = -4095.5007
+     s=14 rho=1/4  log2 excess = -3322.4962
+     s=14 rho=1/8  log2 excess = -2225.9417
+     s=14 rho=1/16 log2 excess = -1381.0433
+     s=15 rho=1/2  log2 excess = -8191.5004
+     s=15 rho=1/4  log2 excess = -6645.4909
+     s=15 rho=1/8  log2 excess = -4452.3808
+     s=15 rho=1/16 log2 excess = -2762.5818
+     s=16 rho=1/2  log2 excess = -16383.5002
+     s=16 rho=1/4  log2 excess = -13291.4810
+     s=16 rho=1/8  log2 excess = -8905.2603
+     s=16 rho=1/16 log2 excess = -5525.6613
+     s=17 rho=1/2  log2 excess = -32767.5001
+     s=17 rho=1/4  log2 excess = -26583.4617
+     s=17 rho=1/8  log2 excess = -17811.0199
+     s=17 rho=1/16 log2 excess = -11051.8213
+     s=18 rho=1/2  log2 excess = -65535.5000
+     s=18 rho=1/4  log2 excess = -53167.4232
+     s=18 rho=1/8  log2 excess = -35622.5395
+     s=18 rho=1/16 log2 excess = -22104.1420
+     s=19 rho=1/2  log2 excess = -131071.5000
+     s=19 rho=1/4  log2 excess = -106335.3464
+     s=19 rho=1/8  log2 excess = -71245.5788
+     s=19 rho=1/16 log2 excess = -44208.7837
+     s=20 rho=1/2  log2 excess = -262143.5000
+     s=20 rho=1/4  log2 excess = -212671.1927
+     s=20 rho=1/8  log2 excess = -142491.6574
+     s=20 rho=1/16 log2 excess = -88418.0673
+[PASS] E4-A dominance sum_{M<=t} Q_M(A_own) <= (1 + 2^-690) Q_2(k+2), s = 13..20 all rates (EXACT)  worst log2 excess = -690.2765
+[PASS] E4-A worst cell is (s, rho) = (13, 1/16)  got (13, 16)
+[PASS] E4-A #155 sharpness: worst excess > 2^-691 (the pre-computed constant IS false)
+[PASS] E4-A the excess is the M = 4 term: (tail - Q_4) <= 2^-300 * Q_4 at every Regime-A row
+========================================================================
+E4-B: certified dominance s = 21..44 (integer-only entropy bounds)
+========================================================================
+[PASS] E4-B overlap s = 15..20: certificates valid AND bracket the exact values (24 rows)
+[PASS] E4-B certified tail <= 2^-690 * Q_2(k+2) at ALL 96 rows s = 21..44  min margin beyond the 691-bit requirement = 168245 bits at (s, rho) = (21, 1/16)
+     official maximal rows: certified L = log2-lower-bound on Q_2(k+2):
+       (s=41, rho=1/2 ): L ~ 2^39.99 bits (= 1.0952e+12)
+       (s=42, rho=1/4 ): L ~ 2^40.69 bits (= 1.7781e+12)
+       (s=43, rho=1/8 ): L ~ 2^41.11 bits (= 2.3665e+12)
+       (s=44, rho=1/16): L ~ 2^41.40 bits (= 2.9034e+12)
+[PASS] E4-B official maximal rows: certified L > 1e12 bits (old banked 2^99.8-scale rows negligible: relative 2^(100 - L))
+========================================================================
+E5: allowance constant + planted-column identity
+========================================================================
+[PASS] E5 719 == floor(n^6/C(n+6,6)) at the four official maximal rows (s = 41..44)
+[PASS] E5 719 * C(n+6,6) <= n^6 at s = 41..44 (the floor slack line)
+     FYI (#154): floor(n^6/C(n+6,6)) at s=40: 719, s=45: 719
+[PASS] E5 integer identity Q_2(k+2)*(k/2+1) == Q_2^planted(k)*(a2-k/2) on Regime-A rows (Pascal step is exact; extends verbatim to all n)
+[PASS] E5 headroom: allowance/COL-cap == 719/4 == 179.75 exactly
+========================================================================
+MUTATIONS (a tampered allowance/constant/convention must FAIL)
+========================================================================
+[PASS] MUT1 TRIPS: allowance 719 -> 3 fails the per-cell cap (rho = 1/2, M = t has ratio exactly 4)
+[PASS] MUT2 TRIPS: the banked (1 + 2^-691) dominance line FAILS at (13,1/16)
+[PASS] MUT3 TRIPS: A_own -> M*floor(k/M) violates the band floor A >= k+1
+[PASS] MUT4 TRIPS: a banked even-A row breaks parity disjointness
+[PASS] MUT5 TRIPS: 'sum <= (1 + 2^-690) * Q_4(A_own(4))' is FALSE (wrong top term detected)
+========================================================================
+RESULT: ALL CHECKS PASS

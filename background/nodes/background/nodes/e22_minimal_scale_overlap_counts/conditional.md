@@ -1,0 +1,34 @@
+# conditional: e22_minimal_scale_overlap_counts
+
+## Predicate nodes
+
+- `e22_overlap_nested_fiber_residual_identity`
+- `e22_overlap_residual_profile_formula`
+
+## Claim
+
+Conditional on the exact residual-profile formula, the cross-scale overlaps
+`O_{i,j}` used in the dyadic-chain triangular subtraction are exactly known
+for every dyadic pair `M_i<M_j`.
+
+## Proof
+
+The proved node `e22_overlap_nested_fiber_residual_identity` says that, for a
+support with canonical minimal scale `M_i`, raw scale-`M_j` admissibility is
+equivalent to
+
+```text
+|B_i| + M_i * r_{i,j}(S_i) < M_j,
+```
+
+where `r_{i,j}(S_i)` counts selected `M_i`-fibers whose `M_j`-parent is not
+completely selected.
+
+The remaining predicate `e22_overlap_residual_profile_formula` supplies the
+exact count of minimal-scale-`M_i` canonical support data satisfying this
+inequality, with the same duplicate or multiplicity convention as
+`dyadic_profile_evaluation`. Therefore the value it gives is precisely the
+overlap term `O_{i,j}` in `e22_dyadic_chain_mobius_accounting`.
+
+Doing this for every dyadic pair supplies the full family of cross-scale
+overlap counts.

@@ -1,0 +1,105 @@
+{
+  "results": [
+    {
+      "classes": {
+        "2": {
+          "distinct_normalized_norms": 3,
+          "first_odd_witness": null,
+          "galois_exchange_orbits": 154,
+          "odd_prime_factors": 0,
+          "raw_edges": 1736,
+          "relevant_prime_factors": 0
+        },
+        "4": {
+          "distinct_normalized_norms": 34,
+          "first_odd_witness": {
+            "normalized_norm": 1282,
+            "odd_factors": [
+              641
+            ],
+            "representative": [
+              1,
+              100
+            ]
+          },
+          "galois_exchange_orbits": 1701,
+          "odd_prime_factors": 17,
+          "raw_edges": 25067,
+          "relevant_prime_factors": 4
+        },
+        "6": {
+          "distinct_normalized_norms": 210,
+          "first_odd_witness": {
+            "normalized_norm": 66049,
+            "odd_factors": [
+              257
+            ],
+            "representative": [
+              1,
+              73
+            ]
+          },
+          "galois_exchange_orbits": 2967,
+          "odd_prime_factors": 120,
+          "raw_edges": 46046,
+          "relevant_prime_factors": 103
+        }
+      },
+      "complete": true,
+      "elapsed_seconds": 0.35539178000000016,
+      "order": 32,
+      "small_vector_pairs": 435
+    },
+    {
+      "classes": {
+        "2": {
+          "distinct_normalized_norms": 4,
+          "first_odd_witness": null,
+          "galois_exchange_orbits": 393,
+          "odd_prime_factors": 0,
+          "raw_edges": 8280,
+          "relevant_prime_factors": 0
+        },
+        "4": {
+          "distinct_normalized_norms": 163,
+          "first_odd_witness": {
+            "normalized_norm": 1711106,
+            "odd_factors": [
+              257,
+              3329
+            ],
+            "representative": [
+              1,
+              211
+            ]
+          },
+          "galois_exchange_orbits": 9619,
+          "odd_prime_factors": 102,
+          "raw_edges": 272595,
+          "relevant_prime_factors": 67
+        },
+        "6": {
+          "distinct_normalized_norms": 3735,
+          "first_odd_witness": {
+            "normalized_norm": 4295098369,
+            "odd_factors": [
+              65537
+            ],
+            "representative": [
+              1,
+              153
+            ]
+          },
+          "galois_exchange_orbits": 41527,
+          "odd_prime_factors": 2212,
+          "raw_edges": 1278030,
+          "relevant_prime_factors": 2127
+        }
+      },
+      "complete": true,
+      "elapsed_seconds": 7.7191820700000005,
+      "order": 64,
+      "small_vector_pairs": 1891
+    }
+  ]
+}

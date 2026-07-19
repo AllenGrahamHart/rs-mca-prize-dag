@@ -1,0 +1,24 @@
+{
+  "b": 0,
+  "clean_fibers": [
+    {"roots": [1, 35, 61], "slope": 1},
+    {"roots": [2, 25, 70], "slope": 8},
+    {"roots": [3, 8, 86], "slope": 27}
+  ],
+  "e": 1,
+  "e_star": 1,
+  "expected_separation_rank": 2,
+  "p": 97,
+  "r": 3,
+  "saturated_fibers": [
+    {"roots": [1], "row": 1},
+    {"roots": [1], "row": 35},
+    {"roots": [1], "row": 61},
+    {"roots": [8], "row": 2},
+    {"roots": [8], "row": 25},
+    {"roots": [8], "row": 70},
+    {"roots": [27], "row": 3},
+    {"roots": [27], "row": 8},
+    {"roots": [27], "row": 86}
+  ]
+}
