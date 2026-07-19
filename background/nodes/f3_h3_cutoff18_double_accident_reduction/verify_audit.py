@@ -59,7 +59,7 @@ def main() -> None:
         if edge["from"] == NODE and edge["to"] == CONSUMER
     ]
     assert nodes[NODE]["status"] == "PROVED"
-    assert nodes[CONSUMER]["status"] == "TARGET"
+    assert nodes[CONSUMER]["status"] in ("TARGET", "CONDITIONAL")  # 2026-07-19 amber re-pose
     assert evidence == [{"from": NODE, "to": CONSUMER, "kind": "ev"}]
 
     print(

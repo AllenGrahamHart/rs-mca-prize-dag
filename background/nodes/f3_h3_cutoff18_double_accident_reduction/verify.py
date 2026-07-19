@@ -67,7 +67,7 @@ def main() -> None:
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
     assert nodes[NODE]["status"] == "PROVED"
-    assert nodes[CONSUMER]["status"] == "TARGET"
+    assert nodes[CONSUMER]["status"] in ("TARGET", "CONDITIONAL")  # 2026-07-19 amber re-pose
     assert (DEPENDENCY, NODE, "req") in edges
     assert (NODE, CONSUMER, "ev") in edges
 
