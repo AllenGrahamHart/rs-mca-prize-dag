@@ -2554,3 +2554,23 @@ four slot reds; C36 CONDITIONAL on DSP8 (req route of record) with
 the template-survivor ev reserve. The board's open-red set is now
 EIGHT reds + two ambers-on-six-leaves; DSP8's pre-registered
 F-round 1 is the queued next mathematics.
+
+## 97 — 2026-07-19: DSP8 F-ROUND 1 SURVIVED-VACUOUSLY (catches
+## dsp8r1-C1..C8 = #288-#295) — and the round found the amber's
+## likely CLOSING ROUTE
+
+Pre-registered round, 25 Modal apps, cents-scale: neither kill
+fired over 48,544 exact rows at nine scales incl. the OFFICIAL
+n=8192 rows — but the survival is VACUOUS (no row has a retained
+P >= 25 target; richness saturates at P = 20; LHS identically 0).
+The round's real product: the TWIN LAW (near-rich rows carry
+exactly two antipodal-free P=20 targets; the overlap payment is
+inactive precisely where fibers are rich), antipodal starvation,
+and the CANDIDATE CLOSING SATELLITE — 'max P <= 24 at official
+aspect' would make DSP8 vacuously TRUE and CLOSE THE C36 AMBER;
+falsifier = any official row with P >= 21; natural route = the
+audited collision-norm/coupled-ideal template machinery. Round 2 =
+constructive (build rich primes from the norm set, don't scan).
+One ops catch (a pmax fence voided a shard's window — caught by
+the rows=0 summary, re-run clean, zero coverage loss). All
+controls exact; dual-implementation equality on every rich row.
