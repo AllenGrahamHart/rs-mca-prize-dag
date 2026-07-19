@@ -2604,3 +2604,23 @@ no paid exclusion — cheap fix, factor Norm(u) into the v_2 gate)
 norm blow-up at weight 7 (max saturated gcd 1,625 bits vs (2,6)'s
 16,986). JOB A LAUNCH AWAITS THE MAINTAINER'S SPEND APPROVAL
 ($45-60 > the cents envelope).
+
+## 99 — 2026-07-19: C1'-r3 PROGRAM LAUNCHED + staging-ring spec banked
+
+Per the maintainer's go: the C1'-r3 re-pose designer/falsifier is in
+flight (c1r3_ scratchpad prefix; levers = official-admissibility
+scoping [the r2 killers all have v_2(q-1) <= 7 vs the official gate
+41, and the PROVED weight-3/4 ambient exclusions empty the accident
+channel at official rows] + the extended ledger [w <= 7 already
+drops the known killers to K' 2.5-3.4 under the allowance 4];
+pre-registration-first; Proth-engineered high-v_2 analogue rows;
+cents-scale Modal). ON SURVIVAL the amber cascade re-arms: baseline
+CONDITIONAL on {C1'-r3, WCL-amber} -> dli CONDITIONAL on {C2'',
+baseline} -> the whole decomposition surfaces on the critical map
+with honest colors. The STAGING-RING map spec (dimmed ev-lane
+ambers+leaves adjacent to their consumers) is banked at
+notes/kernel_basis/STAGING_RING_SPEC.md for next-cycle
+implementation — the maintainer's board-visibility principle of
+record. Job A ((1,5) completion, $45-60) remains APPROVED-PENDING
+the maintainer's explicit spend go; Job B path = gcd swap ->
+re-pilot.
