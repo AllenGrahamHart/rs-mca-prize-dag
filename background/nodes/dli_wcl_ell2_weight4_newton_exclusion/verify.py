@@ -100,7 +100,7 @@ def main() -> None:
     structural = {
         "node_proved": nodes[NODE]["status"] == "PROVED",
         "proof_closure": nodes[NODE]["closure"] == "proof",
-        "zone_target": nodes[ZONE]["status"] in ("TARGET", "CONDITIONAL")  # 2026-07-19 amber re-pose,
+        "zone_target": nodes[ZONE]["status"] in ("TARGET", "CONDITIONAL"),  # 2026-07-19 amber re-pose
         "evidence_edge": (NODE, ZONE, "ev") in edges,
         "odd_power_matrix": "A_{l,y} = x_y^{2l-1}" in pin,
     }
