@@ -2669,3 +2669,30 @@ an intermediate window. Round 2 pre-registered (amber above the
 iid asymptote, 2^28..2^32 segment incl. row 918552577, L=2);
 MINTING WAITS on round 2 per the confidence bar. dli_dyadic_k_core
 stays REFUTED (the old pose's kill stands).
+
+## 102 — 2026-07-19: C1'-r3 ROUND 2 SURVIVED — MINTED (catches
+## #296-#312); the dli lane's broken leg is LIVE again
+
+Round 2 (pre-registered; ~305 shards, low-$; complete census
+through 1.95e9 = octaves 28-30, 153 rows + 11 deep-split probes to
+v_2=30): NO kill fired — literal (worst exact K' = 1.401644 at
+q=377487361, 2.85x margin), amber-2 (zero rows >= 2; the line sits
+43% above the observed ceiling), iid-excess trend (envelope
+SATURATES in [1.33, 1.40]; the 28->29 step DECREASES). THE
+DECISIVE POINT: the deferred w6 accident row 918552577 has env =
+3.000058 EXACT (the accident is REAL and would have fired on the
+bare envelope) and reprices to K' = 1.333359 via its w6 orbit at
+mass 1 — the extended ledger is load-bearing at precisely the
+class the re-pose targeted (c1r3b-C1). Gated L=2 provably
+unreachable at the current compute law (wall documented; the
+near-gate v2-ladder to 13 mirrors L=1; adverse tripwire clean).
+CEREMONY EXECUTED per the prescription: the r3 successor MINTED as
+the live pose block on dli_dyadic_k_core (node status stays
+REFUTED for the r2-killed ungated pose — permanent); the zone
+window widened L+5 -> L+7 (assembly arithmetic unchanged); SIX new
+extended slots minted + req-wired (the WCL amber now rests on TEN
+slots); the baseline re-wiring documented (status stays TARGET
+pending the dli amber ceremony — watch conditions (i)/(ii) met,
+(iii) = maintainer acceptance of the amber-2 watch line RECORDED
+AS OPEN). Round-3 items: octave-31 census (4 rows need a
+compute-law amendment), gated L=2, the full-ledger lever.

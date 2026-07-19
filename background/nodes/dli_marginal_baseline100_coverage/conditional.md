@@ -83,3 +83,17 @@ The last inequality is exact integer arithmetic:
 This proves `dli_marginal_baseline100_coverage` from the two wired predicates.
 No C2'' reserve, endpoint certificate, reserve credit, typical-prime
 assumption, or floating-point comparison is used.
+
+---
+
+## C1'-r3 RE-WIRING (2026-07-19; the route is LIVE again)
+
+The predicate list becomes: dli_dyadic_k_core's C1'-r3 block
+(twice-survived, unproved) + WCL-ZONE-ext (the widened window; per
+level E_j - 1 <= 4 r_j (1 + W_ext) <= 33/8, E_j <= 41/8; aggregate
+UNCHANGED, 41^34 < 2^202, 19.8432 bits slack). The gate hypothesis
+v_2(q-1) >= 41 is VACUOUS at official rows (ambient split q =
+k*2^41+1) — no downstream row is lost (legitimacy: the weight-3/4
+ambient exclusions + ell-2 siblings + Newton short-window). Node
+status stays TARGET pending the dli amber ceremony (watch conditions
+recorded on the C1'-r3 block).

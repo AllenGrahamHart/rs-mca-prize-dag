@@ -1,0 +1,20 @@
+# L2-XVAL PASS at q=12289: strategy-C == direct grid (A=126288915136)
+
+# L=2 near-gate v2-ladder (instrument; all v2 < 20 = OUT of hypothesis):
+  N       q  v2     env(float)      r(float)  src
+ 32     257   8    0.121291323   1.53782e-05  grid
+ 32   12289  12    0.964114018      0.035162  grid
+ 32   18433  11    0.979651375     0.0791101  grid
+ 32   40961  13    1.009277172      0.390644  strategyC
+ 32   61441  12    0.933067967      0.878935  strategyC
+ 64    7681   9    0.036682527   3.19828e-12  crt49
+ 64   12289  12    0.009469394   8.18678e-12  crt49
+ 64   18433  11    0.055534799   1.84193e-11  crt49
+
+# tripwire N=32: env by v2: v8(q=257)=0.121291, v11(q=18433)=0.979651, v12(q=12289)=0.964114, v12(q=61441)=0.933068, v13(q=40961)=1.009277
+# monotone increasing in v2: False
+# tripwire not tripped (not monotone increasing)
+
+# tripwire N=64: env by v2: v9(q=7681)=0.036683, v11(q=18433)=0.055535, v12(q=12289)=0.009469
+# monotone increasing in v2: False
+# tripwire not tripped (not monotone increasing)
