@@ -2650,3 +2650,22 @@ banked). #827 itself closed-integrated 07-16; its program is now
 the hottest thresholds thread, two leaves from an unconditional
 dense-shell statement. WATCH: #905/#911, #900, #977, #937/#942,
 #893, #914->#917 (their audit-repair cycle).
+
+## 101 — 2026-07-19: C1'-r3 ROUND 1 = MIXED-STRUCTURALLY-STRONG
+## (catches #296-#304) — the repair is viable; round 2 gates minting
+
+Complete in-gate census (33/33 Proth primes < 2^28, exact): literal
+kill NOT fired, worst K' = 1.0245 (3.9x margin); the two amber rows
+are IID FLUCTUATION (the gated bulk saturates at (E-1)/r -> 1 —
+c1r3-C5, the round's structural discovery: with the accident
+channel gated out, the allowance 4 is 4x the true asymptote); both
+r2 killers doubly neutralized (excluded AND repriced); gate-mirror
+theorem-grade (one deferred w6 row). COST OF ADOPTION: W_ext widens
+the zone bound -> SIX new emptiness slots — the WCL amber's leaf
+set would go 4 -> 10 (all in the same ell in {1,2,4} machinery
+family; ell >= 8 free via Newton). DECISION SURFACED to the
+maintainer: adopt the L+7 window (C1' viable, more slots) vs seek
+an intermediate window. Round 2 pre-registered (amber above the
+iid asymptote, 2^28..2^32 segment incl. row 918552577, L=2);
+MINTING WAITS on round 2 per the confidence bar. dli_dyadic_k_core
+stays REFUTED (the old pose's kill stands).
