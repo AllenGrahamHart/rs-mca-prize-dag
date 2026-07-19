@@ -52,8 +52,22 @@ ANTIPODAL_GENERIC_DELETED_PAIR_NONHARMONIC = "rate_half_list_budget_three_antipo
 ANTIPODAL_GENERIC_DELETED_PAIR_FOURTH_POWER = "rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_fourth_power_router"
 ANTIPODAL_GENERIC_DELETED_PAIR_GCD = "rate_half_list_budget_three_antipodal_generic_deleted_pair_fourth_root_gcd_gate"
 ANTIPODAL_GENERIC_DELETED_PAIR_CONSTANT = "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_gate"
+ANTIPODAL_GENERIC_DELETED_PAIR_LEGENDRE = "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse"
+ANTIPODAL_GENERIC_DELETED_PAIR_TORSION_FENCE = "rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence"
+ANTIPODAL_GENERIC_DELETED_PAIR_ORTHOGONAL_SIGN = "rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router"
+ANTIPODAL_GENERIC_DELETED_PAIR_TRACE_GCD = "rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router"
 ANTIPODAL_GENERIC_CANONICAL_SPAN = "rate_half_list_budget_three_antipodal_generic_canonical_span_criterion"
+ANTIPODAL_GENERIC_EULER_COUPLED_NORM = "rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate"
+ANTIPODAL_GENERIC_EULER_CUBIC_NORM = "rate_half_list_budget_three_antipodal_generic_euler_cubic_norm_gate"
+ANTIPODAL_GENERIC_EULER = "rate_half_list_budget_three_antipodal_generic_euler_divisor_gate"
+ANTIPODAL_GENERIC_EULER_FIELD_SHARD = "rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard"
+ANTIPODAL_INTERMEDIATE_CUBE_PART = "rate_half_list_budget_three_antipodal_intermediate_cube_part_router"
 ANTIPODAL_INTERMEDIATE_HENSEL = "rate_half_list_budget_three_antipodal_intermediate_hensel_certifier"
+ANTIPODAL_INTERMEDIATE_HENSEL_CUBIC = "rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate"
+ANTIPODAL_INTERMEDIATE_HENSEL_QUADRATIC = "rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate"
+ANTIPODAL_INTERMEDIATE_HENSEL_QUARTIC = "rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate"
+ANTIPODAL_INTERMEDIATE_LOW_BAND = "rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion"
+ANTIPODAL_INTERMEDIATE_RESIDUAL_GCD = "rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate"
 ANTIPODAL_PURE_HARMONIC_FERMAT = "rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router"
 
 
@@ -130,8 +144,22 @@ def main() -> int:
         ("antipodal_generic_deleted_pair_fourth_power_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_FOURTH_POWER]["status"] == "PROVED"),
         ("antipodal_generic_deleted_pair_gcd_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_GCD]["status"] == "PROVED"),
         ("antipodal_generic_deleted_pair_constant_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_CONSTANT]["status"] == "PROVED"),
+        ("antipodal_generic_deleted_pair_legendre_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_LEGENDRE]["status"] == "PROVED"),
+        ("antipodal_generic_deleted_pair_torsion_fence_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_TORSION_FENCE]["status"] == "PROVED"),
+        ("antipodal_generic_deleted_pair_orthogonal_sign_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_ORTHOGONAL_SIGN]["status"] == "PROVED"),
+        ("antipodal_generic_deleted_pair_trace_gcd_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_TRACE_GCD]["status"] == "PROVED"),
         ("antipodal_generic_canonical_span_is_proved", nodes[ANTIPODAL_GENERIC_CANONICAL_SPAN]["status"] == "PROVED"),
+        ("antipodal_generic_euler_coupled_norm_is_proved", nodes[ANTIPODAL_GENERIC_EULER_COUPLED_NORM]["status"] == "PROVED"),
+        ("antipodal_generic_euler_cubic_norm_is_proved", nodes[ANTIPODAL_GENERIC_EULER_CUBIC_NORM]["status"] == "PROVED"),
+        ("antipodal_generic_euler_is_proved", nodes[ANTIPODAL_GENERIC_EULER]["status"] == "PROVED"),
+        ("antipodal_generic_euler_field_shard_is_proved", nodes[ANTIPODAL_GENERIC_EULER_FIELD_SHARD]["status"] == "PROVED"),
+        ("antipodal_intermediate_cube_part_is_proved", nodes[ANTIPODAL_INTERMEDIATE_CUBE_PART]["status"] == "PROVED"),
         ("antipodal_intermediate_hensel_is_proved", nodes[ANTIPODAL_INTERMEDIATE_HENSEL]["status"] == "PROVED"),
+        ("antipodal_intermediate_hensel_cubic_is_proved", nodes[ANTIPODAL_INTERMEDIATE_HENSEL_CUBIC]["status"] == "PROVED"),
+        ("antipodal_intermediate_hensel_quadratic_is_proved", nodes[ANTIPODAL_INTERMEDIATE_HENSEL_QUADRATIC]["status"] == "PROVED"),
+        ("antipodal_intermediate_hensel_quartic_is_proved", nodes[ANTIPODAL_INTERMEDIATE_HENSEL_QUARTIC]["status"] == "PROVED"),
+        ("antipodal_intermediate_low_band_is_proved", nodes[ANTIPODAL_INTERMEDIATE_LOW_BAND]["status"] == "PROVED"),
+        ("antipodal_intermediate_residual_gcd_is_proved", nodes[ANTIPODAL_INTERMEDIATE_RESIDUAL_GCD]["status"] == "PROVED"),
         ("antipodal_pure_harmonic_fermat_is_proved", nodes[ANTIPODAL_PURE_HARMONIC_FERMAT]["status"] == "PROVED"),
         (
             "brackets_are_evidence",
@@ -140,7 +168,9 @@ def main() -> int:
                 (FLOOR, "ev"),
                 (ANTIPODAL_FOURTH_ROOT_GAP, "ev"),
                 (ANTIPODAL_GENERIC_CANONICAL_SPAN, "ev"),
+                (ANTIPODAL_GENERIC_DELETED_PAIR_ORTHOGONAL_SIGN, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_CONSTANT, "ev"),
+                (ANTIPODAL_GENERIC_DELETED_PAIR_LEGENDRE, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_ODE, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_FACTORIZATION, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_BRANCH, "ev"),
@@ -150,10 +180,22 @@ def main() -> int:
                 (ANTIPODAL_GENERIC_DELETED_PAIR_FOURTH_POWER, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_NONHARMONIC, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_PARITY, "ev"),
+                (ANTIPODAL_GENERIC_DELETED_PAIR_TORSION_FENCE, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_REMAINDER, "ev"),
+                (ANTIPODAL_GENERIC_DELETED_PAIR_TRACE_GCD, "ev"),
+                (ANTIPODAL_GENERIC_EULER_COUPLED_NORM, "ev"),
+                (ANTIPODAL_GENERIC_EULER_CUBIC_NORM, "ev"),
+                (ANTIPODAL_GENERIC_EULER, "ev"),
+                (ANTIPODAL_GENERIC_EULER_FIELD_SHARD, "ev"),
                 (ANTIPODAL_GENERIC_SECONDARY_GAP, "ev"),
                 (ANTIPODAL_GENERIC_TWO_WINDOW, "ev"),
+                (ANTIPODAL_INTERMEDIATE_CUBE_PART, "ev"),
                 (ANTIPODAL_INTERMEDIATE_HENSEL, "ev"),
+                (ANTIPODAL_INTERMEDIATE_HENSEL_CUBIC, "ev"),
+                (ANTIPODAL_INTERMEDIATE_HENSEL_QUADRATIC, "ev"),
+                (ANTIPODAL_INTERMEDIATE_HENSEL_QUARTIC, "ev"),
+                (ANTIPODAL_INTERMEDIATE_LOW_BAND, "ev"),
+                (ANTIPODAL_INTERMEDIATE_RESIDUAL_GCD, "ev"),
                 (ANTIPODAL_WELD, "ev"),
                 (ANTIPODAL_DEGREE_FLOOR, "ev"),
                 (ANTIPODAL_PRIMITIVE, "ev"),
@@ -466,6 +508,39 @@ def main() -> int:
             and "t chi^2sigma^2+4(chi-4)^2=0" in statement,
         ),
         (
+            "statement_pins_antipodal_generic_deleted_pair_legendre",
+            "sigma=2H_(4M-1)(t)" in statement
+            and "H_n(t)=[z^n]((1-z)(1-tz))^(-1/2)" in statement
+            and "H_n(r^4)=r^(2n)P_n" in statement
+            and "t H^2+(chi-1)^2=0" in statement
+            and "t(chi-2)^2H^2+(chi+2)^2=0" in statement
+            and "t chi^2H^2+(chi-4)^2=0" in statement,
+        ),
+        (
+            "statement_pins_antipodal_generic_deleted_pair_torsion_fence",
+            "F_2(t)=0,F_3(t)!=0" in statement
+            and "fail `r^32=1`" in statement
+            and "pairwise primary/Legendre resultant" in statement
+            and "r^(32M)=1" in statement,
+        ),
+        (
+            "statement_pins_antipodal_generic_deleted_pair_orthogonal_sign",
+            "T_(8L)(y)=epsilon" in statement
+            and "C_L^(1/4)(x)=0" in statement
+            and "P_(2L-1)(x)=s(2y-1)" in statement
+            and "P_(2L-1)(x)(y-1)=s(y+1)" in statement
+            and "P_(2L-1)(x)y=s(y-2)" in statement
+            and "s^2=-epsilon" in statement
+            and "six systems remains open" in statement,
+        ),
+        (
+            "statement_pins_antipodal_generic_deleted_pair_trace_gcd",
+            "epsilon=-1: T_(2L)(x)=0" in statement
+            and "epsilon= 1: U_(2L-1)(x)=0" in statement
+            and "three-polynomial gcd" in statement
+            and "degree at most `L`" in statement,
+        ),
+        (
             "statement_pins_antipodal_generic_canonical_span",
             "S=beta X+gamma Y" in statement
             and "beta=[z^h]S" in statement
@@ -475,12 +550,82 @@ def main() -> int:
             and "prefix of the span identity is insufficient" in statement,
         ),
         (
+            "statement_pins_antipodal_generic_euler_coupled_norm",
+            "N_Q in (F^*)^4" in statement
+            and "N_T^4N_Q^3=d^(4v)" in statement
+            and "None is" in statement
+            and "sufficient" in statement,
+        ),
+        (
+            "statement_pins_antipodal_generic_euler_cubic_norm",
+            "Res(V,T)Res(V,U)^3=(-d)^v" in statement
+            and "t_1^2V(tau) in (F^*)^3" in statement
+            and "q=2 mod 3" in statement,
+        ),
+        (
+            "statement_pins_antipodal_generic_euler",
+            "T=dDU-Y(D'U+4DU')" in statement
+            and "V | P" in statement
+            and "(TU^3+d) mod V=0" in statement,
+        ),
+        (
+            "statement_pins_antipodal_generic_euler_field_shard",
+            "fourth-power character is" in statement
+            and "active in every branch" in statement
+            and "p=1 mod 3" in statement
+            and "p=2 mod 3" in statement
+            and "p^2=1 mod 3" in statement
+            and "recomputed in `F_p`" in statement,
+        ),
+        (
+            "statement_pins_antipodal_intermediate_cube_part",
+            "Rbar=theta C_u^3(B+u z^hC_u)" in statement
+            and "C_u^2` divides" in statement
+            and "Rbar/(theta C^3)-B=u z^hC" in statement,
+        ),
+        (
             "statement_pins_antipodal_intermediate_hensel",
             "H=C_u^3(1+u z^h C_u/B)" in statement
             and "3kappa-uDelta=0" in statement
             and "u=3kappa/Delta" in statement
-            and "only `Delta=kappa=0` retains one scalar" in statement
+            and "`Delta=kappa=0` survives this" in statement
+            and "first gate" in statement
             and "W^4+theta W+theta u" in statement,
+        ),
+        (
+            "statement_pins_antipodal_intermediate_hensel_cubic",
+            "81kappa_2-27uDelta_2+27u^2Gamma_1-35u^3=0" in statement
+            and "A u+B=0" in statement
+            and "test only `u=-B/A`" in statement
+            and "A=B=0" in statement,
+        ),
+        (
+            "statement_pins_antipodal_intermediate_hensel_quadratic",
+            "u^2-uDelta_1+3kappa_1=0" in statement
+            and "at most two exact base-field candidates" in statement
+            and "no free scalar" in statement,
+        ),
+        (
+            "statement_pins_antipodal_intermediate_hensel_quartic",
+            "243kappa_3-81uDelta_3+81u^2Gamma_2-105u^3Xi_1+154u^4=0"
+            in statement
+            and "C u+D=0" in statement
+            and "A=B=C=D=0" in statement,
+        ),
+        (
+            "statement_pins_antipodal_intermediate_low_band",
+            "10v>=7r-14" in statement
+            and "v>=96,207,267,429" in statement
+            and "4,581,298,449" in statement,
+        ),
+        (
+            "statement_pins_antipodal_intermediate_residual_gcd",
+            "P=TU^3+d" in statement
+            and "W=T'U+3TU'" in statement
+            and "deg gcd(P,W)>=(2^38-4)/3" in statement
+            and "deg gcd(P,W)<=18" in statement
+            and "boundary" in statement
+            and "is empty" in statement,
         ),
         (
             "statement_pins_antipodal_pure_harmonic_fermat",

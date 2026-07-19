@@ -5370,8 +5370,8 @@
     "critical/nodes/f3_h3_mobius_excess_half/statement.md",
     "critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_MOBIUS_OVERLAP_CAP.md"
    ],
-   "statement": "For every official row, with A=(1-H)\\{0}, P(t)=#{(a,b) in A^2:ab=t}, R(t)=#{(c,d) in A^2:d/c=t}, and X_18=sum_{t!=1}max(P(t)-18,0)R(t), one has 17X_18<=300n^2. This cutoff-18 target is strictly weaker than the former X_35<=n^2/2 premise. The proved non-swap compiler shows that S_ns<=1200n^2 is sufficient, replacing the prior 68n^2 target. FALSIFIER: one exact official row with 17X_18>300n^2. [IMPORT PINS r2 (2026-07-12 wave-2; supersedes the r1 pins block): FULL CORRIDOR \u2014 every official row n = 2^s, 13 <= s <= 41, every prime p = 1 mod n, p >= n^2. The cutoff-18 weakening (17 X_18 <= 300n^2) verified exactly at import: 68 sharp (1088 = 34*32, 1224 = 36*34), cutoff-35 => cutoff-18 strict, and the C36' close re-lands with rational margin 48/425 > 0 at n >= 8192 \u2014 the banked cutoff-35 ledger and M35 survive as strictly stronger background routes. Q-SURV TRANSFERS to the weakened form: the banked 12-prime sweep's max overlap P <= 20 gives (P-18)+ <= 2, so 17 X_18 <= 34 (n-1)(n-2) < 300n^2 with 9x room at every swept row; the 7,090-row sweep and both n=8192 replays stand. Source-boundary audit (2ab08f2) banked node-locally: KSV/MSS citation closes REFUSED honestly \u2014 open gap, not a citation close.] [NARROWING r3 (2026-07-13, wave-5 audited): preferred sufficient target S_ns^rich = sum_{t!=1,P(t)>=19}[P(t)(P(t)-2)+D(t)]R(t) <= 1200n^2, strictly weaker; former full-S_ns target retained as strictly stronger envelope; Sidon narrowing: every non-swap record is a p-specific norm-gate accident, 0<|Norm(alpha)|<=6^phi(n); boundary row (8192, 67657729) exact: S_ns=65810428 vs S_ns^rich=720, X_18=4, M_5^rich=504 -- route-selection evidence only, wave-5 re-replayed exactly] || DOUBLE-ACCIDENT REDUCTION (wave-10 audited v5 chain, 2026-07-18; dependency-clean of the unaudited cluster A): the critical target 17X_18 <= 300n^2 reduces to the DOUBLE-accident count Y_18 via the cutoff18 double-accident reduction + derivative-ideal valuation chain (7 PROVED background nodes: identity-deficit energy close, shifted-energy zero normalization, cubic block tail energy fence, uniform product-fiber Stepanov, global derivative-ideal valuation, cutoff18 double-accident reduction, double-accident derivative ideal). Open range n^2 <= p <= 6^{n/4} preserved; full pose bodies in the node folders (w10-C8 node-id collision hazard recorded). || H3 LOW-DISTANCE ROUTER (wave-12 audited, 2026-07-18; dependency-clean, req-ancestry = the wave-6 rich-fiber cutoff + sidon only): at fixed order, every cutoff-18 rich prime divides a member of the finite low-distance collision-norm set; primes outside it have X_18 = Y_18 = 0. Open range unchanged; the router proves its own infeasibility fence (>= 530,590,075 orbits at n = 8192); the Modal pilot is EXPERIMENTAL route evidence with a negative dedup decision (22.98x -> 1.95x), no theorem promotion. || WAVE-13 (2026-07-19, audited): the H3 ideal-stars routing + the 15-node suite reduce the red to ONE analytic estimate \u2014 the E=6 disjoint-support moment; even-distance parity lemma: collision distances between rich-prime template members are even (one line, banked). Open range n^2 <= p <= 6^{n/4} unchanged.",
-   "attack_surface": "The proved rich-fiber norm cutoff closes p>6^(n/4). On the remaining range n^2<=p<=6^(n/4), prove a truncated product/quotient correlation estimate, not a global shifted-energy bound. Candidate routes: constants-explicit rich-level incidence tails paired with quotient weights; an oriented character/Jacobi estimate retaining phases; or classification of only the simultaneous rich-product/rich-quotient locus. The background pointwise M35 cap is sufficient but deliberately stronger and is not the critical claim. [WAVE-13 ADDENDUM (2026-07-19; the pin rewrote this field in place \u2014 master framing preserved, new content appended per #104): The proved rich-fiber norm cutoff closes p>6^(n/4). On the remaining range n^2<=p<=6^(n/4), the preferred direct target is the E=6 disjoint-support moment D_6,25^0+(17/10)D_6,25^A<=(223/20)n^2; do not restore the already-paid overlap strata. The fixed-order alternative remains the E=14 degree-twelve candidate-prime certificate. Broader alternatives are a constants-explicit rich-level correlation estimate, an oriented character/Jacobi estimate retaining phases, or classification of only the simultaneous rich-product/rich-quotient locus. The background pointwise M35 cap is sufficient but deliberately stronger and is not the critical claim.]"
+   "statement": "For every official row, with A=(1-H)\\{0}, P(t)=#{(a,b) in A^2:ab=t}, R(t)=#{(c,d) in A^2:d/c=t}, and X_18=sum_{t!=1}max(P(t)-18,0)R(t), one has 17X_18<=300n^2. This cutoff-18 target is strictly weaker than the former X_35<=n^2/2 premise. The proved non-swap compiler shows that S_ns<=1200n^2 is sufficient, replacing the prior 68n^2 target. FALSIFIER: one exact official row with 17X_18>300n^2. [IMPORT PINS r2 (2026-07-12 wave-2; supersedes the r1 pins block): FULL CORRIDOR \u2014 every official row n = 2^s, 13 <= s <= 41, every prime p = 1 mod n, p >= n^2. The cutoff-18 weakening (17 X_18 <= 300n^2) verified exactly at import: 68 sharp (1088 = 34*32, 1224 = 36*34), cutoff-35 => cutoff-18 strict, and the C36' close re-lands with rational margin 48/425 > 0 at n >= 8192 \u2014 the banked cutoff-35 ledger and M35 survive as strictly stronger background routes. Q-SURV TRANSFERS to the weakened form: the banked 12-prime sweep's max overlap P <= 20 gives (P-18)+ <= 2, so 17 X_18 <= 34 (n-1)(n-2) < 300n^2 with 9x room at every swept row; the 7,090-row sweep and both n=8192 replays stand. Source-boundary audit (2ab08f2) banked node-locally: KSV/MSS citation closes REFUSED honestly \u2014 open gap, not a citation close.] [NARROWING r3 (2026-07-13, wave-5 audited): preferred sufficient target S_ns^rich = sum_{t!=1,P(t)>=19}[P(t)(P(t)-2)+D(t)]R(t) <= 1200n^2, strictly weaker; former full-S_ns target retained as strictly stronger envelope; Sidon narrowing: every non-swap record is a p-specific norm-gate accident, 0<|Norm(alpha)|<=6^phi(n); boundary row (8192, 67657729) exact: S_ns=65810428 vs S_ns^rich=720, X_18=4, M_5^rich=504 -- route-selection evidence only, wave-5 re-replayed exactly] || DOUBLE-ACCIDENT REDUCTION (wave-10 audited v5 chain, 2026-07-18; dependency-clean of the unaudited cluster A): the critical target 17X_18 <= 300n^2 reduces to the DOUBLE-accident count Y_18 via the cutoff18 double-accident reduction + derivative-ideal valuation chain (7 PROVED background nodes: identity-deficit energy close, shifted-energy zero normalization, cubic block tail energy fence, uniform product-fiber Stepanov, global derivative-ideal valuation, cutoff18 double-accident reduction, double-accident derivative ideal). Open range n^2 <= p <= 6^{n/4} preserved; full pose bodies in the node folders (w10-C8 node-id collision hazard recorded). || H3 LOW-DISTANCE ROUTER (wave-12 audited, 2026-07-18; dependency-clean, req-ancestry = the wave-6 rich-fiber cutoff + sidon only): at fixed order, every cutoff-18 rich prime divides a member of the finite low-distance collision-norm set; primes outside it have X_18 = Y_18 = 0. Open range unchanged; the router proves its own infeasibility fence (>= 530,590,075 orbits at n = 8192); the Modal pilot is EXPERIMENTAL route evidence with a negative dedup decision (22.98x -> 1.95x), no theorem promotion. || WAVE-13 (2026-07-19, audited): the H3 ideal-stars routing + the 15-node suite reduce the red to ONE analytic estimate \u2014 the E=6 disjoint-support moment; even-distance parity lemma: collision distances between rich-prime template members are even (one line, banked). Open range n^2 <= p <= 6^{n/4} unchanged. || WAVE-14 (2026-07-19, audited; dated per #285): the E=6 residual is EXACTLY reformulated as the integer correlation 10 J_25^0 + 17 J_25^A <= 892 n^2 (J = 8D exact) between disjoint split-pencil members Q_(t,r)(X) = X^2-(1+r-t)X+r and the affine line fiber (pin: (X-r)Q_(t,s)-(X-s)Q_(t,r) = t(s-r)X); the fixed-order route gains the coupled-ideal sieve (positive Y_18 forces p | Norm(alpha_F, alpha_G, theta, lambda) <= 6^(n/4)/4; zero-coupling locus exactly {x,y,z}={q,-q,-q^2}, w=q^4). EXACT RESIDUAL: the DSP8 correlation bound + the official-order template generator (CR-001 updated; CR-002-L banked same-commit per #286).",
+   "attack_surface": "The proved rich-fiber norm cutoff closes p>6^(n/4). On the remaining range n^2<=p<=6^(n/4), prove a truncated product/quotient correlation estimate, not a global shifted-energy bound. Candidate routes: constants-explicit rich-level incidence tails paired with quotient weights; an oriented character/Jacobi estimate retaining phases; or classification of only the simultaneous rich-product/rich-quotient locus. The background pointwise M35 cap is sufficient but deliberately stronger and is not the critical claim. [WAVE-13 ADDENDUM (2026-07-19; the pin rewrote this field in place \u2014 master framing preserved, new content appended per #104): The proved rich-fiber norm cutoff closes p>6^(n/4). On the remaining range n^2<=p<=6^(n/4), the preferred direct target is the E=6 disjoint-support moment D_6,25^0+(17/10)D_6,25^A<=(223/20)n^2; do not restore the already-paid overlap strata. The fixed-order alternative remains the E=14 degree-twelve candidate-prime certificate. Broader alternatives are a constants-explicit rich-level correlation estimate, an oriented character/Jacobi estimate retaining phases, or classification of only the simultaneous rich-product/rich-quotient locus. The background pointwise M35 cap is sufficient but deliberately stronger and is not the critical claim.] [WAVE-14 ADDENDUM (2026-07-19; second in-place rewrite refused per #104/#284 \u2014 master field preserved): The proved rich-fiber norm cutoff closes p>6^(n/4). On the remaining range n^2<=p<=6^(n/4), the preferred direct target is the E=6 disjoint-support moment D_6,25^0+(17/10)D_6,25^A<=(223/20)n^2; do not restore the already-paid overlap strata. Fixed-order alternatives are the E=14 degree-twelve candidate-prime certificate and the proved double-accident nonzero-coupling gate. For a selected product-star center, at most one quotient lift has zero coupling, so a target of multiplicity R(t)>=2 supplies at least R(t)-1 nonzero generators in one row-prime ideal. Coarse templates need only the three-generator ideal (alpha_F,alpha_G,lambda). At exact survivors, the odd-saturation syzygies make both product- and quotient-collision generator types redundant: one coupling row and column generate the full product-by-quotient rectangle at every official row prime. Its nonzero-entry count is not an ideal-index bound. Every prime outside this finite candidate set has Y_18=0. Broader alternatives are a constants-explicit rich-level correlation estimate, an oriented character/Jacobi estimate retaining phases, or classification of only the simultaneous rich-product/rich-quotient locus. The background pointwise M35 cap is sufficient but deliberately stronger and is not the critical claim.]"
   },
   {
    "id": "f3_h3_quotient_block_identity",
@@ -8674,6 +8674,467 @@
     "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router/result.md",
     "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router/verify.py",
     "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent",
+   "title": "A=1 core-one exceptional-only factor descent",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the b=0, D_*=1, c=z=1 exceptional-only active profile, the full exceptional fiber lies in P_X. Cancelling its forced divisor from B modulo Q turns the active weld into the exact complement square QA_1+PB_1=P_X, WB_1-1=QK_1, VB_1+A_1=-P_XK_1. The correction raises deg_X A_1 from D_0-r-1 to exactly D_0-r, isolating the one-degree obstruction that prevents reuse of the trace-free exclusion.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/verify_audit.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/result.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity",
+   "title": "A=1 core-one exceptional-only infinity-coefficient rigidity",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The exceptional-only corrected square saturates the opposite bidegree corners deg(A_1)=(D_0-r,T-1) and deg(B_1)=(D_0,e-1). Writing [X^r]Q=E q_bar, all leading coefficients of B_1,W,K_1 are forced by q_bar, the leading coefficient of J, and one optional leading coefficient of V. Truncating B_1 at the old X-degree D_0-1 loses every valid packet.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/verify_audit.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/result.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation",
+   "title": "A=1 core-one exceptional-only two-sided resultant saturation",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The corrected exceptional-only system has four exact pure-power resultants. In the supported-slope direction Res(P,Q) is P_X^e and its A_1 complement is P_X^(T-e); in the saturated-row direction Res(P_X,Q) is P_cl^r E^(r-1) and its V complement has exponents n_X-r and n_X-r+1. The two normalization constants occur in inverse pairs, and no residual factor remains.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/verify_audit.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/result.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse",
+   "title": "A=1 core-one exceptional-only unit-resultant collapse",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the corrected exceptional-only unit pair, Res_X(Q,B_1)=c_X q_bar collapses to the degree-(e-1) cofactor of [X^r]Q=E q_bar. If m=deg_X W, then Res_X(Q,W)=c_X^(-1) E^(m+n_X+1)q_bar^(m+n_X). Thus all affine intersections of Q with B_1 or W are supported on the printed infinity factors, with the W degree left honest when its top coefficient vanishes.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/verify_audit.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/result.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent",
+   "title": "A=1 core-one exceptional-only reciprocal-resultant descent",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "After fixed-degree reversal, the forced q_bar point at infinity cancels in j_inf F+EG=YL and the residual resultant is exactly Res_Y(F,L)=c_X E^(r-1). Its first coefficient Delta_inf=L(t,0) is coprime to q_bar, so no nonexceptional resultant factor or higher q_bar contact survives the first reciprocal Euclidean step.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/verify_audit.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/result.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization",
+   "title": "A=1 core-one exceptional-only reciprocal Bezout normalization",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The first reciprocal coefficient obeys the exact identity P_cl Delta_inf+E q_bar [X^(D_0-r-1)]A_1=1. Hence P_cl and Delta_inf are coprime to E q_bar, and Delta_inf is the specified inverse of P_cl on every infinity-drop fiber rather than a free elimination coefficient.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/verify_audit.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/result.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement",
+   "title": "A=1 core-one exceptional-only full reciprocal complement",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "After removing the forced constant coefficient of the reciprocal A_1, the complete corrected complement is FU+P_clL=R_X, where R_X is the reciprocal residual-domain locator. Hence L is recovered from one coefficientwise divisibility by P_cl; reconstruction of G remains a separate divisibility by E.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/verify_audit.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/result.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent",
+   "title": "A=1 core-one exceptional-only full reciprocal square descent",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The remaining corrected unit square reduces to LW_vee-FS=EY^(D_0+r-2) and V_vee=-UW_vee-P_clS. Hence four allocated blocks F,U,W_vee,S recover L,G,K_vee,V_vee through two exact divisions and two linear formulas; the Hankel and splitting gates remain separate.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/verify_audit.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/result.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin",
+   "title": "A=1 core-one exceptional-only Hankel factor pin",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The degree-(r-1) exceptional fiber realizes the unique omission, so the middle-Hankel regular factor is c_H E and adj M=c_H E q q^T. Dividing by E and specializing gives a nonzero rank-one exceptional kernel outer product whose top row and column vanish because q_r=E q_bar.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/verify_audit.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/result.md"
+   ]
+  },
+  {
+   "id": "f3_h3_double_accident_low_distance_joint_ideal_router",
+   "title": "H3 double-accident low-distance joint-ideal router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every positive cutoff-18 double-accident summand supplies a normalized four-generator cyclotomic ideal coupling a low-distance product star, two distinct nonidentity quotient lifts, and equality of their product and quotient targets at one degree-one row-prime ideal. The row prime divides the joint ideal norm, which is bounded by the normalized low-distance principal norms. Primes outside the resulting finite fixed-order candidate set have Y_18=0 and satisfy C36'.",
+   "refs": [
+    "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/statement.md",
+    "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/proof.md",
+    "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/claim_contract.md",
+    "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/dependency_subdag.md",
+    "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/audit.md",
+    "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/result.md",
+    "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/verify.py",
+    "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_double_accident_nonzero_coupling_ideal_router",
+   "title": "H3 double-accident nonzero-coupling ideal router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a fixed product lift, at most one quotient lift has zero characteristic-zero product-to-quotient coupling. Every positive cutoff-18 double accident therefore supplies at least R(t)-1 nonzero sparse coupling generators in the same degree-one row-prime ideal as a low-distance product star. One generator gives a finite three-generator candidate ideal; the full target-local batch preserves quotient excess. The zero locus is exactly the binary telescoping family and has 3(n-4)/2 unordered-product/ordered-quotient anchors.",
+   "refs": [
+    "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/statement.md",
+    "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/proof.md",
+    "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/claim_contract.md",
+    "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/dependency_subdag.md",
+    "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/audit.md",
+    "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/result.md",
+    "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/verify.py",
+    "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_double_accident_coupling_batch_odd_saturation",
+   "title": "H3 double-accident coupling-batch odd saturation",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For normalized shifted factors c_a=(1-zeta^a)/(1-zeta), every Norm(c_a) is a power of two and c_a is a unit at each official odd row-prime ideal. The exact syzygy c_(u0)lambda_1-c_(u1)lambda_0=-theta_01 shows that, after inverting two, an anchored quotient-collision ideal equals the symmetric batch of product-to-quotient coupling generators. Their odd prime-ideal valuations and odd ideal-norm parts are identical.",
+   "refs": [
+    "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/statement.md",
+    "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/proof.md",
+    "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/claim_contract.md",
+    "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/dependency_subdag.md",
+    "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/audit.md",
+    "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/result.md",
+    "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/verify.py",
+    "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_double_accident_coupling_matrix_odd_saturation",
+   "title": "H3 double-accident coupling-matrix odd saturation",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For distinct product lifts and quotient lifts, the normalized coupling matrix satisfies exact product-direction and quotient-direction syzygies. After inverting two, the traditional joint ideal, one coupling row and column, and the full coupling rectangle are equal. Characteristic-zero zero entries form a partial matching, so at least mr-min(m,r) entries are nonzero, but the cross-generation equality proves they are not independent ideal generators.",
+   "refs": [
+    "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/statement.md",
+    "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/proof.md",
+    "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/claim_contract.md",
+    "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/dependency_subdag.md",
+    "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/audit.md",
+    "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/result.md",
+    "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/verify.py",
+    "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_disjoint_distance_six_split_pencil_router",
+   "title": "H3 disjoint distance-six split-pencil router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The disjoint distance-six C36' moment is exactly a correlation between disjoint split members of Q_(t,r)=X^2-(1+r-t)X+r and an affine subgroup-line fiber. The associated split cubics differ by t(s-r)X, and undoing canonical orientation turns the sufficient estimate into 10J_25^0+17J_25^A<=892n^2.",
+   "refs": [
+    "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/statement.md",
+    "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/proof.md",
+    "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/claim_contract.md",
+    "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/dependency_subdag.md",
+    "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/audit.md",
+    "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/result.md",
+    "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse",
+   "title": "Budget-three antipodal generic deleted-pair constant-coefficient Legendre collapse",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The terminal reversed-quotient coefficient in the first nonharmonic scalar gate is twice one coefficient of ((1-z)(1-tz))^(-1/2). It has an explicit binomial sum, a width-two recurrence, and a Legendre-polynomial representation, eliminating Euclidean reconstruction from this gate.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router",
+   "title": "Budget-three deleted-pair Chebyshev/Gegenbauer sign router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Source torsion and the primary gap put the Legendre scalar gate in one trace coordinate. The three squared branch equations factor exactly into six linear-sign Legendre equations, retaining one Chebyshev torsion sign and one Gegenbauer primary equation.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router",
+   "title": "Budget-three deleted-pair trace gcd router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The source torsion sign has an exact degree-halving Chebyshev square root. Eliminating the source trace converts each of the six signed Legendre branches into one characteristic-explicit three-polynomial gcd in the primary Gegenbauer quotient algebra.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence",
+   "title": "Budget-three deleted-pair primary/Legendre torsion-necessity fence",
+   "status": "PROVED",
+   "closure": "exact arithmetic certificate",
+   "statement": "Each Legendre branch has an exact good-characteristic M=1 solution with the primary gap and nonzero next coefficient when source torsion is omitted. All three examples fail r^32=1, proving that torsion is load-bearing in any uniform scalar-gate rejection.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate",
+   "title": "Budget-three antipodal generic Euler coupled-norm gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The generic zeroth-contact norm is a fourth power and is exactly coupled to the Euler linear-residual norm by N_T^4 N_Q^3=d^(4v). These are scalar prefilters before the full quotient-algebra remainder.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_generic_euler_cubic_norm_gate",
+   "title": "Budget-three antipodal generic Euler cubic-norm gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The generic Euler divisibility forces the canonical scalar t_1^2 V(tau) to lie in the cube subgroup. This is a one-scalar prefilter before the full modular remainder in every field branch with nontrivial cubic character.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_cubic_norm_gate/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_cubic_norm_gate/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_cubic_norm_gate/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_cubic_norm_gate/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_cubic_norm_gate/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_cubic_norm_gate/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_cubic_norm_gate/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_generic_euler_divisor_gate",
+   "title": "Budget-three antipodal generic Euler divisor gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the maximal generic floor, the canonical lower direction V divides TU^3+d. This gives one exact modular-remainder rejection gate depending only on the four deleted roots, before outer coefficients or split/Mobius matching.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_divisor_gate/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_divisor_gate/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_divisor_gate/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_divisor_gate/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_divisor_gate/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_divisor_gate/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_divisor_gate/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard",
+   "title": "Budget-three antipodal generic Euler maximal-field character shard",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the maximal row, the fourth-power Euler norm character is active in every ambient field branch, while the cubic character is active in every quadratic-extension branch and exactly the prime-field p=1 mod 3 branch.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_intermediate_cube_part_router",
+   "title": "Budget-three antipodal intermediate cube-part router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every polynomial intermediate Hensel candidate is a coprime cube factor of the known residual. Candidate polynomiality is equivalent to an exact cube-divisor cofactor test, with derivative-gcd divisibilities providing factorization-free rejection gates.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate",
+   "title": "Budget-three antipodal intermediate Hensel cubic gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The third forbidden Hensel coefficient is a cubic in the remaining scalar. Reducing it by the preceding monic quadratic gives one explicit linear gate, selecting a unique scalar unless one printed coefficient pair vanishes.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate",
+   "title": "Budget-three antipodal intermediate Hensel quadratic gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The second forbidden coefficient of the intermediate Hensel solution is a monic quadratic in the remaining outer scalar. Together with the first linear gate, it leaves one candidate on the nondegenerate branch and at most two on the formerly one-parameter degenerate branch.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate",
+   "title": "Budget-three antipodal intermediate Hensel quartic gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The fourth forbidden Hensel coefficient is quartic in the remaining scalar. Reducing it by the preceding monic quadratic gives a second explicit linear gate, shrinking the two-candidate exception to one printed four-coefficient locus.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion",
+   "title": "Budget-three antipodal intermediate low-band exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The residual annihilator excludes every official intermediate degree from the floor 91,625,968,980 through 96,207,267,428. Any remaining intermediate survivor must have degree at least 96,207,267,429.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate",
+   "title": "Budget-three antipodal intermediate residual-square gcd gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the maximal intermediate boundary, a survivor forces gcd(TU^3+d,T'U+3TU') to have degree at least (2^38-4)/3. That gcd divides an explicit degree-eighteen annihilator, so the complete boundary is empty.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/verify.py"
    ]
   }
  ],
@@ -16450,6 +16911,341 @@
   },
   {
    "from": "f3_h3_distance_six_support_overlap_payment",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_middle_adjugate_factorization",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_fourth_root_gap_reduction",
+   "to": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_gate",
+   "to": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction",
+   "to": "rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse",
+   "to": "rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router",
+   "to": "rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction",
+   "to": "rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse",
+   "to": "rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_canonical_span_criterion",
+   "to": "rate_half_list_budget_three_antipodal_generic_euler_divisor_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_euler_divisor_gate",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_euler_divisor_gate",
+   "to": "rate_half_list_budget_three_antipodal_generic_euler_cubic_norm_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_euler_cubic_norm_gate",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_euler_cubic_norm_gate",
+   "to": "rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate",
+   "to": "rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+   "to": "rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_intermediate_hensel_certifier",
+   "to": "rate_half_list_budget_three_antipodal_intermediate_cube_part_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_intermediate_cube_part_router",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_intermediate_cube_part_router",
+   "to": "rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate",
+   "to": "rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_intermediate_hensel_certifier",
+   "to": "rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate",
+   "to": "rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate",
+   "to": "rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_cutoff18_double_accident_reduction",
+   "to": "f3_h3_double_accident_low_distance_joint_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_low_distance_ideal_star_router",
+   "to": "f3_h3_double_accident_low_distance_joint_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_shifted_product_sidon",
+   "to": "f3_h3_double_accident_low_distance_joint_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_double_accident_low_distance_joint_ideal_router",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_double_accident_low_distance_joint_ideal_router",
+   "to": "f3_h3_double_accident_nonzero_coupling_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_shifted_product_sidon",
+   "to": "f3_h3_double_accident_nonzero_coupling_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_double_accident_nonzero_coupling_ideal_router",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_double_accident_low_distance_joint_ideal_router",
+   "to": "f3_h3_double_accident_coupling_batch_odd_saturation",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_double_accident_nonzero_coupling_ideal_router",
+   "to": "f3_h3_double_accident_coupling_batch_odd_saturation",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_double_accident_coupling_batch_odd_saturation",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_double_accident_coupling_batch_odd_saturation",
+   "to": "f3_h3_double_accident_coupling_matrix_odd_saturation",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_shifted_product_sidon",
+   "to": "f3_h3_double_accident_coupling_matrix_odd_saturation",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_double_accident_coupling_matrix_odd_saturation",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_low_distance_quotient_incidence_router",
+   "to": "f3_h3_disjoint_distance_six_split_pencil_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_distance_six_support_overlap_payment",
+   "to": "f3_h3_disjoint_distance_six_split_pencil_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_disjoint_distance_six_split_pencil_router",
    "to": "f3_h3_mobius_excess_half",
    "kind": "ev"
   }

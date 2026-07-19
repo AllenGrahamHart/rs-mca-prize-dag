@@ -2504,3 +2504,17 @@ time — restore + addendum at import), #285 (undated appends), #286
 notes/PRIZE_COMPUTE_REQUESTS.md — CR-002-L must land in the SAME
 import commit; flag to Codex: stop pinning planning files), #287
 (15/28 folders lack verify_audit.py). Import awaits the go.
+
+## 94 — 2026-07-19: WAVE-14 IMPORT EXECUTED (+28 PROVED, +67 edges)
+
+All landed per the audit: the H3 coupled-ideal sieve + the exact
+E=6 integer reformulation (10J^0+17J^A <= 892n^2) on the mobius red
+(repairs #284 attack_surface restore+addendum, #285 dated appends
+applied; residual = DSP8 correlation + template generator); the
+D*=1 stratum normal-form chain (9 Hankel nodes); the deleted-pair
+Legendre gate suite (residual = 12 gcd triples per official p;
+CR-002-L banked SAME-COMMIT per hazard #286 — the Legendre verifier
+pins the planning file); the two intermediate exclusions. Pose pin
+pair taken (KB #90; contract PASS). Guards held (no packaging
+edges/flips; mobius + crossing stay TARGET). Manifest 423/10/639;
+spot replays green. Re-pin next (verify counts before messages).
