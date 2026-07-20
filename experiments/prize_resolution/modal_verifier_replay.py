@@ -24,7 +24,7 @@ image = (
 )
 
 
-@app.function(image=image, cpu=1, memory=2048, timeout=180, max_containers=24)
+@app.function(image=image, cpu=1, memory=2048, timeout=290, max_containers=24  # 180->290: the weight-5 MITM verifier needs ~150-280s (passes locally); fast scripts finish early)
 def run_verifier(payload: tuple[str, str]) -> dict[str, object]:
     import hashlib
     import os
@@ -48,7 +48,7 @@ def run_verifier(payload: tuple[str, str]) -> dict[str, object]:
             env=env,
             capture_output=True,
             text=True,
-            timeout=150,
+            timeout=270,  # 150->270: heavy MITM search headroom (KB #107)
         )
         return {
             "script": rel,
