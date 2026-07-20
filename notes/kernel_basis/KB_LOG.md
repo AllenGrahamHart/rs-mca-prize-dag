@@ -2696,3 +2696,41 @@ pending the dli amber ceremony — watch conditions (i)/(ii) met,
 (iii) = maintainer acceptance of the amber-2 watch line RECORDED
 AS OPEN). Round-3 items: octave-31 census (4 rows need a
 compute-law amendment), gated L=2, the full-ledger lever.
+
+## 103 — 2026-07-20: WAVE-15 IMPORTED (+100 nodes; catches w15-C1..C5,
+## D1..D4, L1-1/2, X1..X3, H1..H3 = #313-#332) — the largest wave;
+## nothing closes a red, everything REDUCES
+
+Codex's overnight v7 (126-commit campaign, v6-tail merged in) audited
+across four parallel sub-audits: 32/32+62/62+9/9+... replays, 22/22
+mutations trip, NO overclaim, NO smuggled discharge. IMPORTED all
+import-eligible clusters (+100: 96 PROVED, 2 TARGET, 2 REFUTED;
++~360 edges): DSP8 program (16 nodes) as a SOUND REDUCTION LAYER —
+f3_h3_dsp8_correlation_bound STAYS TARGET (no verify.py, all ev-in),
+mobius STAYS CONDITIONAL; the target reformulates via the PROVED
+(A6S8) compiler by an exact x20 scaling (10J+17J<=892n^2 <=>
+10K+17K<=223n^2, J=4K, old form superseded), now a MENU of
+sufficient routes (DSP8/DSP8-U/JDP corner/FM/accident-depth
+rectangle) proving NONE; max-P<=24 still sampled only. L1 ladder
+(31 nodes, ev-only) PAYS a large frontier, red stays TARGET
+(residual = growing-p balanced sub-Johnson strip + growing polarity
++ non-intrinsic first-match); w15-L1-1: re-appended catch #176's
+known-mass witness (43 vs 10) a v7 in-place rewrite dropped.
+Hankel LANE A + v6-tail (26 nodes, ev) — band stays TARGET; LANE B
+(8 nodes) UNBLOCKED via the w15-H1 repair (the pin wired 8 LANE-B
+ev-edges but its pose verify.py pinned only 59 — KB #90 violation;
+added the 8 bracket pins + made the comparison order-robust; pose
+contract PASS). XR (9 nodes: 7 lemmas + 1 TARGET bridge + 1
+contained REFUTED F_17 fixture) — ranks 5,5,5/17,17,15 unchanged.
+WCL(4)+KoalaBear(2)+v13.2(3 incl 1 REFUTED census correction +
+guard, f1_case_tower stays PROVED)+dossier. GUARDS: packaging +
+list_safe CONDITIONAL (no flip; the '3 removed edges' were SOUND
+req->ev list-corridor downgrades = SECTION C, HELD for maintainer,
+NOT applied — master corridor untouched); the dossier->packaging
+req edge (a NEW open predicate, not a discharge) restored after my
+guard over-stripped it. Manifest 584/10/835; validator green.
+GOVERNANCE HOLDS (maintainer): (C1/Section C) list-corridor
+re-architecture + dated-annotation deletions; (#260) sub-$1
+self-authorization recurs (a487c599/b8e9d214) — NO new in-tree
+Modal launch; the ingested $45-60 WCL sizing + its Norm(u)
+soundness gap (CR-004, do-not-launch $6k-14k). Modal re-pin next.

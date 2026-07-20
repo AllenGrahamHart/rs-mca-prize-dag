@@ -2329,6 +2329,24 @@ reconstructions, and reducing once more turns each sign branch into one
 three-polynomial gcd in `x`. Every representative has degree at most `L`.
 Uniform proof that these six gcds are one remains open.
 
+Parity halves this endpoint exactly. Put `L=2M`, `w=2x^2-1`, and
+
+```text
+J=J_M^(-1/4,-1/2)(w),
+Q=J_(L-1)^(0,1/2)(w) mod J.
+```
+
+The primary equation is `J=0`, the two torsion signs become `T_L(w)=0` or
+`U_(L-1)(w)=0`, and the Legendre remainder is `xQ(w)`. Writing each signed
+trace gate as `A_j(w)+xB_j(w)` and taking its exact quadratic norm gives
+
+```text
+F_(j,s)=A_j^2-((w+1)/2)B_j^2.
+```
+
+Thus the same six branches are equivalent to six gcd triples in `w` of
+degree at most `M=2^35`. Their uniform triviality remains open.
+
 The ODE supplies one more exact rejection gate. With
 
 ```text
@@ -2628,6 +2646,56 @@ Conversely, a harmonic lift quadruple and this decomposition reconstruct the
 pure pencil and locator relations. Harmonicity alone is not empty over finite
 two-power subgroups; official work must exclude the matched Fermat
 decomposition while retaining the squarefree and linear-Wronskian constraints.
+
+The pure norm now also has an exact first-derivative ramification form. Define
+
+```text
+T=dDU-Y(D'U+4DU'),
+C=4YD V'+V(YD'-dD).
+```
+
+Then
+
+```text
+TU^3+d=e_4V^3C,       deg(T,C)=(r,r+3),
+(TU^3)'=U^2V^2L,       deg L=1.
+```
+
+The cubic identity is equivalent to the pure norm equation under the printed
+degree and monicity conditions. Hence `TU^3` has at most three finite
+critical values: zero, `-d`, and the value at the root of `L`. Every
+repeated-factor or same-side overlap defect is confined to that one point.
+The remaining pure task is therefore a harmonic-matched low-critical-value
+polynomial classification, not an unconstrained Fermat coefficient search.
+
+The two linear differential residuals are now welded exactly. If `Lambda`
+is the quotient in the second-derivative Wronskian and `L` is the Euler
+factor above, then
+
+```text
+Lambda=dL.
+```
+
+For `R=TU^3/(TU^3+d)`, every pure survivor has one of five tame passports:
+one generic almost-Belyi profile with a single extra simple branch value, or
+one of four Belyi defects (a `U--T` collision, a double `T`, a `V--C`
+collision, or a double `C`). Same-side collisions occur exactly at the
+unique root of `UV` in `Z(D) union {0}`, when that root exists. The five
+passports are exhaustive but are not themselves emptiness theorems.
+
+Each passport polynomial now determines its possible pure norm data without
+introducing new coefficient blocks. If `Phi=sum phi_mY^m`, define
+
+```text
+S=1+sum_m phi_m/(d-m)Y^m,       H=Y^d-1,
+D=gcd(S,H).
+```
+
+The pure norm exists exactly when `deg D=4`, `(H+S)/D` is a monic fourth
+power, and `-S/D` is a nonzero scalar times a monic fourth power. The scalar
+must also give a split `X^4+e_4` over the base field, and the deleted roots
+must still pass the harmonic lift matching. This is an intrinsic equivalence,
+not a dense official-order algorithm.
 
 At the maximal `n=2^41` row, the B*=3 field arithmetic also collapses. If
 `q=p^e`, the exact budget interval and `2^41|q-1` force

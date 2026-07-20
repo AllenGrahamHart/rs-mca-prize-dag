@@ -164,7 +164,7 @@ def main() -> int:
         (
             "brackets_are_evidence",
             incoming
-            == [
+            == sorted([
                 (FLOOR, "ev"),
                 (ANTIPODAL_FOURTH_ROOT_GAP, "ev"),
                 (ANTIPODAL_GENERIC_CANONICAL_SPAN, "ev"),
@@ -224,7 +224,17 @@ def main() -> int:
                 (SPLIT_UNIT_SINGLE_FIBER, "ev"),
                 (SAFE_ANCHOR, "ev"),
                 (LOW_BUDGET, "ev"),
-            ],
+                ("rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router", "ev"),
+                ("rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition", "ev"),
+                ("rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve", "ev"),
+                ("rate_half_list_budget_three_antipodal_pure_euler_ramification_router", "ev"),
+                ("rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction", "ev"),
+                ("rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate", "ev"),
+                ("rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate", "ev"),
+                ("rate_half_list_budget_three_antipodal_pure_ramification_passport", "ev"),
+            ]
+            # w15-H1: +8 LANE-B ev pins (KB #90 pose-pair repair)
+            ),
         ),
         ("direct_consumer", outgoing_req == [CONSUMER]),
         ("floor_remains_parent_requirement", old_floor_consumer == ["req"]),

@@ -502,3 +502,70 @@ python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_three_to_one_direc
 python3 tools/verify_prize_dag.py
 python3 tools/build_critical_orbit.py
 ```
+# Base-list / all-arity interface repair (2026-07-19)
+
+claim id: `list_adjacency_base_scope_repair`
+
+The critical list corridor had retained an obsolete all-`m` statement after
+the proved `list_subsqrt_interleaving_collapse` theorem and conditional
+`list_large_m_scope_closure` were imported. This made
+`list_adjacency_closing` claim more than its ordinary rate-half owner supplies,
+while leaving the actual arity transport redundant at the root.
+
+The interface is now exact:
+
+```text
+list_adjacency_closing (ordinary m=1 crossing)
+  -> list_large_m_scope_closure (same adjacent pair for every m>=1)
+  -> list_grand.
+```
+
+The direct `list_adjacency_closing -> list_grand` edge and the obsolete
+`m_sweep,m_handling -> list_safe` direct-arity edges are evidence. The latter
+route remains historical support; it is not needed for full constant-arity
+coverage. The zero-safe-list case is handled explicitly before applying the
+positive-list projection theorem. No mathematical status changed.
+
+Replay:
+
+```bash
+tools/ramguard tiny -- python3 critical/nodes/list_large_m_scope_closure/verify.py
+tools/ramguard tiny -- python3 tools/verify_prize_dag.py
+```
+
+# Upstream KoalaBear moving-root slack cut (2026-07-19)
+
+claim id: `upstream_m1_koalabear_rank9_moving_root_slack_boundary`
+
+Source audit:
+
+```text
+repository: przchojecki/rs-mca
+upstream main inspected: 99084549
+integration commit: 951ad203
+proof-note blob: 9ad7b1dbd656e51591037cc7eda4559c1d15259f
+Sage-control blob: 9c1dbea78133bf0fad9858bdc70b529d21dce1b3
+```
+
+The packet is a support-wise MCA theorem on one KoalaBear rate-half
+first-match stratum. It is not imported into list/image-fiber L1. Under the
+printed full-outside record contracts, the entire moving set divides each
+reduced pencil member and the four slacks obey
+`h+u+ell=s-t-1`, `delta_eta<=u`. C5 absorbs zero slack, giving exact survivor
+bounds `s>=67474`, `e>=33737`, and `deg H<=1014838`.
+
+At first slack the only primitive local forms are a nonbase linear common-gcd
+twist and nonbase linear moving cofactors. The local stdlib verifier replays
+the integer ledger, zero-slack coordinate descent, both one-slack forms, and
+mutation checks over `F_121`. This proves the reduction is sharp at the local
+algebra level; it does not construct a deployed selector or upper ledger.
+
+Replay:
+
+```bash
+tools/ramguard tiny -- python3 background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/verify.py
+```
+
+No Modal or external computation was launched. A future compute request would
+first need a complete generator for the deployed regular-locator/outlier
+constraints; raw linear-twist sweeps have no critical-DAG consequence.

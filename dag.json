@@ -9180,7 +9180,7 @@
    "refs": [
     "critical/nodes/f3_h3_dsp8_correlation_bound/statement.md"
    ],
-   "statement": "At every official row in n^2 <= p <= 6^{n/4}: 10 J_25^0 + 17 J_25^A <= 892 n^2 (J = 8D exact), the integer correlation between disjoint split members of Q_(t,r)(X) = X^2-(1+r-t)X+r and the affine line fiber (pin: (X-r)Q_(t,s) - (X-s)Q_(t,r) = t(s-r)X). EXACTLY the E=6 disjoint-support moment (wave-14 audited equivalence). PRE-REGISTERED F-ROUND 1 queued (analogue measurement, >= 3 scales; kill = exceedance or monotone trend past the bound). FALSIFIER: one official row with 10J^0 + 17J^A > 892 n^2. Minted 2026-07-19 at the C36 amber ceremony (alt leaf, gate=any). || F-ROUND 1 EXECUTED: SURVIVED-VACUOUSLY (2026-07-19; packet notes/dsp8r1_fround1_20260719/, 25 Modal apps; catches #288-#295): neither kill fired across 48,544 exact rows at nine scales incl. the official n=8192 rows (richest known row covered; the n=32 corridor fully enumerated) \u2014 but VACUOUSLY: no row has a retained P >= 25 target; richness saturates at P = 20; LHS identically 0. TWIN LAW: near-rich rows carry exactly two antipodal-free P=20 targets (overlap payment inactive where fibers are rich); antipodal starvation (J^A never nonzero at cutoff >= 19); sub-cutoff diagnostic decreasing in n. CANDIDATE CLOSING SATELLITE (posed, not minted): 'max P <= 24 at official aspect' ==> DSP8 vacuously TRUE ==> the C36 amber closes; falsifier = any official row with P >= 21; route = the collision-norm/coupled-ideal template machinery. Round 2 = constructive, not scanning."
+   "statement": "At every official row in n^2 <= p <= 6^{n/4}: 10 J_25^0 + 17 J_25^A <= 892 n^2 (J = 8D exact), the integer correlation between disjoint split members of Q_(t,r)(X) = X^2-(1+r-t)X+r and the affine line fiber (pin: (X-r)Q_(t,s) - (X-s)Q_(t,r) = t(s-r)X). EXACTLY the E=6 disjoint-support moment (wave-14 audited equivalence). PRE-REGISTERED F-ROUND 1 queued (analogue measurement, >= 3 scales; kill = exceedance or monotone trend past the bound). FALSIFIER: one official row with 10J^0 + 17J^A > 892 n^2. Minted 2026-07-19 at the C36 amber ceremony (alt leaf, gate=any). || F-ROUND 1 EXECUTED: SURVIVED-VACUOUSLY (2026-07-19; packet notes/dsp8r1_fround1_20260719/, 25 Modal apps; catches #288-#295): neither kill fired across 48,544 exact rows at nine scales incl. the official n=8192 rows (richest known row covered; the n=32 corridor fully enumerated) \u2014 but VACUOUSLY: no row has a retained P >= 25 target; richness saturates at P = 20; LHS identically 0. TWIN LAW: near-rich rows carry exactly two antipodal-free P=20 targets (overlap payment inactive where fibers are rich); antipodal starvation (J^A never nonzero at cutoff >= 19); sub-cutoff diagnostic decreasing in n. CANDIDATE CLOSING SATELLITE (posed, not minted): 'max P <= 24 at official aspect' ==> DSP8 vacuously TRUE ==> the C36 amber closes; falsifier = any official row with P >= 21; route = the collision-norm/coupled-ideal template machinery. Round 2 = constructive, not scanning. || REDUCTION MENU (wave-15 audited v7 DSP8 program, 2026-07-20; the leaf STAYS TARGET \u2014 nothing closed): the target reformulates via the master-PROVED (A6S8) compiler by an exact x20 scaling (constants machine-checked; overlap now paid separately at O(n^5/3), a refinement), preserving the equivalence 10J+17J<=892n^2 <=> 10K+17K<=223n^2 (J=4K; the old form correctly labeled superseded). It now SUFFICES to prove any ONE of: (DSP8), (DSP8-U), a JDP corner, the FM route, or one accident-depth rectangle exclusion \u2014 16 new PROVED support theorems reformulate the leaf into this menu of sufficient routes but prove NONE. The max-P<=24 satellite remains SAMPLED only (F-round-1 max P=20 is evidence, not a uniform proof). EXACT RESIDUAL: an unconditional bound on the disjoint primitive-shift-pair correlation 10K_25^0 + 17K_25^A."
   },
   {
    "id": "f3_h3_official_order_template_survivor",
@@ -9244,6 +9244,1608 @@
     "background/nodes/dli_wcl_slot_4_11_emptiness/statement.md"
    ],
    "statement": "No reduced signed weight-11 polynomial has the four odd-power vanishings at order-2048 roots at any official row (ell=4 extended window). FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted at the C1'-r3 adoption (2026-07-19); bookkeeping of record = the zone node's official_terminal_attack.md; the weight-3/4 norm-census machinery is the named attack."
+  },
+  {
+   "id": "submission_quality_paper_dossier",
+   "title": "Submission-quality Paper-D dossier and certificate package",
+   "status": "TARGET",
+   "closure": "artifact",
+   "attack_surface": "After both grand claims are proved, materialize and hash the full Paper-D-style paper, total f(C) compiler certificate index, independent clean-checkout replay, empty required-scope nonclaim ledger, and upstream handoff manifest.",
+   "statement": "A final submission packet proves and certifies both official prize problems over every admissible row, all four rates, both objects, and the full arity scope. It includes a total certified f(C) compiler, independent clean-checkout replay, claim provenance, no open required claim or required-scope nonclaim, and coherent upstream handoffs. The existing partial dossier is only a template and does not satisfy this artifact target.",
+   "refs": [
+    "background/nodes/submission_quality_paper_dossier/statement.md",
+    "background/nodes/submission_quality_paper_dossier/acceptance.md",
+    "background/nodes/submission_quality_paper_dossier/claim_contract.md",
+    "background/nodes/submission_quality_paper_dossier/dependency_subdag.md",
+    "background/nodes/submission_quality_paper_dossier/audit.md",
+    "background/nodes/submission_quality_paper_dossier/verify.py",
+    "background/nodes/submission_quality_paper_dossier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "dli_wcl_ell4_weight9_quartic_divisor_descent",
+   "title": "WCL ell=4 weight-9 quartic-divisor descent",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every reduced signed weight-9 relation at an exact order-2048 root with vanishing first four odd moments has a unique common-dilation normalization whose locator is F(X)=X A(X^2)-1 for a monic quartic A, and it exists exactly when G(Y)=Y A(Y)^2-1 divides Y^1024-1. The nine remainder coefficients form a four-variable integer ideal with no characteristic-zero point, so one nonzero integer Nullstellensatz certificate restricts every survivor to finitely many characteristics. No such certificate or official exclusion is claimed.",
+   "refs": [
+    "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/statement.md",
+    "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/proof.md",
+    "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/result.md",
+    "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/claim_contract.md",
+    "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/dependency_subdag.md",
+    "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/audit.md",
+    "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/verify.py",
+    "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/verify_audit.py"
+   ]
+  },
+  {
+   "id": "dli_wcl_odd_next_boundary_square_divisor_descent",
+   "title": "WCL odd next-boundary square-divisor descent",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The open WCL slots (ell,w)=(1,5),(2,7) have exact fixed-dimensional classifiers. After a unique common dilation, the locator is F(X)=X A(X^2)-bX^2-1 and the relation exists exactly when G(Y)=Y A(Y)^2-(bY+1)^2 divides Y^N-1, with (deg A,N)=(2,256),(3,512). Each remainder ideal is the unit ideal over Q, so a checked nonzero integer Nullstellensatz certificate restricts all survivors to finitely many characteristics. Neither certificate nor an official exclusion is claimed.",
+   "refs": [
+    "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/statement.md",
+    "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/proof.md",
+    "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/result.md",
+    "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/claim_contract.md",
+    "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/dependency_subdag.md",
+    "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/audit.md",
+    "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/verify.py",
+    "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/verify_audit.py"
+   ]
+  },
+  {
+   "id": "dli_wcl_ell1_weight6_even_norm_divisor_descent",
+   "title": "WCL ell=1 weight-6 even-norm divisor descent",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every reduced signed weight-6 relation at an exact order-512 root has a unique parity locator F(X)=E(X^2)-X B(X^2), with E monic cubic and deg B<=1, and exists exactly when G(Y)=E(Y)^2-YB(Y)^2 divides Y^256-1. The six remainder coefficients form a five-variable integer ideal that is the unit ideal over Q, so one nonzero integer Nullstellensatz certificate restricts all survivors to finitely many characteristics. No certificate or official exclusion is claimed.",
+   "refs": [
+    "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/statement.md",
+    "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/proof.md",
+    "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/result.md",
+    "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/claim_contract.md",
+    "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/dependency_subdag.md",
+    "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/audit.md",
+    "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/verify.py",
+    "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/verify_audit.py"
+   ]
+  },
+  {
+   "id": "dli_wcl_fixed_divisor_straight_line_lift",
+   "title": "WCL fixed-divisor sparse straight-line certificate lift",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For each of the four residual WCL fixed-divisor ideals, monic repeated division gives an exact straight-line scheme V_t^2=V_(t+1)+GQ_t with V_0=Y and V_m=1. It is scheme-isomorphic over Z to G dividing Y^(2^m)-1, and every equation has total degree at most three. Removing deterministic low-degree squarings and substituting the terminal remainder gives exact presentations ranging from 52 variables and 54 equations to 114 variables and 119 equations. Their characteristic-zero unit ideals therefore have integer Nullstellensatz certificates. No certificate, complexity bound, or slot exclusion is claimed.",
+   "refs": [
+    "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/statement.md",
+    "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/proof.md",
+    "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/result.md",
+    "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/claim_contract.md",
+    "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/dependency_subdag.md",
+    "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/audit.md",
+    "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/verify.py",
+    "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_mixed_residual_intersection_pin",
+   "title": "L1 mixed residual: root-pinning/B11/rich-fiber intersection pin",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For one maximal-sunflower chart at the L1 lower cutoff, put p=sum_i min(|S_i|,ell-|S_i|), e=max(0,2d+1-h), G_2=v_(1)+v_(2), and G_R=(ell-r)+v_(1). For every fixed E_root,E_d,V_2,V_R, the union {p+e<=E_root} union {d<=ell+E_d and (G_2<=V_2 or G_R<=V_R)} is polynomially bounded. Hence the exact unpaid residual satisfies p+e>E_root and [d>ell+E_d or (G_2>V_2 and G_R>V_R)], while retaining the proved Omega(n/log^2 n) source-coupled rich fiber. More simply, every fixed (p,d-ell) box is paid, so the aggregate residual has p unbounded or d-ell unbounded. This is a strict residual pin, not a count of either escape branch.",
+   "refs": [
+    "background/nodes/l1_mixed_residual_intersection_pin/statement.md",
+    "background/nodes/l1_mixed_residual_intersection_pin/proof.md",
+    "background/nodes/l1_mixed_residual_intersection_pin/claim_contract.md",
+    "background/nodes/l1_mixed_residual_intersection_pin/dependency_subdag.md",
+    "background/nodes/l1_mixed_residual_intersection_pin/upstream_crosswalk.md",
+    "background/nodes/l1_mixed_residual_intersection_pin/audit.md",
+    "background/nodes/l1_mixed_residual_intersection_pin/verify.py",
+    "background/nodes/l1_mixed_residual_intersection_pin/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_two_petal_small_support_anchor_closure",
+   "title": "L1 two-petal bounded-small-support automatic B11 anchor closure",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In a maximal L1 sunflower, let a>=z be the two positive petal support sizes, r the background agreement count, and d the exact core defect. If z<=A for a fixed A>=1, the threshold, per-petal defect cap, and nonzero numerator imply d<=ell+A-1 and G_R=(ell-r)+(ell-a)<=2A. The proved B11 background-petal gate therefore bounds the whole class polynomially. At z=1 one has exactly r=ell-1 and d=a in {ell-1,ell}; hence every unpaid singleton-petal mixed contributor touches at least three petals.",
+   "refs": [
+    "background/nodes/l1_two_petal_small_support_anchor_closure/statement.md",
+    "background/nodes/l1_two_petal_small_support_anchor_closure/proof.md",
+    "background/nodes/l1_two_petal_small_support_anchor_closure/claim_contract.md",
+    "background/nodes/l1_two_petal_small_support_anchor_closure/dependency_subdag.md",
+    "background/nodes/l1_two_petal_small_support_anchor_closure/audit.md",
+    "background/nodes/l1_two_petal_small_support_anchor_closure/verify.py",
+    "background/nodes/l1_two_petal_small_support_anchor_closure/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_polarized_petal_entropy_ledger",
+   "title": "L1 polarized sparse/full petal-entropy root-pinning ledger",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For exact petal support sizes a_i, put p=sum_i min(a_i,ell-a_i) and e=max(0,2d+1-sum_i a_i). The aggregate class p+e<=E has size at most 2^M binom(M+E,E)n^(E+1), hence is polynomial at the L1 lower cutoff for every fixed E. This strictly strengthens the old u+e ledger: a singleton petal costs 1 rather than ell-1, while full and untouched petals cost zero but retain a 2^M orientation factor.",
+   "refs": [
+    "background/nodes/l1_polarized_petal_entropy_ledger/statement.md",
+    "background/nodes/l1_polarized_petal_entropy_ledger/proof.md",
+    "background/nodes/l1_polarized_petal_entropy_ledger/claim_contract.md",
+    "background/nodes/l1_polarized_petal_entropy_ledger/dependency_subdag.md",
+    "background/nodes/l1_polarized_petal_entropy_ledger/audit.md",
+    "background/nodes/l1_polarized_petal_entropy_ledger/verify.py",
+    "background/nodes/l1_polarized_petal_entropy_ledger/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_polarized_b11_box_closure",
+   "title": "L1 polarized entropy/cofactor-excess B11 box closure",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every fixed P,E, all maximal-sunflower residuals with polarized entropy p<=P and defect d<=ell+E are polynomially bounded. Every such word automatically satisfies G_2<=2P or G_R<=P: for ell>P, two dense petals give G_2<=p, while exactly one dense petal gives G_R<=p by the threshold and per-petal cap. Hence an unpaid family must escape every fixed box through p unbounded or d-ell unbounded.",
+   "refs": [
+    "background/nodes/l1_polarized_b11_box_closure/statement.md",
+    "background/nodes/l1_polarized_b11_box_closure/proof.md",
+    "background/nodes/l1_polarized_b11_box_closure/claim_contract.md",
+    "background/nodes/l1_polarized_b11_box_closure/dependency_subdag.md",
+    "background/nodes/l1_polarized_b11_box_closure/audit.md",
+    "background/nodes/l1_polarized_b11_box_closure/verify.py",
+    "background/nodes/l1_polarized_b11_box_closure/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_bounded_polarity_marked_full_pencil_reduction",
+   "title": "L1 bounded-polarity growing-cofactor marked full-pencil reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "If polarized entropy p<ell and d>ell+p-1, a maximal-sunflower residual has at least two dense petals. For the canonical two largest dense supports, clearing their missing sets gives L_Ti C_i-L_Tj C_j=(c_j-c_i)FJ with deg J<=p and deg C_i,deg C_j<=d-ell+p, retaining exact-defect coprimality. For fixed p the petal-pair/mark census is polynomial, so the bounded-p branch is reduced injectively to bounded-mark deformations of the full-petal split-pencil identity, uniformly in growing cofactor excess.",
+   "refs": [
+    "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/statement.md",
+    "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/proof.md",
+    "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/claim_contract.md",
+    "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/dependency_subdag.md",
+    "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/audit.md",
+    "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/verify.py",
+    "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_bounded_mark_affine_split_pencil_compiler",
+   "title": "L1 bounded-mark affine split-pencil compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For one source chart and fixed defect degree, deleting v dense-petal equations partitions the monic partial-petal pairs into at most q^v affine syndromes. Each fiber is a translate of the full-petal monicity-preserving kernel and homogenizes by exactly one projective direction. Every actual pair also gives arbitrary-locator identities L_Ti C_i=J(W-c_iF), deg C_i<=d-ell+v, gcd(JF,JW)=J. At fixed polarized entropy p<=P, support patterns and syndromes cost at most (P+1)n^(1/c_0+P+gamma P) per defect degree. The remaining cell theorem is a uniform split/saturated-point bound in these one-direction extensions, together with non-intrinsic first-match chart supply; zero-syndrome full-petal payment is not silently reused.",
+   "refs": [
+    "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/statement.md",
+    "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/proof.md",
+    "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/claim_contract.md",
+    "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/dependency_subdag.md",
+    "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/audit.md",
+    "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/verify.py",
+    "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_affine_split_pencil_cross_determinant_uniqueness",
+   "title": "L1 affine split-pencil cross-determinant uniqueness",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In one fixed bounded-mark support/syndrome cell, any two exact saturated monic pairs have cross determinant Delta=W_0F_1-W_1F_0 satisfying product_i L_Ti | J Delta and deg(J Delta)<=2d+v. Hence the cell is a singleton whenever t ell>2d+v. Since v<=p, the entire region t ell>2d+p is polynomial per source chart, and every potentially nonsingleton arbitrary-locator cell lies in ceil((d-p+1)/ell)<=t_dense<=floor((2d+p)/ell). In strip d=m ell+eta, t_dense>=2m+1 and 2eta+p<ell is paid without any common-pencil hypothesis.",
+   "refs": [
+    "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/statement.md",
+    "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/proof.md",
+    "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/claim_contract.md",
+    "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/dependency_subdag.md",
+    "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/audit.md",
+    "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/verify.py",
+    "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_fixed_support_cross_determinant_fiber_bound",
+   "title": "L1 fixed-support cross-determinant fiber bound",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For one source chart, defect degree, and exact petal-support pattern, exact saturated monic pairs inject by Phi(F,W)=(W_0F-WF_0)/product_i L_(S_i) into polynomials of degree at most r_cross=2d+v-t ell. Hence their total number, across all missing-equation syndromes, is at most q^max(0,r_cross+1). Every fixed (p,r_cross) box is polynomial per source chart after summing all defect degrees. Thus a bounded-polarity per-chart counterfamily must have unbounded cross slack inside the proved survivor width window; non-intrinsic first-match chart supply remains separate.",
+   "refs": [
+    "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/statement.md",
+    "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/proof.md",
+    "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/claim_contract.md",
+    "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/dependency_subdag.md",
+    "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/audit.md",
+    "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/verify.py",
+    "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_fixed_support_defect_johnson_bound",
+   "title": "L1 fixed-support defect Johnson bound",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For one source chart and exact labelled petal support of size h, distinct exact saturated degree-d defect sets inside the (k-1)-point source core intersect in at most r_J=2d-h. Hence a negative-r_J cell is a singleton, while every cell with d^2>(k-1)r_J has size at most (k-1)(d-r_J)/(d^2-(k-1)r_J). All positive-denominator cells are polynomial per source chart at fixed petal polarity, with no field or syndrome factor. Thus a bounded-polarity counterfamily may be restricted to (k-1)(e-1)>=d^2; retaining the background gap g=ell-b further gives d^2<=(k-1)(d-g).",
+   "refs": [
+    "background/nodes/l1_fixed_support_defect_johnson_bound/statement.md",
+    "background/nodes/l1_fixed_support_defect_johnson_bound/proof.md",
+    "background/nodes/l1_fixed_support_defect_johnson_bound/claim_contract.md",
+    "background/nodes/l1_fixed_support_defect_johnson_bound/dependency_subdag.md",
+    "background/nodes/l1_fixed_support_defect_johnson_bound/audit.md",
+    "background/nodes/l1_fixed_support_defect_johnson_bound/verify.py",
+    "background/nodes/l1_fixed_support_defect_johnson_bound/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_bounded_retained_core_payment",
+   "title": "L1 bounded retained-core payment",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In one maximal-sunflower source chart, let a=(k-1)-d be the retained-core size and p the polarized petal entropy. Every fixed box a<=A,p<=P has at most (A+1)(P+1)n^(1/c_0+A+P) exact contributors: choose the retained a-subset of the fixed core, then the petal exceptions; h>d makes the numerator unique. Thus a bounded-polarity per-chart counterfamily in the sub-Johnson tail must have a unbounded, and its tail inequality is equivalently a((k-1)-a)>=(k-1)(ell-b).",
+   "refs": [
+    "background/nodes/l1_bounded_retained_core_payment/statement.md",
+    "background/nodes/l1_bounded_retained_core_payment/proof.md",
+    "background/nodes/l1_bounded_retained_core_payment/claim_contract.md",
+    "background/nodes/l1_bounded_retained_core_payment/dependency_subdag.md",
+    "background/nodes/l1_bounded_retained_core_payment/audit.md",
+    "background/nodes/l1_bounded_retained_core_payment/verify.py",
+    "background/nodes/l1_bounded_retained_core_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_cross_quotient_split_descent_obstruction",
+   "title": "L1 cross-quotient split-descent obstruction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "An exact F_23 maximal chart with ell=2, five two-point petals, one background point, fixed petal polarity p=5, and two saturated threshold contributors has cross quotient 16+9X+4X^2+15X^3=(X-13)(20+15X+15X^2). The quadratic discriminant 14 is nonsquare, so the quotient is not split. The cell has N=8,d=4,h=5 and N(2d-h)=24>=16=d^2, placing the obstruction in the live sub-Johnson tail. Cross-quotient injection therefore cannot be iterated as split-defect descent without an additional splitting theorem.",
+   "refs": [
+    "background/nodes/l1_cross_quotient_split_descent_obstruction/statement.md",
+    "background/nodes/l1_cross_quotient_split_descent_obstruction/proof.md",
+    "background/nodes/l1_cross_quotient_split_descent_obstruction/claim_contract.md",
+    "background/nodes/l1_cross_quotient_split_descent_obstruction/dependency_subdag.md",
+    "background/nodes/l1_cross_quotient_split_descent_obstruction/audit.md",
+    "background/nodes/l1_cross_quotient_split_descent_obstruction/verify.py",
+    "background/nodes/l1_cross_quotient_split_descent_obstruction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_fixed_support_codeword_quotient_bound",
+   "title": "L1 fixed-support codeword quotient bound",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For one source chart and exact petal support X of size h, fix one compatible degree-at-most-(k-1) codeword P_0. Every other compatible codeword injects by (P-P_0)/L_X into polynomials of degree at most (k-1)-h, so the cell has size at most q^max(0,k-h). Every fixed (p,(k-1)-h) box is polynomial per source chart with bound (P+1)n^(1/c_0+P+gamma(E+1)). In sub-Johnson variables a=(k-1)-d and s=h-d, a bounded-polarity counterfamily must therefore have a-s=(k-1)-h unbounded. No splitting property of the quotient is asserted.",
+   "refs": [
+    "background/nodes/l1_fixed_support_codeword_quotient_bound/statement.md",
+    "background/nodes/l1_fixed_support_codeword_quotient_bound/proof.md",
+    "background/nodes/l1_fixed_support_codeword_quotient_bound/claim_contract.md",
+    "background/nodes/l1_fixed_support_codeword_quotient_bound/dependency_subdag.md",
+    "background/nodes/l1_fixed_support_codeword_quotient_bound/audit.md",
+    "background/nodes/l1_fixed_support_codeword_quotient_bound/verify.py",
+    "background/nodes/l1_fixed_support_codeword_quotient_bound/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_background_overlap_singleton_payment",
+   "title": "L1 background-overlap singleton payment",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Fix one source chart, defect degree d, and exact petal support of size h. Put N=k-1, a=N-d, s=h-d, and g=ell-b. Every compatible word has at least ell-s background agreements, so two words share at least ell-2s+g background points. Their degree-at-most-N difference already vanishes on the h petal points; hence the cell is a singleton whenever a+s<ell+g. At fixed petal polarity this whole region is polynomial per chart. Combining the strict complement with the sub-Johnson condition gives the exact survivor strip a^2/N<=c=N-h=a-s<=2a-ell-g. An exact F_17 ell=2 chart has two contributors at equality a+s=ell+g=3, so strictness is load-bearing.",
+   "refs": [
+    "background/nodes/l1_background_overlap_singleton_payment/statement.md",
+    "background/nodes/l1_background_overlap_singleton_payment/proof.md",
+    "background/nodes/l1_background_overlap_singleton_payment/claim_contract.md",
+    "background/nodes/l1_background_overlap_singleton_payment/dependency_subdag.md",
+    "background/nodes/l1_background_overlap_singleton_payment/audit.md",
+    "background/nodes/l1_background_overlap_singleton_payment/verify.py",
+    "background/nodes/l1_background_overlap_singleton_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_background_quotient_johnson_bound",
+   "title": "L1 background-quotient Johnson bound",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For one source chart, defect degree, and exact h-point petal support X, put N=k-1, c=N-h, s=h-d, b=ell-g, and u=ell-s. Subtracting the degree-<h interpolant on X and dividing by L_X injects compatible codewords into degree-at-most-c polynomials on the b-point background that agree with one derived word in at least u positions. If u^2>bc, the Johnson bound gives at most b(u-c)/(u^2-bc)<=n^2 codewords, so all such cells are polynomial per chart at fixed petal polarity. The live balanced tail also satisfies (ell-a+c)^2<=(ell-g)c together with a^2/N<=c<=2a-ell-g. The exact F_17 equality cell (b,u,c)=(1,1,1) has two contributors, so strictness is load-bearing.",
+   "refs": [
+    "background/nodes/l1_background_quotient_johnson_bound/statement.md",
+    "background/nodes/l1_background_quotient_johnson_bound/proof.md",
+    "background/nodes/l1_background_quotient_johnson_bound/claim_contract.md",
+    "background/nodes/l1_background_quotient_johnson_bound/dependency_subdag.md",
+    "background/nodes/l1_background_quotient_johnson_bound/audit.md",
+    "background/nodes/l1_background_quotient_johnson_bound/verify.py",
+    "background/nodes/l1_background_quotient_johnson_bound/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_joint_core_background_johnson_bound",
+   "title": "L1 joint core/background Johnson bound",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For one exact support cell, choose u=ell-(h-d) background agreements per contributor. The common-defect and common-background locators divide the same nonzero cross determinant, so |D_1 intersect D_2|+|R_1 intersect R_2|<=r=2d-h. A joint incidence second moment gives |Z|<=Nb ell/(bd^2+Nu^2-Nbr)<=n^3 whenever the denominator is positive. Thus fixed petal polarity is polynomial there. In tail variables a=N-d and c=N-h, every counterfamily satisfies b a^2+N(ell-a+c)^2<=Nbc. The exact F_17 chart attains the positive bound with two contributors; the exact F_23 nonsplit chart has two contributors at zero denominator, so strictness is load-bearing.",
+   "refs": [
+    "background/nodes/l1_joint_core_background_johnson_bound/statement.md",
+    "background/nodes/l1_joint_core_background_johnson_bound/proof.md",
+    "background/nodes/l1_joint_core_background_johnson_bound/claim_contract.md",
+    "background/nodes/l1_joint_core_background_johnson_bound/dependency_subdag.md",
+    "background/nodes/l1_joint_core_background_johnson_bound/audit.md",
+    "background/nodes/l1_joint_core_background_johnson_bound/verify.py",
+    "background/nodes/l1_joint_core_background_johnson_bound/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_joint_johnson_source_scale_gate",
+   "title": "L1 joint-Johnson source-scale gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The nonpositive joint-Johnson region implies the variance constraint a(N-a)/N+u(b-u)/b>=ell when b>0; zero background gives the analogous core-only constraint. Hence every bounded-polarity live cell has N+b>=4ell and N>=3ell+1. In an official rate-1/r source, (r-1)k+1=Mell+b then forces M>=3(r-1), so all smaller source scales are polynomial per chart. The first live counts are M>=3,9,21,45 at rates 1/2,1/4,1/8,1/16. The arithmetic family ell=2r,b=2r-1,k=6r+2,M=3(r-1) attains N+b=4ell, so the source-scale constant is arithmetically sharp.",
+   "refs": [
+    "background/nodes/l1_joint_johnson_source_scale_gate/statement.md",
+    "background/nodes/l1_joint_johnson_source_scale_gate/proof.md",
+    "background/nodes/l1_joint_johnson_source_scale_gate/claim_contract.md",
+    "background/nodes/l1_joint_johnson_source_scale_gate/dependency_subdag.md",
+    "background/nodes/l1_joint_johnson_source_scale_gate/audit.md",
+    "background/nodes/l1_joint_johnson_source_scale_gate/verify.py",
+    "background/nodes/l1_joint_johnson_source_scale_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_joint_plotkin_boundary_payment",
+   "title": "L1 joint Plotkin-boundary payment",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Encode each exact-support contributor by A=D disjoint_union R in the (N+b)-point core/background universe, where R is a canonical u-subset of its background agreements. The shared cross-determinant budget gives |A triangle A'|>=2ell. If N+b<=4ell, the sign-vector embeddings have pairwise nonpositive inner products, so the elementary Rankin bound gives at most 2(N+b)<=2n contributors. Thus fixed petal polarity is polynomial throughout the equality regime and every live cell satisfies N+b>4ell. For an official rate-1/r source this is equivalent to rb>(4(r-1)-M)ell+r, or (M-3(r-1)+1)ell>r(g+1).",
+   "refs": [
+    "background/nodes/l1_joint_plotkin_boundary_payment/statement.md",
+    "background/nodes/l1_joint_plotkin_boundary_payment/proof.md",
+    "background/nodes/l1_joint_plotkin_boundary_payment/claim_contract.md",
+    "background/nodes/l1_joint_plotkin_boundary_payment/dependency_subdag.md",
+    "background/nodes/l1_joint_plotkin_boundary_payment/audit.md",
+    "background/nodes/l1_joint_plotkin_boundary_payment/verify.py",
+    "background/nodes/l1_joint_plotkin_boundary_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_bounded_plotkin_excess_payment",
+   "title": "L1 bounded Plotkin-excess payment",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Let E=N+b-4ell>=0 for the combined core/background constant-weight code. Partition contributors by their pattern on any E coordinates. Puncturing within one pattern class preserves distance and leaves length 4ell with distance at least 2ell, so Rankin gives at most 2(4ell) members per class and at most 2^(E+1)(N+b-E) contributors per exact support cell. Hence every fixed (petal polarity, Plotkin excess) box is polynomial per chart, and a counterfamily must have N+b-4ell unbounded. Officially, (r-1)E=(M-3(r-1)+1)ell-r(g+1).",
+   "refs": [
+    "background/nodes/l1_bounded_plotkin_excess_payment/statement.md",
+    "background/nodes/l1_bounded_plotkin_excess_payment/proof.md",
+    "background/nodes/l1_bounded_plotkin_excess_payment/claim_contract.md",
+    "background/nodes/l1_bounded_plotkin_excess_payment/dependency_subdag.md",
+    "background/nodes/l1_bounded_plotkin_excess_payment/audit.md",
+    "background/nodes/l1_bounded_plotkin_excess_payment/verify.py",
+    "background/nodes/l1_bounded_plotkin_excess_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_background_surplus_plotkin_payment",
+   "title": "L1 background-surplus Plotkin payment",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Stratify one exact support/defect cell by exact background agreement count u+z. Using every background agreement, the combined core/background sets have distance at least 2(ell+z). Thus the cell has at most 2^(E_z+1)n members for E_z=N+b-4(ell+z)>=0, and every fixed logarithmic effective-excess window E_z<=C log_2 n is polynomial per chart at fixed petal polarity. A counterfamily must have (E_P-4z)/log_2 n unbounded. Officially, (r-1)E_z=(M-3(r-1)+1)ell-r(g+1)-4(r-1)z. No background-subset factor is introduced because the exact set is determined by the numerator.",
+   "refs": [
+    "background/nodes/l1_background_surplus_plotkin_payment/statement.md",
+    "background/nodes/l1_background_surplus_plotkin_payment/proof.md",
+    "background/nodes/l1_background_surplus_plotkin_payment/claim_contract.md",
+    "background/nodes/l1_background_surplus_plotkin_payment/dependency_subdag.md",
+    "background/nodes/l1_background_surplus_plotkin_payment/audit.md",
+    "background/nodes/l1_background_surplus_plotkin_payment/verify.py",
+    "background/nodes/l1_background_surplus_plotkin_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_marked_constant_shift_subtwoell_exclusion",
+   "title": "L1 marked constant-shift sub-two-ell exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a common constant-shift pencil P-a_i with at least three marked petals, write P-a_i=S_iV_i, J=product_i V_i, and v=deg J. If S_i divides W-c_iF, gcd(F,W)=1, ell<deg F=d, and d+v<2ell, no such data exist. Multiplying by J restores full-petal congruences but gives gcd(JF,JW)=J; rank three would force a common divisor of degree d+v-ell>v, while rank at most two forces all c_i equal and again contradicts the exact gcd. Thus the bounded-p L1 branch is empty on this three-dense common-pencil marked strip, including whenever d+p<2ell.",
+   "refs": [
+    "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/statement.md",
+    "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/proof.md",
+    "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/claim_contract.md",
+    "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/dependency_subdag.md",
+    "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/audit.md",
+    "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/verify.py",
+    "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_marked_constant_shift_multistrip_exclusion",
+   "title": "L1 marked constant-shift multistrip exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a common constant-shift pencil with t marked petals and total selected mark degree v, no exact saturated tuple exists in strip m when t>=2m+1, m ell<d, and d+v<(m+1)ell. After restoring full locators with J, row rank at least 2m+1 forces a common factor of degree d+v-m ell>v; lower rank gives at least two degree-m kernel pairs, whose cross products vanish at 2m+1 labels and force one primitive direction of degree at most m-1, again producing a common factor larger than J. Thus a bounded-p common-pencil residual has at most 2m selected dense petals unless its marked degree reaches the next strip boundary. The L1 threshold gives the matching survivor pin ceil((d-p+1)/ell)<=T_dense<=2m.",
+   "refs": [
+    "background/nodes/l1_marked_constant_shift_multistrip_exclusion/statement.md",
+    "background/nodes/l1_marked_constant_shift_multistrip_exclusion/proof.md",
+    "background/nodes/l1_marked_constant_shift_multistrip_exclusion/claim_contract.md",
+    "background/nodes/l1_marked_constant_shift_multistrip_exclusion/dependency_subdag.md",
+    "background/nodes/l1_marked_constant_shift_multistrip_exclusion/audit.md",
+    "background/nodes/l1_marked_constant_shift_multistrip_exclusion/verify.py",
+    "background/nodes/l1_marked_constant_shift_multistrip_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_marked_constant_shift_extremal_kernel_normal_form",
+   "title": "L1 marked constant-shift extremal kernel normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the upper survivor endpoint T=2m in marked degree strip m, exact saturation forces the 2m by 2(m+1) constant-shift coefficient matrix to have rank exactly 2m. Every kernel basis is a pair of degree-at-most-m polynomial columns with determinant kappa product_i(Z-a_i), and the enlarged numerator/denominator have a unique two-generator reconstruction whose coefficient gcd divides the mark locator J. The adjugate recovers both coefficients after multiplication by the complete quotient locator. Explicit saturated full-petal examples F=1+lambda X^cV(P), W=U(P) exist in every strip, so the 2m+1 exclusion threshold is sharp and the endpoint must be priced rather than excluded.",
+   "refs": [
+    "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/statement.md",
+    "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/proof.md",
+    "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/claim_contract.md",
+    "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/dependency_subdag.md",
+    "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/audit.md",
+    "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/verify.py",
+    "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_marked_constant_shift_forney_window_normal_form",
+   "title": "L1 marked constant-shift Forney-window normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every marked common constant-shift survivor with t<=2m in strip m has a reduced rank-two interpolation-module basis of Forney degrees mu<=nu<=m, mu+nu=t, and determinant kappa product_i(Z-a_i). Its degree-at-most-m coefficient kernel has exact dimension 2m-t+2 and full row rank t. The enlarged numerator/denominator have a unique reconstruction from those generators, with evaluated multiplier gcd dividing the mark locator J. Every admissible Forney pair is populated by an explicit saturated family F=1+lambda X^cR(P)V(P), W=U(P), so the finite strata must be priced or profile-owned rather than excluded.",
+   "refs": [
+    "background/nodes/l1_marked_constant_shift_forney_window_normal_form/statement.md",
+    "background/nodes/l1_marked_constant_shift_forney_window_normal_form/proof.md",
+    "background/nodes/l1_marked_constant_shift_forney_window_normal_form/claim_contract.md",
+    "background/nodes/l1_marked_constant_shift_forney_window_normal_form/dependency_subdag.md",
+    "background/nodes/l1_marked_constant_shift_forney_window_normal_form/audit.md",
+    "background/nodes/l1_marked_constant_shift_forney_window_normal_form/verify.py",
+    "background/nodes/l1_marked_constant_shift_forney_window_normal_form/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_marked_common_pencil_crt_fiber_bound",
+   "title": "L1 marked common-pencil CRT numerator-fiber bound",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Fix one bounded-polarity common-pencil chart, all supports and marks, and one exact defect locator F. CRT makes the numerator solutions one affine class modulo the product S of selected support locators. In strip m, every Forney-window cell with t>=m+1 has deg S>d and therefore at most one numerator. At the lower endpoint t=m, threshold arithmetic gives eta=d-m ell<=p-1 and affine freedom degree eta+v<=2p-1, hence at most q^(2p) numerators. For fixed p and generated q=poly(n), numerator multiplicity is polynomial uniformly in the strip; squarefree defect-locator counting is the only non-polynomial common-pencil issue left.",
+   "refs": [
+    "background/nodes/l1_marked_common_pencil_crt_fiber_bound/statement.md",
+    "background/nodes/l1_marked_common_pencil_crt_fiber_bound/proof.md",
+    "background/nodes/l1_marked_common_pencil_crt_fiber_bound/claim_contract.md",
+    "background/nodes/l1_marked_common_pencil_crt_fiber_bound/dependency_subdag.md",
+    "background/nodes/l1_marked_common_pencil_crt_fiber_bound/audit.md",
+    "background/nodes/l1_marked_common_pencil_crt_fiber_bound/verify.py",
+    "background/nodes/l1_marked_common_pencil_crt_fiber_bound/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_marked_common_pencil_quotient_boundary_router",
+   "title": "L1 marked common-pencil quotient-boundary router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In a genuine quotient/coset common-pencil chart, every squarefree defect locator factors uniquely into a canonical partial-fiber boundary and a product of complete quotient-fiber locators P-a. Composing this factorization with the marked CRT theorem bounds every fixed-polarity, fixed-boundary cell by q^(2P_0) times a polynomial boundary factor times the actual full-fiber quotient-core census. Thus bounded boundary and numerator multiplicity cannot create a new super-polynomial factor; the residue is the source-coupled quotient-core census or unbounded partial-fiber boundary. No exact-periodic ownership or cross-chart first-match bound is inferred.",
+   "refs": [
+    "background/nodes/l1_marked_common_pencil_quotient_boundary_router/statement.md",
+    "background/nodes/l1_marked_common_pencil_quotient_boundary_router/proof.md",
+    "background/nodes/l1_marked_common_pencil_quotient_boundary_router/claim_contract.md",
+    "background/nodes/l1_marked_common_pencil_quotient_boundary_router/dependency_subdag.md",
+    "background/nodes/l1_marked_common_pencil_quotient_boundary_router/audit.md",
+    "background/nodes/l1_marked_common_pencil_quotient_boundary_router/verify.py",
+    "background/nodes/l1_marked_common_pencil_quotient_boundary_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_quotient_chart_bounded_core_boundary_closure",
+   "title": "L1 quotient-chart bounded core-boundary closure",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the L1 cutoff ell>=c_0 n/log_2 n with ell>2P_0, one genuine quotient/coset source chart has only M+N<=log_2(n)/c_0 total petal and core fibers. Dense/sparse orientation plus at most P_0 exceptional petal points counts all p<=P_0 supports; the quotient-boundary router counts every beta<=B_0 defect locator by at most 2^N(B_0+1)n^B_0; and the strict-window plus thin-edge CRT theorems contribute at most q^(2P_0) numerators throughout every degree strip. Hence the complete common-pencil box is at most (P_0+1)(B_0+1)n^(1/c_0+P_0+B_0+2 gamma P_0) per source chart when q<=n^gamma. Cross-chart aggregation, unbounded boundary, non-quotient cores, and arbitrary petal locators remain open.",
+   "refs": [
+    "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/statement.md",
+    "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/proof.md",
+    "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/claim_contract.md",
+    "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/dependency_subdag.md",
+    "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/audit.md",
+    "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/verify.py",
+    "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+   "title": "L1 marked common-pencil next-strip boundary fiber bound",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the thin boundary d+p>=(m+1)ell of strip m, put g=(m+1)ell-d. For fixed p<=P_0 and ell>2P_0, the exact list threshold forces at least m+1 dense petals. Their selected support product has degree t ell-v, so CRT leaves at most one numerator when v<g and at most q^(v-g+1)<=q^p otherwise. Thus the fixed-locator numerator fiber is polynomial uniformly on the boundary omitted by the strict Forney window.",
+   "refs": [
+    "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/statement.md",
+    "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/proof.md",
+    "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/claim_contract.md",
+    "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/dependency_subdag.md",
+    "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/audit.md",
+    "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/verify.py",
+    "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_quotient_chart_bipolar_entropy_closure",
+   "title": "L1 quotient-chart bipolar entropy closure",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In one genuine quotient/coset common-pencil chart, orient every petal support and every exact core defect fiber as sparse or dense. The exceptional point counts are exactly the petal polarity p_pet and symmetric core polarity p_core. At the L1 cutoff the M+N orientation bits cost only 2^(M+N)<=n^(1/c_0); bounded exceptional sets cost n^(P_0+B_0); and the whole-strip CRT bounds cost q^(2P_0). Thus every fixed bipolar box has at most (P_0+1)(B_0+1)n^(1/c_0+P_0+B_0+2 gamma P_0) contributors per source chart. Any super-polynomial fixed-chart family must have unbounded petal or symmetric core polarity; cross-chart and arbitrary-locator branches remain open.",
+   "refs": [
+    "background/nodes/l1_quotient_chart_bipolar_entropy_closure/statement.md",
+    "background/nodes/l1_quotient_chart_bipolar_entropy_closure/proof.md",
+    "background/nodes/l1_quotient_chart_bipolar_entropy_closure/claim_contract.md",
+    "background/nodes/l1_quotient_chart_bipolar_entropy_closure/dependency_subdag.md",
+    "background/nodes/l1_quotient_chart_bipolar_entropy_closure/audit.md",
+    "background/nodes/l1_quotient_chart_bipolar_entropy_closure/verify.py",
+    "background/nodes/l1_quotient_chart_bipolar_entropy_closure/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_core_bipolar_signed_quotient_normal_form",
+   "title": "L1 core bipolar signed-quotient normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a core partitioned into complete P-fibers, orient each exact defect fiber as dense or sparse, with ties sparse. The defect locator has a unique signed quotient presentation F_D L_H=L_S product_(a in A_+)(P-a), where H is the set of holes in dense fibers, S is the occupied set in sparse fibers, gcd(L_H,L_S)=1, and deg L_H+deg L_S equals the symmetric core polarity. The triple (A_+,H,S) reconstructs D exactly. This identifies growing core polarity with growing signed mark degree but supplies no periodic owner or count.",
+   "refs": [
+    "background/nodes/l1_core_bipolar_signed_quotient_normal_form/statement.md",
+    "background/nodes/l1_core_bipolar_signed_quotient_normal_form/proof.md",
+    "background/nodes/l1_core_bipolar_signed_quotient_normal_form/claim_contract.md",
+    "background/nodes/l1_core_bipolar_signed_quotient_normal_form/dependency_subdag.md",
+    "background/nodes/l1_core_bipolar_signed_quotient_normal_form/audit.md",
+    "background/nodes/l1_core_bipolar_signed_quotient_normal_form/verify.py",
+    "background/nodes/l1_core_bipolar_signed_quotient_normal_form/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_intrinsic_quotient_source_chart_census",
+   "title": "L1 intrinsic quotient source-chart census",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a fixed received word and intrinsic complete-fiber partition, one source core/petal role assignment determines every source member uniquely: two degree-below-k polynomials agreeing on the (k-1)-point core plus one full petal coincide. Hence there are at most 3^(n/ell) canonical source charts per scale. At ell>=c_0 n/log_2 n this is at most n^(log_2(3)/c_0), and the logarithmically many dyadic intrinsic scales preserve polynomial first-match aggregation. Composed with the bipolar per-chart bound, every fixed polarity box is globally polynomial across intrinsic quotient charts. Partial cores, non-intrinsic quotient maps, and arbitrary petals remain open.",
+   "refs": [
+    "background/nodes/l1_intrinsic_quotient_source_chart_census/statement.md",
+    "background/nodes/l1_intrinsic_quotient_source_chart_census/proof.md",
+    "background/nodes/l1_intrinsic_quotient_source_chart_census/claim_contract.md",
+    "background/nodes/l1_intrinsic_quotient_source_chart_census/dependency_subdag.md",
+    "background/nodes/l1_intrinsic_quotient_source_chart_census/audit.md",
+    "background/nodes/l1_intrinsic_quotient_source_chart_census/verify.py",
+    "background/nodes/l1_intrinsic_quotient_source_chart_census/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_intrinsic_partial_core_triple_polarity_closure",
+   "title": "L1 intrinsic partial-core triple-polarity closure",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For an intrinsic quotient partition, allow an arbitrary (k-1)-point source core and measure three symmetric exception counts: layout polarity of the core against complete fibers, exact-defect polarity inside each core slice, and petal-support polarity. Four orientation vectors over L=n/ell fibers, bounded exception sets, source-member uniqueness, and the whole-strip CRT bounds give at most (log_2 n+1)(R_0+1)(B_0+1)(P_0+1)n^(4/c_0+R_0+B_0+P_0+2 gamma P_0) contributors across all intrinsic scales. Thus every fixed triple-polarity box is globally polynomial even with partial cores; non-intrinsic quotient maps and arbitrary petals remain open.",
+   "refs": [
+    "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/statement.md",
+    "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/proof.md",
+    "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/claim_contract.md",
+    "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/dependency_subdag.md",
+    "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/audit.md",
+    "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/verify.py",
+    "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_disjoint_six_multiplicity_gate",
+   "title": "DSP8 disjoint distance-six multiplicity gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "After the proved distance-four and support-overlap deletions, every P>=25 target retains at least 11 disjoint distance-six edges in the antipodal-free class and at least two in the antipodal class. This forces respectively a same-target two-leaf star ideal and a same-target two-edge ideal; on P>=33 the two classes force pure disjoint-distance-six stars of degrees seven and five.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/statement.md",
+    "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/proof.md",
+    "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/audit.md",
+    "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/result.md",
+    "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/verify.py",
+    "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_accident_depth_compiler",
+   "title": "DSP8 excess quotient-depth compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Paying L quotient layers and product excess through E reduces C36' to rho_L=(R-L)_+. On the Pareto diagonal L+E=17, exclusion of any rectangle (P,R)>=(19,18),(21,16),(25,12),(29,8),(33,4) closes C36'. The selected P>=33,R>=4 endpoint is Mbar_(3),6,33^0+(53/42)Mbar_(3),6,33^A<=(583/272)n^2; every survivor carries a degree-seven/five pure distance-six star and a four-lift quotient packet, odd-locally expressible as one nonzero coupling anchor plus a three-spoke quotient-collision star.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_accident_depth_compiler/statement.md",
+    "background/nodes/f3_h3_dsp8_accident_depth_compiler/proof.md",
+    "background/nodes/f3_h3_dsp8_accident_depth_compiler/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_accident_depth_compiler/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_accident_depth_compiler/audit.md",
+    "background/nodes/f3_h3_dsp8_accident_depth_compiler/result.md",
+    "background/nodes/f3_h3_dsp8_accident_depth_compiler/verify.py",
+    "background/nodes/f3_h3_dsp8_accident_depth_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate",
+   "title": "Budget-three antipodal pure harmonic binary-quartic norm gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a split squarefree deleted quartic in characteristic different from two and three, the product of the classical cubic binary-quartic invariant over the eight square-root sign classes is a symmetric degree-24 support polynomial. It vanishes exactly when some lift is harmonic and is evaluated compactly by three quadratic norms.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate",
+   "title": "Budget-three antipodal pure harmonic spectral quadratic gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the unique pure packet reconstructed from a spectral candidate, harmonic matching is equivalent to one short coefficient identity on one of the three quadratic splittings of its degree-four gcd. Together with the two fourth-power quotients and scalar splitting, this is an exact combined spectral, Fermat, and harmonic acceptance gate.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve",
+   "title": "Budget-three antipodal harmonic-torsion characteristic sieve",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Four power-of-two roots with pairwise distinct squares cannot have cross-ratio -1 in characteristic zero: the cleared equation is an eight-term vanishing sum, and divisibility by X^(N/2)+1 forces antipodal pairing, which distinct squares make impossible. At the official lift order 2^40, every finite survivor therefore lies in the bad characteristics of one explicit integer unit-ideal certificate. A repeated-squaring presentation has 126 variables, 127 cubic-or-lower equations, and no dense degree-2^39 polynomial. No certificate or official exclusion is claimed.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/verify.py",
+    "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality",
+   "title": "A=1 core-one exceptional-only kernel-plane transversality",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the exceptional slope, the two coefficient shifts of the degree-(r-1) minimal apolar generator span the complete middle-Hankel kernel. The first kernel lift obeys M_0q_1+M_1u=0, the induced form vanishes on the continuing line, and its value on the second shifted line is nonzero.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/verify_audit.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/result.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin",
+   "title": "A=1 core-one exceptional-only quadratic-moment pin",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The first-order exceptional Hankel crossing is exactly the three shifted quadratic convolutions Theta_0=Theta_1=0 and Theta_2 nonzero. For contracted source weights these are the degree-zero, degree-one, and degree-two weighted moments of the squared exceptional locator.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/verify_audit.py",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/result.md"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_pure_euler_ramification_router",
+   "title": "Budget-three antipodal pure Euler ramification router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the pure-quartic boundary, the norm equation is equivalent to TU^3+d=e_4V^3C and its derivative factors exactly as U^2V^2L with L linear. Thus TU^3 has at most three finite critical values and every repeated-factor defect is localized at one point.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/verify.py",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_pure_ramification_passport",
+   "title": "Budget-three antipodal pure ramification passport",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The pure Euler and second-Wronskian linear residuals satisfy Lambda=dL. The associated degree-4r rational cover lies in exactly four printed Belyi defect passports or one generic almost-Belyi passport, with same-side collisions exactly at the unique deleted-or-zero intersection.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/verify.py",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction",
+   "title": "Budget-three antipodal pure Euler spectral reconstruction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "A pure passport polynomial determines its norm packet uniquely: its coefficientwise Euler lift S has D=gcd(S,Y^d-1) of degree four, and the complementary quotients (Y^d-1+S)/D and -S/D are respectively a monic fourth power and a scalar times a monic fourth power. Base-field splitting and harmonic matching remain explicit separate tests.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/verify.py",
+    "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router",
+   "title": "Budget-three deleted-pair even-Jacobi norm router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Parity and quadratic Jacobi transformations replace every signed deleted-pair degree-2^36 trace gcd by an exact quadratic-norm gcd of degree at most 2^35, preserving all six branches over the algebraic closure.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router/verify.py",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition",
+   "title": "Budget-three deleted-pair torsion cyclotomic-norm decomposition",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every dyadic M, the squared Jacobi/Chebyshev torsion resultants are exact cyclotomic norms: the T_(2M) branch is one Phi_(8M) norm and the U_(2M-1) branch is the product of the dyadic norm tower Phi_4 through Phi_(4M). The plus branch is equivalently (2M)^M times the product of resultants against T_1,T_2,...,T_M; over Q(sqrt(2)) the minus branch is the product of two conjugate resultants against sqrt(2)T_M+/-1. Odd-prime norm valuations are twice the resultant valuations. At official M=2^35 neither modular torsion factor need exceed degree M, without asserting modular nonvanishing.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/statement.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/proof.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/audit.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/result.md",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/verify.py",
+    "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/verify_audit.py"
+   ]
+  },
+  {
+   "id": "paving_rf3_double_prime_koalabear_safe_rows",
+   "title": "RF3-double-prime retained-degree KoalaBear safe rows",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The corrected global-degree RF3-double-prime factor lift, combined with retained-degree interpolation, unconditionally bounds the full-field MCA bad-slope numerator at four n=2^21 KoalaBear rows by 274589064742753629, 274721012201293956, 274578888391562205, and 274861787390263486 respectively, each at most floor(p_KB^6/2^128)=274980728111395087. Thus the printed agreements 1485170, 1051719, 744762, and 527408 are safe at rates 1/2, 1/4, 1/8, and 1/16. No adjacent unsafe packet or maximal radius is claimed.",
+   "refs": [
+    "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/statement.md",
+    "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/proof.md",
+    "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/claim_contract.md",
+    "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/dependency_subdag.md",
+    "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/source_scope.md",
+    "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/upstream_bridge.md",
+    "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/upstream_ordinary_audit.md",
+    "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/verify.py",
+    "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_lowcore_u0_loop_defect_ratio_router",
+   "title": "XR low-core u=0 loop-defect ratio router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In every RowC rank-five P-B cell with u=0 and v>=1, deleting the v kernel loops removes at most v selected slopes and leaves a GRS_4 extension family on N=R+4 points. For every reused four-core T, the exact interpolation ratio has at most v-1 denominator-zero points per incident agreement set, so each slope contributes at least h+1 points to a disjoint ratio fiber and the line population is at most floor(R/(h+1)). A multiplicity-sensitive peeling formula D_r=C(4+h+v,4)-floor((r-1)C(R+4,4)/(8n^3+1-v)) supplies the complete rich-core interface. This reaches but does not pay the residual v<=1,2,6 cells.",
+   "refs": [
+    "background/nodes/xr_lowcore_u0_loop_defect_ratio_router/statement.md",
+    "background/nodes/xr_lowcore_u0_loop_defect_ratio_router/proof.md",
+    "background/nodes/xr_lowcore_u0_loop_defect_ratio_router/claim_contract.md",
+    "background/nodes/xr_lowcore_u0_loop_defect_ratio_router/dependency_subdag.md",
+    "background/nodes/xr_lowcore_u0_loop_defect_ratio_router/result.md",
+    "background/nodes/xr_lowcore_u0_loop_defect_ratio_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router",
+   "title": "Rate-half exceptional Hankel quotient-distance router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official A=1 core-one exceptional-only sharp-cap profile, let W_A be the span of the moment columns at the r-1 roots of the exceptional locator A. The first-order syndrome h_1 has quotient support distance at least three modulo W_A. If the distance is exactly three, its residual-domain support triple is unique and its coefficients are the explicit Vandermonde-barycentric weights Theta_2/(A(x_i)^2 product_(j!=i)(x_i-x_j)); otherwise the quotient distance is at least four. This is an exhaustive source-intrinsic router, not an exclusion of either branch.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router",
+   "title": "Rate-half exceptional distance-three MDS-escape router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official A=1 core-one exceptional-only quotient-distance-three chart, every ordinary supported slope is either an internal fiber cancelling exactly two exceptional-root source coefficients, or a disjoint minimum-weight Vandermonde escape. The official incidence budget forces exactly e internal fibers, whose pairs partition the 2e exceptional roots, and exactly 3e external escapes. Each external locator G obeys G(t)/A(t)=constant on the canonical triple, and the total outside-row incidence deficit is exactly e. This is an exact router, not an exclusion of the chart.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form",
+   "title": "Rate-half distance-three pair-Lagrange normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official exceptional-only quotient-distance-three chart, normalize Q(0;X)=A(X). The e internal fibers partition the 2e exceptional roots into pairs D_i and determine the entire residual generator by Q(z;X)=Phi(z)A(X)+zB_T(X) sum_i (lambda_i/xi_i)L_i(z)A(X)/D_i(X), where xi_i are the internal slopes and L_i their Lagrange basis. The displayed X-side and parameter-side families are both independent, so this is a minimal rank-(e+1) separated expansion. The external split-fiber classification remains open.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation",
+   "title": "Rate-half distance-three external split-design saturation",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official exceptional-only quotient-distance-three chart, the 3e external degree-(2e+1) locators form an exact biregular design on 6e+3 residual-domain points of degree e, while one unique point outside the canonical support is omitted. If C is the monic polynomial on those 6e+3 points, the product of all monic external locators is exactly C^e, and P_X=A B_T C. This exact incidence/product identity does not classify the individual external blocks.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence",
+   "title": "Rate-half distance-three e=1 Hankel-design route fence",
+   "status": "PROVED",
+   "closure": "exact verification",
+   "statement": "Over F_17 there is an explicit e=1,r=3 rate-half analogue whose full lifted syndrome pencil is column-far and has exactly five finite supported slopes, while its contracted pencil satisfies the distance-three pair normal form, exact external split design, exceptional rank/transversality gate, and adj M=c_H z q q^T. Its quotient support has four triples, so it lies below the official r>=4 uniqueness threshold and is route evidence, not a prize counterexample.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence/statement.md",
+    "background/nodes/rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence/proof.md",
+    "background/nodes/rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence/result.md",
+    "background/nodes/rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction",
+   "title": "Rate-half distance-three MDS source-weight reconstruction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official exceptional-only quotient-distance-three chart, the pair matching, internal slopes xi_i, internal fiber scalars lambda_i, and Theta_2 determine q_bar and every contracted source coefficient explicitly. At a root a in pair i the coefficient is K_a(z-xi_i), while the three canonical coefficients are barycentric. Conversely, once the required 3e external split fibers exist, the reconstructed moment pencil satisfies Mq=0 identically, has the exact exceptional/ordinary ranks, and obeys adj M=c_H z q q^T with the full first-order crossing. The reciprocal square and original column-far lift remain open.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse",
+   "title": "Rate-half distance-three corrected-square converse",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official exceptional-only quotient-distance-three chart, exact row divisibility Q(z;x)|P(z) over every saturated row and exact ordinary-fiber divisibility Q(z;X)|P_X reconstruct both complement equations by coefficientwise interpolation. Primitivity then forces the two-sided weld. Hence the corrected complement square and all proved reciprocal/resultant/Bezout descendants are automatic consequences of the exact pair-Lagrange split design; only realization/exclusion of that design and an exact original column-far lift remain independent.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse",
+   "title": "Rate-half distance-three original-lift column-far converse",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every official distance-three contracted split design has a two-parameter family of original rate-half syndrome lifts annihilated by (X-s)Q at all 4e+1 required slopes, and every lift is column-far. A common full locator would contract to a fixed support of at most r+1 points; 2r+1-column independence would then force all external r-point locators into it, contradicting their exact 6e+3-point union. Hence the official distance-three branch is equivalent without qualification to existence of the pair-Lagrange external split design.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router",
+   "title": "Rate-half distance-three boundary root-unity router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The exact distance-three external locator norm yields slope-independent support gates. For each matched exceptional pair (a,b), the normalized ratio -[P_X'(a)/P_X'(b)]/[B(a)(A/D_i)(a)/(B(b)(A/D_i)(b))]^4 is an e-th root of unity. Analogous normalized ratios at the three canonical points are e-th roots of unity. On the smooth multiplicative domain P_X'(x)=N x^(-1)/((x-s)(x-x_0)), so all gates are evaluated before internal slopes, fiber scalars, or external blocks are allocated.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router",
+   "title": "Rate-half distance-three dual row-product power router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The exact external incidence design has a dual product identity: multiplying Q(z;x) over the 6e+3 active outside rows gives the monic external-slope polynomial to the power r=2e+1, up to the product of row-leading coefficients. Comparing this identity at the exceptional slope and an internal matched-pair slope forces product_C B(x)/D_i(x) to be an r-th power. This is a support-only finite-field power-residue gate, with a resultant and smooth-domain derivative evaluation requiring no slope, scalar, or block variables.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_residual_prime_field_collapse",
+   "title": "Rate-half residual prime-field collapse",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At either unresolved rate-half budget B in {2^39,2^39+1}, every admissible field order q=p^f with 2^41 dividing q-1 has f=1. LTE first forces f in {1,2,3,4}. Exact intersection of the two narrow budget intervals with the complete roots of x^f=1 modulo 2^41 leaves 46 quadratic candidates and no cubic or quartic candidates; a printed divisor ledger proves all 46 quadratic candidates composite. Hence every residual shard is over a prime field of characteristic greater than 2^167.",
+   "refs": [
+    "background/nodes/rate_half_residual_prime_field_collapse/statement.md",
+    "background/nodes/rate_half_residual_prime_field_collapse/proof.md",
+    "background/nodes/rate_half_residual_prime_field_collapse/claim_contract.md",
+    "background/nodes/rate_half_residual_prime_field_collapse/dependency_subdag.md",
+    "background/nodes/rate_half_residual_prime_field_collapse/result.md",
+    "background/nodes/rate_half_residual_prime_field_collapse/quadratic_candidate_factors.tsv",
+    "background/nodes/rate_half_residual_prime_field_collapse/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence",
+   "title": "Rate-half distance-three resultant-power equivalence",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official prime-field pair-Lagrange distance-three chart, the exact external split design exists if and only if every active-row parameter polynomial has degree e and is squarefree, and H(z)=Res_X(C,Q) is its leading coefficient times the (2e+1)-st power of a squarefree split degree-3e polynomial. The latter polynomial is uniquely the squarefree radical of H. All external slopes, blocks, locators, and incidences are reconstructed, so none remains a search variable.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router",
+   "title": "Rate-half distance-three sparse subgroup-norm router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the pair-Lagrange distance-three chart, multiplicativity against X^N-1=(X-s)(X-x_0)ABC gives an exact sparse factorization of the full subgroup norm. After multiplication by z, it is a nonzero explicit scalar times Q(z;s)Q(z;x_0)(z P_I)^r H(z). Under the external design, H=L P_Z^r, so the complete supported-slope locator z P_I P_Z appears to the exact power r. This reconstructs the active-row norm by exact division from a binomial-domain resultant and two boundary-row forms.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap",
+   "title": "Rate-half exceptional-only quotient-distance gap",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official A=1 core-one exceptional-only face, the first-order quotient support distance is either exactly three or at least 2e/3+3=183251937965. For a distance-h source, internal fibers consume h-1 disjoint exceptional cancellations and every other clean locator meets the source support in at most h-3 points. Comparing this upper ledger with the exact total row deficit e excludes every h from 4 through 183251937964.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness",
+   "title": "A=1 exceptional quotient minimal-support uniqueness",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Through quotient distance e+1, the exceptional quotient class has one unique minimal support. Every ordinary clean locator whose complement attains that minimum is exactly an internal fiber using the same support and consuming h-1 disjoint exceptional cancellations.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing",
+   "title": "A=1 exceptional quotient minimal-support packing",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Distinct minimal quotient supports obey a sharp Vandermonde intersection cap. A Johnson second-moment argument gives an explicit finite leader bound through h=302646214511, including at most five leaders at h=e+2 and at most six through h=279180239468.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling",
+   "title": "A=1 exceptional quotient-distance sharp ceiling",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The exceptional high quotient distance is at most 3(e+1)/2-1=412316860415. At equality the ordinary complement and exceptional-intersection sizes lie in exactly two printed near-constant profiles.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile",
+   "title": "A=1 exceptional quotient endpoint resultant profile",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the sharp high-distance endpoint, the exceptional-factor resultant is either an exact power of the ordinary slope locator or differs from that power by one printed linear-factor swap. These are the complete exceptional-root incidence multiplicities.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix",
+   "title": "A=1 exceptional quotient endpoint resultant matrix",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the sharp endpoint, the four resultants formed by the row factors A,H=P_X/A and column factors Q,V are one of two exact 2-by-2 power matrices: flat, or a checkerboard single-factor swap. Every row and column product recovers the Bezout and two-sided saturation identities.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling",
+   "title": "Rate-half exceptional-only quotient-distance ceiling",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official A=1 core-one exceptional-only face, every ordinary clean locator represents the first-order quotient class outside the exceptional roots. Exact saturation gives 2e(e-1) exceptional-root incidences across the 4e ordinary locators, so averaging forces h<=3(e+1)/2=412316860416. Combined with the lower gap, the quotient distance is three or lies in the interval 183251937965<=h<=412316860416.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form",
+   "title": "Rate-half exceptional-only quotient Forney-numerator normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every minimal quotient support T of size h on the official exceptional-only face, all source weights are reconstructed by a unique polynomial F with deg F=h-3, leading coefficient Theta_2, and gcd(F,A B_T)=1: omega_t=F(t)/(A(t)^2 B_T'(t)). The same F interpolates beta_a q_1(a)A'(a)B_T(a) on every exceptional root. Exact saturation makes q_1 nonzero there. This is the exact general-distance GRS/Forney key equation and specializes to the distance-three barycentric formula.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router",
+   "title": "Rate-half distance-three matching-free boundary-power router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official distance-three support packet, put K_A(a)=P_X'(a)/(B(a)^4 A'(a)^4) on the 2e exceptional roots and K_B(t)=P_X'(t)/(A(t)^4 B'(t)) on the triple. A boundary-compatible perfect matching exists exactly when the multiset of K_A(a)^e is centrally symmetric, equivalently its monic value polynomial is even; every admissible matching pairs opposite values. The triple gates are exactly equality of the three K_B(t)^e values.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router",
+   "title": "Rate-half distance-three joint boundary/residue matching router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official distance-three support packet, label each exceptional root by (Y_a,[C(a)]_r), where Y_a is its matching-free boundary e-th-power value and [.]_r is the class modulo r-th powers. With mu=[-product_(t in T)C(t)]_r, a perfect matching satisfies both every boundary gate and every dual row-product gate exactly when the label multiset is invariant under (y,g)|->(-y,mu/g). This reconstructs all joint-admissible matchings and forces the aggregate obstruction Res(A,C)/(-Res(B,C))^e in (F_q^*)^r.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router",
+   "title": "Rate-half distance-three exceptional quadratic-character router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On every official prime-field distance-three support packet, existence of a boundary-compatible perfect matching forces -A(0)A(s)A(x_0) to be a quadratic residue. This follows by multiplying the centrally paired e-th-power boundary values, deleting fourth-power denominators, and applying the smooth subgroup derivative formula. The test depends only on the exceptional support and the stripped and omitted rows.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router/verify.py"
+   ]
+  },
+  {
+   "id": "upstream_m1_koalabear_rank9_moving_root_slack_boundary",
+   "title": "KoalaBear rank-nine moving-root slack boundary",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the KoalaBear rate-half support-wise MCA row, every post-C5, post-source-rational, full-outside rank-two record satisfying the printed moving-set and degree contracts has L_(F_eta)|(Pbar+eta Qbar) and nonnegative slacks h+u+ell=s-t-1 with delta_eta<=u. The zero-slack boundary is C5-owned; hence every survivor has s>=67474, reduced degree e>=33737, and full-gcd degree at most 1014838. At first slack only two nonbase linear cells remain.",
+   "refs": [
+    "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/statement.md",
+    "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/proof.md",
+    "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/claim_contract.md",
+    "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/dependency_subdag.md",
+    "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/audit.md",
+    "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/frontier.md",
+    "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/result.md",
+    "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/verify.py"
+   ]
+  },
+  {
+   "id": "v13_2_discrete_subfield_census_guard",
+   "title": "Paper D v13.2 discrete subfield-census guard",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For C=RS[F,D,K] with D subseteq B, K<=m, 2(m-K)<=n-K, w'=m-K, w'+1<=d1<=floor((n-K+1)/2), m'=K-1+d1, and m'+d1<=n, the Paper D v13.2 identity-prefix census has A_B(d1)=C(n,m')|B|^-(d1-1), exact floor M_B^disc=C(m',m)ceil(A_B), and soft upper model M_B^soft=C(m',m)(1+A_B). The ceiling precedes support multiplication. Exact replay gives the corrected KoalaBear floors 67.0958/56.0111/43.9348/57.6849 bits and Mersenne-31 floors 52.1129/41.0169/39.1799/57.6848 bits at offsets zero through three.",
+   "refs": [
+    "background/nodes/v13_2_discrete_subfield_census_guard/statement.md",
+    "background/nodes/v13_2_discrete_subfield_census_guard/proof.md",
+    "background/nodes/v13_2_discrete_subfield_census_guard/claim_contract.md",
+    "background/nodes/v13_2_discrete_subfield_census_guard/dependency_subdag.md",
+    "background/nodes/v13_2_discrete_subfield_census_guard/audit.md",
+    "background/nodes/v13_2_discrete_subfield_census_guard/result.md",
+    "background/nodes/v13_2_discrete_subfield_census_guard/verify.py"
+   ]
+  },
+  {
+   "id": "v13_2_near_rational_pair_proximity",
+   "title": "Paper D v13.2 near-rational pair proximity",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a linear code C and distinct finite slopes z1,z2, if u+z_i v=c_i+eta_i with c_i in C and wt(eta_i)<=w, then an explicit codeword pair (cu,cv) agrees jointly with (u,v) outside supp(eta1) union supp(eta2), hence on at least n-2w coordinates. Under Paper D v13.2 thm:capfp-dichotomy's hypotheses, including 2w<=n-K, two nonzero-census slopes with d1<=w imply this pair-proximity conclusion. This does not pay support-wise MCA witnesses.",
+   "refs": [
+    "background/nodes/v13_2_near_rational_pair_proximity/statement.md",
+    "background/nodes/v13_2_near_rational_pair_proximity/proof.md",
+    "background/nodes/v13_2_near_rational_pair_proximity/claim_contract.md",
+    "background/nodes/v13_2_near_rational_pair_proximity/dependency_subdag.md",
+    "background/nodes/v13_2_near_rational_pair_proximity/audit.md",
+    "background/nodes/v13_2_near_rational_pair_proximity/result.md",
+    "background/nodes/v13_2_near_rational_pair_proximity/verify.py"
+   ]
+  },
+  {
+   "id": "v13_2_near_rational_supportwise_payment",
+   "title": "Paper D v13.2 near-rational support-wise payment",
+   "status": "REFUTED",
+   "statement": "REFUTED: common codeword-pair proximity produced by two low-d1 slopes does not imply that no slope is support-wise MCA-bad. In the smooth rate-half code RS[F_17,mu_8,4] at m=5, u=(0,0,0,0,0,0,1,1) and v=(0,0,0,0,0,0,1,2) satisfy n-3w=m and have low-d1 nonzero-census slopes 8 and 16, yet both slopes possess agreement supports that do not extend to a codeword pair. The final displayed balanced-count inequality of cor:capfp-line is not itself refuted by this witness; its near-rational payment needs a new support-wise argument.",
+   "refs": [
+    "background/nodes/v13_2_near_rational_supportwise_payment/statement.md",
+    "background/nodes/v13_2_near_rational_supportwise_payment/refutation.md",
+    "background/nodes/v13_2_near_rational_supportwise_payment/claim_contract.md",
+    "background/nodes/v13_2_near_rational_supportwise_payment/dependency_subdag.md",
+    "background/nodes/v13_2_near_rational_supportwise_payment/audit.md",
+    "background/nodes/v13_2_near_rational_supportwise_payment/result.md",
+    "background/nodes/v13_2_near_rational_supportwise_payment/verify.py"
+   ]
+  },
+  {
+   "id": "xr_nondeep_tangent_supportwise_payment",
+   "title": "Universal nondeep tangent support-wise payment",
+   "status": "REFUTED",
+   "statement": "REFUTED: outside 3(n-A)<=n-K, a received pair jointly explained on at least A coordinates need not have at most n-A+1 support-wise MCA-bad slopes. In RS[F_17,mu_8,2] at A=3, the pair u=(0,0,0,0,0,0,1,1), v=(0,0,0,0,0,0,1,2) is jointly zero on six coordinates but has eight exact-A bad slopes, exceeding 6. The witness supports are distinct, low-core, aperiodic, and not an x->x^2 pullback. This is not an official-row refutation.",
+   "refs": [
+    "background/nodes/xr_nondeep_tangent_supportwise_payment/statement.md",
+    "background/nodes/xr_nondeep_tangent_supportwise_payment/refutation.md",
+    "background/nodes/xr_nondeep_tangent_supportwise_payment/claim_contract.md",
+    "background/nodes/xr_nondeep_tangent_supportwise_payment/dependency_subdag.md",
+    "background/nodes/xr_nondeep_tangent_supportwise_payment/audit.md",
+    "background/nodes/xr_nondeep_tangent_supportwise_payment/result.md",
+    "background/nodes/xr_nondeep_tangent_supportwise_payment/verify.py"
+   ]
+  },
+  {
+   "id": "xr_tangent_support_mismatch_bridge",
+   "title": "XR official-row tangent/support-mismatch bridge",
+   "status": "TARGET",
+   "key": true,
+   "statement": "At each clean-rate candidate, the quotient/tangent first-match must be support-wise sound for every received pair. Genuine recovered-line slopes are paid by at most n-A coordinates. Each selected nonzero mismatch has one canonical full-external-zero punctured GRS chart with excess at least h=A-K. Genericity failure is exactly a distinct joint A-support extending the zero core; distinct explanation supports intersect in at most K-1. Following such a nongeneric transition preserves h and decreases ambient length by at least h+1, so depth is below 256/512 at the official rows. The open content is bounded-depth branch-width: aggregate generic chart unions and slope fibers over low-core joint explanations within 16n^3.",
+   "attack_surface": "prove a per-level or amortized branch-width theorem for the bounded-depth full-zero descent: aggregate generic chart slopes without a binomial chart factor and bound slopes per alternative joint explanation over its pairwise-(K-1)-low-core family; depth itself is already paid",
+   "falsifier": "an official candidate pair whose bounded-depth canonical descent has generic-chart plus low-core slope width exceeding 16n^3 after proved quotient and genuine tangent payments",
+   "refs": [
+    "critical/nodes/xr_tangent_support_mismatch_bridge/statement.md",
+    "critical/nodes/xr_tangent_support_mismatch_bridge/attack.md",
+    "critical/nodes/xr_tangent_support_mismatch_bridge/claim_contract.md",
+    "critical/nodes/xr_tangent_support_mismatch_bridge/dependency_subdag.md"
+   ],
+   "notes": " | ANALYTIC NARROWING (2026-07-20): xr_true_tangent_coordinate_injection pays q_z=0 unconditionally by at most |T|<=n-A. xr_tangent_mismatch_external_zero_factor_reduction sends every q_z!=0 witness to a punctured GRS chart with invariant excess h=A-K. The remaining red is canonical cross-W aggregation/recursive nongenericity, not local tangent algebra. | CANONICAL/NONGENERIC REPOSE (2026-07-20): full external zeros give one chart per selected slope/codeword with excess >=A-K. Genericity failure in that chart is iff a second joint A-support extends the zero core; distinct joint explanations have support intersections <=K-1. Remaining currencies: generic cross-chart slopes and slopes per low-core joint explanation. | DESCENT DEPTH CLOSE (2026-07-20): nongeneric transitions preserve h=A-K and lower ambient length by >=h+1. Official transition caps are 169,169,255,254,254,510. The red is branch width/aggregate only."
+  },
+  {
+   "id": "xr_true_tangent_coordinate_injection",
+   "title": "True recovered-line tangent slopes inject into discrepancy coordinates",
+   "status": "PROVED",
+   "statement": "For any linear code, write u=c0+e0 and v=c1+e1 with joint discrepancy support T. Finite support-wise MCA-bad slopes whose witness codeword is exactly c0+z c1 inject into T: every bad witness meets T and supplies a root e0(i)+z e1(i)=0 at a nonzero error coordinate, while one coordinate has at most one finite root. Hence their number is at most |T|, and in the official tangent branch at most n-A. No deep-regime hypothesis is used.",
+   "refs": [
+    "critical/nodes/xr_true_tangent_coordinate_injection/statement.md",
+    "critical/nodes/xr_true_tangent_coordinate_injection/proof.md",
+    "critical/nodes/xr_true_tangent_coordinate_injection/claim_contract.md",
+    "critical/nodes/xr_true_tangent_coordinate_injection/audit.md",
+    "critical/nodes/xr_true_tangent_coordinate_injection/result.md",
+    "critical/nodes/xr_true_tangent_coordinate_injection/verify.py"
+   ]
+  },
+  {
+   "id": "xr_tangent_mismatch_external_zero_factor_reduction",
+   "title": "Nonzero tangent mismatches reduce to fixed-excess punctured GRS charts",
+   "status": "PROVED",
+   "statement": "Let A=K+h and q_z=p_z-(c0+z c1) be a nonzero difference codeword for an exact-A witness S, with T the recovered-pair discrepancy support. If W=S\\T and d=|W|, then P_W divides q_z, d<=K-1, and q_z/P_W has degree below K-d. On T, after scaling e0,e1 by P_W^{-1}, it agrees on A-d coordinates. Thus every mismatch enters a punctured GRS chart of dimension K-d, agreement A-d, invariant excess h, and error radius R-h. This is a per-witness reduction, not an aggregate over W.",
+   "refs": [
+    "background/nodes/xr_tangent_mismatch_external_zero_factor_reduction/statement.md",
+    "background/nodes/xr_tangent_mismatch_external_zero_factor_reduction/proof.md",
+    "background/nodes/xr_tangent_mismatch_external_zero_factor_reduction/claim_contract.md",
+    "background/nodes/xr_tangent_mismatch_external_zero_factor_reduction/audit.md",
+    "background/nodes/xr_tangent_mismatch_external_zero_factor_reduction/result.md",
+    "background/nodes/xr_tangent_mismatch_external_zero_factor_reduction/verify.py"
+   ]
+  },
+  {
+   "id": "xr_tangent_mismatch_full_external_zero_canonicalization",
+   "title": "Selected mismatches have canonical full-external-zero charts",
+   "status": "PROVED",
+   "statement": "For one deterministically selected exact-A witness/codeword per retained slope, let q_z be its nonzero difference codeword and Z_z all zeros of q_z outside the recovered discrepancy support T. The full locator P_Z divides q_z, |Z_z|<=K-1, and after division the scaled line on T has agreement at least A-|Z_z| with a code of dimension K-|Z_z|. Hence excess remains at least A-K. This gives one full-zero chart per selected slope/codeword and removes witness-subset spray, but does not bound the number of distinct charts.",
+   "refs": [
+    "background/nodes/xr_tangent_mismatch_full_external_zero_canonicalization/statement.md",
+    "background/nodes/xr_tangent_mismatch_full_external_zero_canonicalization/proof.md",
+    "background/nodes/xr_tangent_mismatch_full_external_zero_canonicalization/claim_contract.md",
+    "background/nodes/xr_tangent_mismatch_full_external_zero_canonicalization/audit.md",
+    "background/nodes/xr_tangent_mismatch_full_external_zero_canonicalization/result.md",
+    "background/nodes/xr_tangent_mismatch_full_external_zero_canonicalization/verify.py"
+   ]
+  },
+  {
+   "id": "xr_mismatch_chart_nongeneric_joint_support_equivalence",
+   "title": "Mismatch-chart nongenericity is an alternative joint A-support",
+   "status": "PROVED",
+   "statement": "For a full-external-zero chart (T,Z), scaled endpoint genericity fails at radius |T|-(A-|Z|) iff there are degree-below-(K-|Z|) polynomials g0,g1 such that c_i+P_Z g_i jointly explain the received pair on Z union R for some R subset T of size at least A-|Z|. Thus recursive nongenericity is exactly a second joint agreement support of size at least A extending Z. Supports for distinct joint codeword-pair explanations intersect in at most K-1 coordinates.",
+   "refs": [
+    "background/nodes/xr_mismatch_chart_nongeneric_joint_support_equivalence/statement.md",
+    "background/nodes/xr_mismatch_chart_nongeneric_joint_support_equivalence/proof.md",
+    "background/nodes/xr_mismatch_chart_nongeneric_joint_support_equivalence/claim_contract.md",
+    "background/nodes/xr_mismatch_chart_nongeneric_joint_support_equivalence/audit.md",
+    "background/nodes/xr_mismatch_chart_nongeneric_joint_support_equivalence/result.md",
+    "background/nodes/xr_mismatch_chart_nongeneric_joint_support_equivalence/verify.py"
+   ]
+  },
+  {
+   "id": "xr_mismatch_nongeneric_invariant_excess_descent",
+   "title": "Nongeneric mismatch descent preserves excess and has bounded depth",
+   "status": "PROVED",
+   "statement": "In a recursive nongeneric full-zero mismatch chain, a transition with external zero count d sends (N,K,A) to N'<=N-A, K'=K-d, A'=A-d. Thus h=A-K is invariant and every live transition decreases ambient length by at least h+1. A chain from length n has at most floor(n/(h+1))-1 transitions. The six clean candidate caps are 169,169,255,254,254,510, each below its deciding scale 256 or 512. This proves depth, not branch width or slope aggregation.",
+   "refs": [
+    "background/nodes/xr_mismatch_nongeneric_invariant_excess_descent/statement.md",
+    "background/nodes/xr_mismatch_nongeneric_invariant_excess_descent/proof.md",
+    "background/nodes/xr_mismatch_nongeneric_invariant_excess_descent/claim_contract.md",
+    "background/nodes/xr_mismatch_nongeneric_invariant_excess_descent/audit.md",
+    "background/nodes/xr_mismatch_nongeneric_invariant_excess_descent/result.md",
+    "background/nodes/xr_mismatch_nongeneric_invariant_excess_descent/verify.py"
+   ]
+  },
+  {
+   "id": "xr_nongeneric_explanation_plotkin_width",
+   "title": "XR nongeneric-explanation Plotkin width",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At one mismatch instance with A=K+h and H=h+1, canonically truncated A-supports of distinct joint codeword-pair explanations form an injective constant-weight code with pairwise intersection at most K-1=A-H and distance at least 2H. Hence there are at most floor(4H/(4H-N)) explanations when N<4H, at most 2N at equality, and polynomially many whenever N-4H<=C log_2 n. Once descent enters N<=4H, its live subtree has at most 1+104H instances and 420H^2 tangent charges. More generally, if H>=2C log_2 n, the whole fixed-logarithmic subtree has at most 1+200n^(C+1) instances and 201n^(C+2) tangent charges. Generic chart slopes and pre-terminal slope fibers remain open.",
+   "refs": [
+    "background/nodes/xr_nongeneric_explanation_plotkin_width/statement.md",
+    "background/nodes/xr_nongeneric_explanation_plotkin_width/proof.md",
+    "background/nodes/xr_nongeneric_explanation_plotkin_width/claim_contract.md",
+    "background/nodes/xr_nongeneric_explanation_plotkin_width/dependency_subdag.md",
+    "background/nodes/xr_nongeneric_explanation_plotkin_width/audit.md",
+    "background/nodes/xr_nongeneric_explanation_plotkin_width/verify.py",
+    "background/nodes/xr_nongeneric_explanation_plotkin_width/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_primitive_shift_pair_adapter",
+   "title": "DSP8 primitive cubic shift-pair adapter",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every ordered DSP8 disjoint edge gives a decorated pair of monic H-split cubics A,B with A-B=t(s-r)X and A(0)=B(0)=-rs. This is a reduced degree-three/depth-one shift pair. Since n is dyadic, gcd(n,3)=1 makes every such pair coefficient-primitive. The converse reconstruction is exact, and the orientation ledger is J_25^c=4K_25^c=8D_6,25^c. The former sufficient target becomes 10K_25^0+17K_25^A<=223n^2; the later antipodal quotient-mass payment weakens the live target without changing this adapter.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/statement.md",
+    "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/proof.md",
+    "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/audit.md",
+    "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/result.md",
+    "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/verify.py",
+    "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_unit_product_trace_normal_form",
+   "title": "DSP8 unit-product trace normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every decorated DSP8 primitive cubic shift pair has a unique product-one normalization. If q^3=RS and the six roots are divided by q, then q=rs, ruv=sxy=1, the two triples have common trace sigma, and the retained target is t=1+rs(r+s-sigma). Conversely these normalized data reconstruct the decorated pair with no free H-scale. Thus the exact residual is a common-trace pair of subgroup-split quadratics coupled to one quotient line; generic degree-three SP all-pairs counting is too coarse and supplies no DSP8 bound.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/statement.md",
+    "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/proof.md",
+    "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/audit.md",
+    "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/result.md",
+    "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/verify.py",
+    "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_antipodal_cayley_product_router",
+   "title": "DSP8 antipodal Cayley-product router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For an antipodal target t=1-a^2, let C(h)=(1+h)/(1-h), B=C(H without {1,-1}), and M_a=#{(alpha,beta) in B^2:alpha beta=C(a)}. Then P(1-a^2)=2+M_a exactly, so the DSP8 cutoff P>=25 is M_a>=23. If E_a counts ordered signed-disjoint edges among the corresponding small-generic factor pairs and L_a is the quotient-line multiplicity, then K_25^A=sum E_a L_a over canonical a with M_a>=23. This is an exact router and supplies no weighted-energy bound.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/statement.md",
+    "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/proof.md",
+    "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/audit.md",
+    "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/result.md",
+    "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/verify.py",
+    "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_unit_trace_elliptic_curve_router",
+   "title": "DSP8 unit-trace elliptic-curve router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The unit-product trace fiber is the plane cubic X^2Y+XY^2-sigma XYZ+Z^3=0. In characteristic different from 2,3 it is a smooth geometrically irreducible genus-one curve when sigma^3!=27 and a one-node genus-zero curve when sigma^3=27. Raw ordered point-pair records have exact multiplicity G_25^c=4K_25^c=J_25^c, so DSP8 is a quotient-weighted subgroup point-pair estimate on this mostly elliptic family. The upstream same-(e1,e2) rational-conic chart does not parameterize this same-(e1,e3) residue.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/statement.md",
+    "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/proof.md",
+    "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/audit.md",
+    "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/result.md",
+    "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/verify.py",
+    "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_affine_coset_pair_optimized_stepanov",
+   "title": "Optimized one-fiber affine coset-pair Stepanov bound",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At every official dyadic prime-field row, any two nonconstant nonproportional affine forms simultaneously take values in H at fewer than 4n^(2/3) inputs. This is the exact T=1 optimization of the proved in-house Stepanov construction. It improves the older conservative 66n^(2/3) one-fiber corollary but does not change the multi-fiber rich-coset or energy constants.",
+   "refs": [
+    "background/nodes/f3_affine_coset_pair_optimized_stepanov/statement.md",
+    "background/nodes/f3_affine_coset_pair_optimized_stepanov/proof.md",
+    "background/nodes/f3_affine_coset_pair_optimized_stepanov/claim_contract.md",
+    "background/nodes/f3_affine_coset_pair_optimized_stepanov/dependency_subdag.md",
+    "background/nodes/f3_affine_coset_pair_optimized_stepanov/audit.md",
+    "background/nodes/f3_affine_coset_pair_optimized_stepanov/result.md",
+    "background/nodes/f3_affine_coset_pair_optimized_stepanov/verify.py",
+    "background/nodes/f3_affine_coset_pair_optimized_stepanov/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_nodal_trace_parameter_router",
+   "title": "DSP8 nodal-trace parameter router and marginal envelope",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every singular trace sigma=3c has an exact rational parameter theta. Its H-points lie in at most three affine coset-pair branches and satisfy N_sigma<12n^(2/3)+1; the pair target is an explicit four-factor rational function. The total singular raw quotient-weighted record count is below 12n^(2/3)(12n^(2/3)+1)^2. This has the correct O(n^2) exponent, but after the class weight its leading coefficient is 29376 versus the full DSP8 allowance 892, so marginal point bounds do not close or delete the nodal locus.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/statement.md",
+    "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/proof.md",
+    "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/audit.md",
+    "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/result.md",
+    "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/verify.py",
+    "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_nodal_target_divisor_pruning",
+   "title": "DSP8 nodal target-divisor pruning",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For nonnode nodal parameters a,b, positive root overlap is exactly the six-value Mobius orbit S(a). The target satisfies t-1=-(q(a)+q(b)+3q(a)q(b))/(q(a)^2q(b)^2), and its zero divisor is contained in that positive-overlap orbit. Thus a complete packet can canonicalize the orbit and remove every positive collision, all nine negative collisions, and the identity target before retaining richness and quotient weights. This is exact pruning and supplies no surviving-pair bound.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/statement.md",
+    "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/proof.md",
+    "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/audit.md",
+    "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/result.md",
+    "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/verify.py",
+    "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_affine_coset_pair_cubic_preimage_stepanov",
+   "title": "Cubic-preimage affine coset-pair Stepanov bound",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At every official H3 ambient row, for a subgroup K of order m=n or 3n and any two nonconstant nonproportional affine forms, the simultaneous K-membership set has size below (51/16)m^(2/3). The exact Stepanov parameters work under p>=n^2 even when m=3n. This is a one-fiber theorem and supplies no energy estimate.",
+   "refs": [
+    "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/statement.md",
+    "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/proof.md",
+    "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/claim_contract.md",
+    "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/dependency_subdag.md",
+    "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/audit.md",
+    "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/result.md",
+    "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/verify.py",
+    "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_nodal_cube_preimage_envelope",
+   "title": "DSP8 nodal cube-preimage envelope",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "All singular-trace subgroup points combine into one affine intersection of the cube-preimage subgroup K={x:x^3 in H}, of order gcd(3,p-1)n. The resulting class-weighted raw nodal DSP8 contribution is below 552n^2 when p=2 mod 3 and below 2387n^2 when p=1 mod 3. This improves the old uniform constant 29376 but does not pay the smooth traces or close DSP8.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/statement.md",
+    "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/proof.md",
+    "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/audit.md",
+    "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/result.md",
+    "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/verify.py",
+    "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_quotient_anharmonic_antipodal_twin",
+   "title": "H3 quotient anharmonic symmetry and antipodal twin",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The quotient weight R(t) is constant on the six-value anharmonic orbit of every nonzero nonidentity target. On an antipodal target t=1-a^2, tau(t)=t/(t-1)=1-a^(-2) has exactly the same product richness P and quotient weight R. Antipodal P and M_a=P-2 are even, so P>=25 is exactly P>=26 and M_a>=24. This canonicalizes antipodal target evaluation but does not preserve or identify signed-disjoint edge counts.",
+   "refs": [
+    "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/statement.md",
+    "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/proof.md",
+    "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/claim_contract.md",
+    "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/dependency_subdag.md",
+    "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/audit.md",
+    "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/result.md",
+    "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/verify.py",
+    "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_antipodal_quotient_mass_payment",
+   "title": "DSP8 antipodal quotient-mass payment",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the E=6, P>=25 interface, the selected antipodal quotient mass S_A is below (51/32)(n-2)n^(2/3), and the class-weighted overlap payment is at most 6Q_n+(38/5)S_A. Consequently C36' follows from 10K_25^0+17K_25^A+152S_A<=750n^2-375Q_n; the uniform estimate 80(10K_25^0+17K_25^A)<=29031n^2 is sufficient. This replaces the former sufficient primitive-SP constant 223 by 29031/80 without estimating the open disjoint correlation.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/statement.md",
+    "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/proof.md",
+    "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/audit.md",
+    "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/result.md",
+    "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/verify.py",
+    "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_global_overlap_cover_payment",
+   "title": "DSP8 global overlap-cover payment",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The two exact one-parameter covers contain at most 2n overlapping generic--generic distance-six edges globally. Combining this with the affine quotient-fiber cap and the antipodal quotient-mass theorem gives O_6,25^0+(17/10)O_6,25^A<(867/80)n^(5/3)+(17/5)S_A. Consequently C36' follows from 10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)<=750n^2-255Q_n; uniformly, 160(10K_25^0+17K_25^A)<=76599n^2 suffices. This raises the sufficient primitive-SP constant to 76599/160 without estimating the open disjoint correlation.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/statement.md",
+    "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/proof.md",
+    "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/audit.md",
+    "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/result.md",
+    "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/verify.py",
+    "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_rich_factorial_moment_compiler",
+   "title": "DSP8 rich factorial-moment compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For F_25^c=sum over class-c P>=25 targets of P(t)(P(t)-2)R(t), the decorated disjoint correlation satisfies 10K_25^0+17K_25^A<=(10F_25^0+17F_25^A)/4<=(17/4)M_21, where M_21=sum over t!=1 of P(t)(P(t)-1)R(t). Consequently 40(10F_25^0+17F_25^A)<=76599n^2, or more strongly 680M_21<=76599n^2, implies the uniform DSP8 target. The older FM69 target is sufficient but substantially stronger than necessary.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/statement.md",
+    "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/proof.md",
+    "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/audit.md",
+    "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/result.md",
+    "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/verify.py",
+    "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_joint_star_depth_pareto_compiler",
+   "title": "DSP8 joint-star / quotient-depth Pareto compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For E=6,8,10,12,14,16 and L=17-E, the retained disjoint-six moment with P>=19+E and rho_L=(R-L)_+ has an exact class-sensitive sufficient bound. The six joint candidate packets range from (P,R)>=(25,12), with a degree-two free product star and eleven quotient spokes, to the coordinate-minimal (35,2) corner, with degree-eight/six product stars and one quotient spoke. Each full coupling batch is odd-locally equivalent to one nonzero coupling anchor plus the complete quotient-collision star. These are alternative compilers, not proved moment or survivor bounds.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_joint_star_depth_pareto_compiler/statement.md",
+    "background/nodes/f3_h3_dsp8_joint_star_depth_pareto_compiler/proof.md",
+    "background/nodes/f3_h3_dsp8_joint_star_depth_pareto_compiler/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_joint_star_depth_pareto_compiler/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_joint_star_depth_pareto_compiler/audit.md",
+    "background/nodes/f3_h3_dsp8_joint_star_depth_pareto_compiler/result.md",
+    "background/nodes/f3_h3_dsp8_joint_star_depth_pareto_compiler/verify.py",
+    "background/nodes/f3_h3_dsp8_joint_star_depth_pareto_compiler/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -17415,6 +19017,1786 @@
   {
    "from": "dli_wcl_slot_4_11_emptiness",
    "to": "dli_wcl_zone_coverage",
+   "kind": "req"
+  },
+  {
+   "from": "mca_grand",
+   "to": "submission_quality_paper_dossier",
+   "kind": "req"
+  },
+  {
+   "from": "list_grand",
+   "to": "submission_quality_paper_dossier",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_newton_short_window_exclusion",
+   "to": "dli_wcl_ell4_weight9_quartic_divisor_descent",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell4_weight9_quartic_divisor_descent",
+   "to": "dli_wcl_slot_4_9_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_newton_short_window_exclusion",
+   "to": "dli_wcl_odd_next_boundary_square_divisor_descent",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_odd_next_boundary_square_divisor_descent",
+   "to": "dli_wcl_slot_1_5_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_odd_next_boundary_square_divisor_descent",
+   "to": "dli_wcl_slot_2_7_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_newton_short_window_exclusion",
+   "to": "dli_wcl_ell1_weight6_even_norm_divisor_descent",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell1_weight6_even_norm_divisor_descent",
+   "to": "dli_wcl_slot_1_6_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_ell4_weight9_quartic_divisor_descent",
+   "to": "dli_wcl_fixed_divisor_straight_line_lift",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_odd_next_boundary_square_divisor_descent",
+   "to": "dli_wcl_fixed_divisor_straight_line_lift",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell1_weight6_even_norm_divisor_descent",
+   "to": "dli_wcl_fixed_divisor_straight_line_lift",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_fixed_divisor_straight_line_lift",
+   "to": "dli_wcl_slot_1_5_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_fixed_divisor_straight_line_lift",
+   "to": "dli_wcl_slot_1_6_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_fixed_divisor_straight_line_lift",
+   "to": "dli_wcl_slot_2_7_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_fixed_divisor_straight_line_lift",
+   "to": "dli_wcl_slot_4_9_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router",
+   "to": "rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate",
+   "to": "rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction",
+   "to": "rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router",
+   "to": "rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity",
+   "to": "rate_half_list_budget_three_antipodal_pure_euler_ramification_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_reverse_residual_stratification",
+   "to": "rate_half_list_budget_three_antipodal_pure_euler_ramification_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_euler_ramification_router",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_disjoint_distance_six_split_pencil_router",
+   "to": "f3_h3_dsp8_primitive_shift_pair_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
+   "to": "f3_h3_dsp8_unit_product_trace_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_unit_product_trace_normal_form",
+   "to": "f3_h3_dsp8_unit_trace_elliptic_curve_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_unit_trace_elliptic_curve_router",
+   "to": "f3_h3_dsp8_nodal_trace_parameter_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h2_stepanov_inhouse",
+   "to": "f3_affine_coset_pair_optimized_stepanov",
+   "kind": "req"
+  },
+  {
+   "from": "f3_affine_coset_pair_optimized_stepanov",
+   "to": "f3_h3_dsp8_nodal_trace_parameter_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_nodal_trace_parameter_router",
+   "to": "f3_h3_dsp8_nodal_target_divisor_pruning",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_nodal_target_divisor_pruning",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h2_stepanov_inhouse",
+   "to": "f3_affine_coset_pair_cubic_preimage_stepanov",
+   "kind": "req"
+  },
+  {
+   "from": "f3_affine_coset_pair_cubic_preimage_stepanov",
+   "to": "f3_h3_dsp8_nodal_cube_preimage_envelope",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_nodal_trace_parameter_router",
+   "to": "f3_h3_dsp8_nodal_cube_preimage_envelope",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_nodal_cube_preimage_envelope",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
+   "to": "f3_h3_dsp8_antipodal_cayley_product_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_antipodal_tail_distance_six_split",
+   "to": "f3_h3_dsp8_antipodal_cayley_product_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_antipodal_cayley_product_router",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_exceptional_root_charge",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_euler_ramification_router",
+   "to": "rate_half_list_budget_three_antipodal_pure_ramification_passport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity",
+   "to": "rate_half_list_budget_three_antipodal_pure_ramification_passport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_ramification_passport",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_ramification_passport",
+   "to": "rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router",
+   "to": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router",
+   "to": "rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "paving_rf3_double_prime_koalabear_safe_rows",
+   "to": "mca_safe",
+   "kind": "ev"
+  },
+  {
+   "from": "paving_rf3_double_prime_koalabear_safe_rows",
+   "to": "compiler",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_b11_first_match_router",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "req"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mixed_residual_intersection_pin",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mixed_residual_intersection_pin",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "l1_two_petal_small_support_anchor_closure",
+   "kind": "req"
+  },
+  {
+   "from": "pma_b11_first_match_router",
+   "to": "l1_two_petal_small_support_anchor_closure",
+   "kind": "req"
+  },
+  {
+   "from": "l1_two_petal_small_support_anchor_closure",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_two_petal_small_support_anchor_closure",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_two_petal_small_support_anchor_closure",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "l1_polarized_petal_entropy_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "l1_polarized_petal_entropy_ledger",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "req"
+  },
+  {
+   "from": "l1_polarized_petal_entropy_ledger",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_polarized_petal_entropy_ledger",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_polarized_petal_entropy_ledger",
+   "to": "l1_polarized_b11_box_closure",
+   "kind": "req"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "l1_polarized_b11_box_closure",
+   "kind": "req"
+  },
+  {
+   "from": "pma_b11_first_match_router",
+   "to": "l1_polarized_b11_box_closure",
+   "kind": "req"
+  },
+  {
+   "from": "l1_polarized_b11_box_closure",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "req"
+  },
+  {
+   "from": "l1_polarized_b11_box_closure",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_polarized_b11_box_closure",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_polarized_petal_entropy_ledger",
+   "to": "l1_bounded_polarity_marked_full_pencil_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "l1_bounded_polarity_marked_full_pencil_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "l1_bounded_polarity_marked_full_pencil_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_bounded_polarity_marked_full_pencil_reduction",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_bounded_polarity_marked_full_pencil_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_bounded_polarity_marked_full_pencil_reduction",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_polarized_petal_entropy_ledger",
+   "to": "l1_bounded_mark_affine_split_pencil_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_bounded_polarity_marked_full_pencil_reduction",
+   "to": "l1_bounded_mark_affine_split_pencil_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "l1_bounded_mark_affine_split_pencil_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_bounded_mark_affine_split_pencil_compiler",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_bounded_mark_affine_split_pencil_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_bounded_mark_affine_split_pencil_compiler",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_bounded_mark_affine_split_pencil_compiler",
+   "to": "l1_affine_split_pencil_cross_determinant_uniqueness",
+   "kind": "req"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "l1_affine_split_pencil_cross_determinant_uniqueness",
+   "kind": "req"
+  },
+  {
+   "from": "l1_affine_split_pencil_cross_determinant_uniqueness",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_affine_split_pencil_cross_determinant_uniqueness",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_affine_split_pencil_cross_determinant_uniqueness",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_bounded_mark_affine_split_pencil_compiler",
+   "to": "l1_fixed_support_cross_determinant_fiber_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_affine_split_pencil_cross_determinant_uniqueness",
+   "to": "l1_fixed_support_cross_determinant_fiber_bound",
+   "kind": "req"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "l1_fixed_support_cross_determinant_fiber_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fixed_support_cross_determinant_fiber_bound",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fixed_support_cross_determinant_fiber_bound",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fixed_support_cross_determinant_fiber_bound",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_polarized_petal_entropy_ledger",
+   "to": "l1_fixed_support_defect_johnson_bound",
+   "kind": "req"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "l1_fixed_support_defect_johnson_bound",
+   "kind": "req"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "l1_fixed_support_defect_johnson_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fixed_support_defect_johnson_bound",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fixed_support_defect_johnson_bound",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fixed_support_defect_johnson_bound",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_polarized_petal_entropy_ledger",
+   "to": "l1_bounded_retained_core_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "l1_bounded_retained_core_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "l1_bounded_retained_core_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_bounded_retained_core_payment",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_bounded_retained_core_payment",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_bounded_retained_core_payment",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fixed_support_cross_determinant_fiber_bound",
+   "to": "l1_cross_quotient_split_descent_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fixed_support_defect_johnson_bound",
+   "to": "l1_cross_quotient_split_descent_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "l1_cross_quotient_split_descent_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_cross_quotient_split_descent_obstruction",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_cross_quotient_split_descent_obstruction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_cross_quotient_split_descent_obstruction",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_polarized_petal_entropy_ledger",
+   "to": "l1_fixed_support_codeword_quotient_bound",
+   "kind": "req"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "l1_fixed_support_codeword_quotient_bound",
+   "kind": "req"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "l1_fixed_support_codeword_quotient_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fixed_support_codeword_quotient_bound",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fixed_support_codeword_quotient_bound",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fixed_support_codeword_quotient_bound",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fixed_support_codeword_quotient_bound",
+   "to": "l1_background_overlap_singleton_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_bounded_retained_core_payment",
+   "to": "l1_background_overlap_singleton_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "l1_background_overlap_singleton_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_background_overlap_singleton_payment",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_background_overlap_singleton_payment",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_background_overlap_singleton_payment",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_background_overlap_singleton_payment",
+   "to": "l1_background_quotient_johnson_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fixed_support_codeword_quotient_bound",
+   "to": "l1_background_quotient_johnson_bound",
+   "kind": "req"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "l1_background_quotient_johnson_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_background_quotient_johnson_bound",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_background_quotient_johnson_bound",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_background_quotient_johnson_bound",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fixed_support_defect_johnson_bound",
+   "to": "l1_joint_core_background_johnson_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_background_quotient_johnson_bound",
+   "to": "l1_joint_core_background_johnson_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_cross_quotient_split_descent_obstruction",
+   "to": "l1_joint_core_background_johnson_bound",
+   "kind": "req"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "l1_joint_core_background_johnson_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_joint_core_background_johnson_bound",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_joint_core_background_johnson_bound",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_joint_core_background_johnson_bound",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_joint_core_background_johnson_bound",
+   "to": "l1_joint_johnson_source_scale_gate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fixed_support_defect_johnson_bound",
+   "to": "l1_joint_johnson_source_scale_gate",
+   "kind": "req"
+  },
+  {
+   "from": "pma_official_rate_small_source_degree_sieve",
+   "to": "l1_joint_johnson_source_scale_gate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_joint_johnson_source_scale_gate",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_joint_johnson_source_scale_gate",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_joint_johnson_source_scale_gate",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_joint_core_background_johnson_bound",
+   "to": "l1_joint_plotkin_boundary_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_joint_johnson_source_scale_gate",
+   "to": "l1_joint_plotkin_boundary_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "l1_joint_plotkin_boundary_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_joint_plotkin_boundary_payment",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_joint_plotkin_boundary_payment",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_joint_plotkin_boundary_payment",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_joint_plotkin_boundary_payment",
+   "to": "l1_bounded_plotkin_excess_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_cross_quotient_split_descent_obstruction",
+   "to": "l1_bounded_plotkin_excess_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "l1_bounded_plotkin_excess_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_bounded_plotkin_excess_payment",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_bounded_plotkin_excess_payment",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_bounded_plotkin_excess_payment",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_joint_core_background_johnson_bound",
+   "to": "l1_background_surplus_plotkin_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_bounded_plotkin_excess_payment",
+   "to": "l1_background_surplus_plotkin_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "l1_background_surplus_plotkin_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_background_surplus_plotkin_payment",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_background_surplus_plotkin_payment",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_background_surplus_plotkin_payment",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_bounded_polarity_marked_full_pencil_reduction",
+   "to": "l1_marked_constant_shift_subtwoell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "pma_coset_subtwoell_saturation_exclusion",
+   "to": "l1_marked_constant_shift_subtwoell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_marked_constant_shift_subtwoell_exclusion",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_constant_shift_subtwoell_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_constant_shift_subtwoell_exclusion",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_bounded_polarity_marked_full_pencil_reduction",
+   "to": "l1_marked_constant_shift_multistrip_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "pma_coset_subtwoell_saturation_exclusion",
+   "to": "l1_marked_constant_shift_multistrip_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_marked_constant_shift_multistrip_exclusion",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_constant_shift_multistrip_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_constant_shift_multistrip_exclusion",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_constant_shift_multistrip_exclusion",
+   "to": "l1_marked_constant_shift_extremal_kernel_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "l1_marked_constant_shift_extremal_kernel_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "l1_marked_constant_shift_extremal_kernel_normal_form",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_constant_shift_extremal_kernel_normal_form",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_constant_shift_extremal_kernel_normal_form",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_constant_shift_multistrip_exclusion",
+   "to": "l1_marked_constant_shift_forney_window_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "l1_marked_constant_shift_forney_window_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "l1_marked_constant_shift_forney_window_normal_form",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_constant_shift_forney_window_normal_form",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_constant_shift_forney_window_normal_form",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_constant_shift_forney_window_normal_form",
+   "to": "l1_marked_common_pencil_crt_fiber_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_bounded_polarity_marked_full_pencil_reduction",
+   "to": "l1_marked_common_pencil_crt_fiber_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_marked_common_pencil_crt_fiber_bound",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_common_pencil_crt_fiber_bound",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_common_pencil_crt_fiber_bound",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_common_pencil_crt_fiber_bound",
+   "to": "l1_marked_common_pencil_quotient_boundary_router",
+   "kind": "req"
+  },
+  {
+   "from": "pma_quotient_closure_scope",
+   "to": "l1_marked_common_pencil_quotient_boundary_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_marked_common_pencil_quotient_boundary_router",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_common_pencil_quotient_boundary_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_common_pencil_quotient_boundary_router",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_common_pencil_quotient_boundary_router",
+   "to": "l1_quotient_chart_bounded_core_boundary_closure",
+   "kind": "req"
+  },
+  {
+   "from": "l1_polarized_petal_entropy_ledger",
+   "to": "l1_quotient_chart_bounded_core_boundary_closure",
+   "kind": "req"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "l1_quotient_chart_bounded_core_boundary_closure",
+   "kind": "req"
+  },
+  {
+   "from": "l1_bounded_polarity_marked_full_pencil_reduction",
+   "to": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_polarized_petal_entropy_ledger",
+   "to": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+   "kind": "req"
+  },
+  {
+   "from": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+   "to": "l1_quotient_chart_bounded_core_boundary_closure",
+   "kind": "req"
+  },
+  {
+   "from": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_polarized_petal_entropy_ledger",
+   "to": "l1_quotient_chart_bipolar_entropy_closure",
+   "kind": "req"
+  },
+  {
+   "from": "l1_marked_common_pencil_crt_fiber_bound",
+   "to": "l1_quotient_chart_bipolar_entropy_closure",
+   "kind": "req"
+  },
+  {
+   "from": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+   "to": "l1_quotient_chart_bipolar_entropy_closure",
+   "kind": "req"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "l1_quotient_chart_bipolar_entropy_closure",
+   "kind": "req"
+  },
+  {
+   "from": "l1_quotient_chart_bipolar_entropy_closure",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_quotient_chart_bipolar_entropy_closure",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_quotient_chart_bipolar_entropy_closure",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_marked_common_pencil_quotient_boundary_router",
+   "to": "l1_core_bipolar_signed_quotient_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "l1_quotient_chart_bipolar_entropy_closure",
+   "to": "l1_core_bipolar_signed_quotient_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "l1_core_bipolar_signed_quotient_normal_form",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_core_bipolar_signed_quotient_normal_form",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_core_bipolar_signed_quotient_normal_form",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_source_paving_bridge",
+   "to": "l1_intrinsic_quotient_source_chart_census",
+   "kind": "req"
+  },
+  {
+   "from": "l1_quotient_chart_bipolar_entropy_closure",
+   "to": "l1_intrinsic_quotient_source_chart_census",
+   "kind": "req"
+  },
+  {
+   "from": "l1_intrinsic_quotient_source_chart_census",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_intrinsic_quotient_source_chart_census",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_intrinsic_quotient_source_chart_census",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_intrinsic_quotient_source_chart_census",
+   "to": "l1_intrinsic_partial_core_triple_polarity_closure",
+   "kind": "req"
+  },
+  {
+   "from": "l1_polarized_petal_entropy_ledger",
+   "to": "l1_intrinsic_partial_core_triple_polarity_closure",
+   "kind": "req"
+  },
+  {
+   "from": "l1_marked_common_pencil_crt_fiber_bound",
+   "to": "l1_intrinsic_partial_core_triple_polarity_closure",
+   "kind": "req"
+  },
+  {
+   "from": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+   "to": "l1_intrinsic_partial_core_triple_polarity_closure",
+   "kind": "req"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "l1_intrinsic_partial_core_triple_polarity_closure",
+   "kind": "req"
+  },
+  {
+   "from": "l1_intrinsic_partial_core_triple_polarity_closure",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_intrinsic_partial_core_triple_polarity_closure",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_intrinsic_partial_core_triple_polarity_closure",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_quotient_chart_bounded_core_boundary_closure",
+   "to": "l1_mixed_residual_intersection_pin",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_quotient_chart_bounded_core_boundary_closure",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_quotient_chart_bounded_core_boundary_closure",
+   "to": "petal_mixed_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_five_extension_list_reduction",
+   "to": "xr_lowcore_u0_loop_defect_ratio_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_lowcore_u0_loop_defect_ratio_router",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_split_pencil_equivalence",
+   "to": "rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_minimal_index_budget",
+   "to": "rate_half_residual_prime_field_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_residual_prime_field_collapse",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_residual_prime_field_collapse",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_residual_prime_field_collapse",
+   "to": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "upstream_m1_koalabear_rank9_moving_root_slack_boundary",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_2_discrete_subfield_census_guard",
+   "to": "shared_census_kernel",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_2_discrete_subfield_census_guard",
+   "to": "f1_case_tower",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_2_near_rational_pair_proximity",
+   "to": "v13_bc_split_pencil_normal_form",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_2_near_rational_pair_proximity",
+   "to": "v13_2_near_rational_supportwise_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_2_near_rational_supportwise_payment",
+   "to": "v13_bc_split_pencil_normal_form",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_strip_classification_rungs",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_tangent_support_mismatch_bridge",
+   "to": "xr_clean_residual_any_gate",
+   "kind": "req"
+  },
+  {
+   "from": "xr_nondeep_tangent_supportwise_payment",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_2_near_rational_supportwise_payment",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_generic_mds_kernel_ray_bound",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_true_tangent_coordinate_injection",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_tangent_mismatch_external_zero_factor_reduction",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_true_tangent_coordinate_injection",
+   "to": "xr_clean_residual_any_gate",
+   "kind": "req"
+  },
+  {
+   "from": "xr_tangent_mismatch_full_external_zero_canonicalization",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_mismatch_chart_nongeneric_joint_support_equivalence",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_mismatch_nongeneric_invariant_excess_descent",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_mismatch_chart_nongeneric_joint_support_equivalence",
+   "to": "xr_nongeneric_explanation_plotkin_width",
+   "kind": "req"
+  },
+  {
+   "from": "xr_mismatch_nongeneric_invariant_excess_descent",
+   "to": "xr_nongeneric_explanation_plotkin_width",
+   "kind": "req"
+  },
+  {
+   "from": "xr_true_tangent_coordinate_injection",
+   "to": "xr_nongeneric_explanation_plotkin_width",
+   "kind": "req"
+  },
+  {
+   "from": "xr_nongeneric_explanation_plotkin_width",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_nongeneric_explanation_plotkin_width",
+   "to": "xr_lowcore_spread_heart",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_nongeneric_explanation_plotkin_width",
+   "to": "xr_clean_residual_any_gate",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_quotient_block_identity",
+   "to": "f3_h3_quotient_anharmonic_antipodal_twin",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_antipodal_cayley_product_router",
+   "to": "f3_h3_quotient_anharmonic_antipodal_twin",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_quotient_anharmonic_antipodal_twin",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_distance_six_support_overlap_payment",
+   "to": "f3_h3_dsp8_antipodal_quotient_mass_payment",
+   "kind": "req"
+  },
+  {
+   "from": "f3_affine_coset_pair_cubic_preimage_stepanov",
+   "to": "f3_h3_dsp8_antipodal_quotient_mass_payment",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
+   "to": "f3_h3_dsp8_antipodal_quotient_mass_payment",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_antipodal_quotient_mass_payment",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_distance_six_support_overlap_payment",
+   "to": "f3_h3_dsp8_global_overlap_cover_payment",
+   "kind": "req"
+  },
+  {
+   "from": "f3_affine_coset_pair_cubic_preimage_stepanov",
+   "to": "f3_h3_dsp8_global_overlap_cover_payment",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_antipodal_quotient_mass_payment",
+   "to": "f3_h3_dsp8_global_overlap_cover_payment",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
+   "to": "f3_h3_dsp8_global_overlap_cover_payment",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_global_overlap_cover_payment",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_disjoint_distance_six_split_pencil_router",
+   "to": "f3_h3_dsp8_rich_factorial_moment_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
+   "to": "f3_h3_dsp8_rich_factorial_moment_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_global_overlap_cover_payment",
+   "to": "f3_h3_dsp8_rich_factorial_moment_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_rich_factorial_moment_compiler",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_excess_multistar_degree_ladder",
+   "to": "f3_h3_dsp8_disjoint_six_multiplicity_gate",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_distance_four_fiber_degree_cap",
+   "to": "f3_h3_dsp8_disjoint_six_multiplicity_gate",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_distance_six_support_overlap_payment",
+   "to": "f3_h3_dsp8_disjoint_six_multiplicity_gate",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_disjoint_six_multiplicity_gate",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_dsp8_disjoint_six_multiplicity_gate",
+   "to": "f3_h3_official_order_template_survivor",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_cutoff18_double_accident_reduction",
+   "to": "f3_h3_dsp8_accident_depth_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_antipodal_tail_distance_six_split",
+   "to": "f3_h3_dsp8_accident_depth_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_global_overlap_cover_payment",
+   "to": "f3_h3_dsp8_accident_depth_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
+   "to": "f3_h3_dsp8_accident_depth_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_disjoint_six_multiplicity_gate",
+   "to": "f3_h3_dsp8_accident_depth_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_double_accident_nonzero_coupling_ideal_router",
+   "to": "f3_h3_dsp8_accident_depth_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_double_accident_coupling_batch_odd_saturation",
+   "to": "f3_h3_dsp8_accident_depth_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_accident_depth_compiler",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_dsp8_accident_depth_compiler",
+   "to": "f3_h3_official_order_template_survivor",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_dsp8_accident_depth_compiler",
+   "to": "f3_h3_dsp8_joint_star_depth_pareto_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_disjoint_six_multiplicity_gate",
+   "to": "f3_h3_dsp8_joint_star_depth_pareto_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_excess_multistar_degree_ladder",
+   "to": "f3_h3_dsp8_joint_star_depth_pareto_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_double_accident_coupling_batch_odd_saturation",
+   "to": "f3_h3_dsp8_joint_star_depth_pareto_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_joint_star_depth_pareto_compiler",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_dsp8_joint_star_depth_pareto_compiler",
+   "to": "f3_h3_official_order_template_survivor",
+   "kind": "ev"
+  },
+  {
+   "from": "submission_quality_paper_dossier",
+   "to": "packaging",
    "kind": "req"
   }
  ]

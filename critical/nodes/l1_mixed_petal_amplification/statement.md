@@ -47,3 +47,14 @@ Omega(n/log^2 n) source-coupled rich fiber in one petal
 (petal_reserve_rich_fiber_reduction). The naive-induction killer is now
 complemented by the collision-free-emptiness theorem. See
 v4_pma_crosswalk.md.
+
+## KNOWN-MASS WITNESS (re-appended 2026-07-20, w15-L1-1 — restoring catch #176's datum that a wave-15 in-place consumer rewrite dropped)
+
+The mixed-petal bucket is non-empty and its mass is measured: 43
+mixed-petal floor-band contributors vs 10 full-petal at (16,8,97)
+(catch #176; 4x the full-petal mass at the smallest cell). The v7 L1
+payment ladder PAYS a large frontier (ev-wired) but does NOT close the
+red — residual = growing-p, balanced sub-Johnson strip, growing
+polarity, non-intrinsic first-match supply, each keeping its
+Omega(n/log^2 n) rich-fiber forcing from a PROVED node. Node stays
+TARGET.
