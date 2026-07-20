@@ -1,0 +1,5 @@
+            row       a0  unsafe@a0  safe@a0+1  margin(bits)  printed
+ KoalaBear MCA   1116047     +8.978    -22.197        22.197  PAIR OK
+ KoalaBear list  1116046     +9.164    -22.011        22.011  PAIR OK
+ M31 MCA         1116023    +27.927     -3.259         3.259  PAIR OK
+ M31 list        1116022    +28.113     -3.073         3.073  PAIR OK

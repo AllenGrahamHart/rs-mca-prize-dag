@@ -2759,3 +2759,32 @@ and REWORDED f1_case_tower to retract the numerically-empty phrase
 stays PROVED — the tower-depth content is unaffected). Manifest
 584/10/835; validator green; all five replay green local. Full
 re-pin rerunning.
+
+## 105 — 2026-07-20: UPSTREAM PR CROSSWALK (proposals banked at
+## notes/upstream_pr_proposals_20260720/) — ONE clean opportunity;
+## the a-priori best bet REJECTED as a parametrization mismatch
+
+The disciplined finding (avoids the #750 over-claim trap): our
+rate-half crossing determination does NOT supply his §0.4 safe side
+— a QUADRUPLE parametrization mismatch, numerically confirmed (his
+targets = n=2^21 extension rows, KoalaBear q~2^185.9 / Mersenne
+q~2^123.4, delta~0.468 near-capacity; ours = n=2^41, valid only
+2^128<q<2^166.5, delta<=1/4). Our own WP5 already flagged this
+transport as NOTE-LEVEL. THE ONE CLEAN SUBMITTABLE PR (Proposal 1):
+an INDEPENDENT EXACT-INTEGER AUDIT of his §0.4 four adjacent-pair
+crossings — reproduced all four locations (1116047/46/23/22) +
+margins (22.197/22.011/3.259/3.073) + both field budgets by exact
+integer arithmetic (upr_const_check.py), confirming his exponent
+convention. Value: his own bar is "poly(n) loss is not a
+certificate" and the Mersenne margins are ~3 bits, so an exact
+cross-implementation confirmation is a load-bearing audit gate;
+zero over-claim (confirms LOCATION/constants/unsafe realization,
+NOT the safe side), zero overlap. Proposals 2 (our exact n=2^41
+threshold family — DIFFERENT-LANE but a genuine self-contained
+result) + 3 (the §0.5 falsifiability objects — cyclic prefix-fiber
+family + budget-3 split-pencil census, PARTIAL/lead) are drafted
+but lower priority. DON'T list: the KoalaBear safe side is OWNED by
+scottdhughes (#989-995), the Mersenne safe side by DannyExperiments
+(#993) — do NOT touch; don't re-propose imgfib (#750); don't sell
+the crossing as the safe side; don't present budget-3/DSP8 as
+closures. SUBMISSION = OUTWARD-FACING, awaits the maintainer's go.
