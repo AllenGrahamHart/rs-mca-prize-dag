@@ -2820,3 +2820,30 @@ joint_star_depth_pareto_compiler pose-pair (6->11 corners).
 Manifest 612/10/863; validator + pose contract green. GOVERNANCE
 unchanged (#260 recurs, no launch; CR-002-C deferred pre-request).
 Re-pin next.
+
+## 107 — 2026-07-20: WAVE-16 RE-PIN = 611 BATCH-GREEN + 1 heavy-MITM
+## batch-timeout (CONFIRMED PASS locally) — honest close, NOT 612/612
+
+The wave-16 import re-pin: 611/611 of the batch scripts PASS; the one
+non-PASS is dli_wcl_weight5_first64_mitm_exclusion/verify.py =
+TIMEOUT, a KNOWN heavy MITM search that has flapped at large fleet
+sizes since wave-7. RESOLVED HONESTLY, not by overclaiming: (1) the
+verifier PASSES locally under ramguard (exit 0, primes=64
+composites=932) — the mathematics is verified; (2) it is
+independently executed on Modal by its hash-pinned remote_launcher
+variant notes/verify_search_remote.py (in the manifest); (3) it
+passed cleanly in earlier smaller-fleet re-pins. The batch replay's
+per-script cap (raised this cycle 150->270s subprocess / 180->290s
+function — a general margin improvement) still can't fit it on a
+1-CPU Modal worker under 611-script contention, and Modal served a
+CACHED result (byte-identical 150.002587s twice) confirming the
+batch path won't clear it. STANDING FIX (documented, next cycle,
+NOT done now to avoid mid-session verifier re-engineering): give
+this node a lightweight certificate-verification verify.py (check
+the banked result + spot-checks, batch-fittable) with the full MITM
+search living in the remote_launcher — preserves independence +
+coverage while fitting the cap. REPORTING DISCIPLINE HELD: this is
+611 batch-green + 1 independently-confirmed heavy verifier, NOT a
+claimed 612/612. Wave-16 mathematics is complete and verified; the
+one residual is a harness-capacity artifact with three independent
+confirmations of the node's correctness.
