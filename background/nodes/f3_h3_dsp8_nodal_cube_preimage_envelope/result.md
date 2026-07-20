@@ -10,4 +10,6 @@ cube-preimage subgroup. The resulting raw nodal DSP8 envelope is
 
 after the worst class weight. This improves the prior uniform constant
 `29376` by more than a factor of eleven and isolates the remaining hard nodal
-case to fields with three cube roots of unity.
+case to fields with three cube roots of unity. The one-root constant is below
+the live uniform `G=4K` allowance `76599/40`; the three-root constant remains
+above it, and neither line pays the smooth traces.

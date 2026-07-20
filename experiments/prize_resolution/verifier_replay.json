@@ -2,17 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 1,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router/verify.py",
-      "seconds": 0.028596,
+      "script": "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/verify.py",
+      "seconds": 0.029586,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_DISTANCE_THREE_EXCEPTIONAL_QUADRATIC_CHARACTER_PASS gate=15 mutation=12 field=17\n"
+      "stdout_tail": "RATE_HALF_LIST_B3_FIBER_TWO_MATCHED_LIFT_FIELD_ROUTER_PASS N_bits=39 surviving_field_degree=2 anti_invariant=0 identities=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/verify_audit.py",
+      "seconds": 0.037136,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_LIST_B3_FIBER_TWO_MATCHED_LIFT_FIELD_ROUTER_AUDIT_PASS p=17 N=8 anti_lifts=16 outer_ratios=7 hits=0\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

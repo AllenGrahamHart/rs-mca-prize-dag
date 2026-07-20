@@ -2788,3 +2788,35 @@ scottdhughes (#989-995), the Mersenne safe side by DannyExperiments
 (#993) — do NOT touch; don't re-propose imgfib (#750); don't sell
 the crossing as the safe side; don't present budget-3/DSP8 as
 closures. SUBMISSION = OUTWARD-FACING, awaits the maintainer's go.
+
+## 106 — 2026-07-20: WAVE-16 IMPORTED (+14 PROVED nodes; catches
+## w16-C1..C5 = #334-#338) — a clean contained wave; nothing closes
+
+The v7 continuation (21 commits incl. our merged KB#105; 14 genuinely
+new nodes, ALL PROVED) audited clean: 42/42 replays, 6/6 mutations,
+0 status flips, no packaging/list_safe flip, no smuggled poses, NO
+new Modal launch. IMPORTED all 14 as a sound reduction/fence layer,
+NOTHING closed (correlation_bound stays 14 ev / 0 req -> mobius
+CONDITIONAL; no critical-surface event). DSP8 pair: the nodal
+STEPANOV BARRIER discharges the w15-D2 residual as a genuine
+proof-method route-block (one-poly Stepanov floor 2^(5/3) can never
+fit the G=4K allowance) + a smooth-trace substar compression;
+neither is the max-P<=24 satellite; residual unchanged (bound
+10K_25^0+17K_25^A). 3 C36/H3 compilers = honest fixed-order-route
+compressions. HGE4 trio: the norm_gate red's FIRST ev routes
+(sufficient target SP_h^prim <= 7000n*max(1,B_h) + route separation
++ generator reduction), no new premise, uniform aggregate open.
+Rate-half fiber-two (4): reduce the branch (path fibers m>=2
+excluded; 4-cycle -> 3-way quartic router; c=1,2 denominator
+mismatch open), closes NO chamber. XR fences (2): #158-consistent,
+frontier 5,5,5/17,17,15 unchanged. THE THREE PRE-IDENTIFIED PIN
+REPAIRS landed same-commit (no re-pin surprise, unlike wave-15's 6
+hand-fixes): (1) pose-pair verify.py+statement.md with the 4
+fiber-two ev-edges [the w15-H1 blocker is FIXED IN-BRANCH by
+370fe902 — 8 bracket entries]; (2) the a28a3477 shared-node repair
+on the on-master f3_h3_dsp8_nodal_cube_preimage_envelope (stale
+allowance 892 -> 76599/40, math unchanged); (3) the
+joint_star_depth_pareto_compiler pose-pair (6->11 corners).
+Manifest 612/10/863; validator + pose contract green. GOVERNANCE
+unchanged (#260 recurs, no launch; CR-002-C deferred pre-request).
+Re-pin next.

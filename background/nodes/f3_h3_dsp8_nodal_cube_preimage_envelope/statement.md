@@ -46,4 +46,6 @@ Consequently, on every official row,
 This replaces the former class-weighted leading constant `29376` by a
 uniform constant below `2387`, and by `552` in the one-cubic-root case. It
 does not close DSP8: smooth traces remain, and the three-cubic-root nodal
-constant still exceeds the complete allowance `892`.
+constant still exceeds the live uniform `G=4K` allowance
+`76599/40=1914.975`. The older `892` constant was the former stronger
+`J=G` target used by F-round 1, not the current sufficient allowance.

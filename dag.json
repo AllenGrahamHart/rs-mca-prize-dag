@@ -10846,6 +10846,242 @@
     "background/nodes/f3_h3_dsp8_joint_star_depth_pareto_compiler/verify.py",
     "background/nodes/f3_h3_dsp8_joint_star_depth_pareto_compiler/verify_audit.py"
    ]
+  },
+  {
+   "id": "f3_hge4_primitive_shift_pair_aggregate_adapter",
+   "title": "HGE4 primitive shift-pair aggregate adapter",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/statement.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/proof.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/claim_contract.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/dependency_subdag.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/audit.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/result.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/verify.py",
+    "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/verify_audit.py"
+   ],
+   "statement": "For every official row and 4<=h<=H_max, the stripped HGE4 norm-gate record count satisfies N_h^strip<=SP_h^prim, where SP_h^prim is the ordered top shift-pair count after the quotient-pullback/full-fiber deletion. If B_h=binom(n,h)(binom(n,h)-1)/p^(h-1) and SP_h^prim<=7000n max(1,B_h) at every retained width, then sum_h N_h^strip<14n^3. The reduction and summation compiler are proved; the primitive shift-pair estimate is not claimed."
+  },
+  {
+   "id": "f3_hge4_primitive_shift_pair_orbit_aggregate_router",
+   "title": "HGE4 primitive shift-pair orbit aggregate router",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/statement.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/proof.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/claim_contract.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/dependency_subdag.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/audit.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/result.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/verify.py",
+    "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/verify_audit.py"
+   ],
+   "statement": "Multiplicative scaling acts freely on every ordered primitive top shift pair, so SP_h^prim=n O_h^prim; a left-anchored ordered scanner has exactly A_h^left=h O_h^prim records. Hence sum_{h=4}^{H_max} O_h^prim<=14n^2 implies the HGE4 norm-gate target. Equivalently the per-width 7000n estimate asks for O_h^prim<=7000 max(1,B_h). At every official h>=4 row the latter allowance is smaller than binom(n,h), so naive uniform max-degree summation can meet it only by proving primitive emptiness; a nonzero route needs averaged falling-factorial, orbit, or sparse-active-support control."
+  },
+  {
+   "id": "f3_hge4_primitive_shift_pair_near_square_union_router",
+   "title": "HGE4 primitive shift-pair near-square union router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "An unordered primitive top shift pair is equivalent to a 2h-subset U whose locator D_U has the unique form S_U^2-d_U^2 with S_U monic of degree h and d_U a nonzero field element; the two signs reconstruct the pair. If V_free,V_swap count free and antipodal-swap scaling orbits of valid primitive unions, then O_h^prim=2V_free+V_swap. Distinct valid unions containing 1 satisfy A_h^union=hO_h^prim, so sum_h A_h^union/h<=14n^2 is exactly the HGE4 orbit target. The anchored candidate space falls by binom(2h-1,h-1) compared with ordered disjoint-pair enumeration. The aggregate count remains open.",
+   "refs": [
+    "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/statement.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/proof.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/claim_contract.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/dependency_subdag.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/audit.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/result.md",
+    "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/verify.py",
+    "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_global_resultant_compression",
+   "title": "H3 global product/quotient resultant compression",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For dyadic n, the complete shifted-root polynomial is F_n(X)=((1-X)^n-1)/X. The ordered product polynomial is Res_X(F_n(X),X^(n-1)F_n(T/X)); the nonidentity quotient polynomial is Res_X(F_n(X),F_n(TX))/(n(T-1)^(n-1)); and every cleared first-nineteen derivative packet is one bivariate resultant modulo U^19. This removes factor enumeration when constructing the two global polynomials, but does not eliminate the quotient-lift packet index, bound the exceptional integer, or supply an official-scale resultant algorithm.",
+   "refs": [
+    "background/nodes/f3_h3_global_resultant_compression/statement.md",
+    "background/nodes/f3_h3_global_resultant_compression/proof.md",
+    "background/nodes/f3_h3_global_resultant_compression/claim_contract.md",
+    "background/nodes/f3_h3_global_resultant_compression/dependency_subdag.md",
+    "background/nodes/f3_h3_global_resultant_compression/audit.md",
+    "background/nodes/f3_h3_global_resultant_compression/result.md",
+    "background/nodes/f3_h3_global_resultant_compression/verify.py",
+    "background/nodes/f3_h3_global_resultant_compression/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_cutoff_layered_gcd_compiler",
+   "title": "H3 cutoff multiplicity-layer gcd compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every prime-field dyadic row and every cutoff c<n-1, let Pcal and Qcal be the global ordered product and nonidentity quotient polynomials. If G is the gcd of Pcal and its first c Hasse derivatives, and G_j is the gcd of the first j Hasse derivatives of G, then X_c=sum_j deg gcd(Qcal,G_j^(n-1)). Replacing Qcal by gcd(Qcal,Qcal') gives exactly Y_c=sum_t(P(t)-c)_+(R(t)-1)_+. At c=18 this is a quotient-lift-free exact row compiler for X_18 and Y_18; on the official orders, the uniform product-fiber theorem truncates it to B_n=min(n-19,ceil(33n^(2/3))-19) layers, each with a divisor-plus-Bezout certificate. It supplies no upper bound or official-scale complexity claim.",
+   "refs": [
+    "background/nodes/f3_h3_cutoff_layered_gcd_compiler/statement.md",
+    "background/nodes/f3_h3_cutoff_layered_gcd_compiler/proof.md",
+    "background/nodes/f3_h3_cutoff_layered_gcd_compiler/claim_contract.md",
+    "background/nodes/f3_h3_cutoff_layered_gcd_compiler/dependency_subdag.md",
+    "background/nodes/f3_h3_cutoff_layered_gcd_compiler/audit.md",
+    "background/nodes/f3_h3_cutoff_layered_gcd_compiler/result.md",
+    "background/nodes/f3_h3_cutoff_layered_gcd_compiler/verify.py",
+    "background/nodes/f3_h3_cutoff_layered_gcd_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_path_exclusion",
+   "title": "Budget-three fiber-two path constructions share a forbidden factor",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Let three pairwise-coprime locators be one-root deletions from unions of fibers of a common X^2 map, with completed half-degree s>=2. Writing H_i(Y)=(Y-r_i^2)K_i(Y) gives A_i(X)=(X+r_i)K_i(X^2). The odd and even parts of a nondegenerate three-term relation force all K_i to be scalar multiples of one common K, so the A_i share the nonconstant factor K(X^2), a contradiction. Hence both path-plus-singleton chambers have no direct common-fiber-size-two construction. Together with the Vandermonde theorem, every direct equal-complete-fiber path construction with m>=2 is excluded; m=1, mixed-map, partial-fiber, primitive, and non-path residuals remain open.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding",
+   "title": "Budget-three fiber-two cycles route through three quartic-pencil strata",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every direct common-X^2 four-cycle construction descends through Y=X^2 to four pairwise-coprime degree-(s-1) members of a two-dimensional pencil with a squarefree quartic denominator D_*; the completion roots are automatically distinct. The number c=0,1,2 of antipodal deleted-root pairs is exhaustive. For c=0, D_*=product_i(Y-rho_i^2), giving exactly the existing matched antipodal quotient-pencil input at d_ant=2d=4s. For c=1,2, one or two repeated coefficient-square roots are replaced by exceptional-pair squares, producing explicit denominator-mismatch strata. All three have a Mobius weld, primitive rational-map degree s-1, and the general quartic degree floor. At the prize maximum the quotient order is 2^40, map degree 2^38-1, and lower pencil degree at least 2^37-2. No stratum is proved empty.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+   "title": "Budget-three fiber-two cycle boundaries transfer through canonical span",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every c=0,1,2 fiber-two cycle quartic-pencil stratum at quotient order 2^40, all parameter-uniform boundary theorems transfer through the canonical-span certifier. The generic and intermediate minimum-degree boundaries both have linear differential residual and the same primary gap a_(2^38)=a_(2^38+1)=0, a_(2^38+2)!=0; the generic secondary gaps are at 2^37-1 and 2^37. A two-antipodal-pair denominator uses M=2^36. The canonical outer quartic must be PGL-matched to the cycle completion roots rho_i. Only at c=0 are these automatically square-root lifts of all denominator roots, so the old one-parameter Mobius-ratio/norm gates are not imported into c=1,2.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router",
+   "title": "Budget-three fiber-two matched-cycle lifts descend to the prime field",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the two-antipodal-denominator subbranch of the matched c=0 generic fiber-two cycle boundary at M=2^36 and N=2^39, a parameter-uniform Fourier resultant excludes the official prime-field branch and the quadratic p=-1 branch, leaving q_field=p^2 with p=1 mod 2^40. The even-factorization coefficients and outer roots descend to F_p under this weaker congruence. In the nonsplit class modulo 2^41, Frobenius sends a possible top lift r to +/-r; conjugating the three exact Mobius-ratio equations excludes the -r case. Hence every surviving normalized source lift and the Mobius matching lie over F_p. This does not exclude the boundary or transfer the later scalar, Jacobi, and norm gates.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_mismatch_descent_dimension_area_law",
+   "title": "XR mismatch-descent dimension area law",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every live invariant-excess mismatch chain, sum_j(K_j+h)<=N_0-(h+1), while the external-zero drops telescope as sum_j d_j=K_0-K_L<=K_0-1. Consequently the number of levels with K_j>=kappa is at most floor((N_0-h-1)/(kappa+h)), and a chain close to maximal depth has only the corresponding small excess-dimension area. Exact caps are printed for all six clean-rate roots. This is pathwise dimension amortization, not a branch-width or slope payment.",
+   "refs": [
+    "background/nodes/xr_mismatch_descent_dimension_area_law/statement.md",
+    "background/nodes/xr_mismatch_descent_dimension_area_law/proof.md",
+    "background/nodes/xr_mismatch_descent_dimension_area_law/claim_contract.md",
+    "background/nodes/xr_mismatch_descent_dimension_area_law/dependency_subdag.md",
+    "background/nodes/xr_mismatch_descent_dimension_area_law/audit.md",
+    "background/nodes/xr_mismatch_descent_dimension_area_law/result.md",
+    "background/nodes/xr_mismatch_descent_dimension_area_law/verify.py",
+    "background/nodes/xr_mismatch_descent_dimension_area_law/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_nongeneric_support_only_exponential_width_fence",
+   "title": "XR nongeneric support-only exponential-width fence",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At each of the six clean-rate roots, there is an abstract family of A-subsets satisfying the exact joint-explanation support cap |Y intersect Y'|<=K-1 and containing more than 16n^3 members. Pairing 2A coordinates converts a binary Gilbert code of length A and distance H=h+1 into such a family; H/A<=1/16 gives size greater than 2^(5A/8). These supports are not claimed to be realizable RS explanations. The result proves that pre-terminal XR closure cannot use pairwise support packing alone and must retain algebraic realization or actual-slope ownership.",
+   "refs": [
+    "background/nodes/xr_nongeneric_support_only_exponential_width_fence/statement.md",
+    "background/nodes/xr_nongeneric_support_only_exponential_width_fence/proof.md",
+    "background/nodes/xr_nongeneric_support_only_exponential_width_fence/claim_contract.md",
+    "background/nodes/xr_nongeneric_support_only_exponential_width_fence/dependency_subdag.md",
+    "background/nodes/xr_nongeneric_support_only_exponential_width_fence/audit.md",
+    "background/nodes/xr_nongeneric_support_only_exponential_width_fence/result.md",
+    "background/nodes/xr_nongeneric_support_only_exponential_width_fence/verify.py",
+    "background/nodes/xr_nongeneric_support_only_exponential_width_fence/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_nodal_stepanov_constant_barrier",
+   "title": "DSP8 nodal Stepanov constant barrier",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every positive parameter choice in the current one-auxiliary-polynomial Stepanov ansatz, with D(A+D)<AB^2 and AB<=m, has degree-to-multiplicity quotient greater than 2^(5/3)m^(2/3). Using this ansatz for both the order-n quotient line and order-3n nodal parameter count forces a class-blind leading coefficient above 2176, exceeding the live G-normalized allowance 76599/40. Retuning A,B,D cannot close the three-cubic-root nodal lane; target-sensitive correlation or a stronger multi-fiber theorem is required. This is a proof-method barrier, not a lower bound on actual records.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/statement.md",
+    "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/proof.md",
+    "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/audit.md",
+    "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/result.md",
+    "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/verify.py",
+    "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_smooth_trace_substar_router",
+   "title": "DSP8 smooth-trace substar router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a fixed product target and one representation parameter r, the nodal condition for a second parameter s is (1+r+s-t)^3=27rs, a cubic in s with leading coefficient one. Thus every fixed-target nodal edge graph has maximum degree at most three. The Pareto product stars consequently retain same-center smooth substars; at the preferred (P,R)>=(35,2) corner, the degree-eight/six stars contain degree-five/three smooth substars. Their nonzero trace discriminants may be used as saturation factors in the candidate ideals without losing an actual official survivor. This is structural compression, not a DSP8 moment or survivor bound.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/statement.md",
+    "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/proof.md",
+    "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/audit.md",
+    "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/result.md",
+    "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/verify.py",
+    "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_quotient_algebra_fitting_support_compiler",
+   "title": "H3 quotient-algebra Fitting support compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For dyadic n and every cutoff 2<=c<n-1, the monic nonidentity quotient polynomial over Z[1/2] defines a finite free quotient algebra. Quotienting it by the first c+1 Hasse derivatives of the global product polynomial gives a finite module whose odd order is divisible by an official row prime p exactly when X_c>0; adjoining the quotient derivative gives a divisor module whose order is divisible by p exactly when Y_c>0. Their mod-p dimensions are the exact min-depth sums sum_t min(R(t),(P(t)-c)_+) and sum_t min((R(t)-1)_+,(P(t)-c)_+), so the orders also have the corresponding valuation lower bounds. The smaller scalar annihilators, equivalently the largest Smith invariants or scalar elimination generators, have the same exact prime support and divide the full orders. This is an exact support compiler, not a weighted-moment valuation or an efficient official-scale Smith algorithm.",
+   "refs": [
+    "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/statement.md",
+    "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/proof.md",
+    "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/claim_contract.md",
+    "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/dependency_subdag.md",
+    "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/audit.md",
+    "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/result.md",
+    "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/verify.py",
+    "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -20798,6 +21034,276 @@
    "from": "submission_quality_paper_dossier",
    "to": "packaging",
    "kind": "req"
+  },
+  {
+   "from": "x81_minimal_trade_square_shift",
+   "to": "f3_hge4_primitive_shift_pair_aggregate_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "x82_square_shift_certifier_keys",
+   "to": "f3_hge4_primitive_shift_pair_aggregate_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "x83_uniform_square_shift_obstruction_gate",
+   "to": "f3_hge4_primitive_shift_pair_aggregate_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "f3_shiftpair_weld",
+   "to": "f3_hge4_primitive_shift_pair_aggregate_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "v13_prefix_collision_ledger",
+   "to": "f3_hge4_primitive_shift_pair_aggregate_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "v13_second_moment_shift_pair_identity",
+   "to": "f3_hge4_primitive_shift_pair_aggregate_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_primitive_shift_pair_aggregate_adapter",
+   "to": "f3_hge4_norm_gate_count",
+   "kind": "ev"
+  },
+  {
+   "from": "x82_square_shift_certifier_keys",
+   "to": "f3_hge4_primitive_shift_pair_orbit_aggregate_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_shiftpair_weld",
+   "to": "f3_hge4_primitive_shift_pair_orbit_aggregate_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_primitive_shift_pair_aggregate_adapter",
+   "to": "f3_hge4_primitive_shift_pair_orbit_aggregate_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_primitive_shift_pair_orbit_aggregate_router",
+   "to": "f3_hge4_norm_gate_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_hge4_primitive_shift_pair_orbit_aggregate_router",
+   "to": "f3_hge4_primitive_shift_pair_near_square_union_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_primitive_shift_pair_near_square_union_router",
+   "to": "f3_hge4_norm_gate_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_global_derivative_ideal_valuation",
+   "to": "f3_h3_global_resultant_compression",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_global_resultant_compression",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_global_resultant_compression",
+   "to": "f3_h3_cutoff_layered_gcd_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_cutoff18_double_accident_reduction",
+   "to": "f3_h3_cutoff_layered_gcd_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_uniform_product_fiber_stepanov",
+   "to": "f3_h3_cutoff_layered_gcd_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_cutoff_layered_gcd_compiler",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_multifiber_vandermonde_exclusion",
+   "to": "rate_half_list_budget_three_fiber_two_path_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_path_exclusion",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_multifiber_vandermonde_exclusion",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_mobius_weld",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_primitive_quotient_gate",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pencil_degree_floor",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_reverse_residual_stratification",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_fourth_root_gap_reduction",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_secondary_gap_reduction",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_two_window_square_reduction",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_canonical_span_criterion",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_affine_coset_pair_cubic_preimage_stepanov",
+   "to": "f3_h3_dsp8_nodal_stepanov_constant_barrier",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_nodal_cube_preimage_envelope",
+   "to": "f3_h3_dsp8_nodal_stepanov_constant_barrier",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_nodal_stepanov_constant_barrier",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_mismatch_nongeneric_invariant_excess_descent",
+   "to": "xr_mismatch_descent_dimension_area_law",
+   "kind": "req"
+  },
+  {
+   "from": "xr_mismatch_descent_dimension_area_law",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_nongeneric_support_only_exponential_width_fence",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_dsp8_joint_star_depth_pareto_compiler",
+   "to": "f3_h3_dsp8_smooth_trace_substar_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_unit_trace_elliptic_curve_router",
+   "to": "f3_h3_dsp8_smooth_trace_substar_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_smooth_trace_substar_router",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_dsp8_smooth_trace_substar_router",
+   "to": "f3_h3_official_order_template_survivor",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_global_resultant_compression",
+   "to": "f3_h3_quotient_algebra_fitting_support_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_cutoff_layered_gcd_compiler",
+   "to": "f3_h3_quotient_algebra_fitting_support_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_shifted_product_sidon",
+   "to": "f3_h3_quotient_algebra_fitting_support_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_quotient_algebra_fitting_support_compiler",
+   "to": "f3_h3_mobius_excess_half",
+   "kind": "ev"
   }
  ]
 }

@@ -24,18 +24,28 @@ CONSUMERS = {
 
 TABLE = {
     6: (11, 25, 12, 11, Fraction(8, 11), Fraction(4), 2, 1),
+    7: (10, 26, 11, 11, Fraction(8, 11), Fraction(4), 2, 1),
     8: (9, 27, 10, 12, Fraction(5, 9), Fraction(5, 4), 3, 2),
+    9: (8, 28, 9, 12, Fraction(5, 9), Fraction(5, 4), 3, 2),
     10: (7, 29, 8, 13, Fraction(4, 9), Fraction(3, 4), 5, 3),
+    11: (6, 30, 7, 13, Fraction(4, 9), Fraction(3, 4), 5, 3),
     12: (5, 31, 6, 14, Fraction(7, 18), Fraction(7, 12), 6, 4),
+    13: (4, 32, 5, 14, Fraction(7, 18), Fraction(7, 12), 6, 4),
     14: (3, 33, 4, 15, Fraction(16, 47), Fraction(8, 17), 7, 5),
+    15: (2, 34, 3, 15, Fraction(16, 47), Fraction(8, 17), 7, 5),
     16: (1, 35, 2, 16, Fraction(9, 29), Fraction(9, 22), 8, 6),
 }
 EXPECTED = {
     6: (Fraction(11, 2), Fraction(121, 136)),
+    7: (Fraction(11, 2), Fraction(121, 136)),
     8: (Fraction(9, 4), Fraction(99, 85)),
+    9: (Fraction(9, 4), Fraction(99, 85)),
     10: (Fraction(27, 16), Fraction(99, 68)),
+    11: (Fraction(27, 16), Fraction(99, 68)),
     12: (Fraction(3, 2), Fraction(198, 119)),
+    13: (Fraction(3, 2), Fraction(198, 119)),
     14: (Fraction(47, 34), Fraction(517, 272)),
+    15: (Fraction(47, 34), Fraction(517, 272)),
     16: (Fraction(29, 22), Fraction(319, 153)),
 }
 
@@ -58,9 +68,10 @@ def arithmetic_check() -> None:
         assert depth == 17 - cutoff
         assert product == 19 + cutoff
         assert quotient == 18 - cutoff
-        assert minimum == 8 + cutoff // 2
-        assert Fraction(cutoff + 2, free_floor(minimum)) == free_ratio
-        assert Fraction(cutoff + 2, antipodal_floor(minimum)) == antipodal_ratio
+        assert minimum == 7 + ceil(Fraction(cutoff + 1, 2))
+        endpoint_excess = 2 * (minimum - 7)
+        assert Fraction(endpoint_excess, free_floor(minimum)) == free_ratio
+        assert Fraction(endpoint_excess, antipodal_floor(minimum)) == antipodal_ratio
         weight, allowance = EXPECTED[cutoff]
         assert weight == antipodal_ratio / free_ratio
         assert allowance == Fraction(11, 17) / free_ratio
@@ -110,6 +121,7 @@ def packet_check() -> None:
     text = "".join((base / name).read_text() for name in required if name.endswith(".md"))
     for marker in (
         "(25,12)",
+        "(34, 3)",
         "(35, 2)",
         "C_E=319/153",
         "pure star degree 8",
@@ -124,7 +136,7 @@ def packet_check() -> None:
 def main() -> None:
     arithmetic_check()
     packet_check()
-    print("F3_H3_DSP8_JOINT_STAR_DEPTH_PARETO_COMPILER_PASS corners=6 endpoint=319/153")
+    print("F3_H3_DSP8_JOINT_STAR_DEPTH_PARETO_COMPILER_PASS corners=11 endpoint=319/153")
 
 
 if __name__ == "__main__":

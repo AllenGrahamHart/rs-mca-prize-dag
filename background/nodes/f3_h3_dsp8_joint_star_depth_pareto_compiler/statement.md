@@ -9,10 +9,10 @@
   `f3_h3_excess_multistar_degree_ladder`,
   `f3_h3_double_accident_coupling_batch_odd_saturation`
 
-For
+For every integer
 
 ```text
-E in {6,8,10,12,14,16},
+6<=E<=16,
 L_E=17-E,       q_E=19+E,       r_E=18-E,
 rho_E(t)=max(R(t)-L_E,0),
 ```
@@ -35,16 +35,21 @@ e(t)<=a_E^A N_6^disj(t)       on the antipodal class,          (JDP2)
 with the exact current-router constants
 
 ```text
-E   L_E  (q_E,r_E)  m_E   a_E^0   a_E^A   w_E=a_E^A/a_E^0
-6    11   (25,12)    11     8/11       4          11/2
-8     9   (27,10)    12      5/9     5/4           9/4
-10    7   (29, 8)    13      4/9     3/4         27/16
-12    5   (31, 6)    14      7/18   7/12           3/2
-14    3   (33, 4)    15     16/47   8/17         47/34
-16    1   (35, 2)    16      9/29   9/22         29/22.       (JDP3)
+E     L_E  (q_E,r_E)  m_E   a_E^0   a_E^A   w_E=a_E^A/a_E^0
+6      11   (25,12)    11     8/11       4          11/2
+7      10   (26,11)    11     8/11       4          11/2
+8       9   (27,10)    12      5/9     5/4           9/4
+9       8   (28, 9)    12      5/9     5/4           9/4
+10      7   (29, 8)    13      4/9     3/4         27/16
+11      6   (30, 7)    13      4/9     3/4         27/16
+12      5   (31, 6)    14      7/18   7/12           3/2
+13      4   (32, 5)    14      7/18   7/12           3/2
+14      3   (33, 4)    15     16/47   8/17         47/34
+15      2   (34, 3)    15     16/47   8/17         47/34
+16      1   (35, 2)    16      9/29   9/22         29/22.       (JDP3)
 ```
 
-Here `m_E=8+E/2` is the minimum number of small unordered product
+Here `m_E=7+ceil((E+1)/2)` is the minimum number of small unordered product
 representations on that corner. The accident-depth budget therefore gives
 the exact sufficient condition
 
@@ -56,29 +61,34 @@ the exact sufficient condition
 and the following simpler conditions are sufficient:
 
 ```text
-E    Dbar_E^0+w_E Dbar_E^A <= C_E n^2
-6                              C_E=121/136
-8                              C_E= 99/85
-10                             C_E= 99/68
-12                             C_E=198/119
-14                             C_E=517/272
-16                             C_E=319/153.        (JDP5)
+E       Dbar_E^0+w_E Dbar_E^A <= C_E n^2
+6,7                                  C_E=121/136
+8,9                                  C_E= 99/85
+10,11                                C_E= 99/68
+12,13                                C_E=198/119
+14,15                                C_E=517/272
+16                                   C_E=319/153.        (JDP5)
 ```
 
-The same six corners have exact sparse candidate packets. The product-side
+The same eleven corners have exact sparse candidate packets. The product-side
 packet and the complete quotient packet can be chosen as follows:
 
 ```text
-E   (q_E,r_E)   antipodal-free product   antipodal product   quotient spokes
-6    (25,12)    pure star degree 2       two-edge packet            11
-8    (27,10)    pure star degree 3       pure star degree 2          9
-10   (29, 8)    pure star degree 5       pure star degree 3          7
-12   (31, 6)    pure star degree 6       pure star degree 4          5
-14   (33, 4)    pure star degree 7       pure star degree 5          3
-16   (35, 2)    pure star degree 8       pure star degree 6          1. (JDP6)
+E     (q_E,r_E)   antipodal-free product   antipodal product   quotient spokes
+6      (25,12)    pure star degree 2       two-edge packet            11
+7      (26,11)    pure star degree 2       two-edge packet            10
+8      (27,10)    pure star degree 3       pure star degree 2          9
+9      (28, 9)    pure star degree 3       pure star degree 2          8
+10     (29, 8)    pure star degree 5       pure star degree 3          7
+11     (30, 7)    pure star degree 5       pure star degree 3          6
+12     (31, 6)    pure star degree 6       pure star degree 4          5
+13     (32, 5)    pure star degree 6       pure star degree 4          4
+14     (33, 4)    pure star degree 7       pure star degree 5          3
+15     (34, 3)    pure star degree 7       pure star degree 5          2
+16     (35, 2)    pure star degree 8       pure star degree 6          1. (JDP6)
 ```
 
-In the first antipodal row, the two disjoint-six edges need not share a
+In the first two antipodal rows, the two disjoint-six edges need not share a
 center, so their product ideal includes the cross-center generator from the
 proved multiplicity gate. Let `J_E` denote the resulting product packet
 ideal. Choose `r_E` distinct quotient lifts `Q_0,...,Q_(r_E-1)` and relabel so
@@ -94,6 +104,6 @@ Both forms retain the exact quotient depth and have the same valuations at
 every official odd row prime. The official row prime divides their ideal
 norms.
 
-This theorem offers six alternatives. Coordinates from different rows of
+This theorem offers eleven alternatives. Coordinates from different rows of
 the tables cannot be mixed. It proves none of the moment estimates `(JDP4)`
 or `(JDP5)`, supplies no template generator, and gives no survivor count.

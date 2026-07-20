@@ -86,6 +86,133 @@ MCA/CA claim.
 
 ---
 
+## WAVE-15 ADDENDUM (2026-07-20; fiber-two path residue)
+
+The direct equal-complete-fiber residue in both path-plus-singleton chambers
+is now empty at common fiber size two. For the three tight-triangle blocks,
+write their completed locators as `H_i(X^2)` and their deleted roots as
+`r_i`. Then
+
+```text
+H_i(Y)=(Y-r_i^2)K_i(Y),       A_i=(X+r_i)K_i(X^2).
+```
+
+Separating odd and even powers in the nondegenerate three-term relation
+forces all `K_i` to be scalar multiples of one common polynomial `K`. At
+official half-degree `s=d/2=2^38`, `K(X^2)` is nonconstant and divides all
+three locators, contradicting the disjoint omitted-triple blocks. Combined
+with the Vandermonde exclusion for `m>=3`, every direct common-map path
+construction with equal complete fibers of size `m>=2` is excluded.
+
+The structure-free `m=1` case, mixed quotient maps, partial fibers, primitive
+locators, and the four-cycle fiber-two branch remain open. This is a chamber
+reduction, not an adjacent-crossing theorem.
+
+---
+
+## WAVE-16 ADDENDUM (2026-07-20; fiber-two cycle embedding)
+
+The direct common-`X^2` four-cycle residue now has an exhaustive
+quartic-pencil router. The completion roots are automatically distinct:
+coincidence would put their common negative in two disjoint block locators.
+Writing `d=2s` and `Y=X^2`, its four completed blocks give
+
+```text
+H_i(Y)=(Y-rho_i^2)G_i(Y),
+D_* product_i G_i=Y^(2d)-1,
+sum_i lambda_iG_i=sum_i lambda_i rho_iG_i=0,
+```
+
+The `G_i` are pairwise coprime monic degree-`s-1` polynomials spanning a
+two-dimensional pencil, and `D_*` is squarefree of degree four. If `c` is
+the number of antipodal pairs among the deleted roots, then `c in {0,1,2}`.
+For `c=0`,
+
+```text
+D_*=product_i(Y-rho_i^2),
+d_ant=2d=4s,       a_i=rho_i,       b_i=rho_i^2,
+```
+
+so this matched stratum is exactly the existing antipodal descent equation.
+For `c=1,2`, respectively one or two repeated coefficient-square roots are
+replaced by squares of residual antipodal pairs in the exceptional set.
+These are explicit denominator-mismatch strata, not instances of the matched
+norm equation.
+
+All three strata have a Möbius weld, primitive rational-map degree
+`2^38-1`, and lower pencil degree at least `2^37-2` at quotient order `2^40`.
+The matched stratum also inherits the direct four-coset exclusion.
+
+The matched primitive census and both mismatch censuses remain open. Mixed
+maps, partial fibers, and primitive locators outside the direct completion
+model are also not covered. This router does not locate the adjacent crossing.
+
+---
+
+## WAVE-17 ADDENDUM (2026-07-20; doubled-order boundary transfer)
+
+All three fiber-two cycle quartic-pencil strata now inherit the
+parameter-uniform boundary compiler through the canonical span identity. At
+quotient order `N=2^40`, put `s=2^38` and `r=s-1`. On the generic and
+intermediate minimum-degree boundaries respectively,
+
+```text
+q=2: v=2^37-2,       h=2^37+1,       deg T=1,
+q=3: v=(2^39-5)/3,   h=(2^38+2)/3,   deg T=1.
+```
+
+The intermediate residual is linear at this doubled order, rather than
+quadratic as at order `2^39`. Both boundaries have the same primary gap
+
+```text
+a_(2^38)=a_(2^38+1)=0,       a_(2^38+2)!=0.
+```
+
+The generic secondary gaps are at indices `2^37-1,2^37`, and the exact
+two-window square has `h=2^37+1` and lower polynomial degree at most
+`2^37-2`. If the roots of `D_*` form two antipodal pairs, the parity router
+has `M=2^36` and torsion order `8M=2^39`. On the pure outer stratum,
+`deg V=2^38-2` with the existing linear Wronskian residual.
+
+The canonical outer quartic must be fractional-linearly matched to the cycle
+completion roots `rho_i`. For `c=0` this is the old square-root-lift matching.
+For `c=1,2`, matching to arbitrary square-root lifts of all denominator roots
+is incorrect; a new scalar/Möbius coupling is required before importing the
+old norm gates. No boundary is excluded by this transfer.
+
+---
+
+## WAVE-18 ADDENDUM (2026-07-20; matched cycle lift field router)
+
+The two-antipodal-denominator subbranch of the matched `c=0` generic boundary
+at `M=2^36` has no genuinely quadratic top-lift shard. Put `N=8M=2^39`.
+Replaying the signed-cell cyclotomic resultant at this order leaves only
+
+```text
+q_field=p^2,       p=1 mod 2N=2^40.
+```
+
+This congruence already puts the root cells, `B_0,C_0`, `lambda,mu`, and all
+four outer roots in `F_p`. A normalized source lift ratio satisfies
+
+```text
+r^(4N)=1,       r^4=t!=1.
+```
+
+In the nonsplit residue class `p=1+2N mod 4N`, Frobenius sends `r` to
+`r^(2N)r`. If this is `-r`, conjugating each of the three exact
+Mobius-ratio equations gives either `r^2=-1`, or forces both `r^2` and the
+outer ratio into `X^2+6X+1=0`; their incompatible `N`th powers exclude both
+possibilities. Thus every surviving normalized source quadruple and its
+Mobius matching descend to `F_p`, whether or not `p=1 mod 2^41`.
+
+The remaining work on this matched parity subbranch is the doubled-order
+transfer of the constant, scalar, Jacobi, and norm gates. Other matched
+denominator geometries and the `c=1,2` completion-root couplings remain
+separate, and no cycle boundary is excluded here.
+
+---
+
 ## BUDGET-THREE BOUNDED EDGE GEOMETRY (wave-11 audited, 2026-07-18; pin statement body appended per #104 — master text above preserved)
 
 

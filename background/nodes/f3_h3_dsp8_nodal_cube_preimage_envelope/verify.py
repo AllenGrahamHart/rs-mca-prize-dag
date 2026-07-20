@@ -96,10 +96,12 @@ def cube_preimage_check(prime: int, order: int) -> tuple[int, int, int]:
 
 
 def constants_check() -> None:
+    live_g_allowance = Fraction(76599, 40)
     assert 8192**2 > 400**3
     one_root = 17 * Fraction(51, 16) * (Fraction(51, 16) + Fraction(1, 400)) ** 2
     assert one_root == Fraction(88226787, 160000)
     assert one_root < 552
+    assert one_root < live_g_allowance
 
     cubic_bound = Fraction(2081, 1000)
     assert cubic_bound**3 > 9
@@ -109,6 +111,7 @@ def constants_check() -> None:
     ) ** 2
     assert three_root == Fraction(9773067835947, 4096000000)
     assert three_root < 2387
+    assert three_root > live_g_allowance
 
 
 def packet_check() -> None:
@@ -132,6 +135,7 @@ def packet_check() -> None:
         "<(51/16)(gn)^(2/3)+1",
         "<552n^2ifp=2(mod3)",
         "<2387n^2ifp=1(mod3)",
+        "76599/40=1914.975",
         "doesnotcloseDSP8",
     ):
         assert marker in statement

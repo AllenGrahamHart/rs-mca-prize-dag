@@ -32,6 +32,10 @@ PATH_CHARACTERISTIC = "rate_half_list_budget_three_path_pattern_characteristic_i
 MULTIFIBER = "rate_half_list_budget_three_multifiber_vandermonde_exclusion"
 MULTIDELETION = "rate_half_list_budget_three_multideletion_multifiber_exclusion"
 FIBER_FOUR_GATE = "rate_half_list_budget_three_fiber_four_rank_gate"
+FIBER_TWO_PATH = "rate_half_list_budget_three_fiber_two_path_exclusion"
+FIBER_TWO_CYCLE = "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding"
+FIBER_TWO_CYCLE_BOUNDARY = "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer"
+FIBER_TWO_CYCLE_FIELD = "rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router"
 ANTIPODAL_DESCENT = "rate_half_list_budget_three_fiber_four_antipodal_descent"
 ANTIPODAL_WELD = "rate_half_list_budget_three_antipodal_mobius_weld"
 ANTIPODAL_DEGREE_FLOOR = "rate_half_list_budget_three_antipodal_pencil_degree_floor"
@@ -43,6 +47,7 @@ ANTIPODAL_GENERIC_SECONDARY_GAP = "rate_half_list_budget_three_antipodal_generic
 ANTIPODAL_GENERIC_TWO_WINDOW = "rate_half_list_budget_three_antipodal_generic_two_window_square_reduction"
 ANTIPODAL_GENERIC_DELETED_PAIR_PARITY = "rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction"
 ANTIPODAL_GENERIC_DELETED_PAIR_FACTORIZATION = "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization"
+ANTIPODAL_GENERIC_DELETED_PAIR_EVEN_JACOBI = "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router"
 ANTIPODAL_GENERIC_DELETED_PAIR_BRANCH = "rate_half_list_budget_three_antipodal_generic_deleted_pair_fourier_resultant_branch_collapse"
 ANTIPODAL_GENERIC_DELETED_PAIR_ODE = "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_ode"
 ANTIPODAL_GENERIC_DELETED_PAIR_MOBIUS = "rate_half_list_budget_three_antipodal_generic_deleted_pair_mobius_ratio_router"
@@ -54,6 +59,7 @@ ANTIPODAL_GENERIC_DELETED_PAIR_GCD = "rate_half_list_budget_three_antipodal_gene
 ANTIPODAL_GENERIC_DELETED_PAIR_CONSTANT = "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_gate"
 ANTIPODAL_GENERIC_DELETED_PAIR_LEGENDRE = "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse"
 ANTIPODAL_GENERIC_DELETED_PAIR_TORSION_FENCE = "rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence"
+ANTIPODAL_GENERIC_DELETED_PAIR_TORSION_CYCLOTOMIC = "rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition"
 ANTIPODAL_GENERIC_DELETED_PAIR_ORTHOGONAL_SIGN = "rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router"
 ANTIPODAL_GENERIC_DELETED_PAIR_TRACE_GCD = "rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router"
 ANTIPODAL_GENERIC_CANONICAL_SPAN = "rate_half_list_budget_three_antipodal_generic_canonical_span_criterion"
@@ -69,6 +75,12 @@ ANTIPODAL_INTERMEDIATE_HENSEL_QUARTIC = "rate_half_list_budget_three_antipodal_i
 ANTIPODAL_INTERMEDIATE_LOW_BAND = "rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion"
 ANTIPODAL_INTERMEDIATE_RESIDUAL_GCD = "rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate"
 ANTIPODAL_PURE_HARMONIC_FERMAT = "rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router"
+ANTIPODAL_HARMONIC_TORSION_SIEVE = "rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve"
+ANTIPODAL_PURE_EULER_RAMIFICATION = "rate_half_list_budget_three_antipodal_pure_euler_ramification_router"
+ANTIPODAL_PURE_EULER_SPECTRAL = "rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction"
+ANTIPODAL_PURE_HARMONIC_BINARY_QUARTIC = "rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate"
+ANTIPODAL_PURE_HARMONIC_SPECTRAL = "rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate"
+ANTIPODAL_PURE_RAMIFICATION_PASSPORT = "rate_half_list_budget_three_antipodal_pure_ramification_passport"
 
 
 def main() -> int:
@@ -124,6 +136,10 @@ def main() -> int:
         ("multifiber_exclusion_is_proved", nodes[MULTIFIBER]["status"] == "PROVED"),
         ("multideletion_exclusion_is_proved", nodes[MULTIDELETION]["status"] == "PROVED"),
         ("fiber_four_gate_is_proved", nodes[FIBER_FOUR_GATE]["status"] == "PROVED"),
+        ("fiber_two_path_is_proved", nodes[FIBER_TWO_PATH]["status"] == "PROVED"),
+        ("fiber_two_cycle_is_proved", nodes[FIBER_TWO_CYCLE]["status"] == "PROVED"),
+        ("fiber_two_cycle_boundary_is_proved", nodes[FIBER_TWO_CYCLE_BOUNDARY]["status"] == "PROVED"),
+        ("fiber_two_cycle_field_is_proved", nodes[FIBER_TWO_CYCLE_FIELD]["status"] == "PROVED"),
         ("antipodal_descent_is_proved", nodes[ANTIPODAL_DESCENT]["status"] == "PROVED"),
         ("antipodal_weld_is_proved", nodes[ANTIPODAL_WELD]["status"] == "PROVED"),
         ("antipodal_degree_floor_is_proved", nodes[ANTIPODAL_DEGREE_FLOOR]["status"] == "PROVED"),
@@ -135,6 +151,7 @@ def main() -> int:
         ("antipodal_generic_two_window_is_proved", nodes[ANTIPODAL_GENERIC_TWO_WINDOW]["status"] == "PROVED"),
         ("antipodal_generic_deleted_pair_parity_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_PARITY]["status"] == "PROVED"),
         ("antipodal_generic_deleted_pair_factorization_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_FACTORIZATION]["status"] == "PROVED"),
+        ("antipodal_generic_deleted_pair_even_jacobi_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_EVEN_JACOBI]["status"] == "PROVED"),
         ("antipodal_generic_deleted_pair_branch_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_BRANCH]["status"] == "PROVED"),
         ("antipodal_generic_deleted_pair_ode_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_ODE]["status"] == "PROVED"),
         ("antipodal_generic_deleted_pair_mobius_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_MOBIUS]["status"] == "PROVED"),
@@ -146,6 +163,7 @@ def main() -> int:
         ("antipodal_generic_deleted_pair_constant_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_CONSTANT]["status"] == "PROVED"),
         ("antipodal_generic_deleted_pair_legendre_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_LEGENDRE]["status"] == "PROVED"),
         ("antipodal_generic_deleted_pair_torsion_fence_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_TORSION_FENCE]["status"] == "PROVED"),
+        ("antipodal_generic_deleted_pair_torsion_cyclotomic_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_TORSION_CYCLOTOMIC]["status"] == "PROVED"),
         ("antipodal_generic_deleted_pair_orthogonal_sign_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_ORTHOGONAL_SIGN]["status"] == "PROVED"),
         ("antipodal_generic_deleted_pair_trace_gcd_is_proved", nodes[ANTIPODAL_GENERIC_DELETED_PAIR_TRACE_GCD]["status"] == "PROVED"),
         ("antipodal_generic_canonical_span_is_proved", nodes[ANTIPODAL_GENERIC_CANONICAL_SPAN]["status"] == "PROVED"),
@@ -161,10 +179,16 @@ def main() -> int:
         ("antipodal_intermediate_low_band_is_proved", nodes[ANTIPODAL_INTERMEDIATE_LOW_BAND]["status"] == "PROVED"),
         ("antipodal_intermediate_residual_gcd_is_proved", nodes[ANTIPODAL_INTERMEDIATE_RESIDUAL_GCD]["status"] == "PROVED"),
         ("antipodal_pure_harmonic_fermat_is_proved", nodes[ANTIPODAL_PURE_HARMONIC_FERMAT]["status"] == "PROVED"),
+        ("antipodal_harmonic_torsion_sieve_is_proved", nodes[ANTIPODAL_HARMONIC_TORSION_SIEVE]["status"] == "PROVED"),
+        ("antipodal_pure_euler_ramification_is_proved", nodes[ANTIPODAL_PURE_EULER_RAMIFICATION]["status"] == "PROVED"),
+        ("antipodal_pure_euler_spectral_is_proved", nodes[ANTIPODAL_PURE_EULER_SPECTRAL]["status"] == "PROVED"),
+        ("antipodal_pure_harmonic_binary_quartic_is_proved", nodes[ANTIPODAL_PURE_HARMONIC_BINARY_QUARTIC]["status"] == "PROVED"),
+        ("antipodal_pure_harmonic_spectral_is_proved", nodes[ANTIPODAL_PURE_HARMONIC_SPECTRAL]["status"] == "PROVED"),
+        ("antipodal_pure_ramification_passport_is_proved", nodes[ANTIPODAL_PURE_RAMIFICATION_PASSPORT]["status"] == "PROVED"),
         (
             "brackets_are_evidence",
             incoming
-            == sorted([
+            == [
                 (FLOOR, "ev"),
                 (ANTIPODAL_FOURTH_ROOT_GAP, "ev"),
                 (ANTIPODAL_GENERIC_CANONICAL_SPAN, "ev"),
@@ -173,6 +197,7 @@ def main() -> int:
                 (ANTIPODAL_GENERIC_DELETED_PAIR_LEGENDRE, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_ODE, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_FACTORIZATION, "ev"),
+                (ANTIPODAL_GENERIC_DELETED_PAIR_EVEN_JACOBI, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_BRANCH, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_GCD, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_HARMONIC, "ev"),
@@ -182,6 +207,7 @@ def main() -> int:
                 (ANTIPODAL_GENERIC_DELETED_PAIR_PARITY, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_TORSION_FENCE, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_REMAINDER, "ev"),
+                (ANTIPODAL_GENERIC_DELETED_PAIR_TORSION_CYCLOTOMIC, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_TRACE_GCD, "ev"),
                 (ANTIPODAL_GENERIC_EULER_COUPLED_NORM, "ev"),
                 (ANTIPODAL_GENERIC_EULER_CUBIC_NORM, "ev"),
@@ -189,6 +215,7 @@ def main() -> int:
                 (ANTIPODAL_GENERIC_EULER_FIELD_SHARD, "ev"),
                 (ANTIPODAL_GENERIC_SECONDARY_GAP, "ev"),
                 (ANTIPODAL_GENERIC_TWO_WINDOW, "ev"),
+                (ANTIPODAL_HARMONIC_TORSION_SIEVE, "ev"),
                 (ANTIPODAL_INTERMEDIATE_CUBE_PART, "ev"),
                 (ANTIPODAL_INTERMEDIATE_HENSEL, "ev"),
                 (ANTIPODAL_INTERMEDIATE_HENSEL_CUBIC, "ev"),
@@ -199,12 +226,21 @@ def main() -> int:
                 (ANTIPODAL_WELD, "ev"),
                 (ANTIPODAL_DEGREE_FLOOR, "ev"),
                 (ANTIPODAL_PRIMITIVE, "ev"),
+                (ANTIPODAL_PURE_EULER_RAMIFICATION, "ev"),
+                (ANTIPODAL_PURE_EULER_SPECTRAL, "ev"),
+                (ANTIPODAL_PURE_HARMONIC_BINARY_QUARTIC, "ev"),
                 (ANTIPODAL_PURE_HARMONIC_FERMAT, "ev"),
+                (ANTIPODAL_PURE_HARMONIC_SPECTRAL, "ev"),
                 (ANTIPODAL_PURE_QUARTIC, "ev"),
+                (ANTIPODAL_PURE_RAMIFICATION_PASSPORT, "ev"),
                 (ANTIPODAL_REVERSE_RESIDUAL, "ev"),
                 (CYCLE_BIMOBIUS, "ev"),
                 (ANTIPODAL_DESCENT, "ev"),
                 (FIBER_FOUR_GATE, "ev"),
+                (FIBER_TWO_CYCLE_BOUNDARY, "ev"),
+                (FIBER_TWO_CYCLE_FIELD, "ev"),
+                (FIBER_TWO_CYCLE, "ev"),
+                (FIBER_TWO_PATH, "ev"),
                 (BUDGET_THREE, "ev"),
                 (K4_GRASSMANN, "ev"),
                 (LINEAR_GRASSMANN, "ev"),
@@ -224,17 +260,7 @@ def main() -> int:
                 (SPLIT_UNIT_SINGLE_FIBER, "ev"),
                 (SAFE_ANCHOR, "ev"),
                 (LOW_BUDGET, "ev"),
-                ("rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router", "ev"),
-                ("rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition", "ev"),
-                ("rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve", "ev"),
-                ("rate_half_list_budget_three_antipodal_pure_euler_ramification_router", "ev"),
-                ("rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction", "ev"),
-                ("rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate", "ev"),
-                ("rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate", "ev"),
-                ("rate_half_list_budget_three_antipodal_pure_ramification_passport", "ev"),
-            ]
-            # w15-H1: +8 LANE-B ev pins (KB #90 pose-pair repair)
-            ),
+            ],
         ),
         ("direct_consumer", outgoing_req == [CONSUMER]),
         ("floor_remains_parent_requirement", old_floor_consumer == ["req"]),
@@ -363,6 +389,38 @@ def main() -> int:
             "fiber-four residue gate" in statement
             and "rank three forces" in statement
             and "rank-two reciprocal locus" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_path_exclusion",
+            "WAVE-15 ADDENDUM" in statement
+            and "s=d/2=2^38" in statement
+            and "equal complete fibers of size `m>=2`" in statement
+            and "four-cycle fiber-two branch remain open" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_embedding",
+            "WAVE-16 ADDENDUM" in statement
+            and "d_ant=2d=4s" in statement
+            and "c in {0,1,2}" in statement
+            and "denominator-mismatch strata" in statement
+            and "lower pencil degree at least `2^37-2`" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_boundary_transfer",
+            "WAVE-17 ADDENDUM" in statement
+            and "v=(2^39-5)/3" in statement
+            and "a_(2^38)=a_(2^38+1)=0" in statement
+            and "generic secondary gaps are at indices `2^37-1,2^37`" in statement
+            and "completion roots `rho_i`" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_field_router",
+            "WAVE-18 ADDENDUM" in statement
+            and "two-antipodal-denominator subbranch" in statement
+            and "N=8M=2^39" in statement
+            and "p=1 mod 2N=2^40" in statement
+            and "X^2+6X+1=0" in statement
+            and "whether or not `p=1 mod 2^41`" in statement,
         ),
         (
             "statement_pins_antipodal_descent",

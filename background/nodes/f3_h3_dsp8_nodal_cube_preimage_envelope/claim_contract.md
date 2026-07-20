@@ -15,6 +15,7 @@
 - **falsifier:** a singular subgroup point absent from `(NCE2)`, a parameter
   in `(NCE2)` with no unique singular trace, or a failure of `(NCE3)--(NCE5)`
 - **nonclaims:** no smooth-trace estimate, no combined DSP8 payment, and no
-  assertion that the `2387` envelope fits the `892` allowance
+  assertion that the `2387` envelope fits the live `76599/40` allowance;
+  `892` is retained only as the historical stronger F-round target
 - **replay:**
   `tools/ramguard tiny -- python3 background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/verify.py`
