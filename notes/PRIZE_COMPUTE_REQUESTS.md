@@ -10,6 +10,27 @@ certificate format, deterministic checker, resource estimate, and effect of
 both outcomes on the critical DAG. Shallow sweeps without a named decision do
 not belong here.
 
+> **MAINTAINER GOVERNANCE NOTE (2026-07-20, wave-17 integration — UNRATIFIED).**
+> The sub-`$1` Modal self-authorization clause remains maintainer-unratified
+> (standing item w16-C5). Wave-17 is the **first wave to actually exercise it**:
+> three in-tree Modal launches were imported from the resolution branch, each a
+> no-hit exclusion screen whose `result.json` is now **load-bearing for a PROVED
+> node's `verify.py`** (via a local coverage/hash certificate checker; no local
+> re-execution of the 2–4M-modulus search):
+>
+> | app_id | screen | ceiling | candidates/shards | hits | consuming PROVED node |
+> |---|---|---|---|---|---|
+> | `ap-6KQ2mJjoE3Qkq7VaKqnxlZ` | c1-parity-antiinvariant | `$0.25` | 2,247,721 / 16 | 0 | `…c1_parity_frobenius_router` |
+> | `ap-Js6Im9DeoBlc0di05YG2WE` | c1-parity-harmonic-characteristic | `$0.50` | 4,495,441 / 32 | 0 | `…c1_parity_harmonic_exclusion` |
+> | `ap-PVTrzkKlh4j1B6qDmGU1Wf` | harmonic-top (order 2^41) | (none stated) | 2,247,720 / 16 | 0 | `…matched_post_field_compiler` |
+>
+> The three nodes are wired **ev-only** into `rate_half_list_adjacent_crossing`
+> (still TARGET); no red flipped on their account. Each cert checker trips under
+> a fault-injection mutation (audit control M4). **Open maintainer decision
+> (w17-C1):** whether to accept remote no-hit screens under a local coverage
+> certificate as PROVED evidence, and whether to ratify the sub-`$1` self-auth
+> policy that permitted the launches. Recorded here; not auto-adopted.
+
 ## Request queue
 
 | priority | request | readiness | contributor action | current authorization |

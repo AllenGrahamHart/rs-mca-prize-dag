@@ -10,6 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 NODE_ID = "rate_half_list_adjacent_crossing"
 CONSUMER = "list_adjacency_closing"
+SCALAR_DESCENT = "list_support_distance_scalar_descent"
 FLOOR = "rate_half_cyclic_rotated_prefix_floor"
 SAFE_ANCHOR = "rate_half_list_integer_johnson_safe_anchor"
 LOW_BUDGET = "rate_half_list_low_budget_exact_crossing"
@@ -36,6 +37,29 @@ FIBER_TWO_PATH = "rate_half_list_budget_three_fiber_two_path_exclusion"
 FIBER_TWO_CYCLE = "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding"
 FIBER_TWO_CYCLE_BOUNDARY = "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer"
 FIBER_TWO_CYCLE_FIELD = "rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router"
+FIBER_TWO_CYCLE_POST_FIELD = "rate_half_list_budget_three_fiber_two_cycle_matched_post_field_compiler"
+FIBER_TWO_CYCLE_TRACE_JACOBI = "rate_half_list_budget_three_fiber_two_cycle_matched_trace_jacobi_norm_transfer"
+FIBER_TWO_CYCLE_MISMATCH = "rate_half_list_budget_three_fiber_two_cycle_mismatch_invariant_coupling_router"
+FIBER_TWO_CYCLE_MISMATCH_TRACE = "rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination"
+FIBER_TWO_CYCLE_C1_RESULTANT = "rate_half_list_budget_three_fiber_two_cycle_c1_coefficient_resultant_elimination"
+FIBER_TWO_CYCLE_C1_NORMALIZED = "rate_half_list_budget_three_fiber_two_cycle_c1_normalized_torsion_compiler"
+FIBER_TWO_CYCLE_C1_PARITY = "rate_half_list_budget_three_fiber_two_cycle_c1_parity_mobius_router"
+FIBER_TWO_CYCLE_C1_PARITY_FIELD = "rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_field_router"
+FIBER_TWO_CYCLE_C1_PARITY_HARMONIC = "rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_exclusion"
+FIBER_TWO_CYCLE_C1_PARITY_NONHARMONIC = "rate_half_list_budget_three_fiber_two_cycle_c1_parity_nonharmonic_scalar_compiler"
+FIBER_TWO_CYCLE_C1_PARITY_FROBENIUS = "rate_half_list_budget_three_fiber_two_cycle_c1_parity_frobenius_router"
+FIBER_TWO_CYCLE_C1_PARITY_R0_LIFT = "rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_lift_free_compiler"
+FIBER_TWO_CYCLE_C1_PARITY_R0_JACOBI = "rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_jacobi_norm_transfer"
+FIBER_TWO_CYCLE_C1_PARITY_ALL_JACOBI = "rate_half_list_budget_three_fiber_two_cycle_c1_parity_all_branch_jacobi_norm_compiler"
+FIBER_TWO_CYCLE_C2_TRACE = "rate_half_list_budget_three_fiber_two_cycle_c2_outer_torsion_trace_gate"
+FIBER_TWO_CYCLE_C2_JOINT = "rate_half_list_budget_three_fiber_two_cycle_c2_joint_pair_torsion_selector"
+FIBER_TWO_CYCLE_C2_NORMALIZED = "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_pair_torsion_compiler"
+FIBER_TWO_CYCLE_C2_GAP_SPAN = "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler"
+FIBER_TWO_CYCLE_C2_PURE = "rate_half_list_budget_three_fiber_two_cycle_c2_pure_fourth_root_primary_exclusion"
+FIBER_TWO_CYCLE_C2_PARITY = "rate_half_list_budget_three_fiber_two_cycle_c2_parity_trace_jacobi_router"
+FIBER_TWO_CYCLE_C2_GAP_ONLY = "rate_half_list_budget_three_fiber_two_cycle_c2_gap_only_parity_counterexample"
+FIBER_TWO_CYCLE_C2_SECONDARY_DIFFERENTIAL = "rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier"
+FIBER_TWO_CYCLE_C2_TORSION_FIELD = "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router"
 ANTIPODAL_DESCENT = "rate_half_list_budget_three_fiber_four_antipodal_descent"
 ANTIPODAL_WELD = "rate_half_list_budget_three_antipodal_mobius_weld"
 ANTIPODAL_DEGREE_FLOOR = "rate_half_list_budget_three_antipodal_pencil_degree_floor"
@@ -114,6 +138,7 @@ def main() -> int:
     checks = [
         ("node_exists", NODE_ID in nodes),
         ("node_is_target", nodes[NODE_ID]["status"] == "TARGET"),
+        ("scalar_descent_is_proved", nodes[SCALAR_DESCENT]["status"] == "PROVED"),
         ("floor_is_proved", nodes[FLOOR]["status"] == "PROVED"),
         ("safe_anchor_is_proved", nodes[SAFE_ANCHOR]["status"] == "PROVED"),
         ("low_budget_is_proved", nodes[LOW_BUDGET]["status"] == "PROVED"),
@@ -140,6 +165,29 @@ def main() -> int:
         ("fiber_two_cycle_is_proved", nodes[FIBER_TWO_CYCLE]["status"] == "PROVED"),
         ("fiber_two_cycle_boundary_is_proved", nodes[FIBER_TWO_CYCLE_BOUNDARY]["status"] == "PROVED"),
         ("fiber_two_cycle_field_is_proved", nodes[FIBER_TWO_CYCLE_FIELD]["status"] == "PROVED"),
+        ("fiber_two_cycle_post_field_is_proved", nodes[FIBER_TWO_CYCLE_POST_FIELD]["status"] == "PROVED"),
+        ("fiber_two_cycle_trace_jacobi_is_proved", nodes[FIBER_TWO_CYCLE_TRACE_JACOBI]["status"] == "PROVED"),
+        ("fiber_two_cycle_mismatch_is_proved", nodes[FIBER_TWO_CYCLE_MISMATCH]["status"] == "PROVED"),
+        ("fiber_two_cycle_mismatch_trace_is_proved", nodes[FIBER_TWO_CYCLE_MISMATCH_TRACE]["status"] == "PROVED"),
+        ("fiber_two_cycle_c1_resultant_is_proved", nodes[FIBER_TWO_CYCLE_C1_RESULTANT]["status"] == "PROVED"),
+        ("fiber_two_cycle_c1_normalized_is_proved", nodes[FIBER_TWO_CYCLE_C1_NORMALIZED]["status"] == "PROVED"),
+        ("fiber_two_cycle_c1_parity_is_proved", nodes[FIBER_TWO_CYCLE_C1_PARITY]["status"] == "PROVED"),
+        ("fiber_two_cycle_c1_parity_field_is_proved", nodes[FIBER_TWO_CYCLE_C1_PARITY_FIELD]["status"] == "PROVED"),
+        ("fiber_two_cycle_c1_parity_harmonic_is_proved", nodes[FIBER_TWO_CYCLE_C1_PARITY_HARMONIC]["status"] == "PROVED"),
+        ("fiber_two_cycle_c1_parity_nonharmonic_is_proved", nodes[FIBER_TWO_CYCLE_C1_PARITY_NONHARMONIC]["status"] == "PROVED"),
+        ("fiber_two_cycle_c1_parity_frobenius_is_proved", nodes[FIBER_TWO_CYCLE_C1_PARITY_FROBENIUS]["status"] == "PROVED"),
+        ("fiber_two_cycle_c1_parity_r0_lift_is_proved", nodes[FIBER_TWO_CYCLE_C1_PARITY_R0_LIFT]["status"] == "PROVED"),
+        ("fiber_two_cycle_c1_parity_r0_jacobi_is_proved", nodes[FIBER_TWO_CYCLE_C1_PARITY_R0_JACOBI]["status"] == "PROVED"),
+        ("fiber_two_cycle_c1_parity_all_jacobi_is_proved", nodes[FIBER_TWO_CYCLE_C1_PARITY_ALL_JACOBI]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_trace_is_proved", nodes[FIBER_TWO_CYCLE_C2_TRACE]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_joint_is_proved", nodes[FIBER_TWO_CYCLE_C2_JOINT]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_normalized_is_proved", nodes[FIBER_TWO_CYCLE_C2_NORMALIZED]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_gap_span_is_proved", nodes[FIBER_TWO_CYCLE_C2_GAP_SPAN]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_pure_is_proved", nodes[FIBER_TWO_CYCLE_C2_PURE]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_parity_is_proved", nodes[FIBER_TWO_CYCLE_C2_PARITY]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_gap_only_counterexample_is_proved", nodes[FIBER_TWO_CYCLE_C2_GAP_ONLY]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_secondary_differential_is_proved", nodes[FIBER_TWO_CYCLE_C2_SECONDARY_DIFFERENTIAL]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_torsion_field_is_proved", nodes[FIBER_TWO_CYCLE_C2_TORSION_FIELD]["status"] == "PROVED"),
         ("antipodal_descent_is_proved", nodes[ANTIPODAL_DESCENT]["status"] == "PROVED"),
         ("antipodal_weld_is_proved", nodes[ANTIPODAL_WELD]["status"] == "PROVED"),
         ("antipodal_degree_floor_is_proved", nodes[ANTIPODAL_DEGREE_FLOOR]["status"] == "PROVED"),
@@ -189,6 +237,7 @@ def main() -> int:
             "brackets_are_evidence",
             incoming
             == [
+                (SCALAR_DESCENT, "ev"),
                 (FLOOR, "ev"),
                 (ANTIPODAL_FOURTH_ROOT_GAP, "ev"),
                 (ANTIPODAL_GENERIC_CANONICAL_SPAN, "ev"),
@@ -238,7 +287,30 @@ def main() -> int:
                 (ANTIPODAL_DESCENT, "ev"),
                 (FIBER_FOUR_GATE, "ev"),
                 (FIBER_TWO_CYCLE_BOUNDARY, "ev"),
+                (FIBER_TWO_CYCLE_C1_RESULTANT, "ev"),
+                (FIBER_TWO_CYCLE_C1_NORMALIZED, "ev"),
+                (FIBER_TWO_CYCLE_C1_PARITY_ALL_JACOBI, "ev"),
+                (FIBER_TWO_CYCLE_C1_PARITY_FROBENIUS, "ev"),
+                (FIBER_TWO_CYCLE_C1_PARITY_HARMONIC, "ev"),
+                (FIBER_TWO_CYCLE_C1_PARITY_FIELD, "ev"),
+                (FIBER_TWO_CYCLE_C1_PARITY, "ev"),
+                (FIBER_TWO_CYCLE_C1_PARITY_NONHARMONIC, "ev"),
+                (FIBER_TWO_CYCLE_C1_PARITY_R0_JACOBI, "ev"),
+                (FIBER_TWO_CYCLE_C1_PARITY_R0_LIFT, "ev"),
+                (FIBER_TWO_CYCLE_C2_GAP_ONLY, "ev"),
+                (FIBER_TWO_CYCLE_C2_JOINT, "ev"),
+                (FIBER_TWO_CYCLE_C2_GAP_SPAN, "ev"),
+                (FIBER_TWO_CYCLE_C2_NORMALIZED, "ev"),
+                (FIBER_TWO_CYCLE_C2_TRACE, "ev"),
+                (FIBER_TWO_CYCLE_C2_PARITY, "ev"),
+                (FIBER_TWO_CYCLE_C2_PURE, "ev"),
+                (FIBER_TWO_CYCLE_C2_SECONDARY_DIFFERENTIAL, "ev"),
+                (FIBER_TWO_CYCLE_C2_TORSION_FIELD, "ev"),
                 (FIBER_TWO_CYCLE_FIELD, "ev"),
+                (FIBER_TWO_CYCLE_POST_FIELD, "ev"),
+                (FIBER_TWO_CYCLE_TRACE_JACOBI, "ev"),
+                (FIBER_TWO_CYCLE_MISMATCH, "ev"),
+                (FIBER_TWO_CYCLE_MISMATCH_TRACE, "ev"),
                 (FIBER_TWO_CYCLE, "ev"),
                 (FIBER_TWO_PATH, "ev"),
                 (BUDGET_THREE, "ev"),
@@ -278,6 +350,13 @@ def main() -> int:
         (
             "statement_pins_exact_low_budgets",
             "B* in {1,2}" in statement and "a_L(C)=3n/4" in statement,
+        ),
+        (
+            "statement_pins_scalar_descent_scope",
+            "L t H_r < g N_r" in statement
+            and "target `2^-100`" in statement
+            and "exact row-class reduction" in statement
+            and "upper bound" in statement,
         ),
         (
             "statement_pins_budget_three_reduction",
@@ -421,6 +500,147 @@ def main() -> int:
             and "p=1 mod 2N=2^40" in statement
             and "X^2+6X+1=0" in statement
             and "whether or not `p=1 mod 2^41`" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_post_field_compiler",
+            "WAVE-19 ADDENDUM" in statement
+            and "all `2,247,720` split official" in statement
+            and "T/q_out=W^4" in statement
+            and "y_39=2" in statement
+            and "deg gcd(S,P)>=2^36-1" in statement
+            and "old test `T=W^4` would falsely reject" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_trace_jacobi_transfer",
+            "WAVE-20 ADDENDUM" in statement
+            and "M=2^36" in statement
+            and "two six-gcd packets" in statement
+            and "37-level tower" in statement
+            and "2^2,2^3,...,2^38" in statement
+            and "T/q_out=W^4" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_mismatch_invariant_coupling",
+            "WAVE-21 ADDENDUM" in statement
+            and "4*3*2=24" in statement
+            and "binom(4,2)=6" in statement
+            and "union of 30" in statement
+            and "I_out^3 J_src^2=I_src^3 J_out^2" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_mismatch_trace_resolvent",
+            "WAVE-22 ADDENDUM" in statement
+            and "z=(A+B)^2/(AB)" in statement
+            and "degree-six" in statement
+            and "degree-three" in statement
+            and "twelve explicit" in statement
+            and "Pell-type identities" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c1_parity_harmonic_close",
+            "WAVE-27 ADDENDUM" in statement
+            and "q_field=p^2" in statement
+            and "41 trace updates from `8/5`" in statement
+            and "4,495,441" in statement
+            and "q_out!=-1" in statement
+            and "six\nnonharmonic" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c1_parity_mobius",
+            "WAVE-26 ADDENDUM" in statement
+            and "X_R=(1,-1,r,iota r)" in statement
+            and "X_P=(1,-1,iota,iota r)" in statement
+            and "tau_O=(alpha^2-2gamma)/gamma" in statement
+            and "39-step recurrence" in statement
+            and "5r-4+3iota=0" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c1_normalized_torsion",
+            "WAVE-25 ADDENDUM" in statement
+            and "D_A(Y)=(Y-1)(Y-c)(Y^2-SY+P)" in statement
+            and "I_A=A^(-4h)I,J_A=A^(-6h)J" in statement
+            and "A^(-(24h+12))" in statement
+            and "(T_40,P_40,c_40)=(2,1,1)" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c1_coefficient_resultant",
+            "WAVE-24 ADDENDUM" in statement
+            and "Nhat(A,C)=(AC)^6 N(A;S,P)" in statement
+            and "H(A,C)=(D_*(C)-D_*(A))/(C-A)" in statement
+            and "Res_A(D_*(A),Res_C(H(A,C),Nhat(A,C)))=0" in statement
+            and "e_4^36" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_outer_torsion_trace",
+            "WAVE-23 ADDENDUM" in statement
+            and "t=A/B" in statement
+            and "t^(2^40)=1" in statement
+            and "Q_(j+1)=Q_j^2-2 mod K_O" in statement
+            and "gcd(K_O,Q_40-2)!=1" in statement
+            and "forty small polynomial reductions" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_joint_pair_torsion",
+            "WAVE-24 ADDENDUM" in statement
+            and "G_2=gcd(K_O,R_D mod K_O,Q_40-2)" in statement
+            and "actual denominator pair" in statement
+            and "deg(G_2)<=3" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_normalized_pair_torsion",
+            "WAVE-25 ADDENDUM" in statement
+            and "D_A(Y)=(Y-1)(Y-t)(Y^2-SY+P)" in statement
+            and "(t,S,P) -> (t^(-1),S/t,P/t^2)" in statement
+            and "one chamber modulo the" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_normalized_gap_span",
+            "WAVE-26 ADDENDUM" in statement
+            and "(4n-3j)E_j a_(n-j)" in statement
+            and "LT=cC^2 mod z^H" in statement
+            and "alpha=4c" in statement
+            and "z_t=(1+t)^2/t" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_pure_fourth_root_exclusion",
+            "WAVE-27 ADDENDUM" in statement
+            and "E(z)=1-z^4" in statement
+            and "2H-2=2^38=4*2^36" in statement
+            and "(1/4)_(2^36)/(2^36)!=0" in statement
+            and "primary-only rigidity is" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_parity_trace_jacobi",
+            "WAVE-28 ADDENDUM" in statement
+            and "Omega={1,-1,r,-r}" in statement
+            and "2+r+r^(-1)" in statement
+            and "orientation-free quadratic norm" in statement
+            and "shares the existing CR-002 norm pair" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_gap_only_counterexample",
+            "WAVE-29 ADDENDUM" in statement
+            and "E(z)=1+z+11z^2+34z^3+43z^4" in statement
+            and "a_14=a_15=0" in statement
+            and "52,13,13,52" in statement
+            and "two-window differential" in statement
+            and "identity by itself is insufficient" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_secondary_differential",
+            "WAVE-30 ADDENDUM" in statement
+            and "E'B+4EB'=-8Hc z^(2H-1)" in statement
+            and "4H-4(H-1)kappa z" in statement
+            and "degree at most `2H-2`" in statement
+            and "nonzero diagonal factors `2n+4H`" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_torsion_field",
+            "WAVE-31 ADDENDUM" in statement
+            and "Splitting and common square class are not independent" in statement
+            and "x^p=x^(-1)" in statement
+            and "E_j^p=E_(4-j)/E_4" in statement
+            and "orientation reversal" in statement,
         ),
         (
             "statement_pins_antipodal_descent",

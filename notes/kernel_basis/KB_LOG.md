@@ -2847,3 +2847,45 @@ coverage while fitting the cap. REPORTING DISCIPLINE HELD: this is
 claimed 612/612. Wave-16 mathematics is complete and verified; the
 one residual is a harness-capacity artifact with three independent
 confirmations of the node's correctness.
+
+## 108 — 2026-07-20: WAVE-17 INTEGRATED — HGE4 width-collapse
+## (h<=floor(2m/7)) + C36/c1c2/DSP8 reductions; 3 Modal no-hit
+## screens SURFACED; wave-16 import gaps repaired
+
+Audit aab33dcaf33f786bf (20/20 checks PASS) + same-session master
+integration of pin 173cd994 (44 commits). +46 PROVED background nodes,
++142 edges, 0 status flips, 0 closures. HGE4's ~15-commit push does
+NOT close f3_hge4_norm_gate_count (stays TARGET) but COLLAPSES its
+exact-level width window to h in [4, floor(2m/7)] with boundary
+strata e=1,2 now individually paid; EXACT RESIDUAL = levelwise
+aggregate sum_h E_h^prim(m,p) <= (21/2)m^2 + the odd-width
+primitive-swap free-union class. C36 (8) routes to correlation_bound
++ official_order_template_survivor (both TARGET; the amber
+f3_h3_mobius_excess_half UNTOUCHED, in-deg 42==42). c1/c2 (23) +
+vendored scalar_descent (1) reduce the fiber-two mismatch branch,
+NO chamber closed (adjacent_crossing 71->95 ev, still TARGET,
+B*>=3 nonclaim intact). DSP8 (1) = F_769 proof-method fence.
+
+GOVERNANCE (w17-C1, the wave's real event): FIRST wave to exercise
+the maintainer-UNRATIFIED sub-$1 self-auth — three in-tree Modal
+no-hit screens (antiinvariant $0.25 / harmonic $0.50 / harmonic-top),
+each load-bearing for a PROVED node's verify.py via a result.json +
+local coverage/hash cert (no local re-execution). Wired ev-only; no
+red flipped. SURFACED for ratification (accept remote no-hit screens
+as PROVED evidence + ratify the policy); annotated maintainer-
+unratified in PRIZE_COMPUTE_REQUESTS.md. NOT auto-adopted.
+
+IMPORT HYGIENE: both pose-contracts re-taken from pin
+(norm_gate_count + adjacent_crossing verify.py+statement.md, the two
+reverse-consumer-pins); 3 kind-change req->ev downgrades HELD as req
+(w15-C1); 1 dangling tool ref copied; ledger adopted (clean superset:
+scalar_descent attribution + 3 wave-16-gap backfills). ALSO repaired
+TWO wave-16 import drops discovered this wave: 1 ev edge
+(excess_multistar_degree_ladder->dsp8_correlation_bound) restored +
+the 3 ledger rows. VERIFICATION: validator PASS; 92/92 new-node
+battery; consumer blast-radius all PASS (adjacent_crossing 67/67,
+dsp8_correlation_bound 13/13, norm_gate_count 3/3, official 4/4,
+mobius PASS); manifest 704/10/955 self-test PASS. No Modal re-pin
+needed (all wave-17 verifiers are lightweight cert-readers; local
+evidence comprehensive; avoids the wave-16 heavy-MITM 1-CPU timeout
+artifact). Details: WAVE17_AUDIT_FINDINGS.md.

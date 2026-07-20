@@ -1,0 +1,34 @@
+{
+  "schema": "c2-normalized-small-order-census-v1",
+  "script": "experiments/prize_resolution/rate_half_list_fiber_two_cycle_c2_normalized_small_order_census.py",
+  "script_sha256": "1b66a8d6920154851103eab1d4c021c00698688c60e58daadd0c2d89e69eb8f9",
+  "rows": [
+    {"p": 2017, "H": 3, "N": 16, "sets": 455, "primary_fail": 455, "secondary_fail": 0, "span_fail": 0, "canonical_pass": 0, "stage_witness": null},
+    {"p": 2017, "H": 4, "N": 24, "sets": 1771, "primary_fail": 1770, "secondary_fail": 0, "span_fail": 1, "canonical_pass": 0, "stage_witness": [1, 229, 2016, 1788]},
+    {"p": 2017, "H": 7, "N": 48, "sets": 16215, "primary_fail": 16215, "secondary_fail": 0, "span_fail": 0, "canonical_pass": 0, "stage_witness": null},
+    {"p": 2017, "H": 8, "N": 56, "sets": 26235, "primary_fail": 26234, "secondary_fail": 0, "span_fail": 1, "canonical_pass": 0, "stage_witness": [1, 229, 2016, 1788]},
+    {"p": 2017, "H": 10, "N": 72, "sets": 57155, "primary_fail": 57154, "secondary_fail": 1, "span_fail": 0, "canonical_pass": 0, "stage_witness": [1, 229, 2016, 1788]},
+    {"p": 12097, "H": 3, "N": 16, "sets": 455, "primary_fail": 455, "secondary_fail": 0, "span_fail": 0, "canonical_pass": 0, "stage_witness": null},
+    {"p": 12097, "H": 4, "N": 24, "sets": 1771, "primary_fail": 1770, "secondary_fail": 0, "span_fail": 1, "canonical_pass": 0, "stage_witness": [1, 1873, 12096, 10224]},
+    {"p": 12097, "H": 7, "N": 48, "sets": 16215, "primary_fail": 16215, "secondary_fail": 0, "span_fail": 0, "canonical_pass": 0, "stage_witness": null},
+    {"p": 12097, "H": 8, "N": 56, "sets": 26235, "primary_fail": 26234, "secondary_fail": 0, "span_fail": 1, "canonical_pass": 0, "stage_witness": [1, 1873, 12096, 10224]},
+    {"p": 12097, "H": 10, "N": 72, "sets": 57155, "primary_fail": 57154, "secondary_fail": 1, "span_fail": 0, "canonical_pass": 0, "stage_witness": [1, 1873, 12096, 10224]},
+    {"p": 97, "H": 7, "N": 48, "sets": 16215, "primary_fail": 16211, "secondary_fail": 4, "span_fail": 0, "canonical_pass": 0, "stage_witness": [1, 6, 50, 3], "witness_pure": false},
+    {"p": 113, "H": 8, "N": 56, "sets": 26235, "primary_fail": 26232, "secondary_fail": 2, "span_fail": 1, "canonical_pass": 0, "stage_witness": [1, 49, 112, 64], "witness_pure": false},
+    {"p": 257, "H": 9, "N": 64, "sets": 39711, "primary_fail": 39707, "secondary_fail": 4, "span_fail": 0, "canonical_pass": 0, "stage_witness": [1, 197, 241, 11], "witness_pure": false},
+    {"p": 641, "H": 9, "N": 64, "sets": 39711, "primary_fail": 39709, "secondary_fail": 2, "span_fail": 0, "canonical_pass": 0, "stage_witness": [1, 129, 640, 512], "witness_pure": false}
+  ],
+  "totals": {
+    "normalized_quartets": 325534,
+    "primary_fail": 325515,
+    "primary_pass": 19,
+    "nonpure_primary_pass": 12,
+    "secondary_fail": 14,
+    "secondary_pass": 5,
+    "secondary_nonpure_pass": 0,
+    "span_fail": 5,
+    "canonical_pass": 0,
+    "coupled_pair_pass": 0
+  },
+  "interpretation": "No full canonical c=2 survivor was found. Twelve non-pure quartets falsify primary-only fourth-root rigidity, but every one fails the secondary gate. All five secondary survivors were pure fourth-root quartets and failed canonical span. This is bounded heuristic evidence, not an official-order exclusion."
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "primary-secondary-rigidity-sweep-v1",
+  "script": "experiments/prize_resolution/rate_half_list_primary_gap_rigidity_sweep.py",
+  "script_sha256": "ebc73d2f2ca9c4e3275342735a31377336c68d2398885aaf98843f32346cdc01",
+  "rows": [
+    {"H": 3, "N": 16, "p": 97, "sets": 455, "primary": 0, "primary_pure": 0, "secondary": 0},
+    {"H": 3, "N": 16, "p": 193, "sets": 455, "primary": 0, "primary_pure": 0, "secondary": 0},
+    {"H": 4, "N": 24, "p": 97, "sets": 1771, "primary": 1, "primary_pure": 1, "secondary": 1},
+    {"H": 4, "N": 24, "p": 193, "sets": 1771, "primary": 1, "primary_pure": 1, "secondary": 1},
+    {"H": 5, "N": 32, "p": 193, "sets": 4495, "primary": 0, "primary_pure": 0, "secondary": 0},
+    {"H": 5, "N": 32, "p": 257, "sets": 4495, "primary": 0, "primary_pure": 0, "secondary": 0},
+    {"H": 6, "N": 40, "p": 241, "sets": 9139, "primary": 1, "primary_pure": 1, "secondary": 0},
+    {"H": 6, "N": 40, "p": 401, "sets": 9139, "primary": 1, "primary_pure": 1, "secondary": 0},
+    {"H": 7, "N": 48, "p": 97, "sets": 16215, "primary": 4, "primary_pure": 0, "secondary": 0},
+    {"H": 7, "N": 48, "p": 193, "sets": 16215, "primary": 0, "primary_pure": 0, "secondary": 0},
+    {"H": 8, "N": 56, "p": 113, "sets": 26235, "primary": 3, "primary_pure": 1, "secondary": 1},
+    {"H": 8, "N": 56, "p": 337, "sets": 26235, "primary": 1, "primary_pure": 1, "secondary": 1},
+    {"H": 9, "N": 64, "p": 257, "sets": 39711, "primary": 4, "primary_pure": 0, "secondary": 0},
+    {"H": 9, "N": 64, "p": 641, "sets": 39711, "primary": 2, "primary_pure": 0, "secondary": 0},
+    {"H": 10, "N": 72, "p": 433, "sets": 57155, "primary": 1, "primary_pure": 1, "secondary": 0},
+    {"H": 10, "N": 72, "p": 577, "sets": 57155, "primary": 1, "primary_pure": 1, "secondary": 0},
+    {"H": 11, "N": 80, "p": 641, "sets": 79079, "primary": 0, "primary_pure": 0, "secondary": 0},
+    {"H": 11, "N": 80, "p": 1601, "sets": 79079, "primary": 0, "primary_pure": 0, "secondary": 0},
+    {"H": 12, "N": 88, "p": 353, "sets": 105995, "primary": 1, "primary_pure": 1, "secondary": 1},
+    {"H": 12, "N": 88, "p": 881, "sets": 105995, "primary": 1, "primary_pure": 1, "secondary": 1}
+  ],
+  "representative_nonpure_primary_witnesses": [
+    {"H": 7, "N": 48, "p": 97, "roots": [1, 6, 50, 3]},
+    {"H": 7, "N": 48, "p": 97, "roots": [1, 65, 2, 49]},
+    {"H": 7, "N": 48, "p": 97, "roots": [1, 73, 49, 81]},
+    {"H": 8, "N": 56, "p": 113, "roots": [1, 49, 112, 64]},
+    {"H": 8, "N": 56, "p": 113, "roots": [1, 83, 112, 30]},
+    {"H": 9, "N": 64, "p": 257, "roots": [1, 197, 241, 11]},
+    {"H": 9, "N": 64, "p": 257, "roots": [1, 223, 184, 227]},
+    {"H": 9, "N": 64, "p": 257, "roots": [1, 187, 88, 92]},
+    {"H": 9, "N": 64, "p": 641, "roots": [1, 129, 640, 512]},
+    {"H": 9, "N": 64, "p": 641, "roots": [1, 159, 640, 482]}
+  ],
+  "totals": {
+    "rows": 20,
+    "normalized_quartets": 680500,
+    "primary_survivors": 22,
+    "primary_pure": 10,
+    "primary_nonpure": 12,
+    "secondary_survivors": 6,
+    "secondary_pure": 6,
+    "secondary_nonpure": 0
+  },
+  "interpretation": "Primary-only fourth-root rigidity is false. The repaired primary-plus-secondary rigidity statement survived this bounded sweep but remains unproved."
+}
