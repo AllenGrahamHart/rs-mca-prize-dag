@@ -1022,7 +1022,7 @@
     "background/nodes/f3_h3_rich_fiber_norm_cutoff/verify.py": "7f418e5bb1cf903b750f743efdbf217d9665bfeef37ff7e5f539b3ea84a199aa",
     "background/nodes/f3_h3_shifted_energy_zero_normalization/verify.py": "e05728bbcebd7b814fd7887b4808564b91cbb53dabbf2d7c7f42a089280b566e",
     "background/nodes/f3_h3_shifted_product_sidon/verify.py": "ccab5a33aa0fa6efdf46d6a366c2d7ffc1ac4f9e085080785914ba6ebf2bfe41",
-    "background/nodes/f3_h3_uniform_product_fiber_stepanov/verify.py": "77a600b1c6b1df46b8df8cdfaee3a51917a0bbda24eeba080e29fbde752a8501",
+    "background/nodes/f3_h3_uniform_product_fiber_stepanov/verify.py": "6031eb8566ca29c9df1ad6f579f6896f5a8ed4ac2ab344761ea529b8868dbad3",
     "background/nodes/f3_h3_weighted_multistar_router/verify.py": "43774d853f9e5afda25738df8a4d995e07911fa43c8d68aa4329344cbb7c8f34",
     "background/nodes/f3_h3_weighted_multistar_router/verify_audit.py": "cdadecef3d82464435460fedb6d1260bfea04d34037f2455a6e62c77816a30ae",
     "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/verify.py": "708fac9684c669699c51f157b3b36e281a0a1d29a3529181be6eb5ef851fb6bd",

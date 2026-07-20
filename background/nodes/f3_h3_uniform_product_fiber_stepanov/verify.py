@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[3]
 NODE = "f3_h3_uniform_product_fiber_stepanov"
 CONSUMER = "f3_h3_mobius_excess_half"
 EXPONENT_CONSUMER = "f3_h3_double_accident_derivative_ideal"
+LAYER_CONSUMER = "f3_h3_cutoff_layered_gcd_compiler"
 
 
 def integer_cube_root(value: int) -> int:
@@ -112,10 +113,11 @@ def check_dag() -> None:
     required_consumers = {
         right for left, right, kind in edges if left == NODE and kind == "req"
     }
-    if required_consumers != {EXPONENT_CONSUMER}:
+    if required_consumers != {EXPONENT_CONSUMER, LAYER_CONSUMER}:
         raise AssertionError(("unexpected PF33 required consumers", required_consumers))
-    if nodes.get(EXPONENT_CONSUMER, {}).get("status") != "PROVED":
-        raise AssertionError("PF33 exponent consumer is not PROVED")
+    for consumer in (EXPONENT_CONSUMER, LAYER_CONSUMER):
+        if nodes.get(consumer, {}).get("status") != "PROVED":
+            raise AssertionError(f"PF33 required consumer {consumer} is not PROVED")
 
 
 def main() -> None:
