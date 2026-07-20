@@ -1232,9 +1232,19 @@
    "title": "2c-alpha (PROVABLE, 4-line proof sketched): stagnation forces a k+1 overlap budget"
   },
   {
+   "id": "xr_tangent_support_mismatch_bridge",
+   "label": "UNPROVED",
+   "title": "XR official-row tangent/support-mismatch bridge"
+  },
+  {
    "id": "xr_target_budget_audit",
    "label": "PROVED",
    "title": "STEP ZERO: what integer aperiodic budget does each clean-rate decision point actually allow?"
+  },
+  {
+   "id": "xr_true_tangent_coordinate_injection",
+   "label": "PROVED",
+   "title": "True recovered-line tangent slopes inject into discrepancy coordinates"
   },
   {
    "id": "zone_b",
@@ -2510,6 +2520,14 @@
   {
    "from": "f3_h3_dsp8_correlation_bound",
    "to": "f3_h3_mobius_excess_half"
+  },
+  {
+   "from": "xr_tangent_support_mismatch_bridge",
+   "to": "xr_clean_residual_any_gate"
+  },
+  {
+   "from": "xr_true_tangent_coordinate_injection",
+   "to": "xr_clean_residual_any_gate"
   }
  ]
 }
