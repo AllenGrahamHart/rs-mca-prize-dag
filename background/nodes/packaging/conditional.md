@@ -35,3 +35,13 @@ Together these four components are exactly the packaging statement: compiler
 verdicts are emitted under the refusal rule, dossier versions are gate-checked,
 and constants/provenance are carried through the descriptor and bridge-ledger
 machinery.
+
+---
+
+## Predicate note (2026-07-20, wave-15): the submission dossier
+
+`submission_quality_paper_dossier` (TARGET) is a req predicate of this
+node (the submission-quality paper is a genuine packaging obligation).
+This adds an open requirement; packaging stays CONDITIONAL. [The v7
+list-corridor re-architecture on this node's other predicates is HELD
+for maintainer ratification — Section C, not adopted here.]

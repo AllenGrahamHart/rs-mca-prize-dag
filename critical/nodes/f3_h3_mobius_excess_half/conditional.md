@@ -19,3 +19,17 @@ route is equally sufficient; the surface gate law pins one req route.
 DSP8 F-round 1 is PRE-REGISTERED and queued (the C1' lesson). If DSP8
 is falsified, the amber re-wires to the reserve route (forced
 correction) or re-opens.
+
+## DSP8 reduced target (wave-15, from the v7 program)
+
+The req route of record, in its wave-15 overlap-separated (A6S8)-rescaled
+form (the leaf STAYS TARGET — this is a reduction, not a closure):
+
+```text
+10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)
+```
+
+is the current sufficient target (equivalent to the E=6 moment; overlap
+paid separately at O(n^5/3)). It suffices to bound this correlation; the
+16-node DSP8 program supplies the reduction menu (routes DSP8 / DSP8-U /
+JDP corner / FM / accident-depth), none yet proved.

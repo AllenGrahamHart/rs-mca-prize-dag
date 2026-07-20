@@ -2734,3 +2734,28 @@ re-architecture + dated-annotation deletions; (#260) sub-$1
 self-authorization recurs (a487c599/b8e9d214) — NO new in-tree
 Modal launch; the ingested $45-60 WCL sizing + its Norm(u)
 soundness gap (CR-004, do-not-launch $6k-14k). Modal re-pin next.
+
+## 104 — 2026-07-20: WAVE-15 RE-PIN MARKER REPAIRS (catch #333) — the
+## 5 re-pin FAILs were all cross-node marker pins the spec flagged
+
+The first wave-15 re-pin was 579/5: five verifiers pin text markers
+into master-owned CONSUMER files that the import addenda-ized rather
+than carrying verbatim (the w15-C3/D1/D4 "land the marker in the
+same commit" items). ALL five were bookkeeping, zero mathematical:
+(1) two DSP8 verifiers pin the reduced target
+'10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)' + 'PROVED RICH FACTORIAL
+MOMENT COMPILER' into the C36 amber's conditional.md + the DSP8
+leaf's statement.md — added (took the pin's dsp8_correlation_bound
+statement in full, which keeps my ceremony content + all markers;
+recorded the reduced target in the amber assembly); (2) the dossier
+verifier pins its own id into packaging/conditional.md — added a
+dated dossier-req note (Section C list-corridor changes still HELD);
+(3) the v13.2 census guard pins the corrected MB_VS_F1_LEDGER.md
+markers + requires 'V13.2 CENSUS CORRECTION' present AND 'ONE level
+deep in practice' ABSENT on f1_case_tower — merged the pin's
+v13.2-corrected ledger (master original preserved as dated history)
+and REWORDED f1_case_tower to retract the numerically-empty phrase
+(forced correction #333, per the v13.2 refutation; f1_case_tower
+stays PROVED — the tower-depth content is unaffected). Manifest
+584/10/835; validator green; all five replay green local. Full
+re-pin rerunning.
