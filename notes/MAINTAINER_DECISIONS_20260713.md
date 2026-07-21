@@ -252,3 +252,14 @@ operative 2026-07-06 RATE SCOPE conditionality pointer (rate-1/2 conditional
 on rate_half_band_closure) is RE-APPENDED to the adopted
 list_adjacency_closing statement as a dated annotation; list_grand's text was
 already identical at pin (annotation intact).
+
+## Decision 8 (2026-07-21): descriptor closed (w10-C2 recommendation executed)
+
+Ruled in-session (queue item 6). The descriptor node flips TARGET -> PROVED on
+the wave-10-imported machinery, now verified green on master: the propositional
+restatement, tools/prize_row_descriptor.py (hash ee125103...), proof.md, and
+verify.py (wild-row-audit pinned, 104 regressions, 7/7 mutation controls).
+The wiring stays ev-of-consumers per the recorded demotion — the v5 req edge
+to packaging remains refused, and the packaging amber (w10-C1) is untouched.
+One forced pin correction downstream: the low-budget certificate generator's
+"evidence supplier is TARGET" pin widened to (TARGET, PROVED).

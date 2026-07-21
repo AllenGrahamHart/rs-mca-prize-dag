@@ -923,11 +923,11 @@
   {
    "id": "descriptor",
    "title": "Symbolic row descriptor (single constants source)",
-   "status": "TARGET",
+   "status": "PROVED",
    "refs": [
     "wp_detail/wp3_2_symbolic_scaling.md#2"
    ],
-   "statement": "PROPOSITION (reworded from tool form): the descriptor map (p, e, s, rho) -> derived row table is well-defined and total on the admissible family, computes every dossier constant in O(poly), and agrees with the pinned row and the master table. STATUS NOTE: Codex's audit flagged the tool artifact as missing in-repo; the constants' correctness is independently carried by the banked exact certificates (budget audit, census tables), so this node is a packaging convenience, not a load-bearing hypothesis \u2014 demoted to ev of its consumers.",
+   "statement": "PROPOSITION (reworded from tool form): the descriptor map (p, e, s, rho) -> derived row table is well-defined and total on the admissible family, computes every dossier constant in O(poly), and agrees with the pinned row and the master table. STATUS NOTE: Codex's audit flagged the tool artifact as missing in-repo; the constants' correctness is independently carried by the banked exact certificates (budget audit, census tables), so this node is a packaging convenience, not a load-bearing hypothesis \u2014 demoted to ev of its consumers. || CLOSED (2026-07-21, maintainer Decision 8 / w10-C2 recommendation): proof.md + verify.py landed (tool + wild-row-audit hash-pinned, 104 regressions, 7/7 mutations); wiring stays ev-of-consumers per the recorded demotion.",
    "closure": "proof",
    "notes": "NODE-KIND FLAG (hygiene audit 2026-07-04): tool \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item. | BLOCKS safe_assembly_uniformity's referee (Codex packet): the rewording-to-proposition is now the priority artifact-hygiene item."
   },

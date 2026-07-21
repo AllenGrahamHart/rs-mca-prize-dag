@@ -3030,3 +3030,20 @@ Validator PASS 1030/2294; corridor blast-radius 9/9; manifest
 779/13/1029 (hash refresh only); board unchanged 208/33/22. The
 kind-hold watch item RETIRES from future wave audits. QUEUE
 ADVANCES to descriptor-close.
+
+## 114 — 2026-07-21: DECISION 8 — DESCRIPTOR CLOSED (queue item 6)
+
+The wave-10 w10-C2 recommendation executed on the maintainer's flip:
+descriptor TARGET -> PROVED. Machinery landed from v5 and verified
+green ON MASTER before the ask: proof.md + verify.py
+(PRIZE_ROW_DESCRIPTOR_PASS pinned=1 dependencies=2
+wild_regressions=104 mutations=7/7; tool + wild_row_audit.json
+hash-pinned, master hashes == pin hashes). Wiring stays ev-only
+(the v5 descriptor->packaging req edge REMAINS REFUSED per the
+recorded demotion; the packaging amber w10-C1 untouched). One
+forced correction: rate_half_list_low_budget_certificate_generator
+status pin widened TARGET -> (TARGET, PROVED) (house pattern,
+dated). Validator PASS; manifest 780/13/1031; board critical
+surface unchanged (background TARGET retired). QUEUE ADVANCES to
+the two OUTWARD items: PR #750 correction note + upstream
+Proposal-1 (both need the maintainer's push).

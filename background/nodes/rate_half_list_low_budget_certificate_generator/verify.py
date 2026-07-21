@@ -40,7 +40,7 @@ def check_dag() -> None:
     for requirement in REQUIREMENTS:
         assert nodes[requirement]["status"] == "PROVED"
         assert (requirement, NODE, "req") in edges
-    assert nodes["descriptor"]["status"] == "TARGET"
+    assert nodes["descriptor"]["status"] in ("TARGET", "PROVED")  # descriptor closed 2026-07-21 (Decision 8); evidence supplier upgraded
     assert ("descriptor", NODE, "ev") in edges
     assert (NODE, "list_grand", "ev") in edges
 
