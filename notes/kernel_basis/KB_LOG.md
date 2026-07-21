@@ -3047,3 +3047,33 @@ dated). Validator PASS; manifest 780/13/1031; board critical
 surface unchanged (background TARGET retired). QUEUE ADVANCES to
 the two OUTWARD items: PR #750 correction note + upstream
 Proposal-1 (both need the maintainer's push).
+
+## 115 — 2026-07-21: QUEUE WALKED TO EMPTY — three outward actions
+## executed (mirror push + #750 note + upstream PR #1010)
+
+Queue items 7-8 on the maintainer's triple go: (1) MIRROR PUSHED
+c49991ce..26130f5a (wave-17/18 + Decisions 5-8 now public). (2) THE
+#750 CORRECTION NOTE POSTED (issuecomment-5032130941): both
+upstream-audit findings confirmed (imgfib demotion + minted
+l1_mixed_petal_amplification; H-scale dropped-not-subsumed),
+provenance linked, PMA-campaign heads-up given. (3) UPSTREAM PR
+#1010 OPENED (przchojecki/rs-mca, branch allen/audit-four-pair-
+exact-replay @ 17a7373c off his HEAD 18cfc199): the RANK-1
+crosswalk audit — independent exact-integer replay of the SS0.4
+four adjacent-pair crossings (all four locations + margins
+reproduced; KoalaBear B_*=274,980,728,111,395,087 cross-checked vs
+999b8f3a; Mersenne B_*=2^24-1 vs PR #993; the MCA-vs-list -1 pencil
+exponent pinned exact). FRESHNESS-CHECKED: his 4 new commits
+(Grande Finale v3 promotion wave) leave towards-prize.md + every
+four-pair-bearing file byte-identical -> based on his current HEAD.
+Files in his house style (audits note w/ agent disclosure +
+experimental/scripts verifier). VERIFIER ENGINEERING: naive
+math.comb battery blew the 5-min local wall; rebuilt on an EXACT
+BINOMIAL LADDER (one comb + exact-ratio neighbors, division-exact
+asserted) -> 21.5s, 4 pairs + 2 budget pins + 3/3 mutation
+controls, byte-identical under -O. Non-claims fence verbatim from
+upr_draft_1 (no safe side, no threshold, no transport of our
+n=2^41 family — the quadruple mismatch stated). Drafts 2-3 HELD as
+companions. THE MAINTAINER QUEUE IS EMPTY — remaining standing:
+PR #999/#1010 triage watch, KB #107 harness fix, roadmap
+divergence, wave-19 when Codex accumulates.
