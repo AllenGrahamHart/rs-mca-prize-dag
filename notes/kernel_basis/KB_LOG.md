@@ -3108,3 +3108,30 @@ cyclic family primitive; stay out of the Lean lanes; one
 audit-genre PR in flight at a time. RECOMMENDATION OF RECORD:
 submit NOTHING until #1010 triage; then the redrafted draft 3;
 optionally start the pruned-Q packet build meanwhile.
+
+## 117 — 2026-07-21: UPSTREAM PR #1013 OPENED — draft 3 REDRAFTED
+## (primitivity fix) and submitted on the maintainer's go
+
+The maintainer overrode the pacing hold ("redraft anything necessary,
+commit and push the PR when ready"). DRAFT 3 REDRAFTED per the upr2
+spec — the latent over-claim FIXED: the cyclic-rotation family is
+now presented as an explicit super-polynomial QUOTIENT-CELL prefix
+fiber (c | n/2, rotation on the length-N quotient; assigned to the
+quotient cell under his first-match ledger; NOT primitive; NOT a
+(Q)/SS0.5 falsifier), positioned as the complementary datum to his
+rowsharp_q_external_calibration.md negative primitive-scale hunts:
+super-poly fibers exist one cell over and are PAID -> the exact
+quotient payment (six-input #5) is load-bearing and "primitive" in
+the SS0.5 spec is operative. Census section: 13 chambers + scroll
+branch EMPTY (QFR1-3), 0/13 closed, SHA-pinned to source nodes
+(cited, not re-verified — no guessed symbolic models in his tree).
+NEW VERIFIER verify_quotient_cell_prefix_fiber_floor.py: stdlib
+exact-integer; pigeonhole self-test + endpoint instance (N=256,
+m=129, floor 242.65 bits > 2^238 at q=2^256) + cap-row instance
+(N=524288, m=264192, margin 75.079624 bits — reproduces the wave-9
+banked constant to 6dp) + 3/3 mutation controls; 3.3s; -O
+identical. Branch allen/audit-quotient-cell-prefix-fiber @ 7394eb47
+off his HEAD 18cfc199 (drift-checked at push). PR #1013. In flight
+upstream: #1010 (four-pair audit) + #1013 (this). Next submission
+candidate remains the pruned-Q toy packet (rank 2, build not
+started).
