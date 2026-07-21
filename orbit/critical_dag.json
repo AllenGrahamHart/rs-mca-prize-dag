@@ -1660,10 +1660,6 @@
    "to": "knife_edge_census"
   },
   {
-   "from": "list_adjacency_closing",
-   "to": "list_grand"
-  },
-  {
    "from": "list_crossing_localization",
    "to": "list_adjacency_closing"
   },

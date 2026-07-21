@@ -6,7 +6,17 @@
 
 ## Statement
 
-For each admissible row and constant m: exhibit adjacent delta with sup_U |Lambda(U, delta-1)| > eps*|F| >= sup_U |Lambda(U, delta)| (per the official m-quantifier). The determination's list half, previously unpriced — the exact mirror of adjacency_closing.
+For each admissible row, for the ordinary code (`m=1`), exhibit adjacent
+agreement indices `a0,a0+1` with
+
+```text
+L_1(a0) > floor(|F|/2^128) >= L_1(a0+1).
+```
+
+This is the exact remaining base-list closing obligation. The proved
+conditional node `list_large_m_scope_closure` transports the same adjacent pair
+to every constant interleaving arity; arbitrary `m` is not open content of
+this node.
 
 ## Attack surface
 
@@ -26,3 +36,10 @@ pricing, then supplies the priced two-column crossing arithmetic used here.
 ## Ledger (migrated notes)
 
 AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic — not promotable by referee argument; this is genuine open work.
+
+## Scope repair 2026-07-18
+
+The former statement quantified over every constant `m`, even though the
+12 July arity theorem consumes only its `m=1` instance. Narrowing this node to
+the ordinary crossing removes that redundant and unsupported burden while
+preserving every consumer through `list_large_m_scope_closure`.

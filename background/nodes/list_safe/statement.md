@@ -6,4 +6,7 @@
 
 ## Statement
 
-#Lambda(C^{==m}, delta) <= 2^-128 |F| above the window: ImgFib bound + codegree conversion + m-handling per the official quantifier.
+For the ordinary code (`m=1`), `#Lambda(C,delta) <= 2^-128 |F|` above the
+window, from the ImgFib bound and codegree conversion. Arbitrary arity is
+transported only after the adjacent base crossing, by
+`list_large_m_scope_closure`.

@@ -735,7 +735,7 @@
    "refs": [
     "proof_sketch/s7_list_side.md#5"
    ],
-   "statement": "#Lambda(C^{==m}, delta) <= 2^-128 |F| above the window: ImgFib bound + codegree conversion + m-handling per the official quantifier.",
+   "statement": "For the ordinary code (m=1), #Lambda(C,delta) <= 2^-128 |F| above the window, from the ImgFib bound and codegree conversion. Arbitrary arity is transported only after the adjacent base crossing by list_large_m_scope_closure.",
    "notes": "FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): TARGET -> CONDITIONAL; referee packet in nodes/list_safe/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them). | AMBER AUDIT 2026-07-06: SOUND (official m-handling wired; open work honestly imgfib). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
   },
   {
@@ -2099,7 +2099,7 @@
    "title": "The LIST adjacency endgame: worst-word list crosses eps*|F| at consecutive grid radii",
    "status": "CONDITIONAL",
    "key": true,
-   "statement": "For each admissible row and constant m: exhibit adjacent delta with sup_U |Lambda(U, delta-1)| > eps*|F| >= sup_U |Lambda(U, delta)| (per the official m-quantifier). The determination's list half, previously unpriced \u2014 the exact mirror of adjacency_closing. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
+   "statement": "For each admissible row, for the ordinary code (m=1), exhibit adjacent agreements a0,a0+1 with L_1(a0) > floor(|F|/2^128) >= L_1(a0+1). This is the exact base-list closing obligation; list_large_m_scope_closure transports the same pair to every constant arity. RATE SCOPE: the wired premises deliver the clean rates (1/4, 1/8, 1/16), while the rate-1/2 safe side remains open. || RATE SCOPE PROVENANCE (2026-07-06 annotation, carried through the 2026-07-21 Section C supersession): the rate-1/2 instance is additionally conditional on rate_half_band_closure (red); the pre-2026-07-06 unscoped wording over-claimed.",
    "attack_surface": "the hardness SWAPS sides vs MCA: unsafe witnesses are CONSTRUCTIVE (planted families = explicit codewords), the safe half is imgfib + integrality; the residue is worst-word extremality + exact planted arithmetic",
    "falsifier": "n/a (composite obligation)",
    "refs": [
@@ -12981,7 +12981,7 @@
   {
    "from": "m_sweep",
    "to": "list_safe",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "clique_cap",
@@ -13666,7 +13666,7 @@
   {
    "from": "m_handling",
    "to": "list_safe",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "a_regular_collapse",
@@ -14136,7 +14136,7 @@
   {
    "from": "list_adjacency_closing",
    "to": "list_grand",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "list_crossing_localization",

@@ -235,3 +235,20 @@ minted (TARGET, 16-file packet pin); baseline re-armed req (C1'-r3 +
 WCL-ZONE-ext) and flipped CONDITIONAL; `dli_prime_weighted_large_block_support`
 flipped CONDITIONAL on C2'' + baseline (req), with the route close and
 pre-registered demotion criteria in its conditional.md.
+
+## Decision 7 (2026-07-21): Section C ratified — the list-corridor re-architecture landed
+
+Ruled in-session (queue item 5). The wave-15 w15-C1 re-architecture (commit
+25b01f9a "Narrow list adjacency to base arity") is RATIFIED: the three req->ev
+downgrades (m_sweep->list_safe, m_handling->list_safe,
+list_adjacency_closing->list_grand) are adopted — the wave-15 audit's
+req-reachability analysis (list_grand/prize still req-reach
+list_adjacency_closing via list_large_m_scope_closure; the list_safe feeds
+were never in the prize req-closure) is the soundness basis. list_safe is
+narrowed to the ordinary m=1 case with arity transported by
+list_large_m_scope_closure. CUSTODY: master statements + conditional proofs
+snapshotted per-node (notes/pre_section_c_supersession_20260721.md); the
+operative 2026-07-06 RATE SCOPE conditionality pointer (rate-1/2 conditional
+on rate_half_band_closure) is RE-APPENDED to the adopted
+list_adjacency_closing statement as a dated annotation; list_grand's text was
+already identical at pin (annotation intact).

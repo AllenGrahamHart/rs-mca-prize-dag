@@ -3011,3 +3011,22 @@ c1r3 (evidence-backed), c2pp (F-round 2), 10 finite WCL emptiness
 slots. Validator PASS 1030/2294; manifest 779/13/1029; lane battery
 green (c1r3, promoted baseline, guardrail, M4 assembly). Decision 6
 recorded in MAINTAINER_DECISIONS. QUEUE ADVANCES to Job A.
+
+## 113 — 2026-07-21: DECISION 7 — SECTION C LANDED (list-corridor
+## re-architecture; the last wave-15 structural hold cleared)
+
+Queue-walk item 5. The maintainer ratified w15-C1: 3 req->ev kind
+flips landed (m_sweep/m_handling->list_safe,
+list_adjacency_closing->list_grand; obligations preserved per the
+wave-15 req-reachability analysis, confirmed at every pin waves
+16-18); list_safe narrowed to m=1 + arity transport via
+list_large_m_scope_closure; 7 corridor files taken from pin
+b5e5e884. CUSTODY: per-node provenance snapshots; the 2026-07-06
+RATE SCOPE conditionality pointer (rate-1/2 <- rate_half_band_
+closure red) RE-APPENDED to the adopted list_adjacency_closing dag
+statement (the pin's rewrite had weakened it to "remains open");
+list_grand identical at pin (annotation intact, untouched).
+Validator PASS 1030/2294; corridor blast-radius 9/9; manifest
+779/13/1029 (hash refresh only); board unchanged 208/33/22. The
+kind-hold watch item RETIRES from future wave audits. QUEUE
+ADVANCES to descriptor-close.

@@ -1,3 +1,38 @@
+# Provenance snapshot (2026-07-21): statement.md + conditional.md immediately
+# before the Section C list-corridor supersession (maintainer-ratified this
+# date; wave-15 w15-C1). Preserved per custody #104.
+
+## statement.md
+# list_adjacency_closing
+
+- **status:** see dag.json (single source of truth; dag status CONDITIONAL) [header retrofit 2026-07-10, catch #69 — was: TARGET]
+- **closure:** proof
+- **refs (legacy repo):** ['proof_sketch/s7_list_side.md']
+
+## Statement
+
+For each admissible row and constant m: exhibit adjacent delta with sup_U |Lambda(U, delta-1)| > eps*|F| >= sup_U |Lambda(U, delta)| (per the official m-quantifier). The determination's list half, previously unpriced — the exact mirror of adjacency_closing.
+
+## Attack surface
+
+the hardness SWAPS sides vs MCA: unsafe witnesses are CONSTRUCTIVE (planted families = explicit codewords), the safe half is imgfib + integrality; the residue is worst-word extremality + exact planted arithmetic
+
+## Falsifier
+
+n/a (composite obligation)
+
+## Weakening Applied 2026-07-06
+
+The direct `worst_word_planted` input is support/evidence for this node, not a
+separate logical premise.  The exact arithmetic child
+`list_planted_arithmetic` already consumes worst-word extremality and challenger
+pricing, then supplies the priced two-column crossing arithmetic used here.
+
+## Ledger (migrated notes)
+
+AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic — not promotable by referee argument; this is genuine open work.
+
+## conditional.md
 # list_adjacency_closing conditional proof
 
 - **status:** CONDITIONAL
@@ -13,20 +48,24 @@
 Convention/evidence guards:
 
 - `worst_word_planted`
+- `rules_m_reading`
 - `rate_half_coverage_gap`
 
 ## Claim
 
-Conditional on the predicate nodes, for each admissible row, the ordinary code
-has adjacent agreement indices `a0,a0+1` satisfying
+Conditional on the predicate nodes, for each admissible row and each constant
+interleaving arity `m`, there is an adjacent agreement-index `delta` satisfying
 
 ```text
-L_1(a0) > floor(|F|/2^128) >= L_1(a0+1).
+sup_U |Lambda(U, delta - 1)| > eps*|F| >= sup_U |Lambda(U, delta)|.
 ```
 
 ## Proof
 
-For a fixed admissible row, `list_crossing_localization`
+`rules_m_reading` fixes the quantifier convention: the list challenge is a
+family of determinations indexed by constant `m`.
+
+For a fixed admissible row and fixed constant `m`, `list_crossing_localization`
 proves that the worst-word list-size function is integer-valued and monotone in
 the agreement-index convention. Therefore once the relevant window is bracketed
 there is a unique adjacent crossing of `eps*|F|`.
@@ -45,17 +84,13 @@ closes the clean-rate corridor from the list-side arithmetic columns, while
 `rate_half_coverage_gap`. Together they cover every admissible row class in the
 current split.
 
-Thus, for each row, the exact planted/challenger arithmetic
+Thus, for each row and constant `m`, the exact planted/challenger arithmetic
 exhibits the last unsafe index, the safe ledger controls the next index, and
 monotonicity turns those two inequalities into the adjacent crossing displayed
 above.
 
 If any predicate fails, the parent does not claim more than bracket-grade
 information for the corresponding row or band.
-
-The proved `list_large_m_scope_closure` theorem is deliberately outside this
-packet: it consumes this base crossing and supplies the full constant-`m`
-family to `list_grand`.
 
 ## Weakening
 
