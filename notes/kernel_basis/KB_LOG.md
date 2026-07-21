@@ -3169,3 +3169,59 @@ anchors target the JSON. Branch allen/rowsharp-q-pruned-toy-packet
 #1019 — the full upr2 pipeline is SUBMITTED; no further candidates
 clear the bar (HGE4->SP stays held). Build materials banked at
 notes/upstream_pr_proposals_20260721/pruned_q_packet/.
+
+## 119 — 2026-07-21: ROADMAP R3 BANKED (notes/roadmap_r3_20260721/)
+## — 18-agent ultracode review of both repos; the sweeping-vs-paying
+## thesis; U1/U2/U3 unifying-lemma candidates; four-track plan
+
+Maintainer-directed deep review (workflow: 6 sweeps -> gap matrix +
+technique dossier -> 4 lens drafts -> adversarial fact-check +
+completeness critic -> synthesis; 18 agents, 0 errors; all
+deliverables banked: ROADMAP_R3.md + gap_matrix + technique_dossier
++ completeness_critic + factcheck_summary). HEADLINES: (1) the two
+walls (Sidon/Fourier payment = F2 summit/his input 3; the balance
+line) did NOT move; everything else compressed to a finite priced
+falsifiable surface — the plan shifts from exploration to sequenced
+purchase with terminal risk probed FIRST. (2) META-DATUM: 4 waves,
++195 nodes, +709 edges, ZERO red closures — every technique in
+either tree is an EXHAUSTION tool (sweeping structure), none has
+ever PAID a sharp constant; the sweeping-vs-paying distinction is
+the central open methodological problem. (3) The recurring-
+technique thesis: cyclotomic-norm/engineered-prime exclusions (~15
+instances, 3 lanes, the only outright closer), extended-window
+repricing, chart-carried-descent-true/row-uniform-false (twice),
+exact staircases, vacuous saturation — ALL one phenomenon: official
+rows are engineered (v2(q-1)>=41) so bounded-complexity witness
+classes are arithmetically overdetermined; transfer fails exactly
+at the quasi-random cores. (4) THREE UNIFYING LEMMAS posed
+attackably: U1 official-row low-complexity emptiness (broom not
+key; ceiling = the 4.73-4.83-bit theorem cap); U2 chart-carried
+descent master lemma (axiomatize P, Lean firstocc kernels, K4/COL/
+qa22 as corollaries; the l1 route); U3 pay-structured-first +
+exchange compression w/ the FD composition clause (c2pp bulk
+identity = first instance; DSP8 Sidon-strip harness = cheapest
+adjudication; joint-brief candidate on his input 3). (5)
+IDENTIFICATION DISCIPLINE: exactly ONE proved cross-tree
+identification (his Q-atom == our F2 zero-prefix); Q<->band_closure
+is analogy-only (fatal mismatches); count honestly 1 proved / 1
+lead / 1 conjecture. (6) TRUE CRITICAL PATH = l1_mixed_petal_
+amplification (both grands, zero movement 3 waves); wired
+bottlenecks = {l1, ww, adjacent_crossing, band_closure} + dossier;
+RK route surgery would prune exactly 18/22 (H1 = price RK by
+attack). (7) PLAN: N1-N10 near-term (ww F-round 1 FIRST = the D0
+coin-flip gate; non-poly kill probe; route-cut imports; spec-
+fidelity audit; falsifier POWER audit), tracks A (conservative) /
+B (transfer: DSP8 max-P<=24 flagship, HGE4 odd-width, summit
+census; D1 adjudication wk 3-4) / C (convergence: vendor-before-
+census law, rolling grammar crosswalk, l1 standing lane) / H
+(hedges incl. D3 self-kill wk 14 — the roadmap is itself an
+experiment). (8) Progress metric REFRAMED: bits of remaining
+delta*-bracket jointly over both trees (a floor demotion RELOCATES
+delta*, doesn't end the program — fallback recorded). (9) Decision
+queue: 14 maintainer items (Modal envelope $400, Job A line item,
+#493/QA.22 conventions ruling reprices ww, PR pacing, posture date
+wk 14, F2 standing-rule re-scope...). (10) Stale-memory catch: the
+deferred-v13 queue was emptied 5-for-5 on 07-10 (ledger-confirmed)
+— memory corrected. End-state forecast (planning priors): partial-
+credit conditional dossier ~85%, list_grand ~25%, both grands ~10%
+— hence dossier work front-loaded.
