@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[3]
 DAG = ROOT / "dag.json"
 # w7-C5 retarget: master keeps the C1' pose in the dli node's notes
 C1 = ROOT / ("critical/nodes/dli_prime_weighted_large_block_support/notes/C1PRIME_LEVEL_SCALED_POSE.md")
-WCL = ROOT / "background/nodes/dli_wcl_zone_coverage/statement.md"
+WCL = ROOT / "critical/nodes/dli_wcl_zone_coverage/statement.md"  # moved at the 2026-07-21 dli amber ceremony (partition law)
 LATTICE = ROOT / "critical/nodes/dli_prime_weighted_large_block_support/PRO_DLI_CLOSE_6.md"
 NODE = "dli_wcl_raw_ledger_interface_guardrail"
 ZONE = "dli_wcl_zone_coverage"

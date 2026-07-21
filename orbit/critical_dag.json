@@ -202,6 +202,16 @@
    "title": "DLI Artin-Schreier conductor criterion"
   },
   {
+   "id": "dli_c1r3_gated_envelope_bound",
+   "label": "UNPROVED",
+   "title": ""
+  },
+  {
+   "id": "dli_c2pp_joint_reserve",
+   "label": "UNPROVED",
+   "title": "C2'' DLI joint reserve: X(R) <= 2^21 product_j E_U[rho_j]"
+  },
+  {
    "id": "dli_circle_log_integral_constant",
    "label": "PROVED",
    "title": "DLI circle log-integral constant"
@@ -215,6 +225,11 @@
    "id": "dli_et_peak_mass_reduction",
    "label": "PROVED",
    "title": "DLI Erdos-Turan peak-mass reduction"
+  },
+  {
+   "id": "dli_marginal_baseline100_coverage",
+   "label": "CONDITIONAL",
+   "title": "DLI marginal baseline assembly: C1' plus WCL-ZONE gives product of level means at most 2^100"
   },
   {
    "id": "dli_odd_phase_budget_ledger_soundness",
@@ -233,7 +248,7 @@
   },
   {
    "id": "dli_prime_weighted_large_block_support",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "CONJECTURE B-WEAK: the endpoint budget for the U-weighted joint skew mass at the official rows (the corridor floor)"
   },
   {
@@ -250,6 +265,61 @@
    "id": "dli_truncated_log_transfer",
    "label": "PROVED",
    "title": "DLI truncated-log discrepancy transfer"
+  },
+  {
+   "id": "dli_wcl_slot_1_5_emptiness",
+   "label": "UNPROVED",
+   "title": "WCL slot 1,5 emptiness"
+  },
+  {
+   "id": "dli_wcl_slot_1_6_emptiness",
+   "label": "UNPROVED",
+   "title": "WCL slot 1,6 emptiness"
+  },
+  {
+   "id": "dli_wcl_slot_1_7_emptiness",
+   "label": "UNPROVED",
+   "title": "WCL slot 1,7 emptiness (extended)"
+  },
+  {
+   "id": "dli_wcl_slot_1_8_emptiness",
+   "label": "UNPROVED",
+   "title": "WCL slot 1,8 emptiness (extended)"
+  },
+  {
+   "id": "dli_wcl_slot_2_7_emptiness",
+   "label": "UNPROVED",
+   "title": "WCL slot 2,7 emptiness"
+  },
+  {
+   "id": "dli_wcl_slot_2_8_emptiness",
+   "label": "UNPROVED",
+   "title": "WCL slot 2,8 emptiness (extended)"
+  },
+  {
+   "id": "dli_wcl_slot_2_9_emptiness",
+   "label": "UNPROVED",
+   "title": "WCL slot 2,9 emptiness (extended)"
+  },
+  {
+   "id": "dli_wcl_slot_4_10_emptiness",
+   "label": "UNPROVED",
+   "title": "WCL slot 4,10 emptiness (extended)"
+  },
+  {
+   "id": "dli_wcl_slot_4_11_emptiness",
+   "label": "UNPROVED",
+   "title": "WCL slot 4,11 emptiness (extended)"
+  },
+  {
+   "id": "dli_wcl_slot_4_9_emptiness",
+   "label": "UNPROVED",
+   "title": "WCL slot 4,9 emptiness"
+  },
+  {
+   "id": "dli_wcl_zone_coverage",
+   "label": "CONDITIONAL",
+   "title": "DLI primitive-ledger zone coverage: W_cl is at most 1/32 at every official production level"
   },
   {
    "id": "dyadic_profile_evaluation",
@@ -2490,6 +2560,18 @@
    "to": "petal_small_scale_staircase_census"
   },
   {
+   "from": "dli_wcl_zone_coverage",
+   "to": "dli_marginal_baseline100_coverage"
+  },
+  {
+   "from": "dli_marginal_baseline100_coverage",
+   "to": "dli_prime_weighted_large_block_support"
+  },
+  {
+   "from": "dli_c2pp_joint_reserve",
+   "to": "dli_prime_weighted_large_block_support"
+  },
+  {
    "from": "l1_mixed_petal_amplification",
    "to": "imgfib"
   },
@@ -2518,8 +2600,48 @@
    "to": "list_adjacency_closing"
   },
   {
+   "from": "dli_wcl_slot_1_5_emptiness",
+   "to": "dli_wcl_zone_coverage"
+  },
+  {
+   "from": "dli_wcl_slot_1_6_emptiness",
+   "to": "dli_wcl_zone_coverage"
+  },
+  {
+   "from": "dli_wcl_slot_2_7_emptiness",
+   "to": "dli_wcl_zone_coverage"
+  },
+  {
+   "from": "dli_wcl_slot_4_9_emptiness",
+   "to": "dli_wcl_zone_coverage"
+  },
+  {
    "from": "f3_h3_dsp8_correlation_bound",
    "to": "f3_h3_mobius_excess_half"
+  },
+  {
+   "from": "dli_wcl_slot_1_7_emptiness",
+   "to": "dli_wcl_zone_coverage"
+  },
+  {
+   "from": "dli_wcl_slot_1_8_emptiness",
+   "to": "dli_wcl_zone_coverage"
+  },
+  {
+   "from": "dli_wcl_slot_2_8_emptiness",
+   "to": "dli_wcl_zone_coverage"
+  },
+  {
+   "from": "dli_wcl_slot_2_9_emptiness",
+   "to": "dli_wcl_zone_coverage"
+  },
+  {
+   "from": "dli_wcl_slot_4_10_emptiness",
+   "to": "dli_wcl_zone_coverage"
+  },
+  {
+   "from": "dli_wcl_slot_4_11_emptiness",
+   "to": "dli_wcl_zone_coverage"
   },
   {
    "from": "xr_tangent_support_mismatch_bridge",
@@ -2528,6 +2650,10 @@
   {
    "from": "xr_true_tangent_coordinate_injection",
    "to": "xr_clean_residual_any_gate"
+  },
+  {
+   "from": "dli_c1r3_gated_envelope_bound",
+   "to": "dli_marginal_baseline100_coverage"
   }
  ]
 }

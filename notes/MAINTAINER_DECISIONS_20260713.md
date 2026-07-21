@@ -219,3 +219,19 @@ request. Standing item #260 (9 queued sub-$1 jobs) is settled in principle:
 each re-screens under the time rule. The ruled text lives in
 notes/PRIZE_COMPUTE_REQUESTS.md ("Maintainer ruling (2026-07-21)"); Codex
 should adopt it on its next master merge.
+
+## Decision 6 (2026-07-21): amber-2 accepted — the dli amber ceremony executed
+
+Ruled in-session (queue item 3). The maintainer accepts **amber-2** — any
+C1'-r3 row with `K'_r3 >= 2` above the iid asymptote, measured on the
+EXTENDED ledger — as the standing watch line for all future evidence rounds
+on the dli lane (r3b report condition (iii); conditions (i)/(ii) were already
+met). Calibration basis: two survived rounds, worst K' = 1.4016 (2.85x margin
+under the never-moved literal-4 kill), zero rows ever >= 2, the [1,2) legacy
+band's extreme-value plateau (~1.4, c1r3b-C4), and the extended-window
+repricing of the accident row 918552577 (3.000 -> 1.333) as the measurement
+of record. CEREMONY EXECUTED same session: `dli_c1r3_gated_envelope_bound`
+minted (TARGET, 16-file packet pin); baseline re-armed req (C1'-r3 +
+WCL-ZONE-ext) and flipped CONDITIONAL; `dli_prime_weighted_large_block_support`
+flipped CONDITIONAL on C2'' + baseline (req), with the route close and
+pre-registered demotion criteria in its conditional.md.

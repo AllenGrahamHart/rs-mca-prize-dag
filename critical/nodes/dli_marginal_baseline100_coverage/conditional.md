@@ -97,3 +97,15 @@ k*2^41+1) — no downstream row is lost (legitimacy: the weight-3/4
 ambient exclusions + ell-2 siblings + Newton short-window). Node
 status stays TARGET pending the dli amber ceremony (watch conditions
 recorded on the C1'-r3 block).
+
+## Addendum (2026-07-21): re-armed and flipped CONDITIONAL at the dli amber ceremony
+
+The 2026-07-13 demotion (req->ev after the C1'-r2 T-KILL) is reversed as of
+today: the maintainer accepted amber-2 (Decision 6) and the C1' predicate is
+re-supplied by the twice-survived successor `dli_c1r3_gated_envelope_bound`
+(official gate v_2(q-1) >= 41, extended window w_max = L+7). Both premises
+are now wired req: C1'-r3 (per-level envelope, extended ledger) and
+`dli_wcl_zone_coverage` (zone mass W_ext <= 1/32 via the EXTENDED slot set —
+the window extension L+5 -> L+7 on both sides keeps the 41/8 arithmetic
+verbatim). Status TARGET -> CONDITIONAL under the leaf-conditional law; the
+assembly proof above is unchanged.

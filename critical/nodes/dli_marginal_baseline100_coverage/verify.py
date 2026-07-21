@@ -1,7 +1,12 @@
-# PARKED PENDING AMBER (w6-C10; v2 swap at wave-7 import, w7-C1:
-# tower-pinned dims + 13 mutations — the v1 pinned the WRONG
-# schedule). Becomes this node's verify.py VERBATIM at the
-# maintainer's amber ceremony.
+# PROMOTED AT THE AMBER CEREMONY (2026-07-21, maintainer Decision 6) from
+# pending_amber_verify.py per its w6-C10 parking banner ("becomes this node's
+# verify.py VERBATIM at the maintainer's amber ceremony"). Two FORCED
+# corrections applied under the standing forced-corrections authority, both
+# downstream of banked history: (1) C1 successor id dli_dyadic_k_core ->
+# dli_c1r3_gated_envelope_bound (the r2 pose was REFUTED 2026-07-13; the
+# twice-survived r3 successor was minted at this ceremony); (2) the ZONE
+# status pin tolerates CONDITIONAL (the 2026-07-19 zone amber; same pattern
+# as the sibling wcl verifiers).
 #!/usr/bin/env python3
 """Exact fail-closed audit of the 100-bit DLI marginal assembly."""
 
@@ -14,7 +19,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 TARGET = "dli_marginal_baseline100_coverage"
-C1 = "dli_dyadic_k_core"
+C1 = "dli_c1r3_gated_envelope_bound"
 ZONE = "dli_wcl_zone_coverage"
 TOWER_T = 2**33
 TOWER_DIMENSIONS = [2 ** (32 - j) for j in range(33)] + [1]
@@ -124,8 +129,8 @@ def main() -> None:
 
     structural = {
         "baseline_conditional": nodes[TARGET]["status"] == "CONDITIONAL",
-        "c1_target": nodes[C1]["status"] == "TARGET",
-        "zone_target": nodes[ZONE]["status"] == "TARGET",
+        "c1_target": nodes[C1]["status"] == "TARGET",  # the r3 successor red
+        "zone_target": nodes[ZONE]["status"] in ("TARGET", "CONDITIONAL"),
         "c1_req": (C1, TARGET, "req") in edges,
         "zone_req": (ZONE, TARGET, "req") in edges,
         "factor_pin": "E_j <= 41/8" in proof,

@@ -2980,3 +2980,34 @@ merge (watch at wave-19 audit). Manifest 777/13/1025; CR-file
 consumers (legendre, joint_star, single_quotient) + the 3 screen
 nodes all green. No dag.json change. QUEUE ADVANCES to amber-2
 acceptance -> the dli amber ceremony.
+
+## 112 — 2026-07-21: DECISION 6 — THE DLI AMBER CEREMONY EXECUTED
+## (amber-2 accepted; dli + baseline CONDITIONAL; lane surfaces as
+## 12 finite leaves)
+
+Queue-walk item 3. The maintainer accepted amber-2 (K'_r3 >= 2 above
+the iid asymptote, EXTENDED ledger = the measurement of record) as
+the standing watch line — condition (iii) of the r3b report; (i)/(ii)
+were met. CEREMONY: dli_c1r3_gated_envelope_bound MINTED (TARGET,
+critical; the twice-survived official-gated extended-window C1'
+successor; verify.py pins the 16-file c1r3 program packet + exact
+worst-row rationals r1 1058880560632659/1033540934303744 ~1.0245, r2
+35507502101438673/25332747971067904 ~1.4016 + amber-2/literal
+headroom + Decision-6 marker). REWIRED req: c1r3 + wcl_zone ->
+baseline; baseline + c2pp -> dli. FLIPS: baseline TARGET->CONDITIONAL
+(the parked pending_amber_verify.py PROMOTED to verify.py per its
+w6-C10 banner, with 2 forced corrections: C1 successor id
+dyadic_k_core->c1r3 [r2 REFUTED 07-13], zone pin tolerates
+CONDITIONAL [07-19 amber]; PASS 13/13 negative controls); dli
+TARGET->CONDITIONAL (conditional.md = the route close of record:
+B-WEAK 2^121 <= C2'' + baseline; supersedes the M4-era 3-predicate
+wiring per #181; P-CONS/P-FIELD/P-ROWS/P-CONV pins carried; 5
+pre-registered demotion criteria; amber-2 standing watch). PARTITION
+LAW: 12 lane nodes moved background->critical (folders + 18 dag
+refs + 1 guardrail path forced-correction). BOARD (the honest
+surfacing): 208 PROVED / 33 CONDITIONAL / 22 UNPROVED — the
+monolithic dli red is replaced on the surface by its TRUE open set:
+c1r3 (evidence-backed), c2pp (F-round 2), 10 finite WCL emptiness
+slots. Validator PASS 1030/2294; manifest 779/13/1029; lane battery
+green (c1r3, promoted baseline, guardrail, M4 assembly). Decision 6
+recorded in MAINTAINER_DECISIONS. QUEUE ADVANCES to Job A.
