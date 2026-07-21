@@ -397,6 +397,213 @@ The necklace theorem still applies in the retained strip, but no additional
 positive debit is currently consumed. The dual-gap theorem does not reach
 the remaining `h<2e+1` near-third strip or any `e>=h` width.
 
+The proved `f3_hge4_near_third_kummer_midpoint_pencil` further reduces the
+retained near-third strip. The complement endpoint is a single scalar:
+
+```text
+W=ZS+lambda y^c,       c=h+e.
+```
+
+Reducing `DW=1-y^m` modulo `S` and using `2h+c=m` gives
+
+```text
+S | 1-(1-a^2lambda)y^m.                            (KMP2)
+```
+
+Hence `S-ay^h,S,S+ay^h` form a three-member divisor pencil, with the outside
+members dividing `1-y^m` and the midpoint dividing one twisted binomial. Over
+`F_q` containing `mu_m`, every irreducible midpoint factor has one Kummer
+degree `d` satisfying
+
+```text
+d | gcd(m,h)=2^v_2(h).                             (KMP4)
+```
+
+Frobenius multiplies every midpoint root by one element `eta` of order `d`.
+If `d>1`, then `d|h` makes `eta^h=1`, so `eta` stabilizes both
+`S-ay^h` and `S+ay^h`. This contradicts primitive-pair status. Hence `d=1`
+and the midpoint splits over the base field at every width. This is an exact
+candidate router, not an orbit debit; the retained pencil aggregate remains
+open.
+
+The proved `f3_hge4_kummer_midpoint_trace_power_gate` removes the apparent
+free Kummer scalar. If
+
+```text
+u=[y^h]U,       v=[y^h]V,       x=v/u,
+```
+
+then `x in mu_m\{+/-1}` and endpoint comparison gives
+
+```text
+kappa=-(1+x)^2/(8x)=-(x+x^(-1)+2)/8.              (KTP1)
+```
+
+The primitive base-field midpoint conclusion makes `kappa` an `m`-th power.
+Thus, with `tau=x+x^(-1)` and the Dickson recursion `C_m(tau)=x^m+x^(-m)`,
+every survivor passes
+
+```text
+C_m(tau)=2,       tau!=+/-2,
+(-(tau+2)/8)^((p-1)/m)=1.                         (KTP3)
+```
+
+There are exactly `(m-2)/2` trace candidates before the power test. This is a
+one-dimensional candidate filter; it does not bound the number of primitive
+pencils above a surviving trace.
+
+Every passing ratio `x` is also a square in `F_p^*`. If `(p-1)/m` is odd,
+which can occur only at the top exact-ratio level, this means
+`x in mu_(m/2)` and leaves only `m/4-1` trace candidates before the full power
+test. At proper dyadic levels the square condition is automatic.
+
+The proved `f3_hge4_kummer_trace_power_gcd_compiler` makes this scalar
+prefilter exact without enumerating the traces. Let
+
+```text
+C_m(X)-2=(X^2-4)Q_m(X)^2,       q=(p-1)/m,
+M=m if q is even, and M=m/2 if q is odd.
+```
+
+The polynomial `Q_M` is squarefree and split, with exactly the allowed
+nontrivial trace values as roots. Therefore
+
+```text
+N_trace(m,p)
+ =deg gcd(Q_M(X), (-(X+2)/8)^q-1).                 (KTG4)
+```
+
+The power is evaluated modulo `Q_M`, whose degree is at most `m/2-1`.
+Factoring the gcd recovers every scalar trace ID. Exact nonconstant controls
+at `(m,p)=(8,137),(16,593),(32,1249)` show that this compiler is not an
+emptiness theorem; it still supplies no trace-fiber orbit debit.
+
+The proved `f3_hge4_cyclotomic_norm_quarter_width_exclusion` supersedes that
+trace-fiber task on the consumed HGE4 route. For a primitive exact-level top
+shift pair, the first power-sum difference is a nonzero cyclotomic integer.
+The `floor(h/2)` odd power-sum congruences force that integer's norm to be
+divisible by `p^floor(h/2)`, while odd-frequency Parseval gives the upper
+bound
+
+```text
+|Norm(z)|<=(sum_t(f_t-f_(t+m/2))^2)^(m/4)<=(4h)^(m/4).
+```
+
+At the sole sharp odd width `h=m/4+1`, the Belyi midpoint degree and the
+second power sum improve `4h` to `4h-4=m`. Since the official assumptions
+give the strict inequality `p>m^2`, the norm bounds are incompatible
+throughout
+
+```text
+m/4<=h<m/3.
+```
+
+Consequently
+
+```text
+E_h^prim(m,p)=0                         for m/4<=h<m/3,
+sum_(h=4)^(m/4-1) E_h^prim(m,p)<=(21/2)m^2           (ERT4'''')
+```
+
+is now the strongest exact-level target. This deletes the equality width and
+the whole retained Kummer near-third strip, including `(32,9,5)`; its former
+necklace debit `286` is no longer charged. The remaining widths satisfy
+`e=m-3h>=h+4`. The theorem is a width exclusion, not a bound for this
+lower-quarter aggregate.
+
+The proved `f3_hge4_cyclotomic_haar_near_quarter_swap_router` continues the
+same norm method below one quarter. Write `h=m/4-d`, `d>=1`, and let
+
+```text
+L=sum_t(f_t+f_(t+m/2))^2
+```
+
+be the squared antipodal defect. The first norm estimate gives
+
+```text
+L<4(d+1)log m.
+```
+
+Put
+
+```text
+R=log m,       X=4(d+1)R,
+T=ceil(log_2 X),       B=2^T.
+```
+
+If
+
+```text
+B<h,       BX<m^(1-(4d+8B)/m),                      (CHQ2-exact)
+```
+
+iterating norm divisibility and odd-frequency Parseval through the dyadic
+Haar collapses forces `L=0`. Thus every pair in this growing near-quarter
+band is antipodal-swap. The proved swap router then makes every even width
+empty and sends every odd width to the half-order perfect-square support
+problem. The exact condition first holds at `m=2^15`, admits `1<=d<=2`
+there, and admits `1<=d<=9223` at `m=2^41`. The simpler condition
+`64(d+1)^2(log m)^2<m` implies the exact test and reaches `d=6521` at the top
+level. This removes the free class in the band but supplies no odd swap count.
+
+The proved `f3_hge4_swap_norm_haar_band_exclusion` supplies that missing swap
+deletion and a much wider swap-free range. An odd primitive swap support has
+odd Parseval energy exactly `h`, so its cyclotomic norm satisfies
+
+```text
+p^((h-1)/2)<=|Norm(z)|<=h^(m/4).
+```
+
+Hence every swap survivor must satisfy
+
+```text
+m^(h-1)<h^(m/4).                                   (SNH1)
+```
+
+For `m=2^s` and `h=m/4-d`, the swap class is therefore empty whenever
+
+```text
+s(d+1)<=m/2,
+1<=d<=floor(m/(2s))-1.                             (SNH3)
+```
+
+At `m=2^41` this reaches `d=26,817,356,774`. The narrower Haar band lies
+inside this range. Since the Haar theorem routes every pair there to swap,
+that entire band is now empty at both parities.
+
+The proved `f3_hge4_vandermonde_defect_band_exclusion` replaces that small
+production cutoff by a much larger one. Put `R=log m` and
+`x=4(d+1)R/m`. Retaining the cubic Taylor term in the first norm estimate
+gives, for `x<=1`,
+
+```text
+L<Y_3=4((d+1)R-d)-8(d+1)^2R^2/m
+       +(32/3)(d+1)^3R^3/m^2.
+```
+
+On the other hand, the even moments, including the size equation, form a
+consecutive Vandermonde system on the nonzero antipodal-defect coordinates.
+Therefore a nonzero defect satisfies
+
+```text
+L>=floor((h-1)/2)+2.
+```
+
+Consequently every width satisfying
+
+```text
+x<=1,       Y_3<=floor((h-1)/2)+2                 (VDE2)
+```
+
+is routed to swap and then deleted by the swap-norm theorem. At `m=2^41`
+this completely deletes `1<=d<=2,677,220,820`. The simpler linear condition
+`4((d+1)R-d)<=floor((h-1)/2)+2` remains a sufficient sub-band. The live
+lower quarter now has three exact zones:
+
+1. the Vandermonde-defect band: no primitive pair;
+2. the rest of the swap-norm band: free class only;
+3. deeper widths: free and swap classes both remain.
+
 ## Posedness and falsifiers
 
 The consumer names all five deletion predicates, but the current repository
@@ -413,8 +620,7 @@ whose correctly stripped F-4-minimal norm-gate aggregate is greater than
 ## Nonclaims
 
 - Empirical zero on the banked cells is not a uniform theorem.
-- No constant width cap is assumed; the proved exact-level cap is
-  `floor(2m/7)`.
+- No constant width cap is assumed; the proved exact-level cap is `m/4-1`.
 - The first-moment vacancy curve is evidence only.
 - The primitive shift-pair estimate `(PSA3)` is not proved here.
 - The primitive orbit aggregate `(OAR2)` is not proved here.
@@ -433,5 +639,20 @@ whose correctly stripped F-4-minimal norm-gate aggregate is greater than
   systems.
 - The dual-gap exclusion makes no claim for `h<2e+1` or `e>=h`; the necklace
   payment does not settle that retained region.
+- The Kummer midpoint-pencil router does not count the retained pencils; its
+  base-field splitting conclusion does not put midpoint roots in the
+  original `mu_m` torsor.
+- The trace-power gate is necessary only; one trace may support multiple
+  Belyi necklaces or primitive pencils before the quarter-width exclusion is
+  applied.
+- The trace-power gcd counts scalar IDs, not primitive pencils. A nonconstant
+  gcd is not an HGE4 survivor certificate; the consumed near-third widths are
+  nevertheless empty by the later cyclotomic-norm theorem.
+- The cyclotomic-norm theorem does not estimate any width below `m/4` or
+  prove `(ERT4'''')`.
+- The cyclotomic-Haar router alone does not count odd swaps, but the later
+  swap-norm theorem deletes them throughout its band.
+- The swap-norm theorem does not count free pairs outside the empty Haar
+  overlap or control widths below its cutoff.
 - Reopening F-4 minimality changes the counted object and requires DAG
   surgery.

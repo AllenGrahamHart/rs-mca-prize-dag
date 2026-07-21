@@ -2889,3 +2889,41 @@ mobius PASS); manifest 704/10/955 self-test PASS. No Modal re-pin
 needed (all wave-17 verifiers are lightweight cert-readers; local
 evidence comprehensive; avoids the wave-16 heavy-MITM 1-CPU timeout
 artifact). Details: WAVE17_AUDIT_FINDINGS.md.
+
+## 109 — 2026-07-21: WAVE-18 INTEGRATED — HGE4 cap m/4-1 + XR
+## first-shell exclusion + c1c2 one-antipodal ladder; DSP8 parity
+## package HELD (w18-C1, custody conflict)
+
+Audit a5e4b3c (79/79 replays, 5/5 mutations, validator PASS) + master
+integration of pin b5e5e884 (46 commits). +35 PROVED background
+nodes (HGE4 7 / XR 13 / c1c2 14 / DSP8 1), +105 edges imported,
+0 status flips, 0 closures. HGE4: the exact-level width cap
+COLLAPSES floor(2m/7) -> m/4-1 (cyclotomic-norm quarter-width
+exclusion kills the whole near-third strip); swap class EMPTY
+through the near-quarter band (m^(h-1) >= h^(m/4)); Vandermonde
+band cubically sharpened; NEW residual ERT4'''' = the lower-quarter
+aggregate sum_(h=4)^(m/4-1) E_h^prim <= (21/2)m^2 + deeper-width
+free/swap zones. XR: 13 nodes compress the split-pencil route —
+(P3E5) NO primitive full-core trade of ANY rank on the first shell
+at any prize row; P-A ranks UNMOVED (5,5,5/17,17,15); P-B untouched;
+no #158-type slips. c1c2: one-antipodal Fourier/collision/torsion
+gate ladder + Stepanov cap #Y_a < 2^29; no chamber closed; nonclaim
+intact. DSP8: energy-router node imported (clean); the PARITY
+PACKAGE HELD ENTIRELY = w18-C1 REFUSAL-GRADE custody conflict — it
+REWRITES 4 statements incl. 2 master-held (correlation_bound,
+official_order_template_survivor) + renumbers joint_star/single_
+quotient in place + 2 req edges + a verifier with a NEGATIVE MARKER
+PIN asserting the old (319/153) formula is ABSENT — #155 annotate-
+never-rewrite requires maintainer supersession ratification (the
+wave-17 dated-addenda item for those statements FOLDED INTO the
+same decision). GOVERNANCE: ZERO new Modal launches; 3c9726b3 is a
+pure-insertion policy TIGHTENING (>= $1 => do not launch) +
+references upstream PR #999 (watch). IMPORT HYGIENE: both poses
+re-taken WITH body files this time (master-unique minting-era route
+lines preserved as dated provenance addenda per #104); norm_gate
+dag statement string adopted with its pose (m/4-1 nonclaim);
+xr_highcore md-only take; 14 carried + 4 parity statement holds
+maintained; 3 kind-holds unchanged. VERIFICATION: validator PASS
+(1029/2291, PROVED 845); battery 70/70; blast-radius 160/160;
+manifest 774/10/1025 PASS; no Modal re-pin needed. Details:
+WAVE18_AUDIT_FINDINGS.md.

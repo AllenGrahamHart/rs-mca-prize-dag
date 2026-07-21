@@ -60,6 +60,20 @@ FIBER_TWO_CYCLE_C2_PARITY = "rate_half_list_budget_three_fiber_two_cycle_c2_pari
 FIBER_TWO_CYCLE_C2_GAP_ONLY = "rate_half_list_budget_three_fiber_two_cycle_c2_gap_only_parity_counterexample"
 FIBER_TWO_CYCLE_C2_SECONDARY_DIFFERENTIAL = "rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier"
 FIBER_TWO_CYCLE_C2_TORSION_FIELD = "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_TRACE = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_CELL = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_BARYCENTRIC = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_SUPPORT_POLY = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_COLLISION = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_COLLISION_BRANCH = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_EULER = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_ENDPOINT = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_INFINITY = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_AFFINE = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_AFFINE_CAP = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_COLLISION_HIGH = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_DEGREE_GLOBAL = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router"
 ANTIPODAL_DESCENT = "rate_half_list_budget_three_fiber_four_antipodal_descent"
 ANTIPODAL_WELD = "rate_half_list_budget_three_antipodal_mobius_weld"
 ANTIPODAL_DEGREE_FLOOR = "rate_half_list_budget_three_antipodal_pencil_degree_floor"
@@ -188,6 +202,20 @@ def main() -> int:
         ("fiber_two_cycle_c2_gap_only_counterexample_is_proved", nodes[FIBER_TWO_CYCLE_C2_GAP_ONLY]["status"] == "PROVED"),
         ("fiber_two_cycle_c2_secondary_differential_is_proved", nodes[FIBER_TWO_CYCLE_C2_SECONDARY_DIFFERENTIAL]["status"] == "PROVED"),
         ("fiber_two_cycle_c2_torsion_field_is_proved", nodes[FIBER_TWO_CYCLE_C2_TORSION_FIELD]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_trace_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_TRACE]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_cell_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_CELL]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_barycentric_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_BARYCENTRIC]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_support_poly_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_SUPPORT_POLY]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_collision_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_COLLISION]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_collision_branch_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_COLLISION_BRANCH]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_euler_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_EULER]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_endpoint_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_ENDPOINT]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_infinity_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_INFINITY]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_affine_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_AFFINE]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_affine_cap_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_AFFINE_CAP]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_collision_high_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_COLLISION_HIGH]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_degree_global_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_DEGREE_GLOBAL]["status"] == "PROVED"),
         ("antipodal_descent_is_proved", nodes[ANTIPODAL_DESCENT]["status"] == "PROVED"),
         ("antipodal_weld_is_proved", nodes[ANTIPODAL_WELD]["status"] == "PROVED"),
         ("antipodal_degree_floor_is_proved", nodes[ANTIPODAL_DEGREE_FLOOR]["status"] == "PROVED"),
@@ -301,6 +329,20 @@ def main() -> int:
                 (FIBER_TWO_CYCLE_C2_JOINT, "ev"),
                 (FIBER_TWO_CYCLE_C2_GAP_SPAN, "ev"),
                 (FIBER_TWO_CYCLE_C2_NORMALIZED, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_BARYCENTRIC, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_SUPPORT_POLY, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_CELL, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_COLLISION_HIGH, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_DEGREE_GLOBAL, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_COLLISION_BRANCH, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_COLLISION, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_ENDPOINT, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_EULER, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_INFINITY, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_AFFINE_CAP, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_AFFINE, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_TRACE, "ev"),
                 (FIBER_TWO_CYCLE_C2_TRACE, "ev"),
                 (FIBER_TWO_CYCLE_C2_PARITY, "ev"),
                 (FIBER_TWO_CYCLE_C2_PURE, "ev"),
@@ -641,6 +683,125 @@ def main() -> int:
             and "x^p=x^(-1)" in statement
             and "E_j^p=E_(4-j)/E_4" in statement
             and "orientation reversal" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal",
+            "a_(2H-2)=F_H(X,P)" in statement
+            and "U_0=X-2P" in statement
+            and "U_39=2" in statement
+            and "genuinely antipodal-free stratum" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_trace",
+            "X=P(Z+2)" in statement
+            and "P_39^2=1" in statement
+            and "Z_39=2P_39" in statement
+            and "P^p=P^(-1)" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_cell",
+            "WAVE-32 ADDENDUM" in statement
+            and "flat Fourier prefix" in statement
+            and "2H+2=2R+4" in statement
+            and "3H+1=3R+4" in statement
+            and "negation" in statement
+            and "invariance" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_barycentric",
+            "WAVE-33 ADDENDUM" in statement
+            and "lambda_i=1/Phi'(w_i)" in statement
+            and "first syndrome `-2H`" in statement
+            and "3H+1=3R+4" in statement
+            and "-2H/Psi'(a)" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_support_poly",
+            "WAVE-34 ADDENDUM" in statement
+            and "Theta=HBC+z(BC'-B'C)" in statement
+            and "degree at most `5H-11`" in statement
+            and "(z^(2^40)-1)/(z^2-1)" in statement
+            and "larger-support cases remain open" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_collision",
+            "WAVE-35 ADDENDUM" in statement
+            and "(4gamma-alpha^2)^3=8alpha^3 beta^2" in statement
+            and "alpha=4c!=0" in statement
+            and "32z_t(z_t-36)^2" in statement
+            and "scoped contributor" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_collision_branch",
+            "WAVE-36 ADDENDUM" in statement
+            and "[y(z+12)-16]^2=64z" in statement
+            and "-2alpha/(z+12)" in statement
+            and "z=-12" in statement
+            and "y=4/3" in statement
+            and "12gamma=11alpha^2" in statement
+            and "27beta^2=64alpha^3" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_euler",
+            "WAVE-37 ADDENDUM" in statement
+            and "T=NEB-z(E'B+4EB')" in statement
+            and "T_0=(H-1)EB+Hc_0z^(2H)" in statement
+            and "C divides z^(-2H)(T_0B^3-(H-1))" in statement
+            and "deg C=H-3=2^37-2" in statement
+            and "Res(C_sharp,T_0)Res(C_sharp,B)^3=(H-1)^(H-3)" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_endpoint",
+            "WAVE-38 ADDENDUM" in statement
+            and "Delta_inf=b_(r-1)c_m-b_rc_(m-1)" in statement
+            and "Xi=H/(P c_m^2 Delta_inf)" in statement
+            and "Xi^(N/2)=1" in statement
+            and "N/2=2^39" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_infinity",
+            "WAVE-39 ADDENDUM" in statement
+            and "ell_i=b+cw_i" in statement
+            and "O_inf(X)=product_i(X-ell_i)" in statement
+            and "O_inf'(ell_i)=c^3 Phi'(w_i)" in statement
+            and "forty squarings" in statement
+            and "J_inf=0" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_affine",
+            "WAVE-40 ADDENDUM" in statement
+            and "a^2=-2" in statement
+            and "A_a(y)=(a+2)y-(a+1)" in statement
+            and "B_a(y)=(a-1)y+(2-a)" in statement
+            and "tau^4 y A_a(y)B_a(y)=P_src^(-1)" in statement
+            and "Z_inf^(N/4)=1" in statement
+            and "N/4=2^38" in statement
+            and "(a,y,tau)->(-a,y^(-1),tau y)" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_affine_cap",
+            "WAVE-41 ADDENDUM" in statement
+            and "A_0=D_0=79896510" in statement
+            and "B_0=12902" in statement
+            and "#mathcal Y_a<=355106851<2^29" in statement
+            and "p>=31950697969885030204" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_collision_high",
+            "WAVE-42 ADDENDUM" in statement
+            and "deg D<=4H-7" in statement
+            and "|supp u|>=4H-2" in statement
+            and "|supp u|<=4H-4" in statement
+            and "quantified high-support branch" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_degree_global",
+            "WAVE-43 ADDENDUM" in statement
+            and "d_e=5H-10-3e-epsilon_e" in statement
+            and "|supp u|=3H+3e+epsilon_e+eta" in statement
+            and "actual hypothesis needed" in statement
+            and "355106851<2^29" in statement
+            and "endpoint `Xi` tests remain equality-only" in statement,
         ),
         (
             "statement_pins_antipodal_descent",

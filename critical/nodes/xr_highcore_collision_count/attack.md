@@ -81,8 +81,9 @@ deletion-contraction cogirth bound, giving
 On the full domain this pays selector ranks through `4,4,3,11,11,10` on the
 six rows. On the self-localized charts left by the line ledger, it also pays
 the RowC `1/16` rank-four residue. Thus selector rank four is completely
-closed on every P-A row; at the prize rows the minimum open selector ranks are
-`12,12,11`.
+closed on every P-A row. Subsequent covering-free affine-pencil and
+common-root charges move the first open selector ranks to `5,5,5` at RowC
+and `17,17,15` at the prize rows.
 
 The P9 diagnostics show that the residual is not automatically low-rank:
 every `n=16,k=8` conservative far high-core family had no selector of rank at
@@ -100,4 +101,73 @@ number of canonical components and their union excesses; the raw number of
 possible subsets `U` no longer appears. Any rank-based continuation must use a
 rank--weight or rank--collision tradeoff specific to the retained RS family.
 The line-basis and cogirth theorems supply that tradeoff. The next local attack
-is their higher-rank iteration, not another bare rank bound.
+is their higher-rank iteration, not another bare rank bound. In the uniform
+cell, an over-budget selector now has the arbitrary-rank Maxwell/trade
+certificate. Minimum-union rank-two residue is empty after the Plucker
+quotient, and the first surviving shell `|X|=a+3` is one
+quadratic-involution pullback chart. The local continuation is therefore
+ownership/counting of that chart, higher support shells, and trade rank at
+least three. The shell/Maxwell router additionally excludes primitive
+full-core rank two whenever its explicit deficit is positive, including very
+large first- and second-shell prize-rank intervals. Composing the exact core
+size caps extends this to shell depths
+`22,428,333;19,217,048;4,478,600`, and the rank-three edge-zero ledger removes
+the remaining primitive first-shell case. The remaining low-shell problem is
+therefore proper local-circuit ownership rather than an unnamed primitive
+anomaly; the nonuniform-cell and cross-component aggregations remain separate
+obligations. Every rank-two relation decomposes further into four/five-block
+row-scaling circuits with an exact Segre coefficient atlas. The next ownership
+argument should therefore work on those constant-arity support embeddings;
+it should not reintroduce arbitrary block-family enumeration.
+
+The canonical fundamental-circuit owner removes the remaining decomposition
+choice inside a fixed rank-two trade. Choose its first three/four coefficient
+anchors and charge every non-anchor only through its unique fundamental
+circuit. The next compiler must operate one level earlier: assign each block
+to its first Maxwell core and rank-two trade, enumerate the realized support
+embedding of that canonical star, and deduplicate the anchor charges across
+cores. Re-enumerating all circuit decompositions of one trade is now a route
+error.
+
+Split that compiler by coefficient rank. In the three-anchor branch, do not
+search over arbitrary Segre coefficients: enumerate only root-avoiding tuples
+`(X,P,Q,H)` from the exact dual-`GRS_3` factorization, then verify their
+selected-block extensions and first-core owner. In the four-anchor branch,
+retain the fundamental four/five-block star because there is no global
+Mobius hyperplane. Mixing these branches discards a proved three-moment
+constraint.
+
+The four-anchor coefficient search is also no longer free. Transform every
+non-anchor into canonical anchor coordinates, enforce the explicit pulled-
+back determinant quadric and support three/four, and enforce the global
+centroid before attempting any support realization. The only legitimate
+rank-two compiler frontier is now the map from these two exact coefficient
+atlases to selected agreement-block embeddings and first-core ownership.
+
+For that map, do not enumerate arbitrary completed blocks `A_i`. Enumerate
+the active fiber `Z_i`, forced-size inactive extension `T_i`, and unique
+cofactor `R_i`; the dual support-extension theorem reconstructs both
+numerators and rejects inconsistent data. The next new condition must come
+from simultaneous received-pair agreement and Maxwell-core ownership, since
+the dual-codeword extension condition itself is now exact.
+
+Apply the received-pair router before those remaining block checks. The
+three-anchor interaction matrix must be alternating and should be split by
+`eta=0` versus `eta!=0`; the four-anchor row-space plane must annihilate both
+received directions. Any support enumeration that retains coefficient planes
+outside these loci is searching objects that cannot come from actual
+agreement blocks.
+
+Do not enumerate the remaining `h-1` parity rows either. Interpolate the
+unique kernel correction on each candidate support, compute its external
+zero set, and carry only the binomial forced-size extension count. The next
+proof must couple these per-row external zero sets across one canonical
+circuit star and Maxwell core; independent extension enumeration would lose
+the pairwise intersection budget that the target needs.
+
+That coupling is now the exact extension-family collision ledger. Apply its
+pair slack before any packing count, and use the summed multiplicity charge
+instead of multiplying per-row binomial counts. The next theorem must bound
+the number of coefficient-compatible support/packing records and assign each
+record to its first Maxwell core; deriving the same pairwise block cap again
+would not advance the frontier.

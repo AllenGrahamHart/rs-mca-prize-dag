@@ -108,6 +108,41 @@ def main() -> None:
     }
     assert dual_gap_edge in dag["edges"]
     assert nodes[dual_gap_edge["from"]]["status"] == "PROVED"
+    midpoint_edge = {
+        "from": "f3_hge4_near_third_kummer_midpoint_pencil",
+        "to": NODE,
+        "kind": "ev",
+    }
+    assert midpoint_edge in dag["edges"]
+    assert nodes[midpoint_edge["from"]]["status"] == "PROVED"
+    quarter_edge = {
+        "from": "f3_hge4_cyclotomic_norm_quarter_width_exclusion",
+        "to": NODE,
+        "kind": "ev",
+    }
+    assert quarter_edge in dag["edges"]
+    assert nodes[quarter_edge["from"]]["status"] == "PROVED"
+    haar_edge = {
+        "from": "f3_hge4_cyclotomic_haar_near_quarter_swap_router",
+        "to": NODE,
+        "kind": "ev",
+    }
+    assert haar_edge in dag["edges"]
+    assert nodes[haar_edge["from"]]["status"] == "PROVED"
+    swap_norm_edge = {
+        "from": "f3_hge4_swap_norm_haar_band_exclusion",
+        "to": NODE,
+        "kind": "ev",
+    }
+    assert swap_norm_edge in dag["edges"]
+    assert nodes[swap_norm_edge["from"]]["status"] == "PROVED"
+    vandermonde_edge = {
+        "from": "f3_hge4_vandermonde_defect_band_exclusion",
+        "to": NODE,
+        "kind": "ev",
+    }
+    assert vandermonde_edge in dag["edges"]
+    assert nodes[vandermonde_edge["from"]]["status"] == "PROVED"
 
     statement = (Path(__file__).with_name("statement.md")).read_text()
     attack = (Path(__file__).with_name("attack.md")).read_text()
@@ -159,13 +194,50 @@ def main() -> None:
         "(21/2)m^2-286",
         "(ERT4'')",
         "(ERT4''')",
+        "f3_hge4_near_third_kummer_midpoint_pencil",
+        "W=ZS+lambda y^c",
+        "S | 1-(1-a^2lambda)y^m",
+        "d | gcd(m,h)=2^v_2(h)",
+        "midpoint splits over the base field at every width",
+        "f3_hge4_cyclotomic_norm_quarter_width_exclusion",
+        "m/4<=h<m/3",
+        "sum_(h=4)^(m/4-1) E_h^prim(m,p)<=(21/2)m^2",
+        "necklace debit `286` is no longer charged",
+        "e=m-3h>=h+4",
+        "(ERT4'''')",
+        "f3_hge4_cyclotomic_haar_near_quarter_swap_router",
+        "L<4(d+1)log m",
+        "BX<m^(1-(4d+8B)/m)",
+        "64(d+1)^2(log m)^2<m",
+        "`1<=d<=9223`",
+        "f3_hge4_swap_norm_haar_band_exclusion",
+        "m^(h-1)<h^(m/4)",
+        "s(d+1)<=m/2",
+        "d=26,817,356,774",
+        "f3_hge4_vandermonde_defect_band_exclusion",
+        "L<Y_3=4((d+1)R-d)",
+        "x<=1,       Y_3<=floor((h-1)/2)+2",
+        "L>=floor((h-1)/2)+2",
+        "`1<=d<=2,677,220,820`",
+        "the Vandermonde-defect band: no primitive pair",
         "V_(r-1)!=1",
         "NG-ZERO is not claimed",
     ):
         assert token in statement
     assert "N_h^strip <= N_h^raw" in attack
+    assert "h=m/4-1" in attack
+    assert "apply the Vandermonde-defect exclusion" in attack
+    assert "free-only zone" in attack
+    assert "extension-field midpoint branch" in attack
     assert "raw non-toral count zero" in frontier
+    assert "base-field-split three-member divisor pencil" in frontier
+    assert "Vandermonde-defect band is fully deleted" in frontier
+    assert "both free and swap" in frontier
     assert "the full official corridor" in contract
+    assert "proved quarter-width exclusion" in contract
+    assert "proved near-quarter swap router" in contract
+    assert "proved swap-norm exclusion" in contract
+    assert "proved Vandermonde-defect exclusion" in contract
 
     # The aggregate compiler reserves 1+1+14=16 cubic units. Raising the
     # HGE4 allocation to 15 breaks that exact split.
@@ -198,8 +270,8 @@ def main() -> None:
         residual_twice = 21 * m * m - 2 * total
         assert residual_twice + 2 * total == 21 * m * m
 
-    # The dual gap supersedes every positive boundary debit and four of the
-    # five extra necklace debits. Only (32,9,5) remains charged.
+    # The dual gap first superseded every positive boundary debit and four of
+    # the five extra necklace debits.
     excluded = ((16, 5, 1), (32, 10, 2), (64, 20, 4), (128, 41, 5),
                 (256, 84, 4), (1024, 340, 4), (4096, 1364, 4))
     for m, h, e in excluded:
@@ -213,6 +285,12 @@ def main() -> None:
     assert h == (2 * m) // 7
     residual_twice = 21 * m * m - 2 * 286
     assert residual_twice + 2 * 286 == 21 * m * m
+
+    # The later quarter-width norm theorem also deletes (32,9,5), so no
+    # positive near-third debit remains in the current level target.
+    assert h >= m // 4
+    for order in (16, 32, 64, 128, 256, 512, 1024):
+        assert order // 4 - 1 < order // 4
 
     # Exhaustive tiny monotonicity check for the only implication asserted by
     # this node: deletion cannot increase a record count.

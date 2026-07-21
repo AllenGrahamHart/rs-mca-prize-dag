@@ -5492,7 +5492,7 @@
    "id": "f3_hge4_norm_gate_count",
    "status": "TARGET",
    "key": true,
-   "statement": "NG-COUNT (the reduced red of HGE4's route-3 surgery, minted 2026-07-12 after two independent supporting audits \u2014 the dichotomy replay and the survived first census): at every official corridor row (full corridor: n = 2^s, 13 <= s <= 41, every prime p = 1 mod n, p >= n^2), Sigma_{h=4}^{H_max} #{fully-stripped F-4-minimal records whose lifted support has all h-1 cleared obstructions = 0 mod P with lambda a nonzero square (the x83 norm-gate condition), outside the five strips} <= 14 n^3. PROVED CONTEXT: by the replayed dichotomy every F-4-minimal record IS a norm-gate event or full-fiber (quotient-strip) \u2014 this node prices the norm-gate class only. EVIDENCE: deep aggregate EXACTLY 0 on every scanned cell (complete rows at n=16 across 6 primes; h in [4,8] slices at n=32 across 5 primes incl. the adversarial F1153/F1249; h in {4,5} at n=64); the p=17 sub-threshold exceptional cell fully consumed by strips + minimality; naive first-moment gate mass ~10^4 << 14n^3 = 7.7e12 at s=13. PINS: F-4 minimality is LOAD-BEARING-FOR-TRUTH (catch #99: the un-pinned shallow mass grows x4.3-5.5 per h and would cross 14n^3 near h ~ 12 at n=32 boundary primes \u2014 A5's re-open clause, if triggered, kills the gate); the five-strips convention is 3/5 operationally defined (catch #100: U2-boundary and DLI/skew have no in-repo analog \u2014 any KILL claim must define them first; survival verdicts are only strengthened by their absence). NG-ZERO is NOT this node (catch #96 guard). FALSIFIER: a certified F-4-minimal stripped norm-gate aggregate > 14n^3 on a complete row or transported slice.",
+   "statement": "NG-COUNT (the reduced red of HGE4's route-3 surgery, minted 2026-07-12 after two independent supporting audits \u2014 the dichotomy replay and the survived first census): at every official corridor row (full corridor: n = 2^s, 13 <= s <= 41, every prime p = 1 mod n, p >= n^2), Sigma_{h=4}^{H_max} #{fully-stripped F-4-minimal records whose lifted support has all h-1 cleared obstructions = 0 mod P with lambda a nonzero square (the x83 norm-gate condition), outside the five strips} <= 14 n^3. PROVED CONTEXT: by the replayed dichotomy every F-4-minimal record IS a norm-gate event or full-fiber (quotient-strip) \u2014 this node prices the norm-gate class only. EVIDENCE: deep aggregate EXACTLY 0 on every scanned cell (complete rows at n=16 across 6 primes; h in [4,8] slices at n=32 across 5 primes incl. the adversarial F1153/F1249; h in {4,5} at n=64); the p=17 sub-threshold exceptional cell fully consumed by strips + minimality; naive first-moment gate mass ~10^4 << 14n^3 = 7.7e12 at s=13. PINS: F-4 minimality is LOAD-BEARING-FOR-TRUTH (catch #99: the un-pinned shallow mass grows x4.3-5.5 per h and would cross 14n^3 near h ~ 12 at n=32 boundary primes \u2014 A5's re-open clause, if triggered, kills the gate); the five-strips convention is 3/5 operationally defined (catch #100: U2-boundary and DLI/skew have no in-repo analog \u2014 any KILL claim must define them first; survival verdicts are only strengthened by their absence). PROVED WIDTH REDUCTION: exact-ratio primitive widths m/4<=h<m/3 are empty by cyclotomic norm and odd-frequency Parseval, so the live exact-level sum stops at h=m/4-1. For h=m/4-d, the guarded cubic Vandermonde-defect theorem completely deletes every width with Y_3<=floor((h-1)/2)+2; at m=2^41 this reaches d=2,677,220,820. NG-ZERO is NOT this node (catch #96 guard). FALSIFIER: a certified F-4-minimal stripped norm-gate aggregate > 14n^3 on a complete row or transported slice.",
    "refs": [
     "critical/nodes/f3_hge4_norm_gate_count/attack.md",
     "critical/nodes/f3_hge4_norm_gate_count/claim_contract.md",
@@ -11884,6 +11884,601 @@
     "background/nodes/f3_h3_taylor_cutoff_small_order_reference/verify.py",
     "background/nodes/f3_h3_taylor_cutoff_small_order_reference/verify_audit.py",
     "tools/c36_taylor_cutoff_reference.py"
+   ]
+  },
+  {
+   "id": "f3_hge4_near_third_kummer_midpoint_pencil",
+   "title": "HGE4 near-third Kummer midpoint pencil",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every near-third Belyi pair, the cyclotomic complement has W=ZS+lambda y^c and the midpoint satisfies S | 1-(1-a^2lambda)y^m. Over a finite base field containing mu_m, all midpoint factors have one Kummer degree d dividing h; if d>1 its Frobenius multiplier stabilizes both outside members, contradicting primitivity. Hence d=1 and the retained strip reduces to a base-field-split three-member divisor pencil at every width.",
+   "refs": [
+    "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/statement.md",
+    "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/proof.md",
+    "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/claim_contract.md",
+    "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/dependency_subdag.md",
+    "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/audit.md",
+    "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/result.md",
+    "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/verify.py",
+    "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_hge4_kummer_midpoint_trace_power_gate",
+   "title": "HGE4 Kummer midpoint trace-power gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every primitive retained near-third pencil, if u,v are the leading reciprocal coefficients and x=v/u, then x lies in mu_m minus {+1,-1} and the midpoint Kummer scalar is kappa=-(1+x)^2/(8x). Primitivity makes kappa an m-th power in F_p, so the trace tau=x+x^(-1) satisfies C_m(tau)=2 and (-(tau+2)/8)^((p-1)/m)=1. There are exactly (m-2)/2 trace candidates before this power test. Every passing x is a square; if (p-1)/m is odd, only m/4-1 traces remain. This is a candidate gate, not an orbit bound.",
+   "refs": [
+    "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/statement.md",
+    "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/proof.md",
+    "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/claim_contract.md",
+    "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/dependency_subdag.md",
+    "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/audit.md",
+    "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/result.md",
+    "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/verify.py",
+    "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_hge4_kummer_trace_power_gcd_compiler",
+   "title": "HGE4 Kummer trace-power gcd compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For dyadic m>=8 and q=(p-1)/m, the squarefree polynomial Q_m defined by C_m(X)-2=(X^2-4)Q_m(X)^2 has exactly the nontrivial mu_m trace values as roots. Taking M=m for even q and M=m/2 for odd q, the exact number of traces passing the Kummer power gate is the degree of gcd(Q_M, (-(X+2)/8)^q-1) over F_p. The exponent is evaluated modulo Q_M. Nonconstant exact controls show this is a candidate compiler, not an emptiness or orbit theorem.",
+   "refs": [
+    "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/statement.md",
+    "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/proof.md",
+    "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/claim_contract.md",
+    "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/dependency_subdag.md",
+    "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/audit.md",
+    "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/result.md",
+    "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/verify.py",
+    "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_hge4_cyclotomic_norm_quarter_width_exclusion",
+   "title": "HGE4 cyclotomic-norm quarter-width exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every dyadic exact ratio level m>=16 and prime p=1 mod m with p>=m^2, cyclotomic norm divisibility and odd-frequency Parseval exclude primitive top shift pairs throughout m/4<=h<m/3. Combined with the non-full complement-third gate, the live exact-level sum stops at h=m/4-1. This deletes the whole Kummer near-third strip but does not estimate the remaining lower-quarter widths or close HGE4.",
+   "refs": [
+    "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/statement.md",
+    "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/proof.md",
+    "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/claim_contract.md",
+    "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/dependency_subdag.md",
+    "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/audit.md",
+    "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/result.md",
+    "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/verify.py",
+    "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_hge4_cyclotomic_haar_near_quarter_swap_router",
+   "title": "HGE4 cyclotomic-Haar near-quarter swap router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For an exact dyadic ratio level m and h=m/4-d, put X=4(d+1)log m and let B be the least power of two at least X. The inequalities B<h and BX<m^(1-(4d+8B)/m) force every primitive top shift pair to be antipodal-swap; 64(d+1)^2(log m)^2<m is a sufficient closed-form sub-band. Hence even widths in the exact band are empty and odd widths route exactly to the existing half-order perfect-square support problem. The theorem removes the free class in the band but does not count odd swap supports or close the lower-quarter aggregate.",
+   "refs": [
+    "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/statement.md",
+    "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/proof.md",
+    "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/claim_contract.md",
+    "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/dependency_subdag.md",
+    "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/audit.md",
+    "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/result.md",
+    "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/verify.py",
+    "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_hge4_swap_norm_haar_band_exclusion",
+   "title": "HGE4 swap-norm and Haar-band exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "A primitive odd antipodal-swap pair at exact dyadic level m must satisfy m^(h-1)<h^(m/4). Thus for h=m/4-d the swap class is empty whenever log_2(m)(d+1)<=m/2. The narrower cyclotomic-Haar band already routes every pair to the swap class, so it is completely empty at every width. Outside that overlap the theorem does not count free pairs or close HGE4.",
+   "refs": [
+    "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/statement.md",
+    "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/proof.md",
+    "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/claim_contract.md",
+    "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/dependency_subdag.md",
+    "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/audit.md",
+    "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/result.md",
+    "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/verify.py",
+    "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_hge4_vandermonde_defect_band_exclusion",
+   "title": "HGE4 Vandermonde-defect band exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a primitive exact-level pair of width h=m/4-d, put R=log m and x=4(d+1)R/m. Under x<=1, the cubic Taylor norm ceiling is Y_3=4((d+1)R-d)-8(d+1)^2R^2/m+(32/3)(d+1)^3R^3/m^2, while the consecutive even moments force every nonzero defect to occupy at least floor((h-1)/2)+2 coordinates. If Y_3 is at most that rank floor, the pair is antipodal-swap; the proved swap norm then excludes it. At m=2^41 this completely deletes 1<=d<=2,677,220,820. The theorem does not count the remaining lower-quarter pairs or close HGE4.",
+   "refs": [
+    "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/statement.md",
+    "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/proof.md",
+    "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/claim_contract.md",
+    "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/dependency_subdag.md",
+    "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/audit.md",
+    "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/result.md",
+    "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/verify.py",
+    "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_higher_rank_collapsed_face_exclusion",
+   "title": "XR collapsed minimum-face trades violate the post-strip core cap",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_higher_rank_collapsed_face_exclusion/statement.md",
+    "background/nodes/xr_higher_rank_collapsed_face_exclusion/proof.md",
+    "background/nodes/xr_higher_rank_collapsed_face_exclusion/claim_contract.md",
+    "background/nodes/xr_higher_rank_collapsed_face_exclusion/dependency_subdag.md",
+    "background/nodes/xr_higher_rank_collapsed_face_exclusion/verify.py",
+    "background/nodes/xr_higher_rank_collapsed_face_exclusion/verify_audit.py",
+    "background/nodes/xr_higher_rank_collapsed_face_exclusion/audit.md",
+    "background/nodes/xr_higher_rank_collapsed_face_exclusion/result.md"
+   ],
+   "statement": "In the uniform high-core split-pencil cell at affine kernel rank a, the collapsed branch of a minimum-union rank-two trade is impossible. Its degree-<a interpolants on the active union X force every selected kernel codeword to extend from its a+1-point facet to all a+2 points of X. Any two active selected errors would then share P_0 union X, of size (k-a)+(a+2)=k+2, contradicting the proved post-strip distinct-slope common-zero cap k. Thus minimum-union rank-two trades consist only of the regular Plucker face syzygies; after quotienting those, every surviving rank-two trade has active union at least a+3. Larger-union rank-two trades, trade rank at least three, and the aggregate XR slope payment remain open."
+  },
+  {
+   "id": "xr_higher_rank_first_residual_quadratic_involution",
+   "title": "XR first residual rank-two shell is quadratic-involutional",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_higher_rank_first_residual_quadratic_involution/statement.md",
+    "background/nodes/xr_higher_rank_first_residual_quadratic_involution/proof.md",
+    "background/nodes/xr_higher_rank_first_residual_quadratic_involution/claim_contract.md",
+    "background/nodes/xr_higher_rank_first_residual_quadratic_involution/dependency_subdag.md",
+    "background/nodes/xr_higher_rank_first_residual_quadratic_involution/verify.py",
+    "background/nodes/xr_higher_rank_first_residual_quadratic_involution/verify_audit.py",
+    "background/nodes/xr_higher_rank_first_residual_quadratic_involution/audit.md",
+    "background/nodes/xr_higher_rank_first_residual_quadratic_involution/result.md"
+   ],
+   "statement": "In an official odd-characteristic uniform high-core split pencil at affine kernel rank a, every rank-two trade on the first post-face-quotient shell |X|=a+3 is quadratic-involutional. Its pairwise-disjoint row-zero sets have sizes one or two, with at most one singleton, and 4<=t<=floor((a+4)/2). The degree-at-most-two polynomial pencil has degree exactly two, so all two-point zero fibers are cycles of one base-field Mobius involution. The row coefficients also satisfy the two exact slope-weighted dual-RS_2 checks. This reduces the first residual shell to ownership and counting of quadratic-pullback charts; it does not pay them or classify higher shells and higher trade rank."
+  },
+  {
+   "id": "xr_higher_rank_rank_two_shell_maxwell_router",
+   "title": "XR rank-two shells obey an exact arity and Maxwell-deficit router",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/statement.md",
+    "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/proof.md",
+    "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/claim_contract.md",
+    "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/dependency_subdag.md",
+    "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/verify.py",
+    "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/verify_audit.py",
+    "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/audit.md",
+    "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/result.md"
+   ],
+   "statement": "For every uniform high-core rank-two trade with |X|=a+d+1, its pairwise-disjoint row-zero fibers have sizes 1<=z_i<=d, satisfy z_i+z_j>=d+1, and obey an exact parity-sensitive minimum-mass bound and active-row ceiling. Extending the active supports to their selected blocks gives the explicit Maxwell deficit lower bound Delta_J>=2(d+1)+t(h-2d-2)+(d+1)t(t-1)-2(t-2)Z. Positivity excludes a relation supported on every block of its minimal Maxwell core. This removes primitive full-core rank two on very large first- and second-shell prize-rank intervals and gives an exact router on every shell; proper local circuits and their aggregate ownership remain open."
+  },
+  {
+   "id": "xr_prize_primitive_rank_two_shell_band",
+   "title": "XR prize primitive rank-two shell band",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_prize_primitive_rank_two_shell_band/statement.md",
+    "background/nodes/xr_prize_primitive_rank_two_shell_band/proof.md",
+    "background/nodes/xr_prize_primitive_rank_two_shell_band/claim_contract.md",
+    "background/nodes/xr_prize_primitive_rank_two_shell_band/dependency_subdag.md",
+    "background/nodes/xr_prize_primitive_rank_two_shell_band/verify.py",
+    "background/nodes/xr_prize_primitive_rank_two_shell_band/verify_audit.py",
+    "background/nodes/xr_prize_primitive_rank_two_shell_band/audit.md",
+    "background/nodes/xr_prize_primitive_rank_two_shell_band/result.md"
+   ],
+   "statement": "At the three prize P-A rows, a minimal uniform Maxwell core has at most 384, 448, and 960 blocks. Composing these exact row-only caps with the rank-two shell deficit shows that no rank-two relation can be active on every core block for shell depths 2<=d<=22,428,333; 19,217,048; and 4,478,600, respectively, at any affine kernel rank where the shell exists. The endpoint test is exact for the uniform deficit bound. Proper local rank-two circuits, larger shell depths, higher trade rank, and nonuniform cells remain open."
+  },
+  {
+   "id": "xr_prize_first_shell_primitive_rank_three_exclusion",
+   "title": "XR prize primitive first shell is empty",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/statement.md",
+    "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/proof.md",
+    "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/claim_contract.md",
+    "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/dependency_subdag.md",
+    "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/verify.py",
+    "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/verify_audit.py",
+    "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/audit.md",
+    "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/result.md"
+   ],
+   "statement": "On the first residual shell |X|=a+3, trade rank is at most three. A rank-three row space is the complete three-dimensional dual GRS_a code; its in-union zero sets are distinct graph edges, with at most one singleton disjoint from every edge, and its polynomial rows satisfy exact unweighted and slope-weighted checks. The graph-incidence Maxwell deficit is positive at every prize row because the core has at most 384,448,960 blocks while h is at least 2^32+1. Rank one is impossible and prize full-core rank two is already excluded. Hence no trade of any rank can be active on every block of a prize Maxwell core on this shell. Proper local circuits remain open."
+  },
+  {
+   "id": "xr_trade_circuit_arity_segre_atlas",
+   "title": "XR trade circuits have bounded arity and rank-two Segre atlas",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_trade_circuit_arity_segre_atlas/statement.md",
+    "background/nodes/xr_trade_circuit_arity_segre_atlas/proof.md",
+    "background/nodes/xr_trade_circuit_arity_segre_atlas/claim_contract.md",
+    "background/nodes/xr_trade_circuit_arity_segre_atlas/dependency_subdag.md",
+    "background/nodes/xr_trade_circuit_arity_segre_atlas/verify.py",
+    "background/nodes/xr_trade_circuit_arity_segre_atlas/verify_audit.py",
+    "background/nodes/xr_trade_circuit_arity_segre_atlas/audit.md",
+    "background/nodes/xr_trade_circuit_arity_segre_atlas/result.md"
+   ],
+   "statement": "A support-minimal row-scaling trade of rank r in a uniform split pencil has r+2<=t<=2r+1 active blocks, and every trade decomposes into such circuits of no larger rank. Since rank one is impossible, every rank-two trade decomposes into circuits on exactly four or five blocks. Their coefficient columns lie on the Segre quadric in P^3: four-block circuits are Mobius/Plucker graphs of rank three, while five-block circuits have rank four with every four columns independent. This removes arbitrary block arity from the proper local rank-two frontier; this node does not itself supply ownership or aggregate payment of the two constant-arity classes."
+  },
+  {
+   "id": "xr_rank_two_fundamental_circuit_owner",
+   "title": "XR rank-two trades have canonical fundamental-circuit owners",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_rank_two_fundamental_circuit_owner/statement.md",
+    "background/nodes/xr_rank_two_fundamental_circuit_owner/proof.md",
+    "background/nodes/xr_rank_two_fundamental_circuit_owner/claim_contract.md",
+    "background/nodes/xr_rank_two_fundamental_circuit_owner/dependency_subdag.md",
+    "background/nodes/xr_rank_two_fundamental_circuit_owner/verify.py",
+    "background/nodes/xr_rank_two_fundamental_circuit_owner/verify_audit.py",
+    "background/nodes/xr_rank_two_fundamental_circuit_owner/audit.md",
+    "background/nodes/xr_rank_two_fundamental_circuit_owner/result.md"
+   ],
+   "statement": "For a rank-two uniform split-pencil trade, the Segre coefficient configuration has rank q in {3,4}. Relative to its lexicographically first q-column basis, every non-anchor block has one unique fundamental row-scaling circuit on four or five blocks. These fundamental vectors form a basis of the full scaling kernel and their sum is the original all-one trade vector. Thus every fixed rank-two trade has at most four anchors and canonical intratrade first-match owners; first Maxwell-core selection, support embeddings, cross-core deduplication, and aggregate slope payment remain open."
+  },
+  {
+   "id": "xr_rank_two_three_anchor_grs3_factorization",
+   "title": "XR three-anchor rank-two trades factor through dual GRS3",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_rank_two_three_anchor_grs3_factorization/statement.md",
+    "background/nodes/xr_rank_two_three_anchor_grs3_factorization/proof.md",
+    "background/nodes/xr_rank_two_three_anchor_grs3_factorization/claim_contract.md",
+    "background/nodes/xr_rank_two_three_anchor_grs3_factorization/dependency_subdag.md",
+    "background/nodes/xr_rank_two_three_anchor_grs3_factorization/verify.py",
+    "background/nodes/xr_rank_two_three_anchor_grs3_factorization/verify_audit.py",
+    "background/nodes/xr_rank_two_three_anchor_grs3_factorization/audit.md",
+    "background/nodes/xr_rank_two_three_anchor_grs3_factorization/result.md"
+   ],
+   "statement": "Every coefficient-rank-three branch of a uniform rank-two trade has the exact form lambda_i=s_i(P+gamma_i Q)/Lambda'_X for one independent polynomial pair P,Q. The trade scalars are exactly a full-support dual GRS_3 word on the slopes: s_i=H(gamma_i)/L'_Gamma(gamma_i) for one unique polynomial deg H<t-3. Each canonical four-block owner has the corresponding explicit barycentric coefficients. This applies on every active-union shell; realized support embeddings, the coefficient-rank-four branch, first-core ownership, and aggregate payment remain open."
+  },
+  {
+   "id": "xr_rank_two_four_anchor_quadric_centroid_atlas",
+   "title": "XR four-anchor rank-two trades form a quadric centroid atlas",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/statement.md",
+    "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/proof.md",
+    "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/claim_contract.md",
+    "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/dependency_subdag.md",
+    "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/verify.py",
+    "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/verify_audit.py",
+    "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/audit.md",
+    "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/result.md"
+   ],
+   "statement": "Relative to the canonical four anchor columns of a coefficient-rank-four uniform rank-two trade, every non-anchor has support-three/four coordinates on one explicit smooth split quadric Q_B=sum_(i<j)(gamma_j-gamma_i)(c_i d_j-d_i c_j) beta_i beta_j. These coordinates give its four/five-block fundamental owner, and their exact affine centroid is (-1,-1,-1,-1). Conversely the quadric, centroid, finite-slope, and distinct-projection conditions give the complete coefficient-level q=4 atlas. Realized support embeddings, first-core selection, and aggregate payment remain open."
+  },
+  {
+   "id": "xr_rank_two_dual_support_extension_factorization",
+   "title": "XR rank-two rows have an exact dual support-extension factorization",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_rank_two_dual_support_extension_factorization/statement.md",
+    "background/nodes/xr_rank_two_dual_support_extension_factorization/proof.md",
+    "background/nodes/xr_rank_two_dual_support_extension_factorization/claim_contract.md",
+    "background/nodes/xr_rank_two_dual_support_extension_factorization/dependency_subdag.md",
+    "background/nodes/xr_rank_two_dual_support_extension_factorization/verify.py",
+    "background/nodes/xr_rank_two_dual_support_extension_factorization/verify_audit.py",
+    "background/nodes/xr_rank_two_dual_support_extension_factorization/audit.md",
+    "background/nodes/xr_rank_two_dual_support_extension_factorization/result.md"
+   ],
+   "statement": "For a rank-two row on active union X with support S_i, active zero set Z_i=X\\S_i, and selected-block extension T_i=A_i\\S_i, the active-union and block dual-GRS numerators have one unique common cofactor: F_i=R_i Lambda_Zi and P_i=R_i Lambda_Ti. Exactly |T_i|=h-d-1+|Z_i| and deg R_i<=d-|Z_i|, while the row on S_i is R_i/Lambda'_Si. The converse is exact at the dual-codeword level. Actual agreement-block realization, extension counting, first-core ownership, and aggregate payment remain open."
+  },
+  {
+   "id": "xr_rank_two_received_pair_alternating_router",
+   "title": "XR rank-two received-pair interactions are alternating or zero",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_rank_two_received_pair_alternating_router/statement.md",
+    "background/nodes/xr_rank_two_received_pair_alternating_router/proof.md",
+    "background/nodes/xr_rank_two_received_pair_alternating_router/claim_contract.md",
+    "background/nodes/xr_rank_two_received_pair_alternating_router/dependency_subdag.md",
+    "background/nodes/xr_rank_two_received_pair_alternating_router/verify.py",
+    "background/nodes/xr_rank_two_received_pair_alternating_router/verify_audit.py",
+    "background/nodes/xr_rank_two_received_pair_alternating_router/audit.md",
+    "background/nodes/xr_rank_two_received_pair_alternating_router/result.md"
+   ],
+   "statement": "Actual selected-block agreement forces each rank-two coefficient column to annihilate the interaction vector of its polynomial row-space basis with the received directions b,q. In the three-anchor slope-linear basis, the 2x2 interaction matrix is ((0,eta),(-eta,0)); in the four-anchor branch all four interactions vanish. These conditions exactly recover the selected trade-row parity equations, but not the other h-1 block checks. Compatible support-extension counting, first-core ownership, and aggregate payment remain open."
+  },
+  {
+   "id": "xr_rank_two_actual_block_extension_router",
+   "title": "XR rank-two actual block extensions have an exact zero-set count",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_rank_two_actual_block_extension_router/statement.md",
+    "background/nodes/xr_rank_two_actual_block_extension_router/proof.md",
+    "background/nodes/xr_rank_two_actual_block_extension_router/claim_contract.md",
+    "background/nodes/xr_rank_two_actual_block_extension_router/dependency_subdag.md",
+    "background/nodes/xr_rank_two_actual_block_extension_router/verify.py",
+    "background/nodes/xr_rank_two_actual_block_extension_router/verify_audit.py",
+    "background/nodes/xr_rank_two_actual_block_extension_router/audit.md",
+    "background/nodes/xr_rank_two_actual_block_extension_router/result.md"
+   ],
+   "statement": "For a fixed rank-two support S_i and slope, polynomial division by the inactive extension locator splits the h block checks into d+1-z_i support-local and tau_i extension-sensitive checks. The selected trade row pays one local check, leaving exactly h-1. The local checks give a unique degree-<a correction w_i; actual blocks are exactly the tau_i-subsets of the external zero set of b+gamma_i q+w_i and are counted by C(|E_i|,tau_i). Family compatibility, first-core ownership, and cross-core payment remain open."
+  },
+  {
+   "id": "xr_rank_two_extension_family_collision_ledger",
+   "title": "XR rank-two extension families obey an exact collision ledger",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_rank_two_extension_family_collision_ledger/statement.md",
+    "background/nodes/xr_rank_two_extension_family_collision_ledger/proof.md",
+    "background/nodes/xr_rank_two_extension_family_collision_ledger/claim_contract.md",
+    "background/nodes/xr_rank_two_extension_family_collision_ledger/dependency_subdag.md",
+    "background/nodes/xr_rank_two_extension_family_collision_ledger/verify.py",
+    "background/nodes/xr_rank_two_extension_family_collision_ledger/verify_audit.py",
+    "background/nodes/xr_rank_two_extension_family_collision_ledger/audit.md",
+    "background/nodes/xr_rank_two_extension_family_collision_ledger/result.md"
+   ],
+   "statement": "For a rank-two shell, split each actual inactive extension T_i into inside reuse I_i=T_i intersect Z_i and outside part O_i=T_i\\X. The pairwise block cap is exactly |I_i|+|I_j|+|O_i intersect O_j|<=z_i+z_j-d-1. Summing gives (t-1)sum|I_i|+sum_x C(m_x,2)<=(t-1)sum z_i-C(t,2)(d+1). Together with the actual external zero sets and forced extension sizes, these inequalities are a complete finite extension-family compatibility ledger. Counting support families/packings, first-core ownership, and cross-core payment remain open."
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer",
+   "title": "Budget-three fiber-two c=2 one-antipodal stratum has a sign-free primary/torsion circuit",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "If an official c=2 denominator contains one antipodal pair, common scaling gives roots {1,-1,c,d}. With S=c+d, P=cd, and X=S^2, the two primary coefficients are F_H(X,P) and S G_H(X,P). On the exactly-one-antipodal stratum they vanish exactly when F_H=G_H=0. Complementary-root torsion is the sign-free 39-step circuit U_0=X-2P, V_0=P^2, U_(j+1)=U_j^2-2V_j, V_(j+1)=V_j^2, ending at (2,1). Together with square and distinctness gates this is an exact two-variable circuit modulo S->-S. It does not prove the circuit empty, use the secondary gap, or prove C2-PAR.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler",
+   "title": "Budget-three fiber-two c=2 one-antipodal packets have a product/ratio trace compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a one-antipodal c=2 denominator {1,-1,c,d}, put P=cd, t=c/d, and Z=t+t^-1. Then X=(c+d)^2=P(Z+2). Complementary-root torsion is equivalent to the coupled half-order circuit P_39^2=1 and Z_39=2P_39 under repeated squaring/trace doubling. The primary packet is therefore an exact (P,Z) circuit with distinctness (Z^2-4)(1+P^2-PZ)!=0 and no square-root gate. The trace Z always lies in F_p; in the reciprocal quadratic chamber P^p=P^-1. The compiler does not prove the circuit empty or address antipodal-free C2-PAR.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder",
+   "title": "Budget-three fiber-two c=2 one-antipodal canonical cells obey a Fourier ladder",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every complete canonical one-antipodal c=2 candidate factors the punctured order-2^40 binomial into four equal root cells. Their power sums have an exact H-1 flat prefix; moment-kernel combinations orthogonal through w^s vanish through (s+1)H-1 for s=0,1,2. Under negation each such weighted coloring is either exactly invariant or has the printed Vandermonde/MDS support lower bound. This does not classify the colorings or prove C2-PAR.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome",
+   "title": "Budget-three fiber-two c=2 one-antipodal barycentric coloring has a sharp negation syndrome",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the canonical one-antipodal root cells, weight cell i by lambda_i=1/Phi'(w_i). The resulting negation difference has zero Fourier moments through degree 3H-1 and first syndrome -2H at degree 3H. Its support is therefore at least 3H+1=3R+4; at equality its values are exactly -2H/Psi'(a) on a negation-stable support. This does not classify or exclude the remaining supports.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler",
+   "title": "Budget-three fiber-two c=2 one-antipodal barycentric support has a single polynomial compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a complete canonical one-antipodal candidate, one explicit even polynomial J of degree at most 5H-11, built only from E,B,C, computes the barycentric negation coloring pointwise on mu_N. Minimum support 3H+1 is equivalent to J dividing (z^N-1)/(z^2-1), having full degree, and avoiding +/-1. This removes root-cell enumeration but does not exclude the split-divisor gate.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router",
+   "title": "Budget-three fiber-two c=2 one-antipodal minimum support forces a barycentric collision",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a complete canonical one-antipodal candidate attaining minimum barycentric mismatch support, exactly one pair of derivative weights 1/Phi'(w_i) must coincide. This gives an explicit quadratic-pair factorization, the outer equation (4gamma-alpha^2)^3=8alpha^3 beta^2, and a normalized two-variable completion curve. Every larger collision partition is impossible. The one-pair locus and larger support remain open.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler",
+   "title": "Budget-three fiber-two c=2 one-antipodal minimum-support collision has two exact branches",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The minimum-support one-pair collision curve factors exactly into one linear branch and one square branch. The selected-ratio lift is constant degree, and outer splitting is equivalent to the single square-class test -2alpha/(z_t+12). An antipodal selected pair forces y=4/3 and J=0. Neither branch nor larger support is excluded.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate",
+   "title": "Budget-three fiber-two c=2 one-antipodal minimum support obeys an Euler divisor gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every complete canonical one-antipodal packet satisfies a derivative- and outer-coefficient-free Euler remainder divisibility built from E,B,C and the two boundary scalars. At minimum barycentric support, deg C=H-3 and the corresponding nonzero monic-normalized resultant Res(C_sharp,T_0) is a base-field cube. The theorem does not evaluate the official-degree remainder or address larger support.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate",
+   "title": "Budget-three fiber-two c=2 one-antipodal minimum support has an endpoint torsion gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At minimum barycentric support, the constant-to-leading ratio of the even support compiler polynomial is the explicit scalar Xi=H/(P c_m^2 Delta_inf). Its split subgroup roots occur in negation pairs, so Xi lies in mu_(2^39). The theorem does not exclude this scalar gate or address larger support.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate",
+   "title": "Budget-three fiber-two c=2 one-antipodal minimum support has an infinity-cell torsion gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At minimum barycentric support, the leading coefficients of the four canonical cell factors form a squarefree four-root divisor of X^N-1. Their infinity quartic preserves the unique derivative-weight collision, and its selected-antipodal specialization has binary-quartic invariant zero. This is a constant-degree prefilter, not a subgroup-quartet classification.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler",
+   "title": "Budget-three fiber-two c=2 minimum-support selected-antipodal infinity quartet has an affine-intersection compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the minimum-support shard where the selected denominator pair is the unique antipodal pair, the infinity quartet is one subgroup scale times 1, y, (a+2)y-(a+1), and (a-1)y+(2-a), where a^2=-2. The source-weighted affine product lies in mu_(N/4), and the square-root relabelling is explicit. The theorem does not prove this affine subgroup intersection empty or reconstruct a full canonical packet.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap",
+   "title": "Budget-three fiber-two c=2 selected-antipodal affine intersection has an official Stepanov cap",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In every official prime or quadratic field chamber, the selected-antipodal affine subgroup intersection has at most 355106851 candidate values of y. The proof uses the exact characteristic budget rather than the stronger p>=N^2 convenience hypothesis. This is a candidate cap, not an emptiness result or authorization for exhaustive search.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router",
+   "title": "Budget-three fiber-two c=2 one-antipodal packets have a collision-or-high-support dichotomy",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every complete one-antipodal c=2 packet either has four distinct barycentric weights and mismatch support at least 4H-2, or has exactly one equal weight pair and lies on the same two L/Q branches with the outer square-class gate. Thus every support at most 4H-4 is in the collision branch. Neither branch is excluded, and minimum-support-only gates are not extended.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router",
+   "title": "Budget-three fiber-two c=2 one-antipodal degree defect globalizes the maximal-degree gates",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every complete one-antipodal c=2 packet has an exact even support ledger indexed by the degree defect e=H-3-deg C. On the maximal-degree branch, the Euler, infinity-cell, selected-antipodal affine, and official Stepanov gates hold at every support; the support split-divisor and endpoint Xi remain equality-only.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_nodal_trace_orbit_energy_router",
+   "title": "DSP8 nodal trace-orbit energy router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Internally signed-distinct points on each singular trace form free six-presentation orbits, and signed-disjoint DSP8 pairs cannot lie in one orbit. Thus the nodal pair square sharpens exactly to E_tr=sum_c N_c(N_c-6). When p=1 mod 3, E_tr=(N^2+2|S|^2)/3-6N for one cubic-character bias S of the eligible nodal parameters. This is an exact energy router; it proves no cubic-bias or smooth-trace bound.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/statement.md",
+    "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/proof.md",
+    "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/audit.md",
+    "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/result.md",
+    "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/verify.py",
+    "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/verify_audit.py"
    ]
   }
  ],
@@ -22816,6 +23411,531 @@
   {
    "from": "f3_h3_taylor_cutoff_small_order_reference",
    "to": "f3_h3_official_order_template_survivor",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_hge4_near_third_belyi_necklace_bound",
+   "to": "f3_hge4_near_third_kummer_midpoint_pencil",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_near_third_kummer_midpoint_pencil",
+   "to": "f3_hge4_norm_gate_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_hge4_near_third_belyi_necklace_bound",
+   "to": "f3_hge4_kummer_midpoint_trace_power_gate",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_near_third_kummer_midpoint_pencil",
+   "to": "f3_hge4_kummer_midpoint_trace_power_gate",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_kummer_midpoint_trace_power_gate",
+   "to": "f3_hge4_norm_gate_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_hge4_kummer_midpoint_trace_power_gate",
+   "to": "f3_hge4_kummer_trace_power_gcd_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_kummer_trace_power_gcd_compiler",
+   "to": "f3_hge4_norm_gate_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_hge4_exact_ratio_tower_orbit_compiler",
+   "to": "f3_hge4_cyclotomic_norm_quarter_width_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_near_third_belyi_necklace_bound",
+   "to": "f3_hge4_cyclotomic_norm_quarter_width_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_cyclotomic_norm_quarter_width_exclusion",
+   "to": "f3_hge4_norm_gate_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_hge4_exact_ratio_tower_orbit_compiler",
+   "to": "f3_hge4_cyclotomic_haar_near_quarter_swap_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_primitive_swap_odd_moment_router",
+   "to": "f3_hge4_cyclotomic_haar_near_quarter_swap_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_cyclotomic_haar_near_quarter_swap_router",
+   "to": "f3_hge4_norm_gate_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_hge4_primitive_swap_odd_moment_router",
+   "to": "f3_hge4_swap_norm_haar_band_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_cyclotomic_haar_near_quarter_swap_router",
+   "to": "f3_hge4_swap_norm_haar_band_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_swap_norm_haar_band_exclusion",
+   "to": "f3_hge4_norm_gate_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_hge4_cyclotomic_haar_near_quarter_swap_router",
+   "to": "f3_hge4_vandermonde_defect_band_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_swap_norm_haar_band_exclusion",
+   "to": "f3_hge4_vandermonde_defect_band_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_vandermonde_defect_band_exclusion",
+   "to": "f3_hge4_norm_gate_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_higher_rank_minimal_face_syzygy_dichotomy",
+   "to": "xr_higher_rank_collapsed_face_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_collapsed_face_exclusion",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_higher_rank_uniform_split_pencil_reduction",
+   "to": "xr_higher_rank_first_residual_quadratic_involution",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_collapsed_face_exclusion",
+   "to": "xr_higher_rank_first_residual_quadratic_involution",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_first_residual_quadratic_involution",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_higher_rank_uniform_split_pencil_reduction",
+   "to": "xr_higher_rank_rank_two_shell_maxwell_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_collapsed_face_exclusion",
+   "to": "xr_higher_rank_rank_two_shell_maxwell_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+   "to": "xr_prize_primitive_rank_two_shell_band",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_primitive_rank_two_shell_band",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_higher_rank_uniform_split_pencil_reduction",
+   "to": "xr_prize_first_shell_primitive_rank_three_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_primitive_rank_two_shell_band",
+   "to": "xr_prize_first_shell_primitive_rank_three_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_first_shell_primitive_rank_three_exclusion",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_higher_rank_uniform_split_pencil_reduction",
+   "to": "xr_trade_circuit_arity_segre_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "xr_trade_circuit_arity_segre_atlas",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_trade_circuit_arity_segre_atlas",
+   "to": "xr_rank_two_fundamental_circuit_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_fundamental_circuit_owner",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_two_fundamental_circuit_owner",
+   "to": "xr_rank_two_three_anchor_grs3_factorization",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_uniform_split_pencil_reduction",
+   "to": "xr_rank_two_three_anchor_grs3_factorization",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_three_anchor_grs3_factorization",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_two_fundamental_circuit_owner",
+   "to": "xr_rank_two_four_anchor_quadric_centroid_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_four_anchor_quadric_centroid_atlas",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_higher_rank_uniform_split_pencil_reduction",
+   "to": "xr_rank_two_dual_support_extension_factorization",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_dual_support_extension_factorization",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_higher_rank_uniform_split_pencil_reduction",
+   "to": "xr_rank_two_received_pair_alternating_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_three_anchor_grs3_factorization",
+   "to": "xr_rank_two_received_pair_alternating_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_four_anchor_quadric_centroid_atlas",
+   "to": "xr_rank_two_received_pair_alternating_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_received_pair_alternating_router",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_two_dual_support_extension_factorization",
+   "to": "xr_rank_two_actual_block_extension_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_received_pair_alternating_router",
+   "to": "xr_rank_two_actual_block_extension_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_actual_block_extension_router",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+   "to": "xr_rank_two_extension_family_collision_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_actual_block_extension_router",
+   "to": "xr_rank_two_extension_family_collision_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_extension_family_collision_ledger",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_router",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_barycentric_collision_branch_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_infinity_cell_torsion_gate",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h2_stepanov_inhouse",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h2_stepanov_inhouse",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_dsp8_nodal_trace_parameter_router",
+   "to": "f3_h3_dsp8_nodal_trace_orbit_energy_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_nodal_cube_preimage_envelope",
+   "to": "f3_h3_dsp8_nodal_trace_orbit_energy_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_nodal_trace_orbit_energy_router",
+   "to": "f3_h3_dsp8_correlation_bound",
    "kind": "ev"
   }
  ]
