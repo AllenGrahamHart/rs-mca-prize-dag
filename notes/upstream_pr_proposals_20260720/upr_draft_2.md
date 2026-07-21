@@ -73,3 +73,16 @@ Within this determined family there is no super-polynomial primitive prefix fibe
 super-polynomial primitive split-pencil family: the far-CA uniqueness (`2r<d_min`) forces at most one
 codeword per non-anchor slope, and the bad-slope count is exactly `B_*`. This is offered as a
 positive-side calibration of the envelope in the below-half-distance regime, not as a counterexample.
+
+---
+
+## RETIRED (2026-07-21, upr2 survey)
+
+This draft is formally RETIRED: upstream's own `experimental/rs_mca_thresholds.tex`
+at HEAD 18cfc199 (`cor:prize-window-compiler`) proves the identical determination
+at ALL FOUR rates and general dyadic n — strictly stronger and self-contained.
+Exact-arithmetic confirmation (ramguard): M_rho(2^41) = 389,500,552,609 matches
+his table-B row, and his window boundary log2 = 166.50283441889... matches this
+draft's 2^166.502834419 digit-for-digit. Proposing this would be proposing his
+own theorem back (the paving_rf3 trap in a new suit). See
+notes/upstream_pr_proposals_20260721/upr2_survey.md.

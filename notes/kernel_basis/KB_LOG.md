@@ -3077,3 +3077,34 @@ n=2^41 family — the quadruple mismatch stated). Drafts 2-3 HELD as
 companions. THE MAINTAINER QUEUE IS EMPTY — remaining standing:
 PR #999/#1010 triage watch, KB #107 harness fix, roadmap
 divergence, wave-19 when Codex accumulates.
+
+## 116 — 2026-07-21: UPR2 SURVEY BANKED — fresh crosswalk vs Grande
+## Finale v3; draft 2 RETIRED (consumed by his tree); draft 3 needs
+## a primitivity fix; ONE new candidate (pruned-Q toy packet)
+
+Fresh survey (agent, notes/upstream_pr_proposals_20260721/
+upr2_survey.md) vs upstream 18cfc199 + the drained PR queue (only
+#1009 holmbuar Lean M31 + our #1010 remain open; #984-#1008 all
+closed-integrated = those lanes are now TREE-owned). His priority
+structure of record = the SIX-INPUT v3 checklist (= Grande Finale
+(F1)-(F4)); SS0.4/SS0.5 unchanged. VERDICTS: (1) DRAFT 2 RETIRED —
+his cor:prize-window-compiler proves our n=2^41 determination at
+all four rates, strictly stronger; digit-for-digit confirmed
+(M_rho(2^41)=389,500,552,609; boundary 166.50283441889); retirement
+note appended to the draft. Also mca_quadratic_prize_rows = a
+ledgered replay of HIS thm:intro-prize-rows — not ours to propose.
+(2) DRAFT 3 RANKS HIGHER under v3 (#5 quotient payments + #1
+prefix max-fiber) BUT holds a LATENT OVER-CLAIM caught by the
+survey: our cyclic-rotation fiber is QUOTIENT-CELL (c | n/2), NOT
+"primitive" in his first-match sense — mandatory redraft before any
+submission (would have repeated the #750 trap). (3) NEW RANK-2
+candidate: the PRUNED-Q TOY PACKET — his good-first-PR #1 verbatim,
+the only path onto his #1 hard input (row-sharp Q); 1-2 sessions
+build on our audited enumeration machinery; his in-tree census is
+raw-only (gap confirmed). (4) DEAD: Proth replay (in-tree),
+near-rational refutation (repaired upstream), dli/WCL/C36/XR/K4
+(different-lane, v3 unchanged). DON'T additions: never call the
+cyclic family primitive; stay out of the Lean lanes; one
+audit-genre PR in flight at a time. RECOMMENDATION OF RECORD:
+submit NOTHING until #1010 triage; then the redrafted draft 3;
+optionally start the pruned-Q packet build meanwhile.
