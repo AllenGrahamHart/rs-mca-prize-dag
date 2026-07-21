@@ -195,3 +195,27 @@ such corrections are just made (banked, reversible, provenance-annotated).
 Genuine choices, status flips on named conjectures (the amber ceremony),
 and outward-facing acts remain surfaced. Full policy:
 memory rs-mca-forced-corrections-authority.md.
+
+## Decision 5 (2026-07-21): w17-C1 — Modal screens accepted; time-based self-authorization
+
+Ruled in-session by the maintainer during the queue walk.
+
+(a) **Evidence — ACCEPTED + REGISTERED.** The three wave-17 Modal no-hit
+screens (antiinvariant ap-6KQ2mJjoE3Qkq7VaKqnxlZ; harmonic
+ap-Js6Im9DeoBlc0di05YG2WE; harmonic-top ap-PVTrzkKlh4j1B6qDmGU1Wf) are
+accepted as PROVED evidence for their three consuming nodes under their
+local coverage/hash certificates. Registration executed: per-node
+verify_screen_certificate.py (hash-pins packet: checker + launcher +
+result.json, runs the checker fail-closed) + verify_screen_remote.py
+(manifest remote launcher). Closes w17-C4.
+
+(b) **Policy — RATIFIED AS AMENDED (time-based).** The maintainer's words:
+"lets keep the time below 5mins - this is easier than imposing a dollar
+cost." The sub-$1 self-authorization criterion is superseded: a launch is
+self-authorized iff route-deciding + conservative TOTAL WALL-TIME < 5
+minutes (auditable via banked per-shard timings) + certificate/checker
+banked + logged in PRIZE_COMPUTE_REQUESTS.md. Everything else = contributor
+request. Standing item #260 (9 queued sub-$1 jobs) is settled in principle:
+each re-screens under the time rule. The ruled text lives in
+notes/PRIZE_COMPUTE_REQUESTS.md ("Maintainer ruling (2026-07-21)"); Codex
+should adopt it on its next master merge.

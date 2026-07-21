@@ -27,10 +27,17 @@ not belong here.
 > The three nodes are wired **ev-only** into `rate_half_list_adjacent_crossing`
 > (still TARGET); no red flipped on their account. Wave-18 launched zero jobs
 > and TIGHTENED the policy (the >= `$1` / unknown / could-exceed-balance
-> do-not-launch rule below). **Open maintainer decision (w17-C1):** whether to
-> accept remote no-hit screens under a local coverage certificate as PROVED
-> evidence, and whether to ratify the sub-`$1` self-auth policy. Recorded
-> here; not auto-adopted.
+> do-not-launch rule below).
+>
+> **RESOLVED 2026-07-21 (maintainer ruling, w17-C1).** (a) Remote no-hit
+> screens carrying a local coverage/hash certificate ARE accepted as PROVED
+> evidence; the three screens' launchers and checkers are now registered in
+> the verifier manifest via per-node `verify_screen_certificate.py` (hash
+> pins) and `verify_screen_remote.py` (remote launcher). (b) The sub-`$1`
+> self-authorization clause is SUPERSEDED by the **time-based rule** in the
+> maintainer-ruling section below: self-authorized launches must keep total
+> wall-time under 5 minutes. This also settles standing item #260 in
+> principle (queued jobs re-screen under the time rule).
 
 ## Current spend freeze
 
@@ -53,6 +60,27 @@ launch it; record it here with its proof purpose and readiness gaps. When the
 related mathematics is vendored to Przemek's repository, include the record
 as an upstream compute request so a contributor with suitable resources can
 accept a declared budget and run it independently.
+
+## Maintainer ruling (2026-07-21): time-based self-authorization
+
+The self-authorization criterion above ("explicitly approved ... conservative
+total cost below `$1`") is **superseded**. A Modal launch is self-authorized
+if and only if ALL of:
+
+1. it is **route-deciding** for a named node or pre-registered falsifier;
+2. its conservative estimate of **total wall-time is under 5 minutes**
+   (per-shard timings must be banked in the certificate so the bound is
+   auditable after the fact);
+3. a **result certificate + deterministic local checker** are banked with the
+   launch (coverage accounting, per-shard hashes, hit list), and the checker
+   is registered in the verifier manifest when the result becomes
+   load-bearing for a node's verifier;
+4. the launch is **logged in this ledger** (app id, purpose, wall-time).
+
+Anything failing any clause is an outbound contributor request. The dollar
+phrasing elsewhere in this file is retained for historical continuity; the
+time rule governs. (Ruling recorded in notes/MAINTAINER_DECISIONS_20260713.md;
+standing item #260's queued jobs re-screen under this rule.)
 
 ## Request queue
 

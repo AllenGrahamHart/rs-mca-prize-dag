@@ -2954,3 +2954,29 @@ mutations); legendre_collapse CR-consumer PASS; blast-radius 43/43;
 manifest 774/10/1025. Remaining master-vs-pin divergence: the ~12
 carried master-correction statements + 3 kind-holds + roadmap
 (deliberate). w18-C1 CLOSED; queue advances to w17-C1.
+
+## 111 — 2026-07-21: w17-C1 RESOLVED — screens ACCEPTED+REGISTERED;
+## sub-$1 superseded by the TIME RULE (<5min wall-time); #260 settled
+
+Queue-walk item 2. Maintainer ruled in-session: (a) the three wave-17
+Modal no-hit screens ACCEPTED as PROVED evidence under their local
+coverage/hash certificates + REGISTERED — per-node
+verify_screen_certificate.py (hash-pins checker+launcher+result.json,
+runs the checker fail-closed; all 3 PASS ~1s each) +
+verify_screen_remote.py (bare `import modal` classification line;
+never batch-replayed) — closes w17-C4; node-local acceptance notes
+banked. (b) THE TIME RULE (maintainer verbatim: "lets keep the time
+below 5mins - this is easier than imposing a dollar cost"):
+self-authorized Modal launches must be route-deciding + conservative
+TOTAL WALL-TIME < 5 minutes (auditable via banked per-shard timings)
++ certificate/checker banked + logged in the CR ledger; everything
+else = contributor request. Sub-$1 dollar criterion SUPERSEDED
+(historical text retained + annotated); ruling = Decision 5 in
+MAINTAINER_DECISIONS_20260713.md + a ruling section in
+PRIZE_COMPUTE_REQUESTS.md; the w17-C1 annotation flipped to
+RESOLVED. #260 settled in principle (9 queued jobs re-screen under
+the time rule). Codex should adopt the ruled text on next master
+merge (watch at wave-19 audit). Manifest 777/13/1025; CR-file
+consumers (legendre, joint_star, single_quotient) + the 3 screen
+nodes all green. No dag.json change. QUEUE ADVANCES to amber-2
+acceptance -> the dli amber ceremony.
