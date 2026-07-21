@@ -3225,3 +3225,24 @@ deferred-v13 queue was emptied 5-for-5 on 07-10 (ledger-confirmed)
 — memory corrected. End-state forecast (planning priors): partial-
 credit conditional dossier ~85%, list_grand ~25%, both grands ~10%
 — hence dossier work front-loaded.
+
+## 120 — 2026-07-22: ROADMAP OF RECORD REWRITTEN DATE-FREE —
+## notes/PRIZE_RESOLUTION_ROADMAP.md = r3 gates-not-dates form;
+## divergence-era copy snapshotted; the roadmap deferral RETIRES
+
+On the maintainer's steer ("no dates or weeks/days"): the r3
+synthesis distilled into a durable date-free plan of record and
+installed AS notes/PRIZE_RESOLUTION_ROADMAP.md (the guide file the
+grand goal names). All sequencing is by GATES (D0 ww round / D1
+transfer adjudication / U3 adjudication / D3 self-kill) — events
+and conditions, never calendar; the dated r3 snapshot stays
+archival at notes/roadmap_r3_20260721/. Custody: the divergence-era
+master copy (790 lines, 2026-07-12 charter) snapshotted verbatim
+at roadmap_r3_20260721/PRIZE_RESOLUTION_ROADMAP_pre_r3_snapshot.md.
+THE ROADMAP-DIVERGENCE DEFERRAL RETIRES: master's file is now the
+deliberate authority; Codex inherits on next merge (wave-19 audit
+checks adoption). Contents: the two theses, walls + identification
+discipline, U1/U2/U3, board anatomy w/ D2 dli cap, risk register
+(triggers->consequences), the four tracks + Track N information
+purchases, endgame/dossier, the delta*-bracket progress metric,
+the 14-item decision queue, planning priors (re-issued at gates).
