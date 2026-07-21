@@ -1,3 +1,8 @@
+# Provenance snapshot (2026-07-21): statement.md immediately before the
+# w18-C1 DSP8 parity supersession, maintainer-ratified this date.
+# Preserved per custody #104 (merge-not-replace). The parity package
+# strictly sharpens the constants; see WAVE18_AUDIT_FINDINGS.md.
+
 # DSP8 joint-star / quotient-depth Pareto compiler
 
 - **status:** PROVED
@@ -7,8 +12,7 @@
 - **dependencies:** `f3_h3_dsp8_accident_depth_compiler`,
   `f3_h3_dsp8_disjoint_six_multiplicity_gate`,
   `f3_h3_excess_multistar_degree_ladder`,
-  `f3_h3_double_accident_coupling_batch_odd_saturation`,
-  `f3_affine_coset_pair_cubic_preimage_stepanov`
+  `f3_h3_double_accident_coupling_batch_odd_saturation`
 
 For every integer
 
@@ -63,46 +67,13 @@ and the following simpler conditions are sufficient:
 
 ```text
 E       Dbar_E^0+w_E Dbar_E^A <= C_E n^2
-6                                    C_E=121/136
-7                                    C_E=89023/43520
-8                                    C_E=99/85
-9                                    C_E=72837/27200
-10                                   C_E=99/68
-11                                   C_E=72837/21760
-12                                   C_E=198/119
-13                                   C_E=72837/19040
-14                                   C_E=517/272
-15                                   C_E=380371/87040
+6,7                                  C_E=121/136
+8,9                                  C_E= 99/85
+10,11                                C_E= 99/68
+12,13                                C_E=198/119
+14,15                                C_E=517/272
 16                                   C_E=319/153.        (JDP5)
 ```
-
-For the five odd corners `E in {7,9,11,13,15}`, put
-
-```text
-D(t)=#{a in (1-H)\{0}:a^2=t},
-S_(D,E)=sum_(t!=1,D(t)>0)rho_E(t),
-B_par,E(n)=300n^2-17L_E(n-1)^2
-                    -17(E-1)(n-2)^2-17S_(D,E).   (JDP5a)
-```
-
-Swap parity and the affine subgroup-line bound give
-
-```text
-S_(D,E)<(51/16)(n-1)n^(2/3),
-B_par,E(n)>(8093/320)n^2.                         (JDP5b)
-```
-
-The corresponding exact row-sensitive sufficient condition is
-
-```text
-Dbar_E^0+w_E Dbar_E^A
- <=B_par,E(n)/(17a_E^0).                          (JDP5c)
-```
-
-The odd rows in `(JDP5)` are the uniform consequences of `(JDP5b)--(JDP5c)`.
-They improve their former constants by the common factor `8093/3520>2.29`.
-The even rows retain the original `B_(L_E,E)>11n^2` payment. The separate
-single-quotient compiler treats `E=17`.
 
 The same eleven corners have exact sparse candidate packets. The product-side
 packet and the complete quotient packet can be chosen as follows:

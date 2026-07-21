@@ -1,3 +1,8 @@
+# Provenance snapshot (2026-07-21): statement.md immediately before the
+# w18-C1 DSP8 parity supersession, maintainer-ratified this date.
+# Preserved per custody #104 (merge-not-replace). The parity package
+# strictly sharpens the constants; see WAVE18_AUDIT_FINDINGS.md.
+
 # DSP8: the split-pencil / line-fiber correlation bound
 
 - **status:** TARGET (minted 2026-07-19 at the C36 amber ceremony; alt leaf, gate=any)
@@ -172,57 +177,6 @@ budget; in the three-cubic-root case even the sharpened nodal envelope remains
 above `76599/40`. The target-divisor pruning node separately retains the exact
 signed-disjoint live residual.
 
-PROVED NODAL TRACE-ORBIT ENERGY ROUTER: restrict each singular trace to its
-internally signed-distinct ordered point presentations and write their counts
-as `N_c`. Every unordered triple has exactly six presentations, while a
-signed-disjoint pair cannot use two presentations of the same triple. Hence
-the class-blind nodal square sharpens to
-
-    E_tr=sum_c N_c(N_c-6),
-    10G_sing^0+17G_sing^A<(867/16)n^(2/3)E_tr.
-
-When `p=1 (mod 3)`, the trace class of a nodal parameter `theta` is the class
-of `theta(1+theta)` in the order-three quotient `K/H`. If `S` is the
-corresponding cubic-character sum and `N=sum_c N_c`, then exactly
-
-    E_tr=(N^2+2|S|^2)/3-6N,
-    N<(51/16)(3n)^(2/3).
-
-Thus `E_tr<=(51066/1445)n^(4/3)` pays the full uniform nodal allowance. The
-distribution-free gate `N<=(59/10)n^(2/3)` already implies that energy cap,
-while the proved point theorem gives `N<(106131/16000)n^(2/3)`. Cubic trace
-balance is therefore relevant only in the narrow interval between those two
-coefficients. The
-more transparent sufficient condition `|S|<=4N/5` puts the nodal payment
-below `1812n^2`, leaving more than `103n^2` for smooth traces. Neither
-condition is proved: sparse nodal sets can have full cubic bias, so this is
-an exact Pareto router rather than an equidistribution claim.
-
-PROVED NODAL STEPANOV CONSTANT BARRIER: every parameter choice in the current
-one-auxiliary-polynomial ansatz satisfies
-
-    (A+2mB)/D > 2^(5/3)m^(2/3).
-
-Using that ansatz for both the order-`n` quotient line and order-`3n`
-cube-preimage intersection forces a class-blind leading coefficient above
-`2176`, already larger than `76599/40`. Retuning the Stepanov integers cannot
-close the three-cubic-root nodal lane. A signed-disjoint nodal antipodal
-control at `(n,p)=(64,7937)` shows that replacing weight `17` by `10` without
-the richness gate is also false. The live routes are target/richness/
-disjointness correlation, trace-sensitive distribution, or a genuinely
-stronger multi-fiber theorem.
-
-PROVED NODAL DECORATION CLASS-DISCOUNT NO-GO: over `F_769` with the
-order-256 subgroup, one exact signed-disjoint singular pair has all nine
-decorations in the live `P>=25,R>0` locus, but seven of the nine targets are
-antipodal. Thus neither a `4/9`, `5/9`, nor `2/3` class-A fraction cap follows
-from the decoration packet, signed disjointness, richness, and quotient
-support alone. This fixture has `p<n^2`, so it does not falsify DSP8 or a
-field-size-dependent official estimate. It rules out using a universal
-decoration-mix discount to repair the three-cubic-root nodal constant; a
-successful discount must consume `p>=n^2` or a genuine cross-target
-correlation.
-
 PROVED RICH FACTORIAL MOMENT COMPILER: define
 
 ```text
@@ -284,59 +238,18 @@ quotient-collision star. Rows outside `P>=33,R>=4` require no fixed-order
 survivor certificate on this route. The reduced moment and joint-ideal
 survivor bound remain open.
 
-PROVED JOINT-STAR / QUOTIENT-DEPTH PARETO COMPILERS: using disjoint
-distance-six edges directly gives twelve independently sufficient moment
-routes, one at every integer corner
+PROVED JOINT-STAR / QUOTIENT-DEPTH PARETO COMPILER: using disjoint
+distance-six edges directly gives six independently sufficient moment routes
+on the rectangles
 
 ```text
-(P,R)>=(25,12),(26,11),...,(34,3),(35,2),(36,1).
+(P,R)>=(25,12),(27,10),(29,8),(31,6),(33,4),(35,2).
 ```
 
 Their product packets strengthen from a degree-two free star to
 degree-eight/six class-sensitive stars, while the anchored quotient packet
-shrinks from eleven spokes to none. At the five odd cutoffs
-`E=7,9,11,13,15`, swap parity confines the last paid low-excess unit to
-diagonal targets. The affine subgroup-line bound therefore raises their
-uniform allowances to
-
-```text
-E=7:   (89023/43520)n^2
-E=9:   (72837/27200)n^2
-E=11:  (72837/21760)n^2
-E=13:  (72837/19040)n^2
-E=15:  (380371/87040)n^2.
-```
-
-Each also has a stronger row-sensitive budget that subtracts its measured
-diagonal quotient-depth mass:
-
-```text
-S_(D,E)=sum_(t!=1,D(t)>0)(R(t)-(17-E))_+,
-B_par,E=300n^2-17(17-E)(n-1)^2
-                 -17(E-1)(n-2)^2-17S_(D,E).
-```
-
-The packet shapes and survivor rectangles are unchanged. The last corner has
-the row-sensitive form
-
-```text
-Dbar_17^0+(29/22)Dbar_17^A <=(29/153)B_par(n),
-B_par(n)=300n^2-272(n-1)(n-2)-17S_D,
-S_D=sum_(t!=1,D(t)>0)R(t),
-Dbar_17^c=sum_(t in class c,P(t)>=36)
-                 N_6^disj(t)R(t).
-```
-
-The uniform fallback replaces the right side by
-`(234697/48960)n^2`.
-
-Every survivor there has a degree-eight or degree-six pure product star and
-one quotient lift. For a fixed lift, at most two star vertices lie on the
-classified zero-coupling locus, so one of the at least nine or seven vertices
-supplies a nonzero coupling anchor. No second quotient or quotient-collision
-spoke is needed. Swap parity and the diagonal-target affine payment make this
-allowance more than `2.29` times the former value. The preceding,
-incomparable `(35,2)` corner keeps the older allowance
+shrinks from eleven spokes to one. In particular, the coordinate-minimal last
+corner is
 
 ```text
 Dbar_16^0+(29/22)Dbar_16^A <=(319/153)n^2,
@@ -344,75 +257,7 @@ Dbar_16^c=sum_(t in class c,P(t)>=35)
                  N_6^disj(t)(R(t)-1)_+.
 ```
 
-Its two-lift quotient packet is odd-locally equivalent to one nonzero coupling
-anchor plus one quotient-collision spoke. These are alternative sufficient
-routes to C36', not proofs of either displayed inequality or of `(DSP8)`
-itself.
-
-PROVED SINGLE-QUOTIENT CANDIDATE COMPRESSOR: for the `(36,1)` packet, the
-ideal generated by a product star and one coupling is exactly independent of
-the chosen star center. It is nonzero even when the selected coupling is zero,
-so the canonical center may be used without a zero-locus test. The official
-prime support of this endpoint is exactly
-
-```text
-p divides s_(n,35)^X
-  iff some t!=1 has P(t)>=36,R(t)>=1
-  iff Dbar_17^0+Dbar_17^A>0,
-```
-
-and `s_(n,35)^X` divides the cutoff-18 scalar annihilator. This removes the
-quotient index and anchor designation from candidate generation. It does not
-compute or bound the annihilator or the retained moment.
-
-PROVED QUOTIENT GALOIS-ORBIT DECOMPOSITION: for `n=2^s`, the ordered
-nonidentity quotient lifts form `3(n-s-1)` odd-Galois orbits, with
-`3(2^j-1)` orbit polynomials of degree `2^j`. The radical support of
-`s_(n,35)^X` is exactly the union of the orbitwise scalar-annihilator
-supports. At `n=8192`, the candidate computation therefore has `24,534`
-independent blocks of degree at most `4,096`, rather than one rank-`67,084,290`
-algebra. The total degree and the open `Dbar_17` moment are unchanged.
-
-PROVED CANONICAL RESULTANT MANIFEST: the orbit blocks are generated without
-orbit enumeration by three unique `(j,sign,w)` families. For
-`L=2^(j+1)` and `S_w=1+Z+...+Z^(w-1)`, each plus block is
-`Res_Z(Z^(2^j)+1,T-S_w)`, while each even-`w` minus block is its monic
-power-of-two-normalized reciprocal. This supplies reproducible block IDs and
-polynomials, not an elimination algorithm or an identification of candidate
-support between reciprocal blocks.
-
-PROVED THREE-RESULTANT CANDIDATE SCREEN: for each canonical block `q_O`,
-the resultants against the first three product Hasse derivatives are not all
-zero, and the exact cutoff-35 block scalar divides their positive odd gcd
-`g_O`. Thus all official `(36,1)` candidates occur among the prime factors
-of `73,602` ordinary resultants at `n=8192`. Complete factorization and exact
-row filtering can replace exact scalar elimination. The gcd support is only
-a superset: different derivatives may meet different roots modulo a prime.
-
-PROVED TAYLOR-CONTENT EXACT SUPPORT: the coefficient content of
-`Res_T(q_O,sum_(i=0)^35 Pcal_n^[i](T)X^i)` has exactly the odd prime radical
-of the block scalar annihilator. Thus one polynomial resultant per block is
-an exact support-level alternative to Smith elimination and removes the
-three-resultant screen's false positives. Its maximum `X`-degree is `143,360`
-at `n=8192`; coefficient growth and computational cost remain open.
-
-PROVED TAYLOR CUTOFF LADDER: the same exact content theorem holds for every
-`c>=2`, with prime supports descending as `c` increases. Any `c<=35` is a
-complete pre-screen for `(36,1)`. At `c=2`, the screen exactly detects
-quotient-supported triple product collisions, excludes different-root scalar
-resultant false positives, and has maximum `X`-degree `8,192` at `n=8192`.
-Exact filtering must still remove genuine multiplicities `3<=P<=35`.
-
-PROVED SMOOTH-TRACE SUBSTAR ROUTER: for fixed target `t` and one product
-vertex parameter `r`, a second vertex `s` is nodal only when
-
-```text
-(1+r+s-t)^3=27rs.
-```
-
-This is a cubic in `s`, so every nodal edge graph has maximum degree three.
-The `(35,2)` and `(36,1)` degree-eight/degree-six stars therefore contain, at
-the same centers, smooth-trace substars of degrees at least five and three.
-Their explicit nonzero trace discriminants may be used as saturation factors
-in the fixed-order candidate ideals. This strengthens the template-survivor
-route but supplies no moment or survivor bound.
+Every survivor there has a degree-eight or degree-six pure product star and a
+two-lift quotient packet, odd-locally equivalent to one nonzero coupling
+anchor plus one quotient-collision spoke. This is an alternative sufficient
+route to C36', not a proof of the displayed inequality or of `(DSP8)` itself.

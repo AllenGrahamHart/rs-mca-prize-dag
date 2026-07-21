@@ -23,5 +23,20 @@ The coordinate-minimal `(P,R)>=(35,2)` corner does not dominate the existing
 `(33,4)` corner: each contains targets omitted by the other. It is a smaller
 symbolic packet, not a proved smaller survivor set.
 
+Each odd-`E` corner repeats the product ratios and star degrees of the
+preceding even corner, but raises the product cutoff and removes one quotient
+lift. In particular `(34,3)` has the `(33,4)` degree-seven/degree-five product
+packet with two rather than three quotient spokes. These survivor sets are
+again incomparable.
+
+The odd rows no longer repeat the preceding even row's moment allowance.
+Their extra low-excess unit can occur only on a diagonal target, so it is paid
+by `S_(D,E)` rather than the full quotient-depth mass. Omitting `S_(D,E)` is
+sound only when the uniform `(8093/320)n^2` lower budget is used. This changes
+no product ratio, packet, rectangle, or survivor set.
+
+The affine theorem is used only after summing its one-fiber bound over at most
+`n-1` diagonal targets. No multi-fiber or energy estimate is inferred.
+
 No numerical row evidence is used in the proof, and no Modal computation was
 run.

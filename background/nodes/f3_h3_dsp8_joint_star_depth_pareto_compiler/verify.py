@@ -16,6 +16,7 @@ DEPENDENCIES = {
     "f3_h3_dsp8_disjoint_six_multiplicity_gate",
     "f3_h3_excess_multistar_degree_ladder",
     "f3_h3_double_accident_coupling_batch_odd_saturation",
+    "f3_affine_coset_pair_cubic_preimage_stepanov",
 }
 CONSUMERS = {
     "f3_h3_dsp8_correlation_bound",
@@ -37,17 +38,19 @@ TABLE = {
 }
 EXPECTED = {
     6: (Fraction(11, 2), Fraction(121, 136)),
-    7: (Fraction(11, 2), Fraction(121, 136)),
+    7: (Fraction(11, 2), Fraction(89023, 43520)),
     8: (Fraction(9, 4), Fraction(99, 85)),
-    9: (Fraction(9, 4), Fraction(99, 85)),
+    9: (Fraction(9, 4), Fraction(72837, 27200)),
     10: (Fraction(27, 16), Fraction(99, 68)),
-    11: (Fraction(27, 16), Fraction(99, 68)),
+    11: (Fraction(27, 16), Fraction(72837, 21760)),
     12: (Fraction(3, 2), Fraction(198, 119)),
-    13: (Fraction(3, 2), Fraction(198, 119)),
+    13: (Fraction(3, 2), Fraction(72837, 19040)),
     14: (Fraction(47, 34), Fraction(517, 272)),
-    15: (Fraction(47, 34), Fraction(517, 272)),
+    15: (Fraction(47, 34), Fraction(380371, 87040)),
     16: (Fraction(29, 22), Fraction(319, 153)),
 }
+ODD_REFINEMENTS = {7, 9, 11, 13, 15}
+PARITY_BUDGET = Fraction(8093, 320)
 
 
 def free_floor(size: int) -> int:
@@ -74,7 +77,8 @@ def arithmetic_check() -> None:
         assert Fraction(endpoint_excess, antipodal_floor(minimum)) == antipodal_ratio
         weight, allowance = EXPECTED[cutoff]
         assert weight == antipodal_ratio / free_ratio
-        assert allowance == Fraction(11, 17) / free_ratio
+        target_budget = PARITY_BUDGET if cutoff in ODD_REFINEMENTS else Fraction(11)
+        assert allowance == target_budget / (17 * free_ratio)
         assert ceil(Fraction(2 * free_floor(minimum), minimum)) == free_degree
         assert ceil(Fraction(2 * antipodal_floor(minimum), minimum - 1)) == antipodal_degree
 
@@ -86,10 +90,28 @@ def arithmetic_check() -> None:
             assert ceil(Fraction(2 * antipodal_floor(size), size - 1)) >= antipodal_degree
 
         for n in (2**power for power in range(13, 42)):
-            assert budget(n, depth, cutoff) > 11 * n * n
-            # The normalized sufficient condition pays exactly 11 n^2.
-            assert 17 * free_ratio * allowance == 11
+            if cutoff in ODD_REFINEMENTS:
+                assert n > 20**3
+                conservative_parity_budget = (
+                    300 * n * n
+                    - 17 * depth * (n - 1) ** 2
+                    - 17 * (cutoff - 1) * (n - 2) ** 2
+                    - Fraction(867, 320) * n * n
+                )
+                assert conservative_parity_budget > PARITY_BUDGET * n * n
+            else:
+                assert budget(n, depth, cutoff) > 11 * n * n
+            assert 17 * free_ratio * allowance == target_budget
             assert free_ratio * weight == antipodal_ratio
+
+    for cutoff in ODD_REFINEMENTS:
+        for product_count in range(19 + cutoff):
+            for diagonal_count in range(3):
+                if diagonal_count <= product_count and (
+                    diagonal_count - product_count
+                ) % 2 == 0:
+                    excess = max(product_count - 18, 0)
+                    assert excess <= cutoff - 1 + int(diagonal_count > 0)
 
     for polynomial in (
         lambda m: m * m - 12 * m + 54,
@@ -123,7 +145,11 @@ def packet_check() -> None:
         "(25,12)",
         "(34, 3)",
         "(35, 2)",
+        "C_E=89023/43520",
+        "C_E=380371/87040",
         "C_E=319/153",
+        "S_(D,E)<(51/16)(n-1)n^(2/3)",
+        "B_par,E(n)>(8093/320)n^2",
         "pure star degree 8",
         "two-edge packet",
         "I_E^batch O[1/2]=I_E^anchor O[1/2]",
@@ -132,11 +158,31 @@ def packet_check() -> None:
     ):
         assert marker in text
 
+    propagated = (
+        ROOT / "critical" / "nodes" / "f3_h3_dsp8_correlation_bound" / "statement.md",
+        ROOT
+        / "background"
+        / "nodes"
+        / "f3_h3_official_order_template_survivor"
+        / "statement.md",
+        ROOT / "notes" / "PRIZE_COMPUTE_REQUESTS.md",
+    )
+    for path in propagated:
+        surface = path.read_text()
+        assert "89023/43520" in surface
+        assert "380371/87040" in surface
+        assert "S_(D,E)" in surface
+
+    assert "8093/3520>2.29" in nodes[NODE]["statement"]
+
 
 def main() -> None:
     arithmetic_check()
     packet_check()
-    print("F3_H3_DSP8_JOINT_STAR_DEPTH_PARETO_COMPILER_PASS corners=11 endpoint=319/153")
+    print(
+        "F3_H3_DSP8_JOINT_STAR_DEPTH_PARETO_COMPILER_PASS "
+        "corners=11 odd_refinements=5 endpoint=319/153"
+    )
 
 
 if __name__ == "__main__":

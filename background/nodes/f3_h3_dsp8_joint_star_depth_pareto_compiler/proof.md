@@ -11,7 +11,8 @@ If `m` is the number of small unordered product representations, the proved
 excess ladder gives
 
 ```text
-m>=7+ceil(e/2),       e<=2(m-7),       m>=m_E=8+E/2. (2)
+m>=7+ceil(e/2),       e<=2(m-7),
+m>=m_E=7+ceil((E+1)/2).                              (2)
 ```
 
 The disjoint-six multiplicity gate gives the class-sensitive floors
@@ -51,8 +52,9 @@ Combining `(2)--(4)` gives
 e/N_6^disj(t)<=g_c(m)<=g_c(m_E).                   (6)
 ```
 
-Substitution of `m_E=11,...,16` into `(3),(4)` gives exactly the six pairs
-`(a_E^0,a_E^A)` in `(JDP3)`, proving `(JDP2)`.
+Substitution of `m_E=11,...,16` into `(3),(4)`, repeating the endpoint pair
+at each odd `E`, gives exactly the eleven rows `(a_E^0,a_E^A)` in `(JDP3)`.
+This proves `(JDP2)`.
 
 Multiply `(JDP2)` by `17rho_E(t)` and sum by target class. The general
 accident-depth reduction says that C36' follows if the resulting high tail is
@@ -63,14 +65,74 @@ B_(L_E,E)(n)
  =300n^2-17L_E(n-1)^2-17E(n-2)^2.                 (7)
 ```
 
-This proves `(JDP4)`. Since `L_E+E=17`, the same compiler gives
+This proves `(JDP4)`. There is a stronger payment when `E` is odd. The swap
+involution on ordered product representations has exactly `D(t)` fixed
+points, so
 
 ```text
-B_(L_E,E)(n)>11n^2.                                (8)
+P(t)=D(t) (mod 2).                                 (8)
 ```
 
-Write `w_E=a_E^A/a_E^0` and
-`C_E=11/(17a_E^0)`. Substitution gives the six fractions in `(JDP5)`, and
+On the low part `e(t)<=E`, with odd `E`, this implies
+
+```text
+e(t)<=E-1+1_(D(t)>0).                             (9)
+```
+
+Indeed `D(t)=0` forces `P(t)` and hence `e(t)` to be even. In the
+accident-depth proof, replace the payment `E T_(L_E)` by
+
+```text
+(E-1)T_(L_E)+S_(D,E)
+ <=(E-1)(n-2)^2+S_(D,E).                         (10)
+```
+
+Since `rho_E(t)<=R(t)`, it remains to sum a one-fiber bound over the diagonal
+targets. Their set is the image of a subset of `(1-H)\{0}` under squaring and
+therefore has at most `n-1` elements. For every `t!=1`,
+
+```text
+R(t)+1=#{z in H:1-t(1-z) in H}.
+```
+
+The two forms are nonconstant and nonproportional. The affine subgroup-line
+Stepanov theorem therefore gives, conservatively,
+
+```text
+S_(D,E)<(51/16)(n-1)n^(2/3).                     (11)
+```
+
+Consequently `(JDP4)` may be strengthened on every odd row to
+
+```text
+17(a_E^0Dbar_E^0+a_E^ADbar_E^A)<=B_par,E(n).     (12)
+```
+
+Direct expansion gives
+
+```text
+B_par,E(n)
+ =28n^2+(510+34E)n-(221+51E)-17S_(D,E).          (13)
+```
+
+Every official order has `n^(1/3)>20`. Thus the final term in `(13)` is
+strictly larger than `-(867/320)n^2`, while the displayed linear-minus-
+constant term is positive for `E=7,9,11,13,15`. Hence
+
+```text
+B_par,E(n)>(8093/320)n^2.                         (14)
+```
+
+For even `E`, the original compiler and `L_E+E=17` give
+
+```text
+B_(L_E,E)(n)>11n^2.                               (15)
+```
+
+Write `w_E=a_E^A/a_E^0`. For even `E`, put
+`C_E=11/(17a_E^0)`; for odd `E`, put
+`C_E=(8093/320)/(17a_E^0)`. Substitution gives all eleven fractions in
+`(JDP5)`. In the even case,
 
 ```text
 Dbar_E^0+w_E Dbar_E^A<=C_E n^2
@@ -78,13 +140,15 @@ Dbar_E^0+w_E Dbar_E^A<=C_E n^2
   <B_(L_E,E)(n).
 ```
 
-This proves every sufficient moment condition.
+The same implication on an odd row has `(8093/320)n^2` in the middle and
+`B_par,E(n)` on the right. This proves `(JDP5a)--(JDP5c)` and all eleven
+sufficient moment conditions.
 
 For the packet table, the two average disjoint-six degrees are bounded below
 by
 
 ```text
-ceil(2d_0(m)/m),       ceil(2d_A(m)/(m-1)).         (9)
+ceil(2d_0(m)/m),       ceil(2d_A(m)/(m-1)).        (16)
 ```
 
 The second denominator is `m-1` because the antipodal floor counts only the
@@ -93,10 +157,11 @@ denominators between consecutive parities leaves respectively
 
 ```text
 m^2+2m+12,       m^2+11,
-m^2+16,          m^2-2m+17,                        (10)
+m^2+16,          m^2-2m+17,                       (17)
 ```
 
-which are positive. Evaluating `(9)` at `m_E` gives the degrees in `(JDP6)`.
+which are positive. Evaluating the degree averages at `m_E` gives the degrees
+in `(JDP6)`.
 At `E=6` on the antipodal class, the stronger floor `d_A(11)=2` retains both
 edges even though averaging guarantees only degree one; the cross-center
 packet is exactly the one proved by the multiplicity gate.

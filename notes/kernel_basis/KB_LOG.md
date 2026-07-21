@@ -2927,3 +2927,30 @@ maintained; 3 kind-holds unchanged. VERIFICATION: validator PASS
 (1029/2291, PROVED 845); battery 70/70; blast-radius 160/160;
 manifest 774/10/1025 PASS; no Modal re-pin needed. Details:
 WAVE18_AUDIT_FINDINGS.md.
+
+## 110 — 2026-07-21: w18-C1 RATIFIED + LANDED — DSP8 parity
+## supersession complete; master == pin b5e5e884
+
+The maintainer ratified the w18-C1 supersession in-session. LANDED
+ATOMICALLY: joint_star + single_quotient full packets re-taken (8
+files each); correlation_bound + official statements superseded
+(file + dag string); 2 req edges added (affine_coset -> both
+compilers, green-to-green); 4 dag statement strings adopted
+(8093/3520>2.29 + 234697/48960 marker pins satisfied); pin ledger
+notes/PRIZE_COMPUTE_REQUESTS.md ADOPTED WHOLESALE with the w17-C1
+governance annotation re-inserted (carried forward, still
+unratified) — resolves the divergent propagated surface the parity
+verifiers pin. CUSTODY: all four replaced statement.md preserved as
+dated node-local provenance snapshots (notes/statement_pre_parity_
+supersession_20260721.md — NOT in statement.md, avoiding the
+negative marker pin); master's replaced CR ledger snapshotted at
+notes/PRIZE_COMPUTE_REQUESTS_master_snapshot_pre_w18C1_20260721.md.
+The folded wave-17 dated-addenda item for correlation_bound/official
+is DISCHARGED by this supersession. VERIFICATION: validator PASS
+(1029/2293 — master now == pin edge count); package verifiers 4/4
+(joint_star corners=11 endpoint=319/153 [historical label],
+single_quotient endpoint=36,1 allowance=234697/48960, audits 5+8
+mutations); legendre_collapse CR-consumer PASS; blast-radius 43/43;
+manifest 774/10/1025. Remaining master-vs-pin divergence: the ~12
+carried master-correction statements + 3 kind-holds + roadmap
+(deliberate). w18-C1 CLOSED; queue advances to w17-C1.

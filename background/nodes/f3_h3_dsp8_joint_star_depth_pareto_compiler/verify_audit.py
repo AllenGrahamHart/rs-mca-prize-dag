@@ -20,6 +20,13 @@ ROWS = {
     15: (Fraction(16, 47), Fraction(8, 17), 7, 5),
     16: (Fraction(9, 29), Fraction(9, 22), 8, 6),
 }
+ODD_ALLOWANCES = {
+    7: Fraction(89023, 43520),
+    9: Fraction(72837, 27200),
+    11: Fraction(72837, 21760),
+    13: Fraction(72837, 19040),
+    15: Fraction(380371, 87040),
+}
 
 
 def floors(size: int) -> tuple[int, int]:
@@ -49,10 +56,35 @@ def main() -> None:
         assert Fraction(endpoint_excess, antipodal) == antipodal_ratio
         endpoints.append((cutoff, minimum, free, antipodal))
 
+    for cutoff, allowance in ODD_ALLOWANCES.items():
+        free_ratio = ROWS[cutoff][0]
+        assert 17 * free_ratio * allowance == Fraction(8093, 320)
+        depth = 17 - cutoff
+        for order in (2**power for power in range(13, 42)):
+            # The proof uses the stronger exact integer fact n^(1/3)>20;
+            # avoid floating arithmetic here by applying its rational consequence.
+            conservative = (
+                300 * order * order
+                - 17 * depth * (order - 1) ** 2
+                - 17 * (cutoff - 1) * (order - 2) ** 2
+                - Fraction(867, 320) * order * order
+            )
+            assert order > 20**3
+            assert conservative > Fraction(8093, 320) * order * order
+
+        # Mutation: deleting the diagonal indicator fails at the odd endpoint.
+        product_count = 18 + cutoff
+        diagonal_count = 1
+        assert (product_count - diagonal_count) % 2 == 0
+        excess = product_count - 18
+        assert excess > cutoff - 1
+        assert excess <= cutoff - 1 + int(diagonal_count > 0)
+
     assert endpoints[-1] == (16, 16, 58, 44)
     print(
         "AUDIT_F3_H3_DSP8_JOINT_STAR_DEPTH_PARETO_COMPILER_PASS "
-        f"profiles={checked} endpoints={len(endpoints)}"
+        f"profiles={checked} endpoints={len(endpoints)} "
+        f"odd_refinements={len(ODD_ALLOWANCES)} mutations={len(ODD_ALLOWANCES)}"
     )
 
 
