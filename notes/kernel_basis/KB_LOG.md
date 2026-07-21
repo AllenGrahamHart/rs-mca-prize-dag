@@ -3135,3 +3135,37 @@ off his HEAD 18cfc199 (drift-checked at push). PR #1013. In flight
 upstream: #1010 (four-pair audit) + #1013 (this). Next submission
 candidate remains the pruned-Q toy packet (rank 2, build not
 started).
+
+## 118 — 2026-07-21: UPSTREAM PR #1019 OPENED — the pruned-Q toy
+## packet (his good-first-PR #1; the FIRST pruned fiber census)
+
+Build agent (definitions-first discipline) + controller audit +
+maintainer double-go (scope-as-honest + submit-now). THE PACKET:
+tests prob:row-sharp-q ("after every earlier first-match cell has
+been removed" — verbatim L3574-3580) at his toy rows, computing the
+FIRST pruned fiber distributions (his in-tree census is raw-only).
+RAW ANCHORS: digit-exact vs his committed calibration JSON on all
+8 row-depths + the printed 4-decimal ratios + the complete
+(41,20,10,2) mode-at-null datum. PRUNED SIDE double-computed
+(enumeration classification vs subgroup-lattice inclusion-
+exclusion). HONEST-SCOPE ARCHITECTURE (the crux): prunes EXACTLY
+the two classifiers his own qsp_modeatnull_structure.py names
+("the obvious quotient-pullback classifiers": coset-union +
+dilation-stable); the other six deployed cells reported NOT-MODELED
+(never silently empty); residual labeled trivial-stabilizer, not
+atlas-primitive. VERDICT: row-sharp Q SUPPORTED on every tested row
+(all pruned overheads < the binding 8.4152 allowance,
+pre-registered gate). BY-CATCH fed to his open questions: argmax
+moves OFF the null fiber at 4 row-depths; rung-charging DEEPENS the
+(41,20,10,2) null suppression 66->60 (his "(.,0)-line
+rung-charged?" item, favors exchange-compression); depth-3 null
+fibers 100% quotient-pullback (why 2.6722 -> 1.9087). VERIFIER:
+stdlib zero-arg fail-closed, 104/104 checks + 4/4 mutations, 1.9s,
+-O identical; placement-patched to fail-closed COMPARE against the
+committed experimental/data JSON. Latent upstream inconsistency
+noted (paper "1+9e-9" vs his JSON 6.9e-9 at (257,64,34,2)) — our
+anchors target the JSON. Branch allen/rowsharp-q-pruned-toy-packet
+@ 30ef8410 off 18cfc199. THREE PRs now in flight: #1010 + #1013 +
+#1019 — the full upr2 pipeline is SUBMITTED; no further candidates
+clear the bar (HGE4->SP stays held). Build materials banked at
+notes/upstream_pr_proposals_20260721/pruned_q_packet/.
