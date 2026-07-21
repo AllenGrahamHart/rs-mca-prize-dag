@@ -1,5 +1,14 @@
 # Proximity Prize deferred compute requests
 
+> **PLAN-OF-RECORD POINTER (2026-07-22).** The resolution roadmap was
+> rewritten as the date-free r3 gates-not-dates form and installed at
+> `notes/PRIZE_RESOLUTION_ROADMAP.md` (maintainer-directed; supersedes every
+> prior copy including branch-local ones — KB #120). Before posing a new
+> campaign or large compute request, re-read it: sequencing is by the gates
+> D0/D1/U3/D3, the dli lane carries a standing one-third effort cap (D2),
+> and new poses should name their track (N/A/B/C/H) and pre-registered
+> falsifier.
+
 This ledger records computations whose outputs could close or decisively
 reshape a named proof branch but whose conservative cost exceeds the current
 sub-`$1` Modal policy. It is suitable for contributor requests and upstream
