@@ -7034,16 +7034,18 @@ This targets only `p in {524287,2147483647}` and the surviving positive
 `e_1+e_2+e_3=p`, the proved normal form constructs
 
 ```text
-S_e(Z)=product_i (Z-(e_j-e_k)^(-1))^e_i,
-R_0=S_e-S_e(0),
-c=-(4/3)S_e(0),
-g_0(Y)=Y^3-2c^2Y+c^3.
+d_i=e_j-e_k,
+w=product_i d_i^e_i,
+q_i=3w/(4d_i),
+F_e(W)=3/4+product_i (W-q_i)^e_i.
 ```
 
-Any genuine record must admit `A in F_p^*` and `D_0 in F_p[Z]` with
+Frobenius and the fixed-fiber product prove that there is no additional
+domain scalar. Any genuine record must pass exactly one sign test
+`F_e(+1)=1` or `F_e(-1)=1` and admit a monic `E_e in F_p[W]` with
 
 ```text
-g_0(R_0(Z)) D_0(Z)=Z^(4(p+1))-A.                      (NU2-DIV)
+(F_e(W)^3-2F_e(W)+1)E_e(W)=W^(4(p+1))-1.              (NU2-DIV)
 ```
 
 The route-deciding computation would either emit one multiplicity triple and
@@ -7061,7 +7063,9 @@ can be promoted to a numbered contributor run, supply all of:
    unordered multiplicity triple;
 2. a sparse/product-tree or residue representation that checks `(NU2-DIV)`
    without materializing degree-`3p` polynomials per triple;
-3. a complete small-prime conformance oracle and a measured one-shard pilot;
+3. replay the checked-in complete `p=7,31,127` conformance oracle, then
+   `experiments/prize_resolution/l1_m4_h3_nu2_scalar_free_analogs.py`, then
+   publish a measured official-compatible one-shard pilot;
 4. checkpointed triple-range coverage, hashes, peak RAM, and elapsed CPU;
 5. an independent checker that reconstructs every witness and verifies every
    exclusion certificate block.

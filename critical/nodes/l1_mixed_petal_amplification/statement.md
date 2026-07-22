@@ -780,19 +780,28 @@ tangent multiplicities are pairwise-distinct positive integers
 `e_1+e_2+e_3=p` and determine the inner polynomial up to one scalar through
 an explicit prime-field Belyi polynomial. The scalar and fixed split value
 then descend the outer cubic, domain binomial, and complement to `F_p`; one
-regular fiber is Frobenius-fixed and the other two are exchanged. Therefore
-the live row split is:
+regular fiber is Frobenius-fixed and the other two are exchanged. Frobenius
+orbit parity and the fixed-fiber product remove the remaining scalar: the
+domain is `cK`, exactly one of `+c,-c` lies in the fixed split fiber, and
+simultaneous input/output scaling yields a canonical polynomial `F_e`
+determined only by the multiplicity triple with
+`F_e^3-2F_e+1 | W^n-1`. Therefore the live row split is:
 
 ```text
 p=8191,131071:               four nu=0 eliminant strata;
 p=524287,2147483647:         those four plus (1,2) and (2,1),
-nu=2 positive on latter p:   prime-field Belyi regular-fiber divisibility.
+nu=2 positive on latter p:   scalar-free Belyi divisibility by W^n-1.
 ```
+
+The complete scalar-free conformance censuses at `p=7,31,127` leave zero
+divisibility witnesses; at `p=31,127` the sign gate first reduces `65,1281`
+triples to `3,19`. This is useful evidence and compiler calibration, not an
+official exclusion.
 
 This is not yet an exclusion or component bound. The remaining analytic work
 is the four-case `nu=0` classification, the `(1,2)` positive classification
 on the latter two characteristics, and a multiplicity-triple/divisibility
-theorem for the normalized `(2,1)` Belyi family.
+theorem for the scalar-free `(2,1)` Belyi family.
 
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full

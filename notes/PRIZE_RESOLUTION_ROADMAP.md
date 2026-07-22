@@ -1763,11 +1763,17 @@ four `nu=0` eliminant degrees. At `p=524287,2147483647`, every positive
 record satisfies `a^3+8b^2=0`. The surviving `(2,1)` case is further reduced
 to pairwise-distinct multiplicity triples summing to `p` in an explicit
 prime-field Belyi normal form, with the outer cubic, domain binomial, and
-complement all normalized over `F_p`. The live analytic split is therefore
+complement all normalized over `F_p`. The fixed-point certificate removes the
+last scalar: the domain is `cK`, one of `+c,-c` is the fixed-fiber root, and
+every triple must satisfy one scalar-free divisibility
+`F_e^3-2F_e+1 | W^n-1`. The live analytic split is therefore
 four `nu=0` strata on every row, plus `(1,2)` and the base-field-normalized
 `(2,1)` only on the latter two rows; `b=0` remains possible only in the
 `nu=0` analysis. The CP model is secondary and must respect this row split.
-`CR-L1-MCP-NU2` records the donated-compute pre-request for the normalized
+The complete scalar-free analogues at `p=7,31,127` have zero divisibility
+witnesses and are now the conformance oracle for a future compiler; they do
+not exclude an official row.
+`CR-L1-MCP-NU2` records the donated-compute pre-request for the scalar-free
 regular-fiber divisibility problem; it is not locally authorized and still
 needs a completeness-preserving multiplicity compiler before any large run.
 

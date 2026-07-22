@@ -381,10 +381,13 @@
   valuation is empty at `p=8191,131071`, while at
   `p=524287,2147483647` it satisfies `a^3+8b^2=0`. In the surviving
   `(2,1)` stratum, consume the prime-field Belyi normal form and base-field
-  normalization. Search over its pairwise-distinct multiplicity triples and
-  exact regular-fiber divisibility only after proving a completeness-
-  preserving compression; do not search arbitrary coefficients or scalar
-  conjugates. Treat `nu=0` separately, including its possible `b=0` branch,
+  normalization, then the fixed-point certificate. The domain is `cK`, and
+  every pairwise-distinct multiplicity triple must pass one of two scalar
+  sign tests and the canonical divisibility
+  `F_e^3-2F_e+1 | W^n-1`. Search these triples only after proving a
+  completeness-preserving compression; do not search arbitrary coefficients,
+  scalar conjugates, or domain parameters. Treat `nu=0` separately,
+  including its possible `b=0` branch,
   and prioritize it on the first two characteristics where it is the entire
   cubic frontier. Enforce the Cartier constraints and Euler quotient
   factorization. Any computation should identify one of the row-valid exact

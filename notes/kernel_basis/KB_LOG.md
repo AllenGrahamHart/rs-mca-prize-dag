@@ -3603,3 +3603,14 @@ One split fiber is Frobenius-fixed and the other two are exchanged. The live
 `nu=2` question is therefore a prime-field multiplicity-triple regular-fiber
 divisibility problem. This is PROVED structural compression, not an
 exclusion; `CR-L1-MCP-NU2` records the unpriced donated-compute pre-request.
+
+## 140 - 2026-07-22: FROBENIUS REMOVES THE LAST NU=2 SCALAR
+
+The fixed prime-field split fiber has odd size while Frobenius has order four
+on the domain, so it contains exactly one prime-field root. Its root product
+forces that point to be `+c` or `-c`; hence the domain is exactly `cK` and
+its binomial parameter is `c^n`. Simultaneous scaling by `c` removes every
+remaining scalar and gives a canonical triple-indexed polynomial `F_e` with
+`F_e^3-2F_e+1 | W^n-1`. Each triple also obeys one of two explicit sign
+equations. This is a PROVED necessary certificate, not a converse or
+exclusion; it sharply replaces the former unpriced coefficient/domain search.
