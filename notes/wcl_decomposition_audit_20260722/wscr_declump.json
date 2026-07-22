@@ -1,0 +1,1110 @@
+{
+ "pass": "post-hoc declump (labeled; registered screen JSONs untouched)",
+ "targets": 46,
+ "fully_resolved": 46,
+ "max_v2_new": 14,
+ "alarms": [],
+ "wall_seconds": 0.69,
+ "rows": [
+  {
+   "screen": "15core",
+   "i": 3,
+   "cofactor_bits": 56,
+   "status": "RESOLVED",
+   "maxv2": 10,
+   "factors": [
+    [
+     "1230337",
+     1,
+     9,
+     21
+    ],
+    [
+     "52217115649",
+     1,
+     10,
+     36
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "15core",
+   "i": 36,
+   "cofactor_bits": 42,
+   "status": "RESOLVED",
+   "maxv2": 10,
+   "factors": [
+    [
+     "1108993",
+     1,
+     10,
+     21
+    ],
+    [
+     "2349569",
+     1,
+     9,
+     22
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "15core",
+   "i": 59,
+   "cofactor_bits": 52,
+   "status": "RESOLVED",
+   "maxv2": 9,
+   "factors": [
+    [
+     "1767937",
+     1,
+     9,
+     21
+    ],
+    [
+     "1522857473",
+     1,
+     9,
+     31
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "15core",
+   "i": 115,
+   "cofactor_bits": 63,
+   "status": "RESOLVED",
+   "maxv2": 12,
+   "factors": [
+    [
+     "66933761",
+     1,
+     10,
+     26
+    ],
+    [
+     "86231420929",
+     1,
+     12,
+     37
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "15core",
+   "i": 149,
+   "cofactor_bits": 49,
+   "status": "RESOLVED",
+   "maxv2": 9,
+   "factors": [
+    [
+     "5908993",
+     1,
+     9,
+     23
+    ],
+    [
+     "56266241",
+     1,
+     9,
+     26
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "15core",
+   "i": 208,
+   "cofactor_bits": 50,
+   "status": "RESOLVED",
+   "maxv2": 9,
+   "factors": [
+    [
+     "2487809",
+     1,
+     9,
+     22
+    ],
+    [
+     "335826433",
+     1,
+     9,
+     29
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "15core",
+   "i": 211,
+   "cofactor_bits": 74,
+   "status": "RESOLVED",
+   "maxv2": 12,
+   "factors": [
+    [
+     "38897022977",
+     1,
+     11,
+     36
+    ],
+    [
+     "410400256001",
+     1,
+     12,
+     39
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "15core",
+   "i": 281,
+   "cofactor_bits": 60,
+   "status": "RESOLVED",
+   "maxv2": 11,
+   "factors": [
+    [
+     "11318273",
+     1,
+     10,
+     24
+    ],
+    [
+     "58873006081",
+     1,
+     11,
+     36
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "15core",
+   "i": 290,
+   "cofactor_bits": 59,
+   "status": "RESOLVED",
+   "maxv2": 10,
+   "factors": [
+    [
+     "14971393",
+     1,
+     9,
+     24
+    ],
+    [
+     "24302472193",
+     1,
+     10,
+     35
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "15core",
+   "i": 309,
+   "cofactor_bits": 46,
+   "status": "RESOLVED",
+   "maxv2": 9,
+   "factors": [
+    [
+     "2414081",
+     1,
+     9,
+     22
+    ],
+    [
+     "22839809",
+     1,
+     9,
+     25
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "15core",
+   "i": 331,
+   "cofactor_bits": 46,
+   "status": "RESOLVED",
+   "maxv2": 11,
+   "factors": [
+    [
+     "4995073",
+     1,
+     11,
+     23
+    ],
+    [
+     "8276993",
+     1,
+     10,
+     23
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "15core",
+   "i": 366,
+   "cofactor_bits": 60,
+   "status": "RESOLVED",
+   "maxv2": 9,
+   "factors": [
+    [
+     "636493313",
+     1,
+     9,
+     30
+    ],
+    [
+     "1702766081",
+     1,
+     9,
+     31
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 37,
+   "cofactor_bits": 57,
+   "status": "RESOLVED",
+   "maxv2": 10,
+   "factors": [
+    [
+     "14854657",
+     1,
+     9,
+     24
+    ],
+    [
+     "9676303361",
+     1,
+     10,
+     34
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 65,
+   "cofactor_bits": 69,
+   "status": "RESOLVED",
+   "maxv2": 11,
+   "factors": [
+    [
+     "2351617",
+     1,
+     9,
+     22
+    ],
+    [
+     "2930689",
+     1,
+     11,
+     22
+    ],
+    [
+     "42865153",
+     1,
+     9,
+     26
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 97,
+   "cofactor_bits": 48,
+   "status": "RESOLVED",
+   "maxv2": 10,
+   "factors": [
+    [
+     "5442049",
+     1,
+     9,
+     23
+    ],
+    [
+     "29125633",
+     1,
+     10,
+     25
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 103,
+   "cofactor_bits": 43,
+   "status": "RESOLVED",
+   "maxv2": 13,
+   "factors": [
+    [
+     "2061313",
+     1,
+     10,
+     21
+    ],
+    [
+     "2236417",
+     1,
+     13,
+     22
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 113,
+   "cofactor_bits": 59,
+   "status": "RESOLVED",
+   "maxv2": 13,
+   "factors": [
+    [
+     "421889537",
+     1,
+     9,
+     29
+    ],
+    [
+     "1024319489",
+     1,
+     13,
+     30
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 124,
+   "cofactor_bits": 43,
+   "status": "RESOLVED",
+   "maxv2": 10,
+   "factors": [
+    [
+     "2081281",
+     1,
+     9,
+     21
+    ],
+    [
+     "3118081",
+     1,
+     10,
+     22
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 136,
+   "cofactor_bits": 79,
+   "status": "RESOLVED",
+   "maxv2": 11,
+   "factors": [
+    [
+     "24951809",
+     1,
+     10,
+     25
+    ],
+    [
+     "17583949283358721",
+     1,
+     11,
+     54
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 157,
+   "cofactor_bits": 55,
+   "status": "RESOLVED",
+   "maxv2": 13,
+   "factors": [
+    [
+     "42786817",
+     1,
+     13,
+     26
+    ],
+    [
+     "475020289",
+     1,
+     10,
+     29
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 172,
+   "cofactor_bits": 48,
+   "status": "RESOLVED",
+   "maxv2": 10,
+   "factors": [
+    [
+     "9104897",
+     1,
+     9,
+     24
+    ],
+    [
+     "25543681",
+     1,
+     10,
+     25
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 176,
+   "cofactor_bits": 72,
+   "status": "RESOLVED",
+   "maxv2": 11,
+   "factors": [
+    [
+     "3855361",
+     1,
+     10,
+     22
+    ],
+    [
+     "6383617",
+     1,
+     11,
+     23
+    ],
+    [
+     "147515393",
+     1,
+     11,
+     28
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 183,
+   "cofactor_bits": 55,
+   "status": "RESOLVED",
+   "maxv2": 11,
+   "factors": [
+    [
+     "37754369",
+     1,
+     9,
+     26
+    ],
+    [
+     "885037057",
+     1,
+     11,
+     30
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 202,
+   "cofactor_bits": 56,
+   "status": "RESOLVED",
+   "maxv2": 12,
+   "factors": [
+    [
+     "2641921",
+     1,
+     12,
+     22
+    ],
+    [
+     "25216831489",
+     1,
+     12,
+     35
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 210,
+   "cofactor_bits": 51,
+   "status": "RESOLVED",
+   "maxv2": 14,
+   "factors": [
+    [
+     "6602753",
+     1,
+     14,
+     23
+    ],
+    [
+     "334729217",
+     1,
+     12,
+     29
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 212,
+   "cofactor_bits": 47,
+   "status": "RESOLVED",
+   "maxv2": 10,
+   "factors": [
+    [
+     "1592321",
+     1,
+     10,
+     21
+    ],
+    [
+     "71671297",
+     1,
+     9,
+     27
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 244,
+   "cofactor_bits": 65,
+   "status": "RESOLVED",
+   "maxv2": 13,
+   "factors": [
+    [
+     "1172134913",
+     1,
+     10,
+     31
+    ],
+    [
+     "16993640449",
+     1,
+     13,
+     34
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "16",
+   "i": 251,
+   "cofactor_bits": 45,
+   "status": "RESOLVED",
+   "maxv2": 10,
+   "factors": [
+    [
+     "1616897",
+     1,
+     10,
+     21
+    ],
+    [
+     "12591617",
+     1,
+     9,
+     24
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "17",
+   "i": 12,
+   "cofactor_bits": 68,
+   "status": "RESOLVED",
+   "maxv2": 9,
+   "factors": [
+    [
+     "1427969",
+     1,
+     9,
+     21
+    ],
+    [
+     "2351617",
+     1,
+     9,
+     22
+    ],
+    [
+     "82964993",
+     1,
+     9,
+     27
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "17",
+   "i": 22,
+   "cofactor_bits": 57,
+   "status": "RESOLVED",
+   "maxv2": 11,
+   "factors": [
+    [
+     "247513601",
+     1,
+     9,
+     28
+    ],
+    [
+     "349652993",
+     1,
+     11,
+     29
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "17",
+   "i": 88,
+   "cofactor_bits": 58,
+   "status": "RESOLVED",
+   "maxv2": 14,
+   "factors": [
+    [
+     "333276673",
+     1,
+     9,
+     29
+    ],
+    [
+     "502743041",
+     1,
+     14,
+     29
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 0,
+   "cofactor_bits": 74,
+   "status": "RESOLVED",
+   "maxv2": 14,
+   "factors": [
+    [
+     "5310201857",
+     1,
+     14,
+     33
+    ],
+    [
+     "3189695546369",
+     1,
+     10,
+     42
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 11,
+   "cofactor_bits": 65,
+   "status": "RESOLVED",
+   "maxv2": 12,
+   "factors": [
+    [
+     "22204417",
+     1,
+     12,
+     25
+    ],
+    [
+     "1144633377793",
+     1,
+     10,
+     41
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 35,
+   "cofactor_bits": 94,
+   "status": "RESOLVED",
+   "maxv2": 13,
+   "factors": [
+    [
+     "1438721",
+     1,
+     10,
+     21
+    ],
+    [
+     "306641921",
+     1,
+     10,
+     29
+    ],
+    [
+     "28194733957121",
+     1,
+     13,
+     45
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 39,
+   "cofactor_bits": 102,
+   "status": "RESOLVED",
+   "maxv2": 11,
+   "factors": [
+    [
+     "2209793",
+     1,
+     11,
+     22
+    ],
+    [
+     "11579164673",
+     1,
+     11,
+     34
+    ],
+    [
+     "195724884797441",
+     1,
+     11,
+     48
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 68,
+   "cofactor_bits": 49,
+   "status": "RESOLVED",
+   "maxv2": 12,
+   "factors": [
+    [
+     "3198977",
+     1,
+     12,
+     22
+    ],
+    [
+     "140405761",
+     1,
+     10,
+     28
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 71,
+   "cofactor_bits": 133,
+   "status": "RESOLVED",
+   "maxv2": 12,
+   "factors": [
+    [
+     "21778433",
+     1,
+     12,
+     25
+    ],
+    [
+     "77142017",
+     1,
+     11,
+     27
+    ],
+    [
+     "2090683091969",
+     1,
+     10,
+     41
+    ],
+    [
+     "2280363624449",
+     1,
+     11,
+     42
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 78,
+   "cofactor_bits": 52,
+   "status": "RESOLVED",
+   "maxv2": 10,
+   "factors": [
+    [
+     "12635137",
+     1,
+     10,
+     24
+    ],
+    [
+     "274879489",
+     1,
+     10,
+     29
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 90,
+   "cofactor_bits": 49,
+   "status": "RESOLVED",
+   "maxv2": 10,
+   "factors": [
+    [
+     "9812993",
+     1,
+     10,
+     24
+    ],
+    [
+     "34604033",
+     1,
+     10,
+     26
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 91,
+   "cofactor_bits": 62,
+   "status": "RESOLVED",
+   "maxv2": 13,
+   "factors": [
+    [
+     "9035777",
+     1,
+     13,
+     24
+    ],
+    [
+     "256899951617",
+     1,
+     10,
+     38
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 93,
+   "cofactor_bits": 68,
+   "status": "RESOLVED",
+   "maxv2": 11,
+   "factors": [
+    [
+     "1543169",
+     1,
+     10,
+     21
+    ],
+    [
+     "98483658237953",
+     1,
+     11,
+     47
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 99,
+   "cofactor_bits": 56,
+   "status": "RESOLVED",
+   "maxv2": 11,
+   "factors": [
+    [
+     "11570177",
+     1,
+     10,
+     24
+    ],
+    [
+     "4997994497",
+     1,
+     11,
+     33
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 111,
+   "cofactor_bits": 46,
+   "status": "RESOLVED",
+   "maxv2": 12,
+   "factors": [
+    [
+     "4457473",
+     1,
+     10,
+     23
+    ],
+    [
+     "12226561",
+     1,
+     12,
+     24
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 121,
+   "cofactor_bits": 80,
+   "status": "RESOLVED",
+   "maxv2": 10,
+   "factors": [
+    [
+     "5481473",
+     1,
+     10,
+     23
+    ],
+    [
+     "122934921099015169",
+     1,
+     10,
+     57
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 134,
+   "cofactor_bits": 74,
+   "status": "RESOLVED",
+   "maxv2": 10,
+   "factors": [
+    [
+     "10349569",
+     1,
+     10,
+     24
+    ],
+    [
+     "1418137453083649",
+     1,
+     10,
+     51
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  },
+  {
+   "screen": "27router",
+   "i": 135,
+   "cofactor_bits": 76,
+   "status": "RESOLVED",
+   "maxv2": 11,
+   "factors": [
+    [
+     "3487190017",
+     1,
+     10,
+     32
+    ],
+    [
+     "14639625054209",
+     1,
+     11,
+     44
+    ]
+   ],
+   "still_unresolved_bits": [],
+   "alarms": []
+  }
+ ]
+}

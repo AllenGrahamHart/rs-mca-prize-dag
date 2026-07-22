@@ -3315,3 +3315,36 @@ string corrections. Validator PASS; affected verifiers green;
 manifest 856/14/1107. NEXT (items 4-6): Burnside sizing pass +
 weight-5 subfamily algebra (agent), then time-rule sampling
 screens in the unscanned cells.
+
+## 123 — 2026-07-22: GOAL COMPLETE (items 1-6) — the WCL ten-slot
+## decomposition is now machine-certified, exactly priced, partially
+## theorem-bitten, and powered-sampled with ZERO events
+
+Item 6 (screens, all pre-registered, all under ramguard local
+<=232s, no Modal, no spend): 934 sampled orbits across the four
+cheapest cells — (1,5)-core 400/400, (2,7)-router 150/150 via an
+INDEPENDENT from-scratch pipeline reconstruction validated exactly
+mod q (bit profile matches the banked Modal pilot to ~0.3-1%;
+selfcheck 6/6; pm1 positive control pulls 3*2^41+1), (1,6) 256/256,
+(1,7) 128/128 — ZERO events, ZERO candidates, max v_2 = 24 vs gate
+41; staged-p-1 declump resolved all 46 clumped cofactors (0.69s,
+zero alarms) so every screen is 100% full-or-smooth-tail. The four
+floors move untested -> TESTED-WITH-POWER (survival evidence only).
+TIMING PILOT: gcd stage 0.767s med pure-Python confirms the banked
+1.095s Modal figure -> the GMP/flint gcd swap remains the top lever
+on the (2,7) 33k-CPU-h projection. SURPRISES banked: typical norms
+~200-300 bits (not the 594-718-bit bounds — factor cost is governed
+by hard semiprime cofactors, not norm size); the saturation-
+soundness fix generates most partial rows (keep gp/ECM in the
+production loop); zero-branch 0/150 (confirms wclp #10). GOAL
+LEDGER (KB #122 + this): (1) completeness enumerator INSTALLED
+5/5 mutations; (2) conventions audit CLEAN vs ground truth; (3)
+window seam CLEAN + 6 staleness fixes (the 4-slot conditional
+seam caught PRE-census); (4) all ten cells exactly priced (census
+live only at (1,5)/(2,7)/marginally (1,6); ell=4 = descent-only;
+(1,7)+/(2,8)+ = new-algebra territory); (5) weight-5 subfamilies:
+1.387% proved event-free, irreducible core 2,265,060; (6) four
+floors tested-with-power, 934 orbits, zero events. SPEND LINES
+surfaced (not run): $2-5 order-256 coset closure (lifts (1,5) to
+11.99% proved); the deferred Job A finish. Screens + sizing +
+audit packets: notes/wcl_decomposition_audit_20260722/.
