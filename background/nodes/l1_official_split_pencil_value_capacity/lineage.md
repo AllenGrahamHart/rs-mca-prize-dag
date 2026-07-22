@@ -12,3 +12,7 @@ rank-defect condition followed by a gcd check.
 When the complement of two fibers has degree below `p`, the binomial domain
 adds a leading-gap contradiction: the entire `2p>n` region closes, and the
 `2p<=n<3p` region survives only at perturbation degree at least `3p-n`.
+In that surviving region, completing the quadratic composite square shows
+that the complement of the two fibers uniquely reconstructs the pair. This
+turns the residual from a free perturbation census into a square-quotient
+condition on complement locators.

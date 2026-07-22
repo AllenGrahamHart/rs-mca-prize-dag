@@ -16,7 +16,9 @@ degree-at-most-23 gcd of the coefficient remainders of
 A collision requires the associated narrow coefficient matrix to have rank
 at most `floor(n/p)-1`. If `2p>n`, no pair exists. If `2p<=n<3p`, pair
 existence forces `deg Q>=3p-n`, so first-checkpoint depths `d>=n-p` have no
-minimum-width collision.
+minimum-width collision. In the surviving `m=2` band, the complement locator
+uniquely determines the unordered pair through the test
+`(Z^n-alpha)/C=R^2+c`, giving the cap `binom(n,n-2p)`.
 
 ## Falsifier
 
@@ -25,8 +27,12 @@ all lie in the same official `n`-point domain, or more than 253 unordered
 split-fiber pairs; a root of `G_Q` not giving a split fiber; a split value
 missing from `G_Q`; or a collision whose remainder matrix has rank at least
 `floor(n/p)`; or a two-fiber pencil with `2p<=n<3p` and `deg Q<3p-n`.
+Also, two distinct collision pairs with the same complement locator falsify
+the complement compiler.
 
 ## Nonclaims
 
 No bound on the number of perturbations `Q` in the surviving band, no bound
-on `t>p`, no row-sharp fiber estimate, and no L1 status change.
+on the number of complements satisfying the square-quotient condition beyond
+the raw binomial cap, no bound on `t>p`, no row-sharp fiber estimate, and no
+L1 status change.

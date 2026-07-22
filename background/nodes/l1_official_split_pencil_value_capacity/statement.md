@@ -102,6 +102,31 @@ For a first-checkpoint collision, `r<=r_d=2p-d-1`. Hence
 At the control `(n,p)=(8192,3583)`, this closes every `t=p` depth
 `d>=4609`; the row-sharp ratio endpoint alone began at `d=5599`.
 
+In the surviving `m=2` band, a collision pair is also uniquely compiled by
+its complement. Let `C_S` be the monic locator of
+
+```text
+S=H minus (X union Y),       |S|=s=n-2p,
+```
+
+and put `D_S=Omega/C_S`. There is at most one monic degree-`p` polynomial
+`R` and one constant `c` such that
+
+```text
+D_S(Z)=R(Z)^2+c.                                      (SPV12)
+```
+
+When they exist for a genuine pair, `c` is a nonzero negative square and
+the two tail locators are `R-delta` and `R+delta`, where `delta^2=-c`.
+Consequently
+
+```text
+# unordered t=p pairs <=binom(n,n-2p)                  (SPV13)
+```
+
+in the `m=2` band, with an injective certificate `(C_S,R,c,delta)`. This is
+a structural compiler, not permission to enumerate all complements.
+
 Every minimum-width collision supplied by
 `l1_official_first_checkpoint_split_pencil_reduction` is one such pair after
 the constant term of `Q` is normalized to zero. Therefore, for each fixed
@@ -109,7 +134,8 @@ normalized perturbation `Q`, the `t=p` collision ledger has at most `253`
 unordered records. A census or contributor computation should enumerate or
 bound the surviving `Q` axis, use `(SPV4)--(SPV8)` to recover and certify the
 split values inside each `Q` record, and must not shard independently over
-`(b,c)`.
+`(b,c)`. In the `m=2` band, prefer the unique complement-square compiler
+`(SPV12)` over an independent `Q` search.
 
 This is the one-parameter moving-root bound specialized to the affine pencil
 `P-beta`, with an exact disjoint-fiber proof. It does not bound how many

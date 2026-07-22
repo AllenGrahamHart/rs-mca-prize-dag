@@ -33,3 +33,12 @@
     in the surviving band.
 17. The factor `G_Q(P)` has nonleading degree at most `p+r`; cancellation can
     only lower it and cannot invalidate the proof.
+18. The complement map is injective only for unordered pairs; changing
+    `delta` to `-delta` swaps the two fibers.
+19. The constant in `D=R^2+c` is nonzero for a genuine pair, since otherwise
+    the square would not be a squarefree divisor of the domain polynomial.
+20. The uniqueness proof uses odd characteristic through the leading
+    coefficient two in `R_1+R_2`.
+21. The raw `binom(n,n-2p)` cap can still be exponentially too large. The
+    theorem's main use is the square-quotient compiler and removal of an
+    independent `Q` axis.

@@ -108,6 +108,36 @@ In the supplied first-checkpoint representation, `r<=2p-d-1`. At
 This proves `(SPV11)`. For `(n,p)=(8192,3583)`, `n-p=4609`; the earlier
 ratio boundary is `2p-1-1566=5599`.
 
+For the complement compiler, the union locator of a genuine pair is
+
+```text
+D_S=F_XF_Y=(P-beta)(P-gamma).
+```
+
+Since `X`, `Y`, and `S` partition `H`, it is also `Omega/C_S`. Complete the
+square:
+
+```text
+D_S=(P-(beta+gamma)/2)^2-((beta-gamma)/2)^2=R^2+c.
+```
+
+Here `R` is monic of degree `p`, and `c` is a nonzero negative square because
+the two values are distinct and the characteristic is odd.
+
+To prove uniqueness, suppose `D_S=R_1^2+c_1=R_2^2+c_2` for monic
+degree-`p` polynomials. Then
+
+```text
+(R_1-R_2)(R_1+R_2)=c_2-c_1.                            (3)
+```
+
+The second factor has degree `p` because its leading coefficient is two. If
+the first factor were nonzero, the left side would have positive degree and
+could not be constant. Hence `R_1=R_2`, and then `c_1=c_2`. Choosing either
+square root `delta` of `-c` gives the same unordered pair
+`{R-delta,R+delta}`. Thus the complement determines the pair injectively.
+There are `binom(n,s)` complements, proving `(SPV13)`.
+
 For the collision consequence, normalize the constant term in the supplier's
 representation
 

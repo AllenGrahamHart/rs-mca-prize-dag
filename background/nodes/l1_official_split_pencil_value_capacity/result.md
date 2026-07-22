@@ -13,3 +13,8 @@ Rows with `2p>n` have no minimum-width pair at all. In the next band
 `2p<=n<3p`, pair existence forces `deg Q>=3p-n`, which closes every
 first-checkpoint depth `d>=n-p`. For `(n,p)=(8192,3583)`, the closed boundary
 is `d=4609`, improving the ratio-only boundary `d=5599`.
+
+In the surviving `m=2` band, the complement locator `C` determines the pair
+uniquely: `(Z^n-alpha)/C` must equal `R^2+c`, and the two locators are
+`R+-delta` with `delta^2=-c`. This gives the exact complement certificate and
+the raw cap `binom(n,n-2p)` without an independent `Q` or value-pair axis.

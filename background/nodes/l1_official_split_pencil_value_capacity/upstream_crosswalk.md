@@ -38,3 +38,17 @@ quadratic `G_Q(P)` divides `Z^n-alpha`; comparing its leading gap with the
 degree-`n-2p` complement forces `deg Q>=3p-n`. In first-checkpoint depth
 coordinates this deletes every `d>=n-p`. At `(n,p)=(8192,3583)`, contributor
 work starts below `d=4609`, not at the ratio-only boundary `d=5599`.
+
+For `m=2`, the remaining packet should use complement certificates. A
+complement locator `C` determines `D=(Z^n-alpha)/C`; at most one monic
+degree-`p` polynomial `R` makes `D-R^2` constant, and a genuine record emits
+`c=D-R^2` and `delta^2=-c`. The fibers are then `R+-delta`. This is an
+injective compiler and a `binom(n,n-2p)` raw cap, but the binomial cap is not
+claimed to pay a finite row. A compute request should seek or classify
+square-quotient complements, not enumerate independent perturbations and
+values.
+
+The proved successor `l1_official_checkpoint_characteristic_atlas` exhausts
+the official arithmetic: 33 possible pairs have `m=1`, 10 have `m=2`, and
+only 16 have `m>=3`. Upstream compute requests should name an atlas row and
+consume its prescribed compiler before estimating cost.

@@ -35,7 +35,9 @@ def main() -> None:
     assert "squarefree" in statement
     assert "not asserted for" in audit
     assert "Equality is retained" in audit
-    checks += 8
+    assert "complement map is injective only for unordered pairs" in audit
+    assert "raw `binom(n,n-2p)` cap" in audit
+    checks += 10
 
     # Mutating the strict degree boundary would reject the exact F_9 fixture.
     p = 3

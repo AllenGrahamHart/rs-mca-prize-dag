@@ -43,6 +43,14 @@ def trim(poly: list[int]) -> list[int]:
     return out
 
 
+def poly_multiply(left: list[int], right: list[int]) -> list[int]:
+    out = [0] * (len(left) + len(right) - 1)
+    for i, first in enumerate(left):
+        for j, second in enumerate(right):
+            out[i + j] = (out[i + j] + first * second) % 3
+    return trim(out)
+
+
 def poly_divmod(dividend: list[int], divisor: list[int]) -> tuple[list[int], list[int]]:
     remainder = trim(dividend)
     divisor = trim(divisor)
@@ -117,6 +125,18 @@ def main() -> None:
     assert 3 * 3 - 8 == 1  # deg(Q)=1 attains the low-complement boundary.
     checks += 7
 
+    # The same F_9 fixture pins the complement-square compiler:
+    # (Z^8-1)/(Z^2-1)=(Z^3-Z)^2+1.
+    complement = [2, 0, 1]
+    root = [0, 2, 0, 1]
+    square_quotient = poly_multiply(root, root)
+    square_quotient[0] = (square_quotient[0] + 1) % 3
+    omega = poly_multiply(complement, square_quotient)
+    assert square_quotient == [1, 0, 1, 0, 1, 0, 1]
+    assert omega == [2] + [0] * 7 + [1]
+    assert len(complement) - 1 == 8 - 2 * 3
+    checks += 3
+
     # Official control arithmetic for the improved first-checkpoint boundary.
     n = 8192
     p = 3583
@@ -150,6 +170,8 @@ def main() -> None:
         "2p>n  =>  no pair",
         "r>=3p-n",
         "d>=n-p  =>  t>=p+1",
+        "D_S(Z)=R(Z)^2+c",
+        "# unordered t=p pairs <=binom(n,n-2p)",
         "must not shard independently",
         "does not bound how many",
     ):
