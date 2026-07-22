@@ -13,13 +13,20 @@ The characteristic satisfies `p>n/24`. The locator prefix is bijectively
 equivalent to the p-free power sums through depth `d` plus the elementary
 coordinates at the at most 23 positive multiples of `p`.
 
+Every mixed fiber is contained in the coarse p-free fiber obtained by
+forgetting its checkpoints. Direct coarse-fiber flatness therefore transfers
+with no loss. A uniform conditional bound may instead be unioned at
+qualitative cost `<n^453`, but that raw union can never certify the finite
+`q/2^128` prize threshold when at least one checkpoint is present.
+
 ## Falsifier
 
 Two locator prefixes with the same mixed coordinates; failure of the inverse
-recursion; or an official row with more than 23 characteristic checkpoints
-below depth `n`.
+recursion; an official row with more than 23 characteristic checkpoints
+below depth `n`; or a mixed fiber not contained in its coarse p-free fiber.
 
 ## Nonclaims
 
-No p-free max-fiber bound, checkpoint-conditioning bound, raw `q^r` payment,
-Pade-graph transversality, or implication from F2 Myerson.
+No p-free max-fiber bound, checkpoint-conditioning bound, finite raw `q^r`
+payment, Pade-graph transversality, or implication from F2 Myerson. The
+`n^453` estimate preserves only qualitative polynomiality.

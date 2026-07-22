@@ -378,9 +378,14 @@ power sum at each such index `jp` by the elementary coefficient `E_(jp)`.
 Newton recursion and `S_(jp)=S_j^p` give a triangular bijection between the
 entire locator prefix and this mixed vector. Thus every fixed-cofactor cell is
 globally a p-free power-sum Q fiber conditioned on at most 23 Frobenius
-checkpoints. The residual is now conditional flatness across those checkpoint
-values and the Pade graph, not an untyped small-characteristic tail. Raw
-union over `q^23` checkpoint values is not paid.
+checkpoints. A theorem for the larger coarse p-free fiber transfers to each
+mixed fiber with no checkpoint loss. Alternatively, conditional flatness
+must coalesce checkpoint values inside the Pade graph. A raw union over all
+checkpoint values costs less than `n^453`, so it preserves qualitative
+polynomiality, but once a checkpoint is present its formal bound is already
+at least `q` and cannot certify the finite `q/2^128` threshold. The residual
+is therefore coarse p-free flatness or owner-sensitive conditional flatness,
+not an untyped small-characteristic tail or a checkpoint census.
 
 The fixed-syndrome target cannot in general be collapsed to one actual
 locator-prefix fiber. `l1_fixed_syndrome_multiprefix_route_cut` independently

@@ -67,6 +67,22 @@ def main() -> None:
         assert (n - 1) // characteristic_lower <= 23
         checks += 3
 
+    # Forgetting all checkpoints costs less than n^453 under only the
+    # official cap and minimum row size. The exponent 452 does not follow
+    # from those two coarse inequalities.
+    assert 256 * 23 < 13 * 453
+    assert 256 * 23 >= 13 * 452
+    checks += 2
+
+    # A nontrivial raw union over even one checkpoint cannot certify the
+    # finite q/2^128 threshold.
+    for q in (2, 17, (1 << 255) - 19):
+        for r in (1, 2, 23):
+            max_bound = 1
+            assert q**r * max_bound >= q
+            assert q > q // (1 << 128)
+            checks += 2
+
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
@@ -89,6 +105,9 @@ def main() -> None:
         "S_j(A) if p does not divide j",
         "E_j(A) if p divides j",
         "triangular polynomial coordinate equivalence",
+        "Fib_mix(s,c) subset Fib_free(s)",
+        "q^r<2^(256*23)=2^5888<n^453",
+        "cannot imply",
         "proves no max-fiber estimate",
     ):
         assert anchor in statement

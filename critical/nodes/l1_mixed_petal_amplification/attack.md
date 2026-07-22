@@ -75,9 +75,14 @@
   `l1_official_frobenius_checkpoint_q_router`. Keep `S_j` when `p` does not
   divide `j` and replace `S_(jp)` by the elementary checkpoint `E_(jp)`.
   This is exactly equivalent to the locator prefix, and official arithmetic
-  gives at most 23 checkpoints. Pose the remaining theorem as p-free Q
-  flatness uniform in those checkpoint values. Do not create a generic
-  small-characteristic tail or union-bound over `q^23` checkpoint vectors.
+  gives at most 23 checkpoints. There are two valid targets: prove flatness
+  directly for the larger coarse p-free fiber, which transfers to every
+  mixed fiber at zero loss, or prove conditional flatness while coalescing
+  checkpoint values in the realized Pade owner. A raw union over `q^23`
+  values preserves only qualitative polynomiality (`q^23<n^453`) and can
+  never certify the finite `q/2^128` threshold once a checkpoint is present.
+  Do not create a generic small-characteristic tail or launch a checkpoint-
+  vector census.
 - Before designing that count, apply
   `l1_cofactor_prefix_pade_graph_normal_form`. In reversed high-coefficient
   coordinates all possible targets form the graph

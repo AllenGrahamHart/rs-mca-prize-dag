@@ -153,9 +153,13 @@ identifications without a machine-verified chain.
   `p>=11n/256>n/24`, so every depth has at most 23 characteristic multiples.
   Keeping p-free power sums and replacing each divisible-index sum by the
   corresponding elementary coefficient is triangularly equivalent to the
-  full locator prefix. Thus the all-depth target is **p-free Q flatness
-  uniformly conditioned on at most 23 Frobenius checkpoints**, followed by
-  the same Pade-graph intersection. A raw `q^23` union is not a payment.
+  full locator prefix. The all-depth target has two exact forms: **flatness
+  of the larger coarse p-free Q fiber**, which transfers to each mixed fiber
+  with zero checkpoint loss, or **conditional flatness with checkpoint values
+  coalesced by the realized Pade owner**. A raw union over all checkpoint
+  vectors costs `<n^453`, preserving qualitative polynomiality, but cannot
+  certify the finite `q/2^128` threshold once even one checkpoint is present.
+  This is theorem work, not a useful large-compute request.
   `l1_cofactor_depth_budget_cancellation` corrects the accounting: for
   `e<k`, the `q^e` factor cancels exactly against the `e` additional prefix
   equations under an ambient-normalized deeper-depth bound. Under upstream's

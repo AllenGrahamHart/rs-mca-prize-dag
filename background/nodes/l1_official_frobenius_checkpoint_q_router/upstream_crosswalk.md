@@ -8,9 +8,12 @@ characteristic, the correct exact interface is not a cycle-error term: it is
 the p-free power-sum ladder conditioned on `E_p,E_(2p),...`.
 
 The official generated-field cap limits that list to at most 23 checkpoints.
-A portable `(Q)` theorem may therefore prove a max-fiber estimate uniformly
-over these checkpoint values, or print a per-checkpoint conditioning loss.
-It must not sum over all `q^r` values unless the finite ledger pays that sum.
+A portable `(Q)` theorem may therefore prove a max-fiber estimate directly
+for the coarse p-free fiber, which contains every conditioned mixed fiber and
+incurs no checkpoint loss. Alternatively it may prove a max-fiber estimate
+uniformly over checkpoint values and print how the Pade owner coalesces those
+values. Summing over all `q^r` values costs `<n^453` and so preserves a
+qualitative polynomial theorem, but it cannot pay the finite prize ledger.
 
 ## F2 relation
 

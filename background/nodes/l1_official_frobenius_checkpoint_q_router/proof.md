@@ -70,3 +70,23 @@ The locator coefficient `l_j` equals `(-1)^jE_j`, so fixing the first `d`
 locator coefficients is equivalent to fixing the mixed vector. The
 fixed-cofactor transport supplies exactly such a prefix cell at every exact
 shell, with equality at scalar cofactor. This proves the shell consequence.
+
+## 4. Coarse fibers and the exact cost of forgetting checkpoints
+
+Projection from the mixed coordinate vector to its p-free power-sum
+coordinates forgets only the `r` elementary checkpoints. Therefore a mixed
+fiber is a subset of its projected coarse fiber, and the coarse fiber is the
+disjoint union of the mixed fibers over the checkpoint vectors that are
+actually attained. This proves `(FQ6)` and the zero-loss transfer from a
+coarse p-free max-fiber theorem.
+
+Each checkpoint lies in `F_q`, so there are at most `q^r` ambient vectors.
+By the strict cap, `q^r<2^(256r)<=2^5888`. Since `n>=2^13`,
+`n^453>=2^5889`, proving `(FQ7)`. Summing a uniform conditional bound over
+the attained vectors proves `(FQ8)`.
+
+Finally suppose `r>=1` and the conditional estimate is nontrivial, so its
+numerical upper bound `M` is at least one. The raw all-vector union bound is
+then `q^r M>=q`, whereas `q/2^128<q`. Hence this raw bound cannot establish
+the finite prize inequality. This is a statement about what the union-bound
+argument can certify, not a lower bound on the actual coarse fiber.

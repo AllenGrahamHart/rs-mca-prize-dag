@@ -56,13 +56,19 @@ def main() -> None:
     assert depth // p == 23
     checks += 2
 
+    # The cap/minimum-size argument pays exponent 453 but not 452.
+    assert 256 * 23 < 13 * 453
+    assert not (256 * 23 < 13 * 452)
+    checks += 2
+
     audit = (ROOT / "background" / "nodes" / NODE / "audit.md").read_text()
-    assert "Raw union over `q^r` checkpoint values is not paid" in (
-        ROOT / "background" / "nodes" / NODE / "statement.md"
-    ).read_text()
+    statement = (ROOT / "background" / "nodes" / NODE / "statement.md").read_text()
+    assert "Fib_mix(s,c) subset Fib_free(s)" in statement
+    assert "q^r M<=q/2^128" in statement
+    assert "preserves only a qualitative polynomial statement" in statement
     assert "F2 summit remains TARGET" in audit
     assert "No computation or probabilistic evidence is load-bearing" in audit
-    checks += 3
+    checks += 5
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
