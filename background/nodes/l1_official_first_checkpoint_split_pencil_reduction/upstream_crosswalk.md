@@ -18,3 +18,10 @@ Hence all perturbation degrees at most
 `floor((p(p-1)-1)/(n-1))` are impossible on each official row. The uniform
 family floor is `floor(11(p-1)/256)`, but upstream row packets should consume
 the stronger exact value. The residual begins strictly above that degree.
+
+The proved successor `l1_official_split_pencil_value_capacity` specializes
+upstream's one-parameter moving-root theorem to the surviving affine pencil.
+It caps a fixed normalized `Q` at 23 split values and 253 unordered fiber
+pairs. Therefore an upstream packet or compute request should present the
+remaining object as a `Q` census with a bounded value payload, not as an
+independent `(Q,b,c)` search.
