@@ -515,6 +515,15 @@
   factorization. Any computation should expose the sparse cubic kernel and
   identify one of these row-valid exact strata; a generic no-hit SAT run does
   not pay the branch.
+  Finally consume
+  `l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion` on the nonzero-`b`
+  cubic endpoint. At a repeated tangent root of multiplicity `e`, the exact
+  Euler quotient makes `ord(H-kappa)=e`; a cubic `H-kappa` and at most three
+  tangent roots would force `p<=9`. Thus every nonzero-`b`, `nu=0` degree is
+  theorem-empty. Do not search that branch. The `m=4,h=3` rows at
+  `p=8191,131071` are now closed; retain only the invariant-pinned `b=0`
+  degrees and positive `(1,2),(2,1)` strata at
+  `p=524287,2147483647`.
   Contributor-scale
   work is specified as `CR-L1-MCP` in
   `notes/PRIZE_COMPUTE_REQUESTS.md`; its former `NU0-H0` pre-request is now a

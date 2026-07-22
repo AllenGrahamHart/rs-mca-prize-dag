@@ -7050,8 +7050,10 @@ Before emitting candidates, remove the exact embedded family from
 `l1_mersenne_checkpoint_embedded_m2_family`: at depths `p,p+1`, each of the
 `m/2` order-`2(p+1)` cosets contributes `p+1` antipodal pairs, for total
 `n/2`. These are proved payload, not events. An `h=2` request must certify
-that its pair is not in this family; otherwise prioritize `h>=3`, beginning
-with `m=4,h=3`. The latter is automatically nonembedded: oddness gives
+that its pair is not in this family. For `m=4,h=3`, first consume the full
+analytic split below: both rows at `p=8191,131071` are theorem-empty, and on
+the latter two characteristics only invariant-pinned `nu=0,b=0` or positive
+valuation can remain. The branch is automatically nonembedded: oddness gives
 embedded split values in sign pairs, and maximal `h=4` is theorem-empty.
 For that cubic shard, consume `l1_m4_h3_colored_cyclic_equivalence` and use
 the exact variables `b_i in {0,1,omega,omega^2}` with `p` occurrences of
@@ -7161,13 +7163,14 @@ without this replay remains only analogue evidence.
 For `nu=0`, a donated solver must consume
 `l1_m4_h3_nu0_cubic_frobenius_kernel`: emit the canonical antiderivative and
 the sparse cubic `Q`, and do not enumerate an unrestricted derivative-zero
-kernel. On `b!=0`, do not spend on `deg H=1,2`; the surviving cubic endpoint
-must print its two-or-three-root tangent passport. Do not spend on the
-constant endpoint at `p=8191,131071,524287`, or on the universal `(6,20)`
-packet at any row: these are theorem-empty. The former exceptional packet
+kernel. On `b!=0`, do not spend on any eliminant degree. Degrees one and two
+are excluded by tangent localization, the cubic endpoint is excluded by
+`l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion`, and the constant endpoint
+is excluded by the universal and exceptional packet theorems. The former
+exceptional packet
 `(844833809,2002167159)` at `p=2147483647` is also theorem-empty by the exact
 auxiliary-fiber divisibility certificate. Do not spend on any nonzero-`b`
-constant endpoint. Do not spend on `b=0` at
+`nu=0` endpoint. Do not spend on `b=0` at
 `p=8191,131071`. On the latter two characteristics, every zero-`b` candidate
 must satisfy `a^2+3aR(0)^2+R(0)^4=0`; retain its four degrees as separate
 research targets rather than a generic fallback bucket.

@@ -2,41 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/verify.py",
-      "seconds": 0.041946,
+      "script": "background/nodes/l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion/verify.py",
+      "seconds": 0.034162,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_CHECKPOINT_CYCLOTOMIC_NORMAL_FORM_PASS checks=56\n"
+      "stdout_tail": "L1_M4_H3_NU0_H3_TANGENT_MULTIPLICITY_EXCLUSION_PASS checks=204\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/verify_audit.py",
-      "seconds": 0.029504,
+      "script": "background/nodes/l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion/verify_audit.py",
+      "seconds": 0.022154,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_CHECKPOINT_CYCLOTOMIC_NORMAL_FORM_AUDIT_PASS checks=5\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/verify.py",
-      "seconds": 0.042604,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_CHECKPOINT_EMBEDDED_M2_FAMILY_PASS checks=69\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/verify_audit.py",
-      "seconds": 0.02639,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_CHECKPOINT_EMBEDDED_M2_FAMILY_AUDIT_PASS checks=10\n"
+      "stdout_tail": "L1_M4_H3_NU0_H3_TANGENT_MULTIPLICITY_EXCLUSION_AUDIT_PASS checks=162\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

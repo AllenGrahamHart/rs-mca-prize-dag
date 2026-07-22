@@ -1932,14 +1932,11 @@ base-field-normalized `(2,1)` only on the latter two rows. The CP model is
 secondary and must respect this row split.
 All `nu=0` degrees now share a canonical sparse cubic Frobenius kernel. On
 the `b!=0` arm, tangent localization excludes the middle degrees one and two,
-leaving only a scalar-pinned constant eliminant and a cubic eliminant with
-two or three tangent roots. The zero-`b` value-coset certificate deletes all
-four `b=0` degrees at `p=8191,131071`; at `p=524287,2147483647` it retains
-them only under `a^2+3aR(0)^2+R(0)^4=0`. The live `nu=0` partition is
-therefore the nonzero-`b` cubic endpoint on every row, one exceptional
-constant-endpoint packet reaching the auxiliary test only on the largest
-characteristic, and four invariant-pinned zero-`b` degrees on the latter two
-characteristics.
+leaving a scalar-pinned constant eliminant and a cubic eliminant with two or
+three tangent roots before the final local arguments below. The zero-`b`
+value-coset certificate deletes all four `b=0` degrees at
+`p=8191,131071`; at `p=524287,2147483647` it retains them only under
+`a^2+3aR(0)^2+R(0)^4=0`.
 The constant nonzero-`b` endpoint is now finite at the outer-projective
 level. Its scalar equation has two components; a local Euler-order argument
 deletes `2aR(0)+3b=0`, and the exact 16-quarter fiber-product certificate
@@ -1956,6 +1953,16 @@ divide `W^(4(p+1))-1`, but the remainder is `876663072!=0`. Hence the entire
 nonzero-`b` constant endpoint is empty on all four characteristics.
 `CR-L1-MCP-NU0-H0` is retained only as a retirement record; no contributor
 compute should be requested for it.
+The remaining cubic nonzero-`b` endpoint is also theorem-empty.
+`l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion` shows that a tangent root
+of multiplicity `e>=2` forces the cubic `H-kappa` to vanish to exact order
+`e`: the tangent rational map has nonzero derivative, whereas the Euler
+correction starts at order `2e-1`. With only two or three tangent roots this
+would force `p<=9`. Hence no nonzero-`b`, `nu=0` branch remains, and no
+contributor search should target one. Combining this with the positive and
+zero-`b` value-coset exclusions closes the complete `m=4,h=3` endpoint for
+`p=8191,131071`. On `p=524287,2147483647`, the exact residual is only the
+four invariant-pinned `nu=0,b=0` degrees and positive `(1,2),(2,1)` strata.
 The complete scalar-free analogues at `p=7,31,127` have zero divisibility
 witnesses and are now the conformance oracle for a future compiler; they do
 not exclude an official row.

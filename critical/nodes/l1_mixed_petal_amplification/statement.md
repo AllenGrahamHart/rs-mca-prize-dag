@@ -1040,11 +1040,9 @@ after multiplying by `X^(p-4)`, the reduced triple splits through one sparse
 cubic `Q=q_3X^3+q_2X^2+q_1X`. On the `b!=0` arm, tangent localization
 excludes `deg H=1,2`; `deg H=0` has one exact scalar relation, while
 `deg H=3` has only two or three tangent roots. After the packet exclusion
-below, the live `nu=0` split is the nonzero-`b`, `deg H=3` endpoint on every
-row; one exceptional nonzero-`b`, `deg H=0` packet only at
-`p=2147483647` reaches the auxiliary-fiber test below and is also excluded.
-Thus the live split is the nonzero-`b`, `deg H=3` endpoint on every row and
-the four `b=0` degrees only at `p=524287,2147483647`. The latter obey
+and tangent-multiplicity exclusions below, no nonzero-`b` endpoint remains.
+Thus the live `nu=0` split consists only of the four `b=0` degrees at
+`p=524287,2147483647`. They obey
 `a^2+3aR(0)^2+R(0)^4=0`. All share the cubic kernel. The zero-`b` arm is
 exactly empty at `p=8191,131071` by its 16-case value-coset certificate.
 
@@ -1080,15 +1078,26 @@ remainder is the nonzero constant `876663072`. It is therefore impossible as
 well, and the entire nonzero-`b`, `deg H=0` endpoint is empty on all four
 characteristics.
 
+The cubic nonzero-`b` endpoint is empty as well.
+`l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion` applies the Euler quotient
+identity locally at a tangent root of multiplicity `e`. The rational map
+`4 alpha Y/g(Y)` has nonzero derivative at the tangent value, while the
+Euler correction has order at least `2e-1`; hence every repeated tangent
+root forces `ord(H-kappa)=e`. The tangent fiber has only two or three roots
+and `H-kappa` is cubic, which would give `p<=9`. This contradicts every
+official characteristic. Consequently the complete `nu=0,b!=0` branch is
+now closed, and the two `m=4` rows with characteristics `8191` and `131071`
+are empty in full.
+
 The complete scalar-free conformance censuses at `p=7,31,127` leave zero
 divisibility witnesses; at `p=31,127` the sign gate first reduces `65,1281`
 triples to `3,19`. This is useful evidence and compiler calibration, not an
 official exclusion.
 
 This is not yet a complete exclusion or component bound. The remaining
-analytic work is the row-specific `nu=0` classification just printed,
-now with no constant-eliminant packet, the
-`(1,2)` positive classification on the latter two characteristics, and a
+`m=4,h=3` analytic work exists only on characteristics `524287` and
+`2147483647`: classify the four invariant-pinned `nu=0,b=0` degrees, the
+`(1,2)` positive stratum, and the
 multiplicity-triple/divisibility theorem for the scalar-free `(2,1)` Belyi
 family.
 

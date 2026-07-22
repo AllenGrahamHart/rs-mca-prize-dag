@@ -4355,6 +4355,20 @@ the order-`4(p+1)` subgroup. For the exceptional largest-characteristic
 packet this requires
 `W^3+1800058023W^2+664831389W+573306971` to divide
 `W^(4(p+1))-1`; exact polynomial and companion-matrix replays give remainder
-`876663072`. The packet is impossible. Together with #146, this closes
+`876663072`. The packet is impossible. Together with #169, this closes
 `nu=0,b!=0,deg H=0` on all four characteristics and retires
 `CR-L1-MCP-NU0-H0` without a large run.
+
+## 171 - 2026-07-22: THE NONZERO-B NU=0 CUBIC ENDPOINT IS EMPTY
+
+`l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion` closes the other endpoint
+left by the tangent passport. At a tangent root of multiplicity `e>=2`, the
+Euler quotient writes `H-kappa` as an etale rational function of `R-y_0`
+plus a correction of order at least `2e-1`. Hence
+`ord(H-kappa)=e`. But `H-kappa` is cubic and the tangent fiber has at most
+three roots, forcing `p<=9`. This contradicts all official characteristics.
+Together with #161, #165, and #167-#170, no nonzero-`b`, `nu=0` stratum
+remains. The complete `m=4,h=3` endpoint is now closed at
+`p=8191,131071`; only invariant-pinned zero-`b` and positive strata survive
+at the two larger characteristics. No contributor compute should target the
+retired branch.
