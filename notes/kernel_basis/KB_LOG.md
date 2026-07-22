@@ -3525,7 +3525,9 @@ retaining the proved exclusion of the Frobenius-degenerate arm yields a
 strict finite classification. In depressed form `(R^3+aR+b)D=X^n-alpha`,
 one has `a!=0`, `nu=ord_0(R)<=4`, and the radical deficits of `UD` and the
 second reduced summand total at most `4-nu`. A nonzero Wronskian eliminant
-has degree at most `4-nu`. Thus the two-Schur branch has
+has degree at most `4-nu`, and the complete defect factor divides it. Thus
+all exceptional roots are localized at at most four points, and the
+two-Schur branch has
 five low-defect valuation cases rather than an unbounded support search.
 This is PROVED compression, not emptiness; the next task is to classify or
 price those five cases.

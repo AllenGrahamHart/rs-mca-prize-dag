@@ -7,4 +7,6 @@ summand, at most `4-nu` units of radical defect are available. The prior
 large cyclic-code section is therefore reduced to a finite low-defect
 Mason classification problem. Each case also carries the explicit nonzero
 eliminant `3XU'D+XUD'-(n-3nu)UD` of degree at most `4-nu`; it is constant at
-`nu=4`. No case is yet excluded, so L1 remains open.
+`nu=4`. The full repeated-root and overlap defect factor divides this
+eliminant, localizing every exception at no more than four points. No case is
+yet excluded, so L1 remains open.

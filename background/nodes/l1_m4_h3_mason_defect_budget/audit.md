@@ -17,9 +17,10 @@
    `H=3XU'D+XUD'-LUD` with `deg H<=4-nu`.
 10. `delta_A` uses `rad(UD)`, not the degree of `U^3D`; cubing creates no new
    radical roots.
-11. The monomial's one radical root cancels the `-1` in Mason's bound.
+11. Root multiplicities in the Wronskian prove that
+    `(UD/rad(UD))(B_0/rad(B_0))` divides `H`; the two factors are coprime.
 12. The exact residual is `4-nu`, giving the same valuation ceiling and the
-    defect budget.
+    defect budget while localizing every defect at a root of `H`.
 13. Vanishing `delta_A` means that `U` is squarefree and coprime to the
     already-squarefree complement `D`.
 14. The theorem is a compression, not an emptiness or counting result.

@@ -25,7 +25,8 @@ def main() -> None:
 
     proof = (HERE / "proof.md").read_text()
     for anchor in ("Frobenius-degenerate arm", "Wronskian", "H!=0",
-                   "a=0", "p-4+nu", "delta_A+delta_B<=4-nu"):
+                   "a=0", "p-4+nu", "divides H",
+                   "delta_A+delta_B=deg K<=deg H<=4-nu"):
         assert anchor in proof
         checks += 1
     statement = (HERE / "statement.md").read_text()

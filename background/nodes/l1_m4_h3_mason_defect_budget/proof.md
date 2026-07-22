@@ -81,21 +81,30 @@ deg rad(U^3D)=p-nu+u-delta_A,
 deg rad(B_0)=p+u-3nu-delta_B.                          (7)
 ```
 
-The monomial contributes one radical root and the `-1` in the Mason bound
-cancels it. Substituting (7) into that bound yields
+The Wronskian gives more than the numerical Mason bound. Let a root occur in
+`U` with multiplicity `e` and in the squarefree `D` with multiplicity
+`d in {0,1}`. It occurs in `A=U^3D` with multiplicity `3e+d`, while `B_0`
+is nonzero there. Hence it occurs in `W` with multiplicity at least
+`3e+d-1`; after removing the `U^2` factor in (4), it occurs in `H` with
+multiplicity at least `e+d-1`. This is exactly its multiplicity in
+`UD/rad(UD)`.
+
+At a root of `B_0` of multiplicity `f`, coprimality makes `A`, `U`, and `D`
+nonzero. The Wronskian has multiplicity at least `f-1`, so the same is true
+of `H`. The two defect factors have disjoint root sets because `A` and `B_0`
+are coprime. Therefore
 
 ```text
-4p+4-3nu
- <= (2p+4-nu-delta_A)+(2p+4-3nu-delta_B).
+K=(UD/rad(UD))(B_0/rad(B_0)) divides H.                (8)
 ```
 
-Therefore
+Taking degrees in (8) and using (6) gives
 
 ```text
-delta_A+delta_B<=4-nu.                                 (8)
+delta_A+delta_B=deg K<=deg H<=4-nu.                    (9)
 ```
 
-Both defects are nonnegative, so (8) proves `(MDB7)`. When `nu=4`, (6)
+This proves `(MDB7)`. When `nu=4`, (6)
 makes `H` constant and nonzero, and both defects vanish. Since `D` is already squarefree,
 `delta_A=0` says that `U` is squarefree and shares no root with `D`, while
 `delta_B=0` says that `B_0` is squarefree. The remaining case statements

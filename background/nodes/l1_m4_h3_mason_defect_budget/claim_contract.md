@@ -7,7 +7,7 @@
 - **proved content:** the depressed cubic has nonzero linear coefficient;
   its inner valuation is in `{0,1,2,3,4}`; it has an explicit nonzero
   Wronskian eliminant of degree at most `4-nu`; the two reduced radical
-  defects have total at most `4-nu`
+  defect factors divide that eliminant and have total degree at most `4-nu`
 - **dependencies used:** the exact three-fiber reduction and exclusion of
   the Frobenius-degenerate polynomial-abc arm for `h<m`
 - **nonclaim:** no emptiness, component count, nonembedded `h=2`

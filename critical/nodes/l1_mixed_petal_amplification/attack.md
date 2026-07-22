@@ -376,7 +376,8 @@
   Then apply `l1_m4_h3_mason_defect_budget`: classify the five cases
   `nu=0,...,4` with total radical defect at most `4-nu`. The case `a=0` is
   already impossible. Retain the explicit nonzero Wronskian eliminant of
-  degree at most `4-nu`. Any computation should encode these defect conditions
+  degree at most `4-nu`, including the proved divisibility of the full defect
+  factor. Any computation should encode these defect conditions
   and report which valuation case it covers; a generic no-hit SAT run does
   not pay the branch.
   Contributor-scale

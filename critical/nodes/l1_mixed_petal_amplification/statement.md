@@ -758,7 +758,9 @@ The first analytic component compression is now proved in
 `nu=ord_0(R) in {0,1,2,3,4}`. The radical deficits of `UD` and of the second
 reduced Mason summand total at most `4-nu`. The Wronskian also gives the
 explicit nonzero eliminant
-`3XU'D+XUD'-(n-3nu)UD` of degree at most `4-nu`. Thus the cubic branch is a
+`3XU'D+XUD'-(n-3nu)UD` of degree at most `4-nu`, and the full defect factor
+divides it. Thus all exceptional roots lie among at most four points and the
+cubic branch is a
 five-case low-defect classification problem, not an unrestricted cyclic-code
 search. Emptiness or a payable component count for those cases remains open.
 

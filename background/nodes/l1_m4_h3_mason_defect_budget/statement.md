@@ -57,8 +57,13 @@ delta_B=deg(B_0)-deg(rad(B_0)).                         (MDB6)
 Here radicals are taken over the algebraic closure. Then
 
 ```text
-delta_A+delta_B<=4-nu.                                  (MDB7)
+K=(UD/rad(UD))(B_0/rad(B_0)) divides H,
+delta_A+delta_B<=deg H<=4-nu.                           (MDB7)
 ```
+
+Thus every repeated root of `U`, every overlap between `U` and `D`, and
+every repeated root of `B_0` is localized at a root of the same quartic-or-
+smaller `H`, with multiplicity charged by `K`.
 
 Thus a hypothetical record lies in one of five valuation cases. At `nu=4`,
 `H` is a nonzero constant, `U` is squarefree and coprime to `D`, and `B_0`

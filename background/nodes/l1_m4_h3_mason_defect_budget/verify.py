@@ -61,7 +61,8 @@ def main() -> None:
 
     statement = (ROOT / "background" / "nodes" / NODE / "statement.md").read_text()
     for anchor in ("(MDB3)", "(MDB4)", "(MDB5)", "(MDB7)",
-                   "deg H<=4-nu", "delta_A+delta_B<=4-nu",
+                   "deg H<=4-nu", "divides H",
+                   "delta_A+delta_B<=deg H<=4-nu",
                    "does not prove"):
         assert anchor in statement
         checks += 1
