@@ -1721,8 +1721,11 @@ step now starts from the proved Mersenne cyclotomic normal form: frequency
 `q(p+1)+b` survives exactly outside two residue classes modulo
 `gcd(2b,m)`, and every collision is an exact-weight `2p` codeword above an
 `N+1` BCH floor. The complete `(32,7,4)` analogue has 16 `h=2` pencils and no
-`h>=3` pencil, supporting an `m=4,h=3` exclusion without suggesting total
-emptiness. The corresponding large-run idea remains parked as `CR-L1-MCP`,
+`h>=3` pencil. All 16 are embedded order-`2(p+1)` antipodal families, and the
+same construction now proves exactly `n/2` explicit pairs at depths `p,p+1`
+on every official surviving row. Total emptiness is therefore false as a
+strategy; prepay this polynomial family and attack `m=4,h=3` plus
+nonembedded `h=2`. The corresponding large-run idea remains parked as `CR-L1-MCP`,
 gated on a completeness-preserving low-weight-codeword compression and a
 measured pilot.
 

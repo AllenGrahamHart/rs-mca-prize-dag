@@ -187,6 +187,7 @@ int main() {
     std::sort(records.begin(), records.end());
     std::array<std::uint64_t, 9> histogram{};
     std::uint64_t pencil_groups = 0;
+    std::uint64_t embedded_m2_groups = 0;
     int max_h = 0;
     int max_depth_at_max = -1;
     std::vector<u32> witnesses;
@@ -198,6 +199,21 @@ int main() {
         if (h >= int(histogram.size())) histogram.back()++;
         else histogram[h]++;
         if (h >= 2) ++pencil_groups;
+        if (h == 2) {
+            u32 joined = records[i].mask | records[i + 1].mask;
+            for (int parity = 0; parity < 2; ++parity) {
+                u32 coset = 0;
+                for (int bit = parity; bit < N; bit += 2) coset |= u32(1) << bit;
+                if ((joined & ~coset) == 0) {
+                    u32 missing = coset ^ joined;
+                    if (__builtin_popcount(missing) == 2) {
+                        int first = __builtin_ctz(missing);
+                        if (missing & (u32(1) << ((first + N / 2) % N)))
+                            ++embedded_m2_groups;
+                    }
+                }
+            }
+        }
         if (h > max_h) {
             max_h = h;
             witnesses.clear();
@@ -222,7 +238,8 @@ int main() {
               << " records=" << records.size() << "/" << TOTAL
               << " primitive=" << primitive << " zeta=" << zeta << "\n";
     std::cout << "groups_ge_2=" << pencil_groups << " max_h=" << max_h
-              << " max_depth_at_max=" << max_depth_at_max << "\n";
+              << " max_depth_at_max=" << max_depth_at_max
+              << " embedded_m2_h2=" << embedded_m2_groups << "\n";
     std::cout << "group_size_histogram";
     for (int h = 1; h < int(histogram.size()); ++h)
         if (histogram[h]) std::cout << " " << h << ":" << histogram[h];

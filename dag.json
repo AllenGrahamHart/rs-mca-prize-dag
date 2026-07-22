@@ -15253,6 +15253,26 @@
     "experiments/prize_resolution/l1_mersenne_checkpoint_analog_modal.py",
     "experiments/prize_resolution/l1_mersenne_checkpoint_analog_result.md"
    ]
+  },
+  {
+   "id": "l1_mersenne_checkpoint_embedded_m2_family",
+   "title": "L1 Mersenne-checkpoint embedded two-fiber family",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For each of the nine rows n=m(p+1), the order-n multiplicative coset partitions into m/2 cosets of its unique subgroup of order 2(p+1). Applying the exact antipodal m=2 construction in each subgroup coset gives p+1 unordered split-fiber pairs per coset, hence exactly n/2 explicit embedded pairs. Their normalized perturbation has degree p-2, so they occur at checkpoint depths p and p+1. This proves a necessary polynomial lower family, not an exhaustive h=2 classification, an h>=3 exclusion, or an L1 bound.",
+   "refs": [
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/statement.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/proof.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/claim_contract.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/dependency_subdag.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/audit.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/result.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/lineage.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/verify.py",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/verify_audit.py",
+    "experiments/prize_resolution/l1_mersenne_checkpoint_analog_result.md"
+   ]
   }
  ],
  "edges": [
@@ -29263,6 +29283,21 @@
   },
   {
    "from": "l1_mersenne_checkpoint_cyclotomic_normal_form",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_official_split_pencil_value_capacity",
+   "to": "l1_mersenne_checkpoint_embedded_m2_family",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_checkpoint_cyclotomic_normal_form",
+   "to": "l1_mersenne_checkpoint_embedded_m2_family",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_checkpoint_embedded_m2_family",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

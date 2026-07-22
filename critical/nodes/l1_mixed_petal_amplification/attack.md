@@ -362,8 +362,12 @@
   `l1_mersenne_checkpoint_cyclotomic_normal_form` next: retain only Fourier
   frequencies in its two-residue chambers and treat the exact weight
   `2(p+1)-2` as a low-weight cyclic-code classification problem. The
-  `(32,7,4)` analogue rules out conjecturing total emptiness because `h=2`
-  pencils exist; its absence of `h=3` is evidence only. Contributor-scale
+  `(32,7,4)` analogue rules out conjecturing total emptiness. Prepay the
+  proved `n/2` embedded antipodal pairs at depths `p,p+1` from
+  `l1_mersenne_checkpoint_embedded_m2_family`; do not search for or report
+  them as new events. Its absence of `h=3` is evidence only. Search or prove
+  only the `h>=3` branch and explicitly nonembedded `h=2` records.
+  Contributor-scale
   work is specified as `CR-L1-MCP` in
   `notes/PRIZE_COMPUTE_REQUESTS.md`; no local or current-account Modal run is
   authorized.

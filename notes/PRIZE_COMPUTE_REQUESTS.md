@@ -6904,6 +6904,12 @@ zeroth block vanish, and the target word has exact weight `2p` between the
 proved BCH floor `p+2` and twice that floor. A proposed solver must operate
 on this low-weight chamber representation and report how its quotienting
 preserves the separate `+1` and `-1` weights.
+Before emitting candidates, remove the exact embedded family from
+`l1_mersenne_checkpoint_embedded_m2_family`: at depths `p,p+1`, each of the
+`m/2` order-`2(p+1)` cosets contributes `p+1` antipodal pairs, for total
+`n/2`. These are proved payload, not events. An `h=2` request must certify
+that its pair is not in this family; otherwise prioritize `h>=3`, beginning
+with `m=4,h=3`.
 
 **Requested outcome:** for a declared `(n,p,h,d)` shard, either emit one
 fully replayable pair of disjoint split fibers, including `Q`, `G_Q`, the
@@ -6926,5 +6932,7 @@ The complete small pilot
 `experiments/prize_resolution/l1_mersenne_checkpoint_analog_result.md`
 exhausted all `3,365,856` seven-subsets at `(n,p,m)=(32,7,4)` in Modal app
 `ap-X9B0VIv80tdRxDSfYnkG9o`. It found 16 two-fiber pencils, no `h>=3`
-pencil, and maximum depth eight. This satisfies only the small-analogue
+pencil, and maximum depth eight. The classifier rerun
+`ap-mLyev4aS4qOOhZhKqcpK5i` shows all 16 observed pairs have the embedded
+antipodal form. This satisfies only the small-analogue
 conformance gate; it supplies no official-row throughput or cost estimate.
