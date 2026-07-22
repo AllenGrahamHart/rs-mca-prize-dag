@@ -3552,3 +3552,23 @@ valuations. It proves `H(0)!=0` and the exact degree formula
 `deg(nu U+XU')=p+deg(H)-4`, so only zero to three top Euler coefficients can
 vanish. This is a PROVED companion factorization for the remaining
 Davenport-Mason case split, not a further valuation exclusion.
+
+## 135 - 2026-07-22: NU=3 WILD KERNEL IS QUADRATIC
+
+Canonical integration of the clean `nu=3` equation gives
+`X^5U^3D=(X^4-Q)^p+J` and `X^5B_0=Q^p-J`, where
+`J'=cX^4U^2` and `Q=q_2X^2+q_1X` with `q_2^p=a`. Thus the entire wild
+Frobenius kernel has two scalar parameters. This is a PROVED normal form;
+the next tangent-radical result supersedes its open-case posture by excluding
+`nu=3` entirely.
+
+## 136 - 2026-07-22: TANGENT RADICAL EXCLUDES NU=3
+
+For positive valuation, every root of `T=2aR+3b` lies on
+`X^nuH-kappa`, while `T'=2aX^(nu-1)V` and
+`deg V=p+deg(H)-4`. Radical/multiplicity comparison forces
+`nu+2deg(H)>=4`. It excludes all of `nu=3`, `(nu,deg H)=(2,0)`, and
+`(1,0),(1,1)`. The only positive strata left are `(1,2)` and `(2,1)`; in
+the latter the tangent radical is the exact printed cubic and
+`T/rad(T)` is proportional to `V`. This is a PROVED case closure, not full
+`m=4,h=3` emptiness.

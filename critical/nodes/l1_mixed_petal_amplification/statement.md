@@ -763,11 +763,15 @@ divides it. The Cartier refinement
 `l1_m4_h3_cartier_resonance_reduction` excludes `nu=4` and lowers the
 remaining eliminant degrees to `3,2,1,0` for `nu=0,1,2,3`. Thus all
 exceptional roots lie among at most three points and the cubic branch is a
-four-case low-defect classification problem, not an unrestricted cyclic-code
+finite low-defect classification problem, not an unrestricted cyclic-code
 search. The companion `l1_m4_h3_euler_quotient_factorization` proves
 `D(2aR+3b)(nu U+XU')=Hg(R)-4alpha U`, pins `H(0)!=0`, and makes the Euler
-derivative degree exactly `p+deg(H)-4`. Emptiness or a payable component
-count for those cases remains open.
+derivative degree exactly `p+deg(H)-4`. Evaluating its tangent factor gives
+`l1_m4_h3_tangent_radical_exclusion`: `nu=3` is empty and positive valuation
+is reduced to `(nu,deg H)=(1,2),(2,1)`. In the second stratum, the tangent
+radical is an exact cubic and its multiplicity factor is `nu U+XU'`. The
+four `nu=0` eliminant degrees remain separate. Emptiness or a payable
+component count for these six strata remains open.
 
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full

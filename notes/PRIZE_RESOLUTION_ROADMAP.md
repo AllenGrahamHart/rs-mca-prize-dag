@@ -1755,9 +1755,12 @@ reductions are `l1_m4_h3_mason_defect_budget` and
 four-case low-defect Davenport-Mason classification. The companion
 `l1_m4_h3_euler_quotient_factorization` pins the eliminant's constant term
 and converts its degree into the exact degree `p+deg(H)-4` of
-`nu U+XU'`; use this factorization in the case split. The CP model is
-secondary and should be stratified by the same invariants if a contributor
-runs it.
+`nu U+XU'`. The tangent-radical successor then excludes `nu=3` and all
+positive strata except `(nu,deg H)=(1,2),(2,1)`; the latter has an exact
+cubic tangent radical. The live analytic split is those two strata plus the
+four `nu=0` eliminant degrees, with `b=0` retained there. The CP model is
+secondary and should be stratified by these six cases if a contributor runs
+it.
 
 **Track H — hedges (funded, never built on):** H1 price RK by one dedicated
 refutation round (survives -> insurance; dies -> the 17-leaf prune comes off

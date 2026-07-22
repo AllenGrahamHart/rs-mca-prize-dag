@@ -7005,11 +7005,12 @@ dollar cap in advance. No current-account rerun is authorized.
 The preferred follow-up is now analytic. The proved
 `l1_m4_h3_mason_defect_budget` shows that every genuine record has depressed
 outer coefficient `a!=0` and a Wronskian eliminant containing the full defect
-factor. The Cartier refinement excludes `nu=4`; the cases `nu=0,1,2,3` have
-eliminant degree at most `3,2,1,0` and four exact coefficient constraints.
+factor. The Cartier refinement excludes `nu=4`, and the tangent-radical
+successor excludes `nu=3` plus the lower positive-eliminant strata. The live
+split is `(nu,deg H)=(1,2),(2,1)` and `(0,0),(0,1),(0,2),(0,3)`.
 A donated solver extension should expose `a`, `nu`, the eliminant, and the
 two defect witnesses. It must also check `H(0)!=0` and the exact Euler
 quotient factorization from `l1_m4_h3_euler_quotient_factorization`. Shard by
-the four valuations and independently
+these six strata, retain the possible `b=0` arm at `nu=0`, and independently
 check the exact factorization `(R^3+aR+b)D=X^n-alpha`. A generic feasible or
 no-hit color assignment without this replay remains only analogue evidence.
