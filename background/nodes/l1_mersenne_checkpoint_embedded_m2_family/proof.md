@@ -42,3 +42,12 @@ deg Q<=2p-d-1                                          (3)
 
 holds exactly for `d<=p+1`; intersecting with the checkpoint range `d>=p`
 gives `(EM2-4)`.
+
+The polynomial `C` is even and `(p-1)/2` is an integer, so `R` is odd. If
+`R-beta` splits completely in `H`, negating its roots shows that `R+beta`
+also splits completely. The value zero cannot be split: the distinct roots
+of `R` are zero and the two roots of `C`, and zero is not in a multiplicative
+coset, leaving only two possible domain roots, fewer than `p`. Therefore the
+split values form nonzero sign pairs and their number `h` is even. The
+maximal-value theorem excludes `h=m`; listing the remaining positive even
+integers through `m-1` proves `(EM2-5)`.

@@ -365,8 +365,10 @@
   `(32,7,4)` analogue rules out conjecturing total emptiness. Prepay the
   proved `n/2` embedded antipodal pairs at depths `p,p+1` from
   `l1_mersenne_checkpoint_embedded_m2_family`; do not search for or report
-  them as new events. Its absence of `h=3` is evidence only. Search or prove
-  only the `h>=3` branch and explicitly nonembedded `h=2` records.
+  them as new events. Embedded split values are paired by sign, so at `m=4`
+  maximal-degree emptiness makes those pencils exactly `h=2`. Its analogue
+  absence of nonembedded `h=3` remains evidence only. Search or prove only
+  the nonembedded `h>=3` branch and explicitly nonembedded `h=2` records.
   Contributor-scale
   work is specified as `CR-L1-MCP` in
   `notes/PRIZE_COMPUTE_REQUESTS.md`; no local or current-account Modal run is

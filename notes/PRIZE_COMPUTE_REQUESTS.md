@@ -6909,7 +6909,8 @@ Before emitting candidates, remove the exact embedded family from
 `m/2` order-`2(p+1)` cosets contributes `p+1` antipodal pairs, for total
 `n/2`. These are proved payload, not events. An `h=2` request must certify
 that its pair is not in this family; otherwise prioritize `h>=3`, beginning
-with `m=4,h=3`.
+with `m=4,h=3`. The latter is automatically nonembedded: oddness gives
+embedded split values in sign pairs, and maximal `h=4` is theorem-empty.
 
 **Requested outcome:** for a declared `(n,p,h,d)` shard, either emit one
 fully replayable pair of disjoint split fibers, including `Q`, `G_Q`, the
@@ -6936,3 +6937,34 @@ pencil, and maximum depth eight. The classifier rerun
 `ap-mLyev4aS4qOOhZhKqcpK5i` shows all 16 observed pairs have the embedded
 antipodal form. This satisfies only the small-analogue
 conformance gate; it supplies no official-row throughput or cost estimate.
+
+### CR-L1-MCP-A8: complete order-64 analogue
+
+This is the next useful donated-compute falsifier and must not run on the
+current account. Work over `F_(7^8)` on the order-64 subgroup, with
+`(n,p,m)=(64,7,8)`. Enumerate all
+
+```text
+binom(64,7)=621,216,192
+```
+
+seven-subsets, group their monic locators by coefficients in degrees one
+through six, and classify every group by exact split-value degree, maximum
+checkpoint depth, subgroup-coset support, and the embedded antipodal test.
+The result decides whether the complete `m=4` analogue behavior persists
+when the quotient multiplicity doubles: any nonembedded `h=2` group or any
+`h>=3` group is a replayable route-changing witness; complete absence is
+evidence for an embedded-family/low-weight classification theorem.
+
+A naive 16-byte record stream is about `9.26 GiB` before sorting, so the run
+must shard by a prefix of the six-coefficient signature and merge only group
+boundary summaries. Each shard must checkpoint its exact combinadic range,
+record count, signature-prefix interval, rolling hash, group histogram, and
+all groups of size at least two. An independent checker must rebuild every
+reported locator and verify roots, common prefix, disjointness, depth, and
+embedded status. Publish a one-shard benchmark with CPU time, peak RAM,
+scratch storage, and projected dollar cost before requesting the full run.
+Timeout or incomplete shard coverage is `INCOMPLETE`, never evidence of
+absence. The order-128 analogue has `94,525,795,200` subsets and roughly
+`1.38 TiB` of raw records, so it is not requested without a new structural
+compression.

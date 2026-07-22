@@ -10,3 +10,5 @@
 5. The exact perturbation degree `p-2` gives depths `p,p+1`, not every
    first-checkpoint depth.
 6. No exhaustivity claim is inferred from the small analogue.
+7. Oddness pairs nonzero values but does not itself bound their number; the
+   exact `m=4` conclusion also uses the proved maximal-degree exclusion.

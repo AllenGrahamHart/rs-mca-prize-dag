@@ -43,7 +43,19 @@ depths
 d=p, p+1.                                             (EM2-4)
 ```
 
+The normalized inner polynomial `R` is odd. Its nonzero split values occur in
+pairs `{beta,-beta}`, while zero is not a split value because `R=0` has only
+the two distinct nonzero roots of `C` in the multiplicative domain. Hence the
+total split-value degree of every embedded pencil is even. Since maximal
+degree `h=m` is already impossible, the exact possibilities are
+
+```text
+m=4:       h=2,
+m=8:       h in {2,4,6},
+m=16:      h in {2,4,6,8,10,12,14}.                  (EM2-5)
+```
+
 This proves that the lower-`h` frontier is genuinely nonempty and gives a
 polynomial explicit payload. It does not classify all `h=2` records, prove
-that one normalized pencil has only two split values, exclude `h>=3`, treat
-other depths or higher widths, or close L1.
+that the displayed higher even values occur, exclude nonembedded `h>=3`,
+treat other depths or higher widths, or close L1.

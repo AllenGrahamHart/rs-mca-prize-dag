@@ -15259,7 +15259,7 @@
    "title": "L1 Mersenne-checkpoint embedded two-fiber family",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "For each of the nine rows n=m(p+1), the order-n multiplicative coset partitions into m/2 cosets of its unique subgroup of order 2(p+1). Applying the exact antipodal m=2 construction in each subgroup coset gives p+1 unordered split-fiber pairs per coset, hence exactly n/2 explicit embedded pairs. Their normalized perturbation has degree p-2, so they occur at checkpoint depths p and p+1. This proves a necessary polynomial lower family, not an exhaustive h=2 classification, an h>=3 exclusion, or an L1 bound.",
+   "statement": "For each of the nine rows n=m(p+1), the order-n multiplicative coset partitions into m/2 cosets of its unique subgroup of order 2(p+1). Applying the exact antipodal m=2 construction in each subgroup coset gives p+1 unordered split-fiber pairs per coset, hence exactly n/2 explicit embedded pairs. Their normalized perturbation has degree p-2, so they occur at checkpoint depths p and p+1. The inner polynomial is odd, zero is not split, and nonzero split values occur in sign pairs. Since maximal degree h=m is impossible, embedded pencils have exactly h=2 when m=4 and only even h<m in general. This is a necessary polynomial lower family, not an exhaustive h=2 classification, a nonembedded h>=3 exclusion, or an L1 bound.",
    "refs": [
     "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/statement.md",
     "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/proof.md",

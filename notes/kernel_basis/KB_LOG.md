@@ -3493,4 +3493,6 @@ uniform: each official `n=m(p+1)` domain has `m/2` cosets of its subgroup of
 order `2(p+1)`, and the exact m2 theorem contributes `p+1` pairs in each.
 Thus every row has exactly `n/2` explicit embedded pairs at depths `p,p+1`.
 This is a proved polynomial lower payload, not an exhaustive `h=2` count.
-Future exclusion work starts with `m=4,h=3` and nonembedded `h=2`.
+The embedded inner polynomial is odd and zero is not split, so split values
+come in sign pairs. Maximal-degree emptiness therefore makes every embedded
+`m=4` pencil exactly `h=2`; future `m=4,h=3` work is wholly nonembedded.

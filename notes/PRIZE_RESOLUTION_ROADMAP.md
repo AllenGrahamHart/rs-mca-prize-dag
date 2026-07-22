@@ -1725,7 +1725,9 @@ step now starts from the proved Mersenne cyclotomic normal form: frequency
 same construction now proves exactly `n/2` explicit pairs at depths `p,p+1`
 on every official surviving row. Total emptiness is therefore false as a
 strategy; prepay this polynomial family and attack `m=4,h=3` plus
-nonembedded `h=2`. The corresponding large-run idea remains parked as `CR-L1-MCP`,
+nonembedded `h=2`. Oddness pairs every embedded split value with its
+negative, so maximal-degree emptiness proves that the `m=4,h=3` branch is
+entirely nonembedded. The corresponding large-run idea remains parked as `CR-L1-MCP`,
 gated on a completeness-preserving low-weight-codeword compression and a
 measured pilot.
 

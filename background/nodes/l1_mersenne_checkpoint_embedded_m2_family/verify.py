@@ -36,7 +36,11 @@ def main() -> None:
         assert n // (2 * nbase) == m // 2
         assert (m // 2) * nbase == n // 2
         assert 2 * p - (p - 2) - 1 == p + 1
-        checks += 4
+        allowed = list(range(2, m, 2))
+        assert m not in allowed
+        if m == 4:
+            assert allowed == [2]
+        checks += 6
 
     evidence = (ROOT / "experiments" / "prize_resolution" /
                 "l1_mersenne_checkpoint_analog_result.md").read_text()
@@ -58,7 +62,7 @@ def main() -> None:
     checks += 3
 
     statement = (ROOT / "background" / "nodes" / NODE / "statement.md").read_text()
-    for anchor in ("(EM2-1)", "(EM2-2)", "(EM2-3)", "(EM2-4)",
+    for anchor in ("(EM2-1)", "(EM2-2)", "(EM2-3)", "(EM2-4)", "(EM2-5)",
                    "does not classify all"):
         assert anchor in statement
         checks += 1

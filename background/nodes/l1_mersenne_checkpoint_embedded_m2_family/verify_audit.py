@@ -20,7 +20,9 @@ def main() -> None:
     statement = (HERE / "statement.md").read_text()
     assert "d=p, p+1" in statement
     assert "does not classify all" in statement
-    caught += 2
+    assert "zero is not a split value" in statement
+    assert "m=4:       h=2" in statement
+    caught += 4
     print(f"L1_MERSENNE_CHECKPOINT_EMBEDDED_M2_FAMILY_AUDIT_PASS checks={caught}")
 
 

@@ -738,7 +738,10 @@ domain into `m/2` cosets of order `2(p+1)` and embeds the exact antipodal
 `m=2` construction in each. This gives exactly `n/2` explicit unordered
 pairs at depths `p,p+1`. It is a necessary polynomial payload, not an
 exhaustive classification of `h=2`; the exclusion frontier is `h>=3` plus
-any nonembedded two-fiber records.
+any nonembedded two-fiber records. The embedded inner polynomial is odd, so
+its split values come in nonzero sign pairs. Together with maximal-degree
+emptiness, this makes every embedded `m=4` pencil exactly `h=2`; the
+`m=4,h=3` branch is wholly nonembedded.
 
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
