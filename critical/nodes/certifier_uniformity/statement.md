@@ -1,7 +1,7 @@
 # certifier_uniformity
 
-- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: TARGET]
-- **closure:** proof
+- **status:** CONDITIONAL
+- **closure:** proved implication under the row-certificate premise
 - **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#3']
 
 ## Statement

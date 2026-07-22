@@ -2848,6 +2848,15 @@ claimed 612/612. Wave-16 mathematics is complete and verified; the
 one residual is a harness-capacity artifact with three independent
 confirmations of the node's correctness.
 
+**RESOLVED 2026-07-22 (Codex resolution v8).** `verify.py` is now the
+standing lightweight certificate checker: it hash-pins the banked result,
+C++ compiler, and Modal launcher; validates all 64 prime rows, all 932
+intervening composite witnesses, all Pocklington/generator certificates, and
+all declared pair/triple coverage records; and exercises five negative
+controls. The exhaustive 64-row MITM regeneration remains in the
+manifest-classified remote launcher. No result, theorem status, or search
+scope changed; only the recurrent local batch-timeout path was removed.
+
 ## 108 — 2026-07-20: WAVE-17 INTEGRATED — HGE4 width-collapse
 ## (h<=floor(2m/7)) + C36/c1c2/DSP8 reductions; 3 Modal no-hit
 ## screens SURFACED; wave-16 import gaps repaired
@@ -3246,7 +3255,6 @@ discipline, U1/U2/U3, board anatomy w/ D2 dli cap, risk register
 (triggers->consequences), the four tracks + Track N information
 purchases, endgame/dossier, the delta*-bracket progress metric,
 the 14-item decision queue, planning priors (re-issued at gates).
-
 ## 121 — 2026-07-22: WAVE-19 INTEGRATED — XR uniform branch EMPTIED
 ## + DSP8 P24/P25 satellite reduction + first COMPLIANT time-rule
 ## Modal launch; lineage skew handled, ceremony survives
@@ -3407,3 +3415,49 @@ list lower bound at declared rows; the budget-1/2 exact list
 crossings; possibly the k+2^34 unsafe reach) — a crosswalk against
 the Lane-L packet format is the natural next survey item (would be
 the first six-input-adjacent consumer for our list lane).
+
+## 126 — 2026-07-22: WAVE-20 INTEGRATED — THE FIRST RED CLOSURE
+## (bridge PROVED at the ratified re-posed scope), the D0 GATE
+## ANSWERED BY COUNTEREXAMPLE (ww envelope retired), the N11
+## FALSE-GREEN SWEEP adopted; board honesty-repriced 201/36/23
+
+Audit (198/200 battery at pin, 10 mutations, validator PASS) +
+maintainer double-ratification + master integration of pin 61f3900a
+(v8, 166 commits, branched pre-wave-19 — lineage reconciled: v8
+re-expressed ALL five master post-branch commits byte-faithfully;
+master's 30 wave-19-only nodes + 114 edges re-added in the merge).
+RATIFIED EVENT 1 — xr_tangent_support_mismatch_bridge TARGET->
+PROVED as the ATOMIC SCOPE-CONTRACTION PACKAGE: the bridge's own
+content (generic/nongeneric dichotomy, tangent ownership,
+support-local transversality, three-clause routing) is PROVED; the
+16n^3 obligation RELOCATED VERBATIM as P-A2 into xr_highcore
+(two-clause TARGET: P-A1 generic 8n^3 + P-A2 nongeneric 16n^3),
+machine-coupled (token asserts + 6 edges + anti-double-count guard
+on the removed req; smallcore assembly pins 4 statuses). Total
+obligation before == after — the first red closure in five waves
+is an honest reorganization + real proof, NOT a board reduction.
+RATIFIED EVENT 2 — the D0 gate: machine-verified COUNTEREXAMPLE at
+the admissible Proth row q=1705*2^120+1 (B*=6, |List|>=7) => W3's
+per-word envelope retired from the prize path (QA.22-vs-W3
+currency separation; the 0.9-bit margin type-inapplicable); clean-
+rate adjacency rewired through the list corridor; leaves 23->24
+(rigor over optics). ADOPTED — the N11 false-green sweep: 9 legacy
+PROVED demotions + generator_size_budget_check REFUTED
+(independently recomputed: signed-8-core distinct centers
+<= 2^40.04 vs required 2^89; kills only that route); root cause =
+the catch-#69 header retrofit + auto_discharge stubs; per-node
+status_rulings banked; "30 removals" NEVER HAPPENED (lineage
+artifact; the only true removal = the bridge req, ratified).
+REPAIRS: 3 stale bridge=="TARGET" pins patched; true_tangent
+ev->req pin updated; M8 REFUTED status pin added; attack-contract
+marker promoted; harness-coverage census deliberately refreshed
+(260/201; N11 statement annotations added to 3 demoted nodes'
+dag strings). Partition cascade: ww family critical->background,
+corridor nodes (deep_point/list_safe/list_unsafe/codegree/qcore)
+background->critical, 2 demoted moves, duplicates reconciled.
+Validator PASS 1181 nodes/2771 edges; board 201 PROVED / 36
+CONDITIONAL / 23 open on the critical orbit (260). L1 residual
+genuinely shrunk (exact core named); roadmap uptake STRONG (v8
+overlay upgraded the identification count ONE->TWO proved chains,
+verifier passing; N3/N5/N10/N11 executed; all Modal compliant).
+Findings: notes/wave20_import_20260722/WAVE20_AUDIT_FINDINGS.md.

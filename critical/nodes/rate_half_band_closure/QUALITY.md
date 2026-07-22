@@ -90,3 +90,16 @@ The node stays TARGET until one printed `a_RH(q)` satisfies every gate.
 > [w10-C7 NOTE 2026-07-18: v5's QUALITY edit deleted a constant line in
 > place; log blocks are append-only — the original line stands above;
 > the optimized floor's constants are recorded in the wave-10 addendum.]
+
+## N2 ARBITRARY-LINE SCOPE CORRECTION (2026-07-21)
+
+The historical `rh_band_witness_census_modal.py` cannot test the open
+arbitrary received-line flank: its own contract restricts the two instruments
+to zero-sum quotient constructions and locator fibers of words `X^k L_T0`.
+The proved `rate_half_arbitrary_line_syndrome_router` supplies the exact
+replacement attack model, quantifying over every received line modulo `C^2`
+through syndrome pairs. Its complete `(q,n,k,a)=(7,6,3,4)` toy census finds a
+seven-slope witness against the `r+1=3` tangent baseline. This is a lifting
+lead only; no official-row witness or status change is claimed. The large
+official search remains a non-runnable contributor pre-request `RH-NP` until
+an algebraic lift or completeness-preserving compression is proved.

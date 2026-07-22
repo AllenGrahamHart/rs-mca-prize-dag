@@ -1,0 +1,68 @@
+{
+  "schema": "dli-wcl-15-msolve-modular-pilot-result-v1",
+  "status": "INCOMPLETE_TIMEOUT",
+  "program_sha256": "549a835805d2c53420ae5ed52f49c6c70e9f8675d199a924e789654ba49b66d8",
+  "modulus": 32003,
+  "variables": [
+    "c0",
+    "c1",
+    "b"
+  ],
+  "equations": 5,
+  "input_bytes": 20721921,
+  "input_sha256": "c7b87cdf08b13210480aa6d6cad4a0774247328954c81757226277bca54f46cf",
+  "coefficient_term_counts": [
+    183162,
+    191699,
+    189670,
+    186887,
+    185330
+  ],
+  "coefficient_content_sha256": [
+    "735baaf4c765bff2da760560913dcbd11fcc51ea63c6a2bec7f44012d07f5c06",
+    "43ebc8299aae2b3341bfbd80d2b64a07e652e73b128f1ab7d116eac85710f737",
+    "c79d7ba146912df590481d1e3499e16103cb9b83edeec418c950f7c3c95caa9c",
+    "3e49b3a1355076a893c0283316fdea45feda7309b995307a0d32614d703ec856",
+    "0bd441cbfeeb88815458883143021c2ce8b6ed0b767951959e7af5974aeb7e03"
+  ],
+  "authoritative_run": {
+    "modal_app": "ap-i3qnWQSZ45Vr9x0QI1FHLk",
+    "msolve_version": "0.10.1",
+    "resource_request": {
+      "physical_cpu_cores": 8,
+      "memory_mib": 32768,
+      "max_containers": 1
+    },
+    "preparation_seconds": 10.427741742,
+    "algebra_timeout_seconds": 210,
+    "algebra_seconds": 210.069853185,
+    "total_seconds": 220.497729126,
+    "returncode": -15,
+    "output_bytes": 0,
+    "unit_ideal_mod_p": null,
+    "last_complete_trace_line": "178 20 515 1804 x 543871 20.17% 13 new 7 zero 15.38 | 15.25",
+    "all_containers_stopped": true
+  },
+  "comparison_run": {
+    "modal_app": "ap-k2FBfUKS9IZb5wekKPXZfg",
+    "msolve_version": "0.7.5",
+    "resource_request": {
+      "physical_cpu_cores": 8,
+      "memory_mib": 32768,
+      "max_containers": 1
+    },
+    "preparation_seconds": 23.495883875,
+    "algebra_timeout_seconds": 240,
+    "algebra_seconds": 240.085854821,
+    "total_seconds": 263.581951417,
+    "returncode": -15,
+    "output_bytes": 0,
+    "unit_ideal_mod_p": null,
+    "last_complete_trace_line": "178 2 528 834 x 317542 34.52% 2 new 0 zero 5.32 | 5.47",
+    "next_partial_trace_prefix": "179 79 529",
+    "all_containers_stopped": true
+  },
+  "estimated_total_modal_spend_usd": "<0.20 including diagnostic attempts, before any account-specific adjustments",
+  "verdict": "No modular unit or nonunit result. The five-minute self-authorization gate did not land.",
+  "nonclaim": "No characteristic-zero identity, bad characteristic, WCL emptiness result, or DAG status change."
+}

@@ -25,8 +25,11 @@ and a certified primitive generator.
 
 For each row the exact C++ meet-in-the-middle search builds all 130,560 legal
 non-antipodal pairs and checks all 22,108,160 legal non-antipodal triples.
-The independent verifier recompiles the pinned source and replays all 64
-searches. All return zero relations.
+The banked result records complete coverage and zero relations on all 64
+rows. The lightweight local verifier hash-pins the result, compiler, and
+Modal launcher, checks the complete row partition and primality/generator
+certificates, and validates every coverage record. The registered remote
+launcher retains the full 64-row replay path.
 
 ## Nonclaims
 

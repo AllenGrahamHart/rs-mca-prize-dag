@@ -2,14 +2,20 @@
 
 - **claim id:** `xr_highcore_collision_count`
 - **scope:** the six `(RowC, prize) x (1/4,1/8,1/16)` candidate rows
-- **quantifier:** per generic received pair `(u,v)`
+- **quantifier A1:** per globally generic received pair `(u,v)`
+- **quantifier A2:** per received pair having a joint `A`-support explanation
 - **currency:** distinct post-strip live slopes
-- **budget:** `8n^3`
-- **consumer:** `xr_smallcore_spread_count`, exact `8+8=16` split
+- **budget A1:** `8n^3` for high-core slopes
+- **budget A2:** `16n^3` combined across every retained support mismatch
+- **consumer:** `xr_smallcore_spread_count`; generic routing uses P-A1 plus
+  P-B as `8+8`, while nongeneric routing uses P-A2 as one combined `16`
 - **inside:** dihedral-symmetric and extension-type slopes
 - **outside:** same-slope, quotient, tangent, and other explicitly stripped
   columns
-- **falsifier:** one sustained transported generic-branch count above `8n^3`
+- **falsifier A1:** one sustained transported generic high-core count above
+  `8n^3`
+- **falsifier A2:** one official nongeneric pair whose total retained
+  support-mismatch population exceeds `16n^3`
 - **nonclaim:** neither raw W-collision moments nor per-chart counts are the
   target
 - **paid atlas:** canonical collision components partition the target slopes
@@ -23,7 +29,10 @@
   selector ranks `4,4,3,11,11,10` on the six rows
 - **covering-free rank close:** the all-zero, post-strip affine-pencil, and
   RS common-root basis charges pay selector ranks `4,4,4,16,16,14`; the
-  first open ranks are `5,5,5,17,17,15`, so catch #158 is closed
+  first open ranks on P-A1 are `5,5,5,17,17,15`, so catch #158 is closed
+- **P-A2 low-rank close:** support-local LineRay transversality pays selector
+  rank at most three everywhere and rank four at RowC rate `1/4` from the
+  combined reserve; first open P-A2 ranks are `5,4,4,4,4,4`
 - **paid uniform compiler:** any over-budget uniform cell yields a bounded
   split-pencil trade; at minimum rank-two union the collapsed branch is
   impossible and regular Plucker face syzygies are quotiented
@@ -60,8 +69,10 @@
 - **extension-family compatibility close:** inside active-zero reuse and
   outside extension collisions obey an exact pairwise slack and summed
   multiplicity ledger equivalent to all pairwise block caps
-- **next theorem:** count realized support embeddings from the dual-`GRS_3`
+- **next theorem A1:** count realized support embeddings from the dual-`GRS_3`
   and quadric-centroid atlases together with solutions of the extension
   packing ledger, and prove first-core ownership; classify rank-at-least-three
   circuits or nonpositive-deficit higher shells, extend to `u>=1` nonuniform
   cells, and bound the cross-core aggregate by `8n^3`
+- **next theorem A2:** aggregate the canonical full-zero mismatch charts and
+  low-core explanation fibers within the combined `16n^3` reserve

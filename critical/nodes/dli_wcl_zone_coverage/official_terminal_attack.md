@@ -259,6 +259,37 @@ Slot (2,6) is CLOSED on every official row: the recursive-norm certificate cover
 THE RESIDUAL OF RECORD IS NOW FOUR SLOTS: (1,5), (1,6), (2,7), (4,9).
 (1,5): the streaming terminal weight-five norm sweep is in flight (no claims yet; pilot max_v2 = 21).
 
+---
+
+## Extended-window six-slot endpoint update (2026-07-21)
+
+The C1'-r3 adoption widens the raw window by two weights and adds
+
+```text
+(1,7), (1,8), (2,8), (2,9), (4,10), (4,11).
+```
+
+These six leaves are real requirements of the current ten-slot DAG; the
+older four-slot residual paragraphs above are historical for the prior
+window. The proved `dli_wcl_extended_six_slot_sparse_divisor_endpoints`
+reduces every added leaf exactly to `G|Y^N-1`, with
+`G=YA^2-B^2` in odd weight and `G=E^2-YB^2` in even weight. Their pruned
+straight-line systems have respectively
+
+```text
+(variables,equations) =
+(76,78), (89,90), (103,105), (99,102), (129,133), (142,147).
+```
+
+All six ideals are unit ideals over `Q`, so each has a finite nonzero integer
+certificate whose compatible prime divisors are the complete remaining
+arithmetic task. No certificate is computed and no leaf closes. A blind
+affine support scan is now formally rejected: even after dividing by the
+largest possible affine-Galois orbit, its class lower bounds range from
+`6,426,702,047` to `15,045,525,108,469,586,987,666`. Contributor work should
+target the six sparse certificates, not raw support orbits.
+---
+
 ## Extended-window residual of record (2026-07-22 forced correction)
 
 The four-slot residual above is the PRE-EXTENSION (w <= L+5) bookkeeping.

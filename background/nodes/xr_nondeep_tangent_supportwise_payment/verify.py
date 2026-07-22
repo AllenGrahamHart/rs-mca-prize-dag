@@ -77,6 +77,6 @@ root = Path(__file__).resolve().parents[3]
 dag = json.loads((root / "dag.json").read_text())
 nodes = {node["id"]: node for node in dag["nodes"]}
 assert nodes["xr_nondeep_tangent_supportwise_payment"]["status"] == "REFUTED"
-assert nodes["xr_tangent_support_mismatch_bridge"]["status"] == "TARGET"
+assert nodes["xr_tangent_support_mismatch_bridge"]["status"] in ("TARGET", "PROVED")  # bridge closed 2026-07-22 at the re-posed scope (wave-20, maintainer-ratified)
 
 print("XR_NONDEEP_TANGENT_PAYMENT_REFUTED", list(expected_slopes))

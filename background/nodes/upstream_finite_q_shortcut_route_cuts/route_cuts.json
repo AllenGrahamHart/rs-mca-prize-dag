@@ -1,0 +1,53 @@
+{
+  "upstream_commit": "32a41660e3088eeeb15a16645330856794302ff0",
+  "grande_finale_path": "experimental/grande_finale.tex",
+  "grande_finale_sha256": "34618918de8fc1c1aac5642393f49019c60ff7041a9efeacbf0b8ea01eb3d8cd",
+  "lean_table_path": "experimental/lean/grande_finale/GrandeFinale/QFiniteTables.lean",
+  "lean_table_sha256": "7f94c2530f35439366b24ac5e0a91d255bf4f9609a93dc434c0dfed0380ba3be",
+  "rows": [
+    {
+      "row_id": "kb_mca",
+      "base": 2130706433,
+      "w": 67471,
+      "a_plus": 1116048,
+      "delta_real_12": "22.196861707683",
+      "moment_floor_real": 94196,
+      "moment_floor_ceiling_average": 94196,
+      "packing_log2": "1660789.024",
+      "boundary_q_dimension": 913633
+    },
+    {
+      "row_id": "kb_list",
+      "base": 2130706433,
+      "w": 67471,
+      "a_plus": 1116047,
+      "delta_real_12": "22.010942080645",
+      "moment_floor_real": 94991,
+      "moment_floor_ceiling_average": 94991,
+      "packing_log2": "1660789.017",
+      "boundary_q_dimension": 913634
+    },
+    {
+      "row_id": "m31_mca",
+      "base": 2147483647,
+      "w": 67447,
+      "a_plus": 1116024,
+      "delta_real_12": "3.258852879362",
+      "moment_floor_real": 641593,
+      "moment_floor_ceiling_average": 641594,
+      "packing_log2": "1660926.120",
+      "boundary_q_dimension": 913681
+    },
+    {
+      "row_id": "m31_list",
+      "base": 2147483647,
+      "w": 67447,
+      "a_plus": 1116023,
+      "delta_real_12": "3.072999568105",
+      "moment_floor_real": 680397,
+      "moment_floor_ceiling_average": 680397,
+      "packing_log2": "1660926.114",
+      "boundary_q_dimension": 913682
+    }
+  ]
+}

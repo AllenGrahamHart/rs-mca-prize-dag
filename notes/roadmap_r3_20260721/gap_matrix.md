@@ -15,7 +15,16 @@ Three different node-count measures are in circulation and all are correct for t
 
 **Conflict 3 (scope mismatch).** A2 lists a "Hankel band" among stalled red families. There is **no Hankel leaf** among the 22; the Hankel work is interior machinery of the K5 lane (the far-CA layer inside the band-closure determination). Velocity claims about it do not bear on the leaf count.
 
-**Conflict 4 (unconfirmed scope assumption).** A1's clean-rate sub-win claim ("leaves 17 and 20 gate only the rate-1/2 instances," so clean rates need only 20 leaves) requires that the `ext_lift ← f1_pole_list_threshold_location ← list_adjacency_closing` import needs only the *clean-rate* list threshold. Only A1 asserts this; no other report confirms the rate-scoping of the F1 pole import. Treat the 20-leaf clean-rate milestone as plausible-but-unaudited until the f1 chain's rate scope is pinned.
+**Conflict 4 (RESOLVED 2026-07-21).** The proved
+`f1_pole_same_rate_scope_router` checks the actual F1 construction:
+`C_K=RS[K,D,kappa]` expands to `C_B^e` with the same `D,kappa`, and every
+tower step changes only the coefficient field. Therefore the
+`ext_lift ← f1_pole_list_threshold_location ← list_adjacency_closing`
+import is rate preserving. Clean ambient rates use clean base-list
+thresholds; rate-half adjacency enters only for an ambient rate-half row.
+On the current 21-red surface the clean-rate milestone has 19 mathematical
+leaves, excluding the two rate-half leaves. The old 20-of-22 count below is
+historical drafting arithmetic.
 
 **Refinement, not conflict.** WCL slot (2,7) cost: A2's $6,000–14,300 blind estimate and A6's ~$1,900–5,300 after a GMP/FLINT gcd swap are the same fact at two engineering stages; either way it is CR-004 external-request-only, and it additionally carries an unfixed soundness gap (Norm(u)-saturation's weight-4 exclusion unpaid at order 1024).
 
@@ -40,7 +49,7 @@ There is **no MCA-only resolution**: the F1 pole pricing imports the base-row li
 2. **The deep Sidon/Fourier payment** — his input 3 ≡ our F2 summit (`f2_growing_order_myerson`). Both trees have fenced every classical route (his: entropy demoted to guide; ours: no-go #9 — the analytic lane is vacuous at official fields, n ≪ √q).
 3. **Sup-form anti-concentration** — `xr_lowcore_spread_heart` (P-B) on our side; his first-match atlas residual is converging on the same cells. Unlike 1–2, this one is bypassable (RK alt, or a direct `xr_smallcore_spread_count` floor proof), so it is a hard atom but not a strict bottleneck.
 
-The bits-level bottom line: full resolution requires the four wired bottleneck leaves + closing either the 15-leaf strip subtree + XR trio **or** the RK conjecture — and nothing upstream will do any of that for us (his "not within days, by his own quantified admissions" list covers row-sharp Q, deep Sidon/Fourier, exact extension multiplicities, and all four summed certificates).
+The bits-level bottom line: full resolution requires the four wired bottleneck leaves + closing either the 15-leaf strip subtree + XR pair **or** the RK conjecture — and nothing upstream will do any of that for us (his "not within days, by his own quantified admissions" list covers row-sharp Q, deep Sidon/Fourier, exact extension multiplicities, and all four summed certificates).
 
 ---
 
@@ -74,9 +83,10 @@ Amber of record (Decision 6): `dli_prime_weighted_large_block_support` CONDITION
 - **Upstream**: his **Q ⇒ SP** pillar (row-sharp Q discharges the primitive shift-pair ledger) is adjacent to our SP_h^prim ≤ 7000n·max(1,B_h) adapter — a vendoring lead, not a closure: Q itself is his hardest atom.
 - **Machinery**: amortized free/swap pairing over the lower quarter; complete n=32 full-corridor row census as pre-registered falsifier bed; the DSP8 moment compiler (untried transport). **Standing hazards pinned in-statement**: catch #99 (A5 re-open clause kills the gate — shallow mass crosses 14n³ near h~12 without the F-4 minimality pin) and catch #100 (two of five strips undefined in-repo; any KILL claim must define them first).
 
-### 2.5 XR trio — `xr_highcore_collision_count` (P-A), `xr_lowcore_spread_heart` (P-B), `xr_tangent_support_mismatch_bridge` (3 leaves)
-- **Residual**: P-A — coherent GRS4 split-pencil census + rank-2 chart first-match audit + (u ≤ 60, v ≤ 7) pairs, within 8n³/pair; first-open selector ranks **frozen at 5,5,5 (RowC) / 17,17,15 (prize rows) across four consecutive waves** despite P3E5 (no primitive full-core trade of any rank on the first shell |X| = a+3) and the exponential-width fence (support-packing alone provably cannot close it). P-B — same rank frontier, sup-over-pairs quantifier, all evidence at FM = Θ(1)..107 (extrapolation regime). Bridge — depth PAID (caps 169/169/255/254/254/510); open is purely bounded-depth branch WIDTH within 16n³ without a binomial chart factor. P-A has **no verify.py** (md-only import) — harness gap.
-- **Grade**: P-A tractable, bridge tractable, **P-B proof-shaped-hard** (no averaging can meet a sup; named surface = `f2_effective_energy_dichotomy` transport).
+### 2.5 XR pair — `xr_highcore_collision_count` (P-A), `xr_lowcore_spread_heart` (P-B) (2 leaves)
+- **Residual**: P-A has two exact clauses. P-A1 is the generic coherent GRS4 split-pencil census + rank-2 chart first-match audit + (u ≤ 60, v ≤ 7) pairs, within 8n³/pair; first-open selector ranks are **5,5,5 (RowC) / 17,17,15 (prize)**. P-A2 is the former combined nongeneric mismatch count within 16n³; support-local LineRay payment leaves first-open ranks **5,4,4,4,4,4**, and its full-zero descent has caps 169/169/255/254/254/510. P-B retains its generic low-core `8n^3` scope, same rank frontier, sup-over-pairs quantifier, and evidence only at FM = Θ(1)..107. The bridge is PROVED as the exact generic `(P-A1+P-B)` / nongeneric `P-A2` case split. P-A has **no umbrella verify.py** (its clause verifiers are separate) — harness gap.
+- **Boolean-energy reduction:** every P-B oriented-difference fiber with `t>=K` has multiplicity one; only `h+1<=t<=K-1` can repeat. Full-side puncturing turns each repeated fiber into two smaller generic RS-line instances and pays `t=K-1,K-2` per fiber. Cross-difference aggregation remains open. This is not CAP25's local locator-SPI currency and not a slope count.
+- **Grade**: P-A tractable, **P-B proof-shaped-hard** (no averaging can meet a sup; named surface = `f2_effective_energy_dichotomy` transport).
 - **Upstream**: **the one real duplication-risk zone.** His first-match atlas (GF input 2) and the scottdhughes M31 route-cut wave (#999–#1008: ADE wall, Chebyshev separator, Plücker defect window, rank-46 Forney frame, padding bridge) are converging on the same residual cells as our xr emptiness slots; A3 flags "first-match atlas completion on one M31 row" as the first genuine closure risk/opportunity in either tree. Action: vendor his cut library into our chart/atlas coordinates BEFORE running our own census, and keep our paused M5 singular pivot packet (his towards-prize §8 ask) in the exchange.
 - **Machinery**: covering-free AZC (margin 0.5005%, w8-C9 re-run obligation), rank-five suite, triple-implementation strip ledger, GRS4 census (named, bounded, unrun).
 
@@ -96,7 +106,7 @@ Amber of record (Decision 6): `dli_prime_weighted_large_block_support` CONDITION
 - **Residual** (of record, per Conflict 1): (i) the {2³⁹, 2³⁹+1} budget seam of the otherwise-complete 2¹²⁸ < q < 2¹⁶⁷ determination; (ii) the beyond-2¹⁶⁷ bracket [k+2³⁴, 3n/4 or n], theorem-capped (4.73–4.83-bit supply deficit across all 2,978,146 band cells; seven mechanisms triaged dead; only unfenced flank = non-polynomial received words, uncensused).
 - **Grade**: seam **tractable**; bracket **wall-adjacent** (the "cancellation" barrier flavor; terminal program risk).
 - **Upstream**: same object as his row-sharp Q, **zero regime overlap, zero contradiction** (REGIME_MAP). He is provably far away (2.4·10⁷-bit character shortfall). Our four-pair replay (#1010) and his cor:prize-window-compiler (which consumed and superseded our n=2⁴¹ determinations at all four rates, M_ρ(2⁴¹) = 389,500,552,609) are deliberate, audit-valuable duplication.
-- **Machinery**: exact binomial ladder (#115) for the seam audit; hardened-floor evidence (+1..+4 survivals, 18/18 crossing fidelity, Poisson anti-concentration); sporadic escape hatch priced ~2^−5.2/razor row. Next: the seam first (finite, staircase-adjacent), then a dedicated non-polynomial-word census.
+- **Machinery**: the seam is a uniform Hankel split-pencil theorem, with exact binomial ladder (#115) available only for final adjacent-row arithmetic; hardened-floor evidence (+1..+4 survivals, 18/18 crossing fidelity, Poisson anti-concentration); sporadic escape hatch priced ~2^−5.2/razor row. Next: the seam first through the branch-exact attack contract and CR-003 algebraic routers, then a dedicated non-polynomial-word census. A finite no-hit analogue is not a seam proof.
 
 ### 2.9 K5 list — `rate_half_list_adjacent_crossing` (1 leaf)
 - **Residual**: B\* ∈ {1,2} COMPLETE (all-arity, a_L = 3n/4). B\* ≥ 3: bracket [k+2³⁴, a_IJ] byte-identical for four waves; witness route reduced to **exactly 13 chambers** (9 split-unit Grassmann-line, degrees {3,4,5,6,8} + 4 balanced scrolls; rank-deficient branch EMPTY), **0/13 closed, 13/13 reduced** (Stepanov cap #Y_a ≤ 355,106,851 < 2²⁹ on all official fields; one-antipodal ladder; harmonic census 0/4,495,441). Nonclaim intact.
@@ -108,23 +118,26 @@ Amber of record (Decision 6): `dli_prime_weighted_large_block_support` CONDITION
 - **Residual**: clerical by definition (total certified f(C) compiler, clean-checkout replay, provenance, empty nonclaim ledger). Maintainer signal: **target Paper D's certificate grammar directly**, GF v3's six-input checklist is the promoted frame. Standing engineering debt: KB #107 lightweight-cert verify.py fix; xr_highcore verify.py gap.
 - **Next**: the Paper-D/GF-v3 grammar crosswalk (which of his (F1)–(F4) obligations our compiler already emits, which need adapters — his `four_row_exact_completion_compiler_v1.json` schema landed in 18cfc199 and is the diff target).
 
-**Meta-datum spanning all families (A2)**: four waves, +195 nodes, +709 edges, **zero red closures** — all movement is reduction/fencing/reformulation; every status flip this window was a maintainer ceremony. The gap between "residual named and finite" and "residual closed" is currently the program's dominant cost.
+**Meta-datum spanning the original A2 window**: four waves, +195 nodes, +709 edges, zero red closures. The current scope-contraction pass subsequently closes the standalone XR mismatch bridge without proving a numerical predicate; its combined count is preserved verbatim as P-A2. The gap between "residual named and finite" and "residual closed" remains the program's dominant cost.
 
 ---
 
 ## 3. Minimal win set analysis
 
-**Wired minimum (the only unconditional answer):** all 22 red leaves + dossier. The critical surface is pure AND (req-only; gates normalized 2026-07-06), so the leaf-support of `prize` is exactly that set. The historical sketch set {R2, zone-(b), S0} has fully dissolved (S0 PROVED; zone-(b) normalized away; R2 compiled into the XR trio).
+**Wired minimum (the only unconditional answer):** the current req-leaf set printed by `tools/verify_prize_dag.py`, plus the dossier artifact. The critical surface is pure AND (req-only; gates normalized 2026-07-06). The historical sketch set {R2, zone-(b), S0} has fully dissolved (S0 PROVED; zone-(b) normalized away; R2 compiled into the XR pair).
 
 **Cheapest strict sub-goals, in ascending cost:**
 1. **`list_grand` alone = 3 leaves**: {`l1_mixed_petal_amplification`, `ww_row_envelope_clause`, `rate_half_list_adjacent_crossing`} — flips 8 ambers, closes one grand outright, and unlocks `ext_lift` for the MCA side for free. Note the grade mix: one tractable-never-tested (ww), one tractable-low-yield-13-chambers (leaf 20 — the bracket suffices only if the chambers close or the crossing is otherwise located), one hard (l1).
-2. **Clean-rate milestone (M2/M3-grade)**: 20 leaves (all but the two rate-half leaves) — subject to the Conflict-4 caveat on the f1 pole import's rate scope.
-3. **Full resolution**: all 22 + dossier.
+2. **Clean-rate milestone (M2/M3-grade)**: every current mathematical leaf
+   except the two rate-half leaves; Conflict-4 is resolved by the same-rate F1
+   pole router.
+3. **Full resolution**: the complete validator-printed req-leaf set plus the
+   dossier.
 
 **Alternatives (route surgery, mathematically legitimate):**
-- **RK shortcut** (`rigidity_kernel`, CONJECTURE, alt edges verified into `gap1_noneq_mass` and `xr_clean_residual_any_gate`): collapses the win set to **{RK, l1_mixed_petal, ww_row_envelope, rate_half_band_closure, rate_half_list_adjacent_crossing} + dossier** — prunes 18 of 22 leaves (the 15 strip-side + XR trio). Only recorded single-statement prune; schema-broad and unproved. All other alts dead or spent (`route_noslack` REFUTED, `conj_f` already PROVED, `lattice_cone_certificate` already consumed).
-- **Direct floor-conjecture proofs** (the five 2026-07-07 floor re-poses): a direct proof of `dli_prime_weighted_large_block_support` (B-WEAK) prunes all 12 DLI leaves; of `u1_x4_direct_column_budget` prunes both F3 leaves; of `u2c_giant_tnull_dichotomy` prunes the F2 leaf; of `xr_smallcore_spread_count` prunes P-A + P-B (bridge remains); of `worst_word_challenger_pricing` prunes ww. These are status-flip surgery under DAG law but honest bypasses mathematically.
-- **Within-route cheap closes ranked by cascade**: DSP8 via the max-P ≤ 24 richness lemma (flips 3 ambers), F2 Myerson (2 ambers — but it's the wall), XR trio jointly (4 ambers), DLI dozen jointly (4 ambers through x4's slot, with `gap1_product_model` above already half-proved, #212 in flight).
+- **RK shortcut** (`rigidity_kernel`, CONJECTURE, alt edges verified into `gap1_noneq_mass` and `xr_clean_residual_any_gate`): collapses the win set to **{RK, l1_mixed_petal, ww_row_envelope, rate_half_band_closure, rate_half_list_adjacent_crossing} + dossier** by pruning the 15 strip-side leaves and XR pair. Only recorded single-statement prune; schema-broad and unproved. All other alts dead or spent (`route_noslack` REFUTED, `conj_f` already PROVED, `lattice_cone_certificate` already consumed).
+- **Direct floor-conjecture proofs** (the five 2026-07-07 floor re-poses): a direct proof of `dli_prime_weighted_large_block_support` (B-WEAK) prunes all 12 DLI leaves; of `u1_x4_direct_column_budget` prunes both F3 leaves; of `u2c_giant_tnull_dichotomy` prunes the F2 leaf; of `xr_smallcore_spread_count` prunes P-A + P-B (the scope bridge is already proved); of `worst_word_challenger_pricing` prunes ww. These are status-flip surgery under DAG law but honest bypasses mathematically.
+- **Within-route cheap closes ranked by cascade**: DSP8 via the max-P ≤ 24 richness lemma (flips 3 ambers), F2 Myerson (2 ambers — but it's the wall), XR pair jointly, DLI dozen jointly (4 ambers through x4's slot, with `gap1_product_model` above already half-proved, #212 in flight).
 
 **Irreducible core under every wiring**: {l1, ww, leaf-20 crossing, band-closure} + dossier appear in every sufficient set, including the RK world. Those four are where scarce proof effort has no substitute.
 

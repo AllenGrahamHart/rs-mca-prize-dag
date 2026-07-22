@@ -1,12 +1,16 @@
 # far_pair_separation
 
-- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: TARGET]
-- **closure:** proof
+- **status:** CONDITIONAL
+- **closure:** proved implication
 - **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#3']
 
 ## Statement
 
-Construct class families F with |F| > B*/poly whose pairwise e1-differences all factor as (unit of height < p^{1/phi}) x (one of g <= poly generators). Then g per-row valuation checks certify ALL pairs of F simultaneously — constant per-row computation replacing 2^244 pairwise checks. The open problem is the DESIGN: Sidon-flavored difference structure in Z[zeta_N'] compatible with the class-to-e1 map. DECOMPOSED: = cluster_certificates (free cliques + one-check pairing + integer freebies, PROVABLE) + generator_economy (multiplicative difference-designs — the sharpened open core, with the root-difference factorization as its proved germ).
+Conditional on `generator_economy`, combine its pairwise-nonzero center
+design with `cluster_certificates` to obtain a family `F` of size above the
+printed budget whose internal and cross-cluster `e_1` differences are all
+certified by polynomially many per-row generator checks. The implication is
+proved in `conditional.md`; the generator design is the open premise.
 
 ## Attack surface
 

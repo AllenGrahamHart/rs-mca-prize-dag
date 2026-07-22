@@ -98,7 +98,7 @@ root = Path(__file__).resolve().parents[3]
 dag = json.loads((root / "dag.json").read_text())
 nodes = {node["id"]: node for node in dag["nodes"]}
 assert nodes["xr_tangent_mismatch_external_zero_factor_reduction"]["status"] == "PROVED"
-assert nodes["xr_tangent_support_mismatch_bridge"]["status"] == "TARGET"
+assert nodes["xr_tangent_support_mismatch_bridge"]["status"] in ("TARGET", "PROVED")  # bridge closed 2026-07-22 at the re-posed scope (wave-20, maintainer-ratified)
 assert {
     (edge["from"], edge["to"], edge["kind"])
     for edge in dag["edges"]

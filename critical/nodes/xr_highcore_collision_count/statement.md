@@ -2,18 +2,35 @@
 
 - **status:** see `dag.json` (single source of truth)
 
-At each of the six clean-rate candidates and for every generic-branch
-received pair `(u,v)`, the number of post-strip live slopes whose agreement
-support shares a size-`k` core with another live member is at most
+At each of the six clean-rate candidates, prove both clauses:
+
+1. **P-A1 (generic high core).** For every globally generic-branch received
+   pair `(u,v)`, the number of post-strip live slopes whose selected agreement
+   support shares a size-`k` core with another live member is at most
 
 ```text
 8 n^3.
 ```
 
 The count is on distinct slopes, not raw supports or the W-collision moment.
-Pairs jointly `A`-close to a codeword pair are tangent-paid and outside this
-generic branch. Dihedral-symmetric and extension-type slopes remain inside
-the predicate allocation.
+2. **P-A2 (nongeneric mismatch total).** For every received pair having a
+   joint codeword-pair explanation on an `A`-support, remove only quotient and
+   genuinely recovered-line tangent slopes. The total number of all retained
+   support-mismatch slopes is at most
+
+```text
+16 n^3.
+```
+
+P-A2 uses one combined reserve; it does not require separate `8n^3` high/low
+bounds. This is exactly the former mismatch-bridge numerical obligation, now
+merged into an existing red leaf without changing its constant. Global joint
+`A`-proximity is a routing condition, not a payment.
+
+Dihedral-symmetric and extension-type slopes remain inside the applicable
+predicate allocation. Genericity-based auxiliary charges below apply to
+P-A1. The canonical mismatch descent and support-local LineRay charge attack
+P-A2.
 
 The higher-rank uniform-cell compiler now has no collapsed minimum-face
 exception. At affine kernel rank `a`, a collapsed rank-two trade on active

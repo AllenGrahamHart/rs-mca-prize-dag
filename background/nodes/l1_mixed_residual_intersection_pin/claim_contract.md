@@ -10,17 +10,27 @@
   necessity.
 - `l1_polarized_b11_box_closure`: complete payment of every fixed
   `(p,d-ell)` box.
+- `l1_general_first_layout_domination`: one fixed source plus `M` anchors;
+- `l1_fixed_source_quotient_partition_anchor_census`: polynomial supply of
+  whole-petal-anchored quotient partitions;
+- `l1_fixed_source_anchored_triple_polarity_closure`: complete payment of
+  every fixed layout/core-defect/petal-polarity anchored common-pencil box,
+  including partial cores and numerator fibers.
 
 ## Output
 
 For every fixed threshold box, the unpaid mixed/partial residual is the exact
 intersection `(I3)`, satisfies the two-parameter escape `(I4)`, and every
-member also has the reserve rich fiber.
+member also has the reserve rich fiber. In the fixed first source, the
+anchored common-pencil residual has growing triple polarity; an unanchored or
+smaller-fiber quotient map; or arbitrary petal locators.
 
 ## Consumer Rule
 
 Use this node to restrict an attack or aggregate to `(I3)`. Do not treat the
 restriction as a count of `(I3)`, a natural-scale owner, or a proof of L1.
+Do not reintroduce a fixed-polarity Forney-key multiplier in the anchored
+branch.
 
 ## Falsifier
 

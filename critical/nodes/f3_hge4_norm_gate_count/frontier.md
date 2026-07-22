@@ -70,6 +70,12 @@
   `floor((h-1)/2)+2`. Under `4(d+1)R/m<=1`, this completely deletes
   `2,677,220,820` top widths at `m=2^41`. This band lies inside the swap-norm
   band and supersedes the Haar cutoff for production.
+- The multiscale Haar norm-product theorem folds every even moment through
+  one shared dyadic energy ledger and prices a structurally zero fold by its
+  exact cyclotomic power of two. Its sharp quarter-orbit endpoint closes
+  `h=4,5` at `m=64`; the existing ambient and upper-width gates close the
+  rest. Hence the complete `m=64` exact level has zero debit on every
+  official row, and the surviving exact-level problem begins at `m=128`.
 
 ## Evidence
 
@@ -80,10 +86,10 @@ only nonzero raw cell is the deliberate sub-threshold control `(16,17,h=4)`.
 
 ## Open content
 
-Prove the primitive orbit aggregate `(OAR2)`, its equivalent anchored
-near-square form `(NSU4)`, RAW-NG, the weaker stripped aggregate, or the
-explicit per-width estimate `(PSA3)` uniformly over the full corridor and all
-live exact-level widths through `m/4-1`. This requires a bound on the
+Starting at exact level `m=128`, prove the primitive orbit aggregate `(OAR2)`,
+its equivalent anchored near-square form `(NSU4)`, RAW-NG, the weaker stripped
+aggregate, or the explicit per-width estimate `(PSA3)` uniformly over the full
+corridor and all live exact-level widths through `m/4-1`. This requires a bound on the
 free-union class and, if
 the swap route is retained, the equivalent half-order perfect-square support
 count. The free class now has a fixed-cell certificate architecture but no
@@ -93,7 +99,8 @@ route evidence only; it does not supply width-uniformity or an official-row
 certificate family. The near-third Kummer and scalar-gcd packets are now
 conformance fixtures only. The Vandermonde-defect band is fully deleted.
 Between its cutoff and the swap-norm cutoff only the free aggregate remains;
-below the latter both free and swap aggregates remain open.
+below the latter both free and swap aggregates remain open. No generator or
+positive debit remains at `m<=64`.
 
 ## Provenance addendum (2026-07-21, wave-18 integration)
 

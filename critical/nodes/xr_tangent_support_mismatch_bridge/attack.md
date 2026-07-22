@@ -1,47 +1,33 @@
-# Attack plan
+# Closed route and remaining work
 
-1. Choose the first joint codeword-pair explanation `(c_0,c_1)` and its
-   discrepancy support `T` whenever one exists. Keep witness supports in the
-   data; existential pair proximity is not a payment.
-2. For each bad slope and explaining codeword `p_z`, study
-   `q_z=p_z-(c_0+z c_1)`. The deep proof kills every nonzero `q_z`; the
-   official regime must instead classify these codewords by their zeros on
-   the witness outside `T`.
-3. The branch `q_z=0` is closed by
-   `xr_true_tangent_coordinate_injection`, at cost at most `|T|<=n-A`.
-4. For `q_z!=0`, choose an exact-`A` witness, put `W=S\T`, and apply
-   `xr_tangent_mismatch_external_zero_factor_reduction`. This produces a
-   punctured GRS chart on `T` with dimension `K-|W|`, agreement `A-|W|`,
-   and invariant excess `h=A-K`.
-5. Replace witness-selected `W` by the full external zero set `Z_z` of the
-   selected difference codeword. This is now a proved canonicalization and
-   gives one chart per selected slope/codeword pair. Route quotient-periodic
-   charts first.
-6. Apply the generic MDS kernel-ray theorem on generic fixed charts, then
-   aggregate their distinct slopes without summing a binomial number of
-   possible `Z_z`.
-7. On a nongeneric chart, use the proved equivalence with a second joint
-   `A`-support extending `Z_z`. Distinct joint explanations form a low-core
-   family with intersections at most `K-1`; bound slopes per explanation and
-   aggregate that family. A support count or collision moment alone is
-   insufficient because the consumer needs distinct slopes.
-8. The nongeneric descent has proved depth caps
-   `169,169,255,254,254,510`. Seek a per-level or amortized branch-width
-   theorem; do not spend an extra `16n^3` at every level.
-9. Apply `xr_nongeneric_explanation_plotkin_width` at every level. Once
-   `N<=4(h+1)`, the entire live nongeneric subtree has at most
-   `1+104(h+1)` instances and its genuine-tangent charges are paid by
-   `420(h+1)^2`. More generally, do not enumerate explanation supports in a
-   fixed logarithmic window above that boundary. Restrict the branch-width
-   attack to pre-terminal levels and retain generic-chart slope aggregation
-   as an independent currency.
-10. In that logarithmic window, provided `h+1>=2C log_2 n`, the entire live
-    nongeneric tree and all genuine-tangent charges are polynomial. Therefore
-    a remaining super-polynomial branch-width attack must keep
-    `N-4(h+1)` above every fixed logarithmic cap; do not restart the recursion
-    one level above the equality boundary.
+The bridge is closed by support-local routing:
 
-The smooth `F_17` counterexample in
-`background/nodes/xr_nondeep_tangent_supportwise_payment` is the minimum
-regression fixture: any proposed payment must retain or validly charge all
-eight mismatch slopes.
+1. Remove quotient slopes under the existing first-match convention.
+2. For any available joint explanation `(c_0,c_1)`, remove only selected
+   rays whose explaining codeword is literally `c_0+z c_1`. The coordinate
+   injection pays them; global pair proximity removes nothing else.
+3. Retain every selected mismatch. Support-wise nontriviality is equivalent
+   to LineRay transversality on its own error support.
+4. If the pair is globally generic, apply the strip rung and route the
+   core-`K` and pairwise-`(K-1)` classes to P-A1 and P-B.
+5. If the pair is globally nongeneric, route the complete retained mismatch
+   population to P-A2's combined `16n^3` clause. Do not split that reserve
+   into two stronger `8n^3` demands.
+6. Charge no numerical budget in this adapter. The case-specific conditional
+   composition remains in `xr_smallcore_spread_count`.
+
+The previous full-external-zero chart program is retained as evidence and as
+the main alternative way to attack P-A2. Its useful
+proved pieces are:
+
+- canonical fixed-excess charts for every mismatch;
+- nongenericity iff a second joint `A`-support extends the zero core;
+- invariant-excess descent with official depth caps
+  `169,169,255,254,254,510`;
+- analytic terminal breadth and every fixed logarithmic terminal window;
+- a global support-local selector charge paying ranks at most three
+  everywhere and rank four at RowC rate `1/4`.
+
+Do not launch a chart/support census merely to re-prove the scope bridge.
+Future XR compute requests must name P-A1, P-A2, or P-B and preserve actual
+slope ownership and the clause's exact budget.

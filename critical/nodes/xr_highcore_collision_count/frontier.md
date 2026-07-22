@@ -1,6 +1,18 @@
 # Frontier
 
-## Current addendum (2026-07-21)
+## Clause map
+
+This target has two independent clauses with different ownership currencies.
+
+- **P-A1** is the original globally generic high-core count, with budget
+  `8n^3`. The component, split-pencil, rank, and support-realization material
+  below is its frontier.
+- **P-A2** is the former nongeneric support-mismatch bridge count, merged
+  without changing its original combined budget `16n^3`. It is not split
+  into high/low `8n^3` sub-budgets. Its separate frontier is recorded at the
+  end of this file.
+
+## P-A1 current addendum (2026-07-21)
 
 The covering-free all-zero charge supersedes the historical catch-#158
 qualification below. Together with the post-strip affine-pencil and RS
@@ -94,7 +106,7 @@ inequalities. What remains is a bound on the number of coefficient-compatible
 supports and packing solutions, together with first-core/cross-core
 ownership.
 
-## Paid
+## P-A1 paid
 
 - post-strip cross-slope cores are at most `k`;
 - fixed-core pencil populations obey the moving-root/sunflower bound;
@@ -126,7 +138,7 @@ ownership.
   rates `1/4`, `1/8`, and `1/16`. At RowC scale the MDS-direction excess
   threshold is zero.
 
-## Open
+## P-A1 open
 
 Prove the aggregate distinct-slope count `<=8n^3` by controlling the explicit
 canonical ledger
@@ -157,3 +169,40 @@ trade, but not first-core selection or cross-core ownership. The collision
 moment still cannot replace the distinct-slope target. On the DDR
 complement, use the sparse-direction normal form rather than treating low
 direction distance as an unnamed exception.
+
+## P-A2 paid
+
+- genuine recovered-line tangent slopes inject into at most `n-A`
+  discrepancy coordinates;
+- every retained nonzero mismatch factors through a punctured GRS chart with
+  the same excess `h=A-k`;
+- taking all external zeros gives a canonical chart, and chart nongenericity
+  is equivalent to a second joint `A`-support extending the zero core;
+- support-wise LineRay transversality pays every selector of rank at most
+  three, and also rank four at RowC rate `1/4`, against the combined reserve;
+  the first open selector ranks are `5,4,4,4,4,4` on the six rows;
+- nongeneric descent preserves `h`, decreases ambient length by at least
+  `h+1`, and obeys the exact pathwise dimension-area law;
+- terminal and fixed-logarithmic-window explanation breadth is polynomial;
+  and
+- support packing alone cannot close the target: proved abstract
+  constant-weight families can exceed `16n^3`, so any continuation must use
+  RS realization or slope ownership.
+
+## P-A2 open
+
+Prove one aggregate bound of `16n^3` across all retained mismatch slopes.
+The two live currencies are:
+
+1. the higher-rank union of generic full-external-zero charts, with minimum
+   selector rank `5,4,4,4,4,4`; and
+2. nongeneric slope-to-joint-explanation fibers before the proved terminal
+   regime, first-matched across the invariant-excess descent without a
+   multiplicative depth charge.
+
+No responsible large computation is currently available for this clause.
+A contributor-scale run becomes useful only after these currencies have a
+finite aggregate compiler and a streaming checker enforcing the combined
+`16n^3` budget. Raw enumeration of pairs, supports, charts, or Maxwell cores
+would remain incomplete evidence and is therefore recorded only as a
+pre-request in `notes/PRIZE_COMPUTE_REQUESTS.md`.

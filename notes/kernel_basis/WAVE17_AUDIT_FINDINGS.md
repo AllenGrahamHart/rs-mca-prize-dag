@@ -146,5 +146,7 @@ primary_gap_rigidity_sweep) are honest evidence-only, NOT verifier-load-bearing.
 - w17-C1 governance decision (three Modal screens + sub-$1 policy) — SURFACED.
 - w15-C1 kind-change req->ev downgrades — still HELD as req (maintainer-ratify).
 - Roadmap / compute-request restructure divergence — Codex-owned, deferred.
-- Standing harness fix (KB #107): lightweight cert-check verify.py + full MITM in
-  remote_launcher for dli_wcl_weight5_first64_mitm_exclusion — still open.
+- Standing harness fix (KB #107): lightweight cert-check `verify.py` + full MITM in
+  the registered remote launcher for `dli_wcl_weight5_first64_mitm_exclusion`
+  — RESOLVED in Codex resolution v8; source, launcher, and banked result are
+  hash-pinned and the local checker retains full row/certificate coverage.

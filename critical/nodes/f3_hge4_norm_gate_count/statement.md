@@ -511,6 +511,52 @@ necklace debit `286` is no longer charged. The remaining widths satisfy
 `e=m-3h>=h+4`. The theorem is a width exclusion, not a bound for this
 lower-quarter aggregate.
 
+The proved `f3_hge4_ambient_norm_level_contraction` keeps the stronger
+official prime scale while passing to proper exact-ratio levels. For
+`n=2^s`, `m=2^r|n`, put
+
+```text
+c_(n,m)=2 ceil(mr/(8s)).
+```
+
+More sharply, for each lower-quarter width put
+`v_h=floor((h-1)/2)+2` and delete it whenever
+
+```text
+n^(2 floor(h/2))>=(4h-v_h)^(m/4).                  (ALC-exact)
+```
+
+This composes the nonzero-defect Vandermonde lower bound with the zero-defect
+swap norm and can delete parity-sensitive widths below `c_(n,m)`.
+
+The same norm packet now proves
+
+```text
+E_h^prim(m,p)=0       for max(4,c_(n,m))<=h<m/3.
+```
+
+Thus `4<=h<c_(n,m)` is a coarse live envelope, further punctured by
+`(ALC-exact)`. At `m=n` the closed-form envelope is the old quarter frontier;
+every proper level contracts. Across all official ambient
+exponents, `55,050,457,488` additional `(n,m,h)` cells are empty. This is
+still a width deletion, not an orbit estimate for the surviving lower widths.
+
+The proved `f3_hge4_multiscale_haar_m64_level_close` then makes the first
+complete zero-cost exact-level purchase. The even moments are folded through
+their full dyadic Haar tower. Their norm energies satisfy one shared budget,
+while a structurally zero scale contributes an explicit power of two to every
+remaining cyclotomic norm. A sharp `28,171`-state quarter-orbit endpoint
+lemma closes the final width at the smallest ambient row. Consequently
+
+```text
+E_h^prim(64,p)=0       for every 4<=h<=32,
+sum_(h=4)^32 E_h^prim(64,p)=0.                    (MHN10)
+```
+
+Thus the exact level `m=64` is paid, rather than merely narrowed. Together
+with the already empty lower levels, the surviving exact-level aggregate
+starts at `m=128`. No level at or above `128` is paid by this statement.
+
 The proved `f3_hge4_cyclotomic_haar_near_quarter_swap_router` continues the
 same norm method below one quarter. Write `h=m/4-d`, `d>=1`, and let
 
@@ -630,7 +676,8 @@ whose correctly stripped F-4-minimal norm-gate aggregate is greater than
 - The fixed-cell integer certificates and their uniform summation are not
   proved here.
 - No certificate family or count for the non-full selector schemes is proved.
-- No exact-ratio level estimate `(ERT4)` is proved.
+- No uniform exact-ratio level estimate `(ERT4)` is proved; the isolated
+  level `m=64` is now proved with zero debit.
 - No reduced exact-ratio level estimate `(ERT4')` is proved.
 - No dual-gap-reduced exact-ratio estimate `(ERT4'')` or `(ERT4''')` is
   proved.
@@ -650,6 +697,8 @@ whose correctly stripped F-4-minimal norm-gate aggregate is greater than
   nevertheless empty by the later cyclotomic-norm theorem.
 - The cyclotomic-norm theorem does not estimate any width below `m/4` or
   prove `(ERT4'''')`.
+- The multiscale Haar theorem pays `m=64` only; it supplies no aggregate for
+  any surviving level `m>=128`.
 - The cyclotomic-Haar router alone does not count odd swaps, but the later
   swap-norm theorem deletes them throughout its band.
 - The swap-norm theorem does not count free pairs outside the empty Haar

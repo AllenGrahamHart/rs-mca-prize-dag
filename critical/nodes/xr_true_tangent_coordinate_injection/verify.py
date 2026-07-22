@@ -35,12 +35,14 @@ root = Path(__file__).resolve().parents[3]
 dag = json.loads((root / "dag.json").read_text())
 nodes = {node["id"]: node for node in dag["nodes"]}
 assert nodes["xr_true_tangent_coordinate_injection"]["status"] == "PROVED"
-assert nodes["xr_tangent_support_mismatch_bridge"]["status"] == "TARGET"
+assert nodes["xr_tangent_support_mismatch_bridge"]["status"] in ("TARGET", "PROVED")  # bridge closed 2026-07-22 at the re-posed scope (wave-20, maintainer-ratified)
 assert {
     (edge["from"], edge["to"], edge["kind"])
     for edge in dag["edges"]
 } >= {
-    ("xr_true_tangent_coordinate_injection", "xr_tangent_support_mismatch_bridge", "ev"),
+    # ev -> req at the wave-20 bridge closure (true_tangent is a req parent of
+    # the re-posed proved bridge; maintainer-ratified 2026-07-22)
+    ("xr_true_tangent_coordinate_injection", "xr_tangent_support_mismatch_bridge", "req"),
     ("xr_true_tangent_coordinate_injection", "xr_clean_residual_any_gate", "req"),
 }
 

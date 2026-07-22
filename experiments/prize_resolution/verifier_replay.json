@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/verify.py",
-      "seconds": 0.029586,
+      "script": "critical/nodes/rate_half_cyclic_rotated_prefix_floor/verify.py",
+      "seconds": 0.777327,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_LIST_B3_FIBER_TWO_MATCHED_LIFT_FIELD_ROUTER_PASS N_bits=39 surviving_field_degree=2 anti_invariant=0 identities=4\n"
+      "stdout_tail": "RATE_HALF_CYCLIC_ROTATED_PREFIX_FLOOR_PASS toy_d1=(5005, 313, 315) toy_d2=(3003, 2, 6) cap_count_bits=251 cap_list_bits=243 q_boundary_bits=370.650300488320 cap_margin_bits=114.650300488 cap_list_log2=242.650300488 cap_uniform_extremality_checks=74\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/verify_audit.py",
-      "seconds": 0.037136,
+      "script": "critical/nodes/rate_half_cyclic_rotated_prefix_floor/verify_audit.py",
+      "seconds": 1.369934,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_LIST_B3_FIBER_TWO_MATCHED_LIFT_FIELD_ROUTER_AUDIT_PASS p=17 N=8 anti_lifts=16 outer_ratios=7 hits=0\n"
+      "stdout_tail": "AUDIT_RATE_HALF_CYCLIC_ROTATED_PREFIX_FLOOR_PASS support_checks=3472 constant_checks=21 historical_margin_bits=75.079624489 historical_q_boundary_bits=256.036659972895 optimized_margin_bits=114.650300488 optimized_q_boundary_bits=370.650300488320 list_bits=243 johnson_gap=1170851739846527019909119 extremality_checks=74\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

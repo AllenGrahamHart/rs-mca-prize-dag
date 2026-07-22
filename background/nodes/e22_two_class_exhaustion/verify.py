@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-CORE = ROOT / "critical" / "nodes" / "worst_word_challenger_pricing" / "notes"
+CORE = ROOT / "background" / "nodes" / "worst_word_challenger_pricing" / "notes"
 sys.path.insert(0, str(CORE))
 
 from e22_core import P, inv_mod, locator, poly_eval, sunflower_word  # noqa: E402

@@ -6,97 +6,65 @@
 ## Predicate nodes
 
 - `list_crossing_localization`
-- `list_planted_arithmetic`
-- `rate_half_band_closure`
+- `list_unsafe`
+- `list_safe`
 - `list_corridor_ledger`
+- `rate_half_cyclic_rotated_prefix_floor`
+- `rate_half_list_adjacent_crossing`
 
-Convention/evidence guards:
+Evidence only:
 
+- `list_planted_arithmetic`
 - `worst_word_planted`
 - `rate_half_coverage_gap`
 
 ## Claim
 
-Conditional on the predicate nodes, for each admissible row, the ordinary code
-has adjacent agreement indices `a0,a0+1` satisfying
+Conditional on the predicate nodes, every admissible ordinary code has
+adjacent agreement indices `a0,a0+1` satisfying
 
 ```text
 L_1(a0) > floor(|F|/2^128) >= L_1(a0+1).
 ```
 
-## Proof
+## Clean rates
 
-For a fixed admissible row, `list_crossing_localization`
-proves that the worst-word list-size function is integer-valued and monotone in
-the agreement-index convention. Therefore once the relevant window is bracketed
-there is a unique adjacent crossing of `eps*|F|`.
+For rates `1/4`, `1/8`, and `1/16`, `list_unsafe` supplies an explicit
+received word below the list window.  Its qcore construction is a lower
+witness only; no upper classification of all planted receivers is needed.
 
-The unsafe side is constructive. The predicate `list_planted_arithmetic`
-packages the two-column inventory needed here: its own predicate chain consumes
-`worst_word_planted` and `worst_word_challenger_pricing`, then prices the
-planted sunflower and classified E15 challenger columns by exact combinatorial
-formulas. Thus the lower side of the crossing can be exhibited explicitly
-without taking `worst_word_planted` as an additional direct premise of this
-assembly node.
+`list_safe` supplies the uniform upper bound above the window from `imgfib`
+and `codegree`.  The proved `list_corridor_ledger` shows, by exact arithmetic
+at all three rates, that the available floor gain covers `W_list-1` grid
+steps.  Hence the lower and upper endpoints collapse to adjacent agreement
+indices.  `list_crossing_localization` turns that bracket into the unique
+first integer crossing.
 
-The safe side is supplied by the corridor predicates. `list_corridor_ledger`
-closes the clean-rate corridor from the list-side arithmetic columns, while
-`rate_half_band_closure` supplies the missing rate-`1/2` band identified by
-`rate_half_coverage_gap`. Together they cover every admissible row class in the
-current split.
+This argument does not consume `ww_row_envelope_clause`. W3's literal
+safe-side claim remains open. The fiber-layout counterexample instead proves
+that its upper inequality cannot be extended to the already unsafe lower
+endpoint.
 
-Thus, for each row, the exact planted/challenger arithmetic
-exhibits the last unsafe index, the safe ledger controls the next index, and
-monotonicity turns those two inequalities into the adjacent crossing displayed
-above.
+## Rate one half
 
-If any predicate fails, the parent does not claim more than bracket-grade
-information for the corresponding row or band.
+`rate_half_cyclic_rotated_prefix_floor` supplies the optimized unsafe side.
+`rate_half_list_adjacent_crossing` is the explicit safe-side and exact
+crossing predicate for budgets `B*>=3`; the low-budget `B* in {1,2}` branches
+are already proved by their dedicated exact certificates.  Thus the live
+rate-half residue is precisely the named adjacent-crossing target, not W3.
 
-The proved `list_large_m_scope_closure` theorem is deliberately outside this
-packet: it consumes this base crossing and supplies the full constant-`m`
-family to `list_grand`.
+## Arity
 
-## Weakening
+The proved `list_large_m_scope_closure` is deliberately outside this packet.
+It consumes the ordinary crossing and transports the same adjacent pair to
+every constant interleaving arity.
 
-WEAKENING 2026-07-06: the direct edge
-`worst_word_planted -> list_adjacency_closing` is evidence rather than a
-logical requirement.  The transitive dependency remains through
-`list_planted_arithmetic`, whose statement is exactly the arithmetic reduction
-that uses worst-word extremality.
+## Historical correction
 
----
-
-## PREDICATE SWAP (2026-07-16, wave-8 audited import)
-
-The rate-1/2 list predicate this packet consumed as
-`rate_half_band_closure` (open red, list half) is replaced by the PROVED
-`rate_half_cyclic_rotated_prefix_floor` (req-wired at import): the
-residual band's list crossing is determined by theorem, so the
-list-side hypothesis is discharged. The OLD predicate reference is
-retained here as history; rate_half_band_closure itself stays TARGET on
-its remaining MCA/CA half (which this packet does NOT consume — the
-MCA-side hypotheses are unchanged, see the trigger-separation guard in
-that node's statement addendum).
-
----
-
-## CORRECTION to the predicate swap above (2026-07-17, w9-C3)
-
-"The list-side hypothesis is discharged" OVERCLAIMS: the PROVED cyclic
-floor supplies only the UNSAFE side of the rate-half list crossing; the
-SAFE side has no owner post-swap (the "banked safe side above sigma*"
-was planning prose — w9-C2). Until a safe-side theorem lands, this
-packet's claim for the rate-half row is BRACKET-GRADE (unsafety proved
-through sigma_0; crossing location open). The req wiring stands (the
-floor is a genuine hypothesis-supplier); what changes is the claim
-scope recorded here.
-
-## OWNER UPDATE to the w9-C3 correction (wave-10, 2026-07-18)
-
-The rate-half list SAFE side is now OWNED: the TARGET pose
-rate_half_list_adjacent_crossing (req-wired into this packet) is the
-w9-C3 repair vehicle. Unsafe side proved through excess 2^34-1 (the
-optimized floor); the list crossing is DETERMINED for budgets
-B* in {1,2} (a_L = 3n/4, rate_half_list_low_budget_exact_crossing
-PROVED); bracket-grade for larger budgets pending the pose.
+The former packet required `list_planted_arithmetic`, which transitively
+required the W3 upper envelope. That was stronger than the consumer needed:
+an unsafe-side proof needs one witness, while its safe upper bound comes from
+`list_safe`. The exact fiber-layout counterexample exposed this polarity
+error at the unsafe endpoint. Replacing the unnecessary chain by the already
+existing `list_unsafe` and `list_safe` predicates is a dependency repair, not
+a new conjecture or a proof/refutation of safe-side W3.

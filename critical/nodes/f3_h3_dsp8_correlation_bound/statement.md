@@ -258,6 +258,20 @@ the two classes contain pure distance-six stars with at least seven and five
 leaves. These are the preferred CR-001 template families. They do not bound
 the number of ideal-norm survivors or their quotient weights.
 
+PROVED NODAL/SMOOTH HIGH-TAIL DOMINATION: on a fixed target, the nodal graph
+on generic product representations has maximum degree three. Combining this
+with the disjoint-six multiplicity lower bound gives
+
+    D_nod(t) <= D_sm(t)
+
+whenever `P(t)>=33` off the antipodal class or `P(t)>=35` on it. Therefore
+the full disjoint high tail is at most twice its smooth part, target by target
+and with the same quotient weight. The only untreated low portions of this
+router are the bounded multiplicity bands `25<=P<=32` off the antipodal class
+and `25<=P<=34` on it. This removes nodal traces as an independent high-tail
+budget, but it does not estimate either low band or the smooth quotient-
+weighted moment.
+
 PROVED ACCIDENT-DEPTH COMPILER: put `rho_L(t)=(R(t)-L)_+`. Fixing one
 denominator proves `sum rho_L(t)<=(n-2)^2`. Paying `L` quotient layers and
 product excess through `E` leaves an exact positive budget whenever
@@ -402,6 +416,84 @@ complete pre-screen for `(36,1)`. At `c=2`, the screen exactly detects
 quotient-supported triple product collisions, excludes different-root scalar
 resultant false positives, and has maximum `X`-degree `8,192` at `n=8192`.
 Exact filtering must still remove genuine multiplicities `3<=P<=35`.
+
+PROVED UNORDERED-PRODUCT CUTOFF-12 COMPILER: for the separate vacuous-DSP8
+satellite, quotient support is unnecessary. The monic unordered product
+polynomial satisfies
+
+```text
+Ucal_n^2=Pcal_n Delta_n,       deg Ucal_n=n(n-1)/2,
+```
+
+derivatives, together with the inverse selector `(T-1)Y=1`, has exactly the
+odd-prime support of rows with nonidentity unordered product multiplicity at
+least `13`. Every nonidentity `P(t)>=25` row is retained. The selector removes
+the potentially large identity fiber. The only selected cutoff-boundary
+overcandidate is `U(t)=13,D(t)=2,P(t)=24`, which exact row replay removes. At
+`n=8192` this reduces degree `67,092,481` and twenty-five ordered generators
+to degree `33,550,336` and thirteen unordered generators. It is an exact
+candidate compiler, not a measured elimination algorithm or a proof that the
+candidate support is empty.
+
+PROVED NONIDENTITY P24 GCD CERTIFICATE: over one split row, let `G_12` be
+the monic gcd of `Ucal_n` and its first twelve Hasse derivatives, remove its
+complete `T=1` factor, and put `H_D=gcd(Delta_n,Delta_n^[1])`. Then
+
+```text
+max_(t!=1)P(t)<=24  iff  G_12^neq divides H_D.
+```
+
+At target `t` the two gcd valuations are exactly `(U(t)-12)_+` and
+`(D(t)-1)_+`. Divisibility therefore says that every retained nonidentity
+root has exactly `U=13,D=2,P=24`; it simultaneously rejects multiplicity 14
+and the `U=13,D<=1` boundary. This is the exact PASS certificate for the
+vacuous-DSP8 satellite. It does not construct the official polynomial or
+prove the divisibility on any row.
+
+PROVED NONIDENTITY P25 SUBRESULTANT SCALAR: there is also an exact
+sparse-input route. Put
+
+```text
+F_n(X)=((1-X)^n-1)/X,
+G_n(T,X)=X^(n-1)F_n(T/X).
+```
+
+At `T=t`, their gcd degree is exactly `P(t)`. Therefore the coefficient ideal
+of polynomial subresultants `0,...,24`, saturated by `(T-1)Y=1`, has a scalar
+annihilator whose odd-prime support is exactly the characteristics admitting
+some nonidentity `P(t)>=25`. This route has no unordered/diagonal boundary
+overcandidate and begins with two degree-`n-1` binomial polynomials. Its
+zeroth subresultant is still the degree-`(n-1)^2` global product resultant, so
+no official-scale complexity or factorization claim follows.
+
+PROVED P25 QUADRATIC DIVISOR TOWER: a nonidentity `P>=25` fiber can also be
+represented without constructing either global product polynomial. Select a
+monic degree-25 common divisor `Q`, invert `X,T,T-1`, and square the residues
+`1-X` and `(X-T)/X` through `s=log_2(n)` levels modulo `Q`. Terminal value one
+is equivalent to 25 distinct ordered product representations. With explicit
+quotient variables, the complete system has
+
+```text
+98s+30 variables,       98s+54 quadratic equations,
+```
+
+at most `4,048` by `4,072` over the official band. It is empty in
+characteristic zero. This is a bounded-degree contributor interface, not a
+claim that a four-thousand-variable Nullstellensatz calculation is feasible.
+
+PROVED P25 ORDERED-ROOT TOWER: selecting 25 explicit distinct first
+coordinates reduces the quadratic presentation further. Each coordinate has
+one inverse and two scalar squaring towers; a quadratic prefix product
+inverts all `binom(25,2)=300` pairwise differences. The exact size is
+
+```text
+50s+328 variables,       50s+352 equations,
+```
+
+at most `2,378` by `2,402`. This is equivalent to nonidentity `P>=25`, but a
+generic fiber has `25!` ordered presentations. The lower dimension is
+therefore an implementation alternative, not evidence that elimination is
+cheaper than the symmetric divisor or univariate routes.
 
 PROVED SMOOTH-TRACE SUBSTAR ROUTER: for fixed target `t` and one product
 vertex parameter `r`, a second vertex `s` is nodal only when

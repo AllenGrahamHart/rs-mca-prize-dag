@@ -128,12 +128,12 @@
   },
   {
    "id": "certified_valueset_lower",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "Certified per-prime value-set LOWER bounds at the crossing scale (the knife-edge core)"
   },
   {
    "id": "certifier_uniformity",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "The layer above the pipeline: the certifier provably succeeds for EVERY admissible p"
   },
   {
@@ -145,6 +145,11 @@
    "id": "cluster_certificates",
    "label": "PROVED",
    "title": "Cluster machinery: free cliques + one-check cluster pairing"
+  },
+  {
+   "id": "codegree",
+   "label": "PROVED",
+   "title": "L2 codegree reduction (Theorems A/B/C, L1-free)"
   },
   {
    "id": "collision_norm_criterion",
@@ -190,6 +195,11 @@
    "id": "crossing_localization",
    "label": "PROVED",
    "title": "B_C is an integer staircase: the adjacent crossing EXISTS; corridor = candidate list"
+  },
+  {
+   "id": "deep_point",
+   "label": "PROVED",
+   "title": "Deep-point identity BadVec = Deep_alpha^mu (x1)"
   },
   {
    "id": "dihedral_quotient_stratum",
@@ -738,7 +748,7 @@
   },
   {
    "id": "far_pair_separation",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "THE RESIDUE: generator-factored difference designs + per-row generator certification"
   },
   {
@@ -783,13 +793,8 @@
   },
   {
    "id": "generator_economy",
-   "label": "PROVED",
+   "label": "UNPROVED",
    "title": "THE CORE, SHARPENED: multiplicative difference-designs (few bases certify everything)"
-  },
-  {
-   "id": "generator_size_budget_check",
-   "label": "PROVED",
-   "title": "generator size budget check"
   },
   {
    "id": "graded_collision_radius",
@@ -818,7 +823,7 @@
   },
   {
    "id": "integer_code_distance_cert",
-   "label": "PROVED",
+   "label": "UNPROVED",
    "title": "THE RESIDUE: certify min ternary distance > 2l' for the explicit k x N' system"
   },
   {
@@ -838,7 +843,7 @@
   },
   {
    "id": "knife_edge_census",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "The genuine residue: census + exact handling of knife-edge rows"
   },
   {
@@ -868,7 +873,7 @@
   },
   {
    "id": "lattice_cone_certificate",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "The certificate form: cone-restricted dual bounds exclude sparse ternary kernel vectors per row"
   },
   {
@@ -902,14 +907,19 @@
    "title": "Arbitrary-arity list closure from the base crossing"
   },
   {
-   "id": "list_planted_arithmetic",
+   "id": "list_safe",
    "label": "CONDITIONAL",
-   "title": "Exact planted-count formulas + the Diophantine window vs eps*|F| (list dodge/census)"
+   "title": "List safe side above the window"
   },
   {
    "id": "list_subsqrt_interleaving_collapse",
    "label": "PROVED",
    "title": "Sub-square-root interleaving collapse"
+  },
+  {
+   "id": "list_unsafe",
+   "label": "PROVED",
+   "title": "List unsafe at gate: qcore counting (conventions pending)"
   },
   {
    "id": "mca_grand",
@@ -1057,6 +1067,11 @@
    "title": ""
   },
   {
+   "id": "qcore",
+   "label": "PROVED",
+   "title": "thm:qcore: C(n/M-1, k/M) codewords, q-independent"
+  },
+  {
    "id": "qfloor_exact",
    "label": "PROVED",
    "title": "prop:qfloor: quotient floor exact above norm threshold"
@@ -1163,7 +1178,7 @@
   },
   {
    "id": "u2_per_row_certifier",
-   "label": "PROVED",
+   "label": "UNPROVED",
    "title": "U2-B: the per-row moment certificates (small-t rows)"
   },
   {
@@ -1175,11 +1190,6 @@
    "id": "unsafe_at_crossing",
    "label": "PROVED",
    "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)"
-  },
-  {
-   "id": "v13_base_field_normalization_guard",
-   "label": "PROVED",
-   "title": "v13 base-field normalization guard (ledger law)"
   },
   {
    "id": "v13_capf_planted_lower_count",
@@ -1205,31 +1215,6 @@
    "id": "wild_row_audit",
    "label": "PROVED",
    "title": "QA.23: the Mersenne wild rows \u2014 Dickson taxonomy + window arithmetic"
-  },
-  {
-   "id": "worst_word_challenger_pricing",
-   "label": "CONDITIONAL",
-   "title": "FLOOR CONJECTURE (ROWWISE-ENVELOPE): non-planted low-slack contributions obey the certified K_cell/q^sigma envelope at official rows"
-  },
-  {
-   "id": "worst_word_planted",
-   "label": "CONDITIONAL",
-   "title": "LEAP: at the crossing radii the extremal words are the planted sunflower family"
-  },
-  {
-   "id": "ww_lemma_a_exhaustion",
-   "label": "PROVED",
-   "title": ""
-  },
-  {
-   "id": "ww_lower_witnesses",
-   "label": "PROVED",
-   "title": ""
-  },
-  {
-   "id": "ww_row_envelope_clause",
-   "label": "UNPROVED",
-   "title": ""
   },
   {
    "id": "x24_char0_dyadic_descent",
@@ -1269,7 +1254,7 @@
   {
    "id": "xr_lowcore_spread_heart",
    "label": "UNPROVED",
-   "title": ""
+   "title": "XR support-local low-core spread heart"
   },
   {
    "id": "xr_pencil_cascade",
@@ -1303,8 +1288,8 @@
   },
   {
    "id": "xr_tangent_support_mismatch_bridge",
-   "label": "UNPROVED",
-   "title": "XR official-row tangent/support-mismatch bridge"
+   "label": "PROVED",
+   "title": "XR support-wise tangent/mismatch scope bridge"
   },
   {
    "id": "xr_target_budget_audit",
@@ -1450,6 +1435,26 @@
   {
    "from": "gap2_seam",
    "to": "strip"
+  },
+  {
+   "from": "qcore",
+   "to": "list_unsafe"
+  },
+  {
+   "from": "s0_zero_open",
+   "to": "list_unsafe"
+  },
+  {
+   "from": "imgfib",
+   "to": "list_safe"
+  },
+  {
+   "from": "codegree",
+   "to": "list_safe"
+  },
+  {
+   "from": "deep_point",
+   "to": "codegree"
   },
   {
    "from": "petal_growth",
@@ -1664,12 +1669,12 @@
    "to": "list_adjacency_closing"
   },
   {
-   "from": "list_planted_arithmetic",
+   "from": "list_safe",
    "to": "list_adjacency_closing"
   },
   {
-   "from": "imgfib",
-   "to": "worst_word_planted"
+   "from": "list_unsafe",
+   "to": "list_adjacency_closing"
   },
   {
    "from": "f_dim2_skeleton",
@@ -1742,10 +1747,6 @@
   {
    "from": "generator_economy",
    "to": "far_pair_separation"
-  },
-  {
-   "from": "cluster_certificates",
-   "to": "generator_economy"
   },
   {
    "from": "f_sparse_descent_step",
@@ -1896,10 +1897,6 @@
    "to": "adjacency_closing"
   },
   {
-   "from": "worst_word_challenger_pricing",
-   "to": "worst_word_planted"
-  },
-  {
    "from": "axis8_generating",
    "to": "corridor_ext_crossing"
   },
@@ -1972,18 +1969,6 @@
    "to": "gap1_product_model"
   },
   {
-   "from": "worst_word_planted",
-   "to": "list_planted_arithmetic"
-  },
-  {
-   "from": "worst_word_challenger_pricing",
-   "to": "list_planted_arithmetic"
-  },
-  {
-   "from": "imgfib",
-   "to": "list_planted_arithmetic"
-  },
-  {
    "from": "tr_joint_telescope",
    "to": "tr_perleaf_list_ident"
   },
@@ -1994,10 +1979,6 @@
   {
    "from": "ext_import",
    "to": "f1_pole_list_threshold_location"
-  },
-  {
-   "from": "generator_size_budget_check",
-   "to": "generator_economy"
   },
   {
    "from": "hankel_sparse_atoms_as_rational_defects",
@@ -2344,10 +2325,6 @@
    "to": "u1_x4_direct_column_budget"
   },
   {
-   "from": "v13_base_field_normalization_guard",
-   "to": "worst_word_challenger_pricing"
-  },
-  {
    "from": "f5_lineray_saturation_instrument",
    "to": "xr_smallcore_spread_count"
   },
@@ -2358,10 +2335,6 @@
   {
    "from": "floor_budget_slack_scan",
    "to": "xr_smallcore_spread_count"
-  },
-  {
-   "from": "floor_budget_slack_scan",
-   "to": "worst_word_challenger_pricing"
   },
   {
    "from": "f2_growing_order_myerson",
@@ -2394,22 +2367,6 @@
   {
    "from": "b1_char0_giant_coset_theorem",
    "to": "f2_conditional_close"
-  },
-  {
-   "from": "ww_row_envelope_clause",
-   "to": "worst_word_challenger_pricing"
-  },
-  {
-   "from": "ww_lower_witnesses",
-   "to": "worst_word_challenger_pricing"
-  },
-  {
-   "from": "ww_lemma_a_exhaustion",
-   "to": "worst_word_challenger_pricing"
-  },
-  {
-   "from": "xr_target_budget_audit",
-   "to": "worst_word_challenger_pricing"
   },
   {
    "from": "petal_g1_layer_maps",
@@ -2640,8 +2597,16 @@
    "to": "dli_wcl_zone_coverage"
   },
   {
+   "from": "xr_strip_classification_rungs",
+   "to": "xr_tangent_support_mismatch_bridge"
+  },
+  {
    "from": "xr_tangent_support_mismatch_bridge",
-   "to": "xr_clean_residual_any_gate"
+   "to": "xr_smallcore_spread_count"
+  },
+  {
+   "from": "xr_true_tangent_coordinate_injection",
+   "to": "xr_tangent_support_mismatch_bridge"
   },
   {
    "from": "xr_true_tangent_coordinate_injection",

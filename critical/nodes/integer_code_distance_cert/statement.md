@@ -1,12 +1,16 @@
 # integer_code_distance_cert
 
-- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: TARGET]
-- **closure:** proof
+- **status:** TARGET
+- **closure:** open row certificate
 - **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#3']
 
 ## Statement
 
-Certify that the fixed k x N' integer matrix (from the row's chosen multipliers) has no ternary kernel vector of weight <= 2l' beyond the cyclotomic relations. A small, explicit, per-row object. Candidate certifiers: Delsarte-LP bounds instantiated on the specific system; structured multiplier DESIGN making distance provable by construction; weight-split enumeration hybrids (MITM below w_0, LP/structure above).
+For each adopted knife-edge exhibit row, bank its explicit integer matrix,
+the allowed cyclotomic-relation basis, and a machine-checkable certificate
+that no ternary kernel vector of weight at most `2l'` remains. Exact finite
+search proves procedure totality but does not itself supply this consumed
+row result. The C-4 toy anchor is a format exemplar only.
 
 ## Attack surface
 

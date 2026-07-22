@@ -24,14 +24,19 @@
 6. The cyclic multiplier is nonzero on the multiplicative domain. It neither
    creates nor deletes roots; the fixed tail is disjoint because its quotient
    fiber was excluded.
-7. The exact unsafe comparison is `2^128 C(N-1,m)>N q^d`. At the artificial
-   endpoint `q=2^256` it has `75.0796...` bits of margin. The former `q^d`
-   pigeonhole denominator still fails there, so the new coset saving is
-   load-bearing.
+7. The optimized instance has `N=256,d=1,m=129`, so its exact lower bound is
+   the field-independent integer `ceil(C(255,129)/256)>2^238`. At the
+   artificial endpoint `q=2^256`, the equivalent cap comparison has
+   `114.6503...` bits of margin. The earlier `N=2^19,d=2048` instance and its
+   `75.0796...`-bit margin remain valid historical controls.
 8. Diagonal repetition creates distinct interleaved tuples with the same
    common support and does not change the threshold denominator. No claim is
    made about MCA slopes.
+9. With `a=k+2^34-1`, the exact inequality `a^2<n(k-1)` places the closed-ball
+   radius strictly beyond the Reed--Solomon Johnson radius. This is a list
+   lower construction, not a safe-side decoding bound.
 
 The independent audit verifier enumerates the abstract support map over every
 small even `N<=64`, separately enumerates quotient-coset constant terms, and
-recomputes both the successful new and failed old cap inequalities.
+recomputes the historical and optimized cap inequalities, exact Johnson gate,
+and 74 maximal-prefix extremality checks.

@@ -155,7 +155,8 @@ cap, the choices of `B_D` and all CRT numerators cost only a polynomial
 factor. Thus the fixed-chart common-pencil locator frontier narrows again to
 the actual full-fiber quotient-core census or to defect locators whose
 partial-fiber boundary escapes every fixed cap. This is not exact-periodic
-ownership and does not settle first-match overlap across source charts.
+ownership and does not settle contributor-dependent internal quotient
+recharts.
 
 At the L1 cutoff, `l1_quotient_chart_bounded_core_boundary_closure` also
 counts the full-fiber census directly. A source chart has only `O(log n)`
@@ -165,7 +166,7 @@ every fixed `(p,beta)` box is polynomial per source chart. The strict Forney
 window uses the `q^(2p)` CRT bound; on its thin complement,
 `l1_marked_common_pencil_next_strip_boundary_fiber_bound` forces at least
 `m+1` dense petals and gives `q^p`. The common-pencil frontier is therefore
-reduced to unbounded partial-core-fiber boundary and cross-chart aggregation.
+reduced to unbounded partial-core-fiber boundary and internal rechart payment.
 
 The one-sided boundary condition sharpens to symmetric core polarity. On
 each complete core fiber `T_a`, put
@@ -179,8 +180,8 @@ full/empty orientation bit per core fiber plus exactly `p_core` exceptional
 points. Since petal and core fibers together number `O(log n)`, every fixed
 `(p,p_core)` box is polynomial per source chart throughout every strip. Thus
 the bounded-`p` quotient-chart common-pencil residue has unbounded symmetric
-core polarity, not merely a large one-sided boundary, unless it arises from
-cross-chart aggregation.
+core polarity, not merely a large one-sided boundary, unless it requires a
+contributor-dependent internal rechart.
 
 That growing parameter now has an exact signed-quotient normal form. If
 `A_+` is the set of dense core fibers, `H` their holes, and `S` the occupied
@@ -219,6 +220,110 @@ Thus a super-polynomial mixed/partial family cannot merely escape one of the
 two ledgers. For every fixed box it must escape both polarized root pinning
 and the B11 anchor gates, while retaining the source-coupled rich fiber. Since
 `p<=u`, this is strictly sharper than the former `u+e` residual.
+
+For every exact support pattern in this residual, the proved
+`l1_maximal_background_anchor_injection` additionally gives the joint cap
+
+```text
+q^max(0,d-max(r,a_*)+1).
+```
+
+Hence any aggregate survivor must have enough support-pattern entropy or
+internal rechart payment to beat the better of the largest-petal and
+background-anchor dimensions. This fixed-cell charge does not alter `(I3)`
+or `(I4)` and does not itself sum the residual.
+
+The proved `l1_general_first_layout_domination` removes one aggregation axis
+entirely. For any source-admissible residual, fix its first maximal source
+layout; every listed non-anchor is carried there, while every possible later
+source-layout contribution lies among the first layout's `M=O(log n)`
+anchors. Thus all per-source payments in this pin need be applied only to that
+one layout. Contributor-dependent quotient/Forney recharts inside it remain
+outside this theorem.
+
+The quotient-polynomial part of that internal supply is now paid whenever a
+genuine degree-`ell` rechart carries one whole source petal.
+`l1_fixed_source_quotient_partition_anchor_census` proves that such a petal
+determines the monic quotient polynomial up to additive shift. Least-petal
+ownership gives at most `M` partition classes, and even assigning every
+complete quotient fiber a core/petal/background role gives at most
+
+```text
+M 3^(n/ell)=poly(n)
+```
+
+keys at the L1 cutoff. Composed with the bipolar fixed-chart payment, every
+fixed petal/core-polarity box is polynomial across all anchored
+non-intrinsic quotient partitions in the first source. The remaining
+internal-rechart issue is narrower: contributor-dependent Forney coefficient
+keys, smaller-fiber refinements whose union is a source petal or a theorem
+supplying a whole-petal anchor, growing polarity, and arbitrary-locator cells.
+Dense support alone does not supply the anchor.
+
+The anchored fixed-polarity branch is now fully paid, including partial
+source cores and numerator/Forney multiplicity.
+`l1_fixed_source_anchored_triple_polarity_closure` charges points outside the
+complete quotient fibers in layout and defect polarity, then uses four
+orientation vectors and the whole-strip CRT bounds to obtain
+
+```text
+M (R_0+1)(B_0+1)(P_0+1)
+  16^(n/ell) n^(R_0+B_0+P_0) q^(2P_0)=poly(n).
+```
+
+Consequently there is no independent fixed-polarity Forney-key residual. A
+local counterfamily must instead have growing layout, core-defect, or petal
+polarity; use an unanchored or smaller-fiber quotient map; or leave the common-
+pencil/arbitrary-petal-locator scope.
+
+The smaller-fiber map-supply axis is now paid whenever it is both fixed-petal
+and tame. `l1_tame_fixed_petal_refinement_census` proves that for every
+`s|ell` with `char(F)` not dividing `ell/s`, a whole source petal determines
+at most one degree-`s` partition up to additive shift. Across the fixed source
+there are at most `M tau(ell)<=n` such maps. This does not pay the potentially
+exponential `3^(n/s)` role vectors when `s` is small. The residual is therefore
+small-scale collective payment on known tame maps, plus wild, unanchored,
+growing-polarity, and arbitrary-locator cells.
+
+This collective payment cannot be replaced formally by the existing
+exact-periodic owner. `l1_tame_refinement_periodic_owner_obstruction` gives a
+tame affine-quadratic fixed-petal refinement whose exact agreement support has
+trivial multiplicative stabilizer. A valid owner must therefore recognize
+general polynomial pullbacks, not only intrinsic cyclic quotient scales.
+
+`l1_general_pullback_interleaving_descent` gives that broader interface for
+fully agreed complete fibers. It replaces a degree-`s` pullback by an
+`s`-component quotient receiver and charges the exact sparse-coverage kernel
+`q^kappa`. When the complete fibers partition the domain, `kappa=0`, so the
+raw `3^(n/s)` role count is replaced by one ordinary quotient-list problem
+after interleaving collapse. The intersection pin still does not bound that
+ordinary list on an arbitrary realized label domain or pay partial fibers.
+
+The positive Johnson part of that ordinary-list problem is now closed by
+`l1_full_pullback_divisibility_johnson_closure`. Dyadic divisibility excludes
+the exact source shell from every nontrivial fully fiberwise class. At
+`h_0^2>bd`, a domain-independent pairwise-intersection bound pays at most
+`b^2` per map and `n^3` across all tame maps. Thus only the nonpositive
+Johnson gate survives among full-partition fully fiberwise tame pullbacks.
+
+`l1_full_domain_pullback_intrinsic_rigidity` subsequently removes that last
+gate: the composition identity with `X^n-beta` forces every full-domain monic
+pullback to be `X^s+c`. Fully fiberwise supports are therefore intrinsic and
+exact-periodic at every gate. The live general-pullback intersection now
+starts only at incomplete domain coverage or partial-fiber agreement.
+
+The strict-Johnson portion of that intersection is paid by
+`l1_partial_pullback_johnson_router`. Its exact currencies are partial
+agreement loss `z` and sparse-coverage kernel `kappa`; under `z<=Z`,
+`h_Z^2>bd`, fixed `kappa`, and the tame whole-petal anchor, the complete map
+aggregate is polynomial. Only the nonpositive gate or an escaping kernel/map
+axis remains in this pullback subbranch.
+
+The kernel axis is now absorbed by partial loss.
+`l1_pullback_coverage_kernel_tradeoff` proves
+`kappa=max(0,k-sb)<=max(0,z-ell+1)`. Hence bounded loss excess automatically
+gives the bounded kernel required above. The surviving pullback intersection
+is the nonpositive gate, growing loss excess, or wild/unanchored map supply.
 
 ## Scope
 

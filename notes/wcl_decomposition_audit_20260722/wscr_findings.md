@@ -355,10 +355,15 @@ exclusion — the samples cover 1.8e-4 of the (1,5) core down to 1e-8 of
 ## Deliverables
 
 - wscr_screens.py — all machinery + subcommands (selfcheck, pilots,
-  screens, merge, declump); every run under ramguard local.
+  screens, merge, declump); every run under ramguard local. The imported
+  canonical packet omitted its `wsz_weight5` helper; the vendored
+  `wsz_weight5.py` restores the exact norm and probable-prime contracts, and
+  the full selfcheck passes in this worktree.
 - wscr_screen_15core.json, wscr_screen_27router.json (+ 6 shard files),
   wscr_screen_16.json, wscr_screen_17.json — sample spec, seeds, per-item
   outcomes (factors, unresolved, verdicts), timings, max v_2.
-- wscr_declump.json — post-hoc clump resolution; wscr_power_tally.py.
+- wscr_declump.json — post-hoc clump resolution. The original shard files and
+  `wscr_power_tally.py` named by the canonical report were not committed;
+  the merged JSON files retain all per-row records but are not a substitute
+  for those missing provenance artifacts.
 - This file.
-

@@ -135,7 +135,8 @@ bound must include the exact pairs-to-records and anchoring convention.
 
 The proved cyclotomic-norm quarter-width theorem supersedes the earlier
 `floor(2m/7)` cap. Any exact-level generator, certificate family, or aggregate
-argument must stop at
+argument must first reject `m<=64`, which is now paid at zero cost, and must
+stop every remaining level at
 
 ```text
 h=m/4-1.

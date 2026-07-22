@@ -1,5 +1,15 @@
 # Attack surface
 
+## Scope guard
+
+The target has two clauses. The existing high-core machinery below attacks
+P-A1 on globally generic pairs. A global joint explanation on a different
+support routes through the proved mismatch scope bridge to P-A2; it must not
+be discarded as tangent-paid. P-A2 asks for one combined `16n^3` bound on all
+retained mismatches, so do not impose separate `8n^3` high/low bounds there.
+
+## P-A1 route
+
 The proved strip rungs force every post-strip cross-slope core to have size at
 most `k`; therefore a high-core collision has core exactly `k`. In error-set
 notation, with
@@ -171,3 +181,32 @@ instead of multiplying per-row binomial counts. The next theorem must bound
 the number of coefficient-compatible support/packing records and assign each
 record to its first Maxwell core; deriving the same pairwise block cap again
 would not advance the frontier.
+
+## P-A2 route
+
+Start after genuine recovered-line tangent injection and full-external-zero
+canonicalization. Apply the support-local LineRay charge before splitting
+charts; this removes selector ranks through `3,3,3,3,3,3` and additionally
+rank four at RowC rate `1/4`. Any continuation that enumerates those ranks is
+recomputing a proved inequality.
+
+For a canonical chart, separate the generic chart union from the nongeneric
+joint-support fiber. In the latter branch use invariant-excess descent, but
+charge by the pathwise dimension-area law and first-match slopes across the
+whole tree. Multiplying a per-level estimate by the depth caps is not an
+acceptable closure. Terminal and fixed-logarithmic windows are already
+polynomially bounded by the Plotkin-width theorem, so the new theorem must
+address pre-terminal breadth.
+
+The precise next result is an aggregate ownership lemma with two outputs:
+
+1. a bound for the higher-rank generic full-zero chart union; and
+2. an amortized slope-to-joint-explanation fiber bound for the pre-terminal
+   nongeneric descent.
+
+Their sum must fit one combined `16n^3` reserve after the tangent slot has
+already been stripped. The support-only exponential-width theorem rules
+out proving this from the `K-1` intersection condition alone; retain RS
+polynomial realization or a canonical slope owner. Do not authorize a large
+search until this lemma has a finite compiler and an independent streaming
+checker.

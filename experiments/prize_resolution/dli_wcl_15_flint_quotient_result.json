@@ -1,0 +1,63 @@
+{
+  "schema": "dli-wcl-15-flint-quotient-result-v1",
+  "status": "COMPLETE",
+  "program_sha256": "ea8a9a5a6cba73d1f3bab55a222602ab642349adf67acebd163d9af3a0625b5e",
+  "modulus": 32003,
+  "python_flint_version": "0.9.0",
+  "flint_version": "3.6.0",
+  "variables": [
+    "c0",
+    "c1",
+    "b"
+  ],
+  "monomial_order": "degrevlex",
+  "prefix_total_terms": [
+    1,
+    1,
+    32,
+    240,
+    1881,
+    14831,
+    117644,
+    936748
+  ],
+  "stage7": {
+    "exponent": 128,
+    "coefficient_term_counts": [
+      22495,
+      24581,
+      24113,
+      23422,
+      23033
+    ],
+    "content_sha256": [
+      "1b871c516b7a32a94589d27101079308ed4746987197e1b87055a20c6ff664c2",
+      "2b1f0d6f564d823bc6c090b783eca73880d9f89684edb8e45f7c5e443a774260",
+      "711831dfff6b79f3d6b87b52a106f87c38a2a9cbfbe52333e81d0e934837fe29",
+      "69748681d05216a3dd1a048ee8f30ac391ae450294248d64ba5cea4392a2de44",
+      "0d8ff9b20d519b470841a48a0b9c242b33539598848cc9bd58c03a5cea837256"
+    ]
+  },
+  "stage8": {
+    "exponent": 256,
+    "coefficient_term_counts": [
+      183162,
+      191699,
+      189670,
+      186887,
+      185330
+    ],
+    "total_terms": 936748,
+    "squaring_seconds": 3.7290703449980356,
+    "content_sha256": [
+      "735baaf4c765bff2da760560913dcbd11fcc51ea63c6a2bec7f44012d07f5c06",
+      "43ebc8299aae2b3341bfbd80d2b64a07e652e73b128f1ab7d116eac85710f737",
+      "c79d7ba146912df590481d1e3499e16103cb9b83edeec418c950f7c3c95caa9c",
+      "3e49b3a1355076a893c0283316fdea45feda7309b995307a0d32614d703ec856",
+      "0bd441cbfeeb88815458883143021c2ce8b6ed0b767951959e7af5974aeb7e03"
+    ]
+  },
+  "resume_stage7_replay_matches": true,
+  "artifact_policy": "vendor the generator and this manifest, not the gzip TSV coefficient dumps",
+  "nonclaim": "no Groebner basis, unit-ideal certificate, or WCL emptiness conclusion"
+}

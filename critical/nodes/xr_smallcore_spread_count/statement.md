@@ -6,11 +6,13 @@
 
 ## Statement (consumer-exact form; supersedes the stale generic-poly wording)
 
-For every generic-branch pair (u,v) at each of the six clean-rate candidates:
-the post-strip live bad-slope count satisfies R_post(u,v;A) <= 16 n^3 — the
-exact form `xr_clean_residual_any_gate` consumes (sufficiency is exact integer
-arithmetic at all six candidates; prize rows tight at 29n^3, slack to the
-16-reserve log2(29/16) = 0.858 bits).
+For every received pair `(u,v)` at each of the six clean-rate candidates, use
+the support-wise first-match scope supplied by the proved
+`xr_tangent_support_mismatch_bridge`. The post-strip live bad-slope count
+satisfies `R_post(u,v;A)<=16n^3` — the exact form
+`xr_clean_residual_any_gate` consumes (sufficiency is exact integer arithmetic
+at all six candidates; prize rows tight at `29n^3`, slack to the 16-reserve
+`log2(29/16)=0.858` bits).
 
 DRIFT CORRECTION (2026-07-10 audit, catch #43): this file previously stated
 the floor as generic "<= poly(n)" — under-specified against the consumer (a
@@ -21,9 +23,12 @@ slack above n^3" (corrected: 2^92.000 at RowC, 2^4.9 at prize).
 
 ## Route of record (amber, 2026-07-10)
 
-IF `xr_highcore_collision_count` (P-A: high-core stratum <= 8n^3) AND
-`xr_lowcore_spread_heart` (P-B: low-core stratum <= 8n^3) THEN the floor,
-with 8 + 8 = 16 exact. Non-predicate links carried by
+IF `xr_highcore_collision_count` supplies generic high-core P-A1 `<=8n^3`
+and nongeneric combined mismatch P-A2 `<=16n^3`, AND
+`xr_lowcore_spread_heart` supplies generic low-core P-B `<=8n^3`, THEN the
+floor for every pair. The generic route costs `8+8=16`; the nongeneric route
+uses P-A2's one combined reserve. The mismatch bridge proves this exhaustive
+case split. Non-predicate links carried by
 `xr_strip_classification_rungs` (strips, rung-2a/2b forcing, consumption
 arithmetic — three independent implementations) plus the definitional pins
 P1-P6 in the dag statement. Full chain + audit record: dag.json node entry;

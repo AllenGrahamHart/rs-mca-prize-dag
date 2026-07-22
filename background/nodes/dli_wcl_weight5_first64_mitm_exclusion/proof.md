@@ -22,8 +22,12 @@ pair. Every legal five-set has a legal two/three split. The compiler stores
 every pair by its field sum, enumerates every triple, and looks up the
 negative triple sum. It then rejects pair/triple collisions that repeat an
 exponent or introduce an antipodal pair. Hence a zero relation exists if and
-only if the compiler reports one. All 64 exact searches report none, so in
-particular no primitive relation exists.
+only if the compiler reports one. The hash-pinned banked artifact records
+complete pair and triple coverage and no relation on all 64 rows, so in
+particular no primitive relation exists. The full search remains independently
+executable through the registered remote launcher; the local batch checker
+validates the artifact and its complete row/certificate ledger without
+rerunning the roughly 1.4 billion triple checks.
 
 The row-selection certificate is also complete. It gives one record for each
 integer `1<=k<=996`. A composite record carries a proper divisor of
@@ -46,3 +50,11 @@ vanishing proper subsums; on these rows that loses nothing because
 weight 1-4 relations are excluded by the exact-order argument and the
 weight-3/4 ambient censuses, whose scope (v_2(q-1) >= 41, q < 2^256)
 covers all 64 rows.]
+
+[KB #107 harness repair: the former local verifier recompiled and replayed
+all 64 MITM searches, causing recurrent batch timeouts under constrained
+workers. The mathematical search and banked artifact are unchanged. The
+local verifier now follows the accepted remote no-hit certificate policy:
+fail-closed schema, coverage, Pocklington, primitive-generator, source,
+launcher, result-hash, and mutation checks locally; exhaustive regeneration
+only through the manifest-registered Modal launcher.]

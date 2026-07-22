@@ -1,87 +1,62 @@
-# XR tangent/support-mismatch bridge
+# XR support-wise tangent/mismatch scope bridge
 
-- **status:** TARGET
+- **status:** PROVED
 - **scope:** the six `(RowC, prize) x (1/4,1/8,1/16)` candidates
+- **consumer:** `xr_smallcore_spread_count`
 
-## Statement
+Fix a received pair and the existing quotient-first convention. There is an
+exhaustive dichotomy.
 
-For every received pair `(u,v)` at an official clean-rate candidate, the XR
-first-match decomposition is support-wise sound. After the proved quotient
-column is removed, its support-wise MCA-bad slopes admit a disjoint split
-into:
+## Generic branch
 
-1. a genuine tangent column containing at most `n-A` slopes; and
-2. a retained residual.
-
-The first item is now proved by `xr_true_tangent_coordinate_injection`:
-when the explaining codeword is exactly `c_0+z c_1`, each bad slope injects
-into a discrepancy coordinate. No deep hypothesis is needed for this branch.
-
-Every support-mismatch slope must be retained unless its actual witness is
-paid by that injection. This includes slopes that remain MCA-bad even
-though the pair has a joint codeword-pair explanation on another support,
-and slopes diverted by a graded common-core classification without a proved
-support-wise payment.
-
-Every remaining witness has a nonzero difference codeword
-`q_z=p_z-(c_0+z c_1)`. The proved
-`xr_tangent_mismatch_external_zero_factor_reduction` factors the witness
-zeros outside the discrepancy set and places it in a punctured GRS chart of
-dimension `K-d`, agreement `A-d`, and invariant excess `A-K`. The open
-content no longer includes witness-subset spray:
-`xr_tangent_mismatch_full_external_zero_canonicalization` uses all external
-zeros of the selected difference codeword and gives one chart per selected
-slope/codeword pair.
-
-On a generic fixed chart, `xr_generic_mds_kernel_ray_bound` applies. The
-proved `xr_mismatch_chart_nongeneric_joint_support_equivalence` identifies
-failure of that genericity exactly with a distinct joint codeword-pair
-explanation on an `A`-support extending the chart zero core. Supports for
-distinct joint explanations intersect in at most `K-1` coordinates. The
-proved `xr_mismatch_nongeneric_invariant_excess_descent` shows that following
-such an explanation preserves `h=A-K`, reduces ambient length by at least
-`h+1`, and terminates in fewer than `256/512` transitions at every clean
-candidate.
-
-The terminal breadth is now paid. At any live instance put `H=h+1`. Distinct
-joint explanations have canonical `A`-supports of size `A=K+h`, pairwise
-intersection at most `K-1=A-H`, and hence Hamming distance at least `2H`.
-The proved `xr_nongeneric_explanation_plotkin_width` gives at most `2N`
-explanations when `N<=4H` and polynomially many throughout every window
+If no codeword pair jointly explains `(u,v)` on an `A`-support, select one
+exact-`A` support-wise bad ray per live slope. The proved strip/classification
+rung leaves selected agreement supports with pairwise intersections at most
+`K`. They split disjointly into
 
 ```text
-N-4H<=C log_2 n.
+Gamma_hi={z: some z'!=z has |S_z intersect S_z'|=K},
+Gamma_lo=Gamma\Gamma_hi.
 ```
 
-Once a canonical descent enters `N<=4H`, its whole live nongeneric subtree
-has at most `1+104H` instances, and all genuine-tangent charges in that
-subtree cost at most `420H^2<16n^3` at every official candidate. Thus
-terminal explanation-support breadth is no longer open. Generic canonical
-chart slopes and pre-terminal slope-to-explanation fibers remain open.
+Thus `Gamma_hi` is P-A1 and every member of `Gamma_lo` intersects every other
+selected support in at most `K-1`, which is P-B. Assuming the two printed
+`8n^3` bounds gives `16n^3` for this branch.
 
-The same conclusion holds polynomially for a whole fixed logarithmic window.
-If `N-4H<=C log_2 n` and `H>=2C log_2 n`, the live nongeneric subtree has at
-most `1+200n^(C+1)` instances and at most `201n^(C+2)` genuine-tangent
-charges. Thus pre-terminal means outside every such fixed logarithmic window,
-not merely above the equality boundary.
+## Nongeneric branch
 
-The remaining red therefore has two exact bounded-depth currencies:
-
-1. distinct slopes across the union of generic canonical charts; and
-2. slopes per joint explanation before the paid terminal window, aggregated
-   over this low-core support family.
-
-For a pair outside the original generic scope of
-`xr_highcore_collision_count` and `xr_lowcore_spread_heart`, the retained
-residual has size at most `16n^3`. For a generic pair, the bridge preserves
-the high/low-core first-match partition without increasing either `8n^3`
-allocation. Consequently the bridge and `xr_smallcore_spread_count` together
-give, for every pair,
+If a joint explanation `(c_0,c_1)` exists, write
 
 ```text
-#bad slopes <= B_quot_ub(A) + (n-A) + 16n^3.
+u=c_0+e_0,       v=c_1+e_1,
+q_z=p_z-(c_0+z c_1)
 ```
 
-This statement is an official-row theorem target. It is not supplied by the
-deep tangent theorem, whose hypothesis `3(n-A)<=n-K` fails at all six
-candidates.
+for each selected bad ray. The branch `q_z=0` is genuinely tangent to the
+recovered codeword line and is paid by
+`xr_true_tangent_coordinate_injection`. Every `q_z!=0` support mismatch
+remains live. Global joint proximity on another support is not a payment.
+
+For each retained slope, select one exact-`A` witness/codeword by a fixed
+first-match order and put
+
+```text
+E_z=supp(u+zv-p_z),       S_z=D\E_z.
+```
+
+Support-wise nontriviality on `S_z` is equivalent to
+
+```text
+{Hu,Hv} is not contained in H(F^E_z).
+```
+
+The full retained mismatch population routes to P-A2, whose obligation is
+one combined `16n^3` bound. No separate `8n^3` high/low allocation is imposed
+on this branch.
+
+Therefore P-A1, P-A2, and P-B imply the exact post-strip `16n^3` bound for
+every received pair. This bridge proves the dichotomy, support-wise tangent
+ownership, and routing only; it proves none of those numerical clauses.
+
+The canonical full-external-zero descent remains the principal alternative
+attack on P-A2. Its depth, terminal breadth, and low-rank parts are proved.

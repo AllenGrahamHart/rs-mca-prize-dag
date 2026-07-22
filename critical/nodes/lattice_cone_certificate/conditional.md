@@ -1,6 +1,6 @@
 # lattice_cone_certificate conditional proof
 
-- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: CONDITIONAL]
+- **status:** CONDITIONAL
 - **closure:** proof from predicate nodes
 
 ## Predicate nodes

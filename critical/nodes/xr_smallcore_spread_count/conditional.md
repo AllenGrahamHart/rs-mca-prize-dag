@@ -1,16 +1,20 @@
 # xr_smallcore_spread_count — CONDITIONAL packet (amber surgery 2026-07-10)
 
 - **status:** CONDITIONAL (amber)
-- **route of record:** generic-branch scoping -> strips + rung-2a/2b forcing
-  (pairwise cores <= k) -> exhaustive high/low-core dichotomy ->
-  {P-A: `xr_highcore_collision_count` <= 8n^3 | P-B: `xr_lowcore_spread_heart`
-  <= 8n^3} -> 8 + 8 = 16 exact -> R_post <= 16n^3 (consumer-exact).
+- **route of record:** support-wise first-match scope bridge -> {globally
+  generic: strips + exhaustive high/low-core dichotomy -> P-A1 <= 8n^3 plus
+  P-B <= 8n^3; globally nongeneric: genuine tangent removal -> P-A2 combined
+  mismatch <= 16n^3} -> R_post <= 16n^3 (consumer-exact).
 - **audit:** fresh-context amber audit 2026-07-10, verdict AMBER-READY on the
   two-predicate stratum route (the K2-reduction route stays refused per
   WP2_FACE3_VERDICT.md — different question; both answers stand). The
   WP2-named blocker (M6 symbolic-constants composition) was done exactly:
   no proved stratum consumes budget inside R_post at the candidates, so the
   full 16 splits 8 + 8 with zero hidden constants.
+- **scope correction:** P-A1/P-B retain their original globally generic
+  scopes. The former standalone mismatch numerical target is merged verbatim
+  into P-A2; no stronger separate `8n^3` demands are imposed on its high/low
+  substrata.
 - **verification record:** shipped verifiers replayed
   (clean_poly_forcing 52/52, budget_audit 50/50, rungs_2a_2b 39/39, qa22
   staircase 27/27, eliminant fleet exit-0) + two from-scratch implementations

@@ -13,8 +13,18 @@ PROVABLE (matches the validator's inheritance rule, so it stays green).
 """
 import json, os
 HERE = os.path.dirname(os.path.abspath(__file__))
-DAG = os.path.join(HERE, "..", "dag.json")
+ROOT = os.path.join(HERE, "..")
+DAG = os.path.join(ROOT, "dag.json")
 GREEN = {"PROVED", "PROVABLE"}
+
+def node_folder(node_id, root=ROOT):
+    """Return the partitioned node folder, retaining the legacy fallback."""
+    candidates = (
+        os.path.join(root, "critical", "nodes", node_id),
+        os.path.join(root, "background", "nodes", node_id),
+    )
+    return next((folder for folder in candidates if os.path.isdir(folder)),
+                os.path.join(root, "nodes", node_id))
 
 def main():
     d = json.load(open(DAG))
@@ -28,7 +38,7 @@ def main():
     for v, n in nodes.items():
         if n["status"] not in GREEN:
             continue
-        art = os.path.join(HERE, "..", "nodes", v,
+        art = os.path.join(node_folder(v),
                            "proof.md" if n["status"] == "PROVED" else "sketch.md")
         if not (os.path.exists(art) and "(auto-discharged)" in open(art).read()):
             continue
@@ -57,8 +67,7 @@ def main():
             n["status"] = new
             flipped.append((v, new))
             changed = True
-            # w10-C3 fix: the legacy nodes/ path never exists (partition law) -> artifacts were silently skipped and flips traceless
-            folder = next((f for f in (os.path.join(HERE, "..", "critical", "nodes", v), os.path.join(HERE, "..", "background", "nodes", v)) if os.path.isdir(f)), os.path.join(HERE, "..", "nodes", v))
+            folder = node_folder(v)
             if os.path.isdir(folder):
                 art = "proof.md" if new == "PROVED" else "sketch.md"
                 open(os.path.join(folder, art), "w").write(
