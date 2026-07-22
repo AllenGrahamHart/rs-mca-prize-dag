@@ -12485,6 +12485,639 @@
    "id": "dli_c1r3_gated_envelope_bound",
    "status": "TARGET",
    "statement": "C1'-r3: on official-admissible rows (v_2(q-1)>=41) the extended-raw-ledger envelope satisfies E-1 <= 4r(1+W_ext), w_max = L+7. Twice-survived (worst K' 1.4016, zero rows >= 2); standing watch = literal-4 / amber-2 / iid-excess trend (maintainer Decision 6, 2026-07-21). Successor of the REFUTED dli_dyadic_k_core; evidence, not proof."
+  },
+  {
+   "id": "f3_hge4_ambient_order_norm_level_cap",
+   "title": "HGE4 ambient-order norm level cap",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For an official ambient order n=2^s and exact dyadic ratio level m=2^a|n, every primitive top shift pair of width h satisfies n^(2 floor(h/2))<(4h)^(m/4). Combined with the quarter-width theorem this gives h<=min(m/4-1,2 ceil(ma/(8s))-1). Retaining the factor 4h/m yields the parity deletion 4(25s-36)d<=25(s-a)m for even d and 4(25s-36)d+100s<=25(s-a)m for odd d. At n=2^41,m=2^40 the first potentially live defect is d=6,948,379,851. This is a proper-level width reduction, not a count of the surviving lower widths or a closure of HGE4.",
+   "refs": [
+    "background/nodes/f3_hge4_ambient_order_norm_level_cap/statement.md",
+    "background/nodes/f3_hge4_ambient_order_norm_level_cap/proof.md",
+    "background/nodes/f3_hge4_ambient_order_norm_level_cap/claim_contract.md",
+    "background/nodes/f3_hge4_ambient_order_norm_level_cap/dependency_subdag.md",
+    "background/nodes/f3_hge4_ambient_order_norm_level_cap/audit.md",
+    "background/nodes/f3_hge4_ambient_order_norm_level_cap/result.md",
+    "background/nodes/f3_hge4_ambient_order_norm_level_cap/verify.py",
+    "background/nodes/f3_hge4_ambient_order_norm_level_cap/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_rank_two_maxwell_collision_defect_identity",
+   "title": "XR rank-two Maxwell deficit has an exact collision-defect identity",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_rank_two_maxwell_collision_defect_identity/statement.md",
+    "background/nodes/xr_rank_two_maxwell_collision_defect_identity/proof.md",
+    "background/nodes/xr_rank_two_maxwell_collision_defect_identity/claim_contract.md",
+    "background/nodes/xr_rank_two_maxwell_collision_defect_identity/dependency_subdag.md",
+    "background/nodes/xr_rank_two_maxwell_collision_defect_identity/verify.py",
+    "background/nodes/xr_rank_two_maxwell_collision_defect_identity/verify_audit.py",
+    "background/nodes/xr_rank_two_maxwell_collision_defect_identity/audit.md",
+    "background/nodes/xr_rank_two_maxwell_collision_defect_identity/result.md"
+   ],
+   "statement": "The rank-two Maxwell deficit equals the prior shell baseline D_0 plus twice three nonnegative defect currencies: (t-2) times active-zero reuse, total unused pair slack, and the sum of C(m_x-1,2) over outside multiplicities. Thus a primitive nonpositive shell has an exact integer defect budget; when D_0=0 it has no active-zero reuse, every pair budget is saturated, and every outside multiplicity is at most two. Counting these bounded-defect configurations, first-core ownership, and aggregate payment remain open."
+  },
+  {
+   "id": "xr_rank_two_zero_baseline_arithmetic_router",
+   "title": "XR rank-two zero baselines have divisor arity and collision-design normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/statement.md",
+    "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/proof.md",
+    "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/claim_contract.md",
+    "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/dependency_subdag.md",
+    "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/verify.py",
+    "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/verify_audit.py",
+    "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/audit.md",
+    "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/result.md"
+   ],
+   "statement": "For a rank-two relation occupying a full minimal Maxwell core at an official odd reserve, exact baseline D_0=0 forces t=2s+2 with s dividing h and even D=d+1. Every defect charge vanishes, the outside extensions form an exact multiplicity-one/two collision design, all five-row cores are impossible, and four-row cores have D=2h with no inactive extensions. Exact divisor, degree-capacity, private-congruence, and a<=k arithmetic gives necessary affine-rank floors 10,10,6,8601474050,8601474050,4302648690 on the six rows. Strictly negative baselines, proper circuits, higher trade rank, nonuniform cells, and aggregate payment remain open."
+  },
+  {
+   "id": "xr_rank_two_five_row_negative_baseline_floor",
+   "title": "XR five-row rank-two full cores have a negative-baseline rank floor",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_rank_two_five_row_negative_baseline_floor/statement.md",
+    "background/nodes/xr_rank_two_five_row_negative_baseline_floor/proof.md",
+    "background/nodes/xr_rank_two_five_row_negative_baseline_floor/claim_contract.md",
+    "background/nodes/xr_rank_two_five_row_negative_baseline_floor/dependency_subdag.md",
+    "background/nodes/xr_rank_two_five_row_negative_baseline_floor/verify.py",
+    "background/nodes/xr_rank_two_five_row_negative_baseline_floor/verify_audit.py",
+    "background/nodes/xr_rank_two_five_row_negative_baseline_floor/audit.md",
+    "background/nodes/xr_rank_two_five_row_negative_baseline_floor/result.md"
+   ],
+   "statement": "An official rank-two relation with exactly five active rows equal to a complete minimal Maxwell core has strictly negative baseline. Its magnitude b is congruent to -5h modulo 6; zero-fiber degree capacity and disjointness give necessary affine-rank floors 9,9,6,9544371773,9544371773,4772185889 on the six rows. The exact defect window is b=e+2(3I+sigma+H), 0<=e<=h-1. Proper five-block circuits inside larger cores and surviving high-rank records remain open."
+  },
+  {
+   "id": "xr_rank_two_fullcore_global_rank_floor",
+   "title": "XR rank-two full cores have a global official-row rank floor",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_rank_two_fullcore_global_rank_floor/statement.md",
+    "background/nodes/xr_rank_two_fullcore_global_rank_floor/proof.md",
+    "background/nodes/xr_rank_two_fullcore_global_rank_floor/claim_contract.md",
+    "background/nodes/xr_rank_two_fullcore_global_rank_floor/dependency_subdag.md",
+    "background/nodes/xr_rank_two_fullcore_global_rank_floor/verify.py",
+    "background/nodes/xr_rank_two_fullcore_global_rank_floor/verify_audit.py",
+    "background/nodes/xr_rank_two_fullcore_global_rank_floor/audit.md",
+    "background/nodes/xr_rank_two_fullcore_global_rank_floor/result.md"
+   ],
+   "statement": "For every official full-support rank-two minimal Maxwell core, strict negative baseline gives an exact per-arity shell and affine-rank floor from zero-fiber capacity, pair mass, disjointness, and t<=a+2. Minimizing over the official arity ranges and composing with the zero-baseline router gives all-baseline affine-rank floors 8,8,5,8590051854,8590020865,4294977670. Proper four/five-block circuits inside larger cores, surviving high-rank records, higher trade rank, nonuniform cells, and aggregate payment remain open."
+  },
+  {
+   "id": "xr_rank_two_proper_circuit_defect_host_router",
+   "title": "XR proper rank-two circuits have a defect and host-core router",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_rank_two_proper_circuit_defect_host_router/statement.md",
+    "background/nodes/xr_rank_two_proper_circuit_defect_host_router/proof.md",
+    "background/nodes/xr_rank_two_proper_circuit_defect_host_router/claim_contract.md",
+    "background/nodes/xr_rank_two_proper_circuit_defect_host_router/dependency_subdag.md",
+    "background/nodes/xr_rank_two_proper_circuit_defect_host_router/verify.py",
+    "background/nodes/xr_rank_two_proper_circuit_defect_host_router/verify_audit.py",
+    "background/nodes/xr_rank_two_proper_circuit_defect_host_router/audit.md",
+    "background/nodes/xr_rank_two_proper_circuit_defect_host_router/result.md"
+   ],
+   "statement": "A proper four/five-block rank-two circuit inside a minimal Maxwell core has positive deficit of the forced parity. The exact collision identity gives a proper-circuit defect lower range disjoint by one integer charge from the full-core upper range, an explicit minimum number of additional host blocks, and parity-sensitive shell cutoffs beyond which every proper owner must carry active-zero reuse, unused pair slack, or outside multiplicity at least three. Embedding and aggregate counts remain open."
+  },
+  {
+   "id": "xr_prize_rank_two_proper_circuit_private_point_floor",
+   "title": "XR prize proper rank-two circuits have a private-point rank floor",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/statement.md",
+    "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/proof.md",
+    "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/claim_contract.md",
+    "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/dependency_subdag.md",
+    "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/verify.py",
+    "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/verify_audit.py",
+    "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/audit.md",
+    "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/result.md"
+   ],
+   "statement": "For a proper four/five-block rank-two circuit in a prize-row minimal Maxwell core, the exact extension ledger lower-bounds multiplicity-one outside points by th+t(t-2)D-(2t-3)Z+2C+I. Minimal-core private-point control and the exact core-size caps then force affine ranks at least 11265488,9646193,2243389. Composing with the full-core rank floor excludes every rank-two trade below those three levels; trade rank at least three remains."
+  },
+  {
+   "id": "xr_prize_uniform_trade_private_point_rank_floor",
+   "title": "XR prize uniform trades have a private-point rank floor",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/statement.md",
+    "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/proof.md",
+    "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/claim_contract.md",
+    "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/dependency_subdag.md",
+    "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/verify.py",
+    "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/verify_audit.py",
+    "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/audit.md",
+    "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/result.md"
+   ],
+   "statement": "For the active blocks of any nonzero trade in a prize-row uniform minimal Maxwell core, pairwise block intersections force at least th-t(t-2)a points private within the active subfamily. Minimal-core privacy and bounded host absorption imply a>=ceil((h+1)/(2(L-2))). Hence the complete uniform P-A branch is empty through selector ranks 11243370,9629972,2241633 at rates 1/4,1/8,1/16, independent of trade rank. High-rank uniform and all nonuniform cells remain open."
+  },
+  {
+   "id": "xr_uniform_maxwell_first_core_peeling_owner",
+   "title": "XR uniform families have canonical first-core peeling owners",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_uniform_maxwell_first_core_peeling_owner/statement.md",
+    "background/nodes/xr_uniform_maxwell_first_core_peeling_owner/proof.md",
+    "background/nodes/xr_uniform_maxwell_first_core_peeling_owner/claim_contract.md",
+    "background/nodes/xr_uniform_maxwell_first_core_peeling_owner/dependency_subdag.md",
+    "background/nodes/xr_uniform_maxwell_first_core_peeling_owner/verify.py",
+    "background/nodes/xr_uniform_maxwell_first_core_peeling_owner/verify_audit.py",
+    "background/nodes/xr_uniform_maxwell_first_core_peeling_owner/audit.md",
+    "background/nodes/xr_uniform_maxwell_first_core_peeling_owner/result.md"
+   ],
+   "statement": "A deterministic peeling process assigns every block removed from a dense one-per-slope uniform split-pencil family one canonical pointed first-Maxwell-core/trade record. Rank-two pivots additionally carry their unique fundamental four/five-block circuit. The terminal unowned residual has size at most floor((2N-2a-1)/h), which is below the 8n^3 allocation. The remaining task is to count the possible classified pointed records, handle their rank-at-least-three branch, deduplicate collision components, and extend to nonuniform cells."
+  },
+  {
+   "id": "xr_mismatch_accumulated_locator_flag_normal_form",
+   "title": "XR mismatch descent has a global accumulated-locator flag",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/statement.md",
+    "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/proof.md",
+    "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/claim_contract.md",
+    "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/dependency_subdag.md",
+    "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/verify.py",
+    "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/verify_audit.py",
+    "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/audit.md",
+    "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/result.md"
+   ],
+   "statement": "Every canonical nongeneric XR mismatch branch lifts to original degree-below-K codeword pairs with a squarefree accumulated locator on disjoint discrepancy layers. The original witness residual factors by every locator prefix, all descendant explanation differences have the corresponding prefix divisor, total locator degree is at most K-1, and puncturing a common prefix preserves the exact residual low-core cap. This removes arbitrary overlapping locator histories from the branch compiler but does not count flags, explanations, generic terminal charts, or slopes."
+  },
+  {
+   "id": "xr_mismatch_global_explanation_list_owner",
+   "title": "XR mismatch terminal tangents have global pair-list owners",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_mismatch_global_explanation_list_owner/statement.md",
+    "background/nodes/xr_mismatch_global_explanation_list_owner/proof.md",
+    "background/nodes/xr_mismatch_global_explanation_list_owner/claim_contract.md",
+    "background/nodes/xr_mismatch_global_explanation_list_owner/dependency_subdag.md",
+    "background/nodes/xr_mismatch_global_explanation_list_owner/verify.py",
+    "background/nodes/xr_mismatch_global_explanation_list_owner/verify_audit.py",
+    "background/nodes/xr_mismatch_global_explanation_list_owner/audit.md",
+    "background/nodes/xr_mismatch_global_explanation_list_owner/result.md"
+   ],
+   "statement": "Every terminal genuine-tangent mismatch slope is owned once by one distinct nonroot original common-support codeword-pair explanation. A fixed pair owns at most n-A slopes, so the whole tangent currency is at most (n-A)(E-1), independent of descent depth and locator-flag multiplicity. The two-fold interleaving theorem bounds E by the ordinary worst list. Generic terminal charts and the required ordinary-list estimate remain open."
+  },
+  {
+   "id": "xr_mismatch_terminal_tangent_agreement_raise",
+   "title": "XR terminal mismatch tangents raise agreement by one",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/statement.md",
+    "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/proof.md",
+    "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/claim_contract.md",
+    "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/dependency_subdag.md",
+    "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/verify.py",
+    "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/verify_audit.py",
+    "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/audit.md",
+    "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/result.md"
+   ],
+   "statement": "Every retained genuine tangent to a lifted A-agreement explanation supplies one discrepancy coordinate beyond that explanation's common support. Its tangent codeword therefore agrees with the original line word on at least A+1 coordinates. The union over every terminal pair is a subset of the original bad-slope set at agreement A+1, with no explanation, depth, or locator multiplier. The stricter set and generic terminal charts remain open."
+  },
+  {
+   "id": "xr_agreement_raise_quotient_safe_sum_fence",
+   "title": "XR agreement-raise quotient support safe sum is over budget",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/statement.md",
+    "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/proof.md",
+    "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/claim_contract.md",
+    "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/dependency_subdag.md",
+    "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/verify.py",
+    "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/verify_audit.py",
+    "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/audit.md",
+    "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/result.md"
+   ],
+   "statement": "The standard quotient-remainder support safe sum over active cells B-k<c is a valid threshold-uniform upper ledger, but at every clean XR candidate one active support-size term already exceeds B*. Thus generic support enumeration cannot pay quotient/profile migration in the agreement-raising induction. A sharper distinct-slope image/coalescing theorem, threshold-coherent first-match owner, or the static global pair-list route remains necessary; no actual quotient-union lower bound is claimed."
+  },
+  {
+   "id": "xr_threshold_quotient_image_lcm_normal_form",
+   "title": "XR threshold quotient slopes have an exact radical-lcm image",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_threshold_quotient_image_lcm_normal_form/statement.md",
+    "background/nodes/xr_threshold_quotient_image_lcm_normal_form/proof.md",
+    "background/nodes/xr_threshold_quotient_image_lcm_normal_form/claim_contract.md",
+    "background/nodes/xr_threshold_quotient_image_lcm_normal_form/dependency_subdag.md",
+    "background/nodes/xr_threshold_quotient_image_lcm_normal_form/verify.py",
+    "background/nodes/xr_threshold_quotient_image_lcm_normal_form/verify_audit.py",
+    "background/nodes/xr_threshold_quotient_image_lcm_normal_form/audit.md",
+    "background/nodes/xr_threshold_quotient_image_lcm_normal_form/result.md"
+   ],
+   "statement": "For any finite support family on an affine received line, pass the endpoint restrictions to F^S/(C|_S). The monic gcd of their coordinate forms is basis-independent and is either 1 or one linear bad-slope factor. The radical lcm over every quotient-remainder support and raised agreement therefore has degree exactly equal to the distinct threshold-union quotient slope image. Constructing or bounding that lcm at official scale remains open."
+  },
+  {
+   "id": "xr_quotient_image_remainder_one_boundary_descent",
+   "title": "XR threshold quotient image localizes to one-point-tail tangents",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_quotient_image_remainder_one_boundary_descent/statement.md",
+    "background/nodes/xr_quotient_image_remainder_one_boundary_descent/proof.md",
+    "background/nodes/xr_quotient_image_remainder_one_boundary_descent/claim_contract.md",
+    "background/nodes/xr_quotient_image_remainder_one_boundary_descent/dependency_subdag.md",
+    "background/nodes/xr_quotient_image_remainder_one_boundary_descent/verify.py",
+    "background/nodes/xr_quotient_image_remainder_one_boundary_descent/verify_audit.py",
+    "background/nodes/xr_quotient_image_remainder_one_boundary_descent/audit.md",
+    "background/nodes/xr_quotient_image_remainder_one_boundary_descent/result.md"
+   ],
+   "statement": "For one quotient fiber size and A>=k+1, every noncontained quotient-remainder support above agreement A has a profile-preserving noncontained one-point deletion unless it has remainder one and its pure-fiber predecessor is contained. Iteration shows that the threshold quotient slope image is exactly the union of the exact-A image and these remainder-one boundary factors. Every boundary factor is a genuine tangent to the predecessor's codeword pair; this node alone does not own their union."
+  },
+  {
+   "id": "xr_quotient_boundary_agreement_raise_owner",
+   "title": "XR quotient boundaries are owned by the agreement raise",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_quotient_boundary_agreement_raise_owner/statement.md",
+    "background/nodes/xr_quotient_boundary_agreement_raise_owner/proof.md",
+    "background/nodes/xr_quotient_boundary_agreement_raise_owner/claim_contract.md",
+    "background/nodes/xr_quotient_boundary_agreement_raise_owner/dependency_subdag.md",
+    "background/nodes/xr_quotient_boundary_agreement_raise_owner/verify.py",
+    "background/nodes/xr_quotient_boundary_agreement_raise_owner/verify_audit.py",
+    "background/nodes/xr_quotient_boundary_agreement_raise_owner/audit.md",
+    "background/nodes/xr_quotient_boundary_agreement_raise_owner/result.md"
+   ],
+   "statement": "Across every declared quotient scale, the full threshold quotient image is contained in the union of the exact-A quotient image and the original bad-slope set at agreement A+1. Every remainder-one boundary factor has at least A pure-core agreements plus its tangent cancellation point, so quotient migration has no independent boundary-tangent debit. The exact-threshold image, raised bad set, and generic-chart aggregate remain open."
+  },
+  {
+   "id": "xr_quotient_max_agreement_first_match_owner",
+   "title": "XR quotient first match occurs at maximum agreement",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_quotient_max_agreement_first_match_owner/statement.md",
+    "background/nodes/xr_quotient_max_agreement_first_match_owner/proof.md",
+    "background/nodes/xr_quotient_max_agreement_first_match_owner/claim_contract.md",
+    "background/nodes/xr_quotient_max_agreement_first_match_owner/dependency_subdag.md",
+    "background/nodes/xr_quotient_max_agreement_first_match_owner/verify.py",
+    "background/nodes/xr_quotient_max_agreement_first_match_owner/verify_audit.py",
+    "background/nodes/xr_quotient_max_agreement_first_match_owner/audit.md",
+    "background/nodes/xr_quotient_max_agreement_first_match_owner/result.md"
+   ],
+   "statement": "At threshold A, quotient slopes with higher agreement are carried into the existing B_(A+1) term, while every remaining exact quotient slope has maximum agreement exactly A. Any A-point quotient witness for such a slope is the witness codeword's full agreement set. A deterministic scale/codeword order removes cross-threshold and representation duplication; bounding the resulting full-agreement quotient image remains open."
+  },
+  {
+   "id": "xr_quotient_global_core_collision_router",
+   "title": "XR quotient images route by their global fiber core",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/xr_quotient_global_core_collision_router/statement.md",
+    "background/nodes/xr_quotient_global_core_collision_router/proof.md",
+    "background/nodes/xr_quotient_global_core_collision_router/claim_contract.md",
+    "background/nodes/xr_quotient_global_core_collision_router/dependency_subdag.md",
+    "background/nodes/xr_quotient_global_core_collision_router/verify.py",
+    "background/nodes/xr_quotient_global_core_collision_router/verify_audit.py",
+    "background/nodes/xr_quotient_global_core_collision_router/audit.md",
+    "background/nodes/xr_quotient_global_core_collision_router/result.md"
+   ],
+   "statement": "Across the agreement induction at rates at most 1/4, first-match maximum-agreement quotient slopes have a global key consisting of their rate-preserving scale and k-point full-fiber core. Keys used once have total count at most the existing conservative B_quot_ub(A_0). Every repeated key supplies live slopes sharing a size-k core, hence routes to P-A on the generic branch and to the existing mismatch bridge otherwise. Quotient tails, thresholds, and support counts create no separate multiplicity."
+  },
+  {
+   "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse",
+   "title": "Budget-three fiber-two c=2 reciprocal selected-antipodal affine shard is empty",
+   "status": "PROVED",
+   "closure": "proof plus exact arithmetic certificate",
+   "statement": "On the maximal-degree selected-antipodal collision shard in the reciprocal quadratic-field chamber, Frobenius collapses the three-affine-image subgroup intersection to y=(7+4a)/9 and r=(2a-1)/3. Membership is equivalent to one forty-squaring base-field trace test. A registered 16-shard screen covered all 4,495,442 official progression moduli, including composites, with no hit, so this reciprocal shard is empty.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/statement.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/proof.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/audit.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/result.md",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/verify.py",
+    "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/verify_audit.py",
+    "experiments/prize_resolution/rate_half_list_c2_reciprocal_affine_torsion_modal.py",
+    "experiments/prize_resolution/rate_half_list_c2_reciprocal_affine_torsion_result.json",
+    "experiments/prize_resolution/rate_half_list_c2_reciprocal_affine_torsion_result.md",
+    "experiments/prize_resolution/rate_half_list_c2_reciprocal_affine_torsion_check.py"
+   ]
+  },
+  {
+   "id": "f3_h3_dsp8_nodal_smooth_high_tail_domination",
+   "title": "DSP8 nodal/smooth high-tail domination",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On every retained product fiber, the nodal signed-disjoint distance-six graph has maximum degree three while the total disjoint graph has the proved multiplicity lower bound. Hence nodal edges are dominated targetwise by smooth edges for antipodal-free P>=33 and antipodal P>=35. The high-tail quotient-weighted moment is at most twice its smooth part; the bounded lower multiplicity bands and the smooth moment remain open.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/statement.md",
+    "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/proof.md",
+    "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/audit.md",
+    "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/result.md",
+    "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/verify.py",
+    "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_prize_flat_nullity_effective_core_floor",
+   "title": "XR prize flat-nullity effective-core floor",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a prize P-A flat-nullity cell with affine rank a and parameters u,v, deleting the persistent roots gives exact-size residual zero sets of size kappa+h with pairwise intersection at most kappa, where kappa=a+u+v. Minimal dense-core private-point counting forces kappa>=ceil((h+1)/(2(L-2))), with L=floor((2R+h-1)/h). The prize floors are 11243370,9629972,2241633; at first open ranks 16,16,14 this forces u+v>=11243354,9629956,2241619. This is a necessary effective-core floor, not a count above it.",
+   "refs": [
+    "background/nodes/xr_prize_flat_nullity_effective_core_floor/statement.md",
+    "background/nodes/xr_prize_flat_nullity_effective_core_floor/proof.md",
+    "background/nodes/xr_prize_flat_nullity_effective_core_floor/claim_contract.md",
+    "background/nodes/xr_prize_flat_nullity_effective_core_floor/dependency_subdag.md",
+    "background/nodes/xr_prize_flat_nullity_effective_core_floor/audit.md",
+    "background/nodes/xr_prize_flat_nullity_effective_core_floor/result.md",
+    "background/nodes/xr_prize_flat_nullity_effective_core_floor/verify.py",
+    "background/nodes/xr_prize_flat_nullity_effective_core_floor/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_prize_flat_nullity_nonpersistent_root_cap",
+   "title": "XR prize flat-nullity nonpersistent-root cap",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For fixed nonpersistent global-root count v, the exact real envelope underlying the flat-nullity basis charge FN3 is convex in u on 0<=u<=k-a-v, so its maximum occurs at u=0 or u=k-a-v. Exact endpoint arithmetic at the first open prize affine ranks gives the necessary caps v<=1526176110,2902067939,1962285106. Combined with the effective-core floor, every over-budget first-open P-A cell lies in an explicit root-defect wedge. This is a parameter reduction, not a P-A count.",
+   "refs": [
+    "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/statement.md",
+    "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/proof.md",
+    "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/claim_contract.md",
+    "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/dependency_subdag.md",
+    "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/audit.md",
+    "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/result.md",
+    "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/verify.py",
+    "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_prize_u0_loop_defect_maxwell_rank_one_compiler",
+   "title": "XR prize u=0 loop-defect Maxwell and rank-one compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a prize P-A u=0,v>=1 cell, deleting at most v exceptional slopes and puncturing the global roots gives a coherent GRS_a family with block size a+h+v and pair cap a+v. Every minimal dense core on t blocks has at least v(t-2)+e+1 independent trades. Its rank-one trades are exactly common-support records (S,Q,alpha), where a+1<=|S|<=a+v, deg Q<|S|-a, Q is nonzero on S, and alpha satisfies the two slope parity equations. This is a structural compiler, not an aggregate count.",
+   "refs": [
+    "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/statement.md",
+    "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/proof.md",
+    "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/claim_contract.md",
+    "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/dependency_subdag.md",
+    "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/audit.md",
+    "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/result.md",
+    "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/verify.py",
+    "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+   "title": "XR prize flat-nullity Maxwell trade-space compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "After deleting at most v exceptional slopes, any prize P-A flat-nullity cell has a normalized rank-a polynomial kernel W on blocks of size a+h+u+v with pair cap a+u+v. Every minimal dense core on t blocks has at least (u+v)(t-2)+e+1 independent trades. Every rank-one trade canonically owns a shared kernel-matroid circuit C of size at most a+1 on which both received directions restrict to W. This covers arbitrary u but does not count circuit owners or pay trade rank at least two.",
+   "refs": [
+    "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/statement.md",
+    "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/proof.md",
+    "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/claim_contract.md",
+    "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/dependency_subdag.md",
+    "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/audit.md",
+    "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/result.md",
+    "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/verify.py",
+    "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_prize_flat_nullity_rank_metric_trade_router",
+   "title": "XR prize flat-nullity rank-metric trade router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Compressing the two universal slope-parity checks identifies each minimal-core trade space with a subspace of (t-2) by |V| matrices without changing rank. If D=(u+v)(t-2)+e+1 exceeds (t-2-r)|V|, the rank-metric Singleton row-deletion bound forces a nonzero trade of rank at most r. At maximal flat nullity this forces rank one through prize arities 12,9,9 and rank at most two through 18,13,13. This is an existence router, not a low-rank count.",
+   "refs": [
+    "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/statement.md",
+    "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/proof.md",
+    "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/claim_contract.md",
+    "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/dependency_subdag.md",
+    "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/audit.md",
+    "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/result.md",
+    "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/verify.py",
+    "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_prize_rank_one_trade_flat_basis_owner",
+   "title": "XR prize rank-one trade flat/basis owner",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a rank-one trade, two active slopes force both received directions to restrict into W on the whole common dual support S. If S spans W, its first basis is shared by every active block, the remaining support is persistent for that basis pencil, and the active population is at most floor((R-v)/h). If rank_W(S)=j<a, its closure is a proper flat of size at most j+u, which requires u>=1. This is a canonical owner dichotomy, not an aggregate count.",
+   "refs": [
+    "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/statement.md",
+    "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/proof.md",
+    "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/claim_contract.md",
+    "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/dependency_subdag.md",
+    "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/audit.md",
+    "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/result.md",
+    "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/verify.py",
+    "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_prize_arbitrary_w_trade_circuit_segre_router",
+   "title": "XR prize arbitrary-W trade-circuit Segre router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The row-scaling circuit bound r+2<=ell<=2r+1 is coefficient-algebraic and applies to arbitrary flat-nullity W. Every rank-two trade decomposes into rank-one three-block circuits routed to the flat/basis owner and genuine rank-two circuits on four or five blocks. Their coefficient columns have the same Mobius/Plucker and full five-point Segre atlases as in the uniform theorem. Support realization and aggregate ownership remain open.",
+   "refs": [
+    "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/statement.md",
+    "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/proof.md",
+    "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/claim_contract.md",
+    "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/dependency_subdag.md",
+    "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/audit.md",
+    "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/result.md",
+    "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/verify.py",
+    "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_prize_arbitrary_w_rank_two_dual_plane_support_router",
+   "title": "XR prize arbitrary-W rank-two dual-plane support router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every arbitrary-W rank-two four/five circuit is one dual plane L in (W|X)^perp. Its row supports are complements of fibers of the base-point-free projective map [F:G] on X. Distinct coefficient directions have disjoint fibers; in a five-block circuit a direction has multiplicity at most two, and each repeated pair routes to the local-tangent basis/flat owner. Each row has a unique arbitrary-W locator certificate. Aggregate plane counting remains open.",
+   "refs": [
+    "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/statement.md",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/proof.md",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/claim_contract.md",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/dependency_subdag.md",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/audit.md",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/result.md",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/verify.py",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_prize_flat_nullity_first_core_peeling_owner",
+   "title": "XR prize flat-nullity first-core peeling owner",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Deterministic first-core peeling extends to every prize P-A flat-nullity cell. Repeatedly choosing the first minimal dense core, first canonical trade, and first active pivot assigns each deleted block exactly one pointed basis/flat/dual-plane owner. The terminal normalized family has size at most floor((2(R-v)-1)/h); after restoring at most v exceptional slopes, the complete unowned population is below n and already paid. Nonterminal owner counting remains open.",
+   "refs": [
+    "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/statement.md",
+    "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/proof.md",
+    "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/claim_contract.md",
+    "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/dependency_subdag.md",
+    "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/audit.md",
+    "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/result.md",
+    "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/verify.py",
+    "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_prize_arbitrary_w_rank_two_received_pair_router",
+   "title": "XR prize arbitrary-W rank-two received-pair router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For an arbitrary-W rank-two dual plane, pairing each row with its selected-error equation gives an interaction vector annihilating the Segre coefficient columns. Five-block planes and the zero-interaction four-block branch annihilate both received directions. Every nonzero four-block interaction is a scalar multiple of the Mobius hyperplane and gives an invertible pairing with the received direction plane. These are the only trade-row interaction classes; aggregate counting remains open.",
+   "refs": [
+    "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/statement.md",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/proof.md",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/claim_contract.md",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/dependency_subdag.md",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/audit.md",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/result.md",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/verify.py",
+    "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_prize_arbitrary_rank_dual_projective_support_router",
+   "title": "XR prize arbitrary-rank dual-projective support router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every support-minimal rank-r trade circuit with r>=2 is one dual r-space in (W|X)^perp and one base-point-free map X->P^(r-1), with row supports complementary to projective hyperplane sections. Its coefficient-slope columns form a projective circuit on r+2 through 2r+1 blocks, repeated coefficient directions have multiplicity at most two, and the exact received-interaction dimension is 2r-t+1. Maximal arity is augmented-orthogonal. Aggregate projective-packet counting remains open.",
+   "refs": [
+    "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/statement.md",
+    "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/proof.md",
+    "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/claim_contract.md",
+    "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/dependency_subdag.md",
+    "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/audit.md",
+    "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/result.md",
+    "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/verify.py",
+    "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "xr_prize_arbitrary_rank_augmented_orthogonal_quotient_router",
+   "title": "XR prize arbitrary-rank augmented-orthogonal quotient router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The pairing map from any support-minimal rank-r trade row space to the two received directions has rank s in {0,1,2}. Its kernel is the augmented-orthogonal subspace of dimension r-s. At s=1 exactly one row is interactive and t<=2r-1. At s=2 every quotient coefficient is tau_i(-gamma_i,1), so the coefficient-slope quotient lies on a three-dimensional conic span. Thus every arbitrary-rank packet is an augmented-orthogonal lift of a rank-at-most-two interaction quotient. Aggregate lift counting remains open.",
+   "refs": [
+    "background/nodes/xr_prize_arbitrary_rank_augmented_orthogonal_quotient_router/statement.md",
+    "background/nodes/xr_prize_arbitrary_rank_augmented_orthogonal_quotient_router/proof.md",
+    "background/nodes/xr_prize_arbitrary_rank_augmented_orthogonal_quotient_router/claim_contract.md",
+    "background/nodes/xr_prize_arbitrary_rank_augmented_orthogonal_quotient_router/dependency_subdag.md",
+    "background/nodes/xr_prize_arbitrary_rank_augmented_orthogonal_quotient_router/audit.md",
+    "background/nodes/xr_prize_arbitrary_rank_augmented_orthogonal_quotient_router/result.md",
+    "background/nodes/xr_prize_arbitrary_rank_augmented_orthogonal_quotient_router/verify.py",
+    "background/nodes/xr_prize_arbitrary_rank_augmented_orthogonal_quotient_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_unordered_product_cutoff12_candidate_compiler",
+   "title": "H3 unordered-product cutoff-12 candidate compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The monic unordered shifted-product polynomial Ucal_n lies in Z[T], has degree n(n-1)/2, and satisfies Ucal_n^2=Pcal_n Delta_n. Its cutoff-12 derivative ideal, saturated by the inverse selector (T-1)Y=1, has exactly the odd-prime support of characteristics with a nonidentity unordered product fiber of multiplicity at least 13. Every nonidentity P>=25 fiber is retained; the sole selected cutoff-boundary false-positive profile is U=13,D=2,P=24. At n=8192 this replaces degree 67,092,481 and 25 ordered generators by degree 33,550,336 and 13 unordered generators. No official-scale algorithm, factorization, or DSP8 close is claimed.",
+   "refs": [
+    "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/statement.md",
+    "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/proof.md",
+    "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/claim_contract.md",
+    "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/dependency_subdag.md",
+    "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/audit.md",
+    "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/result.md",
+    "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/verify.py",
+    "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_nonidentity_p24_gcd_certificate",
+   "title": "H3 nonidentity P24 gcd certificate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Over every dyadic split row, let G_12 be the gcd of the unordered shifted-product polynomial and its first twelve Hasse derivatives, remove its complete T=1 factor, and let H_D be the gcd of the diagonal polynomial and its first Hasse derivative. Then max_(t!=1)P(t)<=24 if and only if G_12^neq divides H_D. The exact local valuations are (U-12)_+ and (D-1)_+, so the only retained rich profile is U=13,D=2,P=24. This is a certificate checker, not an official-row proof or polynomial-construction algorithm.",
+   "refs": [
+    "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/statement.md",
+    "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/proof.md",
+    "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/claim_contract.md",
+    "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/dependency_subdag.md",
+    "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/audit.md",
+    "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/result.md",
+    "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/verify.py",
+    "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_nonidentity_p25_subresultant_scalar_compiler",
+   "title": "H3 nonidentity P25 subresultant scalar compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For F_n(X)=((1-X)^n-1)/X and G_n(T,X)=X^(n-1)F_n(T/X), specialization at T=t has gcd degree exactly P(t). The coefficient ideal of polynomial subresultants 0 through 24, saturated by (T-1)Y=1, has a finite scalar annihilator whose odd-prime support is exactly the characteristics admitting a nonidentity P>=25 fiber. This starts from two sparse degree-n-1 polynomials but makes no elimination-cost or factorization claim.",
+   "refs": [
+    "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/statement.md",
+    "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/proof.md",
+    "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/claim_contract.md",
+    "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/dependency_subdag.md",
+    "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/audit.md",
+    "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/result.md",
+    "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/verify.py",
+    "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_p25_quadratic_divisor_tower_compiler",
+   "title": "H3 P25 quadratic divisor-tower compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "A nonidentity P>=25 product fiber exists over a dyadic split row if and only if one monic degree-25 divisor supports two length-s repeated-squaring torsion towers with the required inverses. Writing modular reductions with quotient variables gives exactly 98s+30 variables and 98s+54 quadratic equations, at most 4,048 by 4,072 over the official band. The system is empty in characteristic zero. This is a complete bounded-degree presentation, not a solver, certificate, cost estimate, or DSP8 close.",
+   "refs": [
+    "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/statement.md",
+    "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/proof.md",
+    "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/claim_contract.md",
+    "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/dependency_subdag.md",
+    "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/audit.md",
+    "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/result.md",
+    "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/verify.py",
+    "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "f3_h3_p25_ordered_root_quadratic_tower_compiler",
+   "title": "H3 P25 ordered-root quadratic tower compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "A nonidentity P>=25 fiber exists exactly when 25 explicit distinct first coordinates support two dyadic scalar squaring towers with the required inverses. One quadratic prefix product enforces all 300 pairwise differences. The complete system has 50s+328 variables and 50s+352 quadratic equations, at most 2,378 by 2,402 in the official band. It is smaller than the symmetric divisor tower but has a 25! presentation symmetry; no performance or closure claim is made.",
+   "refs": [
+    "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/statement.md",
+    "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/proof.md",
+    "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/claim_contract.md",
+    "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/dependency_subdag.md",
+    "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/audit.md",
+    "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/result.md",
+    "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/verify.py",
+    "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -23957,6 +24590,671 @@
    "from": "dli_c1r3_gated_envelope_bound",
    "to": "dli_marginal_baseline100_coverage",
    "kind": "req"
+  },
+  {
+   "from": "f3_hge4_exact_ratio_tower_orbit_compiler",
+   "to": "f3_hge4_ambient_order_norm_level_cap",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_cyclotomic_norm_quarter_width_exclusion",
+   "to": "f3_hge4_ambient_order_norm_level_cap",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_ambient_order_norm_level_cap",
+   "to": "f3_hge4_norm_gate_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+   "to": "xr_rank_two_maxwell_collision_defect_identity",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_extension_family_collision_ledger",
+   "to": "xr_rank_two_maxwell_collision_defect_identity",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_maxwell_collision_defect_identity",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_two_maxwell_collision_defect_identity",
+   "to": "xr_rank_two_zero_baseline_arithmetic_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+   "to": "xr_rank_two_zero_baseline_arithmetic_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_target_budget_audit",
+   "to": "xr_rank_two_zero_baseline_arithmetic_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_zero_baseline_arithmetic_router",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_two_zero_baseline_arithmetic_router",
+   "to": "xr_rank_two_five_row_negative_baseline_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_maxwell_collision_defect_identity",
+   "to": "xr_rank_two_five_row_negative_baseline_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+   "to": "xr_rank_two_five_row_negative_baseline_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_five_row_negative_baseline_floor",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_two_zero_baseline_arithmetic_router",
+   "to": "xr_rank_two_fullcore_global_rank_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_maxwell_collision_defect_identity",
+   "to": "xr_rank_two_fullcore_global_rank_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+   "to": "xr_rank_two_fullcore_global_rank_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_uniform_split_pencil_reduction",
+   "to": "xr_rank_two_fullcore_global_rank_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_primitive_rank_two_shell_band",
+   "to": "xr_rank_two_fullcore_global_rank_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_fullcore_global_rank_floor",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_two_maxwell_collision_defect_identity",
+   "to": "xr_rank_two_proper_circuit_defect_host_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+   "to": "xr_rank_two_proper_circuit_defect_host_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_uniform_split_pencil_reduction",
+   "to": "xr_rank_two_proper_circuit_defect_host_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_trade_circuit_arity_segre_atlas",
+   "to": "xr_rank_two_proper_circuit_defect_host_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_proper_circuit_defect_host_router",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rank_two_proper_circuit_defect_host_router",
+   "to": "xr_prize_rank_two_proper_circuit_private_point_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_extension_family_collision_ledger",
+   "to": "xr_prize_rank_two_proper_circuit_private_point_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_uniform_split_pencil_reduction",
+   "to": "xr_prize_rank_two_proper_circuit_private_point_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_primitive_rank_two_shell_band",
+   "to": "xr_prize_rank_two_proper_circuit_private_point_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_trade_circuit_arity_segre_atlas",
+   "to": "xr_prize_rank_two_proper_circuit_private_point_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_fullcore_global_rank_floor",
+   "to": "xr_prize_rank_two_proper_circuit_private_point_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_rank_two_proper_circuit_private_point_floor",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_higher_rank_uniform_split_pencil_reduction",
+   "to": "xr_prize_uniform_trade_private_point_rank_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_primitive_rank_two_shell_band",
+   "to": "xr_prize_uniform_trade_private_point_rank_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_target_budget_audit",
+   "to": "xr_prize_uniform_trade_private_point_rank_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_uniform_trade_private_point_rank_floor",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_higher_rank_uniform_split_pencil_reduction",
+   "to": "xr_uniform_maxwell_first_core_peeling_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_fundamental_circuit_owner",
+   "to": "xr_uniform_maxwell_first_core_peeling_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_uniform_maxwell_first_core_peeling_owner",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_tangent_mismatch_full_external_zero_canonicalization",
+   "to": "xr_mismatch_accumulated_locator_flag_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "xr_mismatch_chart_nongeneric_joint_support_equivalence",
+   "to": "xr_mismatch_accumulated_locator_flag_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "xr_mismatch_nongeneric_invariant_excess_descent",
+   "to": "xr_mismatch_accumulated_locator_flag_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "xr_mismatch_accumulated_locator_flag_normal_form",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_mismatch_accumulated_locator_flag_normal_form",
+   "to": "xr_mismatch_global_explanation_list_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_true_tangent_coordinate_injection",
+   "to": "xr_mismatch_global_explanation_list_owner",
+   "kind": "req"
+  },
+  {
+   "from": "list_subsqrt_interleaving_collapse",
+   "to": "xr_mismatch_global_explanation_list_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_mismatch_global_explanation_list_owner",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_mismatch_accumulated_locator_flag_normal_form",
+   "to": "xr_mismatch_terminal_tangent_agreement_raise",
+   "kind": "req"
+  },
+  {
+   "from": "xr_true_tangent_coordinate_injection",
+   "to": "xr_mismatch_terminal_tangent_agreement_raise",
+   "kind": "req"
+  },
+  {
+   "from": "xr_mismatch_terminal_tangent_agreement_raise",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "census_bounded_scales",
+   "to": "xr_agreement_raise_quotient_safe_sum_fence",
+   "kind": "req"
+  },
+  {
+   "from": "xr_target_budget_audit",
+   "to": "xr_agreement_raise_quotient_safe_sum_fence",
+   "kind": "req"
+  },
+  {
+   "from": "xr_mismatch_terminal_tangent_agreement_raise",
+   "to": "xr_agreement_raise_quotient_safe_sum_fence",
+   "kind": "req"
+  },
+  {
+   "from": "xr_agreement_raise_quotient_safe_sum_fence",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_agreement_raise_quotient_safe_sum_fence",
+   "to": "xr_threshold_quotient_image_lcm_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "xr_threshold_quotient_image_lcm_normal_form",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_threshold_quotient_image_lcm_normal_form",
+   "to": "xr_quotient_image_remainder_one_boundary_descent",
+   "kind": "req"
+  },
+  {
+   "from": "xr_quotient_image_remainder_one_boundary_descent",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_quotient_image_remainder_one_boundary_descent",
+   "to": "xr_quotient_boundary_agreement_raise_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_mismatch_terminal_tangent_agreement_raise",
+   "to": "xr_quotient_boundary_agreement_raise_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_quotient_boundary_agreement_raise_owner",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_quotient_boundary_agreement_raise_owner",
+   "to": "xr_quotient_max_agreement_first_match_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_quotient_max_agreement_first_match_owner",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_quotient_max_agreement_first_match_owner",
+   "to": "xr_quotient_global_core_collision_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_target_budget_audit",
+   "to": "xr_quotient_global_core_collision_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_quotient_global_core_collision_router",
+   "to": "xr_tangent_support_mismatch_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_quotient_global_core_collision_router",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router",
+   "to": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_dsp8_disjoint_six_multiplicity_gate",
+   "to": "f3_h3_dsp8_nodal_smooth_high_tail_domination",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_smooth_trace_substar_router",
+   "to": "f3_h3_dsp8_nodal_smooth_high_tail_domination",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_nodal_smooth_high_tail_domination",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rs_flat_nullity_basis_charge",
+   "to": "xr_prize_flat_nullity_effective_core_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rs_common_root_basis_charge",
+   "to": "xr_prize_flat_nullity_effective_core_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_target_budget_audit",
+   "to": "xr_prize_flat_nullity_effective_core_floor",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_flat_nullity_effective_core_floor",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rs_flat_nullity_basis_charge",
+   "to": "xr_prize_flat_nullity_nonpersistent_root_cap",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_flat_nullity_effective_core_floor",
+   "to": "xr_prize_flat_nullity_nonpersistent_root_cap",
+   "kind": "req"
+  },
+  {
+   "from": "xr_target_budget_audit",
+   "to": "xr_prize_flat_nullity_nonpersistent_root_cap",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_flat_nullity_nonpersistent_root_cap",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rs_flat_nullity_basis_charge",
+   "to": "xr_prize_u0_loop_defect_maxwell_rank_one_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_flat_nullity_effective_core_floor",
+   "to": "xr_prize_u0_loop_defect_maxwell_rank_one_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_flat_nullity_nonpersistent_root_cap",
+   "to": "xr_prize_u0_loop_defect_maxwell_rank_one_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "xr_higher_rank_uniform_split_pencil_reduction",
+   "to": "xr_prize_u0_loop_defect_maxwell_rank_one_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_u0_loop_defect_maxwell_rank_one_compiler",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_rs_common_root_basis_charge",
+   "to": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rs_flat_nullity_basis_charge",
+   "to": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_flat_nullity_effective_core_floor",
+   "to": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_flat_nullity_nonpersistent_root_cap",
+   "to": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_u0_loop_defect_maxwell_rank_one_compiler",
+   "to": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+   "to": "xr_prize_flat_nullity_rank_metric_trade_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_flat_nullity_rank_metric_trade_router",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+   "to": "xr_prize_rank_one_trade_flat_basis_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_flat_nullity_rank_metric_trade_router",
+   "to": "xr_prize_rank_one_trade_flat_basis_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rs_flat_nullity_basis_charge",
+   "to": "xr_prize_rank_one_trade_flat_basis_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_poststrip_affine_pencil_charge",
+   "to": "xr_prize_rank_one_trade_flat_basis_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_rank_one_trade_flat_basis_owner",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_trade_circuit_arity_segre_atlas",
+   "to": "xr_prize_arbitrary_w_trade_circuit_segre_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+   "to": "xr_prize_arbitrary_w_trade_circuit_segre_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_rank_one_trade_flat_basis_owner",
+   "to": "xr_prize_arbitrary_w_trade_circuit_segre_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_arbitrary_w_trade_circuit_segre_router",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_prize_arbitrary_w_trade_circuit_segre_router",
+   "to": "xr_prize_arbitrary_w_rank_two_dual_plane_support_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_rank_one_trade_flat_basis_owner",
+   "to": "xr_prize_arbitrary_w_rank_two_dual_plane_support_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_arbitrary_w_rank_two_dual_plane_support_router",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+   "to": "xr_prize_flat_nullity_first_core_peeling_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_uniform_maxwell_first_core_peeling_owner",
+   "to": "xr_prize_flat_nullity_first_core_peeling_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_flat_nullity_nonpersistent_root_cap",
+   "to": "xr_prize_flat_nullity_first_core_peeling_owner",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_flat_nullity_first_core_peeling_owner",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_prize_arbitrary_w_rank_two_dual_plane_support_router",
+   "to": "xr_prize_arbitrary_w_rank_two_received_pair_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_rank_two_received_pair_alternating_router",
+   "to": "xr_prize_arbitrary_w_rank_two_received_pair_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_arbitrary_w_rank_two_received_pair_router",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_prize_arbitrary_w_trade_circuit_segre_router",
+   "to": "xr_prize_arbitrary_rank_dual_projective_support_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_arbitrary_w_rank_two_dual_plane_support_router",
+   "to": "xr_prize_arbitrary_rank_dual_projective_support_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_arbitrary_w_rank_two_received_pair_router",
+   "to": "xr_prize_arbitrary_rank_dual_projective_support_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_arbitrary_rank_dual_projective_support_router",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_prize_arbitrary_rank_dual_projective_support_router",
+   "to": "xr_prize_arbitrary_rank_augmented_orthogonal_quotient_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_arbitrary_w_rank_two_received_pair_router",
+   "to": "xr_prize_arbitrary_rank_augmented_orthogonal_quotient_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_prize_arbitrary_rank_augmented_orthogonal_quotient_router",
+   "to": "xr_highcore_collision_count",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_global_resultant_compression",
+   "to": "f3_h3_unordered_product_cutoff12_candidate_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_shifted_product_sidon",
+   "to": "f3_h3_unordered_product_cutoff12_candidate_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_unordered_product_cutoff12_candidate_compiler",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_unordered_product_cutoff12_candidate_compiler",
+   "to": "f3_h3_nonidentity_p24_gcd_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_nonidentity_p24_gcd_certificate",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_global_resultant_compression",
+   "to": "f3_h3_nonidentity_p25_subresultant_scalar_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_shifted_product_sidon",
+   "to": "f3_h3_nonidentity_p25_subresultant_scalar_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_nonidentity_p25_subresultant_scalar_compiler",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_global_resultant_compression",
+   "to": "f3_h3_p25_quadratic_divisor_tower_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_shifted_product_sidon",
+   "to": "f3_h3_p25_quadratic_divisor_tower_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_p25_quadratic_divisor_tower_compiler",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_p25_quadratic_divisor_tower_compiler",
+   "to": "f3_h3_p25_ordered_root_quadratic_tower_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_p25_ordered_root_quadratic_tower_compiler",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
   }
  ]
 }

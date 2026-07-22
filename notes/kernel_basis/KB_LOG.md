@@ -3246,3 +3246,33 @@ discipline, U1/U2/U3, board anatomy w/ D2 dli cap, risk register
 (triggers->consequences), the four tracks + Track N information
 purchases, endgame/dossier, the delta*-bracket progress metric,
 the 14-item decision queue, planning priors (re-issued at gates).
+
+## 121 — 2026-07-22: WAVE-19 INTEGRATED — XR uniform branch EMPTIED
+## + DSP8 P24/P25 satellite reduction + first COMPLIANT time-rule
+## Modal launch; lineage skew handled, ceremony survives
+
+Audit (81/81 replays, 6/6 mutations) + integration of pin a962c045
+(43 commits): +37 PROVED nodes (XR 29 / DSP8-P25 6 / HGE4 1 / c1c2
+1), +133 edges, 0 base->pin flips, 0 closures. LINEAGE SKEW
+correctly adjudicated: the apparent descriptor/dli reversals +
+c1r3 removal were branch-predates-ceremony artifacts (Codex touched
+ZERO ceremony files); ceremony survival ASSERTED in the merge
+script and confirmed post-import. ADOPTION MILESTONES: Decision-5
+time rule adopted VERBATIM + Codex's own stricter overlay; DSP8
+supersession byte-identical; FIRST Modal launch under the rule
+COMPLIANT (32.6s total vs 300s; registered, pinned, logged) — the
+full governance loop closed in one wave. r3-roadmap adoption check
+rolls to wave-20 (pin predates it). VERDICTS: DSP8 max-P<=24
+satellite materially reduced (iff-checker + P25 char-0-empty
+towers + compiler degree halved; "vacuity" = the satellite route,
+the P>=21 watch stays telemetry); XR uniform prize branch EMPTIED
+to million-scale floors (frontier now nonuniform flat-nullity
+cells; ranks 5,5,5/17,17,15 unmoved; the A6 bridge got cheaper —
+residual = two aggregates or the static route); HGE4 dual cap
+min(m/4-1, 2ceil(ma/8s)-1) (~2.8e10 cells deleted; ERT4''''
+untouched); c1c2 reciprocal shard emptied. IMPORT: pose re-take
+adjacent_crossing (110 brackets) atomic w/ its edge; experiment
+packet co-landed; CR ledger adopted + r3 pointer re-inserted;
+battery 75/75+1 launcher; blast-radius 191/191; manifest
+855/14/1105; validator PASS 1067/2427; board 208/33/22 unchanged.
+Findings: notes/wave19_import_20260722/WAVE19_AUDIT_FINDINGS.md.

@@ -122,6 +122,12 @@
   role patterns and six outer-trace Mobius tests. Two harmonic classes are
   excluded algebraically, and a complete two-trace characteristic certificate
   excludes the two remaining classes. The parity chamber is nonharmonic.
+- On the maximal-degree selected-antipodal `c=2` collision shard, the
+  reciprocal quadratic-field affine intersection has one fixed candidate:
+  `y=(7+4a)/9`, with affine images `r,-r` for `r=(2a-1)/3`. Its three
+  subgroup tests are exactly one forty-squaring scalar recurrence. A
+  registered 16-shard screen covered all `4,495,442` progression moduli and
+  found no hit, excluding this reciprocal field shard.
 
 ## Open
 
@@ -181,6 +187,11 @@ alone is insufficient: the same packet must pass the coupled half-order sign
 gate `Z_39=2P_39` as well. The
 remaining general C2-PAR attack may therefore assume the quartet is
 antipodal-free after the one-pair circuit is excluded.
+
+The reciprocal selected-antipodal maximal-degree collision packet is empty
+by the fixed-element recurrence and complete no-hit certificate. Do not
+repeat the screen or retain that field shard. Fixed-field, degree-deficient,
+and non-selected-antipodal packets are outside this exclusion.
 
 For the matched `c=0` two-antipodal-denominator census, the mathematical
 compiler and exclusion interface are complete through the scalar,

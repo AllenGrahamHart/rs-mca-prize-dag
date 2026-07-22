@@ -452,6 +452,32 @@ The support split-divisor and endpoint `Xi` tests remain equality-only. This
 globalization narrows every maximal-degree collision packet but does not
 exclude either the degree-deficient or maximal-degree branch.
 
+## WAVE-44 ADDENDUM (2026-07-21; reciprocal affine collapse)
+
+The selected-antipodal affine intersection is now exact in the reciprocal
+quadratic-field chamber. For `q=p^2`, `p=-1 mod N`, Frobenius sends
+`a -> -a` and every `N`-torsion value to its inverse. Hence the three affine
+subgroup conditions force
+
+```text
+y=(7+4a)/9,
+r=(2a-1)/3,
+A_a(y)=r,       B_a(y)=-r,       y=-r^2.
+```
+
+They are equivalent to `r^N=1`, checked over `F_p` by forty squarings from
+
+```text
+R_0=-2/3,       R_(j+1)=R_j^2-2,       R_40=2.
+```
+
+The complete maximal-row interval contains exactly `4,495,442` progression
+values `p=k*2^40-1` before primality. A registered 16-shard exact screen
+covered every one, including composites, and found no terminal hit. Hence
+the reciprocal maximal-degree selected-antipodal collision shard is empty.
+The fixed-field, degree-deficient, and non-selected-antipodal shards remain
+outside this exclusion.
+
 ---
 
 ## WAVE-15 ADDENDUM (2026-07-20; fiber-two path residue)

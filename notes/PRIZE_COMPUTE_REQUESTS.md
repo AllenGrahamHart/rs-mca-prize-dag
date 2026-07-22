@@ -91,6 +91,12 @@ phrasing elsewhere in this file is retained for historical continuity; the
 time rule governs. (Ruling recorded in notes/MAINTAINER_DECISIONS_20260713.md;
 standing item #260's queued jobs re-screen under this rule.)
 
+The current account has a stricter user-imposed credit overlay: a launch must
+also have a conservative total cost below `$1` and fit the remaining balance.
+The five-minute ruling does not authorize a short but expensive many-container
+fleet. Unknown-cost work remains an outbound contributor request. Both the
+time rule and this temporary account ceiling must pass before any local launch.
+
 ## Request queue
 
 | priority | request | readiness | contributor action | current authorization |
@@ -229,6 +235,8 @@ compressed algorithm, pilot, memory ceiling, storage ceiling, and dollar
 ceiling exist, this remains a pre-request and no large run should be launched
 or solicited as proof-grade compute.
 
+### Pre-request XR-U: canonical uniform pointed-record census
+
 The XR high-core lane now has an arbitrary-rank uniform-cell Maxwell/trade
 reduction. The low-core rank-five lane also has a complete local ratio router
 for every `u=0` loop-defect cell, including a rich-core peeling formula and
@@ -256,8 +264,10 @@ or five-block full Segre circuits. A future registry must enumerate only those
 two coefficient classes. Within each fixed rank-two trade, the
 lexicographically first three/four-column basis now gives every non-anchor a
 unique fundamental-circuit owner and reconstructs the complete scaling
-kernel. A future registry must still prove first Maxwell-core/trade selection,
-exhaustive support embedding, and cross-core ownership.
+kernel. Deterministic peeling now chooses the first Maxwell core/trade and one
+active pivot repeatedly, leaving fewer than `2n` unowned blocks. A future
+registry must enumerate and bound the resulting pointed support embeddings
+and deduplicate them across collision components.
 
 The three-anchor coefficient branch is narrower still: every row has the
 form `s_i(P+gamma_i Q)` and the complete scalar vector is
@@ -273,8 +283,8 @@ The dual-codeword support extension is now exact too. Each row is specified
 by an active zero fiber `Z_i`, a forced-size inactive extension
 `|T_i|=h-d-1+|Z_i|`, and one cofactor `R_i` shared by the active-union and
 block numerators. A future compiler should enumerate this data and then test
-the genuinely missing received-pair agreement and first-core conditions; it
-must not enumerate arbitrary completed blocks independently.
+the genuinely missing received-pair agreement and pointed-record conditions;
+it must not enumerate arbitrary completed blocks independently.
 
 One received-pair parity condition is now exact before enumeration. In the
 three-anchor branch the polynomial plane pairs alternately with `(b,q)`, with
@@ -289,31 +299,315 @@ zero set `E_i`; actual inactive extensions are precisely its `tau_i`-subsets
 and have count `C(|E_i|,tau_i)`. A future compiler should carry that count
 and the zero-set certificate, not enumerate all parity rows or arbitrary
 completed blocks. The missing step is compatibility across the rows of one
-canonical star and first-core/cross-core ownership.
+canonical star and the count of its canonical pointed records.
 
 Compatibility across one rank-two star is now exact too. Split each extension
 into active-zero reuse and outside points; the pair cap becomes
 `|I_i|+|I_j|+|O_i intersect O_j|<=z_i+z_j-d-1`, with a summed multiplicity
 budget. A future checker should stream only packings satisfying this ledger.
 The missing algorithmic step is enumeration and counting of coefficient-
-compatible support/packing records and their first-core/cross-core owners.
+compatible pointed support/packing records across the peeling process.
+
+Primitive nonpositive-baseline records must also pass the exact Maxwell
+defect cap
+`(t-2)I+sigma+H<=floor(-D_0/2)`. At zero baseline the checker should reject
+every record with active-zero reuse, unused pair slack, or outside
+multiplicity at least three. This is a proved pruning rule, not a heuristic.
+
+The zero-baseline branch now has a stronger theorem-level filter and should
+not be sent out as a generic packing run. At every official odd reserve,
+retain only `t=2s+2` with `s|h` and even `D=d+1`; all odd arities are empty.
+The four-row case has `D=2h`, four disjoint `h`-point zero fibers, and no
+inactive extensions. Zero baseline is impossible below affine ranks
+`10,10,6,8601474050,8601474050,4302648690` on the six rows. Any future XR-U
+generator has only `15,15,2` zero-baseline divisor arities at the three prize
+rates after the necessary `a<=k` rank filter. It must apply these exclusions
+before sharding and keep proper local circuits separate from full-core
+records. The executable frontier is now strictly negative baselines plus the
+surviving even divisor arities, not an unrestricted zero-defect support sweep.
+
+Five-row full cores are also not a low-rank compute target. Their baseline is
+strictly negative with `b=-D_0=-5h mod 6`, and zero-fiber capacity excludes
+them below affine ranks
+`9,9,6,9544371773,9544371773,4772185889`. Below those floors, a five-block
+owner can occur only as a proper circuit inside a larger core and must be
+tagged that way. A future registry must also enforce the exact defect window
+`b=e+2(3I+sigma+H)`, `0<=e<=h-1`; sharding unrestricted five-block full-core
+records is obsolete.
+
+This exclusion now applies to every full-support rank-two arity below a
+row-wide floor. The exact negative-baseline arithmetic, composed with the
+zero-baseline router, excludes all such cores below affine ranks
+
+```text
+8,8,5,8590051854,8590020865,4294977670.
+```
+
+At the prize rows the minimizing arithmetic cells are
+`(t,D,b)=(384,22428335,174),(448,19217050,416),(958,4487961,734)`.
+These are necessary-bound cells, not existence witnesses. A future XR-U
+registry must reject every full-support rank-two record below the row floor
+before sharding. In that region it should generate only proper four/five-
+block circuit owners together with their larger-core ownership certificate.
+An all-arity negative-baseline full-core sweep is therefore obsolete and
+must not be submitted as a contributor compute request.
+
+Proper-circuit generation also has a mandatory theorem-level filter. A
+four-block owner has positive deficit at least `2`, and a five-block owner at
+least `1`. At nonpositive baseline, its defect charge begins exactly one
+integer above the corresponding full-core range. Beyond the explicit parity-
+sensitive shell cutoffs in
+`xr_rank_two_proper_circuit_defect_host_router`, every record must carry a
+replayable witness of active-zero reuse, unused pair slack, or outside
+multiplicity at least three, and its host must contain at least
+`ceil((Delta_J+e)/h)` additional blocks. A future donated registry must emit
+these witnesses and host links as part of its completeness certificate.
+Generating unhosted four/five-block circuits, or merging proper and full-core
+defect ranges, is not a valid large run.
+
+The prize-row low-rank circuit run is now empty altogether. The exact
+private-point/host-cap theorem, composed with the full-core floor, excludes
+every rank-two trade below affine ranks
+
+```text
+11,265,488;       9,646,193;       2,243,389
+```
+
+at rates `1/4,1/8,1/16`. A future XR-U implementation must apply these
+rank gates before generating any rank-two support record. Below them it must
+start with trade rank at least three. Any proposed contributor campaign that
+enumerates four/five-block owners in these ranges is obsolete regardless of
+its resource budget.
+
+The stronger rank-free theorem removes higher-rank uniform records there as
+well. At prize rates `1/4,1/8,1/16`, every uniform over-budget selector is
+empty through selector ranks
+
+```text
+11,243,370;       9,629,972;       2,241,633.
+```
+
+A contributor registry must reject the entire `u=v=0` uniform branch in
+these ranges before classifying trade rank. Only `u>=1` nonuniform cells are
+live below the gates. A low-rank prize campaign that generates any uniform
+Maxwell/trade records is now obsolete, not merely expensive.
+
+The effective-core theorem makes the required nonuniform filter much
+stronger. For any P-A flat-nullity cell, set `kappa=a+u+v`. An over-budget
+cell requires
+
+```text
+kappa>=11,243,370;       9,629,972;       2,241,633
+```
+
+at prize rates `1/4,1/8,1/16`. At the first open affine ranks `16,16,14`, a
+registry must therefore reject every cell below
+
+```text
+u+v=11,243,354;       9,629,956;       2,241,619.
+```
+
+Consequently a bounded-flat-nullity sweep is also obsolete. A future donated
+run may cover only the surviving huge-`u+v` range, after an analytic registry
+has compressed it to finitely many endpoint/profile cells. Its certificate
+must print `(a,u,v,kappa)`, replay the effective-core gate, prove coverage of
+the compressed range, and count distinct slopes with cross-cell ownership.
+No such compiler exists yet, so this remains part of `XR-U` rather than a
+runnable request.
+
+The exact basis-charge envelope gives another mandatory prefilter. At the
+first open prize ranks an over-budget cell has
+
+```text
+v<=1,526,176,110;       2,902,067,939;       1,962,285,106.
+```
+
+For fixed `v`, only the endpoint chambers `u=0` and `u=k-a-v` maximize the
+real envelope; this is a proved convexity statement. A future registry must
+reject `v` above the cap and represent the endpoint chambers explicitly.
+Requesting a two-dimensional sweep of the full `(u,v)` triangle is obsolete.
+If interior cells remain after future structural filters, their generator
+must prove coverage relative to the endpoint split and stream only canonical
+cell/profile certificates. This refinement still does not make `XR-U`
+runnable and creates no paid-compute request.
+
+The `u=0` endpoint now has its own mandatory record schema. After removing
+at most `v` exceptional slopes, every minimal core is a coherent `GRS_a`
+object with at least `v(t-2)+e+1` trades. Its rank-one records are exactly
+
+```text
+(S,Q,alpha),
+a+1<=|S|<=a+v,       deg Q<|S|-a,
+Q|_S nonzero,        sum alpha=sum gamma alpha=0.
+```
+
+Any eventual donated compiler must separate these records from trade rank at
+least two, assign a canonical first-match owner, and prove coverage after
+exceptional-slope deletion. A raw sweep over supports `S`, polynomials `Q`,
+or slope tuples is not a valid request: their official ranges are enormous
+and no aggregate owner exists. The high-value contributor task is an
+algorithm/design request for a compressed quotient/core owner and independent
+checker, not an execution request. No Modal task is authorized by this entry.
+
+The arbitrary-`u` compiler further changes the future schema. Every cell has
+at least `(u+v)(t-2)+e+1` trades, and each rank-one record must carry the
+lexicographically first shared kernel-matroid circuit `C` together with exact
+certificates
+
+```text
+2<=|C|<=a+1,       b|C in W|C,       q|C in W|C.
+```
+
+For `u=0`, retain the stronger `(S,Q,alpha)` certificate as well. For `u>0`,
+do not assume MDS support or generate arbitrary polynomials `Q`. A useful
+contributor request would design a compressed first-match map from these
+local-tangent circuit certificates into repeated quotient/core owners and
+prove its coverage. Until that owner exists, enumerating circuits, cells, or
+trade bases is an invalid large run and remains unpriced.
+
+Every future record must also apply the rank-metric gate before serialization.
+With `D=(u+v)(t-2)+e+1` and `M=|V|`, the generator must attach a trade of rank
+at most `t-1-ceil(D/M)`. A shard claiming only higher-rank records is invalid
+unless it independently verifies the complementary Singleton inequalities.
+At maximal flat nullity, no contributor run should generate unrestricted
+trades through arities `18,13,13`: those cells already have rank at most two,
+with the smaller `12,9,9` ranges forced to rank one. This is another pruning
+rule, not authorization for a low-rank sweep; canonical ownership and coverage
+are still missing.
+
+Rank-one records now require one of two canonical owner certificates:
+
+```text
+spanning:    first shared W-basis T + persistent residual set,
+             population <=floor((R-v)/h);
+nonspanning: closure flat F, rank j<a, |F|<=j+u.
+```
+
+The `u=0` registry must reject the nonspanning branch. A future contributor
+compiler must deduplicate the circuit, support, basis, and closure descriptions
+of the same trade and prove a one-slope/one-owner first-match rule. A raw
+enumeration over bases or flats would repeat records exponentially and is not
+a valid compute request. The desired donated artifact is the compressed owner
+map plus its coverage checker; runtime and cost remain unpriced until that
+algorithm exists.
+
+The arbitrary-`W` rank-two registry has only two genuine coefficient packet
+types after rank-one routing:
+
+```text
+4 blocks: rank-three Segre columns + Mobius/Plucker hyperplane;
+5 blocks: rank-four Segre columns + every four independent.
+```
+
+Three-block circuits must be emitted through the existing flat/basis owner.
+Any proposed run that generates rank-two records on other arities, or spends
+compute rediscovering the Segre coefficients, is invalid. A useful future
+request must instead compile support realizations of these two packet types in
+the arbitrary polynomial subspace `W`, attach cross-core first-match owners,
+and provide a coverage proof and independent checker. That compiler does not
+yet exist, so no execution or cost request is opened.
+
+Support packets are now compressed further. A valid four/five record must
+emit one dual plane `L subset (W|X)^perp`, a base-point-free projective map
+`[F:G]` on `X`, and the complementary zero fibers for the certified Segre
+directions. Distinct directions must have disjoint fibers; five-block
+direction multiplicity is at most two, with every repeated pair redirected
+to its basis/flat owner. Each row must include its arbitrary-`W` locator
+certificate `(DP4)`. Enumerating independent row supports is obsolete. A
+future request still needs a complete dual-plane generator, cross-core
+first-match rule, streaming checker, measured pilot, and cost ceiling.
+
+Every dual-plane packet must now declare one interaction chamber:
+
+```text
+augmented-orthogonal: five blocks, or four blocks with eta=0;
+perfect interaction: four blocks with eta!=0 and invertible Mobius matrix.
+```
+
+The checker must rebuild all four pairings with `b,q`; in the perfect branch
+it must verify that they are one nonzero scalar multiple of the canonical
+Mobius hyperplane. No other chamber is valid. This is a cheap mandatory
+certificate filter, not a reason to launch a plane sweep; the complete plane
+generator and aggregate bound remain absent.
+
+Within one flat-nullity cell, the cross-core first match is now fixed by the
+general peeling owner. A future certificate stream must emit only the packet
+attached when a block is removed by its first minimal dense core and first
+canonical trade. Exceptional and terminal slopes belong to one paid remainder
+
+```text
+v+floor((2(R-v)-1)/h)<n
+```
+
+and must not be sharded into owner searches. This removes core/trade
+duplication from the requested compiler. Cross-cell aggregation and a finite
+basis/flat/dual-projective packet bound are still missing, so the entry remains
+a design request rather than executable compute.
+
+Higher-rank records must use the same bounded schema rather than opening a
+rank-by-rank compiler. A valid rank-`r` packet, `r>=2`, must emit
+
+```text
+dual r-space L subset (W|X)^perp;
+base-point-free Phi:X->P^(r-1);
+t hyperplane directions, r+2<=t<=2r+1;
+Segre-column projective-circuit rank t-1;
+received-interaction annihilator dimension 2r-t+1.
+```
+
+Repeated coefficient directions must be redirected to the basis/flat owner;
+at maximal arity the checker must verify augmented orthogonality. For `r>2`,
+hyperplane sections can overlap, so a disjoint-fiber check would be invalid.
+This record type removes the need for separate rank-three, rank-four, and
+higher support searches, but it still lacks a finite generator and aggregate
+bound. Consequently it is a contributor design request, not authorization for
+a paid run.
+
+The checker must additionally quotient the row space by its received-pair
+pairing before emitting a packet. Only three interaction records are valid:
+
+```text
+rank 0: complete augmented orthogonality;
+rank 1: exactly one interactive row and t<=2r-1;
+rank 2: quotient rows tau_i(-gamma_i,1) and conic Segre columns.
+```
+
+All remaining dimensions must be emitted as an augmented-orthogonal kernel
+lift. A proposed large run that treats ranks three and above as independent
+interaction geometries is obsolete. The unresolved design problem is a
+finite first-match generator and aggregate bound for those kernel lifts; no
+runtime or funding request exists until that algorithm and its coverage
+checker are supplied.
+
 Accordingly there is no XR large-run request yet. A raw Maxwell-core,
 block-family, minimum-face, quadratic-chart, or fixed-loop-cell search would
 not certify either aggregate XR target and should not be sent to contributors
-as a compute task. Promote an XR request only after an ownership theorem turns
-the involution and shell parameters into a finite exhaustive chart registry
-with a streaming checker and measured pilot. Any such registry must tag
-proper local circuits separately from full-core records and reject the
-positive-deficit full-core ranges before enumeration. At prize scale it must
-not enumerate primitive rank-two records inside the printed shell band or any
-primitive first-shell record: both classes are provably empty.
+as a compute task. Promote an XR request only after a registry theorem turns
+the canonical pointed involution and shell parameters into a finite exhaustive
+chart atlas with a streaming checker and measured pilot. Any such registry
+must tag proper local circuits separately from full-core records and reject
+the positive-deficit full-core ranges before enumeration. At prize scale it
+must not enumerate primitive rank-two records inside the printed shell band
+or any primitive first-shell record: both classes are provably empty. It must
+also enforce the global rank floor above before spending compute on a
+negative- or zero-baseline full-support core.
 
 This progress does not yet promote XR to a numbered compute request. Although
-the circuit block arity and intratrade owner are now exact, the repository has
-no finite exhaustive compiler for first-core selection, evaluation-coordinate
-support-family/packing enumeration, or cross-core ownership. A raw sweep over
-four/five block choices would therefore still omit the proof of coverage and
-should remain an upstream algorithm pre-request.
+the circuit block arity, intratrade owner, and deterministic first-core peeling
+are now exact, the repository has no finite exhaustive compiler for the
+resulting evaluation-coordinate support-family/packing records or cross-core
+ownership. A raw sweep over four/five block choices would therefore still omit
+the proof of coverage and should remain an upstream algorithm pre-request.
+
+The eventual contributor decision is the exact number of realized pointed
+records at each declared official row after every proved router, effective-
+core gate, and defect filter. PASS must provide a complete record manifest
+and independently checked aggregate within the declared slope allowance.
+FAIL must provide either a replayable realized family above that allowance or
+a coverage/checker defect; only the former is mathematical counterevidence.
+The command, hard cost ceiling, and shard layout are deliberately blank until
+a complete large-nullity generator and measured pilot exist, so `XR-U` is not
+yet runnable or funded.
 
 ### Pre-request W3: official residual-envelope certificates
 
@@ -391,6 +685,124 @@ A future branch-width compiler or donated implementation must consume this
 area law. Charging the initial dimension independently at all `256/512`
 levels is an avoidable overcount and is not an acceptable campaign design.
 
+The algebraic chain history now has a bounded-degree normal form. Every local
+explanation lifts to an original RS codeword pair; successive full-zero sets
+occupy disjoint discrepancy layers, their locator product has degree at most
+`K-1`, and all descendant pair differences are divisible by the appropriate
+prefix locator. A donated compiler must carry this accumulated locator and
+the lifted pair. It must reject overlapping zero histories. If it enumerates
+different partitions of one locator product, each partition must be justified
+by a distinct first-match lifted-pair branch rather than treated as
+automatically distinct evidence. Since zero-size layers remain possible,
+enumerating locators alone is still not a complete branch-width algorithm.
+
+Terminal tangent ownership is now global rather than recursive. Deduplicate
+all lifted explanations as original codeword pairs and let `E` be their
+common-support pair-list size. Every residual slope whose first terminal
+event is a genuine tangent is paid once, with total
+
+```text
+(n-A)max(E-1,0).
+```
+
+The existing interleaving theorem compares `E` with the ordinary worst list
+exactly. A donated compiler must therefore emit a canonical manifest of
+distinct lifted pairs and their common agreement supports; repeated local
+nodes, locator histories, or paths reaching one pair are not separate
+records. It must not request one slope-fiber computation per explanation
+level. The unresolved breadth input is a global ordinary/common-support list
+bound, not a multiplicative tree-width estimate.
+
+The preferred terminal owner is sharper still. A tangent codeword has the
+lifted pair's `A` common agreements plus one discrepancy-coordinate
+agreement, so every terminal tangent slope lies in the original set
+`B_(A+1)(u,v)`. A production induction may therefore carry the whole union
+to agreement `A+1` without enumerating explanation pairs at all. It must
+re-run the complete quotient/profile first-match at each raised agreement;
+the class label at `A` is not presumed to persist. The global pair-list debit
+above remains an alternate static endpoint, not a mandatory sharding plan.
+
+The generic threshold-uniform quotient support repair has now been audited
+and rejected as a payment method. The standard quotient-remainder safe sum
+is valid over cells satisfying the strict activity condition `B-k<c`, but at
+every clean candidate one active support-size term
+
+```text
+C(n/c,floor(B/c)) C(n-c floor(B/c),B mod c)
+```
+
+already exceeds `B*`. The RowC cells are
+`(c,B)=(8,261),(8,135),(16,79)`; the prize cells are
+`(c,B)=(2^34,A),(2^34,A),(2^33,A)` at rates `1/4,1/8,1/16`.
+This does not show that the actual slope image is large. It shows that a
+contributor must coalesce distinct slope images across support sizes;
+enumerating or summing quotient supports is guaranteed to produce a
+nonclosing certificate.
+
+#### Superseded contributor handoff XR-QI: threshold quotient-image coalescing
+
+**Status: do not launch.** This is retained so a future PR records the
+discarded large-run design and its reopening criteria. The exact finite
+compiler interface is now a theorem:
+fixed-support quotient-space gcds and their radical lcm have degree exactly
+equal to the distinct slope image across all support sizes reached by the
+agreement carry. Subsequent ownership theorems reduce the unpaid part of that
+lcm to maximum-agreement factors whose witness supports are full agreement
+sets. A valuable implementation must construct this first-matched image
+through a compressed quotient representation, not materialize the support
+safe sum. The output must certify its exact finite-slope root union or a
+row-sharp upper degree bound, with all omitted factors certified as raised or
+generic owners.
+
+The compiler input has now compressed mathematically to exact-threshold
+images. Every higher quotient-remainder support descends to an exact-`A`
+support unless it is a one-point tail over a contained pure-fiber core. The
+proved boundary agreement owner carries every such tail directly into the
+existing `B_(A+1)` induction term, uniformly across cores and scales. An
+XR-QI implementation must therefore generate only exact-threshold quotient
+factors. Enumerating boundary tails or any other remainder is obsolete.
+
+The exact-threshold input is narrower still. Before quotient payment, remove
+the complete raised set `B_(A+1)`. Every surviving quotient slope then has
+maximum agreement exactly `A`, and every `A`-point quotient witness is the
+witness codeword's full agreement set. A useful compiler must work directly
+with these maximum-agreement full-support images. Generating arbitrary
+quotient supports that are proper subsets of a larger agreement set, or
+repeating one slope at several thresholds, is obsolete.
+
+The global core-collision router now removes the remaining reason to run this
+compiler. Across all thresholds, group slopes by their first-matched
+`(scale,k-point fiber core)`. Globally singleton keys have total count at most
+`B_quot_ub(A)` on all six clean rows. Repeated keys are already size-`k`
+collision slopes: they enter P-A on the generic branch and the mismatch
+bridge's existing common-core aggregate otherwise. No distinct quotient-lcm
+debit remains.
+
+Reopen XR-QI only if the core router is falsified, a maintainer rejects its
+P-A/post-strip scope, or an official-row convention invalidates `c|k`, strict
+activity, or the termwise binomial comparison. If reopened, the minimum
+promotion packet is:
+
+1. a theorem proving that the proposed compressed representation computes the
+   maximum-agreement full-support quotient image and that every omitted factor
+   is assigned to the proved `B_(A+1)` carry or another disjoint first-match
+   owner, without expanding the support family;
+2. a complete finite generator for the maximum-agreement full-support
+   quotient image at all declared scales and every threshold reached by the
+   terminating agreement induction, with no raw subset-support or
+   boundary-tail materialization;
+3. a streaming certificate containing factor hashes, rational-root or degree
+   witnesses, cross-threshold deduplication, and the exact residual debit;
+4. an independent checker and a measured RowC pilot with explicit CPU, RAM,
+   wall-time, and dollar totals; and
+5. a hard campaign ceiling. PASS must prove the coalesced quotient image plus
+   generic currency fits the relevant slot; FAIL must print one replayable
+   image factor or first-match class omitted by the compiler.
+
+Without one of those reopening events, a large quotient/profile sweep is
+obsolete and should not spend contributor compute. The static pair-list route
+remains a separate theorem target and does not require XR-QI.
+
 The terminal branch width is now analytic. Canonical explanation supports
 form a constant-weight code of distance `2(h+1)`. Once a descent state has
 `N<=4(h+1)`, its full live nongeneric subtree has at most
@@ -406,6 +818,11 @@ The whole near-terminal tree is polynomial, not only one support level. If
 super-polynomial nongeneric breadth outside every fixed logarithmic terminal
 window. Generic-chart slopes remain separate and are not paid by this bound.
 
+The global-owner theorem supersedes those terminal-tree bounds for tangent
+aggregation: the Plotkin windows remain useful checks and support diagnostics,
+but they are no longer production sharding units. They do not need a donated
+support census.
+
 The pre-terminal pairwise support cap is not a finite compiler. A proved
 Gilbert construction gives abstract support families satisfying the exact
 `K-1` intersection condition and containing more than `16n^3` members at all
@@ -420,17 +837,18 @@ the official universal statement. A future contributor-scale computation is
 valuable only after a theorem supplies all of:
 
 1. a finite aggregate compiler for the union of generic full-external-zero
-   charts, avoiding a sum over all zero sets;
-2. a complete slope-to-joint-explanation fiber bound on nongeneric charts;
-3. a per-level or amortized aggregate theorem for the pre-terminal
-   pairwise-`(K-1)`-low-core family, with quotient pullbacks and duplicate
-   slopes first-matched, the dimension-area law consumed, and no
-   multiplicative depth charge; this theorem must use algebraic realization
-   or slope ownership rather than support packing alone; and
-4. a streaming checker that combines those two currencies and enforces the
-   exact `16n^3` residual slot. The `n-A` tangent slot, chart
+   charts at every agreement reached by the carry, avoiding a sum over all
+   zero sets;
+2. either a complete finite agreement-raising compiler that prints and sums
+   every quotient/profile and generic currency through its terminal level,
+   or a theorem/certificate bounding the deduplicated global pair list `E`
+   with exact debit `(n-A)(E-1)` and every structured class explicit;
+3. a streaming checker that combines the selected carry/list ledger with the
+   generic-chart currency and enforces the exact `16n^3` residual slot. The
+   `n-A` tangent slot, chart
    canonicalization, nongeneric coverage, recursion depth, pathwise dimension
-   area, and terminal explanation breadth are already theorems.
+   area, terminal explanation breadth, and recursive tangent ownership are
+   already theorems.
 
 After those items exist, promote this to a numbered request. PASS must emit a
 complete cell manifest proving the two slot bounds at every routed official
@@ -638,6 +1056,28 @@ not authorization to spend the remaining local Modal credit.
   bases `(S,a)` satisfying `S(1)=a`, the non-full condition,
   `S^2-a^2 | X^m-1`, and `S^2-a^2` not dividing `X^(m/2)-1`. Apply the exact
   primitive stabilizer test and canonicalize scaling orbits.
+
+  If this level is consumed inside an official ambient order
+  `n=2^s` and `m=2^a`, apply the ambient-order norm cap first:
+
+  ```text
+  h<=min(m/4-1,2ceil(ma/(8s))-1).
+  ```
+
+  A shard above this cap is prohibited. The proof uses the same prime with
+  `p>n^2`; replacing `n` by `m` loses the proper-level saving. At
+  `n=2^41,m=2^40`, generate no width with `d<=6,704,339,192`.
+
+  Apply the sharper parity test immediately afterward. With `j=s-a`, reject
+  the complete width when
+
+  ```text
+  d even:  4(25s-36)d       <=25jm,
+  d odd:   4(25s-36)d+100s  <=25jm.
+  ```
+
+  This supersedes the coarse production boundary. At
+  `n=2^41,m=2^40`, generate no width with `d<=6,948,379,850`.
 
   Before allocating any live lower-quarter shard, write `h=m/4-d`, put
   `R=log m`, `x=4(d+1)R/m`, and define
@@ -1253,6 +1693,101 @@ sweep.
   implementation exists. The complete toy-order benchmark is done; do not
   launch a raw orbit fleet.
 - **consumer:** `f3_h3_mobius_excess_half` (C36').
+
+### CR-001-P24 satellite: vacuous DSP8 certificate
+
+This is the highest-value alternative output of CR-001, not a separate raw
+search.  A complete certificate that, at every official row in
+`n^2<=p<=6^(n/4)`,
+
+```text
+max_(t!=1) P(t)<=24
+```
+
+makes the `P(t)>=25` locus empty, proves DSP8 with zero retained records, and
+therefore closes the analytic C36' route.  A single official row and target
+with `P(t)>=25` refutes this satellite only; it does not refute DSP8 or C36'.
+The cheaper `P(t)>=21` watch proposed in the roadmap is falsification
+telemetry, not the falsifier for the displayed theorem.
+
+The algebraic candidate support is now proof-complete but not executable at
+official scale. The unordered-product cutoff-12 compiler constructs one
+degree-`n(n-1)/2` polynomial whose scalar derivative ideal, saturated by
+`(T-1)Y=1`, retains exactly the nonidentity unordered-multiplicity-13
+characteristics. At `n=8192` its degree is `33,550,336`, with thirteen
+generators rather than the ordered compiler's degree `67,092,481` and
+twenty-five generators. The saturation is load-bearing because `P(1)` can be
+large. Exact row replay rejects the sole selected cutoff-boundary profile
+`U=13,D=2,P=24`. The rich-fiber norm cutoff restricts the field range,
+and the low-distance/direct-DSP8 routers supply independent candidate and
+class-sensitive certificate checks. But no efficient scalar-elimination
+algorithm, measured implementation, or cost ceiling exists. Raw low-distance
+orbit enumeration still has at least `530,590,075` Galois/exchange classes at
+`n=8192`, while the normalized trace family is generically elliptic and
+cannot be replaced by the upstream Chebyshev complete-fiber or
+same-`(e1,e2)` conic theorems.
+
+Promote this satellite to a contributor run only after banking all of:
+
+1. a sparse/subresultant implementation of the proved unordered cutoff-12
+   scalar compiler, or of the exact sparse-input P25 subresultant scalar. The
+   pilot must compare both: the first halves the global product degree but
+   retains `U=13,D=2`; the second has exact nonidentity support but its
+   zeroth subresultant has degree `(n-1)^2`;
+2. a complete small-order comparison against direct hash enumeration,
+   including candidate inflation and peak memory;
+3. a resumable certificate that accounts for every candidate prime and
+   checks the proved `G_12^neq|H_D` criterion using monic gcd,
+   divisor-plus-Bezout witnesses and the full removed identity valuation,
+   without materializing `H^2`;
+4. an independent checker and conservative CPU/RAM/time/dollar ceilings.
+
+PASS authorizes promotion of `f3_h3_dsp8_correlation_bound` to `PROVED` by
+vacuity, followed by the existing C36' conditional chain.  FAIL emits the
+first exact `(n,p,t,P(t))` witness with `P(t)>=25` and retires only this
+satellite.  Incomplete output is evidence only.  Until the four readiness
+items are present, this remains an upstream theorem/algorithm request and no
+Modal launch is authorized.
+
+The preferred PASS artifact is now the `G_12^neq|H_D` certificate, not a
+target table. Its local valuation proof is exact: `G_12` charges
+`(U-12)_+`, while `H_D` charges `(D-1)_+`. A contributor implementation may
+still emit targetwise `(P,U,D)` values as an independent audit, but a list of
+observed maxima without complete gcd/prime coverage is not a proof.
+
+There are now two proof-complete candidate generators to benchmark. The
+unordered route uses degree `n(n-1)/2` and cutoff 12, followed by the exact
+boundary divisibility. The sparse-input route starts from
+`F_n(X),X^(n-1)F_n(T/X)` and takes the coefficient ideal of subresultants
+`0,...,24`; after the same nonidentity selector, its scalar prime support is
+exactly the `P>=25` support. A donated pilot should compare coefficient
+growth, elimination time, peak RAM, certificate size, and factorization
+burden. Sparse input alone is not a cost estimate: subresultant zero is the
+degree-`(n-1)^2` global product resultant.
+
+A third implementation route is a pre-request until it has a small measured
+pilot. The proved quadratic divisor tower selects a monic degree-25 divisor,
+inverts `X,T,T-1`, and represents both dyadic torsion tests by repeated
+squaring modulo that divisor. At order exponent `s` it has exactly
+`98s+30` variables and `98s+54` quadratic equations, reaching `4,048` by
+`4,072` at `s=41`. A checked integer unit-ideal certificate gives a complete
+bad-characteristic outer set; a modular solution is a P24 falsifier. Do not
+launch a full official system. A contributor should first implement `q=3,4`
+conformance systems, compare their scalar support with direct fibers, then
+benchmark one complete low exponent while recording peak RAM, wall time,
+certificate size, and coefficient growth. Four thousand quadratic variables
+may be worse than the dense univariate routes despite the bounded degree.
+
+The ordered-root tower is a fourth implementation candidate and the smallest
+proved quadratic presentation. It uses 25 explicit first coordinates, one
+inverse and two scalar towers per coordinate, and an inverted prefix product
+of all 300 pairwise differences. Its official maximum is `2,378` variables
+and `2,402` equations. The same pilot must compare it with the divisor tower:
+the ordered route saves about 1,670 variables but introduces at least `25!`
+generic presentation symmetry. No full run should be requested until a toy
+benchmark demonstrates that symmetry breaking makes the smaller system
+materially faster and still emits a replayable unit-ideal certificate.
+
 - **proved router:** `f3_h3_low_distance_ideal_star_router`, strengthening
   `f3_h3_low_distance_exceptional_prime_router`; the proved
   `f3_h3_ideal_star_prime_alignment_criterion` supplies the exact fixed-root
@@ -1618,6 +2153,24 @@ sweep.
 
   Every factor is nonzero at an actual row prime, so this saturation is
   completeness-preserving and removes all-singular template components.
+  The proved nodal/smooth high-tail domination gives a stronger aggregation
+  rule for any direct edge campaign. On antipodal-free targets with `P>=33`
+  and antipodal targets with `P>=35`, count only smooth signed-disjoint
+  distance-six edges and use
+
+  ```text
+  D_6(t)<=2D_sm(t).
+  ```
+
+  This charge is targetwise and therefore preserves `R(t)`. For a
+  nonexistence certificate, absence of smooth edges on such a target also
+  proves absence of nodal edges. A contributor must still enumerate or pay
+  the bounded bands `25<=P<=32` off the antipodal class and `25<=P<=34` on
+  it; silently applying the factor two there is a coverage failure. Do not
+  fund separate smooth and nodal high-tail fleets. If nodal diagnostics are
+  retained for falsification, aggregate them from the same streamed target
+  shards and report them as checks rather than an independent completeness
+  obligation.
   Then prove the row-sensitive inequality when `S_D` is available, or its
   uniform fallback
 
@@ -2841,6 +3394,43 @@ official-order job.
   request unless a pilot supplies a nonenumerative candidate generator,
   measured throughput and memory, checkpoint format, independent checker,
   and a conservative dollar ceiling below the contributor's approved spend.
+
+  **Completed finite sieve CR-002-C2CELL-COLL-RF (reciprocal selected-
+  antipodal affine shard; do not rerun).** The reciprocal field
+  chamber no longer has an affine search variable. For
+
+  ```text
+  N=2^40,       p=kN-1,
+  29058991<=k<=33554432,
+  r=(2a-1)/3,       a^2=-2,
+  ```
+
+  the three memberships in `(COLL6)` force
+
+  ```text
+  y=-r^2=(7+4a)/9,
+  A_a(y)=r,       B_a(y)=-r.
+  ```
+
+  They hold exactly when the base-field trace recurrence
+
+  ```text
+  R_0=-2/3,       R_(j+1)=R_j^2-2,       R_40=2 mod p
+  ```
+
+  passes. There are exactly `4,495,442` progression values before primality.
+  Modal app `ap-Ifv7cgmA0WCon3SfgP1aSo` partitioned the inclusive interval
+  into sixteen disjoint shards. It processed all `4,495,442` values, including
+  composites, with exact coverage and **zero hits**. The longest shard took
+  `3.13` seconds under `512 MiB`, below the registered `$0.25` ceiling. The
+  positive control `N=32,p=31` passed. The launcher, banked result, sixteen
+  coverage digests, and deterministic checker are registered and hash-pinned.
+
+  This is a stronger PASS than a prime-only sieve and excludes the reciprocal
+  maximal-degree selected-antipodal collision shard. No extension-field
+  arithmetic, subgroup enumeration, affine scan, or canonical coefficients
+  were used. Do not rerun this campaign; redirect contributor compute to the
+  fixed-field, degree-deficient, or non-selected-antipodal branches.
 
   Shard by official field chamber, first-match branch, normalized `(s,alpha,z_t)` orbit,
   and the compressed recurrence state. Each shard must checkpoint its exact orbit

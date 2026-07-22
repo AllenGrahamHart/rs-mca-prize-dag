@@ -171,3 +171,16 @@ unsafe witness.
 The direct falsifier for a proposed remaining-branch certificate is one admissible rate-half
 row and received word with more than `B*` codewords at its asserted safe
 agreement. Numerical survival is evidence only.
+
+The reciprocal selected-antipodal maximal-degree collision shard is closed.
+Its unique affine candidate is
+
+```text
+a^2=-2,       r=(2a-1)/3,
+y=-r^2,       A_a(y)=r,       B_a(y)=-r.
+```
+
+The registered `CR-002-C2CELL-COLL-RF` screen tested all `4,495,442`
+progression moduli by the forty-step recurrence and found no hit. Do not
+rerun it or allocate reciprocal selected-antipodal packets. Continue with
+the fixed-field, degree-deficient, or non-selected-antipodal shards.

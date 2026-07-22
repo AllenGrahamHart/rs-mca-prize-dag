@@ -74,6 +74,7 @@ FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_AFFINE = "rate_half_list_budget_three_fiber_two
 FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_AFFINE_CAP = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap"
 FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_COLLISION_HIGH = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router"
 FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_DEGREE_GLOBAL = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router"
+FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_RECIPROCAL_AFFINE = "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse"
 ANTIPODAL_DESCENT = "rate_half_list_budget_three_fiber_four_antipodal_descent"
 ANTIPODAL_WELD = "rate_half_list_budget_three_antipodal_mobius_weld"
 ANTIPODAL_DEGREE_FLOOR = "rate_half_list_budget_three_antipodal_pencil_degree_floor"
@@ -216,6 +217,7 @@ def main() -> int:
         ("fiber_two_cycle_c2_one_antipodal_affine_cap_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_AFFINE_CAP]["status"] == "PROVED"),
         ("fiber_two_cycle_c2_one_antipodal_collision_high_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_COLLISION_HIGH]["status"] == "PROVED"),
         ("fiber_two_cycle_c2_one_antipodal_degree_global_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_DEGREE_GLOBAL]["status"] == "PROVED"),
+        ("fiber_two_cycle_c2_one_antipodal_reciprocal_affine_is_proved", nodes[FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_RECIPROCAL_AFFINE]["status"] == "PROVED"),
         ("antipodal_descent_is_proved", nodes[ANTIPODAL_DESCENT]["status"] == "PROVED"),
         ("antipodal_weld_is_proved", nodes[ANTIPODAL_WELD]["status"] == "PROVED"),
         ("antipodal_degree_floor_is_proved", nodes[ANTIPODAL_DEGREE_FLOOR]["status"] == "PROVED"),
@@ -343,6 +345,7 @@ def main() -> int:
                 (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_AFFINE, "ev"),
                 (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL, "ev"),
                 (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_TRACE, "ev"),
+                (FIBER_TWO_CYCLE_C2_ONE_ANTIPODAL_RECIPROCAL_AFFINE, "ev"),
                 (FIBER_TWO_CYCLE_C2_TRACE, "ev"),
                 (FIBER_TWO_CYCLE_C2_PARITY, "ev"),
                 (FIBER_TWO_CYCLE_C2_PURE, "ev"),
@@ -802,6 +805,16 @@ def main() -> int:
             and "actual hypothesis needed" in statement
             and "355106851<2^29" in statement
             and "endpoint `Xi` tests remain equality-only" in statement,
+        ),
+        (
+            "statement_pins_fiber_two_cycle_c2_one_antipodal_reciprocal_affine",
+            "WAVE-44 ADDENDUM" in statement
+            and "y=(7+4a)/9" in statement
+            and "r=(2a-1)/3" in statement
+            and "R_(j+1)=R_j^2-2" in statement
+            and "R_40=2" in statement
+            and "4,495,442" in statement
+            and "shard is empty" in statement,
         ),
         (
             "statement_pins_antipodal_descent",

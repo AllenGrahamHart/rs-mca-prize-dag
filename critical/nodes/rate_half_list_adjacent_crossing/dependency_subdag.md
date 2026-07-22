@@ -199,3 +199,15 @@ support-polynomial compiler + collision-or-high-support router
 The maximal-degree branch inherits the Euler, infinity, selected-affine, and
 Stepanov gates at every support. Degree-deficient packets have an exact even
 support-defect ledger. The split-divisor endpoint is still equality-only.
+
+The reciprocal selected-antipodal shard has one further exact collapse:
+
+```text
+degree-defect global gate router + c2 torsion-field router
+  -> reciprocal affine collapse [PROVED]
+       -> rate_half_list_adjacent_crossing [TARGET, evidence]
+```
+
+It replaces the three-affine-image search by one fixed norm-one element. The
+complete forty-squaring no-hit certificate excludes that reciprocal shard;
+fixed-field, deficient-degree, and non-selected-antipodal shards remain.
