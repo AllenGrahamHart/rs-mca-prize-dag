@@ -752,6 +752,16 @@ sufficient. Its coefficientwise cube is the union indicator with exactly
 `p+4` zero positions. The remaining theorem is emptiness or a row-sharp
 component bound for this two-Schur section, not a generic `Q` enumeration.
 
+The first analytic component compression is now proved in
+`l1_m4_h3_mason_defect_budget`. Writing the depressed factorization as
+`(R^3+aR+b)D=X^n-alpha`, one necessarily has `a!=0` and
+`nu=ord_0(R) in {0,1,2,3,4}`. The radical deficits of `UD` and of the second
+reduced Mason summand total at most `4-nu`. The Wronskian also gives the
+explicit nonzero eliminant
+`3XU'D+XUD'-(n-3nu)UD` of degree at most `4-nu`. Thus the cubic branch is a
+five-case low-defect classification problem, not an unrestricted cyclic-code
+search. Emptiness or a payable component count for those cases remains open.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

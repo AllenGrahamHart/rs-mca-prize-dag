@@ -15292,6 +15292,25 @@
     "background/nodes/l1_m4_h3_colored_cyclic_equivalence/verify.py",
     "background/nodes/l1_m4_h3_colored_cyclic_equivalence/verify_audit.py"
    ]
+  },
+  {
+   "id": "l1_m4_h3_mason_defect_budget",
+   "title": "L1 m=4, h=3 Mason defect budget",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a hypothetical exact h=3 pencil on an official row n=4(p+1), depress the outer cubic and write (R^3+aR+b)D=X^n-alpha with deg R=p and deg D=p+4. Its linear coefficient satisfies a!=0. If nu=ord_0(R), then 0<=nu<=4, and H=3XU'D+XUD'-(n-3nu)UD is nonzero of degree at most 4-nu for U=R/X^nu. The radical defects delta_A=deg U+deg D-deg rad(UD) and delta_B=deg B_0-deg rad(B_0), where B_0=((aR+b)D+alpha)/X^(3nu), satisfy delta_A+delta_B<=4-nu. This is a finite low-defect classification target, not an emptiness theorem, component count, nonembedded h=2 classification, or L1 bound.",
+   "refs": [
+    "background/nodes/l1_m4_h3_mason_defect_budget/statement.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/proof.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/claim_contract.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/audit.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/result.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/lineage.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/verify.py",
+    "background/nodes/l1_m4_h3_mason_defect_budget/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -29332,6 +29351,21 @@
   },
   {
    "from": "l1_m4_h3_colored_cyclic_equivalence",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_colored_cyclic_equivalence",
+   "to": "l1_m4_h3_mason_defect_budget",
+   "kind": "req"
+  },
+  {
+   "from": "l1_official_max_split_value_complement_census",
+   "to": "l1_m4_h3_mason_defect_budget",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_mason_defect_budget",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

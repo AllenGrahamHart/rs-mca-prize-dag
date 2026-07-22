@@ -3517,3 +3517,15 @@ returning a solver status. This is no mathematical evidence. The exact run
 ledger is preserved beside the script, and `CR-L1-MCP-C31` requests a
 precomputed coefficient table, separated build/search timing, model hash,
 and replayable result from a contributor. No current-account rerun is planned.
+
+## 132 - 2026-07-22: M4/H3 HAS A FOUR-UNIT MASON DEFECT BUDGET
+
+Specializing the exact complement factorization to `n=4(p+1),h=3` and
+retaining the proved exclusion of the Frobenius-degenerate arm yields a
+strict finite classification. In depressed form `(R^3+aR+b)D=X^n-alpha`,
+one has `a!=0`, `nu=ord_0(R)<=4`, and the radical deficits of `UD` and the
+second reduced summand total at most `4-nu`. A nonzero Wronskian eliminant
+has degree at most `4-nu`. Thus the two-Schur branch has
+five low-defect valuation cases rather than an unbounded support search.
+This is PROVED compression, not emptiness; the next task is to classify or
+price those five cases.

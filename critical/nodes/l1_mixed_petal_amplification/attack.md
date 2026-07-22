@@ -373,6 +373,12 @@
   emptiness or component theorem for words `b` with
   `b,b^[2] in C_M`, exact three-color counts `p,p,p`, and zero complement
   `p+4`. One code constraint alone is not equivalent and must not be used.
+  Then apply `l1_m4_h3_mason_defect_budget`: classify the five cases
+  `nu=0,...,4` with total radical defect at most `4-nu`. The case `a=0` is
+  already impossible. Retain the explicit nonzero Wronskian eliminant of
+  degree at most `4-nu`. Any computation should encode these defect conditions
+  and report which valuation case it covers; a generic no-hit SAT run does
+  not pay the branch.
   Contributor-scale
   work is specified as `CR-L1-MCP` in
   `notes/PRIZE_COMPUTE_REQUESTS.md`; no local or current-account Modal run is

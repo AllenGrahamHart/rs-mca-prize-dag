@@ -1744,6 +1744,15 @@ account. `CR-L1-MCP-C31` records the contributor task, including precomputed
 Fourier coefficients, model hashing, separated build/search timing, and
 independent witness replay. Analytic component structure remains the primary
 route; compute is a falsifier and route selector only.
+The exact abc ledger now sharpens the analytic route further. In any
+hypothetical official `m=4,h=3` record, the depressed cubic has nonzero
+linear coefficient, `ord_0(R)` is one of `0,...,4`, and the combined radical
+defect of the two reduced nonmonomial factors is at most `4-ord_0(R)`. This
+proved five-case reduction is `l1_m4_h3_mason_defect_budget`. The immediate
+proof target is a low-defect Davenport-Mason classification of those cases,
+using its explicit nonzero Wronskian eliminant of degree at most four;
+the CP model is secondary and should be stratified by the same invariants if
+a contributor runs it.
 
 **Track H — hedges (funded, never built on):** H1 price RK by one dedicated
 refutation round (survives -> insurance; dies -> the 17-leaf prune comes off

@@ -7001,3 +7001,12 @@ build time, actual CP-SAT wall time, status, branches, and conflicts. A
 complete evidence for this nonofficial analogue only; `UNKNOWN` or timeout is
 `INCOMPLETE`. Benchmark before increasing CPUs or wall time, and state the
 dollar cap in advance. No current-account rerun is authorized.
+
+The preferred follow-up is now analytic. The proved
+`l1_m4_h3_mason_defect_budget` shows that every genuine record has depressed
+outer coefficient `a!=0`, valuation `nu in {0,1,2,3,4}`, and total radical
+defect at most `4-nu`. It also supplies a nonzero Wronskian eliminant of
+degree at most `4-nu`. A donated solver extension should expose `a`, `nu`,
+and the two defect witnesses, shard by these five cases, and independently
+check the exact factorization `(R^3+aR+b)D=X^n-alpha`. A generic feasible or
+no-hit color assignment without this replay remains only analogue evidence.
