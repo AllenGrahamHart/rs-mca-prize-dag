@@ -11,7 +11,7 @@ one known linear factor.
 
 The logarithmic-derivative argument is restricted to `z!=0` and to the two
 printed invariants lying in `F_p`; only then can their residues be used as
-integer exponents. It does not silently descend a quadratic-field passport.
+integer exponents. It does not silently descend a non-prime-field passport.
 The `ord_0(T)=1` route uses the complete split fiber `R=0` to force the
 additional exponent `t` to vanish.
 

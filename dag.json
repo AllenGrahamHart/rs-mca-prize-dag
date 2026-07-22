@@ -15763,7 +15763,7 @@
    "title": "L1 Mersenne next-to-maximal Belyi shifted-value gate",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "Every next-to-maximal Mersenne survivor has a degree-h shifted-value polynomial dividing W^n-1 and obeying an exact weighted-derivative divisibility. The zero quadratic-quotient root is impossible; if the two remaining projective invariants are both prime-field normalized, a rational pth-power valuation argument gives an impossible multiplicity packet. Hence only genuinely quadratic-field normalization remains.",
+   "statement": "Every next-to-maximal Mersenne survivor has a degree-h shifted-value polynomial dividing W^n-1 and obeying an exact weighted-derivative divisibility. The zero quadratic-quotient root is impossible; if the two remaining projective invariants are both prime-field normalized, a rational pth-power valuation argument gives an impossible multiplicity packet. Hence only genuinely non-prime-field normalization remains.",
    "refs": [
     "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/statement.md",
     "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/proof.md",
@@ -15775,6 +15775,29 @@
     "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/upstream_crosswalk.md",
     "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/verify.py",
     "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "title": "L1 Mersenne next-to-maximal hypergeometric normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every next-to-maximal Mersenne outer passport is either a one-parameter degree-h hypergeometric polynomial P_s dividing W^n-1 with s outside the prime field, or a torsion point (c-1)^n=1 on one explicit top-down coefficient-recurrence curve. This is a low-dimensional exact outer normal form, not an emptiness or inner-lift theorem.",
+   "refs": [
+    "background/nodes/l1_mersenne_next_to_maximal_hypergeometric_normal_form/statement.md",
+    "background/nodes/l1_mersenne_next_to_maximal_hypergeometric_normal_form/proof.md",
+    "background/nodes/l1_mersenne_next_to_maximal_hypergeometric_normal_form/claim_contract.md",
+    "background/nodes/l1_mersenne_next_to_maximal_hypergeometric_normal_form/dependency_subdag.md",
+    "background/nodes/l1_mersenne_next_to_maximal_hypergeometric_normal_form/audit.md",
+    "background/nodes/l1_mersenne_next_to_maximal_hypergeometric_normal_form/result.md",
+    "background/nodes/l1_mersenne_next_to_maximal_hypergeometric_normal_form/lineage.md",
+    "background/nodes/l1_mersenne_next_to_maximal_hypergeometric_normal_form/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_next_to_maximal_hypergeometric_normal_form/verify.py",
+    "background/nodes/l1_mersenne_next_to_maximal_hypergeometric_normal_form/verify_audit.py",
+    "experiments/prize_resolution/l1_mersenne_hnf_toy_gcd_modal.py",
+    "experiments/prize_resolution/check_l1_mersenne_hnf_toy_gcd.py",
+    "experiments/prize_resolution/l1_mersenne_hnf_toy_gcd_result.json",
+    "experiments/prize_resolution/l1_mersenne_hnf_toy_gcd_result.md"
    ]
   }
  ],
@@ -30166,6 +30189,16 @@
   },
   {
    "from": "l1_mersenne_next_to_maximal_belyi_shifted_value_gate",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_belyi_shifted_value_gate",
+   "to": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

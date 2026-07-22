@@ -4461,9 +4461,36 @@ Its valuations force `theta=h`, `c=m`, a simple zero at the source origin,
 and multiplicity `((m-1)p-1)/m` at every other root of `R-R(0)`. The
 remaining degree `p-1` lies strictly between one and two copies, impossible.
 The `z=0` chamber is independently impossible by local Euler orders. Thus
-only genuinely quadratic-field-normalized Belyi passports remain at
+only genuinely non-prime-field-normalized Belyi passports remain at
 `h=7/15`; prime-field chambers must not be sent to compute.
 Before descent, the outer identity also gives
 `x(x-1)P'(x)=constant` at every normalized nonzero split value. In the
 `ord_0(T)=0` chamber this upgrades to
 `W(W-1)P'-K=(hW+b)P`, a one-parameter low-degree differential packet.
+
+## 178 - 2026-07-23: NEXT-TO-MAXIMAL OUTER PASSPORTS ARE LOW-DIMENSIONAL
+
+`l1_mersenne_next_to_maximal_hypergeometric_normal_form` solves the
+coefficient equations of catch #177. After scaling `R(0)=1`, the exact outer
+identity gives a top-down recurrence from `(A,c)` for every coefficient of
+`G`; its last equation is `[2A-ch]g_0=0`. Equivalently, with
+`rho=2A/[c(c-1)]`, the reversed coefficients are those of
+`(1-t)^(c rho)(1-ct)^(-rho)`. In the `ord_0(T)=0` chamber this
+forces `2A=ch`, and comparison in the weighted differential identity gives
+
+```text
+P_s(W)=sum_(r=0)^h binom(s+r-1,r)W^(h-r),
+s=h/(c-1) notin F_p.
+```
+
+Thus only the univariate congruence `P_s|W^n-1` remains outside the prime
+field. In the `ord_0(T)=1` chamber, the closing equation is the explicit
+hypergeometric curve `[t^h](1-t)^(c rho)(1-ct)^(-rho)=0`, and the zero split value forces
+`(c-1)^n=1`. This is a strict outer-search compression, not an emptiness or
+inner-lift theorem. Unknown-cost exact gcd/resultant work remains the
+outbound request `CR-L1-MCP-NMCE`.
+
+The bounded `(m,h,p,n)=(8,7,31,256)` analogue then returned exact common
+gcd `s-1`; removing `s^31-s` leaves the unit polynomial. Modal app
+`ap-gT0DyToHmnD911PEFFilTd` used `2.805886` worker-seconds. This is evidence
+for the univariate route only, not an official-row theorem.

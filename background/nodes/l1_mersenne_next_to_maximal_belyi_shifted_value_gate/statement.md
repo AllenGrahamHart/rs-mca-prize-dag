@@ -70,4 +70,4 @@ z!=0,       {c,theta} is not contained in F_p.          (BSG5)
 ```
 
 This is a strict exclusion and divisibility gate, not a closure of the
-quadratic-field-normalized residue or of lower `h`.
+non-prime-field-normalized quadratic-quotient residue or of lower `h`.

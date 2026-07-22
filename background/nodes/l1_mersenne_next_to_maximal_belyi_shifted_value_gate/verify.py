@@ -44,7 +44,7 @@ def main() -> None:
     for anchor in ("(BSG1)", "(BSG2)", "(BSG3)", "(BSG4)", "(BSG5)",
                    "(BSG2a)", "(BSG2b)", "P(W) divides W^n-1",
                    "c` and `theta` in the prime field",
-                   "z!=0", "quadratic-field-normalized residue"):
+                   "z!=0", "non-prime-field-normalized quadratic-quotient residue"):
         assert anchor in statement
         checks += 1
 

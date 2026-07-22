@@ -1127,12 +1127,29 @@ the monic degree-`h` polynomial whose roots are
 when both projective invariants `z/R(0)` and
 `2[Y^(h-2)]G/(R(0)z)` lie in `F_p`; a rational `p`th-power valuation ledger
 would force an impossible uniform multiplicity. Thus the exact endpoint
-residue is genuinely quadratic-field normalized; the `z=0` chamber is also
+residue is genuinely non-prime-field normalized; the `z=0` chamber is also
 empty by a direct local-order contradiction.
 The same gate pins `W(W-1)P'` to one constant at every nonzero root of the
 shifted polynomial. In the zero-free outer chamber this is an exact linear-
 quotient differential equation for `P`, leaving a one-parameter degree-`h`
 cyclotomic problem rather than a free coefficient search.
+
+The coefficient-level successor
+`l1_mersenne_next_to_maximal_hypergeometric_normal_form` makes that reduction
+explicit. In the zero-free chamber,
+
+```text
+P_s(W)=sum_(r=0)^h binom(s+r-1,r)W^(h-r),
+s=h/(z/R(0)-1) notin F_p,
+```
+
+and survival is exactly `P_s | W^n-1`. In the order-one chamber, all outer
+coefficients are generated from `(A,c)` by one top-down recurrence, its last
+equation is the hypergeometric curve
+`[t^h](1-t)^(c rho)(1-ct)^(-rho)=0`, and the known zero split value
+forces `(c-1)^n=1`. Thus the remaining next-to-maximal outer classification
+is low-dimensional, but neither intersection is yet proved empty and no
+inner degree-`p` lift is supplied.
 
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full

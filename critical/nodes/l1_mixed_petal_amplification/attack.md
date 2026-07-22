@@ -553,6 +553,17 @@
   `W^n-1`. Delete `z=0`, and delete every remaining chamber in which both
   `z/R(0)` and `2[Y^(h-2)]G/(R(0)z)` are prime-field valued. Retain only a
   certified non-prime-field invariant, with direct Frobenius replay.
+  Then consume
+  `l1_mersenne_next_to_maximal_hypergeometric_normal_form`. In the
+  `ord_0(T)=0` chamber do not search polynomial coefficients: set
+  `s=h/(z/R(0)-1)` and use the forced polynomial
+  `sum_(r=0)^h binom(s+r-1,r)W^(h-r)`, with `s notin F_p`; its exact
+  divisibility by `W^n-1` is the whole outer test. In the `ord_0(T)=1`
+  chamber put `rho=2A/[c(c-1)]`, generate `G` from the printed top-down
+  recurrence, impose the single explicit equation
+  `[t^h](1-t)^(c rho)(1-ct)^(-rho)=0`, and require `(c-1)^n=1` before
+  any inner lift. These are a univariate remainder problem and a torsion
+  intersection with one explicit curve, not field-element enumerations.
   `CR-L1-MCP-NMCE` specifies the outbound
   proof-producing classification request; it is not authorized locally or
   on the current Modal account.

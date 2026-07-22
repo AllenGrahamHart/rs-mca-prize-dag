@@ -7130,8 +7130,34 @@ compression.
 not authorized locally or on the current Modal account. Benchmark and price
 one outer chamber before any extension.
 
+**Pre-registered bounded analogue pilot `HNF-TOY-GCD`.** One 1-CPU, 1-GiB,
+120-second Modal task may compute the exact common-remainder gcd for
+`(m,h,p,n)=(8,7,31,256)`, remove its `F_p` factor via `s^p-s`, and emit all
+remainder and factor coefficients. Its deterministic local checker replays
+the same low-degree algebra. A nonconstant outside-prime-field quotient
+falsifies analogue emptiness; a unit quotient is calibration only, not an
+official theorem. No second case or official row is authorized by this
+pilot.
+
+The first launch, Modal app `ap-zbyPpAZamkVE3AlXYQJzov`, failed during
+setup: SymPy's `Poly.rem` could not coerce `F_31[s]` to its fraction field.
+It returned no mathematical output. The corrected launcher declares
+`F_31(s)` directly; because the divisor is monic in `W`, the computed
+remainders remain in `F_31[s]`. One corrected retry remains within the same
+bounded-pilot authorization.
+
+The corrected pilot completed as Modal app
+`ap-gT0DyToHmnD911PEFFilTd` in `2.805886` worker-seconds. Its exact common
+gcd is `s-1`; this is wholly the `F_31` factor, so the outside-prime-field
+quotient is the unit polynomial. The analogue therefore has no live
+order-zero survivor. The full remainder payload is hash-pinned and locally
+replayed by `check_l1_mersenne_hnf_toy_gcd.py`. This calibrates the proposed
+gcd route but proves nothing on an official characteristic. No further local
+or Modal case is authorized; official and larger rows remain outbound
+contributor requests.
+
 This request targets only the exact residue of
-`l1_mersenne_next_to_maximal_belyi_shifted_value_gate` on
+`l1_mersenne_next_to_maximal_hypergeometric_normal_form` on
 
 ```text
 (m,h,p)=(8,7,8191),(8,7,131071),(8,7,524287),
@@ -7189,6 +7215,38 @@ W(W-1)P'(W)-K=(hW+b)P(W)
 for some scalar `b`. In the `ord_0(T)=1` chamber, divide `P` first by the
 known root `W=-R(0)/(z-R(0))` and require the resulting divisibility. Reject
 before any inner stage if either differential check fails.
+
+Do not begin from free coefficients of `G`. The proved normal form splits
+the outer stage into exactly two low-dimensional tasks.
+
+- For `ord_0(T)=0`, put `s=h/(c-1)` and use only
+
+  ```text
+  P_s(W)=sum_(r=0)^h binom(s+r-1,r)W^(h-r).
+  ```
+
+  Compute the gcd over `F_p[s]` of the coefficient remainders of
+  `W^n-1 mod P_s`, then remove its gcd with `s^p-s`. A complete unit quotient
+  closes this chamber. Any retained irreducible factor must include an exact
+  algebraic representation of `s`, replay of `s notin F_p`, and the zero
+  remainder certificate.
+
+- For `ord_0(T)=1`, normalize `g(y)=R(0)^(-h)G(R(0)y)`,
+  `A=[Y^(h-2)]G/R(0)^2`, and `c=z/R(0)`. Generate every coefficient by
+  the registered top-down recurrence (HNF3), put
+  `rho=2A/[c(c-1)]`, and impose its closed-form last equation
+  `Phi_h(rho,c)=[t^h](1-t)^(c rho)(1-ct)^(-rho)=0`. Intersect that curve
+  with `(c-1)^n=1` and the shifted-polynomial remainder equations. A complete resultant or
+  primary-decomposition certificate closes this chamber. A surviving point
+  must carry exact coordinates and direct replay of all three equations.
+
+For the largest rows, a naively expanded degree-`n` remainder or resultant
+may be prohibitively large. Benchmark the recurrence/Frobenius algorithm on
+one analogue and one smallest official chamber, record peak memory and
+intermediate degrees, and stop if the projected total is at least `$1` or
+five minutes on the current account. A larger or unknown-cost exact run is a
+contributor request; no field-element scan or raw degree-`n` coefficient
+materialization is acceptable.
 
 Classify `(NMCE-OUT)` by exact subresultant or ideal decomposition, sharded
 only by the two values of `r` and the declared leading-coefficient chamber;

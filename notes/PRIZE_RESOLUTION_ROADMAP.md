@@ -1990,10 +1990,23 @@ The first generalization of the `m=4` auxiliary-fiber close is now proved:
 degree-`h` split-value polynomial divide `W^n-1` and excludes every nonzero
 passport whose two projective invariants descend to `F_p`. Therefore the
 `z=0` chamber is also locally impossible, and the live `h=7/15` residue is
-genuinely quadratic-field normalized.
+genuinely non-prime-field normalized.
 The next analytic question is a Frobenius/descent classification of that
 small-degree cyclotomic divisor, additionally constrained by the exact
 weighted-derivative equation, not a degree-`p` coefficient census.
+That question now has a coefficient-free exact normal form. In the
+`ord_0(T)=0` chamber,
+`P_s=sum_(r=0)^h binom(s+r-1,r)W^(h-r)` for one `s notin F_p`, and the only
+outer condition left is `P_s|W^n-1`. In the `ord_0(T)=1` chamber, a top-down
+recurrence generates `G` from `(A,c)`, the final coefficient equation cuts
+out the explicit hypergeometric curve
+`[t^h](1-t)^(c rho)(1-ct)^(-rho)=0`, where
+`rho=2A/[c(c-1)]`, and the zero split value imposes
+`(c-1)^n=1`. This is
+`l1_mersenne_next_to_maximal_hypergeometric_normal_form`. The proper next
+step is an exact univariate cyclotomic gcd and curve-torsion intersection,
+not enumeration over fields or degree-`h` coefficient vectors; the
+unknown-cost campaign remains delegated as `CR-L1-MCP-NMCE`.
 The next analytic target is therefore an exhaustion theorem for low-weight
 balanced signed words in the `m=4` Mersenne cyclic code. The exact finite
 falsifier `CR-L1-MCP-M4H2-C31` asks contributors to classify the order-128

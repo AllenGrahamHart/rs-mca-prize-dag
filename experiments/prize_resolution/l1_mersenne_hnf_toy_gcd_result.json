@@ -1,0 +1,13 @@
+{
+  "app_id": "ap-gT0DyToHmnD911PEFFilTd",
+  "common_gcd": [30, 1],
+  "h": 7,
+  "m": 8,
+  "n": 256,
+  "outside_factors": [],
+  "outside_prime_field": [1],
+  "p": 31,
+  "payload_sha256": "726325f99e4f732b5807a3fa21345729e7bf7956e36d04a0c7fd4fe888f91646",
+  "prime_field_part": [30, 1],
+  "worker_seconds": 2.805886
+}
