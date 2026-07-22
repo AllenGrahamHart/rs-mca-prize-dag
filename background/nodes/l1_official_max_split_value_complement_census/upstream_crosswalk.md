@@ -14,7 +14,9 @@ u=n-hp,       ell_h=u-d+p,
 #pairs_h<=binom(h,2)floor(binom(n,ell_h)/binom(u,ell_h)).
 ```
 
-The nine small-remainder official rows are polynomially paid, and the
-terminal maximal stratum is empty on every official row. This does not solve
-the base-field-normalized split-pencil census: the lower value degrees
-`2,...,m-1` remain the portable open endpoint.
+The maximal stratum is empty on every official `m>=3` row by the printed
+Frobenius multiplicity test `(n-mp)(-m^(-1) mod p)>p`. This does not solve the
+base-field-normalized split-pencil census: the lower value degrees
+`2,...,m-1` remain the portable open endpoint, with only degree two left when
+`m=3`. Their depressed inner polynomial satisfies
+`ord_0(R)<=n-(h+1)p`; retain this valuation field in any handoff.

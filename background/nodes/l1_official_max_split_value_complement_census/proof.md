@@ -76,70 +76,68 @@ floor(binom(n,ell_h)/binom(u,ell_h))
 complements. Each gives at most one normalized pencil, and each pencil has
 `binom(h,2)` unordered value pairs. This proves `(MSC4)`.
 
-## 3. Exact terminal exclusion
+## 3. Polynomial abc dichotomy
 
-Now specialize to maximal capacity `h=m`, so `u=s`. At `d=p+s-1`, the gap
-is `j=s`, so `C=Z^s-b` with `b!=0`. Reduce `Z^n`
-modulo this binomial. Divisibility of `Z^s-b` into `Z^n-alpha` forces
-`s|n`; because `n=mp+s` and `gcd(s,p)=1`, it follows that `s|m`.
-
-The atlas itself now removes the seven rows with `s>m`. On each of the nine
-remaining rows, `s=m`. We prove that a terminal decomposition in this case
-requires `p=1 mod m`.
-
-Put `Y=Z^m`. Since `C=Z^m-b` divides the domain binomial,
+Translate the inner polynomial by a constant and depress the outer
+polynomial. Since `h<p`, there are a monic degree-`p` polynomial `R`, a
+polynomial `J` of degree at most `h-2`, and
+`nu=ord_0(R)` such that
 
 ```text
-D(Z)=(Z^(m(p+1))-b^(p+1))/(Z^m-b)
-    =A(Y),
-A(Y)=Y^p+bY^(p-1)+...+b^p.                              (2)
+G(P)=R^h+J(R).
 ```
 
-In characteristic `p`, direct differentiation gives
+The domain identity becomes
 
 ```text
-D'(Z)=-mb Z^(m-1)(Z^m-b)^(p-2).                         (3)
+R^h C+(J(R)C+alpha)=Z^n.                                (2)
 ```
 
-On the other hand `D=G(P)` and the terminal gap gives
-`deg P'=p-m-1`. For a root `gamma` of `G'`, the degree-`p` polynomial
-`P-gamma` divides `D'`. It has at least
+The first summand has exact valuation `h nu`. Since `h nu<=hp<n`, the
+second has the same valuation. Divide `(2)` by `Z^(h nu)`. The three
+resulting terms are pairwise coprime: any common nonzero root would divide
+their monomial sum, and exact valuation removes zero.
+
+If the reduced triple is not entirely in `F[Z^p]`, polynomial
+Mason--Stothers gives
 
 ```text
-p-deg(P')=m+1
+n-h nu
+ <= (p-nu+u)+((h-2)p+u-h nu)+1-1
+ = (h-1)p+2u-(h+1)nu.                                  (3)
 ```
 
-distinct roots over the algebraic closure. Equation `(3)` has exactly the
-`m+1` distinct roots consisting of zero and the roots of `Z^m-b`.
-Different `gamma` give disjoint fibers, so `G'` has only one distinct root.
-As `m<p`, this means
+Here the first radical is bounded by the roots of `R/Z^nu` and `C`; the
+second by its degree; and the monomial contributes one root. Substituting
+`n=hp+u` into `(3)` gives
 
 ```text
-G(T)=(T-gamma)^m+delta.                                  (4)
+p-u+nu<=0.                                              (4)
 ```
 
-Set `R=P-gamma`. Equations `(2)--(4)` give `D-delta=R^m`. For every
-`m`-th root of unity `zeta`, invariance of `D` under `Z -> zeta Z` and the
-integral-domain factorization of two `m`-th powers imply
+Thus the non-Frobenius branch gives `nu<=u-p`. In the other branch, the
+reduced triple is Frobenius-degenerate. In particular
 
 ```text
-R(zeta Z)=zeta^p R(Z).
+(R/Z^nu)^h C in F[Z^p].                                 (5)
 ```
 
-Thus every exponent in `R` is congruent to `p` modulo `m`. If
-`u in {1,...,m-1}` is the residue of `p`, then
+Let `c` be any root of `C` over the algebraic closure and set
+`e_c=ord_c(R)`. The domain binomial is squarefree and `c!=0`, so `(5)` gives
 
 ```text
-R(Z)=Z^u S(Z^m).                                        (5)
+p divides h e_c+1.                                      (6)
 ```
 
-Since `R(0)=0`, equation `(2)` forces `delta=b^p`. As a polynomial in `Y`,
-`A(Y)-b^p` has exact order one at zero, whereas `(5)` has order
-`u mod m` after taking the `m`-th power. Therefore
+Let `e_h in {1,...,p-1}` be the unique residue with `h e_h+1=0 mod p`.
+Every nonnegative solution of `(6)` is congruent to `e_h` modulo `p`; since
+`deg R=p`, necessarily `e_c=e_h`. Summing multiplicities over the `u`
+distinct roots of `C` gives `u e_h<=p`, proving `(MSC5)`.
 
-```text
-1=u+m ord_0(S),
-```
+If `h<m`, then `u=n-hp>=p+s>p`, so `u e_h<=p` is impossible and `(MSC6)`
+follows. If `h=m`, then `u=s<p`, so `nu<=s-p` is impossible; the Frobenius
+arm is forced and gives `(MSC7)`.
 
-so `u=1`, proving `p=1 mod m`. Every one of the nine official `s=m` rows
-has instead `p=-1 mod m` and `m>=4`. This proves `(MSC5)`.
+The atlas verifier computes `e_0=-m^(-1) mod p` for each of the 16 exact
+`m>=3` rows and checks `s e_0>p` in every case. No maximal-capacity record
+exists on any such row, proving `(MSC8)`.

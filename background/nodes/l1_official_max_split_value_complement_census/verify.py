@@ -43,16 +43,36 @@ def main() -> None:
     assert all(row["remainder"] > row["m"] for row in broad)
     checks += 6
 
+    # The same multiplicity inequality exactly retains the four m=2,
+    # remainder-two rows handled by the antipodal classification.
+    two_fiber = [row for row in rows if row["m"] == 2]
+    two_fiber_allowed = []
+    for row in two_fiber:
+        e_0 = (-pow(2, -1, row["p"])) % row["p"]
+        if row["remainder"] * e_0 <= row["p"]:
+            two_fiber_allowed.append(row)
+    assert len(two_fiber) == 10
+    assert len(two_fiber_allowed) == 4
+    assert all(row["remainder"] == 2 for row in two_fiber_allowed)
+    assert (-pow(2, -1, 3)) % 3 == 1
+    assert 2 * 1 <= 3
+    checks += 5
+
     # The maximal-capacity exponent ell=s-d+p descends by one per layer.
     for row in live:
         p = row["p"]
         s = row["remainder"]
+        m = row["m"]
+        e_0 = (-pow(m, -1, p)) % p
         assert s - p + p == s
         assert s - (p + s - 1) + p == 1
         assert s - (p + s) + p == 0
-        checks += 3
+        assert 1 <= e_0 < p
+        assert (m * e_0 + 1) % p == 0
+        assert s * e_0 > p
+        checks += 6
 
-    # A small exact Vandermonde determinant and the advertised uniform cap.
+    # A small exact Vandermonde determinant and normalized complement count.
     modulus = 101
     roots = (2, 5, 9, 17)
     determinant = 1
@@ -86,8 +106,12 @@ def main() -> None:
         "ell_h=u-d+p",
         "<=floor(binom(n,ell_h)/binom(u,ell_h))",
         "<=binom(h,2) floor(binom(n,ell_h)/binom(u,ell_h))",
-        "exactly nine",
-        "all 16 official m>=3 rows",
+        "h e_h+1=0 mod p",
+        "nu<=u-p",
+        "s e_0<=p",
+        "For `m=2`",
+        "empty at every depth",
+        "four `m=3` rows retain only `h=2`",
         "For `h<m`",
     ):
         assert anchor in statement

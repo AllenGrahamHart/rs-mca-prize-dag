@@ -56,22 +56,46 @@ uniquely. Consequently
     <=binom(h,2) floor(binom(n,ell_h)/binom(u,ell_h)).    (MSC4)
 ```
 
-At maximal capacity `h=m`, one has `u=s` and `ell_h=ell=s-d+p`.
-The official checkpoint atlas has exactly nine `m>=3` rows with `s<=16`.
-On all nine, `(MSC4)` is at most `binom(16,2)n^16`, uniformly over the
-whole first-checkpoint band. Thus their maximal-capacity branch is already
-polynomially paid. On every row, the final `B` possible depth layers of this
-branch cost at most `binom(m,2)n^B`.
-
-There is a further exact endpoint exclusion. At `d=p+s-1`, `(MSC2)` forces
-`C=Z^s-b`. Divisibility by `Z^n-alpha` forces `s|m`. The seven broad official
-rows have `s>m`, so are impossible. The other nine have `s=m` and
-`p=-1 mod m`. A terminal decomposition with `s=m` would instead force
-`p=1 mod m`. Hence
+There is also a general polynomial-abc dichotomy. Translate `P` by the
+constant that depresses `G`, call the resulting monic degree-`p` polynomial
+`R`, and put `nu=ord_0(R)`. Let `e_h` be the least positive integer satisfying
 
 ```text
-all 16 official m>=3 rows have no maximal-capacity record
-at d=p+s-1, and none at d>=p+s.                          (MSC5)
+h e_h+1=0 mod p.
+```
+
+Polynomial Mason--Stothers, retaining its characteristic-`p` exception,
+proves that every degree-`h` record satisfies
+
+```text
+nu<=u-p       or       u e_h<=p.                         (MSC5)
+```
+
+When `h<m`, one has `u>p`, so the second arm is impossible and
+
+```text
+nu<=u-p.                                                 (MSC6)
+```
+
+In particular, at `h=m-1` this is `nu<=s`.
+
+At maximal capacity `h=m`, one has `u=s<p`, so the first arm is impossible.
+Writing `e_0=e_m`, every maximal-capacity record must satisfy
+
+```text
+s e_0<=p.                                                (MSC7)
+```
+
+For `m=2`, `(MSC7)` is `s(p-1)/2<=p`, hence `s<=2`; it
+independently recovers the necessary half of the exact antipodal
+classification.
+
+The exact checkpoint atlas has `s e_0>p` on all 16 rows with `m>=3`.
+Consequently their maximal split-value strata are empty at every depth. In
+particular, the four `m=3` rows retain only `h=2`; the general live range is
+
+```text
+2<=h<=m-1.                                               (MSC8)
 ```
 
 For `h<m`, `(MSC4)` is an exact compression but its exponent `ell_h` can

@@ -5,6 +5,7 @@
 - The official checkpoint atlas supplies the exhaustive 16-row arithmetic
   frontier.
 - This node adds the complement-to-pencil Newton reconstruction, the
-  depth-sensitive Vandermonde census, and the terminal unicritical exclusion.
+  depth-sensitive Vandermonde census, and the polynomial-abc maximal-capacity
+  exclusion with its exact Frobenius multiplicity residue.
 - No Modal run or large local computation was used. The atlas verifier is a
   deterministic integer audit.

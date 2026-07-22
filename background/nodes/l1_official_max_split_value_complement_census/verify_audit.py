@@ -20,10 +20,11 @@ def main() -> None:
         "s=n-mp",
         "Q(0)=0",
         "ell_h=u-d+p",
-        "nine `m>=3` rows",
-        "seven broad official",
-        "p=1 mod m",
-        "p=-1 mod m",
+        "h e_h+1=0 mod p",
+        "nu<=u-p",
+        "s e_0<=p",
+        "all 16 rows",
+        "2<=h<=m-1",
     ):
         assert anchor in statement
         checks += 1
@@ -31,10 +32,11 @@ def main() -> None:
     for anchor in (
         "First suppose `Q=0`",
         "The coefficient matrix is Vandermonde",
-        "deg P'=p-m-1",
-        "`m+1` distinct roots",
-        "G(T)=(T-gamma)^m+delta",
-        "R(Z)=Z^u S(Z^m)",
+        "Translate the inner polynomial",
+        "Mason--Stothers",
+        "p-u+nu<=0",
+        "p divides h e_c+1",
+        "e_0=-m^(-1) mod p",
     ):
         assert anchor in proof
         checks += 1
