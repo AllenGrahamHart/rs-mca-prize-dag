@@ -18,3 +18,7 @@
 9. The 10 `m=2` rows are routed to square-quotient complements, not declared
    empty.
 10. No Modal run or large local computation is load-bearing.
+11. The `binom(n,2)` statement concerns only `t=p` pairs. Higher-width
+    collisions on the same four rows remain open.
+12. The six other `m=2` complement sizes grow with `n`; their raw binomial
+    caps are not called polynomial.

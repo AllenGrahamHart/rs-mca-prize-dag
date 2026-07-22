@@ -35,6 +35,10 @@ def main() -> None:
     assert set(histogram) == {1, 2, 3, 4, 5, 7, 8, 16}
     checks += 4
 
+    assert sum(row["m"] == 2 and row["remainder"] == 2 for row in rows) == 4
+    assert sum(row["m"] == 2 and row["remainder"] != 2 for row in rows) == 6
+    checks += 2
+
     # The smallest row pins both live low-multiplicity routes.
     first = [row for row in rows if row["n"] == 8192]
     assert [(row["p"], row["ord"], row["m"]) for row in first] == [
@@ -52,7 +56,8 @@ def main() -> None:
     assert "32 values" in statement
     assert "deterministic" in audit
     assert "does not create a new characteristic residue" in audit
-    checks += 4
+    assert "Higher-width" in audit
+    checks += 5
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}

@@ -101,6 +101,23 @@ def main() -> None:
     assert sum(count for multiplicity, count in histogram.items() if multiplicity >= 3) == 16
     checks += 2
 
+    two_point = [(row[1], row[2]) for row in recorded if row[4] == 2 and row[5] == 2]
+    assert two_point == [
+        (1 << 14, 8191),
+        (1 << 18, 131071),
+        (1 << 20, 524287),
+        (1 << 32, 2147483647),
+    ]
+    assert [row[5] for row in recorded if row[4] == 2 and row[5] != 2] == [
+        1026,
+        4098,
+        8190,
+        524290,
+        524286,
+        2147483646,
+    ]
+    checks += 2
+
     for exponent, n, characteristic, order, multiplicity, remainder in recorded:
         assert n == 1 << exponent
         assert 13 <= exponent <= 44
@@ -130,6 +147,8 @@ def main() -> None:
         "exactly the 59 rows",
         "| rows | 33 | 10 | 4 | 4 | 2 | 1 | 4 | 1 |",
         "16 rows: m>=3",
+        "exactly four have the two-point complement",
+        "minimum-width pair cap `binom(n,2)`",
         "Rows with `p>=n`",
     ):
         assert anchor in statement

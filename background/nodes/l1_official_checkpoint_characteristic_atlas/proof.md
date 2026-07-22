@@ -37,3 +37,9 @@ rows with the distribution printed in the statement.
 Finally, `l1_official_split_pencil_value_capacity` proves that `m=1` admits
 no pair and that `m=2` has the exact complement-square compiler. Subtracting
 `33+10` from 59 leaves 16 higher-multiplicity rows. This proves `(CAT4)`.
+
+Filtering the ten `m=2` tuples by the recorded remainder `n-2p` leaves the
+four rows in `(CAT5)`. On those rows, `(SPV13)` is
+`binom(n,n-2p)=binom(n,2)`, proving the polynomial cap. The remaining six
+remainders are `1026,4098,8190,524290,524286,2147483646`, so no fixed-size
+complement conclusion is claimed for them.

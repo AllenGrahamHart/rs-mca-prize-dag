@@ -12,11 +12,15 @@
 Exactly 59 characteristic/domain pairs can have `p<n`. Of them, 33 have no
 minimum-width split pair, 10 reduce to the `m=2` complement-square census,
 and 16 retain `m>=3`.
+Exactly four of the `m=2` rows have two-point complements and hence the
+polynomial minimum-width pair cap `binom(n,2)`.
 
 ## Falsifier
 
 An official-admissible pair `(n,p)` with `p<n` absent from the atlas; an atlas
 row violating generated-field admissibility; or an incorrect `m` histogram.
+An incorrect identification of the four two-point-complement rows is also a
+falsifier.
 
 ## Nonclaims
 

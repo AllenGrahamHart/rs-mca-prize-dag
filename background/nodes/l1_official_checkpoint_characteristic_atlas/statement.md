@@ -41,6 +41,19 @@ Consequently:
 16 rows: m>=3, so the higher-multiplicity Q/eliminant route remains. (CAT4)
 ```
 
+Among the ten `m=2` rows, exactly four have the two-point complement
+`n-2p=2`:
+
+```text
+(n,p)=(2^14,8191), (2^18,131071),
+      (2^20,524287), (2^32,2147483647).                 (CAT5)
+```
+
+For each of these, the complement compiler gives the polynomial
+minimum-width pair cap `binom(n,2)`. Their `t=p` census needs no numerical
+experiment. The other six `m=2` rows retain a potentially exponential
+square-quotient complement census.
+
 This is an exhaustive arithmetic router, not a census of perturbations,
 complements, or coarse fibers. Rows with `p>=n` are Newton-safe at every
 depth and do not belong in a checkpoint atlas.
