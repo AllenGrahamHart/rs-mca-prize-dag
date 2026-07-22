@@ -276,3 +276,24 @@ One-orbit masses: 512*ell*2^-w; minimum breach 32x the 1/32 threshold at
 (4,11) — every open cell is a genuine zero-event obligation, none is
 mass-safe. Machine certificate: ../dli_wcl_zone_coverage/
 verify_slot_decomposition.py (both ell=1 levels share the (1,w) cells).
+
+## Exact sizing ledger (2026-07-22, Burnside — 3/3 calibration anchors exact)
+
+Ambient affine-Galois orbit counts (exact) and census projections:
+(1,5) 2,296,920 [445 CPU-h total; 46.44% banked]; (1,6) 185,569,028
+[>=36k CPU-h ~ $6.6k]; (1,7) 1.30e10 [289 CPU-y]; (1,8) 8.06e11 [hopeless];
+(2,7) ambient 4.35e11 / router 94,652,815 [33k CPU-h — reproduces Pilot B
+exactly; the router is a constraint-first presentation, 4,600x smaller];
+(2,8) router 1.86e10 [6.4M CPU-h]; (2,9) router 3.08e12 [1.07e9 CPU-h];
+(4,9)/(4,10)/(4,11) 8.07e17/1.64e20/3.01e22 [census infeasible at any rate].
+CONSEQUENCE: censuses are live only at (1,5) [finish], (2,7) [after the
+GMP-gcd swap + router-soundness for k=5], and marginally (1,6); the ell=4
+cells are DESCENT-ONLY (the quartic-divisor (4,9) + straight-line-lift
+nodes are proved; (4,10)/(4,11) descent statements + Delta certificates are
+the open work); (1,7)/(1,8)/(2,8)/(2,9) need new algebra, not compute.
+
+CENSUS-SOUNDNESS CATCH (mandatory for any future sweep implementation):
+prime factors of these cyclotomic norms are NOT all == 1 mod n (roots may
+live in extensions; witnessed: 31 divides an order-64 norm). Any
+progression-based trial-division shortcut is UNSOUND. Full factoring or
+certified partial factoring only.
