@@ -15387,6 +15387,65 @@
     "background/nodes/l1_m4_h3_tangent_radical_exclusion/verify.py",
     "background/nodes/l1_m4_h3_tangent_radical_exclusion/verify_audit.py"
    ]
+  },
+  {
+   "id": "l1_m4_h3_nu2_prime_field_belyi_normal_form",
+   "title": "L1 m=4, h=3, nu=2 prime-field Belyi normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In the surviving (nu,deg H)=(2,1) stratum, the three tangent multiplicities e_1,e_2,e_3 are pairwise distinct positive integers summing to p and determine all tangent-root ratios by r_i=lambda(e_j-e_k)^(-1). Consequently R(X)=lambda^p(S_e(X/lambda)-S_e(0)) for an explicit S_e in F_p[X] with only critical values 0 and the tangent value. This is a discrete multiplicity normal form plus one scalar conjugacy, not an exclusion, regular-fiber count, or L1 closure.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/statement.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/proof.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/audit.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/result.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/lineage.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/verify.py",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_positive_value_coset_certificate",
+   "title": "L1 m=4 positive-valuation value-coset certificate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For positive depressed inner valuation, the three split values lie in one value coset. Frobenius reduces their zero-sum condition to 16 exact quadratic quarter-class cases. Quotient-ring certificates show no case for p=8191 or 131071, excluding all positive valuation there. For p=524287 and 2147483647 there is one projective value triple, the roots of Y^3-2Y+1, so every positive record satisfies a^3+8b^2=0. Nu=0 and the latter positive strata remain open, so L1 is not closed.",
+   "refs": [
+    "background/nodes/l1_m4_positive_value_coset_certificate/statement.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/proof.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/claim_contract.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/dependency_subdag.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/audit.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/result.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/lineage.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/upstream_crosswalk.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/verify.py",
+    "background/nodes/l1_m4_positive_value_coset_certificate/verify_audit.py",
+    "experiments/prize_resolution/l1_m4_depressed_value_coset_check.py",
+    "experiments/prize_resolution/l1_m4_depressed_value_coset_result.md"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu2_base_field_normalization",
+   "title": "L1 m=4, h=3, nu=2 base-field normalization",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For p=524287 and 2147483647, every surviving positive (nu,deg H)=(2,1) record admits a simultaneous prime-field normalization: R_0 and the outer cubic g_0(Y)=Y^3-2c^2Y+c^3 lie over F_p, the normalized domain coset is Frobenius-stable with equation Z^n=A for A in F_p, and the exact complement D_0 also lies in F_p[Z]. One split fiber is fixed and the other two are conjugate. This is a structural reduction, not an exclusion, multiplicity-triple count, or L1 closure.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/statement.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/proof.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/audit.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/result.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/lineage.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/verify.py",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -29492,6 +29551,46 @@
   },
   {
    "from": "l1_m4_h3_tangent_radical_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_tangent_radical_exclusion",
+   "to": "l1_m4_h3_nu2_prime_field_belyi_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu2_prime_field_belyi_normal_form",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_colored_cyclic_equivalence",
+   "to": "l1_m4_positive_value_coset_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_tangent_radical_exclusion",
+   "to": "l1_m4_positive_value_coset_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_positive_value_coset_certificate",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_nu2_prime_field_belyi_normal_form",
+   "to": "l1_m4_h3_nu2_base_field_normalization",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_positive_value_coset_certificate",
+   "to": "l1_m4_h3_nu2_base_field_normalization",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu2_base_field_normalization",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

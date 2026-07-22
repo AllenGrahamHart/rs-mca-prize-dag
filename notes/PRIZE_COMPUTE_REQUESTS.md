@@ -7011,6 +7011,60 @@ split is `(nu,deg H)=(1,2),(2,1)` and `(0,0),(0,1),(0,2),(0,3)`.
 A donated solver extension should expose `a`, `nu`, the eliminant, and the
 two defect witnesses. It must also check `H(0)!=0` and the exact Euler
 quotient factorization from `l1_m4_h3_euler_quotient_factorization`. Shard by
-these six strata, retain the possible `b=0` arm at `nu=0`, and independently
-check the exact factorization `(R^3+aR+b)D=X^n-alpha`. A generic feasible or
-no-hit color assignment without this replay remains only analogue evidence.
+the row-valid strata below, retain the possible `b=0` arm at `nu=0`, and
+independently check the exact factorization
+`(R^3+aR+b)D=X^n-alpha`. A generic feasible or no-hit color assignment
+without this replay remains only analogue evidence.
+
+The exact positive-value coset certificate removes all positive valuation at
+`p=8191,131071`; a donated solver must not spend those rows on positive
+strata. At `p=524287,2147483647`, every positive candidate must satisfy
+`a^3+8b^2=0`. In the `(nu,deg H)=(2,1)` stratum it must also use the
+prime-field Belyi multiplicity normal form and base-field domain/complement
+normalization below. These are completeness reductions, not optional witness
+filters.
+
+### CR-L1-MCP-NU2 pre-request: normalized Belyi regular-fiber divisibility
+
+**Status:** valuable outbound compute pre-request; not yet runnable and not
+authorized on the current Modal account.
+
+This targets only `p in {524287,2147483647}` and the surviving positive
+`(nu,deg H)=(2,1)` stratum. For pairwise-distinct positive integers
+`e_1+e_2+e_3=p`, the proved normal form constructs
+
+```text
+S_e(Z)=product_i (Z-(e_j-e_k)^(-1))^e_i,
+R_0=S_e-S_e(0),
+c=-(4/3)S_e(0),
+g_0(Y)=Y^3-2c^2Y+c^3.
+```
+
+Any genuine record must admit `A in F_p^*` and `D_0 in F_p[Z]` with
+
+```text
+g_0(R_0(Z)) D_0(Z)=Z^(4(p+1))-A.                      (NU2-DIV)
+```
+
+The route-deciding computation would either emit one multiplicity triple and
+an independently replayable exact factorization, or certify that no triple
+satisfies `(NU2-DIV)` for a declared official characteristic. A witness keeps
+the stratum alive and supplies a concrete split pencil; complete exclusion
+removes the `(2,1)` stratum on that characteristic. Partial coverage is
+evidence only.
+
+The naive universe has order `p^2` triples and degree-`3p` divisors, so raw
+triple enumeration or dense polynomial expansion is prohibited. Before this
+can be promoted to a numbered contributor run, supply all of:
+
+1. a theorem-backed symmetry quotient or recurrence that covers every
+   unordered multiplicity triple;
+2. a sparse/product-tree or residue representation that checks `(NU2-DIV)`
+   without materializing degree-`3p` polynomials per triple;
+3. a complete small-prime conformance oracle and a measured one-shard pilot;
+4. checkpointed triple-range coverage, hashes, peak RAM, and elapsed CPU;
+5. an independent checker that reconstructs every witness and verifies every
+   exclusion certificate block.
+
+Until those gates are met, include this item in upstream PRs as an algorithm
+and donated-compute request, not as a request to launch an unpriced fleet.

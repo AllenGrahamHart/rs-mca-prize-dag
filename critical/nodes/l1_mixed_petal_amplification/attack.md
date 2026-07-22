@@ -377,11 +377,18 @@
   `l1_m4_h3_cartier_resonance_reduction`: `a=0`, `nu=4`, and now `nu=3` are
   impossible. Apply `l1_m4_h3_tangent_radical_exclusion`; positive valuation
   has only `(nu,deg H)=(1,2),(2,1)`, with an exact cubic tangent radical in
-  the latter. Treat `nu=0` separately, including its possible `b=0` branch.
-  Enforce the Cartier constraints and Euler quotient factorization. Any
-  computation should identify one of these six exact strata; a generic
-  no-hit SAT run does
-  not pay the branch.
+  the latter. Then apply `l1_m4_positive_value_coset_certificate`: positive
+  valuation is empty at `p=8191,131071`, while at
+  `p=524287,2147483647` it satisfies `a^3+8b^2=0`. In the surviving
+  `(2,1)` stratum, consume the prime-field Belyi normal form and base-field
+  normalization. Search over its pairwise-distinct multiplicity triples and
+  exact regular-fiber divisibility only after proving a completeness-
+  preserving compression; do not search arbitrary coefficients or scalar
+  conjugates. Treat `nu=0` separately, including its possible `b=0` branch,
+  and prioritize it on the first two characteristics where it is the entire
+  cubic frontier. Enforce the Cartier constraints and Euler quotient
+  factorization. Any computation should identify one of the row-valid exact
+  strata; a generic no-hit SAT run does not pay the branch.
   Contributor-scale
   work is specified as `CR-L1-MCP` in
   `notes/PRIZE_COMPUTE_REQUESTS.md`; no local or current-account Modal run is

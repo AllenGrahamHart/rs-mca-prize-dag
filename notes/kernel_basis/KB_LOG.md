@@ -3572,3 +3572,34 @@ For positive valuation, every root of `T=2aR+3b` lies on
 the latter the tangent radical is the exact printed cubic and
 `T/rad(T)` is proportional to `V`. This is a PROVED case closure, not full
 `m=4,h=3` emptiness.
+
+## 137 - 2026-07-22: NU=2 HAS A PRIME-FIELD BELYI NORMAL FORM
+
+In the positive `(nu,deg H)=(2,1)` stratum, the three tangent
+multiplicities are pairwise-distinct positive integers summing to `p`. Their
+differences determine all three tangent-root ratios, so the inner polynomial
+is an explicit prime-field two-critical-value polynomial up to one scalar
+conjugacy. This replaces arbitrary degree-`p` coefficients by a discrete
+multiplicity triple. It is a PROVED normal form, not a regular-fiber
+divisibility result or exclusion.
+
+## 138 - 2026-07-22: POSITIVE CUBIC VALUES HAVE ONE EXACT COSET ORBIT
+
+For positive valuation, the products of the three complete fibers put their
+split values in one multiplicative coset. Frobenius reduces the zero-sum
+condition to 16 exact quadratic quarter-class tests. Exact quotient-ring
+certificates leave no case for `p=8191,131071`, excluding all positive
+valuation there. For `p=524287,2147483647`, one projective value triple
+survives and every positive record satisfies `a^3+8b^2=0`. The computation
+is complete and independently replayed locally; `nu=0` and the latter
+positive strata remain open.
+
+## 139 - 2026-07-22: THE SURVIVING NU=2 CASE DESCENDS TO THE BASE FIELD
+
+Combining the Belyi scalar conjugacy with the unique positive value orbit
+shows that, for `p=524287,2147483647`, the normalized inner polynomial,
+outer cubic, domain binomial, and exact complement all lie in `F_p[Z]`.
+One split fiber is Frobenius-fixed and the other two are exchanged. The live
+`nu=2` question is therefore a prime-field multiplicity-triple regular-fiber
+divisibility problem. This is PROVED structural compression, not an
+exclusion; `CR-L1-MCP-NU2` records the unpriced donated-compute pre-request.

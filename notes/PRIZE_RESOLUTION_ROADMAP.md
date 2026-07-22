@@ -1757,10 +1757,19 @@ four-case low-defect Davenport-Mason classification. The companion
 and converts its degree into the exact degree `p+deg(H)-4` of
 `nu U+XU'`. The tangent-radical successor then excludes `nu=3` and all
 positive strata except `(nu,deg H)=(1,2),(2,1)`; the latter has an exact
-cubic tangent radical. The live analytic split is those two strata plus the
-four `nu=0` eliminant degrees, with `b=0` retained there. The CP model is
-secondary and should be stratified by these six cases if a contributor runs
-it.
+cubic tangent radical. The exact positive-value coset certificate now removes
+both positive strata entirely at `p=8191,131071`; those rows retain only the
+four `nu=0` eliminant degrees. At `p=524287,2147483647`, every positive
+record satisfies `a^3+8b^2=0`. The surviving `(2,1)` case is further reduced
+to pairwise-distinct multiplicity triples summing to `p` in an explicit
+prime-field Belyi normal form, with the outer cubic, domain binomial, and
+complement all normalized over `F_p`. The live analytic split is therefore
+four `nu=0` strata on every row, plus `(1,2)` and the base-field-normalized
+`(2,1)` only on the latter two rows; `b=0` remains possible only in the
+`nu=0` analysis. The CP model is secondary and must respect this row split.
+`CR-L1-MCP-NU2` records the donated-compute pre-request for the normalized
+regular-fiber divisibility problem; it is not locally authorized and still
+needs a completeness-preserving multiplicity compiler before any large run.
 
 **Track H — hedges (funded, never built on):** H1 price RK by one dedicated
 refutation round (survives -> insurance; dies -> the 17-leaf prune comes off

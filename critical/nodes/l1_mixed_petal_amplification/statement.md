@@ -770,8 +770,29 @@ derivative degree exactly `p+deg(H)-4`. Evaluating its tangent factor gives
 `l1_m4_h3_tangent_radical_exclusion`: `nu=3` is empty and positive valuation
 is reduced to `(nu,deg H)=(1,2),(2,1)`. In the second stratum, the tangent
 radical is an exact cubic and its multiplicity factor is `nu U+XU'`. The
-four `nu=0` eliminant degrees remain separate. Emptiness or a payable
-component count for these six strata remains open.
+four `nu=0` eliminant degrees remain separate.
+
+The positive branch is now row-sensitive. The exact value-coset certificate
+excludes every positive valuation for `p=8191,131071`. For
+`p=524287,2147483647`, every positive record has one projective split-value
+triple, equivalently `a^3+8b^2=0`. In its `(nu,deg H)=(2,1)` stratum, the
+tangent multiplicities are pairwise-distinct positive integers
+`e_1+e_2+e_3=p` and determine the inner polynomial up to one scalar through
+an explicit prime-field Belyi polynomial. The scalar and fixed split value
+then descend the outer cubic, domain binomial, and complement to `F_p`; one
+regular fiber is Frobenius-fixed and the other two are exchanged. Therefore
+the live row split is:
+
+```text
+p=8191,131071:               four nu=0 eliminant strata;
+p=524287,2147483647:         those four plus (1,2) and (2,1),
+nu=2 positive on latter p:   prime-field Belyi regular-fiber divisibility.
+```
+
+This is not yet an exclusion or component bound. The remaining analytic work
+is the four-case `nu=0` classification, the `(1,2)` positive classification
+on the latter two characteristics, and a multiplicity-triple/divisibility
+theorem for the normalized `(2,1)` Belyi family.
 
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
