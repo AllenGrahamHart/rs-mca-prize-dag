@@ -4408,3 +4408,12 @@ symmetries blocked, direct extension-field witness replay, and a portable
 exclusion certificate or independent complete replay. It is not authorized
 on the current account. The larger analytic residual remains `m=8` with
 `2<=h<=7` and `m=16` with `2<=h<=15`.
+
+## 175 - 2026-07-22: M4/H3 CLOSURE IS A FIRST-CLASS GREEN NODE
+
+`l1_m4_h3_official_emptiness` aggregates the campaign into one exhaustive
+theorem. Its required suppliers cover positive valuation, zero-`b`, and the
+four nonzero-`b` eliminant degrees after the Cartier valuation split. The
+node adds no algebra; it makes the closure auditable and portable as one
+finite split-pencil census result. It feeds L1 as evidence while leaving
+nonembedded `m=4,h=2`, `m=8,16`, wider exchanges, and the exact shell open.

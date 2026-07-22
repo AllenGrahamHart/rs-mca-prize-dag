@@ -530,6 +530,8 @@
   official `m=4,h=3` row. Do not run the former cubic CP-SAT, Belyi, packet,
   or coefficient searches. Move the first-checkpoint attack to explicitly
   nonembedded `m=4,h=2` and the live `m=8,16` value degrees.
+  Use `l1_m4_h3_official_emptiness` as the aggregate closure supplier; do
+  not reopen one of its internal valuation or packet branches independently.
   Contributor-scale
   work is specified as `CR-L1-MCP` in
   `notes/PRIZE_COMPUTE_REQUESTS.md`; its former `NU0-H0` pre-request is now a

@@ -15717,6 +15717,25 @@
     "background/nodes/l1_m4_h3_nu0_zero_b_euler_exclusion/verify.py",
     "background/nodes/l1_m4_h3_nu0_zero_b_euler_exclusion/verify_audit.py"
    ]
+  },
+  {
+   "id": "l1_m4_h3_official_emptiness",
+   "title": "L1 official m=4, h=3 split-pencil emptiness",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On all four official n=4(p+1) Mersenne rows, no first-checkpoint split pencil has exactly three complete degree-p fibers. The exhaustive valuation, zero/nonzero constant, and eliminant-degree branches are all theorem-empty.",
+   "refs": [
+    "background/nodes/l1_m4_h3_official_emptiness/statement.md",
+    "background/nodes/l1_m4_h3_official_emptiness/proof.md",
+    "background/nodes/l1_m4_h3_official_emptiness/claim_contract.md",
+    "background/nodes/l1_m4_h3_official_emptiness/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_official_emptiness/audit.md",
+    "background/nodes/l1_m4_h3_official_emptiness/result.md",
+    "background/nodes/l1_m4_h3_official_emptiness/lineage.md",
+    "background/nodes/l1_m4_h3_official_emptiness/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_official_emptiness/verify.py",
+    "background/nodes/l1_m4_h3_official_emptiness/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -30047,6 +30066,41 @@
   },
   {
    "from": "l1_m4_h3_nu0_zero_b_euler_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_cartier_resonance_reduction",
+   "to": "l1_m4_h3_official_emptiness",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_positive_tangent_multiplicity_exclusion",
+   "to": "l1_m4_h3_official_emptiness",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_zero_b_euler_exclusion",
+   "to": "l1_m4_h3_official_emptiness",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_nonzero_b_tangent_exclusion",
+   "to": "l1_m4_h3_official_emptiness",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion",
+   "to": "l1_m4_h3_official_emptiness",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion",
+   "to": "l1_m4_h3_official_emptiness",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_official_emptiness",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

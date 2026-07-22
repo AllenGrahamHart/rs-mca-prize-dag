@@ -1092,6 +1092,8 @@ with the derivative of the domain identity forces `H=12 alpha/a`.
 Evaluation at zero then gives `a/R(0)^2=-3/2`, contradicting the proved
 zero-`b` invariant unless the characteristic is five. Thus the complete
 official `m=4,h=3` branch is empty on all four rows.
+`l1_m4_h3_official_emptiness` records the exhaustive aggregate theorem and
+its complete dependency subgraph as one green node.
 
 The complete scalar-free conformance censuses at `p=7,31,127` leave zero
 divisibility witnesses; at `p=31,127` the sign gate first reduces `65,1281`

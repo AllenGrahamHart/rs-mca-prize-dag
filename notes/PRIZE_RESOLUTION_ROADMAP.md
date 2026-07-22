@@ -1965,7 +1965,8 @@ That last residue is now closed by
 `R=0`, the differentiated domain identity and Euler quotient give
 `H=12alpha/a`; evaluation at zero forces `a/R(0)^2=-3/2`, contradicting the
 value-coset invariant outside characteristic five. Therefore every official
-`m=4,h=3` row is empty. The live first-checkpoint frontier is now
+`m=4,h=3` row is empty. `l1_m4_h3_official_emptiness` packages the exhaustive
+case split as a first-class green DAG node. The live first-checkpoint frontier is now
 nonembedded `m=4,h=2`, `m=8` with `2<=h<=7`, and `m=16` with
 `2<=h<=15`, after subtracting the proved embedded antipodal family.
 The next analytic target is therefore an exhaustion theorem for low-weight
