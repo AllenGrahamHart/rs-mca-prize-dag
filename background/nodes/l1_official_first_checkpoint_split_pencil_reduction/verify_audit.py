@@ -17,7 +17,12 @@ def main() -> None:
     p = 3583
     assert p * p - p + 1 > 24 * p
     assert p * p - p + 1 > 24 * p - 1
-    checks += 2
+    degree_cap = (p - 1) // 24
+    closed_ratio_floor = 1 + (p * p - p + degree_cap - 1) // degree_cap
+    next_ratio_floor = 1 + (p * p - p + degree_cap) // (degree_cap + 1)
+    assert closed_ratio_floor > 24 * p
+    assert next_ratio_floor <= 24 * p
+    checks += 4
 
     # Terminal depth makes the perturbation linear and raises the tail floor.
     depth = 2 * p - 2
@@ -39,7 +44,9 @@ def main() -> None:
     assert "one degree above" in audit
     assert "H=gamma K" in proof
     assert "does not bound that census" in statement
-    checks += 4
+    assert "nonzero one of the two distinct" in audit
+    assert "floor((p-1)/24)" in statement
+    checks += 6
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}

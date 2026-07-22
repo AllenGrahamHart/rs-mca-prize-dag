@@ -10,15 +10,16 @@
 ## Output
 
 The two tails are distinct split fibers of `Z^p+Q` with
-`deg Q<=2p-d-1`. At terminal depth `d=2p-2`, no such tails exist and every
-collision has width at least `p+1`.
+`deg Q<=2p-d-1`. If that degree cap is at most `floor((p-1)/24)`, no such
+tails exist and every collision has width at least `p+1`. The terminal
+affine-line case is included and independently classified.
 
 ## Falsifier
 
-A minimum-width collision not admitting `(FSP3)`, an affine `F_p`-line
-inside an official smooth coset, or a terminal collision with `t=p`.
+A minimum-width collision not admitting `(FSP3)`, a nonzero split fiber
+violating `(FSP5)`, or a collision with `t=p` inside the closed deep subband.
 
 ## Nonclaims
 
-No bound for the surviving higher-degree split-pencil census, no control of
-`t>p`, and no L1 status change.
+No bound for the surviving split-pencil census with degree cap greater than
+`(p-1)/24`, no control of `t>p`, and no L1 status change.

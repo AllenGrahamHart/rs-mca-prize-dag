@@ -2,7 +2,7 @@
 
 - **status:** PROVED
 - **role:** classify the minimum-width coarse collisions across the first
-  checkpoint band and close its terminal affine-line stratum
+  checkpoint band and close its low-perturbation deep subband
 - **consumer:** `l1_mixed_petal_amplification`
 
 ## Minimum-width classification
@@ -35,6 +35,36 @@ pair of distinct fully `H`-split fibers of one low-degree perturbation of the
 Frobenius map. Conversely, any such disjoint split pair satisfies the coarse
 p-free moment equalities through depth `d`.
 
+## Deep-band exclusion
+
+Put
+
+```text
+r_d=2p-d-1.                                           (FSP4)
+```
+
+Absorb the constant term of `Q` into the two fiber values and choose the
+nonzero value `beta`. For its `p`-point fiber `X_beta` and every nonidentity
+`lambda` in the order-`n` subgroup underlying `H`,
+
+```text
+|X_beta intersect lambda X_beta|<=r_d.               (FSP5)
+```
+
+Consequently
+
+```text
+|X_beta/X_beta|
+ >=1+ceil((p^2-p)/r_d).                               (FSP6)
+```
+
+If `r_d<=floor((p-1)/24)`, the right side is at least `24p+1>n`, impossible
+because the ratio set lies in the smooth subgroup. Therefore
+
+```text
+d>=2p-1-floor((p-1)/24)  =>  t>=p+1.                (FSP7)
+```
+
 ## Terminal stratum exclusion
 
 At `d=2p-2`, equation `(FSP3)` has `deg Q<=1`. Squarefreeness forces the
@@ -43,24 +73,26 @@ No affine `F_p`-line lies in `H`: if `x+lambda F_p subset H`, then after
 scaling `c=x/lambda` is outside `F_p`, and
 
 ```text
-|(c+F_p)/(c+F_p)|=p^2-p+1.                           (FSP4)
+|(c+F_p)/(c+F_p)|=p^2-p+1.                           (FSP8)
 ```
 
 This ratio set lies in the order-`n` subgroup underlying the coset, while
 
 ```text
-p^2-p+1>24p>n.                                       (FSP5)
+p^2-p+1>24p>n.                                       (FSP9)
 ```
 
 Therefore
 
 ```text
-d=2p-2  =>  t>=p+1.                                 (FSP6)
+d=2p-2  =>  t>=p+1.                                 (FSP10)
 ```
 
 ## Scope
 
-The terminal minimum-width stratum is closed. For `p<=d<2p-2`, the live
-`t=p` object is narrowed to the split-pencil census `(FSP3)` with perturbation
-degree at most `2p-d-1`; this theorem does not bound that census, higher tail
-widths, or L1.
+The final `floor((p-1)/24)` depths of the first-checkpoint band have no
+minimum-width collision. Below that closed subband, the live `t=p` object is
+narrowed to the split-pencil census `(FSP3)` with perturbation degree greater
+than `(p-1)/24`; this theorem does not bound that census, higher tail widths,
+or L1. The affine-line proof is an independent structural check of the
+terminal endpoint.

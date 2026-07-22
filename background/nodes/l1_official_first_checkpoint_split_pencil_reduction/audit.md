@@ -14,3 +14,11 @@
 8. Off-diagonal ratio injectivity uses only linear independence of `1,c`.
 9. The terminal exclusion uses both `p>=3583` and `n<24p`.
 10. No computation or probabilistic estimate is load-bearing.
+11. The deep-band ratio argument chooses the nonzero one of the two distinct
+    fiber values; otherwise the scaling polynomial could vanish identically.
+12. For nonidentity `lambda`, `lambda^p!=1` because the smooth subgroup has
+    power-of-two order and `p` is odd.
+13. The ratio count separates the `p` diagonal pairs before applying the
+    degree-`r_d` multiplicity bound.
+14. The endpoint `floor((p-1)/24)` is an exact sufficient integer threshold,
+    not a claim about the first surviving pencil.

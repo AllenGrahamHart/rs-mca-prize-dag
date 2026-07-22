@@ -37,7 +37,51 @@ Conversely, two polynomials in `(FSP3)` differ by `c` and have Wronskian
 their logarithmic derivatives agree through `Z^(-d-1)`, so all moments
 through `d` agree. The p-free coordinates therefore agree.
 
-## 2. The terminal affine line
+## 2. Nonzero-fiber ratio multiplicity
+
+Normalize `Q(0)=0` by absorbing its constant term into the two distinct fiber
+values. At least one value, say `beta`, is nonzero. Put
+
+```text
+P(Z)=Z^p+Q(Z),       X_beta={x in H:P(x)=beta}.
+```
+
+Fix `lambda` in the order-`n` subgroup `K` underlying `H`. If both `y` and
+`lambda y` lie in `X_beta`, then
+
+```text
+Q(lambda y)-lambda^p Q(y)=(1-lambda^p)beta.          (4)
+```
+
+For `lambda!=1`, the polynomial
+
+```text
+E_lambda(Z)=Q(lambda Z)-lambda^p Q(Z)
+             -(1-lambda^p)beta                       (5)
+```
+
+is nonzero. Indeed, its constant term is
+`-(1-lambda^p)beta`, and `lambda^p=1` would force `lambda=1` because
+`K` has power-of-two order while `p` is odd. Its degree is at most
+`r_d=2p-d-1`. Thus `(5)` has at most `r_d` roots, proving `(FSP5)`.
+
+The `p^2` ordered pairs in `X_beta^2` are grouped by their ratio in `K`.
+The identity ratio receives exactly `p` diagonal pairs; every other ratio
+receives at most `r_d` pairs. Therefore
+
+```text
+p^2-p<=r_d(|X_beta/X_beta|-1),                        (6)
+```
+
+which proves `(FSP6)`. If `r_d<=floor((p-1)/24)`, then
+
+```text
+1+ceil((p^2-p)/r_d)>=24p+1>n,
+```
+
+contradicting `X_beta/X_beta subset K`. This proves `(FSP7)`.
+
+## 3. The terminal affine line
 
 At `d=2p-2`, write
 
@@ -52,33 +96,33 @@ The coefficient `a` is nonzero because `F_X` has `p` distinct roots. If
 complete root set is
 
 ```text
-x_0+lambda F_p.                                      (4)
+x_0+lambda F_p.                                      (7)
 ```
 
-## 3. Ratio-set exclusion
+## 4. Direct terminal ratio-set check
 
-Suppose `(4)` lies in the multiplicative coset `H=gamma K`, where `|K|=n`.
+Suppose `(7)` lies in the multiplicative coset `H=gamma K`, where `|K|=n`.
 The line contains no zero. After scaling by `lambda`, put `c=x_0/lambda`.
 If `c` lay in `F_p`, then `c+F_p` would contain zero, so `c notin F_p`.
 
 All ratios of points of the line belong to `K`. We claim that the map
 
 ```text
-(u,v) -> (c+u)/(c+v),       u,v in F_p              (5)
+(u,v) -> (c+u)/(c+v),       u,v in F_p              (8)
 ```
 
 is injective off the diagonal, while the diagonal has the single value one.
 If two ratios agree, linear independence of `1,c` over `F_p` gives
 
 ```text
-u+v'=u'+v,       uv'=u'v.                            (6)
+u+v'=u'+v,       uv'=u'v.                            (9)
 ```
 
 Put `delta=u-u'=v-v'`. The second equality gives
 `delta(v'-u')=0`. If `delta!=0`, both pairs are diagonal. Thus two
 off-diagonal pairs coincide, and no off-diagonal pair has value one. This
-proves `(FSP4)`.
+proves `(FSP8)`.
 
 Finally `p>=3583` gives `p^2-p+1>24p`, while the official router gives
 `n<24p`. This contradicts containment of the ratio set in `K`, proving
-`(FSP5)--(FSP6)`.
+`(FSP9)--(FSP10)`.

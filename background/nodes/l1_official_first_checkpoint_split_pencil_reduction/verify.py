@@ -118,7 +118,13 @@ def main() -> None:
 
     p = 3583
     assert p * p - p + 1 > 24 * p
-    checks += 1
+    degree_cap = (p - 1) // 24
+    ratio_floor = 1 + (p * p - p + degree_cap - 1) // degree_cap
+    assert degree_cap == 149
+    assert ratio_floor > 24 * p
+    threshold_depth = 2 * p - 1 - degree_cap
+    assert threshold_depth == 7016
+    checks += 4
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
@@ -137,6 +143,8 @@ def main() -> None:
     for anchor in (
         "F_Y(Z)=Z^p+Q(Z)+b+c",
         "deg Q<=2p-d-1",
+        "floor((p-1)/24)",
+        "|X_beta intersect lambda X_beta|<=r_d",
         "p^2-p+1",
         "d=2p-2  =>  t>=p+1",
         "does not bound that census",

@@ -11,3 +11,9 @@ an affine `F_p`-line has ratio set `p^2-p+1`, too large for the smooth
 multiplicative coset because `n<24p`. The remaining lower-depth fibers are a
 typed split-pencil census suitable for the upstream `(A)` lane; no bound for
 that census is claimed here.
+
+The same ratio method closes more than the terminal line. On the nonzero
+fiber, every nonidentity multiplicative ratio has at most `deg Q` witnesses.
+Hence all perturbation degrees at most `floor((p-1)/24)` are impossible on
+official rows. The upstream-facing residual begins strictly above that
+degree.
