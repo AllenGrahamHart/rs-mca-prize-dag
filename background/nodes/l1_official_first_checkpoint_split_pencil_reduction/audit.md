@@ -12,7 +12,7 @@
 7. If the scaled affine-line offset were in `F_p`, the line would contain
    zero and could not lie in the domain.
 8. Off-diagonal ratio injectivity uses only linear independence of `1,c`.
-9. The terminal exclusion uses both `p>=3583` and `n<24p`.
+9. The terminal exclusion uses both `p>=3583` and `11n<=256p`.
 10. No computation or probabilistic estimate is load-bearing.
 11. The deep-band ratio argument chooses the nonzero one of the two distinct
     fiber values; otherwise the scaling polynomial could vanish identically.
@@ -20,5 +20,8 @@
     power-of-two order and `p` is odd.
 13. The ratio count separates the `p` diagonal pairs before applying the
     degree-`r_d` multiplicity bound.
-14. The endpoint `floor((p-1)/24)` is an exact sufficient integer threshold,
-    not a claim about the first surviving pencil.
+14. The row endpoint is the strict integer cutoff
+    `floor((p(p-1)-1)/(n-1))`; omitting either minus one can admit the equality
+    case `|X/X|=n`.
+15. `floor(11(p-1)/256)` is only the uniform corollary; contributor pruning
+    must use the stronger row-dependent endpoint.

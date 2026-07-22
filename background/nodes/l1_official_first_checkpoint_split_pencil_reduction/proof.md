@@ -73,13 +73,29 @@ receives at most `r_d` pairs. Therefore
 p^2-p<=r_d(|X_beta/X_beta|-1),                        (6)
 ```
 
-which proves `(FSP6)`. If `r_d<=floor((p-1)/24)`, then
+which proves `(FSP6)`. If
 
 ```text
-1+ceil((p^2-p)/r_d)>=24p+1>n,
+r_d<=r_*(p,n)=floor((p(p-1)-1)/(n-1)),
+```
+
+then `r_d(n-1)<p(p-1)`, so
+
+```text
+1+ceil((p^2-p)/r_d)>=n+1,
 ```
 
 contradicting `X_beta/X_beta subset K`. This proves `(FSP7)`.
+
+For the uniform corollary, `11n<=256p` and `p>=3583` give
+
+```text
+256(p(p-1)-1)
+ >=(p-1)(256p-11)
+ >=11(p-1)(n-1).
+```
+
+Hence `r_*(p,n)>=floor(11(p-1)/256)`, proving `(FSP7a)`.
 
 ## 3. The terminal affine line
 
@@ -123,6 +139,6 @@ Put `delta=u-u'=v-v'`. The second equality gives
 off-diagonal pairs coincide, and no off-diagonal pair has value one. This
 proves `(FSP8)`.
 
-Finally `p>=3583` gives `p^2-p+1>24p`, while the official router gives
-`n<24p`. This contradicts containment of the ratio set in `K`, proving
+Finally `p>=3583` gives `p^2-p+1>256p/11`, while the official router gives
+`n<=256p/11`. This contradicts containment of the ratio set in `K`, proving
 `(FSP9)--(FSP10)`.

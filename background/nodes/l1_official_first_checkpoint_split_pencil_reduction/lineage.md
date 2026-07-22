@@ -8,4 +8,4 @@ ratio growth close its terminal affine-line endpoint.
 
 Applying ratio growth to the nonzero one of the two fibers extends that
 closure from the terminal line to every perturbation degree at most
-`floor((p-1)/24)`.
+the row-sharp ratio threshold `floor((p(p-1)-1)/(n-1))`.

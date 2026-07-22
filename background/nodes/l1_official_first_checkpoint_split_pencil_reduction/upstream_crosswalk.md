@@ -8,12 +8,13 @@ increases.
 
 The terminal linear perturbation is closed by an official-domain argument:
 an affine `F_p`-line has ratio set `p^2-p+1`, too large for the smooth
-multiplicative coset because `n<24p`. The remaining lower-depth fibers are a
-typed split-pencil census suitable for the upstream `(A)` lane; no bound for
-that census is claimed here.
+multiplicative coset under `11n<=256p`. The remaining lower-depth fibers are
+a typed split-pencil census suitable for the upstream `(A)` lane; no bound
+for that census is claimed here.
 
 The same ratio method closes more than the terminal line. On the nonzero
 fiber, every nonidentity multiplicative ratio has at most `deg Q` witnesses.
-Hence all perturbation degrees at most `floor((p-1)/24)` are impossible on
-official rows. The upstream-facing residual begins strictly above that
-degree.
+Hence all perturbation degrees at most
+`floor((p(p-1)-1)/(n-1))` are impossible on each official row. The uniform
+family floor is `floor(11(p-1)/256)`, but upstream row packets should consume
+the stronger exact value. The residual begins strictly above that degree.

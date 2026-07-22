@@ -11,7 +11,7 @@ Let the official smooth domain `H` be a multiplicative coset of size `n` in
 characteristic `p`. Use
 
 ```text
-p>=3583,       n<24p.                                (FSP1)
+p>=3583,       11n<=256p.                            (FSP1)
 ```
 
 Fix a coarse p-free prefix depth
@@ -40,7 +40,8 @@ p-free moment equalities through depth `d`.
 Put
 
 ```text
-r_d=2p-d-1.                                           (FSP4)
+r_d=2p-d-1,
+r_*(p,n)=floor((p(p-1)-1)/(n-1)).                    (FSP4)
 ```
 
 Absorb the constant term of `Q` into the two fiber values and choose the
@@ -58,12 +59,21 @@ Consequently
  >=1+ceil((p^2-p)/r_d).                               (FSP6)
 ```
 
-If `r_d<=floor((p-1)/24)`, the right side is at least `24p+1>n`, impossible
-because the ratio set lies in the smooth subgroup. Therefore
+If `r_d<=r_*(p,n)`, the right side is at least `n+1`, impossible because the
+ratio set lies in the order-`n` smooth subgroup. Therefore
 
 ```text
-d>=2p-1-floor((p-1)/24)  =>  t>=p+1.                (FSP7)
+d>=2p-1-r_*(p,n)  =>  t>=p+1.                       (FSP7)
 ```
+
+The official uniform arithmetic gives
+
+```text
+r_*(p,n)>=floor(11(p-1)/256),                        (FSP7a)
+```
+
+so the final `floor(11(p-1)/256)` depths are closed on every row even before
+using its exact `n`.
 
 ## Terminal stratum exclusion
 
@@ -79,7 +89,7 @@ scaling `c=x/lambda` is outside `F_p`, and
 This ratio set lies in the order-`n` subgroup underlying the coset, while
 
 ```text
-p^2-p+1>24p>n.                                       (FSP9)
+p^2-p+1>256p/11>=n.                                  (FSP9)
 ```
 
 Therefore
@@ -90,9 +100,10 @@ d=2p-2  =>  t>=p+1.                                 (FSP10)
 
 ## Scope
 
-The final `floor((p-1)/24)` depths of the first-checkpoint band have no
-minimum-width collision. Below that closed subband, the live `t=p` object is
-narrowed to the split-pencil census `(FSP3)` with perturbation degree greater
-than `(p-1)/24`; this theorem does not bound that census, higher tail widths,
-or L1. The affine-line proof is an independent structural check of the
-terminal endpoint.
+The final `r_*(p,n)` depths of each first-checkpoint band have no
+minimum-width collision; uniformly, this includes at least
+`floor(11(p-1)/256)` depths. Below that row-sharp closed subband, the live
+`t=p` object is narrowed to the split-pencil census `(FSP3)` with perturbation
+degree greater than `r_*(p,n)`; this theorem does not bound that census,
+higher tail widths, or L1. The affine-line proof is an independent structural
+check of the terminal endpoint.
