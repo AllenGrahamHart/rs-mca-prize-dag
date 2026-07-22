@@ -1105,6 +1105,15 @@ residual is nonembedded `m=4,h=2`, the `m=8` rows with `2<=h<=7`, and the
 single `m=16` row with `2<=h<=15`, after prepaying every embedded antipodal
 pair.
 
+At the two next-to-maximal degrees, consume
+`l1_mersenne_next_to_maximal_exceptional_reduction`. For `m=8,h=7` and
+`m=16,h=15`, every generic tangent branch and both possible binomial outer
+forms are empty. A survivor must have `nu=0`, a nonzero constant Euler
+eliminant `H=q`, and `qG(y)=m alpha y` at every nonzero root of
+`T=hG-YG'`; those tangent values are simple and every `R-y` is squarefree
+and disjoint from the complement. This is a strict reduction, not an
+emptiness theorem, so the endpoint degrees remain in the residual.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

@@ -4417,3 +4417,18 @@ four nonzero-`b` eliminant degrees after the Cartier valuation split. The
 node adds no algebra; it makes the closure auditable and portable as one
 finite split-pencil census result. It feeds L1 as evidence while leaving
 nonembedded `m=4,h=2`, `m=8,16`, wider exchanges, and the exact shell open.
+
+## 176 - 2026-07-22: NEXT-TO-MAXIMAL MERSENNE DEGREES HAVE ONE EXCEPTIONAL PASSPORT
+
+`l1_mersenne_next_to_maximal_exceptional_reduction` treats the five official
+`(m,h)=(8,7),(16,15)` rows. A nonzero tangent value gives a polynomial
+`P_y=X^nu H-m alpha y/G(y)` of degree at most `h`. If it is nonzero, its
+root and local-multiplicity ledger forces `p<=h^2`, impossible. The zero
+case is real and must not be discarded: it leaves exactly `nu=0`, constant
+`H=q`, and `qG(y)=m alpha y` at every nonzero tangent value. Local orders
+make those values simple and their fibers squarefree and complement-disjoint.
+If there is no nonzero tangent value, the outer polynomial is one of two
+binomials; Mason excludes the pure form and a five-row exact quadratic-
+extension packet excludes the linear-tail form. Thus the endpoint remains
+open only in the printed constant-Euler passport. `CR-L1-MCP-NMCE` records
+the proof-producing outer subresultant classification as delegated compute.

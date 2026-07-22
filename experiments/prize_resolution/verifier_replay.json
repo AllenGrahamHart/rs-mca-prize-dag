@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/l1_m4_h3_official_emptiness/verify.py",
-      "seconds": 0.029988,
+      "script": "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/verify.py",
+      "seconds": 0.043322,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_M4_H3_OFFICIAL_EMPTINESS_PASS checks=27\n"
+      "stdout_tail": "L1_MERSENNE_NEXT_TO_MAXIMAL_EXCEPTIONAL_REDUCTION_PASS checks=34\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/l1_m4_h3_official_emptiness/verify_audit.py",
-      "seconds": 0.020432,
+      "script": "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/verify_audit.py",
+      "seconds": 0.02668,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_M4_H3_OFFICIAL_EMPTINESS_AUDIT_PASS checks=12\n"
+      "stdout_tail": "L1_MERSENNE_NEXT_TO_MAXIMAL_EXCEPTIONAL_REDUCTION_AUDIT_PASS checks=72\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

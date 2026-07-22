@@ -532,6 +532,15 @@
   nonembedded `m=4,h=2` and the live `m=8,16` value degrees.
   Use `l1_m4_h3_official_emptiness` as the aggregate closure supplier; do
   not reopen one of its internal valuation or packet branches independently.
+  At `m=8,h=7` and `m=16,h=15`, next consume
+  `l1_mersenne_next_to_maximal_exceptional_reduction`. Do not search a
+  positive-valuation, nonconstant-Euler, or binomial outer branch: each is
+  theorem-empty. Retain only the zero-valuation constant-Euler passport
+  `(NMR3)--(NMR5)`, and make any computation expose its outer subresultant
+  chamber and independently replay the simple tangent and complement-
+  disjointness conditions. `CR-L1-MCP-NMCE` specifies the outbound
+  proof-producing classification request; it is not authorized locally or
+  on the current Modal account.
   Contributor-scale
   work is specified as `CR-L1-MCP` in
   `notes/PRIZE_COMPUTE_REQUESTS.md`; its former `NU0-H0` pre-request is now a

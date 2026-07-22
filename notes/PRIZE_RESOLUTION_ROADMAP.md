@@ -1969,6 +1969,15 @@ value-coset invariant outside characteristic five. Therefore every official
 case split as a first-class green DAG node. The live first-checkpoint frontier is now
 nonembedded `m=4,h=2`, `m=8` with `2<=h<=7`, and `m=16` with
 `2<=h<=15`, after subtracting the proved embedded antipodal family.
+The endpoint degrees are now sharply reduced but not closed:
+`l1_mersenne_next_to_maximal_exceptional_reduction` excludes every
+nonconstant-Euler tangent branch and both binomial outer forms at
+`m=8,h=7` and `m=16,h=15`. Any survivor has `nu=0`, constant `H=q`,
+simple nonzero tangent values satisfying `qG(y)=m alpha y`, and squarefree
+tangent fibers disjoint from the complement. The next analytic step is the
+outer subresultant classification of this exceptional passport; the
+unknown-cost proof-producing fallback is recorded as `CR-L1-MCP-NMCE` and
+must be delegated rather than launched on the current account.
 The next analytic target is therefore an exhaustion theorem for low-weight
 balanced signed words in the `m=4` Mersenne cyclic code. The exact finite
 falsifier `CR-L1-MCP-M4H2-C31` asks contributors to classify the order-128

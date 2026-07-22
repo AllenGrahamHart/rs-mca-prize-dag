@@ -1956,6 +1956,12 @@ sweep.
   and the theorem decision changed by each output. Until those fields exist,
   the lower-`h` search is a research pre-request rather than an authorized
   local or Modal run.
+  At the endpoint degrees `(m,h)=(8,7),(16,15)`, first consume
+  `l1_mersenne_next_to_maximal_exceptional_reduction`. Every generic tangent
+  branch and both binomial outer forms are empty. Do not request compute on
+  them. The only live endpoint object is the zero-valuation constant-Euler
+  passport `(NMR3)--(NMR5)`; its staged proof-producing classification is
+  `CR-L1-MCP-NMCE` below.
   The decision target is a row-sharp split-pencil census or a further
   structural owner; do not shard over `(b,c)` or expand the same records into
   arbitrary exchanged subsets or Wronskian coefficients.
@@ -7112,6 +7118,70 @@ Timeout or incomplete shard coverage is `INCOMPLETE`, never evidence of
 absence. The order-128 analogue has `94,525,795,200` subsets and roughly
 `1.38 TiB` of raw records, so it is not requested without a new structural
 compression.
+
+### CR-L1-MCP-NMCE: constant-Euler next-to-maximal passport classification
+
+**Status:** valuable outbound research-compute request with unknown cost;
+not authorized locally or on the current Modal account. Benchmark and price
+one outer chamber before any extension.
+
+This request targets only the exact residue of
+`l1_mersenne_next_to_maximal_exceptional_reduction` on
+
+```text
+(m,h,p)=(8,7,8191),(8,7,131071),(8,7,524287),
+        (8,7,2147483647),(16,15,8191).
+```
+
+The outer stage has a monic depressed squarefree polynomial `G` of degree
+`h` and a nonzero scalar `lambda=m alpha/q`. Put
+
+```text
+T=hG-YG',
+r=ord_0(T),
+S=the monic associate of T/Y^r.
+```
+
+Every survivor satisfies
+
+```text
+S is nonconstant and squarefree,
+gcd(S,Y)=1,
+S divides G-lambda Y.                                (NMCE-OUT)
+```
+
+Classify `(NMCE-OUT)` by exact subresultant or ideal decomposition, sharded
+only by `r`, `deg S`, and the declared leading-coefficient chamber. Prefer a
+characteristic-uniform decomposition over the integers with its excluded
+prime factors; otherwise run the five characteristics separately. Do not
+enumerate field elements or the `p^(2(h-1))` coefficient space.
+
+**Route-deciding outer outcome:** either emit independently checkable unit-
+ideal/resultant certificates for every chamber, which closes the endpoint
+before constructing an inner pencil, or emit a complete finite
+parameterization of exceptional `(G,lambda)` passports. A single outer
+passport is not a split-pencil witness; label it `OUTER-SURVIVOR`.
+
+Only for a certified outer survivor should a second stage impose
+
+```text
+G(R)D=X^(m(p+1))-alpha,
+deg R=p,       deg D=p+m,
+H=q,           h complete split fibers,
+```
+
+together with the proved facts that every nonzero tangent value is simple
+and every corresponding `R-y` is squarefree, nonzero-rooted, and coprime to
+`D`. The requested final output is either a replayable full pencil or a
+proof-producing exclusion certificate for each outer passport. A modular
+Groebner no-hit, timeout, or incomplete chamber list is `INCOMPLETE`.
+
+Publish the exact polynomial ring, monomial order, chamber manifest,
+generator hashes, certificate format, elapsed CPU, peak RAM, scratch space,
+and projected dollar cost. Preserve completed chambers and their hashes on
+timeout. The order-64 `CR-L1-MCP-A8` analogue remains useful because its
+`p=7` lies below the theorem's `p>h^2` gate; it must not be presented as an
+official endpoint classification.
 
 ### CR-L1-MCP-C31: adjudicate the order-128 two-Schur CP model
 
