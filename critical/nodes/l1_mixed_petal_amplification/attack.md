@@ -373,11 +373,12 @@
   emptiness or component theorem for words `b` with
   `b,b^[2] in C_M`, exact three-color counts `p,p,p`, and zero complement
   `p+4`. One code constraint alone is not equivalent and must not be used.
-  Then apply `l1_m4_h3_mason_defect_budget`: classify the five cases
-  `nu=0,...,4` with total radical defect at most `4-nu`. The case `a=0` is
-  already impossible. Retain the explicit nonzero Wronskian eliminant of
-  degree at most `4-nu`, including the proved divisibility of the full defect
-  factor. Any computation should encode these defect conditions
+  Then apply `l1_m4_h3_mason_defect_budget` and
+  `l1_m4_h3_cartier_resonance_reduction`: `a=0` and `nu=4` are impossible.
+  Classify `nu=0,1,2,3`, where the nonzero Wronskian eliminant has degree at
+  most `3-nu` and contains the full defect factor. Enforce the four printed
+  Cartier coefficient constraints. Any computation should encode these
+  conditions
   and report which valuation case it covers; a generic no-hit SAT run does
   not pay the branch.
   Contributor-scale

@@ -3531,3 +3531,14 @@ two-Schur branch has
 five low-defect valuation cases rather than an unbounded support search.
 This is PROVED compression, not emptiness; the next task is to classify or
 price those five cases.
+
+## 133 - 2026-07-22: CARTIER RESONANCE KILLS THE NU=4 CUBIC CASE
+
+For each Mason valuation, a small power `X^s` turns the Wronskian equation
+into `(X^sU^3D)'=X^(s-1)U^2H`. Formal derivatives in characteristic `p`
+have zero coefficient in every degree `jp-1`. The former maximum degree of
+`H` lands its nonzero leader exactly in such a slot, lowering
+`deg H<=4-nu` to `deg H<=3-nu`. Since `H` is nonzero, `nu=4` is impossible.
+The remaining valuations `0,1,2,3` carry eliminants of degree at most
+`3,2,1,0` and four exact coefficient constraints. This is a PROVED case
+exclusion and compression, not full `m=4,h=3` emptiness.

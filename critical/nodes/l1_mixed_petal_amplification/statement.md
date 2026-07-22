@@ -759,9 +759,11 @@ The first analytic component compression is now proved in
 reduced Mason summand total at most `4-nu`. The Wronskian also gives the
 explicit nonzero eliminant
 `3XU'D+XUD'-(n-3nu)UD` of degree at most `4-nu`, and the full defect factor
-divides it. Thus all exceptional roots lie among at most four points and the
-cubic branch is a
-five-case low-defect classification problem, not an unrestricted cyclic-code
+divides it. The Cartier refinement
+`l1_m4_h3_cartier_resonance_reduction` excludes `nu=4` and lowers the
+remaining eliminant degrees to `3,2,1,0` for `nu=0,1,2,3`. Thus all
+exceptional roots lie among at most three points and the cubic branch is a
+four-case low-defect classification problem, not an unrestricted cyclic-code
 search. Emptiness or a payable component count for those cases remains open.
 
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not

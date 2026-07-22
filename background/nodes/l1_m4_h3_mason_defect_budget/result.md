@@ -9,4 +9,5 @@ Mason classification problem. Each case also carries the explicit nonzero
 eliminant `3XU'D+XUD'-(n-3nu)UD` of degree at most `4-nu`; it is constant at
 `nu=4`. The full repeated-root and overlap defect factor divides this
 eliminant, localizing every exception at no more than four points. No case is
-yet excluded, so L1 remains open.
+excluded by this node itself; the Cartier-resonance successor excludes
+`nu=4`. L1 remains open.
