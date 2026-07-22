@@ -11,8 +11,10 @@
    `3p-1` for `nu<=1` and `2p-1` for `nu>=2`.
 6. Every formal derivative has zero coefficient in degree `jp-1`; this is a
    coefficient obstruction, not a claim that its degree is below `jp-1`.
-7. For `nu=4`, nonzero `H` had degree zero, so exclusion of the former
+7. The prior full defect factor still divides `H`, so the new degree bound
+   improves the total defect budget to `3-nu`.
+8. For `nu=4`, nonzero `H` had degree zero, so exclusion of the former
    maximum excludes the entire case.
-8. The four printed residual constraints subtract the shift `s-1`, not `s`.
-9. Slots above the improved right-side degree are not listed as constraints.
-10. The node reduces the branch but does not prove the other four cases empty.
+9. The four printed residual constraints subtract the shift `s-1`, not `s`.
+10. Slots above the improved right-side degree are not listed as constraints.
+11. The node reduces the branch but does not prove the other four cases empty.

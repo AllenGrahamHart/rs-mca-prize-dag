@@ -36,8 +36,9 @@ def main() -> None:
         checks += 1
     statement = (HERE / "statement.md").read_text()
     assert "nu in {0,1,2,3}" in statement
+    assert "delta_A+delta_B<=deg H<=3-nu" in statement
     assert "does not exclude" in statement
-    checks += 2
+    checks += 3
     print(f"L1_M4_H3_CARTIER_RESONANCE_REDUCTION_AUDIT_PASS checks={checks}")
 
 

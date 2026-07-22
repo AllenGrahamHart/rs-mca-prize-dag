@@ -30,8 +30,12 @@ The coefficient of `X^(jp-1)` in a formal derivative is always zero. If
 in degree `3p-1` for `nu=0,1` and degree `2p-1` for `nu=2,3,4`. Therefore
 
 ```text
-nu in {0,1,2,3},       0<=deg H<=3-nu.                 (CRR4)
+nu in {0,1,2,3},
+delta_A+delta_B<=deg H<=3-nu.                           (CRR4)
 ```
+
+In particular, `nu=3` has constant nonzero `H` and zero defect: `U` is
+squarefree and coprime to `D`, and `B_0` is squarefree.
 
 The remaining derivative resonances give exact coefficient constraints:
 

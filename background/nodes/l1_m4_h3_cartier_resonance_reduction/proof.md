@@ -39,7 +39,9 @@ F'=sum k f_k X^(k-1)
 
 is `jp f_(jp)=0`. The nonzero leading coefficient on the right of `(CRR3)`
 is impossible. Hence `h<=3-nu` for `nu<=3`. When `nu=4`, this would say
-`h<=-1`, contradicting `H!=0`. This proves `(CRR4)`.
+`h<=-1`, contradicting `H!=0`. The dependency proves that the complete
+defect factor divides `H`, so its degree is
+`delta_A+delta_B<=deg H`. This proves `(CRR4)`.
 
 Finally, every remaining `jp-1` slot on the right side of `(CRR3)` must also
 vanish. Removing the shift `s-1` gives the source degrees

@@ -764,7 +764,10 @@ divides it. The Cartier refinement
 remaining eliminant degrees to `3,2,1,0` for `nu=0,1,2,3`. Thus all
 exceptional roots lie among at most three points and the cubic branch is a
 four-case low-defect classification problem, not an unrestricted cyclic-code
-search. Emptiness or a payable component count for those cases remains open.
+search. The companion `l1_m4_h3_euler_quotient_factorization` proves
+`D(2aR+3b)(nu U+XU')=Hg(R)-4alpha U`, pins `H(0)!=0`, and makes the Euler
+derivative degree exactly `p+deg(H)-4`. Emptiness or a payable component
+count for those cases remains open.
 
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full

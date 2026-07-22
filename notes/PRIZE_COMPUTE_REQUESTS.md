@@ -7008,6 +7008,8 @@ outer coefficient `a!=0` and a Wronskian eliminant containing the full defect
 factor. The Cartier refinement excludes `nu=4`; the cases `nu=0,1,2,3` have
 eliminant degree at most `3,2,1,0` and four exact coefficient constraints.
 A donated solver extension should expose `a`, `nu`, the eliminant, and the
-two defect witnesses, shard by these four cases, and independently
+two defect witnesses. It must also check `H(0)!=0` and the exact Euler
+quotient factorization from `l1_m4_h3_euler_quotient_factorization`. Shard by
+the four valuations and independently
 check the exact factorization `(R^3+aR+b)D=X^n-alpha`. A generic feasible or
 no-hit color assignment without this replay remains only analogue evidence.

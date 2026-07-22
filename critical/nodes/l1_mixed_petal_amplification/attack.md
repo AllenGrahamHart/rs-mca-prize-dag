@@ -377,7 +377,9 @@
   `l1_m4_h3_cartier_resonance_reduction`: `a=0` and `nu=4` are impossible.
   Classify `nu=0,1,2,3`, where the nonzero Wronskian eliminant has degree at
   most `3-nu` and contains the full defect factor. Enforce the four printed
-  Cartier coefficient constraints. Any computation should encode these
+  Cartier coefficient constraints and the Euler quotient factorization,
+  including `H(0)!=0` and `deg(nu U+XU')=p+deg(H)-4`. Any computation should
+  encode these
   conditions
   and report which valuation case it covers; a generic no-hit SAT run does
   not pay the branch.

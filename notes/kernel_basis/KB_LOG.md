@@ -3542,3 +3542,13 @@ have zero coefficient in every degree `jp-1`. The former maximum degree of
 The remaining valuations `0,1,2,3` carry eliminants of degree at most
 `3,2,1,0` and four exact coefficient constraints. This is a PROVED case
 exclusion and compression, not full `m=4,h=3` emptiness.
+
+## 134 - 2026-07-22: CUBIC EULER QUOTIENT FACTORIZATION
+
+Eliminating the complement derivative between the domain identity and the
+Wronskian equation gives
+`D(2aR+3b)(nu U+XU')=H(R^3+aR+b)-4alpha U` on all four surviving
+valuations. It proves `H(0)!=0` and the exact degree formula
+`deg(nu U+XU')=p+deg(H)-4`, so only zero to three top Euler coefficients can
+vanish. This is a PROVED companion factorization for the remaining
+Davenport-Mason case split, not a further valuation exclusion.

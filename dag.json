@@ -15317,7 +15317,7 @@
    "title": "L1 m=4, h=3 Cartier resonance reduction",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "For a hypothetical official m=4,h=3 record, choose s_nu=p-4,p-1,2,5,8 for nu=0,...,4. The Wronskian equation has the exact integrating-factor form (X^s_nu U^3D)'=X^(s_nu-1)U^2H. Formal derivatives have zero coefficient in every degree jp-1, so the former maximum deg H=4-nu is impossible. Consequently nu=4 is empty, while nu=0,1,2,3 have deg H at most 3,2,1,0 and satisfy four printed residual coefficient constraints. This reduces but does not close the m=4,h=3 branch or L1.",
+   "statement": "For a hypothetical official m=4,h=3 record, choose s_nu=p-4,p-1,2,5,8 for nu=0,...,4. The Wronskian equation has the exact integrating-factor form (X^s_nu U^3D)'=X^(s_nu-1)U^2H. Formal derivatives have zero coefficient in every degree jp-1, so the former maximum deg H=4-nu is impossible. Consequently nu=4 is empty, while nu=0,1,2,3 have eliminant degree and total radical defect at most 3,2,1,0 and satisfy four printed residual coefficient constraints. In particular nu=3 is squarefree/coprime throughout. This reduces but does not close the m=4,h=3 branch or L1.",
    "refs": [
     "background/nodes/l1_m4_h3_cartier_resonance_reduction/statement.md",
     "background/nodes/l1_m4_h3_cartier_resonance_reduction/proof.md",
@@ -15329,6 +15329,25 @@
     "background/nodes/l1_m4_h3_cartier_resonance_reduction/upstream_crosswalk.md",
     "background/nodes/l1_m4_h3_cartier_resonance_reduction/verify.py",
     "background/nodes/l1_m4_h3_cartier_resonance_reduction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_euler_quotient_factorization",
+   "title": "L1 m=4, h=3 Euler quotient factorization",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every surviving official m=4,h=3 valuation, put V=nu U+XU'. Eliminating D' between the domain derivative and Wronskian equation gives D(2aR+3b)V=H(R^3+aR+b)-4alpha U. The eliminant has H(0)!=0, and if h=deg H then V has exact degree p+h-4, between p-4 and p-nu-1. This exposes at most three top Euler-coefficient cancellations but does not exclude a remaining valuation, count components, or close L1.",
+   "refs": [
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/statement.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/proof.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/claim_contract.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/audit.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/result.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/lineage.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/verify.py",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/verify_audit.py"
    ]
   }
  ],
@@ -29395,6 +29414,16 @@
   },
   {
    "from": "l1_m4_h3_cartier_resonance_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_cartier_resonance_reduction",
+   "to": "l1_m4_h3_euler_quotient_factorization",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_euler_quotient_factorization",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

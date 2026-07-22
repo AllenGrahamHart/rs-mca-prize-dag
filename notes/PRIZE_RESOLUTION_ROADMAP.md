@@ -1752,7 +1752,10 @@ remaining valuations `0,1,2,3` have eliminant degrees at most `3,2,1,0` and
 four exact missing-derivative coefficient constraints. These proved
 reductions are `l1_m4_h3_mason_defect_budget` and
 `l1_m4_h3_cartier_resonance_reduction`. The immediate proof target is a
-four-case low-defect Davenport-Mason classification. The CP model is
+four-case low-defect Davenport-Mason classification. The companion
+`l1_m4_h3_euler_quotient_factorization` pins the eliminant's constant term
+and converts its degree into the exact degree `p+deg(H)-4` of
+`nu U+XU'`; use this factorization in the case split. The CP model is
 secondary and should be stratified by the same invariants if a contributor
 runs it.
 

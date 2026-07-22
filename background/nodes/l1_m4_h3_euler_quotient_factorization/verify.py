@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the Cartier resonance reduction and DAG wiring."""
+"""Verify the Euler quotient factorization degree ledger and wiring."""
 
 from __future__ import annotations
 
@@ -9,8 +9,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[3]
-NODE = "l1_m4_h3_cartier_resonance_reduction"
-SUPPLIER = "l1_m4_h3_mason_defect_budget"
+NODE = "l1_m4_h3_euler_quotient_factorization"
+SUPPLIER = "l1_m4_h3_cartier_resonance_reduction"
 CONSUMER = "l1_mixed_petal_amplification"
 
 
@@ -27,25 +27,24 @@ def main() -> None:
     assert len(rows) == 4
 
     for row in rows:
-        p, n = row["p"], row["n"]
-        choices = (p - 4, p - 1, 2, 5, 8)
-        for nu, s in enumerate(choices):
-            ell = n - 3 * nu
-            assert (s + ell) % p == 0
-            old_top = s - 1 + 2 * (p - nu) + (4 - nu)
-            expected = 3 * p - 1 if nu <= 1 else 2 * p - 1
-            assert old_top == expected and (old_top + 1) % p == 0
-            checks += 3
+        p = row["p"]
+        for nu in range(4):
+            assert (4 - 3 * nu) % p != 0
+            for h in range(4 - nu):
+                degree_v = p + h - 4
+                assert p - 4 <= degree_v <= p - nu - 1
+                left_degree = (p + 4) + p + degree_v
+                assert left_degree == 3 * p + h
+                checks += 3
 
-        shifts = (p - 5, p - 2, 1, 4)
-        resonances = ((p - 1, 2 * p - 1),
-                      (p - 1, 2 * p - 1),
-                      (p - 1,), (p - 1,))
-        expected_sources = ((4, p + 4), (1, p + 1),
-                            (p - 2,), (p - 5,))
-        for shift, slots, sources in zip(shifts, resonances, expected_sources):
-            assert tuple(slot - shift for slot in slots) == sources
-            checks += 1
+    # Coefficient identity 3(Y^3+aY+b)-Y(3Y^2+a)=2aY+3b.
+    cubic = {3: 1, 1: 1, 0: 1}
+    derivative = {2: 3, 0: 1}
+    left = {degree: 3 * value for degree, value in cubic.items()}
+    for degree, value in derivative.items():
+        left[degree + 1] = left.get(degree + 1, 0) - value
+    assert {degree: value for degree, value in left.items() if value} == {1: 2, 0: 3}
+    checks += 1
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
@@ -59,14 +58,12 @@ def main() -> None:
     checks += 5
 
     statement = (ROOT / "background" / "nodes" / NODE / "statement.md").read_text()
-    for anchor in ("(CRR2)", "(CRR3)", "(CRR4)", "(CRR5)",
-                   "nu in {0,1,2,3}",
-                   "delta_A+delta_B<=deg H<=3-nu",
-                   "does not exclude"):
+    for anchor in ("(EQF3)", "(EQF4)", "(EQF5)", "H(0)!=0",
+                   "deg V=p+h-4", "does not exclude"):
         assert anchor in statement
         checks += 1
 
-    print(f"L1_M4_H3_CARTIER_RESONANCE_REDUCTION_PASS checks={checks}")
+    print(f"L1_M4_H3_EULER_QUOTIENT_FACTORIZATION_PASS checks={checks}")
 
 
 if __name__ == "__main__":
