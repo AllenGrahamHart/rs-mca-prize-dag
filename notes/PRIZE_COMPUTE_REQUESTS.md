@@ -6911,6 +6911,13 @@ Before emitting candidates, remove the exact embedded family from
 that its pair is not in this family; otherwise prioritize `h>=3`, beginning
 with `m=4,h=3`. The latter is automatically nonembedded: oddness gives
 embedded split values in sign pairs, and maximal `h=4` is theorem-empty.
+For that cubic shard, consume `l1_m4_h3_colored_cyclic_equivalence` and use
+the exact variables `b_i in {0,1,omega,omega^2}` with `p` occurrences of
+each nonzero color. Enforce Fourier support in the printed Mersenne chambers
+for both `b` and coefficientwise `b^[2]`; `b^[3]` must be the union indicator
+with `p+4` zeros. A solver imposing only one code membership is incomplete.
+Shard by a canonical zero complement and color orbit only after proving that
+the quotient preserves both Schur constraints.
 
 **Requested outcome:** for a declared `(n,p,h,d)` shard, either emit one
 fully replayable pair of disjoint split fibers, including `Q`, `G_Q`, the

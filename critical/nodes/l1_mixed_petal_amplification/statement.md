@@ -743,6 +743,15 @@ its split values come in nonzero sign pairs. Together with maximal-degree
 emptiness, this makes every embedded `m=4` pencil exactly `h=2`; the
 `m=4,h=3` branch is wholly nonembedded.
 
+That cubic branch is now exactly re-encoded by
+`l1_m4_h3_colored_cyclic_equivalence`. Since every official `m=4`
+characteristic is `1 mod 3`, color the three fibers by
+`1,omega,omega^2`. Both the colored word and its coefficientwise square must
+lie in the explicit Mersenne cyclic code, and this condition is also
+sufficient. Its coefficientwise cube is the union indicator with exactly
+`p+4` zero positions. The remaining theorem is emptiness or a row-sharp
+component bound for this two-Schur section, not a generic `Q` enumeration.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

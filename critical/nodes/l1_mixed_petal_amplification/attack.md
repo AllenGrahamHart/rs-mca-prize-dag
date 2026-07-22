@@ -369,6 +369,10 @@
   maximal-degree emptiness makes those pencils exactly `h=2`. Its analogue
   absence of nonembedded `h=3` remains evidence only. Search or prove only
   the nonembedded `h>=3` branch and explicitly nonembedded `h=2` records.
+  For `m=4,h=3`, apply `l1_m4_h3_colored_cyclic_equivalence`: seek an
+  emptiness or component theorem for words `b` with
+  `b,b^[2] in C_M`, exact three-color counts `p,p,p`, and zero complement
+  `p+4`. One code constraint alone is not equivalent and must not be used.
   Contributor-scale
   work is specified as `CR-L1-MCP` in
   `notes/PRIZE_COMPUTE_REQUESTS.md`; no local or current-account Modal run is

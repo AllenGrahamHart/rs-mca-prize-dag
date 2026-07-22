@@ -3496,3 +3496,13 @@ This is a proved polynomial lower payload, not an exhaustive `h=2` count.
 The embedded inner polynomial is odd and zero is not split, so split values
 come in sign pairs. Maximal-degree emptiness therefore makes every embedded
 `m=4` pencil exactly `h=2`; future `m=4,h=3` work is wholly nonembedded.
+
+## 130 — 2026-07-22: M4/H3 IS AN EXACT TWO-SCHUR CYCLIC SECTION
+
+All four official `m=4` characteristics are `1 mod 3`. Coloring three fibers
+by `1,omega,omega^2` proves an equivalence: exact `h=3` iff both the colored
+word and its coefficientwise square lie in the explicit Mersenne cyclic
+code, with each nonzero color used `p` times. The coefficientwise cube is the
+union indicator and has `p+4` zeros. This is a PROVED re-encoding, not an
+emptiness result. The next theorem targets this two-Schur section directly;
+one-code searches are invalid.

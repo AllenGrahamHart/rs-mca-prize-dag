@@ -1730,6 +1730,12 @@ negative, so maximal-degree emptiness proves that the `m=4,h=3` branch is
 entirely nonembedded. The corresponding large-run idea remains parked as `CR-L1-MCP`,
 gated on a completeness-preserving low-weight-codeword compression and a
 measured pilot.
+The nonembedded `m=4,h=3` object is no longer an unspecified split-pencil
+census: it is exactly the two-Schur section `b,b^[2] in C_M`, with three
+nonzero colors of size `p` and a `p+4` zero complement. The next analytic
+target is a component or emptiness theorem for that section. Any computation
+must retain both code constraints; a one-code BCH search does not test the
+posed branch.
 
 **Track H — hedges (funded, never built on):** H1 price RK by one dedicated
 refutation round (survives -> insurance; dies -> the 17-leaf prune comes off
