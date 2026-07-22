@@ -148,6 +148,14 @@ identifications without a machine-verified chain.
   target fibers. The router removes small-characteristic cycle bookkeeping,
   not the row-sharp max-fiber or collective Pade-graph theorem, and it does
   not turn the special F2 summit into general Q.
+  The follow-on `l1_official_frobenius_checkpoint_q_router` removes the depth
+  restriction without hiding a cycle loss. The cap implies
+  `p>=11n/256>n/24`, so every depth has at most 23 characteristic multiples.
+  Keeping p-free power sums and replacing each divisible-index sum by the
+  corresponding elementary coefficient is triangularly equivalent to the
+  full locator prefix. Thus the all-depth target is **p-free Q flatness
+  uniformly conditioned on at most 23 Frobenius checkpoints**, followed by
+  the same Pade-graph intersection. A raw `q^23` union is not a payment.
   `l1_cofactor_depth_budget_cancellation` corrects the accounting: for
   `e<k`, the `q^e` factor cancels exactly against the `e` additional prefix
   equations under an ambient-normalized deeper-depth bound. Under upstream's

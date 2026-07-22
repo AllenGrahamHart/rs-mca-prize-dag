@@ -366,6 +366,22 @@ characteristic coordinate caveat in that range, not the max-fiber or Pade-
 graph intersection theorem. The special F2 summit remains too narrow to
 supply that general Q bound.
 
+`l1_official_frobenius_checkpoint_q_router` removes the coordinate caveat at
+all remaining depths. The same field arithmetic gives
+
+```text
+p>=11n/256>n/24,
+```
+
+so a depth below `n` meets at most 23 positive multiples of `p`. Replace the
+power sum at each such index `jp` by the elementary coefficient `E_(jp)`.
+Newton recursion and `S_(jp)=S_j^p` give a triangular bijection between the
+entire locator prefix and this mixed vector. Thus every fixed-cofactor cell is
+globally a p-free power-sum Q fiber conditioned on at most 23 Frobenius
+checkpoints. The residual is now conditional flatness across those checkpoint
+values and the Pade graph, not an untyped small-characteristic tail. Raw
+union over `q^23` checkpoint values is not paid.
+
 The fixed-syndrome target cannot in general be collapsed to one actual
 locator-prefix fiber. `l1_fixed_syndrome_multiprefix_route_cut` independently
 proves the field-generic fixed-multipartial polynomial-fold source and replays

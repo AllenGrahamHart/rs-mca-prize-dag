@@ -1848,6 +1848,13 @@ sweep.
   `0<=h-a_0<=3174`, and every word when `p>=n-k`. Do not schedule separate
   Newton-cycle or locator-versus-power-sum jobs in this scope. The run must
   still test max-fiber concentration or collective graph intersection.
+  Outside the ordinary Newton window, consume
+  `l1_official_frobenius_checkpoint_q_router`: retain p-free power sums and
+  the elementary coordinates at indices divisible by `p`. There are at most
+  23 such checkpoints over the complete official degree range. Shard only by
+  checkpoint vectors actually attained by split locators, preserve them in
+  every certificate, and test uniform conditional concentration. Do not
+  launch independent jobs over the ambient `q^r` checkpoint space.
   Then consume `l1_cofactor_prefix_pade_graph_normal_form`. Reverse the high
   coefficients and represent all possible targets at once by
   `Lhat=Uhat/Qhat mod T^(a-k+e+1)`. The first `e` locator coefficients are

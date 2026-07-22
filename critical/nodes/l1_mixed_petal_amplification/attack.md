@@ -71,6 +71,13 @@
   bijection. This includes 3,175 excess layers uniformly and all received
   words when `p>=n-k`. Keep the Pade-graph/flatness obligation; delete only a
   duplicate small-characteristic or coordinate-conversion shard.
+- For every deeper prefix, apply
+  `l1_official_frobenius_checkpoint_q_router`. Keep `S_j` when `p` does not
+  divide `j` and replace `S_(jp)` by the elementary checkpoint `E_(jp)`.
+  This is exactly equivalent to the locator prefix, and official arithmetic
+  gives at most 23 checkpoints. Pose the remaining theorem as p-free Q
+  flatness uniform in those checkpoint values. Do not create a generic
+  small-characteristic tail or union-bound over `q^23` checkpoint vectors.
 - Before designing that count, apply
   `l1_cofactor_prefix_pade_graph_normal_form`. In reversed high-coefficient
   coordinates all possible targets form the graph
