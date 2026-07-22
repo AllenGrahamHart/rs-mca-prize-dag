@@ -1717,9 +1717,14 @@ or the explicit antipodal family; maximal split-value degree is empty on all
 at every first-checkpoint depth. The surviving rows have
 `n=m(p+1)`, `m in {4,8,16}`, and `2<=h<=m-1`. This is a real closure of the
 `t=p` endpoint outside those nine rows, not an L1 status flip. The next proof
-step is a Mersenne-specific cyclic-code or complement normal form that
-compresses lower `h`; the corresponding large-run idea is parked as
-`CR-L1-MCP`, gated on such a compression and a measured pilot.
+step now starts from the proved Mersenne cyclotomic normal form: frequency
+`q(p+1)+b` survives exactly outside two residue classes modulo
+`gcd(2b,m)`, and every collision is an exact-weight `2p` codeword above an
+`N+1` BCH floor. The complete `(32,7,4)` analogue has 16 `h=2` pencils and no
+`h>=3` pencil, supporting an `m=4,h=3` exclusion without suggesting total
+emptiness. The corresponding large-run idea remains parked as `CR-L1-MCP`,
+gated on a completeness-preserving low-weight-codeword compression and a
+measured pilot.
 
 **Track H — hedges (funded, never built on):** H1 price RK by one dedicated
 refutation round (survives -> insurance; dies -> the 17-leaf prune comes off

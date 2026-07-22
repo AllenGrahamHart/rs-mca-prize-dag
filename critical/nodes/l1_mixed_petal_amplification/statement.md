@@ -723,6 +723,15 @@ nine Mersenne-shape tuples
 n=m(p+1),       m in {4,8,16},       2<=deg G_Q<=m-1.
 ```
 
+`l1_mersenne_checkpoint_cyclotomic_normal_form` now describes the full
+residual Fourier closure. Writing `N=p+1` and every frequency as `qN+b`, its
+membership is decided by two residue classes modulo `gcd(2b,m)`. In
+particular all `N` frequencies `0,...,N-1` vanish, so the signed collision
+word belongs to an explicit BCH-type low-weight window
+`N+1<=weight=2N-2<2(N+1)`. The nonofficial `(32,7,4)` analogue exhausts all
+seven-subsets and has 16 `h=2` pencils but no `h>=3` pencil; this is evidence,
+not an official-row exclusion.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

@@ -6897,6 +6897,13 @@ has `ord_0(R)<=n-(h+1)p`. A valid implementation must exploit these facts
 and the balanced prime-field cyclic-code formulation: the signed exponent
 word has exactly `p` coefficients `+1`, exactly `p` coefficients `-1`, and
 Fourier zeros on the full `p`-cyclotomic closure of `[0,p-1]`.
+Consume `l1_mersenne_checkpoint_cyclotomic_normal_form` rather than building
+that closure numerically: for `k=q(p+1)+b`, membership is decided by
+`q=0` or `q=b-1 mod gcd(2b,m)`. All `p+1` consecutive frequencies in the
+zeroth block vanish, and the target word has exact weight `2p` between the
+proved BCH floor `p+2` and twice that floor. A proposed solver must operate
+on this low-weight chamber representation and report how its quotienting
+preserves the separate `+1` and `-1` weights.
 
 **Requested outcome:** for a declared `(n,p,h,d)` shard, either emit one
 fully replayable pair of disjoint split fibers, including `Q`, `G_Q`, the
@@ -6912,5 +6919,12 @@ of the smallest row under explicit RAM, wall-time, storage, and dollar caps.
 Raw enumeration of supports, complements, normalized `Q`, or field elements
 is prohibited. The resource cost is currently unknown and could be large;
 publish the pilot before requesting a full contributor run. A PR carrying
-this request should include the five proved checkpoint nodes and state
+this request should include the six proved checkpoint nodes and state
 exactly which PASS or witness changes the DAG.
+
+The complete small pilot
+`experiments/prize_resolution/l1_mersenne_checkpoint_analog_result.md`
+exhausted all `3,365,856` seven-subsets at `(n,p,m)=(32,7,4)` in Modal app
+`ap-X9B0VIv80tdRxDSfYnkG9o`. It found 16 two-fiber pencils, no `h>=3`
+pencil, and maximum depth eight. This satisfies only the small-analogue
+conformance gate; it supplies no official-row throughput or cost estimate.

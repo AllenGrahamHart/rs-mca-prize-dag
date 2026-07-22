@@ -3473,3 +3473,14 @@ broad-remainder rows. The remaining nine tuples are exactly
 wider exchanges and the primitive split-pencil aggregate remain open.
 Potential large computation is parked as contributor request `CR-L1-MCP`,
 with raw enumeration forbidden and a compression-plus-pilot launch gate.
+
+## 128 — 2026-07-22: MERSENNE CHECKPOINT FREQUENCIES NORMALIZED
+
+The nine surviving `n=m(p+1)` rows now have an exact cyclotomic chamber
+formula in coordinates `k=q(p+1)+b`; two residue classes modulo
+`gcd(2b,m)` determine every zero. A full block of `p+1` consecutive zeros
+puts each collision at exact weight `2p` in a narrow BCH-type low-weight
+window. The complete `(32,7,4)` analogue (Modal app
+`ap-X9B0VIv80tdRxDSfYnkG9o`) found 16 `h=2` pencils and no `h>=3` pencil.
+This is evidence for attacking `m=4,h=3`, not an official exclusion or an
+L1 promotion. CR-L1-MCP now requires the chamber compression.

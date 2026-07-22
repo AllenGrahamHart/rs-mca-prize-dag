@@ -358,6 +358,12 @@
   `m in {4,8,16}` and `2<=h<=m-1`. A successor must retain exact row, depth,
   split-value degree, complement degree, depressed-pencil valuation, and
   first owner. Raw complement, support, or `(Q,b,c)` enumeration is not an
-  admissible route. Contributor-scale work is specified as `CR-L1-MCP` in
+  admissible route. Apply
+  `l1_mersenne_checkpoint_cyclotomic_normal_form` next: retain only Fourier
+  frequencies in its two-residue chambers and treat the exact weight
+  `2(p+1)-2` as a low-weight cyclic-code classification problem. The
+  `(32,7,4)` analogue rules out conjecturing total emptiness because `h=2`
+  pencils exist; its absence of `h=3` is evidence only. Contributor-scale
+  work is specified as `CR-L1-MCP` in
   `notes/PRIZE_COMPUTE_REQUESTS.md`; no local or current-account Modal run is
   authorized.
