@@ -3370,3 +3370,40 @@ adjudication + (1,5) repairs); CR-004 entry REFRESHED with the
 hardened state (machine-certified decomposition, audited
 conventions, exact prices, the census-soundness catch, the
 promotion gate) so it fires the moment the gates open.
+
+## 125 — 2026-07-22: UPSTREAM PR #1050 OPENED — the WCL ten-slot
+## CONTRIBUTOR REGISTER (compute + result requests, CPU-time only);
+## LANE L DISCOVERED (his new post-Johnson list priority)
+
+Maintainer go ("make the compute and result requests... estimated
+CPU time" not $). PR #1050 (branch allen/wcl-slot-contributor-
+requests @ ed1f1198 off his HEAD fb6d9555): the marketplace
+register — honestly scoped as serving OUR dli lane (explicitly
+disjoint from his hard inputs/Lane L/open PRs), ten cells
+machine-certified jointly exhaustive by a shipped portable stdlib
+verifier (5/5 mutations incl the conflation control; <1s),
+conventions pre-audited vs the closed (2,5)/(2,6) ground truth.
+FOUR COMPUTE REQUESTS (CPU-time at measured reference rates,
+zero dollar figures): CQ-1 starter (1,5)-order-256 7-25 CPU-h;
+CQ-2 (1,5) full ~445 CPU-h (46% banked, mergeable, 2 stage-0
+repairs specified); CQ-3 (2,7) router ~33,000 CPU-h (gcd stage
+named as the optimization target); CQ-4 (1,6) pilot bids.
+Census-infeasible cells explicitly NOT requested. FOUR RESULT
+REQUESTS: R1 (4,10)/(4,11) descents; R2 the unit-ideal certificate
+(flagged as retiring all censuses — the leveraged item); R3
+higher-weight exclusion algebra; R4 Pocklington upgrades. Both
+outcomes first-class (emptiness closes cells here; an EVENT is a
+refutation finding, report immediately); the census-soundness
+catch (primes not ==1 mod n) is a mandatory constraint in the
+spec; certificate format = the closed-cert exemplars.
+DISCOVERY EN ROUTE: his HEAD fb6d9555 adds **LANE L** — "obtain
+better ordinary RS list-decoding bounds beyond the Johnson
+radius", accepting direct list-side proofs (prefix-fiber machinery
+NAMED), computational certificates, AND "exact lower
+counterexamples at declared rows" with a pinned packet format.
+This is a candidate CONSUMER for our banked list-side assets
+(rate_half_cyclic_rotated_prefix_floor = an exact super-polynomial
+list lower bound at declared rows; the budget-1/2 exact list
+crossings; possibly the k+2^34 unsafe reach) — a crosswalk against
+the Lane-L packet format is the natural next survey item (would be
+the first six-input-adjacent consumer for our list lane).
