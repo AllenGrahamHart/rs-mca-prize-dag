@@ -4372,3 +4372,16 @@ remains. The complete `m=4,h=3` endpoint is now closed at
 `p=8191,131071`; only invariant-pinned zero-`b` and positive strata survive
 at the two larger characteristics. No contributor compute should target the
 retired branch.
+
+## 172 - 2026-07-22: BOTH POSITIVE M4/H3 STRATA ARE EMPTY
+
+`l1_m4_h3_positive_tangent_multiplicity_exclusion` applies the same local
+order principle to the two passports `(nu,deg H)=(1,2),(2,1)`. Their
+polynomial `P=X^nu H-kappa` is cubic. At a tangent root of multiplicity
+`e>=2`, the Euler correction starts in order `2e-1` while the rational
+tangent map starts in exact order `e`, so `ord(P)=e`. At most three roots
+again force `p<=9`, excluding every official row. The Belyi normal form,
+base-field descent, and fixed-point certificate remain valid but
+superseded. `CR-L1-MCP-NU2` is retired without a large run. The only live
+`m=4,h=3` strata are now the four invariant-pinned `nu=0,b=0` degrees at
+`p=524287,2147483647`.

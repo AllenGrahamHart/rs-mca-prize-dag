@@ -15679,6 +15679,25 @@
     "background/nodes/l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion/verify.py",
     "background/nodes/l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion/verify_audit.py"
    ]
+  },
+  {
+   "id": "l1_m4_h3_positive_tangent_multiplicity_exclusion",
+   "title": "L1 m=4, h=3 positive tangent multiplicity exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On each surviving positive stratum, every repeated tangent root of multiplicity e forces ord(X^nu H-kappa)=e. This polynomial is cubic and the tangent fiber has at most three roots, so p<=9, impossible for every official characteristic.",
+   "refs": [
+    "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/statement.md",
+    "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/proof.md",
+    "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/claim_contract.md",
+    "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/audit.md",
+    "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/result.md",
+    "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/lineage.md",
+    "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/verify.py",
+    "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -29979,6 +29998,21 @@
   },
   {
    "from": "l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_tangent_radical_exclusion",
+   "to": "l1_m4_h3_positive_tangent_multiplicity_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_euler_quotient_factorization",
+   "to": "l1_m4_h3_positive_tangent_multiplicity_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_positive_tangent_multiplicity_exclusion",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

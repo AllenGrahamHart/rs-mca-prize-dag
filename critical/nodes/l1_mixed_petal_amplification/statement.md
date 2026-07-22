@@ -1014,25 +1014,21 @@ is reduced to `(nu,deg H)=(1,2),(2,1)`. In the second stratum, the tangent
 radical is an exact cubic and its multiplicity factor is `nu U+XU'`. The
 four `nu=0` eliminant degrees remain separate.
 
-The positive branch is now row-sensitive. The exact value-coset certificate
-excludes every positive valuation for `p=8191,131071`. For
-`p=524287,2147483647`, every positive record has one projective split-value
-triple, equivalently `a^3+8b^2=0`. In its `(nu,deg H)=(2,1)` stratum, the
-tangent multiplicities are pairwise-distinct positive integers
-`e_1+e_2+e_3=p` and determine the inner polynomial up to one scalar through
-an explicit prime-field Belyi polynomial. The scalar and fixed split value
-then descend the outer cubic, domain binomial, and complement to `F_p`; one
-regular fiber is Frobenius-fixed and the other two are exchanged. Frobenius
-orbit parity and the fixed-fiber product remove the remaining scalar: the
-domain is `cK`, exactly one of `+c,-c` lies in the fixed split fiber, and
-simultaneous input/output scaling yields a canonical polynomial `F_e`
-determined only by the multiplicity triple with
-`F_e^3-2F_e+1 | W^n-1`. Therefore the live row split is:
+The positive branch is now empty. The exact value-coset certificate first
+excluded it for `p=8191,131071` and reduced the two larger characteristics
+to `a^3+8b^2=0`. In the `(nu,deg H)=(2,1)` stratum, the intermediate Belyi
+normal form and fixed-point certificate produced a scalar-free divisibility
+test. The stronger local theorem
+`l1_m4_h3_positive_tangent_multiplicity_exclusion` supersedes that search on
+both `(1,2)` and `(2,1)`: every repeated tangent multiplicity `e` is the
+local order of the cubic `X^nu H-kappa`, and at most three tangent roots
+would again force `p<=9`. The Belyi artifacts remain valid conformance
+reductions, but their parent stratum is theorem-empty. Therefore the live row
+split is:
 
 ```text
-p=8191,131071:               nu=0,b!=0 endpoint deg H=3 only;
-p=524287,2147483647:         five nu=0 arms plus (1,2) and (2,1);
-nu=2 positive on latter p:   scalar-free Belyi divisibility by W^n-1.
+p=8191,131071:               empty;
+p=524287,2147483647:         nu=0,b=0 with deg H in {0,1,2,3} only.
 ```
 
 Every `nu=0` stratum now has a canonical three-scalar Frobenius kernel:
@@ -1096,10 +1092,7 @@ official exclusion.
 
 This is not yet a complete exclusion or component bound. The remaining
 `m=4,h=3` analytic work exists only on characteristics `524287` and
-`2147483647`: classify the four invariant-pinned `nu=0,b=0` degrees, the
-`(1,2)` positive stratum, and the
-multiplicity-triple/divisibility theorem for the scalar-free `(2,1)` Belyi
-family.
+`2147483647`: classify the four invariant-pinned `nu=0,b=0` degrees.
 
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full

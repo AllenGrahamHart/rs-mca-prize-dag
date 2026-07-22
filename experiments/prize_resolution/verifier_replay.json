@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion/verify.py",
-      "seconds": 0.034162,
+      "script": "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/verify.py",
+      "seconds": 0.036691,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_M4_H3_NU0_H3_TANGENT_MULTIPLICITY_EXCLUSION_PASS checks=204\n"
+      "stdout_tail": "L1_M4_H3_POSITIVE_TANGENT_MULTIPLICITY_EXCLUSION_PASS checks=204\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion/verify_audit.py",
-      "seconds": 0.022154,
+      "script": "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/verify_audit.py",
+      "seconds": 0.02442,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_M4_H3_NU0_H3_TANGENT_MULTIPLICITY_EXCLUSION_AUDIT_PASS checks=162\n"
+      "stdout_tail": "L1_M4_H3_POSITIVE_TANGENT_MULTIPLICITY_EXCLUSION_AUDIT_PASS checks=90\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

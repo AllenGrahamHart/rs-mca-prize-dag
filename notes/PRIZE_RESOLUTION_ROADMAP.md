@@ -1918,18 +1918,16 @@ and converts its degree into the exact degree `p+deg(H)-4` of
 `nu U+XU'`. The tangent-radical successor then excludes `nu=3` and all
 positive strata except `(nu,deg H)=(1,2),(2,1)`; the latter has an exact
 cubic tangent radical. The exact positive-value coset certificate now removes
-both positive strata entirely at `p=8191,131071`; those rows retain only the
-`nu=0,b!=0` endpoint degrees zero and three. At
-`p=524287,2147483647`, every positive record satisfies `a^3+8b^2=0`. The
-surviving `(2,1)` case is further reduced
-to pairwise-distinct multiplicity triples summing to `p` in an explicit
-prime-field Belyi normal form, with the outer cubic, domain binomial, and
-complement all normalized over `F_p`. The fixed-point certificate removes the
-last scalar: the domain is `cK`, one of `+c,-c` is the fixed-fiber root, and
-every triple must satisfy one scalar-free divisibility
-`F_e^3-2F_e+1 | W^n-1`. The positive split is therefore `(1,2)` and the
-base-field-normalized `(2,1)` only on the latter two rows. The CP model is
-secondary and must respect this row split.
+both positive strata entirely at `p=8191,131071` and reduces the two larger
+characteristics to `a^3+8b^2=0`. The Belyi, base-field normalization, and
+fixed-point certificates further compile `(2,1)` to scalar-free
+multiplicity triples. The stronger
+`l1_m4_h3_positive_tangent_multiplicity_exclusion` now removes both parent
+strata without a search: at every repeated tangent root,
+`ord(X^nu H-kappa)` equals the tangent multiplicity, but this polynomial is
+cubic and there are at most three tangent roots. This would force `p<=9`.
+Thus positive valuation is empty on every official `m=4,h=3` row, and the
+Belyi artifacts remain conformance reductions rather than a live endpoint.
 All `nu=0` degrees now share a canonical sparse cubic Frobenius kernel. On
 the `b!=0` arm, tangent localization excludes the middle degrees one and two,
 leaving a scalar-pinned constant eliminant and a cubic eliminant with two or
@@ -1962,13 +1960,13 @@ would force `p<=9`. Hence no nonzero-`b`, `nu=0` branch remains, and no
 contributor search should target one. Combining this with the positive and
 zero-`b` value-coset exclusions closes the complete `m=4,h=3` endpoint for
 `p=8191,131071`. On `p=524287,2147483647`, the exact residual is only the
-four invariant-pinned `nu=0,b=0` degrees and positive `(1,2),(2,1)` strata.
+four invariant-pinned `nu=0,b=0` degrees.
 The complete scalar-free analogues at `p=7,31,127` have zero divisibility
 witnesses and are now the conformance oracle for a future compiler; they do
 not exclude an official row.
-`CR-L1-MCP-NU2` records the donated-compute pre-request for the scalar-free
-regular-fiber divisibility problem; it is not locally authorized and still
-needs a completeness-preserving multiplicity compiler before any large run.
+`CR-L1-MCP-NU2` is now retained only as a retirement record. The new local
+theorem removes its parent stratum, so no large multiplicity-triple run has
+mathematical decision value.
 
 **Track H — hedges (funded, never built on):** H1 price RK by one dedicated
 refutation round (survives -> insurance; dies -> the 17-leaf prune comes off

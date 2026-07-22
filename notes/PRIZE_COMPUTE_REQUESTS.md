@@ -7175,20 +7175,26 @@ auxiliary-fiber divisibility certificate. Do not spend on any nonzero-`b`
 must satisfy `a^2+3aR(0)^2+R(0)^4=0`; retain its four degrees as separate
 research targets rather than a generic fallback bucket.
 
-The exact positive-value coset certificate removes all positive valuation at
-`p=8191,131071`; a donated solver must not spend those rows on positive
-strata. At `p=524287,2147483647`, every positive candidate must satisfy
-`a^3+8b^2=0`. In the `(nu,deg H)=(2,1)` stratum it must also use the
-prime-field Belyi multiplicity normal form and base-field domain/complement
-normalization below. These are completeness reductions, not optional witness
-filters.
+Do not spend contributor compute on positive valuation at any official
+characteristic. The value-coset certificate removes the first two rows, and
+`l1_m4_h3_positive_tangent_multiplicity_exclusion` removes both surviving
+`(1,2),(2,1)` tangent passports on the latter rows. The Belyi and base-field
+normalizations remain checked conformance artifacts, not live search filters.
 
-### CR-L1-MCP-NU2 pre-request: normalized Belyi regular-fiber divisibility
+### CR-L1-MCP-NU2 retirement record: normalized Belyi regular-fiber divisibility
 
-**Status:** valuable outbound compute pre-request; not yet runnable and not
-authorized on the current Modal account.
+**Status:** RETIRED by theorem; do not launch locally, on Modal, or as a
+contributor request.
 
-This targets only `p in {524287,2147483647}` and the surviving positive
+`l1_m4_h3_positive_tangent_multiplicity_exclusion` proves that every
+repeated tangent multiplicity is the local order of the cubic
+`X^nu H-kappa`. Since there are at most three tangent roots, either positive
+stratum would force `p<=9`. Thus the parent `(nu,deg H)=(2,1)` stratum is
+empty before the multiplicity-triple divisibility test. The specification
+below is retained only to document the retired route and its valid
+intermediate normal form.
+
+This formerly targeted `p in {524287,2147483647}` and the then-surviving positive
 `(nu,deg H)=(2,1)` stratum. For pairwise-distinct positive integers
 `e_1+e_2+e_3=p`, the proved normal form constructs
 
@@ -7207,16 +7213,15 @@ domain scalar. Any genuine record must pass exactly one sign test
 (F_e(W)^3-2F_e(W)+1)E_e(W)=W^(4(p+1))-1.              (NU2-DIV)
 ```
 
-The route-deciding computation would either emit one multiplicity triple and
+The former route-deciding computation would either emit one multiplicity triple and
 an independently replayable exact factorization, or certify that no triple
-satisfies `(NU2-DIV)` for a declared official characteristic. A witness keeps
-the stratum alive and supplies a concrete split pencil; complete exclusion
-removes the `(2,1)` stratum on that characteristic. Partial coverage is
-evidence only.
+satisfies `(NU2-DIV)` for a declared official characteristic. Before the
+retirement, a witness would have kept the stratum alive and supplied a
+concrete split pencil; partial coverage would have been evidence only.
 
 The naive universe has order `p^2` triples and degree-`3p` divisors, so raw
-triple enumeration or dense polynomial expansion is prohibited. Before this
-can be promoted to a numbered contributor run, supply all of:
+triple enumeration or dense polynomial expansion was prohibited. The former
+promotion gates were:
 
 1. a theorem-backed symmetry quotient or recurrence that covers every
    unordered multiplicity triple;
@@ -7229,8 +7234,9 @@ can be promoted to a numbered contributor run, supply all of:
 5. an independent checker that reconstructs every witness and verifies every
    exclusion certificate block.
 
-Until those gates are met, include this item in upstream PRs as an algorithm
-and donated-compute request, not as a request to launch an unpriced fleet.
+Do not include this item in upstream PRs as live compute. Vendor the local
+multiplicity exclusion instead; the normal-form artifacts may accompany it
+as independently checked but superseded reductions.
 
 ### CR-L1-MCP-NU0-H0 pre-request: exceptional outer-packet lift or exclusion
 

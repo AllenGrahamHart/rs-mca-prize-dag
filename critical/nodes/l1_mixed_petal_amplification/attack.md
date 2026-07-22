@@ -486,13 +486,14 @@
   the latter. Then apply `l1_m4_positive_value_coset_certificate`: positive
   valuation is empty at `p=8191,131071`, while at
   `p=524287,2147483647` it satisfies `a^3+8b^2=0`. In the surviving
-  `(2,1)` stratum, consume the prime-field Belyi normal form and base-field
-  normalization, then the fixed-point certificate. The domain is `cK`, and
-  every pairwise-distinct multiplicity triple must pass one of two scalar
-  sign tests and the canonical divisibility
-  `F_e^3-2F_e+1 | W^n-1`. Search these triples only after proving a
-  completeness-preserving compression; do not search arbitrary coefficients,
-  scalar conjugates, or domain parameters. Treat `nu=0` separately,
+  `(2,1)` stratum, the prime-field Belyi normal form, base-field
+  normalization, and fixed-point certificate remain valid intermediate
+  reductions. Now consume
+  `l1_m4_h3_positive_tangent_multiplicity_exclusion`: on both `(1,2)` and
+  `(2,1)`, the cubic `X^nu H-kappa` would have to absorb every repeated
+  tangent multiplicity, forcing `p<=9`. Both positive strata are empty. Do
+  not launch the former Belyi multiplicity-triple request. Treat `nu=0`
+  separately,
   and apply the cubic Frobenius-kernel normal form before any search. On
   `b!=0`, remove `deg H=1,2`; retain only the constant-level case and the
   cubic two/three-root tangent passports. In the constant-level case, first
@@ -522,8 +523,7 @@
   tangent roots would force `p<=9`. Thus every nonzero-`b`, `nu=0` degree is
   theorem-empty. Do not search that branch. The `m=4,h=3` rows at
   `p=8191,131071` are now closed; retain only the invariant-pinned `b=0`
-  degrees and positive `(1,2),(2,1)` strata at
-  `p=524287,2147483647`.
+  degrees at `p=524287,2147483647`.
   Contributor-scale
   work is specified as `CR-L1-MCP` in
   `notes/PRIZE_COMPUTE_REQUESTS.md`; its former `NU0-H0` pre-request is now a
