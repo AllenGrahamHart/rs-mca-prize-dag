@@ -364,11 +364,16 @@ identifications without a machine-verified chain.
   whole source petal fixes at most one degree-`s` partition up to shift, and
   all such classes cost at most `M tau(ell)<=n`. The exact local residual is
   now: pay the `n/s` fiber roles collectively at small tame scales; treat
-  genuinely wild and unanchored maps; pay growing signed
+  unanchored maps; pay growing signed
   layout/core-defect/petal polarity; and handle arbitrary petal locators
   outside one common pencil. Dense support on a source petal is not sufficient
-  to supply the anchor. The `F_9` additive right-component fixture proves that
-  wild uniqueness needs extra multiplicative-domain geometry.
+  to supply the anchor. The `F_9` additive right-component fixture remains a
+  valid guard outside the official cutoff. The proved
+  `l1_official_reserve_tame_refinement_router` removes its wild branch from
+  the actual consumer: at the least reserve-qualified threshold,
+  generated-field order arithmetic and the `<2^256` cap give
+  `ell<char(F)`, so every fixed-petal refinement is tame. This completely
+  pays map supply, not the remaining fiber roles.
   `l1_tame_refinement_periodic_owner_obstruction` separately proves that tame
   map supply does not imply intrinsic quotient payment: an exact `F_17^*`
   chart has a complete affine-quadratic source petal and an aperiodic full
@@ -402,15 +407,16 @@ identifications without a machine-verified chain.
   residual. With `z` agreements outside fully agreed complete fibers,
   `h_Z=ceil((k+ell-1-Z)/s)`, and sparse-coverage exponent `kappa`, every
   `z<=Z`, `h_Z^2>b(ceil(k/s)-1)` cell costs at most `q^kappa b^2` per map.
-  Fixed `kappa` is polynomial across all tame anchored maps. The exact
-  pullback frontier is therefore the nonpositive gate, unbounded `kappa`,
-  wild decomposition, or missing whole-petal anchor.
+  Fixed `kappa` is polynomial across all tame anchored maps. The theorem's
+  abstract frontier retains the nonpositive gate, unbounded `kappa`, wild
+  decomposition, or missing whole-petal anchor; the official-reserve router
+  removes the anchored wild case on the consumer scope.
   `l1_pullback_coverage_kernel_tradeoff` then removes `kappa` as a separate
   mechanism: exactly `kappa=max(0,k-sb)`, and every listed word satisfies
   `kappa<=max(0,z-ell+1)`. Hence `z<=ell-1+K` automatically supplies the
-  router's `kappa<=K` hypothesis. The exact pullback frontier is now the
-  nonpositive Johnson gate, growing partial-loss excess, wild decomposition,
-  or missing whole-petal anchor.
+  router's `kappa<=K` hypothesis. The exact official pullback frontier is now
+  the nonpositive Johnson gate, growing partial-loss excess, or missing
+  whole-petal anchor.
 
   The proved `l1_maximal_background_anchor_injection` now supplies the local
   U2-L cell currency: every exact support cell costs at most

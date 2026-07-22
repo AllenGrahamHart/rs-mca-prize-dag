@@ -256,9 +256,12 @@
   `char(F)` not dividing `ell/s`, one whole source petal determines at most
   one degree-`s` map up to additive shift, so all tame map classes cost at
   most `M tau(ell)<=n`. Do not confuse this with payment: at small `s`, the
-  `n/s` fiber roles still have exponential raw entropy. Wild divisors require
-  multiplicative-domain geometry; the `F_9` additive fixture rules out an
-  unguarded coefficient-only uniqueness argument.
+  `n/s` fiber roles still have exponential raw entropy. Then apply
+  `l1_official_reserve_tame_refinement_router`: exact-shell monotonicity
+  reduces the official problem to a canonical cutoff with `ell<char(F)`, so
+  every fixed-petal divisor is tame. Do not create a wild fixed-petal shard.
+  The `F_9` additive fixture remains a scope guard outside this official
+  cutoff.
 - Do not route every tame refinement to `pma_exact_periodic_owner`.
   `l1_tame_refinement_periodic_owner_obstruction` has a complete tame
   `X^2+3X` source petal but a contributor with trivial multiplicative support
@@ -293,8 +296,11 @@
   `b`, every component dimension, and `kappa`. Delete the cell when
   `h_Z=ceil((k+ell-1-Z)/s)` satisfies `h_Z^2>b(ceil(k/s)-1)` and `kappa` is
   within the fixed polynomial budget. Do not enumerate partial-fiber patterns
-  in this gate. Retain the nonpositive gate, unbounded `kappa`, wild map, or
-  missing-anchor certificate explicitly.
+  in this gate. Retain the nonpositive gate, unbounded `kappa`, or
+  missing-anchor certificate explicitly. The router's abstract wild-map
+  nonclaim is discharged at the official canonical cutoff by
+  `l1_official_reserve_tame_refinement_router` whenever a whole-petal anchor
+  exists.
 - Immediately simplify the kernel with
   `l1_pullback_coverage_kernel_tradeoff`:
   `kappa=max(0,k-sb)<=max(0,z-ell+1)`. A cap

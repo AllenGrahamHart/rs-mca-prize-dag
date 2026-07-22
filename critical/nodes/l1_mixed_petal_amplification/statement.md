@@ -163,11 +163,35 @@ additive constant. Hence all tame refinement-map classes in the fixed source
 number at most `M tau(ell)<=n`.
 
 This does not promote the node. At small `s`, a known partition still has
-`n/s` fibers and the raw role count `3^(n/s)` can be exponential. Wild
-divisors, unanchored maps, growing polarity, and arbitrary locators also
-remain. The exact `F_9` additive fixture in the proved node shows that wild
-right-component uniqueness is false without extra multiplicative-domain
-geometry; it is not an admissible-domain counterexample.
+`n/s` fibers and the raw role count `3^(n/s)` can be exponential. Unanchored
+maps, growing polarity, and arbitrary locators also remain. The exact `F_9`
+additive fixture in the proved node remains a valid warning outside the
+official reserve router below.
+
+## OFFICIAL-RESERVE WILD REFINEMENT EXCLUSION (2026-07-22)
+
+`l1_official_reserve_tame_refinement_router` removes the wild fixed-petal
+branch on the actual consumer scope. Reduce by exact-shell monotonicity to the
+least reserve-qualified threshold for `eta=min(epsilon,1/4)`, and put
+`ell_0=sigma_0+1`. If the generated field is `F_(p^f)`, then
+`ord_n(p)|f` and the power-of-two order formula gives
+
+```text
+f>=n/(p+1).
+```
+
+The official field cap excludes `p=3,5`; for `p>=7`, the reserve trial and
+`binom(n,a)<=2^n` give
+
+```text
+ell_0<=ceil(5(p+1)/(4 log_2 p))+1<p.
+```
+
+Hence `p` divides no `ell_0/s`, and every whole-petal refinement is tame.
+The tame map count `M tau(ell_0)<=n` is therefore exhaustive at the canonical
+cutoff. Wild fixed-petal decomposition is no longer an L1 escape. This does
+not pay tame fiber roles or any map without a whole-petal anchor, so the node
+remains TARGET.
 
 `l1_tame_refinement_periodic_owner_obstruction` also rules out the immediate
 payment shortcut. On an exact `F_17^*` chart, one source petal is three
@@ -231,8 +255,10 @@ h_Z=ceil((k+ell-1-Z)/s)
 agreements whenever `z<=Z`. With `b` complete labels, quotient degree
 `d=ceil(k/s)-1`, and sparse-coverage kernel `kappa`, the strict gate
 `h_Z^2>bd` costs at most `q^kappa b^2` per map. Fixed `kappa` is polynomial
-across every tame anchored map. The live partial-pullback branch is now the
-nonpositive gate, unbounded `kappa`, wild decomposition, or missing anchor.
+across every tame anchored map. The theorem itself leaves the nonpositive
+gate, unbounded `kappa`, wild decomposition, or missing anchor. On the
+official canonical cutoff the official-reserve router removes the anchored
+wild case.
 The affine `F_17` witness has `z=5`, `kappa=0`, and remains sub-Johnson.
 
 `l1_pullback_coverage_kernel_tradeoff` removes `kappa` as an independent
@@ -244,9 +270,9 @@ kappa=max(0,k-sb),       kappa<=max(0,z-ell+1).
 
 Thus `z<=ell-1` forces `kappa=0`, and
 `z<=ell-1+K` automatically supplies `kappa<=K` to the router. The exact
-partial-pullback frontier is now the nonpositive Johnson gate, partial-loss
-excess `z-ell+1` escaping every fixed cap, wild decomposition, or missing
-whole-petal anchor.
+official partial-pullback frontier is now the nonpositive Johnson gate,
+partial-loss excess `z-ell+1` escaping every fixed cap, or missing whole-petal
+anchor.
 
 ## EXACT-SHELL PREFIX/HANKEL BRIDGE (2026-07-21)
 
