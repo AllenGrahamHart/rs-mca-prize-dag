@@ -389,7 +389,15 @@
   scalar conjugates, or domain parameters. Treat `nu=0` separately,
   and apply the cubic Frobenius-kernel normal form before any search. On
   `b!=0`, remove `deg H=1,2`; retain only the constant-level case and the
-  cubic two/three-root tangent passports. Remove `b=0` entirely at
+  cubic two/three-root tangent passports. In the constant-level case, first
+  apply `l1_m4_h3_nu0_h0_projective_branch_exclusion` and then
+  `l1_m4_h3_nu0_h0_projective_quarter_certificate`. The former deletes the
+  tangent-at-zero component. The latter leaves only normalized outer packet
+  `(A,B)=(6,20)` for `p=8191,131071,524287`, and that packet plus
+  `(844833809,2002167159)` for `p=2147483647`, where
+  `A=a/R(0)^2,B=b/R(0)^3`. Do not search outer coefficients; search only for
+  lifts of these packets after supplying a completeness-preserving inner
+  parametrization. Remove `b=0` entirely at
   `p=8191,131071`. On `p=524287,2147483647`, retain its four degrees only
   under `a^2+3aR(0)^2+R(0)^4=0`. Enforce the Cartier constraints and Euler quotient
   factorization. Any computation should expose the sparse cubic kernel and
@@ -397,5 +405,6 @@
   not pay the branch.
   Contributor-scale
   work is specified as `CR-L1-MCP` in
-  `notes/PRIZE_COMPUTE_REQUESTS.md`; no local or current-account Modal run is
+  `notes/PRIZE_COMPUTE_REQUESTS.md`; its `NU0-H0` pre-request records the
+  finite packet lift/exclusion task. No local or current-account Modal run is
   authorized.

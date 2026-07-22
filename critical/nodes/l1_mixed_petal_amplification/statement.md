@@ -803,13 +803,29 @@ degrees only at `p=524287,2147483647`; the latter obey
 `a^2+3aR(0)^2+R(0)^4=0`. All share the cubic kernel. The zero-`b` arm is
 exactly empty at `p=8191,131071` by its 16-case value-coset certificate.
 
+The nonzero-`b`, `deg H=0` endpoint is now projectively finite. Factoring its
+zero-point scalar equation and comparing local orders removes the component
+`2aR(0)+3b=0`. The remaining component satisfies
+`9bR(0)=4a^2+6aR(0)^2`. Intersecting its shifted fiber-product ratios with
+all 16 Frobenius quarter pairs gives the complete necessary table
+
+```text
+p=8191,131071,524287:       (a/R(0)^2,b/R(0)^3)=(6,20);
+p=2147483647:               (6,20), or
+                             (844833809,2002167159).
+```
+
+This classifies outer packets only; neither packet is known to lift or to be
+impossible.
+
 The complete scalar-free conformance censuses at `p=7,31,127` leave zero
 divisibility witnesses; at `p=31,127` the sign gate first reduces `65,1281`
 triples to `3,19`. This is useful evidence and compiler calibration, not an
 official exclusion.
 
 This is not yet a complete exclusion or component bound. The remaining
-analytic work is the row-specific `nu=0` classification just printed, the
+analytic work is the row-specific `nu=0` classification just printed,
+including lift/exclusion of the finite constant-eliminant packets, the
 `(1,2)` positive classification on the latter two characteristics, and a
 multiplicity-triple/divisibility theorem for the scalar-free `(2,1)` Belyi
 family.

@@ -15526,6 +15526,46 @@
     "experiments/prize_resolution/l1_m4_h3_nu0_zero_b_value_coset_check.py",
     "experiments/prize_resolution/l1_m4_h3_nu0_zero_b_value_coset_result.md"
    ]
+  },
+  {
+   "id": "l1_m4_h3_nu0_h0_projective_branch_exclusion",
+   "title": "L1 m=4, h=3, nu=0, h=0 projective branch exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In the surviving nu=0,b!=0,deg H=0 endpoint, the zero-point scalar equation factors into two projective components. A local order comparison in the Euler identity excludes the component 2aR(0)+3b=0. Every survivor therefore satisfies 9bR(0)=4a^2+6aR(0)^2, leaving one projective outer parameter. This is not an endpoint exclusion or L1 closure.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/statement.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/proof.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/audit.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/result.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/lineage.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/verify.py",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu0_h0_projective_quarter_certificate",
+   "title": "L1 m=4, h=3, nu=0, h=0 projective quarter certificate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In the surviving nu=0,b!=0,deg H=0 endpoint, the exact 16-quarter fiber-product certificate restricts (a/R(0)^2,b/R(0)^3) to (6,20) on the first three official characteristics and to that pair or (844833809,2002167159) on p=2147483647. This necessary projective classification does not assert that either packet lifts or close L1.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/statement.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/proof.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/audit.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/result.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/lineage.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/verify.py",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/verify_audit.py",
+    "experiments/prize_resolution/l1_m4_h3_nu0_h0_projective_quarter_check.py",
+    "experiments/prize_resolution/l1_m4_h3_nu0_h0_projective_quarter_result.md"
+   ]
   }
  ],
  "edges": [
@@ -29716,6 +29756,26 @@
   },
   {
    "from": "l1_m4_h3_nu0_zero_b_value_coset_certificate",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_nu0_nonzero_b_tangent_exclusion",
+   "to": "l1_m4_h3_nu0_h0_projective_branch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_h0_projective_branch_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_nu0_h0_projective_branch_exclusion",
+   "to": "l1_m4_h3_nu0_h0_projective_quarter_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_h0_projective_quarter_certificate",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

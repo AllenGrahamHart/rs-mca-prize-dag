@@ -7081,3 +7081,55 @@ can be promoted to a numbered contributor run, supply all of:
 
 Until those gates are met, include this item in upstream PRs as an algorithm
 and donated-compute request, not as a request to launch an unpriced fleet.
+
+### CR-L1-MCP-NU0-H0 pre-request: finite outer-packet lift or exclusion
+
+**Status:** valuable outbound theorem/compute pre-request; not yet runnable
+and not authorized on the current Modal account.
+
+This targets only the surviving `nu=0,b!=0,deg H=0` endpoint. The proved
+projective branch and quarter certificates have already made the outer search
+finite:
+
+```text
+p=8191,131071,524287:       (A,B)=(6,20);
+p=2147483647:               (A,B)=(6,20), or
+                             (844833809,2002167159),
+A=a/R(0)^2,                 B=b/R(0)^3.
+```
+
+The universal packet has normalized shifted-value polynomial
+`(X+3)(X^2+9)`. A contributor must not enumerate `A`, `B`, arbitrary outer
+cubics, or generic two-Schur colorings. The mathematical decision is, for
+each declared official characteristic and listed packet, whether there is a
+degree-`p` inner polynomial and exact complement satisfying the three split
+fibers, the domain identity, the constant Euler eliminant, and the canonical
+sparse cubic Frobenius-kernel equations.
+
+**Requested outcome:** either emit a fully replayable lift with `R`, `D`, the
+three fibers, sparse cubic `Q`, domain parameter, all divisibility identities,
+and first-owner data; or emit a proof-producing exclusion certificate whose
+independent checker covers every lift of one declared packet. A witness keeps
+that packet alive. A complete exclusion deletes that packet only. When every
+packet on a characteristic is excluded, its nonzero-`b` constant-eliminant
+stratum is empty. Partial coverage or a finite no-hit search is evidence only.
+
+Before promotion to a numbered contributor run, supply all of:
+
+1. a theorem-backed finite parametrization or orbit quotient for every inner
+   lift of one printed packet, preferably derived from
+   `l1_m4_h3_nu0_cubic_frobenius_kernel`;
+2. a bounded certificate representation that does not materialize or scan
+   unrestricted degree-`p` coefficient vectors;
+3. a complete small-characteristic conformance oracle and one measured
+   official-compatible shard pilot;
+4. checkpointed coverage ranges, hashes, elapsed CPU, peak RAM, scratch
+   storage, and a declared hard dollar ceiling; and
+5. an independent checker that reconstructs witnesses and validates every
+   exclusion block without trusting the search implementation.
+
+The current resource cost is unknown and may be large. Include this item in
+the corresponding upstream `(A)` / exact SPI PR as an algorithm and donated-
+compute request. Do not launch it locally or against the remaining Modal
+credit until the finite lift router and measured pilot make the request
+budgetable.

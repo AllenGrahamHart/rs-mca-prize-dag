@@ -2,25 +2,41 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/l1_official_reserve_tame_refinement_router/verify.py",
-      "seconds": 0.042528,
+      "script": "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/verify.py",
+      "seconds": 0.037583,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_OFFICIAL_RESERVE_TAME_REFINEMENT_ROUTER_PASS checks=10837\n"
+      "stdout_tail": "L1_M4_H3_NU0_H0_PROJECTIVE_BRANCH_EXCLUSION_PASS checks=2226\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/l1_official_reserve_tame_refinement_router/verify_audit.py",
-      "seconds": 0.040836,
+      "script": "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/verify_audit.py",
+      "seconds": 0.025848,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "AUDIT_L1_OFFICIAL_RESERVE_TAME_REFINEMENT_ROUTER_PASS checks=13\n"
+      "stdout_tail": "L1_M4_H3_NU0_H0_PROJECTIVE_BRANCH_EXCLUSION_AUDIT_PASS checks=39\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/verify.py",
+      "seconds": 2.302207,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_M4_H3_NU0_H0_PROJECTIVE_QUARTER_CERTIFICATE_PASS checks=79\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/verify_audit.py",
+      "seconds": 0.022053,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_M4_H3_NU0_H0_PROJECTIVE_QUARTER_CERTIFICATE_AUDIT_PASS checks=23\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

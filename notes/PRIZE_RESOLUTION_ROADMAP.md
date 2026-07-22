@@ -1778,6 +1778,15 @@ four `b=0` degrees at `p=8191,131071`; at `p=524287,2147483647` it retains
 them only under `a^2+3aR(0)^2+R(0)^4=0`. The live `nu=0` partition is
 therefore two nonzero-`b` endpoints on the first two rows and those endpoints
 plus four invariant-pinned zero-`b` degrees on the latter two.
+The constant nonzero-`b` endpoint is now finite at the outer-projective
+level. Its scalar equation has two components; a local Euler-order argument
+deletes `2aR(0)+3b=0`, and the exact 16-quarter fiber-product certificate
+leaves only `(A,B)=(6,20)` on the first three characteristics and that pair
+plus `(844833809,2002167159)` on `p=2147483647`. Here
+`A=a/R(0)^2,B=b/R(0)^3`. This is not a lift or endpoint exclusion. The next
+analytic target is to combine each finite packet with the cubic Frobenius
+kernel; `CR-L1-MCP-NU0-H0` records any larger lift/exclusion campaign as
+donated compute, with raw outer-coefficient search prohibited.
 The complete scalar-free analogues at `p=7,31,127` have zero divisibility
 witnesses and are now the conformance oracle for a future compiler; they do
 not exclude an official row.

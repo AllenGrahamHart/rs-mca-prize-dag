@@ -3644,3 +3644,27 @@ the entire zero-`b` arm is empty. At `p=524287,2147483647`, two quarter pairs
 survive and force `a^2+3aR(0)^2+R(0)^4=0`. This is a complete exact finite
 certificate with an independent multiplication-matrix audit; the latter arm
 and the nonzero-`b` endpoints remain open.
+
+## 144 - 2026-07-22: THE NU=0 CONSTANT ENDPOINT LOSES ONE COMPONENT
+
+For `nu=0,b!=0,deg H=0`, put `r=R(0)`, `A=a/r^2`, and `B=b/r^3`. The exact
+zero-point scalar equation factors as
+`(3B+2A)(9B-4A^2-6A)=0`. On the first component, zero is a tangent preimage.
+The two sides of the Euler identity then have respective local orders `2m`
+and `m`, because the right-side derivative is `8alpha!=0`; this is
+impossible. Every survivor therefore satisfies
+`9bR(0)=4a^2+6aR(0)^2`. This is a PROVED component deletion, not endpoint
+emptiness.
+
+## 145 - 2026-07-22: THE NU=0 CONSTANT ENDPOINT HAS FINITELY MANY OUTER PACKETS
+
+Ratios of the three shifted fiber products lie in the order-`4(p+1)` domain
+subgroup. Combining their projective coefficient equation with all 16
+Frobenius quarter pairs gives a complete exact resultant certificate. The
+normalized pair `(a/R(0)^2,b/R(0)^3)` is `(6,20)` for
+`p=8191,131071,524287`; for `p=2147483647` there is one additional pair
+`(844833809,2002167159)`. An independent audit checks the symmetric
+reconstruction, Gaussian factorizations, branch relation, and discriminants.
+These are necessary packets only. Their lift or exclusion through the cubic
+Frobenius kernel remains open and is recorded as donated-compute pre-request
+`CR-L1-MCP-NU0-H0`.
