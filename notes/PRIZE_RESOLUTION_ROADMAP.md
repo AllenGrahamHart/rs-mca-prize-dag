@@ -1736,6 +1736,14 @@ nonzero colors of size `p` and a `p+4` zero complement. The next analytic
 target is a component or emptiness theorem for that section. Any computation
 must retain both code constraints; a one-code BCH search does not test the
 posed branch.
+The first compressed CP-SAT pilot at the next analogue `(p,n)=(31,128)` is
+explicitly `INCOMPLETE`: after two model-validation repairs, the validated
+run hit the 60-second Modal function cap before returning any solver status.
+It supplies no mathematical evidence and will not be rerun on the current
+account. `CR-L1-MCP-C31` records the contributor task, including precomputed
+Fourier coefficients, model hashing, separated build/search timing, and
+independent witness replay. Analytic component structure remains the primary
+route; compute is a falsifier and route selector only.
 
 **Track H — hedges (funded, never built on):** H1 price RK by one dedicated
 refutation round (survives -> insurance; dies -> the 17-leaf prune comes off

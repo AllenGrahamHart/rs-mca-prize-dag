@@ -3506,3 +3506,14 @@ code, with each nonzero color used `p` times. The coefficientwise cube is the
 union indicator and has `p+4` zeros. This is a PROVED re-encoding, not an
 emptiness result. The next theorem targets this two-Schur section directly;
 one-code searches are invalid.
+
+## 131 — 2026-07-22: FIRST TWO-SCHUR CP PILOT IS INCOMPLETE
+
+The next nonofficial analogue `(p,n,m,h)=(31,128,4,3)` has a direct CP-SAT
+model with balanced four-color variables and all 240 prime-field coordinate
+congruences for both required code memberships. Two validation failures were
+repaired, but the validated Modal run hit its 60-second function cap before
+returning a solver status. This is no mathematical evidence. The exact run
+ledger is preserved beside the script, and `CR-L1-MCP-C31` requests a
+precomputed coefficient table, separated build/search timing, model hash,
+and replayable result from a contributor. No current-account rerun is planned.

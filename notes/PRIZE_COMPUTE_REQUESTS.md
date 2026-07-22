@@ -6975,3 +6975,29 @@ Timeout or incomplete shard coverage is `INCOMPLETE`, never evidence of
 absence. The order-128 analogue has `94,525,795,200` subsets and roughly
 `1.38 TiB` of raw records, so it is not requested without a new structural
 compression.
+
+### CR-L1-MCP-C31: adjudicate the order-128 two-Schur CP model
+
+This is a bounded structural pilot for the next `m=4,h=3` analogue, not a
+request for the raw order-128 subset census. The checked-in script
+`experiments/prize_resolution/l1_m4_h3_two_schur_cpsat_modal.py` encodes
+`(n,p,m,h)=(128,31,4,3)` with 128 four-color variables, multiplicities
+`(35,31,31,31)`, and both required Fourier-code constraints. It expands the
+word and coefficientwise-square equations into 240 congruences modulo 31.
+
+The current-account pilot is `INCOMPLETE`. Apps
+`ap-31urbcd0fvVu1adNueXzSz` and `ap-cwwCYjpZqT2nwd3vKu4XD6` exposed and
+repaired two model-construction errors. The validated repair in app
+`ap-m2tOKpIdLfCZOzoRUmRkyQ` hit its 60-second function cap before returning a
+solver status. This supplies no existence or emptiness evidence and must not
+be reported as a no-hit search.
+
+**Requested outcome:** precompute and hash the `30 x 128 x 4` Fourier
+coefficient table, or otherwise separate finite-field/JIT and model-build
+time from search. Publish `CpModel.Validate()`, a serialized-model hash,
+build time, actual CP-SAT wall time, status, branches, and conflicts. A
+`FEASIBLE` result must include all four color classes and pass the independent
+`F_(31^4)` replay already present in the script. An `INFEASIBLE` result is
+complete evidence for this nonofficial analogue only; `UNKNOWN` or timeout is
+`INCOMPLETE`. Benchmark before increasing CPUs or wall time, and state the
+dollar cap in advance. No current-account rerun is authorized.
