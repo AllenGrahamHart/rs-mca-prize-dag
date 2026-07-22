@@ -4397,3 +4397,14 @@ requires `q^2+3q+1=0`. Their residual is `-5/4`, impossible on the official
 characteristics. Combined with #171-#172, `m=4,h=3` is empty on all four
 rows. First-checkpoint work moves to nonembedded `m=4,h=2` and the
 `m=8,16` value degrees.
+
+## 174 - 2026-07-22: FIRST-CHECKPOINT FRONTIER MOVES TO M4/H2 AND M8/M16
+
+With `m=4,h=3` closed, the next exact object is the balanced signed
+low-weight codeword at `m=4,h=2`, after removing the proved `n/2` embedded
+antipodal pairs. `CR-L1-MCP-M4H2-C31` records the order-128 ternary analogue
+as donated compute: exact cyclotomic chambers, all embedded signed words and
+symmetries blocked, direct extension-field witness replay, and a portable
+exclusion certificate or independent complete replay. It is not authorized
+on the current account. The larger analytic residual remains `m=8` with
+`2<=h<=7` and `m=16` with `2<=h<=15`.

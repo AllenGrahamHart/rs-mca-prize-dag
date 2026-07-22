@@ -1968,6 +1968,13 @@ value-coset invariant outside characteristic five. Therefore every official
 `m=4,h=3` row is empty. The live first-checkpoint frontier is now
 nonembedded `m=4,h=2`, `m=8` with `2<=h<=7`, and `m=16` with
 `2<=h<=15`, after subtracting the proved embedded antipodal family.
+The next analytic target is therefore an exhaustion theorem for low-weight
+balanced signed words in the `m=4` Mersenne cyclic code. The exact finite
+falsifier `CR-L1-MCP-M4H2-C31` asks contributors to classify the order-128
+analogue after blocking every embedded word and symmetry orbit. It is
+unknown-cost and must not run on the current account; a witness would change
+the theorem strategy, while a certified exclusion would calibrate the
+embedded-family conjecture without pretending to prove an official row.
 The complete scalar-free analogues at `p=7,31,127` have zero divisibility
 witnesses and are now the conformance oracle for a future compiler; they do
 not exclude an official row.

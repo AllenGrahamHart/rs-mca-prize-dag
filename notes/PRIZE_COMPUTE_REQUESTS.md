@@ -7148,6 +7148,56 @@ the tangent and packet theorems, positive valuation by the tangent
 multiplicity theorem, and zero-`b` zero valuation by the Euler/value-coset
 contradiction. No donated solver extension remains for this shard.
 
+### CR-L1-MCP-M4H2-C31: nonembedded order-128 signed-codeword classifier
+
+**Status:** valuable outbound compute pre-request; not authorized locally or
+on the current Modal account. Benchmark and price one shard before launch.
+
+This is the next route-deciding analogue after the official `m=4,h=3`
+closure. Work at `(n,p,m)=(128,31,4)` with ternary exponent variables
+
+```text
+b_i in {-1,0,1},       #(+1)=#(-1)=31,       #(0)=66.
+```
+
+Require the exact Mersenne cyclic-code condition from
+`l1_mersenne_checkpoint_cyclotomic_normal_form`: the Fourier transform
+vanishes on the complete `31`-cyclotomic closure of frequencies `0,...,30`.
+For `m=4`, implement the closure by its residue chambers rather than by
+extension-field exponentiation. There is no Schur-square constraint in the
+two-fiber problem. Since maximal `h=4` and all `h=3` records are now
+theorem-empty, every genuine pair on an official `m=4` row belongs to the
+`h=2` endpoint.
+
+Generate the 64 unordered embedded pairs supplied by
+`l1_mersenne_checkpoint_embedded_m2_family` and both signed orientations,
+then block their full orbit under cyclic shift, Frobenius multiplier, and
+global sign. The blocking list must be independently regenerated from the
+locator formula `R=Z(Z^2-b)^15`, not inferred only from support shape. Fix a
+canonical first nonzero sign and least cyclic representative after proving
+that these symmetries preserve the model.
+
+**Requested outcome:** either emit one nonembedded ternary word with a direct
+`F_(31^4)` Fourier replay and reconstruct its two monic split locators, or
+prove that only embedded words exist in the declared quotient. A witness is
+route-changing evidence against embedded-family exhaustion. An exclusion is
+analogue evidence for a low-weight cyclic-code classification theorem, not
+an official proof.
+
+For a complete exclusion, prefer a SAT/SMT encoding with a checkable proof
+certificate. A bare CP-SAT `INFEASIBLE` status is not a portable certificate;
+it must be accompanied by an independently generated model hash and a second
+complete solver replay. `UNKNOWN`, timeout, or incomplete symmetry coverage
+is `INCOMPLETE`. Preserve partial orbit blocks, witnesses, model hashes,
+elapsed CPU, peak RAM, and the exact unprocessed range.
+
+**Launch gate:** publish model construction time and one symmetry-shard
+benchmark with explicit CPU, RAM, storage, wall-time, and dollar ceilings.
+Do not scale to official `p`, enumerate `binom(128,31)binom(97,31)` signed
+supports, or infer a theorem from a no-hit heuristic run. If the compressed
+model remains expensive, include this request in the upstream PR for
+contributors with available compute.
+
 ### CR-L1-MCP-NU2 retirement record: normalized Belyi regular-fiber divisibility
 
 **Status:** RETIRED by theorem; do not launch locally, on Modal, or as a
