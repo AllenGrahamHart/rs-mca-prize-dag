@@ -3614,3 +3614,33 @@ remaining scalar and gives a canonical triple-indexed polynomial `F_e` with
 `F_e^3-2F_e+1 | W^n-1`. Each triple also obeys one of two explicit sign
 equations. This is a PROVED necessary certificate, not a converse or
 exclusion; it sharply replaces the former unpriced coefficient/domain search.
+
+## 141 - 2026-07-22: NU=0 HAS A CUBIC FROBENIUS KERNEL
+
+The two Cartier resonance slots make `X^(p-5)R^2H` canonically integrable.
+After multiplying the reduced triple by `X^(p-4)`, every zero-valuation case
+has `X^(p-4)R^3D=(X^5-Q)^p+J` and `X^(p-4)B_0=Q^p-J`, where the unique
+kernel is `Q=q_3X^3+q_2X^2+q_1X` with `q_3^p=a`. The quartic and constant
+kernel terms are forced away, and `H(0)=-4R(0)D(0)`. This is PROVED
+compression across all four eliminant degrees, not an exclusion.
+
+## 142 - 2026-07-22: NONZERO-B NU=0 LOSES ITS MIDDLE DEGREES
+
+For `nu=0,b!=0`, every root of `T=2aR+3b` lies on
+`H=-48alpha a^2/Delta`. The tangent radical has degree at least `5-deg H`,
+while that level-set polynomial has degree `deg H`. Hence eliminant degrees
+one and two are impossible. Degree zero forces equality with the printed
+constant; degree three has only two or three tangent roots. The four `b=0`
+degrees were still open at this stage, as were the two nonzero-`b` endpoints;
+the next certificate removes the first two rows of the zero-`b` arm. L1
+stays TARGET.
+
+## 143 - 2026-07-22: ZERO-B NU=0 IS EMPTY ON TWO CHARACTERISTICS
+
+The products of the `0,+s,-s` split fibers yield two order-`4(p+1)` subgroup
+elements with sum two. Frobenius reduces this to 16 exact quadratic quarter
+classes. At `p=8191,131071`, only the degenerate root `u=v=1` survives, so
+the entire zero-`b` arm is empty. At `p=524287,2147483647`, two quarter pairs
+survive and force `a^2+3aR(0)^2+R(0)^4=0`. This is a complete exact finite
+certificate with an independent multiplication-matrix audit; the latter arm
+and the nonzero-`b` endpoints remain open.

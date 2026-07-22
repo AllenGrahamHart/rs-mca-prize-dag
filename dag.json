@@ -15467,6 +15467,65 @@
     "experiments/prize_resolution/l1_m4_h3_nu2_scalar_free_analogs.py",
     "experiments/prize_resolution/l1_m4_h3_nu2_scalar_free_analogs_result.md"
    ]
+  },
+  {
+   "id": "l1_m4_h3_nu0_cubic_frobenius_kernel",
+   "title": "L1 m=4, h=3, nu=0 cubic Frobenius kernel",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Across all four nu=0 eliminant-degree cases, canonical Cartier integration gives X^(p-4)R^3D=(X^5-Q)^p+J and X^(p-4)B_0=Q^p-J for a unique sparse cubic Q=q_3X^3+q_2X^2+q_1X with q_3^p=a. The kernel has only three scalar parameters and H(0)=-4R(0)D(0). This is structural compression, not an exclusion, component count, or L1 closure.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/statement.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/proof.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/audit.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/result.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/lineage.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/verify.py",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu0_nonzero_b_tangent_exclusion",
+   "title": "L1 m=4, h=3, nu=0 nonzero-b tangent exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For nu=0 and nonzero depressed constant b, every tangent root lies on H=kappa with kappa=-48 alpha a^2/Delta, while the tangent radical has degree at least 5-deg H. This excludes deg H=1,2; at deg H=0 it forces H=kappa and R(0)Delta+12a^2g(R(0))=0, and at deg H=3 there are only two or three tangent roots. The b=0 arm and endpoint cases remain open, so L1 is not closed.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/statement.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/proof.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/audit.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/result.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/lineage.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/verify.py",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu0_zero_b_value_coset_certificate",
+   "title": "L1 m=4, h=3, nu=0 zero-b value-coset certificate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For nu=0,b=0, products of the three complete fibers yield subgroup elements u,v with u+v=2. A complete 16-case Frobenius quarter-class certificate excludes this arm at p=8191 and 131071. At p=524287 and 2147483647, every survivor satisfies a^2+3aR(0)^2+R(0)^4=0. The latter arm and nonzero-b endpoints remain open, so L1 is not closed.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/statement.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/proof.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/audit.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/result.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/lineage.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/verify.py",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/verify_audit.py",
+    "experiments/prize_resolution/l1_m4_h3_nu0_zero_b_value_coset_check.py",
+    "experiments/prize_resolution/l1_m4_h3_nu0_zero_b_value_coset_result.md"
+   ]
   }
  ],
  "edges": [
@@ -29622,6 +29681,41 @@
   },
   {
    "from": "l1_m4_h3_nu2_fixed_point_certificate",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_cartier_resonance_reduction",
+   "to": "l1_m4_h3_nu0_cubic_frobenius_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_euler_quotient_factorization",
+   "to": "l1_m4_h3_nu0_cubic_frobenius_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_cubic_frobenius_kernel",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_euler_quotient_factorization",
+   "to": "l1_m4_h3_nu0_nonzero_b_tangent_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_nonzero_b_tangent_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_mason_defect_budget",
+   "to": "l1_m4_h3_nu0_zero_b_value_coset_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_zero_b_value_coset_certificate",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

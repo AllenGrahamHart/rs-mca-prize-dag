@@ -1759,17 +1759,25 @@ and converts its degree into the exact degree `p+deg(H)-4` of
 positive strata except `(nu,deg H)=(1,2),(2,1)`; the latter has an exact
 cubic tangent radical. The exact positive-value coset certificate now removes
 both positive strata entirely at `p=8191,131071`; those rows retain only the
-four `nu=0` eliminant degrees. At `p=524287,2147483647`, every positive
-record satisfies `a^3+8b^2=0`. The surviving `(2,1)` case is further reduced
+`nu=0,b!=0` endpoint degrees zero and three. At
+`p=524287,2147483647`, every positive record satisfies `a^3+8b^2=0`. The
+surviving `(2,1)` case is further reduced
 to pairwise-distinct multiplicity triples summing to `p` in an explicit
 prime-field Belyi normal form, with the outer cubic, domain binomial, and
 complement all normalized over `F_p`. The fixed-point certificate removes the
 last scalar: the domain is `cK`, one of `+c,-c` is the fixed-fiber root, and
 every triple must satisfy one scalar-free divisibility
-`F_e^3-2F_e+1 | W^n-1`. The live analytic split is therefore
-four `nu=0` strata on every row, plus `(1,2)` and the base-field-normalized
-`(2,1)` only on the latter two rows; `b=0` remains possible only in the
-`nu=0` analysis. The CP model is secondary and must respect this row split.
+`F_e^3-2F_e+1 | W^n-1`. The positive split is therefore `(1,2)` and the
+base-field-normalized `(2,1)` only on the latter two rows. The CP model is
+secondary and must respect this row split.
+All `nu=0` degrees now share a canonical sparse cubic Frobenius kernel. On
+the `b!=0` arm, tangent localization excludes the middle degrees one and two,
+leaving only a scalar-pinned constant eliminant and a cubic eliminant with
+two or three tangent roots. The zero-`b` value-coset certificate deletes all
+four `b=0` degrees at `p=8191,131071`; at `p=524287,2147483647` it retains
+them only under `a^2+3aR(0)^2+R(0)^4=0`. The live `nu=0` partition is
+therefore two nonzero-`b` endpoints on the first two rows and those endpoints
+plus four invariant-pinned zero-`b` degrees on the latter two.
 The complete scalar-free analogues at `p=7,31,127` have zero divisibility
 witnesses and are now the conformance oracle for a future compiler; they do
 not exclude an official row.

@@ -387,11 +387,14 @@
   `F_e^3-2F_e+1 | W^n-1`. Search these triples only after proving a
   completeness-preserving compression; do not search arbitrary coefficients,
   scalar conjugates, or domain parameters. Treat `nu=0` separately,
-  including its possible `b=0` branch,
-  and prioritize it on the first two characteristics where it is the entire
-  cubic frontier. Enforce the Cartier constraints and Euler quotient
-  factorization. Any computation should identify one of the row-valid exact
-  strata; a generic no-hit SAT run does not pay the branch.
+  and apply the cubic Frobenius-kernel normal form before any search. On
+  `b!=0`, remove `deg H=1,2`; retain only the constant-level case and the
+  cubic two/three-root tangent passports. Remove `b=0` entirely at
+  `p=8191,131071`. On `p=524287,2147483647`, retain its four degrees only
+  under `a^2+3aR(0)^2+R(0)^4=0`. Enforce the Cartier constraints and Euler quotient
+  factorization. Any computation should expose the sparse cubic kernel and
+  identify one of these row-valid exact strata; a generic no-hit SAT run does
+  not pay the branch.
   Contributor-scale
   work is specified as `CR-L1-MCP` in
   `notes/PRIZE_COMPUTE_REQUESTS.md`; no local or current-account Modal run is

@@ -7016,6 +7016,15 @@ independently check the exact factorization
 `(R^3+aR+b)D=X^n-alpha`. A generic feasible or no-hit color assignment
 without this replay remains only analogue evidence.
 
+For `nu=0`, a donated solver must consume
+`l1_m4_h3_nu0_cubic_frobenius_kernel`: emit the canonical antiderivative and
+the sparse cubic `Q`, and do not enumerate an unrestricted derivative-zero
+kernel. On `b!=0`, do not spend on `deg H=1,2`; the surviving cubic endpoint
+must print its two-or-three-root tangent passport. Do not spend on `b=0` at
+`p=8191,131071`. On the latter two characteristics, every zero-`b` candidate
+must satisfy `a^2+3aR(0)^2+R(0)^4=0`; retain its four degrees as separate
+research targets rather than a generic fallback bucket.
+
 The exact positive-value coset certificate removes all positive valuation at
 `p=8191,131071`; a donated solver must not spend those rows on positive
 strata. At `p=524287,2147483647`, every positive candidate must satisfy
@@ -7063,7 +7072,7 @@ can be promoted to a numbered contributor run, supply all of:
    unordered multiplicity triple;
 2. a sparse/product-tree or residue representation that checks `(NU2-DIV)`
    without materializing degree-`3p` polynomials per triple;
-3. replay the checked-in complete `p=7,31,127` conformance oracle, then
+3. replay the checked-in complete `p=7,31,127` conformance oracle at
    `experiments/prize_resolution/l1_m4_h3_nu2_scalar_free_analogs.py`, then
    publish a measured official-compatible one-shard pilot;
 4. checkpointed triple-range coverage, hashes, peak RAM, and elapsed CPU;
