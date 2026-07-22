@@ -788,8 +788,8 @@ determined only by the multiplicity triple with
 `F_e^3-2F_e+1 | W^n-1`. Therefore the live row split is:
 
 ```text
-p=8191,131071:               nu=0,b!=0 endpoints deg H=0,3;
-p=524287,2147483647:         six nu=0 arms plus (1,2) and (2,1),
+p=8191,131071:               nu=0,b!=0 endpoint deg H=3 only;
+p=524287,2147483647:         five nu=0 arms plus (1,2) and (2,1);
 nu=2 positive on latter p:   scalar-free Belyi divisibility by W^n-1.
 ```
 
@@ -797,9 +797,12 @@ Every `nu=0` stratum now has a canonical three-scalar Frobenius kernel:
 after multiplying by `X^(p-4)`, the reduced triple splits through one sparse
 cubic `Q=q_3X^3+q_2X^2+q_1X`. On the `b!=0` arm, tangent localization
 excludes `deg H=1,2`; `deg H=0` has one exact scalar relation, while
-`deg H=3` has only two or three tangent roots. Thus the live `nu=0` split is
-the two nonzero-`b` endpoint degrees on every row, plus the four `b=0`
-degrees only at `p=524287,2147483647`; the latter obey
+`deg H=3` has only two or three tangent roots. After the packet exclusion
+below, the live `nu=0` split is the nonzero-`b`, `deg H=3` endpoint on every
+row; one exceptional nonzero-`b`, `deg H=0` packet only at
+`p=2147483647` reaches the auxiliary-fiber test below and is also excluded.
+Thus the live split is the nonzero-`b`, `deg H=3` endpoint on every row and
+the four `b=0` degrees only at `p=524287,2147483647`. The latter obey
 `a^2+3aR(0)^2+R(0)^4=0`. All share the cubic kernel. The zero-`b` arm is
 exactly empty at `p=8191,131071` by its 16-case value-coset certificate.
 
@@ -815,8 +818,25 @@ p=2147483647:               (6,20), or
                              (844833809,2002167159).
 ```
 
-This classifies outer packets only; neither packet is known to lift or to be
-impossible.
+The universal packet `(6,20)` is then excluded without computation. Its Euler
+identity makes
+
+```text
+X^n(R-4R(0))/(D(R-R(0))^4)
+```
+
+a `p`th power, but the resulting root multiplicities cannot sum to degree
+`p`. Hence the nonzero-`b`, `deg H=0` endpoint is empty for
+`p=8191,131071,524287`; only the exceptional packet on `p=2147483647`
+remains a necessary possibility.
+
+Finally, exact local degree accounting proves that the squarefree complement
+of any exceptional lift would be precisely the radicals of the two auxiliary
+fibers `R-R(0)` and `R-(2A/3)R(0)`. Their root products force the normalized
+shifted cubic to divide `W^(4(p+1))-1`. For the exceptional packet, the exact
+remainder is the nonzero constant `876663072`. It is therefore impossible as
+well, and the entire nonzero-`b`, `deg H=0` endpoint is empty on all four
+characteristics.
 
 The complete scalar-free conformance censuses at `p=7,31,127` leave zero
 divisibility witnesses; at `p=31,127` the sign gate first reduces `65,1281`
@@ -825,7 +845,7 @@ official exclusion.
 
 This is not yet a complete exclusion or component bound. The remaining
 analytic work is the row-specific `nu=0` classification just printed,
-including lift/exclusion of the finite constant-eliminant packets, the
+now with no constant-eliminant packet, the
 `(1,2)` positive classification on the latter two characteristics, and a
 multiplicity-triple/divisibility theorem for the scalar-free `(2,1)` Belyi
 family.

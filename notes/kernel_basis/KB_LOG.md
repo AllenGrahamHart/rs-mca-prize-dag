@@ -3668,3 +3668,29 @@ reconstruction, Gaussian factorizations, branch relation, and discriminants.
 These are necessary packets only. Their lift or exclusion through the cubic
 Frobenius kernel remains open and is recorded as donated-compute pre-request
 `CR-L1-MCP-NU0-H0`.
+
+## 146 - 2026-07-22: THE UNIVERSAL NU=0 CONSTANT PACKET IS IMPOSSIBLE
+
+For `(A,B)=(6,20)`, the Euler identity cancels a common `R+5R(0)` factor and
+makes `X^n(R-4R(0))/(D(R-R(0))^4)` a rational `p`th power. Its valuation at
+zero forces `ord_0(R-R(0))=1`. Squarefreeness of `D` then forces every
+nonzero root of `R-R(0)` to have multiplicity `(3p-1)/4`. The remaining
+degree `p-1` lies strictly between one and two such multiplicities, a
+contradiction. Thus the nonzero-`b`, constant-eliminant endpoint is empty at
+`p=8191,131071,524287`; only the exceptional normalized packet
+`(844833809,2002167159)` on `p=2147483647` remains. The outbound
+`CR-L1-MCP-NU0-H0` request is narrowed accordingly.
+
+## 147 - 2026-07-22: THE NU=0 CONSTANT ENDPOINT IS CLOSED
+
+On the surviving projective branch, local orders in the cancelled Euler
+identity force the complement to equal
+`rad(R-R(0))/X * rad(R-(2A/3)R(0))`. The product of the second auxiliary
+fiber and each split fiber then puts every normalized shifted split value in
+the order-`4(p+1)` subgroup. For the exceptional largest-characteristic
+packet this requires
+`W^3+1800058023W^2+664831389W+573306971` to divide
+`W^(4(p+1))-1`; exact polynomial and companion-matrix replays give remainder
+`876663072`. The packet is impossible. Together with #146, this closes
+`nu=0,b!=0,deg H=0` on all four characteristics and retires
+`CR-L1-MCP-NU0-H0` without a large run.

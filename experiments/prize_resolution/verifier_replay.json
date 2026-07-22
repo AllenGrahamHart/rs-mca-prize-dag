@@ -2,14 +2,30 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 8,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
+      "script": "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/verify.py",
+      "seconds": 0.042694,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_M4_H3_NU0_H0_AUXILIARY_FIBER_EXCLUSION_PASS checks=15\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/verify_audit.py",
+      "seconds": 0.025157,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_M4_H3_NU0_H0_AUXILIARY_FIBER_EXCLUSION_AUDIT_PASS checks=20\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/verify.py",
-      "seconds": 0.037583,
+      "seconds": 0.043453,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "L1_M4_H3_NU0_H0_PROJECTIVE_BRANCH_EXCLUSION_PASS checks=2226\n"
@@ -17,7 +33,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/verify_audit.py",
-      "seconds": 0.025848,
+      "seconds": 0.027946,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "L1_M4_H3_NU0_H0_PROJECTIVE_BRANCH_EXCLUSION_AUDIT_PASS checks=39\n"
@@ -25,7 +41,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/verify.py",
-      "seconds": 2.302207,
+      "seconds": 2.470513,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "L1_M4_H3_NU0_H0_PROJECTIVE_QUARTER_CERTIFICATE_PASS checks=79\n"
@@ -33,10 +49,26 @@
     {
       "returncode": 0,
       "script": "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/verify_audit.py",
-      "seconds": 0.022053,
+      "seconds": 0.0368,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "L1_M4_H3_NU0_H0_PROJECTIVE_QUARTER_CERTIFICATE_AUDIT_PASS checks=23\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/verify.py",
+      "seconds": 0.431393,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_M4_H3_NU0_H0_UNIVERSAL_PACKET_EXCLUSION_PASS checks=30\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/verify_audit.py",
+      "seconds": 0.022208,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_M4_H3_NU0_H0_UNIVERSAL_PACKET_EXCLUSION_AUDIT_PASS checks=18\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

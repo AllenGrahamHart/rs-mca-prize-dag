@@ -1776,17 +1776,26 @@ leaving only a scalar-pinned constant eliminant and a cubic eliminant with
 two or three tangent roots. The zero-`b` value-coset certificate deletes all
 four `b=0` degrees at `p=8191,131071`; at `p=524287,2147483647` it retains
 them only under `a^2+3aR(0)^2+R(0)^4=0`. The live `nu=0` partition is
-therefore two nonzero-`b` endpoints on the first two rows and those endpoints
-plus four invariant-pinned zero-`b` degrees on the latter two.
+therefore the nonzero-`b` cubic endpoint on every row, one exceptional
+constant-endpoint packet reaching the auxiliary test only on the largest
+characteristic, and four invariant-pinned zero-`b` degrees on the latter two
+characteristics.
 The constant nonzero-`b` endpoint is now finite at the outer-projective
 level. Its scalar equation has two components; a local Euler-order argument
 deletes `2aR(0)+3b=0`, and the exact 16-quarter fiber-product certificate
 leaves only `(A,B)=(6,20)` on the first three characteristics and that pair
 plus `(844833809,2002167159)` on `p=2147483647`. Here
-`A=a/R(0)^2,B=b/R(0)^3`. This is not a lift or endpoint exclusion. The next
-analytic target is to combine each finite packet with the cubic Frobenius
-kernel; `CR-L1-MCP-NU0-H0` records any larger lift/exclusion campaign as
-donated compute, with raw outer-coefficient search prohibited.
+`A=a/R(0)^2,B=b/R(0)^3`. The quarter step alone is not a lift or endpoint
+exclusion. The next Euler-divisor step excludes the universal `(6,20)` packet on every
+characteristic: a forced `p`th-power rational function would require the
+nonzero roots of `R-R(0)` all to have multiplicity `(3p-1)/4`, incompatible
+with their total degree `p-1`. Thus this endpoint is empty on the first three
+characteristics. Only the exceptional largest-characteristic packet remains;
+the exact auxiliary-fiber theorem then forces its normalized shifted cubic to
+divide `W^(4(p+1))-1`, but the remainder is `876663072!=0`. Hence the entire
+nonzero-`b` constant endpoint is empty on all four characteristics.
+`CR-L1-MCP-NU0-H0` is retained only as a retirement record; no contributor
+compute should be requested for it.
 The complete scalar-free analogues at `p=7,31,127` have zero divisibility
 witnesses and are now the conformance oracle for a future compiler; they do
 not exclude an official row.

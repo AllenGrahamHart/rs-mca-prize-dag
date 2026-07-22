@@ -395,9 +395,15 @@
   tangent-at-zero component. The latter leaves only normalized outer packet
   `(A,B)=(6,20)` for `p=8191,131071,524287`, and that packet plus
   `(844833809,2002167159)` for `p=2147483647`, where
-  `A=a/R(0)^2,B=b/R(0)^3`. Do not search outer coefficients; search only for
-  lifts of these packets after supplying a completeness-preserving inner
-  parametrization. Remove `b=0` entirely at
+  `A=a/R(0)^2,B=b/R(0)^3`. Then apply
+  `l1_m4_h3_nu0_h0_universal_packet_exclusion`: a rational-derivative
+  divisor argument excludes `(6,20)` on every row. Thus `deg H=0` is empty
+  on the first three characteristics and only the exceptional packet on
+  `p=2147483647` reaches the next step. Apply
+  `l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion`: exact degree accounting makes
+  the complement the union of two auxiliary fibers, and their product coset
+  forces a cubic divisibility by `W^n-1` which the exceptional packet fails.
+  The entire `deg H=0` endpoint is empty; do not search it. Remove `b=0` entirely at
   `p=8191,131071`. On `p=524287,2147483647`, retain its four degrees only
   under `a^2+3aR(0)^2+R(0)^4=0`. Enforce the Cartier constraints and Euler quotient
   factorization. Any computation should expose the sparse cubic kernel and
@@ -405,6 +411,6 @@
   not pay the branch.
   Contributor-scale
   work is specified as `CR-L1-MCP` in
-  `notes/PRIZE_COMPUTE_REQUESTS.md`; its `NU0-H0` pre-request records the
-  finite packet lift/exclusion task. No local or current-account Modal run is
-  authorized.
+  `notes/PRIZE_COMPUTE_REQUESTS.md`; its former `NU0-H0` pre-request is now a
+  retirement record and must not be sent upstream as live compute. No local
+  or current-account Modal run is authorized.
