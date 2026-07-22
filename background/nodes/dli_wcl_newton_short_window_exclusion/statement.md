@@ -52,3 +52,12 @@ they show that the Newton identities alone cannot cross the printed cutoff.
 A reduced signed relation of weight at most `2ell` satisfying the first
 `ell` odd-power equations in characteristic zero or characteristic greater
 than its weight.
+
+## Display correction (2026-07-22, wcl seam audit)
+
+Window displays of `L+5` / six-slot residuals in this note are PRE-EXTENSION
+bookkeeping. The window of record is `L+1..L+7` (C1'-r3, L = dimension ell)
+and the residual of record is the TEN slot cells; see
+`critical/nodes/dli_wcl_zone_coverage/official_terminal_attack.md` (ten-slot
+section) and `verify_slot_decomposition.py`. The theorem content of this
+node is window-independent and unchanged.

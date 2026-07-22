@@ -70,3 +70,16 @@ moments. Since `v_2(65537-1)=16`, exact order-1024 splitting alone does not
 exclude `(ell,w)=(2,6)`. The fixture is not official (`16<41`), so the
 five-slot frontier is unchanged; a closing norm or ideal theorem must retain
 the full official ambient valuation.
+
+## WINDOW EXTENSION r3 + TEN-SLOT RESIDUAL (2026-07-22 forced correction, wcl seam audit)
+
+The header display `L+1 <= w(O) <= L+5` above is the PRE-EXTENSION window and
+is SUPERSEDED: under the C1'-r3 adoption (2026-07-21, Decision 6 lineage) the
+ledger window of record is `L+1 <= w(O) <= L+7` with `L` the level DIMENSION
+`ell` (schedule r2; the r2 section below already corrects `N_L`). The
+zero-event residual is EXACTLY the ten minted slot cells
+(1,5)(1,6)(1,7)(1,8) | (2,7)(2,8)(2,9) | (4,9)(4,10)(4,11), machine-certified
+complete by `verify_slot_decomposition.py` in this folder (enumeration from
+pinned primitives; 5/5 mutation controls incl. the catch-#205
+index/dimension conflation). Bookkeeping of record: the ten-slot section of
+`official_terminal_attack.md` (appended same date).

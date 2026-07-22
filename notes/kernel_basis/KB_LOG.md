@@ -3276,3 +3276,42 @@ packet co-landed; CR ledger adopted + r3 pointer re-inserted;
 battery 75/75+1 launcher; blast-radius 191/191; manifest
 855/14/1105; validator PASS 1067/2427; board 208/33/22 unchanged.
 Findings: notes/wave19_import_20260722/WAVE19_AUDIT_FINDINGS.md.
+
+## 122 — 2026-07-22: WCL DECOMPOSITION HARDENED (goal items 1-3) —
+## completeness ENUMERATOR installed; conventions/seam audit CLEAN
+## on math, SIX staleness fixes applied (the #198-class seam caught
+## pre-census)
+
+Maintainer goal "perform 1-6" (harden the ten-slot decomposition
+before census spend). ITEMS 2-3 (fresh-context audit, banked at
+notes/wcl_decomposition_audit_20260722/): MATH SOUND — all ten slot
+conventions MATCH the independently-derived law (order 512*ell
+EXACT, ell odd-power conjugate vanishings, supports [0,256*ell)
+signed +-1, NO gcd filter — raw ledger sweeps subgroup-supported
+sets); GROUND TRUTH: the (2,5)/(2,6) closed certificates swept
+exactly the predicted spaces (NO mismatch — future sweeps target
+the right object); floors mapped exactly ((1,3)/(1,4) ambient
+censuses, (2,<=4)+(4,<=8)+(ell>=8 whole windows) Newton); window
+seam: L in W_ext = DIMENSION (the #205 question re-adjudicated),
+slot ends ell+7 EXACT, NO MISSING/NO SPURIOUS slots; margins: min
+breach 32x at (4,11), nothing hairline; only exact saturation in
+the tower (ell=16, w=18) is Newton-empty. BUT the assembly seam was
+STALE (the #198 class, caught pre-census): zone statement header
+still L+5; zone conditional proved only the FOUR-slot equivalence
+(a 4-slot census would NOT discharge the baseline premise!);
+official_terminal_attack ended at 4 slots; guardrail/Newton
+displays; 2 stale dag strings (zone dedup phrase, baseline ROUTE
+BROKEN narrative). ITEM 1: verify_slot_decomposition.py INSTALLED
+on the zone node — enumerates the complete cell list from pinned
+primitives, asserts == the ten minted slots + wiring, margin
+floor 32x, 5/5 mutation controls incl. the catch-#205
+index/dimension conflation (M5). My draft (from
+official_terminal_attack) and the auditor's block (from the M2
+machine + poses) derived IDENTICAL primitives — the two-derivation
+agreement test passed. SIX FORCED FIXES applied (dated appends per
+#104/#155): ten-slot equivalence re-issued in conditional.md,
+window-of-record sections, bookkeeping table, display notes, 2 dag
+string corrections. Validator PASS; affected verifiers green;
+manifest 856/14/1107. NEXT (items 4-6): Burnside sizing pass +
+weight-5 subfamily algebra (agent), then time-rule sampling
+screens in the unscanned cells.

@@ -258,3 +258,21 @@ Slot (2,6) is CLOSED on every official row: the recursive-norm certificate cover
 
 THE RESIDUAL OF RECORD IS NOW FOUR SLOTS: (1,5), (1,6), (2,7), (4,9).
 (1,5): the streaming terminal weight-five norm sweep is in flight (no claims yet; pilot max_v2 = 21).
+
+## Extended-window residual of record (2026-07-22 forced correction)
+
+The four-slot residual above is the PRE-EXTENSION (w <= L+5) bookkeeping.
+Under the ratified C1'-r3 extended ledger (w <= L+7, L = dimension ell) the
+residual of record is TEN zero-event cells:
+
+| ell | window [ell+1, ell+7] | Newton floor 2*ell+1 | closed | OPEN |
+|---:|---|---|---|---|
+| 1 | [2,8] | 3 (then (1,3),(1,4) by ambient census) | — | (1,5)(1,6)(1,7)(1,8) |
+| 2 | [3,9] | 5 | (2,5),(2,6) certs | (2,7)(2,8)(2,9) |
+| 4 | [5,11] | 9 | — | (4,9)(4,10)(4,11) |
+| >=8 | [ell+1, ell+7] | 2*ell+1 > ell+7 | Newton empties all | — |
+
+One-orbit masses: 512*ell*2^-w; minimum breach 32x the 1/32 threshold at
+(4,11) — every open cell is a genuine zero-event obligation, none is
+mass-safe. Machine certificate: ../dli_wcl_zone_coverage/
+verify_slot_decomposition.py (both ell=1 levels share the (1,w) cells).

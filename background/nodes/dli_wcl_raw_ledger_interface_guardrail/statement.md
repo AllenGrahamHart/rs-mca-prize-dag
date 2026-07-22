@@ -35,3 +35,12 @@ requires.
 A derivation of C1' in which multiplier/lift-related primitive orbits are
 deleted without their weighted mass appearing elsewhere, or a downstream
 baseline proof that does not consume the same ledger as C1'.
+
+## Display correction (2026-07-22, wcl seam audit)
+
+Window displays of `L+5` / six-slot residuals in this note are PRE-EXTENSION
+bookkeeping. The window of record is `L+1..L+7` (C1'-r3, L = dimension ell)
+and the residual of record is the TEN slot cells; see
+`critical/nodes/dli_wcl_zone_coverage/official_terminal_attack.md` (ten-slot
+section) and `verify_slot_decomposition.py`. The theorem content of this
+node is window-independent and unchanged.
