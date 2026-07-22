@@ -5485,3 +5485,24 @@ independently, but should not open four incompatible compute frameworks.
   RAM, and dollar ceiling.
 - **estimated resources:** unknown until `m=2,4` pilots; likely unsuitable for
   the current sub-`$1` policy and potentially multi-gigabyte at `m=16`.
+
+## CR-004 refresh (2026-07-22): the WCL slot register is now request-grade hardened
+
+The ten-slot decomposition backing CR-004 is now MACHINE-CERTIFIED complete
+(`critical/nodes/dli_wcl_zone_coverage/verify_slot_decomposition.py`, 5/5
+mutation controls), conventions-audited against the closed (2,5)/(2,6)
+certificates (no mismatch — a contributor sweep provably targets the right
+space), exactly priced (Burnside, 3/3 calibration anchors), and
+powered-sampled (934 orbits, zero events, max v_2 = 24 vs gate 41). Census
+is live ONLY at: (1,5) finish (445 CPU-h total, 46.44% checkpointed),
+(2,7) router (33k CPU-h; ~$2-5k after a GMP/flint gcd swap), and marginally
+(1,6) (~$6.6k). The ell=4 cells are DESCENT-ONLY (proof work); (1,7)/(1,8)/
+(2,8)/(2,9) need new exclusion algebra, not compute. MANDATORY implementation
+constraint for any contributor: norm prime factors are NOT all == 1 mod n —
+progression-based trial division is UNSOUND (full or certified-partial
+factoring only; keep gp/ECM in the loop for ~150-450-bit hard cofactors).
+PROMOTION GATE (unchanged): this becomes an outbound contributor request
+only after (i) the order-1024 Norm(u)-saturation soundness fix lands and
+audits, (ii) the GMP/flint gcd benchmark is measured, (iii) the unit-ideal
+certificate pilot adjudicates (a land retires the census model entirely),
+and (iv) for (1,5): the re-shard + ECM-tail repairs land.

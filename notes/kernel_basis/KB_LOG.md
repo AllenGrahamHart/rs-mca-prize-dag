@@ -3348,3 +3348,25 @@ floors tested-with-power, 934 orbits, zero events. SPEND LINES
 surfaced (not run): $2-5 order-256 coset closure (lifts (1,5) to
 11.99% proved); the deferred Job A finish. Screens + sizing +
 audit packets: notes/wcl_decomposition_audit_20260722/.
+
+## 124 — 2026-07-22: ALL THREE UPSTREAM PRs INTEGRATED (#1010 #1013
+## #1019 -> his cc1d8784, attribution preserved) + CR-004 refreshed
+## request-grade; WCL-as-PR adjudicated NOT-NOW (consumer test)
+
+Triage check: all three closed-INTEGRATED in his reviewed-stack
+integration cc1d8784 ("imported the useful experimental
+notes/data/scripts/Lean artifacts, preserved attribution in the
+commit trailers and agents log"; no theorem row promoted — as our
+fences intended). The export channel is proven 3/3; his open queue
+is now other contributors' (#1047-1049, KoalaBear v4 tangent atom /
+M31 T64 prefix-flatness / M31 owner profiles — watch items).
+MAINTAINER QUESTION adjudicated: a WCL-zone-decomposition RESULT PR
+fails the consumer test (banked upr2 verdict: dli/WCL is
+DIFFERENT-LANE, no six-input consumer; our own discipline:
+candidates must show a consumer) — NOT submitted. The right vehicle
+is the CR-004 CONTRIBUTOR-COMPUTE REQUEST once our recorded
+preconditions land (Norm(u) fix + gcd benchmark + unit-ideal
+adjudication + (1,5) repairs); CR-004 entry REFRESHED with the
+hardened state (machine-certified decomposition, audited
+conventions, exact prices, the census-soundness catch, the
+promotion gate) so it fires the moment the gates open.
