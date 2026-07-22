@@ -73,3 +73,31 @@ proving `(PWD4)`.
 Finally set `d=a-k`. If `d=2u`, then `tau=u+1` and
 `s=a-u=(a+k)/2`. If `d=2u+1`, then `tau=u+2` and
 `s=a-u-1=(a+k-1)/2`. This proves `(PWD5)`.
+
+## 4. Official-cap route diagnosis
+
+Write `r=n-a`. Cancelling factorials gives
+
+```text
+binom(n,s)/binom(a,s)
+ =product_(i=0)^(r-1) (n-i)/(n-s-i).                 (5)
+```
+
+The denominators are positive because `s<=a`. If `s>=n/2`, every factor in
+`(5)` is at least two: this is equivalent to `n-i>=2(n-s-i)`, and its
+right-minus-left slack is `2s-n+i>=0`. Hence the ratio is at least `2^r`,
+and so is its integer floor. The official strict cap `q<2^256` gives
+
+```text
+floor(q/2^128)<2^128.
+```
+
+Thus the packing upper bound itself is above the finite payment whenever
+`r>=128`, proving `(PWD6)--(PWD7)`. This compares two upper bounds and makes
+no assertion that a fiber of that size exists.
+
+For comparison, equality of all first `d` elementary locator coefficients
+would make `F_A-F_B` have degree at most `a-d-1=k-1`. Its common-root
+locator divides this nonzero difference, so `|A intersect B|<=k-1` and
+`t>=d+1`. Coarse p-free equality does not imply those elementary checkpoint
+equalities in characteristic `p`; the `F_4` fixture attains `t=2<3=d+1`.

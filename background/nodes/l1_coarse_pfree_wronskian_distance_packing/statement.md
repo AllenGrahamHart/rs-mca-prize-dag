@@ -58,6 +58,24 @@ max_z |Phi_free^(-1)(z)|
           /binom(a,floor((a+k)/2))).                 (PWD5)
 ```
 
+Put `r=n-a`. If `s>=n/2`, then
+
+```text
+binom(n,s)/binom(a,s)
+ =product_(i=0)^(r-1) (n-i)/(n-s-i) >=2^r.          (PWD6)
+```
+
+Since every official field has `q<2^256`, its finite numerator
+`floor(q/2^128)` is below `2^128`. Therefore `(PWD4)` cannot by itself
+certify an official finite payment whenever
+
+```text
+a+k>=n,       n-a>=128.                              (PWD7)
+```
+
+This diagnoses the strength of the bound; it is not a lower bound on the
+actual fiber.
+
 ## Scope
 
 This is an explicit arbitrary-target max-fiber bound and needs no checkpoint
@@ -65,3 +83,11 @@ union or structured subtraction. Its packing cap can remain exponential in
 the active linear band, so it does not prove row-sharp Q, the Pade-graph
 intersection, or L1. Future work should apply stronger shift-pair structure
 only on rows where `(PWD4)` exceeds the allocated payment.
+
+Do not read `(PWD2)` as an improvement to an exact mixed locator-prefix or
+fixed-cofactor Pade shell. Equality of the full depth-`d` locator prefix gives
+the stronger elementary bound `t>=d+1` when `a=k+d`, since the difference of
+the two monic locators has degree at most `k-1`. The half-depth theorem is for
+the larger coarse p-free fiber after Frobenius checkpoints are forgotten;
+the `F_4` sharpness fixture shows why full-prefix distance cannot be imported
+there.

@@ -11,7 +11,8 @@
 Distinct members of one arbitrary coarse p-free fiber have disjoint-tail
 size at least `ceil((d+2)/2)`. Consequently every fiber obeys the exact
 constant-weight packing cap `(PWD4)` and the scalar L1 specialization
-`(PWD5)`.
+`(PWD5)`. When `a+k>=n`, the cap is at least `2^(n-a)` and therefore cannot
+pay an official finite numerator by itself if `n-a>=128`.
 
 ## Falsifier
 
@@ -20,5 +21,7 @@ size below `ceil((d+2)/2)`, or a fiber exceeding the displayed packing cap.
 
 ## Nonclaims
 
-No row-sharp finite payment in the linear band, no classification of equality
-families, no Pade-graph coalescing, and no L1 status change.
+No row-sharp finite payment in the linear band, no lower bound on actual
+fiber size, no improvement to the stronger full-prefix distance, no
+classification of equality families, no Pade-graph coalescing, and no L1
+status change.

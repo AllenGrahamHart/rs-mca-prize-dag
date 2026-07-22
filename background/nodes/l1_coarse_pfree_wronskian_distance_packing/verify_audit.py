@@ -37,12 +37,26 @@ def main() -> None:
     assert s != math.ceil((a + k) / 2)
     checks += 2
 
+    # The cap lower bound diagnoses the route only; it is not a lower bound
+    # on the true maximum fiber. At this small boundary it is attained by the
+    # integer floor of the packing ratio.
+    n = 8
+    a = 6
+    k = 2
+    s = (a + k) // 2
+    cap = math.comb(n, s) // math.comb(a, s)
+    assert s == n // 2
+    assert cap == 2 ** (n - a)
+    checks += 2
+
     statement = (ROOT / "background" / "nodes" / NODE / "statement.md").read_text()
     audit = (ROOT / "background" / "nodes" / NODE / "audit.md").read_text()
     assert "F_4" in statement
     assert "simple zero/pole valuations" in audit
     assert "may be exponentially above" in audit
-    checks += 3
+    assert "bound on any actual fiber" in audit
+    assert "stronger tail" in audit
+    checks += 5
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}

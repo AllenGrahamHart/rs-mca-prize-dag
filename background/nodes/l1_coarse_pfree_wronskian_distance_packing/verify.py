@@ -99,6 +99,32 @@ def main() -> None:
                         assert tail >= local_tau
                         checks += 1
 
+    # When s>=n/2, the numerical packing ceiling is at least 2^(n-a).
+    for n in range(4, 31):
+        for k in range(1, n):
+            for a in range(k + 1, n + 1):
+                depth = a - k
+                local_tau = math.ceil((depth + 2) / 2)
+                local_s = a - local_tau + 1
+                if 2 * local_s < n:
+                    continue
+                cap = math.comb(n, local_s) // math.comb(a, local_s)
+                assert cap >= 2 ** (n - a)
+                checks += 1
+
+    # The deployed KoalaBear crossing lies very far inside the range where
+    # the cap itself cannot fit the official numerator. No large binomial is
+    # materialized here.
+    deployed_n = 2**21
+    deployed_k = 2**20
+    for deployed_a in (1_116_047, 1_116_048):
+        deployed_s = (deployed_a + deployed_k) // 2
+        assert 2 * deployed_s >= deployed_n
+        assert deployed_n - deployed_a >= 128
+        checks += 2
+    assert (1 << 128) > 274_980_728_111_395_087
+    checks += 1
+
     for k in range(1, 12):
         for d in range(1, 12):
             a = k + d
@@ -123,6 +149,8 @@ def main() -> None:
         "deg W<=2t-d-2",
         "floor(binom(n,s)/binom(a,s))",
         "s=floor((a+k)/2)",
+        ">=2^r",
+        "stronger elementary bound `t>=d+1`",
         "can remain exponential",
     ):
         assert anchor in statement or anchor in (
