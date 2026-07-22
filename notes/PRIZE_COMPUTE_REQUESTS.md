@@ -7050,18 +7050,11 @@ Before emitting candidates, remove the exact embedded family from
 `l1_mersenne_checkpoint_embedded_m2_family`: at depths `p,p+1`, each of the
 `m/2` order-`2(p+1)` cosets contributes `p+1` antipodal pairs, for total
 `n/2`. These are proved payload, not events. An `h=2` request must certify
-that its pair is not in this family. For `m=4,h=3`, first consume the full
-analytic split below: both rows at `p=8191,131071` are theorem-empty, and on
-the latter two characteristics only invariant-pinned `nu=0,b=0` or positive
-valuation can remain. The branch is automatically nonembedded: oddness gives
-embedded split values in sign pairs, and maximal `h=4` is theorem-empty.
-For that cubic shard, consume `l1_m4_h3_colored_cyclic_equivalence` and use
-the exact variables `b_i in {0,1,omega,omega^2}` with `p` occurrences of
-each nonzero color. Enforce Fourier support in the printed Mersenne chambers
-for both `b` and coefficientwise `b^[2]`; `b^[3]` must be the union indicator
-with `p+4` zeros. A solver imposing only one code membership is incomplete.
-Shard by a canonical zero complement and color orbit only after proving that
-the quotient preserves both Schur constraints.
+that its pair is not in this family. Do not request `m=4,h=3` compute: the
+Mason, Cartier, tangent, packet, and zero-`b` Euler chain proves every
+official component empty. The checked two-Schur encoding remains a
+conformance artifact, not a live shard. Prioritize explicitly nonembedded
+`m=4,h=2` and the `m=8,16` value degrees.
 
 **Requested outcome:** for a declared `(n,p,h,d)` shard, either emit one
 fully replayable pair of disjoint split fibers, including `Q`, `G_Q`, the
@@ -7122,6 +7115,10 @@ compression.
 
 ### CR-L1-MCP-C31: adjudicate the order-128 two-Schur CP model
 
+**Status:** RETIRED as a route-deciding contributor request. The model is a
+valid incomplete nonofficial conformance artifact, but the complete official
+`m=4,h=3` branch is now theorem-empty. Do not rerun it on contributor compute.
+
 This is a bounded structural pilot for the next `m=4,h=3` analogue, not a
 request for the raw order-128 subset census. The checked-in script
 `experiments/prize_resolution/l1_m4_h3_two_schur_cpsat_modal.py` encodes
@@ -7146,40 +7143,10 @@ complete evidence for this nonofficial analogue only; `UNKNOWN` or timeout is
 `INCOMPLETE`. Benchmark before increasing CPUs or wall time, and state the
 dollar cap in advance. No current-account rerun is authorized.
 
-The preferred follow-up is now analytic. The proved
-`l1_m4_h3_mason_defect_budget` shows that every genuine record has depressed
-outer coefficient `a!=0` and a Wronskian eliminant containing the full defect
-factor. The Cartier refinement excludes `nu=4`, and the tangent-radical
-successor excludes `nu=3` plus the lower positive-eliminant strata. The live
-split is `(nu,deg H)=(1,2),(2,1)` and `(0,0),(0,1),(0,2),(0,3)`.
-A donated solver extension should expose `a`, `nu`, the eliminant, and the
-two defect witnesses. It must also check `H(0)!=0` and the exact Euler
-quotient factorization from `l1_m4_h3_euler_quotient_factorization`. Shard by
-the row-valid strata below, retain the possible `b=0` arm at `nu=0`, and
-independently check the exact factorization
-`(R^3+aR+b)D=X^n-alpha`. A generic feasible or no-hit color assignment
-without this replay remains only analogue evidence.
-
-For `nu=0`, a donated solver must consume
-`l1_m4_h3_nu0_cubic_frobenius_kernel`: emit the canonical antiderivative and
-the sparse cubic `Q`, and do not enumerate an unrestricted derivative-zero
-kernel. On `b!=0`, do not spend on any eliminant degree. Degrees one and two
-are excluded by tangent localization, the cubic endpoint is excluded by
-`l1_m4_h3_nu0_h3_tangent_multiplicity_exclusion`, and the constant endpoint
-is excluded by the universal and exceptional packet theorems. The former
-exceptional packet
-`(844833809,2002167159)` at `p=2147483647` is also theorem-empty by the exact
-auxiliary-fiber divisibility certificate. Do not spend on any nonzero-`b`
-`nu=0` endpoint. Do not spend on `b=0` at
-`p=8191,131071`. On the latter two characteristics, every zero-`b` candidate
-must satisfy `a^2+3aR(0)^2+R(0)^4=0`; retain its four degrees as separate
-research targets rather than a generic fallback bucket.
-
-Do not spend contributor compute on positive valuation at any official
-characteristic. The value-coset certificate removes the first two rows, and
-`l1_m4_h3_positive_tangent_multiplicity_exclusion` removes both surviving
-`(1,2),(2,1)` tangent passports on the latter rows. The Belyi and base-field
-normalizations remain checked conformance artifacts, not live search filters.
+The analytic follow-up is complete. Nonzero-`b` zero valuation is removed by
+the tangent and packet theorems, positive valuation by the tangent
+multiplicity theorem, and zero-`b` zero valuation by the Euler/value-coset
+contradiction. No donated solver extension remains for this shard.
 
 ### CR-L1-MCP-NU2 retirement record: normalized Belyi regular-fiber divisibility
 

@@ -15698,6 +15698,25 @@
     "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/verify.py",
     "background/nodes/l1_m4_h3_positive_tangent_multiplicity_exclusion/verify_audit.py"
    ]
+  },
+  {
+   "id": "l1_m4_h3_nu0_zero_b_euler_exclusion",
+   "title": "L1 m=4, h=3, nu=0 zero-b Euler exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the two zero-b rows surviving the value-coset certificate, the Euler identity forces H=12alpha/a and then a/R(0)^2=-3/2. This contradicts the packet invariant outside characteristic five, so the complete official zero-b endpoint is empty.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu0_zero_b_euler_exclusion/statement.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_euler_exclusion/proof.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_euler_exclusion/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_euler_exclusion/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_euler_exclusion/audit.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_euler_exclusion/result.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_euler_exclusion/lineage.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_euler_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_euler_exclusion/verify.py",
+    "background/nodes/l1_m4_h3_nu0_zero_b_euler_exclusion/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -30013,6 +30032,21 @@
   },
   {
    "from": "l1_m4_h3_positive_tangent_multiplicity_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_nu0_zero_b_value_coset_certificate",
+   "to": "l1_m4_h3_nu0_zero_b_euler_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_euler_quotient_factorization",
+   "to": "l1_m4_h3_nu0_zero_b_euler_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_zero_b_euler_exclusion",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

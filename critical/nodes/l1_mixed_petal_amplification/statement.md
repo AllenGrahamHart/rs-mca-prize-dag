@@ -1023,8 +1023,8 @@ test. The stronger local theorem
 both `(1,2)` and `(2,1)`: every repeated tangent multiplicity `e` is the
 local order of the cubic `X^nu H-kappa`, and at most three tangent roots
 would again force `p<=9`. The Belyi artifacts remain valid conformance
-reductions, but their parent stratum is theorem-empty. Therefore the live row
-split is:
+reductions, but their parent stratum is theorem-empty. Before the final
+zero-`b` exclusion below, the row split is:
 
 ```text
 p=8191,131071:               empty;
@@ -1085,14 +1085,23 @@ official characteristic. Consequently the complete `nu=0,b!=0` branch is
 now closed, and the two `m=4` rows with characteristics `8191` and `131071`
 are empty in full.
 
+The zero-`b` residue on the two larger characteristics is also impossible.
+`l1_m4_h3_nu0_zero_b_euler_exclusion` cancels `R` from the Euler quotient
+identity. On all `p` roots of the complete split fiber `R=0`, comparison
+with the derivative of the domain identity forces `H=12 alpha/a`.
+Evaluation at zero then gives `a/R(0)^2=-3/2`, contradicting the proved
+zero-`b` invariant unless the characteristic is five. Thus the complete
+official `m=4,h=3` branch is empty on all four rows.
+
 The complete scalar-free conformance censuses at `p=7,31,127` leave zero
 divisibility witnesses; at `p=31,127` the sign gate first reduces `65,1281`
 triples to `3,19`. This is useful evidence and compiler calibration, not an
 official exclusion.
 
-This is not yet a complete exclusion or component bound. The remaining
-`m=4,h=3` analytic work exists only on characteristics `524287` and
-`2147483647`: classify the four invariant-pinned `nu=0,b=0` degrees.
+This closes `m=4,h=3`, not the full first-checkpoint endpoint. The exact
+residual is nonembedded `m=4,h=2`, the `m=8` rows with `2<=h<=7`, and the
+single `m=16` row with `2<=h<=15`, after prepaying every embedded antipodal
+pair.
 
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full

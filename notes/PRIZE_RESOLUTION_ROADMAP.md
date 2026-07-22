@@ -1899,11 +1899,10 @@ posed branch.
 The first compressed CP-SAT pilot at the next analogue `(p,n)=(31,128)` is
 explicitly `INCOMPLETE`: after two model-validation repairs, the validated
 run hit the 60-second Modal function cap before returning any solver status.
-It supplies no mathematical evidence and will not be rerun on the current
-account. `CR-L1-MCP-C31` records the contributor task, including precomputed
-Fourier coefficients, model hashing, separated build/search timing, and
-independent witness replay. Analytic component structure remains the primary
-route; compute is a falsifier and route selector only.
+It supplies no mathematical evidence. The subsequent analytic closure makes
+it obsolete as a route-deciding contributor task, so `CR-L1-MCP-C31` is now
+a retirement record and should not be rerun. Its model and independent replay
+remain conformance artifacts.
 The exact abc ledger now sharpens the analytic route further. In any
 hypothetical official `m=4,h=3` record, the depressed cubic has nonzero
 linear coefficient and a low-degree Wronskian eliminant containing the full
@@ -1961,6 +1960,14 @@ contributor search should target one. Combining this with the positive and
 zero-`b` value-coset exclusions closes the complete `m=4,h=3` endpoint for
 `p=8191,131071`. On `p=524287,2147483647`, the exact residual is only the
 four invariant-pinned `nu=0,b=0` degrees.
+That last residue is now closed by
+`l1_m4_h3_nu0_zero_b_euler_exclusion`. On every root of the complete fiber
+`R=0`, the differentiated domain identity and Euler quotient give
+`H=12alpha/a`; evaluation at zero forces `a/R(0)^2=-3/2`, contradicting the
+value-coset invariant outside characteristic five. Therefore every official
+`m=4,h=3` row is empty. The live first-checkpoint frontier is now
+nonembedded `m=4,h=2`, `m=8` with `2<=h<=7`, and `m=16` with
+`2<=h<=15`, after subtracting the proved embedded antipodal family.
 The complete scalar-free analogues at `p=7,31,127` have zero divisibility
 witnesses and are now the conformance oracle for a future compiler; they do
 not exclude an official row.

@@ -4385,3 +4385,15 @@ base-field descent, and fixed-point certificate remain valid but
 superseded. `CR-L1-MCP-NU2` is retired without a large run. The only live
 `m=4,h=3` strata are now the four invariant-pinned `nu=0,b=0` degrees at
 `p=524287,2147483647`.
+
+## 173 - 2026-07-22: THE OFFICIAL M4/H3 BRANCH IS EMPTY
+
+`l1_m4_h3_nu0_zero_b_euler_exclusion` closes the final zero-`b` residue.
+After cancelling `R` in the Euler quotient, evaluate on all `p` roots of the
+complete split fiber `R=0`. The differentiated domain identity gives
+`H=12alpha/a`; since `deg H<=3`, this is a polynomial identity. Evaluation
+at zero then forces `a/R(0)^2=-3/2`, while the surviving value-coset packet
+requires `q^2+3q+1=0`. Their residual is `-5/4`, impossible on the official
+characteristics. Combined with #171-#172, `m=4,h=3` is empty on all four
+rows. First-checkpoint work moves to nonembedded `m=4,h=2` and the
+`m=8,16` value degrees.

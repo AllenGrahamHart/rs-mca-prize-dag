@@ -524,6 +524,12 @@
   theorem-empty. Do not search that branch. The `m=4,h=3` rows at
   `p=8191,131071` are now closed; retain only the invariant-pinned `b=0`
   degrees at `p=524287,2147483647`.
+  Then consume `l1_m4_h3_nu0_zero_b_euler_exclusion`: evaluation on the
+  full split fiber forces `H=12alpha/a`, and evaluation at zero contradicts
+  the value-coset invariant outside characteristic five. This closes every
+  official `m=4,h=3` row. Do not run the former cubic CP-SAT, Belyi, packet,
+  or coefficient searches. Move the first-checkpoint attack to explicitly
+  nonembedded `m=4,h=2` and the live `m=8,16` value degrees.
   Contributor-scale
   work is specified as `CR-L1-MCP` in
   `notes/PRIZE_COMPUTE_REQUESTS.md`; its former `NU0-H0` pre-request is now a
