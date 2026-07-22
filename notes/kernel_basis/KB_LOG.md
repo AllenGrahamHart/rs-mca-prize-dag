@@ -3461,3 +3461,15 @@ genuinely shrunk (exact core named); roadmap uptake STRONG (v8
 overlay upgraded the identification count ONE->TWO proved chains,
 verifier passing; N3/N5/N10/N11 executed; all Modal compliant).
 Findings: notes/wave20_import_20260722/WAVE20_AUDIT_FINDINGS.md.
+
+## 127 — 2026-07-22: OFFICIAL FIRST-CHECKPOINT ENDPOINT REDUCED TO NINE ROWS
+
+Five PROVED nodes compile the complete `t=p` checkpoint route. The exact
+characteristic atlas has 59 pairs; polynomial abc classifies all `m=2`
+endpoints and excludes maximal value degree for every `m>=3` row. Frobenius
+closure of the balanced prime-field Fourier word excludes all seven
+broad-remainder rows. The remaining nine tuples are exactly
+`n=m(p+1)`, `m in {4,8,16}`, with `2<=h<=m-1`. This does not promote L1:
+wider exchanges and the primitive split-pencil aggregate remain open.
+Potential large computation is parked as contributor request `CR-L1-MCP`,
+with raw enumeration forbidden and a compression-plus-pilot launch gate.

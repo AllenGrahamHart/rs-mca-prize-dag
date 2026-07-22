@@ -6,7 +6,7 @@ l1_coarse_pfree_wronskian_distance_packing [PROVED]
                   +--req--> l1_coarse_pfree_tame_tail_distance_upgrade [PROVED]
                                       |                 |
                                       |                 +--ev--> l1_mixed_petal_amplification [TARGET]
-                                      +--req--> l1_coarse_pfree_wronskian_neighbor_compiler [PROVED]
+                                      +--req--> l1_official_first_checkpoint_split_pencil_reduction [PROVED]
 ```
 
 The supplier gives the Wronskian upper degree. Newton inversion below the

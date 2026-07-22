@@ -128,11 +128,11 @@ def main() -> None:
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
     supplier = "l1_coarse_pfree_wronskian_distance_packing"
-    neighbor = "l1_coarse_pfree_wronskian_neighbor_compiler"
+    checkpoint = "l1_official_first_checkpoint_split_pencil_reduction"
     assert nodes[NODE]["status"] == "PROVED"
     assert nodes[supplier]["status"] == "PROVED"
     assert (supplier, NODE, "req") in edges
-    assert (NODE, neighbor, "req") in edges
+    assert (NODE, checkpoint, "req") in edges
     assert (NODE, "l1_mixed_petal_amplification", "ev") in edges
     checks += 5
 

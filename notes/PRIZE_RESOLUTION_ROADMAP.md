@@ -1708,6 +1708,19 @@ does not move because the unsafe side was already green. The remaining
 rate-half prize obligation is still the safe-side localization above
 `a=k+2^34-1`, represented by `rate_half_list_adjacent_crossing`.
 
+**Track-C checkpoint refinement (proved, 2026-07-22).** The minimum
+characteristic-width coarse branch has been reduced from an unbounded
+split-pencil census to nine exact Mersenne-shape rows. The official atlas has
+59 `(n,p)` pairs: all `m=1` rows are empty; all `m=2` rows are either empty
+or the explicit antipodal family; maximal split-value degree is empty on all
+16 `m>=3` rows; and Frobenius periodicity removes seven broad-remainder rows
+at every first-checkpoint depth. The surviving rows have
+`n=m(p+1)`, `m in {4,8,16}`, and `2<=h<=m-1`. This is a real closure of the
+`t=p` endpoint outside those nine rows, not an L1 status flip. The next proof
+step is a Mersenne-specific cyclic-code or complement normal form that
+compresses lower `h`; the corresponding large-run idea is parked as
+`CR-L1-MCP`, gated on such a compression and a measured pilot.
+
 **Track H — hedges (funded, never built on):** H1 price RK by one dedicated
 refutation round (survives -> insurance; dies -> the 17-leaf prune comes off
 the books); H2 FD as a schema only after the c2pp instance adjudicates;

@@ -6867,3 +6867,50 @@ only after (i) the order-1024 Norm(u)-saturation soundness fix lands and
 audits, (ii) the GMP/flint gcd benchmark is measured, (iii) the unit-ideal
 certificate pilot adjudicates (a land retires the census model entirely),
 and (iv) for (1,5): the re-shard + ECM-tail repairs land.
+
+## CR-L1-MCP: Mersenne first-checkpoint split-pencil certificate
+
+**Status:** contributor research request; not authorized locally or on the
+current Modal account. Its consumer is the `t=p` endpoint of
+`l1_mixed_petal_amplification`, not the whole L1 node.
+
+All other official minimum-width rows are theorem-classified. The only live
+rows are:
+
+```text
+n            p           m
+32768        8191        4
+65536        8191        8
+131072       8191        16
+524288       131071      4
+1048576      131071      8
+2097152      524287      4
+4194304      524287      8
+8589934592   2147483647  4
+17179869184  2147483647  8
+```
+
+For each row, only `2<=h<=m-1` can occur. At depth `d`, put
+`u=n-hp` and `ell_h=u-d+p`; the complement theorem bounds records by
+`floor(binom(n,ell_h)/binom(u,ell_h))`, and the depressed outer polynomial
+has `ord_0(R)<=n-(h+1)p`. A valid implementation must exploit these facts
+and the balanced prime-field cyclic-code formulation: the signed exponent
+word has exactly `p` coefficients `+1`, exactly `p` coefficients `-1`, and
+Fourier zeros on the full `p`-cyclotomic closure of `[0,p-1]`.
+
+**Requested outcome:** for a declared `(n,p,h,d)` shard, either emit one
+fully replayable pair of disjoint split fibers, including `Q`, `G_Q`, the
+complement, all divisibility checks, and its first-owner data; or emit a
+proof-producing exclusion certificate whose independent checker establishes
+complete coverage. A finite no-hit search is evidence only. Partial output
+must preserve completed orbit or certificate blocks, hashes, elapsed CPU,
+peak RAM, and the exact unprocessed range.
+
+**Launch gate:** first supply a completeness-preserving orbit, cyclic-code,
+SAT, or algebraic compression on a small analogue, then benchmark one shard
+of the smallest row under explicit RAM, wall-time, storage, and dollar caps.
+Raw enumeration of supports, complements, normalized `Q`, or field elements
+is prohibited. The resource cost is currently unknown and could be large;
+publish the pilot before requesting a full contributor run. A PR carrying
+this request should include the five proved checkpoint nodes and state
+exactly which PASS or witness changes the DAG.

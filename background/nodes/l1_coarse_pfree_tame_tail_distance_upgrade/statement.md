@@ -3,7 +3,7 @@
 - **status:** PROVED
 - **role:** remove the false half-depth collision strata below the
   characteristic
-- **consumers:** `l1_coarse_pfree_wronskian_neighbor_compiler`,
+- **consumers:** `l1_official_first_checkpoint_split_pencil_reduction`,
   `l1_mixed_petal_amplification`
 
 ## Tame Wronskian lower degree

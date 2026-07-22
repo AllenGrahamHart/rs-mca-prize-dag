@@ -351,3 +351,13 @@
   printed ledger should be removed analytically. The live object is the
   support-entropy/anchor-exponent gap after this charge, not raw `(F,W)`
   multiplicity.
+- At the first characteristic checkpoint (`t=p`), consume the official
+  atlas and all four split-pencil theorems before any search. Do not launch
+  `m<=2`, maximal-value `h=m`, or broad-remainder `m>=3` rows: they are
+  classified or empty. The only live tuples satisfy `n=m(p+1)` with
+  `m in {4,8,16}` and `2<=h<=m-1`. A successor must retain exact row, depth,
+  split-value degree, complement degree, depressed-pencil valuation, and
+  first owner. Raw complement, support, or `(Q,b,c)` enumeration is not an
+  admissible route. Contributor-scale work is specified as `CR-L1-MCP` in
+  `notes/PRIZE_COMPUTE_REQUESTS.md`; no local or current-account Modal run is
+  authorized.

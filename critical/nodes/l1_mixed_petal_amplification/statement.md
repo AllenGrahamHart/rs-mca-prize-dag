@@ -699,3 +699,30 @@ different: `l1_decorated_shift_pair_gcd_descent_sharpness` gives ten exact
 `F_13` witnesses at the first endpoint `e'=w'+1` on one support-pair shape
 while varying `U`. This does not refute L1, but proves that the reduced high
 branch must retain its received-word/Toeplitz owner.
+
+## Official first-checkpoint closure
+
+The minimum coarse characteristic-width endpoint is now an exact finite
+router. `l1_official_first_checkpoint_split_pencil_reduction` proves that
+every `t=p` collision at `p<=d<=2p-2` consists of two complete fibers of
+`Z^p+Q`, with `deg Q<=2p-d-1`; a ratio-set bound removes the final
+`r_*(p,n)=floor((p(p-1)-1)/(n-1))` depths. For each surviving normalized
+`Q`, `l1_official_split_pencil_value_capacity` recovers all split values as
+one squarefree remainder gcd of degree at most `floor(n/p)<=23`.
+
+The arithmetic atlas contains exactly 59 official `(n,p)` checkpoint pairs.
+All 33 rows with `floor(n/p)=1` are empty. Of the ten rows with
+`floor(n/p)=2`, six are empty and four have exactly `n/2` antipodal pairs.
+For the 16 rows of multiplicity at least three, the complement census makes
+the maximal split-value degree empty at every depth. Frobenius closure of the
+balanced signed Fourier word then removes all seven rows with remainder
+`n-p floor(n/p)>16` entirely. The only unresolved minimum-width rows are the
+nine Mersenne-shape tuples
+
+```text
+n=m(p+1),       m in {4,8,16},       2<=deg G_Q<=m-1.
+```
+
+These theorems concern only the `t=p` first-checkpoint endpoint. They do not
+pay wider exchanges, the primitive coprime split-pencil census, or the full
+L1 exact shell, so this node remains TARGET.
