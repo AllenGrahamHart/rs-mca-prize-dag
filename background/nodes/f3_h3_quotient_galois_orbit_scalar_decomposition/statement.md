@@ -40,6 +40,20 @@ sum_orbits |orbit|=(n-1)(n-2).                     (QOD4)
 At the first official order `n=8192`, this is `24,534` orbits, each of size
 at most `4,096`, instead of `67,084,290` ordered quotient lifts.
 
+The workload is strongly concentrated in the largest degree classes. For
+`1<=r<=s-1`, let `C_r` be the number of blocks in the top `r` classes
+`j=s-r,...,s-1`, and let `D_r` be their total algebraic degree. Then
+
+```text
+C_r=3(n(1-2^(-r))-r),
+D_r=n^2(1-4^(-r))-3n(1-2^(-r)).                   (QOD4a)
+```
+
+At `n=8192`, the degree-`4096` class alone contains `12,285` blocks and
+degree mass `50,319,360`, respectively `50.073%` and `75.009%` of the
+complete campaign. The top two classes contain `18,426` blocks and degree
+mass `62,896,128`, respectively `75.104%` and `93.757%` of the totals.
+
 Put `R=Z[1/2]`, `zeta=zeta_n`, and
 
 ```text
@@ -79,6 +93,10 @@ equivalent to a target with `P(t)>=36,R(t)>=1`, hence to
 Thus cutoff-35 elimination may be sharded into exactly `3(n-s-1)` independent
 blocks of degree at most `n/2`, with each block carrying its own scalar
 Bezout/invariant-factor certificate and checkpoint. The total degree remains
-`(n-1)(n-2)`: this theorem does not prove a fast algorithm, identify
+`(n-1)(n-2)`. A resource pilot must include a maximum-degree block and should
+balance production shards by algebraic degree rather than block count;
+low-degree blocks alone cannot calibrate the dominant workload. These are
+exact scheduling consequences, not complexity bounds. This theorem does not
+prove a fast algorithm, identify
 prime-adic valuations across blocks, factor any `s_O,35`, bound the survivor
 moment, or close C36'.

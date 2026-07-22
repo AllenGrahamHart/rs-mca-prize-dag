@@ -107,7 +107,7 @@ requests for contributors with available compute.
 | priority | request | readiness | contributor action | current authorization |
 |---|---|---|---|---|
 | P1 | CR-002 quotient-pencil rank-two classification | matched `c=0` and generic `c=1` norm contracts are complete; c2 parity shares them conditionally on C2-PAR; minimum support in the one-antipodal route is reduced to one explicit pair-collision curve; compressed implementations and pilots are missing | screen the `M=2^35` top norm and 36-level tower first; use `CR-002-C2CELL-COLL` for the separate one-pair design request | algorithm request only; cost unknown |
-| P2 | CR-001 H3 high-excess certificate | blocks are formula-generated; a complete dense `n=8` Taylor conformance oracle is banked; sparse/distributed implementations and comparative cost pilots are missing | first match the `n=8` hashes and support sets, then compare Smith, Taylor cutoffs `2<=c<=35`, and three-resultant screening on larger complete orders; evaluate `(36,1)` only on retained official primes | no large run; cost unknown |
+| P2 | CR-001 H3 high-excess certificate | blocks are formula-generated; a complete dense `n=8` Taylor conformance oracle is banked; sparse/distributed implementations and comparative cost pilots are missing; the maximum-degree class carries `75.009%` of degree at `n=8192` | first match the `n=8` hashes and support sets, compare Smith, Taylor cutoffs `2<=c<=35`, and three-resultant screening on complete small orders, then exercise a maximum-degree block before pricing production; evaluate `(36,1)` only on retained official primes | external pre-request only; no large run; cost unknown |
 | P3 | CR-003 rate-half Hankel sharp-cap classification | the official distance-three chart is theorem-closed; live proof surfaces are the strict/half-distance `A=3` profiles, the high quotient-distance `A=1` tail, and other `A=1` component faces; `CR-003-CLIFT` is optional analogue auditing only | build coverage-complete symbolic compilers and measured pilots for one live face before pricing a run; do not launch distance-three support, pairing, tail, circuit, static-gcd, residual-pencil, or quartic-map fleets | pre-request only; raw census unauthorized |
 | P4 | CR-004/CR-004-X6 WCL ten-slot classification | all ten cells are machine-enumerated; all have fixed unit-ideal endpoints; 934 powered samples across four cells found zero events but prove no subtraction | compute replayable modular unit bases and integer certificates, starting with the smallest `(1,5)` endpoint; do not scale the sample screens into blind fleets | external request only; do not duplicate expansion or support fleets |
 
@@ -1585,6 +1585,14 @@ sweep.
   and shard only its unpaid role/support cells. Emit wild divisors under a
   separate flag. Enumerating tame quotient coefficients or additive shifts is
   forbidden because the proved census already removes that axis.
+- **identity-endpoint exclusion:** apply
+  `l1_identity_pullback_role_payment_fence`. At `s=1`, the pullback quotient
+  list is exactly the original L1 list, with singleton fibers and
+  `kappa=z=0`. A contributor campaign must either (a) restrict its executable
+  residual to `s>=2` and state that it cannot close L1, or (b) name a separately
+  proved global exact-shell/Toeplitz theorem that pays `s=1`. No large run may
+  enumerate identity-map role vectors or present their classification as a
+  reduction; that is a computational restatement of the target.
 - **owner guard:** do not label a tame refinement exact-periodic merely because
   one source petal is a union of complete polynomial fibers. The exact
   `F_17^*` obstruction has trivial stabilizer on the complete agreement
@@ -1839,9 +1847,125 @@ sweep.
   received words by degree-below-`k` shifts before sharding, since the
   Toeplitz window is proved invariant under those shifts. Do not repeatedly
   interpolate supports or materialize barycentric denominators.
-- **cofactor-prefix representation:** for `0<=e<k`, also consume
-  `l1_cofactor_prefix_pade_graph_normal_form`. Reverse the high coefficients
-  and represent all possible targets at once by
+- **cofactor-prefix representation:** for `0<=e<k`, first consume
+  `l1_official_newton_cofactor_window_router`. Normalize the received
+  polynomial, record `h`, and put `a_0=k+ell_0-1`. If
+  `h-a_0<=p-ell_0`, use the first `d=min(a,h-k)` power sums or locator
+  coefficients interchangeably; the target change is proved bijective
+  because `d<p`. This covers at least the 3,175 layers
+  `0<=h-a_0<=3174`, and every word when `p>=n-k`. Do not schedule separate
+  Newton-cycle or locator-versus-power-sum jobs in this scope. The run must
+  still test max-fiber concentration or collective graph intersection.
+  Outside the ordinary Newton window, consume
+  `l1_official_frobenius_checkpoint_q_router`: retain p-free power sums and
+  the elementary coordinates at indices divisible by `p`. There are at most
+  23 such checkpoints over the complete official degree range. Then consume
+  `l1_official_coarse_pfree_entropy_reserve`: at every checkpoint depth the
+  coarse ambient average is below `2^-28276`, and the finite sufficient
+  target is coarse max-to-average inflation `K_d<=q 2^28148`. Report this
+  ambient ratio directly. An image-normalized ratio is not interchangeable
+  and must print the effective-image factor. The sharper generated-field
+  calculation accepts an exactly owner-pruned F2-shaped bound
+  `max Exc_d<=2^(15(d-r))mu_free(d)` and then forces every extras count below
+  `2^-3393`, hence to zero; it does not apply to the full nonempty fiber.
+  Sixteen bits per condition are not certified by the same coarse
+  inequalities. A contributor may test this 15-bit statistic only after
+  implementing a uniform arbitrary-target received-word/Pade owner and exact
+  structured subtraction; the F2 zero-target sector is not a conformance
+  substitute.
+  Also consume `l1_coarse_pfree_wronskian_distance_packing` before launching
+  any residual census. For each `(n,a,d)` cell, print the exact theorem cap
+  `floor(binom(n,s)/binom(a,s))`, where
+  `s=a-ceil((d+2)/2)+1` (and `s=floor((a+k)/2)` in the scalar L1
+  specialization), together with the allocated row numerator. Discard cells
+  already paid by this cap. The surviving computation must study whether
+  far-separated families approach or exceed the required payment after the
+  declared Pade/first-owner subtraction. Do not enumerate close pairs or
+  spend a fleet verifying the proved distance inequality.
+  Interpret this prefilter correctly. If `a+k>=n` and `n-a>=128`, its cap is
+  provably above the official numerator, so no computation should present it
+  as a row payment. If checkpoints are retained and the run is on exact
+  mixed/Pade fibers, use the stronger existing `d+1` codeword-distance bound
+  and the decorated shift-pair compiler instead. Contributor compute has
+  value only after choosing one of these two typed lanes and measuring its
+  genuinely unpaid concentration.
+  For the coarse lane, implement the exact output schema supplied by
+  `l1_coarse_pfree_wronskian_neighbor_compiler`: first compute
+  `tau_p=max(ceil((d+2)/2),min(d+1,p))` and reject every proposed record with
+  `t<tau_p`. For each surviving record `(t,j,X,W)`, where
+  `j=t-ceil((d+2)/2)`, verify `deg W<=2j+(d mod 2)`, verify that `W` is nonzero on
+  both tails, and canonicalize the first owner. Aggregate by
+  `(row,owner,j,W)` and report the maximum number of distinct exchanged
+  subsets `X`; the opposing tail has proved multiplicity one and must not be
+  an independent shard axis. Compare this observed exchange multiplicity to
+  both the allocated numerator and the exact `R_q(t,D)` certificate census.
+  Large contributor runs should prioritize the smallest **admissible** `j`
+  strata (at checkpoint depth, `t>=p>n/24`), retain
+  partial per-owner maxima and witnesses, and stop before materializing all
+  `binom(a,t)` subsets. Their decision target is a compression law in `X`,
+  not another coarse-fiber census.
+  Special-case the first-checkpoint minimum width before that generic schema.
+  For `p<=d<=2p-2` and `t=p`, consume
+  `l1_official_first_checkpoint_split_pencil_reduction` and represent every
+  record by `(Q,b,c)` in
+  `F_X=Z^p+Q+b`, `F_Y=Z^p+Q+b+c`, with
+  `deg Q<=r_d=2p-d-1`. Compute
+  `r_*(p,n)=floor((p(p-1)-1)/(n-1))` from the exact row and reject every depth
+  with `r_d<=r_*` outright: its `t=p` stratum is proved empty. Use
+  `floor(11(p-1)/256)` only as a family-wide fallback. At `p=3583` the
+  fallback removes caps through `153`; for the control size `n=8192`, the
+  exact row cutoff is `1566`. Then consume
+  `l1_official_split_pencil_value_capacity`: each fixed normalized `Q` has at
+  most `floor(n/p)<=23` fully split values and at most 253 unordered fiber
+  pairs. For lower depths, shard a contributor run only by canonical
+  affine/scaling orbit of `Q` and first owner, recover the bounded split-value
+  list within that record as
+  `G_Q(T)=gcd_Zcoeff((Z^n-alpha) mod (Z^p+Q-T))`, and checkpoint completed
+  degree and orbit blocks. Emit the at-most-24-column coefficient-matrix rank,
+  `G_Q`, its roots, and direct divisibility checks. Rank at least
+  `floor(n/p)` rejects a pair; low rank without `deg G_Q>=2` is not a hit.
+  Do not launch a `t=p` shard at all when `2p>n`. When `2p<=n<3p`, the proved
+  complement-gap theorem additionally rejects `deg Q<3p-n`, equivalently
+  every depth `d>=n-p`; at `(8192,3583)` the first retained depth is below
+  `4609`, not below the weaker ratio-only boundary `5599`.
+  In this `m=2` band, consume the exact polynomial-abc classification. If
+  `n-2p>2`, the stratum is empty. If `n-2p=2`, it consists of exactly `n/2`
+  antipodal pairs with `C=Z^2-b` and
+  `R=ZC^((p-1)/2)`. No `m=2` complement or `Q` compute request remains.
+  Before requesting any checkpoint compute, consume
+  `l1_official_checkpoint_characteristic_atlas/checkpoint_atlas.tsv`. Of its
+  59 exact pairs, 33 `m=1` rows are theorem-empty and must not be launched;
+  six broad `m=2` rows are theorem-empty, four `m=2` rows are explicit, and
+  only 16 rows initially have `m>=3`. A PR compute request must print the
+  exact atlas tuple `(s,n,p,ord,m,remainder)`.
+  Do not request minimum-width compute for any `m<=2` tuple.
+  Also consume `l1_official_max_split_value_complement_census`. Do not request
+  `h=m=deg G_Q` compute on any of the 16 rows; polynomial abc proves those
+  strata empty at every depth. Also consume
+  `l1_official_broad_checkpoint_frobenius_periodicity_exclusion`: all seven
+  rows with `remainder>16` have no pair at all, so no `t=p` request remains
+  there. Only the nine rows `n=m(p+1)`, `m in {4,8,16}`, are eligible for a
+  lower-`h` pre-request. Such a proposal must print
+  `2<=h<=m-1`, its depth interval, and
+  `ell_h=n-hp-d+p`, together with the depressed-pencil valuation bounded by
+  `n-(h+1)p`. The proved complement compiler replaces the normalized
+  `Q` axis by at most
+  `floor(binom(n,ell_h)/binom(n-hp,ell_h))` complements, but that is not an
+  authorization to enumerate them when `ell_h` grows. A request still needs
+  a further completeness-preserving compression, a measured cost ceiling,
+  and the theorem decision changed by each output. Until those fields exist,
+  the lower-`h` search is a research pre-request rather than an authorized
+  local or Modal run.
+  The decision target is a row-sharp split-pencil census or a further
+  structural owner; do not shard over `(b,c)` or expand the same records into
+  arbitrary exchanged subsets or Wronskian coefficients.
+  Shard by attained checkpoint
+  vectors only if a declared first-owner/Pade aggregation recombines them;
+  otherwise test the coarse fiber as one object. Do not launch independent
+  jobs over either the ambient `q^r` checkpoint space or an unaggregated list
+  of attained vectors.
+  Then consume `l1_cofactor_prefix_pade_graph_normal_form`. Reverse the high
+  coefficients and represent all possible targets at once by
   `Lhat=Uhat/Qhat mod T^(a-k+e+1)`. The first `e` locator coefficients are
   free, the final `a-k` are determined, and `Qhat` is recovered uniquely by
   truncated division. Enumerate or bound the intersection of this graph with
@@ -2001,6 +2125,34 @@ sweep.
   `2^f | Norm` transfer. The valid large-compute endpoint is the exact
   blockwise candidate support and survivor census specified below.
 - **consumer:** `f3_h3_mobius_excess_half` (C36').
+
+### External contributor work packages
+
+These packages record valuable work that exceeds or lacks a reliable estimate
+under the local five-minute and sub-`$1` policy. They are copy-ready as
+**Compute requests** in a future H3/shift-pair PR, but none is currently an
+authorized local run.
+
+| package | mathematical decision | readiness and promotion gate | DAG effect |
+|---|---|---|---|
+| `CR-001-ALG-PILOT` | Which of orbitwise Smith/subresultant, Taylor-content cutoff `2<=c<=35`, or the three-resultant superset has a credible official-scale implementation? | reproduce every `n=8` hash/support set; compare at least two methods on one complete larger toy order; include one maximum-degree block; print peak RAM, CPU time, wall time, artifact bytes, factor burden, retries, and a conservative dollar ceiling | route selection only; no status change |
+| `CR-001-N8192` | At the first official order, what is the complete cutoff-35 support and does the exact `(36,1)` survivor moment pass? | promote only after `CR-001-ALG-PILOT` supplies a bounded launcher and independent checker; cover all `24,534` block IDs and all retained official-range primes | PASS proves only the fixed `n=8192` shard; endpoint failure kills only `(36,1)` unless an actual DSP8 violation is emitted |
+| `CR-001-ALL` | Does one proved uniform generator certify the selected endpoint over all `13<=s<=41`? | promote only after a complete fixed-order campaign validates scaling, resumability, support deduplication, and certificate size; price each order before launch | complete PASS discharges the selected C36' alternative; incomplete output is evidence only |
+| `CR-001-P24` | Is `max_(t!=1)P(t)<=24` on every official row? | compare the unordered cutoff-12, exact P25 subresultant, divisor tower, and ordered-root tower only through measured pilots; no full system before one route has a certificate and cost ceiling | PASS closes DSP8 by vacuity; one `P>=25` witness retires only this satellite |
+
+The orbit workload is not uniform. For the top `r` degree classes,
+
+```text
+C_r=3(n(1-2^(-r))-r),
+D_r=n^2(1-4^(-r))-3n(1-2^(-r)).
+```
+
+At `n=8192`, the degree-`4096` class contains `12,285` blocks and degree
+mass `50,319,360`: `50.073%` of blocks but `75.009%` of total degree. The
+top two classes contain `75.104%` of blocks and `93.757%` of degree. Thus a
+low-degree-only pilot is invalid, equal-block-count sharding is misleading,
+and production shards must be balanced by measured work or at least algebraic
+degree. Degree is still not an operation-count estimate.
 
 ### CR-001-P24 satellite: vacuous DSP8 certificate
 
@@ -2357,7 +2509,11 @@ materially faster and still emits a replayable unit-ideal certificate.
   supports. Duplicate primes across blocks must be deduplicated; the radical
   theorem does not permit adding their valuations. Total algebraic degree is
   unchanged, so this is a memory/resume contract, not a runtime or dollar
-  estimate.
+  estimate. The exact top-class formulas above show that the degree-`4,096`
+  class carries `75.009%` of total degree, while the top two classes carry
+  `93.757%`. Every resource pilot must therefore include a maximum-degree
+  block, and every production schedule must avoid balancing by block count
+  alone.
 - **proved formula-generated block manifest:** no quotient-orbit enumeration
   is needed. For each `1<=j<=s-1`, put `L=2^(j+1)` and
   `S_w(Z)=1+Z+...+Z^(w-1)`. The complete canonical IDs are
@@ -3060,8 +3216,9 @@ materially faster and still emits a replayable unit-ideal certificate.
   every `c_O,c` at one fixed `2<=c<=35`, or every `g_O`), and the one-lift
   degree-eight/six packet.
   A pilot must first measure wall time, peak remote RAM, artifact volume, and
-  dollars on a strictly smaller complete order; until then total cost is
-  unknown and no local Modal launch is authorized. Completed shards must
+  dollars on a strictly smaller complete order and on a maximum-degree block;
+  success on low-degree blocks alone is not a scaling datum. Until then total
+  cost is unknown and no local Modal launch is authorized. Completed shards must
   stream completed `(j,sign,w)` blocks, invariant-factor or Bezout witnesses,
   candidate factors, targetwise `P,R,N_6^disj`, class, `S_D`, canonical coupling,
   hashes, and unresolved block identifiers, so interruption

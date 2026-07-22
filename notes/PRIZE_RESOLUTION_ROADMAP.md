@@ -138,6 +138,147 @@ identifications without a machine-verified chain.
   The proved `l1_exact_shell_fixed_cofactor_prefix_transport` further splits
   this target by `e=deg(U)-a`. The top shell `e=0` is exactly one locator-Q
   atom. Each `e>0` is at most `q^e` depth-`w+e` locator-prefix atoms.
+  The proved `l1_official_newton_cofactor_window_router` makes the power-sum
+  overlap exact on a large finite range. The strict field cap and
+  `8192|p^f-1` force `p>=3583`, while the canonical reserve gives
+  `p-ell_0>=3174`. For normalized degree `h`, every shell above
+  `a_0=k+ell_0-1` is Newton-safe whenever
+  `h-a_0<=p-ell_0`; this covers 3,175 excess layers uniformly and all words
+  if `p>=n-k`. In that scope, locator-prefix Q and power-sum Q are the same
+  target fibers. The router removes small-characteristic cycle bookkeeping,
+  not the row-sharp max-fiber or collective Pade-graph theorem, and it does
+  not turn the special F2 summit into general Q.
+  The follow-on `l1_official_frobenius_checkpoint_q_router` removes the depth
+  restriction without hiding a cycle loss. The cap implies
+  `p>=11n/256>n/24`, so every depth has at most 23 characteristic multiples.
+  Keeping p-free power sums and replacing each divisible-index sum by the
+  corresponding elementary coefficient is triangularly equivalent to the
+  full locator prefix. The all-depth target has two exact forms: **flatness
+  of the larger coarse p-free Q fiber**, which transfers to each mixed fiber
+  with zero checkpoint loss, or **conditional flatness with checkpoint values
+  coalesced by the realized Pade owner**. A raw union over all checkpoint
+  vectors costs `<n^453`, preserving qualitative polynomiality, but cannot
+  certify the finite `q/2^128` threshold once even one checkpoint is present.
+  This is theorem work, not a useful large-compute request.
+  The proved `l1_official_coarse_pfree_entropy_reserve` then shows that the
+  stronger coarse route is not average-obstructed. The first checkpoint is at
+  least 3,175 layers beyond `d_0=ell_0-1`; four-rate binomial growth, the
+  field-order lower bound, and the 23-checkpoint cap give
+  `mu_free(d)<2^-28276`. Therefore ambient max-to-average inflation
+  `K_d<=q 2^28148` already implies the finite target. The remaining
+  checkpoint-depth theorem is this loose coarse inflation bound, or an
+  owner-sensitive conditional Pade bound; image-normalized Q must still print
+  its effective-image conversion.
+  Sharpening with `q=p^f`, `f>=2` on every active checkpoint, and
+  `d_0<=ceil(5(p+1)/44)` proves that an exactly owner-pruned F2-shaped
+  residual with `max Exc_d<=2^(15(d-r))mu_free(d)` lies below `2^-3393` and
+  is empty; the same coarse inequalities do not certify 16 bits per
+  condition. This statement must not be applied to the full nonempty fiber.
+  F2's printed constant is sufficient only after transport. The live gap is
+  exact: replace its zero target, structured-extras subtraction, and
+  Frobenius-sector owner by a uniform arbitrary-target subtraction with the
+  received-word/Pade first-owner interface.
+  The proved `l1_coarse_pfree_wronskian_distance_packing` supplies the first
+  target-uniform maximum theorem on the resulting coarse fibers. Equality of
+  p-free moments through depth `d` forces disjoint-tail width at least
+  `ceil((d+2)/2)`, hence every `a`-set fiber is bounded by
+  `floor(binom(n,s)/binom(a,s))` with
+  `s=a-ceil((d+2)/2)+1`; for scalar L1, `s=floor((a+k)/2)`. This deletes all
+  close-pair concentration and should be prepaid before any shift-pair
+  analysis or compute. It does not finish U2-G because the exact packing cap
+  can remain exponential at linear density. The positive residual is now
+  narrower: prove owner-aware shift-pair/exchange compression for a
+  far-separated coarse fiber, or show that the printed row numerator already
+  pays the cap.
+  The exact endpoint diagnosis prevents overclaiming this route. When
+  `a+k>=n`, the packing quotient is at least `2^(n-a)`; because
+  `q<2^256`, it cannot by itself certify a finite prize cell with
+  `n-a>=128`. Conversely, on a full mixed locator prefix the ordinary
+  codeword argument already gives tail width `d+1`, stronger than the coarse
+  half-depth result. Keep the two successors distinct: build a new
+  p-free-moment exchange theorem for the zero-loss coarse route, or use the
+  existing decorated shift-pair/Pade compiler after retaining checkpoints.
+  The proved `l1_coarse_pfree_tame_tail_distance_upgrade` sharpens the coarse
+  endpoint before that choice. If `t<p`, the Wronskian has degree at least
+  `t-1`; combined with its upper degree this gives
+  `t>=tau_p=max(ceil((d+2)/2),min(d+1,p))`. Hence the ordinary Newton window
+  has full `d+1` distance, and every official checkpoint collision exchanges
+  at least `p>n/24` roots. The strict endpoint is necessary (`F_4` at
+  `t=p`), so all successor theory and compute must start at `tau_p`.
+  The proved `l1_official_first_checkpoint_split_pencil_reduction` then
+  classifies the minimum width throughout `p<=d<=2p-2`: the two tails are
+  split fibers of `Z^p+Q`, with `deg Q<=2p-d-1`. At `d=2p-2`, those fibers
+  are affine `F_p`-lines and are excluded by their ratio set. The
+  nonzero-fiber multiplicity bound gives the exact row cutoff
+  `r_*(p,n)=floor((p(p-1)-1)/(n-1))`: if
+  `r_d=2p-d-1<=r_*`, then
+  `|X/X|>=1+ceil((p^2-p)/r_d)>n`. Hence the final `r_*` depths start at width
+  `p+1`. The official relation `11n<=256p` guarantees
+  `r_*>=floor(11(p-1)/256)`, but use the exact row value. At lower depths the
+  remaining object is an exact higher-degree Frobenius split-pencil census.
+  The proved `l1_official_split_pencil_value_capacity` removes one more axis:
+  for fixed normalized `Q`, distinct split values have disjoint `p`-point
+  fibers, so there are at most `floor(n/p)<=23` values and at most 253
+  unordered fiber pairs. Treat the residual as a census of normalized `Q`
+  records with a bounded value payload. That payload is recovered exactly as
+  the squarefree gcd of the coefficient remainders of
+  `(Z^n-alpha) mod (Z^p+Q-T)`; its `T`-degree is at most 23, and pair
+  existence forces a rank defect in a `p` by at-most-24 matrix. This is the
+  typed overlap with the split-pencil lane before generic exchange
+  compression. Before retaining any such record, apply the low-complement
+  closure: `2p>n` admits no pair, while `2p<=n<3p` forces
+  `deg Q>=3p-n` and removes all first-checkpoint depths `d>=n-p`. At
+  `(n,p)=(8192,3583)`, this starts the closed band at `4609` instead of the
+  ratio-only `5599`. The number of `Q` records in the surviving band remains
+  the theorem-level gap in general. In the `m=2` band it has a sharper form:
+  the `s=n-2p` point complement locator `C` uniquely reconstructs a pair
+  exactly when `(Z^n-alpha)/C=R^2+c` with `c` a nonzero negative square.
+  Polynomial abc, with the Frobenius-degenerate branch retained, then forces
+  `s=2`. Every broad `m=2` row is empty at `t=p`; at `s=2`, the complement is
+  antipodal and the exact pair count is `n/2`, occurring only at depths
+  `p,p+1`.
+  The proved `l1_official_checkpoint_characteristic_atlas` makes this a
+  finite family: only 59 `(n,p)` pairs can have `p<n`; 33 have `m=1` and are
+  empty at `t=p`, 10 have `m=2`, and 16 have `m>=3`. Every successor theorem
+  or compute request must name one of these atlas rows rather than range over
+  arbitrary characteristics or all formal checkpoint counts through 23.
+  Among the ten `m=2` tuples, six are theorem-empty and four have the explicit
+  `n/2` family. No `m<=2` minimum-width compute target remains; only the 16
+  `m>=3` atlas tuples retain the general eliminant problem. Within those 16,
+  consume `l1_official_max_split_value_complement_census` before retaining a
+  frontier. At actual value degree `h`, put `u=n-hp` and
+  `ell_h=u-d+p`; that many complement roots determine the normalized pencil,
+  giving at most
+  `binom(h,2)floor(binom(n,ell_h)/binom(u,ell_h))` unordered pairs. This is
+  an exact compression but not a polynomial payment when `ell_h` grows. At
+  value capacity, polynomial abc forces
+  `(n-mp)(-m^(-1) mod p)<=p`; all 16 rows violate the inequality, so `h=m`
+  is empty at every depth. The precise surviving minimum-width object is now
+  `2<=h=deg G_Q<=m-1`; on all four `m=3` rows it is exactly `h=2`.
+  Every lower-`h` record has depressed-pencil valuation
+  `ord_0(R)<=n-(h+1)p`; in particular `h=m-1` gives `ord_0(R)<=n-mp`.
+  Next consume
+  `l1_official_broad_checkpoint_frobenius_periodicity_exclusion`. Prime-field
+  Frobenius closure of the signed-support Fourier zeros gives even period on
+  every one of the seven rows with `n-mp>16`, contradicting the odd sign
+  support size `p`. Their complete `t=p` strata are empty. The exact residual
+  is only nine rows of shape `n=m(p+1)`, `m in {4,8,16}`, with
+  `2<=h<=m-1`.
+  Stratify by `h`, `ell_h`, and this valuation; do not describe or compute
+  the endpoint as one undifferentiated higher-multiplicity family or
+  enumerate the raw complement bound when its exponent grows.
+  The coarse successor is further compiled by
+  `l1_coarse_pfree_wronskian_neighbor_compiler`. Once an exchanged anchor
+  subset `X` is fixed, its Wronskian determines the opposing tail uniquely.
+  At formal half-depth excess `j`, certificate degree is at most `2j` for
+  even prefix depth and `2j+1` for odd depth, but the admissible range starts
+  at `j=tau_p-ceil((d+2)/2)`; the exact full-support certificate count is
+  `R_q(t,D)=sum_i (-1)^i binom(t,i)q^max(D+1-i,0)`. The resulting neighbor
+  theorem leaves exactly the `binom(a,t)` exchange-subset axis. At deployed
+  linear width that axis is still exponential, so U2-G's next positive
+  coarse theorem should bound the number of `X` compatible with one
+  low-degree certificate and first owner. Do not spend theory or compute on
+  multiplicity after `(X,W)`, which is now one.
   `l1_cofactor_depth_budget_cancellation` corrects the accounting: for
   `e<k`, the `q^e` factor cancels exactly against the `e` additional prefix
   equations under an ambient-normalized deeper-depth bound. Under upstream's
@@ -364,11 +505,22 @@ identifications without a machine-verified chain.
   whole source petal fixes at most one degree-`s` partition up to shift, and
   all such classes cost at most `M tau(ell)<=n`. The exact local residual is
   now: pay the `n/s` fiber roles collectively at small tame scales; treat
-  genuinely wild and unanchored maps; pay growing signed
+  unanchored maps; pay growing signed
   layout/core-defect/petal polarity; and handle arbitrary petal locators
   outside one common pencil. Dense support on a source petal is not sufficient
-  to supply the anchor. The `F_9` additive right-component fixture proves that
-  wild uniqueness needs extra multiplicative-domain geometry.
+  to supply the anchor. The `F_9` additive right-component fixture remains a
+  valid guard outside the official cutoff. The proved
+  `l1_official_reserve_tame_refinement_router` removes its wild branch from
+  the actual consumer: at the least reserve-qualified threshold,
+  generated-field order arithmetic and the `<2^256` cap give
+  `ell<char(F)`, so every fixed-petal refinement is tame. This completely
+  pays map supply, not the remaining fiber roles. The proved
+  `l1_identity_pullback_role_payment_fence` then prevents that residual from
+  being mistaken for a smaller local problem: at `s=1`, `P=X`, the quotient
+  receiver and code are the original L1 instance, with `kappa=z=0`, and every
+  petal is automatically anchored. Therefore an `s>=2` refinement theorem is
+  useful branch removal but cannot close L1; the global exact-shell/Toeplitz
+  theorem remains mandatory for the identity endpoint.
   `l1_tame_refinement_periodic_owner_obstruction` separately proves that tame
   map supply does not imply intrinsic quotient payment: an exact `F_17^*`
   chart has a complete affine-quadratic source petal and an aperiodic full
@@ -402,15 +554,16 @@ identifications without a machine-verified chain.
   residual. With `z` agreements outside fully agreed complete fibers,
   `h_Z=ceil((k+ell-1-Z)/s)`, and sparse-coverage exponent `kappa`, every
   `z<=Z`, `h_Z^2>b(ceil(k/s)-1)` cell costs at most `q^kappa b^2` per map.
-  Fixed `kappa` is polynomial across all tame anchored maps. The exact
-  pullback frontier is therefore the nonpositive gate, unbounded `kappa`,
-  wild decomposition, or missing whole-petal anchor.
+  Fixed `kappa` is polynomial across all tame anchored maps. The theorem's
+  abstract frontier retains the nonpositive gate, unbounded `kappa`, wild
+  decomposition, or missing whole-petal anchor; the official-reserve router
+  removes the anchored wild case on the consumer scope.
   `l1_pullback_coverage_kernel_tradeoff` then removes `kappa` as a separate
   mechanism: exactly `kappa=max(0,k-sb)`, and every listed word satisfies
   `kappa<=max(0,z-ell+1)`. Hence `z<=ell-1+K` automatically supplies the
-  router's `kappa<=K` hypothesis. The exact pullback frontier is now the
-  nonpositive Johnson gate, growing partial-loss excess, wild decomposition,
-  or missing whole-petal anchor.
+  router's `kappa<=K` hypothesis. The exact official pullback frontier is now
+  the nonpositive Johnson gate, growing partial-loss excess, or missing
+  whole-petal anchor.
 
   The proved `l1_maximal_background_anchor_injection` now supplies the local
   U2-L cell currency: every exact support cell costs at most
@@ -1496,6 +1649,41 @@ weight `R(t)`. The remaining analytic task is a smooth quotient-weighted
 moment plus the bounded bands `25<=P<=32` and `25<=P<=34`, respectively.
 This is a structural reduction, not a DSP8 close; no broad point sweep is a
 proof of either remaining term.
+
+The paired-PGL2 route has also been repriced at the actual consumer. Writing
+`P=I_inv` and `R=I_aff-1`, the formerly posed global score cap `39` closes
+the stronger M35 route. The exact pointwise C36' target is
+
+```text
+I_inv>=19  =>  I_aff<=18.
+```
+
+A convenient stronger scalar certificate is
+
+```text
+P>=19  =>  I_inv+2I_aff<=56.
+```
+
+This forces `R<=17`, whence `17X_18<289n^2`. Threshold `57` admits the
+boundary profile `(P,R)=(19,18)`, so `56` is sharp among constant-score caps
+implying the rectangle, but over-solves profiles with `P>19`. The theorem
+search should target the gcd-degree rectangle implication before the CR-001
+fleet; it has no fixed-order elimination dependency. Both the implication and
+the scalar cap remain open.
+
+The fixed-order fallback is now an explicit external-compute ladder rather
+than a local campaign. The quotient-orbit decomposition proves that at
+`n=8192` the maximum-degree class contains `12,285` of `24,534` blocks and
+`75.009%` of total algebraic degree; the top two classes carry `93.757%`.
+Consequently a low-degree pilot cannot price CR-001. The responsible order is
+`n=8` conformance, a complete larger toy comparison, one maximum-degree
+block, then a separately approved fixed-order campaign, and only then an
+all-29-order request. Every stage needs a streaming certificate checker and
+an external CPU/RAM/time/storage/dollar ceiling. No CR-001 production run is
+authorized against the remaining local Modal credit. The exact packages are
+`CR-001-ALG-PILOT`, `CR-001-N8192`, `CR-001-ALL`, and `CR-001-P24` in the
+compute ledger; future H3/shift-pair PRs should copy them as contributor
+requests.
 
 The vacuous `P<=24` satellite also has a quotient-free exact candidate
 compiler. The monic unordered shifted-product polynomial satisfies

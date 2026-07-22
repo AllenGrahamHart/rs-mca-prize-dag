@@ -33,6 +33,15 @@ def expected_histogram(exponent: int) -> Counter[int]:
     return Counter({2**j: 3 * (2**j - 1) for j in range(1, exponent)})
 
 
+def top_workload(exponent: int, levels: int) -> tuple[int, int]:
+    order = 2**exponent
+    blocks = 3 * (order - order // (2**levels) - levels)
+    degree = order**2 - order**2 // (4**levels) - 3 * (
+        order - order // (2**levels)
+    )
+    return blocks, degree
+
+
 def direct_histogram(exponent: int) -> Counter[int]:
     order = 2**exponent
     units = tuple(range(1, order, 2))
@@ -83,6 +92,19 @@ def orbit_check() -> None:
     assert sum(expected.values()) == 24_534
     assert max(expected) == 4_096
     assert sum(size * count for size, count in expected.items()) == 67_084_290
+    assert top_workload(exponent, 1) == (12_285, 50_319_360)
+    assert top_workload(exponent, 2) == (18_426, 62_896_128)
+
+    for levels in range(1, exponent):
+        selected = {
+            size: count
+            for size, count in expected.items()
+            if size >= 2 ** (exponent - levels)
+        }
+        assert top_workload(exponent, levels) == (
+            sum(selected.values()),
+            sum(size * count for size, count in selected.items()),
+        )
 
 
 def support_union_check() -> None:
@@ -123,6 +145,10 @@ def packet_check() -> None:
         "3(n-s-1)",
         "24,534",
         "4,096",
+        "12,285",
+        "50,319,360",
+        "62,896,128",
+        "maximum-degree block",
         "rad(s_(n,35)^X)=rad(product_O s_O,35)",
         "total degree remains",
         "does not identify",
@@ -136,7 +162,8 @@ def main() -> None:
     packet_check()
     print(
         "F3_H3_QUOTIENT_GALOIS_ORBIT_SCALAR_DECOMPOSITION_PASS "
-        "n8192_orbits=24534 max_degree=4096 total_degree=67084290"
+        "n8192_orbits=24534 max_degree=4096 total_degree=67084290 "
+        "top1_blocks=12285 top1_degree=50319360 top2_degree=62896128"
     )
 
 

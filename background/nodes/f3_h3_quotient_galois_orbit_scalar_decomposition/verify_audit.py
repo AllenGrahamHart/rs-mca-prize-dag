@@ -16,6 +16,12 @@ def main() -> None:
     assert histogram[2] == 3
     assert 1 not in histogram
     assert max(histogram) == order // 2
+    top_blocks, top_degree = verify.top_workload(exponent, 1)
+    total_blocks = sum(histogram.values())
+    total_degree = sum(size * count for size, count in histogram.items())
+    assert top_blocks * 2 > total_blocks
+    assert top_degree * 4 > 3 * total_degree
+    assert top_degree != top_blocks * 2
 
     ordered_total = (order - 1) * (order - 2)
     diagonal_included = (order - 1) ** 2
@@ -27,7 +33,7 @@ def main() -> None:
 
     print(
         "F3_H3_QUOTIENT_GALOIS_ORBIT_SCALAR_DECOMPOSITION_AUDIT_PASS "
-        "mutations=6"
+        "mutations=9"
     )
 
 

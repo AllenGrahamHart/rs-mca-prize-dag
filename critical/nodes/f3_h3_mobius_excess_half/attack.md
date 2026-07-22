@@ -209,6 +209,51 @@ PGL2 intersections sharing the same parameter. Boundary measurements give
 `max(I_inv+2I_aff)<=30` on the first twelve `n=8192` rows and first four
 `n=16384` rows. These measurements are route evidence only.
 
+The exact paired pointwise target is
+
+```text
+I_inv(t)>=19  =>  I_aff(t)<=18,                   (PAIR-RECT)
+```
+
+equivalently `P(t)>=19 => R(t)<=17`. A convenient stronger scalar target is,
+only on the locus `P(t)=I_inv(t)>=19`,
+
+```text
+I_inv(t)+2I_aff(t)<=56.                            (PAIR56)
+```
+
+Indeed this forces `I_aff<=18`, hence `R<=17`, and the cheap paired
+sufficient condition above closes C36'. Threshold `57` admits the boundary
+profile `(P,R)=(19,18)`, so `56` is sharp among constant-score caps implying
+`(PAIR-RECT)`. It is not equivalent to the rectangle when `P>19`; theorem
+work should target `(PAIR-RECT)` first. The measured maximum score `34` is 22
+units below this convenient cap and five below the stronger M35 cap `39`.
+
+The same node gives a single moving-polynomial normal form. With
+
+```text
+A_t=(1-t+tZ)^n-1,
+C_n=Z^n-(Z-1)^n,
+D_n=Z^n-1,
+```
+
+the score is exactly
+
+```text
+deg gcd(A_t,C_n)+2deg gcd(A_t,D_n).
+```
+
+Thus `(PAIR-RECT)` is the joint subresultant implication
+
+```text
+deg gcd(A_t,C_n)>=19  =>  deg gcd(A_t,D_n)<=18.
+```
+
+It concerns one affine member of a binomial pencil against two fixed
+squarefree PGL2 root sets. A useful algebraic proof must control the two gcd
+degrees jointly; separate marginal Stepanov bounds still grow with `n` and do
+not prove the implication.
+
 A wider bounded sweep (`ap-bHp1Epb9jC5BdW4xeXfB7l`) exhaustively checked
 7,090 admissible rows at powers of two `64<=n<=4096`. The largest paired score
 was `I_inv+2I_aff=34`, no row had `X_35>0`, and the largest non-swap moment was

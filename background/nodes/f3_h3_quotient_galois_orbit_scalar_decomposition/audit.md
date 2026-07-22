@@ -18,3 +18,7 @@
    `Z[1/2]` at bad resultants.
 8. Sharding bounds block degree and memory ownership but leaves total degree
    unchanged. No dollar or runtime estimate follows without a pilot.
+9. Block counts are not a sound load-balancing proxy. At the first official
+   order, the maximum-degree class is just over half the blocks but about
+   three quarters of the degree mass. A useful pilot must exercise that
+   class; success on only the small classes is not a resource estimate.

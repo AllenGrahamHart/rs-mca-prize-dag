@@ -163,11 +163,51 @@ additive constant. Hence all tame refinement-map classes in the fixed source
 number at most `M tau(ell)<=n`.
 
 This does not promote the node. At small `s`, a known partition still has
-`n/s` fibers and the raw role count `3^(n/s)` can be exponential. Wild
-divisors, unanchored maps, growing polarity, and arbitrary locators also
-remain. The exact `F_9` additive fixture in the proved node shows that wild
-right-component uniqueness is false without extra multiplicative-domain
-geometry; it is not an admissible-domain counterexample.
+`n/s` fibers and the raw role count `3^(n/s)` can be exponential. Unanchored
+maps, growing polarity, and arbitrary locators also remain. The exact `F_9`
+additive fixture in the proved node remains a valid warning outside the
+official reserve router below.
+
+## OFFICIAL-RESERVE WILD REFINEMENT EXCLUSION (2026-07-22)
+
+`l1_official_reserve_tame_refinement_router` removes the wild fixed-petal
+branch on the actual consumer scope. Reduce by exact-shell monotonicity to the
+least reserve-qualified threshold for `eta=min(epsilon,1/4)`, and put
+`ell_0=sigma_0+1`. If the generated field is `F_(p^f)`, then
+`ord_n(p)|f` and the power-of-two order formula gives
+
+```text
+f>=n/(p+1).
+```
+
+The official field cap excludes `p=3,5`; for `p>=7`, the reserve trial and
+`binom(n,a)<=2^n` give
+
+```text
+ell_0<=ceil(5(p+1)/(4 log_2 p))+1<p.
+```
+
+Hence `p` divides no `ell_0/s`, and every whole-petal refinement is tame.
+The tame map count `M tau(ell_0)<=n` is therefore exhaustive at the canonical
+cutoff. Wild fixed-petal decomposition is no longer an L1 escape. This does
+not pay tame fiber roles or any map without a whole-petal anchor, so the node
+remains TARGET.
+
+## IDENTITY-PULLBACK ROLE-PAYMENT FENCE (2026-07-22)
+
+`l1_identity_pullback_role_payment_fence` identifies the irreducible endpoint
+of that tame role problem. At `P=X` and `s=1`, every domain point is one
+complete fiber, the quotient receiver is the original received word,
+`kappa=z=0`, and the one-component quotient list is exactly
+`ImgFib_U(k+ell-1)`. Every source petal supplies the whole-petal anchor, and
+the official inequality `ell<char(F)` makes the endpoint tame.
+
+Thus a theorem paying all anchored tame role assignments is not a strict
+reduction of L1: it contains L1 itself at `s=1`. Work on `s>=2` can remove
+structured branches, but complete closure requires the global
+exact-shell/Toeplitz payment (or an equivalent ordinary-list theorem) for the
+identity endpoint. No refinement census should be presented as closing this
+gap.
 
 `l1_tame_refinement_periodic_owner_obstruction` also rules out the immediate
 payment shortcut. On an exact `F_17^*` chart, one source petal is three
@@ -231,8 +271,10 @@ h_Z=ceil((k+ell-1-Z)/s)
 agreements whenever `z<=Z`. With `b` complete labels, quotient degree
 `d=ceil(k/s)-1`, and sparse-coverage kernel `kappa`, the strict gate
 `h_Z^2>bd` costs at most `q^kappa b^2` per map. Fixed `kappa` is polynomial
-across every tame anchored map. The live partial-pullback branch is now the
-nonpositive gate, unbounded `kappa`, wild decomposition, or missing anchor.
+across every tame anchored map. The theorem itself leaves the nonpositive
+gate, unbounded `kappa`, wild decomposition, or missing anchor. On the
+official canonical cutoff the official-reserve router removes the anchored
+wild case.
 The affine `F_17` witness has `z=5`, `kappa=0`, and remains sub-Johnson.
 
 `l1_pullback_coverage_kernel_tradeoff` removes `kappa` as an independent
@@ -244,9 +286,9 @@ kappa=max(0,k-sb),       kappa<=max(0,z-ell+1).
 
 Thus `z<=ell-1` forces `kappa=0`, and
 `z<=ell-1+K` automatically supplies `kappa<=K` to the router. The exact
-partial-pullback frontier is now the nonpositive Johnson gate, partial-loss
-excess `z-ell+1` escaping every fixed cap, wild decomposition, or missing
-whole-petal anchor.
+official partial-pullback frontier is now the nonpositive Johnson gate,
+partial-loss excess `z-ell+1` escaping every fixed cap, or missing whole-petal
+anchor.
 
 ## EXACT-SHELL PREFIX/HANKEL BRIDGE (2026-07-21)
 
@@ -322,6 +364,270 @@ problem is not an arbitrary occupied-target census: it is row-sharp
 transversality of the split-divisor prefix image against every realized
 received-word Pade graph. This theorem identifies the open algebraic object
 but does not bound its intersection.
+
+The official low-degree part of that graph is now typed directly to the
+power-sum form of upstream Q. `l1_official_newton_cofactor_window_router`
+sharpens the generated-field arithmetic to
+
+```text
+p>=3583,       p-ell_0>=3174.
+```
+
+For normalized received degree `h` and canonical threshold
+`a_0=k+ell_0-1`, if `h-a_0<=p-ell_0`, every shell `a>=a_0` has prefix depth
+`d=min(a,h-k)<p`. Newton identities then biject its locator coefficients with
+the first `d` power sums. This covers at least 3,175 threshold-excess layers,
+and every received word on rows with `p>=n-k`. It removes the small-
+characteristic coordinate caveat in that range, not the max-fiber or Pade-
+graph intersection theorem. The special F2 summit remains too narrow to
+supply that general Q bound.
+
+`l1_official_frobenius_checkpoint_q_router` removes the coordinate caveat at
+all remaining depths. The same field arithmetic gives
+
+```text
+p>=11n/256>n/24,
+```
+
+so a depth below `n` meets at most 23 positive multiples of `p`. Replace the
+power sum at each such index `jp` by the elementary coefficient `E_(jp)`.
+Newton recursion and `S_(jp)=S_j^p` give a triangular bijection between the
+entire locator prefix and this mixed vector. Thus every fixed-cofactor cell is
+globally a p-free power-sum Q fiber conditioned on at most 23 Frobenius
+checkpoints. A theorem for the larger coarse p-free fiber transfers to each
+mixed fiber with no checkpoint loss. Alternatively, conditional flatness
+must coalesce checkpoint values inside the Pade graph. A raw union over all
+checkpoint values costs less than `n^453`, so it preserves qualitative
+polynomiality, but once a checkpoint is present its formal bound is already
+at least `q` and cannot certify the finite `q/2^128` threshold. The residual
+is therefore coarse p-free flatness or owner-sensitive conditional flatness,
+not an untyped small-characteristic tail or a checkpoint census.
+
+The coarse route is not killed by its ambient average.
+`l1_official_coarse_pfree_entropy_reserve` uses the canonical gap
+`ell_0<=p-3174`, the four-rate binomial ratio cap 15, `q>n>=2^13`, and the
+23-checkpoint cap. At every depth `d>=p`, the first checkpoint lies at least
+3,175 layers beyond `d_0=ell_0-1`, and
+
+```text
+mu_free(d)<2^-28276.
+```
+
+Consequently the finite `q/2^128` target permits ambient max-to-average
+inflation as large as `q 2^28148` on the coarse p-free fiber. This supplies a
+precise, unusually loose flatness target; it proves neither that inflation
+bound nor the positive-cofactor Pade-graph intersection. Image-normalized Q
+still requires the explicit effective-image conversion.
+
+The constants align with the proposed F2 mechanism more sharply than the
+coarse target suggests. At any active checkpoint the generated-field order
+forces `f>=2`, while the canonical estimate gives
+`d_0<=ceil(5(p+1)/44)`. Therefore
+
+```text
+max Exc_d<=2^(15(d-r))mu_free(d)  =>  max Exc_d<2^-3393<1.
+```
+
+The same worst-case inequalities do not certify 16 bits per condition. Thus
+F2's printed 15-bit per-condition endpoint is arithmetically sufficient, but
+only for an exactly owner-pruned extras residual; the full fiber is nonempty
+and is not subject to this bound. F2 still is not an L1 supplier: it controls
+a zero-target structured-extras census with a Frobenius-sector owner, whereas
+L1 requires a uniform arbitrary-target subtraction and the received-word/
+Pade first owner. The remaining bridge is map, structured subtraction, and
+owner transport, not constants.
+
+The coarse fibers already obey a target-uniform collision-gap theorem.
+`l1_coarse_pfree_wronskian_distance_packing` shows that two distinct
+`a`-sets with the same p-free moments through depth `d` must replace at least
+
+```text
+tau=ceil((d+2)/2)
+```
+
+roots on each side. The logarithmic-derivative Wronskian is nonzero even in
+small characteristic because its simple zeros and poles exclude a rational
+`p`-th power. Constant-weight packing therefore gives
+
+```text
+max fiber <= floor(binom(n,s)/binom(a,s)),
+s=a-tau+1=floor((a+k)/2)       (when a=k+d).
+```
+
+This is an explicit arbitrary-target maximum bound, and the half-depth distance is
+sharp over `F_4`. It removes close-collision concentration from the live
+route. The displayed cap can nevertheless remain exponential in the active
+linear band, so the residual is shift-pair/exchange compression of a
+far-separated family, together with the existing Pade owner, rather than an
+L1 closure.
+
+There are two important scope pins. First, if `r=n-a` and `s>=n/2`, the
+packing quotient is at least `2^r`. Since `q<2^256`, `(PWD4)` cannot itself
+pay any cell with `a+k>=n` and `n-a>=128`; this is a limitation of the upper
+bound, not evidence that a large fiber exists. Second, an exact mixed
+locator-prefix or fixed-cofactor Pade pair already has tail width at least
+`d+1`, because the locator difference has degree at most `k-1`. Thus the
+Wronskian theorem narrows only the zero-loss **coarse p-free Q** route. It
+does not strengthen or replace the exact decorated shift-pair compiler.
+
+The formal half-depth floor is not attained below the characteristic.
+`l1_coarse_pfree_tame_tail_distance_upgrade` proves that a nonzero tail
+Wronskian with `t<p` has degree at least `t-1`; otherwise its Laurent
+expansion and Newton identities identify the complete tails. Consequently
+
+```text
+t>=tau_p=max(ceil((d+2)/2),min(d+1,p)).
+```
+
+Thus `d<p` has the full `d+1` locator distance even on the coarse map, and
+at every checkpoint depth all widths below `p` are empty. Officially this is
+`t>=p>n/24`. The strict endpoint is pinned by the two fixtures: `F_5`
+attains `t=d+1<p`, while the constant-Wronskian `F_4` collision at `t=p`
+refutes a non-strict tame claim.
+
+The minimum first-checkpoint width is also classified.
+`l1_official_first_checkpoint_split_pencil_reduction` proves that for
+`p<=d<=2p-2`, every `t=p` collision has tail locators
+
+```text
+F_X=Z^p+Q+b,       F_Y=Z^p+Q+b+c,
+c!=0,       deg Q<=2p-d-1.
+```
+
+Thus this entire stratum is a low-degree Frobenius split-pencil census, not a
+generic exchange family. On the nonzero one of the two fibers, every
+nonidentity multiplicative ratio has at most `r_d=2p-d-1` witnesses. Hence
+its ratio set has size at least `1+ceil((p^2-p)/r_d)`. This excludes the
+row-specific deep subband
+
+```text
+r_*(p,n)=floor((p(p-1)-1)/(n-1)),
+d>=2p-1-r_*(p,n):              t>=p+1.
+```
+
+At terminal depth the fibers are affine `F_p`-lines, giving an independent
+ratio-set proof. Officially `11n<=256p` gives the uniform fallback
+`r_*(p,n)>=floor(11(p-1)/256)`. The surviving lower-depth,
+perturbation-degree-greater-than-`r_*(p,n)` census remains unpaid, but it is
+now a typed bridge from coarse Q to the split-pencil lane.
+
+The split-value axis inside that bridge is paid.
+`l1_official_split_pencil_value_capacity` specializes the one-parameter
+moving-root count to `Z^p+Q-beta`. Distinct split values have disjoint
+`p`-point fibers, so for each fixed normalized `Q`,
+
+```text
+# split values <=floor(n/p)<=23,
+# unordered split-fiber pairs <=binom(23,2)=253.
+```
+
+Thus the surviving first-checkpoint task is the normalized higher-degree
+`Q` census with a constant-size value payload, not an independent `(Q,b,c)`
+parameter space. The payload is exact: it is the squarefree gcd `G_Q(T)` of
+the `Z`-coefficient remainders of
+`(Z^n-alpha) mod (Z^p+Q-T)`, with `deg G_Q<=23`. Pair existence is
+`deg G_Q>=2` and forces rank at most `floor(n/p)-1` in the corresponding
+`p` by at-most-24 coefficient matrix. This still gives no bound on the
+number of `Q` records when `m>=3`.
+
+The same compiler closes low-complement rows. If `2p>n`, two split fibers do
+not fit in the domain. If `2p<=n<3p`, their quadratic composite divisor
+`G_Q(Z^p+Q)` has complement degree `n-2p`; the binomial leading gap forces
+`deg Q>=3p-n`. Hence
+
+```text
+2p>n:                         no t=p collision,
+2p<=n<3p and d>=n-p:          t>=p+1.
+```
+
+For `(n,p)=(8192,3583)`, the closed depth boundary is `4609`, versus `5599`
+from the ratio argument alone.
+
+On the surviving `m=2` band the perturbation is no longer a free parameter.
+If `C` is the locator of the `s=n-2p` unused domain points, then
+
+```text
+D=(Z^n-alpha)/C=R^2+c
+```
+
+for a unique monic degree-`p` polynomial `R` and constant `c`; the two tail
+locators are `R+-delta`, `delta^2=-c`. Polynomial Mason--Stothers, retaining
+its Frobenius-degenerate branch, forces `s=2`. Thus every broader `m=2` row
+is empty at `t=p`. At `s=2`, every pair has
+
+```text
+C=Z^2-b,       R=Z C^((p-1)/2),       c=b^p,
+```
+
+and is indexed by one antipodal complement `{x,-x}`. There are exactly
+`n/2` unordered pairs, occurring only at depths `p,p+1`.
+
+The official arithmetic has now been exhausted by
+`l1_official_checkpoint_characteristic_atlas`. Across all
+`2^13<=n<=2^44`, only 59 characteristic/domain pairs have `p<n` and can
+reach a checkpoint. Their exact multiplicities are
+
+```text
+m=1: 33 pairs, fully closed at t=p;
+m=2: 6 pairs empty and 4 pairs explicit with n/2 tail pairs;
+m>=3: 16 pairs, retaining the general eliminant/Q route.
+```
+
+Thus no checkpoint computation should range over arbitrary characteristics
+or all formal values `1<=m<=23`.
+
+Every actual split-value degree is now compiled by
+`l1_official_max_split_value_complement_census`. For `2<=h<=m`, put
+`u=n-hp`. The unused degree-`u` complement uniquely determines the
+normalized pencil and, at depth `d`, gives
+
+```text
+ell_h=u-d+p,
+# normalized Q records <=floor(binom(n,ell_h)/binom(u,ell_h)),
+# unordered fiber pairs
+    <=binom(h,2)floor(binom(n,ell_h)/binom(u,ell_h)).
+```
+
+For `h<m`, the exponent can still grow and this is not yet a polynomial
+payment. At `h=m`, polynomial Mason--Stothers and its Frobenius branch force
+`s e_0<=p`, where `s=n-mp` and `e_0=-m^(-1) mod p`. All 16 exact atlas rows
+have `s e_0>p`, so maximal capacity is empty at every depth. The live
+minimum-width endpoint is therefore the lower eliminant range
+`2<=deg G_Q<=m-1` with growing `ell_h`, not an unstratified `m>=3` census.
+For every lower `h`, the same theorem forces the depressed pencil to satisfy
+`ord_0(R)<=n-(h+1)p`; at `h=m-1` this is `ord_0(R)<=s`. On the four `m=3`
+rows only `deg G_Q=2` would remain.
+
+`l1_official_broad_checkpoint_frobenius_periodicity_exclusion` removes that
+residue and every other pair on all seven rows with `s>16`. The balanced
+signed support of two fibers is prime-field valued, so its first `p` Fourier
+zeros close under characteristic Frobenius. On each broad row the residual
+frequencies have even gcd `2`, `4`, or `8`; Fourier inversion forces each
+sign support to have even size, contradicting its size `p`. Thus the live
+higher-multiplicity minimum-width frontier is exactly nine rows with
+
+```text
+n=m(p+1),       m in {4,8,16},       2<=deg G_Q<=m-1.
+```
+
+The coarse collision hierarchy is now explicit.
+`l1_coarse_pfree_wronskian_neighbor_compiler` proves that after fixing the
+anchor tail `X`, the collision Wronskian uniquely determines the opposing
+tail `Y`. A degree-`D` certificate must be nonzero on `X`, and the exact
+number of such polynomials is
+
+```text
+R_q(t,D)=sum_(j=0)^t (-1)^j binom(t,j)q^max(D+1-j,0).
+```
+
+For formal collision width `t=tau_0+j`, the degree bound is `2j` in even
+prefix depth and `2j+1` in odd depth, but only
+`j>=tau_p-tau_0` is admissible. This gives a fully explicit arbitrary-target
+neighbor bound and removes all hidden multiplicity after `(X,W)` is fixed.
+It still contains `binom(a,t)` choices of `X`, exponential at the deployed
+linear widths. Thus the positive coarse-Q residual is now an exchange theorem
+counting anchor subsets compatible with one low-degree Wronskian and owner;
+certificate or opposing-tail enumeration is no longer an open task.
 
 The fixed-syndrome target cannot in general be collapsed to one actual
 locator-prefix fiber. `l1_fixed_syndrome_multiprefix_route_cut` independently

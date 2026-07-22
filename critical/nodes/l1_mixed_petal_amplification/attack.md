@@ -63,6 +63,126 @@
   the required depth-uniform theorem. At the deployed sparse-image threshold,
   count occupied cofactor targets collectively rather than all possible
   cofactors.
+- Before treating locator and power-sum Q as different cells, apply
+  `l1_official_newton_cofactor_window_router`. Official arithmetic gives
+  `p>=3583` and `p-ell_0>=3174`. If the normalized degree excess at the
+  canonical threshold satisfies `h-a_0<=p-ell_0`, then every higher shell has
+  prefix depth below `p`, so Newton identities are an exact target-coordinate
+  bijection. This includes 3,175 excess layers uniformly and all received
+  words when `p>=n-k`. Keep the Pade-graph/flatness obligation; delete only a
+  duplicate small-characteristic or coordinate-conversion shard.
+- For every deeper prefix, apply
+  `l1_official_frobenius_checkpoint_q_router`. Keep `S_j` when `p` does not
+  divide `j` and replace `S_(jp)` by the elementary checkpoint `E_(jp)`.
+  This is exactly equivalent to the locator prefix, and official arithmetic
+  gives at most 23 checkpoints. There are two valid targets: prove flatness
+  directly for the larger coarse p-free fiber, which transfers to every
+  mixed fiber at zero loss, or prove conditional flatness while coalescing
+  checkpoint values in the realized Pade owner. A raw union over `q^23`
+  values preserves only qualitative polynomiality (`q^23<n^453`) and can
+  never certify the finite `q/2^128` threshold once a checkpoint is present.
+  Do not create a generic small-characteristic tail or launch a checkpoint-
+  vector census.
+- Then consume `l1_official_coarse_pfree_entropy_reserve`. At every depth
+  where a checkpoint actually occurs, the first crossing is at least 3,175
+  layers beyond the canonical reserve and the ambient coarse p-free average
+  is below `2^-28276`. Thus it is enough to prove coarse ambient
+  max-to-average inflation `K_d<=q 2^28148`. This is a deliberately loose
+  finite target, not a proved flatness estimate. Prefer attacking it directly;
+  use checkpoint-conditioned shards only when a first-owner/Pade theorem
+  coalesces their totals. Do not translate an image-normalized Q estimate to
+  this ambient target without printing the effective-image factor.
+- Constants do not block an F2-style ladder after structured payment: the
+  same supplier proves that an exactly owner-pruned residual satisfying
+  `max Exc_d<=2^(15(d-r))mu_free(d)` is below `2^-3393`, hence is empty; the
+  coarse official inequalities do not certify 16 bits per condition. Never
+  apply this to the full nonempty fiber. The F2 summit uses a zero target, its
+  own structured-extras subtraction, and a Frobenius-sector owner; L1 needs
+  a uniform arbitrary-target subtraction and the received-word/Pade first
+  owner. Prove that map-and-owner transport before consuming the endpoint.
+- Before invoking shift-pair or exchange compression on a coarse p-free
+  fiber, consume `l1_coarse_pfree_wronskian_distance_packing`. Equality of
+  the p-free coordinates forces any two distinct `a`-sets in the fiber to
+  replace at least `ceil((d+2)/2)` roots on each side. Therefore the exact
+  fiber cap is
+  `floor(binom(n,s)/binom(a,s))`, with
+  `s=a-ceil((d+2)/2)+1`; in the scalar L1 prefix this is
+  `s=floor((a+k)/2)`. Remove every row or owner whose allocated numerator
+  already pays this cap. On the remaining linear-band rows, seek additional
+  shift-pair or exchange structure among this far-separated family; do not
+  spend computation rediscovering or enumerating close collisions.
+  Keep this coarse route separate from the exact mixed/Pade lane. In a full
+  depth-`d` locator fiber, codeword distance already gives the stronger tail
+  width `d+1`; use the existing decorated shift-pair compiler there. Also
+  note the cap route fence: if `a+k>=n` and `n-a>=128`, the numerical packing
+  cap is at least `2^(n-a)>floor(q/2^128)` under `q<2^256`, so this bound
+  alone cannot close the cell.
+- Strengthen the coarse endpoint with
+  `l1_coarse_pfree_tame_tail_distance_upgrade`. A tail of size `t<p` has
+  Wronskian degree at least `t-1`, so every collision satisfies
+  `t>=tau_p=max(ceil((d+2)/2),min(d+1,p))`. Below the first checkpoint this
+  recovers the full `d+1` distance. At every official checkpoint depth it
+  deletes all widths below `p>n/24`. Start all packing, collision-gap theory,
+  and contributor runs at `tau_p`, not at the formal half-depth floor.
+- In the first checkpoint band, consume
+  `l1_official_first_checkpoint_split_pencil_reduction` before generic
+  exchange compression. For `p<=d<=2p-2`, every minimum-width `t=p`
+  collision is two domain-split fibers of
+  `Z^p+Q`, with `deg Q<=2p-d-1`. The terminal `d=2p-2` stratum is empty by
+  affine-line ratio growth. More generally, nonzero-fiber ratio multiplicity
+  excludes `t=p` whenever `2p-d-1<=r_*(p,n)`, where
+  `r_*(p,n)=floor((p(p-1)-1)/(n-1))`; so start that entire row-specific deep
+  subband at `t=p+1`. The family-wide fallback is
+  `r_*>=floor(11(p-1)/256)`, but contributor pruning must use the exact row
+  value.
+  At lower depths count the surviving higher-degree Frobenius pencils as one
+  typed structural family. Apply
+  `l1_official_split_pencil_value_capacity`: a fixed normalized `Q` has at
+  most `floor(n/p)<=23` split values and at most 253 unordered fiber pairs.
+  The unpaid axis is `Q`; recover its bounded value list as the exact
+  remainder gcd `G_Q(T)`, reject coefficient-matrix rank at least
+  `floor(n/p)`, and do not shard over `(b,c)` or enumerate arbitrary `X`,
+  `Y`, and `W` records for the same stratum. Low rank alone is not a positive
+  record. Delete the whole stratum when `2p>n`; when `2p<=n<3p`, also delete
+  every `d>=n-p` by the complement-gap theorem. Then apply the exact `m=2`
+  abc classification: rows with `n-2p>2` are empty, while `n-2p=2` has
+  exactly `n/2` antipodal pairs at depths `p,p+1`. Do not launch any `m=2`
+  minimum-width computation.
+  First route the row through
+  `l1_official_checkpoint_characteristic_atlas`: 33 of the 59 possible
+  `(n,p)` pairs have `m=1` and need no work, 10 have `m=2`, and only 16 have
+  `m>=3`. Six `m=2` rows are empty and four are explicit. Reject any
+  checkpoint task not naming an atlas row; only the 16 `m>=3` rows retain a
+  general minimum-width endpoint. On those rows consume
+  `l1_official_max_split_value_complement_census`: at actual value degree
+  `h`, `ell_h=n-hp-d+p` complement roots determine the normalized pencil and
+  give at most
+  `binom(h,2)floor(binom(n,ell_h)/binom(n-hp,ell_h))` pairs. At full value
+  capacity, polynomial abc forces `(n-mp)(-m^(-1) mod p)<=p`; every one of
+  the 16 rows violates this, so delete `h=m` at every depth. On `m=3` rows,
+  retain only `h=2`. For every lower `h`, also retain the proved centered
+  valuation `ord_0(R)<=n-(h+1)p`; the next-to-maximal case has
+  `ord_0(R)<=n-mp`.
+  Then consume `l1_official_broad_checkpoint_frobenius_periodicity_exclusion`:
+  all seven rows with `n-mp>16` have empty `t=p` strata by prime-field
+  Fourier periodicity. Delete every `m=3,5,7` row. The only live rows have
+  `n=m(p+1)`, `m in {4,8,16}`, and `2<=h<=m-1`.
+  Any successor theorem or computation must now print the actual value degree
+  `h=deg G_Q`, the resulting `ell_h`, and attack the growing-exponent range
+  `2<=h<=m-1`; do not relaunch the empty `h=m` branch or enumerate the
+  normalized complement bound without another completeness-preserving
+  compression.
+- On the coarse lane, next consume
+  `l1_coarse_pfree_wronskian_neighbor_compiler`. For an anchor `A`, tail
+  `X`, and collision width `t`, the polynomial
+  `W=F_X'F_Y-F_XF_Y'` determines `Y` uniquely and has degree at most
+  `2t-d-2`. Put `tau_0=ceil((d+2)/2)` and stratify by `t=tau_0+j` only for
+  `j>=tau_p-tau_0`: certificate degree is bounded by `2j` for even `d` and
+  `2j+1` for odd `d`. The exact full-support
+  certificate count is already paid by `R_q(t,D)`. The remaining theorem is
+  exchange compression: bound how many `X subset A` can support a common
+  low-degree certificate and first owner. Do not enumerate checkpoint values,
+  opposing tails, or Wronskians independently.
 - Before designing that count, apply
   `l1_cofactor_prefix_pade_graph_normal_form`. In reversed high-coefficient
   coordinates all possible targets form the graph
@@ -256,9 +376,18 @@
   `char(F)` not dividing `ell/s`, one whole source petal determines at most
   one degree-`s` map up to additive shift, so all tame map classes cost at
   most `M tau(ell)<=n`. Do not confuse this with payment: at small `s`, the
-  `n/s` fiber roles still have exponential raw entropy. Wild divisors require
-  multiplicative-domain geometry; the `F_9` additive fixture rules out an
-  unguarded coefficient-only uniqueness argument.
+  `n/s` fiber roles still have exponential raw entropy. Then apply
+  `l1_official_reserve_tame_refinement_router`: exact-shell monotonicity
+  reduces the official problem to a canonical cutoff with `ell<char(F)`, so
+  every fixed-petal divisor is tame. Do not create a wild fixed-petal shard.
+  The `F_9` additive fixture remains a scope guard outside this official
+  cutoff.
+- Apply `l1_identity_pullback_role_payment_fence` before posing a uniform
+  tame-role lemma or census. The degree-one map `P=X` has singleton fibers,
+  `kappa=z=0`, and its quotient list is exactly the original L1 list. A local
+  campaign may explicitly restrict to `s>=2`, but it cannot close L1 unless a
+  separate global exact-shell/Toeplitz theorem pays `s=1`. Do not spend
+  compute enumerating identity-map role vectors under a new name.
 - Do not route every tame refinement to `pma_exact_periodic_owner`.
   `l1_tame_refinement_periodic_owner_obstruction` has a complete tame
   `X^2+3X` source petal but a contributor with trivial multiplicative support
@@ -293,8 +422,11 @@
   `b`, every component dimension, and `kappa`. Delete the cell when
   `h_Z=ceil((k+ell-1-Z)/s)` satisfies `h_Z^2>b(ceil(k/s)-1)` and `kappa` is
   within the fixed polynomial budget. Do not enumerate partial-fiber patterns
-  in this gate. Retain the nonpositive gate, unbounded `kappa`, wild map, or
-  missing-anchor certificate explicitly.
+  in this gate. Retain the nonpositive gate, unbounded `kappa`, or
+  missing-anchor certificate explicitly. The router's abstract wild-map
+  nonclaim is discharged at the official canonical cutoff by
+  `l1_official_reserve_tame_refinement_router` whenever a whole-petal anchor
+  exists.
 - Immediately simplify the kernel with
   `l1_pullback_coverage_kernel_tradeoff`:
   `kappa=max(0,k-sb)<=max(0,z-ell+1)`. A cap

@@ -43,6 +43,34 @@ sum_(j=1)^(s-1)3(2^j-1)2^j
 
 proving `(QOD4)` and the printed official-order values.
 
+For `1<=r<=s-1`, summing the last `r` entries of the block histogram gives
+
+```text
+C_r=3 sum_(j=s-r)^(s-1)(2^j-1)
+   =3(2^s-2^(s-r)-r)
+   =3(n(1-2^(-r))-r).                              (5a)
+```
+
+Weighting those entries by their degrees gives
+
+```text
+D_r=3 sum_(j=s-r)^(s-1)(4^j-2^j)
+   =n^2(1-4^(-r))-3n(1-2^(-r)).                    (5b)
+```
+
+For `n=8192`, equations `(5a)--(5b)` give
+
+```text
+(C_1,D_1)=(12,285,50,319,360),
+(C_2,D_2)=(18,426,62,896,128).                     (5c)
+```
+
+Division by the totals in `(QOD4)` gives the printed percentages. Since
+every Taylor cutoff-`c` auxiliary-degree envelope is obtained by multiplying
+each block degree by the same `c`, the same concentration applies to those
+envelopes. This proves `(QOD4a)` and the scheduling consequence without
+making an operation-count assertion.
+
 Now work over `R=Z[1/2]`. Every denominator `1-zeta^u` has 2-power norm and
 is therefore a unit over `R`, so `gamma_(u,v)` is integral over `R`. Odd
 Galois dilation sends `gamma_(u,v)` to `gamma_(ru,rv)`. The quotient
