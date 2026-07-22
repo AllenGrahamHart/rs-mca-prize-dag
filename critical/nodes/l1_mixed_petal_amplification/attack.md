@@ -63,6 +63,14 @@
   the required depth-uniform theorem. At the deployed sparse-image threshold,
   count occupied cofactor targets collectively rather than all possible
   cofactors.
+- Before treating locator and power-sum Q as different cells, apply
+  `l1_official_newton_cofactor_window_router`. Official arithmetic gives
+  `p>=3583` and `p-ell_0>=3174`. If the normalized degree excess at the
+  canonical threshold satisfies `h-a_0<=p-ell_0`, then every higher shell has
+  prefix depth below `p`, so Newton identities are an exact target-coordinate
+  bijection. This includes 3,175 excess layers uniformly and all received
+  words when `p>=n-k`. Keep the Pade-graph/flatness obligation; delete only a
+  duplicate small-characteristic or coordinate-conversion shard.
 - Before designing that count, apply
   `l1_cofactor_prefix_pade_graph_normal_form`. In reversed high-coefficient
   coordinates all possible targets form the graph

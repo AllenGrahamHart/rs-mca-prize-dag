@@ -1839,9 +1839,17 @@ sweep.
   received words by degree-below-`k` shifts before sharding, since the
   Toeplitz window is proved invariant under those shifts. Do not repeatedly
   interpolate supports or materialize barycentric denominators.
-- **cofactor-prefix representation:** for `0<=e<k`, also consume
-  `l1_cofactor_prefix_pade_graph_normal_form`. Reverse the high coefficients
-  and represent all possible targets at once by
+- **cofactor-prefix representation:** for `0<=e<k`, first consume
+  `l1_official_newton_cofactor_window_router`. Normalize the received
+  polynomial, record `h`, and put `a_0=k+ell_0-1`. If
+  `h-a_0<=p-ell_0`, use the first `d=min(a,h-k)` power sums or locator
+  coefficients interchangeably; the target change is proved bijective
+  because `d<p`. This covers at least the 3,175 layers
+  `0<=h-a_0<=3174`, and every word when `p>=n-k`. Do not schedule separate
+  Newton-cycle or locator-versus-power-sum jobs in this scope. The run must
+  still test max-fiber concentration or collective graph intersection.
+  Then consume `l1_cofactor_prefix_pade_graph_normal_form`. Reverse the high
+  coefficients and represent all possible targets at once by
   `Lhat=Uhat/Qhat mod T^(a-k+e+1)`. The first `e` locator coefficients are
   free, the final `a-k` are determined, and `Qhat` is recovered uniquely by
   truncated division. Enumerate or bound the intersection of this graph with

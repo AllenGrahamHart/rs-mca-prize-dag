@@ -138,6 +138,16 @@ identifications without a machine-verified chain.
   The proved `l1_exact_shell_fixed_cofactor_prefix_transport` further splits
   this target by `e=deg(U)-a`. The top shell `e=0` is exactly one locator-Q
   atom. Each `e>0` is at most `q^e` depth-`w+e` locator-prefix atoms.
+  The proved `l1_official_newton_cofactor_window_router` makes the power-sum
+  overlap exact on a large finite range. The strict field cap and
+  `8192|p^f-1` force `p>=3583`, while the canonical reserve gives
+  `p-ell_0>=3174`. For normalized degree `h`, every shell above
+  `a_0=k+ell_0-1` is Newton-safe whenever
+  `h-a_0<=p-ell_0`; this covers 3,175 excess layers uniformly and all words
+  if `p>=n-k`. In that scope, locator-prefix Q and power-sum Q are the same
+  target fibers. The router removes small-characteristic cycle bookkeeping,
+  not the row-sharp max-fiber or collective Pade-graph theorem, and it does
+  not turn the special F2 summit into general Q.
   `l1_cofactor_depth_budget_cancellation` corrects the accounting: for
   `e<k`, the `q^e` factor cancels exactly against the `e` additional prefix
   equations under an ambient-normalized deeper-depth bound. Under upstream's

@@ -349,6 +349,23 @@ transversality of the split-divisor prefix image against every realized
 received-word Pade graph. This theorem identifies the open algebraic object
 but does not bound its intersection.
 
+The official low-degree part of that graph is now typed directly to the
+power-sum form of upstream Q. `l1_official_newton_cofactor_window_router`
+sharpens the generated-field arithmetic to
+
+```text
+p>=3583,       p-ell_0>=3174.
+```
+
+For normalized received degree `h` and canonical threshold
+`a_0=k+ell_0-1`, if `h-a_0<=p-ell_0`, every shell `a>=a_0` has prefix depth
+`d=min(a,h-k)<p`. Newton identities then biject its locator coefficients with
+the first `d` power sums. This covers at least 3,175 threshold-excess layers,
+and every received word on rows with `p>=n-k`. It removes the small-
+characteristic coordinate caveat in that range, not the max-fiber or Pade-
+graph intersection theorem. The special F2 summit remains too narrow to
+supply that general Q bound.
+
 The fixed-syndrome target cannot in general be collapsed to one actual
 locator-prefix fiber. `l1_fixed_syndrome_multiprefix_route_cut` independently
 proves the field-generic fixed-multipartial polynomial-fold source and replays
