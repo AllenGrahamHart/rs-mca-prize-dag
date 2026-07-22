@@ -135,7 +135,15 @@ def main() -> None:
     assert square_quotient == [1, 0, 1, 0, 1, 0, 1]
     assert omega == [2] + [0] * 7 + [1]
     assert len(complement) - 1 == 8 - 2 * 3
-    checks += 3
+    antipodal = {
+        frozenset((value, ((-value[0]) % 3, (-value[1]) % 3)))
+        for value in nonzero
+    }
+    assert len(antipodal) == 8 // 2
+    assert len(root) - 1 == 3
+    assert 3 - 2 == 1
+    assert (2 * 3 - 1 - (3 - 2), 2 * 3 - 2 - (3 - 2)) == (4, 3)
+    checks += 7
 
     # Official control arithmetic for the improved first-checkpoint boundary.
     n = 8192
@@ -172,6 +180,10 @@ def main() -> None:
         "d>=n-p  =>  t>=p+1",
         "D_S(Z)=R(Z)^2+c",
         "# unordered t=p pairs <=binom(n,n-2p)",
+        "a pair exists  =>  n=2p+2",
+        "R=Z(C_S)^((p-1)/2)",
+        "n/2.",
+        "depths `d=p` and `d=p+1`",
         "must not shard independently",
         "does not bound how many",
     ):

@@ -6,6 +6,7 @@ have `floor(n/p)=1` and no minimum-width split collision. Ten have
 pairs retain three or more possible split values and require the general
 Frobenius-pencil eliminant route.
 
-Four of the ten `m=2` pairs have exactly two unused domain points, so their
-minimum-width pair census is already at most `binom(n,2)`. The other six are
-the only `m=2` rows needing a square-quotient complement count.
+Four of the ten `m=2` pairs have exactly two unused domain points and exactly
+`n/2` antipodal minimum-width pairs. The other six have no minimum-width
+pairs. Hence only the sixteen `m>=3` atlas rows retain a general endpoint
+census.

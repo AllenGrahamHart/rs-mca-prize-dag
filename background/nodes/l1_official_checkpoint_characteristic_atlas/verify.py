@@ -148,7 +148,9 @@ def main() -> None:
         "| rows | 33 | 10 | 4 | 4 | 2 | 1 | 4 | 1 |",
         "16 rows: m>=3",
         "exactly four have the two-point complement",
-        "minimum-width pair cap `binom(n,2)`",
+        "precisely `n/2`",
+        "39 theorem-empty at t=p",
+        "No `m<=2` minimum-width computation remains",
         "Rows with `p>=n`",
     ):
         assert anchor in statement

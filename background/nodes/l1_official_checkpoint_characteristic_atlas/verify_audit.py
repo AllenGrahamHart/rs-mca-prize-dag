@@ -57,7 +57,8 @@ def main() -> None:
     assert "deterministic" in audit
     assert "does not create a new characteristic residue" in audit
     assert "Higher-width" in audit
-    checks += 5
+    assert "theorem-empty" in audit
+    checks += 6
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}

@@ -15,10 +15,10 @@
    or a nonminimal extension does not create a new characteristic residue.
 8. The 33 `m=1` rows close only the `t=p` stratum. They do not close higher
    widths or L1.
-9. The 10 `m=2` rows are routed to square-quotient complements, not declared
-   empty.
+9. The 10 `m=2` rows first route through square-quotient complements; the
+   exact abc classification then empties six and solves four explicitly.
 10. No Modal run or large local computation is load-bearing.
-11. The `binom(n,2)` statement concerns only `t=p` pairs. Higher-width
-    collisions on the same four rows remain open.
-12. The six other `m=2` complement sizes grow with `n`; their raw binomial
-    caps are not called polynomial.
+11. The exact `n/2` statement concerns only `t=p` pairs at depths `p,p+1`.
+    Higher-width collisions on the same four rows remain open.
+12. The six other `m=2` complement sizes grow with `n`, but their
+    minimum-width strata are theorem-empty rather than compute targets.

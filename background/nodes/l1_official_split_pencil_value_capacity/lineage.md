@@ -16,3 +16,6 @@ In that surviving region, completing the quadratic composite square shows
 that the complement of the two fibers uniquely reconstructs the pair. This
 turns the residual from a free perturbation census into a square-quotient
 condition on complement locators.
+Retaining the Frobenius-degenerate branch of polynomial Mason--Stothers then
+forces the complement degree to be two and solves the equality case
+explicitly. The formerly broad six-row `m=2` compute target disappears.

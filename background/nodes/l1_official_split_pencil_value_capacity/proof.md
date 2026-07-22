@@ -138,6 +138,92 @@ square root `delta` of `-c` gives the same unordered pair
 `{R-delta,R+delta}`. Thus the complement determines the pair injectively.
 There are `binom(n,s)` complements, proving `(SPV13)`.
 
+## Exact classification by polynomial abc
+
+Continue in the `m=2` band and write `D_S=R^2+c`. The factorization
+`D_SC_S=Z^n-alpha` is equivalent to
+
+```text
+R^2 C_S+(cC_S+alpha)=Z^n.                              (4)
+```
+
+Let `nu=ord_0(R)`. Since `C_S(0)!=0` and `2nu<=2p<n`, equation `(4)` gives
+
+```text
+ord_0(cC_S+alpha)=2nu.
+```
+
+After division by `Z^(2nu)`, the three terms in `(4)` are pairwise coprime.
+Indeed, a common nonzero root would divide their sum `Z^n`, while exact
+valuation removes the root zero. If this reduced triple is not entirely in
+`F[Z^p]`, polynomial Mason--Stothers gives
+
+```text
+n-2nu
+ <= deg rad((R/Z^nu)^2 C_S)
+    +deg rad((cC_S+alpha)/Z^(2nu))
+    +deg rad(Z^(n-2nu))-1
+ <= (p-nu+s)+(s-2nu)+1-1
+ = p+2s-3nu.                                           (5)
+```
+
+But `n=2p+s`, so `(5)` would imply `p-s+nu<=0`, impossible because
+`0<s<p`. Therefore the reduced triple is Frobenius-degenerate: all three
+derivatives vanish.
+
+In particular `p` divides `n-2nu`. Also `2nu<=s<p`, because
+`cC_S+alpha` has degree `s`. Since `n=2p+s`, these facts force
+
+```text
+2nu=s.                                                  (6)
+```
+
+The polynomial `(cC_S+alpha)/Z^s` is now constant with leading coefficient
+`c`, so
+
+```text
+cC_S+alpha=cZ^s,       C_S=Z^s-alpha/c.                 (7)
+```
+
+Write `R=Z^(s/2)U`. Dividing `(4)` by `Z^s` and using `(7)` gives
+
+```text
+U^2 C_S=Z^(2p)-c=(Z^2-c^(1/p))^p.                       (8)
+```
+
+The finite field is perfect. Since `C_S` is squarefree and divides the right
+side of `(8)`, all its roots lie among the two roots of
+`Z^2-c^(1/p)`. Hence `s<=2`. Equation `(6)` makes `s` positive and even, so
+`s=2`, proving `(SPV14)`.
+
+Put `b=alpha/c`. Equations `(7)--(8)` now give
+
+```text
+C_S=Z^2-b,       c=b^p,       alpha=b^(p+1),
+U=C_S^((p-1)/2),       R=Z C_S^((p-1)/2).               (9)
+```
+
+The monic choice fixes the sign of `U`. The two roots of `C_S` are `x,-x`
+in `H`, so `b=x^2`; conversely every antipodal pair in `H` satisfies
+`b^(p+1)=x^n=alpha` because `n=2p+2`. Since `H` contains an element of order
+four, `-1` is a square in `F`, so `delta^2=-b^p` has a solution. Directly,
+
+```text
+(R-delta)(R+delta)
+ =Z^2(Z^2-b)^(p-1)+b^p
+ =(Z^n-alpha)/(Z^2-b).                                  (10)
+```
+
+The right side is squarefree and split in `H`; the two coprime monic factors
+on the left each have degree `p`, hence both split in `H`. The square map on
+the even-order coset has antipodal fibers, giving exactly `n/2` values of
+`b` and proving `(SPV15)--(SPV17)`.
+
+Finally, expanding `R=Z(Z^2-b)^((p-1)/2)` shows that its `Z^p` leader is
+followed by the nonzero `Z^(p-2)` coefficient `b/2`. Thus the normalized
+`Q=R-Z^p` has degree `p-2`. The split-pencil converse allows precisely
+`d<=2p-(p-2)-1=p+1`, proving the depth assertion.
+
 For the collision consequence, normalize the constant term in the supplier's
 representation
 

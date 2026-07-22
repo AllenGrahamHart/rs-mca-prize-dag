@@ -7,5 +7,5 @@ powers of two with the 256-bit cap collapses the apparent continuum of
 characteristics to 59 pairs and routes 43 of them through the `m<=2`
 theorems.
 The remainder column further separates four two-point-complement rows, whose
-minimum-width pair count is polynomial without computation, from the six
-genuinely broad `m=2` complement rows.
+minimum-width pair count is explicit, from six broad rows that the exact
+polynomial-abc classification subsequently proves empty.

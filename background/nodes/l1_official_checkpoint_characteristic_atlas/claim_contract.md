@@ -12,8 +12,8 @@
 Exactly 59 characteristic/domain pairs can have `p<n`. Of them, 33 have no
 minimum-width split pair, 10 reduce to the `m=2` complement-square census,
 and 16 retain `m>=3`.
-Exactly four of the `m=2` rows have two-point complements and hence the
-polynomial minimum-width pair cap `binom(n,2)`.
+Exactly four of the `m=2` rows have two-point complements and exactly `n/2`
+minimum-width pairs. The other six `m=2` rows are empty at `t=p`.
 
 ## Falsifier
 
@@ -24,6 +24,6 @@ falsifier.
 
 ## Nonclaims
 
-No classification of perturbations or complements on the 26 surviving
-rows, no assertion that every atlas pair appears in a submitted code, no
-control of `t>p`, and no L1 status change.
+No classification of perturbations on the 16 `m>=3` rows, no assertion that
+every atlas pair appears in a submitted code, no control of `t>p`, and no L1
+status change.

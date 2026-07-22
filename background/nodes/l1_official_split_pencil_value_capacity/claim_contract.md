@@ -19,6 +19,9 @@ existence forces `deg Q>=3p-n`, so first-checkpoint depths `d>=n-p` have no
 minimum-width collision. In the surviving `m=2` band, the complement locator
 uniquely determines the unordered pair through the test
 `(Z^n-alpha)/C=R^2+c`, giving the cap `binom(n,n-2p)`.
+Polynomial abc with its Frobenius-degenerate branch retained proves that a
+pair forces `n-2p=2`; the complement is antipodal and the exact pair count is
+`n/2`. All broader `m=2` rows are empty at `t=p`.
 
 ## Falsifier
 
@@ -29,10 +32,10 @@ missing from `G_Q`; or a collision whose remainder matrix has rank at least
 `floor(n/p)`; or a two-fiber pencil with `2p<=n<3p` and `deg Q<3p-n`.
 Also, two distinct collision pairs with the same complement locator falsify
 the complement compiler.
+A pair with `m=2` and `n-2p>2`, or a remainder-two pair not having the
+explicit antipodal form, falsifies the exact classification.
 
 ## Nonclaims
 
-No bound on the number of perturbations `Q` in the surviving band, no bound
-on the number of complements satisfying the square-quotient condition beyond
-the raw binomial cap, no bound on `t>p`, no row-sharp fiber estimate, and no
-L1 status change.
+No bound on perturbations in the `m>=3` band, no bound on `t>p`, no row-sharp
+full-fiber estimate, and no L1 status change.

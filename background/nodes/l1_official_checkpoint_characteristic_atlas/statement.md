@@ -49,10 +49,17 @@ Among the ten `m=2` rows, exactly four have the two-point complement
       (2^20,524287), (2^32,2147483647).                 (CAT5)
 ```
 
-For each of these, the complement compiler gives the polynomial
-minimum-width pair cap `binom(n,2)`. Their `t=p` census needs no numerical
-experiment. The other six `m=2` rows retain a potentially exponential
-square-quotient complement census.
+For each of these, the exact `m=2` classification gives precisely `n/2`
+minimum-width pairs, indexed by antipodal complements. The other six `m=2`
+rows have `n-2p>2`, so their `t=p` strata are empty. Consequently the atlas
+routes the 59 pairs as
+
+```text
+39 theorem-empty at t=p, 4 explicit with n/2 pairs, 16 with m>=3 open.
+                                                                    (CAT6)
+```
+
+No `m<=2` minimum-width computation remains.
 
 This is an exhaustive arithmetic router, not a census of perturbations,
 complements, or coarse fibers. Rows with `p>=n` are Newton-safe at every

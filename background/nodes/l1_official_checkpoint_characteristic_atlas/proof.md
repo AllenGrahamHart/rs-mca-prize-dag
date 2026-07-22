@@ -40,6 +40,8 @@ no pair and that `m=2` has the exact complement-square compiler. Subtracting
 
 Filtering the ten `m=2` tuples by the recorded remainder `n-2p` leaves the
 four rows in `(CAT5)`. On those rows, `(SPV13)` is
-`binom(n,n-2p)=binom(n,2)`, proving the polynomial cap. The remaining six
-remainders are `1026,4098,8190,524290,524286,2147483646`, so no fixed-size
-complement conclusion is claimed for them.
+`binom(n,n-2p)=binom(n,2)`. The exact classification `(SPV14)--(SPV17)`
+sharpens this to `n/2` antipodal pairs. The remaining six remainders are
+`1026,4098,8190,524290,524286,2147483646`, all greater than two, so `(SPV14)`
+makes their minimum-width strata empty. Together with the 33 `m=1` rows this
+proves `(CAT6)`.

@@ -18,3 +18,9 @@ In the surviving `m=2` band, the complement locator `C` determines the pair
 uniquely: `(Z^n-alpha)/C` must equal `R^2+c`, and the two locators are
 `R+-delta` with `delta^2=-c`. This gives the exact complement certificate and
 the raw cap `binom(n,n-2p)` without an independent `Q` or value-pair axis.
+
+Polynomial abc closes that residual classification. A pair forces
+`n-2p=2`; all six broad `m=2` atlas rows are empty at `t=p`. On each of the
+four remainder-two rows there are exactly `n/2` pairs, indexed by antipodal
+complements `Z^2-b`, with locators
+`Z(Z^2-b)^((p-1)/2)+-delta`. They occur only at depths `p,p+1`.

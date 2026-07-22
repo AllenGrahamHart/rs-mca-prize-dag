@@ -42,3 +42,15 @@
 21. The raw `binom(n,n-2p)` cap can still be exponentially too large. The
     theorem's main use is the square-quotient compiler and removal of an
     independent `Q` axis.
+22. Polynomial abc is applied only after dividing the exact common power
+    `Z^(2nu)`; the reduced three terms are pairwise coprime.
+23. The characteristic-`p` exception is load-bearing. The reduced identity
+    in the `F_9` fixture consists entirely of cubes, so applying the
+    characteristic-zero abc conclusion would be false.
+24. Frobenius degeneracy gives `p|(n-2nu)`; together with
+    `0<2nu<=s<p` this forces `2nu=s`, not merely a congruence.
+25. Squarefreeness of the complement turns the p-th power in `(8)` into the
+    degree bound `s<=2`.
+26. The exact `n/2` count is by antipodal complements, not by arbitrary
+    two-point subsets.
+27. The explicit family concerns only widths `t=p` and depths `p,p+1`.

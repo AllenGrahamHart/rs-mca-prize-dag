@@ -48,6 +48,13 @@ claimed to pay a finite row. A compute request should seek or classify
 square-quotient complements, not enumerate independent perturbations and
 values.
 
+The complement request is now retired for every `m=2` row. Polynomial abc,
+with its characteristic-`p` Frobenius exception handled exactly, forces
+`n-2p=2`. The six broad rows are empty; the four remainder-two rows have the
+explicit antipodal family and exactly `n/2` unordered pairs. An upstream
+packet should vendor this as a proved split-pencil classification, not as a
+compute request.
+
 The proved successor `l1_official_checkpoint_characteristic_atlas` exhausts
 the official arithmetic: 33 possible pairs have `m=1`, 10 have `m=2`, and
 only 16 have `m>=3`. Upstream compute requests should name an atlas row and

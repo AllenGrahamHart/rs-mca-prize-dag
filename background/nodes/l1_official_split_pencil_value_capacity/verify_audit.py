@@ -29,7 +29,7 @@ def main() -> None:
     contract = (ROOT / "background" / "nodes" / NODE / "claim_contract.md").read_text()
     assert "p>n/24" in statement
     assert "ordinary integer cardinalities" in audit
-    assert "No bound on the number of perturbations" in contract
+    assert "No bound on perturbations" in contract
     assert "oriented ledger" in audit
     assert "rank test is one-way" in audit
     assert "squarefree" in statement
@@ -37,7 +37,10 @@ def main() -> None:
     assert "Equality is retained" in audit
     assert "complement map is injective only for unordered pairs" in audit
     assert "raw `binom(n,n-2p)` cap" in audit
-    checks += 10
+    assert "Frobenius-degenerate branch" in contract
+    assert "Squarefreeness of the complement" in audit
+    assert "antipodal complements" in audit
+    checks += 13
 
     # Mutating the strict degree boundary would reject the exact F_9 fixture.
     p = 3

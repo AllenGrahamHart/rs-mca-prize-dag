@@ -127,6 +127,43 @@ Consequently
 in the `m=2` band, with an injective certificate `(C_S,R,c,delta)`. This is
 a structural compiler, not permission to enumerate all complements.
 
+## Exact `m=2` classification
+
+In fact the square-quotient complement exists only at the two-point
+remainder:
+
+```text
+2p<n<3p and a pair exists  =>  n=2p+2.                 (SPV14)
+```
+
+Write `Omega=Z^n-alpha`. Every pair is then uniquely indexed by an
+antipodal complement `{x,-x} subset H`. Put
+
+```text
+b=x^2,                 C_S=Z^2-b,
+c=b^p,                 R=Z(C_S)^((p-1)/2),
+delta^2=-c.                                               (SPV15)
+```
+
+Then
+
+```text
+(R-delta)(R+delta)=(Z^n-alpha)/C_S,                      (SPV16)
+```
+
+and both degree-`p` factors split completely in `H`. Conversely every pair
+has this form. Therefore the exact number of unordered minimum-width tail
+pairs is
+
+```text
+n/2.                                                      (SPV17)
+```
+
+Their normalized perturbation has `deg Q=p-2`, so they occur at
+first-checkpoint depths `d=p` and `d=p+1` and at no deeper depth. Thus all
+`m=2` rows with `n-2p>2` have an empty `t=p` stratum; no complement
+computation remains there.
+
 Every minimum-width collision supplied by
 `l1_official_first_checkpoint_split_pencil_reduction` is one such pair after
 the constant term of `Q` is normalized to zero. Therefore, for each fixed
@@ -135,7 +172,8 @@ unordered records. A census or contributor computation should enumerate or
 bound the surviving `Q` axis, use `(SPV4)--(SPV8)` to recover and certify the
 split values inside each `Q` record, and must not shard independently over
 `(b,c)`. In the `m=2` band, prefer the unique complement-square compiler
-`(SPV12)` over an independent `Q` search.
+`(SPV12)` and its exact classification `(SPV14)--(SPV17)` over an independent
+`Q` search.
 
 This is the one-parameter moving-root bound specialized to the affine pencil
 `P-beta`, with an exact disjoint-fiber proof. It does not bound how many
