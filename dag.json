@@ -15288,6 +15288,378 @@
     "background/nodes/l1_identity_pullback_role_payment_fence/verify.py",
     "background/nodes/l1_identity_pullback_role_payment_fence/verify_audit.py"
    ]
+  },
+  {
+   "id": "l1_mersenne_checkpoint_cyclotomic_normal_form",
+   "title": "L1 Mersenne-checkpoint cyclotomic normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On each of the nine surviving first-checkpoint rows, write N=p+1, n=mN, and k=qN+b with m in {4,8,16}. Multiplication by p sends (q,0) to (-q,0), sends (q,b) to (b-q-1,N-b) for b>0, and its square sends (q,b) to (q-2b,b). If S is the p-cyclotomic closure of [0,p-1] and g_b=gcd(2b,m), then (q,0) lies in S exactly for q=0, while (q,b) lies in S exactly when q is congruent to 0 or b-1 modulo g_b. The Fourier-complement sizes are 2N+1, 9N/2+1, and 37N/4+1. In particular N consecutive frequencies vanish, so every nonzero signed word has support at least N+1. A checkpoint pair has exact support 2N-2. This is a low-weight cyclic-code normal form, not a row exclusion or L1 bound.",
+   "refs": [
+    "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/statement.md",
+    "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/proof.md",
+    "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/claim_contract.md",
+    "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/dependency_subdag.md",
+    "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/audit.md",
+    "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/result.md",
+    "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/lineage.md",
+    "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/verify.py",
+    "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/verify_audit.py",
+    "experiments/prize_resolution/l1_mersenne_checkpoint_analog_modal.py",
+    "experiments/prize_resolution/l1_mersenne_checkpoint_analog_result.md"
+   ]
+  },
+  {
+   "id": "l1_mersenne_checkpoint_embedded_m2_family",
+   "title": "L1 Mersenne-checkpoint embedded two-fiber family",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For each of the nine rows n=m(p+1), the order-n multiplicative coset partitions into m/2 cosets of its unique subgroup of order 2(p+1). Applying the exact antipodal m=2 construction in each subgroup coset gives p+1 unordered split-fiber pairs per coset, hence exactly n/2 explicit embedded pairs. Their normalized perturbation has degree p-2, so they occur at checkpoint depths p and p+1. The inner polynomial is odd, zero is not split, and nonzero split values occur in sign pairs. Since maximal degree h=m is impossible, embedded pencils have exactly h=2 when m=4 and only even h<m in general. This is a necessary polynomial lower family, not an exhaustive h=2 classification, a nonembedded h>=3 exclusion, or an L1 bound.",
+   "refs": [
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/statement.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/proof.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/claim_contract.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/dependency_subdag.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/audit.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/result.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/lineage.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/verify.py",
+    "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/verify_audit.py",
+    "experiments/prize_resolution/l1_mersenne_checkpoint_analog_result.md"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_colored_cyclic_equivalence",
+   "title": "L1 m=4, h=3 colored cyclic-code equivalence",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On each of the four official rows n=4(p+1), exact split-value degree h=3 is equivalent to a word with coefficients in {0,1,omega,omega^2}, each nonzero color occurring p times, such that both the word and its coefficientwise square lie in the explicit Mersenne cyclic code. Here omega is a prime-field cube root because p=1 mod 3. The coefficientwise cube is the union indicator and has exactly p+4 zero positions. This is an exact two-Schur-section reduction, not an emptiness theorem, component count, nonembedded h=2 classification, or L1 bound.",
+   "refs": [
+    "background/nodes/l1_m4_h3_colored_cyclic_equivalence/statement.md",
+    "background/nodes/l1_m4_h3_colored_cyclic_equivalence/proof.md",
+    "background/nodes/l1_m4_h3_colored_cyclic_equivalence/claim_contract.md",
+    "background/nodes/l1_m4_h3_colored_cyclic_equivalence/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_colored_cyclic_equivalence/audit.md",
+    "background/nodes/l1_m4_h3_colored_cyclic_equivalence/result.md",
+    "background/nodes/l1_m4_h3_colored_cyclic_equivalence/lineage.md",
+    "background/nodes/l1_m4_h3_colored_cyclic_equivalence/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_colored_cyclic_equivalence/verify.py",
+    "background/nodes/l1_m4_h3_colored_cyclic_equivalence/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_mason_defect_budget",
+   "title": "L1 m=4, h=3 Mason defect budget",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a hypothetical exact h=3 pencil on an official row n=4(p+1), depress the outer cubic and write (R^3+aR+b)D=X^n-alpha with deg R=p and deg D=p+4. Its linear coefficient satisfies a!=0. If nu=ord_0(R), then 0<=nu<=4, and H=3XU'D+XUD'-(n-3nu)UD is nonzero of degree at most 4-nu for U=R/X^nu. The product of the radical-defect factors UD/rad(UD) and B_0/rad(B_0), where B_0=((aR+b)D+alpha)/X^(3nu), divides H. Hence every repeated-root or overlap defect is localized at at most 4-nu points and the total defect is at most 4-nu. This is a finite low-defect classification target, not an emptiness theorem, component count, nonembedded h=2 classification, or L1 bound.",
+   "refs": [
+    "background/nodes/l1_m4_h3_mason_defect_budget/statement.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/proof.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/claim_contract.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/audit.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/result.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/lineage.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_mason_defect_budget/verify.py",
+    "background/nodes/l1_m4_h3_mason_defect_budget/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_cartier_resonance_reduction",
+   "title": "L1 m=4, h=3 Cartier resonance reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a hypothetical official m=4,h=3 record, choose s_nu=p-4,p-1,2,5,8 for nu=0,...,4. The Wronskian equation has the exact integrating-factor form (X^s_nu U^3D)'=X^(s_nu-1)U^2H. Formal derivatives have zero coefficient in every degree jp-1, so the former maximum deg H=4-nu is impossible. Consequently nu=4 is empty, while nu=0,1,2,3 have eliminant degree and total radical defect at most 3,2,1,0 and satisfy four printed residual coefficient constraints. In particular nu=3 is squarefree/coprime throughout. This reduces but does not close the m=4,h=3 branch or L1.",
+   "refs": [
+    "background/nodes/l1_m4_h3_cartier_resonance_reduction/statement.md",
+    "background/nodes/l1_m4_h3_cartier_resonance_reduction/proof.md",
+    "background/nodes/l1_m4_h3_cartier_resonance_reduction/claim_contract.md",
+    "background/nodes/l1_m4_h3_cartier_resonance_reduction/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_cartier_resonance_reduction/audit.md",
+    "background/nodes/l1_m4_h3_cartier_resonance_reduction/result.md",
+    "background/nodes/l1_m4_h3_cartier_resonance_reduction/lineage.md",
+    "background/nodes/l1_m4_h3_cartier_resonance_reduction/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_cartier_resonance_reduction/verify.py",
+    "background/nodes/l1_m4_h3_cartier_resonance_reduction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_euler_quotient_factorization",
+   "title": "L1 m=4, h=3 Euler quotient factorization",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every surviving official m=4,h=3 valuation, put V=nu U+XU'. Eliminating D' between the domain derivative and Wronskian equation gives D(2aR+3b)V=H(R^3+aR+b)-4alpha U. The eliminant has H(0)!=0, and if h=deg H then V has exact degree p+h-4, between p-4 and p-nu-1. This exposes at most three top Euler-coefficient cancellations but does not exclude a remaining valuation, count components, or close L1.",
+   "refs": [
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/statement.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/proof.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/claim_contract.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/audit.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/result.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/lineage.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/verify.py",
+    "background/nodes/l1_m4_h3_euler_quotient_factorization/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu3_quadratic_frobenius_kernel",
+   "title": "L1 m=4, h=3, nu=3 quadratic Frobenius kernel",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In the clean nu=3 case, let J be the canonical antiderivative of cX^4U^2 with all p-multiple coefficients zero. There is a unique quadratic Q=q_2X^2+q_1X with q_2!=0 and q_2^p=a such that X^5U^3D=(X^4-Q)^p+J and X^5B_0=Q^p-J. Also ord_0(J)=5 and c=5U(0)D(0). Thus the wild Frobenius kernel has two scalar parameters. This node alone is a normal form; the proved tangent-radical successor excludes nu=3, while L1 remains open through other strata.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/statement.md",
+    "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/proof.md",
+    "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/audit.md",
+    "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/result.md",
+    "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/lineage.md",
+    "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/verify.py",
+    "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_tangent_radical_exclusion",
+   "title": "L1 m=4, h=3 tangent-radical exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For positive valuation, roots of the degree-p tangent polynomial T=2aR+3b lie on the degree-(nu+eta) polynomial X^nu H-kappa, while T'=2aX^(nu-1)V and deg V=p+eta-4. Comparing the radical and derivative multiplicity degrees forces nu+2eta>=4. This excludes (nu,eta)=(1,0),(1,1),(2,0),(3,0), so nu=3 is empty and only positive strata (1,2),(2,1) remain. At (2,1), rad(T) is the printed cubic and T/rad(T) is proportional to V. Nu=0 and the two positive strata remain open, so L1 is not closed.",
+   "refs": [
+    "background/nodes/l1_m4_h3_tangent_radical_exclusion/statement.md",
+    "background/nodes/l1_m4_h3_tangent_radical_exclusion/proof.md",
+    "background/nodes/l1_m4_h3_tangent_radical_exclusion/claim_contract.md",
+    "background/nodes/l1_m4_h3_tangent_radical_exclusion/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_tangent_radical_exclusion/audit.md",
+    "background/nodes/l1_m4_h3_tangent_radical_exclusion/result.md",
+    "background/nodes/l1_m4_h3_tangent_radical_exclusion/lineage.md",
+    "background/nodes/l1_m4_h3_tangent_radical_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_tangent_radical_exclusion/verify.py",
+    "background/nodes/l1_m4_h3_tangent_radical_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu2_prime_field_belyi_normal_form",
+   "title": "L1 m=4, h=3, nu=2 prime-field Belyi normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In the surviving (nu,deg H)=(2,1) stratum, the three tangent multiplicities e_1,e_2,e_3 are pairwise distinct positive integers summing to p and determine all tangent-root ratios by r_i=lambda(e_j-e_k)^(-1). Consequently R(X)=lambda^p(S_e(X/lambda)-S_e(0)) for an explicit S_e in F_p[X] with only critical values 0 and the tangent value. This is a discrete multiplicity normal form plus one scalar conjugacy, not an exclusion, regular-fiber count, or L1 closure.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/statement.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/proof.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/audit.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/result.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/lineage.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/verify.py",
+    "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_positive_value_coset_certificate",
+   "title": "L1 m=4 positive-valuation value-coset certificate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For positive depressed inner valuation, the three split values lie in one value coset. Frobenius reduces their zero-sum condition to 16 exact quadratic quarter-class cases. Quotient-ring certificates show no case for p=8191 or 131071, excluding all positive valuation there. For p=524287 and 2147483647 there is one projective value triple, the roots of Y^3-2Y+1, so every positive record satisfies a^3+8b^2=0. Nu=0 and the latter positive strata remain open, so L1 is not closed.",
+   "refs": [
+    "background/nodes/l1_m4_positive_value_coset_certificate/statement.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/proof.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/claim_contract.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/dependency_subdag.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/audit.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/result.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/lineage.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/upstream_crosswalk.md",
+    "background/nodes/l1_m4_positive_value_coset_certificate/verify.py",
+    "background/nodes/l1_m4_positive_value_coset_certificate/verify_audit.py",
+    "experiments/prize_resolution/l1_m4_depressed_value_coset_check.py",
+    "experiments/prize_resolution/l1_m4_depressed_value_coset_result.md"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu2_base_field_normalization",
+   "title": "L1 m=4, h=3, nu=2 base-field normalization",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For p=524287 and 2147483647, every surviving positive (nu,deg H)=(2,1) record admits a simultaneous prime-field normalization: R_0 and the outer cubic g_0(Y)=Y^3-2c^2Y+c^3 lie over F_p, the normalized domain coset is Frobenius-stable with equation Z^n=A for A in F_p, and the exact complement D_0 also lies in F_p[Z]. One split fiber is fixed and the other two are conjugate. This is a structural reduction, not an exclusion, multiplicity-triple count, or L1 closure.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/statement.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/proof.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/audit.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/result.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/lineage.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/verify.py",
+    "background/nodes/l1_m4_h3_nu2_base_field_normalization/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu2_fixed_point_certificate",
+   "title": "L1 m=4, h=3, nu=2 fixed-point certificate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In every base-field-normalized positive (nu,deg H)=(2,1) record, Frobenius orbit parity and the product of the fixed split fiber force the normalized domain coset to equal cK and its binomial parameter to be A=c^n. Exactly one of +c,-c is the unique prime-field root of the fixed fiber and the other is a complement root. Hence every Belyi multiplicity triple satisfies one of two explicit scalar equations and a canonical scalar-free divisibility F_e^3-2F_e+1 | W^n-1. This is a necessary certificate, not a converse, exclusion, or L1 closure.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu2_fixed_point_certificate/statement.md",
+    "background/nodes/l1_m4_h3_nu2_fixed_point_certificate/proof.md",
+    "background/nodes/l1_m4_h3_nu2_fixed_point_certificate/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu2_fixed_point_certificate/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu2_fixed_point_certificate/audit.md",
+    "background/nodes/l1_m4_h3_nu2_fixed_point_certificate/result.md",
+    "background/nodes/l1_m4_h3_nu2_fixed_point_certificate/lineage.md",
+    "background/nodes/l1_m4_h3_nu2_fixed_point_certificate/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu2_fixed_point_certificate/verify.py",
+    "background/nodes/l1_m4_h3_nu2_fixed_point_certificate/verify_audit.py",
+    "experiments/prize_resolution/l1_m4_h3_nu2_scalar_free_analogs.py",
+    "experiments/prize_resolution/l1_m4_h3_nu2_scalar_free_analogs_result.md"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu0_cubic_frobenius_kernel",
+   "title": "L1 m=4, h=3, nu=0 cubic Frobenius kernel",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Across all four nu=0 eliminant-degree cases, canonical Cartier integration gives X^(p-4)R^3D=(X^5-Q)^p+J and X^(p-4)B_0=Q^p-J for a unique sparse cubic Q=q_3X^3+q_2X^2+q_1X with q_3^p=a. The kernel has only three scalar parameters and H(0)=-4R(0)D(0). This is structural compression, not an exclusion, component count, or L1 closure.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/statement.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/proof.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/audit.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/result.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/lineage.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/verify.py",
+    "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu0_nonzero_b_tangent_exclusion",
+   "title": "L1 m=4, h=3, nu=0 nonzero-b tangent exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For nu=0 and nonzero depressed constant b, every tangent root lies on H=kappa with kappa=-48 alpha a^2/Delta, while the tangent radical has degree at least 5-deg H. This excludes deg H=1,2; at deg H=0 it forces H=kappa and R(0)Delta+12a^2g(R(0))=0, and at deg H=3 there are only two or three tangent roots. The b=0 arm and endpoint cases remain open, so L1 is not closed.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/statement.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/proof.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/audit.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/result.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/lineage.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/verify.py",
+    "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu0_zero_b_value_coset_certificate",
+   "title": "L1 m=4, h=3, nu=0 zero-b value-coset certificate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For nu=0,b=0, products of the three complete fibers yield subgroup elements u,v with u+v=2. A complete 16-case Frobenius quarter-class certificate excludes this arm at p=8191 and 131071. At p=524287 and 2147483647, every survivor satisfies a^2+3aR(0)^2+R(0)^4=0. The latter arm and nonzero-b endpoints remain open, so L1 is not closed.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/statement.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/proof.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/audit.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/result.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/lineage.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/verify.py",
+    "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/verify_audit.py",
+    "experiments/prize_resolution/l1_m4_h3_nu0_zero_b_value_coset_check.py",
+    "experiments/prize_resolution/l1_m4_h3_nu0_zero_b_value_coset_result.md"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu0_h0_projective_branch_exclusion",
+   "title": "L1 m=4, h=3, nu=0, h=0 projective branch exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In the surviving nu=0,b!=0,deg H=0 endpoint, the zero-point scalar equation factors into two projective components. A local order comparison in the Euler identity excludes the component 2aR(0)+3b=0. Every survivor therefore satisfies 9bR(0)=4a^2+6aR(0)^2, leaving one projective outer parameter. This is not an endpoint exclusion or L1 closure.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/statement.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/proof.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/audit.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/result.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/lineage.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/verify.py",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu0_h0_projective_quarter_certificate",
+   "title": "L1 m=4, h=3, nu=0, h=0 projective quarter certificate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In the surviving nu=0,b!=0,deg H=0 endpoint, the exact 16-quarter fiber-product certificate restricts (a/R(0)^2,b/R(0)^3) to (6,20) on the first three official characteristics and to that pair or (844833809,2002167159) on p=2147483647. This necessary projective classification does not assert that either packet lifts or close L1.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/statement.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/proof.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/audit.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/result.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/lineage.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/verify.py",
+    "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/verify_audit.py",
+    "experiments/prize_resolution/l1_m4_h3_nu0_h0_projective_quarter_check.py",
+    "experiments/prize_resolution/l1_m4_h3_nu0_h0_projective_quarter_result.md"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu0_h0_universal_packet_exclusion",
+   "title": "L1 m=4, h=3, nu=0, h=0 universal packet exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The universal normalized constant-eliminant packet (a/R(0)^2,b/R(0)^3)=(6,20) is impossible: its Euler identity makes X^n(R-4R(0))/(D(R-R(0))^4) a pth power, but the forced root multiplicities cannot sum to deg(R-R(0))=p. Thus the h=0 nonzero-b endpoint is empty on the first three official characteristics; only the exceptional largest-characteristic packet remains.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/statement.md",
+    "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/proof.md",
+    "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/audit.md",
+    "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/result.md",
+    "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/lineage.md",
+    "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/verify.py",
+    "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion",
+   "title": "L1 m=4, h=3, nu=0, h=0 auxiliary-fiber exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every survivor on the nonzero-b constant-eliminant branch has complement D=rad(R-R(0))/X times rad(R-(2A/3)R(0)), forcing a normalized shifted cubic to divide W^(4(p+1))-1. The sole exceptional packet on p=2147483647 leaves nonzero remainder 876663072, so it is impossible. Together with the universal-packet theorem, the endpoint is empty on all four official characteristics.",
+   "refs": [
+    "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/statement.md",
+    "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/proof.md",
+    "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/claim_contract.md",
+    "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/dependency_subdag.md",
+    "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/audit.md",
+    "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/result.md",
+    "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/lineage.md",
+    "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/verify.py",
+    "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -29343,6 +29715,236 @@
   },
   {
    "from": "l1_identity_pullback_role_payment_fence",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_official_broad_checkpoint_frobenius_periodicity_exclusion",
+   "to": "l1_mersenne_checkpoint_cyclotomic_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_checkpoint_cyclotomic_normal_form",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_official_split_pencil_value_capacity",
+   "to": "l1_mersenne_checkpoint_embedded_m2_family",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_checkpoint_cyclotomic_normal_form",
+   "to": "l1_mersenne_checkpoint_embedded_m2_family",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_checkpoint_embedded_m2_family",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_checkpoint_cyclotomic_normal_form",
+   "to": "l1_m4_h3_colored_cyclic_equivalence",
+   "kind": "req"
+  },
+  {
+   "from": "l1_official_max_split_value_complement_census",
+   "to": "l1_m4_h3_colored_cyclic_equivalence",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_colored_cyclic_equivalence",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_colored_cyclic_equivalence",
+   "to": "l1_m4_h3_mason_defect_budget",
+   "kind": "req"
+  },
+  {
+   "from": "l1_official_max_split_value_complement_census",
+   "to": "l1_m4_h3_mason_defect_budget",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_mason_defect_budget",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_mason_defect_budget",
+   "to": "l1_m4_h3_cartier_resonance_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_cartier_resonance_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_cartier_resonance_reduction",
+   "to": "l1_m4_h3_euler_quotient_factorization",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_euler_quotient_factorization",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_cartier_resonance_reduction",
+   "to": "l1_m4_h3_nu3_quadratic_frobenius_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_euler_quotient_factorization",
+   "to": "l1_m4_h3_nu3_quadratic_frobenius_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu3_quadratic_frobenius_kernel",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_cartier_resonance_reduction",
+   "to": "l1_m4_h3_tangent_radical_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_euler_quotient_factorization",
+   "to": "l1_m4_h3_tangent_radical_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_tangent_radical_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_tangent_radical_exclusion",
+   "to": "l1_m4_h3_nu2_prime_field_belyi_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu2_prime_field_belyi_normal_form",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_colored_cyclic_equivalence",
+   "to": "l1_m4_positive_value_coset_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_tangent_radical_exclusion",
+   "to": "l1_m4_positive_value_coset_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_positive_value_coset_certificate",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_nu2_prime_field_belyi_normal_form",
+   "to": "l1_m4_h3_nu2_base_field_normalization",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_positive_value_coset_certificate",
+   "to": "l1_m4_h3_nu2_base_field_normalization",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu2_base_field_normalization",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_nu2_base_field_normalization",
+   "to": "l1_m4_h3_nu2_fixed_point_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu2_fixed_point_certificate",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_cartier_resonance_reduction",
+   "to": "l1_m4_h3_nu0_cubic_frobenius_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_euler_quotient_factorization",
+   "to": "l1_m4_h3_nu0_cubic_frobenius_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_cubic_frobenius_kernel",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_euler_quotient_factorization",
+   "to": "l1_m4_h3_nu0_nonzero_b_tangent_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_nonzero_b_tangent_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_mason_defect_budget",
+   "to": "l1_m4_h3_nu0_zero_b_value_coset_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_zero_b_value_coset_certificate",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_nu0_nonzero_b_tangent_exclusion",
+   "to": "l1_m4_h3_nu0_h0_projective_branch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_h0_projective_branch_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_nu0_h0_projective_branch_exclusion",
+   "to": "l1_m4_h3_nu0_h0_projective_quarter_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_h0_projective_quarter_certificate",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_nu0_h0_projective_quarter_certificate",
+   "to": "l1_m4_h3_nu0_h0_universal_packet_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_h0_universal_packet_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m4_h3_nu0_h0_universal_packet_exclusion",
+   "to": "l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

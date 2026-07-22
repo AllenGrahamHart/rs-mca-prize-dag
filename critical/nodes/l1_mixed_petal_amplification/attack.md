@@ -457,3 +457,66 @@
   printed ledger should be removed analytically. The live object is the
   support-entropy/anchor-exponent gap after this charge, not raw `(F,W)`
   multiplicity.
+- At the first characteristic checkpoint (`t=p`), consume the official
+  atlas and all four split-pencil theorems before any search. Do not launch
+  `m<=2`, maximal-value `h=m`, or broad-remainder `m>=3` rows: they are
+  classified or empty. The only live tuples satisfy `n=m(p+1)` with
+  `m in {4,8,16}` and `2<=h<=m-1`. A successor must retain exact row, depth,
+  split-value degree, complement degree, depressed-pencil valuation, and
+  first owner. Raw complement, support, or `(Q,b,c)` enumeration is not an
+  admissible route. Apply
+  `l1_mersenne_checkpoint_cyclotomic_normal_form` next: retain only Fourier
+  frequencies in its two-residue chambers and treat the exact weight
+  `2(p+1)-2` as a low-weight cyclic-code classification problem. The
+  `(32,7,4)` analogue rules out conjecturing total emptiness. Prepay the
+  proved `n/2` embedded antipodal pairs at depths `p,p+1` from
+  `l1_mersenne_checkpoint_embedded_m2_family`; do not search for or report
+  them as new events. Embedded split values are paired by sign, so at `m=4`
+  maximal-degree emptiness makes those pencils exactly `h=2`. Its analogue
+  absence of nonembedded `h=3` remains evidence only. Search or prove only
+  the nonembedded `h>=3` branch and explicitly nonembedded `h=2` records.
+  For `m=4,h=3`, apply `l1_m4_h3_colored_cyclic_equivalence`: seek an
+  emptiness or component theorem for words `b` with
+  `b,b^[2] in C_M`, exact three-color counts `p,p,p`, and zero complement
+  `p+4`. One code constraint alone is not equivalent and must not be used.
+  Then apply `l1_m4_h3_mason_defect_budget` and
+  `l1_m4_h3_cartier_resonance_reduction`: `a=0`, `nu=4`, and now `nu=3` are
+  impossible. Apply `l1_m4_h3_tangent_radical_exclusion`; positive valuation
+  has only `(nu,deg H)=(1,2),(2,1)`, with an exact cubic tangent radical in
+  the latter. Then apply `l1_m4_positive_value_coset_certificate`: positive
+  valuation is empty at `p=8191,131071`, while at
+  `p=524287,2147483647` it satisfies `a^3+8b^2=0`. In the surviving
+  `(2,1)` stratum, consume the prime-field Belyi normal form and base-field
+  normalization, then the fixed-point certificate. The domain is `cK`, and
+  every pairwise-distinct multiplicity triple must pass one of two scalar
+  sign tests and the canonical divisibility
+  `F_e^3-2F_e+1 | W^n-1`. Search these triples only after proving a
+  completeness-preserving compression; do not search arbitrary coefficients,
+  scalar conjugates, or domain parameters. Treat `nu=0` separately,
+  and apply the cubic Frobenius-kernel normal form before any search. On
+  `b!=0`, remove `deg H=1,2`; retain only the constant-level case and the
+  cubic two/three-root tangent passports. In the constant-level case, first
+  apply `l1_m4_h3_nu0_h0_projective_branch_exclusion` and then
+  `l1_m4_h3_nu0_h0_projective_quarter_certificate`. The former deletes the
+  tangent-at-zero component. The latter leaves only normalized outer packet
+  `(A,B)=(6,20)` for `p=8191,131071,524287`, and that packet plus
+  `(844833809,2002167159)` for `p=2147483647`, where
+  `A=a/R(0)^2,B=b/R(0)^3`. Then apply
+  `l1_m4_h3_nu0_h0_universal_packet_exclusion`: a rational-derivative
+  divisor argument excludes `(6,20)` on every row. Thus `deg H=0` is empty
+  on the first three characteristics and only the exceptional packet on
+  `p=2147483647` reaches the next step. Apply
+  `l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion`: exact degree accounting makes
+  the complement the union of two auxiliary fibers, and their product coset
+  forces a cubic divisibility by `W^n-1` which the exceptional packet fails.
+  The entire `deg H=0` endpoint is empty; do not search it. Remove `b=0` entirely at
+  `p=8191,131071`. On `p=524287,2147483647`, retain its four degrees only
+  under `a^2+3aR(0)^2+R(0)^4=0`. Enforce the Cartier constraints and Euler quotient
+  factorization. Any computation should expose the sparse cubic kernel and
+  identify one of these row-valid exact strata; a generic no-hit SAT run does
+  not pay the branch.
+  Contributor-scale
+  work is specified as `CR-L1-MCP` in
+  `notes/PRIZE_COMPUTE_REQUESTS.md`; its former `NU0-H0` pre-request is now a
+  retirement record and must not be sent upstream as live compute. No local
+  or current-account Modal run is authorized.

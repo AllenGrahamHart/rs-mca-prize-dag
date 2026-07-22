@@ -1868,6 +1868,101 @@ does not move because the unsafe side was already green. The remaining
 rate-half prize obligation is still the safe-side localization above
 `a=k+2^34-1`, represented by `rate_half_list_adjacent_crossing`.
 
+**Track-C checkpoint refinement (proved, 2026-07-22).** The minimum
+characteristic-width coarse branch has been reduced from an unbounded
+split-pencil census to nine exact Mersenne-shape rows. The official atlas has
+59 `(n,p)` pairs: all `m=1` rows are empty; all `m=2` rows are either empty
+or the explicit antipodal family; maximal split-value degree is empty on all
+16 `m>=3` rows; and Frobenius periodicity removes seven broad-remainder rows
+at every first-checkpoint depth. The surviving rows have
+`n=m(p+1)`, `m in {4,8,16}`, and `2<=h<=m-1`. This is a real closure of the
+`t=p` endpoint outside those nine rows, not an L1 status flip. The next proof
+step now starts from the proved Mersenne cyclotomic normal form: frequency
+`q(p+1)+b` survives exactly outside two residue classes modulo
+`gcd(2b,m)`, and every collision is an exact-weight `2p` codeword above an
+`N+1` BCH floor. The complete `(32,7,4)` analogue has 16 `h=2` pencils and no
+`h>=3` pencil. All 16 are embedded order-`2(p+1)` antipodal families, and the
+same construction now proves exactly `n/2` explicit pairs at depths `p,p+1`
+on every official surviving row. Total emptiness is therefore false as a
+strategy; prepay this polynomial family and attack `m=4,h=3` plus
+nonembedded `h=2`. Oddness pairs every embedded split value with its
+negative, so maximal-degree emptiness proves that the `m=4,h=3` branch is
+entirely nonembedded. The corresponding large-run idea remains parked as `CR-L1-MCP`,
+gated on a completeness-preserving low-weight-codeword compression and a
+measured pilot.
+The nonembedded `m=4,h=3` object is no longer an unspecified split-pencil
+census: it is exactly the two-Schur section `b,b^[2] in C_M`, with three
+nonzero colors of size `p` and a `p+4` zero complement. The next analytic
+target is a component or emptiness theorem for that section. Any computation
+must retain both code constraints; a one-code BCH search does not test the
+posed branch.
+The first compressed CP-SAT pilot at the next analogue `(p,n)=(31,128)` is
+explicitly `INCOMPLETE`: after two model-validation repairs, the validated
+run hit the 60-second Modal function cap before returning any solver status.
+It supplies no mathematical evidence and will not be rerun on the current
+account. `CR-L1-MCP-C31` records the contributor task, including precomputed
+Fourier coefficients, model hashing, separated build/search timing, and
+independent witness replay. Analytic component structure remains the primary
+route; compute is a falsifier and route selector only.
+The exact abc ledger now sharpens the analytic route further. In any
+hypothetical official `m=4,h=3` record, the depressed cubic has nonzero
+linear coefficient and a low-degree Wronskian eliminant containing the full
+defect factor. The Cartier refinement excludes `ord_0(R)=4`; the four
+remaining valuations `0,1,2,3` have eliminant degrees at most `3,2,1,0` and
+four exact missing-derivative coefficient constraints. These proved
+reductions are `l1_m4_h3_mason_defect_budget` and
+`l1_m4_h3_cartier_resonance_reduction`. The immediate proof target is a
+four-case low-defect Davenport-Mason classification. The companion
+`l1_m4_h3_euler_quotient_factorization` pins the eliminant's constant term
+and converts its degree into the exact degree `p+deg(H)-4` of
+`nu U+XU'`. The tangent-radical successor then excludes `nu=3` and all
+positive strata except `(nu,deg H)=(1,2),(2,1)`; the latter has an exact
+cubic tangent radical. The exact positive-value coset certificate now removes
+both positive strata entirely at `p=8191,131071`; those rows retain only the
+`nu=0,b!=0` endpoint degrees zero and three. At
+`p=524287,2147483647`, every positive record satisfies `a^3+8b^2=0`. The
+surviving `(2,1)` case is further reduced
+to pairwise-distinct multiplicity triples summing to `p` in an explicit
+prime-field Belyi normal form, with the outer cubic, domain binomial, and
+complement all normalized over `F_p`. The fixed-point certificate removes the
+last scalar: the domain is `cK`, one of `+c,-c` is the fixed-fiber root, and
+every triple must satisfy one scalar-free divisibility
+`F_e^3-2F_e+1 | W^n-1`. The positive split is therefore `(1,2)` and the
+base-field-normalized `(2,1)` only on the latter two rows. The CP model is
+secondary and must respect this row split.
+All `nu=0` degrees now share a canonical sparse cubic Frobenius kernel. On
+the `b!=0` arm, tangent localization excludes the middle degrees one and two,
+leaving only a scalar-pinned constant eliminant and a cubic eliminant with
+two or three tangent roots. The zero-`b` value-coset certificate deletes all
+four `b=0` degrees at `p=8191,131071`; at `p=524287,2147483647` it retains
+them only under `a^2+3aR(0)^2+R(0)^4=0`. The live `nu=0` partition is
+therefore the nonzero-`b` cubic endpoint on every row, one exceptional
+constant-endpoint packet reaching the auxiliary test only on the largest
+characteristic, and four invariant-pinned zero-`b` degrees on the latter two
+characteristics.
+The constant nonzero-`b` endpoint is now finite at the outer-projective
+level. Its scalar equation has two components; a local Euler-order argument
+deletes `2aR(0)+3b=0`, and the exact 16-quarter fiber-product certificate
+leaves only `(A,B)=(6,20)` on the first three characteristics and that pair
+plus `(844833809,2002167159)` on `p=2147483647`. Here
+`A=a/R(0)^2,B=b/R(0)^3`. The quarter step alone is not a lift or endpoint
+exclusion. The next Euler-divisor step excludes the universal `(6,20)` packet on every
+characteristic: a forced `p`th-power rational function would require the
+nonzero roots of `R-R(0)` all to have multiplicity `(3p-1)/4`, incompatible
+with their total degree `p-1`. Thus this endpoint is empty on the first three
+characteristics. Only the exceptional largest-characteristic packet remains;
+the exact auxiliary-fiber theorem then forces its normalized shifted cubic to
+divide `W^(4(p+1))-1`, but the remainder is `876663072!=0`. Hence the entire
+nonzero-`b` constant endpoint is empty on all four characteristics.
+`CR-L1-MCP-NU0-H0` is retained only as a retirement record; no contributor
+compute should be requested for it.
+The complete scalar-free analogues at `p=7,31,127` have zero divisibility
+witnesses and are now the conformance oracle for a future compiler; they do
+not exclude an official row.
+`CR-L1-MCP-NU2` records the donated-compute pre-request for the scalar-free
+regular-fiber divisibility problem; it is not locally authorized and still
+needs a completeness-preserving multiplicity compiler before any large run.
+
 **Track H — hedges (funded, never built on):** H1 price RK by one dedicated
 refutation round (survives -> insurance; dies -> the 17-leaf prune comes off
 the books); H2 FD as a schema only after the c2pp instance adjudicates;

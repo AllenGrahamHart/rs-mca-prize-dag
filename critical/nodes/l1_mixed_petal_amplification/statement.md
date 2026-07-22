@@ -941,3 +941,157 @@ different: `l1_decorated_shift_pair_gcd_descent_sharpness` gives ten exact
 `F_13` witnesses at the first endpoint `e'=w'+1` on one support-pair shape
 while varying `U`. This does not refute L1, but proves that the reduced high
 branch must retain its received-word/Toeplitz owner.
+
+## Official first-checkpoint closure
+
+The minimum coarse characteristic-width endpoint is now an exact finite
+router. `l1_official_first_checkpoint_split_pencil_reduction` proves that
+every `t=p` collision at `p<=d<=2p-2` consists of two complete fibers of
+`Z^p+Q`, with `deg Q<=2p-d-1`; a ratio-set bound removes the final
+`r_*(p,n)=floor((p(p-1)-1)/(n-1))` depths. For each surviving normalized
+`Q`, `l1_official_split_pencil_value_capacity` recovers all split values as
+one squarefree remainder gcd of degree at most `floor(n/p)<=23`.
+
+The arithmetic atlas contains exactly 59 official `(n,p)` checkpoint pairs.
+All 33 rows with `floor(n/p)=1` are empty. Of the ten rows with
+`floor(n/p)=2`, six are empty and four have exactly `n/2` antipodal pairs.
+For the 16 rows of multiplicity at least three, the complement census makes
+the maximal split-value degree empty at every depth. Frobenius closure of the
+balanced signed Fourier word then removes all seven rows with remainder
+`n-p floor(n/p)>16` entirely. The only unresolved minimum-width rows are the
+nine Mersenne-shape tuples
+
+```text
+n=m(p+1),       m in {4,8,16},       2<=deg G_Q<=m-1.
+```
+
+`l1_mersenne_checkpoint_cyclotomic_normal_form` now describes the full
+residual Fourier closure. Writing `N=p+1` and every frequency as `qN+b`, its
+membership is decided by two residue classes modulo `gcd(2b,m)`. In
+particular all `N` frequencies `0,...,N-1` vanish, so the signed collision
+word belongs to an explicit BCH-type low-weight window
+`N+1<=weight=2N-2<2(N+1)`. The nonofficial `(32,7,4)` analogue exhausts all
+seven-subsets and has 16 `h=2` pencils but no `h>=3` pencil; this is evidence,
+not an official-row exclusion.
+
+The observed two-fiber family is now proved uniformly.
+`l1_mersenne_checkpoint_embedded_m2_family` partitions every surviving
+domain into `m/2` cosets of order `2(p+1)` and embeds the exact antipodal
+`m=2` construction in each. This gives exactly `n/2` explicit unordered
+pairs at depths `p,p+1`. It is a necessary polynomial payload, not an
+exhaustive classification of `h=2`; the exclusion frontier is `h>=3` plus
+any nonembedded two-fiber records. The embedded inner polynomial is odd, so
+its split values come in nonzero sign pairs. Together with maximal-degree
+emptiness, this makes every embedded `m=4` pencil exactly `h=2`; the
+`m=4,h=3` branch is wholly nonembedded.
+
+That cubic branch is now exactly re-encoded by
+`l1_m4_h3_colored_cyclic_equivalence`. Since every official `m=4`
+characteristic is `1 mod 3`, color the three fibers by
+`1,omega,omega^2`. Both the colored word and its coefficientwise square must
+lie in the explicit Mersenne cyclic code, and this condition is also
+sufficient. Its coefficientwise cube is the union indicator with exactly
+`p+4` zero positions. The remaining theorem is emptiness or a row-sharp
+component bound for this two-Schur section, not a generic `Q` enumeration.
+
+The first analytic component compression is now proved in
+`l1_m4_h3_mason_defect_budget`. Writing the depressed factorization as
+`(R^3+aR+b)D=X^n-alpha`, one necessarily has `a!=0` and
+`nu=ord_0(R) in {0,1,2,3,4}`. The radical deficits of `UD` and of the second
+reduced Mason summand total at most `4-nu`. The Wronskian also gives the
+explicit nonzero eliminant
+`3XU'D+XUD'-(n-3nu)UD` of degree at most `4-nu`, and the full defect factor
+divides it. The Cartier refinement
+`l1_m4_h3_cartier_resonance_reduction` excludes `nu=4` and lowers the
+remaining eliminant degrees to `3,2,1,0` for `nu=0,1,2,3`. Thus all
+exceptional roots lie among at most three points and the cubic branch is a
+finite low-defect classification problem, not an unrestricted cyclic-code
+search. The companion `l1_m4_h3_euler_quotient_factorization` proves
+`D(2aR+3b)(nu U+XU')=Hg(R)-4alpha U`, pins `H(0)!=0`, and makes the Euler
+derivative degree exactly `p+deg(H)-4`. Evaluating its tangent factor gives
+`l1_m4_h3_tangent_radical_exclusion`: `nu=3` is empty and positive valuation
+is reduced to `(nu,deg H)=(1,2),(2,1)`. In the second stratum, the tangent
+radical is an exact cubic and its multiplicity factor is `nu U+XU'`. The
+four `nu=0` eliminant degrees remain separate.
+
+The positive branch is now row-sensitive. The exact value-coset certificate
+excludes every positive valuation for `p=8191,131071`. For
+`p=524287,2147483647`, every positive record has one projective split-value
+triple, equivalently `a^3+8b^2=0`. In its `(nu,deg H)=(2,1)` stratum, the
+tangent multiplicities are pairwise-distinct positive integers
+`e_1+e_2+e_3=p` and determine the inner polynomial up to one scalar through
+an explicit prime-field Belyi polynomial. The scalar and fixed split value
+then descend the outer cubic, domain binomial, and complement to `F_p`; one
+regular fiber is Frobenius-fixed and the other two are exchanged. Frobenius
+orbit parity and the fixed-fiber product remove the remaining scalar: the
+domain is `cK`, exactly one of `+c,-c` lies in the fixed split fiber, and
+simultaneous input/output scaling yields a canonical polynomial `F_e`
+determined only by the multiplicity triple with
+`F_e^3-2F_e+1 | W^n-1`. Therefore the live row split is:
+
+```text
+p=8191,131071:               nu=0,b!=0 endpoint deg H=3 only;
+p=524287,2147483647:         five nu=0 arms plus (1,2) and (2,1);
+nu=2 positive on latter p:   scalar-free Belyi divisibility by W^n-1.
+```
+
+Every `nu=0` stratum now has a canonical three-scalar Frobenius kernel:
+after multiplying by `X^(p-4)`, the reduced triple splits through one sparse
+cubic `Q=q_3X^3+q_2X^2+q_1X`. On the `b!=0` arm, tangent localization
+excludes `deg H=1,2`; `deg H=0` has one exact scalar relation, while
+`deg H=3` has only two or three tangent roots. After the packet exclusion
+below, the live `nu=0` split is the nonzero-`b`, `deg H=3` endpoint on every
+row; one exceptional nonzero-`b`, `deg H=0` packet only at
+`p=2147483647` reaches the auxiliary-fiber test below and is also excluded.
+Thus the live split is the nonzero-`b`, `deg H=3` endpoint on every row and
+the four `b=0` degrees only at `p=524287,2147483647`. The latter obey
+`a^2+3aR(0)^2+R(0)^4=0`. All share the cubic kernel. The zero-`b` arm is
+exactly empty at `p=8191,131071` by its 16-case value-coset certificate.
+
+The nonzero-`b`, `deg H=0` endpoint is now projectively finite. Factoring its
+zero-point scalar equation and comparing local orders removes the component
+`2aR(0)+3b=0`. The remaining component satisfies
+`9bR(0)=4a^2+6aR(0)^2`. Intersecting its shifted fiber-product ratios with
+all 16 Frobenius quarter pairs gives the complete necessary table
+
+```text
+p=8191,131071,524287:       (a/R(0)^2,b/R(0)^3)=(6,20);
+p=2147483647:               (6,20), or
+                             (844833809,2002167159).
+```
+
+The universal packet `(6,20)` is then excluded without computation. Its Euler
+identity makes
+
+```text
+X^n(R-4R(0))/(D(R-R(0))^4)
+```
+
+a `p`th power, but the resulting root multiplicities cannot sum to degree
+`p`. Hence the nonzero-`b`, `deg H=0` endpoint is empty for
+`p=8191,131071,524287`; only the exceptional packet on `p=2147483647`
+remains a necessary possibility.
+
+Finally, exact local degree accounting proves that the squarefree complement
+of any exceptional lift would be precisely the radicals of the two auxiliary
+fibers `R-R(0)` and `R-(2A/3)R(0)`. Their root products force the normalized
+shifted cubic to divide `W^(4(p+1))-1`. For the exceptional packet, the exact
+remainder is the nonzero constant `876663072`. It is therefore impossible as
+well, and the entire nonzero-`b`, `deg H=0` endpoint is empty on all four
+characteristics.
+
+The complete scalar-free conformance censuses at `p=7,31,127` leave zero
+divisibility witnesses; at `p=31,127` the sign gate first reduces `65,1281`
+triples to `3,19`. This is useful evidence and compiler calibration, not an
+official exclusion.
+
+This is not yet a complete exclusion or component bound. The remaining
+analytic work is the row-specific `nu=0` classification just printed,
+now with no constant-eliminant packet, the
+`(1,2)` positive classification on the latter two characteristics, and a
+multiplicity-triple/divisibility theorem for the scalar-free `(2,1)` Belyi
+family.
+
+These theorems concern only the `t=p` first-checkpoint endpoint. They do not
+pay wider exchanges, the primitive coprime split-pencil census, or the full
+L1 exact shell, so this node remains TARGET.

@@ -4125,3 +4125,236 @@ re-scope. Zero Modal launches. KB MERGE: v8's branch entries
 #126. Battery 30/30 on the touched set; harness census PASS;
 manifest 1058/14/1374. Findings:
 notes/wave21_import_20260722/ (created below).
+
+## 150 — 2026-07-22: OFFICIAL FIRST-CHECKPOINT ENDPOINT REDUCED TO NINE ROWS
+
+Five PROVED nodes compile the complete `t=p` checkpoint route. The exact
+characteristic atlas has 59 pairs; polynomial abc classifies all `m=2`
+endpoints and excludes maximal value degree for every `m>=3` row. Frobenius
+closure of the balanced prime-field Fourier word excludes all seven
+broad-remainder rows. The remaining nine tuples are exactly
+`n=m(p+1)`, `m in {4,8,16}`, with `2<=h<=m-1`. This does not promote L1:
+wider exchanges and the primitive split-pencil aggregate remain open.
+Potential large computation is parked as contributor request `CR-L1-MCP`,
+with raw enumeration forbidden and a compression-plus-pilot launch gate.
+
+## 151 — 2026-07-22: MERSENNE CHECKPOINT FREQUENCIES NORMALIZED
+
+The nine surviving `n=m(p+1)` rows now have an exact cyclotomic chamber
+formula in coordinates `k=q(p+1)+b`; two residue classes modulo
+`gcd(2b,m)` determine every zero. A full block of `p+1` consecutive zeros
+puts each collision at exact weight `2p` in a narrow BCH-type low-weight
+window. The complete `(32,7,4)` analogue (Modal app
+`ap-X9B0VIv80tdRxDSfYnkG9o`) found 16 `h=2` pencils and no `h>=3` pencil.
+This is evidence for attacking `m=4,h=3`, not an official exclusion or an
+L1 promotion. CR-L1-MCP now requires the chamber compression.
+
+## 152 — 2026-07-22: EMBEDDED M2 FAMILY PROVED ON ALL NINE ROWS
+
+The 16 two-fiber groups in the complete `(32,7,4)` analogue all lie in one
+order-16 coset and omit an antipodal pair. The structural explanation is
+uniform: each official `n=m(p+1)` domain has `m/2` cosets of its subgroup of
+order `2(p+1)`, and the exact m2 theorem contributes `p+1` pairs in each.
+Thus every row has exactly `n/2` explicit embedded pairs at depths `p,p+1`.
+This is a proved polynomial lower payload, not an exhaustive `h=2` count.
+The embedded inner polynomial is odd and zero is not split, so split values
+come in sign pairs. Maximal-degree emptiness therefore makes every embedded
+`m=4` pencil exactly `h=2`; future `m=4,h=3` work is wholly nonembedded.
+
+## 153 — 2026-07-22: M4/H3 IS AN EXACT TWO-SCHUR CYCLIC SECTION
+
+All four official `m=4` characteristics are `1 mod 3`. Coloring three fibers
+by `1,omega,omega^2` proves an equivalence: exact `h=3` iff both the colored
+word and its coefficientwise square lie in the explicit Mersenne cyclic
+code, with each nonzero color used `p` times. The coefficientwise cube is the
+union indicator and has `p+4` zeros. This is a PROVED re-encoding, not an
+emptiness result. The next theorem targets this two-Schur section directly;
+one-code searches are invalid.
+
+## 154 — 2026-07-22: FIRST TWO-SCHUR CP PILOT IS INCOMPLETE
+
+The next nonofficial analogue `(p,n,m,h)=(31,128,4,3)` has a direct CP-SAT
+model with balanced four-color variables and all 240 prime-field coordinate
+congruences for both required code memberships. Two validation failures were
+repaired, but the validated Modal run hit its 60-second function cap before
+returning a solver status. This is no mathematical evidence. The exact run
+ledger is preserved beside the script, and `CR-L1-MCP-C31` requests a
+precomputed coefficient table, separated build/search timing, model hash,
+and replayable result from a contributor. No current-account rerun is planned.
+
+## 155 - 2026-07-22: M4/H3 HAS A FOUR-UNIT MASON DEFECT BUDGET
+
+Specializing the exact complement factorization to `n=4(p+1),h=3` and
+retaining the proved exclusion of the Frobenius-degenerate arm yields a
+strict finite classification. In depressed form `(R^3+aR+b)D=X^n-alpha`,
+one has `a!=0`, `nu=ord_0(R)<=4`, and the radical deficits of `UD` and the
+second reduced summand total at most `4-nu`. A nonzero Wronskian eliminant
+has degree at most `4-nu`, and the complete defect factor divides it. Thus
+all exceptional roots are localized at at most four points, and the
+two-Schur branch has
+five low-defect valuation cases rather than an unbounded support search.
+This is PROVED compression, not emptiness; the next task is to classify or
+price those five cases.
+
+## 156 - 2026-07-22: CARTIER RESONANCE KILLS THE NU=4 CUBIC CASE
+
+For each Mason valuation, a small power `X^s` turns the Wronskian equation
+into `(X^sU^3D)'=X^(s-1)U^2H`. Formal derivatives in characteristic `p`
+have zero coefficient in every degree `jp-1`. The former maximum degree of
+`H` lands its nonzero leader exactly in such a slot, lowering
+`deg H<=4-nu` to `deg H<=3-nu`. Since `H` is nonzero, `nu=4` is impossible.
+The remaining valuations `0,1,2,3` carry eliminants of degree at most
+`3,2,1,0` and four exact coefficient constraints. This is a PROVED case
+exclusion and compression, not full `m=4,h=3` emptiness.
+
+## 157 - 2026-07-22: CUBIC EULER QUOTIENT FACTORIZATION
+
+Eliminating the complement derivative between the domain identity and the
+Wronskian equation gives
+`D(2aR+3b)(nu U+XU')=H(R^3+aR+b)-4alpha U` on all four surviving
+valuations. It proves `H(0)!=0` and the exact degree formula
+`deg(nu U+XU')=p+deg(H)-4`, so only zero to three top Euler coefficients can
+vanish. This is a PROVED companion factorization for the remaining
+Davenport-Mason case split, not a further valuation exclusion.
+
+## 158 - 2026-07-22: NU=3 WILD KERNEL IS QUADRATIC
+
+Canonical integration of the clean `nu=3` equation gives
+`X^5U^3D=(X^4-Q)^p+J` and `X^5B_0=Q^p-J`, where
+`J'=cX^4U^2` and `Q=q_2X^2+q_1X` with `q_2^p=a`. Thus the entire wild
+Frobenius kernel has two scalar parameters. This is a PROVED normal form;
+the next tangent-radical result supersedes its open-case posture by excluding
+`nu=3` entirely.
+
+## 159 - 2026-07-22: TANGENT RADICAL EXCLUDES NU=3
+
+For positive valuation, every root of `T=2aR+3b` lies on
+`X^nuH-kappa`, while `T'=2aX^(nu-1)V` and
+`deg V=p+deg(H)-4`. Radical/multiplicity comparison forces
+`nu+2deg(H)>=4`. It excludes all of `nu=3`, `(nu,deg H)=(2,0)`, and
+`(1,0),(1,1)`. The only positive strata left are `(1,2)` and `(2,1)`; in
+the latter the tangent radical is the exact printed cubic and
+`T/rad(T)` is proportional to `V`. This is a PROVED case closure, not full
+`m=4,h=3` emptiness.
+
+## 160 - 2026-07-22: NU=2 HAS A PRIME-FIELD BELYI NORMAL FORM
+
+In the positive `(nu,deg H)=(2,1)` stratum, the three tangent
+multiplicities are pairwise-distinct positive integers summing to `p`. Their
+differences determine all three tangent-root ratios, so the inner polynomial
+is an explicit prime-field two-critical-value polynomial up to one scalar
+conjugacy. This replaces arbitrary degree-`p` coefficients by a discrete
+multiplicity triple. It is a PROVED normal form, not a regular-fiber
+divisibility result or exclusion.
+
+## 161 - 2026-07-22: POSITIVE CUBIC VALUES HAVE ONE EXACT COSET ORBIT
+
+For positive valuation, the products of the three complete fibers put their
+split values in one multiplicative coset. Frobenius reduces the zero-sum
+condition to 16 exact quadratic quarter-class tests. Exact quotient-ring
+certificates leave no case for `p=8191,131071`, excluding all positive
+valuation there. For `p=524287,2147483647`, one projective value triple
+survives and every positive record satisfies `a^3+8b^2=0`. The computation
+is complete and independently replayed locally; `nu=0` and the latter
+positive strata remain open.
+
+## 162 - 2026-07-22: THE SURVIVING NU=2 CASE DESCENDS TO THE BASE FIELD
+
+Combining the Belyi scalar conjugacy with the unique positive value orbit
+shows that, for `p=524287,2147483647`, the normalized inner polynomial,
+outer cubic, domain binomial, and exact complement all lie in `F_p[Z]`.
+One split fiber is Frobenius-fixed and the other two are exchanged. The live
+`nu=2` question is therefore a prime-field multiplicity-triple regular-fiber
+divisibility problem. This is PROVED structural compression, not an
+exclusion; `CR-L1-MCP-NU2` records the unpriced donated-compute pre-request.
+
+## 163 - 2026-07-22: FROBENIUS REMOVES THE LAST NU=2 SCALAR
+
+The fixed prime-field split fiber has odd size while Frobenius has order four
+on the domain, so it contains exactly one prime-field root. Its root product
+forces that point to be `+c` or `-c`; hence the domain is exactly `cK` and
+its binomial parameter is `c^n`. Simultaneous scaling by `c` removes every
+remaining scalar and gives a canonical triple-indexed polynomial `F_e` with
+`F_e^3-2F_e+1 | W^n-1`. Each triple also obeys one of two explicit sign
+equations. This is a PROVED necessary certificate, not a converse or
+exclusion; it sharply replaces the former unpriced coefficient/domain search.
+
+## 164 - 2026-07-22: NU=0 HAS A CUBIC FROBENIUS KERNEL
+
+The two Cartier resonance slots make `X^(p-5)R^2H` canonically integrable.
+After multiplying the reduced triple by `X^(p-4)`, every zero-valuation case
+has `X^(p-4)R^3D=(X^5-Q)^p+J` and `X^(p-4)B_0=Q^p-J`, where the unique
+kernel is `Q=q_3X^3+q_2X^2+q_1X` with `q_3^p=a`. The quartic and constant
+kernel terms are forced away, and `H(0)=-4R(0)D(0)`. This is PROVED
+compression across all four eliminant degrees, not an exclusion.
+
+## 165 - 2026-07-22: NONZERO-B NU=0 LOSES ITS MIDDLE DEGREES
+
+For `nu=0,b!=0`, every root of `T=2aR+3b` lies on
+`H=-48alpha a^2/Delta`. The tangent radical has degree at least `5-deg H`,
+while that level-set polynomial has degree `deg H`. Hence eliminant degrees
+one and two are impossible. Degree zero forces equality with the printed
+constant; degree three has only two or three tangent roots. The four `b=0`
+degrees were still open at this stage, as were the two nonzero-`b` endpoints;
+the next certificate removes the first two rows of the zero-`b` arm. L1
+stays TARGET.
+
+## 166 - 2026-07-22: ZERO-B NU=0 IS EMPTY ON TWO CHARACTERISTICS
+
+The products of the `0,+s,-s` split fibers yield two order-`4(p+1)` subgroup
+elements with sum two. Frobenius reduces this to 16 exact quadratic quarter
+classes. At `p=8191,131071`, only the degenerate root `u=v=1` survives, so
+the entire zero-`b` arm is empty. At `p=524287,2147483647`, two quarter pairs
+survive and force `a^2+3aR(0)^2+R(0)^4=0`. This is a complete exact finite
+certificate with an independent multiplication-matrix audit; the latter arm
+and the nonzero-`b` endpoints remain open.
+
+## 167 - 2026-07-22: THE NU=0 CONSTANT ENDPOINT LOSES ONE COMPONENT
+
+For `nu=0,b!=0,deg H=0`, put `r=R(0)`, `A=a/r^2`, and `B=b/r^3`. The exact
+zero-point scalar equation factors as
+`(3B+2A)(9B-4A^2-6A)=0`. On the first component, zero is a tangent preimage.
+The two sides of the Euler identity then have respective local orders `2m`
+and `m`, because the right-side derivative is `8alpha!=0`; this is
+impossible. Every survivor therefore satisfies
+`9bR(0)=4a^2+6aR(0)^2`. This is a PROVED component deletion, not endpoint
+emptiness.
+
+## 168 - 2026-07-22: THE NU=0 CONSTANT ENDPOINT HAS FINITELY MANY OUTER PACKETS
+
+Ratios of the three shifted fiber products lie in the order-`4(p+1)` domain
+subgroup. Combining their projective coefficient equation with all 16
+Frobenius quarter pairs gives a complete exact resultant certificate. The
+normalized pair `(a/R(0)^2,b/R(0)^3)` is `(6,20)` for
+`p=8191,131071,524287`; for `p=2147483647` there is one additional pair
+`(844833809,2002167159)`. An independent audit checks the symmetric
+reconstruction, Gaussian factorizations, branch relation, and discriminants.
+These are necessary packets only. Their lift or exclusion through the cubic
+Frobenius kernel remains open and is recorded as donated-compute pre-request
+`CR-L1-MCP-NU0-H0`.
+
+## 169 - 2026-07-22: THE UNIVERSAL NU=0 CONSTANT PACKET IS IMPOSSIBLE
+
+For `(A,B)=(6,20)`, the Euler identity cancels a common `R+5R(0)` factor and
+makes `X^n(R-4R(0))/(D(R-R(0))^4)` a rational `p`th power. Its valuation at
+zero forces `ord_0(R-R(0))=1`. Squarefreeness of `D` then forces every
+nonzero root of `R-R(0)` to have multiplicity `(3p-1)/4`. The remaining
+degree `p-1` lies strictly between one and two such multiplicities, a
+contradiction. Thus the nonzero-`b`, constant-eliminant endpoint is empty at
+`p=8191,131071,524287`; only the exceptional normalized packet
+`(844833809,2002167159)` on `p=2147483647` remains. The outbound
+`CR-L1-MCP-NU0-H0` request is narrowed accordingly.
+
+## 170 - 2026-07-22: THE NU=0 CONSTANT ENDPOINT IS CLOSED
+
+On the surviving projective branch, local orders in the cancelled Euler
+identity force the complement to equal
+`rad(R-R(0))/X * rad(R-(2A/3)R(0))`. The product of the second auxiliary
+fiber and each split fiber then puts every normalized shifted split value in
+the order-`4(p+1)` subgroup. For the exceptional largest-characteristic
+packet this requires
+`W^3+1800058023W^2+664831389W+573306971` to divide
+`W^(4(p+1))-1`; exact polynomial and companion-matrix replays give remainder
+`876663072`. The packet is impossible. Together with #146, this closes
+`nu=0,b!=0,deg H=0` on all four characteristics and retires
+`CR-L1-MCP-NU0-H0` without a large run.

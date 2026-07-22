@@ -7009,3 +7009,254 @@ only after (i) the order-1024 Norm(u)-saturation soundness fix lands and
 audits, (ii) the GMP/flint gcd benchmark is measured, (iii) the unit-ideal
 certificate pilot adjudicates (a land retires the census model entirely),
 and (iv) for (1,5): the re-shard + ECM-tail repairs land.
+
+## CR-L1-MCP: Mersenne first-checkpoint split-pencil certificate
+
+**Status:** contributor research request; not authorized locally or on the
+current Modal account. Its consumer is the `t=p` endpoint of
+`l1_mixed_petal_amplification`, not the whole L1 node.
+
+All other official minimum-width rows are theorem-classified. The only live
+rows are:
+
+```text
+n            p           m
+32768        8191        4
+65536        8191        8
+131072       8191        16
+524288       131071      4
+1048576      131071      8
+2097152      524287      4
+4194304      524287      8
+8589934592   2147483647  4
+17179869184  2147483647  8
+```
+
+For each row, only `2<=h<=m-1` can occur. At depth `d`, put
+`u=n-hp` and `ell_h=u-d+p`; the complement theorem bounds records by
+`floor(binom(n,ell_h)/binom(u,ell_h))`, and the depressed outer polynomial
+has `ord_0(R)<=n-(h+1)p`. A valid implementation must exploit these facts
+and the balanced prime-field cyclic-code formulation: the signed exponent
+word has exactly `p` coefficients `+1`, exactly `p` coefficients `-1`, and
+Fourier zeros on the full `p`-cyclotomic closure of `[0,p-1]`.
+Consume `l1_mersenne_checkpoint_cyclotomic_normal_form` rather than building
+that closure numerically: for `k=q(p+1)+b`, membership is decided by
+`q=0` or `q=b-1 mod gcd(2b,m)`. All `p+1` consecutive frequencies in the
+zeroth block vanish, and the target word has exact weight `2p` between the
+proved BCH floor `p+2` and twice that floor. A proposed solver must operate
+on this low-weight chamber representation and report how its quotienting
+preserves the separate `+1` and `-1` weights.
+Before emitting candidates, remove the exact embedded family from
+`l1_mersenne_checkpoint_embedded_m2_family`: at depths `p,p+1`, each of the
+`m/2` order-`2(p+1)` cosets contributes `p+1` antipodal pairs, for total
+`n/2`. These are proved payload, not events. An `h=2` request must certify
+that its pair is not in this family; otherwise prioritize `h>=3`, beginning
+with `m=4,h=3`. The latter is automatically nonembedded: oddness gives
+embedded split values in sign pairs, and maximal `h=4` is theorem-empty.
+For that cubic shard, consume `l1_m4_h3_colored_cyclic_equivalence` and use
+the exact variables `b_i in {0,1,omega,omega^2}` with `p` occurrences of
+each nonzero color. Enforce Fourier support in the printed Mersenne chambers
+for both `b` and coefficientwise `b^[2]`; `b^[3]` must be the union indicator
+with `p+4` zeros. A solver imposing only one code membership is incomplete.
+Shard by a canonical zero complement and color orbit only after proving that
+the quotient preserves both Schur constraints.
+
+**Requested outcome:** for a declared `(n,p,h,d)` shard, either emit one
+fully replayable pair of disjoint split fibers, including `Q`, `G_Q`, the
+complement, all divisibility checks, and its first-owner data; or emit a
+proof-producing exclusion certificate whose independent checker establishes
+complete coverage. A finite no-hit search is evidence only. Partial output
+must preserve completed orbit or certificate blocks, hashes, elapsed CPU,
+peak RAM, and the exact unprocessed range.
+
+**Launch gate:** first supply a completeness-preserving orbit, cyclic-code,
+SAT, or algebraic compression on a small analogue, then benchmark one shard
+of the smallest row under explicit RAM, wall-time, storage, and dollar caps.
+Raw enumeration of supports, complements, normalized `Q`, or field elements
+is prohibited. The resource cost is currently unknown and could be large;
+publish the pilot before requesting a full contributor run. A PR carrying
+this request should include the six proved checkpoint nodes and state
+exactly which PASS or witness changes the DAG.
+
+The complete small pilot
+`experiments/prize_resolution/l1_mersenne_checkpoint_analog_result.md`
+exhausted all `3,365,856` seven-subsets at `(n,p,m)=(32,7,4)` in Modal app
+`ap-X9B0VIv80tdRxDSfYnkG9o`. It found 16 two-fiber pencils, no `h>=3`
+pencil, and maximum depth eight. The classifier rerun
+`ap-mLyev4aS4qOOhZhKqcpK5i` shows all 16 observed pairs have the embedded
+antipodal form. This satisfies only the small-analogue
+conformance gate; it supplies no official-row throughput or cost estimate.
+
+### CR-L1-MCP-A8: complete order-64 analogue
+
+This is the next useful donated-compute falsifier and must not run on the
+current account. Work over `F_(7^8)` on the order-64 subgroup, with
+`(n,p,m)=(64,7,8)`. Enumerate all
+
+```text
+binom(64,7)=621,216,192
+```
+
+seven-subsets, group their monic locators by coefficients in degrees one
+through six, and classify every group by exact split-value degree, maximum
+checkpoint depth, subgroup-coset support, and the embedded antipodal test.
+The result decides whether the complete `m=4` analogue behavior persists
+when the quotient multiplicity doubles: any nonembedded `h=2` group or any
+`h>=3` group is a replayable route-changing witness; complete absence is
+evidence for an embedded-family/low-weight classification theorem.
+
+A naive 16-byte record stream is about `9.26 GiB` before sorting, so the run
+must shard by a prefix of the six-coefficient signature and merge only group
+boundary summaries. Each shard must checkpoint its exact combinadic range,
+record count, signature-prefix interval, rolling hash, group histogram, and
+all groups of size at least two. An independent checker must rebuild every
+reported locator and verify roots, common prefix, disjointness, depth, and
+embedded status. Publish a one-shard benchmark with CPU time, peak RAM,
+scratch storage, and projected dollar cost before requesting the full run.
+Timeout or incomplete shard coverage is `INCOMPLETE`, never evidence of
+absence. The order-128 analogue has `94,525,795,200` subsets and roughly
+`1.38 TiB` of raw records, so it is not requested without a new structural
+compression.
+
+### CR-L1-MCP-C31: adjudicate the order-128 two-Schur CP model
+
+This is a bounded structural pilot for the next `m=4,h=3` analogue, not a
+request for the raw order-128 subset census. The checked-in script
+`experiments/prize_resolution/l1_m4_h3_two_schur_cpsat_modal.py` encodes
+`(n,p,m,h)=(128,31,4,3)` with 128 four-color variables, multiplicities
+`(35,31,31,31)`, and both required Fourier-code constraints. It expands the
+word and coefficientwise-square equations into 240 congruences modulo 31.
+
+The current-account pilot is `INCOMPLETE`. Apps
+`ap-31urbcd0fvVu1adNueXzSz` and `ap-cwwCYjpZqT2nwd3vKu4XD6` exposed and
+repaired two model-construction errors. The validated repair in app
+`ap-m2tOKpIdLfCZOzoRUmRkyQ` hit its 60-second function cap before returning a
+solver status. This supplies no existence or emptiness evidence and must not
+be reported as a no-hit search.
+
+**Requested outcome:** precompute and hash the `30 x 128 x 4` Fourier
+coefficient table, or otherwise separate finite-field/JIT and model-build
+time from search. Publish `CpModel.Validate()`, a serialized-model hash,
+build time, actual CP-SAT wall time, status, branches, and conflicts. A
+`FEASIBLE` result must include all four color classes and pass the independent
+`F_(31^4)` replay already present in the script. An `INFEASIBLE` result is
+complete evidence for this nonofficial analogue only; `UNKNOWN` or timeout is
+`INCOMPLETE`. Benchmark before increasing CPUs or wall time, and state the
+dollar cap in advance. No current-account rerun is authorized.
+
+The preferred follow-up is now analytic. The proved
+`l1_m4_h3_mason_defect_budget` shows that every genuine record has depressed
+outer coefficient `a!=0` and a Wronskian eliminant containing the full defect
+factor. The Cartier refinement excludes `nu=4`, and the tangent-radical
+successor excludes `nu=3` plus the lower positive-eliminant strata. The live
+split is `(nu,deg H)=(1,2),(2,1)` and `(0,0),(0,1),(0,2),(0,3)`.
+A donated solver extension should expose `a`, `nu`, the eliminant, and the
+two defect witnesses. It must also check `H(0)!=0` and the exact Euler
+quotient factorization from `l1_m4_h3_euler_quotient_factorization`. Shard by
+the row-valid strata below, retain the possible `b=0` arm at `nu=0`, and
+independently check the exact factorization
+`(R^3+aR+b)D=X^n-alpha`. A generic feasible or no-hit color assignment
+without this replay remains only analogue evidence.
+
+For `nu=0`, a donated solver must consume
+`l1_m4_h3_nu0_cubic_frobenius_kernel`: emit the canonical antiderivative and
+the sparse cubic `Q`, and do not enumerate an unrestricted derivative-zero
+kernel. On `b!=0`, do not spend on `deg H=1,2`; the surviving cubic endpoint
+must print its two-or-three-root tangent passport. Do not spend on the
+constant endpoint at `p=8191,131071,524287`, or on the universal `(6,20)`
+packet at any row: these are theorem-empty. The former exceptional packet
+`(844833809,2002167159)` at `p=2147483647` is also theorem-empty by the exact
+auxiliary-fiber divisibility certificate. Do not spend on any nonzero-`b`
+constant endpoint. Do not spend on `b=0` at
+`p=8191,131071`. On the latter two characteristics, every zero-`b` candidate
+must satisfy `a^2+3aR(0)^2+R(0)^4=0`; retain its four degrees as separate
+research targets rather than a generic fallback bucket.
+
+The exact positive-value coset certificate removes all positive valuation at
+`p=8191,131071`; a donated solver must not spend those rows on positive
+strata. At `p=524287,2147483647`, every positive candidate must satisfy
+`a^3+8b^2=0`. In the `(nu,deg H)=(2,1)` stratum it must also use the
+prime-field Belyi multiplicity normal form and base-field domain/complement
+normalization below. These are completeness reductions, not optional witness
+filters.
+
+### CR-L1-MCP-NU2 pre-request: normalized Belyi regular-fiber divisibility
+
+**Status:** valuable outbound compute pre-request; not yet runnable and not
+authorized on the current Modal account.
+
+This targets only `p in {524287,2147483647}` and the surviving positive
+`(nu,deg H)=(2,1)` stratum. For pairwise-distinct positive integers
+`e_1+e_2+e_3=p`, the proved normal form constructs
+
+```text
+d_i=e_j-e_k,
+w=product_i d_i^e_i,
+q_i=3w/(4d_i),
+F_e(W)=3/4+product_i (W-q_i)^e_i.
+```
+
+Frobenius and the fixed-fiber product prove that there is no additional
+domain scalar. Any genuine record must pass exactly one sign test
+`F_e(+1)=1` or `F_e(-1)=1` and admit a monic `E_e in F_p[W]` with
+
+```text
+(F_e(W)^3-2F_e(W)+1)E_e(W)=W^(4(p+1))-1.              (NU2-DIV)
+```
+
+The route-deciding computation would either emit one multiplicity triple and
+an independently replayable exact factorization, or certify that no triple
+satisfies `(NU2-DIV)` for a declared official characteristic. A witness keeps
+the stratum alive and supplies a concrete split pencil; complete exclusion
+removes the `(2,1)` stratum on that characteristic. Partial coverage is
+evidence only.
+
+The naive universe has order `p^2` triples and degree-`3p` divisors, so raw
+triple enumeration or dense polynomial expansion is prohibited. Before this
+can be promoted to a numbered contributor run, supply all of:
+
+1. a theorem-backed symmetry quotient or recurrence that covers every
+   unordered multiplicity triple;
+2. a sparse/product-tree or residue representation that checks `(NU2-DIV)`
+   without materializing degree-`3p` polynomials per triple;
+3. replay the checked-in complete `p=7,31,127` conformance oracle at
+   `experiments/prize_resolution/l1_m4_h3_nu2_scalar_free_analogs.py`, then
+   publish a measured official-compatible one-shard pilot;
+4. checkpointed triple-range coverage, hashes, peak RAM, and elapsed CPU;
+5. an independent checker that reconstructs every witness and verifies every
+   exclusion certificate block.
+
+Until those gates are met, include this item in upstream PRs as an algorithm
+and donated-compute request, not as a request to launch an unpriced fleet.
+
+### CR-L1-MCP-NU0-H0 pre-request: exceptional outer-packet lift or exclusion
+
+**Status:** RETIRED by theorem; do not launch locally and do not copy into an
+upstream PR as a live compute request.
+
+This record formerly targeted the last surviving
+`nu=0,b!=0,deg H=0` packet:
+
+```text
+p=2147483647:               (A,B)=(844833809,2002167159),
+A=a/R(0)^2,                 B=b/R(0)^3.
+```
+
+The universal packet `(A,B)=(6,20)` was first excluded by
+`l1_m4_h3_nu0_h0_universal_packet_exclusion`. The subsequent
+`l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion` proves that every exceptional
+lift would force
+
+```text
+P_A(W)=W^3+1800058023W^2+664831389W+573306971
+```
+
+to divide `W^(4(p+1))-1`. Exact polynomial modular powering and an
+independent companion-matrix replay both give the nonzero remainder
+`876663072`. The exceptional packet is impossible, so the entire endpoint is
+theorem-empty on all four official characteristics.
+
+There is no remaining mathematical decision for donated compute. An upstream
+PR should vendor the two proved exclusions and their compact checkers, and
+should mention this retirement only to prevent contributors from repeating
+the obsolete coefficient or lift search.
