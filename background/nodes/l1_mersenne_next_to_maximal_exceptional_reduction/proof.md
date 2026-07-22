@@ -109,6 +109,30 @@ Write `H=q`. Equation (7) is now
 D T(R) X R'=qG(R)-m alpha R.                         (11)
 ```
 
+Let `d=deg T` and `v=deg(XR')`. The right side of (11) has degree `hp`,
+whereas the left side has degree
+
+```text
+(p+m)+dp+v.
+```
+
+Because `R` is monic of degree `p` in characteristic `p`, one has
+`0<=v<=p-1`. Therefore
+
+```text
+v=(h-d-1)p-m.
+```
+
+Since `p>m`, the only possible integer `h-d-1` is one. Hence
+`d=h-2` and `v=p-m`. If `a=[Y^(h-2)]G` and
+`b=[X^(p-m)]R`, leading coefficients in (11) give
+
+```text
+q=2a(p-m)b=-2mab,
+```
+
+proving the degree and scalar parts of `(NMR5)--(NMR5a)`.
+
 For a nonzero root `y` of `T`, put `A(Y)=qG(Y)-m alpha Y`. Equation
 `(NMR4)` gives `A(y)=0`, while
 
@@ -128,13 +152,96 @@ ord_x(D)+te+e-1=e.
 Therefore `t=e=1` and `D(x)!=0`. If `x=0`, the extra factor `X` makes the
 left order still larger and equality is impossible. This proves `(NMR5)`.
 
+It remains to record the zero-point quotient. Since each lower coefficient
+of `T` is `(h-j)` times the corresponding coefficient of `G`, and all those
+multipliers are nonzero, `r=ord_0(T)` is also the least lower exponent of
+`G`. Squarefreeness of `G` forces
+
+```text
+r in {0,1}.
+```
+
+Let `S` be the monic associate of `T/Y^r`. By `(NMR4)`, `S` divides
+`G-lambda Y`, where `lambda=m alpha/q`; when `r=1`, the latter polynomial
+also has a factor `Y`. Since `deg T=h-2`, the quotient
+
+```text
+B=(G-lambda Y)/(Y^r S)
+```
+
+has degree two. Evaluating (11) at `X=0` gives
+`G(R(0))=lambda R(0)`. Here `R(0)!=0`. It cannot be a root of `S`, since
+then the tangent fiber `R-R(0)` would contain zero, contrary to `(NMR5)`.
+Therefore `B(R(0))=0`, proving `(NMR5b)`.
+
+Let `r_0=R(0)`, and compare local orders in (11). Since `D(0)!=0`,
+`T(r_0)!=0`, and `ord_0(XR')=ord_0(R-r_0)`, the multiplicity of `r_0` as a
+root of `G-lambda Y` is one. Hence it is a simple root of `B`. Write the
+other root as `z`; it is distinct from `r_0` and cannot be a nonzero root of
+`S`, because (12) makes every such root simple in `G-lambda Y`.
+
+At every nonzero root of `R-r_0`, local orders in (11) force `D` to have a
+simple root. The same is true at every root of `R-z`. If `z!=0`, this uses
+that `T(z)!=0` and `z` is a simple root of `G-lambda Y`. If `z=0`, necessarily
+`r=1`; both `T` and the extra quadratic factor vanish simply at zero, and
+the same order comparison again gives `ord_x(D)=1`. Thus
+
+```text
+rad(R-r_0)/X * rad(R-z) divides D.                     (13)
+```
+
+The two factors are coprime, so complement degree gives
+
+```text
+a_0+a_z-1<=p+m.                                       (14)
+```
+
+On the other hand, the two coprime polynomials
+
+```text
+gcd(R-r_0,R'),       gcd(R-z,R')
+```
+
+divide `R'`. Their degrees are `p-a_0` and `p-a_z`, while
+`deg(XR')=p-m` gives `deg R'=p-m-1`. Consequently
+
+```text
+2p-a_0-a_z<=p-m-1,
+p+m+1<=a_0+a_z.                                       (15)
+```
+
+Equations (14)--(15) prove `(NMR5c)`. If
+the monic radical factors in (13) are used, equality of degrees shows that
+their product is exactly `D`. Likewise, the product of the two ramification
+gcds is `R'` up to its nonzero leading scalar. This is the claimed exact
+saturation ledger.
+
+Finally set
+
+```text
+F=(R-r_0)/(z-r_0).
+```
+
+The roots of `F` and `F-1` are exactly the two quotient fibers above, and
+`F(0)=0`. The exact factorizations just proved become
+
+```text
+D=rad(F)/X * rad(F-1),
+F' proportional to gcd(F,F')gcd(F-1,F').              (16)
+```
+
+Also `deg F'=deg R'=p-m-1`. Thus every finite critical point maps to zero or
+one. Since `D` divides `X^n-alpha` in the domain identity, every nonzero root
+of `F(F-1)` lies in the official multiplicative domain. This proves
+`(NMR5d)`.
+
 ## 4. The no-nonzero-tangent branch
 
 If `T` has no nonzero root, then each multiplier `h-j` below the depressed
 leader is nonzero, so `T` is a monomial. Squarefreeness leaves only
 
 ```text
-G(Y)=Y^h+c,       G(Y)=Y^h+cY.                       (13)
+G(Y)=Y^h+c,       G(Y)=Y^h+cY.                       (17)
 ```
 
 For the first form, divide
@@ -156,21 +263,21 @@ For `G=Y^h+cY`, zero is a complete split value, so `nu=0`. Equation (7)
 cancels `R` and becomes
 
 ```text
-(m-2)cDXR'=H(R^(h-1)+c)-m alpha.                     (14)
+(m-2)cDXR'=H(R^(h-1)+c)-m alpha.                     (18)
 ```
 
 Evaluation on the `p` roots of `R=0`, followed by evaluation at zero,
 forces
 
 ```text
-H=mh alpha/c,       c/R(0)^(m-2)=-(m-1)/(m-2).       (15)
+H=mh alpha/c,       c/R(0)^(m-2)=-(m-1)/(m-2).       (19)
 ```
 
 Put `C=(m-1)/(m-2)`. Normalizing the `m-2` nonzero roots of `G` by
 `z=beta/R(0)` and comparing root products with the zero fiber gives
 
 ```text
-w=1-z in mu_(m(p+1)),       z^(m-2)=C.               (16)
+w=1-z in mu_(m(p+1)),       z^(m-2)=C.               (20)
 ```
 
 Because `m-2` divides `p-1`, put `xi=C^((p-1)/(m-2))`. Then
@@ -178,10 +285,10 @@ Because `m-2` divides `p-1`, put `xi=C^((p-1)/(m-2))`. Then
 ```text
 z^p=xi z,
 epsilon=w^(p+1) in mu_m,
-xi w^2+(1-xi)w-epsilon=0.                            (17)
+xi w^2+(1-xi)w-epsilon=0.                            (21)
 ```
 
-The exact packet computes the gcd of the quadratic in (17) with
+The exact packet computes the gcd of the quadratic in (21) with
 `W^(p+1)-epsilon` over `F_(p^2)` for every `epsilon in mu_m`. On each row,
 only `epsilon=1` survives and its gcd has degree one. At most one `w` is
-available, contradicting the `m-2` distinct values required in (16).
+available, contradicting the `m-2` distinct values required in (20).

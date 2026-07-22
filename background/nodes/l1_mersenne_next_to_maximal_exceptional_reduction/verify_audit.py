@@ -85,7 +85,10 @@ def main() -> None:
 
     proof = (HERE / "proof.md").read_text()
     for anchor in ("deg H<=m-1-nu", "Every distinct root", "p<=h^2",
-                   "Consequently `P_y=0`", "A'(y)", "t=e=1",
+                   "Consequently `P_y=0`", "v=(h-d-1)p-m", "q=2a(p-m)b",
+                   "A'(y)", "t=e=1", "r in {0,1}", "B(R(0))=0",
+                   "deg R'=p-m-1", "a_0+a_z", "equality of degrees",
+                   "F=(R-r_0)/(z-r_0)", "every finite critical point",
                    "(m-3)p<=m-nu", "m-2` distinct", "degree one"):
         assert anchor in proof
         checks += 1

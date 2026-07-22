@@ -1960,8 +1960,9 @@ sweep.
   `l1_mersenne_next_to_maximal_exceptional_reduction`. Every generic tangent
   branch and both binomial outer forms are empty. Do not request compute on
   them. The only live endpoint object is the zero-valuation constant-Euler
-  passport `(NMR3)--(NMR5)`; its staged proof-producing classification is
-  `CR-L1-MCP-NMCE` below.
+  passport `(NMR3)--(NMR5d)`. It is already an exactly saturated,
+  domain-supported polynomial Belyi map; its staged proof-producing
+  classification is `CR-L1-MCP-NMCE` below.
   The decision target is a row-sharp split-pencil census or a further
   structural owner; do not shard over `(b,c)` or expand the same records into
   arbitrary exchanged subsets or Wronskian coefficients.
@@ -7139,7 +7140,8 @@ The outer stage has a monic depressed squarefree polynomial `G` of degree
 ```text
 T=hG-YG',
 r=ord_0(T),
-S=the monic associate of T/Y^r.
+S=the monic associate of T/Y^r,
+B=(G-lambda Y)/(Y^r S).
 ```
 
 Every survivor satisfies
@@ -7147,11 +7149,18 @@ Every survivor satisfies
 ```text
 S is nonconstant and squarefree,
 gcd(S,Y)=1,
-S divides G-lambda Y.                                (NMCE-OUT)
+deg T=h-2,
+r in {0,1},
+deg B=2,       B(R(0))=0,
+deg rad(R-R(0))+deg rad(R-z)=p+m+1,                 (NMCE-OUT)
 ```
 
+where `z` is the other root of `B`. The two radical factors reconstruct all
+of `D`, and the corresponding two gcds with `R'` reconstruct all of `R'`.
+
 Classify `(NMCE-OUT)` by exact subresultant or ideal decomposition, sharded
-only by `r`, `deg S`, and the declared leading-coefficient chamber. Prefer a
+only by the two values of `r` and the declared leading-coefficient chamber;
+`deg S=h-2-r` and the quadratic endpoint are already forced. Prefer a
 characteristic-uniform decomposition over the integers with its excluded
 prime factors; otherwise run the five characteristics separately. Do not
 enumerate field elements or the `p^(2(h-1))` coefficient space.
@@ -7168,11 +7177,32 @@ Only for a certified outer survivor should a second stage impose
 G(R)D=X^(m(p+1))-alpha,
 deg R=p,       deg D=p+m,
 H=q,           h complete split fibers,
+deg(XR')=p-m,  q=-2m[Y^(h-2)]G[X^(p-m)]R,
 ```
 
 together with the proved facts that every nonzero tangent value is simple
 and every corresponding `R-y` is squarefree, nonzero-rooted, and coprime to
-`D`. The requested final output is either a replayable full pencil or a
+`D`. Enforce the exact identities
+
+```text
+D=rad(R-R(0))/X * rad(R-z),
+R' proportional to gcd(R-R(0),R')*gcd(R-z,R').
+```
+
+Equivalently normalize
+
+```text
+F=(R-R(0))/(z-R(0)),
+F(0)=0,       deg F'=p-m-1,
+D=rad(F)/X * rad(F-1),
+F' proportional to gcd(F,F')*gcd(F-1,F').
+```
+
+All nonzero roots of `F(F-1)` must replay in the official order-`m(p+1)`
+multiplicative domain. A computation that does not encode this Belyi and
+domain support structure is outside the request.
+
+The requested final output is either a replayable full pencil or a
 proof-producing exclusion certificate for each outer passport. A modular
 Groebner no-hit, timeout, or incomplete chamber list is `INCOMPLETE`.
 

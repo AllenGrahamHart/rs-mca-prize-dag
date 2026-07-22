@@ -1974,8 +1974,15 @@ The endpoint degrees are now sharply reduced but not closed:
 nonconstant-Euler tangent branch and both binomial outer forms at
 `m=8,h=7` and `m=16,h=15`. Any survivor has `nu=0`, constant `H=q`,
 simple nonzero tangent values satisfying `qG(y)=m alpha y`, and squarefree
-tangent fibers disjoint from the complement. The next analytic step is the
-outer subresultant classification of this exceptional passport; the
+tangent fibers disjoint from the complement. Exact degree comparison also
+pins `deg T=h-2`, `deg(XR')=p-m`, and the leading scalar; lower-degree
+tangent chambers are already empty. Squarefreeness leaves only
+`ord_0(T)=0,1`, and the residual quotient of `G-(m alpha/q)Y` is quadratic
+with `R(0)` as a root. Its two quotient fibers exactly reconstruct `D` and
+`R'` through their radical and ramification factors. After target
+normalization the exact residue is a domain-supported polynomial Belyi map
+with critical values `0,1`. The next analytic step is to classify this
+Belyi normal form; the
 unknown-cost proof-producing fallback is recorded as `CR-L1-MCP-NMCE` and
 must be delegated rather than launched on the current account.
 The next analytic target is therefore an exhaustion theorem for low-weight

@@ -32,8 +32,14 @@ def main() -> None:
 
     for p, h in ((8191, 7), (131071, 7), (524287, 7),
                  (2147483647, 7), (8191, 15)):
+        m = h + 1
         assert p > h * h
-        checks += 1
+        possible_gaps = [gap for gap in range(h + 2)
+                         if 0 <= gap * p - m <= p - 1]
+        assert possible_gaps == [1]
+        assert possible_gaps[0] * p - m == p - m
+        assert (p - m) - 1 == p - m - 1
+        checks += 4
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
@@ -49,7 +55,11 @@ def main() -> None:
 
     statement = (ROOT / "background" / "nodes" / NODE / "statement.md").read_text()
     for anchor in ("(NMR1)", "(NMR2)", "(NMR3)", "(NMR4)", "(NMR5)",
-                   "(NMR6)", "constant-Euler branch", "not a closure"):
+                   "(NMR5a)", "deg T=h-2", "deg(XR')=p-m", "(NMR6)",
+                   "(NMR5b)", "B(R(0))=0", "(NMR5c)",
+                   "a_0+a_z=p+m+1", "(NMR5d)", "deg F'=p-m-1",
+                   "polynomial Belyi map", "exactly saturated Belyi branch",
+                   "not a closure"):
         assert anchor in statement
         checks += 1
 

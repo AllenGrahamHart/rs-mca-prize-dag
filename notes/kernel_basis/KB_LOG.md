@@ -4427,8 +4427,24 @@ root and local-multiplicity ledger forces `p<=h^2`, impossible. The zero
 case is real and must not be discarded: it leaves exactly `nu=0`, constant
 `H=q`, and `qG(y)=m alpha y` at every nonzero tangent value. Local orders
 make those values simple and their fibers squarefree and complement-disjoint.
+Comparing degrees in the residual Euler identity then forces
+`deg T=h-2`, `deg(XR')=p-m`, and `q=-2mab` for the two leading residual
+coefficients; no lower-degree tangent chamber survives.
+Squarefreeness then leaves only `ord_0(T)=0,1`. Removing that zero factor
+and the nonzero tangent factor from `G-(m alpha/q)Y` leaves a quadratic,
+and evaluation at `X=0` forces `R(0)` to be one of its roots.
+Writing the other root as `z`, local Euler orders put every nonzero root of
+`R-R(0)` and every root of `R-z` into `D`. The two derivative gcds are
+coprime factors of `R'`; crucially `deg R'=p-m-1`. The complement and
+derivative inequalities therefore meet exactly at
+`deg rad(R-R(0))+deg rad(R-z)=p+m+1`, so these two fibers reconstruct all of
+`D` and `R'` with no leftover.
+Normalizing their values to `0,1` gives a degree-`p` polynomial Belyi map
+`F` with `F(0)=0`, `deg F'=p-m-1`, and
+`D=rad(F)rad(F-1)/X`; every nonzero root of either fiber lies in the official
+multiplicative domain. This is the complete surviving endpoint normal form.
 If there is no nonzero tangent value, the outer polynomial is one of two
 binomials; Mason excludes the pure form and a five-row exact quadratic-
 extension packet excludes the linear-tail form. Thus the endpoint remains
-open only in the printed constant-Euler passport. `CR-L1-MCP-NMCE` records
-the proof-producing outer subresultant classification as delegated compute.
+open only in the printed constant-Euler/Belyi passport. `CR-L1-MCP-NMCE`
+records its proof-producing exact classification as delegated compute.

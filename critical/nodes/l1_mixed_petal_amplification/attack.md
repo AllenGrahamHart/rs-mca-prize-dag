@@ -536,9 +536,18 @@
   `l1_mersenne_next_to_maximal_exceptional_reduction`. Do not search a
   positive-valuation, nonconstant-Euler, or binomial outer branch: each is
   theorem-empty. Retain only the zero-valuation constant-Euler passport
-  `(NMR3)--(NMR5)`, and make any computation expose its outer subresultant
-  chamber and independently replay the simple tangent and complement-
-  disjointness conditions. `CR-L1-MCP-NMCE` specifies the outbound
+  `(NMR3)--(NMR5d)`. Enforce `deg T=h-2`, `deg(XR')=p-m`, and the leading
+  scalar relation before any search; every lower-degree tangent chamber is
+  empty. There are only two outer-valuation chambers, `ord_0(T)=0,1`; form
+  the quadratic quotient `(G-(m alpha/q)Y)/(Y^r S)` and require `R(0)` to be
+  one of its roots. Enforce the exact saturation
+  `deg rad(R-R(0))+deg rad(R-z)=p+m+1`; the two radicals reconstruct all of
+  `D` and their ramification gcds reconstruct all of `R'`. Make any
+  successor work with the normalized Belyi map
+  `F=(R-R(0))/(z-R(0))`, for which
+  `D=rad(F)rad(F-1)/X` and all nonzero roots of `F(F-1)` lie in the official
+  domain. Make any computation independently replay these exact
+  factorizations. `CR-L1-MCP-NMCE` specifies the outbound
   proof-producing classification request; it is not authorized locally or
   on the current Modal account.
   Contributor-scale

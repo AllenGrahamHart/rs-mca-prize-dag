@@ -1111,8 +1111,14 @@ At the two next-to-maximal degrees, consume
 forms are empty. A survivor must have `nu=0`, a nonzero constant Euler
 eliminant `H=q`, and `qG(y)=m alpha y` at every nonzero root of
 `T=hG-YG'`; those tangent values are simple and every `R-y` is squarefree
-and disjoint from the complement. This is a strict reduction, not an
-emptiness theorem, so the endpoint degrees remain in the residual.
+and disjoint from the complement. Degree comparison further forces
+`deg T=h-2`, `deg(XR')=p-m`, and the printed leading-scalar relation. This
+also leaves only `ord_0(T) in {0,1}` and a quadratic quotient of
+`G-(m alpha/q)Y` containing `R(0)`. The two quotient fibers exactly exhaust
+the complement and ramification ledgers. This is a strict reduction, not an
+emptiness theorem. Equivalently, the residue is a degree-`p` polynomial
+Belyi map with critical values `0,1` and both fibers supported on the
+official domain, so the endpoint degrees remain in the residual.
 
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full

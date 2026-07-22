@@ -15742,7 +15742,7 @@
    "title": "L1 Mersenne next-to-maximal exceptional reduction",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "On every official n=m(p+1) row with (m,h)=(8,7) or (16,15), every first-checkpoint split pencil reduces to a zero-valuation constant-Euler passport with simple nonzero tangent values and squarefree complement-disjoint tangent fibers. Every nonexceptional tangent branch and both binomial outer forms are empty.",
+   "statement": "On every official n=m(p+1) row with (m,h)=(8,7) or (16,15), every first-checkpoint split pencil reduces to an exactly saturated degree-p polynomial Belyi map with critical values 0,1 and both fibers supported on the official multiplicative domain. Every nonexceptional tangent branch and both binomial outer forms are empty.",
    "refs": [
     "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/statement.md",
     "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/proof.md",
