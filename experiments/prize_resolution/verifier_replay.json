@@ -2,14 +2,30 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
+      "script": "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/verify.py",
+      "seconds": 0.03569,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_NEXT_TO_MAXIMAL_BELYI_SHIFTED_VALUE_GATE_PASS checks=35\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/verify_audit.py",
+      "seconds": 0.021175,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_NEXT_TO_MAXIMAL_BELYI_SHIFTED_VALUE_GATE_AUDIT_PASS checks=39\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/verify.py",
-      "seconds": 0.039675,
+      "seconds": 0.040161,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "L1_MERSENNE_NEXT_TO_MAXIMAL_EXCEPTIONAL_REDUCTION_PASS checks=59\n"
@@ -17,7 +33,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/verify_audit.py",
-      "seconds": 0.025687,
+      "seconds": 0.025731,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "L1_MERSENNE_NEXT_TO_MAXIMAL_EXCEPTIONAL_REDUCTION_AUDIT_PASS checks=81\n"

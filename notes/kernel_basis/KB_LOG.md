@@ -4448,3 +4448,22 @@ binomials; Mason excludes the pure form and a five-row exact quadratic-
 extension packet excludes the linear-tail form. Thus the endpoint remains
 open only in the printed constant-Euler/Belyi passport. `CR-L1-MCP-NMCE`
 records its proof-producing exact classification as delegated compute.
+
+## 177 - 2026-07-23: NEXT-TO-MAXIMAL PRIME-FIELD BELYI PASSPORTS ARE EMPTY
+
+`l1_mersenne_next_to_maximal_belyi_shifted_value_gate` transports the final
+`m=4` auxiliary-fiber method to `m=8,16`. Products of the saturated quotient
+fiber and each complete split fiber show that the degree-`h` normalized
+shifted-value polynomial divides `W^(m(p+1))-1`. If `z!=0` and both
+`c=z/R(0)` and `theta=2[Y^(h-2)]G/(R(0)z)` lie in `F_p`, the exact outer
+factorization supplies a rational function with zero logarithmic derivative.
+Its valuations force `theta=h`, `c=m`, a simple zero at the source origin,
+and multiplicity `((m-1)p-1)/m` at every other root of `R-R(0)`. The
+remaining degree `p-1` lies strictly between one and two copies, impossible.
+The `z=0` chamber is independently impossible by local Euler orders. Thus
+only genuinely quadratic-field-normalized Belyi passports remain at
+`h=7/15`; prime-field chambers must not be sent to compute.
+Before descent, the outer identity also gives
+`x(x-1)P'(x)=constant` at every normalized nonzero split value. In the
+`ord_0(T)=0` chamber this upgrades to
+`W(W-1)P'-K=(hW+b)P`, a one-parameter low-degree differential packet.

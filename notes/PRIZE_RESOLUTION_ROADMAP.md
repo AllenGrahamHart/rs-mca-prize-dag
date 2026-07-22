@@ -1985,6 +1985,15 @@ with critical values `0,1`. The next analytic step is to classify this
 Belyi normal form; the
 unknown-cost proof-producing fallback is recorded as `CR-L1-MCP-NMCE` and
 must be delegated rather than launched on the current account.
+The first generalization of the `m=4` auxiliary-fiber close is now proved:
+`l1_mersenne_next_to_maximal_belyi_shifted_value_gate` makes the normalized
+degree-`h` split-value polynomial divide `W^n-1` and excludes every nonzero
+passport whose two projective invariants descend to `F_p`. Therefore the
+`z=0` chamber is also locally impossible, and the live `h=7/15` residue is
+genuinely quadratic-field normalized.
+The next analytic question is a Frobenius/descent classification of that
+small-degree cyclotomic divisor, additionally constrained by the exact
+weighted-derivative equation, not a degree-`p` coefficient census.
 The next analytic target is therefore an exhaustion theorem for low-weight
 balanced signed words in the `m=4` Mersenne cyclic code. The exact finite
 falsifier `CR-L1-MCP-M4H2-C31` asks contributors to classify the order-128

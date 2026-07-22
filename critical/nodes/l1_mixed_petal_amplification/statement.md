@@ -1120,6 +1120,20 @@ emptiness theorem. Equivalently, the residue is a degree-`p` polynomial
 Belyi map with critical values `0,1` and both fibers supported on the
 official domain, so the endpoint degrees remain in the residual.
 
+The shifted-value gate
+`l1_mersenne_next_to_maximal_belyi_shifted_value_gate` further proves that
+the monic degree-`h` polynomial whose roots are
+`(beta_i-R(0))/(z-R(0))` divides `W^n-1`. If `z!=0`, no passport survives
+when both projective invariants `z/R(0)` and
+`2[Y^(h-2)]G/(R(0)z)` lie in `F_p`; a rational `p`th-power valuation ledger
+would force an impossible uniform multiplicity. Thus the exact endpoint
+residue is genuinely quadratic-field normalized; the `z=0` chamber is also
+empty by a direct local-order contradiction.
+The same gate pins `W(W-1)P'` to one constant at every nonzero root of the
+shifted polynomial. In the zero-free outer chamber this is an exact linear-
+quotient differential equation for `P`, leaving a one-parameter degree-`h`
+cyclotomic problem rather than a free coefficient search.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

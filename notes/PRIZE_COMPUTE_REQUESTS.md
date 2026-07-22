@@ -1961,8 +1961,12 @@ sweep.
   branch and both binomial outer forms are empty. Do not request compute on
   them. The only live endpoint object is the zero-valuation constant-Euler
   passport `(NMR3)--(NMR5d)`. It is already an exactly saturated,
-  domain-supported polynomial Belyi map; its staged proof-producing
-  classification is `CR-L1-MCP-NMCE` below.
+  domain-supported polynomial Belyi map. Then consume
+  `l1_mersenne_next_to_maximal_belyi_shifted_value_gate`: the shifted
+  degree-`h` polynomial must divide `W^n-1`, and a nonzero passport is empty
+  if both printed projective invariants lie in `F_p`. The `z=0` chamber is
+  empty as well. Only genuinely non-prime-field normalization reaches the
+  staged proof-producing classification `CR-L1-MCP-NMCE` below.
   The decision target is a row-sharp split-pencil census or a further
   structural owner; do not shard over `(b,c)` or expand the same records into
   arbitrary exchanged subsets or Wronskian coefficients.
@@ -7127,7 +7131,7 @@ not authorized locally or on the current Modal account. Benchmark and price
 one outer chamber before any extension.
 
 This request targets only the exact residue of
-`l1_mersenne_next_to_maximal_exceptional_reduction` on
+`l1_mersenne_next_to_maximal_belyi_shifted_value_gate` on
 
 ```text
 (m,h,p)=(8,7,8191),(8,7,131071),(8,7,524287),
@@ -7157,6 +7161,34 @@ deg rad(R-R(0))+deg rad(R-z)=p+m+1,                 (NMCE-OUT)
 
 where `z` is the other root of `B`. The two radical factors reconstruct all
 of `D`, and the corresponding two gcds with `R'` reconstruct all of `R'`.
+In addition put
+
+```text
+P(W)=(z-R(0))^(-h)G(R(0)+(z-R(0))W).
+```
+
+The shifted-value theorem requires `P | W^(m(p+1))-1`. If `z!=0`, delete
+every chamber for which both
+
+```text
+c=z/R(0),       theta=2[Y^(h-2)]G/(R(0)z)
+```
+
+lie in `F_p`: that entire branch is theorem-empty. The `z=0` chamber is also
+theorem-empty. A retained chamber must include a direct Frobenius certificate
+proving that at least one of `c,theta` is outside `F_p`.
+
+The same theorem supplies a differential prefilter. With
+`K=2[Y^(h-2)]G*lambda/(z-R(0))^(h+1)`, every normalized nonzero split value
+obeys `x(x-1)P'(x)=K`. In the `ord_0(T)=0` chamber, require the exact identity
+
+```text
+W(W-1)P'(W)-K=(hW+b)P(W)
+```
+
+for some scalar `b`. In the `ord_0(T)=1` chamber, divide `P` first by the
+known root `W=-R(0)/(z-R(0))` and require the resulting divisibility. Reject
+before any inner stage if either differential check fails.
 
 Classify `(NMCE-OUT)` by exact subresultant or ideal decomposition, sharded
 only by the two values of `r` and the declared leading-coefficient chamber;
@@ -7169,7 +7201,9 @@ enumerate field elements or the `p^(2(h-1))` coefficient space.
 ideal/resultant certificates for every chamber, which closes the endpoint
 before constructing an inner pencil, or emit a complete finite
 parameterization of exceptional `(G,lambda)` passports. A single outer
-passport is not a split-pencil witness; label it `OUTER-SURVIVOR`.
+passport is not a split-pencil witness; label it `OUTER-SURVIVOR`. It must
+also carry the exact remainder of `W^n-1` modulo `P`; a nonzero remainder or
+prime-field-normalized invariant rejects the passport before the inner stage.
 
 Only for a certified outer survivor should a second stage impose
 

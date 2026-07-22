@@ -15757,6 +15757,25 @@
     "experiments/prize_resolution/l1_mersenne_next_to_maximal_packet_check.py",
     "experiments/prize_resolution/l1_mersenne_next_to_maximal_packet_result.md"
    ]
+  },
+  {
+   "id": "l1_mersenne_next_to_maximal_belyi_shifted_value_gate",
+   "title": "L1 Mersenne next-to-maximal Belyi shifted-value gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every next-to-maximal Mersenne survivor has a degree-h shifted-value polynomial dividing W^n-1 and obeying an exact weighted-derivative divisibility. The zero quadratic-quotient root is impossible; if the two remaining projective invariants are both prime-field normalized, a rational pth-power valuation argument gives an impossible multiplicity packet. Hence only genuinely quadratic-field normalization remains.",
+   "refs": [
+    "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/statement.md",
+    "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/proof.md",
+    "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/claim_contract.md",
+    "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/dependency_subdag.md",
+    "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/audit.md",
+    "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/result.md",
+    "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/lineage.md",
+    "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/verify.py",
+    "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -30137,6 +30156,16 @@
   },
   {
    "from": "l1_mersenne_next_to_maximal_exceptional_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_exceptional_reduction",
+   "to": "l1_mersenne_next_to_maximal_belyi_shifted_value_gate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_belyi_shifted_value_gate",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

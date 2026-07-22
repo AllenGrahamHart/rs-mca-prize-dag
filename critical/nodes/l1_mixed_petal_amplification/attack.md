@@ -547,7 +547,13 @@
   `F=(R-R(0))/(z-R(0))`, for which
   `D=rad(F)rad(F-1)/X` and all nonzero roots of `F(F-1)` lie in the official
   domain. Make any computation independently replay these exact
-  factorizations. `CR-L1-MCP-NMCE` specifies the outbound
+  factorizations. Then consume
+  `l1_mersenne_next_to_maximal_belyi_shifted_value_gate`: construct the
+  degree-`h` shifted-value polynomial and require its exact divisibility by
+  `W^n-1`. Delete `z=0`, and delete every remaining chamber in which both
+  `z/R(0)` and `2[Y^(h-2)]G/(R(0)z)` are prime-field valued. Retain only a
+  certified non-prime-field invariant, with direct Frobenius replay.
+  `CR-L1-MCP-NMCE` specifies the outbound
   proof-producing classification request; it is not authorized locally or
   on the current Modal account.
   Contributor-scale
