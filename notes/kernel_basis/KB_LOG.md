@@ -4513,3 +4513,10 @@ order-zero branch before any degree-`n` remainder; nonunit components remain
 necessary candidates and must be checked against `t=s^p` and the original
 cyclotomic equation. This bounded system is now the first stage of the
 outbound `CR-L1-MCP-NMCE` request.
+
+The bounded `(p,m,h)=(31,8,7)` saturation benchmark then formed all seven
+nonzero equations (maximum total degree `112`) in under six seconds, but
+SymPy's generic grevlex Groebner step timed out at 120 seconds. Modal app
+`ap-0EK5ErTdMIAYixk0Leq78F` is `INCOMPLETE` and supplies no emptiness
+evidence. The exact contributor task is now a stronger CAS or
+structure-aware saturation, not a retry of that backend.

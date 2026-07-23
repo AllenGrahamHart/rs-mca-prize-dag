@@ -2016,6 +2016,11 @@ closes the order-zero branch without constructing a degree-`n` remainder.
 This off-diagonal saturation is now the first exact contributor target.
 Only its retained components should be tested against `t=s^p` and the full
 cyclotomic remainder.
+The first exact `(31,8,7)` benchmark built the seven equations in under six
+seconds but timed out in SymPy's generic three-variable Groebner saturation
+at 120 seconds. This is no mathematical evidence. It routes donated compute
+to a stronger elimination backend or a structure-aware two-variable
+saturation; do not retry the same SymPy path or expand `W^n-1` first.
 The next analytic target is therefore an exhaustion theorem for low-weight
 balanced signed words in the `m=4` Mersenne cyclic code. The exact finite
 falsifier `CR-L1-MCP-M4H2-C31` asks contributors to classify the order-128

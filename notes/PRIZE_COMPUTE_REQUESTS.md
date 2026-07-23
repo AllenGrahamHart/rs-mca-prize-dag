@@ -7156,6 +7156,26 @@ gcd route but proves nothing on an official characteristic. No further local
 or Modal case is authorized; official and larger rows remain outbound
 contributor requests.
 
+**Pre-registered bounded analogue pilot `FRG-SAT-P31`.** The new Frobenius
+reciprocal gate authorizes one exact saturation benchmark at
+`(p,m,h)=(31,8,7)`. One 1-CPU, 2-GiB Modal task has a 120-second hard stop and
+must report resultant time, equation count/degrees, Groebner-basis
+count/degrees, peak memory, and whether the saturation by `t-s` is unit. A
+unit result is analogue calibration only; a nonunit result records the
+candidate-component size. Timeout or setup failure is `INCOMPLETE`. No
+official characteristic or second saturation is authorized by this pilot.
+
+The pilot ran as Modal app `ap-0EK5ErTdMIAYixk0Leq78F`. Polynomial and
+resultant construction took `0.067027` and `0.567595` seconds; by
+`5.970123` seconds it had produced seven nonzero equations of maximum total
+degree `112`. SymPy's generic grevlex Groebner saturation then hit the
+120-second timeout. Status is `INCOMPLETE`: there is no unit/nonunit result
+and no mathematical evidence. Do not retry this backend locally or on the
+current Modal account. A contributor should use Singular, Magma, or a
+structure-aware two-variable elimination and return either a checkable unit
+certificate or a complete component decomposition. This measured algebra
+task is now preferable to any expanded degree-`n` remainder campaign.
+
 This request targets only the exact residue of
 `l1_mersenne_next_to_maximal_hypergeometric_normal_form` on
 
