@@ -2025,9 +2025,11 @@ The order-one branch now has the parallel bounded gate
 `l1_mersenne_hnf_order_one_frobenius_gate`. Its torsion condition gives only
 `m` chambers through `zeta=(c-1)^(p+1)` and
 `c^p=1+zeta/(c-1)`. The Frobenius hypergeometric curve and reciprocal
-resultant then form a bounded-degree saturation in each chamber. This is the
-first order-one contributor stage; actual `p`th-power and degree-`n` tests
-are reserved for retained components.
+resultant then form a bounded-degree saturation in each chamber. The known
+zero split value supplies an automatic resultant factor; cancelling it
+reduces the reciprocal polynomial from degree `h` to `h-1`. This reduced
+system is the first order-one contributor stage; actual `p`th-power and
+degree-`n` tests are reserved for retained components.
 The next analytic target is therefore an exhaustion theorem for low-weight
 balanced signed words in the `m=4` Mersenne cyclic code. The exact finite
 falsifier `CR-L1-MCP-M4H2-C31` asks contributors to classify the order-128

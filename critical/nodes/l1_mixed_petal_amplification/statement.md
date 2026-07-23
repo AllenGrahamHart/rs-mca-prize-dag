@@ -1175,10 +1175,13 @@ zeta=d^(p+1) in mu_m,       c^p=1+zeta/d.
 ```
 
 For each of these `m` torsion chambers, the Frobenius transform of the
-hypergeometric curve and the same reciprocal resultant identity form a
-bounded-degree system in `(rho,rho^p,c,zeta)`. A unit saturation by the
-printed nonzero factors closes the order-one chamber before a degree-`n`
-remainder. Again, retained components are necessary candidates only.
+hypergeometric curve and a reciprocal resultant identity form a
+bounded-degree system in `(rho,rho^p,c,zeta)`. The known zero split value
+contributes an automatic factor, which is cancelled before saturation; the
+resultant system therefore has degree `h-1`, not `h`. A unit saturation by
+the printed nonzero factors closes the order-one chamber before a
+degree-`n` remainder. Again, retained components are necessary candidates
+only.
 
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full

@@ -109,7 +109,19 @@ for p, m in ((23, 8), (31, 16)):
             u_coefficient(rho_star, c_star, r, p, dquad)
     checks += 1
 
-    roots = norm_one[1:h + 1]
+    y_zero = power(d, -m % (p * p - 1), p, dquad)
+    assert power(y_zero, p, p, dquad) == inverse(y_zero, p, dquad)
+    remaining_roots = [value for value in norm_one if value != y_zero][:h - 1]
+    assert len(remaining_roots) == h - 1
+
+    q_tilde = polynomial_from_roots(remaining_roots, p, dquad)
+    q_tilde_frobenius = [power(value, p, p, dquad) for value in q_tilde]
+    constant_tilde = q_tilde[0]
+    assert [mul(constant_tilde, value, p, dquad)
+            for value in q_tilde_frobenius] == list(reversed(q_tilde))
+    checks += 1
+
+    roots = [y_zero] + remaining_roots
     q = polynomial_from_roots(roots, p, dquad)
     q_frobenius = [power(value, p, p, dquad) for value in q]
     constant = q[0]
@@ -124,6 +136,7 @@ for anchor in (
     "(OFG3)",
     "(OFG4)",
     "(OFG5)",
+    "(OFG5a)",
     "(OFG6)",
     "(OFG7)",
     "(OFG8)",
@@ -133,6 +146,7 @@ for anchor in (
     checks += 1
 for anchor in (
     "c^p=(1+d)^p",
+    "automatic zero-value factor",
     "The reverse implication is not claimed",
     "setwise Frobenius inversion",
 ):

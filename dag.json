@@ -15824,7 +15824,7 @@
    "title": "L1 Mersenne HNF order-one Frobenius gate",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "Every order-one next-to-maximal hypergeometric survivor lies in one of m bounded-degree torsion/Frobenius reciprocal systems. A verified unit saturation closes that chamber before any degree-n remainder; retained components remain necessary candidates only.",
+   "statement": "Every order-one next-to-maximal hypergeometric survivor lies in one of m bounded-degree torsion/Frobenius reciprocal systems. Cancelling the automatic zero-value factor reduces the reciprocal degree to h-1. A verified unit saturation closes that chamber before any degree-n remainder; retained components remain necessary candidates only.",
    "refs": [
     "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/statement.md",
     "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/proof.md",

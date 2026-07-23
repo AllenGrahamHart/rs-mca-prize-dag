@@ -2,7 +2,7 @@
 
 | field | value |
 |---|---|
-| claim | Every order-one HNF survivor lies on the printed bounded-degree torsion/Frobenius reciprocal system; a unit saturation closes that chamber. |
+| claim | Every order-one HNF survivor lies on the printed bounded-degree torsion/Frobenius reciprocal system; its automatic zero-value factor cancels, leaving reciprocal degree `h-1`, and a unit saturation closes that chamber. |
 | status | PROVED |
 | dependency | `l1_mersenne_next_to_maximal_hypergeometric_normal_form` |
 | exact rows | Four `m=8,h=7` rows and one `m=16,h=15` row. |

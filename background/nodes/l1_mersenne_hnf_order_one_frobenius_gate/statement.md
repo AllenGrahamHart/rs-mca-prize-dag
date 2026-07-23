@@ -40,11 +40,20 @@ Q_(rho,c)(Z)=Res_W(P_(rho,c)(W),Z-W^m),
 C_(rho,c)=Q_(rho,c)(0).                              (OFG5)
 ```
 
-Every survivor satisfies the reciprocal identity
+The known zero split value gives
 
 ```text
-C_(rho,c)Q_(rho_star,c_star)(Z)
-  =Z^h Q_(rho,c)(1/Z).                               (OFG6)
+x_0=-1/d,       y_0=x_0^m=d^(-m),
+P_(rho,c)=(W-x_0)L_(rho,c),
+Q_(rho,c)=(Z-y_0)Qtilde_(rho,c).                     (OFG5a)
+```
+
+Put `Ctilde=Qtilde(0)`. Every survivor satisfies the reduced reciprocal
+identity
+
+```text
+Ctilde_(rho,c)Qtilde_(rho_star,c_star)(Z)
+  =Z^(h-1) Qtilde_(rho,c)(1/Z).                      (OFG6)
 ```
 
 After substituting `c_star=1+zeta/(c-1)`, clearing the fixed denominators,
@@ -53,7 +62,7 @@ equations in (OFG6) form a bounded-degree algebraic system depending only on
 `m,h`. Saturate by
 
 ```text
-rho*c*(c-1)*[t^(h-1)]U_(rho,c)*C_(rho,c).            (OFG7)
+rho*c*(c-1)*[t^(h-1)]U_(rho,c)*Ctilde_(rho,c).       (OFG7)
 ```
 
 A verified unit saturation closes the complete order-one chamber before any

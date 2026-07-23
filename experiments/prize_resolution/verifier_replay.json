@@ -9,7 +9,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/verify.py",
-      "seconds": 0.027805,
+      "seconds": 0.025396,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "L1_MERSENNE_HNF_FROBENIUS_RECIPROCAL_GATE_PASS checks=23\n"
@@ -17,7 +17,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/verify_audit.py",
-      "seconds": 0.013737,
+      "seconds": 0.013997,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "L1_MERSENNE_HNF_FROBENIUS_RECIPROCAL_GATE_AUDIT_PASS checks=6\n"
@@ -25,18 +25,18 @@
     {
       "returncode": 0,
       "script": "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/verify.py",
-      "seconds": 0.026814,
+      "seconds": 0.02552,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ONE_FROBENIUS_GATE_PASS checks=18\n"
+      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ONE_FROBENIUS_GATE_PASS checks=22\n"
     },
     {
       "returncode": 0,
       "script": "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/verify_audit.py",
-      "seconds": 0.013729,
+      "seconds": 0.013457,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ONE_FROBENIUS_GATE_AUDIT_PASS checks=6\n"
+      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ONE_FROBENIUS_GATE_AUDIT_PASS checks=9\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

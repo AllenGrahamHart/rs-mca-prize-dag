@@ -4534,7 +4534,9 @@ c^p=1+zeta/d.
 For each of the `m` possible `zeta`, Frobenius carries the explicit
 hypergeometric coefficient curve to the same curve at
 `(rho^p,1+zeta/d)`. The `m`th-power resultant obeys the reciprocal identity
-with those transformed parameters. After clearing fixed denominators, this
-is a bounded-degree saturation problem depending only on `m,h`. A unit
+with those transformed parameters. Its factor from the known zero split
+value is automatic and cancels exactly, reducing the reciprocal polynomial
+from degree `h` to `h-1`. After clearing fixed denominators, this is a
+bounded-degree saturation problem depending only on `m,h`. A unit
 certificate closes order one; retained components still require actual
 Frobenius, cyclotomic, and inner checks. No emptiness is claimed.

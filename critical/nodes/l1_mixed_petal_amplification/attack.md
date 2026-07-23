@@ -575,10 +575,12 @@
   For the order-one chamber, first consume
   `l1_mersenne_hnf_order_one_frobenius_gate`. Put `d=c-1` and shard only by
   `zeta=d^(p+1) in mu_m`; then `c^p=1+zeta/d`. Combine the hypergeometric
-  curve with the reciprocal resultant system in `(rho,rho^p,c,zeta)`,
-  saturating by the printed nonzero factors. A unit saturation closes the
-  chamber. Retained components must still pass the actual Frobenius,
-  cyclotomic remainder, and inner-lift equations.
+  curve with the reciprocal resultant system in `(rho,rho^p,c,zeta)`. First
+  remove the known root `W=-1/d` and its resultant factor
+  `Z-d^(-m)`; use the resulting degree-`h-1` reciprocal system and saturate
+  by the printed nonzero factors. A unit saturation closes the chamber.
+  Retained components must still pass the actual Frobenius, cyclotomic
+  remainder, and inner-lift equations.
   `CR-L1-MCP-NMCE` specifies the outbound
   proof-producing classification request; it is not authorized locally or
   on the current Modal account.

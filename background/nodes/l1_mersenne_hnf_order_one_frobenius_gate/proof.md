@@ -43,15 +43,39 @@ Z^hQ_(rho,c)(1/Z)
  =C_(rho,c)Q_(rho_star,c_star)(Z),                    (4)
 ```
 
-which proves (OFG5)--(OFG6).
+which proves the full degree-`h` reciprocal identity associated with (OFG5).
+
+More precisely, the dependency identifies the zero split value with
+`x_0=-1/d`. Since `m` is even, its `m`th power is `y_0=d^(-m)`. Equation
+(1) gives
+
+```text
+y_0^p=(d^p)^(-m)=(zeta/d)^(-m)=d^m=y_0^(-1),
+```
+
+because `zeta^m=1`. Factor
+
+```text
+Q=(Z-y_0)Qtilde,       C=-y_0 Ctilde.
+```
+
+The full degree-`h` identity (4) has the factor `Z-y_0^(-1)` on both sides.
+Cancelling it and then cancelling `-y_0` yields
+
+```text
+Ctilde Qtilde_star=Z^(h-1)Qtilde(1/Z),
+```
+
+which is the reduced identity printed in (OFG6). Thus the bounded system
+need not carry the automatic zero-value factor.
 
 The coefficient constructions use only the fixed degrees `h,m`. Clearing
 powers of `c`, `c-1`, and factorials at most `h` therefore gives a
 bounded-degree system independent of the official exponent. The factors in
-(OFG7) are nonzero on a survivor: `A`, `c`, and `c-1` are nonzero; the
-order-one condition gives the penultimate coefficient; and all roots of `P`
-are nonzero, so its `m`th-power resultant has nonzero constant term. A unit
-saturation consequently excludes every possible survivor.
+(OFG7) are nonzero on a survivor: `rho`, `c`, and `c-1` are nonzero; the
+order-one condition gives the penultimate coefficient; and all roots of
+`L` are nonzero, so its `m`th-power resultant has nonzero constant term
+`Ctilde`. A unit saturation consequently excludes every possible survivor.
 
 The reverse implication is not claimed. The bounded equations remember only
 setwise Frobenius inversion and the necessary curve/torsion data. Thus every
