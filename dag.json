@@ -15799,6 +15799,25 @@
     "experiments/prize_resolution/l1_mersenne_hnf_toy_gcd_result.json",
     "experiments/prize_resolution/l1_mersenne_hnf_toy_gcd_result.md"
    ]
+  },
+  {
+   "id": "l1_mersenne_hnf_frobenius_reciprocal_gate",
+   "title": "L1 Mersenne HNF Frobenius reciprocal gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every order-zero next-to-maximal hypergeometric survivor lies on an explicit bounded-degree off-diagonal Frobenius reciprocal system in (s,t=s^p). A verified unit saturation by t-s closes that chamber before any degree-n remainder; nonunit components remain necessary candidates only.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/statement.md",
+    "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/proof.md",
+    "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/audit.md",
+    "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/result.md",
+    "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/lineage.md",
+    "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/verify.py",
+    "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -30199,6 +30218,16 @@
   },
   {
    "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_frobenius_reciprocal_gate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_frobenius_reciprocal_gate",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

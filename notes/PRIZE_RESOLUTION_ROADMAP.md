@@ -2007,6 +2007,15 @@ out the explicit hypergeometric curve
 step is an exact univariate cyclotomic gcd and curve-torsion intersection,
 not enumeration over fields or degree-`h` coefficient vectors; the
 unknown-cost campaign remains delegated as `CR-L1-MCP-NMCE`.
+The order-zero branch has a further bounded-degree prefilter:
+`l1_mersenne_hnf_frobenius_reciprocal_gate`. With
+`Q_s(Z)=Res_W(P_s(W),Z-W^m)`, cyclotomic survival forces
+`Q_s(0)Q_(s^p)(Z)=Z^hQ_s(1/Z)`. Replacing `s^p` by `t` gives a coefficient
+system whose degrees depend only on `m,h`; a unit saturation by `t-s`
+closes the order-zero branch without constructing a degree-`n` remainder.
+This off-diagonal saturation is now the first exact contributor target.
+Only its retained components should be tested against `t=s^p` and the full
+cyclotomic remainder.
 The next analytic target is therefore an exhaustion theorem for low-weight
 balanced signed words in the `m=4` Mersenne cyclic code. The exact finite
 falsifier `CR-L1-MCP-M4H2-C31` asks contributors to classify the order-128

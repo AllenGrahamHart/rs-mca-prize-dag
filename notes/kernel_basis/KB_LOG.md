@@ -4494,3 +4494,22 @@ The bounded `(m,h,p,n)=(8,7,31,256)` analogue then returned exact common
 gcd `s-1`; removing `s^31-s` leaves the unit polynomial. Modal app
 `ap-gT0DyToHmnD911PEFFilTd` used `2.805886` worker-seconds. This is evidence
 for the univariate route only, not an official-row theorem.
+
+## 179 - 2026-07-23: FROBENIUS RECIPROCITY REMOVES THE LARGE EXPONENT FIRST
+
+`l1_mersenne_hnf_frobenius_reciprocal_gate` applies the rate-half
+torsion-resultant method to the order-zero HNF chamber. For
+`Q_s(Z)=Res_W(P_s(W),Z-W^m)`, each root is `y=x^m` with `y^(p+1)=1`.
+Frobenius therefore gives the exact necessary identity
+
+```text
+Q_s(0)Q_(s^p)(Z)=Z^hQ_s(1/Z).
+```
+
+Writing `t=s^p` turns this into `h+1` coefficient equations of degree
+depending only on `m,h`. Since the earlier gate proves `s notin F_p`, only
+the saturation by `t-s` matters. A unit certificate closes the complete
+order-zero branch before any degree-`n` remainder; nonunit components remain
+necessary candidates and must be checked against `t=s^p` and the original
+cyclotomic equation. This bounded system is now the first stage of the
+outbound `CR-L1-MCP-NMCE` request.

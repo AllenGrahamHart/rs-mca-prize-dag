@@ -1151,6 +1151,21 @@ forces `(c-1)^n=1`. Thus the remaining next-to-maximal outer classification
 is low-dimensional, but neither intersection is yet proved empty and no
 inner degree-`p` lift is supplied.
 
+The order-zero Frobenius successor
+`l1_mersenne_hnf_frobenius_reciprocal_gate` takes
+`Q_s(Z)=Res_W(P_s(W),Z-W^m)`. Since every `m`th-power root has norm one to
+`F_p`, every survivor obeys
+
+```text
+Q_s(0)Q_(s^p)(Z)=Z^hQ_s(1/Z).
+```
+
+Introducing `t=s^p` gives a bounded-degree two-variable coefficient system
+depending only on `m,h`, with `t!=s`. An exact unit saturation by `t-s`
+would close the whole order-zero chamber. The identity is only necessary,
+so retained components still require the original cyclotomic and inner
+tests.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

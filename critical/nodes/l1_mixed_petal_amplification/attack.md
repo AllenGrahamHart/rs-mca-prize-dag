@@ -564,6 +564,14 @@
   `[t^h](1-t)^(c rho)(1-ct)^(-rho)=0`, and require `(c-1)^n=1` before
   any inner lift. These are a univariate remainder problem and a torsion
   intersection with one explicit curve, not field-element enumerations.
+  For the order-zero chamber, first consume
+  `l1_mersenne_hnf_frobenius_reciprocal_gate`. Form
+  `Q_s(Z)=Res_W(P_s(W),Z-W^m)` and solve its bounded-degree off-diagonal
+  coefficient system
+  `Q_s(0)Q_t(Z)=Z^hQ_s(1/Z)`, saturated by `t-s`. A unit saturation closes
+  that chamber before any degree-`n` remainder. Nonunit components are only
+  candidates: impose `t=s^p` and the original cyclotomic remainder before
+  treating one as an outer survivor.
   `CR-L1-MCP-NMCE` specifies the outbound
   proof-producing classification request; it is not authorized locally or
   on the current Modal account.

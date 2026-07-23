@@ -7225,11 +7225,25 @@ the outer stage into exactly two low-dimensional tasks.
   P_s(W)=sum_(r=0)^h binom(s+r-1,r)W^(h-r).
   ```
 
-  Compute the gcd over `F_p[s]` of the coefficient remainders of
-  `W^n-1 mod P_s`, then remove its gcd with `s^p-s`. A complete unit quotient
-  closes this chamber. Any retained irreducible factor must include an exact
-  algebraic representation of `s`, replay of `s notin F_p`, and the zero
-  remainder certificate.
+  First form
+
+  ```text
+  Q_s(Z)=Res_W(P_s(W),Z-W^m)=sum_(j=0)^h q_j(s)Z^(h-j)
+  ```
+
+  and compute the saturation by `t-s` of
+
+  ```text
+  Q_s(0)q_j(t)-q_(h-j)(s)=0,       0<=j<=h.
+  ```
+
+  This bounded-degree Frobenius reciprocal system is the first target. A
+  verified unit saturation closes the chamber. For each retained component,
+  impose `t=s^p`; only then compute the gcd over `F_p[s]` of the coefficient
+  remainders of `W^n-1 mod P_s` and remove its gcd with `s^p-s`. A complete
+  unit quotient closes the remaining chamber. Any retained irreducible
+  factor must include an exact algebraic representation of `s`, replay of
+  `s notin F_p`, and the zero remainder certificate.
 
 - For `ord_0(T)=1`, normalize `g(y)=R(0)^(-h)G(R(0)y)`,
   `A=[Y^(h-2)]G/R(0)^2`, and `c=z/R(0)`. Generate every coefficient by
