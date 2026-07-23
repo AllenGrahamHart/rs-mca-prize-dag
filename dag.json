@@ -15818,6 +15818,25 @@
     "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/verify.py",
     "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/verify_audit.py"
    ]
+  },
+  {
+   "id": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "title": "L1 Mersenne HNF order-one Frobenius gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every order-one next-to-maximal hypergeometric survivor lies in one of m bounded-degree torsion/Frobenius reciprocal systems. A verified unit saturation closes that chamber before any degree-n remainder; retained components remain necessary candidates only.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/result.md",
+    "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/lineage.md",
+    "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/verify.py",
+    "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -30228,6 +30247,16 @@
   },
   {
    "from": "l1_mersenne_hnf_frobenius_reciprocal_gate",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

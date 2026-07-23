@@ -1166,6 +1166,20 @@ would close the whole order-zero chamber. The identity is only necessary,
 so retained components still require the original cyclotomic and inner
 tests.
 
+The order-one successor
+`l1_mersenne_hnf_order_one_frobenius_gate` discretizes the remaining large
+Frobenius image. With `d=c-1`, every survivor has
+
+```text
+zeta=d^(p+1) in mu_m,       c^p=1+zeta/d.
+```
+
+For each of these `m` torsion chambers, the Frobenius transform of the
+hypergeometric curve and the same reciprocal resultant identity form a
+bounded-degree system in `(rho,rho^p,c,zeta)`. A unit saturation by the
+printed nonzero factors closes the order-one chamber before a degree-`n`
+remainder. Again, retained components are necessary candidates only.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

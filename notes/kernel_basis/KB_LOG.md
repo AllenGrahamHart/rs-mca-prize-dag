@@ -4520,3 +4520,21 @@ SymPy's generic grevlex Groebner step timed out at 120 seconds. Modal app
 `ap-0EK5ErTdMIAYixk0Leq78F` is `INCOMPLETE` and supplies no emptiness
 evidence. The exact contributor task is now a stronger CAS or
 structure-aware saturation, not a retry of that backend.
+
+## 180 - 2026-07-23: THE ORDER-ONE HNF BRANCH HAS ONLY M TORSION CHAMBERS
+
+`l1_mersenne_hnf_order_one_frobenius_gate` completes the bounded prefilter
+on the second local-order chamber. Put `d=c-1`. Since `d^(m(p+1))=1`, every
+survivor has `zeta=d^(p+1) in mu_m` and
+
+```text
+c^p=1+zeta/d.
+```
+
+For each of the `m` possible `zeta`, Frobenius carries the explicit
+hypergeometric coefficient curve to the same curve at
+`(rho^p,1+zeta/d)`. The `m`th-power resultant obeys the reciprocal identity
+with those transformed parameters. After clearing fixed denominators, this
+is a bounded-degree saturation problem depending only on `m,h`. A unit
+certificate closes order one; retained components still require actual
+Frobenius, cyclotomic, and inner checks. No emptiness is claimed.

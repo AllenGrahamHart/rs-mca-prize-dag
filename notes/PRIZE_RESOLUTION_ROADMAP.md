@@ -2021,6 +2021,13 @@ seconds but timed out in SymPy's generic three-variable Groebner saturation
 at 120 seconds. This is no mathematical evidence. It routes donated compute
 to a stronger elimination backend or a structure-aware two-variable
 saturation; do not retry the same SymPy path or expand `W^n-1` first.
+The order-one branch now has the parallel bounded gate
+`l1_mersenne_hnf_order_one_frobenius_gate`. Its torsion condition gives only
+`m` chambers through `zeta=(c-1)^(p+1)` and
+`c^p=1+zeta/(c-1)`. The Frobenius hypergeometric curve and reciprocal
+resultant then form a bounded-degree saturation in each chamber. This is the
+first order-one contributor stage; actual `p`th-power and degree-`n` tests
+are reserved for retained components.
 The next analytic target is therefore an exhaustion theorem for low-weight
 balanced signed words in the `m=4` Mersenne cyclic code. The exact finite
 falsifier `CR-L1-MCP-M4H2-C31` asks contributors to classify the order-128

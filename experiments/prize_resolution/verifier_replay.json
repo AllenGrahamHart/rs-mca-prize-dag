@@ -2,46 +2,14 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 12,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/verify.py",
-      "seconds": 0.034997,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_CHECKPOINT_CYCLOTOMIC_NORMAL_FORM_PASS checks=56\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/verify_audit.py",
-      "seconds": 0.022706,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_CHECKPOINT_CYCLOTOMIC_NORMAL_FORM_AUDIT_PASS checks=5\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/verify.py",
-      "seconds": 0.034863,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_CHECKPOINT_EMBEDDED_M2_FAMILY_PASS checks=69\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/l1_mersenne_checkpoint_embedded_m2_family/verify_audit.py",
-      "seconds": 0.01999,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_CHECKPOINT_EMBEDDED_M2_FAMILY_AUDIT_PASS checks=10\n"
-    },
-    {
-      "returncode": 0,
       "script": "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/verify.py",
-      "seconds": 0.024519,
+      "seconds": 0.027805,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "L1_MERSENNE_HNF_FROBENIUS_RECIPROCAL_GATE_PASS checks=23\n"
@@ -49,58 +17,26 @@
     {
       "returncode": 0,
       "script": "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/verify_audit.py",
-      "seconds": 0.016786,
+      "seconds": 0.013737,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "L1_MERSENNE_HNF_FROBENIUS_RECIPROCAL_GATE_AUDIT_PASS checks=6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/verify.py",
-      "seconds": 0.046409,
+      "script": "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/verify.py",
+      "seconds": 0.026814,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_NEXT_TO_MAXIMAL_BELYI_SHIFTED_VALUE_GATE_PASS checks=35\n"
+      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ONE_FROBENIUS_GATE_PASS checks=18\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/verify_audit.py",
-      "seconds": 0.02625,
+      "script": "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/verify_audit.py",
+      "seconds": 0.013729,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_NEXT_TO_MAXIMAL_BELYI_SHIFTED_VALUE_GATE_AUDIT_PASS checks=39\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/verify.py",
-      "seconds": 0.056476,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_NEXT_TO_MAXIMAL_EXCEPTIONAL_REDUCTION_PASS checks=59\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/verify_audit.py",
-      "seconds": 0.030138,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_NEXT_TO_MAXIMAL_EXCEPTIONAL_REDUCTION_AUDIT_PASS checks=81\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/l1_mersenne_next_to_maximal_hypergeometric_normal_form/verify.py",
-      "seconds": 0.04101,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_NEXT_TO_MAXIMAL_HYPERGEOMETRIC_NORMAL_FORM_PASS checks=50\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/l1_mersenne_next_to_maximal_hypergeometric_normal_form/verify_audit.py",
-      "seconds": 0.016689,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_NEXT_TO_MAXIMAL_HYPERGEOMETRIC_NORMAL_FORM_AUDIT_PASS checks=92\n"
+      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ONE_FROBENIUS_GATE_AUDIT_PASS checks=6\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

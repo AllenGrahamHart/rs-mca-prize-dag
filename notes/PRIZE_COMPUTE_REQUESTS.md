@@ -7269,10 +7269,24 @@ the outer stage into exactly two low-dimensional tasks.
   `A=[Y^(h-2)]G/R(0)^2`, and `c=z/R(0)`. Generate every coefficient by
   the registered top-down recurrence (HNF3), put
   `rho=2A/[c(c-1)]`, and impose its closed-form last equation
-  `Phi_h(rho,c)=[t^h](1-t)^(c rho)(1-ct)^(-rho)=0`. Intersect that curve
-  with `(c-1)^n=1` and the shifted-polynomial remainder equations. A complete resultant or
-  primary-decomposition certificate closes this chamber. A surviving point
-  must carry exact coordinates and direct replay of all three equations.
+  `Phi_h(rho,c)=[t^h](1-t)^(c rho)(1-ct)^(-rho)=0`. Before the large
+  torsion or remainder equations, shard by `zeta in mu_m`, substitute
+
+  ```text
+  c_star=1+zeta/(c-1),       rho_star=formal Frobenius image of rho,
+  ```
+
+  impose `Phi_h(rho_star,c_star)=0`, and impose the coefficient equations of
+
+  ```text
+  Q_(rho,c)(0)Q_(rho_star,c_star)(Z)=Z^hQ_(rho,c)(1/Z).
+  ```
+
+  Compute the exact saturation by the nonzero factor in (OFG7). A unit
+  certificate closes the order-one chamber. For each retained component,
+  impose `rho_star=rho^p` and `(c-1)^(p+1)=zeta`; only then test
+  `P_(rho,c)|W^n-1` and any inner lift. A surviving point must carry exact
+  coordinates and direct replay of every equation.
 
 For the largest rows, a naively expanded degree-`n` remainder or resultant
 may be prohibitively large. Benchmark the recurrence/Frobenius algorithm on
