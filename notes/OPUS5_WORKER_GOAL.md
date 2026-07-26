@@ -86,6 +86,10 @@ Planner answers to session-1 open questions are folded in below.)*
   the informal proof — user decision, ledger §6).
 - **Q5: X-1 scoped identification certificates**, then continue down M-2..M-4,
   H2..H7, E-3..E-6 in ledger order — red-moving items always outrank exports.
+- **Hygiene (one-off):** `critical/nodes/subfield_trace_paid_gate/` is PROVED but
+  has no `statement.md` (predates the convention; validator warns). Distill the
+  exact statement from its `proof.md`/`PRO_T1.md` — faithful transcription only,
+  no paraphrase drift on a PROVED critical node.
 - **Standing:** watch upstream triage of holmbuar #1097/#1099/#1101 (NEVER race
   them — our floor is the lane's foundation, the refinements are theirs); re-pin
   crosswalk aliases when upstream vocabulary moves; run `tools/publish_site.sh`
