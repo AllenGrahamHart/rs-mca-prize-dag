@@ -14,6 +14,7 @@ tangent_clean_anchor_route_classification --ev-->
 averaged_occupancy_clean_anchor_first_moment_route_cut --ev-->
 qfloor_clean_anchor_norm_threshold_route_cut --ev-->
 e1_clean_anchor_exact_collision_allowance --ev-->
+e1_pair_feasible_ambient_generation      --ev-->
 e1_official_prime_exception_control       --ev-->
 e1_fullness                               --ev-->
 deployed_identity_prefix_owner_scope_audit  --ev-->
@@ -56,3 +57,8 @@ bound on `P`, so the E1 target remains open. It also proves that
 `B*<|F_p(Q)|<ceil((A_2+B*+1)/3)` rules out the pair-loss compiler. Both must
 route elsewhere unless a sharper direct image theorem pays the intermediate
 range.
+
+On the pair-feasible branch, ambient generation is automatic: the strict
+field cap puts every proper subfield below `2^128`, while the smallest pair
+threshold has 134 bits. The collision target therefore has no remaining
+generated-field transfer premise.

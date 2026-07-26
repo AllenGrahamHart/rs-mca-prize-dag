@@ -44,6 +44,7 @@ def main():
     offorbit_route = {
         branch_target,
         "e1_clean_anchor_exact_collision_allowance",
+        "e1_pair_feasible_ambient_generation",
         "e1_fullness",
         "e1_exceptional_set_reduction",
         "are_exceptional_density",
@@ -86,6 +87,7 @@ def main():
         ("e1_open_cell_control_payload", branch_target, "ev"),
         ("e1_official_typicality_or_certificate", branch_target, "ev"),
         ("e1_clean_anchor_exact_collision_allowance", branch_target, "ev"),
+        ("e1_pair_feasible_ambient_generation", branch_target, "ev"),
     }
     require(evidence_edges <= edges, "named-exhibit route is not evidence-only")
     require(
@@ -104,8 +106,15 @@ def main():
             "pair-feasibility threshold is missing")
     require((exact_compiler, "e1_fullness", "req") in edges,
             "finite compiler no longer gates e1_fullness")
+    ambient_generation = "e1_pair_feasible_ambient_generation"
+    require(nodes[ambient_generation]["status"] == "PROVED",
+            "pair-feasible ambient generation regressed")
+    require("f_p(q)=f_q" in nodes[ambient_generation]["statement"].lower(),
+            "ambient-generation conclusion is missing")
+    require((exact_compiler, ambient_generation, "req") in edges,
+            "ambient-generation node lost its threshold parent")
     universal = "unsafe_crossing_family_instantiation"
-    for source in (exact_compiler, branch_target, "e1_fullness"):
+    for source in (exact_compiler, ambient_generation, branch_target, "e1_fullness"):
         require((source, universal, "ev") in edges,
                 f"{source} lost its evidence edge to the universal target")
 

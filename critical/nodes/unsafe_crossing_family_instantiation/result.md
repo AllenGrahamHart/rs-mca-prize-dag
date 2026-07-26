@@ -27,3 +27,7 @@ The complete-support first moment additionally proves that no support-family
 That conclusion holds before same-slope collisions are charged and across all
 witness sizes at least the predecessor agreement. It is a supplier route cut,
 not a bound on explicit `Q`/`V` constructions.
+
+The surviving pair-feasible E1 branch is automatically ambient-generating at
+all six anchors. This removes the generated-field transfer axis but leaves the
+exact pointwise collision-pair inequality open.

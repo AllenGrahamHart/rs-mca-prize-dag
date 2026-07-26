@@ -15,6 +15,11 @@ for the unordered reduced-value collision-pair count `P`. The six RowC/prize
 allowances are printed and independently replayed in
 `e1_clean_anchor_exact_collision_allowance`.
 
+The generated-field axis is closed on this branch. Every proper subfield of
+an official field has size below `2^128`, while every printed `b_pair_min`
+exceeds `2^133`; pair feasibility therefore forces `F_p(Q)=F`. The remaining
+issue is pointwise collision control in the ambient field itself.
+
 The old `o(1)` language was not a finite `2^-128` certificate. Likewise, the
 old named `N'=128,256` no-vector experiments are background evidence: `128`
 does not match a live clean quotient order, `512` is absent, and finite
@@ -33,6 +38,7 @@ The next route-deciding attack is algebraic. Either:
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;
 - provide a total per-input image/collision certifier theorem; or
-- bypass E1 with a direct value family or an exact post-paid occupancy family.
+- bypass E1 with another direct value family. The complete-support first-
+  moment cut has already eliminated averaged occupancy at these anchors.
 
 Birthday scans and almost-all-primes estimates remain evidence only.

@@ -9,6 +9,9 @@ official_row_primes_pinning [PROVED]
 e1_clean_anchor_exact_collision_allowance [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_pair_feasible_ambient_generation [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_official_prime_exception_control [TARGET]
     -> e1_fullness [CONDITIONAL]
 ```

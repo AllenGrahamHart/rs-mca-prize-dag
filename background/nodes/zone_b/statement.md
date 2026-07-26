@@ -18,6 +18,10 @@ image size greater than `B*` and supplies a direct-value unsafe payload. This
 route-local determination is evidence for
 `unsafe_crossing_family_instantiation`, not universal unsafe coverage.
 
+The pair-feasible class is automatically ambient-generating by
+`e1_pair_feasible_ambient_generation`; no proper-subfield transfer remains in
+this branch.
+
 Historical experiments at quotient orders `16,32,64,128,256` remain evidence
 about collision behavior. In particular, an `N=128` result does not by itself
 pay any of the present clean anchors.

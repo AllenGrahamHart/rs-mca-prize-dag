@@ -196,6 +196,21 @@
    "notes": "FINITE E1 COMPILER 2026-07-26: corrects the provisional global-sign factor, quotient-order/folded-dimension ambiguity, circular route assignment, and the overbroad |B|>B* pair target. It fixes exact allowances and a three-way generated-field split but proves no official collision bound and pays no row."
   },
   {
+   "id": "e1_pair_feasible_ambient_generation",
+   "title": "Pair-feasible E1 rows generate the ambient field",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_pair_feasible_ambient_generation/statement.md",
+    "background/nodes/e1_pair_feasible_ambient_generation/proof.md",
+    "background/nodes/e1_pair_feasible_ambient_generation/claim_contract.md",
+    "background/nodes/e1_pair_feasible_ambient_generation/verify.py",
+    "background/nodes/e1_pair_feasible_ambient_generation/source_pin.json"
+   ],
+   "statement": "At each of the six named clean predecessor anchors, let B=F_p(Q) be the quotient-generated subfield of the ambient field F_q. Every proper B has |B|<2^128 because q<2^256. All six exact pair-feasibility thresholds satisfy b_pair_min>2^128, with bit lengths 134,170,188. Hence |B|>=b_pair_min forces F_p(Q)=F_q. Proper generated-subfield rows remain outside the pair-loss target and require direct image or another supplier.",
+   "notes": "ROUTE REDUCTION 2026-07-27: ambient generation is automatic on the live pair-feasible E1 branch; this proves no collision bound."
+  },
+  {
    "id": "identity_prefix_flexible_budget_unsafe_floor",
    "title": "Identity-prefix plus flexible-budget MCA unsafe floor",
    "status": "PROVED",
@@ -17489,6 +17504,21 @@
   },
   {
    "from": "e1_clean_anchor_exact_collision_allowance",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_clean_anchor_exact_collision_allowance",
+   "to": "e1_pair_feasible_ambient_generation",
+   "kind": "req"
+  },
+  {
+   "from": "e1_pair_feasible_ambient_generation",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_pair_feasible_ambient_generation",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

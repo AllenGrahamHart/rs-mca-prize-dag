@@ -876,6 +876,17 @@ direct `Q`/`V`, with E1 the only current route on the pair-feasible generated-
 field branch. See
 `notes/AVERAGED_OCCUPANCY_FIRST_MOMENT_ROUTE_CUT_AUDIT_20260727.md`.
 
+N21 DONE, E1 PAIR-FEASIBLE AMBIENT GENERATION: if
+`B=F_p(Q)` is a proper subfield of an official ambient field, then
+`|B|^2<=q<2^256`, so `|B|<2^128`. Every one of the six exact
+`b_pair_min` thresholds is larger than `2^128` (the smallest has 134 bits).
+Therefore the pair-feasible E1 branch automatically satisfies `F_p(Q)=F`.
+This removes the generated-field transfer axis from
+`e1_official_prime_exception_control`; proper-subfield rows remain in the
+direct-image-only or E1-impossible branches of the universal router. No
+collision bound or row payment follows. See
+`notes/E1_PAIR_FEASIBLE_AMBIENT_GENERATION_AUDIT_20260727.md`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable

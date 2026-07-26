@@ -18,6 +18,10 @@ b=|B| >= b_pair_min(K,B*) = ceil((K+B*+1)/3),
 B* = floor(|F|/2^128).
 ```
 
+By `e1_pair_feasible_ambient_generation`, this premise automatically forces
+`B=F` at all six named anchors. The generated-field transfer is therefore not
+an additional hypothesis of the live pair-feasible target.
+
 The actual quotient orders are
 
 ```text

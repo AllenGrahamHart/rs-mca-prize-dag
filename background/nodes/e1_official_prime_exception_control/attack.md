@@ -10,6 +10,9 @@ For a clean-anchor row with `B=F_p(Q)` and
 characteristic-zero E1 classes at `N=256` or `512`. Count unordered colliding
 class pairs after reduction:
 
+The pair-feasible premise already implies `B=F` under the official field cap.
+Do not spend effort on a generated-to-ambient transfer inside this target.
+
 ```text
 P=sum_y binom(r_y,2).
 ```

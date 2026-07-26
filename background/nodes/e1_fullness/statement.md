@@ -15,7 +15,9 @@ class `|F_p(Q)|>=b_pair_min(K,B*)`, let `N in {256,512}` be its actual quotient 
 
 Therefore the canonical quotient line supplies a direct-value `V` payload at
 agreement `m=k+n/N`, after the row packet pins the ambient slope field,
-generated-field transfer, quotient embedding, first-match owner, and endpoint.
+quotient embedding, first-match owner, and endpoint. On this pair-feasible
+branch, `e1_pair_feasible_ambient_generation` proves the generated field is
+already ambient.
 
 The proved reduction `e1_exceptional_set_reduction` identifies every residual
 class collision with an explicit norm divisor. The exact finite loss compiler

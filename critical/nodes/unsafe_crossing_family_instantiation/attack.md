@@ -27,7 +27,9 @@ a short pre-registered route decision.
    First split on `b=|F_p(Q)|`: if `b<=B*`, E1 is impossible; if
    `B*<b<b_pair_min=ceil((A_2+B*+1)/3)`, the pair ledger is impossible though
    direct image remains open; only `b>=b_pair_min` reaches the pointwise pair
-   target.
+   target. On all six named anchors this last branch automatically has
+   `F_p(Q)=F`, because a proper subfield is smaller than `2^128` while every
+   `b_pair_min` has at least 134 bits.
 3. Before taking moments on any residual row, screen the complete-support FM1
    sum. If it is at most `B*`, no subfamily or nonnegative collision correction
    can trigger `nu(A)>B*`. This screen rules out `M` on all six named
