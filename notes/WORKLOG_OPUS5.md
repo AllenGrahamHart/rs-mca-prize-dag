@@ -1051,3 +1051,30 @@ Codex demoted one node; following it produced, in order: independent confirmatio
 from our own notes → 37 empty PROVED statements → 82 dangling proof refs on the
 critical surface → the legacy tree proved unrecoverable → 197 nodes skipped by the
 validator on a false premise. **No status changed** — all of it is the planner's.
+
+**Session 7n — the ell=4 lane unified; (4,10) minted.**
+
+| | |
+|---|---|
+| nodes minted | 1 — `dli_wcl_ell4_weight10_even_divisor_descent` (PROVED) |
+| prediction corrected | my own: `(4,10)` needs **no** router, and no dilation |
+| structural result | all three `ell=4` cells are **one** combinatorial statement |
+| census (datum) | `260 = 201/36/23` |
+
+`(4,10)`: the parity dichotomy said the global dilation fails (`gcd(10,2048)=2`) and
+predicted a sub-tuple router. Wrong — the even case needs **no normalisation at
+all**. The window alone gives `F(X) = E(X^2) - e_9 X`, `E` monic quintic, and
+`e_9 != 0` is forced because `e_9 = 0` would make `F` even, i.e. its roots antipodal,
+which reducedness forbids. Square locator `G(Y) = E(Y)^2 - e_9^2 Y`; 294
+reconstruction instances checked.
+
+**Unification** (`notes/ell4_uniform_form_20260727.md`):
+
+> `(4,w)` holds iff `w` distinct `rho_i in mu_2048` have `e_1=e_3=e_5=e_7=0`, plus
+> `e_w = 1` for odd `w` only.
+
+The quartics/quintics `A, E, B` are *outputs* — the witness's `rho` have
+`(e_2,e_4,e_6,e_8) = (58,240,133,86)`, exactly `A` reversed. So every attack through
+the polynomial (elimination ideal, `Delta`, resultants) was fighting a
+reparametrisation, not the problem. The even/odd asymmetry is cosmetic: it is only
+whether a fifth condition `e_w = 1` can be imposed.
