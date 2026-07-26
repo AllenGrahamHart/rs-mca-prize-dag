@@ -576,3 +576,51 @@ survive. Fenced in the node.
 Live frame is unchanged and still good: the six-fiber covering of the `2^41` coset.
 The next attack must use the **multiplicative** structure (`psi^{-1}(Lambda)` is a
 `mu_{2^41}`-coset), not ramification.
+
+**Session 6f — the s=2 equality case, and four fences.** Pushed the bridge hard on
+the user's steer ("be bold, push the frontier"). Net:
+
+*Established.* The **equivariant reduction**: `mu_n`-twisting forces
+`prod_i Q_i = beta X^{j_0}(X^n - c)`, so `s=2` requires a 2-dim pencil with six
+totally-`D`-split members partitioning the coset. This is the same *mechanism* as
+the M-1 seam (not the same hypotheses — see below). Also: the **symmetric
+realization is dead** — `gcd(2^41-2, 2^41) = 2`, so the two cosets meet in <= 2
+points where ~2.2e12 shared roots are needed.
+
+*Fenced (four dead routes, each recorded with its reason).*
+1. Composition/divisibility — the 6-divisibility at infinity is structural (it comes
+   from `B^6`), automatic in all three degree cases, and says nothing about `n`.
+2. Log-derivative degree count — a product-rule slip (`P' = sum_i Q_i' prod_{j!=i}Q_j`,
+   not `sum_i prod_{j!=i}Q_j`); both sides are degree `6d-1` and it is an identity.
+3. Symmetric realization — the gcd argument above.
+4. **(MI2) import — SATURATED, not violated.** `T*d <= n` gives `T <= 6` at
+   `d ~ n/6`, and the configuration has exactly `T = 6`. Every *counting* route to
+   excluding `s=2` is therefore closed, because the count is tight. Also recorded:
+   the literal `T <= 4e+1` slope cap does NOT transfer (it is a Hankel *kernel*
+   pencil bound with `A=3, s=0`); reading `T <= 5` off it would be a false import.
+
+*Residual, sharp:* classify the **equality case** `T*d = n` with root sets
+partitioning a `mu_{2^41}`-coset. Same genre as M-1's sharp-cap stratum `h = 0`,
+which is also an equality case — both lanes are hard at exactly the same point, and
+that is the real content of the weld.
+
+Three of these rounds each produced an *apparent* closure that dissolved on
+recheck. All three were caught before banking. That rate is the reason this session
+ends here rather than continuing.
+
+### SESSION END — context exhaustion (brief's first permitted reason)
+
+**Census `260 = 201/36/23`, unchanged from the session-1 baseline. Zero TARGETs
+closed. The goal is NOT complete and I make no claim otherwise.**
+
+Twenty-eight commits. Seven theorems and four fences, each with a fail-closed
+verifier and real mutation controls. Board re-priced 59 -> 23 and machine-checked.
+`s=2` completely determined and reduced to one equality-case classification.
+
+**Next session opens here:** classify the equality case `T*d = n` on a
+`mu_{2^41}`-coset. Do not re-walk the four fenced routes. Do not re-derive the
+59->23 re-pricing, the WCL cost table, or the registry rebuild.
+
+**Standing constraint (user, 2026-07-26):** no budget for large Modal runs; small
+`<60s` route-deciding experiments only, and no chaining them to simulate a census.
+Census-completion is not a route this worker has.

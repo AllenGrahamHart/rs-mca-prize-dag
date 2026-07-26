@@ -640,3 +640,63 @@ This closes the bridge as a proved negative result. It closes no locator
 chamber and does not move the rate-half adjacent crossing. Further work must
 attack the thirteen official-subgroup chambers directly or use a stronger
 list theorem.
+#### Fence: the log-derivative degree count is vacuous (2026-07-26)
+
+Attempted on the equivariant normal form `prod_i Q_i = beta X^{j_0}(X^n - c)`.
+Taking the logarithmic derivative and clearing,
+
+```text
+sum_i Q_i' prod_{j != i} Q_j  =  beta X^{j_0-1} [ (j_0+n) X^n - j_0 c ].
+```
+
+The right side has degree `j_0 - 1 + n = 6d - 1` (the leading coefficient is
+`(j_0+n)w != 0`, since `char > n + 4`). The left side ALSO has degree exactly
+`6d - 1`, because each summand is `deg Q_i' + sum_{j!=i} deg Q_j = (d-1) + 5d`.
+The two match identically — **no contradiction, and none is available from this
+count.**
+
+Recorded because the count *looks* like it closes: if one drops the `Q_i'` factor
+and writes `sum_i prod_{j != i} Q_j`, the left side appears to have degree `5d`
+against `6d - 1` on the right, "forcing" `d <= 1`. That is a product-rule slip, not
+a theorem. Verified by the degree bookkeeping above.
+
+Live routes remain: the `(MI2)` minimal-index cap and the `T <= 4e+1` slope cap
+imported from the M-1 lane against a six-member totally-split pencil at `d ~ n/6`.
+
+#### The (MI2) import is SATURATED, not violated (2026-07-26)
+
+Executed. The transferable content of the M-1 minimal-index machinery is its
+incidence count, and here it reads: `T` totally-`D`-split members of a pencil, each
+of degree `d`, have pairwise disjoint root sets inside `D`, so
+
+```text
+T * d <= |D| = n,     i.e.   T <= n/d.
+```
+
+At `d ~ n/6` this gives `T <= 6` — and the configuration has **exactly** `T = 6`.
+The bound is **saturated, not violated.** No contradiction is available from the
+count, which is precisely why the six-fiber configuration survives counting
+arguments in the first place (and why `z` was pinned so sharply: the pin *is* this
+count run backwards).
+
+The literal `T <= 4e+1` slope cap of the strict `A=3` ledger does **not** transfer:
+it is derived for a Hankel *kernel* pencil of parameter degree `e` with `A = 3`,
+`s = 0`, and its constants depend on that setting. Our pencil is a plain linear
+one (`e = 1` in that notation), and reading `T <= 5` off it would be a false
+import — the two pencils are analogous in mechanism, not identical in hypotheses.
+
+**Status.** Every counting route to excluding `s = 2` is now closed: the count is
+tight. What remains is an *equality-case* problem — classify the configurations
+attaining `T*d = n` with the root sets partitioning a `mu_{2^41}`-coset. That is
+the same genre as the M-1 sharp-cap stratum `h = 0`, which is also an equality
+case, and is the honest reason both lanes are hard at the same point.
+
+#### Integration ruling after affine-rank reconciliation
+
+The two preceding fences are retained as correct analyses of the
+counterfactual `s=2` pencil. Their final equality-case recommendation is not
+live in this worktree: `rate_half_list_budget_three_affine_rank_rigidity`
+already proves that no such rank-two witness exists. Moreover the rank-flat
+bridge itself is closed above as a route fence. Do not spend a new cycle
+classifying `T*d=n` for this node; the live rate-half list work is the direct
+official-subgroup chamber arithmetic or a stronger list theorem.
