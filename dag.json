@@ -16051,6 +16051,44 @@
     "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/verify.py",
     "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/verify_audit.py"
    ]
+  },
+  {
+   "id": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "title": "L1 Mersenne HNF m=16 order-zero single-collision exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official m=16,h=15 endpoint row, a quadratic order-zero colored Frobenius interpolant cannot have exactly one repeated color. Every remaining quadratic candidate is even and has at least two antipodal repeated-color pairs.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/verify.py",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion",
+   "title": "L1 Mersenne HNF m=16 order-zero even-quadratic exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The final even multi-repeat quadratic color system is empty on the official m=16,h=15 endpoint. Its odd/even locator gcd would have degree at least two, but the first-subresultant coefficients can vanish together only at prime-field values of s.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/verify.py",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -30561,6 +30599,56 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
+   "to": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion",
+   "to": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "to": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
+   "to": "l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "to": "l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "to": "l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

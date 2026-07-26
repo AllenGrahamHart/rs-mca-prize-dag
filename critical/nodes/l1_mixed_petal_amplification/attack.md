@@ -605,6 +605,18 @@
   equation, so do not rerun them in a generic saturation. Start `m=8` at
   `deg E>=3`. The `m=16` exactly-one-repeat and even multi-repeat quadratic
   systems remain live and must stay separate.
+  Then consume
+  `l1_mersenne_hnf_m16_order_zero_single_collision_exclusion`: delete all
+  105 exactly-one-repeat patterns on the official `m=16,h=15` row. The only
+  live quadratic system is now even with at least two antipodal repeated
+  colors. Attack that system through the even/odd common-factor equations;
+  do not retain any injective or single-collision quadratic shard.
+  Finally consume
+  `l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion`: delete that
+  common-factor system as well. The first-subresultant coefficient gcd has
+  only prime-field roots, so degree two is closed on every `m=8,16` endpoint.
+  Start all remaining order-zero colored work at `deg E>=3`; do not include
+  any quadratic chamber in a future Frobenius saturation.
   For the order-one chamber, first consume
   `l1_mersenne_hnf_order_one_frobenius_gate`. Put `d=c-1` and shard only by
   `zeta=d^(p+1) in mu_m`; then `c^p=1+zeta/d`. Combine the hypergeometric

@@ -1220,6 +1220,24 @@ every pattern on all four official rows. Thus the live `m=8` order-zero
 color degree begins at three. The `m=16` exactly-one-repeat and even
 multi-repeat quadratic systems remain unclassified.
 
+The exactly-one-repeat `m=16` system is now also empty by
+`l1_mersenne_hnf_m16_order_zero_single_collision_exclusion`. Its 105
+normalized pairs of omitted sixteenth-root colors obey the same
+centered-moment equation, and every resulting quadratic is coprime to
+`binom(s+14,15)^131072-1` over `F_8191(mu_16)`. Therefore the sole live
+quadratic color system across all five endpoint rows is the even `m=16`
+multi-repeat chamber, with at least two antipodal repeated-color pairs.
+
+That last quadratic system is empty by
+`l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion`. Writing
+`P_s(W)=W O_s(W^2)+V_s(W^2)`, two antipodal pairs would force
+`deg gcd(O_s,V_s)>=2`. The two coefficients of the first subresultant can
+vanish together only when
+`s in {0,1,2,3,-1,-2,...,-11} subset F_8191`, contradicting the HNF
+condition `s notin F_p`. Constant, linear, and quadratic colored Frobenius
+degrees are now empty on all five endpoint rows; the live order-zero degree
+starts at three.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

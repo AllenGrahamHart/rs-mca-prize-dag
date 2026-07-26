@@ -2213,3 +2213,51 @@ order-zero color degree now begins at three. Result: one whole endpoint
 degree closed but L1 remains `TARGET`; `m=16` quadratic systems, degree
 `3+`, order one, outer divisibility, and the inner lift remain. No Modal job
 or compute request was used.
+
+Cycle burn-down:
+
+```text
+starting pins: local 4cb03477; canonical e7edb006; upstream b13de811;
+               PR #1106 head 98149fc6
+ending math pin: local 9167125b; canonical/upstream/PR unchanged
+node attacked: l1_mersenne_hnf_m8_order_zero_quadratic_exclusion
+result: CLOSED (the m=8 degree-two stratum); NARROWED (L1)
+DAG delta: +1 PROVED node, +4 edges; critical math orbit unchanged at
+           201 PROVED / 36 CONDITIONAL / 23 TARGET
+upstream terminal delta: none; this is not a deployed K/M/L atom
+delta-star bracket movement: 0 bits
+new assumptions: none; all three dependencies are PROVED
+live compute requests: none added or consumed
+next route-deciding action: apply the same exact-one-repeat torsion test to
+                              m=16, then isolate its even multi-repeat branch
+```
+
+**2026-07-26, L1 m=16 single-collision close:**
+`l1_mersenne_hnf_m16_order_zero_single_collision_exclusion` applies the
+centered-moment/torsion method to the one official `m=16,h=15` row. Its 105
+exactly-one-repeat color patterns impose quadratics on `s`; every one is
+coprime over `F_8191(mu_16)` to the necessary equation
+`binom(s+14,15)^131072=1`. A second basis verifies 105 nonzero resultants
+with pinned digest `9c05ecd...e9e31f`. The complete quadratic frontier is
+now empty on `m=8` and reduced on `m=16` to even interpolants with at least
+two antipodal repeated-color pairs. Result: `NARROWED`; no critical status,
+upstream atom, endpoint, Modal job, or compute request changes.
+
+**2026-07-26, L1 complete quadratic color close:**
+`l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion` removes the sole
+remaining degree-two shape. An even `m=16` interpolant with two repeated
+colors would make the odd and even parts of `P_s` share at least two roots.
+The exact first-subresultant coefficients have gcd
+
+```text
+s^6(s-3)(s-2)(s-1)^6(s+1)^6(s+2)^5(s+3)^5
+(s+4)^4(s+5)^4(s+6)^3(s+7)^3(s+8)^2(s+9)^2(s+10)(s+11),
+```
+
+whose roots are all prime-field values and therefore forbidden. An
+independent stdlib audit reconstructs the coefficients from 322 Sylvester
+minors at 161 points, using the exact determinant degree bound 160. Constant,
+linear, and quadratic colors are now empty on all five endpoint rows.
+Result: `CLOSED` for endpoint color degree two and `NARROWED` for L1; the
+live order-zero degree begins at three. No critical status, endpoint bracket,
+upstream terminal, Modal job, or compute request changes.

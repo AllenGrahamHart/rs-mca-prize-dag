@@ -2,17 +2,137 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 1,
+    "PASS": 16,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "tools/verify_joint_prize_resolution_protocol.py",
-      "seconds": 0.042311,
+      "script": "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/verify.py",
+      "seconds": 0.052888,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "JOINT_PRIZE_RESOLUTION_PROTOCOL_PASS checks=70\n"
+      "stdout_tail": "L1_MERSENNE_HNF_FROBENIUS_RECIPROCAL_GATE_PASS checks=23\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/verify_audit.py",
+      "seconds": 0.020213,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_FROBENIUS_RECIPROCAL_GATE_AUDIT_PASS checks=6\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/verify.py",
+      "seconds": 2.865676,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_M16_ORDER_ZERO_EVEN_QUADRATIC_EXCLUSION_PASS row=1 subresultants=8 coefficient_degrees=80,78 gcd_degree=50 mutations=1\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/verify_audit.py",
+      "seconds": 0.064515,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_M16_ORDER_ZERO_EVEN_QUADRATIC_EXCLUSION_AUDIT_PASS samples=161 determinants=322 degrees=80,78 gcd_degree=50 mutations=1\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/verify.py",
+      "seconds": 0.16018,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_M16_ORDER_ZERO_SINGLE_COLLISION_EXCLUSION_PASS row=1 patterns=105 mutations=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/verify_audit.py",
+      "seconds": 0.122087,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_M16_ORDER_ZERO_SINGLE_COLLISION_EXCLUSION_AUDIT_PASS row=1 resultants=105 digest=1 mutations=1\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/verify.py",
+      "seconds": 0.130941,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_M8_ORDER_ZERO_QUADRATIC_EXCLUSION_PASS rows=4 patterns=21 exclusions=84 mutations=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/verify_audit.py",
+      "seconds": 0.123376,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_M8_ORDER_ZERO_QUADRATIC_EXCLUSION_AUDIT_PASS rows=4 resultants=84 digests=4 mutations=1\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/verify.py",
+      "seconds": 0.044651,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ONE_FROBENIUS_GATE_PASS checks=22\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/verify_audit.py",
+      "seconds": 0.0208,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ONE_FROBENIUS_GATE_AUDIT_PASS checks=9\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/verify.py",
+      "seconds": 0.048693,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ZERO_LINEAR_COLOR_EXCLUSION_PASS rows=5 h=7,15 resultants=2 mutations=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/verify_audit.py",
+      "seconds": 0.023178,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ZERO_LINEAR_COLOR_EXCLUSION_AUDIT_PASS finite_fields=8 mutations=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/verify.py",
+      "seconds": 0.109577,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ZERO_QUADRATIC_COLLISION_ROUTER_PASS rows=5 reflection=2 antipodal=1 mutations=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/verify_audit.py",
+      "seconds": 0.028544,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ZERO_QUADRATIC_COLLISION_ROUTER_AUDIT_PASS primes=2 reflection_points=100 antipodal_points=26 mutations=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/verify.py",
+      "seconds": 0.048892,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ZERO_QUADRATIC_COLLISIONFREE_EXCLUSION_PASS rows=5 moments=12 coefficient_levels=6 mutations=1\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/verify_audit.py",
+      "seconds": 0.061164,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ZERO_QUADRATIC_COLLISIONFREE_EXCLUSION_AUDIT_PASS reflected_products=24 coefficient_checks=72 mutations=1\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
