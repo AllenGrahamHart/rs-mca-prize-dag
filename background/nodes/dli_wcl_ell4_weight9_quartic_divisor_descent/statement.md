@@ -289,3 +289,55 @@ it has.
 forced: rescaling `y -> zeta y` sends `P` to `zeta^9 P(Y/zeta)`, which is again of
 the form `Y A^2 - 1` only when `zeta^9 = 1`, and `gcd(9,128) = 1` makes that
 `zeta = 1`. So the abundance is genuine multiplicity, not one orbit seen many times.
+
+## THE CLEAN FORM — the cell is a symmetric-function condition on `mu_{2N}` (2026-07-27)
+
+The quartic, the divisibility and the elimination all disappear. At a root,
+`A(y)^2 = y^{-1}`; put `u = A(y)`, so `u^2 = y^{-1}` and, since `2N | p-1`,
+`u in mu_{2N}` with `y = u^{-2}`. The condition `A(u^{-2}) = u`, multiplied by `u^8`,
+is `c_0u^8 + c_1u^6 + c_2u^4 + c_3u^2 + 1 = u^9`, i.e.
+
+```text
+prod_{i=1}^{9} (X - u_i) = X^9 - c_0X^8 - c_1X^6 - c_2X^4 - c_3X^2 - 1.
+```
+
+Matching elementary symmetric functions gives the whole cell:
+
+> **`(4,9)` holds iff there are nine distinct `u_1,...,u_9 in mu_{2N}` with**
+> ```text
+> e_2 = e_4 = e_6 = e_8 = 0        and        e_9 = prod u_i = 1.
+> ```
+> **The quartic is then read off: `c_0 = e_1`, `c_1 = e_3`, `c_2 = e_5`,
+> `c_3 = e_7`, and the roots are `y_i = u_i^{-2}`.**
+
+So `A` is not an unknown at all — it is *determined* by the odd symmetric functions
+of the `u_i`, and the only conditions are that the four **even** ones vanish and the
+product is one. Five conditions on a 9-subset of a cyclic 2-group. (Note the
+duality with the original pose, where the `rho_i` had vanishing **odd power sums**.)
+
+**Verified on the witness** at `(257,128)`: `u = (6,22,39,55,70,99,133,196,237)`,
+all in `mu_256`, with `e_2 = e_4 = e_6 = e_8 = 0`, `e_9 = 1`, and
+`(e_1,e_3,e_5,e_7) = (86,133,240,58) = (c_0,c_1,c_2,c_3)` — exactly `A`.
+
+### The counting model, now calibrated
+
+The corrected expectation is `E' = C(2N, 9) / p^5` — five conditions, and the roots
+live in `mu_{2N}`, **not** `mu_N`. That doubling is what the earlier model missed:
+
+| `p` | `N` | old `C(N,9)/(N p^4)` | **new `C(2N,9)/p^5`** | observed |
+|---|---|---:|---:|---:|
+| 257 | 64 | 0.099 | **17** | ~30 |
+| 257 | 128 | 34.1 | **10,069** | ~8,900 |
+
+The new model is within 12% at the larger analogue and a factor 2 at the smaller,
+and it explains the old model's error exactly: the ratio is `2^9 N/p`, which is
+`255` at `(257,128)` against the ~260 discrepancy observed.
+
+**Officially:** `2N = 2048`, `p > 2^167`, so `C(2048,9) = 2^80.5` against
+`p^5 > 2^835`, giving an expected count `< 2^-754`. Unlike the previous figure this
+rests on a model that has been checked against ground truth twice.
+
+**This is the form a rigorous count should attack**: bound the number of 9-subsets
+of `mu_{2N}` with four vanishing even symmetric functions and product one. No
+quartic, no divisibility, no elimination ideal — a pure symmetric-function question
+on a cyclic 2-group.

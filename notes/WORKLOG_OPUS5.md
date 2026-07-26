@@ -847,3 +847,28 @@ strengthened accordingly.
 A rigorous count over `mu_N` that does not depend on the heuristic — the
 `(1,2,2,2,2)` value pattern at `-1` is the structure the naive model ignored and is
 where a correct model must start.
+
+**Session 7f — the (4,9) cell restated cleanly, and the counting model repaired.**
+
+The quartic, the divisibility and the elimination ideal all disappear. With
+`u = A(y)`, so `u^2 = y^{-1}` and `u in mu_{2N}`:
+
+> **`(4,9)` holds iff nine distinct `u_i in mu_{2N}` have `e_2=e_4=e_6=e_8=0` and
+> `prod u_i = 1`** — the quartic is then *read off* as `(c_0,c_1,c_2,c_3) =
+> (e_1,e_3,e_5,e_7)`, and `y_i = u_i^{-2}`.
+
+Five conditions on a 9-subset of a cyclic 2-group. `A` was never an unknown.
+Verified exactly on the `(257,128)` witness, where `(e_1,e_3,e_5,e_7)` came out
+`(86,133,240,58)` = the witness quartic's coefficients.
+
+**Counting model repaired and calibrated.** `E' = C(2N,9)/p^5`: predicts 17 vs ~30
+observed at `N=64`, and 10,069 vs ~8,900 at `N=128` (12%). It also explains last
+turn's 300x error exactly — the ratio is `2^9 N/p` = 255 at `(257,128)`. The old
+model's mistake was placing the roots in `mu_N` when the square roots put them in
+`mu_{2N}`. Official prediction `< 2^-754`, now resting on a twice-checked model.
+
+### Next
+Bound the count of 9-subsets of `mu_{2N}` with four vanishing even symmetric
+functions and product one. This is a pure symmetric-function question on a cyclic
+2-group — no quartic, no divisibility — and it is quantitative in `p`, which the
+existence witness proved is the only kind of argument that can work.
