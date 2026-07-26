@@ -8,6 +8,26 @@ following the plan-of-record md files listed below. The critical DAG (`dag.json`
 is the single source of truth and the end state is a clean, all-green critical
 DAG that exactly mirrors the joint dependency graph (then Lean).
 
+## TERMINAL CONDITION — read before anything else
+
+**This goal is complete ONLY when both prize problems are fully resolved.**
+Machine-checkable form: `tools/ramguard tiny -- python3 tools/verify_orbit_census.py`
+reports the MATH ORBIT with **0 TARGET and 0 CONDITIONAL** — every node PROVED,
+including the roots `mca_grand` and `list_grand`, each with its full artifact
+chain validator-green. (Session 1 baseline: 260 = 201/36/23 — i.e. **59 nodes of
+mathematics remain**.) Until that census line is all-PROVED:
+
+- Finishing the priority queue is **not** completion — the queue is a work plan,
+  one wave of many. When items close, dead-end, or get deprioritized, **re-derive
+  the next queue** from the ledger + roadmap and continue.
+- A blocked lane means **switch lanes**, not stop (the roadmap has tracks
+  N/A/B/C/H precisely so there is always a live front).
+- A session may end for exactly three reasons: budget/context exhaustion, blocked
+  on input only the user can provide, or user interrupt. It ends with a worklog
+  entry giving the census line and the derived next queue — **never with a claim
+  that the goal is complete.** Do not write "complete", "done", or "goal
+  achieved" about the mission unless the census line above shows 0/0.
+
 **Roles:** Fable = planner/auditor (roadmap, decision queue, Codex wave audits,
 final say on critical status flips). **Opus 5 (you) = repo worker** — execute the
 queue below, commit as you go. Codex = autonomous worker in its own clone; its
@@ -39,14 +59,37 @@ on this repo's main.
   (2 of the "38 CONDITIONALs" are `prize`/`packaging` themselves — so C3-3 dedups 36).
   Both pinned with the delta by name in `tools/verify_orbit_census.py` (6 mutation
   controls). Ledger + 4 derivative notes corrected. Gate is open.
-- **Q1: E-1 corridor-prime export** → upstream PR (front of the export queue; this
-  packet carries the Lean pilot).
-- **Q2: E-2 Proth replay export** → upstream PR.
-- **Q3: M-1 seam mint** — the {2^39, 2^39+1} seam (top mining line; one session).
-- **Q4: H1 chamber check** — replay his affine-span compilers against our 13
-  chambers; run the ev→req promotion test on every harvest wire before consuming.
-- **Q5: X-1 scoped identification certificates**, then continue down E-3..E-6,
-  M-2..M-4, H2..H7 in ledger order.
+*(Queue r2, planner-re-derived 2026-07-26 after session 1: red-movers first per
+the user's Lean-deferral redirect; exports demoted — they close zero reds.
+Planner answers to session-1 open questions are folded in below.)*
+
+- **Q1: pose + attack the S3 missing lemma** — "affine rank `s` (ideally
+  `d_1,d_2,b`) of the four codewords from a chamber's edge degrees." Planner
+  verdict: YES, mint it as its own node — it has a named non-ev consumer
+  (H1 promotion into `rate_half_list_adjacent_crossing`) and without it H1 can
+  never pass ev. Obey the DAG refinement principles: exact statement field,
+  attack_surface/falsifier, a cheap wired falsifier TEST (the banked F_17
+  witness is the obvious seed), subtraction check before minting.
+- **Q2: M-1 seam grind** — {2^39, 2^39+1}, re-priced MULTI-SESSION (planner
+  accepts session 1's sizing; the ledger's "one session" estimate is void).
+  Continue from the banked A=3 reduction (failure ⟺ slack `h <= 4j`, `j = e−m`;
+  at `e=m` the question is whether the sharp-cap stratum `h=0`, `T = 4m+1`, can
+  occur). Bank partial strata as you go; this is one of the two live red-movers.
+- **Q3: A5 Part 2 registry rebuild, per-author** — planner verdict: YES, do it
+  (two lanes read falsely CLEAR: LegaSage 121 PRs incl. 29 Lean, latifkasuli 27
+  incl. the corridor + `formalize:` census; holmbuar = principal formalizer).
+  Re-derive from per-author sweeps, not the open-PR queue; update
+  `taken_raced_clear_registry.md`.
+- **Q4 (demoted): E-1 corridor-prime + E-2 Proth exports** → upstream PRs when a
+  red-mover session leaves budget. E-1 is an *addendum to latifkasuli's #275*
+  and must credit it; the Lean pilot it carried is PAUSED (Lean deferred behind
+  the informal proof — user decision, ledger §6).
+- **Q5: X-1 scoped identification certificates**, then continue down M-2..M-4,
+  H2..H7, E-3..E-6 in ledger order — red-moving items always outrank exports.
+- **Hygiene (one-off):** `critical/nodes/subfield_trace_paid_gate/` is PROVED but
+  has no `statement.md` (predates the convention; validator warns). Distill the
+  exact statement from its `proof.md`/`PRO_T1.md` — faithful transcription only,
+  no paraphrase drift on a PROVED critical node.
 - **Standing:** watch upstream triage of holmbuar #1097/#1099/#1101 (NEVER race
   them — our floor is the lane's foundation, the refinements are theirs); re-pin
   crosswalk aliases when upstream vocabulary moves; run `tools/publish_site.sh`
@@ -94,6 +137,9 @@ on this repo's main.
 
 - Append a dated entry to `notes/WORKLOG_OPUS5.md` each session: what landed
   (commits), validator outcomes, upstream actions, open questions for the planner.
+- **Every worklog entry ends with (a) the current `verify_orbit_census.py` line
+  and (b) the derived next queue.** The census line is the only thing that can
+  ever justify the word "complete" (see TERMINAL CONDITION).
 - Status flips of critical nodes: apply only with the full artifact chain
   (statement + verify green + validator green) and record the flip in the worklog
   for Fable's audit. Genuine choices (scope calls, ceremony designs, retirements)

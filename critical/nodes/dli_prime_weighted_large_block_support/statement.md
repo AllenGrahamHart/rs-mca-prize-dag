@@ -1,6 +1,6 @@
 # dli_prime_weighted_large_block_support
 
-- **status:** TARGET (the dli frontier; single arc into x4_exactlist_staircase_split)
+- **status:** CONDITIONAL (Decision 6 amber ceremony 2026-07-21, header synced 2026-07-26; the dli frontier; single arc into x4_exactlist_staircase_split)
 
 ## Statement
 
