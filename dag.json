@@ -16092,17 +16092,17 @@
   },
   {
    "id": "rate_half_list_chamber_affine_rank_bridge",
-   "title": "Chamber-to-affine-rank bridge for the rate-half list compilers",
+   "title": "Chamber-to-weight/mismatch bridge for the rate-half list compilers",
    "status": "TARGET",
    "gate": "all",
    "refs": [
     "background/nodes/rate_half_list_chamber_affine_rank_bridge/statement.md",
     "background/nodes/rate_half_list_chamber_affine_rank_bridge/verify.py"
    ],
-   "statement": "For an official rate-1/2 row (n=2^41, K=2^40) let c_0..c_3 be four codewords with agr(c_i,u) >= a = 3n/4-1, i.e. an instance of the B*=3 obstruction of rate_half_list_adjacent_crossing. Such a quadruple realizes exactly one of the thirteen edge-degree chambers of that node's atlas. Produce the bridge chamber -> (s, d_1..d_s, b), where s = dim span{c_i - c_0} is the affine rank, d_j are the generalized Hamming weights of the direction code C', z = |G| = n - d_s for G the common-zero set of C', g the number of points of G where the common value agrees with u, and b = z - g; lower bounds on s and each d_j plus an upper bound on b suffice. WHY OWED: Przemek's thm:affine-span-list (grande_finale.tex:498) and thm:rank-flat-list (:583) are stated in (s,d_j,b) while the chamber atlas is stated in locator-pencil edge degrees; no map exists, so the compilers cannot be evaluated per chamber and the Convergence Ledger S3 promotion test ('ev->req when chamber coordinates are bound to affine spans') cannot fire. PINNED 2026-07-26: s >= 2 whenever n-K+1 > floor(3(n-a)/2), which holds at this row for every a >= 1466015503701, so s in {2,3} and no three list members are collinear; s=2 gives affine-span cap exactly 4 (zero slack) and s=3 gives cap 8 (slack 4). EXPECTED SIGN: over all 12 four-codeword witnesses of the banked RS[F_17,F_17^*,8] branch at a=3n/4-1, s=3 and b=0 in 12/12 with d_1=9=R+1 always, so the bridge is expected to return s=3,b=0 and kill NO chamber - a negative that retires the H1 promotion hope is the deliverable, not a failure.",
-   "attack_surface": "(1) Compute (s,d_j,b) from one chamber's locator data - the four block locators A_i and edge factors b_ij - via the triangle identities A_k b_ij + A_i b_jk = A_j b_ik and the Plucker gate b_01b_23 - b_02b_13 + b_03b_12 = 0; the A_i partition the multiplicative-coset vanishing polynomial, so d_s should be readable off the exceptional degree (in {3,4,5,6,8} for the nine Grassmann-line chambers). (2) Prove s=3 outright by showing a coplanar quadruple at a=3n/4-1 forces a locator degeneration incompatible with every chamber - an equality-case rigidity problem, since s=2 sits exactly at the cap. (3) Prove b=0 outright from the common-zero structure: on G all four members share one value, so b >= 1 costs every member an agreement against an already tight budget.",
-   "falsifier": "Two four-codeword configurations realizing the SAME chamber with different affine rank s (or different b): the chamber would not determine the affine invariants, refuting the bridge as posed and forcing a refinement of the atlas before any compiler can be applied per chamber. Wired instance: background/nodes/rate_half_list_chamber_affine_rank_bridge/verify.py re-derives every witness of the banked F_17 branch and fails closed on any with s != 3 or b != 0.",
-   "notes": "Minted 2026-07-26 (queue r2 Q1) out of the H1/S3 replay recorded in critical/nodes/rate_half_list_adjacent_crossing/notes/affine_span_chamber_replay_20260726.md. Wired ev, NOT req: rate_half_list_adjacent_crossing does not depend on this bridge for its truth; the bridge only decides whether the H1 harvest can ever be promoted to a requirement edge. Subtraction check clean - no upstream prior art at b13de811 for chamber/affine-rank language in v4 or grande_finale. F_17 evidence is a power-of-two multiplicative-domain route fence, never a proof of the official uniform statement; no transport to d = 2^39."
+   "statement": "For an official rate-1/2 row (n=2^41, K=2^40), let c_0..c_3 be a four-codeword witness at a=3n/4-1 and let C' be its direction code. The proved budget-three affine-rank rigidity theorem already gives s=dim C'=3 for every one of the thirteen locator chambers, so the affine-rank component of the bridge is closed and every former s=2 branch is vacuous. The live residue is to transport each chamber's block-locator/edge-factor data to exact or sufficient bounds on the generalized weights d_1,d_2,d_3 and common mismatch b=z-g, z=n-d_3, then evaluate the harvested rank-flat compiler. A useful rank-flat transport needs lower control on b, not merely an upper bound, because b enters every denominator factor d_j-t+b. If no chamber obtains cap at most three, the compiler route is fenced rather than promoted.",
+   "attack_surface": "For each of the nine split-unit and four balanced-scroll chambers, express supports of the one-, two-, and three-dimensional subspaces of C' and the common mismatch count b in the chamber incidence variables. Replay floor(d_3^(under 3)/product_j(d_j-t+b)) with exact integer endpoints. Close a chamber only if the transported cap is at most three; otherwise record the exact route fence. Do not revisit s=2 or import the Hankel minimal-index bound without a theorem identifying the residual polynomial pencil with a primitive apolar Hankel kernel.",
+   "falsifier": "Two witnesses in the same chamber that violate a proposed chamber-uniform d_j or b bound; or one exact tuple for which a claimed rank-flat cap is below four despite the four exhibited codewords. The banked F_17 witnesses remain a small-row mutation surface, not an official transport.",
+   "notes": "Reconciled after importing canonical f2634a1f: local proved node rate_half_list_budget_three_affine_rank_rigidity makes the canonical s=2 program counterfactual. Wired ev, NOT req, to rate_half_list_adjacent_crossing; this bridge decides only whether the upstream rank-flat compiler can kill a chamber. The arbitrary-pencil moving-root bound is sharp at six here, while MI2 has unmatched Hankel-apolar hypotheses."
   },
   {
    "id": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
@@ -23053,6 +23053,11 @@
   {
    "from": "rate_half_list_budget_three_affine_rank_rigidity",
    "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_affine_rank_rigidity",
+   "to": "rate_half_list_chamber_affine_rank_bridge",
    "kind": "ev"
   },
   {

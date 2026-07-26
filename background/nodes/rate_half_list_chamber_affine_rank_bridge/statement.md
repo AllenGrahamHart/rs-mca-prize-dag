@@ -2,6 +2,7 @@
 
 - **status:** TARGET
 - **closure:** proof
+- **proved input:** `rate_half_list_budget_three_affine_rank_rigidity`
 - **consumer:** `rate_half_list_adjacent_crossing` (ev)
 - **object:** the missing translation between the chamber atlas and the GF list compilers
 
@@ -74,6 +75,33 @@ s = 3  ->  affine-span cap = 8  (slack 4)
 so a chamber forced to `s = 2` is on a knife edge and any further constraint
 (`b >= 1` at minimum support `d_2 = R+2`) would kill it, while a chamber forced to
 `s = 3` cannot be killed by these compilers at all.
+
+### Scope reconciliation after the affine-rank theorem
+
+The preceding `s in {2,3}` paragraph is superseded in this worktree by the
+proved theorem `rate_half_list_budget_three_affine_rank_rigidity`. At the
+printed scope it gives, without using chamber geometry,
+
+```text
+s=3
+```
+
+for every four-codeword witness. Its proof excludes rank two by analyzing the
+equality case of the affine-line compiler: rank two would force `2d+2`
+active coordinates to inject into the six roots of pairwise affine-linear
+quotient differences. Thus every later `s=2` calculation in this file is a
+valid counterfactual consequence but is not a live branch and must not guide
+further work.
+
+The live bridge residue is only the chamber-to-`(d_1,d_2,d_3,b)` transport.
+The affine-span compiler is already fixed at cap eight and kills no chamber.
+For the rank-flat compiler, a lower bound on `b` (or its exact value) is the
+useful direction: the denominator contains `d_j-t+b`, so an upper bound on
+`b` cannot by itself improve the list cap. Lower generalized-weight bounds
+must also be coupled to enough control of `d_3`, which occurs in both the
+falling-factorial numerator and the denominator. The original sentence that
+lower `d_j` bounds plus an upper `b` bound suffice was therefore incorrectly
+oriented.
 
 ## Expected sign of the answer (stated up front, so a negative still counts)
 
@@ -538,3 +566,23 @@ between the list lane and the MCA lane at this node.
 **Next step (recommended):** import the minimal-index budget machinery and ask
 whether it caps the number of totally-split members of a degree-`d` pencil below
 six at `d ~ n/6`. If it does, `s = 2` dies and `s = 3` follows.
+
+#### Reconciliation of the latest recommendation
+
+That recommendation is retired for two independent reasons. First, `s=2` is
+already impossible by `rate_half_list_budget_three_affine_rank_rigidity`.
+Second, the Hankel minimal-index theorem does not automatically apply to the
+residual polynomial pencil `A-lambda B`: its hypotheses require the pencil to
+be the primitive apolar kernel of a syndrome Hankel pencil. The arbitrary-
+pencil moving-root theorem gives only the sharp incidence bound six in this
+near-partition regime, not a strict cap below six. Any reuse of `(MI2)` here
+would need a new transport theorem and would still be unnecessary for the
+affine-rank question.
+
+The route-deciding question is now exact: for each of the nine split-unit and
+four balanced-scroll chambers, express the supports of the one-, two-, and
+three-dimensional subspaces of the codeword direction space, and its common
+mismatch count, in the chamber incidence variables. A chamber closes through
+the harvested rank-flat compiler only if those exact bounds make its printed
+cap at most three. Otherwise this bridge is a route fence and should be
+retired as a closure mechanism.
