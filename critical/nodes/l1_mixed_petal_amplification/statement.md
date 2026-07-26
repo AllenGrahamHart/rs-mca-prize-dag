@@ -1201,6 +1201,15 @@ so seven locator roots use at least six distinct colors. On the
 `m=16,h=15` row, a quadratic with multiple repeats must be even. The
 collision-free, single-collision, and `m=16` even chambers remain open.
 
+The collision-free option is now removed by
+`l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion`. Pairing each
+root with its quadratic reflection produces a degree-`h` polynomial in
+`U=W(W-S)`. Its first three coefficients are
+`binom(s+r-1,r)(1-S)^r`, so an injective color map is the already impossible
+punctured-cyclotomic linear template. Consequently the exact live quadratic
+frontier is: exactly one repeated color for `m=8`; exactly one repeated color
+or an even multi-repeat for `m=16`. Neither retained system is classified.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

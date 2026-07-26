@@ -592,6 +592,12 @@
   the `m=16` row, those two systems remain, and every multiple-repeat system
   must use an even interpolant. Do not retain a nonzero-center
   multiple-collision chamber or a two-antipodal-pair `m=8` chamber.
+  Then consume
+  `l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion`: delete the
+  no-repeat system on every row. The complete live `m=8` quadratic task is
+  now exactly one repeated color. The `m=16` task is exactly one repeat plus
+  the even multi-repeat chamber. Preserve this multiplicity split in any
+  resultant or cyclotomic saturation.
   For the order-one chamber, first consume
   `l1_mersenne_hnf_order_one_frobenius_gate`. Put `d=c-1` and shard only by
   `zeta=d^(p+1) in mu_m`; then `c^p=1+zeta/d`. Combine the hypergeometric

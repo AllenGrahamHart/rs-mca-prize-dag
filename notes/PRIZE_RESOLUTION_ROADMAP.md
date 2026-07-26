@@ -2186,3 +2186,15 @@ pairs, so a quadratic candidate has at most one repeated color. The
 `m=16,h=15` even multi-collision branch and the collision-free/single-repeat
 systems stay open. Result: `NARROWED`, no critical status or endpoint change,
 no Modal use, and no new compute request.
+
+**2026-07-26, L1 collision-free quadratic exclusion:**
+`l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion` removes the
+remaining injective quadratic branch on all five endpoint rows. The reflected
+locator product descends through `U=W(W-S)`; Newton identities give root
+power sums `p_j=-s`, so its first three coefficients are exactly
+`binom(s+r-1,r)(1-S)^r`. A collision-free color map would therefore be the
+same punctured-cyclotomic linear template already excluded by the resultant
+`-2(h+1)x(x-1)(hx+1)`. The quadratic frontier is now exactly one repeated
+color on `m=8`, and exactly one repeat or an even multi-repeat on `m=16`.
+Result: `NARROWED`, with no complete degree, row, critical status, endpoint,
+Modal job, or compute request claimed.

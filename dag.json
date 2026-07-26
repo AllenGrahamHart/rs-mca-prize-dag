@@ -16013,6 +16013,25 @@
     "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/verify.py",
     "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/verify_audit.py"
    ]
+  },
+  {
+   "id": "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion",
+   "title": "L1 Mersenne HNF order-zero quadratic collision-free exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "A quadratic order-zero colored Frobenius interpolant cannot be injective on the roots of P_s. Quotienting its reflection makes the locator a punctured-cyclotomic linear template, whose first three coefficients force s into the prime field.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/lineage.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/verify.py",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -30488,6 +30507,21 @@
   },
   {
    "from": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
+   "to": "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }
