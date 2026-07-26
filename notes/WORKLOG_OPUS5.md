@@ -221,3 +221,91 @@ registry so K3 route-cut material is not duplicated; not touched.
 `verify_prize_dag` PASS · `verify_crosswalk` PASS · `verify_critical_harness_coverage`
 PASS (proved=201) · `verify_orbit_census` PASS · `run_all_verifiers --refresh-manifest`
 PASS (scripts 1119). Upstream actions: none — read-only throughout; no PR opened.
+
+---
+
+## 2026-07-26 — session 3
+
+Basis: prize master `457ce416` → `8aa40e23`; upstream read-only at `b13de811`.
+
+**CENSUS LINE:** `ORBIT_CENSUS_PASS math=260(201/36/23)` — **unchanged**. No node
+changed status this session. **NOT complete.**
+
+But the census now means something different, and smaller.
+
+### C3-3 CLOSED WITH A NEGATIVE (`8aa40e23`) — the endgame re-prices 59 → 23
+
+Went after the CONDITIONALs because they are 36 of the 59 remaining and were
+entirely unworked. The result is that **they are not work at all.**
+
+Step 1 was an inventory: of the 36, **zero** are flip candidates — every one has
+an open req-parent. Step 2 asked the decisive question: grant all 23 TARGETs and
+propagate. **36/36 discharge, fixpoint in 8 rounds, 0 off-orbit blockers.**
+
+Step 3 is the one that makes it trustworthy. Propagation is a claim about the
+*wired* graph; the failure mode is a hypothesis living in prose that was never
+wired as an edge — which is precisely what C3-3 was commissioned to hunt. So every
+open node named in any CONDITIONAL's `statement`/`notes`/`conditional.md` was
+classified ancestor / ev-parent / descendant. 12 fell outside; all 12 were read
+and are benign, each explicitly fenced *in the node itself*:
+
+- `xr_clean_residual_any_gate`: *"No use of the broader `rigidity_kernel`
+  alternative is needed for this conditional route."*
+- `list_adjacency_closing`: *"This argument does not consume
+  `ww_row_envelope_clause`."*
+- `xr_smallcore_spread_count`: rigidity kernels are *"ev context on the predicates
+  only … not by consumed reduction."*
+- `u1_pullback_dichotomy` in two nodes: stale prose, already banked as a DOC
+  CORRECTION (*"the DAG edge and this n^3 form are authoritative"*). Verified
+  directly — that node has exactly one out-edge and it is `ev`, so it is a
+  req-parent of nothing.
+
+All 12 are pinned **by name** in `tools/verify_conditional_propagation.py`, so a
+*new* unrelated mention fails the check and forces a re-audit rather than passing
+silently. 4 mutation controls, genuinely caught.
+
+**Consequences, banked in the ledger:**
+
+1. The Definition of DONE's CONDITIONAL conjunct is **struck as redundant** on our
+   side. DONE = the 23 mathematical leaves + the dossier + his four inputs.
+2. **The remaining mathematics is 23 units, not 59.**
+3. 100% of remaining mathematical effort belongs on the 23 TARGETs — a session
+   spent "discharging conditionals" is spent on nothing.
+4. Only the **joint** half of C3-3 survives: mapping our 23 against his six GF
+   inputs. That is his-side work; we cannot do it unilaterally.
+
+### Correction made mid-session
+
+My first mutation controls for the propagation verifier were **invalid** — the
+mutated copies resolved `ROOT` from the scratchpad and died on
+`FileNotFoundError`, so all four "catches" were spurious. Redone in-tree; all four
+then failed on the intended assertions. Recorded because a verifier with fake
+mutation controls is worse than one with none.
+
+### Next queue (r4)
+
+The board is now unambiguous: **23 TARGETs, nothing else.** Ranked by the two
+live red-movers plus the largest blockers from the propagation analysis:
+
+1. **M-1 continued** — the RNC/split interaction in the transposed form (b): can
+   `4m+1` totally-`D`-split degree-`4m-1` polynomials lie on a degree-`m` rational
+   normal curve with each domain point covered exactly `m` times? Then `O>0`,
+   `e>m`, then the half-distance budget.
+2. **The bridge** (`rate_half_list_chamber_affine_rank_bridge`) — prove `s=3` or
+   `b=0` outright; both are equality-case rigidity problems.
+3. **The 12 dli WCL slot emptiness TARGETs** — the single largest block of the 23
+   (`dli_wcl_slot_*`), and `dli_wcl_zone_coverage` is blocked by 10 of them at
+   once. Highest cascade value per closure.
+4. `f2_growing_order_myerson` (the F2 summit / Wall 1), `rate_half_band_closure`,
+   `l1_mixed_petal_amplification`, `rate_half_list_adjacent_crossing` — the wired
+   bottlenecks.
+5. Exports stay demoted.
+
+### Validators
+
+`verify_prize_dag` PASS · `verify_crosswalk` PASS · `verify_orbit_census` PASS ·
+**`verify_conditional_propagation` PASS (new)** · `run_all_verifiers
+--refresh-manifest` PASS (scripts 1120). Upstream actions: none; read-only
+throughout, no PR opened.
+
+**Session ended on context budget**, per the brief's three permitted reasons.
