@@ -305,7 +305,12 @@ def radial():
         outs = [w for w in cons[v] if w in crit]
         return 1 + max(lrank(w) for w in outs) if outs else 0
 
-    ring = {v: lrank(v) for v in crit}
+    # sorted(): `crit` is a set, so iterating it seeds each ring's membership
+    # list in PYTHONHASHSEED order. spread() re-sorts in place by desired angle
+    # and list.sort is stable, so ties inherited that order and two rebuilds of
+    # an IDENTICAL critical_dag.json emitted different geometry — ~1900 lines of
+    # phantom diff on every site refresh (found 2026-07-26, Q0 session).
+    ring = {v: lrank(v) for v in sorted(crit)}
     maxring = max(ring.values())
     rings = defaultdict(list)
     for v, r in ring.items():
