@@ -204,3 +204,51 @@ information.** They are consequences, not constraints. Any future attack in eith
 the WCL descent lane or the rate-half endpoint lane must use *local* structure
 (root-by-root incidence, ramification profiles, the double-root pattern of `P+1`)
 rather than a global product.
+
+## EXISTENCE WITNESS at a faithful analogue — the configuration is NOT structurally obstructed (2026-07-27)
+
+**A genuine `(4,9)` relation exists at `(p, N) = (257, 128)`.** Explicitly, over
+`F_257` with `mu_128` the order-128 subgroup (faithful: `2N = 256` divides
+`p-1 = 256`, so all of `mu_128` are squares, as officially):
+
+```text
+A(Y) = Y^4 + 58 Y^3 + 240 Y^2 + 133 Y + 86
+P(Y) = Y A(Y)^2 - 1   has the nine distinct roots
+       {50, 121, 133, 140, 146, 196, 197, 208, 235} subset mu_128,
+```
+
+with product one; `rho_i = A(y_i)^{-1}` satisfies `rho_i^2 = y_i`, `prod rho_i = 1`,
+every `rho_i in mu_256`, all pairwise non-antipodal, and
+
+```text
+p_1 = p_3 = p_5 = p_7 = 0     -- the ell = 4 window conditions, exactly.
+```
+
+A 250,000-tuple meet-in-the-middle sample (0.15% of the search space) found **1530
+distinct such quartics**, so solutions are abundant here, not exceptional. The
+expected-count heuristic predicted ~34 at this analogue and undercounts by ~45x,
+but its qualitative picture is right.
+
+### Why this is the most useful fact on the cell
+
+**There is no structural obstruction to the `(4,9)` configuration.** It is
+realizable, and abundantly. Therefore:
+
+> **Any proof that the official cell is empty MUST use the arithmetic SIZE of the
+> characteristic — `p > 2^167` against `N = 1024`. Structure alone can never
+> suffice, at any level of cleverness.**
+
+The expected count is `C(N,9)/(N p^4)`: at `(257,128)` that is `~2^5` and solutions
+exist; at the official row it is `< 2^-607` and they do not. Emptiness is a *density*
+phenomenon driven by `p >> N`, not a structural impossibility.
+
+This retroactively explains every failed route on this node and its neighbours —
+abc/Mason-Stothers, `Res(P,A)`, the `mu_N`-product, the quadratic character, the
+ramification profile. **All are structural, hence all were doomed before they were
+tried.** They failed for a single common reason, not six separate ones.
+
+**Consequence for the lane:** the standing fence is strengthened from "global
+multiplicative invariants are vacuous" to the sharper "**no structural argument can
+close a WCL zero-event cell; the proof must be quantitative in `p`**". The live
+route is a rigorous counting or character-sum bound over `mu_N`, where losing even
+hundreds of bits against a `2^607` margin would still close the cell.
