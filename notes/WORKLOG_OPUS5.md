@@ -132,3 +132,92 @@ Artifact `critical/nodes/rate_half_list_adjacent_crossing/verify_affine_span_cha
 `run_all_verifiers --refresh-manifest` PASS (scripts 1117).
 
 Upstream actions: none (read-only reconnaissance only; no PR opened).
+
+---
+
+## 2026-07-26 — session 2
+
+Basis: prize master `e8628ecc` → `d6cc5ad5`; upstream read-only at
+`origin/main = b13de811`.
+
+**CENSUS LINE (terminal condition):** `ORBIT_CENSUS_PASS math=260(201/36/23)
+submission=275(213/38/24) spine=15 math_leaves=23`. **59 nodes of mathematics
+remain (36 CONDITIONAL + 23 TARGET). NOT complete.**
+
+### Landed — queue r2 Q1, Q2, Q3 + hygiene
+
+**Q1 (`15c9e351`) — minted `rate_half_list_chamber_affine_rank_bridge`**, the S3
+missing lemma, as its own node. Statement: produce `chamber -> (s, d_1..d_s, b)`
+binding the thirteen edge-degree chambers to the affine invariants the GF
+compilers actually consume. Pinned going in: `s >= 2` whenever
+`n-K+1 > floor(3(n-a)/2)`, so `s in {2,3}` and the bridge need only separate the
+knife-edge `s=2` (cap exactly 4) from `s=3` (cap 8).
+
+*Expected sign stated up front so a negative still counts.* Measured over **all
+twelve** four-codeword witnesses of the banked F_17 branch: **`s=3` 12/12,
+`b=0` 12/12, `d_1=9=R+1` always** (`d_s=14` ×9, `d_s=15` ×3; 71 pairwise
+agreements at exactly `K-1=7`, one at 6). So the bridge is expected to kill **no**
+chamber — worth proving anyway, because it retires the H1 promotion hope outright
+instead of leaving it indefinitely "promising". Falsifier is wired, not just
+stated: `verify.py` re-derives every branch witness and fails closed on any with
+`s != 3` or `b != 0`. Wired **ev, not req** — the census is unchanged, no new
+critical red. Subtraction check clean.
+
+**Q2 (`c066a1c3`) — M-1 strict A=3 endpoint: transposed normal form + norm route
+fence.** Two restatements of the `B=2^39`, `e=m`, `h=0` sharp cap; (a) is SSL14 in
+resultant language, (b) is its transpose and was not on record:
+
+```text
+(a)  Res_X( X^N - c , Q(U,V;X) ) = H(U,V)^(4m-1) S(U,V),   S linear   [O=0]
+(b)  (X - x_0) prod_{gamma in Z} Q_gamma(X) = kappa (X^N - c)^m
+```
+
+(b) exhibits the endpoint as a factorization of an `m`-th power of the
+smooth-domain polynomial into `4m+1` members of an `(m+1)`-dimensional space lying
+on a degree-`m` rational normal curve — the honest live target.
+
+**FENCE:** the obvious norm attack on (b) is dead. Leading/constant coefficients
+give `prod_gamma pi_gamma = (-c)^m / x_0`, but this is a *consequence* of the
+covering ledger (`= prod_x x^{d_x}`), so the comparison is circular. Certified two
+ways: it holds on 160 combinatorial covers with no algebraic realizability at all;
+and the cyclic-exponent congruence needs `m*(N/2) == 0 (mod N)`, which at official
+scale is `2^77 == 0 (mod 2^41)` — **vacuous by 36 powers of two**, not a near-miss.
+The verifier self-tests that the equation *does* catch wrong multiplicities, which
+is what makes the fence precise. 5 mutation controls, all caught.
+
+**Q3 (`5056e27d`) — A5 registry Part 2 rebuilt per-author.** Full sweep:
+**1,099 PRs, 11 authors**. The old Part 2 came from the open-PR queue and missed
+**LegaSage (121 PRs, 29 Lean)** and **latifkasuli (27, the corridor owner)**
+entirely, and described holmbuar without noting he is the principal formalizer
+(55 Lean PRs of 370). Standing rule recorded: derive lanes from per-author
+history, never the open queue; **dormancy is not vacancy** (LegaSage silent since
+07-10, latifkasuli since 07-19, both holding large coherent programs).
+
+**Hygiene (`d6cc5ad5`)** — `subfield_trace_paid_gate` statement.md, verbatim
+transcription of the dag fields (no paraphrase on a PROVED critical node).
+Status-artifact gaps 25 → 24.
+
+### Flagged
+
+**Upstream #1106** (draft, opened 2026-07-26 by our account): *"K3: add column-far
+fixed-union ray route cut"*. **Not opened by this worker.** Recorded in the
+registry so K3 route-cut material is not duplicated; not touched.
+
+### Next queue (r3, derived — 59 math nodes remain)
+
+1. **M-1 continued** (Q2 successor): attack the RNC/split interaction in form (b) —
+   can `4m+1` totally-`D`-split degree-`4m-1` polynomials lie on a degree-`m`
+   rational normal curve with each domain point covered exactly `m` times? Then the
+   `O>0` and `e>m` strata (`h <= 4(e-m)`), then the half-distance budget `2^39+1`.
+2. **Bridge attack** (Q1 successor): route 2 or 3 of its attack surface — prove
+   `s=3` or `b=0` outright. Both are equality-case rigidity problems.
+3. **Conditional dedup (C3-3)** — the 36 mathematical CONDITIONALs against his six
+   GF inputs. Untouched, and it is half the remaining census.
+4. **X-1 scoped identification certificates**; then M-2..M-4, H2..H7.
+5. Exports E-1/E-2 remain demoted (zero red movement).
+
+### Validators
+
+`verify_prize_dag` PASS · `verify_crosswalk` PASS · `verify_critical_harness_coverage`
+PASS (proved=201) · `verify_orbit_census` PASS · `run_all_verifiers --refresh-manifest`
+PASS (scripts 1119). Upstream actions: none — read-only throughout; no PR opened.
