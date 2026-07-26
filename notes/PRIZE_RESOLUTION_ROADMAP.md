@@ -2327,3 +2327,38 @@ next route-deciding action: derive a certificate-producing reduction for
                               nearer critical/upstream terminal if the raw
                               eliminants remain unpriced
 ```
+
+**2026-07-26, canonical bridge reconciliation:** canonical `f2634a1f` added
+a substantial analysis of a hypothetical affine-rank-two budget-three list
+witness and proposed reducing its six fibers to the rate-half minimal-index
+split-pencil seam. In the joint tree that branch is vacuous: the already
+proved `rate_half_list_budget_three_affine_rank_rigidity` excludes affine
+rank two at exactly the same `(4d,2d,3d-1)`, `d>=3`, scope. The equality
+case would have to inject `2d+2` active coordinates into the six roots of
+pairwise affine-linear quotient differences. The chamber bridge is therefore
+narrowed to `(d_1,d_2,d_3,b)` for rank three. The rank-flat denominator shows
+that lower, not upper, control of `b` is useful. The proposed `(MI2)` import is
+also fenced: that theorem assumes a primitive apolar Hankel kernel, whereas
+the six residual polynomials form an arbitrary pencil; the applicable
+arbitrary-pencil incidence theorem is sharp at six here.
+
+Cycle burn-down:
+
+```text
+starting pins: local 007d86e2; canonical 4b4a43a0; upstream b13de811;
+               PR #1106 head 98149fc6
+canonical integration: local merge 9c95bcd8; canonical f2634a1f
+ending math pin: local 9080cb67; upstream/PR unchanged
+node attacked: rate_half_list_chamber_affine_rank_bridge
+result: NARROWED; s=3 is supplied by an existing PROVED theorem and the
+        imported s=2/MI2 route is retired
+DAG delta: +1 ev edge and corrected TARGET contract; critical math orbit
+           unchanged at 201 PROVED / 36 CONDITIONAL / 23 TARGET
+upstream terminal delta: none; upstream has no matching chamber-rank bridge
+delta-star bracket movement: 0 bits
+new assumptions: none
+live compute requests: none added or consumed
+next route-deciding action: compute chamber-uniform bounds on
+                              (d_1,d_2,d_3,b) and test whether any of the
+                              thirteen exact rank-flat caps is at most three
+```
