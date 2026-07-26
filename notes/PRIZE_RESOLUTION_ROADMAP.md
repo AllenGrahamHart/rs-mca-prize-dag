@@ -2305,3 +2305,25 @@ Result: `CLOSED` for the complete `m=8` order-zero outer chamber and
 `NARROWED` for L1; `m=16` order zero, order one, and the inner/global
 payments remain. No Modal job, compute request, critical status, upstream
 terminal, or endpoint bracket changes.
+
+Cycle burn-down:
+
+```text
+starting pins: local e5baf2ad; canonical 4b4a43a0; upstream b13de811;
+               PR #1106 head 98149fc6
+ending math pin: local edfab050; canonical/upstream/PR unchanged
+node attacked: l1_mersenne_hnf_m8_order_zero_reciprocal_elimination
+result: CLOSED (all color degrees in the four m=8 order-zero outer
+        chambers); NARROWED (L1)
+DAG delta: +1 PROVED node, +3 edges; critical math orbit unchanged at
+           201 PROVED / 36 CONDITIONAL / 23 TARGET
+upstream terminal delta: none; no K/M/L atom or adjacent payment
+delta-star bracket movement: 0 bits
+new assumptions: none; both dependencies are PROVED
+live compute requests: CR-L1-MCP-NMCE narrowed to m=16/order-one work;
+                       no run launched or consumed
+next route-deciding action: derive a certificate-producing reduction for
+                              the m=16 reciprocal system, or switch to a
+                              nearer critical/upstream terminal if the raw
+                              eliminants remain unpriced
+```

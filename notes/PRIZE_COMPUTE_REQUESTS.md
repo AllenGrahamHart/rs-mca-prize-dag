@@ -7130,9 +7130,12 @@ compression.
 
 ### CR-L1-MCP-NMCE: constant-Euler next-to-maximal passport classification
 
-**Status:** valuable outbound research-compute request with unknown cost;
-not authorized locally or on the current Modal account. Benchmark and price
-one outer chamber before any extension.
+**Status:** the four `m=8,h=7,ord_0(T)=0` outer chambers are now theorem-
+empty and RETIRED from this request. The unresolved `m=16,h=15` order-zero
+chamber and the order-one chambers remain a valuable outbound research-
+compute pre-request with unknown cost; they are not authorized locally or on
+the current Modal account. Benchmark and price one smallest unresolved
+chamber before any extension.
 
 **Pre-registered bounded analogue pilot `HNF-TOY-GCD`.** One 1-CPU, 1-GiB,
 120-second Modal task may compute the exact common-remainder gcd for
@@ -7180,13 +7183,24 @@ structure-aware two-variable elimination and return either a checkable unit
 certificate or a complete component decomposition. This measured algebra
 task is now preferable to any expanded degree-`n` remainder campaign.
 
-This request targets only the exact residue of
+The later proved node
+`l1_mersenne_hnf_m8_order_zero_reciprocal_elimination` supersedes that
+incomplete analogue for every official `m=8` order-zero row. It reconstructs
+the reciprocal coefficients by two independent exact implementations and
+shows that the gcd of the first-three-equation eliminants has only prime-
+field roots in all four official characteristics. Do not run an `m=8`
+official saturation or classify cubic and higher `m=8` colors: that chamber
+is closed.
+
+The live part of this request targets the exact residue of
 `l1_mersenne_next_to_maximal_hypergeometric_normal_form` on
 
 ```text
-(m,h,p)=(8,7,8191),(8,7,131071),(8,7,524287),
-        (8,7,2147483647),(16,15,8191).
+(m,h,p)=(16,15,8191),
 ```
+
+plus the order-one chambers not discharged by the `m=8` theorem. The four
+former `m=8` triples remain in the historical pilot record only.
 
 The outer stage has a monic depressed squarefree polynomial `G` of degree
 `h` and a nonzero scalar `lambda=m alpha/q`. Put
@@ -7268,6 +7282,30 @@ the outer stage into exactly two low-dimensional tasks.
   unit quotient closes the remaining chamber. Any retained irreducible
   factor must include an exact algebraic representation of `s`, replay of
   `s notin F_p`, and the zero remainder certificate.
+
+  For the live `(m,h,p)=(16,15,8191)` chamber, `deg_s q_j<=16j`. The raw
+  interpolation bounds for
+
+  ```text
+  Res_t(F_1,F_2),       Res_t(F_1,F_3)
+  ```
+
+  are respectively `11520` and `15360`. The latter exceeds `p`, so a
+  base-field evaluation grid cannot certify the polynomial by ordinary
+  interpolation. A contributor implementation must instead use exact
+  symbolic elimination, extension-field interpolation with a replayable
+  descent certificate, or a proved factor/saturation reduction. Before a
+  full run, publish a measured pilot that constructs enough of one eliminant
+  to validate the representation and gives a conservative peak-RAM,
+  wall-time, and dollar bound. The local `m=8` timings (about 12 seconds for
+  the primary verifier and 10 seconds for its independent audit) are not a
+  cost model for this larger system.
+
+  A unit outside-prime-field locus closes the complete `m=16` order-zero
+  outer chamber. A nonunit result must return an exact irreducible component
+  or algebraic witness candidate, then impose `t=s^p` and the cyclotomic
+  divisibility before it can count as an outer survivor. A timeout, modular
+  no-hit, partial interpolation, or projected-cost estimate is `INCOMPLETE`.
 
 - For `ord_0(T)=1`, normalize `g(y)=R(0)^(-h)G(R(0)y)`,
   `A=[Y^(h-2)]G/R(0)^2`, and `c=z/R(0)`. Generate every coefficient by
