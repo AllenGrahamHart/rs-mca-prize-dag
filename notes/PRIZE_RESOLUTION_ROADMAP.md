@@ -2362,3 +2362,50 @@ next route-deciding action: compute chamber-uniform bounds on
                               (d_1,d_2,d_3,b) and test whether any of the
                               thirteen exact rank-flat caps is at most three
 ```
+
+**2026-07-26, budget-three compiler route fully adjudicated:** the selected
+intersection theorem has `n_0=0`, so the four chosen agreement sets cover the
+domain. At a common direction zero all four codeword values coincide; one
+selected agreement therefore forces the common value to equal the received
+word. This proves `b=0` in every chamber. The remaining generalized-weight
+arithmetic then fences the compiler completely. Every incidence type has a
+pair attaining `K-1=2d-1` agreements, hence `d_1=2d+1`, and a selected triple
+intersection of size at least `d-1`, hence `d_2<=3d+1`. With
+`2d+3<=x=d_3<=4d`, the rank-flat expression is bounded below by
+
+```text
+x(x-1)(x-2) / (2d^2(x-d-1)) > 4.
+```
+
+The last inequality follows from positivity of
+`x(x-1)(x-2)-8d^2(x-d-1)` at `x=2d+3` and its positive first and second
+derivatives thereafter. Thus its floor is always at least four: neither the
+affine-span cap eight nor the rank-flat compiler can prove the required cap
+three. The bridge is now PROVED as a route fence, and the thirteen chambers
+must be attacked through their official-subgroup arithmetic or a stronger
+list theorem.
+
+Cycle burn-down:
+
+```text
+starting pin: local 9080cb67; canonical f2634a1f; upstream b13de811;
+              PR #1106 head 98149fc6
+intermediate theorem pin: local 1e359dfb
+ending math pin: local a44a4392; canonical/upstream/PR unchanged
+nodes attacked: rate_half_list_budget_three_common_mismatch_zero;
+                rate_half_list_chamber_affine_rank_bridge
+result: CLOSED (b=0 theorem); CLOSED AS ROUTE FENCE (compiler bridge)
+DAG delta: +1 PROVED node, bridge TARGET -> PROVED, +5 edges;
+           overall PROVED 1041 -> 1043 and TARGET 69 -> 68
+critical delta: none; math orbit remains 201 PROVED / 36 CONDITIONAL /
+                23 TARGET
+upstream terminal delta: none; this proves a limitation of the harvested
+                         Lane-L compiler, not a K/M/L payment
+delta-star bracket movement: 0 bits
+new assumptions: none; every dependency is PROVED
+live compute requests: none added or consumed
+next route-deciding action: return to direct official-subgroup arithmetic in
+                              rate_half_list_adjacent_crossing, or select a
+                              different one of the 23 critical red leaves;
+                              do not spend further cycles on this compiler
+```
