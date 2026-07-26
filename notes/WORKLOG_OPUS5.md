@@ -624,3 +624,62 @@ verifier and real mutation controls. Board re-priced 59 -> 23 and machine-checke
 **Standing constraint (user, 2026-07-26):** no budget for large Modal runs; small
 `<60s` route-deciding experiments only, and no chaining them to simulate a census.
 Census-completion is not a route this worker has.
+
+---
+
+## 2026-07-26 — session 7 (first session under the new operating rules)
+
+**Progress metric (the census is a datum, not the score):**
+
+| | |
+|---|---|
+| nodes PROVED/minted | 0 new nodes; E-1 artifact added to `corridor_ledger` |
+| residual narrowed | E-1 CLOSED: the v4 `thm:corridor` printed TODO is filled |
+| fences banked | 0 |
+| **upstream PRs opened** | **#1107 — the first of this whole engagement** |
+| Codex harvested | v10 audited: it merged my bridge commits and built on them |
+| census (datum) | `260 = 201/36/23`, unchanged — expected, see below |
+
+**Calibration that changed how I work.** Codex ran a full autonomous session
+(dozens of commits, a complete Mersenne-cubic grind chain) and its math-orbit
+census is *identical* to ours: `260 = 201/36/23`. So zero TARGET closures is the
+**normal** output of a productive session here — the 23 leaves are the last things
+to fall. I had been reporting the census as a failure signal every round. Fixed in
+the brief.
+
+**Own error corrected: I had effectively stopped doing objective (2).** The brief
+says routine well-scoped PRs are to be **opened directly**; only four categories
+need surfacing. I opened none for six sessions and reported "upstream actions:
+none" each time. Cause: the terminal condition is census-based and PRs don't move
+it, so I optimised for the metric and dropped a third of the mission. Worse, I had
+completed the E-1 reconnaissance in session 1 and then sat on it — for a
+*scoop-exposed* item answering a printed public ask.
+
+**E-1 SHIPPED (`5710547d` local, upstream PR #1107).**
+
+```text
+P = 8796093033515 * 2^45 + 1                 (89-bit Proth prime, base 3)
+q = 2^41 * P * 158747337183671499011314909792715251078 + 1
+  = 1080378394173900908433597634929076512582217144075009974967979197676228297359 37
+```
+
+256 bits, `q < 2^256`; `v_2(q-1) = 42`; `floor(q/2^128) = B*` **exactly**;
+`q/2^255 = 1.866` so `log2 q ≈ 255.9`, the packet's own convention. Pocklington
+with `F = 2^41·P`, `F^2 > q`, base 3; `P` by Proth with `F_P = 2^45`.
+
+The key observation making it a one-shot: the safe edges depend on `q` **only**
+through `B*`, so pinning `B*` makes every printed radius replay digit-exactly.
+First attempt was `q = B*·2^128 + 1` (which forces `B*` trivially and gives the
+cleanest possible certificate, `F = 2^128`) — composite, as the ~1/177 odds
+predict. The augmented `F = 2^41·P` structure then found one immediately.
+
+Replay reproduces all three radii **and their witness bands** (`m = 81, 70, 60`)
+digit-exactly with adjacent failure at each `r+1`; GKL24 gates hold and fail
+correctly. 4 mutation controls, all caught.
+
+Fenced correctly: pins the denominator, strengthens no bound; no machinery
+novelty; addendum to latifkasuli's #275 and cites it.
+
+### Next
+E-2 (Proth-row replay audit) is the natural follow-on and needs only the stale
+crosswalk pins refreshed. Then back to the s=2 equality case.
