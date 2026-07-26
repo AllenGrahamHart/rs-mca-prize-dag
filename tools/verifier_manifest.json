@@ -2562,6 +2562,7 @@
     "tools/verify_list_corridor_ledger.py": "8d29b7d3a1dc81873fd12dea5df5339f41527aa19bc1903d92da268ef37f49c2",
     "tools/verify_list_corridor_widths.py": "62f930c35c2c04414fd2274cbd1442bc692acd1dd0702fde5e57db03bca2733a",
     "tools/verify_official_row_primes_pinning.py": "f6a7af8211e92ef1e5643bda43ed7e11df597956589d4cabfbe2479590814828",
+    "tools/verify_orbit_census.py": "a34b0630e00c9b4d717050d43a7fb4ed65aa944dba3afe748e14fe7a21276077",
     "tools/verify_prize_dag.py": "fc78e615525a85988904f889b07cea6ade47d5eb319eab4cb882cbe14f270ff7",
     "tools/verify_wild_row_audit.py": "304aab9d7f08b41029808a829a23a7987e212ebda24dc1b8f8cd32568b72eee3"
   }

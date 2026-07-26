@@ -2,7 +2,7 @@ All consumer node ids verified present in dag.json at 8a820bdb; correspondence d
 
 # TASK B2 — HARVEST + JOINT-GRAPH PLAN
 
-Baseline of record (re-measured, A3/A4 concordant): critical orbit = 275 nodes = **213 PROVED / 38 CONDITIONAL / 24 TARGET** (brief's 201/36/23 is stale; 24th TARGET is the dossier packaging leaf, so "23 math leaves" stays the roadmap phrase). Upstream of record: b13de811, terminal open inputs per GF v4 `thm:audited-status` = **(S) spread-routing, (A) large-owner, (E) exception-routing, list-completion**, plus workboard K0–K5 / M0–M2 / Lane L / Lane T.
+Baseline of record (re-measured, A3/A4 concordant): critical orbit = 275 nodes = **213 PROVED / 38 CONDITIONAL / 24 TARGET** (24th TARGET is the dossier packaging leaf, so "23 math leaves" stays the roadmap phrase). **[Q0 correction, 2026-07-26: "brief's 201/36/23 is stale" struck — that is the *math orbit*, rooted at {`mca_grand`, `list_grand`} rather than at `prize`, and it reproduces exactly; 275 = 260 + a 15-node packaging spine. Both live. Pinned by `tools/verify_orbit_census.py`.]** Upstream of record: b13de811, terminal open inputs per GF v4 `thm:audited-status` = **(S) spread-routing, (A) large-owner, (E) exception-routing, list-completion**, plus workboard K0–K5 / M0–M2 / Lane L / Lane T.
 
 ## PART 1 — RANKED HARVEST LIST
 

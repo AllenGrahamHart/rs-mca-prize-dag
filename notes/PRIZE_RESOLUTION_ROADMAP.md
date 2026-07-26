@@ -597,10 +597,15 @@ identifications without a machine-verified chain.
 
 ## 4. Board anatomy
 
-- **Counts** (refreshed from `dag.json`, the single source of truth): critical
-  surface 201 PROVED / 36 CONDITIONAL / 23 open
-  mathematical red leaves; req-closure of `prize` = 260 nodes. The separate
-  submission dossier is a target artifact rather than a mathematical leaf.
+- **Counts** (refreshed from `dag.json`, the single source of truth; pinned by
+  `tools/verify_orbit_census.py`): critical surface 201 PROVED / 36 CONDITIONAL /
+  23 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
+  grand challenges {`mca_grand`, `list_grand`} = **260** nodes. *(Q0, 2026-07-26:
+  this line previously read "req-closure of `prize` = 260" — wrong root. The
+  closure of `prize` is the* **submission orbit** *= 275 = 213/38/24, i.e. the math
+  orbit plus a 15-node packaging spine.)* The separate submission dossier is a
+  target artifact rather than a mathematical leaf — it is the submission orbit's
+  24th TARGET and does not appear in the 23.
 - **Wired bottlenecks** (no alt, no upstream substitute):
   `l1_mixed_petal_amplification`, `rate_half_list_adjacent_crossing`,
   `rate_half_band_closure`, + the dossier. There is NO MCA-only resolution

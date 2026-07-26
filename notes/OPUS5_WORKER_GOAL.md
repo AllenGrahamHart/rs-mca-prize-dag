@@ -30,10 +30,15 @@ on this repo's main.
 
 ## Priority queue (initial; re-derive from the ledger as items close)
 
-- **Q0 (gate): orbit-count reconciliation.** The ledger's baseline says 275 orbit
-  = 213 proved / 38 conditional / 24 red; `tools/verify_critical_harness_coverage.py`
-  pins 260/201. Re-count, find the divergence, fix the ledger (or the tool's census
-  with a dated comment). Nothing gets packaged for upstream until these agree.
+- ~~**Q0 (gate): orbit-count reconciliation.**~~ **CLOSED 2026-07-26.** Not drift —
+  two orbits with different roots, both exact. **MATH ORBIT** = req-ancestry (+alt
+  closure) of {`mca_grand`, `list_grand`} = 260 = 201/36/23 (what `critical_dag.json`,
+  the SVG/site, the partition law, and `verify_critical_harness_coverage.py` measure;
+  its 23 TARGETs are the "23 mathematical leaves"). **SUBMISSION ORBIT** = the same
+  closure rooted at `prize` = 275 = 213/38/24 = math orbit + a 15-node packaging spine
+  (2 of the "38 CONDITIONALs" are `prize`/`packaging` themselves — so C3-3 dedups 36).
+  Both pinned with the delta by name in `tools/verify_orbit_census.py` (6 mutation
+  controls). Ledger + 4 derivative notes corrected. Gate is open.
 - **Q1: E-1 corridor-prime export** → upstream PR (front of the export queue; this
   packet carries the Lean pilot).
 - **Q2: E-2 Proth replay export** → upstream PR.

@@ -2,14 +2,25 @@
 
 Basis: ours @ prize master 8a820bdb; upstream @ origin/main b13de811 (read-only). Sources merged: Plan B1 (export+mining, fact-checked, one fatal correction applied), Plan B2 (harvest+joint-graph, six material corrections applied), Critique C3 (all additions C3-1..C3-14 and risks R1–R7 adopted). Every claim below carries the evidence grade its fact-check assigned; nothing fatal-flagged survives.
 
-**Baseline of record (reconciled, supersedes 201/36/23):** critical orbit = 275 nodes = **213 PROVED / 38 CONDITIONAL / 24 TARGET** (23 math leaves + the dossier packaging leaf). Upstream terminal open inputs per GF `thm:audited-status` (:7530): **(S)** `prob:mca-spread-routing`, **(A)** `prob:large-owner`, **(E)** `prob:mca-exception-routing`, **list-completion**.
+**Baseline of record — CORRECTED 2026-07-26 (Q0), machine-pinned by `tools/verify_orbit_census.py`.** The r1 header said 275 = 213/38/24 "supersedes 201/36/23", and the fact-check agreed the smaller census was stale. **Both are wrong: neither census is stale — they have different roots, and both reproduce exactly.**
+
+| name | root | closure | census |
+|---|---|---|---|
+| **MATH ORBIT** | {`mca_grand`, `list_grand`} | req-ancestry + alt-closure | **260 = 201 PROVED / 36 CONDITIONAL / 23 TARGET** |
+| **SUBMISSION ORBIT** | `prize` | same | **275 = 213 / 38 / 24** |
+
+The submission orbit is a strict superset: math orbit **+ a 15-node packaging spine** (12 PROVED — `bridge_ledger`, `compiler`, `dossier_partial`, `envelope`, `half_johnson_ca`, `harness`, `ld_bridge`, `ldsw_ld_separation`, `lean_existing`, `lean_tier1`, `mca_from_ca_reduction`, `pinned_row`; 2 CONDITIONAL — `prize` and `packaging` themselves; 1 TARGET — `submission_quality_paper_dossier`). **275 − 260 = 15 is definitional, not drift.**
+
+The math orbit is what `orbit/critical_dag.json`, the radial SVG, the published site, `verify_prize_dag.py`'s partition law, and `verify_critical_harness_coverage.py` all measure; its 23 TARGETs are the roadmap's "23 mathematical leaves". The submission orbit is this ledger's baseline and equals the dominator set `verify_prize_dag.py` prints as "CRITICAL open nodes (on EVERY route to the prize)" — 24 open dominators, the 23 math leaves plus the dossier. **Burn-down of mathematics is measured on the math orbit; the all-green end state is the submission orbit, which owns the dossier leaf.** Every count below must now say which orbit it means.
+
+Upstream terminal open inputs per GF `thm:audited-status` (:7530): **(S)** `prob:mca-spread-routing`, **(A)** `prob:large-owner`, **(E)** `prob:mca-exception-routing`, **list-completion**.
 
 ---
 
 ## 0. The strategic frame, restated as policy
 
 1. **The DAG is the guiding map — and it must be shared.** The critical DAG remains our single source of truth, and a `critical_orbit_snapshot.md` (nodes, status, req edges, his-label crosswalk column, who's-on-it board) is regenerated per wave and travels **with real packets** — never as a standalone PR (his stop rules class label-maps and schema acceptance as non-progress).
-2. **Definition of DONE (all-green):** 24 TARGETs closed **and** 38 CONDITIONALs discharged against a deduped joint hypothesis set **and** his four terminal inputs closed. No plan item counts as convergence unless it moves this ledger.
+2. **Definition of DONE (all-green, submission orbit):** 24 TARGETs closed (23 math leaves + the dossier) **and** 38 CONDITIONALs discharged against a deduped joint hypothesis set **and** his four terminal inputs closed. **Q0 refinement (2026-07-26):** exactly **36 of the 38** are mathematical; `prize` and `packaging` are the packaging spine's own conditionals and discharge as consequences, not as hypotheses — so the C3-3 dedup ledger (§5) has **36** inputs, not 38. No plan item counts as convergence unless it moves this ledger.
 3. **Proactive feed + harvest is a cadence, not an episode:** a standing per-session upstream-delta sweep (pin-advance → triage into refutation / harvest / ledger lanes) replaces one-shot harvest lists, which go stale in ten days against his multi-wave weeks.
 4. **The progress metric is joint:** every wave reports bits of remaining delta\*-bracket moved, jointly over both trees (roadmap §9). A wave that moves zero joint bits is exchange, not convergence — and two full cycles at zero triggers the self-kill (§7, R7).
 5. **The DAG is the Lean module graph:** node → module, namespace = node id, req edge → import, ev edge → no import, gate:all → explicit hypotheses until discharged.
@@ -98,9 +109,9 @@ House law: independent reconstruction + exact-integer replay before any vendored
 
 **Coverage checklists (C3-2), standing in the snapshot:** a 4-row table over his terminal inputs — list-completion ↔ H1 (real route), (S) ↔ H3/XR (ev only), **(A) and (E): no route this cycle — his-side objects, we feed ev only** — and a 24-row table over our TARGETs; every uncovered row carries an explicit "no route — reason," never silence.
 
-**Conditional dedup (C3-3), one session:** `assumption_dedup.md` — every distinct assumption behind our 38 CONDITIONALs mapped against his six GF inputs, shared hypotheses counted once, each with owner + route + falsifier. This is the only way the final DAG's conditional edges terminate in jointly-recognized hypotheses rather than two private vocabularies.
+**Conditional dedup (C3-3), one session:** `assumption_dedup.md` — every distinct assumption behind our **36 mathematical CONDITIONALs** (the math orbit; `prize` and `packaging` are excluded per Q0) mapped against his six GF inputs, shared hypotheses counted once, each with owner + route + falsifier. This is the only way the final DAG's conditional edges terminate in jointly-recognized hypotheses rather than two private vocabularies.
 
-**Ownership split (corrected counts; re-count from the orbit before packaging, reconciling to the 24 TARGETs):** HE closes (A), (E), K1, K5, Lane-M rows, M31 Lane-L uppers. WE close the **12-leaf in-orbit DLI block** (13 counting the off-orbit factorization leaf — name it explicitly in the packaged split), the **2-leaf certificate-machinery pair**, `u2_per_row_certifier`, the F3 pair, `rate_half_band_closure` (the beyond-2^167 frontier is exclusively ours), and lane-adjacent list leaves under the crosswalk fences. JOINT, double-key: the F2 wall, the L1 pair, (S) ↔ XR, list-completion assembly, the dossier ↔ his item (3).
+**Ownership split (corrected counts; re-count from the orbit before packaging, reconciling to the 24 submission-orbit TARGETs = 23 math leaves + the dossier):** HE closes (A), (E), K1, K5, Lane-M rows, M31 Lane-L uppers. WE close the **12-leaf in-orbit DLI block** (13 counting the off-orbit factorization leaf — name it explicitly in the packaged split), the **2-leaf certificate-machinery pair**, `u2_per_row_certifier`, the F3 pair, `rate_half_band_closure` (the beyond-2^167 frontier is exclusively ours), and lane-adjacent list leaves under the crosswalk fences. JOINT, double-key: the F2 wall, the L1 pair, (S) ↔ XR, list-completion assembly, the dossier ↔ his item (3).
 
 **Double-key rule:** any flip on an IDENTICAL or JOINT row needs (a) our key — exact-integer verifier PASS in-tree; (b) his key — bankability contract satisfied (workboard item, partition digest, quantifier, unit). One-sided proofs sit at CONDITIONAL with the missing key named. Hash-green ≠ execution-green.
 
@@ -114,7 +125,7 @@ Constraints on record: his priority order (agents.md §7: (i) proved local theor
 
 - **Pilot (C3-5, rides E-1/E-2, week 1–2):** Lean 4 verification of the Pocklington/Proth certificates + exact `floor(q·2⁻¹²⁸)` endpoint conversion — squarely his genres (iii)/(iv), reuses his in-repo toolchain, cheapest end-to-end test of nodes→modules on content both sides have blessed.
 - **Phase 0 (~free):** `lean` column in the crosswalk; adopt `firstocc_general`/`firstocc_nodup_mem` as the shared first-match base with correspondence entries for our U2 objects; **(b)** replicate our Tier-1 F17 endpoint pattern for the four Proth rows — merged with S5, discharging its status-discipline problem and starting his priority (iii) on his own solved rows. Track-B cap ~10% effort holds.
-- **Readiness audit (C3-6):** classify the 213 PROVED nodes `lean_ready` vs prose-level (B2's measure: 127 verifier/certificate-backed vs 86 analytically hard — formalize this as a dag.json field + roadmap count before any volume promise).
+- **Readiness audit (C3-6):** classify the 213 PROVED submission-orbit nodes (201 of them mathematical) `lean_ready` vs prose-level (B2's measure: 127 verifier/certificate-backed vs 86 analytically hard — formalize this as a dag.json field + roadmap count before any volume promise).
 - **Conventions note (C3-7), agreed with Przemek before volume:** namespace scheme, statement-freezing rule (DAG statement text is the spec; Lean statement diffs are catches), double-key extended to "builds-green ≠ statement-matched."
 - **Phase 1:** the verifier-backed nodes as `decide`/Nat-kernel certificates, ordered (ii)→(iii)→census anchors; a module lands in the same commit as its node's surgery.
 - **Phase 2 — explicitly gated (material fix):** co-signed per-terminal packages (F2, S, A, E, list-completion) with open inputs as declared hypotheses go upstream **only after the maintainer surfaces the co-sign proposal and Przemek opts in**; until then they live in our tree and are never framed as progress-claiming PRs (cf. the #1084 rejection).
