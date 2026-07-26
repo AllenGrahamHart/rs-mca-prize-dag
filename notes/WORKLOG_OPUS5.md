@@ -766,3 +766,45 @@ normalisation, which never needs `w` invertible.
 ### Next
 `(4,11)` descent statement, porting the (4,9) quartic-divisor machinery now that
 parity says it transfers.
+
+**Session 7d — the descent lane, and a lane-level fence that should save future sessions.**
+
+| | |
+|---|---|
+| nodes minted | 1: `dli_wcl_ell4_weight11_quintic_divisor_descent` (forward → **full bijection**) |
+| theorems banked | (4,11) normal form; (4,11) converse; parity dichotomy; compiler-cannot-bite |
+| residual narrowed | `(4,11)`: whole descent → just the Δ certificate. `(4,9)`: recast as a Pell identity |
+| routes fenced | abc/Mason-Stothers; Res(P,A); `mu_N`-product; quadratic character |
+| census (datum) | `260 = 201/36/23` |
+
+**The Pell recast is the useful artefact.** `P(Y) + 1 = Y A(Y)^2` (resp.
+`+ (e_9Y+1)^2 = Y B(Y)^2`) replaces the `R_j` eliminant, which was hopeless —
+symbolic `Y^1024 mod G` doubles coefficient degree per squaring, so the `R_j` carry
+degree ~`2^10` in six variables. The Pell form has no blow-up and exposes the
+double-root structure the eliminant hides. It also made small-analogue search
+possible at all: exhaustive over all 83,521 monic quartics at `(p,N) = (17,16)`,
+zero hits, plus zero from the independent 715-subset enumeration. Fenced as
+route-selection evidence only, per this node's own standing rule.
+
+**Planning correction.** I had said "next: Δ at (4,11)". Wrong order — `(4,9)`'s own
+statement says it does not compute Δ either, and `(4,9)` is strictly smaller (9
+relations in 4 unknowns vs 11 in 6). Δ belongs at `(4,9)` first if anywhere.
+
+**Bug caught mid-experiment, worth recording.** My first `mu_N` was the first `N`
+powers of an element with `N` distinct powers — not the order-`N` subgroup unless
+`N = p-1`. It coincided at `(17,16)` and was wrong at `(97,32)`, `(193,64)`,
+`(257,128)`, making a true identity appear to fail. Correct form is
+`h = g^{(p-1)/N}`. A wrong `mu_N` reads as an obstruction where none exists.
+
+**THE LANE FENCE (now in the brief).** Six routes have now died the same way:
+strict-endpoint norm, s=2 composition/divisibility, log-derivative, symmetric
+realization, counting/(MI2) saturation, and the (4,9) Res/`mu_N`/character family.
+**Global multiplicative invariants are forced by the defining identity and carry no
+information.** Attack local structure — root-by-root incidence, ramification
+profiles, the double-root pattern of `P+1`.
+
+### Next
+Local structure on the `(4,9)` Pell form: `P` is degree 9, totally ramified over
+`∞`, profile `(1,2,2,2,2)` over `-1`, unramified over `0` with all nine roots in
+`mu_1024`, and 4 further ramification points free. That is a dessins/Shabat-shaped
+constraint and it is *local*, so it is not covered by the fence.

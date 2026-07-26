@@ -97,6 +97,17 @@ rebuild; the WCL cost table; the router-soundness lemma (general `k`); E-1.
    *Node retirement to a route fence is surfaced to the user, not decided here.*
 3. **M-1 strict A=3 endpoint** — the RNC/split interaction in the transposed form.
    Norm/parity routes fenced.
+
+**STANDING LANE FENCE (2026-07-27) — applies to BOTH the WCL descent lane and the
+rate-half endpoint lane.** Global multiplicative invariants (resultants, norms,
+`mu_N`-products, quadratic characters, abc/Mason-Stothers) are **forced by the
+defining identity** on these configurations and carry no information — they are
+consequences, not constraints. Six routes have now died this way: the strict-endpoint
+norm identity, the s=2 composition/divisibility route, the log-derivative count, the
+symmetric realization, counting/(MI2) saturation, and the (4,9) Res/`mu_N`/character
+family. **Attack local structure instead**: root-by-root incidence, ramification
+profiles, the double-root pattern of `P+1`, chamber-level data. Do not spend another
+session on a global product.
 4. **(4,11) THEN (4,10) descent statements + Delta certificates** — order matters,
    and it is the reverse of the numeric order. Parity dichotomy (2026-07-26): the
    (4,9) global-dilation normalisation needs `w` invertible mod `N_ell = 512*ell`, a
