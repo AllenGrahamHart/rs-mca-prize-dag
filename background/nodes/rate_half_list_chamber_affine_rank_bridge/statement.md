@@ -433,3 +433,32 @@ The obstruction may well survive — `6 ∤ 2^41` is robust and `deg W <= 6`,
 `deg E <= 8` are tight — but it must be derived, not asserted. Anyone continuing
 should start from `theta = prod_i Q_i / B^6` and track the fibre over `infinity`
 honestly.
+
+#### RESOLVED 2026-07-26: the composition/divisibility route is DEAD
+
+The caveat above is fatal, not repairable. Carrying the `B^6` through:
+`theta = prod_i Q_i / B^6` with `gcd(Q_i, B) = 1` (a common root of `Q_i` and `B`
+would be a common root of `A` and `B`). So every **finite** pole of `theta` is a
+zero of `B` with multiplicity `6 * mult_B(x)` — divisible by 6 automatically. And
+at infinity, with `k = 6d - deg(prod Q_i) >= 0`:
+
+```text
+deg A > deg B :  all deg Q_i = d, k = 0, pole order 6(d - deg B)   -- 6 | it, free
+deg A < deg B :  all deg Q_i = deg B, pole order 0, infinity regular -- free
+deg A = deg B :  at most ONE i cancels (the lambda_i are distinct), so
+                 deg prod = 6d - k and infinity is a ZERO of order k, not a pole
+```
+
+So the divisibility condition is satisfied **automatically in every case** and
+imposes nothing. All that survives is the degree identity `6d = n + deg W - deg E + k`,
+which needs `deg W - deg E + k = 4 (mod 6)` since `n = 2 (mod 6)` — and there are
+**74** admissible triples with `deg W <= 6`, `deg E <= 8`, `k >= 0`.
+
+**Fence: do not attack `s=2` via `rho`'s total ramification over infinity, or via
+any `6 ∤ 2^41` divisibility read off the pole divisor.** The `6`-divisibility is
+structural (it comes from `B^6`) and carries no arithmetic information about `n`.
+
+The six-fiber covering reduction (PROGRESS 4 + the reduction above) still stands
+and is still the right frame; what is dead is this particular way of exploiting it.
+A live attack must use the *multiplicative* structure of the coset `D` — that
+`psi^{-1}(Lambda)` is a coset of `mu_{2^41}` — not the ramification bookkeeping.
