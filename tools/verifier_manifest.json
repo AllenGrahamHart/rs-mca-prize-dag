@@ -2544,6 +2544,7 @@
     "critical/nodes/pma_exact_periodic_owner/verify.py": "eb4a9c5c020ffa307def71d47898ba9efd2e998e5956ce2b27e9f1f578c6229e",
     "critical/nodes/qa22_m_le_t_extension/verify.py": "d4c0cfe1f4b52b37f7bc5d64d0ca8bc448289ecd1bd7538d04575f5c1b9c986c",
     "critical/nodes/rate_half_band_closure/verify_attack_contract.py": "348728893fdd8d3b54a25d8fd1d0ae77dfcc2105086c3075c4b16d667e538202",
+    "critical/nodes/rate_half_band_closure/verify_strict_endpoint_norm_fence.py": "730d750cc8f26a8f3dd66dba70dc8585a8b2912c1c242988fa31a39fe471de8e",
     "critical/nodes/rate_half_cyclic_rotated_prefix_floor/verify.py": "d02d9dfd62a994590009a40f60683384fabef19ea87e74ca874841d9ceafa175",
     "critical/nodes/rate_half_cyclic_rotated_prefix_floor/verify_audit.py": "8cc6ea109c9c9a20ed9ecc3cf00f2257bf3f5f2fc1407d0b38ddc4291649831f",
     "critical/nodes/rate_half_list_adjacent_crossing/verify.py": "593ff91fde91aaee58a8b373cafc1223faccdbbdd056237cf9a506c9b27ba990",
