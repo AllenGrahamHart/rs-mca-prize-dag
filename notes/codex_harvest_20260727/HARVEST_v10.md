@@ -114,3 +114,37 @@ Lean-targeted, and cannot be checked against upstream — and 18% of our proved
 critical surface is in that state.
 
 A pinned guard is added (`verify_prize_dag.py`) so the count cannot grow silently.
+
+## Root cause: 82 PROVED nodes have no in-tree proof artifact
+
+`qfloor_exact` is PROVED with `refs = ['proof_sketch/s2_paid_ledger.md#3']`, an empty
+`statement`, an empty `notes`, an empty `notes/` directory, and a `proof.md` that
+says only *"Vendored from the working record; primary artifact(s):
+proof_sketch/s2_paid_ledger.md#3"*. **That path does not exist in this repository.**
+
+It is not an isolated case. Scanning every node's `statement.md` for cited
+`proof_sketch/` paths:
+
+```text
+109 nodes cite a proof_sketch/ artifact absent from this repo
+   PROVED 82 | CONDITIONAL 23 | TARGET 3 | PROVABLE 1
+including prize, mca_grand, list_grand and packaging themselves
+```
+
+**Stated fairly:** these are labelled *"refs (legacy repo)"*, so the artifacts
+presumably live in a predecessor repository rather than nowhere. This is not a claim
+that the proofs do not exist. But the consequence for *this* tree is concrete:
+
+> For those nodes, **neither the statement nor the proof is checkable in-tree.**
+> `verify_prize_dag.py` nonetheless reports `PASS: structure, refs, ...`, because its
+> refs check does not resolve legacy paths.
+
+That is exactly how `qfloor_exact` — a req-parent of `unsafe_at_crossing`, the node
+Codex demotes — reached PROVED with nothing verifiable behind it in this repository.
+Combined with the 37 empty statements, a substantial fraction of the proved critical
+surface cannot be audited here at all.
+
+**For the planner.** Two separable questions: (1) is the legacy `proof_sketch/` tree
+recoverable and should it be vendored in, and (2) until it is, should nodes whose
+only artifact is a dangling legacy ref be treated as PROVED on the critical surface?
+The `unsafe_at_crossing` adjudication depends on the answer.

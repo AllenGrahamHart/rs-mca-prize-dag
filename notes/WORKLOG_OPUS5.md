@@ -977,3 +977,26 @@ dominators and CONDITIONALs, so PROVED nodes escaped it. **18% of the proved cri
 surface cannot be audited, Lean-targeted, or checked against upstream.** Added a
 pinned guard in `verify_prize_dag.py` so the count cannot grow silently (mutation
 control: lowering the pin fails, as it must).
+
+**Session 7k — root cause of the over-claim: 82 PROVED nodes have no in-tree proof.**
+
+`qfloor_exact` is PROVED with `refs = ['proof_sketch/s2_paid_ledger.md#3']`, empty
+`statement`, empty `notes`, empty `notes/` dir, and a `proof.md` that only points at
+that path — **which does not exist in this repository**.
+
+Systemic: **109 nodes cite a `proof_sketch/` artifact absent from the repo — 82
+PROVED, 23 CONDITIONAL, 3 TARGET, 1 PROVABLE**, including `prize`, `mca_grand`,
+`list_grand` and `packaging`. They are labelled *"refs (legacy repo)"*, so the
+artifacts presumably live in a predecessor repo — this is **not** a claim the proofs
+don't exist. But in *this* tree neither statement nor proof is checkable, and
+`verify_prize_dag.py` still reports `refs PASS` because it does not resolve legacy
+paths.
+
+That is how `qfloor_exact` — branch parent of the node Codex demotes — reached PROVED
+with nothing verifiable behind it here. With the 37 empty statements, a large part of
+the proved critical surface is unauditable in-tree.
+
+**Planner decisions:** (1) is the legacy `proof_sketch/` tree recoverable and should
+it be vendored in? (2) until then, should a node whose only artifact is a dangling
+legacy ref count as PROVED on the critical surface? The `unsafe_at_crossing`
+adjudication turns on this.
