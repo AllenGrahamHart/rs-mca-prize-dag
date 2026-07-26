@@ -2,10 +2,54 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "eabd5679",
+  "our_sha": "ca8630f6",
   "his_sha": "b13de811"
  },
  "rows": [
+  {
+   "our_node": "rs_tangent_flexible_budget_unsafe_floor",
+   "his_object": {
+    "label": "Tangent floor (prop:floor)",
+    "file": "tex/slackMCA_v4.tex",
+    "line": "prop:floor"
+   },
+   "relation": "IDENTICAL",
+   "chain": "independent in-node line construction plus exhaustive toy-RS and floor-boundary replay",
+   "scope": "general RS tangent lower bound at integer agreement, including the strict flexible-budget conversion",
+   "owner": "HIM",
+   "nonclaims": [
+    "failure of n-a>floor(q/2^t) is not safety",
+    "the theorem does not upper-bound the full bad set of its constructed line",
+    "no named high-budget clean anchor is paid by the guaranteed n-a slopes"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved",
+   "lean": null,
+   "provenance": {
+    "our_sha": "ca8630f6",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "tangent_clean_anchor_route_classification",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact six-clean-predecessor field-order cutoffs and named-envelope applicability audit for prop:floor",
+   "owner": "US",
+   "nonclaims": [
+    "not an unsafe payload at either named high-budget envelope",
+    "not an upper bound on any tangent-line bad set",
+    "not a safe-side or universal-row certificate"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "ca8630f6",
+    "his_sha": "b13de811"
+   }
+  },
   {
    "our_node": "identity_prefix_flexible_budget_unsafe_floor",
    "his_object": {

@@ -2700,3 +2700,31 @@ next route-deciding action: treat the clean quotient family as a direct-value
                               all six, otherwise move to an exact post-paid M
                               family rather than reusing qfloor
 ```
+
+**2026-07-27, tangent-floor low-field branch compiled:** upstream
+`prop:floor` was independently reconstructed and converted into an exact
+field-order router at the six clean predecessor formulas. The guaranteed
+`n-a` slopes pay a real low-field slice, but none of the named high-budget
+anchors. This narrows the residual unsafe problem without asserting a converse
+or upper-bounding the full bad set of the tangent line.
+
+Cycle burn-down:
+
+```text
+starting pin: local 024156c3; canonical 4cffa790;
+              upstream origin/main b13de811
+ending proof pin: local ca8630f6; canonical/upstream unchanged
+node attacked: unsafe_crossing_family_instantiation, tangent-V branch
+result: CLOSED on the guaranteed low-field payload; CLOSED AS APPLICABILITY
+        CUT at all six named envelopes; universal target remains OPEN
+DAG delta: +2 off-orbit PROVED nodes, +1 req edge, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24
+upstream terminal delta: upstream theorem banked locally under prop:floor;
+                         finite envelope classifier is ours-only
+delta-star bracket movement: none at the named envelopes
+new assumptions: none
+compute spend: none; bounded exact local replay only
+next route-deciding action: classify the residual high-field rows and compare
+                              direct E1 against an exact post-paid M supplier
+```
