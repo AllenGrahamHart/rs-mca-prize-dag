@@ -495,3 +495,46 @@ The obstruction is that there `prod Q_i` has its roots on a `mu_{6a}`-coset, a
 construction, so no gcd obstruction arises. What this does establish is that any
 realization must be genuinely asymmetric — the `lambda_i` cannot be in geometric
 progression — which removes the only construction anyone would try first.
+
+#### The equivariant reduction: `s=2` becomes a split-pencil problem (2026-07-26)
+
+The coset structure does bite, and it collapses the six-fiber problem to a clean
+statement. For `zeta in mu_n` put `psi_zeta(x) = psi(zeta x)`. Since
+`psi^{-1}(Lambda) = D` up to `<=8` points and `zeta D = D`, also
+`psi_zeta^{-1}(Lambda) = D` up to `<=16`. So `P = prod_i Q_i` and its twist
+`P(zeta X)` have the same root set up to bounded error, hence are proportional up
+to factors of degree `<=32`.
+
+**In the exactly-equivariant case** `P(zeta X) = kappa_zeta P(X)` for all
+`zeta in mu_n`. Writing `P = sum_j c_j X^j`, this forces `c_j(zeta^j - kappa_zeta) = 0`,
+so any two exponents in the support are congruent mod `n`. With `deg P = 6d <= n+4`
+the support lies in `{j_0, j_0+n}`, giving
+
+```text
+prod_{i=1}^{6} Q_i  =  beta * X^{j_0} * (X^n - c),        0 <= j_0 <= 4.
+```
+
+(`0 not in D`, so the `X^{j_0}` is absorbed by the allowed `deg W <= 6` factor.)
+
+**Consequence.** Since `Q_i = A - lambda_i B`, fixing any two of them determines
+`A` and `B`, and the remaining four are the prescribed combinations
+
+```text
+Q_i = [ (lambda_2 - lambda_i) Q_1 - (lambda_1 - lambda_i) Q_2 ] / (lambda_2 - lambda_1).
+```
+
+So `s = 2` requires **a two-dimensional pencil with six pairwise-coprime members,
+each of degree about `d = n/6`, all splitting completely over `D`, whose root sets
+partition `D`**. Equivalently: a degree-`d` map `P^1 -> P^1` with six totally
+`D`-split fibres exhausting the order-`2^41` coset.
+
+**This is the same object as the M-1 seam.** It is a split-pencil / moving-kernel
+count of exactly the type bounded by `(MI2)` in
+`rate_half_ca_hankel_minimal_index_budget`, and by the `T <= 4e+1` slope cap of the
+strict `A=3` ledger. The bridge and the rate-half seam are therefore not two
+problems but one mechanism seen from two sides, which is the first genuine weld
+between the list lane and the MCA lane at this node.
+
+**Next step (recommended):** import the minimal-index budget machinery and ask
+whether it caps the number of totally-split members of a degree-`d` pencil below
+six at `d ~ n/6`. If it does, `s = 2` dies and `s = 3` follows.
