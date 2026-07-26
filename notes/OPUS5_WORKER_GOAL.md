@@ -63,37 +63,53 @@ on this repo's main.
 the user's Lean-deferral redirect; exports demoted — they close zero reds.
 Planner answers to session-1 open questions are folded in below.)*
 
-- **Q1: pose + attack the S3 missing lemma** — "affine rank `s` (ideally
-  `d_1,d_2,b`) of the four codewords from a chamber's edge degrees." Planner
-  verdict: YES, mint it as its own node — it has a named non-ev consumer
-  (H1 promotion into `rate_half_list_adjacent_crossing`) and without it H1 can
-  never pass ev. Obey the DAG refinement principles: exact statement field,
-  attack_surface/falsifier, a cheap wired falsifier TEST (the banked F_17
-  witness is the obvious seed), subtraction check before minting.
-- **Q2: M-1 seam grind** — {2^39, 2^39+1}, re-priced MULTI-SESSION (planner
-  accepts session 1's sizing; the ledger's "one session" estimate is void).
-  Continue from the banked A=3 reduction (failure ⟺ slack `h <= 4j`, `j = e−m`;
-  at `e=m` the question is whether the sharp-cap stratum `h=0`, `T = 4m+1`, can
-  occur). Bank partial strata as you go; this is one of the two live red-movers.
-- **Q3: A5 Part 2 registry rebuild, per-author** — planner verdict: YES, do it
-  (two lanes read falsely CLEAR: LegaSage 121 PRs incl. 29 Lean, latifkasuli 27
-  incl. the corridor + `formalize:` census; holmbuar = principal formalizer).
-  Re-derive from per-author sweeps, not the open-PR queue; update
-  `taken_raced_clear_registry.md`.
-- **Q4 (demoted): E-1 corridor-prime + E-2 Proth exports** → upstream PRs when a
-  red-mover session leaves budget. E-1 is an *addendum to latifkasuli's #275*
-  and must credit it; the Lean pilot it carried is PAUSED (Lean deferred behind
-  the informal proof — user decision, ledger §6).
-- **Q5: X-1 scoped identification certificates**, then continue down M-2..M-4,
-  H2..H7, E-3..E-6 in ledger order — red-moving items always outrank exports.
-- **Hygiene (one-off):** `critical/nodes/subfield_trace_paid_gate/` is PROVED but
-  has no `statement.md` (predates the convention; validator warns). Distill the
-  exact statement from its `proof.md`/`PRO_T1.md` — faithful transcription only,
-  no paraphrase drift on a PROVED critical node.
-- **Standing:** watch upstream triage of holmbuar #1097/#1099/#1101 (NEVER race
-  them — our floor is the lane's foundation, the refinements are theirs); re-pin
-  crosswalk aliases when upstream vocabulary moves; run `tools/publish_site.sh`
-  after every DAG update.
+- ~~**Q1: S3 missing lemma**~~ **DONE** — minted `rate_half_list_chamber_affine_rank_bridge`
+  (background, ev). Since minted: `s in {2,3}` proved; **`s=2` FULLY DETERMINED**
+  (`Ddir=6`, `b=0`, `z in {733007751849, 733007751850}`); reduced to a six-fiber
+  covering of the 2^41 coset with the composition obstruction identified.
+- ~~**Q3: A5 Part 2 registry rebuild**~~ **DONE** — 1,099 PRs / 11 authors;
+  LegaSage (121) and latifkasuli (27, corridor owner) were missing.
+- ~~**C3-3 conditional dedup**~~ **DONE, negative** — the 36 CONDITIONALs carry ZERO
+  independent work; all discharge by propagation from the 23 TARGETs.
+  **Remaining mathematics = 23 units, not 59.** `tools/verify_conditional_propagation.py`.
+- ~~**Hygiene: subfield_trace_paid_gate statement.md**~~ **DONE.**
+
+## Queue r3 (derived 2026-07-26 after session 6) — 23 TARGETs, nothing else
+
+**Standing determination:** every one of the 23 is gated on (a) contributor-scale
+compute the worker cannot authorize, or (b) multi-session new algebra. Cheapest
+closure on the whole board is the (1,5) finish: **~238 CPU-h, 46.44% banked** —
+CR-003 makes that a contributor request needing the USER's authorization.
+
+- ~~**Q1: authorize (1,5)**~~ **DECIDED 2026-07-26 — NO.** User: *"I don't have the
+  budget for big modal runs atm"*, *"you can run small experiments that complete in
+  <60s"*, *"don't just chain together loads of these to complete massive
+  computations — limit yourself to cheap high value modal runs"*. So the (1,5)
+  finish (~238 CPU-h), (1,6), (2,7) and every other census is **OFF**, and
+  chaining sub-60s runs to fake a census is **explicitly barred**. The lane is
+  **new algebra**, with small route-DECIDING experiments only (which is
+  Decision-5's TIME RULE anyway). Census-completion is not a route this worker has.
+- ~~**Q2: the composition/divisibility route to `s=2`**~~ **DEAD 2026-07-26** — I
+  recommended it, then killed it: the `6`-divisibility at infinity is structural
+  (it comes from `B^6`), automatic in all three degree cases, and carries no
+  arithmetic information about `n`. Fenced in the node. The six-fiber covering
+  reduction still stands; a live attack must use the **multiplicative** structure
+  of `D` (that `psi^{-1}(Lambda)` is a coset of `mu_{2^41}`), not ramification
+  bookkeeping.
+- **Q2' (worker authority, RECOMMENDED START): `s=2` via the coset structure.**
+  Reduced to a bounded local question: `theta = rho o psi` factors through a
+  degree-6 map and `theta^{-1}(0) = D` up to 8 points; `rho` is totally ramified
+  over infinity with index 6 while `n = 2^41` is not divisible by 6. Show no
+  `deg W <= 6` / `deg E <= 8` correction repairs the mismatch. Excluding `s=2`
+  forces `s=3` and completes half the bridge.
+- **Q3: M-1 strict A=3 endpoint** — the RNC/split interaction in the transposed
+  form (b). Norm/parity routes are FENCED (`verify_strict_endpoint_norm_fence.py`).
+- **Q4: (4,10)/(4,11) descent statements + Delta certificates** (descent-only lane).
+- **Q5: the joint half of C3-3** — map our 23 against his six GF inputs (his-side).
+- Exports E-1..E-6 stay demoted: they close zero reds by construction.
+
+**Do not re-derive:** the 59->23 re-pricing, the WCL cost table, the registry
+rebuild, or the router-soundness lemma. All banked in `notes/WORKLOG_OPUS5.md`.
 
 ## Hard laws (violations = revert)
 

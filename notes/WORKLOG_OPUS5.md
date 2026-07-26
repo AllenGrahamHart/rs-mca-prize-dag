@@ -471,3 +471,108 @@ spent, and no further worker-authority work will change it.
 **The next session should not re-derive this.** It should open with the user's
 answer to the standing decision (authorize (1,5) at ~238 CPU-h under CR-003, or
 name a new-algebra cell), and then grind that one thing.
+
+---
+
+## 2026-07-26 — session 6: the common-zero budget bound (CZB)
+
+**CENSUS LINE:** `math=260(201/36/23)` — unchanged.
+
+New theorem on the bridge node (`ba799ff2`), attack-surface route 3. Needs no
+compute authorization. For four distinct codewords at agreement `>= m` with common
+`u`, `z = |G|`, `b = z - g`:
+
+```text
+4(m - g) <= (n - z) + 6(K - 1 - z),   and at m = 3n/4 - 1, K = n/2:
+3z + 4b <= n - 2.                                              (CZB)
+```
+
+Proof is a two-way count: `agr(c_i,c_j) <= K-1` bounds the pairwise sum, `G`
+contributes `C(4,2)=6` per point, off `G` the four values are not all equal so
+`P(x) in {0,1,2,3}`, and `a_x <= 1 + P(x)` there.
+
+**Consequences** (`n=2^41`, `K=2^40`): `z <= (n-2)/3 = 733,007,751,850` (against the
+trivial pairwise `z <= n/2 - 1`); `d_s >= (2n+2)/3 = 1,466,015,503,702`; `b = 0`
+forced once `z >= 733,007,751,849`.
+
+**Headline: the minimum-support case `d_s = R+2` is now impossible** (`4b <=
+-1.09e12`). That is precisely the case in which `thm:rank-flat-list` appeared to
+force `b=0` — which session 2 flagged as an artifact of pinning `d_j` at the MDS
+floor. (CZB) shows the MDS floor is *unreachable* here, so the artifact could never
+have been instantiated. The two findings agree rather than conflict, which is a
+good sign for both.
+
+The admissible `d_s` band shrinks from `[n/2, n]` to `[2n/3, n]`. Sharpness: the
+step-2 pairwise bound is **tight on 11 of the 12** banked F_17 witnesses, so (CZB)
+is essentially optimal for this argument rather than lossy.
+
+Not a closure: does not decide `s=2` vs `s=3`; `b=0` only in the high-`z` regime.
+Node stays TARGET.
+
+### Standing position (unchanged)
+
+23 TARGETs. Cheapest closure on the board is the (1,5) finish, ~238 CPU-h, 46.44%
+banked, requiring CR-003 authorization the worker cannot give. Everything else is
+multi-session new algebra. Sessions 5 and 6 each paid a real piece of that algebra
+(router soundness in general `k`; CZB) without moving the census, which is the
+expected shape of progress here.
+
+**Session 6b — the split-pencil direction pin.** CZB + a fiber count nearly pins
+`s=2`. Distinct members of a base-point-free pencil are coprime, so their `D`-root
+sets are disjoint; every one of the six pairwise differences is min- or
+near-min-weight, so with `Ddir` distinct difference-directions,
+`Ddir*(K-2-z) <= n`. Against CZB's `z <= (n-2)/3`: at `Ddir=6` the window is **two
+values**, and both force **`b = 0`** — route 3 proved outright in the generic `s=2`
+case, with `d_s` sitting exactly at the `(2n+2)/3` floor. Residual: `Ddir in
+{3,4,5}` (opposite sides of the quadrangle parallel), now a finite affine-plane
+configuration question rather than a coding one. Welds the bridge to M-1: `(DIR)`
+is the same split-pencil fiber count as `(MI2)`.
+
+**Session 6c — direction count classified.** The `Ddir` residual is now a settled
+finite affine fact: normalizing `P_0=0`, `C = alpha A + beta B`, the only possible
+coincidences among the six difference directions are `beta=1`, `alpha=1`,
+`alpha+beta=0`; all three at once forces `2=0`, so in odd characteristic
+**`Ddir in {4,5,6}` and `Ddir=3` is impossible**, with `Ddir=4` occurring for
+exactly three field-independent configurations `(alpha,beta) in {(1,1),(1,-1),(-1,1)}`
+(the parallelogram and its two relatives). Brute-forced over `p in {5..23}`.
+So the `s=2` route is: `Ddir=6` closed (b=0), residual `Ddir in {4,5}`.
+**Correction recorded:** I nearly banked a strengthening `Ddir*(K-2-z) <= n-z` via
+`R_dir subset D\G`, which would have excluded `Ddir=6` outright — it is FALSE,
+since a pencil member's root may lie in the base locus. Each point of `G` belongs
+to exactly one direction, so `sum|R_dir| <= n` and there is no improvement. Caught
+before committing.
+
+**Session 6d — `s=2` fully determined.** `Ddir in {4,5}` excluded. Every
+coincidence is a disjoint-pair proportionality `c_b-c_a = lam(c_d-c_c)` (sharing an
+index would make three points collinear), and under such a relation `a_x=3` forces
+`a_x=4`; since `a_x=4` means `x in G`, off `G` we get `a_x <= 2` rather than `<= 3`.
+Re-running the CZB budget with that sharper pointwise bound gives
+`4b <= 2z-n+4`, hence `z >= (n-4)/2`, contradicting CZB's `z <= (n-2)/3` for every
+`n > 8` (they miss by 3.67e11 at the official row). So `Ddir = 6` always, and
+
+    s=2  =>  Ddir=6,  b=0,  z in {733007751849, 733007751850},
+             d_s in {1466015503702, 1466015503703} (the (2n+2)/3 floor).
+
+Attack-surface route 3 is now FULLY paid: `b=0` in the `s=2` case
+unconditionally. Residual for the bridge: the `s=3` case (cap 8, compilers cannot
+bite) and the chamber-to-`s` map itself.
+
+**Session 6e — budget decision + a self-inflicted fence.** User settled the
+standing question: *no budget for big Modal runs*; small `<60s` experiments only,
+and **explicitly no chaining them to complete massive computations**. So (1,5),
+(1,6), (2,7) and every other census are OFF; the worker's lane is new algebra with
+small route-DECIDING checks (Decision-5's TIME RULE). Census-completion is simply
+not a route available to this worker — recorded in the brief so it is not
+re-proposed.
+
+Then killed my own recommendation. The composition/divisibility route to excluding
+`s=2` **does not work**: carrying the `B^6` through, `theta = prod Q_i / B^6` with
+`gcd(Q_i,B)=1`, so every finite pole has multiplicity `6*mult_B` — divisible by 6
+automatically — and at infinity all three degree cases (`deg A >, <, =` `deg B`)
+give either a pole of order `6(d - deg B)`, no pole, or a zero. The divisibility is
+structural and says nothing about `n`; 74 admissible `(degW,degE,k)` triples
+survive. Fenced in the node.
+
+Live frame is unchanged and still good: the six-fiber covering of the `2^41` coset.
+The next attack must use the **multiplicative** structure (`psi^{-1}(Lambda)` is a
+`mu_{2^41}`-coset), not ramification.
