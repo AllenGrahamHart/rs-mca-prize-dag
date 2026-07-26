@@ -8,25 +8,49 @@ following the plan-of-record md files listed below. The critical DAG (`dag.json`
 is the single source of truth and the end state is a clean, all-green critical
 DAG that exactly mirrors the joint dependency graph (then Lean).
 
-## TERMINAL CONDITION — read before anything else
+## TERMINAL CONDITION — fixed, not mine to change
 
-**This goal is complete ONLY when both prize problems are fully resolved.**
-Machine-checkable form: `tools/ramguard tiny -- python3 tools/verify_orbit_census.py`
-reports the MATH ORBIT with **0 TARGET and 0 CONDITIONAL** — every node PROVED,
-including the roots `mca_grand` and `list_grand`, each with its full artifact
-chain validator-green. (Session 1 baseline: 260 = 201/36/23 — i.e. **59 nodes of
-mathematics remain**.) Until that census line is all-PROVED:
+**Complete ONLY when both prize problems are fully resolved:**
+`tools/ramguard tiny -- python3 tools/verify_orbit_census.py` reports the MATH
+ORBIT with **0 TARGET and 0 CONDITIONAL**. That is the finish line and it does not
+move.
 
-- Finishing the priority queue is **not** completion — the queue is a work plan,
-  one wave of many. When items close, dead-end, or get deprioritized, **re-derive
-  the next queue** from the ledger + roadmap and continue.
-- A blocked lane means **switch lanes**, not stop (the roadmap has tracks
-  N/A/B/C/H precisely so there is always a live front).
-- A session may end for exactly three reasons: budget/context exhaustion, blocked
-  on input only the user can provide, or user interrupt. It ends with a worklog
-  entry giving the census line and the derived next queue — **never with a claim
-  that the goal is complete.** Do not write "complete", "done", or "goal
-  achieved" about the mission unless the census line above shows 0/0.
+## HOW I OPERATE (this section is MINE to evolve — user-sanctioned 2026-07-26)
+
+**The census is a COMPLETION metric, not a progress metric — do not report it as
+failure.** Calibration, measured 2026-07-26: Codex ran a full autonomous session
+(dozens of commits, a complete Mersenne-cubic grind chain) and its math-orbit
+census is *identical* to ours, `260 = 201/36/23`. The 23 leaves are the LAST things
+to fall. Real progress lives in the ~1,000-node proved substrate underneath them
+and in how narrow the residuals get. Report the census as a datum, once, and move on.
+
+**Per-session progress metric (report these in the worklog instead):**
+1. supporting nodes PROVED / minted;
+2. residuals narrowed — state the before and after;
+3. route fences banked (a killed route is progress: it is search space removed);
+4. upstream PRs opened;
+5. Codex output harvested/audited.
+
+**Standing operating rules:**
+- **Lane-switch rule.** Two consecutive dissolved results on one target → switch
+  target, or switch to verification-heavy work (replays, censuses, audits of Codex,
+  mutation controls). Going in circles is a signal to change lane, never to stop.
+- **Error-rate rule.** Novel algebra is high-risk when context is thin; cheap
+  checkable work is not. Match the task to the reliability available. A false PROVED
+  propagates through every node wired downstream — a fail-closed verifier will
+  happily certify a wrong pin.
+- **Mint the fence.** When a route dies, bank it with its reason. Four such fences
+  on one node is a well-mapped node, not a failure.
+- **PRs: open directly** for routine well-scoped items (exports, replay packets,
+  register updates). Surface first ONLY for: red-closure claims, co-authorship,
+  corrections to Przemek's results, contributor-lane touches.
+- **Compute:** route-deciding only, <60s, logged in `PRIZE_COMPUTE_REQUESTS.md`.
+  No large Modal runs (no budget); never chain small runs to fake a census.
+- **Lean:** deferred until a target is both stable and load-bearing. Not the
+  crowded upstream lanes (holmbuar 55 Lean PRs, LegaSage 29, us 2).
+- **Sessions end** on context exhaustion or genuine user-only blockers — with a
+  worklog entry giving the progress metric and the next queue. Never with a
+  completion claim.
 
 **Roles:** Fable = planner/auditor (roadmap, decision queue, Codex wave audits,
 final say on critical status flips). **Opus 5 (you) = repo worker** — execute the
