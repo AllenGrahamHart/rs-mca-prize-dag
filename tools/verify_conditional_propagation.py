@@ -11,13 +11,13 @@ Claim, in three parts, all pinned here:
      nothing off-orbit is hiding in the propagation.
   3. Every open node NAMED in a CONDITIONAL's own prose is an ancestor (a wired
      hypothesis), an ev-parent (wired evidence), or a descendant (a benign
-     consumer back-reference) -- EXCEPT for a pinned list of 12 mentions, each
+     consumer back-reference) -- EXCEPT for a pinned list of 13 mentions, each
      audited 2026-07-26 and found explicitly fenced as non-consumed, historical,
      or parenthetical.  A NEW unrelated mention fails this check and forces a
      re-audit, because that is exactly how an unwired hypothesis would appear.
 
 Consequence: the remaining mathematics of the math orbit is exactly its TARGETs.
-The Convergence Ledger's "Definition of DONE" second conjunct ("38 CONDITIONALs
+The Convergence Ledger's "Definition of DONE" conditional-status conjunct
 discharged against a deduped joint hypothesis set") is IMPLIED by the first on our
 side of the tree -- there is no separate hypothesis set of ours left to dedup.
 
@@ -37,8 +37,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 GRANDS = {"mca_grand", "list_grand"}
-EXPECTED_TARGETS = 23
-EXPECTED_CONDITIONALS = 36
+EXPECTED_TARGETS = 25
+EXPECTED_CONDITIONALS = 45
 EXPECTED_ROUNDS = 8
 
 # Audited 2026-07-26.  Each entry: (conditional, mentioned open node, why benign).
@@ -49,6 +49,7 @@ AUDITED_UNRELATED = {
     ("knife_edge_census", "census_dodge_selection"),
     ("list_adjacency_closing", "ww_row_envelope_clause"),
     ("list_grand", "rate_half_band_closure"),
+    ("zone_b", "e1_random_prime_model"),
     ("u1_x4_direct_column_budget", "u1_pullback_dichotomy"),
     ("x4_exactlist_staircase_split", "u1_pullback_dichotomy"),
     ("xr_clean_residual_any_gate", "rigidity_kernel"),

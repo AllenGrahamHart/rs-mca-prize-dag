@@ -603,14 +603,15 @@ identifications without a machine-verified chain.
 ## 4. Board anatomy
 
 - **Counts** (refreshed from `dag.json`, the single source of truth; pinned by
-  `tools/verify_orbit_census.py`): critical surface 201 PROVED / 36 CONDITIONAL /
-  23 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
+  `tools/verify_orbit_census.py`): critical surface 190 PROVED / 45 CONDITIONAL /
+  25 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
   grand challenges {`mca_grand`, `list_grand`} = **260** nodes. *(Q0, 2026-07-26:
   this line previously read "req-closure of `prize` = 260" — wrong root. The
-  closure of `prize` is the* **submission orbit** *= 275 = 213/38/24, i.e. the math
+  closure of `prize` is the* **submission orbit** *= 275 = 202/47/26, i.e. the math
   orbit plus a 15-node packaging spine.)* The separate submission dossier is a
   target artifact rather than a mathematical leaf — it is the submission orbit's
-  24th TARGET and does not appear in the 23.
+  26th TARGET and does not appear in the 25. The 2026-07-26 E1 certificate
+  false-green audit accounts for the delta from the earlier `201/36/23` pin.
 - **Wired bottlenecks** (no alt, no upstream substitute):
   `l1_mixed_petal_amplification`, `rate_half_list_adjacent_crossing`,
   `rate_half_band_closure`, + the dossier. There is NO MCA-only resolution
@@ -618,7 +619,7 @@ identifications without a machine-verified chain.
 - **The true critical path:** `l1_mixed_petal_amplification` — in the
   irreducible core under every wiring including the RK world, wired into
   both grands, and the longest-stalled core leaf.
-- **Minimal win sets:** unconditional = all 23 mathematical leaves + dossier
+- **Minimal win sets:** unconditional = all 25 mathematical leaves + dossier
   (pure AND). `list_grand` alone = {l1, adjacent_crossing}, closing its five
   conditional ancestors. The former `17/20` RK-prune and direct-prune counts
   predated the N11 truth ruling and are retired pending a fresh route-surgery
@@ -628,9 +629,9 @@ identifications without a machine-verified chain.
   preserve `(D,kappa)` and hence the RS rate. The clean-rate MCA/list
   milestone therefore excludes both rate-half mathematical leaves. The global
   all-rate F1 dependency remains correct for the full prize. On the corrected
-  board the clean-rate milestone contains 21 of the 23 mathematical leaves;
+  board the clean-rate milestone contains 23 of the 25 mathematical leaves;
   the two excluded leaves are the rate-half band and list-adjacent targets.
-- **Concentration risk:** 12 of 23 leaves and 3 of 5 demotion triggers live
+- **Concentration risk:** 12 of 25 leaves and 3 of 5 demotion triggers live
   in the dli lane behind one req edge. STANDING D2 CAP: dli receives at most
   one-third of any phase's effort; any demotion event freezes further dli
   spend for one full phase while the B-WEAK-direct re-pose is drafted from
@@ -699,7 +700,7 @@ dimension cut. The printed moment floors apply unchanged only at `tau=1`;
 specialized Route-D no-go packets remain parked until they have an exact
 current local consumer. N5 DONE: the Conflict-4 audit proves that F1 pole/tower
 descent preserves the rate, so rate-half adjacency is not a hidden clean-rate
-premise; the current clean milestone is 21/23 mathematical leaves. N6 harness
+  premise; the current clean milestone is 23/25 mathematical leaves. N6 harness
 debt: xr_highcore top-level verification DONE (six row pins, both currencies,
 paid/open rank tables, 28 proved inputs, and 10 contract mutations); the KB
 #107 lightweight-certificate repair is DONE. The harness-coverage sweep is
@@ -753,6 +754,19 @@ clean full-suite result.
 The formerly artifact-free `xr_strip_classification_rungs` packet and exact
 QA.22 checker remain restored. Computation claims still require a pinned
 result plus an independent checker; procedure totality is not a row result.
+
+N12 DONE, E1 CERTIFICATE FALSE-GREEN CORRECTION: the two purported folded
+certificate leaves are restored to `TARGET`. The `N'=128` record consisted of
+rounded fpylll output with no exact transcript, completion flag, lower-bound
+certificate, or independent checker. The `N'=256` DAG entry had silently
+substituted an almost-all-primes density estimate for the complete named-field
+zero-vector certificate still consumed by its `req` edge. These are evidence
+and a quantifier mismatch, not proofs. Nine automatic consumers regress to
+`CONDITIONAL` through `mca_unsafe`, giving the current `190/45/25` math orbit.
+`tools/auto_discharge.py` is now genuinely regression-to-fixpoint and checks
+failed `gate:any` alternatives; reversed-node-order and alternative-gate tests
+are banked. No Modal job was launched. See
+`E1_CERTIFICATE_FALSE_GREEN_AUDIT_20260726.md`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it

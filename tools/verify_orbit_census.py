@@ -7,18 +7,18 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  260 = 201 PROVED / 36 CONDITIONAL
-                  / 23 TARGET.  This is what orbit/critical_dag.json, the radial
+                  nodes {mca_grand, list_grand}.  260 = 190 PROVED / 45 CONDITIONAL
+                  / 25 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
                   and verify_critical_harness_coverage.py all measure.  Its 23
-                  TARGETs are the "23 mathematical leaves" of the roadmap.
+                  TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  275 = 213 / 38 / 24.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  275 = 202 / 47 / 26.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
-                  analysis (24 open dominators == the 24 submission-orbit TARGETs).
+                  analysis (26 open dominators == the 26 submission-orbit TARGETs).
 
 Neither census is stale; 275 - 260 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
@@ -40,9 +40,10 @@ ROOT = Path(__file__).resolve().parents[1]
 GRANDS = {"mca_grand", "list_grand"}
 SUBMISSION_ROOT = "prize"
 
-# Q0 census, 2026-07-26, at prize master dd9b862d (dag.json: 1222 nodes).
-EXPECTED_MATH = {"PROVED": 201, "CONDITIONAL": 36, "TARGET": 23}
-EXPECTED_SUBMISSION = {"PROVED": 213, "CONDITIONAL": 38, "TARGET": 24}
+# E1 false-green correction, 2026-07-26, from Codex pin a938a37b. Two
+# certificate leaves returned to TARGET and nine consumers to CONDITIONAL.
+EXPECTED_MATH = {"PROVED": 190, "CONDITIONAL": 45, "TARGET": 25}
+EXPECTED_SUBMISSION = {"PROVED": 202, "CONDITIONAL": 47, "TARGET": 26}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no
@@ -67,11 +68,11 @@ EXPECTED_DELTA = {
 }
 
 # The one TARGET on the submission spine is packaging, not mathematics: this is
-# why "24 TARGETs" and "23 mathematical leaves" are both correct sentences.
+# why the submission orbit has one more TARGET than the mathematical orbit.
 NON_MATH_TARGET = "submission_quality_paper_dossier"
 
 # ...and the two CONDITIONALs on the spine are likewise non-mathematical, so a
-# conditional-dedup ledger over "the 38" must account for 36 mathematical ones.
+# conditional-dedup ledger over the 47 must account for 45 mathematical ones.
 NON_MATH_CONDITIONALS = {"prize", "packaging"}
 
 
@@ -152,11 +153,14 @@ def main() -> int:
     if spine_conditionals != NON_MATH_CONDITIONALS:
         errors.append(f"submission-spine CONDITIONALs drift: {sorted(spine_conditionals)}")
 
-    # The roadmap phrase "23 mathematical leaves" is an arithmetic consequence,
+    # The roadmap's mathematical-leaf count is an arithmetic consequence,
     # not an independent count: assert it rather than trusting prose.
     math_targets = sorted(i for i in math_ids if nodes[i]["status"] == "TARGET")
-    if len(math_targets) != 23:
-        errors.append(f"mathematical-leaf count drift: {len(math_targets)} != 23")
+    if len(math_targets) != EXPECTED_MATH["TARGET"]:
+        errors.append(
+            "mathematical-leaf count drift: "
+            f"{len(math_targets)} != {EXPECTED_MATH['TARGET']}"
+        )
     if NON_MATH_TARGET in math_targets:
         errors.append(f"{NON_MATH_TARGET} leaked into the math orbit")
 

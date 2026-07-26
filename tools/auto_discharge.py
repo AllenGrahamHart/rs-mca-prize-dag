@@ -26,6 +26,46 @@ def node_folder(node_id, root=ROOT):
     return next((folder for folder in candidates if os.path.isdir(folder)),
                 os.path.join(root, "nodes", node_id))
 
+
+def predicates_green(node_id, nodes, reqs, alts):
+    """Return whether every predicate used by an auto-discharge is green."""
+    node = nodes[node_id]
+    req_statuses = [nodes[u]["status"] for u in reqs.get(node_id, [])
+                    if u in nodes]
+    alt_statuses = [nodes[u]["status"] for u in alts.get(node_id, [])
+                    if u in nodes]
+    gate_any = node.get("gate") == "any" and bool(alt_statuses)
+    return (all(status in GREEN for status in req_statuses)
+            and (not gate_any or any(status in GREEN for status in alt_statuses)))
+
+
+def regress_to_fixpoint(nodes, reqs, alts, root=ROOT):
+    """Regress stale auto-discharges independent of the JSON node ordering."""
+    regressed = []
+    changed = True
+    while changed:
+        changed = False
+        for node_id, node in nodes.items():
+            if node["status"] not in GREEN:
+                continue
+            artifact = os.path.join(
+                node_folder(node_id, root),
+                "proof.md" if node["status"] == "PROVED" else "sketch.md",
+            )
+            if not os.path.exists(artifact):
+                continue
+            with open(artifact, encoding="utf-8") as handle:
+                is_auto_discharged = "(auto-discharged)" in handle.read()
+            if not is_auto_discharged or predicates_green(
+                    node_id, nodes, reqs, alts):
+                continue
+            node["status"] = "CONDITIONAL"
+            os.remove(artifact)
+            regressed.append(node_id)
+            changed = True
+            print(f"regressed {node_id} -> CONDITIONAL (predicate left green)")
+    return regressed
+
 def main():
     d = json.load(open(DAG))
     nodes = {n["id"]: n for n in d["nodes"]}
@@ -34,19 +74,9 @@ def main():
         (reqs if e.get("kind", "req") == "req" else alts if e.get("kind") == "alt"
          else {}).setdefault(e["to"], []).append(e["from"]) if e.get("kind", "req") in ("req", "alt") else None
     # REGRESSION SWEEP first: an auto-discharged node whose predicates are
-    # no longer all green goes back to CONDITIONAL (downgrades propagate).
-    for v, n in nodes.items():
-        if n["status"] not in GREEN:
-            continue
-        art = os.path.join(node_folder(v),
-                           "proof.md" if n["status"] == "PROVED" else "sketch.md")
-        if not (os.path.exists(art) and "(auto-discharged)" in open(art).read()):
-            continue
-        rk = [nodes[u]["status"] for u in reqs.get(v, []) if u in nodes]
-        if rk and any(s0 not in GREEN for s0 in rk):
-            n["status"] = "CONDITIONAL"
-            os.remove(art)
-            print(f"regressed {v} -> CONDITIONAL (predicate left green)")
+    # no longer all green goes back to CONDITIONAL. Iterate to a fixpoint so
+    # the result is independent of the ordering of nodes in dag.json.
+    regress_to_fixpoint(nodes, reqs, alts)
     flipped, changed = [], True
     while changed:
         changed = False
