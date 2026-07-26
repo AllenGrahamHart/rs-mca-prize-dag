@@ -561,3 +561,31 @@ a theorem. Verified by the degree bookkeeping above.
 
 Live routes remain: the `(MI2)` minimal-index cap and the `T <= 4e+1` slope cap
 imported from the M-1 lane against a six-member totally-split pencil at `d ~ n/6`.
+
+#### The (MI2) import is SATURATED, not violated (2026-07-26)
+
+Executed. The transferable content of the M-1 minimal-index machinery is its
+incidence count, and here it reads: `T` totally-`D`-split members of a pencil, each
+of degree `d`, have pairwise disjoint root sets inside `D`, so
+
+```text
+T * d <= |D| = n,     i.e.   T <= n/d.
+```
+
+At `d ~ n/6` this gives `T <= 6` — and the configuration has **exactly** `T = 6`.
+The bound is **saturated, not violated.** No contradiction is available from the
+count, which is precisely why the six-fiber configuration survives counting
+arguments in the first place (and why `z` was pinned so sharply: the pin *is* this
+count run backwards).
+
+The literal `T <= 4e+1` slope cap of the strict `A=3` ledger does **not** transfer:
+it is derived for a Hankel *kernel* pencil of parameter degree `e` with `A = 3`,
+`s = 0`, and its constants depend on that setting. Our pencil is a plain linear
+one (`e = 1` in that notation), and reading `T <= 5` off it would be a false
+import — the two pencils are analogous in mechanism, not identical in hypotheses.
+
+**Status.** Every counting route to excluding `s = 2` is now closed: the count is
+tight. What remains is an *equality-case* problem — classify the configurations
+attaining `T*d = n` with the root sets partitioning a `mu_{2^41}`-coset. That is
+the same genre as the M-1 sharp-cap stratum `h = 0`, which is also an equality
+case, and is the honest reason both lanes are hard at the same point.
