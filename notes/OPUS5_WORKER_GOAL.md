@@ -81,8 +81,22 @@ compute the worker cannot authorize, or (b) multi-session new algebra. Cheapest
 closure on the whole board is the (1,5) finish: **~238 CPU-h, 46.44% banked** —
 CR-003 makes that a contributor request needing the USER's authorization.
 
-- **Q1 (needs user): authorize (1,5)** under CR-003, or name a lane.
-- **Q2 (worker authority, RECOMMENDED START): finish the `s=2` exclusion.**
+- ~~**Q1: authorize (1,5)**~~ **DECIDED 2026-07-26 — NO.** User: *"I don't have the
+  budget for big modal runs atm"*, *"you can run small experiments that complete in
+  <60s"*, *"don't just chain together loads of these to complete massive
+  computations — limit yourself to cheap high value modal runs"*. So the (1,5)
+  finish (~238 CPU-h), (1,6), (2,7) and every other census is **OFF**, and
+  chaining sub-60s runs to fake a census is **explicitly barred**. The lane is
+  **new algebra**, with small route-DECIDING experiments only (which is
+  Decision-5's TIME RULE anyway). Census-completion is not a route this worker has.
+- ~~**Q2: the composition/divisibility route to `s=2`**~~ **DEAD 2026-07-26** — I
+  recommended it, then killed it: the `6`-divisibility at infinity is structural
+  (it comes from `B^6`), automatic in all three degree cases, and carries no
+  arithmetic information about `n`. Fenced in the node. The six-fiber covering
+  reduction still stands; a live attack must use the **multiplicative** structure
+  of `D` (that `psi^{-1}(Lambda)` is a coset of `mu_{2^41}`), not ramification
+  bookkeeping.
+- **Q2' (worker authority, RECOMMENDED START): `s=2` via the coset structure.**
   Reduced to a bounded local question: `theta = rho o psi` factors through a
   degree-6 map and `theta^{-1}(0) = D` up to 8 points; `rho` is totally ramified
   over infinity with index 6 while `n = 2^41` is not divisible by 6. Show no

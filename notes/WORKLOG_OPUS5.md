@@ -556,3 +556,23 @@ Re-running the CZB budget with that sharper pointwise bound gives
 Attack-surface route 3 is now FULLY paid: `b=0` in the `s=2` case
 unconditionally. Residual for the bridge: the `s=3` case (cap 8, compilers cannot
 bite) and the chamber-to-`s` map itself.
+
+**Session 6e — budget decision + a self-inflicted fence.** User settled the
+standing question: *no budget for big Modal runs*; small `<60s` experiments only,
+and **explicitly no chaining them to complete massive computations**. So (1,5),
+(1,6), (2,7) and every other census are OFF; the worker's lane is new algebra with
+small route-DECIDING checks (Decision-5's TIME RULE). Census-completion is simply
+not a route available to this worker — recorded in the brief so it is not
+re-proposed.
+
+Then killed my own recommendation. The composition/divisibility route to excluding
+`s=2` **does not work**: carrying the `B^6` through, `theta = prod Q_i / B^6` with
+`gcd(Q_i,B)=1`, so every finite pole has multiplicity `6*mult_B` — divisible by 6
+automatically — and at infinity all three degree cases (`deg A >, <, =` `deg B`)
+give either a pole of order `6(d - deg B)`, no pole, or a zero. The divisibility is
+structural and says nothing about `n`; 74 admissible `(degW,degE,k)` triples
+survive. Fenced in the node.
+
+Live frame is unchanged and still good: the six-fiber covering of the `2^41` coset.
+The next attack must use the **multiplicative** structure (`psi^{-1}(Lambda)` is a
+`mu_{2^41}`-coset), not ramification.
