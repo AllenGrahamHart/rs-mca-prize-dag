@@ -471,3 +471,48 @@ spent, and no further worker-authority work will change it.
 **The next session should not re-derive this.** It should open with the user's
 answer to the standing decision (authorize (1,5) at ~238 CPU-h under CR-003, or
 name a new-algebra cell), and then grind that one thing.
+
+---
+
+## 2026-07-26 — session 6: the common-zero budget bound (CZB)
+
+**CENSUS LINE:** `math=260(201/36/23)` — unchanged.
+
+New theorem on the bridge node (`ba799ff2`), attack-surface route 3. Needs no
+compute authorization. For four distinct codewords at agreement `>= m` with common
+`u`, `z = |G|`, `b = z - g`:
+
+```text
+4(m - g) <= (n - z) + 6(K - 1 - z),   and at m = 3n/4 - 1, K = n/2:
+3z + 4b <= n - 2.                                              (CZB)
+```
+
+Proof is a two-way count: `agr(c_i,c_j) <= K-1` bounds the pairwise sum, `G`
+contributes `C(4,2)=6` per point, off `G` the four values are not all equal so
+`P(x) in {0,1,2,3}`, and `a_x <= 1 + P(x)` there.
+
+**Consequences** (`n=2^41`, `K=2^40`): `z <= (n-2)/3 = 733,007,751,850` (against the
+trivial pairwise `z <= n/2 - 1`); `d_s >= (2n+2)/3 = 1,466,015,503,702`; `b = 0`
+forced once `z >= 733,007,751,849`.
+
+**Headline: the minimum-support case `d_s = R+2` is now impossible** (`4b <=
+-1.09e12`). That is precisely the case in which `thm:rank-flat-list` appeared to
+force `b=0` — which session 2 flagged as an artifact of pinning `d_j` at the MDS
+floor. (CZB) shows the MDS floor is *unreachable* here, so the artifact could never
+have been instantiated. The two findings agree rather than conflict, which is a
+good sign for both.
+
+The admissible `d_s` band shrinks from `[n/2, n]` to `[2n/3, n]`. Sharpness: the
+step-2 pairwise bound is **tight on 11 of the 12** banked F_17 witnesses, so (CZB)
+is essentially optimal for this argument rather than lossy.
+
+Not a closure: does not decide `s=2` vs `s=3`; `b=0` only in the high-`z` regime.
+Node stays TARGET.
+
+### Standing position (unchanged)
+
+23 TARGETs. Cheapest closure on the board is the (1,5) finish, ~238 CPU-h, 46.44%
+banked, requiring CR-003 authorization the worker cannot give. Everything else is
+multi-session new algebra. Sessions 5 and 6 each paid a real piece of that algebra
+(router soundness in general `k`; CZB) without moving the census, which is the
+expected shape of progress here.
