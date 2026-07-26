@@ -538,3 +538,26 @@ between the list lane and the MCA lane at this node.
 **Next step (recommended):** import the minimal-index budget machinery and ask
 whether it caps the number of totally-split members of a degree-`d` pencil below
 six at `d ~ n/6`. If it does, `s = 2` dies and `s = 3` follows.
+
+#### Fence: the log-derivative degree count is vacuous (2026-07-26)
+
+Attempted on the equivariant normal form `prod_i Q_i = beta X^{j_0}(X^n - c)`.
+Taking the logarithmic derivative and clearing,
+
+```text
+sum_i Q_i' prod_{j != i} Q_j  =  beta X^{j_0-1} [ (j_0+n) X^n - j_0 c ].
+```
+
+The right side has degree `j_0 - 1 + n = 6d - 1` (the leading coefficient is
+`(j_0+n)w != 0`, since `char > n + 4`). The left side ALSO has degree exactly
+`6d - 1`, because each summand is `deg Q_i' + sum_{j!=i} deg Q_j = (d-1) + 5d`.
+The two match identically — **no contradiction, and none is available from this
+count.**
+
+Recorded because the count *looks* like it closes: if one drops the `Q_i'` factor
+and writes `sum_i prod_{j != i} Q_j`, the left side appears to have degree `5d`
+against `6d - 1` on the right, "forcing" `d <= 1`. That is a product-rule slip, not
+a theorem. Verified by the degree bookkeeping above.
+
+Live routes remain: the `(MI2)` minimal-index cap and the `T <= 4e+1` slope cap
+imported from the M-1 lane against a six-member totally-split pencil at `d ~ n/6`.
