@@ -93,15 +93,18 @@ quotient differences. Thus every later `s=2` calculation in this file is a
 valid counterfactual consequence but is not a live branch and must not guide
 further work.
 
-The live bridge residue is only the chamber-to-`(d_1,d_2,d_3,b)` transport.
+The proved `rate_half_list_budget_three_common_mismatch_zero` theorem also
+gives `b=0` in every chamber: the selected agreement sets cover `D`, so one
+selected agreement at a common direction zero forces the common value to
+equal `u`. The live bridge residue is therefore only the chamber-to-
+`(d_1,d_2,d_3)` transport.
 The affine-span compiler is already fixed at cap eight and kills no chamber.
-For the rank-flat compiler, a lower bound on `b` (or its exact value) is the
-useful direction: the denominator contains `d_j-t+b`, so an upper bound on
-`b` cannot by itself improve the list cap. Lower generalized-weight bounds
-must also be coupled to enough control of `d_3`, which occurs in both the
-falling-factorial numerator and the denominator. The original sentence that
-lower `d_j` bounds plus an upper `b` bound suffice was therefore incorrectly
-oriented.
+Here `b=0` minimizes every denominator factor `d_j-t+b`, so the mismatch
+theorem narrows the route but gives the rank-flat compiler no extra bite.
+Lower generalized-weight bounds must be coupled to enough control of `d_3`,
+which occurs in both the falling-factorial numerator and the denominator. The
+original sentence that lower `d_j` bounds plus an upper `b` bound suffice was
+therefore incorrectly oriented.
 
 ## Expected sign of the answer (stated up front, so a negative still counts)
 
@@ -581,8 +584,8 @@ affine-rank question.
 
 The route-deciding question is now exact: for each of the nine split-unit and
 four balanced-scroll chambers, express the supports of the one-, two-, and
-three-dimensional subspaces of the codeword direction space, and its common
-mismatch count, in the chamber incidence variables. A chamber closes through
-the harvested rank-flat compiler only if those exact bounds make its printed
-cap at most three. Otherwise this bridge is a route fence and should be
-retired as a closure mechanism.
+three-dimensional subspaces of the codeword direction space in the chamber
+incidence variables and substitute `b=0`. A chamber closes through the
+harvested rank-flat compiler only if those exact bounds make its printed cap
+at most three. Otherwise this bridge is a route fence and should be retired
+as a closure mechanism.
