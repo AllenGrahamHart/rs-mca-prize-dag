@@ -93,3 +93,52 @@ certified `Delta`. Computing and factoring one certificate, then checking
 its characteristics against the official field constraints, is sufficient
 to close the slot. This theorem does not compute `Delta` or prove the slot
 empty.
+
+## PELL FORM + SMALL-ANALOGUE EVIDENCE (2026-07-26)
+
+Rearranging `(QDD5)`/`(QDD7)`, with `P(Y) = prod_i (Y - (lambda rho_i)^2)`:
+
+```text
+P(Y) + 1 = Y A(Y)^2,          i.e.   Y A(Y)^2 - P(Y) = 1.
+```
+
+So the cell asks: **is there a squarefree product of `1024`-th roots of unity which
+becomes `Y` times a perfect square after adding `1`?** Equivalently `P` has 9
+distinct roots in `mu_1024` while `P + 1` has one simple root (at `0`) and four
+double roots (at the roots of `A`) — a Davenport-type "`P` and `P+1` both highly
+structured" condition. Setting `Y = 0` recovers `prod y_i = 1`.
+
+**Two structural facts this form exposes** (invisible in the `R_j` eliminant):
+
+1. `P' = A^2 + 2 Y A A' = A (A + 2 Y A')`. Since `P | Y^1024 - 1` is squarefree,
+   `gcd(P, P') = 1`, hence **`gcd(P, A) = 1` and `gcd(P, A + 2YA') = 1`**.
+2. At every root, `A(y)^2 = y^{-1}`, so `A` maps the nine roots into `mu_2048`;
+   taking the product over all nine and using `prod y_i = 1` gives
+   `(prod_i A(y_i))^2 = 1`, i.e. `Res(P, A) = +/- 1`.
+
+**Small-analogue evidence (route selection only, NOT a proof).** Replacing `1024`
+by a smaller two-power `N` and searching monic quartics `A`:
+
+| `p` | `N` | search | quartics `A` | with `Y A^2 - 1` split into 9 distinct `mu_N` roots |
+|---|---|---|---|---|
+| 17 | 16 | **exhaustive** | 83,521 | **0** |
+| 97 | 32 | sampled | 200,000 | 0 |
+| 193 | 64 | sampled | 200,000 | 0 |
+| 257 | 128 | sampled | 200,000 | 0 |
+
+An independent enumeration from the other side — all 715 product-one 9-subsets of
+`mu_16` — also gives 0.
+
+**Fence, per this node's own standing rule:** *small analogues are falsification and
+route-selection evidence only; a no-hit analogue never proves the official uniform
+statement.* The exhaustive `N = 16` row is a genuine (if tiny) exhaustion; the
+sampled rows cover a vanishing fraction of `p^4` and are weak. This is a reason to
+believe the slot is empty and to keep attacking it, **not** a closure.
+
+**Route fenced (checked, negative): Mason–Stothers cannot work here, at any `N`.**
+With `a = P`, `b = 1`, `c = Y A^2`, pairwise coprime by fact 1 above,
+`deg rad(abc) = deg P + 0 + deg rad(Y A^2) = 9 + 5 = 14` against `max deg = 9`, so
+abc reads `9 <= 13` — satisfied. A contradiction would need `deg rad(abc) <= 9`,
+impossible since `rad(P) = P` already has degree 9. The obstruction is structural,
+not a matter of sharpening constants — and it is the same reason abc failed on the
+`s=2` bridge pencil.

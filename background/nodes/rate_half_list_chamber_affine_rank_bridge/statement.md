@@ -34,9 +34,18 @@ chamber  |-->  (s, d_1, ..., d_s, b),
 where `s = dim_F span{c_1-c_0, c_2-c_0, c_3-c_0}` is the affine rank, `d_j` are
 the generalized Hamming weights of that direction code `C'`, `G` is its
 common-zero set, `z = |G| = n - d_s`, `g` is the number of points of `G` at which
-the common value agrees with `u`, and `b = z - g`. A **lower** bound on `s` and on
-each `d_j`, plus an upper bound on `b`, suffices — those are the only inputs the
-compilers consume.
+the common value agrees with `u`, and `b = z - g`.
+
+> **CORRECTION 2026-07-26 (forced; caught by Codex comparison, verified
+> independently here).** This paragraph originally read *"a lower bound on `s` and
+> on each `d_j`, plus an upper bound on `b`, suffices."* **That orientation is
+> wrong.** In `thm:rank-flat-list` the top weight `d_s` occurs in the falling
+> factorial `d_s^{under s}` (numerator) *and* in the factor `d_s - t + b`
+> (denominator), so the cap is not monotone in `d_s`. Measured at `s=3`, `b=0`,
+> `d_1 = R+1`, `d_2 = R+2`: the cap **rises** from `8` at `d_3 = R+3` to `21` at
+> `d_3 = n`. A lower bound on `d_3` therefore makes the bound *worse*, not better.
+> **Two-sided control of `d_s` is required.** The bridge must deliver an interval
+> for `d_s`, not a floor.
 
 ## Why this is owed
 
@@ -700,3 +709,14 @@ already proves that no such rank-two witness exists. Moreover the rank-flat
 bridge itself is closed above as a route fence. Do not spend a new cycle
 classifying `T*d=n` for this node; the live rate-half list work is the direct
 official-subgroup chamber arithmetic or a stronger list theorem.
+
+#### Independent coarse compiler fence
+
+Canonical's `verify_compiler_cannot_bite.py` supplies a second exact route to
+the same negative conclusion. After the proved `s=3` and `b=0` reductions,
+the razor bracket gives `d_1 in {R+1,R+2}`. Maximizing `d_2` at fixed `d_3`
+and then minimizing over the entire admissible `d_3` interval gives rank-flat
+integer cap six. Thus even without the sharper chamber-specific bounds used
+above, the compiler cannot reach cap three. The script's `s=2` calculation is
+retained only as a counterfactual consistency check because affine-rank
+rigidity has already excluded that branch.

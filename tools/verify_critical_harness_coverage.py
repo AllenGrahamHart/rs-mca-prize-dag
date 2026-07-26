@@ -20,9 +20,10 @@ CRITICAL_DAG = ROOT / "orbit" / "critical_dag.json"
 MANIFEST = ROOT / "tools" / "verifier_manifest.json"
 
 EXPECTED_COUNTS = {
-    "folder-md-only": 147,  # wave-20 census: the 9 N11 demotions left the PROVED set
+    # The WCL parity router added a local verifier to one existing PROVED node.
+    "folder-md-only": 146,
     "legacy-ref-only": 5,
-    "local-verifier": 49,
+    "local-verifier": 50,
 }
 
 EXPECTED_NO_PROOF = {

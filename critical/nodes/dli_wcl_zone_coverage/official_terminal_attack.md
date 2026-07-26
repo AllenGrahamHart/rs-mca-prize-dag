@@ -328,3 +328,39 @@ prime factors of these cyclotomic norms are NOT all == 1 mod n (roots may
 live in extensions; witnessed: 31 divides an order-64 norm). Any
 progression-based trial-division shortcut is UNSOUND. Full factoring or
 certified partial factoring only.
+
+## DESCENT NORMALISATION: THE ODD/EVEN PARITY DICHOTOMY (2026-07-26)
+
+Route-selection theorem over all ten open cells. Artifact:
+`verify_descent_parity_dichotomy.py` (4 mutation controls).
+
+The proved `dli_wcl_ell4_weight9_quartic_divisor_descent` normalises by a **global
+dilation** `lambda = a_w^{-(w^{-1} mod N)}`, `a_w = prod_i rho_i`, needing `w`
+invertible mod `N`. The root order is `N_ell = 512*ell` (512 / 1024 / 2048 at
+`ell = 1 / 2 / 4`) — **a power of two**. So `w` is invertible **iff `w` is odd**:
+
+| | cells | status |
+|---|---|---|
+| **`w` odd** | (1,5) (1,7) (2,7) (2,9) (4,9) (4,11) | global dilation exists and is **unique**; the (4,9) normalisation transfers verbatim |
+| **`w` even** | (1,6) (4,10) — index **2**;  (1,8) (2,8) — index **8** | `w` is a zero divisor mod `N_ell`; `lambda^w = a_w^{-1}` has `g = gcd(w,N_ell)` solutions **when solvable**, and is solvable only on the index-`g` subgroup of `g`-th powers. **Global normalisation unavailable.** |
+
+Two consequences worth having on record:
+
+1. **(1,8) and (2,8) carry an index-8 obstruction — four times worse than (1,6)
+   and (4,10).** They are structurally the hardest even cells, independently of
+   their census sizes. The sizing ledger already flags them as needing "new
+   algebra, not compute"; this says *which* algebra is missing.
+2. **The workaround is already exhibited by the closed cells.** Both (2,5) and
+   (2,6) were closed by **sub-tuple** normalisation — the pair-quadratic and
+   triple-cubic routers fix a selected sub-tuple rather than the global product,
+   and so never need `w` invertible. That is the pattern an even-weight descent
+   must follow; a (4,10) descent statement should be written against a selected
+   sub-tuple from the outset rather than attempting to port (4,9)'s dilation.
+
+**Immediate planning consequence.** `(4,11)` is odd, so the (4,9) quartic-divisor
+descent machinery transfers to it directly and it is the **cheaper of the two open
+ell=4 descent statements**. `(4,10)` needs a new sub-tuple router first. The
+descent lane should therefore be worked `(4,11)` before `(4,10)`, which is the
+reverse of the numeric order the residual list prints them in.
+
+Excludes no cell and closes nothing; this is route selection.
