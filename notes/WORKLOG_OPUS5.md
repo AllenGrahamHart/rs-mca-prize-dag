@@ -378,3 +378,67 @@ Recommendation: **(2)**, specifically the (2,7) router-soundness item — it is 
 only piece of work on the board that is inside worker authority, unblocks a
 33k-CPU-h census rather than consuming it, and needs no money or maintainer
 surface.
+
+---
+
+## 2026-07-26 — session 5: the (2,7) router-soundness obligation, discharged
+
+**CENSUS LINE:** `math=260(201/36/23)` — unchanged. No TARGET closed.
+
+Session 4 ended by recommending the (2,7) router-soundness item and asking the
+user to choose. That was the wrong call: I had just identified it as the one piece
+of work on the board **inside worker authority, needing no compute authorization
+and no maintainer surface**. Waiting for permission I did not need is not being
+blocked. Did it instead (`67eb70ce`).
+
+**Result — a general lemma, all `k`, not just the `k=5` cell that was asked for.**
+Every `(2,w)` router leaves a monic degree-`k` factor whose roots must be tested
+for membership in `mu_M`, `M = 2^t`, by `t` modular squarings. For
+`char F = 0` or `char F > k`, `M = 2^t`, `char != 2`, `f` monic of degree `k`,
+`f(0) != 0`:
+
+```text
+(i)   X^M == 1 (mod f)  <=>  f | X^M - 1  <=>  f SQUAREFREE and every root in mu_M
+(ii)  no false positives
+(iii) false negatives, EXACTLY on non-squarefree f with all roots in mu_M
+(iv)  correct test on arbitrary f is X^M == 1 (mod rad f)
+```
+
+Everything turns on `X^M - 1` being separable, so it has no repeated factor to
+absorb a non-squarefree `f`.
+
+**Why it is the soundness obligation.** The slots are zero-event obligations — the
+census must *exclude* every candidate. A false positive is harmless (it keeps a
+candidate alive for the norm stage); a false negative silently discards one, and a
+discarded candidate is an un-excluded candidate. So the bare doubling test on a
+possibly-non-squarefree `f` makes the emptiness claim **unsound**.
+
+**This retro-explains the closed (2,6) certificate.** Its `510` "structural
+double-zero cases" (the antipodal-mirror family `c = 512+a+b`, handled by the
+power-of-two vanishing-sum lemma rather than by the recurrence) are exactly this
+stratum. That was this obligation being paid — not incidental bookkeeping. A (2,7)
+router at `k=5` owes the same payment and can now cite a general statement instead
+of re-deriving per weight.
+
+Certified on 15,016 polynomials over `(p,M) in {(17,8),(17,16),(97,32)}`, `k=2..5`
+— deterministic spread sample **plus a forced non-squarefree stratum**, since a
+random sample would rarely hit the case the lemma is about. 0 false positives;
+every false negative non-squarefree as (iii) requires; radical test correct
+throughout. Witness: `(X+1)^2` over `F_17`, `M=8` — root `-1` has order `2 | 8` so
+it *is* in `mu_8`, yet `X^8 = 1+9(X+1) != 1 (mod f)`. 4 mutation controls, caught.
+
+Closes no slot: `(2,7)` stays TARGET; the GMP-gcd swap and the 33k CPU-h census
+remain.
+
+### Standing position
+
+The board is 23 TARGETs (session 3). Of these, every one is gated on
+contributor-scale compute or new algebra (session 4 table). The router-soundness
+item was the last piece of *new algebra* identified as both inside worker
+authority and needing no authorization; it is now paid. Remaining new-algebra
+items — the (4,10)/(4,11) descent statements + Delta certificates, the M-1 RNC/split
+question, the bridge rigidity — are multi-session research, not one-sitting work.
+
+**Decision still owed (unchanged from session 4):** authorize the (1,5) finish
+(~238 CPU-h, cheapest closure on the board, 46.44% banked) under CR-003; or direct
+effort at a specific new-algebra cell.
