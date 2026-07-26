@@ -408,3 +408,28 @@ divisibility contradiction does not apply verbatim. Closing `s=2` reduces to:
 
 That is a bounded, purely local question at finitely many points, and it is the
 recommended next step for this node.
+
+#### Caveat for the composition attack (recorded 2026-07-26 — do not skip this)
+
+The tempting execution is: `rho` is totally ramified of index 6 over `infinity`, so
+every multiplicity in `theta^{-1}(infinity)` is divisible by 6; read the pole order
+at `infinity` off `theta = c' W (X^n - c)/E` and conclude `6 | (n + deg W - deg E)`,
+which `6 ∤ 2^41` then obstructs.
+
+**That is wrong as stated.** `theta` is not `c' W (X^n-c)/E`. Since
+`F(u,v) = prod(u - lambda_i v)` is homogeneous of degree 6,
+
+```text
+theta = rho(A/B) = F(A,B)/B^6 = c' W (X^n - c) / (E * B^6),
+```
+
+so the pole divisor carries an extra `B^6`, and `deg theta = 6d` forces a relation
+between `deg A`, `deg B`, `deg W` and `deg E` rather than the naive one. The
+divisibility bookkeeping must be redone with the `B^6` present and split by whether
+`deg A > deg B`, `deg A = deg B`, or `deg A < deg B` (equivalently, whether
+`infinity` is a pole of `psi`, a `lambda_i`-point, or neither).
+
+The obstruction may well survive — `6 ∤ 2^41` is robust and `deg W <= 6`,
+`deg E <= 8` are tight — but it must be derived, not asserted. Anyone continuing
+should start from `theta = prod_i Q_i / B^6` and track the fibre over `infinity`
+honestly.
