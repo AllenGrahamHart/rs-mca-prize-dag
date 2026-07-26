@@ -442,3 +442,32 @@ question, the bridge rigidity — are multi-session research, not one-sitting wo
 **Decision still owed (unchanged from session 4):** authorize the (1,5) finish
 (~238 CPU-h, cheapest closure on the board, 46.44% banked) under CR-003; or direct
 effort at a specific new-algebra cell.
+
+**(4,9) check (session 5 close-out):** confirmed the descent lane does not yield a
+free closure either. `dli_wcl_ell4_weight9_quartic_divisor_descent` and
+`dli_wcl_fixed_divisor_straight_line_lift` are both PROVED and both list the slots
+as consumers — the lift covers (1,5), (1,6), (2,7) and (4,9) — but they reduce
+each slot to a *straight-line divisor certificate* (`Y A(Y)^2 - 1`, `deg A = 4`,
+`b = 4` base variables at (4,9)) that still has to be evaluated. Proved machinery
+pointing at a slot is not a closed slot. No flip available.
+
+### SESSION END — context/budget exhaustion (brief's first permitted reason)
+
+Five sessions. Census `260 = 201/36/23` at start and at end; **no TARGET closed,
+and I am not claiming otherwise.** What was produced: Q0 reconciliation + 3
+verifiers, a renderer determinism fix, the H1/S3 replay (negative), a minted
+bridge node, the M-1 transposed normal form + norm route fence, the A5 registry
+rebuild, C3-3 closed with a negative (the 59 -> 23 re-pricing), and the (2,7)
+router-soundness lemma in general k.
+
+Honest assessment of the five sessions: the infrastructure and analysis are sound
+and several results are load-bearing (notably C3-3, which shrank the measured
+board by 61%, and the router-soundness lemma, which retro-justifies the (2,6)
+certificate's degenerate stratum). But **none of it moved the census**, because
+every one of the 23 remaining leaves is gated on contributor-scale compute or
+multi-session new algebra. That is a property of the board, not of the effort
+spent, and no further worker-authority work will change it.
+
+**The next session should not re-derive this.** It should open with the user's
+answer to the standing decision (authorize (1,5) at ~238 CPU-h under CR-003, or
+name a new-algebra cell), and then grind that one thing.
