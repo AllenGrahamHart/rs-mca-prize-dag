@@ -5254,6 +5254,11 @@ independently, but should not open four incompatible compute frameworks.
   ```
 
   Every equation has total degree at most three.
+- **normalisation scope correction (2026-07-26):** failure of product-one
+  normalisation at even weight does not add a missing router to this request.
+  The proved parity-separated form `F(X)=E(X^2)-XB(X^2)` already gives the
+  exact `(4,10)` descent and converse. The six jobs above are certificate
+  extractions, not descent discovery.
 - **route fence:** a blind affine-Galois census has rigorous class lower
   bounds `6,426,702,047`, `400,062,202,418`, `27,065,242,005,554`,
   `3,031,307,104,622,047`, `81,607,877,807,280,797,271`, and

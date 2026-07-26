@@ -16162,9 +16162,9 @@
     "background/nodes/dli_wcl_ell4_weight11_quintic_divisor_descent/verify.py"
    ],
    "statement": "Let char K = 0 or > 11, omega of exact order 2048. For a reduced signed weight-11 relation rho_i = s_i omega^{e_i} with p_1=p_3=p_5=p_7=0: since gcd(11,2048)=1 with 11^{-1}=931 mod 2048, the global dilation lambda = a_11^{-931} uniquely normalises the product to one. Newton then gives e_1=e_3=e_5=e_7=0 and e_11=1. The odd indices at most 9 are {1,3,5,7,9}, all pinned at w=9; at w=11 they are {1,3,5,7,9,11} and e_9 is FREE. Hence the locator is F(X)=X B(X^2)-(e_9 X^2+1) with B a monic QUINTIC (six parameters, against four at (4,9)), the square locator is G(Y)=Y B(Y)^2-(e_9 Y+1)^2 = prod (Y-(lambda rho_i)^2), monic of degree 11 and dividing Y^1024-1, and the reconstruction is rho=(e_9 y+1)/B(y). The elimination endpoint (Y^1024-1) mod G gives 11 relations R_j in Z[b_0..b_4,e_9], six unknowns. The CONVERSE also holds under the side condition gcd(B(Y), e_9 Y+1)=1 (vacuous at e_9=0): G is squarefree, B is nonzero at every root of G, the eleven reconstructed rho are distinct, pairwise non-antipodal and are exactly F's roots, their product is one because F(0)=-1 identically, the window conditions are recovered from F's missing X^10,X^8,X^6,X^4 terms via Newton, and rho^2 in mu_1024 forces rho in mu_2048 hence the signed form s*omega^e with e<1024. So common-dilation orbits of (4,11) relations are IN BIJECTION with pairs (B,e_9) satisfying the side condition and the divisibility -- the exact analogue of the (4,9) quartic bijection. OWED: the Delta certificate, harder in shape than (4,9)'s at 11 relations in 6 unknowns against 9 in 4.",
-   "attack_surface": "The Delta certificate: show the ideal I=(R_0..R_10) in Z[b_0..b_4,e_9] has no characteristic-zero point and extract a nonzero integer Delta = sum_j H_j R_j. Eleven relations in six unknowns, against nine in four at (4,9).",
+   "attack_surface": "Extract and independently check an explicit nonzero integer Delta identity, factor or otherwise exclude every compatible prime divisor, and close the official characteristic support. Characteristic-zero emptiness and a scheme-equivalent 142-variable, 147-equation cubic lift are already proved by the extended six-slot endpoint.",
    "falsifier": "A monic quintic B and scalar e_9 over an admissible field with G | Y^1024-1 whose reconstruction yields a genuine reduced weight-11 relation satisfying the ell=4 window conditions -- i.e. a live (4,11) vanisher.",
-   "notes": "Minted 2026-07-26 from the descent parity dichotomy: gcd(11,2048)=1 so the (4,9) global-dilation normalisation transfers verbatim, whereas (4,10) is even and obstructed at index 2. This makes (4,11) the cheaper of the two open ell=4 descent statements and it should be worked first, reversing the printed residual order. Subtraction check clean: no upstream prior art for a weight-11 quintic-divisor descent at b13de811."
+   "notes": "Specializes the already proved extended six-slot divisor endpoint to the product-one (4,11) coordinates. The even parity obstruction concerns only that normalization: (4,10) already has its exact E^2-YB^2 descent. Certificate order is (4,9) first because its four-parameter and 114/119 cubic systems are smaller, not because (4,10) lacks a descent. Subtraction check clean: no upstream prior art for this specialized weight-11 coordinate packet at b13de811."
   }
  ],
  "edges": [
@@ -30777,6 +30777,21 @@
    "from": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_extended_six_slot_sparse_divisor_endpoints",
+   "to": "dli_wcl_ell4_weight11_quintic_divisor_descent",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell4_weight9_quartic_divisor_descent",
+   "to": "dli_wcl_ell4_weight11_quintic_divisor_descent",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_newton_short_window_exclusion",
+   "to": "dli_wcl_ell4_weight11_quintic_divisor_descent",
+   "kind": "req"
   },
   {
    "from": "dli_wcl_ell4_weight11_quintic_divisor_descent",

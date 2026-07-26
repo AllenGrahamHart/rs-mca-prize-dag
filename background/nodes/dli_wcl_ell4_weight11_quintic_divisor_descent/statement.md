@@ -3,7 +3,8 @@
 - **status:** PROVED
 - **closure:** proof
 - **consumer:** `dli_wcl_slot_4_11_emptiness`
-- **dependencies:** `dli_wcl_ell4_weight9_quartic_divisor_descent` (the `w=9`
+- **dependencies:** `dli_wcl_extended_six_slot_sparse_divisor_endpoints`,
+  `dli_wcl_ell4_weight9_quartic_divisor_descent` (the `w=9` specialized
   template), `dli_wcl_newton_short_window_exclusion`
 
 Let `K` have characteristic zero or characteristic greater than `11`, containing
@@ -139,10 +140,13 @@ the degeneracy exactly.
 locator `(QQD6)`; divisibility `(QQD7)`; reconstruction `(QQD8)`; and the **full
 converse bijection** above under `(QQD10)`.
 
-**Owed:** the `Delta` certificate — the `(QDD11)` analogue. Show the ideal
-`I = (R_0,...,R_10) subset Z[b_0..b_4, e_9]` has no characteristic-zero point and
-extract a nonzero integer `Delta = sum_j H_j R_j`. Note the shape is harder than
-`(4,9)`'s: **eleven** relations in **six** unknowns, against nine in four.
+**Owed:** an explicit replayable `Delta` certificate and compatible-prime
+exclusion. Characteristic-zero emptiness and existence of a nonzero integer
+certificate are already proved by
+`dli_wcl_extended_six_slot_sparse_divisor_endpoints`. The remaining task is to
+extract and check such an identity, not to prove the ideal properness claim again.
+The direct remainder shape is harder than `(4,9)`'s: **eleven** relations in
+**six** unknowns, against nine in four.
 
 Closes no cell. `dli_wcl_slot_4_11_emptiness` stays TARGET.
 
@@ -154,11 +158,14 @@ in terms: *"This theorem does not compute `Delta` or prove the slot empty."* So 
 (**9 relations in 4 unknowns** against 11 in 6). **Any `Delta` attempt should be
 made at `(4,9)` first;** if it is infeasible there it is certainly infeasible here.
 
-**Why the direct route is infeasible.** `(Y^1024 - 1) mod G` with symbolic `G`
+**Why the direct expanded route is not selected.** `(Y^1024 - 1) mod G` with symbolic `G`
 requires ten repeated squarings of a degree-10 polynomial whose coefficients live in
 `Z[b_0..b_4, e_9]`. Coefficient degrees roughly double per squaring, so the `R_j`
-carry degree on the order of `2^10` in six variables. That is not a computation to
-attempt symbolically, at any budget.
+carry degree on the order of `2^10` in six variables. The banked alternative is
+the scheme-equivalent pruned straight-line lift: `142` variables, `147` equations,
+and maximum total degree three. This does not make certificate extraction cheap,
+but it avoids the claimed coefficient blow-up and is the correct computational
+interface for any future certificate attempt.
 
 **A cleaner equivalent form.** Write `P(Y) = prod_i (Y - y_i)` for the distinct
 roots in `mu_1024`. Then the defining identities rearrange to
@@ -186,6 +193,7 @@ of `P` and `A` would force `P = -1` there), `rad(abc) <= 9 + 1 + 4 = 14` against
 squarefree parts are too large for abc to constrain, which is the same reason it
 failed on the bridge pencil.
 
-**Recommended next step for this lane:** attack the Pell form at `(4,9)` — smaller,
-already fully bijective, and the identity `Y A(Y)^2 - P(Y) = 1` with `P` split over
-`mu_1024` is a self-contained classical question.
+**Recommended next step for this lane:** attack `(4,9)` first because both its
+four-parameter Pell form and its `114`-variable/`119`-equation cubic lift are
+strictly smaller. A future certificate attempt must state which interface it uses;
+failure of direct expanded remainders is not a fence against the sparse lift.

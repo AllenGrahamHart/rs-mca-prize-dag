@@ -2436,3 +2436,36 @@ next route-deciding action: integrate canonical cc979e4b, adjudicate its new
                               WCL descent against the critical frontier, and
                               use a non-compute L1 reduction if returning here
 ```
+
+**2026-07-26, WCL descent reconciliation:** canonical `cc979e4b` correctly
+proves that product-one normalisation is unique at odd weight and obstructed
+at even weight, and adds a useful specialized `(4,11)` coordinate packet.
+Its planning inference was stale: the prior proved
+`dli_wcl_extended_six_slot_sparse_divisor_endpoints` already supplies the
+parity-separated even locator `F(X)=E(X^2)-XB(X^2)`, exact divisor converse,
+and pruned cubic certificate system. Thus `(4,10)` does not need a new
+sub-tuple router. All three `ell=4` leaves are already at explicit
+finite-characteristic certification: `(4,9)` has a `114/119` pruned system,
+`(4,10)` has `129/133`, and `(4,11)` has `142/147`. Direct expanded
+remainders are not the only Delta interface. The correct order starts with
+`(4,9)` because it is smaller; no descent leaf closes from this correction.
+
+Cycle burn-down:
+
+```text
+starting pin: local f3d3e663; canonical cc979e4b; upstream main b13de811
+nodes audited: dli_wcl_ell4_weight11_quintic_divisor_descent;
+               dli_wcl_extended_six_slot_sparse_divisor_endpoints;
+               dli_wcl_zone_coverage
+result: RECONCILED; false missing-(4,10)-router premise removed
+DAG delta: +3 proved dependency edges; no status change; critical math orbit
+           remains 201 PROVED / 36 CONDITIONAL / 23 TARGET
+upstream terminal delta: none; open PRs #1091--#1108 contain no WCL
+                         characteristic certificate
+delta-star bracket movement: 0 bits
+new assumptions: none
+compute spend: none
+next route-deciding action: seek an analytic reduction of the (4,9) Pell/
+                              114-by-119 certificate endpoint; do not duplicate
+                              the already proved descent or launch CR-004 locally
+```
