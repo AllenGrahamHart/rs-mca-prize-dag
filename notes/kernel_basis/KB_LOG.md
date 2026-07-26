@@ -4679,3 +4679,33 @@ reconciles the orbit count to 275 = 213/38/24 (supersedes the
 tool's 201/36/23 display — re-count before packaging). Baseline
 discrepancy + crosswalk implementation await maintainer go
 (the alias-field + JOINT_CROSSWALK build was proposed in-session).
+
+## 184 — 2026-07-24: THE ALIAS LAYER IMPLEMENTED (maintainer-
+## approved shape) — JOINT_CROSSWALK.json + verify_crosswalk.py +
+## 13 dag upstream aliases; NO primary-key renames
+
+Per the in-session naming decision (maintainer: prefer Przemek's
+labels in conversation, keep aliases EVOLVING with his vocabulary,
+programmatic ids UNCHANGED, Lean namespace adopts HIS conventions):
+notes/correspondence/JOINT_CROSSWALK.json minted (31 rows: 4
+IDENTICAL w/ machine-verified chains + stated scopes [F2<->U_Q via
+f2_zero_prefix_q_equivalence, zero-prefix j<char q; L1<->U_list_int
+via l1_exact_shell_fixed_cofactor_prefix_transport at e=0; the
+co-authored cyclic floor; mca_quadratic_prize_rows as HIS];
+11 OVERLAP w/ fences [(S)<->XR "moving-root does NOT pay P-A/P-B";
+Lane L; the dossier<->item (3)]; 1 ANALOGY_ONLY [band_closure <->
+row-sharp-q, WP5 fence, chain=null, never silently promotable];
+16 OURS_ONLY [the dli block "their assembly has no tower" + the
+N11 certificate chain]; 2 HIS_ONLY [(A),(E) w/ "no route — reason"
+per the never-silence rule]). tools/verify_crosswalk.py = the
+identification-discipline validator (IDENTICAL => chain+scope;
+ANALOGY_ONLY => chain=null+fence; JOINT => both keys; status-drift
+detection; alias-consistency vs the additive dag `upstream` field)
+— in the manifest (1115 scripts) and PASSING. 13 nodes carry the
+additive upstream alias {label, relation}; schema-tolerated,
+all pinning verifiers green. FORMAT NOTE: the wave-22 fast-forward
+made Codex's trailing-newline dag serialization the canonical form
+— adopted (the builder preserves it). Upstream delivery of the
+crosswalk mirror stays GATED on maintainer surface + Przemek's
+opt-in (per the ledger). Aliases re-pin per wave with the
+upstream-delta sweep.

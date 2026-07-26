@@ -1,0 +1,611 @@
+{
+ "schema": "joint-crosswalk-v1",
+ "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
+ "provenance": {
+  "our_sha": "da8b9a85",
+  "his_sha": "b13de811"
+ },
+ "rows": [
+  {
+   "our_node": "f2_growing_order_myerson",
+   "his_object": {
+    "label": "U_Q / row-sharp Q atom (K2, Sidon-Fourier payment)",
+    "file": "experimental/grande_finale.tex",
+    "line": "sec:fourier / sec:primitive-q-proof"
+   },
+   "relation": "IDENTICAL",
+   "chain": "f2_zero_prefix_q_equivalence",
+   "scope": "zero-prefix instance, level j < char q; the pruned-vs-raw K2 gap is OPEN",
+   "owner": "JOINT",
+   "nonclaims": [
+    "identifies objects, strengthens no bound",
+    "the wider pruned-atom identification is NOT proved"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "l1_mixed_petal_amplification",
+   "his_object": {
+    "label": "prob:list-completion / U_list_int (arbitrary-word interior)",
+    "file": "experimental/grande_finale.tex",
+    "line": "prob:list-completion"
+   },
+   "relation": "IDENTICAL",
+   "chain": "l1_exact_shell_fixed_cofactor_prefix_transport",
+   "scope": "L1 exact-shell <-> locator-prefix Q fiber at e=0 ONLY",
+   "owner": "JOINT",
+   "nonclaims": [
+    "e>0 and the full amplification statement are NOT identified"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "rate_half_cyclic_rotated_prefix_floor",
+   "his_object": {
+    "label": "integrated cyclic quotient-rotation list floor (co-authored)",
+    "file": "experimental/experiments.tex",
+    "line": "commit 78e67c40"
+   },
+   "relation": "IDENTICAL",
+   "chain": "upstream integration 78e67c40 (attribution trailer)",
+   "scope": "the general theorem + the c=2^33 specialization as integrated",
+   "owner": "US",
+   "nonclaims": [
+    "Lane-L refinements (#1097/#1099/#1101) are downstream contributor work \u2014 RACED"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "mca_quadratic_prize_rows",
+   "his_object": {
+    "label": "thm:intro-prize-rows (four exact full-MCA rows)",
+    "file": "experimental/proximity_prize_results_v4.tex",
+    "line": "thm:intro-prize-rows"
+   },
+   "relation": "IDENTICAL",
+   "chain": "ledgered replay (UPSTREAM_IMPORT_LEDGER row)",
+   "scope": "ours is a replay of HIS theorem",
+   "owner": "HIM",
+   "nonclaims": [
+    "not ours to propose back (upr2 F-A)"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "xr_highcore_collision_count",
+   "his_object": {
+    "label": "(S) prob:mca-spread-routing + spread-core incidence",
+    "file": "experimental/grande_finale.tex",
+    "line": "prob:mca-spread-routing"
+   },
+   "relation": "OVERLAP",
+   "chain": null,
+   "scope": "P-A1 generic 8n^3 + P-A2 nongeneric 16n^3 vs his spread routing",
+   "owner": "JOINT",
+   "nonclaims": [
+    "his moving-root theorem does NOT pay P-A1/P-A2/P-B (arbitrary MDS kernel-ray charts, not proved pencils)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "xr_lowcore_spread_heart",
+   "his_object": {
+    "label": "(S) prob:mca-spread-routing (low-core side)",
+    "file": "experimental/grande_finale.tex",
+    "line": "prob:mca-spread-routing"
+   },
+   "relation": "OVERLAP",
+   "chain": null,
+   "scope": "template-level",
+   "owner": "JOINT",
+   "nonclaims": [],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_h3_dsp8_correlation_bound",
+   "his_object": {
+    "label": "SP/second-moment stratification (Sum N^2 identity)",
+    "file": "experimental/grande_finale.tex",
+    "line": "thm:capg-second-moment lineage"
+   },
+   "relation": "OVERLAP",
+   "chain": null,
+   "scope": "template-level; our F3 objects are OUR assembly's primitive-pair residuals",
+   "owner": "US",
+   "nonclaims": [],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_hge4_norm_gate_count",
+   "his_object": {
+    "label": "SP stratification (HGE4 residuals)",
+    "file": "experimental/grande_finale.tex",
+    "line": "thm:q-implies-sp context"
+   },
+   "relation": "OVERLAP",
+   "chain": null,
+   "scope": "his thm:q-implies-sp subordinates SP to Q; regime-mismatched (p >= n^2 corridor vs deployed p < n^2)",
+   "owner": "US",
+   "nonclaims": [
+    "no transport of our width caps to his deployed rows"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "u2_per_row_certifier",
+   "his_object": {
+    "label": "SP/second-moment stratification",
+    "file": "experimental/grande_finale.tex",
+    "line": "sec:capg"
+   },
+   "relation": "OVERLAP",
+   "chain": null,
+   "scope": "template-level; N11-demoted, open problem",
+   "owner": "US",
+   "nonclaims": [],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "rate_half_list_adjacent_crossing",
+   "his_object": {
+    "label": "prob:list-completion / Lane L (post-Johnson RS list bounds)",
+    "file": "agents.md",
+    "line": "Lane L"
+   },
+   "relation": "OVERLAP",
+   "chain": null,
+   "scope": "our exact 3n/4 crossing is BELOW Johnson (dead for Lane L); our floor is the lane's foundation",
+   "owner": "US",
+   "nonclaims": [
+    "never race #1097/#1099/#1101 (holmbuar, our row/agreement)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "x4_exactlist_staircase_split",
+   "his_object": {
+    "label": "prob:list-completion assembly",
+    "file": "experimental/grande_finale.tex",
+    "line": "prob:list-completion"
+   },
+   "relation": "OVERLAP",
+   "chain": null,
+   "scope": "assembly-level",
+   "owner": "JOINT",
+   "nonclaims": [],
+   "status_ours": "CONDITIONAL",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "submission_quality_paper_dossier",
+   "his_object": {
+    "label": "submission package item (3): reproducibility dossier + formal correspondence files",
+    "file": "experimental/proximity_prize_results_v4.tex",
+    "line": "Interplay section"
+   },
+   "relation": "OVERLAP",
+   "chain": null,
+   "scope": "directly co-deliverable (O-2)",
+   "owner": "JOINT",
+   "nonclaims": [],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "rate_half_band_closure",
+   "his_object": {
+    "label": "finite adjacent-pair conjecture / prob:row-sharp-q",
+    "file": "towards-prize.md",
+    "line": "SS0.4"
+   },
+   "relation": "ANALOGY_ONLY",
+   "chain": null,
+   "scope": "SHAPE-identical only; WP5 verdict: structurally incapable (side + quantifier mismatches)",
+   "owner": "US",
+   "nonclaims": [
+    "the Q <-> band_closure bridge is NOT an identification and is never silently promotable"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": null,
+   "his_object": {
+    "label": "(A) prob:large-owner (row-sharp challenge-image bound)",
+    "file": "experimental/grande_finale.tex",
+    "line": "prob:large-owner"
+   },
+   "relation": "HIS_ONLY",
+   "chain": null,
+   "scope": "nearest of ours = xr_highcore (template-level only)",
+   "owner": "HIM",
+   "nonclaims": [
+    "no route from our tree this cycle \u2014 his-side object, we feed ev only"
+   ],
+   "status_ours": null,
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": null,
+   "his_object": {
+    "label": "(E) prob:mca-exception-routing",
+    "file": "experimental/grande_finale.tex",
+    "line": "prob:mca-exception-routing"
+   },
+   "relation": "HIS_ONLY",
+   "chain": null,
+   "scope": "same exceptional species as our f1_classification/f1_case_pole/ext_lift, different assemblies",
+   "owner": "HIM",
+   "nonclaims": [
+    "no route this cycle"
+   ],
+   "status_ours": null,
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_wcl_slot_1_5_emptiness",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
+   "owner": "US",
+   "nonclaims": [
+    "offered upstream only as the CR-004 contributor register (#1050)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_wcl_slot_1_6_emptiness",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
+   "owner": "US",
+   "nonclaims": [
+    "offered upstream only as the CR-004 contributor register (#1050)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_wcl_slot_1_7_emptiness",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
+   "owner": "US",
+   "nonclaims": [
+    "offered upstream only as the CR-004 contributor register (#1050)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_wcl_slot_1_8_emptiness",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
+   "owner": "US",
+   "nonclaims": [
+    "offered upstream only as the CR-004 contributor register (#1050)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_wcl_slot_2_7_emptiness",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
+   "owner": "US",
+   "nonclaims": [
+    "offered upstream only as the CR-004 contributor register (#1050)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_wcl_slot_2_8_emptiness",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
+   "owner": "US",
+   "nonclaims": [
+    "offered upstream only as the CR-004 contributor register (#1050)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_wcl_slot_2_9_emptiness",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
+   "owner": "US",
+   "nonclaims": [
+    "offered upstream only as the CR-004 contributor register (#1050)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_wcl_slot_4_9_emptiness",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
+   "owner": "US",
+   "nonclaims": [
+    "offered upstream only as the CR-004 contributor register (#1050)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_wcl_slot_4_10_emptiness",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
+   "owner": "US",
+   "nonclaims": [
+    "offered upstream only as the CR-004 contributor register (#1050)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_wcl_slot_4_11_emptiness",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
+   "owner": "US",
+   "nonclaims": [
+    "offered upstream only as the CR-004 contributor register (#1050)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_c1r3_gated_envelope_bound",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
+   "owner": "US",
+   "nonclaims": [
+    "offered upstream only as the CR-004 contributor register (#1050)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_c2pp_joint_reserve",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
+   "owner": "US",
+   "nonclaims": [
+    "offered upstream only as the CR-004 contributor register (#1050)"
+   ],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "generator_economy",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "WCL/ideal-certificate machinery chain (N11-demoted family)",
+   "owner": "US",
+   "nonclaims": [],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "integer_code_distance_cert",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "WCL/ideal-certificate machinery chain (N11-demoted family)",
+   "owner": "US",
+   "nonclaims": [],
+   "status_ours": "TARGET",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "far_pair_separation",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "WCL/ideal-certificate machinery chain (N11-demoted family)",
+   "owner": "US",
+   "nonclaims": [],
+   "status_ours": "CONDITIONAL",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "lattice_cone_certificate",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "WCL/ideal-certificate machinery chain (N11-demoted family)",
+   "owner": "US",
+   "nonclaims": [],
+   "status_ours": "CONDITIONAL",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  }
+ ]
+}

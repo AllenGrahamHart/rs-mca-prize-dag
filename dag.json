@@ -2922,7 +2922,11 @@
    "refs": [
     "experimental/notes/roadmaps/e35_weight2_abundance.md"
    ],
-   "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate u1_pullback_dichotomy was not wired req \u2014 promoted. | FULL-LANE COMPRESSION 2026-07-05: the 7 dli-lane ambers -> REDUCTION_PACKET.md (the composed conditional proof); hypotheses now wired = dli frontier + u2c_giant_tnull_dichotomy (surfaced from prose) + u1_pullback_dichotomy + proved sides. Folders archived at archive/compressed_dli_lane_20260705/. | AMBER AUDIT 2026-07-06: REPAIRED (packet hypothesis list aligned with wired reqs; missing frontier statement.md written). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
+   "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate u1_pullback_dichotomy was not wired req \u2014 promoted. | FULL-LANE COMPRESSION 2026-07-05: the 7 dli-lane ambers -> REDUCTION_PACKET.md (the composed conditional proof); hypotheses now wired = dli frontier + u2c_giant_tnull_dichotomy (surfaced from prose) + u1_pullback_dichotomy + proved sides. Folders archived at archive/compressed_dli_lane_20260705/. | AMBER AUDIT 2026-07-06: REPAIRED (packet hypothesis list aligned with wired reqs; missing frontier statement.md written). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md.",
+   "upstream": {
+    "label": "prob:list-completion assembly",
+    "relation": "OVERLAP"
+   }
   },
   {
    "id": "wild_row_audit",
@@ -3060,7 +3064,11 @@
     "critical/nodes/u2_per_row_certifier/notes/folded_certificate.md",
     "critical/nodes/u2_per_row_certifier/notes/modal_u2_census.py"
    ],
-   "notes": "U2-A (#30, 174/174 PROVED arithmetic): the window split packet \u2014 U2-B's row list is now exact. U2-B DEFERRED by Codex for honest memory reasons (Row-C b <= 100 exceeds current MITM reach): needs either the resultant route (low-memory) or SOLO scheduling with the elimination method \u2014 respec before dispatch. | DISPATCH SKIP = A FINDING: the certifier's own fail-closed rule needs a pinned Row-C prime \u2014 but official_row_primes_pinning (PROVED) says NO fixed primes exist. The node's per-row premise is likely MOOT post-reframe: restate as family-uniform certification or prune. Also needs an exhaustive pattern list (absent, raw enum > 2^80). | DESK RULING: restated exhibit-conditional; the fixed-row premise was a pre-Reading-B artifact. Candidate subsumption: census_exact_counts covers Row-C windows \u2014 check whether small-t elimination is already carried there. | BAKE-OFF DONE (folded_certificate.md): both nodes reduce (via kernel_lattice_reframing PROVED) to a folded short-vector decision in dim N/2, shared with e1_fullness. Procedure defined + proved-correct; TOY EXEMPLAR shipped (N=16 both verdicts, exhaustive). Prize cells = dim-64/128 LATTICE enumeration (fplll-feasible, NOT a theorem) \u2014 needs the pinned exhibit cell; answer may be collision-found (survivable). Tier-0 CONFIRMED: the remaining work is a lattice computation. | LATTICE RUN LAUNCHED (fpylll, Modal rs-mca-lattice-cert): exact-SVP verdict at 4 cells incl. the REAL dim-64 Row-C cell (250-bit stand-in prime, q=1 mod 128). CERTIFIED iff lambda_1 > 2 sqrt(N/2); validation cells (N=16 certified / N=32 collision) confirm the pipeline. Result closes the node by machine-checkable computation OR returns a survivable collision. | NOT closed by the e1 lattice run: a primitive t-null block is the MULTI-MOMENT (codim-t) object (sum_x v_x x^m = 0, m=1..t), not the codim-1 e1 collision. SAME methodology (fold + sparse-vector enumeration) on the higher-codimension lattice L_t = {v : sum v_x x^m = 0 mod p, m=1..t}, seeking a 0/1 vector of support b <= C log n. Needs a SEPARATE run once the exact Row-C small-t and C are pinned from the exhibit spec. Feasible, same tooling. | PROVED by machine-checkable computation (Reading B, parallel to integer_code_distance_cert): the t=3 moment-trade MITM census. GATE VALIDATED \u2014 reproduces the F2 census EXACTLY: n=64 primes 257->192 / 577->64 primitive blocks (F2's recorded hits), 641/769 CERTIFIED (F2's 'clean at 641+'). CERTIFICATE at TWO large representative primes (2^61 and 2^128, q=1 mod 64): NO primitive t=3-null block across the FULL structural range b=4..10 (= (t,2t+4], the F2 spec's own range) \u2014 extending the deferred b=9,10 bands (which only exceeded laptop MITM reach). MITM is exhaustive/complete per cell. Depends on U2-A window arithmetic (PROVED, 174/174). CAVEATS (honest, same as integer_cert): representative primes (no literal official primes exist); domain mu_64 (F2 threshold/representative row); per-prime (a bad prime could carry a block \u2014 survivable, charge-the-column); t=3 small-t. Verifier: notes/modal_u2_census.py."
+   "notes": "U2-A (#30, 174/174 PROVED arithmetic): the window split packet \u2014 U2-B's row list is now exact. U2-B DEFERRED by Codex for honest memory reasons (Row-C b <= 100 exceeds current MITM reach): needs either the resultant route (low-memory) or SOLO scheduling with the elimination method \u2014 respec before dispatch. | DISPATCH SKIP = A FINDING: the certifier's own fail-closed rule needs a pinned Row-C prime \u2014 but official_row_primes_pinning (PROVED) says NO fixed primes exist. The node's per-row premise is likely MOOT post-reframe: restate as family-uniform certification or prune. Also needs an exhaustive pattern list (absent, raw enum > 2^80). | DESK RULING: restated exhibit-conditional; the fixed-row premise was a pre-Reading-B artifact. Candidate subsumption: census_exact_counts covers Row-C windows \u2014 check whether small-t elimination is already carried there. | BAKE-OFF DONE (folded_certificate.md): both nodes reduce (via kernel_lattice_reframing PROVED) to a folded short-vector decision in dim N/2, shared with e1_fullness. Procedure defined + proved-correct; TOY EXEMPLAR shipped (N=16 both verdicts, exhaustive). Prize cells = dim-64/128 LATTICE enumeration (fplll-feasible, NOT a theorem) \u2014 needs the pinned exhibit cell; answer may be collision-found (survivable). Tier-0 CONFIRMED: the remaining work is a lattice computation. | LATTICE RUN LAUNCHED (fpylll, Modal rs-mca-lattice-cert): exact-SVP verdict at 4 cells incl. the REAL dim-64 Row-C cell (250-bit stand-in prime, q=1 mod 128). CERTIFIED iff lambda_1 > 2 sqrt(N/2); validation cells (N=16 certified / N=32 collision) confirm the pipeline. Result closes the node by machine-checkable computation OR returns a survivable collision. | NOT closed by the e1 lattice run: a primitive t-null block is the MULTI-MOMENT (codim-t) object (sum_x v_x x^m = 0, m=1..t), not the codim-1 e1 collision. SAME methodology (fold + sparse-vector enumeration) on the higher-codimension lattice L_t = {v : sum v_x x^m = 0 mod p, m=1..t}, seeking a 0/1 vector of support b <= C log n. Needs a SEPARATE run once the exact Row-C small-t and C are pinned from the exhibit spec. Feasible, same tooling. | PROVED by machine-checkable computation (Reading B, parallel to integer_code_distance_cert): the t=3 moment-trade MITM census. GATE VALIDATED \u2014 reproduces the F2 census EXACTLY: n=64 primes 257->192 / 577->64 primitive blocks (F2's recorded hits), 641/769 CERTIFIED (F2's 'clean at 641+'). CERTIFICATE at TWO large representative primes (2^61 and 2^128, q=1 mod 64): NO primitive t=3-null block across the FULL structural range b=4..10 (= (t,2t+4], the F2 spec's own range) \u2014 extending the deferred b=9,10 bands (which only exceeded laptop MITM reach). MITM is exhaustive/complete per cell. Depends on U2-A window arithmetic (PROVED, 174/174). CAVEATS (honest, same as integer_cert): representative primes (no literal official primes exist); domain mu_64 (F2 threshold/representative row); per-prime (a bad prime could carry a block \u2014 survivable, charge-the-column); t=3 small-t. Verifier: notes/modal_u2_census.py.",
+   "upstream": {
+    "label": "SP/second-moment stratification",
+    "relation": "OVERLAP"
+   }
   },
   {
    "id": "t_poly_exact_toral",
@@ -3621,7 +3629,11 @@
     "experimental/notes/roadmaps/flip_packets/rate_half_coverage_gap.md"
    ],
    "notes": "FLOOR-DEPTH VERDICT (Modal, exact): max reach 2^33 on the c = 2^22..2^33 plateau; sigma* - 2^33 = 2,978,146 = the band (endpoint convention settled). The battlefield node's first route is dead; the q-threshold refinement queued. | Q-THRESHOLD EXACT (Modal run 2): band open only for log2 q > 255.900 \u2014 the determination closes for 99.96% of the admissible size range; the node is now a razor-slice problem. | CONDITIONAL (Pro Brief I route 1-averaged, verified): AQB-I => the whole band unsafe for all admissible q (average > trigger => some word fails; deficit monotone in Q, worst at 256; radius monotonicity propagates down the band). The last kernel red with open mathematics is now amber on ONE named averaged estimate. | AQB route (route 2, averaged conversion) REFUTED by Pro's convex-combination lemma (verified). Surviving routes: safe-side push through sigma*, B2b-balance. Band stays bracket-grade on the razor slice log2 q in (255.900,256) until a sibling route lands. | AMBERED (Pro P6, arithmetic verified): NOT bracket-grade; route = dihedral_fixed_point_sibling_window (non-AQB, non-giant-M; twin-pair fibers give fine-grained scales covering the band, fixed-point sibling patches the endpoint; entropy 4.05e10 >> 128). Residual = dihedral_sibling_window_certificate. | T8: dihedral route REFUTED; reverted to open \u2014 bracket-grade or a new covering mechanism. AQB + dihedral both dead. | CORRECTED: bracket = creditable PARTIAL not full determination (prize wants exact largest threshold). Verified vs proximityprize.org spec. | GATE REPAIR 2026-07-05: stale gate:any with sole alt = the REFUTED aqb route (left dangling when AQB was refuted) made the ROOT formally unsatisfiable-even-granting-open ever since -- surfaced during the dli-lane compression validation. Alt edge removed, gate normalized. rate_half remains a bare open TARGET (new mechanism or bracket). | CODEX ROUND-2 (replayed): node folder was internally inconsistent -- conditional.md claimed AQB-I closes the band and proof.md claimed the refuted P6 route works; both replaced with honest open-status notices. Re-posed as the STRONG full-determination premise (bracket-grade is a separate partial, not a satisfaction of this node).",
-   "gate": "all"
+   "gate": "all",
+   "upstream": {
+    "label": "finite adjacent-pair conjecture / prob:row-sharp-q",
+    "relation": "ANALOGY_ONLY"
+   }
   },
   {
    "id": "worst_word_challenger_pricing",
@@ -5850,7 +5862,11 @@
   {
    "id": "f2_growing_order_myerson",
    "status": "TARGET",
-   "statement": "F2 SUMMIT NODE (2026-07-10, campaign capstone as first-class target): MYERSON AT GROWING ORDER \u2014 for the Frobenius tower's moving sectors at official rows, the Gaussian-period-norm census deviation (Habegger eq. (2) form) obeys any max-to-mean bound within tolerance 2^{1.05e12} (equivalently: per-condition extras loss <= 2^15 on the p-free ladder). This is a growing-subgroup-order generalization of Myerson's conjecture (all known results and the stated conjecture are fixed-order); the identification chain and the complete instrument suite are the F2 campaign record (prize/notes/f2_campaign/, 84 entries; brief v3 = the handoff). Falsifier: the pre-registered extras-contraction falsifier (never fired at any scale). The floor's sole remaining open input. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/u2c_giant_tnull_dichotomy/notes/QUALITY_f2_growing_order_myerson.md"
+   "statement": "F2 SUMMIT NODE (2026-07-10, campaign capstone as first-class target): MYERSON AT GROWING ORDER \u2014 for the Frobenius tower's moving sectors at official rows, the Gaussian-period-norm census deviation (Habegger eq. (2) form) obeys any max-to-mean bound within tolerance 2^{1.05e12} (equivalently: per-condition extras loss <= 2^15 on the p-free ladder). This is a growing-subgroup-order generalization of Myerson's conjecture (all known results and the stated conjecture are fixed-order); the identification chain and the complete instrument suite are the F2 campaign record (prize/notes/f2_campaign/, 84 entries; brief v3 = the handoff). Falsifier: the pre-registered extras-contraction falsifier (never fired at any scale). The floor's sole remaining open input. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/u2c_giant_tnull_dichotomy/notes/QUALITY_f2_growing_order_myerson.md",
+   "upstream": {
+    "label": "U_Q / row-sharp Q atom (K2, Sidon-Fourier payment)",
+    "relation": "IDENTICAL"
+   }
   },
   {
    "id": "f2_conditional_close",
@@ -6088,7 +6104,11 @@
     "critical/nodes/xr_smallcore_spread_count/notes/QUALITY_xr_highcore_collision_count.md",
     "critical/nodes/xr_highcore_collision_count/verify.py",
     "critical/nodes/xr_highcore_collision_count/verify_audit.py"
-   ]
+   ],
+   "upstream": {
+    "label": "(S) prob:mca-spread-routing + spread-core incidence",
+    "relation": "OVERLAP"
+   }
   },
   {
    "id": "xr_lowcore_spread_heart",
@@ -6102,7 +6122,11 @@
     "critical/nodes/xr_lowcore_spread_heart/claim_contract.md",
     "critical/nodes/xr_lowcore_spread_heart/dependency_subdag.md",
     "critical/nodes/xr_smallcore_spread_count/notes/QUALITY_xr_lowcore_spread_heart.md"
-   ]
+   ],
+   "upstream": {
+    "label": "(S) prob:mca-spread-routing (low-core side)",
+    "relation": "OVERLAP"
+   }
   },
   {
    "id": "xr_strip_classification_rungs",
@@ -6328,7 +6352,11 @@
     "critical/nodes/f3_hge4_norm_gate_count/frontier.md",
     "critical/nodes/f3_hge4_norm_gate_count/statement.md",
     "critical/nodes/f3_hge4_norm_gate_count/verify.py"
-   ]
+   ],
+   "upstream": {
+    "label": "SP stratification (HGE4 residuals)",
+    "relation": "OVERLAP"
+   }
   },
   {
    "id": "cyclic_fiber_interleaving_descent",
@@ -6676,7 +6704,11 @@
     "background/nodes/mca_quadratic_prize_rows/result.md",
     "background/nodes/mca_quadratic_prize_rows/upstream_crosswalk.md"
    ],
-   "statement": "For every RS row and every 0<=r<=n-k-1 satisfying (n-r)^2>=n(k+r), the full-field support-wise MCA bad-slope numerator is exactly r+1. Four explicit power-of-two subgroup rows, one at each official rate and with k=2^40, have exact target-2^-128 safe set [0,B/n), where B=floor(p/2^128); the largest safe grid radius is (B-1)/n and B/n is unsafe. These particular 167--171-bit prime rows do not determine the separately frozen near-capacity or rate-half razor rows and make no list claim."
+   "statement": "For every RS row and every 0<=r<=n-k-1 satisfying (n-r)^2>=n(k+r), the full-field support-wise MCA bad-slope numerator is exactly r+1. Four explicit power-of-two subgroup rows, one at each official rate and with k=2^40, have exact target-2^-128 safe set [0,B/n), where B=floor(p/2^128); the largest safe grid radius is (B-1)/n and B/n is unsafe. These particular 167--171-bit prime rows do not determine the separately frozen near-capacity or rate-half razor rows and make no list claim.",
+   "upstream": {
+    "label": "thm:intro-prize-rows (four exact full-MCA rows)",
+    "relation": "IDENTICAL"
+   }
   },
   {
    "id": "dli_c2pp_joint_reserve",
@@ -6867,7 +6899,11 @@
     "critical/nodes/l1_mixed_petal_amplification/statement.md",
     "critical/nodes/l1_mixed_petal_amplification/attack.md"
    ],
-   "statement": "At every official row and for every received word U, the mixed-petal or diffuse partial-petal contributors to #ImgFib_U(k+sigma) are polynomially bounded above the corrected reserve, with quotient profiles budgeted. The exact-shell prefix/Hankel bridge gives two honest closure routes: global received-word Toeplitz prefix flatness, or aggregate local first-owner payment in one fixed source. Fixed-cofactor transport writes shell a with forced e=deg(U)-a as at most q^e depth-(a-k+e) locator-prefix fibers, with e=0 exactly one upstream locator-Q atom. Cofactor-depth budget cancellation proves that for e<k this q^e factor cancels under ambient normalization, while image normalization retains q^(a-k+e)/L_(a,a-k+e) and integer rounding loses less than q^e. The cofactor-prefix Pade normal form makes the below-cap targets one graph, and the full-locator Pade section extends the exact split-divisor intersection to every e via the a-k equations [T^(e+1..e+a-k)]Uhat/Lhat=0. The Pade-remainder Jacobian theorem gives differential D -> -(QD mod L): on gcd(L,Q)=1 the section is smooth of local codimension a-k, and every rank failure lies on the tangent resultant. Exact shells therefore split into primitive transverse gcd(Q,Omega)=1 and tangent gcd(L,Q)!=1 classes. Thus the live global task is a tangent first-match payment plus row-sharp split-point concentration on a smooth primitive full-locator Pade section, with depth-uniform Q as its top-prefix edge and decorated support-pair control as its second moment. Canonical cofactor gcd descent removes q^(2e) decoration counting through e<=w+2c; an exact F_13 endpoint family proves the reduced high branch must retain its received-word owner. On the local route, maximal-source domination removes source-layout multiplicity; the anchor census removes whole-petal-anchored quotient-polynomial supply; the tame fixed-petal refinement census reduces all tame refinement maps to at most M tau(ell)<=n classes; the periodic-owner obstruction proves those maps do not automatically have multiplicatively periodic exact supports; and the anchored triple-polarity closure pays partial source cores plus every numerator/Forney fiber at fixed layout, core-defect, and petal polarity. The raw-ledger fence proves independent support summation exponentially loose. The unpaid local mechanisms are small-scale general-pullback or collective aperiodic-support payment on known tame refinements, wild or unanchored quotient maps, growing signed layout/core-defect/petal polarity, the balanced sub-Johnson strip, and arbitrary petal locators outside one common pencil. Thus closure requires either the global smooth-section/tangent payment or aggregate payment of this narrower internal residual. FALSIFIER: a reserve-valid word family whose mixed-petal image-fiber count exceeds every polynomial, or a route-kill lower bound. KNOWN MASS: 43 mixed-petal floor-band contributors versus 10 full-petal at (16,8,97)."
+   "statement": "At every official row and for every received word U, the mixed-petal or diffuse partial-petal contributors to #ImgFib_U(k+sigma) are polynomially bounded above the corrected reserve, with quotient profiles budgeted. The exact-shell prefix/Hankel bridge gives two honest closure routes: global received-word Toeplitz prefix flatness, or aggregate local first-owner payment in one fixed source. Fixed-cofactor transport writes shell a with forced e=deg(U)-a as at most q^e depth-(a-k+e) locator-prefix fibers, with e=0 exactly one upstream locator-Q atom. Cofactor-depth budget cancellation proves that for e<k this q^e factor cancels under ambient normalization, while image normalization retains q^(a-k+e)/L_(a,a-k+e) and integer rounding loses less than q^e. The cofactor-prefix Pade normal form makes the below-cap targets one graph, and the full-locator Pade section extends the exact split-divisor intersection to every e via the a-k equations [T^(e+1..e+a-k)]Uhat/Lhat=0. The Pade-remainder Jacobian theorem gives differential D -> -(QD mod L): on gcd(L,Q)=1 the section is smooth of local codimension a-k, and every rank failure lies on the tangent resultant. Exact shells therefore split into primitive transverse gcd(Q,Omega)=1 and tangent gcd(L,Q)!=1 classes. Thus the live global task is a tangent first-match payment plus row-sharp split-point concentration on a smooth primitive full-locator Pade section, with depth-uniform Q as its top-prefix edge and decorated support-pair control as its second moment. Canonical cofactor gcd descent removes q^(2e) decoration counting through e<=w+2c; an exact F_13 endpoint family proves the reduced high branch must retain its received-word owner. On the local route, maximal-source domination removes source-layout multiplicity; the anchor census removes whole-petal-anchored quotient-polynomial supply; the tame fixed-petal refinement census reduces all tame refinement maps to at most M tau(ell)<=n classes; the periodic-owner obstruction proves those maps do not automatically have multiplicatively periodic exact supports; and the anchored triple-polarity closure pays partial source cores plus every numerator/Forney fiber at fixed layout, core-defect, and petal polarity. The raw-ledger fence proves independent support summation exponentially loose. The unpaid local mechanisms are small-scale general-pullback or collective aperiodic-support payment on known tame refinements, wild or unanchored quotient maps, growing signed layout/core-defect/petal polarity, the balanced sub-Johnson strip, and arbitrary petal locators outside one common pencil. Thus closure requires either the global smooth-section/tangent payment or aggregate payment of this narrower internal residual. FALSIFIER: a reserve-valid word family whose mixed-petal image-fiber count exceeds every polynomial, or a route-kill lower bound. KNOWN MASS: 43 mixed-petal floor-band contributors versus 10 full-petal at (16,8,97).",
+   "upstream": {
+    "label": "prob:list-completion / U_list_int (arbitrary-word interior)",
+    "relation": "IDENTICAL"
+   }
   },
   {
    "id": "petal_reserve_rich_fiber_reduction",
@@ -7270,7 +7306,11 @@
     "critical/nodes/rate_half_cyclic_rotated_prefix_floor/audit.md",
     "critical/nodes/rate_half_cyclic_rotated_prefix_floor/verify_audit.py",
     "critical/nodes/rate_half_cyclic_rotated_prefix_floor/result.md"
-   ]
+   ],
+   "upstream": {
+    "label": "integrated cyclic quotient-rotation list floor (co-authored)",
+    "relation": "IDENTICAL"
+   }
   },
   {
    "id": "rate_half_fixed_tail_prefix_floor",
@@ -8064,7 +8104,11 @@
    "statement": "For every admissible official rate-1/2 row, with B*=floor(|F|/2^128) and ordinary worst-list size L_1(a), find a_L(C) such that L_1(a_L(C)) <= B* < L_1(a_L(C)-1). The complete branches B*=1,2 are now exact at a_L=3n/4. At the prize-max razor row the cyclic floor and exact-integer Johnson theorem prove k+2^34 <= a_L(C) <= a_IJ(C) on the remaining B*>=3 branches. Arbitrary constant interleaving arity is handled later by list_large_m_scope_closure. || BUDGET-THREE BOUNDED EDGE GEOMETRY (wave-11 audited, 2026-07-18): budgets B* in {1,2} are now a COMPLETE list-prize determination at a_L = 3n/4 \u2014 every common-support interleaving arity m >= 1 (rate_half_list_low_budget_all_arity_crossing, resting on the exact-crossing node + the interleaving collapse L1 <= 2 => L1^2 < q). BUDGET 3: any hypothetical 4-codeword witness at the Johnson predecessor 3n/4 - 1 reduces (six-matrix reduction -> split-pencil normal form -> Plucker gate) to EXACTLY 13 chambers \u2014 9 base-field split-unit Grassmann-line chambers (exceptional degrees {3,4,5,6,8}) + 4 balanced Grassmann scrolls whose rank-deficient branch is EMPTY (det C = b01^2(L12 L03 - L02 L13) != 0); the fourth-member residue is closed; BOTH censuses machine-enumerated AND independently re-enumerated at audit. OPEN: official-subgroup arithmetic in the 13 chambers; a full close moves the safe endpoint by exactly ONE step \u2014 the proved B*=3 bracket [k+2^34, 3n/4] is NOT moved by this classification (w10-H5-mirror note). Full pin bodies in the node folder. PIN DETAIL (verifier contract): the reduction factors any witness into the six incidence types of 4-wise RS agreement matrices; the split-pencil normal form is A_k b_ij+A_i b_jk=A_j b_ik with entries of degree at most two; the Plucker gate is b_01b_23-b_02b_13+b_03b_12=0 with edge polynomials of degree at most four. || WAVE-12 NOTE (2026-07-18): the single-fiber split-unit exclusion kills one construction ROUTE in all nine line chambers (each supported locator = one degree-d quotient fiber minus exceptional points; unconditional at official fields) \u2014 it closes ZERO chambers (the commit title overstates, w12-C2); the maximal-field degree collapse is maximal-row-only (n=2^41, e in {1,2}, unique cubic candidate 5*2^41+1 divisible by 7); chamber scoreboard: 0/13 closed, 13/13 further reduced.",
    "attack_surface": "For B*>=3, strengthen the exact-integer Johnson safe anchor with rate-half image-fiber/profile structure and construct a matching unsafe predecessor, or move the unsafe floor upward until the bounds meet.",
    "falsifier": "An admissible rate-half received word with more than B* codewords at an asserted safe agreement.",
-   "notes": "SCOPE REPAIR 2026-07-18: the list-adjacency packet admitted that the wave-8 cyclic prefix theorem supplies only unsafety, but no red safe-side owner was req-wired. The exact-integer Johnson theorem supplies a nontrivial safe bracket. Explicit predecessor constructions now close B*=1,2 exactly; B*>=3 remains the honest adjacent-crossing leaf. It is distinct from rate_half_band_closure, whose live RH-ADJ statement is MCA/CA."
+   "notes": "SCOPE REPAIR 2026-07-18: the list-adjacency packet admitted that the wave-8 cyclic prefix theorem supplies only unsafety, but no red safe-side owner was req-wired. The exact-integer Johnson theorem supplies a nontrivial safe bracket. Explicit predecessor constructions now close B*=1,2 exactly; B*>=3 remains the honest adjacent-crossing leaf. It is distinct from rate_half_band_closure, whose live RH-ADJ statement is MCA/CA.",
+   "upstream": {
+    "label": "prob:list-completion / Lane L (post-Johnson RS list bounds)",
+    "relation": "OVERLAP"
+   }
   },
   {
    "id": "rate_half_list_integer_johnson_safe_anchor",
@@ -10027,7 +10071,11 @@
    "refs": [
     "critical/nodes/f3_h3_dsp8_correlation_bound/statement.md"
    ],
-   "statement": "At every official row in n^2 <= p <= 6^{n/4}, with Q_n=(n-1)(n-2) and S_A=sum over antipodal P>=25 targets of R(t): 10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)<=750n^2-255Q_n. This is the sharpened E=6 disjoint-support primitive-SP correlation after the proved antipodal quotient-mass and global overlap-cover payments. The target-independent estimate 160(10K_25^0+17K_25^A)<=76599n^2 suffices. The accident-depth compiler proves that exclusion of any rectangle (P,R)>=(19,18),(21,16),(25,12),(29,8),(33,4) closes C36'. Its original fixed-order endpoint is Mbar_(3),6,33^0+(53/42)Mbar_(3),6,33^A<=(583/272)n^2 with rho_3=(R-3)_+; the wider rho_1 analytic endpoint has constant 2385/272. The joint-star/depth and single-quotient compilers give twelve exact disjoint-moment alternatives, one at every integer corner (P,R)>=(25,12),(26,11),...,(35,2),(36,1). The coordinate-minimal last row is Dbar_17^0+(29/22)Dbar_17^A<=(29/153)B_par (uniformly, Dbar_17^0+(29/22)Dbar_17^A<=(234697/48960)n^2); its survivors have degree-eight/six pure distance-six stars and one quotient lift. Its star-coupling ideal is center-independent and stays nonzero for a zero coupling, so no anchor designation is required. The exact quotient-index-free candidate support is p|s_(n,35)^X iff Dbar_17>0, with s_(n,35)^X|s_(n,18)^X. Its radical support decomposes into 3(n-s-1) Galois-orbit annihilators; at n=8192 these are 24,534 independent blocks of degree at most 4,096, with total degree unchanged. Every block has a unique formula-generated (j,sign,w) ID and an explicit cyclotomic-resultant or normalized-reciprocal polynomial, so no quotient-orbit enumeration is needed; reciprocal support is not identified. Exact scalar elimination may be replaced by the complete three-resultant gcd superset: 73,602 ordinary resultants at n=8192, followed by full factorization and exact false-positive filtering. More sharply, the coefficient content of one cutoff-35 Taylor resultant per block has exactly the scalar annihilator's odd prime radical, with maximum auxiliary degree 143,360. The preceding (35,2) row has the older smaller normalized allowance, an incomparable rectangle, two lifts, and one spoke. The twelve rows are alternatives and cannot be mixed. The proved rich factorial-moment compiler gives further sufficient estimates 40(10F_25^0+17F_25^A)<=76599n^2 or 680M_21<=76599n^2. FALSIFIER: one official row violating a selected sufficient inequality kills that analytic route, not necessarily C36 itself. Minted 2026-07-19 at the C36 amber ceremony (alt leaf, gate=any). || F-ROUND 1 EXECUTED against the former stronger target: SURVIVED-VACUOUSLY (2026-07-19; packet notes/dsp8r1_fround1_20260719/, 25 Modal apps; catches #288-#295): no measured row has a retained P>=25 target; richness saturates at P=20. Round 2 must be constructive through collision-norm/coupled-ideal templates, not a broad scan."
+   "statement": "At every official row in n^2 <= p <= 6^{n/4}, with Q_n=(n-1)(n-2) and S_A=sum over antipodal P>=25 targets of R(t): 10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)<=750n^2-255Q_n. This is the sharpened E=6 disjoint-support primitive-SP correlation after the proved antipodal quotient-mass and global overlap-cover payments. The target-independent estimate 160(10K_25^0+17K_25^A)<=76599n^2 suffices. The accident-depth compiler proves that exclusion of any rectangle (P,R)>=(19,18),(21,16),(25,12),(29,8),(33,4) closes C36'. Its original fixed-order endpoint is Mbar_(3),6,33^0+(53/42)Mbar_(3),6,33^A<=(583/272)n^2 with rho_3=(R-3)_+; the wider rho_1 analytic endpoint has constant 2385/272. The joint-star/depth and single-quotient compilers give twelve exact disjoint-moment alternatives, one at every integer corner (P,R)>=(25,12),(26,11),...,(35,2),(36,1). The coordinate-minimal last row is Dbar_17^0+(29/22)Dbar_17^A<=(29/153)B_par (uniformly, Dbar_17^0+(29/22)Dbar_17^A<=(234697/48960)n^2); its survivors have degree-eight/six pure distance-six stars and one quotient lift. Its star-coupling ideal is center-independent and stays nonzero for a zero coupling, so no anchor designation is required. The exact quotient-index-free candidate support is p|s_(n,35)^X iff Dbar_17>0, with s_(n,35)^X|s_(n,18)^X. Its radical support decomposes into 3(n-s-1) Galois-orbit annihilators; at n=8192 these are 24,534 independent blocks of degree at most 4,096, with total degree unchanged. Every block has a unique formula-generated (j,sign,w) ID and an explicit cyclotomic-resultant or normalized-reciprocal polynomial, so no quotient-orbit enumeration is needed; reciprocal support is not identified. Exact scalar elimination may be replaced by the complete three-resultant gcd superset: 73,602 ordinary resultants at n=8192, followed by full factorization and exact false-positive filtering. More sharply, the coefficient content of one cutoff-35 Taylor resultant per block has exactly the scalar annihilator's odd prime radical, with maximum auxiliary degree 143,360. The preceding (35,2) row has the older smaller normalized allowance, an incomparable rectangle, two lifts, and one spoke. The twelve rows are alternatives and cannot be mixed. The proved rich factorial-moment compiler gives further sufficient estimates 40(10F_25^0+17F_25^A)<=76599n^2 or 680M_21<=76599n^2. FALSIFIER: one official row violating a selected sufficient inequality kills that analytic route, not necessarily C36 itself. Minted 2026-07-19 at the C36 amber ceremony (alt leaf, gate=any). || F-ROUND 1 EXECUTED against the former stronger target: SURVIVED-VACUOUSLY (2026-07-19; packet notes/dsp8r1_fround1_20260719/, 25 Modal apps; catches #288-#295): no measured row has a retained P>=25 target; richness saturates at P=20. Round 2 must be constructive through collision-norm/coupled-ideal templates, not a broad scan.",
+   "upstream": {
+    "label": "SP/second-moment stratification (Sum N^2 identity)",
+    "relation": "OVERLAP"
+   }
   },
   {
    "id": "f3_h3_official_order_template_survivor",
@@ -10107,7 +10155,11 @@
     "background/nodes/submission_quality_paper_dossier/audit.md",
     "background/nodes/submission_quality_paper_dossier/verify.py",
     "background/nodes/submission_quality_paper_dossier/verify_audit.py"
-   ]
+   ],
+   "upstream": {
+    "label": "submission package item (3): reproducibility dossier + formal correspondence files",
+    "relation": "OVERLAP"
+   }
   },
   {
    "id": "dli_wcl_ell4_weight9_quartic_divisor_descent",

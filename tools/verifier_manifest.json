@@ -2558,6 +2558,7 @@
     "critical/nodes/xr_true_tangent_coordinate_injection/verify.py": "4479d19bb84a6c1b5960fc32790b5403e3c5b9a938376ff0034785b895323307",
     "tools/verify_auto_discharge_paths.py": "44dafcc08de6c434d9ccd2e5faf2bb8827db1ba89af2a6e01e14a58e7596d710",
     "tools/verify_critical_harness_coverage.py": "0870f6a0e0b1071eb769206380cc803a4be1226774517e94e26be8706eed0e7c",
+    "tools/verify_crosswalk.py": "d2b01b96df8a9bb1cb6372cc0264c1c797803d5caf0b9eb29c1ee606e153f9b2",
     "tools/verify_list_corridor_ledger.py": "8d29b7d3a1dc81873fd12dea5df5339f41527aa19bc1903d92da268ef37f49c2",
     "tools/verify_list_corridor_widths.py": "62f930c35c2c04414fd2274cbd1442bc692acd1dd0702fde5e57db03bca2733a",
     "tools/verify_official_row_primes_pinning.py": "f6a7af8211e92ef1e5643bda43ed7e11df597956589d4cabfbe2479590814828",
