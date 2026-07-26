@@ -1,0 +1,6 @@
+{
+  "candidate_file": "critical/nodes/xr_smallcore_spread_count/notes/audit_consumption_replay_20260710.py",
+  "candidate_file_sha256": "c39442d16fcbe86bbfd97f245de970dc729d0e257514c6d4f9f74c9a8c7fac56",
+  "parent_node": "rs_tangent_flexible_budget_unsafe_floor",
+  "target_bits": 128
+}

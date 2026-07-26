@@ -850,6 +850,19 @@ falsify the exact `P` allowance there, while the universal router separately
 pays the impossible-E1 and direct-image-only field ranges. See
 `notes/E1_CLEAN_ANCHOR_FINITE_ALLOWANCE_AUDIT_20260726.md`.
 
+N19 DONE, TANGENT-FLOOR LOW-FIELD ROUTER: upstream `prop:floor` is
+independently reconstructed as a direct `V` supplier. At predecessor
+agreement `a`, it gives `e=n-a` distinct bad slopes and pays target `2^-128`
+exactly when `q<=e*2^128-1`. The six clean formulas therefore have exact
+maximum field orders of 138 bits on RowC and 169 bits on prize-max. This pays
+a genuine low-field branch, but none of the six named high-budget envelopes:
+their numerator budgets are respectively `2^122` and
+`317494674775468773183020924238786383963`, both above the corresponding
+`e`. The residual envelope problem is now explicitly high-field and still
+belongs to direct E1/value-set, another line, or post-paid occupancy. Route
+failure is not safety. See
+`notes/TANGENT_FLOOR_ROUTE_AUDIT_20260727.md`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable

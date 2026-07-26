@@ -16,3 +16,8 @@ it is not instantiated by the current unpinned RowC data.
 The qfloor norm-threshold route is also exhausted on all six clean anchors.
 Their above-budget raw quotient censuses remain evidence only until direct
 value-set injectivity or another collision theorem is supplied.
+
+The tangent floor pays an exact low-field `V` branch. Its guaranteed
+`n-a`-slope payload clears target exactly through
+`q<=(n-a)2^128-1`, but does not clear either named high-budget envelope. This
+is not an upper bound on the full tangent-line bad set and is not safety.

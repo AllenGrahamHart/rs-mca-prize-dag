@@ -9,6 +9,8 @@ certified_valueset_lower  --ev--> unsafe_crossing_family_instantiation
 axis8_generating          --ev-->
 identity_prefix_flexible_budget_unsafe_floor --ev-->
 identity_prefix_clean_anchor_route_classification --ev-->
+rs_tangent_flexible_budget_unsafe_floor --ev-->
+tangent_clean_anchor_route_classification --ev-->
 qfloor_clean_anchor_norm_threshold_route_cut --ev-->
 e1_clean_anchor_exact_collision_allowance --ev-->
 e1_official_prime_exception_control       --ev-->
@@ -31,6 +33,12 @@ that exact finite slice.
 The clean-anchor classifier proves that this supplier is impossible on five
 of six clean anchors and isolates one proper-domain-field branch on the sixth.
 It is a route cut, not another payload.
+
+The tangent theorem independently pays every predecessor for which
+`n-a>floor(q/2^128)`. Its clean-anchor classifier turns the guaranteed
+`n-a`-slope payload into six exact field-order cutoffs. None reaches the two
+named high-budget envelopes, so the high-field branch remains open; this
+negative payload verdict is neither safety nor a full bad-set upper bound.
 
 The qfloor norm-threshold cut proves that the raw quotient censuses on all six
 clean predecessors lie outside `qfloor_exact`. Their distinct-value content

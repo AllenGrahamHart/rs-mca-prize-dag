@@ -19,6 +19,14 @@ RowC characteristic is unpinned, that branch is typed but not instantiated.
 The high-field residual therefore needs `Q`, a different direct `V`
 construction, or `M`; further identity-prefix optimization cannot close it.
 
+The universal tangent floor supplies a complementary low-field `V` branch.
+At agreement `a` its guaranteed `n-a` slopes clear the budget exactly through
+`q<=(n-a)2^128-1`. The six clean predecessor formulas give 138-bit RowC and
+169-bit prize field cutoffs, but the named envelope budgets force much larger
+fields, so that guaranteed payload pays none of those six anchors. The
+surviving envelope work is therefore genuinely high-field; failure of the
+payload is not safety or an upper bound on the line's full bad set.
+
 The existing clean-row `A-1` quotient census is also not yet a `Q` payload.
 Its canonical orders are `256,256,512`, where the `qfloor_exact` norm
 thresholds have `899,774,1548` bits. All exceed the official `2^256` field
