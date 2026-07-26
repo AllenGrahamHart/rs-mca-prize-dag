@@ -152,3 +152,22 @@ for anchor in (
     checks += 1
 
 print(f"L1_MERSENNE_NEXT_TO_MAXIMAL_HYPERGEOMETRIC_NORMAL_FORM_PASS checks={checks}")
+
+
+def _wiring_pin() -> None:
+    # Added at the wave-22 integration (audit flag: no dag-wiring assertions).
+    # Pins this node's status and its outgoing wiring so silent flips or edge
+    # drops trip the verifier.
+    import json
+    from pathlib import Path
+    root = Path(__file__).resolve().parents[3]
+    dag = json.loads((root / "dag.json").read_text())
+    me = "l1_mersenne_next_to_maximal_hypergeometric_normal_form"
+    status = next(nd["status"] for nd in dag["nodes"] if nd["id"] == me)
+    assert status == "PROVED", f"wiring pin: {status}"
+    outs = {(e["to"], e.get("kind")) for e in dag["edges"] if e["from"] == me}
+    assert outs, "wiring pin: node has no outgoing edges"
+    assert all(k in ("ev", "req") for _, k in outs)
+
+
+_wiring_pin()

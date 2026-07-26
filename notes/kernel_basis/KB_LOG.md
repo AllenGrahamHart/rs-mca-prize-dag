@@ -4540,3 +4540,40 @@ from degree `h` to `h-1`. After clearing fixed denominators, this is a
 bounded-degree saturation problem depending only on `m,h`. A unit
 certificate closes order one; retained components still require actual
 Frobenius, cyclotomic, and inner checks. No emptiness is claimed.
+
+## 181 — 2026-07-24: WAVE-22 INTEGRATED AS THE FIRST FAST-FORWARD —
+## the m=4,h=3 first-checkpoint stratum CLOSED on all four m=4 rows;
+## the "Mersenne campaign" decoded (internal Track-C, not upstream)
+
+Audit (62/62 replays, 6/6 mutations, key remainder independently
+recomputed by a third code path) + FAST-FORWARD 85c9e5ae->22c4aab7
+(master was an ANCESTOR of the pin — v10 branched from current
+master and git-MERGED v9 [7af70a09 a literal parent via 59cc9b1b]
+instead of re-expressing; Codex also numbered its KB entries
+#150-#180 to continue after master's #149 — the collaboration
+mechanics matured this cycle). +28 PROVED nodes (20 l1_m4_h3_* +
+positive-value coset certificate + 7 l1_mersenne_*), +73 edges,
+0 flips; dag 1222/2884 raw; board 201/36/23 unchanged. THE
+CAMPAIGN DECODED: pure Track-C work on the wave-21 NINE-ROWS lane
+— "Mersenne" because the nine rows n=m(p+1) have p in {8191,
+131071, 524287, 2^31-1}; "Belyi" internal (residue = degree-p
+Belyi map, critical values 0,1); NOT upstream consumption (zero
+ledger touches; the crosswalk files are OUTBOUND vendoring
+translations). CLOSED: the entire m=4,h=3 stratum on all four m=4
+rows (universal packet (6,20) by Euler p-th-power multiplicity;
+exceptional packet at p=2^31-1 by cyclotomic remainder 876663072
+!= 0, triple-replayed) — packaged as l1_m4_h3_official_emptiness
+(PROVED background; consumer stays TARGET). EXACT RESIDUAL
+(verbatim): nonembedded m=4,h=2; the m=8 rows 2<=h<=7; the single
+m=16 row 2<=h<=15, after prepaying every embedded antipodal pair;
+plus all t>p widths. GOVERNANCE: 8 Modal apps all bounded
+pre-registered pilots ($1/5-min restated + obeyed; FRG-SAT-P31
+honestly INCOMPLETE at its 120s cap, deferred to contributors);
+CR items C31/NU2/NU0-H0 retired BY THEOREM with do-not-rerun
+fences; tracks/falsifiers named per r3. INTEGRATION EXTRAS: the 3
+unguarded gate nodes got wiring pins (status + out-edge asserts,
+all PASS); manifest 1114/14/1430; orbit regenerated. FLAGS carried:
+0/28 contracts have explicit Falsifier sections (format drift —
+queue for Codex); the untracked WIP folder (l1_mersenne_hnf_
+colored_frobenius_gate) stays out of scope. v9 needs NO separate
+import (ancestry). Findings: notes/wave22_import_20260724/.
