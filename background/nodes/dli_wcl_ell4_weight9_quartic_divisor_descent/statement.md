@@ -341,3 +341,33 @@ rests on a model that has been checked against ground truth twice.
 of `mu_{2N}` with four vanishing even symmetric functions and product one. No
 quartic, no divisibility, no elimination ideal — a pure symmetric-function question
 on a cyclic 2-group.
+
+### Final form: one quartic, one equation, one subgroup
+
+The `u_i` can be eliminated too. With `u^2 = t` and `u^9 = e(t)`, writing
+`u^9 = u t^4` gives `e(t) = +/- u t^4`, hence `(e(t)/t^4)^2 = t`:
+
+> **`(4,9)` holds iff there is a quartic `e` with `e(0) = 1` such that**
+> ```text
+> e(t)^2 = t^9        for NINE distinct t in mu_N,
+> ```
+> **and then `u = e(t)/t^4`, `y = t^{-1}`, `A` = the reverse of `e`.**
+
+Since `deg(e(T)^2 - T^9) = 9`, nine is the maximum possible: the cell asks for
+`e(T)^2 - T^9` to **split completely over `mu_N`**.
+
+Verified on the witness: `e = 86T^4 + 133T^3 + 240T^2 + 58T + 1` gives exactly the
+nine `t in mu_128` shown, product one, each recovering its `u`.
+
+This is the whole cell in one line, with no quartic-as-unknown, no divisibility
+condition, no elimination ideal, and no auxiliary group. It is a *Pell-type
+condition on a subgroup*: a fixed low-degree polynomial must take square values —
+specifically the values `t^9` — at nine points of `mu_N`.
+
+**The rigorous target is now sharply stated:** bound the number of quartics `e` for
+which `e(T)^2 - T^9` splits completely over `mu_N`. Equivalently, bound
+`#{monic degree-9 divisors of T^N - 1 of the shape T^9 - e(T)^2}`. The map
+`e -> T^9 - e(T)^2` is injective on `{e : e(0)=1}`, so this is a question about how
+often a `p^4`-parameter family meets the `C(N,9)` split polynomials — Weil/Deligne
+territory, and quantitative in `p`, which the existence witness proved is the only
+kind of argument that can work.

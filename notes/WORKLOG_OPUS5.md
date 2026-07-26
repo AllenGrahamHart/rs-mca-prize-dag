@@ -872,3 +872,35 @@ Bound the count of 9-subsets of `mu_{2N}` with four vanishing even symmetric
 functions and product one. This is a pure symmetric-function question on a cyclic
 2-group — no quartic, no divisibility — and it is quantitative in `p`, which the
 existence witness proved is the only kind of argument that can work.
+
+**Session 7g — the (4,9) cell in one line.**
+
+Eliminating the `u_i` as well:
+
+> **`(4,9)` holds iff a quartic `e` with `e(0)=1` has `e(t)^2 = t^9` at NINE
+> distinct `t in mu_N`** — i.e. `e(T)^2 - T^9` splits completely over `mu_N`
+> (degree 9, so nine is the maximum). Then `u = e(t)/t^4`, `y = t^{-1}`, and `A` is
+> the reverse of `e`.
+
+Verified on the `(257,128)` witness. No quartic-as-unknown, no divisibility, no
+elimination ideal, no auxiliary group — a Pell-type condition on a subgroup.
+
+**Rigorous target, sharply stated:** bound `#{e : T^9 - e(T)^2 splits over mu_N}`.
+The map `e -> T^9 - e(T)^2` is injective on `{e(0)=1}`, so this asks how often a
+`p^4`-family meets the `C(N,9)` split polynomials. Quantitative in `p` — the only
+kind of argument the existence witness permits.
+
+### Session close-out (7 turns of mathematics on this lane)
+
+Progress metric, not census:
+- **nodes minted:** 1 (`(4,11)` descent, forward → full bijection)
+- **theorems banked:** compiler-cannot-bite; parity dichotomy; `(4,11)` normal form;
+  `(4,11)` converse; the `(4,9)` clean form; the calibrated counting model
+- **existence witness:** a genuine `(4,9)` relation at `(257,128)`, fully verified —
+  proving **no structural argument can ever close a WCL cell**
+- **routes fenced:** abc/Mason-Stothers, `Res(P,A)`, `mu_N`-product, quadratic
+  character, composition/divisibility, log-derivative, symmetric realization,
+  counting/(MI2) saturation — and now explained by a *single* common cause
+- **upstream PRs:** #1107 (E-1 corridor prime), #1108 (E-2 Proth replay)
+- **self-corrections:** 6, each recorded in commits rather than quietly fixed
+- **census (datum):** `260 = 201/36/23`
