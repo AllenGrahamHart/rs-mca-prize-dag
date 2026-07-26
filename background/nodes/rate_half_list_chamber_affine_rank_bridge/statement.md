@@ -1,8 +1,11 @@
 # rate_half_list_chamber_affine_rank_bridge
 
-- **status:** TARGET
+- **status:** PROVED
 - **closure:** proof
-- **proved input:** `rate_half_list_budget_three_affine_rank_rigidity`
+- **dependencies:** `upstream_gfv4_affine_span_list_compiler`,
+  `rate_half_list_budget_three_intersection_reduction`,
+  `rate_half_list_budget_three_affine_rank_rigidity`,
+  `rate_half_list_budget_three_common_mismatch_zero`
 - **consumer:** `rate_half_list_adjacent_crossing` (ev)
 - **object:** the missing translation between the chamber atlas and the GF list compilers
 
@@ -589,3 +592,51 @@ incidence variables and substitute `b=0`. A chamber closes through the
 harvested rank-flat compiler only if those exact bounds make its printed cap
 at most three. Otherwise this bridge is a route fence and should be retired
 as a closure mechanism.
+
+## PROVED resolution: the rank-flat route is a fence
+
+The latter alternative always occurs. Put `n=4d`, `K=2d`, `m=3d-1`, and
+`t=d+1`, with `d>=3`.
+
+Every one of the six incidence types has at least one pair with selected
+intersection `2d-1`. That pair difference is a nonzero degree-`<2d`
+polynomial, so it has exactly `2d-1` zeros and support `2d+1`. The MDS floor
+gives the reverse inequality; hence
+
+```text
+d_1=2d+1.                                             (RF1)
+```
+
+Affine-rank rigidity makes every three of the four codewords an affine
+basis of a two-dimensional direction subcode. In every incidence type, some
+selected triple intersection has size at least `d-1`; it is a common-zero
+set of that two-dimensional subcode. Therefore
+
+```text
+d_2<=4d-(d-1)=3d+1.                                  (RF2)
+```
+
+The generalized Singleton bound gives `x:=d_3>=2d+3`, while `x<=4d`, and
+the common-mismatch theorem gives `b=0`. The unfloored rank-flat expression
+is therefore bounded below by
+
+```text
+x(x-1)(x-2) / [d * 2d * (x-d-1)].                   (RF3)
+```
+
+For `x>=2d+3`,
+
+```text
+F_d(x)=x(x-1)(x-2)-8d^2(x-d-1)>0.                   (RF4)
+```
+
+Indeed `F_d(2d+3)=8d^2+22d+6>0`; its derivative there is
+`4d^2+24d+11>0`, and its second derivative is `6x-6>0`. Thus `(RF3)` is
+strictly greater than four, so its integer floor is at least four on every
+chamber. The harvested rank-flat compiler can never prove the required cap
+three on this atlas, even after an exact generalized-weight transport.
+
+This closes the bridge as a proved negative result. It closes no locator
+chamber and does not move the rate-half adjacent crossing. Further work must
+attack the thirteen official-subgroup chambers directly or use a stronger
+list theorem.
