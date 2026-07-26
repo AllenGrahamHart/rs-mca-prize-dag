@@ -135,3 +135,56 @@ it and is exactly the falsifier.
 - Wired `ev`, not `req`: `rate_half_list_adjacent_crossing` does not depend on this
   bridge for its truth. The bridge only decides whether the H1 harvest can ever be
   promoted to a requirement edge.
+
+## PROGRESS: the common-zero budget bound (CZB) — 2026-07-26
+
+Route 3 of the attack surface ("prove `b=0` outright from the common-zero
+structure") is now partly paid, and it kills the case that made `s=2` look
+killable. Artifact: `verify_common_zero_budget.py`.
+
+**Theorem.** For four distinct codewords at agreement `>= m` with a common `u`,
+with `z = |G|` and `b` as above,
+
+```text
+4(m - g) <= (n - z) + 6(K - 1 - z),        g = z - b,
+```
+
+and at the razor `m = 3n/4 - 1`, with `K = n/2`, this collapses to
+
+```text
+3z + 4b <= n - 2.                                            (CZB)
+```
+
+*Proof.* Each `c_i - c_j` is a nonzero codeword, so `agr(c_i,c_j) <= K-1`. Summing
+pairwise agreements by position, `G` contributes `C(4,2)=6` per point while off `G`
+the four values are not all equal, so `P(x) = sum_k C(n_k(x),2) in {0,1,2,3}` and
+`6z + sum_{off G} P(x) <= 6(K-1)`. Off `G`, `a_x = #{i : c_i(x)=u(x)}` satisfies
+`a_x <= 1 + P(x)` (`a_x=2` forces an agreeing pair, `a_x=3` forces three, `a_x=4`
+is impossible). On `G`, `a_x = 4` at the `g` agreeing points and `0` at the other
+`b`. Combining with `sum_i agr(c_i,u) >= 4m` gives the display. ∎
+
+**Consequences at the official row** (`n=2^41`, `K=2^40`):
+
+```text
+z   <= 733,007,751,850   = (n-2)/3     (vs the trivial pairwise z <= K-1 = n/2 - 1)
+d_s >= 1,466,015,503,702 = (2n+2)/3
+b = 0 forced once z >= 733,007,751,849
+```
+
+1. **The minimum-support case `d_s = R+2` is IMPOSSIBLE** (`4b <= -1.09e12 < 0`).
+   That is precisely the case in which `thm:rank-flat-list` appeared to force
+   `b = 0` — see §3 of the H1/S3 replay note, where that apparent rigidity was
+   flagged as an artifact of pinning `d_j` at the MDS floor. (CZB) now shows the
+   MDS floor is *unreachable* here, so the artifact could never have been
+   instantiated: the two findings agree.
+2. The admissible band for `d_s` shrinks from `[n/2, n]` to `[2n/3, n]`, i.e. by a
+   third, and `(CZB)` and the rank-flat `b`-budget are active in different parts of
+   what remains.
+3. Sharpness: the step-2 pairwise bound is **tight on 11 of the 12** banked F_17
+   witnesses, so (CZB) is essentially optimal for this argument rather than lossy.
+4. Note `(2n+2)/3 = 1,466,015,503,702` sits one above the collinearity floor
+   `1,466,015,503,701` of the `s>=2` exclusion — both are `~2n/3` phenomena, and
+   the coincidence is arithmetic, not a shared mechanism.
+
+**Not a closure.** (CZB) does not by itself decide `s=2` vs `s=3`, and `b=0` is
+forced only in the high-`z` regime. The node stays TARGET.
