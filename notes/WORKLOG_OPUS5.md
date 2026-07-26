@@ -1078,3 +1078,25 @@ The quartics/quintics `A, E, B` are *outputs* — the witness's `rho` have
 the polynomial (elimination ideal, `Delta`, resultants) was fighting a
 reparametrisation, not the problem. The even/odd asymmetry is cosmetic: it is only
 whether a fifth condition `e_w = 1` can be imposed.
+
+**Session 7o — a rigorous non-vanishing lemma for the whole lane.**
+
+The unified form turns the window into **vanishing sums of roots of unity**, and for
+2-power order those are classified.
+
+> **Lemma.** For every reduced `(4,w)` relation, `S_1 = sum rho_i != 0` in
+> `Z[zeta_2048]`.
+
+*Proof:* Lam–Leung/Conway–Jones says a vanishing sum of distinct `2^k`-th roots of
+unity is a disjoint union of antipodal pairs; reducedness forbids those. (Odd `w` is
+immediate — an odd count cannot pair.) Brute-force confirmed over `mu_8/16/32`,
+`w = 3..6`.
+
+**Why it matters:** `p_1 = 0` holds in `F_p`, i.e. `P | S_1`. The lemma says `S_1`
+is not zero in `Z[zeta_2048]`, so `p | Norm(S_1)` with `Norm(S_1) != 0` — which is
+exactly what makes the cyclotomic **norm-gcd** method valid here. It also explains
+the closed `(2,6)` certificate's 510 "structural double-zero" cases: the
+antipodal-mirror family is precisely the exceptional set, not an incidental one.
+
+**Honest bound:** `|Norm(S_1)| <= w^1024`, so `p <= 2^3246` at `w=9` — far too weak
+against `p > 2^167`. The lemma supplies the method's *validity*, not a closure.
