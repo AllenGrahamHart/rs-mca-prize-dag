@@ -287,3 +287,46 @@ locus `G`. The correct statement is that each point of `G` belongs to exactly on
 direction (since `gcd(f',g') = 1`), giving `sum_dir |R_dir| <= n` and no
 improvement. With the false version `Ddir = 6` would have been excluded outright;
 it is not.
+
+## PROGRESS 4: `s = 2` is fully determined — `Ddir = 6`, `b = 0`, `z` pinned (2026-07-26)
+
+`Ddir in {4,5}` is now excluded, closing the residual of PROGRESS 3.
+
+Every coincidence found in PROGRESS 3 is a **disjoint-pair** proportionality:
+`d1=d6` pairs `{0,1},{2,3}`; `d2=d5` pairs `{0,2},{1,3}`; `d3=d4` pairs
+`{0,3},{1,2}`. (A coincidence between pairs sharing an index would put three of
+the four points on a line, which is excluded.) So a coincidence reads
+
+```text
+c_b - c_a = lambda (c_d - c_c),    lambda != 0,   {a,b} disjoint from {c,d}.
+```
+
+**Lemma.** Under such a relation, `a_x = 3` forces `a_x = 4`.
+*Proof.* If the non-matching index lies in `{c,d}`, then `c_b - c_a = 0`, so
+`lambda(c_d - c_c) = 0`, so `c_d = c_c = u(x)`. If it lies in `{a,b}`, then
+`c_d - c_c = 0`, so `c_b = c_a = u(x)`. ∎
+
+But `a_x = 4` means all four codewords agree at `x`, i.e. `x in G`. Hence **off `G`,
+`a_x <= 2`** (not merely `<= 3`). Re-running the budget count of `(CZB)` with this
+sharper pointwise bound:
+
+```text
+4(m - g) <= sum_{off G} a_x <= 2(n - z),     g = z - b
+  =>  4b <= 2z - n + 4,   so  b >= 0  forces  z >= (n-4)/2.
+```
+
+Against `CZB`'s `z <= (n-2)/3` this is a contradiction whenever
+`3n - 12 > 2n - 4`, i.e. **for every `n > 8`**. At the official row the two bounds
+miss by `366,503,875,924`. Therefore no coincidence can occur and `Ddir = 6`.
+
+**Consequently the `s = 2` case is completely determined:**
+
+```text
+Ddir = 6,     b = 0,
+z    in {733,007,751,849, 733,007,751,850},
+d_s  in {1,466,015,503,703, 1,466,015,503,702}   (exactly the (2n+2)/3 floor).
+```
+
+So route 3 of the attack surface is **fully paid**: `b = 0` holds in the `s = 2`
+case unconditionally, not just generically. What remains for the bridge is `s = 3`
+(where the compilers give cap 8 and cannot bite) and the chamber-to-`s` map itself.

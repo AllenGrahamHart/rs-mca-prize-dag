@@ -541,3 +541,18 @@ So the `s=2` route is: `Ddir=6` closed (b=0), residual `Ddir in {4,5}`.
 since a pencil member's root may lie in the base locus. Each point of `G` belongs
 to exactly one direction, so `sum|R_dir| <= n` and there is no improvement. Caught
 before committing.
+
+**Session 6d — `s=2` fully determined.** `Ddir in {4,5}` excluded. Every
+coincidence is a disjoint-pair proportionality `c_b-c_a = lam(c_d-c_c)` (sharing an
+index would make three points collinear), and under such a relation `a_x=3` forces
+`a_x=4`; since `a_x=4` means `x in G`, off `G` we get `a_x <= 2` rather than `<= 3`.
+Re-running the CZB budget with that sharper pointwise bound gives
+`4b <= 2z-n+4`, hence `z >= (n-4)/2`, contradicting CZB's `z <= (n-2)/3` for every
+`n > 8` (they miss by 3.67e11 at the official row). So `Ddir = 6` always, and
+
+    s=2  =>  Ddir=6,  b=0,  z in {733007751849, 733007751850},
+             d_s in {1466015503702, 1466015503703} (the (2n+2)/3 floor).
+
+Attack-surface route 3 is now FULLY paid: `b=0` in the `s=2` case
+unconditionally. Residual for the bridge: the `s=3` case (cap 8, compilers cannot
+bite) and the chamber-to-`s` map itself.
