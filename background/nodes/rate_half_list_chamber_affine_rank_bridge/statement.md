@@ -348,3 +348,30 @@ multiplicative coset of order `2^41` by six fibers of one rational map — and i
 the natural place to look for the contradiction that would exclude `s=2` entirely
 and force `s=3`. Note `d_1 = K+1` exactly (the MDS floor), since the six
 differences have weight `K+1` or `K+2`.
+
+### `s=2` reduced to a six-fiber covering of the coset (2026-07-26)
+
+The near-exhaustion above has an exact reformulation. Let `S = union of R_dir`
+(disjoint, `|S| >= 6(d-1)` with `d = K-1-z`), and `E = prod_{x in D \ S}(X-x)`,
+`deg E = n - |S| <= 8`. Since `prod_i Q_i` vanishes on `S` and has degree `<= 6d`,
+
+```text
+E * prod_{i=1}^{6} Q_i = c' * W * (X^n - c),        deg E <= 8,  deg W <= 6,
+```
+
+where the `Q_i` are six members of the **two-dimensional** pencil. Equivalently:
+
+> a degree-`d` rational map `psi = A/B` sends the order-`2^41` multiplicative coset
+> `D` into a set of just **six** points, with at most 8 exceptions — i.e.
+> `D = psi^{-1}(Lambda)` up to 8 points, `|Lambda| = 6`.
+
+This is the balanced case `n = 6d` (indeed `6d` and `n` agree to within 6, which is
+exactly what pinned `z`).
+
+**Where to attack.** The most symmetric realization would take the six `lambda_i`
+in geometric progression, giving `prod_i (A - lambda_i B) = A^6 - mu B^6` and
+requiring the coset to be a `6`-th power fibration — but `n = 2^41` has **no factor
+of 3**, so `6 | n` fails and that realization is unavailable. The open question is
+whether an asymmetric `Lambda` can do it: does a degree-`d` map exist carrying a
+multiplicative coset of 2-power order onto six points? A negative answer excludes
+`s = 2` outright and forces `s = 3`, completing half the bridge.
