@@ -371,3 +371,45 @@ which `e(T)^2 - T^9` splits completely over `mu_N`. Equivalently, bound
 often a `p^4`-parameter family meets the `C(N,9)` split polynomials — Weil/Deligne
 territory, and quantitative in `p`, which the existence witness proved is the only
 kind of argument that can work.
+
+### Cyclotomic reframing, and why `ell=2` closed but `ell=4` cannot the same way
+
+The conditions are **not intrinsically about `F_p`**. Choose nine distinct elements
+`zeta^{b_1},...,zeta^{b_9}` of `mu_{2N}` abstractly, in `Z[zeta_{2N}]`. Their
+`e_2, e_4, e_6, e_8` and `e_9 - 1` are cyclotomic integers, independent of `p`, and
+
+> a solution mod `p` is exactly a 9-subset `B` with
+> `I_B = (e_2, e_4, e_6, e_8, e_9 - 1) subset Z[zeta_{2N}]` contained in a prime
+> above `p`.
+
+That is the `Delta`-certificate framework restated **on subsets of `mu_{2N}`**
+rather than on an elimination ideal in the quartic's coefficients — which is exactly
+where the doubly-exponential blow-up lived. This form has no blow-up at all.
+
+**But the counts settle the method.** Raw subset counts `C(2N, w)`:
+
+| cell | `2N` | `C(2N,w)` | `log2` | published certificate covers |
+|---|---:|---:|---:|---:|
+| (2,5) | 2048 | 2.99e14 | 48.1 | **1,514 orbits** |
+| (2,6) | 2048 | 1.02e17 | 56.5 | **404,740 orbits** |
+| (4,9) | 4096 | 8.86e26 | **89.5** | — |
+| (4,10) | 4096 | 3.62e29 | 98.2 | — |
+| (4,11) | 4096 | 1.13e32 | 106.7 | — |
+
+So the closed `ell=2` certificates achieve a reduction of about **`2^37`** from raw
+subsets to covered orbits. Odd-dilation and root-renormalisation account for only
+~`2^11` of that; the rest is done by the **routers** (pair-quadratic,
+triple-cubic), which reparametrise by a few shape variables instead of enumerating
+subsets. That is what "router" means operationally.
+
+At `ell = 4` the raw count is `2^89.5`, and closing it this way would need a router
+achieving a reduction beyond anything at `ell = 2`. None exists, and the sizing
+ledger's `8.07e17` census figure for `(4,9)` says the same thing from the other
+side.
+
+**Conclusion for the lane.** Three routes are now excluded by structure rather than
+by effort: the elimination ideal (coefficient blow-up), the subset/`Delta` census
+(`2^89.5` orbits), and every structural argument (the existence witness). What
+remains is a **quantitative bound in `p`** on
+`#{e : T^9 - e(T)^2 splits completely over mu_N}` — the one-line form above. That is
+the only door left open, and the existence witness is what proved the others shut.

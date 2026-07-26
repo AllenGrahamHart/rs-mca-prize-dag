@@ -904,3 +904,23 @@ Progress metric, not census:
 - **upstream PRs:** #1107 (E-1 corridor prime), #1108 (E-2 Proth replay)
 - **self-corrections:** 6, each recorded in commits rather than quietly fixed
 - **census (datum):** `260 = 201/36/23`
+
+**Session 7h — why `ell=2` closed and `ell=4` cannot, and the last door.**
+
+Cyclotomic reframing: the conditions are `p`-independent. For a 9-subset `B` of
+`mu_{2N}` taken in `Z[zeta_{2N}]`, a solution mod `p` is exactly
+`I_B = (e_2,e_4,e_6,e_8,e_9-1)` sitting in a prime above `p`. That is the
+`Delta`-certificate idea restated on SUBSETS rather than on an elimination ideal in
+the quartic's coefficients — no blow-up.
+
+But the counts settle it. Raw `C(2N,w)`: `(2,5)` = `2^48`, `(2,6)` = `2^56`,
+`(4,9)` = `2^89.5`. The published `ell=2` certificates cover 1,514 and 404,740
+orbits — a reduction of ~`2^37`, of which dilation/renormalisation give only
+~`2^11`. **The routers do the rest**, by reparametrising to shape variables instead
+of enumerating subsets. At `ell=4` no comparable router exists, matching the sizing
+ledger's `8.07e17`.
+
+**Three routes now excluded by structure, not effort:** the elimination ideal
+(coefficient blow-up), the subset/`Delta` census (`2^89.5`), and every structural
+argument (the existence witness). The one door left is a **quantitative bound in
+`p`** on `#{e : T^9 - e(T)^2 splits completely over mu_N}`.
