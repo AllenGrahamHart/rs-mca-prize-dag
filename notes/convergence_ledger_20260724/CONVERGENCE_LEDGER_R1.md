@@ -128,6 +128,44 @@ House law: independent reconstruction + exact-integer replay before any vendored
 
 ## 6. THE LEAN PLAN — phased, his-priority-aligned
 
+> **STANDING USER DECISION, 2026-07-26 — LEAN IS DEFERRED BEHIND THE INFORMAL PROOF.**
+> *"Prefer to push the proof frontier informally for now — focus on formalising
+> results later"* / *"we will focus on lean only after there is a full informal
+> proof, this will prevent us formalising results which end up not making it or
+> being tweaked."* Formalization follows a **complete, stable informal proof** —
+> never runs ahead of one. Rationale is churn: a node whose statement is still
+> moving (the rate-half poses have been re-scoped in waves 8, 9 and 10 alone)
+> would be formalized against a statement that then changes, and the sunk Lean
+> work is lost. Everything in this section below — the C3-5 pilot, Phase 0(a)/(b),
+> Phase 1, and the C3-6 `lean_ready` audit — is therefore **PAUSED**, not
+> cancelled, and does not gate any export.
+>
+> Two independent findings support the same call (measured 2026-07-26 at
+> `origin/main` b13de811, `gh` read-only):
+> 1. **The Lean lane upstream is densely occupied, not greenfield.** 447 `.lean`
+>    files in-tree; ~92 Lean-titled PRs — **holmbuar 55, LegaSage 29,
+>    scottdhughes 6, manifoldcontrol 2, us 2** (#16 starter, #207 tier-one gate
+>    arithmetic). §6 was written as if nodes→modules were an opening move; it is
+>    not, and a volume promise there would have been racing two established
+>    formalizers. Registry rule (1) — never race an open Lean-certified PR —
+>    applies to the whole lane, not just holmbuar's rate-half trio.
+> 2. **C3-5's pilot object sits in a third contributor's packet.** The corridor
+>    certificates are latifkasuli's #275 (merged 2026-07-05, cited in v4 as
+>    `Corridor26`); the Pocklington/Proth format anchors are his own e1 and
+>    Paving packets. A pilot there would have been an addendum to someone else's
+>    work, credited accordingly — fine as a courtesy export, worthless as a
+>    "cheapest end-to-end test of OUR nodes→modules mapping."
+>
+> **A5 REGISTRY DEFECT (same measurement, fix owed in Part 2):** the
+> occupied-territory boundary map omits **LegaSage entirely (121 PRs, 29 of them
+> Lean, thresholds/C9 lane)** and **latifkasuli entirely (27 PRs: the corridor
+> imports #275, the `formalize:` census program, CircleCode/ECFFT/cap25 skeleton
+> repairs)**, and describes holmbuar without mentioning that he is the repo's
+> principal formalizer. Two of the three lanes the ledger wanted to push into
+> were unmapped. Re-derive Part 2 from a per-author sweep, not from the open-PR
+> queue alone — the queue only shows the two contributors who happen to be active
+> this week.
+
 Constraints on record: his priority order (agents.md §7: (i) proved local theorems in live atoms, (ii) first-match/add-back kernels, (iii) endpoint/integer conversion, (iv) row certificates + counterexample correspondence); banned: stubs, axiomatized global conjectures, end-to-end GF while inputs are open.
 
 - **Pilot (C3-5, rides E-1/E-2, week 1–2):** Lean 4 verification of the Pocklington/Proth certificates + exact `floor(q·2⁻¹²⁸)` endpoint conversion — squarely his genres (iii)/(iv), reuses his in-repo toolchain, cheapest end-to-end test of nodes→modules on content both sides have blessed.
