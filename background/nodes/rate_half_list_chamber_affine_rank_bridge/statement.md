@@ -30,9 +30,18 @@ chamber  |-->  (s, d_1, ..., d_s, b),
 where `s = dim_F span{c_1-c_0, c_2-c_0, c_3-c_0}` is the affine rank, `d_j` are
 the generalized Hamming weights of that direction code `C'`, `G` is its
 common-zero set, `z = |G| = n - d_s`, `g` is the number of points of `G` at which
-the common value agrees with `u`, and `b = z - g`. A **lower** bound on `s` and on
-each `d_j`, plus an upper bound on `b`, suffices — those are the only inputs the
-compilers consume.
+the common value agrees with `u`, and `b = z - g`.
+
+> **CORRECTION 2026-07-26 (forced; caught by Codex comparison, verified
+> independently here).** This paragraph originally read *"a lower bound on `s` and
+> on each `d_j`, plus an upper bound on `b`, suffices."* **That orientation is
+> wrong.** In `thm:rank-flat-list` the top weight `d_s` occurs in the falling
+> factorial `d_s^{under s}` (numerator) *and* in the factor `d_s - t + b`
+> (denominator), so the cap is not monotone in `d_s`. Measured at `s=3`, `b=0`,
+> `d_1 = R+1`, `d_2 = R+2`: the cap **rises** from `8` at `d_3 = R+3` to `21` at
+> `d_3 = n`. A lower bound on `d_3` therefore makes the bound *worse*, not better.
+> **Two-sided control of `d_s` is required.** The bridge must deliver an interval
+> for `d_s`, not a floor.
 
 ## Why this is owed
 
@@ -589,3 +598,25 @@ tight. What remains is an *equality-case* problem — classify the configuration
 attaining `T*d = n` with the root sets partitioning a `mu_{2^41}`-coset. That is
 the same genre as the M-1 sharp-cap stratum `h = 0`, which is also an equality
 case, and is the honest reason both lanes are hard at the same point.
+
+#### Codex harvest note (2026-07-26, awareness only — NOT integrated)
+
+Codex branch `prize-codex-resolution-v10-20260722` @ `1e359dfb` proves
+**`b = 0` unconditionally, in all six incidence types and all thirteen chambers**
+(node `rate_half_list_budget_three_common_mismatch_zero`, via a budget-three
+intersection reduction: the selected agreement sets cover `D`, so one selected
+agreement at a common direction-zero forces the common value to equal `u`).
+
+That is **stronger than this node's own `b = 0`**, which was obtained via `(CZB)`
+and holds only in the `s=2`, `Ddir=6` branch. The two are independent routes to the
+same conclusion, which is corroboration rather than duplication — but if the Codex
+result is integrated, this node's `b`-analysis becomes redundant and should be
+retired to a route record.
+
+**Not vendored here.** Codex raw branches are read-for-awareness only; integration
+is audit-gated. What *is* applied is the forced correction above, which is a defect
+in this node's own text.
+
+**Residue after the harvest:** `b` is settled either way. The live bridge question
+is exactly the **chamber → `(d_1, d_2, d_3)` transport**, now needing a two-sided
+interval for `d_3` rather than a floor.
