@@ -1238,6 +1238,21 @@ condition `s notin F_p`. Constant, linear, and quadratic colored Frobenius
 degrees are now empty on all five endpoint rows; the live order-zero degree
 starts at three.
 
+The degree split is no longer needed on the four `m=8,h=7` rows.
+`l1_mersenne_hnf_m8_order_zero_reciprocal_elimination` uses the first three
+coefficient equations of the bounded reciprocal gate. Two eliminants of
+degrees 1320 and 1760 have degree-1032 gcd
+
+```text
+s^176(s-1)^4(s+1)^176(s+2)^168(s+3)^162
+(s+4)^152(s+5)^128(s+6)^64(s+7)^2,
+```
+
+so every common solution has `s in F_p`, a contradiction. The complete
+order-zero outer chamber is therefore empty on all four `m=8` rows,
+including every color degree. The `m=16` order-zero chamber still starts at
+degree three.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

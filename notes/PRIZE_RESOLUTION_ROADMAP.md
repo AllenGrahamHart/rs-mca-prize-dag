@@ -2284,3 +2284,24 @@ live compute requests: none added or consumed
 next route-deciding action: use the colored Frobenius congruence/resultant
                               system to classify cubic order-zero colors
 ```
+
+**2026-07-26, complete m=8 order-zero outer close:**
+`l1_mersenne_hnf_m8_order_zero_reciprocal_elimination` bypasses the cubic
+split and closes every remaining color degree on all four `m=8,h=7` rows.
+For the reciprocal coefficient equations `F_j(s,t)=0`, form
+`R_12=Res_t(F_1,F_2)` and `R_13=Res_t(F_1,F_3)`. Exact bounded
+interpolation gives degrees 1320 and 1760, and on every official
+characteristic their gcd is
+
+```text
+s^176(s-1)^4(s+1)^176(s+2)^168(s+3)^162
+(s+4)^152(s+5)^128(s+6)^64(s+7)^2.
+```
+
+Every root is prime-field valued, contradicting `s notin F_p`. An
+independent audit reconstructs all `Q_s` coefficients from 228 companion-
+matrix characteristic polynomials before repeating the eight eliminants.
+Result: `CLOSED` for the complete `m=8` order-zero outer chamber and
+`NARROWED` for L1; `m=16` order zero, order one, and the inner/global
+payments remain. No Modal job, compute request, critical status, upstream
+terminal, or endpoint bracket changes.

@@ -16103,6 +16103,25 @@
    "attack_surface": "(1) Compute (s,d_j,b) from one chamber's locator data - the four block locators A_i and edge factors b_ij - via the triangle identities A_k b_ij + A_i b_jk = A_j b_ik and the Plucker gate b_01b_23 - b_02b_13 + b_03b_12 = 0; the A_i partition the multiplicative-coset vanishing polynomial, so d_s should be readable off the exceptional degree (in {3,4,5,6,8} for the nine Grassmann-line chambers). (2) Prove s=3 outright by showing a coplanar quadruple at a=3n/4-1 forces a locator degeneration incompatible with every chamber - an equality-case rigidity problem, since s=2 sits exactly at the cap. (3) Prove b=0 outright from the common-zero structure: on G all four members share one value, so b >= 1 costs every member an agreement against an already tight budget.",
    "falsifier": "Two four-codeword configurations realizing the SAME chamber with different affine rank s (or different b): the chamber would not determine the affine invariants, refuting the bridge as posed and forcing a refinement of the atlas before any compiler can be applied per chamber. Wired instance: background/nodes/rate_half_list_chamber_affine_rank_bridge/verify.py re-derives every witness of the banked F_17 branch and fails closed on any with s != 3 or b != 0.",
    "notes": "Minted 2026-07-26 (queue r2 Q1) out of the H1/S3 replay recorded in critical/nodes/rate_half_list_adjacent_crossing/notes/affine_span_chamber_replay_20260726.md. Wired ev, NOT req: rate_half_list_adjacent_crossing does not depend on this bridge for its truth; the bridge only decides whether the H1 harvest can ever be promoted to a requirement edge. Subtraction check clean - no upstream prior art at b13de811 for chamber/affine-rank language in v4 or grande_finale. F_17 evidence is a power-of-two multiplicative-domain route fence, never a proof of the official uniform statement; no transport to d = 2^39."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
+   "title": "L1 Mersenne HNF m=8 order-zero reciprocal elimination",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The complete m=8,h=7 order-zero outer HNF chamber is empty on all four official rows. Two low-index Frobenius-reciprocal eliminants have a degree-1032 gcd whose roots are all prime-field values of s.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -30669,6 +30688,21 @@
   {
    "from": "rate_half_list_chamber_affine_rank_bridge",
    "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_frobenius_reciprocal_gate",
+   "to": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
+   "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }
  ]

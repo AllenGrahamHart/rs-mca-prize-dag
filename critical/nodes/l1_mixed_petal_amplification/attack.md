@@ -617,6 +617,11 @@
   only prime-field roots, so degree two is closed on every `m=8,16` endpoint.
   Start all remaining order-zero colored work at `deg E>=3`; do not include
   any quadratic chamber in a future Frobenius saturation.
+  Before doing any higher-degree split, consume
+  `l1_mersenne_hnf_m8_order_zero_reciprocal_elimination`: delete the complete
+  order-zero chamber on all four `m=8,h=7` rows. Its first three reciprocal
+  equations already force `s in F_p`, uniformly over every interpolant
+  degree. Higher-degree order-zero work is now owed only at `m=16,h=15`.
   For the order-one chamber, first consume
   `l1_mersenne_hnf_order_one_frobenius_gate`. Put `d=c-1` and shard only by
   `zeta=d^(p+1) in mu_m`; then `c^p=1+zeta/d`. Combine the hypergeometric
