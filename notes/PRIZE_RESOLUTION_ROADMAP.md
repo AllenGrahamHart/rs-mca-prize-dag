@@ -820,6 +820,17 @@ The current RowC characteristic is explicitly unpinned, so this branch is not
 instantiated. Result: the harvested supplier is exhausted as a high-field
 clean-anchor strategy; those rows need `Q`, another direct `V`, or `M`.
 
+N17 DONE, QFLOOR CLEAN-ANCHOR NORM-THRESHOLD ROUTE CUT: the six clean
+predecessors have canonical quotient parameters
+`(N',ell')=(256,65),(256,33),(512,33)`. The strict qfloor norm thresholds
+`(2ell')^(N'/2)` have `899,774,1548` bits, respectively, while every official
+characteristic satisfies `p<=q<2^256`. Thus `qfloor_exact` is inapplicable on
+all six rows. Their exact raw binomial counts still exceed budget by factors
+of at least `1245`; this is strong quotient-multiplicity evidence, not a
+distinct ambient-slope certificate. The positive quotient route now lands
+precisely on direct-E1/value-set injectivity or a replacement collision
+theorem. No safety or endpoint movement follows from the route cut.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable
@@ -2626,4 +2637,34 @@ next route-deciding action: skip identity-prefix on the high-field clean rows;
                               at their exact unsafe predecessors, beginning
                               with whether the banked A-1 quotient witness is
                               already a valid ambient-field Q payload
+```
+
+**2026-07-26, clean-anchor qfloor route exhausted:** exact derivation of the
+canonical quotient orders confirms that the above-budget `A-1` binomial
+censuses are outside the proved qfloor norm regime on every clean anchor. The
+smallest raw-count margin is still a factor of `1245`, so the witness family
+is large; the missing fact is distinctness after reduction, not multiplicity.
+
+Cycle burn-down:
+
+```text
+starting pin: local cb8dd9a6; canonical cc979e4b;
+              upstream origin/main b13de811
+ending proof pin: local 57256915; canonical/upstream unchanged
+node attacked: unsafe_crossing_family_instantiation, quotient-Q branch
+result: CLOSED AS ROUTE CUT on all six clean anchors; direct E1/value-set
+        injectivity remains OPEN
+DAG delta: +1 off-orbit PROVED node, +1 req edge, +1 evidence edge;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24
+upstream terminal delta: none; this is a scoped no-go extraction
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; six exact powers and binomial comparisons
+next route-deciding action: treat the clean quotient family as a direct-value
+                              problem; determine the exact Acl/value-set lower
+                              bound required on each candidate and whether one
+                              route-uniform exceptional-prime theorem can pay
+                              all six, otherwise move to an exact post-paid M
+                              family rather than reusing qfloor
 ```

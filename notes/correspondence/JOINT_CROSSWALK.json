@@ -51,6 +51,26 @@
    }
   },
   {
+   "our_node": "qfloor_clean_anchor_norm_threshold_route_cut",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact six-anchor applicability audit for upstream/local qfloor norm injectivity under the official field cap",
+   "owner": "US",
+   "nonclaims": [
+    "raw quotient multiplicity is not a distinct-value count",
+    "inapplicability of qfloor_exact is not a safety certificate",
+    "direct E1/value-set injectivity remains open"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "57256915",
+    "his_sha": "b13de811"
+   }
+  },
+  {
    "our_node": "f2_growing_order_myerson",
    "his_object": {
     "label": "U_Q / row-sharp Q atom (K2, Sidon-Fourier payment)",
