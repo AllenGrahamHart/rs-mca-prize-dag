@@ -2507,6 +2507,7 @@
     "critical/nodes/dli_prime_weighted_large_block_support/notes/verify_round7_reply.py": "147db66b2c6cac81b61c75140e517390c2bddc8f61697546b05adf546656707c",
     "critical/nodes/dli_reduced_phase_manifest_soundness/verify.py": "78e87b5a38cc361d26b350624a2c80d9cb95b71bedad85dfde9e6f07b230c410",
     "critical/nodes/dli_reduced_pole_majorant_table_soundness/verify.py": "97367ae200a216c0d2834d19b4e1a564afcbc0951b377832c1eee84e6b22db7a",
+    "critical/nodes/dli_wcl_zone_coverage/verify_router_doubling_soundness.py": "d6ec653e8f4aee07b9b43224c40ba289acac37c5f507d64aa2e602620c3cf9ce",
     "critical/nodes/dli_wcl_zone_coverage/verify_slot_decomposition.py": "fde378f8b28accb5f6dfa91e2b3eb5fc565250f1cf12beeefbf14cf7727a9b35",
     "critical/nodes/dyadic_profile_evaluation/verify.py": "96ee55cc1f95d9b3704599e9690d341a8ac63c839949db9272e0212f8e96f4ef",
     "critical/nodes/e1_folded_certificate_manifest_soundness/verify.py": "31abaa74c2801b027364f24485fdaf090c69fc4d21e7ad233b11336d8f5b146e",
