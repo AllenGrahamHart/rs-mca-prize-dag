@@ -222,6 +222,74 @@
    }
   },
   {
+   "our_node": "upstream_gfv4_affine_span_list_compiler",
+   "his_object": {
+    "label": "thm:affine-span-list + thm:rank-flat-list",
+    "file": "experimental/grande_finale.tex",
+    "line": "thm:affine-span-list / thm:rank-flat-list"
+   },
+   "relation": "IDENTICAL",
+   "chain": "independent local reconstruction and arithmetic/toy-RS replay",
+   "scope": "exact theorem statements at upstream pin b13de811",
+   "owner": "HIM",
+   "nonclaims": [
+    "locator Grassmann rank is NOT identified with codeword affine rank"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved",
+   "lean": null,
+   "provenance": {
+    "our_sha": "e73db6de",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "upstream_gfv4_fixed_union_johnson",
+   "his_object": {
+    "label": "thm:fixed-union-ray + thm:single-mds-circuit-ray + thm:fixed-union-list-johnson",
+    "file": "experimental/grande_finale.tex",
+    "line": "fixed-union compiler block"
+   },
+   "relation": "IDENTICAL",
+   "chain": "independent local matroid/Johnson reconstruction and bounded replay",
+   "scope": "one fixed union U with the printed transversality and positivity hypotheses",
+   "owner": "HIM",
+   "nonclaims": [
+    "no summation over all support unions",
+    "no budget-three chamber exclusion"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved",
+   "lean": null,
+   "provenance": {
+    "our_sha": "e73db6de",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "rate_half_list_budget_three_affine_rank_rigidity",
+   "his_object": {
+    "label": "Lane L / affine-span list compiler equality case",
+    "file": "experimental/grande_finale.tex",
+    "line": "thm:affine-span-list"
+   },
+   "relation": "OVERLAP",
+   "chain": null,
+   "scope": "new local corollary: four words at (n,K,m)=(4d,2d,3d-1), d>=3, have affine codeword rank three",
+   "owner": "US",
+   "nonclaims": [
+    "not present upstream at b13de811",
+    "does not close any of the thirteen locator chambers"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "e73db6de",
+    "his_sha": "b13de811"
+   }
+  },
+  {
    "our_node": "x4_exactlist_staircase_split",
    "his_object": {
     "label": "prob:list-completion assembly",

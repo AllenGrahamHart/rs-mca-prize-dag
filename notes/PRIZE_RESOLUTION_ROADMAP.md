@@ -2109,3 +2109,26 @@ Partial-credit conditional dossier at submission quality: ~85% — the
 statistically likely outcome, and the reason dossier work is front-loaded.
 Relocated-delta* determination: ~5-10%. If D1/U3 adjudicate a unifying
 lemma live, the top lines move and the priors are re-issued.
+
+## 12. Joint harvest execution log
+
+**2026-07-26, H1 complete:** the affine-span, generalized-weight,
+fixed-union ray, single-circuit, and fixed-syndrome Johnson compilers from
+upstream `b13de811` now have independent local proofs and bounded replays in
+`upstream_gfv4_affine_span_list_compiler` and
+`upstream_gfv4_fixed_union_johnson`. Their exact scopes are crosswalked.
+
+The rate-half equality case is stronger than the initial planning note:
+`rate_half_list_budget_three_affine_rank_rigidity` proves that every
+four-codeword witness at `(n,K,m)=(4d,2d,3d-1)`, `d>=3`, has affine codeword
+rank three. Rank two would force `2d+2` active agreement coordinates but
+only six roots among pairwise affine-linear quotient differences.
+
+This changes no chamber status and no adjacent endpoint. The thirteen
+chambers classify block-locator Plucker geometry; the imported theorem
+classifies affine flats of actual codewords. The next route-deciding theorem
+is therefore a bridge from a chamber's locator identities to a constant
+affine dependence among its four codewords. Without that bridge, calling a
+locator Grassmann line a codeword pencil is a scope error. Fixed-union
+compilers remain one-chart evidence only and must not be summed over support
+unions without a disjoint atlas.

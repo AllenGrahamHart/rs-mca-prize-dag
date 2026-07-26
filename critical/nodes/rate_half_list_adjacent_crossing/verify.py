@@ -15,6 +15,7 @@ FLOOR = "rate_half_cyclic_rotated_prefix_floor"
 SAFE_ANCHOR = "rate_half_list_integer_johnson_safe_anchor"
 LOW_BUDGET = "rate_half_list_low_budget_exact_crossing"
 BUDGET_THREE = "rate_half_list_budget_three_intersection_reduction"
+AFFINE_RANK = "rate_half_list_budget_three_affine_rank_rigidity"
 CYCLE_BIMOBIUS = "rate_half_list_budget_three_cycle_bimobius_transversal"
 RESIDUAL_TRANSVERSAL = "rate_half_list_budget_three_residual_transversal_atlas"
 K4_GRASSMANN = "rate_half_list_budget_three_k4_grassmann_line"
@@ -158,6 +159,7 @@ def main() -> int:
         ("safe_anchor_is_proved", nodes[SAFE_ANCHOR]["status"] == "PROVED"),
         ("low_budget_is_proved", nodes[LOW_BUDGET]["status"] == "PROVED"),
         ("budget_three_reduction_is_proved", nodes[BUDGET_THREE]["status"] == "PROVED"),
+        ("affine_rank_rigidity_is_proved", nodes[AFFINE_RANK]["status"] == "PROVED"),
         ("cycle_bimobius_transversal_is_proved", nodes[CYCLE_BIMOBIUS]["status"] == "PROVED"),
         ("residual_transversal_atlas_is_proved", nodes[RESIDUAL_TRANSVERSAL]["status"] == "PROVED"),
         ("k4_grassmann_line_is_proved", nodes[K4_GRASSMANN]["status"] == "PROVED"),
@@ -269,6 +271,7 @@ def main() -> int:
             == [
                 (SCALAR_DESCENT, "ev"),
                 (FLOOR, "ev"),
+                (AFFINE_RANK, "ev"),
                 (ANTIPODAL_FOURTH_ROOT_GAP, "ev"),
                 (ANTIPODAL_GENERIC_CANONICAL_SPAN, "ev"),
                 (ANTIPODAL_GENERIC_DELETED_PAIR_ORTHOGONAL_SIGN, "ev"),
@@ -384,6 +387,11 @@ def main() -> int:
         ("consumer_names_new_leaf", NODE_ID in consumer),
         ("statement_pins_ordinary_object", "L_1(a)" in statement and "m=1" in statement),
         ("statement_pins_threshold", "B*=floor(q/2^128)" in statement),
+        (
+            "statement_pins_affine_rank_scope",
+            "codeword affine rank three" in statement
+            and "No chamber is" in statement,
+        ),
         (
             "statement_pins_razor_lower_bound",
             "17,179,869,184" in statement and "k+2^34" in statement,

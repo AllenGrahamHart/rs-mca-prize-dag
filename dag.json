@@ -8090,6 +8090,66 @@
    "statement": "For a rank-two dual-product-code trade, each active coordinate is nonzero in all but at most one projectively distinct block row. Double-counting pairwise support intersections excludes pair cap at most three. Under pair cap four it forces 4<=t<=6, 6<=R<=8, and exactly five zero-set profiles: (t,R;z)=(4,6;1^4),(4,7;1,2^3),(4,8;2^4),(5,6;1^5),(6,6;1^6). The row space is a two-dimensional dual-GRS_4 subcode and the row-coefficient space a two-dimensional dual-RS_2 subcode; either inclusion is equality at R=6 or t=4 respectively. Explicit finite-field trades realize all five profiles, so this is a sharp support atlas, not a chart payment."
   },
   {
+   "id": "upstream_gfv4_affine_span_list_compiler",
+   "title": "Upstream affine-span and rank-flat RS list compilers",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/statement.md",
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/proof.md",
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/audit.md",
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/verify.py",
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/verify_audit.py",
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/result.md",
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/upstream_crosswalk.md"
+   ],
+   "statement": "For an affine direction-s codeword flat in RS[F,D,K], the number of members agreeing with one received word on at least m=K+w coordinates is at most floor(C(n-K+s,s)/C(w+s,s)). With generalized direction-code weights d_j, common-zero miss count b, and t=n-m, the sharper cap is floor(d_s falling s / product_j(d_j-t+b)), where d_j>=n-K+j. This independently reconstructs upstream thm:affine-span-list and thm:rank-flat-list at b13de811.",
+   "upstream": {
+    "label": "thm:affine-span-list + thm:rank-flat-list",
+    "relation": "IDENTICAL"
+   }
+  },
+  {
+   "id": "upstream_gfv4_fixed_union_johnson",
+   "title": "Upstream fixed-union RS ray and Johnson compilers",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/upstream_gfv4_fixed_union_johnson/statement.md",
+    "background/nodes/upstream_gfv4_fixed_union_johnson/proof.md",
+    "background/nodes/upstream_gfv4_fixed_union_johnson/audit.md",
+    "background/nodes/upstream_gfv4_fixed_union_johnson/verify.py",
+    "background/nodes/upstream_gfv4_fixed_union_johnson/verify_audit.py",
+    "background/nodes/upstream_gfv4_fixed_union_johnson/result.md",
+    "background/nodes/upstream_gfv4_fixed_union_johnson/upstream_crosswalk.md"
+   ],
+   "statement": "For one fixed union U of R+nu RS parity-check columns and t<R, transverse syndrome-line slopes with t-sparse lifts number at most floor(C(R+nu,nu+1)/(R-t)); at nu=1 this is floor(R(R+1)/(2(R-t))). In one fixed syndrome fiber, if h=R+nu-t and h^2>(R+nu)(nu-1), the t-sparse lifts number at most floor((R+nu)(h-nu+1)/(h^2-(R+nu)(nu-1))). This independently reconstructs the three fixed-union theorems at b13de811 and makes no all-chart claim.",
+   "upstream": {
+    "label": "fixed-union ray and Johnson compiler block",
+    "relation": "IDENTICAL"
+   }
+  },
+  {
+   "id": "rate_half_list_budget_three_affine_rank_rigidity",
+   "title": "Budget-three four-word witnesses have affine rank three",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/statement.md",
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/proof.md",
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/audit.md",
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/verify.py",
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/verify_audit.py",
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/result.md",
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/upstream_crosswalk.md"
+   ],
+   "statement": "For d>=3, four distinct codewords of RS[F,D,2d], |D|=4d, all agreeing with one received word on at least 3d-1 coordinates are affinely independent. A rank-two equality case would force 2d-2 common direction zeros and exactly two listed words at each of 2d+2 active coordinates; factoring the common locator leaves four distinct affine-linear quotients, whose six pairwise differences cannot cover more than six active coordinates. This constrains all thirteen budget-three chambers but closes none without a locator-rank/codeword-rank bridge.",
+   "upstream": {
+    "label": "Lane L affine-span equality case",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_list_adjacent_crossing",
    "title": "Rate-half ordinary-list adjacent crossing",
    "status": "TARGET",
@@ -22810,6 +22870,36 @@
   {
    "from": "rate_half_list_low_budget_exact_crossing",
    "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "upstream_gfv4_affine_span_list_compiler",
+   "to": "rate_half_list_budget_three_affine_rank_rigidity",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_affine_rank_rigidity",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "upstream_gfv4_affine_span_list_compiler",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "ev"
+  },
+  {
+   "from": "upstream_gfv4_affine_span_list_compiler",
+   "to": "list_safe",
+   "kind": "ev"
+  },
+  {
+   "from": "upstream_gfv4_fixed_union_johnson",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "ev"
+  },
+  {
+   "from": "upstream_gfv4_fixed_union_johnson",
+   "to": "list_safe",
    "kind": "ev"
   },
   {

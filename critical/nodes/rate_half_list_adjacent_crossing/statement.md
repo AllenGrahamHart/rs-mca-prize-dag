@@ -79,6 +79,16 @@ The predecessor witnesses contain respectively two and three explicit
 degree-`<k` codewords. No inference is made for `B*=3` merely because its
 Johnson safe anchor has the same value.
 
+The imported affine-span compiler and its exact equality analysis give one
+new necessary condition at the budget-three predecessor. For every `d>=3`,
+four distinct words of `RS[F,D,2d]`, `|D|=4d`, that all agree with one
+received word on at least `3d-1` coordinates must be affinely independent.
+The rank-two equality case would require `2d+2` active coordinates to be
+covered by only six pairwise crossings of affine-linear quotients. Hence all
+thirteen chambers now carry **codeword affine rank three**. No chamber is
+closed: the existing Grassmann-line/scroll rank is locator geometry, and no
+bridge identifying it with codeword affine rank is proved.
+
 The official `c=2` parity route now has a separate exact-one-antipodal
 reducer. If the denominator already contains one antipodal pair, common
 scaling gives
