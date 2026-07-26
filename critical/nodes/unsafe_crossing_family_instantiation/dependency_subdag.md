@@ -10,6 +10,9 @@ axis8_generating          --ev-->
 identity_prefix_flexible_budget_unsafe_floor --ev-->
 identity_prefix_clean_anchor_route_classification --ev-->
 qfloor_clean_anchor_norm_threshold_route_cut --ev-->
+e1_clean_anchor_exact_collision_allowance --ev-->
+e1_official_prime_exception_control       --ev-->
+e1_fullness                               --ev-->
 deployed_identity_prefix_owner_scope_audit  --ev-->
 
 unsafe_crossing_family_instantiation --req--> unsafe_at_crossing
@@ -31,4 +34,7 @@ It is a route cut, not another payload.
 
 The qfloor norm-threshold cut proves that the raw quotient censuses on all six
 clean predecessors lie outside `qfloor_exact`. Their distinct-value content
-remains with E1 or another collision theorem.
+remains with E1 or another collision theorem. The exact E1 compiler pins that
+route to `P<=A_2(N,ell)-B*-1` at quotient orders `N=256,512`; it supplies no
+bound on `P`, so the E1 target remains open. It also proves that
+`|F_p(Q)|<=B*` rules out E1 and must route elsewhere.

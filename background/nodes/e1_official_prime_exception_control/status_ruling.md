@@ -14,7 +14,10 @@ rules that the old implication did not prove it. The node is therefore a live
 `TARGET`. The named-exhibit machinery remains truth-apt background work and
 may still supply algorithms, calibration, or exhibit-specific results.
 
-Promotion requires either a route-uniform proof at the exact `e1_fullness`
-budget, or a complete per-input theorem/certifier covering every row assigned
-to direct E1. Finite successful experiments or exhibit certificates are
+Promotion requires either a route-uniform proof of the exact finite bound
+`P<=A_2(N,ell)-B*-1`, or a complete per-input theorem/certifier covering every
+row in the independently defined candidate class `|F_p(Q)|>B*`. Here
+`N in {256,512}` is the quotient order; the
+formerly printed `{128,256}` are folded dimensions. Finite successful
+experiments, asymptotic `o(1)` statements, and exhibit certificates are
 insufficient. Universal row coverage is a separate target.

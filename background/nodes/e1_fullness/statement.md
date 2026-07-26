@@ -1,25 +1,28 @@
 # e1_fullness
+
 - **status:** CONDITIONAL
+
 ## Statement
-The e1 non-quotient collision density estimate: for rows assigned to the
-direct quotient-value route,
-non-quotient e_1 collisions on C(mu_N', l') are o(1)-sparse relative to the
-signed-core quotient (the paid antipodal collisions). collision_norm_criterion
-(PROVED) reduces every non-quotient collision to divisibility of an explicit
-bounded nonzero norm by p; the ask is the density/typicality count over the
-admissible prime family (routes: split-prime transfer extension,
-norm_threshold_ext, or a direct bad-prime union bound). DATA (Modal, exact):
-N'=16 p=60161: measured value set = signed-core prediction EXACTLY
-(3281 = (3^8+1)/2); N'=32: 99.57% at p=1.5e9, 97.66% at p=7e8 (accidents
-shrink with p); prize-shape birthday scans (N'=128/256, 250-bit primes,
-2^22 samples): ZERO collisions.
 
-## Conditional decomposition
+For every admissible clean-anchor row in the direct-E1 candidate class
+`|F_p(Q)|>B*`, let `N in {256,512}` be its actual quotient order,
+`ell=rho N+1`, `K=A_2(N,ell)`, and `B*=floor(|F|/2^128)`. Conditional on
+`e1_official_prime_exception_control`, the reduced E1 value set satisfies
 
-The collision mechanism is reduced by `e1_exceptional_set_reduction`. The
-remaining open predicate is `e1_official_prime_exception_control`: every row
-assigned to the direct E1 quotient-value route must satisfy the explicit
-exceptional norm-divisor budget in the two open cells. A certificate route must
-cover every assigned row; a finite named-exhibit manifest does not establish
-this quantifier. This is one supplier route for
-`unsafe_crossing_family_instantiation`, not a universal row router.
+```text
+|{-e_1(B) in F : B an antipodal-rearrangement class}| > B*.
+```
+
+Therefore the canonical quotient line supplies a direct-value `V` payload at
+agreement `m=k+n/N`, after the row packet pins the ambient slope field,
+generated-field transfer, quotient embedding, first-match owner, and endpoint.
+
+The proved reduction `e1_exceptional_set_reduction` identifies every residual
+class collision with an explicit norm divisor. The exact finite loss compiler
+is `e1_clean_anchor_exact_collision_allowance`. The former claim that
+collisions are merely `o(1)`-sparse is retained only as heuristic/asymptotic
+motivation; it is not the finite conclusion of this node.
+
+This is one supplier route for `unsafe_crossing_family_instantiation`. Rows in
+the complementary `|F_p(Q)|<=B*` class cannot use E1 and still require another
+supplier.

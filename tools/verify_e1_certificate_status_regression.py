@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail closed on the E1 false-green and named-exhibit quantifier cuts."""
+"""Fail closed on the E1 quantifier, finite-budget, and exhibit cuts."""
 
 import json
 from pathlib import Path
@@ -43,6 +43,7 @@ def main():
     }
     offorbit_route = {
         branch_target,
+        "e1_clean_anchor_exact_collision_allowance",
         "e1_fullness",
         "e1_exceptional_set_reduction",
         "are_exceptional_density",
@@ -51,12 +52,14 @@ def main():
 
     require(nodes[branch_target]["status"] == "TARGET", "direct E1 node is not TARGET")
     target_statement = nodes[branch_target]["statement"].lower()
-    require("every row whose adjacent-unsafe certificate invokes" in target_statement,
-            "direct-E1 route quantifier is missing")
-    require("generated field and cyclotomic reduction" in target_statement,
-            "generated-field/reduction scope fence is missing")
-    require("unsafe_crossing_family_instantiation" in target_statement,
-            "universal row-instantiation owner is missing")
+    require("every admissible clean-anchor row" in target_statement,
+            "direct-E1 clean-row quantifier is missing")
+    require("candidate class b=f_p(q), |b|>b*" in target_statement,
+            "independent generated-field candidate class is missing")
+    require("quotient orders n in {256,512}" in target_statement,
+            "quotient-order scope is missing")
+    require("p<=k-b*-1" in target_statement,
+            "exact finite collision-pair allowance is missing")
     require(
         "do not discharge" in target_statement,
         "named exhibits are not explicitly fenced from route-wide discharge",
@@ -82,12 +85,25 @@ def main():
         ("e1_folded_certificate_soundness", branch_target, "ev"),
         ("e1_open_cell_control_payload", branch_target, "ev"),
         ("e1_official_typicality_or_certificate", branch_target, "ev"),
+        ("e1_clean_anchor_exact_collision_allowance", branch_target, "ev"),
     }
     require(evidence_edges <= edges, "named-exhibit route is not evidence-only")
     require(
         (branch_target, "e1_fullness", "req") in edges,
         "corrected direct-E1 target no longer gates e1_fullness",
     )
+    exact_compiler = "e1_clean_anchor_exact_collision_allowance"
+    require(nodes[exact_compiler]["status"] == "PROVED", "finite E1 compiler is not proved")
+    compiler_statement = nodes[exact_compiler]["statement"].lower()
+    require("k-|image|<=p" in compiler_statement, "collision-loss inequality is missing")
+    require("|b|<=b* rules out direct e1" in compiler_statement,
+            "small-generated-field route cut is missing")
+    require((exact_compiler, "e1_fullness", "req") in edges,
+            "finite compiler no longer gates e1_fullness")
+    universal = "unsafe_crossing_family_instantiation"
+    for source in (exact_compiler, branch_target, "e1_fullness"):
+        require((source, universal, "ev") in edges,
+                f"{source} lost its evidence edge to the universal target")
 
     route_folder = ROOT / "background" / "nodes" / branch_target
     require(route_folder.is_dir(), "direct E1 target left the background tree")

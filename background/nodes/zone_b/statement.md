@@ -1,35 +1,23 @@
 # zone_b
 
 - **status:** CONDITIONAL
-- **closure:** proof
-- **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#3']
 
-## Statement
-
-On a row assigned to the direct quotient-value E1 route, determine
+On an admissible clean-anchor row in the direct-E1 candidate class
+`|F_p(Q)|>B*`, determine the exact ambient-field image
 
 ```text
-|{e_1(B) mod p : B in binom(Q,ell')}|
+|{e_1(B): B an antipodal-rearrangement class}|
 ```
 
-for quotient orders `80 < N' < 512`: near-full signed-core image or an exact
-quantitative collision profile. On 2-power rows the open cells are the
-2-power divisors in that interval; for Row C they are `N' in {128,256}`.
+at the required quotient order and compare it with `B*`. For the current clean
+candidate predecessors the actual quotient orders are `N=256` at rates `1/4`
+and `1/8`, and `N=512` at rate `1/16`; their folded dimensions are `128,128,256`.
 
-This is a route-local value-set determination. It does not by itself prove
-universal adjacent unsafety.
+Conditional on `e1_fullness`, every row in this candidate class has
+image size greater than `B*` and supplies a direct-value unsafe payload. This
+route-local determination is evidence for
+`unsafe_crossing_family_instantiation`, not universal unsafe coverage.
 
-## Attack surface
-
-extend the split-prime transfer range, or the norm threshold, or prove e1-fullness directly
-
-## Falsifier
-
-Row-C birthday sampling showing collision rates far from either the full or the heavily-collided prediction
-
-## Ledger (migrated notes)
-
-PREFERRED ROUTE (evidence-backed): direct fullness via norm criterion, density,
-and a pointwise transfer. A merely collided image does not satisfy the
-quantitative premise of `averaged_slope_conversion`; that row-instantiation
-obligation is recorded separately.
+Historical experiments at quotient orders `16,32,64,128,256` remain evidence
+about collision behavior. In particular, an `N=128` result does not by itself
+pay any of the present clean anchors.

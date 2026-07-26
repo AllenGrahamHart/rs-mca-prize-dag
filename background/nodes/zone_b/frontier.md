@@ -1,15 +1,19 @@
 # Frontier audit: Zone-(b)
 
-Status: CONDITIONAL on the route-local `e1_fullness` theorem.
+Status: CONDITIONAL on the route-local finite theorem `e1_fullness`.
 
-`collision_norm_criterion` is proved, but it is not enough by itself.  It
-reduces non-quotient `e_1` collisions modulo `p` to divisibility of explicit
-bounded nonzero norms.  The node still needs a prize-scale decision for the
-value sets with quotient orders `80 < N' < 512` (for Row C, `N' = 128, 256`).
+The direct route is no longer posed as choosing between qualitative
+`(1-o(1))` fullness and a collided label. It needs the exact inequality
 
-Remaining route-local closure options are:
+```text
+|image(e_1)| > B*.
+```
 
-- prove `e1_fullness` directly;
-- extend the norm threshold far enough via `norm_threshold_ext`;
-- or prove a quantitative collision profile. A generic “collided” label is
-  insufficient for the universal unsafe-side occupancy branch.
+The proved compiler turns the sufficient pair ledger
+`P<=A_2(N,ell)-B*-1` into that inequality. The remaining open pointwise bound
+belongs to `e1_official_prime_exception_control`.
+
+The present clean cells use quotient orders `N=256,512`. Existing `N=128`
+experiments and named certificates may calibrate the method but do not close a
+clean anchor. A generic "collided" label also does not trigger the separate
+averaged-occupancy supplier.

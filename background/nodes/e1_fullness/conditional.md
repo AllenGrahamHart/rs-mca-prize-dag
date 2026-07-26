@@ -1,30 +1,39 @@
-# conditional: e1_fullness
+# Conditional proof: e1_fullness
 
 ## Predicate nodes
 
 - `e1_exceptional_set_reduction`
+- `e1_clean_anchor_exact_collision_allowance`
 - `e1_official_prime_exception_control`
 
 ## Claim
 
-Conditional on route-uniform exceptional-set control, non-quotient `e_1`
-collisions are `o(1)`-sparse for every row assigned to direct E1 at the printed
-scope.
+Conditional on the exact route-uniform collision-pair bound, every row in the
+direct-E1 candidate class `|F_p(Q)|>B*` has more than `B*` distinct reduced E1
+values at its clean candidate predecessor.
 
 ## Proof
 
-The proved predicate `e1_exceptional_set_reduction` reduces every
-non-quotient `e_1` collision outside the paid antipodal quotient class to
-incidence between the row prime and an explicit bounded norm-divisor
-exceptional set. It also records the equivalent folded sparse-kernel
-certificate form and the proved small-radius exclusions.
+Fix a candidate-class row. The exact class compiler gives the actual quotient
+order `N`, class count `K=A_2(N,ell)`, and budget `B*`. Partition the `K`
+characteristic-zero classes by their reduced ambient-field E1 value. If the
+fiber sizes are `r_y`, then
 
-The remaining predicate `e1_official_prime_exception_control` says that every
-row assigned to direct E1 in the open cells has negligible incidence with that
-exceptional set. Any folded-lattice alternative must be a theorem or certifier
-covering every assigned row.
+```text
+K-|image| = sum_y(r_y-1)
+          <= sum_y binom(r_y,2)
+          = P.
+```
 
-Combining the reduction with that official-prime control leaves only the paid
-signed-core quotient collisions at leading order. Hence the non-quotient
-collisions are `o(1)`-sparse relative to the signed-core quotient, which is the
-statement of `e1_fullness`.
+The remaining predicate `e1_official_prime_exception_control` supplies
+`P<=K-B*-1`. Hence `|image|>=K-P>=B*+1`.
+
+The canonical quotient locator construction makes every realized reduced
+`-e_1` value a bad slope at agreement `m=k+n/N`; this realization does not use
+the unavailable norm threshold. The row's field, embedding, owner, and
+endpoint pins then turn the image into the required direct `V` payload.
+
+`e1_exceptional_set_reduction` does not supply the inequality by itself. It
+proves that every pair counted by `P` is controlled by the explicit
+norm-divisor/folded-kernel object, which is the attack interface for the open
+predicate.

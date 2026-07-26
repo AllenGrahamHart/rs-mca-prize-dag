@@ -16,7 +16,11 @@ a short pre-registered route decision.
    payload. At the six clean anchors, do not invoke `qfloor_exact`: its norm
    threshold exceeds the official field cap at the required orders. The raw
    `A-1` binomial quotient counts must instead pass direct-E1 injectivity or a
-   replacement collision theorem.
+   replacement collision theorem. For the E1 route, use quotient orders
+   `N=256,512` and the exact sufficient pair ledger
+   `P<=A_2(N,ell)-B*-1`; the older `{128,256}` labels are folded dimensions.
+   First split on `B=F_p(Q)`: if `|B|<=B*`, E1 is impossible and another
+   supplier is mandatory.
 3. On the residual rows, define the post-paid family before taking moments.
    Derive its exact strict-overlap profile and test the strict `nu(A)>B*`
    inequality required for an `M` payload.

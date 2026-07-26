@@ -181,6 +181,21 @@
    "notes": "ROUTE CUT 2026-07-26: the clean A-1 quotient multiplicities need direct-E1/value-set injectivity or a replacement collision theorem; qfloor_exact cannot supply them under the official field cap. This is not safety."
   },
   {
+   "id": "e1_clean_anchor_exact_collision_allowance",
+   "title": "Exact E1 class counts and collision-loss allowances at clean anchors",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_clean_anchor_exact_collision_allowance/statement.md",
+    "background/nodes/e1_clean_anchor_exact_collision_allowance/proof.md",
+    "background/nodes/e1_clean_anchor_exact_collision_allowance/claim_contract.md",
+    "background/nodes/e1_clean_anchor_exact_collision_allowance/verify.py",
+    "background/nodes/e1_clean_anchor_exact_collision_allowance/audit_verify.py"
+   ],
+   "statement": "At each clean candidate predecessor, let K=A_2(N,ell) be the exact characteristic-zero antipodal-rearrangement class count and P=sum_y binom(r_y,2) the number of unordered pairs of distinct classes colliding after reduction into the ambient slope field. Then K-|image|<=P, so P <= K-B*-1 implies |image|>=B*+1. The actual quotient orders are N=256,512 with folded dimensions h=128,256. Exact K, B*, and K-B*-1 are printed for all six RowC/prize anchors. If B=F_p(Q) is the quotient-generated field, image(e1) is contained in B, so |B|<=B* rules out direct E1.",
+   "notes": "FINITE E1 COMPILER 2026-07-26: corrects the provisional global-sign factor, the old quotient-order/folded-dimension ambiguity, and circular route assignment. It fixes exact allowances and the generated-field route split but proves no official collision bound and pays no row."
+  },
+  {
    "id": "identity_prefix_flexible_budget_unsafe_floor",
    "title": "Identity-prefix plus flexible-budget MCA unsafe floor",
    "status": "PROVED",
@@ -227,10 +242,10 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "statement": "On a row assigned to the direct quotient-value E1 route, determine |{e_1(B) mod p : B in binom(Q, l')}| for quotient orders 80 < N' < 512 at prize-scale p: (1-o(1))-full vs quantitatively collided (= prob:perfiber at sigma = 1). On 2-power rows the open cells are the 2-power divisors in (80,512), for Row C N' in {128,256}. This route-local determination is evidence for unsafe_crossing_family_instantiation, not universal unsafe coverage.",
-   "attack_surface": "extend the split-prime transfer range, or the norm threshold, or prove e1-fullness directly",
-   "falsifier": "Row-C birthday sampling showing collision rates far from either the full or the heavily-collided prediction",
-   "notes": "PREFERRED ROUTE (evidence-backed): direct fullness via norm criterion -> density -> typicality (e1_random_prime_model). Modal fractions remain evidence only. FALSE-GREEN SCOPE CORRECTION 2026-07-26: a merely collided value set does not trigger averaged_slope_conversion; the exact post-paid occupancy premise belongs to unsafe_crossing_family_instantiation. This node is route-local and no longer a req parent of mca_unsafe."
+   "statement": "On an admissible clean-anchor row with quotient-generated field B=F_p(Q) satisfying |B|>B*, determine the exact ambient image of e1 on characteristic-zero antipodal-rearrangement classes and prove it exceeds B*. At the current clean predecessors the actual quotient orders are N=256 for rates 1/4,1/8 and N=512 for rate 1/16; folded dimensions are 128,128,256. Conditional on e1_fullness this supplies a route-local direct-value payload, not universal unsafe coverage.",
+   "attack_surface": "prove the exact pointwise collision-pair allowance, certify the image directly, or replace E1 on the row",
+   "falsifier": "a candidate-class row whose exact ambient E1 image is at most B*, or a purported certificate that confuses quotient order, folded dimension, or ambient field",
+   "notes": "FINITE SCOPE CORRECTION 2026-07-26: qualitative o(1) fullness and generic collided labels are not prize certificates. Historical N=128 experiments do not pay the live clean anchors. This node remains route-local and no longer a req parent of mca_unsafe."
   },
   {
    "id": "acl_second_order",
@@ -1196,10 +1211,10 @@
   },
   {
    "id": "e1_fullness",
-   "title": "e1 non-quotient collision density",
+   "title": "E1 finite direct-value fullness compiler",
    "status": "CONDITIONAL",
-   "statement": "Uniformly for every row assigned to the direct E1 quotient-value route with its generated field and cyclotomic reduction data pinned, non-quotient e_1 collisions are o(1)-sparse relative to the signed-core quotient at the printed scope. The norm criterion and almost-all-primes density are proved; route-uniform exceptional-row control remains open.",
-   "notes": "QUANTIFIER CORRECTION 2026-07-26: finitely many named-field folded certificates cannot discharge a row family. This is a route-local theorem, not universal unsafe-side coverage. The direct requirement is e1_official_prime_exception_control; unsafe_crossing_family_instantiation owns the separate every-admissible-row quantifier."
+   "statement": "For every admissible clean-anchor row with quotient-generated field B=F_p(Q) satisfying |B|>B*, actual quotient order N in {256,512}, and class count K=A_2(N,ell), the exact collision-pair bound from e1_official_prime_exception_control implies that the reduced ambient E1 image has size at least B*+1 and supplies a direct-value V payload at agreement k+n/N. All field, embedding, owner, and endpoint pins remain mandatory.",
+   "notes": "FINITE CORRECTION 2026-07-26: the former o(1)-sparse statement was not an exact finite prize certificate. The proved loss compiler and open pointwise collision bound now state the actual implication. This remains a route-local theorem; unsafe_crossing_family_instantiation owns every-row coverage."
   },
   {
    "id": "paper_a_noslack",
@@ -5027,10 +5042,10 @@
    "id": "e1_official_prime_exception_control",
    "title": "Direct-E1 route-uniform exceptional-set control",
    "status": "TARGET",
-   "statement": "Uniformly for every row whose adjacent-unsafe certificate invokes the direct E1 quotient-value route, with the generated field and cyclotomic reduction prime/ideal pinned, incidence in the open cells N' in {128,256} with the explicit non-quotient e1 exceptional norm-divisor set is negligible relative to the signed-core quotient count at the scope required by e1_fullness. Certificates for finitely many named exhibit fields do not discharge this route-uniform statement. unsafe_crossing_family_instantiation owns the separate every-admissible-row payload obligation.",
-   "attack_surface": "prove a route-uniform exceptional-divisor bound, or a complete certifier theorem covering every row assigned to direct E1 with the exact required budget",
-   "falsifier": "a row assigned to direct E1 with enough non-quotient folded sparse kernel vectors to exceed the allowed budget; or a purported route-wide certifier that leaves an assigned row uncovered",
-   "notes": "QUANTIFIER ROUTE CORRECTION 2026-07-26: the former CONDITIONAL incorrectly transported two named-exhibit no-vector certificates to a row-family theorem. The exhibit/certificate subgraph is retained as background evidence only. This target does not prove that every admissible row is assigned to E1; unsafe_crossing_family_instantiation owns that global obligation. See notes/E1_NAMED_EXHIBIT_QUANTIFIER_AUDIT_20260726.md."
+   "statement": "Uniformly for every admissible clean-anchor row in the independently defined direct-E1 candidate class B=F_p(Q), |B|>B*, with all field, embedding, owner, and endpoint data pinned, let quotient orders N in {256,512}, K=A_2(N,ell), and P=sum_y binom(r_y,2) count unordered pairs of distinct characteristic-zero classes colliding after reduction. Prove P<=K-B*-1 for B*=floor(|F|/2^128). The formerly printed {128,256} are folded dimensions, not the live quotient-order scope. Finite exhibit certificates do not discharge this route-uniform target.",
+   "attack_surface": "prove the exact candidate-class pair-incidence bound, construct a candidate-class row above allowance, or give a complete per-input image/collision certifier theorem",
+   "falsifier": "a candidate-class row with P>K-B*-1; a certifier leaving such a row uncovered; or any base/ambient-field normalization failure",
+   "notes": "EXACT FINITE RE-POSE 2026-07-26: replaces negligible/o(1) language and fixes quotient-order versus folded-dimension notation. The earlier quantifier correction remains: named exhibits are evidence only, and unsafe_crossing_family_instantiation owns global row routing."
   },
   {
    "id": "ef_fullfield_bridge",
@@ -17404,7 +17419,27 @@
    "kind": "req"
   },
   {
+   "from": "acl_count",
+   "to": "e1_clean_anchor_exact_collision_allowance",
+   "kind": "req"
+  },
+  {
    "from": "qfloor_clean_anchor_norm_threshold_route_cut",
+   "to": "e1_clean_anchor_exact_collision_allowance",
+   "kind": "req"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
+   "to": "e1_clean_anchor_exact_collision_allowance",
+   "kind": "req"
+  },
+  {
+   "from": "qfloor_clean_anchor_norm_threshold_route_cut",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_clean_anchor_exact_collision_allowance",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
@@ -19409,6 +19444,11 @@
    "kind": "req"
   },
   {
+   "from": "e1_clean_anchor_exact_collision_allowance",
+   "to": "e1_fullness",
+   "kind": "req"
+  },
+  {
    "from": "e1_official_prime_exception_control",
    "to": "e1_fullness",
    "kind": "req"
@@ -19416,6 +19456,21 @@
   {
    "from": "e1_folded_certificate_soundness",
    "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_clean_anchor_exact_collision_allowance",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_official_prime_exception_control",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_fullness",
+   "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
   {

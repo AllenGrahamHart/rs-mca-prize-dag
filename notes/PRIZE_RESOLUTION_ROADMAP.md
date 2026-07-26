@@ -831,6 +831,22 @@ distinct ambient-slope certificate. The positive quotient route now lands
 precisely on direct-E1/value-set injectivity or a replacement collision
 theorem. No safety or endpoint movement follows from the route cut.
 
+N18 DONE, E1 CLEAN-ANCHOR FINITE-ALLOWANCE COMPILER: upstream
+`thm:exactcount` gives the characteristic-zero class count
+`K=A_2(N,ell)` without a further global-sign quotient. For reduced-value fiber
+sizes `r_y`, the exact unordered collision-pair count
+`P=sum_y C(r_y,2)` satisfies `K-|image|<=P`; hence the sufficient finite
+certificate is `P<=K-B*-1`. Exact `K`, `B*`, and allowances are printed and
+independently replayed for all six anchors. This also corrects the old cell
+notation: clean quotient orders are `N=256,512`, while `128,256` are folded
+dimensions. Finally, if `B=F_p(Q)` is the quotient-generated field, then the
+E1 image lies in `B`; `|B|<=B*` is therefore a proved E1 route cut. The open
+pointwise target now has the noncircular domain `|B|>B*`. No row is paid and
+no endpoint moves: the next theorem must prove or falsify the exact `P`
+allowance on that class, while the universal router pays the complementary
+small-generated-field branch elsewhere. See
+`notes/E1_CLEAN_ANCHOR_FINITE_ALLOWANCE_AUDIT_20260726.md`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable

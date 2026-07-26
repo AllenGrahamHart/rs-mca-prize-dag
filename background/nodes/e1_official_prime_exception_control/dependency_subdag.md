@@ -6,10 +6,14 @@ Edges are directed from dependency to consumer.
 official_row_primes_pinning [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_clean_anchor_exact_collision_allowance [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_official_prime_exception_control [TARGET]
     -> e1_fullness [CONDITIONAL]
 ```
 
+The exact compiler fixes the finite allowance but supplies no collision bound.
 The official quantifier pin and named-exhibit certificate subgraph remain in
 `background/nodes/` and have `ev`, not `req`, edges into this target. The
 unresolved target is a logical leaf, with its route-uniform scope printed

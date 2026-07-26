@@ -1,20 +1,36 @@
-# frontier: e1_official_prime_exception_control
+# Frontier: exact route-uniform E1 collision control
 
-Target.
+Status: TARGET.
 
 The collision mechanism and almost-all-primes density statement are proved.
-What remains is not two exhibit computations. It is the route-uniform
-quantifier: every row assigned to direct E1 in the `N'=128,256` cells must
-obey the required exceptional-incidence budget.
+The finite target is now explicit: on every admissible clean-anchor row with
+quotient-generated field `B=F_p(Q)` satisfying `|B|>B*`, at quotient order
+`N=256` or `512`, prove
 
-The former named-field certificate branch is background evidence. Its two
-no-vector payloads remain unresolved at exhibit scope, but closing them would
-not close this target.
+```text
+P <= A_2(N,ell)-B*-1
+```
 
-The next route-deciding step is algebraic: either construct an exceptional
-direct-E1 family and reject this payload route, or derive a pointwise bound
-from the explicit norm-divisor structure that reaches every assigned row.
+for the unordered reduced-value collision-pair count `P`. The six RowC/prize
+allowances are printed and independently replayed in
+`e1_clean_anchor_exact_collision_allowance`.
 
-Characteristic-three roots in non-generating ambient extensions give severe
-subfield collisions. They show that global coverage needs a separate field-
-aware router; they are not silently assigned to this direct route.
+The old `o(1)` language was not a finite `2^-128` certificate. Likewise, the
+old named `N'=128,256` no-vector experiments are background evidence: `128`
+does not match a live clean quotient order, `512` is absent, and finite
+exhibits do not prove the row-family quantifier.
+
+The complementary `|B|<=B*` class is already a proved E1 route cut because
+the complete value set lies in `B`. It remains an obligation of the universal
+unsafe router, not of this target.
+
+The next route-deciding attack is algebraic. Either:
+
+- prove the exact pointwise pair-incidence bound from the norm-divisor
+  structure;
+- construct an exact candidate-class row above its allowance and retire this
+  target;
+- provide a total per-input image/collision certifier theorem; or
+- bypass E1 with a direct value family or an exact post-paid occupancy family.
+
+Birthday scans and almost-all-primes estimates remain evidence only.
