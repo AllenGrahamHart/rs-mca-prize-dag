@@ -142,3 +142,43 @@ abc reads `9 <= 13` — satisfied. A contradiction would need `deg rad(abc) <= 9
 impossible since `rad(P) = P` already has degree 9. The obstruction is structural,
 not a matter of sharpening constants — and it is the same reason abc failed on the
 `s=2` bridge pencil.
+
+### Global-invariant routes are ALL vacuous here (2026-07-27)
+
+Three global invariants were tried on the Pell form and every one collapses to an
+identity forced by `P + 1 = Y A(Y)^2` itself. Recorded so the lane stops re-deriving
+them.
+
+1. **`Res(P, A) = 1`, identically.** At each root `a_j` of `A`,
+   `P(a_j) = a_j A(a_j)^2 - 1 = -1`, so `Res(P,A) = prod_j P(a_j) = (-1)^4 = 1`.
+   From the other side `Res(P,A) = prod_i A(y_i)`, so this is exactly `prod rho_i = 1`
+   — the product-one condition restated. **No new information.**
+
+2. **The `mu_N`-product is an identity.** With `T = prod_{y in mu_N} (P(y)+1)` and
+   `R = prod_{y in mu_N} A(y)`,
+
+```text
+T = prod_y y A(y)^2 = (prod_{y in mu_N} y) * R^2 = -R^2      (N even).
+```
+
+3. **Hence the quadratic-character condition is VACUOUS.** `-T = R^2` is a square by
+   construction, so `chi(-T) = 1` *always* and excludes nothing. Verified over
+   `(p,N) = (17,16), (97,32), (193,64), (257,128)`: the identity held on every one
+   of 1153 / 2139 / 2134 / 1821 admissible quartics, and `-T` was a square in every
+   single case.
+
+**Method note (a real trap).** A first pass built `mu_N` as the first `N` powers of
+an element with `N` distinct powers. That is *not* the order-`N` subgroup unless
+`N = p-1`; it coincided at `(17,16)` and was wrong at `(97,32)`, `(193,64)`,
+`(257,128)`, where it made the identity appear to *fail*. The correct construction
+is `h = g^{(p-1)/N}` for a primitive root `g`. A wrong `mu_N` here would have read
+as evidence of an obstruction where there is none.
+
+**Lane-level fence.** Together with the abc fence above and the strict-endpoint norm
+fence on `rate_half_band_closure`, the pattern is now unambiguous: **global
+multiplicative invariants — resultants, norms, `mu_N`-products, quadratic characters
+— are forced by the defining identity on these configurations and carry no
+information.** They are consequences, not constraints. Any future attack in either
+the WCL descent lane or the rate-half endpoint lane must use *local* structure
+(root-by-root incidence, ramification profiles, the double-root pattern of `P+1`)
+rather than a global product.
