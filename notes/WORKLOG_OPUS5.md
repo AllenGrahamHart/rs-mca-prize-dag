@@ -683,3 +683,41 @@ novelty; addendum to latifkasuli's #275 and cites it.
 ### Next
 E-2 (Proth-row replay audit) is the natural follow-on and needs only the stale
 crosswalk pins refreshed. Then back to the s=2 equality case.
+
+**Session 7b — E-2 shipped (PR #1108), Codex harvested, one forced self-correction.**
+
+| | |
+|---|---|
+| upstream PRs | **#1107** (E-1 corridor prime), **#1108** (E-2 Proth replay) — 2, at the ledger's cap |
+| Codex harvested | v10 @ `1e359dfb` audited, awareness-only (raw branches are audit-gated) |
+| forced correction | bridge node: "lower `d_j` bounds suffice" was **backwards** |
+| census (datum) | `260 = 201/36/23` |
+
+**Codex harvest.** It proves `b = 0` **unconditionally**, all six incidence types
+and all thirteen chambers, via a budget-three intersection reduction — stronger
+than this node's `(CZB)`-derived `b=0`, which needed `s=2` and `Ddir=6`. Two
+independent routes to the same conclusion: corroboration, not duplication. Not
+vendored (raw branch), recorded as awareness.
+
+**Forced correction it surfaced.** My bridge statement said a *lower* bound on each
+`d_j` plus an upper bound on `b` suffices. Wrong orientation: `d_s` sits in the
+falling-factorial numerator *and* in `d_s - t + b`, so the cap is not monotone —
+verified independently, the cap **rises** 8 → 21 as `d_3` goes `R+3 → n`. A lower
+bound makes it worse. **Two-sided control of `d_s` is required.** I had observed
+this non-monotonicity myself in the H1/S3 replay and still wrote the wrong
+orientation into the node. Corrected in place.
+
+**E-2 finding worth flagging.** The packet's `r_quad` caveat is load-bearing, not
+cosmetic: evaluating the printed closed form `floor((3n - isqrt(n(5n+4k)))/2)`
+independently overshoots `r_quad` by `+1` at rates 1/2, 1/4, 1/8 and is correct
+only at 1/16. **A replay that silently used the closed form would have certified
+three of the four rows at the wrong radius and reported success.** Pinned in the
+verifier so a future edit breaks the check rather than passing quietly.
+
+Also caught my own type bug mid-replay (JSON stores `F_B` as strings; `int == str`
+compared False and produced four spurious "drift" failures). Checked before
+concluding it was their defect — it was mine.
+
+### Next
+PR cap reached (2 open). Back to mathematics: the chamber → `(d_1,d_2,d_3)`
+transport, now needing a two-sided interval for `d_3`, not a floor.
