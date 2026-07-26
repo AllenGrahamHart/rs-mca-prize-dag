@@ -2261,3 +2261,26 @@ linear, and quadratic colors are now empty on all five endpoint rows.
 Result: `CLOSED` for endpoint color degree two and `NARROWED` for L1; the
 live order-zero degree begins at three. No critical status, endpoint bracket,
 upstream terminal, Modal job, or compute request changes.
+
+Cycle burn-down:
+
+```text
+starting pins: local 9167125b; canonical e7edb006; upstream b13de811;
+               PR #1106 head 98149fc6
+ending math pin: local 2fdc6d4b
+ending combined pin: local e5baf2ad; canonical 4b4a43a0;
+                     upstream/PR unchanged
+nodes attacked: l1_mersenne_hnf_m16_order_zero_single_collision_exclusion;
+                l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion
+result: CLOSED (degree two on all five HNF endpoint rows); NARROWED (L1)
+local DAG delta: +2 PROVED nodes, +10 edges; canonical import adds one
+                 noncritical TARGET bridge and its evidence edge
+critical delta: none; math orbit remains 201 PROVED / 36 CONDITIONAL /
+                23 TARGET, with all 36 conditionals propagation-owned
+upstream terminal delta: none; no K/M/L atom or adjacent payment
+delta-star bracket movement: 0 bits
+new assumptions: none; every consumed dependency is PROVED
+live compute requests: none added or consumed
+next route-deciding action: use the colored Frobenius congruence/resultant
+                              system to classify cubic order-zero colors
+```
