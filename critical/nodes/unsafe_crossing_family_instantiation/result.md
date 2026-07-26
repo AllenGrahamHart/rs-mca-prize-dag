@@ -21,3 +21,9 @@ The tangent floor pays an exact low-field `V` branch. Its guaranteed
 `n-a`-slope payload clears target exactly through
 `q<=(n-a)2^128-1`, but does not clear either named high-budget envelope. This
 is not an upper bound on the full tangent-line bad set and is not safety.
+
+The complete-support first moment additionally proves that no support-family
+`M` payload can pass `nu(A)>B*` at any of the six named high-budget envelopes.
+That conclusion holds before same-slope collisions are charged and across all
+witness sizes at least the predecessor agreement. It is a supplier route cut,
+not a bound on explicit `Q`/`V` constructions.

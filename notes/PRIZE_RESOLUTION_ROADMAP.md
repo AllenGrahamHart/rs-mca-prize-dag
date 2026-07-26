@@ -863,6 +863,19 @@ belongs to direct E1/value-set, another line, or post-paid occupancy. Route
 failure is not safety. See
 `notes/TANGENT_FLOOR_ROUTE_AUDIT_20260727.md`.
 
+N20 DONE, CLEAN-ENVELOPE AVERAGED-OCCUPANCY ROUTE CUT: for any support
+family with witness sizes at least the unsafe predecessor agreement, FM1 is
+maximized by the complete family. Its size-by-size upper bounds form a
+geometric tail with ratio below `n/q<1/2`. Exact RowC binomial comparisons and
+exact prize rational-entropy certificates prove the entire tail is below
+`B*` at all six named high-budget envelopes. Hence
+`nu(A)<=E[N(A)]<B*` before any same-slope correction, and no post-paid
+subfamily can trigger the proved `M` supplier there. This is not safety and
+does not bound explicit lines. The envelope unsafe frontier is now forced onto
+direct `Q`/`V`, with E1 the only current route on the pair-feasible generated-
+field branch. See
+`notes/AVERAGED_OCCUPANCY_FIRST_MOMENT_ROUTE_CUT_AUDIT_20260727.md`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable

@@ -12,6 +12,8 @@
     "background/nodes/aqb_entropy_ledger_certificate_soundness/statement.md": "737e1d0cee1a43d74955ade176d8a0630d9f5c49e5b9a08f82a2004961292c0b",
     "background/nodes/aqb_family_certificate_semantics/proof.md": "808aa9640897975318df7f4f0444a10c4d7a3b23cda99ee16c343e85b9db681c",
     "background/nodes/aqb_family_certificate_semantics/statement.md": "812e83628c025268703b2a1d082fc4fb506764bb83028f3e9342cd268364e0c9",
+    "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/proof.md": "7fd9f980a66a1bfc52e24ad24b7f57f91ec04d582af275ed7a49872e030fa5f1",
+    "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/statement.md": "f2db6eede14ed0fdcc5b964c1d53745a0b258aa34c854247f2e7289c1849bb93",
     "background/nodes/cyclic_fiber_interleaving_descent/proof.md": "4aed2533c08f99de2bf0653e15ed7fa05ab81a0f0e00c3a2d0ed2519e59a9db2",
     "background/nodes/cyclic_fiber_interleaving_descent/statement.md": "c46af5733dda10508e320958eb01041b1451beb94f6125783c80881eace5a30b",
     "background/nodes/deployed_identity_prefix_owner_scope_audit/proof.md": "1c603887b49c0ac8ac5e0dbb7b9bafd8d94e51e6250e0f1897ac15c4eb8091a1",
@@ -1501,6 +1503,7 @@
     "background/nodes/aqb_coupled_family_entropy_manifest_soundness/verify.py": "041b00a4d6e9dfc7480dbac8cca114dabe1dff2f672752b2dceb69fe145a8517",
     "background/nodes/aqb_entropy_ledger_certificate_soundness/verify.py": "0001426044a369fec6ade99c8d393ae3268d755e53a5a60d63c05e7cbea94616",
     "background/nodes/aqb_family_certificate_semantics/verify.py": "a1c5934ae2ff4c8b11123272d701d4dd5c6b1392a0849ed298700e69f9139ad2",
+    "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/verify.py": "6521073aa53fd567bd6ce6b6989ef2c623a1476692bc03d45b84a278e97f4e08",
     "background/nodes/cyclic_fiber_interleaving_descent/verify.py": "dc11fb8c20bf44236aeaaeb208789b71e7705b1b6987daa2ce31894cd6ad5b7e",
     "background/nodes/deployed_identity_prefix_owner_scope_audit/verify.py": "69b1d901557cd10360e7cef3a5ecb4a5c2c7fbaae06b1a57b3b01919da0ed61c",
     "background/nodes/deployed_identity_prefix_owner_scope_audit/verify_audit.py": "ee61fe43a2fee9aed8e0fb3db52cf7200ea3d0c56fc52d1c27006f1d17b745d4",
@@ -2658,7 +2661,7 @@
     "tools/verify_official_row_primes_pinning.py": "f6a7af8211e92ef1e5643bda43ed7e11df597956589d4cabfbe2479590814828",
     "tools/verify_orbit_census.py": "0a944229659c7795d247d19ec324dd3f61c84443e79bc57890a8540f35d9b0ce",
     "tools/verify_prize_dag.py": "fc78e615525a85988904f889b07cea6ade47d5eb319eab4cb882cbe14f270ff7",
-    "tools/verify_unsafe_crossing_status_regression.py": "b67babee079d4fe4c3094e5e5e58f22e688bbe589668289c8588b8218903efae",
+    "tools/verify_unsafe_crossing_status_regression.py": "1da9714c34d48a4ac622ca880cd6c2c456f07a3786086ab349cbc13614397c95",
     "tools/verify_wild_row_audit.py": "304aab9d7f08b41029808a829a23a7987e212ebda24dc1b8f8cd32568b72eee3"
   }
 }

@@ -28,10 +28,11 @@ a short pre-registered route decision.
    `B*<b<b_pair_min=ceil((A_2+B*+1)/3)`, the pair ledger is impossible though
    direct image remains open; only `b>=b_pair_min` reaches the pointwise pair
    target.
-3. On the residual high-field rows, define the post-paid family before taking
-   moments.
-   Derive its exact strict-overlap profile and test the strict `nu(A)>B*`
-   inequality required for an `M` payload.
+3. Before taking moments on any residual row, screen the complete-support FM1
+   sum. If it is at most `B*`, no subfamily or nonnegative collision correction
+   can trigger `nu(A)>B*`. This screen rules out `M` on all six named
+   high-budget envelopes. Else define the post-paid family, derive its exact
+   strict-overlap profile, and test the strict `nu(A)>B*` inequality.
 4. If a row is not unsafe at `a_safe-1`, record an exact counterexample and
    move the proposed first-safe endpoint; do not weaken the strict inequality.
 5. Decompose by rate or field type only when a child is materially smaller,

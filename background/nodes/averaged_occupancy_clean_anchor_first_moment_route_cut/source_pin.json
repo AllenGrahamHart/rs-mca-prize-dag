@@ -1,0 +1,8 @@
+{
+  "candidate_file": "critical/nodes/xr_smallcore_spread_count/notes/audit_consumption_replay_20260710.py",
+  "candidate_file_sha256": "c39442d16fcbe86bbfd97f245de970dc729d0e257514c6d4f9f74c9a8c7fac56",
+  "fm1_file": "critical/nodes/fm1/statement.md",
+  "fm1_file_sha256": "2055c48edc29644e03813fc28e9dc62cebde52b4ce6663683d20c3e6ad880961",
+  "occupancy_file": "critical/nodes/averaged_slope_conversion/statement.md",
+  "occupancy_file_sha256": "11de5fba7bfb7704866a91e3822d7749d41406e430fac4f3d705ff20b4ec65e5"
+}

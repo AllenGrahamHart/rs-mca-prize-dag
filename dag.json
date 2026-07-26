@@ -261,6 +261,21 @@
    "notes": "ROUTE CLASSIFICATION 2026-07-27: exact low-field branch and exact applicability cut for the guaranteed tangent-floor payload; residual high-field rows still require Q, another V construction, or M."
   },
   {
+   "id": "averaged_occupancy_clean_anchor_first_moment_route_cut",
+   "title": "Complete-support first-moment route cut at clean envelopes",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/statement.md",
+    "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/proof.md",
+    "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/claim_contract.md",
+    "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/verify.py",
+    "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/source_pin.json"
+   ],
+   "statement": "At each of the six named high-budget clean predecessor anchors, any support family with |S|>=a has E[N(A)]<B*. Indeed the complete-family FM1 sum is dominated by a geometric tail below B*, with exact RowC binomial certificates and exact rational-entropy prize certificates. Since the averaged supplier has nu(A)=E[N(A)]-(q/2)C_t(A)<=E[N(A)], no deterministic support family can satisfy nu(A)>B* there. This rules out the present M supplier at those envelopes, not direct Q/V payloads or safety.",
+   "notes": "ROUTE CUT 2026-07-27: the first moment is already below budget, so no strict-overlap optimization can rescue averaged_slope_conversion on the six named envelopes."
+  },
+  {
    "id": "acl_count",
    "title": "thm:exactcount: Acl = 2^{beta N'(1-o(1))} (char 0)",
    "status": "PROVED",
@@ -17519,6 +17534,21 @@
   },
   {
    "from": "tangent_clean_anchor_route_classification",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "fm1",
+   "to": "averaged_occupancy_clean_anchor_first_moment_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "averaged_slope_conversion",
+   "to": "averaged_occupancy_clean_anchor_first_moment_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "averaged_occupancy_clean_anchor_first_moment_route_cut",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

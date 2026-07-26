@@ -25,6 +25,9 @@ def main():
     crossing = "unsafe_at_crossing"
     identity = "identity_prefix_flexible_budget_unsafe_floor"
     identity_clean = "identity_prefix_clean_anchor_route_classification"
+    tangent = "rs_tangent_flexible_budget_unsafe_floor"
+    tangent_clean = "tangent_clean_anchor_route_classification"
+    occupancy_cut = "averaged_occupancy_clean_anchor_first_moment_route_cut"
     qfloor_cut = "qfloor_clean_anchor_norm_threshold_route_cut"
     deployed = "deployed_identity_prefix_owner_scope_audit"
 
@@ -34,6 +37,11 @@ def main():
     require(nodes[identity]["status"] == "PROVED", "identity supplier regressed")
     require(nodes[identity_clean]["status"] == "PROVED",
             "identity clean-anchor classifier regressed")
+    require(nodes[tangent]["status"] == "PROVED", "tangent supplier regressed")
+    require(nodes[tangent_clean]["status"] == "PROVED",
+            "tangent clean-anchor classifier regressed")
+    require(nodes[occupancy_cut]["status"] == "PROVED",
+            "averaged occupancy route cut regressed")
     require(nodes[qfloor_cut]["status"] == "PROVED",
             "qfloor clean-anchor route cut regressed")
     require(nodes[deployed]["status"] == "PROVED", "deployed audit regressed")
@@ -75,6 +83,18 @@ def main():
             "identity classifier lost its theorem parent")
     require((identity_clean, payload, "ev") in edges,
             "identity clean-anchor route cut is not target evidence")
+    require((tangent, tangent_clean, "req") in edges,
+            "tangent classifier lost its theorem parent")
+    require((tangent, payload, "ev") in edges,
+            "tangent theorem is not target evidence")
+    require((tangent_clean, payload, "ev") in edges,
+            "tangent clean-anchor route cut is not target evidence")
+    require(("fm1", occupancy_cut, "req") in edges,
+            "occupancy route cut lost FM1")
+    require(("averaged_slope_conversion", occupancy_cut, "req") in edges,
+            "occupancy route cut lost its conversion parent")
+    require((occupancy_cut, payload, "ev") in edges,
+            "occupancy clean-anchor route cut is not target evidence")
     require(("qfloor_exact", qfloor_cut, "req") in edges,
             "qfloor route cut lost its theorem parent")
     require((qfloor_cut, payload, "ev") in edges,
@@ -119,6 +139,21 @@ def main():
     identity_statement = (identity_folder / "statement.md").read_text()
     for token in ("binom(n,m) > |B|^w B*", "binom(B*+1,2) k < q-n", "B*+1"):
         require(token in identity_statement, f"identity theorem lost {token}")
+
+    for node_id in (tangent, tangent_clean, occupancy_cut):
+        node_folder = ROOT / "background" / "nodes" / node_id
+        for name in (
+            "statement.md",
+            "proof.md",
+            "claim_contract.md",
+            "dependency_subdag.md",
+            "audit.md",
+            "result.md",
+            "source_pin.json",
+            "verify.py",
+        ):
+            require((node_folder / name).is_file(),
+                    f"{node_id} packet missing {name}")
 
     print(
         "UNSAFE_CROSSING_STATUS_REGRESSION_VERIFIED "

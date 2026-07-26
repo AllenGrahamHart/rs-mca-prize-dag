@@ -11,6 +11,7 @@ identity_prefix_flexible_budget_unsafe_floor --ev-->
 identity_prefix_clean_anchor_route_classification --ev-->
 rs_tangent_flexible_budget_unsafe_floor --ev-->
 tangent_clean_anchor_route_classification --ev-->
+averaged_occupancy_clean_anchor_first_moment_route_cut --ev-->
 qfloor_clean_anchor_norm_threshold_route_cut --ev-->
 e1_clean_anchor_exact_collision_allowance --ev-->
 e1_official_prime_exception_control       --ev-->
@@ -39,6 +40,12 @@ The tangent theorem independently pays every predecessor for which
 `n-a`-slope payload into six exact field-order cutoffs. None reaches the two
 named high-budget envelopes, so the high-field branch remains open; this
 negative payload verdict is neither safety nor a full bad-set upper bound.
+
+The complete-support FM1 sum is below `B*` at all six named high-budget
+anchors, even when all witness sizes at least `a` are admitted. Since the
+occupancy correction is nonnegative, no support subfamily can satisfy the
+strict `M` premise there. This removes averaged occupancy only at those
+envelopes; it does not constrain explicit received lines.
 
 The qfloor norm-threshold cut proves that the raw quotient censuses on all six
 clean predecessors lie outside `qfloor_exact`. Their distinct-value content
