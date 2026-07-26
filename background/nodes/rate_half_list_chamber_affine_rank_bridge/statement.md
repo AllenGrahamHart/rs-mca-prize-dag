@@ -330,3 +330,21 @@ d_s  in {1,466,015,503,703, 1,466,015,503,702}   (exactly the (2n+2)/3 floor).
 So route 3 of the attack surface is **fully paid**: `b = 0` holds in the `s = 2`
 case unconditionally, not just generically. What remains for the bridge is `s = 3`
 (where the compilers give cap 8 and cannot bite) and the chamber-to-`s` map itself.
+
+### Lead for the `s=2` exclusion (2026-07-26)
+
+With `s=2` pinned (PROGRESS 4), the pencil is **almost exhausting the domain**.
+Each of the six directions has `|R_dir| in [K-2-z, K-1-z]` and the `R_dir` are
+pairwise disjoint in `D`, so at `z = 733,007,751,850`:
+
+```text
+6*(K-2-z) = 2,199,023,255,544      6*(K-1-z) = 2,199,023,255,550
+n         = 2,199,023,255,552      slack: 8 (at min), 2 (at max)
+```
+
+So the six fibers of the degree-`(K-1-z)` pencil map cover all but at most **8**
+points of `D`. That is an extreme rigidity — a covering-type statement on a
+multiplicative coset of order `2^41` by six fibers of one rational map — and it is
+the natural place to look for the contradiction that would exclude `s=2` entirely
+and force `s=3`. Note `d_1 = K+1` exactly (the MDS floor), since the six
+differences have weight `K+1` or `K+2`.
