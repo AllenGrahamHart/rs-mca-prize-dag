@@ -1,24 +1,24 @@
 # C3-3 — conditional assumption dedup: CLOSED with a negative (2026-07-26)
 
 The ledger asked for `assumption_dedup.md`: *"every distinct assumption behind our
-45 mathematical CONDITIONALs mapped against his six GF inputs, shared hypotheses
+39 mathematical CONDITIONALs mapped against his six GF inputs, shared hypotheses
 counted once, each with owner + route + falsifier."*
 
-**Result: there is no such set to build on our side.** The 45 mathematical
+**Result: there is no such set to build on our side.** The 39 mathematical
 CONDITIONALs carry **zero independent mathematical work**. Every one of them
-discharges by pure gate propagation once the 25 TARGETs close. The dedup ledger
-that C3-3 specified would have exactly 25 rows, and they are the TARGETs we
+discharges by pure gate propagation once the 24 TARGETs close. The dedup ledger
+that C3-3 specified would have exactly 24 rows, and they are the TARGETs we
 already track.
 
 Artifact: `tools/verify_conditional_propagation.py` (fail-closed, 4 mutation
-controls). Refreshed after the E1 false-green correction: math orbit
-`260 = 190/45/25`.
+controls). Refreshed after the E1 false-green and universal-quantifier
+corrections: math orbit `246 = 183/39/24`.
 
 ## The three checks
 
 1. **Propagation.** Grant every math-orbit TARGET; iterate "a CONDITIONAL
    discharges when all its req-parents are discharged" to a fixpoint.
-   **45 / 45 discharge, fixpoint in 8 rounds.** Nothing is stuck.
+   **39 / 39 discharge, fixpoint in 8 rounds.** Nothing is stuck.
 2. **No off-orbit blocker.** No math-orbit CONDITIONAL has an open req-parent
    outside the math orbit. **0 external blockers** — nothing is hiding off-orbit.
 3. **No unwired hypothesis.** The failure mode that would invalidate (1) is a
@@ -45,14 +45,14 @@ controls). Refreshed after the E1 false-green correction: math orbit
 
 ## Consequences
 
-1. **The remaining mathematics is exactly the 25 TARGETs.** The census line
-   `260 = 190/45/25` should be read as **25 units of work**, with the 45 as
+1. **The remaining mathematics is exactly the 24 TARGETs.** The census line
+   `246 = 183/39/24` should be read as **24 units of work**, with the 39 as
    bookkeeping that resolves itself.
 2. **The ledger's Definition of DONE has no independent conditional conjunct.**
-   On our side discharge of the 45 mathematical conditionals is **implied by
-   closing the 25 targets**. What survives of C3-3 is only the joint half —
-   mapping our 25 against his six GF inputs.
-3. **Effort allocation:** 100% of remaining mathematical effort belongs on the 25
+   On our side discharge of the 39 mathematical conditionals is **implied by
+   closing the 24 targets**. What survives of C3-3 is only the joint half —
+   mapping our 24 against his six GF inputs.
+3. **Effort allocation:** 100% of remaining mathematical effort belongs on the 24
    TARGETs. Any session spent "discharging conditionals" is spent on nothing.
 4. **The original C3-3 result was a re-pricing, not progress.** The later E1
    correction changed statuses, but the propagation conclusion survived its
@@ -62,7 +62,7 @@ controls). Refreshed after the E1 false-green correction: math orbit
 
 - Says nothing about *his* inputs (S), (A), (E), list-completion, or whether our
   hypotheses dedup against his — that is the joint half of C3-3 and stays open.
-- Does not assert the 25 TARGETs are independent of each other; they share
+- Does not assert the 24 TARGETs are independent of each other; they share
   machinery, and closing one may cascade. It asserts only that the CONDITIONALs
   add nothing beyond them.
 - Propagation is a statement about the **wired** structure plus the prose audit in

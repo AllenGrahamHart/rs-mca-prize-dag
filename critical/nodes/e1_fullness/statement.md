@@ -16,6 +16,7 @@ shrink with p); prize-shape birthday scans (N'=128/256, 250-bit primes,
 ## Conditional decomposition
 
 The collision mechanism is reduced by `e1_exceptional_set_reduction`. The
-remaining open predicate is `e1_official_prime_exception_control`: the official
-row primes must avoid the explicit exceptional norm-divisor set at the needed
-density, or be certified directly by the folded lattice procedure.
+remaining open predicate is `e1_official_prime_exception_control`: every
+admissible row in the two open cells must satisfy the explicit exceptional
+norm-divisor budget. A direct-certificate route must cover every admissible
+input; a finite named-exhibit manifest does not establish this quantifier.

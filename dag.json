@@ -1152,8 +1152,8 @@
    "id": "e1_fullness",
    "title": "e1 non-quotient collision density",
    "status": "CONDITIONAL",
-   "statement": "Non-quotient e_1 collisions are o(1)-sparse for admissible primes (norm-criterion density; see statement.md \u2014 exact-cell data matches the signed-core quotient, equality at N'=16).",
-   "notes": "CONSUMER-TOLERANCE: the N'=256 cell needs the DENSITY bound (o(1)-sparse), not the zero-cert. The folded zero-cert is the strong route (held at N'=128); at N'=256 use the density/typicality route (e1_official_typicality_or_certificate). | 2026-07-10 gate-normalization sweep: residual alt edge from amplification_range_ext demoted to ev (node closed on its req route)."
+   "statement": "Uniformly for every admissible prize row, non-quotient e_1 collisions are o(1)-sparse relative to the signed-core quotient at the printed scope. The norm criterion and almost-all-primes density are proved; family-uniform exceptional-row control remains open.",
+   "notes": "QUANTIFIER CORRECTION 2026-07-26: finitely many named-field folded certificates cannot discharge the universal F,L,k quantifier. The direct requirement is e1_official_prime_exception_control; the exhibit certificate branch is background evidence. The residual alt edge from amplification_range_ext remains ev."
   },
   {
    "id": "paper_a_noslack",
@@ -3283,9 +3283,9 @@
   },
   {
    "id": "official_row_primes_pinning",
-   "title": "FLAG (C1a, LOUD): the literal official row primes are NOT in-repo",
+   "title": "Official-row quantifier pinning: no hidden finite prime list",
    "status": "PROVED",
-   "statement": "The repo pins only the SHAPE of the Row-C fields (log2 q = 250, 1024 | q - 1, idealized q = 2^250) \u2014 no literal primes anywhere (xr-budget-audit/ certificate dir absent). ALL per-row certification (C1a certificates, the C2 GCD harness) currently runs on a clearly-labeled STAND-IN prime p* = 1 mod 1024 (~250 bits); re-running on real primes = swapping one constant. NEEDED: the authoritative literal row primes (prize spec / maintainer / rules-freeze artifact) before any certification claim is made about OFFICIAL rows. Goes on the maintainer asks list.",
+   "statement": "The grand challenges quantify over every admissible choice of F, L, and k, subject to the printed bounds and sufficiently-large-field proviso; they do not specify a hidden finite list of official row primes. A prize-facing certificate must therefore be family-uniform, or else be explicitly scoped only to its named exhibit field. A stand-in or named exhibit does not certify the universal family without a proved transport theorem.",
    "refs": [
     "experimental/notes/roadmaps/c1a_lowh_mitm_certificates.md"
    ],
@@ -4966,11 +4966,12 @@
   },
   {
    "id": "e1_official_prime_exception_control",
-   "title": "E1 official-prime exceptional-set control",
-   "status": "CONDITIONAL",
-   "statement": "For the admissible prize-scale row primes in the open E1 cells N' in {128,256}, incidence with the explicit non-quotient e1 exceptional norm-divisor set is negligible relative to the signed-core quotient count. Equivalently, the official row primes are typical for the exceptional-set reduction, or the pinned rows are certified directly by the folded lattice/kernel procedure.",
-   "attack_surface": "assembly from folded-certificate soundness plus the remaining official-row typicality/certificate production",
-   "falsifier": "an admissible prize-scale row prime with enough non-quotient folded sparse kernel vectors to make e1 collisions exceed the allowed o(1) budget"
+   "title": "E1 family-uniform exceptional-set control",
+   "status": "TARGET",
+   "statement": "Uniformly for every admissible field/domain/rate instance in the open E1 cells N' in {128,256}, incidence with the explicit non-quotient e1 exceptional norm-divisor set is negligible relative to the signed-core quotient count at the scope required by e1_fullness. A direct-certificate alternative must cover every admissible input; certificates for finitely many named exhibit fields establish only those exhibits and do not discharge this universal statement.",
+   "attack_surface": "prove a family-uniform exceptional-divisor bound, or a complete per-input theorem/certifier covering every admissible row with the exact required budget",
+   "falsifier": "an admissible prize-scale row with enough non-quotient folded sparse kernel vectors to exceed the allowed budget; or a purported family-wide certificate route that leaves any admissible row uncovered",
+   "notes": "QUANTIFIER ROUTE CORRECTION 2026-07-26: the former CONDITIONAL incorrectly transported two named-exhibit no-vector certificates to a theorem over every admissible F,L,k. The exhibit/certificate subgraph is retained as background evidence only. See notes/E1_NAMED_EXHIBIT_QUANTIFIER_AUDIT_20260726.md."
   },
   {
    "id": "ef_fullfield_bridge",
@@ -19301,7 +19302,7 @@
   {
    "from": "e1_folded_certificate_soundness",
    "to": "e1_official_prime_exception_control",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "official_row_primes_pinning",
@@ -19336,12 +19337,17 @@
   {
    "from": "e1_open_cell_control_payload",
    "to": "e1_official_prime_exception_control",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "e1_official_typicality_or_certificate",
    "to": "e1_official_prime_exception_control",
-   "kind": "req"
+   "kind": "ev"
+  },
+  {
+   "from": "official_row_primes_pinning",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
   },
   {
    "from": "official_row_primes_pinning",

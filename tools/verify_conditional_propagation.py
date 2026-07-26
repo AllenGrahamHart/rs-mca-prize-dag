@@ -37,8 +37,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 GRANDS = {"mca_grand", "list_grand"}
-EXPECTED_TARGETS = 25
-EXPECTED_CONDITIONALS = 45
+EXPECTED_TARGETS = 24
+EXPECTED_CONDITIONALS = 39
 EXPECTED_ROUNDS = 8
 
 # Audited 2026-07-26.  Each entry: (conditional, mentioned open node, why benign).

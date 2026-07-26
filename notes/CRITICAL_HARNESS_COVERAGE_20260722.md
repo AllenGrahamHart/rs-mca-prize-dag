@@ -9,13 +9,13 @@ tools/ramguard tiny -- python3 tools/verify_critical_harness_coverage.py
 
 ## Scope and interpretation
 
-The current census covers the 260-node mathematical critical orbit. Of its
-190 `PROVED` nodes:
+The current census covers the 246-node mathematical critical orbit. Of its
+183 `PROVED` nodes:
 
 | coverage class | count | meaning |
 |---|---:|---|
-| local verifier | 50 | at least one manifest-discoverable `verify*.py` under the node |
-| folder, markdown only | 135 | a critical node folder exists, but no discoverable local checker |
+| local verifier | 44 | at least one manifest-discoverable `verify*.py` under the node |
+| folder, markdown only | 134 | a critical node folder exists, but no discoverable local checker |
 | legacy reference only | 5 | no node folder; the DAG cites an older proof source |
 | no artifact | 0 | neither a node folder nor a DAG reference |
 
@@ -69,8 +69,12 @@ restored `e1_folded_no_vector_certificate_128_payload` and
 `e1_folded_no_vector_certificate_256_payload` to `TARGET`: one had only a
 rounded fpylll observation, while the other substituted an almost-all-primes
 density estimate for a named-field zero-vector certificate. Nine consumers
-regressed to `CONDITIONAL`. The current surface is therefore
-`190 PROVED / 45 CONDITIONAL / 25 TARGET`. The green
+regressed to `CONDITIONAL`. A subsequent quantifier audit found that even
+complete certificates for the two named exhibits could not prove a theorem
+over every admissible `F,L,k`. That 14-node quantifier-pin/exhibit branch is
+now background evidence, and one family-uniform E1 `TARGET` replaces its two
+exhibit leaves on the live route. The current surface is therefore
+`183 PROVED / 39 CONDITIONAL / 24 TARGET`. The green
 law in `critical/CRITICAL.md` requires a true claim with a proof artifact, and
 computation claims require a pinned result plus replayable verifier.
 

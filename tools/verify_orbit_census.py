@@ -7,20 +7,20 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  260 = 190 PROVED / 45 CONDITIONAL
-                  / 25 TARGET.  This is what orbit/critical_dag.json, the radial
+                  nodes {mca_grand, list_grand}.  246 = 183 PROVED / 39 CONDITIONAL
+                  / 24 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
-                  and verify_critical_harness_coverage.py all measure.  Its 23
+                  and verify_critical_harness_coverage.py all measure.  Its 24
                   TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  275 = 202 / 47 / 26.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  261 = 195 / 41 / 25.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
-                  analysis (26 open dominators == the 26 submission-orbit TARGETs).
+                  analysis (25 open dominators == the 25 submission-orbit TARGETs).
 
-Neither census is stale; 275 - 260 = 15 is definitional, not drift. Consumers must
+Neither census is stale; 261 - 246 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
 "all-green DAG" end state is the submission orbit (it owns the dossier leaf).
 
@@ -40,10 +40,11 @@ ROOT = Path(__file__).resolve().parents[1]
 GRANDS = {"mca_grand", "list_grand"}
 SUBMISSION_ROOT = "prize"
 
-# E1 false-green correction, 2026-07-26, from Codex pin a938a37b. Two
-# certificate leaves returned to TARGET and nine consumers to CONDITIONAL.
-EXPECTED_MATH = {"PROVED": 190, "CONDITIONAL": 45, "TARGET": 25}
-EXPECTED_SUBMISSION = {"PROVED": 202, "CONDITIONAL": 47, "TARGET": 26}
+# E1 quantifier correction, 2026-07-26. The 14-node quantifier-pin/named-exhibit branch is
+# background evidence; one family-uniform E1 TARGET replaces its two exhibit
+# leaves on the live route.
+EXPECTED_MATH = {"PROVED": 183, "CONDITIONAL": 39, "TARGET": 24}
+EXPECTED_SUBMISSION = {"PROVED": 195, "CONDITIONAL": 41, "TARGET": 25}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no
@@ -72,7 +73,7 @@ EXPECTED_DELTA = {
 NON_MATH_TARGET = "submission_quality_paper_dossier"
 
 # ...and the two CONDITIONALs on the spine are likewise non-mathematical, so a
-# conditional-dedup ledger over the 47 must account for 45 mathematical ones.
+# conditional-dedup ledger over the 41 must account for 39 mathematical ones.
 NON_MATH_CONDITIONALS = {"prize", "packaging"}
 
 

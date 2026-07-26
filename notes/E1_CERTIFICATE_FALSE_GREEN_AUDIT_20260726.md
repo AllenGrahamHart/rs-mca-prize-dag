@@ -17,8 +17,8 @@ automatic consumer chain is regressed to `CONDITIONAL` through `mca_unsafe`.
 
 ## The N'=128 gap
 
-The only executable is
-`critical/nodes/e1_folded_no_vector_certificate_128_payload/notes/modal_e1_cert.py`.
+The only historical executable is now retained at
+`background/nodes/e1_folded_no_vector_certificate_128_payload/notes/modal_e1_cert.py`.
 It computes a lattice, runs BKZ, attempts `SVP.shortest_vector`, catches every
 exception, and returns rounded summaries. The returned schema does not say
 whether exact SVP completed. No exact primitive root, basis, shortest vector,
@@ -83,6 +83,12 @@ e1_fullness                                  PROVED -> CONDITIONAL
 zone_b                                       PROVED -> CONDITIONAL
 mca_unsafe                                   PROVED -> CONDITIONAL
 ```
+
+Subsequent quantifier audit: this regression was necessary but not sufficient.
+The named-exhibit branch cannot discharge the universal prize statement even
+if both leaf certificates close. It is now background evidence, while
+`e1_official_prime_exception_control` is a direct family-uniform `TARGET`; see
+`E1_NAMED_EXHIBIT_QUANTIFIER_AUDIT_20260726.md`.
 
 ## Compute decision
 

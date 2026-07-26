@@ -20,10 +20,11 @@ CRITICAL_DAG = ROOT / "orbit" / "critical_dag.json"
 MANIFEST = ROOT / "tools" / "verifier_manifest.json"
 
 EXPECTED_COUNTS = {
-    # The WCL parity router added a local verifier to one existing PROVED node.
-    "folder-md-only": 135,
+    # Six proved named-exhibit soundness/checker nodes left the math orbit in
+    # the E1 universal-quantifier correction.
+    "folder-md-only": 134,
     "legacy-ref-only": 5,
-    "local-verifier": 50,
+    "local-verifier": 44,
 }
 
 EXPECTED_NO_PROOF = {
@@ -45,8 +46,6 @@ EXPECTED_UNREGISTERED_VERIFIER_NODES = {
 }
 
 KNOWN_TRUTH_STATUS_REVIEW = {
-    "e1_folded_no_vector_certificate_128_payload",
-    "e1_folded_no_vector_certificate_256_payload",
     "far_pair_separation",
     "generator_economy",
     "integer_code_distance_cert",
@@ -100,8 +99,8 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    require(len(critical["nodes"]) == 260, "critical orbit size drift")  # refreshed at the wave-20 census (folder moves + bridge closure + N11 sweep + ww rewire)
-    require(len(proved) == 190, "critical PROVED count drift")
+    require(len(critical["nodes"]) == 246, "critical orbit size drift")
+    require(len(proved) == 183, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()

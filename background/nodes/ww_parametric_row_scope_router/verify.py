@@ -24,7 +24,7 @@ def load_inputs() -> tuple[dict[str, Any], dict[str, Any], dict[str, Any], dict[
     official = json.loads(
         (
             ROOT
-            / "critical/nodes/official_row_primes_pinning"
+            / "background/nodes/official_row_primes_pinning"
             / "official_row_primes_reframe.json"
         ).read_text()
     )

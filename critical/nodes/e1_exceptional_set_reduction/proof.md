@@ -35,7 +35,8 @@ proves that the residual obstruction is exactly official-prime incidence with
 a sparse explicit exceptional set.
 
 Therefore `e1_fullness` is reduced to the remaining predicate
-`e1_official_prime_exception_control`, which must show that the admissible
-prize row primes avoid, or are sufficiently sparse inside, the exceptional
-norm-divisor set, or else provide direct folded-lattice certificates for the
-pinned rows.
+`e1_official_prime_exception_control`, which must show uniformly that every
+admissible prize row avoids, or is sufficiently sparse inside, the exceptional
+norm-divisor set. A direct folded-lattice alternative must come with a theorem
+covering every admissible input; certificates for finitely many named fields
+do not establish the universal conclusion.

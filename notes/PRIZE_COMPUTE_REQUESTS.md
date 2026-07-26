@@ -7084,13 +7084,17 @@ padding multiplicity consists of exact `e_1` collisions.
   pilot and publish measured resources before requesting a larger run.  Do not
   launch this request locally under the present Modal budget.
 
-### N12-E1-256: bounded named-field box falsifier
+### N12-E1-256: completed named-field box falsifier (background exhibit)
 
-- **consumer:** `e1_folded_no_vector_certificate_256_payload`.
+- **status:** completed and retired from the critical route by the E1
+  universal-quantifier audit. The unresolved named-field node remains
+  background exhibit work; closing it would not close family-uniform E1
+  control.
+- **consumer:** background node `e1_folded_no_vector_certificate_256_payload`.
 - **question:** does the pinned Pocklington field admit one nonzero
   `w in {-2,-1,0,1,2}^128` with `sum_i w_i rho_256^i = 0 mod p`?
 - **promotion rule:** only an explicit vector accepted by
-  `critical/nodes/e1_folded_no_vector_certificate_256_payload/verify_falsification_campaign.py`
+  `background/nodes/e1_folded_no_vector_certificate_256_payload/verify_falsification_campaign.py`
   falsifies the
   zero-vector leaf. A search miss is `INCOMPLETE` and changes no status.
 - **campaign:** four deterministic Modal workers, seeds

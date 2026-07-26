@@ -1,24 +1,31 @@
 # ATTACK - e1_official_prime_exception_control
 
-Status: conditional. Use light local computation only.
+Status: target. This is a family-uniform statement; use light local work and
+Modal only for pre-registered route-deciding experiments.
 
-The folded-certificate soundness is proved in
-`e1_folded_certificate_soundness`. The old active leaf
-`e1_official_typicality_or_certificate` is now conditional. The manifest
-assembly has also been split, so the live leaves are
-`e1_folded_no_vector_certificate_128_payload` and
-`e1_folded_no_vector_certificate_256_payload`. The common field/root data is
-already proved.
+## Proved reduction
 
-Possible proof routes:
+`e1_exceptional_set_reduction` identifies every residual collision with an
+explicit nonzero cyclotomic norm divisor, and `are_exceptional_density` gives
+an almost-all-primes average. `official_row_primes_pinning` proves that there
+is no hidden finite list of official primes: the prize quantifier is over
+every admissible `F,L,k`.
 
-- certify named exhibit fields directly with the folded lattice/kernel
-  procedure described by `kernel_lattice_reframing`,
-  `integer_code_distance_cert`, and `lattice_cone_certificate`.
+The named-field folded-certificate machinery is sound at its printed scope and
+is retained in `background/nodes/`. It can calibrate algorithms and certify an
+exhibit, but two named rows cannot prove this universal target.
 
-Do not promote from birthday-scan evidence alone; the scans are useful
-falsification attempts but not a proof of admissible-family avoidance of the
-exceptional set.
+## Route-deciding attacks
 
-There is no hidden list of official row primes to recover; see
-`official_row_primes_pinning`.
+1. Try to construct an infinite or prize-admissible family of exceptional
+   split primes with collision mass above the required budget. An exact family
+   kills `e1_fullness` and requires an input-sensitive correction downstream.
+2. If that fails, strengthen the norm-divisor ledger from almost-all-primes to
+   the exact uniform budget needed for every admissible row.
+3. A certifier route is legitimate only if a theorem proves termination,
+   soundness, and coverage for every admissible input. Per-exhibit transcripts
+   alone are evidence.
+
+Do not promote from birthday scans, lattice-reduction summaries, or finitely
+many successful exhibits. The smallest useful falsifier is one admissible row
+whose exact folded collision count exceeds the budget.
