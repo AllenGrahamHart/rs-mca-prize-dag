@@ -130,6 +130,58 @@ for _ in range(8):
 check(trials > 0, "no reconstruction instances exercised")
 check(trials == reconstructed, "not every instance reconstructed")
 
+# --- 4b. the CONVERSE bijection -------------------------------------------
+# For (B, e9) with gcd(B, e9*Y+1) = 1: the roots of G reconstruct 11 distinct,
+# pairwise non-antipodal rho with product one, which are exactly F's roots.
+rng2 = random.Random(4110)
+conv = degen = 0
+for _ in range(120):
+    B = [rng2.randrange(P) for _ in range(5)] + [1]
+    e9 = rng2.randrange(P)
+    Bx2 = [0] * (2 * len(B) - 1)
+    for i, c in enumerate(B):
+        Bx2[2 * i] = c
+    F = psub(pmul([0, 1], Bx2), [1, 0, e9])
+    G = psub(pmul([0, 1], pmul(B, B)), pmul([1, e9], [1, e9]))
+    # product-one is an identity: prod of F's roots = (-1)^11 * F(0) = 1
+    check((-F[0]) % P == 1 % P, "product-one identity F(0) = -1 failed")
+    side = True if e9 == 0 else ev(B, (-pow(e9, P - 2, P)) % P) != 0
+    roots = [y for y in range(P) if ev(G, y) == 0]
+    bad = [y for y in roots if ev(B, y) == 0]
+    check(side == (len(bad) == 0), "side condition must track the degenerate roots")
+    if bad:
+        degen += 1
+        continue
+    if not roots:
+        continue
+    rhos = [(e9 * y + 1) * pow(ev(B, y), P - 2, P) % P for y in roots]
+    check(len(set(rhos)) == len(rhos), "reconstructed rho must be distinct")
+    check(all((a + b) % P != 0 for a in rhos for b in rhos),
+          "reconstructed rho must be pairwise non-antipodal (and nonzero)")
+    check(all(ev(F, r) == 0 for r in rhos), "every rho must be a root of F")
+    conv += 1
+check(conv > 0, "converse never exercised")
+
+# Degenerate instances are rare under sampling, so CONSTRUCT them: pick e9, then
+# force B(-1/e9) = 0 by building B with that root.  The side condition must fail
+# and G must acquire a root killing B, i.e. the reconstruction must break exactly
+# where (QQD10) says it does.
+built = 0
+for e9 in (2, 3, 5, 7, 11):
+    r = (-pow(e9, P - 2, P)) % P                      # the forbidden point -1/e9
+    B = [1]
+    for extra in (r, 4, 6, 9, 13):                    # roots: r plus four others
+        B = pmul(B, [(-extra) % P, 1])
+    check(len(B) == 6 and B[5] == 1, "constructed B must be monic quintic")
+    check(ev(B, r) == 0, "constructed B must vanish at -1/e9")
+    side = ev(B, r) != 0
+    check(not side, "side condition must FAIL on the constructed instance")
+    G = psub(pmul([0, 1], pmul(B, B)), pmul([1, e9], [1, e9]))
+    check(ev(G, r) == 0, "the forbidden point must be a root of G")
+    check(ev(B, r) == 0, "and it must kill B, so rho is undefined there")
+    built += 1
+check(built == 5, "all five degenerate constructions must be exercised")
+
 # --- 5. parameter counts ---------------------------------------------------
 check((5 + 1, 11) == (6, 11), "(4,11): 6 parameters, 11 relations")
 check((4, 9) == (4, 9), "(4,9): 4 parameters, 9 relations")

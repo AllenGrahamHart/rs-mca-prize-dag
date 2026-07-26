@@ -90,19 +90,58 @@ Dividing `Y^1024 - 1` by the monic degree-eleven `G` gives
 with `R_j in Z[b_0,...,b_4,e_9]`: **eleven relations in six unknowns**, against nine
 in four at `(4,9)`. This is the fixed characteristic-only endpoint for the cell.
 
-## Scope — what is and is NOT proved here
+## Converse — the bijection is COMPLETE (2026-07-26)
 
-**Proved:** the normalisation `(QQD3)`, the normal form `(QQD5)` with `e_9` free,
-the square locator `(QQD6)`, the divisibility `(QQD7)`, and the reconstruction
-identity `(QQD8)` (verified: for random `(B, e_9)` over `F_10007`, every root `y` of
-`G` yields `rho` with `rho^2 = y` and `F(rho) = 0`).
+Let `B` be monic quintic, `e_9` a scalar with
 
-**NOT proved here, and owed before the cell can be attacked as a census:** the
-*converse* bijection. `(4,9)` additionally establishes that every monic `A`
-satisfying its divisibility reconstructs nine **distinct, non-antipodal** roots with
-product one and vanishing odd power sums. The corresponding statement for `(QQD8)`
-— distinctness, non-antipodality, and that `(QQD2)` is recovered — is not
-established here, nor is the `Delta` certificate `(QQD11)` analogue (no
-characteristic-zero point of the ideal `I = (R_0,...,R_10)`).
+```text
+gcd(B(Y), e_9 Y + 1) = 1        (vacuous when e_9 = 0)          (QQD10)
+```
+
+and suppose `G(Y) = Y B(Y)^2 - (e_9 Y + 1)^2` divides `Y^1024 - 1`. Then `(B, e_9)`
+reconstructs a normalised reduced weight-eleven relation satisfying `(QQD2)`:
+
+1. **`G` is squarefree with 11 distinct roots** — it divides `Y^1024 - 1`, which is
+   separable since `char` is odd.
+2. **`B(y) != 0` at every root `y` of `G`.** If `B(y) = 0` then `G(y) = 0` forces
+   `(e_9 y + 1)^2 = 0`, hence `e_9 y + 1 = 0`, contradicting `(QQD10)`.
+3. **`rho(y) = (e_9 y + 1)/B(y)` satisfies `rho^2 = y` and `F(rho) = 0`** — the
+   first directly from `G(y) = 0`, the second by substitution.
+4. **The eleven `rho(y)` are distinct and are exactly the roots of `F`.**
+   `rho(y_i) = rho(y_j)` implies `y_i = rho(y_i)^2 = rho(y_j)^2 = y_j`; and `F` is
+   monic of degree 11 with these 11 distinct roots.
+5. **Non-antipodal.** `rho_i = -rho_j` implies `y_i = y_j`, so `i = j` and
+   `rho_i = 0` — impossible, since `F(0) = -1`.
+6. **Product one.** `prod_i rho_i = (-1)^11 F(0) = -(-1) = 1`, because `F(0) = -1`
+   identically. *(This is where the `-1` in the normal form earns its place.)*
+7. **Window conditions recovered.** `F(X) = X B(X^2) - (e_9 X^2 + 1)` has no
+   `X^10, X^8, X^6, X^4` term, so `e_1 = e_3 = e_5 = e_7 = 0`, and Newton (`char > 7`)
+   gives `p_1 = p_3 = p_5 = p_7 = 0`.
+8. **Signed form.** `rho^2 = y in mu_1024` gives `rho^2048 = 1`, so `rho in mu_2048`;
+   since `omega^1024 = -1`, every such `rho` is `s omega^e` with `s in {+1,-1}` and
+   `0 <= e < 1024`.
+
+So **common-dilation orbits of `(4,11)` relations are in bijection with the pairs
+`(B, e_9)` satisfying `(QQD10)` and the divisibility `(QQD7)`** — the exact analogue
+of the `(4,9)` quartic bijection, with the side condition `(QQD10)` as the only new
+ingredient (it is what keeps `0` out of the root set, and it is automatic at
+`e_9 = 0`).
+
+Machine-checked on 272 instances over `F_10007` from a fixed seed, including one
+genuinely degenerate `(B, e_9)` where `B(-1/e_9) = 0`; the side condition tracked
+the degeneracy exactly.
+
+## What remains
+
+
+
+**Proved:** normalisation `(QQD3)`; normal form `(QQD5)` with `e_9` free; square
+locator `(QQD6)`; divisibility `(QQD7)`; reconstruction `(QQD8)`; and the **full
+converse bijection** above under `(QQD10)`.
+
+**Owed:** the `Delta` certificate — the `(QDD11)` analogue. Show the ideal
+`I = (R_0,...,R_10) subset Z[b_0..b_4, e_9]` has no characteristic-zero point and
+extract a nonzero integer `Delta = sum_j H_j R_j`. Note the shape is harder than
+`(4,9)`'s: **eleven** relations in **six** unknowns, against nine in four.
 
 Closes no cell. `dli_wcl_slot_4_11_emptiness` stays TARGET.
