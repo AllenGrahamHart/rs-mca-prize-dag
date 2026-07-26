@@ -23,3 +23,27 @@ the hypothesis is therefore load-bearing. Peak worker RSS was `58 MB`.
 
 The repository-wide Modal replay passed `119/119` verifiers with no timeout,
 hash mismatch, or remote error in app `ap-1neXhjFN7gdFPvtdx9mgcc`.
+
+## Upstream K3 export
+
+The same theorem, recast in upstream's column-far fixed-union terminology,
+was exported as draft PR
+[`#1106`](https://github.com/przchojecki/rs-mca/pull/1106), commit
+`98149fc6`. At the deployed KoalaBear MCA adjacent candidate it uses
+
+```text
+R=1048576,   r=981104,   h=67472,
+B*=274980728111395087.
+```
+
+The exact `(GRK)` floors are at most `B*` for every `0<=d<=9`; the boundary
+values are
+
+```text
+d=9:    55413538236037195,
+d=10:  861057176799343503 > B*.
+```
+
+This removes direction-rank-defect conditions from the column-far
+fixed-union charts through nullity nine. It does not count charts, pay the
+sparse branch, move an endpoint, or close K3.

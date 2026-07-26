@@ -1,6 +1,9 @@
 # Proof
 
-Write `N=R+d` and choose arbitrary lifts `b_0,b_1 in F^U` of `y_0,y_1`.
+Write `N=R+d`. Since `h<=R`, the right side of the claimed slope bound is at
+least one. Thus `|Z|<=1` is immediate. Otherwise choose two distinct slopes
+in `Z`. Their supported syndrome lifts show that `y_0,y_1` both lie in
+`im(H_U)`, so choose lifts `b_0,b_1 in F^U` of `y_0,y_1`.
 The MDS property says that the kernel `K=ker H_U` is an `[N,d]` MDS code.
 In particular, restriction `K->F^T` is a bijection for every `d`-set
 `T subset U`.
@@ -37,16 +40,16 @@ zero set has size at least
 N-r=d+h.
 ```
 
-For every `d`-set `T` in that zero set, uniqueness of the kernel correction
-on `T` gives
+Choose `d+h` zeros. For every `d`-set `T` in this chosen set, uniqueness of
+the kernel correction on `T` gives
 
 ```text
 w_gamma=e_T(gamma).
 ```
 
-At least `h` further coordinates vanish. Since at most `h-1` coordinates are
-persistent for `T`, one of those zeros is nonpersistent. Charge `(gamma,T)`
-to the first such coordinate in any fixed order on `U`.
+At least `h` further chosen coordinates vanish. Since at most `h-1`
+coordinates are persistent for `T`, one of those zeros is nonpersistent.
+Charge `(gamma,T)` to the first such coordinate in any fixed order on `U`.
 
 For fixed `(T,x)` with `x` nonpersistent, `e_T(gamma)_x` is a nonzero affine
 polynomial in `gamma`, so it vanishes for at most one slope. Every slope has
@@ -66,10 +69,9 @@ charts without a disjoint first-match atlas would reintroduce a binomial
 factor and is not valid. It therefore advances the XR high-core leaf and the
 upstream residual-ray compiler, but does not close either by itself.
 
-In current upstream terminology, this complements
-`thm:bounded-residual-kernel-ray` and `thm:single-mds-circuit-ray` in
-`experimental/asymptotic_rs_mca_frontiers.tex`. The former has a
-field-size factor `|F|^d`; the latter is field-independent only at one MDS
-circuit. `(GRK)` is field-independent for arbitrary `d`, using the stronger
-generic first-match hypothesis that XR already receives from its tangent
-strip.
+In current upstream terminology, this complements `thm:fixed-union-ray` and
+`thm:directional-johnson-ray` in `experimental/grande_finale.tex`. The former
+uses per-witness transversality; the latter depends on direction distance.
+`(GRK)` is field-independent for arbitrary `d` and independent of direction
+rank, using the stronger column-far hypothesis already supplied on the
+column-far side of `thm:exact-sparsification`.

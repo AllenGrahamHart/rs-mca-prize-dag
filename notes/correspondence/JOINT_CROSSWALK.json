@@ -118,6 +118,29 @@
    }
   },
   {
+   "our_node": "xr_generic_mds_kernel_ray_bound",
+   "his_object": {
+    "label": "K3 column-far fixed-union ray compiler / draft PR #1106",
+    "file": "experimental/notes/frontier-adjacent/column_far_fixed_union_ray_compiler_v1.md",
+    "line": "CF2 / CF3"
+   },
+   "relation": "IDENTICAL",
+   "chain": "independent theorem replay in both trees; upstream commit 98149fc6",
+   "scope": "one column-far fixed union U; exact KoalaBear specialization pays nullity 0 through 9 per chart",
+   "owner": "US",
+   "nonclaims": [
+    "no aggregation over fixed unions or first-match atlas",
+    "no sparse-branch payment, endpoint movement, K3 closure, or prize closure"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "draft PR #1106",
+   "lean": null,
+   "provenance": {
+    "our_sha": "8d93cb92",
+    "his_sha": "98149fc6"
+   }
+  },
+  {
    "our_node": "xr_lowcore_spread_heart",
    "his_object": {
     "label": "(S) prob:mca-spread-routing (low-core side)",

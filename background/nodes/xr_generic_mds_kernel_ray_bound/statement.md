@@ -8,7 +8,8 @@ Let `H_U:F^U->F^R` be an MDS parity-check restriction with
 |U|=R+d,       dim ker(H_U)=d.
 ```
 
-Fix `h>=1`, put `r=R-h`, and fix a syndrome line `y_0+gamma*y_1`.
+Fix `1<=h<=R`, put `r=R-h`, and fix a syndrome line
+`y_0+gamma*y_1`.
 Assume the line is generic at radius `r`: there is no set `E subset U` with
 `|E|<=r` for which both `y_0` and `y_1` lie in `span(H_E)`.
 
@@ -25,8 +26,8 @@ and hence
 |Z| <= floor(C(R+d,d) R / C(d+h,d)).
 ```
 
-For an RS row, `R=n-k` and `h=A-k`, while `r=n-A`. The genericity hypothesis
-is exactly the exclusion of a codeword pair jointly agreeing with the
-received pair on at least `A` coordinates, which is tangent-paid in the XR
-consumer.
-
+For an RS row, `R=n-k` and `h=A-k`, while `r=n-A`. Global column-farness of
+the received pair at agreement `A` implies this fixed-chart genericity
+hypothesis: a common support `E` of size at most `r` would give a joint
+agreement on its complement. The chart-local converse need not hold, so the
+XR consumer uses only this implication.

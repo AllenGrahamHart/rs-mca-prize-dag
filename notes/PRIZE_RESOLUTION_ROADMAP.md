@@ -2132,3 +2132,14 @@ affine dependence among its four codewords. Without that bridge, calling a
 locator Grassmann line a codeword pencil is a scope error. Fixed-union
 compilers remain one-chart evidence only and must not be summed over support
 unions without a disjoint atlas.
+
+**2026-07-26, first joint outbound packet:** the proved
+`xr_generic_mds_kernel_ray_bound` was translated into upstream K3 terminology
+and opened as draft PR
+[`#1106`](https://github.com/przchojecki/rs-mca/pull/1106). On the exact
+KoalaBear MCA row it pays every column-far fixed-union chart through nullity
+nine; nullity ten exceeds the full row budget. This is a real route cut but
+does not count retained unions, pay the sparse branch, or move an endpoint.
+The next XR theorem must therefore address first-match chart aggregation (or
+prove a structural collapse that avoids it), rather than improving the same
+per-chart constant again.
