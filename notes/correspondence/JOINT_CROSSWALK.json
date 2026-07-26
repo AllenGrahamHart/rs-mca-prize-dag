@@ -2,7 +2,7 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "ca8630f6",
+  "our_sha": "0893de24",
   "his_sha": "b13de811"
  },
  "rows": [
@@ -47,6 +47,26 @@
    "lean": null,
    "provenance": {
     "our_sha": "ca8630f6",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "averaged_occupancy_clean_anchor_first_moment_route_cut",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "complete-support FM1 upper-tail certificate eliminating the averaged M supplier at all six named high-budget clean envelopes",
+   "owner": "US",
+   "nonclaims": [
+    "not a safety bound or an upper bound on any explicit received line",
+    "not a route cut for lower-field rows where the complete-support mean can exceed budget",
+    "does not constrain quotient or direct-value Q/V suppliers"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "0893de24",
     "his_sha": "b13de811"
    }
   },

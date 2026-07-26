@@ -2741,3 +2741,30 @@ compute spend: none; bounded exact local replay only
 next route-deciding action: classify the residual high-field rows and compare
                               direct E1 against an exact post-paid M supplier
 ```
+
+**2026-07-27, averaged occupancy eliminated at clean envelopes:** the existing
+row descriptor was confirmed to validate arbitrary inputs without inferring a
+safe agreement, so there is no finite official row list to classify. On the
+six named envelopes, however, the largest possible support-family first
+moment is already below budget. This removes the `M` supplier before overlap
+optimization and leaves explicit `Q`/`V` as the positive unsafe routes.
+
+Cycle burn-down:
+
+```text
+starting pin: local 8c845519; canonical 1aca1792;
+              upstream origin/main b13de811
+ending proof pin: local 0893de24; canonical/upstream unchanged
+node attacked: unsafe_crossing_family_instantiation, averaged-M branch
+result: CLOSED AS ROUTE CUT at all six named high-budget envelopes;
+        universal target remains OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +1 evidence edge;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24
+upstream terminal delta: none; exact finite route cut is ours-only
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact integers and bounded local replay only
+next route-deciding action: direct E1/value-set control on the pair-feasible
+                              generated-field class, or a new explicit V line
+```
