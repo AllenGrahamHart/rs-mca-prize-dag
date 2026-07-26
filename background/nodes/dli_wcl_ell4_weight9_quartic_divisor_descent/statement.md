@@ -116,18 +116,40 @@ structured" condition. Setting `Y = 0` recovers `prod y_i = 1`.
    taking the product over all nine and using `prod y_i = 1` gives
    `(prod_i A(y_i))^2 = 1`, i.e. `Res(P, A) = +/- 1`.
 
-**Small-analogue evidence (route selection only, NOT a proof).** Replacing `1024`
-by a smaller two-power `N` and searching monic quartics `A`:
+**Small-analogue evidence — CORRECTED 2026-07-27. The first table below was
+ARTEFACT, not evidence.**
 
-| `p` | `N` | search | quartics `A` | with `Y A^2 - 1` split into 9 distinct `mu_N` roots |
+There is a local constraint I had not extracted: `A(y)^2 = y^{-1}` forces every root
+`y_i` to be a **quadratic residue**. Now `mu_N` lies entirely inside the squares iff
+`2N | p-1`; otherwise only half of `mu_N` is available. So an analogue is
+**faithful only when `2N | p-1`** — which is exactly the official situation, since
+`N = 2^10` and `2^41 | p-1` make the constraint vacuous there.
+
+My first analogues mostly failed that test:
+
+| `p` | `N` | `2N \| p-1`? | squares in `mu_N` | verdict |
 |---|---|---|---|---|
-| 17 | 16 | **exhaustive** | 83,521 | **0** |
-| 97 | 32 | sampled | 200,000 | 0 |
-| 193 | 64 | sampled | 200,000 | 0 |
-| 257 | 128 | sampled | 200,000 | 0 |
+| 17 | 16 | no | 8 | **vacuously impossible: 9 roots needed, 8 squares exist** |
+| 97 | 32 | no | 16 | unfaithful — constraint bites artificially |
+| 193 | 64 | no | 32 | unfaithful |
+| 257 | 128 | **yes** | 128 | faithful, but sampled at ~0.005% |
 
-An independent enumeration from the other side — all 715 product-one 9-subsets of
-`mu_16` — also gives 0.
+So the headline "exhaustive over 83,521 quartics at `(17,16)`, zero hits" was
+**counting-impossible before any algebra ran**, and carried no information at all.
+
+**Faithful, exhaustive re-run** (`2N | p-1`, all of `mu_N` square, as officially):
+
+| `p` | `N` | product-one 9-subsets | `P+1 = Y A(Y)^2` |
+|---|---|---|---|
+| 97 | 16 | 715 | **0** |
+| 193 | 16 | 715 | **0** |
+| 257 | 16 | 715 | **0** |
+| 353 | 16 | 715 | **0** |
+
+These four are genuine exhaustions of a faithful analogue. They remain
+route-selection evidence only — `N = 16` uses nine of sixteen roots where the
+official cell uses nine of `1024`, a very different density — but unlike the first
+table they are not artefact.
 
 **Fence, per this node's own standing rule:** *small analogues are falsification and
 route-selection evidence only; a no-hit analogue never proves the official uniform
