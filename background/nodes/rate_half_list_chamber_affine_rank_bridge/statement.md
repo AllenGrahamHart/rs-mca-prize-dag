@@ -232,3 +232,58 @@ are parallel. The remaining work for this route is the case analysis
 This also welds the bridge to the M-1 lane: `(DIR)` is a split-pencil fiber count,
 the same mechanism as the minimal-index budget `(MI2)` in
 `rate_half_ca_hankel_minimal_index_budget`.
+
+## PROGRESS 3: the direction count is classified — `Ddir in {4,5,6}` (2026-07-26)
+
+The residual of PROGRESS 2 is now settled as a finite affine-plane fact.
+
+Normalize `P_0 = 0`; no-three-collinear makes `A = P_1`, `B = P_2` a basis, and
+`P_3 = C = alpha A + beta B` with `alpha != 0`, `beta != 0`, `alpha + beta != 1`.
+The six difference directions are
+
+```text
+d1=[1:0]  d2=[0:1]  d3=[alpha:beta]
+d4=[-1:1] d5=[alpha-1:beta]  d6=[alpha:beta-1].
+```
+
+Checking all fifteen pairs, the **only** possible coincidences are
+
+```text
+beta = 1        <=>  d1 = d6
+alpha = 1       <=>  d2 = d5
+alpha + beta = 0 <=> d3 = d4
+```
+
+(every other pair differs by a nonzero constant, or would force `alpha = 0`,
+`beta = 0`, or `alpha + beta = 1`, all excluded). All three simultaneously would
+give `2 = 0`, so **in odd characteristic at most two hold**, and
+
+```text
+Ddir = 6 - #(coincidences)  in  {4, 5, 6},   and Ddir = 3 is IMPOSSIBLE.
+```
+
+`Ddir = 4` occurs for **exactly three** configurations, independent of the field:
+
+```text
+(alpha,beta) in { (1,1), (1,-1), (-1,1) },
+```
+
+i.e. `C = A+B` (the parallelogram `c_3 = c_1 + c_2 - c_0`), `C = A-B`, `C = -A+B`.
+
+Verified by brute force over `F_p`, `p in {5,7,11,13,17,19,23}`: the distribution
+is `Ddir = 4` in exactly 3 configurations at every `p`, the rest split between 5
+and 6, and `Ddir < 4` never occurs.
+
+**Status of the `s=2` route.** `Ddir = 6` is closed (PROGRESS 2: `z` pinned to two
+values, `b = 0`). The residual is `Ddir in {4,5}` — one or two of the three
+coincidence relations holding — with `Ddir = 4` reduced to three explicit
+configurations. The fiber bound `(DIR)` weakens there
+(`Ddir=5` gives a `7.3e10` window, `Ddir=4` a `1.8e11` one), so these need a
+different argument, not a sharper constant.
+
+*Recorded correction:* the tempting strengthening `Ddir*(K-2-z) <= n - z`, using
+`R_dir subset D \ G`, is **false** — a root of a pencil member may lie in the base
+locus `G`. The correct statement is that each point of `G` belongs to exactly one
+direction (since `gcd(f',g') = 1`), giving `sum_dir |R_dir| <= n` and no
+improvement. With the false version `Ddir = 6` would have been excluded outright;
+it is not.

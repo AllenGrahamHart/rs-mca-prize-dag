@@ -527,3 +527,17 @@ case, with `d_s` sitting exactly at the `(2n+2)/3` floor. Residual: `Ddir in
 {3,4,5}` (opposite sides of the quadrangle parallel), now a finite affine-plane
 configuration question rather than a coding one. Welds the bridge to M-1: `(DIR)`
 is the same split-pencil fiber count as `(MI2)`.
+
+**Session 6c — direction count classified.** The `Ddir` residual is now a settled
+finite affine fact: normalizing `P_0=0`, `C = alpha A + beta B`, the only possible
+coincidences among the six difference directions are `beta=1`, `alpha=1`,
+`alpha+beta=0`; all three at once forces `2=0`, so in odd characteristic
+**`Ddir in {4,5,6}` and `Ddir=3` is impossible**, with `Ddir=4` occurring for
+exactly three field-independent configurations `(alpha,beta) in {(1,1),(1,-1),(-1,1)}`
+(the parallelogram and its two relatives). Brute-forced over `p in {5..23}`.
+So the `s=2` route is: `Ddir=6` closed (b=0), residual `Ddir in {4,5}`.
+**Correction recorded:** I nearly banked a strengthening `Ddir*(K-2-z) <= n-z` via
+`R_dir subset D\G`, which would have excluded `Ddir=6` outright — it is FALSE,
+since a pencil member's root may lie in the base locus. Each point of `G` belongs
+to exactly one direction, so `sum|R_dir| <= n` and there is no improvement. Caught
+before committing.
