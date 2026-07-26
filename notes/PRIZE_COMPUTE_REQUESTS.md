@@ -7301,6 +7301,31 @@ the outer stage into exactly two low-dimensional tasks.
   the primary verifier and 10 seconds for its independent audit) are not a
   cost model for this larger system.
 
+  **One-eliminant Singular pilot authorization (2026-07-26).** The later
+  under-five-minute and under-`$1` compute law authorizes exactly one
+  route-pricing run of
+  `experiments/prize_resolution/l1_mersenne_m16_r12_singular_pilot_modal.py`.
+  It uses one CPU, 2 GiB, one container, a 180-second outer timeout, and a
+  165-second Singular timeout. It may construct `Q_s` and only
+  `Res_t(F_1,F_2)` at `(p,m,h)=(8191,16,15)`, returning degree, term count,
+  digest, wall time, and peak RSS. It must not launch `R_13`, a saturation,
+  extension-field interpolation, or a retry. Completion is representation
+  and cost evidence only. Timeout or error is a route fence; a successful
+  run authorizes no follow-on computation until its measured cost and output
+  shape have been audited.
+
+  **Attempt result (2026-07-26): `INCOMPLETE`.** The single launch was Modal
+  app `ap-wGlT1diHx4C7gUii0LhVyq`. The default Debian package recipe selected
+  891 new packages and 29 upgrades (1,077 MB of archives; 4,098 MB installed),
+  so the app was stopped at package 310 before image completion or any
+  algebra. The same-day billing report records `$0.00340405` CPU plus
+  `$0.00007667` memory, or `$0.00348072` total. No retry or second eliminant
+  ran. The launcher has been corrected to suppress Debian recommends, but is
+  not authorized for another run by this attempt. Exact replay metadata is in
+  `experiments/prize_resolution/l1_mersenne_m16_r12_singular_pilot_result.json`.
+  This is an infrastructure fence only and yields no mathematical or DAG
+  movement.
+
   A unit outside-prime-field locus closes the complete `m=16` order-zero
   outer chamber. A nonunit result must return an exact irreducible component
   or algebraic witness candidate, then impose `t=s^p` and the cyclotomic

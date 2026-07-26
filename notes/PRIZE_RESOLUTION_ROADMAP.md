@@ -2409,3 +2409,30 @@ next route-deciding action: return to direct official-subgroup arithmetic in
                               different one of the 23 critical red leaves;
                               do not spend further cycles on this compiler
 ```
+
+**2026-07-26, L1 m=16 Singular route-pricing attempt:** the one authorized
+`R_12` launch stopped during image construction. Modal app
+`ap-wGlT1diHx4C7gUii0LhVyq` exposed Debian's default `singular` package
+fanout: 891 new packages, 29 upgrades, 1,077 MB of archives, and 4,098 MB
+installed. It was terminated at package 310 before a function container or
+algebra started. The exact billed amount was `$0.00348072`. The launcher now
+suppresses recommended packages, but no retry is authorized by this result.
+This is an infrastructure `INCOMPLETE`, not evidence about the eliminant.
+
+Cycle burn-down:
+
+```text
+starting pin: local f77bf695; canonical cb1e506c; upstream main b13de811
+attempted node: l1_mixed_petal_amplification via the m=16 order-zero
+                reciprocal-elimination chamber
+result: INCOMPLETE at image build; no algebra or theorem claim
+DAG delta: none; critical math orbit remains 201 PROVED / 36 CONDITIONAL /
+           23 TARGET
+upstream terminal delta: none
+delta-star bracket movement: 0 bits
+new assumptions: none
+compute spend: $0.00348072; the single authorization is consumed
+next route-deciding action: integrate canonical cc979e4b, adjudicate its new
+                              WCL descent against the critical frontier, and
+                              use a non-compute L1 reduction if returning here
+```
