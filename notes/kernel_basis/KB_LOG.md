@@ -4577,3 +4577,43 @@ all PASS); manifest 1114/14/1430; orbit regenerated. FLAGS carried:
 queue for Codex); the untracked WIP folder (l1_mersenne_hnf_
 colored_frobenius_gate) stays out of scope. v9 needs NO separate
 import (ancestry). Findings: notes/wave22_import_20260724/.
+
+## 182 — 2026-07-24: LANE-L CROSSWALK BANKED — verdict: SUBMIT ZERO
+## race PRs; our floor is the lane's FOUNDATION and its neighborhood
+## is being mined downstream of us; exact Johnson arithmetic kills
+## every tempting alternative route
+
+Survey (notes/lane_l_crosswalk_20260724/): (1) 78e67c40 took our
+quotient-rotation theorem IN GENERAL FORM (s-independence included)
++ the c=2^33 specialization, full Lane-L packet, attribution;
+UNTAKEN remainder = interleaved-arity transport, the reusable cap
+criterion + margin ledger (114.65-bit optimized), band propagation,
+extremality/74-check, replay scripts (declined). (2) THE RACE: all
+three holmbuar PRs (#1097 constant refinement (C(255,129)+
+C(127,64))/256 [integer verified exactly]; #1099 the upper/lower
+BRACKET = the lane's open ask; #1101 s=0 boundary + 33-scale
+census) sit on OUR row and OUR agreement 1116691496959, all
+Lean-certified, all explicitly building on "the integrated cyclic
+quotient-rotation theorem" — the frontier is DOWNSTREAM OF US.
+(3) EXACT JOHNSON ARITHMETIC (agreement-side convention, a^2 <
+n(k-1); Johnson agreement 1554944255987): our integrated floor is
+post-Johnson by 438,252,759,028 agreements; the budget-1/2 exact
+crossings at 3n/4 are 94,323,185,677 agreements INSIDE Johnson =
+DEAD for Lane L; the never-before-evaluated INDIRECT route (our
+proved a_RH staircase through his Thm 5.2/5.3 conversions) lands
+at deepest radius 389500552608 vs Johnson 644078999565 — shortfall
+254,578,446,957, and STRUCTURALLY (n-k)/2 < Johnson radius means
+NO adjacent-range rate-half MCA determination can EVER convert past
+Johnson on this row; the route is also already recorded in
+results-v4 cor:abf(iii) (ChoThresholds26). Dead twice over.
+(4) The list corridor chain is NOT READY (list_safe CONDITIONAL on
+imgfib; window integers only in legacy proof_sketch, unvendored).
+(5) The only CLEAR asset (interleaved transport + band propagation)
+is small and partly outside the lane's declared object. PLAN OF
+RECORD: wait for #1097/#1099/#1101 triage; then AT MOST one small
+addendum PR (band propagation + fenced interleaving, citing
+#1097's constant if merged); real Lane-L headroom = an
+unconditional post-Johnson UPPER bound on a declared family —
+genuinely new mathematics, not a current asset of ours or
+holmbuar's. The race question is CLOSED: nothing of ours is being
+scooped; our theorem became the lane's foundation.
