@@ -795,6 +795,18 @@ to that leaf rather than unconditional global premises. Current math orbit:
 `242 = 180/38/24`; submission orbit: `257 = 192/40/25`. See
 `UNSAFE_AT_CROSSING_FALSE_GREEN_AUDIT_20260726.md`.
 
+N15 DONE, UPSTREAM IDENTITY-PREFIX UNSAFE SUPPLIER HARVEST: upstream's
+`lem:capff1-identity-prefix-floor` and `cor:capg-budget-conversion` combine to
+give an exact `V` payload whenever
+`C(n,m)>|B|^(m-k-1)B*` and `C(B*+1,2)k<q-n`. The general proof is
+independently reconstructed and source-pinned in
+`identity_prefix_flexible_budget_unsafe_floor`; its checker verifies the
+strict floor conversion and the two deployed MCA instances. KoalaBear at
+agreement `1116047` and Mersenne-31 at `1116023` therefore have exact
+adjacent-unsafe payloads. This closes a finite deployed slice only:
+`unsafe_crossing_family_instantiation` remains `TARGET` over all admissible
+rows, and neither next-row safety assertion is imported.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable
@@ -2533,4 +2545,40 @@ live compute requests: no retry; full CR-004 remains external/deferred
 next route-deciding action: find a complete structural split complementary
                               to inversion invariance, or return to the full
                               114/119 sparse certificate endpoint
+```
+
+**2026-07-26, universal unsafe-route correction and identity-prefix harvest:**
+an implication audit found that `unsafe_at_crossing` had been promoted without
+an every-row instantiation of either local supplier theorem. The corrected
+`unsafe_crossing_family_instantiation` target requires an exact `Q`, `V`, or
+`M` payload at every proposed predecessor. The independently reconstructed
+identity-prefix flexible-budget theorem then closes the `V` payload for the
+two deployed MCA rows while leaving the universal quantifier explicit.
+
+Cycle burn-down:
+
+```text
+starting pins: local af908721; canonical cc979e4b;
+               upstream origin/main b13de811
+ending proof pin: local 224720bc; canonical/upstream unchanged
+nodes attacked: unsafe_at_crossing; unsafe_crossing_family_instantiation;
+                identity_prefix_flexible_budget_unsafe_floor
+result: CORRECTED (false green); HARVESTED (general V supplier);
+        CLOSED (two deployed MCA unsafe payloads); universal target OPEN
+DAG delta: unsafe_at_crossing PROVED -> CONDITIONAL; +1 critical TARGET;
+           +1 off-orbit PROVED supplier and +3 evidence edges; five route-local
+           E1/zone nodes moved off the critical folder partition
+critical delta: math orbit is 242 = 180 PROVED / 38 CONDITIONAL / 24 TARGET;
+                every conditional is propagation-owned
+upstream terminal delta: none new upstream; the theorem is already proved at
+                         b13de811 and is now banked locally under its labels
+delta-star bracket movement: none globally; the two deployed unsafe edges are
+                             exact finite payloads
+new assumptions: none
+compute spend: none; proof review and exact integer checks only
+next route-deciding action: compile the identity-prefix inequalities over the
+                              exact admissible-row descriptor output, classify
+                              the residual rows as Q/V/M/uncovered, and mint a
+                              smaller algebraic target for the first uncovered
+                              exhaustive class
 ```

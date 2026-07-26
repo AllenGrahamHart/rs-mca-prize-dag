@@ -7,6 +7,30 @@
  },
  "rows": [
   {
+   "our_node": "identity_prefix_flexible_budget_unsafe_floor",
+   "his_object": {
+    "label": "identity-scale prefix floor + flexible-budget deep-point conversion",
+    "file": "tex/cs25_cap_v13_2.tex",
+    "line": "lem:capff1-identity-prefix-floor; cor:capg-budget-conversion; prop:capg-moved-frontier"
+   },
+   "relation": "IDENTICAL",
+   "chain": "independent in-node reconstruction plus manifest-backed exact contract replay",
+   "scope": "general identity-prefix MCA unsafe-floor theorem; the two deployed MCA rows are exact finite instances",
+   "owner": "HIM",
+   "nonclaims": [
+    "failure of either sufficient inequality is not a safety certificate",
+    "the two deployed instances do not discharge the universal every-row unsafe target",
+    "no safe upper bound or adjacent-safe certificate is imported"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved",
+   "lean": null,
+   "provenance": {
+    "our_sha": "224720bc",
+    "his_sha": "b13de811"
+   }
+  },
+  {
    "our_node": "f2_growing_order_myerson",
    "his_object": {
     "label": "U_Q / row-sharp Q atom (K2, Sidon-Fourier payment)",
