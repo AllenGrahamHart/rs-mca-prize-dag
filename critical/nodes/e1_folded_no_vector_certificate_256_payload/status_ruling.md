@@ -21,3 +21,12 @@ The useful almost-all-primes estimate remains partial evidence. Closure now
 requires either the literal complete named-field certificate, or a separate
 finite family-uniform density theorem together with a proved rewire of every
 consumer. Until one of those routes is banked, this leaf remains red.
+
+## Bounded falsification campaign
+
+Modal app `ap-uImvgijoKNeruVABf32Cc9` ran four deterministic LLL/BKZ plus
+negacyclic-shift-combination workers against the exact named field/root. All
+four completed within `125.33 s`; none found a box vector. The best observed
+basis-vector infinity norm was `5`, and the best signed-shift pair infinity
+norm was also `5`. The exact campaign checker reports `INCOMPLETE`, not
+`CERTIFIED`. See `falsification_report_20260726.md`.

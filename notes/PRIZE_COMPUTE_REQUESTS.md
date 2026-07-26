@@ -7084,6 +7084,33 @@ padding multiplicity consists of exact `e_1` collisions.
   pilot and publish measured resources before requesting a larger run.  Do not
   launch this request locally under the present Modal budget.
 
+### N12-E1-256: bounded named-field box falsifier
+
+- **consumer:** `e1_folded_no_vector_certificate_256_payload`.
+- **question:** does the pinned Pocklington field admit one nonzero
+  `w in {-2,-1,0,1,2}^128` with `sum_i w_i rho_256^i = 0 mod p`?
+- **promotion rule:** only an explicit vector accepted by
+  `critical/nodes/e1_folded_no_vector_certificate_256_payload/verify_falsification_campaign.py`
+  falsifies the
+  zero-vector leaf. A search miss is `INCOMPLETE` and changes no status.
+- **campaign:** four deterministic Modal workers, seeds
+  `{1729,2718,31415,65537}`, each `8` CPUs, `16 GiB`, hard timeout `240 s`.
+  Each performs bounded LLL/BKZ reduction followed by exact signed sums of
+  negacyclic shifts. Worker stage summaries survive ordinary completion.
+- **budget:** authorized once under the route-deciding pilot rule; estimated
+  total below `$0.30`, hard campaign ceiling `$0.50`, wall below five minutes.
+- **artifacts before launch:** launcher and exact checker are banked; checker
+  self-test rejects zero, out-of-box, non-kernel, and wrong-length mutations.
+  SHA-256 pins: launcher `4d2e5f842b77dc604df58b8dad064fad6c23390aad90b8ed8b40d915f97cd326`;
+  checker `cd13813d859aefb1d332a50d68dcc5b6cc08c6480dc3c447c25ee85800c94070`.
+- **app/run:** `ap-uImvgijoKNeruVABf32Cc9`, completed. All four workers
+  returned `NO_WITNESS_WITHIN_SEARCH_BUDGET` in `81.65--125.33 s`; campaign
+  result SHA-256
+  `3fcb4725226e996df9c274dd9e653e3a1354b6620c207e3c325289639f6cbcd2`.
+  The exact checker reports `INCOMPLETE`, as required. The client did not
+  expose a billed-dollar line; measured resources remain comfortably below
+  the `$0.30` estimate. This authorization is consumed; do not scale the miss.
+
 ## CR-004 refresh (2026-07-22): the WCL slot register is now request-grade hardened
 
 The ten-slot decomposition backing CR-004 is now MACHINE-CERTIFIED complete

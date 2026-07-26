@@ -768,6 +768,14 @@ failed `gate:any` alternatives; reversed-node-order and alternative-gate tests
 are banked. No Modal job was launched. See
 `E1_CERTIFICATE_FALSE_GREEN_AUDIT_20260726.md`.
 
+N12-E1-256 FALSIFIER COMPLETE, NO HIT: Modal app
+`ap-uImvgijoKNeruVABf32Cc9` ran the one authorized four-seed campaign in
+`81.65--125.33 s` per worker. Bounded LLL/BKZ plus exact negacyclic-shift
+combinations reached basis and pair infinity norm five but no vector in the
+required box. The checker returns `INCOMPLETE`; no status, edge, endpoint, or
+delta-star bracket changes. The run is not to be scaled. The E1 priority is
+now the finite family-uniform density quantifier, not repeated named-field BKZ.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable

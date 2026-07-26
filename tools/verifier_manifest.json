@@ -1378,6 +1378,7 @@
     "critical/nodes/e1_folded_certificate_manifest_soundness/statement.md": "7cd0c607d26909fa4a37438dcc37050dd54c93ed88d3d59c55be1c9e700847e0",
     "critical/nodes/e1_folded_certificate_soundness/proof.md": "e4a0b2d0d05e201d3efaebdaac09acf648a022fd5509259287204fdda4e114ee",
     "critical/nodes/e1_folded_certificate_soundness/statement.md": "81cc35defdf91a135422570f0c262bb7c6c46872ec8ddc73a0717b3c94c68171",
+    "critical/nodes/e1_folded_no_vector_certificate_256_payload/statement.md": "a130f41a301ca8a1b967e33f13f1a5709047f7202b3b8afe186a95ea33217f3d",
     "critical/nodes/e1_named_field_folded_cell_certificate_soundness/proof.md": "fe26c0b0ab386601c0d789953129033d27cb68dbde839059f198896d06ac4a1b",
     "critical/nodes/e1_named_field_folded_cell_certificate_soundness/statement.md": "4921fc0724abd3f7b4872743e6e55cf3ea05695b043a44558839e872977a5281",
     "critical/nodes/e1_open_cell_route_soundness/proof.md": "e69341e36740963781d7da805fde4eb726dfee8342f6c337b4ff3f978357d8c9",
@@ -1477,7 +1478,8 @@
     "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_exclusion/verify_screen_remote.py": "6a2b1df4afeddd7b43aa8832610f1fbc66325d2172486aab15d426f8697357f6",
     "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/verify_screen_remote.py": "be4553d631ad9f141ccede9c33473bab5543d9bfd991ada7daa0aab136a7e394",
     "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_post_field_compiler/verify_screen_remote.py": "e5a6880679ae32d15ce5ee18ae39bc5ea0186a957ce88b7653eab1399388fe3b",
-    "background/nodes/xr_profile_minor_record_inventory_payload/notes/verify_pro_proof.py": "bf9f1608ceb240b183a864293801560a55777327effcd2f7e1e249d0a2722bf1"
+    "background/nodes/xr_profile_minor_record_inventory_payload/notes/verify_pro_proof.py": "bf9f1608ceb240b183a864293801560a55777327effcd2f7e1e249d0a2722bf1",
+    "critical/nodes/e1_folded_no_vector_certificate_256_payload/notes/verify_box_falsifier_remote.py": "4d2e5f842b77dc604df58b8dad064fad6c23390aad90b8ed8b40d915f97cd326"
   },
   "schema": "prize-verifier-manifest-v1",
   "scripts": {
@@ -2577,6 +2579,7 @@
     "critical/nodes/dyadic_profile_evaluation/verify.py": "96ee55cc1f95d9b3704599e9690d341a8ac63c839949db9272e0212f8e96f4ef",
     "critical/nodes/e1_folded_certificate_manifest_soundness/verify.py": "31abaa74c2801b027364f24485fdaf090c69fc4d21e7ad233b11336d8f5b146e",
     "critical/nodes/e1_folded_certificate_soundness/verify.py": "2b41785ca3e9e16b6314263405e8d5e4be129ad49cb09c739e8aa4b0db27f3df",
+    "critical/nodes/e1_folded_no_vector_certificate_256_payload/verify_falsification_campaign.py": "cd13813d859aefb1d332a50d68dcc5b6cc08c6480dc3c447c25ee85800c94070",
     "critical/nodes/e1_named_field_folded_cell_certificate_soundness/verify.py": "700abd913f354c3735b4d22d41c0267aaa148d59471e156c0c8877e30728aebd",
     "critical/nodes/e1_open_cell_route_soundness/verify.py": "dfa803547df203f13463097cff67339a1ce79bb544cbe606b0a5aad8c015165c",
     "critical/nodes/e1_pocklington_250bit_exhibit_field/verify.py": "1b45dfdfe731fb5db4e1e3621a7d6aab38cef86250286cd1f363896bd90d9aeb",
