@@ -807,6 +807,19 @@ adjacent-unsafe payloads. This closes a finite deployed slice only:
 `unsafe_crossing_family_instantiation` remains `TARGET` over all admissible
 rows, and neither next-row safety assertion is imported.
 
+N16 DONE, IDENTITY-PREFIX CLEAN-ANCHOR ROUTE CLASSIFICATION: writing
+`M=floor(q/2^t)`, the flexible-budget pair-root premise is impossible over
+the whole budget interval whenever `Mk>=2^(t+1)`, and holds over the whole
+interval whenever `C(M+1,2)k<M2^t-n`. Exact application rules out the
+identity-prefix supplier on five of the six clean anchors: RowC rates `1/4`
+and `1/8`, and all three prize-max clean rates. The sole survivor is RowC
+rate `1/16`; there `w=1`, and the prefix condition is equivalent to a proved
+domain field of order at most
+`194309137781254382992506402317422272798923813601398339285841609906262`.
+The current RowC characteristic is explicitly unpinned, so this branch is not
+instantiated. Result: the harvested supplier is exhausted as a high-field
+clean-anchor strategy; those rows need `Q`, another direct `V`, or `M`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable
@@ -2581,4 +2594,36 @@ next route-deciding action: compile the identity-prefix inequalities over the
                               the residual rows as Q/V/M/uncovered, and mint a
                               smaller algebraic target for the first uncovered
                               exhaustive class
+```
+
+**2026-07-26, identity-prefix clean-anchor route exhausted:** the official row
+model is parametric rather than a finite row list, and the six RowC/prize
+entries are envelope checks. Extracting the pair-root condition against the
+exact budget interval gives a complete anchor-level route classification:
+five clean anchors cannot use the supplier, while RowC rate `1/16` reduces to
+one explicit base-field cutoff. The repository's pre-existing warning that
+the RowC characteristic is unpinned prevents a fabricated instantiation.
+
+Cycle burn-down:
+
+```text
+starting pin: local 5b1dc9a9; canonical cc979e4b;
+              upstream origin/main b13de811
+ending proof pin: local e0856fc5; canonical/upstream unchanged
+node attacked: unsafe_crossing_family_instantiation, identity-prefix branch
+result: CLOSED AS ROUTE CUT on five clean anchors; NARROWED to one typed
+        RowC-1/16 subfield branch; universal target remains OPEN
+DAG delta: +1 off-orbit PROVED node, +1 req edge, +1 evidence edge;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24
+upstream terminal delta: none; candidate for a grouped unsafe-side/no-go packet
+delta-star bracket movement: none
+new assumptions: none; the surviving branch prints its required domain-field
+                 containment instead of assuming the unpinned RowC prime
+compute spend: none; 2,527 exact router checks and one small binomial only
+next route-deciding action: skip identity-prefix on the high-field clean rows;
+                              audit the existing quotient/direct-value witness
+                              at their exact unsafe predecessors, beginning
+                              with whether the banked A-1 quotient witness is
+                              already a valid ambient-field Q payload
 ```

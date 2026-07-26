@@ -31,6 +31,26 @@
    }
   },
   {
+   "our_node": "identity_prefix_clean_anchor_route_classification",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact downstream pair-budget router and six clean-anchor classification for the imported identity-prefix supplier",
+   "owner": "US",
+   "nonclaims": [
+    "not a new unsafe payload on five route-cut rows",
+    "the surviving RowC 1/16 branch still needs a proved domain-field pin",
+    "best bundled into a later unsafe-side or no-go PR rather than filed alone"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "e0856fc5",
+    "his_sha": "b13de811"
+   }
+  },
+  {
    "our_node": "f2_growing_order_myerson",
    "his_object": {
     "label": "U_Q / row-sharp Q atom (K2, Sidon-Fourier payment)",
