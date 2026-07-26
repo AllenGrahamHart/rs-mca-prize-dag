@@ -1,5 +1,10 @@
 # Prize Resolution Roadmap — r3, the date-free plan of record
 
+> **OPERATING PROTOCOL:** The joint end-to-end goal is governed by
+> `notes/JOINT_PRIZE_RESOLUTION_PROTOCOL.md`. This roadmap selects strategy;
+> the protocol controls proof status, cross-repository custody, PR procedure,
+> verification, computation, and the terminal completion audit.
+
 Supersedes r2 and the divergence-era copy (snapshotted at
 `notes/roadmap_r3_20260721/PRIZE_RESOLUTION_ROADMAP_pre_r3_snapshot.md`,
 custody #104). Derived from the 18-agent review of 2026-07-21

@@ -1,5 +1,9 @@
 # Proximity Prize deferred compute requests
 
+> **OPERATING PROTOCOL:** Authorization, RAM discipline, and upstream handoff
+> rules are summarized in `notes/JOINT_PRIZE_RESOLUTION_PROTOCOL.md` section
+> 10. This file remains the authoritative request ledger and run log.
+
 > **PLAN-OF-RECORD POINTER (2026-07-22).** The resolution roadmap was
 > rewritten as the date-free r3 gates-not-dates form and installed at
 > `notes/PRIZE_RESOLUTION_ROADMAP.md` (maintainer-directed; supersedes every

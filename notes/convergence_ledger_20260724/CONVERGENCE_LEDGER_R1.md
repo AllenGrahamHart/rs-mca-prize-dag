@@ -1,5 +1,11 @@
 # Convergence Ledger r1 — the co-finish program (2026-07-24)
 
+> **PROCEDURE POINTER:** This dated ranked inventory is executed under
+> `notes/JOINT_PRIZE_RESOLUTION_PROTOCOL.md`. In particular, local
+> mathematical status and upstream acceptance are separate axes; the joint
+> key is required for co-completion, not for recognizing a complete local
+> proof as `PROVED`.
+
 Basis: ours @ prize master 8a820bdb; upstream @ origin/main b13de811 (read-only). Sources merged: Plan B1 (export+mining, fact-checked, one fatal correction applied), Plan B2 (harvest+joint-graph, six material corrections applied), Critique C3 (all additions C3-1..C3-14 and risks R1–R7 adopted). Every claim below carries the evidence grade its fact-check assigned; nothing fatal-flagged survives.
 
 **Baseline of record — CORRECTED 2026-07-26 (Q0), machine-pinned by `tools/verify_orbit_census.py`.** The r1 header said 275 = 213/38/24 "supersedes 201/36/23", and the fact-check agreed the smaller census was stale. **Both are wrong: neither census is stale — they have different roots, and both reproduce exactly.**
