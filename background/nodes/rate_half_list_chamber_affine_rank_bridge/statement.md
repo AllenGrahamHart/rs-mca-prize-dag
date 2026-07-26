@@ -462,3 +462,36 @@ The six-fiber covering reduction (PROGRESS 4 + the reduction above) still stands
 and is still the right frame; what is dead is this particular way of exploiting it.
 A live attack must use the *multiplicative* structure of the coset `D` — that
 `psi^{-1}(Lambda)` is a coset of `mu_{2^41}` — not the ramification bookkeeping.
+
+#### The symmetric six-fiber realization is IMPOSSIBLE (2026-07-26)
+
+The natural construction for the six-fiber covering is the symmetric one: take
+`A = X^a`, `B = 1`, and the `lambda_i` the six 6th roots of some `mu`, so that
+
+```text
+prod_i (A - lambda_i B) = X^{6a} - mu.
+```
+
+Best fit is `a = 366,503,875,925`, giving `6a = n - 2`. The identity then demands
+`E (X^{n-2} - mu) = c' W (X^n - c)` with `deg E <= 8`, `deg W <= 6`, hence
+`X^{n-2} - mu` must divide `W (X^n - c)` up to `E`, i.e. the two must share at
+least `(n-2) - 14 = 2,199,023,255,536` roots.
+
+But the roots of `X^{n-2} = mu` form a coset of `mu_{n-2}` and the roots of
+`X^n = c` a coset of `mu_n`, and
+
+```text
+gcd(n-2, n) = gcd(2^41 - 2, 2^41) = 2,
+```
+
+so **the two sets meet in at most 2 points**. Needing 2.2e12 shared roots and
+having at most 2 is a contradiction by twelve orders of magnitude. The symmetric
+realization is dead, and dead with enormous margin — no adjustment of `mu`, `a`,
+`E` or `W` can rescue it.
+
+**Scope (important).** This kills the symmetric *ansatz*, not the configuration.
+The obstruction is that there `prod Q_i` has its roots on a `mu_{6a}`-coset, a
+*different* coset from `D`; in the general problem `prod Q_i`'s roots lie in `D` by
+construction, so no gcd obstruction arises. What this does establish is that any
+realization must be genuinely asymmetric — the `lambda_i` cannot be in geometric
+progression — which removes the only construction anyone would try first.
