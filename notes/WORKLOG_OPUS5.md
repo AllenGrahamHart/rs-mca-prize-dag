@@ -51,7 +51,7 @@ membership list in `PYTHONHASHSEED` order; `spread()` then re-sorts in place and
 sweeps. One `sorted()`. Verified byte-identical across `PYTHONHASHSEED=1,2,3`.
 Data layer was never affected.
 
-**3. H1/S3 replay — GF list compilers vs the thirteen chambers (`<this commit>`).**
+**3. H1/S3 replay — GF list compilers vs the thirteen chambers (`05c511e7`).**
 Artifact `critical/nodes/rate_half_list_adjacent_crossing/verify_affine_span_chamber_replay.py`
 (stdlib, exact integers, 8 mutation controls, all caught); record in that node's
 `notes/affine_span_chamber_replay_20260726.md` + a statement addendum.
