@@ -303,6 +303,8 @@
     "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/proof.md": "4eb84acd3252a2f9e338c697f21b51a979ab4f6868e169a20e30475b35697108",
     "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/statement.md": "7e9deaab07757742aff3c4914ce1341a46e209119966edff78e2ee1e68c7192b",
     "background/nodes/generator_size_budget_check/statement.md": "d914e41bbe7344b905d3e7b7e5e6829ed582f7af521b49198c5b3f749066fbca",
+    "background/nodes/identity_prefix_clean_anchor_route_classification/proof.md": "d75add2090561207457a84f5bb94e4595aabe27098986b8f203c8894e8112ff3",
+    "background/nodes/identity_prefix_clean_anchor_route_classification/statement.md": "be356abd8ee6471ea590540ea1c2333b103c88c323aaab0cf9aa62e1d52184cd",
     "background/nodes/identity_prefix_flexible_budget_unsafe_floor/proof.md": "f98f3ad24a41208cf79ee69d327f1973cb479a777bf11978f09e6543e11ff60a",
     "background/nodes/identity_prefix_flexible_budget_unsafe_floor/statement.md": "4b258f27870f85588c2a0ffdc9e33056bedba02e962b6296de54fd49d9b65173",
     "background/nodes/intrinsic_scale_geometric_ledger/proof.md": "c52aab8350cecc36758f3fe759f7e186bcc352f5c7db066431e88506691b14d5",
@@ -1732,6 +1734,7 @@
     "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/verify.py": "29ba7ed1254f2d89925fc4cd3e30ce18004e311422168d902997a55dd53e086d",
     "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/verify_audit.py": "16e7dd661bdd3e682ef30f877ce6fa2c380f86de4c0b4f05daec10d8232157a4",
     "background/nodes/generator_size_budget_check/verify.py": "f434cb5abaddb7d2eea55f808f162e9a85df8f73f21de1e3d4dd185082550a1c",
+    "background/nodes/identity_prefix_clean_anchor_route_classification/verify.py": "32e7c40c99b0e8e077ae22d19514c2de3f68b3c617fb2916c82cc368d348a899",
     "background/nodes/identity_prefix_flexible_budget_unsafe_floor/verify.py": "95cc7f691015e5914e48633a72628d1b072c2508fcb65b41ebb7372f7d8b438c",
     "background/nodes/intrinsic_scale_geometric_ledger/verify.py": "69a1d0087a22e552aa758dc479a4f862099889ed29fe6ae231f7b7bbfba561d7",
     "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/verify.py": "fa514ca2d529da675b26de6592f259c1bb113096da39f6d9df2d4b50ae064d94",
@@ -2643,7 +2646,7 @@
     "tools/verify_official_row_primes_pinning.py": "f6a7af8211e92ef1e5643bda43ed7e11df597956589d4cabfbe2479590814828",
     "tools/verify_orbit_census.py": "0a944229659c7795d247d19ec324dd3f61c84443e79bc57890a8540f35d9b0ce",
     "tools/verify_prize_dag.py": "fc78e615525a85988904f889b07cea6ade47d5eb319eab4cb882cbe14f270ff7",
-    "tools/verify_unsafe_crossing_status_regression.py": "0aa38db8e28dc3a7e5cb46424ec6d844c5abfb6d615f8649be133ed369461344",
+    "tools/verify_unsafe_crossing_status_regression.py": "430cacecc43c22ba0befdcf4b287d376f52fdf1a277454b90032659480f9a3eb",
     "tools/verify_wild_row_audit.py": "304aab9d7f08b41029808a829a23a7987e212ebda24dc1b8f8cd32568b72eee3"
   }
 }

@@ -184,6 +184,20 @@
    }
   },
   {
+   "id": "identity_prefix_clean_anchor_route_classification",
+   "title": "Identity-prefix clean-anchor pair-budget and base-field classification",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/identity_prefix_clean_anchor_route_classification/statement.md",
+    "background/nodes/identity_prefix_clean_anchor_route_classification/proof.md",
+    "background/nodes/identity_prefix_clean_anchor_route_classification/claim_contract.md",
+    "background/nodes/identity_prefix_clean_anchor_route_classification/verify.py"
+   ],
+   "statement": "For M=floor(q/2^t), the pair-root premise binom(M+1,2)k<q-n is impossible throughout the budget interval if Mk>=2^(t+1), and holds throughout it if binom(M+1,2)k<M2^t-n. At the six clean candidate predecessors this rules out the identity-prefix flexible-budget route on both RowC rates 1/4 and 1/8 and all three prize-max rates. On RowC rate 1/16 the pair premise passes, w=1, and the prefix premise holds exactly when a proved domain field has order at most 194309137781254382992506402317422272798923813601398339285841609906262.",
+   "notes": "ROUTE CLASSIFICATION 2026-07-26: five clean anchors cannot use the harvested supplier; the only surviving branch requires a proved proper-domain-field pin, while the RowC characteristic remains unpinned. This narrows route ownership and proves no safe upper bound."
+  },
+  {
    "id": "acl_count",
    "title": "thm:exactcount: Acl = 2^{beta N'(1-o(1))} (char 0)",
    "status": "PROVED",
@@ -17387,6 +17401,16 @@
   },
   {
    "from": "identity_prefix_flexible_budget_unsafe_floor",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "identity_prefix_flexible_budget_unsafe_floor",
+   "to": "identity_prefix_clean_anchor_route_classification",
+   "kind": "req"
+  },
+  {
+   "from": "identity_prefix_clean_anchor_route_classification",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

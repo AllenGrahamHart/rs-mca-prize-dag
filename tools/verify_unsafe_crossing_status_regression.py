@@ -24,12 +24,15 @@ def main():
     payload = "unsafe_crossing_family_instantiation"
     crossing = "unsafe_at_crossing"
     identity = "identity_prefix_flexible_budget_unsafe_floor"
+    identity_clean = "identity_prefix_clean_anchor_route_classification"
     deployed = "deployed_identity_prefix_owner_scope_audit"
 
     require(nodes[payload]["status"] == "TARGET", "row payload is not TARGET")
     require(nodes[crossing]["status"] == "CONDITIONAL", "crossing is false-green")
     require(nodes["mca_unsafe"]["status"] == "CONDITIONAL", "unsafe assembly drift")
     require(nodes[identity]["status"] == "PROVED", "identity supplier regressed")
+    require(nodes[identity_clean]["status"] == "PROVED",
+            "identity clean-anchor classifier regressed")
     require(nodes[deployed]["status"] == "PROVED", "deployed audit regressed")
 
     payload_statement = nodes[payload]["statement"]
@@ -65,6 +68,10 @@ def main():
     require((payload, crossing, "req") in edges, "payload does not gate crossing")
     require((identity, payload, "ev") in edges,
             "identity-prefix theorem is not target evidence")
+    require((identity, identity_clean, "req") in edges,
+            "identity classifier lost its theorem parent")
+    require((identity_clean, payload, "ev") in edges,
+            "identity clean-anchor route cut is not target evidence")
     require((deployed, payload, "ev") in edges,
             "deployed identity rows are not target evidence")
 

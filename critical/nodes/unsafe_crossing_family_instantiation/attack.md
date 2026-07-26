@@ -8,6 +8,9 @@ a short pre-registered route decision.
    A passing row receives a direct `V` payload without E1 or averaged
    collision control. The two deployed KoalaBear and Mersenne-31 MCA rows
    already pass and are pinned by `deployed_identity_prefix_owner_scope_audit`.
+   The clean-anchor classification rules this route out on five of six clean
+   candidates. On RowC rate `1/16`, retain it only if a proved domain field
+   meets the exact 227-bit cutoff; the RowC prime itself remains unpinned.
 2. On rows not paid by the identity-prefix theorem, test whether an existing
    tangent, quotient, or value-set construction already yields a `Q` or `V`
    payload.
