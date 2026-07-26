@@ -188,3 +188,47 @@ b = 0 forced once z >= 733,007,751,849
 
 **Not a closure.** (CZB) does not by itself decide `s=2` vs `s=3`, and `b=0` is
 forced only in the high-`z` regime. The node stays TARGET.
+
+## PROGRESS 2: the split-pencil direction pin (2026-07-26)
+
+CZB combines with a fiber count to nearly pin the `s=2` case. Verified in
+`verify_common_zero_budget.py`.
+
+Assume `s = 2`, so `C' = span{f,g}` is a pencil. Put `h = gcd(f,g)`, `deg h = z`,
+`f = h f'`, `g = h g'` with `gcd(f',g') = 1`. Each of the six pairwise differences
+`c_i - c_j` is a nonzero element of `C'`, hence `h` times a pencil member, and by
+the razor bracket every pair agrees in `K-2` or `K-1` places — so **every one of
+the six differences is a minimum- or near-minimum-weight codeword**, and its pencil
+member has at least `K-2-z` roots in `D`.
+
+Distinct projective members of a base-point-free pencil are coprime, so **their
+root sets in `D` are disjoint**. Letting `Ddir` be the number of distinct
+directions among the six differences,
+
+```text
+Ddir * (K - 2 - z) <= |D| = n,      i.e.   z >= K - 2 - n/Ddir.       (DIR)
+```
+
+Against `CZB`'s `z <= (n-2)/3`, at `n = 2^41`, `K = 2^40`:
+
+| `Ddir` | `(DIR)` floor on `z` | window with CZB |
+|---:|---:|---:|
+| **6** | 733,007,751,849 | **2 values** |
+| 5 | 659,706,976,664 | 7.3e10 |
+| 4 | 549,755,813,886 | 1.8e11 |
+| 3 | 366,503,875,924 | 3.7e11 |
+
+**Corollary (`Ddir = 6`).** `z in {733,007,751,849, 733,007,751,850}`, and in both
+cases `CZB` gives `4b <= 3`, hence **`b = 0`** — route 3's conclusion, proved
+outright in the generic `s=2` case. Correspondingly `d_s in {1,466,015,503,702,
+1,466,015,503,703}`, exactly at the `(2n+2)/3` floor.
+
+**Residual.** `Ddir >= 3` always (no three of the four are collinear), but `Ddir`
+can drop below 6 in special position — a complete quadrangle whose opposite sides
+are parallel. The remaining work for this route is the case analysis
+`Ddir in {3,4,5}`, where the window is wide and no pin follows. Note this is now a
+*finite configuration question in the affine plane*, not a coding question.
+
+This also welds the bridge to the M-1 lane: `(DIR)` is a split-pencil fiber count,
+the same mechanism as the minimal-index budget `(MI2)` in
+`rate_half_ca_hankel_minimal_index_budget`.

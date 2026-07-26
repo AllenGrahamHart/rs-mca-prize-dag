@@ -516,3 +516,14 @@ banked, requiring CR-003 authorization the worker cannot give. Everything else i
 multi-session new algebra. Sessions 5 and 6 each paid a real piece of that algebra
 (router soundness in general `k`; CZB) without moving the census, which is the
 expected shape of progress here.
+
+**Session 6b — the split-pencil direction pin.** CZB + a fiber count nearly pins
+`s=2`. Distinct members of a base-point-free pencil are coprime, so their `D`-root
+sets are disjoint; every one of the six pairwise differences is min- or
+near-min-weight, so with `Ddir` distinct difference-directions,
+`Ddir*(K-2-z) <= n`. Against CZB's `z <= (n-2)/3`: at `Ddir=6` the window is **two
+values**, and both force **`b = 0`** — route 3 proved outright in the generic `s=2`
+case, with `d_s` sitting exactly at the `(2n+2)/3` floor. Residual: `Ddir in
+{3,4,5}` (opposite sides of the quadrangle parallel), now a finite affine-plane
+configuration question rather than a coding one. Welds the bridge to M-1: `(DIR)`
+is the same split-pencil fiber count as `(MI2)`.
