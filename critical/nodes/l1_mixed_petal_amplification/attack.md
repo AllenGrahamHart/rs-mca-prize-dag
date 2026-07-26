@@ -581,6 +581,11 @@
   that chamber before any degree-`n` remainder. Nonunit components are only
   candidates: impose `t=s^p` and the original cyclotomic remainder before
   treating one as an outer survivor.
+  Before launching any saturation, also consume
+  `l1_mersenne_hnf_order_zero_linear_color_exclusion`. The constant and
+  linear colored-interpolant strata are empty, so start the order-zero
+  degree split at `deg E=2`. Do not rerun a generic saturation that includes
+  either deleted stratum.
   For the order-one chamber, first consume
   `l1_mersenne_hnf_order_one_frobenius_gate`. Put `d=c-1` and shard only by
   `zeta=d^(p+1) in mu_m`; then `c^p=1+zeta/d`. Combine the hypergeometric

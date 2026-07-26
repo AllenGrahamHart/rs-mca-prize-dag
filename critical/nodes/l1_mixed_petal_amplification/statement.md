@@ -1183,6 +1183,15 @@ the printed nonzero factors closes the order-one chamber before a
 degree-`n` remainder. Again, retained components are necessary candidates
 only.
 
+The order-zero colored classification has one further exact deletion.
+`l1_mersenne_hnf_order_zero_linear_color_exclusion` proves that its
+interpolant cannot have degree one. A linear color map would send the
+`h=m-1` roots injectively onto all but one member of `mu_m`, making `P_s` an
+affine image of a punctured cyclotomic polynomial. Its first three
+coefficients force `s=1` or `s=-m`, contradicting `s notin F_p`. Combined
+with the same theorem's constant case, the live order-zero color degrees
+begin at two. No higher degree or endpoint is closed.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

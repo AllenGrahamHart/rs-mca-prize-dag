@@ -15975,6 +15975,25 @@
     "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/verify.py",
     "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/verify_audit.py"
    ]
+  },
+  {
+   "id": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
+   "title": "L1 Mersenne HNF order-zero linear-color exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On every m=8,h=7 and m=16,h=15 next-to-maximal order-zero HNF row, the colored Frobenius interpolant has degree at least two. The constant case forces Frobenius descent, while a linear interpolant makes P_s an affine image of mu_m minus one color and forces s into the prime field.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/lineage.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/verify.py",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -30430,6 +30449,16 @@
   },
   {
    "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

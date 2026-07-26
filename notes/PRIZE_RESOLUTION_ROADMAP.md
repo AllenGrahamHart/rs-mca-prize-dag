@@ -2153,3 +2153,22 @@ does not count retained unions, pay the sparse branch, or move an endpoint.
 The next XR theorem must therefore address first-match chart aggregation (or
 prove a structural collapse that avoids it), rather than improving the same
 per-chart constant again.
+
+**2026-07-26, L1 endpoint color-degree cut:**
+`l1_mersenne_hnf_order_zero_linear_color_exclusion` proves that the colored
+Frobenius interpolant in the `m=8,h=7` and `m=16,h=15` order-zero HNF rows
+cannot be linear. Injectivity would identify the hypergeometric locator with
+an affine image of `mu_m` minus one color; the first three coefficients have
+resultant
+
+```text
+-2(h+1)x(x-1)(hx+1),
+```
+
+and every branch forces either an impossible coefficient equation or
+`s in {1,-m} subset F_p`; a separate coefficient comparison in the same
+theorem excludes a constant interpolant. The next exact order-zero attack
+starts at `deg E=2`. This is `NARROWED`, not a status flip: the higher color
+degrees, the order-one chamber, actual
+cyclotomic divisibility, and the inner lift remain open. No Modal job or new
+compute request was used.
