@@ -2,7 +2,7 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "1f56def3",
+  "our_sha": "eabd5679",
   "his_sha": "b13de811"
  },
  "rows": [
@@ -75,7 +75,7 @@
    "his_object": null,
    "relation": "OURS_ONLY",
    "chain": null,
-   "scope": "six clean-anchor exact A_2 class counts, finite collision-pair allowances, quotient-order/folded-dimension correction, and quotient-generated-field route cut",
+   "scope": "six clean-anchor exact A_2 class counts, finite collision-pair allowances, quotient-order/folded-dimension correction, and exact image/pair-feasibility generated-field route cuts",
    "owner": "US",
    "nonclaims": [
     "upstream thm:exactcount is a pinned source theorem, but upstream has no matching six-row finite allowance packet",
@@ -86,7 +86,7 @@
    "status_his": "not posed",
    "lean": null,
    "provenance": {
-    "our_sha": "1f56def3",
+    "our_sha": "eabd5679",
     "his_sha": "b13de811"
    }
   },

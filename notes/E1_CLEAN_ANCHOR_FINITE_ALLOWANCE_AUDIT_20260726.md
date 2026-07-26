@@ -65,7 +65,8 @@ allowances.
 ## Provenance and concurrency
 
 - starting local pin: `b5df49eac98d1480261378776deb3f81b57d34dd`
-- ending proof pin: `1f56def3ea8a7863b1aaf38f95bcdd38ea523a4d`
+- initial finite-allowance pin: `1f56def3ea8a7863b1aaf38f95bcdd38ea523a4d`
+- ending pair-feasibility pin: `eabd5679268b0ae3bdcd975f0ec8ba15b1d9cd94`
 - canonical prize pin: `cc979e4befcbc42e1cb2725661941c037e4662ab`
 - upstream main pin: `b13de8113a03f06b6fc22bbd2f289a8abcdf7e95`
 - upstream source: `tex/slackMCA_v4.tex`, SHA-256
