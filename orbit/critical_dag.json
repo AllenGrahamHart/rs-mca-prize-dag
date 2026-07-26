@@ -27,11 +27,6 @@
    "title": "Clean-rate integrality: R2 + tiny FM pin the aperiodic zero threshold"
   },
   {
-   "id": "are_exceptional_density",
-   "label": "PROVED",
-   "title": "Almost-all-primes collision-lightness (the density partial)"
-  },
-  {
    "id": "averaged_slope_conversion",
    "label": "PROVED",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair"
@@ -335,21 +330,6 @@
    "id": "dyadic_profile_evaluation",
    "label": "PROVED",
    "title": "Compute Q_H(eta) exactly for 2-power domains at the four rates"
-  },
-  {
-   "id": "e1_exceptional_set_reduction",
-   "label": "PROVED",
-   "title": "E1 reduction to explicit exceptional prime set"
-  },
-  {
-   "id": "e1_fullness",
-   "label": "CONDITIONAL",
-   "title": "e1 non-quotient collision density"
-  },
-  {
-   "id": "e1_official_prime_exception_control",
-   "label": "UNPROVED",
-   "title": "E1 family-uniform exceptional-set control"
   },
   {
    "id": "e22_agreement_cofactor_equations",
@@ -1118,8 +1098,13 @@
   },
   {
    "id": "unsafe_at_crossing",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)"
+  },
+  {
+   "id": "unsafe_crossing_family_instantiation",
+   "label": "UNPROVED",
+   "title": "Universal adjacent-unsafe witness-family instantiation"
   },
   {
    "id": "v13_capf_planted_lower_count",
@@ -1230,11 +1215,6 @@
    "id": "xr_true_tangent_coordinate_injection",
    "label": "PROVED",
    "title": "True recovered-line tangent slopes inject into discrepancy coordinates"
-  },
-  {
-   "id": "zone_b",
-   "label": "CONDITIONAL",
-   "title": "Zone-(b): e1 value-set collisions, 80<N'<512 (= perfiber at sigma=1)"
   }
  ],
  "edges": [
@@ -1284,10 +1264,6 @@
   },
   {
    "from": "cap_theorem",
-   "to": "mca_unsafe"
-  },
-  {
-   "from": "zone_b",
    "to": "mca_unsafe"
   },
   {
@@ -1475,6 +1451,10 @@
    "to": "mca_unsafe"
   },
   {
+   "from": "unsafe_crossing_family_instantiation",
+   "to": "unsafe_at_crossing"
+  },
+  {
    "from": "averaged_slope_conversion",
    "to": "unsafe_at_crossing"
   },
@@ -1507,10 +1487,6 @@
    "to": "f_scale_recursion"
   },
   {
-   "from": "collision_norm_criterion",
-   "to": "zone_b"
-  },
-  {
    "from": "char0_collision_classification",
    "to": "collision_norm_criterion"
   },
@@ -1537,10 +1513,6 @@
   {
    "from": "f_concurrency_equiv",
    "to": "f_primitive_case"
-  },
-  {
-   "from": "collision_norm_criterion",
-   "to": "are_exceptional_density"
   },
   {
    "from": "gap1_product_model",
@@ -1931,10 +1903,6 @@
    "to": "spi_exceptional_class"
   },
   {
-   "from": "e1_fullness",
-   "to": "zone_b"
-  },
-  {
    "from": "ef_ru",
    "to": "f1_full_field_pole_forcing"
   },
@@ -2013,30 +1981,6 @@
   {
    "from": "ef_full_orbit_pole_forcing",
    "to": "ef_ru"
-  },
-  {
-   "from": "collision_norm_criterion",
-   "to": "e1_exceptional_set_reduction"
-  },
-  {
-   "from": "kernel_lattice_reframing",
-   "to": "e1_exceptional_set_reduction"
-  },
-  {
-   "from": "graded_collision_radius",
-   "to": "e1_exceptional_set_reduction"
-  },
-  {
-   "from": "are_exceptional_density",
-   "to": "e1_exceptional_set_reduction"
-  },
-  {
-   "from": "e1_exceptional_set_reduction",
-   "to": "e1_fullness"
-  },
-  {
-   "from": "e1_official_prime_exception_control",
-   "to": "e1_fullness"
   },
   {
    "from": "ef_fullfield_bridge",

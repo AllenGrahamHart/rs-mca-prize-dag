@@ -34,19 +34,19 @@ The open content is:
 > non-quotient folded short-vector collisions are `o(1)`-sparse relative to
 > the signed-core quotient.
 
-This is now the node `e1_official_prime_exception_control`: every admissible
-row in the family must meet the norm-divisor incidence budget. The existing
-almost-all-primes theorem does not supply this pointwise quantifier.
+This is now the node `e1_official_prime_exception_control`: every row assigned
+to direct E1 must meet the norm-divisor incidence budget. The existing
+almost-all-primes theorem does not supply this route-wide pointwise quantifier.
 
 ## Routes
 
 - direct bad-prime union bound over folded patterns;
 - extend the split-prime transfer range (`amplification_range_ext`);
 - prove a norm-threshold extension that reaches the prize-scale cells;
-- prove a complete per-input certifier theorem covering every admissible row.
+- prove a complete per-input certifier theorem covering every assigned row.
 
 Exact lattice enumeration for named exhibit primes remains useful evidence but
-does not close the family-uniform target.
+does not close the route-uniform target.
 
 ## Falsifier
 

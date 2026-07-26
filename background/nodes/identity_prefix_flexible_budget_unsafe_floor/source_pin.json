@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/przchojecki/rs-mca",
+  "commit": "b13de8113a03f06b6fc22bbd2f289a8abcdf7e95",
+  "path": "tex/cs25_cap_v13_2.tex",
+  "sha256": "356f1ad4b972746b664260191387b25a89a2e10fcc61962a49dc8282412f93ce",
+  "labels": [
+    "lem:capff1-identity-prefix-floor",
+    "cor:capg-budget-conversion",
+    "prop:capg-moved-frontier"
+  ],
+  "scope": "general identity-prefix and flexible-budget theorem; deployed proposition is a finite instance"
+}

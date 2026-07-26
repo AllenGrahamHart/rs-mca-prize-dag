@@ -21,7 +21,7 @@ def main():
         for edge in dag["edges"]
     }
 
-    universal = "e1_official_prime_exception_control"
+    branch_target = "e1_official_prime_exception_control"
     exhibit_targets = {
         "e1_folded_no_vector_certificate_128_payload",
         "e1_folded_no_vector_certificate_256_payload",
@@ -41,13 +41,25 @@ def main():
         "e1_pocklington_250bit_exhibit_field",
         "e1_two_cell_folded_manifest_assembly_soundness",
     }
+    offorbit_route = {
+        branch_target,
+        "e1_fullness",
+        "e1_exceptional_set_reduction",
+        "are_exceptional_density",
+        "zone_b",
+    }
 
-    require(nodes[universal]["status"] == "TARGET", "universal E1 node is not TARGET")
-    universal_statement = nodes[universal]["statement"].lower()
-    require("every admissible" in universal_statement, "universal quantifier is missing")
+    require(nodes[branch_target]["status"] == "TARGET", "direct E1 node is not TARGET")
+    target_statement = nodes[branch_target]["statement"].lower()
+    require("every row whose adjacent-unsafe certificate invokes" in target_statement,
+            "direct-E1 route quantifier is missing")
+    require("generated field and cyclotomic reduction" in target_statement,
+            "generated-field/reduction scope fence is missing")
+    require("unsafe_crossing_family_instantiation" in target_statement,
+            "universal row-instantiation owner is missing")
     require(
-        "do not discharge" in universal_statement,
-        "named exhibits are not explicitly fenced from universal discharge",
+        "do not discharge" in target_statement,
+        "named exhibits are not explicitly fenced from route-wide discharge",
     )
     require(
         nodes["official_row_primes_pinning"]["status"] == "PROVED",
@@ -60,30 +72,36 @@ def main():
     req_parents = {
         source
         for source, target, kind in edges
-        if target == universal and kind == "req"
+        if target == branch_target and kind == "req"
     }
-    require(not req_parents, f"universal E1 TARGET gained req parents: {sorted(req_parents)}")
+    require(not req_parents, f"direct E1 TARGET gained req parents: {sorted(req_parents)}")
     evidence_edges = {
-        ("official_row_primes_pinning", universal, "ev"),
-        ("e1_folded_certificate_soundness", universal, "ev"),
-        ("e1_open_cell_control_payload", universal, "ev"),
-        ("e1_official_typicality_or_certificate", universal, "ev"),
+        ("official_row_primes_pinning", branch_target, "ev"),
+        ("axis8_generating", branch_target, "ev"),
+        ("v13_base_field_normalization_guard", branch_target, "ev"),
+        ("e1_folded_certificate_soundness", branch_target, "ev"),
+        ("e1_open_cell_control_payload", branch_target, "ev"),
+        ("e1_official_typicality_or_certificate", branch_target, "ev"),
     }
     require(evidence_edges <= edges, "named-exhibit route is not evidence-only")
     require(
-        (universal, "e1_fullness", "req") in edges,
-        "corrected universal target no longer gates e1_fullness",
+        (branch_target, "e1_fullness", "req") in edges,
+        "corrected direct-E1 target no longer gates e1_fullness",
     )
 
-    universal_folder = ROOT / "critical" / "nodes" / universal
-    require(universal_folder.is_dir(), "universal E1 target left the critical tree")
+    route_folder = ROOT / "background" / "nodes" / branch_target
+    require(route_folder.is_dir(), "direct E1 target left the background tree")
     require(
-        not (universal_folder / "conditional.md").exists(),
+        not (ROOT / "critical" / "nodes" / branch_target).exists(),
+        "route-local E1 target leaked onto the critical surface",
+    )
+    require(
+        not (route_folder / "conditional.md").exists(),
         "invalid named-exhibit conditional proof remains live",
     )
     require(
-        (universal_folder / "status_ruling.md").is_file(),
-        "universal E1 status ruling is missing",
+        (route_folder / "status_ruling.md").is_file(),
+        "direct E1 status ruling is missing",
     )
 
     for node_id in background_branch:
@@ -94,6 +112,16 @@ def main():
         require(
             not (ROOT / "critical" / "nodes" / node_id).exists(),
             f"{node_id} leaked back into the critical tree",
+        )
+
+    for node_id in offorbit_route:
+        require(
+            (ROOT / "background" / "nodes" / node_id).is_dir(),
+            f"off-orbit E1 route node {node_id} is not in background",
+        )
+        require(
+            not (ROOT / "critical" / "nodes" / node_id).exists(),
+            f"off-orbit E1 route node {node_id} leaked into critical",
         )
 
     for node_id in exhibit_targets:
@@ -133,7 +161,8 @@ def main():
 
     print(
         "E1_CERTIFICATE_STATUS_REGRESSION_VERIFIED "
-        f"universal_target={universal} background_exhibit_nodes={len(background_branch)}"
+        f"route_target={branch_target} background_exhibit_nodes={len(background_branch)} "
+        f"offorbit_route_nodes={len(offorbit_route)}"
     )
 
 

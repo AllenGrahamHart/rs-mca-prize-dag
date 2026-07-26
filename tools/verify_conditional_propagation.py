@@ -38,7 +38,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 GRANDS = {"mca_grand", "list_grand"}
 EXPECTED_TARGETS = 24
-EXPECTED_CONDITIONALS = 39
+EXPECTED_CONDITIONALS = 38
 EXPECTED_ROUNDS = 8
 
 # Audited 2026-07-26.  Each entry: (conditional, mentioned open node, why benign).
@@ -49,7 +49,6 @@ AUDITED_UNRELATED = {
     ("knife_edge_census", "census_dodge_selection"),
     ("list_adjacency_closing", "ww_row_envelope_clause"),
     ("list_grand", "rate_half_band_closure"),
-    ("zone_b", "e1_random_prime_model"),
     ("u1_x4_direct_column_budget", "u1_pullback_dichotomy"),
     ("x4_exactlist_staircase_split", "u1_pullback_dichotomy"),
     ("xr_clean_residual_any_gate", "rigidity_kernel"),

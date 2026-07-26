@@ -13,7 +13,7 @@ equivalently a sparse folded kernel vector in the lattice model. Small
 swap-distance pairs are already excluded by the proved radius threshold.
 
 Thus, after the proved reduction, the only remaining E1 content is to show
-that every admissible prize row has negligible incidence with this exceptional
-norm-divisor set at the required budget. A direct certificate alternative must
-cover every admissible input; a finite named-exhibit manifest is not a
-family-uniform conclusion.
+that every row assigned to direct E1 has negligible incidence with this
+exceptional norm-divisor set at the required budget. A certificate alternative
+must cover every assigned row; a finite named-exhibit manifest is not a
+route-uniform conclusion.

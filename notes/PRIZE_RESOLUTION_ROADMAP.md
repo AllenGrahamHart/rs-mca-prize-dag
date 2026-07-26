@@ -603,15 +603,16 @@ identifications without a machine-verified chain.
 ## 4. Board anatomy
 
 - **Counts** (refreshed from `dag.json`, the single source of truth; pinned by
-  `tools/verify_orbit_census.py`): critical surface 183 PROVED / 39 CONDITIONAL /
+  `tools/verify_orbit_census.py`): critical surface 180 PROVED / 38 CONDITIONAL /
   24 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
-  grand challenges {`mca_grand`, `list_grand`} = **246** nodes. *(Q0, 2026-07-26:
+  grand challenges {`mca_grand`, `list_grand`} = **242** nodes. *(Q0, 2026-07-26:
   this line previously read "req-closure of `prize` = 260" — wrong root. The
-  closure of `prize` is the* **submission orbit** *= 261 = 195/41/25, i.e. the math
+  closure of `prize` is the* **submission orbit** *= 257 = 192/40/25, i.e. the math
   orbit plus a 15-node packaging spine.)* The separate submission dossier is a
   target artifact rather than a mathematical leaf — it is the submission orbit's
-  25th TARGET and does not appear in the 24. The 2026-07-26 E1 false-green and
-  quantifier audits account for the delta from the earlier `201/36/23` pin.
+  25th TARGET and does not appear in the 24. The 2026-07-26 E1 and
+  unsafe-at-crossing false-green audits account for the delta from the earlier
+  `201/36/23` pin.
 - **Wired bottlenecks** (no alt, no upstream substitute):
   `l1_mixed_petal_amplification`, `rate_half_list_adjacent_crossing`,
   `rate_half_band_closure`, + the dossier. There is NO MCA-only resolution
@@ -774,18 +775,25 @@ N12-E1-256 FALSIFIER COMPLETE, NO HIT: Modal app
 combinations reached basis and pair infinity norm five but no vector in the
 required box. The checker returns `INCOMPLETE`; no status, edge, endpoint, or
 delta-star bracket changes. The run is not to be scaled. The E1 priority is
-now the finite family-uniform density quantifier, not repeated named-field BKZ.
+now the route-uniform density quantifier, not repeated named-field BKZ.
 
-N13 DONE, E1 UNIVERSAL-QUANTIFIER ROUTE CORRECTION: closing the two named-field
-certificate leaves would still not prove a theorem over every admissible
-`F,L,k`. The invalid exhibit-to-family implication is removed.
-`e1_official_prime_exception_control` is now the single live family-uniform
-`TARGET`; the official quantifier pin and 13 named-exhibit/certificate nodes
-are retained as background evidence with `ev` edges only. `e1_fullness` and
-its consumers remain conditional on the corrected target. The current math
-orbit is `246 = 183/39/24`; the submission orbit is `261 = 195/41/25`. See
-`E1_NAMED_EXHIBIT_QUANTIFIER_AUDIT_20260726.md`. This is route correction, not
-a proof or falsification of the universal E1 statement.
+N13 DONE, E1 QUANTIFIER ROUTE CORRECTION: closing the two named-field
+certificate leaves would still not prove a theorem over every row assigned to
+the direct E1 route. The invalid exhibit-to-family implication is removed.
+`e1_official_prime_exception_control` is the route-uniform `TARGET`; the
+official quantifier pin and 13 named-exhibit/certificate nodes are retained as
+background evidence with `ev` edges only. See
+`E1_NAMED_EXHIBIT_QUANTIFIER_AUDIT_20260726.md`.
+
+N14 DONE, UNSAFE-AT-CROSSING FALSE-GREEN CORRECTION: the proved local
+`qfloor_exact` and `averaged_slope_conversion` theorems did not supply their
+per-row hypotheses. "Collided" does not imply the exact post-paid occupancy
+inequality, and strict unsafety requires `nu(A)>B*` with `B=B*+1`.
+`unsafe_at_crossing` regresses to `CONDITIONAL` on the new universal leaf
+`unsafe_crossing_family_instantiation`; `zone_b` and E1 become evidence routes
+to that leaf rather than unconditional global premises. Current math orbit:
+`242 = 180/38/24`; submission orbit: `257 = 192/40/25`. See
+`UNSAFE_AT_CROSSING_FALSE_GREEN_AUDIT_20260726.md`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it

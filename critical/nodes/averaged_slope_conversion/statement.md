@@ -8,10 +8,19 @@
 
 Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair
 
-Precise form: from the exact FM first moment and the slope-resolved
-second-moment ledger, after excluding paid fibers and applying the v8
-per-slope locator cap, a family whose v8-normalized locator mean crosses `B*`
-contains a pair `(u,v)` with at least `B*` distinct bad slopes.
+Precise form: for a deterministic support family `A`, let
+
+```text
+nu(A) = E[N(A)] - (q/2) C_t(A),
+```
+
+where `C_t(A)` is the exact fixed-slope second factorial moment computed from
+the strict-overlap profile. For every integer `B >= 1`, if `nu(A) > B-1`,
+then some received pair has at least `B` distinct finite bad slopes.
+
+For the prize's strict unsafe inequality, set `B=B*+1`; row use therefore
+requires `nu(A)>B*`, together with a supplied post-paid ownership and ambient-
+field certificate.
 
 ## Ledger (migrated notes)
 

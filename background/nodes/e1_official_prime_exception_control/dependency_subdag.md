@@ -12,6 +12,7 @@ e1_official_prime_exception_control [TARGET]
 
 The official quantifier pin and named-exhibit certificate subgraph remain in
 `background/nodes/` and have `ev`, not `req`, edges into this target. The
-unresolved target is a logical leaf, with its universal scope printed directly.
+unresolved target is a logical leaf, with its route-uniform scope printed
+directly.
 The evidence nodes do not belong to the mathematical critical orbit without a
-theorem transporting their content into a closed universal result.
+theorem transporting their content into a closed route-wide result.

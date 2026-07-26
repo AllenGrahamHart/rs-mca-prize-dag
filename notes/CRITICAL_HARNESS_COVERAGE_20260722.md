@@ -9,13 +9,13 @@ tools/ramguard tiny -- python3 tools/verify_critical_harness_coverage.py
 
 ## Scope and interpretation
 
-The current census covers the 246-node mathematical critical orbit. Of its
-183 `PROVED` nodes:
+The current census covers the 242-node mathematical critical orbit. Of its
+180 `PROVED` nodes:
 
 | coverage class | count | meaning |
 |---|---:|---|
 | local verifier | 44 | at least one manifest-discoverable `verify*.py` under the node |
-| folder, markdown only | 134 | a critical node folder exists, but no discoverable local checker |
+| folder, markdown only | 131 | a critical node folder exists, but no discoverable local checker |
 | legacy reference only | 5 | no node folder; the DAG cites an older proof source |
 | no artifact | 0 | neither a node folder nor a DAG reference |
 
@@ -71,10 +71,12 @@ rounded fpylll observation, while the other substituted an almost-all-primes
 density estimate for a named-field zero-vector certificate. Nine consumers
 regressed to `CONDITIONAL`. A subsequent quantifier audit found that even
 complete certificates for the two named exhibits could not prove a theorem
-over every admissible `F,L,k`. That 14-node quantifier-pin/exhibit branch is
-now background evidence, and one family-uniform E1 `TARGET` replaces its two
-exhibit leaves on the live route. The current surface is therefore
-`183 PROVED / 39 CONDITIONAL / 24 TARGET`. The green
+over every row assigned to E1. A follow-up unsafe-side audit then found that
+the route-local E1 statement could not replace the missing universal row
+instantiation: "collided" did not imply the strict occupancy premise. The
+14-node exhibit branch is background evidence, E1 is route evidence, and
+`unsafe_crossing_family_instantiation` is the live universal target. The
+current surface is therefore `180 PROVED / 38 CONDITIONAL / 24 TARGET`. The green
 law in `critical/CRITICAL.md` requires a true claim with a proof artifact, and
 computation claims require a pinned result plus replayable verifier.
 

@@ -7,8 +7,8 @@
 
 ## Claim
 
-Conditional on family-uniform exceptional-set control, non-quotient `e_1`
-collisions are `o(1)`-sparse for every admissible prize row at the printed
+Conditional on route-uniform exceptional-set control, non-quotient `e_1`
+collisions are `o(1)`-sparse for every row assigned to direct E1 at the printed
 scope.
 
 ## Proof
@@ -20,9 +20,9 @@ exceptional set. It also records the equivalent folded sparse-kernel
 certificate form and the proved small-radius exclusions.
 
 The remaining predicate `e1_official_prime_exception_control` says that every
-admissible prize-scale row in the open E1 cells has negligible incidence with
-that exceptional set. Any direct folded-lattice alternative must be a theorem
-or certifier covering every admissible input.
+row assigned to direct E1 in the open cells has negligible incidence with that
+exceptional set. Any folded-lattice alternative must be a theorem or certifier
+covering every assigned row.
 
 Combining the reduction with that official-prime control leaves only the paid
 signed-core quotient collisions at leading order. Hence the non-quotient

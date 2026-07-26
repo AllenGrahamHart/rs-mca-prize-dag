@@ -7088,7 +7088,7 @@ padding multiplicity consists of exact `e_1` collisions.
 
 - **status:** completed and retired from the critical route by the E1
   universal-quantifier audit. The unresolved named-field node remains
-  background exhibit work; closing it would not close family-uniform E1
+  background exhibit work; closing it would not close route-uniform E1
   control.
 - **consumer:** background node `e1_folded_no_vector_certificate_256_payload`.
 - **question:** does the pinned Pocklington field admit one nonzero

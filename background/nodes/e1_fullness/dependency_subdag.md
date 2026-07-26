@@ -26,10 +26,10 @@ reframing, small-radius exclusion, and almost-all-primes density statement.
 
 ## e1_official_prime_exception_control
 
-Statement: every admissible prize row meets the exceptional norm-divisor
+Statement: every row assigned to direct E1 meets the exceptional norm-divisor
 budget required by `e1_fullness`.
 
 Status: TARGET. The former two-cell named-exhibit certificate branch did not
-cover the universal prize quantifier and now lives in `background/nodes/` with
-evidence-only edges. A folded-lattice route can close this target only through
-a theorem or certifier covering every admissible input.
+cover the complete direct-E1 route quantifier and now lives in `background/nodes/`
+with evidence-only edges. A folded-lattice route can close this target only
+through a theorem or certifier covering every assigned row.

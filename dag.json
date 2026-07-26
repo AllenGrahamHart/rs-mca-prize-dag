@@ -145,7 +145,7 @@
     "proof_sketch/s2_paid_ledger.md#4"
    ],
    "statement": "B_C(a_safe - 1) > B*: cap above 1-rho-2^-9 (proved) + witnesses at the adjacent grid point (unsafe_at_crossing).",
-   "notes": "PROMOTED red -> amber (ring-1 assembly sweep 2026-07-04): see assembly_sweep_ring1.md + the pinned manifest entry."
+   "notes": "PROMOTED red -> amber (ring-1 assembly sweep 2026-07-04). FALSE-GREEN CASCADE CORRECTION 2026-07-26: zone_b is route evidence, not a duplicated universal premise; the live missing input is the corrected unsafe_at_crossing implication gated by unsafe_crossing_family_instantiation."
   },
   {
    "id": "cap_theorem",
@@ -163,7 +163,25 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
-   ]
+   ],
+   "statement": "For a prime-field row C=RS[F_p,D,k] with p congruent to 1 modulo n, quotient order N' dividing n, ell'=rho N'+1, and p>(2ell')^(N'/2), the canonical quotient line at radius 1-rho-1/N' has exactly Acl(N',ell') distinct quotient-value slopes. No below-threshold or extension-field conclusion is asserted."
+  },
+  {
+   "id": "identity_prefix_flexible_budget_unsafe_floor",
+   "title": "Identity-prefix plus flexible-budget MCA unsafe floor",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/identity_prefix_flexible_budget_unsafe_floor/statement.md",
+    "background/nodes/identity_prefix_flexible_budget_unsafe_floor/proof.md",
+    "background/nodes/identity_prefix_flexible_budget_unsafe_floor/source_pin.json"
+   ],
+   "statement": "Let B be a finite subfield of F, D subset B have size n, C=RS[F,D,k], q=|F|>n, and k+1<=m<=n. Put w=m-k-1 and B*=floor(q/2^t). If binom(n,m)>|B|^w B* and binom(B*+1,2)k<q-n, then one simple-pole received line has at least B*+1 distinct support-wise MCA-bad ambient-field slopes at agreement m. Hence B_C(m)>B* and epsilon_mca(C,1-m/n)>2^-t. The q-|B| non-base-rational variant also holds with its printed restriction.",
+   "notes": "HARVESTED 2026-07-26 from upstream main b13de811, cs25_cap_v13_2.tex lem:capff1-identity-prefix-floor + cor:capg-budget-conversion; independently reconstructed in-node. This bypasses E1 collision counting whenever its two exact row inequalities pass.",
+   "upstream": {
+    "label": "identity-scale prefix floor + flexible-budget deep-point conversion",
+    "relation": "IDENTICAL"
+   }
   },
   {
    "id": "acl_count",
@@ -181,10 +199,10 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "statement": "Determine |{e_1(B) mod p : B in binom(Q, l')}| for quotient orders 80 < N' < 512 at prize-scale p: (1-o(1))-full vs collided (= prob:perfiber at sigma = 1). SHARPENED (E1 compatibility): on 2-power rows the open cells are the 2-power divisors in (80, 512) \u2014 for Row C exactly N' in {128, 256}: the corridor question is TWO value sets per row.",
+   "statement": "On a row assigned to the direct quotient-value E1 route, determine |{e_1(B) mod p : B in binom(Q, l')}| for quotient orders 80 < N' < 512 at prize-scale p: (1-o(1))-full vs quantitatively collided (= prob:perfiber at sigma = 1). On 2-power rows the open cells are the 2-power divisors in (80,512), for Row C N' in {128,256}. This route-local determination is evidence for unsafe_crossing_family_instantiation, not universal unsafe coverage.",
    "attack_surface": "extend the split-prime transfer range, or the norm threshold, or prove e1-fullness directly",
    "falsifier": "Row-C birthday sampling showing collision rates far from either the full or the heavily-collided prediction",
-   "notes": "PREFERRED ROUTE (evidence-backed): collision-free branch via norm criterion -> density -> typicality (e1_random_prime_model); collided-branch machinery (averaged_slope_conversion) is INSURANCE, not the plan. | CONDITIONAL (Modal data refereed): the raw fullness fractions ARE the signed-core quotient \u2014 N'=16 p=60161 EXACT (3281=3281), N'=32 99.57%/97.66% with accidents shrinking in p, prize-shape scans zero collisions. The collision-free branch stands; residue = e1_fullness (the norm-density estimate). | GATE NORMALIZED ON CLOSE (2026-07-06, minimality law): the delivering route (e1_fullness, already wired req) is now a req edge; reserve routes (acl_second_order, norm_threshold_ext, perfiber) demoted to ev -- re-promotable if the winner is ever falsified."
+   "notes": "PREFERRED ROUTE (evidence-backed): direct fullness via norm criterion -> density -> typicality (e1_random_prime_model). Modal fractions remain evidence only. FALSE-GREEN SCOPE CORRECTION 2026-07-26: a merely collided value set does not trigger averaged_slope_conversion; the exact post-paid occupancy premise belongs to unsafe_crossing_family_instantiation. This node is route-local and no longer a req parent of mca_unsafe."
   },
   {
    "id": "acl_second_order",
@@ -1152,8 +1170,8 @@
    "id": "e1_fullness",
    "title": "e1 non-quotient collision density",
    "status": "CONDITIONAL",
-   "statement": "Uniformly for every admissible prize row, non-quotient e_1 collisions are o(1)-sparse relative to the signed-core quotient at the printed scope. The norm criterion and almost-all-primes density are proved; family-uniform exceptional-row control remains open.",
-   "notes": "QUANTIFIER CORRECTION 2026-07-26: finitely many named-field folded certificates cannot discharge the universal F,L,k quantifier. The direct requirement is e1_official_prime_exception_control; the exhibit certificate branch is background evidence. The residual alt edge from amplification_range_ext remains ev."
+   "statement": "Uniformly for every row assigned to the direct E1 quotient-value route with its generated field and cyclotomic reduction data pinned, non-quotient e_1 collisions are o(1)-sparse relative to the signed-core quotient at the printed scope. The norm criterion and almost-all-primes density are proved; route-uniform exceptional-row control remains open.",
+   "notes": "QUANTIFIER CORRECTION 2026-07-26: finitely many named-field folded certificates cannot discharge a row family. This is a route-local theorem, not universal unsafe-side coverage. The direct requirement is e1_official_prime_exception_control; unsafe_crossing_family_instantiation owns the separate every-admissible-row quantifier."
   },
   {
    "id": "paper_a_noslack",
@@ -1481,15 +1499,28 @@
   {
    "id": "unsafe_at_crossing",
    "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
+   "gate": "all",
    "key": true,
    "refs": [
     "proof_sketch/s2_paid_ledger.md#4"
    ],
-   "notes": "two exhaustive routes: collision-free => qfloor-family witnesses; collided => averaged slope conversion | PREFERRED ROUTE: qfloor witness family (collision-free branch), per E1 + the typicality model. | DEFECT FIXED (Codex packet): the two named branches wired \u2014 collision-free = qfloor_exact (PROVED), collided = averaged_slope_conversion (RIPE). Re-referee for promotion next pass. | PROMOTED red -> amber (Codex batch-3 defect completed by this audit): the collision-free branch = certified_valueset_lower (the all-pairs-distinct witness family) \u2014 was prose-only (my earlier fix silently no-op'd on an existing ev edge); now wired req alongside the collided branch (averaged_slope_conversion, RIPE). The two-branch split (collision-free vs collided) is exhaustive by definition; granting both branches, the adjacent-point witnesses exist per row \u2014 assembly statement. | FLIP on replay (Codex wave 5): CONDITIONAL -> PROVED. | REWIRE accepted with the proof: collision-free branch = qfloor_exact (existence by counting \u2014 collision-free MEANS the value-set is full); certified_valueset_lower de-wired here (it serves the knife-edge census, which needs the certified construction). | GATE CLEARED (like m_handling): the any-route structure predates the settled two-branch proof; e1_fullness and free_pool_ladder demoted to ev (kept as alternative-mechanism evidence). | REGRESSED with the averaged_xr exponent question (cross-audit cascade): the proof stands as a conditional implication; discharges when xr_ledger_exponent_reconciliation lands.",
-   "statement": "For each admissible row: B_C(a_safe - 1) > B* witnessed at the ADJACENT grid point \u2014 collision-free branch: qfloor value-set family; collided branch: averaged fiber-to-slope conversion.",
-   "attack_surface": "collision-free: count the qfloor family at the crossing scale; collided: prove averaged_slope_conversion",
-   "falsifier": "n/a (existence claim; the branch dichotomy is exhaustive)"
+   "notes": "FALSE-GREEN CORRECTION 2026-07-26: qfloor_exact and averaged_slope_conversion are local implications, not a universal row-instantiation theorem. In particular, a family being merely collided does not imply that its post-paid occupancy correction is small enough. The exact missing payload is unsafe_crossing_family_instantiation; see notes/UNSAFE_AT_CROSSING_FALSE_GREEN_AUDIT_20260726.md.",
+   "statement": "Conditional on unsafe_crossing_family_instantiation, qfloor_exact, and averaged_slope_conversion, every admissible row has B_C(a_safe-1)>B* at the adjacent grid point.",
+   "attack_surface": "construct the exact per-row direct-value or post-paid occupancy payload required by unsafe_crossing_family_instantiation",
+   "falsifier": "an admissible row with B_C(a_safe-1)<=B*, or a purported branch payload whose endpoint, field transfer, paid-family exclusion, or exact occupancy inequality fails"
+  },
+  {
+   "id": "unsafe_crossing_family_instantiation",
+   "title": "Universal adjacent-unsafe witness-family instantiation",
+   "status": "TARGET",
+   "key": true,
+   "refs": [
+    "critical/nodes/unsafe_crossing_family_instantiation/claim_contract.md"
+   ],
+   "statement": "For every admissible row and its proposed safe agreement a_safe, supply an exact certificate at a_safe-1 of at least one of: (Q) a quotient order satisfying every qfloor_exact hypothesis, endpoint alignment, and Acl(N',ell')>B*; (V) an explicit family of more than B* pairwise-distinct bad slopes; or (M) a deterministic post-paid support family A with exact strict-overlap profile and occupancy quantity nu(A)=E[N(A)]-(q/2)C_t(A)>B*. The certificate must use the ambient MCA slope field and account for generated-field transfer and first-match ownership.",
+   "attack_surface": "compile the row descriptor into a Q, V, or M payload with exact endpoint and denominator arithmetic; split by field-generation type and rate only when the resulting children are strictly smaller and independently falsifiable",
+   "falsifier": "an admissible row with exact B_C(a_safe-1)<=B*, or any emitted payload that fails its qfloor scope, distinct-slope count, post-paid ownership, occupancy inequality, endpoint, or ambient-field normalization"
   },
   {
    "id": "averaged_slope_conversion",
@@ -1499,7 +1530,7 @@
     "proof_sketch/s2_paid_ledger.md#6"
    ],
    "notes": "s2 fork F2: plausibly provable (second moment + paid-fiber exclusion); needed exactly when zone-(b) is collided | PROOF WRITTEN in flight (#212): FM1 + slope-resolved second moment + v8 cap + explicit paid-fiber exclusion; verifier green. Their honest caveat: stated for post-paid support families \u2014 row use still needs the paid-excluded strict-overlap profile. | FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): CONJECTURE -> CONDITIONAL; referee packet in nodes/averaged_slope_conversion/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them). | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED with the averaged_xr exponent question (cross-audit cascade): the proof stands as a conditional implication; discharges when xr_ledger_exponent_reconciliation lands.",
-   "statement": "From the exact FM first moment and the slope-resolved second-moment ledger, after excluding paid fibers and applying the v8 per-locator cap, a family whose locator mean crosses B* contains a pair (u,v) with at least B* distinct bad slopes."
+   "statement": "For a deterministic support family A with exact strict-overlap profile, put nu(A)=E[N(A)]-(q/2)C_t(A). For every integer B>=1, nu(A)>B-1 implies the existence of a received pair with at least B distinct finite bad slopes. Prize use with the strict unsafe inequality >B* therefore requires nu(A)>B* and B=B*+1, after paid-family ownership and ambient-field scope are supplied."
   },
   {
    "id": "dyadic_profile_evaluation",
@@ -4966,12 +4997,12 @@
   },
   {
    "id": "e1_official_prime_exception_control",
-   "title": "E1 family-uniform exceptional-set control",
+   "title": "Direct-E1 route-uniform exceptional-set control",
    "status": "TARGET",
-   "statement": "Uniformly for every admissible field/domain/rate instance in the open E1 cells N' in {128,256}, incidence with the explicit non-quotient e1 exceptional norm-divisor set is negligible relative to the signed-core quotient count at the scope required by e1_fullness. A direct-certificate alternative must cover every admissible input; certificates for finitely many named exhibit fields establish only those exhibits and do not discharge this universal statement.",
-   "attack_surface": "prove a family-uniform exceptional-divisor bound, or a complete per-input theorem/certifier covering every admissible row with the exact required budget",
-   "falsifier": "an admissible prize-scale row with enough non-quotient folded sparse kernel vectors to exceed the allowed budget; or a purported family-wide certificate route that leaves any admissible row uncovered",
-   "notes": "QUANTIFIER ROUTE CORRECTION 2026-07-26: the former CONDITIONAL incorrectly transported two named-exhibit no-vector certificates to a theorem over every admissible F,L,k. The exhibit/certificate subgraph is retained as background evidence only. See notes/E1_NAMED_EXHIBIT_QUANTIFIER_AUDIT_20260726.md."
+   "statement": "Uniformly for every row whose adjacent-unsafe certificate invokes the direct E1 quotient-value route, with the generated field and cyclotomic reduction prime/ideal pinned, incidence in the open cells N' in {128,256} with the explicit non-quotient e1 exceptional norm-divisor set is negligible relative to the signed-core quotient count at the scope required by e1_fullness. Certificates for finitely many named exhibit fields do not discharge this route-uniform statement. unsafe_crossing_family_instantiation owns the separate every-admissible-row payload obligation.",
+   "attack_surface": "prove a route-uniform exceptional-divisor bound, or a complete certifier theorem covering every row assigned to direct E1 with the exact required budget",
+   "falsifier": "a row assigned to direct E1 with enough non-quotient folded sparse kernel vectors to exceed the allowed budget; or a purported route-wide certifier that leaves an assigned row uncovered",
+   "notes": "QUANTIFIER ROUTE CORRECTION 2026-07-26: the former CONDITIONAL incorrectly transported two named-exhibit no-vector certificates to a row-family theorem. The exhibit/certificate subgraph is retained as background evidence only. This target does not prove that every admissible row is assigned to E1; unsafe_crossing_family_instantiation owns that global obligation. See notes/E1_NAMED_EXHIBIT_QUANTIFIER_AUDIT_20260726.md."
   },
   {
    "id": "ef_fullfield_bridge",
@@ -16282,7 +16313,7 @@
   {
    "from": "zone_b",
    "to": "mca_unsafe",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "qfloor_exact",
@@ -17325,6 +17356,11 @@
    "kind": "ev"
   },
   {
+   "from": "unsafe_crossing_family_instantiation",
+   "to": "unsafe_at_crossing",
+   "kind": "req"
+  },
+  {
    "from": "averaged_slope_conversion",
    "to": "unsafe_at_crossing",
    "kind": "req"
@@ -17333,6 +17369,36 @@
    "from": "qfloor_exact",
    "to": "unsafe_at_crossing",
    "kind": "req"
+  },
+  {
+   "from": "zone_b",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "certified_valueset_lower",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "axis8_generating",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "identity_prefix_flexible_budget_unsafe_floor",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "deployed_identity_prefix_owner_scope_audit",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "identity_prefix_flexible_budget_unsafe_floor",
+   "to": "deployed_identity_prefix_owner_scope_audit",
+   "kind": "ev"
   },
   {
    "from": "fm1",
@@ -19346,6 +19412,16 @@
   },
   {
    "from": "official_row_primes_pinning",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "axis8_generating",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
    "to": "e1_official_prime_exception_control",
    "kind": "ev"
   },

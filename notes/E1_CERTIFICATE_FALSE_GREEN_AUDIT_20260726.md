@@ -55,7 +55,7 @@ The challenge has no hidden finite list of official primes. A named exhibit
 certificate proves only that exhibit. An almost-all-primes theorem proves only
 typicality. The complete prize route needs one of:
 
-- a finite family-uniform theorem over every admissible field/domain row;
+- a route-uniform theorem over every row assigned to the E1 supplier;
 - a proved total per-input certificate procedure whose exact output is checked
   for the supplied code; or
 - a formally narrowed exhibit claim that is not used to prove the grand
@@ -107,5 +107,9 @@ claim should be falsified or re-routed before any expensive exhaustive search.
 - **delta-star movement:** none
 - **new assumptions:** none
 - **live compute request:** none; exact-certificate design is prerequisite
-- **next route-deciding action:** attack the family-uniform E1 quantifier or a
+- **next route-deciding action:** attack the route-uniform E1 quantifier or a
   different closure-capable critical red, rather than repeating BKZ
+
+Follow-up: `UNSAFE_AT_CROSSING_FALSE_GREEN_AUDIT_20260726.md` established that
+E1 is only a supplier route. Universal row coverage now belongs to
+`unsafe_crossing_family_instantiation`.

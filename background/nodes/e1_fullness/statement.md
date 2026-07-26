@@ -1,7 +1,8 @@
 # e1_fullness
 - **status:** CONDITIONAL
 ## Statement
-The e1 non-quotient collision density estimate: for admissible prize primes,
+The e1 non-quotient collision density estimate: for rows assigned to the
+direct quotient-value route,
 non-quotient e_1 collisions on C(mu_N', l') are o(1)-sparse relative to the
 signed-core quotient (the paid antipodal collisions). collision_norm_criterion
 (PROVED) reduces every non-quotient collision to divisibility of an explicit
@@ -16,7 +17,9 @@ shrink with p); prize-shape birthday scans (N'=128/256, 250-bit primes,
 ## Conditional decomposition
 
 The collision mechanism is reduced by `e1_exceptional_set_reduction`. The
-remaining open predicate is `e1_official_prime_exception_control`: every
-admissible row in the two open cells must satisfy the explicit exceptional
-norm-divisor budget. A direct-certificate route must cover every admissible
-input; a finite named-exhibit manifest does not establish this quantifier.
+remaining open predicate is `e1_official_prime_exception_control`: every row
+assigned to the direct E1 quotient-value route must satisfy the explicit
+exceptional norm-divisor budget in the two open cells. A certificate route must
+cover every assigned row; a finite named-exhibit manifest does not establish
+this quantifier. This is one supplier route for
+`unsafe_crossing_family_instantiation`, not a universal row router.
