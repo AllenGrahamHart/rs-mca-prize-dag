@@ -148,6 +148,22 @@ def main() -> None:
         if nodes[i]["status"] not in COLORS:
             errors.append(f"{i}: on the CRITICAL surface with status {nodes[i]['status']} "
                           "— three-color law: critical nodes are PROVED/CONDITIONAL/TARGET only")
+    # EMPTY-STATEMENT GUARD (2026-07-27). The precision invariant below covers only
+    # open dominators and CONDITIONALs, so PROVED critical nodes escaped it: 37 of
+    # them carry an empty `statement` and therefore cannot be audited, Lean-targeted,
+    # or checked against upstream. Fixing all 37 is a content job for the planner;
+    # this pin stops the count GROWING silently. Lower it as statements are written;
+    # never raise it to get green.
+    _EMPTY_STMT_PIN = 37
+    _empty_stmt = [i for i in sorted(crit)
+                   if nodes[i]["status"] == "PROVED"
+                   and not (nodes[i].get("statement") or "").strip()]
+    if len(_empty_stmt) > _EMPTY_STMT_PIN:
+        errors.append(
+            f"empty-statement PROVED critical nodes grew to {len(_empty_stmt)} "
+            f"(pin {_EMPTY_STMT_PIN}): {sorted(set(_empty_stmt))[:5]} ... — a PROVED "
+            "node with no statement cannot be audited; write the statement")
+
     _root_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
     for sub, want_crit in (("critical/nodes", True), ("background/nodes", False)):
         p = os.path.join(_root_dir, sub)

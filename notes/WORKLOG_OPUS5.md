@@ -949,3 +949,31 @@ one. Full record in `notes/codex_harvest_20260727/HARVEST_v10.md`.
 **Surfaced, not applied.** Demoting a PROVED critical node is a status flip needing
 the full artifact chain and the planner's audit; Codex raw branches are
 read-for-awareness only. This is precisely the case the brief reserves to Fable.
+
+**Session 7j — audit: Codex's demotion is independently supported, and a systemic gap.**
+
+I audited `unsafe_at_crossing = PROVED` **without** using Codex's argument. Its proof
+is a two-branch dichotomy flipped on the note *"both branches are now proved"*. Both
+branch parents have problems:
+
+1. **`averaged_slope_conversion`** (collided branch) says in its own notes:
+   *"stated for post-paid support families — row use still needs the paid-excluded
+   strict-overlap profile."* That is **exactly** Codex's requirement (M). It is proved
+   for post-paid support families and consumed at **row** level.
+   *(Its other note, "REGRESSED … discharges when `xr_ledger_exponent_reconciliation`
+   lands", IS discharged — that node is PROVED — but is not wired as a req-parent, so
+   the discharge is structurally unrecorded.)*
+2. **`qfloor_exact`** (collision-free branch) has an **empty statement field** — we
+   cannot check what the branch claims.
+
+**Verdict: Codex's demotion is independently supported.** Still not applied — a
+PROVED→CONDITIONAL flip on the critical surface is the planner's — but it should now
+be treated as *likely warranted*, not merely *claimed*.
+
+**Systemic finding: 37 of our 201 critical PROVED nodes have EMPTY statements** —
+`fm1`, `v8_ledger`, `staircase`, `list_unsafe`, `cap_theorem`, `acl_count`,
+`paid_*_fn`, `qfloor_exact` … The validator's precision invariant covers only open
+dominators and CONDITIONALs, so PROVED nodes escaped it. **18% of the proved critical
+surface cannot be audited, Lean-targeted, or checked against upstream.** Added a
+pinned guard in `verify_prize_dag.py` so the count cannot grow silently (mutation
+control: lowering the pin fails, as it must).
