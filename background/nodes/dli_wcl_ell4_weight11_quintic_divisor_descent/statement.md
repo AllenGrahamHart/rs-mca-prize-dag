@@ -145,3 +145,47 @@ extract a nonzero integer `Delta = sum_j H_j R_j`. Note the shape is harder than
 `(4,9)`'s: **eleven** relations in **six** unknowns, against nine in four.
 
 Closes no cell. `dli_wcl_slot_4_11_emptiness` stays TARGET.
+
+## The Delta route is NOT the cheap one — a reformulation, and a re-ordering (2026-07-26)
+
+**First, a planning fact that changes the order of work.** The `(4,9)` node states
+in terms: *"This theorem does not compute `Delta` or prove the slot empty."* So no
+`Delta` exists for `(4,9)` either — and `(4,9)` is strictly the smaller problem
+(**9 relations in 4 unknowns** against 11 in 6). **Any `Delta` attempt should be
+made at `(4,9)` first;** if it is infeasible there it is certainly infeasible here.
+
+**Why the direct route is infeasible.** `(Y^1024 - 1) mod G` with symbolic `G`
+requires ten repeated squarings of a degree-10 polynomial whose coefficients live in
+`Z[b_0..b_4, e_9]`. Coefficient degrees roughly double per squaring, so the `R_j`
+carry degree on the order of `2^10` in six variables. That is not a computation to
+attempt symbolically, at any budget.
+
+**A cleaner equivalent form.** Write `P(Y) = prod_i (Y - y_i)` for the distinct
+roots in `mu_1024`. Then the defining identities rearrange to
+
+```text
+(4,9)    P(Y) + 1              = Y * A(Y)^2      A monic quartic
+(4,11)   P(Y) + (e_9 Y + 1)^2  = Y * B(Y)^2      B monic quintic
+```
+
+So each cell asks: **is there a squarefree product of 1024-th roots of unity which,
+after adding `1` (resp. a squared linear form), becomes `Y` times a perfect
+square?** Equivalently, `P + 1` must have `0` as a simple root and `deg A` double
+roots. Setting `Y = 0` in the `(4,9)` form recovers `prod y_i = 1` immediately,
+matching product-one.
+
+This is a **polynomial Pell-type identity** `Y A(Y)^2 - P(Y) = 1`, with the extra
+arithmetic constraint that `P` splits over `mu_1024`. It is a far better target than
+the `R_j` elimination: no coefficient blow-up, and it exposes the double-root
+structure that the eliminant hides.
+
+**Route note (checked, negative).** Mason–Stothers does not bite here. With
+`a = P`, `b = 1`, `c = Y A^2` (pairwise coprime, since `P(0) = -1` and a common root
+of `P` and `A` would force `P = -1` there), `rad(abc) <= 9 + 1 + 4 = 14` against
+`deg = 9`, so the abc bound reads `9 <= 13` — satisfied, no contradiction. The
+squarefree parts are too large for abc to constrain, which is the same reason it
+failed on the bridge pencil.
+
+**Recommended next step for this lane:** attack the Pell form at `(4,9)` — smaller,
+already fully bijective, and the identity `Y A(Y)^2 - P(Y) = 1` with `P` split over
+`mu_1024` is a self-contained classical question.
