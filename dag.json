@@ -15903,6 +15903,20 @@
    "attack_surface": "(1) Compute (s,d_j,b) from one chamber's locator data - the four block locators A_i and edge factors b_ij - via the triangle identities A_k b_ij + A_i b_jk = A_j b_ik and the Plucker gate b_01b_23 - b_02b_13 + b_03b_12 = 0; the A_i partition the multiplicative-coset vanishing polynomial, so d_s should be readable off the exceptional degree (in {3,4,5,6,8} for the nine Grassmann-line chambers). (2) Prove s=3 outright by showing a coplanar quadruple at a=3n/4-1 forces a locator degeneration incompatible with every chamber - an equality-case rigidity problem, since s=2 sits exactly at the cap. (3) Prove b=0 outright from the common-zero structure: on G all four members share one value, so b >= 1 costs every member an agreement against an already tight budget.",
    "falsifier": "Two four-codeword configurations realizing the SAME chamber with different affine rank s (or different b): the chamber would not determine the affine invariants, refuting the bridge as posed and forcing a refinement of the atlas before any compiler can be applied per chamber. Wired instance: background/nodes/rate_half_list_chamber_affine_rank_bridge/verify.py re-derives every witness of the banked F_17 branch and fails closed on any with s != 3 or b != 0.",
    "notes": "Minted 2026-07-26 (queue r2 Q1) out of the H1/S3 replay recorded in critical/nodes/rate_half_list_adjacent_crossing/notes/affine_span_chamber_replay_20260726.md. Wired ev, NOT req: rate_half_list_adjacent_crossing does not depend on this bridge for its truth; the bridge only decides whether the H1 harvest can ever be promoted to a requirement edge. Subtraction check clean - no upstream prior art at b13de811 for chamber/affine-rank language in v4 or grande_finale. F_17 evidence is a power-of-two multiplicative-domain route fence, never a proof of the official uniform statement; no transport to d = 2^39."
+  },
+  {
+   "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
+   "title": "WCL (4,11) quintic-divisor descent",
+   "status": "PROVED",
+   "gate": "all",
+   "refs": [
+    "background/nodes/dli_wcl_ell4_weight11_quintic_divisor_descent/statement.md",
+    "background/nodes/dli_wcl_ell4_weight11_quintic_divisor_descent/verify.py"
+   ],
+   "statement": "Let char K = 0 or > 11, omega of exact order 2048. For a reduced signed weight-11 relation rho_i = s_i omega^{e_i} with p_1=p_3=p_5=p_7=0: since gcd(11,2048)=1 with 11^{-1}=931 mod 2048, the global dilation lambda = a_11^{-931} uniquely normalises the product to one. Newton then gives e_1=e_3=e_5=e_7=0 and e_11=1. The odd indices at most 9 are {1,3,5,7,9}, all pinned at w=9; at w=11 they are {1,3,5,7,9,11} and e_9 is FREE. Hence the locator is F(X)=X B(X^2)-(e_9 X^2+1) with B a monic QUINTIC (six parameters, against four at (4,9)), the square locator is G(Y)=Y B(Y)^2-(e_9 Y+1)^2 = prod (Y-(lambda rho_i)^2), monic of degree 11 and dividing Y^1024-1, and the reconstruction is rho=(e_9 y+1)/B(y). The elimination endpoint (Y^1024-1) mod G gives 11 relations R_j in Z[b_0..b_4,e_9], six unknowns. SCOPE: this is the FORWARD direction only. The converse bijection ((4,9)'s distinctness, non-antipodality, product one and recovery of the window conditions) and the Delta certificate are NOT established here.",
+   "attack_surface": "Establish the converse bijection as (4,9) does, then the Delta certificate: show the ideal I=(R_0..R_10) has no characteristic-zero point and extract a nonzero integer Delta with Delta = sum H_j R_j over Z.",
+   "falsifier": "A monic quintic B and scalar e_9 over an admissible field with G | Y^1024-1 whose reconstruction yields a genuine reduced weight-11 relation satisfying the ell=4 window conditions -- i.e. a live (4,11) vanisher.",
+   "notes": "Minted 2026-07-26 from the descent parity dichotomy: gcd(11,2048)=1 so the (4,9) global-dilation normalisation transfers verbatim, whereas (4,10) is even and obstructed at index 2. This makes (4,11) the cheaper of the two open ell=4 descent statements and it should be worked first, reversing the printed residual order. Subtraction check clean: no upstream prior art for a weight-11 quintic-divisor descent at b13de811."
   }
  ],
  "edges": [
@@ -30329,6 +30343,11 @@
   {
    "from": "rate_half_list_chamber_affine_rank_bridge",
    "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_ell4_weight11_quintic_divisor_descent",
+   "to": "dli_wcl_slot_4_11_emptiness",
    "kind": "ev"
   }
  ]
