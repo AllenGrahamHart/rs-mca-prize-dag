@@ -2469,3 +2469,27 @@ next route-deciding action: seek an analytic reduction of the (4,9) Pell/
                               114-by-119 certificate endpoint; do not duplicate
                               the already proved descent or launch CR-004 locally
 ```
+
+**2026-07-26, `(4,9)` inversion-component close:** anti-reciprocity reduces
+the inversion-invariant Pell stratum to four rational and four cubic
+branches. Exact branchwise powering modulo `P=YA^2-1` gives obstruction gcd
+one on every branch. The complete denominator support is `{2,3,17,19}`, so
+the official split gate excludes it. The new PROVED node
+`dli_wcl_ell4_weight9_inversion_symmetric_exclusion` is wired by `ev` to the
+unchanged TARGET `dli_wcl_slot_4_9_emptiness`. This is genuine component
+movement, not full-cell closure: arbitrary nine-subsets of `mu_1024` need
+not be inversion-stable.
+
+```text
+starting pin: bb4d2188
+node attacked: dli_wcl_slot_4_9_emptiness, inversion-invariant component
+result: CLOSED (component), NARROWED (parent)
+DAG delta: +1 PROVED node, +1 req edge, +1 ev edge; parent remains TARGET
+upstream terminal delta: none
+delta-star bracket movement: none
+new assumptions: inversion invariance, explicitly local and not shared by parent
+live compute requests: no retry; full CR-004 remains external/deferred
+next route-deciding action: find a complete structural split complementary
+                              to inversion invariance, or return to the full
+                              114/119 sparse certificate endpoint
+```

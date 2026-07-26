@@ -5231,6 +5231,81 @@ CR-004 is intentionally one grouped request because all four leaves use the
 same ambient split and certificate vocabulary. Contributors may close slots
 independently, but should not open four incompatible compute frameworks.
 
+### CR-004-W49-INV: one-run inversion-symmetric classification
+
+- **authorization (2026-07-26):** exactly one route-pricing run of
+  `experiments/prize_resolution/wcl49_inversion_symmetric_groebner_modal.py`.
+  One CPU, 1 GiB, one container, 90-second function cap, and 75-second
+  symbolic alarm; current-rate compute ceiling is below `$0.002` before the
+  small cached-image build. No retry is authorized by this entry.
+- **decision:** in the `(4,9)` Pell endpoint `P(Y)=YA(Y)^2-1`, classify the
+  inversion-invariant root-set stratum. Such a monic degree-nine `P` is
+  anti-reciprocal, giving the four exact equations
+  `[Y^i]P+[Y^(9-i)]P=0`, `1<=i<=4`, in the four nonleading coefficients of
+  the monic quartic `A`. Return the complete rational lexicographic Groebner
+  basis, its digest, zero-dimensional verdict, and univariate factors.
+- **PASS effect:** a small zero-dimensional basis selects an exact component
+  certificate and subsequent divisibility check. Positive dimension or an
+  unwieldy basis fences this symmetry split and returns work to the full
+  `114/119` cubic endpoint. Completion alone proves no WCL emptiness.
+- **partial output:** the exact equation list and digest are printed before
+  elimination. Timeout is `INCOMPLETE`; no second run, support census, or
+  official-scale certificate follows automatically.
+- **checker:**
+  `experiments/prize_resolution/check_wcl49_inversion_symmetric_groebner.py`
+  reconstructs the equations and basis independently under RAMguard.
+- **attempt result (2026-07-26): `COMPLETE`.** Modal app
+  `ap-uGwcJZUDyu3EvGCS3q7hKx` returned a five-polynomial, zero-dimensional
+  basis in `0.151924` seconds at `86 MB` peak RSS. The degree-14 univariate
+  eliminant factors as
+  `c0(c0-2)(c0^3-12c0-8)(c0^3-12c0+8)(c0^3-6c0^2+8)(c0^3-6c0^2+24)`.
+  Exact output is pinned in
+  `experiments/prize_resolution/wcl49_inversion_symmetric_groebner_result.json`.
+  The authorization is consumed. This selects a branchwise divisibility
+  certificate; it does not itself close the symmetry stratum.
+
+### CR-004-W49-INV-DIV: branchwise divisibility certificate
+
+- **authorization (2026-07-26):** exactly one follow-up run of
+  `experiments/prize_resolution/wcl49_inversion_symmetric_divisibility_modal.py`.
+  One CPU, 1 GiB, one container, 90-second function cap and 85-second client
+  alarm; conservative compute cost is below `$0.002` using the cached SymPy
+  image. No retry is authorized by this entry.
+- **decision:** start from the four anti-reciprocity equations, eliminate by
+  an explicitly checked quadratic/linear resultant, and cover all six
+  factors of the degree-14 eliminant. On each rational or cubic branch,
+  compute `(Y^1024-1) mod (YA(Y)^2-1)` by exact quotient-ring powering.
+  Return the gcd of the nine coefficient obstructions, complete prime
+  factors of every denominator and obstruction gcd, and the subset meeting
+  the official `v_2(p-1)>=41` gate.
+- **PASS effect:** if no exceptional prime meets the official gate, mint a
+  proved inversion-invariant component exclusion and attach it as evidence
+  to `dli_wcl_slot_4_9_emptiness`. This closes only that symmetry component,
+  not the full `(4,9)` cell.
+- **FAIL effect:** an official-compatible exceptional prime becomes a finite
+  exact candidate for direct reconstruction or exclusion. Positive
+  reconstruction falsifies the `(4,9)` target; exclusion narrows the branch.
+- **partial output:** the router and every completed branch are printed
+  independently. Timeout or incomplete factorization is `INCOMPLETE`; no
+  DAG status changes and no automatic retry follow.
+- **checker:**
+  `experiments/prize_resolution/check_wcl49_inversion_symmetric_divisibility.py`
+  reconstructs the router, quotient powers, resultants, factorizations, and
+  official prime filter independently under RAMguard.
+- **attempt result (2026-07-26): `COMPLETE`.** Modal app
+  `ap-Qzy9Pu4EwpokldlVRzyoYg` completed in `11.55593` seconds at `98 MB`
+  peak RSS. Its eight exhaustive branches all have divisibility-obstruction
+  gcd `1`; router and parameter denominators have prime support exactly
+  `{2,3,17,19}`, with maximum `v_2(p-1)=4`. No exception meets the official
+  `v_2(p-1)>=41` gate. The exact result has certificate digest
+  `71f5d0e915bcad0cc510b6ea7d616096040bd34056f280133a4e64385bd79f99`.
+  The authorization is consumed, and the result is banked as the PROVED
+  component `dli_wcl_ell4_weight9_inversion_symmetric_exclusion`. Launcher,
+  checker, and result-file SHA-256 values are respectively
+  `bf476b31eccf380c7c676b7aec7f5aa7b79c4a3b666dd95b6dea97d0a106d158`,
+  `925f7c28521779da15ff15cfbcffa6eb85b66fc1440b4e4f9479bd2527707121`,
+  and `726a8287d8965a6640c03a2f2b42cbcdb3c53aeed7e1d23191800c778d45e356`.
+
 ## CR-004-X6: WCL extended-window six certificate classification
 
 - **status:** DEFERRED EXTERNAL HANDOFF. The proved node
