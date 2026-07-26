@@ -16032,6 +16032,25 @@
     "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/verify.py",
     "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/verify_audit.py"
    ]
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "title": "L1 Mersenne HNF m=8 order-zero quadratic exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On all four official m=8,h=7 endpoint rows, no quadratic order-zero colored Frobenius interpolant survives. The exact-one-repeat color moments impose 21 quadratics on s, each coprime to the mandatory constant-coefficient n-torsion condition.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -30522,6 +30541,26 @@
   },
   {
    "from": "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
+   "to": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion",
+   "to": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

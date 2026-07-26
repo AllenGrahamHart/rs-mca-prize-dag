@@ -1210,6 +1210,16 @@ punctured-cyclotomic linear template. Consequently the exact live quadratic
 frontier is: exactly one repeated color for `m=8`; exactly one repeated color
 or an even multi-repeat for `m=16`. Neither retained system is classified.
 
+The `m=8` retained system is now empty by
+`l1_mersenne_hnf_m8_order_zero_quadratic_exclusion`. After normalizing its
+unique double color, the two omitted colors give 21 patterns. Three centered
+moments place `s` on one explicit quadratic per pattern, while
+`P_s|W^n-1` forces `binom(s+6,7)^n=1`. Exact coprimality in
+`F_p(mu_8)[s]`, independently replayed as 84 nonzero resultants, excludes
+every pattern on all four official rows. Thus the live `m=8` order-zero
+color degree begins at three. The `m=16` exactly-one-repeat and even
+multi-repeat quadratic systems remain unclassified.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

@@ -598,6 +598,13 @@
   now exactly one repeated color. The `m=16` task is exactly one repeat plus
   the even multi-repeat chamber. Preserve this multiplicity split in any
   resultant or cyclotomic saturation.
+  Next consume
+  `l1_mersenne_hnf_m8_order_zero_quadratic_exclusion`: delete the complete
+  degree-two chamber on all four `m=8,h=7` rows. Its 21 one-repeat color
+  patterns are already certified coprime to the constant-coefficient torsion
+  equation, so do not rerun them in a generic saturation. Start `m=8` at
+  `deg E>=3`. The `m=16` exactly-one-repeat and even multi-repeat quadratic
+  systems remain live and must stay separate.
   For the order-one chamber, first consume
   `l1_mersenne_hnf_order_one_frobenius_gate`. Put `d=c-1` and shard only by
   `zeta=d^(p+1) in mu_m`; then `c^p=1+zeta/d`. Combine the hypergeometric

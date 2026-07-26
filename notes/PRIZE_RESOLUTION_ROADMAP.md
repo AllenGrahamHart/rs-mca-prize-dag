@@ -2198,3 +2198,18 @@ same punctured-cyclotomic linear template already excluded by the resultant
 color on `m=8`, and exactly one repeat or an even multi-repeat on `m=16`.
 Result: `NARROWED`, with no complete degree, row, critical status, endpoint,
 Modal job, or compute request claimed.
+
+**2026-07-26, L1 m=8 quadratic close:**
+`l1_mersenne_hnf_m8_order_zero_quadratic_exclusion` removes the final
+degree-two color system on all four official `m=8,h=7` endpoint rows. The
+previous pair of quadratic theorems forces exactly one repeated color. After
+normalizing it to one, there are 21 pairs of omitted eighth-root colors.
+Their first three centered moments impose one quadratic `q_(i,j)(s)`, while
+the product of the seven locator roots and `P_s|W^n-1` force
+`binom(s+6,7)^n=1`. Exact gcds in `F_p(mu_8)[s]` are one for all 84
+row-pattern pairs; an independent `F_p[u]/(u^2+2)` implementation verifies
+84 nonzero Sylvester resultants and pins four row digests. The live `m=8`
+order-zero color degree now begins at three. Result: one whole endpoint
+degree closed but L1 remains `TARGET`; `m=16` quadratic systems, degree
+`3+`, order one, outer divisibility, and the inner lift remain. No Modal job
+or compute request was used.
