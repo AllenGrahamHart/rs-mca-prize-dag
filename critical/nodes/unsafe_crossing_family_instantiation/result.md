@@ -12,3 +12,7 @@ The clean-anchor route classification further proves that the same supplier
 is impossible on five of the six clean anchors. The sole surviving RowC
 rate-`1/16` branch is conditional on an explicit proper-domain-field cutoff;
 it is not instantiated by the current unpinned RowC data.
+
+The qfloor norm-threshold route is also exhausted on all six clean anchors.
+Their above-budget raw quotient censuses remain evidence only until direct
+value-set injectivity or another collision theorem is supplied.

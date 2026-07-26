@@ -13,7 +13,10 @@ a short pre-registered route decision.
    meets the exact 227-bit cutoff; the RowC prime itself remains unpinned.
 2. On rows not paid by the identity-prefix theorem, test whether an existing
    tangent, quotient, or value-set construction already yields a `Q` or `V`
-   payload.
+   payload. At the six clean anchors, do not invoke `qfloor_exact`: its norm
+   threshold exceeds the official field cap at the required orders. The raw
+   `A-1` binomial quotient counts must instead pass direct-E1 injectivity or a
+   replacement collision theorem.
 3. On the residual rows, define the post-paid family before taking moments.
    Derive its exact strict-overlap profile and test the strict `nu(A)>B*`
    inequality required for an `M` payload.

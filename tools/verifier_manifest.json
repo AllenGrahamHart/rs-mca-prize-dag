@@ -651,6 +651,8 @@
     "background/nodes/pma_three_petal_mu_basis_reduction/statement.md": "322382412d607ba5010f96012537e2f8d7b0adb96b3bbaf7c891c3439ddcc9b4",
     "background/nodes/pma_three_petal_projective_johnson_bound/proof.md": "c13e6da69d1b2b643475646d221b8ba48dec8ac06ff4af93424ed786c0a90a9f",
     "background/nodes/pma_three_petal_projective_johnson_bound/statement.md": "5c14ff2db2c6a769325902aa9955fdfe9d46101fde51ad934e3477f63250928e",
+    "background/nodes/qfloor_clean_anchor_norm_threshold_route_cut/proof.md": "095ab4c6c5452d14f2e46070e15d0c0a8080dde37b0436bdde8c8ed68ef74707",
+    "background/nodes/qfloor_clean_anchor_norm_threshold_route_cut/statement.md": "0fe86605f1322ff42598c73fb9a73c5a8214e56b7eddac73362f794a0297d29e",
     "background/nodes/rate_half_arbitrary_line_syndrome_router/proof.md": "3ed19d8c8fc35436445a27fa5a75c017f91469f5f157ce872a382a270de99806",
     "background/nodes/rate_half_arbitrary_line_syndrome_router/statement.md": "87ad870232f08e97d5e0273314c85988006c95461119e8b40f1fd774bfb61f9b",
     "background/nodes/rate_half_ca_hankel_a1_core_one_active_core_two_sided_partition/proof.md": "9616c2890d862f67b8fe0ac6756a4daf4724c168d36377b2f900a624880e843b",
@@ -2027,6 +2029,7 @@
     "background/nodes/pma_source_paving_bridge/verify.py": "43c58aad581e4e838608a8ef501ac3eb5d8219a01848bb3a37695b241f4ae2f5",
     "background/nodes/pma_three_petal_mu_basis_reduction/verify.py": "5d972e952898547108f6db9788579003d73ed533a1de24276ad1c839972f5802",
     "background/nodes/pma_three_petal_projective_johnson_bound/verify.py": "535eadde69dcef8060c4478a89605e7cfefa2b4891b24a70d758dfea75048f5c",
+    "background/nodes/qfloor_clean_anchor_norm_threshold_route_cut/verify.py": "7a6f1931e1da1179265af23967b4b8526afef2c4d515b563cb652dfcacb68e8b",
     "background/nodes/rate_half_arbitrary_line_syndrome_router/verify.py": "45677d3d165f9517b6c0c350a2580d57a1dfbc43789e4841ffe644b454a6a6e1",
     "background/nodes/rate_half_arbitrary_line_syndrome_router/verify_audit.py": "c71ead9e6bbbd9ae5c98c44b0ef7bdf52b537b6f181ee3d6493919347237e5a7",
     "background/nodes/rate_half_ca_hankel_a1_core_one_active_core_two_sided_partition/verify.py": "b62b2981cda3f4eb135747095c4a8e3af0a307f0e73d809b1695a0b369a93968",
@@ -2646,7 +2649,7 @@
     "tools/verify_official_row_primes_pinning.py": "f6a7af8211e92ef1e5643bda43ed7e11df597956589d4cabfbe2479590814828",
     "tools/verify_orbit_census.py": "0a944229659c7795d247d19ec324dd3f61c84443e79bc57890a8540f35d9b0ce",
     "tools/verify_prize_dag.py": "fc78e615525a85988904f889b07cea6ade47d5eb319eab4cb882cbe14f270ff7",
-    "tools/verify_unsafe_crossing_status_regression.py": "430cacecc43c22ba0befdcf4b287d376f52fdf1a277454b90032659480f9a3eb",
+    "tools/verify_unsafe_crossing_status_regression.py": "b67babee079d4fe4c3094e5e5e58f22e688bbe589668289c8588b8218903efae",
     "tools/verify_wild_row_audit.py": "304aab9d7f08b41029808a829a23a7987e212ebda24dc1b8f8cd32568b72eee3"
   }
 }

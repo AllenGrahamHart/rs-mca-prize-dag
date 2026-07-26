@@ -9,6 +9,7 @@ certified_valueset_lower  --ev--> unsafe_crossing_family_instantiation
 axis8_generating          --ev-->
 identity_prefix_flexible_budget_unsafe_floor --ev-->
 identity_prefix_clean_anchor_route_classification --ev-->
+qfloor_clean_anchor_norm_threshold_route_cut --ev-->
 deployed_identity_prefix_owner_scope_audit  --ev-->
 
 unsafe_crossing_family_instantiation --req--> unsafe_at_crossing
@@ -27,3 +28,7 @@ that exact finite slice.
 The clean-anchor classifier proves that this supplier is impossible on five
 of six clean anchors and isolates one proper-domain-field branch on the sixth.
 It is a route cut, not another payload.
+
+The qfloor norm-threshold cut proves that the raw quotient censuses on all six
+clean predecessors lie outside `qfloor_exact`. Their distinct-value content
+remains with E1 or another collision theorem.
