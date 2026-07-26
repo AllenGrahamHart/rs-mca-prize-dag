@@ -4,8 +4,8 @@
 
 ## Statement
 
-For every admissible clean-anchor row in the direct-E1 candidate class
-`|F_p(Q)|>B*`, let `N in {256,512}` be its actual quotient order,
+For every admissible clean-anchor row in the pair-feasible direct-E1 candidate
+class `|F_p(Q)|>=b_pair_min(K,B*)`, let `N in {256,512}` be its actual quotient order,
 `ell=rho N+1`, `K=A_2(N,ell)`, and `B*=floor(|F|/2^128)`. Conditional on
 `e1_official_prime_exception_control`, the reduced E1 value set satisfies
 
@@ -23,6 +23,6 @@ is `e1_clean_anchor_exact_collision_allowance`. The former claim that
 collisions are merely `o(1)`-sparse is retained only as heuristic/asymptotic
 motivation; it is not the finite conclusion of this node.
 
-This is one supplier route for `unsafe_crossing_family_instantiation`. Rows in
-the complementary `|F_p(Q)|<=B*` class cannot use E1 and still require another
-supplier.
+This is one supplier route for `unsafe_crossing_family_instantiation`. Rows
+below `b_pair_min` require a direct image theorem or another supplier; below
+`B*+1`, E1 is impossible outright.

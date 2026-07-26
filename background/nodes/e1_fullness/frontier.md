@@ -14,11 +14,12 @@ The route is now a finite implication rather than an asymptotic density slogan.
 ## Remaining theorem
 
 `e1_official_prime_exception_control` must prove the exact pointwise pair
-bound for every row with `|F_p(Q)|>B*`. The current quotient orders are
+bound for every row with `|F_p(Q)|>=b_pair_min(K,B*)`. The current quotient orders are
 `256` and `512`; `128` and `256` are their folded dimensions.
 
-The complementary generated-field branch is a proved E1 route cut and must be
-paid by another unsafe supplier.
+Below `b_pair_min`, the pair-loss method is provably unavailable. Direct E1 is
+impossible below `B*+1`; the intermediate field range may still admit a
+sharper direct image theorem. Both ranges belong to the universal router.
 
 The historical no-vector certificates are stronger than necessary at one
 exhibit and insufficient for the family quantifier. The preferred next action

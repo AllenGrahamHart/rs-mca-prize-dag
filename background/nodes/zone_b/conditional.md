@@ -6,8 +6,8 @@
 
 ## Claim
 
-Every clean-anchor row with `|F_p(Q)|>B*` has more than `B*` distinct ambient
-E1 values and therefore a direct-value unsafe payload.
+Every clean-anchor row with `|F_p(Q)|>=b_pair_min(K,B*)` has more than `B*`
+distinct ambient E1 values and therefore a direct-value unsafe payload.
 
 ## Proof
 

@@ -59,5 +59,38 @@ and `B=F_p(Q)`, every E1 value lies in `B`, so `L<=|B|`. Therefore
 ```
 
 rules out a direct-E1 `V` payload. The pointwise E1 collision target is posed
-on the complementary candidate class `|B|>B*`; the universal unsafe router
-must pay the small-generated-field branch by another supplier.
+only where its pair currency is feasible. More precisely, for `b=|B|`, write
+`K=sb+r` with `0<=r<b`. Every map of the `K` classes into `B` has
+
+```text
+P >= P_min(K,b) := b binom(s,2) + r s.
+```
+
+Thus `P_min(K,b)>g_max` rules out this collision-pair supplier even when
+`b>B*`. At all six anchors the least pair-feasible generated-field size is
+
+```text
+b_pair_min = ceil((K+B*+1)/3),
+```
+
+with exact values:
+
+| row | `b_pair_min` | bits |
+|---|---:|---:|
+| RowC `1/4` | 382284112190896383970682459093111839235997652964233428737 | 188 |
+| RowC `1/8` | 12668879649419138327999082396158341660417 | 134 |
+| RowC `1/16` | 1137987620444272639348514363568529251287851553619457 | 170 |
+| prize `1/4` | 382284112190896384074741713357221542466466218296788430623 | 188 |
+| prize `1/8` | 12772938903683248031229550961490896662303 | 134 |
+| prize `1/16` | 1137987620444376698602778473271759719853184108621343 | 170 |
+
+The resulting exact route split is:
+
+```text
+b <= B*                 direct E1 impossible;
+B* < b < b_pair_min     pair-loss compiler impossible, direct image still open;
+b >= b_pair_min         exact P allowance is a viable sufficient target.
+```
+
+The universal unsafe router must pay the first two branches by a direct image
+theorem or another supplier if the pair target is unavailable.

@@ -54,7 +54,7 @@ def main():
     target_statement = nodes[branch_target]["statement"].lower()
     require("every admissible clean-anchor row" in target_statement,
             "direct-E1 clean-row quantifier is missing")
-    require("candidate class b=f_p(q), |b|>b*" in target_statement,
+    require("class b=f_p(q), |b|>=b_pair_min" in target_statement,
             "independent generated-field candidate class is missing")
     require("quotient orders n in {256,512}" in target_statement,
             "quotient-order scope is missing")
@@ -96,8 +96,12 @@ def main():
     require(nodes[exact_compiler]["status"] == "PROVED", "finite E1 compiler is not proved")
     compiler_statement = nodes[exact_compiler]["statement"].lower()
     require("k-|image|<=p" in compiler_statement, "collision-loss inequality is missing")
-    require("|b|<=b* rules out direct e1" in compiler_statement,
+    require("b<=b* rules out direct e1" in compiler_statement,
             "small-generated-field route cut is missing")
+    require("p>=p_min(k,b)" in compiler_statement,
+            "balanced-fiber pair floor is missing")
+    require("b_pair_min=ceil((k+b*+1)/3)" in compiler_statement,
+            "pair-feasibility threshold is missing")
     require((exact_compiler, "e1_fullness", "req") in edges,
             "finite compiler no longer gates e1_fullness")
     universal = "unsafe_crossing_family_instantiation"

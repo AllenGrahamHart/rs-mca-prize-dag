@@ -10,6 +10,10 @@
   `P<=K-B*-1` is sufficient for more than `B*` distinct ambient slopes.
 - If the quotient-generated field `B=F_p(Q)` has `|B|<=B*`, a direct-E1
   payload is impossible because its image is contained in `B`.
+- The balanced-fiber lower bound `P_min(K,|B|)` is exact; if it exceeds the
+  row allowance, the collision-pair compiler is impossible.
+- The six exact pair-feasibility thresholds are the printed
+  `ceil((K+B*+1)/3)` values.
 - The six exact counts and allowances in `statement.md` are correct.
 
 ## Not proved
@@ -18,7 +22,7 @@
 - No direct-E1 row is paid merely because its allowance is positive.
 - No generated-field, extension-field, quotient-embedding, or first-match
   transport is inferred from the count beyond the proved image-containment
-  gate.
+  and pair-feasibility gates.
 - The raw subset count `binom(N,ell)` is not asserted to be a value-set count.
 - The universal unsafe target and either prize problem remain open.
 

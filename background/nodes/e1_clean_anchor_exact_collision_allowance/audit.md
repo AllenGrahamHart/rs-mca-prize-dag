@@ -29,8 +29,13 @@ clean-anchor value-set result. The imported statements are already on main.
    integer collision-pair allowance, or a direct proof that the image exceeds
    `B*`.
 4. Route assignment cannot depend on the desired collision conclusion. The
-   checkable first split is generated-field size: `|F_p(Q)|<=B*` kills E1,
-   while the complementary class is the domain of the pointwise target.
+   checkable first split is generated-field size. `|F_p(Q)|<=B*` kills E1;
+   above it, the exact balanced-fiber floor determines whether the pair-loss
+   currency is even feasible.
+5. The initial candidate class `|F_p(Q)|>B*` was still too broad. When
+   `K` greatly exceeds the generated field, unavoidable pair collisions can
+   exceed `K-B*-1` even though the image might exceed `B*`. The corrected
+   pointwise pair target begins at the printed `b_pair_min`.
 
 ## Independent checks
 

@@ -37,4 +37,7 @@ clean predecessors lie outside `qfloor_exact`. Their distinct-value content
 remains with E1 or another collision theorem. The exact E1 compiler pins that
 route to `P<=A_2(N,ell)-B*-1` at quotient orders `N=256,512`; it supplies no
 bound on `P`, so the E1 target remains open. It also proves that
-`|F_p(Q)|<=B*` rules out E1 and must route elsewhere.
+`|F_p(Q)|<=B*` rules out E1, while
+`B*<|F_p(Q)|<ceil((A_2+B*+1)/3)` rules out the pair-loss compiler. Both must
+route elsewhere unless a sharper direct image theorem pays the intermediate
+range.

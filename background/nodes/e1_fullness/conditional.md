@@ -9,8 +9,8 @@
 ## Claim
 
 Conditional on the exact route-uniform collision-pair bound, every row in the
-direct-E1 candidate class `|F_p(Q)|>B*` has more than `B*` distinct reduced E1
-values at its clean candidate predecessor.
+pair-feasible direct-E1 candidate class `|F_p(Q)|>=b_pair_min(K,B*)` has more
+than `B*` distinct reduced E1 values at its clean candidate predecessor.
 
 ## Proof
 

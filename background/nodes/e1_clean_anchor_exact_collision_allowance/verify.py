@@ -38,6 +38,11 @@ def a2_count(order: int, ell: int) -> int:
     return total
 
 
+def minimum_pair_collisions(class_count: int, field_size: int) -> int:
+    quotient, remainder = divmod(class_count, field_size)
+    return field_size * quotient * (quotient - 1) // 2 + remainder * quotient
+
+
 def subset_class_count(order: int, ell: int) -> int:
     """Count signed antipodal keys from all subsets, independently of formula."""
     half = order // 2
@@ -76,24 +81,32 @@ def main() -> None:
     rows = (
         ("RowC-1/4", 1024, 256, 260, ROWC_BUDGET, 256, 65,
          1146852336572689151906730465296195854216377730651578907904,
-         1146852336572689151901413553313056190724762502410457529599),
+         1146852336572689151901413553313056190724762502410457529599,
+         382284112190896383970682459093111839235997652964233428737),
         ("RowC-1/8", 1024, 128, 132, ROWC_BUDGET, 256, 33,
          38001322036274275320505631960233903602944,
-         37996005124291135657014016731992782224639),
+         37996005124291135657014016731992782224639,
+         12668879649419138327999082396158341660417),
         ("RowC-1/16", 1024, 64, 66, ROWC_BUDGET, 512, 33,
          3413962861332812601133559951042096138635313539480064,
-         3413962861332807284221576811378604523407072418101759),
+         3413962861332807284221576811378604523407072418101759,
+         1137987620444272639348514363568529251287851553619457),
         ("prize-1/4", 1 << 41, 1 << 39, 558345748480, PRIZE_BUDGET, 256, 65,
          1146852336572689151906730465296195854216377730651578907904,
-         1146852336572689151589235790520727081033356806412792523940),
+         1146852336572689151589235790520727081033356806412792523940,
+         382284112190896384074741713357221542466466218296788430623),
         ("prize-1/8", 1 << 41, 1 << 38, 283467841536, PRIZE_BUDGET, 256, 33,
          38001322036274275320505631960233903602944,
-         37683827361498806547322611035995117218980),
+         37683827361498806547322611035995117218980,
+         12772938903683248031229550961490896662303),
         ("prize-1/16", 1 << 41, 1 << 37, 141733920768, PRIZE_BUDGET, 512, 33,
          3413962861332812601133559951042096138635313539480064,
-         3413962861332495106458784482268913117711074753096100),
+         3413962861332495106458784482268913117711074753096100,
+         1137987620444376698602778473271759719853184108621343),
     )
-    for _, n, k, agreement, budget, expected_order, expected_ell, expected_k, expected_g in rows:
+    for row in rows:
+        (_, n, k, agreement, budget, expected_order, expected_ell,
+         expected_k, expected_g, expected_b_min) = row
         assert n % (agreement - k) == 0
         order = n // (agreement - k)
         assert order == expected_order
@@ -105,6 +118,9 @@ def main() -> None:
         assert class_count == expected_k
         assert class_count - budget - 1 == expected_g
         assert expected_g >= 0
+        assert expected_b_min == (class_count + budget + 3) // 3
+        assert minimum_pair_collisions(class_count, expected_b_min) <= expected_g
+        assert minimum_pair_collisions(class_count, expected_b_min - 1) > expected_g
 
     # Every possible integer fiber profile at small K satisfies loss <= pairs.
     profile_checks = 0
@@ -129,7 +145,8 @@ def main() -> None:
     assert (NODE, E1_TARGET, "ev") in edges
     assert (NODE, TARGET, "ev") in edges
     assert "P <= K-B*-1" in statements[NODE]
-    assert "|B|<=B* rules out direct E1" in statements[NODE]
+    assert "b<=B* rules out direct E1" in statements[NODE]
+    assert "b_pair_min=ceil((K+B*+1)/3)" in statements[NODE]
     assert "quotient orders N in {256,512}" in statements[E1_TARGET]
 
     print(

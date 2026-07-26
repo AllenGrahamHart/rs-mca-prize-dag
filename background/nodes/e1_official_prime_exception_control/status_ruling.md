@@ -16,8 +16,8 @@ may still supply algorithms, calibration, or exhibit-specific results.
 
 Promotion requires either a route-uniform proof of the exact finite bound
 `P<=A_2(N,ell)-B*-1`, or a complete per-input theorem/certifier covering every
-row in the independently defined candidate class `|F_p(Q)|>B*`. Here
-`N in {256,512}` is the quotient order; the
+row in the independently defined pair-feasible candidate class
+`|F_p(Q)|>=ceil((A_2(N,ell)+B*+1)/3)`. Here `N in {256,512}` is the quotient order; the
 formerly printed `{128,256}` are folded dimensions. Finite successful
 experiments, asymptotic `o(1)` statements, and exhibit certificates are
 insufficient. Universal row coverage is a separate target.

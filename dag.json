@@ -192,8 +192,8 @@
     "background/nodes/e1_clean_anchor_exact_collision_allowance/verify.py",
     "background/nodes/e1_clean_anchor_exact_collision_allowance/audit_verify.py"
    ],
-   "statement": "At each clean candidate predecessor, let K=A_2(N,ell) be the exact characteristic-zero antipodal-rearrangement class count and P=sum_y binom(r_y,2) the number of unordered pairs of distinct classes colliding after reduction into the ambient slope field. Then K-|image|<=P, so P <= K-B*-1 implies |image|>=B*+1. The actual quotient orders are N=256,512 with folded dimensions h=128,256. Exact K, B*, and K-B*-1 are printed for all six RowC/prize anchors. If B=F_p(Q) is the quotient-generated field, image(e1) is contained in B, so |B|<=B* rules out direct E1.",
-   "notes": "FINITE E1 COMPILER 2026-07-26: corrects the provisional global-sign factor, the old quotient-order/folded-dimension ambiguity, and circular route assignment. It fixes exact allowances and the generated-field route split but proves no official collision bound and pays no row."
+   "statement": "At each clean candidate predecessor, let K=A_2(N,ell) be the exact characteristic-zero antipodal-rearrangement class count and P=sum_y binom(r_y,2) the number of unordered pairs of distinct classes colliding after reduction into the ambient slope field. Then K-|image|<=P, so P <= K-B*-1 implies |image|>=B*+1. The actual quotient orders are N=256,512 with folded dimensions h=128,256. If B=F_p(Q) has size b, image(e1) is contained in B; moreover every reduction has P>=P_min(K,b)=b binom(s,2)+rs for K=sb+r. Thus b<=B* rules out direct E1, and b<b_pair_min=ceil((K+B*+1)/3) rules out the pair-loss compiler. Exact allowances and pair-feasibility thresholds are printed for all six anchors.",
+   "notes": "FINITE E1 COMPILER 2026-07-26: corrects the provisional global-sign factor, quotient-order/folded-dimension ambiguity, circular route assignment, and the overbroad |B|>B* pair target. It fixes exact allowances and a three-way generated-field split but proves no official collision bound and pays no row."
   },
   {
    "id": "identity_prefix_flexible_budget_unsafe_floor",
@@ -242,7 +242,7 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "statement": "On an admissible clean-anchor row with quotient-generated field B=F_p(Q) satisfying |B|>B*, determine the exact ambient image of e1 on characteristic-zero antipodal-rearrangement classes and prove it exceeds B*. At the current clean predecessors the actual quotient orders are N=256 for rates 1/4,1/8 and N=512 for rate 1/16; folded dimensions are 128,128,256. Conditional on e1_fullness this supplies a route-local direct-value payload, not universal unsafe coverage.",
+   "statement": "On an admissible clean-anchor row in the pair-feasible class |F_p(Q)|>=b_pair_min(K,B*), determine the exact ambient image of e1 on characteristic-zero antipodal-rearrangement classes and prove it exceeds B*. At the current clean predecessors the actual quotient orders are N=256 for rates 1/4,1/8 and N=512 for rate 1/16; folded dimensions are 128,128,256. Conditional on e1_fullness this supplies a route-local direct-value payload, not universal unsafe coverage.",
    "attack_surface": "prove the exact pointwise collision-pair allowance, certify the image directly, or replace E1 on the row",
    "falsifier": "a candidate-class row whose exact ambient E1 image is at most B*, or a purported certificate that confuses quotient order, folded dimension, or ambient field",
    "notes": "FINITE SCOPE CORRECTION 2026-07-26: qualitative o(1) fullness and generic collided labels are not prize certificates. Historical N=128 experiments do not pay the live clean anchors. This node remains route-local and no longer a req parent of mca_unsafe."
@@ -1213,7 +1213,7 @@
    "id": "e1_fullness",
    "title": "E1 finite direct-value fullness compiler",
    "status": "CONDITIONAL",
-   "statement": "For every admissible clean-anchor row with quotient-generated field B=F_p(Q) satisfying |B|>B*, actual quotient order N in {256,512}, and class count K=A_2(N,ell), the exact collision-pair bound from e1_official_prime_exception_control implies that the reduced ambient E1 image has size at least B*+1 and supplies a direct-value V payload at agreement k+n/N. All field, embedding, owner, and endpoint pins remain mandatory.",
+   "statement": "For every admissible clean-anchor row in the pair-feasible class |F_p(Q)|>=b_pair_min(K,B*), with actual quotient order N in {256,512} and class count K=A_2(N,ell), the exact collision-pair bound from e1_official_prime_exception_control implies that the reduced ambient E1 image has size at least B*+1 and supplies a direct-value V payload at agreement k+n/N. All field, embedding, owner, and endpoint pins remain mandatory.",
    "notes": "FINITE CORRECTION 2026-07-26: the former o(1)-sparse statement was not an exact finite prize certificate. The proved loss compiler and open pointwise collision bound now state the actual implication. This remains a route-local theorem; unsafe_crossing_family_instantiation owns every-row coverage."
   },
   {
@@ -5042,9 +5042,9 @@
    "id": "e1_official_prime_exception_control",
    "title": "Direct-E1 route-uniform exceptional-set control",
    "status": "TARGET",
-   "statement": "Uniformly for every admissible clean-anchor row in the independently defined direct-E1 candidate class B=F_p(Q), |B|>B*, with all field, embedding, owner, and endpoint data pinned, let quotient orders N in {256,512}, K=A_2(N,ell), and P=sum_y binom(r_y,2) count unordered pairs of distinct characteristic-zero classes colliding after reduction. Prove P<=K-B*-1 for B*=floor(|F|/2^128). The formerly printed {128,256} are folded dimensions, not the live quotient-order scope. Finite exhibit certificates do not discharge this route-uniform target.",
-   "attack_surface": "prove the exact candidate-class pair-incidence bound, construct a candidate-class row above allowance, or give a complete per-input image/collision certifier theorem",
-   "falsifier": "a candidate-class row with P>K-B*-1; a certifier leaving such a row uncovered; or any base/ambient-field normalization failure",
+   "statement": "Uniformly for every admissible clean-anchor row in the independently defined pair-feasible direct-E1 class B=F_p(Q), |B|>=b_pair_min(K,B*)=ceil((K+B*+1)/3), with all field, embedding, owner, and endpoint data pinned, let quotient orders N in {256,512}, K=A_2(N,ell), and P=sum_y binom(r_y,2) count unordered pairs of distinct characteristic-zero classes colliding after reduction. Prove P<=K-B*-1 for B*=floor(|F|/2^128). The formerly printed {128,256} are folded dimensions, not live quotient orders. Finite exhibit certificates do not discharge this route-uniform target.",
+   "attack_surface": "prove the exact pair-feasible-class incidence bound, construct a pair-feasible row above allowance, or give a complete per-input image/collision certifier theorem",
+   "falsifier": "a pair-feasible candidate row with P>K-B*-1; a certifier leaving such a row uncovered; or any base/ambient-field normalization failure",
    "notes": "EXACT FINITE RE-POSE 2026-07-26: replaces negligible/o(1) language and fixes quotient-order versus folded-dimension notation. The earlier quantifier correction remains: named exhibits are evidence only, and unsafe_crossing_family_instantiation owns global row routing."
   },
   {

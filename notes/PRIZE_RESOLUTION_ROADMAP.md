@@ -840,11 +840,14 @@ certificate is `P<=K-B*-1`. Exact `K`, `B*`, and allowances are printed and
 independently replayed for all six anchors. This also corrects the old cell
 notation: clean quotient orders are `N=256,512`, while `128,256` are folded
 dimensions. Finally, if `B=F_p(Q)` is the quotient-generated field, then the
-E1 image lies in `B`; `|B|<=B*` is therefore a proved E1 route cut. The open
-pointwise target now has the noncircular domain `|B|>B*`. No row is paid and
-no endpoint moves: the next theorem must prove or falsify the exact `P`
-allowance on that class, while the universal router pays the complementary
-small-generated-field branch elsewhere. See
+E1 image lies in `B`; `|B|<=B*` is therefore a proved E1 route cut. A second
+exact cut comes from balanced fibers: for `K=sb+r`, every reduction has
+`P>=b C(s,2)+rs`, so the pair-loss compiler is impossible below
+`b_pair_min=ceil((K+B*+1)/3)`. Its six thresholds have `188,134,170` bits by
+rate. The open pointwise pair target now has this noncircular high-field
+domain. No row is paid and no endpoint moves: the next theorem must prove or
+falsify the exact `P` allowance there, while the universal router separately
+pays the impossible-E1 and direct-image-only field ranges. See
 `notes/E1_CLEAN_ANCHOR_FINITE_ALLOWANCE_AUDIT_20260726.md`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the

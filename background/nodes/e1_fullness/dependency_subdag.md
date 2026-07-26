@@ -27,8 +27,9 @@ reframing, small-radius exclusion, and almost-all-primes density statement.
 
 ## e1_official_prime_exception_control
 
-Statement: every row in the direct-E1 candidate class `|F_p(Q)|>B*` meets the
-exact collision-pair budget `P<=A_2(N,ell)-B*-1` required by `e1_fullness`.
+Statement: every row in the pair-feasible direct-E1 candidate class
+`|F_p(Q)|>=b_pair_min(K,B*)` meets the exact collision-pair budget
+`P<=A_2(N,ell)-B*-1` required by `e1_fullness`.
 
 Status: TARGET. The former two-cell named-exhibit certificate branch did not
 cover the complete direct-E1 route quantifier and now lives in `background/nodes/`

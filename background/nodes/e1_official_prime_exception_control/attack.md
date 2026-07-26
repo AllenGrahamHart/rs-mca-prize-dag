@@ -5,9 +5,10 @@ campaign without a pre-registered certificate format and a route decision.
 
 ## Exact object
 
-For a clean-anchor row with `B=F_p(Q)` and `|B|>B*`, enumerate conceptually the
-`K=A_2(N,ell)` characteristic-zero E1 classes at `N=256` or `512`. Count
-unordered colliding class pairs after reduction:
+For a clean-anchor row with `B=F_p(Q)` and
+`|B|>=b_pair_min(K,B*)`, enumerate conceptually the `K=A_2(N,ell)`
+characteristic-zero E1 classes at `N=256` or `512`. Count unordered colliding
+class pairs after reduction:
 
 ```text
 P=sum_y binom(r_y,2).
@@ -27,7 +28,7 @@ explicit finite inequality at the row.
    the number of surviving folded vectors. Convert every counted object to
    unordered class pairs explicitly.
 3. A certifier route is legitimate only with proved termination, soundness,
-   and coverage for every row in the printed candidate class.
+   and coverage for every row in the printed pair-feasible candidate class.
 4. If direct image size can be certified above `B*` without bounding `P`, send
    that certificate directly to `unsafe_crossing_family_instantiation`.
 

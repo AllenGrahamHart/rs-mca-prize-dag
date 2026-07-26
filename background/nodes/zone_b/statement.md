@@ -2,8 +2,8 @@
 
 - **status:** CONDITIONAL
 
-On an admissible clean-anchor row in the direct-E1 candidate class
-`|F_p(Q)|>B*`, determine the exact ambient-field image
+On an admissible clean-anchor row in the pair-feasible direct-E1 candidate
+class `|F_p(Q)|>=b_pair_min(K,B*)`, determine the exact ambient-field image
 
 ```text
 |{e_1(B): B an antipodal-rearrangement class}|

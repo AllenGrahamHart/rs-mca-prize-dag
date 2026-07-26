@@ -5,15 +5,17 @@
 
 ## Statement
 
-For every admissible row in the direct-E1 candidate class at the current clean
-candidate predecessor, pin the actual ambient MCA slope field, generated
-field, quotient embedding, cyclotomic reduction prime/ideal, and endpoint. The
-candidate class is defined independently of the desired conclusion by
+For every admissible row in the pair-feasible direct-E1 candidate class at the
+current clean candidate predecessor, pin the actual ambient MCA slope field,
+generated field, quotient embedding, cyclotomic reduction prime/ideal, and
+endpoint. The candidate class is defined independently of the desired
+conclusion by
 
 ```text
 Q = the canonical quotient root set,
 B = F_p(Q),
-|B| > B* = floor(|F|/2^128).
+b=|B| >= b_pair_min(K,B*) = ceil((K+B*+1)/3),
+B* = floor(|F|/2^128).
 ```
 
 The actual quotient orders are
@@ -49,10 +51,15 @@ many named exhibit fields do not discharge the route-uniform quantifier.
 `unsafe_crossing_family_instantiation` separately owns proof that every
 admissible row receives some valid unsafe payload.
 
+For `b<=B*`, direct E1 is impossible. For `B*<b<b_pair_min`, the balanced-
+fiber collision floor already exceeds the allowance, so this pair-loss target
+is impossible; a sharper direct image theorem or another supplier must pay
+that branch.
+
 ## Falsifier
 
 A row in the printed candidate class with `P>K-B*-1` refutes this
-collision-pair target, even if a sharper direct image argument might still pay that row. A
-purported route-wide certifier is also defeated if it leaves any candidate-
-class row uncovered or counts slopes in a proper subfield against the ambient
-budget.
+collision-pair target, even if a sharper direct image argument might still pay
+that row. A purported route-wide certifier is also defeated if it leaves any
+candidate-class row uncovered or counts slopes in a proper subfield against
+the ambient budget.

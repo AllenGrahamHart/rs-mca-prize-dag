@@ -39,6 +39,28 @@ those roots also lie in `B`. Thus the reduced E1 image is a subset of `B` and
 has size at most `|B|`. If `|B|<=B*`, it cannot contain more than `B*` slopes.
 This proves the generated-field route cut without an injectivity assumption.
 
+For the sharper pair-feasibility cut, fix `b=|B|`. Among all partitions of
+`K` classes into at most `b` value fibers, convexity of `binom(r,2)` makes the
+collision sum smallest when the nonempty fiber sizes differ by at most one.
+Writing `K=sb+r`, `0<=r<b`, gives `r` fibers of size `s+1` and `b-r` fibers of
+size `s`, hence
+
+```text
+P_min = r binom(s+1,2) + (b-r) binom(s,2)
+      = b binom(s,2) + rs.
+```
+
+For each of the six rows, exact arithmetic places the first feasible `b` in
+the interval `K/3<=b<=K/2`, where `s=2` and `P_min=2K-3b`. Therefore
+`P_min<=K-B*-1` is equivalent there to
+
+```text
+b >= ceil((K+B*+1)/3).
+```
+
+The verifier checks the displayed value, failure at the preceding integer,
+and the balanced-fiber formula on all six rows.
+
 For the six candidate predecessors, `N=n/(m-k)` gives `256,256,512` at rates
 `1/4,1/8,1/16`, and `ell=rho N+1` gives `65,33,33`. Substitution into the exact
 class formula and then `g_max=K-B*-1` gives the statement table. All arithmetic
