@@ -924,3 +924,28 @@ ledger's `8.07e17`.
 (coefficient blow-up), the subset/`Delta` census (`2^89.5`), and every structural
 argument (the existence witness). The one door left is a **quantitative bound in
 `p`** on `#{e : T^9 - e(T)^2 splits completely over mu_N}`.
+
+**Session 7i — standing sweep: upstream triage + Codex harvest.**
+
+*Upstream:* no triage. `origin/main` still `b13de811`; no non-ours PRs since #1105.
+Our lane now has **three** open PRs (#1106 not mine, #1107, #1108) — **over the
+ledger's 2-PR cap**, so no more get opened until triage moves.
+
+*Codex v10 harvest (~75 commits/6h) — the significant find:*
+
+| | ours | codex |
+|---|---|---|
+| math orbit | 260 | **242** |
+| P / C / T | 201/36/**23** | 180/38/**24** |
+
+**All 23 of our TARGETs remain TARGET there — none closed.** But Codex adds a 24th,
+`unsafe_crossing_family_instantiation`, wired **req** into `unsafe_at_crossing`, and
+demotes that node **PROVED (ours) → CONDITIONAL (theirs)**.
+
+If Codex is right, **our `unsafe_at_crossing` is over-claimed** and our board is 24
+reds, not 23 — i.e. our census errs in the *over-claiming* direction, the dangerous
+one. Full record in `notes/codex_harvest_20260727/HARVEST_v10.md`.
+
+**Surfaced, not applied.** Demoting a PROVED critical node is a status flip needing
+the full artifact chain and the planner's audit; Codex raw branches are
+read-for-awareness only. This is precisely the case the brief reserves to Fable.
