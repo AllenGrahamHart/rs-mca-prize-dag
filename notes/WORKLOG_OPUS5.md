@@ -808,3 +808,42 @@ Local structure on the `(4,9)` Pell form: `P` is degree 9, totally ramified over
 `∞`, profile `(1,2,2,2,2)` over `-1`, unramified over `0` with all nine roots in
 `mu_1024`, and 4 further ramification points free. That is a dessins/Shabat-shaped
 constraint and it is *local*, so it is not covered by the fence.
+
+**Session 7e — the (4,9) existence witness, and an honest calibration failure.**
+
+| | |
+|---|---|
+| existence witness | **verified in full** — the configuration is realizable |
+| lane fence | strengthened to a *class* exclusion: no structural argument can work |
+| corrections | 2: small-analogue artefact retracted; counting heuristic shown uncalibrated |
+| census (datum) | `260 = 201/36/23` |
+
+**The witness.** At `(p,N) = (257,128)`, faithful since `2N | p-1`:
+`A = Y^4+58Y^3+240Y^2+133Y+86` gives `P = Y A^2 - 1` with nine distinct roots in
+`mu_128`, product one, `rho^2 = y`, `prod rho = 1`, all `rho in mu_256`,
+non-antipodal, and `p_1=p_3=p_5=p_7=0` exactly. ~8,900 such quartics exist there.
+
+**Why it is the session's most useful fact.** There is **no structural obstruction**
+to the `(4,9)` configuration. So any proof of official emptiness *must* be
+quantitative in `p` — structure alone can never suffice. That retroactively explains
+all six previously fenced routes (abc, `Res(P,A)`, `mu_N`-product, character,
+ramification, composition/divisibility): they are structural, hence were doomed
+before being tried. Six failures, **one cause**. The lane fence in the brief is
+strengthened accordingly.
+
+**Two self-corrections this session.**
+1. The prior "exhaustive, zero hits at `(17,16)`" was **artefact**: `A(y)^2 = y^{-1}`
+   forces roots to be quadratic residues, and `F_17^*` has only 8 squares against 9
+   roots needed — counting-impossible before any algebra. Faithful analogues require
+   `2N | p-1`; re-ran exhaustively at `p = 97,193,257,353`.
+2. The counting heuristic **undercounts by ~300x** at both testable points, because
+   `P_A` takes `-1` with pattern `(1,2,2,2,2)` and such polynomials split far more
+   readily than random. Worse, the `p`-dependence **cannot be measured** — solutions
+   are only countable when `p` is small relative to `N`, the opposite of official.
+   So the `2^-607` margin is an unvalidated extrapolation: good for route selection,
+   not a quantitative claim.
+
+### Next
+A rigorous count over `mu_N` that does not depend on the heuristic — the
+`(1,2,2,2,2)` value pattern at `-1` is the structure the naive model ignored and is
+where a correct model must start.

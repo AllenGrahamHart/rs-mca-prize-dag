@@ -252,3 +252,40 @@ multiplicative invariants are vacuous" to the sharper "**no structural argument 
 close a WCL zero-event cell; the proof must be quantitative in `p`**". The live
 route is a rigorous counting or character-sum bound over `mu_N`, where losing even
 hundreds of bits against a `2^607` margin would still close the cell.
+
+### Calibration of the counting heuristic — it does NOT calibrate (2026-07-27)
+
+The expected-count heuristic `E = C(N,9)/(N p^4)` was tested against the actual
+solution count at faithful analogues, by meet-in-the-middle sampling:
+
+| `p` | `N` | solutions found | estimated total | heuristic `E` | ratio |
+|---|---|---:|---:|---:|---:|
+| 257 | 64 | 23–26 | ~30 | 0.099 | **~300** |
+| 257 | 128 | 752 | ~8,900 | 34.1 | **~260** |
+| 641 | 64 | 0 | 0 | 0.0026 | undetermined |
+| 769 | 64 | 0 | 0 | 0.0012 | undetermined |
+
+**The heuristic undercounts by a factor of roughly 300** at both testable points.
+The cause is visible: `P_A = Y A^2 - 1` is *not* a random monic degree-9 polynomial
+with constant term `-1`. It takes the value `-1` with multiplicity pattern
+`(1,2,2,2,2)`, and such polynomials split far more readily than random ones. The
+naive "probability of splitting" step is therefore wrong.
+
+**And the `p`-dependence cannot be measured.** At `p = 641, 769` the predicted
+counts drop to `~10^-3`, so observing zero is uninformative and no ratio can be
+extracted. Solutions are only abundant enough to count when `p` is small relative
+to `N` — **exactly the regime unlike the official row**.
+
+**Consequence, stated plainly.** The `2^-607` margin quoted above is an
+**unvalidated extrapolation**. It is sound for *route selection* — it says the cell
+is not delicate, and it correctly predicted that a faithful analogue with small `p`
+would contain solutions (it does, abundantly). It is **not** a quantitative claim
+about the official row, and must not be cited as one. A rigorous argument would not
+need the heuristic; but neither can the heuristic tell that argument how much room
+it has.
+
+**No shift symmetry.** The 728 distinct solution root-sets at `(257,128)` fall into
+728 distinct orbits under multiplication by `mu_128` — none coincide. That is
+forced: rescaling `y -> zeta y` sends `P` to `zeta^9 P(Y/zeta)`, which is again of
+the form `Y A^2 - 1` only when `zeta^9 = 1`, and `gcd(9,128) = 1` makes that
+`zeta = 1`. So the abundance is genuine multiplicity, not one orbit seen many times.
