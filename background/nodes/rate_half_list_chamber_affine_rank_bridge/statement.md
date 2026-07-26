@@ -620,3 +620,54 @@ in this node's own text.
 **Residue after the harvest:** `b` is settled either way. The live bridge question
 is exactly the **chamber → `(d_1, d_2, d_3)` transport**, now needing a two-sided
 interval for `d_3` rather than a floor.
+
+## ANSWERED — NEGATIVELY (2026-07-26). The compiler can never bite.
+
+**The bridge question is settled: no chamber → `(d_1..d_s, b)` transport, however
+good, can make the rank-flat compiler exclude a four-codeword configuration at this
+row.** Artifact: `verify_compiler_cannot_bite.py` (exact rationals, floor applied
+last; 4 mutation controls).
+
+Inputs, all previously established:
+
+- **`b = 0`** — two independent routes (Codex's unconditional budget-three
+  common-mismatch zero; this node's `(CZB)` route in the `s=2`/`Ddir=6` branch).
+  `b = 0` *minimises* every denominator factor `d_j - t + b`, so it is the
+  compiler's **best case**.
+- **`s ∈ {2,3}`** — `s=1` excluded, no three list members are collinear.
+- **`d_1 ∈ {R+1, R+2}`** — the razor bracket forces every pairwise difference to
+  weight `K+1` or `K+2`, and `d_1` is the direction code's minimum weight.
+- **`s=2 ⟹ d_2 = n - z`, `z ∈ {733007751849, 733007751850}`** (PROGRESS 4).
+
+Evaluating `floor( d_s^{under s} / prod_j (d_j - t + b) )`:
+
+```text
+s = 2, at the pinned d_2 :  cap = 4  exactly (4.2666…), both z, both d_1
+s = 3, minimised over the ENTIRE admissible region :  cap = 6
+```
+
+Four codewords therefore survive at **every reachable configuration**. Since `b=0`
+is already the best case and `d_1` is pinned at the bottom, there is no freedom
+left for a transport to exploit.
+
+**Why it fails, structurally.** The mutation controls make this precise: if `d_1`
+is allowed to float upward (violating the razor bracket) the cap *does* drop to 3
+and excludes. So the compiler needs a direction code whose minimum weight is well
+above the MDS floor — and the razor bracket forbids exactly that, because four
+codewords mutually agreeing in `≥ 3n/4 - 1` places force their differences to sit
+at minimum or near-minimum weight. **The configuration that would let the compiler
+bite is the one the agreement budget rules out.**
+
+**Consequences.**
+1. The Convergence Ledger's **S3 promotion test can never fire**; H1 is
+   **permanently** ev-wired, not merely ev-wired for now.
+2. This node's purpose is discharged. It asked for a transport; the answer is that
+   no transport helps. It should be **retired to a route fence** rather than
+   carried as an open TARGET — *surfaced, not decided unilaterally.*
+3. The ledger's burn-down loses one of its two claimed red-movers. H1 was counted
+   as leverage on `rate_half_list_adjacent_crossing`; it is not.
+
+**Non-claims.** Says nothing about `L_1(3n/4-1)` itself — the `B*=3` obstruction is
+untouched and `rate_half_list_adjacent_crossing` stays TARGET. Only the *compiler
+route to it* is closed. The affine-span cap (8 at `s=3`, 4 at `s=2`) is likewise
+never below 4, so neither GF compiler bites.
