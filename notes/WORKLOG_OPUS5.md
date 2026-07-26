@@ -1021,3 +1021,33 @@ Bearing on the census: `201 PROVED` includes 82 nodes with an absent proof artif
 unrecoverable legacy ref count as PROVED on the critical surface? "No" moves many
 nodes and changes the census materially; "yes" needs a recorded justification,
 because the present position is undocumented rather than decided.
+
+**Session 7m — the false green located and pinned.**
+
+The refs check in `verify_prize_dag.py` **deliberately skips** non-in-tree pointers:
+
+```python
+continue  # legacy fork pointer (vendored history), recorded in the node folder
+```
+
+**That justification is never tested, and it is false at scale.** Measuring nodes
+with an unresolvable legacy ref whose folder holds under 1.5 KB of artifact:
+
+```text
+329 nodes have a skipped, unresolvable, non-in-tree ref
+197 of them have a HOLLOW node folder -- many hold nothing at all
+    PROVED 113 | TARGET 30 | PROVABLE 22 | CONJECTURE 10 |
+    REFUTED 10 | CONDITIONAL 6 | WALL 6
+```
+
+So `PASS: structure, refs, ...` was green while 197 nodes were skipped on an
+assumption that does not hold for them. Two pinned guards now track it (hollow refs
+at 197, empty PROVED statements at 37); both mutation-tested by lowering the pin.
+Neither errors on the current tree — fixing the content is the planner's call — but
+neither set can grow silently again.
+
+### Standing position after the audit chain
+Codex demoted one node; following it produced, in order: independent confirmation
+from our own notes → 37 empty PROVED statements → 82 dangling proof refs on the
+critical surface → the legacy tree proved unrecoverable → 197 nodes skipped by the
+validator on a false premise. **No status changed** — all of it is the planner's.

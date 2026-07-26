@@ -154,6 +154,47 @@ def main() -> None:
     # or checked against upstream. Fixing all 37 is a content job for the planner;
     # this pin stops the count GROWING silently. Lower it as statements are written;
     # never raise it to get green.
+    # HOLLOW LEGACY-REF GUARD (2026-07-27). The refs check above deliberately SKIPS
+    # non-in-tree pointers, justified by the comment "recorded in the node folder".
+    # That justification is never tested, and it is false for 197 nodes (113 PROVED)
+    # whose folder holds under 1.5 KB of artifact -- many hold nothing at all. The
+    # legacy proof_sketch/ tree is not recoverable from the working tree, git
+    # history, any sibling directory, the Codex branches, or the public mirror, so
+    # those nodes cannot be re-checked here. Fixing that is a content decision for
+    # the planner; this pin stops the set GROWING silently. Lower it as artifacts
+    # are written or refs repaired; never raise it to get green.
+    _HOLLOW_REF_PIN = 197
+    _IN_TREE = ("nodes/", "critical/", "background/", "tools/", "orbit/")
+
+    def _artifact_bytes(_id):
+        for _t in ("critical", "background"):
+            _b = os.path.join(_root_dir0, _t, "nodes", _id)
+            if not os.path.isdir(_b):
+                continue
+            _tot = 0
+            for _r, _, _fs in os.walk(_b):
+                for _f in _fs:
+                    if _f.endswith((".md", ".py", ".json")):
+                        _tot += os.path.getsize(os.path.join(_r, _f))
+            return _tot
+        return 0
+
+    _root_dir0 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+    _hollow = []
+    for _n in data["nodes"]:
+        for _ref in _n.get("refs", []):
+            _pp = _ref.split("#")[0]
+            if not _pp.startswith(_IN_TREE) and not os.path.exists(_pp):
+                if _artifact_bytes(_n["id"]) < 1500:
+                    _hollow.append(_n["id"])
+                break
+    if len(_hollow) > _HOLLOW_REF_PIN:
+        errors.append(
+            f"nodes with an unresolvable legacy ref AND a hollow node folder grew to "
+            f"{len(_hollow)} (pin {_HOLLOW_REF_PIN}) — the refs check skips these on "
+            "the assumption they are 'recorded in the node folder', which is false "
+            "for them; write the artifact or repair the ref")
+
     _EMPTY_STMT_PIN = 37
     _empty_stmt = [i for i in sorted(crit)
                    if nodes[i]["status"] == "PROVED"
