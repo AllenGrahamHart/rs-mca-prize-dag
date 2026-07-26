@@ -309,3 +309,72 @@ live red-movers plus the largest blockers from the propagation analysis:
 throughout, no PR opened.
 
 **Session ended on context budget**, per the brief's three permitted reasons.
+
+---
+
+## 2026-07-26 — session 4 (short): why no TARGET is locally closable
+
+**CENSUS LINE:** `math=260(201/36/23)` — unchanged.
+
+Went after the 23 TARGETs directly, starting with the highest-cascade block: the
+ten `dli_wcl_slot_*` emptiness leaves, of which ten block `dli_wcl_zone_coverage`
+simultaneously. Determination, from
+`critical/nodes/dli_wcl_zone_coverage/official_terminal_attack.md` (2026-07-22
+Burnside sizing ledger, 3/3 calibration anchors exact):
+
+| slot | census | cost | verdict |
+|---|---:|---|---|
+| (1,5) | 2,296,920 | **445 CPU-h, 46.44% banked** → ~238 CPU-h left | cheapest open cell in the whole board |
+| (1,6) | 185,569,028 | ≥36k CPU-h (~$6.6k) | marginal |
+| (1,7) / (1,8) | 1.30e10 / 8.06e11 | 289 CPU-y / hopeless | need new algebra |
+| (2,7) | router 94,652,815 | 33k CPU-h | live only after the GMP-gcd swap + k=5 router soundness |
+| (2,8) / (2,9) | 1.86e10 / 3.08e12 | 6.4M / 1.07e9 CPU-h | need new algebra |
+| (4,9)/(4,10)/(4,11) | 8.07e17 / 1.64e20 / 3.01e22 | infeasible at any rate | DESCENT-ONLY |
+
+These are **zero-event obligations quantified over every official row**
+(`q < 2^256`, `v_2(q-1) >= 41`), so they are not finite sweeps that a clever
+enumeration closes — they are closed the way (2,5) and (2,6) were: a structural
+router, then cyclotomic norm gcds, then full factorization, then the check
+`max v_2(p-1) < 41`. Each weight needed **its own new router**; that is the
+mathematical content, and it does not transfer from w=6 to w=7 for free.
+
+**The obvious speedup is explicitly unsound and the node says so.** Filtering
+candidates by the progression `p == 1 mod 512` (or `mod 2^41`) to avoid full
+factoring is barred by the recorded CENSUS-SOUNDNESS CATCH: prime factors of these
+norms are *not* all `== 1 mod n`, because roots may live in extensions (witnessed:
+31 divides an order-64 norm). Full or certified-partial factoring only. So the
+per-candidate cost is not compressible by that route.
+
+**Conclusion.** The cheapest remaining unit of the entire board needs ~238 CPU-h.
+That is far beyond `ramguard local` (1G / 5 min) and far beyond Decision-5's Modal
+TIME RULE (route-deciding, total wall-time < 5 min). Under the node's own compute
+custody rule (CR-003): *"Runs at or above the local time/cost policy are
+contributor requests for an upstream PR, not local Modal jobs."*
+
+Combined with session 3's C3-3 result, the endgame assessment is now exact:
+
+> **The remaining board is 23 units, and every one of them is gated on either
+> (a) contributor-scale compute the worker cannot authorize, or (b) new algebra.**
+
+There is no remaining task in this lane that is both census-moving and inside the
+worker's compute authority. **This session ends blocked on user input** — the
+second of the brief's three permitted reasons — with one concrete decision owed
+(below). It does not end with a claim of completion.
+
+### Decision owed to the user
+
+1. **Authorize the (1,5) finish** as a contributor-scale compute request (~238
+   CPU-h, the cheapest TARGET closure available, 46.44% already banked) — logged
+   in `notes/PRIZE_COMPUTE_REQUESTS.md` under CR-003 per the custody rule; or
+2. **Redirect to new algebra** on a descent-only / new-algebra cell — (4,10)/(4,11)
+   descent statements + Delta certificates, or the (2,7) k=5 router soundness,
+   neither of which needs compute authorization; or
+3. **Redirect off the dli lane** to another of the 23 (F2 summit,
+   `rate_half_band_closure`, `l1_mixed_petal_amplification`,
+   `rate_half_list_adjacent_crossing`), accepting that those are multi-session
+   research grinds with no compute shortcut either.
+
+Recommendation: **(2)**, specifically the (2,7) router-soundness item — it is the
+only piece of work on the board that is inside worker authority, unblocks a
+33k-CPU-h census rather than consuming it, and needs no money or maintainer
+surface.
