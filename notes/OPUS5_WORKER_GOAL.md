@@ -86,14 +86,24 @@ rebuild; the WCL cost table; the router-soundness lemma (general `k`); E-1.
 1. **E-2 Proth-row replay audit** → upstream PR. Precondition: refresh the stale
    crosswalk pins (9262f63c-era labels → v4 labels at the current pin). Their
    theorem; we confirm and close nothing. The deliberate down-payment on O-2.
-2. **s=2 equality case** — classify configurations attaining `T*d = n` with root
-   sets partitioning a `mu_{2^41}`-coset. Four routes already fenced with reasons
-   (composition/divisibility, log-derivative, symmetric realization, counting/MI2
-   — the last is *saturated*, not violated). **Do not re-walk them.** Codex is also
-   on this node; harvest before duplicating.
+2. ~~**s=2 equality case / the bridge**~~ **ANSWERED NEGATIVELY 2026-07-26.** The
+   rank-flat compiler can NEVER exclude four codewords at this row: `s=2` gives cap
+   `4` at the pinned `d_2`, and `s=3` has minimum cap `6` over the entire admissible
+   region. So no chamber transport helps, the S3 promotion test can never fire, and
+   **H1 is permanently ev-wired — the ledger's burn-down loses one of its two claimed
+   red-movers.** Structural reason: the compiler needs `d_1` well above the MDS
+   floor, and the razor bracket pins `d_1 in {R+1,R+2}` precisely because four
+   codewords agreeing in `>= 3n/4-1` places force minimum-weight differences.
+   *Node retirement to a route fence is surfaced to the user, not decided here.*
 3. **M-1 strict A=3 endpoint** — the RNC/split interaction in the transposed form.
    Norm/parity routes fenced.
-4. **(4,10)/(4,11) descent statements + Delta certificates** — the descent-only lane.
+4. **(4,11) THEN (4,10) descent statements + Delta certificates** — order matters,
+   and it is the reverse of the numeric order. Parity dichotomy (2026-07-26): the
+   (4,9) global-dilation normalisation needs `w` invertible mod `N_ell = 512*ell`, a
+   2-power, hence `w` **odd**. `(4,11)` is odd so (4,9)'s machinery transfers
+   verbatim; `(4,10)` is even and carries an index-2 obstruction needing a new
+   sub-tuple router first (the pattern of the closed (2,5)/(2,6) routers). Same
+   dichotomy makes `(1,8)`/`(2,8)` index-**8** and structurally the hardest cells.
 5. **X-1 scoped identification certificates**; then M-2..M-4, H2..H7, E-3..E-6.
 
 **Standing:** per-session upstream-delta sweep and Codex harvest; watch triage of

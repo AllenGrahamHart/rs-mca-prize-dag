@@ -721,3 +721,48 @@ concluding it was their defect — it was mine.
 ### Next
 PR cap reached (2 open). Back to mathematics: the chamber → `(d_1,d_2,d_3)`
 transport, now needing a two-sided interval for `d_3`, not a floor.
+
+**Session 7c — the bridge answered, and a route-selection theorem for the descent lane.**
+
+| | |
+|---|---|
+| theorems banked | 2: compiler-cannot-bite; the descent parity dichotomy |
+| residual narrowed | bridge **closed as a negative**; descent lane **re-ordered** |
+| upstream PRs | #1107, #1108 open (at cap) |
+| census (datum) | `260 = 201/36/23` |
+
+**1. The bridge is ANSWERED — negatively, as predicted at mint time.** The
+rank-flat compiler can never exclude four codewords at this row: `s=2` gives cap
+exactly `4` at the pinned `d_2` (both `z`, both `d_1`), and `s=3` has minimum cap
+`6` over the *entire* admissible region. `b=0` is already the compiler's best case
+and `d_1` is pinned at the bottom, so no freedom remains for a transport to exploit.
+
+The structural reason is the satisfying part, and the mutation controls pinned it:
+if `d_1` may float above the MDS floor the cap **does** drop to 3 and excludes. But
+four codewords agreeing in `>= 3n/4-1` places force their differences to
+minimum-or-near-minimum weight, which is exactly `d_1 in {R+1,R+2}`. **The
+configuration that would let the compiler bite is the one the agreement budget
+forbids.** That is why every route bounced off it.
+
+Consequence: **H1 is permanently ev-wired and the ledger's burn-down loses one of
+its two claimed red-movers.** Better known than carried as promising. Node
+retirement surfaced, not decided.
+
+**2. Descent parity dichotomy — cheap, and it re-orders the lane.** The (4,9)
+global dilation `lambda = a_w^{-(w^{-1} mod N)}` needs `w` invertible mod
+`N_ell = 512*ell`, a 2-power — i.e. `w` **odd**.
+
+```text
+odd  (1,5)(1,7)(2,7)(2,9)(4,9)(4,11)  -> (4,9) normalisation transfers verbatim
+even (1,6)(4,10) index 2;  (1,8)(2,8) index 8  -> global normalisation unavailable
+```
+
+So **(4,11) before (4,10)** — the reverse of the printed residual order — and
+`(1,8)`/`(2,8)` are structurally the hardest cells at index 8, which explains the
+sizing ledger's "new algebra, not compute" for exactly those two. The workaround for
+even weight is already exhibited: the closed `(2,5)`/`(2,6)` used **sub-tuple**
+normalisation, which never needs `w` invertible.
+
+### Next
+`(4,11)` descent statement, porting the (4,9) quartic-divisor machinery now that
+parity says it transfers.
