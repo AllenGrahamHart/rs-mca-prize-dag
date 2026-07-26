@@ -2779,3 +2779,29 @@ compute spend: none; exact integers and bounded local replay only
 next route-deciding action: direct E1/value-set control on the pair-feasible
                               generated-field class, or a new explicit V line
 ```
+
+**2026-07-27, pair-feasible E1 field axis closed:** the strict official field
+cap and the exact six thresholds imply that every pair-feasible quotient root
+set generates the ambient field. This removes extension transfer from the live
+E1 collision target while preserving the unresolved proper-subfield branches
+with the universal router.
+
+Cycle burn-down:
+
+```text
+starting pin: local 03de7042; canonical dd4ef328;
+              upstream origin/main b13de811
+ending proof pin: local e169a43f; canonical/upstream unchanged
+node attacked: e1_official_prime_exception_control, field-normalization axis
+result: CLOSED AS ROUTE REDUCTION; exact collision-pair target remains OPEN
+DAG delta: +1 off-orbit PROVED node, +1 req edge, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24
+upstream terminal delta: none; finite route reduction is ours-only
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; 1,199 bounded tower checks plus exact thresholds
+next route-deciding action: exploit ambient generation in the norm-divisor or
+                              sparse-kernel collision count, seeking a theorem
+                              or an exact pair-feasible counterexample
+```
