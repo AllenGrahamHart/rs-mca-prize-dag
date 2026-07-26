@@ -4617,3 +4617,65 @@ unconditional post-Johnson UPPER bound on a declared family —
 genuinely new mathematics, not a current asset of ours or
 holmbuar's. The race question is CLOSED: nothing of ours is being
 scooped; our theorem became the lane's foundation.
+
+## 183 — 2026-07-24: CONVERGENCE LEDGER r1 BANKED (notes/
+## convergence_ledger_20260724/) — the co-finish program: export
+## pipeline E-1..E-6 + X-1/X-2, conditional offers O-1/O-2, mining
+## lines M-1..M-4, harvest H-1..H-7 w/ ev->req promotion tests,
+## JOINT_CROSSWALK spec, phased Lean plan, R1-R7 risk register
+
+11-agent workflow (5 inventories -> 2 plans -> adversarial
+fact-check [1 FATAL caught: the rate-1/4 adjacent family is
+already printed in wider generality by his thm:quadratic/
+cor:target/thm:official — struck; 6 material corrections] ->
+critic -> synthesis). HEADLINES: (1) EXPORT NOW: E-1 literal
+corridor prime (his printed TODO, B*-exact mint + Pocklington +
+6 corridor replays; carries the Lean pilot; scoop-exposed = front
+of queue); E-2 Proth-row replay audit (his submission-package item
+(3) verbatim; the O-2 down-payment); E-3 WCL first-installment
+theorems via the REGISTER channel (no triage cost; preconditions
+stand); E-4 the rate-half remnant re-cut as CONCORDANCE w/
+mandatory subtraction table; E-5 L1 m=4,h=3 emptiness; E-6 clause-
+(P) (heaviest fences, last); X-1 the identification certificates
+(scoped EXACTLY: F2<->U_Q zero-prefix j<char q; L1<->locator-Q at
+e=0 — "until this lands he does not know the walls are shared");
+X-2 the balance-line pincer ledger (the complementarity IS the
+export + partial-credit insurance). (2) CONDITIONAL OFFERS: O-1
+the C36 conditional proposition (his accept/reject record proves
+the contract shape); O-2 dossier co-ownership raised at the E-1
+landing (we = the independent adversarial replay lane). (3) MINING:
+M-1 TOP the {2^39,2^39+1} seam (pre-armed Hankel split-pencil
+bound, one session, genuinely beyond thm:official); M-2 engineered-
+prime censuses; M-3 U2 vs his firstocc kernels; M-4 NEW: band-
+restrict his packing overhead through the pincer (nobody has
+tried; exploratory). STANDING RULE: every mint runs the
+subtraction check vs v4 first. (4) HARVEST: H1 TOP affine-span/
+fixed-union list compilers -> the 13-chamber bottleneck (S3
+pencil-cap check against each chamber; ANY chamber kill =
+maintainer-surface); H3 the Danny ev-fan; H5 the GF Sidon chain
+w/ his own shallow-range remark printed in-node; 5 same-day fence
+notes (R1-R5 incl. the F2 moment-order floor w/ tau=1 scope);
+EVERY ev-wire names its ev->req promotion test. (5) JOINT GRAPH:
+JOINT_CROSSWALK.json spec (relation grades IDENTICAL-at-scope/
+OVERLAP/ANALOGY_ONLY w/ validator; upstream delivery gated on
+maintainer + his opt-in); coverage checklists both directions
+("no route — reason" never silence); assumption_dedup for the 38
+conditionals; ownership split (we: the 12-leaf dli block, the F3
+pair, band_closure's beyond-2^167 frontier; he: (A),(E),K1,K5,
+M31 Lane-L; JOINT double-key: F2, L1, (S)<->XR, list-completion,
+dossier); the endgame sentence honestly conditioned on extending
+the zero-prefix chain to the pruned K2 atom. (6) LEAN: pilot =
+Pocklington/Proth certs + endpoint conversion (his genres iii/iv)
+riding E-1/E-2; readiness audit 127 verifier-backed vs 86 prose;
+conventions note agreed BEFORE volume; phase-2 co-sign gated on
+his opt-in. (7) GOVERNANCE: pacing ratification = the first
+outbound note; 10-day stall rule; R7 SELF-KILL (2 cycles zero
+joint-bracket-bits => revert to grind). (8) THE WALLS: X-1 makes
+Wall 1 jointly attackable (+ the DSP8 Sidon-strip harness as the
+C3-9 trigger); Wall 2 ledgered + mined once (M-4) + explicitly
+deferred — "at rate-1/2 finish-together is impossible until
+something closes the 4.73-4.83-bit deficit." NOTE: the ledger
+reconciles the orbit count to 275 = 213/38/24 (supersedes the
+tool's 201/36/23 display — re-count before packaging). Baseline
+discrepancy + crosswalk implementation await maintainer go
+(the alias-field + JOINT_CROSSWALK build was proposed in-session).
