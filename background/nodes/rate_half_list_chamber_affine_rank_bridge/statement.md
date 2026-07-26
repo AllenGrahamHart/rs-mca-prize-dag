@@ -375,3 +375,36 @@ of 3**, so `6 | n` fails and that realization is unavailable. The open question 
 whether an asymmetric `Lambda` can do it: does a degree-`d` map exist carrying a
 multiplicative coset of 2-power order onto six points? A negative answer excludes
 `s = 2` outright and forces `s = 3`, completing half the bridge.
+
+### The composition obstruction (2026-07-26) — where the `s=2` exclusion should come from
+
+Write `F(u,v) = prod_i (u - lambda_i v)` (a binary sextic with distinct roots) and
+`rho(t) = F(t,1)`, a degree-6 polynomial map. Then
+
+```text
+F(A(X),B(X)) = B(X)^6 * rho(psi(X)),        psi = A/B,
+```
+
+so the six-fiber identity says the composite `theta = rho o psi`, of degree `~6d`,
+has `theta^{-1}(0) = D` up to at most 8 points, every point simple. **`theta`
+factors through a degree-6 map.**
+
+The natural map with that fiber is `theta_0(X) = X^n - c`, whose fiber over `0` is
+exactly `D`, all simple. If `theta` were literally `theta_0`, the obstruction is
+immediate: `rho` is totally ramified over `infinity` with index 6, so every
+multiplicity in `theta^{-1}(infinity)` is divisible by 6, while
+`theta_0^{-1}(infinity) = {infinity}` with multiplicity `n = 2^41` — and
+**`6 does not divide 2^41`**, since `3 ∤ 2^41`. Contradiction.
+
+**The gap.** `theta` is not literally `theta_0`: the identity only gives
+`theta = c' W (X^n - c) / E` with `deg W <= 6`, `deg E <= 8`. Degrees are
+consistent (`6d = n-2` at `z = 733,007,751,850`, `6d = n+4` at
+`z = 733,007,751,849`, both reachable with the allowed `W`, `E`), so the
+divisibility contradiction does not apply verbatim. Closing `s=2` reduces to:
+
+> show that no degree-`<=8` / degree-`<=6` correction can repair the
+> `6 ∤ 2^41` mismatch — i.e. that `theta`'s fibre multiplicities over the
+> `rho`-critical values remain incompatible with those of `W (X^n-c) / E`.
+
+That is a bounded, purely local question at finitely many points, and it is the
+recommended next step for this node.
