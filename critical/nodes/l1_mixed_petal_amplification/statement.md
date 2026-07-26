@@ -1192,6 +1192,15 @@ coefficients force `s=1` or `s=-m`, contradicting `s notin F_p`. Combined
 with the same theorem's constant case, the live order-zero color degrees
 begin at two. No higher degree or endpoint is closed.
 
+At the first live degree,
+`l1_mersenne_hnf_order_zero_quadratic_collision_router` controls repeated
+colors. Two repeated colors force the quadratic collision center to zero;
+otherwise Frobenius would be an affine identity or reflection, and both are
+excluded. On all four `m=8,h=7` rows, two antipodal pairs are also impossible,
+so seven locator roots use at least six distinct colors. On the
+`m=16,h=15` row, a quadratic with multiple repeats must be even. The
+collision-free, single-collision, and `m=16` even chambers remain open.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

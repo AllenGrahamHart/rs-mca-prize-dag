@@ -2172,3 +2172,17 @@ starts at `deg E=2`. This is `NARROWED`, not a status flip: the higher color
 degrees, the order-one chamber, actual
 cyclotomic divisibility, and the inner lift remain open. No Modal job or new
 compute request was used.
+
+**2026-07-26, L1 quadratic color-collision router:** the next order-zero
+degree is now structurally split without a generic saturation. If a quadratic
+color interpolant repeats two colors, Frobenius forces either a zero collision
+center or an affine transport of the truncated-binomial locator. Its weighted
+derivative identity permits only identity and reflection; identity violates
+`s notin F_p`, while reflection forces
+`P_s | [W(1-W)]^m-1`, whose exact top remainder coefficient again puts `s`
+in `F_p`. Thus every multiple-repeat quadratic is even. On the four
+`m=8,h=7` rows, an exact even/odd pseudo-remainder also forbids two antipodal
+pairs, so a quadratic candidate has at most one repeated color. The
+`m=16,h=15` even multi-collision branch and the collision-free/single-repeat
+systems stay open. Result: `NARROWED`, no critical status or endpoint change,
+no Modal use, and no new compute request.

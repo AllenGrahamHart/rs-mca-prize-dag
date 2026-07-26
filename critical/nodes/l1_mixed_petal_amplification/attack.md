@@ -586,6 +586,12 @@
   linear colored-interpolant strata are empty, so start the order-zero
   degree split at `deg E=2`. Do not rerun a generic saturation that includes
   either deleted stratum.
+  At `deg E=2`, consume
+  `l1_mersenne_hnf_order_zero_quadratic_collision_router`. On an `m=8` row,
+  shard only into collision-free and exactly-one-repeated-color systems. On
+  the `m=16` row, those two systems remain, and every multiple-repeat system
+  must use an even interpolant. Do not retain a nonzero-center
+  multiple-collision chamber or a two-antipodal-pair `m=8` chamber.
   For the order-one chamber, first consume
   `l1_mersenne_hnf_order_one_frobenius_gate`. Put `d=c-1` and shard only by
   `zeta=d^(p+1) in mu_m`; then `c^p=1+zeta/d`. Combine the hypergeometric

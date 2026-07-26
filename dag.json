@@ -15994,6 +15994,25 @@
     "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/verify.py",
     "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/verify_audit.py"
    ]
+  },
+  {
+   "id": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
+   "title": "L1 Mersenne HNF order-zero quadratic collision router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "A quadratic order-zero colored Frobenius interpolant with two repeated colors must be even. On every m=8,h=7 endpoint row it has at most one repeated color, so its seven roots use at least six distinct colors. The collision-free, single-collision, and m=16 even branches remain open.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/result.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/verify.py",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -30459,6 +30478,16 @@
   },
   {
    "from": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }
