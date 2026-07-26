@@ -211,6 +211,15 @@
   pointwise shell hypothesis. Intercept six is only an arithmetic floor, not
   a theorem, and this witness has no received-word or slope projection; do
   not use it as an L1 counterexample.
+- The independently reconstructed
+  `l1_m31_depth32_uniform_intercept_counterexample` further refutes the
+  proposed uniform in-band cap `1233`: one explicit anchor has
+  `d_192>=1225+12=1237`. Thus a band-wide coefficient-four scalar route must
+  use intercept at least `1237`, not merely repair the deficiency-64 floor.
+  The recalibrated arithmetic still leaves reserve `1767799`, so this kills
+  the printed cap rather than the entire route. No upper bound of `1237` is
+  known, and the support packet still lacks received-word and first-match
+  projection.
 - Use `l1_m31_semantic_owner_profile_regression` as the positive regression
   for the required repair mechanism. On one complete `F_241` received-line
   fixture, two genuine common-GCD/pencil owner slopes remove exactly two of

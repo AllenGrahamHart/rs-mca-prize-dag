@@ -1867,6 +1867,16 @@ with margin `18295`. It does not prove deployed owner exhaustivity, an
 all-residual theorem, a row payment, or any KoalaBear MCA cell. None of these
 open PR imports closes a local red.
 
+**Track-C upstream event, M31 depth-32 counterexample (#1102).** The explicit
+packet is independently reconstructed in
+`l1_m31_depth32_uniform_intercept_counterexample`: `1225` whole-`T_64`
+triple exchanges and twelve mixed `T_16` exchanges give one anchor with
+`d_192>=1237`, refuting the proposed uniform in-band cap `1233`. This does
+not kill the coefficient-four route: substituting intercept `1237` leaves
+reserve `1767799`. It does rule out treating the former cap as a proved
+flatness input. No replacement upper bound, received-word realization,
+first-match survival, row payment, or `2^-128` Prize statement is imported.
+
 **Track-C upstream event, Lane-L draft PR #1051.** The proved local
 `rate_half_cyclic_rotated_prefix_floor` now has a direct consumer in
 Przemek's post-Johnson ordinary-list lane. The exported packet prints the

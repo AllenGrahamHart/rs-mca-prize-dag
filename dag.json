@@ -14526,6 +14526,28 @@
    ]
   },
   {
+   "id": "l1_m31_depth32_uniform_intercept_counterexample",
+   "title": "M31 depth-32 uniform intercept 1233 counterexample",
+   "status": "PROVED",
+   "closure": "explicit construction plus two independent exact finite-field replays",
+   "statement": "On the pinned auxiliary Mersenne-31 c=2048, (u,v)=(0,1) quotient profile, one explicit 479-support anchor has at least 1237 distinct same-depth-32-prefix neighbors at deficiency 192: 1225 whole-T64 triple exchanges and 12 mixed T16 exchanges. Since 33<=192<=213, the uniform in-band cap d_e(A)<=1233 is false. This independently reconstructs draft upstream PR #1102 at support level. It proves no replacement upper bound, received-word realization, first-match survival, row payment, endpoint movement, or 2^-128 Prize-row statement.",
+   "refs": [
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/statement.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/proof.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/claim_contract.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/dependency_subdag.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/audit.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/result.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/upstream_crosswalk.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/verify.py",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "M31 depth-32 shell counterexample / draft PR #1102",
+    "relation": "IDENTICAL"
+   }
+  },
+  {
    "id": "rate_half_kb_v4_tangent_source_atom",
    "title": "KoalaBear v4 tangent-source atom",
    "status": "PROVED",
@@ -29198,6 +29220,11 @@
   },
   {
    "from": "l1_m31_t64_quotient_prefix_intercept_fence",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_depth32_uniform_intercept_counterexample",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

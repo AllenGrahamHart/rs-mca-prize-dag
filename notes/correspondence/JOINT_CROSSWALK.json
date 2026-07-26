@@ -52,6 +52,29 @@
    }
   },
   {
+   "our_node": "l1_m31_depth32_uniform_intercept_counterexample",
+   "his_object": {
+    "label": "M31 depth-32 shell counterexample / draft PR #1102",
+    "file": "experimental/notes/thresholds/m31_flatness_champion_refutation.md",
+    "line": "d_192(A)>=1237"
+   },
+   "relation": "IDENTICAL",
+   "chain": "independent local label, locator, and 1237-support reconstruction",
+   "scope": "pinned c=2048, (u,v)=(0,1) auxiliary M31 support profile only",
+   "owner": "HIM",
+   "nonclaims": [
+    "no replacement upper bound or band closure",
+    "no received-word, first-match, U_Q, row, or 2^-128 Prize claim"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "draft PR #1102",
+   "lean": null,
+   "provenance": {
+    "our_sha": "cb8f25d8",
+    "his_sha": "0dee24ec"
+   }
+  },
+  {
    "our_node": "rate_half_cyclic_rotated_prefix_floor",
    "his_object": {
     "label": "integrated cyclic quotient-rotation list floor (co-authored)",

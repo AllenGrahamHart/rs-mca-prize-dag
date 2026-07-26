@@ -87,7 +87,7 @@ Contract (binding, from his accept/reject record — #1084/#1081 rejected, #1054
 House law: independent reconstruction + exact-integer replay before any vendored supplier reads PROVED. Every surgery = node ops + one UPSTREAM_IMPORT_LEDGER row with immutable provenance + nonclaims. **Every ev-wire below names its ev→req promotion test** (the C3 defect fix — without one, harvests decorate reds forever).
 
 **Same-day fence notes (S1, forced-corrections territory, no status changes):**
-- **R1** shell-counterexample scope note on `l1_m31_t64_quotient_prefix_intercept_fence` — kills nothing of ours; **replay the 1233 rooted-degree concordance first**; records the open ragged sector.
+- **R1 (EXECUTED 2026-07-26)** depth-32 shell counterexample imported as `l1_m31_depth32_uniform_intercept_counterexample`. Two independent local algorithms reconstruct all quotient labels and the explicit `1225+12=1237` support packet, so the uniform in-band cap `1233` is false at deficiency `192`. The local L1 route is recalibrated, not closed or killed: intercept at least `1237` still leaves `1767799` arithmetic reserve, but no replacement upper bound, received-word realization, or first-match projection is proved.
 - **R2** ten-minute audit that no petal/imgfib note assumes the refuted half-slice flatness; bank the audit line.
 - **R3** moment-blindness (orders ≤ 990/991) as route-cut citation in `u2_per_row_certifier` — advisory only.
 - **R4** Q-moment order floor (≥ 641,593) onto `f2_growing_order_myerson` — **with the τ=1 hypothesis and the three named escapes verbatim in the fence text**; registered on the F2 ladder as "route-cut for fixed raw moments at full mass" only; **the ladder change is surfaced, not silent**.
