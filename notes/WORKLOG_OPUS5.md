@@ -1000,3 +1000,24 @@ the proved critical surface is unauditable in-tree.
 it be vendored in? (2) until then, should a node whose only artifact is a dangling
 legacy ref count as PROVED on the critical surface? The `unsafe_at_crossing`
 adjudication turns on this.
+
+**Session 7l — planner question (1) resolved: the legacy tree is unrecoverable.**
+
+Searched the prize working tree, its full `--all` git history, every sibling
+directory, Codex v8/v9/v10, `rs-mca-packets`, `rs-mca-vendor`, and the public mirror
+`AllenGrahamHart/rs-mca-prize-dag` (including a code search for `s2_paid_ledger`,
+0 hits). **No `proof_sketch/` anywhere.**
+
+So the 82 PROVED nodes citing those artifacts reference proofs that cannot be
+produced, re-checked, audited or Lean-formalized from anything accessible. This does
+**not** mean they are wrong — the proofs may have existed and been checked when the
+refs were written — but they are **unverifiable now**, while `verify_prize_dag.py`
+reports `refs PASS`.
+
+Bearing on the census: `201 PROVED` includes 82 nodes with an absent proof artifact,
+37 of which also have an empty statement.
+
+**Live decision for the planner:** should a node whose only artifact is an
+unrecoverable legacy ref count as PROVED on the critical surface? "No" moves many
+nodes and changes the census materially; "yes" needs a recorded justification,
+because the present position is undocumented rather than decided.

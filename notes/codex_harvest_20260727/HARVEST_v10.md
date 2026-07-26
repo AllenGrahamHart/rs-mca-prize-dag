@@ -148,3 +148,37 @@ surface cannot be audited here at all.
 recoverable and should it be vendored in, and (2) until it is, should nodes whose
 only artifact is a dangling legacy ref be treated as PROVED on the critical surface?
 The `unsafe_at_crossing` adjudication depends on the answer.
+
+## Planner question (1) RESOLVED: the legacy tree is NOT recoverable
+
+Searched exhaustively:
+
+```text
+prize/ working tree ................... no proof_sketch/
+prize/ git history, --all branches .... no proof_sketch/ ever committed
+sibling directories (all) ............. none contain proof_sketch/
+Codex branches v8, v9, v10 ............ none
+rs-mca-packets, rs-mca-vendor ......... none
+find . -name "s2_paid_ledger*" ........ nothing
+mirror AllenGrahamHart/rs-mca-prize-dag  no proof_sketch/; code search
+                                         for "s2_paid_ledger" returns 0 hits
+```
+
+**The legacy `proof_sketch/` artifacts are not recoverable from any accessible
+source.** So the 82 PROVED nodes citing them reference proofs that cannot be
+produced, re-checked, audited, or Lean-formalized from anything we have.
+
+**What this does and does not mean.** It does *not* mean those nodes are wrong —
+the proofs may well have existed and been checked when the refs were written. It
+means they are **unverifiable now**, and that `verify_prize_dag.py` reports
+`refs PASS` while 109 nodes point at nothing.
+
+That is the honest state of the proved critical surface, and it bears directly on
+what the census line means: `201 PROVED` counts 82 nodes whose proof artifact is
+absent, of which 37 also have an empty statement.
+
+**Planner question (2) is therefore the live one:** should a node whose only
+artifact is an unrecoverable legacy ref count as PROVED on the critical surface? A
+"no" would move a large number of nodes and change the census materially. A "yes"
+needs a recorded justification, because the current position is undocumented rather
+than decided.
