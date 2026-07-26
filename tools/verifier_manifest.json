@@ -2561,6 +2561,7 @@
     "critical/nodes/xr_tangent_support_mismatch_bridge/verify.py": "07dfb8a63b30556d9c3e267608d2a40e327c4389d17837a73c85c107a2ad93e0",
     "critical/nodes/xr_true_tangent_coordinate_injection/verify.py": "4479d19bb84a6c1b5960fc32790b5403e3c5b9a938376ff0034785b895323307",
     "tools/verify_auto_discharge_paths.py": "44dafcc08de6c434d9ccd2e5faf2bb8827db1ba89af2a6e01e14a58e7596d710",
+    "tools/verify_conditional_propagation.py": "ca587f33ab34fe887a91b3d18e7b19817a260b0d2f9bc603d65867b48884a287",
     "tools/verify_critical_harness_coverage.py": "0870f6a0e0b1071eb769206380cc803a4be1226774517e94e26be8706eed0e7c",
     "tools/verify_crosswalk.py": "d2b01b96df8a9bb1cb6372cc0264c1c797803d5caf0b9eb29c1ee606e153f9b2",
     "tools/verify_list_corridor_ledger.py": "8d29b7d3a1dc81873fd12dea5df5339f41527aa19bc1903d92da268ef37f49c2",
