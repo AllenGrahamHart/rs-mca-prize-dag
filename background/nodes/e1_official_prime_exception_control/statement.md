@@ -38,9 +38,10 @@ proves that any surviving collision has raw swap distance
 s>=5 for N=256,       s>=2 for N=512.
 ```
 
-In the first surviving bands, only folded profiles
-`(4,2,0),(3,4,0)` and `(1,2,0),(0,4,0)`, respectively, remain
-unexcluded by that norm argument.
+In the first surviving `N=256` band, only folded profiles
+`(4,2,0),(3,4,0)` remain unexcluded by that norm argument. At
+`N=512,s=2`, `e1_n512_four_singleton_collision_exclusion` removes
+`(0,4,0)`, leaving only `(1,2,0)`.
 
 The actual quotient orders are
 

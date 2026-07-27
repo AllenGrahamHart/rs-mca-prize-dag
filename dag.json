@@ -247,6 +247,24 @@
    "notes": "ROUTE REDUCTION 2026-07-27: replaces the crude L1 norm radius by an exact folded L2 bound. It does not control the surviving collision-pair ledger."
   },
   {
+   "id": "e1_n512_four_singleton_collision_exclusion",
+   "title": "N=512 four-singleton E1 collision exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/statement.md",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/proof.md",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/audit.md",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/result.md",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/source_pin.json",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/verify.py"
+   ],
+   "statement": "At N=512,s=2, a folded profile (a,b,c)=(0,4,0) has four distinct coefficients in {+1,-1}. Its negacyclic autocorrelation variance V is even. If V=0 its cyclotomic norm is the pure power 2^256; if V=2 an exact primitive-power-of-two product gives geometric conjugate-square mean G<19/5; if V>=4 a uniform logarithmic deficit gives G<180/47. In the latter cases |Norm(alpha)|=G^128<2^250, while no odd row prime divides the V=0 norm. Hence this profile cannot collide at any pair-feasible anchor, leaving only (1,2,0) in the first N=512 band.",
+   "notes": "ROUTE REDUCTION 2026-07-27: closes one of the two first-band N=512 profiles by exact norm structure. It does not control profile (1,2,0), later bands, or the total collision-pair ledger."
+  },
+  {
    "id": "identity_prefix_flexible_budget_unsafe_floor",
    "title": "Identity-prefix plus flexible-budget MCA unsafe floor",
    "status": "PROVED",
@@ -5142,10 +5160,10 @@
    "id": "e1_official_prime_exception_control",
    "title": "Direct-E1 route-uniform exceptional-set control",
    "status": "TARGET",
-   "statement": "Uniformly for every admissible clean-anchor row in the independently defined pair-feasible direct-E1 class B=F_p(Q), |B|>=b_pair_min(K,B*)=ceil((K+B*+1)/3), with all field, embedding, owner, and endpoint data pinned, let quotient orders N in {256,512}, K=A_2(N,ell), and P=sum_y binom(r_y,2) count unordered pairs of distinct characteristic-zero classes colliding after reduction. By e1_pair_feasible_prime_field_reduction every such named-anchor row has q=p and p=1 mod N. By e1_prime_field_l2_norm_collision_radius, collisions start at raw swap distance s>=5 for N=256 and s>=2 for N=512. Prove P<=K-B*-1 for B*=floor(|F|/2^128). The formerly printed {128,256} are folded dimensions, not live quotient orders. Finite exhibit certificates do not discharge this route-uniform target.",
+   "statement": "Uniformly for every admissible clean-anchor row in the independently defined pair-feasible direct-E1 class B=F_p(Q), |B|>=b_pair_min(K,B*)=ceil((K+B*+1)/3), with all field, embedding, owner, and endpoint data pinned, let quotient orders N in {256,512}, K=A_2(N,ell), and P=sum_y binom(r_y,2) count unordered pairs of distinct characteristic-zero classes colliding after reduction. By e1_pair_feasible_prime_field_reduction every such named-anchor row has q=p and p=1 mod N. By e1_prime_field_l2_norm_collision_radius, collisions start at raw swap distance s>=5 for N=256 and s>=2 for N=512; e1_n512_four_singleton_collision_exclusion leaves only profile (1,2,0) in the latter first band. Prove P<=K-B*-1 for B*=floor(|F|/2^128). The formerly printed {128,256} are folded dimensions, not live quotient orders. Finite exhibit certificates do not discharge this route-uniform target.",
    "attack_surface": "prove the exact pair-feasible-class incidence bound, construct a pair-feasible row above allowance, or give a complete per-input image/collision certifier theorem",
    "falsifier": "a pair-feasible candidate row with P>K-B*-1; a certifier leaving such a row uncovered; or any base/ambient-field normalization failure",
-   "notes": "EXACT FINITE RE-POSE 2026-07-26, narrowed 2026-07-27: replaces negligible/o(1) language, fixes quotient-order versus folded-dimension notation, proves that the live branch is prime-field, and excludes its first swap-distance bands by a folded L2 norm. Named exhibits remain evidence only, and unsafe_crossing_family_instantiation owns global row routing."
+   "notes": "EXACT FINITE RE-POSE 2026-07-26, narrowed 2026-07-27: replaces negligible/o(1) language, fixes quotient-order versus folded-dimension notation, proves that the live branch is prime-field, excludes its first swap-distance bands by a folded L2 norm, and removes the N=512 four-singleton first-band profile by exact variance. Named exhibits remain evidence only, and unsafe_crossing_family_instantiation owns global row routing."
   },
   {
    "id": "ef_fullfield_bridge",
@@ -17564,6 +17582,16 @@
    "kind": "req"
   },
   {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_n512_four_singleton_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n512_four_singleton_collision_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_ambient_generation",
    "to": "e1_official_prime_exception_control",
    "kind": "ev"
@@ -17590,6 +17618,16 @@
   },
   {
    "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n512_four_singleton_collision_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n512_four_singleton_collision_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

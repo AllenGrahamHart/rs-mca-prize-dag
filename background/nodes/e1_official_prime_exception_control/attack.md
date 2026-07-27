@@ -15,7 +15,9 @@ Do not spend effort on a generated-to-ambient transfer inside this target.
 The exact perfect-power interval reduction further implies `F=F_p` and
 `p=1 mod N`; extension-field candidates are no longer part of this branch.
 The folded `L2` norm radius excludes `s<=4` at `N=256` and `s=1` at
-`N=512`; do not re-enumerate those bands.
+`N=512`; do not re-enumerate those bands. The exact autocorrelation-variance
+argument also excludes the four-singleton profile `(0,4,0)` at
+`N=512,s=2`.
 
 ```text
 P=sum_y binom(r_y,2).
@@ -35,7 +37,7 @@ explicit finite inequality at the row.
    the number of surviving folded vectors. Start at `s=5` for `N=256` and
    `s=2` for `N=512`, and convert every counted object to unordered class
    pairs explicitly. Only profiles `(4,2,0),(3,4,0)` survive in the first
-   `N=256` band, and only `(1,2,0),(0,4,0)` in the first `N=512` band.
+   `N=256` band, and only `(1,2,0)` remains in the first `N=512` band.
 3. A certifier route is legitimate only with proved termination, soundness,
    and coverage for every row in the printed pair-feasible candidate class.
 4. If direct image size can be certified above `B*` without bounding `P`, send

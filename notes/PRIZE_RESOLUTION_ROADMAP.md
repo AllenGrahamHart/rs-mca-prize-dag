@@ -918,6 +918,15 @@ rate `1/16`. The first open bands have only two folded profiles each:
 algebraic band close, not a total collision bound or row payment. See
 `background/nodes/e1_prime_field_l2_norm_collision_radius/`.
 
+N25 DONE, E1 N=512 FOUR-SINGLETON EXCLUSION: for profile `(0,4,0)` at
+`s=2`, the exact negacyclic autocorrelation variance `V` is even. The cases
+`V=0`, `V=2`, and `V>=4` are paid separately by a pure power-of-two norm, an
+exact primitive-power-of-two cyclotomic product, and a uniform logarithmic
+deficit. In every case no odd pair-feasible prime can divide the norm. The
+first `N=512,s=2` band now has one unresolved profile, `(1,2,0)`. This is one
+profile close, not a total pair ledger or row payment. See
+`background/nodes/e1_n512_four_singleton_collision_exclusion/`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable
@@ -2891,4 +2900,28 @@ new assumptions: none
 compute spend: none; 164 profile and 336 toy orthogonality checks
 next route-deciding action: attack profiles (4,2,0),(3,4,0) at N=256 and
                               (1,2,0),(0,4,0) at N=512 by exact norm structure
+```
+
+**2026-07-27, N=512 four-singleton profile closed:** exact negacyclic
+autocorrelation variance separates the low-variance cyclotomic-product cases
+from a global logarithmic norm deficit. No large computation was used.
+
+Cycle burn-down:
+
+```text
+starting pins: local dae9de7b; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: pending commit
+node attacked: e1_official_prime_exception_control, N=512 s=2 profile (0,4,0)
+result: CLOSED for profile (0,4,0); parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25;
+                reproducibility debt unchanged
+upstream terminal delta: none; theorem is ours-only pending crosswalk
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; bounded toy autocorrelation replay only
+next route-deciding action: attack the sole remaining N=512,s=2 profile
+                              (1,2,0) by exact trinomial norm structure
 ```

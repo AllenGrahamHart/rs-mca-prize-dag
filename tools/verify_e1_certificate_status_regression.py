@@ -47,6 +47,7 @@ def main():
         "e1_pair_feasible_ambient_generation",
         "e1_pair_feasible_prime_field_reduction",
         "e1_prime_field_l2_norm_collision_radius",
+        "e1_n512_four_singleton_collision_exclusion",
         "e1_fullness",
         "e1_exceptional_set_reduction",
         "are_exceptional_density",
@@ -94,6 +95,7 @@ def main():
         ("e1_pair_feasible_ambient_generation", branch_target, "ev"),
         ("e1_pair_feasible_prime_field_reduction", branch_target, "ev"),
         ("e1_prime_field_l2_norm_collision_radius", branch_target, "ev"),
+        ("e1_n512_four_singleton_collision_exclusion", branch_target, "ev"),
     }
     require(evidence_edges <= edges, "named-exhibit route is not evidence-only")
     require(
@@ -137,12 +139,23 @@ def main():
             "folded L2 radius lost its prime-field parent")
     require(("collision_norm_criterion", l2_radius, "req") in edges,
             "folded L2 radius lost its norm parent")
+    four_singleton = "e1_n512_four_singleton_collision_exclusion"
+    require(nodes[four_singleton]["status"] == "PROVED",
+            "N=512 four-singleton exclusion regressed")
+    four_singleton_statement = nodes[four_singleton]["statement"].lower()
+    require("(0,4,0)" in four_singleton_statement and "(1,2,0)" in four_singleton_statement,
+            "N=512 first-band profile reduction is missing")
+    require((l2_radius, four_singleton, "req") in edges,
+            "four-singleton exclusion lost its L2 parent")
+    require(("collision_norm_criterion", four_singleton, "req") in edges,
+            "four-singleton exclusion lost its norm parent")
     universal = "unsafe_crossing_family_instantiation"
     for source in (
         exact_compiler,
         ambient_generation,
         prime_field,
         l2_radius,
+        four_singleton,
         branch_target,
         "e1_fullness",
     ):
