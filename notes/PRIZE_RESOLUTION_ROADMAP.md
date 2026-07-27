@@ -4501,3 +4501,38 @@ next route-deciding action: attack sole profile (5,7), using its five-odd
                               diameter-Sidon condition before authorizing any
                               further complete signed-vector campaign
 ```
+
+**2026-07-27, V=66 endpoint close:** the final diameter-Sidon profile closes
+after an exact conductor split, completing the whole variance-66 endpoint.
+
+```text
+starting pin: local d8175531
+proof pin: local c87e1991
+node attacked: unsafe_crossing_family_instantiation, V=66 profile (5,7)
+result: CLOSED final V=66 profile and complete E33 endpoint;
+        residual positive even variance V<=64
+light geometry: 7,200 normalized diameter-Sidon supports -> 100 affine-unit
+                orbits under z -> uz+t, u odd, t in {0,64}
+exact coverage: 100*binom(124,3)*64=1,984,793,600 normalized signed vectors
+profile ledger: 28,048 profile-(5,7) vectors; 17,768 full-conductor vectors
+near-counterexample: unrestricted maximum M_3=1758>1732 at support
+                     (36,48,60,0,4,24,64), exact conductor 4
+live bound: exact full-conductor maximum M_3=1416<1732, margin 316
+conductor router: e1_n256_proper_conductor_collision_exclusion removes every
+                  gcd-greater-than-one support, including the maximizer
+independent apps: ap-GpozWWr9n5UCGVYAn4Ydl8 (signed folded chords,
+                  238.629139 worker-seconds), ap-Q31nLvELxLsAfXipcD01L5
+                  (ordered negacyclic product, 382.736139 worker-seconds)
+independent agreement: every one of 100 template counts and maxima agrees
+DAG delta: two PROVED nodes (profile exclusion and endpoint synthesis),
+           twelve requirement/evidence edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute spend: 621.365278 aggregate worker-seconds; conservative total below
+               $0.10, no further V=66 campaign authorized
+new assumptions: none
+upstream overlap: no open PR through #1109 supplies this finite E1 close
+route decision: E33 is complete; do not rerun any V=66 campaign
+next route-deciding action: return to unsafe_crossing_family_instantiation's
+                              remaining bands/profiles and select the next
+                              exact endpoint or upstream-bankable shared leaf
+```
