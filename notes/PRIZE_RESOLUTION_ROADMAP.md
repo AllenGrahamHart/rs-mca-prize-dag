@@ -4536,3 +4536,34 @@ next route-deciding action: return to unsafe_crossing_family_instantiation's
                               remaining bands/profiles and select the next
                               exact endpoint or upstream-bankable shared leaf
 ```
+
+**2026-07-27, V=64 algebraic reduction:** the next variance endpoint now has
+three exact residual profiles, with no broad computation required.
+
+```text
+starting pin: local 22079669
+proof pin: local cd1b5957
+node attacked: unsafe_crossing_family_instantiation, V=64 algebraic front end
+result: PROVED reduction; profiles (4,7), (0,8), (3,5,1) remain
+slack ledger: L<=18 from the exact Delta=2,6,...,26 recurrence
+profile ledger: 18 integer profiles; seven above the abstract cubic cutoff
+cubic certificate: exact M_3 threshold 1517; opposite signs at 1517/1518
+parity close: four high profiles have 8 or 12 odd coefficients, exceeding
+              the six available non-diameter unit chords
+diameter ledger: zero or two light-light diameters;
+                 D_64 in {0,2,4,8,12,16,18,20}
+independent replay: Cartesian and recursive profile enumerators; direct and
+                    Gaussian-elimination Hermite reconstruction; analytic and
+                    complete labeled-matching diameter enumeration
+hostile controls: removing the six-unit gate restores all four deleted profiles
+compute spend: verifier-scale local integer arithmetic only; no Modal run
+DAG delta: one PROVED node and six edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+scope audit: repaired stale auto-discharge prose in
+             e1_official_prime_exception_control; its route-uniform TARGET
+             status and every-row obligation are unchanged
+new assumptions: none
+route decision: V=64 is materially narrower than profile (4,2,0)
+next route-deciding action: run a bounded quotient relaxation for (3,5,1);
+                              stop immediately if its cap exceeds 1517
+```
