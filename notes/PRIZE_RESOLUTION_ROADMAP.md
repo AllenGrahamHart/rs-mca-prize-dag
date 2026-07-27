@@ -977,8 +977,8 @@ matching of weight at most 21. Expanding the exact negacyclic energy gives
 V/2=102-D_64+2C.
 ```
 
-The currently sharpened residual `V<=88` therefore forces signed
-repeated-distance cross sum `C<=-19`. Every live support has an
+The currently sharpened residual `V<=84` therefore forces signed
+repeated-distance cross sum `C<=-20`. Every live support has an
 oppositely signed pair of equal
 non-diameter chords and hence a three-term-progression or four-point
 parallelogram relation. This removes all circular-Sidon supports and turns the
@@ -1095,6 +1095,24 @@ allowances `1/150` or `1/160` as appropriate, exclude
 signed-chord gate strengthens to `C<=-19`. All minimum and six-bit
 checks are exact rational Taylor inequalities. See
 `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N38 DONE, E1 N=256 RELAXED SLACK TABLE AND QUADRATIC ENDPOINT: a stated
+finite recurrence computes the minimum possible energy in an enlarged chord
+relaxation for each global slack through 13. It gives
+
+```text
+E=44 => L<=24,
+E=43 => L<=23.
+```
+
+Root pairs `(14,44)` and `(14,43)`, both with allowance
+`1/160`, exclude `V=88,86`. The residual is positive even
+`V<=84`, and the signed-chord gate strengthens to `C<=-20`.
+At `E=42`, however, the relaxed optimum returns to `L=24`; the
+specific derivative-root templates used above no longer supply six bits.
+This is a route-decision point, not a proof that every quadratic or
+higher-moment majorant fails.
+See `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it

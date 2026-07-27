@@ -3,7 +3,7 @@
 Date: 2026-07-27.
 
 The proof is a complete expansion of the exact negacyclic autocorrelation
-energy. The constants `102`, `21`, and `-19` are respectively a profile
+energy. The constants `102`, `21`, and `-20` are respectively a profile
 identity, a matching optimum, and an exact residual consequence, not fitted
 numerical thresholds.
 

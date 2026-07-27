@@ -243,11 +243,83 @@ The corresponding energy lower bounds are 49, 49, and 57. Therefore
 E=45 implies L<=25.                                  (13)
 ```
 
+For the next two energies, record the exact minimum-energy slack ledger in a
+compact recurrence. Let `T` contain every attainable positive class type
+`(delta,r,t,S)` from (4), retaining at most the profile's three
+magnitude-four, twelve magnitude-two, and six unit chords within one class.
+Define
+
+```text
+P(0,0,0)=0,
+P(d,r,t)=min_(e,a,b,S in T) [P(d-e,r-a,t-b)+S^2].
+```
+
+Missing states have value infinity. We deliberately forget cumulative
+magnitude-four usage across classes, enlarging the feasible universe. If
+`d_2,d_1` count magnitude-two and unit diameters, the matching
+constraints are
+
+```text
+d_2+2d_1<=4,       d_1+d_2<=3.
+```
+
+The resulting relaxed minimum energy at global slack `Delta` is
+
+```text
+m(Delta)=min [P(Delta-4d_2-3d_1,r,t)
+              +4(12-d_2-r)+(6-d_1-t)].
+```
+
+This is a lower-bound relaxation, not an exact reconstruction of the
+class partition. Indeed, a zero-slack non-diameter class has either
+`(r,t)=(0,0)`, `(r,t)=(1,0)` with `S=2`, or `(r,t)=(0,1)` with
+`S in {1,3}`. Charging its magnitude-two and unit chords separately
+therefore costs respectively `0`, `4`, or `1`, never more than its
+actual energy `S^2`. The formula also omits the nonnegative energy of
+diameters and of zero-slack classes made only from magnitude-four chords.
+Together with the forgotten global magnitude-four budget, every omission
+can only lower the minimum relative to an actual support.
+
+Direct substitution in this finite recurrence gives
+
+```text
+Delta       0   1   2   3   4   5   6   7   8   9  10  11  12  13
+m(Delta)   54 inf  56  53  50  55  52  49  46  51  48  45  42  47.
+```
+
+For `2<=Delta<=13`, the same table is summarized by
+
+```text
+m(Delta)=54-Delta  if Delta=0 mod 4,
+         58-Delta  if Delta=2 mod 4,
+         56-Delta  if Delta=3 mod 4,
+         60-Delta  if Delta=1 mod 4.
+```
+
+The exceptional entries are `m(0)=54` and `m(1)=infinity`.
+
+Every actual support has energy at least this relaxed minimum. For
+`E=44`, (3) gives `L<=27`; the candidates `L=27,26,25`
+have slacks `2,6,10` and minimum energies `56,52,48`, all too
+large. Hence
+
+```text
+E=44 implies L<=24.                                  (14)
+```
+
+For `E=43`, the candidates `L=27,26,25,24` have slacks
+`1,5,9,13`, with no feasible first case and lower bounds
+`55,51,47` for the rest. Therefore
+
+```text
+E=43 implies L<=23.                                  (15)
+```
+
 If `y_u=|F(zeta^u)|^2` for odd `u`, then the mean of the
 `y_u` is 16. Autocorrelation antisymmetry gives
 
 ```text
-|y_u-16|<=2L.                                         (14)
+|y_u-16|<=2L.                                         (16)
 ```
 
 We first exclude `V=100` and `V=98`. Equations (8)--(9) give
@@ -386,6 +458,40 @@ log(8/7)+1/160-44/315>0,
 Both use degree-four truncations, and the averaged decay is again
 `q=73/105`. This excludes `V=90`.
 
+For `V=88`, equation (14) gives `0<y_u<=64`. Use allowance
+`1/160` and derivative roots `(14,44)`:
+
+```text
+h_4(x)=log 16+1/160+(3/44)(x-16)-(x-16)^2/1232-log x.
+```
+
+The two minimum checks are
+
+```text
+log(8/7)+1/160-43/308>0,
+17357/12320-log 4>0.
+```
+
+Degree-four truncations certify both, and the averaged decay is
+`q=73/105`. Thus `V=88` is excluded.
+
+For `V=86`, equation (15) gives `0<y_u<=62`. With allowance
+`1/160` and roots `(14,43)`, use
+
+```text
+h_5(x)=log 16+1/160+(41/602)(x-16)-(x-16)^2/1204-log x.
+```
+
+The minimum checks are
+
+```text
+log(8/7)+1/160-42/301>0,
+66541/48160-log(31/8)>0.
+```
+
+Again degree-four truncations suffice, and the averaged decay is
+`q=73/105`. This excludes `V=86`.
+
 Apply (6)--(7) to the two new endpoint rows, (3) to the next two
 low-variance blocks, and (1) to the five existing upper blocks:
 
@@ -436,7 +542,7 @@ and their mean square is `V`, giving
 
 ```text
 log G<=log 16-V/C,
-|Norm(F(zeta))|=G^64<=2^256 exp(-64V/C).               (15)
+|Norm(F(zeta))|=G^64<=2^256 exp(-64V/C).               (17)
 ```
 
 For each row use its minimum `V` and put `q=32V/(3C)`.
@@ -446,7 +552,7 @@ The degree-nine positive Taylor truncation verifies exactly that
 sum_(j=0)^9 q^j/j! > 2.
 ```
 
-Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (15)
+Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (17)
 is strictly below `2^250`. The collision-norm criterion excludes
 every listed variance. Since `V` is even, only
-`0<V<=88` remains.
+`0<V<=84` remains.

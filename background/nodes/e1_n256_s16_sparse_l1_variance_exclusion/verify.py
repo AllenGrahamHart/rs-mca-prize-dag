@@ -103,6 +103,74 @@ def chord_ledger(coefficients: dict[int, int]) -> tuple[int, int, int, int]:
     return energy, l1_norm, diameter_square_mass, cross_sum
 
 
+def relaxed_minimum_energy_by_slack(maximum_slack: int) -> list[int | None]:
+    class_types = set()
+    for count_4 in range(4):
+        for count_2 in range(13):
+            for count_1 in range(7):
+                if count_4 + count_2 + count_1 == 0:
+                    continue
+                for class_sum in attainable_absolute_sums(count_4, count_2, count_1):
+                    slack = (
+                        (class_sum - 2) ** 2
+                        + 4 * count_2
+                        + 3 * count_1
+                        - 4
+                    )
+                    assert slack >= 0
+                    if slack == 0:
+                        assert 4 * count_2 + count_1 <= class_sum * class_sum
+                    if 0 < slack <= maximum_slack:
+                        class_types.add((slack, count_2, count_1, class_sum))
+
+    answers: list[int | None] = []
+    for target_slack in range(maximum_slack + 1):
+        best = None
+        for diameter_2 in range(4):
+            for diameter_1 in range(3):
+                if diameter_2 + 2 * diameter_1 > 4:
+                    continue
+                if diameter_1 + diameter_2 > 3:
+                    continue
+                diameter_slack = 4 * diameter_2 + 3 * diameter_1
+                if diameter_slack > target_slack:
+                    continue
+                class_slack_target = target_slack - diameter_slack
+                states = {(0, 0, 0): 0}
+                for used_slack in range(class_slack_target + 1):
+                    current = [
+                        item for item in states.items() if item[0][0] == used_slack
+                    ]
+                    for (state_slack, used_2, used_1), energy in current:
+                        for slack, count_2, count_1, class_sum in class_types:
+                            new_state = (
+                                state_slack + slack,
+                                used_2 + count_2,
+                                used_1 + count_1,
+                            )
+                            if new_state[0] > class_slack_target:
+                                continue
+                            if new_state[1] > 12 - diameter_2:
+                                continue
+                            if new_state[2] > 6 - diameter_1:
+                                continue
+                            new_energy = energy + class_sum * class_sum
+                            states[new_state] = min(
+                                states.get(new_state, new_energy), new_energy
+                            )
+                for (state_slack, used_2, used_1), energy in states.items():
+                    if state_slack != class_slack_target:
+                        continue
+                    total_energy = (
+                        energy
+                        + 4 * (12 - diameter_2 - used_2)
+                        + (6 - diameter_1 - used_1)
+                    )
+                    best = total_energy if best is None else min(best, total_energy)
+        answers.append(best)
+    return answers
+
+
 def main() -> None:
     pin = json.loads(Path(__file__).with_name("source_pin.json").read_text())
     assert pin == EXPECTED_PIN
@@ -260,7 +328,38 @@ def main() -> None:
         49,
         57,
     )
+    relaxed_slack_table = relaxed_minimum_energy_by_slack(13)
+    assert relaxed_slack_table == [
+        54,
+        None,
+        56,
+        53,
+        50,
+        55,
+        52,
+        49,
+        46,
+        51,
+        48,
+        45,
+        42,
+        47,
+    ]
+    closed_form_slack_table = [54, None]
+    for slack in range(2, 14):
+        intercept = {0: 54, 1: 60, 2: 58, 3: 56}[slack % 4]
+        closed_form_slack_table.append(intercept - slack)
+    assert relaxed_slack_table == closed_form_slack_table
+    assert 4 * (42 - 27) - (102 - 44) == 2
+    assert 4 * (42 - 26) - (102 - 44) == 6
+    assert 4 * (42 - 25) - (102 - 44) == 10
+    assert 4 * (42 - 27) - (102 - 43) == 1
+    assert 4 * (42 - 26) - (102 - 43) == 5
+    assert 4 * (42 - 25) - (102 - 43) == 9
+    assert 4 * (42 - 24) - (102 - 43) == 13
     special_l1_bounds = {
+        43: 23,
+        44: 24,
         45: 25,
         46: 26,
         47: 25,
@@ -424,7 +523,67 @@ def main() -> None:
     assert optimized_decay_90 == Fraction(73, 105)
     assert taylor(optimized_decay_90, 4) > 2
 
-    excluded = [90, 92, 94, 96, 98, 100]
+    fourth_linear = Fraction(3, 44)
+    fourth_quadratic = Fraction(1, 1232)
+    assert 2 * fourth_quadratic == Fraction(1, 616)
+    assert fourth_linear + 16 * 2 * fourth_quadratic == Fraction(58, 616)
+    assert 2 * fourth_quadratic * 14 * 44 == 1
+    assert (
+        tight_allowance
+        - 2 * fourth_linear
+        - 4 * fourth_quadratic
+        == tight_allowance - Fraction(43, 308)
+    )
+    assert (
+        tight_allowance
+        + 48 * fourth_linear
+        - 48**2 * fourth_quadratic
+        == Fraction(17357, 12320)
+    )
+    assert 16 + 2 * special_l1_bounds[44] == 64
+    assert (
+        alternating_log_lower(Fraction(1, 7), 4)
+        + tight_allowance
+        > Fraction(43, 308)
+    )
+    assert taylor(Fraction(17357, 12320), 4) > 4
+    optimized_decay_88 = Fraction(32, 3) * (
+        Fraction(1, 14) - tight_allowance
+    )
+    assert optimized_decay_88 == Fraction(73, 105)
+    assert taylor(optimized_decay_88, 4) > 2
+
+    fifth_linear = Fraction(41, 602)
+    fifth_quadratic = Fraction(1, 1204)
+    assert 2 * fifth_quadratic == Fraction(1, 602)
+    assert fifth_linear + 16 * 2 * fifth_quadratic == Fraction(57, 602)
+    assert 2 * fifth_quadratic * 14 * 43 == 1
+    assert (
+        tight_allowance
+        - 2 * fifth_linear
+        - 4 * fifth_quadratic
+        == tight_allowance - Fraction(42, 301)
+    )
+    assert (
+        tight_allowance
+        + 46 * fifth_linear
+        - 46**2 * fifth_quadratic
+        == Fraction(66541, 48160)
+    )
+    assert 16 + 2 * special_l1_bounds[43] == 62
+    assert (
+        alternating_log_lower(Fraction(1, 7), 4)
+        + tight_allowance
+        > Fraction(42, 301)
+    )
+    assert taylor(Fraction(66541, 48160), 4) > Fraction(31, 8)
+    optimized_decay_86 = Fraction(32, 3) * (
+        Fraction(1, 14) - tight_allowance
+    )
+    assert optimized_decay_86 == Fraction(73, 105)
+    assert taylor(optimized_decay_86, 4) > 2
+
+    excluded = [86, 88, 90, 92, 94, 96, 98, 100]
     for lower_v, upper_v, upper_energy, upper_l1, bound, denominator, method in ROWS:
         energies = range(lower_v // 2, upper_energy + 1)
         if method == "slack":
@@ -447,7 +606,7 @@ def main() -> None:
         assert taylor(six_bit_exponent, 9) > 2
         excluded.extend(range(lower_v, upper_v + 1, 2))
 
-    assert excluded == list(range(90, 136, 2))
+    assert excluded == list(range(86, 136, 2))
 
     dag = json.loads((ROOT / "dag.json").read_text())
     statuses = {entry["id"]: entry["status"] for entry in dag["nodes"]}
@@ -462,12 +621,12 @@ def main() -> None:
     assert (NORM_PARENT, NODE, "req") in edges
     assert (NODE, E1_TARGET, "ev") in edges
     assert (NODE, UNIVERSAL_TARGET, "ev") in edges
-    assert "90<=V<=134" in statements[NODE]
-    assert "V<=88" in statements[NODE]
+    assert "86<=V<=134" in statements[NODE]
+    assert "V<=84" in statements[NODE]
 
     print(
         "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS "
-        "excluded=23 residual_max=88 majorants=15"
+        "excluded=25 residual_max=84 majorants=17"
     )
 
 

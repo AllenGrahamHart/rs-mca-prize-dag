@@ -9,7 +9,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_high_variance_collision_exclusion/verify.py",
-      "seconds": 0.039079,
+      "seconds": 0.038434,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_HIGH_VARIANCE_COLLISION_EXCLUSION_PASS mean=16 max=100 high_variance_start=136 residual_max=134\n"
@@ -17,18 +17,18 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_signed_chord_collision_gate/verify.py",
-      "seconds": 0.034149,
+      "seconds": 0.033425,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_SIGNED_CHORD_COLLISION_GATE_PASS baseline=102 diameter_max=21 cross_max=-19 witness=18/8/-38\n"
+      "stdout_tail": "E1_N256_S16_SIGNED_CHORD_COLLISION_GATE_PASS baseline=102 diameter_max=21 cross_max=-20 witness=18/8/-38\n"
     },
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py",
-      "seconds": 0.057805,
+      "seconds": 0.04689,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS excluded=23 residual_max=88 majorants=15\n"
+      "stdout_tail": "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS excluded=25 residual_max=84 majorants=17\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

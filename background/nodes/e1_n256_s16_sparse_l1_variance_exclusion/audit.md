@@ -3,15 +3,16 @@
 Date: 2026-07-27.
 
 The proof combines an integer L1-versus-L2 estimate, a profile-specific
-chord-cancellation deficit inequality, an exact low-slack classification,
-five optimized quadratic row certificates, and nine mean-tangent logarithmic
-majorants. The coverage is exhaustive for the even variances from 90 through
+chord-cancellation deficit inequality, an exact relaxed slack recurrence,
+eight optimized quadratic row certificates, and nine mean-tangent logarithmic
+majorants. The coverage is exhaustive for the even variances from 86 through
 134. The local verifier checks:
 
 - the raw chord magnitude and square-mass ledgers;
 - the exact residue-class slacks in the cancellation-deficit lemma;
 - the exact zero-, two-, four-, and six-slack class patterns;
-- the resulting special L1 ceilings at energies 45 through 52;
+- the relaxed minimum-energy table through global slack 13;
+- the resulting special L1 ceilings at energies 43 through 52;
 - the strong L1 ceilings at energies 53, 54, and 55;
 - the exact integer L1 maxima for every energy in the five blocks;
 - the optimized majorants' exact derivative factorizations and rational
