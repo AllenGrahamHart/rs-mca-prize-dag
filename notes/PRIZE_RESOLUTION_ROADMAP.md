@@ -1189,6 +1189,19 @@ structured weighted-Schur example of value 2718 and forces the live
 `V=76` route to contain a nonzero distance outside `4 Z/128 Z`. See
 `background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/`.
 
+N44 DONE, E1 N=256 VARIANCE-76 QUOTIENT-SCHUR CLOSURE: the exact mod-16
+fiber bound was exhaustively optimized over 43,153,083 admissible nested-layer
+allocations. For the exceptional profiles `(6,8)` and `(2,9)`, the caps in
+`Z/128 Z` are 2782 and 2580; after division by two, the caps in `Z/64 Z` are
+2760 and 2422. For `(9,5,1)`, the outer 30-point Schur term is at most 840,
+the two-point top-layer triple is zero, and the full cap is 2796. Every other
+profile is at most 2668. Odd outer support uses the first census, support in
+`2Z` but not `4Z` uses the divided census, and the proved subfield cut removes
+the `4Z` chamber. Hence every live `V=76` row has `M_3<=2796<2806`; the exact
+cubic certificate excludes it and improves the profile-`(3,4,0)` residual to
+positive even `V<=74`. See
+`background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable
@@ -3614,4 +3627,25 @@ route fences: continuous cubic and elementary quartic dual both miss;
               generic CP-SAT upper bounds are too weak and must not be scaled
 next route-deciding action: prove the nonperiodic E=38 weighted-Schur cap
                               M_3<=2806 from the 24 slack signatures
+```
+
+**2026-07-27, N=256 variance-76 quotient-Schur closure:** the nonperiodic
+third-moment bottleneck was reduced to exact mod-16 fiber capacities and
+closed by a complete low-memory census.
+
+Cycle burn-down:
+
+```text
+starting pin: local abcb2258
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0), V=76
+result: NEW PROVED quotient-Schur exclusion; global live M_3<=2796;
+        V=76 excluded and residual improves to positive even V<=74
+DAG delta: one PROVED background node and five edges added; parent target OPEN
+compute: 80 cheap Modal shards, 43,153,083 complete allocations, under 20 sec;
+         final run ap-n57PHWIhpfTIODFu1x2CMu
+new assumptions: none
+route fences: generic CP-SAT bounds and the parity-purity lemma are retired;
+              the final proof uses exact quotient capacities plus the 4Z cut
+next route-deciding action: derive the E=37 L1/profile ledger and test whether
+                              the quotient-Schur/cubic mechanism closes V=74
 ```

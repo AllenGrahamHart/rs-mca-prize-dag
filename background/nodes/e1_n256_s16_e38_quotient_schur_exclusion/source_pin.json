@@ -1,0 +1,18 @@
+{
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
+  "census_checker_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e38_mod16_quotient_census_check.py",
+  "census_checker_file_sha256": "43390ae9c162410a51a1580d873f7de230fbe278804409715972ab5c3a4be110",
+  "census_launcher_file": "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/verify_census_remote.py",
+  "census_launcher_file_sha256": "38019632af3a1f1be3bfce3d5715b85c0650ee2fcf1573356ea24982aa6b69ec",
+  "census_result_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e38_mod16_quotient_census_result.json",
+  "census_result_file_sha256": "afc13704508a4592f1fbdbd7d3573302b8a8b2118cf736591dc29f1ae5dfbe7a",
+  "census_source_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e38_mod16_quotient_census.cpp",
+  "census_source_file_sha256": "48bfb6b3fa250ba4798d78cdc531f1e6fdd1c29a2c5a05f6f756cd88152453c5",
+  "subfield_parent_file": "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/statement.md",
+  "subfield_parent_file_sha256": "4f33a2ada08bd29de1152f502a7678868b31f0829a3903dfa530e973cd5331de",
+  "variance_parent_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/statement.md",
+  "variance_parent_file_sha256": "5dad1a8acbe7f8d4f1db89771371203fe257f65c8f7ea5d4b03e3df4ada32c12",
+  "variance_parent_verify_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py",
+  "variance_parent_verify_file_sha256": "57b7a0f2d8590bda9234f4fb5bc0a573afd56200436458121767489fc5091f8e"
+}

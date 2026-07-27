@@ -7716,3 +7716,48 @@ There is no remaining mathematical decision for donated compute. An upstream
 PR should vendor the two proved exclusions and their compact checkers, and
 should mention this retirement only to prevent contributors from repeating
 the obsolete coefficient or lift search.
+
+### CR-E1-E38-Q16: variance-76 quotient-Schur census
+
+**Status:** COMPLETE by exact certificate; do not extend or rerun unless
+auditing the pinned result.
+
+This route-deciding campaign optimized the mod-16 residue-capacity bound for
+the three exceptional `E=38,L<=22` magnitude profiles in `Z/128 Z` and in the
+divided group `Z/64 Z`. The final preregistered implementation used 80
+disjoint shards, one CPU and 256 MiB per shard, a 180-second hard per-shard
+timeout, deterministic integer arithmetic, exact coverage counts, and an
+independent local checker. It completed 43,153,083 allocations in under 20
+seconds of campaign wall time. The configured worst-case campaign ceiling was
+below `$0.25`; no further paid run is required.
+
+Final complete run:
+
+```text
+ap-n57PHWIhpfTIODFu1x2CMu
+```
+
+Development and falsification runs, all non-load-bearing, were
+`ap-7zDRVMlTTBSwe7TnVNO34t`, `ap-4E8RkbLTDjcmSeJq2sTI7y`,
+`ap-w0BCehAMjrwWVEI80ATZvz`, `ap-PvmZeSqQGezJw3diejEqnD`,
+`ap-4ayZeHGOYlEsxweNyZdUt1`, `ap-dNiFo0EV95jJZQiykdbR3F`, and
+`ap-F0lwASenN9DKXigGtaPBnf`. A client-side 60-second RAMguard cutoff cancelled
+the incomplete initialization run `ap-8QVwOZpPwsI7uSbc4bqYoc`; it supplied no
+evidence.
+
+The canonical packet and replay sources are:
+
+```text
+background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/
+  e38_mod16_quotient_census.cpp
+  e38_mod16_quotient_census_result.json
+  e38_mod16_quotient_census_check.py
+background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/
+  verify_census_remote.py
+```
+
+The complete maxima are `2782,2760,2580,2422,840,840`. Together with the
+proved `4Z` subfield exclusion they imply `M_3<=2796<2806`, close `V=76`, and
+advance the residual to positive even `V<=74`. `FAIL` would have been an
+allocation above 2806 and a return to support-specific chord geometry;
+`INCOMPLETE` would have changed no status. Neither occurred.

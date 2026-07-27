@@ -355,6 +355,29 @@
    "notes": "ROUTE REDUCTION 2026-07-27: removes the subgroup-concentrated weighted-third-moment extremizer from the V=76 route. The nonperiodic variance-76 residual remains open."
   },
   {
+   "id": "e1_n256_s16_e38_quotient_schur_exclusion",
+   "title": "N=256 square-mass-16 E=38 quotient-Schur exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e38_mod16_quotient_census.cpp",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/verify_census_remote.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e38_mod16_quotient_census_result.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e38_mod16_quotient_census_check.py"
+   ],
+   "statement": "For profile (3,4,0) at V=76, the exact slack recurrence gives E=38 and L<=22. A complete mod-16 quotient census bounds the three exceptional magnitude profiles: the two-layer maxima are 2782, 2760, 2580, and 2422, while the outer 30-point Schur term is at most 840. Together with the exact top-layer zero and the proved 4Z autocorrelation-subfield exclusion, every live candidate has M_3<=2796<2806. The rational cubic-Hermite certificate therefore puts the norm below 2^250 and excludes V=76. Every unresolved vector in this profile has positive even V<=74.",
+   "notes": "ROUTE CLOSURE 2026-07-27: a complete 43,153,083-allocation quotient census and the existing subfield cut close the variance-76 slice without new assumptions. Lower positive even variances remain open."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -17783,6 +17806,21 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e38_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_autocorrelation_subfield_exclusion",
+   "to": "e1_n256_s16_e38_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e38_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -17904,6 +17942,16 @@
   },
   {
    "from": "e1_n256_s16_autocorrelation_subfield_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e38_quotient_schur_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e38_quotient_schur_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
