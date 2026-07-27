@@ -2702,6 +2702,16 @@ safe upper bound, so the Lane-L close must use Reed-Solomon locator, syndrome,
 or coefficient consistency. The open PR remains upstream-owned and is not
 duplicated locally.
 
+**2026-07-27, F3 `m=128` route decision:** exact energy integrality was already
+known to miss the `h=10`, mask-`011` endpoint. A new explicit support fixture
+shows that retaining only the exact Taylor multiplicity still misses by over
+`15` bits. Exact even/odd recursion on the same support computes the joint
+order-`128,64,32` resultant product and clears the required divisor threshold
+by over `21` bits. This does not close the mask, but it makes the next theorem
+precise: prove a uniform joint determinant/resultant bound over every
+mask-`011` support. Independent scalar-energy, Taylor-only, and large support
+scans are now fenced as dominated routes.
+
 **2026-07-26, L1 endpoint color-degree cut:**
 `l1_mersenne_hnf_order_zero_linear_color_exclusion` proves that the colored
 Frobenius interpolant in the `m=8,h=7` and `m=16,h=15` order-zero HNF rows
