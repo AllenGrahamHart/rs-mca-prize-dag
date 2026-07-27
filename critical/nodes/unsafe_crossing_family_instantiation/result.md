@@ -156,7 +156,9 @@ parity leave eight profiles. A complete mod-16 allocation ledger excludes
 `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`. Two independent 87-template censuses
 and two independent exact-resultant ledgers exclude `(2,7)` and `(1,5,1)`.
 A complete odd-difference relaxation reduces `(4,2,2)` to six actual vectors;
-proper conductor and exact norms exclude them. The exact residual is `(6,6)`
-and `(5,4,1)`, both in the six-odd branch. A direct affine-orbit census for
-either has a proved floor of 21,773,185,792 signed vectors, so these are
-structural proof targets rather than brute-force jobs.
+proper conductor and exact norms exclude them. Independent odd-difference
+relaxations and exceptional actual-vector engines then reduce `(5,4,1)` to 86
+primitive vectors, all excluded by independent exact norms. The exact residual
+is the sole six-odd profile `(6,6)`. Its direct affine-orbit census has a proved
+floor of 21,773,185,792 signed vectors, so it is a structural proof target
+rather than a brute-force job.

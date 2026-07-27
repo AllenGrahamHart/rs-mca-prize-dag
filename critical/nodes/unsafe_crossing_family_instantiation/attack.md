@@ -109,9 +109,9 @@ eight affine templates; independent 158,783,488-vector censuses close all
 three with the exact cubic cutoff and conductor theorem. Do not rerun any
 `V>=62` campaign. At `V=60`, quotient allocation and complete two-odd ledgers
 close five of the eight exact profiles. The odd-difference relaxation and
-exact exceptional norms also close `(4,2,2)`. Attack only `(6,6)` and
-`(5,4,1)` by extending that structured method. Their direct census floor is
-21,773,185,792 signed vectors per profile and is out of scope.
+exact exceptional norms also close `(4,2,2)` and `(5,4,1)`. Attack only
+`(6,6)` by extending that structured method. Its direct census floor is
+21,773,185,792 signed vectors and is out of scope.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
 the 2-adic singleton screen and test its 419 exact cofactors directly; do not

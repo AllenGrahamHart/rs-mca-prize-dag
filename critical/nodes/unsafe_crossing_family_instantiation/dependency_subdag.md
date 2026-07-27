@@ -193,6 +193,8 @@ profiles at `V=60`. The proved
 complete independent censuses, exact resultants where needed, and the
 proper-conductor theorem. The proved `e1_n256_s16_e30_profile_422_exclusion`
 then removes `(4,2,2)` by an odd-difference relaxation and exact exceptional
-norms. The residual is exactly `(6,6)` and `(5,4,1)`, both in the six-odd
-branch; these E30 nodes remain evidence because the endpoint is not yet
-closed.
+norms. The proved `e1_n256_s16_e30_profile_541_exclusion` then removes
+`(5,4,1)` by independent odd-difference relaxations, independent exceptional
+actual-vector engines, and exact FLINT/PARI norms. The residual is exactly the
+six-odd profile `(6,6)`; these E30 nodes remain evidence because the endpoint
+is not yet closed.

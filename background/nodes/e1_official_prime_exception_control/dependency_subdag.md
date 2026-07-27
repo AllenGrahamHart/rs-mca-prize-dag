@@ -102,10 +102,12 @@ conductor theorem remove `(4,7)`. The endpoint synthesis closes `V=64`, and
 the corresponding eight-template chain closes `V=62`. At `V=60`, exact
 profile/parity and quotient reductions plus a complete two-odd census first
 leave three six-odd profiles. The proved profile-`(4,2,2)` exclusion uses a
-complete odd-difference relaxation and exact exceptional norms. Only `(6,6)`
-and `(5,4,1)` remain. The proved direct-census floor is 21,773,185,792 vectors
-per profile, so this residual requires an analytic reduction rather than a
-generic support scan.
+complete odd-difference relaxation and exact exceptional norms. The proved
+profile-`(5,4,1)` exclusion adds two independent 2,924,654,040-assignment
+relaxations, two independent exceptional actual-vector engines, and exact
+FLINT/PARI norms. Only `(6,6)` remains. The proved direct-census floor is
+21,773,185,792 vectors, so this residual requires an analytic reduction rather
+than a generic support scan.
 The proper-conductor theorem also removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing

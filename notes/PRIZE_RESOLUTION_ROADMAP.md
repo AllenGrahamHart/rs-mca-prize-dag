@@ -4830,3 +4830,45 @@ route decision: extend the odd-mask method to (6,6) and (5,4,1), but replace
                 not run either direct vector census and do not descend to
                 V=58.
 ```
+
+**2026-07-27, profile `(5,4,1)` structured close:** an exact cubic optimizer
+over the even layer reduces 2.924 billion abstract assignments to 321 light
+orbits, after which two independent actual-vector engines and two independent
+resultant engines close the profile.
+
+```text
+node attacked: N=256, V=60 profile (5,4,1)
+odd-set identity: b = 1_O + 2*1_(P union E), where O is the symmetric
+                  six-difference set of the four light positions,
+                  |P/+-|=1 inside O, |E/+-|=4 outside O
+normalized six-odd supports: 280,720
+distinct odd masks modulo odd units: 1,234; exactly one affine light-support
+                                      orbit per mask
+orbit-atlas app: ap-gydIct2AQV7tjgwU9nH0Xb; 1.620819 aggregate worker-seconds
+relaxation assignments: 1234*6*binom(57,4)=2,924,654,040
+production relaxation: ap-xt8CzSXbM9zdtJ7QFkPsou,
+                       40.135081 aggregate worker-seconds
+audit relaxation: ap-ek9XQdOs4gck36Cji9TX9h,
+                  40.844229 aggregate worker-seconds
+independent agreement: all 64 shards, 1,456 above-cutoff assignments,
+                       321 exceptional light orbits, maximum M_3=1278
+production actual census: ap-Rib373enlZ4XZYrLYvi353,
+                          810.405329 aggregate worker-seconds
+audit actual census: ap-qotcG4Gq0XxspTOe5jWxhZ,
+                     1193.826166 aggregate worker-seconds
+actual coverage per engine: 321*binom(124,3)*64=6,371,187,456 vectors
+independent actual agreement: 45,846 profile vectors; 440 above cutoff;
+                              86 full conductor; maximum M_3=1278
+proper conductor: the complementary 354 vectors are excluded by the existing
+                  conductor theorem
+norm app: ap-ac61MPIVeEN9CWlcxSt4Zf; FLINT and PARI/GP agree on all 86 vectors
+distinct norms: 42
+exact maximum: 147314768947604483837877250659211387932426327951806688176613401078756416516
+strict margin: 12*N_max<2^250<13*N_max; bit length 247
+result: profile (5,4,1) CLOSED
+live V=60 residual: (6,6) only
+new assumptions: none
+route decision: solve the six-even-class optimization for (6,6), preserving
+                the 1,234-mask reduction. Do not run its 21.77-billion-vector
+                direct census and do not descend to V=58.
+```

@@ -57,9 +57,13 @@ Exact quotient allocation excludes `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`.
 Two independent 87-template censuses plus independent FLINT/PARI exact-
 resultant ledgers exclude the two-odd profiles `(2,7)` and `(1,5,1)`.
 Difference-mask relaxation, exceptional actual-vector censuses, and exact
-norms also exclude `(4,2,2)`. The exact residual is `(6,6)` and `(5,4,1)`,
-both with six odd light classes. A direct affine-orbit census for either has a
-proved floor of 21,773,185,792 signed vectors and is not an authorized route.
+norms exclude `(4,2,2)` and `(5,4,1)`. For `(5,4,1)`, two independent
+relaxations agree on 2,924,654,040 assignments and leave 1,456 abstractions;
+two independent 6,371,187,456-vector exceptional censuses leave 86 primitive
+vectors, whose exact FLINT/PARI norms are all below `2^250`. The exact residual
+is the sole profile `(6,6)`, with six odd light classes. Its direct affine-
+orbit census has a proved floor of 21,773,185,792 signed vectors and is not an
+authorized route.
 At `N=512,s=2`, exact variance
 excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.

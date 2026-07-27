@@ -54,10 +54,13 @@ all 28,114 full-conductor `(2,7)` norms below `2^250`. The conductor theorem
 handles both complements. A subsequent 1,234-mask structured relaxation has
 only three profile-`(4,2,2)` assignments above the cutoff; actual-vector
 censuses reduce them to six vectors, and conductor plus exact norms exclude
-all six. The exact residual is therefore `(6,6)` and `(5,4,1)`, both in the
-six-odd branch. Their 280,720 normalized light supports require at least 1,097
-affine orbits, giving a direct-census floor of 21,773,185,792 signed vectors
-for either profile. A subfield norm
+all six. A second structured relaxation covers 2,924,654,040 profile-
+`(5,4,1)` assignments; independent exceptional censuses cover 6,371,187,456
+actual vectors per engine and reduce the primitive residue to 86 vectors.
+Independent FLINT/PARI norms exclude all 86. The exact residual is therefore
+the sole six-odd profile `(6,6)`. Its 280,720 normalized light supports require
+at least 1,097 affine orbits, giving a direct-census floor of 21,773,185,792
+signed vectors. A subfield norm
 argument also
 removes every vector
 in either profile whose support differences have a nontrivial gcd with
@@ -95,11 +98,11 @@ The next route-deciding attack is algebraic. Either:
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
   after the 2-adic cofactor screen. In `(3,4,0)`, extend the successful odd-
-  difference relaxation to `(6,6)` and `(5,4,1)`, using optimization or
-  analytic bounds for their larger even-layer choices; every other `V=60`
+  difference relaxation to the sole profile `(6,6)`, using optimization or
+  analytic bounds for its six even-layer choices; every other `V=60`
   profile and every
   `V>=62` chamber is closed and must not be rerun. Do not authorize the
-  21.77-billion-vector direct census for either profile. Treat the `N=512,s=3` band
+  21.77-billion-vector direct census for this profile. Treat the `N=512,s=3` band
   independently;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;

@@ -64,11 +64,11 @@ explicit finite inequality at the row.
    chamber. At `V=60`, exact profile/parity reduction leaves eight profiles.
    The quotient ledger closes `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`; the
    complete two-odd ledger closes `(2,7)` and `(1,5,1)`. A structured odd-
-   difference relaxation plus exact exceptional norms closes `(4,2,2)`. The
-   residual is exactly `(6,6)` and `(5,4,1)`, both with six odd light classes.
-   Extend the difference-mask method with an optimizer or analytic bound for
-   their larger even layers; the proved direct-census floor is 21,773,185,792
-   vectors per profile, so do not brute-force this branch.
+   difference relaxation plus exact exceptional norms closes `(4,2,2)` and
+   `(5,4,1)`. The residual is exactly the six-odd profile `(6,6)`. Extend the
+   difference-mask method with an optimizer or analytic bound for its six
+   even-layer choices; the proved direct-census floor is 21,773,185,792
+   vectors, so do not brute-force this branch.
    The
    signed-chord gate
    further excludes circular-Sidon supports: every residual has an oppositely

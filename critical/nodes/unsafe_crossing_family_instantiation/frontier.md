@@ -216,17 +216,19 @@ parity leaves eight profiles. Quotient allocation closes `(0,3,2)`,
 `(1,5,1)`, including exact resultants for all 28,114 full-conductor `(2,7)`
 vectors. For `(4,2,2)`, independent 1,234-mask relaxations leave three
 abstract exceptions; independent actual-vector censuses leave six vectors,
-and conductor plus exact norms exclude them. The surviving profiles are
-exactly `(6,6)` and `(5,4,1)`. Both have six odd light classes; the 280,720
-normalized supports force at least 1,097 affine orbits and a
-21,773,185,792-vector direct-census floor for either profile.
+and conductor plus exact norms exclude them. For `(5,4,1)`, independent
+relaxations agree on 2,924,654,040 assignments and independent actual-vector
+engines agree after 6,371,187,456 vectors each, leaving 86 primitive vectors;
+independent exact norms exclude all 86. The sole surviving profile is `(6,6)`.
+Its six odd light classes have 280,720 normalized supports, forcing at least
+1,097 affine orbits and a 21,773,185,792-vector direct-census floor.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
 injectivity or another explicit `V` line. Within the first `N=256` band,
-extend the successful odd-difference relaxation to `(6,6)` and `(5,4,1)`,
-using optimization or analytic bounds for their larger even layers; do not run
+extend the successful odd-difference relaxation to `(6,6)`, using optimization
+or analytic bounds for its six even layers; do not run
 the direct census.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
 cofactor classes. Do not rerun the other six `V=60` profiles or any `V>=62`
