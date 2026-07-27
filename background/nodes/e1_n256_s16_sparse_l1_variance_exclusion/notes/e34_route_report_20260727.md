@@ -230,3 +230,29 @@ signed sum then has magnitude four or eight for every sign choice. Thus that
 branch is empty. Without `96`, the outer heavy signs must be opposite, so the
 quarter template has exactly `(D_64,C)=(16,-26)`. This reduction is promoted
 as `e1_n256_s16_e34_heavy_chord_template_reduction`.
+
+## Quarter-template closure
+
+The normalized quarter template has 124 available light positions, one
+middle-heavy sign, and four light signs after global sign normalization. Two
+independent 121-shard implementations exhaust
+
+```text
+binom(124,4)*32=300,200,032
+```
+
+vectors. The primary signed-chord implementation and the direct negacyclic
+polynomial audit agree on every shard:
+
+```text
+E=34 vectors                       1,514,544,
+profile-(6,7) vectors              1,181,056,
+full-conductor profile vectors     1,031,680,
+maximum full-conductor M_3              1188.
+```
+
+Since `1188<1947`, the cubic-Hermite norm certificate closes the complete
+quarter template. Modal apps `ap-kLTKBwJM3lNWUZA3hul5w7` and
+`ap-XXTZkD7kcupvXULmbp2GKZ` used 45.781851 and 52.691880 aggregate
+worker-seconds. The result is promoted as
+`e1_n256_s16_e34_quarter_template_exclusion`.

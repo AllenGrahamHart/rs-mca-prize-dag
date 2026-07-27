@@ -522,6 +522,32 @@
    "notes": "ROUTE REDUCTION 2026-07-27: turns the repeated-chord condition into four exact additive templates and deletes one quarter-diameter branch. It does not exclude the four templates or the residual profile."
   },
   {
+   "id": "e1_n256_s16_e34_quarter_template_exclusion",
+   "title": "N=256 E=34 quarter-template exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_quarter_template_census.cpp",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_quarter_template_census_modal.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_quarter_template_census_result.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_quarter_template_audit.cpp",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_quarter_template_audit_modal.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_quarter_template_audit_result.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_quarter_template_census_check.py"
+   ],
+   "statement": "No pair-feasible N=256, folded-(3,4,0), V=68 collision lies in the quarter heavy-position template. Two independent complete censuses agree on all 300,200,032 normalized signed vectors and give maximum M_3=1188 on the 1,031,680 full-conductor profile-(6,7) vectors. Since 1188<1947, the rational cubic norm certificate excludes the complete template.",
+   "notes": "ROUTE CLOSURE 2026-07-27: closes one of four heavy templates with two shardwise-identical exact implementations. The nonquarter diameter, progression, and generic templates remain."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -18320,6 +18346,26 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_e34_heavy_chord_template_reduction",
+   "to": "e1_n256_s16_e34_quarter_template_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e34_quarter_template_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e34_three_profile_reduction",
+   "to": "e1_n256_s16_e34_quarter_template_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e34_quarter_template_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -18511,6 +18557,16 @@
   },
   {
    "from": "e1_n256_s16_e34_heavy_chord_template_reduction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e34_quarter_template_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e34_quarter_template_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

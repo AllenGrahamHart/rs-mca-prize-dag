@@ -8136,3 +8136,35 @@ order-128 inner-4Z exact support maximum   1536.
 This is the declared `PASS`: profile `(2,8)` is excluded at `V=68`. The
 result is consumed by `e1_n256_s16_e34_three_profile_reduction`. No rerun or
 extension is authorized.
+
+#### CR-E1-E34-QUARTER: normalized quarter-template close
+
+**Status:** COMPLETE PASS. The quarter heavy-position template is closed; no
+rerun or extension is authorized.
+
+The heavy-template theorem normalizes the branch to `H={0,32,64}`, opposite
+outer heavy signs, no light at `96`, 124 possible light positions, two middle
+heavy signs, and sixteen light-sign patterns. The exact universe is
+`binom(124,4)*32=300,200,032` vectors.
+
+The primary implementation groups unordered signed chords. The independent
+audit forms `F(X)F(X^-1)` directly in `Z[X]/(X^128+1)`. Each uses 121 shards,
+one CPU and 256 MiB per task, 60-second function caps, at most 100 containers,
+and partial packet writes. `PASS` requires exact shard coverage, shardwise
+agreement on all counts and maxima, and `M_3<=1947` on every full-conductor
+profile-`(6,7)` vector.
+
+Modal apps `ap-kLTKBwJM3lNWUZA3hul5w7` and
+`ap-XXTZkD7kcupvXULmbp2GKZ` completed in under 30 client-observed seconds
+each, using 45.781851 and 52.691880 aggregate worker-seconds. They agree on
+
+```text
+E=34 vectors                       1,514,544,
+profile-(6,7) vectors              1,181,056,
+full-conductor profile vectors     1,031,680,
+maximum full-conductor M_3              1188.
+```
+
+The combined conservative cost ceiling was `$0.15`; actual worker usage was
+98.473731 CPU-seconds. The exact maximum is 759 below the cubic threshold, so
+`e1_n256_s16_e34_quarter_template_exclusion` closes the branch.

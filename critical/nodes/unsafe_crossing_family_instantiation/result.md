@@ -62,4 +62,6 @@ profiles are proved impossible. Chord parity then removes `(9,4,1)` and
 `(12,1,2)`. In the sole residual `(6,7)` profile, all six light-light chords
 have distinct non-diameter circular lengths. The heavy positions then fall
 into four exact templates. Every singleton heavy-heavy class contains a
-heavy-light chord, and the quarter template's `D_64=20` branch is impossible.
+heavy-light chord. Two independent complete censuses then exclude the entire
+quarter template with exact maximum `M_3=1188<1947`. Three E34 templates
+remain: nonquarter diameter, progression, and generic.

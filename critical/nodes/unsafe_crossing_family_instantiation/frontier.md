@@ -84,8 +84,11 @@ There are four templates: quarter, nonquarter diameter, heavy progression,
 and generic. Every singleton non-diameter heavy-heavy class contains a
 heavy-light chord. In the quarter template the missing quarter cannot be
 light, the outer heavy signs are opposite, and only `D_64=16` survives; its
-former `D_64=20` branch is empty. Successor work should attack these four
-templates separately, beginning with the bounded quarter normalization.
+former `D_64=20` branch is empty. Two independent complete censuses now close
+the remaining quarter normalization as well: among 300,200,032 signed vectors,
+the 1,031,680 full-conductor profile-`(6,7)` vectors have exact maximum
+`M_3=1188<1947`. The live E34 frontier therefore has only the nonquarter
+diameter, progression, and generic templates.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named

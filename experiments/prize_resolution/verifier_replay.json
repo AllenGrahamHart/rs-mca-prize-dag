@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/verify.py",
-      "seconds": 0.33837,
+      "script": "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/verify.py",
+      "seconds": 0.066746,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E34_HEAVY_CHORD_TEMPLATE_REDUCTION_PASS triples=341376 cases={'diameter': 7936, 'generic': 325376, 'progression': 7936, 'quarter': 128}\n"
+      "stdout_tail": "E1_N256_S16_E34_QUARTER_TEMPLATE_EXCLUSION_PASS vectors=300200032 full=1031680 m3=1188 threshold=1947\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/verify_audit.py",
-      "seconds": 0.014767,
+      "script": "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/verify_audit.py",
+      "seconds": 0.02198,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E34_HEAVY_CHORD_TEMPLATE_REDUCTION_AUDIT_PASS mutations=4\n"
+      "stdout_tail": "E1_N256_S16_E34_QUARTER_TEMPLATE_EXCLUSION_AUDIT_PASS shards=121 mutations=2\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
