@@ -5133,3 +5133,34 @@ route decision: derive the exact E24 profile/parity/light router without a
                 retaining every primitive vector for direct exact norms.
                 Never rerun V>=50.
 ```
+
+**2026-07-27, E24 cutoff-free route and V=48 endpoint close:** the first level
+below the fixed-majorant boundary closes by geometry, conductor, and direct
+exact norms.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=48 (E=24)
+discarded apps: ap-BllzyqghssXfECvbtq14LT failed during remote import;
+                ap-fs6qDeT2zhk2cNUY23gOpQ hit an out-of-range diagnostic;
+                neither wrote a result packet or supplies evidence
+reduction app: ap-BHdqdt3NzeCkN5oPfwNwAo
+slack result: L<=14; exactly nine energy profiles
+majorant policy: not invoked; its optimistic margin is negative at M_3=0
+parity survivors: two zero-odd and four four-odd profiles
+light atlas: 28,863 normalized supports in 6+148=154 affine templates
+coverage per engine: 154*binom(124,3)*64=3,056,582,144 vectors
+count app: ap-k55Y5gyShllfB8hQqHCwQ1; dual engines agree exactly
+actual profiles: [10878,0,2780,306,452,0], total 14,416
+full conductor: [5870,0,836,30,98,0], total 6,834
+proper conductor: complementary 7,582 vectors discharged by theorem
+collector app: ap-YUhoRVWWVQcb1O5XcckRAp; dual vector agreement
+norm app: ap-3hh9iFYztMHpgVSG9ydtd6; FLINT/PARI agreement on all 6,834
+distinct norms: 2,684
+exact maximum: 934000596876556404040131946795508791323292938762264172037712523409677324304
+strict margin: N_max<2^250<2*N_max; bit length 250
+result: all six profiles CLOSED; V=48 endpoint CLOSED
+live positive even variance frontier: V<=46
+new assumptions: none
+route decision: derive the exact cutoff-free E23 (V=46) router and price its
+                actual-vector residue. Never rerun V>=48.
+```

@@ -224,3 +224,7 @@ reduction leaves nine profiles on 111 affine templates; two independent
 2,203,120,896-vector censuses, conductor, and exact norms close all nine. The
 E25 endpoint closes `V=50` and advances the frontier to `V<=48`. The fixed
 cubic-Hermite majorant supplies no positive cutoff from that point downward.
+The proved cutoff-free E24 reduction leaves six profiles on 154 templates.
+Independent complete censuses, conductor, and exact norms close all six; the
+E24 endpoint closes `V=48` and advances the frontier to `V<=46`, still as
+evidence only rather than a universal unsafe certificate.

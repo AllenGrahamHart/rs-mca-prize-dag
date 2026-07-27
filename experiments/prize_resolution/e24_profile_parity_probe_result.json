@@ -1,0 +1,440 @@
+{
+  "atlas_inputs": {
+    "0": {
+      "affine_orbits": 6,
+      "normalized_supports": 63
+    },
+    "2": {
+      "affine_orbits": 87,
+      "normalized_supports": 8168
+    },
+    "4": {
+      "affine_orbits": 148,
+      "normalized_supports": 28800
+    },
+    "6": {
+      "affine_orbits": 1234,
+      "normalized_supports": 280720
+    }
+  },
+  "atlas_source_sha256": "db0b1b49919f1ab55f3b250f4d9523db961fe3cc6f0aa5c78b081b1d195db82e",
+  "complete": true,
+  "diameter_ledgers": {
+    "two_light_diameters": [
+      [
+        2,
+        -38
+      ],
+      [
+        18,
+        -30
+      ]
+    ],
+    "zero_light_diameters": [
+      [
+        0,
+        -39
+      ],
+      [
+        4,
+        -37
+      ],
+      [
+        8,
+        -35
+      ],
+      [
+        12,
+        -33
+      ],
+      [
+        16,
+        -31
+      ],
+      [
+        20,
+        -29
+      ]
+    ]
+  },
+  "direct_vector_floor": 3056582144,
+  "energy": 24,
+  "l1_bound": 14,
+  "majorant_filter": null,
+  "majorant_policy": "not invoked: the fixed cubic-Hermite margin is negative at M_3=0",
+  "parity_rejected": [
+    {
+      "cap": 1060,
+      "l1": 14,
+      "odd_classes": 8,
+      "profile": [
+        7,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 840,
+      "l1": 12,
+      "odd_classes": 8,
+      "profile": [
+        6,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 720,
+      "l1": 12,
+      "odd_classes": 8,
+      "profile": [
+        8,
+        0,
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "parity_survivors": [
+    {
+      "cap": 1176,
+      "l1": 14,
+      "odd_classes": 4,
+      "profile": [
+        4,
+        5,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1056,
+      "l1": 12,
+      "odd_classes": 0,
+      "profile": [
+        0,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 936,
+      "l1": 12,
+      "odd_classes": 4,
+      "profile": [
+        3,
+        3,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 744,
+      "l1": 10,
+      "odd_classes": 4,
+      "profile": [
+        2,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 616,
+      "l1": 10,
+      "odd_classes": 4,
+      "profile": [
+        4,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 544,
+      "l1": 8,
+      "odd_classes": 0,
+      "profile": [
+        0,
+        2,
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "profile_count": 9,
+  "profiles": [
+    {
+      "cap": 1176,
+      "l1": 14,
+      "odd_classes": 4,
+      "profile": [
+        4,
+        5,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1060,
+      "l1": 14,
+      "odd_classes": 8,
+      "profile": [
+        7,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1056,
+      "l1": 12,
+      "odd_classes": 0,
+      "profile": [
+        0,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 936,
+      "l1": 12,
+      "odd_classes": 4,
+      "profile": [
+        3,
+        3,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 840,
+      "l1": 12,
+      "odd_classes": 8,
+      "profile": [
+        6,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 744,
+      "l1": 10,
+      "odd_classes": 4,
+      "profile": [
+        2,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 720,
+      "l1": 12,
+      "odd_classes": 8,
+      "profile": [
+        8,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 616,
+      "l1": 10,
+      "odd_classes": 4,
+      "profile": [
+        4,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 544,
+      "l1": 8,
+      "odd_classes": 0,
+      "profile": [
+        0,
+        2,
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "relevant_affine_templates": 154,
+  "relevant_normalized_supports": 28863,
+  "schema": "e1-e24-profile-parity-route-probe-v1",
+  "slack_trace": [
+    [
+      22,
+      2,
+      56
+    ],
+    [
+      21,
+      6,
+      52
+    ],
+    [
+      20,
+      10,
+      48
+    ],
+    [
+      19,
+      14,
+      44
+    ],
+    [
+      18,
+      18,
+      40
+    ],
+    [
+      17,
+      22,
+      36
+    ],
+    [
+      16,
+      26,
+      32
+    ],
+    [
+      15,
+      30,
+      28
+    ],
+    [
+      14,
+      34,
+      24
+    ],
+    [
+      13,
+      38,
+      20
+    ],
+    [
+      12,
+      42,
+      16
+    ],
+    [
+      11,
+      46,
+      12
+    ]
+  ],
+  "source_sha256": "a066570fc9de1f4533a9ab706a1adbf9360e413dcc77728427a8223033f1e796",
+  "survivors_by_odd_count": {
+    "0": [
+      {
+        "cap": 1056,
+        "l1": 12,
+        "odd_classes": 0,
+        "profile": [
+          0,
+          6,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cap": 544,
+        "l1": 8,
+        "odd_classes": 0,
+        "profile": [
+          0,
+          2,
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "2": [],
+    "4": [
+      {
+        "cap": 1176,
+        "l1": 14,
+        "odd_classes": 4,
+        "profile": [
+          4,
+          5,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cap": 936,
+        "l1": 12,
+        "odd_classes": 4,
+        "profile": [
+          3,
+          3,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "cap": 744,
+        "l1": 10,
+        "odd_classes": 4,
+        "profile": [
+          2,
+          1,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "cap": 616,
+        "l1": 10,
+        "odd_classes": 4,
+        "profile": [
+          4,
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "6": []
+  },
+  "used_odd_counts": [
+    "0",
+    "4"
+  ],
+  "variance": 48,
+  "vectors_per_template": 19847936
+}

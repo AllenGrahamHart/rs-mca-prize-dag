@@ -1605,6 +1605,79 @@
    "notes": "ENDPOINT CLOSURE 2026-07-27: the entire E25 chamber is empty. The fixed cubic-Hermite majorant has no positive cutoff below this point."
   },
   {
+   "id": "e1_n256_s16_e24_profile_parity_light_reduction",
+   "title": "N=256 E=24 cutoff-free profile/parity/light reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e24_profile_parity_light_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e24_profile_parity_light_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e24_profile_parity_light_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e24_profile_parity_light_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e24_profile_parity_light_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e24_profile_parity_light_reduction/result.md",
+    "background/nodes/e1_n256_s16_e24_profile_parity_light_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e24_profile_parity_light_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e24_profile_parity_light_reduction/verify_audit.py",
+    "experiments/prize_resolution/e24_profile_parity_probe_modal.py",
+    "experiments/prize_resolution/e24_profile_parity_probe_result.json",
+    "experiments/prize_resolution/e24_profile_parity_probe_check.py"
+   ],
+   "statement": "For N=256 folded profile (3,4,0) at V=48, exact slack gives L<=14. Of nine magnitude profiles, diameter parity leaves (4,5), (0,6), (3,3,1), (2,1,2), (4,1,0,1), and (0,2,0,1). Their complete zero/four-odd light ledger has 28,863 normalized supports in 154 affine templates, giving a 3,056,582,144-vector direct floor per engine. No cubic-Hermite cutoff is used.",
+   "notes": "ROUTE REDUCTION 2026-07-27: the first complete cutoff-free endpoint router below the fixed-majorant boundary. It excludes no surviving profile."
+  },
+  {
+   "id": "e1_n256_s16_e24_six_profile_exclusion",
+   "title": "N=256 E=24 six-profile exact-norm exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e24_six_profile_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e24_six_profile_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e24_six_profile_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e24_six_profile_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e24_six_profile_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e24_six_profile_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e24_six_profile_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e24_six_profile_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e24_six_profile_exclusion/verify_audit.py",
+    "experiments/prize_resolution/e24_six_profile_count.cpp",
+    "experiments/prize_resolution/e24_six_profile_count_audit.cpp",
+    "experiments/prize_resolution/e24_six_profile_count_modal.py",
+    "experiments/prize_resolution/e24_six_profile_count_result.json",
+    "experiments/prize_resolution/e24_six_profile_count_check.py",
+    "experiments/prize_resolution/e24_six_profile_collect.cpp",
+    "experiments/prize_resolution/e24_six_profile_collect_audit.cpp",
+    "experiments/prize_resolution/e24_six_profile_collect_modal.py",
+    "experiments/prize_resolution/e24_six_profile_collect_result.json",
+    "experiments/prize_resolution/e24_six_profile_collect_check.py",
+    "experiments/prize_resolution/e24_six_profile_norm_modal.py",
+    "experiments/prize_resolution/e24_six_profile_norm_result.json",
+    "experiments/prize_resolution/e24_six_profile_norm_check.py"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=48, all six routed profiles are impossible. Two independent actual-vector engines agree after 3,056,582,144 vectors per engine: 14,416 profile vectors, of which 6,834 have full conductor and 7,582 are discharged by the proper-conductor theorem. FLINT and PARI agree on all full-conductor norms, with 2,684 distinct values and N_max<2^250<2*N_max.",
+   "notes": "ROUTE CLOSURE 2026-07-27: two routed profiles are empty and exact resultants close every representative in the other four without using the expired majorant."
+  },
+  {
+   "id": "e1_n256_s16_e24_endpoint_exclusion",
+   "title": "N=256 E=24 endpoint exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e24_endpoint_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e24_endpoint_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e24_endpoint_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e24_endpoint_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e24_endpoint_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e24_endpoint_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e24_endpoint_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e24_endpoint_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e24_endpoint_exclusion/verify_audit.py"
+   ],
+   "statement": "At N=256 and folded profile (3,4,0), V=48 is impossible. The exact profiles (4,5), (0,6), (3,3,1), (2,1,2), (4,1,0,1), and (0,2,0,1) are exhausted by the proved joint exclusion. The live positive even frontier is 0<V<=46.",
+   "notes": "ENDPOINT CLOSURE 2026-07-27: the first endpoint below the fixed cubic-Hermite route boundary closes by geometry, conductor, and direct exact norms."
+  },
+  {
    "id": "e1_first_band_variance_route_boundary",
    "title": "E1 first-band cubic-Hermite variance route boundary",
    "status": "PROVED",
@@ -34605,6 +34678,86 @@
   },
   {
    "from": "e1_n256_s16_e25_endpoint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e25_endpoint_exclusion",
+   "to": "e1_n256_s16_e24_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e24_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "e1_n256_s16_e24_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e26_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e24_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e24_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e24_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e24_six_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e24_six_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e24_six_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e24_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e24_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e24_six_profile_exclusion",
+   "to": "e1_n256_s16_e24_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e24_profile_parity_light_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e24_profile_parity_light_reduction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e24_six_profile_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e24_six_profile_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e24_endpoint_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e24_endpoint_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

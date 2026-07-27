@@ -1,0 +1,6 @@
+{
+  "reduction_statement_file": "background/nodes/e1_n256_s16_e24_profile_parity_light_reduction/statement.md",
+  "reduction_statement_file_sha256": "95c40dab1d85a139c5f2eb8355c013cb9c6c908e5d8e2f4c2c78f834ff647d71",
+  "exclusion_statement_file": "background/nodes/e1_n256_s16_e24_six_profile_exclusion/statement.md",
+  "exclusion_statement_file_sha256": "f6593fd07a8f84bc471ad1d176cbc516f8f42107425f20f54ca32c21e64c0967"
+}

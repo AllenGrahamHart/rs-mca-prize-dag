@@ -80,10 +80,11 @@ explicit finite inequality at the row.
    vector censuses, conductor, and exact norms close all four six-odd
    profiles. The entire `V=52` chamber is closed. At `V=50`, parity leaves
    nine profiles on 111 affine templates; independent 2,203,120,896-vector
-   censuses, conductor, and exact norms close all nine. The fixed cubic
-   majorant has no positive cutoff at `V<=48`. Derive the exact `V=48` router
-   and price all actual profile vectors before authorizing a direct-norm pass.
-   Do not rerun any `V>=50` chamber.
+   censuses, conductor, and exact norms close all nine. At `V=48`, a cutoff-
+   free router leaves six profiles on 154 templates; independent
+   3,056,582,144-vector censuses, conductor, and dual exact norms close them
+   all. Derive the exact `V=46` router without a cubic cutoff. Do not rerun any
+   `V>=48` chamber.
    The
    signed-chord gate
    further excludes circular-Sidon supports: every residual has an oppositely
