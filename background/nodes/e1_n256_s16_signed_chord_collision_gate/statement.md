@@ -4,10 +4,11 @@
 - **closure:** proof plus exact arithmetic
 
 Let `F=sum_i c_i X^i` have folded profile `(3,4,0)` in the
-`N=256,s=5` band, and suppose it survives the variance exclusion, so
+`N=256,s=5` band, and suppose it survives the sparse-L1 variance
+exclusion, so
 
 ```text
-0<V<=134.
+0<V<=110.
 ```
 
 For an unordered support pair `e={i,j}`, let `d(e)` be its circular
@@ -30,7 +31,7 @@ Diameter chords form a matching on the seven support points, and the profile
 weights give `D_64<=21`. Consequently every surviving vector satisfies
 
 ```text
-C<=-7.                                                (2)
+C<=-13.                                               (2)
 ```
 
 In particular, some non-diameter circular distance is realized by two

@@ -36,7 +36,9 @@ removes swap distances through four at `N=256` and distance one at `N=512`.
 Exact variance and interval-resultant refinements exclude both profiles at
 `N=512,s=2`, raising that collision-free radius through distance two.
 At `N=256,s=5`, an exact logarithmic refinement excludes the zero-variance
-and all `V>=136` cases of profile `(3,4,0)`. A separate subfield-norm
+and all `V>=136` cases of profile `(3,4,0)`; a sparse-L1
+refinement also excludes `112<=V<=134`, leaving `V<=110`.
+A separate subfield-norm
 argument excludes every proper-conductor support in both first-band profiles.
 Only full-conductor supports remain, and a certified one exists at variance
 `36`, so the first band is not closed. A 2-adic cofactor argument

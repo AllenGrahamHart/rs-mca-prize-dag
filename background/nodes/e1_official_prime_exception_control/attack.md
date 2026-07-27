@@ -42,7 +42,8 @@ explicit finite inequality at the row.
    `s=3` for `N=512`, and convert every counted object to unordered class
    pairs explicitly. Only profiles `(4,2,0),(3,4,0)` survive in the first
    `N=256` band. In `(3,4,0)`, only positive even autocorrelation variance
-   `V<=134` remains. Proper conductor is already excluded, but an explicit
+   `V<=110` remains after the sparse-L1 refinement. Proper conductor
+   is already excluded, but an explicit
    full-conductor vector with `V=36` rules out reducing the residual to
    periodic lifts. Classify the full-conductor residual before revisiting
    generic supports, applying the exact 2-adic multiplicity gate before any

@@ -315,8 +315,26 @@
     "background/nodes/e1_n256_s16_signed_chord_collision_gate/source_pin.json",
     "background/nodes/e1_n256_s16_signed_chord_collision_gate/verify.py"
    ],
-   "statement": "In the profile-(3,4,0) residual 0<V<=134, let D_64 be the squared weight of diameter chords and C the signed cross sum between distinct support chords of equal non-diameter circular length. Exact negacyclic energy gives V/2=102-D_64+2C. Diameter chords form a matching of weight at most 21, so C<=-7. Thus every residual support has an oppositely signed equal-chord pair, is not circular Sidon, and lies on a signed three-term-progression or four-point-parallelogram template.",
+   "statement": "In the profile-(3,4,0) residual 0<V<=110, let D_64 be the squared weight of diameter chords and C the signed cross sum between distinct support chords of equal non-diameter circular length. Exact negacyclic energy gives V/2=102-D_64+2C. Diameter chords form a matching of weight at most 21, so C<=-13. Thus every residual support has an oppositely signed equal-chord pair, is not circular Sidon, and lies on a signed three-term-progression or four-point-parallelogram template.",
    "notes": "ROUTE REDUCTION 2026-07-27: converts the analytic low-variance residual into an exact additive-relation classification gate. It does not enumerate or exclude the resulting templates."
+  },
+  {
+   "id": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "title": "N=256 square-mass-16 sparse-L1 variance exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/result.md",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py"
+   ],
+   "statement": "For profile (3,4,0), put E=V/2=sum_d A_d^2 and L=sum_d |A_d| over the positive-half negacyclic autocorrelation. At most 21 integer coefficients are nonzero, so E>=3L-42 and every conjugate square is at most 16+2L. Five exact logarithmic majorants exclude every even variance 112<=V<=134 by putting the norm below 2^250. Combined with the parent theorem, every unresolved vector in this profile has positive even V<=110.",
+   "notes": "ROUTE REDUCTION 2026-07-27: uses autocorrelation sparsity to remove twelve more variance values from profile (3,4,0). The positive even V<=110 residual remains open."
   },
   {
    "id": "e1_n256_local_norm_cofactor_collapse",
@@ -17722,8 +17740,18 @@
    "kind": "req"
   },
   {
-   "from": "e1_n256_s16_high_variance_collision_exclusion",
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
    "to": "e1_n256_s16_signed_chord_collision_gate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_high_variance_collision_exclusion",
+   "to": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_sparse_l1_variance_exclusion",
    "kind": "req"
   },
   {
@@ -17828,6 +17856,16 @@
   },
   {
    "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

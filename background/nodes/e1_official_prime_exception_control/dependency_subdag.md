@@ -24,6 +24,9 @@ e1_prime_field_l2_norm_collision_radius [PROVED]
 e1_n256_s16_high_variance_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_n256_s16_sparse_l1_variance_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_n256_proper_conductor_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
@@ -49,8 +52,9 @@ e1_official_prime_exception_control [TARGET]
 The exact compiler fixes the finite allowance but supplies no collision bound.
 The two field reductions prove that the live branch is ambient-generating and
 prime-field. Exact folded-norm arguments remove swap distances through four at
-`N=256` and through two at `N=512`. The square-mass-16 logarithmic refinement
-also reduces one `N=256,s=5` profile to positive even variance at most 134,
+`N=256` and through two at `N=512`. The two square-mass-16
+logarithmic refinements reduce one `N=256,s=5` profile to positive even
+variance at most 110,
 while the proper-conductor theorem removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing

@@ -1,4 +1,4 @@
 {
-  "variance_parent_file": "background/nodes/e1_n256_s16_high_variance_collision_exclusion/statement.md",
-  "variance_parent_file_sha256": "9ff382e14946f9797e29859e118893a239a2e0b6a452ddb38978bd42360cbfa0"
+  "variance_parent_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/statement.md",
+  "variance_parent_file_sha256": "806e60238a63b98838a8f929bd053baf00c2ec8ac594ae72cd6cc7bfaa0959d0"
 }

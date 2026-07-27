@@ -977,8 +977,9 @@ matching of weight at most 21. Expanding the exact negacyclic energy gives
 V/2=102-D_64+2C.
 ```
 
-The residual `V<=134` therefore forces signed repeated-distance cross
-sum `C<=-7`. Every live support has an oppositely signed pair of equal
+The sharpened residual `V<=110` therefore forces signed
+repeated-distance cross sum `C<=-13`. Every live support has an
+oppositely signed pair of equal
 non-diameter chords and hence a three-term-progression or four-point
 parallelogram relation. This removes all circular-Sidon supports and turns the
 next task into an additive-template classification; it does not yet exclude
@@ -996,6 +997,17 @@ profile `(4,2,0)`, the cofactor window contracts to 419 explicit
 values. A 513-resultant FLINT falsification run found no congruence failure,
 but the proof is the local reciprocity norm-group theorem. See
 `background/nodes/e1_n256_local_norm_cofactor_collapse/`.
+
+N32 DONE, E1 N=256 SPARSE-L1 VARIANCE REFINEMENT: the positive-half
+autocorrelation has at most 21 nonzero integer coefficients. If its energy is
+`E=V/2` and L1 norm is `L`, then
+`E>=3L-42`, yielding a variance-dependent conjugate-square ceiling.
+Five exact logarithmic majorants exclude every even `V` from 112
+through 134. The profile-`(3,4,0)` residual is now positive even
+`V<=110`, and the signed-chord gate correspondingly strengthens to
+`C<=-13`. This is a twelve-value analytic exclusion, not a close of
+the remaining 55 variance values. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it

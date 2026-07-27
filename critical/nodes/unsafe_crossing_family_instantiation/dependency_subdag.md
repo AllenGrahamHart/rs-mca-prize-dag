@@ -18,6 +18,7 @@ e1_pair_feasible_ambient_generation      --ev-->
 e1_pair_feasible_prime_field_reduction   --ev-->
 e1_prime_field_l2_norm_collision_radius  --ev-->
 e1_n256_s16_high_variance_collision_exclusion --ev-->
+e1_n256_s16_sparse_l1_variance_exclusion --ev-->
 e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
@@ -75,7 +76,7 @@ force extension degree one and `p=1 mod N`, so the prime-field kernel model is
 now correctly scoped to the residual target. Exact folded-norm certificates
 remove the first four `N=256` swap bands and the first two `N=512` bands. At
 `N=256,s=5`, the square-mass-16 profile is reduced to positive even
-autocorrelation variance at most 134, and both first-band profiles are reduced
+autocorrelation variance at most 110, and both first-band profiles are reduced
 to full-conductor supports. Exact cofactor windows also impose the
 singleton-reduction multiplicity bounds `5` and `16` in the two profiles.
 The square-mass-16 residual additionally has signed repeated-chord cross sum

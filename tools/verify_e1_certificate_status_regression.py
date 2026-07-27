@@ -48,6 +48,7 @@ def main():
         "e1_pair_feasible_prime_field_reduction",
         "e1_prime_field_l2_norm_collision_radius",
         "e1_n256_s16_high_variance_collision_exclusion",
+        "e1_n256_s16_sparse_l1_variance_exclusion",
         "e1_n256_proper_conductor_collision_exclusion",
         "e1_n256_2adic_cofactor_collision_exclusion",
         "e1_n256_s16_signed_chord_collision_gate",
@@ -102,6 +103,7 @@ def main():
         ("e1_pair_feasible_prime_field_reduction", branch_target, "ev"),
         ("e1_prime_field_l2_norm_collision_radius", branch_target, "ev"),
         ("e1_n256_s16_high_variance_collision_exclusion", branch_target, "ev"),
+        ("e1_n256_s16_sparse_l1_variance_exclusion", branch_target, "ev"),
         ("e1_n256_proper_conductor_collision_exclusion", branch_target, "ev"),
         ("e1_n256_2adic_cofactor_collision_exclusion", branch_target, "ev"),
         ("e1_n256_s16_signed_chord_collision_gate", branch_target, "ev"),
@@ -161,6 +163,16 @@ def main():
             "N=256 variance exclusion lost its L2 parent")
     require(("collision_norm_criterion", n256_s16, "req") in edges,
             "N=256 variance exclusion lost its norm parent")
+    sparse_l1 = "e1_n256_s16_sparse_l1_variance_exclusion"
+    require(nodes[sparse_l1]["status"] == "PROVED",
+            "N=256 sparse-L1 variance exclusion regressed")
+    sparse_l1_statement = nodes[sparse_l1]["statement"].lower()
+    require("112<=v<=134" in sparse_l1_statement and "v<=110" in sparse_l1_statement,
+            "N=256 sparse-L1 residual is missing")
+    require((n256_s16, sparse_l1, "req") in edges,
+            "sparse-L1 exclusion lost its variance parent")
+    require(("collision_norm_criterion", sparse_l1, "req") in edges,
+            "sparse-L1 exclusion lost its norm parent")
     proper_conductor = "e1_n256_proper_conductor_collision_exclusion"
     require(nodes[proper_conductor]["status"] == "PROVED",
             "N=256 proper-conductor exclusion regressed")
@@ -185,10 +197,10 @@ def main():
     require(nodes[signed_chord]["status"] == "PROVED",
             "N=256 signed-chord gate regressed")
     signed_chord_statement = nodes[signed_chord]["statement"].lower()
-    require("c<=-7" in signed_chord_statement and "circular sidon" in signed_chord_statement,
+    require("c<=-13" in signed_chord_statement and "circular sidon" in signed_chord_statement,
             "N=256 signed-chord conclusion is missing")
-    require((n256_s16, signed_chord, "req") in edges,
-            "signed-chord gate lost its variance parent")
+    require((sparse_l1, signed_chord, "req") in edges,
+            "signed-chord gate lost its sparse-L1 parent")
     local_norm = "e1_n256_local_norm_cofactor_collapse"
     require(nodes[local_norm]["status"] == "PROVED",
             "N=256 local-norm cofactor collapse regressed")
@@ -228,6 +240,7 @@ def main():
         prime_field,
         l2_radius,
         n256_s16,
+        sparse_l1,
         proper_conductor,
         two_adic,
         signed_chord,
