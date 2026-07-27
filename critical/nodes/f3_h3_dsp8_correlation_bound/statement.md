@@ -195,6 +195,24 @@ pair bound survives inside the `p^6` ambient field. The Mersenne-31 quartic
 order-`2^21` subgroup does not descend because `v_2(p_M-1)=1`; no genuine
 extension-field Mattarei theorem is claimed.
 
+PROVED NORM-ONE QUOTIENT CAP: the missing prime-subfield descent is not needed
+for a multiplicative subgroup lying in a quadratic norm-one torus. In the
+concrete Mersenne-characteristic instance, `p_M+1=2^31`, so the order-`2^21`
+subgroup in `F_(p_M^4)` lies in the quadratic subfield and its norm-one torus.
+A nondegenerate affine line meets that torus in at most two points. Since the
+quotient pencil
+
+```text
+w=1+t(z-1)
+```
+
+always contains `(z,w)=(1,1)`, every nonidentity target has `R(t)<=1`.
+Consequently `X_18<=(n-1)^2` and `17X_18<17n^2<300n^2`: the C36' weighted
+excess is proved on this multiplicative-subgroup instance. The deployed
+Mersenne-31 line round is instead a Chebyshev projection of a twin coset and
+is not covered. This scoped theorem also does not prove the prime-field
+corridor or the literal DSP8 inequality.
+
 PROVED SMOOTH RESIDUAL ROUTER: split the raw trace ledger as
 
 ```text
