@@ -4232,3 +4232,28 @@ next route-deciding action: normalize that antipodal pair, classify its third
                               an analytic cap or another bounded exact census
                               closes the branch
 ```
+
+**2026-07-27, E34 nonquarter-diameter weld reduction:** the next heavy
+template is reduced to 31 exact normal forms and one five-position support
+condition without computation.
+
+```text
+starting pin: local 2bb5265f
+proof pin: pending commit
+node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
+result: NARROWED; nonquarter-diameter branch normalized exactly
+normal forms: H={0,64,t}, 1<=t<=31
+weld condition: one of {64-t,64+t,128-t} is light, or both
+                {2t,64+2t} are light
+exact chamber: 915,125 light supports per t; 1,815,608,000 signed vectors
+DAG delta: one PROVED background node and four edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute spend: none; elementary orbit and inclusion-exclusion proof
+new assumptions: none
+upstream overlap: no open PR supplies this finite E34 signed-weld normal form
+route decision: the chamber is six times the quarter search but has the same
+                exact low-support metric and a natural 31-shard partition
+next route-deciding action: run a separately capped exact profile-and-moment
+                              census only if a verifier-scale pilot confirms
+                              the branch remains below the sub-dollar budget
+```

@@ -90,6 +90,19 @@ the 1,031,680 full-conductor profile-`(6,7)` vectors have exact maximum
 `M_3=1188<1947`. The live E34 frontier therefore has only the nonquarter
 diameter, progression, and generic templates.
 
+The nonquarter-diameter branch has the unique normal forms
+`H={0,64,t}`, `1<=t<=31`. Its two singleton-class welds reduce exactly to
+
+```text
+L intersect {64-t,64+t,128-t} is nonempty
+or {2t,64+2t} is a subset of L.
+```
+
+This leaves 915,125 supports per `t` before signs and profile filters. It is a
+finite chamber, not a closure; the next route decision is its complete exact
+moment census or a signed-weld cap, rather than the retired unrestricted
+support search.
+
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set

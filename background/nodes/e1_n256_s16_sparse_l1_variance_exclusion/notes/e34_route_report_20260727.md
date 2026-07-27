@@ -256,3 +256,29 @@ quarter template. Modal apps `ap-kLTKBwJM3lNWUZA3hul5w7` and
 `ap-XXTZkD7kcupvXULmbp2GKZ` used 45.781851 and 52.691880 aggregate
 worker-seconds. The result is promoted as
 `e1_n256_s16_e34_quarter_template_exclusion`.
+
+## Nonquarter-diameter weld normal form
+
+Normalize the antipodal heavy pair to `{0,64}`. Translation, reflection, and
+exchange of the pair give the 31 unique nonquarter representatives
+`H={0,64,t}`, `1<=t<=31`. The heavy-heavy classes of lengths `t` and `64-t`
+have heavy-light candidate sets
+
+```text
+{128-t,64-t,64+t,2t},
+{64-t,64+t,128-t,64+2t}.
+```
+
+Their intersection has three positions and their symmetric difference has
+two. Hence both forced welds hold exactly when a common position is light or
+both exceptional positions are light. The five positions are distinct and
+nonheavy for all 31 forms. Inclusion-exclusion gives
+
+```text
+binom(125,4)-binom(122,4)+binom(120,2)=915,125
+```
+
+light supports per form, or 1,815,608,000 signed vectors after global sign
+normalization. The analytic reduction is promoted as
+`e1_n256_s16_e34_nonquarter_diameter_weld_reduction`. It does not yet exclude
+the branch; it makes a complete profile-and-moment census bounded and exact.

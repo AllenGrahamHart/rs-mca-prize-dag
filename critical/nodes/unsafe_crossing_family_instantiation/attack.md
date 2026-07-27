@@ -68,9 +68,11 @@ so do not run its full census. Exact selective quotient and support
 certificates first reduce that endpoint to three `L=20` profiles. Chord
 parity then leaves only `(6,7)` and proves that the four light positions have
 six distinct non-diameter circular distances. Apply the 41-signature
-heavy-chord origin classification inside the nonquarter diameter,
-progression, and generic templates. The complete normalized quarter template
-is excluded by the exact cap `M_3<=1188`. Apply the 2-adic singleton screen
+heavy-chord origin classification inside the progression and generic
+templates. The complete normalized quarter template is excluded by the exact
+cap `M_3<=1188`. In the nonquarter-diameter template, use the 31 normal forms
+and their exact common-or-paired weld disjunction; test that bounded chamber
+before deriving any broader support census. Apply the 2-adic singleton screen
 and the forced signed additive relations rather than generic support
 enumeration.
 Test the odd norm part directly; do not scan arbitrary cofactors below 64.

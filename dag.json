@@ -548,6 +548,25 @@
    "notes": "ROUTE CLOSURE 2026-07-27: closes one of four heavy templates with two shardwise-identical exact implementations. The nonquarter diameter, progression, and generic templates remain."
   },
   {
+   "id": "e1_n256_s16_e34_nonquarter_diameter_weld_reduction",
+   "title": "N=256 E=34 nonquarter-diameter weld reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/result.md",
+    "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/verify_audit.py"
+   ],
+   "statement": "Every residual N=256, folded-(3,4,0), V=68 nonquarter-diameter template has a unique normal form H={0,64,t}, 1<=t<=31. Its four light positions meet one of three common weld positions or contain both exceptional weld positions. This exact chamber has 915,125 supports per t and 1,815,608,000 normalized signed vectors; D_64=20 exactly when 64+t is light.",
+   "notes": "ROUTE REDUCTION 2026-07-27: converts the two forced singleton-class welds into one five-position support disjunction. It does not exclude the nonquarter-diameter template."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -18366,6 +18385,16 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_e34_heavy_chord_template_reduction",
+   "to": "e1_n256_s16_e34_nonquarter_diameter_weld_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e34_parity_profile_reduction",
+   "to": "e1_n256_s16_e34_nonquarter_diameter_weld_reduction",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -18567,6 +18596,16 @@
   },
   {
    "from": "e1_n256_s16_e34_quarter_template_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e34_nonquarter_diameter_weld_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e34_nonquarter_diameter_weld_reduction",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

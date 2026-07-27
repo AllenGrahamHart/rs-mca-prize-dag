@@ -64,4 +64,7 @@ have distinct non-diameter circular lengths. The heavy positions then fall
 into four exact templates. Every singleton heavy-heavy class contains a
 heavy-light chord. Two independent complete censuses then exclude the entire
 quarter template with exact maximum `M_3=1188<1947`. Three E34 templates
-remain: nonquarter diameter, progression, and generic.
+remain: nonquarter diameter, progression, and generic. The first is now
+normalized to `H={0,64,t}`, `1<=t<=31`; its two forced heavy-light welds are
+equivalent to one exact five-position support disjunction, leaving 915,125
+necessary-condition supports per `t`.
