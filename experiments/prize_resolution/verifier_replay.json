@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e34_parity_profile_reduction/verify.py",
-      "seconds": 0.037963,
+      "script": "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/verify.py",
+      "seconds": 0.33837,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E34_PARITY_PROFILE_REDUCTION_PASS unit_chords=6 odd_counts=(6, 10, 14) diameter_ledgers=6\n"
+      "stdout_tail": "E1_N256_S16_E34_HEAVY_CHORD_TEMPLATE_REDUCTION_PASS triples=341376 cases={'diameter': 7936, 'generic': 325376, 'progression': 7936, 'quarter': 128}\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e34_parity_profile_reduction/verify_audit.py",
-      "seconds": 0.016245,
+      "script": "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/verify_audit.py",
+      "seconds": 0.014767,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E34_PARITY_PROFILE_REDUCTION_AUDIT_PASS mutations=4\n"
+      "stdout_tail": "E1_N256_S16_E34_HEAVY_CHORD_TEMPLATE_REDUCTION_AUDIT_PASS mutations=4\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

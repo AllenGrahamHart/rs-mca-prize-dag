@@ -25,6 +25,7 @@ e1_n256_s16_e36_quotient_schur_exclusion --ev-->
 e1_n256_s16_e35_quotient_schur_exclusion --ev-->
 e1_n256_s16_e34_three_profile_reduction --ev-->
 e1_n256_s16_e34_parity_profile_reduction --ev-->
+e1_n256_s16_e34_heavy_chord_template_reduction --ev-->
 e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
@@ -93,5 +94,8 @@ parallelogram relation. Its collision cofactor is exactly `2^mu` for
 At `V=68`, the quotient reduction leaves three `L=20` profiles and the parity
 child removes two of them. The sole residual is `(6,7)`, whose six
 light-light chords have distinct non-diameter lengths. Its broad quotient
-relaxation is exhausted; the next positive object is the 41-signature
-heavy-chord origin classification.
+relaxation is exhausted. The heavy-heavy origins are split exactly into
+quarter, nonquarter diameter, progression, and generic templates; every
+singleton heavy-heavy class is welded to a heavy-light chord, and the quarter
+`D_64=20` branch is empty. The next positive object is the 41-signature
+heavy-light collision classification inside those four templates.

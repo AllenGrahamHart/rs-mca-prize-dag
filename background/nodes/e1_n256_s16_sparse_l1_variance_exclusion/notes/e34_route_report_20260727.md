@@ -214,3 +214,19 @@ is restricted to `0,4,8,12,16,20`. The corresponding signed equal-chord cross
 sums are `-34,-32,-30,-28,-26,-24`. This proof is promoted as
 `e1_n256_s16_e34_parity_profile_reduction`; the 41 relaxed signatures now
 describe heavy-chord collisions around one profile rather than three.
+
+## Heavy-chord templates
+
+The three magnitude-four chords join the heavy positions. Since the output
+profile contains only magnitudes one and two, a singleton non-diameter
+heavy-heavy class must also contain a heavy-light chord: the optional one
+light-light chord can change magnitude four only to three or five. This gives
+four exhaustive heavy-position templates: quarter, nonquarter diameter,
+progression, and generic.
+
+The normalized quarter template is `H={0,32,64}`. Its only possible
+heavy-light diameter would put a light at `96`, but the exact distance-32
+signed sum then has magnitude four or eight for every sign choice. Thus that
+branch is empty. Without `96`, the outer heavy signs must be opposite, so the
+quarter template has exactly `(D_64,C)=(16,-26)`. This reduction is promoted
+as `e1_n256_s16_e34_heavy_chord_template_reduction`.

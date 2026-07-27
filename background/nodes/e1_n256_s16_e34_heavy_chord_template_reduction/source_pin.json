@@ -1,0 +1,6 @@
+{
+  "parity_profile_file": "background/nodes/e1_n256_s16_e34_parity_profile_reduction/statement.md",
+  "parity_profile_file_sha256": "90a546f51956446dbc188ed467c700a51ab505a081e9e5731877076412ce19fe",
+  "signed_chord_file": "background/nodes/e1_n256_s16_signed_chord_collision_gate/statement.md",
+  "signed_chord_file_sha256": "926f9c94a0b5dd0830b7e37fafcd96f570dd93802de16061c802546e466e3157"
+}

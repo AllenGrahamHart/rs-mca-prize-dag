@@ -60,4 +60,6 @@ every pair-feasible `V=68` collision has magnitude profile `(6,7)`,
 `(9,4,1)`, or `(12,1,2)`. All three have `L=20`; the other 21 integer
 profiles are proved impossible. Chord parity then removes `(9,4,1)` and
 `(12,1,2)`. In the sole residual `(6,7)` profile, all six light-light chords
-have distinct non-diameter circular lengths.
+have distinct non-diameter circular lengths. The heavy positions then fall
+into four exact templates. Every singleton heavy-heavy class contains a
+heavy-light chord, and the quarter template's `D_64=20` branch is impossible.

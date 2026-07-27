@@ -79,6 +79,14 @@ classification, coupled to the signed progression/parallelogram gate or a
 stronger analytic norm majorant; do not return to the retired broad quotient
 census.
 
+The heavy-heavy origins are now classified before that 41-signature step.
+There are four templates: quarter, nonquarter diameter, heavy progression,
+and generic. Every singleton non-diameter heavy-heavy class contains a
+heavy-light chord. In the quarter template the missing quarter cannot be
+light, the outer heavy signs are opposite, and only `D_64=16` survives; its
+former `D_64=20` branch is empty. Successor work should attack these four
+templates separately, beginning with the bounded quarter normalization.
+
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
