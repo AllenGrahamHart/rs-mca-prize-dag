@@ -4340,7 +4340,7 @@ exact weld shapes.
 
 ```text
 starting pin: local cbf1260e
-proof pin: pending commit
+proof pin: local 06a4294e
 node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
 result: NARROWED generic branch; it is now the sole E34 template
 orbit census: 325,376 heavy triples -> 57 affine odd-unit representatives
