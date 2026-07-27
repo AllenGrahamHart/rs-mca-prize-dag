@@ -173,8 +173,9 @@
    "title": "thm:exactcount: Acl = 2^{beta N'(1-o(1))} (char 0)",
    "status": "PROVED",
    "refs": [
-    "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#2"
-   ]
+    "archived/slackMCA_v3.tex#thm:exactcount"
+   ],
+   "statement": "EXACT SLOPE COUNT (thm:exactcount, Paper B / slackMCA). With N' = n/sigma, n_1 = N'/2, l' = rho N' + 1, let A(N',l') = sum over u >= 0, t = l' - 2u >= 0, u <= n_1 - t of binom(n_1,t) 2^t be the number of antipodal-rearrangement classes of l'-subsets of mu_{N'} (class invariant: the signed set of singleton antipodal pairs together with the number of full pairs). Then for every prime IN THE STABLE RANGE the canonical line's bad-slope count is exactly B(p) = A(N',l'), and at rho = 1/2, B(p) = (3^{n/(2 sigma)} - 1)/2. Consequently at safe slack B(p) = n^{beta(rho)/c_eff + o(1)} with beta(rho) = (1/2) max over 0 <= theta <= 2 min(rho,1-rho) of (H(theta) + theta). SCOPE FENCE (load-bearing): exactness holds only ABOVE THE QUOTIENT NORM THRESHOLD p > (2 l')^{N'/2}. At log2 q = 256 and rho = 1/2 that means N' <= 80 \u2014 zone (a) of proof_sketch/s2_paid_ledger.md#3, which is the PROVED-exact zone. The range 80 < N' < ~512 is zone (b), explicitly CONJECTURAL in that source and carried by the separate node `zone_b` (CONDITIONAL). This node claims only the zone-(a) exact count. REF CORRECTED 2026-07-27: the previous ref pointed at proof_sketch/s3b_iii_3_fibers_and_noanchor.md#2 (tagged SKETCH, on Conjecture F unification), which does not state this theorem; the real source is thm:exactcount in archived/slackMCA_v3.tex upstream."
   },
   {
    "id": "zone_b",
@@ -495,11 +496,12 @@
   {
    "id": "averaged_xr",
    "title": "Averaged XR via Johnson-scheme second moments",
-   "status": "PROVED",
+   "status": "TARGET",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#5"
    ],
-   "notes": "The graded-by-intersection second-moment table is now CLOSED FORM via the pair-rank ledger: correlations q^{-min(s,t)} extra for s < t, exact independence beyond \u2014 the variance is dominated by close pairs, as the FM model hoped. | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED PROVED -> CONDITIONAL (consolidation agent's cross-audit): the proof defers to xr_ledger_qpower (now PROVED, slot filled) BUT the exponent off-by-one \u2014 statement q^{-min(s,t)} vs ledger c(s,t) = min(s,t-1) \u2014 is unresolved and worth a full q factor at deep shells. Conditional on xr_ledger_exponent_reconciliation."
+   "notes": "The graded-by-intersection second-moment table is now CLOSED FORM via the pair-rank ledger: correlations q^{-min(s,t)} extra for s < t, exact independence beyond \u2014 the variance is dominated by close pairs, as the FM model hoped. | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED PROVED -> CONDITIONAL (consolidation agent's cross-audit): the proof defers to xr_ledger_qpower (now PROVED, slot filled) BUT the exponent off-by-one \u2014 statement q^{-min(s,t)} vs ledger c(s,t) = min(s,t-1) \u2014 is unresolved and worth a full q factor at deep shells. Conditional on xr_ledger_exponent_reconciliation.",
+   "statement": "AVERAGED XR (the slope-resolved second moment). Claim sought: second moments of |A_{u,v}| over pairs (u,v) (or over slopes) admit explicit Cauchy double sums over pairs (T,T') graded by intersection size, so that the Johnson-scheme decomposition applies and the lam_0 - lam_1 = n gap gives variance control; same-slope pairs carry the closed-form correlation term while distinct-slope pairs are independent. This is what `averaged_slope_conversion` consumes as its second moment. DEMOTED PROVED -> TARGET 2026-07-27 (false green, three independent reasons): (i) the node's proof.md auto-discharges 'the conditional implication (see conditional.md)' but NO conditional.md exists in the folder \u2014 there is no implication to invoke; (ii) its sole req-predicate `xr_ledger_exponent_reconciliation` RECONCILES 'averaged_xr's stated shell exponent q^{-min(s,t)} with the proved ledger's c(s,t) = min(s,t-1)' \u2014 it presupposes this claim and cannot prove it; (iii) the node's own sketch.md records status PROVABLE, and the upstream source (proof_sketch/s3b_iii_2_displacement_spectral.md#5, tagged SKETCH) says only that the averaged form 'LOOKS PROVABLE with current tools', explicitly leaving worst-case de-correlation as the wall. ATTACK: the Hooley-Katz / Scott exponential-sum lane named in that section. FALSIFIER: a shell where the reconciled exponent c(s,t) breaks the variance control the conversion needs."
   },
   {
    "id": "displacement_uniform",
@@ -1521,12 +1523,12 @@
   {
    "id": "averaged_slope_conversion",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#6"
    ],
    "notes": "s2 fork F2: plausibly provable (second moment + paid-fiber exclusion); needed exactly when zone-(b) is collided | PROOF WRITTEN in flight (#212): FM1 + slope-resolved second moment + v8 cap + explicit paid-fiber exclusion; verifier green. Their honest caveat: stated for post-paid support families \u2014 row use still needs the paid-excluded strict-overlap profile. | FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): CONJECTURE -> CONDITIONAL; referee packet in nodes/averaged_slope_conversion/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them). | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED with the averaged_xr exponent question (cross-audit cascade): the proof stands as a conditional implication; discharges when xr_ledger_exponent_reconciliation lands.",
-   "statement": "For a deterministic support family A with exact strict-overlap profile, put nu(A)=E[N(A)]-(q/2)C_t(A). For every integer B>=1, nu(A)>B-1 implies the existence of a received pair with at least B distinct finite bad slopes. Prize use with the strict unsafe inequality >B* therefore requires nu(A)>B* and B=B*+1, after paid-family ownership and ambient-field scope are supplied."
+   "statement": "For a deterministic support family A with exact strict-overlap profile, put nu(A)=E[N(A)]-(q/2)C_t(A). For every integer B>=1, nu(A)>B-1 implies the existence of a received pair with at least B distinct finite bad slopes. Prize use with the strict unsafe inequality >B* therefore requires nu(A)>B* and B=B*+1, after paid-family ownership and ambient-field scope are supplied. | DEMOTED PROVED -> CONDITIONAL 2026-07-27: the conditional implication (conditional.md, predicates `fm1` + `averaged_xr`) is intact and `fm1` is PROVED, but `averaged_xr` \u2014 which this node's proof explicitly relies on to 'supply the slope-resolved second moment' \u2014 was demoted to TARGET as a false green. This node is therefore CONDITIONAL on averaged_xr. (Independently corroborates the session-7j finding that this node's post-paid-support-family scope was being consumed at row level.)"
   },
   {
    "id": "dyadic_profile_evaluation",
@@ -1720,8 +1722,8 @@
   {
    "id": "xr_gvn",
    "title": "XR stage 1: generalized von Neumann \u2014 FM-excess controlled by iterated exchange energies",
-   "status": "PROVED",
-   "statement": "Define E_k(u,v) = the k-fold iterated exchange-correlation (Johnson-scheme energy of order k). Prove: unpaid alignment excess over FM is bounded by some E_k being large (Cauchy-Schwarz chain over exchange moves).",
+   "status": "CONDITIONAL",
+   "statement": "Define E_k(u,v) = the k-fold iterated exchange-correlation (Johnson-scheme energy of order k). Prove: unpaid alignment excess over FM is bounded by some E_k being large (Cauchy-Schwarz chain over exchange moves). | DEMOTED PROVED -> CONDITIONAL 2026-07-27: propagation from the averaged_xr false-green demotion \u2014 now conditional on ['averaged_xr'].",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
    ],
@@ -1730,9 +1732,9 @@
   {
    "id": "xr_inverse",
    "title": "XR stage 2: the inverse theorem \u2014 large E_k => correlation with explicit class C_XR",
-   "status": "PROVABLE",
+   "status": "CONDITIONAL",
    "key": true,
-   "statement": "STRIPPED FORM (per the E2 scaffold caveat): after removing paid quotient strata, E_k large (multi-exchange variant if needed) implies correlation with an explicit class C_XR \u2014 expected content post-strip: TANGENT structure only at low k. The class is complete by construction; quotient content is invisible to one-exchange energy and must be stripped first, else false negatives.",
+   "statement": "STRIPPED FORM (per the E2 scaffold caveat): after removing paid quotient strata, E_k large (multi-exchange variant if needed) implies correlation with an explicit class C_XR \u2014 expected content post-strip: TANGENT structure only at low k. The class is complete by construction; quotient content is invisible to one-exchange energy and must be stripped first, else false negatives. | 2026-07-27: PROVABLE -> CONDITIONAL, propagation from the averaged_xr false-green demotion (open reqs ['xr_gvn']).",
    "attack_surface": "the Gowers-inverse analogue; start at k = 3 (odd moments \u2014 the Hooley-Katz input is exactly the k=3 shadow)",
    "falsifier": "an E_k-large pair correlating with nothing structured at toy scale",
    "refs": [
@@ -16386,7 +16388,7 @@
   {
    "id": "averaged_occupancy_clean_anchor_first_moment_route_cut",
    "title": "Complete-support first-moment route cut at clean envelopes",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "closure": "proof",
    "refs": [
     "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/statement.md",
@@ -16395,7 +16397,7 @@
     "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/verify.py",
     "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/source_pin.json"
    ],
-   "statement": "At each of the six named high-budget clean predecessor anchors, any support family with |S|>=a has E[N(A)]<B*. Indeed the complete-family FM1 sum is dominated by a geometric tail below B*, with exact RowC binomial certificates and exact rational-entropy prize certificates. Since the averaged supplier has nu(A)=E[N(A)]-(q/2)C_t(A)<=E[N(A)], no deterministic support family can satisfy nu(A)>B* there. This rules out the present M supplier at those envelopes, not direct Q/V payloads or safety.",
+   "statement": "At each of the six named high-budget clean predecessor anchors, any support family with |S|>=a has E[N(A)]<B*. Indeed the complete-family FM1 sum is dominated by a geometric tail below B*, with exact RowC binomial certificates and exact rational-entropy prize certificates. Since the averaged supplier has nu(A)=E[N(A)]-(q/2)C_t(A)<=E[N(A)], no deterministic support family can satisfy nu(A)>B* there. This rules out the present M supplier at those envelopes, not direct Q/V payloads or safety. | DEMOTED PROVED -> CONDITIONAL 2026-07-27: propagation from the averaged_xr false-green demotion \u2014 now conditional on ['averaged_slope_conversion'].",
    "notes": "ROUTE CUT 2026-07-27: the first moment is already below budget, so no strict-overlap optimization can rescue averaged_slope_conversion on the six named envelopes."
   },
   {
@@ -19399,7 +19401,7 @@
   {
    "from": "xr_ledger_exponent_reconciliation",
    "to": "averaged_xr",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "subcore_richline_classification",

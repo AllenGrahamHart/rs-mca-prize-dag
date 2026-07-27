@@ -28,9 +28,10 @@ EXPECTED_COUNTS = {
     # zone_b/mca_unsafe/unsafe_at_crossing cluster, so 19 e1 nodes left the critical
     # orbit entirely. md-only 146 -> 131, local-verifier 50 -> 44. Widened per hard
     # law 8: a legitimate re-pricing, recorded, not silenced.
-    "folder-md-only": 131,
+    # 2026-07-27 (averaged_xr false-green cascade): 131 -> 129, 44 -> 43.
+    "folder-md-only": 129,
     "legacy-ref-only": 5,
-    "local-verifier": 44,
+    "local-verifier": 43,
 }
 
 EXPECTED_NO_PROOF = {
@@ -105,8 +106,8 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    require(len(critical["nodes"]) == 242, "critical orbit size drift")  # wave-24 (2026-07-27): e1 subtree (19 nodes) left the critical path when zone_b->mca_unsafe was rewired; was 260
-    require(len(proved) == 180, "critical PROVED count drift")  # wave-24: proof_sketch re-grade demotions (e1 chain + zone_b/mca_unsafe/unsafe_at_crossing); was 201
+    require(len(critical["nodes"]) == 241, "critical orbit size drift")  # 242 -> 241 (2026-07-27: xr_ledger_exponent_reconciliation left the critical path when averaged_xr became a red leaf)
+    require(len(proved) == 177, "critical PROVED count drift")  # 180 -> 177 (2026-07-27: averaged_xr false green + its cascade)
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()

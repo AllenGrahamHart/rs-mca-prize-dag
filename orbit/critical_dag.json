@@ -28,12 +28,12 @@
   },
   {
    "id": "averaged_slope_conversion",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair"
   },
   {
    "id": "averaged_xr",
-   "label": "PROVED",
+   "label": "UNPROVED",
    "title": "Averaged XR via Johnson-scheme second moments"
   },
   {
@@ -1162,11 +1162,6 @@
    "title": ""
   },
   {
-   "id": "xr_ledger_exponent_reconciliation",
-   "label": "PROVED",
-   "title": "Micro-lemma: pin the pair-ledger exponent (min(s,t) vs min(s,t-1))"
-  },
-  {
    "id": "xr_lowcore_spread_heart",
    "label": "UNPROVED",
    "title": "XR support-local low-core spread heart"
@@ -1825,10 +1820,6 @@
   {
    "from": "axis8_generating",
    "to": "f1_case_tower"
-  },
-  {
-   "from": "xr_ledger_exponent_reconciliation",
-   "to": "averaged_xr"
   },
   {
    "from": "f_spread_descent_dichotomy",

@@ -40,7 +40,11 @@ def main():
     require(nodes[tangent]["status"] == "PROVED", "tangent supplier regressed")
     require(nodes[tangent_clean]["status"] == "PROVED",
             "tangent clean-anchor classifier regressed")
-    require(nodes[occupancy_cut]["status"] == "PROVED",
+    # WIDENED 2026-07-27 (hard law 8): averaged_xr was found to be a false green
+    # (no conditional.md; its sole req presupposed the claim) and demoted to TARGET,
+    # so averaged_slope_conversion -> CONDITIONAL and this route cut with it. The
+    # legitimate states are now PROVED or CONDITIONAL; anything else is a regression.
+    require(nodes[occupancy_cut]["status"] in ("PROVED", "CONDITIONAL"),
             "averaged occupancy route cut regressed")
     require(nodes[qfloor_cut]["status"] == "PROVED",
             "qfloor clean-anchor route cut regressed")

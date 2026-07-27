@@ -45,8 +45,12 @@ SUBMISSION_ROOT = "prize"
 # unsafe_at_crossing were demoted after the proof_sketch re-grade proved the cited
 # sections say CONJECTURAL / typicality, not PROVED (notes/PROOF_SKETCH_PROVENANCE.md).
 # Was 201/36/23 (260); the demotions also drop 19 e1 nodes off the critical path.
-EXPECTED_MATH = {"PROVED": 180, "CONDITIONAL": 38, "TARGET": 24}
-EXPECTED_SUBMISSION = {"PROVED": 192, "CONDITIONAL": 40, "TARGET": 25}  # was 213/38/24
+# 2026-07-27 (sketch-tagged re-grade): averaged_xr was a FALSE GREEN (no conditional.md;
+# its sole req PRESUPPOSED the claim; own sketch.md said PROVABLE; source says only
+# "looks provable") -> TARGET, cascading averaged_slope_conversion / xr_gvn /
+# averaged_occupancy_... -> CONDITIONAL. Was 180/38/24.
+EXPECTED_MATH = {"PROVED": 177, "CONDITIONAL": 39, "TARGET": 25}
+EXPECTED_SUBMISSION = {"PROVED": 189, "CONDITIONAL": 41, "TARGET": 26}  # was 192/40/25
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no
@@ -159,8 +163,8 @@ def main() -> int:
     # The roadmap phrase "23 mathematical leaves" is an arithmetic consequence,
     # not an independent count: assert it rather than trusting prose.
     math_targets = sorted(i for i in math_ids if nodes[i]["status"] == "TARGET")
-    if len(math_targets) != 24:
-        errors.append(f"mathematical-leaf count drift: {len(math_targets)} != 24")
+    if len(math_targets) != 25:
+        errors.append(f"mathematical-leaf count drift: {len(math_targets)} != 25")
     if NON_MATH_TARGET in math_targets:
         errors.append(f"{NON_MATH_TARGET} leaked into the math orbit")
 
