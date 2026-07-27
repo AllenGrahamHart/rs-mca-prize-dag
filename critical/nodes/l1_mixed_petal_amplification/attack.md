@@ -211,6 +211,15 @@
   pointwise shell hypothesis. Intercept six is only an arithmetic floor, not
   a theorem, and this witness has no received-word or slope projection; do
   not use it as an L1 counterexample.
+- The independently reconstructed
+  `l1_m31_depth32_uniform_intercept_counterexample` further refutes the
+  proposed uniform in-band cap `1233`: one explicit anchor has
+  `d_192>=1225+12=1237`. Thus a band-wide coefficient-four scalar route must
+  use intercept at least `1237`, not merely repair the deficiency-64 floor.
+  The recalibrated arithmetic still leaves reserve `1767799`, so this kills
+  the printed cap rather than the entire route. No upper bound of `1237` is
+  known, and the support packet still lacks received-word and first-match
+  projection.
 - Use `l1_m31_semantic_owner_profile_regression` as the positive regression
   for the required repair mechanism. On one complete `F_241` received-line
   fixture, two genuine common-GCD/pencil owner slopes remove exactly two of
@@ -572,6 +581,47 @@
   that chamber before any degree-`n` remainder. Nonunit components are only
   candidates: impose `t=s^p` and the original cyclotomic remainder before
   treating one as an outer survivor.
+  Before launching any saturation, also consume
+  `l1_mersenne_hnf_order_zero_linear_color_exclusion`. The constant and
+  linear colored-interpolant strata are empty, so start the order-zero
+  degree split at `deg E=2`. Do not rerun a generic saturation that includes
+  either deleted stratum.
+  At `deg E=2`, consume
+  `l1_mersenne_hnf_order_zero_quadratic_collision_router`. On an `m=8` row,
+  shard only into collision-free and exactly-one-repeated-color systems. On
+  the `m=16` row, those two systems remain, and every multiple-repeat system
+  must use an even interpolant. Do not retain a nonzero-center
+  multiple-collision chamber or a two-antipodal-pair `m=8` chamber.
+  Then consume
+  `l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion`: delete the
+  no-repeat system on every row. The complete live `m=8` quadratic task is
+  now exactly one repeated color. The `m=16` task is exactly one repeat plus
+  the even multi-repeat chamber. Preserve this multiplicity split in any
+  resultant or cyclotomic saturation.
+  Next consume
+  `l1_mersenne_hnf_m8_order_zero_quadratic_exclusion`: delete the complete
+  degree-two chamber on all four `m=8,h=7` rows. Its 21 one-repeat color
+  patterns are already certified coprime to the constant-coefficient torsion
+  equation, so do not rerun them in a generic saturation. Start `m=8` at
+  `deg E>=3`. The `m=16` exactly-one-repeat and even multi-repeat quadratic
+  systems remain live and must stay separate.
+  Then consume
+  `l1_mersenne_hnf_m16_order_zero_single_collision_exclusion`: delete all
+  105 exactly-one-repeat patterns on the official `m=16,h=15` row. The only
+  live quadratic system is now even with at least two antipodal repeated
+  colors. Attack that system through the even/odd common-factor equations;
+  do not retain any injective or single-collision quadratic shard.
+  Finally consume
+  `l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion`: delete that
+  common-factor system as well. The first-subresultant coefficient gcd has
+  only prime-field roots, so degree two is closed on every `m=8,16` endpoint.
+  Start all remaining order-zero colored work at `deg E>=3`; do not include
+  any quadratic chamber in a future Frobenius saturation.
+  Before doing any higher-degree split, consume
+  `l1_mersenne_hnf_m8_order_zero_reciprocal_elimination`: delete the complete
+  order-zero chamber on all four `m=8,h=7` rows. Its first three reciprocal
+  equations already force `s in F_p`, uniformly over every interpolant
+  degree. Higher-degree order-zero work is now owed only at `m=16,h=15`.
   For the order-one chamber, first consume
   `l1_mersenne_hnf_order_one_frobenius_gate`. Put `d=c-1` and shard only by
   `zeta=d^(p+1) in mu_m`; then `c^p=1+zeta/d`. Combine the hypergeometric

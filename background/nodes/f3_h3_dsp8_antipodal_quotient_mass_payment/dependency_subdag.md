@@ -3,7 +3,7 @@
 ```text
 f3_h3_distance_six_support_overlap_payment --------+
                                                     |
-f3_affine_coset_pair_cubic_preimage_stepanov ------+
+f3_affine_coset_pair_mattarei_bound ----------------+
                                                     |
 f3_h3_dsp8_primitive_shift_pair_adapter ------------+
                                                     v

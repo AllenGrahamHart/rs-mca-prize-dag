@@ -52,12 +52,15 @@ G_25^c=4K_25^c=J_25^c.                               (EC5)
 ```
 
 Thus DSP8 is a quotient-line-weighted pair count on a one-parameter family of
-mostly elliptic subgroup trace curves. The exact target remains
+mostly elliptic subgroup trace curves. The historical stronger sufficient
+target at this stage was
 
 ```text
 10G_25^0+17G_25^A<=892n^2.                           (EC6)
 ```
 
-This router supplies no point-pair estimate. In particular, the upstream
+The live target is the later target-sensitive inequality in
+`f3_h3_dsp8_correlation_bound`. This router supplies no point-pair estimate.
+In particular, the upstream
 same-`(e1,e2)` rational-conic chart does not parameterize `(EC1)`: DSP8 fixes
 `(e1,e3)=(sigma,1)`, and the generic trace fiber has genus one.

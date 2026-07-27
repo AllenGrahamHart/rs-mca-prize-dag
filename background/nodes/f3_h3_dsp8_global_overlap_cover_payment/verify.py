@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[3]
 NODE = "f3_h3_dsp8_global_overlap_cover_payment"
 DEPENDENCIES = {
     "f3_h3_distance_six_support_overlap_payment",
-    "f3_affine_coset_pair_cubic_preimage_stepanov",
+    "f3_affine_coset_pair_mattarei_bound",
     "f3_h3_dsp8_antipodal_quotient_mass_payment",
     "f3_h3_dsp8_primitive_shift_pair_adapter",
 }
@@ -38,15 +38,15 @@ def cover_identity_check(prime: int = 1_000_003) -> None:
 
 
 def arithmetic_check() -> int:
-    assert Fraction(17, 10) * 2 * Fraction(51, 16) == Fraction(867, 80)
     assert Fraction(17, 10) * 2 == Fraction(17, 5)
-    assert 68 * Fraction(51, 32) == Fraction(867, 8)
-    assert Fraction(867, 8) + Fraction(867, 4) == Fraction(2601, 8)
-    assert Fraction(495) - Fraction(2601, 160) == Fraction(76599, 160)
+    assert 4 * 189**3 > 27 * 100**3
+    assert 68 * Fraction(1, 2) + 68 == 102
+    assert Fraction(495) - Fraction(102 * 189, 100 * 20) == Fraction(485361, 1000)
+    assert Fraction(485361, 1000) > Fraction(12134, 25)
     assert Fraction(750, 20) == Fraction(300, 8)
     assert -Fraction(255, 20) == -Fraction(102, 8)
     assert -Fraction(68, 20) == -Fraction(17, 5)
-    assert Fraction(867, 4) / 20 == Fraction(867, 80)
+    assert Fraction(68, 20) == Fraction(17, 5)
 
     rows = 0
     for exponent in range(13, 42):
@@ -55,10 +55,10 @@ def arithmetic_check() -> int:
         root_free = (
             750 * n * n
             - 255 * quotient_mass
-            - Fraction(76599, 160) * n * n
+            - Fraction(12134, 25) * n * n
         )
         assert root_free > 0
-        assert Fraction(2601, 8) ** 3 * n**5 < root_free**3
+        assert Fraction(102 * 189, 100) ** 3 * n**5 < root_free**3
         rows += 1
     return rows
 
@@ -77,9 +77,9 @@ def packet_check() -> None:
     statement = "".join((base / "statement.md").read_text().split())
     proof = "".join((base / "proof.md").read_text().split())
     for marker in (
-        "<(867/80)n^(5/3)+(17/5)S_A",
-        "10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)",
-        "160(10K_25^0+17K_25^A)<=76599n^2",
+        "<(17/5)C_Mn^(5/3)+(17/5)S_A",
+        "10K_25^0+17K_25^A+68S_A+68C_Mn^(5/3)",
+        "25(10K_25^0+17K_25^A)<=12134n^2",
         "atmost`2n`suchedgesglobally",
     ):
         assert marker in statement + proof
@@ -100,7 +100,7 @@ def packet_check() -> None:
         .read_text()
         .split()
     )
-    live_marker = "10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)"
+    live_marker = "10K_25^0+17K_25^A+68S_A+68C_Mn^(5/3)"
     assert live_marker in target
     assert live_marker in conditional
 
@@ -112,7 +112,7 @@ def main() -> None:
     print(
         "F3_H3_DSP8_GLOBAL_OVERLAP_COVER_PAYMENT_PASS "
         f"official_rows={rows} global_edge_cap=2n "
-        "uniform_numerator=76599 denominator=160"
+        "uniform_numerator=12134 denominator=25"
     )
 
 

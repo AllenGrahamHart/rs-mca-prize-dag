@@ -30,13 +30,15 @@ Stdlib only, exact integers, no floats.
 
 from __future__ import annotations
 
+import hashlib
 import json
 import sys
 from math import isqrt
 from pathlib import Path
 
-CERT = (Path(__file__).resolve().parent.parent / "data" / "certificates" /
-        "proth-rows" / "proth_rows.json")
+ROOT = Path(__file__).resolve().parents[3]
+CERT = ROOT / "notes" / "upstream_pr_proposals_20260726" / "proth_rows_pinned.json"
+CERT_SHA256 = "652d83f8351b83e4b5fe5683bb0ea3b5f1be18bbcdcb7b96c59d8ff8ac826d9a"
 TWO128 = 1 << 128
 TWO256 = 1 << 256
 
@@ -63,7 +65,9 @@ def r_quad_naive(n: int, k: int) -> int:
 
 
 def main() -> int:
-    cert = json.loads(CERT.read_text())
+    packet = CERT.read_bytes()
+    check(hashlib.sha256(packet).hexdigest() == CERT_SHA256, "pinned certificate digest drift")
+    cert = json.loads(packet)
     rows = cert["rows"]
     check(len(rows) == 4, f"expected four rows, found {len(rows)}")
     overshoot = {}

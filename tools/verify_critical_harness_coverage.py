@@ -24,9 +24,13 @@ EXPECTED_COUNTS = {
     # verifier (verify_corridor_literal_prime.py, the E-1 literal corridor prime and
     # six-row replay shipped as upstream PR #1107), so it moved out of the md-only
     # bucket. Widened per hard law 8 -- a legitimate change, recorded, not silenced.
-    "folder-md-only": 146,  # wave-20 census, minus corridor_ledger (now verifier-backed)
+    # WAVE-24 (2026-07-27): the proof_sketch re-grade demoted the e1 chain and the
+    # zone_b/mca_unsafe/unsafe_at_crossing cluster, so 19 e1 nodes left the critical
+    # orbit entirely. md-only 146 -> 131, local-verifier 50 -> 44. Widened per hard
+    # law 8: a legitimate re-pricing, recorded, not silenced.
+    "folder-md-only": 131,
     "legacy-ref-only": 5,
-    "local-verifier": 50,   # + corridor_ledger
+    "local-verifier": 44,
 }
 
 EXPECTED_NO_PROOF = {
@@ -101,8 +105,8 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    require(len(critical["nodes"]) == 260, "critical orbit size drift")  # refreshed at the wave-20 census (folder moves + bridge closure + N11 sweep + ww rewire)
-    require(len(proved) == 201, "critical PROVED count drift")  # wave-20: N11 demotions (-9) net of the bridge closure
+    require(len(critical["nodes"]) == 242, "critical orbit size drift")  # wave-24 (2026-07-27): e1 subtree (19 nodes) left the critical path when zone_b->mca_unsafe was rewired; was 260
+    require(len(proved) == 180, "critical PROVED count drift")  # wave-24: proof_sketch re-grade demotions (e1 chain + zone_b/mca_unsafe/unsafe_at_crossing); was 201
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()

@@ -7,8 +7,10 @@
 
 ## Claim
 
-For a post-paid support family, if the FM locator mean crosses `B*`, then some
-pair `(u,v)` has at least `B*` distinct bad slopes.
+For a deterministic support family `A` and integer `B>=1`, if the exact
+occupancy quantity `nu(A)` exceeds `B-1`, then some pair `(u,v)` has at least
+`B` distinct bad slopes. Prize use sets `B=B*+1` and must separately supply
+the post-paid family and ambient-field scope.
 
 ## Proof
 

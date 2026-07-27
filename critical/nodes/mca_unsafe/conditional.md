@@ -1,13 +1,21 @@
 # conditional proof: mca_unsafe
 
-- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: CONDITIONAL]
-- **closure:** proof
+- **status:** CONDITIONAL
+- **closure:** proved implication
 
-## Source
+## Predicate nodes
 
-Vendored from the working record; primary artifact(s):
-- `proof_sketch/s2_paid_ledger.md#4`
+- `cap_theorem`
+- `unsafe_at_crossing`
 
-## Ledger
+## Claim
 
-PROMOTED red -> amber (ring-1 assembly sweep 2026-07-04): see assembly_sweep_ring1.md + the pinned manifest entry.
+At the candidate adjacent endpoint, `B_C(a_safe-1) > B*`.
+
+## Proof
+
+`cap_theorem` places the candidate inside the universal unsafe cap. The
+row-specific adjacent inequality is supplied by `unsafe_at_crossing`. Together
+they establish the printed unsafe-side claim. `zone_b` is one possible route
+for constructing the crossing payload, but is not a third logical premise once
+the universal row-specific witness theorem is assumed.

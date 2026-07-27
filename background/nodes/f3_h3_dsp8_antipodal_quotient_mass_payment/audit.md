@@ -5,6 +5,8 @@
   odd characteristic.
 - `S_A` is restricted by the same `P>=25` predicate as the distance-six
   moments. Enlarging it to all antipodal targets is used only for `(AQM1)`.
+- Mattarei's arbitrary-coefficient theorem permits quotient slopes outside
+  `H`; no hidden `t in H` restriction is used in `(AQM1)`.
 - In `(AQM2)`, the coefficient `38/5` is the incremental antipodal cost:
   `(17/10)*8-6=38/5`. Charging `(68/5)Q_n` discards this distinction and is
   the superseded payment.

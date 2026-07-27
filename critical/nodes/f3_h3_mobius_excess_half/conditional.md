@@ -22,14 +22,17 @@ correction) or re-opens.
 
 ## DSP8 reduced target (wave-15, from the v7 program)
 
-The req route of record, in its wave-15 overlap-separated (A6S8)-rescaled
-form (the leaf STAYS TARGET — this is a reduction, not a closure):
+The req route of record, sharpened by the proved Mattarei affine-pair import
+(the leaf STAYS TARGET -- this is a reduction, not a closure), is
 
 ```text
-10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)
+10K_25^0+17K_25^A+68S_A+68C_M n^(5/3),
+C_M=3*2^(-2/3),
 ```
 
-is the current sufficient target (equivalent to the E=6 moment; overlap
-paid separately at O(n^5/3)). It suffices to bound this correlation; the
-16-node DSP8 program supplies the reduction menu (routes DSP8 / DSP8-U /
-JDP corner / FM / accident-depth), none yet proved.
+as the current sufficient target (equivalent to the E=6 moment; overlap
+paid separately at O(n^5/3)). The uniform alternative is
+`25(10K_25^0+17K_25^A)<=12134n^2`. It suffices to bound this correlation;
+the DSP8 program supplies the reduction menu (routes DSP8 / DSP8-U / JDP
+corner / FM / accident-depth), none of the final smooth-correlation
+inequalities is yet proved.

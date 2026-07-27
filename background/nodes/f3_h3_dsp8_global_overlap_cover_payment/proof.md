@@ -14,17 +14,17 @@ first endpoint, so every valid parameter belongs to `H`. Each parameter and
 cover label determines at most one edge. Thus there are at most `2n` such
 edges globally, before imposing the richness filter.
 
-For every retained target, the affine coset-pair theorem gives
+For every retained target, the Mattarei affine coset-pair theorem gives
 
 ```text
-R(t)<(51/16)n^(2/3).                                (2)
+R(t)<C_M n^(2/3).                                   (2)
 ```
 
 The class weight of a generic edge is at most `17/10`. Hence all selected
 generic--generic overlapping edges contribute strictly less than
 
 ```text
-(17/10)(2n)(51/16)n^(2/3)=(867/80)n^(5/3).         (3)
+(17/10)(2n)C_M n^(2/3)=(17/5)C_M n^(5/3).         (3)
 ```
 
 On an antipodal target, at most two additional distance-six edges are
@@ -57,22 +57,24 @@ The primitive shift-pair adapter gives `K_25^c=2D_c`. Multiplying `(5)` by
 The antipodal quotient-mass payment gives
 
 ```text
-S_A<(51/32)(n-2)n^(2/3).                           (6)
+S_A<(C_M/2)(n-2)n^(2/3).                           (6)
 ```
 
 Therefore the available right side for the primitive-SP correlation in
 `(GOP2)` is strictly greater than
 
 ```text
-750n^2-255Q_n-(867/8)(n-2)n^(2/3)-(867/4)n^(5/3).
+750n^2-255Q_n-34C_M(n-2)n^(2/3)-68C_M n^(5/3).
                                                                (7)
 ```
 
-Since `Q_n<n^2`, `(n-2)n^(2/3)<n^(5/3)`, and every official order has
-`n^(1/3)>20`, expression `(7)` is strictly greater than
+Since `Q_n<n^2`, `(n-2)n^(2/3)<n^(5/3)`, every official order has
+`n^(1/3)>20`, and `C_M<189/100`, expression `(7)` is strictly greater than
 
 ```text
-(495-2601/160)n^2=(76599/160)n^2.                  (8)
+(495-102(189/100)/20)n^2
+ =(485361/1000)n^2
+ >(12134/25)n^2.                                   (8)
 ```
 
 Thus `(GOP3)` implies `(GOP2)`, completing the proof. QED.

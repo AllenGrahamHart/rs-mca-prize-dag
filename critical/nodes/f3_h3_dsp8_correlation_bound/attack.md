@@ -7,7 +7,7 @@ following cheaper events kill only sufficient routes:
 
 1. `P(t)>=25` kills the vacuous `P<=24` satellite;
 2. failure of the `(36,1)` class-sensitive moment kills that Pareto endpoint;
-3. failure of `M_21<=76599n^2/680` kills only the unweighted factorial-moment
+3. failure of `425M_21<=48536n^2` kills only the unweighted factorial-moment
    route; and
 4. a candidate prime or rich target kills no inequality by itself.
 
@@ -17,6 +17,30 @@ fallback is the `(36,1)` endpoint because it has one quotient lift and no
 quotient-collision spoke. The preferred vacuity fallback is the exact
 `G_12^neq|H_D` certificate. These routes are alternatives and their
 certificates must not be mixed.
+
+After the proved Mattarei nodal payment, the exact smooth target is
+
+```text
+10G_sm^0+17G_sm^A <=(36086/25)n^2                 (uniform),
+10G_sm^0+17G_sm^A <=(45636/25)n^2                 (p=2 mod 3).
+```
+
+Here `G_sm` retains every richness, signed-disjointness, class, target, and
+quotient-line predicate. A point bound on one smooth trace or an unweighted
+elliptic-curve energy is not enough unless it transports to this ledger.
+
+The proved quotient-cap compiler gives the exact transport threshold. If
+`U_sm^c` forgets only the quotient pair, it is enough to prove
+
+```text
+189(10U_sm^0+17U_sm^A)<=144344n^(4/3),
+```
+
+or class-blind `U_sm^0+U_sm^A<44.926n^(4/3)`. This is now the admissible
+unweighted-SP route. Do not substitute the full shifted energy: its known
+`O(n^2 log n)` scale does not meet this target. Likewise, rich product
+witnesses all induce the same affine quotient shift, so a multi-shift
+intersection theorem does not gain a power on `R(t)`.
 
 Before any fixed-order campaign, try the exact paired-PGL2 rectangle theorem
 

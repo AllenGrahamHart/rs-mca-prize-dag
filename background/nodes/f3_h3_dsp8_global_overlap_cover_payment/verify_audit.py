@@ -13,16 +13,16 @@ def main() -> None:
     audit = " ".join((ROOT / "audit.md").read_text().split())
 
     assert "atmost`2n`overlapping" in statement
-    assert "<(867/80)n^(5/3)+(17/5)S_A" in statement
-    assert "10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)" in statement
-    assert "160(10K_25^0+17K_25^A)<=76599n^2" in statement
+    assert "<(17/5)C_Mn^(5/3)+(17/5)S_A" in statement
+    assert "10K_25^0+17K_25^A+68S_A+68C_Mn^(5/3)" in statement
+    assert "25(10K_25^0+17K_25^A)<=12134n^2" in statement
     assert "normalizationisuniqueforeachedge" in proof
-    assert "(17/10)(2n)(51/16)n^(2/3)" in proof
-    assert "(495-2601/160)n^2=(76599/160)n^2" in proof
+    assert "(17/10)(2n)C_Mn^(2/3)" in proof
+    assert "(485361/1000)n^2" in proof
     assert "global, not per target" in audit
     assert "does not by itself refute C36'" in audit
 
-    print("F3_H3_DSP8_GLOBAL_OVERLAP_COVER_PAYMENT_AUDIT_PASS mutations=9")
+    print("F3_H3_DSP8_GLOBAL_OVERLAP_COVER_PAYMENT_AUDIT_PASS mutations=10")
 
 
 if __name__ == "__main__":

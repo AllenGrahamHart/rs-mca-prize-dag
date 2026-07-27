@@ -1,0 +1,17 @@
+# Dependency sub-DAG
+
+```text
+l1_mersenne_next_to_maximal_hypergeometric_normal_form [PROVED]
+                              |
+                              v
+l1_mersenne_hnf_order_zero_linear_color_exclusion [PROVED]
+                              |
+                              v
+l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion [PROVED]
+                              |
+                              v  (evidence)
+               l1_mixed_petal_amplification [TARGET]
+```
+
+The quadratic collision router is a parallel proved supplier. Composing the
+two suppliers gives the multiplicity frontier printed in `(QCF3)`.

@@ -350,17 +350,19 @@ Two consequences worth having on record:
    and (4,10).** They are structurally the hardest even cells, independently of
    their census sizes. The sizing ledger already flags them as needing "new
    algebra, not compute"; this says *which* algebra is missing.
-2. **The workaround is already exhibited by the closed cells.** Both (2,5) and
-   (2,6) were closed by **sub-tuple** normalisation — the pair-quadratic and
-   triple-cubic routers fix a selected sub-tuple rather than the global product,
-   and so never need `w` invertible. That is the pattern an even-weight descent
-   must follow; a (4,10) descent statement should be written against a selected
-   sub-tuple from the outset rather than attempting to port (4,9)'s dilation.
+2. **The obstruction is only to product-one normalisation.** It does not block
+   parity separation. The already proved
+   `dli_wcl_extended_six_slot_sparse_divisor_endpoints` writes every even locator
+   as `F(X)=E(X^2)-XB(X^2)`, proves the exact divisor identity
+   `G(Y)=E(Y)^2-YB(Y)^2 | Y^N-1`, and proves the converse with automatic
+   denominator nonvanishing. In particular `(4,10)` already has its complete
+   descent with `deg E=5`, `deg B=0`; no sub-tuple router is owed for that step.
 
-**Immediate planning consequence.** `(4,11)` is odd, so the (4,9) quartic-divisor
-descent machinery transfers to it directly and it is the **cheaper of the two open
-ell=4 descent statements**. `(4,10)` needs a new sub-tuple router first. The
-descent lane should therefore be worked `(4,11)` before `(4,10)`, which is the
-reverse of the numeric order the residual list prints them in.
+**Corrected planning consequence.** All three `ell=4` cells already have exact
+divisor descents and characteristic-zero unit-ideal proofs. Their live obligations
+are explicit integer certificates and compatible-prime exclusion. The pruned
+degree-three presentations have `114/119` variables/equations at `(4,9)`,
+`129/133` at `(4,10)`, and `142/147` at `(4,11)`. Work `(4,9)` first because it is
+strictly smaller, not because even parity leaves `(4,10)` without a descent.
 
 Excludes no cell and closes nothing; this is route selection.

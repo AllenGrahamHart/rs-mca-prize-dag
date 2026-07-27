@@ -1183,6 +1183,76 @@ the printed nonzero factors closes the order-one chamber before a
 degree-`n` remainder. Again, retained components are necessary candidates
 only.
 
+The order-zero colored classification has one further exact deletion.
+`l1_mersenne_hnf_order_zero_linear_color_exclusion` proves that its
+interpolant cannot have degree one. A linear color map would send the
+`h=m-1` roots injectively onto all but one member of `mu_m`, making `P_s` an
+affine image of a punctured cyclotomic polynomial. Its first three
+coefficients force `s=1` or `s=-m`, contradicting `s notin F_p`. Combined
+with the same theorem's constant case, the live order-zero color degrees
+begin at two. No higher degree or endpoint is closed.
+
+At the first live degree,
+`l1_mersenne_hnf_order_zero_quadratic_collision_router` controls repeated
+colors. Two repeated colors force the quadratic collision center to zero;
+otherwise Frobenius would be an affine identity or reflection, and both are
+excluded. On all four `m=8,h=7` rows, two antipodal pairs are also impossible,
+so seven locator roots use at least six distinct colors. On the
+`m=16,h=15` row, a quadratic with multiple repeats must be even. The
+collision-free, single-collision, and `m=16` even chambers remain open.
+
+The collision-free option is now removed by
+`l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion`. Pairing each
+root with its quadratic reflection produces a degree-`h` polynomial in
+`U=W(W-S)`. Its first three coefficients are
+`binom(s+r-1,r)(1-S)^r`, so an injective color map is the already impossible
+punctured-cyclotomic linear template. Consequently the exact live quadratic
+frontier is: exactly one repeated color for `m=8`; exactly one repeated color
+or an even multi-repeat for `m=16`. Neither retained system is classified.
+
+The `m=8` retained system is now empty by
+`l1_mersenne_hnf_m8_order_zero_quadratic_exclusion`. After normalizing its
+unique double color, the two omitted colors give 21 patterns. Three centered
+moments place `s` on one explicit quadratic per pattern, while
+`P_s|W^n-1` forces `binom(s+6,7)^n=1`. Exact coprimality in
+`F_p(mu_8)[s]`, independently replayed as 84 nonzero resultants, excludes
+every pattern on all four official rows. Thus the live `m=8` order-zero
+color degree begins at three. The `m=16` exactly-one-repeat and even
+multi-repeat quadratic systems remain unclassified.
+
+The exactly-one-repeat `m=16` system is now also empty by
+`l1_mersenne_hnf_m16_order_zero_single_collision_exclusion`. Its 105
+normalized pairs of omitted sixteenth-root colors obey the same
+centered-moment equation, and every resulting quadratic is coprime to
+`binom(s+14,15)^131072-1` over `F_8191(mu_16)`. Therefore the sole live
+quadratic color system across all five endpoint rows is the even `m=16`
+multi-repeat chamber, with at least two antipodal repeated-color pairs.
+
+That last quadratic system is empty by
+`l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion`. Writing
+`P_s(W)=W O_s(W^2)+V_s(W^2)`, two antipodal pairs would force
+`deg gcd(O_s,V_s)>=2`. The two coefficients of the first subresultant can
+vanish together only when
+`s in {0,1,2,3,-1,-2,...,-11} subset F_8191`, contradicting the HNF
+condition `s notin F_p`. Constant, linear, and quadratic colored Frobenius
+degrees are now empty on all five endpoint rows; the live order-zero degree
+starts at three.
+
+The degree split is no longer needed on the four `m=8,h=7` rows.
+`l1_mersenne_hnf_m8_order_zero_reciprocal_elimination` uses the first three
+coefficient equations of the bounded reciprocal gate. Two eliminants of
+degrees 1320 and 1760 have degree-1032 gcd
+
+```text
+s^176(s-1)^4(s+1)^176(s+2)^168(s+3)^162
+(s+4)^152(s+5)^128(s+6)^64(s+7)^2,
+```
+
+so every common solution has `s in F_p`, a contradiction. The complete
+order-zero outer chamber is therefore empty on all four `m=8` rows,
+including every color degree. The `m=16` order-zero chamber still starts at
+degree three.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

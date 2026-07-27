@@ -131,6 +131,15 @@
 
 ## Open
 
+The affine-span harvest now removes codeword affine ranks one and two from
+every budget-three predecessor witness: four listed words at agreement
+`3d-1` must have affine rank three for `d>=3`. This does not reduce the
+thirteen-chamber count. The highest-value bridge question is now exact:
+does any locator split-unit line or balanced-scroll chamber force a constant
+affine dependence among the four codewords? Existing Plucker relations are
+relations among block locators, so they do not answer this without an
+explicit incidence-to-codeword coefficient map.
+
 For every remaining branch `B*>=3`, locate the first safe agreement inside
 the now-proved bracket. In the razor case,
 

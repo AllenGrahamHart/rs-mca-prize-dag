@@ -22,8 +22,8 @@ def constants_check() -> None:
     assert 51**3 == 132651
     assert 32 * 16**3 == 131072
     assert 51**3 > 32 * 16**3
-    assert Fraction(2176, 1) > Fraction(76599, 40)
-    assert 87040 - 76599 == 10441
+    assert Fraction(2176, 1) > Fraction(48536, 25)
+    assert 54400 - 48536 == 5864
     # 3^(1/3)>4/3, hence 3^(4/3)>4.
     assert 3 * 3**3 > 4**3
 
@@ -73,7 +73,7 @@ def packet_check() -> None:
     )
     for marker in (
         "(A+2mB)/D > 2^(5/3)m^(2/3)",
-        "17*32*3^(4/3)>2176>76599/40",
+        "17*32*3^(4/3)>2176>48536/25",
         "proof-method barrier",
         "not a lower bound on the actual nodal record",
     ):
@@ -86,7 +86,7 @@ def main() -> None:
     packet_check()
     print(
         "F3_H3_DSP8_NODAL_STEPANOV_CONSTANT_BARRIER_PASS "
-        f"integer_tuples={checked} allowance_slack=10441/40"
+        f"integer_tuples={checked} allowance_slack=5864/25"
     )
 
 

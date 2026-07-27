@@ -102,17 +102,46 @@ def official_thresholds() -> tuple[tuple[str, int], ...]:
     return tuple(thresholds)
 
 
+def koalabear_values() -> tuple[int, ...]:
+    redundancy = 1048576
+    h = 67472
+    budget = 274980728111395087
+    expected = (
+        1048576,
+        16295594,
+        253241283,
+        3935435218,
+        61156835934,
+        950366735057,
+        14768331186162,
+        229490967859328,
+        3566101912297072,
+        55413538236037195,
+        861057176799343503,
+    )
+    values = tuple(
+        (comb(redundancy + d, d) * redundancy) // comb(d + h, d)
+        for d in range(11)
+    )
+    if values != expected:
+        raise AssertionError(("KoalaBear exact floors", values))
+    if any(value > budget for value in values[:10]) or values[10] <= budget:
+        raise AssertionError(("KoalaBear boundary", values[9:], budget))
+    return values
+
+
 def main() -> None:
     d1 = exhaustive_radius_one(11, 2, (1, 2, 3), d=1, h=1)
     d2 = exhaustive_radius_one(7, 3, (1, 2, 3, 4, 5), d=2, h=2)
     thresholds = official_thresholds()
+    koala = koalabear_values()
     print(
         "XR_GENERIC_MDS_KERNEL_RAY_BOUND_PASS "
         f"finite_max={d1[0]},{d2[0]} "
         + " ".join(f"{name}:d<={depth}" for name, depth in thresholds)
+        + f" koala:d<=9 next={koala[10]}"
     )
 
 
 if __name__ == "__main__":
     main()
-

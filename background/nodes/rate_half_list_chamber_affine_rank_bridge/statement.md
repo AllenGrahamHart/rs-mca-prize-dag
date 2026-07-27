@@ -1,7 +1,11 @@
 # rate_half_list_chamber_affine_rank_bridge
 
-- **status:** TARGET
+- **status:** PROVED
 - **closure:** proof
+- **dependencies:** `upstream_gfv4_affine_span_list_compiler`,
+  `rate_half_list_budget_three_intersection_reduction`,
+  `rate_half_list_budget_three_affine_rank_rigidity`,
+  `rate_half_list_budget_three_common_mismatch_zero`
 - **consumer:** `rate_half_list_adjacent_crossing` (ev)
 - **object:** the missing translation between the chamber atlas and the GF list compilers
 
@@ -83,6 +87,36 @@ s = 3  ->  affine-span cap = 8  (slack 4)
 so a chamber forced to `s = 2` is on a knife edge and any further constraint
 (`b >= 1` at minimum support `d_2 = R+2`) would kill it, while a chamber forced to
 `s = 3` cannot be killed by these compilers at all.
+
+### Scope reconciliation after the affine-rank theorem
+
+The preceding `s in {2,3}` paragraph is superseded in this worktree by the
+proved theorem `rate_half_list_budget_three_affine_rank_rigidity`. At the
+printed scope it gives, without using chamber geometry,
+
+```text
+s=3
+```
+
+for every four-codeword witness. Its proof excludes rank two by analyzing the
+equality case of the affine-line compiler: rank two would force `2d+2`
+active coordinates to inject into the six roots of pairwise affine-linear
+quotient differences. Thus every later `s=2` calculation in this file is a
+valid counterfactual consequence but is not a live branch and must not guide
+further work.
+
+The proved `rate_half_list_budget_three_common_mismatch_zero` theorem also
+gives `b=0` in every chamber: the selected agreement sets cover `D`, so one
+selected agreement at a common direction zero forces the common value to
+equal `u`. The live bridge residue is therefore only the chamber-to-
+`(d_1,d_2,d_3)` transport.
+The affine-span compiler is already fixed at cap eight and kills no chamber.
+Here `b=0` minimizes every denominator factor `d_j-t+b`, so the mismatch
+theorem narrows the route but gives the rank-flat compiler no extra bite.
+Lower generalized-weight bounds must be coupled to enough control of `d_3`,
+which occurs in both the falling-factorial numerator and the denominator. The
+original sentence that lower `d_j` bounds plus an upper `b` bound suffice was
+therefore incorrectly oriented.
 
 ## Expected sign of the answer (stated up front, so a negative still counts)
 
@@ -548,6 +582,73 @@ between the list lane and the MCA lane at this node.
 whether it caps the number of totally-split members of a degree-`d` pencil below
 six at `d ~ n/6`. If it does, `s = 2` dies and `s = 3` follows.
 
+#### Reconciliation of the latest recommendation
+
+That recommendation is retired for two independent reasons. First, `s=2` is
+already impossible by `rate_half_list_budget_three_affine_rank_rigidity`.
+Second, the Hankel minimal-index theorem does not automatically apply to the
+residual polynomial pencil `A-lambda B`: its hypotheses require the pencil to
+be the primitive apolar kernel of a syndrome Hankel pencil. The arbitrary-
+pencil moving-root theorem gives only the sharp incidence bound six in this
+near-partition regime, not a strict cap below six. Any reuse of `(MI2)` here
+would need a new transport theorem and would still be unnecessary for the
+affine-rank question.
+
+The route-deciding question is now exact: for each of the nine split-unit and
+four balanced-scroll chambers, express the supports of the one-, two-, and
+three-dimensional subspaces of the codeword direction space in the chamber
+incidence variables and substitute `b=0`. A chamber closes through the
+harvested rank-flat compiler only if those exact bounds make its printed cap
+at most three. Otherwise this bridge is a route fence and should be retired
+as a closure mechanism.
+
+## PROVED resolution: the rank-flat route is a fence
+
+The latter alternative always occurs. Put `n=4d`, `K=2d`, `m=3d-1`, and
+`t=d+1`, with `d>=3`.
+
+Every one of the six incidence types has at least one pair with selected
+intersection `2d-1`. That pair difference is a nonzero degree-`<2d`
+polynomial, so it has exactly `2d-1` zeros and support `2d+1`. The MDS floor
+gives the reverse inequality; hence
+
+```text
+d_1=2d+1.                                             (RF1)
+```
+
+Affine-rank rigidity makes every three of the four codewords an affine
+basis of a two-dimensional direction subcode. In every incidence type, some
+selected triple intersection has size at least `d-1`; it is a common-zero
+set of that two-dimensional subcode. Therefore
+
+```text
+d_2<=4d-(d-1)=3d+1.                                  (RF2)
+```
+
+The generalized Singleton bound gives `x:=d_3>=2d+3`, while `x<=4d`, and
+the common-mismatch theorem gives `b=0`. The unfloored rank-flat expression
+is therefore bounded below by
+
+```text
+x(x-1)(x-2) / [d * 2d * (x-d-1)].                   (RF3)
+```
+
+For `x>=2d+3`,
+
+```text
+F_d(x)=x(x-1)(x-2)-8d^2(x-d-1)>0.                   (RF4)
+```
+
+Indeed `F_d(2d+3)=8d^2+22d+6>0`; its derivative there is
+`4d^2+24d+11>0`, and its second derivative is `6x-6>0`. Thus `(RF3)` is
+strictly greater than four, so its integer floor is at least four on every
+chamber. The harvested rank-flat compiler can never prove the required cap
+three on this atlas, even after an exact generalized-weight transport.
+
+This closes the bridge as a proved negative result. It closes no locator
+chamber and does not move the rate-half adjacent crossing. Further work must
+attack the thirteen official-subgroup chambers directly or use a stronger
+list theorem.
 #### Fence: the log-derivative degree count is vacuous (2026-07-26)
 
 Attempted on the equivariant normal form `prod_i Q_i = beta X^{j_0}(X^n - c)`.
@@ -599,75 +700,23 @@ attaining `T*d = n` with the root sets partitioning a `mu_{2^41}`-coset. That is
 the same genre as the M-1 sharp-cap stratum `h = 0`, which is also an equality
 case, and is the honest reason both lanes are hard at the same point.
 
-#### Codex harvest note (2026-07-26, awareness only — NOT integrated)
+#### Integration ruling after affine-rank reconciliation
 
-Codex branch `prize-codex-resolution-v10-20260722` @ `1e359dfb` proves
-**`b = 0` unconditionally, in all six incidence types and all thirteen chambers**
-(node `rate_half_list_budget_three_common_mismatch_zero`, via a budget-three
-intersection reduction: the selected agreement sets cover `D`, so one selected
-agreement at a common direction-zero forces the common value to equal `u`).
+The two preceding fences are retained as correct analyses of the
+counterfactual `s=2` pencil. Their final equality-case recommendation is not
+live in this worktree: `rate_half_list_budget_three_affine_rank_rigidity`
+already proves that no such rank-two witness exists. Moreover the rank-flat
+bridge itself is closed above as a route fence. Do not spend a new cycle
+classifying `T*d=n` for this node; the live rate-half list work is the direct
+official-subgroup chamber arithmetic or a stronger list theorem.
 
-That is **stronger than this node's own `b = 0`**, which was obtained via `(CZB)`
-and holds only in the `s=2`, `Ddir=6` branch. The two are independent routes to the
-same conclusion, which is corroboration rather than duplication — but if the Codex
-result is integrated, this node's `b`-analysis becomes redundant and should be
-retired to a route record.
+#### Independent coarse compiler fence
 
-**Not vendored here.** Codex raw branches are read-for-awareness only; integration
-is audit-gated. What *is* applied is the forced correction above, which is a defect
-in this node's own text.
-
-**Residue after the harvest:** `b` is settled either way. The live bridge question
-is exactly the **chamber → `(d_1, d_2, d_3)` transport**, now needing a two-sided
-interval for `d_3` rather than a floor.
-
-## ANSWERED — NEGATIVELY (2026-07-26). The compiler can never bite.
-
-**The bridge question is settled: no chamber → `(d_1..d_s, b)` transport, however
-good, can make the rank-flat compiler exclude a four-codeword configuration at this
-row.** Artifact: `verify_compiler_cannot_bite.py` (exact rationals, floor applied
-last; 4 mutation controls).
-
-Inputs, all previously established:
-
-- **`b = 0`** — two independent routes (Codex's unconditional budget-three
-  common-mismatch zero; this node's `(CZB)` route in the `s=2`/`Ddir=6` branch).
-  `b = 0` *minimises* every denominator factor `d_j - t + b`, so it is the
-  compiler's **best case**.
-- **`s ∈ {2,3}`** — `s=1` excluded, no three list members are collinear.
-- **`d_1 ∈ {R+1, R+2}`** — the razor bracket forces every pairwise difference to
-  weight `K+1` or `K+2`, and `d_1` is the direction code's minimum weight.
-- **`s=2 ⟹ d_2 = n - z`, `z ∈ {733007751849, 733007751850}`** (PROGRESS 4).
-
-Evaluating `floor( d_s^{under s} / prod_j (d_j - t + b) )`:
-
-```text
-s = 2, at the pinned d_2 :  cap = 4  exactly (4.2666…), both z, both d_1
-s = 3, minimised over the ENTIRE admissible region :  cap = 6
-```
-
-Four codewords therefore survive at **every reachable configuration**. Since `b=0`
-is already the best case and `d_1` is pinned at the bottom, there is no freedom
-left for a transport to exploit.
-
-**Why it fails, structurally.** The mutation controls make this precise: if `d_1`
-is allowed to float upward (violating the razor bracket) the cap *does* drop to 3
-and excludes. So the compiler needs a direction code whose minimum weight is well
-above the MDS floor — and the razor bracket forbids exactly that, because four
-codewords mutually agreeing in `≥ 3n/4 - 1` places force their differences to sit
-at minimum or near-minimum weight. **The configuration that would let the compiler
-bite is the one the agreement budget rules out.**
-
-**Consequences.**
-1. The Convergence Ledger's **S3 promotion test can never fire**; H1 is
-   **permanently** ev-wired, not merely ev-wired for now.
-2. This node's purpose is discharged. It asked for a transport; the answer is that
-   no transport helps. It should be **retired to a route fence** rather than
-   carried as an open TARGET — *surfaced, not decided unilaterally.*
-3. The ledger's burn-down loses one of its two claimed red-movers. H1 was counted
-   as leverage on `rate_half_list_adjacent_crossing`; it is not.
-
-**Non-claims.** Says nothing about `L_1(3n/4-1)` itself — the `B*=3` obstruction is
-untouched and `rate_half_list_adjacent_crossing` stays TARGET. Only the *compiler
-route to it* is closed. The affine-span cap (8 at `s=3`, 4 at `s=2`) is likewise
-never below 4, so neither GF compiler bites.
+Canonical's `verify_compiler_cannot_bite.py` supplies a second exact route to
+the same negative conclusion. After the proved `s=3` and `b=0` reductions,
+the razor bracket gives `d_1 in {R+1,R+2}`. Maximizing `d_2` at fixed `d_3`
+and then minimizing over the entire admissible `d_3` interval gives rank-flat
+integer cap six. Thus even without the sharper chamber-specific bounds used
+above, the compiler cannot reach cap three. The script's `s=2` calculation is
+retained only as a counterfactual consistency check because affine-rank
+rigidity has already excluded that branch.

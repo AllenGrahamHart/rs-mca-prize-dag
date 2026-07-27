@@ -103,8 +103,8 @@ def arithmetic_check() -> None:
     for product in range(25, 400):
         for generic in range(product // 2 + 1):
             assert 4 * generic * (generic - 1) <= product * (product - 2)
-    assert Fraction(17, 4) * Fraction(76599, 680) == Fraction(76599, 160)
-    assert 680 * 69 == 46920 < 76599
+    assert Fraction(17, 4) * Fraction(48536, 425) == Fraction(12134, 25)
+    assert 425 * 69 == 29325 < 48536
 
 
 def packet_check() -> None:
@@ -123,8 +123,8 @@ def packet_check() -> None:
     for marker in (
         "<=(1/4)(10F_25^0+17F_25^A)",
         "<=(17/4)M_21",
-        "40(10F_25^0+17F_25^A)<=76599n^2",
-        "680M_21<=76599n^2",
+        "25(10F_25^0+17F_25^A)<=48536n^2",
+        "425M_21<=48536n^2",
         "2g(t)<=P(t)",
         "K_25^c=2D_6,25^c",
     ):
@@ -136,7 +136,7 @@ def packet_check() -> None:
         .split()
     )
     assert "PROVEDRICHFACTORIALMOMENTCOMPILER" in target
-    assert "680M_21<=76599n^2" in target
+    assert "425M_21<=48536n^2" in target
 
 
 def main() -> None:
@@ -146,7 +146,7 @@ def main() -> None:
     print(
         "F3_H3_DSP8_RICH_FACTORIAL_MOMENT_COMPILER_PASS "
         f"control_retained={retained} control_k_weight={k_weight} "
-        "unweighted_numerator=76599 denominator=680"
+        "unweighted_numerator=48536 denominator=425"
     )
 
 

@@ -32,7 +32,7 @@ quotient line and once to the order-`3n` cube-preimage intersection yields a
 class-blind leading coefficient strictly greater than
 
 ```text
-17*32*3^(4/3)>2176>76599/40.                        (NSB4)
+17*32*3^(4/3)>2176>48536/25.                        (NSB4)
 ```
 
 Consequently no choice of `A,B,D` inside the existing one-polynomial

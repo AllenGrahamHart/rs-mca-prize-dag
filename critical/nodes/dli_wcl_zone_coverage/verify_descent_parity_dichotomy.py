@@ -32,10 +32,14 @@ So (1,8) and (2,8) carry an index-EIGHT obstruction, four times worse than (1,6)
 and (4,10) -- they are structurally the hardest of the even cells, independently of
 their census sizes.
 
-The two CLOSED ell=2 cells already exhibit the workaround: both (2,5) and (2,6)
-were closed by SUB-TUPLE normalisation (the pair-quadratic and triple-cubic
-routers), which fixes a selected sub-tuple rather than the global product and so
-never needs w invertible. That is the pattern an even-weight descent must follow.
+This obstruction concerns only normalising the full product to one. It does not
+obstruct the parity-separated even locator
+
+    F(X) = E(X^2) - X B(X^2),
+
+whose exact square-locator descent is already proved for all four even cells below.
+Sub-tuple normalisation is one useful closure route, not a prerequisite for an
+even-weight divisor endpoint.
 """
 
 from __future__ import annotations
@@ -50,6 +54,7 @@ CLOSED = [(2, 5), (2, 6)]
 EXPECTED_ODD = {(1, 5), (1, 7), (2, 7), (2, 9), (4, 9), (4, 11)}
 EXPECTED_EVEN_INDEX = {(1, 6): 2, (1, 8): 8, (2, 8): 8, (4, 10): 2}
 EXPECTED_N = {1: 512, 2: 1024, 4: 2048}
+EVEN_DIVISOR_ENDPOINTS = {(1, 6), (1, 8), (2, 8), (4, 10)}
 PINNED_INVERSES = {(2, 5): 205, (1, 5): 205, (1, 7): 439, (2, 7): 439,
                    (2, 9): 569, (4, 9): 1593, (4, 11): 931}
 
@@ -89,6 +94,7 @@ for ell, w in OPEN + CLOSED:
 
 check(odd == EXPECTED_ODD, f"odd-cell set drift: {sorted(odd)}")
 check(even == EXPECTED_EVEN_INDEX, f"even-cell index drift: {even}")
+check(set(even) == EVEN_DIVISOR_ENDPOINTS, "banked even divisor endpoint set drift")
 check(max(even.values()) == 8, "the worst even obstruction should be index 8")
 check({c for c, g in even.items() if g == 8} == {(1, 8), (2, 8)},
       "index-8 cells should be exactly (1,8) and (2,8)")
@@ -107,5 +113,5 @@ print(
     f"even_cells={len(even)} obstructed "
     f"index2={sorted(c for c,g in even.items() if g==2)} "
     f"index8={sorted(c for c,g in even.items() if g==8)} "
-    "=> even-weight descents need sub-tuple normalisation, as in the closed (2,6)"
+    "scope=global-product-normalisation-only even_divisor_endpoints=banked"
 )

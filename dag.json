@@ -139,13 +139,13 @@
   {
    "id": "mca_unsafe",
    "title": "MCA unsafe side at adjacent grid point",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "gate": "all",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#4"
    ],
    "statement": "B_C(a_safe - 1) > B*: cap above 1-rho-2^-9 (proved) + witnesses at the adjacent grid point (unsafe_at_crossing).",
-   "notes": "PROMOTED red -> amber (ring-1 assembly sweep 2026-07-04): see assembly_sweep_ring1.md + the pinned manifest entry."
+   "notes": "PROMOTED red -> amber (ring-1 assembly sweep 2026-07-04). FALSE-GREEN CASCADE CORRECTION 2026-07-26: zone_b is route evidence, not a duplicated universal premise; the live missing input is the corrected unsafe_at_crossing implication gated by unsafe_crossing_family_instantiation."
   },
   {
    "id": "cap_theorem",
@@ -163,7 +163,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
-   ]
+   ],
+   "statement": "For a prime-field row C=RS[F_p,D,k] with p congruent to 1 modulo n, quotient order N' dividing n, ell'=rho N'+1, and p>(2ell')^(N'/2), the canonical quotient line at radius 1-rho-1/N' has exactly Acl(N',ell') distinct quotient-value slopes. No below-threshold or extension-field conclusion is asserted."
   },
   {
    "id": "acl_count",
@@ -176,15 +177,15 @@
   {
    "id": "zone_b",
    "title": "Zone-(b): e1 value-set collisions, 80<N'<512 (= perfiber at sigma=1)",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "key": true,
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "statement": "Determine |{e_1(B) mod p : B in binom(Q, l')}| for quotient orders 80 < N' < 512 at prize-scale p: (1-o(1))-full vs collided (= prob:perfiber at sigma = 1). SHARPENED (E1 compatibility): on 2-power rows the open cells are the 2-power divisors in (80, 512) \u2014 for Row C exactly N' in {128, 256}: the corridor question is TWO value sets per row.",
-   "attack_surface": "extend the split-prime transfer range, or the norm threshold, or prove e1-fullness directly",
-   "falsifier": "Row-C birthday sampling showing collision rates far from either the full or the heavily-collided prediction",
-   "notes": "PREFERRED ROUTE (evidence-backed): collision-free branch via norm criterion -> density -> typicality (e1_random_prime_model); collided-branch machinery (averaged_slope_conversion) is INSURANCE, not the plan. | CONDITIONAL (Modal data refereed): the raw fullness fractions ARE the signed-core quotient \u2014 N'=16 p=60161 EXACT (3281=3281), N'=32 99.57%/97.66% with accidents shrinking in p, prize-shape scans zero collisions. The collision-free branch stands; residue = e1_fullness (the norm-density estimate). | GATE NORMALIZED ON CLOSE (2026-07-06, minimality law): the delivering route (e1_fullness, already wired req) is now a req edge; reserve routes (acl_second_order, norm_threshold_ext, perfiber) demoted to ev -- re-promotable if the winner is ever falsified."
+   "statement": "On an admissible clean-anchor row in the pair-feasible class |F_p(Q)|>=b_pair_min(K,B*), determine the exact ambient image of e1 on characteristic-zero antipodal-rearrangement classes and prove it exceeds B*. At the current clean predecessors the actual quotient orders are N=256 for rates 1/4,1/8 and N=512 for rate 1/16; folded dimensions are 128,128,256. Conditional on e1_fullness this supplies a route-local direct-value payload, not universal unsafe coverage.",
+   "attack_surface": "prove the exact pointwise collision-pair allowance, certify the image directly, or replace E1 on the row",
+   "falsifier": "a candidate-class row whose exact ambient E1 image is at most B*, or a purported certificate that confuses quotient order, folded dimension, or ambient field",
+   "notes": "FINITE SCOPE CORRECTION 2026-07-26: qualitative o(1) fullness and generic collided labels are not prize certificates. Historical N=128 experiments do not pay the live clean anchors. This node remains route-local and no longer a req parent of mca_unsafe."
   },
   {
    "id": "acl_second_order",
@@ -1150,10 +1151,10 @@
   },
   {
    "id": "e1_fullness",
-   "title": "e1 non-quotient collision density",
-   "status": "PROVED",
-   "statement": "Non-quotient e_1 collisions are o(1)-sparse for admissible primes (norm-criterion density; see statement.md \u2014 exact-cell data matches the signed-core quotient, equality at N'=16).",
-   "notes": "CONSUMER-TOLERANCE: the N'=256 cell needs the DENSITY bound (o(1)-sparse), not the zero-cert. The folded zero-cert is the strong route (held at N'=128); at N'=256 use the density/typicality route (e1_official_typicality_or_certificate). | 2026-07-10 gate-normalization sweep: residual alt edge from amplification_range_ext demoted to ev (node closed on its req route)."
+   "title": "E1 finite direct-value fullness compiler",
+   "status": "CONDITIONAL",
+   "statement": "For every admissible clean-anchor row in the pair-feasible class |F_p(Q)|>=b_pair_min(K,B*), with actual quotient order N in {256,512} and class count K=A_2(N,ell), the exact collision-pair bound from e1_official_prime_exception_control implies that the reduced ambient E1 image has size at least B*+1 and supplies a direct-value V payload at agreement k+n/N. All field, embedding, owner, and endpoint pins remain mandatory.",
+   "notes": "FINITE CORRECTION 2026-07-26: the former o(1)-sparse statement was not an exact finite prize certificate. The proved loss compiler and open pointwise collision bound now state the actual implication. This remains a route-local theorem; unsafe_crossing_family_instantiation owns every-row coverage."
   },
   {
    "id": "paper_a_noslack",
@@ -1481,15 +1482,16 @@
   {
    "id": "unsafe_at_crossing",
    "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
+   "gate": "all",
    "key": true,
    "refs": [
     "proof_sketch/s2_paid_ledger.md#4"
    ],
-   "notes": "two exhaustive routes: collision-free => qfloor-family witnesses; collided => averaged slope conversion | PREFERRED ROUTE: qfloor witness family (collision-free branch), per E1 + the typicality model. | DEFECT FIXED (Codex packet): the two named branches wired \u2014 collision-free = qfloor_exact (PROVED), collided = averaged_slope_conversion (RIPE). Re-referee for promotion next pass. | PROMOTED red -> amber (Codex batch-3 defect completed by this audit): the collision-free branch = certified_valueset_lower (the all-pairs-distinct witness family) \u2014 was prose-only (my earlier fix silently no-op'd on an existing ev edge); now wired req alongside the collided branch (averaged_slope_conversion, RIPE). The two-branch split (collision-free vs collided) is exhaustive by definition; granting both branches, the adjacent-point witnesses exist per row \u2014 assembly statement. | FLIP on replay (Codex wave 5): CONDITIONAL -> PROVED. | REWIRE accepted with the proof: collision-free branch = qfloor_exact (existence by counting \u2014 collision-free MEANS the value-set is full); certified_valueset_lower de-wired here (it serves the knife-edge census, which needs the certified construction). | GATE CLEARED (like m_handling): the any-route structure predates the settled two-branch proof; e1_fullness and free_pool_ladder demoted to ev (kept as alternative-mechanism evidence). | REGRESSED with the averaged_xr exponent question (cross-audit cascade): the proof stands as a conditional implication; discharges when xr_ledger_exponent_reconciliation lands.",
-   "statement": "For each admissible row: B_C(a_safe - 1) > B* witnessed at the ADJACENT grid point \u2014 collision-free branch: qfloor value-set family; collided branch: averaged fiber-to-slope conversion.",
-   "attack_surface": "collision-free: count the qfloor family at the crossing scale; collided: prove averaged_slope_conversion",
-   "falsifier": "n/a (existence claim; the branch dichotomy is exhaustive)"
+   "notes": "FALSE-GREEN CORRECTION 2026-07-26: qfloor_exact and averaged_slope_conversion are local implications, not a universal row-instantiation theorem. In particular, a family being merely collided does not imply that its post-paid occupancy correction is small enough. The exact missing payload is unsafe_crossing_family_instantiation; see notes/UNSAFE_AT_CROSSING_FALSE_GREEN_AUDIT_20260726.md.",
+   "statement": "Conditional on unsafe_crossing_family_instantiation, qfloor_exact, and averaged_slope_conversion, every admissible row has B_C(a_safe-1)>B* at the adjacent grid point.",
+   "attack_surface": "construct the exact per-row direct-value or post-paid occupancy payload required by unsafe_crossing_family_instantiation",
+   "falsifier": "an admissible row with B_C(a_safe-1)<=B*, or a purported branch payload whose endpoint, field transfer, paid-family exclusion, or exact occupancy inequality fails"
   },
   {
    "id": "averaged_slope_conversion",
@@ -1499,7 +1501,7 @@
     "proof_sketch/s2_paid_ledger.md#6"
    ],
    "notes": "s2 fork F2: plausibly provable (second moment + paid-fiber exclusion); needed exactly when zone-(b) is collided | PROOF WRITTEN in flight (#212): FM1 + slope-resolved second moment + v8 cap + explicit paid-fiber exclusion; verifier green. Their honest caveat: stated for post-paid support families \u2014 row use still needs the paid-excluded strict-overlap profile. | FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): CONJECTURE -> CONDITIONAL; referee packet in nodes/averaged_slope_conversion/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them). | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED with the averaged_xr exponent question (cross-audit cascade): the proof stands as a conditional implication; discharges when xr_ledger_exponent_reconciliation lands.",
-   "statement": "From the exact FM first moment and the slope-resolved second-moment ledger, after excluding paid fibers and applying the v8 per-locator cap, a family whose locator mean crosses B* contains a pair (u,v) with at least B* distinct bad slopes."
+   "statement": "For a deterministic support family A with exact strict-overlap profile, put nu(A)=E[N(A)]-(q/2)C_t(A). For every integer B>=1, nu(A)>B-1 implies the existence of a received pair with at least B distinct finite bad slopes. Prize use with the strict unsafe inequality >B* therefore requires nu(A)>B* and B=B*+1, after paid-family ownership and ambient-field scope are supplied."
   },
   {
    "id": "dyadic_profile_evaluation",
@@ -3283,9 +3285,9 @@
   },
   {
    "id": "official_row_primes_pinning",
-   "title": "FLAG (C1a, LOUD): the literal official row primes are NOT in-repo",
+   "title": "Official-row quantifier pinning: no hidden finite prime list",
    "status": "PROVED",
-   "statement": "The repo pins only the SHAPE of the Row-C fields (log2 q = 250, 1024 | q - 1, idealized q = 2^250) \u2014 no literal primes anywhere (xr-budget-audit/ certificate dir absent). ALL per-row certification (C1a certificates, the C2 GCD harness) currently runs on a clearly-labeled STAND-IN prime p* = 1 mod 1024 (~250 bits); re-running on real primes = swapping one constant. NEEDED: the authoritative literal row primes (prize spec / maintainer / rules-freeze artifact) before any certification claim is made about OFFICIAL rows. Goes on the maintainer asks list.",
+   "statement": "The grand challenges quantify over every admissible choice of F, L, and k, subject to the printed bounds and sufficiently-large-field proviso; they do not specify a hidden finite list of official row primes. A prize-facing certificate must therefore be family-uniform, or else be explicitly scoped only to its named exhibit field. A stand-in or named exhibit does not certify the universal family without a proved transport theorem.",
    "refs": [
     "experimental/notes/roadmaps/c1a_lowh_mitm_certificates.md"
    ],
@@ -4861,7 +4863,7 @@
   {
    "id": "e1_folded_certificate_cell_256_payload",
    "title": "E1 actual folded certificate payload for N'=256",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "statement": "For the E1 open cell N'=256, the named field and primitive root are supplied by e1_pocklington_250bit_exhibit_field and the schema dispatch by e1_named_field_folded_cell_certificate_soundness; it remains only to supply the complete no-vector certificate e1_folded_no_vector_certificate_256_payload excluding every nonzero non-cyclotomic w in {-2,-1,0,1,2}^128.",
    "attack_surface": "conditional assembly from the proved E1 exhibit field, the cell-certificate soundness rule, and the remaining N'=256 no-vector certificate payload",
    "falsifier": "a failed field/root check, a nonzero non-cyclotomic folded vector in the named N'=256 field, or an incomplete no-vector certificate"
@@ -4877,7 +4879,7 @@
   {
    "id": "e1_open_cell_control_payload",
    "title": "E1 open-cell typicality or folded-certificate payload",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "statement": "For N' in {128,256}, provide either a uniform admissible-family typicality theorem for the explicit exceptional norm-divisor set, or named exhibit fields with complete folded kernel certificates returning no nonzero non-cyclotomic folded vector. This is reduced to the proved folded-certificate manifest soundness rule plus the remaining actual named folded-certificate manifest payload.",
    "attack_surface": "assembly from folded-certificate manifest soundness and the actual complete named folded-certificate transcripts for the open E1 cells",
    "falsifier": "missing N'=128 or N'=256 coverage, a failed folded certificate, or an admissible-field family with exceptional incidence exceeding the allowed budget"
@@ -4909,7 +4911,7 @@
   {
    "id": "e1_folded_certificate_manifest_payload",
    "title": "E1 actual folded-certificate manifest payload",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "statement": "Construct the named folded-certificate manifest for the E1 open cells N' in {128,256}. This is now conditional on the proved two-cell assembly rule plus the actual N'=128 and N'=256 folded-certificate cell payloads, each with a named exhibit field, complete folded kernel certificate, and zero nonzero non-cyclotomic folded vectors.",
    "attack_surface": "assembly from the two explicit E1 folded-certificate cell payloads",
    "falsifier": "missing N'=128 or N'=256 cell payload, an incomplete folded certificate, or a nonzero folded vector in either listed certificate"
@@ -4924,17 +4926,17 @@
   },
   {
    "id": "e1_folded_no_vector_certificate_256_payload",
-   "title": "e1 N'=256: density bound (WEAKENED from the zero-survivor cert)",
-   "status": "PROVED",
-   "statement": "WEAKENED (consumer-tolerance, verified): e1_fullness needs only that non-quotient e1 collisions are o(1)-SPARSE relative to the value set (density), NOT a zero-survivor folded cert. The N'=256 dim-128 {-2..2}-box ZERO-cert is (a) likely IMPOSSIBLE at |F|<2^256 (random model: ~2^48 expected non-quotient box collisions; BKZ inconclusive) and (b) UNNECESSARY: 2^48 / value-set(~2^249) = 2^-201 = o(1), so e1_fullness holds regardless. ACHIEVABLE ROUTE (from e1_fullness's own statement): the density/typicality bound \u2014 norm_threshold_ext, split-prime transfer, or a bad-prime union bound \u2014 over the admissible prime family. The dim-128 exact lattice enumeration is over-engineered; do not pursue it. (N'=128 zero-cert genuinely HELD: lambda_1=31.67>16.)",
+   "title": "E1 folded no-vector certificate payload for N'=256",
+   "status": "TARGET",
+   "statement": "Over the named E1 Pocklington field and displayed primitive 256th root, construct a complete machine-checkable folded-kernel certificate proving that no nonzero non-cyclotomic vector w in {-2,-1,0,1,2}^128 satisfies the N'=256 folded kernel equation.",
    "attack_surface": "actual complete no-vector certificate for the N'=256 folded kernel over the named field/root",
    "falsifier": "a nonzero non-cyclotomic folded vector in the named N'=256 field/root, or an incomplete certificate transcript",
-   "notes": "OPEN + HARD (Modal fpylll): BKZ shortest = 18.8 < radius 22.6 but inf-norm 4 (NOT a box vector) -> plain lambda_1 INCONCLUSIVE (cone-restricted/box bound needed, as reframing flagged). Count heuristic 2^48 box collisions NOT confirmed (BKZ found none). Needs a bounded-coefficient box enumeration or a cone-restricted dual cert to resolve certify-vs-collision. | RE-POSED (over-strong, verified): the zero-cert is impossible AND unnecessary; e1_fullness needs o(1)-sparsity (2^-201), delivered by the DENSITY route (norm-threshold / split-prime / bad-prime union). Deprioritize the dim-128 enumeration. | PROVED (Pro W3, verified): bad-prime union bound gives E S_p <= 2^64.2 at N'=256 => o(1)-sparse for all but p^-0.24 of admissible primes. Density/typicality route."
+   "notes": "FALSE-GREEN CORRECTION: the req edge into e1_folded_certificate_cell_256_payload consumes a complete zero-vector certificate. The banked bad-prime average is only an almost-all-primes survivor-density estimate and does not certify the named field, prove the required finite zero statement, or establish the family-uniform prize quantifier. The prior BKZ run was explicitly inconclusive. See status_ruling.md."
   },
   {
    "id": "e1_folded_certificate_cell_128_payload",
    "title": "E1 actual folded certificate payload for N'=128",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "statement": "For the E1 open cell N'=128, the named field and primitive root are supplied by e1_pocklington_250bit_exhibit_field and the schema dispatch by e1_named_field_folded_cell_certificate_soundness; it remains only to supply the complete no-vector certificate e1_folded_no_vector_certificate_128_payload excluding every nonzero non-cyclotomic w in {-2,-1,0,1,2}^64.",
    "attack_surface": "conditional assembly from the proved E1 exhibit field, the cell-certificate soundness rule, and the remaining N'=128 no-vector certificate payload",
    "falsifier": "a failed field/root check, a nonzero non-cyclotomic folded vector in the named N'=128 field, or an incomplete no-vector certificate"
@@ -4950,27 +4952,28 @@
   {
    "id": "e1_folded_no_vector_certificate_128_payload",
    "title": "E1 folded no-vector certificate payload for N'=128",
-   "status": "PROVED",
+   "status": "TARGET",
    "statement": "Over the named E1 Pocklington field and displayed primitive 128th root, construct a complete machine-checkable folded-kernel certificate proving that no nonzero non-cyclotomic vector w in {-2,-1,0,1,2}^64 satisfies the N'=128 folded kernel equation.",
    "attack_surface": "actual complete no-vector certificate for the N'=128 folded kernel over the named field/root",
    "falsifier": "a nonzero non-cyclotomic folded vector in the named N'=128 field/root, or an incomplete certificate transcript",
-   "notes": "PROVED (Modal fpylll, named 250-bit field): lambda_1 = 31.67 > box radius 16, no box collision. CERTIFIED."
+   "notes": "FALSE-GREEN CORRECTION: the historical fpylll run reported only rounded summary values. No exact output, basis, shortest-vector proof log, completion flag, deterministic checker, or independent audit is banked; the launcher also catches SVP failure without recording whether exact enumeration succeeded. The numerical observation remains evidence only. See status_ruling.md."
   },
   {
    "id": "e1_official_typicality_or_certificate",
    "title": "E1 official-prime typicality or certificate",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "statement": "For the open E1 cells N' in {128,256}, either prove uniform admissible-family typicality for the explicit exceptional norm-divisor set, or complete folded kernel certificates for named exhibit fields and return no nonzero non-cyclotomic folded vector. This is reduced to route soundness plus the remaining open-cell control payload.",
    "attack_surface": "assembly from official-row pinning, folded-certificate soundness, route soundness, and the remaining open-cell control payload",
    "falsifier": "an admissible row or named exhibit field with too many non-quotient folded sparse kernel vectors, a failed/incomplete folded certificate, or a defect in the route-soundness reduction"
   },
   {
    "id": "e1_official_prime_exception_control",
-   "title": "E1 official-prime exceptional-set control",
-   "status": "PROVED",
-   "statement": "For the admissible prize-scale row primes in the open E1 cells N' in {128,256}, incidence with the explicit non-quotient e1 exceptional norm-divisor set is negligible relative to the signed-core quotient count. Equivalently, the official row primes are typical for the exceptional-set reduction, or the pinned rows are certified directly by the folded lattice/kernel procedure.",
-   "attack_surface": "assembly from folded-certificate soundness plus the remaining official-row typicality/certificate production",
-   "falsifier": "an admissible prize-scale row prime with enough non-quotient folded sparse kernel vectors to make e1 collisions exceed the allowed o(1) budget"
+   "title": "Direct-E1 route-uniform exceptional-set control",
+   "status": "TARGET",
+   "statement": "Uniformly for every admissible clean-anchor row in the independently defined pair-feasible direct-E1 class B=F_p(Q), |B|>=b_pair_min(K,B*)=ceil((K+B*+1)/3), with all field, embedding, owner, and endpoint data pinned, let quotient orders N in {256,512}, K=A_2(N,ell), and P=sum_y binom(r_y,2) count unordered pairs of distinct characteristic-zero classes colliding after reduction. By e1_pair_feasible_prime_field_reduction every such named-anchor row has q=p and p=1 mod N. Exact folded-norm arguments force collision distance s>=5 for N=256 and s>=3 for N=512. Prove P<=K-B*-1 for B*=floor(|F|/2^128). The formerly printed {128,256} are folded dimensions, not live quotient orders. Finite selected-field exhibit certificates do not discharge this route-uniform target.",
+   "attack_surface": "prove the exact pair-feasible-class incidence bound, construct a pair-feasible row above allowance, or give a complete per-input image/collision certifier theorem",
+   "falsifier": "a pair-feasible candidate row with P>K-B*-1; a certifier leaving such a row uncovered; or any base/ambient-field normalization failure",
+   "notes": "EXACT FINITE RE-POSE 2026-07-26, narrowed 2026-07-27: replaces negligible/o(1) language, fixes quotient-order versus folded-dimension notation, proves that the live branch is prime-field, excludes s<=4 at N=256 and s<=2 at N=512 by exact folded norms. Selected-field exhibits remain evidence only, and unsafe_crossing_family_instantiation owns global row routing."
   },
   {
    "id": "ef_fullfield_bridge",
@@ -6569,7 +6572,11 @@
     "background/nodes/xr_generic_mds_kernel_ray_bound/result.md",
     "background/nodes/xr_generic_mds_kernel_ray_bound/verify.py"
    ],
-   "statement": "Let an MDS parity-check restriction on U have rank R, |U|=R+d, and let h>=1, r=R-h. For a syndrome line with no common r-sparse support for both endpoints, if every slope in Z has an r-sparse lift supported in U, then |Z| C(d+h,d) <= C(R+d,d)R. Proof: the MDS kernel restricts bijectively to every d-set T; after cancelling T, genericity leaves fewer than h persistent zeros, so every sparse slope and every T in its zero set supplies a nonpersistent affine zero, and each (T,x) receives at most one slope. This is a fixed-chart ray theorem, not an aggregate atlas."
+   "statement": "Let an MDS parity-check restriction on U have rank R, |U|=R+d, and let 1<=h<=R, r=R-h. For a syndrome line with no common r-sparse support for both endpoints, if every slope in Z has an r-sparse lift supported in U, then |Z| C(d+h,d) <= C(R+d,d)R. Proof: after the trivial |Z|<=1 case, two supported slopes supply endpoint lifts; the MDS kernel restricts bijectively to every d-set T, and after cancelling T genericity leaves fewer than h persistent zeros, so every sparse slope supplies C(d+h,d) nonpersistent affine-zero charges while each (T,x) receives at most one slope. This is a fixed-chart ray theorem, not an aggregate atlas; draft upstream PR #1106 specializes it to KoalaBear nullities through nine.",
+   "upstream": {
+    "label": "K3 column-far fixed-union ray compiler / draft PR #1106",
+    "relation": "IDENTICAL"
+   }
   },
   {
    "id": "xr_direction_distance_ray_bound",
@@ -10071,7 +10078,7 @@
    "refs": [
     "critical/nodes/f3_h3_dsp8_correlation_bound/statement.md"
    ],
-   "statement": "At every official row in n^2 <= p <= 6^{n/4}, with Q_n=(n-1)(n-2) and S_A=sum over antipodal P>=25 targets of R(t): 10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)<=750n^2-255Q_n. This is the sharpened E=6 disjoint-support primitive-SP correlation after the proved antipodal quotient-mass and global overlap-cover payments. The target-independent estimate 160(10K_25^0+17K_25^A)<=76599n^2 suffices. The accident-depth compiler proves that exclusion of any rectangle (P,R)>=(19,18),(21,16),(25,12),(29,8),(33,4) closes C36'. Its original fixed-order endpoint is Mbar_(3),6,33^0+(53/42)Mbar_(3),6,33^A<=(583/272)n^2 with rho_3=(R-3)_+; the wider rho_1 analytic endpoint has constant 2385/272. The joint-star/depth and single-quotient compilers give twelve exact disjoint-moment alternatives, one at every integer corner (P,R)>=(25,12),(26,11),...,(35,2),(36,1). The coordinate-minimal last row is Dbar_17^0+(29/22)Dbar_17^A<=(29/153)B_par (uniformly, Dbar_17^0+(29/22)Dbar_17^A<=(234697/48960)n^2); its survivors have degree-eight/six pure distance-six stars and one quotient lift. Its star-coupling ideal is center-independent and stays nonzero for a zero coupling, so no anchor designation is required. The exact quotient-index-free candidate support is p|s_(n,35)^X iff Dbar_17>0, with s_(n,35)^X|s_(n,18)^X. Its radical support decomposes into 3(n-s-1) Galois-orbit annihilators; at n=8192 these are 24,534 independent blocks of degree at most 4,096, with total degree unchanged. Every block has a unique formula-generated (j,sign,w) ID and an explicit cyclotomic-resultant or normalized-reciprocal polynomial, so no quotient-orbit enumeration is needed; reciprocal support is not identified. Exact scalar elimination may be replaced by the complete three-resultant gcd superset: 73,602 ordinary resultants at n=8192, followed by full factorization and exact false-positive filtering. More sharply, the coefficient content of one cutoff-35 Taylor resultant per block has exactly the scalar annihilator's odd prime radical, with maximum auxiliary degree 143,360. The preceding (35,2) row has the older smaller normalized allowance, an incomparable rectangle, two lifts, and one spoke. The twelve rows are alternatives and cannot be mixed. The proved rich factorial-moment compiler gives further sufficient estimates 40(10F_25^0+17F_25^A)<=76599n^2 or 680M_21<=76599n^2. FALSIFIER: one official row violating a selected sufficient inequality kills that analytic route, not necessarily C36 itself. Minted 2026-07-19 at the C36 amber ceremony (alt leaf, gate=any). || F-ROUND 1 EXECUTED against the former stronger target: SURVIVED-VACUOUSLY (2026-07-19; packet notes/dsp8r1_fround1_20260719/, 25 Modal apps; catches #288-#295): no measured row has a retained P>=25 target; richness saturates at P=20. Round 2 must be constructive through collision-norm/coupled-ideal templates, not a broad scan.",
+   "statement": "At every official row in n^2 <= p <= 6^{n/4}, with C_M=3*2^(-2/3), Q_n=(n-1)(n-2), and S_A=sum over antipodal P>=25 targets of R(t): 10K_25^0+17K_25^A+68S_A+68C_M n^(5/3)<=750n^2-255Q_n. Mattarei's arbitrary-coefficient Fermat-curve Corollary applies to both twisted quotient fibers and the combined cube-preimage fiber. It lowers the complete raw nodal payment to <116n^2 or <498n^2 according as gcd(3,p-1)=1 or 3. The exact remaining uniform smooth target is 10G_sm^0+17G_sm^A<=(36086/25)n^2, or equivalently 10K_sm^0+17K_sm^A<=(18043/50)n^2; the one-root branch permits 45636/25 in raw normalization. The target-independent estimate 25(10K_25^0+17K_25^A)<=12134n^2 suffices. The accident-depth compiler proves that exclusion of any rectangle (P,R)>=(19,18),(21,16),(25,12),(29,8),(33,4) closes C36'. Its original fixed-order endpoint is Mbar_(3),6,33^0+(53/42)Mbar_(3),6,33^A<=(583/272)n^2 with rho_3=(R-3)_+; the wider rho_1 analytic endpoint has constant 2385/272. The joint-star/depth and single-quotient compilers give twelve exact disjoint-moment alternatives, one at every integer corner (P,R)>=(25,12),(26,11),...,(35,2),(36,1). The coordinate-minimal last row is Dbar_17^0+(29/22)Dbar_17^A<=(29/153)B_par (uniformly, Dbar_17^0+(29/22)Dbar_17^A<=(234697/48960)n^2); its survivors have degree-eight/six pure distance-six stars and one quotient lift. Its star-coupling ideal is center-independent and stays nonzero for a zero coupling, so no anchor designation is required. The exact quotient-index-free candidate support is p|s_(n,35)^X iff Dbar_17>0, with s_(n,35)^X|s_(n,18)^X. Its radical support decomposes into 3(n-s-1) Galois-orbit annihilators; at n=8192 these are 24,534 independent blocks of degree at most 4,096, with total degree unchanged. Every block has a unique formula-generated (j,sign,w) ID and an explicit cyclotomic-resultant or normalized-reciprocal polynomial, so no quotient-orbit enumeration is needed; reciprocal support is not identified. Exact scalar elimination may be replaced by the complete three-resultant gcd superset: 73,602 ordinary resultants at n=8192, followed by full factorization and exact false-positive filtering. More sharply, the coefficient content of one cutoff-35 Taylor resultant per block has exactly the scalar annihilator's odd prime radical, with maximum auxiliary degree 143,360. The preceding (35,2) row has the older smaller normalized allowance, an incomparable rectangle, two lifts, and one spoke. The twelve rows are alternatives and cannot be mixed. The proved rich factorial-moment compiler gives further sufficient estimates 25(10F_25^0+17F_25^A)<=48536n^2 or 425M_21<=48536n^2. FALSIFIER: one official row violating a selected sufficient inequality kills that analytic route, not necessarily C36 itself. Minted 2026-07-19 at the C36 amber ceremony (alt leaf, gate=any). || F-ROUND 1 EXECUTED against the former stronger target: SURVIVED-VACUOUSLY (2026-07-19; packet notes/dsp8r1_fround1_20260719/, 25 Modal apps; catches #288-#295): no measured row has a retained P>=25 target; richness saturates at P=20. Round 2 must be constructive through smooth correlation or collision-norm/coupled-ideal templates, not a broad scan.",
    "upstream": {
     "label": "SP/second-moment stratification (Sum N^2 identity)",
     "relation": "OVERLAP"
@@ -12571,7 +12578,7 @@
    "title": "DSP8 nodal cube-preimage envelope",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "All singular-trace subgroup points combine into one affine intersection of the cube-preimage subgroup K={x:x^3 in H}, of order gcd(3,p-1)n. The resulting class-weighted raw nodal DSP8 contribution is below 552n^2 when p=2 mod 3 and below 2387n^2 when p=1 mod 3. This improves the old uniform constant 29376 but does not pay the smooth traces or close DSP8.",
+   "statement": "All singular-trace subgroup points combine into one affine intersection of the cube-preimage subgroup K={x:x^3 in H}, of order gcd(3,p-1)n. Applying the Mattarei affine-pair theorem to both this fiber and every twisted quotient fiber lowers the class-weighted raw nodal DSP8 contribution below 116n^2 when p=2 mod 3 and below 498n^2 when p=1 mod 3. Both fit the live allowance, leaving more than 1443n^2 in the three-root case; the smooth quotient-weighted correlation remains open.",
    "refs": [
     "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/statement.md",
     "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/proof.md",
@@ -12622,7 +12629,7 @@
    "title": "DSP8 antipodal quotient-mass payment",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "On the E=6, P>=25 interface, the selected antipodal quotient mass S_A is below (51/32)(n-2)n^(2/3), and the class-weighted overlap payment is at most 6Q_n+(38/5)S_A. Consequently C36' follows from 10K_25^0+17K_25^A+152S_A<=750n^2-375Q_n; the uniform estimate 80(10K_25^0+17K_25^A)<=29031n^2 is sufficient. This replaces the former sufficient primitive-SP constant 223 by 29031/80 without estimating the open disjoint correlation.",
+   "statement": "On the E=6, P>=25 interface, the selected antipodal quotient mass S_A is below (C_M/2)(n-2)n^(2/3), C_M=3*2^(-2/3), and the class-weighted overlap payment is at most 6Q_n+(38/5)S_A. Consequently C36' follows from 10K_25^0+17K_25^A+152S_A<=750n^2-375Q_n; the uniform estimate 100(10K_25^0+17K_25^A)<=36781n^2 is sufficient without estimating the open disjoint correlation.",
    "refs": [
     "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/statement.md",
     "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/proof.md",
@@ -12639,7 +12646,7 @@
    "title": "DSP8 global overlap-cover payment",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "The two exact one-parameter covers contain at most 2n overlapping generic--generic distance-six edges globally. Combining this with the affine quotient-fiber cap and the antipodal quotient-mass theorem gives O_6,25^0+(17/10)O_6,25^A<(867/80)n^(5/3)+(17/5)S_A. Consequently C36' follows from 10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)<=750n^2-255Q_n; uniformly, 160(10K_25^0+17K_25^A)<=76599n^2 suffices. This raises the sufficient primitive-SP constant to 76599/160 without estimating the open disjoint correlation.",
+   "statement": "The two exact one-parameter covers contain at most 2n overlapping generic--generic distance-six edges globally. Combining this with Mattarei's affine quotient-fiber cap and the antipodal quotient-mass theorem gives O_6,25^0+(17/10)O_6,25^A<(17/5)C_M n^(5/3)+(17/5)S_A. Consequently C36' follows from 10K_25^0+17K_25^A+68S_A+68C_M n^(5/3)<=750n^2-255Q_n; uniformly, 25(10K_25^0+17K_25^A)<=12134n^2 suffices without estimating the open disjoint correlation.",
    "refs": [
     "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/statement.md",
     "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/proof.md",
@@ -12656,7 +12663,7 @@
    "title": "DSP8 rich factorial-moment compiler",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "For F_25^c=sum over class-c P>=25 targets of P(t)(P(t)-2)R(t), the decorated disjoint correlation satisfies 10K_25^0+17K_25^A<=(10F_25^0+17F_25^A)/4<=(17/4)M_21, where M_21=sum over t!=1 of P(t)(P(t)-1)R(t). Consequently 40(10F_25^0+17F_25^A)<=76599n^2, or more strongly 680M_21<=76599n^2, implies the uniform DSP8 target. The older FM69 target is sufficient but substantially stronger than necessary.",
+   "statement": "For F_25^c=sum over class-c P>=25 targets of P(t)(P(t)-2)R(t), the decorated disjoint correlation satisfies 10K_25^0+17K_25^A<=(10F_25^0+17F_25^A)/4<=(17/4)M_21, where M_21=sum over t!=1 of P(t)(P(t)-1)R(t). Consequently 25(10F_25^0+17F_25^A)<=48536n^2, or more strongly 425M_21<=48536n^2, implies the uniform DSP8 target. The older FM69 target is sufficient but substantially stronger than necessary.",
    "refs": [
     "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/statement.md",
     "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/proof.md",
@@ -12875,7 +12882,7 @@
    "title": "DSP8 nodal Stepanov constant barrier",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "Every positive parameter choice in the current one-auxiliary-polynomial Stepanov ansatz, with D(A+D)<AB^2 and AB<=m, has degree-to-multiplicity quotient greater than 2^(5/3)m^(2/3). Using this ansatz for both the order-n quotient line and order-3n nodal parameter count forces a class-blind leading coefficient above 2176, exceeding the live G-normalized allowance 76599/40. Retuning A,B,D cannot close the three-cubic-root nodal lane; target-sensitive correlation or a stronger multi-fiber theorem is required. This is a proof-method barrier, not a lower bound on actual records.",
+   "statement": "Every positive parameter choice in the in-house one-auxiliary-polynomial Stepanov ansatz, with D(A+D)<AB^2 and AB<=m, has degree-to-multiplicity quotient greater than 2^(5/3)m^(2/3). Using this ansatz for both the order-n quotient line and order-3n nodal parameter count forces a class-blind leading coefficient above 2176, exceeding the live G-normalized allowance 48536/25. Retuning A,B,D cannot close the three-cubic-root nodal lane. Mattarei's distinct Garcia--Voloch route now bypasses this proof-method barrier; the statement was never a lower bound on actual records.",
    "refs": [
     "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/statement.md",
     "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/proof.md",
@@ -15892,17 +15899,27 @@
   },
   {
    "id": "rate_half_list_chamber_affine_rank_bridge",
-   "title": "Chamber-to-affine-rank bridge for the rate-half list compilers",
-   "status": "TARGET",
+   "title": "Budget-three rank-flat chamber bridge is a route fence",
+   "status": "PROVED",
+   "closure": "proof",
    "gate": "all",
    "refs": [
     "background/nodes/rate_half_list_chamber_affine_rank_bridge/statement.md",
-    "background/nodes/rate_half_list_chamber_affine_rank_bridge/verify.py"
+    "background/nodes/rate_half_list_chamber_affine_rank_bridge/proof.md",
+    "background/nodes/rate_half_list_chamber_affine_rank_bridge/claim_contract.md",
+    "background/nodes/rate_half_list_chamber_affine_rank_bridge/dependency_subdag.md",
+    "background/nodes/rate_half_list_chamber_affine_rank_bridge/audit.md",
+    "background/nodes/rate_half_list_chamber_affine_rank_bridge/result.md",
+    "background/nodes/rate_half_list_chamber_affine_rank_bridge/lineage.md",
+    "background/nodes/rate_half_list_chamber_affine_rank_bridge/upstream_crosswalk.md",
+    "background/nodes/rate_half_list_chamber_affine_rank_bridge/verify.py",
+    "background/nodes/rate_half_list_chamber_affine_rank_bridge/verify_rank_flat_fence.py",
+    "background/nodes/rate_half_list_chamber_affine_rank_bridge/verify_rank_flat_fence_audit.py",
+    "background/nodes/rate_half_list_chamber_affine_rank_bridge/verify_compiler_cannot_bite.py"
    ],
-   "statement": "For an official rate-1/2 row (n=2^41, K=2^40) let c_0..c_3 be four codewords with agr(c_i,u) >= a = 3n/4-1, i.e. an instance of the B*=3 obstruction of rate_half_list_adjacent_crossing. Such a quadruple realizes exactly one of the thirteen edge-degree chambers of that node's atlas. Produce the bridge chamber -> (s, d_1..d_s, b), where s = dim span{c_i - c_0} is the affine rank, d_j are the generalized Hamming weights of the direction code C', z = |G| = n - d_s for G the common-zero set of C', g the number of points of G where the common value agrees with u, and b = z - g; lower bounds on s and each d_j plus an upper bound on b suffice. WHY OWED: Przemek's thm:affine-span-list (grande_finale.tex:498) and thm:rank-flat-list (:583) are stated in (s,d_j,b) while the chamber atlas is stated in locator-pencil edge degrees; no map exists, so the compilers cannot be evaluated per chamber and the Convergence Ledger S3 promotion test ('ev->req when chamber coordinates are bound to affine spans') cannot fire. PINNED 2026-07-26: s >= 2 whenever n-K+1 > floor(3(n-a)/2), which holds at this row for every a >= 1466015503701, so s in {2,3} and no three list members are collinear; s=2 gives affine-span cap exactly 4 (zero slack) and s=3 gives cap 8 (slack 4). EXPECTED SIGN: over all 12 four-codeword witnesses of the banked RS[F_17,F_17^*,8] branch at a=3n/4-1, s=3 and b=0 in 12/12 with d_1=9=R+1 always, so the bridge is expected to return s=3,b=0 and kill NO chamber - a negative that retires the H1 promotion hope is the deliverable, not a failure.",
-   "attack_surface": "(1) Compute (s,d_j,b) from one chamber's locator data - the four block locators A_i and edge factors b_ij - via the triangle identities A_k b_ij + A_i b_jk = A_j b_ik and the Plucker gate b_01b_23 - b_02b_13 + b_03b_12 = 0; the A_i partition the multiplicative-coset vanishing polynomial, so d_s should be readable off the exceptional degree (in {3,4,5,6,8} for the nine Grassmann-line chambers). (2) Prove s=3 outright by showing a coplanar quadruple at a=3n/4-1 forces a locator degeneration incompatible with every chamber - an equality-case rigidity problem, since s=2 sits exactly at the cap. (3) Prove b=0 outright from the common-zero structure: on G all four members share one value, so b >= 1 costs every member an agreement against an already tight budget.",
-   "falsifier": "Two four-codeword configurations realizing the SAME chamber with different affine rank s (or different b): the chamber would not determine the affine invariants, refuting the bridge as posed and forcing a refinement of the atlas before any compiler can be applied per chamber. Wired instance: background/nodes/rate_half_list_chamber_affine_rank_bridge/verify.py re-derives every witness of the banked F_17 branch and fails closed on any with s != 3 or b != 0.",
-   "notes": "Minted 2026-07-26 (queue r2 Q1) out of the H1/S3 replay recorded in critical/nodes/rate_half_list_adjacent_crossing/notes/affine_span_chamber_replay_20260726.md. Wired ev, NOT req: rate_half_list_adjacent_crossing does not depend on this bridge for its truth; the bridge only decides whether the H1 harvest can ever be promoted to a requirement edge. Subtraction check clean - no upstream prior art at b13de811 for chamber/affine-rank language in v4 or grande_finale. F_17 evidence is a power-of-two multiplicative-domain route fence, never a proof of the official uniform statement; no transport to d = 2^39."
+   "statement": "For every four-codeword budget-three predecessor witness in RS[F,D,2d], |D|=4d and d>=3, affine rank is three and common mismatch is b=0. Every six-type incidence pattern has a pair agreeing on exactly 2d-1 coordinates, so d_1=2d+1, and has a selected triple intersection of size at least d-1, so d_2<=3d+1. With 2d+3<=d_3<=4d, the rank-flat expression is strictly greater than four: x(x-1)(x-2)>8d^2(x-d-1) for x=d_3. Hence its integer cap is at least four in all thirteen chambers and the harvested compiler cannot prove the predecessor cap three. The bridge is closed as a route fence, not a chamber exclusion.",
+   "falsifier": "A valid six-type tuple with d_1=2d+1, d_2<=3d+1, 2d+3<=d_3<=4d, b=0, and rank-flat integer cap at most three.",
+   "notes": "Reconciled after canonical f2634a1f. The local affine-rank theorem makes the canonical s=2 program vacuous; the common-mismatch theorem gives b=0; exact incidence arithmetic proves the remaining rank-flat route cannot bite. Wired ev to rate_half_list_adjacent_crossing because it closes only a harvested proof route. MI2 remains scope-mismatched and unnecessary."
   },
   {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
@@ -15914,9 +15931,9 @@
     "background/nodes/dli_wcl_ell4_weight11_quintic_divisor_descent/verify.py"
    ],
    "statement": "Let char K = 0 or > 11, omega of exact order 2048. For a reduced signed weight-11 relation rho_i = s_i omega^{e_i} with p_1=p_3=p_5=p_7=0: since gcd(11,2048)=1 with 11^{-1}=931 mod 2048, the global dilation lambda = a_11^{-931} uniquely normalises the product to one. Newton then gives e_1=e_3=e_5=e_7=0 and e_11=1. The odd indices at most 9 are {1,3,5,7,9}, all pinned at w=9; at w=11 they are {1,3,5,7,9,11} and e_9 is FREE. Hence the locator is F(X)=X B(X^2)-(e_9 X^2+1) with B a monic QUINTIC (six parameters, against four at (4,9)), the square locator is G(Y)=Y B(Y)^2-(e_9 Y+1)^2 = prod (Y-(lambda rho_i)^2), monic of degree 11 and dividing Y^1024-1, and the reconstruction is rho=(e_9 y+1)/B(y). The elimination endpoint (Y^1024-1) mod G gives 11 relations R_j in Z[b_0..b_4,e_9], six unknowns. The CONVERSE also holds under the side condition gcd(B(Y), e_9 Y+1)=1 (vacuous at e_9=0): G is squarefree, B is nonzero at every root of G, the eleven reconstructed rho are distinct, pairwise non-antipodal and are exactly F's roots, their product is one because F(0)=-1 identically, the window conditions are recovered from F's missing X^10,X^8,X^6,X^4 terms via Newton, and rho^2 in mu_1024 forces rho in mu_2048 hence the signed form s*omega^e with e<1024. So common-dilation orbits of (4,11) relations are IN BIJECTION with pairs (B,e_9) satisfying the side condition and the divisibility -- the exact analogue of the (4,9) quartic bijection. OWED: the Delta certificate, harder in shape than (4,9)'s at 11 relations in 6 unknowns against 9 in 4.",
-   "attack_surface": "The Delta certificate: show the ideal I=(R_0..R_10) in Z[b_0..b_4,e_9] has no characteristic-zero point and extract a nonzero integer Delta = sum_j H_j R_j. Eleven relations in six unknowns, against nine in four at (4,9).",
+   "attack_surface": "Extract and independently check an explicit nonzero integer Delta identity, factor or otherwise exclude every compatible prime divisor, and close the official characteristic support. Characteristic-zero emptiness and a scheme-equivalent 142-variable, 147-equation cubic lift are already proved by the extended six-slot endpoint.",
    "falsifier": "A monic quintic B and scalar e_9 over an admissible field with G | Y^1024-1 whose reconstruction yields a genuine reduced weight-11 relation satisfying the ell=4 window conditions -- i.e. a live (4,11) vanisher.",
-   "notes": "Minted 2026-07-26 from the descent parity dichotomy: gcd(11,2048)=1 so the (4,9) global-dilation normalisation transfers verbatim, whereas (4,10) is even and obstructed at index 2. This makes (4,11) the cheaper of the two open ell=4 descent statements and it should be worked first, reversing the printed residual order. Subtraction check clean: no upstream prior art for a weight-11 quintic-divisor descent at b13de811."
+   "notes": "Specializes the already proved extended six-slot divisor endpoint to the product-one (4,11) coordinates. The even parity obstruction concerns only that normalization: (4,10) already has its exact E^2-YB^2 descent. Certificate order is (4,9) first because its four-parameter and 114/119 cubic systems are smaller, not because (4,10) lacks a descent. Subtraction check clean: no upstream prior art for this specialized weight-11 coordinate packet at b13de811."
   },
   {
    "id": "dli_wcl_ell4_weight10_even_divisor_descent",
@@ -15931,6 +15948,779 @@
    "attack_surface": "The Delta certificate: show the ideal (R_0..R_9) in Z[e_2,e_4,e_6,e_8,e_9,e_10] has no characteristic-zero point and extract Delta. Symbolic Y^1024 mod G blows up, so prefer the clean symmetric-function form recorded on the (4,9) node.",
    "falsifier": "A monic quintic E and nonzero e_9 over an admissible field with G = E(Y)^2 - e_9^2 Y dividing Y^1024-1 whose reconstruction yields a genuine reduced weight-10 relation satisfying the ell=4 window -- i.e. a live (4,10) vanisher.",
    "notes": "Minted 2026-07-27. The parity dichotomy flagged (4,10) as obstructed (gcd(10,2048)=2) and predicted it would need a sub-tuple router in the style of the closed (2,5)/(2,6). The resolution is simpler: even weights need no dilation at all, because the window conditions alone deliver the normal form and e_9 != 0 comes free from reducedness. Subtraction check clean at b13de811."
+  },
+  {
+   "id": "qfloor_clean_anchor_norm_threshold_route_cut",
+   "title": "Qfloor norm threshold is impossible at the six clean predecessors",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/qfloor_clean_anchor_norm_threshold_route_cut/statement.md",
+    "background/nodes/qfloor_clean_anchor_norm_threshold_route_cut/proof.md",
+    "background/nodes/qfloor_clean_anchor_norm_threshold_route_cut/claim_contract.md",
+    "background/nodes/qfloor_clean_anchor_norm_threshold_route_cut/verify.py"
+   ],
+   "statement": "At the six clean candidate predecessors, the canonical qfloor parameters are (N',ell')=(256,65),(256,33),(512,33). Their strict norm thresholds (2ell')^(N'/2) have respectively 899, 774, and 1548 bits, all above 2^256. Since every official characteristic satisfies p<=q<2^256, qfloor_exact is inapplicable on all six rows. The above-budget raw binomial quotient censuses are not thereby proved to be distinct ambient slopes.",
+   "notes": "ROUTE CUT 2026-07-26: the clean A-1 quotient multiplicities need direct-E1/value-set injectivity or a replacement collision theorem; qfloor_exact cannot supply them under the official field cap. This is not safety."
+  },
+  {
+   "id": "e1_clean_anchor_exact_collision_allowance",
+   "title": "Exact E1 class counts and collision-loss allowances at clean anchors",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_clean_anchor_exact_collision_allowance/statement.md",
+    "background/nodes/e1_clean_anchor_exact_collision_allowance/proof.md",
+    "background/nodes/e1_clean_anchor_exact_collision_allowance/claim_contract.md",
+    "background/nodes/e1_clean_anchor_exact_collision_allowance/verify.py",
+    "background/nodes/e1_clean_anchor_exact_collision_allowance/audit_verify.py"
+   ],
+   "statement": "At each clean candidate predecessor, let K=A_2(N,ell) be the exact characteristic-zero antipodal-rearrangement class count and P=sum_y binom(r_y,2) the number of unordered pairs of distinct classes colliding after reduction into the ambient slope field. Then K-|image|<=P, so P <= K-B*-1 implies |image|>=B*+1. The actual quotient orders are N=256,512 with folded dimensions h=128,256. If B=F_p(Q) has size b, image(e1) is contained in B; moreover every reduction has P>=P_min(K,b)=b binom(s,2)+rs for K=sb+r. Thus b<=B* rules out direct E1, and b<b_pair_min=ceil((K+B*+1)/3) rules out the pair-loss compiler. Exact allowances and pair-feasibility thresholds are printed for all six anchors.",
+   "notes": "FINITE E1 COMPILER 2026-07-26: corrects the provisional global-sign factor, quotient-order/folded-dimension ambiguity, circular route assignment, and the overbroad |B|>B* pair target. It fixes exact allowances and a three-way generated-field split but proves no official collision bound and pays no row."
+  },
+  {
+   "id": "e1_pair_feasible_ambient_generation",
+   "title": "Pair-feasible E1 rows generate the ambient field",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_pair_feasible_ambient_generation/statement.md",
+    "background/nodes/e1_pair_feasible_ambient_generation/proof.md",
+    "background/nodes/e1_pair_feasible_ambient_generation/claim_contract.md",
+    "background/nodes/e1_pair_feasible_ambient_generation/verify.py",
+    "background/nodes/e1_pair_feasible_ambient_generation/source_pin.json"
+   ],
+   "statement": "At each of the six named clean predecessor anchors, let Q be the canonical cyclic quotient root set of order N in {256,512}, and let B=F_p(Q) be its generated subfield of the ambient field F_q. Every proper B has |B|<2^128 because q<2^256. All six exact pair-feasibility thresholds satisfy b_pair_min>2^128, with bit lengths 134,170,188. Hence |B|>=b_pair_min forces F_p(Q)=F_q. Proper generated-subfield rows remain outside the pair-loss target and require direct image or another supplier.",
+   "notes": "ROUTE REDUCTION 2026-07-27: ambient generation is automatic on the live pair-feasible E1 branch; this proves no collision bound."
+  },
+  {
+   "id": "e1_pair_feasible_prime_field_reduction",
+   "title": "Pair-feasible E1 rows lie in the prime-field kernel scope",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_pair_feasible_prime_field_reduction/statement.md",
+    "background/nodes/e1_pair_feasible_prime_field_reduction/proof.md",
+    "background/nodes/e1_pair_feasible_prime_field_reduction/claim_contract.md",
+    "background/nodes/e1_pair_feasible_prime_field_reduction/dependency_subdag.md",
+    "background/nodes/e1_pair_feasible_prime_field_reduction/audit.md",
+    "background/nodes/e1_pair_feasible_prime_field_reduction/result.md",
+    "background/nodes/e1_pair_feasible_prime_field_reduction/source_pin.json",
+    "background/nodes/e1_pair_feasible_prime_field_reduction/verify.py"
+   ],
+   "statement": "At each of the six named clean predecessor anchors, pair feasibility first forces F_p(Q)=F_q. Writing q=p^d, the canonical quotient roots then give d=ord_N(p), where N is 256 or 512. Exact perfect-power interval checks exclude every possible d>1: the prize interval has no such perfect power, and the only four RowC square roots have the wrong parity or multiplicative order. Hence q=p and p=1 mod N on the live pair-feasible E1 branch. This validates the prime-field sparse-kernel interface but proves no collision allowance.",
+   "notes": "ROUTE REDUCTION 2026-07-27: closes the extension-degree scope gap left by ambient generation. The exact pointwise E1 collision target remains open."
+  },
+  {
+   "id": "e1_prime_field_l2_norm_collision_radius",
+   "title": "Prime-field E1 collision-free radius from folded L2 norms",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/statement.md",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/proof.md",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/claim_contract.md",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/dependency_subdag.md",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/audit.md",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/result.md",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/source_pin.json",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/verify.py"
+   ],
+   "statement": "For a nonzero E1 class difference with raw representatives at swap distance s over quotient order N=2h, fold antipodes to alpha=sum_i c_i zeta^i and S=sum_i c_i^2. Odd-conjugate orthogonality and AM-GM give |Norm(alpha)|<=S^(h/2). Either S<=4s-2, or alpha=2 beta with |Norm(beta)|<=s^(h/2). Since every live pair-feasible prime is at least 2^250, all N=256 collisions with s<=4 and all N=512 collisions with s=1 are impossible. The first surviving bands reduce to profiles (a,b,c)=(4,2,0),(3,4,0) at N=256,s=5 and (1,2,0),(0,4,0) at N=512,s=2.",
+   "notes": "ROUTE REDUCTION 2026-07-27: replaces the crude L1 norm radius by an exact folded L2 bound. It does not control the surviving collision-pair ledger."
+  },
+  {
+   "id": "e1_n256_s16_high_variance_collision_exclusion",
+   "title": "N=256 square-mass-16 high-variance collision exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_high_variance_collision_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_high_variance_collision_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_high_variance_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_high_variance_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_high_variance_collision_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_high_variance_collision_exclusion/result.md",
+    "background/nodes/e1_n256_s16_high_variance_collision_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_high_variance_collision_exclusion/verify.py"
+   ],
+   "statement": "For profile (3,4,0) at N=256,s=5, the conjugate-square mean is 16, the maximum is 100, and the exact negacyclic autocorrelation variance V is even. If V=0 the norm is the pure power 2^256. If V>=136, an exact logarithmic majorant log x<=log16+(x-16)/16-(x-16)^2/2070 gives |Norm(alpha)|<2^250. Hence any unresolved collision in this profile has positive even V<=134.",
+   "notes": "ROUTE REDUCTION 2026-07-27: removes the zero- and high-variance portions of one first-band N=256 profile. The bounded low-variance residual, profile (4,2,0), later bands, and total ledger remain open."
+  },
+  {
+   "id": "e1_n256_proper_conductor_collision_exclusion",
+   "title": "N=256 proper-conductor E1 collision exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_proper_conductor_collision_exclusion/statement.md",
+    "background/nodes/e1_n256_proper_conductor_collision_exclusion/proof.md",
+    "background/nodes/e1_n256_proper_conductor_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_proper_conductor_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_proper_conductor_collision_exclusion/audit.md",
+    "background/nodes/e1_n256_proper_conductor_collision_exclusion/result.md",
+    "background/nodes/e1_n256_proper_conductor_collision_exclusion/source_pin.json",
+    "background/nodes/e1_n256_proper_conductor_collision_exclusion/verify.py"
+   ],
+   "statement": "For either first-band N=256,s=5 folded profile (4,2,0) or (3,4,0), let T be the actual nonzero support. If d=gcd(256,{i-r:i in T})>1, monomial normalization places the vector in a cyclotomic subfield of degree at most 64. Its nonzero small-field norm has magnitude at most 18^32<2^250, while the full norm is a power of that same integer up to sign. Hence no pair-feasible row prime divides it, and every unresolved first-band collision has full conductor. A certified profile-(3,4,0) vector of variance 36 shows that low variance does not imply proper conductor.",
+   "notes": "ROUTE REDUCTION 2026-07-27: removes every proper-subfield lift from both first-band N=256 profiles. Full-conductor vectors remain in the low-variance residual, so neither profile nor the total ledger is closed."
+  },
+  {
+   "id": "e1_n256_2adic_cofactor_collision_exclusion",
+   "title": "N=256 2-adic cofactor collision exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/statement.md",
+    "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/proof.md",
+    "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/audit.md",
+    "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/result.md",
+    "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/source_pin.json",
+    "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/verify.py"
+   ],
+   "statement": "For a first-band N=256,s=5 folded vector, let mu be the multiplicity at X=1 of its nonzero mod-two reduction. Total ramification gives mu=v_2(|Norm(alpha)|). If a live prime p>2^250 divides the norm, the folded-L2 bounds force a cofactor below 64 in profile (3,4,0) and below 2^17 in profile (4,2,0). Hence mu<=5 and mu<=16, respectively. In the two-singleton profile this says their exponent separation is not divisible by 32.",
+   "notes": "ROUTE REDUCTION 2026-07-27: adds exact 2-adic necessary conditions to both first-band N=256 profiles. Passing the tests is not sufficient, and neither profile nor the total ledger is closed."
+  },
+  {
+   "id": "e1_n256_s16_signed_chord_collision_gate",
+   "title": "N=256 square-mass-16 signed-chord collision gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/statement.md",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/proof.md",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/claim_contract.md",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/audit.md",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/result.md",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/source_pin.json",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/verify.py"
+   ],
+   "statement": "In the profile-(3,4,0) residual 0<V<=76, let D_64 be the squared weight of diameter chords and C the signed cross sum between distinct support chords of equal non-diameter circular length. Exact negacyclic energy gives V/2=102-D_64+2C. Diameter chords form a matching of weight at most 21, so C<=-22. Thus every residual support has an oppositely signed equal-chord pair, is not circular Sidon, and lies on a signed three-term-progression or four-point-parallelogram template.",
+   "notes": "ROUTE REDUCTION 2026-07-27: converts the analytic low-variance residual into an exact additive-relation classification gate. It does not enumerate or exclude the resulting templates."
+  },
+  {
+   "id": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "title": "N=256 square-mass-16 sparse-L1 variance exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/result.md",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py"
+   ],
+   "statement": "For profile (3,4,0), put E=V/2=sum_d A_d^2 and L=sum_d |A_d| over the positive-half negacyclic autocorrelation. An exact relaxed minimum-energy slack recurrence gives the required L ceilings for E=39,...,52. Eight optimized quadratic row certificates, four nested-layer third-moment/cubic-Hermite endpoint certificates, and nine mean-tangent logarithmic majorants exclude every even variance 78<=V<=134 by putting the norm below 2^250. Every unresolved vector in this profile has positive even V<=76.",
+   "notes": "ROUTE REDUCTION 2026-07-27: uses profile-specific chord cancellation, exact moment layering, and logarithmic majorants to remove twenty-nine variance values from profile (3,4,0). The positive even V<=76 residual remains open; the tested cubic route reaches its boundary at V=76."
+  },
+  {
+   "id": "e1_n256_s16_autocorrelation_subfield_exclusion",
+   "title": "N=256 square-mass-16 autocorrelation-subfield exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/result.md",
+    "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/verify.py"
+   ],
+   "statement": "For a profile-(3,4,0) N=256,s=5 candidate at variance V=76, the exact slack recurrence gives L<=22 and conjugate squares at most 60. If A_d=0 whenever 4 does not divide d, then beta=F(zeta)conjugate(F(zeta)) lies in Q(zeta_64). Writing R=Norm_Q(zeta_256)(F(zeta)) and N=Norm_Q(zeta_64)(beta), the tower law gives R^2=N^4 while 0<|N|<=60^32<2^250. Hence no pair-feasible row prime divides R. Every live V=76 candidate has a nonzero autocorrelation distance not divisible by four.",
+   "notes": "ROUTE REDUCTION 2026-07-27: removes the subgroup-concentrated weighted-third-moment extremizer from the V=76 route. The nonperiodic variance-76 residual remains open."
+  },
+  {
+   "id": "e1_n256_s16_e38_quotient_schur_exclusion",
+   "title": "N=256 square-mass-16 E=38 quotient-Schur exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e38_mod16_quotient_census.cpp",
+    "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/verify_census_remote.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e38_mod16_quotient_census_result.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e38_mod16_quotient_census_check.py"
+   ],
+   "statement": "For profile (3,4,0) at V=76, the exact slack recurrence gives E=38 and L<=22. A complete mod-16 quotient census bounds the three exceptional magnitude profiles: the two-layer maxima are 2782, 2760, 2580, and 2422, while the outer 30-point Schur term is at most 840. Together with the exact top-layer zero and the proved 4Z autocorrelation-subfield exclusion, every live candidate has M_3<=2796<2806. The rational cubic-Hermite certificate therefore puts the norm below 2^250 and excludes V=76. Every unresolved vector in this profile has positive even V<=74.",
+   "notes": "ROUTE CLOSURE 2026-07-27: a complete 43,153,083-allocation quotient census and the existing subfield cut close the variance-76 slice without new assumptions. Lower positive even variances remain open."
+  },
+  {
+   "id": "e1_n256_s16_e37_quotient_schur_exclusion",
+   "title": "N=256 square-mass-16 E=37 quotient-Schur exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/verify_census_remote.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e37_mod16_quotient_census.cpp",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e37_mod16_quotient_census_result.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e37_mod16_quotient_census_check.py"
+   ],
+   "statement": "For profile (3,4,0) at V=74, the exact slack recurrence gives E=37 and L<=21. A complete 19,732,753-allocation quotient census, split according to the weight-two layer's 4Z support and refined by the exact Z/32 Z bound R(B,B,B)<=174, gives M_3<=2576<2592 across all 29 magnitude profiles. The rational cubic-Hermite certificate therefore puts the norm below 2^250 and excludes V=74. Every unresolved vector in this profile has positive even V<=72.",
+   "notes": "ROUTE CLOSURE 2026-07-27: closes the variance-74 slice with exact quotient chambers, a 6,435-set inner Schur census, and no new assumptions. Lower positive even variances remain open."
+  },
+  {
+   "id": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "title": "N=256 square-mass-16 E=36 quotient-Schur exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/verify_census_remote.py",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/verify_bbb64_remote.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e36_mod16_quotient_census.cpp",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e36_mod16_quotient_census_result.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e36_mod16_quotient_census_check.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e36_bbb64_census.cpp",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e36_bbb64_census_result.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e36_bbb64_census_check.py"
+   ],
+   "statement": "For profile (3,4,0) at V=72, the exact slack recurrence gives E=36 and L<=20. A complete 8,144,380-allocation quotient census, refined by the exact 7,888,725-set Z/64 Z bound R(B,B,B)<=174, bounds all three exceptional profiles and gives M_3<=2344<2377. The rational cubic-Hermite certificate therefore puts the norm below 2^250 and excludes V=72. Every unresolved vector in this profile has positive even V<=70.",
+   "notes": "ROUTE CLOSURE 2026-07-27: closes the variance-72 slice with exact quotient chambers, a complete Z/64 Z inner Schur census, and no new assumptions. Lower positive even variances remain open."
+  },
+  {
+   "id": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "title": "N=256 square-mass-16 E=35 quotient-Schur exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/verify_e35_mod16_quotient_census_remote.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_mod16_quotient_census.cpp",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_mod16_quotient_census_result.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_mod16_quotient_census_check.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_high_outer_coupling_check.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_route_report_20260727.md"
+   ],
+   "statement": "For profile (3,4,0) at V=70, the exact slack recurrence gives E=35 and L<=19. A complete 2,946,287-allocation quotient census closes (3,8). For (6,5,1), only four of 104,750 odd outer allocations have R(A,A,A)>458; all 276 compatible nested middle/top allocations have full quotient objective at most 2054. Together with the divided and 4Z cases, every live row has M_3<=2162, at the exact cubic threshold. Hence V=70 is excluded and every unresolved vector in this profile has positive even V<=68.",
+   "notes": "ROUTE CLOSURE 2026-07-27: closes the variance-70 slice with exact quotient chambers and a four-outer, 276-nesting coupling census. Lower positive even variances remain open."
+  },
+  {
+   "id": "e1_n256_local_norm_cofactor_collapse",
+   "title": "N=256 local-norm cofactor collapse",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/statement.md",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/proof.md",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/claim_contract.md",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/dependency_subdag.md",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/audit.md",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/result.md",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/source_pin.json",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/verify.py"
+   ],
+   "statement": "Local reciprocity gives R/2^mu=1 mod 256 for every nonzero integral norm R from Q_2(zeta_256), where mu=v_2(R). On the pair-feasible branch p=1 mod 256. If R=pm, then m/2^mu=1 mod 256. Consequently profile (3,4,0) has exactly five possible cofactors m=2^mu for 1<=mu<=5, so R=2^mu p. Profile (4,2,0) has 419 possible cofactors m=2^mu(1+256t)<2^17 with mu in {1,2,4,8,16}.",
+   "notes": "ROUTE REDUCTION 2026-07-27: replaces broad cofactor intervals by exact local-norm congruence classes. It does not prove primality or interval membership of the remaining odd norm parts."
+  },
+  {
+   "id": "e1_n512_four_singleton_collision_exclusion",
+   "title": "N=512 four-singleton E1 collision exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/statement.md",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/proof.md",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/audit.md",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/result.md",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/source_pin.json",
+    "background/nodes/e1_n512_four_singleton_collision_exclusion/verify.py"
+   ],
+   "statement": "At N=512,s=2, a folded profile (a,b,c)=(0,4,0) has four distinct coefficients in {+1,-1}. Its negacyclic autocorrelation variance V is even. If V=0 its cyclotomic norm is the pure power 2^256; if V=2 an exact primitive-power-of-two product gives geometric conjugate-square mean G<19/5; if V>=4 a uniform logarithmic deficit gives G<180/47. In the latter cases |Norm(alpha)|=G^128<2^250, while no odd row prime divides the V=0 norm. Hence this profile cannot collide at any pair-feasible anchor, leaving only (1,2,0) in the first N=512 band.",
+   "notes": "ROUTE REDUCTION 2026-07-27: closes one of the two first-band N=512 profiles by exact norm structure. It does not control profile (1,2,0), later bands, or the total collision-pair ledger."
+  },
+  {
+   "id": "e1_n512_trinomial_interval_norm_exclusion",
+   "title": "N=512 trinomial interval-norm collision exclusion",
+   "status": "PROVED",
+   "closure": "proof plus exact certificate",
+   "refs": [
+    "background/nodes/e1_n512_trinomial_interval_norm_exclusion/statement.md",
+    "background/nodes/e1_n512_trinomial_interval_norm_exclusion/proof.md",
+    "background/nodes/e1_n512_trinomial_interval_norm_exclusion/claim_contract.md",
+    "background/nodes/e1_n512_trinomial_interval_norm_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n512_trinomial_interval_norm_exclusion/audit.md",
+    "background/nodes/e1_n512_trinomial_interval_norm_exclusion/result.md",
+    "background/nodes/e1_n512_trinomial_interval_norm_exclusion/certificate.json",
+    "background/nodes/e1_n512_trinomial_interval_norm_exclusion/source_pin.json",
+    "background/nodes/e1_n512_trinomial_interval_norm_exclusion/verify.py",
+    "background/nodes/e1_n512_trinomial_interval_norm_exclusion/notes/flint_replay_modal.py"
+   ],
+   "statement": "At N=512,s=2, every folded profile (1,2,0) normalizes to F=2+epsilon X^a+delta X^b with 1<=a<b<=255. The 129540 signed states form 748 odd-Galois orbits and give 746 distinct exact norms. For each norm and both full pair-feasible prime intervals, the complementary-cofactor window has width at most one: only four integers occur, only one divides, and its quotient is composite and 0 mod 512. Thus no pair-feasible prime divides any norm. Together with the four-singleton exclusion, every surviving N=512 collision has s>=3.",
+   "notes": "ROUTE REDUCTION 2026-07-27: closes the complete N=512,s=2 band by a dual-backend exact resultant and interval-divisor certificate. It does not control s>=3 or the total collision-pair ledger."
+  },
+  {
+   "id": "identity_prefix_flexible_budget_unsafe_floor",
+   "title": "Identity-prefix plus flexible-budget MCA unsafe floor",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/identity_prefix_flexible_budget_unsafe_floor/statement.md",
+    "background/nodes/identity_prefix_flexible_budget_unsafe_floor/proof.md",
+    "background/nodes/identity_prefix_flexible_budget_unsafe_floor/source_pin.json"
+   ],
+   "statement": "Let B be a finite subfield of F, D subset B have size n, C=RS[F,D,k], q=|F|>n, and k+1<=m<=n. Put w=m-k-1 and B*=floor(q/2^t). If binom(n,m)>|B|^w B* and binom(B*+1,2)k<q-n, then one simple-pole received line has at least B*+1 distinct support-wise MCA-bad ambient-field slopes at agreement m. Hence B_C(m)>B* and epsilon_mca(C,1-m/n)>2^-t. The q-|B| non-base-rational variant also holds with its printed restriction.",
+   "notes": "HARVESTED 2026-07-26 from upstream main b13de811, cs25_cap_v13_2.tex lem:capff1-identity-prefix-floor + cor:capg-budget-conversion; independently reconstructed in-node. This bypasses E1 collision counting whenever its two exact row inequalities pass.",
+   "upstream": {
+    "label": "identity-scale prefix floor + flexible-budget deep-point conversion",
+    "relation": "IDENTICAL"
+   }
+  },
+  {
+   "id": "identity_prefix_clean_anchor_route_classification",
+   "title": "Identity-prefix clean-anchor pair-budget and base-field classification",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/identity_prefix_clean_anchor_route_classification/statement.md",
+    "background/nodes/identity_prefix_clean_anchor_route_classification/proof.md",
+    "background/nodes/identity_prefix_clean_anchor_route_classification/claim_contract.md",
+    "background/nodes/identity_prefix_clean_anchor_route_classification/verify.py"
+   ],
+   "statement": "For M=floor(q/2^t), the pair-root premise binom(M+1,2)k<q-n is impossible throughout the budget interval if Mk>=2^(t+1), and holds throughout it if binom(M+1,2)k<M2^t-n. At the six clean candidate predecessors this rules out the identity-prefix flexible-budget route on both RowC rates 1/4 and 1/8 and all three prize-max rates. On RowC rate 1/16 the pair premise passes, w=1, and the prefix premise holds exactly when a proved domain field has order at most 194309137781254382992506402317422272798923813601398339285841609906262.",
+   "notes": "ROUTE CLASSIFICATION 2026-07-26: five clean anchors cannot use the harvested supplier; the only surviving branch requires a proved proper-domain-field pin, while the RowC characteristic remains unpinned. This narrows route ownership and proves no safe upper bound."
+  },
+  {
+   "id": "rs_tangent_flexible_budget_unsafe_floor",
+   "title": "RS tangent flexible-budget unsafe floor",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/rs_tangent_flexible_budget_unsafe_floor/statement.md",
+    "background/nodes/rs_tangent_flexible_budget_unsafe_floor/proof.md",
+    "background/nodes/rs_tangent_flexible_budget_unsafe_floor/claim_contract.md",
+    "background/nodes/rs_tangent_flexible_budget_unsafe_floor/verify.py",
+    "background/nodes/rs_tangent_flexible_budget_unsafe_floor/source_pin.json"
+   ],
+   "statement": "For C=RS[F,D,k], integer agreement k<a<n, e=n-a, q=|F|, and B*=floor(q/2^t), one received line has at least e pairwise-distinct support-wise MCA-bad slopes at radius 1-a/n. Thus n-a>floor(q/2^t), equivalently q<=e*2^t-1, is an exact direct-value unsafe certificate. Since D subset F gives e<n<=q, no extra field-size premise is needed.",
+   "notes": "HARVESTED 2026-07-27 from upstream prop:floor at b13de811; independently reconstructed in-node. This is a low-field direct-V supplier, not a safe-side converse.",
+   "upstream": {
+    "label": "Tangent floor (prop:floor)",
+    "relation": "IDENTICAL"
+   }
+  },
+  {
+   "id": "tangent_clean_anchor_route_classification",
+   "title": "Tangent-floor clean-anchor field-order classification",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/tangent_clean_anchor_route_classification/statement.md",
+    "background/nodes/tangent_clean_anchor_route_classification/proof.md",
+    "background/nodes/tangent_clean_anchor_route_classification/claim_contract.md",
+    "background/nodes/tangent_clean_anchor_route_classification/verify.py",
+    "background/nodes/tangent_clean_anchor_route_classification/source_pin.json"
+   ],
+   "statement": "At each of the six clean candidate predecessors, with e=n-a, the tangent theorem's guaranteed e-slope payload clears the unsafe budget exactly when q<=e*2^128-1. The exact maximum field orders have 138 bits on the three RowC formulas and 169 bits on the three prize formulas. It pays none of the six named envelope anchors because their fixed numerator budgets, respectively 2^122 and 317494674775468773183020924238786383963, are at least e. This is failure of the guaranteed payload at those envelopes, not safety or an upper bound on the line's full bad set.",
+   "notes": "ROUTE CLASSIFICATION 2026-07-27: exact low-field branch and exact applicability cut for the guaranteed tangent-floor payload; residual high-field rows still require Q, another V construction, or M."
+  },
+  {
+   "id": "averaged_occupancy_clean_anchor_first_moment_route_cut",
+   "title": "Complete-support first-moment route cut at clean envelopes",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/statement.md",
+    "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/proof.md",
+    "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/claim_contract.md",
+    "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/verify.py",
+    "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/source_pin.json"
+   ],
+   "statement": "At each of the six named high-budget clean predecessor anchors, any support family with |S|>=a has E[N(A)]<B*. Indeed the complete-family FM1 sum is dominated by a geometric tail below B*, with exact RowC binomial certificates and exact rational-entropy prize certificates. Since the averaged supplier has nu(A)=E[N(A)]-(q/2)C_t(A)<=E[N(A)], no deterministic support family can satisfy nu(A)>B* there. This rules out the present M supplier at those envelopes, not direct Q/V payloads or safety.",
+   "notes": "ROUTE CUT 2026-07-27: the first moment is already below budget, so no strict-overlap optimization can rescue averaged_slope_conversion on the six named envelopes."
+  },
+  {
+   "id": "unsafe_crossing_family_instantiation",
+   "title": "Universal adjacent-unsafe witness-family instantiation",
+   "status": "TARGET",
+   "key": true,
+   "refs": [
+    "critical/nodes/unsafe_crossing_family_instantiation/claim_contract.md"
+   ],
+   "statement": "For every admissible row and its proposed safe agreement a_safe, supply an exact certificate at a_safe-1 of at least one of: (Q) a quotient order satisfying every qfloor_exact hypothesis, endpoint alignment, and Acl(N',ell')>B*; (V) an explicit family of more than B* pairwise-distinct bad slopes; or (M) a deterministic post-paid support family A with exact strict-overlap profile and occupancy quantity nu(A)=E[N(A)]-(q/2)C_t(A)>B*. The certificate must use the ambient MCA slope field and account for generated-field transfer and first-match ownership.",
+   "attack_surface": "compile the row descriptor into a Q, V, or M payload with exact endpoint and denominator arithmetic; split by field-generation type and rate only when the resulting children are strictly smaller and independently falsifiable",
+   "falsifier": "an admissible row with exact B_C(a_safe-1)<=B*, or any emitted payload that fails its qfloor scope, distinct-slope count, post-paid ownership, occupancy inequality, endpoint, or ambient-field normalization"
+  },
+  {
+   "id": "upstream_gfv4_affine_span_list_compiler",
+   "title": "Upstream affine-span and rank-flat RS list compilers",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/statement.md",
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/proof.md",
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/audit.md",
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/verify.py",
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/verify_audit.py",
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/result.md",
+    "background/nodes/upstream_gfv4_affine_span_list_compiler/upstream_crosswalk.md"
+   ],
+   "statement": "For an affine direction-s codeword flat in RS[F,D,K], the number of members agreeing with one received word on at least m=K+w coordinates is at most floor(C(n-K+s,s)/C(w+s,s)). With generalized direction-code weights d_j, common-zero miss count b, and t=n-m, the sharper cap is floor(d_s falling s / product_j(d_j-t+b)), where d_j>=n-K+j. This independently reconstructs upstream thm:affine-span-list and thm:rank-flat-list at b13de811.",
+   "upstream": {
+    "label": "thm:affine-span-list + thm:rank-flat-list",
+    "relation": "IDENTICAL"
+   }
+  },
+  {
+   "id": "upstream_gfv4_fixed_union_johnson",
+   "title": "Upstream fixed-union RS ray and Johnson compilers",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/upstream_gfv4_fixed_union_johnson/statement.md",
+    "background/nodes/upstream_gfv4_fixed_union_johnson/proof.md",
+    "background/nodes/upstream_gfv4_fixed_union_johnson/audit.md",
+    "background/nodes/upstream_gfv4_fixed_union_johnson/verify.py",
+    "background/nodes/upstream_gfv4_fixed_union_johnson/verify_audit.py",
+    "background/nodes/upstream_gfv4_fixed_union_johnson/result.md",
+    "background/nodes/upstream_gfv4_fixed_union_johnson/upstream_crosswalk.md"
+   ],
+   "statement": "For one fixed union U of R+nu RS parity-check columns and t<R, transverse syndrome-line slopes with t-sparse lifts number at most floor(C(R+nu,nu+1)/(R-t)); at nu=1 this is floor(R(R+1)/(2(R-t))). In one fixed syndrome fiber, if h=R+nu-t and h^2>(R+nu)(nu-1), the t-sparse lifts number at most floor((R+nu)(h-nu+1)/(h^2-(R+nu)(nu-1))). This independently reconstructs the three fixed-union theorems at b13de811 and makes no all-chart claim.",
+   "upstream": {
+    "label": "fixed-union ray and Johnson compiler block",
+    "relation": "IDENTICAL"
+   }
+  },
+  {
+   "id": "rate_half_list_budget_three_affine_rank_rigidity",
+   "title": "Budget-three four-word witnesses have affine rank three",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/statement.md",
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/proof.md",
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/audit.md",
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/verify.py",
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/verify_audit.py",
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/result.md",
+    "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/upstream_crosswalk.md"
+   ],
+   "statement": "For d>=3, four distinct codewords of RS[F,D,2d], |D|=4d, all agreeing with one received word on at least 3d-1 coordinates are affinely independent. A rank-two equality case would force 2d-2 common direction zeros and exactly two listed words at each of 2d+2 active coordinates; factoring the common locator leaves four distinct affine-linear quotients, whose six pairwise differences cannot cover more than six active coordinates. This constrains all thirteen budget-three chambers but closes none without a locator-rank/codeword-rank bridge.",
+   "upstream": {
+    "label": "Lane L affine-span equality case",
+    "relation": "OVERLAP"
+   }
+  },
+  {
+   "id": "dli_wcl_ell4_weight9_inversion_symmetric_exclusion",
+   "title": "WCL ell=4 weight-9 inversion-symmetric exclusion",
+   "status": "PROVED",
+   "closure": "proof+certificate",
+   "statement": "For characteristic zero or characteristic p outside {2,3,17,19}, no monic quartic A has P(Y)=Y A(Y)^2-1 dividing Y^1024-1 with the nine roots of P invariant under inversion. Exact anti-reciprocal elimination covers four rational and four cubic branches; every branch divisibility-obstruction gcd is one, and all parameter exceptions fail the official v_2(p-1)>=41 gate. This excludes only the inversion-invariant component and does not close the full (4,9) slot.",
+   "refs": [
+    "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/statement.md",
+    "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/proof.md",
+    "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/result.md",
+    "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/claim_contract.md",
+    "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/dependency_subdag.md",
+    "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/audit.md",
+    "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/lineage.md",
+    "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/verify.py",
+    "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/verify_audit.py",
+    "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/mutation_test.py",
+    "experiments/prize_resolution/wcl49_inversion_symmetric_divisibility_result.json"
+   ]
+  },
+  {
+   "id": "f3_affine_coset_pair_mattarei_bound",
+   "title": "Mattarei affine coset-pair bound",
+   "status": "PROVED",
+   "closure": "external theorem plus transport proof",
+   "statement": "Let K<=F_p^* have order m and index d=(p-1)/m. If d>=4 and d^3>=4m, every simultaneous membership fiber of two nonconstant nonproportional affine forms has size <3*2^(-2/3)m^(2/3). Mattarei's arbitrary Fermat coefficients cover slopes outside K. The hypotheses hold at all official H3 rows for m=n and m=3n. This prime-field pointwise theorem bypasses, but does not refute, the in-house one-polynomial Stepanov barrier.",
+   "refs": [
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/statement.md",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/proof.md",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/claim_contract.md",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/dependency_subdag.md",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/audit.md",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/result.md",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/source_pin.json",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/verify.py",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "relation": "OVERLAP"
+   }
+  },
+  {
+   "id": "f3_affine_coset_pair_prime_subfield_descent",
+   "title": "Mattarei affine-pair prime-subfield descent",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "If K<=F_p^* and two nonconstant affine forms have coefficients in F_p, their simultaneous K-membership set over any extension F_q already lies in F_p, so the Mattarei prime-field bound applies unchanged. The deployed KoalaBear order-2^21 subgroup passes this descent with index 1016 and 1016^3>4n despite its p^6 ambient field. The Mersenne-31 quartic order-2^21 subgroup does not descend and is explicitly excluded.",
+   "refs": [
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/statement.md",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/proof.md",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/claim_contract.md",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/dependency_subdag.md",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/audit.md",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/result.md",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/verify.py",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "relation": "OVERLAP"
+   }
+  },
+  {
+   "id": "f3_h3_dsp8_smooth_residual_router",
+   "title": "DSP8 smooth residual router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The raw trace ledger partitions exactly as G_25^c=G_sm^c+G_sing^c. Combining the current raw uniform allowance 48536/25 with the proved nodal payments gives sufficient smooth targets 45636/25 when p=2 mod 3 and 36086/25 when p=1 mod 3. Uniformly, 10G_sm^0+17G_sm^A<=(36086/25)n^2, equivalently 10K_sm^0+17K_sm^A<=(18043/50)n^2, proves DSP8-U. This router supplies no smooth estimate.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_smooth_residual_router/statement.md",
+    "background/nodes/f3_h3_dsp8_smooth_residual_router/proof.md",
+    "background/nodes/f3_h3_dsp8_smooth_residual_router/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_smooth_residual_router/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_smooth_residual_router/audit.md",
+    "background/nodes/f3_h3_dsp8_smooth_residual_router/result.md",
+    "background/nodes/f3_h3_dsp8_smooth_residual_router/verify.py",
+    "background/nodes/f3_h3_dsp8_smooth_residual_router/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "relation": "OVERLAP"
+   }
+  },
+  {
+   "id": "f3_h3_dsp8_smooth_quotient_cap_compiler",
+   "title": "DSP8 smooth quotient-cap compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Let U_sm^c count smooth normalized DSP8 base tuples after forgetting only the ordered quotient pair. Exact quotient multiplicity and Mattarei give G_sm^c<C_M n^(2/3)U_sm^c. Therefore 189(10U_sm^0+17U_sm^A)<=144344n^(4/3), or class-blind 3213(U_sm^0+U_sm^A)<=144344n^(4/3), proves the live smooth residual. This compiler supplies no unweighted estimate.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/statement.md",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/proof.md",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/audit.md",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/result.md",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/verify.py",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "relation": "OVERLAP"
+   }
+  },
+  {
+   "id": "l1_m31_depth32_uniform_intercept_counterexample",
+   "title": "M31 depth-32 uniform intercept 1233 counterexample",
+   "status": "PROVED",
+   "closure": "explicit construction plus two independent exact finite-field replays",
+   "statement": "On the pinned auxiliary Mersenne-31 c=2048, (u,v)=(0,1) quotient profile, one explicit 479-support anchor has at least 1237 distinct same-depth-32-prefix neighbors at deficiency 192: 1225 whole-T64 triple exchanges and 12 mixed T16 exchanges. Since 33<=192<=213, the uniform in-band cap d_e(A)<=1233 is false. This independently reconstructs draft upstream PR #1102 at support level. It proves no replacement upper bound, received-word realization, first-match survival, row payment, endpoint movement, or 2^-128 Prize-row statement.",
+   "refs": [
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/statement.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/proof.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/claim_contract.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/dependency_subdag.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/audit.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/result.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/upstream_crosswalk.md",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/verify.py",
+    "background/nodes/l1_m31_depth32_uniform_intercept_counterexample/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "M31 depth-32 shell counterexample / draft PR #1102",
+    "relation": "IDENTICAL"
+   }
+  },
+  {
+   "id": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
+   "title": "L1 Mersenne HNF order-zero linear-color exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On every m=8,h=7 and m=16,h=15 next-to-maximal order-zero HNF row, the colored Frobenius interpolant has degree at least two. The constant case forces Frobenius descent, while a linear interpolant makes P_s an affine image of mu_m minus one color and forces s into the prime field.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/lineage.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/verify.py",
+    "background/nodes/l1_mersenne_hnf_order_zero_linear_color_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
+   "title": "L1 Mersenne HNF order-zero quadratic collision router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "A quadratic order-zero colored Frobenius interpolant with two repeated colors must be even. On every m=8,h=7 endpoint row it has at most one repeated color, so its seven roots use at least six distinct colors. The collision-free, single-collision, and m=16 even branches remain open.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/result.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/verify.py",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collision_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion",
+   "title": "L1 Mersenne HNF order-zero quadratic collision-free exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "A quadratic order-zero colored Frobenius interpolant cannot be injective on the roots of P_s. Quotienting its reflection makes the locator a punctured-cyclotomic linear template, whose first three coefficients force s into the prime field.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/lineage.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/verify.py",
+    "background/nodes/l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "title": "L1 Mersenne HNF m=8 order-zero quadratic exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On all four official m=8,h=7 endpoint rows, no quadratic order-zero colored Frobenius interpolant survives. The exact-one-repeat color moments impose 21 quadratics on s, each coprime to the mandatory constant-coefficient n-torsion condition.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_quadratic_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "title": "L1 Mersenne HNF m=16 order-zero single-collision exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official m=16,h=15 endpoint row, a quadratic order-zero colored Frobenius interpolant cannot have exactly one repeated color. Every remaining quadratic candidate is even and has at least two antipodal repeated-color pairs.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/verify.py",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_single_collision_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion",
+   "title": "L1 Mersenne HNF m=16 order-zero even-quadratic exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The final even multi-repeat quadratic color system is empty on the official m=16,h=15 endpoint. Its odd/even locator gcd would have degree at least two, but the first-subresultant coefficients can vanish together only at prime-field values of s.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/verify.py",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_budget_three_common_mismatch_zero",
+   "title": "Budget-three common direction zeros always agree with the received word",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every four-codeword budget-three predecessor witness and every selected-support pattern supplied by the intersection reduction, n_0=0 makes the selected agreement sets cover D. At a common zero of the direction code all four codeword values coincide, and coverage makes at least one of them equal to the received value. Hence every common zero is a common agreement and the rank-flat mismatch parameter is exactly b=0 in all six incidence types and thirteen edge-degree chambers.",
+   "refs": [
+    "background/nodes/rate_half_list_budget_three_common_mismatch_zero/statement.md",
+    "background/nodes/rate_half_list_budget_three_common_mismatch_zero/proof.md",
+    "background/nodes/rate_half_list_budget_three_common_mismatch_zero/claim_contract.md",
+    "background/nodes/rate_half_list_budget_three_common_mismatch_zero/dependency_subdag.md",
+    "background/nodes/rate_half_list_budget_three_common_mismatch_zero/audit.md",
+    "background/nodes/rate_half_list_budget_three_common_mismatch_zero/result.md",
+    "background/nodes/rate_half_list_budget_three_common_mismatch_zero/lineage.md",
+    "background/nodes/rate_half_list_budget_three_common_mismatch_zero/upstream_crosswalk.md",
+    "background/nodes/rate_half_list_budget_three_common_mismatch_zero/verify.py",
+    "background/nodes/rate_half_list_budget_three_common_mismatch_zero/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
+   "title": "L1 Mersenne HNF m=8 order-zero reciprocal elimination",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The complete m=8,h=7 order-zero outer HNF chamber is empty on all four official rows. Two low-index Frobenius-reciprocal eliminants have a degree-1032 gcd whose roots are all prime-field values of s.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_zero_reciprocal_elimination/verify_audit.py"
+   ]
   }
  ],
  "edges": [
@@ -16021,11 +16811,6 @@
   },
   {
    "from": "cap_theorem",
-   "to": "mca_unsafe",
-   "kind": "req"
-  },
-  {
-   "from": "zone_b",
    "to": "mca_unsafe",
    "kind": "req"
   },
@@ -19045,11 +19830,6 @@
    "kind": "req"
   },
   {
-   "from": "e1_folded_certificate_soundness",
-   "to": "e1_official_prime_exception_control",
-   "kind": "req"
-  },
-  {
    "from": "official_row_primes_pinning",
    "to": "e1_open_cell_route_soundness",
    "kind": "req"
@@ -19077,16 +19857,6 @@
   {
    "from": "e1_open_cell_control_payload",
    "to": "e1_official_typicality_or_certificate",
-   "kind": "req"
-  },
-  {
-   "from": "e1_open_cell_control_payload",
-   "to": "e1_official_prime_exception_control",
-   "kind": "req"
-  },
-  {
-   "from": "e1_official_typicality_or_certificate",
-   "to": "e1_official_prime_exception_control",
    "kind": "req"
   },
   {
@@ -24445,11 +25215,6 @@
    "kind": "req"
   },
   {
-   "from": "f3_affine_coset_pair_cubic_preimage_stepanov",
-   "to": "f3_h3_dsp8_nodal_cube_preimage_envelope",
-   "kind": "req"
-  },
-  {
    "from": "f3_h3_dsp8_nodal_trace_parameter_router",
    "to": "f3_h3_dsp8_nodal_cube_preimage_envelope",
    "kind": "req"
@@ -26730,11 +27495,6 @@
    "kind": "req"
   },
   {
-   "from": "f3_affine_coset_pair_cubic_preimage_stepanov",
-   "to": "f3_h3_dsp8_antipodal_quotient_mass_payment",
-   "kind": "req"
-  },
-  {
    "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
    "to": "f3_h3_dsp8_antipodal_quotient_mass_payment",
    "kind": "req"
@@ -26746,11 +27506,6 @@
   },
   {
    "from": "f3_h3_distance_six_support_overlap_payment",
-   "to": "f3_h3_dsp8_global_overlap_cover_payment",
-   "kind": "req"
-  },
-  {
-   "from": "f3_affine_coset_pair_cubic_preimage_stepanov",
    "to": "f3_h3_dsp8_global_overlap_cover_payment",
    "kind": "req"
   },
@@ -30368,6 +31123,771 @@
    "from": "dli_wcl_ell4_weight10_even_divisor_descent",
    "to": "dli_wcl_slot_4_10_emptiness",
    "kind": "ev"
+  },
+  {
+   "from": "zone_b",
+   "to": "mca_unsafe",
+   "kind": "ev"
+  },
+  {
+   "from": "unsafe_crossing_family_instantiation",
+   "to": "unsafe_at_crossing",
+   "kind": "req"
+  },
+  {
+   "from": "qfloor_exact",
+   "to": "qfloor_clean_anchor_norm_threshold_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "acl_count",
+   "to": "e1_clean_anchor_exact_collision_allowance",
+   "kind": "req"
+  },
+  {
+   "from": "qfloor_clean_anchor_norm_threshold_route_cut",
+   "to": "e1_clean_anchor_exact_collision_allowance",
+   "kind": "req"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
+   "to": "e1_clean_anchor_exact_collision_allowance",
+   "kind": "req"
+  },
+  {
+   "from": "qfloor_clean_anchor_norm_threshold_route_cut",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_clean_anchor_exact_collision_allowance",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_clean_anchor_exact_collision_allowance",
+   "to": "e1_pair_feasible_ambient_generation",
+   "kind": "req"
+  },
+  {
+   "from": "e1_pair_feasible_ambient_generation",
+   "to": "e1_pair_feasible_prime_field_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_prime_field_l2_norm_collision_radius",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_prime_field_l2_norm_collision_radius",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_n256_s16_high_variance_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_high_variance_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_n256_proper_conductor_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_proper_conductor_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_n256_2adic_cofactor_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_2adic_cofactor_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_signed_chord_collision_gate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_high_variance_collision_exclusion",
+   "to": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_autocorrelation_subfield_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_autocorrelation_subfield_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e38_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_autocorrelation_subfield_exclusion",
+   "to": "e1_n256_s16_e38_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e38_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e38_quotient_schur_exclusion",
+   "to": "e1_n256_s16_e37_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e37_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e37_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e37_quotient_schur_exclusion",
+   "to": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "to": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_n256_local_norm_cofactor_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_2adic_cofactor_collision_exclusion",
+   "to": "e1_n256_local_norm_cofactor_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_n512_four_singleton_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n512_four_singleton_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_n512_trinomial_interval_norm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n512_four_singleton_collision_exclusion",
+   "to": "e1_n512_trinomial_interval_norm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n512_trinomial_interval_norm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_pair_feasible_ambient_generation",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_pair_feasible_ambient_generation",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_high_variance_collision_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_high_variance_collision_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_2adic_cofactor_collision_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_2adic_cofactor_collision_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_autocorrelation_subfield_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_autocorrelation_subfield_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e38_quotient_schur_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e38_quotient_schur_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e37_quotient_schur_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e37_quotient_schur_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_local_norm_cofactor_collapse",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_local_norm_cofactor_collapse",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n512_four_singleton_collision_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n512_four_singleton_collision_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n512_trinomial_interval_norm_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n512_trinomial_interval_norm_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "zone_b",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "certified_valueset_lower",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "axis8_generating",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "identity_prefix_flexible_budget_unsafe_floor",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "identity_prefix_flexible_budget_unsafe_floor",
+   "to": "identity_prefix_clean_anchor_route_classification",
+   "kind": "req"
+  },
+  {
+   "from": "identity_prefix_clean_anchor_route_classification",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "rs_tangent_flexible_budget_unsafe_floor",
+   "to": "tangent_clean_anchor_route_classification",
+   "kind": "req"
+  },
+  {
+   "from": "rs_tangent_flexible_budget_unsafe_floor",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "tangent_clean_anchor_route_classification",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "fm1",
+   "to": "averaged_occupancy_clean_anchor_first_moment_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "averaged_slope_conversion",
+   "to": "averaged_occupancy_clean_anchor_first_moment_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "averaged_occupancy_clean_anchor_first_moment_route_cut",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "deployed_identity_prefix_owner_scope_audit",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "identity_prefix_flexible_budget_unsafe_floor",
+   "to": "deployed_identity_prefix_owner_scope_audit",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_clean_anchor_exact_collision_allowance",
+   "to": "e1_fullness",
+   "kind": "req"
+  },
+  {
+   "from": "e1_folded_certificate_soundness",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_clean_anchor_exact_collision_allowance",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_official_prime_exception_control",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_fullness",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_open_cell_control_payload",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_official_typicality_or_certificate",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "official_row_primes_pinning",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "axis8_generating",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "upstream_gfv4_affine_span_list_compiler",
+   "to": "rate_half_list_budget_three_affine_rank_rigidity",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_affine_rank_rigidity",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_affine_rank_rigidity",
+   "to": "rate_half_list_chamber_affine_rank_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_intersection_reduction",
+   "to": "rate_half_list_budget_three_common_mismatch_zero",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_common_mismatch_zero",
+   "to": "rate_half_list_chamber_affine_rank_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_budget_three_common_mismatch_zero",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_list_budget_three_intersection_reduction",
+   "to": "rate_half_list_chamber_affine_rank_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "upstream_gfv4_affine_span_list_compiler",
+   "to": "rate_half_list_chamber_affine_rank_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "upstream_gfv4_affine_span_list_compiler",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "ev"
+  },
+  {
+   "from": "upstream_gfv4_affine_span_list_compiler",
+   "to": "list_safe",
+   "kind": "ev"
+  },
+  {
+   "from": "upstream_gfv4_fixed_union_johnson",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "ev"
+  },
+  {
+   "from": "upstream_gfv4_fixed_union_johnson",
+   "to": "list_safe",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_ell4_weight9_quartic_divisor_descent",
+   "to": "dli_wcl_ell4_weight9_inversion_symmetric_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell4_weight9_inversion_symmetric_exclusion",
+   "to": "dli_wcl_slot_4_9_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_affine_coset_pair_mattarei_bound",
+   "to": "f3_h3_dsp8_nodal_cube_preimage_envelope",
+   "kind": "req"
+  },
+  {
+   "from": "f3_affine_coset_pair_mattarei_bound",
+   "to": "f3_affine_coset_pair_prime_subfield_descent",
+   "kind": "req"
+  },
+  {
+   "from": "f3_affine_coset_pair_prime_subfield_descent",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_h3_dsp8_unit_trace_elliptic_curve_router",
+   "to": "f3_h3_dsp8_smooth_residual_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_nodal_cube_preimage_envelope",
+   "to": "f3_h3_dsp8_smooth_residual_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_global_overlap_cover_payment",
+   "to": "f3_h3_dsp8_smooth_residual_router",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_smooth_residual_router",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_affine_coset_pair_mattarei_bound",
+   "to": "f3_h3_dsp8_smooth_quotient_cap_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_smooth_residual_router",
+   "to": "f3_h3_dsp8_smooth_quotient_cap_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_unit_product_trace_normal_form",
+   "to": "f3_h3_dsp8_smooth_quotient_cap_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_smooth_quotient_cap_compiler",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_affine_coset_pair_mattarei_bound",
+   "to": "f3_h3_dsp8_antipodal_quotient_mass_payment",
+   "kind": "req"
+  },
+  {
+   "from": "f3_affine_coset_pair_mattarei_bound",
+   "to": "f3_h3_dsp8_global_overlap_cover_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m31_depth32_uniform_intercept_counterexample",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
+   "to": "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
+   "to": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion",
+   "to": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
+   "to": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion",
+   "to": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "to": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
+   "to": "l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+   "to": "l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+   "to": "l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_frobenius_reciprocal_gate",
+   "to": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_extended_six_slot_sparse_divisor_endpoints",
+   "to": "dli_wcl_ell4_weight11_quintic_divisor_descent",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell4_weight9_quartic_divisor_descent",
+   "to": "dli_wcl_ell4_weight11_quintic_divisor_descent",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_newton_short_window_exclusion",
+   "to": "dli_wcl_ell4_weight11_quintic_divisor_descent",
+   "kind": "req"
   }
  ]
 }

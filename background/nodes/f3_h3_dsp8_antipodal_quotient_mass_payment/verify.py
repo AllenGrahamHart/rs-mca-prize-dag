@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[3]
 NODE = "f3_h3_dsp8_antipodal_quotient_mass_payment"
 DEPENDENCIES = {
     "f3_h3_distance_six_support_overlap_payment",
-    "f3_affine_coset_pair_cubic_preimage_stepanov",
+    "f3_affine_coset_pair_mattarei_bound",
     "f3_h3_dsp8_primitive_shift_pair_adapter",
 }
 CONSUMER = "f3_h3_dsp8_correlation_bound"
@@ -21,8 +21,10 @@ SUCCESSOR = "f3_h3_dsp8_global_overlap_cover_payment"
 
 def arithmetic_check() -> int:
     assert Fraction(17, 10) * 8 - 6 == Fraction(38, 5)
-    assert 152 * Fraction(51, 32) == Fraction(969, 4)
-    assert Fraction(375) - Fraction(969, 80) == Fraction(29031, 80)
+    assert 4 * 189**3 > 27 * 100**3
+    assert 76 * Fraction(189, 100) == Fraction(3591, 25)
+    assert Fraction(375) - Fraction(3591, 500) == Fraction(183909, 500)
+    assert Fraction(183909, 500) > Fraction(36781, 100)
     assert Fraction(750, 20) == Fraction(300, 8)
     assert -Fraction(375, 20) == -Fraction(102, 8) - 6
     assert -Fraction(152, 20) == -Fraction(38, 5)
@@ -40,13 +42,13 @@ def arithmetic_check() -> int:
         exact_without_root = (
             750 * n * n
             - 375 * quotient_mass
-            - Fraction(29031, 80) * n * n
+            - Fraction(36781, 100) * n * n
         )
         assert exact_without_root > 0
 
-        # Prove (969/4)(n-2)n^(2/3) < exact_without_root by cubing.
+        # C_M<189/100. Prove the larger rational loss is still affordable.
         assert (
-            Fraction(969 * (n - 2), 4) ** 3 * n * n
+            (Fraction(3591, 25) * (n - 2)) ** 3 * n * n
             < exact_without_root**3
         )
         rows += 1
@@ -90,11 +92,12 @@ def packet_check() -> None:
         .split()
     )
     for marker in (
-        "S_A<(51/32)(n-2)n^(2/3)",
+        "S_A<(C_M/2)(n-2)n^(2/3)",
+        "C_M=3*2^(-2/3)",
         "<=6Q_n+(38/5)S_A",
         "10K_25^0+17K_25^A+152S_A",
-        "80(10K_25^0+17K_25^A)<=29031n^2",
-        "replacingtheformersufficientconstant`223`",
+        "100(10K_25^0+17K_25^A)<=36781n^2",
+        "replacing`29031/80`",
     ):
         assert marker in statement
 
@@ -103,7 +106,7 @@ def packet_check() -> None:
         .read_text()
         .split()
     )
-    assert "replacingtheprecedingsufficientconstant`29031/80`" in successor
+    assert "replacingtheprecedingsufficientconstant`36781/100`" in successor
 
 
 def main() -> None:
@@ -114,7 +117,7 @@ def main() -> None:
     print(
         "F3_H3_DSP8_ANTIPODAL_QUOTIENT_MASS_PAYMENT_PASS "
         f"official_rows={rows} targets32={targets_32} targets64={targets_64} "
-        "uniform_numerator=29031 denominator=80"
+        "uniform_numerator=36781 denominator=100"
     )
 
 

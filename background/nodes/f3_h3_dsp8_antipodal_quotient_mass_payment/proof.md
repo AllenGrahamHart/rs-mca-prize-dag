@@ -11,10 +11,10 @@ characteristic the map `a -> a^2` has fibers exactly `{a,-a}` on `H`.
 Consequently `(1)` produces exactly `(n-2)/2` distinct nonzero nonidentity
 antipodal targets before the richness filter is imposed.
 
-For every retained target, the proved affine coset-pair theorem gives
+For every retained target, the proved Mattarei affine coset-pair theorem gives
 
 ```text
-R(t)<(51/16)n^(2/3).                                (2)
+R(t)<C_M n^(2/3).                                   (2)
 ```
 
 Summing `(2)` over at most `(n-2)/2` selected antipodal targets proves
@@ -66,11 +66,12 @@ gives exactly
 
 which proves `(AQM3)`.
 
-Finally, `(AQM1)` gives
+Finally, `(AQM1)` and the strict rational bound `C_M<189/100` give
 
 ```text
 750n^2-375Q_n-152S_A
- >750n^2-375Q_n-(969/4)(n-2)n^(2/3).               (6)
+ >750n^2-375Q_n-76C_M(n-2)n^(2/3)
+ >750n^2-375Q_n-(3591/25)(n-2)n^(2/3).             (6)
 ```
 
 Every official order has `n>=8192>8000`, hence `n^(1/3)>20`. Also
@@ -78,7 +79,8 @@ Every official order has `n>=8192>8000`, hence `n^(1/3)>20`. Also
 strictly greater than
 
 ```text
-(375-969/80)n^2=(29031/80)n^2.                     (7)
+(375-3591/500)n^2=(183909/500)n^2
+ >(36781/100)n^2.                                  (7)
 ```
 
 Thus `(AQM4)` implies `(AQM3)`, completing the proof. QED.

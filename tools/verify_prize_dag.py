@@ -158,12 +158,16 @@ def main() -> None:
     # non-in-tree pointers, justified by the comment "recorded in the node folder".
     # That justification is never tested, and it is false for 197 nodes (113 PROVED)
     # whose folder holds under 1.5 KB of artifact -- many hold nothing at all. The
-    # legacy proof_sketch/ tree is not recoverable from the working tree, git
-    # history, any sibling directory, the Codex branches, or the public mirror, so
-    # those nodes cannot be re-checked here. Fixing that is a content decision for
-    # the planner; this pin stops the set GROWING silently. Lower it as artifacts
-    # are written or refs repaired; never raise it to get green.
-    _HOLLOW_REF_PIN = 197
+    # CORRECTED 2026-07-27: the legacy proof_sketch/ tree IS recoverable — all twelve
+    # files are live upstream at experimental/notes/roadmaps/proof_sketch/ (read via
+    # git -C ../rs-mca show origin/main:<path>). The earlier "unrecoverable" verdict
+    # searched for a top-level proof_sketch/ and missed the nested location. The real
+    # defect is status inflation at port time: the files are SKETCHES whose sections
+    # carry their own status tags, and several cited sections read CONJECTURE while
+    # the citing node was marked PROVED. See notes/PROOF_SKETCH_PROVENANCE.md for the
+    # re-grading method. This pin stops the set GROWING while that work proceeds;
+    # lower it as refs are re-pointed and nodes re-graded; never raise it to get green.
+    _HOLLOW_REF_PIN = 196  # wave-24: 197 -> 196
     _IN_TREE = ("nodes/", "critical/", "background/", "tools/", "orbit/")
 
     def _artifact_bytes(_id):
@@ -195,7 +199,7 @@ def main() -> None:
             "the assumption they are 'recorded in the node folder', which is false "
             "for them; write the artifact or repair the ref")
 
-    _EMPTY_STMT_PIN = 37
+    _EMPTY_STMT_PIN = 36  # wave-24: 37 -> 36 (e1 subtree left the critical orbit)
     _empty_stmt = [i for i in sorted(crit)
                    if nodes[i]["status"] == "PROVED"
                    and not (nodes[i].get("statement") or "").strip()]

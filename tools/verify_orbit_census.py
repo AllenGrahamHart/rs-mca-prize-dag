@@ -41,8 +41,12 @@ GRANDS = {"mca_grand", "list_grand"}
 SUBMISSION_ROOT = "prize"
 
 # Q0 census, 2026-07-26, at prize master dd9b862d (dag.json: 1222 nodes).
-EXPECTED_MATH = {"PROVED": 201, "CONDITIONAL": 36, "TARGET": 23}
-EXPECTED_SUBMISSION = {"PROVED": 213, "CONDITIONAL": 38, "TARGET": 24}
+# REPRICED 2026-07-27 (wave-24 Codex integration): the e1 chain + zone_b/mca_unsafe/
+# unsafe_at_crossing were demoted after the proof_sketch re-grade proved the cited
+# sections say CONJECTURAL / typicality, not PROVED (notes/PROOF_SKETCH_PROVENANCE.md).
+# Was 201/36/23 (260); the demotions also drop 19 e1 nodes off the critical path.
+EXPECTED_MATH = {"PROVED": 180, "CONDITIONAL": 38, "TARGET": 24}
+EXPECTED_SUBMISSION = {"PROVED": 192, "CONDITIONAL": 40, "TARGET": 25}  # was 213/38/24
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no
@@ -155,8 +159,8 @@ def main() -> int:
     # The roadmap phrase "23 mathematical leaves" is an arithmetic consequence,
     # not an independent count: assert it rather than trusting prose.
     math_targets = sorted(i for i in math_ids if nodes[i]["status"] == "TARGET")
-    if len(math_targets) != 23:
-        errors.append(f"mathematical-leaf count drift: {len(math_targets)} != 23")
+    if len(math_targets) != 24:
+        errors.append(f"mathematical-leaf count drift: {len(math_targets)} != 24")
     if NON_MATH_TARGET in math_targets:
         errors.append(f"{NON_MATH_TARGET} leaked into the math orbit")
 

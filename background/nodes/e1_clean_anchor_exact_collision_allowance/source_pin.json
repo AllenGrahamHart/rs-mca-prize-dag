@@ -1,0 +1,10 @@
+{
+  "upstream_commit": "b13de8113a03f06b6fc22bbd2f289a8abcdf7e95",
+  "count_file": "tex/slackMCA_v4.tex",
+  "count_file_sha256": "810ac469b8a8a8ba4638d882ec8426be95ffddf0f8888b83315afb4d60e990b4",
+  "count_label": "thm:exactcount",
+  "locator_label": "prop:qfloor",
+  "budget_file": "tex/cs25_cap_v13_2.tex",
+  "budget_file_sha256": "356f1ad4b972746b664260191387b25a89a2e10fcc61962a49dc8282412f93ce",
+  "budget_label": "thm:capf-windows"
+}

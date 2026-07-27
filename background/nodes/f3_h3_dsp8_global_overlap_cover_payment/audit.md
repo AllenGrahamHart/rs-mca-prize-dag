@@ -7,10 +7,11 @@
   This is conservative but sound; no class decorrelation is assumed.
 - Edges incident to the antipodal vertex are not in the generic--generic
   covers. They are paid separately by `(17/5)S_A`.
-- The affine theorem bounds each `R(t)` pointwise. Multiplying it by the
-  global edge count is valid even when several edges have the same target.
+- Mattarei's affine theorem bounds each `R(t)` pointwise, including slopes
+  outside `H`. Multiplying it by the global edge count is valid even when
+  several edges have the same target.
 - The adapter has `K_25^c=2D_c`; multiplying the disjoint ledger by `20`
-  gives coefficients `10,17`, while the overlap terms become `867/4` and
+  gives coefficients `10,17`, while the overlap terms become `68C_M` and
   `68`.
 - `(GOP2)` is a sufficient analytic target, not an identity for C36'. A
   violation does not by itself refute C36'.

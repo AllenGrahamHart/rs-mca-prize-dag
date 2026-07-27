@@ -1,0 +1,6 @@
+{
+  "allowance_file": "background/nodes/e1_clean_anchor_exact_collision_allowance/statement.md",
+  "allowance_file_sha256": "1380aed931775cb434e67586f0346b470afca4d19b52985f037a64793a26068a",
+  "ambient_generation_file": "background/nodes/e1_pair_feasible_ambient_generation/statement.md",
+  "ambient_generation_file_sha256": "8853bf362f81ab9e44d9795ef3d0449eac300eafd999a4058c0a00530bb392c7"
+}

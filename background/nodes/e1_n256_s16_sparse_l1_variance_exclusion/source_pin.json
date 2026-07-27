@@ -1,0 +1,6 @@
+{
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
+  "variance_parent_file": "background/nodes/e1_n256_s16_high_variance_collision_exclusion/statement.md",
+  "variance_parent_file_sha256": "9ff382e14946f9797e29859e118893a239a2e0b6a452ddb38978bd42360cbfa0"
+}
