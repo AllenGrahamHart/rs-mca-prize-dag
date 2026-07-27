@@ -593,6 +593,25 @@
    "notes": "ROUTE CLOSURE 2026-07-27: closes the second of four heavy templates with independent chord and negacyclic implementations. Progression and generic remain."
   },
   {
+   "id": "e1_n256_s16_e34_progression_weld_reduction",
+   "title": "N=256 E=34 progression-weld reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e34_progression_weld_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e34_progression_weld_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e34_progression_weld_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e34_progression_weld_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e34_progression_weld_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e34_progression_weld_reduction/result.md",
+    "background/nodes/e1_n256_s16_e34_progression_weld_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e34_progression_weld_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e34_progression_weld_reduction/verify_audit.py"
+   ],
+   "statement": "Every residual N=256, folded-(3,4,0), V=68 progression template has one of 62 normal forms H={0,t,2t}, t!=32. Its outer heavy coefficients are opposite and a light occupies one of four exact singleton-weld positions. Odd cyclotomic automorphisms collapse the 2,372,794,560-vector chamber to five invariant representatives and 191,354,400 census vectors.",
+   "notes": "ROUTE REDUCTION 2026-07-27: equal outer signs are impossible because the repeated class has only two heavy-light extensions; unit automorphisms reduce the complete invariant census to five forms. The progression template remains open."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -18441,6 +18460,16 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_e34_heavy_chord_template_reduction",
+   "to": "e1_n256_s16_e34_progression_weld_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e34_parity_profile_reduction",
+   "to": "e1_n256_s16_e34_progression_weld_reduction",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -18662,6 +18691,16 @@
   },
   {
    "from": "e1_n256_s16_e34_nonquarter_diameter_template_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e34_progression_weld_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e34_progression_weld_reduction",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

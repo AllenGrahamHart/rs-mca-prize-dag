@@ -105,6 +105,13 @@ full-conductor profile candidates. Thus the complete nonquarter-diameter
 template is now closed. Only progression and generic remain at E34; their
 forced equal-length structure is the next route-deciding object.
 
+The progression template now has exact normal forms `H={0,t,2t}` with
+`1<=t<=63`, `t!=32`. Its outer heavy signs are forced opposite, and the
+singleton outer chord requires a light in `{-2t,3t,-t,4t}`. The 62 forms
+collapse under odd cyclotomic automorphisms to `t=1,2,4,8,16`, so a complete
+invariant census has only 191,354,400 vectors. This is the next bounded branch;
+the generic three-weld case should not be enumerated first.
+
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set

@@ -29,6 +29,7 @@ e1_n256_s16_e34_heavy_chord_template_reduction --ev-->
 e1_n256_s16_e34_quarter_template_exclusion --ev-->
 e1_n256_s16_e34_nonquarter_diameter_weld_reduction --ev-->
 e1_n256_s16_e34_nonquarter_diameter_template_exclusion --ev-->
+e1_n256_s16_e34_progression_weld_reduction --ev-->
 e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
@@ -104,5 +105,7 @@ singleton heavy-heavy class is welded to a heavy-light chord, and the quarter
 quarter normalization with `M_3<=1188`. A 31-form weld reduction and a second
 double census close the complete nonquarter-diameter template with
 `M_3<=1560`. The next positive object is the signed repeated-length
-classification inside the progression template, followed by the generic
-three-weld template.
+classification inside the progression template. It now forces opposite outer
+signs and collapses by odd-unit transport to five invariant steps and
+191,354,400 census vectors. The generic three-weld template follows only after
+this bounded progression chamber is paid.

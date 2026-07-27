@@ -303,3 +303,20 @@ worker-seconds. Since `1560<1947`, the cubic-Hermite norm certificate closes
 the complete template. The result is promoted as
 `e1_n256_s16_e34_nonquarter_diameter_template_exclusion`. The live E34
 frontier now contains only progression and generic heavy templates.
+
+## Progression-weld normal form
+
+Every progression triple has one of 62 forms `H={0,t,2t}`, with
+`1<=t<=63`, `t!=32`. If the outer heavy signs agree, the repeated class starts
+at magnitude eight. It has only the two heavy-light extensions `-t,3t` and at
+most one light-light chord, so its magnitude remains at least three. Thus the
+outer signs are opposite.
+
+The singleton outer-heavy class is welded exactly when a light occupies one
+of `{-2t,3t,-t,4t}`. There are 1,195,965 such supports per form and
+2,372,794,560 signed vectors over all forms. Odd cyclotomic automorphisms
+preserve conductor, profile, and `M_3` and collapse the 62 steps by 2-adic
+valuation to `t=1,2,4,8,16`. A complete invariant census therefore has only
+191,354,400 vectors. The result is promoted as
+`e1_n256_s16_e34_progression_weld_reduction`; the branch remains open until
+that five-representative chamber is paid.

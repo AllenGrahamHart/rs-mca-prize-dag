@@ -67,3 +67,7 @@ quarter template with exact maximum `M_3=1188<1947`. A 31-form weld reduction
 and a second pair of complete exact censuses exclude the nonquarter-diameter
 template as well, with maximum `M_3=1560<1947` over 899,456 full-conductor
 profile candidates. Two E34 templates remain: progression and generic.
+The progression branch is further normalized to 62 steps with opposite outer
+heavy signs and one four-position weld. Odd cyclotomic automorphisms reduce
+all invariant moment questions to five representatives and 191,354,400
+signed vectors.

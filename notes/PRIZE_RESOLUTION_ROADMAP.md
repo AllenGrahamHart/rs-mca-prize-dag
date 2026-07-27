@@ -4282,3 +4282,28 @@ next route-deciding action: normalize the progression template, split its
                               outer-sign cases, and seek a comparably exact
                               weld chamber before considering computation
 ```
+
+**2026-07-27, E34 progression orbit reduction:** repeated-class arithmetic
+forces opposite outer signs, and cyclotomic unit transport reduces 62 heavy
+forms to five invariant representatives.
+
+```text
+starting pin: local d8573a35
+proof pin: pending commit
+node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
+result: NARROWED progression branch; generic remains untouched
+normal forms: H={0,t,2t}, 1<=t<=63, t!=32; outer heavy signs opposite
+weld condition: L meets {-2t,3t,-t,4t}
+raw chamber: 1,195,965 supports per form; 2,372,794,560 signed vectors
+unit-orbit chamber: representatives t=1,2,4,8,16; 191,354,400 vectors
+DAG delta: one PROVED background node and four edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute spend: none; exact chord arithmetic and unit-orbit proof
+new assumptions: none
+upstream overlap: no open PR supplies this finite cyclotomic progression close
+route decision: the five-form chamber is cheaper than the completed quarter
+                census and is the next route-deciding computation
+next route-deciding action: build two independent five-shard exact censuses
+                              with a conservative sub-dollar cap; close the
+                              branch if maximum M_3<=1947
+```
