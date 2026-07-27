@@ -2977,14 +2977,14 @@ Cycle burn-down:
 ```text
 starting pins: local e28e1d04; canonical b55c21d0;
                upstream origin/main b13de811
-ending proof pin: pending commit
+ending proof pin: local d2dc303b
 node attacked: e1_official_prime_exception_control, N=256 s=5 profile (3,4,0)
 result: NARROWED to positive even autocorrelation variance V<=134;
         parent target OPEN
 DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
            no critical status change
 critical delta: math orbit remains 242 = 180/38/24; submission target set 25
-upstream terminal delta: none; theorem is ours-only pending crosswalk
+upstream terminal delta: none; theorem is ours-only and crosswalked
 delta-star bracket movement: none
 new assumptions: none
 compute spend: none; exact rational arithmetic only
