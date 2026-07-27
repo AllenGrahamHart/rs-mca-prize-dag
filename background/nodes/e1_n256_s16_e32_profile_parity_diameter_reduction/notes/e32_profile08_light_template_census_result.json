@@ -1,0 +1,2698 @@
+{
+  "complete": true,
+  "rows": [
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 0,
+      "shards": 8,
+      "supports": 38766,
+      "template": 0,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.3393955180000001
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 1,
+      "shards": 8,
+      "supports": 38766,
+      "template": 0,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.278018592
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 2,
+      "shards": 8,
+      "supports": 38766,
+      "template": 0,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.279259744
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 3,
+      "shards": 8,
+      "supports": 38766,
+      "template": 0,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.27933487300000004
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 4,
+      "shards": 8,
+      "supports": 38765,
+      "template": 0,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.27602324
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 5,
+      "shards": 8,
+      "supports": 38765,
+      "template": 0,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.278852455
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 6,
+      "shards": 8,
+      "supports": 38765,
+      "template": 0,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.33895329799999985
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 7,
+      "shards": 8,
+      "supports": 38765,
+      "template": 0,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.27746716000000005
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 0,
+      "shards": 8,
+      "supports": 38766,
+      "template": 1,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.287630018
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 1,
+      "shards": 8,
+      "supports": 38766,
+      "template": 1,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.2858805339999999
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 2,
+      "shards": 8,
+      "supports": 38766,
+      "template": 1,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.29923912799999997
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 3,
+      "shards": 8,
+      "supports": 38766,
+      "template": 1,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.28881143
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 4,
+      "shards": 8,
+      "supports": 38765,
+      "template": 1,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.33964436200000003
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 5,
+      "shards": 8,
+      "supports": 38765,
+      "template": 1,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.2857239880000002
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 6,
+      "shards": 8,
+      "supports": 38765,
+      "template": 1,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.2865652540000001
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 7,
+      "shards": 8,
+      "supports": 38765,
+      "template": 1,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.299105881
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 0,
+      "shards": 8,
+      "supports": 38766,
+      "template": 2,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.28478647
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 1,
+      "shards": 8,
+      "supports": 38766,
+      "template": 2,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.29231946900000016
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 2,
+      "shards": 8,
+      "supports": 38766,
+      "template": 2,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.28220246000000015
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 3,
+      "shards": 8,
+      "supports": 38766,
+      "template": 2,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.2841884979999998
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 4,
+      "shards": 8,
+      "supports": 38765,
+      "template": 2,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.3392937090000001
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 5,
+      "shards": 8,
+      "supports": 38765,
+      "template": 2,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.2935511019999999
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 6,
+      "shards": 8,
+      "supports": 38765,
+      "template": 2,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.28442678
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 7,
+      "shards": 8,
+      "supports": 38765,
+      "template": 2,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.28505321100000014
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 0,
+      "shards": 8,
+      "supports": 38766,
+      "template": 3,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.2671996489999997
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 1,
+      "shards": 8,
+      "supports": 38766,
+      "template": 3,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.290556697
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 2,
+      "shards": 8,
+      "supports": 38766,
+      "template": 3,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.292513534
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 3,
+      "shards": 8,
+      "supports": 38766,
+      "template": 3,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.2670674510000004
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 4,
+      "shards": 8,
+      "supports": 38765,
+      "template": 3,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.3374331960000001
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 5,
+      "shards": 8,
+      "supports": 38765,
+      "template": 3,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.29109441199999964
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 6,
+      "shards": 8,
+      "supports": 38765,
+      "template": 3,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.26823050599999965
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 7,
+      "shards": 8,
+      "supports": 38765,
+      "template": 3,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.26704630799999984
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 0,
+      "shards": 8,
+      "supports": 38766,
+      "template": 4,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.33226120699999995
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 1,
+      "shards": 8,
+      "supports": 38766,
+      "template": 4,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.2907202390000001
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 2,
+      "shards": 8,
+      "supports": 38766,
+      "template": 4,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.3386365309999999
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 3,
+      "shards": 8,
+      "supports": 38766,
+      "template": 4,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.26590713600000004
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 4,
+      "shards": 8,
+      "supports": 38765,
+      "template": 4,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.29085453399999994
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 5,
+      "shards": 8,
+      "supports": 38765,
+      "template": 4,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.2953717250000001
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 6,
+      "shards": 8,
+      "supports": 38765,
+      "template": 4,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.2658943699999998
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 7,
+      "shards": 8,
+      "supports": 38765,
+      "template": 4,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.2651567859999999
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 0,
+      "shards": 8,
+      "supports": 38766,
+      "template": 5,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.3381707509999998
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 1,
+      "shards": 8,
+      "supports": 38766,
+      "template": 5,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.29738348299999995
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 2,
+      "shards": 8,
+      "supports": 38766,
+      "template": 5,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.26577500600000015
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 3,
+      "shards": 8,
+      "supports": 38766,
+      "template": 5,
+      "vectors": 2481024,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.3377426459999999
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 4,
+      "shards": 8,
+      "supports": 38765,
+      "template": 5,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.29719941799999994
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 5,
+      "shards": 8,
+      "supports": 38765,
+      "template": 5,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.324614226
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 6,
+      "shards": 8,
+      "supports": 38765,
+      "template": 5,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.3398547999999999
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "full_conductor_witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "shard": 7,
+      "shards": 8,
+      "supports": 38765,
+      "template": 5,
+      "vectors": 2480960,
+      "witness": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m3": -1,
+        "positions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "worker_seconds": 0.3387806400000002
+    }
+  ],
+  "schema": "e1-e32-profile08-light-template-v1",
+  "shards": 8,
+  "source_sha256": "f088b99e9c7b2b68259752bfbe8a8de946ec147d0f7817d775769fbe35ff021d",
+  "summary": {
+    "0": {
+      "full_conductor": 0,
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "supports": 310124,
+      "vectors": 19847936
+    },
+    "1": {
+      "full_conductor": 0,
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "supports": 310124,
+      "vectors": 19847936
+    },
+    "2": {
+      "full_conductor": 0,
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "supports": 310124,
+      "vectors": 19847936
+    },
+    "3": {
+      "full_conductor": 0,
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "supports": 310124,
+      "vectors": 19847936
+    },
+    "4": {
+      "full_conductor": 0,
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "supports": 310124,
+      "vectors": 19847936
+    },
+    "5": {
+      "full_conductor": 0,
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "supports": 310124,
+      "vectors": 19847936
+    }
+  }
+}

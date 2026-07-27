@@ -87,13 +87,17 @@ census excludes `(1,8)` with `M_3<=1356`; and the full-conductor census
 excludes `(5,7)` with `M_3<=1416`. Thus do not rerun either E33 census or
 import the E34 four-template classification at lower variance.
 
-The exact `V=64` reduction is now proved: `L<=18`, `M_3<=1517` is paid, and
-only `(4,7)`, `(0,8)`, and `(3,5,1)` remain. Test `(3,5,1)` first with the
-three-layer quotient compiler used for `(4,5,1)`, but stop if its relaxation
-maximum exceeds 1517. For `(0,8)`, classify the zero-odd light-chord geometry:
-every non-diameter light-light distance has even multiplicity. For `(4,7)`,
-split on zero versus two light-light diameters; in the two-diameter branch the
-four remaining light chords occupy distinct classes. Require an exact finite
+The exact `V=64` reduction leaves `(4,7)`, `(0,8)`, and `(3,5,1)`. Profile
+`(0,8)` is now closed: zero-odd parity forces two antipodal light pairs, six
+affine-unit templates, and two independent 119,087,616-vector censuses retain
+no profile vectors. The uncoupled quotient route for `(3,5,1)` is also
+retired: exact relaxation maxima 1610 and 1594 exceed 1517, with compact
+locally replayed allocation witnesses. These are not actual vectors.
+
+Profiles `(4,7)` and `(3,5,1)` share the same four-odd light parity. Build one
+complete light-support router, split on zero versus two light-light diameters,
+and retain the exact class-multiplicity signature. In the two-diameter branch
+the four remaining light chords occupy distinct classes. Require this finite
 router before any complete signed-vector census.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply

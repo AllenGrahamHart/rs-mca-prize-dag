@@ -1,0 +1,73 @@
+{
+  "complete": true,
+  "rows": [
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "supports": 310124,
+      "template": 0,
+      "vectors": 19847936,
+      "worker_seconds": 4.787910931000001
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "supports": 310124,
+      "template": 1,
+      "vectors": 19847936,
+      "worker_seconds": 3.254682176
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "supports": 310124,
+      "template": 2,
+      "vectors": 19847936,
+      "worker_seconds": 3.8304757369999995
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "supports": 310124,
+      "template": 3,
+      "vectors": 19847936,
+      "worker_seconds": 3.520744067
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "supports": 310124,
+      "template": 4,
+      "vectors": 19847936,
+      "worker_seconds": 3.81712618
+    },
+    {
+      "complete": true,
+      "full_conductor": 0,
+      "maximum_full_conductor_m3": -1,
+      "maximum_m3": -1,
+      "profile_08": 0,
+      "supports": 310124,
+      "template": 5,
+      "vectors": 19847936,
+      "worker_seconds": 3.5309577059999997
+    }
+  ],
+  "schema": "e1-e32-profile08-light-template-audit-v1",
+  "source_sha256": "7913b7b94f4d40750f49ad5b4407c08e1755c086986f4c807628889a0c0a48f0"
+}

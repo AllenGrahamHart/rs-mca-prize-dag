@@ -43,7 +43,8 @@ In the first surviving `N=256` band, only folded profiles
 `V=0` and `V>=136`; a sparse-autocorrelation refinement
 and the subsequent exact endpoint chain leave only positive even `V<=64`.
 At `V=64`, exact cubic/parity arithmetic leaves autocorrelation profiles
-`(4,7)`, `(0,8)`, and `(3,5,1)`. At `N=512,s=2`, exact variance excludes
+`(4,7)`, `(0,8)`, and `(3,5,1)`; an exact light-template census excludes
+`(0,8)`. At `N=512,s=2`, exact variance excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.
 Thus any surviving `N=512` collision has `s>=3`.
 

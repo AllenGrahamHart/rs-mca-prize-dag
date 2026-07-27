@@ -1,0 +1,26 @@
+{
+  "app_id": "ap-SGBtxxgNaabwqswwXpXYE6",
+  "profile": [3, 5, 1],
+  "schema": "e32-profile351-quotient-probe-v1",
+  "threshold": 1517,
+  "orders": {
+    "64": {
+      "maximum": 1594,
+      "tested": 1165828,
+      "witness_exact": [
+        [1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 2, 0, 2, 0, 1],
+        [0, 0, 1, 0, 0, 0, 0, 0, 0]
+      ]
+    },
+    "128": {
+      "maximum": 1610,
+      "tested": 1828183,
+      "witness_exact": [
+        [1, 0, 0, 0, 1, 0, 0, 1, 0],
+        [0, 0, 0, 0, 3, 0, 0, 0, 2],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0]
+      ]
+    }
+  }
+}

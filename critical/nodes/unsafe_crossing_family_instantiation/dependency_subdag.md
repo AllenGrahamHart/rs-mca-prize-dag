@@ -41,6 +41,7 @@ e1_n256_s16_e33_profile_18_light_template_exclusion --ev-->
 e1_n256_s16_e33_profile_57_light_template_exclusion --ev-->
 e1_n256_s16_e33_endpoint_exclusion --ev-->
 e1_n256_s16_e32_profile_parity_diameter_reduction --ev-->
+e1_n256_s16_e32_profile_08_light_template_exclusion --ev-->
 e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
@@ -147,3 +148,9 @@ profiles to `(4,7)`, `(0,8)`, and `(3,5,1)`. Even energy forces zero or two
 light-light diameters and eight exact diameter ledgers. All three profile
 branches remain open, so this consumer edge is evidence rather than a
 discharge of the endpoint or universal target.
+
+The proved `e1_n256_s16_e32_profile_08_light_template_exclusion` closes the
+zero-odd profile `(0,8)`. Its parity condition has exactly 63 normalized light
+supports, all two antipodal pairs, and six affine-unit templates. Two
+independent engines each exhaust 119,087,616 normalized signed vectors and
+retain none. The `V=64` residual is therefore `(4,7)` or `(3,5,1)`.

@@ -168,12 +168,21 @@ remaining light chords occupy distinct non-diameter classes; in `(0,8)`, all
 non-diameter light-chord multiplicities are even. These are exact reductions,
 not exclusions; all three profiles remain live.
 
+The zero-odd profile `(0,8)` is now empty. Its parity condition has exactly 63
+normalized four-light supports; all are two antipodal pairs and collapse to
+six affine-unit steps `1,2,4,8,16,32`. The folded-chord and direct negacyclic
+engines each exhaust 119,087,616 normalized signed vectors and retain zero
+profile vectors. The uncoupled three-layer quotient route does not close
+`(3,5,1)`: its exact order-128 and order-64 relaxation maxima are 1610 and
+1594, above 1517. Compact allocation witnesses replay both obstructions, but
+they are not actual autocorrelation vectors. Thus the live `V=64` profiles
+are `(4,7)` and `(3,5,1)`, which share one four-odd light-support router.
+
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
 injectivity or another explicit `V` line. Within the first `N=256` band, the
-next route decision is the cheapest exact exclusion among the three `V=64`
-profiles, beginning with a bounded quotient test for `(3,5,1)`. The still
-broad `(4,2,0)` profile and later `N=256,s>=6`, `N=512,s>=3` bands remain
-open. Any exact safe predecessor relocates the candidate threshold
-immediately.
+next route decision is the common four-odd light-support classification for
+the two live `V=64` profiles. The still broad `(4,2,0)` profile and later
+`N=256,s>=6`, `N=512,s>=3` bands remain open. Any exact safe predecessor
+relocates the candidate threshold immediately.

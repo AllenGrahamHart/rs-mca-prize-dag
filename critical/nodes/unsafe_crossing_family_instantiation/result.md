@@ -109,3 +109,11 @@ diameter enumeration forces zero or two light-light diameter edges and eight
 possible `D_64` values. No one of these three profiles is yet excluded, so
 the live variance frontier remains `V<=64` and the universal target remains
 open.
+
+Profile `(0,8)` is now excluded completely. Its zero-odd parity condition
+forces two antipodal light pairs and six affine-unit templates. Two independent
+exact engines each test 119,087,616 normalized signed vectors and retain no
+profile vectors. The live `V=64` profiles are therefore `(4,7)` and
+`(3,5,1)`. The basic quotient relaxation cannot exclude `(3,5,1)`, since
+explicit feasible allocations attain 1610 and 1594 above the 1517 cutoff;
+this is a route obstruction, not a collision counterexample.
