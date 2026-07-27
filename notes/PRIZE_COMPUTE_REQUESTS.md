@@ -7989,3 +7989,61 @@ three-layer maximum 2054. Hence low odd cases are at most 2162, divided cases
 at most 2158, and exceptional odd cases at most 2054. The exact cubic threshold
 2162 is met, so `V=70` is excluded. The follow-up checker is
 `e35_high_outer_coupling_check.py`; no second remote campaign was required.
+
+### CR-E1-E34-NESTED-Q16-PILOT: variance-68 nested quotient route decision
+
+**Status:** COMPLETE ROUTE CUT. The pilot found exact relaxation obstructions;
+the full campaign is retired and must not be launched.
+
+At `E=34`, the exact recurrence gives `L<=20`, and the cubic-Hermite
+certificate closes the slice if `M_3<=1947`. Exactly six magnitude profiles
+exceed that threshold under the abstract layer bound:
+
+```text
+(6,7), (9,4,1), (2,8), (12,1,2), (5,5,1), (14,1,0,1).
+```
+
+The exact nested-layer quotient compiler allocates every exact magnitude
+layer over the nine modulo-16 negation-orbit categories, evaluates all
+ordered layer triples by the minimum of the three target-fiber bounds, and
+keeps the odd order-128 and divided-odd order-64 chambers separate. The
+outer-`4Z` chamber is already theorem-excluded. The independent checker
+recomputes witnesses and can recount all twelve complete state spaces by a
+separate dynamic program.
+
+Run one deterministic shard out of 128 in each of the twelve cells. Resources
+are one CPU and 256 MiB per task, at most twelve concurrent containers, a
+120-second hard function cap, and a 110-second subprocess cap. This is one
+wave with a conservative campaign wall ceiling below three minutes and a
+configured CPU ceiling of 1,440 CPU-seconds; its conservative dollar ceiling
+is `$0.10`. The launcher checkpoints the compact packet after every returned
+task.
+
+`FAIL` is any exact quotient allocation with objective at least 1948; it
+kills the unrefined nested mod-16 route but does not refute the mathematical
+`V=68` exclusion. `SURVIVES` means every sampled objective is at most 1947;
+it authorizes only a timing/cost decision for a possible complete campaign.
+`INCOMPLETE` is evidence only. A complete theorem campaign would require all
+sixteen shards in every cell, exact aggregate coverage 228,097,120, a passing
+local checker, and a fresh pre-launch confirmation that two task waves fit
+both active resource laws.
+
+Sources:
+`e34_nested_quotient_census.cpp`,
+`e34_nested_quotient_census_modal.py`, and
+`e34_nested_quotient_census_check.py` in the E1 sparse-L1 notes directory.
+
+Modal app `ap-Ec22WlisgFjRNPFuigxlEy` returned all twelve pilot tasks in
+18.91 seconds of client-observed app wall time. Five cells already exceed the
+required cap: `(6,7)` at both orders with maxima 2132 and 2154, `(9,4,1)` at
+both orders with 1990 and 2016, and `(12,1,2)` at order 128 with 1990. The
+local checker independently reconstructs the exact allocation witnesses and
+all twelve objectives. This is the registered `FAIL` outcome: it kills the
+bare nested mod-16 upper-bound route without refuting `V=68`.
+
+The launcher omitted per-worker durations, so this run cannot authorize a
+scaled timing claim. That omission has no mathematical effect because no
+sampled coverage is load-bearing and the compact obstruction witnesses replay
+locally. Do not rerun for timing and do not launch the 228,097,120-state full
+campaign. The next theorem must add chord-origin realizability, support-level
+coupling, or a stronger analytic norm certificate.

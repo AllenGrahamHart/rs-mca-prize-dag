@@ -48,8 +48,9 @@ forces surviving collisions to have `s>=5` at `N=256`. At `N=512`, exact
 variance and interval-resultant certificates close both `s=2` profiles, so
 surviving collisions have `s>=3`.
 At `N=256,s=5`, the `(3,4,0)` profile is narrowed to positive even
-autocorrelation variance `V<=110`. In both first-band profiles all
-proper-conductor supports are excluded, but `(4,2,0)` is otherwise
+autocorrelation variance `V<=68`. Four exact quotient-Schur endpoint packets
+exclude `V=76,74,72,70` after the sparse-L1 theorem. In both first-band
+profiles all proper-conductor supports are excluded, but `(4,2,0)` is otherwise
 unrestricted and a full-conductor `(3,4,0)` vector already occurs at
 `V=36`. The surviving singleton reductions additionally have root
 multiplicity at most five in `(3,4,0)`, while the two singleton
@@ -58,6 +59,13 @@ exponents in `(4,2,0)` are not congruent modulo 32. Every residual
 so its next classification is by three-term and parallelogram templates.
 Its collision norm has exact form `2^mu p`, `1<=mu<=5`; the odd
 norm part, rather than a cofactor window, is the remaining arithmetic object.
+
+At the first live endpoint `V=68`, a common nested-layer mod-16 compiler has
+feasible relaxation allocations above the required cubic threshold in five
+profile/order cells. This kills the bare quotient relaxation and retires its
+228,097,120-state full census. It does not produce an autocorrelation vector;
+the live routes are chord-origin coupling, support-specific refinement, or a
+stronger analytic norm majorant.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named

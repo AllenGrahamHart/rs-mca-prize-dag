@@ -37,7 +37,8 @@ Exact variance and interval-resultant refinements exclude both profiles at
 `N=512,s=2`, raising that collision-free radius through distance two.
 At `N=256,s=5`, an exact logarithmic refinement excludes the zero-variance
 and all `V>=136` cases of profile `(3,4,0)`; a sparse-L1
-refinement also excludes `112<=V<=134`, leaving `V<=110`.
+refinement also excludes `78<=V<=134`. Four subsequent exact quotient-Schur
+packets exclude `V=76,74,72,70`, leaving `V<=68`.
 A separate subfield-norm
 argument excludes every proper-conductor support in both first-band profiles.
 Only full-conductor supports remain, and a certified one exists at variance
@@ -48,3 +49,8 @@ also has a proved signed equal-chord relation, but its progression and
 parallelogram templates remain open. Local reciprocity leaves only the five
 cofactors `2,4,8,16,32` there, so every collision odd norm part must
 equal the row prime.
+
+At `V=68`, an exact pilot exhibits feasible mod-16 nested-layer allocations
+whose quotient upper bound exceeds the cubic threshold. This retires the
+bare full quotient census but is not an actual autocorrelation collision and
+does not change the target status.
