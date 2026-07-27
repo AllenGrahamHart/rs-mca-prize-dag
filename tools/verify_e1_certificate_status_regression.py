@@ -51,6 +51,7 @@ def main():
         "e1_n256_proper_conductor_collision_exclusion",
         "e1_n256_2adic_cofactor_collision_exclusion",
         "e1_n256_s16_signed_chord_collision_gate",
+        "e1_n256_local_norm_cofactor_collapse",
         "e1_n512_four_singleton_collision_exclusion",
         "e1_n512_trinomial_interval_norm_exclusion",
         "e1_fullness",
@@ -104,6 +105,7 @@ def main():
         ("e1_n256_proper_conductor_collision_exclusion", branch_target, "ev"),
         ("e1_n256_2adic_cofactor_collision_exclusion", branch_target, "ev"),
         ("e1_n256_s16_signed_chord_collision_gate", branch_target, "ev"),
+        ("e1_n256_local_norm_cofactor_collapse", branch_target, "ev"),
         ("e1_n512_four_singleton_collision_exclusion", branch_target, "ev"),
         ("e1_n512_trinomial_interval_norm_exclusion", branch_target, "ev"),
     }
@@ -187,6 +189,16 @@ def main():
             "N=256 signed-chord conclusion is missing")
     require((n256_s16, signed_chord, "req") in edges,
             "signed-chord gate lost its variance parent")
+    local_norm = "e1_n256_local_norm_cofactor_collapse"
+    require(nodes[local_norm]["status"] == "PROVED",
+            "N=256 local-norm cofactor collapse regressed")
+    local_norm_statement = nodes[local_norm]["statement"].lower()
+    require("r=2^mu p" in local_norm_statement and "419" in local_norm_statement,
+            "N=256 local-norm cofactor conclusion is missing")
+    require((prime_field, local_norm, "req") in edges,
+            "local-norm cofactor collapse lost its prime-field parent")
+    require((two_adic, local_norm, "req") in edges,
+            "local-norm cofactor collapse lost its 2-adic parent")
     four_singleton = "e1_n512_four_singleton_collision_exclusion"
     require(nodes[four_singleton]["status"] == "PROVED",
             "N=512 four-singleton exclusion regressed")
@@ -219,6 +231,7 @@ def main():
         proper_conductor,
         two_adic,
         signed_chord,
+        local_norm,
         four_singleton,
         trinomial,
         branch_target,

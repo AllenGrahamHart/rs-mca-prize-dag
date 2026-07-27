@@ -319,6 +319,24 @@
    "notes": "ROUTE REDUCTION 2026-07-27: converts the analytic low-variance residual into an exact additive-relation classification gate. It does not enumerate or exclude the resulting templates."
   },
   {
+   "id": "e1_n256_local_norm_cofactor_collapse",
+   "title": "N=256 local-norm cofactor collapse",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/statement.md",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/proof.md",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/claim_contract.md",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/dependency_subdag.md",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/audit.md",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/result.md",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/source_pin.json",
+    "background/nodes/e1_n256_local_norm_cofactor_collapse/verify.py"
+   ],
+   "statement": "Local reciprocity gives R/2^mu=1 mod 256 for every nonzero integral norm R from Q_2(zeta_256), where mu=v_2(R). On the pair-feasible branch p=1 mod 256. If R=pm, then m/2^mu=1 mod 256. Consequently profile (3,4,0) has exactly five possible cofactors m=2^mu for 1<=mu<=5, so R=2^mu p. Profile (4,2,0) has 419 possible cofactors m=2^mu(1+256t)<2^17 with mu in {1,2,4,8,16}.",
+   "notes": "ROUTE REDUCTION 2026-07-27: replaces broad cofactor intervals by exact local-norm congruence classes. It does not prove primality or interval membership of the remaining odd norm parts."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -17709,6 +17727,16 @@
    "kind": "req"
   },
   {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_n256_local_norm_cofactor_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_2adic_cofactor_collision_exclusion",
+   "to": "e1_n256_local_norm_cofactor_collapse",
+   "kind": "req"
+  },
+  {
    "from": "e1_prime_field_l2_norm_collision_radius",
    "to": "e1_n512_four_singleton_collision_exclusion",
    "kind": "req"
@@ -17800,6 +17828,16 @@
   },
   {
    "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_local_norm_cofactor_collapse",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_local_norm_cofactor_collapse",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

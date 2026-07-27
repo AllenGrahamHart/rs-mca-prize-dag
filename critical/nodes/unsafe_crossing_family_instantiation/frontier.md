@@ -56,6 +56,8 @@ multiplicity at most five in `(3,4,0)`, while the two singleton
 exponents in `(4,2,0)` are not congruent modulo 32. Every residual
 `(3,4,0)` support also contains an oppositely signed equal-chord pair,
 so its next classification is by three-term and parallelogram templates.
+Its collision norm has exact form `2^mu p`, `1<=mu<=5`; the odd
+norm part, rather than a cofactor window, is the remaining arithmetic object.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named

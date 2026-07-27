@@ -42,7 +42,9 @@ a short pre-registered route decision.
    one and forbids singleton separation divisible by 32 in `(4,2,0)`.
    In `(3,4,0)`, the signed-chord identity additionally forces an
    oppositely signed equal-distance pair, reducing the residual to
-   three-term-progression and parallelogram templates.
+   three-term-progression and parallelogram templates. Local reciprocity
+   collapses the square-mass-16 cofactor to `2^mu`, `1<=mu<=5`,
+   so the remaining odd norm part must itself equal the row prime.
 3. Before taking moments on any residual row, screen the complete-support FM1
    sum. If it is at most `B*`, no subfamily or nonnegative collision correction
    can trigger `nu(A)>B*`. This screen rules out `M` on all six named
@@ -62,3 +64,4 @@ Only full-conductor supports remain at `N=256,s=5`; within
 `(3,4,0)` the variance residual is `0<V<=134`. Apply the 2-adic
 singleton screen before any residual norm computation, then use the forced
 signed additive-relation templates rather than generic support enumeration.
+Test the odd norm part directly; do not scan arbitrary cofactors below 64.

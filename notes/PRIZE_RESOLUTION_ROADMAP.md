@@ -985,6 +985,18 @@ next task into an additive-template classification; it does not yet exclude
 those templates. See
 `background/nodes/e1_n256_s16_signed_chord_collision_gate/`.
 
+N31 DONE, E1 N=256 LOCAL-NORM COFACTOR COLLAPSE: explicit local reciprocity
+for `Q_2(zeta_256)` gives `R/2^mu=1 mod 256` for every
+nonzero integral norm. Since the live prime also satisfies
+`p=1 mod 256`, a collision cofactor obeys
+`m/2^mu=1 mod 256`. In profile `(3,4,0)`, `m<64`
+therefore collapses to the five values `m=2^mu`,
+`1<=mu<=5`; the odd norm part must itself be the row prime. In
+profile `(4,2,0)`, the cofactor window contracts to 419 explicit
+values. A 513-resultant FLINT falsification run found no congruence failure,
+but the proof is the local reciprocity norm-group theorem. See
+`background/nodes/e1_n256_local_norm_cofactor_collapse/`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable

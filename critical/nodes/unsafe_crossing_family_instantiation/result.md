@@ -43,4 +43,6 @@ Only full-conductor supports remain, and a certified one exists at variance
 independently forces singleton-reduction multiplicity at most five in
 `(3,4,0)` and at most sixteen in `(4,2,0)`. The first residual
 also has a proved signed equal-chord relation, but its progression and
-parallelogram templates remain open.
+parallelogram templates remain open. Local reciprocity leaves only the five
+cofactors `2,4,8,16,32` there, so every collision odd norm part must
+equal the row prime.

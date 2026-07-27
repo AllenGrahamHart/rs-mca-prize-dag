@@ -33,6 +33,9 @@ e1_n256_2adic_cofactor_collision_exclusion [PROVED]
 e1_n256_s16_signed_chord_collision_gate [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_n256_local_norm_cofactor_collapse [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_n512_four_singleton_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
@@ -53,7 +56,9 @@ first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing
 those screens remain. In `(3,4,0)`, every remaining support has a signed
 equal-chord relation and therefore lies on a three-term or parallelogram
-template. Those templates are not yet paid.
+template. Local reciprocity leaves only five power-of-two cofactors in that
+profile and 419 explicit cofactors in `(4,2,0)`. Their odd norm parts
+are not yet paid.
 The official quantifier pin and named-exhibit certificate subgraph remain in
 `background/nodes/` and have `ev`, not `req`, edges into this target. The
 unresolved target is a logical leaf, with its route-uniform scope printed

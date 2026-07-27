@@ -49,8 +49,10 @@ explicit finite inequality at the row.
    norm computation. The signed-chord gate further excludes circular-Sidon
    supports: every residual has an oppositely signed equal-distance chord
    pair, hence a three-term or parallelogram template. Classify those templates
-   rather than rescan generic supports. The complete `N=512,s=2` band
-   is closed; start at `s=3`.
+   rather than rescan generic supports. Local reciprocity also collapses the
+   square-mass-16 cofactor to `2^mu` for `1<=mu<=5`; exclude or
+   price the odd norm part directly. The complete `N=512,s=2` band is
+   closed; start at `s=3`.
 3. A certifier route is legitimate only with proved termination, soundness,
    and coverage for every row in the printed pair-feasible candidate class.
 4. If direct image size can be certified above `B*` without bounding `P`, send

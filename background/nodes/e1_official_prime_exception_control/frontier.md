@@ -39,6 +39,9 @@ multiplicity at most five at one, while the two singleton exponents in
 `(4,2,0)` are not congruent modulo 32. The low-variance profile is
 also non-Sidon in a signed sense: its repeated-chord cross sum is at most
 `-7`, forcing a three-term progression or four-point parallelogram.
+Local reciprocity sharpens its norm interface further: every collision norm is
+exactly `2^mu p` for one of `mu=1,...,5`. In `(4,2,0)`,
+the formerly broad cofactor window contracts to 419 explicit values.
 At `N=512,s=2`, exact negacyclic variance
 excludes `(0,4,0)`, while a complete 129540-state interval-resultant
 certificate excludes `(1,2,0)`. The entire band is closed, so the `N=512`
@@ -63,7 +66,9 @@ The next route-deciding attack is algebraic. Either:
   with the full-conductor portions of the surviving `N=256,s=5` profiles
   after the 2-adic cofactor screen. In `(3,4,0)`, use the signed
   three-term-progression/parallelogram templates forced by `C<=-7`.
-  Treat the `N=512,s=3` band independently;
+  Its odd norm part must itself be the row prime, so test that exact object
+  rather than a 63-integer cofactor window. Treat the `N=512,s=3` band
+  independently;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;
 - provide a total per-input image/collision certifier theorem; or
