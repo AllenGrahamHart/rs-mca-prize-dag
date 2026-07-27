@@ -255,15 +255,19 @@ Hence `V=50` is empty. At `V=48`, a cutoff-free router leaves six profiles on
 154 templates. Independent 3,056,582,144-vector engines find 14,416 actual
 vectors; conductor removes 7,582 and exact FLINT/PARI norms remove all 6,834
 full-conductor representatives. Hence `V=48` is empty and the frontier is
-`V<=46`. The fixed cubic-Hermite majorant remains dead from 48 down.
+reduced to `V<=46`. At `V=46`, a cutoff-free four-profile router on eight
+templates yields 1,888 vectors; conductor removes 1,404 and exact FLINT/PARI
+norms remove all 484 full-conductor representatives. Hence `V=46` is empty
+and the frontier is `V<=44`. The fixed cubic-Hermite majorant remains dead
+from 48 down.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
 injectivity or another explicit `V` line. Within the first `N=256` band,
-derive the exact cutoff-free `V=46` profile/parity/light router and price its
+derive the exact cutoff-free `V=44` profile/parity/light router and price its
 actual-vector residue.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
-cofactor classes. Do not rerun any `V>=48`
+cofactor classes. Do not rerun any `V>=46`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
 safe predecessor relocates the candidate threshold immediately.

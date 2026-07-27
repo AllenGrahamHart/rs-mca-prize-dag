@@ -228,3 +228,7 @@ The proved cutoff-free E24 reduction leaves six profiles on 154 templates.
 Independent complete censuses, conductor, and exact norms close all six; the
 E24 endpoint closes `V=48` and advances the frontier to `V<=46`, still as
 evidence only rather than a universal unsafe certificate.
+The proved cutoff-free E23 reduction leaves four profiles on eight templates.
+Independent complete censuses, conductor, and exact norms close all four; the
+E23 endpoint closes `V=46` and advances the frontier to `V<=44`, still as
+evidence only.

@@ -93,6 +93,11 @@ e1_n256_s16_e24_profile_parity_light_reduction [PROVED]
     --requirement-----------------------------------------> e1_n256_s16_e24_endpoint_exclusion [PROVED]
     --evidence--------------------------------------------> e1_official_prime_exception_control [TARGET]
 
+e1_n256_s16_e23_profile_parity_light_reduction [PROVED]
+    --requirement--> e1_n256_s16_e23_four_profile_exclusion [PROVED]
+    --requirement------------------------------------------> e1_n256_s16_e23_endpoint_exclusion [PROVED]
+    --evidence---------------------------------------------> e1_official_prime_exception_control [TARGET]
+
 e1_official_prime_exception_control [TARGET]
     -> e1_fullness [CONDITIONAL]
 ```
@@ -153,6 +158,11 @@ profiles on 154 templates. Dual actual-vector engines find 14,416 vectors,
 the conductor theorem removes 7,582, and dual exact resultants put all 6,834
 full-conductor norms below `2^250`. The E24 endpoint closes `V=48` and advances
 the frontier to `V<=46`, still as evidence rather than a universal close.
+The cutoff-free E23 reduction leaves four profiles on eight templates.
+Independent censuses find 1,888 vectors, conductor removes 1,404, and dual
+exact resultants put all 484 full-conductor norms below `2^250`. The E23
+endpoint closes `V=46` and advances the frontier to `V<=44`, still as evidence
+rather than a universal close.
 The proper-conductor theorem also removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing

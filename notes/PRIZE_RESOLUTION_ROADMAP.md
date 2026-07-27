@@ -5164,3 +5164,29 @@ new assumptions: none
 route decision: derive the exact cutoff-free E23 (V=46) router and price its
                 actual-vector residue. Never rerun V>=48.
 ```
+
+**2026-07-27, E23 cutoff-free route and V=46 endpoint close:** odd diameter
+parity collapses the next chamber to the eight-template repeated-chord atlas.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=46 (E=23)
+reduction app: ap-GuKw0MZUMz3HlWbFd7G2uw
+slack result: L<=13; exactly seven energy profiles
+majorant policy: not invoked
+parity survivors: four three-odd profiles on 960 normalized supports
+light atlas: eight affine templates
+coverage per engine: 8*binom(124,3)*64=158,783,488 vectors
+census app: ap-v5PL88R8Ux130XBREm4eA1; dual exact engine agreement
+actual profiles: [1176,522,46,144], total 1,888
+full conductor: [352,108,0,24], total 484
+proper conductor: complementary 1,404 vectors discharged by theorem
+norm app: ap-4g3qQD2QBjTJtojanosSzw; FLINT/PARI agreement on all 484
+distinct norms: 176
+exact maximum: 721495288731652690472090495266069052907254127194382380048009480013819013124
+strict margin: 2*N_max<2^250<3*N_max; bit length 249
+result: all four profiles CLOSED; V=46 endpoint CLOSED
+live positive even variance frontier: V<=44
+new assumptions: none
+route decision: derive the exact cutoff-free E22 (V=44) router. Never rerun
+                V>=46.
+```
