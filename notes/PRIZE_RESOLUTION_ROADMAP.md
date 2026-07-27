@@ -3004,3 +3004,30 @@ compute spend: none; exact rational arithmetic only
 next route-deciding action: classify the bounded low-variance residual of
                               profile (3,4,0), beginning with realizable V
 ```
+
+**2026-07-27, N=256 proper-conductor supports excluded:** exact subfield
+descent shows that a proper-conductor first-band norm has no prime divisor at
+the live field scale. A bounded falsification test killed the stronger
+periodicity classification before it entered the DAG.
+
+Cycle burn-down:
+
+```text
+starting pins: local d08646bc; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 7a8f103f
+node attacked: e1_official_prime_exception_control, N=256 s=5 conductor split
+result: NARROWED to full-conductor supports in both profiles; parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: one 6.3-second Modal orchestration, peak 55 MB, well below $1;
+               no computation is load-bearing
+falsification: full-conductor profile-(3,4,0) vector found at V=36, so low
+               variance does not imply proper conductor
+next route-deciding action: classify the full-conductor V<=134 residual by
+                              repeated-difference cancellation structure
+```
