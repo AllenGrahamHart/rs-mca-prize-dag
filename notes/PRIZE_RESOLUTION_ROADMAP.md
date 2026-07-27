@@ -3199,3 +3199,27 @@ compute spend: two short one-container route tests; exact proof uses no Modal
 next route-deciding action: extend the sparse moment majorant below V=112 or
                               classify the stronger C<=-13 templates
 ```
+
+**2026-07-27, N=256 chord-deficit refinement:** a profile-specific charging
+lemma extends the analytic variance exclusion by three further values without
+enumeration or new assumptions.
+
+Cycle burn-down:
+
+```text
+starting pins: local 2967967b; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 06e0ef63
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=110 to V<=104; signed cancellation
+        strengthened from C<=-13 to C<=-15; parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact integer and rational arithmetic only
+next route-deciding action: close the V=104 logarithmic gap by a sharper
+                              phase/L1 bound, or classify the C<=-15 templates
+```
