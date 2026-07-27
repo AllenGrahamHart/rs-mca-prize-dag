@@ -2825,3 +2825,31 @@ next route-deciding action: exploit ambient generation in the norm-divisor or
                               sparse-kernel collision count, seeking a theorem
                               or an exact pair-feasible counterexample
 ```
+
+**2026-07-27, pair-feasible E1 prime-field axis closed:** ambient generation
+still left a possible extension degree and therefore did not validate the
+prime-field kernel interface. The exact degree identity and perfect-power
+interval checks remove that gap at all six named anchors. The simultaneous
+canonical audit also exposed unreplayable legacy proof debt and pinned it
+against growth without treating missing artifacts as mathematical refutations.
+
+Cycle burn-down:
+
+```text
+starting pins: local e3084268; canonical 342b52d9;
+               upstream origin/main b13de811
+ending proof pin: local 260395c5; canonical d18fdc83;
+                  upstream unchanged
+node attacked: e1_official_prime_exception_control, extension-degree axis
+result: CLOSED AS ROUTE REDUCTION; exact prime-field collision target OPEN
+DAG delta: +1 off-orbit PROVED node, +1 req edge, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; reproducibility debt now
+                pinned at 44 hollow critical nodes, 42 marked PROVED
+upstream terminal delta: none; exact finite reduction is ours-only
+delta-star bracket movement: none
+new assumptions: none; the canonical quotient set is cyclic of printed order
+compute spend: none; 14 exact integer-root checks and bounded regressions
+next route-deciding action: bound or falsify the exact E1 collision allowance
+                              over primes p=1 mod N in the two budget intervals
+```

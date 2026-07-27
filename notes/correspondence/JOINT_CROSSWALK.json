@@ -2,7 +2,7 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "e169a43f",
+  "our_sha": "260395c5",
   "his_sha": "b13de811"
  },
  "rows": [
@@ -171,6 +171,26 @@
    "lean": null,
    "provenance": {
     "our_sha": "e169a43f",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_pair_feasible_prime_field_reduction",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "six-anchor exact perfect-power interval reduction proving that every pair-feasible ambient-generating E1 row is prime-field with p=1 mod N",
+   "owner": "US",
+   "nonclaims": [
+    "no pointwise E1 collision bound is proved",
+    "no prime in either budget interval is enumerated or certified",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "260395c5",
     "his_sha": "b13de811"
    }
   },
