@@ -4289,7 +4289,7 @@ forms to five invariant representatives.
 
 ```text
 starting pin: local d8573a35
-proof pin: pending commit
+proof pin: local fb1aa985
 node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
 result: NARROWED progression branch; generic remains untouched
 normal forms: H={0,t,2t}, 1<=t<=63, t!=32; outer heavy signs opposite
