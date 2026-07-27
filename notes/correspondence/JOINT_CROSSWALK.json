@@ -2,7 +2,7 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "593a872f",
+  "our_sha": "86b993b1",
   "his_sha": "b13de811"
  },
  "rows": [
@@ -391,6 +391,26 @@
    "lean": null,
    "provenance": {
     "our_sha": "593a872f",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "complete quotient-Schur and exceptional three-layer coupling census excluding variance 70 in folded profile (3,4,0) at N=256,s=5, with global live-row third-moment cap M_3<=2162",
+   "owner": "US",
+   "nonclaims": [
+    "positive even variance V<=68 in the same profile remains open",
+    "profile (4,2,0), later bands, and the total collision-pair allowance are not bounded",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "86b993b1",
     "his_sha": "b13de811"
    }
   },
