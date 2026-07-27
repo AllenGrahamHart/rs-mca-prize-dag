@@ -3285,3 +3285,30 @@ compute spend: two RAM-guarded relaxed DPs under 16 seconds each discovered
 next route-deciding action: exploit the equality templates at E=50,L=28 or
                               replace the quadratic logarithmic majorant
 ```
+
+**2026-07-27, N=256 variance 100 excluded:** the geometry-only endpoint
+shortcut was falsified and replaced by an exact optimized quadratic
+majorant.
+
+Cycle burn-down:
+
+```text
+starting pins: local bbfeb42c; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 535a2e5f
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=100 to V<=98; C<=-16 unchanged;
+        parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: one 16-worker bounded Modal falsifier and one exact
+               one-container norm probe; both completed in seconds and are
+               non-load-bearing
+route fence: full-conductor E=50,L=28 geometry exists; L<=27 is false
+next route-deciding action: extend the exact low-slack L table and optimized
+                              majorants to V=98 and below
+```
