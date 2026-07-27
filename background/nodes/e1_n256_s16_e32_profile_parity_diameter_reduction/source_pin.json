@@ -1,0 +1,10 @@
+{
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
+  "e33_endpoint_file": "background/nodes/e1_n256_s16_e33_endpoint_exclusion/statement.md",
+  "e33_endpoint_file_sha256": "5b778a73533ea32385d1beb61f74e3acd40a6e5c402d8e4b1a1ffb3dc1129c65",
+  "signed_chord_file": "background/nodes/e1_n256_s16_signed_chord_collision_gate/statement.md",
+  "signed_chord_file_sha256": "926f9c94a0b5dd0830b7e37fafcd96f570dd93802de16061c802546e466e3157",
+  "variance_parent_verify_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py",
+  "variance_parent_verify_file_sha256": "57b7a0f2d8590bda9234f4fb5bc0a573afd56200436458121767489fc5091f8e"
+}

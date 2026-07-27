@@ -29,8 +29,11 @@ two. The crude `(2s)^phi(N)` bound should no longer be used for those bands.
 The first surviving `N=256` band reduces to folded coefficient profiles
 `(4,2,0),(3,4,0)` at `s=5`. In the square-mass-16 profile `(3,4,0)`, an
 exact logarithmic deficit removes `V=0` and every `V>=136`; a
-sparse-autocorrelation refinement removes `112<=V<=134`, leaving
-positive even `V<=110`. A subfield norm argument also removes every vector
+sparse-autocorrelation refinement removes `78<=V<=134`. Four exact
+quotient-Schur packets remove `V=76,74,72,70`; complete endpoint chains remove
+`V=68,66`, leaving positive even `V<=64`. At `V=64`, exact slack, cubic, and
+parity arithmetic leaves only autocorrelation profiles `(4,7)`, `(0,8)`, and
+`(3,5,1)`. A subfield norm argument also removes every vector
 in either profile whose support differences have a nontrivial gcd with
 `256`. Thus all live first-band vectors have full conductor. This does not
 classify the low-variance residual: a certified full-conductor vector already
@@ -65,11 +68,12 @@ The next route-deciding attack is algebraic. Either:
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
-  after the 2-adic cofactor screen. In `(3,4,0)`, use the signed
-  three-term-progression/parallelogram templates forced by `C<=-13`.
-  Its odd norm part must itself be the row prime, so test that exact object
-  rather than a 63-integer cofactor window. Treat the `N=512,s=3` band
-  independently;
+  after the 2-adic cofactor screen. In `(3,4,0)`, begin with the three exact
+  `V=64` profiles. Test `(3,5,1)` with the bounded three-layer quotient
+  compiler; classify the even light-chord multiplicities in `(0,8)`; and split
+  `(4,7)` on zero versus two light-light diameters. Its odd norm part must
+  itself be the row prime, so test that exact object rather than a cofactor
+  interval. Treat the `N=512,s=3` band independently;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;
 - provide a total per-input image/collision certifier theorem; or

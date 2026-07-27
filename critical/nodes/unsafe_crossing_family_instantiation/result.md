@@ -100,3 +100,12 @@ full-conductor maximum is `M_3=1416<1732`. The endpoint synthesis therefore
 proves that every `V=66` case is impossible. The live `(3,4,0)` variance
 frontier is now positive even `V<=64`; `(4,2,0)` and the later swap bands remain
 open, so the universal target remains unproved.
+
+At `V=64`, a further exact reduction is proved. The slack recurrence gives
+`L<=18`, and the cubic-Hermite certificate pays every abstract profile with
+`M_3<=1517`. Of 18 integer profiles, parity removes four of the seven above
+that cutoff and leaves exactly `(4,7)`, `(0,8)`, and `(3,5,1)`. Complete
+diameter enumeration forces zero or two light-light diameter edges and eight
+possible `D_64` values. No one of these three profiles is yet excluded, so
+the live variance frontier remains `V<=64` and the universal target remains
+open.

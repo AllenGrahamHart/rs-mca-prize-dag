@@ -87,9 +87,16 @@ census excludes `(1,8)` with `M_3<=1356`; and the full-conductor census
 excludes `(5,7)` with `M_3<=1416`. Thus do not rerun either E33 census or
 import the E34 four-template classification at lower variance.
 
-The next route decision is between an exact profile reduction at `V=64` in
-`(3,4,0)` and a materially different reduction of the still broad `(4,2,0)`
-profile. Compare their finite profile counts and available algebraic gates
-before authorizing a census. Apply the 2-adic singleton screen and test the odd
-norm part directly; do not scan arbitrary cofactors below 64. Later bands
-`N=256,s>=6` and `N=512,s>=3` remain part of the universal target.
+The exact `V=64` reduction is now proved: `L<=18`, `M_3<=1517` is paid, and
+only `(4,7)`, `(0,8)`, and `(3,5,1)` remain. Test `(3,5,1)` first with the
+three-layer quotient compiler used for `(4,5,1)`, but stop if its relaxation
+maximum exceeds 1517. For `(0,8)`, classify the zero-odd light-chord geometry:
+every non-diameter light-light distance has even multiplicity. For `(4,7)`,
+split on zero versus two light-light diameters; in the two-diameter branch the
+four remaining light chords occupy distinct classes. Require an exact finite
+router before any complete signed-vector census.
+
+The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
+the 2-adic singleton screen and test its 419 exact cofactors directly; do not
+scan an arbitrary interval. Later bands `N=256,s>=6` and `N=512,s>=3` remain
+part of the universal target.

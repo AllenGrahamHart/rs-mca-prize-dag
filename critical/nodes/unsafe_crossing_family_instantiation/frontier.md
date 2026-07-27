@@ -152,11 +152,28 @@ unrestricted maximum 1758 has proper conductor and is already excluded; the
 full-conductor maximum is `M_3=1416<1732`. Thus `V=66` is empty and the live
 positive even variance frontier is `V<=64`.
 
+The algebraic front end at `V=64` is also complete. Exact slack gives `L<=18`
+and 18 integer magnitude profiles. The exact rational cubic threshold is
+`M_3=1517`; among the seven profiles above it, the six-unit light-chord parity
+gate leaves exactly
+
+```text
+(4,7), (0,8), (3,5,1).
+```
+
+Their `(L, odd-count)` pairs are `(18,4)`, `(16,0)`, and `(16,4)`. Even energy
+forces zero or two light-light diameters and
+`D_64 in {0,2,4,8,12,16,18,20}`. In a two-diameter four-odd branch, the four
+remaining light chords occupy distinct non-diameter classes; in `(0,8)`, all
+non-diameter light-chord multiplicities are even. These are exact reductions,
+not exclusions; all three profiles remain live.
+
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
 injectivity or another explicit `V` line. Within the first `N=256` band, the
-next route decision is whether `V=64` in `(3,4,0)` or the still broad `(4,2,0)`
-profile admits the sharper finite reduction. Later `N=256,s>=6` and
-`N=512,s>=3` bands remain open. Any exact safe predecessor relocates the
-candidate threshold immediately.
+next route decision is the cheapest exact exclusion among the three `V=64`
+profiles, beginning with a bounded quotient test for `(3,5,1)`. The still
+broad `(4,2,0)` profile and later `N=256,s>=6`, `N=512,s>=3` bands remain
+open. Any exact safe predecessor relocates the candidate threshold
+immediately.

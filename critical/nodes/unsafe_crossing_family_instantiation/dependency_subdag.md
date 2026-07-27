@@ -40,6 +40,7 @@ e1_n256_s16_e33_profile_451_quotient_exclusion --ev-->
 e1_n256_s16_e33_profile_18_light_template_exclusion --ev-->
 e1_n256_s16_e33_profile_57_light_template_exclusion --ev-->
 e1_n256_s16_e33_endpoint_exclusion --ev-->
+e1_n256_s16_e32_profile_parity_diameter_reduction --ev-->
 e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
@@ -138,3 +139,11 @@ The endpoint synthesis `e1_n256_s16_e33_endpoint_exclusion` closes `V=66` and
 advances the positive even variance residual to `V<=64`. These consumer edges
 remain evidence for this universal target because the lower-variance and later
 swap bands are still open.
+
+The proved `e1_n256_s16_e32_profile_parity_diameter_reduction` resolves the
+next endpoint's algebraic front end. At `V=64`, exact slack gives `L<=18`, the
+exact cubic cutoff is `M_3=1517`, and parity reduces seven above-cutoff integer
+profiles to `(4,7)`, `(0,8)`, and `(3,5,1)`. Even energy forces zero or two
+light-light diameters and eight exact diameter ledgers. All three profile
+branches remain open, so this consumer edge is evidence rather than a
+discharge of the endpoint or universal target.

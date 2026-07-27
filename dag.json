@@ -843,6 +843,25 @@
    "notes": "ENDPOINT CLOSURE 2026-07-27: synthesizes the complete E33 chain and advances the live variance frontier by two. Lower positive even variances remain open."
   },
   {
+   "id": "e1_n256_s16_e32_profile_parity_diameter_reduction",
+   "title": "N=256 square-mass-16 E=32 profile/parity/diameter reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/result.md",
+    "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/verify_audit.py"
+   ],
+   "statement": "For profile (3,4,0) at V=64, the exact slack recurrence gives L<=18. Of 18 integer magnitude profiles, the exact rational cubic threshold M_3=1517 and the six-unit-chord parity gate leave only (4,7),(0,8),(3,5,1). Even energy forces zero or two light-light diameters, D_64 in {0,2,4,8,12,16,18,20}, and C=(D_64-70)/2.",
+   "notes": "ROUTE REDUCTION 2026-07-27: reduces the next live variance endpoint to three exact profiles and eight diameter ledgers. It does not exclude V=64 or any lower variance."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -5863,7 +5882,7 @@
    "statement": "Uniformly for every admissible clean-anchor row in the independently defined pair-feasible direct-E1 class B=F_p(Q), |B|>=b_pair_min(K,B*)=ceil((K+B*+1)/3), with all field, embedding, owner, and endpoint data pinned, let quotient orders N in {256,512}, K=A_2(N,ell), and P=sum_y binom(r_y,2) count unordered pairs of distinct characteristic-zero classes colliding after reduction. By e1_pair_feasible_prime_field_reduction every such named-anchor row has q=p and p=1 mod N. Exact folded-norm arguments force collision distance s>=5 for N=256 and s>=3 for N=512. Prove P<=K-B*-1 for B*=floor(|F|/2^128). The formerly printed {128,256} are folded dimensions, not live quotient orders. Finite selected-field exhibit certificates do not discharge this route-uniform target.",
    "attack_surface": "prove the exact pair-feasible-class incidence bound, construct a pair-feasible row above allowance, or give a complete per-input image/collision certifier theorem",
    "falsifier": "a pair-feasible candidate row with P>K-B*-1; a certifier leaving such a row uncovered; or any base/ambient-field normalization failure",
-   "notes": "EXACT FINITE RE-POSE 2026-07-26, narrowed 2026-07-27: replaces negligible/o(1) language, fixes quotient-order versus folded-dimension notation, proves that the live branch is prime-field, excludes s<=4 at N=256 and s<=2 at N=512 by exact folded norms. Selected-field exhibits remain evidence only, and unsafe_crossing_family_instantiation owns global row routing."
+   "notes": "EXACT FINITE RE-POSE 2026-07-26, narrowed 2026-07-27: replaces negligible/o(1) language, fixes quotient-order versus folded-dimension notation, proves that the live branch is prime-field, excludes s<=4 at N=256 and s<=2 at N=512 by exact folded norms, and reduces profile (3,4,0) at V=64 to three exact chambers. Selected-field exhibits remain evidence only, and unsafe_crossing_family_instantiation owns global row routing."
   },
   {
    "id": "ef_fullfield_bridge",
@@ -18886,6 +18905,26 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_e33_endpoint_exclusion",
+   "to": "e1_n256_s16_e32_profile_parity_diameter_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e32_profile_parity_diameter_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "e1_n256_s16_e32_profile_parity_diameter_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e32_profile_parity_diameter_reduction",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -19217,6 +19256,16 @@
   },
   {
    "from": "e1_n256_s16_e33_endpoint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e32_profile_parity_diameter_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e32_profile_parity_diameter_reduction",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
