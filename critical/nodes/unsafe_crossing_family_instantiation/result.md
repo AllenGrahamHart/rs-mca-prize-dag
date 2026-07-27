@@ -29,5 +29,6 @@ witness sizes at least the predecessor agreement. It is a supplier route cut,
 not a bound on explicit `Q`/`V` constructions.
 
 The surviving pair-feasible E1 branch is automatically ambient-generating at
-all six anchors. This removes the generated-field transfer axis but leaves the
+all six anchors and, by exact perfect-power interval exclusion, is prime-field
+with `p=1 mod N`. This validates the sparse-kernel interface but leaves the
 exact pointwise collision-pair inequality open.

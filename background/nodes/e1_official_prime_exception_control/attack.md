@@ -12,6 +12,8 @@ class pairs after reduction:
 
 The pair-feasible premise already implies `B=F` under the official field cap.
 Do not spend effort on a generated-to-ambient transfer inside this target.
+The exact perfect-power interval reduction further implies `F=F_p` and
+`p=1 mod N`; extension-field candidates are no longer part of this branch.
 
 ```text
 P=sum_y binom(r_y,2).
@@ -24,9 +26,9 @@ explicit finite inequality at the row.
 
 ## Route-deciding attacks
 
-1. Seek structured lower bounds on `P` at admissible split primes or in
-   non-generating extensions. One exact candidate-class row above allowance kills
-   this target and forces a different unsafe supplier for that row class.
+1. Seek structured lower bounds on `P` at admissible primes `p=1 mod N` in
+   the two exact budget intervals. One exact candidate-class row above allowance
+   kills this target and forces a different unsafe supplier for that row class.
 2. Seek orbit divisibility and norm-divisor upper bounds on `P`, not merely on
    the number of surviving folded vectors. Convert every counted object to
    unordered class pairs explicitly.

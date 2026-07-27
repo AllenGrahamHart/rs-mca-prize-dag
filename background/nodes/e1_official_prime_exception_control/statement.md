@@ -22,6 +22,15 @@ By `e1_pair_feasible_ambient_generation`, this premise automatically forces
 `B=F` at all six named anchors. The generated-field transfer is therefore not
 an additional hypothesis of the live pair-feasible target.
 
+By `e1_pair_feasible_prime_field_reduction`, the same branch also forces
+
+```text
+F=F_p,       q=p,       p=1 mod N.
+```
+
+Thus the prime-field premise of `kernel_lattice_reframing` is proved rather
+than assumed on the live named-anchor target.
+
 The actual quotient orders are
 
 ```text

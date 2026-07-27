@@ -20,7 +20,8 @@ route-local determination is evidence for
 
 The pair-feasible class is automatically ambient-generating by
 `e1_pair_feasible_ambient_generation`; no proper-subfield transfer remains in
-this branch.
+this branch. It is also prime-field with `p=1 mod N` by
+`e1_pair_feasible_prime_field_reduction`.
 
 Historical experiments at quotient orders `16,32,64,128,256` remain evidence
 about collision behavior. In particular, an `N=128` result does not by itself

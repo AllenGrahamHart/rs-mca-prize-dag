@@ -29,7 +29,9 @@ a short pre-registered route decision.
    direct image remains open; only `b>=b_pair_min` reaches the pointwise pair
    target. On all six named anchors this last branch automatically has
    `F_p(Q)=F`, because a proper subfield is smaller than `2^128` while every
-   `b_pair_min` has at least 134 bits.
+   `b_pair_min` has at least 134 bits. Exact perfect-power interval checks then
+   force `F=F_p` and `p=1 mod N`, so use the prime-field sparse-kernel model on
+   this live branch without adding an extension-field hypothesis.
 3. Before taking moments on any residual row, screen the complete-support FM1
    sum. If it is at most `B*`, no subfamily or nonnegative collision correction
    can trigger `nu(A)>B*`. This screen rules out `M` on all six named
@@ -40,6 +42,6 @@ a short pre-registered route decision.
 5. Decompose by rate or field type only when a child is materially smaller,
    independently falsifiable, and connected by a proved exhaustive router.
 
-The first route-deciding audit is generated-field normalization: quotient
-values living in a proper subfield cannot be counted as ambient slopes without
-an explicit transfer.
+Generated-field and extension-degree normalization are now closed on the
+pair-feasible branch. The route-deciding residual is the pointwise collision
+allowance over primes `p=1 mod N` in the two exact budget intervals.

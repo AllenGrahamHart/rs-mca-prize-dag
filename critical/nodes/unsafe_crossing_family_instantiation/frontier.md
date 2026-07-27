@@ -41,8 +41,9 @@ cap. The raw binomial counts are above budget on every clean anchor, but their
 distinct-value conversion is exactly the direct-E1 exceptional-collision
 problem (or a replacement theorem), not an application of `qfloor_exact`.
 On the pair-feasible branch the quotient roots necessarily generate the
-ambient field, so the live issue is collision control rather than field
-transfer.
+ambient field. Exact perfect-power interval checks further force that ambient
+field to be `F_p` with `p=1 mod N`, so the live issue is pointwise prime-field
+collision control rather than field transfer.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named

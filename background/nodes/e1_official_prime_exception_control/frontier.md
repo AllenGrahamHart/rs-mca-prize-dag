@@ -18,7 +18,9 @@ allowances are printed and independently replayed in
 The generated-field axis is closed on this branch. Every proper subfield of
 an official field has size below `2^128`, while every printed `b_pair_min`
 exceeds `2^133`; pair feasibility therefore forces `F_p(Q)=F`. The remaining
-issue is pointwise collision control in the ambient field itself.
+extension-degree axis is closed as well. Exact perfect-power interval checks
+force `F=F_p` and `p=1 mod N`. The remaining issue is pointwise collision
+control over those primes in the ambient field itself.
 
 The old `o(1)` language was not a finite `2^-128` certificate. Likewise, the
 old named `N'=128,256` no-vector experiments are background evidence: `128`
@@ -34,7 +36,7 @@ obligations of the universal unsafe router, not of this target.
 The next route-deciding attack is algebraic. Either:
 
 - prove the exact pointwise pair-incidence bound from the norm-divisor
-  structure;
+  structure over every prime `p=1 mod N` in the two exact intervals;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;
 - provide a total per-input image/collision certifier theorem; or

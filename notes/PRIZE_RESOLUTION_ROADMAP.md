@@ -887,6 +887,26 @@ direct-image-only or E1-impossible branches of the universal router. No
 collision bound or row payment follows. See
 `notes/E1_PAIR_FEASIBLE_AMBIENT_GENERATION_AUDIT_20260727.md`.
 
+N22 DONE, E1 PAIR-FEASIBLE PRIME-FIELD REDUCTION: ambient generation still
+allowed an extension field `F_(p^d)`, while the sparse-kernel interface assumes
+`p=1 mod N`. On the generated branch `d=ord_N(p)`. Exact perfect-power checks
+over the two budget intervals exclude every `d>1`; the four possible RowC
+square roots fail parity or order. Thus every named-anchor pair-feasible row
+has `q=p` and `p=1 mod N`. The remaining target is the exact pointwise
+collision allowance over primes in those intervals, not an extension-field
+transfer problem. No row is paid. See
+`notes/E1_PAIR_FEASIBLE_PRIME_FIELD_REDUCTION_AUDIT_20260727.md`.
+
+N23 ACTIVE, CRITICAL PROOF-ARTIFACT RECOVERY: canonical audit proved that the
+historical `proof_sketch/` tree is unavailable and that the refs checker had
+silently skipped hollow node folders. Local replay finds 197 hollow legacy-ref
+nodes, including 44 on the critical surface and 42 of those marked PROVED;
+36 critical PROVED nodes also have empty DAG statements. The DAG verifier now
+pins these counts against growth. Submission readiness requires the critical
+counts to reach zero through route-driven proof reconstruction or proved
+replacement, not by accepting unreplayable labels or mass status churn. See
+`notes/CRITICAL_PROOF_ARTIFACT_RECOVERY_AUDIT_20260727.md`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable

@@ -12,11 +12,19 @@ e1_clean_anchor_exact_collision_allowance [PROVED]
 e1_pair_feasible_ambient_generation [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_pair_feasible_ambient_generation [PROVED]
+    --requirement--> e1_pair_feasible_prime_field_reduction [PROVED]
+
+e1_pair_feasible_prime_field_reduction [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_official_prime_exception_control [TARGET]
     -> e1_fullness [CONDITIONAL]
 ```
 
 The exact compiler fixes the finite allowance but supplies no collision bound.
+The two field reductions prove that the live branch is ambient-generating and
+prime-field, validating the sparse-kernel interface without paying it.
 The official quantifier pin and named-exhibit certificate subgraph remain in
 `background/nodes/` and have `ev`, not `req`, edges into this target. The
 unresolved target is a logical leaf, with its route-uniform scope printed

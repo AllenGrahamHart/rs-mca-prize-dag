@@ -45,6 +45,7 @@ def main():
         branch_target,
         "e1_clean_anchor_exact_collision_allowance",
         "e1_pair_feasible_ambient_generation",
+        "e1_pair_feasible_prime_field_reduction",
         "e1_fullness",
         "e1_exceptional_set_reduction",
         "are_exceptional_density",
@@ -61,6 +62,8 @@ def main():
             "quotient-order scope is missing")
     require("p<=k-b*-1" in target_statement,
             "exact finite collision-pair allowance is missing")
+    require("q=p and p=1 mod n" in target_statement,
+            "prime-field reduction is missing from the live target")
     require(
         "do not discharge" in target_statement,
         "named exhibits are not explicitly fenced from route-wide discharge",
@@ -88,6 +91,7 @@ def main():
         ("e1_official_typicality_or_certificate", branch_target, "ev"),
         ("e1_clean_anchor_exact_collision_allowance", branch_target, "ev"),
         ("e1_pair_feasible_ambient_generation", branch_target, "ev"),
+        ("e1_pair_feasible_prime_field_reduction", branch_target, "ev"),
     }
     require(evidence_edges <= edges, "named-exhibit route is not evidence-only")
     require(
@@ -113,8 +117,22 @@ def main():
             "ambient-generation conclusion is missing")
     require((exact_compiler, ambient_generation, "req") in edges,
             "ambient-generation node lost its threshold parent")
+    prime_field = "e1_pair_feasible_prime_field_reduction"
+    require(nodes[prime_field]["status"] == "PROVED",
+            "pair-feasible prime-field reduction regressed")
+    prime_statement = nodes[prime_field]["statement"].lower()
+    require("q=p" in prime_statement and "p=1 mod n" in prime_statement,
+            "prime-field conclusion is missing")
+    require((ambient_generation, prime_field, "req") in edges,
+            "prime-field reduction lost its ambient-generation parent")
     universal = "unsafe_crossing_family_instantiation"
-    for source in (exact_compiler, ambient_generation, branch_target, "e1_fullness"):
+    for source in (
+        exact_compiler,
+        ambient_generation,
+        prime_field,
+        branch_target,
+        "e1_fullness",
+    ):
         require((source, universal, "ev") in edges,
                 f"{source} lost its evidence edge to the universal target")
 

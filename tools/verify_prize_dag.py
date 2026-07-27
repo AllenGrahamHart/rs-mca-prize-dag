@@ -18,6 +18,7 @@ import json
 import os
 import re
 import sys
+from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))          # repo root (parent of experimental/)
@@ -148,6 +149,64 @@ def main() -> None:
         if nodes[i]["status"] not in COLORS:
             errors.append(f"{i}: on the CRITICAL surface with status {nodes[i]['status']} "
                           "— three-color law: critical nodes are PROVED/CONDITIONAL/TARGET only")
+
+    # Reproducibility guards imported from canonical audit 342b52d9. Historical
+    # non-tree refs were skipped on the unverified assumption that their content
+    # had been copied into each node folder. The pins expose that debt and prevent
+    # it from growing; they are lowered as artifacts are reconstructed, never raised.
+    _HOLLOW_REF_PIN = 197
+    _EMPTY_STMT_PIN = 36
+    _IN_TREE = ("nodes/", "critical/", "background/", "tools/", "orbit/")
+    _root_dir0 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+
+    def _artifact_bytes(_id):
+        for _tree in ("critical", "background"):
+            _folder = os.path.join(_root_dir0, _tree, "nodes", _id)
+            if not os.path.isdir(_folder):
+                continue
+            total = 0
+            for current, _, files in os.walk(_folder):
+                for filename in files:
+                    if filename.endswith((".md", ".py", ".json")):
+                        total += os.path.getsize(os.path.join(current, filename))
+            return total
+        return 0
+
+    _hollow = []
+    for node in data["nodes"]:
+        for ref in node.get("refs", []):
+            path = ref.split("#")[0]
+            if not path.startswith(_IN_TREE) and not os.path.exists(path):
+                if _artifact_bytes(node["id"]) < 1500:
+                    _hollow.append(node["id"])
+                break
+    if len(_hollow) > _HOLLOW_REF_PIN:
+        errors.append(
+            "nodes with an unresolvable legacy ref and hollow node folder "
+            f"grew to {len(_hollow)} (pin {_HOLLOW_REF_PIN}); write the artifact "
+            "or repair the ref"
+        )
+
+    _empty_stmt = [
+        node_id
+        for node_id in sorted(crit)
+        if nodes[node_id]["status"] == "PROVED"
+        and not (nodes[node_id].get("statement") or "").strip()
+    ]
+    if len(_empty_stmt) > _EMPTY_STMT_PIN:
+        errors.append(
+            f"empty-statement PROVED critical nodes grew to {len(_empty_stmt)} "
+            f"(pin {_EMPTY_STMT_PIN}): {_empty_stmt[:5]} ...; write the statement"
+        )
+    print(
+        "REPRODUCIBILITY-DEBT: "
+        f"hollow_legacy_refs={len(_hollow)}/{_HOLLOW_REF_PIN} "
+        f"empty_proved_critical_statements={len(_empty_stmt)}/{_EMPTY_STMT_PIN} "
+        f"hollow_by_status={dict(sorted(Counter(nodes[i]['status'] for i in _hollow).items()))} "
+        f"hollow_critical={sum(i in crit for i in _hollow)} "
+        f"hollow_critical_proved={sum(i in crit and nodes[i]['status'] == 'PROVED' for i in _hollow)}"
+    )
+
     _root_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
     for sub, want_crit in (("critical/nodes", True), ("background/nodes", False)):
         p = os.path.join(_root_dir, sub)

@@ -15,6 +15,7 @@ averaged_occupancy_clean_anchor_first_moment_route_cut --ev-->
 qfloor_clean_anchor_norm_threshold_route_cut --ev-->
 e1_clean_anchor_exact_collision_allowance --ev-->
 e1_pair_feasible_ambient_generation      --ev-->
+e1_pair_feasible_prime_field_reduction   --ev-->
 e1_official_prime_exception_control       --ev-->
 e1_fullness                               --ev-->
 deployed_identity_prefix_owner_scope_audit  --ev-->
@@ -61,4 +62,6 @@ range.
 On the pair-feasible branch, ambient generation is automatic: the strict
 field cap puts every proper subfield below `2^128`, while the smallest pair
 threshold has 134 bits. The collision target therefore has no remaining
-generated-field transfer premise.
+generated-field transfer premise. Exact perfect-power interval checks also
+force extension degree one and `p=1 mod N`, so the prime-field kernel model is
+now correctly scoped to the residual target.

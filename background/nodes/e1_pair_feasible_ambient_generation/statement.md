@@ -4,7 +4,8 @@
 - **closure:** proof plus exact arithmetic
 
 At any of the six named clean predecessor anchors, let `F=F_q` be the ambient
-MCA slope field, let `Q` be the canonical quotient root set, and put
+MCA slope field, let `Q` be the canonical cyclic quotient root set of order
+`N in {256,512}`, and put
 
 ```text
 B=F_p(Q),  b=|B|.
