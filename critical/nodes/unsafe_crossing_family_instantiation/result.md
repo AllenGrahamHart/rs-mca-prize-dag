@@ -123,3 +123,21 @@ normalized four-odd light supports form 148 affine odd-unit orbits; all have
 zero light-light diameters and one repeated light-chord wedge. This forces a
 light three-term progression and sharpens the diameter ledger, but does not by
 itself exclude `(4,7)` or `(3,5,1)`.
+
+The joint actual-geometry census is now complete. Folded-chord and independent
+direct-negacyclic engines each exhaust 2,937,494,528 representative signed
+vectors. For `(3,5,1)` they agree on 29,238 profile vectors, 15,440 at full
+conductor, and exact unrestricted maximum `M_3=1392<1517`, excluding that
+profile. For `(4,7)` they agree on 87,818 profile vectors, 60,148 at full
+conductor, unrestricted maximum 1584, and full-conductor maximum 1524. The
+latter exceeds the cubic cutoff by seven, so `(4,7)` remains the sole `V=64`
+profile; its displayed extremizers nevertheless have exact norms below
+`2^250`, showing that the present cubic majorant is non-sharp there.
+
+The exact norm route closes that final profile. A folded-chord/FLINT engine and
+an independent direct-negacyclic/PARI engine each enumerate the complete
+148-template chamber, retain exactly 60,148 full-conductor `(4,7)` vectors,
+and agree on every per-template maximum. Their global maximum is a 247-bit
+integer satisfying `15*N_max<2^250`; the proved conductor theorem removes all
+proper-conductor vectors. The endpoint synthesis therefore proves `V=64`
+empty and advances the live positive even variance frontier to `V<=62`.

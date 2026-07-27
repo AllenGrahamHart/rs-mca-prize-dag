@@ -42,19 +42,23 @@ explicit finite inequality at the row.
    `s=3` for `N=512`, and convert every counted object to unordered class
    pairs explicitly. Only profiles `(4,2,0),(3,4,0)` survive in the first
    `N=256` band. In `(3,4,0)`, only positive even autocorrelation variance
-   `V<=64` remains after the complete exact endpoint chain. At `V=64`, only
+   `V<=62` remains after the complete exact endpoint chain. At `V=64`, only
    autocorrelation profiles `(4,7)`, `(0,8)`, and `(3,5,1)` remain after the
    exact cubic/parity reduction, and the zero-odd `(0,8)` profile is now
-   excluded by a complete six-template census. Proper conductor
+   excluded by a complete six-template census. The joint 148-template census
+   and its independent replay exclude `(3,5,1)` with exact
+   `M_3=1392<1517`. Complete FLINT/PARI resultant ledgers and the conductor
+   theorem exclude `(4,7)`, closing the endpoint. Proper conductor
    is already excluded, but an explicit
    full-conductor vector with `V=36` rules out reducing the residual to
    periodic lifts. Classify the full-conductor residual before revisiting
    generic supports, applying the exact 2-adic multiplicity gate before any
-   norm computation. The bounded quotient relaxation for `(3,5,1)` fails at
-   maxima 1610 and 1594 above the 1517 cutoff. The common four-odd light router
-   is now proved: 148 affine templates, no light-light diameter, and one
-   repeated light-chord wedge. Apply both profile filters in one representative
-   census; do not rerun the retired quotient census. The signed-chord gate
+   norm computation. The common four-odd light router and joint census are
+   complete: 148 affine templates, no light-light diameter, one repeated
+   light-chord wedge, and 60,148 full-conductor `(4,7)` representatives with
+   maximum `M_3=1524`; their exact maximum norm is below `2^250`. Do not rerun
+   this geometry or norm census. Begin `V=62` with the same algebraic
+   reduction discipline. The signed-chord gate
    further excludes circular-Sidon supports: every residual has an oppositely
    signed equal-distance chord
    pair, hence a three-term or parallelogram template. Classify those templates

@@ -162,3 +162,17 @@ form 148 affine odd-unit orbits. Every support has no light-light diameter and
 one repeated light-chord wedge, hence a light three-term progression. This
 removes the two-diameter branch and sharpens `D_64` to
 `{0,4,8,12,16,20}`, but neither profile is yet excluded.
+
+The proved `e1_n256_s16_e32_profile_351_light_template_exclusion` consumes
+that router. Two independent engines each exhaust 2,937,494,528 representative
+signed vectors and agree that profile `(3,5,1)` has exact maximum
+`M_3=1392<1517`; this branch is closed. Their shared diagnostic ledger leaves
+profile `(4,7)` with full-conductor maximum 1524, so it is the sole unresolved
+`V=64` branch.
+
+The proved `e1_n256_s16_e32_profile_47_exact_norm_exclusion` closes that last
+branch by two independent complete exact-resultant ledgers and the proper-
+conductor theorem. The synthesis node
+`e1_n256_s16_e32_endpoint_exclusion` therefore removes `V=64` entirely and
+advances the positive even residual to `V<=62`. Both nodes remain evidence for
+this universal target because lower variances and later swap bands are open.

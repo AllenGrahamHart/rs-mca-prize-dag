@@ -81,11 +81,13 @@ The two field reductions prove that the live branch is ambient-generating and
 prime-field. Exact folded-norm arguments remove swap distances through four at
 `N=256` and through two at `N=512`. The square-mass-16 logarithmic and
 endpoint refinements reduce one `N=256,s=5` profile to positive even variance
-at most 64. At the current endpoint, exact cubic and parity arithmetic leaves
+at most 62. At `V=64`, exact cubic and parity arithmetic leaves
 only `(4,7)`, `(0,8)`, and `(3,5,1)`; the exact light-template census removes
-`(0,8)`, and the two survivors share a proved 148-template repeated-wedge
-router,
-while the proper-conductor theorem removes all proper-subfield lifts from both
+`(0,8)`, and the two four-odd branches share a proved 148-template
+repeated-wedge router. Two independent joint censuses remove `(3,5,1)` with
+`M_3=1392<1517`; two independent exact-resultant ledgers and the proper-
+conductor theorem remove `(4,7)`. The endpoint synthesis closes `V=64`.
+The proper-conductor theorem also removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing
 those screens remain. In `(3,4,0)`, every remaining support has a signed

@@ -94,13 +94,17 @@ no profile vectors. The uncoupled quotient route for `(3,5,1)` is also
 retired: exact relaxation maxima 1610 and 1594 exceed 1517, with compact
 locally replayed allocation witnesses. These are not actual vectors.
 
-Profiles `(4,7)` and `(3,5,1)` share the same four-odd light router, now proved:
-28,800 normalized supports form 148 affine-unit orbits; every one has zero
-light-light diameters and one repeated light-chord wedge. Run at most one joint
-representative census that forms each signed autocorrelation once and applies
-both profile filters. Track unrestricted and full-conductor maxima separately,
-and obtain an independent direct-negacyclic replay before promotion. Do not
-enumerate all 28,800 normalized supports or run one campaign per profile.
+Profiles `(4,7)` and `(3,5,1)` share the same four-odd light router: 28,800
+normalized supports form 148 affine-unit orbits, every one with zero
+light-light diameters and one repeated light-chord wedge. The joint production
+and independent direct-negacyclic censuses are complete. They exclude
+`(3,5,1)` with exact maximum `M_3=1392<1517`. The sole residual `(4,7)` has
+full-conductor maximum 1524, while direct resultants of its full- and
+proper-conductor extremizers remain below `2^250`. The subsequent complete
+FLINT and independent PARI norm censuses agree on all 60,148 full-conductor
+vectors and a 247-bit maximum satisfying `15*N_max<2^250`; the conductor
+theorem handles the complement. Hence `V=64` is closed. Do not rerun any
+`V>=64` campaign; begin `V=62` with an algebraic reduction before computation.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
 the 2-adic singleton screen and test its 419 exact cofactors directly; do not

@@ -4631,3 +4631,64 @@ next route-deciding action: joint Modal census with unrestricted and
                               full-conductor maxima, followed by independent
                               direct-negacyclic replay if closure is indicated
 ```
+
+**2026-07-27, V=64 joint census and profile `(3,5,1)` close:** the common
+router pays one branch outright and isolates the exact norm gap in the last
+profile.
+
+```text
+starting pin: local fcd52e30
+node attacked: V=64 profiles (4,7) and (3,5,1), shared actual geometry
+production coverage: 148*binom(124,3)*64=2,937,494,528 representative vectors
+production app: ap-DuxqODKmBVrz1XwQGhui61, folded-chord engine
+audit app: ap-RjKrdoGVLkBnsZLmm9Loeu, direct negacyclic-product engine
+independent agreement: all 148 per-template counts, conductor splits, maxima
+profile (3,5,1): 29,238 vectors; 15,440 full conductor;
+                     exact unrestricted/full maximum M_3=1392<1517; CLOSED
+profile (4,7): 87,818 vectors; 60,148 full conductor;
+                 unrestricted maximum 1584; full-conductor maximum 1524
+extremizer audit: exact resultant bit lengths 240 (proper) and 239 (full),
+                  both below 2^250; over-cutoff M_3 is not a counterexample
+route catch: the quotient relaxation failed for (3,5,1), but actual chord
+             geometry lowers its exact maximum by 125 below the cutoff
+compute spend: two 148-task one-core campaigns plus three resultants;
+               conservative cost below $0.10
+new assumptions: none
+live V=64 residual: (4,7) only
+route decision: the cubic-Hermite certificate is seven units too weak on the
+                exact full-conductor maximum, while actual extremal norms pass
+next route-deciding action: sharpen the finite 60,148-vector norm ledger by
+                              exact resultants or a higher-moment majorant;
+                              do not rerun the geometry census
+```
+
+**2026-07-27, profile `(4,7)` and V=64 endpoint close:** two independent exact
+resultant ledgers pay the non-sharp cubic tail and finish the endpoint.
+
+```text
+node attacked: final V=64 profile (4,7)
+pilot coverage: templates 59,35,139; 1,500 full-conductor resultants;
+                both backends agree, maximum 246 bits, aggregate worker time
+                7.36 seconds (FLINT) and 14.19 seconds (PARI)
+full coverage: all 148 templates and 2,937,494,528 representative vectors
+retained ledger: 60,148 full-conductor profile-(4,7) vectors
+production app: ap-wUY2sEVOlPTj95cuuaJhkT, folded chords + Python FLINT,
+                377.786140 aggregate worker-seconds
+audit app: ap-b1DkMwYxO1Wt886rrpSVYT, direct negacyclic product + PARI/GP,
+           631.679933 aggregate worker-seconds
+exact maximum: 119477984433218714943829098200259691143739376720677525742811917286342611458
+maximizing vector: positions (5,7,9,0,1,2,12),
+                   coefficients (2,-2,-2,1,1,1,1)
+strict margin: 15*N_max < 2^250 < 16*N_max; maximum bit length 247
+proper conductor: discharged by e1_n256_proper_conductor_collision_exclusion
+endpoint synthesis: profiles (0,8), (3,5,1), and (4,7) all PROVED impossible
+result: V=64 CLOSED; live positive even variance frontier V<=62
+compute spend: 1009.466073 aggregate full-run worker-seconds plus pilots;
+               conservative cost remains below $0.10
+new assumptions: none
+route decision: exact finite norms are materially sharper than the cubic
+                majorant at M_3=1524; do not rerun any V>=64 campaign
+next route-deciding action: start V=62 (E=31) with exact algebraic profile,
+                              slack, parity, and diameter reduction before any
+                              new census; compare against the (4,2,0) lane
+```

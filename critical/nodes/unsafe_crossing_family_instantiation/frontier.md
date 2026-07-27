@@ -186,11 +186,28 @@ sizes 32, 64, 128, and 256 occurring 4, 16, 40, and 88 times. Thus
 `D_64 in {0,4,8,12,16,20}`. A single representative census can apply both
 remaining profile filters to each signed autocorrelation.
 
+That joint census and an independent direct-negacyclic replay are complete.
+Each engine tests 2,937,494,528 representative signed vectors. Profile
+`(3,5,1)` has 29,238 representatives, 15,440 at full conductor, and exact
+maximum `M_3=1392<1517`, so it is excluded. Profile `(4,7)` has 87,818
+representatives, 60,148 at full conductor, unrestricted maximum 1584, and
+full-conductor maximum 1524. Direct resultants of the two extremizers have
+only 240 and 239 bits, below `2^250`; therefore the over-cutoff third moment
+does not itself exhibit a live collision.
+
+The complete exact norm ledger now closes `(4,7)`. Independent
+folded-chord/FLINT and direct-negacyclic/PARI engines each retain all 60,148
+full-conductor vectors and agree on a 247-bit maximum with
+`15*N_max<2^250`; the conductor theorem removes the complementary proper-
+conductor vectors. Thus `V=64` is empty and the live positive even variance
+frontier is `V<=62`.
+
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
-injectivity or another explicit `V` line. Within the first `N=256` band, the
-next route decision is one joint 148-template actual-geometry census for the
-two live `V=64` profiles, with a separate full-conductor ledger. The still
-broad `(4,2,0)` profile and later `N=256,s>=6`, `N=512,s>=3` bands remain
-open. Any exact safe predecessor relocates the candidate threshold immediately.
+injectivity or another explicit `V` line. Within the first `N=256` band, begin
+the next endpoint at `V=62` (`E=31`) with the same algebraic profile/slack
+reduction before authorizing any census; alternatively attack the still broad
+`(4,2,0)` profile through its 419 exact cofactor classes. Do not rerun any
+`V>=64` campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any
+exact safe predecessor relocates the candidate threshold immediately.
