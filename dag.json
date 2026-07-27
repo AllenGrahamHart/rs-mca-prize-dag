@@ -726,6 +726,25 @@
    "notes": "ROUTE REDUCTION 2026-07-27: reduces the next live variance endpoint to four exact profiles and five diameter ledgers. It does not exclude V=66 or any lower variance."
   },
   {
+   "id": "e1_n256_s16_e33_profile_061_exclusion",
+   "title": "N=256 E=33 profile-(0,6,1) exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e33_profile_061_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e33_profile_061_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e33_profile_061_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e33_profile_061_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e33_profile_061_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e33_profile_061_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e33_profile_061_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e33_profile_061_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e33_profile_061_exclusion/verify_audit.py"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=66, autocorrelation magnitude profile (0,6,1) is impossible. For b=2*1_A+1_T with |A|=14 and T={+/-t}, the symmetric target-fiber theorem r_A(z)<=|A|-2 gives the sharp abstract bound M_3<=1644<1732. The cubic-Hermite norm certificate therefore excludes the profile.",
+   "notes": "ROUTE CLOSURE 2026-07-27: removes one of four V=66 profiles by a sharp all-set additive theorem, with no computation or new assumption. Three profiles remain."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -18689,6 +18708,21 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+   "to": "e1_n256_s16_e33_profile_061_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e33_profile_061_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e33_profile_061_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -18970,6 +19004,16 @@
   },
   {
    "from": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_061_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_061_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

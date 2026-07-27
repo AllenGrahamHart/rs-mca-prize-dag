@@ -135,8 +135,10 @@ above-threshold profiles to
 
 Odd energy forces exactly one light-light diameter and
 `D_64 in {1,5,9,17,21}`. The five-odd profiles have diameter-Sidon light
-support. The nearest residual is `(0,6,1)`, whose abstract cap 1782 is only
-50 above the cubic cutoff and whose nested layer sizes are `(14,14,2)`.
+support. The sharp symmetric target-fiber theorem applies to the nested shape
+`(14,14,2)` and gives `M_3<=1644<1732`, excluding `(0,6,1)` outright. The
+three live profiles are `(5,7)`, `(1,8)`, and `(4,5,1)`; the last is the
+nearest cubic branch and retains the diameter-Sidon condition.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named

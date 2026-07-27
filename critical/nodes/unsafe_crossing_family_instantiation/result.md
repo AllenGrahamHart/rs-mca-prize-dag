@@ -85,4 +85,6 @@ The first `V=66` reduction is also complete. Exact slack gives `L<=19`; among
 gate leave only `(5,7)`, `(1,8)`, `(4,5,1)`, and `(0,6,1)`. Exactly one
 light-light chord is a diameter, so `D_64` is one of `1,5,9,17,21`; the two
 five-odd profiles have diameter-Sidon light support. None of the four
-profiles is yet excluded.
+profiles was excluded by that reduction alone. A sharp follow-up target-fiber
+theorem gives `M_3<=1644<1732` for `(0,6,1)` and excludes it. The live V=66
+profiles are now `(5,7)`, `(1,8)`, and `(4,5,1)`.

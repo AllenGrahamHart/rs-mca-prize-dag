@@ -80,9 +80,11 @@ use the proved 57 affine-unit representatives and three exact weld shapes.
 Their 243,285,056-vector chamber is paid by independent chord and negacyclic
 implementations with `M_3<=1770`. At `V=66`, the exact slack, cubic, parity,
 and diameter ledger is now proved: only `(5,7)`, `(1,8)`, `(4,5,1)`, and
-`(0,6,1)` remain, and exactly one light-light chord is a diameter. Do not
-import the E34 four-template classification wholesale. Attack `(0,6,1)`
-first: its abstract `M_3=1782` is only 50 above the exact threshold 1732,
-and its nested layers have the rigid shape `(14,14,2)` with zero top-layer
-cubic. Apply the 2-adic singleton screen rather than a raw support census.
+`(0,6,1)` remain, and exactly one light-light chord is a diameter. The sharp
+symmetric target-fiber theorem now excludes `(0,6,1)` with
+`M_3<=1644<1732`. Do not import the E34 four-template classification
+wholesale. Attack `(4,5,1)` next: its five odd classes force diameter-Sidon
+light support, it has one magnitude-three class, and the all-set cubic
+improvement lowers its first cap from 1918 to 1884. Apply the 2-adic singleton
+screen rather than a raw support census.
 Test the odd norm part directly; do not scan arbitrary cofactors below 64.

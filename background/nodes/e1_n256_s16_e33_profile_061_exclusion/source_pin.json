@@ -1,0 +1,8 @@
+{
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
+  "profile_reduction_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/statement.md",
+  "profile_reduction_file_sha256": "5828b3f3a1c340075993b37eb218ad13bf0cb445a2807619c37e0b6a2965959b",
+  "proper_conductor_file": "background/nodes/e1_n256_proper_conductor_collision_exclusion/statement.md",
+  "proper_conductor_file_sha256": "4319261b9d388351f2980fd4f849d7fae4876a6e5db167c74467ea957a055d73"
+}

@@ -122,4 +122,7 @@ The proved `e1_n256_s16_e33_profile_parity_diameter_reduction` then reduces
 `V=66` to four profiles `(5,7)`, `(1,8)`, `(4,5,1)`, `(0,6,1)`, with exact
 cubic cutoff `M_3=1732`, one forced light-light diameter, and five possible
 diameter ledgers. Its edge into this target is evidence: all four profile
-branches remain open.
+branches initially remained open. The proved
+`e1_n256_s16_e33_profile_061_exclusion` then removes `(0,6,1)` via the sharp
+bound `M_3<=1644<1732`. Three V=66 profile branches remain, so its consumer
+edge is also evidence.
