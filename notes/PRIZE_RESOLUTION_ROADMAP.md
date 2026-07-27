@@ -3995,3 +3995,35 @@ next route-deciding action: do not pursue this as an M31 shortcut; return to
                               a prize-critical leaf or prove a genuine
                               Chebyshev-line adapter before claiming transfer
 ```
+
+**2026-07-27, order-128 high-field integer kernel closed analytically:** the
+dim-64 folded certificate has a proof branch that needs no SVP transcript.
+For an odd prime `p>253^32` containing `mu_128`, odd-conjugate Parseval gives
+`|Norm(W)|<=S^32`. If a folded coefficient is odd then `S<=253`; if all are
+even, division by two gives norm at most `64^32`. Hence every ternary kernel
+vector is antipodal/cyclotomic.
+
+Cycle burn-down:
+
+```text
+starting pin: local 5babf9cd; canonical dd76658c;
+              upstream origin/main b13de811
+node attacked: integer_code_distance_cert
+result: NEW PROVED high-field order-128 branch; target remains TARGET
+DAG delta: one PROVED background node and two edges; no critical status flip
+exact paid scope: p>253^32, order 128, complete folded cube
+remaining scope: p<=253^32, other quotient orders, literal adopted-row
+                 registry, and proof that the certified cell count exceeds B*
+route cuts: rounded fpylll output is still not a certificate; a nonofficial
+            rational-base prime is not an adopted prize row
+compute spend: none; tiny exact arithmetic only, no Modal
+new assumptions: none
+verification: theorem verifier, DAG structure, conditional propagation,
+              critical-harness coverage, orbit census, and manifest self-test
+              pass; composed replay is blocked before the delta by the
+              pre-existing failed dli_wcl_weight5_first64_mitm_exclusion row
+upstream state: open PR #1107 supplies a literal corridor prime but no
+                value-set budget or kernel transport is claimed from it
+next route-deciding action: pin the actual residual row registry and budget;
+                              then attack only the rows outside the theorem
+```
