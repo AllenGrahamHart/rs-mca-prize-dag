@@ -4440,3 +4440,31 @@ next route-deciding action: attack (4,5,1), using its five-odd
                               diameter-Sidon support and unique magnitude-three
                               class before any bounded exact census
 ```
+
+**2026-07-27, V=66 profile `(4,5,1)` close:** the deterministic quotient
+compiler reaches the exact cubic boundary and removes a second profile.
+
+```text
+starting pin: local 71d6dbc2
+proof pin: local 35740f83
+node attacked: unsafe_crossing_family_instantiation, V=66 profile (4,5,1)
+result: CLOSED second of four V=66 profiles; two remain
+layers: exact nested sizes (20,12,2)
+order-128 census: 5,421,301 allocations, exact maximum M_3=1732
+order-64 census:  3,086,861 allocations, exact maximum M_3=1670
+outer-4Z close: L=17 gives nonzero degree-32 norm <=50^32<2^250
+independent replay: Python objective reconstruction and allocation DP;
+                    seven-shard repartition agrees with sixteen-shard primary
+production/replay apps: ap-XlApOnmQmoX3P5Gd6qsVXb,
+                        ap-BnCaKbLKE6f99c19iKJ1D5
+DAG delta: one PROVED background node and five edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute spend: bounded route probes plus exact census, conservative total
+               below $0.30; no further run authorized
+new assumptions: none
+upstream overlap: no open PR through #1109 supplies this finite E1 close
+route decision: quotient allocation is sufficient at equality; no chord-origin
+                census is needed for (4,5,1)
+next route-deciding action: run the same exact quotient compiler for (1,8);
+                              reserve heavy/light geometry for (5,7) if needed
+```
