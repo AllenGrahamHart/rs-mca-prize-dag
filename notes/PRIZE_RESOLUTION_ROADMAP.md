@@ -3242,3 +3242,28 @@ compute spend: none; exact integer and rational arithmetic only
 next route-deciding action: close the V=104 logarithmic gap by a sharper
                               phase/L1 bound, or classify the C<=-15 templates
 ```
+
+**2026-07-27, N=256 low-slack endpoints excluded:** the exact local slack
+classification closes the two quadratic-majorant rows immediately below the
+general chord-deficit range.
+
+Cycle burn-down:
+
+```text
+starting pins: local 8f2da00e; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 80074790
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=104 to V<=100; signed cancellation
+        strengthened from C<=-15 to C<=-16; parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: two RAM-guarded relaxed DPs under 16 seconds each discovered
+               the pattern; exact proof and verifier do not depend on them
+next route-deciding action: exploit the equality templates at E=50,L=28 or
+                              replace the quadratic logarithmic majorant
+```
