@@ -98,7 +98,7 @@ nested layer and objective directly. These are obstructions to this upper-
 bound compiler, not autocorrelation vectors and not counterexamples to the
 `V=68` exclusion.
 
-The full 228,097,120-allocation campaign is retired. A direct weighted-fiber
+The all-profile 228,097,120-allocation campaign is retired. A direct weighted-fiber
 recombination was also evaluated on every displayed obstruction and gives
 bounds between 2036 and 2174 on the five failing cells, so it does not repair
 the route. The next positive theorem must use information erased by the
@@ -111,3 +111,91 @@ timing certificate for a future full campaign. No theorem depends on timing
 or sampled coverage here, and the exact route obstructions replay locally;
 there is no reason to spend credit rerunning the retired pilot solely to add
 timings.
+
+The obstruction is profile-selective. The three unobstructed profiles
+
+```text
+(2,8),       (5,5,1),       (14,1,0,1)
+```
+
+occupy exactly 42,413,558 allocations across the two live quotient chambers,
+and every pilot maximum is at most 1726. Campaign
+`CR-E1-E34-Q16-SURVIVORS` is separately authorized to exhaust only these six
+cells in sixteen shards each. It is not the retired all-profile campaign. A
+complete maximum at most 1947 closes all three profiles; a larger maximum
+returns an exact allocation and leaves only that profile for support-specific
+coupling. The other three profiles are not run: their next compiler is the
+41-signature `L=20` chord-origin classification.
+
+Modal app `ap-zx5C3lSHLdaYAZE2Ic0tZA` completed all 96 tasks and all
+42,413,558 allocations in 29.84 seconds of client-observed wall time. Worker
+durations range from 0.052 to 16.259 seconds and sum to 334.664 CPU-seconds.
+The independently reconstructed maxima are
+
+```text
+profile             order 128    order 64
+(2,8)                     2052        2008
+(5,5,1)                   1880        1828
+(14,1,0,1)                1922        1922
+```
+
+Thus the campaign proves the latter two profiles below 1947. The `(2,8)`
+profile returns the registered `FAIL`: its order-128 obstruction has quotient
+components `(300,264,240,240)`, totaling 2052, while its order-64 obstruction
+totals 2008. The terminal launcher print used the last returned shard rather
+than the maximum shard; that presentation bug is repaired in source, and no
+claim uses it. The complete packet and independent checker give the displayed
+maxima.
+
+The abstract `V=68` frontier is now four profiles:
+
+```text
+(6,7),       (9,4,1),       (2,8),       (12,1,2).
+```
+
+For `(2,8)`, the existing exact `R(B,B,B)<=174` theorem lowers the displayed
+order-64 obstruction to 1942, but lowers the order-128 obstruction only to
+1986. Its next route is therefore a chamber-exhaustive inner-layer refinement,
+not the retired six-profile census.
+
+## Profile `(2,8)` coupled campaign
+
+Campaign `CR-E1-E34-P2-COUPLED` combines two exhaustive compilers. The first
+replays all 809,474 profile-`(2,8)` quotient allocations and applies
+`R(B,B,B)<=174` exactly when the inner layer is in the divided order-64
+scope. It separately reports the order-128 chambers `B subset 4Z` and
+`B not subset 4Z`. The second enumerates the remaining inner-`4Z` chamber at
+support level. There are `binom(15,8)=6435` inner layers and exactly 1,232
+admissible two-pair outer supplements per layer, for 7,927,920 weighted
+supports.
+
+The campaign closes `(2,8)` exactly if
+
+```text
+order-64 refined quotient maximum       <=1947,
+order-128 outside-inner-4Z maximum      <=1947,
+order-128 exact inner-4Z support maximum<=1947.
+```
+
+The sources are `e34_profile2_refined_quotient_census.cpp` and
+`e34_profile2_inner4_support_census.cpp`; one independent checker reconstructs
+both quotient objectives, both coverage counts, and every displayed support
+maximum. The 64 one-CPU, 256-MiB tasks form one wave with 120-second hard
+function caps, a campaign wall ceiling below three minutes, and a conservative
+cost ceiling below `$0.20`. `FAIL` returns the exact surviving chamber;
+`INCOMPLETE` changes no status.
+
+Modal app `ap-8xzV3fZniv8jms4V2EI19N` completed all 64 tasks in 22.02
+seconds of client-observed wall time and 17.624 aggregate worker-seconds. The
+independent checker gives
+
+```text
+order-64 refined quotient maximum          1942,
+order-128 outside-inner-4Z maximum         1942,
+order-128 inner-4Z exact support maximum   1536.
+```
+
+All three values are below 1947, so `(2,8)` is closed. Combined with the
+selective campaign, the complete `V=68` residual is now exactly
+`(6,7),(9,4,1),(12,1,2)`, all with `L=20`. This reduction is promoted as
+`e1_n256_s16_e34_three_profile_reduction`.

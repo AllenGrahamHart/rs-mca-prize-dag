@@ -54,3 +54,8 @@ At `V=68`, an exact pilot exhibits feasible mod-16 nested-layer allocations
 whose quotient upper bound exceeds the cubic threshold. This retires the
 bare full quotient census but is not an actual autocorrelation collision and
 does not change the target status.
+
+Two complete follow-up certificates recover a sharp positive reduction:
+every pair-feasible `V=68` collision has magnitude profile `(6,7)`,
+`(9,4,1)`, or `(12,1,2)`. All three have `L=20`; the other 21 integer
+profiles are proved impossible.

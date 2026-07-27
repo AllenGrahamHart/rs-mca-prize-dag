@@ -8047,3 +8047,92 @@ sampled coverage is load-bearing and the compact obstruction witnesses replay
 locally. Do not rerun for timing and do not launch the 228,097,120-state full
 campaign. The next theorem must add chord-origin realizability, support-level
 coupling, or a stronger analytic norm certificate.
+
+#### CR-E1-E34-Q16-SURVIVORS: close the three unobstructed profiles
+
+**Status:** COMPLETE WITH PARTIAL PASS. Two profiles close; `(2,8)` returns an
+exact quotient obstruction.
+
+The pilot obstructions occur only in `(6,7)`, `(9,4,1)`, and `(12,1,2)`.
+Exhaust the remaining profiles `(2,8)`, `(5,5,1)`, and `(14,1,0,1)` in both
+the odd order-128 and divided-odd order-64 chambers. Their exact aggregate
+coverage is 42,413,558 allocations. Use sixteen shards per cell: 96 tasks,
+one CPU and 256 MiB each, at most 100 concurrent containers, a 120-second
+function cap, and a 110-second subprocess cap. This is one task wave with a
+conservative wall ceiling below three minutes and dollar ceiling below
+`$0.25`. The corrected launcher records per-worker duration and checkpoints
+after each return.
+
+`PASS` requires all six maxima at most 1947 and closes these three abstract
+`V=68` profiles by the cubic-Hermite certificate and the existing outer-`4Z`
+norm exclusion. `FAIL` emits the exact profile/order allocation above 1947
+for support-specific coupling. `INCOMPLETE` changes no status. The independent
+checker must reproduce every maximum and the exact 42,413,558 allocation
+coverage before any theorem node is promoted. Do not include the three known
+obstructed profiles in this run.
+
+Modal app `ap-zx5C3lSHLdaYAZE2Ic0tZA` completed all 96 tasks and all
+42,413,558 allocations in 29.84 seconds of client-observed wall time. Worker
+durations range from 0.052 to 16.259 seconds and total 334.664 CPU-seconds.
+The independent checker gives exact maxima
+
+```text
+(2,8):          2052 / 2008
+(5,5,1):        1880 / 1828
+(14,1,0,1):     1922 / 1922
+```
+
+where each pair is order 128 / order 64. Hence `(5,5,1)` and `(14,1,0,1)`
+pass the 1947 threshold and are proof-closed. The `(2,8)` profile returns the
+declared `FAIL` with exact allocations in the packet. Its largest order-128
+quotient components are `(300,264,240,240)`, totaling 2052; replacing the
+inner cubic by the proved cap 174 still leaves 1986. The order-64 obstruction
+falls to 1942 under that replacement. Continue only with a chamber-exhaustive
+inner-layer refinement for `(2,8)`; do not rerun the two closed profiles.
+
+The launcher's terminal progress dictionary originally retained the last
+returned shard rather than the maximum shard. The compact result packet was
+unaffected, the independent checker found the correct maxima above, and the
+summary source is repaired. No theorem relies on the incorrect terminal
+print.
+
+#### CR-E1-E34-P2-COUPLED: profile-(2,8) chamber close
+
+**Status:** COMPLETE PASS. Profile `(2,8)` is closed.
+
+Run two exhaustive pieces in one 64-container wave. The refined quotient
+piece covers all 531,517 order-128 and 277,957 order-64 allocations, applying
+the proved `R(B,B,B)<=174` cap in the order-64 and even-inner chambers and
+reporting the order-128 inner-`4Z` split. The exact support piece covers all
+`binom(15,8)*1232=7,927,920` weighted supports in the remaining
+`B subset 4Z` chamber. Its outer supplement has two positive representatives,
+at least one odd, and is disjoint from the eight inner representatives.
+
+Use 16 shards at each quotient order and 32 support shards, one CPU and
+256 MiB per task, at most 64 concurrent containers, 120 seconds per function,
+and 110 seconds per subprocess. The conservative campaign wall ceiling is
+below three minutes and the cost ceiling is below `$0.20`. The launcher
+checkpoints every result and records worker durations. The independent checker
+recounts both quotient universes, all 7,927,920 supports, every quotient
+candidate, both source hashes, and every exact support maximum.
+
+`PASS` requires the order-64 global refined cap, order-128 outside-inner-`4Z`
+cap, and exact inner-`4Z` support cap all to be at most 1947. It closes the
+profile `(2,8)` at `V=68`. `FAIL` returns an exact quotient allocation or
+weighted support in the surviving chamber. `INCOMPLETE` changes no status.
+Do not broaden the campaign to any other profile.
+
+Modal app `ap-8xzV3fZniv8jms4V2EI19N` completed all 64 tasks in 22.02
+seconds of client-observed wall time. Worker durations range from 0.031 to
+0.673 seconds and total 17.624 seconds. The independent checker reconstructed
+all 809,474 quotient allocations and 7,927,920 exact supports, obtaining
+
+```text
+order-64 refined quotient maximum          1942,
+order-128 outside-inner-4Z maximum         1942,
+order-128 inner-4Z exact support maximum   1536.
+```
+
+This is the declared `PASS`: profile `(2,8)` is excluded at `V=68`. The
+result is consumed by `e1_n256_s16_e34_three_profile_reduction`. No rerun or
+extension is authorized.

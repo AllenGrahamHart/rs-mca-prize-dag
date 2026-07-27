@@ -15,7 +15,9 @@ HERE = Path(__file__).resolve().parent
 SOURCE = HERE / "e34_nested_quotient_census.cpp"
 PILOT = HERE / "e34_nested_quotient_pilot_result.json"
 FULL = HERE / "e34_nested_quotient_census_result.json"
+SURVIVORS = HERE / "e34_nested_quotient_survivor_result.json"
 PROFILES = ((6, 7), (9, 4, 1), (2, 8), (12, 1, 2), (5, 5, 1), (14, 1, 0, 1))
+SURVIVOR_PROFILES = (2, 4, 5)
 CAPACITIES = {
     128: (3, 8, 8, 8, 8, 8, 8, 8, 4),
     64: (1, 4, 4, 4, 4, 4, 4, 4, 2),
@@ -130,8 +132,10 @@ def check_result(result: dict[str, object]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--full", action="store_true")
+    parser.add_argument("--survivors", action="store_true")
     args = parser.parse_args()
-    path = FULL if args.full else PILOT
+    assert not (args.full and args.survivors)
+    path = FULL if args.full else SURVIVORS if args.survivors else PILOT
     packet = json.loads(path.read_text())
     assert packet["schema"] == "e1-e34-nested-quotient-census-v1"
     assert packet["source_sha256"] == hashlib.sha256(SOURCE.read_bytes()).hexdigest()
@@ -141,14 +145,17 @@ def main() -> None:
     keys = [(int(result["profile"]), int(result["order"]), int(result["shard"])) for result in results]
     assert len(keys) == len(set(keys))
 
-    if args.full:
-        assert packet["mode"] == "full" and packet["complete"] is True
+    if args.full or args.survivors:
+        expected_mode = "full" if args.full else "survivors"
+        expected_profiles = range(len(PROFILES)) if args.full else SURVIVOR_PROFILES
+        assert packet["mode"] == expected_mode and packet["complete"] is True
         assert packet["errors"] == []
         shards = int(packet["shards_per_case"])
-        assert len(results) == len(PROFILES) * len(CAPACITIES) * shards
+        assert len(results) == len(tuple(expected_profiles)) * len(CAPACITIES) * shards
         maxima = {}
         tested = 0
-        for profile_index, profile in enumerate(PROFILES):
+        for profile_index in expected_profiles:
+            profile = PROFILES[profile_index]
             for order, capacities in CAPACITIES.items():
                 selected = [
                     result
@@ -164,7 +171,7 @@ def main() -> None:
                     int(result["best"]) for result in selected
                 )
         print(
-            "E1_E34_NESTED_QUOTIENT_CENSUS_CHECK_PASS "
+            f"E1_E34_NESTED_QUOTIENT_{expected_mode.upper()}_CHECK_PASS "
             f"tested={tested} maxima={json.dumps(maxima, sort_keys=True)}"
         )
     else:

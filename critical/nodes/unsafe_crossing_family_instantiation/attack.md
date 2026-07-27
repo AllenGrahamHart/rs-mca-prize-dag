@@ -64,7 +64,9 @@ Only full-conductor supports remain at `N=256,s=5`; within
 `(3,4,0)` the variance residual is `0<V<=68`. The exact quotient-Schur
 chain excludes `V=76,74,72,70`. At the next endpoint `V=68`, the complete
 nested mod-16 upper-bound compiler already has exact relaxation obstructions,
-so do not run its full census. Apply the 2-adic singleton screen before any
-residual norm computation, then use the forced
-signed additive-relation templates rather than generic support enumeration.
+so do not run its full census. Exact selective quotient and support
+certificates reduce that endpoint to the three `L=20` profiles
+`(6,7),(9,4,1),(12,1,2)`. Apply the 41-signature chord-origin
+classification, the 2-adic singleton screen, and the forced signed additive-
+relation templates rather than generic support enumeration.
 Test the odd norm part directly; do not scan arbitrary cofactors below 64.

@@ -456,6 +456,34 @@
    "notes": "ROUTE CLOSURE 2026-07-27: closes the variance-70 slice with exact quotient chambers and a four-outer, 276-nesting coupling census. Lower positive even variances remain open."
   },
   {
+   "id": "e1_n256_s16_e34_three_profile_reduction",
+   "title": "N=256 square-mass-16 E=34 three-profile reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e34_three_profile_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e34_three_profile_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e34_three_profile_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e34_three_profile_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e34_three_profile_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e34_three_profile_reduction/result.md",
+    "background/nodes/e1_n256_s16_e34_three_profile_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e34_three_profile_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e34_three_profile_reduction/verify_audit.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_nested_quotient_census.cpp",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_nested_quotient_census_check.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_nested_quotient_census_modal.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_nested_quotient_survivor_result.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_profile2_refined_quotient_census.cpp",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_profile2_inner4_support_census.cpp",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_profile2_coupled_check.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_profile2_coupled_modal.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_profile2_coupled_result.json"
+   ],
+   "statement": "For profile (3,4,0) at V=68, the exact slack recurrence, complete nested quotient certificates, and an exact inner-4Z support census prove that every pair-feasible collision has autocorrelation magnitude profile (6,7),(9,4,1),(12,1,2). All other 21 integer profiles have M_3<=1942<1947 and are excluded by the rational cubic-Hermite norm certificate. Every residual profile has L=20.",
+   "notes": "ROUTE REDUCTION 2026-07-27: reduces the first live variance-68 slice from 24 integer magnitude profiles to three exact L=20 profiles. It does not exclude those profiles or any lower variance."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -18216,6 +18244,26 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e34_three_profile_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "to": "e1_n256_s16_e34_three_profile_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "to": "e1_n256_s16_e34_three_profile_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e34_three_profile_reduction",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -18377,6 +18425,16 @@
   },
   {
    "from": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e34_three_profile_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e34_three_profile_reduction",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

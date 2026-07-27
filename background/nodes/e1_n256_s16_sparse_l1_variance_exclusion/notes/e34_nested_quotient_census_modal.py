@@ -16,7 +16,9 @@ HERE = Path(__file__).resolve().parent
 CPP = HERE / "e34_nested_quotient_census.cpp"
 PILOT_OUTPUT = HERE / "e34_nested_quotient_pilot_result.json"
 FULL_OUTPUT = HERE / "e34_nested_quotient_census_result.json"
+SURVIVOR_OUTPUT = HERE / "e34_nested_quotient_survivor_result.json"
 PROFILES = range(6)
+SURVIVOR_PROFILES = (2, 4, 5)
 ORDERS = (128, 64)
 PILOT_SHARDS = 128
 FULL_SHARDS = 16
@@ -83,17 +85,20 @@ def write_packet(
 
 
 @app.local_entrypoint()
-def main(full: bool = False) -> None:
-    mode = "full" if full else "pilot"
-    shards = FULL_SHARDS if full else PILOT_SHARDS
-    shard_range = range(shards) if full else range(1)
+def main(full: bool = False, survivors: bool = False) -> None:
+    if full and survivors:
+        raise ValueError("choose either --full or --survivors")
+    mode = "full" if full else "survivors" if survivors else "pilot"
+    shards = FULL_SHARDS if full or survivors else PILOT_SHARDS
+    shard_range = range(shards) if full or survivors else range(1)
+    profiles = SURVIVOR_PROFILES if survivors else PROFILES
     tasks = [
         (profile, order, shard, shards)
-        for profile in PROFILES
+        for profile in profiles
         for order in ORDERS
         for shard in shard_range
     ]
-    output = FULL_OUTPUT if full else PILOT_OUTPUT
+    output = FULL_OUTPUT if full else SURVIVOR_OUTPUT if survivors else PILOT_OUTPUT
     results: list[dict[str, object]] = []
     for result in census_shard.map(tasks, order_outputs=False):
         results.append(result)
@@ -103,10 +108,10 @@ def main(full: bool = False) -> None:
             f"mode={mode} returned={len(results)}/{len(tasks)}"
         )
     complete = [result for result in results if result.get("complete") is True]
-    maxima = {
-        f"profile{int(result['profile'])}_order{int(result['order'])}": int(result["best"])
-        for result in complete
-    }
+    maxima: dict[str, int] = {}
+    for result in complete:
+        key = f"profile{int(result['profile'])}_order{int(result['order'])}"
+        maxima[key] = max(maxima.get(key, -1), int(result["best"]))
     print(
         "E1_E34_NESTED_QUOTIENT_CENSUS "
         f"mode={mode} complete={len(complete)}/{len(tasks)} "

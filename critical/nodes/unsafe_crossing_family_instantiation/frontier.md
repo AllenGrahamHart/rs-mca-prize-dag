@@ -61,11 +61,19 @@ Its collision norm has exact form `2^mu p`, `1<=mu<=5`; the odd
 norm part, rather than a cofactor window, is the remaining arithmetic object.
 
 At the first live endpoint `V=68`, a common nested-layer mod-16 compiler has
-feasible relaxation allocations above the required cubic threshold in five
-profile/order cells. This kills the bare quotient relaxation and retires its
-228,097,120-state full census. It does not produce an autocorrelation vector;
-the live routes are chord-origin coupling, support-specific refinement, or a
-stronger analytic norm majorant.
+feasible relaxation allocations above the required cubic threshold, killing
+the bare 228,097,120-state full census. Selective complete quotient and exact
+support certificates nevertheless exclude 21 of the 24 integer magnitude
+profiles. The exact residual is
+
+```text
+(6,7),       (9,4,1),       (12,1,2),       all with L=20.
+```
+
+The relaxed chord-slack equality has only 41 signatures in this `E=34,L=20`
+scope. The next route is their actual chord-origin classification, coupled to
+the signed progression/parallelogram gate or a stronger analytic norm
+majorant; do not return to the retired broad quotient census.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
