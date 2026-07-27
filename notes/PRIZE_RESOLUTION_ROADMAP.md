@@ -2878,8 +2878,10 @@ starting pins: local 09c6cceb; canonical d18fdc83;
                upstream origin/main b13de811
 ending proof pin: local c2bf0fd9; canonical b55c21d0;
                   upstream unchanged
+ending profile-refinement pin: local 789e190e
 node attacked: e1_official_prime_exception_control, low-distance bands
-result: CLOSED for s<=4 at N=256 and s=1 at N=512; parent target OPEN
+result: CLOSED for s<=4 at N=256 and s=1 at N=512; first open bands
+        reduced to two folded profiles apiece; parent target OPEN
 DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
            no critical status change
 critical delta: math orbit remains 242 = 180/38/24
@@ -2887,6 +2889,6 @@ upstream terminal delta: none; theorem is ours-only and crosswalked
 delta-star bracket movement: none
 new assumptions: none
 compute spend: none; 164 profile and 336 toy orthogonality checks
-next route-deciding action: attack the first surviving bands s=5 at N=256
-                              and s=2 at N=512 with exact norm/resultant structure
+next route-deciding action: attack profiles (4,2,0),(3,4,0) at N=256 and
+                              (1,2,0),(0,4,0) at N=512 by exact norm structure
 ```
