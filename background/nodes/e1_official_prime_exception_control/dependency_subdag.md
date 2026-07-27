@@ -51,6 +51,9 @@ e1_n256_s16_e32_profile_parity_diameter_reduction [PROVED]
 e1_n256_s16_e32_profile_08_light_template_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_n256_s16_e32_four_odd_light_template_reduction [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_n256_proper_conductor_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
@@ -80,7 +83,8 @@ prime-field. Exact folded-norm arguments remove swap distances through four at
 endpoint refinements reduce one `N=256,s=5` profile to positive even variance
 at most 64. At the current endpoint, exact cubic and parity arithmetic leaves
 only `(4,7)`, `(0,8)`, and `(3,5,1)`; the exact light-template census removes
-`(0,8)`,
+`(0,8)`, and the two survivors share a proved 148-template repeated-wedge
+router,
 while the proper-conductor theorem removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing

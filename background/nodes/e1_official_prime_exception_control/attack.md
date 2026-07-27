@@ -51,11 +51,12 @@ explicit finite inequality at the row.
    periodic lifts. Classify the full-conductor residual before revisiting
    generic supports, applying the exact 2-adic multiplicity gate before any
    norm computation. The bounded quotient relaxation for `(3,5,1)` fails at
-   maxima 1610 and 1594 above the 1517 cutoff. Build the common four-odd light
-   router for `(4,7)` and `(3,5,1)`, split on zero versus two diameters, and do
-   not rerun the retired quotient census. The signed-chord gate further
-   excludes circular-Sidon supports: every residual has an oppositely signed
-   equal-distance chord
+   maxima 1610 and 1594 above the 1517 cutoff. The common four-odd light router
+   is now proved: 148 affine templates, no light-light diameter, and one
+   repeated light-chord wedge. Apply both profile filters in one representative
+   census; do not rerun the retired quotient census. The signed-chord gate
+   further excludes circular-Sidon supports: every residual has an oppositely
+   signed equal-distance chord
    pair, hence a three-term or parallelogram template. Classify those templates
    rather than rescan generic supports. Local reciprocity also collapses the
    square-mass-16 cofactor to `2^mu` for `1<=mu<=5`; exclude or

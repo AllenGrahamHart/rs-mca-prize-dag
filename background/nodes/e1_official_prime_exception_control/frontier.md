@@ -34,7 +34,9 @@ quotient-Schur packets remove `V=76,74,72,70`; complete endpoint chains remove
 `V=68,66`, leaving positive even `V<=64`. At `V=64`, exact slack, cubic, and
 parity arithmetic leaves only autocorrelation profiles `(4,7)`, `(0,8)`, and
 `(3,5,1)`. The zero-odd profile `(0,8)` is empty by a complete six-template
-light census; the two four-odd profiles remain. A subfield norm argument also
+light census; the two four-odd profiles share exactly 148 affine light
+templates, all with one repeated wedge and no light diameter. A subfield norm
+argument also
 removes every vector
 in either profile whose support differences have a nontrivial gcd with
 `256`. Thus all live first-band vectors have full conductor. This does not
@@ -71,12 +73,12 @@ The next route-deciding attack is algebraic. Either:
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
   after the 2-adic cofactor screen. In `(3,4,0)`, begin with the live `V=64`
-  profiles `(4,7)` and `(3,5,1)`. Their common four-odd parity needs one
-  light-support router split on zero versus two light-light diameters. The
-  uncoupled quotient relaxation for `(3,5,1)` already exceeds the exact cubic
-  cutoff and should not be rerun. Its odd norm part must itself be the row
-  prime, so test that exact object rather than a cofactor interval. Treat the
-  `N=512,s=3` band independently;
+  profiles `(4,7)` and `(3,5,1)`. Their common four-odd router is the proved
+  148-template repeated-wedge chamber. Apply both profile filters in one
+  representative census. The uncoupled quotient relaxation for `(3,5,1)`
+  already exceeds the exact cubic cutoff and should not be rerun. Its odd norm
+  part must itself be the row prime, so test that exact object rather than a
+  cofactor interval. Treat the `N=512,s=3` band independently;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;
 - provide a total per-input image/collision certifier theorem; or

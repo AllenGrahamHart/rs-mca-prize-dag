@@ -42,6 +42,7 @@ e1_n256_s16_e33_profile_57_light_template_exclusion --ev-->
 e1_n256_s16_e33_endpoint_exclusion --ev-->
 e1_n256_s16_e32_profile_parity_diameter_reduction --ev-->
 e1_n256_s16_e32_profile_08_light_template_exclusion --ev-->
+e1_n256_s16_e32_four_odd_light_template_reduction --ev-->
 e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
@@ -154,3 +155,10 @@ zero-odd profile `(0,8)`. Its parity condition has exactly 63 normalized light
 supports, all two antipodal pairs, and six affine-unit templates. Two
 independent engines each exhaust 119,087,616 normalized signed vectors and
 retain none. The `V=64` residual is therefore `(4,7)` or `(3,5,1)`.
+
+The proved `e1_n256_s16_e32_four_odd_light_template_reduction` supplies one
+common router for those two profiles. Exactly 28,800 normalized light supports
+form 148 affine odd-unit orbits. Every support has no light-light diameter and
+one repeated light-chord wedge, hence a light three-term progression. This
+removes the two-diameter branch and sharpens `D_64` to
+`{0,4,8,12,16,20}`, but neither profile is yet excluded.

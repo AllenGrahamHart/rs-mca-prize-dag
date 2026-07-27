@@ -117,3 +117,9 @@ profile vectors. The live `V=64` profiles are therefore `(4,7)` and
 `(3,5,1)`. The basic quotient relaxation cannot exclude `(3,5,1)`, since
 explicit feasible allocations attain 1610 and 1594 above the 1517 cutoff;
 this is a route obstruction, not a collision counterexample.
+
+The two surviving profiles now share a proved finite router. Exactly 28,800
+normalized four-odd light supports form 148 affine odd-unit orbits; all have
+zero light-light diameters and one repeated light-chord wedge. This forces a
+light three-term progression and sharpens the diameter ledger, but does not by
+itself exclude `(4,7)` or `(3,5,1)`.

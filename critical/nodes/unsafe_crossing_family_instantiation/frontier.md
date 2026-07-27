@@ -178,11 +178,19 @@ profile vectors. The uncoupled three-layer quotient route does not close
 they are not actual autocorrelation vectors. Thus the live `V=64` profiles
 are `(4,7)` and `(3,5,1)`, which share one four-odd light-support router.
 
+That shared router is now exact. The 28,800 normalized four-odd supports have
+no light-light diameter and distance multiplicities `2,1,1,1,1`; the repeated
+edges always share a light vertex and force a light three-term progression.
+Affine odd-unit transport gives 148 representatives, with normalized orbit
+sizes 32, 64, 128, and 256 occurring 4, 16, 40, and 88 times. Thus
+`D_64 in {0,4,8,12,16,20}`. A single representative census can apply both
+remaining profile filters to each signed autocorrelation.
+
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
 injectivity or another explicit `V` line. Within the first `N=256` band, the
-next route decision is the common four-odd light-support classification for
-the two live `V=64` profiles. The still broad `(4,2,0)` profile and later
-`N=256,s>=6`, `N=512,s>=3` bands remain open. Any exact safe predecessor
-relocates the candidate threshold immediately.
+next route decision is one joint 148-template actual-geometry census for the
+two live `V=64` profiles, with a separate full-conductor ledger. The still
+broad `(4,2,0)` profile and later `N=256,s>=6`, `N=512,s>=3` bands remain
+open. Any exact safe predecessor relocates the candidate threshold immediately.

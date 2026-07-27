@@ -1,0 +1,10 @@
+{
+  "audit_classifier_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_four_odd_light_orbit_check.py",
+  "audit_classifier_file_sha256": "4cfa16da91b32258f7a9f69c546d132c9692fbf7d53de01ccb47857e4ed537c8",
+  "classifier_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_four_odd_light_orbit_classifier.py",
+  "classifier_file_sha256": "39f0822ff8be654b245476521301497efa5c24487fbb584d68dcc0651117aa2c",
+  "profile_reduction_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/statement.md",
+  "profile_reduction_file_sha256": "2c775ba148a35987157c2ce170dbc18b4a338f194cd990b304904e8726ed4edd",
+  "result_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_four_odd_light_orbit_result.json",
+  "result_file_sha256": "daaf781348f8b691c959c6172e900a6791b00904a6131c60c16f7d98eeec7e98"
+}
