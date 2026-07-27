@@ -1275,6 +1275,13 @@ torsion equation. Thus order-one work starts on `Psi_7=0` of bidegree
 `(2,4)` and `Psi_15=0` of bidegree `(6,12)`, not on the unreduced curve.
 These two residual curves remain open.
 
+The reciprocal equations on those curves no longer require a generic
+`m`th-power resultant. The proved
+`l1_mersenne_hnf_order_one_newton_reciprocal_reduction` identifies them
+exactly with Newton equalities between the star-root and inverse-root power
+sums. The first three necessary equations use powers `8,16,24` at `m=8`
+and `16,32,48` at `m=16`. Their parameter elimination remains open.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.

@@ -7482,6 +7482,26 @@ the outer stage into exactly two low-dimensional tasks.
   and `(6,12)` for `h=15`. Do not send the deleted involution component to
   a Groebner worker.
 
+  The generic reduced resultant is also retired as the primary
+  representation. The bounded SymPy campaign
+  `l1_mersenne_m8_order_one_reciprocal_profile` exhausted 315 aggregate app
+  seconds without completing `Res_W(L,Z-W^8)`; apps
+  `ap-2JqEoR1tUWnWY1uaGIpxzh`, `ap-0Zf035x3KMj8qBJ7V8FtBT`, and
+  `ap-UxUdP4JCXNMzidTip4FogP` are `INCOMPLETE` and authorize no retry.
+  Exact partial metadata pins the cancelled degree-six quotient at 77 terms
+  with denominator `720*(c-1)^6`. There is no mathematical verdict.
+
+  Instead consume
+  `l1_mersenne_hnf_order_one_newton_reciprocal_reduction`. If `x_i` are
+  the roots of `L`, generate the first three reciprocal equations as the
+  Newton equalities between `(x_i^star)^m` and `x_i^(-m)`. This needs only
+  traces at powers `8,16,24` for `m=8`, or `16,32,48` for `m=16`; it never
+  materializes `Qtilde`. A future contributor computation should eliminate
+  these trace equations on `Psi_h=0`, return every denominator and
+  saturation factor, and use a second implementation to reconstruct the
+  traces from the companion matrix. Price the `h=7` first-three system
+  before attempting `h=15`.
+
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
 
@@ -7491,8 +7511,9 @@ the outer stage into exactly two low-dimensional tasks.
 
   impose `Psi_h(rho_star,c_star)=0`, also saturating by `c_star+1`. Indeed
   `c_star=-1` would imply `c=-1` under inverse Frobenius. The zero split
-  value is the known root
-  `x_0=-1/(c-1)`. Form
+  value is the known root `x_0=-1/(c-1)`. The following resultant formula
+  remains the definition and an optional independent audit, not the primary
+  construction:
 
   ```text
   L_(rho,c)(W)=P_(rho,c)(W)/(W-x_0),
@@ -7500,7 +7521,7 @@ the outer stage into exactly two low-dimensional tasks.
   Ctilde_(rho,c)=Qtilde_(rho,c)(0),
   ```
 
-  and impose the reduced coefficient equations
+  The equivalent reduced coefficient equations are
 
   ```text
   Ctilde_(rho,c)Qtilde_(rho_star,c_star)(Z)

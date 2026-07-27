@@ -4109,3 +4109,35 @@ route rule: saturate by c+1 and never recompute the involution component
 next action: derive the first reciprocal equations on Psi_7=0 and price one
              exact m=8 order-one elimination before any full saturation
 ```
+
+**2026-07-27, order-one resultant route retired and replaced:** the exact
+SymPy profile campaign consumed 315 aggregate app seconds. After two
+representation corrections, the normalized degree-six quotient had the
+expected denominator `(c-1)^6`, 77 numerator terms, and total degree 12,
+but `Res_W(L,Z-W^8)` still hit the final 180-second timeout. No reciprocal
+equation completed and there is no mathematical verdict. The campaign cap
+is exhausted; no Singular retry is authorized on the current account.
+
+The algebra itself removes the bottleneck. If `x_i` are the reduced roots,
+the `j`th reciprocal equation is exactly
+
+```text
+e_j((x_i^star)^m)=e_j(x_i^(-m)).
+```
+
+Newton identities construct the first three equations from traces only
+through `m,2m,3m`; the `H-1` interior equations plus the constant-product
+equation recover the full reciprocal identity. This is proved independently of the failed
+profile.
+
+```text
+node proved: l1_mersenne_hnf_order_one_newton_reciprocal_reduction
+route cut: generic mth-power resultant retired as the primary construction
+critical delta: none; l1_mixed_petal_amplification remains TARGET
+failed apps: ap-2JqEoR1tUWnWY1uaGIpxzh,
+             ap-0Zf035x3KMj8qBJ7V8FtBT,
+             ap-UxUdP4JCXNMzidTip4FogP
+campaign: 315 aggregate app seconds; conservative cost below $0.10
+next action: exact trace/Newton elimination on Psi_7=0, preferably by an
+             external contributor or a future separately capped campaign
+```

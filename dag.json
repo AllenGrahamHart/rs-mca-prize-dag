@@ -16830,6 +16830,23 @@
    "notes": "Exact analytic component exclusion. The Modal factorization is discovery evidence; the stdlib verifier reconstructs the coefficient polynomials and the official torsion contradiction. The residual order-one curves remain open."
   },
   {
+   "id": "l1_mersenne_hnf_order_one_newton_reciprocal_reduction",
+   "title": "L1 Mersenne HNF order-one Newton reciprocal reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the reduced order-one roots x_i, the jth reciprocal coefficient equation is exactly e_j((x_i^star)^m)=e_j(x_i^(-m)). Newton identities therefore construct the first three necessary equations from traces at m,2m,3m, and the H-1 interior equations plus the constant-product equation are equivalent to the full reduced reciprocal identity. No generic mth-power resultant is required.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/verify.py"
+   ],
+   "notes": "Exact resultant-free reformulation. The first-three trace system is necessary only; parameter elimination and the pointwise Frobenius/cyclotomic/inner tests remain open."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -32075,6 +32092,16 @@
   },
   {
    "from": "l1_mersenne_hnf_order_one_involution_component_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_order_one_newton_reciprocal_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_newton_reciprocal_reduction",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

@@ -656,3 +656,10 @@
   residual `Psi_h=0`. The `c=-1` component is theorem-empty on every
   official row and must not enter a saturation. The live residual degrees
   are `(deg_rho,deg_c)=(2,4)` at `h=7` and `(6,12)` at `h=15`.
+
+- Then consume `l1_mersenne_hnf_order_one_newton_reciprocal_reduction`.
+  Do not construct `Res_W(L,Z-W^m)` as the primary route. Generate the
+  star-root and inverse-root traces from `L_star` and the monic reciprocal
+  of `L`, and impose the first three Newton equalities. They require powers
+  only through `3m`. A full identity uses the `H-1` interior equalities plus
+  the constant-product equation; the first-three system is necessary only.
