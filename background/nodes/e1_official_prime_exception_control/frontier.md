@@ -29,7 +29,11 @@ two. The crude `(2s)^phi(N)` bound should no longer be used for those bands.
 The first surviving `N=256` band reduces to folded coefficient profiles
 `(4,2,0),(3,4,0)` at `s=5`. In the square-mass-16 profile `(3,4,0)`, an
 exact logarithmic deficit removes `V=0` and every `V>=136`; its residual is
-positive even `V<=134`. At `N=512,s=2`, exact negacyclic variance
+positive even `V<=134`. A subfield norm argument also removes every vector
+in either profile whose support differences have a nontrivial gcd with
+`256`. Thus all live first-band vectors have full conductor. This does not
+classify the low-variance residual: a certified full-conductor vector already
+occurs at `V=36`. At `N=512,s=2`, exact negacyclic variance
 excludes `(0,4,0)`, while a complete 129540-state interval-resultant
 certificate excludes `(1,2,0)`. The entire band is closed, so the `N=512`
 ledger begins at `s=3`. The profile entries count opposite pairs,
@@ -50,7 +54,8 @@ The next route-deciding attack is algebraic. Either:
 
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
-  with the surviving `N=256,s=5` profiles and the `N=512,s=3` band;
+  with the full-conductor portions of the surviving `N=256,s=5` profiles
+  and the `N=512,s=3` band;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;
 - provide a total per-input image/collision certifier theorem; or

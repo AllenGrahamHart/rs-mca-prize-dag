@@ -24,6 +24,9 @@ e1_prime_field_l2_norm_collision_radius [PROVED]
 e1_n256_s16_high_variance_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_n256_proper_conductor_collision_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_n512_four_singleton_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
@@ -39,7 +42,9 @@ The two field reductions prove that the live branch is ambient-generating and
 prime-field. Exact folded-norm arguments remove swap distances through four at
 `N=256` and through two at `N=512`. The square-mass-16 logarithmic refinement
 also reduces one `N=256,s=5` profile to positive even variance at most 134,
-without paying the surviving ledger.
+while the proper-conductor theorem removes all proper-subfield lifts from both
+first-band profiles. Full-conductor vectors remain, so the surviving ledger is
+not paid.
 The official quantifier pin and named-exhibit certificate subgraph remain in
 `background/nodes/` and have `ev`, not `req`, edges into this target. The
 unresolved target is a logical leaf, with its route-uniform scope printed

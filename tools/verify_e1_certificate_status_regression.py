@@ -48,6 +48,7 @@ def main():
         "e1_pair_feasible_prime_field_reduction",
         "e1_prime_field_l2_norm_collision_radius",
         "e1_n256_s16_high_variance_collision_exclusion",
+        "e1_n256_proper_conductor_collision_exclusion",
         "e1_n512_four_singleton_collision_exclusion",
         "e1_n512_trinomial_interval_norm_exclusion",
         "e1_fullness",
@@ -98,6 +99,7 @@ def main():
         ("e1_pair_feasible_prime_field_reduction", branch_target, "ev"),
         ("e1_prime_field_l2_norm_collision_radius", branch_target, "ev"),
         ("e1_n256_s16_high_variance_collision_exclusion", branch_target, "ev"),
+        ("e1_n256_proper_conductor_collision_exclusion", branch_target, "ev"),
         ("e1_n512_four_singleton_collision_exclusion", branch_target, "ev"),
         ("e1_n512_trinomial_interval_norm_exclusion", branch_target, "ev"),
     }
@@ -153,6 +155,16 @@ def main():
             "N=256 variance exclusion lost its L2 parent")
     require(("collision_norm_criterion", n256_s16, "req") in edges,
             "N=256 variance exclusion lost its norm parent")
+    proper_conductor = "e1_n256_proper_conductor_collision_exclusion"
+    require(nodes[proper_conductor]["status"] == "PROVED",
+            "N=256 proper-conductor exclusion regressed")
+    proper_statement = nodes[proper_conductor]["statement"].lower()
+    require("full conductor" in proper_statement and "18^32<2^250" in proper_statement,
+            "N=256 proper-conductor conclusion is missing")
+    require((l2_radius, proper_conductor, "req") in edges,
+            "proper-conductor exclusion lost its L2 parent")
+    require(("collision_norm_criterion", proper_conductor, "req") in edges,
+            "proper-conductor exclusion lost its norm parent")
     four_singleton = "e1_n512_four_singleton_collision_exclusion"
     require(nodes[four_singleton]["status"] == "PROVED",
             "N=512 four-singleton exclusion regressed")
@@ -182,6 +194,7 @@ def main():
         prime_field,
         l2_radius,
         n256_s16,
+        proper_conductor,
         four_singleton,
         trinomial,
         branch_target,

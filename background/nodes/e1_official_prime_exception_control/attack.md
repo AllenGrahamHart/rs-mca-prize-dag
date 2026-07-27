@@ -17,7 +17,8 @@ The exact perfect-power interval reduction further implies `F=F_p` and
 The folded `L2` norm radius excludes `s<=4` at `N=256` and `s=1` at
 `N=512`; do not re-enumerate those bands. Exact variance and interval-norm
 certificates also exclude both profiles at `N=512,s=2`, so begin that order
-at `s=3`.
+at `s=3`. At `N=256,s=5`, every proper-conductor support is
+excluded in both surviving profiles, so classify only full-conductor supports.
 
 ```text
 P=sum_y binom(r_y,2).
@@ -38,8 +39,11 @@ explicit finite inequality at the row.
    `s=3` for `N=512`, and convert every counted object to unordered class
    pairs explicitly. Only profiles `(4,2,0),(3,4,0)` survive in the first
    `N=256` band. In `(3,4,0)`, only positive even autocorrelation variance
-   `V<=134` remains; classify that residual before revisiting generic
-   supports. The complete `N=512,s=2` band is closed; start at `s=3`.
+   `V<=134` remains. Proper conductor is already excluded, but an explicit
+   full-conductor vector with `V=36` rules out reducing the residual to
+   periodic lifts. Classify the full-conductor residual before revisiting
+   generic supports. The complete `N=512,s=2` band is closed; start at
+   `s=3`.
 3. A certifier route is legitimate only with proved termination, soundness,
    and coverage for every row in the printed pair-feasible candidate class.
 4. If direct image size can be certified above `B*` without bounding `P`, send

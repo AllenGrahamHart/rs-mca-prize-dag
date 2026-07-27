@@ -945,6 +945,19 @@ profile is reduced to positive even `V<=134`. This is an analytic reduction,
 not a classification of that low-variance residual or a row payment. See
 `background/nodes/e1_n256_s16_high_variance_collision_exclusion/`.
 
+N28 DONE, E1 N=256 PROPER-CONDUCTOR EXCLUSION: if the actual folded support
+differences in either first-band profile have gcd `d>1` with `256`, a
+monomial normalization places the vector in a cyclotomic subfield of degree at
+most 64. Its nonzero small-field norm is at most `18^32<2^250`, and the
+full norm is a power of that integer, so no live row prime divides it. Every
+surviving `N=256,s=5` collision therefore has full conductor. The stronger
+shortcut "low variance implies proper conductor" is false: a bounded
+17,920-state falsification run found, and the local verifier exactly replays,
+a full-conductor profile-`(3,4,0)` vector with `V=36`. The next attack must
+classify the full-conductor low-variance residual rather than periodic lifts.
+See
+`background/nodes/e1_n256_proper_conductor_collision_exclusion/`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable

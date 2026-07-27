@@ -34,7 +34,10 @@ a short pre-registered route decision.
    this live branch without adding an extension-field hypothesis. The folded
    exact folded-norm certificates further remove `s<=4` at `N=256` and
    `s<=2` at `N=512`. In the first `N=256` band, profile `(3,4,0)` is
-   further reduced to positive even autocorrelation variance `V<=134`.
+   further reduced to positive even autocorrelation variance `V<=134`, and
+   every proper-conductor support is excluded in both profiles. A
+   full-conductor `V=36` witness prevents treating low variance as
+   synonymous with periodicity.
 3. Before taking moments on any residual row, screen the complete-support FM1
    sum. If it is at most `B*`, no subfamily or nonnegative collision correction
    can trigger `nu(A)>B*`. This screen rules out `M` on all six named
@@ -50,4 +53,5 @@ pair-feasible branch. The route-deciding residual is the pointwise collision
 allowance over primes `p=1 mod N` in the two exact budget intervals, beginning
 at swap distance five for `N=256` and three for `N=512`. The first `N=256`
 band reduces to `(4,2,0),(3,4,0)`; the complete `N=512,s=2` band is closed.
-Only the low-variance `V<=134` residual remains in `(3,4,0)`.
+Only full-conductor supports remain at `N=256,s=5`; within
+`(3,4,0)` the variance residual is `0<V<=134`.
