@@ -170,6 +170,32 @@ surface first).
 ~238 CPU-h, (1,6), (2,7), (2,8), (2,9), the ell=4 cells. No budget; do not
 re-propose, and never chain small runs to simulate one.
 
+## WAVE-MERGE LAW (added 2026-07-27, wave-26 — a real miss, caught by the user)
+
+**A Codex wave is not just status flips and new nodes. Much of the value is
+RESHAPING open reds — sharper statements, better-ordered attack surfaces,
+tighter falsifiers — with the status unchanged.** A merge keyed on
+`status != status` silently drops all of it.
+
+Wave-26 was merged that way and lost, until it was caught:
+`integer_code_distance_cert` (statement 291 -> 752 chars, plus a rewritten
+attack_surface and a much tighter falsifier), `l1_mixed_petal_amplification`
+(two named closure routes added), and an `upstream` alias that had been updated
+to match a reworked PR.
+
+**The merge procedure is therefore, for every node present in both trees:**
+1. compare the FULL node object, not `status`;
+2. for TARGET/CONDITIONAL nodes take Codex's `statement`, `attack_surface`,
+   `falsifier` and `notes` — reshaping an open red is its main job and the
+   worker sees the frontier more closely than the planner does;
+3. keep OURS only where the planner made a deliberate, dated correction this
+   session (today: `acl_count`, `char0_collision_classification`,
+   `rules_freeze`) — and say so in the merge commit;
+4. where both sides edited, rebase on Codex's text and re-append the current
+   reason, rather than keeping a stale note (`xr_inverse` is the worked
+   example: its old note cited the averaged_xr demotion, which had since been
+   closed, so the note was restated to name `xr_gvn` instead).
+
 ## Hard laws (violations = revert)
 
 1. **DAG canon.** `dag.json` serializes as `json.dumps(dag, indent=1,
