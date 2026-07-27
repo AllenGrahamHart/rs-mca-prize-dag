@@ -3118,3 +3118,28 @@ compute spend: none; exact autocorrelation and matching arithmetic only
 next route-deciding action: classify the signed template types jointly with
                               full-conductor and 2-adic screens
 ```
+
+**2026-07-27, N=256 local-norm cofactors collapsed:** the explicit norm group
+of the conductor-256 local cyclotomic extension removes almost all cofactor
+ambiguity before any template norm is computed.
+
+Cycle burn-down:
+
+```text
+starting pins: local 0d2ad4ef; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 89dc4e5c
+node attacked: e1_official_prime_exception_control, N=256 cofactor windows
+result: NARROWED to five cofactors in (3,4,0) and 419 in (4,2,0);
+        parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none; standard explicit local reciprocity is cited and pinned
+compute spend: one 7.1-second Modal orchestration, 513 FLINT resultants in
+               0.177 container-seconds; no computation is load-bearing
+next route-deciding action: prove the odd parts of the signed-template norms
+                              are composite or outside both row intervals
+```
