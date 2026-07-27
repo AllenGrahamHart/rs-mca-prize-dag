@@ -977,7 +977,7 @@ matching of weight at most 21. Expanding the exact negacyclic energy gives
 V/2=102-D_64+2C.
 ```
 
-The currently sharpened residual `V<=100` therefore forces signed
+The currently sharpened residual `V<=98` therefore forces signed
 repeated-distance cross sum `C<=-16`. Every live support has an
 oppositely signed pair of equal
 non-diameter chords and hence a three-term-progression or four-point
@@ -1044,6 +1044,24 @@ positive even `V<=100`, and the signed-chord gate strengthens to
 `C<=-16`. No exploratory partition computation is load-bearing. This is
 still a route reduction rather than a close of the residual or profile
 `(4,2,0)`. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N35 DONE, E1 N=256 OPTIMIZED QUADRATIC MAJORANT: the low-slack ledger also
+gives `L<=28` at `E=50`, although that ceiling is geometrically sharp.
+For `0<x<=72`, the exact majorant
+
+```text
+log x <= log 16+1/150+(23/336)(x-16)-(x-16)^2/1344
+```
+
+has derivative roots 14 and 48. Degree-four, degree-six, and degree-three
+rational Taylor certificates verify its two minima and the final six-bit
+decay. It excludes `V=100`, leaving positive even `V<=98`.
+A 16-worker Modal route test (`ap-XfP3XD3lCoE4sCUmTfC3PA`) found a
+full-conductor `E=50,L=28` witness in every worker, falsifying the
+stronger geometry-only shortcut. A one-container exact norm replay
+(`ap-Aq7Pqe17R47TNQMFyu1oT2`) found a representative norm of 233 bits;
+both experiments are non-load-bearing. See
 `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the

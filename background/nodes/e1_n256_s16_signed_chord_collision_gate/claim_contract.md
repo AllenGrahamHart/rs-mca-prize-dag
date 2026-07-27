@@ -3,7 +3,7 @@
 ## Input
 
 - `e1_n256_s16_sparse_l1_variance_exclusion`, including profile
-  `(3,4,0)` and the exact residual `0<V<=100`.
+  `(3,4,0)` and the exact residual `0<V<=98`.
 
 ## Output
 
@@ -24,5 +24,5 @@ Every vector in that residual has signed repeated-distance cross sum
 
 ## Falsifier
 
-A profile-`(3,4,0)` vector with `0<V<=100` whose signed
+A profile-`(3,4,0)` vector with `0<V<=98` whose signed
 repeated-distance cross sum exceeds `-16`.

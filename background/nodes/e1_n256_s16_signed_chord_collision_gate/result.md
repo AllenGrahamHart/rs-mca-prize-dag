@@ -1,6 +1,6 @@
 # Result
 
-PROVED. Every profile-`(3,4,0)` vector in the residual `0<V<=100`
+PROVED. Every profile-`(3,4,0)` vector in the residual `0<V<=98`
 has signed repeated-distance cross sum at most `-16`. It contains an
 oppositely signed equal-chord pair and therefore lies on a three-term
 progression or four-point parallelogram template.

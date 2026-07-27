@@ -52,11 +52,11 @@ with a light vertex, and two light vertices:
 D_64<=4*4+4*1+1*1=21.                                 (4)
 ```
 
-Since the surviving variance is even and at most 100, `V/2<=50`.
+Since the surviving variance is even and at most 98, `V/2<=49`.
 Equations (1) and (4) imply
 
 ```text
-2C=V/2-102+D_64 <= 50-102+21=-31,
+2C=V/2-102+D_64 <= 49-102+21=-32,
 ```
 
 so the integer `C` satisfies `C<=-16`.

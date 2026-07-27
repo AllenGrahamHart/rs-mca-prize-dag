@@ -18,7 +18,7 @@ UNIVERSAL_TARGET = "unsafe_crossing_family_instantiation"
 
 EXPECTED_PIN = {
     "variance_parent_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/statement.md",
-    "variance_parent_file_sha256": "4899794402030cffd6162a3f7e17de74a35012551980cdf01b5c104370da07da",
+    "variance_parent_file_sha256": "b9f48c05766d6eb9afe893b2e361b6c772d5142dddf61a172dae6e63fcf36d44",
 }
 
 
@@ -70,7 +70,7 @@ def main() -> None:
     assert sum(weight * weight for weight in profile_square_weights) == 52
     assert (16**2 - 52) // 2 == 102
     assert maximum_matching_weight(profile_square_weights) == 21
-    assert (50 - 102 + 21) // 2 == -16
+    assert (49 - 102 + 21) // 2 == -16
 
     witness = {
         0: 2,

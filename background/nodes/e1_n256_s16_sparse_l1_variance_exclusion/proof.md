@@ -147,12 +147,73 @@ contribute at least three, so `E>=55`, again a contradiction. Therefore
 E=51 implies L<=27.                                   (7)
 ```
 
+Finally suppose `E=50`. Bound (3) gives `L<=29`. If
+`L=29`, then (5) gives `Delta=0`. Thus every
+non-diameter class has zero slack, and every diameter has magnitude four.
+The twelve magnitude-two chords lie in distinct classes with `S=2` and
+contribute energy 48. The six unit chords lie in distinct classes with
+positive odd `S` and contribute at least six more. This contradicts
+`E=50`, so
+
+```text
+E=50 implies L<=28.                                   (8)
+```
+
 If `y_u=|F(zeta^u)|^2` for odd `u`, then the mean of the
 `y_u` is 16. Autocorrelation antisymmetry gives
 
 ```text
-|y_u-16|<=2L.                                          (8)
+|y_u-16|<=2L.                                          (9)
 ```
+
+We first exclude `V=100`, where `E=50` and (8) gives
+`0<y_u<=72`. On `0<x<=72`, define
+
+```text
+h(x)=log 16+1/150+(23/336)(x-16)-(x-16)^2/1344-log x.
+```
+
+Its derivative factors exactly as
+
+```text
+h'(x)=-(x-14)(x-48)/(672x).
+```
+
+Hence the only minima are `x=14` and `x=72`. At the first,
+
+```text
+h(14)=log(8/7)+1/150-47/336>0;
+```
+
+the degree-four even alternating truncation of `log(1+1/7)` is
+strictly greater than `47/336-1/150=373/2800`. At the endpoint,
+
+```text
+h(72)=113/75-log(9/2)>0;
+```
+
+the degree-six positive Taylor truncation of `exp(113/75)` is strictly
+greater than `9/2`. Thus `h(x)>0` throughout the interval. Averaging
+over the 128 conjugates gives
+
+```text
+log G<=log 16+1/150-V/1344.
+```
+
+At `V=100`, put
+
+```text
+q=(32/3)(25/336-1/150)=1138/1575.
+```
+
+The degree-three positive Taylor truncation of `exp(q)` is strictly
+greater than two. Therefore `q>log 2`, equivalently
+
+```text
+64(100/1344-1/150)>6 log 2.
+```
+
+The norm is strictly below `2^250`, excluding `V=100`.
 
 Apply (6)--(7) to the two new endpoint rows, (3) to the next two
 low-variance blocks, and (1) to the five existing upper blocks:
@@ -204,7 +265,7 @@ and their mean square is `V`, giving
 
 ```text
 log G<=log 16-V/C,
-|Norm(F(zeta))|=G^64<=2^256 exp(-64V/C).               (9)
+|Norm(F(zeta))|=G^64<=2^256 exp(-64V/C).               (10)
 ```
 
 For each row use its minimum `V` and put `q=32V/(3C)`.
@@ -214,7 +275,7 @@ The degree-nine positive Taylor truncation verifies exactly that
 sum_(j=0)^9 q^j/j! > 2.
 ```
 
-Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (9)
+Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (10)
 is strictly below `2^250`. The collision-norm criterion excludes
 every listed variance. Since `V` is even, only
-`0<V<=100` remains.
+`0<V<=98` remains.

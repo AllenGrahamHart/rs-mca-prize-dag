@@ -6,7 +6,9 @@ from __future__ import annotations
 import hashlib
 import json
 import math
+from collections import defaultdict
 from fractions import Fraction
+from itertools import combinations
 from pathlib import Path
 
 
@@ -59,6 +61,14 @@ def taylor(argument: Fraction, degree: int) -> Fraction:
     )
 
 
+def alternating_log_lower(argument: Fraction, even_degree: int) -> Fraction:
+    assert even_degree % 2 == 0
+    return sum(
+        (-1) ** (index + 1) * argument**index / index
+        for index in range(1, even_degree + 1)
+    )
+
+
 def maximum_part_square_sum(total: int) -> int:
     quotient, remainder = divmod(total, 4)
     return 16 * quotient + (0, 1, 4, 5)[remainder]
@@ -70,6 +80,27 @@ def attainable_absolute_sums(count_4: int, count_2: int, count_1: int) -> set[in
         for _ in range(count):
             sums = {current + sign * value for current in sums for sign in (-1, 1)}
     return {abs(current) for current in sums}
+
+
+def chord_ledger(coefficients: dict[int, int]) -> tuple[int, int, int, int]:
+    groups: dict[int, list[int]] = defaultdict(list)
+    diameter_square_mass = 0
+    for left, right in combinations(sorted(coefficients), 2):
+        difference = right - left
+        product = coefficients[left] * coefficients[right]
+        if difference == 64:
+            diameter_square_mass += product * product
+        elif difference < 64:
+            groups[difference].append(product)
+        else:
+            groups[128 - difference].append(-product)
+    energy = sum(sum(values) ** 2 for values in groups.values())
+    l1_norm = sum(abs(sum(values)) for values in groups.values())
+    cross_sum = sum(
+        sum(left * right for left, right in combinations(values, 2))
+        for values in groups.values()
+    )
+    return energy, l1_norm, diameter_square_mass, cross_sum
 
 
 def main() -> None:
@@ -164,13 +195,61 @@ def main() -> None:
     assert 4 * (42 - 29) - (102 - 51) == 1
     assert 4 * (42 - 28) - (102 - 51) == 5
     assert 12 * 4 + 4 + 3 > 51
-    special_l1_bounds = {51: 27, 52: 28}
+    assert 4 * (42 - 29) - (102 - 50) == 0
+    assert 12 * 4 + 6 > 50
+    special_l1_bounds = {50: 28, 51: 27, 52: 28}
+
+    e50_witness = {
+        48: -2,
+        51: -2,
+        67: -1,
+        81: 2,
+        83: 1,
+        84: -1,
+        111: 1,
+    }
+    witness_support = sorted(e50_witness)
+    assert math.gcd(
+        256, *(position - witness_support[0] for position in witness_support)
+    ) == 1
+    assert chord_ledger(e50_witness) == (50, 28, 0, -26)
     assert {
         energy: (energy + 66) // 4
         for energy in (53, 54, 55)
     } == {53: 29, 54: 30, 55: 30}
 
-    excluded = []
+    optimized_linear = Fraction(23, 336)
+    optimized_quadratic = Fraction(1, 1344)
+    optimized_allowance = Fraction(1, 150)
+    assert 2 * optimized_quadratic == Fraction(1, 672)
+    assert optimized_linear + 16 * 2 * optimized_quadratic == Fraction(62, 672)
+    assert 2 * optimized_quadratic * 14 * 48 == 1
+    assert (
+        optimized_allowance
+        - 2 * optimized_linear
+        - 4 * optimized_quadratic
+        == optimized_allowance - Fraction(47, 336)
+    )
+    assert (
+        optimized_allowance
+        + 56 * optimized_linear
+        - 56**2 * optimized_quadratic
+        == Fraction(113, 75)
+    )
+    assert 16 + 2 * special_l1_bounds[50] == 72
+    assert (
+        alternating_log_lower(Fraction(1, 7), 4)
+        + optimized_allowance
+        > Fraction(47, 336)
+    )
+    assert taylor(Fraction(113, 75), 6) > Fraction(9, 2)
+    optimized_decay = Fraction(32, 3) * (
+        Fraction(25, 336) - optimized_allowance
+    )
+    assert optimized_decay == Fraction(1138, 1575)
+    assert taylor(optimized_decay, 3) > 2
+
+    excluded = [100]
     for lower_v, upper_v, upper_energy, upper_l1, bound, denominator, method in ROWS:
         energies = range(lower_v // 2, upper_energy + 1)
         if method == "slack":
@@ -193,7 +272,7 @@ def main() -> None:
         assert taylor(six_bit_exponent, 9) > 2
         excluded.extend(range(lower_v, upper_v + 1, 2))
 
-    assert excluded == list(range(102, 136, 2))
+    assert excluded == list(range(100, 136, 2))
 
     dag = json.loads((ROOT / "dag.json").read_text())
     statuses = {entry["id"]: entry["status"] for entry in dag["nodes"]}
@@ -208,12 +287,12 @@ def main() -> None:
     assert (NORM_PARENT, NODE, "req") in edges
     assert (NODE, E1_TARGET, "ev") in edges
     assert (NODE, UNIVERSAL_TARGET, "ev") in edges
-    assert "102<=V<=134" in statements[NODE]
-    assert "V<=100" in statements[NODE]
+    assert "100<=V<=134" in statements[NODE]
+    assert "V<=98" in statements[NODE]
 
     print(
         "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS "
-        "excluded=17 residual_max=100 majorants=9"
+        "excluded=18 residual_max=98 majorants=10"
     )
 
 
