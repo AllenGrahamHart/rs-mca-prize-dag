@@ -4413,3 +4413,30 @@ next route-deciding action: derive the exact b=2*1_A+1_T moment ledger for
                               quotient/parity constraints, and authorize a
                               bounded census only if the analytic gap remains
 ```
+
+**2026-07-27, V=66 profile `(0,6,1)` close:** a sharp symmetric
+target-fiber theorem removes the nearest cubic branch without a census.
+
+```text
+starting pin: local 487d1450
+proof pin: local 3fa13674
+node attacked: unsafe_crossing_family_instantiation, V=66 profile (0,6,1)
+result: CLOSED one of four V=66 profiles; three remain
+exact ledger: b=2*1_A+1_T, |A|=14, T={+/-t}
+new theorem: for A=-A subset Z/128Z\{0,64} and z in A,
+             r_A(z)<=|A|-2
+moment: 8*R(A,A,A)+12*R(A,A,T)+6*R(A,T,T)<=1644<1732
+sharpness: attained by the abstract order-16 subgroup minus {0,64}
+independent replay: all 6,435 symmetric 14-subsets of Z/32Z; exact maxima
+                    R=168, target fiber=12, weighted moment=1644
+DAG delta: one PROVED background node and five edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute spend: none; finite audit completed under the 256 MiB RAM guard
+new assumptions: none
+upstream overlap: no open PR through #1109 supplies this finite E1 close
+route decision: the target-fiber bound is sharp at abstract-set scope; do not
+                spend effort trying to improve it without autocorrelation data
+next route-deciding action: attack (4,5,1), using its five-odd
+                              diameter-Sidon support and unique magnitude-three
+                              class before any bounded exact census
+```
