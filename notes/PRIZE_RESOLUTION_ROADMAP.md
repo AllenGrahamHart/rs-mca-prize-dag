@@ -3155,3 +3155,29 @@ compute spend: one 7.1-second Modal orchestration, 513 FLINT resultants in
 next route-deciding action: prove the odd parts of the signed-template norms
                               are composite or outside both row intervals
 ```
+
+**2026-07-27, N=256 sparse-L1 variance refinement:** the attempted universal
+odd-part factorization was first falsified by an exact 248-bit prime below the
+row floor. The replacement analytic route uses autocorrelation sparsity to
+remove twelve additional variance values.
+
+Cycle burn-down:
+
+```text
+starting pins: local 1b13e252; canonical b55c21d0;
+               upstream origin/main b13de811
+route-fence pin: local 20787068
+ending proof pin: local 3268bcf2
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=134 to V<=110; signed cancellation
+        strengthened from C<=-7 to C<=-13; parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           signed-chord dependency repointed to the sharpened child
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: two short one-container route tests; exact proof uses no Modal
+next route-deciding action: extend the sparse moment majorant below V=112 or
+                              classify the stronger C<=-13 templates
+```
