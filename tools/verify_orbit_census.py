@@ -40,11 +40,23 @@ ROOT = Path(__file__).resolve().parents[1]
 GRANDS = {"mca_grand", "list_grand"}
 SUBMISSION_ROOT = "prize"
 
-# E1 quantifier correction, 2026-07-26. The 14-node quantifier-pin/named-exhibit branch is
-# background evidence; one route-uniform E1 TARGET replaces its two exhibit
-# leaves on the live route.
+# Q0 census, 2026-07-26, at prize master dd9b862d (dag.json: 1222 nodes).
+# REPRICED 2026-07-27 (wave-24 Codex integration): the e1 chain + zone_b/mca_unsafe/
+# unsafe_at_crossing were demoted after the proof_sketch re-grade proved the cited
+# sections say CONJECTURAL / typicality, not PROVED (notes/PROOF_SKETCH_PROVENANCE.md).
+# Was 201/36/23 (260); the demotions also drop 19 e1 nodes off the critical path.
+# 2026-07-27 (sketch-tagged re-grade): averaged_xr was a FALSE GREEN (no conditional.md;
+# its sole req PRESUPPOSED the claim; own sketch.md said PROVABLE; source says only
+# "looks provable") -> TARGET, cascading averaged_slope_conversion / xr_gvn /
+# averaged_occupancy_... -> CONDITIONAL. Was 180/38/24.
+# WAVE-26 (2026-07-27): averaged_xr CLOSED — Codex rederived Przemek's own exact
+# fixed-slope pair moment (m1_average_support_collinearity.md @674503f7) and replayed
+# it with an independent verifier, so the false green became a real one; the two
+# cascade nodes returned to PROVED. xr_gvn went the other way (CONDITIONAL -> TARGET):
+# the exact moment does NOT supply its multi-exchange Cauchy-Schwarz chain, so that
+# edge is evidence-only. Net: reds 25 -> 24. Was 177/39/25.
 EXPECTED_MATH = {"PROVED": 179, "CONDITIONAL": 38, "TARGET": 24}
-EXPECTED_SUBMISSION = {"PROVED": 191, "CONDITIONAL": 40, "TARGET": 25}
+EXPECTED_SUBMISSION = {"PROVED": 191, "CONDITIONAL": 40, "TARGET": 25}  # was 189/41/26
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no

@@ -17,7 +17,7 @@ Claim, in three parts, all pinned here:
      re-audit, because that is exactly how an unwired hypothesis would appear.
 
 Consequence: the remaining mathematics of the math orbit is exactly its TARGETs.
-The Convergence Ledger's "Definition of DONE" conditional-status conjunct
+The Convergence Ledger's "Definition of DONE" second conjunct ("38 CONDITIONALs
 discharged against a deduped joint hypothesis set") is IMPLIED by the first on our
 side of the tree -- there is no separate hypothesis set of ours left to dedup.
 
@@ -37,7 +37,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 GRANDS = {"mca_grand", "list_grand"}
-EXPECTED_TARGETS = 24  # averaged_xr repaired by the exact fixed-slope moment
+# WAVE-24 (2026-07-27) re-pricing after the proof_sketch re-grade: 23 -> 24 TARGETs
+# (unsafe_crossing_family_instantiation), 36 -> 38 CONDITIONALs (the demoted cluster).
+# WAVE-26 repaired averaged_xr and restored xr_gvn as the unresolved TARGET.
+EXPECTED_TARGETS = 24
 EXPECTED_CONDITIONALS = 38
 EXPECTED_ROUNDS = 8
 

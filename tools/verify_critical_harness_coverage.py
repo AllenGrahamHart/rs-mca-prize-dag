@@ -20,8 +20,17 @@ CRITICAL_DAG = ROOT / "orbit" / "critical_dag.json"
 MANIFEST = ROOT / "tools" / "verifier_manifest.json"
 
 EXPECTED_COUNTS = {
-    # Six proved named-exhibit soundness/checker nodes left the math orbit in
-    # the E1 universal-quantifier correction.
+    # 2026-07-27: 147 -> 146 and 49 -> 50. `corridor_ledger` gained a real local
+    # verifier (verify_corridor_literal_prime.py, the E-1 literal corridor prime and
+    # six-row replay shipped as upstream PR #1107), so it moved out of the md-only
+    # bucket. Widened per hard law 8 -- a legitimate change, recorded, not silenced.
+    # WAVE-24 (2026-07-27): the proof_sketch re-grade demoted the e1 chain and the
+    # zone_b/mca_unsafe/unsafe_at_crossing cluster, so 19 e1 nodes left the critical
+    # orbit entirely. md-only 146 -> 131, local-verifier 50 -> 44. Widened per hard
+    # law 8: a legitimate re-pricing, recorded, not silenced.
+    # 2026-07-27 (averaged_xr false-green cascade): 131 -> 129, 44 -> 43.
+    # WAVE-26 (2026-07-27): averaged_xr gained a real verifier and the cascade
+    # returned to PROVED; 129 -> 130 md-only, 43 -> 44 local-verifier.
     "folder-md-only": 130,
     "legacy-ref-only": 5,
     "local-verifier": 44,
