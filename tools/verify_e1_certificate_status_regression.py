@@ -50,6 +50,7 @@ def main():
         "e1_n256_s16_high_variance_collision_exclusion",
         "e1_n256_proper_conductor_collision_exclusion",
         "e1_n256_2adic_cofactor_collision_exclusion",
+        "e1_n256_s16_signed_chord_collision_gate",
         "e1_n512_four_singleton_collision_exclusion",
         "e1_n512_trinomial_interval_norm_exclusion",
         "e1_fullness",
@@ -102,6 +103,7 @@ def main():
         ("e1_n256_s16_high_variance_collision_exclusion", branch_target, "ev"),
         ("e1_n256_proper_conductor_collision_exclusion", branch_target, "ev"),
         ("e1_n256_2adic_cofactor_collision_exclusion", branch_target, "ev"),
+        ("e1_n256_s16_signed_chord_collision_gate", branch_target, "ev"),
         ("e1_n512_four_singleton_collision_exclusion", branch_target, "ev"),
         ("e1_n512_trinomial_interval_norm_exclusion", branch_target, "ev"),
     }
@@ -177,6 +179,14 @@ def main():
             "2-adic cofactor exclusion lost its L2 parent")
     require(("collision_norm_criterion", two_adic, "req") in edges,
             "2-adic cofactor exclusion lost its norm parent")
+    signed_chord = "e1_n256_s16_signed_chord_collision_gate"
+    require(nodes[signed_chord]["status"] == "PROVED",
+            "N=256 signed-chord gate regressed")
+    signed_chord_statement = nodes[signed_chord]["statement"].lower()
+    require("c<=-7" in signed_chord_statement and "circular sidon" in signed_chord_statement,
+            "N=256 signed-chord conclusion is missing")
+    require((n256_s16, signed_chord, "req") in edges,
+            "signed-chord gate lost its variance parent")
     four_singleton = "e1_n512_four_singleton_collision_exclusion"
     require(nodes[four_singleton]["status"] == "PROVED",
             "N=512 four-singleton exclusion regressed")
@@ -208,6 +218,7 @@ def main():
         n256_s16,
         proper_conductor,
         two_adic,
+        signed_chord,
         four_singleton,
         trinomial,
         branch_target,

@@ -40,6 +40,9 @@ a short pre-registered route decision.
    synonymous with periodicity. The exact 2-adic cofactor screen further
    forces the four-singleton reduction to have multiplicity at most five at
    one and forbids singleton separation divisible by 32 in `(4,2,0)`.
+   In `(3,4,0)`, the signed-chord identity additionally forces an
+   oppositely signed equal-distance pair, reducing the residual to
+   three-term-progression and parallelogram templates.
 3. Before taking moments on any residual row, screen the complete-support FM1
    sum. If it is at most `B*`, no subfamily or nonnegative collision correction
    can trigger `nu(A)>B*`. This screen rules out `M` on all six named
@@ -57,4 +60,5 @@ at swap distance five for `N=256` and three for `N=512`. The first `N=256`
 band reduces to `(4,2,0),(3,4,0)`; the complete `N=512,s=2` band is closed.
 Only full-conductor supports remain at `N=256,s=5`; within
 `(3,4,0)` the variance residual is `0<V<=134`. Apply the 2-adic
-singleton screen before any residual norm computation.
+singleton screen before any residual norm computation, then use the forced
+signed additive-relation templates rather than generic support enumeration.

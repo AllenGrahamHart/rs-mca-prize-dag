@@ -20,6 +20,7 @@ e1_prime_field_l2_norm_collision_radius  --ev-->
 e1_n256_s16_high_variance_collision_exclusion --ev-->
 e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
+e1_n256_s16_signed_chord_collision_gate --ev-->
 e1_n512_four_singleton_collision_exclusion --ev-->
 e1_n512_trinomial_interval_norm_exclusion --ev-->
 e1_official_prime_exception_control       --ev-->
@@ -76,3 +77,6 @@ remove the first four `N=256` swap bands and the first two `N=512` bands. At
 autocorrelation variance at most 134, and both first-band profiles are reduced
 to full-conductor supports. Exact cofactor windows also impose the
 singleton-reduction multiplicity bounds `5` and `16` in the two profiles.
+The square-mass-16 residual additionally has signed repeated-chord cross sum
+at most `-7`, so every remaining support has a three-term or
+parallelogram relation.

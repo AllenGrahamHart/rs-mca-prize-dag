@@ -301,6 +301,24 @@
    "notes": "ROUTE REDUCTION 2026-07-27: adds exact 2-adic necessary conditions to both first-band N=256 profiles. Passing the tests is not sufficient, and neither profile nor the total ledger is closed."
   },
   {
+   "id": "e1_n256_s16_signed_chord_collision_gate",
+   "title": "N=256 square-mass-16 signed-chord collision gate",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/statement.md",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/proof.md",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/claim_contract.md",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/audit.md",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/result.md",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/source_pin.json",
+    "background/nodes/e1_n256_s16_signed_chord_collision_gate/verify.py"
+   ],
+   "statement": "In the profile-(3,4,0) residual 0<V<=134, let D_64 be the squared weight of diameter chords and C the signed cross sum between distinct support chords of equal non-diameter circular length. Exact negacyclic energy gives V/2=102-D_64+2C. Diameter chords form a matching of weight at most 21, so C<=-7. Thus every residual support has an oppositely signed equal-chord pair, is not circular Sidon, and lies on a signed three-term-progression or four-point-parallelogram template.",
+   "notes": "ROUTE REDUCTION 2026-07-27: converts the analytic low-variance residual into an exact additive-relation classification gate. It does not enumerate or exclude the resulting templates."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -17686,6 +17704,11 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_high_variance_collision_exclusion",
+   "to": "e1_n256_s16_signed_chord_collision_gate",
+   "kind": "req"
+  },
+  {
    "from": "e1_prime_field_l2_norm_collision_radius",
    "to": "e1_n512_four_singleton_collision_exclusion",
    "kind": "req"
@@ -17767,6 +17790,16 @@
   },
   {
    "from": "e1_n256_2adic_cofactor_collision_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

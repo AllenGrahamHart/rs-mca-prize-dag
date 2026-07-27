@@ -969,6 +969,22 @@ exact route-uniform screen, not a close of either profile. Apply it before
 residual norm work. See
 `background/nodes/e1_n256_2adic_cofactor_collision_exclusion/`.
 
+N30 DONE, E1 N=256 SIGNED-CHORD GATE: in profile `(3,4,0)`, the
+21 support chords have baseline squared weight 102. Diameter chords form a
+matching of weight at most 21. Expanding the exact negacyclic energy gives
+
+```text
+V/2=102-D_64+2C.
+```
+
+The residual `V<=134` therefore forces signed repeated-distance cross
+sum `C<=-7`. Every live support has an oppositely signed pair of equal
+non-diameter chords and hence a three-term-progression or four-point
+parallelogram relation. This removes all circular-Sidon supports and turns the
+next task into an additive-template classification; it does not yet exclude
+those templates. See
+`background/nodes/e1_n256_s16_signed_chord_collision_gate/`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable

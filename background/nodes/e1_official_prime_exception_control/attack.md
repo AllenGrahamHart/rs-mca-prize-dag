@@ -46,8 +46,11 @@ explicit finite inequality at the row.
    full-conductor vector with `V=36` rules out reducing the residual to
    periodic lifts. Classify the full-conductor residual before revisiting
    generic supports, applying the exact 2-adic multiplicity gate before any
-   norm computation. The complete `N=512,s=2` band is closed; start
-   at `s=3`.
+   norm computation. The signed-chord gate further excludes circular-Sidon
+   supports: every residual has an oppositely signed equal-distance chord
+   pair, hence a three-term or parallelogram template. Classify those templates
+   rather than rescan generic supports. The complete `N=512,s=2` band
+   is closed; start at `s=3`.
 3. A certifier route is legitimate only with proved termination, soundness,
    and coverage for every row in the printed pair-feasible candidate class.
 4. If direct image size can be certified above `B*` without bounding `P`, send

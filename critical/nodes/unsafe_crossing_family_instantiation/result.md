@@ -41,4 +41,6 @@ argument excludes every proper-conductor support in both first-band profiles.
 Only full-conductor supports remain, and a certified one exists at variance
 `36`, so the first band is not closed. A 2-adic cofactor argument
 independently forces singleton-reduction multiplicity at most five in
-`(3,4,0)` and at most sixteen in `(4,2,0)`.
+`(3,4,0)` and at most sixteen in `(4,2,0)`. The first residual
+also has a proved signed equal-chord relation, but its progression and
+parallelogram templates remain open.
