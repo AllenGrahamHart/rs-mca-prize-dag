@@ -1,8 +1,8 @@
 # noncontain_degeneracy
 
 - **status:** see dag.json (single source of truth; dag status PROVED)
-- **closure:** proof (transcribed from the upstream proof_sketch source, 2026-07-27)
-- **source:** read with `git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/<file>`
+- **closure:** proof
+- **statement provenance:** written 2026-07-27 during the empty-statement remediation; see notes/wave24_integration_20260727/STATEMENT_REMEDIATION.md
 
 ## Statement
 

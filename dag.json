@@ -111,7 +111,8 @@
    "refs": [
     "wp_detail/wp0_2_wp4_4_rules_freeze_and_dither.md#1"
    ],
-   "notes": "Decomposed 2026-07-04 (normal-form audit): the provisional condition IS the rules-freeze question \u2014 live page wording 'rates exact' resolves dither ADVERSE; now wired as req on rules_freeze instead of living in prose. | DISCHARGED 2026-07-04: rules_freeze flipped green (rates-exact quoted verbatim from abf26.pdf p.5) \u2014 the conditional's hypothesis landed; the adverse resolution (no dither latitude => the maximal dyadic quotient structure STANDS) is now unconditional."
+   "notes": "Decomposed 2026-07-04 (normal-form audit): the provisional condition IS the rules-freeze question \u2014 live page wording 'rates exact' resolves dither ADVERSE; now wired as req on rules_freeze instead of living in prose. | DISCHARGED 2026-07-04: rules_freeze flipped green (rates-exact quoted verbatim from abf26.pdf p.5) \u2014 the conditional's hypothesis landed; the adverse resolution (no dither latitude => the maximal dyadic quotient structure STANDS) is now unconditional.",
+   "statement": "NO DITHER LATITUDE (closure: citation, via `rules_freeze`). The prize rates are EXACT \u2014 quoted verbatim from abf26.pdf p.5 \u2014 so the provisional dither condition resolves ADVERSELY: there is no latitude to perturb the rates, and consequently the maximal dyadic quotient structure STANDS unconditionally. Originally a conditional on the rules-freeze question; discharged 2026-07-04 when `rules_freeze` flipped green, and wired as req on `rules_freeze` rather than carried in prose. [statement written 2026-07-27 from this node's own ledger]"
   },
   {
    "id": "field_cap_check",
@@ -155,7 +156,8 @@
     "proof_sketch/s2_paid_ledger.md#3",
     "tex/cs25_cap_v12.tex"
    ],
-   "notes": "v12 audit DONE (#177 integrated e7042160; one rounding fix patched by maintainer); external G3 rank-boundary toy packet open (#175, latifkasuli \u2014 NEW external lane). | Blueprint: the universal cap is 'modulo the imported Crites-Stewart conversion' \u2014 v12's self-contained half-Johnson CA mitigates; the bridge row must state which variant the dossier uses."
+   "notes": "v12 audit DONE (#177 integrated e7042160; one rounding fix patched by maintainer); external G3 rank-boundary toy packet open (#175, latifkasuli \u2014 NEW external lane). | Blueprint: the universal cap is 'modulo the imported Crites-Stewart conversion' \u2014 v12's self-contained half-Johnson CA mitigates; the bridge row must state which variant the dossier uses.",
+   "statement": "THE UNIVERSAL CAP (Paper D, tex/cs25_cap_v12.tex; the cap line of proof_sketch/s2_paid_ledger.md#3-#4 reads 'cap (proved): eta = 2^-9 (2^-10 at rho = 1/16)'). The Paper D cap construction proves the row UNSAFE at reserve eta = 2^-9 (2^-10 at rate 1/16) \u2014 i.e. delta* <= cap \u2014 and, per the same source, it does so REGARDLESS of the zone-(b) resolution. Audit state: v12 audit DONE (#177, integrated e7042160; one rounding fix patched by the maintainer). CAVEAT carried from the blueprint: the universal cap is stated 'modulo the imported Crites-Stewart conversion'; v12's self-contained half-Johnson CA variant mitigates this, and the submission dossier's bridge row must state which variant it uses. SCOPE: this is the cap (an upper bracket on delta*) only \u2014 it does NOT pin delta* at the adjacent grid point, which is the separate unsafe_at_crossing obligation. [statement written 2026-07-27]"
   },
   {
    "id": "qfloor_exact",
@@ -237,7 +239,8 @@
    "key": true,
    "refs": [
     "proof_sketch/prize_proof_sketch_spine.md#2"
-   ]
+   ],
+   "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/prize_proof_sketch_spine.md#2, 'The exact counting frame (what is already rigorous)']. THE EXACT COUNTING FRAME. Fix a pair (u,v) and exact agreement A (t = A-k, j = n-A). Locators of co-supports are squarefree degree-j divisors of X^n - 1 \u2014 a FINITE set of size C(n,j), i.e. points in P^j coefficient space. The Hankel pencil is LINEAR in the slope: M(Z) l = a + Z b with a = H_{t,j}(u) l and b = H_{t,j}(v) l in F^t. Hence per valid locator l, when b != 0 there is at most ONE bad slope Z = -a_r/b_r (subject to the consistency condition) \u2014 the Paper D v12 quotient-support ledger's 'one support pays for at most one slope'."
   },
   {
    "id": "v8_ledger",
@@ -245,7 +248,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/prize_proof_sketch_spine.md#2"
-   ]
+   ],
+   "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/prize_proof_sketch_spine.md#2]. THE v8 SUPPORT LEDGER (the accounting form of the exact counting frame): bad slopes are charged to squarefree degree-j divisors of X^n - 1, of which there are exactly C(n,j); the Hankel pencil M(Z) l = a + Z b is linear in the slope, so a support with b != 0 pays for at most ONE slope (Paper D v12 quotient-support ledger, PROVED-cited). The ledger is therefore a finite, per-support accounting of the bad-slope count at exact agreement A."
   },
   {
    "id": "noncontain_degeneracy",
@@ -264,7 +268,8 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#2"
    ],
-   "notes": "IN FLIGHT: PR #181 (Codex) = the standalone proof note (Q2.1); flips to PROVED on integration. | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
+   "notes": "IN FLIGHT: PR #181 (Codex) = the standalone proof note (Q2.1); flips to PROVED on integration. | FLIP on replay (Codex wave 3): PROVABLE -> PROVED.",
+   "statement": "FM1 \u2014 THE FIRST-MOMENT ALIGNMENT COUNT (exact). Fix a support R of size j and write S = H \\ R; the RS restriction to S has dimension k with |S| = k + t, so the quotient syndrome space has dimension t. For a received pair (u,v) with syndromes U,V in F^t of u|_S, v|_S, the support R is aligned at a finite slope z exactly when U + z V = 0 with V != 0 (the excluded V = 0 case is the standard all-slope/paid-fiber degeneracy and is not counted in this column). Counting q^t - 1 nonzero V and q choices U = -z V gives alignment probability q(q^t - 1)/q^(2t) = (1 - q^(-t)) q^(1-t), so by linearity of expectation over the binom(n,j) supports: E[#aligned] = binom(n,j) (1 - q^(-t)) q^(1-t). [statement written 2026-07-27 from this node's own proof.md]"
   },
   {
    "id": "vtdv",
@@ -308,7 +313,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#1"
-   ]
+   ],
+   "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/s2_paid_ledger.md#1, tagged 'statuses per component'; the tangent line is PROVED-cited (#147 staircase range)]. THE TANGENT STAIRCASE RANGE: for a row (n, k, q = q_line) at exact agreement A (t = A-k, j = n-A), the tangent term satisfies B_tan(A) <= n - A + 1. SCOPE: at prize scale n <= 2^41 << B* ~ 2^128 this term NEVER binds; at small q it is the whole story (the 506/507 pinned row). The load-bearing quotient term B_quot(A) is a different component of the same ledger and is NOT claimed here."
   },
   {
    "id": "envelope",
@@ -354,7 +360,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s3b_ii_strip_periodic.md#2"
-   ]
+   ],
+   "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/s3b_ii_strip_periodic.md#2; the recursion itself is the proved multi-scale reduction (x1 quotient reduction, on main)]. THE MULTI-SCALE QUOTIENT RECURSION Q_M(H_n) = Q_1(H_{n/M}), rate-preserved. For UNSTRUCTURED pairs periodic locators receive no alignment boost \u2014 FM1 gives the same q^{1-t} per locator and the periodic strata are exponentially thin (C(n/M, j/M) against C(n,j)) \u2014 so their first-moment mass is negligible. The paid quotient mass comes from STRUCTURED pairs, where the t syndrome conditions fold to ~t/M conditions on the quotient row, boosting the probability to q^{1-t/M}; that folding is exactly the recursion above. SCOPE FENCE: the surrounding section is tagged 'SKETCH on proved parts' \u2014 only the recursion and the FM/thinness facts are claimed here."
   },
   {
    "id": "confinement",
@@ -362,7 +369,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s3b_ii_strip_periodic.md#1"
-   ]
+   ],
+   "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/s3b_ii_strip_periodic.md#1, tagged 'PROVED-cited']. THE CONFINEMENT/EQUIVARIANCE BRIDGE: a zeta-equivariant word together with a K_M-stable support forces the completion to fold (P_S = X^r G(X^M)) and the slope to confine \u2014 i.e. support-periodicity becomes line-periodicity. This is the bridge between the two nonequivalent notions of periodic: support-side (locator l is M-periodic iff its root set is a union of K_M-cosets, equivalently l(X) = g(X^M), requiring M | gcd(n,j)) and line-side (a residue line is quotient-periodic iff its DENOMINATOR is a pullback through x -> x^M with M | gcd(n,k), M > 1)."
   },
   {
    "id": "isotypic",
@@ -370,7 +378,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s3b_ii_strip_periodic.md#1"
-   ]
+   ],
+   "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/s3b_ii_strip_periodic.md#1, tagged 'PROVED-cited']. THE ISOTYPIC REFINEMENT: the confinement/equivariance bridge is EXACT only on the equivariant stratum. Multi-isotypic words on K_M-stable supports produce slopes that ESCAPE confinement \u2014 established by a verified witness on main. Hence support-periodicity implies line-periodicity only after restricting to the equivariant (single-isotypic) stratum."
   },
   {
    "id": "gap1_noneq_mass",
@@ -391,7 +400,8 @@
    "refs": [
     "proof_sketch/s4_reserve_dictionary.md#3"
    ],
-   "notes": "IN FLIGHT: PR #189 (Q2.2 executed). | FLIP on replay (consolidation agent): PROVABLE -> PROVED (verify 3/3 replayed)."
+   "notes": "IN FLIGHT: PR #189 (Q2.2 executed). | FLIP on replay (consolidation agent): PROVABLE -> PROVED (verify 3/3 replayed).",
+   "statement": "[lifted verbatim 2026-07-27 from this node's own proof.md Statement section] GAP-2 seam. In the normal-form / residue framework (`thm:normalform`,\n`def:residue`, banked), a bad-slope datum on a residue line carries a\n**denominator polynomial** `E in F[X]` of degree `t_denom` with\n`1 <= t_denom <= r`, where `r = n - k`. Say the datum is a **pullback** if\n`E = g(X^M)` for some `g in F[X]` and integer `M >= 2`. Claim:\n\n1. **(Divisibility.)** A pullback denominator forces `M | t_denom`.\n2. **(Strip coincidence.)** If moreover `M | gcd(n,k)`, then the line-side\n   aperiodic strip (`rem:aper`: remove pullback denominators) coincides with\n   the support-side **rate-preserving** quotient strip (the `Q_M = Q_1(H_{n/M})`\n   recursion, banked): on every exact-agreement bucket `A`,\n   `M | j  <=>  M | t_win`, where `j = n - A`, `t_win = A - k`.\n3. **(Residual seam classified.)** The only strata that are periodic on the\n   support side but *not* pulled back rate-preservingly are those with\n   `M | gcd(n,j)` but `M !| k`: these are **non-rate-preserving folds** \u2014 the\n   quotient row `(n/M, k/M)` is not integral, the syndrome conditions do not\n   descend to a valid RS row, so they stay on the aperiodic side and carry no\n   alignment boost (checker convention `rem:aper`).\n\nParts 1\u20132 are the load-bearing divisibility content and are proved here in full.\nPart 3's classification is proved; its \"no boost\" clause is the banked\n`rem:aper` convention, cited (not re-derived), and flagged as such."
   },
   {
    "id": "r2_rigidity",
@@ -711,7 +721,8 @@
    "refs": [
     "proof_sketch/s7_list_side.md#2"
    ],
-   "notes": "DISCHARGED: qcore + s0 both green."
+   "notes": "DISCHARGED: qcore + s0 both green.",
+   "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/s7_list_side.md#2, tagged 'PROVED-cited + verified']. THE UNSAFE HALF AT THE PRIZE GATE IS UNCONDITIONAL. By thm:qcore, quotient cores produce >= C(n/M - 1, k/M) codewords at agreement k + sigma whenever M | k and sigma < M \u2014 INDEPENDENTLY of q: a pure count, with no norm threshold and no value-set collision question, since the codewords are distinct by construction. Verified exponent check: log2 C(n/M-1, k/M) ~ (n/M) H(rho) (1017.7 vs 1024 at n = 2^20, M = 2^10). Crossing 2^128 requires a 2-power M | k with sigma < M <= n H(rho)/128, and dyadic domains supply every such scale (verified plentiful at n = 2^41). The resulting list-unsafe slack windows are [H/256, H/128] at rate 1/2 and the tabulated analogues at 1/4, 1/8, 1/16."
   },
   {
    "id": "qcore",
@@ -720,7 +731,8 @@
    "refs": [
     "proof_sketch/s7_list_side.md#2"
    ],
-   "notes": " | CATCH #78 REPAIR (2026-07-12): the ref proof_sketch/s7_list_side.md#2 exists nowhere (compression rot the #66 sweep missed); the first in-repo proof is now background/nodes/ww_lower_witnesses/proof.md (independently replayed)."
+   "notes": " | CATCH #78 REPAIR (2026-07-12): the ref proof_sketch/s7_list_side.md#2 exists nowhere (compression rot the #66 sweep missed); the first in-repo proof is now background/nodes/ww_lower_witnesses/proof.md (independently replayed).",
+   "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/s7_list_side.md#2, tagged 'PROVED-cited + verified']. THE QUOTIENT-CORE COUNT (thm:qcore): quotient cores produce at least C(n/M - 1, k/M) codewords at agreement k + sigma whenever M | k and sigma < M. The bound is independent of q \u2014 a pure combinatorial count with no norm threshold and no value-set collision question, the codewords being distinct by construction. Verified exponent: log2 C(n/M-1, k/M) ~ (n/M) H(rho)."
   },
   {
    "id": "pigeonhole",
@@ -793,7 +805,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s7_list_side.md#3"
-   ]
+   ],
+   "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/s7_list_side.md#3, tagged 'PROVED-cited (mine) + verified budgets']. THE L2 CODEGREE REDUCTION (Theorems A/B/C, on main, L1-free): m-fold interleaved lists reduce to base-list fibers at agreements a and 2a - k. With the K_{m,m} clique cap n >= k + m^2(a - k), amplification is bounded linearly in n. Verified budget at the protocol row (n = 2^40, mu = 2, log2 q - 128 = 128): the interleaved-MCA term is <= n^{eB}/q <= 2^-128 iff eB <= 128/40, giving base-list exponent B <= 1.60 at worst-case e = 2 and B <= 3.20 under a-regular collapse (e = 1)."
   },
   {
    "id": "deep_point",
@@ -801,7 +814,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s7_list_side.md#3"
-   ]
+   ],
+   "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/s7_list_side.md#3, tagged 'PROVED-cited (mine) + verified budgets']. THE DEEP-POINT IDENTITY: BadVec = Deep_alpha^mu. Consequently the worst-case a-regular collapse has interleaved list equal to the base list \u2014 exponent exactly 1 \u2014 which is the identity the interleaved conversion budget consumes alongside the codegree reduction."
   },
   {
    "id": "a_regular_collapse",
@@ -858,7 +872,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s6_extension_lift.md#1"
-   ]
+   ],
+   "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md#1, tagged 'elementary']. THE TRIVIAL HALF OF THE EXTENSION LIFT. Let B = F_p(D) be the generated field and F contains B the ambient/sampling field. The alignment pencil is linear with coefficients a(l), b(l) built from the pair's syndromes; hence if the PAIR (and therefore its syndromes) is B-rational, every aligned slope Z = -a_r/b_r lies in B automatically. Consequently B-rational data cannot produce genuinely F-valued bad slopes: those require either F-valued words or the pole mechanism. This is the precise sense in which the lift is 'free' on generating rows, and the reason the safe-side classification is a Galois-descent question about the pencil data. SCOPE: that classification (same file, section 4) is CONJECTURE and is NOT claimed here."
   },
   {
    "id": "ext_pole_floor",
@@ -876,7 +891,8 @@
    "refs": [
     "proof_sketch/s6_extension_lift.md#2"
    ],
-   "notes": "IN FLIGHT: PR #190 (Q2.4 executed). | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
+   "notes": "IN FLIGHT: PR #190 (Q2.4 executed). | FLIP on replay (Codex wave 3): PROVABLE -> PROVED.",
+   "statement": "THE EXTENSION COLUMN NEEDS NO NEW THRESHOLD CALCULATION. `ext_pole_floor` supplies the extension-pole witness count N(L) and its gate-crossing formula, in which the extension parameter L is exactly the base list-window parameter of the S7 list side. Hence B_ext >= gate holds exactly at the base-row list window where the S7 list threshold is met, after the floor convention already included in `ext_pole_floor`. [statement written 2026-07-27 from this node's own proof.md]"
   },
   {
    "id": "generating_escape",
@@ -1360,7 +1376,8 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#5"
    ],
-   "notes": "IN FLIGHT: #194 (bundle) | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
+   "notes": "IN FLIGHT: #194 (bundle) | FLIP on replay (Codex wave 3): PROVABLE -> PROVED.",
+   "statement": "THE TANGENT PAID COLUMN Paid_tan(A) is a computable function of the row and the agreement index A, equal to the first-match sum of (i) the explicit tangent staircase contribution supplied by `staircase` and (ii) the residual common-code-line charge supplied by `common_code_line_budget` for slopes lying on a common code line but not already counted by the primary staircase stratum. Convention: a witness is charged to the first applicable tangent cell, and residual common-line witnesses are charged thereafter. [statement written 2026-07-27 from this node's own proof.md]"
   },
   {
    "id": "paid_quot_fn",
@@ -1369,7 +1386,8 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#5"
    ],
-   "notes": "interval-valued form buildable now; POINT values in zone (b) conditional on the collision question | IN FLIGHT: #194 | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
+   "notes": "interval-valued form buildable now; POINT values in zone (b) conditional on the collision question | IN FLIGHT: #194 | FLIP on replay (Codex wave 3): PROVABLE -> PROVED.",
+   "statement": "THE QUOTIENT PAID COLUMN IS INTERVAL-VALUED, NOT POINT-VALUED. Partitioning the quotient column into zones (a), (b), (c): `qfloor_exact` supplies the exact floor rule above the norm threshold and `acl_count` the characteristic-zero aligned-class count, making zones above the threshold point-valued computable counts. Zone (b) \u2014 the value-set collision question \u2014 is NOT closed in this DAG. Accordingly this node proves only Paid_quot(A) in [lower_quot(A), upper_quot(A)], where the lower endpoint is the certified exact-floor/ACL count and the upper endpoint is the recorded collision-safe envelope for the unresolved zone. This interval object is exactly what `paid_closure` and the downstream `zone_b` branch consume. NONCLAIM: no point-valued zone-(b) conclusion. [statement written 2026-07-27 from this node's own proof.md]"
   },
   {
    "id": "paid_ext_fn",
@@ -1378,7 +1396,8 @@
    "refs": [
     "proof_sketch/s6_extension_lift.md#2"
    ],
-   "notes": "IN FLIGHT: #194 | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
+   "notes": "IN FLIGHT: #194 | FLIP on replay (Codex wave 3): PROVABLE -> PROVED.",
+   "statement": "THE EXTENSION PAID COLUMN Paid_ext(A), by cases. On GENERATING rows `generating_escape` proves the extension escape column is zero (the generator field is already the row field, so there is no nontrivial intermediate extension contribution to price). On NON-GENERATING rows `ext_import` gives that the extension-pole witness count crosses the gate exactly at the imported S7 list window, so the column is computed by applying that imported list-window rule to the base row. [statement written 2026-07-27 from this node's own proof.md]"
   },
   {
    "id": "f1_case_pole",
@@ -1456,7 +1475,8 @@
    "refs": [
     "wp_detail/wp2_3_stratification_case_tree.md"
    ],
-   "notes": "PROVED (Opus write-up, my replay: 1536-point exhaustive + 307200 randomized, PASS): first-match + catch-all => partition, for ANY predicates. THE NINE-CELL READING: {T0..T7, L} with L nonempty by design \u2014 T0-T7 alone are NOT total; do not confuse with the open L=0 paid-completeness claim."
+   "notes": "PROVED (Opus write-up, my replay: 1536-point exhaustive + 307200 randomized, PASS): first-match + catch-all => partition, for ANY predicates. THE NINE-CELL READING: {T0..T7, L} with L nonempty by design \u2014 T0-T7 alone are NOT total; do not confuse with the open L=0 paid-completeness claim.",
+   "statement": "THE T0-T7 FIRST-MATCH STRATIFICATION IS A PARTITION (total and pairwise disjoint) of the pair space. Precisely: for fixed exact agreement A (t = A-k, j = n-A) let Pi_A be the ordered pairs (u,v) of syndrome vectors at exact agreement A, so that the whole pair space is the disjoint union Pi = disjoint-union over A of Pi_A. The tree defines a classification map cls : Pi_A -> {T0,...,T7, L} (the eight gates plus the terminal residual leaf L), and the theorem is that cls is WELL-DEFINED and EVERYWHERE-DEFINED \u2014 every pair lands in exactly one cell. Machine-checked by this node's verify.py (exhaustive toy-model check + fuzz spec). Consumers: strat_tree takes it as its single predicate ('every pair enters exactly one T0-T7 cell'), and safe_assembly_uniformity clause (ii) is exactly this partition ('the stratified sum with first-match dedup composes'). [statement written 2026-07-27 from this node's own proof.md, which transcribes wp_detail/wp2_3_stratification_case_tree.md section 2]"
   },
   {
    "id": "beta2_moment_corroboration",
@@ -1515,7 +1535,8 @@
    "refs": [
     "proof_sketch/s2_paid_ledger.md#3"
    ],
-   "notes": "pure divisor-count computation; conj:B's profile hypothesis is unverifiable on official rows without it | IN FLIGHT: #195 (#205 closed as redundant) | pma_pullback_lists REALIZES the quotient-profile mass concretely \u2014 the profile budget this node computes is exactly what charges the counterexample family. | FLIP on replay (consolidation agent): exact big-int reproduction of QA.22 (log2 Q_M* = 99.81/66.15/82.97); first-scale dominance proved; n-uniform (RowC = prize); rate-1/2 parity-killed. | #156 SCOPE (2026-07-13): the 'rate-1/2 carries no dyadic quotient mass / parity-killed' claim is scoped to the ODD-A M > t_res rows; the qa22 extension's even-A rate-1/2 own rows are nonzero (and carry the grid's largest first-scale column + the exact COL cap 4)."
+   "notes": "pure divisor-count computation; conj:B's profile hypothesis is unverifiable on official rows without it | IN FLIGHT: #195 (#205 closed as redundant) | pma_pullback_lists REALIZES the quotient-profile mass concretely \u2014 the profile budget this node computes is exactly what charges the counterexample family. | FLIP on replay (consolidation agent): exact big-int reproduction of QA.22 (log2 Q_M* = 99.81/66.15/82.97); first-scale dominance proved; n-uniform (RowC = prize); rate-1/2 parity-killed. | #156 SCOPE (2026-07-13): the 'rate-1/2 carries no dyadic quotient mass / parity-killed' claim is scoped to the ODD-A M > t_res rows; the qa22 extension's even-A rate-1/2 own rows are nonzero (and carry the grid's largest first-scale column + the exact COL cap 4).",
+   "statement": "[lifted verbatim 2026-07-27 from this node's own proof.md Statement section] Compute the quotient profile `Q_H(eta)` exactly for **2-power (dyadic) domains**\n`n = 2^m` at the four rates `rho in {1/2, 1/4, 1/8, 1/16}`. Here the quotient\nmass on a dyadic scale `M = 2^i | n` (with `M > t`, `t = A - k`) is the fixed-tail\nquotient-coset count (banked `thm:qcore` / `prop:qfloor`, and the QA.22 column\nconvention)\n\n```\nQ_M = C(n/M - 1, floor(A/M)),          M | n,  M > t,                      (Q)\n```\n\nand the profile is `Q_H = sum_{M|n, M>t} Q_M` (with the dihedral/Chebyshev\ncompanion `D_M`, below). \"`eta`\" is the reserve `eta = t/n`, which sets the\nsmallest admissible `M`. The deliverable is the *exact* value of `(Q)` at each\nrate for both a small dyadic row (RowC, `n = 2^10`) and the prize dyadic row\n(`n = 2^41`), together with the structural facts that make the profile\nwell-defined and computable: **first-scale dominance** and **n-uniformity**."
   },
   {
    "id": "thm_exactslack",
@@ -1596,7 +1617,8 @@
    "refs": [
     "tex/proximity_blueprint_v3.tex"
    ],
-   "notes": "RESOLVED 2026-07-03: blueprint line 116: 'For constant interleaving arity m, determine the threshold.' Reading: the list challenge is a FAMILY of determinations, one per constant m. Consequences: per-m determinations are valid prize objects (m <= 3 instances covered by the worst-case route are genuine partials); the FULL family at arbitrary constant m still needs a-regularity or equivalent \u2014 a_regularity_forcing stays relevant for large-m members."
+   "notes": "RESOLVED 2026-07-03: blueprint line 116: 'For constant interleaving arity m, determine the threshold.' Reading: the list challenge is a FAMILY of determinations, one per constant m. Consequences: per-m determinations are valid prize objects (m <= 3 instances covered by the worst-case route are genuine partials); the FULL family at arbitrary constant m still needs a-regularity or equivalent \u2014 a_regularity_forcing stays relevant for large-m members.",
+   "statement": "THE m-QUANTIFIER READING (closure: citation). Blueprint line 116 reads 'For constant interleaving arity m, determine the threshold.' The operative reading is therefore that the list challenge is a FAMILY of determinations, one per constant m. Consequences: per-m determinations are valid prize objects (the m <= 3 instances covered by the worst-case route are genuine partials), while the FULL family at arbitrary constant m still requires a-regularity or an equivalent \u2014 so `a_regularity_forcing` remains relevant for large-m members. Source: tex/proximity_blueprint_v3.tex. [statement written 2026-07-27 from this node's own ledger]"
   },
   {
    "id": "imgfib_monomial",

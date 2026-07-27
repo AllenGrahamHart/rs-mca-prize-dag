@@ -199,7 +199,9 @@ def main() -> None:
             "the assumption they are 'recorded in the node folder', which is false "
             "for them; write the artifact or repair the ref")
 
-    _EMPTY_STMT_PIN = 31  # 37 -> 36 (wave-24 orbit change) -> 31 (2026-07-27: five
+    _EMPTY_STMT_PIN = 9   # 2026-07-27 remediation: 31 -> 9 (22 statements transcribed
+    # from primary sources; see notes/wave24_integration_20260727/STATEMENT_REMEDIATION.md,
+    # which names the exact source each of the remaining 9 needs)  # 37 -> 36 (wave-24 orbit change) -> 31 (2026-07-27: five
     # stub leaves transcribed from their upstream proof_sketch sections during the
     # auto-discharge re-grade: vtdv, ext_pole_floor, generating_escape,
     # periodic_strata, noncontain_degeneracy). Lowered as artifacts are written.
