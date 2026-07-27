@@ -63,10 +63,12 @@ explicit finite inequality at the row.
    `M_3=1302` cutoff and the proper-conductor theorem. Do not rerun this
    chamber. At `V=60`, exact profile/parity reduction leaves eight profiles.
    The quotient ledger closes `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`; the
-   complete two-odd ledger closes `(2,7)` and `(1,5,1)`. The residual is
-   exactly `(6,6)`, `(5,4,1)`, and `(4,2,2)`, all with six odd light classes.
-   Seek an analytic moment or additive-structure reduction; the proved direct-
-   census floor is 21,773,185,792 vectors, so do not brute-force this branch.
+   complete two-odd ledger closes `(2,7)` and `(1,5,1)`. A structured odd-
+   difference relaxation plus exact exceptional norms closes `(4,2,2)`. The
+   residual is exactly `(6,6)` and `(5,4,1)`, both with six odd light classes.
+   Extend the difference-mask method with an optimizer or analytic bound for
+   their larger even layers; the proved direct-census floor is 21,773,185,792
+   vectors per profile, so do not brute-force this branch.
    The
    signed-chord gate
    further excludes circular-Sidon supports: every residual has an oppositely

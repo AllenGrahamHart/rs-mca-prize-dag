@@ -1120,6 +1120,37 @@
    "notes": "ROUTE CLOSURE 2026-07-27: removes both two-odd V=60 profiles. Together with the quotient exclusion, the exact residual is (6,6), (5,4,1), and (4,2,2), all in the six-odd branch."
   },
   {
+   "id": "e1_n256_s16_e30_profile_422_exclusion",
+   "title": "N=256 E=30 profile-(4,2,2) exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e30_profile_422_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e30_profile_422_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e30_profile_422_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e30_profile_422_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e30_profile_422_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e30_profile_422_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e30_profile_422_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e30_profile_422_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e30_profile_422_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile422_odd_difference_relaxation.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile422_odd_difference_relaxation_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile422_odd_difference_relaxation_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile422_odd_difference_relaxation_audit.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile422_odd_difference_relaxation_audit_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile422_odd_difference_relaxation_audit_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile422_exceptional_actual_census.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile422_exceptional_actual_audit.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile422_exceptional_actual_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile422_exceptional_actual_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile422_exceptional_norm_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile422_exceptional_norm_result.json"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=60, profile (4,2,2) cannot collide. Two exact odd-difference relaxations agree on 1,234 masks and 29,541,960 assignments, with only three assignments above M_3=1087. Two actual-vector engines reduce these to six vectors, four of proper conductor; FLINT and PARI put both primitive norms below threshold with 447*N_max<2^250<448*N_max.",
+   "notes": "ROUTE CLOSURE 2026-07-27: removes one of the three six-odd V=60 profiles. The exact endpoint residual is now (6,6) and (5,4,1)."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -19338,6 +19369,21 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e30_profile_422_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e30_profile_422_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e30_profile_422_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -19789,6 +19835,16 @@
   },
   {
    "from": "e1_n256_s16_e30_two_odd_profile_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_422_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_422_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

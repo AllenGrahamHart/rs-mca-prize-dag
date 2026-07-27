@@ -155,7 +155,8 @@ The `V=60` chamber is now sharply reduced but remains open. Exact slack and
 parity leave eight profiles. A complete mod-16 allocation ledger excludes
 `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`. Two independent 87-template censuses
 and two independent exact-resultant ledgers exclude `(2,7)` and `(1,5,1)`.
-The exact residual is `(6,6)`, `(5,4,1)`, and `(4,2,2)`, all in the six-odd
-branch. Its direct affine-orbit census has a proved floor of 21,773,185,792
-signed vectors, so this is a structural proof target rather than a brute-force
-job.
+A complete odd-difference relaxation reduces `(4,2,2)` to six actual vectors;
+proper conductor and exact norms exclude them. The exact residual is `(6,6)`
+and `(5,4,1)`, both in the six-odd branch. A direct affine-orbit census for
+either has a proved floor of 21,773,185,792 signed vectors, so these are
+structural proof targets rather than brute-force jobs.

@@ -1,0 +1,484 @@
+{
+  "agreement": true,
+  "audit": [
+    {
+      "complete": true,
+      "count": 2,
+      "full_conductor": 2,
+      "light": [
+        0,
+        1,
+        6,
+        8
+      ],
+      "matches": [
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "positions": [
+            2,
+            3,
+            4,
+            0,
+            1,
+            6,
+            8
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "positions": [
+            2,
+            3,
+            4,
+            0,
+            1,
+            6,
+            8
+          ]
+        }
+      ],
+      "supports": 310124,
+      "template": 0,
+      "vectors": 19847936,
+      "witness": {
+        "coefficients": [
+          2,
+          2,
+          -2,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "positions": [
+          2,
+          3,
+          4,
+          0,
+          1,
+          6,
+          8
+        ]
+      },
+      "worker_seconds": 2.535170412
+    },
+    {
+      "complete": true,
+      "count": 2,
+      "full_conductor": 0,
+      "light": [
+        0,
+        2,
+        12,
+        16
+      ],
+      "matches": [
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "positions": [
+            4,
+            6,
+            8,
+            0,
+            2,
+            12,
+            16
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "positions": [
+            4,
+            6,
+            8,
+            0,
+            2,
+            12,
+            16
+          ]
+        }
+      ],
+      "supports": 310124,
+      "template": 1,
+      "vectors": 19847936,
+      "witness": {
+        "coefficients": [
+          2,
+          2,
+          -2,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "positions": [
+          4,
+          6,
+          8,
+          0,
+          2,
+          12,
+          16
+        ]
+      },
+      "worker_seconds": 2.122943324
+    },
+    {
+      "complete": true,
+      "count": 2,
+      "full_conductor": 0,
+      "light": [
+        0,
+        4,
+        24,
+        32
+      ],
+      "matches": [
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "positions": [
+            8,
+            12,
+            16,
+            0,
+            4,
+            24,
+            32
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "positions": [
+            8,
+            12,
+            16,
+            0,
+            4,
+            24,
+            32
+          ]
+        }
+      ],
+      "supports": 310124,
+      "template": 2,
+      "vectors": 19847936,
+      "witness": {
+        "coefficients": [
+          2,
+          2,
+          -2,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "positions": [
+          8,
+          12,
+          16,
+          0,
+          4,
+          24,
+          32
+        ]
+      },
+      "worker_seconds": 2.997644771
+    }
+  ],
+  "audit_source_sha256": "7653641953cc2b6d7e0a2d43cb0db38b59d32f7352328198311a946a295424c9",
+  "complete": true,
+  "completed_audit": 3,
+  "completed_production": 3,
+  "expected_each": 3,
+  "production": [
+    {
+      "complete": true,
+      "count": 2,
+      "full_conductor": 2,
+      "light": [
+        0,
+        1,
+        6,
+        8
+      ],
+      "matches": [
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "positions": [
+            2,
+            3,
+            4,
+            0,
+            1,
+            6,
+            8
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "positions": [
+            2,
+            3,
+            4,
+            0,
+            1,
+            6,
+            8
+          ]
+        }
+      ],
+      "supports": 310124,
+      "template": 0,
+      "vectors": 19847936,
+      "witness": {
+        "coefficients": [
+          2,
+          2,
+          -2,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "positions": [
+          2,
+          3,
+          4,
+          0,
+          1,
+          6,
+          8
+        ]
+      },
+      "worker_seconds": 1.099438004
+    },
+    {
+      "complete": true,
+      "count": 2,
+      "full_conductor": 0,
+      "light": [
+        0,
+        2,
+        12,
+        16
+      ],
+      "matches": [
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "positions": [
+            4,
+            6,
+            8,
+            0,
+            2,
+            12,
+            16
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "positions": [
+            4,
+            6,
+            8,
+            0,
+            2,
+            12,
+            16
+          ]
+        }
+      ],
+      "supports": 310124,
+      "template": 1,
+      "vectors": 19847936,
+      "witness": {
+        "coefficients": [
+          2,
+          2,
+          -2,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "positions": [
+          4,
+          6,
+          8,
+          0,
+          2,
+          12,
+          16
+        ]
+      },
+      "worker_seconds": 1.116655538
+    },
+    {
+      "complete": true,
+      "count": 2,
+      "full_conductor": 0,
+      "light": [
+        0,
+        4,
+        24,
+        32
+      ],
+      "matches": [
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "positions": [
+            8,
+            12,
+            16,
+            0,
+            4,
+            24,
+            32
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "positions": [
+            8,
+            12,
+            16,
+            0,
+            4,
+            24,
+            32
+          ]
+        }
+      ],
+      "supports": 310124,
+      "template": 2,
+      "vectors": 19847936,
+      "witness": {
+        "coefficients": [
+          2,
+          2,
+          -2,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "positions": [
+          8,
+          12,
+          16,
+          0,
+          4,
+          24,
+          32
+        ]
+      },
+      "worker_seconds": 1.3371637420000002
+    }
+  ],
+  "production_source_sha256": "a9ec3e5def3fc685dd34fb4e41b5f909fffd2384203cf90e321b1d40b69feb1a",
+  "relaxation_sha256": "9ec8c7757b38d92b17ed9adeadf71083a62a4eb2aa29074fa4051df5a7028ae8",
+  "schema": "e1-e30-profile422-exceptional-actual-v1",
+  "summary": {
+    "audit_worker_seconds": 7.655758507,
+    "count": 6,
+    "full_conductor": 2,
+    "production_worker_seconds": 3.5532572840000003,
+    "vectors_per_engine": 59543808
+  }
+}

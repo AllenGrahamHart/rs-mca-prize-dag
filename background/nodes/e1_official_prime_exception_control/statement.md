@@ -55,10 +55,12 @@ theorem excludes its complement, closing `V=62`. At `V=60`, exact slack gives
 `L<=18`, the cubic cutoff is `M_3=1087`, and parity leaves eight profiles.
 Exact quotient allocation excludes `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`.
 Two independent 87-template censuses plus independent FLINT/PARI exact-
-resultant ledgers exclude the two-odd profiles `(2,7)` and `(1,5,1)`. The
-exact residual is `(6,6)`, `(5,4,1)`, and `(4,2,2)`, all with six odd light
-classes. A direct affine-orbit census has a proved floor of 21,773,185,792
-signed vectors and is not an authorized route. At `N=512,s=2`, exact variance
+resultant ledgers exclude the two-odd profiles `(2,7)` and `(1,5,1)`.
+Difference-mask relaxation, exceptional actual-vector censuses, and exact
+norms also exclude `(4,2,2)`. The exact residual is `(6,6)` and `(5,4,1)`,
+both with six odd light classes. A direct affine-orbit census for either has a
+proved floor of 21,773,185,792 signed vectors and is not an authorized route.
+At `N=512,s=2`, exact variance
 excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.
 Thus any surviving `N=512` collision has `s>=3`.

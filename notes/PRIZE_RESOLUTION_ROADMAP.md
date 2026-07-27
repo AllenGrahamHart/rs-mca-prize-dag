@@ -4782,3 +4782,51 @@ route decision: do not descend to V=58 and do not run the direct six-odd
                 six-light structure, or a norm factorization that treats the
                 three residual profiles simultaneously.
 ```
+
+**2026-07-27, profile `(4,2,2)` structured close:** conditioning the cubic
+moment on the six light differences replaces the 21.77-billion-vector route
+by a 1,234-mask relaxation and six-vector exceptional ledger.
+
+```text
+node attacked: N=256, V=60 profile (4,2,2)
+odd-set identity: b = 1_O + 2*1_(P union E), where O is the symmetric
+                  six-difference set of the four light positions,
+                  |P/+-|=2 inside O, |E/+-|=2 outside O
+normalized light supports: 280,720
+distinct odd masks modulo odd units: 1,234
+relaxation assignments: 1234*binom(6,2)*binom(57,2)=29,541,960
+production relaxation: ap-tvZbcv7UZUzrmCYpkGAOTG,
+                       direct cyclic-convolution expansion,
+                       7.487322 aggregate worker-seconds
+audit relaxation: ap-dJMmIFzqO9ccMXj6V7w4EQ,
+                  positive circular gaps + signed-triple kernel,
+                  1.929715 aggregate worker-seconds
+independent agreement: every shard, mask count, assignment count, maximum,
+                       histogram, and exceptional pattern
+relaxation maximum: M_3=1146; exactly three assignments exceed 1087
+exceptional primitive light support: {0,1,6,8}
+exceptional layers: odd {1,2,5,6,7,8}, magnitude-three {1,2},
+                    magnitude-two {3,4}; other two are dilates by 2 and 4
+actual-vector app: ap-6dp2yFFRypuGUw2Xs9tKcD
+actual coverage per engine: 3*binom(124,3)*64=59,543,808 vectors
+actual engines: folded unordered chords and direct negacyclic product
+actual survivors: two per exceptional orbit; conductor split 2,0,0
+proper conductor: the four scale-two/scale-four vectors are excluded
+primitive vectors: F_1=1+x+2x^2+2x^3-2x^4+x^6-x^8,
+                   F_2=F_1(-x)
+norm app: ap-z7K1Nn5YhdCDPYES6pvGLd, FLINT and PARI/GP
+common exact norm: 4039047355553663302249733085042470588482730556495866201164489362016333826
+strict margin: 447*N_max<2^250<448*N_max; bit length 242
+result: profile (4,2,2) CLOSED
+live V=60 residual: (6,6), (5,4,1), both six odd
+successful census compute: 20.626053 aggregate worker-seconds plus two
+                           negligible exact resultants
+discarded launch: ap-IQ6rztTj4LeLC4wg1DSGgC failed during audit-source
+                  compilation and ran zero numerical tasks
+new assumptions: none
+route decision: extend the odd-mask method to (6,6) and (5,4,1), but replace
+                raw choices of six or four even classes by branch-and-bound,
+                an exact optimizer, or a provable additive upper bound. Do
+                not run either direct vector census and do not descend to
+                V=58.
+```

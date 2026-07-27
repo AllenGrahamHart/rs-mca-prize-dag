@@ -51,10 +51,13 @@ allocation ledger closes `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`. Two
 independent 87-template censuses scan 1,726,770,432 representative vectors and
 close `(1,5,1)` below the cubic cutoff; independent FLINT and PARI ledgers put
 all 28,114 full-conductor `(2,7)` norms below `2^250`. The conductor theorem
-handles both complements. The exact residual is therefore `(6,6)`,
-`(5,4,1)`, and `(4,2,2)`, all in the six-odd branch. Its 280,720 normalized
-light supports require at least 1,097 affine orbits, giving a direct-census
-floor of 21,773,185,792 signed vectors. A subfield norm
+handles both complements. A subsequent 1,234-mask structured relaxation has
+only three profile-`(4,2,2)` assignments above the cutoff; actual-vector
+censuses reduce them to six vectors, and conductor plus exact norms exclude
+all six. The exact residual is therefore `(6,6)` and `(5,4,1)`, both in the
+six-odd branch. Their 280,720 normalized light supports require at least 1,097
+affine orbits, giving a direct-census floor of 21,773,185,792 signed vectors
+for either profile. A subfield norm
 argument also
 removes every vector
 in either profile whose support differences have a nontrivial gcd with
@@ -91,11 +94,12 @@ The next route-deciding attack is algebraic. Either:
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
-  after the 2-adic cofactor screen. In `(3,4,0)`, attack the three six-odd
-  `V=60` profiles analytically through a stronger moment, additive light-chord
-  structure, or norm factorization; every other `V=60` profile and every
+  after the 2-adic cofactor screen. In `(3,4,0)`, extend the successful odd-
+  difference relaxation to `(6,6)` and `(5,4,1)`, using optimization or
+  analytic bounds for their larger even-layer choices; every other `V=60`
+  profile and every
   `V>=62` chamber is closed and must not be rerun. Do not authorize the
-  21.77-billion-vector direct census. Treat the `N=512,s=3` band
+  21.77-billion-vector direct census for either profile. Treat the `N=512,s=3` band
   independently;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;

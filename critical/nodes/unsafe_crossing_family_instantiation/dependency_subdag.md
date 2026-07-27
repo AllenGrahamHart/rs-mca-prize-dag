@@ -191,6 +191,8 @@ profiles at `V=60`. The proved
 `(6,2,0,1)`, and `(3,0,3)`. The proved
 `e1_n256_s16_e30_two_odd_profile_exclusion` removes `(2,7)` and `(1,5,1)` by
 complete independent censuses, exact resultants where needed, and the
-proper-conductor theorem. The residual is exactly `(6,6)`, `(5,4,1)`, and
-`(4,2,2)`, all in the six-odd branch; these E30 nodes remain evidence because
-the endpoint is not yet closed.
+proper-conductor theorem. The proved `e1_n256_s16_e30_profile_422_exclusion`
+then removes `(4,2,2)` by an odd-difference relaxation and exact exceptional
+norms. The residual is exactly `(6,6)` and `(5,4,1)`, both in the six-odd
+branch; these E30 nodes remain evidence because the endpoint is not yet
+closed.
