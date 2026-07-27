@@ -3828,3 +3828,61 @@ upstream map: exact finite budget interface for SP primitive shift-pair
 next route-deciding action: derive a smooth elliptic trace-pair estimate that
                               retains richness, class, and quotient weights
 ```
+
+**2026-07-27, DSP8 prime-subfield scope bridge:** the apparent extension-field
+obstruction to the Mattarei affine-pair supplier is removed exactly for the
+deployed KoalaBear affine factors, while the Mersenne row is fenced rather
+than silently generalized.
+
+Cycle burn-down:
+
+```text
+starting pins: local 9ef1680d; canonical acb39b1f;
+               upstream origin/main b13de811
+ending proof pin: local 155439f6
+node attacked: f3_h3_dsp8_correlation_bound
+result: NEW PROVED prime-subfield descent; if K and one nonconstant affine
+        factor are defined over F_p, K-membership forces the extension-field
+        variable into F_p and the count is literally prime-field-valued
+KoalaBear scope: p-1=127*2^24, n=2^21, index 1016, 1016^3>4n;
+                  p=2 mod 3 makes the cube preimage equal H
+Mersenne fence: v_2((2^31-1)-1)=1, so its order-2^21 quartic subgroup does
+                not descend; no extension-subgroup Mattarei bound is claimed
+DAG delta: one PROVED background node and two edges; DSP8 remains TARGET
+compute spend: none; exact integer and finite-field scope replay only
+new assumptions: none
+upstream map: portable scope rule for SP affine factors; not primitive
+              shift-pair control and not a full second-moment estimate
+next route-deciding action: retain this supplier only on descending affine
+                              charts and seek a separate Mersenne supplier
+```
+
+**2026-07-27, exact DSP8 smooth quotient-cap compiler:** the quotient pair can
+be removed pointwise with the Mattarei bound, but doing so prints a genuinely
+strong unweighted smooth primitive-SP obligation. This decides which existing
+additive-combinatorial estimates are too weak before further computation.
+
+Cycle burn-down:
+
+```text
+starting pin: local 9ef1680d
+ending proof pin: local 155439f6
+node attacked: f3_h3_dsp8_correlation_bound
+result: NEW PROVED quotient-cap compiler; DSP8 remains TARGET
+exact implication: G_sm^c<C_M n^(2/3)U_sm^c and
+                   189(10U_sm^0+17U_sm^A)<=144344n^(4/3)
+class-blind supplier: U_sm^0+U_sm^A<=(144344/3213)n^(4/3)
+                      <44.926n^(4/3)
+DAG delta: one PROVED background node and four edges; no critical status flip
+route decision: ordinary O(n^2 log n) shifted energy is too weak, while the
+                available multi-shift theorem sees repeated copies of one
+                quotient shift and gives no n-power gain
+compute spend: none; exact rational compilation and mutation audits only
+new assumptions: none; U_sm retains smoothness, richness, trace class,
+                 split, and signed-disjointness
+upstream map: exact finite consumer threshold for primitive SP, not an SP
+              estimate and not an identification with every upstream stratum
+next route-deciding action: prove an O(n^(4/3)) rich signed-disjoint smooth
+                              base-tuple theorem, or return to a direct
+                              weighted/endpoint route that avoids this loss
+```

@@ -2,7 +2,7 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "e7faf967",
+  "our_sha": "155439f6",
   "his_sha": "b13de811"
  },
  "rows": [
@@ -1218,6 +1218,54 @@
    "lean": null,
    "provenance": {
     "our_sha": "e7faf967",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_affine_coset_pair_prime_subfield_descent",
+   "his_object": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "file": "experimental/grande_finale_work/finite_section.tex",
+    "line": "SP: primitive shift-pair control"
+   },
+   "relation": "OVERLAP",
+   "chain": "prime-subfield affine-factor descent -> Mattarei prime-field affine-pair supplier",
+   "scope": "scope theorem for upstream-style affine SP factors: KoalaBear order-2^21 factors descend from F_(p^6) to F_p; the Mersenne-31 quartic subgroup does not",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove a Mattarei bound for genuine extension-field subgroups",
+    "does not cover the deployed Mersenne-31 quartic subgroup",
+    "does not bound the full primitive second-moment ledger or close DSP8"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "155439f6",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_h3_dsp8_smooth_quotient_cap_compiler",
+   "his_object": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "file": "experimental/grande_finale_work/finite_section.tex",
+    "line": "SP: primitive shift-pair control"
+   },
+   "relation": "OVERLAP",
+   "chain": "Mattarei pointwise quotient cap + exact DSP8 smooth residual -> finite unweighted primitive-SP threshold",
+   "scope": "our H3 finite row: U_sm retains richness, smoothness, class, split, and signed-disjointness; U_sm^0+U_sm^A<=(144344/3213)n^(4/3) is sufficient",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove the required unweighted smooth base-tuple estimate",
+    "does not identify U_sm with every upstream SP stratum",
+    "does not close the full upstream primitive second-moment ledger or DSP8"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "155439f6",
     "his_sha": "b13de811"
    }
   },
