@@ -4201,3 +4201,34 @@ next route-deciding action: quotient the 41 signatures by the six diameter
                               ledgers and identify the forced heavy-light or
                               heavy-heavy progression/parallelogram templates
 ```
+
+**2026-07-27, E34 heavy-template split and quarter close:** the magnitude-four
+chords force a four-case additive template split. The bounded quarter case is
+then paid by two independent complete exact censuses.
+
+```text
+starting pin: local d31d98b3
+template proof pin: local 49f79efb
+ending proof pin: local 9888a619
+node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
+result: NARROWED; quarter template CLOSED, three heavy templates remain
+template theorem: quarter / nonquarter diameter / progression / generic;
+                  every singleton non-diameter heavy-heavy class contains a
+                  heavy-light chord; quarter D_64=20 is algebraically empty
+quarter census: 9,381,251 supports and 300,200,032 signed vectors;
+                1,031,680 full-conductor profile-(6,7) candidates;
+                exact maximum M_3=1188<1947
+independent apps: ap-kLTKBwJM3lNWUZA3hul5w7 (45.781851 worker-seconds),
+                  ap-XXTZkD7kcupvXULmbp2GKZ (52.691880 worker-seconds)
+DAG delta: two PROVED background nodes; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute spend: conservative combined ceiling below $0.15; no further run
+new assumptions: none
+route decision: do not enumerate arbitrary seven-point supports. Attack the
+                nonquarter diameter template next because it has a fixed
+                antipodal heavy pair and exactly two forced heavy-light welds.
+next route-deciding action: normalize that antipodal pair, classify its third
+                              heavy orbit and weld choices, then decide whether
+                              an analytic cap or another bounded exact census
+                              closes the branch
+```
