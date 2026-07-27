@@ -1125,3 +1125,21 @@ session should start there, not here.
 `unsafe_at_crossing`; 37 empty PROVED statements; 82 dangling proof refs; the legacy
 tree unrecoverable; 197 nodes skipped by the refs check). All surfaced, none acted
 on — these are planner decisions and they bear on what the census line means.
+
+**Session 7p — a regression I introduced, caught on the final sweep.**
+
+`verify_critical_harness_coverage` was **failing** (exit 1) and had been since I
+added `verify_corridor_literal_prime.py` to `corridor_ledger` several turns earlier.
+The node moved from the md-only bucket to local-verifier, so the census pin drifted
+`147/49 -> 146/50`. Legitimate change; pin widened with a dated comment per hard law
+8, mutation-controlled (the old pin now fails, as it must).
+
+**Process lesson, recorded because it matters more than the fix.** I had been
+running `verify_prize_dag` and `verify_orbit_census` after each change, but not the
+full set — and `run_all_verifiers` did **not** catch it, because it hashes and
+registers `tools/verify_*.py` without executing their assertions. So a red validator
+sat unnoticed across several commits while every check I *was* running stayed green.
+
+**Standing rule added: run the full five-validator sweep before any session
+close-out, not just the two that are quick.** A clean handoff means all five green,
+verified, not assumed.

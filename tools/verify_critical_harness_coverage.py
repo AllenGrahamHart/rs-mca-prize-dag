@@ -20,9 +20,13 @@ CRITICAL_DAG = ROOT / "orbit" / "critical_dag.json"
 MANIFEST = ROOT / "tools" / "verifier_manifest.json"
 
 EXPECTED_COUNTS = {
-    "folder-md-only": 147,  # wave-20 census: the 9 N11 demotions left the PROVED set
+    # 2026-07-27: 147 -> 146 and 49 -> 50. `corridor_ledger` gained a real local
+    # verifier (verify_corridor_literal_prime.py, the E-1 literal corridor prime and
+    # six-row replay shipped as upstream PR #1107), so it moved out of the md-only
+    # bucket. Widened per hard law 8 -- a legitimate change, recorded, not silenced.
+    "folder-md-only": 146,  # wave-20 census, minus corridor_ledger (now verifier-backed)
     "legacy-ref-only": 5,
-    "local-verifier": 49,
+    "local-verifier": 50,   # + corridor_ledger
 }
 
 EXPECTED_NO_PROOF = {
