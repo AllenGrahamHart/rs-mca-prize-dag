@@ -159,15 +159,61 @@ positive odd `S` and contribute at least six more. This contradicts
 E=50 implies L<=28.                                   (8)
 ```
 
+For `E=49`, (3) gives `L<=28`. Equality would make
+`Delta=3`, so (5) forces exactly one unit diameter and zero slack in
+every non-diameter class. The twelve magnitude-two classes contribute 48,
+while the five remaining unit classes contribute at least five. This
+contradicts `E=49`, and hence
+
+```text
+E=49 implies L<=27.                                   (9)
+```
+
+For `E=48`, (3) again gives `L<=28`. Equality would make
+`Delta=2`, forcing one slack-two class and otherwise zero slack. Its
+energy together with the twelve magnitude-two and four remaining unit
+classes is at least `4+48+4=56`, so `L<=27`.
+
+It remains to rule out `L=27`, which would give `Delta=6`.
+Equation (4) gives the following additional exact class patterns:
+
+```text
+delta_d=4:
+  (r,t,S)=(1,1,1),(1,1,3);
+
+delta_d=6:
+  (r,t,S)=(0,2,0),(0,2,4),(1,2,2),(0,3,1),(0,3,3).
+```
+
+Class slacks are even, while the only positive diameter charges are three
+and four. Up to zero-charge magnitude-four diameters, every decomposition of
+six and its minimum possible energy is
+
+```text
+positive charges                 energy lower bound
+3+3  (two unit diameters)              52
+4_64+2  (magnitude-two diameter plus class)  52
+2+2+2                                   60
+4+2  (two positive classes)             52
+6  (one positive class)                 52
+```
+
+The bounds follow directly from the displayed patterns, with all remaining
+chords in zero-slack classes. Every case exceeds 48, so
+
+```text
+E=48 implies L<=26.                                  (10)
+```
+
 If `y_u=|F(zeta^u)|^2` for odd `u`, then the mean of the
 `y_u` is 16. Autocorrelation antisymmetry gives
 
 ```text
-|y_u-16|<=2L.                                          (9)
+|y_u-16|<=2L.                                         (11)
 ```
 
-We first exclude `V=100`, where `E=50` and (8) gives
-`0<y_u<=72`. On `0<x<=72`, define
+We first exclude `V=100` and `V=98`. Equations (8)--(9) give
+`0<y_u<=72` in both rows. On `0<x<=72`, define
 
 ```text
 h(x)=log 16+1/150+(23/336)(x-16)-(x-16)^2/1344-log x.
@@ -200,20 +246,52 @@ over the 128 conjugates gives
 log G<=log 16+1/150-V/1344.
 ```
 
-At `V=100`, put
+For the two rows put
 
 ```text
-q=(32/3)(25/336-1/150)=1138/1575.
+V=100: q=(32/3)(25/336-1/150)=1138/1575,
+V=98:  q=(32/3)(49/672-1/150)=53/75.
 ```
 
-The degree-three positive Taylor truncation of `exp(q)` is strictly
-greater than two. Therefore `q>log 2`, equivalently
+In both cases the degree-three positive Taylor truncation of `exp(q)` is
+strictly greater than two. Therefore `q>log 2`, equivalently the norm
+decay exceeds six bits. Both variances are excluded.
+
+For `V=96`, equation (10) gives `0<y_u<=68`. Define on
+this interval
 
 ```text
-64(100/1344-1/150)>6 log 2.
+h_2(x)=log 16+1/150+(11/161)(x-16)-(x-16)^2/1288-log x.
 ```
 
-The norm is strictly below `2^250`, excluding `V=100`.
+Its derivative is
+
+```text
+h_2'(x)=-(x-14)(x-46)/(644x),
+```
+
+so its only minima are 14 and 68. Exact rational Taylor comparisons give
+
+```text
+h_2(14)=log(8/7)+1/150-45/322>0,
+h_2(68)=35261/24150-log(17/4)>0.
+```
+
+The first uses the degree-four alternating logarithm truncation; the second
+uses the degree-five positive exponential truncation. Averaging gives
+
+```text
+log G<=log 16+1/150-V/1288.
+```
+
+At `V=96`,
+
+```text
+q=(32/3)(12/161-1/150)=26224/36225.
+```
+
+Its degree-three positive exponential truncation exceeds two, so the norm is
+strictly below `2^250`. This excludes `V=96`.
 
 Apply (6)--(7) to the two new endpoint rows, (3) to the next two
 low-variance blocks, and (1) to the five existing upper blocks:
@@ -265,7 +343,7 @@ and their mean square is `V`, giving
 
 ```text
 log G<=log 16-V/C,
-|Norm(F(zeta))|=G^64<=2^256 exp(-64V/C).               (10)
+|Norm(F(zeta))|=G^64<=2^256 exp(-64V/C).               (12)
 ```
 
 For each row use its minimum `V` and put `q=32V/(3C)`.
@@ -275,7 +353,7 @@ The degree-nine positive Taylor truncation verifies exactly that
 sum_(j=0)^9 q^j/j! > 2.
 ```
 
-Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (10)
+Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (12)
 is strictly below `2^250`. The collision-norm criterion excludes
 every listed variance. Since `V` is even, only
-`0<V<=98` remains.
+`0<V<=94` remains.

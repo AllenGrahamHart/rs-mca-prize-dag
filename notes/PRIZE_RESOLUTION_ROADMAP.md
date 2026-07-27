@@ -977,8 +977,8 @@ matching of weight at most 21. Expanding the exact negacyclic energy gives
 V/2=102-D_64+2C.
 ```
 
-The currently sharpened residual `V<=98` therefore forces signed
-repeated-distance cross sum `C<=-16`. Every live support has an
+The currently sharpened residual `V<=94` therefore forces signed
+repeated-distance cross sum `C<=-17`. Every live support has an
 oppositely signed pair of equal
 non-diameter chords and hence a three-term-progression or four-point
 parallelogram relation. This removes all circular-Sidon supports and turns the
@@ -1062,6 +1062,22 @@ full-conductor `E=50,L=28` witness in every worker, falsifying the
 stronger geometry-only shortcut. A one-container exact norm replay
 (`ap-Aq7Pqe17R47TNQMFyu1oT2`) found a representative norm of 233 bits;
 both experiments are non-load-bearing. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N36 DONE, E1 N=256 SLACK-SIX AND SECOND OPTIMIZED MAJORANT: extending the
+exact local slack classification through `delta=6` gives
+
+```text
+E=49 => L<=27,
+E=48 => L<=26.
+```
+
+The derivative-root `(14,48)` majorant from N35 excludes `V=98`.
+A second exact majorant with roots `(14,46)`, linear coefficient
+`11/161`, and quadratic coefficient `1/1288` excludes `V=96`.
+The residual is positive even `V<=94`, and the signed-chord gate
+strengthens to `C<=-17`. Both arguments use short rational Taylor
+certificates and no new computation. See
 `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the

@@ -18,7 +18,7 @@ UNIVERSAL_TARGET = "unsafe_crossing_family_instantiation"
 
 EXPECTED_PIN = {
     "variance_parent_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/statement.md",
-    "variance_parent_file_sha256": "b9f48c05766d6eb9afe893b2e361b6c772d5142dddf61a172dae6e63fcf36d44",
+    "variance_parent_file_sha256": "00691778f59f53ed48ce4253661e411edbe433983d03cb0450f1d246cf7cf938",
 }
 
 
@@ -70,7 +70,7 @@ def main() -> None:
     assert sum(weight * weight for weight in profile_square_weights) == 52
     assert (16**2 - 52) // 2 == 102
     assert maximum_matching_weight(profile_square_weights) == 21
-    assert (49 - 102 + 21) // 2 == -16
+    assert (47 - 102 + 21) // 2 == -17
 
     witness = {
         0: 2,
@@ -96,12 +96,12 @@ def main() -> None:
     assert (PARENT, NODE, "req") in edges
     assert (NODE, E1_TARGET, "ev") in edges
     assert (NODE, UNIVERSAL_TARGET, "ev") in edges
-    assert "C<=-16" in statements[NODE]
+    assert "C<=-17" in statements[NODE]
     assert "circular Sidon" in statements[NODE]
 
     print(
         "E1_N256_S16_SIGNED_CHORD_COLLISION_GATE_PASS "
-        "baseline=102 diameter_max=21 cross_max=-16 "
+        "baseline=102 diameter_max=21 cross_max=-17 "
         "witness=18/8/-38"
     )
 

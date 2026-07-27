@@ -164,7 +164,7 @@ def main() -> None:
     }
     assert actual_slacks == expected_slacks
 
-    low_slack_patterns = {0: set(), 2: set()}
+    low_slack_patterns = {0: set(), 2: set(), 4: set(), 6: set()}
     for count_4 in range(4):
         for count_2 in range(13):
             for count_1 in range(7):
@@ -181,10 +181,13 @@ def main() -> None:
                     assert slack % 2 == 0
                     if slack in low_slack_patterns:
                         low_slack_patterns[slack].add((count_2, count_1, class_sum))
-    assert low_slack_patterns == {
+    expected_low_slack_patterns = {
         0: {(0, 0, 0), (0, 0, 4), (1, 0, 2), (0, 1, 1), (0, 1, 3)},
         2: {(0, 2, 2)},
+        4: {(1, 1, 1), (1, 1, 3)},
+        6: {(0, 2, 0), (0, 2, 4), (1, 2, 2), (0, 3, 1), (0, 3, 3)},
     }
+    assert low_slack_patterns == expected_low_slack_patterns
     assert {value: 4 * value - value * value for value in (4, 2, 1)} == {
         4: 0,
         2: 4,
@@ -197,7 +200,30 @@ def main() -> None:
     assert 12 * 4 + 4 + 3 > 51
     assert 4 * (42 - 29) - (102 - 50) == 0
     assert 12 * 4 + 6 > 50
-    special_l1_bounds = {50: 28, 51: 27, 52: 28}
+    assert 4 * (42 - 28) - (102 - 49) == 3
+    assert 12 * 4 + 5 > 49
+    assert 4 * (42 - 28) - (102 - 48) == 2
+    assert 12 * 4 + 4 + 4 > 48
+    assert 4 * (42 - 27) - (102 - 48) == 6
+    delta_4_plus_2_minimum = min(
+        4 * (12 - count_2)
+        + (6 - 2 - count_1)
+        + class_sum * class_sum
+        + 4
+        for count_2, count_1, class_sum in expected_low_slack_patterns[4]
+    )
+    delta_6_minimum = min(
+        4 * (12 - count_2) + (6 - count_1) + class_sum * class_sum
+        for count_2, count_1, class_sum in expected_low_slack_patterns[6]
+    )
+    assert (
+        12 * 4 + 4,
+        11 * 4 + 4 + 4,
+        12 * 4 + 3 * 4,
+        delta_4_plus_2_minimum,
+        delta_6_minimum,
+    ) == (52, 52, 60, 52, 52)
+    special_l1_bounds = {48: 26, 49: 27, 50: 28, 51: 27, 52: 28}
 
     e50_witness = {
         48: -2,
@@ -249,7 +275,43 @@ def main() -> None:
     assert optimized_decay == Fraction(1138, 1575)
     assert taylor(optimized_decay, 3) > 2
 
-    excluded = [100]
+    optimized_decay_98 = Fraction(32, 3) * (
+        Fraction(49, 672) - optimized_allowance
+    )
+    assert optimized_decay_98 == Fraction(53, 75)
+    assert taylor(optimized_decay_98, 3) > 2
+
+    second_linear = Fraction(11, 161)
+    second_quadratic = Fraction(1, 1288)
+    assert 2 * second_quadratic == Fraction(1, 644)
+    assert second_linear + 16 * 2 * second_quadratic == Fraction(60, 644)
+    assert 2 * second_quadratic * 14 * 46 == 1
+    assert (
+        optimized_allowance
+        - 2 * second_linear
+        - 4 * second_quadratic
+        == optimized_allowance - Fraction(45, 322)
+    )
+    assert (
+        optimized_allowance
+        + 52 * second_linear
+        - 52**2 * second_quadratic
+        == Fraction(35261, 24150)
+    )
+    assert 16 + 2 * special_l1_bounds[48] == 68
+    assert (
+        alternating_log_lower(Fraction(1, 7), 4)
+        + optimized_allowance
+        > Fraction(45, 322)
+    )
+    assert taylor(Fraction(35261, 24150), 5) > Fraction(17, 4)
+    optimized_decay_96 = Fraction(32, 3) * (
+        Fraction(12, 161) - optimized_allowance
+    )
+    assert optimized_decay_96 == Fraction(26224, 36225)
+    assert taylor(optimized_decay_96, 3) > 2
+
+    excluded = [96, 98, 100]
     for lower_v, upper_v, upper_energy, upper_l1, bound, denominator, method in ROWS:
         energies = range(lower_v // 2, upper_energy + 1)
         if method == "slack":
@@ -272,7 +334,7 @@ def main() -> None:
         assert taylor(six_bit_exponent, 9) > 2
         excluded.extend(range(lower_v, upper_v + 1, 2))
 
-    assert excluded == list(range(100, 136, 2))
+    assert excluded == list(range(96, 136, 2))
 
     dag = json.loads((ROOT / "dag.json").read_text())
     statuses = {entry["id"]: entry["status"] for entry in dag["nodes"]}
@@ -287,12 +349,12 @@ def main() -> None:
     assert (NORM_PARENT, NODE, "req") in edges
     assert (NODE, E1_TARGET, "ev") in edges
     assert (NODE, UNIVERSAL_TARGET, "ev") in edges
-    assert "100<=V<=134" in statements[NODE]
-    assert "V<=98" in statements[NODE]
+    assert "96<=V<=134" in statements[NODE]
+    assert "V<=94" in statements[NODE]
 
     print(
         "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS "
-        "excluded=18 residual_max=98 majorants=10"
+        "excluded=20 residual_max=94 majorants=12"
     )
 
 
