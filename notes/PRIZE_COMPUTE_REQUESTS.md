@@ -8210,3 +8210,47 @@ maximum full-conductor M_3                  1560.
 The combined 611.221976 worker-seconds remain below the declared conservative
 `$0.90` ceiling. Since `1560<1947`, the inherited cubic certificate closes
 the complete nonquarter-diameter branch.
+
+#### CR-E1-E34-PROGRESSION: five-orbit exact chamber decision
+
+**Status:** COMPLETE PASS. The progression template is closed; no rerun or
+extension is authorized.
+
+The proved progression reduction leaves 62 heavy-step forms, opposite outer
+heavy signs, and 1,195,965 welded supports per form. Odd cyclotomic
+automorphisms preserve every load-bearing invariant and reduce the complete
+decision to representatives `t=1,2,4,8,16`, containing 191,354,400 signed
+vectors in total.
+
+The primary implementation groups unordered signed chords. The independent
+audit forms the ordered negacyclic product and reconstructs the singleton weld
+from circular distances. Each uses five one-CPU, 256 MiB tasks with 60-second
+caps, at most five containers, and partial packet writes. Abort on any timeout
+or incomplete shard. The combined conservative cost ceiling is `$0.20`; no
+rerun or extension is authorized without a new route decision.
+
+`PASS` requires exact five-shard coverage, 1,195,965 supports per
+representative, shardwise agreement of all fields, replay of retained
+witnesses, and exact weighting by orbit multiplicities `32,16,8,4,2`. A
+maximum `M_3<=1947` closes all 62 progression forms by unit transport;
+otherwise retain the first exact failing representative and keep the branch
+open.
+
+Modal apps `ap-i5ZUL3DXjsMVeoSd2KwzT4` and
+`ap-x6NGO4WBkgu0GbaGBpeQim` completed all five tasks without retries, using
+29.943997 and 50.977832 aggregate worker-seconds. They agree shardwise. The
+five representatives contain
+
+```text
+supports              5,979,825,
+signed vectors       191,354,400,
+E=34 vectors             603,832,
+profile-(6,7) vectors    404,212,
+full-conductor vectors   329,776.
+```
+
+Exact orbit weighting gives 3,131,008 full-conductor profile vectors over all
+62 forms. The maximum is `M_3=1722`, attained in the odd-step orbit. The
+combined 80.921829 worker-seconds remain below the `$0.20` ceiling. Since
+`1722<1947`, unit transport and the inherited cubic certificate close the
+complete progression branch.

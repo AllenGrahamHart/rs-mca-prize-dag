@@ -73,8 +73,10 @@ templates. The complete normalized quarter template is excluded by the exact
 cap `M_3<=1188`; the 31-form nonquarter-diameter chamber is excluded by
 `M_3<=1560`. For the progression template, normalize the repeated
 heavy-heavy length and use the proved opposite-outer-sign constraint. Odd-unit
-transport leaves only the five steps `1,2,4,8,16`; pay that exact chamber or
-derive a signed moment cap before touching the generic template. Use those
-signed additive relations to constrain the generic template as well. Apply
-the 2-adic singleton screen rather than generic support enumeration.
+transport leaves only the five steps `1,2,4,8,16`, and their exact cap
+`M_3<=1722` closes the progression branch. In the sole generic template,
+normalize one heavy-heavy length by odd units, classify the three forced weld
+sets and their intersections, and split heavy-sign patterns before any
+enumeration. Apply the 2-adic singleton screen rather than a raw support
+census.
 Test the odd norm part directly; do not scan arbitrary cofactors below 64.

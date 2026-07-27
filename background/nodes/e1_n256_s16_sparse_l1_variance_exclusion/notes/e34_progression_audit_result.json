@@ -1,0 +1,70 @@
+{
+  "complete": true,
+  "errors": [],
+  "expected_tasks": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "results": [
+    {
+      "complete": true,
+      "energy_34": 78498,
+      "full_conductor": 49240,
+      "maximum_m3": 1722,
+      "profile_67": 49240,
+      "supports": 1195965,
+      "t": 1,
+      "vectors": 38270880,
+      "wall_seconds": 11.799957416
+    },
+    {
+      "complete": true,
+      "energy_34": 102210,
+      "full_conductor": 47128,
+      "maximum_m3": 1698,
+      "profile_67": 62320,
+      "supports": 1195965,
+      "t": 2,
+      "vectors": 38270880,
+      "wall_seconds": 8.6981375
+    },
+    {
+      "complete": true,
+      "energy_34": 100078,
+      "full_conductor": 43712,
+      "maximum_m3": 1638,
+      "profile_67": 60084,
+      "supports": 1195965,
+      "t": 4,
+      "vectors": 38270880,
+      "wall_seconds": 7.148433012000001
+    },
+    {
+      "complete": true,
+      "energy_34": 87230,
+      "full_conductor": 36096,
+      "maximum_m3": 1254,
+      "profile_67": 49944,
+      "supports": 1195965,
+      "t": 8,
+      "vectors": 38270880,
+      "wall_seconds": 11.309964973
+    },
+    {
+      "complete": true,
+      "energy_34": 235816,
+      "full_conductor": 153600,
+      "maximum_m3": 1272,
+      "profile_67": 182624,
+      "supports": 1195965,
+      "t": 16,
+      "vectors": 38270880,
+      "wall_seconds": 12.021339112
+    }
+  ],
+  "schema": "e1-e34-progression-audit-v1",
+  "source_sha256": "c03d5961065d79aea5696f927be39e779d6bd96c6796e40b121a3e48638a76d5"
+}

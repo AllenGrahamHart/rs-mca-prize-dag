@@ -109,8 +109,10 @@ The progression template now has exact normal forms `H={0,t,2t}` with
 `1<=t<=63`, `t!=32`. Its outer heavy signs are forced opposite, and the
 singleton outer chord requires a light in `{-2t,3t,-t,4t}`. The 62 forms
 collapse under odd cyclotomic automorphisms to `t=1,2,4,8,16`, so a complete
-invariant census has only 191,354,400 vectors. This is the next bounded branch;
-the generic three-weld case should not be enumerated first.
+invariant census has only 191,354,400 vectors. Two independent implementations
+exhaust it and give exact maximum `M_3=1722<1947`; unit transport closes all
+62 forms. The generic three-weld case is now the sole E34 branch. Classify it
+by odd-unit or affine invariants before authorizing a broad census.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named

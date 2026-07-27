@@ -4307,3 +4307,29 @@ next route-deciding action: build two independent five-shard exact censuses
                               with a conservative sub-dollar cap; close the
                               branch if maximum M_3<=1947
 ```
+
+**2026-07-27, E34 progression close:** the five unit-orbit representatives
+close the third heavy template, leaving only generic at variance 68.
+
+```text
+starting pin: local 7b55c261
+proof pin: pending commit
+node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
+result: CLOSED progression branch; generic is the sole E34 template
+representative census: 5,979,825 supports; 191,354,400 signed vectors;
+                       329,776 full-conductor profile candidates
+weighted 62-form count: 3,131,008 full-conductor profile candidates
+moment cap: exact maximum M_3=1722<1947, margin 225
+independent apps: ap-i5ZUL3DXjsMVeoSd2KwzT4 (29.943997 worker-seconds),
+                  ap-x6NGO4WBkgu0GbaGBpeQim (50.977832 worker-seconds)
+DAG delta: one PROVED exclusion node and six edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute spend: 80.921829 worker-seconds; conservative ceiling below $0.20
+new assumptions: none
+upstream overlap: no open PR supplies this finite E34 progression close
+route decision: do not enumerate all generic supports; first quotient generic
+                heavy triples and classify three simultaneous weld sets
+next route-deciding action: derive a generic heavy normal form under affine
+                              and odd-unit symmetries, including exact weld
+                              intersections and sign constraints
+```

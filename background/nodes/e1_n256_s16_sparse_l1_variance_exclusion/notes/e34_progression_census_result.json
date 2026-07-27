@@ -1,0 +1,336 @@
+{
+  "complete": true,
+  "errors": [],
+  "expected_tasks": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "results": [
+    {
+      "complete": true,
+      "energy_34": 78498,
+      "full_conductor": 49240,
+      "maximum_m3": 1722,
+      "profile_67": 49240,
+      "supports": 1195965,
+      "t": 1,
+      "vectors": 38270880,
+      "wall_seconds": 4.305060934
+    },
+    {
+      "complete": true,
+      "energy_34": 102210,
+      "full_conductor": 47128,
+      "maximum_m3": 1698,
+      "profile_67": 62320,
+      "supports": 1195965,
+      "t": 2,
+      "vectors": 38270880,
+      "wall_seconds": 4.279776971
+    },
+    {
+      "complete": true,
+      "energy_34": 100078,
+      "full_conductor": 43712,
+      "maximum_m3": 1638,
+      "profile_67": 60084,
+      "supports": 1195965,
+      "t": 4,
+      "vectors": 38270880,
+      "wall_seconds": 5.9039025689999995
+    },
+    {
+      "complete": true,
+      "energy_34": 87230,
+      "full_conductor": 36096,
+      "maximum_m3": 1254,
+      "profile_67": 49944,
+      "supports": 1195965,
+      "t": 8,
+      "vectors": 38270880,
+      "wall_seconds": 5.694115952000001
+    },
+    {
+      "complete": true,
+      "energy_34": 235816,
+      "full_conductor": 153600,
+      "maximum_m3": 1272,
+      "profile_67": 182624,
+      "supports": 1195965,
+      "t": 16,
+      "vectors": 38270880,
+      "wall_seconds": 9.761140553
+    }
+  ],
+  "schema": "e1-e34-progression-census-v1",
+  "source_sha256": "7d2bec08059429cdc8f28d3cee3f509e08b441ff242e08fcdd97f9f7781ecddf",
+  "witnesses": [
+    {
+      "coefficients": [
+        2,
+        -2,
+        -2,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "m3": 1518,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8,
+        14
+      ],
+      "t": 1
+    },
+    {
+      "coefficients": [
+        2,
+        2,
+        -2,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "m3": 1518,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8,
+        14
+      ],
+      "t": 1
+    },
+    {
+      "coefficients": [
+        2,
+        -2,
+        -2,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "m3": 1398,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8,
+        15
+      ],
+      "t": 1
+    },
+    {
+      "coefficients": [
+        2,
+        2,
+        -2,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "m3": 1176,
+      "positions": [
+        0,
+        2,
+        4,
+        1,
+        5,
+        8,
+        17
+      ],
+      "t": 2
+    },
+    {
+      "coefficients": [
+        2,
+        2,
+        -2,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "m3": 1176,
+      "positions": [
+        0,
+        2,
+        4,
+        1,
+        5,
+        8,
+        17
+      ],
+      "t": 2
+    },
+    {
+      "coefficients": [
+        2,
+        2,
+        -2,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "m3": 1176,
+      "positions": [
+        0,
+        2,
+        4,
+        1,
+        5,
+        8,
+        17
+      ],
+      "t": 2
+    },
+    {
+      "coefficients": [
+        2,
+        -2,
+        -2,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "m3": 1236,
+      "positions": [
+        0,
+        4,
+        8,
+        1,
+        2,
+        12,
+        18
+      ],
+      "t": 4
+    },
+    {
+      "coefficients": [
+        2,
+        -2,
+        -2,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "m3": 1236,
+      "positions": [
+        0,
+        4,
+        8,
+        1,
+        2,
+        12,
+        18
+      ],
+      "t": 4
+    },
+    {
+      "coefficients": [
+        2,
+        -2,
+        -2,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "m3": 1152,
+      "positions": [
+        0,
+        4,
+        8,
+        1,
+        2,
+        12,
+        19
+      ],
+      "t": 4
+    },
+    {
+      "coefficients": [
+        2,
+        -2,
+        -2,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "m3": 984,
+      "positions": [
+        0,
+        8,
+        16,
+        1,
+        2,
+        6,
+        24
+      ],
+      "t": 8
+    },
+    {
+      "coefficients": [
+        2,
+        -2,
+        -2,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "m3": 984,
+      "positions": [
+        0,
+        8,
+        16,
+        1,
+        2,
+        6,
+        24
+      ],
+      "t": 8
+    },
+    {
+      "coefficients": [
+        2,
+        2,
+        -2,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "m3": 984,
+      "positions": [
+        0,
+        8,
+        16,
+        1,
+        2,
+        6,
+        24
+      ],
+      "t": 8
+    }
+  ]
+}

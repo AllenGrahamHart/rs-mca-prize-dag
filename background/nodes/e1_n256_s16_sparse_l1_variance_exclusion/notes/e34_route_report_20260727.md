@@ -320,3 +320,19 @@ valuation to `t=1,2,4,8,16`. A complete invariant census therefore has only
 191,354,400 vectors. The result is promoted as
 `e1_n256_s16_e34_progression_weld_reduction`; the branch remains open until
 that five-representative chamber is paid.
+
+## Progression-template closure
+
+The primary signed-chord census and independent ordered-negacyclic audit
+exhaust the five unit-orbit representatives. They agree on 191,354,400
+representative signed vectors, 329,776 representative full-conductor profile
+vectors, and exact maximum `M_3=1722`. Weighting the five rows by
+`32,16,8,4,2` covers all 62 forms and 3,131,008 full-conductor profile
+vectors.
+
+Modal apps `ap-i5ZUL3DXjsMVeoSd2KwzT4` and
+`ap-x6NGO4WBkgu0GbaGBpeQim` used 29.943997 and 50.977832 aggregate
+worker-seconds. Since `1722<1947`, unit transport and the cubic-Hermite
+certificate close the complete progression template. The result is promoted
+as `e1_n256_s16_e34_progression_template_exclusion`. Only the generic heavy
+template remains at E34.

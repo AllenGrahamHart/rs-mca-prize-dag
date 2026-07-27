@@ -8,35 +8,35 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e34_nonquarter_diameter_template_exclusion/verify.py",
-      "seconds": 0.075619,
+      "script": "background/nodes/e1_n256_s16_e34_progression_template_exclusion/verify.py",
+      "seconds": 0.072172,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E34_NONQUARTER_DIAMETER_TEMPLATE_EXCLUSION_PASS vectors=1815608000 full=899456 m3=1560 threshold=1947\n"
+      "stdout_tail": "E1_N256_S16_E34_PROGRESSION_TEMPLATE_EXCLUSION_PASS representative_vectors=191354400 weighted_full=3131008 m3=1722 threshold=1947\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e34_nonquarter_diameter_template_exclusion/verify_audit.py",
-      "seconds": 0.019858,
+      "script": "background/nodes/e1_n256_s16_e34_progression_template_exclusion/verify_audit.py",
+      "seconds": 0.031886,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E34_NONQUARTER_DIAMETER_TEMPLATE_EXCLUSION_AUDIT_PASS shards=31 mutations=2\n"
+      "stdout_tail": "E1_N256_S16_E34_PROGRESSION_TEMPLATE_EXCLUSION_AUDIT_PASS shards=5 orbits=62 mutations=2\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/verify.py",
-      "seconds": 0.19871,
+      "script": "background/nodes/e1_n256_s16_e34_progression_weld_reduction/verify.py",
+      "seconds": 0.544704,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E34_NONQUARTER_DIAMETER_WELD_REDUCTION_PASS triples=7936 forms=31 supports_per_form=915125 vectors=1815608000\n"
+      "stdout_tail": "E1_N256_S16_E34_PROGRESSION_WELD_REDUCTION_PASS triples=7936 forms=62 orbits=5 supports_per_form=1195965 census_vectors=191354400 total_vectors=2372794560\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/verify_audit.py",
-      "seconds": 0.019836,
+      "script": "background/nodes/e1_n256_s16_e34_progression_weld_reduction/verify_audit.py",
+      "seconds": 0.022647,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E34_NONQUARTER_DIAMETER_WELD_REDUCTION_AUDIT_PASS forms=31 mutations=2 vectors=1815608000\n"
+      "stdout_tail": "E1_N256_S16_E34_PROGRESSION_WELD_REDUCTION_AUDIT_PASS forms=62 orbits=5 mutations=1 census_vectors=191354400\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
