@@ -4313,7 +4313,7 @@ close the third heavy template, leaving only generic at variance 68.
 
 ```text
 starting pin: local 7b55c261
-proof pin: pending commit
+proof pin: local 5cafbad0
 node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
 result: CLOSED progression branch; generic is the sole E34 template
 representative census: 5,979,825 supports; 191,354,400 signed vectors;
