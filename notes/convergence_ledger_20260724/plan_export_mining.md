@@ -84,3 +84,33 @@ Three areas enter production, in this order. Each mint obeys falsification-first
 - **Standing production:** M-1 (E1→E2→E3), M-2 (A2 triage-gated, A3 on demand), M-3 (C1 Lean pilot — the bridge to the DAG-nodes → Lean-modules endgame), each mint carrying its pre-registered falsifier.
 
 Key paths: `/home/u2470931/smooth-read-solomin/prize/dag.json`; `/home/u2470931/smooth-read-solomin/prize/notes/upstream_pr_proposals_20260720/upr_draft_2.md`; `/home/u2470931/smooth-read-solomin/prize/notes/lane_l_crosswalk_20260724/lnl_findings.md`; `/home/u2470931/smooth-read-solomin/prize/notes/PRIZE_RESOLUTION_ROADMAP.md` (P-A1/P-A2 ~l.788, packaging tier ~l.2062); `/home/u2470931/smooth-read-solomin/prize/notes/kernel_basis/KB_LOG.md` (#119, #121–#125); node dirs under `/home/u2470931/smooth-read-solomin/prize/background/nodes/` for E-1..E-6 sources; upstream anchors `experimental/proximity_prize_results_v4.tex` (corridor remark, tab:threshold-map, submission package), `experimental/grande_finale.tex` (S+A+E, def:exception-routing), `experimental/notes/wcl_slot_contributor_requests.md`, `agents.md` §1/§4.
+---
+
+## E-3 STATUS 2026-07-27: PREPARED AND ARMED — branch pushed, PR deliberately NOT opened
+
+Branch `allen/wcl-register-first-installment` (fork, `379acae2`), cut from
+upstream `b13de811`. Fires the moment triage moves; `gh pr create` is the only
+remaining step.
+
+**Contents:** five theorems (T1 (2,5) order-1024 norm-gcd; T2 (2,6)
+order-1024 recursive-norm + split16 counterfixture; T3 weight-3 ambient
+ell=1; T4 weight-4 ambient ell=1; T5 Newton short-window), one certificate,
+one stdlib re-checker, and the three register maintenance corrections.
+
+**Precondition audit (the A3 "Norm(u) order-1024 soundness gap") — RESOLVED,
+and it was not where the roadmap line implied.** The concern was that a
+weight-4 exclusion proved at order 512 might be consumed at order 1024. It is
+not: `verify_slot_decomposition.py` sets `AMBIENT_EXCLUDED = {(1,3), (1,4)}`,
+i.e. the weight-3/4 theorems are applied at `ell = 1` only, and at `ell >= 2`
+the Newton floor `w >= 2*ell+1` removes weights 3 and 4 independently. The two
+ell=2 closures compute resultants against `X^512+1` directly and take their
+req-parents from their own routers, not from the ambient censuses. **The
+shipped completeness derivation is sound as it stands.** A3 gates the (2,7)
+COMPUTE request (CQ-3), not these theorems — the roadmap line conflated the two.
+
+What the packet still does about it: the scope is now stated explicitly at the
+point of citation in the register, and the shipped re-checker *asserts* the
+scope claim with a mutation control proving it is not vacuous. So the
+misreading is foreclosed for any future contributor.
+
+**Verified from a clean checkout of the pushed branch**, not the working tree.
