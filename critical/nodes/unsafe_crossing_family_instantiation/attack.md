@@ -75,8 +75,8 @@ cap `M_3<=1188`; the 31-form nonquarter-diameter chamber is excluded by
 heavy-heavy length and use the proved opposite-outer-sign constraint. Odd-unit
 transport leaves only the five steps `1,2,4,8,16`, and their exact cap
 `M_3<=1722` closes the progression branch. In the sole generic template,
-normalize one heavy-heavy length by odd units, classify the three forced weld
-sets and their intersections, and split heavy-sign patterns before any
-enumeration. Apply the 2-adic singleton screen rather than a raw support
-census.
+use the proved 57 affine-unit representatives and three exact weld shapes.
+Pay only their 243,285,056-vector chamber with independent chord and
+negacyclic implementations, or improve it first by a heavy-sign screen. Apply
+the 2-adic singleton screen rather than a raw support census.
 Test the odd norm part directly; do not scan arbitrary cofactors below 64.

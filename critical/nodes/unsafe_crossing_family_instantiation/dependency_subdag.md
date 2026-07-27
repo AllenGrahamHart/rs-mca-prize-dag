@@ -31,6 +31,7 @@ e1_n256_s16_e34_nonquarter_diameter_weld_reduction --ev-->
 e1_n256_s16_e34_nonquarter_diameter_template_exclusion --ev-->
 e1_n256_s16_e34_progression_weld_reduction --ev-->
 e1_n256_s16_e34_progression_template_exclusion --ev-->
+e1_n256_s16_e34_generic_affine_weld_reduction --ev-->
 e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
@@ -110,3 +111,6 @@ classification inside the progression template. It now forces opposite outer
 signs and collapses by odd-unit transport to five invariant steps and
 191,354,400 census vectors. A double exact census closes that chamber with
 `M_3<=1722`. The generic three-weld template is now the sole E34 branch.
+Its 325,376 heavy triples collapse to 57 affine-unit representatives and three
+weld-intersection shapes, for an exact 243,285,056-vector chamber. Its profile
+and moment filters remain unpaid.

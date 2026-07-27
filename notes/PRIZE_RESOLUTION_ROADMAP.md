@@ -4333,3 +4333,29 @@ next route-deciding action: derive a generic heavy normal form under affine
                               and odd-unit symmetries, including exact weld
                               intersections and sign constraints
 ```
+
+**2026-07-27, E34 generic affine-weld reduction:** two independent orbit
+classifiers reduce the last heavy template to 57 representatives and three
+exact weld shapes.
+
+```text
+starting pin: local cbf1260e
+proof pin: pending commit
+node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
+result: NARROWED generic branch; it is now the sole E34 template
+orbit census: 325,376 heavy triples -> 57 affine odd-unit representatives
+weld shapes: 52 regular rows, four [0,2^v,3*2^v] rows, one terminal v=4 row;
+             no triple intersection
+exact chamber: 243,285,056 normalized signed vectors
+DAG delta: one PROVED background node and four edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute spend: ap-RX2pnnmJRiFhsRSBEJS6To; 1.110289 worker-seconds;
+               conservative ceiling below $0.05
+new assumptions: none
+upstream overlap: no open PR supplies this finite generic weld classifier
+route decision: the final chamber is comparable to the closed quarter branch
+                and small enough for a bounded independent decision
+next route-deciding action: build two exact 57-shard profile-and-moment
+                              censuses under a conservative sub-dollar cap;
+                              close E34 if maximum M_3<=1947
+```

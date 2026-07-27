@@ -114,6 +114,13 @@ exhaust it and give exact maximum `M_3=1722<1947`; unit transport closes all
 62 forms. The generic three-weld case is now the sole E34 branch. Classify it
 by odd-unit or affine invariants before authorizing a broad census.
 
+That classification is now complete. The 325,376 generic heavy triples form
+57 affine odd-unit orbits. Their three weld sets have only three exact
+intersection shapes, no triple-weld position, and 58,325 to 72,486 light
+supports per representative. The complete invariant chamber has 243,285,056
+signed vectors. This is now the final bounded E34 decision; no raw heavy-triple
+or unrestricted seven-support enumeration is needed.
+
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set

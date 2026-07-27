@@ -8254,3 +8254,37 @@ Exact orbit weighting gives 3,131,008 full-conductor profile vectors over all
 combined 80.921829 worker-seconds remain below the `$0.20` ceiling. Since
 `1722<1947`, unit transport and the inherited cubic certificate close the
 complete progression branch.
+
+#### CR-E1-E34-GENERIC-ORBITS: affine three-weld route classifier
+
+**Status:** COMPLETE PASS. The route classifier is banked; no rerun is
+authorized.
+
+Before any generic-vector census, classify all 325,376 generic heavy triples
+under translations and odd cyclotomic units. The primary implementation maps
+every triple to a canonical form. The independent audit generates full affine
+orbits and removes them from the exact triple set. For each representative,
+both compute the three heavy-light weld sets, all intersections, and the exact
+four-light support count by inclusion-exclusion.
+
+Run two one-CPU, 256 MiB tasks with 60-second caps and at most two containers.
+Abort on any timeout or disagreement. The conservative cost ceiling is
+`$0.05`. This campaign is route classification only: it may promote a proved
+normal-form reduction, but it cannot exclude the generic template without a
+separate signed profile/moment certificate.
+
+Modal app `ap-RX2pnnmJRiFhsRSBEJS6To` completed both implementations in
+1.110289 aggregate worker-seconds. They agree exactly: the 325,376 generic
+heavy triples form 57 affine odd-unit orbits. The three-weld ledgers have
+exactly three shapes:
+
+```text
+rows  weld sizes  pair intersections  triple  union  supports
+ 52    4,4,4           1,1,1             0      9     66,405
+  4    3,4,4           2,1,1             0      7     72,486
+  1    3,4,3           2,1,2             0      5     58,325.
+```
+
+After four heavy-sign and sixteen light-sign choices, the exact representative
+chamber has 243,285,056 signed vectors. The campaign cost is below `$0.05`.
+This closes route classification only; profile and moment remain unpaid.

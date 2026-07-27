@@ -336,3 +336,23 @@ worker-seconds. Since `1722<1947`, unit transport and the cubic-Hermite
 certificate close the complete progression template. The result is promoted
 as `e1_n256_s16_e34_progression_template_exclusion`. Only the generic heavy
 template remains at E34.
+
+## Generic affine-weld normal forms
+
+Two independent exact classifiers partition all 325,376 generic heavy triples
+under translations and odd cyclotomic units. They agree on 57 orbits. In each
+orbit the three singleton heavy-heavy classes force three heavy-light weld
+sets. The exact intersection ledgers are
+
+```text
+rows  weld sizes  pair intersections  triple  union  supports
+ 52    4,4,4           1,1,1             0      9     66,405
+  4    3,4,4           2,1,1             0      7     72,486
+  1    3,4,3           2,1,2             0      5     58,325.
+```
+
+Inclusion-exclusion and 64 sign patterns give a complete representative
+chamber of 243,285,056 vectors. Modal app
+`ap-RX2pnnmJRiFhsRSBEJS6To` used 1.110289 aggregate worker-seconds. The result
+is promoted as `e1_n256_s16_e34_generic_affine_weld_reduction`; it reduces but
+does not yet exclude the sole remaining E34 branch.

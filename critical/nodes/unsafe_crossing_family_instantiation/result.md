@@ -72,3 +72,7 @@ heavy signs and one four-position weld. Two complete five-orbit censuses then
 exclude all 62 forms, with exact maximum `M_3=1722<1947` over 3,131,008
 weighted full-conductor profile vectors. The generic heavy template is the
 sole E34 branch.
+Two independent affine classifiers reduce its 325,376 heavy triples to 57
+odd-unit orbits. The three forced weld sets have only three intersection
+shapes, leaving an exact 243,285,056-vector representative chamber before
+profile and moment filters.
