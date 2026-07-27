@@ -2911,14 +2911,14 @@ Cycle burn-down:
 ```text
 starting pins: local dae9de7b; canonical b55c21d0;
                upstream origin/main b13de811
-ending proof pin: pending commit
+ending proof pin: local 46c5c261
 node attacked: e1_official_prime_exception_control, N=512 s=2 profile (0,4,0)
 result: CLOSED for profile (0,4,0); parent target OPEN
 DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
            no critical status change
 critical delta: math orbit remains 242 = 180/38/24; submission target set 25;
                 reproducibility debt unchanged
-upstream terminal delta: none; theorem is ours-only pending crosswalk
+upstream terminal delta: none; theorem is ours-only and crosswalked
 delta-star bracket movement: none
 new assumptions: none
 compute spend: none; bounded toy autocorrelation replay only
