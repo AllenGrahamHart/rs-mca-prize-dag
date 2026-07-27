@@ -4239,7 +4239,7 @@ condition without computation.
 
 ```text
 starting pin: local 2bb5265f
-proof pin: pending commit
+proof pin: local 6ce23319
 node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
 result: NARROWED; nonquarter-diameter branch normalized exactly
 normal forms: H={0,64,t}, 1<=t<=31
