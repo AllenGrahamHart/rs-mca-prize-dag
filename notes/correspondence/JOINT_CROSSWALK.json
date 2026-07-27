@@ -2,7 +2,7 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "a7330b59",
+  "our_sha": "e7faf967",
   "his_sha": "b13de811"
  },
  "rows": [
@@ -1194,6 +1194,30 @@
    "lean": null,
    "provenance": {
     "our_sha": "a7330b59",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_h3_dsp8_smooth_residual_router",
+   "his_object": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "file": "experimental/grande_finale_work/finite_section.tex",
+    "line": "SP: primitive shift-pair control"
+   },
+   "relation": "OVERLAP",
+   "chain": "G=4K trace ledger + Mattarei nodal payment + global overlap payment -> exact smooth SP residual",
+   "scope": "our H3 finite row: the complete remaining smooth primitive-SP target is 10K_sm^0+17K_sm^A<=(18043/50)n^2; portable as an exact budget interface, not as an estimate",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove the smooth residual inequality",
+    "does not bound the full upstream primitive second-moment ledger",
+    "does not identify our trace classes or quotient weights with every upstream SP stratum"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "e7faf967",
     "his_sha": "b13de811"
    }
   },

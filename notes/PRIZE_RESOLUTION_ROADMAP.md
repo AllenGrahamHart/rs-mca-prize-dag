@@ -3802,3 +3802,29 @@ upstream map: OVERLAP with SP primitive shift-pair control, not a proof of the
 next route-deciding action: exploit smooth trace geometry and the remaining
                               >1443n^2 budget; do not return to nodal retuning
 ```
+
+**2026-07-27, exact DSP8 smooth residual isolated:** the new nodal payment is
+subtracted once in the raw `G=4K` ledger, leaving a single printed smooth
+primitive shift-pair target rather than a qualitative instruction to
+"control smooth traces."
+
+Cycle burn-down:
+
+```text
+starting pin: local 29cef0d8
+ending proof pin: local e7faf967
+node attacked: f3_h3_dsp8_correlation_bound
+result: NEW PROVED smooth-residual router; DSP8 remains TARGET
+exact open target: 10G_sm^0+17G_sm^A<=(36086/25)n^2 uniformly,
+                   equivalently
+                   10K_sm^0+17K_sm^A<=(18043/50)n^2
+one-root allowance: (45636/25)n^2 in raw normalization
+DAG delta: one PROVED background node and four edges; no critical status
+           change
+compute spend: none; exact rational subtraction only
+new assumptions: none
+upstream map: exact finite budget interface for SP primitive shift-pair
+              control; not an estimate for the upstream ledger
+next route-deciding action: derive a smooth elliptic trace-pair estimate that
+                              retains richness, class, and quotient weights
+```
