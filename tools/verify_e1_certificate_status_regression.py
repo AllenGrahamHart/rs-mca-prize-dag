@@ -49,6 +49,7 @@ def main():
         "e1_prime_field_l2_norm_collision_radius",
         "e1_n256_s16_high_variance_collision_exclusion",
         "e1_n256_s16_sparse_l1_variance_exclusion",
+        "e1_n256_s16_autocorrelation_subfield_exclusion",
         "e1_n256_proper_conductor_collision_exclusion",
         "e1_n256_2adic_cofactor_collision_exclusion",
         "e1_n256_s16_signed_chord_collision_gate",
@@ -104,6 +105,7 @@ def main():
         ("e1_prime_field_l2_norm_collision_radius", branch_target, "ev"),
         ("e1_n256_s16_high_variance_collision_exclusion", branch_target, "ev"),
         ("e1_n256_s16_sparse_l1_variance_exclusion", branch_target, "ev"),
+        ("e1_n256_s16_autocorrelation_subfield_exclusion", branch_target, "ev"),
         ("e1_n256_proper_conductor_collision_exclusion", branch_target, "ev"),
         ("e1_n256_2adic_cofactor_collision_exclusion", branch_target, "ev"),
         ("e1_n256_s16_signed_chord_collision_gate", branch_target, "ev"),
@@ -201,6 +203,17 @@ def main():
             "N=256 signed-chord conclusion is missing")
     require((sparse_l1, signed_chord, "req") in edges,
             "signed-chord gate lost its sparse-L1 parent")
+    autocorrelation_subfield = "e1_n256_s16_autocorrelation_subfield_exclusion"
+    require(nodes[autocorrelation_subfield]["status"] == "PROVED",
+            "N=256 autocorrelation-subfield exclusion regressed")
+    autocorrelation_subfield_statement = nodes[autocorrelation_subfield]["statement"].lower()
+    require("v=76" in autocorrelation_subfield_statement
+            and "60^32<2^250" in autocorrelation_subfield_statement,
+            "N=256 autocorrelation-subfield conclusion is missing")
+    require((sparse_l1, autocorrelation_subfield, "req") in edges,
+            "autocorrelation-subfield exclusion lost its variance parent")
+    require(("collision_norm_criterion", autocorrelation_subfield, "req") in edges,
+            "autocorrelation-subfield exclusion lost its norm parent")
     local_norm = "e1_n256_local_norm_cofactor_collapse"
     require(nodes[local_norm]["status"] == "PROVED",
             "N=256 local-norm cofactor collapse regressed")
@@ -244,6 +257,7 @@ def main():
         proper_conductor,
         two_adic,
         signed_chord,
+        autocorrelation_subfield,
         local_norm,
         four_singleton,
         trinomial,

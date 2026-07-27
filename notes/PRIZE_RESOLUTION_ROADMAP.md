@@ -1166,6 +1166,29 @@ two-contact cubic at `V=76` misses by about `0.002625`, so the next attack
 must add information rather than continue this cubic family mechanically.
 See `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
 
+N42 ROUTE DECISION, E1 N=256 VARIANCE 76: continuous optimization confirms
+that the two-contact cubic route misses by `0.0025927093`; the elementary
+quartic moment dual collapses to the same cubic. The exact replacement target
+is now a weighted Schur bound `T(A,B)<=2806` for nested symmetric layers of
+sizes 28 and 16. The strongest structured example found is 2718, while actual
+seven-term `E=38,L=22` witnesses stayed at or below 816 in 9,348 sampled
+visits. Equality in the slack recurrence reduces the chord origins to 24
+signatures, no unit diameter, and at most four positive-slack classes. The
+next proof should use that finite signature list or a cyclic compression
+inequality; generic SAT and further cubic scans are explicitly fenced off.
+See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e38_route_report_20260727.md`.
+
+N43 DONE, E1 N=256 AUTOCORRELATION-SUBFIELD CUT: at `V=76`, the exact
+slack recurrence gives `L<=22` and hence conjugate squares at most 60. If all
+nonzero autocorrelation distances are divisible by four, then
+`beta=F(zeta)conjugate(F(zeta))` belongs to `Q(zeta_64)`. Its small-field
+norm `N` satisfies `0<|N|<=60^32<2^250`, while the full norm `R` obeys
+`R^2=N^4`; no pair-feasible row prime can divide `R`. This removes the
+structured weighted-Schur example of value 2718 and forces the live
+`V=76` route to contain a nonzero distance outside `4 Z/128 Z`. See
+`background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable

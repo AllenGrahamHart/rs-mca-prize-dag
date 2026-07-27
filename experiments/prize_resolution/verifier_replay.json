@@ -2,14 +2,22 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 3,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/verify.py",
+      "seconds": 0.106961,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_AUTOCORRELATION_SUBFIELD_EXCLUSION_PASS subfield_degree=32 conjugate_ceiling=60 subgroup_schur=2718\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/e1_n256_s16_high_variance_collision_exclusion/verify.py",
-      "seconds": 0.058738,
+      "seconds": 0.040213,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_HIGH_VARIANCE_COLLISION_EXCLUSION_PASS mean=16 max=100 high_variance_start=136 residual_max=134\n"
@@ -17,7 +25,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_signed_chord_collision_gate/verify.py",
-      "seconds": 0.054541,
+      "seconds": 0.097654,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_SIGNED_CHORD_COLLISION_GATE_PASS baseline=102 diameter_max=21 cross_max=-22 witness=18/8/-38\n"
@@ -25,7 +33,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py",
-      "seconds": 0.232913,
+      "seconds": 0.226533,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS excluded=29 residual_max=76 majorants=21\n"

@@ -8,6 +8,7 @@ import json
 import math
 from collections import defaultdict
 from fractions import Fraction
+from functools import lru_cache
 from itertools import combinations, product
 from pathlib import Path
 
@@ -212,6 +213,83 @@ def relaxed_minimum_energy_by_slack(maximum_slack: int) -> list[int | None]:
                     best = total_energy if best is None else min(best, total_energy)
         answers.append(best)
     return answers
+
+
+def relaxed_equality_signatures(
+    target_energy: int, target_l1: int
+) -> tuple[tuple[int, int, tuple[tuple[int, int, int, int], ...]], ...]:
+    target_slack = target_energy + 66 - 4 * target_l1
+    class_types = set()
+    for count_4 in range(4):
+        for count_2 in range(13):
+            for count_1 in range(7):
+                if count_4 + count_2 + count_1 == 0:
+                    continue
+                for class_sum in attainable_absolute_sums(count_4, count_2, count_1):
+                    slack = (
+                        (class_sum - 2) ** 2
+                        + 4 * count_2
+                        + 3 * count_1
+                        - 4
+                    )
+                    if 0 < slack <= target_slack:
+                        class_types.add((slack, count_2, count_1, class_sum))
+    ordered_types = sorted(class_types)
+    signatures = []
+    for diameter_2 in range(4):
+        for diameter_1 in range(3):
+            if diameter_2 + 2 * diameter_1 > 4:
+                continue
+            if diameter_1 + diameter_2 > 3:
+                continue
+            class_slack = target_slack - 4 * diameter_2 - 3 * diameter_1
+            if class_slack < 0:
+                continue
+
+            @lru_cache(maxsize=None)
+            def search(
+                start: int,
+                remaining_slack: int,
+                remaining_2: int,
+                remaining_1: int,
+                remaining_energy: int,
+            ) -> tuple[tuple[int, ...], ...]:
+                if remaining_slack == 0:
+                    return ((),) if remaining_energy == 0 else ()
+                found = []
+                for index in range(start, len(ordered_types)):
+                    slack, count_2, count_1, class_sum = ordered_types[index]
+                    energy = class_sum * class_sum - 4 * count_2 - count_1
+                    if slack > remaining_slack:
+                        break
+                    if count_2 > remaining_2 or count_1 > remaining_1:
+                        continue
+                    for suffix in search(
+                        index,
+                        remaining_slack - slack,
+                        remaining_2 - count_2,
+                        remaining_1 - count_1,
+                        remaining_energy - energy,
+                    ):
+                        found.append((index,) + suffix)
+                return tuple(found)
+
+            baseline = 4 * (12 - diameter_2) + (6 - diameter_1)
+            for indices in search(
+                0,
+                class_slack,
+                12 - diameter_2,
+                6 - diameter_1,
+                target_energy - baseline,
+            ):
+                signatures.append(
+                    (
+                        diameter_2,
+                        diameter_1,
+                        tuple(ordered_types[index] for index in indices),
+                    )
+                )
+    return tuple(signatures)
 
 
 def main() -> None:
@@ -465,6 +543,30 @@ def main() -> None:
         50: 28,
         51: 27,
         52: 28,
+    }
+    energy_38_signatures = relaxed_equality_signatures(38, 22)
+    assert len(energy_38_signatures) == 24
+    assert {diameter_1 for _, diameter_1, _ in energy_38_signatures} == {0}
+    assert {diameter_2 for diameter_2, _, _ in energy_38_signatures} == {
+        0,
+        1,
+        2,
+        3,
+    }
+    assert max(len(classes) for _, _, classes in energy_38_signatures) == 4
+    assert {
+        class_type
+        for _, _, classes in energy_38_signatures
+        for class_type in classes
+    } == {
+        (4, 1, 1, 1),
+        (8, 2, 0, 0),
+        (8, 2, 1, 1),
+        (8, 3, 0, 2),
+        (12, 3, 1, 1),
+        (16, 4, 0, 0),
+        (16, 4, 1, 1),
+        (16, 5, 0, 2),
     }
 
     e50_witness = {
@@ -732,6 +834,10 @@ def main() -> None:
     assert len(energy_39_profiles) == 29
     assert max(energy_39_profiles) == (3018, (3, 9, 0, 0, 0, 0), 21)
     assert sum(cap == 3018 for cap, _, _ in energy_39_profiles) == 1
+    energy_38_profiles = energy_profiles(38, 22)
+    assert len(energy_38_profiles) == 32
+    assert max(energy_38_profiles) == (3012, (6, 8, 0, 0, 0, 0), 22)
+    assert sum(cap == 3012 for cap, _, _ in energy_38_profiles) == 1
 
     log_14 = (Fraction(1), Fraction(0), Fraction(0))
     log_60 = (Fraction(0), Fraction(1), Fraction(0))
@@ -813,7 +919,7 @@ def main() -> None:
     )
 
     log_2_lower, log_2_upper = atanh_log_bounds(Fraction(2), 8)
-    log_8_over_7_lower, _ = atanh_log_bounds(Fraction(8, 7), 8)
+    log_8_over_7_lower, log_8_over_7_upper = atanh_log_bounds(Fraction(8, 7), 8)
     log_16_over_15_lower, _ = atanh_log_bounds(Fraction(16, 15), 8)
     assert log_2_lower < log_2_upper
     hermite_margin_lower = (
@@ -922,7 +1028,9 @@ def main() -> None:
         Fraction(3590, 79507),
         Fraction(538, 105393),
     )
-    log_64_over_57_lower, _ = atanh_log_bounds(Fraction(64, 57), 8)
+    log_64_over_57_lower, log_64_over_57_upper = atanh_log_bounds(
+        Fraction(64, 57), 8
+    )
     hermite_margin_78_lower = (
         Fraction(-468281, 2544224) * log_2_upper
         + Fraction(75917, 79507) * log_8_over_7_lower
@@ -930,6 +1038,47 @@ def main() -> None:
         - Fraction(538, 105393)
     )
     assert hermite_margin_78_lower > 0
+
+    assert 16**2 + 76 == 332
+    assert 16**3 + 3 * 16 * 76 + 2806 == 10550
+    expected_hermite_76_at_2806 = add_log_forms(
+        hermite_coefficients_57[0],
+        scale_log_form(Fraction(16), hermite_coefficients_57[1]),
+        scale_log_form(Fraction(332), hermite_coefficients_57[2]),
+        scale_log_form(Fraction(10550), hermite_coefficients_57[3]),
+    )
+    assert expected_hermite_76_at_2806 == (
+        Fraction(75727, 79507),
+        Fraction(3780, 79507),
+        Fraction(1318, 737751),
+    )
+    hermite_margin_76_at_2806_lower = (
+        Fraction(-480441, 2544224) * log_2_upper
+        + Fraction(75727, 79507) * log_8_over_7_lower
+        + Fraction(3780, 79507) * log_64_over_57_lower
+        - Fraction(1318, 737751)
+    )
+    assert hermite_margin_76_at_2806_lower > 0
+
+    assert 16**3 + 3 * 16 * 76 + 2807 == 10551
+    expected_hermite_76_at_2807 = add_log_forms(
+        hermite_coefficients_57[0],
+        scale_log_form(Fraction(16), hermite_coefficients_57[1]),
+        scale_log_form(Fraction(332), hermite_coefficients_57[2]),
+        scale_log_form(Fraction(10551), hermite_coefficients_57[3]),
+    )
+    assert expected_hermite_76_at_2807 == (
+        Fraction(75729, 79507),
+        Fraction(3778, 79507),
+        Fraction(2707, 1475502),
+    )
+    hermite_margin_76_at_2807_upper = (
+        Fraction(-480313, 2544224) * log_2_lower
+        + Fraction(75729, 79507) * log_8_over_7_upper
+        + Fraction(3778, 79507) * log_64_over_57_upper
+        - Fraction(2707, 1475502)
+    )
+    assert hermite_margin_76_at_2807_upper < 0
 
     excluded = [78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100]
     for lower_v, upper_v, upper_energy, upper_l1, bound, denominator, method in ROWS:
