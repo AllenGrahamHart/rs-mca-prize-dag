@@ -1143,3 +1143,23 @@ sat unnoticed across several commits while every check I *was* running stayed gr
 **Standing rule added: run the full five-validator sweep before any session
 close-out, not just the two that are quick.** A clean handoff means all five green,
 verified, not assumed.
+
+---
+
+## PLANNER CORRECTION (Fable, 2026-07-27) — session 7l's verdict is WRONG
+
+Session 7l concluded "**No `proof_sketch/` anywhere**" and treated the legacy
+tree as unrecoverable. It is **not lost**: all twelve files are live on upstream
+`origin/main` at `experimental/notes/roadmaps/proof_sketch/`. The search looked
+for a top-level `proof_sketch/` path; the tree is nested one level deeper.
+
+The real defect is **status inflation at port time**, not loss: the files are
+proof *sketches* whose sections carry their own status tags, and `zone_b`'s cited
+section literally reads `[PROVED-cited / CONJECTURE]` with "zone (b) ... mass
+CONJECTURAL" — while our dag says PROVED. Full analysis, the re-grading scope
+(49 sections, 161 citations, two sections carrying 29 of the affected nodes), and
+the proposed method: `notes/PROOF_SKETCH_PROVENANCE.md`.
+
+Consequence for the audit chain: the finding stands and is if anything better
+evidenced — but the remedy is *re-grading against a readable source*, not
+re-proving from scratch.
