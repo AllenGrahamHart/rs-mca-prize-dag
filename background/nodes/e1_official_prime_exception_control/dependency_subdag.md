@@ -114,7 +114,11 @@ eight profiles on exactly 111 affine one-diameter light templates. The proved
 joint exclusion uses two independent 2,203,120,896-vector censuses, the exact
 `M_3=872` cutoff, the proper-conductor theorem, and independent FLINT/PARI
 norms for 820 primitive exceptions. The E29 endpoint synthesis closes `V=58`
-and advances the live positive even frontier to `V<=56`.
+and advances the live positive even frontier to `V<=56`. The proved E28
+reduction then reuses the four-odd atlas and leaves eight profiles on 154
+templates. Its joint exclusion combines two independent 3,056,582,144-vector
+censuses, conductor, and exact FLINT/PARI norms for 4,372 primitive exceptions.
+The E28 endpoint synthesis closes `V=56` and advances the frontier to `V<=54`.
 The proper-conductor theorem also removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing

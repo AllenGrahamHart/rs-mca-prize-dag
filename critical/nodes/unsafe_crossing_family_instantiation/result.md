@@ -170,3 +170,10 @@ independent complete censuses agree after 2,203,120,896 vectors per engine and
 leave 4,812 cubic exceptions. Proper conductor removes 3,992; independent
 FLINT/PARI resultants place all 820 primitive exceptions below `2^250`.
 Therefore `V=58` is empty and the live positive even frontier is `V<=56`.
+
+At `V=56`, exact slack gives `L<=16`, the cubic cutoff is `M_3=658`, and
+parity leaves eight profiles on 154 affine templates. Folded-chord and direct-
+negacyclic engines agree after 3,056,582,144 vectors per engine, leaving
+12,638 cubic exceptions. Conductor removes 8,266; independent FLINT/PARI
+resultants put all 4,372 primitive exceptions below `2^250`. Therefore `V=56`
+is empty and the live positive even frontier is `V<=54`.

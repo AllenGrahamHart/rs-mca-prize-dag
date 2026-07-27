@@ -4950,3 +4950,39 @@ route decision: derive the exact E28 slack/profile/parity reduction before any
                 V=56 census, then compare its finite cost against the
                 419-cofactor (4,2,0) lane. Never rerun V>=58.
 ```
+
+**2026-07-27, E28 reduction and V=56 endpoint close:** the exact reduction
+reuses the proved four-odd atlas and needs only 154 affine templates. Two
+complete census engines and two exact resultant systems close the chamber.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=56 (E=28)
+successful reduction app: ap-BEcZIXOVjDX7VcTVMin3Bd
+discarded launch: ap-O0c99UzKohFBiFyJrHkEkS failed during module import and
+                  executed no mathematical task
+slack result: L<=16; exactly 14 energy profiles
+exact cubic cutoff: M_3=658; certified sign change at 658/659
+parity survivors: (4,6), (0,7), (3,4,1), (2,2,2), (4,2,0,1),
+                  (1,0,3), (0,3,0,1), (3,0,1,1)
+zero-odd branch: 63 antipodal-pair supports in six affine orbits
+four-odd branch: 28,800 supports in the proved 148-orbit wedge atlas
+relevant router: 6+148=154 affine light templates
+production app: ap-PQuIHM0okhzDOzZI6rgd4Y; folded oriented chords;
+                417.141898 aggregate worker-seconds
+audit app: ap-ZWrJEBdrWedbKw7pdza9ho; direct negacyclic products;
+           625.422659 aggregate worker-seconds
+coverage per engine: 154*binom(124,3)*64=3,056,582,144 vectors
+exact row agreement: 48,716 vectors in the eight profiles;
+                     12,638 above M_3=658; 4,372 full conductor
+proper conductor: complementary 8,266 exceptions discharged by theorem
+norm app: ap-0LbmLFyAQLcHe8swtJKntb; FLINT and PARI/GP agree on all 4,372
+distinct norms: 1,723
+exact maximum: 296015175952529502165108365809577184284217843110959136601469787066321741314
+strict margin: 6*N_max<2^250<7*N_max; bit length 248
+result: all eight profiles CLOSED; V=56 endpoint CLOSED
+live positive even variance frontier: V<=54
+new assumptions: none
+route decision: derive the exact E27 slack/profile/parity reduction before any
+                V=54 census and compare its router size against the
+                419-cofactor (4,2,0) lane. Never rerun V>=56.
+```

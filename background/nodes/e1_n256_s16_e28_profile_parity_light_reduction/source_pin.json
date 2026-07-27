@@ -1,0 +1,18 @@
+{
+  "probe_source_file": "background/nodes/e1_n256_s16_e28_profile_parity_light_reduction/notes/e28_profile_parity_probe_modal.py",
+  "probe_source_file_sha256": "f2fc58853394d6ff7e111e1214cd0d4b9ab1222a09847bf98682e4ee6cec64d0",
+  "probe_result_file": "background/nodes/e1_n256_s16_e28_profile_parity_light_reduction/notes/e28_profile_parity_probe_result.json",
+  "probe_result_file_sha256": "86f5f65731a54100e146eedfdb6579c379a9bf8a1c100ae9066f6a33c8d882f0",
+  "endpoint_file": "background/nodes/e1_n256_s16_e29_endpoint_exclusion/statement.md",
+  "endpoint_file_sha256": "0a0edeed3660ad6bff9e978cbfe4249d32a7456d88ec81d5d3768da84ff8bf7b",
+  "variance_parent_verify_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py",
+  "variance_parent_verify_file_sha256": "57b7a0f2d8590bda9234f4fb5bc0a573afd56200436458121767489fc5091f8e",
+  "signed_chord_file": "background/nodes/e1_n256_s16_signed_chord_collision_gate/statement.md",
+  "signed_chord_file_sha256": "926f9c94a0b5dd0830b7e37fafcd96f570dd93802de16061c802546e466e3157",
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
+  "four_atlas_owner_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/statement.md",
+  "four_atlas_owner_file_sha256": "2c775ba148a35987157c2ce170dbc18b4a338f194cd990b304904e8726ed4edd",
+  "four_atlas_result_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_four_odd_light_orbit_result.json",
+  "four_atlas_result_file_sha256": "daaf781348f8b691c959c6172e900a6791b00904a6131c60c16f7d98eeec7e98"
+}

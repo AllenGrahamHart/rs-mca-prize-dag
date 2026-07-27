@@ -205,3 +205,7 @@ proved joint exclusion combines two independent 2,203,120,896-vector censuses,
 the conductor theorem, and independent exact norms for 820 primitive
 exceptions. The proved E29 endpoint synthesis closes `V=58` and advances the
 frontier to `V<=56`; it too remains evidence rather than a universal close.
+The proved E28 reduction leaves eight profiles on 154 affine templates; the
+joint exclusion adds two independent 3,056,582,144-vector censuses, conductor,
+and exact norms for 4,372 primitive exceptions. The proved E28 endpoint closes
+`V=56` and advances the frontier to `V<=54`, still as evidence only.

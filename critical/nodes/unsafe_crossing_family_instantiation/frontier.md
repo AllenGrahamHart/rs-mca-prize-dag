@@ -229,14 +229,19 @@ one-diameter light templates. Independent folded-chord and direct-negacyclic
 engines agree after 2,203,120,896 vectors each, leaving 4,812 cubic exceptions.
 Conductor removes 3,992; independent FLINT/PARI norms put all 820 primitive
 exceptions below `2^250`. Hence `V=58` is empty and the frontier is `V<=56`.
+At `V=56`, exact slack gives `L<=16`, the cubic cutoff is `M_3=658`, and
+parity leaves eight profiles on 154 affine templates. Independent engines
+agree after 3,056,582,144 vectors each, leaving 12,638 cubic exceptions.
+Conductor removes 8,266; independent exact norms put all 4,372 primitive
+exceptions below `2^250`. Hence `V=56` is empty and the frontier is `V<=54`.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
 injectivity or another explicit `V` line. Within the first `N=256` band,
-derive the exact `V=56` slack/profile/parity reduction before any further
+derive the exact `V=54` slack/profile/parity reduction before any further
 census.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
-cofactor classes. Do not rerun any `V>=58`
+cofactor classes. Do not rerun any `V>=56`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
 safe predecessor relocates the candidate threshold immediately.

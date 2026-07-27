@@ -71,7 +71,13 @@ on 111 affine one-diameter light templates. Folded-chord and direct-negacyclic
 engines agree after 2,203,120,896 vectors per engine, leaving 4,812 cubic
 exceptions. The conductor theorem removes 3,992; independent FLINT/PARI norms
 put all 820 primitive exceptions below `2^250`. Thus `V=58` is empty and the
-live positive even frontier is `V<=56`.
+live positive even frontier is `V<=56`. At `V=56`, exact slack gives `L<=16`,
+the cubic cutoff is `M_3=658`, and parity leaves eight profiles on six
+antipodal-pair and 148 four-odd affine light templates. Two independent
+3,056,582,144-vector censuses leave 12,638 cubic exceptions. The conductor
+theorem removes 8,266; independent FLINT/PARI norms put all 4,372 primitive
+exceptions below `2^250`. Thus `V=56` is empty and the live frontier is
+`V<=54`.
 At `N=512,s=2`, exact variance
 excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.
