@@ -8,8 +8,8 @@
 
 ## Output
 
-Variances `86,88,...,134` are collision-free. The unresolved
-profile-`(3,4,0)` residual is positive even `V<=84`.
+Variances `84,86,...,134` are collision-free. The unresolved
+profile-`(3,4,0)` residual is positive even `V<=82`.
 
 ## Guards
 
@@ -30,7 +30,10 @@ profile-`(3,4,0)` residual is positive even `V<=84`.
    extrapolations of the mean-tangent table.
 7. Every logarithmic majorant uses the row-specific ceiling `B`.
 8. Endpoint and six-bit inequalities are exact rational Taylor comparisons.
-9. No claim is made for `0<V<=84` or profile `(4,2,0)`.
+9. The `V=84` cubic certificate uses all 42 integer autocorrelation profiles
+   with `E=42,L<=24`; its nested-layer count is an upper bound on the signed
+   third moment, not a realizability classification.
+10. No claim is made for `0<V<=82` or profile `(4,2,0)`.
 
 ## Falsifier
 

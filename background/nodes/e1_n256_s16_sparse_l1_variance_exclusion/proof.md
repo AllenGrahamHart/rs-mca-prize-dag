@@ -276,9 +276,10 @@ class partition. Indeed, a zero-slack non-diameter class has either
 `S in {1,3}`. Charging its magnitude-two and unit chords separately
 therefore costs respectively `0`, `4`, or `1`, never more than its
 actual energy `S^2`. The formula also omits the nonnegative energy of
-diameters and of zero-slack classes made only from magnitude-four chords.
-Together with the forgotten global magnitude-four budget, every omission
-can only lower the minimum relative to an actual support.
+zero-slack classes made only from magnitude-four chords; diameter chords
+contribute zero to `E` by definition. Together with the forgotten global
+magnitude-four budget, every relaxation can only lower the minimum relative
+to an actual support.
 
 Direct substitution in this finite recurrence gives
 
@@ -492,6 +493,122 @@ log(8/7)+1/160-42/301>0,
 Again degree-four truncations suffice, and the averaged decay is
 `q=73/105`. This excludes `V=86`.
 
+For `V=84`, we use one additional exact moment. Here `E=42`, so
+(3) gives `L<=24`. Put `x_u=y_u-16`, and extend the positive-half
+autocorrelation to the negacyclic coefficient sequence
+
+```text
+c_0=c_64=0,       c_d=A_d,       c_(128-d)=-A_d  (1<=d<=63).
+```
+
+Then the third central moment is the signed zero coefficient
+
+```text
+M_3=mean_u x_u^3=(c*c*c)_0.
+```
+
+Let `b_d=|c_d|` and write the integer layer sets
+`S_j={d:b_d>=j}`. They are nested, symmetric, and exclude zero.
+For any three layers, the number `R(S_i,S_j,S_k)` of ordered solutions
+to `r+s+t=0 mod 128` obeys
+
+```text
+R(S_i,S_j,S_k)
+ <=min_(unordered layer pairs U,W) (|U||W|-|U intersection W|).  (17)
+```
+
+Indeed, after choosing the two entries in `U,W`, the third entry is
+determined. The `|U intersection W|` pairs of the form `(r,-r)`
+would force that third entry to be zero, which belongs to no layer.
+The equation is symmetric, so the best of the three pair choices may be
+used.
+
+Let `n_j` count positive-half coefficients with `|A_d|=j`. Only
+`1<=j<=6` can occur, and
+
+```text
+sum_j j^2 n_j=42,       sum_j j n_j=L<=24,
+sum_j n_j<=21.
+```
+
+The layer sizes are `s_r=2 sum_(j>=r)n_j`. Expanding `b` into its
+layers and applying (17) gives
+
+```text
+|M_3| <= Phi(n)
+ =sum_(r,s,t) min{s_r s_s-min(s_r,s_s),
+                   s_r s_t-min(s_r,s_t),
+                   s_s s_t-min(s_s,s_t)}.
+```
+
+There are only 42 integer profiles satisfying the displayed constraints.
+Exact substitution gives
+
+```text
+Phi(n)<=3660,
+```
+
+with equality in this upper-bound ledger only for
+`(n_1,...,n_6)=(6,9,0,0,0,0)`. In particular `M_3<=3660`.
+
+Let `p` be the cubic Hermite interpolant to `log` at 14 and 60:
+
+```text
+p(14)=log 14,   p'(14)=1/14,
+p(60)=log 60,   p'(60)=1/60.
+```
+
+For every `x>0`, the Hermite remainder and
+`(log x)''''=-6/x^4` give
+
+```text
+log x-p(x)=-(x-14)^2(x-60)^2/(4 xi^4)<=0
+```
+
+for some positive `xi`. Thus `p` is a global logarithmic majorant.
+Its leading coefficient is
+
+```text
+gamma=(log 14-log 60)/48668+37/888720>0.
+```
+
+For the last inequality, `log(30/7)<2` because
+`exp(2)>1+2+2=5>30/7`, while
+`37/888720-2/48668>0`.
+
+The raw moments satisfy
+
+```text
+mean y_u=16,       mean y_u^2=340,
+mean y_u^3=8128+M_3<=11788.
+```
+
+Since `gamma>0`, exact substitution in `p` yields
+
+```text
+mean log y_u
+ <=(11692/12167)log 14+(475/12167)log 60+361/31740
+ <(125/32)log 2.                                  (18)
+```
+
+The final strict inequality is equivalently
+
+```text
+-(66901/389344)log 2
+ +(11692/12167)log(8/7)
+ +(475/12167)log(16/15)-361/31740 > 0.
+```
+
+Eight terms of the exact atanh series for the three logarithms, with its
+geometric tail bound, certify this positive rational margin. If some
+`y_u=0`, the norm already vanishes; otherwise (18) gives
+
+```text
+|Norm(F(zeta))|<exp(64*(125/32)log 2)=2^250.
+```
+
+The collision-norm criterion therefore excludes `V=84`.
+
 Apply (6)--(7) to the two new endpoint rows, (3) to the next two
 low-variance blocks, and (1) to the five existing upper blocks:
 
@@ -542,7 +659,7 @@ and their mean square is `V`, giving
 
 ```text
 log G<=log 16-V/C,
-|Norm(F(zeta))|=G^64<=2^256 exp(-64V/C).               (17)
+|Norm(F(zeta))|=G^64<=2^256 exp(-64V/C).               (19)
 ```
 
 For each row use its minimum `V` and put `q=32V/(3C)`.
@@ -552,7 +669,7 @@ The degree-nine positive Taylor truncation verifies exactly that
 sum_(j=0)^9 q^j/j! > 2.
 ```
 
-Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (17)
+Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (19)
 is strictly below `2^250`. The collision-norm criterion excludes
 every listed variance. Since `V` is even, only
-`0<V<=84` remains.
+`0<V<=82` remains.

@@ -977,7 +977,7 @@ matching of weight at most 21. Expanding the exact negacyclic energy gives
 V/2=102-D_64+2C.
 ```
 
-The currently sharpened residual `V<=84` therefore forces signed
+The currently sharpened residual `V<=82` therefore forces signed
 repeated-distance cross sum `C<=-20`. Every live support has an
 oppositely signed pair of equal
 non-diameter chords and hence a three-term-progression or four-point
@@ -1113,6 +1113,26 @@ specific derivative-root templates used above no longer supply six bits.
 This is a route-decision point, not a proof that every quadratic or
 higher-moment majorant fails.
 See `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N39 DONE, E1 N=256 LAYERED THIRD MOMENT AND CUBIC ENDPOINT: the formal
+`E=42,L=24` ceiling is geometrically attainable, so an `L<=23` repair is
+false. For the full `E=42,L<=24` locus, expand the absolute negacyclic
+autocorrelation into nested integer level sets. Each ordered layer triple
+loses every pair summing to zero, and exact substitution over all 42 possible
+integer magnitude profiles gives
+
+```text
+M_3<=3660.
+```
+
+The worst layer ledger is the profile with nine magnitudes two and six
+magnitudes one. The cubic Hermite interpolant to `log` at 14 and 60 is a
+global majorant because the fourth derivative of `log` is negative. Its
+positive leading coefficient and the moment cap put the average logarithm
+strictly below `(125/32)log 2`, excluding `V=84`. The residual is now
+positive even `V<=82`; `C<=-20` is unchanged. The exact proof uses no
+Modal result. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it

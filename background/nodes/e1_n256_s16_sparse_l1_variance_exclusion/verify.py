@@ -8,7 +8,7 @@ import json
 import math
 from collections import defaultdict
 from fractions import Fraction
-from itertools import combinations
+from itertools import combinations, product
 from pathlib import Path
 
 
@@ -67,6 +67,49 @@ def alternating_log_lower(argument: Fraction, even_degree: int) -> Fraction:
         (-1) ** (index + 1) * argument**index / index
         for index in range(1, even_degree + 1)
     )
+
+
+def atanh_log_bounds(value: Fraction, terms: int) -> tuple[Fraction, Fraction]:
+    assert value > 1
+    parameter = (value - 1) / (value + 1)
+    lower = 2 * sum(
+        parameter ** (2 * index + 1) / (2 * index + 1)
+        for index in range(terms)
+    )
+    first_omitted_degree = 2 * terms + 1
+    remainder = (
+        2
+        * parameter**first_omitted_degree
+        / (first_omitted_degree * (1 - parameter * parameter))
+    )
+    return lower, lower + remainder
+
+
+def layer_triple_cap(counts: tuple[int, ...]) -> int:
+    layer_sizes = [
+        2 * sum(counts[level:])
+        for level in range(len(counts))
+        if sum(counts[level:])
+    ]
+    cap = 0
+    for first, second, third in product(layer_sizes, repeat=3):
+        pair_caps = (
+            first * second - min(first, second),
+            first * third - min(first, third),
+            second * third - min(second, third),
+        )
+        cap += min(pair_caps)
+    return cap
+
+
+def add_log_forms(*forms: tuple[Fraction, Fraction, Fraction]) -> tuple[Fraction, Fraction, Fraction]:
+    return tuple(sum(form[index] for form in forms) for index in range(3))  # type: ignore[return-value]
+
+
+def scale_log_form(
+    scalar: Fraction, form: tuple[Fraction, Fraction, Fraction]
+) -> tuple[Fraction, Fraction, Fraction]:
+    return tuple(scalar * value for value in form)  # type: ignore[return-value]
 
 
 def maximum_part_square_sum(total: int) -> int:
@@ -384,6 +427,21 @@ def main() -> None:
         256, *(position - witness_support[0] for position in witness_support)
     ) == 1
     assert chord_ledger(e50_witness) == (50, 28, 0, -26)
+
+    e42_witness = {
+        7: -1,
+        24: -1,
+        55: -2,
+        76: -1,
+        82: -2,
+        87: 1,
+        103: 2,
+    }
+    witness_support = sorted(e42_witness)
+    assert math.gcd(
+        256, *(position - witness_support[0] for position in witness_support)
+    ) == 1
+    assert chord_ledger(e42_witness) == (42, 24, 0, -30)
     assert {
         energy: (energy + 66) // 4
         for energy in (53, 54, 55)
@@ -583,7 +641,113 @@ def main() -> None:
     assert optimized_decay_86 == Fraction(73, 105)
     assert taylor(optimized_decay_86, 4) > 2
 
-    excluded = [86, 88, 90, 92, 94, 96, 98, 100]
+    energy_42_profiles = []
+    for counts in product(
+        range(43), range(11), range(5), range(3), range(2), range(2)
+    ):
+        profile_l1 = sum(
+            (index + 1) * count for index, count in enumerate(counts)
+        )
+        profile_energy = sum(
+            (index + 1) ** 2 * count for index, count in enumerate(counts)
+        )
+        if profile_energy != 42 or profile_l1 > 24 or sum(counts) > 21:
+            continue
+        energy_42_profiles.append((layer_triple_cap(counts), counts, profile_l1))
+    assert len(energy_42_profiles) == 42
+    assert max(energy_42_profiles) == (3660, (6, 9, 0, 0, 0, 0), 24)
+    assert sum(cap == 3660 for cap, _, _ in energy_42_profiles) == 1
+
+    log_14 = (Fraction(1), Fraction(0), Fraction(0))
+    log_60 = (Fraction(0), Fraction(1), Fraction(0))
+    hermite_coefficients = (
+        (
+            Fraction(8100, 12167),
+            Fraction(4067, 12167),
+            Fraction(-949, 529),
+        ),
+        (
+            Fraction(630, 12167),
+            Fraction(-630, 12167),
+            Fraction(42883, 222180),
+        ),
+        (
+            Fraction(-111, 48668),
+            Fraction(111, 48668),
+            Fraction(-1159, 222180),
+        ),
+        (
+            Fraction(1, 48668),
+            Fraction(-1, 48668),
+            Fraction(37, 888720),
+        ),
+    )
+
+    def evaluate_form_polynomial(
+        value: int,
+    ) -> tuple[Fraction, Fraction, Fraction]:
+        return add_log_forms(
+            *(
+                scale_log_form(Fraction(value**degree), coefficient)
+                for degree, coefficient in enumerate(hermite_coefficients)
+            )
+        )
+
+    def evaluate_form_derivative(
+        value: int,
+    ) -> tuple[Fraction, Fraction, Fraction]:
+        return add_log_forms(
+            *(
+                scale_log_form(
+                    Fraction(degree * value ** (degree - 1)), coefficient
+                )
+                for degree, coefficient in enumerate(hermite_coefficients)
+                if degree
+            )
+        )
+
+    assert evaluate_form_polynomial(14) == log_14
+    assert evaluate_form_polynomial(60) == log_60
+    assert evaluate_form_derivative(14) == (
+        Fraction(0),
+        Fraction(0),
+        Fraction(1, 14),
+    )
+    assert evaluate_form_derivative(60) == (
+        Fraction(0),
+        Fraction(0),
+        Fraction(1, 60),
+    )
+    assert Fraction(37, 888720) - Fraction(2, 48668) > 0
+    assert Fraction(5) > Fraction(30, 7)
+
+    assert 16**2 + 84 == 340
+    assert 16**3 + 3 * 16 * 84 + 3660 == 11788
+    expected_hermite = add_log_forms(
+        hermite_coefficients[0],
+        scale_log_form(Fraction(16), hermite_coefficients[1]),
+        scale_log_form(Fraction(340), hermite_coefficients[2]),
+        scale_log_form(Fraction(11788), hermite_coefficients[3]),
+    )
+    assert expected_hermite == (
+        Fraction(11692, 12167),
+        Fraction(475, 12167),
+        Fraction(361, 31740),
+    )
+
+    log_2_lower, log_2_upper = atanh_log_bounds(Fraction(2), 8)
+    log_8_over_7_lower, _ = atanh_log_bounds(Fraction(8, 7), 8)
+    log_16_over_15_lower, _ = atanh_log_bounds(Fraction(16, 15), 8)
+    assert log_2_lower < log_2_upper
+    hermite_margin_lower = (
+        Fraction(-66901, 389344) * log_2_upper
+        + Fraction(11692, 12167) * log_8_over_7_lower
+        + Fraction(475, 12167) * log_16_over_15_lower
+        - Fraction(361, 31740)
+    )
+    assert hermite_margin_lower > 0
+
+    excluded = [84, 86, 88, 90, 92, 94, 96, 98, 100]
     for lower_v, upper_v, upper_energy, upper_l1, bound, denominator, method in ROWS:
         energies = range(lower_v // 2, upper_energy + 1)
         if method == "slack":
@@ -606,7 +770,7 @@ def main() -> None:
         assert taylor(six_bit_exponent, 9) > 2
         excluded.extend(range(lower_v, upper_v + 1, 2))
 
-    assert excluded == list(range(86, 136, 2))
+    assert excluded == list(range(84, 136, 2))
 
     dag = json.loads((ROOT / "dag.json").read_text())
     statuses = {entry["id"]: entry["status"] for entry in dag["nodes"]}
@@ -621,12 +785,12 @@ def main() -> None:
     assert (NORM_PARENT, NODE, "req") in edges
     assert (NODE, E1_TARGET, "ev") in edges
     assert (NODE, UNIVERSAL_TARGET, "ev") in edges
-    assert "86<=V<=134" in statements[NODE]
-    assert "V<=84" in statements[NODE]
+    assert "84<=V<=134" in statements[NODE]
+    assert "V<=82" in statements[NODE]
 
     print(
         "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS "
-        "excluded=25 residual_max=84 majorants=17"
+        "excluded=26 residual_max=82 majorants=18"
     )
 
 

@@ -8,7 +8,7 @@ Let `F=sum_i c_i X^i` have folded profile `(3,4,0)` in the
 exclusion, so
 
 ```text
-0<V<=84.
+0<V<=82.
 ```
 
 For an unordered support pair `e={i,j}`, let `d(e)` be its circular
