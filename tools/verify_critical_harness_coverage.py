@@ -29,9 +29,11 @@ EXPECTED_COUNTS = {
     # orbit entirely. md-only 146 -> 131, local-verifier 50 -> 44. Widened per hard
     # law 8: a legitimate re-pricing, recorded, not silenced.
     # 2026-07-27 (averaged_xr false-green cascade): 131 -> 129, 44 -> 43.
-    "folder-md-only": 129,
+    # WAVE-26 (2026-07-27): averaged_xr gained a real verifier and the cascade
+    # returned to PROVED; 129 -> 130 md-only, 43 -> 44 local-verifier.
+    "folder-md-only": 130,
     "legacy-ref-only": 5,
-    "local-verifier": 43,
+    "local-verifier": 44,
 }
 
 EXPECTED_NO_PROOF = {
@@ -107,7 +109,7 @@ def main() -> None:
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
     require(len(critical["nodes"]) == 241, "critical orbit size drift")  # 242 -> 241 (2026-07-27: xr_ledger_exponent_reconciliation left the critical path when averaged_xr became a red leaf)
-    require(len(proved) == 177, "critical PROVED count drift")  # 180 -> 177 (2026-07-27: averaged_xr false green + its cascade)
+    require(len(proved) == 179, "critical PROVED count drift")  # 180 -> 177 (2026-07-27: averaged_xr false green + its cascade)
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()

@@ -1,7 +1,7 @@
-# proof: xr_gvn (auto-discharged)
+# Unclosed proof route: XR generalized von Neumann reduction
 
-The conditional implication (see conditional.md) is proved and every predicate is now green:
+No proof is currently claimed. The former auto-discharge was invalid because
+`averaged_xr` supplies one exact fixed-slope pair moment, not a defined family
+of iterated exchange energies or a quantitative Cauchy--Schwarz endpoint.
 
-- `averaged_xr` [PROVED]
-
-By modus ponens the statement is PROVED. Auto-discharged by tools/auto_discharge.py; the audit lives at the red->amber referee step.
+See `statement.md` and `status_ruling.md` for the remaining theorem.

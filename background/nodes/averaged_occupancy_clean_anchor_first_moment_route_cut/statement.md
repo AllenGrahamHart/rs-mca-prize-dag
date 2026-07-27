@@ -1,7 +1,7 @@
 # Averaged-occupancy clean-anchor first-moment route cut
 
 - **status:** PROVED
-- **closure:** proof plus exact arithmetic
+- **closure:** exact arithmetic plus `averaged_slope_conversion`
 
 Fix one of the six named high-budget clean predecessor anchors, with agreement
 `a`, field order `q`, and `B*=floor(q/2^128)` equal to its named budget. Let

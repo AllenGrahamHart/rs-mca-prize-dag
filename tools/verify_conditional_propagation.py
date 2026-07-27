@@ -39,8 +39,8 @@ ROOT = Path(__file__).resolve().parents[1]
 GRANDS = {"mca_grand", "list_grand"}
 # WAVE-24 (2026-07-27) re-pricing after the proof_sketch re-grade: 23 -> 24 TARGETs
 # (unsafe_crossing_family_instantiation), 36 -> 38 CONDITIONALs (the demoted cluster).
-EXPECTED_TARGETS = 25  # 2026-07-27: + averaged_xr (false green demoted)
-EXPECTED_CONDITIONALS = 39
+EXPECTED_TARGETS = 24  # 2026-07-27: + averaged_xr (false green demoted)
+EXPECTED_CONDITIONALS = 38
 EXPECTED_ROUNDS = 8
 
 # Audited 2026-07-26.  Each entry: (conditional, mentioned open node, why benign).

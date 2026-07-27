@@ -496,13 +496,24 @@
   },
   {
    "id": "averaged_xr",
-   "title": "Averaged XR via Johnson-scheme second moments",
-   "status": "TARGET",
+   "title": "Exact slope-resolved support-pair moment",
+   "status": "PROVED",
+   "closure": "proof",
+   "upstream": {
+    "label": "M1 average support-collinearity / restricted-family certificate",
+    "relation": "IDENTICAL"
+   },
    "refs": [
-    "proof_sketch/s3b_iii_2_displacement_spectral.md#5"
+    "critical/nodes/averaged_xr/statement.md",
+    "critical/nodes/averaged_xr/proof.md",
+    "critical/nodes/averaged_xr/claim_contract.md",
+    "critical/nodes/averaged_xr/verify.py",
+    "critical/nodes/averaged_xr/source_pin.json",
+    "critical/nodes/averaged_xr/status_ruling.md",
+    "critical/nodes/averaged_xr/sketch.md"
    ],
-   "notes": "The graded-by-intersection second-moment table is now CLOSED FORM via the pair-rank ledger: correlations q^{-min(s,t)} extra for s < t, exact independence beyond \u2014 the variance is dominated by close pairs, as the FM model hoped. | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED PROVED -> CONDITIONAL (consolidation agent's cross-audit): the proof defers to xr_ledger_qpower (now PROVED, slot filled) BUT the exponent off-by-one \u2014 statement q^{-min(s,t)} vs ledger c(s,t) = min(s,t-1) \u2014 is unresolved and worth a full q factor at deep shells. Conditional on xr_ledger_exponent_reconciliation.",
-   "statement": "AVERAGED XR (the slope-resolved second moment). Claim sought: second moments of |A_{u,v}| over pairs (u,v) (or over slopes) admit explicit Cauchy double sums over pairs (T,T') graded by intersection size, so that the Johnson-scheme decomposition applies and the lam_0 - lam_1 = n gap gives variance control; same-slope pairs carry the closed-form correlation term while distinct-slope pairs are independent. This is what `averaged_slope_conversion` consumes as its second moment. DEMOTED PROVED -> TARGET 2026-07-27 (false green, three independent reasons): (i) the node's proof.md auto-discharges 'the conditional implication (see conditional.md)' but NO conditional.md exists in the folder \u2014 there is no implication to invoke; (ii) its sole req-predicate `xr_ledger_exponent_reconciliation` RECONCILES 'averaged_xr's stated shell exponent q^{-min(s,t)} with the proved ledger's c(s,t) = min(s,t-1)' \u2014 it presupposes this claim and cannot prove it; (iii) the node's own sketch.md records status PROVABLE, and the upstream source (proof_sketch/s3b_iii_2_displacement_spectral.md#5, tagged SKETCH) says only that the averaged form 'LOOKS PROVABLE with current tools', explicitly leaving worst-case de-correlation as the wall. ATTACK: the Hooley-Katz / Scott exponential-sum lane named in that section. FALSIFIER: a shell where the reconciled exponent c(s,t) breaks the variance control the conversion needs."
+   "statement": "For exact (k+t)-supports S,T at exchange distance d, the joint top-coefficient interpolation map has rank t+min(d,t). Hence for each fixed slope z their exact joint contribution probability is alpha_d(1-2q^(-t)+alpha_d), alpha_d=q^(-t-min(d,t)); supports at distance d>=t are exactly independent. Summing gives the exact restricted-family fixed-slope factorial moment consumed by averaged_slope_conversion.",
+   "notes": "REPAIRED CLOSURE 2026-07-27. The former auto-proof was invalid, but upstream commit 674503f contains a later elementary exact support-collinearity theorem. Locally rederived and verified on 9,047 interpolation-matrix support pairs plus exhaustive toy pair counts. Scope is the averaged fixed-slope moment only, not worst-case XR or cross-slope independence."
   },
   {
    "id": "displacement_uniform",
@@ -1530,12 +1541,14 @@
   {
    "id": "averaged_slope_conversion",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
+   "closure": "proof",
    "refs": [
-    "proof_sketch/s2_paid_ledger.md#6"
+    "critical/nodes/averaged_slope_conversion/statement.md",
+    "critical/nodes/averaged_slope_conversion/proof.md"
    ],
-   "notes": "s2 fork F2: plausibly provable (second moment + paid-fiber exclusion); needed exactly when zone-(b) is collided | PROOF WRITTEN in flight (#212): FM1 + slope-resolved second moment + v8 cap + explicit paid-fiber exclusion; verifier green. Their honest caveat: stated for post-paid support families \u2014 row use still needs the paid-excluded strict-overlap profile. | FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): CONJECTURE -> CONDITIONAL; referee packet in nodes/averaged_slope_conversion/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them). | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED with the averaged_xr exponent question (cross-audit cascade): the proof stands as a conditional implication; discharges when xr_ledger_exponent_reconciliation lands.",
-   "statement": "For a deterministic support family A with exact strict-overlap profile, put nu(A)=E[N(A)]-(q/2)C_t(A). For every integer B>=1, nu(A)>B-1 implies the existence of a received pair with at least B distinct finite bad slopes. Prize use with the strict unsafe inequality >B* therefore requires nu(A)>B* and B=B*+1, after paid-family ownership and ambient-field scope are supplied. | DEMOTED PROVED -> CONDITIONAL 2026-07-27: the conditional implication (conditional.md, predicates `fm1` + `averaged_xr`) is intact and `fm1` is PROVED, but `averaged_xr` \u2014 which this node's proof explicitly relies on to 'supply the slope-resolved second moment' \u2014 was demoted to TARGET as a false green. This node is therefore CONDITIONAL on averaged_xr. (Independently corroborates the session-7j finding that this node's post-paid-support-family scope was being consumed at row level.)"
+   "notes": "Exact occupancy proof: 1_(X_z>0)>=X_z-X_z(X_z-1)/2, summed over slopes. No cross-slope independence is used. Prize payloads must still supply paid-family ownership, overlap profile, and ambient-field scope.",
+   "statement": "For a deterministic support family A with exact strict-overlap profile, put nu(A)=E[N(A)]-(q/2)C_t(A). For every integer B>=1, nu(A)>B-1 implies the existence of a received pair with at least B distinct finite bad slopes. Prize use with B=B*+1 therefore requires the strict certificate nu(A)>B*."
   },
   {
    "id": "dyadic_profile_evaluation",
@@ -1729,12 +1742,13 @@
   {
    "id": "xr_gvn",
    "title": "XR stage 1: generalized von Neumann \u2014 FM-excess controlled by iterated exchange energies",
-   "status": "CONDITIONAL",
-   "statement": "Define E_k(u,v) = the k-fold iterated exchange-correlation (Johnson-scheme energy of order k). Prove: unpaid alignment excess over FM is bounded by some E_k being large (Cauchy-Schwarz chain over exchange moves). | DEMOTED PROVED -> CONDITIONAL 2026-07-27: propagation from the averaged_xr false-green demotion \u2014 now conditional on ['averaged_xr'].",
+   "status": "TARGET",
+   "statement": "Define E_k(u,v) rigorously as a k-fold iterated Johnson exchange energy and prove, with quantitative constants and endpoint control, that unpaid alignment excess over FM forces some E_k to be large. The exact k=2 fixed-slope moment is evidence but does not prove this multi-exchange reduction.",
    "refs": [
-    "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
+    "background/nodes/xr_gvn/statement.md",
+    "background/nodes/xr_gvn/status_ruling.md"
    ],
-   "notes": "template-standard mechanics; ingredients proved (exchange calculus, Johnson gap, averaged_xr = the k=2 case) | #191's endpoint multi-exchange inequality Pr[T_0,T_s in A] <= delta^2 + lambda*^s delta(1-delta) supplies the s-step decay the Cauchy-Schwarz chain needs. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/xr_gvn/. | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED with the averaged_xr exponent question (cross-audit cascade): the proof stands as a conditional implication; discharges when xr_ledger_exponent_reconciliation lands."
+   "notes": "SCOPE CORRECTION 2026-07-27: averaged_xr proves only the exact fixed-slope pair moment. The former packet leaves the iterated energies, Cauchy--Schwarz chain, and endpoint margin undefined, so this broader off-orbit claim is TARGET."
   },
   {
    "id": "xr_inverse",
@@ -16395,7 +16409,7 @@
   {
    "id": "averaged_occupancy_clean_anchor_first_moment_route_cut",
    "title": "Complete-support first-moment route cut at clean envelopes",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "closure": "proof",
    "refs": [
     "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/statement.md",
@@ -16404,7 +16418,7 @@
     "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/verify.py",
     "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/source_pin.json"
    ],
-   "statement": "At each of the six named high-budget clean predecessor anchors, any support family with |S|>=a has E[N(A)]<B*. Indeed the complete-family FM1 sum is dominated by a geometric tail below B*, with exact RowC binomial certificates and exact rational-entropy prize certificates. Since the averaged supplier has nu(A)=E[N(A)]-(q/2)C_t(A)<=E[N(A)], no deterministic support family can satisfy nu(A)>B* there. This rules out the present M supplier at those envelopes, not direct Q/V payloads or safety. | DEMOTED PROVED -> CONDITIONAL 2026-07-27: propagation from the averaged_xr false-green demotion \u2014 now conditional on ['averaged_slope_conversion'].",
+   "statement": "At each of the six named high-budget clean predecessor anchors, any support family with |S|>=a has E[N(A)]<B*. Indeed the complete-family FM1 sum is dominated by a geometric tail below B*, with exact RowC binomial certificates and exact rational-entropy prize certificates. Since the averaged supplier has nu(A)=E[N(A)]-(q/2)C_t(A)<=E[N(A)], no deterministic support family can satisfy nu(A)>B* there. This rules out the present M supplier at those envelopes, not direct Q/V payloads or safety.",
    "notes": "ROUTE CUT 2026-07-27: the first moment is already below budget, so no strict-overlap optimization can rescue averaged_slope_conversion on the six named envelopes."
   },
   {
@@ -16779,6 +16793,106 @@
     "label": "SP / norm-one multiplicative affine quotient factor",
     "relation": "OVERLAP"
    }
+  },
+  {
+   "id": "integer_code_distance_high_field_folded_box_exclusion",
+   "title": "Order-128 high-field folded-box exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every odd prime p=1 mod 128 with p>253^32, every ternary vector v in {-1,0,1}^128 satisfying sum_i v_i zeta^i=0 at an exact order-128 root is antipodal/cyclotomic: v_i=v_(i+64) for all i. Odd-conjugate Parseval gives |Norm(W)|<=S^32; a non-even folded vector has S<=253, while an all-even vector divides by two and has norm at most 64^32.",
+   "refs": [
+    "background/nodes/integer_code_distance_high_field_folded_box_exclusion/statement.md",
+    "background/nodes/integer_code_distance_high_field_folded_box_exclusion/proof.md",
+    "background/nodes/integer_code_distance_high_field_folded_box_exclusion/claim_contract.md",
+    "background/nodes/integer_code_distance_high_field_folded_box_exclusion/dependency_subdag.md",
+    "background/nodes/integer_code_distance_high_field_folded_box_exclusion/audit.md",
+    "background/nodes/integer_code_distance_high_field_folded_box_exclusion/result.md",
+    "background/nodes/integer_code_distance_high_field_folded_box_exclusion/verify.py"
+   ],
+   "notes": "Pays the complete order-128 folded cube only above the exact field threshold. Lower fields, other orders, the universal row assignment, and value-set budget remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m16_order_zero_reciprocal_elimination",
+   "title": "L1 Mersenne HNF m=16 order-zero reciprocal elimination",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The complete m=16,h=15 order-zero outer HNF chamber is empty on the official (n,p)=(131072,8191) row. The first three Frobenius-reciprocal coefficient equations give eliminants of degrees 11472 and 15296. Their degree-9912 gcd has squarefree radical s(s-1) product_(j=1)^15(s+j), so every common solution has s in F_8191, contradicting the HNF condition.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/statement.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/proof.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/audit.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/result.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/verify.py",
+    "experiments/prize_resolution/l1_mersenne_m16_reciprocal_gcd_modal.py",
+    "experiments/prize_resolution/l1_mersenne_m16_reciprocal_companion_audit_modal.py",
+    "experiments/prize_resolution/l1_mersenne_m16_reciprocal_gcd_result.json",
+    "experiments/prize_resolution/l1_mersenne_m16_reciprocal_companion_audit_result.json",
+    "experiments/prize_resolution/l1_mersenne_m16_reciprocal_gcd_result.md"
+   ],
+   "notes": "Exact bounded computer algebra, not a field-element scan: the primary resultant construction and an independent companion-matrix/Newton construction reproduce both eliminants, their gcd, and the degree-17 radical. Closes order zero only; order one and global L1 remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_order_one_involution_component_exclusion",
+   "title": "L1 Mersenne HNF order-one involution-component exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For odd h, h!*Phi_h(rho,c) is divisible by rho*c*(c-1)*(c+1). The order-one chamber already excludes the first three factors, while c=-1 contradicts (c-1)^n=1 on all five official next-to-maximal rows because the order of 2 modulo p=2^q-1 is the odd prime q and n is a power of two. Thus the order-one curve reduces to Psi_7=0 of bidegree (2,4) or Psi_15=0 of bidegree (6,12).",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/verify.py",
+    "experiments/prize_resolution/l1_mersenne_order_one_phi_factor_modal.py",
+    "experiments/prize_resolution/l1_mersenne_order_one_phi_factor_result.json",
+    "experiments/prize_resolution/l1_mersenne_order_one_phi_factor_result.md"
+   ],
+   "notes": "Exact analytic component exclusion. The Modal factorization is discovery evidence; the stdlib verifier reconstructs the coefficient polynomials and the official torsion contradiction. The residual order-one curves remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_order_one_newton_reciprocal_reduction",
+   "title": "L1 Mersenne HNF order-one Newton reciprocal reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the reduced order-one roots x_i, the jth reciprocal coefficient equation is exactly e_j((x_i^star)^m)=e_j(x_i^(-m)). Newton identities therefore construct the first three necessary equations from traces at m,2m,3m, and the H-1 interior equations plus the constant-product equation are equivalent to the full reduced reciprocal identity. No generic mth-power resultant is required.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/verify.py"
+   ],
+   "notes": "Exact resultant-free reformulation. The first-three trace system is necessary only; parameter elimination and the pointwise Frobenius/cyclotomic/inner tests remain open."
+  },
+  {
+   "id": "f3_hge4_multiscale_haar_m128_frontier",
+   "title": "HGE4 balanced-factor Haar augmentation and m=128 frontier",
+   "status": "PROVED",
+   "closure": "proof",
+   "gate": "all",
+   "statement": "For every nonzero norm in the multiscale Haar product, balanced signed support gives the independent factor Norm(1-zeta_O)=2. The sharpened exact gate closes all exact-ratio m=128 widths h=12,...,64 and prunes the h=9,10,11 Haar patterns explicitly.",
+   "upstream": {
+    "label": "SP / primitive shift-pair exact second-moment ledger",
+    "relation": "OVERLAP"
+   },
+   "refs": [
+    "background/nodes/f3_hge4_multiscale_haar_m128_frontier/statement.md",
+    "background/nodes/f3_hge4_multiscale_haar_m128_frontier/proof.md",
+    "background/nodes/f3_hge4_multiscale_haar_m128_frontier/claim_contract.md",
+    "background/nodes/f3_hge4_multiscale_haar_m128_frontier/dependency_subdag.md",
+    "background/nodes/f3_hge4_multiscale_haar_m128_frontier/audit.md",
+    "background/nodes/f3_hge4_multiscale_haar_m128_frontier/result.md",
+    "background/nodes/f3_hge4_multiscale_haar_m128_frontier/upstream_crosswalk.md",
+    "background/nodes/f3_hge4_multiscale_haar_m128_frontier/verify.py",
+    "background/nodes/f3_hge4_multiscale_haar_m128_frontier/verify_audit.py"
+   ],
+   "notes": "Exact theorem payment only. The m=128 residual is h=4,...,11; no status change for f3_hge4_norm_gate_count."
   }
  ],
  "edges": [
@@ -18125,7 +18239,7 @@
   {
    "from": "averaged_xr",
    "to": "xr_gvn",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "hooley_katz",
@@ -31960,6 +32074,81 @@
   {
    "from": "f3_h3_norm_one_torus_affine_quotient_cap",
    "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "averaged_xr",
+   "to": "xr_gvn",
+   "kind": "ev"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "integer_code_distance_high_field_folded_box_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "integer_code_distance_high_field_folded_box_exclusion",
+   "to": "integer_code_distance_cert",
+   "kind": "ev"
+  },
+  {
+   "from": "official_row_primes_pinning",
+   "to": "integer_code_distance_cert",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_m16_order_zero_reciprocal_elimination",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_frobenius_reciprocal_gate",
+   "to": "l1_mersenne_hnf_m16_order_zero_reciprocal_elimination",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_zero_reciprocal_elimination",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_order_one_involution_component_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_involution_component_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_order_one_newton_reciprocal_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_newton_reciprocal_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_hge4_multiscale_haar_m64_level_close",
+   "to": "f3_hge4_multiscale_haar_m128_frontier",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_cyclotomic_norm_quarter_width_exclusion",
+   "to": "f3_hge4_multiscale_haar_m128_frontier",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_nonfull_complement_third_gate",
+   "to": "f3_hge4_multiscale_haar_m128_frontier",
+   "kind": "req"
+  },
+  {
+   "from": "f3_hge4_multiscale_haar_m128_frontier",
+   "to": "f3_hge4_norm_gate_count",
    "kind": "ev"
   }
  ]

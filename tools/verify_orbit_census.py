@@ -49,8 +49,14 @@ SUBMISSION_ROOT = "prize"
 # its sole req PRESUPPOSED the claim; own sketch.md said PROVABLE; source says only
 # "looks provable") -> TARGET, cascading averaged_slope_conversion / xr_gvn /
 # averaged_occupancy_... -> CONDITIONAL. Was 180/38/24.
-EXPECTED_MATH = {"PROVED": 177, "CONDITIONAL": 39, "TARGET": 25}
-EXPECTED_SUBMISSION = {"PROVED": 189, "CONDITIONAL": 41, "TARGET": 26}  # was 192/40/25
+# WAVE-26 (2026-07-27): averaged_xr CLOSED — Codex rederived Przemek's own exact
+# fixed-slope pair moment (m1_average_support_collinearity.md @674503f7) and replayed
+# it with an independent verifier, so the false green became a real one; the two
+# cascade nodes returned to PROVED. xr_gvn went the other way (CONDITIONAL -> TARGET):
+# the exact moment does NOT supply its multi-exchange Cauchy-Schwarz chain, so that
+# edge is evidence-only. Net: reds 25 -> 24. Was 177/39/25.
+EXPECTED_MATH = {"PROVED": 179, "CONDITIONAL": 38, "TARGET": 24}
+EXPECTED_SUBMISSION = {"PROVED": 191, "CONDITIONAL": 40, "TARGET": 25}  # was 189/41/26
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no
@@ -163,8 +169,8 @@ def main() -> int:
     # The roadmap phrase "23 mathematical leaves" is an arithmetic consequence,
     # not an independent count: assert it rather than trusting prose.
     math_targets = sorted(i for i in math_ids if nodes[i]["status"] == "TARGET")
-    if len(math_targets) != 25:
-        errors.append(f"mathematical-leaf count drift: {len(math_targets)} != 25")
+    if len(math_targets) != 24:
+        errors.append(f"mathematical-leaf count drift: {len(math_targets)} != 24")
     if NON_MATH_TARGET in math_targets:
         errors.append(f"{NON_MATH_TARGET} leaked into the math orbit")
 

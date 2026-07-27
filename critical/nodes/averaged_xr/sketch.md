@@ -1,13 +1,10 @@
-# proof sketch: averaged_xr
+# Historical sketch: averaged XR
 
-- **status:** PROVABLE
-- **closure:** proof
+The original Johnson-scheme / Hooley--Katz sketch proposed a broader
+exchange-rigidity mechanism. The exact theorem needed by
+`averaged_slope_conversion` is narrower and is now proved in `proof.md` by
+elementary joint-rank linear algebra.
 
-## Source
-
-Vendored from the working record; primary artifact(s):
-- `proof_sketch/s3b_iii_2_displacement_spectral.md#5`
-
-## Ledger
-
-The graded-by-intersection second-moment table is now CLOSED FORM via the pair-rank ledger: correlations q^{-min(s,t)} extra for s < t, exact independence beyond — the variance is dominated by close pairs, as the FM model hoped.
+The broader worst-case de-correlation and XR inverse program remains open and
+must not be inferred from this node. In particular, this closure does not by
+itself discharge `xr_gvn`, `xr_inverse`, or `xr_wall`.
