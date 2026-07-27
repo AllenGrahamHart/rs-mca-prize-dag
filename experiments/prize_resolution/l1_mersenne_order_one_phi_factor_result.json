@@ -1,0 +1,40 @@
+{
+  "app": "l1-mersenne-order-one-phi-factor",
+  "app_id": "ap-HLlQUd2eURywjmrrMr2EeV",
+  "status": "COMPLETE",
+  "seconds": 0.688987,
+  "peak_mb": 88,
+  "rows": [
+    {
+      "h": 7,
+      "content": 6,
+      "phi_total_degree": 10,
+      "phi_rho_degree": 3,
+      "phi_c_degree": 7,
+      "phi_terms": 12,
+      "residual_total_degree": 6,
+      "residual_rho_degree": 2,
+      "residual_c_degree": 4,
+      "residual_terms": 10,
+      "residual_stdlib_sha256": "6c55b84fd7f69f985ee4a4d59f0c247ede9495da64d229bd504d56e6ee6d9465",
+      "residual_sympy_sha256": "273ad8ce89079ae9228f36557a46906027617f6e643f17b29310bffda58eb1cf"
+    },
+    {
+      "h": 15,
+      "content": 14,
+      "phi_total_degree": 22,
+      "phi_rho_degree": 7,
+      "phi_c_degree": 15,
+      "phi_terms": 68,
+      "residual_total_degree": 18,
+      "residual_rho_degree": 6,
+      "residual_c_degree": 12,
+      "residual_terms": 64,
+      "residual_stdlib_sha256": "1e1f72eba3965fa2e33f77ceff7f08b905746beecd376809016452e016adc5d1",
+      "residual_sympy_sha256": "f28f29892475ba559afc5e26dbf533cdb22f2ce5ef250ba8be4970e17758a5d4"
+    }
+  ],
+  "factorization": "h!*Phi_h = content*rho*c*(c-1)*(c+1)*Psi_h",
+  "exact_bill_not_queried": true,
+  "conservative_cost_bound_usd": 0.01
+}

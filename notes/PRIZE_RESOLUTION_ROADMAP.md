@@ -4088,3 +4088,24 @@ compute request: CR-L1-MCP-NMCE narrowed to order one only
 next route-deciding action: attack the bounded order-one torsion systems, or
                               switch if their first exact chamber is not cheap
 ```
+
+**2026-07-27, order-one involution component deleted:** a 1-CPU exact
+factorization probe found that after the already-saturated factors, both
+official hypergeometric curves contain `c+1`. This is structural:
+at `c=-1` the generating series is `(1-t^2)^(-rho)`, so every odd top
+coefficient vanishes. The separate torsion condition then kills the complete
+component. Indeed `(c-1)^n=2^n=1` would force the odd prime order
+`q in {13,17,19,31}` of `2 mod (2^q-1)` to divide the power-of-two `n`.
+
+```text
+node proved: l1_mersenne_hnf_order_one_involution_component_exclusion
+result: CLOSED, c=-1 component on all five next-to-maximal rows
+residual h=7 curve:  deg_(rho,c)=(2,4), 10 terms
+residual h=15 curve: deg_(rho,c)=(6,12), 64 terms
+critical delta: none; l1_mixed_petal_amplification remains TARGET
+Modal: ap-HLlQUd2eURywjmrrMr2EeV, 0.688987 s, 88 MB
+compute spend: exact bill not queried; conservative bound below $0.01
+route rule: saturate by c+1 and never recompute the involution component
+next action: derive the first reciprocal equations on Psi_7=0 and price one
+             exact m=8 order-one elimination before any full saturation
+```

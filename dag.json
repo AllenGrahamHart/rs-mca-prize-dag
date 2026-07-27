@@ -16810,6 +16810,26 @@
    "notes": "Exact bounded computer algebra, not a field-element scan: the primary resultant construction and an independent companion-matrix/Newton construction reproduce both eliminants, their gcd, and the degree-17 radical. Closes order zero only; order one and global L1 remain open."
   },
   {
+   "id": "l1_mersenne_hnf_order_one_involution_component_exclusion",
+   "title": "L1 Mersenne HNF order-one involution-component exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For odd h, h!*Phi_h(rho,c) is divisible by rho*c*(c-1)*(c+1). The order-one chamber already excludes the first three factors, while c=-1 contradicts (c-1)^n=1 on all five official next-to-maximal rows because the order of 2 modulo p=2^q-1 is the odd prime q and n is a power of two. Thus the order-one curve reduces to Psi_7=0 of bidegree (2,4) or Psi_15=0 of bidegree (6,12).",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_order_one_involution_component_exclusion/verify.py",
+    "experiments/prize_resolution/l1_mersenne_order_one_phi_factor_modal.py",
+    "experiments/prize_resolution/l1_mersenne_order_one_phi_factor_result.json",
+    "experiments/prize_resolution/l1_mersenne_order_one_phi_factor_result.md"
+   ],
+   "notes": "Exact analytic component exclusion. The Modal factorization is discovery evidence; the stdlib verifier reconstructs the coefficient polynomials and the official torsion contradiction. The residual order-one curves remain open."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -32045,6 +32065,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m16_order_zero_reciprocal_elimination",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_order_one_involution_component_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_involution_component_exclusion",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

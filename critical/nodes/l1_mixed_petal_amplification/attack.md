@@ -649,3 +649,10 @@
   `CR-L1-MCP-NMCE` to order one only; do not rerun either reciprocal
   elimination. This does not remove lower value degrees, nonembedded
   `m=4,h=2`, inner lifts, or the global smooth-section/tangent payment.
+
+- For the remaining order-one work, consume
+  `l1_mersenne_hnf_order_one_involution_component_exclusion`. Divide
+  `h!*Phi_h` by `rho*c*(c-1)*(c+1)`, saturate by `c+1`, and impose only the
+  residual `Psi_h=0`. The `c=-1` component is theorem-empty on every
+  official row and must not enter a saturation. The live residual degrees
+  are `(deg_rho,deg_c)=(2,4)` at `h=7` and `(6,12)` at `h=15`.

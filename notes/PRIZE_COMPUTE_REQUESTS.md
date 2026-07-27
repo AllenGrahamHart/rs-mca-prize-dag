@@ -7466,14 +7466,32 @@ the outer stage into exactly two low-dimensional tasks.
   `A=[Y^(h-2)]G/R(0)^2`, and `c=z/R(0)`. Generate every coefficient by
   the registered top-down recurrence (HNF3), put
   `rho=2A/[c(c-1)]`, and impose its closed-form last equation
-  `Phi_h(rho,c)=[t^h](1-t)^(c rho)(1-ct)^(-rho)=0`. Before the large
-  torsion or remainder equations, shard by `zeta in mu_m`, substitute
+  `Phi_h(rho,c)=[t^h](1-t)^(c rho)(1-ct)^(-rho)=0`.
+
+  First consume
+  `l1_mersenne_hnf_order_one_involution_component_exclusion`. Exact
+  factorization gives
+
+  ```text
+  h!*Phi_h = content*rho*c*(c-1)*(c+1)*Psi_h.
+  ```
+
+  The first three factors are already outside the chamber, and `c=-1` is
+  impossible by `(c-1)^n=1` on all five official rows. Saturate by `c+1`
+  and use only `Psi_h=0`: its bidegree in `(rho,c)` is `(2,4)` for `h=7`
+  and `(6,12)` for `h=15`. Do not send the deleted involution component to
+  a Groebner worker.
+
+  Before the large torsion or remainder equations, shard by `zeta in mu_m`
+  and substitute
 
   ```text
   c_star=1+zeta/(c-1),       rho_star=formal Frobenius image of rho,
   ```
 
-  impose `Phi_h(rho_star,c_star)=0`. The zero split value is the known root
+  impose `Psi_h(rho_star,c_star)=0`, also saturating by `c_star+1`. Indeed
+  `c_star=-1` would imply `c=-1` under inverse Frobenius. The zero split
+  value is the known root
   `x_0=-1/(c-1)`. Form
 
   ```text

@@ -1267,6 +1267,14 @@ condition. Thus all five official next-to-maximal order-zero outer chambers
 are closed. The first-checkpoint endpoint still retains order one, lower
 value degrees, nonembedded `m=4,h=2`, inner lifts, and the global payment.
 
+The order-one hypergeometric curve has also been narrowed exactly.
+`l1_mersenne_hnf_order_one_involution_component_exclusion` factors
+`h!*Phi_h` by `rho*c*(c-1)*(c+1)`. The first three factors are already
+saturated, and the complete `c=-1` component is impossible by the official
+torsion equation. Thus order-one work starts on `Psi_7=0` of bidegree
+`(2,4)` and `Psi_15=0` of bidegree `(6,12)`, not on the unreduced curve.
+These two residual curves remain open.
+
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.
