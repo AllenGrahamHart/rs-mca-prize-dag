@@ -2,7 +2,7 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "cd5dff92",
+  "our_sha": "a96150b7",
   "his_sha": "b13de811"
  },
  "rows": [
@@ -239,10 +239,10 @@
    "his_object": null,
    "relation": "OURS_ONLY",
    "chain": null,
-   "scope": "eight optimized quadratic row certificates and nine mean-tangent logarithmic majorants, backed by exact low-slack charge decompositions and a finite relaxed minimum-energy recurrence, excluding every even variance from 86 through 134 in folded profile (3,4,0)",
+   "scope": "eight optimized quadratic row certificates, one nested-layer third-moment/cubic-Hermite endpoint certificate, and nine mean-tangent logarithmic majorants, backed by exact low-slack charge decompositions and a finite relaxed minimum-energy recurrence, excluding every even variance from 84 through 134 in folded profile (3,4,0)",
    "owner": "US",
    "nonclaims": [
-    "positive even variance V<=84 in the same profile remains open",
+    "positive even variance V<=82 in the same profile remains open",
     "profile (4,2,0), later bands, and the total collision-pair allowance are not bounded",
     "no clean row, adjacent endpoint, or universal unsafe branch is closed"
    ],
@@ -250,7 +250,7 @@
    "status_his": "not posed",
    "lean": null,
    "provenance": {
-    "our_sha": "cd5dff92",
+    "our_sha": "a96150b7",
     "his_sha": "b13de811"
    }
   },
@@ -263,7 +263,7 @@
    "owner": "US",
    "nonclaims": [
     "full-conductor supports in both first-band profiles remain open",
-    "positive even variance V<=84 in profile (3,4,0) is not classified",
+    "positive even variance V<=82 in profile (3,4,0) is not classified",
     "no clean row, adjacent endpoint, or universal unsafe branch is closed"
    ],
    "status_ours": "PROVED",
@@ -299,7 +299,7 @@
    "his_object": null,
    "relation": "OURS_ONLY",
    "chain": null,
-   "scope": "exact C<=-20 signed repeated-chord structure forced by the folded profile-(3,4,0) residual V<=84",
+   "scope": "exact C<=-20 signed repeated-chord structure forced by the folded profile-(3,4,0) residual V<=82",
    "owner": "US",
    "nonclaims": [
     "the resulting three-term and parallelogram templates are not classified or excluded",
@@ -310,7 +310,7 @@
    "status_his": "not posed",
    "lean": null,
    "provenance": {
-    "our_sha": "cd5dff92",
+    "our_sha": "a96150b7",
     "his_sha": "b13de811"
    }
   },

@@ -3453,3 +3453,30 @@ compute spend: none; exact finite recurrence and rational Taylor arithmetic
 next route-deciding action: classify the E=42,L=24 equality patterns and
                               test phase-sensitive or higher-moment bounds
 ```
+
+**2026-07-27, N=256 variance 84 excluded:** exact geometric witnesses first
+falsified the tempting `E=42 => L<=23` repair. A global nested-layer count
+then bounded the third central moment, and a cubic Hermite logarithmic
+majorant closed the endpoint without geometric classification.
+
+Cycle burn-down:
+
+```text
+starting pins: local 48bd9578; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local a96150b7
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=84 to V<=82; C<=-20 unchanged;
+        parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: about 85 short bounded Modal containers, roughly eight
+               aggregate CPU-minutes; all exploratory and non-load-bearing
+route fence: full-conductor E=42,L=24 geometry exists; L<=23 is false
+next route-deciding action: apply the layered-moment method at E=41 or
+                              combine it with the exact slack table
+```
