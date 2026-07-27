@@ -3367,3 +3367,27 @@ compute spend: none; exact finite slack and rational Taylor arithmetic only
 next route-deciding action: classify slack 7--10 and optimize the V=94/92
                               majorants, with exact feasibility checks
 ```
+
+**2026-07-27, N=256 variances 90 through 94 excluded:** matching-aware
+charge decompositions and tight-intercept quadratic majorants continue the
+same analytic route.
+
+Cycle burn-down:
+
+```text
+starting pins: local f45775fa; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local f09f1d93
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=94 to V<=88; signed cancellation
+        strengthened from C<=-17 to C<=-19; parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact finite slack and rational Taylor arithmetic only
+next route-deciding action: determine whether the optimized quadratic route
+                              continues at E=44 or reaches its true endpoint
+```
