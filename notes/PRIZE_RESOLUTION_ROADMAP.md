@@ -3082,3 +3082,27 @@ compute spend: none; exact integer and local-field arithmetic only
 next route-deciding action: combine the 2-adic screen with the signed
                               repeated-difference cancellation ledger
 ```
+
+**2026-07-27, N=256 signed-chord gate banked:** the bounded variance residual
+is now an exact additive-structure problem rather than a generic sparse-support
+problem.
+
+Cycle burn-down:
+
+```text
+starting pins: local 83d6fe00; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 9e539677
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) residual
+result: NARROWED to signed 3-term-progression/parallelogram templates;
+        parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +1 req edge, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact autocorrelation and matching arithmetic only
+next route-deciding action: classify the signed template types jointly with
+                              full-conductor and 2-adic screens
+```
