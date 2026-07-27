@@ -7048,10 +7048,10 @@
     "background/nodes/xr_generic_mds_kernel_ray_bound/result.md",
     "background/nodes/xr_generic_mds_kernel_ray_bound/verify.py"
    ],
-   "statement": "Let an MDS parity-check restriction on U have rank R, |U|=R+d, and let 1<=h<=R, r=R-h. For a syndrome line with no common r-sparse support for both endpoints, if every slope in Z has an r-sparse lift supported in U, then |Z| C(d+h,d) <= C(R+d,d)R. Proof: after the trivial |Z|<=1 case, two supported slopes supply endpoint lifts; the MDS kernel restricts bijectively to every d-set T, and after cancelling T genericity leaves fewer than h persistent zeros, so every sparse slope supplies C(d+h,d) nonpersistent affine-zero charges while each (T,x) receives at most one slope. This is a fixed-chart ray theorem, not an aggregate atlas; draft upstream PR #1106 specializes it to KoalaBear nullities through nine.",
+   "statement": "Let an MDS parity-check restriction on U have rank R, |U|=R+d, and let 1<=h<=R, r=R-h. For a syndrome line with no common r-sparse support for both endpoints, if every slope in Z has an r-sparse lift supported in U, then |Z| C(d+h,d) <= C(R+d,d)R. Proof: after the trivial |Z|<=1 case, two supported slopes supply endpoint lifts; the MDS kernel restricts bijectively to every d-set T, and after cancelling T genericity leaves fewer than h persistent zeros, so every sparse slope supplies C(d+h,d) nonpersistent affine-zero charges while each (T,x) receives at most one slope. This is a fixed-chart ray theorem, not an aggregate atlas. Revised upstream PR #1106 records that the merged agreement-weighted transverse-secant theorem strictly dominates this specialization at KoalaBear, paying nullities through ten under per-witness transversality supplied by column-farness.",
    "upstream": {
-    "label": "K3 column-far fixed-union ray compiler / draft PR #1106",
-    "relation": "IDENTICAL"
+    "label": "K3 agreement-weighted transverse-secant deployed certificate / draft PR #1106",
+    "relation": "OVERLAP"
    }
   },
   {

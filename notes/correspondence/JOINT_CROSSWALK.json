@@ -636,24 +636,25 @@
   {
    "our_node": "xr_generic_mds_kernel_ray_bound",
    "his_object": {
-    "label": "K3 column-far fixed-union ray compiler / draft PR #1106",
-    "file": "experimental/notes/frontier-adjacent/column_far_fixed_union_ray_compiler_v1.md",
-    "line": "CF2 / CF3"
+    "label": "K3 agreement-weighted transverse-secant deployed certificate / draft PR #1106",
+    "file": "experimental/notes/frontier-adjacent/column_far_deployed_certificate_v1.md",
+    "line": "Lemma CF / exact deployed evaluation"
    },
-   "relation": "IDENTICAL",
-   "chain": "independent theorem replay in both trees; upstream commit 98149fc6",
-   "scope": "one column-far fixed union U; exact KoalaBear specialization pays nullity 0 through 9 per chart",
-   "owner": "US",
+   "relation": "OVERLAP",
+   "chain": null,
+   "scope": "both pay one column-far fixed union; ours pays KoalaBear nullities 0 through 9 by GRK, while the merged agreement-weighted theorem used in revised PR #1106 strictly dominates it and pays 0 through 10",
+   "owner": "JOINT",
    "nonclaims": [
     "no aggregation over fixed unions or first-match atlas",
-    "no sparse-branch payment, endpoint movement, K3 closure, or prize closure"
+    "no sparse-branch payment, endpoint movement, K3 closure, or prize closure",
+    "do not spend effort optimizing the dominated GRK constant before solving aggregation"
    ],
    "status_ours": "PROVED",
    "status_his": "draft PR #1106",
    "lean": null,
    "provenance": {
     "our_sha": "8d93cb92",
-    "his_sha": "98149fc6"
+    "his_sha": "835ddaca"
    }
   },
   {
@@ -741,23 +742,25 @@
   {
    "our_node": "rate_half_list_adjacent_crossing",
    "his_object": {
-    "label": "prob:list-completion / Lane L (post-Johnson RS list bounds)",
-    "file": "agents.md",
-    "line": "Lane L"
+    "label": "prob:list-completion / Lane L, including zero-remainder floor PR #1101",
+    "file": "experimental/notes/thresholds/zeroremainder_scale.md",
+    "line": "Theorem 2.1 / exact Lane L print block"
    },
    "relation": "OVERLAP",
    "chain": null,
-   "scope": "our exact 3n/4 crossing is BELOW Johnson (dead for Lane L); our floor is the lane's foundation",
-   "owner": "US",
+   "scope": "our exact 3n/4 crossing is below Johnson; at the prize-max agreement k+2^34-1, PR #1101 extends our positive-remainder floor to c=1,s=0 and raises its certified logarithmic size without moving the unsafe agreement",
+   "owner": "JOINT",
    "nonclaims": [
-    "never race #1097/#1099/#1101 (holmbuar, our row/agreement)"
+    "never race #1097/#1099/#1101 (holmbuar, our row/agreement)",
+    "the stronger floor does not improve the safe endpoint or close the adjacent crossing",
+    "the abstract pairwise-intersection packing obstruction is a route cut, not an RS list lower bound"
    ],
    "status_ours": "TARGET",
    "status_his": "open",
    "lean": null,
    "provenance": {
     "our_sha": "da8b9a85",
-    "his_sha": "b13de811"
+    "his_sha": "917e962e"
    }
   },
   {

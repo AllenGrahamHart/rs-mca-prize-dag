@@ -47,3 +47,22 @@ d=10:  861057176799343503 > B*.
 This removes direction-rank-defect conditions from the column-far
 fixed-union charts through nullity nine. It does not count charts, pay the
 sparse branch, move an endpoint, or close K3.
+
+## Upstream supersession audit (2026-07-27)
+
+PR `#1106` was subsequently revised at head `835ddaca`. Its author withdrew
+the exported GRK specialization after identifying a strictly stronger merged
+theorem, the agreement-weighted transverse-secant bound. Column-farness gives
+that theorem's per-witness transversality by applying its definition to the
+selected error support. At the same KoalaBear row the stronger exact values are
+
+```text
+nu=10:    78,289,526,705,722,101 <= B*,
+nu=11: 1,115,145,741,750,273,207 >  B*.
+```
+
+Thus the best upstream fixed-union certificate now pays `nu<=10`. The local
+GRK theorem remains valid but is dominated at this deployment. Neither result
+aggregates over fixed unions, so the critical next step is still a
+witness-exhaustive atlas, a subexponential shadow cover, or an equivalent
+first-match ownership theorem.

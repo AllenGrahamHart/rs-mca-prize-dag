@@ -2682,6 +2682,26 @@ The next XR theorem must therefore address first-match chart aggregation (or
 prove a structural collapse that avoids it), rather than improving the same
 per-chart constant again.
 
+**2026-07-27, PR #1106 supersession audit:** the PR was revised at head
+`835ddaca` after its author found that the merged agreement-weighted
+transverse-secant theorem strictly dominates our GRK specialization. The
+one-line column-far binding supplies that theorem's per-witness hypothesis,
+and exact KoalaBear arithmetic pays `nu<=10` (`nu=11` first unpaid). This
+strengthens the finite route cut but confirms the same strategic conclusion:
+do not optimize another fixed-union constant. The binding red wall is the
+aggregation of retained unions, with the sparse branch kept separate.
+
+**2026-07-27, Lane-L PR #1101 audit:** the zero-remainder boundary theorem at
+`c=1,s=0` reaches the same unsafe agreement `k+2^34-1` as our optimized
+positive-remainder construction but raises the certified lower-list bit scale
+from hundreds to at least `1,466,604,010,422`. This cannot move
+`rate_half_list_adjacent_crossing`, because both bounds already exceed `B*` at
+the same agreement. Its new route cut is valuable: an abstract family with
+only the pairwise intersection restriction is too large to yield the needed
+safe upper bound, so the Lane-L close must use Reed-Solomon locator, syndrome,
+or coefficient consistency. The open PR remains upstream-owned and is not
+duplicated locally.
+
 **2026-07-26, L1 endpoint color-degree cut:**
 `l1_mersenne_hnf_order_zero_linear_color_exclusion` proves that the colored
 Frobenius interpolant in the `m=8,h=7` and `m=16,h=15` order-zero HNF rows
