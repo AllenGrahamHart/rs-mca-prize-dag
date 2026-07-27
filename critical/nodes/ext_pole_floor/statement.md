@@ -1,9 +1,9 @@
 # ext_pole_floor
 
-- **status:** PROVED
-- **closure:** proof
-- **refs (legacy repo):** ['proof_sketch/s6_extension_lift.md#2']
+- **status:** see dag.json (single source of truth; dag status PROVED)
+- **closure:** proof (transcribed from the upstream proof_sketch source, 2026-07-27)
+- **source:** read with `git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/<file>`
 
 ## Statement
 
-Extension-pole floor (v10): N(L) witnesses
+EXTENSION-POLE FLOOR [transcribed 2026-07-27 from proof_sketch/s6_extension_lift.md#2, tagged 'verified']. Paper D v12's extension-pole floor converts a base list of size L into genuinely F-valued witness lines with numerator N(L) = ceil( L(|F|-|B|) / (|F|-|B|+kL) ). Verified behaviour: N(L) ~ L below the saturation cap X/k ~ 2^216 (X = |F|-|B|, k = 2^40), essentially independent of |B|; the gate crossing N > |F|*2^-128 = 2^128 occurs exactly when the BASE list crosses L ~ 2^128. Hence B_ext crosses the MCA gate precisely at the list-side crossing window of S7 — the channel through which grand challenge 2's threshold enters grand challenge 1's ledger. SCOPE: the safe-side classification (same file, section 4) is CONJECTURE and is NOT claimed here.

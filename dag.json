@@ -253,7 +253,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s4_reserve_dictionary.md#2"
-   ]
+   ],
+   "statement": "THE NONCONTAINMENT QUANTIFIER IDENTIFICATION (closure: citation) [transcribed 2026-07-27 from proof_sketch/s4_reserve_dictionary.md#2, tagged 'textually grounded', quoting thm:normalform as PROVED-cited]. By thm:normalform, emca(C,delta) = (1/q) max_{1<=t<=r} Lambda^NC_{t,delta}(D,k), exact and constructive in both directions. Hence 'max over residue-line data of NONCONTAINED slope counts' and 'max over lines of bad-slope counts' are the SAME object after the max: packing numbers and per-pair counts coincide. The per-pair B_C(A) at EXACT agreement refines the cumulative |S_z| >= s_delta convention; summing exact-agreement buckets recovers it. Disambiguation of the three t's: t_denom (denominator degree in def:residue, 1<=t<=r), T_slack (monomial exponent in x^{k+T} + z x^k), t_win (syndrome window t = A-k, the exact-agreement bucket) \u2014 t_win is a bucket parameter orthogonal to t_denom. SCOPE: an identification of quantifiers, closed by citation; it strengthens no bound."
   },
   {
    "id": "fm1",
@@ -271,7 +272,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#1"
-   ]
+   ],
+   "statement": "SUBGROUP HANKELS ARE FOURIER OBJECTS [transcribed 2026-07-27 from proof_sketch/s3b_iii_2_displacement_spectral.md#1, tagged 'elementary, verified'; upstream experimental/notes/roadmaps/]. For u supported on the subgroup H = mu_n with syndrome s_u[m] = sum_{x in H} u(x) x^m, the Hankel factors as H_{t,j}(u) = V_t^T D_u V_{j+1}, where D_u = diag(u(x))_{x in H} and V_m[x,r] = x^r (r < m). Consequently, for a locator l with root set (co-support) T and w_Z = u + Z v: M(Z) l = 0 IFF the function w_Z * l on H has vanishing Fourier coefficients at frequencies 0..t-1. Verified entrywise on the F_13 / mu_12 toy. A constant syndrome-indexing offset x^{c_0} absorbs into D_u (cosmetic). SCOPE: this node is the factorization identity and its Fourier restatement only; the rigidity mechanism (same file, section 3) is SKETCH and is NOT claimed here."
   },
   {
    "id": "tau_star_identity",
@@ -343,7 +345,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s3b_ii_strip_periodic.md#4"
-   ]
+   ],
+   "statement": "THE M-PERIODIC STRATUM [transcribed 2026-07-27 from proof_sketch/s3b_ii_strip_periodic.md#4, whose verified-combinatorics half is enumerated]. Three enumerated facts: (i) the M-periodic stratum is an INDEPENDENT SET in the Johnson exchange graph (no two stable sets adjacent; 0 adjacent pairs found); (ii) every one-exchange EXITS the stratum; (iii) coset-moves (exchanging a whole K_M-coset) restore exactly the quotient Johnson graph J(n/M, j/M) on the stratum. Consequence claimed here: the exchange dynamics factor through the quotient exactly as the counting does, so single-exchange pumping cannot wander into the paid stratum. For SPI: the periodic strata are exactly the subvarieties of D_j fixed by the K_M-actions, so post-strip D_j^aper carries no subgroup symmetry. SCOPE FENCE (load-bearing): the enumerations are at toy scale; the interpretive claim that this is the 'right' stratification is NOT claimed, and the post-strip claim of the same file (section 5) is explicitly CONJECTURE (operative R2) and is NOT claimed here."
   },
   {
    "id": "q_recursion",
@@ -863,7 +866,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s6_extension_lift.md#2"
-   ]
+   ],
+   "statement": "EXTENSION-POLE FLOOR [transcribed 2026-07-27 from proof_sketch/s6_extension_lift.md#2, tagged 'verified']. Paper D v12's extension-pole floor converts a base list of size L into genuinely F-valued witness lines with numerator N(L) = ceil( L(|F|-|B|) / (|F|-|B|+kL) ). Verified behaviour: N(L) ~ L below the saturation cap X/k ~ 2^216 (X = |F|-|B|, k = 2^40), essentially independent of |B|; the gate crossing N > |F|*2^-128 = 2^128 occurs exactly when the BASE list crosses L ~ 2^128. Hence B_ext crosses the MCA gate precisely at the list-side crossing window of S7 \u2014 the channel through which grand challenge 2's threshold enters grand challenge 1's ledger. SCOPE: the safe-side classification (same file, section 4) is CONJECTURE and is NOT claimed here."
   },
   {
    "id": "ext_import",
@@ -880,7 +884,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s6_extension_lift.md#3"
-   ]
+   ],
+   "statement": "GENERATING ROWS ESCAPE THE POLE MECHANISM [transcribed 2026-07-27 from proof_sketch/s6_extension_lift.md#3, tagged 'verified']. The pole mechanism requires F \\ B nonempty, i.e. a NON-generating row (q_gen < q_line). Admissibility forces such rows to be tiny at the base: q_line = q_gen^m with m >= 2 and q_line < 2^256 give q_gen < 2^128, hence base gate B*_gen = floor(q_gen/2^128) <= 1 and base reserve tau*(rho,q_gen) >= H(rho)/128. For PRIME fields the question vanishes (no proper subfields); for extension rows the minimal field containing mu_n is F_p^ord, and the pinned row is exactly the generating case (ord(17 mod 512) = 32). Therefore: generating rows (q_gen = q_line) leave B_ext degenerate and the S2 corridor stands; non-generating rows are bound by the imported S7 window."
   },
   {
    "id": "f1_classification",

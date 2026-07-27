@@ -199,7 +199,10 @@ def main() -> None:
             "the assumption they are 'recorded in the node folder', which is false "
             "for them; write the artifact or repair the ref")
 
-    _EMPTY_STMT_PIN = 36  # wave-24: 37 -> 36 (e1 subtree left the critical orbit)
+    _EMPTY_STMT_PIN = 31  # 37 -> 36 (wave-24 orbit change) -> 31 (2026-07-27: five
+    # stub leaves transcribed from their upstream proof_sketch sections during the
+    # auto-discharge re-grade: vtdv, ext_pole_floor, generating_escape,
+    # periodic_strata, noncontain_degeneracy). Lowered as artifacts are written.
     _empty_stmt = [i for i in sorted(crit)
                    if nodes[i]["status"] == "PROVED"
                    and not (nodes[i].get("statement") or "").strip()]
