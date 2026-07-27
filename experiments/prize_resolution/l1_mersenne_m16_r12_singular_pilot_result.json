@@ -1,0 +1,22 @@
+{
+  "algebra_started": false,
+  "app": "l1-mersenne-m16-r12-singular-pilot",
+  "app_id": "ap-wGlT1diHx4C7gUii0LhVyq",
+  "archives_mb": 1077,
+  "cpu_cost_usd": 0.00340405,
+  "h": 15,
+  "installed_mb": 4098,
+  "m": 16,
+  "memory_cost_usd": 0.00007667,
+  "p": 8191,
+  "packages_new": 891,
+  "packages_reached_before_abort": 310,
+  "packages_upgraded": 29,
+  "phase": "IMAGE_BUILD",
+  "program_sha256": "b17ec1c75b7b194c0b35b6db5346c4d4bd09c17f552565ca8b7814ee4763e3c5",
+  "raw_degree_bound": 11520,
+  "reason": "DEFAULT_APT_RECOMMENDS_FANOUT",
+  "retry_launched": false,
+  "status": "INCOMPLETE",
+  "total_cost_usd": 0.00348072
+}

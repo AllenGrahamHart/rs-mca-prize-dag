@@ -24,6 +24,14 @@
   on `Y subset mu_(n/2)`, test deterministically whether
   `(L_Y+prod(Y))/Z` is a monic square. Its primitive scaling-orbit count is
   exactly `V_h^swap`.
+- At the first live exact level, the scalar-energy route and its Taylor-only
+  refinement are both explicitly cut at `h=10`, mask `011`. On the same
+  attack surface, an explicit primitive-support fixture has the exact product
+  of the order `128,64,32` resultants more than five bits above the divisor
+  threshold, falsifying a uniform joint-product bound. Its common gcd is only
+  `512`. The precise `m=128` target is now common-prime alignment: an actual
+  pair requires the same official odd prime with norm valuations at least
+  `(5,2,1)`. No such exclusion theorem is yet proved.
 - The proved straight-line lift replaces each fixed swap divisibility cell by
   a sparse cubic repeated-squaring scheme and proves that it has an integer
   bad-characteristic certificate endpoint. At `n=8192`, widths `5,7,9` have
@@ -76,6 +84,18 @@
   `h=4,5` at `m=64`; the existing ambient and upper-width gates close the
   rest. Hence the complete `m=64` exact level has zero debit on every
   official row, and the surviving exact-level problem begins at `m=128`.
+- The balanced-factor augmentation observes that `X-1` divides every signed
+  support polynomial and contributes one independent factor of two to each
+  nonzero norm in the Haar product. The exact augmented gate closes
+  `m=128,h=12..31`; the upper-width theorems close `h=32..64`. The live
+  `m=128` frontier is therefore `h=4..11`, with only the all-nonzero Haar
+  pattern at `h=11` and two patterns at `h=10`.
+- Exact signed-support dynamic programming falsifies the proposed next step
+  "replace AM--GM by attainable integer energies" at `h=10`, mask `011`.
+  The attainable triple `(D,Delta_0,Delta_1)=(22,24,24)` gives
+  `22^32 24^24>2^235`, missing the required divisor by about `17.74` bits.
+  Any further close must use the moment/primitive equations or an orbit
+  debit, not only the shared Haar energy polytope.
 
 ## Evidence
 
@@ -83,13 +103,17 @@ The banked deep census contains 68 cells. Every cell satisfying `p>=n^2` has
 raw non-toral count zero: complete `n=16` rows over six primes, `h=4..8`
 slices at five `n=32` primes, and `h=4,5` slices at four `n=64` primes. The
 only nonzero raw cell is the deliberate sub-threshold control `(16,17,h=4)`.
+The reproducible `m=128` residual route cut is in
+`experiments/prize_resolution/F3_M128_RESIDUAL_ROUTE_CUT.md`.
 
 ## Open content
 
-Starting at exact level `m=128`, prove the primitive orbit aggregate `(OAR2)`,
-its equivalent anchored near-square form `(NSU4)`, RAW-NG, the weaker stripped
-aggregate, or the explicit per-width estimate `(PSA3)` uniformly over the full
-corridor and all live exact-level widths through `m/4-1`. This requires a bound on the
+At exact level `m=128`, pay the residual widths `4<=h<=11` after the printed
+Haar-pattern pruning. Starting at `m=256`, prove the primitive orbit aggregate
+`(OAR2)`, its equivalent anchored near-square form `(NSU4)`, RAW-NG, the
+weaker stripped aggregate, or the explicit per-width estimate `(PSA3)`
+uniformly over the full corridor and all live exact-level widths through
+`m/4-1`. This requires a bound on the
 free-union class and, if
 the swap route is retained, the equivalent half-order perfect-square support
 count. The free class now has a fixed-cell certificate architecture but no
@@ -100,7 +124,8 @@ certificate family. The near-third Kummer and scalar-gcd packets are now
 conformance fixtures only. The Vandermonde-defect band is fully deleted.
 Between its cutoff and the swap-norm cutoff only the free aggregate remains;
 below the latter both free and swap aggregates remain open. No generator or
-positive debit remains at `m<=64`.
+positive debit remains at `m<=64`; `m=128` has only the finite lower-width
+residual above.
 
 ## Provenance addendum (2026-07-21, wave-18 integration)
 

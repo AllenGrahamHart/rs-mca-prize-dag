@@ -27,6 +27,44 @@ def main():
         if bad_paths:
             raise RuntimeError(f"partition lookup failed: {', '.join(bad_paths)}")
 
+        # Put consumers before suppliers to ensure regression is a fixpoint,
+        # not an accidental consequence of dag.json ordering.
+        chain_nodes = {
+            "top": {"id": "top", "status": "PROVED"},
+            "middle": {"id": "middle", "status": "PROVED"},
+            "leaf": {"id": "leaf", "status": "TARGET"},
+        }
+        for node_id in ("top", "middle"):
+            folder = os.path.join(root, "critical", "nodes", node_id)
+            os.makedirs(folder)
+            with open(os.path.join(folder, "proof.md"), "w", encoding="utf-8") as handle:
+                handle.write(f"# proof: {node_id} (auto-discharged)\n")
+        regressed = auto_discharge.regress_to_fixpoint(
+            chain_nodes,
+            {"top": ["middle"], "middle": ["leaf"]},
+            {},
+            root,
+        )
+        if regressed != ["middle", "top"]:
+            raise RuntimeError(f"non-fixpoint regression order: {regressed}")
+        if any(chain_nodes[node_id]["status"] != "CONDITIONAL"
+               for node_id in ("top", "middle")):
+            raise RuntimeError("reversed-order chain retained a false green")
+
+        gate_folder = os.path.join(root, "background", "nodes", "gate")
+        os.makedirs(gate_folder)
+        with open(os.path.join(gate_folder, "proof.md"), "w", encoding="utf-8") as handle:
+            handle.write("# proof: gate (auto-discharged)\n")
+        gate_nodes = {
+            "gate": {"id": "gate", "status": "PROVED", "gate": "any"},
+            "alternative": {"id": "alternative", "status": "TARGET"},
+        }
+        gate_regressed = auto_discharge.regress_to_fixpoint(
+            gate_nodes, {}, {"gate": ["alternative"]}, root
+        )
+        if gate_regressed != ["gate"] or gate_nodes["gate"]["status"] != "CONDITIONAL":
+            raise RuntimeError("gate:any retained a false green after its alternatives failed")
+
     with open(auto_discharge.DAG, encoding="utf-8") as handle:
         dag = json.load(handle)
     stale = []

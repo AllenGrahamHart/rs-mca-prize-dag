@@ -1250,8 +1250,37 @@ s^176(s-1)^4(s+1)^176(s+2)^168(s+3)^162
 
 so every common solution has `s in F_p`, a contradiction. The complete
 order-zero outer chamber is therefore empty on all four `m=8` rows,
-including every color degree. The `m=16` order-zero chamber still starts at
-degree three.
+including every color degree.
+
+The remaining order-zero endpoint is now also empty.
+`l1_mersenne_hnf_m16_order_zero_reciprocal_elimination` applies the same
+first three reciprocal equations at `(m,h,p)=(16,15,8191)`. Its two exact
+eliminants have degrees `11472` and `15296`; their degree-`9912` gcd has
+squarefree radical
+
+```text
+s(s-1) product_(j=1)^15(s+j).
+```
+
+Every common solution therefore has `s in F_8191`, contradicting the HNF
+condition. Thus all five official next-to-maximal order-zero outer chambers
+are closed. The first-checkpoint endpoint still retains order one, lower
+value degrees, nonembedded `m=4,h=2`, inner lifts, and the global payment.
+
+The order-one hypergeometric curve has also been narrowed exactly.
+`l1_mersenne_hnf_order_one_involution_component_exclusion` factors
+`h!*Phi_h` by `rho*c*(c-1)*(c+1)`. The first three factors are already
+saturated, and the complete `c=-1` component is impossible by the official
+torsion equation. Thus order-one work starts on `Psi_7=0` of bidegree
+`(2,4)` and `Psi_15=0` of bidegree `(6,12)`, not on the unreduced curve.
+These two residual curves remain open.
+
+The reciprocal equations on those curves no longer require a generic
+`m`th-power resultant. The proved
+`l1_mersenne_hnf_order_one_newton_reciprocal_reduction` identifies them
+exactly with Newton equalities between the star-root and inverse-root power
+sums. The first three necessary equations use powers `8,16,24` at `m=8`
+and `16,32,48` at `m=16`. Their parameter elimination remains open.
 
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full

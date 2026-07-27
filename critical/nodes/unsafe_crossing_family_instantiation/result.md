@@ -37,7 +37,10 @@ Exact variance and interval-resultant refinements exclude both profiles at
 `N=512,s=2`, raising that collision-free radius through distance two.
 At `N=256,s=5`, an exact logarithmic refinement excludes the zero-variance
 and all `V>=136` cases of profile `(3,4,0)`; a sparse-L1
-refinement also excludes `112<=V<=134`, leaving `V<=110`.
+refinement also excludes `78<=V<=134`. Four subsequent exact quotient-Schur
+packets exclude `V=76,74,72,70`; the complete E34 chain now also excludes
+`V=68`, and the complete E33 chain excludes `V=66`, leaving positive even
+`V<=64`.
 A separate subfield-norm
 argument excludes every proper-conductor support in both first-band profiles.
 Only full-conductor supports remain, and a certified one exists at variance
@@ -48,3 +51,69 @@ also has a proved signed equal-chord relation, but its progression and
 parallelogram templates remain open. Local reciprocity leaves only the five
 cofactors `2,4,8,16,32` there, so every collision odd norm part must
 equal the row prime.
+
+At `V=68`, an exact pilot exhibits feasible mod-16 nested-layer allocations
+whose quotient upper bound exceeds the cubic threshold. This retires the
+bare full quotient census but is not an actual autocorrelation collision and
+does not change the target status.
+
+Two complete follow-up certificates recover a sharp positive reduction:
+every pair-feasible `V=68` collision has magnitude profile `(6,7)`,
+`(9,4,1)`, or `(12,1,2)`. All three have `L=20`; the other 21 integer
+profiles are proved impossible. Chord parity then removes `(9,4,1)` and
+`(12,1,2)`. In the sole residual `(6,7)` profile, all six light-light chords
+have distinct non-diameter circular lengths. The heavy positions then fall
+into four exact templates. Every singleton heavy-heavy class contains a
+heavy-light chord. Two independent complete censuses then exclude the entire
+quarter template with exact maximum `M_3=1188<1947`. A 31-form weld reduction
+and a second pair of complete exact censuses exclude the nonquarter-diameter
+template as well, with maximum `M_3=1560<1947` over 899,456 full-conductor
+profile candidates. Two E34 templates remain: progression and generic.
+The progression branch is further normalized to 62 steps with opposite outer
+heavy signs and one four-position weld. Two complete five-orbit censuses then
+exclude all 62 forms, with exact maximum `M_3=1722<1947` over 3,131,008
+weighted full-conductor profile vectors. The generic heavy template is the
+sole E34 branch.
+Two independent affine classifiers reduce its 325,376 heavy triples to 57
+odd-unit orbits. The three forced weld sets have only three intersection
+shapes, leaving an exact 243,285,056-vector representative chamber before
+profile and moment filters. A final pair of exact censuses gives maximum
+`M_3=1770<1947` and closes the generic template. Thus every `V=68` case is
+excluded and `V=66` is the next endpoint to decide.
+
+The first `V=66` reduction is also complete. Exact slack gives `L<=19`; among
+21 integer profiles, the cubic cutoff `M_3=1732` and the five-unit parity
+gate leave only `(5,7)`, `(1,8)`, `(4,5,1)`, and `(0,6,1)`. Exactly one
+light-light chord is a diameter, so `D_64` is one of `1,5,9,17,21`; the two
+five-odd profiles have diameter-Sidon light support. None of the four
+profiles was excluded by that reduction alone. A sharp follow-up target-fiber
+theorem gives `M_3<=1644<1732` for `(0,6,1)` and excludes it. The live V=66
+profiles were then `(5,7)`, `(1,8)`, and `(4,5,1)`. A complete mod-16
+quotient census gives `M_3<=1732` in the odd chamber and `M_3<=1670` after
+division for `(4,5,1)`; the `4Z` chamber is paid by a small-field norm. Thus
+that profile is also excluded, leaving `(5,7)` and `(1,8)` at V=66. The
+complete eleven-template `(1,8)` geometry census tests 218,327,296 normalized
+vectors and gives maximum `M_3=1356<1732`, excluding that profile. The final
+`(5,7)` census tests 1,984,793,600 vectors. Its unrestricted maximum 1758 has
+proper conductor and is removed by the proved conductor theorem; its exact
+full-conductor maximum is `M_3=1416<1732`. The endpoint synthesis therefore
+proves that every `V=66` case is impossible. The live `(3,4,0)` variance
+frontier is now positive even `V<=64`; `(4,2,0)` and the later swap bands remain
+open, so the universal target remains unproved.
+
+At `V=64`, a further exact reduction is proved. The slack recurrence gives
+`L<=18`, and the cubic-Hermite certificate pays every abstract profile with
+`M_3<=1517`. Of 18 integer profiles, parity removes four of the seven above
+that cutoff and leaves exactly `(4,7)`, `(0,8)`, and `(3,5,1)`. Complete
+diameter enumeration forces zero or two light-light diameter edges and eight
+possible `D_64` values. No one of these three profiles is yet excluded, so
+the live variance frontier remains `V<=64` and the universal target remains
+open.
+
+Profile `(0,8)` is now excluded completely. Its zero-odd parity condition
+forces two antipodal light pairs and six affine-unit templates. Two independent
+exact engines each test 119,087,616 normalized signed vectors and retain no
+profile vectors. The live `V=64` profiles are therefore `(4,7)` and
+`(3,5,1)`. The basic quotient relaxation cannot exclude `(3,5,1)`, since
+explicit feasible allocations attain 1610 and 1594 above the 1517 cutoff;
+this is a route obstruction, not a collision counterexample.

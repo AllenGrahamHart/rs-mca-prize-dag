@@ -42,8 +42,10 @@ def main():
             "tangent clean-anchor classifier regressed")
     # WIDENED 2026-07-27 (hard law 8): averaged_xr was found to be a false green
     # (no conditional.md; its sole req presupposed the claim) and demoted to TARGET,
-    # so averaged_slope_conversion -> CONDITIONAL and this route cut with it. The
-    # legitimate states are now PROVED or CONDITIONAL; anything else is a regression.
+    # so averaged_slope_conversion -> CONDITIONAL and this route cut with it. Codex
+    # re-earned averaged_xr by an independent route later the same day (wave 26), but
+    # the widening stays: the legitimate states are PROVED or CONDITIONAL, and only a
+    # third value is a regression. Re-appended 2026-07-27 after wave 27 dropped it.
     require(nodes[occupancy_cut]["status"] in ("PROVED", "CONDITIONAL"),
             "averaged occupancy route cut regressed")
     require(nodes[qfloor_cut]["status"] == "PROVED",

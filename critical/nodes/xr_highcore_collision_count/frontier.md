@@ -114,6 +114,11 @@ ownership.
 - every generic fixed union chart `|U|=R+d` obeys the field-independent GRK
   ray bound. Exact candidate arithmetic pays `d<=3` at all RowC rates and
   `d<=11,10,9` at the prize rates `1/4,1/8,1/16` respectively.
+- at the deployed KoalaBear MCA row, upstream's agreement-weighted
+  transverse-secant theorem plus the column-far binding strictly improves the
+  GRK specialization: one fixed-union chart is paid through `nu=10`, with
+  `nu=11` first unpaid. This is still a per-chart theorem and does not alter
+  the aggregate target.
 - the canonical component-union atlas partitions the high-core slope set,
   chooses one witness ray per slope, and applies GRK once per disjoint slope
   component. This resolves deduplication across collision cores and union

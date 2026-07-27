@@ -1,0 +1,47 @@
+{
+  "app": "l1-mersenne-m8-order-one-reciprocal-profile",
+  "status": "INCOMPLETE",
+  "attempts": [
+    {
+      "app_id": "ap-2JqEoR1tUWnWY1uaGIpxzh",
+      "status": "SETUP_ERROR",
+      "wall_seconds": 8,
+      "completed_stages": ["psi"],
+      "reason": "uncancelled quotient denominator was passed to Poly"
+    },
+    {
+      "app_id": "ap-0Zf035x3KMj8qBJ7V8FtBT",
+      "status": "STOPPED",
+      "wall_seconds": 119,
+      "completed_stages": ["psi", "ell_uncancelled"],
+      "reason": "artificial common denominator (c-1)^21 made the generic resultant ill-posed"
+    },
+    {
+      "app_id": "ap-UxUdP4JCXNMzidTip4FogP",
+      "status": "TIMEOUT",
+      "wall_seconds": 188,
+      "remote_timeout_seconds": 180,
+      "completed_stages": ["psi", "ell_cancelled"],
+      "reason": "generic SymPy resultant did not complete"
+    }
+  ],
+  "campaign_wall_seconds": 315,
+  "psi": {
+    "degrees": {"rho": 2, "c": 4},
+    "terms": 10,
+    "sha256": "273ad8ce89079ae9228f36557a46906027617f6e643f17b29310bffda58eb1cf"
+  },
+  "cancelled_ell": {
+    "denominator": "720*(c-1)^6",
+    "numerator_degrees": {"w": 6, "rho": 3, "c": 6},
+    "numerator_total_degree": 12,
+    "numerator_terms": 77,
+    "numerator_sha256": "b3ccb8c9c4ccaea1d86a881e650fbc906f38a5f77b8b18aada0c3f4482fbf787"
+  },
+  "q_tilde_completed": false,
+  "reciprocal_equations_completed": false,
+  "mathematical_verdict": "NONE",
+  "exact_bill_not_queried": true,
+  "conservative_cost_bound_usd": 0.10,
+  "campaign_cap_exhausted": true
+}

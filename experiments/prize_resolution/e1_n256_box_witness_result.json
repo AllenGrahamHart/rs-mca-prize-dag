@@ -1,0 +1,194 @@
+{
+  "schema": "e1-n256-box-falsifier-campaign-v1",
+  "app_id": "ap-uImvgijoKNeruVABf32Cc9",
+  "workers": [
+    {
+      "schema": "e1-n256-box-falsifier-v1",
+      "status": "NO_WITNESS_WITHIN_SEARCH_BUDGET",
+      "seed": 1729,
+      "p": "904625697166646869347790708689937759412227977745095982970820953353127723009",
+      "rho_256": "368095729527972287347366462180303065908636718991804826343652948937354262881",
+      "dimension": 128,
+      "elapsed_seconds": 114.903074,
+      "stages": [
+        {
+          "label": "LLL",
+          "elapsed_seconds": 1.150312,
+          "best_norm2": 1862,
+          "best_inf": 14,
+          "pool_size": 2048,
+          "best_pair_inf": 11,
+          "near_pair_count": 0
+        },
+        {
+          "label": "BKZ-28",
+          "elapsed_seconds": 2.448309,
+          "best_norm2": 967,
+          "best_inf": 8,
+          "pool_size": 2048,
+          "best_pair_inf": 8,
+          "near_pair_count": 0
+        },
+        {
+          "label": "BKZ-36",
+          "elapsed_seconds": 6.191302,
+          "best_norm2": 744,
+          "best_inf": 7,
+          "pool_size": 2048,
+          "best_pair_inf": 7,
+          "near_pair_count": 0
+        },
+        {
+          "label": "BKZ-42",
+          "elapsed_seconds": 113.993088,
+          "best_norm2": 483,
+          "best_inf": 7,
+          "pool_size": 2048,
+          "best_pair_inf": 6,
+          "near_pair_count": 0
+        }
+      ]
+    },
+    {
+      "schema": "e1-n256-box-falsifier-v1",
+      "status": "NO_WITNESS_WITHIN_SEARCH_BUDGET",
+      "seed": 2718,
+      "p": "904625697166646869347790708689937759412227977745095982970820953353127723009",
+      "rho_256": "368095729527972287347366462180303065908636718991804826343652948937354262881",
+      "dimension": 128,
+      "elapsed_seconds": 125.331106,
+      "stages": [
+        {
+          "label": "LLL",
+          "elapsed_seconds": 1.229745,
+          "best_norm2": 1452,
+          "best_inf": 9,
+          "pool_size": 2048,
+          "best_pair_inf": 10,
+          "near_pair_count": 0
+        },
+        {
+          "label": "BKZ-28",
+          "elapsed_seconds": 2.549717,
+          "best_norm2": 1049,
+          "best_inf": 7,
+          "pool_size": 2048,
+          "best_pair_inf": 8,
+          "near_pair_count": 0
+        },
+        {
+          "label": "BKZ-36",
+          "elapsed_seconds": 6.214564,
+          "best_norm2": 816,
+          "best_inf": 7,
+          "pool_size": 2048,
+          "best_pair_inf": 7,
+          "near_pair_count": 0
+        },
+        {
+          "label": "BKZ-42",
+          "elapsed_seconds": 124.427382,
+          "best_norm2": 519,
+          "best_inf": 6,
+          "pool_size": 2048,
+          "best_pair_inf": 6,
+          "near_pair_count": 0
+        }
+      ]
+    },
+    {
+      "schema": "e1-n256-box-falsifier-v1",
+      "status": "NO_WITNESS_WITHIN_SEARCH_BUDGET",
+      "seed": 31415,
+      "p": "904625697166646869347790708689937759412227977745095982970820953353127723009",
+      "rho_256": "368095729527972287347366462180303065908636718991804826343652948937354262881",
+      "dimension": 128,
+      "elapsed_seconds": 81.648107,
+      "stages": [
+        {
+          "label": "LLL",
+          "elapsed_seconds": 1.003142,
+          "best_norm2": 1295,
+          "best_inf": 14,
+          "pool_size": 2048,
+          "best_pair_inf": 9,
+          "near_pair_count": 0
+        },
+        {
+          "label": "BKZ-28",
+          "elapsed_seconds": 2.134522,
+          "best_norm2": 882,
+          "best_inf": 10,
+          "pool_size": 2048,
+          "best_pair_inf": 8,
+          "near_pair_count": 0
+        },
+        {
+          "label": "BKZ-36",
+          "elapsed_seconds": 5.754779,
+          "best_norm2": 749,
+          "best_inf": 8,
+          "pool_size": 2048,
+          "best_pair_inf": 7,
+          "near_pair_count": 0
+        },
+        {
+          "label": "BKZ-42",
+          "elapsed_seconds": 80.742718,
+          "best_norm2": 513,
+          "best_inf": 8,
+          "pool_size": 2048,
+          "best_pair_inf": 5,
+          "near_pair_count": 256
+        }
+      ]
+    },
+    {
+      "schema": "e1-n256-box-falsifier-v1",
+      "status": "NO_WITNESS_WITHIN_SEARCH_BUDGET",
+      "seed": 65537,
+      "p": "904625697166646869347790708689937759412227977745095982970820953353127723009",
+      "rho_256": "368095729527972287347366462180303065908636718991804826343652948937354262881",
+      "dimension": 128,
+      "elapsed_seconds": 99.39605,
+      "stages": [
+        {
+          "label": "LLL",
+          "elapsed_seconds": 1.284104,
+          "best_norm2": 1505,
+          "best_inf": 10,
+          "pool_size": 2048,
+          "best_pair_inf": 10,
+          "near_pair_count": 0
+        },
+        {
+          "label": "BKZ-28",
+          "elapsed_seconds": 2.584024,
+          "best_norm2": 884,
+          "best_inf": 10,
+          "pool_size": 2048,
+          "best_pair_inf": 7,
+          "near_pair_count": 0
+        },
+        {
+          "label": "BKZ-36",
+          "elapsed_seconds": 6.307935,
+          "best_norm2": 771,
+          "best_inf": 8,
+          "pool_size": 2048,
+          "best_pair_inf": 7,
+          "near_pair_count": 0
+        },
+        {
+          "label": "BKZ-42",
+          "elapsed_seconds": 98.470376,
+          "best_norm2": 532,
+          "best_inf": 5,
+          "pool_size": 2048,
+          "best_pair_inf": 6,
+          "near_pair_count": 0
+        }
+      ]
+    }
+  ]
+}

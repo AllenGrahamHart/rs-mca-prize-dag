@@ -33,7 +33,350 @@ Six profiles exceed the threshold:
 
 This is the boundary of the cheap one-exception quotient descent. Unlike
 `E=35`, several three- and four-layer profiles miss by hundreds, so an
-outer-only quotient census cannot decide the slice. No new Modal campaign is
-authorized. A future return should first derive a common nested-layer
-compiler for all six profiles, with a proved completeness router and a
-sub-`$1` pilot, or replace the cubic by a stronger analytic certificate.
+outer-only quotient census cannot decide the slice. At this checkpoint no new
+Modal campaign was authorized: a return first had to derive a common
+nested-layer compiler for all six profiles, with a proved completeness router
+and a sub-`$1` pilot, or replace the cubic by a stronger analytic certificate.
+
+## Nested-layer compiler
+
+The common compiler is now implemented in
+`e34_nested_quotient_census.cpp`. For an exact magnitude profile
+`(n_1,...,n_r)`, it allocates the `n_j` positive distance representatives
+among the nine negation-orbit categories modulo 16. The resulting nested
+layers are
+
+```text
+X_i={d: |A_d|>=i},       1<=i<=r.
+```
+
+For every unordered layer triple it applies the proved target-fiber quotient
+bound in each of the three orientations and multiplies by the exact ordered
+triple multiplicity. Nested two-point layers coincide and have zero cubic
+Schur count. Requiring an odd outer category handles the live order-128
+chamber; applying the same compiler with the order-64 capacities handles the
+outer-even but not outer-`4Z` chamber after division by two. The inherited
+small-field norm theorem excludes the remaining outer-`4Z` chamber. These
+cases are exhaustive, so a complete census with maximum at most 1947 would
+close `V=68`.
+
+The independent checker
+`e34_nested_quotient_census_check.py` recomputes every displayed objective
+and, for a complete packet, recounts each of the twelve profile/order state
+spaces by a separate dynamic program. Their aggregate size is 228,097,120
+exact allocations. The launcher checkpoints after every returned shard and
+retains explicit failed-task records.
+
+The registered pilot `CR-E1-E34-NESTED-Q16-PILOT` runs one deterministic
+outer shard out of 128 for each of the twelve cells. It is a route decision,
+not theorem evidence. Any returned objective at least 1948 kills the bare
+mod-16 nested quotient route with an exact allocation. If all twelve pilot
+maxima are at most 1947, the measured worker times determine whether the
+complete 16-shard-per-cell campaign remains within the five-minute and
+sub-`$1` laws. No full campaign is authorized before that timing audit.
+
+## Pilot outcome and route cut
+
+Modal app `ap-Ec22WlisgFjRNPFuigxlEy` returned all twelve pilot tasks in
+18.91 seconds of client-observed app wall time. The independently replayed
+maxima were
+
+```text
+profile             order 128    order 64
+(6,7)                     2132        2154
+(9,4,1)                   1990        2016
+(2,8)                     1716        1616
+(12,1,2)                  1990        1706
+(5,5,1)                   1698        1716
+(14,1,0,1)                1620        1726
+```
+
+Thus five sampled cells already exceed 1947. Their exact magnitude-by-
+quotient allocations are stored in
+`e34_nested_quotient_pilot_result.json`; the checker reconstructs every
+nested layer and objective directly. These are obstructions to this upper-
+bound compiler, not autocorrelation vectors and not counterexamples to the
+`V=68` exclusion.
+
+The all-profile 228,097,120-allocation campaign is retired. A direct weighted-fiber
+recombination was also evaluated on every displayed obstruction and gives
+bounds between 2036 and 2174 on the five failing cells, so it does not repair
+the route. The next positive theorem must use information erased by the
+mod-16 allocation: simultaneous chord-origin realizability across all layer
+triples, a finer support-specific coupling for the failing profiles, or a
+stronger analytic norm majorant. Do not run the complete quotient census.
+
+The launcher did not record individual worker durations, so the app is not a
+timing certificate for a future full campaign. No theorem depends on timing
+or sampled coverage here, and the exact route obstructions replay locally;
+there is no reason to spend credit rerunning the retired pilot solely to add
+timings.
+
+The obstruction is profile-selective. The three unobstructed profiles
+
+```text
+(2,8),       (5,5,1),       (14,1,0,1)
+```
+
+occupy exactly 42,413,558 allocations across the two live quotient chambers,
+and every pilot maximum is at most 1726. Campaign
+`CR-E1-E34-Q16-SURVIVORS` is separately authorized to exhaust only these six
+cells in sixteen shards each. It is not the retired all-profile campaign. A
+complete maximum at most 1947 closes all three profiles; a larger maximum
+returns an exact allocation and leaves only that profile for support-specific
+coupling. The other three profiles are not run: their next compiler is the
+41-signature `L=20` chord-origin classification.
+
+Modal app `ap-zx5C3lSHLdaYAZE2Ic0tZA` completed all 96 tasks and all
+42,413,558 allocations in 29.84 seconds of client-observed wall time. Worker
+durations range from 0.052 to 16.259 seconds and sum to 334.664 CPU-seconds.
+The independently reconstructed maxima are
+
+```text
+profile             order 128    order 64
+(2,8)                     2052        2008
+(5,5,1)                   1880        1828
+(14,1,0,1)                1922        1922
+```
+
+Thus the campaign proves the latter two profiles below 1947. The `(2,8)`
+profile returns the registered `FAIL`: its order-128 obstruction has quotient
+components `(300,264,240,240)`, totaling 2052, while its order-64 obstruction
+totals 2008. The terminal launcher print used the last returned shard rather
+than the maximum shard; that presentation bug is repaired in source, and no
+claim uses it. The complete packet and independent checker give the displayed
+maxima.
+
+The abstract `V=68` frontier is now four profiles:
+
+```text
+(6,7),       (9,4,1),       (2,8),       (12,1,2).
+```
+
+For `(2,8)`, the existing exact `R(B,B,B)<=174` theorem lowers the displayed
+order-64 obstruction to 1942, but lowers the order-128 obstruction only to
+1986. Its next route is therefore a chamber-exhaustive inner-layer refinement,
+not the retired six-profile census.
+
+## Profile `(2,8)` coupled campaign
+
+Campaign `CR-E1-E34-P2-COUPLED` combines two exhaustive compilers. The first
+replays all 809,474 profile-`(2,8)` quotient allocations and applies
+`R(B,B,B)<=174` exactly when the inner layer is in the divided order-64
+scope. It separately reports the order-128 chambers `B subset 4Z` and
+`B not subset 4Z`. The second enumerates the remaining inner-`4Z` chamber at
+support level. There are `binom(15,8)=6435` inner layers and exactly 1,232
+admissible two-pair outer supplements per layer, for 7,927,920 weighted
+supports.
+
+The campaign closes `(2,8)` exactly if
+
+```text
+order-64 refined quotient maximum       <=1947,
+order-128 outside-inner-4Z maximum      <=1947,
+order-128 exact inner-4Z support maximum<=1947.
+```
+
+The sources are `e34_profile2_refined_quotient_census.cpp` and
+`e34_profile2_inner4_support_census.cpp`; one independent checker reconstructs
+both quotient objectives, both coverage counts, and every displayed support
+maximum. The 64 one-CPU, 256-MiB tasks form one wave with 120-second hard
+function caps, a campaign wall ceiling below three minutes, and a conservative
+cost ceiling below `$0.20`. `FAIL` returns the exact surviving chamber;
+`INCOMPLETE` changes no status.
+
+Modal app `ap-8xzV3fZniv8jms4V2EI19N` completed all 64 tasks in 22.02
+seconds of client-observed wall time and 17.624 aggregate worker-seconds. The
+independent checker gives
+
+```text
+order-64 refined quotient maximum          1942,
+order-128 outside-inner-4Z maximum         1942,
+order-128 inner-4Z exact support maximum   1536.
+```
+
+All three values are below 1947, so `(2,8)` is closed. Combined with the
+selective campaign, the complete `V=68` residual is now exactly
+`(6,7),(9,4,1),(12,1,2)`, all with `L=20`. This reduction is promoted as
+`e1_n256_s16_e34_three_profile_reduction`.
+
+## Parity reduction
+
+No further census is needed to compare these three profiles. The coefficient
+profile has exactly six unit-product chords, namely the six edges among the
+four light positions. Modulo two, every autocorrelation coefficient is the
+number of unit chords in its distance class. The candidate profiles have 6,
+10, and 14 odd coefficients respectively, so only `(6,7)` can occur.
+
+Equality forces the six unit chords into six distinct non-diameter classes.
+Thus the light positions form a circular Sidon set, and diameter square mass
+is restricted to `0,4,8,12,16,20`. The corresponding signed equal-chord cross
+sums are `-34,-32,-30,-28,-26,-24`. This proof is promoted as
+`e1_n256_s16_e34_parity_profile_reduction`; the 41 relaxed signatures now
+describe heavy-chord collisions around one profile rather than three.
+
+## Heavy-chord templates
+
+The three magnitude-four chords join the heavy positions. Since the output
+profile contains only magnitudes one and two, a singleton non-diameter
+heavy-heavy class must also contain a heavy-light chord: the optional one
+light-light chord can change magnitude four only to three or five. This gives
+four exhaustive heavy-position templates: quarter, nonquarter diameter,
+progression, and generic.
+
+The normalized quarter template is `H={0,32,64}`. Its only possible
+heavy-light diameter would put a light at `96`, but the exact distance-32
+signed sum then has magnitude four or eight for every sign choice. Thus that
+branch is empty. Without `96`, the outer heavy signs must be opposite, so the
+quarter template has exactly `(D_64,C)=(16,-26)`. This reduction is promoted
+as `e1_n256_s16_e34_heavy_chord_template_reduction`.
+
+## Quarter-template closure
+
+The normalized quarter template has 124 available light positions, one
+middle-heavy sign, and four light signs after global sign normalization. Two
+independent 121-shard implementations exhaust
+
+```text
+binom(124,4)*32=300,200,032
+```
+
+vectors. The primary signed-chord implementation and the direct negacyclic
+polynomial audit agree on every shard:
+
+```text
+E=34 vectors                       1,514,544,
+profile-(6,7) vectors              1,181,056,
+full-conductor profile vectors     1,031,680,
+maximum full-conductor M_3              1188.
+```
+
+Since `1188<1947`, the cubic-Hermite norm certificate closes the complete
+quarter template. Modal apps `ap-kLTKBwJM3lNWUZA3hul5w7` and
+`ap-XXTZkD7kcupvXULmbp2GKZ` used 45.781851 and 52.691880 aggregate
+worker-seconds. The result is promoted as
+`e1_n256_s16_e34_quarter_template_exclusion`.
+
+## Nonquarter-diameter weld normal form
+
+Normalize the antipodal heavy pair to `{0,64}`. Translation, reflection, and
+exchange of the pair give the 31 unique nonquarter representatives
+`H={0,64,t}`, `1<=t<=31`. The heavy-heavy classes of lengths `t` and `64-t`
+have heavy-light candidate sets
+
+```text
+{128-t,64-t,64+t,2t},
+{64-t,64+t,128-t,64+2t}.
+```
+
+Their intersection has three positions and their symmetric difference has
+two. Hence both forced welds hold exactly when a common position is light or
+both exceptional positions are light. The five positions are distinct and
+nonheavy for all 31 forms. Inclusion-exclusion gives
+
+```text
+binom(125,4)-binom(122,4)+binom(120,2)=915,125
+```
+
+light supports per form, or 1,815,608,000 signed vectors after global sign
+normalization. The analytic reduction is promoted as
+`e1_n256_s16_e34_nonquarter_diameter_weld_reduction`. It does not yet exclude
+the branch; it makes a complete profile-and-moment census bounded and exact.
+
+## Nonquarter-diameter closure
+
+The primary signed-chord census and independent ordered-negacyclic audit each
+exhaust all 31 weld chambers. They agree shardwise on
+
+```text
+light supports                       28,368,875,
+normalized signed vectors         1,815,608,000,
+E=34 vectors                           1,518,816,
+profile-(6,7) vectors                  1,044,528,
+full-conductor profile vectors          899,456,
+maximum full-conductor M_3                  1560.
+```
+
+Modal apps `ap-EfGZditRQm7eDLLLWpNiSA` and
+`ap-MQpKibQl8PBqzuhB5DKf2m` used 271.301709 and 339.920267 aggregate
+worker-seconds. Since `1560<1947`, the cubic-Hermite norm certificate closes
+the complete template. The result is promoted as
+`e1_n256_s16_e34_nonquarter_diameter_template_exclusion`. The live E34
+frontier now contains only progression and generic heavy templates.
+
+## Progression-weld normal form
+
+Every progression triple has one of 62 forms `H={0,t,2t}`, with
+`1<=t<=63`, `t!=32`. If the outer heavy signs agree, the repeated class starts
+at magnitude eight. It has only the two heavy-light extensions `-t,3t` and at
+most one light-light chord, so its magnitude remains at least three. Thus the
+outer signs are opposite.
+
+The singleton outer-heavy class is welded exactly when a light occupies one
+of `{-2t,3t,-t,4t}`. There are 1,195,965 such supports per form and
+2,372,794,560 signed vectors over all forms. Odd cyclotomic automorphisms
+preserve conductor, profile, and `M_3` and collapse the 62 steps by 2-adic
+valuation to `t=1,2,4,8,16`. A complete invariant census therefore has only
+191,354,400 vectors. The result is promoted as
+`e1_n256_s16_e34_progression_weld_reduction`; the branch remains open until
+that five-representative chamber is paid.
+
+## Progression-template closure
+
+The primary signed-chord census and independent ordered-negacyclic audit
+exhaust the five unit-orbit representatives. They agree on 191,354,400
+representative signed vectors, 329,776 representative full-conductor profile
+vectors, and exact maximum `M_3=1722`. Weighting the five rows by
+`32,16,8,4,2` covers all 62 forms and 3,131,008 full-conductor profile
+vectors.
+
+Modal apps `ap-i5ZUL3DXjsMVeoSd2KwzT4` and
+`ap-x6NGO4WBkgu0GbaGBpeQim` used 29.943997 and 50.977832 aggregate
+worker-seconds. Since `1722<1947`, unit transport and the cubic-Hermite
+certificate close the complete progression template. The result is promoted
+as `e1_n256_s16_e34_progression_template_exclusion`. Only the generic heavy
+template remains at E34.
+
+## Generic affine-weld normal forms
+
+Two independent exact classifiers partition all 325,376 generic heavy triples
+under translations and odd cyclotomic units. They agree on 57 orbits. In each
+orbit the three singleton heavy-heavy classes force three heavy-light weld
+sets. The exact intersection ledgers are
+
+```text
+rows  weld sizes  pair intersections  triple  union  supports
+ 52    4,4,4           1,1,1             0      9     66,405
+  4    3,4,4           2,1,1             0      7     72,486
+  1    3,4,3           2,1,2             0      5     58,325.
+```
+
+Inclusion-exclusion and 64 sign patterns give a complete representative
+chamber of 243,285,056 vectors. Modal app
+`ap-RX2pnnmJRiFhsRSBEJS6To` used 1.110289 aggregate worker-seconds. The result
+is promoted as `e1_n256_s16_e34_generic_affine_weld_reduction`; it reduces but
+does not yet exclude the sole remaining E34 branch.
+
+## Generic close and E34 synthesis
+
+The primary signed-chord census and independent ordered-negacyclic audit
+exhaust all 57 generic representatives. They agree on
+
+```text
+light supports                         3,801,329,
+normalized signed vectors            243,285,056,
+E=34 vectors                              793,742,
+profile-(6,7) vectors                     505,466,
+full-conductor profile vectors            418,464,
+maximum full-conductor M_3                    1770.
+```
+
+Modal apps `ap-XpmKEOhClEfy8STvFbMH9y` and
+`ap-GUW2NuOkVnhQDU4jUvepbZ` used 34.471246 and 50.538048 aggregate
+worker-seconds. Since `1770<1947`, the generic template is excluded by
+`e1_n256_s16_e34_generic_template_exclusion`.
+
+The profile reduction, parity collapse, four-template classification, and
+four template exclusions are exhaustive. Their synthesis is promoted as
+`e1_n256_s16_e34_endpoint_exclusion`: `V=68` is impossible, and the live
+positive even `(3,4,0)` variance range is now `V<=66`.

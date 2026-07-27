@@ -1,0 +1,6 @@
+{
+  "signed_chord_file": "background/nodes/e1_n256_s16_signed_chord_collision_gate/statement.md",
+  "signed_chord_file_sha256": "926f9c94a0b5dd0830b7e37fafcd96f570dd93802de16061c802546e466e3157",
+  "three_profile_file": "background/nodes/e1_n256_s16_e34_three_profile_reduction/statement.md",
+  "three_profile_file_sha256": "cd30b1ff438af39161421c577883ffc59278a316d71c28f11a85d8c9fd4c9f0c"
+}

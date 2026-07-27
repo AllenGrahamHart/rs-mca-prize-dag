@@ -1,0 +1,21 @@
+{
+  "app": "l1-mersenne-m16-reciprocal-companion-audit",
+  "app_id": "ap-myN6sycfDSBAi2okj8hc2P",
+  "status": "COMPLETE",
+  "p": 8191,
+  "m": 16,
+  "h": 15,
+  "construction": "companion matrix for multiplication by W^16, traces, and Newton identities",
+  "uses_primary_Q_resultant": false,
+  "program_sha256": "a2954ec4df785d23d240cafd2fafd8e9099c33bdd34dd17a88fcf05b5fa4d33a",
+  "seconds": 12.792499,
+  "peak_mb": 110,
+  "sha256": {
+    "R12": "4d85a002b1a6859f596728ccb6a47946da5540bf2950ac5030e9aff9aa08f23d",
+    "R13": "e9e428a171b0e4d421c2486eee0b7d2ad4fb2dc16eaabdf49ca126b52176a076",
+    "gcd": "567ee9bf42f7ff97267c8a4b288bc4c4662688d17a1a65450df994ad120bfd94",
+    "radical": "42c76c6b52be5c2a1ced34377e1e469fd3b0114ed2d0156f2e443baf0e640a5e"
+  },
+  "all_hashes_match_primary": true,
+  "radical_matches_printed_factorization": true
+}

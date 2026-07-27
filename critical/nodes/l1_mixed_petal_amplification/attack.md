@@ -639,3 +639,27 @@
   `notes/PRIZE_COMPUTE_REQUESTS.md`; its former `NU0-H0` pre-request is now a
   retirement record and must not be sent upstream as live compute. No local
   or current-account Modal run is authorized.
+
+- Superseding endpoint close: consume
+  `l1_mersenne_hnf_m16_order_zero_reciprocal_elimination`. The two bounded
+  eliminants have degree-17 squarefree common radical
+  `s(s-1) product_(j=1)^15(s+j)`, so the complete `m=16,h=15` order-zero
+  chamber is empty. Together with the `m=8` theorem, no next-to-maximal
+  order-zero HNF work or cubic/higher color split remains. Narrow
+  `CR-L1-MCP-NMCE` to order one only; do not rerun either reciprocal
+  elimination. This does not remove lower value degrees, nonembedded
+  `m=4,h=2`, inner lifts, or the global smooth-section/tangent payment.
+
+- For the remaining order-one work, consume
+  `l1_mersenne_hnf_order_one_involution_component_exclusion`. Divide
+  `h!*Phi_h` by `rho*c*(c-1)*(c+1)`, saturate by `c+1`, and impose only the
+  residual `Psi_h=0`. The `c=-1` component is theorem-empty on every
+  official row and must not enter a saturation. The live residual degrees
+  are `(deg_rho,deg_c)=(2,4)` at `h=7` and `(6,12)` at `h=15`.
+
+- Then consume `l1_mersenne_hnf_order_one_newton_reciprocal_reduction`.
+  Do not construct `Res_W(L,Z-W^m)` as the primary route. Generate the
+  star-root and inverse-root traces from `L_star` and the monic reciprocal
+  of `L`, and impose the first three Newton equalities. They require powers
+  only through `3m`. A full identity uses the `H-1` interior equalities plus
+  the constant-product equation; the first-three system is necessary only.

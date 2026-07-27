@@ -26,6 +26,81 @@ def node_folder(node_id, root=ROOT):
     return next((folder for folder in candidates if os.path.isdir(folder)),
                 os.path.join(root, "nodes", node_id))
 
+
+def predicates_green(node_id, nodes, reqs, alts):
+    """Return whether every predicate used by an auto-discharge is green."""
+    node = nodes[node_id]
+    req_statuses = [nodes[u]["status"] for u in reqs.get(node_id, [])
+                    if u in nodes]
+    alt_statuses = [nodes[u]["status"] for u in alts.get(node_id, [])
+                    if u in nodes]
+    gate_any = node.get("gate") == "any" and bool(alt_statuses)
+    return (all(status in GREEN for status in req_statuses)
+            and (not gate_any or any(status in GREEN for status in alt_statuses)))
+
+
+def regress_to_fixpoint(nodes, reqs, alts, root=ROOT):
+    """Regress stale auto-discharges independent of the JSON node ordering."""
+    regressed = []
+    changed = True
+    while changed:
+        changed = False
+        for node_id, node in nodes.items():
+            if node["status"] not in GREEN:
+                continue
+            artifact = os.path.join(
+                node_folder(node_id, root),
+                "proof.md" if node["status"] == "PROVED" else "sketch.md",
+            )
+            if not os.path.exists(artifact):
+                continue
+            with open(artifact, encoding="utf-8") as handle:
+                is_auto_discharged = "(auto-discharged)" in handle.read()
+            if not is_auto_discharged or predicates_green(
+                    node_id, nodes, reqs, alts):
+                continue
+            node["status"] = "CONDITIONAL"
+            os.remove(artifact)
+            regressed.append(node_id)
+            changed = True
+            print(f"regressed {node_id} -> CONDITIONAL (predicate left green)")
+    return regressed
+
+
+def vacate_orphan_artifacts(nodes, root=ROOT):
+    """Remove auto-discharge artifacts left on nodes that are no longer green.
+
+    ADDED 2026-07-27 (wave 27). regress_to_fixpoint only inspects nodes whose
+    status is in GREEN -- so it catches a node at the moment it is demoted, but
+    never a node that some OTHER route already demoted. Those keep an artifact
+    reading "By modus ponens the statement is PROVED/PROVABLE", contradicting
+    their own node status. Nine such files survived the 2026-07-27 honesty
+    audit (eight proof.md, one sketch.md on xr_inverse citing an xr_gvn that
+    wave 26 demoted to TARGET), one of them on a TARGET node. The artifact is a
+    derived claim, not a source: when the status stops supporting it, it goes.
+
+    The rule here is deliberately the same one verify_auto_discharge_paths.py
+    enforces -- non-green nodes retain no auto-discharge artifact of either
+    kind -- so the writer and the checker cannot drift apart.
+    """
+    vacated = []
+    for node_id, node in nodes.items():
+        if node["status"] in GREEN:
+            continue
+        for kind in ("proof.md", "sketch.md"):
+            artifact = os.path.join(node_folder(node_id, root), kind)
+            if not os.path.exists(artifact):
+                continue
+            with open(artifact, encoding="utf-8") as handle:
+                if "(auto-discharged)" not in handle.read():
+                    continue
+            os.remove(artifact)
+            vacated.append(f"{node_id}:{kind}")
+            print(f"vacated stale auto-discharge {kind} on {node_id} "
+                  f"[{node['status']}]")
+    return vacated
+
+
 def main():
     d = json.load(open(DAG))
     nodes = {n["id"]: n for n in d["nodes"]}
@@ -34,19 +109,12 @@ def main():
         (reqs if e.get("kind", "req") == "req" else alts if e.get("kind") == "alt"
          else {}).setdefault(e["to"], []).append(e["from"]) if e.get("kind", "req") in ("req", "alt") else None
     # REGRESSION SWEEP first: an auto-discharged node whose predicates are
-    # no longer all green goes back to CONDITIONAL (downgrades propagate).
-    for v, n in nodes.items():
-        if n["status"] not in GREEN:
-            continue
-        art = os.path.join(node_folder(v),
-                           "proof.md" if n["status"] == "PROVED" else "sketch.md")
-        if not (os.path.exists(art) and "(auto-discharged)" in open(art).read()):
-            continue
-        rk = [nodes[u]["status"] for u in reqs.get(v, []) if u in nodes]
-        if rk and any(s0 not in GREEN for s0 in rk):
-            n["status"] = "CONDITIONAL"
-            os.remove(art)
-            print(f"regressed {v} -> CONDITIONAL (predicate left green)")
+    # no longer all green goes back to CONDITIONAL. Iterate to a fixpoint so
+    # the result is independent of the ordering of nodes in dag.json.
+    regress_to_fixpoint(nodes, reqs, alts)
+    # ...then sweep artifacts the regression pass cannot see, because the node
+    # was already below GREEN when it acquired its stale proof.
+    vacate_orphan_artifacts(nodes)
     flipped, changed = [], True
     while changed:
         changed = False
@@ -77,7 +145,17 @@ def main():
                     + (f"\n(gate:any — satisfied via a green alternative route.)\n" if gate_any else "")
                     + f"\nBy modus ponens the statement is {new}. Auto-discharged by tools/auto_discharge.py; "
                     "the audit lives at the red->amber referee step.\n")
-    json.dump(d, open(DAG, "w"), indent=1)
+    # CANONICAL FORM (fixed 2026-07-27, wave 27): json.dump(indent=1) omits the
+    # trailing newline, so every run of this tool silently left dag.json one byte
+    # off canonical and dirtied the diff for whoever committed next. The canonical
+    # form is json.dumps(dag, indent=1, ensure_ascii=True) + "\n" -- write exactly
+    # that, and write it atomically so an interrupted run cannot truncate the DAG.
+    payload = json.dumps(d, indent=1, ensure_ascii=True) + "\n"
+    assert json.loads(payload) == d, "canonical round-trip failed; refusing to write"
+    tmp = DAG + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as handle:
+        handle.write(payload)
+    os.replace(tmp, DAG)
     print(f"auto-discharged {len(flipped)}: " + (", ".join(f"{v}->{s}" for v, s in flipped) or "nothing"))
 
 if __name__ == "__main__":

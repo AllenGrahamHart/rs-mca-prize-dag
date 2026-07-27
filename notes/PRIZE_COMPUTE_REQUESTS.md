@@ -1,5 +1,9 @@
 # Proximity Prize deferred compute requests
 
+> **OPERATING PROTOCOL:** Authorization, RAM discipline, and upstream handoff
+> rules are summarized in `notes/JOINT_PRIZE_RESOLUTION_PROTOCOL.md` section
+> 10. This file remains the authoritative request ledger and run log.
+
 > **PLAN-OF-RECORD POINTER (2026-07-22).** The resolution roadmap was
 > rewritten as the date-free r3 gates-not-dates form and installed at
 > `notes/PRIZE_RESOLUTION_ROADMAP.md` (maintainer-directed; supersedes every
@@ -5227,6 +5231,81 @@ CR-004 is intentionally one grouped request because all four leaves use the
 same ambient split and certificate vocabulary. Contributors may close slots
 independently, but should not open four incompatible compute frameworks.
 
+### CR-004-W49-INV: one-run inversion-symmetric classification
+
+- **authorization (2026-07-26):** exactly one route-pricing run of
+  `experiments/prize_resolution/wcl49_inversion_symmetric_groebner_modal.py`.
+  One CPU, 1 GiB, one container, 90-second function cap, and 75-second
+  symbolic alarm; current-rate compute ceiling is below `$0.002` before the
+  small cached-image build. No retry is authorized by this entry.
+- **decision:** in the `(4,9)` Pell endpoint `P(Y)=YA(Y)^2-1`, classify the
+  inversion-invariant root-set stratum. Such a monic degree-nine `P` is
+  anti-reciprocal, giving the four exact equations
+  `[Y^i]P+[Y^(9-i)]P=0`, `1<=i<=4`, in the four nonleading coefficients of
+  the monic quartic `A`. Return the complete rational lexicographic Groebner
+  basis, its digest, zero-dimensional verdict, and univariate factors.
+- **PASS effect:** a small zero-dimensional basis selects an exact component
+  certificate and subsequent divisibility check. Positive dimension or an
+  unwieldy basis fences this symmetry split and returns work to the full
+  `114/119` cubic endpoint. Completion alone proves no WCL emptiness.
+- **partial output:** the exact equation list and digest are printed before
+  elimination. Timeout is `INCOMPLETE`; no second run, support census, or
+  official-scale certificate follows automatically.
+- **checker:**
+  `experiments/prize_resolution/check_wcl49_inversion_symmetric_groebner.py`
+  reconstructs the equations and basis independently under RAMguard.
+- **attempt result (2026-07-26): `COMPLETE`.** Modal app
+  `ap-uGwcJZUDyu3EvGCS3q7hKx` returned a five-polynomial, zero-dimensional
+  basis in `0.151924` seconds at `86 MB` peak RSS. The degree-14 univariate
+  eliminant factors as
+  `c0(c0-2)(c0^3-12c0-8)(c0^3-12c0+8)(c0^3-6c0^2+8)(c0^3-6c0^2+24)`.
+  Exact output is pinned in
+  `experiments/prize_resolution/wcl49_inversion_symmetric_groebner_result.json`.
+  The authorization is consumed. This selects a branchwise divisibility
+  certificate; it does not itself close the symmetry stratum.
+
+### CR-004-W49-INV-DIV: branchwise divisibility certificate
+
+- **authorization (2026-07-26):** exactly one follow-up run of
+  `experiments/prize_resolution/wcl49_inversion_symmetric_divisibility_modal.py`.
+  One CPU, 1 GiB, one container, 90-second function cap and 85-second client
+  alarm; conservative compute cost is below `$0.002` using the cached SymPy
+  image. No retry is authorized by this entry.
+- **decision:** start from the four anti-reciprocity equations, eliminate by
+  an explicitly checked quadratic/linear resultant, and cover all six
+  factors of the degree-14 eliminant. On each rational or cubic branch,
+  compute `(Y^1024-1) mod (YA(Y)^2-1)` by exact quotient-ring powering.
+  Return the gcd of the nine coefficient obstructions, complete prime
+  factors of every denominator and obstruction gcd, and the subset meeting
+  the official `v_2(p-1)>=41` gate.
+- **PASS effect:** if no exceptional prime meets the official gate, mint a
+  proved inversion-invariant component exclusion and attach it as evidence
+  to `dli_wcl_slot_4_9_emptiness`. This closes only that symmetry component,
+  not the full `(4,9)` cell.
+- **FAIL effect:** an official-compatible exceptional prime becomes a finite
+  exact candidate for direct reconstruction or exclusion. Positive
+  reconstruction falsifies the `(4,9)` target; exclusion narrows the branch.
+- **partial output:** the router and every completed branch are printed
+  independently. Timeout or incomplete factorization is `INCOMPLETE`; no
+  DAG status changes and no automatic retry follow.
+- **checker:**
+  `experiments/prize_resolution/check_wcl49_inversion_symmetric_divisibility.py`
+  reconstructs the router, quotient powers, resultants, factorizations, and
+  official prime filter independently under RAMguard.
+- **attempt result (2026-07-26): `COMPLETE`.** Modal app
+  `ap-Qzy9Pu4EwpokldlVRzyoYg` completed in `11.55593` seconds at `98 MB`
+  peak RSS. Its eight exhaustive branches all have divisibility-obstruction
+  gcd `1`; router and parameter denominators have prime support exactly
+  `{2,3,17,19}`, with maximum `v_2(p-1)=4`. No exception meets the official
+  `v_2(p-1)>=41` gate. The exact result has certificate digest
+  `71f5d0e915bcad0cc510b6ea7d616096040bd34056f280133a4e64385bd79f99`.
+  The authorization is consumed, and the result is banked as the PROVED
+  component `dli_wcl_ell4_weight9_inversion_symmetric_exclusion`. Launcher,
+  checker, and result-file SHA-256 values are respectively
+  `bf476b31eccf380c7c676b7aec7f5aa7b79c4a3b666dd95b6dea97d0a106d158`,
+  `925f7c28521779da15ff15cfbcffa6eb85b66fc1440b4e4f9479bd2527707121`,
+  and `726a8287d8965a6640c03a2f2b42cbcdb3c53aeed7e1d23191800c778d45e356`.
+
 ## CR-004-X6: WCL extended-window six certificate classification
 
 - **status:** DEFERRED EXTERNAL HANDOFF. The proved node
@@ -5250,6 +5329,11 @@ independently, but should not open four incompatible compute frameworks.
   ```
 
   Every equation has total degree at most three.
+- **normalisation scope correction (2026-07-26):** failure of product-one
+  normalisation at even weight does not add a missing router to this request.
+  The proved parity-separated form `F(X)=E(X^2)-XB(X^2)` already gives the
+  exact `(4,10)` descent and converse. The six jobs above are certificate
+  extractions, not descent discovery.
 - **route fence:** a blind affine-Galois census has rigorous class lower
   bounds `6,426,702,047`, `400,062,202,418`, `27,065,242,005,554`,
   `3,031,307,104,622,047`, `81,607,877,807,280,797,271`, and
@@ -7000,6 +7084,37 @@ padding multiplicity consists of exact `e_1` collisions.
   pilot and publish measured resources before requesting a larger run.  Do not
   launch this request locally under the present Modal budget.
 
+### N12-E1-256: completed named-field box falsifier (background exhibit)
+
+- **status:** completed and retired from the critical route by the E1
+  universal-quantifier audit. The unresolved named-field node remains
+  background exhibit work; closing it would not close route-uniform E1
+  control.
+- **consumer:** background node `e1_folded_no_vector_certificate_256_payload`.
+- **question:** does the pinned Pocklington field admit one nonzero
+  `w in {-2,-1,0,1,2}^128` with `sum_i w_i rho_256^i = 0 mod p`?
+- **promotion rule:** only an explicit vector accepted by
+  `background/nodes/e1_folded_no_vector_certificate_256_payload/verify_falsification_campaign.py`
+  falsifies the
+  zero-vector leaf. A search miss is `INCOMPLETE` and changes no status.
+- **campaign:** four deterministic Modal workers, seeds
+  `{1729,2718,31415,65537}`, each `8` CPUs, `16 GiB`, hard timeout `240 s`.
+  Each performs bounded LLL/BKZ reduction followed by exact signed sums of
+  negacyclic shifts. Worker stage summaries survive ordinary completion.
+- **budget:** authorized once under the route-deciding pilot rule; estimated
+  total below `$0.30`, hard campaign ceiling `$0.50`, wall below five minutes.
+- **artifacts before launch:** launcher and exact checker are banked; checker
+  self-test rejects zero, out-of-box, non-kernel, and wrong-length mutations.
+  SHA-256 pins: launcher `4d2e5f842b77dc604df58b8dad064fad6c23390aad90b8ed8b40d915f97cd326`;
+  checker `cd13813d859aefb1d332a50d68dcc5b6cc08c6480dc3c447c25ee85800c94070`.
+- **app/run:** `ap-uImvgijoKNeruVABf32Cc9`, completed. All four workers
+  returned `NO_WITNESS_WITHIN_SEARCH_BUDGET` in `81.65--125.33 s`; campaign
+  result SHA-256
+  `3fcb4725226e996df9c274dd9e653e3a1354b6620c207e3c325289639f6cbcd2`.
+  The exact checker reports `INCOMPLETE`, as required. The client did not
+  expose a billed-dollar line; measured resources remain comfortably below
+  the `$0.30` estimate. This authorization is consumed; do not scale the miss.
+
 ## CR-004 refresh (2026-07-22): the WCL slot register is now request-grade hardened
 
 The ten-slot decomposition backing CR-004 is now MACHINE-CERTIFIED complete
@@ -7126,9 +7241,11 @@ compression.
 
 ### CR-L1-MCP-NMCE: constant-Euler next-to-maximal passport classification
 
-**Status:** valuable outbound research-compute request with unknown cost;
-not authorized locally or on the current Modal account. Benchmark and price
-one outer chamber before any extension.
+**Status:** every order-zero next-to-maximal chamber is theorem-empty and
+RETIRED from this request: four `m=8,h=7` rows and the `m=16,h=15` row. Only
+the order-one chambers remain a valuable outbound research-compute
+pre-request with unknown cost. Benchmark and price one smallest unresolved
+order-one chamber before any extension.
 
 **Pre-registered bounded analogue pilot `HNF-TOY-GCD`.** One 1-CPU, 1-GiB,
 120-second Modal task may compute the exact common-remainder gcd for
@@ -7176,13 +7293,26 @@ structure-aware two-variable elimination and return either a checkable unit
 certificate or a complete component decomposition. This measured algebra
 task is now preferable to any expanded degree-`n` remainder campaign.
 
-This request targets only the exact residue of
-`l1_mersenne_next_to_maximal_hypergeometric_normal_form` on
+The later proved node
+`l1_mersenne_hnf_m8_order_zero_reciprocal_elimination` supersedes that
+incomplete analogue for every official `m=8` order-zero row. It reconstructs
+the reciprocal coefficients by two independent exact implementations and
+shows that the gcd of the first-three-equation eliminants has only prime-
+field roots in all four official characteristics. Do not run an `m=8`
+official saturation or classify cubic and higher `m=8` colors: that chamber
+is closed.
+
+The following order-zero specification is retained as historical provenance;
+it is no longer live. The live part of this request is now only the order-one
+residue of `l1_mersenne_next_to_maximal_hypergeometric_normal_form`. The
+retired order-zero row was
 
 ```text
-(m,h,p)=(8,7,8191),(8,7,131071),(8,7,524287),
-        (8,7,2147483647),(16,15,8191).
+(m,h,p)=(16,15,8191),
 ```
+
+The four former `m=8` triples and this `m=16` triple remain in the historical
+pilot record only.
 
 The outer stage has a monic depressed squarefree polynomial `G` of degree
 `h` and a nonzero scalar `lambda=m alpha/q`. Put
@@ -7265,19 +7395,125 @@ the outer stage into exactly two low-dimensional tasks.
   factor must include an exact algebraic representation of `s`, replay of
   `s notin F_p`, and the zero remainder certificate.
 
+  For the live `(m,h,p)=(16,15,8191)` chamber, `deg_s q_j<=16j`. The raw
+  interpolation bounds for
+
+  ```text
+  Res_t(F_1,F_2),       Res_t(F_1,F_3)
+  ```
+
+  are respectively `11520` and `15360`. The latter exceeds `p`, so a
+  base-field evaluation grid cannot certify the polynomial by ordinary
+  interpolation. A contributor implementation must instead use exact
+  symbolic elimination, extension-field interpolation with a replayable
+  descent certificate, or a proved factor/saturation reduction. Before a
+  full run, publish a measured pilot that constructs enough of one eliminant
+  to validate the representation and gives a conservative peak-RAM,
+  wall-time, and dollar bound. The local `m=8` timings (about 12 seconds for
+  the primary verifier and 10 seconds for its independent audit) are not a
+  cost model for this larger system.
+
+  **One-eliminant Singular pilot authorization (2026-07-26).** The later
+  under-five-minute and under-`$1` compute law authorizes exactly one
+  route-pricing run of
+  `experiments/prize_resolution/l1_mersenne_m16_r12_singular_pilot_modal.py`.
+  It uses one CPU, 2 GiB, one container, a 180-second outer timeout, and a
+  165-second Singular timeout. It may construct `Q_s` and only
+  `Res_t(F_1,F_2)` at `(p,m,h)=(8191,16,15)`, returning degree, term count,
+  digest, wall time, and peak RSS. It must not launch `R_13`, a saturation,
+  extension-field interpolation, or a retry. Completion is representation
+  and cost evidence only. Timeout or error is a route fence; a successful
+  run authorizes no follow-on computation until its measured cost and output
+  shape have been audited.
+
+  **Attempt result (2026-07-26): `INCOMPLETE`.** The single launch was Modal
+  app `ap-wGlT1diHx4C7gUii0LhVyq`. The default Debian package recipe selected
+  891 new packages and 29 upgrades (1,077 MB of archives; 4,098 MB installed),
+  so the app was stopped at package 310 before image completion or any
+  algebra. The same-day billing report records `$0.00340405` CPU plus
+  `$0.00007667` memory, or `$0.00348072` total. No retry or second eliminant
+  ran. The launcher has been corrected to suppress Debian recommends, but is
+  not authorized for another run by this attempt. Exact replay metadata is in
+  `experiments/prize_resolution/l1_mersenne_m16_r12_singular_pilot_result.json`.
+  This is an infrastructure fence only and yields no mathematical or DAG
+  movement.
+
+  **Resolved (2026-07-27): RETIRED.** Under the current sub-five-minute and
+  under-`$1` compute law, the corrected exact pilot completed and was followed
+  by one independent companion-matrix audit. The eliminants have degrees
+  `11472,15296`; their degree-`9912` gcd has squarefree radical
+
+  ```text
+  s(s-1) product_(j=1)^15(s+j),
+  ```
+
+  which divides `s^8191-s`. The primary resultant construction and the
+  companion-matrix/Newton construction reproduce all four polynomial hashes.
+  `l1_mersenne_hnf_m16_order_zero_reciprocal_elimination` is therefore
+  PROVED and the complete order-zero outer chamber is empty. Apps
+  `ap-TFttWNnwIi68tCQ3n32vBn` and `ap-myN6sycfDSBAi2okj8hc2P` used one CPU,
+  `110 MB`, and `16.75/12.79` seconds; the exact bill was not queried and the
+  full campaign is conservatively below `$0.05`. Do not run any further
+  `m=16` order-zero elimination, remainder, or color-degree job.
+
+  A unit outside-prime-field locus closes the complete `m=16` order-zero
+  outer chamber. A nonunit result must return an exact irreducible component
+  or algebraic witness candidate, then impose `t=s^p` and the cyclotomic
+  divisibility before it can count as an outer survivor. A timeout, modular
+  no-hit, partial interpolation, or projected-cost estimate is `INCOMPLETE`.
+
 - For `ord_0(T)=1`, normalize `g(y)=R(0)^(-h)G(R(0)y)`,
   `A=[Y^(h-2)]G/R(0)^2`, and `c=z/R(0)`. Generate every coefficient by
   the registered top-down recurrence (HNF3), put
   `rho=2A/[c(c-1)]`, and impose its closed-form last equation
-  `Phi_h(rho,c)=[t^h](1-t)^(c rho)(1-ct)^(-rho)=0`. Before the large
-  torsion or remainder equations, shard by `zeta in mu_m`, substitute
+  `Phi_h(rho,c)=[t^h](1-t)^(c rho)(1-ct)^(-rho)=0`.
+
+  First consume
+  `l1_mersenne_hnf_order_one_involution_component_exclusion`. Exact
+  factorization gives
+
+  ```text
+  h!*Phi_h = content*rho*c*(c-1)*(c+1)*Psi_h.
+  ```
+
+  The first three factors are already outside the chamber, and `c=-1` is
+  impossible by `(c-1)^n=1` on all five official rows. Saturate by `c+1`
+  and use only `Psi_h=0`: its bidegree in `(rho,c)` is `(2,4)` for `h=7`
+  and `(6,12)` for `h=15`. Do not send the deleted involution component to
+  a Groebner worker.
+
+  The generic reduced resultant is also retired as the primary
+  representation. The bounded SymPy campaign
+  `l1_mersenne_m8_order_one_reciprocal_profile` exhausted 315 aggregate app
+  seconds without completing `Res_W(L,Z-W^8)`; apps
+  `ap-2JqEoR1tUWnWY1uaGIpxzh`, `ap-0Zf035x3KMj8qBJ7V8FtBT`, and
+  `ap-UxUdP4JCXNMzidTip4FogP` are `INCOMPLETE` and authorize no retry.
+  Exact partial metadata pins the cancelled degree-six quotient at 77 terms
+  with denominator `720*(c-1)^6`. There is no mathematical verdict.
+
+  Instead consume
+  `l1_mersenne_hnf_order_one_newton_reciprocal_reduction`. If `x_i` are
+  the roots of `L`, generate the first three reciprocal equations as the
+  Newton equalities between `(x_i^star)^m` and `x_i^(-m)`. This needs only
+  traces at powers `8,16,24` for `m=8`, or `16,32,48` for `m=16`; it never
+  materializes `Qtilde`. A future contributor computation should eliminate
+  these trace equations on `Psi_h=0`, return every denominator and
+  saturation factor, and use a second implementation to reconstruct the
+  traces from the companion matrix. Price the `h=7` first-three system
+  before attempting `h=15`.
+
+  Before the large torsion or remainder equations, shard by `zeta in mu_m`
+  and substitute
 
   ```text
   c_star=1+zeta/(c-1),       rho_star=formal Frobenius image of rho,
   ```
 
-  impose `Phi_h(rho_star,c_star)=0`. The zero split value is the known root
-  `x_0=-1/(c-1)`. Form
+  impose `Psi_h(rho_star,c_star)=0`, also saturating by `c_star+1`. Indeed
+  `c_star=-1` would imply `c=-1` under inverse Frobenius. The zero split
+  value is the known root `x_0=-1/(c-1)`. The following resultant formula
+  remains the definition and an optional independent audit, not the primary
+  construction:
 
   ```text
   L_(rho,c)(W)=P_(rho,c)(W)/(W-x_0),
@@ -7285,7 +7521,7 @@ the outer stage into exactly two low-dimensional tasks.
   Ctilde_(rho,c)=Qtilde_(rho,c)(0),
   ```
 
-  and impose the reduced coefficient equations
+  The equivalent reduced coefficient equations are
 
   ```text
   Ctilde_(rho,c)Qtilde_(rho_star,c_star)(Z)
@@ -7538,3 +7774,558 @@ There is no remaining mathematical decision for donated compute. An upstream
 PR should vendor the two proved exclusions and their compact checkers, and
 should mention this retirement only to prevent contributors from repeating
 the obsolete coefficient or lift search.
+
+### CR-E1-E38-Q16: variance-76 quotient-Schur census
+
+**Status:** COMPLETE by exact certificate; do not extend or rerun unless
+auditing the pinned result.
+
+This route-deciding campaign optimized the mod-16 residue-capacity bound for
+the three exceptional `E=38,L<=22` magnitude profiles in `Z/128 Z` and in the
+divided group `Z/64 Z`. The final preregistered implementation used 80
+disjoint shards, one CPU and 256 MiB per shard, a 180-second hard per-shard
+timeout, deterministic integer arithmetic, exact coverage counts, and an
+independent local checker. It completed 43,153,083 allocations in under 20
+seconds of campaign wall time. The configured worst-case campaign ceiling was
+below `$0.25`; no further paid run is required.
+
+Final complete run:
+
+```text
+ap-n57PHWIhpfTIODFu1x2CMu
+```
+
+Development and falsification runs, all non-load-bearing, were
+`ap-7zDRVMlTTBSwe7TnVNO34t`, `ap-4E8RkbLTDjcmSeJq2sTI7y`,
+`ap-w0BCehAMjrwWVEI80ATZvz`, `ap-PvmZeSqQGezJw3diejEqnD`,
+`ap-4ayZeHGOYlEsxweNyZdUt1`, `ap-dNiFo0EV95jJZQiykdbR3F`, and
+`ap-F0lwASenN9DKXigGtaPBnf`. A client-side 60-second RAMguard cutoff cancelled
+the incomplete initialization run `ap-8QVwOZpPwsI7uSbc4bqYoc`; it supplied no
+evidence.
+
+The canonical packet and replay sources are:
+
+```text
+background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/
+  e38_mod16_quotient_census.cpp
+  e38_mod16_quotient_census_result.json
+  e38_mod16_quotient_census_check.py
+background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/
+  verify_census_remote.py
+```
+
+The complete maxima are `2782,2760,2580,2422,840,840`. Together with the
+proved `4Z` subfield exclusion they imply `M_3<=2796<2806`, close `V=76`, and
+advance the residual to positive even `V<=74`. `FAIL` would have been an
+allocation above 2806 and a return to support-specific chord geometry;
+`INCOMPLETE` would have changed no status. Neither occurred.
+
+### CR-E1-E37-Q16: variance-74 quotient-Schur extension
+
+**Status:** COMPLETE by exact certificate; do not extend or rerun unless
+auditing the pinned result.
+
+At `E=37`, the exact recurrence gives `L<=21`; 29 integer magnitude profiles
+remain. The cubic-Hermite threshold is `M_3<=2592`, and only `(5,8)`,
+`(8,5,1)`, and `(1,9)` have larger abstract caps. Extend the pinned E38 C++
+census with two-layer profiles `(5,8)` and `(1,9)` and an outer-only 28-point
+profile for the singleton-top-layer reduction. Run both the odd-support
+`Z/128 Z` and divided-odd `Z/64 Z` chambers.
+
+Use at most 48 one-CPU, 256-MiB shards, a 180-second hard per-shard timeout,
+under five minutes total wall time, and a conservative total ceiling of
+`$0.25`. The launcher must write exact per-shard counts and maxima even if a
+subset fails; `INCOMPLETE` changes no status. The independent checker must
+recount allocations by dynamic programming and evaluate every displayed
+maximum before any theorem promotion.
+
+`PASS` means both two-layer profiles are at most 2592 and the singleton
+profile satisfies `R(A,A,A)<=720`, yielding a direct `V=74` closure. `FAIL`
+means a complete quotient maximum exceeds one of those thresholds and
+returns the corresponding profile to a support-specific layer coupling.
+Record every app ID and measured campaign result here after launch. Do not
+scale beyond these six finite optimization cells.
+
+The complete campaign used three bounded development passes, all within the
+declared aggregate ceilings:
+
+```text
+ap-kaS1w5aXwJKRvb8VGJvL7q   initial six-cell census
+ap-kksQDQpMDHUnJDCTccPONM   B not subset 4Z chamber split
+ap-CQM1N1zJGw5E0FXC4k6qim   final allocation-wise 174 refinement
+```
+
+The final 48-shard pass completed in under 20 seconds. It checked 19,732,753
+allocations and returned full caps `2626,2576,2372,2168,678,678`. The only
+raw cap above 2592 is the `(5,8)` order-128 chamber. Its
+`B not subset 4Z` maximum is 2576; for `B subset 4Z`, independently checking
+all `binom(15,8)=6435` inner layers gives `R(B,B,B)<=174`, and the refined
+allocation-wise maximum is 2560. The resulting global live-row cap is 2576,
+so `V=74` is excluded and the residual advances to positive even `V<=72`.
+
+The source, result packet, checker, and registered remote launcher are
+`e37_mod16_quotient_census.cpp`,
+`e37_mod16_quotient_census_result.json`,
+`e37_mod16_quotient_census_check.py`, and
+`e1_n256_s16_e37_quotient_schur_exclusion/verify_census_remote.py`.
+
+### CR-E1-E36-Q16: variance-72 quotient-Schur route decision
+
+**Status:** COMPLETE by exact certificate; do not extend or rerun unless
+auditing the pinned result.
+
+At `E=36`, the exact recurrence gives `L<=20`, and 26 magnitude profiles
+remain. The cubic threshold is `M_3<=2377`; only `(4,8)`, `(0,9)`, and
+`(7,5,1)` exceed it abstractly. Run exact odd-support and divided-odd mod-16
+cells for two-layer profiles `(4,8)` and `(0,9)`, and an outer-only 26-point
+cell for `(7,5,1)`. Preserve the E37 chamber outputs: report the complete
+`B not subset 4Z` maximum and maximize the allocation-wise replacement
+`R(B,B,B)<=174` whenever `B subset 4Z`.
+
+Use at most 48 one-CPU, 256-MiB shards, 180 seconds per shard, under five
+minutes total wall time, and a conservative total ceiling of `$0.25`.
+Write useful partial results and explicit errors on `INCOMPLETE`; no status
+changes without all six cells. The independent checker must reconstruct
+coverage counts and every displayed maximum.
+
+`PASS` requires both two-layer profiles at most 2377 after valid chamber
+refinement and `R(A,A,A)<=589` for the 26-point outer layer. `FAIL` returns
+the exact failing allocation and component to support-specific coupling.
+Do not launch a finer quotient or another solver from this authorization.
+
+Initial complete run `ap-clS4xL2P7ek5EPTxyA54S0` checked 8,144,380
+allocations in under 16 seconds. Five components close, but `(4,8)` has cap
+2398 in both the order-128 and divided order-64 routes, 21 above threshold.
+Both maximizers put the complete 16-point inner layer in `2 Z/128 Z`.
+Accordingly the declared `FAIL` branch is active; no finer outer quotient is
+authorized here.
+
+Final refined run `ap-UO3twT5yf4p6bQ4Dy8sktP` incorporates the exact inner
+theorem from CR-E1-E36-B64 allocation by allocation. For `(4,8)`, the
+order-128 outside-inner-`2Z` chamber is 2208, its inner-`2Z` chamber is 2344,
+and the divided order-64 chamber is 2332. The `(0,9)` cells are at most 2000,
+and the outer-only cells for `(7,5,1)` are 556 and 540. Thus the global live
+cap is 2344, below the exact cubic threshold 2377.
+
+The source, result packet, checker, and registered remote launcher are
+`e36_mod16_quotient_census.cpp`,
+`e36_mod16_quotient_census_result.json`,
+`e36_mod16_quotient_census_check.py`, and
+`e1_n256_s16_e36_quotient_schur_exclusion/verify_census_remote.py`.
+
+### CR-E1-E36-B64: exact inner-layer Schur maximum in Z/64 Z
+
+**Status:** COMPLETE by exact certificate.
+
+Enumerate every symmetric 16-point subset `B` of `Z/64 Z` avoiding 0 and 32.
+Such a set chooses eight of the 31 negation pairs, so the exact universe is
+`binom(31,8)=7,888,725`. Compute
+
+```text
+R(B,B,B)=#{(x,y,z) in B^3: x+y+z=0 mod 64}.
+```
+
+Use at most 16 one-CPU, 256-MiB shards, a 120-second hard per-shard timeout,
+under three minutes total wall time, and a conservative ceiling of `$0.15`.
+The packet must include exact lexicographic shard ranges, processed counts,
+maxima, and maximizing representatives. An independent Python checker must
+recount coverage and directly replay every displayed maximum. `INCOMPLETE`
+changes no status.
+
+`PASS` is maximum at most 219, which closes the remaining 21-point cubic gap
+after replacing the quotient `R(B,B,B)` cap 240. `FAIL` is a maximum at least
+220 and returns the exact inner layer for a coupled outer/inner attack. No
+larger group or support size is authorized.
+
+Run `ap-Rz22K5DtG8oBeelSyV39Zd` completed all 7,888,725 sets in under
+13 seconds and found exact maximum 174. The source, compact result packet,
+and independent checker are `e36_bbb64_census.cpp`,
+`e36_bbb64_census_result.json`, and `e36_bbb64_census_check.py`. This result
+is consumed only in the declared inner-`2Z` chambers. Its registered remote
+launcher is
+`e1_n256_s16_e36_quotient_schur_exclusion/verify_bbb64_remote.py`.
+
+### CR-E1-E35-Q16: variance-70 quotient-Schur route decision
+
+**Status:** COMPLETE by exact certificate. The outer-only sufficient criterion
+returned `FAIL` by two counts and was repaired by exact nested coupling.
+
+At `E=35`, the exact recurrence gives `L<=19`; 21 magnitude profiles remain,
+and the exact cubic threshold is `M_3<=2162`. Only `(3,8)` and `(6,5,1)`
+exceed it abstractly. Run the odd-support and divided-odd mod-16 cells for the
+two-layer profile `(3,8)`, and the outer-only 24-point cells needed by
+`(6,5,1)`. Reuse the already proved complete `Z/64 Z` theorem
+`R(B,B,B)<=174` allocation by allocation; no new inner census is authorized.
+
+Use at most 32 one-CPU, 256-MiB shards, 180 seconds per shard, under five
+minutes total wall time, and a conservative aggregate ceiling of `$0.25`.
+The launcher must retain useful partial results and explicit errors on
+`INCOMPLETE`. The independent checker must reconstruct every allocation
+count, objective, chamber maximum, and source hash.
+
+`PASS` requires every valid `(3,8)` chamber at most 2162 and the 24-point
+outer Schur term at most 458. Together with `54^32<2^250`, PASS closes
+`V=70`. `FAIL` emits the exact obstructing allocation and component for a
+support-specific theorem. `INCOMPLETE` changes no status. Do not launch a
+finer quotient or another solver from this authorization.
+
+Source, launcher, and checker:
+`e35_mod16_quotient_census.cpp`,
+`verify_e35_mod16_quotient_census_remote.py`, and
+`e35_mod16_quotient_census_check.py`.
+
+Setup-only runs `ap-0FGvj92aNnIyFpLCOoTJKC` and
+`ap-9dJHjobg5LNfcSK5vU3HWf` failed before producing any census result because
+of launcher path hydration. Final run `ap-Gwlrl9cLfJsa2bS83BFw4k` completed
+all 2,946,287 allocations in under ten seconds. For `(3,8)`, the odd inner-2Z
+refinement is 2152, the odd outside-inner-2Z chamber is 2010, and the divided
+refinement is 2100. The `(6,5,1)` outer-only caps are 460 and 454. Thus the
+pre-registered outer target 458 fails only in the odd chamber.
+
+A deterministic exact follow-up enumerated all 104,750 odd outer allocations
+and all 32,346 divided allocations. Exactly four odd allocations exceed 458,
+all at 460. Exhausting all 276 compatible middle/top nestings gives complete
+three-layer maximum 2054. Hence low odd cases are at most 2162, divided cases
+at most 2158, and exceptional odd cases at most 2054. The exact cubic threshold
+2162 is met, so `V=70` is excluded. The follow-up checker is
+`e35_high_outer_coupling_check.py`; no second remote campaign was required.
+
+### CR-E1-E34-NESTED-Q16-PILOT: variance-68 nested quotient route decision
+
+**Status:** COMPLETE ROUTE CUT. The pilot found exact relaxation obstructions;
+the full campaign is retired and must not be launched.
+
+At `E=34`, the exact recurrence gives `L<=20`, and the cubic-Hermite
+certificate closes the slice if `M_3<=1947`. Exactly six magnitude profiles
+exceed that threshold under the abstract layer bound:
+
+```text
+(6,7), (9,4,1), (2,8), (12,1,2), (5,5,1), (14,1,0,1).
+```
+
+The exact nested-layer quotient compiler allocates every exact magnitude
+layer over the nine modulo-16 negation-orbit categories, evaluates all
+ordered layer triples by the minimum of the three target-fiber bounds, and
+keeps the odd order-128 and divided-odd order-64 chambers separate. The
+outer-`4Z` chamber is already theorem-excluded. The independent checker
+recomputes witnesses and can recount all twelve complete state spaces by a
+separate dynamic program.
+
+Run one deterministic shard out of 128 in each of the twelve cells. Resources
+are one CPU and 256 MiB per task, at most twelve concurrent containers, a
+120-second hard function cap, and a 110-second subprocess cap. This is one
+wave with a conservative campaign wall ceiling below three minutes and a
+configured CPU ceiling of 1,440 CPU-seconds; its conservative dollar ceiling
+is `$0.10`. The launcher checkpoints the compact packet after every returned
+task.
+
+`FAIL` is any exact quotient allocation with objective at least 1948; it
+kills the unrefined nested mod-16 route but does not refute the mathematical
+`V=68` exclusion. `SURVIVES` means every sampled objective is at most 1947;
+it authorizes only a timing/cost decision for a possible complete campaign.
+`INCOMPLETE` is evidence only. A complete theorem campaign would require all
+sixteen shards in every cell, exact aggregate coverage 228,097,120, a passing
+local checker, and a fresh pre-launch confirmation that two task waves fit
+both active resource laws.
+
+Sources:
+`e34_nested_quotient_census.cpp`,
+`e34_nested_quotient_census_modal.py`, and
+`e34_nested_quotient_census_check.py` in the E1 sparse-L1 notes directory.
+
+Modal app `ap-Ec22WlisgFjRNPFuigxlEy` returned all twelve pilot tasks in
+18.91 seconds of client-observed app wall time. Five cells already exceed the
+required cap: `(6,7)` at both orders with maxima 2132 and 2154, `(9,4,1)` at
+both orders with 1990 and 2016, and `(12,1,2)` at order 128 with 1990. The
+local checker independently reconstructs the exact allocation witnesses and
+all twelve objectives. This is the registered `FAIL` outcome: it kills the
+bare nested mod-16 upper-bound route without refuting `V=68`.
+
+The launcher omitted per-worker durations, so this run cannot authorize a
+scaled timing claim. That omission has no mathematical effect because no
+sampled coverage is load-bearing and the compact obstruction witnesses replay
+locally. Do not rerun for timing and do not launch the 228,097,120-state full
+campaign. The next theorem must add chord-origin realizability, support-level
+coupling, or a stronger analytic norm certificate.
+
+#### CR-E1-E34-Q16-SURVIVORS: close the three unobstructed profiles
+
+**Status:** COMPLETE WITH PARTIAL PASS. Two profiles close; `(2,8)` returns an
+exact quotient obstruction.
+
+The pilot obstructions occur only in `(6,7)`, `(9,4,1)`, and `(12,1,2)`.
+Exhaust the remaining profiles `(2,8)`, `(5,5,1)`, and `(14,1,0,1)` in both
+the odd order-128 and divided-odd order-64 chambers. Their exact aggregate
+coverage is 42,413,558 allocations. Use sixteen shards per cell: 96 tasks,
+one CPU and 256 MiB each, at most 100 concurrent containers, a 120-second
+function cap, and a 110-second subprocess cap. This is one task wave with a
+conservative wall ceiling below three minutes and dollar ceiling below
+`$0.25`. The corrected launcher records per-worker duration and checkpoints
+after each return.
+
+`PASS` requires all six maxima at most 1947 and closes these three abstract
+`V=68` profiles by the cubic-Hermite certificate and the existing outer-`4Z`
+norm exclusion. `FAIL` emits the exact profile/order allocation above 1947
+for support-specific coupling. `INCOMPLETE` changes no status. The independent
+checker must reproduce every maximum and the exact 42,413,558 allocation
+coverage before any theorem node is promoted. Do not include the three known
+obstructed profiles in this run.
+
+Modal app `ap-zx5C3lSHLdaYAZE2Ic0tZA` completed all 96 tasks and all
+42,413,558 allocations in 29.84 seconds of client-observed wall time. Worker
+durations range from 0.052 to 16.259 seconds and total 334.664 CPU-seconds.
+The independent checker gives exact maxima
+
+```text
+(2,8):          2052 / 2008
+(5,5,1):        1880 / 1828
+(14,1,0,1):     1922 / 1922
+```
+
+where each pair is order 128 / order 64. Hence `(5,5,1)` and `(14,1,0,1)`
+pass the 1947 threshold and are proof-closed. The `(2,8)` profile returns the
+declared `FAIL` with exact allocations in the packet. Its largest order-128
+quotient components are `(300,264,240,240)`, totaling 2052; replacing the
+inner cubic by the proved cap 174 still leaves 1986. The order-64 obstruction
+falls to 1942 under that replacement. Continue only with a chamber-exhaustive
+inner-layer refinement for `(2,8)`; do not rerun the two closed profiles.
+
+The launcher's terminal progress dictionary originally retained the last
+returned shard rather than the maximum shard. The compact result packet was
+unaffected, the independent checker found the correct maxima above, and the
+summary source is repaired. No theorem relies on the incorrect terminal
+print.
+
+#### CR-E1-E34-P2-COUPLED: profile-(2,8) chamber close
+
+**Status:** COMPLETE PASS. Profile `(2,8)` is closed.
+
+Run two exhaustive pieces in one 64-container wave. The refined quotient
+piece covers all 531,517 order-128 and 277,957 order-64 allocations, applying
+the proved `R(B,B,B)<=174` cap in the order-64 and even-inner chambers and
+reporting the order-128 inner-`4Z` split. The exact support piece covers all
+`binom(15,8)*1232=7,927,920` weighted supports in the remaining
+`B subset 4Z` chamber. Its outer supplement has two positive representatives,
+at least one odd, and is disjoint from the eight inner representatives.
+
+Use 16 shards at each quotient order and 32 support shards, one CPU and
+256 MiB per task, at most 64 concurrent containers, 120 seconds per function,
+and 110 seconds per subprocess. The conservative campaign wall ceiling is
+below three minutes and the cost ceiling is below `$0.20`. The launcher
+checkpoints every result and records worker durations. The independent checker
+recounts both quotient universes, all 7,927,920 supports, every quotient
+candidate, both source hashes, and every exact support maximum.
+
+`PASS` requires the order-64 global refined cap, order-128 outside-inner-`4Z`
+cap, and exact inner-`4Z` support cap all to be at most 1947. It closes the
+profile `(2,8)` at `V=68`. `FAIL` returns an exact quotient allocation or
+weighted support in the surviving chamber. `INCOMPLETE` changes no status.
+Do not broaden the campaign to any other profile.
+
+Modal app `ap-8xzV3fZniv8jms4V2EI19N` completed all 64 tasks in 22.02
+seconds of client-observed wall time. Worker durations range from 0.031 to
+0.673 seconds and total 17.624 seconds. The independent checker reconstructed
+all 809,474 quotient allocations and 7,927,920 exact supports, obtaining
+
+```text
+order-64 refined quotient maximum          1942,
+order-128 outside-inner-4Z maximum         1942,
+order-128 inner-4Z exact support maximum   1536.
+```
+
+This is the declared `PASS`: profile `(2,8)` is excluded at `V=68`. The
+result is consumed by `e1_n256_s16_e34_three_profile_reduction`. No rerun or
+extension is authorized.
+
+#### CR-E1-E34-QUARTER: normalized quarter-template close
+
+**Status:** COMPLETE PASS. The quarter heavy-position template is closed; no
+rerun or extension is authorized.
+
+The heavy-template theorem normalizes the branch to `H={0,32,64}`, opposite
+outer heavy signs, no light at `96`, 124 possible light positions, two middle
+heavy signs, and sixteen light-sign patterns. The exact universe is
+`binom(124,4)*32=300,200,032` vectors.
+
+The primary implementation groups unordered signed chords. The independent
+audit forms `F(X)F(X^-1)` directly in `Z[X]/(X^128+1)`. Each uses 121 shards,
+one CPU and 256 MiB per task, 60-second function caps, at most 100 containers,
+and partial packet writes. `PASS` requires exact shard coverage, shardwise
+agreement on all counts and maxima, and `M_3<=1947` on every full-conductor
+profile-`(6,7)` vector.
+
+Modal apps `ap-kLTKBwJM3lNWUZA3hul5w7` and
+`ap-XXTZkD7kcupvXULmbp2GKZ` completed in under 30 client-observed seconds
+each, using 45.781851 and 52.691880 aggregate worker-seconds. They agree on
+
+```text
+E=34 vectors                       1,514,544,
+profile-(6,7) vectors              1,181,056,
+full-conductor profile vectors     1,031,680,
+maximum full-conductor M_3              1188.
+```
+
+The combined conservative cost ceiling was `$0.15`; actual worker usage was
+98.473731 CPU-seconds. The exact maximum is 759 below the cubic threshold, so
+`e1_n256_s16_e34_quarter_template_exclusion` closes the branch.
+
+#### CR-E1-E34-NONQUARTER-DIAMETER: exact weld-chamber decision
+
+**Status:** COMPLETE PASS. The nonquarter-diameter template is closed; no
+rerun or extension is authorized.
+
+The proved weld reduction gives 31 normalized heavy triples
+`H={0,64,t}`, `1<=t<=31`, and exactly 915,125 admissible light supports per
+triple. With four residual heavy-sign choices and sixteen light-sign choices,
+the complete chamber has 1,815,608,000 signed vectors.
+
+The primary implementation groups 21 unordered signed chords. The independent
+audit forms `F(X)F(X^-1)` directly in `Z[X]/(X^128+1)` and reconstructs weld
+eligibility from circular distances. Each uses 31 one-CPU, 256 MiB tasks with
+60-second function caps, at most 31 containers, and a partial packet write
+after every return. Abort the campaign after five client-observed minutes or
+any task timeout. The conservative combined cost ceiling is `$0.90`; do not
+rerun or extend without a new route decision.
+
+`PASS` requires exact coverage, 915,125 supports per `t`, shardwise agreement
+of every count and maximum, and replay of retained witnesses. If the maximum
+full-conductor profile-`(6,7)` moment is at most 1947, the inherited exact
+cubic certificate closes the branch. Otherwise the packet must retain exact
+extremizers and the branch remains open at the first failing `t`/sign class.
+
+Modal apps `ap-EfGZditRQm7eDLLLWpNiSA` and
+`ap-MQpKibQl8PBqzuhB5DKf2m` completed all 31 tasks without retries, using
+271.301709 and 339.920267 aggregate worker-seconds. The two implementations
+agree shardwise on
+
+```text
+light supports                       28,368,875,
+normalized signed vectors         1,815,608,000,
+E=34 vectors                           1,518,816,
+profile-(6,7) vectors                  1,044,528,
+full-conductor profile vectors          899,456,
+maximum full-conductor M_3                  1560.
+```
+
+The combined 611.221976 worker-seconds remain below the declared conservative
+`$0.90` ceiling. Since `1560<1947`, the inherited cubic certificate closes
+the complete nonquarter-diameter branch.
+
+#### CR-E1-E34-PROGRESSION: five-orbit exact chamber decision
+
+**Status:** COMPLETE PASS. The progression template is closed; no rerun or
+extension is authorized.
+
+The proved progression reduction leaves 62 heavy-step forms, opposite outer
+heavy signs, and 1,195,965 welded supports per form. Odd cyclotomic
+automorphisms preserve every load-bearing invariant and reduce the complete
+decision to representatives `t=1,2,4,8,16`, containing 191,354,400 signed
+vectors in total.
+
+The primary implementation groups unordered signed chords. The independent
+audit forms the ordered negacyclic product and reconstructs the singleton weld
+from circular distances. Each uses five one-CPU, 256 MiB tasks with 60-second
+caps, at most five containers, and partial packet writes. Abort on any timeout
+or incomplete shard. The combined conservative cost ceiling is `$0.20`; no
+rerun or extension is authorized without a new route decision.
+
+`PASS` requires exact five-shard coverage, 1,195,965 supports per
+representative, shardwise agreement of all fields, replay of retained
+witnesses, and exact weighting by orbit multiplicities `32,16,8,4,2`. A
+maximum `M_3<=1947` closes all 62 progression forms by unit transport;
+otherwise retain the first exact failing representative and keep the branch
+open.
+
+Modal apps `ap-i5ZUL3DXjsMVeoSd2KwzT4` and
+`ap-x6NGO4WBkgu0GbaGBpeQim` completed all five tasks without retries, using
+29.943997 and 50.977832 aggregate worker-seconds. They agree shardwise. The
+five representatives contain
+
+```text
+supports              5,979,825,
+signed vectors       191,354,400,
+E=34 vectors             603,832,
+profile-(6,7) vectors    404,212,
+full-conductor vectors   329,776.
+```
+
+Exact orbit weighting gives 3,131,008 full-conductor profile vectors over all
+62 forms. The maximum is `M_3=1722`, attained in the odd-step orbit. The
+combined 80.921829 worker-seconds remain below the `$0.20` ceiling. Since
+`1722<1947`, unit transport and the inherited cubic certificate close the
+complete progression branch.
+
+#### CR-E1-E34-GENERIC-ORBITS: affine three-weld route classifier
+
+**Status:** COMPLETE PASS. The route classifier is banked; no rerun is
+authorized.
+
+Before any generic-vector census, classify all 325,376 generic heavy triples
+under translations and odd cyclotomic units. The primary implementation maps
+every triple to a canonical form. The independent audit generates full affine
+orbits and removes them from the exact triple set. For each representative,
+both compute the three heavy-light weld sets, all intersections, and the exact
+four-light support count by inclusion-exclusion.
+
+Run two one-CPU, 256 MiB tasks with 60-second caps and at most two containers.
+Abort on any timeout or disagreement. The conservative cost ceiling is
+`$0.05`. This campaign is route classification only: it may promote a proved
+normal-form reduction, but it cannot exclude the generic template without a
+separate signed profile/moment certificate.
+
+Modal app `ap-RX2pnnmJRiFhsRSBEJS6To` completed both implementations in
+1.110289 aggregate worker-seconds. They agree exactly: the 325,376 generic
+heavy triples form 57 affine odd-unit orbits. The three-weld ledgers have
+exactly three shapes:
+
+```text
+rows  weld sizes  pair intersections  triple  union  supports
+ 52    4,4,4           1,1,1             0      9     66,405
+  4    3,4,4           2,1,1             0      7     72,486
+  1    3,4,3           2,1,2             0      5     58,325.
+```
+
+After four heavy-sign and sixteen light-sign choices, the exact representative
+chamber has 243,285,056 signed vectors. The campaign cost is below `$0.05`.
+This closes route classification only; profile and moment remain unpaid.
+
+#### CR-E1-E34-GENERIC-CENSUS: final affine-orbit chamber decision
+
+**Status:** COMPLETE PASS. The generic template and E34 endpoint are closed;
+no rerun or extension is authorized.
+
+The proved generic affine-weld reduction leaves exactly 57 representatives,
+58,325 to 72,486 supports per representative, and 243,285,056 normalized
+signed vectors. The primary implementation groups unordered signed chords.
+The independent audit uses ordered negacyclic multiplication and independently
+reconstructs weld membership from circular distances.
+
+Run 57 tasks per implementation with one CPU, 256 MiB, 60-second caps, and at
+most 45 containers per app so concurrent usage cannot exceed 90 containers.
+Write a partial packet after every return and abort on any timeout or mismatch.
+The combined conservative cost ceiling is `$0.20`; no rerun or extension is
+authorized without a new route decision.
+
+`PASS` requires exact agreement with the orbit packet's support count, all 57
+shards, shardwise count/max agreement, and retained-witness replay. A maximum
+`M_3<=1947` closes the generic branch and therefore the full `E=34` endpoint;
+otherwise retain the first failing orbit and keep E34 open.
+
+Modal apps `ap-XpmKEOhClEfy8STvFbMH9y` and
+`ap-GUW2NuOkVnhQDU4jUvepbZ` completed all 57 tasks without retries, using
+34.471246 and 50.538048 aggregate worker-seconds. They agree shardwise on
+
+```text
+light supports                         3,801,329,
+normalized signed vectors            243,285,056,
+E=34 vectors                              793,742,
+profile-(6,7) vectors                     505,466,
+full-conductor profile vectors            418,464,
+maximum full-conductor M_3                    1770.
+```
+
+The maximum occurs in orbit 14, represented by `H={0,1,19}`. The combined
+85.009294 worker-seconds remain below the `$0.20` ceiling. Since `1770<1947`,
+the inherited cubic certificate closes the generic template. Together with
+the quarter, nonquarter-diameter, and progression exclusions, this closes the
+complete `E=34`, `V=68` endpoint.

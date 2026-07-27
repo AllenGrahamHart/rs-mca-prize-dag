@@ -42,6 +42,14 @@ unweighted-SP route. Do not substitute the full shifted energy: its known
 witnesses all induce the same affine quotient shift, so a multi-shift
 intersection theorem does not gain a power on `R(t)`.
 
+On a multiplicative-subgroup row contained in a quadratic norm-one torus, use
+the proved torus cap before any smooth-trace estimate: `R(t)<=1` for every
+nonidentity quotient-supported target. This closes C36' on that scoped row,
+including the order-`2^21` subgroup of `F_((2^31-1)^4)^*`. It does not apply
+to the deployed Mersenne-31 Chebyshev line round, and it does not transport
+to the prime-field corridor, where `H` is not a norm-one subgroup of the
+quadratic extension.
+
 Before any fixed-order campaign, try the exact paired-PGL2 rectangle theorem
 
 ```text

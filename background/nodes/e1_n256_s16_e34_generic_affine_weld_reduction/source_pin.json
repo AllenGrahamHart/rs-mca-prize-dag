@@ -1,0 +1,16 @@
+{
+  "audit_source_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_orbit_audit.cpp",
+  "audit_source_file_sha256": "50c786795d7ba9a96342afa982b3c2b139f26c3d13b9571f89ca74d0b6cb4e66",
+  "checker_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_orbit_check.py",
+  "checker_file_sha256": "4bc3126a0ec41f77ca300a488bbc2018f8ad3f54fe2c0e4c6ca4d00e01b93f0e",
+  "heavy_template_file": "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/statement.md",
+  "heavy_template_file_sha256": "54c41d0881dffbeb2665a80d9e05c502cfd7c558b56dc368d26dfd7b11c0a163",
+  "launcher_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_orbit_modal.py",
+  "launcher_file_sha256": "513c791993dcad6b62f8d0d7cb343d03b946fa3708796e70c12cb18b7477a78f",
+  "parity_profile_file": "background/nodes/e1_n256_s16_e34_parity_profile_reduction/statement.md",
+  "parity_profile_file_sha256": "90a546f51956446dbc188ed467c700a51ab505a081e9e5731877076412ce19fe",
+  "primary_source_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_orbit_classifier.cpp",
+  "primary_source_file_sha256": "abe79e10d5a3fb62d6454aaac95949567b5f072aad83223be233b1913fed4a92",
+  "result_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_orbit_result.json",
+  "result_file_sha256": "c65ecd50d3b5c91d1da9c5bd6de30197bb90c2b01a14edd553c4ff3a068e011e"
+}

@@ -1,0 +1,6 @@
+{
+  "heavy_template_file": "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/statement.md",
+  "heavy_template_file_sha256": "54c41d0881dffbeb2665a80d9e05c502cfd7c558b56dc368d26dfd7b11c0a163",
+  "parity_profile_file": "background/nodes/e1_n256_s16_e34_parity_profile_reduction/statement.md",
+  "parity_profile_file_sha256": "90a546f51956446dbc188ed467c700a51ab505a081e9e5731877076412ce19fe"
+}

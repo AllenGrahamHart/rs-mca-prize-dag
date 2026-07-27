@@ -1,6 +1,6 @@
 # Critical harness coverage census
 
-Status: **AUDIT AND N11 TRUTH REMEDIATION COMPLETE.** This is a packaging
+Status: **AUDIT, N11, AND E1 N12 TRUTH REMEDIATION COMPLETE.** This is a packaging
 audit, not a proof and not a node-status change. Reproduce it with:
 
 ```bash
@@ -9,13 +9,13 @@ tools/ramguard tiny -- python3 tools/verify_critical_harness_coverage.py
 
 ## Scope and interpretation
 
-The census covers the 261-node critical orbit after commit `85d3e860`. Of its
-210 `PROVED` nodes:
+The current census covers the 242-node mathematical critical orbit. Of its
+180 `PROVED` nodes:
 
 | coverage class | count | meaning |
 |---|---:|---|
-| local verifier | 49 | at least one manifest-discoverable `verify*.py` under the node |
-| folder, markdown only | 156 | a critical node folder exists, but no discoverable local checker |
+| local verifier | 44 | at least one manifest-discoverable `verify*.py` under the node |
+| folder, markdown only | 131 | a critical node folder exists, but no discoverable local checker |
 | legacy reference only | 5 | no node folder; the DAG cites an older proof source |
 | no artifact | 0 | neither a node folder nor a DAG reference |
 
@@ -56,8 +56,27 @@ through the requirement graph.
 | `integer_code_distance_cert` | only a toy result was banked; no consumed exhibit-row matrix or full certificate existed | restored to `TARGET`; `lattice_cone_certificate` and `certifier_uniformity` regress to `CONDITIONAL` |
 | `u2_per_row_certifier` | no claimed two-prime output or independent certificate checker was banked | restored to `TARGET`; its existing conditional descendants remain amber |
 
-The corrected critical surface is `201 PROVED / 36 CONDITIONAL / 23` open
-mathematical leaves. The previous `210 / 31 / 20` count is retired. The green
+The N12 follow-up found two further certificate-specific contradictions that
+the original filename census did not detect:
+
+| node | conflict | N12 ruling |
+|---|---|---|
+| `e1_folded_no_vector_certificate_128_payload` | rounded fpylll summary, no exact result or completeness certificate | restored to `TARGET`; numerical survival evidence retained in `notes/` |
+| `e1_folded_no_vector_certificate_256_payload` | almost-all-primes density statement occupied a named-field zero-certificate req slot | restored to `TARGET`; density estimate retained only as partial evidence |
+
+The N11-corrected surface was `201/36/23`. The E1 N12 audit subsequently
+restored `e1_folded_no_vector_certificate_128_payload` and
+`e1_folded_no_vector_certificate_256_payload` to `TARGET`: one had only a
+rounded fpylll observation, while the other substituted an almost-all-primes
+density estimate for a named-field zero-vector certificate. Nine consumers
+regressed to `CONDITIONAL`. A subsequent quantifier audit found that even
+complete certificates for the two named exhibits could not prove a theorem
+over every row assigned to E1. A follow-up unsafe-side audit then found that
+the route-local E1 statement could not replace the missing universal row
+instantiation: "collided" did not imply the strict occupancy premise. The
+14-node exhibit branch is background evidence, E1 is route evidence, and
+`unsafe_crossing_family_instantiation` is the live universal target. The
+current surface is therefore `180 PROVED / 38 CONDITIONAL / 24 TARGET`. The green
 law in `critical/CRITICAL.md` requires a true claim with a proof artifact, and
 computation claims require a pinned result plus replayable verifier.
 
@@ -82,7 +101,8 @@ live elsewhere. The highest-value repairs are:
    center, although all `binom(56,28)` paddings of a fixed signed core collide.
    Its consumer `generator_economy` is honestly restored to `TARGET`.
 
-The auto-discharge regression lookup is now partition-aware and verified.
+The auto-discharge regression lookup is now partition-aware, fixpoint-based,
+and verified for reverse node order and failed `gate:any` alternatives.
 This removed stale generated proofs from `generator_economy` and the already-
 amber `worst_word_challenger_pricing` node; future premise demotions fail
 closed instead of searching the obsolete top-level `nodes/` path.

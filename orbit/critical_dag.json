@@ -1446,6 +1446,10 @@
    "to": "mca_unsafe"
   },
   {
+   "from": "unsafe_crossing_family_instantiation",
+   "to": "unsafe_at_crossing"
+  },
+  {
    "from": "averaged_slope_conversion",
    "to": "unsafe_at_crossing"
   },
@@ -2400,10 +2404,6 @@
   {
    "from": "dli_c1r3_gated_envelope_bound",
    "to": "dli_marginal_baseline100_coverage"
-  },
-  {
-   "from": "unsafe_crossing_family_instantiation",
-   "to": "unsafe_at_crossing"
   }
  ]
 }

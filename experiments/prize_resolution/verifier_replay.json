@@ -2,41 +2,185 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 22,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/verify.py",
-      "seconds": 0.025396,
+      "script": "background/nodes/e1_n256_s16_e34_endpoint_exclusion/verify.py",
+      "seconds": 0.033368,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_HNF_FROBENIUS_RECIPROCAL_GATE_PASS checks=23\n"
+      "stdout_tail": "E1_N256_S16_E34_ENDPOINT_EXCLUSION_PASS profiles=3 templates=4 residual_variance_max=66\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/l1_mersenne_hnf_frobenius_reciprocal_gate/verify_audit.py",
-      "seconds": 0.013997,
+      "script": "background/nodes/e1_n256_s16_e34_endpoint_exclusion/verify_audit.py",
+      "seconds": 0.012708,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_HNF_FROBENIUS_RECIPROCAL_GATE_AUDIT_PASS checks=6\n"
+      "stdout_tail": "E1_N256_S16_E34_ENDPOINT_EXCLUSION_AUDIT_PASS mutations=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/verify.py",
-      "seconds": 0.02552,
+      "script": "background/nodes/e1_n256_s16_e34_generic_affine_weld_reduction/verify.py",
+      "seconds": 0.082765,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ONE_FROBENIUS_GATE_PASS checks=22\n"
+      "stdout_tail": "E1_N256_S16_E34_GENERIC_AFFINE_WELD_REDUCTION_PASS orbits=57 triples=325376 census_vectors=243285056\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/l1_mersenne_hnf_order_one_frobenius_gate/verify_audit.py",
-      "seconds": 0.013457,
+      "script": "background/nodes/e1_n256_s16_e34_generic_affine_weld_reduction/verify_audit.py",
+      "seconds": 0.023566,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_MERSENNE_HNF_ORDER_ONE_FROBENIUS_GATE_AUDIT_PASS checks=9\n"
+      "stdout_tail": "E1_N256_S16_E34_GENERIC_AFFINE_WELD_REDUCTION_AUDIT_PASS orbits=57 shapes=3\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_generic_template_exclusion/verify.py",
+      "seconds": 0.077453,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_GENERIC_TEMPLATE_EXCLUSION_PASS vectors=243285056 full=418464 m3=1770 threshold=1947\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_generic_template_exclusion/verify_audit.py",
+      "seconds": 0.02019,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_GENERIC_TEMPLATE_EXCLUSION_AUDIT_PASS shards=57 mutations=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/verify.py",
+      "seconds": 0.340064,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_HEAVY_CHORD_TEMPLATE_REDUCTION_PASS triples=341376 cases={'diameter': 7936, 'generic': 325376, 'progression': 7936, 'quarter': 128}\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/verify_audit.py",
+      "seconds": 0.012774,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_HEAVY_CHORD_TEMPLATE_REDUCTION_AUDIT_PASS mutations=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_nonquarter_diameter_template_exclusion/verify.py",
+      "seconds": 0.07335,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_NONQUARTER_DIAMETER_TEMPLATE_EXCLUSION_PASS vectors=1815608000 full=899456 m3=1560 threshold=1947\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_nonquarter_diameter_template_exclusion/verify_audit.py",
+      "seconds": 0.020378,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_NONQUARTER_DIAMETER_TEMPLATE_EXCLUSION_AUDIT_PASS shards=31 mutations=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/verify.py",
+      "seconds": 0.207429,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_NONQUARTER_DIAMETER_WELD_REDUCTION_PASS triples=7936 forms=31 supports_per_form=915125 vectors=1815608000\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/verify_audit.py",
+      "seconds": 0.028346,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_NONQUARTER_DIAMETER_WELD_REDUCTION_AUDIT_PASS forms=31 mutations=2 vectors=1815608000\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_parity_profile_reduction/verify.py",
+      "seconds": 0.037628,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_PARITY_PROFILE_REDUCTION_PASS unit_chords=6 odd_counts=(6, 10, 14) diameter_ledgers=6\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_parity_profile_reduction/verify_audit.py",
+      "seconds": 0.014425,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_PARITY_PROFILE_REDUCTION_AUDIT_PASS mutations=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_progression_template_exclusion/verify.py",
+      "seconds": 0.070316,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_PROGRESSION_TEMPLATE_EXCLUSION_PASS representative_vectors=191354400 weighted_full=3131008 m3=1722 threshold=1947\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_progression_template_exclusion/verify_audit.py",
+      "seconds": 0.021441,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_PROGRESSION_TEMPLATE_EXCLUSION_AUDIT_PASS shards=5 orbits=62 mutations=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_progression_weld_reduction/verify.py",
+      "seconds": 0.57321,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_PROGRESSION_WELD_REDUCTION_PASS triples=7936 forms=62 orbits=5 supports_per_form=1195965 census_vectors=191354400 total_vectors=2372794560\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_progression_weld_reduction/verify_audit.py",
+      "seconds": 0.023851,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_PROGRESSION_WELD_REDUCTION_AUDIT_PASS forms=62 orbits=5 mutations=1 census_vectors=191354400\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/verify.py",
+      "seconds": 0.065761,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_QUARTER_TEMPLATE_EXCLUSION_PASS vectors=300200032 full=1031680 m3=1188 threshold=1947\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/verify_audit.py",
+      "seconds": 0.02388,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_QUARTER_TEMPLATE_EXCLUSION_AUDIT_PASS shards=121 mutations=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_three_profile_reduction/verify.py",
+      "seconds": 0.646651,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_THREE_PROFILE_REDUCTION_PASS profiles=24 quotient=42413558 refined=809474 supports=7927920 m3_cap=1942 residual=3\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_three_profile_reduction/verify_audit.py",
+      "seconds": 0.028826,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_THREE_PROFILE_REDUCTION_AUDIT_PASS mutations=5\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

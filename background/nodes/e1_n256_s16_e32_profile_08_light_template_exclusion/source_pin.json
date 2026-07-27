@@ -1,0 +1,16 @@
+{
+  "audit_census_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile08_light_template_audit.cpp",
+  "audit_census_file_sha256": "7913b7b94f4d40750f49ad5b4407c08e1755c086986f4c807628889a0c0a48f0",
+  "audit_launcher_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile08_light_template_audit_modal.py",
+  "audit_launcher_file_sha256": "29a9fce58106450f6d6777f44a5383d1fd89e756e9abfb06d0a986d91c799527",
+  "audit_result_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile08_light_template_audit_result.json",
+  "audit_result_file_sha256": "a2d9e792c3342c46d8aa3c6ad551145de82ddb58b199b6af6e5e3036c1888705",
+  "census_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile08_light_template_census.cpp",
+  "census_file_sha256": "f088b99e9c7b2b68259752bfbe8a8de946ec147d0f7817d775769fbe35ff021d",
+  "launcher_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile08_light_template_census_modal.py",
+  "launcher_file_sha256": "64795a8d2d2ffbe4a92325423c9d9859d1e938f37bf9483a98f388b5b7212851",
+  "profile_reduction_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/statement.md",
+  "profile_reduction_file_sha256": "2c775ba148a35987157c2ce170dbc18b4a338f194cd990b304904e8726ed4edd",
+  "result_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile08_light_template_census_result.json",
+  "result_file_sha256": "5e77f01f4c2888f79d50a14c881d7caf5a262dad56c58e4befad1d022f6bf2dd"
+}

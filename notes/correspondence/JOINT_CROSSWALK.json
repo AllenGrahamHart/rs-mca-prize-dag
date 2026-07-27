@@ -2,10 +2,503 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "da8b9a85",
+  "our_sha": "8691e84e",
   "his_sha": "b13de811"
  },
  "rows": [
+  {
+   "our_node": "rs_tangent_flexible_budget_unsafe_floor",
+   "his_object": {
+    "label": "Tangent floor (prop:floor)",
+    "file": "tex/slackMCA_v4.tex",
+    "line": "prop:floor"
+   },
+   "relation": "IDENTICAL",
+   "chain": "independent in-node line construction plus exhaustive toy-RS and floor-boundary replay",
+   "scope": "general RS tangent lower bound at integer agreement, including the strict flexible-budget conversion",
+   "owner": "HIM",
+   "nonclaims": [
+    "failure of n-a>floor(q/2^t) is not safety",
+    "the theorem does not upper-bound the full bad set of its constructed line",
+    "no named high-budget clean anchor is paid by the guaranteed n-a slopes"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved",
+   "lean": null,
+   "provenance": {
+    "our_sha": "ca8630f6",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "tangent_clean_anchor_route_classification",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact six-clean-predecessor field-order cutoffs and named-envelope applicability audit for prop:floor",
+   "owner": "US",
+   "nonclaims": [
+    "not an unsafe payload at either named high-budget envelope",
+    "not an upper bound on any tangent-line bad set",
+    "not a safe-side or universal-row certificate"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "ca8630f6",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "averaged_occupancy_clean_anchor_first_moment_route_cut",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "complete-support FM1 upper-tail certificate eliminating the averaged M supplier at all six named high-budget clean envelopes",
+   "owner": "US",
+   "nonclaims": [
+    "not a safety bound or an upper bound on any explicit received line",
+    "not a route cut for lower-field rows where the complete-support mean can exceed budget",
+    "does not constrain quotient or direct-value Q/V suppliers"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "0893de24",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "averaged_xr",
+   "his_object": {
+    "label": "M1 average support-collinearity / restricted-family certificate",
+    "file": "experimental/notes/m1/m1_average_support_collinearity.md",
+    "line": "Slope-Resolved Second Moment; Restricted Support-Family Certificate"
+   },
+   "relation": "IDENTICAL",
+   "chain": "averaged_xr",
+   "scope": "exact fixed-slope pair moment for deterministic families of exact (k+t)-supports over the ambient finite field",
+   "owner": "HIM",
+   "nonclaims": [
+    "not the broader worst-case XR or generalized von Neumann theorem",
+    "does not assert independence between different slopes",
+    "does not supply paid-family ownership or an official-row occupancy payload"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved",
+   "lean": null,
+   "provenance": {
+    "our_sha": "7fafaa78",
+    "his_sha": "b13de811",
+    "his_introducing_sha": "674503f72134eaed4a20f1944f1423b23744ce2c"
+   }
+  },
+  {
+   "our_node": "identity_prefix_flexible_budget_unsafe_floor",
+   "his_object": {
+    "label": "identity-scale prefix floor + flexible-budget deep-point conversion",
+    "file": "tex/cs25_cap_v13_2.tex",
+    "line": "lem:capff1-identity-prefix-floor; cor:capg-budget-conversion; prop:capg-moved-frontier"
+   },
+   "relation": "IDENTICAL",
+   "chain": "independent in-node reconstruction plus manifest-backed exact contract replay",
+   "scope": "general identity-prefix MCA unsafe-floor theorem; the two deployed MCA rows are exact finite instances",
+   "owner": "HIM",
+   "nonclaims": [
+    "failure of either sufficient inequality is not a safety certificate",
+    "the two deployed instances do not discharge the universal every-row unsafe target",
+    "no safe upper bound or adjacent-safe certificate is imported"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved",
+   "lean": null,
+   "provenance": {
+    "our_sha": "224720bc",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "identity_prefix_clean_anchor_route_classification",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact downstream pair-budget router and six clean-anchor classification for the imported identity-prefix supplier",
+   "owner": "US",
+   "nonclaims": [
+    "not a new unsafe payload on five route-cut rows",
+    "the surviving RowC 1/16 branch still needs a proved domain-field pin",
+    "best bundled into a later unsafe-side or no-go PR rather than filed alone"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "e0856fc5",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "qfloor_clean_anchor_norm_threshold_route_cut",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact six-anchor applicability audit for upstream/local qfloor norm injectivity under the official field cap",
+   "owner": "US",
+   "nonclaims": [
+    "raw quotient multiplicity is not a distinct-value count",
+    "inapplicability of qfloor_exact is not a safety certificate",
+    "direct E1/value-set injectivity remains open"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "57256915",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_clean_anchor_exact_collision_allowance",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "six clean-anchor exact A_2 class counts, finite collision-pair allowances, quotient-order/folded-dimension correction, and exact image/pair-feasibility generated-field route cuts",
+   "owner": "US",
+   "nonclaims": [
+    "upstream thm:exactcount is a pinned source theorem, but upstream has no matching six-row finite allowance packet",
+    "no pointwise official-field collision bound is proved",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "eabd5679",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_pair_feasible_ambient_generation",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "six-anchor finite-field tower reduction proving pair-feasible quotient roots generate the ambient field",
+   "owner": "US",
+   "nonclaims": [
+    "no pointwise E1 collision bound is proved",
+    "proper generated-subfield rows are not safe or paid",
+    "the conclusion depends on the strict 2^256 field cap and the current thresholds"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "e169a43f",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_pair_feasible_prime_field_reduction",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "six-anchor exact perfect-power interval reduction proving that every pair-feasible ambient-generating E1 row is prime-field with p=1 mod N",
+   "owner": "US",
+   "nonclaims": [
+    "no pointwise E1 collision bound is proved",
+    "no prime in either budget interval is enumerated or certified",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "260395c5",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_prime_field_l2_norm_collision_radius",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "folded Parseval cyclotomic-norm bound excluding minimum raw swap distances through four at N=256 and distance one at N=512 throughout both named field intervals",
+   "owner": "US",
+   "nonclaims": [
+    "no surviving distance band is bounded",
+    "no total collision-pair allowance is proved",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "c2bf0fd9",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n256_s16_high_variance_collision_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact logarithmic-autocorrelation exclusion of V=0 and V>=136 in folded profile (3,4,0) at N=256,s=5",
+   "owner": "US",
+   "nonclaims": [
+    "positive even variance V<=134 in the same profile remains open",
+    "profile (4,2,0), later bands, and the total collision-pair allowance are not bounded",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "d2dc303b",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "eight optimized quadratic row certificates, four nested-layer third-moment/cubic-Hermite endpoint certificates, and nine mean-tangent logarithmic majorants, backed by exact low-slack charge decompositions and a finite relaxed minimum-energy recurrence, excluding every even variance from 78 through 134 in folded profile (3,4,0)",
+   "owner": "US",
+   "nonclaims": [
+    "positive even variance V<=76 in the same profile remains open",
+    "profile (4,2,0), later bands, and the total collision-pair allowance are not bounded",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "45171710",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n256_proper_conductor_collision_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact cyclotomic-subfield norm exclusion of every proper-conductor support in both folded N=256,s=5 E1 profiles",
+   "owner": "US",
+   "nonclaims": [
+    "full-conductor supports in both first-band profiles remain open",
+    "positive even variance V<=76 in profile (3,4,0) is not classified",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "7a8f103f",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n256_2adic_cofactor_collision_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact 2-adic cofactor necessary conditions for both folded N=256,s=5 E1 profiles",
+   "owner": "US",
+   "nonclaims": [
+    "passing the singleton-reduction multiplicity tests does not imply collision or noncollision",
+    "the full-conductor low-variance residual remains open",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "f7d50f3f",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n256_s16_signed_chord_collision_gate",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact C<=-22 signed repeated-chord structure forced by the folded profile-(3,4,0) residual V<=76",
+   "owner": "US",
+   "nonclaims": [
+    "the resulting three-term and parallelogram templates are not classified or excluded",
+    "profile (4,2,0), later bands, and the total collision-pair allowance remain open",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "45171710",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n256_s16_autocorrelation_subfield_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact small-field norm exclusion at N=256 variance 76 when every nonzero autocorrelation distance is divisible by four; removes the subgroup-concentrated weighted-third-moment extremizer",
+   "owner": "US",
+   "nonclaims": [
+    "nonperiodic autocorrelation supports at variance 76 remain open",
+    "the weighted Schur bound outside 4 Z/128 Z is not proved",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "5497a588",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n256_s16_e38_quotient_schur_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "complete mod-16 quotient-Schur census and subfield case split excluding variance 76 in folded profile (3,4,0) at N=256,s=5, with global live-row third-moment cap M_3<=2796",
+   "owner": "US",
+   "nonclaims": [
+    "positive even variance V<=74 in the same profile remains open",
+    "profile (4,2,0), later bands, and the total collision-pair allowance are not bounded",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "a6ee6cf2",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n256_s16_e37_quotient_schur_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "complete quotient-Schur and inner-layer census excluding variance 74 in folded profile (3,4,0) at N=256,s=5, with global live-row third-moment cap M_3<=2576",
+   "owner": "US",
+   "nonclaims": [
+    "positive even variance V<=72 in the same profile remains open",
+    "profile (4,2,0), later bands, and the total collision-pair allowance are not bounded",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "afed92eb",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "complete quotient-Schur and Z/64 Z inner-layer census excluding variance 72 in folded profile (3,4,0) at N=256,s=5, with global live-row third-moment cap M_3<=2344",
+   "owner": "US",
+   "nonclaims": [
+    "positive even variance V<=70 in the same profile remains open",
+    "profile (4,2,0), later bands, and the total collision-pair allowance are not bounded",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "593a872f",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "complete quotient-Schur and exceptional three-layer coupling census excluding variance 70 in folded profile (3,4,0) at N=256,s=5, with global live-row third-moment cap M_3<=2162",
+   "owner": "US",
+   "nonclaims": [
+    "positive even variance V<=68 in the same profile remains open",
+    "profile (4,2,0), later bands, and the total collision-pair allowance are not bounded",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "86b993b1",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n256_local_norm_cofactor_collapse",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "local-reciprocity collapse of both folded N=256,s=5 E1 norm cofactor windows",
+   "owner": "US",
+   "nonclaims": [
+    "the remaining odd norm parts are not proved composite or outside the row intervals",
+    "the five and 419 cofactor lists are necessary, not sufficient, collision conditions",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "89dc4e5c",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n512_four_singleton_collision_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact negacyclic-autocorrelation and cyclotomic-product exclusion of folded profile (0,4,0) in the first N=512,s=2 E1 collision band",
+   "owner": "US",
+   "nonclaims": [
+    "this theorem alone does not address profile (1,2,0) in the same band",
+    "no higher distance band or total collision-pair allowance is bounded",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "46c5c261",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n512_trinomial_interval_norm_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "dual-backend exact resultant and full-interval divisor certificate excluding folded profile (1,2,0) and closing the complete N=512,s=2 E1 collision band",
+   "owner": "US",
+   "nonclaims": [
+    "no N=512 collision band at s>=3 is bounded",
+    "no total collision-pair allowance is proved",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "dc74d931",
+    "his_sha": "b13de811"
+   }
+  },
   {
    "our_node": "f2_growing_order_myerson",
    "his_object": {
@@ -49,6 +542,29 @@
    "provenance": {
     "our_sha": "da8b9a85",
     "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "l1_m31_depth32_uniform_intercept_counterexample",
+   "his_object": {
+    "label": "M31 depth-32 shell counterexample / draft PR #1102",
+    "file": "experimental/notes/thresholds/m31_flatness_champion_refutation.md",
+    "line": "d_192(A)>=1237"
+   },
+   "relation": "IDENTICAL",
+   "chain": "independent local label, locator, and 1237-support reconstruction",
+   "scope": "pinned c=2048, (u,v)=(0,1) auxiliary M31 support profile only",
+   "owner": "HIM",
+   "nonclaims": [
+    "no replacement upper bound or band closure",
+    "no received-word, first-match, U_Q, row, or 2^-128 Prize claim"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "draft PR #1102",
+   "lean": null,
+   "provenance": {
+    "our_sha": "cb8f25d8",
+    "his_sha": "0dee24ec"
    }
   },
   {
@@ -115,6 +631,30 @@
    "provenance": {
     "our_sha": "da8b9a85",
     "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "xr_generic_mds_kernel_ray_bound",
+   "his_object": {
+    "label": "K3 agreement-weighted transverse-secant deployed certificate / draft PR #1106",
+    "file": "experimental/notes/frontier-adjacent/column_far_deployed_certificate_v1.md",
+    "line": "Lemma CF / exact deployed evaluation"
+   },
+   "relation": "OVERLAP",
+   "chain": null,
+   "scope": "both pay one column-far fixed union; ours pays KoalaBear nullities 0 through 9 by GRK, while the merged agreement-weighted theorem used in revised PR #1106 strictly dominates it and pays 0 through 10",
+   "owner": "JOINT",
+   "nonclaims": [
+    "no aggregation over fixed unions or first-match atlas",
+    "no sparse-branch payment, endpoint movement, K3 closure, or prize closure",
+    "do not spend effort optimizing the dominated GRK constant before solving aggregation"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "draft PR #1106",
+   "lean": null,
+   "provenance": {
+    "our_sha": "8d93cb92",
+    "his_sha": "835ddaca"
    }
   },
   {
@@ -202,22 +742,92 @@
   {
    "our_node": "rate_half_list_adjacent_crossing",
    "his_object": {
-    "label": "prob:list-completion / Lane L (post-Johnson RS list bounds)",
-    "file": "agents.md",
-    "line": "Lane L"
+    "label": "prob:list-completion / Lane L, including zero-remainder floor PR #1101",
+    "file": "experimental/notes/thresholds/zeroremainder_scale.md",
+    "line": "Theorem 2.1 / exact Lane L print block"
    },
    "relation": "OVERLAP",
    "chain": null,
-   "scope": "our exact 3n/4 crossing is BELOW Johnson (dead for Lane L); our floor is the lane's foundation",
-   "owner": "US",
+   "scope": "our exact 3n/4 crossing is below Johnson; at the prize-max agreement k+2^34-1, PR #1101 extends our positive-remainder floor to c=1,s=0 and raises its certified logarithmic size without moving the unsafe agreement",
+   "owner": "JOINT",
    "nonclaims": [
-    "never race #1097/#1099/#1101 (holmbuar, our row/agreement)"
+    "never race #1097/#1099/#1101 (holmbuar, our row/agreement)",
+    "the stronger floor does not improve the safe endpoint or close the adjacent crossing",
+    "the abstract pairwise-intersection packing obstruction is a route cut, not an RS list lower bound"
    ],
    "status_ours": "TARGET",
    "status_his": "open",
    "lean": null,
    "provenance": {
     "our_sha": "da8b9a85",
+    "his_sha": "917e962e"
+   }
+  },
+  {
+   "our_node": "upstream_gfv4_affine_span_list_compiler",
+   "his_object": {
+    "label": "thm:affine-span-list + thm:rank-flat-list",
+    "file": "experimental/grande_finale.tex",
+    "line": "thm:affine-span-list / thm:rank-flat-list"
+   },
+   "relation": "IDENTICAL",
+   "chain": "independent local reconstruction and arithmetic/toy-RS replay",
+   "scope": "exact theorem statements at upstream pin b13de811",
+   "owner": "HIM",
+   "nonclaims": [
+    "locator Grassmann rank is NOT identified with codeword affine rank"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved",
+   "lean": null,
+   "provenance": {
+    "our_sha": "e73db6de",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "upstream_gfv4_fixed_union_johnson",
+   "his_object": {
+    "label": "thm:fixed-union-ray + thm:single-mds-circuit-ray + thm:fixed-union-list-johnson",
+    "file": "experimental/grande_finale.tex",
+    "line": "fixed-union compiler block"
+   },
+   "relation": "IDENTICAL",
+   "chain": "independent local matroid/Johnson reconstruction and bounded replay",
+   "scope": "one fixed union U with the printed transversality and positivity hypotheses",
+   "owner": "HIM",
+   "nonclaims": [
+    "no summation over all support unions",
+    "no budget-three chamber exclusion"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved",
+   "lean": null,
+   "provenance": {
+    "our_sha": "e73db6de",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "rate_half_list_budget_three_affine_rank_rigidity",
+   "his_object": {
+    "label": "Lane L / affine-span list compiler equality case",
+    "file": "experimental/grande_finale.tex",
+    "line": "thm:affine-span-list"
+   },
+   "relation": "OVERLAP",
+   "chain": null,
+   "scope": "new local corollary: four words at (n,K,m)=(4d,2d,3d-1), d>=3, have affine codeword rank three",
+   "owner": "US",
+   "nonclaims": [
+    "not present upstream at b13de811",
+    "does not close any of the thirteen locator chambers"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "e73db6de",
     "his_sha": "b13de811"
    }
   },
@@ -588,6 +1198,150 @@
    "lean": null,
    "provenance": {
     "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_affine_coset_pair_mattarei_bound",
+   "his_object": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "file": "experimental/grande_finale_work/finite_section.tex",
+    "line": "SP: primitive shift-pair control"
+   },
+   "relation": "OVERLAP",
+   "chain": "Mattarei Corollary -> arbitrary-coefficient Fermat transport -> both official H3 affine factors",
+   "scope": "prime-field pointwise affine coset-pair theorem at subgroup index d with d^3>=4m; exact supplier for the DSP8 quotient and cube-preimage factors and a portable SP input only in matching affine charts",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove upstream SP or bound the full primitive second-moment ledger",
+    "does not cover extension fields",
+    "does not bound the smooth quotient-weighted DSP8 correlation"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "a7330b59",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_h3_dsp8_smooth_residual_router",
+   "his_object": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "file": "experimental/grande_finale_work/finite_section.tex",
+    "line": "SP: primitive shift-pair control"
+   },
+   "relation": "OVERLAP",
+   "chain": "G=4K trace ledger + Mattarei nodal payment + global overlap payment -> exact smooth SP residual",
+   "scope": "our H3 finite row: the complete remaining smooth primitive-SP target is 10K_sm^0+17K_sm^A<=(18043/50)n^2; portable as an exact budget interface, not as an estimate",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove the smooth residual inequality",
+    "does not bound the full upstream primitive second-moment ledger",
+    "does not identify our trace classes or quotient weights with every upstream SP stratum"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "e7faf967",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_affine_coset_pair_prime_subfield_descent",
+   "his_object": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "file": "experimental/grande_finale_work/finite_section.tex",
+    "line": "SP: primitive shift-pair control"
+   },
+   "relation": "OVERLAP",
+   "chain": "prime-subfield affine-factor descent -> Mattarei prime-field affine-pair supplier",
+   "scope": "scope theorem for upstream-style affine SP factors: KoalaBear order-2^21 factors descend from F_(p^6) to F_p; the Mersenne-31 quartic subgroup does not",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove a Mattarei bound for genuine extension-field subgroups",
+    "does not cover the deployed Mersenne-31 quartic subgroup",
+    "does not bound the full primitive second-moment ledger or close DSP8"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "155439f6",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_h3_dsp8_smooth_quotient_cap_compiler",
+   "his_object": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "file": "experimental/grande_finale_work/finite_section.tex",
+    "line": "SP: primitive shift-pair control"
+   },
+   "relation": "OVERLAP",
+   "chain": "Mattarei pointwise quotient cap + exact DSP8 smooth residual -> finite unweighted primitive-SP threshold",
+   "scope": "our H3 finite row: U_sm retains richness, smoothness, class, split, and signed-disjointness; U_sm^0+U_sm^A<=(144344/3213)n^(4/3) is sufficient",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove the required unweighted smooth base-tuple estimate",
+    "does not identify U_sm with every upstream SP stratum",
+    "does not close the full upstream primitive second-moment ledger or DSP8"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "155439f6",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_h3_norm_one_torus_affine_quotient_cap",
+   "his_object": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "file": "experimental/proximity_prize_results_v4.tex",
+    "line": "thm:saturation-pencil(iii)"
+   },
+   "relation": "OVERLAP",
+   "chain": "quadratic norm equation -> raw affine torus intersection cap -> H3 identity-point quotient cap",
+   "scope": "multiplicative subgroups H contained in a quadratic norm-one torus; R(t)<=1 and 17X_18<17n^2 on the scoped H3 ledger",
+   "owner": "US",
+   "nonclaims": [
+    "does not cover the deployed Mersenne-31 Chebyshev line round D=chi(mathcal D)",
+    "does not supply an adapter through the twin-coset projection",
+    "does not prove the full upstream primitive second-moment ledger, DSP8, or an adjacent-safe row"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "8691e84e",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_hge4_multiscale_haar_m128_frontier",
+   "his_object": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "file": "experimental/grande_finale_work/finite_section.tex",
+    "line": "SP: primitive shift-pair control"
+   },
+   "relation": "OVERLAP",
+   "chain": "balanced X-1 norm factor + multiscale Haar product -> exact m=128 upper-width exclusion",
+   "scope": "finite-track primitive exact-ratio level m=128: E_h^prim(128,p)=0 for h=12,...,64; explicit Haar-mask pruning at h=9,10,11",
+   "owner": "US",
+   "nonclaims": [
+    "does not pay the residual m=128 widths h=4,...,11",
+    "does not prove a uniform primitive shift-pair estimate at levels m>=256",
+    "does not close the full upstream exact second-moment ledger or our HGE4 aggregate"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "2beee8a9",
     "his_sha": "b13de811"
    }
   },

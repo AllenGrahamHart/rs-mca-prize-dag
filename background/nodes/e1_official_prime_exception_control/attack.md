@@ -42,13 +42,20 @@ explicit finite inequality at the row.
    `s=3` for `N=512`, and convert every counted object to unordered class
    pairs explicitly. Only profiles `(4,2,0),(3,4,0)` survive in the first
    `N=256` band. In `(3,4,0)`, only positive even autocorrelation variance
-   `V<=110` remains after the sparse-L1 refinement. Proper conductor
+   `V<=64` remains after the complete exact endpoint chain. At `V=64`, only
+   autocorrelation profiles `(4,7)`, `(0,8)`, and `(3,5,1)` remain after the
+   exact cubic/parity reduction, and the zero-odd `(0,8)` profile is now
+   excluded by a complete six-template census. Proper conductor
    is already excluded, but an explicit
    full-conductor vector with `V=36` rules out reducing the residual to
    periodic lifts. Classify the full-conductor residual before revisiting
    generic supports, applying the exact 2-adic multiplicity gate before any
-   norm computation. The signed-chord gate further excludes circular-Sidon
-   supports: every residual has an oppositely signed equal-distance chord
+   norm computation. The bounded quotient relaxation for `(3,5,1)` fails at
+   maxima 1610 and 1594 above the 1517 cutoff. Build the common four-odd light
+   router for `(4,7)` and `(3,5,1)`, split on zero versus two diameters, and do
+   not rerun the retired quotient census. The signed-chord gate further
+   excludes circular-Sidon supports: every residual has an oppositely signed
+   equal-distance chord
    pair, hence a three-term or parallelogram template. Classify those templates
    rather than rescan generic supports. Local reciprocity also collapses the
    square-mass-16 cofactor to `2^mu` for `1<=mu<=5`; exclude or

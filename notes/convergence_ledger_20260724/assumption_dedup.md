@@ -1,23 +1,24 @@
 # C3-3 — conditional assumption dedup: CLOSED with a negative (2026-07-26)
 
 The ledger asked for `assumption_dedup.md`: *"every distinct assumption behind our
-36 mathematical CONDITIONALs mapped against his six GF inputs, shared hypotheses
+mathematical CONDITIONALs mapped against his six GF inputs, shared hypotheses
 counted once, each with owner + route + falsifier."*
 
-**Result: there is no such set to build on our side.** The 36 mathematical
+**Result: there is no such set to build on our side.** The 38 mathematical
 CONDITIONALs carry **zero independent mathematical work**. Every one of them
-discharges by pure gate propagation once the 23 TARGETs close. The dedup ledger
-that C3-3 specified would have exactly 23 rows, and they are the TARGETs we
+discharges by pure gate propagation once the 24 TARGETs close. The dedup ledger
+that C3-3 specified would have exactly 24 rows, and they are the TARGETs we
 already track.
 
 Artifact: `tools/verify_conditional_propagation.py` (fail-closed, 4 mutation
-controls). Measured at prize master `457ce416`, math orbit 260 = 201/36/23.
+controls). Refreshed after the E1 and unsafe-at-crossing corrections and the
+exact averaged-XR repair: math orbit `241 = 179/38/24`.
 
 ## The three checks
 
 1. **Propagation.** Grant every math-orbit TARGET; iterate "a CONDITIONAL
    discharges when all its req-parents are discharged" to a fixpoint.
-   **36 / 36 discharge, fixpoint in 8 rounds.** Nothing is stuck.
+   **38 / 38 discharge, fixpoint in 8 rounds.** Nothing is stuck.
 2. **No off-orbit blocker.** No math-orbit CONDITIONAL has an open req-parent
    outside the math orbit. **0 external blockers** — nothing is hiding off-orbit.
 3. **No unwired hypothesis.** The failure mode that would invalidate (1) is a
@@ -43,25 +44,24 @@ controls). Measured at prize master `457ce416`, math orbit 260 = 201/36/23.
 
 ## Consequences
 
-1. **The remaining mathematics is exactly the 23 TARGETs**, not 59 nodes. The
-   census line `260 = 201/36/23` should be read as **23 units of work**, with the
-   36 as bookkeeping that resolves itself.
-2. **The ledger's Definition of DONE is redundant in its second conjunct.** It
-   reads *"24 TARGETs closed AND 38 CONDITIONALs discharged against a deduped
-   joint hypothesis set AND his four terminal inputs closed."* On our side the
-   second conjunct is **implied by the first**. What survives of C3-3 is only the
-   *joint* half — mapping our 23 against his six GF inputs, which is his-side work
-   we cannot do unilaterally.
-3. **Effort allocation:** 100% of remaining mathematical effort belongs on the 23
+1. **The remaining mathematics is exactly the 24 TARGETs.** The census line
+   `241 = 179/38/24` should be read as **24 units of work**, with the 38 as
+   bookkeeping that resolves itself.
+2. **The ledger's Definition of DONE has no independent conditional conjunct.**
+   On our side discharge of the 38 mathematical conditionals is **implied by
+   closing the 24 targets**. What survives of C3-3 is only the joint half —
+   mapping our 24 against his six GF inputs.
+3. **Effort allocation:** 100% of remaining mathematical effort belongs on the 24
    TARGETs. Any session spent "discharging conditionals" is spent on nothing.
-4. **This is a re-pricing, not progress.** No node changed status; the census is
-   unchanged. What changed is the size of the thing being measured.
+4. **The original C3-3 result was a re-pricing, not progress.** The later E1
+   and unsafe-at-crossing corrections changed statuses, but the propagation
+   conclusion survived their fail-closed replay unchanged.
 
 ## Non-claims
 
 - Says nothing about *his* inputs (S), (A), (E), list-completion, or whether our
   hypotheses dedup against his — that is the joint half of C3-3 and stays open.
-- Does not assert the 23 TARGETs are independent of each other; they share
+- Does not assert the 24 TARGETs are independent of each other; they share
   machinery, and closing one may cascade. It asserts only that the CONDITIONALs
   add nothing beyond them.
 - Propagation is a statement about the **wired** structure plus the prose audit in

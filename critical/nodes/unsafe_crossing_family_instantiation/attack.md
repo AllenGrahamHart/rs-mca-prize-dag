@@ -34,7 +34,7 @@ a short pre-registered route decision.
    this live branch without adding an extension-field hypothesis. The folded
    exact folded-norm certificates further remove `s<=4` at `N=256` and
    `s<=2` at `N=512`. In the first `N=256` band, profile `(3,4,0)` is
-   further reduced to positive even autocorrelation variance `V<=110`, and
+   further reduced to positive even autocorrelation variance `V<=64`, and
    every proper-conductor support is excluded in both profiles. A
    full-conductor `V=36` witness prevents treating low variance as
    synonymous with periodicity. The exact 2-adic cofactor screen further
@@ -61,7 +61,46 @@ allowance over primes `p=1 mod N` in the two exact budget intervals, beginning
 at swap distance five for `N=256` and three for `N=512`. The first `N=256`
 band reduces to `(4,2,0),(3,4,0)`; the complete `N=512,s=2` band is closed.
 Only full-conductor supports remain at `N=256,s=5`; within
-`(3,4,0)` the variance residual is `0<V<=110`. Apply the 2-adic
-singleton screen before any residual norm computation, then use the forced
-signed additive-relation templates rather than generic support enumeration.
-Test the odd norm part directly; do not scan arbitrary cofactors below 64.
+`(3,4,0)` the variance residual is `0<V<=64`. The exact quotient-Schur
+chain excludes `V=76,74,72,70`; the completed E34 template chain excludes
+`V=68`, and the completed E33 profile chain excludes `V=66`. At the closed
+E34 endpoint, the complete
+nested mod-16 upper-bound compiler already has exact relaxation obstructions,
+so do not run its full census. Exact selective quotient and support
+certificates first reduce that endpoint to three `L=20` profiles. Chord
+parity then leaves only `(6,7)` and proves that the four light positions have
+six distinct non-diameter circular distances. Apply the 41-signature
+heavy-chord origin classification inside the progression and generic
+templates. The complete normalized quarter template is excluded by the exact
+cap `M_3<=1188`; the 31-form nonquarter-diameter chamber is excluded by
+`M_3<=1560`. For the progression template, normalize the repeated
+heavy-heavy length and use the proved opposite-outer-sign constraint. Odd-unit
+transport leaves only the five steps `1,2,4,8,16`, and their exact cap
+`M_3<=1722` closes the progression branch. In the sole generic template,
+use the proved 57 affine-unit representatives and three exact weld shapes.
+Their 243,285,056-vector chamber is paid by independent chord and negacyclic
+implementations with `M_3<=1770`. At `V=66`, the exact slack, cubic, parity,
+and diameter ledger leaves only `(5,7)`, `(1,8)`, `(4,5,1)`, and `(0,6,1)`.
+The target-fiber theorem excludes `(0,6,1)` with `M_3<=1644`; the quotient
+and outer-`4Z` certificates exclude `(4,5,1)`; the eleven-template geometry
+census excludes `(1,8)` with `M_3<=1356`; and the full-conductor census
+excludes `(5,7)` with `M_3<=1416`. Thus do not rerun either E33 census or
+import the E34 four-template classification at lower variance.
+
+The exact `V=64` reduction leaves `(4,7)`, `(0,8)`, and `(3,5,1)`. Profile
+`(0,8)` is now closed: zero-odd parity forces two antipodal light pairs, six
+affine-unit templates, and two independent 119,087,616-vector censuses retain
+no profile vectors. The uncoupled quotient route for `(3,5,1)` is also
+retired: exact relaxation maxima 1610 and 1594 exceed 1517, with compact
+locally replayed allocation witnesses. These are not actual vectors.
+
+Profiles `(4,7)` and `(3,5,1)` share the same four-odd light parity. Build one
+complete light-support router, split on zero versus two light-light diameters,
+and retain the exact class-multiplicity signature. In the two-diameter branch
+the four remaining light chords occupy distinct classes. Require this finite
+router before any complete signed-vector census.
+
+The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
+the 2-adic singleton screen and test its 419 exact cofactors directly; do not
+scan an arbitrary interval. Later bands `N=256,s>=6` and `N=512,s>=3` remain
+part of the universal target.

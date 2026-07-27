@@ -7,20 +7,20 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  260 = 201 PROVED / 36 CONDITIONAL
-                  / 23 TARGET.  This is what orbit/critical_dag.json, the radial
+                  nodes {mca_grand, list_grand}.  241 = 179 PROVED / 38 CONDITIONAL
+                  / 24 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
-                  and verify_critical_harness_coverage.py all measure.  Its 23
-                  TARGETs are the "23 mathematical leaves" of the roadmap.
+                  and verify_critical_harness_coverage.py all measure.  Its 24
+                  TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  275 = 213 / 38 / 24.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  256 = 191 / 40 / 25.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
-                  analysis (24 open dominators == the 24 submission-orbit TARGETs).
+                  analysis (25 open dominators == the 25 submission-orbit TARGETs).
 
-Neither census is stale; 275 - 260 = 15 is definitional, not drift. Consumers must
+Neither census is stale; 256 - 241 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
 "all-green DAG" end state is the submission orbit (it owns the dossier leaf).
 
@@ -81,11 +81,11 @@ EXPECTED_DELTA = {
 }
 
 # The one TARGET on the submission spine is packaging, not mathematics: this is
-# why "24 TARGETs" and "23 mathematical leaves" are both correct sentences.
+# why the submission orbit has one more TARGET than the mathematical orbit.
 NON_MATH_TARGET = "submission_quality_paper_dossier"
 
 # ...and the two CONDITIONALs on the spine are likewise non-mathematical, so a
-# conditional-dedup ledger over "the 38" must account for 36 mathematical ones.
+# conditional-dedup ledger over the 40 must account for 38 mathematical ones.
 NON_MATH_CONDITIONALS = {"prize", "packaging"}
 
 
@@ -166,11 +166,14 @@ def main() -> int:
     if spine_conditionals != NON_MATH_CONDITIONALS:
         errors.append(f"submission-spine CONDITIONALs drift: {sorted(spine_conditionals)}")
 
-    # The roadmap phrase "23 mathematical leaves" is an arithmetic consequence,
+    # The roadmap's mathematical-leaf count is an arithmetic consequence,
     # not an independent count: assert it rather than trusting prose.
     math_targets = sorted(i for i in math_ids if nodes[i]["status"] == "TARGET")
-    if len(math_targets) != 24:
-        errors.append(f"mathematical-leaf count drift: {len(math_targets)} != 24")
+    if len(math_targets) != EXPECTED_MATH["TARGET"]:
+        errors.append(
+            "mathematical-leaf count drift: "
+            f"{len(math_targets)} != {EXPECTED_MATH['TARGET']}"
+        )
     if NON_MATH_TARGET in math_targets:
         errors.append(f"{NON_MATH_TARGET} leaked into the math orbit")
 

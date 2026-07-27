@@ -108,8 +108,8 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    require(len(critical["nodes"]) == 241, "critical orbit size drift")  # 242 -> 241 (2026-07-27: xr_ledger_exponent_reconciliation left the critical path when averaged_xr became a red leaf)
-    require(len(proved) == 179, "critical PROVED count drift")  # 180 -> 177 (2026-07-27: averaged_xr false green + its cascade)
+    require(len(critical["nodes"]) == 241, "critical orbit size drift")
+    require(len(proved) == 179, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()

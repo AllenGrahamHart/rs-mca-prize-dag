@@ -4,11 +4,22 @@
 
 ## Statement
 
-Reconcile averaged_xr's stated shell exponent q^{-min(s,t)} with the proved ledger's c(s,t) = min(s,t-1): determine the correct exponent per shell, propagate through the second-moment sum, and confirm the consumer margins absorb the difference (a full q factor at shells s >= t). Small: the qx13 ledger tables decide it at toy scale.
+For two size-`(k+t)` supports at exchange distance `s`, the exact pair
+codimension is
 
-## Attack surface
+```text
+t+min(s,t).
+```
 
-recompute the toy pair-ledger at both exponents vs the exact counts
+Thus `q^(-min(s,t))` is the conditional cost of the second event, while
+`min(s,t-1)` is the anchored/projective ledger convention. This node proves
+the dictionary only; it does not prove the slope-resolved de-correlation or
+variance estimate sought by `averaged_xr`.
+
+## Replay
+
+Recompute the pair ledger by exact finite-field row reduction at all printed
+`(k,t,s)` fixtures.
 
 ## Falsifier
 
