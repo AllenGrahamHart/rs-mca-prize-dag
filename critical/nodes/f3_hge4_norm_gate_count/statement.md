@@ -557,6 +557,29 @@ Thus the exact level `m=64` is paid, rather than merely narrowed. Together
 with the already empty lower levels, the surviving exact-level aggregate
 starts at `m=128`. No level at or above `128` is paid by this statement.
 
+The proved `f3_hge4_multiscale_haar_m128_frontier` strengthens the general
+multiscale product before attacking that next level. Balance gives
+`F(1)=0`, so every nonzero dyadic norm in the product contains the independent
+factor `Norm(1-zeta_O)=2`. If `S` is the set of nonzero Haar scales, the
+lower divisor in `(MHN6)` therefore gains the exact factor
+
+```text
+2^(1+|S|).
+```
+
+The resulting cross-multiplied gate closes every `m=128` width
+`12<=h<=31`; the quarter and complement gates close `32<=h<=64`. Hence
+
+```text
+E_h^prim(128,p)=0       for every 12<=h<=64.          (M128F)
+```
+
+At the three preceding widths it also leaves only the all-nonzero Haar
+pattern at `h=11`, the masks `S={0,1}` and `S={0,1,2}` at `h=10`, and five
+of eight masks at `h=9`. Thus the first unpaid level is now confined to
+`4<=h<=11`. This is a level reduction, not a debit for the residual widths
+or any level `m>=256`.
+
 The proved `f3_hge4_cyclotomic_haar_near_quarter_swap_router` continues the
 same norm method below one quarter. Write `h=m/4-d`, `d>=1`, and let
 

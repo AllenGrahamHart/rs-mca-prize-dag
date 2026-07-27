@@ -52,6 +52,10 @@
   width satisfying `x=4(d+1)log(m)/m<=1` and
   `Y_3<=floor((h-1)/2)+2`, where `Y_3` is the printed cubic Taylor ceiling;
   this is the production empty-band cutoff
+- **proved `m=128` frontier:**
+  `f3_hge4_multiscale_haar_m128_frontier` adds the balanced `X-1` norm
+  factors to the shared Haar product, closes every width `12<=h<=64`, and
+  leaves the exact first unpaid level inside `4<=h<=11` with explicit masks
 - **proof route:** prioritize the quadratic primitive-orbit aggregate through
   the near-square union representation; the per-width shift-pair estimate,
   stronger strip-free raw bound, a width cap, or a direct aggregate theorem

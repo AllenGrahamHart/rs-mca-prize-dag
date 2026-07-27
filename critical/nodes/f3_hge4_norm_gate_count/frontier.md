@@ -76,6 +76,12 @@
   `h=4,5` at `m=64`; the existing ambient and upper-width gates close the
   rest. Hence the complete `m=64` exact level has zero debit on every
   official row, and the surviving exact-level problem begins at `m=128`.
+- The balanced-factor augmentation observes that `X-1` divides every signed
+  support polynomial and contributes one independent factor of two to each
+  nonzero norm in the Haar product. The exact augmented gate closes
+  `m=128,h=12..31`; the upper-width theorems close `h=32..64`. The live
+  `m=128` frontier is therefore `h=4..11`, with only the all-nonzero Haar
+  pattern at `h=11` and two patterns at `h=10`.
 
 ## Evidence
 
@@ -86,10 +92,12 @@ only nonzero raw cell is the deliberate sub-threshold control `(16,17,h=4)`.
 
 ## Open content
 
-Starting at exact level `m=128`, prove the primitive orbit aggregate `(OAR2)`,
-its equivalent anchored near-square form `(NSU4)`, RAW-NG, the weaker stripped
-aggregate, or the explicit per-width estimate `(PSA3)` uniformly over the full
-corridor and all live exact-level widths through `m/4-1`. This requires a bound on the
+At exact level `m=128`, pay the residual widths `4<=h<=11` after the printed
+Haar-pattern pruning. Starting at `m=256`, prove the primitive orbit aggregate
+`(OAR2)`, its equivalent anchored near-square form `(NSU4)`, RAW-NG, the
+weaker stripped aggregate, or the explicit per-width estimate `(PSA3)`
+uniformly over the full corridor and all live exact-level widths through
+`m/4-1`. This requires a bound on the
 free-union class and, if
 the swap route is retained, the equivalent half-order perfect-square support
 count. The free class now has a fixed-cell certificate architecture but no
@@ -100,7 +108,8 @@ certificate family. The near-third Kummer and scalar-gcd packets are now
 conformance fixtures only. The Vandermonde-defect band is fully deleted.
 Between its cutoff and the swap-norm cutoff only the free aggregate remains;
 below the latter both free and swap aggregates remain open. No generator or
-positive debit remains at `m<=64`.
+positive debit remains at `m<=64`; `m=128` has only the finite lower-width
+residual above.
 
 ## Provenance addendum (2026-07-21, wave-18 integration)
 

@@ -143,6 +143,13 @@ def main() -> None:
     }
     assert vandermonde_edge in dag["edges"]
     assert nodes[vandermonde_edge["from"]]["status"] == "PROVED"
+    m128_edge = {
+        "from": "f3_hge4_multiscale_haar_m128_frontier",
+        "to": NODE,
+        "kind": "ev",
+    }
+    assert m128_edge in dag["edges"]
+    assert nodes[m128_edge["from"]]["status"] == "PROVED"
 
     statement = (Path(__file__).with_name("statement.md")).read_text()
     attack = (Path(__file__).with_name("attack.md")).read_text()
@@ -220,6 +227,9 @@ def main() -> None:
         "L>=floor((h-1)/2)+2",
         "`1<=d<=2,677,220,820`",
         "the Vandermonde-defect band: no primitive pair",
+        "f3_hge4_multiscale_haar_m128_frontier",
+        "E_h^prim(128,p)=0",
+        "4<=h<=11",
         "V_(r-1)!=1",
         "NG-ZERO is not claimed",
     ):
@@ -229,15 +239,18 @@ def main() -> None:
     assert "apply the Vandermonde-defect exclusion" in attack
     assert "free-only zone" in attack
     assert "extension-field midpoint branch" in attack
+    assert "no `m=128` generator may allocate a width above eleven" in attack
     assert "raw non-toral count zero" in frontier
     assert "base-field-split three-member divisor pencil" in frontier
     assert "Vandermonde-defect band is fully deleted" in frontier
     assert "both free and swap" in frontier
+    assert "`m=128` frontier is therefore `h=4..11`" in frontier
     assert "the full official corridor" in contract
     assert "proved quarter-width exclusion" in contract
     assert "proved near-quarter swap router" in contract
     assert "proved swap-norm exclusion" in contract
     assert "proved Vandermonde-defect exclusion" in contract
+    assert "proved `m=128` frontier" in contract
 
     # The aggregate compiler reserves 1+1+14=16 cubic units. Raising the
     # HGE4 allocation to 15 breaks that exact split.

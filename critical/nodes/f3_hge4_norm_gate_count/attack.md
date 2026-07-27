@@ -135,8 +135,8 @@ bound must include the exact pairs-to-records and anchoring convention.
 
 The proved cyclotomic-norm quarter-width theorem supersedes the earlier
 `floor(2m/7)` cap. Any exact-level generator, certificate family, or aggregate
-argument must first reject `m<=64`, which is now paid at zero cost, and must
-stop every remaining level at
+argument must reject `m<=64`, which is paid at zero cost, and must stop every
+remaining level at
 
 ```text
 h=m/4-1.
@@ -150,6 +150,12 @@ consumer scope. The live theorem attack is only the lower-quarter range
 ```text
 4<=h<=m/4-1,       e=m-3h>=h+4.
 ```
+
+At `m=128`, apply the balanced-factor Haar gate first. It closes every
+`h>=12`; at `h=11` allocate only the all-nonzero Haar mask, at `h=10` only
+the masks `011` and `111`, and at `h=9` skip masks `010`, `100`, and `110`.
+Thus no `m=128` generator may allocate a width above eleven. General
+lower-quarter production resumes at `m>=256`.
 
 Within that range, write `h=m/4-d`, put `R=log m`,
 `x=4(d+1)R/m`, and define
