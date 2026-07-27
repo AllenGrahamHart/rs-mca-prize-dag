@@ -3328,3 +3328,26 @@ route fence: full-conductor E=50,L=28 geometry exists; L<=27 is false
 next route-deciding action: extend the exact low-slack L table and optimized
                               majorants to V=98 and below
 ```
+
+**2026-07-27, N=256 variances 96 and 98 excluded:** the low-slack ledger and
+optimized-majorant route extends without additional computation.
+
+Cycle burn-down:
+
+```text
+starting pins: local a8ffea1f; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local ed7662cf
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=98 to V<=94; signed cancellation
+        strengthened from C<=-16 to C<=-17; parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact finite slack and rational Taylor arithmetic only
+next route-deciding action: classify slack 7--10 and optimize the V=94/92
+                              majorants, with exact feasibility checks
+```
