@@ -1213,6 +1213,19 @@ is therefore `M_3<=2576<2592`, so the exact cubic excludes `V=74` and improves
 the profile-`(3,4,0)` residual to positive even `V<=72`. See
 `background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/`.
 
+N46 DONE, E1 N=256 VARIANCE-72 QUOTIENT-SCHUR CLOSURE: at `E=36`, the exact
+slack recurrence gives `L<=20`, and only three of 26 magnitude profiles exceed
+the cubic threshold 2377. A complete 8,144,380-allocation quotient census
+closes `(0,9)` and the outer term of `(7,5,1)` directly. For `(4,8)`, the
+odd-outer, inner-outside-`2Z` chamber is at most 2208. In the remaining
+chamber, a separate complete census of all `binom(31,8)=7,888,725` symmetric
+16-point subsets of `Z/64 Z` proves `R(B,B,B)<=174`; maximizing that
+replacement allocation by allocation gives 2344, while the divided chamber
+is 2332. The full live-row cap is therefore `M_3<=2344<2377`, so the exact
+cubic excludes `V=72` and improves the profile-`(3,4,0)` residual to positive
+even `V<=70`. See
+`background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable
@@ -3680,4 +3693,26 @@ route decision: the raw 2626 quotient obstruction was repaired only after
                 proving the support-specific inner bound R(B,B,B)<=174
 next route-deciding action: derive the E=36 L1/profile and cubic ledgers before
                               deciding whether quotient descent remains viable
+```
+
+**2026-07-27, N=256 variance-72 quotient-Schur closure:** the inherited
+quotient mechanism remains viable after a support-specific `Z/64 Z` inner
+Schur theorem and closes a third consecutive variance endpoint.
+
+Cycle burn-down:
+
+```text
+starting pin: local 243645b1
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0), V=72
+result: NEW PROVED quotient-Schur exclusion; global live M_3<=2344;
+        V=72 excluded and residual improves to positive even V<=70
+DAG delta: one PROVED background node and five edges added; parent target OPEN
+compute: 48 quotient shards and 16 inner-census shards; final runs
+         ap-UO3twT5yf4p6bQ4Dy8sktP and ap-Rz22K5DtG8oBeelSyV39Zd;
+         8,144,380 quotient allocations and 7,888,725 inner sets
+new assumptions: none
+route decision: the raw 2398 obstruction is removed by the exact
+                R(B,B,B)<=174 theorem; the resulting cap is 33 below threshold
+next route-deciding action: derive the E=35 L1/profile and cubic ledgers and
+                              test whether the exact quotient descent persists
 ```

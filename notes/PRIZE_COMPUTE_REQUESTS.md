@@ -7810,3 +7810,79 @@ The source, result packet, checker, and registered remote launcher are
 `e37_mod16_quotient_census_result.json`,
 `e37_mod16_quotient_census_check.py`, and
 `e1_n256_s16_e37_quotient_schur_exclusion/verify_census_remote.py`.
+
+### CR-E1-E36-Q16: variance-72 quotient-Schur route decision
+
+**Status:** COMPLETE by exact certificate; do not extend or rerun unless
+auditing the pinned result.
+
+At `E=36`, the exact recurrence gives `L<=20`, and 26 magnitude profiles
+remain. The cubic threshold is `M_3<=2377`; only `(4,8)`, `(0,9)`, and
+`(7,5,1)` exceed it abstractly. Run exact odd-support and divided-odd mod-16
+cells for two-layer profiles `(4,8)` and `(0,9)`, and an outer-only 26-point
+cell for `(7,5,1)`. Preserve the E37 chamber outputs: report the complete
+`B not subset 4Z` maximum and maximize the allocation-wise replacement
+`R(B,B,B)<=174` whenever `B subset 4Z`.
+
+Use at most 48 one-CPU, 256-MiB shards, 180 seconds per shard, under five
+minutes total wall time, and a conservative total ceiling of `$0.25`.
+Write useful partial results and explicit errors on `INCOMPLETE`; no status
+changes without all six cells. The independent checker must reconstruct
+coverage counts and every displayed maximum.
+
+`PASS` requires both two-layer profiles at most 2377 after valid chamber
+refinement and `R(A,A,A)<=589` for the 26-point outer layer. `FAIL` returns
+the exact failing allocation and component to support-specific coupling.
+Do not launch a finer quotient or another solver from this authorization.
+
+Initial complete run `ap-clS4xL2P7ek5EPTxyA54S0` checked 8,144,380
+allocations in under 16 seconds. Five components close, but `(4,8)` has cap
+2398 in both the order-128 and divided order-64 routes, 21 above threshold.
+Both maximizers put the complete 16-point inner layer in `2 Z/128 Z`.
+Accordingly the declared `FAIL` branch is active; no finer outer quotient is
+authorized here.
+
+Final refined run `ap-UO3twT5yf4p6bQ4Dy8sktP` incorporates the exact inner
+theorem from CR-E1-E36-B64 allocation by allocation. For `(4,8)`, the
+order-128 outside-inner-`2Z` chamber is 2208, its inner-`2Z` chamber is 2344,
+and the divided order-64 chamber is 2332. The `(0,9)` cells are at most 2000,
+and the outer-only cells for `(7,5,1)` are 556 and 540. Thus the global live
+cap is 2344, below the exact cubic threshold 2377.
+
+The source, result packet, checker, and registered remote launcher are
+`e36_mod16_quotient_census.cpp`,
+`e36_mod16_quotient_census_result.json`,
+`e36_mod16_quotient_census_check.py`, and
+`e1_n256_s16_e36_quotient_schur_exclusion/verify_census_remote.py`.
+
+### CR-E1-E36-B64: exact inner-layer Schur maximum in Z/64 Z
+
+**Status:** COMPLETE by exact certificate.
+
+Enumerate every symmetric 16-point subset `B` of `Z/64 Z` avoiding 0 and 32.
+Such a set chooses eight of the 31 negation pairs, so the exact universe is
+`binom(31,8)=7,888,725`. Compute
+
+```text
+R(B,B,B)=#{(x,y,z) in B^3: x+y+z=0 mod 64}.
+```
+
+Use at most 16 one-CPU, 256-MiB shards, a 120-second hard per-shard timeout,
+under three minutes total wall time, and a conservative ceiling of `$0.15`.
+The packet must include exact lexicographic shard ranges, processed counts,
+maxima, and maximizing representatives. An independent Python checker must
+recount coverage and directly replay every displayed maximum. `INCOMPLETE`
+changes no status.
+
+`PASS` is maximum at most 219, which closes the remaining 21-point cubic gap
+after replacing the quotient `R(B,B,B)` cap 240. `FAIL` is a maximum at least
+220 and returns the exact inner layer for a coupled outer/inner attack. No
+larger group or support size is authorized.
+
+Run `ap-Rz22K5DtG8oBeelSyV39Zd` completed all 7,888,725 sets in under
+13 seconds and found exact maximum 174. The source, compact result packet,
+and independent checker are `e36_bbb64_census.cpp`,
+`e36_bbb64_census_result.json`, and `e36_bbb64_census_check.py`. This result
+is consumed only in the declared inner-`2Z` chambers. Its registered remote
+launcher is
+`e1_n256_s16_e36_quotient_schur_exclusion/verify_bbb64_remote.py`.

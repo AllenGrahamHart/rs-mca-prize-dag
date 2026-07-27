@@ -1,0 +1,5846 @@
+{
+  "complete": true,
+  "errors": [],
+  "results": [
+    {
+      "best": 2306,
+      "best_inner2_refined": 2240,
+      "best_outside_inner2": 2208,
+      "complete": true,
+      "components": [
+        416,
+        310,
+        240,
+        240
+      ],
+      "inner2_components": [
+        416,
+        310,
+        240,
+        240
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        426,
+        298,
+        226,
+        210
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "profile": 0,
+      "shard": 0,
+      "shards": 8,
+      "tested": 708276,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2398,
+      "best_inner2_refined": 2332,
+      "best_outside_inner2": 2208,
+      "complete": true,
+      "components": [
+        454,
+        328,
+        240,
+        240
+      ],
+      "inner2_components": [
+        454,
+        328,
+        240,
+        240
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        426,
+        298,
+        226,
+        210
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "profile": 0,
+      "shard": 1,
+      "shards": 8,
+      "tested": 707435,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2410,
+      "best_inner2_refined": 2344,
+      "best_outside_inner2": 2208,
+      "complete": true,
+      "components": [
+        460,
+        330,
+        240,
+        240
+      ],
+      "inner2_components": [
+        460,
+        330,
+        240,
+        192
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        1,
+        0
+      ],
+      "inner2_twos": [
+        2,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        426,
+        298,
+        226,
+        210
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "profile": 0,
+      "shard": 2,
+      "shards": 8,
+      "tested": 708703,
+      "twos": [
+        2,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "best": 2398,
+      "best_inner2_refined": 2332,
+      "best_outside_inner2": 2208,
+      "complete": true,
+      "components": [
+        454,
+        328,
+        240,
+        240
+      ],
+      "inner2_components": [
+        454,
+        328,
+        240,
+        240
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        426,
+        298,
+        226,
+        210
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "profile": 0,
+      "shard": 3,
+      "shards": 8,
+      "tested": 709448,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2410,
+      "best_inner2_refined": 2344,
+      "best_outside_inner2": 2208,
+      "complete": true,
+      "components": [
+        460,
+        330,
+        240,
+        240
+      ],
+      "inner2_components": [
+        460,
+        330,
+        240,
+        192
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        2,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        426,
+        298,
+        226,
+        210
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "profile": 0,
+      "shard": 4,
+      "shards": 8,
+      "tested": 708259,
+      "twos": [
+        2,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "best": 2352,
+      "best_inner2_refined": 2286,
+      "best_outside_inner2": 2208,
+      "complete": true,
+      "components": [
+        426,
+        322,
+        240,
+        240
+      ],
+      "inner2_components": [
+        426,
+        322,
+        240,
+        240
+      ],
+      "inner2_ones": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "inner2_twos": [
+        2,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2
+      ],
+      "ones": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        426,
+        298,
+        226,
+        210
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "profile": 0,
+      "shard": 5,
+      "shards": 8,
+      "tested": 707596,
+      "twos": [
+        2,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "best": 2410,
+      "best_inner2_refined": 2344,
+      "best_outside_inner2": 2208,
+      "complete": true,
+      "components": [
+        460,
+        330,
+        240,
+        240
+      ],
+      "inner2_components": [
+        460,
+        330,
+        240,
+        192
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        2,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        426,
+        298,
+        226,
+        210
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "profile": 0,
+      "shard": 6,
+      "shards": 8,
+      "tested": 707376,
+      "twos": [
+        2,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "best": 2328,
+      "best_inner2_refined": 2262,
+      "best_outside_inner2": 2208,
+      "complete": true,
+      "components": [
+        426,
+        314,
+        240,
+        240
+      ],
+      "inner2_components": [
+        426,
+        314,
+        240,
+        240
+      ],
+      "inner2_ones": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ],
+      "inner2_twos": [
+        2,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2
+      ],
+      "ones": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        426,
+        298,
+        226,
+        210
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "profile": 0,
+      "shard": 7,
+      "shards": 8,
+      "tested": 708214,
+      "twos": [
+        2,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "best": 2306,
+      "best_inner2_refined": 2240,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        416,
+        310,
+        240,
+        240
+      ],
+      "inner2_components": [
+        416,
+        310,
+        240,
+        240
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 0,
+      "shard": 0,
+      "shards": 8,
+      "tested": 280917,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2306,
+      "best_inner2_refined": 2240,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        416,
+        310,
+        240,
+        240
+      ],
+      "inner2_components": [
+        416,
+        310,
+        240,
+        240
+      ],
+      "inner2_ones": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 0,
+      "shard": 1,
+      "shards": 8,
+      "tested": 280061,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2272,
+      "best_inner2_refined": 2206,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        424,
+        296,
+        240,
+        240
+      ],
+      "inner2_components": [
+        424,
+        296,
+        240,
+        240
+      ],
+      "inner2_ones": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 0,
+      "shard": 2,
+      "shards": 8,
+      "tested": 279458,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2398,
+      "best_inner2_refined": 2332,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        454,
+        328,
+        240,
+        240
+      ],
+      "inner2_components": [
+        454,
+        328,
+        240,
+        240
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 0,
+      "shard": 3,
+      "shards": 8,
+      "tested": 280272,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2398,
+      "best_inner2_refined": 2332,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        454,
+        328,
+        240,
+        240
+      ],
+      "inner2_components": [
+        454,
+        328,
+        240,
+        240
+      ],
+      "inner2_ones": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 0,
+      "shard": 4,
+      "shards": 8,
+      "tested": 281243,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2306,
+      "best_inner2_refined": 2240,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        416,
+        310,
+        240,
+        240
+      ],
+      "inner2_components": [
+        416,
+        310,
+        240,
+        240
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 0,
+      "shard": 5,
+      "shards": 8,
+      "tested": 279866,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2302,
+      "best_inner2_refined": 2236,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        412,
+        310,
+        240,
+        240
+      ],
+      "inner2_components": [
+        412,
+        310,
+        240,
+        240
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 0,
+      "shard": 6,
+      "shards": 8,
+      "tested": 280031,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2398,
+      "best_inner2_refined": 2332,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        454,
+        328,
+        240,
+        240
+      ],
+      "inner2_components": [
+        454,
+        328,
+        240,
+        240
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 0,
+      "shard": 7,
+      "shards": 8,
+      "tested": 281675,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2000,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 2000,
+      "complete": true,
+      "components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ],
+      "profile": 1,
+      "shard": 0,
+      "shards": 8,
+      "tested": 2751,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 1824,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 1824,
+      "complete": true,
+      "components": [
+        228,
+        228,
+        228,
+        228
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        228,
+        228,
+        228,
+        228
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "profile": 1,
+      "shard": 1,
+      "shards": 8,
+      "tested": 2751,
+      "twos": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "best": 2000,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 2000,
+      "complete": true,
+      "components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "profile": 1,
+      "shard": 2,
+      "shards": 8,
+      "tested": 2751,
+      "twos": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "best": 2000,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 2000,
+      "complete": true,
+      "components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        1,
+        1,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "profile": 1,
+      "shard": 3,
+      "shards": 8,
+      "tested": 2751,
+      "twos": [
+        1,
+        1,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 1872,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 1872,
+      "complete": true,
+      "components": [
+        234,
+        234,
+        234,
+        234
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        234,
+        234,
+        234,
+        234
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        3,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 1,
+      "shard": 4,
+      "shards": 8,
+      "tested": 2751,
+      "twos": [
+        3,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 1952,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 1952,
+      "complete": true,
+      "components": [
+        244,
+        244,
+        244,
+        244
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        244,
+        244,
+        244,
+        244
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        2,
+        0,
+        0,
+        0,
+        4,
+        1,
+        0,
+        0,
+        2
+      ],
+      "profile": 1,
+      "shard": 5,
+      "shards": 8,
+      "tested": 2750,
+      "twos": [
+        2,
+        0,
+        0,
+        0,
+        4,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "best": 2000,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 2000,
+      "complete": true,
+      "components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1
+      ],
+      "profile": 1,
+      "shard": 6,
+      "shards": 8,
+      "tested": 2750,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "best": 2000,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 2000,
+      "complete": true,
+      "components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "profile": 1,
+      "shard": 7,
+      "shards": 8,
+      "tested": 2750,
+      "twos": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2000,
+      "best_inner2_refined": 1924,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 1,
+      "shard": 0,
+      "shards": 8,
+      "tested": 1524,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2000,
+      "best_inner2_refined": 1924,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 1,
+      "shard": 1,
+      "shards": 8,
+      "tested": 1523,
+      "twos": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "best": 1824,
+      "best_inner2_refined": 1770,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        228,
+        228,
+        228,
+        228
+      ],
+      "inner2_components": [
+        228,
+        228,
+        228,
+        228
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 1,
+      "shard": 2,
+      "shards": 8,
+      "tested": 1523,
+      "twos": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "best": 2000,
+      "best_inner2_refined": 1924,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        1,
+        1,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 1,
+      "shard": 3,
+      "shards": 8,
+      "tested": 1523,
+      "twos": [
+        1,
+        1,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 2000,
+      "best_inner2_refined": 1924,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 1,
+      "shard": 4,
+      "shards": 8,
+      "tested": 1523,
+      "twos": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "best": 1824,
+      "best_inner2_refined": 1770,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        228,
+        228,
+        228,
+        228
+      ],
+      "inner2_components": [
+        228,
+        228,
+        228,
+        228
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 1,
+      "shard": 5,
+      "shards": 8,
+      "tested": 1523,
+      "twos": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "best": 1824,
+      "best_inner2_refined": 1770,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        228,
+        228,
+        228,
+        228
+      ],
+      "inner2_components": [
+        228,
+        228,
+        228,
+        228
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 1,
+      "shard": 6,
+      "shards": 8,
+      "tested": 1523,
+      "twos": [
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "best": 2000,
+      "best_inner2_refined": 1924,
+      "best_outside_inner2": -1,
+      "complete": true,
+      "components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_components": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1
+      ],
+      "ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 1,
+      "shard": 7,
+      "shards": 8,
+      "tested": 1523,
+      "twos": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "best": 540,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 540,
+      "complete": true,
+      "components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 0,
+      "shards": 8,
+      "tested": 20290,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 556,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 556,
+      "complete": true,
+      "components": [
+        556,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        3,
+        0,
+        0,
+        0,
+        6,
+        1,
+        0,
+        0,
+        3
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        556,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        3,
+        0,
+        0,
+        0,
+        6,
+        1,
+        0,
+        0,
+        3
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 1,
+      "shards": 8,
+      "tested": 20290,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 540,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 540,
+      "complete": true,
+      "components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 2,
+      "shards": 8,
+      "tested": 20289,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 556,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 556,
+      "complete": true,
+      "components": [
+        556,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        3,
+        0,
+        0,
+        1,
+        6,
+        0,
+        0,
+        0,
+        3
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        556,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        3,
+        0,
+        0,
+        1,
+        6,
+        0,
+        0,
+        0,
+        3
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 3,
+      "shards": 8,
+      "tested": 20289,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 540,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 540,
+      "complete": true,
+      "components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 4,
+      "shards": 8,
+      "tested": 20289,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 540,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 540,
+      "complete": true,
+      "components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 5,
+      "shards": 8,
+      "tested": 20289,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 540,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 540,
+      "complete": true,
+      "components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 6,
+      "shards": 8,
+      "tested": 20289,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 556,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 556,
+      "complete": true,
+      "components": [
+        556,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        3,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        1,
+        3
+      ],
+      "order": 128,
+      "outside_inner2_components": [
+        556,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        3,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        1,
+        3
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 7,
+      "shards": 8,
+      "tested": 20289,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 540,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 540,
+      "complete": true,
+      "components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 0,
+      "shards": 8,
+      "tested": 4881,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 540,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 540,
+      "complete": true,
+      "components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 1,
+      "shards": 8,
+      "tested": 4881,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 540,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 540,
+      "complete": true,
+      "components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 2,
+      "shards": 8,
+      "tested": 4881,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 540,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 540,
+      "complete": true,
+      "components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 3,
+      "shards": 8,
+      "tested": 4881,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 540,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 540,
+      "complete": true,
+      "components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 4,
+      "shards": 8,
+      "tested": 4881,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 540,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 540,
+      "complete": true,
+      "components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 5,
+      "shards": 8,
+      "tested": 4881,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 540,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 540,
+      "complete": true,
+      "components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 6,
+      "shards": 8,
+      "tested": 4880,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "best": 540,
+      "best_inner2_refined": -1,
+      "best_outside_inner2": 540,
+      "complete": true,
+      "components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "inner2_components": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_ones": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones": [
+        0,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "order": 64,
+      "outside_inner2_components": [
+        540,
+        0,
+        0,
+        0
+      ],
+      "outside_inner2_ones": [
+        0,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "outside_inner2_twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "profile": 2,
+      "shard": 7,
+      "shards": 8,
+      "tested": 4880,
+      "twos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "schema": "e1-e36-mod16-quotient-census-v1",
+  "source_sha256": "c3791fa8c6fc0919f07bd87098dec0438c57a87b6f308108ae8cc6151fe7b390",
+  "summaries": {
+    "profile0_order128": {
+      "best": {
+        "best": 2410,
+        "best_inner2_refined": 2344,
+        "best_outside_inner2": 2208,
+        "complete": true,
+        "components": [
+          460,
+          330,
+          240,
+          240
+        ],
+        "inner2_components": [
+          460,
+          330,
+          240,
+          192
+        ],
+        "inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          1,
+          0
+        ],
+        "inner2_twos": [
+          2,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          3
+        ],
+        "ones": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1
+        ],
+        "order": 128,
+        "outside_inner2_components": [
+          426,
+          298,
+          226,
+          210
+        ],
+        "outside_inner2_ones": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "outside_inner2_twos": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "profile": 0,
+        "shard": 2,
+        "shards": 8,
+        "tested": 708703,
+        "twos": [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      "best_inner2_refined": {
+        "best": 2410,
+        "best_inner2_refined": 2344,
+        "best_outside_inner2": 2208,
+        "complete": true,
+        "components": [
+          460,
+          330,
+          240,
+          240
+        ],
+        "inner2_components": [
+          460,
+          330,
+          240,
+          192
+        ],
+        "inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          1,
+          0
+        ],
+        "inner2_twos": [
+          2,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          3
+        ],
+        "ones": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1
+        ],
+        "order": 128,
+        "outside_inner2_components": [
+          426,
+          298,
+          226,
+          210
+        ],
+        "outside_inner2_ones": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "outside_inner2_twos": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "profile": 0,
+        "shard": 2,
+        "shards": 8,
+        "tested": 708703,
+        "twos": [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      "best_outside_inner2": {
+        "best": 2306,
+        "best_inner2_refined": 2240,
+        "best_outside_inner2": 2208,
+        "complete": true,
+        "components": [
+          416,
+          310,
+          240,
+          240
+        ],
+        "inner2_components": [
+          416,
+          310,
+          240,
+          240
+        ],
+        "inner2_ones": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "inner2_twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ],
+        "ones": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "order": 128,
+        "outside_inner2_components": [
+          426,
+          298,
+          226,
+          210
+        ],
+        "outside_inner2_ones": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "outside_inner2_twos": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "profile": 0,
+        "shard": 0,
+        "shards": 8,
+        "tested": 708276,
+        "twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      "complete": true,
+      "expected_shards": 8,
+      "shards": 8,
+      "tested": 5665307
+    },
+    "profile0_order64": {
+      "best": {
+        "best": 2398,
+        "best_inner2_refined": 2332,
+        "best_outside_inner2": -1,
+        "complete": true,
+        "components": [
+          454,
+          328,
+          240,
+          240
+        ],
+        "inner2_components": [
+          454,
+          328,
+          240,
+          240
+        ],
+        "inner2_ones": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "inner2_twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ],
+        "ones": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "order": 64,
+        "outside_inner2_components": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "profile": 0,
+        "shard": 3,
+        "shards": 8,
+        "tested": 280272,
+        "twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      "best_inner2_refined": {
+        "best": 2398,
+        "best_inner2_refined": 2332,
+        "best_outside_inner2": -1,
+        "complete": true,
+        "components": [
+          454,
+          328,
+          240,
+          240
+        ],
+        "inner2_components": [
+          454,
+          328,
+          240,
+          240
+        ],
+        "inner2_ones": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "inner2_twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ],
+        "ones": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "order": 64,
+        "outside_inner2_components": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "profile": 0,
+        "shard": 3,
+        "shards": 8,
+        "tested": 280272,
+        "twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      "best_outside_inner2": null,
+      "complete": true,
+      "expected_shards": 8,
+      "shards": 8,
+      "tested": 2243523
+    },
+    "profile1_order128": {
+      "best": {
+        "best": 2000,
+        "best_inner2_refined": -1,
+        "best_outside_inner2": 2000,
+        "complete": true,
+        "components": [
+          250,
+          250,
+          250,
+          250
+        ],
+        "inner2_components": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "order": 128,
+        "outside_inner2_components": [
+          250,
+          250,
+          250,
+          250
+        ],
+        "outside_inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          1,
+          2,
+          0,
+          1
+        ],
+        "profile": 1,
+        "shard": 0,
+        "shards": 8,
+        "tested": 2751,
+        "twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "best_inner2_refined": null,
+      "best_outside_inner2": {
+        "best": 2000,
+        "best_inner2_refined": -1,
+        "best_outside_inner2": 2000,
+        "complete": true,
+        "components": [
+          250,
+          250,
+          250,
+          250
+        ],
+        "inner2_components": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "order": 128,
+        "outside_inner2_components": [
+          250,
+          250,
+          250,
+          250
+        ],
+        "outside_inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          1,
+          2,
+          0,
+          1
+        ],
+        "profile": 1,
+        "shard": 0,
+        "shards": 8,
+        "tested": 2751,
+        "twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "complete": true,
+      "expected_shards": 8,
+      "shards": 8,
+      "tested": 22005
+    },
+    "profile1_order64": {
+      "best": {
+        "best": 2000,
+        "best_inner2_refined": 1924,
+        "best_outside_inner2": -1,
+        "complete": true,
+        "components": [
+          250,
+          250,
+          250,
+          250
+        ],
+        "inner2_components": [
+          250,
+          250,
+          250,
+          250
+        ],
+        "inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          1,
+          2,
+          0,
+          1
+        ],
+        "ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "order": 64,
+        "outside_inner2_components": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "profile": 1,
+        "shard": 0,
+        "shards": 8,
+        "tested": 1524,
+        "twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "best_inner2_refined": {
+        "best": 2000,
+        "best_inner2_refined": 1924,
+        "best_outside_inner2": -1,
+        "complete": true,
+        "components": [
+          250,
+          250,
+          250,
+          250
+        ],
+        "inner2_components": [
+          250,
+          250,
+          250,
+          250
+        ],
+        "inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          1,
+          2,
+          0,
+          1
+        ],
+        "ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "order": 64,
+        "outside_inner2_components": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "profile": 1,
+        "shard": 0,
+        "shards": 8,
+        "tested": 1524,
+        "twos": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "best_outside_inner2": null,
+      "complete": true,
+      "expected_shards": 8,
+      "shards": 8,
+      "tested": 12185
+    },
+    "profile2_order128": {
+      "best": {
+        "best": 556,
+        "best_inner2_refined": -1,
+        "best_outside_inner2": 556,
+        "complete": true,
+        "components": [
+          556,
+          0,
+          0,
+          0
+        ],
+        "inner2_components": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ones": [
+          3,
+          0,
+          0,
+          0,
+          6,
+          1,
+          0,
+          0,
+          3
+        ],
+        "order": 128,
+        "outside_inner2_components": [
+          556,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_ones": [
+          3,
+          0,
+          0,
+          0,
+          6,
+          1,
+          0,
+          0,
+          3
+        ],
+        "outside_inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "profile": 2,
+        "shard": 1,
+        "shards": 8,
+        "tested": 20290,
+        "twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "best_inner2_refined": null,
+      "best_outside_inner2": {
+        "best": 556,
+        "best_inner2_refined": -1,
+        "best_outside_inner2": 556,
+        "complete": true,
+        "components": [
+          556,
+          0,
+          0,
+          0
+        ],
+        "inner2_components": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ones": [
+          3,
+          0,
+          0,
+          0,
+          6,
+          1,
+          0,
+          0,
+          3
+        ],
+        "order": 128,
+        "outside_inner2_components": [
+          556,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_ones": [
+          3,
+          0,
+          0,
+          0,
+          6,
+          1,
+          0,
+          0,
+          3
+        ],
+        "outside_inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "profile": 2,
+        "shard": 1,
+        "shards": 8,
+        "tested": 20290,
+        "twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "complete": true,
+      "expected_shards": 8,
+      "shards": 8,
+      "tested": 162314
+    },
+    "profile2_order64": {
+      "best": {
+        "best": 540,
+        "best_inner2_refined": -1,
+        "best_outside_inner2": 540,
+        "complete": true,
+        "components": [
+          540,
+          0,
+          0,
+          0
+        ],
+        "inner2_components": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ones": [
+          0,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "order": 64,
+        "outside_inner2_components": [
+          540,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_ones": [
+          0,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "outside_inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "profile": 2,
+        "shard": 0,
+        "shards": 8,
+        "tested": 4881,
+        "twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "best_inner2_refined": null,
+      "best_outside_inner2": {
+        "best": 540,
+        "best_inner2_refined": -1,
+        "best_outside_inner2": 540,
+        "complete": true,
+        "components": [
+          540,
+          0,
+          0,
+          0
+        ],
+        "inner2_components": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_ones": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ones": [
+          0,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "order": 64,
+        "outside_inner2_components": [
+          540,
+          0,
+          0,
+          0
+        ],
+        "outside_inner2_ones": [
+          0,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "outside_inner2_twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "profile": 2,
+        "shard": 0,
+        "shards": 8,
+        "tested": 4881,
+        "twos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "complete": true,
+      "expected_shards": 8,
+      "shards": 8,
+      "tested": 39046
+    }
+  }
+}

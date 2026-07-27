@@ -1,0 +1,298 @@
+{
+  "best": {
+    "best": 174,
+    "complete": true,
+    "processed": 1562496,
+    "representatives": [
+      2,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28
+    ],
+    "shard": 1,
+    "shards": 16
+  },
+  "complete": true,
+  "errors": [],
+  "processed": 7888725,
+  "results": [
+    {
+      "best": 168,
+      "complete": true,
+      "processed": 2039232,
+      "representatives": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "shard": 0,
+      "shards": 16
+    },
+    {
+      "best": 174,
+      "complete": true,
+      "processed": 1562496,
+      "representatives": [
+        2,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "shard": 1,
+      "shards": 16
+    },
+    {
+      "best": 168,
+      "complete": true,
+      "processed": 1184832,
+      "representatives": [
+        3,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "shard": 2,
+      "shards": 16
+    },
+    {
+      "best": 174,
+      "complete": true,
+      "processed": 888360,
+      "representatives": [
+        4,
+        6,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "shard": 3,
+      "shards": 16
+    },
+    {
+      "best": 168,
+      "complete": true,
+      "processed": 657920,
+      "representatives": [
+        5,
+        7,
+        12,
+        14,
+        19,
+        24,
+        26,
+        31
+      ],
+      "shard": 4,
+      "shards": 16
+    },
+    {
+      "best": 168,
+      "complete": true,
+      "processed": 480736,
+      "representatives": [
+        6,
+        8,
+        14,
+        16,
+        20,
+        22,
+        28,
+        30
+      ],
+      "shard": 5,
+      "shards": 16
+    },
+    {
+      "best": 168,
+      "complete": true,
+      "processed": 346112,
+      "representatives": [
+        7,
+        8,
+        14,
+        15,
+        21,
+        22,
+        28,
+        29
+      ],
+      "shard": 6,
+      "shards": 16
+    },
+    {
+      "best": 156,
+      "complete": true,
+      "processed": 245158,
+      "representatives": [
+        8,
+        9,
+        10,
+        17,
+        18,
+        19,
+        27,
+        28
+      ],
+      "shard": 7,
+      "shards": 16
+    },
+    {
+      "best": 150,
+      "complete": true,
+      "processed": 170544,
+      "representatives": [
+        9,
+        11,
+        13,
+        20,
+        22,
+        24,
+        29,
+        31
+      ],
+      "shard": 8,
+      "shards": 16
+    },
+    {
+      "best": 144,
+      "complete": true,
+      "processed": 116280,
+      "representatives": [
+        10,
+        12,
+        14,
+        16,
+        22,
+        24,
+        26,
+        28
+      ],
+      "shard": 9,
+      "shards": 16
+    },
+    {
+      "best": 144,
+      "complete": true,
+      "processed": 77520,
+      "representatives": [
+        11,
+        12,
+        13,
+        14,
+        24,
+        25,
+        26,
+        27
+      ],
+      "shard": 10,
+      "shards": 16
+    },
+    {
+      "best": 132,
+      "complete": true,
+      "processed": 50388,
+      "representatives": [
+        12,
+        13,
+        14,
+        15,
+        24,
+        25,
+        26,
+        27
+      ],
+      "shard": 11,
+      "shards": 16
+    },
+    {
+      "best": 108,
+      "complete": true,
+      "processed": 31824,
+      "representatives": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        30,
+        31
+      ],
+      "shard": 12,
+      "shards": 16
+    },
+    {
+      "best": 108,
+      "complete": true,
+      "processed": 19448,
+      "representatives": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        30,
+        31
+      ],
+      "shard": 13,
+      "shards": 16
+    },
+    {
+      "best": 96,
+      "complete": true,
+      "processed": 11440,
+      "representatives": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        29,
+        30,
+        31
+      ],
+      "shard": 14,
+      "shards": 16
+    },
+    {
+      "best": 84,
+      "complete": true,
+      "processed": 6435,
+      "representatives": [
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30
+      ],
+      "shard": 15,
+      "shards": 16
+    }
+  ],
+  "schema": "e1-e36-bbb64-census-v1",
+  "source_sha256": "4443d96ac583105c8f96a7798503eff061c59cf6c7416a258dab0ab2f0c239ce"
+}

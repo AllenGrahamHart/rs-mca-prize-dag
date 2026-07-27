@@ -401,6 +401,33 @@
    "notes": "ROUTE CLOSURE 2026-07-27: closes the variance-74 slice with exact quotient chambers, a 6,435-set inner Schur census, and no new assumptions. Lower positive even variances remain open."
   },
   {
+   "id": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "title": "N=256 square-mass-16 E=36 quotient-Schur exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/verify_census_remote.py",
+    "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/verify_bbb64_remote.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e36_mod16_quotient_census.cpp",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e36_mod16_quotient_census_result.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e36_mod16_quotient_census_check.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e36_bbb64_census.cpp",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e36_bbb64_census_result.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e36_bbb64_census_check.py"
+   ],
+   "statement": "For profile (3,4,0) at V=72, the exact slack recurrence gives E=36 and L<=20. A complete 8,144,380-allocation quotient census, refined by the exact 7,888,725-set Z/64 Z bound R(B,B,B)<=174, bounds all three exceptional profiles and gives M_3<=2344<2377. The rational cubic-Hermite certificate therefore puts the norm below 2^250 and excludes V=72. Every unresolved vector in this profile has positive even V<=70.",
+   "notes": "ROUTE CLOSURE 2026-07-27: closes the variance-72 slice with exact quotient chambers, a complete Z/64 Z inner Schur census, and no new assumptions. Lower positive even variances remain open."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -17859,6 +17886,21 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_e37_quotient_schur_exclusion",
+   "to": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -18000,6 +18042,16 @@
   },
   {
    "from": "e1_n256_s16_e37_quotient_schur_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e36_quotient_schur_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
