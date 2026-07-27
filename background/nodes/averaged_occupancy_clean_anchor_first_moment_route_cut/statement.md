@@ -1,8 +1,7 @@
 # Averaged-occupancy clean-anchor first-moment route cut
 
-- **status:** see `dag.json` (single source of truth; DAG status `CONDITIONAL`)
-- **closure:** exact arithmetic proved; prize-level route cut conditional on
-  `averaged_slope_conversion`
+- **status:** PROVED
+- **closure:** exact arithmetic plus `averaged_slope_conversion`
 
 Fix one of the six named high-budget clean predecessor anchors, with agreement
 `a`, field order `q`, and `B*=floor(q/2^128)` equal to its named budget. Let
@@ -28,7 +27,4 @@ six named envelopes.
 
 This rules out the present `M` supplier at those envelopes before overlap or
 first-match optimization. It is not safety and does not restrict quotient or
-direct-value `Q`/`V` payloads. The displayed first-moment inequality remains
-proved; the node is conditional because the interpretation as an occupancy
-route cut requires `averaged_slope_conversion`, which now depends on the
-TARGET `averaged_xr`.
+direct-value `Q`/`V` payloads.

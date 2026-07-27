@@ -28,13 +28,13 @@
   },
   {
    "id": "averaged_slope_conversion",
-   "label": "CONDITIONAL",
+   "label": "PROVED",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair"
   },
   {
    "id": "averaged_xr",
-   "label": "UNPROVED",
-   "title": "Averaged XR via Johnson-scheme second moments"
+   "label": "PROVED",
+   "title": "Exact slope-resolved support-pair moment"
   },
   {
    "id": "axes_verified",

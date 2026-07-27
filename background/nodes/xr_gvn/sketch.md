@@ -1,7 +1,7 @@
-# sketch: xr_gvn (auto-discharged)
+# Sketch: XR generalized von Neumann reduction
 
-The conditional implication (see conditional.md) is proved and every predicate is now green:
-
-- `averaged_xr` [PROVABLE]
-
-By modus ponens the statement is PROVABLE. Auto-discharged by tools/auto_discharge.py; the audit lives at the red->amber referee step.
+A viable proof must first define the iterated Johnson exchange energies and
+then give a loss ledger for repeated Cauchy--Schwarz steps. The exact
+fixed-slope second moment in `averaged_xr` can seed the first step. It does not
+control the residual after iteration, and no endpoint inequality with the
+downstream margin has yet been proved.

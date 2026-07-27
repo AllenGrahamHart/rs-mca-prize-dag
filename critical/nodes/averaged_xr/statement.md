@@ -1,36 +1,58 @@
-# averaged_xr
+# Exact slope-resolved support-pair moment
 
-- **status:** TARGET
-- **status authority:** `dag.json`
-- **adjudication:** canonical Fable commit `3cca68b7` (2026-07-27)
+- **status:** PROVED
+- **closure:** exact linear algebra
+- **upstream source:** `rs-mca` commit `674503f72134eaed4a20f1944f1423b23744ce2c`
 
-## Statement
+Let `F=F_q`, let `D subset F` contain `n` distinct points, and let
+`1<=k<k+t<=n`. For every `(k+t)`-support `S`, let
 
-The sought averaged-XR theorem is a slope-resolved second-moment estimate.
-Second moments of `|A_(u,v)|` over pairs or slopes should admit explicit
-Cauchy double sums over support pairs `(T,T')`, graded by intersection size,
-so that the Johnson-scheme decomposition and its `lambda_0-lambda_1=n` gap
-control variance. Same-slope pairs should carry the reconciled closed-form
-correlation term, while distinct-slope pairs should decorrelate. This is the
-second-moment input consumed by `averaged_slope_conversion`.
+```text
+Pi_S : F^D -> F^t
+```
 
-The node is open. Its former automatic proof was invalid for three independent
-reasons:
+send a word to the top `t` coefficients of its interpolant on `S`, and put
+`K_S=ker(Pi_S)`. If two supports `S,T` have exchange distance
+`d=|S\T|=|T\S|`, then
 
-1. `proof.md` invokes a nonexistent `conditional.md`;
-2. `xr_ledger_exponent_reconciliation` reconciles the exponent used by this
-   claim and therefore cannot prove the de-correlation claim itself; and
-3. the source says only that the averaged form looks provable and leaves
-   worst-case de-correlation open.
+```text
+rank(Pi_S,Pi_T)=t+min(d,t).
+```
 
-The preferred attack is the Hooley--Katz / Scott exponential-sum lane named
-in `proof_sketch/s3b_iii_2_displacement_spectral.md#5`.
+Fix a slope `z` and choose independent uniform words `f,g`. A support
+contributes `z` exactly when
 
-## Falsifier
+```text
+Pi_S(f+zg)=0 and Pi_S(g)!=0.
+```
 
-A shell on which the reconciled exponent `c(s,t)` fails to yield the variance
-control required by `averaged_slope_conversion`.
+Writing `a=q^(-t)` and
 
-## Ledger (migrated notes)
+```text
+alpha_d=q^(-t-min(d,t)),
+```
 
-The graded-by-intersection second-moment table is now CLOSED FORM via the pair-rank ledger: correlations q^{-min(s,t)} extra for s < t, exact independence beyond — the variance is dominated by close pairs, as the FM model hoped. | PROVED 2026-07-04 from xr_ledger_qpower by summing the Johnson distance shells.
+two distinct supports at distance `d` both contribute `z` with exact
+probability
+
+```text
+P_d=alpha_d(1-2a+alpha_d).
+```
+
+In particular, this is `p_z^2` for `d>=t`, where
+`p_z=a(1-a)`, and for `1<=d<t` it is
+
+```text
+q^(-t-d)(1-2q^(-t)+q^(-t-d)).
+```
+
+Hence every deterministic support family has the exact fixed-slope second
+factorial moment printed in `proof.md`. This is the complete moment input
+needed by `averaged_slope_conversion`.
+
+## Scope
+
+This theorem is an averaged random-line identity. It does not prove
+worst-case exchange rigidity, an XR inverse theorem, or independence between
+different slopes. Cross-slope independence is not needed by the occupancy
+conversion.

@@ -1,11 +1,16 @@
 # Status ruling
 
-`TARGET`. The exact pair-rank ledger proves the same-slope exponent dictionary
-but not the worst-case slope de-correlation needed by the averaged theorem.
-The auto-discharged `proof.md` is retained as the falsified historical
-artifact: it cites a `conditional.md` that does not exist and treats an
-evidence result as though it were a proof of this stronger claim.
+The 2026-07-27 demotion was correct for the former auto-proof: it cited a
+nonexistent conditional packet and used an exponent dictionary as though it
+proved de-correlation.
 
-Return to `PROVED` requires a direct second-moment proof with the stated
-slope quantifiers, or a corrected theorem strong enough for every current
-consumer.
+The repaired closure is independent of that argument. Przemek's repository
+already contained a later exact theorem in
+`experimental/notes/m1/m1_average_support_collinearity.md` and the occupancy
+consumer in `experimental/notes/m1/m1_averaged_slope_conversion.md`, both
+introduced at commit `674503f72134eaed4a20f1944f1423b23744ce2c`. The proof
+has been rederived locally and replayed with an independent interpolation-
+matrix verifier.
+
+The status is therefore `PROVED` only for the exact fixed-slope pair moment
+stated here. The wider worst-case XR claims remain outside this closure.

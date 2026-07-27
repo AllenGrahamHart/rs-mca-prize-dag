@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/przchojecki/rs-mca",
+  "commit": "674503f72134eaed4a20f1944f1423b23744ce2c",
+  "paths": [
+    "experimental/notes/m1/m1_average_support_collinearity.md",
+    "experimental/notes/m1/m1_averaged_slope_conversion.md",
+    "experimental/scripts/verify_m1_averaged_slope_conversion.py"
+  ],
+  "local_replay": "critical/nodes/averaged_xr/verify.py"
+}

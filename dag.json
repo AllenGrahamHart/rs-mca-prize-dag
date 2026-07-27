@@ -576,7 +576,7 @@
   {
    "id": "averaged_occupancy_clean_anchor_first_moment_route_cut",
    "title": "Complete-support first-moment route cut at clean envelopes",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
    "closure": "proof",
    "refs": [
     "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/statement.md",
@@ -585,7 +585,7 @@
     "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/verify.py",
     "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/source_pin.json"
    ],
-   "statement": "At each of the six named high-budget clean predecessor anchors, any support family with |S|>=a has E[N(A)]<B*. Indeed the complete-family FM1 sum is dominated by a geometric tail below B*, with exact RowC binomial certificates and exact rational-entropy prize certificates. Since the averaged supplier has nu(A)=E[N(A)]-(q/2)C_t(A)<=E[N(A)], no deterministic support family can satisfy nu(A)>B* there. This rules out the present M supplier at those envelopes, not direct Q/V payloads or safety. CONDITIONAL on averaged_slope_conversion after the canonical 2026-07-27 propagation correction.",
+   "statement": "At each of the six named high-budget clean predecessor anchors, any support family with |S|>=a has E[N(A)]<B*. Indeed the complete-family FM1 sum is dominated by a geometric tail below B*, with exact RowC binomial certificates and exact rational-entropy prize certificates. Since the averaged supplier has nu(A)=E[N(A)]-(q/2)C_t(A)<=E[N(A)], no deterministic support family can satisfy nu(A)>B* there. This rules out the present M supplier at those envelopes, not direct Q/V payloads or safety.",
    "notes": "ROUTE CUT 2026-07-27: the first moment is already below budget, so no strict-overlap optimization can rescue averaged_slope_conversion on the six named envelopes."
   },
   {
@@ -906,17 +906,20 @@
   },
   {
    "id": "averaged_xr",
-   "title": "Averaged XR via Johnson-scheme second moments",
-   "status": "TARGET",
+   "title": "Exact slope-resolved support-pair moment",
+   "status": "PROVED",
+   "closure": "proof",
    "refs": [
-    "proof_sketch/s3b_iii_2_displacement_spectral.md#5",
     "critical/nodes/averaged_xr/statement.md",
+    "critical/nodes/averaged_xr/proof.md",
+    "critical/nodes/averaged_xr/claim_contract.md",
+    "critical/nodes/averaged_xr/verify.py",
+    "critical/nodes/averaged_xr/source_pin.json",
     "critical/nodes/averaged_xr/status_ruling.md",
-    "critical/nodes/averaged_xr/sketch.md",
-    "critical/nodes/averaged_xr/proof.md"
+    "critical/nodes/averaged_xr/sketch.md"
    ],
-   "statement": "AVERAGED XR target: prove the slope-resolved second moment strongly enough that Johnson-scheme variance control and the reconciled same-slope correlation imply the de-correlation consumed by averaged_slope_conversion. Preferred attack: Hooley-Katz / Scott exponential sums. Falsifier: a shell where the reconciled exponent fails the required variance bound.",
-   "notes": "FALSE-GREEN CORRECTION 2026-07-27 at canonical 3cca68b7. The pair-rank ledger reconciles the same-slope exponent but does not prove worst-case slope de-correlation. The former proof invokes a nonexistent conditional.md and treats a presupposing exponent dictionary as its premise."
+   "statement": "For exact (k+t)-supports S,T at exchange distance d, the joint top-coefficient interpolation map has rank t+min(d,t). Hence for each fixed slope z their exact joint contribution probability is alpha_d(1-2q^(-t)+alpha_d), alpha_d=q^(-t-min(d,t)); supports at distance d>=t are exactly independent. Summing gives the exact restricted-family fixed-slope factorial moment consumed by averaged_slope_conversion.",
+   "notes": "REPAIRED CLOSURE 2026-07-27. The former auto-proof was invalid, but upstream commit 674503f contains a later elementary exact support-collinearity theorem. Locally rederived and verified on 9,047 interpolation-matrix support pairs plus exhaustive toy pair counts. Scope is the averaged fixed-slope moment only, not worst-case XR or cross-slope independence."
   },
   {
    "id": "displacement_uniform",
@@ -1938,12 +1941,14 @@
   {
    "id": "averaged_slope_conversion",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
+   "closure": "proof",
    "refs": [
-    "proof_sketch/s2_paid_ledger.md#6"
+    "critical/nodes/averaged_slope_conversion/statement.md",
+    "critical/nodes/averaged_slope_conversion/proof.md"
    ],
-   "notes": "The implication packet remains valid, but its slope-resolved second-moment premise averaged_xr is TARGET after the canonical 2026-07-27 false-green correction.",
-   "statement": "For a deterministic support family A with exact strict-overlap profile, put nu(A)=E[N(A)]-(q/2)C_t(A). For every integer B>=1, nu(A)>B-1 implies the existence of a received pair with at least B distinct finite bad slopes. Prize use with the strict unsafe inequality >B* therefore requires nu(A)>B* and B=B*+1, after paid-family ownership and ambient-field scope are supplied. CONDITIONAL on averaged_xr."
+   "notes": "Exact occupancy proof: 1_(X_z>0)>=X_z-X_z(X_z-1)/2, summed over slopes. No cross-slope independence is used. Prize payloads must still supply paid-family ownership, overlap profile, and ambient-field scope.",
+   "statement": "For a deterministic support family A with exact strict-overlap profile, put nu(A)=E[N(A)]-(q/2)C_t(A). For every integer B>=1, nu(A)>B-1 implies the existence of a received pair with at least B distinct finite bad slopes. Prize use with B=B*+1 therefore requires the strict certificate nu(A)>B*."
   },
   {
    "id": "dyadic_profile_evaluation",
@@ -2135,12 +2140,13 @@
   {
    "id": "xr_gvn",
    "title": "XR stage 1: generalized von Neumann \u2014 FM-excess controlled by iterated exchange energies",
-   "status": "CONDITIONAL",
-   "statement": "Define E_k(u,v) = the k-fold iterated exchange-correlation (Johnson-scheme energy of order k). Prove: unpaid alignment excess over FM is bounded by some E_k being large (Cauchy-Schwarz chain over exchange moves). CONDITIONAL on averaged_xr after the canonical 2026-07-27 false-green correction.",
+   "status": "TARGET",
+   "statement": "Define E_k(u,v) rigorously as a k-fold iterated Johnson exchange energy and prove, with quantitative constants and endpoint control, that unpaid alignment excess over FM forces some E_k to be large. The exact k=2 fixed-slope moment is evidence but does not prove this multi-exchange reduction.",
    "refs": [
-    "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
+    "background/nodes/xr_gvn/statement.md",
+    "background/nodes/xr_gvn/status_ruling.md"
    ],
-   "notes": "template-standard mechanics; ingredients proved (exchange calculus, Johnson gap, averaged_xr = the k=2 case) | #191's endpoint multi-exchange inequality Pr[T_0,T_s in A] <= delta^2 + lambda*^s delta(1-delta) supplies the s-step decay the Cauchy-Schwarz chain needs. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/xr_gvn/. | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED with the averaged_xr exponent question (cross-audit cascade): the proof stands as a conditional implication; discharges when xr_ledger_exponent_reconciliation lands."
+   "notes": "SCOPE CORRECTION 2026-07-27: averaged_xr proves only the exact fixed-slope pair moment. The former packet leaves the iterated energies, Cauchy--Schwarz chain, and endpoint margin undefined, so this broader off-orbit claim is TARGET."
   },
   {
    "id": "xr_inverse",
@@ -18549,7 +18555,7 @@
   {
    "from": "averaged_xr",
    "to": "xr_gvn",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "hooley_katz",

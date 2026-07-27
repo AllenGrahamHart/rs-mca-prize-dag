@@ -62,7 +62,7 @@
     "not a route cut for lower-field rows where the complete-support mean can exceed budget",
     "does not constrain quotient or direct-value Q/V suppliers"
    ],
-   "status_ours": "CONDITIONAL",
+   "status_ours": "PROVED",
    "status_his": "not posed",
    "lean": null,
    "provenance": {

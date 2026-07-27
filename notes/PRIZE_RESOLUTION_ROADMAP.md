@@ -610,11 +610,11 @@ identifications without a machine-verified chain.
 ## 4. Board anatomy
 
 - **Counts** (refreshed from `dag.json`, the single source of truth; pinned by
-  `tools/verify_orbit_census.py`): critical surface 177 PROVED / 39 CONDITIONAL /
-  25 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
+  `tools/verify_orbit_census.py`): critical surface 179 PROVED / 38 CONDITIONAL /
+  24 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
   grand challenges {`mca_grand`, `list_grand`} = **241** nodes. *(Q0, 2026-07-26:
   this line previously read "req-closure of `prize` = 260" — wrong root. The
-  closure of `prize` is the* **submission orbit** *= 256 = 189/41/26, i.e. the math
+  closure of `prize` is the* **submission orbit** *= 256 = 191/40/25, i.e. the math
   orbit plus a 15-node packaging spine.)* The separate submission dossier is a
   target artifact rather than a mathematical leaf — it is the submission orbit's
   25th TARGET and does not appear in the 24. The 2026-07-26 E1 and
@@ -627,7 +627,7 @@ identifications without a machine-verified chain.
 - **The true critical path:** `l1_mixed_petal_amplification` — in the
   irreducible core under every wiring including the RK world, wired into
   both grands, and the longest-stalled core leaf.
-- **Minimal win sets:** unconditional = all 25 mathematical leaves + dossier
+- **Minimal win sets:** unconditional = all 24 mathematical leaves + dossier
   (pure AND). `list_grand` alone = {l1, adjacent_crossing}, closing its five
   conditional ancestors. The former `17/20` RK-prune and direct-prune counts
   predated the N11 truth ruling and are retired pending a fresh route-surgery
@@ -637,9 +637,9 @@ identifications without a machine-verified chain.
   preserve `(D,kappa)` and hence the RS rate. The clean-rate MCA/list
   milestone therefore excludes both rate-half mathematical leaves. The global
   all-rate F1 dependency remains correct for the full prize. On the corrected
-  board the clean-rate milestone contains 23 of the 25 mathematical leaves;
+  board the clean-rate milestone contains 22 of the 24 mathematical leaves;
   the two excluded leaves are the rate-half band and list-adjacent targets.
-- **Concentration risk:** 12 of 25 leaves and 3 of 5 demotion triggers live
+- **Concentration risk:** 12 of 24 leaves and 3 of 5 demotion triggers live
   in the dli lane behind one req edge. STANDING D2 CAP: dli receives at most
   one-third of any phase's effort; any demotion event freezes further dli
   spend for one full phase while the B-WEAK-direct re-pose is drafted from
@@ -708,7 +708,7 @@ dimension cut. The printed moment floors apply unchanged only at `tau=1`;
 specialized Route-D no-go packets remain parked until they have an exact
 current local consumer. N5 DONE: the Conflict-4 audit proves that F1 pole/tower
 descent preserves the rate, so rate-half adjacency is not a hidden clean-rate
-  premise; the current clean milestone is 23/25 mathematical leaves. N6 harness
+  premise; the current clean milestone is 22/24 mathematical leaves. N6 harness
 debt: xr_highcore top-level verification DONE (six row pins, both currencies,
 paid/open rank tables, 28 proved inputs, and 10 contract mutations); the KB
 #107 lightweight-certificate repair is DONE. The harness-coverage sweep is
@@ -814,6 +814,21 @@ occupancy route cut propagate to `CONDITIONAL`; and
 board is `241=177/39/25`, and all 39 ambers still auto-discharge from the 25
 red leaves. The preferred new attack is the source's Hooley--Katz / Scott
 exponential-sum lane.
+
+N14C DONE, EXACT AVERAGED-XR REPAIR: the N14B demotion remains the correct
+ruling on the generated auto-proof, but upstream commit `674503f` contains a
+later elementary theorem that the old DAG citation missed. For exact
+`(k+t)`-supports at exchange distance `d`, the joint interpolation map has
+rank `t+min(d,t)`. After `(f,g)->(f+zg,g)`, this gives the exact fixed-slope
+pair probability and restricted-family factorial moment. The occupancy
+conversion then follows pointwise from
+`1_(X_z>0)>=X_z-X_z(X_z-1)/2`; no cross-slope independence or Hooley--Katz
+input is required. The proof was independently rederived and replayed on
+9,047 interpolation-matrix support pairs plus exhaustive toy counts.
+`averaged_xr` and `averaged_slope_conversion` return to `PROVED`, while the
+broader off-orbit `xr_gvn` claim is explicitly restored to `TARGET` because
+the exact pair moment does not prove a multi-exchange inverse chain. Current
+math orbit: `241=179/38/24`; submission orbit: `256=191/40/25`.
 
 N15 DONE, UPSTREAM IDENTITY-PREFIX UNSAFE SUPPLIER HARVEST: upstream's
 `lem:capff1-identity-prefix-floor` and `cor:capg-budget-conversion` combine to

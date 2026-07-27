@@ -11,7 +11,7 @@ Claim, in three parts, all pinned here:
      nothing off-orbit is hiding in the propagation.
   3. Every open node NAMED in a CONDITIONAL's own prose is an ancestor (a wired
      hypothesis), an ev-parent (wired evidence), or a descendant (a benign
-     consumer back-reference) -- EXCEPT for a pinned list of 13 mentions, each
+     consumer back-reference) -- EXCEPT for a pinned list of 12 mentions, each
      audited 2026-07-26 and found explicitly fenced as non-consumed, historical,
      or parenthetical.  A NEW unrelated mention fails this check and forces a
      re-audit, because that is exactly how an unwired hypothesis would appear.
@@ -37,8 +37,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 GRANDS = {"mca_grand", "list_grand"}
-EXPECTED_TARGETS = 25  # + averaged_xr after the 2026-07-27 false-green correction
-EXPECTED_CONDITIONALS = 39
+EXPECTED_TARGETS = 24  # averaged_xr repaired by the exact fixed-slope moment
+EXPECTED_CONDITIONALS = 38
 EXPECTED_ROUNDS = 8
 
 # Audited 2026-07-26.  Each entry: (conditional, mentioned open node, why benign).

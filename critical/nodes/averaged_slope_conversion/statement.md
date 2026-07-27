@@ -1,31 +1,33 @@
-# averaged_slope_conversion
+# Averaged locator-to-slope conversion
 
-- **status:** see `dag.json` (single source of truth; DAG status `CONDITIONAL`)
-- **refs (legacy repo):** `proof_sketch/s2_paid_ledger.md#6`
+- **status:** PROVED
+- **closure:** exact occupancy inequality
 
-## Statement
-
-Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair
-
-Precise form: for a deterministic support family `A`, let
+Let `A` be a deterministic family of exact `(k+t)`-supports. For a random
+independent pair of words, let `X_z(A)` be the number of supports contributing
+the finite slope `z`, let
 
 ```text
-nu(A) = E[N(A)] - (q/2) C_t(A),
+N(A)=sum_z X_z(A),
+Y(A)=#{z:X_z(A)>0},
 ```
 
-where `C_t(A)` is the exact fixed-slope second factorial moment computed from
-the strict-overlap profile. For every integer `B >= 1`, if `nu(A) > B-1`,
-then some received pair has at least `B` distinct finite bad slopes.
+and let `C_t(A)` be the exact fixed-slope ordered second factorial moment
+proved by `averaged_xr`. Then
 
-For the prize's strict unsafe inequality, set `B=B*+1`; row use therefore
-requires `nu(A)>B*`, together with a supplied post-paid ownership and ambient-
-field certificate. The implication is intact, but prize use is conditional on
-the TARGET node `averaged_xr`, which must supply the slope-resolved second
-moment in the required post-paid support-family scope.
+```text
+E[Y(A)] >= E[N(A)]-(q/2)C_t(A).
+```
 
-## Ledger (migrated notes)
+Consequently, for every integer `B>=1`, if
 
-s2 fork F2: the local conversion is proved for a post-paid support family, but
-the required slope-resolved second moment remains conditional on
-`averaged_xr`. Row use additionally must supply the paid-excluded
-strict-overlap profile.
+```text
+nu(A)=E[N(A)]-(q/2)C_t(A) > B-1,
+```
+
+some received pair has at least `B` distinct finite bad slopes witnessed by
+`A`. Prize use takes `B=B*+1`, so the strict certificate is `nu(A)>B*`.
+
+This theorem is valid for every deterministic family. A prize-level unpaid
+payload must separately supply post-paid ownership, its exact strict-overlap
+profile, and the ambient-field interpretation.
