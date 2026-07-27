@@ -68,7 +68,8 @@
    "status": "PROVED",
    "refs": [
     "proof_sketch/s4_reserve_dictionary.md"
-   ]
+   ],
+   "statement": "AXES 3/5/7 VERIFIED + THE q-DICTIONARY (AXIS 6) \u2014 the scope-normalization aggregate. This node records that the scope axes 3, 5 and 7 are settled and supplies the quantifier/reserve dictionary of axis 6; the remaining axes are carried by their own nodes (`axis1_batching`, `axis2_ell`, `axis4_predicate`, `axis8_generating`, `axis9_dither`), and this node is a leaf feeding `s0_zero_open`. SOURCE: proof_sketch/s4_reserve_dictionary.md upstream, whose section 1 \u2014 'The identity: FM crossover = tau*' \u2014 is tagged [VERIFIED] and machine-checked exact at all four rates (tau*(rho,q) the unique tau in (0,1-rho) with tau log2 q = H(rho+tau); the spine's FM crossover n H(delta) = t log2 q - 128 with t = n(1-delta-rho) is the same equation up to the 128/n term), and whose section 2 is the quantifier dictionary (three-t disambiguation: t_denom, T_slack, t_win). HONEST GAP recorded 2026-07-27: the node's ref carries NO section anchor and the individual contents of axes 3, 5 and 7 are not pinned in-tree \u2014 only the source file is. Before the submission dossier cites this node, pin each axis to its section and restate. The node is retained as PROVED because it is a scope-normalization record over settled axes, not a mathematical bound."
   },
   {
    "id": "axis1_batching",
@@ -1287,7 +1288,8 @@
    "status": "PROVED",
    "refs": [
     "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
-   ]
+   ],
+   "statement": "[transcribed 2026-07-27 from upstream experimental/notes/l1/l1_full_list_quotient_proof_program.md, read via git -C ../rs-mca show origin/main:<path>. ADJUDICATION: the note's HEADER status 'CONJECTURAL / PROOF PROGRAM' applies to its Conjecture 1 (Full-List Quotient-Budgeted L1); the individual lemmas cited here each carry their own 'Status: PROVED'. This node rests on the proved lemma, NOT on Conjecture 1.] THE L1 PROGRAM FRONTIER (Theorem J, Full-List Johnson Region, Status: PROVED). For any RS evaluation domain H of size n, C = RS[H,k], and received word U, with ImgFib_U(s) = {P : deg P < k, |{x in H : U(x) = P(x)}| >= s}: (1) if 2s > n+k-1 then |ImgFib_U(s)| <= 1; (2) if s^2 > n(k-1) then |ImgFib_U(s)| <= n(n-k+1)/(s^2 - n(k-1)). Since Q_1^list(U,s) <= |ImgFib_U(s)|, Conjecture 1 holds with a polynomial primitive remainder throughout the ORDINARY JOHNSON REGION s^2 > n(k-1), WITHOUT any quotient-budget term. THE FRONTIER (what this node pins): the remaining L1 difficulty is not ordinary pairwise packing but the SUB-JOHNSON range s^2 <= n(k-1); in that range the quotient ledger, sunflower reductions, and aperiodic extension counts are genuinely needed. SCOPE: this node claims the proved base region and the location of the frontier \u2014 it does NOT claim Conjecture 1."
   },
   {
    "id": "monomial_dyadic",
@@ -1311,7 +1313,8 @@
    "status": "PROVED",
    "refs": [
     "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
-   ]
+   ],
+   "statement": "[transcribed 2026-07-27 from upstream experimental/notes/l1/l1_full_list_quotient_proof_program.md, read via git -C ../rs-mca show origin/main:<path>. ADJUDICATION: the note's HEADER status 'CONJECTURAL / PROOF PROGRAM' applies to its Conjecture 1 (Full-List Quotient-Budgeted L1); the individual lemmas cited here each carry their own 'Status: PROVED'. This node rests on the proved lemma, NOT on Conjecture 1.] SUNFLOWER CORE-DEFECT REDUCTION (Lemma 2, Status: PROVED). In the sunflower construction, let R = H_n \\ (C union T_1 union ... union T_M) be the unused background and let P in ImgFib_U(s) have agreement set A = A_P(U). Writing C_P = A cap C, R_P = A cap R, S_i = A cap T_i, and D = C \\ C_P (the missed core, with defect d = |D|), the lemma reduces a listed codeword's agreement pattern to its core defect together with its petal profile \u2014 the reduction consumed by the fixed-defect layer count and by the CRT compression downstream."
   },
   {
    "id": "l1_crt_compression",
@@ -1319,7 +1322,8 @@
    "status": "PROVED",
    "refs": [
     "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
-   ]
+   ],
+   "statement": "[transcribed 2026-07-27 from upstream experimental/notes/l1/l1_full_list_quotient_proof_program.md, read via git -C ../rs-mca show origin/main:<path>. ADJUDICATION: the note's HEADER status 'CONJECTURAL / PROOF PROGRAM' applies to its Conjecture 1 (Full-List Quotient-Budgeted L1); the individual lemmas cited here each carry their own 'Status: PROVED'. This node rests on the proved lemma, NOT on Conjecture 1.] FULL-PETAL CRT COMPRESSION (Lemma 7, Status: PROVED). Assume the sunflower has no unused background. Let I be the exact set of petals touched by a non-planted listed codeword P and suppose every touched petal is full (S_i = T_i for i in I, S_j = empty for j not in I). With t = |I|, ell = sigma + 1, and the missed-core set D and defect d of Lemma 2, the defect is pinned to the window ell <= d <= (t-1) ell, and the codeword is determined by a CRT residue W_{D,I} of degree < t*ell (equivalently, by the vanishing of the top t*ell - d - 1 coefficients of that residue). This is the compression step that makes full-petal strata countable."
   },
   {
    "id": "l1_defect_layer_bounds",
@@ -1327,7 +1331,8 @@
    "status": "PROVED",
    "refs": [
     "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
-   ]
+   ],
+   "statement": "[transcribed 2026-07-27 from upstream experimental/notes/l1/l1_full_list_quotient_proof_program.md, read via git -C ../rs-mca show origin/main:<path>. ADJUDICATION: the note's HEADER status 'CONJECTURAL / PROOF PROGRAM' applies to its Conjecture 1 (Full-List Quotient-Budgeted L1); the individual lemmas cited here each carry their own 'Status: PROVED'. This node rests on the proved lemma, NOT on Conjecture 1.] FIXED-DEFECT SUNFLOWER LAYERS ARE POLYNOMIAL (Lemma 3, Status: PROVED). For the sunflower received word, fix an integer d0 >= 0. The number of listed codewords P in ImgFib_U(s) whose agreement set misses at most d0 core points is at most sum_{d=0}^{d0} binom(k-1,d) binom(n-k+1,d+1). In particular, for fixed d0 this contribution is O_{d0}(n^{2 d0 + 1}) \u2014 polynomial. SCOPE: the bound is per fixed defect bound d0; it does not control defect growing with n (that residual is the program's next target)."
   },
   {
    "id": "u1_cramer",
@@ -1447,9 +1452,10 @@
    "title": "thm:upstairs: char-0 prefix collisions among 2-power roots of unity are EXACTLY quotient-periodic",
    "status": "PROVED",
    "refs": [
-    "tex/slackMCA_v4.tex"
+    "tex/slackMCA_v4.tex#thm:rigidcyclo"
    ],
-   "notes": "the collision family is fully classified in characteristic zero; zone-(b)'s open content is purely the finite-field transfer"
+   "notes": "the collision family is fully classified in characteristic zero; zone-(b)'s open content is purely the finite-field transfer",
+   "statement": "CYCLOTOMIC RIGIDITY (thm:rigidcyclo, tex/slackMCA_v4.tex upstream). Let N = 2^s and A subset mu_N subset Z[zeta_N] with p_1(A) = 0 in Z[zeta_N]. Then A is a union of antipodal pairs {omega, -omega}. Proof: in the power basis 1, zeta, ..., zeta^{N/2-1}, sum_{a in A} a = sum_j c_j zeta^j with c_j = 1[zeta^j in A] - 1[-zeta^j in A] in {-1,0,1}; vanishing forces c = 0, i.e. each antipodal pair is contained in or disjoint from A. CONSEQUENCE (the classification this node names): every CHARACTERISTIC-ZERO witness for V_2 is of COSET type, and the characteristic-zero slack-2 value set is exactly the ladder rung 2 * m^(mu_{N/2}). SCOPE FENCE (load-bearing, from the same source's rem:wall): this classifies the characteristic-ZERO witnesses only. Asymmetric elements of V_t require cancellations of size comparable to p and are 'genuinely modular, i.e. subgroup equidistribution' \u2014 that residual is NOT claimed here. [transcribed 2026-07-27]"
   },
   {
    "id": "galois_amplification",
@@ -1504,7 +1510,8 @@
    "refs": [
     "experimental/notes/m2/m2_common_code_line_residual_budget.md"
    ],
-   "notes": "the proved general tangent-payment engine \u2014 crystallization's large-intersection branch converts to payment through this"
+   "notes": "the proved general tangent-payment engine \u2014 crystallization's large-intersection branch converts to payment through this",
+   "statement": "THE COMMON CODE-LINE RESIDUAL BUDGET (upstream experimental/notes/m2/m2_common_code_line_residual_budget.md, 'PROVED finite theorem for MDS codes'; the verifier there is marked EXPERIMENTAL). Let C <= F^D be MDS of dimension k (so a nonzero codeword has fewer than k zeros on D), |D| = n, a an agreement threshold, and fix a received line ell_z = f + z g. Assume codewords c_f, c_g in C and a common support S0 subset D of size b with f = c_f and g = c_g on S0, and a + b - n >= k. Put Omega = D \\ S0, f' = f - c_f, g' = g - c_g, h = max(1, a-b), and c0 = |{x in Omega : f'(x) = g'(x) = 0}|. Then every support-wise noncontained slope at agreement a satisfies |{x in Omega : f'(x) + z g'(x) = 0}| >= h; consequently if h > c0 then #{support-wise noncontained slopes} <= floor((|Omega| - c0)/(h - c0)). This is the support-wise replacement for the ordinary 'the received line is close to a code-line' statement: residual noncontained slopes must be paid by residual zeros OUTSIDE the common support. [transcribed 2026-07-27 from the upstream note]"
   },
   {
    "id": "unsafe_at_crossing",

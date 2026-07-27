@@ -1,8 +1,8 @@
 # generating_escape
 
 - **status:** see dag.json (single source of truth; dag status PROVED)
-- **closure:** proof
-- **statement provenance:** written 2026-07-27 during the empty-statement remediation; see notes/wave24_integration_20260727/STATEMENT_REMEDIATION.md
+- **statement provenance:** written 2026-07-27 (empty-statement remediation / sketch-tagged re-grade);
+  see notes/wave24_integration_20260727/STATEMENT_REMEDIATION.md and SKETCH_TAGGED_REGRADE.md
 
 ## Statement
 

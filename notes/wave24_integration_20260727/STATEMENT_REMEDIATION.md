@@ -56,3 +56,46 @@ over-claims rather than documentation gaps. The four `l1_*` nodes are next, and
 should be adjudicated as a block against Theorem J vs Conjecture 1.
 
 Empty-statement pin lowered **31 -> 9**.
+
+---
+
+## COMPLETE — 2026-07-27: the count reached ZERO
+
+All nine deferred nodes were resolved. Outcomes:
+
+**The four `l1_*` nodes — adjudicated, all four PROVED stand.** The note's
+HEADER status "CONJECTURAL / PROOF PROGRAM" applies to its **Conjecture 1**;
+each individual lemma carries its own `Status: PROVED`. The mapping:
+
+| node | proved result |
+|---|---|
+| `l1_program_frontier` | **Theorem J** (Full-List Johnson Region): `|ImgFib_U(s)| <= 1` if `2s > n+k-1`; `<= n(n-k+1)/(s^2 - n(k-1))` if `s^2 > n(k-1)`. Pins the frontier: the open difficulty is the SUB-Johnson range `s^2 <= n(k-1)`. |
+| `l1_core_defect_reduction` | **Lemma 2** (Sunflower Core-Defect Reduction) |
+| `l1_defect_layer_bounds` | **Lemma 3** (Fixed-Defect Layers Are Polynomial): `<= sum_{d<=d0} binom(k-1,d) binom(n-k+1,d+1) = O_{d0}(n^{2d0+1})` |
+| `l1_crt_compression` | **Lemma 7** (Full-Petal CRT Compression): defect pinned to `ell <= d <= (t-1)ell` |
+
+Each statement records that it rests on the proved lemma and **not** on
+Conjecture 1.
+
+**`common_code_line_budget`** — upstream note is a "PROVED finite theorem for
+MDS codes"; the exact bound `<= floor((|Omega|-c0)/(h-c0))` transcribed.
+
+**`char0_collision_classification`** — real source is `thm:rigidcyclo`
+(Cyclotomic rigidity, `tex/slackMCA_v4.tex`): a vanishing `p_1(A)` on
+`A subset mu_{2^s}` forces `A` to be a union of antipodal pairs, so every
+characteristic-zero `V_2` witness is coset type. Ref re-pointed and
+scope-fenced against `rem:wall` (asymmetric `V_t` elements are genuinely
+modular and are NOT claimed).
+
+**`axes_verified`** — recovered from its original dag title, "Axes 3/5/7
+verified + q-dictionary (axis 6)": a scope-normalization aggregate, sourced to
+`s4_reserve_dictionary.md` (§1 the `FM crossover = tau*` identity, tagged
+VERIFIED and machine-checked exact at all four rates; §2 the quantifier
+dictionary). **An honest gap is recorded in the statement itself:** the ref has
+no section anchor and the individual contents of axes 3, 5, 7 are not pinned
+in-tree. Retained PROVED as a scope record rather than a mathematical bound,
+with the dossier obligation to pin each axis written into the node.
+
+**`_EMPTY_STMT_PIN` is now 0 and must never rise.** Every PROVED node on the
+critical surface carries a statement with provenance, and every mixed-status
+source carries an explicit SCOPE fence.

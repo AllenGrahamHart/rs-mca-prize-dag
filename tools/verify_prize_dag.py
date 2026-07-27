@@ -199,12 +199,10 @@ def main() -> None:
             "the assumption they are 'recorded in the node folder', which is false "
             "for them; write the artifact or repair the ref")
 
-    _EMPTY_STMT_PIN = 9   # 2026-07-27 remediation: 31 -> 9 (22 statements transcribed
-    # from primary sources; see notes/wave24_integration_20260727/STATEMENT_REMEDIATION.md,
-    # which names the exact source each of the remaining 9 needs)  # 37 -> 36 (wave-24 orbit change) -> 31 (2026-07-27: five
-    # stub leaves transcribed from their upstream proof_sketch sections during the
-    # auto-discharge re-grade: vtdv, ext_pole_floor, generating_escape,
-    # periodic_strata, noncontain_degeneracy). Lowered as artifacts are written.
+    _EMPTY_STMT_PIN = 0   # 2026-07-27: ZERO. Every PROVED node on the critical surface now
+    # carries a statement, each transcribed from a primary source with provenance and (where the
+    # source is mixed-status) an explicit SCOPE fence. Was 37 -> 36 -> 31 -> 9 -> 0. This pin must
+    # never rise: a PROVED node with no statement cannot be audited, Lean-targeted, or refereed.
     _empty_stmt = [i for i in sorted(crit)
                    if nodes[i]["status"] == "PROVED"
                    and not (nodes[i].get("statement") or "").strip()]

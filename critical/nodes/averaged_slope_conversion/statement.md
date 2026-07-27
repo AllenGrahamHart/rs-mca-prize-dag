@@ -1,27 +1,9 @@
 # averaged_slope_conversion
 
-- **status:** PROVED
-- **closure:** proof
-- **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#6']
+- **status:** see dag.json (single source of truth; dag status CONDITIONAL)
+- **statement provenance:** written 2026-07-27 (empty-statement remediation / sketch-tagged re-grade);
+  see notes/wave24_integration_20260727/STATEMENT_REMEDIATION.md and SKETCH_TAGGED_REGRADE.md
 
 ## Statement
 
-Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair
-
-Precise form: for a deterministic support family `A`, let
-
-```text
-nu(A) = E[N(A)] - (q/2) C_t(A),
-```
-
-where `C_t(A)` is the exact fixed-slope second factorial moment computed from
-the strict-overlap profile. For every integer `B >= 1`, if `nu(A) > B-1`,
-then some received pair has at least `B` distinct finite bad slopes.
-
-For the prize's strict unsafe inequality, set `B=B*+1`; row use therefore
-requires `nu(A)>B*`, together with a supplied post-paid ownership and ambient-
-field certificate.
-
-## Ledger (migrated notes)
-
-s2 fork F2: plausibly provable (second moment + paid-fiber exclusion); needed exactly when zone-(b) is collided | PROOF WRITTEN in flight (#212): FM1 + slope-resolved second moment + v8 cap + explicit paid-fiber exclusion; verifier green. Their honest caveat: stated for post-paid support families — row use still needs the paid-excluded strict-overlap profile. | PROVED (Codex red-node pass): the proof is local to the post-paid support-family scope; row use still depends on supplying that scoped family.
+For a deterministic support family A with exact strict-overlap profile, put nu(A)=E[N(A)]-(q/2)C_t(A). For every integer B>=1, nu(A)>B-1 implies the existence of a received pair with at least B distinct finite bad slopes. Prize use with the strict unsafe inequality >B* therefore requires nu(A)>B* and B=B*+1, after paid-family ownership and ambient-field scope are supplied. | DEMOTED PROVED -> CONDITIONAL 2026-07-27: the conditional implication (conditional.md, predicates `fm1` + `averaged_xr`) is intact and `fm1` is PROVED, but `averaged_xr` — which this node's proof explicitly relies on to 'supply the slope-resolved second moment' — was demoted to TARGET as a false green. This node is therefore CONDITIONAL on averaged_xr. (Independently corroborates the session-7j finding that this node's post-paid-support-family scope was being consumed at row level.)
