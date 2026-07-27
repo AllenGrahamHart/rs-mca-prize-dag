@@ -64,7 +64,7 @@ Since `3^(1/3)>4/3`, one has `3^(4/3)>4`, and hence this coefficient is
 strictly greater than `17*32*4=2176`. Finally
 
 ```text
-2176=87040/40>76599/40.
+2176=54400/25>48536/25.
 ```
 
 This proves `(NSB4)`. The argument concerns only the certificate furnished by

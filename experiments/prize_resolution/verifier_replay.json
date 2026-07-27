@@ -2,105 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 12,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/verify.py",
-      "seconds": 0.036964,
+      "script": "background/nodes/f3_affine_coset_pair_mattarei_bound/verify.py",
+      "seconds": 0.032251,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_AUTOCORRELATION_SUBFIELD_EXCLUSION_PASS subfield_degree=32 conjugate_ceiling=60 subgroup_schur=2718\n"
+      "stdout_tail": "F3_AFFINE_COSET_PAIR_MATTAREI_BOUND_PASS constant_cube=27/4 consumers=3 official_m=n,3n\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/verify.py",
-      "seconds": 25.195028,
+      "script": "background/nodes/f3_affine_coset_pair_mattarei_bound/verify_audit.py",
+      "seconds": 0.52764,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E35_QUOTIENT_SCHUR_EXCLUSION_PASS profiles=21 allocations=2946287 high_outer=4 nested=276 m3_cap=2162 residual_max=68\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/verify_audit.py",
-      "seconds": 16.482576,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E35_QUOTIENT_SCHUR_EXCLUSION_AUDIT_PASS outer=104750/32346 high=4 nested=276 hostile_mutations=3\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/verify.py",
-      "seconds": 0.288098,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E36_QUOTIENT_SCHUR_EXCLUSION_PASS profiles=26 allocations=8144380 bbb64_sets=7888725 m3_cap=2344 residual_max=70\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/verify_audit.py",
-      "seconds": 15.441009,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E36_QUOTIENT_SCHUR_EXCLUSION_AUDIT_PASS small_group_cases=399918 quotient_shards=48 bbb64_sets=7888725 hostile_mutations=5\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/verify.py",
-      "seconds": 0.273939,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E37_QUOTIENT_SCHUR_EXCLUSION_PASS profiles=29 allocations=19732753 m3_cap=2576 residual_max=72\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/verify_audit.py",
-      "seconds": 15.412491,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E37_QUOTIENT_SCHUR_EXCLUSION_AUDIT_PASS small_group_cases=399918 bbb_sets=6435 hostile_mutations=2\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/verify.py",
-      "seconds": 0.127777,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E38_QUOTIENT_SCHUR_EXCLUSION_PASS profiles=32 allocations=43153083 m3_cap=2796 residual_max=74\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/verify_audit.py",
-      "seconds": 6.060943,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E38_QUOTIENT_SCHUR_EXCLUSION_AUDIT_PASS small_group_cases=150333 hostile_mutations=3\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_high_variance_collision_exclusion/verify.py",
-      "seconds": 0.037022,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_HIGH_VARIANCE_COLLISION_EXCLUSION_PASS mean=16 max=100 high_variance_start=136 residual_max=134\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_signed_chord_collision_gate/verify.py",
-      "seconds": 0.039224,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_SIGNED_CHORD_COLLISION_GATE_PASS baseline=102 diameter_max=21 cross_max=-22 witness=18/8/-38\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py",
-      "seconds": 0.213549,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS excluded=29 residual_max=76 majorants=21\n"
+      "stdout_tail": "F3_AFFINE_COSET_PAIR_MATTAREI_BOUND_AUDIT_PASS fixtures=798864 outside_slopes=254822 proportional_falsifier=F_113/m14\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

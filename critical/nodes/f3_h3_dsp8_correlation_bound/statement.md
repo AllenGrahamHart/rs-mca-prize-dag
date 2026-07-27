@@ -13,9 +13,12 @@ Q_n=(n-1)(n-2).
 The live target-sensitive primitive shift-pair correlation is
 
 ```text
-10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)
+10K_25^0+17K_25^A+68S_A+68C_M n^(5/3)
  <=750n^2-255Q_n.                                  (DSP8)
 ```
+
+Here `C_M=3*2^(-2/3)` is supplied by the proved Mattarei affine
+coset-pair transport.
 
 Here `K_25^0,K_25^A` count the decorated disjoint split members of
 `Q_(t,r)(X)=X^2-(1+r-t)X+r`, paired with the affine line fiber, in the
@@ -27,11 +30,11 @@ residual and hence the C36 red on the analytic route.
 The target-independent estimate
 
 ```text
-160(10K_25^0+17K_25^A)<=76599n^2                   (DSP8-U)
+25(10K_25^0+17K_25^A)<=12134n^2                    (DSP8-U)
 ```
 
 is sufficient for `(DSP8)`. It supersedes the former stronger sufficient
-constants `29031/80` and `223`; the latter is equivalent to the former
+constants `76599/160`, `29031/80`, and `223`; the last is equivalent to the former
 `10J_25^0+17J_25^A<=892n^2` target.
 
 PRE-REGISTERED F-ROUND 1 (completed against the former stronger bound):
@@ -143,34 +146,37 @@ line fiber, has fewer than `4n^(2/3)` points. Hence
       <12n^(2/3)(12n^(2/3)+1)^2.
 
 This reaches the correct `O(n^2)` exponent, but after the class weight its
-leading coefficient is `29376`, versus a target-sensitive allowance whose
-uniform lower envelope is `76599/40`. The
+leading coefficient is `29376`, versus the current uniform raw allowance
+`48536/25`. The
 pair target has an exact four-factor rational form recorded in the proved
-node. Thus the nodal locus is not deleted: closing it requires its richness,
-signed-disjointness, or target/quotient correlation, not another marginal
-point bound.
+node. This fences that branchwise proof, not all marginal point bounds; the
+Mattarei import below supersedes it.
 
-PROVED CUBE-PREIMAGE COMPRESSION AND SHARPENED NODAL ENVELOPE: put
+PROVED MATTAREI AFFINE-PAIR IMPORT AND NODAL PAYMENT: put
 `g=gcd(3,p-1)` and
 
     K={x:x^3 in H},       |K|=gn.
 
 Across all singular traces at once, the nonnode subgroup points are exactly
 the parameters `theta in K` with `1+theta in K`, after removing the tangent
-parameters. An exact Stepanov optimization for subgroup orders `n,3n` gives
+parameters. Mattarei's arbitrary-coefficient Fermat-curve Corollary transports
+to every nonproportional affine pair and gives
 
-    #{x:L_1(x),L_2(x) in K} <(51/16)|K|^(2/3).
+#{x:L_1(x),L_2(x) in K} <C_M|K|^(2/3),
+C_M=3*2^(-2/3).
 
-Consequently the worst-class weighted nodal contribution is below
+It applies both to the order-`3n` cube-preimage fiber and to twisted
+order-`n` quotient fibers whose slopes lie outside `H`. Consequently the
+worst-class weighted nodal contribution is below
 
-    552n^2   if p=2 (mod 3),
-    2387n^2  if p=1 (mod 3).
+116n^2  if p=2 (mod 3),
+498n^2  if p=1 (mod 3).
 
-This supersedes the branchwise constant `29376`. The one-cubic-root nodal
-slice cannot itself falsify DSP8, but the smooth slice still needs a disjoint
-budget; in the three-cubic-root case even the sharpened nodal envelope remains
-above `76599/40`. The target-divisor pruning node separately retains the exact
-signed-disjoint live residual.
+This supersedes the constants `552` and `2387`. Both cases now fit below the
+live raw `G=4K` allowance `48536/25`; even in the three-root case more than
+`1443n^2` remains for smooth traces. The smooth quotient-weighted correlation
+is still open, so this does not prove DSP8. The target-divisor pruning node
+separately retains the exact signed-disjoint live residual.
 
 PROVED NODAL TRACE-ORBIT ENERGY ROUTER: restrict each singular trace to its
 internally signed-distinct ordered point presentations and write their counts
@@ -198,19 +204,20 @@ below `1812n^2`, leaving more than `103n^2` for smooth traces. Neither
 condition is proved: sparse nodal sets can have full cubic bias, so this is
 an exact Pareto router rather than an equidistribution claim.
 
-PROVED NODAL STEPANOV CONSTANT BARRIER: every parameter choice in the current
+PROVED NODAL STEPANOV CONSTANT BARRIER, NOW BYPASSED: every parameter choice
+in the in-house
 one-auxiliary-polynomial ansatz satisfies
 
     (A+2mB)/D > 2^(5/3)m^(2/3).
 
 Using that ansatz for both the order-`n` quotient line and order-`3n`
 cube-preimage intersection forces a class-blind leading coefficient above
-`2176`, already larger than `76599/40`. Retuning the Stepanov integers cannot
-close the three-cubic-root nodal lane. A signed-disjoint nodal antipodal
+`2176`, already larger than `48536/25`. Retuning those Stepanov integers
+cannot close the three-cubic-root nodal lane. Mattarei's Garcia--Voloch route
+lies outside this ansatz and now bypasses the barrier. A signed-disjoint nodal antipodal
 control at `(n,p)=(64,7937)` shows that replacing weight `17` by `10` without
-the richness gate is also false. The live routes are target/richness/
-disjointness correlation, trace-sensitive distribution, or a genuinely
-stronger multi-fiber theorem.
+the richness gate is also false. The live analytic route is now the smooth
+target/richness/disjointness and quotient-weight correlation.
 
 PROVED NODAL DECORATION CLASS-DISCOUNT NO-GO: over `F_769` with the
 order-256 subgroup, one exact signed-disjoint singular pair has all nine
@@ -238,9 +245,9 @@ gives
  <=(1/4)(10F_25^0+17F_25^A)<=(17/4)M_21.
 ```
 
-Therefore either `40(10F_25^0+17F_25^A)<=76599n^2` or the stronger
-unweighted estimate `680M_21<=76599n^2` closes DSP8. The latter permits
-`M_21<=(76599/680)n^2`, so the older `FM69` conjecture is substantially
+Therefore either `25(10F_25^0+17F_25^A)<=48536n^2` or the stronger
+unweighted estimate `425M_21<=48536n^2` closes DSP8. The latter permits
+`M_21<=(48536/425)n^2`, so the older `FM69` conjecture is substantially
 stronger than this consumer requires. No factorial-moment estimate is proved.
 
 PROVED BI-STAR AND DISJOINT-SIX GATES: the rich-excess degree ladder applies

@@ -7,7 +7,7 @@ following cheaper events kill only sufficient routes:
 
 1. `P(t)>=25` kills the vacuous `P<=24` satellite;
 2. failure of the `(36,1)` class-sensitive moment kills that Pareto endpoint;
-3. failure of `M_21<=76599n^2/680` kills only the unweighted factorial-moment
+3. failure of `425M_21<=48536n^2` kills only the unweighted factorial-moment
    route; and
 4. a candidate prime or rich target kills no inequality by itself.
 

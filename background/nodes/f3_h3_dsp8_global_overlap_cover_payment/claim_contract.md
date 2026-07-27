@@ -7,8 +7,8 @@
 - **consumer:** `f3_h3_dsp8_correlation_bound`
 - **status:** `PROVED`
 - **proved dependencies:** the canonical two-cover overlap classification,
-  the pointwise quotient affine-intersection bound, the antipodal quotient
-  mass bound, and the primitive-SP normalization
+  the Mattarei pointwise affine coset-pair bound, the antipodal quotient mass
+  bound, and the primitive-SP normalization
 - **new open content:** prove `(GOP2)` directly, or the stronger uniform
   estimate `(GOP3)`
 - **falsifier:** a generic--generic overlapping edge not uniquely assigned to

@@ -25,14 +25,13 @@ Then the decorated disjoint primitive shift-pair correlation obeys
 Consequently either of the estimates
 
 ```text
-40(10F_25^0+17F_25^A)<=76599n^2,                 (RFC2)
-680M_21<=76599n^2                                 (RFC3)
+25(10F_25^0+17F_25^A)<=48536n^2,                 (RFC2)
+425M_21<=48536n^2                                 (RFC3)
 ```
 
 implies the uniform DSP8 target and hence closes the analytic C36' route.
 The older background target `M_21<=69n^2` is strictly stronger than `(RFC3)`:
-the present sufficient unweighted constant is
-`76599/680=112.645588...`.
+the present sufficient unweighted constant is `48536/425=114.202352...`.
 
 This theorem proves only the compiler. It supplies no estimate for
 `F_25^0,F_25^A`, or `M_21`.

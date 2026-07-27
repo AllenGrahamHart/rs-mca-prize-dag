@@ -10572,7 +10572,7 @@
    "refs": [
     "critical/nodes/f3_h3_dsp8_correlation_bound/statement.md"
    ],
-   "statement": "At every official row in n^2 <= p <= 6^{n/4}, with Q_n=(n-1)(n-2) and S_A=sum over antipodal P>=25 targets of R(t): 10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)<=750n^2-255Q_n. This is the sharpened E=6 disjoint-support primitive-SP correlation after the proved antipodal quotient-mass and global overlap-cover payments. The target-independent estimate 160(10K_25^0+17K_25^A)<=76599n^2 suffices. The accident-depth compiler proves that exclusion of any rectangle (P,R)>=(19,18),(21,16),(25,12),(29,8),(33,4) closes C36'. Its original fixed-order endpoint is Mbar_(3),6,33^0+(53/42)Mbar_(3),6,33^A<=(583/272)n^2 with rho_3=(R-3)_+; the wider rho_1 analytic endpoint has constant 2385/272. The joint-star/depth and single-quotient compilers give twelve exact disjoint-moment alternatives, one at every integer corner (P,R)>=(25,12),(26,11),...,(35,2),(36,1). The coordinate-minimal last row is Dbar_17^0+(29/22)Dbar_17^A<=(29/153)B_par (uniformly, Dbar_17^0+(29/22)Dbar_17^A<=(234697/48960)n^2); its survivors have degree-eight/six pure distance-six stars and one quotient lift. Its star-coupling ideal is center-independent and stays nonzero for a zero coupling, so no anchor designation is required. The exact quotient-index-free candidate support is p|s_(n,35)^X iff Dbar_17>0, with s_(n,35)^X|s_(n,18)^X. Its radical support decomposes into 3(n-s-1) Galois-orbit annihilators; at n=8192 these are 24,534 independent blocks of degree at most 4,096, with total degree unchanged. Every block has a unique formula-generated (j,sign,w) ID and an explicit cyclotomic-resultant or normalized-reciprocal polynomial, so no quotient-orbit enumeration is needed; reciprocal support is not identified. Exact scalar elimination may be replaced by the complete three-resultant gcd superset: 73,602 ordinary resultants at n=8192, followed by full factorization and exact false-positive filtering. More sharply, the coefficient content of one cutoff-35 Taylor resultant per block has exactly the scalar annihilator's odd prime radical, with maximum auxiliary degree 143,360. The preceding (35,2) row has the older smaller normalized allowance, an incomparable rectangle, two lifts, and one spoke. The twelve rows are alternatives and cannot be mixed. The proved rich factorial-moment compiler gives further sufficient estimates 40(10F_25^0+17F_25^A)<=76599n^2 or 680M_21<=76599n^2. FALSIFIER: one official row violating a selected sufficient inequality kills that analytic route, not necessarily C36 itself. Minted 2026-07-19 at the C36 amber ceremony (alt leaf, gate=any). || F-ROUND 1 EXECUTED against the former stronger target: SURVIVED-VACUOUSLY (2026-07-19; packet notes/dsp8r1_fround1_20260719/, 25 Modal apps; catches #288-#295): no measured row has a retained P>=25 target; richness saturates at P=20. Round 2 must be constructive through collision-norm/coupled-ideal templates, not a broad scan.",
+   "statement": "At every official row in n^2 <= p <= 6^{n/4}, with C_M=3*2^(-2/3), Q_n=(n-1)(n-2), and S_A=sum over antipodal P>=25 targets of R(t): 10K_25^0+17K_25^A+68S_A+68C_M n^(5/3)<=750n^2-255Q_n. Mattarei's arbitrary-coefficient Fermat-curve Corollary applies to both twisted quotient fibers and the combined cube-preimage fiber. It lowers the complete raw nodal payment to <116n^2 or <498n^2 according as gcd(3,p-1)=1 or 3, leaving >1443n^2 of the live raw allowance for the open smooth correlation. The target-independent estimate 25(10K_25^0+17K_25^A)<=12134n^2 suffices. The accident-depth compiler proves that exclusion of any rectangle (P,R)>=(19,18),(21,16),(25,12),(29,8),(33,4) closes C36'. Its original fixed-order endpoint is Mbar_(3),6,33^0+(53/42)Mbar_(3),6,33^A<=(583/272)n^2 with rho_3=(R-3)_+; the wider rho_1 analytic endpoint has constant 2385/272. The joint-star/depth and single-quotient compilers give twelve exact disjoint-moment alternatives, one at every integer corner (P,R)>=(25,12),(26,11),...,(35,2),(36,1). The coordinate-minimal last row is Dbar_17^0+(29/22)Dbar_17^A<=(29/153)B_par (uniformly, Dbar_17^0+(29/22)Dbar_17^A<=(234697/48960)n^2); its survivors have degree-eight/six pure distance-six stars and one quotient lift. Its star-coupling ideal is center-independent and stays nonzero for a zero coupling, so no anchor designation is required. The exact quotient-index-free candidate support is p|s_(n,35)^X iff Dbar_17>0, with s_(n,35)^X|s_(n,18)^X. Its radical support decomposes into 3(n-s-1) Galois-orbit annihilators; at n=8192 these are 24,534 independent blocks of degree at most 4,096, with total degree unchanged. Every block has a unique formula-generated (j,sign,w) ID and an explicit cyclotomic-resultant or normalized-reciprocal polynomial, so no quotient-orbit enumeration is needed; reciprocal support is not identified. Exact scalar elimination may be replaced by the complete three-resultant gcd superset: 73,602 ordinary resultants at n=8192, followed by full factorization and exact false-positive filtering. More sharply, the coefficient content of one cutoff-35 Taylor resultant per block has exactly the scalar annihilator's odd prime radical, with maximum auxiliary degree 143,360. The preceding (35,2) row has the older smaller normalized allowance, an incomparable rectangle, two lifts, and one spoke. The twelve rows are alternatives and cannot be mixed. The proved rich factorial-moment compiler gives further sufficient estimates 25(10F_25^0+17F_25^A)<=48536n^2 or 425M_21<=48536n^2. FALSIFIER: one official row violating a selected sufficient inequality kills that analytic route, not necessarily C36 itself. Minted 2026-07-19 at the C36 amber ceremony (alt leaf, gate=any). || F-ROUND 1 EXECUTED against the former stronger target: SURVIVED-VACUOUSLY (2026-07-19; packet notes/dsp8r1_fround1_20260719/, 25 Modal apps; catches #288-#295): no measured row has a retained P>=25 target; richness saturates at P=20. Round 2 must be constructive through smooth correlation or collision-norm/coupled-ideal templates, not a broad scan.",
    "upstream": {
     "label": "SP/second-moment stratification (Sum N^2 identity)",
     "relation": "OVERLAP"
@@ -13088,11 +13088,29 @@
    ]
   },
   {
+   "id": "f3_affine_coset_pair_mattarei_bound",
+   "title": "Mattarei affine coset-pair bound",
+   "status": "PROVED",
+   "closure": "external theorem plus transport proof",
+   "statement": "Let K<=F_p^* have order m and index d=(p-1)/m. If d>=4 and d^3>=4m, every simultaneous membership fiber of two nonconstant nonproportional affine forms has size <3*2^(-2/3)m^(2/3). Mattarei's arbitrary Fermat coefficients cover slopes outside K. The hypotheses hold at all official H3 rows for m=n and m=3n. This prime-field pointwise theorem bypasses, but does not refute, the in-house one-polynomial Stepanov barrier.",
+   "refs": [
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/statement.md",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/proof.md",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/claim_contract.md",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/dependency_subdag.md",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/audit.md",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/result.md",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/source_pin.json",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/verify.py",
+    "background/nodes/f3_affine_coset_pair_mattarei_bound/verify_audit.py"
+   ]
+  },
+  {
    "id": "f3_h3_dsp8_nodal_cube_preimage_envelope",
    "title": "DSP8 nodal cube-preimage envelope",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "All singular-trace subgroup points combine into one affine intersection of the cube-preimage subgroup K={x:x^3 in H}, of order gcd(3,p-1)n. The resulting class-weighted raw nodal DSP8 contribution is below 552n^2 when p=2 mod 3 and below 2387n^2 when p=1 mod 3. This improves the old uniform constant 29376 but does not pay the smooth traces or close DSP8.",
+   "statement": "All singular-trace subgroup points combine into one affine intersection of the cube-preimage subgroup K={x:x^3 in H}, of order gcd(3,p-1)n. Applying the Mattarei affine-pair theorem to both this fiber and every twisted quotient fiber lowers the class-weighted raw nodal DSP8 contribution below 116n^2 when p=2 mod 3 and below 498n^2 when p=1 mod 3. Both fit the live allowance, leaving more than 1443n^2 in the three-root case; the smooth quotient-weighted correlation remains open.",
    "refs": [
     "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/statement.md",
     "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/proof.md",
@@ -13143,7 +13161,7 @@
    "title": "DSP8 antipodal quotient-mass payment",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "On the E=6, P>=25 interface, the selected antipodal quotient mass S_A is below (51/32)(n-2)n^(2/3), and the class-weighted overlap payment is at most 6Q_n+(38/5)S_A. Consequently C36' follows from 10K_25^0+17K_25^A+152S_A<=750n^2-375Q_n; the uniform estimate 80(10K_25^0+17K_25^A)<=29031n^2 is sufficient. This replaces the former sufficient primitive-SP constant 223 by 29031/80 without estimating the open disjoint correlation.",
+   "statement": "On the E=6, P>=25 interface, the selected antipodal quotient mass S_A is below (C_M/2)(n-2)n^(2/3), C_M=3*2^(-2/3), and the class-weighted overlap payment is at most 6Q_n+(38/5)S_A. Consequently C36' follows from 10K_25^0+17K_25^A+152S_A<=750n^2-375Q_n; the uniform estimate 100(10K_25^0+17K_25^A)<=36781n^2 is sufficient without estimating the open disjoint correlation.",
    "refs": [
     "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/statement.md",
     "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/proof.md",
@@ -13160,7 +13178,7 @@
    "title": "DSP8 global overlap-cover payment",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "The two exact one-parameter covers contain at most 2n overlapping generic--generic distance-six edges globally. Combining this with the affine quotient-fiber cap and the antipodal quotient-mass theorem gives O_6,25^0+(17/10)O_6,25^A<(867/80)n^(5/3)+(17/5)S_A. Consequently C36' follows from 10K_25^0+17K_25^A+68S_A+(867/4)n^(5/3)<=750n^2-255Q_n; uniformly, 160(10K_25^0+17K_25^A)<=76599n^2 suffices. This raises the sufficient primitive-SP constant to 76599/160 without estimating the open disjoint correlation.",
+   "statement": "The two exact one-parameter covers contain at most 2n overlapping generic--generic distance-six edges globally. Combining this with Mattarei's affine quotient-fiber cap and the antipodal quotient-mass theorem gives O_6,25^0+(17/10)O_6,25^A<(17/5)C_M n^(5/3)+(17/5)S_A. Consequently C36' follows from 10K_25^0+17K_25^A+68S_A+68C_M n^(5/3)<=750n^2-255Q_n; uniformly, 25(10K_25^0+17K_25^A)<=12134n^2 suffices without estimating the open disjoint correlation.",
    "refs": [
     "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/statement.md",
     "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/proof.md",
@@ -13177,7 +13195,7 @@
    "title": "DSP8 rich factorial-moment compiler",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "For F_25^c=sum over class-c P>=25 targets of P(t)(P(t)-2)R(t), the decorated disjoint correlation satisfies 10K_25^0+17K_25^A<=(10F_25^0+17F_25^A)/4<=(17/4)M_21, where M_21=sum over t!=1 of P(t)(P(t)-1)R(t). Consequently 40(10F_25^0+17F_25^A)<=76599n^2, or more strongly 680M_21<=76599n^2, implies the uniform DSP8 target. The older FM69 target is sufficient but substantially stronger than necessary.",
+   "statement": "For F_25^c=sum over class-c P>=25 targets of P(t)(P(t)-2)R(t), the decorated disjoint correlation satisfies 10K_25^0+17K_25^A<=(10F_25^0+17F_25^A)/4<=(17/4)M_21, where M_21=sum over t!=1 of P(t)(P(t)-1)R(t). Consequently 25(10F_25^0+17F_25^A)<=48536n^2, or more strongly 425M_21<=48536n^2, implies the uniform DSP8 target. The older FM69 target is sufficient but substantially stronger than necessary.",
    "refs": [
     "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/statement.md",
     "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/proof.md",
@@ -13396,7 +13414,7 @@
    "title": "DSP8 nodal Stepanov constant barrier",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "Every positive parameter choice in the current one-auxiliary-polynomial Stepanov ansatz, with D(A+D)<AB^2 and AB<=m, has degree-to-multiplicity quotient greater than 2^(5/3)m^(2/3). Using this ansatz for both the order-n quotient line and order-3n nodal parameter count forces a class-blind leading coefficient above 2176, exceeding the live G-normalized allowance 76599/40. Retuning A,B,D cannot close the three-cubic-root nodal lane; target-sensitive correlation or a stronger multi-fiber theorem is required. This is a proof-method barrier, not a lower bound on actual records.",
+   "statement": "Every positive parameter choice in the in-house one-auxiliary-polynomial Stepanov ansatz, with D(A+D)<AB^2 and AB<=m, has degree-to-multiplicity quotient greater than 2^(5/3)m^(2/3). Using this ansatz for both the order-n quotient line and order-3n nodal parameter count forces a class-blind leading coefficient above 2176, exceeding the live G-normalized allowance 48536/25. Retuning A,B,D cannot close the three-cubic-root nodal lane. Mattarei's distinct Garcia--Voloch route now bypasses this proof-method barrier; the statement was never a lower bound on actual records.",
    "refs": [
     "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/statement.md",
     "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/proof.md",
@@ -25676,7 +25694,7 @@
    "kind": "req"
   },
   {
-   "from": "f3_affine_coset_pair_cubic_preimage_stepanov",
+   "from": "f3_affine_coset_pair_mattarei_bound",
    "to": "f3_h3_dsp8_nodal_cube_preimage_envelope",
    "kind": "req"
   },
@@ -27961,7 +27979,7 @@
    "kind": "req"
   },
   {
-   "from": "f3_affine_coset_pair_cubic_preimage_stepanov",
+   "from": "f3_affine_coset_pair_mattarei_bound",
    "to": "f3_h3_dsp8_antipodal_quotient_mass_payment",
    "kind": "req"
   },
@@ -27981,7 +27999,7 @@
    "kind": "req"
   },
   {
-   "from": "f3_affine_coset_pair_cubic_preimage_stepanov",
+   "from": "f3_affine_coset_pair_mattarei_bound",
    "to": "f3_h3_dsp8_global_overlap_cover_payment",
    "kind": "req"
   },

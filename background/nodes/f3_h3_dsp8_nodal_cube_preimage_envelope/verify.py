@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[3]
 NODE = "f3_h3_dsp8_nodal_cube_preimage_envelope"
 DEPENDENCIES = {
     "f3_h3_dsp8_nodal_trace_parameter_router",
-    "f3_affine_coset_pair_cubic_preimage_stepanov",
+    "f3_affine_coset_pair_mattarei_bound",
 }
 CONSUMER = "f3_h3_dsp8_correlation_bound"
 
@@ -96,22 +96,28 @@ def cube_preimage_check(prime: int, order: int) -> tuple[int, int, int]:
 
 
 def constants_check() -> None:
-    live_g_allowance = Fraction(76599, 40)
-    assert 8192**2 > 400**3
-    one_root = 17 * Fraction(51, 16) * (Fraction(51, 16) + Fraction(1, 400)) ** 2
-    assert one_root == Fraction(88226787, 160000)
-    assert one_root < 552
+    live_g_allowance = Fraction(48536, 25)
+    cm = Fraction(189, 100)
+    inv_x = Fraction(1, 406)
+    assert 4 * 189**3 > 27 * 100**3
+    assert 8192**2 > 406**3
+    one_root = 17 * cm * (cm**2 + 2 * cm * inv_x + inv_x**2)
+    assert one_root == Fraction(677422443051, 5887000000)
+    assert one_root < 116
     assert one_root < live_g_allowance
 
-    cubic_bound = Fraction(2081, 1000)
-    assert cubic_bound**3 > 9
-    assert 2081**3 - 9 * 1000**3 == 11897441
-    three_root = 17 * Fraction(51, 16) * (
-        Fraction(51, 16) * cubic_bound + Fraction(1, 400)
-    ) ** 2
-    assert three_root == Fraction(9773067835947, 4096000000)
-    assert three_root < 2387
-    assert three_root > live_g_allowance
+    g_two_thirds = Fraction(2081, 1000)
+    g_four_thirds = Fraction(4327, 1000)
+    assert g_two_thirds**3 > 9
+    assert g_four_thirds**3 > 81
+    three_root = 17 * cm * (
+        cm**2 * g_four_thirds
+        + 2 * cm * g_two_thirds * inv_x
+        + inv_x**2
+    )
+    assert three_root == Fraction(2927247785605377, 5887000000000)
+    assert three_root < 498
+    assert live_g_allowance - 498 > 1443
 
 
 def packet_check() -> None:
@@ -132,10 +138,10 @@ def packet_check() -> None:
     for marker in (
         "K={xinF_p^*:x^3inH}",
         "|K|=gn",
-        "<(51/16)(gn)^(2/3)+1",
-        "<552n^2ifp=2(mod3)",
-        "<2387n^2ifp=1(mod3)",
-        "76599/40=1914.975",
+        "C_M=3*2^(-2/3)",
+        "<116n^2ifp=2(mod3)",
+        "<498n^2ifp=1(mod3)",
+        "48536/25=1941.44",
         "doesnotcloseDSP8",
     ):
         assert marker in statement

@@ -7,8 +7,8 @@
 - **consumer:** `f3_h3_dsp8_global_overlap_cover_payment`, then
   `f3_h3_dsp8_correlation_bound`
 - **status:** `PROVED`
-- **proved dependencies:** the support-overlap caps, the pointwise quotient
-  affine-intersection bound, and the exact primitive-SP normalization
+- **proved dependencies:** the support-overlap caps, the Mattarei pointwise
+  affine coset-pair bound, and the exact primitive-SP normalization
 - **new open content:** estimate the disjoint `K_25^0,K_25^A` correlation in
   the downstream target; the payment implication itself is closed
 - **falsifier:** an official row violating `(AQM1)`, `(AQM2)`, or the

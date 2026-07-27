@@ -4,7 +4,7 @@
 - **closure:** proof
 - **consumer:** `f3_h3_dsp8_correlation_bound`
 - **dependencies:** `f3_h3_distance_six_support_overlap_payment`,
-  `f3_affine_coset_pair_cubic_preimage_stepanov`,
+  `f3_affine_coset_pair_mattarei_bound`,
   `f3_h3_dsp8_primitive_shift_pair_adapter`
 
 Use the `E=6`, `P(t)>=25` interface. Let
@@ -17,7 +17,7 @@ Q_n=(n-1)(n-2).
 Then
 
 ```text
-S_A <(51/32)(n-2)n^(2/3).                           (AQM1)
+S_A <(C_M/2)(n-2)n^(2/3),       C_M=3*2^(-2/3).    (AQM1)
 ```
 
 If `O_6,25^0,O_6,25^A` are the support-overlapping distance-six
@@ -40,9 +40,10 @@ bound
 In particular, the target-independent estimate
 
 ```text
-80(10K_25^0+17K_25^A) <=29031n^2                   (AQM4)
+100(10K_25^0+17K_25^A) <=36781n^2                  (AQM4)
 ```
 
 is sufficient on every official row. Its effective correlation constant is
-`29031/80=362.8875`, replacing the former sufficient constant `223`. This
-theorem supplies no estimate for the disjoint primitive shift-pair count.
+`36781/100=367.81`, replacing `29031/80` and the former sufficient constant
+`223`. This theorem supplies no estimate for the disjoint primitive
+shift-pair count.

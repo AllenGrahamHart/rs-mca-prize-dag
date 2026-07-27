@@ -43,13 +43,13 @@ sum. On every retained target, `P(t)(P(t)-2)<=P(t)(P(t)-1)`. Consequently
 ```
 
 Equations `(4)--(5)` prove `(RFC1)`. Dividing `(RFC2)` or `(RFC3)` by
-`160` makes its left side respectively
+`100` makes its left side respectively
 `(10F_25^0+17F_25^A)/4` or `(17/4)M_21`. Thus `(RFC1)` gives in either case
 
 ```text
-10K_25^0+17K_25^A<=(76599/160)n^2.                 (6)
+10K_25^0+17K_25^A<=(12134/25)n^2.                  (6)
 ```
 
 The global overlap-cover payment proves that `(6)` is sufficient for DSP8
-on every official row. Finally `680*69=46920<76599`, so the older `FM69`
+on every official row. Finally `425*69=29325<48536`, so the older `FM69`
 target implies `(RFC3)`. QED.

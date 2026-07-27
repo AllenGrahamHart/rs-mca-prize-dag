@@ -1,0 +1,17 @@
+{
+  "author": "Sandro Mattarei",
+  "title": "On a bound of Garcia and Voloch for the number of points of a Fermat curve over a prime field",
+  "journal": "Finite Fields and Their Applications 13 (2007), 773-777",
+  "doi": "10.1016/j.ffa.2006.03.005",
+  "arxiv_id": "math/0511339",
+  "arxiv_version": "v1",
+  "arxiv_posted": "2005-11-14",
+  "source_url": "https://arxiv.org/e-print/math/0511339v1",
+  "source_archive_sha256": "69a757ee03e108c794105efd8e86ec549dec222ee6c1f8772e1f6521bdd490fd",
+  "source_member": "GV.tex",
+  "primary_statement_locator": "unnumbered Corollary following the introduction",
+  "method_separation_locator": "Remark 3",
+  "retrieved_utc": "2026-07-27",
+  "source_not_vendored": true
+}
+

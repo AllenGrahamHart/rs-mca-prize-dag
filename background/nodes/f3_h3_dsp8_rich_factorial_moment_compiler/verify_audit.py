@@ -15,11 +15,11 @@ def main() -> None:
     assert "P(t)(P(t)-2)R(t)" in statement
     assert "<=(1/4)(10F_25^0+17F_25^A)" in statement
     assert "<=(17/4)M_21" in statement
-    assert "40(10F_25^0+17F_25^A)<=76599n^2" in statement
-    assert "680M_21<=76599n^2" in statement
+    assert "25(10F_25^0+17F_25^A)<=48536n^2" in statement
+    assert "425M_21<=48536n^2" in statement
     assert "2g(t)<=P(t)" in proof
     assert "N_6^disj(t)<=binom(g(t),2)" in proof
-    assert "680*69=46920<76599" in proof
+    assert "425*69=29325<48536" in proof
     assert "no diagonal correction" in audit
     assert "does not refute DSP8" in audit
 

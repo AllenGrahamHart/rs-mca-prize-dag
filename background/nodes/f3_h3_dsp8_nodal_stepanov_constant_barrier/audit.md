@@ -12,7 +12,8 @@
    the factor is `C_1 C_3^2 3^(4/3)`.
 5. The class-blind coefficient `17` is retained. Any improvement using the
    cheaper class, richness, or disjointness lies outside the barrier.
-6. The live comparison is `76599/40`, not the historical stronger `892`.
+6. The live comparison is `48536/25`, not the superseded `76599/40` or the
+   historical stronger `892`.
 
 The independent audit samples many exact rational feasible parameter tuples
 and verifies the strict cubed form of `(NSB2)`.
