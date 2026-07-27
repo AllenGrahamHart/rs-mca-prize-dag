@@ -4264,7 +4264,7 @@ threshold.
 
 ```text
 starting pin: local 831fa2dc
-proof pin: pending commit
+proof pin: local df102559
 node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
 result: CLOSED nonquarter-diameter branch; progression and generic remain
 exact census: 28,368,875 supports; 1,815,608,000 signed vectors;
