@@ -3,12 +3,12 @@
 ## Input
 
 - `e1_n256_s16_sparse_l1_variance_exclusion`, including profile
-  `(3,4,0)` and the exact residual `0<V<=104`.
+  `(3,4,0)` and the exact residual `0<V<=100`.
 
 ## Output
 
 Every vector in that residual has signed repeated-distance cross sum
-`C<=-15`, and therefore contains an oppositely signed equal-chord pair.
+`C<=-16`, and therefore contains an oppositely signed equal-chord pair.
 
 ## Guards
 
@@ -24,5 +24,5 @@ Every vector in that residual has signed repeated-distance cross sum
 
 ## Falsifier
 
-A profile-`(3,4,0)` vector with `0<V<=104` whose signed
-repeated-distance cross sum exceeds `-15`.
+A profile-`(3,4,0)` vector with `0<V<=100` whose signed
+repeated-distance cross sum exceeds `-16`.

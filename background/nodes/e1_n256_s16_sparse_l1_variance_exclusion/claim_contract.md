@@ -8,8 +8,8 @@
 
 ## Output
 
-Variances `106,108,...,134` are collision-free. The unresolved
-profile-`(3,4,0)` residual is positive even `V<=104`.
+Variances `102,104,...,134` are collision-free. The unresolved
+profile-`(3,4,0)` residual is positive even `V<=100`.
 
 ## Guards
 
@@ -21,9 +21,12 @@ profile-`(3,4,0)` residual is positive even `V<=104`.
    raw chord magnitudes: three `4`s, twelve `2`s, and six `1`s.
 4. Diameter chords are removed from both raw mass ledgers before the
    classwise cancellation inequality is summed.
-5. Every logarithmic majorant uses the row-specific ceiling `B`.
-6. Endpoint and six-bit inequalities are exact rational Taylor comparisons.
-7. No claim is made for `0<V<=104` or profile `(4,2,0)`.
+5. The endpoint improvements at `E=51,52` use only the exact local
+   slack classifications `delta=0,2`; the exploratory partition DP is not
+   load-bearing.
+6. Every logarithmic majorant uses the row-specific ceiling `B`.
+7. Endpoint and six-bit inequalities are exact rational Taylor comparisons.
+8. No claim is made for `0<V<=100` or profile `(4,2,0)`.
 
 ## Falsifier
 

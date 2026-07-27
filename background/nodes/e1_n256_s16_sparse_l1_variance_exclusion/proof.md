@@ -87,18 +87,80 @@ Therefore
 4L<=E+66,       L<=floor((E+66)/4).                    (3)
 ```
 
+For the two endpoint energies we can sharpen (3). In a non-diameter class,
+let `b,r,t` count raw chord magnitudes `4,2,1`, respectively, and
+retain `S=|A_d|`. Define its nonnegative charging slack
+
+```text
+delta_d=4H_d-Q_d.
+```
+
+Since `4b+2r+t=S+2N`, direct substitution gives
+
+```text
+delta_d=(S-2)^2+4r+3t-4.                              (4)
+```
+
+The parity `S=t mod 2` shows that every `delta_d` is even. Equation
+(4) also classifies the two smallest values:
+
+```text
+delta_d=0:
+  (r,t,S)=(0,0,0),(0,0,4),(1,0,2),(0,1,1),(0,1,3);
+
+delta_d=2:
+  (r,t,S)=(0,2,2).
+```
+
+For a diameter chord of magnitude `a`, use the slack
+`delta_64(a)=4a-a^2`, which is `0,4,3` for
+`a=4,2,1`. Summing every class gives the exact global slack identity
+
+```text
+Delta=4(42-L)-(102-E)
+     =sum_d delta_d+sum_(diameters e) delta_64(a_e).   (5)
+```
+
+Suppose first that `E=52`. Bound (3) gives `L<=29`. If
+`L=29`, then (5) gives `Delta=2`. Hence there is no unit or
+magnitude-two diameter, exactly one non-diameter class has slack two, and
+every other class has slack zero. The slack-two class consumes exactly two of
+the six unit chords, no magnitude-two chord, and contributes energy four.
+Each of the twelve magnitude-two chords lies in a distinct zero-slack class
+with `S=2`, contributing total energy 48. The four remaining unit chords
+lie in distinct zero-slack classes with positive odd `S`, contributing at
+least four more. Thus `E>=56`, a contradiction, and
+
+```text
+E=52 implies L<=28.                                   (6)
+```
+
+Now suppose `E=51`. If `L=29`, then (5) gives the impossible
+value `Delta=1`. If `L=28`, then `Delta=5`. The only
+decomposition of five into the allowed nonnegative charges is one unit
+diameter of charge three and one slack-two class. All twelve magnitude-two
+chords again lie in distinct zero-slack classes and contribute energy 48.
+The slack-two class contributes four, and the three remaining unit chords
+contribute at least three, so `E>=55`, again a contradiction. Therefore
+
+```text
+E=51 implies L<=27.                                   (7)
+```
+
 If `y_u=|F(zeta^u)|^2` for odd `u`, then the mean of the
 `y_u` is 16. Autocorrelation antisymmetry gives
 
 ```text
-|y_u-16|<=2L.                                          (4)
+|y_u-16|<=2L.                                          (8)
 ```
 
-Apply (3) to the two new low-variance blocks and (1) to the five existing
-upper blocks:
+Apply (6)--(7) to the two new endpoint rows, (3) to the next two
+low-variance blocks, and (1) to the five existing upper blocks:
 
 ```text
 V range    E upper    L upper    y upper B    denominator C
+102           51         27          70             1568
+104           52         28          72             1600
 106           53         29          74             1607
 108--110      55         30          76             1643
 112          56         32          80             1714
@@ -142,7 +204,7 @@ and their mean square is `V`, giving
 
 ```text
 log G<=log 16-V/C,
-|Norm(F(zeta))|=G^64<=2^256 exp(-64V/C).               (5)
+|Norm(F(zeta))|=G^64<=2^256 exp(-64V/C).               (9)
 ```
 
 For each row use its minimum `V` and put `q=32V/(3C)`.
@@ -152,7 +214,7 @@ The degree-nine positive Taylor truncation verifies exactly that
 sum_(j=0)^9 q^j/j! > 2.
 ```
 
-Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (5)
+Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (9)
 is strictly below `2^250`. The collision-norm criterion excludes
 every listed variance. Since `V` is even, only
-`0<V<=104` remains.
+`0<V<=100` remains.

@@ -977,8 +977,8 @@ matching of weight at most 21. Expanding the exact negacyclic energy gives
 V/2=102-D_64+2C.
 ```
 
-The currently sharpened residual `V<=104` therefore forces signed
-repeated-distance cross sum `C<=-15`. Every live support has an
+The currently sharpened residual `V<=100` therefore forces signed
+repeated-distance cross sum `C<=-16`. Every live support has an
 oppositely signed pair of equal
 non-diameter chords and hence a three-term-progression or four-point
 parallelogram relation. This removes all circular-Sidon supports and turns the
@@ -1022,10 +1022,29 @@ obey the same factor-four charge. Consequently
 Two additional exact logarithmic majorants exclude `V=106,108,110`.
 Together with N32, all fifteen even variances from 106 through 134 are
 excluded, leaving positive even `V<=104`. The signed-chord cross sum
-therefore satisfies the stronger `C<=-15`. This remains a structural
-reduction, not a close of the 52 live variance values or profile `(4,2,0)`.
+therefore satisfies `C<=-15`; N34 below sharpens both bounds. This
+remains a structural reduction, not a close of the 52 live variance values or
+profile `(4,2,0)`.
 See `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/` and
 `background/nodes/e1_n256_s16_signed_chord_collision_gate/`.
+
+N34 DONE, E1 N=256 LOW-SLACK ENDPOINT REFINEMENT: for a non-diameter
+distance class, the exact slack in the factor-four chord charge is
+
+```text
+delta=(S-2)^2+4r+3t-4,
+```
+
+where `r,t` count magnitude-two and unit chords and `S` is the
+absolute class sum. The `delta=0,2` classifications show that
+`E=52` forces `L<=28` and `E=51` forces `L<=27`.
+Two exact logarithmic majorants with `(B,C)=(72,1600)` and
+`(70,1568)` exclude `V=104` and `V=102`. The current residual is
+positive even `V<=100`, and the signed-chord gate strengthens to
+`C<=-16`. No exploratory partition computation is load-bearing. This is
+still a route reduction rather than a close of the residual or profile
+`(4,2,0)`. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it

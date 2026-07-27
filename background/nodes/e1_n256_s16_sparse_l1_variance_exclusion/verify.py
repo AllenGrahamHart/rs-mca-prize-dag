@@ -25,6 +25,8 @@ EXPECTED_PIN = {
 }
 
 ROWS = (
+    (102, 102, 51, 27, 70, 1568, "slack"),
+    (104, 104, 52, 28, 72, 1600, "slack"),
     (106, 106, 53, 29, 74, 1607, "chord"),
     (108, 110, 55, 30, 76, 1643, "chord"),
     (112, 112, 56, 32, 80, 1714, "integer"),
@@ -60,6 +62,14 @@ def taylor(argument: Fraction, degree: int) -> Fraction:
 def maximum_part_square_sum(total: int) -> int:
     quotient, remainder = divmod(total, 4)
     return 16 * quotient + (0, 1, 4, 5)[remainder]
+
+
+def attainable_absolute_sums(count_4: int, count_2: int, count_1: int) -> set[int]:
+    sums = {0}
+    for value, count in ((4, count_4), (2, count_2), (1, count_1)):
+        for _ in range(count):
+            sums = {current + sign * value for current in sums for sign in (-1, 1)}
+    return {abs(current) for current in sums}
 
 
 def main() -> None:
@@ -122,6 +132,39 @@ def main() -> None:
         for difference in range(1, 4)
     }
     assert actual_slacks == expected_slacks
+
+    low_slack_patterns = {0: set(), 2: set()}
+    for count_4 in range(4):
+        for count_2 in range(13):
+            for count_1 in range(7):
+                if count_4 + count_2 + count_1 == 0:
+                    continue
+                for class_sum in attainable_absolute_sums(count_4, count_2, count_1):
+                    slack = (
+                        (class_sum - 2) ** 2
+                        + 4 * count_2
+                        + 3 * count_1
+                        - 4
+                    )
+                    assert slack >= 0
+                    assert slack % 2 == 0
+                    if slack in low_slack_patterns:
+                        low_slack_patterns[slack].add((count_2, count_1, class_sum))
+    assert low_slack_patterns == {
+        0: {(0, 0, 0), (0, 0, 4), (1, 0, 2), (0, 1, 1), (0, 1, 3)},
+        2: {(0, 2, 2)},
+    }
+    assert {value: 4 * value - value * value for value in (4, 2, 1)} == {
+        4: 0,
+        2: 4,
+        1: 3,
+    }
+    assert 4 * (42 - 29) - (102 - 52) == 2
+    assert 12 * 4 + 4 + 4 > 52
+    assert 4 * (42 - 29) - (102 - 51) == 1
+    assert 4 * (42 - 28) - (102 - 51) == 5
+    assert 12 * 4 + 4 + 3 > 51
+    special_l1_bounds = {51: 27, 52: 28}
     assert {
         energy: (energy + 66) // 4
         for energy in (53, 54, 55)
@@ -130,9 +173,12 @@ def main() -> None:
     excluded = []
     for lower_v, upper_v, upper_energy, upper_l1, bound, denominator, method in ROWS:
         energies = range(lower_v // 2, upper_energy + 1)
-        if method == "chord":
+        if method == "slack":
+            assert all(special_l1_bounds[energy] <= upper_l1 for energy in energies)
+        elif method == "chord":
             assert all((energy + 66) // 4 <= upper_l1 for energy in energies)
         else:
+            assert method == "integer"
             assert all(maxima[energy] <= upper_l1 for energy in energies)
         assert bound == 16 + 2 * upper_l1
         assert 16 < Fraction(denominator, 32) < bound
@@ -147,7 +193,7 @@ def main() -> None:
         assert taylor(six_bit_exponent, 9) > 2
         excluded.extend(range(lower_v, upper_v + 1, 2))
 
-    assert excluded == list(range(106, 136, 2))
+    assert excluded == list(range(102, 136, 2))
 
     dag = json.loads((ROOT / "dag.json").read_text())
     statuses = {entry["id"]: entry["status"] for entry in dag["nodes"]}
@@ -162,12 +208,12 @@ def main() -> None:
     assert (NORM_PARENT, NODE, "req") in edges
     assert (NODE, E1_TARGET, "ev") in edges
     assert (NODE, UNIVERSAL_TARGET, "ev") in edges
-    assert "106<=V<=134" in statements[NODE]
-    assert "V<=104" in statements[NODE]
+    assert "102<=V<=134" in statements[NODE]
+    assert "V<=100" in statements[NODE]
 
     print(
         "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS "
-        "excluded=15 residual_max=104 majorants=7"
+        "excluded=17 residual_max=100 majorants=9"
     )
 
 

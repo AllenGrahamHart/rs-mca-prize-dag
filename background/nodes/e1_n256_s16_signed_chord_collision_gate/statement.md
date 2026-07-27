@@ -8,7 +8,7 @@ Let `F=sum_i c_i X^i` have folded profile `(3,4,0)` in the
 exclusion, so
 
 ```text
-0<V<=104.
+0<V<=100.
 ```
 
 For an unordered support pair `e={i,j}`, let `d(e)` be its circular
@@ -31,7 +31,7 @@ Diameter chords form a matching on the seven support points, and the profile
 weights give `D_64<=21`. Consequently every surviving vector satisfies
 
 ```text
-C<=-15.                                               (2)
+C<=-16.                                               (2)
 ```
 
 In particular, some non-diameter circular distance is realized by two

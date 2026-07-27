@@ -12,4 +12,4 @@ e1_n256_s16_sparse_l1_variance_exclusion [PROVED]
 ```
 
 This is an analytic child of the former `V<=134` residual. It leaves
-a smaller positive even `V<=104` leaf.
+a smaller positive even `V<=100` leaf.
