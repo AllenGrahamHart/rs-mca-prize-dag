@@ -2,105 +2,57 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 12,
+    "PASS": 6,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e32_endpoint_exclusion/verify.py",
-      "seconds": 0.055781,
+      "script": "background/nodes/e1_n256_s16_e31_endpoint_exclusion/verify.py",
+      "seconds": 0.100735,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E32_ENDPOINT_EXCLUSION_PASS profiles=3 exclusions=3 frontier=62 mutations=4\n"
+      "stdout_tail": "E1_N256_S16_E31_ENDPOINT_EXCLUSION_PASS profiles=3 exclusions=3 frontier=60 mutations=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e32_endpoint_exclusion/verify_audit.py",
-      "seconds": 0.04427,
+      "script": "background/nodes/e1_n256_s16_e31_endpoint_exclusion/verify_audit.py",
+      "seconds": 0.079486,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E32_ENDPOINT_EXCLUSION_AUDIT_PASS incoming=4 profiles=3 frontier=62\n"
+      "stdout_tail": "E1_N256_S16_E31_ENDPOINT_EXCLUSION_AUDIT_PASS incoming=2 profiles=3 frontier=60\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e32_four_odd_light_template_reduction/verify.py",
-      "seconds": 9.89813,
+      "script": "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/verify.py",
+      "seconds": 2.517942,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E32_FOUR_ODD_LIGHT_TEMPLATE_REDUCTION_PASS supports=28800 orbits=148 wedges=148 diameters=6 mutations=1\n"
+      "stdout_tail": "E1_N256_S16_E31_PROFILE_PARITY_LIGHT_REDUCTION_PASS profiles=15 above=8 survivors=3 supports=960 orbits=8 ledgers=5\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e32_four_odd_light_template_reduction/verify_audit.py",
-      "seconds": 2.400019,
+      "script": "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/verify_audit.py",
+      "seconds": 3.104584,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E32_FOUR_ODD_LIGHT_TEMPLATE_REDUCTION_AUDIT_PASS representatives=148 all_wedges=true no_light_diameters=true mutation=1\n"
+      "stdout_tail": "E1_N256_S16_E31_PROFILE_PARITY_LIGHT_REDUCTION_AUDIT_PASS recursive_profiles=15 hermite=independent matchings=complete gap_supports=960 mutations=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e32_profile_08_light_template_exclusion/verify.py",
-      "seconds": 1.696424,
+      "script": "background/nodes/e1_n256_s16_e31_three_profile_joint_exclusion/verify.py",
+      "seconds": 0.109971,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E32_PROFILE_08_LIGHT_TEMPLATE_EXCLUSION_PASS normalized=63 templates=6 vectors=119087616 retained=0 mutations=3\n"
+      "stdout_tail": "E1_N256_S16_E31_THREE_PROFILE_JOINT_EXCLUSION_PASS templates=8 supports=2480992 vectors=158783488 profiles=3 engines=2\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e32_profile_08_light_template_exclusion/verify_audit.py",
-      "seconds": 1.663642,
+      "script": "background/nodes/e1_n256_s16_e31_three_profile_joint_exclusion/verify_audit.py",
+      "seconds": 0.098657,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E32_PROFILE_08_LIGHT_TEMPLATE_EXCLUSION_AUDIT_PASS gap_profiles=63 valuations=6 engines=2 vectors=119087616\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e32_profile_351_light_template_exclusion/verify.py",
-      "seconds": 0.367156,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E32_PROFILE_351_LIGHT_TEMPLATE_EXCLUSION_PASS templates=148 vectors=2937494528 retained=29238 full=15440 m3=1392 mutations=4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e32_profile_351_light_template_exclusion/verify_audit.py",
-      "seconds": 0.066492,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E32_PROFILE_351_LIGHT_TEMPLATE_EXCLUSION_AUDIT_PASS engines=2 rows=148 retained=29238 full=15440 m3=1392\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e32_profile_47_exact_norm_exclusion/verify.py",
-      "seconds": 0.093328,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E32_PROFILE_47_EXACT_NORM_EXCLUSION_PASS templates=148 full=60148 max_bits=247 above=0 engines=2 mutations=4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e32_profile_47_exact_norm_exclusion/verify_audit.py",
-      "seconds": 0.075999,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E32_PROFILE_47_EXACT_NORM_EXCLUSION_AUDIT_PASS engines=2 templates=148 full=60148 max_bits=247 above=0\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/verify.py",
-      "seconds": 0.287992,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E32_PROFILE_PARITY_DIAMETER_REDUCTION_PASS profiles=18 above=7 survivors=3 threshold=1517 diameter_ledgers=8\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/verify_audit.py",
-      "seconds": 0.059254,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E32_PROFILE_PARITY_DIAMETER_REDUCTION_AUDIT_PASS recursive_profiles=18 hermite=independent matchings=complete mutations=4\n"
+      "stdout_tail": "E1_N256_S16_E31_THREE_PROFILE_JOINT_EXCLUSION_AUDIT_PASS rows=8 agreement=exact cubic_global=2 cubic_full=1 conductor_complement=3348 mutations=4\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

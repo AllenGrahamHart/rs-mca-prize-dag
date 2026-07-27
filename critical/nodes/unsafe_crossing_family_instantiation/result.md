@@ -141,3 +141,12 @@ and agree on every per-template maximum. Their global maximum is a 247-bit
 integer satisfying `15*N_max<2^250`; the proved conductor theorem removes all
 proper-conductor vectors. The endpoint synthesis therefore proves `V=64`
 empty and advances the live positive even variance frontier to `V<=62`.
+
+The next endpoint is now closed as well. At `V=62`, exact slack and parity
+leave three profiles on exactly 960 normalized light supports in eight affine
+odd-unit orbits. Folded-chord and independent direct-negacyclic engines each
+cover 158,783,488 representative signed vectors and agree on every count and
+maximum. Unrestricted `M_3` maxima 1068 and 1122 exclude `(2,5,1)` and
+`(1,3,2)`; full-conductor maximum 1206 excludes that part of `(3,7)` below
+the exact cutoff 1302, and the conductor theorem removes its complement.
+Thus `V=62` is empty and the live positive even frontier is `V<=60`.

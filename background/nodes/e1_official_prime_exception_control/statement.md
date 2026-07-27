@@ -41,13 +41,17 @@ s>=5 for N=256,       s>=2 for N=512.
 In the first surviving `N=256` band, only folded profiles
 `(4,2,0),(3,4,0)` remain. In `(3,4,0)`, exact logarithmic variance excludes
 `V=0` and `V>=136`; a sparse-autocorrelation refinement
-and the subsequent exact endpoint chain leave only positive even `V<=62`.
+and the subsequent exact endpoint chain leave only positive even `V<=60`.
 At `V=64`, exact cubic/parity arithmetic leaves autocorrelation profiles
 `(4,7)`, `(0,8)`, and `(3,5,1)`; an exact light-template census excludes
 `(0,8)`. The other two profiles share 148 exact affine light templates, each
 with a repeated light-chord wedge; two independent joint censuses then exclude
 `(3,5,1)` with exact `M_3=1392<1517`. Two independent resultant censuses and
-the conductor theorem exclude `(4,7)`, closing `V=64`. At `N=512,s=2`, exact
+the conductor theorem exclude `(4,7)`, closing `V=64`. At `V=62`, exact slack
+and parity leave `(3,7)`, `(2,5,1)`, and `(1,3,2)` on eight affine light
+templates. Independent 158,783,488-vector censuses exclude the latter two
+globally and the full-conductor part of `(3,7)` by `M_3<1302`; the conductor
+theorem excludes its complement, closing `V=62`. At `N=512,s=2`, exact
 variance excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.
 Thus any surviving `N=512` collision has `s>=3`.

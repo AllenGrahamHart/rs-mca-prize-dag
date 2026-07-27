@@ -202,12 +202,20 @@ full-conductor vectors and agree on a 247-bit maximum with
 conductor vectors. Thus `V=64` is empty and the live positive even variance
 frontier is `V<=62`.
 
+At `V=62`, exact slack gives `L<=17` and light parity leaves only `(3,7)`,
+`(2,5,1)`, and `(1,3,2)`. Their 960 normalized light supports form eight
+affine odd-unit orbits. Folded-chord and direct-negacyclic engines each census
+158,783,488 representative signed vectors. Unrestricted maxima 1068 and 1122
+exclude the latter two profiles; full-conductor maximum 1206 excludes that
+part of `(3,7)` below the exact `M_3=1302` cutoff, and the conductor theorem
+removes its complement. Thus `V=62` is empty and the frontier is `V<=60`.
+
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
 injectivity or another explicit `V` line. Within the first `N=256` band, begin
-the next endpoint at `V=62` (`E=31`) with the same algebraic profile/slack
+the next endpoint at `V=60` (`E=30`) with the same algebraic profile/slack
 reduction before authorizing any census; alternatively attack the still broad
 `(4,2,0)` profile through its 419 exact cofactor classes. Do not rerun any
-`V>=64` campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any
+`V>=62` campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any
 exact safe predecessor relocates the candidate threshold immediately.

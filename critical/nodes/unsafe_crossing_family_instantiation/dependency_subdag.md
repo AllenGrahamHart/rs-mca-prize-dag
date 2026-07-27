@@ -176,3 +176,11 @@ conductor theorem. The synthesis node
 `e1_n256_s16_e32_endpoint_exclusion` therefore removes `V=64` entirely and
 advances the positive even residual to `V<=62`. Both nodes remain evidence for
 this universal target because lower variances and later swap bands are open.
+
+The proved `e1_n256_s16_e31_profile_parity_light_reduction` then reduces
+`V=62` to `(3,7)`, `(2,5,1)`, and `(1,3,2)` on eight exact affine light
+templates. The proved `e1_n256_s16_e31_three_profile_joint_exclusion` uses two
+independent complete 158,783,488-vector censuses, the exact `M_3=1302` cutoff,
+and the proper-conductor theorem to close all three. The synthesis node
+`e1_n256_s16_e31_endpoint_exclusion` advances the positive even residual to
+`V<=60`; it remains evidence because lower variances and later bands are open.

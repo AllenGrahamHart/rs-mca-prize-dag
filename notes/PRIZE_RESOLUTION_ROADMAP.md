@@ -4692,3 +4692,40 @@ next route-deciding action: start V=62 (E=31) with exact algebraic profile,
                               slack, parity, and diameter reduction before any
                               new census; compare against the (4,2,0) lane
 ```
+
+**2026-07-27, V=62 algebraic reduction and endpoint close:** the odd-parity
+geometry collapses the next chamber to eight templates, and two inexpensive
+independent censuses pay all three residual profiles.
+
+```text
+starting pin: local 05f66d4d
+node attacked: N=256, folded profile (3,4,0), V=62 (E=31)
+slack result: L<=17; exactly 15 energy profiles
+exact cubic cutoff: M_3=1302
+parity survivors: (3,7), (2,5,1), (1,3,2)
+light router: 960 normalized supports in eight affine odd-unit orbits
+templates: {0,t,2t,64}, {0,t,32,64}, t in {1,2,4,8}
+geometry: one light diameter; non-diameter multiplicities 2,1,1,1;
+          repeated edges form a wedge
+production app: ap-QVT4zR1b0UV4Z3QVYzLo4B, folded-chord engine
+audit app: ap-09HiyZJzn23MDKtzPjXS1M, direct negacyclic-product engine
+coverage per engine: 8*binom(124,3)*64=158,783,488 representative vectors
+independent agreement: all eight row counts, conductor splits, and maxima
+profile (3,7): 7,204 vectors; 3,856 full conductor;
+                 unrestricted max M_3=1380; full max M_3=1206<1302
+profile (2,5,1): 1,590 vectors; unrestricted max M_3=1068<1302
+profile (1,3,2): 388 vectors; unrestricted max M_3=1122<1302
+proper conductor: the 3,348-vector complement of full-conductor (3,7) is
+                  discharged by the existing conductor theorem
+endpoint synthesis: all three profiles PROVED impossible
+result: V=62 CLOSED; live positive even variance frontier V<=60
+compute spend: 21.161992 production plus 31.049432 audit aggregate
+               worker-seconds, eight 256 MiB workers per campaign
+DAG delta: three PROVED nodes; critical orbit census unchanged because these
+           are evidence suppliers, not new required leaves
+critical census: math 241 (179/38/24), submission 256 (191/40/25)
+new assumptions: none
+route decision: begin V=60 (E=30) algebraically; do not extrapolate the cubic
+                endpoint descent without first proving a comparably small
+                template router, and compare value against the (4,2,0) lane
+```

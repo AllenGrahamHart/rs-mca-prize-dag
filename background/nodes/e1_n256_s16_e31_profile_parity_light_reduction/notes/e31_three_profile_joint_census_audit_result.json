@@ -1,0 +1,280 @@
+{
+  "agreement": true,
+  "complete": true,
+  "completed_templates": 8,
+  "expected_templates": 8,
+  "orbits_sha256": "dfa93a27a628267ec21ec3684ae8e567cce0f25bd836e31e4b55ae71ecce2ca6",
+  "production_sha256": "df2edcac66e1affa2602cbe2539964e9ef5375d31e1e8f44e270fdadf42ebfe1",
+  "rows": [
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        2,
+        64
+      ],
+      "profile_132": {
+        "count": 40,
+        "full_conductor": 40,
+        "maximum_full_conductor_m3": 714,
+        "maximum_m3": 714
+      },
+      "profile_251": {
+        "count": 116,
+        "full_conductor": 116,
+        "maximum_full_conductor_m3": 1062,
+        "maximum_m3": 1062
+      },
+      "profile_37": {
+        "count": 1016,
+        "full_conductor": 1016,
+        "maximum_full_conductor_m3": 1206,
+        "maximum_m3": 1206
+      },
+      "supports": 310124,
+      "template": 0,
+      "vectors": 19847936,
+      "worker_seconds": 3.34925533
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        32,
+        64
+      ],
+      "profile_132": {
+        "count": 12,
+        "full_conductor": 12,
+        "maximum_full_conductor_m3": 528,
+        "maximum_m3": 528
+      },
+      "profile_251": {
+        "count": 68,
+        "full_conductor": 68,
+        "maximum_full_conductor_m3": 936,
+        "maximum_m3": 936
+      },
+      "profile_37": {
+        "count": 288,
+        "full_conductor": 288,
+        "maximum_full_conductor_m3": 1068,
+        "maximum_m3": 1068
+      },
+      "supports": 310124,
+      "template": 1,
+      "vectors": 19847936,
+      "worker_seconds": 3.3484371189999997
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        4,
+        64
+      ],
+      "profile_132": {
+        "count": 64,
+        "full_conductor": 24,
+        "maximum_full_conductor_m3": 594,
+        "maximum_m3": 714
+      },
+      "profile_251": {
+        "count": 276,
+        "full_conductor": 160,
+        "maximum_full_conductor_m3": 1062,
+        "maximum_m3": 1062
+      },
+      "profile_37": {
+        "count": 1280,
+        "full_conductor": 776,
+        "maximum_full_conductor_m3": 1014,
+        "maximum_m3": 1206
+      },
+      "supports": 310124,
+      "template": 2,
+      "vectors": 19847936,
+      "worker_seconds": 3.815446341
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        32,
+        64
+      ],
+      "profile_132": {
+        "count": 20,
+        "full_conductor": 8,
+        "maximum_full_conductor_m3": 144,
+        "maximum_m3": 528
+      },
+      "profile_251": {
+        "count": 132,
+        "full_conductor": 64,
+        "maximum_full_conductor_m3": 672,
+        "maximum_m3": 936
+      },
+      "profile_37": {
+        "count": 592,
+        "full_conductor": 304,
+        "maximum_full_conductor_m3": 864,
+        "maximum_m3": 1068
+      },
+      "supports": 310124,
+      "template": 3,
+      "vectors": 19847936,
+      "worker_seconds": 3.352462194
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        8,
+        64
+      ],
+      "profile_132": {
+        "count": 66,
+        "full_conductor": 0,
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 714
+      },
+      "profile_251": {
+        "count": 368,
+        "full_conductor": 16,
+        "maximum_full_conductor_m3": 342,
+        "maximum_m3": 1062
+      },
+      "profile_37": {
+        "count": 1562,
+        "full_conductor": 768,
+        "maximum_full_conductor_m3": 894,
+        "maximum_m3": 1326
+      },
+      "supports": 310124,
+      "template": 4,
+      "vectors": 19847936,
+      "worker_seconds": 3.809425144
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        32,
+        64
+      ],
+      "profile_132": {
+        "count": 22,
+        "full_conductor": 0,
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 528
+      },
+      "profile_251": {
+        "count": 246,
+        "full_conductor": 48,
+        "maximum_full_conductor_m3": 288,
+        "maximum_m3": 1068
+      },
+      "profile_37": {
+        "count": 726,
+        "full_conductor": 192,
+        "maximum_full_conductor_m3": 672,
+        "maximum_m3": 1296
+      },
+      "supports": 310124,
+      "template": 5,
+      "vectors": 19847936,
+      "worker_seconds": 4.503125464
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        8,
+        16,
+        64
+      ],
+      "profile_132": {
+        "count": 104,
+        "full_conductor": 0,
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1122
+      },
+      "profile_251": {
+        "count": 208,
+        "full_conductor": 0,
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1062
+      },
+      "profile_37": {
+        "count": 1312,
+        "full_conductor": 512,
+        "maximum_full_conductor_m3": 726,
+        "maximum_m3": 1326
+      },
+      "supports": 310124,
+      "template": 6,
+      "vectors": 19847936,
+      "worker_seconds": 4.949759823
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        8,
+        32,
+        64
+      ],
+      "profile_132": {
+        "count": 60,
+        "full_conductor": 0,
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1068
+      },
+      "profile_251": {
+        "count": 176,
+        "full_conductor": 0,
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 828
+      },
+      "profile_37": {
+        "count": 428,
+        "full_conductor": 0,
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1380
+      },
+      "supports": 310124,
+      "template": 7,
+      "vectors": 19847936,
+      "worker_seconds": 3.921520395
+    }
+  ],
+  "schema": "e1-e31-three-profile-joint-census-audit-v1",
+  "source_sha256": "f547379a5da430f59f5d223eaa92311f849c9007d2990e5c8813e48a06fc86d6",
+  "summary": {
+    "profile_132": {
+      "count": 388,
+      "full_conductor": 84,
+      "maximum_full_conductor_m3": 714,
+      "maximum_m3": 1122
+    },
+    "profile_251": {
+      "count": 1590,
+      "full_conductor": 472,
+      "maximum_full_conductor_m3": 1062,
+      "maximum_m3": 1068
+    },
+    "profile_37": {
+      "count": 7204,
+      "full_conductor": 3856,
+      "maximum_full_conductor_m3": 1206,
+      "maximum_m3": 1380
+    }
+  }
+}

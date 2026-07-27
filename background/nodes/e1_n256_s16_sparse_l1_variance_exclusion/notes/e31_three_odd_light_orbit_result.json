@@ -1,0 +1,168 @@
+{
+  "complete": true,
+  "normalized_orbit_size_histogram": {
+    "128": 2,
+    "256": 2,
+    "32": 2,
+    "64": 2
+  },
+  "normalized_supports": 960,
+  "orbit_partition_histogram": {
+    "2,1,1,1": 8
+  },
+  "orbits": 8,
+  "partition_histogram": {
+    "2,1,1,1": 960
+  },
+  "repeated_shape_histogram": {
+    "wedge": 8
+  },
+  "rows": [
+    {
+      "multiplicity_partition": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "normalized_count": 256,
+      "repeated_distance": 1,
+      "repeated_multiplicity": 2,
+      "repeated_shape": "wedge",
+      "representative": [
+        0,
+        1,
+        2,
+        64
+      ]
+    },
+    {
+      "multiplicity_partition": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "normalized_count": 256,
+      "repeated_distance": 32,
+      "repeated_multiplicity": 2,
+      "repeated_shape": "wedge",
+      "representative": [
+        0,
+        1,
+        32,
+        64
+      ]
+    },
+    {
+      "multiplicity_partition": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "normalized_count": 128,
+      "repeated_distance": 2,
+      "repeated_multiplicity": 2,
+      "repeated_shape": "wedge",
+      "representative": [
+        0,
+        2,
+        4,
+        64
+      ]
+    },
+    {
+      "multiplicity_partition": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "normalized_count": 128,
+      "repeated_distance": 32,
+      "repeated_multiplicity": 2,
+      "repeated_shape": "wedge",
+      "representative": [
+        0,
+        2,
+        32,
+        64
+      ]
+    },
+    {
+      "multiplicity_partition": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "normalized_count": 64,
+      "repeated_distance": 4,
+      "repeated_multiplicity": 2,
+      "repeated_shape": "wedge",
+      "representative": [
+        0,
+        4,
+        8,
+        64
+      ]
+    },
+    {
+      "multiplicity_partition": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "normalized_count": 64,
+      "repeated_distance": 32,
+      "repeated_multiplicity": 2,
+      "repeated_shape": "wedge",
+      "representative": [
+        0,
+        4,
+        32,
+        64
+      ]
+    },
+    {
+      "multiplicity_partition": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "normalized_count": 32,
+      "repeated_distance": 8,
+      "repeated_multiplicity": 2,
+      "repeated_shape": "wedge",
+      "representative": [
+        0,
+        8,
+        16,
+        64
+      ]
+    },
+    {
+      "multiplicity_partition": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "normalized_count": 32,
+      "repeated_distance": 32,
+      "repeated_multiplicity": 2,
+      "repeated_shape": "wedge",
+      "representative": [
+        0,
+        8,
+        32,
+        64
+      ]
+    }
+  ],
+  "schema": "e1-e31-three-odd-light-orbits-v1",
+  "source_sha256": "c46d38885814ae21420c7e4ddc20e9588f45fb4a0bf08cbf4349978ab8f5ff92"
+}

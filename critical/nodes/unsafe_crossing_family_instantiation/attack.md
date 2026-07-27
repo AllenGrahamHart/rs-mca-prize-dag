@@ -104,7 +104,10 @@ proper-conductor extremizers remain below `2^250`. The subsequent complete
 FLINT and independent PARI norm censuses agree on all 60,148 full-conductor
 vectors and a 247-bit maximum satisfying `15*N_max<2^250`; the conductor
 theorem handles the complement. Hence `V=64` is closed. Do not rerun any
-`V>=64` campaign; begin `V=62` with an algebraic reduction before computation.
+`V>=64` campaign. The algebraic `V=62` reduction leaves three profiles on
+eight affine templates; independent 158,783,488-vector censuses close all
+three with the exact cubic cutoff and conductor theorem. Do not rerun any
+`V>=62` campaign; begin `V=60` with algebraic reduction before computation.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
 the 2-adic singleton screen and test its 419 exact cofactors directly; do not

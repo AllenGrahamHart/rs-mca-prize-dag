@@ -1,0 +1,1286 @@
+{
+  "complete": true,
+  "completed_templates": 8,
+  "expected_templates": 8,
+  "orbits_sha256": "dfa93a27a628267ec21ec3684ae8e567cce0f25bd836e31e4b55ae71ecce2ca6",
+  "rows": [
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        2,
+        64
+      ],
+      "profile_132": {
+        "count": 40,
+        "full_conductor": 40,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 714,
+          "positions": [
+            63,
+            65,
+            126,
+            0,
+            1,
+            2,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 714,
+        "maximum_m3": 714,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 714,
+          "positions": [
+            63,
+            65,
+            126,
+            0,
+            1,
+            2,
+            64
+          ]
+        }
+      },
+      "profile_251": {
+        "count": 116,
+        "full_conductor": 116,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 1062,
+          "positions": [
+            32,
+            33,
+            65,
+            0,
+            1,
+            2,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 1062,
+        "maximum_m3": 1062,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 1062,
+          "positions": [
+            32,
+            33,
+            65,
+            0,
+            1,
+            2,
+            64
+          ]
+        }
+      },
+      "profile_37": {
+        "count": 1016,
+        "full_conductor": 1016,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1206,
+          "positions": [
+            22,
+            107,
+            108,
+            0,
+            1,
+            2,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 1206,
+        "maximum_m3": 1206,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1206,
+          "positions": [
+            22,
+            107,
+            108,
+            0,
+            1,
+            2,
+            64
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 0,
+      "vectors": 19847936,
+      "worker_seconds": 2.6759239700000004
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        32,
+        64
+      ],
+      "profile_132": {
+        "count": 12,
+        "full_conductor": 12,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 528,
+          "positions": [
+            31,
+            96,
+            127,
+            0,
+            1,
+            32,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 528,
+        "maximum_m3": 528,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 528,
+          "positions": [
+            31,
+            96,
+            127,
+            0,
+            1,
+            32,
+            64
+          ]
+        }
+      },
+      "profile_251": {
+        "count": 68,
+        "full_conductor": 68,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 936,
+          "positions": [
+            33,
+            34,
+            65,
+            0,
+            1,
+            32,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 936,
+        "maximum_m3": 936,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 936,
+          "positions": [
+            33,
+            34,
+            65,
+            0,
+            1,
+            32,
+            64
+          ]
+        }
+      },
+      "profile_37": {
+        "count": 288,
+        "full_conductor": 288,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1068,
+          "positions": [
+            30,
+            63,
+            96,
+            0,
+            1,
+            32,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 1068,
+        "maximum_m3": 1068,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1068,
+          "positions": [
+            30,
+            63,
+            96,
+            0,
+            1,
+            32,
+            64
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 1,
+      "vectors": 19847936,
+      "worker_seconds": 2.656163373
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        4,
+        64
+      ],
+      "profile_132": {
+        "count": 64,
+        "full_conductor": 24,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 594,
+          "positions": [
+            1,
+            67,
+            68,
+            0,
+            2,
+            4,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 594,
+        "maximum_m3": 714,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 714,
+          "positions": [
+            62,
+            66,
+            124,
+            0,
+            2,
+            4,
+            64
+          ]
+        }
+      },
+      "profile_251": {
+        "count": 276,
+        "full_conductor": 160,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1062,
+          "positions": [
+            1,
+            65,
+            66,
+            0,
+            2,
+            4,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 1062,
+        "maximum_m3": 1062,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1062,
+          "positions": [
+            1,
+            65,
+            66,
+            0,
+            2,
+            4,
+            64
+          ]
+        }
+      },
+      "profile_37": {
+        "count": 1280,
+        "full_conductor": 776,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1014,
+          "positions": [
+            31,
+            62,
+            126,
+            0,
+            2,
+            4,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 1014,
+        "maximum_m3": 1206,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1206,
+          "positions": [
+            22,
+            24,
+            108,
+            0,
+            2,
+            4,
+            64
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 2,
+      "vectors": 19847936,
+      "worker_seconds": 2.332814377
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        32,
+        64
+      ],
+      "profile_132": {
+        "count": 20,
+        "full_conductor": 8,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 144,
+          "positions": [
+            15,
+            17,
+            79,
+            0,
+            2,
+            32,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 144,
+        "maximum_m3": 528,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 528,
+          "positions": [
+            30,
+            96,
+            126,
+            0,
+            2,
+            32,
+            64
+          ]
+        }
+      },
+      "profile_251": {
+        "count": 132,
+        "full_conductor": 64,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 672,
+          "positions": [
+            1,
+            65,
+            66,
+            0,
+            2,
+            32,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 672,
+        "maximum_m3": 936,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 936,
+          "positions": [
+            34,
+            36,
+            66,
+            0,
+            2,
+            32,
+            64
+          ]
+        }
+      },
+      "profile_37": {
+        "count": 592,
+        "full_conductor": 304,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 864,
+          "positions": [
+            9,
+            41,
+            48,
+            0,
+            2,
+            32,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 864,
+        "maximum_m3": 1068,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1068,
+          "positions": [
+            28,
+            62,
+            96,
+            0,
+            2,
+            32,
+            64
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 3,
+      "vectors": 19847936,
+      "worker_seconds": 2.5986703230000003
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        8,
+        64
+      ],
+      "profile_132": {
+        "count": 66,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 714,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 714,
+          "positions": [
+            60,
+            68,
+            120,
+            0,
+            4,
+            8,
+            64
+          ]
+        }
+      },
+      "profile_251": {
+        "count": 368,
+        "full_conductor": 16,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 342,
+          "positions": [
+            19,
+            87,
+            117,
+            0,
+            4,
+            8,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 342,
+        "maximum_m3": 1062,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1062,
+          "positions": [
+            2,
+            66,
+            68,
+            0,
+            4,
+            8,
+            64
+          ]
+        }
+      },
+      "profile_37": {
+        "count": 1562,
+        "full_conductor": 768,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 894,
+          "positions": [
+            19,
+            34,
+            53,
+            0,
+            4,
+            8,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 894,
+        "maximum_m3": 1326,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 1326,
+          "positions": [
+            36,
+            48,
+            120,
+            0,
+            4,
+            8,
+            64
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 4,
+      "vectors": 19847936,
+      "worker_seconds": 3.115935596
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        32,
+        64
+      ],
+      "profile_132": {
+        "count": 22,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 528,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 528,
+          "positions": [
+            28,
+            96,
+            124,
+            0,
+            4,
+            32,
+            64
+          ]
+        }
+      },
+      "profile_251": {
+        "count": 246,
+        "full_conductor": 48,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 288,
+          "positions": [
+            1,
+            63,
+            125,
+            0,
+            4,
+            32,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 288,
+        "maximum_m3": 1068,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "m3": 1068,
+          "positions": [
+            8,
+            12,
+            16,
+            0,
+            4,
+            32,
+            64
+          ]
+        }
+      },
+      "profile_37": {
+        "count": 726,
+        "full_conductor": 192,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 672,
+          "positions": [
+            11,
+            57,
+            82,
+            0,
+            4,
+            32,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 672,
+        "maximum_m3": 1296,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1296,
+          "positions": [
+            52,
+            60,
+            72,
+            0,
+            4,
+            32,
+            64
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 5,
+      "vectors": 19847936,
+      "worker_seconds": 2.391131819
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        8,
+        16,
+        64
+      ],
+      "profile_132": {
+        "count": 104,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1122,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 1122,
+          "positions": [
+            24,
+            112,
+            120,
+            0,
+            8,
+            16,
+            64
+          ]
+        }
+      },
+      "profile_251": {
+        "count": 208,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1062,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1062,
+          "positions": [
+            4,
+            68,
+            72,
+            0,
+            8,
+            16,
+            64
+          ]
+        }
+      },
+      "profile_37": {
+        "count": 1312,
+        "full_conductor": 512,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 726,
+          "positions": [
+            1,
+            57,
+            72,
+            0,
+            8,
+            16,
+            64
+          ]
+        },
+        "maximum_full_conductor_m3": 726,
+        "maximum_m3": 1326,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1326,
+          "positions": [
+            20,
+            100,
+            112,
+            0,
+            8,
+            16,
+            64
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 6,
+      "vectors": 19847936,
+      "worker_seconds": 3.101413074
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        8,
+        32,
+        64
+      ],
+      "profile_132": {
+        "count": 60,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1068,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 1068,
+          "positions": [
+            16,
+            72,
+            120,
+            0,
+            8,
+            32,
+            64
+          ]
+        }
+      },
+      "profile_251": {
+        "count": 176,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 828,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 828,
+          "positions": [
+            4,
+            56,
+            84,
+            0,
+            8,
+            32,
+            64
+          ]
+        }
+      },
+      "profile_37": {
+        "count": 428,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1380,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 1380,
+          "positions": [
+            12,
+            44,
+            48,
+            0,
+            8,
+            32,
+            64
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 7,
+      "vectors": 19847936,
+      "worker_seconds": 2.2899390909999995
+    }
+  ],
+  "schema": "e1-e31-three-profile-joint-census-v1",
+  "source_sha256": "86fd65d6293cda0ab223ccd57f1f1a5e7082b041a07c724ad1a21c399ab9329b",
+  "summary": {
+    "profile_132": {
+      "count": 388,
+      "full_conductor": 84,
+      "maximum_full_conductor_m3": 714,
+      "maximum_m3": 1122
+    },
+    "profile_251": {
+      "count": 1590,
+      "full_conductor": 472,
+      "maximum_full_conductor_m3": 1062,
+      "maximum_m3": 1068
+    },
+    "profile_37": {
+      "count": 7204,
+      "full_conductor": 3856,
+      "maximum_full_conductor_m3": 1206,
+      "maximum_m3": 1380
+    }
+  }
+}
