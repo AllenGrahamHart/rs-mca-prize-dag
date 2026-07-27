@@ -4872,3 +4872,41 @@ route decision: solve the six-even-class optimization for (6,6), preserving
                 the 1,234-mask reduction. Do not run its 21.77-billion-vector
                 direct census and do not descend to V=58.
 ```
+
+**2026-07-27, profile `(6,6)` and E30 endpoint close:** the measured
+per-template cost made a complete exceptional-mask census inexpensive on
+Modal. Independent relaxations, independent actual-vector engines, conductor,
+and independent exact norms close the final profile and the whole chamber.
+
+```text
+node attacked: N=256, V=60 profile (6,6)
+odd-set identity: b = 1_O + 2*1_E, where O is the symmetric six-difference
+                  light set and E is six classes outside O
+relaxation assignments: 1234*binom(57,6)=44,779,702,968 per engine
+relaxation production: ap-R8qZ3NFpBLlaSCjEPobazm; signed zero-sum kernel;
+                       100.879807 aggregate worker-seconds
+relaxation audit: ap-HhZLnYkj1E6sx207Qc1FwO; cyclic base vectors, pair sums,
+                  three-plus-three decomposition; 79.819110 worker-seconds
+exact relaxation agreement: all 1,234 rows; 33,737 exceptions on 1,191 masks;
+                            maximum M_3=1542
+actual production: ap-tzoEgc0dyKoBc3yghLmKLF; folded oriented chords;
+                   2,781.809284 aggregate worker-seconds
+actual audit: ap-NXOjRlg7idEiFtq2ALTgxX checkpointed 864/1191 at launcher wall;
+              ap-BZCZ0tCpInuxZwZoxLl7V4 resumed the remaining 327 only;
+              4,240.754407 aggregate worker-seconds over the complete packet
+actual coverage per engine: 1191*binom(124,3)*64=23,638,891,776 vectors
+exact actual agreement: 240,672 profile vectors; 6,244 above cutoff;
+                        1,232 full conductor; maxima 1530/1338
+proper conductor: complementary 5,012 exceptions discharged by the existing
+                  conductor theorem
+norm app: ap-BngTsJiGLxbGZxPkOOPRU6; batched FLINT and PARI/GP
+norm agreement: all 1,232 vectors; 575 distinct norms
+exact maximum: 384340001363476246612319029755636117549080229904040014178244445877664108548
+strict margin: 4*N_max<2^250<5*N_max; bit length 248
+result: profile (6,6) CLOSED; V=60 endpoint CLOSED
+live positive even variance frontier: V<=58
+new assumptions: none
+route decision: derive the exact E29 slack/profile/parity reduction before any
+                V=58 census; compare its expected cost and structural leverage
+                against the 419-cofactor (4,2,0) lane. Never rerun V>=60.
+```

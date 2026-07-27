@@ -158,7 +158,8 @@ and two independent exact-resultant ledgers exclude `(2,7)` and `(1,5,1)`.
 A complete odd-difference relaxation reduces `(4,2,2)` to six actual vectors;
 proper conductor and exact norms exclude them. Independent odd-difference
 relaxations and exceptional actual-vector engines then reduce `(5,4,1)` to 86
-primitive vectors, all excluded by independent exact norms. The exact residual
-is the sole six-odd profile `(6,6)`. Its direct affine-orbit census has a proved
-floor of 21,773,185,792 signed vectors, so it is a structural proof target
-rather than a brute-force job.
+primitive vectors, all excluded by independent exact norms. Independent
+relaxations then cover all 44,779,702,968 profile-`(6,6)` assignments;
+independent actual engines leave 1,232 primitive exceptions, all excluded by
+independent exact norms. Thus `V=60` is empty and the live positive even
+frontier is `V<=58`.

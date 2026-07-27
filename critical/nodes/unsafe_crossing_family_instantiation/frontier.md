@@ -219,18 +219,19 @@ abstract exceptions; independent actual-vector censuses leave six vectors,
 and conductor plus exact norms exclude them. For `(5,4,1)`, independent
 relaxations agree on 2,924,654,040 assignments and independent actual-vector
 engines agree after 6,371,187,456 vectors each, leaving 86 primitive vectors;
-independent exact norms exclude all 86. The sole surviving profile is `(6,6)`.
-Its six odd light classes have 280,720 normalized supports, forcing at least
-1,097 affine orbits and a 21,773,185,792-vector direct-census floor.
+independent exact norms exclude all 86. For `(6,6)`, independent relaxations
+agree on all 44,779,702,968 assignments and independent actual engines agree
+after 23,638,891,776 vectors each, leaving 1,232 primitive vectors. Independent
+exact norms exclude all 1,232. Hence `V=60` is empty and the live positive even
+frontier is `V<=58`.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
 injectivity or another explicit `V` line. Within the first `N=256` band,
-extend the successful odd-difference relaxation to `(6,6)`, using optimization
-or analytic bounds for its six even layers; do not run
-the direct census.
+derive the exact `V=58` slack/profile/parity reduction before any further
+census.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
-cofactor classes. Do not rerun the other six `V=60` profiles or any `V>=62`
+cofactor classes. Do not rerun any `V>=60`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
 safe predecessor relocates the candidate threshold immediately.

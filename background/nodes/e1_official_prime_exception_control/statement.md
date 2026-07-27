@@ -61,9 +61,11 @@ norms exclude `(4,2,2)` and `(5,4,1)`. For `(5,4,1)`, two independent
 relaxations agree on 2,924,654,040 assignments and leave 1,456 abstractions;
 two independent 6,371,187,456-vector exceptional censuses leave 86 primitive
 vectors, whose exact FLINT/PARI norms are all below `2^250`. The exact residual
-is the sole profile `(6,6)`, with six odd light classes. Its direct affine-
-orbit census has a proved floor of 21,773,185,792 signed vectors and is not an
-authorized route.
+is the sole profile `(6,6)`. Independent odd-difference engines cover all
+44,779,702,968 abstract assignments; independent exceptional censuses then
+cover 23,638,891,776 actual vectors per engine and leave 1,232 primitive
+exceptions. Independent exact norms exclude all 1,232, closing `V=60` and
+advancing the live positive even frontier to `V<=58`.
 At `N=512,s=2`, exact variance
 excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.

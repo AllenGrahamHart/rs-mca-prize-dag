@@ -195,6 +195,8 @@ proper-conductor theorem. The proved `e1_n256_s16_e30_profile_422_exclusion`
 then removes `(4,2,2)` by an odd-difference relaxation and exact exceptional
 norms. The proved `e1_n256_s16_e30_profile_541_exclusion` then removes
 `(5,4,1)` by independent odd-difference relaxations, independent exceptional
-actual-vector engines, and exact FLINT/PARI norms. The residual is exactly the
-six-odd profile `(6,6)`; these E30 nodes remain evidence because the endpoint
-is not yet closed.
+actual-vector engines, and exact FLINT/PARI norms. The proved
+`e1_n256_s16_e30_profile_66_exclusion` removes `(6,6)` by the same complete
+three-stage chain at larger scale. The proved E30 endpoint synthesis closes
+`V=60` and advances the live positive even frontier to `V<=58`; these nodes
+remain evidence because lower variances and later bands are open.

@@ -1187,6 +1187,61 @@
    "notes": "ROUTE CLOSURE 2026-07-27: removes profile (5,4,1). Profile (6,6) is the sole live V=60 profile."
   },
   {
+   "id": "e1_n256_s16_e30_profile_66_exclusion",
+   "title": "N=256 E=30 profile-(6,6) exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_odd_difference_scan.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_odd_difference_scan_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_odd_difference_scan_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_odd_difference_scan_audit.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_odd_difference_scan_audit_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_odd_difference_scan_audit_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_actual_census.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_actual_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_actual_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_actual_audit.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_actual_audit_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_actual_audit_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_norm_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_norm_result.json"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=60, profile (6,6) cannot collide. Two independent odd-difference engines agree on 1,234 masks and 44,779,702,968 assignments, leaving 33,737 exceptions on 1,191 masks. Two actual-vector engines agree after 23,638,891,776 vectors per engine, leaving 1,232 full-conductor exceptions. FLINT and PARI put all 1,232 norms below threshold with 4*N_max<2^250<5*N_max.",
+   "notes": "ROUTE CLOSURE 2026-07-27: removes the final live V=60 profile."
+  },
+  {
+   "id": "e1_n256_s16_e30_endpoint_exclusion",
+   "title": "N=256 E=30 endpoint exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e30_endpoint_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e30_endpoint_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e30_endpoint_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e30_endpoint_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e30_endpoint_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e30_endpoint_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e30_endpoint_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e30_endpoint_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e30_endpoint_exclusion/verify_audit.py"
+   ],
+   "statement": "At N=256 and folded profile (3,4,0), V=60 is impossible. The exact profiles (6,6), (2,7), (5,4,1), (1,5,1), (4,2,2), (0,3,2), (6,2,0,1), and (3,0,3) are exhausted by five proved exclusions. The live positive even frontier is 0<V<=58.",
+   "notes": "ENDPOINT CLOSURE 2026-07-27: the entire E30 chamber is empty; continue at V=58 without rerunning any V>=60 profile."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -33677,6 +33732,71 @@
   {
    "from": "dli_wcl_ell4_weight10_even_divisor_descent",
    "to": "dli_wcl_slot_4_10_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e30_profile_66_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e30_profile_66_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e30_profile_66_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e30_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_three_profile_quotient_exclusion",
+   "to": "e1_n256_s16_e30_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_two_odd_profile_exclusion",
+   "to": "e1_n256_s16_e30_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_422_exclusion",
+   "to": "e1_n256_s16_e30_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_541_exclusion",
+   "to": "e1_n256_s16_e30_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_66_exclusion",
+   "to": "e1_n256_s16_e30_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_66_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_66_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_endpoint_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_endpoint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   }
  ]

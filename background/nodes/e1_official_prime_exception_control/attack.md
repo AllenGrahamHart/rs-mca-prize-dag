@@ -65,10 +65,10 @@ explicit finite inequality at the row.
    The quotient ledger closes `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`; the
    complete two-odd ledger closes `(2,7)` and `(1,5,1)`. A structured odd-
    difference relaxation plus exact exceptional norms closes `(4,2,2)` and
-   `(5,4,1)`. The residual is exactly the six-odd profile `(6,6)`. Extend the
-   difference-mask method with an optimizer or analytic bound for its six
-   even-layer choices; the proved direct-census floor is 21,773,185,792
-   vectors, so do not brute-force this branch.
+   `(5,4,1)`. Independent 44,779,702,968-assignment relaxations, independent
+   23,638,891,776-vector exceptional censuses, conductor, and exact norms close
+   `(6,6)`. The entire `V=60` chamber is closed. Begin `V=58` with an exact
+   slack/profile/parity reduction; do not rerun any `V>=60` chamber.
    The
    signed-chord gate
    further excludes circular-Sidon supports: every residual has an oppositely

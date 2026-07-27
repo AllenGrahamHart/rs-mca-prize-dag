@@ -105,9 +105,11 @@ leave three six-odd profiles. The proved profile-`(4,2,2)` exclusion uses a
 complete odd-difference relaxation and exact exceptional norms. The proved
 profile-`(5,4,1)` exclusion adds two independent 2,924,654,040-assignment
 relaxations, two independent exceptional actual-vector engines, and exact
-FLINT/PARI norms. Only `(6,6)` remains. The proved direct-census floor is
-21,773,185,792 vectors, so this residual requires an analytic reduction rather
-than a generic support scan.
+FLINT/PARI norms. The proved profile-`(6,6)` exclusion adds independent
+44,779,702,968-assignment relaxations, independent 23,638,891,776-vector
+exceptional censuses, and exact norms for the 1,232 primitive exceptions. The
+E30 endpoint synthesis is therefore proved, and the live positive even
+frontier is `V<=58`.
 The proper-conductor theorem also removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing

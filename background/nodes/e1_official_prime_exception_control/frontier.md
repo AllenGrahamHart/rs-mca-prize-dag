@@ -57,13 +57,15 @@ censuses reduce them to six vectors, and conductor plus exact norms exclude
 all six. A second structured relaxation covers 2,924,654,040 profile-
 `(5,4,1)` assignments; independent exceptional censuses cover 6,371,187,456
 actual vectors per engine and reduce the primitive residue to 86 vectors.
-Independent FLINT/PARI norms exclude all 86. The exact residual is therefore
-the sole six-odd profile `(6,6)`. Its 280,720 normalized light supports require
-at least 1,097 affine orbits, giving a direct-census floor of 21,773,185,792
-signed vectors. A subfield norm
+Independent FLINT/PARI norms exclude all 86. For the final profile `(6,6)`,
+independent relaxations cover 44,779,702,968 assignments and identify 1,191
+exceptional masks. Independent actual-vector engines agree after
+23,638,891,776 vectors each, leaving 1,232 primitive exceptions; independent
+exact norms exclude all 1,232. Thus `V=60` is empty and the live positive even
+frontier is `V<=58`. A subfield norm
 argument also
 removes every vector
-in either profile whose support differences have a nontrivial gcd with
+in either folded profile whose support differences have a nontrivial gcd with
 `256`. Thus all live first-band vectors have full conductor. This does not
 classify the low-variance residual: a certified full-conductor vector already
 occurs at `V=36`. Total ramification of two gives an independent
@@ -97,12 +99,10 @@ The next route-deciding attack is algebraic. Either:
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
-  after the 2-adic cofactor screen. In `(3,4,0)`, extend the successful odd-
-  difference relaxation to the sole profile `(6,6)`, using optimization or
-  analytic bounds for its six even-layer choices; every other `V=60`
-  profile and every
-  `V>=62` chamber is closed and must not be rerun. Do not authorize the
-  21.77-billion-vector direct census for this profile. Treat the `N=512,s=3` band
+  after the 2-adic cofactor screen. In `(3,4,0)`, derive the exact `V=58`
+  slack/profile/parity reduction before authorizing any census; every `V>=60`
+  chamber is closed and must not be rerun. Compare that E29 branch against the
+  419 exact cofactor classes in `(4,2,0)`. Treat the `N=512,s=3` band
   independently;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;

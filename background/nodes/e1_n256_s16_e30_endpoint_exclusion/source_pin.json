@@ -1,0 +1,14 @@
+{
+  "profile_422_file": "background/nodes/e1_n256_s16_e30_profile_422_exclusion/statement.md",
+  "profile_422_file_sha256": "cfeae2e1bf98ca40fe3509379241a3f4e22c11334bc97172111486b7cdd8f3f6",
+  "profile_541_file": "background/nodes/e1_n256_s16_e30_profile_541_exclusion/statement.md",
+  "profile_541_file_sha256": "14facafc66fa0102783edc1d9262569054d790ea66bc267938a500daee960bf5",
+  "profile_66_file": "background/nodes/e1_n256_s16_e30_profile_66_exclusion/statement.md",
+  "profile_66_file_sha256": "2a1212f8056ecf6f1cf0d05157a92a3ec0b602bce683bfaa9ef669584e4a7fee",
+  "profile_reduction_file": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/statement.md",
+  "profile_reduction_file_sha256": "7d988ae69d03e78167eea76ca9746782b35627bb9fde645a187a121ee291aef4",
+  "quotient_exclusion_file": "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/statement.md",
+  "quotient_exclusion_file_sha256": "12ea2ad399f2c765e0279e987024358afcb96a1abb1d59ac9d3ec0985e618788",
+  "two_odd_exclusion_file": "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/statement.md",
+  "two_odd_exclusion_file_sha256": "945cea81e72f163598630cd22cda1459fe2a850504b2e2c6c7fb77bc3c576eb5"
+}

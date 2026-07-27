@@ -2,14 +2,30 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 10,
+    "PASS": 14,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e30_endpoint_exclusion/verify.py",
+      "seconds": 0.0371,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E30_ENDPOINT_EXCLUSION_PASS profiles=8 exclusions=8 frontier=58 mutations=3\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e30_endpoint_exclusion/verify_audit.py",
+      "seconds": 0.01574,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E30_ENDPOINT_EXCLUSION_AUDIT_PASS mutations=3/3\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/e1_n256_s16_e30_profile_422_exclusion/verify.py",
-      "seconds": 0.04865,
+      "seconds": 0.045497,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_E30_PROFILE_422_EXCLUSION_PASS masks=1234 assignments=29541960 exceptions=3 actual=6 full=2 max_bits=242 engines=6\n"
@@ -17,7 +33,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_e30_profile_422_exclusion/verify_audit.py",
-      "seconds": 0.02939,
+      "seconds": 0.026844,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_E30_PROFILE_422_EXCLUSION_AUDIT_PASS masks=1234 assignments=29541960 exceptions=3 actual=6 full=2 max_bits=242 engines=6\n"
@@ -25,7 +41,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_e30_profile_541_exclusion/verify.py",
-      "seconds": 0.101931,
+      "seconds": 0.094302,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_E30_PROFILE_541_EXCLUSION_PASS masks=1234 assignments=2924654040 exceptions=1456 templates=321 vectors=6371187456 actual=440 full=86 max_bits=247 engines=6\n"
@@ -33,15 +49,31 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_e30_profile_541_exclusion/verify_audit.py",
-      "seconds": 0.052052,
+      "seconds": 0.048816,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_E30_PROFILE_541_EXCLUSION_AUDIT_PASS assignments=2924654040 exceptions=1456 templates=321 vectors=6371187456 actual=440 full=86 max_bits=247 engines=6\n"
     },
     {
       "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e30_profile_66_exclusion/verify.py",
+      "seconds": 0.46279,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E30_PROFILE_66_EXCLUSION_PASS masks=1234 assignments=44779702968 exceptions=33737 templates=1191 vectors=23638891776 actual=6244 full=1232 max_bits=248 engines=6\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e30_profile_66_exclusion/verify_audit.py",
+      "seconds": 0.086658,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E30_PROFILE_66_EXCLUSION_AUDIT_PASS assignments=44779702968 exceptions=33737 templates=1191 vectors=23638891776 actual=6244 full=1232 max_bits=248 engines=6\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/verify.py",
-      "seconds": 2.860307,
+      "seconds": 2.363303,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_E30_PROFILE_PARITY_LIGHT_REDUCTION_PASS profiles=18 above=13 survivors=8 two=8168/87 six=280720/1097+ ledgers=6\n"
@@ -49,7 +81,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/verify_audit.py",
-      "seconds": 0.460578,
+      "seconds": 0.404925,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_E30_PROFILE_PARITY_LIGHT_REDUCTION_AUDIT_PASS recursive_profiles=18 hermite=independent matchings=complete two_orbits=87 mutations=4\n"
@@ -57,7 +89,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/verify.py",
-      "seconds": 0.482365,
+      "seconds": 0.384513,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E30_EIGHT_PROFILE_QUOTIENT_PROBE_CHECK_PASS tasks=128 profiles=8 orders=2 closed=3 threshold=1087\nE1_N256_S16_E30_THREE_PROFILE_QUOTIENT_EXCLUSION_PASS tasks=128 allocations=24124690 closed=3 threshold=1087 mutations=5\n"
@@ -65,7 +97,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/verify_audit.py",
-      "seconds": 0.048621,
+      "seconds": 0.030226,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_E30_THREE_PROFILE_QUOTIENT_EXCLUSION_AUDIT_PASS profiles=8 closed=3 residual=5 allocations=24124690 mutations=4\n"
@@ -73,7 +105,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/verify.py",
-      "seconds": 0.071569,
+      "seconds": 0.060707,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_E30_TWO_ODD_PROFILE_EXCLUSION_PASS templates=87 vectors=1726770432 full27=28114 full151=3572 max_bits=248 above=0 engines=4\n"
@@ -81,7 +113,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/verify_audit.py",
-      "seconds": 0.035736,
+      "seconds": 0.025505,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_E30_TWO_ODD_PROFILE_EXCLUSION_AUDIT_PASS templates=87 vectors=1726770432 full27=28114 full151=3572 max_bits=248 above=0 engines=4\n"
