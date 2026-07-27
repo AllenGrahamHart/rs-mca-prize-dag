@@ -3749,3 +3749,21 @@ route decision: quotient descent persists, but the first outer-only miss shows
 next route-deciding action: derive the E=34 L1/profile and cubic ledgers and
                               test whether nesting remains a bounded exception
 ```
+
+**2026-07-27, N=256 variance-68 route boundary:** exact preflight shows that
+the sequential quotient descent changes character at `E=34`.
+
+Cycle burn-down:
+
+```text
+starting pin: local 859064a3
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0), V=68
+result: NO STATUS CHANGE; L<=20, 24 profiles, cubic threshold M_3<=1947;
+        six exceptional profiles remain, including three/four-layer cases
+compute: tiny exact symbolic preflight only; no Modal campaign launched
+new assumptions: none
+route decision: stop endpoint-by-endpoint quotient runs until one common
+                nested-layer compiler or a stronger analytic certificate exists
+next route-deciding action: return to a shared critical route with a new
+                              theorem candidate rather than scale six censuses
+```
