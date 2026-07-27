@@ -60,6 +60,20 @@ slots), which our own `S5_LAM_LEUNG_TRANSPORT.md` had already handled.
   Fermat) extension for t not in H is unproved; (iii) **the Mattarei paper
   itself was NOT accessed** (Finite Fields Appl. 13 (2007) 773-777) — the
   constant is second-hand.
+  **UPDATE 2026-07-27 — all three blockers answered INDEPENDENTLY by Codex**
+  (v10 `a7330b59`/`29cef0d8`, node `f3_affine_coset_pair_mattarei_bound`, NOT
+  yet merged here — pending wave audit). Convergent discovery: Codex found the
+  same import unprompted and cleared exactly the traps this sweep pre-registered.
+  (i) NSB2 is a **method** barrier, not a numeric one — Mattarei's own Remark 3
+  separates his Garcia-Voloch route from the one-auxiliary-polynomial method
+  NSB2 fences; bypassed, not contradicted. (ii) arbitrary nonzero Fermat
+  coefficients already cover `alpha not in K`, so no same-coset or `t in H`
+  hypothesis is needed. (iii) source ACCESSED and hash-pinned —
+  arXiv:math/0511339v1, `GV.tex`, sha256 69a757ee...d490fd; the constant is no
+  longer second-hand. Codex adds a fence this sweep did not raise: **the theorem
+  is prime-field only and must not be transported to a deployed
+  extension-field row** (KoalaBear is p^6). Audit that fence carefully at
+  integration — it is the live risk now.
 - **Target 8 `l1_mixed_petal_amplification` — a proved external barrier.**
   ChoConj26 Prop. 3.5 (ambient moment-order barrier, eq. 3.7): an n^C loss costs
   21C bits at n=2^21 against margins of 22.1969 bits (KoalaBear MCA) and 3.2589
