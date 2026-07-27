@@ -120,8 +120,11 @@ six. At `V=52`, exact slack and parity leave six two-odd and four six-odd
 profiles. Independent complete censuses, conductor, and exact norms close all
 six two-odd profiles. A second pair of complete censuses, conductor, and exact
 norms closes all four six-odd profiles. The entire `V=52` chamber is closed.
-Derive the exact `V=50` profile/parity/light router before authorizing more
-enumeration. Do not rerun any `V>=52` campaign.
+At `V=50`, nine profiles on 111 templates are closed by independent complete
+censuses, conductor, and exact norms. The cubic majorant has no positive
+cutoff at `V<=48`; derive the exact `V=48` router and count actual vectors
+before authorizing direct norms for all primitive cases. Do not rerun any
+`V>=50` campaign.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
 the 2-adic singleton screen and test its 419 exact cofactors directly; do not

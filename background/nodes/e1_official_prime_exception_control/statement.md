@@ -92,7 +92,12 @@ six-odd profiles `(6,5)`, `(5,3,1)`, `(4,1,2)`, and `(6,1,0,1)` on all 1,234
 affine templates. The conductor theorem removes 29,206 of their 74,614 cubic
 exceptions; independent FLINT/PARI norms put all 45,408 primitive exceptions
 below `2^250`. Thus `V=52` is empty and the live positive even frontier is
-`V<=50`.
+`V<=50`. At `V=50`, exact slack gives `L<=15`, the last positive
+cubic-Hermite cutoff is `M_3=13`, and diameter parity leaves nine profiles on
+111 affine one-diameter templates. Independent 2,203,120,896-vector censuses
+leave 31,280 cubic exceptions. The conductor theorem removes 14,296;
+independent FLINT/PARI norms put all 16,984 primitive exceptions below
+`2^250`. Thus `V=50` is empty and the live positive even frontier is `V<=48`.
 At `N=512,s=2`, exact variance
 excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.

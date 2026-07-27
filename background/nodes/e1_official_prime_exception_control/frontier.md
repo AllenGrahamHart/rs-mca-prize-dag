@@ -91,7 +91,15 @@ censuses also agree on all 1,234 six-odd affine templates after
 24,492,353,024 vectors per engine. Of 74,614 cubic exceptions, conductor
 removes 29,206; FLINT and PARI agree on all 45,408 primitive norms, whose
 maximum satisfies `N_max<2^250<2*N_max`. Hence `V=52` is empty and the live
-positive even frontier is `V<=50`. A subfield norm argument also
+positive even frontier is `V<=50`. At `V=50`, exact slack gives `L<=15`, the
+exact cutoff is `M_3=13`, and parity leaves nine profiles on 111 affine
+one-diameter templates. Independent engines agree after 2,203,120,896 vectors
+each, finding 31,686 profile vectors and 31,280 above cutoff. Conductor removes
+14,296; FLINT and PARI agree on all 16,984 primitive norms, whose 249-bit
+maximum satisfies `2*N_max<2^250<3*N_max`. Hence `V=50` is empty and the live
+positive even frontier is `V<=48`. The fixed cubic-Hermite majorant has no
+positive cutoff at any even `V<=48`; subsequent chambers must use geometric
+emptiness or direct exact norms rather than a bulk cubic cutoff. A subfield norm argument also
 removes every vector
 in either folded profile whose support differences have a nontrivial gcd with
 `256`. Thus all live first-band vectors have full conductor. This does not
@@ -127,11 +135,13 @@ The next route-deciding attack is algebraic. Either:
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
-  after the 2-adic cofactor screen. In `(3,4,0)`, every `V>=52` chamber is
-  closed and must not be rerun. Derive the exact `V=50` (`E=25`)
-  profile/parity/light reduction before authorizing any new census, and
-  compare that router against the 419 exact cofactor classes in `(4,2,0)`.
-  Treat the `N=512,s=3` band independently;
+  after the 2-adic cofactor screen. In `(3,4,0)`, every `V>=50` chamber is
+  closed and must not be rerun. Derive the exact `V=48` (`E=24`)
+  profile/parity/light router, but do not assign a cubic cutoff: the fixed
+  majorant is dead there. Price a count-only actual-vector pass before
+  authorizing exact norms for every primitive profile vector, and compare
+  that route against the 419 exact cofactor classes in `(4,2,0)`. Treat the
+  `N=512,s=3` band independently;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;
 - provide a total per-input image/collision certifier theorem; or

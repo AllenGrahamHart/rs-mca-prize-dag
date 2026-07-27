@@ -5097,3 +5097,37 @@ route decision: derive the exact E25 slack/profile/parity/light reduction and
                 quantify its router before authorizing any V=50 census.
                 Never rerun V>=52.
 ```
+
+**2026-07-27, E25 reduction and V=50 endpoint close:** this is the last live
+even level for the fixed cubic-Hermite majorant. The cutoff is tiny, but the
+actual-vector and exact-norm remainders remain bounded and close completely.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=50 (E=25)
+failed route app: ap-0xK5g91qR7LZzevi5tScu5 failed at remote import;
+                  completed no computation and supplies no evidence
+reduction app: ap-Bmu0kinryPMCm1zYI5CWas
+slack result: L<=15; exactly 12 energy profiles
+exact cubic cutoff: M_3=13; certified sign change at 13/14
+parity survivors: nine profiles; five one-odd and four five-odd
+light atlas: 264+14,400 normalized supports in 11+100=111 affine orbits
+coverage per engine: 111*binom(124,3)*64=2,203,120,896 vectors
+census app: ap-GPkfA9swDimrWIrdVL3u7Z
+independent engines: folded oriented chords and direct negacyclic products
+exact row agreement: 31,686 profile vectors; 31,280 above M_3=13;
+                     16,984 full conductor
+proper conductor: complementary 14,296 exceptions discharged by theorem
+norm app: ap-P7nLJ3MSSHmUrHb9P2RSoX; FLINT and PARI/GP agree on all 16,984
+distinct norms: 3,727
+exact maximum: 689346143769176281255733260656192958605975198224651023251426809106119000068
+strict margin: 2*N_max<2^250<3*N_max; bit length 249
+result: all nine profiles CLOSED; V=50 endpoint CLOSED
+live positive even variance frontier: V<=48
+new assumptions: none
+route boundary: PR #1110 proves the fixed majorant has negative margin even
+                at M_3=0 for every even V<=48
+route decision: derive the exact E24 profile/parity/light router without a
+                cubic cutoff. Price a count-only actual-vector pass before
+                retaining every primitive vector for direct exact norms.
+                Never rerun V>=50.
+```

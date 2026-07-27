@@ -2,73 +2,57 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 8,
+    "PASS": 6,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e26_endpoint_exclusion/verify.py",
-      "seconds": 0.032056,
+      "script": "background/nodes/e1_n256_s16_e25_endpoint_exclusion/verify.py",
+      "seconds": 0.030626,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E26_ENDPOINT_EXCLUSION_PASS profiles=10 exclusions=10 frontier=50 mutations=6\n"
+      "stdout_tail": "E1_N256_S16_E25_ENDPOINT_EXCLUSION_PASS profiles=9 exclusions=9 frontier=48 mutations=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e26_endpoint_exclusion/verify_audit.py",
-      "seconds": 0.012831,
+      "script": "background/nodes/e1_n256_s16_e25_endpoint_exclusion/verify_audit.py",
+      "seconds": 0.012404,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E26_ENDPOINT_EXCLUSION_AUDIT_PASS mutations=6/6\n"
+      "stdout_tail": "E1_N256_S16_E25_ENDPOINT_EXCLUSION_AUDIT_PASS mutations=4/4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e26_four_six_odd_profile_exclusion/verify.py",
-      "seconds": 2.176006,
+      "script": "background/nodes/e1_n256_s16_e25_nine_profile_exclusion/verify.py",
+      "seconds": 1.543163,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E26_FOUR_SIX_ODD_PROFILE_EXCLUSION_PASS templates=1234 vectors=24492353024 profile=78848 exceptions=74614 full=45408 max_bits=250 engines=4\n"
+      "stdout_tail": "E1_N256_S16_E25_NINE_PROFILE_EXCLUSION_PASS templates=111 vectors=2203120896 profile=31686 exceptions=31280 full=16984 max_bits=249 engines=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e26_four_six_odd_profile_exclusion/verify_audit.py",
-      "seconds": 0.245805,
+      "script": "background/nodes/e1_n256_s16_e25_nine_profile_exclusion/verify_audit.py",
+      "seconds": 1.390957,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E26_FOUR_SIX_ODD_PROFILE_EXCLUSION_AUDIT_PASS templates=1234 vectors=24492353024 exceptions=74614 full=45408 max_bits=250 engines=4\n"
+      "stdout_tail": "E1_N256_S16_E25_NINE_PROFILE_EXCLUSION_AUDIT_PASS checkers=2 engines=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/verify.py",
-      "seconds": 1.230029,
+      "script": "background/nodes/e1_n256_s16_e25_profile_parity_light_reduction/verify.py",
+      "seconds": 0.062808,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E26_PROFILE_PARITY_LIGHT_REDUCTION_PASS profiles=13 survivors=10 two=8168/87 six=280720/1234 floor=26219123456\n"
+      "stdout_tail": "E1_N256_S16_E25_PROFILE_PARITY_LIGHT_REDUCTION_PASS profiles=12 survivors=9 templates=111 floor=2203120896\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/verify_audit.py",
-      "seconds": 6.327576,
+      "script": "background/nodes/e1_n256_s16_e25_profile_parity_light_reduction/verify_audit.py",
+      "seconds": 0.04699,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E26_PROFILE_PARITY_PROBE_AUDIT_PASS profiles=13 forms=2 two=8168/87 six=280720/1234 router=1321\nE1_N256_S16_E26_PROFILE_PARITY_LIGHT_REDUCTION_AUDIT_PASS independent=1\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/verify.py",
-      "seconds": 0.695689,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E26_SIX_TWO_ODD_PROFILE_EXCLUSION_PASS templates=87 vectors=1726770432 profile=27380 exceptions=17624 full=8060 max_bits=249 engines=4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/verify_audit.py",
-      "seconds": 0.119369,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E26_SIX_TWO_ODD_PROFILE_EXCLUSION_AUDIT_PASS templates=87 vectors=1726770432 exceptions=17624 full=8060 max_bits=249 engines=4\n"
+      "stdout_tail": "E1_N256_S16_E25_PROFILE_PARITY_LIGHT_REDUCTION_AUDIT_PASS independent_checker=1\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

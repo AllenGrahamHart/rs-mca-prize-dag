@@ -247,15 +247,20 @@ parity leaves six two-odd and four six-odd profiles. Complete independent
 exceptions. Complete independent 24,492,353,024-vector censuses close the four
 six-odd profiles on all 1,234 affine templates; conductor removes 29,206 cubic
 exceptions and exact FLINT/PARI norms remove all 45,408 primitive exceptions.
-Hence `V=52` is empty and the frontier is `V<=50`.
+Hence `V=52` is empty and the frontier is `V<=50`. At `V=50`, exact slack and
+parity leave nine profiles on 111 affine templates. Independent
+2,203,120,896-vector censuses leave 31,280 cubic exceptions; conductor removes
+14,296 and exact FLINT/PARI norms remove all 16,984 primitive exceptions.
+Hence `V=50` is empty and the frontier is `V<=48`. The fixed cubic-Hermite
+majorant has no positive cutoff at any even level from 48 down.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
 injectivity or another explicit `V` line. Within the first `N=256` band,
-derive the exact `V=50` profile/parity/light router before authorizing a new
-census.
+derive the exact `V=48` profile/parity/light router and price a count-only
+actual-vector pass without relying on the now-dead cubic cutoff.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
-cofactor classes. Do not rerun any `V>=52`
+cofactor classes. Do not rerun any `V>=50`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
 safe predecessor relocates the candidate threshold immediately.

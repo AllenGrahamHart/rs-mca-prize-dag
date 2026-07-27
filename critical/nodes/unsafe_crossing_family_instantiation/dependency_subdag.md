@@ -219,4 +219,8 @@ conductor, and exact FLINT/PARI norms to close all six two-odd profiles. The
 proved six-odd exclusion uses two independent 24,492,353,024-vector censuses,
 conductor, and exact FLINT/PARI norms to close all four remaining profiles.
 The E26 endpoint closes `V=52` and advances the frontier to `V<=50`, still as
-evidence only rather than a close of the universal target.
+evidence only rather than a close of the universal target. The proved E25
+reduction leaves nine profiles on 111 affine templates; two independent
+2,203,120,896-vector censuses, conductor, and exact norms close all nine. The
+E25 endpoint closes `V=50` and advances the frontier to `V<=48`. The fixed
+cubic-Hermite majorant supplies no positive cutoff from that point downward.

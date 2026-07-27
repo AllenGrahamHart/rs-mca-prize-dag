@@ -78,9 +78,12 @@ explicit finite inequality at the row.
    six-odd profiles. Independent 1,726,770,432-vector censuses, conductor, and
    exact norms close all six two-odd profiles. Independent 24,492,353,024-
    vector censuses, conductor, and exact norms close all four six-odd
-   profiles. The entire `V=52` chamber is closed. Derive the exact `V=50`
-   profile/parity/light router before authorizing further enumeration. Do not
-   rerun any `V>=52` chamber.
+   profiles. The entire `V=52` chamber is closed. At `V=50`, parity leaves
+   nine profiles on 111 affine templates; independent 2,203,120,896-vector
+   censuses, conductor, and exact norms close all nine. The fixed cubic
+   majorant has no positive cutoff at `V<=48`. Derive the exact `V=48` router
+   and price all actual profile vectors before authorizing a direct-norm pass.
+   Do not rerun any `V>=50` chamber.
    The
    signed-chord gate
    further excludes circular-Sidon supports: every residual has an oppositely
