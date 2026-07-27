@@ -1,0 +1,10 @@
+{
+  "profile_08_file": "background/nodes/e1_n256_s16_e32_profile_08_light_template_exclusion/statement.md",
+  "profile_08_file_sha256": "4a0905c72bef38ee729958da52150ebd4222a7972c114f0d873bf537ca10fe2b",
+  "profile_351_file": "background/nodes/e1_n256_s16_e32_profile_351_light_template_exclusion/statement.md",
+  "profile_351_file_sha256": "0b387bbc48dcecda916904df2a5b589fb98fb41399e4b618108923811c29d23c",
+  "profile_47_file": "background/nodes/e1_n256_s16_e32_profile_47_exact_norm_exclusion/statement.md",
+  "profile_47_file_sha256": "fe335329382779e00b0f1329f6aa4890aaeed45feaeba3b6573ba9035416503e",
+  "profile_reduction_file": "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/statement.md",
+  "profile_reduction_file_sha256": "2c775ba148a35987157c2ce170dbc18b4a338f194cd990b304904e8726ed4edd"
+}

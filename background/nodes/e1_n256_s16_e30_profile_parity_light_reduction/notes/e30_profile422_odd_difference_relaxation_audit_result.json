@@ -1,0 +1,261 @@
+{
+  "complete": true,
+  "completed_shards": 4,
+  "expected_shards": 4,
+  "production_sha256": "9ec8c7757b38d92b17ed9adeadf71083a62a4eb2aa29074fa4051df5a7028ae8",
+  "rows": [
+    {
+      "above_histogram": {},
+      "above_threshold": 0,
+      "assignments": 7397460,
+      "complete": true,
+      "distinct_odd_masks": 1234,
+      "exceptional": [],
+      "maximum_m3": 1050,
+      "normalized_six_odd_supports": 280720,
+      "shard": 0,
+      "shards": 4,
+      "tested_masks": 309,
+      "threshold": 1087,
+      "witness": {
+        "even_classes": [
+          4,
+          12
+        ],
+        "light": [
+          0,
+          2,
+          10,
+          16
+        ],
+        "m3": 1050,
+        "odd_classes": [
+          2,
+          6,
+          8,
+          10,
+          14,
+          16
+        ],
+        "odd_mask": 41634,
+        "promoted_to_three": [
+          2,
+          6
+        ]
+      },
+      "worker_seconds": 0.4611630790000001
+    },
+    {
+      "above_histogram": {},
+      "above_threshold": 0,
+      "assignments": 7397460,
+      "complete": true,
+      "distinct_odd_masks": 1234,
+      "exceptional": [],
+      "maximum_m3": 1062,
+      "normalized_six_odd_supports": 280720,
+      "shard": 1,
+      "shards": 4,
+      "tested_masks": 309,
+      "threshold": 1087,
+      "witness": {
+        "even_classes": [
+          4,
+          6
+        ],
+        "light": [
+          0,
+          1,
+          3,
+          8
+        ],
+        "m3": 1062,
+        "odd_classes": [
+          1,
+          2,
+          3,
+          5,
+          7,
+          8
+        ],
+        "odd_mask": 215,
+        "promoted_to_three": [
+          1,
+          2
+        ]
+      },
+      "worker_seconds": 0.499305546
+    },
+    {
+      "above_histogram": {},
+      "above_threshold": 0,
+      "assignments": 7373520,
+      "complete": true,
+      "distinct_odd_masks": 1234,
+      "exceptional": [],
+      "maximum_m3": 1050,
+      "normalized_six_odd_supports": 280720,
+      "shard": 2,
+      "shards": 4,
+      "tested_masks": 308,
+      "threshold": 1087,
+      "witness": {
+        "even_classes": [
+          2,
+          6
+        ],
+        "light": [
+          0,
+          1,
+          5,
+          8
+        ],
+        "m3": 1050,
+        "odd_classes": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          8
+        ],
+        "odd_mask": 221,
+        "promoted_to_three": [
+          1,
+          3
+        ]
+      },
+      "worker_seconds": 0.46043828600000003
+    },
+    {
+      "above_histogram": {
+        "1146": 3
+      },
+      "above_threshold": 3,
+      "assignments": 7373520,
+      "complete": true,
+      "distinct_odd_masks": 1234,
+      "exceptional": [
+        {
+          "even_classes": [
+            3,
+            4
+          ],
+          "light": [
+            0,
+            1,
+            6,
+            8
+          ],
+          "m3": 1146,
+          "odd_classes": [
+            1,
+            2,
+            5,
+            6,
+            7,
+            8
+          ],
+          "odd_mask": 243,
+          "promoted_to_three": [
+            1,
+            2
+          ]
+        },
+        {
+          "even_classes": [
+            6,
+            8
+          ],
+          "light": [
+            0,
+            2,
+            12,
+            16
+          ],
+          "m3": 1146,
+          "odd_classes": [
+            2,
+            4,
+            10,
+            12,
+            14,
+            16
+          ],
+          "odd_mask": 43530,
+          "promoted_to_three": [
+            2,
+            4
+          ]
+        },
+        {
+          "even_classes": [
+            12,
+            16
+          ],
+          "light": [
+            0,
+            4,
+            24,
+            32
+          ],
+          "m3": 1146,
+          "odd_classes": [
+            4,
+            8,
+            20,
+            24,
+            28,
+            32
+          ],
+          "odd_mask": 2290614408,
+          "promoted_to_three": [
+            4,
+            8
+          ]
+        }
+      ],
+      "maximum_m3": 1146,
+      "normalized_six_odd_supports": 280720,
+      "shard": 3,
+      "shards": 4,
+      "tested_masks": 308,
+      "threshold": 1087,
+      "witness": {
+        "even_classes": [
+          3,
+          4
+        ],
+        "light": [
+          0,
+          1,
+          6,
+          8
+        ],
+        "m3": 1146,
+        "odd_classes": [
+          1,
+          2,
+          5,
+          6,
+          7,
+          8
+        ],
+        "odd_mask": 243,
+        "promoted_to_three": [
+          1,
+          2
+        ]
+      },
+      "worker_seconds": 0.5088084479999999
+    }
+  ],
+  "schema": "e1-e30-profile422-odd-difference-relaxation-audit-v1",
+  "source_sha256": "407f7f04b2fc304c4dd7fa1724c82ac977d412b45ac7d461d5a486bb1cf4e664",
+  "summary": {
+    "above_threshold": 3,
+    "assignments": 29541960,
+    "maximum_m3": 1146,
+    "worker_seconds": 1.929715359
+  }
+}

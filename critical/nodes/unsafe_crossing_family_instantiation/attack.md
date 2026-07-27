@@ -94,11 +94,24 @@ no profile vectors. The uncoupled quotient route for `(3,5,1)` is also
 retired: exact relaxation maxima 1610 and 1594 exceed 1517, with compact
 locally replayed allocation witnesses. These are not actual vectors.
 
-Profiles `(4,7)` and `(3,5,1)` share the same four-odd light parity. Build one
-complete light-support router, split on zero versus two light-light diameters,
-and retain the exact class-multiplicity signature. In the two-diameter branch
-the four remaining light chords occupy distinct classes. Require this finite
-router before any complete signed-vector census.
+Profiles `(4,7)` and `(3,5,1)` share the same four-odd light router: 28,800
+normalized supports form 148 affine-unit orbits, every one with zero
+light-light diameters and one repeated light-chord wedge. The joint production
+and independent direct-negacyclic censuses are complete. They exclude
+`(3,5,1)` with exact maximum `M_3=1392<1517`. The sole residual `(4,7)` has
+full-conductor maximum 1524, while direct resultants of its full- and
+proper-conductor extremizers remain below `2^250`. The subsequent complete
+FLINT and independent PARI norm censuses agree on all 60,148 full-conductor
+vectors and a 247-bit maximum satisfying `15*N_max<2^250`; the conductor
+theorem handles the complement. Hence `V=64` is closed. Do not rerun any
+`V>=64` campaign. The algebraic `V=62` reduction leaves three profiles on
+eight affine templates; independent 158,783,488-vector censuses close all
+three with the exact cubic cutoff and conductor theorem. Do not rerun any
+`V>=62` campaign. At `V=60`, quotient allocation and complete two-odd ledgers
+close five of the eight exact profiles. The odd-difference relaxation and
+exact exceptional norms also close `(4,2,2)`. Attack only `(6,6)` and
+`(5,4,1)` by extending that structured method. Their direct census floor is
+21,773,185,792 signed vectors per profile and is out of scope.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
 the 2-adic singleton screen and test its 419 exact cofactors directly; do not

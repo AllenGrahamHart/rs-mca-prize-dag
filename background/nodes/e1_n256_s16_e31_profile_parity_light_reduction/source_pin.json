@@ -1,0 +1,16 @@
+{
+  "classifier_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e31_three_odd_light_orbit_classifier.py",
+  "classifier_file_sha256": "c46d38885814ae21420c7e4ddc20e9588f45fb4a0bf08cbf4349978ab8f5ff92",
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
+  "endpoint_file": "background/nodes/e1_n256_s16_e32_endpoint_exclusion/statement.md",
+  "endpoint_file_sha256": "b6b8c1a986f9f64d64bed2fb056f8bcc64e5e8d86e3ef93bdd7cd6bcc40a9cd8",
+  "independent_check_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e31_three_odd_light_orbit_check.py",
+  "independent_check_file_sha256": "2412075b185a0900c1c5fa32986b08205bbfa5ae08e7b2993db76805d7b12588",
+  "orbit_result_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e31_three_odd_light_orbit_result.json",
+  "orbit_result_file_sha256": "dfa93a27a628267ec21ec3684ae8e567cce0f25bd836e31e4b55ae71ecce2ca6",
+  "signed_chord_file": "background/nodes/e1_n256_s16_signed_chord_collision_gate/statement.md",
+  "signed_chord_file_sha256": "926f9c94a0b5dd0830b7e37fafcd96f570dd93802de16061c802546e466e3157",
+  "variance_parent_verify_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py",
+  "variance_parent_verify_file_sha256": "57b7a0f2d8590bda9234f4fb5bc0a573afd56200436458121767489fc5091f8e"
+}

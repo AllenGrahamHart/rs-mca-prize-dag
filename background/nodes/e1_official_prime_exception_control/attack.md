@@ -42,20 +42,37 @@ explicit finite inequality at the row.
    `s=3` for `N=512`, and convert every counted object to unordered class
    pairs explicitly. Only profiles `(4,2,0),(3,4,0)` survive in the first
    `N=256` band. In `(3,4,0)`, only positive even autocorrelation variance
-   `V<=64` remains after the complete exact endpoint chain. At `V=64`, only
+   `V<=60` remains after the complete exact endpoint chain. At `V=64`, only
    autocorrelation profiles `(4,7)`, `(0,8)`, and `(3,5,1)` remain after the
    exact cubic/parity reduction, and the zero-odd `(0,8)` profile is now
-   excluded by a complete six-template census. Proper conductor
+   excluded by a complete six-template census. The joint 148-template census
+   and its independent replay exclude `(3,5,1)` with exact
+   `M_3=1392<1517`. Complete FLINT/PARI resultant ledgers and the conductor
+   theorem exclude `(4,7)`, closing the endpoint. Proper conductor
    is already excluded, but an explicit
    full-conductor vector with `V=36` rules out reducing the residual to
    periodic lifts. Classify the full-conductor residual before revisiting
    generic supports, applying the exact 2-adic multiplicity gate before any
-   norm computation. The bounded quotient relaxation for `(3,5,1)` fails at
-   maxima 1610 and 1594 above the 1517 cutoff. Build the common four-odd light
-   router for `(4,7)` and `(3,5,1)`, split on zero versus two diameters, and do
-   not rerun the retired quotient census. The signed-chord gate further
-   excludes circular-Sidon supports: every residual has an oppositely signed
-   equal-distance chord
+   norm computation. The common four-odd light router and joint census are
+   complete: 148 affine templates, no light-light diameter, one repeated
+   light-chord wedge, and 60,148 full-conductor `(4,7)` representatives with
+   maximum `M_3=1524`; their exact maximum norm is below `2^250`. Do not rerun
+   this geometry or norm census. At `V=62`, exact slack/parity reduces to
+   `(3,7)`, `(2,5,1)`, and `(1,3,2)` on eight affine light templates. Two
+   independent 158,783,488-vector censuses close all three using the exact
+   `M_3=1302` cutoff and the proper-conductor theorem. Do not rerun this
+   chamber. At `V=60`, exact profile/parity reduction leaves eight profiles.
+   The quotient ledger closes `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`; the
+   complete two-odd ledger closes `(2,7)` and `(1,5,1)`. A structured odd-
+   difference relaxation plus exact exceptional norms closes `(4,2,2)`. The
+   residual is exactly `(6,6)` and `(5,4,1)`, both with six odd light classes.
+   Extend the difference-mask method with an optimizer or analytic bound for
+   their larger even layers; the proved direct-census floor is 21,773,185,792
+   vectors per profile, so do not brute-force this branch.
+   The
+   signed-chord gate
+   further excludes circular-Sidon supports: every residual has an oppositely
+   signed equal-distance chord
    pair, hence a three-term or parallelogram template. Classify those templates
    rather than rescan generic supports. Local reciprocity also collapses the
    square-mass-16 cofactor to `2^mu` for `1<=mu<=5`; exclude or

@@ -117,3 +117,46 @@ profile vectors. The live `V=64` profiles are therefore `(4,7)` and
 `(3,5,1)`. The basic quotient relaxation cannot exclude `(3,5,1)`, since
 explicit feasible allocations attain 1610 and 1594 above the 1517 cutoff;
 this is a route obstruction, not a collision counterexample.
+
+The two surviving profiles now share a proved finite router. Exactly 28,800
+normalized four-odd light supports form 148 affine odd-unit orbits; all have
+zero light-light diameters and one repeated light-chord wedge. This forces a
+light three-term progression and sharpens the diameter ledger, but does not by
+itself exclude `(4,7)` or `(3,5,1)`.
+
+The joint actual-geometry census is now complete. Folded-chord and independent
+direct-negacyclic engines each exhaust 2,937,494,528 representative signed
+vectors. For `(3,5,1)` they agree on 29,238 profile vectors, 15,440 at full
+conductor, and exact unrestricted maximum `M_3=1392<1517`, excluding that
+profile. For `(4,7)` they agree on 87,818 profile vectors, 60,148 at full
+conductor, unrestricted maximum 1584, and full-conductor maximum 1524. The
+latter exceeds the cubic cutoff by seven, so `(4,7)` remains the sole `V=64`
+profile; its displayed extremizers nevertheless have exact norms below
+`2^250`, showing that the present cubic majorant is non-sharp there.
+
+The exact norm route closes that final profile. A folded-chord/FLINT engine and
+an independent direct-negacyclic/PARI engine each enumerate the complete
+148-template chamber, retain exactly 60,148 full-conductor `(4,7)` vectors,
+and agree on every per-template maximum. Their global maximum is a 247-bit
+integer satisfying `15*N_max<2^250`; the proved conductor theorem removes all
+proper-conductor vectors. The endpoint synthesis therefore proves `V=64`
+empty and advances the live positive even variance frontier to `V<=62`.
+
+The next endpoint is now closed as well. At `V=62`, exact slack and parity
+leave three profiles on exactly 960 normalized light supports in eight affine
+odd-unit orbits. Folded-chord and independent direct-negacyclic engines each
+cover 158,783,488 representative signed vectors and agree on every count and
+maximum. Unrestricted `M_3` maxima 1068 and 1122 exclude `(2,5,1)` and
+`(1,3,2)`; full-conductor maximum 1206 excludes that part of `(3,7)` below
+the exact cutoff 1302, and the conductor theorem removes its complement.
+Thus `V=62` is empty and the live positive even frontier is `V<=60`.
+
+The `V=60` chamber is now sharply reduced but remains open. Exact slack and
+parity leave eight profiles. A complete mod-16 allocation ledger excludes
+`(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`. Two independent 87-template censuses
+and two independent exact-resultant ledgers exclude `(2,7)` and `(1,5,1)`.
+A complete odd-difference relaxation reduces `(4,2,2)` to six actual vectors;
+proper conductor and exact norms exclude them. The exact residual is `(6,6)`
+and `(5,4,1)`, both in the six-odd branch. A direct affine-orbit census for
+either has a proved floor of 21,773,185,792 signed vectors, so these are
+structural proof targets rather than brute-force jobs.

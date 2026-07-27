@@ -31,10 +31,34 @@ The first surviving `N=256` band reduces to folded coefficient profiles
 exact logarithmic deficit removes `V=0` and every `V>=136`; a
 sparse-autocorrelation refinement removes `78<=V<=134`. Four exact
 quotient-Schur packets remove `V=76,74,72,70`; complete endpoint chains remove
-`V=68,66`, leaving positive even `V<=64`. At `V=64`, exact slack, cubic, and
+`V=68,66,64,62`, leaving positive even `V<=60`. At `V=64`, exact slack, cubic, and
 parity arithmetic leaves only autocorrelation profiles `(4,7)`, `(0,8)`, and
 `(3,5,1)`. The zero-odd profile `(0,8)` is empty by a complete six-template
-light census; the two four-odd profiles remain. A subfield norm argument also
+light census; the two four-odd profiles share exactly 148 affine light
+templates, all with one repeated wedge and no light diameter. Independent
+joint censuses exclude `(3,5,1)` at exact `M_3=1392<1517`; `(4,7)` alone
+has full-conductor census maximum 1524. Complete FLINT and independent PARI
+resultant ledgers put all 60,148 such norms below `2^250`, closing the profile
+and endpoint. At `V=62`, exact slack gives `L<=17`; parity leaves only
+`(3,7)`, `(2,5,1)`, and `(1,3,2)` on 960 normalized light supports in eight
+affine odd-unit orbits. Folded-chord and direct-negacyclic engines each cover
+158,783,488 representative signed vectors. Exact unrestricted maxima 1068
+and 1122 close `(2,5,1)` and `(1,3,2)`; the full-conductor maximum 1206 closes
+that part of `(3,7)` below the `M_3=1302` cutoff, and the conductor theorem
+closes its complement. At `V=60`, exact slack gives `L<=18`, the exact cubic
+cutoff is `M_3=1087`, and parity leaves eight profiles. A complete mod-16
+allocation ledger closes `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`. Two
+independent 87-template censuses scan 1,726,770,432 representative vectors and
+close `(1,5,1)` below the cubic cutoff; independent FLINT and PARI ledgers put
+all 28,114 full-conductor `(2,7)` norms below `2^250`. The conductor theorem
+handles both complements. A subsequent 1,234-mask structured relaxation has
+only three profile-`(4,2,2)` assignments above the cutoff; actual-vector
+censuses reduce them to six vectors, and conductor plus exact norms exclude
+all six. The exact residual is therefore `(6,6)` and `(5,4,1)`, both in the
+six-odd branch. Their 280,720 normalized light supports require at least 1,097
+affine orbits, giving a direct-census floor of 21,773,185,792 signed vectors
+for either profile. A subfield norm
+argument also
 removes every vector
 in either profile whose support differences have a nontrivial gcd with
 `256`. Thus all live first-band vectors have full conductor. This does not
@@ -70,13 +94,13 @@ The next route-deciding attack is algebraic. Either:
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
-  after the 2-adic cofactor screen. In `(3,4,0)`, begin with the live `V=64`
-  profiles `(4,7)` and `(3,5,1)`. Their common four-odd parity needs one
-  light-support router split on zero versus two light-light diameters. The
-  uncoupled quotient relaxation for `(3,5,1)` already exceeds the exact cubic
-  cutoff and should not be rerun. Its odd norm part must itself be the row
-  prime, so test that exact object rather than a cofactor interval. Treat the
-  `N=512,s=3` band independently;
+  after the 2-adic cofactor screen. In `(3,4,0)`, extend the successful odd-
+  difference relaxation to `(6,6)` and `(5,4,1)`, using optimization or
+  analytic bounds for their larger even-layer choices; every other `V=60`
+  profile and every
+  `V>=62` chamber is closed and must not be rerun. Do not authorize the
+  21.77-billion-vector direct census for either profile. Treat the `N=512,s=3` band
+  independently;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;
 - provide a total per-input image/collision certifier theorem; or

@@ -4603,3 +4603,230 @@ route decision: both survivors have four odd autocorrelation coefficients and
 next route-deciding action: classify that common light-support orbit space
                               before authorizing either signed-vector census
 ```
+
+**2026-07-27, V=64 common four-odd light router:** both surviving profiles now
+share one exact finite geometry chamber.
+
+```text
+starting pin: local e2a5fab2
+proof pin: local 7b44cea1
+node attacked: V=64 profiles (4,7) and (3,5,1), common light geometry
+normalized classification: 28,800 of 333,375 four-light supports
+diameter result: every valid support has zero light-light diameters
+distance ledger: multiplicities 2,1,1,1,1
+shape result: the repeated edges always share a vertex; every support contains
+              a light three-term progression; no repeated matching survives
+affine router: 148 odd-unit/translation orbits
+orbit sizes: 32 (4 orbits), 64 (16), 128 (40), 256 (88)
+independent replay: vertex triples versus positive circular gaps; expanded
+                    printed orbits are disjoint and cover all 28,800 supports
+diameter ledger: D_64 in {0,4,8,12,16,20}
+compute spend: verifier-scale local classification only; no Modal run
+DAG delta: one PROVED node and three edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+new assumptions: none
+route decision: form each signed autocorrelation once and apply both live
+                profile filters in one 148-template representative census
+next route-deciding action: joint Modal census with unrestricted and
+                              full-conductor maxima, followed by independent
+                              direct-negacyclic replay if closure is indicated
+```
+
+**2026-07-27, V=64 joint census and profile `(3,5,1)` close:** the common
+router pays one branch outright and isolates the exact norm gap in the last
+profile.
+
+```text
+starting pin: local fcd52e30
+node attacked: V=64 profiles (4,7) and (3,5,1), shared actual geometry
+production coverage: 148*binom(124,3)*64=2,937,494,528 representative vectors
+production app: ap-DuxqODKmBVrz1XwQGhui61, folded-chord engine
+audit app: ap-RjKrdoGVLkBnsZLmm9Loeu, direct negacyclic-product engine
+independent agreement: all 148 per-template counts, conductor splits, maxima
+profile (3,5,1): 29,238 vectors; 15,440 full conductor;
+                     exact unrestricted/full maximum M_3=1392<1517; CLOSED
+profile (4,7): 87,818 vectors; 60,148 full conductor;
+                 unrestricted maximum 1584; full-conductor maximum 1524
+extremizer audit: exact resultant bit lengths 240 (proper) and 239 (full),
+                  both below 2^250; over-cutoff M_3 is not a counterexample
+route catch: the quotient relaxation failed for (3,5,1), but actual chord
+             geometry lowers its exact maximum by 125 below the cutoff
+compute spend: two 148-task one-core campaigns plus three resultants;
+               conservative cost below $0.10
+new assumptions: none
+live V=64 residual: (4,7) only
+route decision: the cubic-Hermite certificate is seven units too weak on the
+                exact full-conductor maximum, while actual extremal norms pass
+next route-deciding action: sharpen the finite 60,148-vector norm ledger by
+                              exact resultants or a higher-moment majorant;
+                              do not rerun the geometry census
+```
+
+**2026-07-27, profile `(4,7)` and V=64 endpoint close:** two independent exact
+resultant ledgers pay the non-sharp cubic tail and finish the endpoint.
+
+```text
+node attacked: final V=64 profile (4,7)
+pilot coverage: templates 59,35,139; 1,500 full-conductor resultants;
+                both backends agree, maximum 246 bits, aggregate worker time
+                7.36 seconds (FLINT) and 14.19 seconds (PARI)
+full coverage: all 148 templates and 2,937,494,528 representative vectors
+retained ledger: 60,148 full-conductor profile-(4,7) vectors
+production app: ap-wUY2sEVOlPTj95cuuaJhkT, folded chords + Python FLINT,
+                377.786140 aggregate worker-seconds
+audit app: ap-b1DkMwYxO1Wt886rrpSVYT, direct negacyclic product + PARI/GP,
+           631.679933 aggregate worker-seconds
+exact maximum: 119477984433218714943829098200259691143739376720677525742811917286342611458
+maximizing vector: positions (5,7,9,0,1,2,12),
+                   coefficients (2,-2,-2,1,1,1,1)
+strict margin: 15*N_max < 2^250 < 16*N_max; maximum bit length 247
+proper conductor: discharged by e1_n256_proper_conductor_collision_exclusion
+endpoint synthesis: profiles (0,8), (3,5,1), and (4,7) all PROVED impossible
+result: V=64 CLOSED; live positive even variance frontier V<=62
+compute spend: 1009.466073 aggregate full-run worker-seconds plus pilots;
+               conservative cost remains below $0.10
+new assumptions: none
+route decision: exact finite norms are materially sharper than the cubic
+                majorant at M_3=1524; do not rerun any V>=64 campaign
+next route-deciding action: start V=62 (E=31) with exact algebraic profile,
+                              slack, parity, and diameter reduction before any
+                              new census; compare against the (4,2,0) lane
+```
+
+**2026-07-27, V=62 algebraic reduction and endpoint close:** the odd-parity
+geometry collapses the next chamber to eight templates, and two inexpensive
+independent censuses pay all three residual profiles.
+
+```text
+starting pin: local 05f66d4d
+node attacked: N=256, folded profile (3,4,0), V=62 (E=31)
+slack result: L<=17; exactly 15 energy profiles
+exact cubic cutoff: M_3=1302
+parity survivors: (3,7), (2,5,1), (1,3,2)
+light router: 960 normalized supports in eight affine odd-unit orbits
+templates: {0,t,2t,64}, {0,t,32,64}, t in {1,2,4,8}
+geometry: one light diameter; non-diameter multiplicities 2,1,1,1;
+          repeated edges form a wedge
+production app: ap-QVT4zR1b0UV4Z3QVYzLo4B, folded-chord engine
+audit app: ap-09HiyZJzn23MDKtzPjXS1M, direct negacyclic-product engine
+coverage per engine: 8*binom(124,3)*64=158,783,488 representative vectors
+independent agreement: all eight row counts, conductor splits, and maxima
+profile (3,7): 7,204 vectors; 3,856 full conductor;
+                 unrestricted max M_3=1380; full max M_3=1206<1302
+profile (2,5,1): 1,590 vectors; unrestricted max M_3=1068<1302
+profile (1,3,2): 388 vectors; unrestricted max M_3=1122<1302
+proper conductor: the 3,348-vector complement of full-conductor (3,7) is
+                  discharged by the existing conductor theorem
+endpoint synthesis: all three profiles PROVED impossible
+result: V=62 CLOSED; live positive even variance frontier V<=60
+compute spend: 21.161992 production plus 31.049432 audit aggregate
+               worker-seconds, eight 256 MiB workers per campaign
+DAG delta: three PROVED nodes; critical orbit census unchanged because these
+           are evidence suppliers, not new required leaves
+critical census: math 241 (179/38/24), submission 256 (191/40/25)
+new assumptions: none
+route decision: begin V=60 (E=30) algebraically; do not extrapolate the cubic
+                endpoint descent without first proving a comparably small
+                template router, and compare value against the (4,2,0) lane
+```
+
+**2026-07-27, V=60 reduction and five-profile close:** exact parity and
+quotient routing close three profiles, while a complete two-odd census and
+exact resultant ledger close two more. The endpoint remains open on a
+three-profile six-odd branch.
+
+```text
+starting pin: local ffd030fa
+node attacked: N=256, folded profile (3,4,0), V=60 (E=30)
+slack result: L<=18; exactly 18 energy profiles
+exact cubic cutoff: M_3=1087
+parity survivors: (6,6), (2,7), (5,4,1), (1,5,1), (4,2,2), (0,3,2),
+                  (6,2,0,1), (3,0,3)
+light split: two odd classes for (2,7),(1,5,1); six odd classes otherwise
+two-odd geometry: 8,168 normalized supports in 87 affine odd-unit orbits
+six-odd geometry: 280,720 normalized supports; every light chord distinct
+six-odd census fence: at least 1,097 affine orbits and
+                      21,773,185,792 representative signed vectors
+quotient app: ap-6rqImRUb2uMS1GmFe1rVMT; 128 complete tasks;
+              106.631016 aggregate worker-seconds
+discarded launch: ap-Y3PyxbL9jWc8vSqM0zXKQe completed zero tasks and emitted
+                  an explicit incomplete packet; it is not evidence
+quotient closures: (0,3,2) maxima 936/936;
+                   (6,2,0,1) maxima 1058/1048;
+                   (3,0,3) maxima 1002/940, all below 1087
+two-odd production: ap-kByaSsYhxYgKb4TJqkEuLT, folded chords,
+                    219.666239 aggregate worker-seconds
+two-odd audit: ap-FqluYkBc3DLz687GeYxBgp, direct negacyclic product,
+               331.165567 aggregate worker-seconds
+coverage per engine: 87*binom(124,3)*64=1,726,770,432 vectors
+profile (1,5,1): 7,722 vectors; 3,572 full conductor;
+                   full-conductor max M_3=1068<1087
+profile (2,7): 44,302 vectors; 28,114 full conductor;
+                 cubic max 1320, requiring exact norms
+norm production: ap-iEm8zqbRcOWdVO9qSVwi4o, folded chords + FLINT,
+                 217.814119 aggregate worker-seconds
+norm audit: ap-pBUnRmFuHfemCN6jBFUmG6, direct negacyclic + PARI/GP,
+            340.729671 aggregate worker-seconds
+exact maximum: 255193811126065252065353356643030254729479452452701245894186298519499407392
+maximizing vector: positions (7,39,103,0,1,20,109),
+                   coefficients (2,-2,-2,-1,1,1,1)
+strict margin: 7*N_max<2^250<8*N_max; zero norms at or above 2^250
+proper conductor: both complementary two-odd branches discharged by the
+                  existing conductor theorem
+closed profiles: (0,3,2), (6,2,0,1), (3,0,3), (2,7), (1,5,1)
+live V=60 residual: (6,6), (5,4,1), (4,2,2), all six odd
+aggregate successful compute: 1216.006612 worker-seconds
+new assumptions: none
+route decision: do not descend to V=58 and do not run the direct six-odd
+                census. Seek a stronger moment inequality, additive
+                six-light structure, or a norm factorization that treats the
+                three residual profiles simultaneously.
+```
+
+**2026-07-27, profile `(4,2,2)` structured close:** conditioning the cubic
+moment on the six light differences replaces the 21.77-billion-vector route
+by a 1,234-mask relaxation and six-vector exceptional ledger.
+
+```text
+node attacked: N=256, V=60 profile (4,2,2)
+odd-set identity: b = 1_O + 2*1_(P union E), where O is the symmetric
+                  six-difference set of the four light positions,
+                  |P/+-|=2 inside O, |E/+-|=2 outside O
+normalized light supports: 280,720
+distinct odd masks modulo odd units: 1,234
+relaxation assignments: 1234*binom(6,2)*binom(57,2)=29,541,960
+production relaxation: ap-tvZbcv7UZUzrmCYpkGAOTG,
+                       direct cyclic-convolution expansion,
+                       7.487322 aggregate worker-seconds
+audit relaxation: ap-dJMmIFzqO9ccMXj6V7w4EQ,
+                  positive circular gaps + signed-triple kernel,
+                  1.929715 aggregate worker-seconds
+independent agreement: every shard, mask count, assignment count, maximum,
+                       histogram, and exceptional pattern
+relaxation maximum: M_3=1146; exactly three assignments exceed 1087
+exceptional primitive light support: {0,1,6,8}
+exceptional layers: odd {1,2,5,6,7,8}, magnitude-three {1,2},
+                    magnitude-two {3,4}; other two are dilates by 2 and 4
+actual-vector app: ap-6dp2yFFRypuGUw2Xs9tKcD
+actual coverage per engine: 3*binom(124,3)*64=59,543,808 vectors
+actual engines: folded unordered chords and direct negacyclic product
+actual survivors: two per exceptional orbit; conductor split 2,0,0
+proper conductor: the four scale-two/scale-four vectors are excluded
+primitive vectors: F_1=1+x+2x^2+2x^3-2x^4+x^6-x^8,
+                   F_2=F_1(-x)
+norm app: ap-z7K1Nn5YhdCDPYES6pvGLd, FLINT and PARI/GP
+common exact norm: 4039047355553663302249733085042470588482730556495866201164489362016333826
+strict margin: 447*N_max<2^250<448*N_max; bit length 242
+result: profile (4,2,2) CLOSED
+live V=60 residual: (6,6), (5,4,1), both six odd
+successful census compute: 20.626053 aggregate worker-seconds plus two
+                           negligible exact resultants
+discarded launch: ap-IQ6rztTj4LeLC4wg1DSGgC failed during audit-source
+                  compilation and ran zero numerical tasks
+new assumptions: none
+route decision: extend the odd-mask method to (6,6) and (5,4,1), but replace
+                raw choices of six or four even classes by branch-and-bound,
+                an exact optimizer, or a provable additive upper bound. Do
+                not run either direct vector census and do not descend to
+                V=58.
+```

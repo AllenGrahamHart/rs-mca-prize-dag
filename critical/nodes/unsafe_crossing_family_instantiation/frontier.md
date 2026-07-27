@@ -178,11 +178,57 @@ profile vectors. The uncoupled three-layer quotient route does not close
 they are not actual autocorrelation vectors. Thus the live `V=64` profiles
 are `(4,7)` and `(3,5,1)`, which share one four-odd light-support router.
 
+That shared router is now exact. The 28,800 normalized four-odd supports have
+no light-light diameter and distance multiplicities `2,1,1,1,1`; the repeated
+edges always share a light vertex and force a light three-term progression.
+Affine odd-unit transport gives 148 representatives, with normalized orbit
+sizes 32, 64, 128, and 256 occurring 4, 16, 40, and 88 times. Thus
+`D_64 in {0,4,8,12,16,20}`. A single representative census can apply both
+remaining profile filters to each signed autocorrelation.
+
+That joint census and an independent direct-negacyclic replay are complete.
+Each engine tests 2,937,494,528 representative signed vectors. Profile
+`(3,5,1)` has 29,238 representatives, 15,440 at full conductor, and exact
+maximum `M_3=1392<1517`, so it is excluded. Profile `(4,7)` has 87,818
+representatives, 60,148 at full conductor, unrestricted maximum 1584, and
+full-conductor maximum 1524. Direct resultants of the two extremizers have
+only 240 and 239 bits, below `2^250`; therefore the over-cutoff third moment
+does not itself exhibit a live collision.
+
+The complete exact norm ledger now closes `(4,7)`. Independent
+folded-chord/FLINT and direct-negacyclic/PARI engines each retain all 60,148
+full-conductor vectors and agree on a 247-bit maximum with
+`15*N_max<2^250`; the conductor theorem removes the complementary proper-
+conductor vectors. Thus `V=64` is empty and the live positive even variance
+frontier is `V<=62`.
+
+At `V=62`, exact slack gives `L<=17` and light parity leaves only `(3,7)`,
+`(2,5,1)`, and `(1,3,2)`. Their 960 normalized light supports form eight
+affine odd-unit orbits. Folded-chord and direct-negacyclic engines each census
+158,783,488 representative signed vectors. Unrestricted maxima 1068 and 1122
+exclude the latter two profiles; full-conductor maximum 1206 excludes that
+part of `(3,7)` below the exact `M_3=1302` cutoff, and the conductor theorem
+removes its complement. Thus `V=62` is empty and the frontier is `V<=60`.
+
+At `V=60`, exact slack gives `L<=18`, the cubic cutoff is `M_3=1087`, and
+parity leaves eight profiles. Quotient allocation closes `(0,3,2)`,
+`(6,2,0,1)`, and `(3,0,3)`. Complete two-odd censuses close `(2,7)` and
+`(1,5,1)`, including exact resultants for all 28,114 full-conductor `(2,7)`
+vectors. For `(4,2,2)`, independent 1,234-mask relaxations leave three
+abstract exceptions; independent actual-vector censuses leave six vectors,
+and conductor plus exact norms exclude them. The surviving profiles are
+exactly `(6,6)` and `(5,4,1)`. Both have six odd light classes; the 280,720
+normalized supports force at least 1,097 affine orbits and a
+21,773,185,792-vector direct-census floor for either profile.
+
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
-injectivity or another explicit `V` line. Within the first `N=256` band, the
-next route decision is the common four-odd light-support classification for
-the two live `V=64` profiles. The still broad `(4,2,0)` profile and later
-`N=256,s>=6`, `N=512,s>=3` bands remain open. Any exact safe predecessor
-relocates the candidate threshold immediately.
+injectivity or another explicit `V` line. Within the first `N=256` band,
+extend the successful odd-difference relaxation to `(6,6)` and `(5,4,1)`,
+using optimization or analytic bounds for their larger even layers; do not run
+the direct census.
+Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
+cofactor classes. Do not rerun the other six `V=60` profiles or any `V>=62`
+campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
+safe predecessor relocates the candidate threshold immediately.

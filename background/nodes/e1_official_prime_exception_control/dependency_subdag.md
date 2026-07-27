@@ -51,6 +51,9 @@ e1_n256_s16_e32_profile_parity_diameter_reduction [PROVED]
 e1_n256_s16_e32_profile_08_light_template_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_n256_s16_e32_four_odd_light_template_reduction [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_n256_proper_conductor_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
@@ -69,6 +72,18 @@ e1_n512_four_singleton_collision_exclusion [PROVED]
 e1_n512_trinomial_interval_norm_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_n256_s16_e30_profile_parity_light_reduction [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
+e1_n256_s16_e30_three_profile_quotient_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
+e1_n256_s16_e30_two_odd_profile_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
+e1_n256_s16_e30_profile_422_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_official_prime_exception_control [TARGET]
     -> e1_fullness [CONDITIONAL]
 ```
@@ -78,10 +93,20 @@ The two field reductions prove that the live branch is ambient-generating and
 prime-field. Exact folded-norm arguments remove swap distances through four at
 `N=256` and through two at `N=512`. The square-mass-16 logarithmic and
 endpoint refinements reduce one `N=256,s=5` profile to positive even variance
-at most 64. At the current endpoint, exact cubic and parity arithmetic leaves
+at most 60. At `V=64`, exact cubic and parity arithmetic leaves
 only `(4,7)`, `(0,8)`, and `(3,5,1)`; the exact light-template census removes
-`(0,8)`,
-while the proper-conductor theorem removes all proper-subfield lifts from both
+`(0,8)`, and the two four-odd branches share a proved 148-template
+repeated-wedge router. Two independent joint censuses remove `(3,5,1)` with
+`M_3=1392<1517`; two independent exact-resultant ledgers and the proper-
+conductor theorem remove `(4,7)`. The endpoint synthesis closes `V=64`, and
+the corresponding eight-template chain closes `V=62`. At `V=60`, exact
+profile/parity and quotient reductions plus a complete two-odd census first
+leave three six-odd profiles. The proved profile-`(4,2,2)` exclusion uses a
+complete odd-difference relaxation and exact exceptional norms. Only `(6,6)`
+and `(5,4,1)` remain. The proved direct-census floor is 21,773,185,792 vectors
+per profile, so this residual requires an analytic reduction rather than a
+generic support scan.
+The proper-conductor theorem also removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing
 those screens remain. In `(3,4,0)`, every remaining support has a signed

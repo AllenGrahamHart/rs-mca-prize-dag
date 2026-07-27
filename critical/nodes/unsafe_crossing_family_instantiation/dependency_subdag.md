@@ -42,6 +42,7 @@ e1_n256_s16_e33_profile_57_light_template_exclusion --ev-->
 e1_n256_s16_e33_endpoint_exclusion --ev-->
 e1_n256_s16_e32_profile_parity_diameter_reduction --ev-->
 e1_n256_s16_e32_profile_08_light_template_exclusion --ev-->
+e1_n256_s16_e32_four_odd_light_template_reduction --ev-->
 e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
@@ -154,3 +155,44 @@ zero-odd profile `(0,8)`. Its parity condition has exactly 63 normalized light
 supports, all two antipodal pairs, and six affine-unit templates. Two
 independent engines each exhaust 119,087,616 normalized signed vectors and
 retain none. The `V=64` residual is therefore `(4,7)` or `(3,5,1)`.
+
+The proved `e1_n256_s16_e32_four_odd_light_template_reduction` supplies one
+common router for those two profiles. Exactly 28,800 normalized light supports
+form 148 affine odd-unit orbits. Every support has no light-light diameter and
+one repeated light-chord wedge, hence a light three-term progression. This
+removes the two-diameter branch and sharpens `D_64` to
+`{0,4,8,12,16,20}`, but neither profile is yet excluded.
+
+The proved `e1_n256_s16_e32_profile_351_light_template_exclusion` consumes
+that router. Two independent engines each exhaust 2,937,494,528 representative
+signed vectors and agree that profile `(3,5,1)` has exact maximum
+`M_3=1392<1517`; this branch is closed. Their shared diagnostic ledger leaves
+profile `(4,7)` with full-conductor maximum 1524, so it is the sole unresolved
+`V=64` branch.
+
+The proved `e1_n256_s16_e32_profile_47_exact_norm_exclusion` closes that last
+branch by two independent complete exact-resultant ledgers and the proper-
+conductor theorem. The synthesis node
+`e1_n256_s16_e32_endpoint_exclusion` therefore removes `V=64` entirely and
+advances the positive even residual to `V<=62`. Both nodes remain evidence for
+this universal target because lower variances and later swap bands are open.
+
+The proved `e1_n256_s16_e31_profile_parity_light_reduction` then reduces
+`V=62` to `(3,7)`, `(2,5,1)`, and `(1,3,2)` on eight exact affine light
+templates. The proved `e1_n256_s16_e31_three_profile_joint_exclusion` uses two
+independent complete 158,783,488-vector censuses, the exact `M_3=1302` cutoff,
+and the proper-conductor theorem to close all three. The synthesis node
+`e1_n256_s16_e31_endpoint_exclusion` advances the positive even residual to
+`V<=60`; it remains evidence because lower variances and later bands are open.
+
+The proved `e1_n256_s16_e30_profile_parity_light_reduction` leaves eight
+profiles at `V=60`. The proved
+`e1_n256_s16_e30_three_profile_quotient_exclusion` removes `(0,3,2)`,
+`(6,2,0,1)`, and `(3,0,3)`. The proved
+`e1_n256_s16_e30_two_odd_profile_exclusion` removes `(2,7)` and `(1,5,1)` by
+complete independent censuses, exact resultants where needed, and the
+proper-conductor theorem. The proved `e1_n256_s16_e30_profile_422_exclusion`
+then removes `(4,2,2)` by an odd-difference relaxation and exact exceptional
+norms. The residual is exactly `(6,6)` and `(5,4,1)`, both in the six-odd
+branch; these E30 nodes remain evidence because the endpoint is not yet
+closed.

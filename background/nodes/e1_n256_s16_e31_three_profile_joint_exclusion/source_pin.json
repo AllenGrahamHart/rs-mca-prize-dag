@@ -1,0 +1,22 @@
+{
+  "audit_driver_file": "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/notes/e31_three_profile_joint_census_audit_modal.py",
+  "audit_driver_file_sha256": "4d406a26abaf97ca5d0e9a6ed76f666cb33a593f67a65504a2359250ea05cd7d",
+  "audit_result_file": "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/notes/e31_three_profile_joint_census_audit_result.json",
+  "audit_result_file_sha256": "7ac6775735fac05a913b2ab369b5bc041905fdfe3c3f748a6dfa33ffdd068d49",
+  "audit_source_file": "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/notes/e31_three_profile_joint_census_audit.cpp",
+  "audit_source_file_sha256": "f547379a5da430f59f5d223eaa92311f849c9007d2990e5c8813e48a06fc86d6",
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
+  "orbit_result_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e31_three_odd_light_orbit_result.json",
+  "orbit_result_file_sha256": "dfa93a27a628267ec21ec3684ae8e567cce0f25bd836e31e4b55ae71ecce2ca6",
+  "production_driver_file": "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/notes/e31_three_profile_joint_census_modal.py",
+  "production_driver_file_sha256": "028caa53d581574feb233f6042d8bc1219371457f1080487a41de78813bddeba",
+  "production_result_file": "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/notes/e31_three_profile_joint_census_result.json",
+  "production_result_file_sha256": "df2edcac66e1affa2602cbe2539964e9ef5375d31e1e8f44e270fdadf42ebfe1",
+  "production_source_file": "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/notes/e31_three_profile_joint_census.cpp",
+  "production_source_file_sha256": "86fd65d6293cda0ab223ccd57f1f1a5e7082b041a07c724ad1a21c399ab9329b",
+  "proper_conductor_file": "background/nodes/e1_n256_proper_conductor_collision_exclusion/statement.md",
+  "proper_conductor_file_sha256": "4319261b9d388351f2980fd4f849d7fae4876a6e5db167c74467ea957a055d73",
+  "reduction_file": "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/statement.md",
+  "reduction_file_sha256": "3927e37cfeb01a2d327a777ec3df3cd7a5bbadc15934a3b346620982eac05f50"
+}
