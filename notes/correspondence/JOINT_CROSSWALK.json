@@ -2,7 +2,7 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "45171710",
+  "our_sha": "5497a588",
   "his_sha": "b13de811"
  },
  "rows": [
@@ -311,6 +311,26 @@
    "lean": null,
    "provenance": {
     "our_sha": "45171710",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n256_s16_autocorrelation_subfield_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact small-field norm exclusion at N=256 variance 76 when every nonzero autocorrelation distance is divisible by four; removes the subgroup-concentrated weighted-third-moment extremizer",
+   "owner": "US",
+   "nonclaims": [
+    "nonperiodic autocorrelation supports at variance 76 remain open",
+    "the weighted Schur bound outside 4 Z/128 Z is not proved",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "5497a588",
     "his_sha": "b13de811"
    }
   },

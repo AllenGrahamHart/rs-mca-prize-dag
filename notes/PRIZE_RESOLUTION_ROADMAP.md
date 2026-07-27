@@ -3587,3 +3587,31 @@ route fence: best tested two-contact cubic at V=76 has margin about
 next route-deciding action: add a fourth-moment or geometry-sensitive
                               invariant at E=38 instead of extending cubics
 ```
+
+**2026-07-27, N=256 variance-76 periodic autocorrelation excluded:** exact
+route analysis identified the needed third-moment threshold and the strongest
+subgroup example; a small-field norm argument then removes the entire
+subgroup-supported chamber.
+
+Cycle burn-down:
+
+```text
+starting pins: local 78225c5f; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 5497a588
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0), V=76
+result: NEW PROVED autocorrelation-subfield exclusion; every live V=76
+        candidate has a nonzero A_d with 4 not dividing d; residual V<=76
+DAG delta: one PROVED background node and four edges added; parent target OPEN
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: bounded exploratory Modal only: one direct CP-SAT run, six
+               threshold shards, and eight 15-second geometry workers;
+               all proof claims replay locally without Modal
+route fences: continuous cubic and elementary quartic dual both miss;
+              generic CP-SAT upper bounds are too weak and must not be scaled
+next route-deciding action: prove the nonperiodic E=38 weighted-Schur cap
+                              M_3<=2806 from the 24 slack signatures
+```
