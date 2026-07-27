@@ -4365,7 +4365,7 @@ heavy templates and advances the `(3,4,0)` variance frontier from 68 to 66.
 
 ```text
 starting pin: local b4613976
-proof pin: pending commit
+proof pin: local 196de799
 node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
 result: CLOSED complete E34 endpoint; residual positive even V<=66
 generic census: 3,801,329 supports; 243,285,056 signed vectors;
