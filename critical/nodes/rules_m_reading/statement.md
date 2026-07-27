@@ -1,13 +1,9 @@
 # rules_m_reading
 
-- **status:** PROVED
-- **closure:** proof
-- **refs (legacy repo):** ['tex/proximity_blueprint_v3.tex']
+- **status:** see dag.json (single source of truth; dag status PROVED)
+- **statement provenance:** written 2026-07-27 (empty-statement remediation / sketch-tagged re-grade);
+  see notes/wave24_integration_20260727/STATEMENT_REMEDIATION.md and SKETCH_TAGGED_REGRADE.md
 
 ## Statement
 
-Official resolution of the 'constant m' quantifier
-
-## Ledger (migrated notes)
-
-RESOLVED 2026-07-03: blueprint line 116: 'For constant interleaving arity m, determine the threshold.' Reading: the list challenge is a FAMILY of determinations, one per constant m. Consequences: per-m determinations are valid prize objects (m <= 3 instances covered by the worst-case route are genuine partials); the FULL family at arbitrary constant m still needs a-regularity or equivalent — a_regularity_forcing stays relevant for large-m members.
+THE m-QUANTIFIER READING (closure: citation). Blueprint line 116 reads 'For constant interleaving arity m, determine the threshold.' The operative reading is therefore that the list challenge is a FAMILY of determinations, one per constant m. Consequences: per-m determinations are valid prize objects (the m <= 3 instances covered by the worst-case route are genuine partials), while the FULL family at arbitrary constant m still requires a-regularity or an equivalent — so `a_regularity_forcing` remains relevant for large-m members. Source: tex/proximity_blueprint_v3.tex. [statement written 2026-07-27 from this node's own ledger]

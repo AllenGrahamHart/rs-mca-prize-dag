@@ -1,9 +1,9 @@
 # vtdv
 
-- **status:** PROVED
-- **closure:** proof
-- **refs (legacy repo):** ['proof_sketch/s3b_iii_2_displacement_spectral.md#1']
+- **status:** see dag.json (single source of truth; dag status PROVED)
+- **statement provenance:** written 2026-07-27 (empty-statement remediation / sketch-tagged re-grade);
+  see notes/wave24_integration_20260727/STATEMENT_REMEDIATION.md and SKETCH_TAGGED_REGRADE.md
 
 ## Statement
 
-Subgroup Hankel = V^T D_u V (prime + extension verified)
+SUBGROUP HANKELS ARE FOURIER OBJECTS [transcribed 2026-07-27 from proof_sketch/s3b_iii_2_displacement_spectral.md#1, tagged 'elementary, verified'; upstream experimental/notes/roadmaps/]. For u supported on the subgroup H = mu_n with syndrome s_u[m] = sum_{x in H} u(x) x^m, the Hankel factors as H_{t,j}(u) = V_t^T D_u V_{j+1}, where D_u = diag(u(x))_{x in H} and V_m[x,r] = x^r (r < m). Consequently, for a locator l with root set (co-support) T and w_Z = u + Z v: M(Z) l = 0 IFF the function w_Z * l on H has vanishing Fourier coefficients at frequencies 0..t-1. Verified entrywise on the F_13 / mu_12 toy. A constant syndrome-indexing offset x^{c_0} absorbs into D_u (cosmetic). SCOPE: this node is the factorization identity and its Fourier restatement only; the rigidity mechanism (same file, section 3) is SKETCH and is NOT claimed here.

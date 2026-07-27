@@ -766,3 +766,400 @@ normalisation, which never needs `w` invertible.
 ### Next
 `(4,11)` descent statement, porting the (4,9) quartic-divisor machinery now that
 parity says it transfers.
+
+**Session 7d — the descent lane, and a lane-level fence that should save future sessions.**
+
+| | |
+|---|---|
+| nodes minted | 1: `dli_wcl_ell4_weight11_quintic_divisor_descent` (forward → **full bijection**) |
+| theorems banked | (4,11) normal form; (4,11) converse; parity dichotomy; compiler-cannot-bite |
+| residual narrowed | `(4,11)`: whole descent → just the Δ certificate. `(4,9)`: recast as a Pell identity |
+| routes fenced | abc/Mason-Stothers; Res(P,A); `mu_N`-product; quadratic character |
+| census (datum) | `260 = 201/36/23` |
+
+**The Pell recast is the useful artefact.** `P(Y) + 1 = Y A(Y)^2` (resp.
+`+ (e_9Y+1)^2 = Y B(Y)^2`) replaces the `R_j` eliminant, which was hopeless —
+symbolic `Y^1024 mod G` doubles coefficient degree per squaring, so the `R_j` carry
+degree ~`2^10` in six variables. The Pell form has no blow-up and exposes the
+double-root structure the eliminant hides. It also made small-analogue search
+possible at all: exhaustive over all 83,521 monic quartics at `(p,N) = (17,16)`,
+zero hits, plus zero from the independent 715-subset enumeration. Fenced as
+route-selection evidence only, per this node's own standing rule.
+
+**Planning correction.** I had said "next: Δ at (4,11)". Wrong order — `(4,9)`'s own
+statement says it does not compute Δ either, and `(4,9)` is strictly smaller (9
+relations in 4 unknowns vs 11 in 6). Δ belongs at `(4,9)` first if anywhere.
+
+**Bug caught mid-experiment, worth recording.** My first `mu_N` was the first `N`
+powers of an element with `N` distinct powers — not the order-`N` subgroup unless
+`N = p-1`. It coincided at `(17,16)` and was wrong at `(97,32)`, `(193,64)`,
+`(257,128)`, making a true identity appear to fail. Correct form is
+`h = g^{(p-1)/N}`. A wrong `mu_N` reads as an obstruction where none exists.
+
+**THE LANE FENCE (now in the brief).** Six routes have now died the same way:
+strict-endpoint norm, s=2 composition/divisibility, log-derivative, symmetric
+realization, counting/(MI2) saturation, and the (4,9) Res/`mu_N`/character family.
+**Global multiplicative invariants are forced by the defining identity and carry no
+information.** Attack local structure — root-by-root incidence, ramification
+profiles, the double-root pattern of `P+1`.
+
+### Next
+Local structure on the `(4,9)` Pell form: `P` is degree 9, totally ramified over
+`∞`, profile `(1,2,2,2,2)` over `-1`, unramified over `0` with all nine roots in
+`mu_1024`, and 4 further ramification points free. That is a dessins/Shabat-shaped
+constraint and it is *local*, so it is not covered by the fence.
+
+**Session 7e — the (4,9) existence witness, and an honest calibration failure.**
+
+| | |
+|---|---|
+| existence witness | **verified in full** — the configuration is realizable |
+| lane fence | strengthened to a *class* exclusion: no structural argument can work |
+| corrections | 2: small-analogue artefact retracted; counting heuristic shown uncalibrated |
+| census (datum) | `260 = 201/36/23` |
+
+**The witness.** At `(p,N) = (257,128)`, faithful since `2N | p-1`:
+`A = Y^4+58Y^3+240Y^2+133Y+86` gives `P = Y A^2 - 1` with nine distinct roots in
+`mu_128`, product one, `rho^2 = y`, `prod rho = 1`, all `rho in mu_256`,
+non-antipodal, and `p_1=p_3=p_5=p_7=0` exactly. ~8,900 such quartics exist there.
+
+**Why it is the session's most useful fact.** There is **no structural obstruction**
+to the `(4,9)` configuration. So any proof of official emptiness *must* be
+quantitative in `p` — structure alone can never suffice. That retroactively explains
+all six previously fenced routes (abc, `Res(P,A)`, `mu_N`-product, character,
+ramification, composition/divisibility): they are structural, hence were doomed
+before being tried. Six failures, **one cause**. The lane fence in the brief is
+strengthened accordingly.
+
+**Two self-corrections this session.**
+1. The prior "exhaustive, zero hits at `(17,16)`" was **artefact**: `A(y)^2 = y^{-1}`
+   forces roots to be quadratic residues, and `F_17^*` has only 8 squares against 9
+   roots needed — counting-impossible before any algebra. Faithful analogues require
+   `2N | p-1`; re-ran exhaustively at `p = 97,193,257,353`.
+2. The counting heuristic **undercounts by ~300x** at both testable points, because
+   `P_A` takes `-1` with pattern `(1,2,2,2,2)` and such polynomials split far more
+   readily than random. Worse, the `p`-dependence **cannot be measured** — solutions
+   are only countable when `p` is small relative to `N`, the opposite of official.
+   So the `2^-607` margin is an unvalidated extrapolation: good for route selection,
+   not a quantitative claim.
+
+### Next
+A rigorous count over `mu_N` that does not depend on the heuristic — the
+`(1,2,2,2,2)` value pattern at `-1` is the structure the naive model ignored and is
+where a correct model must start.
+
+**Session 7f — the (4,9) cell restated cleanly, and the counting model repaired.**
+
+The quartic, the divisibility and the elimination ideal all disappear. With
+`u = A(y)`, so `u^2 = y^{-1}` and `u in mu_{2N}`:
+
+> **`(4,9)` holds iff nine distinct `u_i in mu_{2N}` have `e_2=e_4=e_6=e_8=0` and
+> `prod u_i = 1`** — the quartic is then *read off* as `(c_0,c_1,c_2,c_3) =
+> (e_1,e_3,e_5,e_7)`, and `y_i = u_i^{-2}`.
+
+Five conditions on a 9-subset of a cyclic 2-group. `A` was never an unknown.
+Verified exactly on the `(257,128)` witness, where `(e_1,e_3,e_5,e_7)` came out
+`(86,133,240,58)` = the witness quartic's coefficients.
+
+**Counting model repaired and calibrated.** `E' = C(2N,9)/p^5`: predicts 17 vs ~30
+observed at `N=64`, and 10,069 vs ~8,900 at `N=128` (12%). It also explains last
+turn's 300x error exactly — the ratio is `2^9 N/p` = 255 at `(257,128)`. The old
+model's mistake was placing the roots in `mu_N` when the square roots put them in
+`mu_{2N}`. Official prediction `< 2^-754`, now resting on a twice-checked model.
+
+### Next
+Bound the count of 9-subsets of `mu_{2N}` with four vanishing even symmetric
+functions and product one. This is a pure symmetric-function question on a cyclic
+2-group — no quartic, no divisibility — and it is quantitative in `p`, which the
+existence witness proved is the only kind of argument that can work.
+
+**Session 7g — the (4,9) cell in one line.**
+
+Eliminating the `u_i` as well:
+
+> **`(4,9)` holds iff a quartic `e` with `e(0)=1` has `e(t)^2 = t^9` at NINE
+> distinct `t in mu_N`** — i.e. `e(T)^2 - T^9` splits completely over `mu_N`
+> (degree 9, so nine is the maximum). Then `u = e(t)/t^4`, `y = t^{-1}`, and `A` is
+> the reverse of `e`.
+
+Verified on the `(257,128)` witness. No quartic-as-unknown, no divisibility, no
+elimination ideal, no auxiliary group — a Pell-type condition on a subgroup.
+
+**Rigorous target, sharply stated:** bound `#{e : T^9 - e(T)^2 splits over mu_N}`.
+The map `e -> T^9 - e(T)^2` is injective on `{e(0)=1}`, so this asks how often a
+`p^4`-family meets the `C(N,9)` split polynomials. Quantitative in `p` — the only
+kind of argument the existence witness permits.
+
+### Session close-out (7 turns of mathematics on this lane)
+
+Progress metric, not census:
+- **nodes minted:** 1 (`(4,11)` descent, forward → full bijection)
+- **theorems banked:** compiler-cannot-bite; parity dichotomy; `(4,11)` normal form;
+  `(4,11)` converse; the `(4,9)` clean form; the calibrated counting model
+- **existence witness:** a genuine `(4,9)` relation at `(257,128)`, fully verified —
+  proving **no structural argument can ever close a WCL cell**
+- **routes fenced:** abc/Mason-Stothers, `Res(P,A)`, `mu_N`-product, quadratic
+  character, composition/divisibility, log-derivative, symmetric realization,
+  counting/(MI2) saturation — and now explained by a *single* common cause
+- **upstream PRs:** #1107 (E-1 corridor prime), #1108 (E-2 Proth replay)
+- **self-corrections:** 6, each recorded in commits rather than quietly fixed
+- **census (datum):** `260 = 201/36/23`
+
+**Session 7h — why `ell=2` closed and `ell=4` cannot, and the last door.**
+
+Cyclotomic reframing: the conditions are `p`-independent. For a 9-subset `B` of
+`mu_{2N}` taken in `Z[zeta_{2N}]`, a solution mod `p` is exactly
+`I_B = (e_2,e_4,e_6,e_8,e_9-1)` sitting in a prime above `p`. That is the
+`Delta`-certificate idea restated on SUBSETS rather than on an elimination ideal in
+the quartic's coefficients — no blow-up.
+
+But the counts settle it. Raw `C(2N,w)`: `(2,5)` = `2^48`, `(2,6)` = `2^56`,
+`(4,9)` = `2^89.5`. The published `ell=2` certificates cover 1,514 and 404,740
+orbits — a reduction of ~`2^37`, of which dilation/renormalisation give only
+~`2^11`. **The routers do the rest**, by reparametrising to shape variables instead
+of enumerating subsets. At `ell=4` no comparable router exists, matching the sizing
+ledger's `8.07e17`.
+
+**Three routes now excluded by structure, not effort:** the elimination ideal
+(coefficient blow-up), the subset/`Delta` census (`2^89.5`), and every structural
+argument (the existence witness). The one door left is a **quantitative bound in
+`p`** on `#{e : T^9 - e(T)^2 splits completely over mu_N}`.
+
+**Session 7i — standing sweep: upstream triage + Codex harvest.**
+
+*Upstream:* no triage. `origin/main` still `b13de811`; no non-ours PRs since #1105.
+Our lane now has **three** open PRs (#1106 not mine, #1107, #1108) — **over the
+ledger's 2-PR cap**, so no more get opened until triage moves.
+
+*Codex v10 harvest (~75 commits/6h) — the significant find:*
+
+| | ours | codex |
+|---|---|---|
+| math orbit | 260 | **242** |
+| P / C / T | 201/36/**23** | 180/38/**24** |
+
+**All 23 of our TARGETs remain TARGET there — none closed.** But Codex adds a 24th,
+`unsafe_crossing_family_instantiation`, wired **req** into `unsafe_at_crossing`, and
+demotes that node **PROVED (ours) → CONDITIONAL (theirs)**.
+
+If Codex is right, **our `unsafe_at_crossing` is over-claimed** and our board is 24
+reds, not 23 — i.e. our census errs in the *over-claiming* direction, the dangerous
+one. Full record in `notes/codex_harvest_20260727/HARVEST_v10.md`.
+
+**Surfaced, not applied.** Demoting a PROVED critical node is a status flip needing
+the full artifact chain and the planner's audit; Codex raw branches are
+read-for-awareness only. This is precisely the case the brief reserves to Fable.
+
+**Session 7j — audit: Codex's demotion is independently supported, and a systemic gap.**
+
+I audited `unsafe_at_crossing = PROVED` **without** using Codex's argument. Its proof
+is a two-branch dichotomy flipped on the note *"both branches are now proved"*. Both
+branch parents have problems:
+
+1. **`averaged_slope_conversion`** (collided branch) says in its own notes:
+   *"stated for post-paid support families — row use still needs the paid-excluded
+   strict-overlap profile."* That is **exactly** Codex's requirement (M). It is proved
+   for post-paid support families and consumed at **row** level.
+   *(Its other note, "REGRESSED … discharges when `xr_ledger_exponent_reconciliation`
+   lands", IS discharged — that node is PROVED — but is not wired as a req-parent, so
+   the discharge is structurally unrecorded.)*
+2. **`qfloor_exact`** (collision-free branch) has an **empty statement field** — we
+   cannot check what the branch claims.
+
+**Verdict: Codex's demotion is independently supported.** Still not applied — a
+PROVED→CONDITIONAL flip on the critical surface is the planner's — but it should now
+be treated as *likely warranted*, not merely *claimed*.
+
+**Systemic finding: 37 of our 201 critical PROVED nodes have EMPTY statements** —
+`fm1`, `v8_ledger`, `staircase`, `list_unsafe`, `cap_theorem`, `acl_count`,
+`paid_*_fn`, `qfloor_exact` … The validator's precision invariant covers only open
+dominators and CONDITIONALs, so PROVED nodes escaped it. **18% of the proved critical
+surface cannot be audited, Lean-targeted, or checked against upstream.** Added a
+pinned guard in `verify_prize_dag.py` so the count cannot grow silently (mutation
+control: lowering the pin fails, as it must).
+
+**Session 7k — root cause of the over-claim: 82 PROVED nodes have no in-tree proof.**
+
+`qfloor_exact` is PROVED with `refs = ['proof_sketch/s2_paid_ledger.md#3']`, empty
+`statement`, empty `notes`, empty `notes/` dir, and a `proof.md` that only points at
+that path — **which does not exist in this repository**.
+
+Systemic: **109 nodes cite a `proof_sketch/` artifact absent from the repo — 82
+PROVED, 23 CONDITIONAL, 3 TARGET, 1 PROVABLE**, including `prize`, `mca_grand`,
+`list_grand` and `packaging`. They are labelled *"refs (legacy repo)"*, so the
+artifacts presumably live in a predecessor repo — this is **not** a claim the proofs
+don't exist. But in *this* tree neither statement nor proof is checkable, and
+`verify_prize_dag.py` still reports `refs PASS` because it does not resolve legacy
+paths.
+
+That is how `qfloor_exact` — branch parent of the node Codex demotes — reached PROVED
+with nothing verifiable behind it here. With the 37 empty statements, a large part of
+the proved critical surface is unauditable in-tree.
+
+**Planner decisions:** (1) is the legacy `proof_sketch/` tree recoverable and should
+it be vendored in? (2) until then, should a node whose only artifact is a dangling
+legacy ref count as PROVED on the critical surface? The `unsafe_at_crossing`
+adjudication turns on this.
+
+**Session 7l — planner question (1) resolved: the legacy tree is unrecoverable.**
+
+Searched the prize working tree, its full `--all` git history, every sibling
+directory, Codex v8/v9/v10, `rs-mca-packets`, `rs-mca-vendor`, and the public mirror
+`AllenGrahamHart/rs-mca-prize-dag` (including a code search for `s2_paid_ledger`,
+0 hits). **No `proof_sketch/` anywhere.**
+
+So the 82 PROVED nodes citing those artifacts reference proofs that cannot be
+produced, re-checked, audited or Lean-formalized from anything accessible. This does
+**not** mean they are wrong — the proofs may have existed and been checked when the
+refs were written — but they are **unverifiable now**, while `verify_prize_dag.py`
+reports `refs PASS`.
+
+Bearing on the census: `201 PROVED` includes 82 nodes with an absent proof artifact,
+37 of which also have an empty statement.
+
+**Live decision for the planner:** should a node whose only artifact is an
+unrecoverable legacy ref count as PROVED on the critical surface? "No" moves many
+nodes and changes the census materially; "yes" needs a recorded justification,
+because the present position is undocumented rather than decided.
+
+**Session 7m — the false green located and pinned.**
+
+The refs check in `verify_prize_dag.py` **deliberately skips** non-in-tree pointers:
+
+```python
+continue  # legacy fork pointer (vendored history), recorded in the node folder
+```
+
+**That justification is never tested, and it is false at scale.** Measuring nodes
+with an unresolvable legacy ref whose folder holds under 1.5 KB of artifact:
+
+```text
+329 nodes have a skipped, unresolvable, non-in-tree ref
+197 of them have a HOLLOW node folder -- many hold nothing at all
+    PROVED 113 | TARGET 30 | PROVABLE 22 | CONJECTURE 10 |
+    REFUTED 10 | CONDITIONAL 6 | WALL 6
+```
+
+So `PASS: structure, refs, ...` was green while 197 nodes were skipped on an
+assumption that does not hold for them. Two pinned guards now track it (hollow refs
+at 197, empty PROVED statements at 37); both mutation-tested by lowering the pin.
+Neither errors on the current tree — fixing the content is the planner's call — but
+neither set can grow silently again.
+
+### Standing position after the audit chain
+Codex demoted one node; following it produced, in order: independent confirmation
+from our own notes → 37 empty PROVED statements → 82 dangling proof refs on the
+critical surface → the legacy tree proved unrecoverable → 197 nodes skipped by the
+validator on a false premise. **No status changed** — all of it is the planner's.
+
+**Session 7n — the ell=4 lane unified; (4,10) minted.**
+
+| | |
+|---|---|
+| nodes minted | 1 — `dli_wcl_ell4_weight10_even_divisor_descent` (PROVED) |
+| prediction corrected | my own: `(4,10)` needs **no** router, and no dilation |
+| structural result | all three `ell=4` cells are **one** combinatorial statement |
+| census (datum) | `260 = 201/36/23` |
+
+`(4,10)`: the parity dichotomy said the global dilation fails (`gcd(10,2048)=2`) and
+predicted a sub-tuple router. Wrong — the even case needs **no normalisation at
+all**. The window alone gives `F(X) = E(X^2) - e_9 X`, `E` monic quintic, and
+`e_9 != 0` is forced because `e_9 = 0` would make `F` even, i.e. its roots antipodal,
+which reducedness forbids. Square locator `G(Y) = E(Y)^2 - e_9^2 Y`; 294
+reconstruction instances checked.
+
+**Unification** (`notes/ell4_uniform_form_20260727.md`):
+
+> `(4,w)` holds iff `w` distinct `rho_i in mu_2048` have `e_1=e_3=e_5=e_7=0`, plus
+> `e_w = 1` for odd `w` only.
+
+The quartics/quintics `A, E, B` are *outputs* — the witness's `rho` have
+`(e_2,e_4,e_6,e_8) = (58,240,133,86)`, exactly `A` reversed. So every attack through
+the polynomial (elimination ideal, `Delta`, resultants) was fighting a
+reparametrisation, not the problem. The even/odd asymmetry is cosmetic: it is only
+whether a fifth condition `e_w = 1` can be imposed.
+
+**Session 7o — a rigorous non-vanishing lemma for the whole lane.**
+
+The unified form turns the window into **vanishing sums of roots of unity**, and for
+2-power order those are classified.
+
+> **Lemma.** For every reduced `(4,w)` relation, `S_1 = sum rho_i != 0` in
+> `Z[zeta_2048]`.
+
+*Proof:* Lam–Leung/Conway–Jones says a vanishing sum of distinct `2^k`-th roots of
+unity is a disjoint union of antipodal pairs; reducedness forbids those. (Odd `w` is
+immediate — an odd count cannot pair.) Brute-force confirmed over `mu_8/16/32`,
+`w = 3..6`.
+
+**Why it matters:** `p_1 = 0` holds in `F_p`, i.e. `P | S_1`. The lemma says `S_1`
+is not zero in `Z[zeta_2048]`, so `p | Norm(S_1)` with `Norm(S_1) != 0` — which is
+exactly what makes the cyclotomic **norm-gcd** method valid here. It also explains
+the closed `(2,6)` certificate's 510 "structural double-zero" cases: the
+antipodal-mirror family is precisely the exceptional set, not an incidental one.
+
+**Honest bound:** `|Norm(S_1)| <= w^1024`, so `p <= 2^3246` at `w=9` — far too weak
+against `p > 2^167`. The lemma supplies the method's *validity*, not a closure.
+
+### ell=4 lane — closing assessment (2026-07-27)
+
+**Done:** `(4,10)` and `(4,11)` descent statements minted PROVED with verifiers;
+`(4,11)` carried to a full bijection; the three cells unified into one
+symmetric-function statement; the counting model repaired and calibrated twice; a
+rigorous non-vanishing lemma banked; an existence witness verified; six routes
+fenced with a single explaining cause.
+
+**Left:** a quantitative bound on `w`-subsets of `mu_2048` with four vanishing odd
+symmetric functions. The existence witness proves no structural argument can close
+it; the norm-gcd census is infeasible at `ell=4` (`2^89.5` subsets); the honest
+analytic bound is `p <= w^1024` against `p > 2^167`. **This needs Weil/Deligne-scale
+machinery and is not a one-session item.**
+
+**Recommendation: change lane.** The ℓ=4 cells are now well-mapped and handed off.
+The remaining 23-leaf board has lanes that have had far less attention — the F2
+summit (`f2_growing_order_myerson`), `rate_half_band_closure`'s A=3 endpoint, and
+`l1_mixed_petal_amplification` (the roadmap's stated true critical path). A fresh
+session should start there, not here.
+
+**Also outstanding, and not mine:** the audit chain (Codex's demotion of
+`unsafe_at_crossing`; 37 empty PROVED statements; 82 dangling proof refs; the legacy
+tree unrecoverable; 197 nodes skipped by the refs check). All surfaced, none acted
+on — these are planner decisions and they bear on what the census line means.
+
+**Session 7p — a regression I introduced, caught on the final sweep.**
+
+`verify_critical_harness_coverage` was **failing** (exit 1) and had been since I
+added `verify_corridor_literal_prime.py` to `corridor_ledger` several turns earlier.
+The node moved from the md-only bucket to local-verifier, so the census pin drifted
+`147/49 -> 146/50`. Legitimate change; pin widened with a dated comment per hard law
+8, mutation-controlled (the old pin now fails, as it must).
+
+**Process lesson, recorded because it matters more than the fix.** I had been
+running `verify_prize_dag` and `verify_orbit_census` after each change, but not the
+full set — and `run_all_verifiers` did **not** catch it, because it hashes and
+registers `tools/verify_*.py` without executing their assertions. So a red validator
+sat unnoticed across several commits while every check I *was* running stayed green.
+
+**Standing rule added: run the full five-validator sweep before any session
+close-out, not just the two that are quick.** A clean handoff means all five green,
+verified, not assumed.
+
+---
+
+## PLANNER CORRECTION (Fable, 2026-07-27) — session 7l's verdict is WRONG
+
+Session 7l concluded "**No `proof_sketch/` anywhere**" and treated the legacy
+tree as unrecoverable. It is **not lost**: all twelve files are live on upstream
+`origin/main` at `experimental/notes/roadmaps/proof_sketch/`. The search looked
+for a top-level `proof_sketch/` path; the tree is nested one level deeper.
+
+The real defect is **status inflation at port time**, not loss: the files are
+proof *sketches* whose sections carry their own status tags, and `zone_b`'s cited
+section literally reads `[PROVED-cited / CONJECTURE]` with "zone (b) ... mass
+CONJECTURAL" — while our dag says PROVED. Full analysis, the re-grading scope
+(49 sections, 161 citations, two sections carrying 29 of the affected nodes), and
+the proposed method: `notes/PROOF_SKETCH_PROVENANCE.md`.
+
+Consequence for the audit chain: the finding stands and is if anything better
+evidenced — but the remedy is *re-grading against a readable source*, not
+re-proving from scratch.

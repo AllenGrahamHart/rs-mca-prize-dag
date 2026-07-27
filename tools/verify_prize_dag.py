@@ -18,7 +18,6 @@ import json
 import os
 import re
 import sys
-from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))          # repo root (parent of experimental/)
@@ -149,63 +148,69 @@ def main() -> None:
         if nodes[i]["status"] not in COLORS:
             errors.append(f"{i}: on the CRITICAL surface with status {nodes[i]['status']} "
                           "— three-color law: critical nodes are PROVED/CONDITIONAL/TARGET only")
-
-    # Reproducibility guards imported from canonical audit 342b52d9. Historical
-    # non-tree refs were skipped on the unverified assumption that their content
-    # had been copied into each node folder. The pins expose that debt and prevent
-    # it from growing; they are lowered as artifacts are reconstructed, never raised.
-    _HOLLOW_REF_PIN = 197
-    _EMPTY_STMT_PIN = 36
+    # EMPTY-STATEMENT GUARD (2026-07-27). The precision invariant below covers only
+    # open dominators and CONDITIONALs, so PROVED critical nodes escaped it: 37 of
+    # them carry an empty `statement` and therefore cannot be audited, Lean-targeted,
+    # or checked against upstream. Fixing all 37 is a content job for the planner;
+    # this pin stops the count GROWING silently. Lower it as statements are written;
+    # never raise it to get green.
+    # HOLLOW LEGACY-REF GUARD (2026-07-27). The refs check above deliberately SKIPS
+    # non-in-tree pointers, justified by the comment "recorded in the node folder".
+    # That justification is never tested, and it is false for 197 nodes (113 PROVED)
+    # whose folder holds under 1.5 KB of artifact -- many hold nothing at all. The
+    # CORRECTED 2026-07-27: the legacy proof_sketch/ tree IS recoverable — all twelve
+    # files are live upstream at experimental/notes/roadmaps/proof_sketch/ (read via
+    # git -C ../rs-mca show origin/main:<path>). The earlier "unrecoverable" verdict
+    # searched for a top-level proof_sketch/ and missed the nested location. The real
+    # defect is status inflation at port time: the files are SKETCHES whose sections
+    # carry their own status tags, and several cited sections read CONJECTURE while
+    # the citing node was marked PROVED. See notes/PROOF_SKETCH_PROVENANCE.md for the
+    # re-grading method. This pin stops the set GROWING while that work proceeds;
+    # lower it as refs are re-pointed and nodes re-graded; never raise it to get green.
+    _HOLLOW_REF_PIN = 196  # wave-24: 197 -> 196
     _IN_TREE = ("nodes/", "critical/", "background/", "tools/", "orbit/")
-    _root_dir0 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 
     def _artifact_bytes(_id):
-        for _tree in ("critical", "background"):
-            _folder = os.path.join(_root_dir0, _tree, "nodes", _id)
-            if not os.path.isdir(_folder):
+        for _t in ("critical", "background"):
+            _b = os.path.join(_root_dir0, _t, "nodes", _id)
+            if not os.path.isdir(_b):
                 continue
-            total = 0
-            for current, _, files in os.walk(_folder):
-                for filename in files:
-                    if filename.endswith((".md", ".py", ".json")):
-                        total += os.path.getsize(os.path.join(current, filename))
-            return total
+            _tot = 0
+            for _r, _, _fs in os.walk(_b):
+                for _f in _fs:
+                    if _f.endswith((".md", ".py", ".json")):
+                        _tot += os.path.getsize(os.path.join(_r, _f))
+            return _tot
         return 0
 
+    _root_dir0 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
     _hollow = []
-    for node in data["nodes"]:
-        for ref in node.get("refs", []):
-            path = ref.split("#")[0]
-            if not path.startswith(_IN_TREE) and not os.path.exists(path):
-                if _artifact_bytes(node["id"]) < 1500:
-                    _hollow.append(node["id"])
+    for _n in data["nodes"]:
+        for _ref in _n.get("refs", []):
+            _pp = _ref.split("#")[0]
+            if not _pp.startswith(_IN_TREE) and not os.path.exists(_pp):
+                if _artifact_bytes(_n["id"]) < 1500:
+                    _hollow.append(_n["id"])
                 break
     if len(_hollow) > _HOLLOW_REF_PIN:
         errors.append(
-            "nodes with an unresolvable legacy ref and hollow node folder "
-            f"grew to {len(_hollow)} (pin {_HOLLOW_REF_PIN}); write the artifact "
-            "or repair the ref"
-        )
+            f"nodes with an unresolvable legacy ref AND a hollow node folder grew to "
+            f"{len(_hollow)} (pin {_HOLLOW_REF_PIN}) — the refs check skips these on "
+            "the assumption they are 'recorded in the node folder', which is false "
+            "for them; write the artifact or repair the ref")
 
-    _empty_stmt = [
-        node_id
-        for node_id in sorted(crit)
-        if nodes[node_id]["status"] == "PROVED"
-        and not (nodes[node_id].get("statement") or "").strip()
-    ]
+    _EMPTY_STMT_PIN = 0   # 2026-07-27: ZERO. Every PROVED node on the critical surface now
+    # carries a statement, each transcribed from a primary source with provenance and (where the
+    # source is mixed-status) an explicit SCOPE fence. Was 37 -> 36 -> 31 -> 9 -> 0. This pin must
+    # never rise: a PROVED node with no statement cannot be audited, Lean-targeted, or refereed.
+    _empty_stmt = [i for i in sorted(crit)
+                   if nodes[i]["status"] == "PROVED"
+                   and not (nodes[i].get("statement") or "").strip()]
     if len(_empty_stmt) > _EMPTY_STMT_PIN:
         errors.append(
             f"empty-statement PROVED critical nodes grew to {len(_empty_stmt)} "
-            f"(pin {_EMPTY_STMT_PIN}): {_empty_stmt[:5]} ...; write the statement"
-        )
-    print(
-        "REPRODUCIBILITY-DEBT: "
-        f"hollow_legacy_refs={len(_hollow)}/{_HOLLOW_REF_PIN} "
-        f"empty_proved_critical_statements={len(_empty_stmt)}/{_EMPTY_STMT_PIN} "
-        f"hollow_by_status={dict(sorted(Counter(nodes[i]['status'] for i in _hollow).items()))} "
-        f"hollow_critical={sum(i in crit for i in _hollow)} "
-        f"hollow_critical_proved={sum(i in crit and nodes[i]['status'] == 'PROVED' for i in _hollow)}"
-    )
+            f"(pin {_EMPTY_STMT_PIN}): {sorted(set(_empty_stmt))[:5]} ... — a PROVED "
+            "node with no statement cannot be audited; write the statement")
 
     _root_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
     for sub, want_crit in (("critical/nodes", True), ("background/nodes", False)):

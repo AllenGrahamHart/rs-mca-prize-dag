@@ -1,0 +1,290 @@
+{
+ "deep_read": [
+  {
+   "title": "ABF survey v3 delta (Open Problems in List Decoding and Correlated Agreement, rev 2026-07-06)",
+   "locator": "https://eprint.iacr.org/2026/680 (PDF Cloudflare-403; fallback: fetch abstract/any mirror, then diff against local reconstruction /home/u2470931/smooth-read-solomin/rs-mca/open-proximity.tex and the hash-pinned extracts in prize:critical/nodes/rules_freeze/)",
+   "reason": "Mandatory root authority; the July-6 v3 (KKH comparison, concrete attack estimates, NEW MCA lower bounds) has never been read by our stack and is a drift risk for the rules_freeze quote+hash certificate; found independently by 5 lanes.",
+   "questions": [
+    "What is the new v3 MCA lower bound (exact statement, regime, constants)? Does it enter the open band (Johnson, capacity-1/log n) at official rows and move target 2's floor or ceiling?",
+    "Is Theorem/Lemma 4.7 in v3 the exact interleaved-MCA equality credited to [Jo26] (as our 2026-07-04 ledger recorded from the certified PDF) or the reconstruction's uncredited eps_mca(C^{==t}) <= t*eps_mca(C) bound? Is [Jo26] = ePrint 2026/1432 (Sunghyeon Jo)?",
+    "What are the 'concrete attack estimates' \u2014 do any attacks reach eps_mca when eps_mca > eps_ca (Remark 6.14 status), and do any touch B* budgets at rate 1/2?",
+    "Did v3 change the boxed challenge wording, acceptance-criterion sentence, caps sentence (k<=2^40, |F|<2^256), or Definition 2.12's coset form \u2014 anything invalidating rules_freeze?",
+    "Does the GKL24 prefactor misprint ('n + 6/eta' vs '(n+6)/eta') persist, and did Table-1 credits (BCHKS25/KK25/CGHLL26 rows) change?"
+   ]
+  },
+  {
+   "title": "Jo26: RS Mutual Correlated Agreement Beyond the Johnson Radius (Sunghyeon Jo, Georgia Tech)",
+   "locator": "https://eprint.iacr.org/2026/1432 (received 2026-07-13)",
+   "reason": "Single biggest external scoop risk (flagged by 4 lanes): deterministic O_{r,h}(K^6) bad-parameter bounds at integer steps beyond Johnson on smooth domains at the official rates with sub-2^-128 claims \u2014 directly on top of targets 1, 2, 9.",
+   "questions": [
+    "Exact main theorem: explicit constant in O_{r,h}(K^6) at E = floor(n - sqrt(n(K-1))) + h; does it hold at official rows (n = 2^13..2^41, k <= 2^40, smooth cosets) or only at K = 2^18 and the length-64 demos?",
+    "Do its safe/unsafe integer-budget classifications at rate 1/2 overlap, subsume, or contradict our corridor edges (Hab25/GKL24 edges; KoalaBear first-safe-agreement 1116048) and our four-adjacent-pair crossing replays (headliner F)?",
+    "Does it prove any worst-case LIST cap (usable for L_1(a) in target 1) or only MCA bad-parameter counts per line?",
+    "Does the paper contain an exact interleaved-MCA = base-MCA equality (the possible ABF Thm 4.7 credit)?",
+    "Method audit: GS-based or new? Where does the h-step scheme provably stop (barrier location vs our band's upper edge), and are the proofs deterministic/certifiable enough to feed target 9's per-row certificates?",
+    "Scoop sweep: any per-fixed-union slope bounds, staircase/adjacent-crossing structures, quotient-rotation or collinearity content (headliners A/D/E/F)?"
+   ]
+  },
+  {
+   "title": "ChoConj26: Conjectures and Barriers for RS-MCA (maintainer position paper)",
+   "locator": "rs-mca origin/main:experimental/Conjectures_and_Barriers_RS_MCA_v4_1.tex (full local source) + https://eprint.iacr.org/2026/1479",
+   "reason": "Maintainer's freshest public frontier statement; its four adjacent conjectures likely re-slice our 23 targets, its BSG barrier is the published face of our shared cancellation barrier, and its profile envelope interacts with headliner B; local TeX makes this a cheap, high-yield read.",
+   "questions": [
+    "Exact statements of the four adjacent conjectures (two MCA, two auxiliary list inequalities): which of our targets (esp. 1, 2, 3, 8, 10) do they coincide with, subsume, or re-slice?",
+    "Does the pole-aware envelope delta* = 1 - rho_n - g*(rho_n, log2|B_n|) + o(g*) already accommodate our Proth counterexample q = 1705*2^120+1 (headliner B killed a uniform clause) \u2014 or does B refute this envelope too?",
+    "Do the ceiling-normalized moment obstruction and projective incidence theorem overlap headliner G (W-collision identity, effective-energy dichotomy) or the xr collision counts (targets 3/4)?",
+    "Precise form of the BSG additive-combinatorics barrier: which of our lanes does it constrain, and does it name payments (primitive-fiber, residual-projection, algebraic-routing, add-back) matching our L1/L2 frontier?",
+    "Credit and preemption check: are our integrated contributions (headliners A, B, D-F material) cited, and does anything preempt our planned submissions?"
+   ]
+  },
+  {
+   "title": "ChoShort26: Shortening Bounds for Reed-Solomon MCA (+ bibitem conflation resolution)",
+   "locator": "https://eprint.iacr.org/2026/1463 (received 2026-07-17); compare rs-mca origin/main:RS_MCA_Paving_v9.2.tex",
+   "reason": "Maintainer's published constants that our band/certificate work must stay consistent with; bib-resolver found the ChoShort26 bibitem cites 2026/1463 under the wrong title ('MDS paving bounds v9.2') and ChoComp26 dangles \u2014 both must be resolved before any citation of ours goes out.",
+   "questions": [
+    "Is 2026/1463 the shortening/Psi_rho paper, the MDS paving v9.2 manuscript, or a merge? Which in-repo TeX matches, and what is the correct citation for each (fix ChoShort26; locate or flag the dangling ChoComp26 'S+A+E execution ledger')?",
+    "Explicit exponent Psi_rho at rho = 1/2: value and proof route \u2014 does it tighten, match, or contradict our target-2 band arithmetic and the CAP25 v13.2 cap constants?",
+    "The four explicit length-512 2^-128 smooth multiplicative certificates: which rows, safe or unsafe side, and how do they relate to the F_17^32 reference row and the m1_cycle120 conditional counterexample?",
+    "Does the CA-MCA decomposition + challenge-restricted endpoint-exact thresholds change how target 9's per-row certificate should be phrased against the ABF acceptance criterion?",
+    "Do the Gowers-cube 'primitive max-fiber flatness' and image-normalized Sidon tools overlap target 8's image-fiber counts or target 3's collision caps \u2014 reusable or competing?"
+   ]
+  },
+  {
+   "title": "KKH near-capacity failure + Kambire elaboration (subset-sum roots-of-unity machinery)",
+   "locator": "https://eprint.iacr.org/2026/782 + https://arxiv.org/abs/2604.09724 (same result cluster; dedup of 6 lanes)",
+   "reason": "The negative frontier on exactly our domain class; its additive-combinatorics lemma on r-fold subset sums of 2-power-order subgroups is the same machinery as target 10 and our Proth line, and its reach fixes the ceiling for target 2's band.",
+   "questions": [
+    "Full construction: exact parameters (r, s = 2^alpha, m = n/s), the bad-scalar set H^{+r} on the line X^{rm} + lambda X^{(r-1)m}, and the complete statement + proof of the new lemma on sums of roots of unity.",
+    "Can the subset-sum family be repurposed for target 10 \u2014 do r-fold subset sums give >= B*/2^33 pairwise-distinct centers with height-budget x semigroup-structured differences at official rows (v_2(q-1) >= 41, q up to 2^256), or does their argument need p polynomial in n?",
+    "Does the lemma yield anti-concentration statements usable for targets 3/4 (post-strip slope collisions/spread)?",
+    "Ceiling calculus: at n = 2^21..2^41 and official q, exactly what radius does their failure reach \u2014 where does target 2's band truncate from above?",
+    "Scoop check for headliner B: any exact small budgets (B* <= 7), Proth-shaped primes, or adjacent-budget crossings? And is 2026/782 the full strength of the KK25 'personal communication' credited in ABF Table 1, or is more unpublished?"
+   ]
+  },
+  {
+   "title": "GGSW26: Locality of Curve-Decoding and Improved Proximity Gaps",
+   "locator": "https://arxiv.org/abs/2607.08516 (full text; only pp.1-4 read so far)",
+   "reason": "Likely-mandatory per task; newest capacity-regime frontier (post-dates our notes), explicitly motivated by the prize, with a transference framework whose reverse direction and open-problems framing bear on our derandomization program.",
+   "questions": [
+    "Full statements of Thms 5.3/5.6/5.10 (CA and MCA versions): what exactly blocks the row-span-constrained LCL argument on fixed smooth multiplicative cosets \u2014 which randomness property is load-bearing?",
+    "Is the black-box transference usable in reverse: would a smooth-domain structured statement from our lanes propagate to improved constants at official rows, or is it one-way (subspace-design -> random ensembles)?",
+    "Curve-degree-independent l-dependence: implications for interleaved/batched objects \u2014 does anything transfer to C^{==m} handling at constant m (target 1 via BCFW25 extension=interleaving)?",
+    "How does their open-problems section frame the explicit smooth-domain gap \u2014 stated partial results, obstructions, or a program adjacent to ABF direction (6) that we should cite or race?"
+   ]
+  },
+  {
+   "title": "Dvornicich-Zannier 2002: Sums of roots of unity vanishing modulo a prime",
+   "locator": "DOI 10.1007/s00013-002-8291-4 (Arch. Math. 79, 104-108); paywalled \u2014 attempt via author page (Zannier), library access, or citing-paper reconstructions (KKPR arXiv:2011.14232 uses it constructively)",
+   "reason": "Roots-of-unity lane's #1 next action: the only classification theorem for the mod-q layer where all live content of targets 12-23 now sits (char-0 layer closed by Lenstra/Lam-Leung); its method (not its vacuous-at-2-power inequality) is what the slot descent needs.",
+   "questions": [
+    "Exact hypotheses: which primes ell (coprimality to the order?), what coefficient normalization, and does the classification apply with ell = q \u2261 1 mod 512L (split prime, reduction into F_q itself \u2014 our exact setting)?",
+    "Given the CJ-type inequality is vacuous at 2-power reduced exponents: does the classification method still parametrize all weight-<=11 signed congruences at exact 2-power order into finitely many families (KKPR-style), and can that be turned into a machine-verified slot descent?",
+    "Does the paper (or its citing literature) give any lower bound on the number of terms of a mod-p vanishing sum at 2-power order \u2014 the exact missing lemma for the slots?",
+    "Extract everything usable for the norm-divisor/AP-sieve argument at the v_2(q-1) >= 41 admissibility layer, including how the 1+zeta+zeta^3=0 (F_9, order 8) toy fits their families."
+   ]
+  },
+  {
+   "title": "Christie-Dykema-Klep: Classifying minimal vanishing sums of roots of unity to weight 16",
+   "locator": "arXiv:2008.11268 (v. 2025-12-16)",
+   "reason": "Covers the full weight range (w <= 11 < 16) of all ten dli_wcl slots if the signed-to-unsigned embedding is order-compatible; potential independent citable closure of the char-0 layer plus a certificate-generation template.",
+   "questions": [
+    "Does the classification treat signed (+-1) sums directly, or must slot configs be folded via -zeta^j = zeta^{j+256L}; does folding preserve their normalization and the exact-order-512L, window-[0,256L) constraints?",
+    "Is the classification PROVED through weight 16 (vs algorithmic/conjectural above 12), and does it confirm no minimal relation has reduced exponent with 2-adic valuation >= 9 (matching Lenstra Thm 2.2 / Mann)?",
+    "Do they touch congruences modulo primes at all, or purely characteristic 0?",
+    "Are their algorithmic methods (to weight 21) reusable as a machine-checkable certificate generator for targets 9/11 (per-row primitive-block and ternary-kernel certificates)?"
+   ]
+  },
+  {
+   "title": "Stepanov rigidity wave: Kalmynin + Kim-Yip-Yoo + Cochrane",
+   "locator": "arXiv:2504.10202 (primary) + arXiv:2602.20919 + arXiv:2602.04111",
+   "reason": "The 2025-26 rigidity results are about literally our objects (mu_d, (G-1)\\{0}, GAP structure of subgroups); strongest post-2023 toolkit for the f3 correlation/norm-gate targets and the xr low-core spread heart.",
+   "questions": [
+    "Status audit of Kalmynin's Sarkozy resolution (journal acceptance, errata, independent verification) \u2014 how load-bearing can we make it?",
+    "Do the Hanson-Petridis/Stepanov arguments yield explicit pointwise |H \u2229 (H+t)| bounds at |H| = 2^s that dominate the 10K25^0+17K25^A+68S_A+(867/4)n^(5/3) terms in target 6's inequality across n^2 <= p <= 6^(n/4)?",
+    "Does Kim-Yip-Yoo's multiplicative irreducibility of (G-1)\\{0} give countable/explicit bounds on norm-gate events (p-specific multiplicative norm coincidences, target 7)?",
+    "Does Cochrane's GAP characterization (|A_k| in {2,4,p-1}) convert into a quantitative anti-GAP/additive-dimension bound usable for P-B slope-spread anti-concentration (target 4)?",
+    "Any statements or constants specialized to 2-power order d or p \u2261 1 mod 2^s (our admissibility layer)?"
+   ]
+  },
+  {
+   "title": "Ostafe-Shparlinski-Voloch: Weil sums over small subgroups (+ Fouvry-Shparlinski-Xi multilinear bounds)",
+   "locator": "Math. Proc. Camb. Phil. Soc. 176(1), 2024 (find arXiv version) + arXiv:2404.09295 (Rev. Mat. Iberoam. 41, 2025)",
+   "reason": "The only character-sum technology nontrivial in the f3 regime where |H| = n is exponentially small in p and classical Weil is vacuous; exact exponents were not extracted by any lane and decide feasibility of targets 6-7.",
+   "questions": [
+    "Exact theorems: for which |H| relative to p are the bounds nontrivial and with what exponents \u2014 does coverage include the full official window n^2 <= p <= 6^(n/4)?",
+    "Do the admissible polynomial classes cover the autocorrelation shape sum_t P(t)(P(t)-1)R(t) of target 6 (A = (1-H)\\{0}) and the coincidence-count sums of target 7?",
+    "Can FSX's trilinear/quadrilinear bounds (nontrivial from very short ranges) split target 6's third-moment expression with better ranges than BGK-style bounds?",
+    "What is the dependence on p being prime vs prime power (KoalaBear sextic extension rows)?"
+   ]
+  },
+  {
+   "title": "Chai-Fan pair: Threshold Halving (2026/858) + Action-Orbit (2026/861) \u2014 adversarial audit",
+   "locator": "https://eprint.iacr.org/2026/858 + https://eprint.iacr.org/2026/861 (same authors, companion papers; audit together)",
+   "reason": "Extraordinary unvetted claims (unconditional above-Johnson FRI soundness) that would reshape the band's stakes if even partially sound; 861's Q1 cyclotomic-norm conjecture sits adjacent to our f2/f7 arithmetic targets; its cyclic-orbit symmetry brushes headliner A.",
+   "questions": [
+    "Adversarial: where does threshold-halving interact with the CS25 deep-hole lines and KKH subset-sum lines \u2014 does the 'lock into unique decoding after one round' step survive those exact adversaries, and is the fixed-point-free-involution hypothesis doing hidden work?",
+    "Q1 (norm non-vanishing in cyclotomic class fields): exact statement \u2014 implied by, equivalent to, or weaker than our f2 Myerson-type norm bound (target 5) or the norm-gate counts (target 7)? Any partial results transferable?",
+    "What precisely is Lean-verified (theorem, axiomatized hypotheses) \u2014 is the half-threshold CA formalization reusable, and does it raise the verification bar for prize submissions?",
+    "Does action-orbit symmetry on the cyclic domain contain anything subsuming or citable against headliner A (cyclic quotient-rotation list floor), and is their Q2 sparsity-dominance conjecture attackable with our obstruction machinery?"
+   ]
+  },
+  {
+   "title": "holmbuar's open rate-half list PRs (deconfliction on targets 1-2)",
+   "locator": "github.com/przchojecki/rs-mca pulls #1097 (ordinary list lower improvements), #1099 (rate-half list bracket), #1101 (zero-remainder rate-half list scale); also #1083 (endpoint Plotkin 2310492) and #1102 for context",
+   "reason": "The dominant upstream contributor has three open PRs sitting directly on our targets 1-2 territory; prize-meta lane flags coordination/deconfliction as needed before we invest further at the rate-1/2 row.",
+   "questions": [
+    "Exact statements: which agreements a and budgets do the bracket/lower-improvement/scale PRs pin at the rate-1/2 row \u2014 do they duplicate our a_L crossing search or the B*=3 obstruction analysis?",
+    "Lower-bound constructions or upper caps? Do any reuse the quotient-rotation machinery from our integrated #1051 (credit/attribution check for headliner A)?",
+    "After these PRs, what remains open at the rate-1/2 row \u2014 re-scope targets 1-2 to the complementary bracket side and identify a joint-bracket opportunity vs a deconfliction need?",
+    "Do his methods (zero-remainder scale, Plotkin endpoint) interact with the CS25 k+1 transfer we plan to use (hypothesis on Theorem 2 bridge)?"
+   ]
+  },
+  {
+   "title": "Gaussian-period norm technology: Cornelissen-Hokken-Ringeling + Habegger",
+   "locator": "arXiv:2507.09303 (v3 2026-06-19) + arXiv:1611.07287",
+   "reason": "The only substantive technology adjacent to target 5 (Myerson-type norm bounds at growing order); both are odd-order \u2014 the deep read must locate the exact step that breaks at 2-power conductor to decide whether target 5 is attackable or should be routed around.",
+   "questions": [
+    "CHR: does the multivariate-Mahler-measure limit machinery formally require odd cyclic Galois group, or is 2-power order merely unexamined \u2014 identify the precise breaking step (if any).",
+    "Habegger: does the unlikely-intersections/o-minimal proof of Myerson's conjecture cases have a structural 2-power-conductor obstruction, or was it simply not done; what would the 2-power analogue require?",
+    "Extract any lower bounds on Norm/Mahler measure of sparse cyclotomic integers at 2-power conductor usable for (i) target 5's Frobenius-tower moving sectors and (ii) capping admissible primes in the slot norm-divisor descent (targets 12-23).",
+    "Do either paper's methods give effective (computable) constants, or only asymptotic/ineffective statements \u2014 what certificate shape could target 5 realistically emit?"
+   ]
+  },
+  {
+   "title": "Fork-ring scoop bundle: maelcar prefix-staircase refutation + Danny transverse-secant + Hughes Proth rows",
+   "locator": "github.com/maelcar/rs-mca branch manuel/prefix-staircase-extremality-counterexamples; github.com/DannyExperiments/rs-mca-prz-fork branch agent/agreement-weighted-transverse-secant (experimental/notes/thresholds/agreement_weighted_transverse_secant.md); github.com/scottdhughes/rs-mca commit f1fe761",
+   "reason": "Grey-lane identified three fork-local artifacts sitting nearest our headliners D, F, and B's row territory; none has ePrint priority yet, but each could subsume, contradict, or need citation before our next upstream PRs.",
+   "questions": [
+    "Replay Manuel's F7/F23 certificates: does the refutation of global prefix-staircase extremality constrain or contradict our super-polynomial quotient-cell prefix fibers (headliner F), and do his repair envelopes |List_a(y)| <= floor(C(n,K)/C(a,K)) subsume any of our fiber bounds?",
+    "Exact hypothesis comparison of Danny's transverse-secant bound (sum of agreement binomials <= binom(R+kappa,kappa+1) via determinantal certificates) vs our #1106 column-far fixed-union bound |Z| <= floor(C(R+nu,nu)R/C(nu+h,nu)): which dominates at KoalaBear nullities 3..9, and does his avoid the no-small-column-span hypothesis?",
+    "Do Hughes's 'exact Proth MCA rows' (f1fe761) include q = 1705*2^120+1 or any exact B* <= 7 list statements (headliner B priority check), and what do his m1-kb-rank9-* branches cover relative to our #1106?",
+    "Output: a cite/coordinate/deconflict decision per artifact before our next PR wave."
+   ]
+  }
+ ],
+ "hypotheses": [
+  {
+   "name": "jo26_beyond_johnson_scoop_and_thm47_identity",
+   "statement": "ePrint 2026/1432's main theorem (every affine line has <= O_{r,h}(K^6) bad parameters at E = floor(n - sqrt(n(K-1))) + h) instantiated at r=2 already closes the printed-floor side of the first post-Johnson integer budgets on smooth rate-1/2 domains with eps_mca < 2^-128, preempting part of rate_half_band_closure and constraining where target 1's crossing a_L can sit; additionally [Jo26] is the credit behind ABF Thm 4.7's exact interleaved-MCA = base-MCA equality, which would make m-handling free for the interleaved list challenge. Falsified if the K^6 constant blows up for K > 2^18, the result is restricted to the length-64 demo rows, or the Thm 4.7 credit is a different work.",
+   "sources": [
+    "https://eprint.iacr.org/2026/1432",
+    "rs-mca:/open-proximity.tex lines 628-633",
+    "prize:critical/nodes/rules_freeze/statement.md line 13"
+   ],
+   "targets": [
+    "rate_half_band_closure",
+    "rate_half_list_adjacent_crossing",
+    "u2_per_row_certifier"
+   ]
+  },
+  {
+   "name": "cs25_thm2_band_to_list_bridge",
+   "statement": "CS25 Theorem 2 (ePrint 2025/2046): if eps_ca(RS[F,D,k],delta) < (q-n)/(2kq) then |Lambda(RS[F,D,k+1],delta)| <= 2*eps_ca*q. Hence any target-2 closure proving eps_ca <= B*/(2q) at the official rate-1/2 row (which automatically satisfies eps < (q-n)/(2kq) since B*/q ~ 2^-128 << 2^-21 at KoalaBear k=2^20) discharges the ordinary-list budget |Lambda| <= B* at the same radius for the k+1 code \u2014 i.e., the MCA lane mechanically feeds target 1 at the k+1 row offset. Falsified if the k -> k+1 offset breaks official-row admissibility or the domain-D hypotheses exclude smooth cosets.",
+   "sources": [
+    "https://eprint.iacr.org/2025/2046",
+    "rs-mca:/open-proximity.tex lines 811-830",
+    "rs-mca origin/main:experimental/notes/audits/cs25_import_audit.md"
+   ],
+   "targets": [
+    "rate_half_list_adjacent_crossing",
+    "rate_half_band_closure"
+   ]
+  },
+  {
+   "name": "kkh_subset_sum_centers_feed_generator_economy",
+   "statement": "The KKH/Kambire bad-scalar construction \u2014 r-fold sums of distinct elements of the order-2^alpha subgroup H, |H^{+r}| >= (s/2r)^r, on the two-monomial line X^{rm} + lambda*X^{(r-1)m} \u2014 instantiates target 10: at official rows the subset-sum family supplies >= B*/2^33 pairwise-distinct half-size subset-sum centers whose pairwise differences factor as height-budget units times elements of the small multiplicative semigroup generated by H. Falsified if the distinctness count falls short at v_2(q-1) >= 41 rows with q up to 2^256, or the height/semigroup factorization of differences fails, or their lemma structurally requires p polynomial in n.",
+   "sources": [
+    "https://eprint.iacr.org/2026/782",
+    "https://arxiv.org/abs/2604.09724"
+   ],
+   "targets": [
+    "generator_economy",
+    "xr_lowcore_spread_heart",
+    "rate_half_list_adjacent_crossing"
+   ]
+  },
+  {
+   "name": "lenstra_antipodal_char0_closure_refinement",
+   "statement": "Refinement of the seeded odd-weight parity hypothesis (not a duplicate): Lenstra Thm 2.2 with n = 512L, m = 2 forces every integer-coefficient vanishing sum of 512L-th roots to decompose into antipodal pairs zeta^j(1-1); since reduced slot configurations have distinct exponents in [0,256L) (no antipodal pairs available after folding -zeta^j = zeta^{j+256L}), ALL TEN slots \u2014 even-weight included, strictly beyond parity \u2014 are empty over characteristic zero. The entire live content of targets 14-23 is therefore the mod-q layer, where the toy relation 1 + zeta + zeta^3 = 0 in F_9 (zeta = 1+i, exact order 8) proves parity does not survive reduction and DZ02's CJ-type inequality is vacuous at 2-power reduced exponents; slot emptiness must be proved as 'no admissible prime q (v_2(q-1) >= 41, q < 2^256, plus the 2^32-deep AP condition) divides Norm_{Q(zeta_512L)/Q}(P(zeta))'. Falsified/decided by the pre-registered L=1 norm-factorization falsifier (hunt prime divisors \u2261 1 mod 2^41 among slot norms).",
+   "sources": [
+    "Lenstra survey, Leiden item:2729435, Thm 2.2",
+    "Lam-Leung J. Algebra 224 (2000)",
+    "Sivek INTEGERS 10 #A31",
+    "DOI 10.1007/s00013-002-8291-4"
+   ],
+   "targets": [
+    "dli_wcl_slot_1_5_emptiness",
+    "dli_wcl_slot_1_6_emptiness",
+    "dli_wcl_slot_1_7_emptiness",
+    "dli_wcl_slot_1_8_emptiness",
+    "dli_wcl_slot_2_7_emptiness",
+    "dli_wcl_slot_2_8_emptiness",
+    "dli_wcl_slot_2_9_emptiness",
+    "dli_wcl_slot_4_9_emptiness",
+    "dli_wcl_slot_4_10_emptiness",
+    "dli_wcl_slot_4_11_emptiness",
+    "integer_code_distance_cert"
+   ]
+  },
+  {
+   "name": "cdk_weight16_classification_covers_slot_subrelations",
+   "statement": "The Christie-Dykema-Klep classification of minimal vanishing sums of weight <= 16 (arXiv:2008.11268) contains, after signed-to-unsigned folding, every possible characteristic-zero minimal subrelation of any slot configuration (w <= 11 < 16), and its explicit list confirms no minimal relation carries a reduced exponent of 2-adic valuation >= 9 \u2014 yielding an independent citable second proof of the char-0 slot closure and a certificate-generation template for target 11's ternary-kernel lattices. Falsified if their classification excludes signed configurations, imposes order normalizations incompatible with exact order 512L, or is only conjectural above weight 12.",
+   "sources": [
+    "arXiv:2008.11268",
+    "Lenstra survey Thm 2.6 (Conway-Jones)"
+   ],
+   "targets": [
+    "dli_wcl_slot_1_5_emptiness",
+    "dli_wcl_slot_1_6_emptiness",
+    "dli_wcl_slot_1_7_emptiness",
+    "dli_wcl_slot_1_8_emptiness",
+    "dli_wcl_slot_2_7_emptiness",
+    "dli_wcl_slot_2_8_emptiness",
+    "dli_wcl_slot_2_9_emptiness",
+    "dli_wcl_slot_4_9_emptiness",
+    "dli_wcl_slot_4_10_emptiness",
+    "dli_wcl_slot_4_11_emptiness",
+    "integer_code_distance_cert"
+   ]
+  },
+  {
+   "name": "stepanov_rigidity_feeds_spread_and_norm_gates",
+   "statement": "The 2025-26 Stepanov/Hanson-Petridis rigidity wave \u2014 Kalmynin (mu_d = A+B forces |A| = |B|; A-A = mu_d \u222a {0} forces d in {2,6}), Kim-Yip-Yoo ((G-1)\\{0} multiplicatively irreducible), Cochrane (a subgroup is a GAP iff |A_k| in {2,4,p-1}) \u2014 supplies pointwise |H \u2229 (H+t)| and anti-structure bounds strong enough to (i) derive P-B's post-strip slope-spread anti-concentration at low core (target 4) and (ii) bound norm-gate coincidence counts (target 7) at the official rows. Falsified if the methods yield only qualitative statements (no explicit constants), degrade at d = 2^s, or require subgroup sizes outside the n^2 <= p <= 6^(n/4) window.",
+   "sources": [
+    "arXiv:2504.10202",
+    "arXiv:2602.20919",
+    "arXiv:2602.04111"
+   ],
+   "targets": [
+    "xr_lowcore_spread_heart",
+    "f3_hge4_norm_gate_count",
+    "f3_h3_dsp8_correlation_bound"
+   ]
+  },
+  {
+   "name": "chen_zhang_line_ball_lemma_scoops_collinearity_floor",
+   "statement": "The line/Hamming-ball intersection lemma in Chen-Zhang (STOC 2025, arXiv:2408.15925) \u2014 a line meets a ball of radius (s/(s+1))*Delta in at most s points \u2014 at s = 2 implies our headliner E (no three collinear list members at agreement a when n-K+1 > floor(3(n-a)/2)); headliner E must be repositioned as a citation/corollary in any writeup, not a novelty claim. Falsified only if exact statement comparison shows E covers a strictly larger radius/agreement range or a genuinely different object (list members vs arbitrary line points in a ball).",
+   "sources": [
+    "arXiv:2408.15925",
+    "arXiv:2502.14358 (Garg exposition)"
+   ],
+   "targets": [
+    "headliner_E_scoop_check"
+   ]
+  },
+  {
+   "name": "agl_alphabet_floor_locates_rate_half_crossing",
+   "statement": "AGL23/BDG24 (arXiv:2308.13424; ABF Thm 3.10): achieving list ell at radius (ell/(ell+1))(1-rho-eta) requires alphabet size >= 2^{alpha_{ell,rho}/eta}; with q < 2^256 this floors eta >= alpha_{3,1/2}/256 at ell = 3, so at n = 2^41 the exact 3n/4 generalized-Singleton point is provably unattainable with list <= 3 and target 1's crossing a_L must sit at least eta*n = (alpha_{3,1/2}/256)*2^41 agreement units below it \u2014 quantitatively legitimizing the B*=3 four-codeword obstruction and bracketing the crossing. Falsified by extracting the explicit alpha_{3,1/2} and finding the implied bracket inconsistent with our exact four-adjacent-pair crossing replays (headliner F).",
+   "sources": [
+    "arXiv:2308.13424",
+    "rs-mca:/open-proximity.tex lines 475-562",
+    "arXiv:1911.01502 (Shangguan-Tamo, tightness side)"
+   ],
+   "targets": [
+    "rate_half_list_adjacent_crossing",
+    "rate_half_band_closure"
+   ]
+  }
+ ],
+ "dropped_note": "DEDUP: merged multi-lane duplicates onto single entries \u2014 2026/680 (5 lanes), 2026/1432 (4), 2026/1463 (4), 2026/1479 (5), 2026/782+arXiv:2604.09724 treated as one result cluster (6 lanes), arXiv:2607.08516 (7), 2025/2046 (6), 2025/2055 (5), 2025/2110 (4), 2025/2010 (4), 2025/2054 (4), 2026/858+861 (4, one audit slot), proximityprize.org (4), arXiv:2008.11268 (2), arXiv:2507.09303 (3). Status conflict resolved: arXiv:2601.10047 (Jeronimo-Liu-Rajpal) was listed as a live STOC'26 Goyal-Guruswami companion by the list-decoding lane but confirmed WITHDRAWN 2026-06-10 (subsumed by GG25 2025/2054) by the fresh-preprints lane \u2014 do not chase; the surviving reference is 2025/2054. DROPPED FROM DEEP READS (with reasons): BCHKS25 2025/2055, Hab25 2025/2110, GKL24 2024/1810, BCIKS 2020/654 \u2014 already line-by-line audited upstream (corridor audit closed 12 GKL errata; Hab25 constants replayed); CS25 2025/2046 \u2014 upstream import audit exists, its Theorem 2 is carried as hypothesis cs25_thm2_band_to_list_bridge, deep read only if that verification stalls; GG25 2025/2054 and Yuan-Zhu 2605.07595 \u2014 random/subspace-design ensembles with no smooth-domain contact, frontier covered by the GGSW26 deep read; DG25 2025/2010 \u2014 abstract-level content sufficient (ball-volume floor already banked as a Table-1 tool); Okamoto 2025/1712 \u2014 pre-counterexample 'complete resolution' overclaim, at most a later adversarial skim; SoKs 2026/1367 and 2026/1371, S-two 2026/532, ethSTARK 2021/582, FRIDA 2026/1055, GMW 2025/1993, ZkLinalg, RISC Zero soundness.rs, blogs (zkpunk/Hexens/Veridise/hozk) \u2014 deployment/formalization/positioning context, not target-closing; classics (Shangguan-Tamo 1911.01502, AGL 2308.13424, BGM 2206.05256, AGL24 2304.09445, Guruswami-Rudra, BKR subspace polynomials, Justesen-Hoholdt, CHK deterministic decoding TR25-170, Chen-Zhang 2408.15925) \u2014 well-understood; the two with direct target contact are encoded as hypotheses (agl_alphabet_floor, chen_zhang_line_ball) instead of deep reads; roots-of-unity classics (Lenstra, Lam-Leung, Sivek, Mann, Conway-Jones, Steinberger) \u2014 exact statements already extracted by the lane and encoded in the lenstra_antipodal refinement hypothesis; technique anchors deferred to the slot-certificate build phase (KKPR 2011.14232 pipeline, Munemasa-Nunez Ponasso 2607.00825, Borwein-Choi Littlewood classification, Fukuda-Komatsu Weber tower, Cassels/Calegari-Morrison-Snyder small house, Loxton, Cheng sparse zero testing, Balaji et al. 2007.13179, Bonacina-Galesi-Lauria SoS warning \u2014 the latter fixes certificate DESIGN: number-theoretic, not Groebner/SoS); additive-combinatorics toolkit (GGMT/Liao PFR, Shkredov energies, Shao 2604.17117, Mohammadi-Stevens 5/4 record, Kowalski BGK exposition, GMT23/Goh/Tao entropy line) \u2014 inputs, not closers; FRS list-size line (Srivastava 2410.09031, Ashvinkumar 2508.12548, Garg 2502.14358), linearized-RS, Galois-ring, rank-extractor and Doron-Venkitesh (withdrawal caveat) \u2014 peripheral. Grey space: LegaSage, holmbuar audit branches, JoseBrox, cofinalai, manifoldcontrol, sergeyshemyakov \u2014 monitored, no deep read; the three highest-adjacency fork artifacts are bundled into deep-read #14; rsmca.xyz and proximityprize.org fully extracted by lanes (no rubric/deadline/leaderboard officially; ePrint timestamp = priority mechanism; peer review is a hard gate). Internal follow-ups routed OUTSIDE this sweep (not literature): m1_cycle120 conditional counterexample dependency audit (cheap, upstream note), ChoComp26 dangling bibitem (folded into deep-read #4 questions), KK25 personal-communication mining (folded into deep-read #5). Survey access caveat: 2026/680 PDF is Cloudflare-403 for both curl and WebFetch; deep read #1 specifies the fallback plan (abstract page + local reconstruction diff against hash-pinned extracts) \u2014 if v3 full text stays inaccessible, its two decisive unknowns (new MCA lower bound; Thm 4.7 [Jo26] equality) may instead be resolved via the Jo26 deep read and by writing the authors."
+}

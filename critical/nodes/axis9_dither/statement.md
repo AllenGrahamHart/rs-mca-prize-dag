@@ -1,13 +1,9 @@
 # axis9_dither
 
-- **status:** PROVED
-- **closure:** proof
-- **refs (legacy repo):** ['wp_detail/wp0_2_wp4_4_rules_freeze_and_dither.md#1']
+- **status:** see dag.json (single source of truth; dag status PROVED)
+- **statement provenance:** written 2026-07-27 (empty-statement remediation / sketch-tagged re-grade);
+  see notes/wave24_integration_20260727/STATEMENT_REMEDIATION.md and SKETCH_TAGGED_REGRADE.md
 
 ## Statement
 
-Axis 9: exact rates (dither adverse, provisional)
-
-## Ledger (migrated notes)
-
-Decomposed 2026-07-04 (normal-form audit): the provisional condition IS the rules-freeze question — live page wording 'rates exact' resolves dither ADVERSE; now wired as req on rules_freeze instead of living in prose. | DISCHARGED 2026-07-04: rules_freeze flipped green (rates-exact quoted verbatim from abf26.pdf p.5) — the conditional's hypothesis landed; the adverse resolution (no dither latitude => the maximal dyadic quotient structure STANDS) is now unconditional.
+NO DITHER LATITUDE (closure: citation, via `rules_freeze`). The prize rates are EXACT — quoted verbatim from abf26.pdf p.5 — so the provisional dither condition resolves ADVERSELY: there is no latitude to perturb the rates, and consequently the maximal dyadic quotient structure STANDS unconditionally. Originally a conditional on the rules-freeze question; discharged 2026-07-04 when `rules_freeze` flipped green, and wired as req on `rules_freeze` rather than carried in prose. [statement written 2026-07-27 from this node's own ledger]

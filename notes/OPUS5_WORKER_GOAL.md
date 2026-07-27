@@ -20,7 +20,10 @@ move.
 **The census is a COMPLETION metric, not a progress metric — do not report it as
 failure.** Calibration, measured 2026-07-26: Codex ran a full autonomous session
 (dozens of commits, a complete Mersenne-cubic grind chain) and its math-orbit
-census is *identical* to ours, `260 = 201/36/23`. The 23 leaves are the LAST things
+census is *identical* to ours, `260 = 201/36/23`. **[SUPERSEDED at wave-24,
+2026-07-27: the board is now `242 = 180/38/24` after the proof_sketch re-grade —
+see below. The calibration point still stands: both agents independently reached
+the same census.]** The 24 leaves are the LAST things
 to fall. Real progress lives in the ~1,000-node proved substrate underneath them
 and in how narrow the residuals get. Report the census as a datum, once, and move on.
 
@@ -74,9 +77,29 @@ on this repo's main.
 
 ## LIVING QUEUE — I re-derive this every session (last: 2026-07-26, session 7)
 
-**Board:** 23 TARGETs. The 36 CONDITIONALs carry zero independent work — all
-discharge by propagation once the TARGETs close (`tools/verify_conditional_propagation.py`).
-So the remaining mathematics is **23 units, not 59**.
+**Board (RE-PRICED wave-24, 2026-07-27):** **24 TARGETs**, census
+`242 = 180/38/24`. The 38 CONDITIONALs carry zero independent work — all
+discharge by propagation once the TARGETs close
+(`tools/verify_conditional_propagation.py`). So the remaining mathematics is
+**24 units**.
+
+**Why it moved (read before touching the e1 or crossing lanes):** the legacy
+`proof_sketch/` tree is NOT lost — it is live upstream at
+`experimental/notes/roadmaps/proof_sketch/` (worklog 7l's "unrecoverable" verdict
+is corrected). Re-grading against it showed several cited sections say
+CONJECTURE/typicality while the citing node said PROVED. Codex's 11 demotions
+were adjudicated and accepted; 19 e1 nodes left the critical orbit. Sources:
+`notes/PROOF_SKETCH_PROVENANCE.md` (method, and the 49-section / 161-citation
+re-grading scope) and `notes/wave24_integration_20260727/ADJUDICATION.md`
+(node-by-node verdicts). **New TARGET:** `unsafe_crossing_family_instantiation`.
+**Do not re-litigate these twelve** — adjudicated against the primary sources.
+
+**Standing hazard this exposed:** `tools/auto_discharge.py` propagates PROVED by
+modus ponens, so one weakened leaf silently greens a whole cone (that is how 8 e1
+nodes went green off a first-moment typicality bound). **30 critical PROVED nodes
+are auto-discharged** — that population is where the next over-claims live.
+Re-grading the two heaviest sketch sections (`s2_paid_ledger.md#3`, 14 nodes;
+`s3b_iii_3_fibers_and_noanchor.md#1`, 15 nodes) covers most of the exposure.
 
 **Closed and not to be re-derived:** Q0 orbit reconciliation; C3-3 conditional
 dedup (negative — see `assumption_dedup.md`); the A5 Part-2 per-author registry
@@ -97,7 +120,39 @@ rebuild; the WCL cost table; the router-soundness lemma (general `k`); E-1.
    *Node retirement to a route fence is surfaced to the user, not decided here.*
 3. **M-1 strict A=3 endpoint** — the RNC/split interaction in the transposed form.
    Norm/parity routes fenced.
-4. **(4,11) THEN (4,10) descent statements + Delta certificates** — order matters,
+
+**STANDING LANE FENCE (2026-07-27) — applies to BOTH the WCL descent lane and the
+rate-half endpoint lane.** Global multiplicative invariants (resultants, norms,
+`mu_N`-products, quadratic characters, abc/Mason-Stothers) are **forced by the
+defining identity** on these configurations and carry no information — they are
+consequences, not constraints. Six routes have now died this way: the strict-endpoint
+norm identity, the s=2 composition/divisibility route, the log-derivative count, the
+symmetric realization, counting/(MI2) saturation, and the (4,9) Res/`mu_N`/character
+family. **Attack local structure instead**: root-by-root incidence, ramification
+profiles, the double-root pattern of `P+1`, chamber-level data. Do not spend another
+session on a global product.
+4. ~~**(4,11) / (4,10) descent statements**~~ **DONE 2026-07-27 — and the whole
+   `ell=4` lane is now ONE question.** Both minted PROVED with verifiers. The three
+   cells unify (`notes/ell4_uniform_form_20260727.md`):
+
+   > `(4,w)` holds iff `w` distinct `rho_i in mu_2048` have `e_1=e_3=e_5=e_7=0`,
+   > plus `e_w = 1` for **odd** `w` only.
+
+   The quartics/quintics `A,E,B` are **outputs**, not unknowns — so the elimination
+   ideal, `Delta` certificate and resultant routes were all fighting a
+   reparametrisation. `(4,10)` needed no dilation at all (my "sub-tuple router"
+   prediction was wrong). Rigorous lemma banked: reducedness forces `S_1 != 0` in
+   `Z[zeta_2048]` via Lam–Leung, which validates the norm-gcd method and explains
+   the closed `(2,6)` certificate's 510 exceptional cases. The honest bound
+   `p <= w^1024` is far too weak to close anything.
+
+   **What is genuinely left here:** a quantitative bound on `w`-subsets of `mu_2048`
+   with four vanishing odd symmetric functions. Four routes are fenced (abc,
+   `Res`, `mu_N`-product, character) and the existence witness proves **no
+   structural argument can work**. This needs Weil/Deligne-scale machinery.
+   *Recommend a lane change rather than more turns here.*
+
+5. ~~**(4,11) THEN (4,10) descent statements + Delta certificates**~~ — order matters,
    and it is the reverse of the numeric order. Parity dichotomy (2026-07-26): the
    (4,9) global-dilation normalisation needs `w` invertible mod `N_ell = 512*ell`, a
    2-power, hence `w` **odd**. `(4,11)` is odd so (4,9)'s machinery transfers
@@ -133,9 +188,17 @@ re-propose, and never chain small runs to simulate one.
    rescue a computation — that is a signal to redesign. Modal launches only under
    Decision-5's TIME RULE: route-deciding + total wall-time < 5 min with per-shard
    timings + deterministic checker banked + logged in `notes/PRIZE_COMPUTE_REQUESTS.md`.
-5. **Subtraction check before EVERY mint:** grep his results synthesis
-   (`git -C ../rs-mca show origin/main:experimental/proximity_prize_results_v4.tex`)
-   for prior art before claiming any new statement.
+5. **Subtraction check before EVERY mint — WIDENED 2026-07-27.** The papers are
+   NOT enough: PR #1106 was dominated by a theorem living only in a merged
+   contributor note, and the miss cost a retracted "ready for review". Search
+   ALL FOUR surfaces before claiming any new statement:
+   (a) `git -C ../rs-mca grep -i "<keyword>" origin/main -- experimental/proximity_prize_results_v4.tex experimental/grande_finale.tex`
+   (b) `git -C ../rs-mca grep -ril "<keyword>" origin/main -- 'experimental/notes/**'` (merged contributor notes — the #1106 blind spot)
+   (c) `git -C ../rs-mca show origin/main:experimental/agents-log.md | grep -i "<keyword>"`
+   (d) the external canon in `notes/literature_map_20260726/LITERATURE_MAP.md`.
+   Compare BOUND STRENGTH and HYPOTHESIS STRENGTH, not just topic: a weaker
+   hypothesis with a better constant dominates you even when the statements look
+   different (that is exactly what happened at #1106).
 6. **Upstream reads** go through `git -C ../rs-mca show origin/main:<path>` — the
    rs-mca working tree may sit on a stale PR branch.
 7. **New verifiers**: fail-closed, deterministic, named `verify*.py`, then refresh

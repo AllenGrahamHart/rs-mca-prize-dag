@@ -1,9 +1,9 @@
 # b_rational_lift
 
-- **status:** PROVED
-- **closure:** proof
-- **refs (legacy repo):** ['proof_sketch/s6_extension_lift.md#1']
+- **status:** see dag.json (single source of truth; dag status PROVED)
+- **statement provenance:** written 2026-07-27 (empty-statement remediation / sketch-tagged re-grade);
+  see notes/wave24_integration_20260727/STATEMENT_REMEDIATION.md and SKETCH_TAGGED_REGRADE.md
 
 ## Statement
 
-B-rational pencils give B-slopes (linearity)
+[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md#1, tagged 'elementary']. THE TRIVIAL HALF OF THE EXTENSION LIFT. Let B = F_p(D) be the generated field and F contains B the ambient/sampling field. The alignment pencil is linear with coefficients a(l), b(l) built from the pair's syndromes; hence if the PAIR (and therefore its syndromes) is B-rational, every aligned slope Z = -a_r/b_r lies in B automatically. Consequently B-rational data cannot produce genuinely F-valued bad slopes: those require either F-valued words or the pole mechanism. This is the precise sense in which the lift is 'free' on generating rows, and the reason the safe-side classification is a Galois-descent question about the pencil data. SCOPE: that classification (same file, section 4) is CONJECTURE and is NOT claimed here.
