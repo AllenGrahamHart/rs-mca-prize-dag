@@ -39,7 +39,8 @@ At `N=256,s=5`, an exact logarithmic refinement excludes the zero-variance
 and all `V>=136` cases of profile `(3,4,0)`; a sparse-L1
 refinement also excludes `78<=V<=134`. Four subsequent exact quotient-Schur
 packets exclude `V=76,74,72,70`; the complete E34 chain now also excludes
-`V=68`, leaving positive even `V<=66`.
+`V=68`, and the complete E33 chain excludes `V=66`, leaving positive even
+`V<=64`.
 A separate subfield-norm
 argument excludes every proper-conductor support in both first-band profiles.
 Only full-conductor supports remain, and a certified one exists at variance
@@ -78,7 +79,7 @@ odd-unit orbits. The three forced weld sets have only three intersection
 shapes, leaving an exact 243,285,056-vector representative chamber before
 profile and moment filters. A final pair of exact censuses gives maximum
 `M_3=1770<1947` and closes the generic template. Thus every `V=68` case is
-excluded and the live variance frontier is `V<=66`.
+excluded and `V=66` is the next endpoint to decide.
 
 The first `V=66` reduction is also complete. Exact slack gives `L<=19`; among
 21 integer profiles, the cubic cutoff `M_3=1732` and the five-unit parity
@@ -90,4 +91,12 @@ theorem gives `M_3<=1644<1732` for `(0,6,1)` and excludes it. The live V=66
 profiles were then `(5,7)`, `(1,8)`, and `(4,5,1)`. A complete mod-16
 quotient census gives `M_3<=1732` in the odd chamber and `M_3<=1670` after
 division for `(4,5,1)`; the `4Z` chamber is paid by a small-field norm. Thus
-that profile is also excluded, leaving `(5,7)` and `(1,8)` at V=66.
+that profile is also excluded, leaving `(5,7)` and `(1,8)` at V=66. The
+complete eleven-template `(1,8)` geometry census tests 218,327,296 normalized
+vectors and gives maximum `M_3=1356<1732`, excluding that profile. The final
+`(5,7)` census tests 1,984,793,600 vectors. Its unrestricted maximum 1758 has
+proper conductor and is removed by the proved conductor theorem; its exact
+full-conductor maximum is `M_3=1416<1732`. The endpoint synthesis therefore
+proves that every `V=66` case is impossible. The live `(3,4,0)` variance
+frontier is now positive even `V<=64`; `(4,2,0)` and the later swap bands remain
+open, so the universal target remains unproved.

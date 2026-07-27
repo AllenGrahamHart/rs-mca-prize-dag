@@ -34,6 +34,12 @@ e1_n256_s16_e34_progression_template_exclusion --ev-->
 e1_n256_s16_e34_generic_affine_weld_reduction --ev-->
 e1_n256_s16_e34_generic_template_exclusion --ev-->
 e1_n256_s16_e34_endpoint_exclusion --ev-->
+e1_n256_s16_e33_profile_parity_diameter_reduction --ev-->
+e1_n256_s16_e33_profile_061_exclusion --ev-->
+e1_n256_s16_e33_profile_451_quotient_exclusion --ev-->
+e1_n256_s16_e33_profile_18_light_template_exclusion --ev-->
+e1_n256_s16_e33_profile_57_light_template_exclusion --ev-->
+e1_n256_s16_e33_endpoint_exclusion --ev-->
 e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
@@ -91,7 +97,7 @@ force extension degree one and `p=1 mod N`, so the prime-field kernel model is
 now correctly scoped to the residual target. Exact folded-norm certificates
 remove the first four `N=256` swap bands and the first two `N=512` bands. At
 `N=256,s=5`, the square-mass-16 profile is reduced to positive even
-autocorrelation variance at most 66, and both first-band profiles are reduced
+autocorrelation variance at most 64, and both first-band profiles are reduced
 to full-conductor supports. Exact cofactor windows also impose the
 singleton-reduction multiplicity bounds `5` and `16` in the two profiles.
 The square-mass-16 residual additionally has signed repeated-chord cross sum
@@ -121,11 +127,14 @@ closes `V=68`; the next live positive even endpoint is `V=66`.
 The proved `e1_n256_s16_e33_profile_parity_diameter_reduction` then reduces
 `V=66` to four profiles `(5,7)`, `(1,8)`, `(4,5,1)`, `(0,6,1)`, with exact
 cubic cutoff `M_3=1732`, one forced light-light diameter, and five possible
-diameter ledgers. Its edge into this target is evidence: all four profile
-branches initially remained open. The proved
-`e1_n256_s16_e33_profile_061_exclusion` then removes `(0,6,1)` via the sharp
-bound `M_3<=1644<1732`. Three V=66 profile branches remain, so its consumer
-edge is also evidence. The proved
-`e1_n256_s16_e33_profile_451_quotient_exclusion` removes `(4,5,1)` with exact
-quotient caps 1732 and 1670 plus the outer-`4Z` norm close. Two profile
-branches remain, so this consumer edge is evidence as well.
+diameter ledgers. The sharp target-fiber bound `M_3<=1644` removes `(0,6,1)`;
+the complete quotient caps 1732 and 1670, together with the outer-`4Z` norm
+close, remove `(4,5,1)`. An exhaustive eleven-template geometry census then
+tests 218,327,296 normalized vectors and removes `(1,8)` with maximum
+`M_3=1356`. Finally, the complete `(5,7)` census finds unrestricted maximum
+1758 only at proper conductor, while the full-conductor maximum is
+`M_3=1416`; the proved conductor theorem therefore removes the last profile.
+The endpoint synthesis `e1_n256_s16_e33_endpoint_exclusion` closes `V=66` and
+advances the positive even variance residual to `V<=64`. These consumer edges
+remain evidence for this universal target because the lower-variance and later
+swap bands are still open.

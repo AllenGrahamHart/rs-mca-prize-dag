@@ -34,7 +34,7 @@ a short pre-registered route decision.
    this live branch without adding an extension-field hypothesis. The folded
    exact folded-norm certificates further remove `s<=4` at `N=256` and
    `s<=2` at `N=512`. In the first `N=256` band, profile `(3,4,0)` is
-   further reduced to positive even autocorrelation variance `V<=66`, and
+   further reduced to positive even autocorrelation variance `V<=64`, and
    every proper-conductor support is excluded in both profiles. A
    full-conductor `V=36` witness prevents treating low variance as
    synonymous with periodicity. The exact 2-adic cofactor screen further
@@ -61,9 +61,10 @@ allowance over primes `p=1 mod N` in the two exact budget intervals, beginning
 at swap distance five for `N=256` and three for `N=512`. The first `N=256`
 band reduces to `(4,2,0),(3,4,0)`; the complete `N=512,s=2` band is closed.
 Only full-conductor supports remain at `N=256,s=5`; within
-`(3,4,0)` the variance residual is `0<V<=66`. The exact quotient-Schur
+`(3,4,0)` the variance residual is `0<V<=64`. The exact quotient-Schur
 chain excludes `V=76,74,72,70`; the completed E34 template chain excludes
-`V=68`. At that closed endpoint, the complete
+`V=68`, and the completed E33 profile chain excludes `V=66`. At the closed
+E34 endpoint, the complete
 nested mod-16 upper-bound compiler already has exact relaxation obstructions,
 so do not run its full census. Exact selective quotient and support
 certificates first reduce that endpoint to three `L=20` profiles. Chord
@@ -79,13 +80,16 @@ transport leaves only the five steps `1,2,4,8,16`, and their exact cap
 use the proved 57 affine-unit representatives and three exact weld shapes.
 Their 243,285,056-vector chamber is paid by independent chord and negacyclic
 implementations with `M_3<=1770`. At `V=66`, the exact slack, cubic, parity,
-and diameter ledger is now proved: only `(5,7)`, `(1,8)`, `(4,5,1)`, and
-`(0,6,1)` remain, and exactly one light-light chord is a diameter. The sharp
-symmetric target-fiber theorem now excludes `(0,6,1)` with
-`M_3<=1644<1732`. A complete quotient census now also excludes `(4,5,1)`
-at the exact boundary `M_3<=1732`. Do not import the E34 four-template
-classification wholesale. Attack `(1,8)` next with the same deterministic
-quotient compiler; retain `(5,7)` for chord-origin geometry if its quotient
-allocation survives. Apply the 2-adic singleton screen rather than a raw
-support census.
-Test the odd norm part directly; do not scan arbitrary cofactors below 64.
+and diameter ledger leaves only `(5,7)`, `(1,8)`, `(4,5,1)`, and `(0,6,1)`.
+The target-fiber theorem excludes `(0,6,1)` with `M_3<=1644`; the quotient
+and outer-`4Z` certificates exclude `(4,5,1)`; the eleven-template geometry
+census excludes `(1,8)` with `M_3<=1356`; and the full-conductor census
+excludes `(5,7)` with `M_3<=1416`. Thus do not rerun either E33 census or
+import the E34 four-template classification at lower variance.
+
+The next route decision is between an exact profile reduction at `V=64` in
+`(3,4,0)` and a materially different reduction of the still broad `(4,2,0)`
+profile. Compare their finite profile counts and available algebraic gates
+before authorizing a census. Apply the 2-adic singleton screen and test the odd
+norm part directly; do not scan arbitrary cofactors below 64. Later bands
+`N=256,s>=6` and `N=512,s>=3` remain part of the universal target.

@@ -48,9 +48,10 @@ forces surviving collisions to have `s>=5` at `N=256`. At `N=512`, exact
 variance and interval-resultant certificates close both `s=2` profiles, so
 surviving collisions have `s>=3`.
 At `N=256,s=5`, the `(3,4,0)` profile is narrowed to positive even
-autocorrelation variance `V<=66`. Four exact quotient-Schur endpoint packets
+autocorrelation variance `V<=64`. Four exact quotient-Schur endpoint packets
 exclude `V=76,74,72,70` after the sparse-L1 theorem, and the complete E34
-template chain excludes `V=68`. In both first-band
+template chain excludes `V=68`; the complete E33 profile chain excludes
+`V=66`. In both first-band
 profiles all proper-conductor supports are excluded, but `(4,2,0)` is otherwise
 unrestricted and a full-conductor `(3,4,0)` vector already occurs at
 `V=36`. The surviving singleton reductions additionally have root
@@ -124,8 +125,9 @@ or unrestricted seven-support enumeration is needed. Two independent complete
 censuses pay that chamber with exact maximum `M_3=1770<1947`. The entire E34
 endpoint is closed.
 
-At the next endpoint `V=66`, the exact slack recurrence gives `L<=19` and 21
-integer magnitude profiles. The rational cubic threshold is exactly
+At the next endpoint decided, `V=66`, the exact slack recurrence gives
+`L<=19` and 21 integer magnitude profiles. The rational cubic threshold is
+exactly
 `M_3=1732`; parity of the five non-diameter unit chords reduces the eight
 above-threshold profiles to
 
@@ -140,10 +142,21 @@ support. The sharp symmetric target-fiber theorem applies to the nested shape
 three live profiles were `(5,7)`, `(1,8)`, and `(4,5,1)`. A complete
 quotient census gives caps 1732 and 1670 for `(4,5,1)`, while the outer-`4Z`
 chamber has norm at most `50^32`; this excludes that profile as well. The
-live V=66 profiles are now `(5,7)` and `(1,8)`.
+remaining `(1,8)` light supports form eleven exact reflection/quarter-octant
+templates. Two independent complete engines test 218,327,296 normalized
+vectors and find 17,144 profile vectors with maximum `M_3=1356<1732`, closing
+that profile. For `(5,7)`, 7,200 diameter-Sidon light supports collapse to 100
+affine-unit orbits. Two independent complete engines agree on 1,984,793,600
+vectors, 28,048 profile vectors, and 17,768 full-conductor vectors. The
+unrestricted maximum 1758 has proper conductor and is already excluded; the
+full-conductor maximum is `M_3=1416<1732`. Thus `V=66` is empty and the live
+positive even variance frontier is `V<=64`.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
-injectivity or another explicit `V` line. Any exact safe predecessor relocates
-the candidate threshold immediately.
+injectivity or another explicit `V` line. Within the first `N=256` band, the
+next route decision is whether `V=64` in `(3,4,0)` or the still broad `(4,2,0)`
+profile admits the sharper finite reduction. Later `N=256,s>=6` and
+`N=512,s>=3` bands remain open. Any exact safe predecessor relocates the
+candidate threshold immediately.
