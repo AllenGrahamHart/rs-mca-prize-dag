@@ -3093,23 +3093,23 @@
     "background/nodes/integer_code_distance_high_field_folded_box_exclusion/result.md",
     "background/nodes/integer_code_distance_high_field_folded_box_exclusion/verify.py"
    ],
-   "notes": "Pays the complete order-128 folded cube only above the exact field threshold. Lower fields, other orders, the adopted-row registry, and value-set budget remain open."
+   "notes": "Pays the complete order-128 folded cube only above the exact field threshold. Lower fields, other orders, the universal row assignment, and value-set budget remain open."
   },
   {
    "id": "integer_code_distance_cert",
    "title": "THE RESIDUE: certify min ternary distance > 2l' for the explicit k x N' system",
    "status": "TARGET",
    "key": true,
-   "statement": "For each adopted knife-edge exhibit row, bank the explicit integer matrix, allowed cyclotomic-relation basis, and a machine-checkable certificate that no ternary kernel vector of weight at most 2l' remains. Exact solver totality and the C-4 toy anchor do not supply this consumed row result. The complete order-128 branch with p>253^32 is proved analytically by integer_code_distance_high_field_folded_box_exclusion; lower fields, other orders, the adopted-row registry, and the row value-set budget remain open.",
-   "attack_surface": "Apply integer_code_distance_high_field_folded_box_exclusion first on order-128 rows. On every residual row: (1) pseudo-Boolean/SAT with proof logging (VeriPB-style) \u2014 emits machine-checkable UNSAT certificates for exactly this finite claim, at arbitrary coefficient precision; dossier-ready format; (2) MITM bands as baseline; (3) LP/Delsarte as the theory-side candidate. Pin the literal row object, full support bound, cyclotomic basis, and value-set budget before computation. E24's BKZ hunt is search evidence only.",
-   "falsifier": "a ternary kernel vector of the k-multiplier system that IS a genuine collision (E24 would find it independently)",
+   "statement": "For every row assigned to this lattice route, pin the prime field, quotient order and root, exact class cell and cardinality, support bound 2l', integer kernel matrix, and allowed cyclotomic-relation basis. Prove by a machine-checkable certificate that no non-cyclotomic ternary kernel vector within the support bound remains and that the cell cardinality exceeds B*. There is no hidden finite official-prime registry: closure must be family-uniform, or explicitly exhibit-scoped with every consumer narrowed to the same field. The complete order-128 branch with p>253^32 is proved analytically by integer_code_distance_high_field_folded_box_exclusion; lower fields, other orders, the universal row assignment, and the row value-set budget remain open.",
+   "attack_surface": "Before computation, bind the literal row payload and prove its exact class count exceeds B*. Apply integer_code_distance_high_field_folded_box_exclusion first on order-128 prime-field rows. On a residual pinned row use proof-logged pseudo-Boolean/SAT, MITM, or LP/Delsarte. A collision verdict is a valid route outcome but does not prove this no-vector target. E24's BKZ hunt is search evidence only.",
+   "falsifier": "a non-cyclotomic ternary kernel vector inside the declared support bound, or a declared cell whose exact cardinality is at most B*",
    "refs": [
     "critical/nodes/integer_code_distance_cert/statement.md",
     "critical/nodes/integer_code_distance_cert/status_ruling.md",
     "critical/nodes/integer_code_distance_cert/execution_report.md",
     "critical/nodes/integer_code_distance_cert/execution_report.json"
    ],
-   "notes": "DISPATCH SKIP CONFIRMS Codex's report: the missing input is the row OBJECT (no matrix/descriptor), not a computation; dependency multi_multiplier_reduction is REFUTED. Restate or reroute \u2014 not compute-closable as stated. | DESK RULING: restated exhibit-conditional; the missing 'row object' was a category error under Reading B. Remaining content = LP/cone certifier soundness \u2014 same family as lattice_cone_certificate's machinery (its two other reqs are PROVED). | BAKE-OFF DONE (folded_certificate.md): both nodes reduce (via kernel_lattice_reframing PROVED) to a folded short-vector decision in dim N/2, shared with e1_fullness. Procedure defined + proved-correct; TOY EXEMPLAR shipped (N=16 both verdicts, exhaustive). Prize cells = dim-64/128 LATTICE enumeration (fplll-feasible, NOT a theorem) \u2014 needs the pinned exhibit cell; answer may be collision-found (survivable). Tier-0 CONFIRMED: the remaining work is a lattice computation. | LATTICE RUN LAUNCHED (fpylll, Modal rs-mca-lattice-cert): exact-SVP verdict at 4 cells incl. the REAL dim-64 Row-C cell (250-bit stand-in prime, q=1 mod 128). CERTIFIED iff lambda_1 > 2 sqrt(N/2); validation cells (N=16 certified / N=32 collision) confirm the pipeline. Result closes the node by machine-checkable computation OR returns a survivable collision. | PROVED by machine-checkable computation (Reading B): the certifying procedure IS kernel_lattice_reframing (PROVED, codim-1 e1 lattice) + the exact bounded-enumeration certifier. RIGOROUS RUN at the REAL dim-64 stand-in cell recorded rounded output only; wave-20/N12 correctly ruled that this is not a replayable certificate. | NEW PROVED BRANCH: integer_code_distance_high_field_folded_box_exclusion replaces SVP by an exact Parseval proof for order 128 and p>253^32. It does not close the missing lower-field/other-order rows or the value-set budget."
+   "notes": "DISPATCH SKIP CONFIRMS Codex's report: the missing input is the row OBJECT (no matrix/descriptor), not a computation; dependency multi_multiplier_reduction is REFUTED. Restate or reroute \u2014 not compute-closable as stated. | DESK RULING: restated exhibit-conditional; the missing 'row object' was a category error under Reading B. Remaining content = LP/cone certifier soundness \u2014 same family as lattice_cone_certificate's machinery (its two other reqs are PROVED). | BAKE-OFF DONE (folded_certificate.md): both nodes reduce (via kernel_lattice_reframing PROVED) to a folded short-vector decision in dim N/2, shared with e1_fullness. Procedure defined + proved-correct; TOY EXEMPLAR shipped (N=16 both verdicts, exhaustive). Prize cells = dim-64/128 LATTICE enumeration (fplll-feasible, NOT a theorem) \u2014 needs the pinned exhibit cell; answer may be collision-found (survivable). Tier-0 CONFIRMED: the remaining work is a lattice computation. | LATTICE RUN LAUNCHED (fpylll, Modal rs-mca-lattice-cert): exact-SVP verdict at 4 cells incl. the REAL dim-64 Row-C cell (250-bit stand-in prime, q=1 mod 128). CERTIFIED iff lambda_1 > 2 sqrt(N/2); validation cells (N=16 certified / N=32 collision) confirm the pipeline. Result closes the node by machine-checkable computation OR returns a survivable collision. | PROVED by machine-checkable computation (Reading B): the certifying procedure IS kernel_lattice_reframing (PROVED, codim-1 e1 lattice) + the exact bounded-enumeration certifier. RIGOROUS RUN at the REAL dim-64 stand-in cell recorded rounded output only; wave-20/N12 correctly ruled that this is not a replayable certificate. | NEW PROVED BRANCH: integer_code_distance_high_field_folded_box_exclusion replaces SVP by an exact Parseval proof for order 128 and p>253^32. | QUANTIFIER REPAIR: official_row_primes_pinning proves that no finite official-prime registry exists. The four pinned Proth exhibits are below the theorem threshold; the corridor prime has no lattice-route value-set consumer. The target is now explicitly uniform-per-input or exhibit-scoped, with cell-count and B* metadata mandatory."
   },
   {
    "id": "certifier_uniformity",
@@ -7433,7 +7433,7 @@
     "critical/nodes/l1_mixed_petal_amplification/statement.md",
     "critical/nodes/l1_mixed_petal_amplification/attack.md"
    ],
-   "statement": "At every official row and for every received word U, the mixed-petal or diffuse partial-petal contributors to #ImgFib_U(k+sigma) are polynomially bounded above the corrected reserve, with quotient profiles budgeted. The exact-shell prefix/Hankel bridge gives two honest closure routes: global received-word Toeplitz prefix flatness, or aggregate local first-owner payment in one fixed source. Fixed-cofactor transport writes shell a with forced e=deg(U)-a as at most q^e depth-(a-k+e) locator-prefix fibers, with e=0 exactly one upstream locator-Q atom. Cofactor-depth budget cancellation proves that for e<k this q^e factor cancels under ambient normalization, while image normalization retains q^(a-k+e)/L_(a,a-k+e) and integer rounding loses less than q^e. The cofactor-prefix Pade normal form makes the below-cap targets one graph, and the full-locator Pade section extends the exact split-divisor intersection to every e via the a-k equations [T^(e+1..e+a-k)]Uhat/Lhat=0. The Pade-remainder Jacobian theorem gives differential D -> -(QD mod L): on gcd(L,Q)=1 the section is smooth of local codimension a-k, and every rank failure lies on the tangent resultant. Exact shells therefore split into primitive transverse gcd(Q,Omega)=1 and tangent gcd(L,Q)!=1 classes. Thus the live global task is a tangent first-match payment plus row-sharp split-point concentration on a smooth primitive full-locator Pade section, with depth-uniform Q as its top-prefix edge and decorated support-pair control as its second moment. Canonical cofactor gcd descent removes q^(2e) decoration counting through e<=w+2c; an exact F_13 endpoint family proves the reduced high branch must retain its received-word owner. On the local route, maximal-source domination removes source-layout multiplicity; the anchor census removes whole-petal-anchored quotient-polynomial supply; the tame fixed-petal refinement census reduces all tame refinement maps to at most M tau(ell)<=n classes; the periodic-owner obstruction proves those maps do not automatically have multiplicatively periodic exact supports; and the anchored triple-polarity closure pays partial source cores plus every numerator/Forney fiber at fixed layout, core-defect, and petal polarity. The raw-ledger fence proves independent support summation exponentially loose. The unpaid local mechanisms are small-scale general-pullback or collective aperiodic-support payment on known tame refinements, wild or unanchored quotient maps, growing signed layout/core-defect/petal polarity, the balanced sub-Johnson strip, and arbitrary petal locators outside one common pencil. Thus closure requires either the global smooth-section/tangent payment or aggregate payment of this narrower internal residual. FALSIFIER: a reserve-valid word family whose mixed-petal image-fiber count exceeds every polynomial, or a route-kill lower bound. KNOWN MASS: 43 mixed-petal floor-band contributors versus 10 full-petal at (16,8,97).",
+   "statement": "At every official row and for every received word U, the mixed-petal or diffuse partial-petal contributors to #ImgFib_U(k+sigma) are polynomially bounded above the corrected reserve, with quotient profiles budgeted. The exact-shell prefix/Hankel bridge gives two honest closure routes: global received-word Toeplitz prefix flatness, or aggregate local first-owner payment in one fixed source. Fixed-cofactor transport writes shell a with forced e=deg(U)-a as at most q^e depth-(a-k+e) locator-prefix fibers, with e=0 exactly one upstream locator-Q atom. Cofactor-depth budget cancellation proves that for e<k this q^e factor cancels under ambient normalization, while image normalization retains q^(a-k+e)/L_(a,a-k+e) and integer rounding loses less than q^e. The cofactor-prefix Pade normal form makes the below-cap targets one graph, and the full-locator Pade section extends the exact split-divisor intersection to every e via the a-k equations [T^(e+1..e+a-k)]Uhat/Lhat=0. The Pade-remainder Jacobian theorem gives differential D -> -(QD mod L): on gcd(L,Q)=1 the section is smooth of local codimension a-k, and every rank failure lies on the tangent resultant. Exact shells therefore split into primitive transverse gcd(Q,Omega)=1 and tangent gcd(L,Q)!=1 classes. Thus the live global task is a tangent first-match payment plus row-sharp split-point concentration on a smooth primitive full-locator Pade section, with depth-uniform Q as its top-prefix edge and decorated support-pair control as its second moment. Canonical cofactor gcd descent removes q^(2e) decoration counting through e<=w+2c; an exact F_13 endpoint family proves the reduced high branch must retain its received-word owner. On the local route, maximal-source domination removes source-layout multiplicity; the anchor census removes whole-petal-anchored quotient-polynomial supply; the tame fixed-petal refinement census reduces all tame refinement maps to at most M tau(ell)<=n classes; the periodic-owner obstruction proves those maps do not automatically have multiplicatively periodic exact supports; and the anchored triple-polarity closure pays partial source cores plus every numerator/Forney fiber at fixed layout, core-defect, and petal polarity. The raw-ledger fence proves independent support summation exponentially loose. The unpaid local mechanisms are small-scale general-pullback or collective aperiodic-support payment on known tame refinements, wild or unanchored quotient maps, growing signed layout/core-defect/petal polarity, the balanced sub-Johnson strip, and arbitrary petal locators outside one common pencil. Thus closure requires either the global smooth-section/tangent payment or aggregate payment of this narrower internal residual. At the first characteristic checkpoint, all five official next-to-maximal order-zero HNF endpoint chambers are now closed by the m=8 and m=16 reciprocal eliminations; order one, lower value degrees, nonembedded m=4,h=2, and inner lifts remain. FALSIFIER: a reserve-valid word family whose mixed-petal image-fiber count exceeds every polynomial, or a route-kill lower bound. KNOWN MASS: 43 mixed-petal floor-band contributors versus 10 full-petal at (16,8,97).",
    "upstream": {
     "label": "prob:list-completion / U_list_int (arbitrary-word interior)",
     "relation": "IDENTICAL"
@@ -16788,6 +16788,28 @@
    ]
   },
   {
+   "id": "l1_mersenne_hnf_m16_order_zero_reciprocal_elimination",
+   "title": "L1 Mersenne HNF m=16 order-zero reciprocal elimination",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The complete m=16,h=15 order-zero outer HNF chamber is empty on the official (n,p)=(131072,8191) row. The first three Frobenius-reciprocal coefficient equations give eliminants of degrees 11472 and 15296. Their degree-9912 gcd has squarefree radical s(s-1) product_(j=1)^15(s+j), so every common solution has s in F_8191, contradicting the HNF condition.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/statement.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/proof.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/audit.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/result.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/verify.py",
+    "experiments/prize_resolution/l1_mersenne_m16_reciprocal_gcd_modal.py",
+    "experiments/prize_resolution/l1_mersenne_m16_reciprocal_companion_audit_modal.py",
+    "experiments/prize_resolution/l1_mersenne_m16_reciprocal_gcd_result.json",
+    "experiments/prize_resolution/l1_mersenne_m16_reciprocal_companion_audit_result.json",
+    "experiments/prize_resolution/l1_mersenne_m16_reciprocal_gcd_result.md"
+   ],
+   "notes": "Exact bounded computer algebra, not a field-element scan: the primary resultant construction and an independent companion-matrix/Newton construction reproduce both eliminants, their gcd, and the degree-17 radical. Closes order zero only; order one and global L1 remain open."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -19438,6 +19460,11 @@
   },
   {
    "from": "integer_code_distance_high_field_folded_box_exclusion",
+   "to": "integer_code_distance_cert",
+   "kind": "ev"
+  },
+  {
+   "from": "official_row_primes_pinning",
    "to": "integer_code_distance_cert",
    "kind": "ev"
   },
@@ -32003,6 +32030,21 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_m16_order_zero_reciprocal_elimination",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_frobenius_reciprocal_gate",
+   "to": "l1_mersenne_hnf_m16_order_zero_reciprocal_elimination",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_zero_reciprocal_elimination",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

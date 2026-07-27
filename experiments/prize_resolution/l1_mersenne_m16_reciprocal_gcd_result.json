@@ -1,0 +1,41 @@
+{
+  "app": "l1-mersenne-m16-reciprocal-gcd",
+  "app_id": "ap-TFttWNnwIi68tCQ3n32vBn",
+  "status": "COMPLETE",
+  "p": 8191,
+  "m": 16,
+  "h": 15,
+  "program_sha256": "32fc1f370cecc026f71bc99e4f4ab915dab6ebdb1083b660a17df5ca08a5a416",
+  "seconds": 16.746444,
+  "peak_mb": 110,
+  "degrees": {
+    "R12": 11472,
+    "R13": 15296,
+    "gcd": 9912,
+    "gcd_derivative_gcd": 9895,
+    "radical": 17,
+    "radical_derivative_gcd": 0,
+    "field_polynomial_remainder": -1
+  },
+  "terms": {
+    "R12": 10735,
+    "R13": 14320,
+    "gcd": 9173,
+    "gcd_derivative_gcd": 9161,
+    "radical": 17,
+    "radical_derivative_gcd": 1,
+    "field_polynomial_remainder": 0
+  },
+  "sha256": {
+    "R12": "4d85a002b1a6859f596728ccb6a47946da5540bf2950ac5030e9aff9aa08f23d",
+    "R13": "e9e428a171b0e4d421c2486eee0b7d2ad4fb2dc16eaabdf49ca126b52176a076",
+    "gcd": "567ee9bf42f7ff97267c8a4b288bc4c4662688d17a1a65450df994ad120bfd94",
+    "radical": "42c76c6b52be5c2a1ced34377e1e469fd3b0114ed2d0156f2e443baf0e640a5e"
+  },
+  "radical_factorization": "s*(s-1)*product_(j=1)^15(s+j)",
+  "radical_text": "s17+119s16-1731s15-1146s14-4030s13-2805s12-496s11+2167s10+1560s9-3799s8-18s7-1594s6-3096s5-646s4-418s3-487s2+37s",
+  "radical_squarefree": true,
+  "radical_divides_s_to_p_minus_s": true,
+  "exact_bill_not_queried": true,
+  "conservative_campaign_cost_bound_usd": 0.05
+}

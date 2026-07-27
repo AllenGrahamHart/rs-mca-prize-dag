@@ -4027,3 +4027,64 @@ upstream state: open PR #1107 supplies a literal corridor prime but no
 next route-deciding action: pin the actual residual row registry and budget;
                               then attack only the rows outside the theorem
 ```
+
+**2026-07-27, integer-certificate quantifier repaired:** the requested row
+registry does not exist. `official_row_primes_pinning` proves that the prize
+quantifies over an admissible family, not a hidden finite prime table. The
+target now requires either a family-uniform no-vector theorem or a named
+exhibit certificate whose consumers are narrowed to that same field. Every
+payload must print its exact cell cardinality and `B*`; solver totality alone
+cannot establish a collision-free verdict.
+
+The four pinned Proth prize exhibits have 167--171-bit primes, below the
+`253^32` high-field threshold. The 256-bit corridor prime is above the
+threshold and therefore has a free order-128 folded-kernel certificate, but
+its current packet only pins a denominator and safe-side comparisons: no
+lattice-route class cell or value-set budget consumes it. It must not be used
+to promote `integer_code_distance_cert`.
+
+```text
+node audited: integer_code_distance_cert
+result: specification repair; status remains TARGET
+DAG delta: official_row_primes_pinning becomes an ev scope guard
+route cut: no finite "official-row certificate sweep" is well posed
+residual: universal row assignment plus no-vector and cell-count certificates
+compute spend: none
+next decision: leave this as the alternative lattice siege unless a real
+               consumer row is pinned; select a closure-capable critical leaf
+```
+
+**2026-07-27, complete m=16 order-zero HNF close:** the corrected bounded
+Singular route is cheap and exact. For the first three reciprocal coefficient
+equations, the two eliminants have degrees `11472` and `15296`; their
+degree-`9912` gcd has squarefree radical
+
+```text
+s(s-1) product_(j=1)^15(s+j).
+```
+
+It divides `s^8191-s`, so every common solution is prime-field valued and
+contradicts the HNF condition `s notin F_8191`. A second worker constructed
+`Q_s` from the companion matrix of multiplication by `W^16`, traces, and
+Newton identities rather than from `Res(P_s,Z-W^16)`; it reproduced both
+eliminants, their gcd, and the radical hash exactly. The local verifier
+independently checks the radical expansion, squarefreeness, and field-
+polynomial divisibility.
+
+```text
+node proved: l1_mersenne_hnf_m16_order_zero_reciprocal_elimination
+result: CLOSED, complete m=16,h=15 order-zero outer chamber
+combined endpoint result: all five m in {8,16} next-to-maximal order-zero
+                          HNF chambers are closed
+critical delta: none; l1_mixed_petal_amplification remains TARGET
+remaining first-checkpoint scope: order one, lower value degrees,
+                                  nonembedded m=4,h=2, and inner lifts
+primary: ap-TFttWNnwIi68tCQ3n32vBn, 16.746444 s, 110 MB
+audit:   ap-myN6sycfDSBAi2okj8hc2P, 12.792499 s, 110 MB
+compute spend: exact bill not queried; conservative whole-campaign bound
+               below $0.05
+new assumptions: none
+compute request: CR-L1-MCP-NMCE narrowed to order one only
+next route-deciding action: attack the bounded order-one torsion systems, or
+                              switch if their first exact chamber is not cheap
+```

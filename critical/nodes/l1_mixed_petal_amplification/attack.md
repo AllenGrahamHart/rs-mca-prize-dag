@@ -639,3 +639,13 @@
   `notes/PRIZE_COMPUTE_REQUESTS.md`; its former `NU0-H0` pre-request is now a
   retirement record and must not be sent upstream as live compute. No local
   or current-account Modal run is authorized.
+
+- Superseding endpoint close: consume
+  `l1_mersenne_hnf_m16_order_zero_reciprocal_elimination`. The two bounded
+  eliminants have degree-17 squarefree common radical
+  `s(s-1) product_(j=1)^15(s+j)`, so the complete `m=16,h=15` order-zero
+  chamber is empty. Together with the `m=8` theorem, no next-to-maximal
+  order-zero HNF work or cubic/higher color split remains. Narrow
+  `CR-L1-MCP-NMCE` to order one only; do not rerun either reciprocal
+  elimination. This does not remove lower value degrees, nonembedded
+  `m=4,h=2`, inner lifts, or the global smooth-section/tangent payment.

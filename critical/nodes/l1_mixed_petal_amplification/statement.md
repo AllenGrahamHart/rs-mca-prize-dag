@@ -1250,8 +1250,22 @@ s^176(s-1)^4(s+1)^176(s+2)^168(s+3)^162
 
 so every common solution has `s in F_p`, a contradiction. The complete
 order-zero outer chamber is therefore empty on all four `m=8` rows,
-including every color degree. The `m=16` order-zero chamber still starts at
-degree three.
+including every color degree.
+
+The remaining order-zero endpoint is now also empty.
+`l1_mersenne_hnf_m16_order_zero_reciprocal_elimination` applies the same
+first three reciprocal equations at `(m,h,p)=(16,15,8191)`. Its two exact
+eliminants have degrees `11472` and `15296`; their degree-`9912` gcd has
+squarefree radical
+
+```text
+s(s-1) product_(j=1)^15(s+j).
+```
+
+Every common solution therefore has `s in F_8191`, contradicting the HNF
+condition. Thus all five official next-to-maximal order-zero outer chambers
+are closed. The first-checkpoint endpoint still retains order one, lower
+value degrees, nonembedded `m=4,h=2`, inner lifts, and the global payment.
 
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full

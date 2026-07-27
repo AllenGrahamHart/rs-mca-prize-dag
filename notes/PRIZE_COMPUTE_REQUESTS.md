@@ -7241,12 +7241,11 @@ compression.
 
 ### CR-L1-MCP-NMCE: constant-Euler next-to-maximal passport classification
 
-**Status:** the four `m=8,h=7,ord_0(T)=0` outer chambers are now theorem-
-empty and RETIRED from this request. The unresolved `m=16,h=15` order-zero
-chamber and the order-one chambers remain a valuable outbound research-
-compute pre-request with unknown cost; they are not authorized locally or on
-the current Modal account. Benchmark and price one smallest unresolved
-chamber before any extension.
+**Status:** every order-zero next-to-maximal chamber is theorem-empty and
+RETIRED from this request: four `m=8,h=7` rows and the `m=16,h=15` row. Only
+the order-one chambers remain a valuable outbound research-compute
+pre-request with unknown cost. Benchmark and price one smallest unresolved
+order-one chamber before any extension.
 
 **Pre-registered bounded analogue pilot `HNF-TOY-GCD`.** One 1-CPU, 1-GiB,
 120-second Modal task may compute the exact common-remainder gcd for
@@ -7303,15 +7302,17 @@ field roots in all four official characteristics. Do not run an `m=8`
 official saturation or classify cubic and higher `m=8` colors: that chamber
 is closed.
 
-The live part of this request targets the exact residue of
-`l1_mersenne_next_to_maximal_hypergeometric_normal_form` on
+The following order-zero specification is retained as historical provenance;
+it is no longer live. The live part of this request is now only the order-one
+residue of `l1_mersenne_next_to_maximal_hypergeometric_normal_form`. The
+retired order-zero row was
 
 ```text
 (m,h,p)=(16,15,8191),
 ```
 
-plus the order-one chambers not discharged by the `m=8` theorem. The four
-former `m=8` triples remain in the historical pilot record only.
+The four former `m=8` triples and this `m=16` triple remain in the historical
+pilot record only.
 
 The outer stage has a monic depressed squarefree polynomial `G` of degree
 `h` and a nonzero scalar `lambda=m alpha/q`. Put
@@ -7436,6 +7437,24 @@ the outer stage into exactly two low-dimensional tasks.
   `experiments/prize_resolution/l1_mersenne_m16_r12_singular_pilot_result.json`.
   This is an infrastructure fence only and yields no mathematical or DAG
   movement.
+
+  **Resolved (2026-07-27): RETIRED.** Under the current sub-five-minute and
+  under-`$1` compute law, the corrected exact pilot completed and was followed
+  by one independent companion-matrix audit. The eliminants have degrees
+  `11472,15296`; their degree-`9912` gcd has squarefree radical
+
+  ```text
+  s(s-1) product_(j=1)^15(s+j),
+  ```
+
+  which divides `s^8191-s`. The primary resultant construction and the
+  companion-matrix/Newton construction reproduce all four polynomial hashes.
+  `l1_mersenne_hnf_m16_order_zero_reciprocal_elimination` is therefore
+  PROVED and the complete order-zero outer chamber is empty. Apps
+  `ap-TFttWNnwIi68tCQ3n32vBn` and `ap-myN6sycfDSBAi2okj8hc2P` used one CPU,
+  `110 MB`, and `16.75/12.79` seconds; the exact bill was not queried and the
+  full campaign is conservatively below `$0.05`. Do not run any further
+  `m=16` order-zero elimination, remainder, or color-degree job.
 
   A unit outside-prime-field locus closes the complete `m=16` order-zero
   outer chamber. A nonunit result must return an exact irreducible component
