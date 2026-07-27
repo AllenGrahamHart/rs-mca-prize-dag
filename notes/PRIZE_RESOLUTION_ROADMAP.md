@@ -4603,3 +4603,31 @@ route decision: both survivors have four odd autocorrelation coefficients and
 next route-deciding action: classify that common light-support orbit space
                               before authorizing either signed-vector census
 ```
+
+**2026-07-27, V=64 common four-odd light router:** both surviving profiles now
+share one exact finite geometry chamber.
+
+```text
+starting pin: local e2a5fab2
+proof pin: local 7b44cea1
+node attacked: V=64 profiles (4,7) and (3,5,1), common light geometry
+normalized classification: 28,800 of 333,375 four-light supports
+diameter result: every valid support has zero light-light diameters
+distance ledger: multiplicities 2,1,1,1,1
+shape result: the repeated edges always share a vertex; every support contains
+              a light three-term progression; no repeated matching survives
+affine router: 148 odd-unit/translation orbits
+orbit sizes: 32 (4 orbits), 64 (16), 128 (40), 256 (88)
+independent replay: vertex triples versus positive circular gaps; expanded
+                    printed orbits are disjoint and cover all 28,800 supports
+diameter ledger: D_64 in {0,4,8,12,16,20}
+compute spend: verifier-scale local classification only; no Modal run
+DAG delta: one PROVED node and three edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+new assumptions: none
+route decision: form each signed autocorrelation once and apply both live
+                profile filters in one 148-template representative census
+next route-deciding action: joint Modal census with unrestricted and
+                              full-conductor maxima, followed by independent
+                              direct-negacyclic replay if closure is indicated
+```
