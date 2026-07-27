@@ -1202,6 +1202,17 @@ cubic certificate excludes it and improves the profile-`(3,4,0)` residual to
 positive even `V<=74`. See
 `background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/`.
 
+N45 DONE, E1 N=256 VARIANCE-74 QUOTIENT-SCHUR CLOSURE: at `E=37`, the exact
+slack recurrence gives `L<=21`, and only three of 29 magnitude profiles exceed
+the cubic threshold 2592. A complete 19,732,753-allocation quotient census
+closes `(1,9)` and the outer term of `(8,5,1)` directly. For `(5,8)`, the
+`B not subset 4Z` chamber is at most 2576. In the remaining chamber, all 6,435
+symmetric 16-point inner layers in `Z/32 Z` satisfy `R(B,B,B)<=174`; maximizing
+that replacement allocation by allocation gives 2560. The full live-row cap
+is therefore `M_3<=2576<2592`, so the exact cubic excludes `V=74` and improves
+the profile-`(3,4,0)` residual to positive even `V<=72`. See
+`background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable
@@ -3648,4 +3659,25 @@ route fences: generic CP-SAT bounds and the parity-purity lemma are retired;
               the final proof uses exact quotient capacities plus the 4Z cut
 next route-deciding action: derive the E=37 L1/profile ledger and test whether
                               the quotient-Schur/cubic mechanism closes V=74
+```
+
+**2026-07-27, N=256 variance-74 quotient-Schur closure:** the inherited
+quotient mechanism was refined by an exact inner-layer Schur census and closes
+the next variance endpoint.
+
+Cycle burn-down:
+
+```text
+starting pin: local 1ebf7aec
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0), V=74
+result: NEW PROVED quotient-Schur exclusion; global live M_3<=2576;
+        V=74 excluded and residual improves to positive even V<=72
+DAG delta: one PROVED background node and five edges added; parent target OPEN
+compute: 48 cheap Modal shards per pass; final complete run
+         ap-CQM1N1zJGw5E0FXC4k6qim; 19,732,753 allocations
+new assumptions: none
+route decision: the raw 2626 quotient obstruction was repaired only after
+                proving the support-specific inner bound R(B,B,B)<=174
+next route-deciding action: derive the E=36 L1/profile and cubic ledgers before
+                              deciding whether quotient descent remains viable
 ```

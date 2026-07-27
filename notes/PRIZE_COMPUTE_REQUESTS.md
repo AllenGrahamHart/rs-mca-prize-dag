@@ -7761,3 +7761,52 @@ proved `4Z` subfield exclusion they imply `M_3<=2796<2806`, close `V=76`, and
 advance the residual to positive even `V<=74`. `FAIL` would have been an
 allocation above 2806 and a return to support-specific chord geometry;
 `INCOMPLETE` would have changed no status. Neither occurred.
+
+### CR-E1-E37-Q16: variance-74 quotient-Schur extension
+
+**Status:** COMPLETE by exact certificate; do not extend or rerun unless
+auditing the pinned result.
+
+At `E=37`, the exact recurrence gives `L<=21`; 29 integer magnitude profiles
+remain. The cubic-Hermite threshold is `M_3<=2592`, and only `(5,8)`,
+`(8,5,1)`, and `(1,9)` have larger abstract caps. Extend the pinned E38 C++
+census with two-layer profiles `(5,8)` and `(1,9)` and an outer-only 28-point
+profile for the singleton-top-layer reduction. Run both the odd-support
+`Z/128 Z` and divided-odd `Z/64 Z` chambers.
+
+Use at most 48 one-CPU, 256-MiB shards, a 180-second hard per-shard timeout,
+under five minutes total wall time, and a conservative total ceiling of
+`$0.25`. The launcher must write exact per-shard counts and maxima even if a
+subset fails; `INCOMPLETE` changes no status. The independent checker must
+recount allocations by dynamic programming and evaluate every displayed
+maximum before any theorem promotion.
+
+`PASS` means both two-layer profiles are at most 2592 and the singleton
+profile satisfies `R(A,A,A)<=720`, yielding a direct `V=74` closure. `FAIL`
+means a complete quotient maximum exceeds one of those thresholds and
+returns the corresponding profile to a support-specific layer coupling.
+Record every app ID and measured campaign result here after launch. Do not
+scale beyond these six finite optimization cells.
+
+The complete campaign used three bounded development passes, all within the
+declared aggregate ceilings:
+
+```text
+ap-kaS1w5aXwJKRvb8VGJvL7q   initial six-cell census
+ap-kksQDQpMDHUnJDCTccPONM   B not subset 4Z chamber split
+ap-CQM1N1zJGw5E0FXC4k6qim   final allocation-wise 174 refinement
+```
+
+The final 48-shard pass completed in under 20 seconds. It checked 19,732,753
+allocations and returned full caps `2626,2576,2372,2168,678,678`. The only
+raw cap above 2592 is the `(5,8)` order-128 chamber. Its
+`B not subset 4Z` maximum is 2576; for `B subset 4Z`, independently checking
+all `binom(15,8)=6435` inner layers gives `R(B,B,B)<=174`, and the refined
+allocation-wise maximum is 2560. The resulting global live-row cap is 2576,
+so `V=74` is excluded and the residual advances to positive even `V<=72`.
+
+The source, result packet, checker, and registered remote launcher are
+`e37_mod16_quotient_census.cpp`,
+`e37_mod16_quotient_census_result.json`,
+`e37_mod16_quotient_census_check.py`, and
+`e1_n256_s16_e37_quotient_schur_exclusion/verify_census_remote.py`.

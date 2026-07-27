@@ -2,22 +2,38 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 6,
+    "PASS": 8,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/verify.py",
-      "seconds": 0.032701,
+      "seconds": 0.033202,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_AUTOCORRELATION_SUBFIELD_EXCLUSION_PASS subfield_degree=32 conjugate_ceiling=60 subgroup_schur=2718\n"
     },
     {
       "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/verify.py",
+      "seconds": 0.218245,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E37_QUOTIENT_SCHUR_EXCLUSION_PASS profiles=29 allocations=19732753 m3_cap=2576 residual_max=72\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/verify_audit.py",
+      "seconds": 13.949981,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E37_QUOTIENT_SCHUR_EXCLUSION_AUDIT_PASS small_group_cases=399918 bbb_sets=6435 hostile_mutations=2\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/verify.py",
-      "seconds": 0.115759,
+      "seconds": 0.107401,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_E38_QUOTIENT_SCHUR_EXCLUSION_PASS profiles=32 allocations=43153083 m3_cap=2796 residual_max=74\n"
@@ -25,7 +41,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/verify_audit.py",
-      "seconds": 5.245869,
+      "seconds": 5.496246,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_E38_QUOTIENT_SCHUR_EXCLUSION_AUDIT_PASS small_group_cases=150333 hostile_mutations=3\n"
@@ -33,7 +49,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_high_variance_collision_exclusion/verify.py",
-      "seconds": 0.032928,
+      "seconds": 0.034799,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_HIGH_VARIANCE_COLLISION_EXCLUSION_PASS mean=16 max=100 high_variance_start=136 residual_max=134\n"
@@ -41,7 +57,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_signed_chord_collision_gate/verify.py",
-      "seconds": 0.043281,
+      "seconds": 0.03648,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_SIGNED_CHORD_COLLISION_GATE_PASS baseline=102 diameter_max=21 cross_max=-22 witness=18/8/-38\n"
@@ -49,7 +65,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py",
-      "seconds": 0.200464,
+      "seconds": 0.194724,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS excluded=29 residual_max=76 majorants=21\n"
