@@ -19,6 +19,9 @@ The folded `L2` norm radius excludes `s<=4` at `N=256` and `s=1` at
 certificates also exclude both profiles at `N=512,s=2`, so begin that order
 at `s=3`. At `N=256,s=5`, every proper-conductor support is
 excluded in both surviving profiles, so classify only full-conductor supports.
+The 2-adic cofactor gate also forces singleton-reduction multiplicity at most
+five in `(3,4,0)` and forbids a singleton separation divisible by 32 in
+`(4,2,0)`.
 
 ```text
 P=sum_y binom(r_y,2).
@@ -42,8 +45,9 @@ explicit finite inequality at the row.
    `V<=134` remains. Proper conductor is already excluded, but an explicit
    full-conductor vector with `V=36` rules out reducing the residual to
    periodic lifts. Classify the full-conductor residual before revisiting
-   generic supports. The complete `N=512,s=2` band is closed; start at
-   `s=3`.
+   generic supports, applying the exact 2-adic multiplicity gate before any
+   norm computation. The complete `N=512,s=2` band is closed; start
+   at `s=3`.
 3. A certifier route is legitimate only with proved termination, soundness,
    and coverage for every row in the printed pair-feasible candidate class.
 4. If direct image size can be certified above `B*` without bounding `P`, send

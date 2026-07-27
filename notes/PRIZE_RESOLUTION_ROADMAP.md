@@ -958,6 +958,17 @@ classify the full-conductor low-variance residual rather than periodic lifts.
 See
 `background/nodes/e1_n256_proper_conductor_collision_exclusion/`.
 
+N29 DONE, E1 N=256 2-ADIC COFACTOR GATE: total ramification identifies the
+root multiplicity `mu` of the folded polynomial modulo two at `X=1`
+with the 2-adic valuation of its cyclotomic norm. The exact L2 norm bounds and
+`p>2^250` force `mu<=5` in profile `(3,4,0)` and
+`mu<=16` in profile `(4,2,0)`. Thus the four-singleton
+reduction in the first profile is not divisible by `(X+1)^6`, and the
+two singleton exponents in the second are not congruent modulo 32. This is an
+exact route-uniform screen, not a close of either profile. Apply it before
+residual norm work. See
+`background/nodes/e1_n256_2adic_cofactor_collision_exclusion/`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable

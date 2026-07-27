@@ -51,7 +51,9 @@ At `N=256,s=5`, the `(3,4,0)` profile is narrowed to positive even
 autocorrelation variance `V<=134`. In both first-band profiles all
 proper-conductor supports are excluded, but `(4,2,0)` is otherwise
 unrestricted and a full-conductor `(3,4,0)` vector already occurs at
-`V=36`.
+`V=36`. The surviving singleton reductions additionally have root
+multiplicity at most five in `(3,4,0)`, while the two singleton
+exponents in `(4,2,0)` are not congruent modulo 32.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named

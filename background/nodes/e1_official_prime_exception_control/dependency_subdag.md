@@ -27,6 +27,9 @@ e1_n256_s16_high_variance_collision_exclusion [PROVED]
 e1_n256_proper_conductor_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_n256_2adic_cofactor_collision_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_n512_four_singleton_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
@@ -43,8 +46,9 @@ prime-field. Exact folded-norm arguments remove swap distances through four at
 `N=256` and through two at `N=512`. The square-mass-16 logarithmic refinement
 also reduces one `N=256,s=5` profile to positive even variance at most 134,
 while the proper-conductor theorem removes all proper-subfield lifts from both
-first-band profiles. Full-conductor vectors remain, so the surviving ledger is
-not paid.
+first-band profiles. The 2-adic cofactor theorem supplies independent
+singleton-exponent screens in both profiles. Full-conductor vectors passing
+those screens remain, so the surviving ledger is not paid.
 The official quantifier pin and named-exhibit certificate subgraph remain in
 `background/nodes/` and have `ev`, not `req`, edges into this target. The
 unresolved target is a logical leaf, with its route-uniform scope printed

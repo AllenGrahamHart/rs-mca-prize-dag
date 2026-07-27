@@ -33,7 +33,11 @@ positive even `V<=134`. A subfield norm argument also removes every vector
 in either profile whose support differences have a nontrivial gcd with
 `256`. Thus all live first-band vectors have full conductor. This does not
 classify the low-variance residual: a certified full-conductor vector already
-occurs at `V=36`. At `N=512,s=2`, exact negacyclic variance
+occurs at `V=36`. Total ramification of two gives an independent
+cofactor gate: the four-singleton reduction in `(3,4,0)` has root
+multiplicity at most five at one, while the two singleton exponents in
+`(4,2,0)` are not congruent modulo 32. At `N=512,s=2`, exact
+negacyclic variance
 excludes `(0,4,0)`, while a complete 129540-state interval-resultant
 certificate excludes `(1,2,0)`. The entire band is closed, so the `N=512`
 ledger begins at `s=3`. The profile entries count opposite pairs,
@@ -55,7 +59,7 @@ The next route-deciding attack is algebraic. Either:
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
-  and the `N=512,s=3` band;
+  after the 2-adic cofactor screen, and the `N=512,s=3` band;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;
 - provide a total per-input image/collision certifier theorem; or

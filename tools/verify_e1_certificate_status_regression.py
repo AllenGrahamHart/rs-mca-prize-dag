@@ -49,6 +49,7 @@ def main():
         "e1_prime_field_l2_norm_collision_radius",
         "e1_n256_s16_high_variance_collision_exclusion",
         "e1_n256_proper_conductor_collision_exclusion",
+        "e1_n256_2adic_cofactor_collision_exclusion",
         "e1_n512_four_singleton_collision_exclusion",
         "e1_n512_trinomial_interval_norm_exclusion",
         "e1_fullness",
@@ -100,6 +101,7 @@ def main():
         ("e1_prime_field_l2_norm_collision_radius", branch_target, "ev"),
         ("e1_n256_s16_high_variance_collision_exclusion", branch_target, "ev"),
         ("e1_n256_proper_conductor_collision_exclusion", branch_target, "ev"),
+        ("e1_n256_2adic_cofactor_collision_exclusion", branch_target, "ev"),
         ("e1_n512_four_singleton_collision_exclusion", branch_target, "ev"),
         ("e1_n512_trinomial_interval_norm_exclusion", branch_target, "ev"),
     }
@@ -165,6 +167,16 @@ def main():
             "proper-conductor exclusion lost its L2 parent")
     require(("collision_norm_criterion", proper_conductor, "req") in edges,
             "proper-conductor exclusion lost its norm parent")
+    two_adic = "e1_n256_2adic_cofactor_collision_exclusion"
+    require(nodes[two_adic]["status"] == "PROVED",
+            "N=256 2-adic cofactor exclusion regressed")
+    two_adic_statement = nodes[two_adic]["statement"].lower()
+    require("mu<=5" in two_adic_statement and "not divisible by 32" in two_adic_statement,
+            "N=256 2-adic cofactor conclusion is missing")
+    require((l2_radius, two_adic, "req") in edges,
+            "2-adic cofactor exclusion lost its L2 parent")
+    require(("collision_norm_criterion", two_adic, "req") in edges,
+            "2-adic cofactor exclusion lost its norm parent")
     four_singleton = "e1_n512_four_singleton_collision_exclusion"
     require(nodes[four_singleton]["status"] == "PROVED",
             "N=512 four-singleton exclusion regressed")
@@ -195,6 +207,7 @@ def main():
         l2_radius,
         n256_s16,
         proper_conductor,
+        two_adic,
         four_singleton,
         trinomial,
         branch_target,

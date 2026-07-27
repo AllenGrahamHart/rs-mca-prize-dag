@@ -39,4 +39,6 @@ At `N=256,s=5`, an exact logarithmic refinement excludes the zero-variance
 and all `V>=136` cases of profile `(3,4,0)`. A separate subfield-norm
 argument excludes every proper-conductor support in both first-band profiles.
 Only full-conductor supports remain, and a certified one exists at variance
-`36`, so the first band is not closed.
+`36`, so the first band is not closed. A 2-adic cofactor argument
+independently forces singleton-reduction multiplicity at most five in
+`(3,4,0)` and at most sixteen in `(4,2,0)`.
