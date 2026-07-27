@@ -86,11 +86,11 @@ Three areas enter production, in this order. Each mint obeys falsification-first
 Key paths: `/home/u2470931/smooth-read-solomin/prize/dag.json`; `/home/u2470931/smooth-read-solomin/prize/notes/upstream_pr_proposals_20260720/upr_draft_2.md`; `/home/u2470931/smooth-read-solomin/prize/notes/lane_l_crosswalk_20260724/lnl_findings.md`; `/home/u2470931/smooth-read-solomin/prize/notes/PRIZE_RESOLUTION_ROADMAP.md` (P-A1/P-A2 ~l.788, packaging tier ~l.2062); `/home/u2470931/smooth-read-solomin/prize/notes/kernel_basis/KB_LOG.md` (#119, #121–#125); node dirs under `/home/u2470931/smooth-read-solomin/prize/background/nodes/` for E-1..E-6 sources; upstream anchors `experimental/proximity_prize_results_v4.tex` (corridor remark, tab:threshold-map, submission package), `experimental/grande_finale.tex` (S+A+E, def:exception-routing), `experimental/notes/wcl_slot_contributor_requests.md`, `agents.md` §1/§4.
 ---
 
-## E-3 STATUS 2026-07-27: PREPARED AND ARMED — branch pushed, PR deliberately NOT opened
+## E-3 STATUS 2026-07-27: **SHIPPED as PR #1109** (was prepared-and-held for ~2h)
 
 Branch `allen/wcl-register-first-installment` (fork, `379acae2`), cut from
-upstream `b13de811`. Fires the moment triage moves; `gh pr create` is the only
-remaining step.
+upstream `b13de811`. **Opened 2026-07-27 12:47 as #1109** under the maintainer's
+pacing override (below).
 
 **Contents:** five theorems (T1 (2,5) order-1024 norm-gcd; T2 (2,6)
 order-1024 recursive-norm + split16 counterfixture; T3 weight-3 ambient
@@ -114,3 +114,27 @@ scope claim with a mutation control proving it is not vacuous. So the
 misreading is foreclosed for any future contributor.
 
 **Verified from a clean checkout of the pushed branch**, not the working tree.
+
+
+---
+
+## PACING RULE SUPERSEDED (user ruling, 2026-07-27)
+
+The ledger's original serialization — E-3 "after E-1/E-2 triage", E-4 "opens
+only after E-1/E-2 close" — is **withdrawn**. Maintainer ruling verbatim:
+
+> "we can land things now if they are ready - we don't have to wait for
+> Przemek. Better for things to come in quickly even if its a bit
+> asynchronous"
+
+**New rule: readiness gates submission, not triage.** A packet ships when it is
+(a) verified from a clean checkout of the pushed branch, (b) subtraction-checked
+against all four surfaces per hard law 5, and (c) fenced with explicit
+non-claims. Queue depth and upstream latency are no longer reasons to hold.
+
+What does NOT change: the risk ordering inside a lane still matters. E-6 stays
+last **on its own merits** — the ledger's reason was over-claim risk ("the item
+where over-claim risk is highest"), not queue position, and that reason
+survives the override. Same for anything requiring maintainer surface first
+(red-closure claims, co-authorship, corrections to his results, contributor-lane
+touches).
