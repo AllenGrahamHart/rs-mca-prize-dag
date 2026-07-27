@@ -2,7 +2,7 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "46c5c261",
+  "our_sha": "dc74d931",
   "his_sha": "b13de811"
  },
  "rows": [
@@ -222,7 +222,7 @@
    "scope": "exact negacyclic-autocorrelation and cyclotomic-product exclusion of folded profile (0,4,0) in the first N=512,s=2 E1 collision band",
    "owner": "US",
    "nonclaims": [
-    "profile (1,2,0) in the same band remains open",
+    "this theorem alone does not address profile (1,2,0) in the same band",
     "no higher distance band or total collision-pair allowance is bounded",
     "no clean row, adjacent endpoint, or universal unsafe branch is closed"
    ],
@@ -231,6 +231,26 @@
    "lean": null,
    "provenance": {
     "our_sha": "46c5c261",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_n512_trinomial_interval_norm_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "dual-backend exact resultant and full-interval divisor certificate excluding folded profile (1,2,0) and closing the complete N=512,s=2 E1 collision band",
+   "owner": "US",
+   "nonclaims": [
+    "no N=512 collision band at s>=3 is bounded",
+    "no total collision-pair allowance is proved",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "dc74d931",
     "his_sha": "b13de811"
    }
   },
