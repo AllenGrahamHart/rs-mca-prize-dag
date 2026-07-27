@@ -70,9 +70,10 @@ parity then leaves only `(6,7)` and proves that the four light positions have
 six distinct non-diameter circular distances. Apply the 41-signature
 heavy-chord origin classification inside the progression and generic
 templates. The complete normalized quarter template is excluded by the exact
-cap `M_3<=1188`. In the nonquarter-diameter template, use the 31 normal forms
-and their exact common-or-paired weld disjunction; test that bounded chamber
-before deriving any broader support census. Apply the 2-adic singleton screen
-and the forced signed additive relations rather than generic support
-enumeration.
+cap `M_3<=1188`; the 31-form nonquarter-diameter chamber is excluded by
+`M_3<=1560`. For the progression template, normalize the repeated
+heavy-heavy length and split opposite versus equal outer heavy signs before
+any census. Use those signed additive relations to constrain the generic
+template as well. Apply the 2-adic singleton screen rather than generic
+support enumeration.
 Test the odd norm part directly; do not scan arbitrary cofactors below 64.

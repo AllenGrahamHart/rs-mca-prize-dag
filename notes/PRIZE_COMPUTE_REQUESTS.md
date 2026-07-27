@@ -8168,3 +8168,45 @@ maximum full-conductor M_3              1188.
 The combined conservative cost ceiling was `$0.15`; actual worker usage was
 98.473731 CPU-seconds. The exact maximum is 759 below the cubic threshold, so
 `e1_n256_s16_e34_quarter_template_exclusion` closes the branch.
+
+#### CR-E1-E34-NONQUARTER-DIAMETER: exact weld-chamber decision
+
+**Status:** COMPLETE PASS. The nonquarter-diameter template is closed; no
+rerun or extension is authorized.
+
+The proved weld reduction gives 31 normalized heavy triples
+`H={0,64,t}`, `1<=t<=31`, and exactly 915,125 admissible light supports per
+triple. With four residual heavy-sign choices and sixteen light-sign choices,
+the complete chamber has 1,815,608,000 signed vectors.
+
+The primary implementation groups 21 unordered signed chords. The independent
+audit forms `F(X)F(X^-1)` directly in `Z[X]/(X^128+1)` and reconstructs weld
+eligibility from circular distances. Each uses 31 one-CPU, 256 MiB tasks with
+60-second function caps, at most 31 containers, and a partial packet write
+after every return. Abort the campaign after five client-observed minutes or
+any task timeout. The conservative combined cost ceiling is `$0.90`; do not
+rerun or extend without a new route decision.
+
+`PASS` requires exact coverage, 915,125 supports per `t`, shardwise agreement
+of every count and maximum, and replay of retained witnesses. If the maximum
+full-conductor profile-`(6,7)` moment is at most 1947, the inherited exact
+cubic certificate closes the branch. Otherwise the packet must retain exact
+extremizers and the branch remains open at the first failing `t`/sign class.
+
+Modal apps `ap-EfGZditRQm7eDLLLWpNiSA` and
+`ap-MQpKibQl8PBqzuhB5DKf2m` completed all 31 tasks without retries, using
+271.301709 and 339.920267 aggregate worker-seconds. The two implementations
+agree shardwise on
+
+```text
+light supports                       28,368,875,
+normalized signed vectors         1,815,608,000,
+E=34 vectors                           1,518,816,
+profile-(6,7) vectors                  1,044,528,
+full-conductor profile vectors          899,456,
+maximum full-conductor M_3                  1560.
+```
+
+The combined 611.221976 worker-seconds remain below the declared conservative
+`$0.90` ceiling. Since `1560<1947`, the inherited cubic certificate closes
+the complete nonquarter-diameter branch.

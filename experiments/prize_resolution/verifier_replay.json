@@ -2,25 +2,41 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/verify.py",
-      "seconds": 0.066746,
+      "script": "background/nodes/e1_n256_s16_e34_nonquarter_diameter_template_exclusion/verify.py",
+      "seconds": 0.075619,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E34_QUARTER_TEMPLATE_EXCLUSION_PASS vectors=300200032 full=1031680 m3=1188 threshold=1947\n"
+      "stdout_tail": "E1_N256_S16_E34_NONQUARTER_DIAMETER_TEMPLATE_EXCLUSION_PASS vectors=1815608000 full=899456 m3=1560 threshold=1947\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/verify_audit.py",
-      "seconds": 0.02198,
+      "script": "background/nodes/e1_n256_s16_e34_nonquarter_diameter_template_exclusion/verify_audit.py",
+      "seconds": 0.019858,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E34_QUARTER_TEMPLATE_EXCLUSION_AUDIT_PASS shards=121 mutations=2\n"
+      "stdout_tail": "E1_N256_S16_E34_NONQUARTER_DIAMETER_TEMPLATE_EXCLUSION_AUDIT_PASS shards=31 mutations=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/verify.py",
+      "seconds": 0.19871,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_NONQUARTER_DIAMETER_WELD_REDUCTION_PASS triples=7936 forms=31 supports_per_form=915125 vectors=1815608000\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/verify_audit.py",
+      "seconds": 0.019836,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_E34_NONQUARTER_DIAMETER_WELD_REDUCTION_AUDIT_PASS forms=31 mutations=2 vectors=1815608000\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

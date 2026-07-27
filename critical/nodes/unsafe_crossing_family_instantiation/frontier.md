@@ -99,9 +99,11 @@ or {2t,64+2t} is a subset of L.
 ```
 
 This leaves 915,125 supports per `t` before signs and profile filters. It is a
-finite chamber, not a closure; the next route decision is its complete exact
-moment census or a signed-weld cap, rather than the retired unrestricted
-support search.
+finite chamber. Two independent complete censuses exhaust its 1,815,608,000
+signed vectors and agree on exact maximum `M_3=1560<1947` over the 899,456
+full-conductor profile candidates. Thus the complete nonquarter-diameter
+template is now closed. Only progression and generic remain at E34; their
+forced equal-length structure is the next route-deciding object.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named

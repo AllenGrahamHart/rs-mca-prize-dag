@@ -4257,3 +4257,28 @@ next route-deciding action: run a separately capped exact profile-and-moment
                               census only if a verifier-scale pilot confirms
                               the branch remains below the sub-dollar budget
 ```
+
+**2026-07-27, E34 nonquarter-diameter close:** two independent complete
+implementations close the second heavy template well below the cubic
+threshold.
+
+```text
+starting pin: local 831fa2dc
+proof pin: pending commit
+node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
+result: CLOSED nonquarter-diameter branch; progression and generic remain
+exact census: 28,368,875 supports; 1,815,608,000 signed vectors;
+              899,456 full-conductor profile-(6,7) candidates
+moment cap: exact maximum M_3=1560<1947, margin 387
+independent apps: ap-EfGZditRQm7eDLLLWpNiSA (271.301709 worker-seconds),
+                  ap-MQpKibQl8PBqzuhB5DKf2m (339.920267 worker-seconds)
+DAG delta: one PROVED exclusion node and six edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute spend: 611.221976 worker-seconds; conservative ceiling below $0.90
+new assumptions: none
+upstream overlap: no open PR supplies this finite E34 signed-chord close
+route decision: do not broaden the diameter census; it is complete
+next route-deciding action: normalize the progression template, split its
+                              outer-sign cases, and seek a comparably exact
+                              weld chamber before considering computation
+```

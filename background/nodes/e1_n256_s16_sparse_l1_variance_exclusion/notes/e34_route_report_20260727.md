@@ -282,3 +282,24 @@ light supports per form, or 1,815,608,000 signed vectors after global sign
 normalization. The analytic reduction is promoted as
 `e1_n256_s16_e34_nonquarter_diameter_weld_reduction`. It does not yet exclude
 the branch; it makes a complete profile-and-moment census bounded and exact.
+
+## Nonquarter-diameter closure
+
+The primary signed-chord census and independent ordered-negacyclic audit each
+exhaust all 31 weld chambers. They agree shardwise on
+
+```text
+light supports                       28,368,875,
+normalized signed vectors         1,815,608,000,
+E=34 vectors                           1,518,816,
+profile-(6,7) vectors                  1,044,528,
+full-conductor profile vectors          899,456,
+maximum full-conductor M_3                  1560.
+```
+
+Modal apps `ap-EfGZditRQm7eDLLLWpNiSA` and
+`ap-MQpKibQl8PBqzuhB5DKf2m` used 271.301709 and 339.920267 aggregate
+worker-seconds. Since `1560<1947`, the cubic-Hermite norm certificate closes
+the complete template. The result is promoted as
+`e1_n256_s16_e34_nonquarter_diameter_template_exclusion`. The live E34
+frontier now contains only progression and generic heavy templates.

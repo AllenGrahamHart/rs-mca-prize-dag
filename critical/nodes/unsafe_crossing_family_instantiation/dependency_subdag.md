@@ -28,6 +28,7 @@ e1_n256_s16_e34_parity_profile_reduction --ev-->
 e1_n256_s16_e34_heavy_chord_template_reduction --ev-->
 e1_n256_s16_e34_quarter_template_exclusion --ev-->
 e1_n256_s16_e34_nonquarter_diameter_weld_reduction --ev-->
+e1_n256_s16_e34_nonquarter_diameter_template_exclusion --ev-->
 e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
@@ -100,8 +101,8 @@ relaxation is exhausted. The heavy-heavy origins are split exactly into
 quarter, nonquarter diameter, progression, and generic templates; every
 singleton heavy-heavy class is welded to a heavy-light chord, and the quarter
 `D_64=20` branch is empty. A double exact census closes the complete remaining
-quarter normalization with `M_3<=1188`. The next positive object is the
-31-form, five-position weld chamber in the nonquarter-diameter case, and the
-41-signature heavy-light collision classification inside the progression and
-generic templates. The weld chamber remains evidence until its moment or norm
-is paid.
+quarter normalization with `M_3<=1188`. A 31-form weld reduction and a second
+double census close the complete nonquarter-diameter template with
+`M_3<=1560`. The next positive object is the signed repeated-length
+classification inside the progression template, followed by the generic
+three-weld template.
