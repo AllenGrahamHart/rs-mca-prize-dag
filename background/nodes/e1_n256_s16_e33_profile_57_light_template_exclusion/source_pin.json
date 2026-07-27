@@ -1,0 +1,20 @@
+{
+  "audit_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_audit.cpp",
+  "audit_file_sha256": "4504b8475e2effb6c0172401b6e2b26a542b443367560ecf8668afcd1edaac98",
+  "audit_launcher_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_audit_modal.py",
+  "audit_launcher_file_sha256": "c83ed730d62e0fcd1c078bdc65ac4978d745ef346963e00d80bdaae2bb6ee552",
+  "audit_result_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_audit_result.json",
+  "audit_result_file_sha256": "d75b03111f966fbf8f21b66637b9739492e639646f3614cd834da4630a6f6c07",
+  "census_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_census.cpp",
+  "census_file_sha256": "674d092cecacf6ab3cefb902112400479082d8ef671ac8016b0fbd567fa2e0a7",
+  "census_launcher_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_census_modal.py",
+  "census_launcher_file_sha256": "3027ae72ed4ae0eb12964f2d24e04aefa00d28952e3c1567b7c35ba99db0d7ce",
+  "census_result_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_census_result.json",
+  "census_result_file_sha256": "f1a4218e2383b4ae2e08aa22f39a7823bb0f658ef0bc6a7f91d8d5bf0d543e16",
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
+  "profile_reduction_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/statement.md",
+  "profile_reduction_file_sha256": "5828b3f3a1c340075993b37eb218ad13bf0cb445a2807619c37e0b6a2965959b",
+  "proper_conductor_file": "background/nodes/e1_n256_proper_conductor_collision_exclusion/statement.md",
+  "proper_conductor_file_sha256": "4319261b9d388351f2980fd4f849d7fae4876a6e5db167c74467ea957a055d73"
+}

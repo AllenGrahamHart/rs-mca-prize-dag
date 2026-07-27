@@ -1,0 +1,12 @@
+{
+  "profile_061_file": "background/nodes/e1_n256_s16_e33_profile_061_exclusion/statement.md",
+  "profile_061_file_sha256": "4becace9947f592ad99bc0be46274a03ab2980ecce810559e0d32ed9a526cd77",
+  "profile_18_file": "background/nodes/e1_n256_s16_e33_profile_18_light_template_exclusion/statement.md",
+  "profile_18_file_sha256": "119ffc9e5bbea068bbbf13b72b67e831d6633a7d0fd64f8ccc6026492eceac9a",
+  "profile_451_file": "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/statement.md",
+  "profile_451_file_sha256": "204a1a734fa14958bff166c2f08cb1d3728436a6354c820028bb633b92c24126",
+  "profile_57_file": "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/statement.md",
+  "profile_57_file_sha256": "a64efba5615949121b791861b8dc630a147cac3a9f081ecb6255c8d1a7acae00",
+  "profile_reduction_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/statement.md",
+  "profile_reduction_file_sha256": "5828b3f3a1c340075993b37eb218ad13bf0cb445a2807619c37e0b6a2965959b"
+}

@@ -799,6 +799,50 @@
    "notes": "ROUTE CLOSURE 2026-07-27: removes the third of four V=66 profiles by classifying the one-odd light geometry into eleven templates and exhausting the actual vectors. Only profile (5,7) remains."
   },
   {
+   "id": "e1_n256_s16_e33_profile_57_light_template_exclusion",
+   "title": "N=256 E=33 profile-(5,7) light-template exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_census.cpp",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_census_modal.py",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_census_result.json",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_audit.cpp",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_audit_modal.py",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_audit_result.json"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=66, autocorrelation magnitude profile (5,7) is impossible. The diameter-Sidon light condition has 7,200 normalized supports and exactly 100 affine-unit orbits. Two independent censuses cover 1,984,793,600 normalized signed vectors and agree on unrestricted M_3=1758 and full-conductor M_3=1416. The former has proper conductor; the latter is below the exact threshold 1732.",
+   "notes": "ROUTE CLOSURE 2026-07-27: removes the last V=66 profile by combining exact actual-geometry census with the proved proper-conductor router."
+  },
+  {
+   "id": "e1_n256_s16_e33_endpoint_exclusion",
+   "title": "N=256 square-mass-16 variance-66 endpoint exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e33_endpoint_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e33_endpoint_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e33_endpoint_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e33_endpoint_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e33_endpoint_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e33_endpoint_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e33_endpoint_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e33_endpoint_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e33_endpoint_exclusion/verify_audit.py"
+   ],
+   "statement": "No pair-feasible N=256 folded-profile (3,4,0) collision has autocorrelation variance V=66. The exact four-profile reduction and four proved profile exclusions exhaust every case. The residual positive even variance range sharpens to 0<V<=64.",
+   "notes": "ENDPOINT CLOSURE 2026-07-27: synthesizes the complete E33 chain and advances the live variance frontier by two. Lower positive even variances remain open."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -18802,6 +18846,46 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+   "to": "e1_n256_s16_e33_profile_57_light_template_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e33_profile_57_light_template_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e33_profile_57_light_template_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+   "to": "e1_n256_s16_e33_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_061_exclusion",
+   "to": "e1_n256_s16_e33_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_451_quotient_exclusion",
+   "to": "e1_n256_s16_e33_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_18_light_template_exclusion",
+   "to": "e1_n256_s16_e33_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_57_light_template_exclusion",
+   "to": "e1_n256_s16_e33_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -19113,6 +19197,26 @@
   },
   {
    "from": "e1_n256_s16_e33_profile_18_light_template_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_57_light_template_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_57_light_template_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e33_endpoint_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e33_endpoint_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
