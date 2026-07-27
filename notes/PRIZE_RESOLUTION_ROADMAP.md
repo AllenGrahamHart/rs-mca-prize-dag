@@ -4986,3 +4986,35 @@ route decision: derive the exact E27 slack/profile/parity reduction before any
                 V=54 census and compare its router size against the
                 419-cofactor (4,2,0) lane. Never rerun V>=56.
 ```
+
+**2026-07-27, E27 reduction and V=54 endpoint close:** parity collapses the
+next chamber to the eight-template three-odd atlas. Two complete census
+engines and two exact resultant systems close it at negligible cost.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=54 (E=27)
+reduction app: ap-uT47ZBzFbCYqTmdbn7zG1I
+slack result: L<=15; exactly 12 energy profiles
+exact cubic cutoff: M_3=443; certified sign change at 443/444
+parity survivors: (3,6), (2,4,1), (1,2,2), (3,2,0,1),
+                  (0,0,3), (2,0,1,1)
+three-odd branch: 960 normalized supports in eight affine orbits
+production app: ap-TQfwKsNXu1kB9LO9TAgZT6; folded oriented chords;
+                19.015265 aggregate worker-seconds
+audit app: ap-a7WhPP5KNGWSOf96KvBtw7; direct negacyclic products;
+           30.721920 aggregate worker-seconds
+coverage per engine: 8*binom(124,3)*64=158,783,488 vectors
+exact row agreement: 4,124 vectors in the six profiles;
+                     2,000 above M_3=443; 404 full conductor
+proper conductor: complementary 1,596 exceptions discharged by theorem
+norm app: ap-OfeHk15LrirQxEKgld7vBk; FLINT and PARI/GP agree on all 404
+distinct norms: 144
+exact maximum: 172876856486553232403068097247779856553359362267270754177943490636016856066
+strict margin: 10*N_max<2^250<11*N_max; bit length 247
+result: all six profiles CLOSED; V=54 endpoint CLOSED
+live positive even variance frontier: V<=52
+new assumptions: none
+route decision: derive the exact E26 slack/profile/parity reduction before any
+                V=52 census and compare its router size against the
+                419-cofactor (4,2,0) lane. Never rerun V>=54.
+```

@@ -77,7 +77,12 @@ antipodal-pair and 148 four-odd affine light templates. Two independent
 3,056,582,144-vector censuses leave 12,638 cubic exceptions. The conductor
 theorem removes 8,266; independent FLINT/PARI norms put all 4,372 primitive
 exceptions below `2^250`. Thus `V=56` is empty and the live frontier is
-`V<=54`.
+`V<=54`. At `V=54`, exact slack gives `L<=15`, the cubic cutoff is `M_3=443`,
+and parity leaves six profiles on eight three-odd affine light templates. Two
+independent 158,783,488-vector censuses leave 2,000 cubic exceptions. The
+conductor theorem removes 1,596; independent FLINT/PARI norms put all 404
+primitive exceptions below `2^250`. Thus `V=54` is empty and the live frontier
+is `V<=52`.
 At `N=512,s=2`, exact variance
 excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.

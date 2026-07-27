@@ -72,8 +72,10 @@ explicit finite inequality at the row.
    2,203,120,896-vector censuses, conductor, and exact FLINT/PARI norms close
    all eight. At `V=56`, parity leaves eight profiles on 154 affine templates;
    independent 3,056,582,144-vector censuses, conductor, and exact norms close
-   all eight. Begin `V=54` with an exact slack/profile/parity reduction; do not
-   rerun any `V>=56` chamber.
+   all eight. At `V=54`, parity leaves six profiles on eight affine templates;
+   independent 158,783,488-vector censuses, conductor, and exact norms close
+   all six. Begin `V=52` with an exact slack/profile/parity reduction; do not
+   rerun any `V>=54` chamber.
    The
    signed-chord gate
    further excludes circular-Sidon supports: every residual has an oppositely

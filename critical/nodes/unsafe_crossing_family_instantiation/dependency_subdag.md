@@ -209,3 +209,7 @@ The proved E28 reduction leaves eight profiles on 154 affine templates; the
 joint exclusion adds two independent 3,056,582,144-vector censuses, conductor,
 and exact norms for 4,372 primitive exceptions. The proved E28 endpoint closes
 `V=56` and advances the frontier to `V<=54`, still as evidence only.
+The proved E27 reduction leaves six profiles on eight affine templates; two
+independent 158,783,488-vector censuses, conductor, and exact norms close all
+six. The E27 endpoint closes `V=54` and advances the frontier to `V<=52`, still
+as evidence only.

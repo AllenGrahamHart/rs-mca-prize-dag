@@ -177,3 +177,10 @@ negacyclic engines agree after 3,056,582,144 vectors per engine, leaving
 12,638 cubic exceptions. Conductor removes 8,266; independent FLINT/PARI
 resultants put all 4,372 primitive exceptions below `2^250`. Therefore `V=56`
 is empty and the live positive even frontier is `V<=54`.
+
+At `V=54`, exact slack gives `L<=15`, the cubic cutoff is `M_3=443`, and
+parity leaves six profiles on eight affine light templates. Independent
+158,783,488-vector censuses leave 2,000 cubic exceptions; conductor removes
+1,596 and independent exact resultants put all 404 primitive exceptions below
+`2^250`. Therefore `V=54` is empty and the live positive even frontier is
+`V<=52`.
