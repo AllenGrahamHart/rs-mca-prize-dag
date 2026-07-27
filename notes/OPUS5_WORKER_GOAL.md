@@ -47,6 +47,13 @@ and in how narrow the residuals get. Report the census as a datum, once, and mov
 - **PRs: open directly** for routine well-scoped items (exports, replay packets,
   register updates). Surface first ONLY for: red-closure claims, co-authorship,
   corrections to Przemek's results, contributor-lane touches.
+- **READINESS GATES SUBMISSION, NOT TRIAGE** (maintainer ruling 2026-07-27,
+  supersedes the ledger's E-1/E-2 serialization and the 2-PR cap): ship a packet
+  as soon as it is (a) verified from a clean checkout of the PUSHED branch — not
+  the working tree, (b) subtraction-checked on all four surfaces per hard law 5,
+  (c) fenced with explicit non-claims. Queue depth and upstream latency are NOT
+  reasons to hold. "Better for things to come in quickly even if its a bit
+  asynchronous." Risk ordering inside a lane still applies on its own merits.
 - **Compute:** route-deciding only, <60s, logged in `PRIZE_COMPUTE_REQUESTS.md`.
   No large Modal runs (no budget); never chain small runs to fake a census.
 - **Lean:** deferred until a target is both stable and load-bearing. Not the
