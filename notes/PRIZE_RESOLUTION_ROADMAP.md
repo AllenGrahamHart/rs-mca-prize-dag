@@ -4567,3 +4567,39 @@ route decision: V=64 is materially narrower than profile (4,2,0)
 next route-deciding action: run a bounded quotient relaxation for (3,5,1);
                               stop immediately if its cap exceeds 1517
 ```
+
+**2026-07-27, V=64 profile `(0,8)` close and quotient route cut:** the first
+profile is empty, while the basic quotient compiler is decisively retired for
+`(3,5,1)`.
+
+```text
+starting pin: local fc905690
+proof pin: local 122de20c
+node attacked: unsafe_crossing_family_instantiation, V=64 profiles
+quotient probe: profile (3,5,1), exact maxima 1610 (order 128) and
+                1594 (order 64), both above threshold 1517
+quotient coverage: 1,828,183 and 1,165,828 complete allocations
+route witnesses: compact maximizing allocations replay both objectives locally;
+                 they are relaxation witnesses, not actual collisions
+profile closed: (0,8), first of three V=64 profiles
+light classification: 333,375 normalized supports checked; exactly 63 pass
+                      zero-odd parity, all two antipodal pairs
+affine-unit router: {0,64,t,64+t}, t in {1,2,4,8,16,32}
+exact coverage: 6*binom(124,3)*64=119,087,616 normalized signed vectors
+production app: ap-Q9Gv4Od8ny1Ixkcb8ej0Q9, folded-chord engine,
+                14.231192 aggregate worker-seconds
+audit app: ap-kKHuq4icz9mhgKv7qJJsD5, direct negacyclic-product engine,
+           22.741897 aggregate worker-seconds
+independent agreement: zero profile-(0,8) vectors in every template
+hostile controls: missing shard, missing t=32 orbit, and nonzero packet count
+compute spend: quotient probe plus 36.973089 census worker-seconds;
+               conservative cost below $0.10
+DAG delta: one PROVED node and three edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+new assumptions: none
+live V=64 residual: (4,7), (3,5,1)
+route decision: both survivors have four odd autocorrelation coefficients and
+                should share one zero/two-diameter light-support router
+next route-deciding action: classify that common light-support orbit space
+                              before authorizing either signed-vector census
+```
