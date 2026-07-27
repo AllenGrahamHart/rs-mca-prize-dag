@@ -770,6 +770,35 @@
    "notes": "ROUTE CLOSURE 2026-07-27: removes the second of four V=66 profiles with a complete quotient census at the exact cubic boundary. Two profiles remain."
   },
   {
+   "id": "e1_n256_s16_e33_profile_18_light_template_exclusion",
+   "title": "N=256 E=33 profile-(1,8) light-template exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e33_profile_18_light_template_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e33_profile_18_light_template_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e33_profile_18_light_template_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e33_profile_18_light_template_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e33_profile_18_light_template_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e33_profile_18_light_template_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e33_profile_18_light_template_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e33_profile_18_light_template_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e33_profile_18_light_template_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_quotient_census.cpp",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_quotient_probe_modal.py",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_coupled_census.cpp",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_coupled_probe_modal.py",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_light_template_census.cpp",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_light_template_audit.cpp",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_light_template_pilot_modal.py",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_light_template_census_modal.py",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_light_template_census_result.json",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_route_report_20260727.md"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=66, autocorrelation magnitude profile (1,8) is impossible. The one-odd light-chord condition has exactly eleven affine-unit templates. Two independent exhaustive censuses cover 218,327,296 normalized signed vectors, retain 17,144 profile vectors, and give exact maximum M_3=1356<1732. The cubic-Hermite norm certificate excludes the profile.",
+   "notes": "ROUTE CLOSURE 2026-07-27: removes the third of four V=66 profiles by classifying the one-odd light geometry into eleven templates and exhausting the actual vectors. Only profile (5,7) remains."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -18763,6 +18792,16 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+   "to": "e1_n256_s16_e33_profile_18_light_template_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e33_profile_18_light_template_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -19064,6 +19103,16 @@
   },
   {
    "from": "e1_n256_s16_e33_profile_451_quotient_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_18_light_template_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_18_light_template_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

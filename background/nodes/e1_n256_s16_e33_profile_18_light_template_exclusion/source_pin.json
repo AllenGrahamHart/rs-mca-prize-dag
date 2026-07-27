@@ -1,0 +1,14 @@
+{
+  "audit_census_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_light_template_audit.cpp",
+  "audit_census_file_sha256": "855dc2a15f30a64650285b8ebd61631b3476b65424d8c42548832be5f9f74ad5",
+  "census_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_light_template_census.cpp",
+  "census_file_sha256": "d38f971d9343dc3a3186ea86f32f7eed65700816d9be047ec7ab6032850e74dd",
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
+  "launcher_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_light_template_census_modal.py",
+  "launcher_file_sha256": "e2a3ad44936650f60803d763164344af405f586bbc6f0b9622267c2215ff5d13",
+  "profile_reduction_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/statement.md",
+  "profile_reduction_file_sha256": "5828b3f3a1c340075993b37eb218ad13bf0cb445a2807619c37e0b6a2965959b",
+  "result_file": "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile18_light_template_census_result.json",
+  "result_file_sha256": "19a9d8509f6acf55cb667a90b207a94cf46376262569840f75dd5ad6f55111ec"
+}
