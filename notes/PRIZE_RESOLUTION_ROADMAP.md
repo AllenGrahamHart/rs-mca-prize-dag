@@ -1,5 +1,10 @@
 # Prize Resolution Roadmap — r3, the date-free plan of record
 
+> **OPERATING PROTOCOL:** The joint end-to-end goal is governed by
+> `notes/JOINT_PRIZE_RESOLUTION_PROTOCOL.md`. This roadmap selects strategy;
+> the protocol controls proof status, cross-repository custody, PR procedure,
+> verification, computation, and the terminal completion audit.
+
 Supersedes r2 and the divergence-era copy (snapshotted at
 `notes/roadmap_r3_20260721/PRIZE_RESOLUTION_ROADMAP_pre_r3_snapshot.md`,
 custody #104). Derived from the 18-agent review of 2026-07-21
@@ -598,14 +603,16 @@ identifications without a machine-verified chain.
 ## 4. Board anatomy
 
 - **Counts** (refreshed from `dag.json`, the single source of truth; pinned by
-  `tools/verify_orbit_census.py`): critical surface 201 PROVED / 36 CONDITIONAL /
-  23 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
-  grand challenges {`mca_grand`, `list_grand`} = **260** nodes. *(Q0, 2026-07-26:
+  `tools/verify_orbit_census.py`): critical surface 180 PROVED / 38 CONDITIONAL /
+  24 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
+  grand challenges {`mca_grand`, `list_grand`} = **242** nodes. *(Q0, 2026-07-26:
   this line previously read "req-closure of `prize` = 260" — wrong root. The
-  closure of `prize` is the* **submission orbit** *= 275 = 213/38/24, i.e. the math
+  closure of `prize` is the* **submission orbit** *= 257 = 192/40/25, i.e. the math
   orbit plus a 15-node packaging spine.)* The separate submission dossier is a
   target artifact rather than a mathematical leaf — it is the submission orbit's
-  24th TARGET and does not appear in the 23.
+  25th TARGET and does not appear in the 24. The 2026-07-26 E1 and
+  unsafe-at-crossing false-green audits account for the delta from the earlier
+  `201/36/23` pin.
 - **Wired bottlenecks** (no alt, no upstream substitute):
   `l1_mixed_petal_amplification`, `rate_half_list_adjacent_crossing`,
   `rate_half_band_closure`, + the dossier. There is NO MCA-only resolution
@@ -613,7 +620,7 @@ identifications without a machine-verified chain.
 - **The true critical path:** `l1_mixed_petal_amplification` — in the
   irreducible core under every wiring including the RK world, wired into
   both grands, and the longest-stalled core leaf.
-- **Minimal win sets:** unconditional = all 23 mathematical leaves + dossier
+- **Minimal win sets:** unconditional = all 24 mathematical leaves + dossier
   (pure AND). `list_grand` alone = {l1, adjacent_crossing}, closing its five
   conditional ancestors. The former `17/20` RK-prune and direct-prune counts
   predated the N11 truth ruling and are retired pending a fresh route-surgery
@@ -623,9 +630,9 @@ identifications without a machine-verified chain.
   preserve `(D,kappa)` and hence the RS rate. The clean-rate MCA/list
   milestone therefore excludes both rate-half mathematical leaves. The global
   all-rate F1 dependency remains correct for the full prize. On the corrected
-  board the clean-rate milestone contains 21 of the 23 mathematical leaves;
+  board the clean-rate milestone contains 22 of the 24 mathematical leaves;
   the two excluded leaves are the rate-half band and list-adjacent targets.
-- **Concentration risk:** 12 of 23 leaves and 3 of 5 demotion triggers live
+- **Concentration risk:** 12 of 24 leaves and 3 of 5 demotion triggers live
   in the dli lane behind one req edge. STANDING D2 CAP: dli receives at most
   one-third of any phase's effort; any demotion event freezes further dli
   spend for one full phase while the B-WEAK-direct re-pose is drafted from
@@ -694,7 +701,7 @@ dimension cut. The printed moment floors apply unchanged only at `tau=1`;
 specialized Route-D no-go packets remain parked until they have an exact
 current local consumer. N5 DONE: the Conflict-4 audit proves that F1 pole/tower
 descent preserves the rate, so rate-half adjacency is not a hidden clean-rate
-premise; the current clean milestone is 21/23 mathematical leaves. N6 harness
+  premise; the current clean milestone is 22/24 mathematical leaves. N6 harness
 debt: xr_highcore top-level verification DONE (six row pins, both currencies,
 paid/open rank tables, 28 proved inputs, and 10 contract mutations); the KB
 #107 lightweight-certificate repair is DONE. The harness-coverage sweep is
@@ -748,6 +755,488 @@ clean full-suite result.
 The formerly artifact-free `xr_strip_classification_rungs` packet and exact
 QA.22 checker remain restored. Computation claims still require a pinned
 result plus an independent checker; procedure totality is not a row result.
+
+N12 DONE, E1 CERTIFICATE FALSE-GREEN CORRECTION: the two purported folded
+certificate leaves are restored to `TARGET`. The `N'=128` record consisted of
+rounded fpylll output with no exact transcript, completion flag, lower-bound
+certificate, or independent checker. The `N'=256` DAG entry had silently
+substituted an almost-all-primes density estimate for the complete named-field
+zero-vector certificate still consumed by its `req` edge. These are evidence
+and a quantifier mismatch, not proofs. Nine automatic consumers regress to
+`CONDITIONAL` through `mca_unsafe`, giving the then-current `190/45/25` math orbit.
+`tools/auto_discharge.py` is now genuinely regression-to-fixpoint and checks
+failed `gate:any` alternatives; reversed-node-order and alternative-gate tests
+are banked. No Modal job was launched. See
+`E1_CERTIFICATE_FALSE_GREEN_AUDIT_20260726.md`.
+
+N12-E1-256 FALSIFIER COMPLETE, NO HIT: Modal app
+`ap-uImvgijoKNeruVABf32Cc9` ran the one authorized four-seed campaign in
+`81.65--125.33 s` per worker. Bounded LLL/BKZ plus exact negacyclic-shift
+combinations reached basis and pair infinity norm five but no vector in the
+required box. The checker returns `INCOMPLETE`; no status, edge, endpoint, or
+delta-star bracket changes. The run is not to be scaled. The E1 priority is
+now the route-uniform density quantifier, not repeated named-field BKZ.
+
+N13 DONE, E1 QUANTIFIER ROUTE CORRECTION: closing the two named-field
+certificate leaves would still not prove a theorem over every row assigned to
+the direct E1 route. The invalid exhibit-to-family implication is removed.
+`e1_official_prime_exception_control` is the route-uniform `TARGET`; the
+official quantifier pin and 13 named-exhibit/certificate nodes are retained as
+background evidence with `ev` edges only. See
+`E1_NAMED_EXHIBIT_QUANTIFIER_AUDIT_20260726.md`.
+
+N14 DONE, UNSAFE-AT-CROSSING FALSE-GREEN CORRECTION: the proved local
+`qfloor_exact` and `averaged_slope_conversion` theorems did not supply their
+per-row hypotheses. "Collided" does not imply the exact post-paid occupancy
+inequality, and strict unsafety requires `nu(A)>B*` with `B=B*+1`.
+`unsafe_at_crossing` regresses to `CONDITIONAL` on the new universal leaf
+`unsafe_crossing_family_instantiation`; `zone_b` and E1 become evidence routes
+to that leaf rather than unconditional global premises. Current math orbit:
+`242 = 180/38/24`; submission orbit: `257 = 192/40/25`. See
+`UNSAFE_AT_CROSSING_FALSE_GREEN_AUDIT_20260726.md`.
+
+N15 DONE, UPSTREAM IDENTITY-PREFIX UNSAFE SUPPLIER HARVEST: upstream's
+`lem:capff1-identity-prefix-floor` and `cor:capg-budget-conversion` combine to
+give an exact `V` payload whenever
+`C(n,m)>|B|^(m-k-1)B*` and `C(B*+1,2)k<q-n`. The general proof is
+independently reconstructed and source-pinned in
+`identity_prefix_flexible_budget_unsafe_floor`; its checker verifies the
+strict floor conversion and the two deployed MCA instances. KoalaBear at
+agreement `1116047` and Mersenne-31 at `1116023` therefore have exact
+adjacent-unsafe payloads. This closes a finite deployed slice only:
+`unsafe_crossing_family_instantiation` remains `TARGET` over all admissible
+rows, and neither next-row safety assertion is imported.
+
+N16 DONE, IDENTITY-PREFIX CLEAN-ANCHOR ROUTE CLASSIFICATION: writing
+`M=floor(q/2^t)`, the flexible-budget pair-root premise is impossible over
+the whole budget interval whenever `Mk>=2^(t+1)`, and holds over the whole
+interval whenever `C(M+1,2)k<M2^t-n`. Exact application rules out the
+identity-prefix supplier on five of the six clean anchors: RowC rates `1/4`
+and `1/8`, and all three prize-max clean rates. The sole survivor is RowC
+rate `1/16`; there `w=1`, and the prefix condition is equivalent to a proved
+domain field of order at most
+`194309137781254382992506402317422272798923813601398339285841609906262`.
+The current RowC characteristic is explicitly unpinned, so this branch is not
+instantiated. Result: the harvested supplier is exhausted as a high-field
+clean-anchor strategy; those rows need `Q`, another direct `V`, or `M`.
+
+N17 DONE, QFLOOR CLEAN-ANCHOR NORM-THRESHOLD ROUTE CUT: the six clean
+predecessors have canonical quotient parameters
+`(N',ell')=(256,65),(256,33),(512,33)`. The strict qfloor norm thresholds
+`(2ell')^(N'/2)` have `899,774,1548` bits, respectively, while every official
+characteristic satisfies `p<=q<2^256`. Thus `qfloor_exact` is inapplicable on
+all six rows. Their exact raw binomial counts still exceed budget by factors
+of at least `1245`; this is strong quotient-multiplicity evidence, not a
+distinct ambient-slope certificate. The positive quotient route now lands
+precisely on direct-E1/value-set injectivity or a replacement collision
+theorem. No safety or endpoint movement follows from the route cut.
+
+N18 DONE, E1 CLEAN-ANCHOR FINITE-ALLOWANCE COMPILER: upstream
+`thm:exactcount` gives the characteristic-zero class count
+`K=A_2(N,ell)` without a further global-sign quotient. For reduced-value fiber
+sizes `r_y`, the exact unordered collision-pair count
+`P=sum_y C(r_y,2)` satisfies `K-|image|<=P`; hence the sufficient finite
+certificate is `P<=K-B*-1`. Exact `K`, `B*`, and allowances are printed and
+independently replayed for all six anchors. This also corrects the old cell
+notation: clean quotient orders are `N=256,512`, while `128,256` are folded
+dimensions. Finally, if `B=F_p(Q)` is the quotient-generated field, then the
+E1 image lies in `B`; `|B|<=B*` is therefore a proved E1 route cut. A second
+exact cut comes from balanced fibers: for `K=sb+r`, every reduction has
+`P>=b C(s,2)+rs`, so the pair-loss compiler is impossible below
+`b_pair_min=ceil((K+B*+1)/3)`. Its six thresholds have `188,134,170` bits by
+rate. The open pointwise pair target now has this noncircular high-field
+domain. No row is paid and no endpoint moves: the next theorem must prove or
+falsify the exact `P` allowance there, while the universal router separately
+pays the impossible-E1 and direct-image-only field ranges. See
+`notes/E1_CLEAN_ANCHOR_FINITE_ALLOWANCE_AUDIT_20260726.md`.
+
+N19 DONE, TANGENT-FLOOR LOW-FIELD ROUTER: upstream `prop:floor` is
+independently reconstructed as a direct `V` supplier. At predecessor
+agreement `a`, it gives `e=n-a` distinct bad slopes and pays target `2^-128`
+exactly when `q<=e*2^128-1`. The six clean formulas therefore have exact
+maximum field orders of 138 bits on RowC and 169 bits on prize-max. This pays
+a genuine low-field branch, but none of the six named high-budget envelopes:
+their numerator budgets are respectively `2^122` and
+`317494674775468773183020924238786383963`, both above the corresponding
+`e`. The residual envelope problem is now explicitly high-field and still
+belongs to direct E1/value-set, another line, or post-paid occupancy. Route
+failure is not safety. See
+`notes/TANGENT_FLOOR_ROUTE_AUDIT_20260727.md`.
+
+N20 DONE, CLEAN-ENVELOPE AVERAGED-OCCUPANCY ROUTE CUT: for any support
+family with witness sizes at least the unsafe predecessor agreement, FM1 is
+maximized by the complete family. Its size-by-size upper bounds form a
+geometric tail with ratio below `n/q<1/2`. Exact RowC binomial comparisons and
+exact prize rational-entropy certificates prove the entire tail is below
+`B*` at all six named high-budget envelopes. Hence
+`nu(A)<=E[N(A)]<B*` before any same-slope correction, and no post-paid
+subfamily can trigger the proved `M` supplier there. This is not safety and
+does not bound explicit lines. The envelope unsafe frontier is now forced onto
+direct `Q`/`V`, with E1 the only current route on the pair-feasible generated-
+field branch. See
+`notes/AVERAGED_OCCUPANCY_FIRST_MOMENT_ROUTE_CUT_AUDIT_20260727.md`.
+
+N21 DONE, E1 PAIR-FEASIBLE AMBIENT GENERATION: if
+`B=F_p(Q)` is a proper subfield of an official ambient field, then
+`|B|^2<=q<2^256`, so `|B|<2^128`. Every one of the six exact
+`b_pair_min` thresholds is larger than `2^128` (the smallest has 134 bits).
+Therefore the pair-feasible E1 branch automatically satisfies `F_p(Q)=F`.
+This removes the generated-field transfer axis from
+`e1_official_prime_exception_control`; proper-subfield rows remain in the
+direct-image-only or E1-impossible branches of the universal router. No
+collision bound or row payment follows. See
+`notes/E1_PAIR_FEASIBLE_AMBIENT_GENERATION_AUDIT_20260727.md`.
+
+N22 DONE, E1 PAIR-FEASIBLE PRIME-FIELD REDUCTION: ambient generation still
+allowed an extension field `F_(p^d)`, while the sparse-kernel interface assumes
+`p=1 mod N`. On the generated branch `d=ord_N(p)`. Exact perfect-power checks
+over the two budget intervals exclude every `d>1`; the four possible RowC
+square roots fail parity or order. Thus every named-anchor pair-feasible row
+has `q=p` and `p=1 mod N`. The remaining target is the exact pointwise
+collision allowance over primes in those intervals, not an extension-field
+transfer problem. No row is paid. See
+`notes/E1_PAIR_FEASIBLE_PRIME_FIELD_REDUCTION_AUDIT_20260727.md`.
+
+N23 ACTIVE, CRITICAL PROOF-ARTIFACT RECOVERY: canonical audit proved that the
+historical `proof_sketch/` tree is unavailable and that the refs checker had
+silently skipped hollow node folders. Local replay finds 197 hollow legacy-ref
+nodes, including 44 on the critical surface and 42 of those marked PROVED;
+36 critical PROVED nodes also have empty DAG statements. The DAG verifier now
+pins these counts against growth. Submission readiness requires the critical
+counts to reach zero through route-driven proof reconstruction or proved
+replacement, not by accepting unreplayable labels or mass status churn. See
+`notes/CRITICAL_PROOF_ARTIFACT_RECOVERY_AUDIT_20260727.md`.
+
+N24 DONE, E1 FOLDED-L2 COLLISION RADIUS: odd-conjugate Parseval gives
+`|Norm(alpha)|<=S^(h/2)` for the folded coefficient square mass `S`, replacing
+the crude `(2s)^phi(N)` bound. Exact antipodal profile accounting, including
+division by two in the all-even extremal case, excludes every swap distance
+`s<=4` at `N=256` and `s=1` at `N=512` throughout both field intervals. The
+live pointwise ledger now starts at `s=5` for rates `1/4,1/8` and `s=2` for
+rate `1/16`. The first open bands have only two folded profiles each:
+`(4,2,0),(3,4,0)` and `(1,2,0),(0,4,0)`, respectively. This is a genuine
+algebraic band close, not a total collision bound or row payment. See
+`background/nodes/e1_prime_field_l2_norm_collision_radius/`.
+
+N25 DONE, E1 N=512 FOUR-SINGLETON EXCLUSION: for profile `(0,4,0)` at
+`s=2`, the exact negacyclic autocorrelation variance `V` is even. The cases
+`V=0`, `V=2`, and `V>=4` are paid separately by a pure power-of-two norm, an
+exact primitive-power-of-two cyclotomic product, and a uniform logarithmic
+deficit. In every case no odd pair-feasible prime can divide the norm. The
+first `N=512,s=2` band now has one unresolved profile, `(1,2,0)`. This is one
+profile close, not a total pair ledger or row payment. See
+`background/nodes/e1_n512_four_singleton_collision_exclusion/`.
+
+N26 DONE, E1 N=512 COMPLETE s=2 BAND: the remaining profile `(1,2,0)`
+normalizes to 129540 signed trinomials and 748 odd-Galois orbits. Dual exact
+SymPy/FLINT resultants give 746 norms. Across both full prime intervals, the
+1492 complementary-cofactor windows contain only four integers, only one
+divides, and its quotient is composite and `0 mod 512`. Thus no pair-feasible
+prime divides any norm. Together with N25, every `N=512,s=2` collision is
+excluded and the live ledger begins at `s=3`. The route-wide pair allowance
+remains open. See
+`background/nodes/e1_n512_trinomial_interval_norm_exclusion/`.
+
+N27 DONE, E1 N=256 SQUARE-MASS-16 VARIANCE CUT: in profile `(3,4,0)` at
+`s=5`, the conjugate-square mean is 16 and maximum is 100. An exact global
+logarithmic majorant with denominator 2070 excludes every autocorrelation
+variance `V>=136`; `V=0` has pure norm `2^256` and is also excluded. The
+profile is reduced to positive even `V<=134`. This is an analytic reduction,
+not a classification of that low-variance residual or a row payment. See
+`background/nodes/e1_n256_s16_high_variance_collision_exclusion/`.
+
+N28 DONE, E1 N=256 PROPER-CONDUCTOR EXCLUSION: if the actual folded support
+differences in either first-band profile have gcd `d>1` with `256`, a
+monomial normalization places the vector in a cyclotomic subfield of degree at
+most 64. Its nonzero small-field norm is at most `18^32<2^250`, and the
+full norm is a power of that integer, so no live row prime divides it. Every
+surviving `N=256,s=5` collision therefore has full conductor. The stronger
+shortcut "low variance implies proper conductor" is false: a bounded
+17,920-state falsification run found, and the local verifier exactly replays,
+a full-conductor profile-`(3,4,0)` vector with `V=36`. The next attack must
+classify the full-conductor low-variance residual rather than periodic lifts.
+See
+`background/nodes/e1_n256_proper_conductor_collision_exclusion/`.
+
+N29 DONE, E1 N=256 2-ADIC COFACTOR GATE: total ramification identifies the
+root multiplicity `mu` of the folded polynomial modulo two at `X=1`
+with the 2-adic valuation of its cyclotomic norm. The exact L2 norm bounds and
+`p>2^250` force `mu<=5` in profile `(3,4,0)` and
+`mu<=16` in profile `(4,2,0)`. Thus the four-singleton
+reduction in the first profile is not divisible by `(X+1)^6`, and the
+two singleton exponents in the second are not congruent modulo 32. This is an
+exact route-uniform screen, not a close of either profile. Apply it before
+residual norm work. See
+`background/nodes/e1_n256_2adic_cofactor_collision_exclusion/`.
+
+N30 DONE, E1 N=256 SIGNED-CHORD GATE: in profile `(3,4,0)`, the
+21 support chords have baseline squared weight 102. Diameter chords form a
+matching of weight at most 21. Expanding the exact negacyclic energy gives
+
+```text
+V/2=102-D_64+2C.
+```
+
+The currently sharpened residual `V<=76` therefore forces signed
+repeated-distance cross sum `C<=-22`. Every live support has an
+oppositely signed pair of equal
+non-diameter chords and hence a three-term-progression or four-point
+parallelogram relation. This removes all circular-Sidon supports and turns the
+next task into an additive-template classification; it does not yet exclude
+those templates. See
+`background/nodes/e1_n256_s16_signed_chord_collision_gate/`.
+
+N31 DONE, E1 N=256 LOCAL-NORM COFACTOR COLLAPSE: explicit local reciprocity
+for `Q_2(zeta_256)` gives `R/2^mu=1 mod 256` for every
+nonzero integral norm. Since the live prime also satisfies
+`p=1 mod 256`, a collision cofactor obeys
+`m/2^mu=1 mod 256`. In profile `(3,4,0)`, `m<64`
+therefore collapses to the five values `m=2^mu`,
+`1<=mu<=5`; the odd norm part must itself be the row prime. In
+profile `(4,2,0)`, the cofactor window contracts to 419 explicit
+values. A 513-resultant FLINT falsification run found no congruence failure,
+but the proof is the local reciprocity norm-group theorem. See
+`background/nodes/e1_n256_local_norm_cofactor_collapse/`.
+
+N32 DONE, E1 N=256 SPARSE-L1 VARIANCE REFINEMENT: the positive-half
+autocorrelation has at most 21 nonzero integer coefficients. If its energy is
+`E=V/2` and L1 norm is `L`, then
+`E>=3L-42`, yielding a variance-dependent conjugate-square ceiling.
+Five exact logarithmic majorants exclude every even `V` from 112
+through 134. The profile-`(3,4,0)` residual is now positive even
+`V<=110`; N33 below sharpens this further. This is a twelve-value
+analytic exclusion, not a close of the remaining 55 variance values. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N33 DONE, E1 N=256 CHORD-DEFICIT VARIANCE REFINEMENT: the raw chord
+magnitudes in profile `(3,4,0)` are three `4`s, twelve `2`s,
+and six `1`s, with total magnitude 42 and square mass 102. For every
+non-diameter distance class, the square-energy cancellation deficit `Q_d`
+and L1 cancellation loss `H_d` satisfy `Q_d<=4H_d`; diameter chords
+obey the same factor-four charge. Consequently
+
+```text
+4L<=E+66.
+```
+
+Two additional exact logarithmic majorants exclude `V=106,108,110`.
+Together with N32, all fifteen even variances from 106 through 134 are
+excluded, leaving positive even `V<=104`. The signed-chord cross sum
+therefore satisfies `C<=-15`; N34 below sharpens both bounds. This
+remains a structural reduction, not a close of the 52 live variance values or
+profile `(4,2,0)`.
+See `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/` and
+`background/nodes/e1_n256_s16_signed_chord_collision_gate/`.
+
+N34 DONE, E1 N=256 LOW-SLACK ENDPOINT REFINEMENT: for a non-diameter
+distance class, the exact slack in the factor-four chord charge is
+
+```text
+delta=(S-2)^2+4r+3t-4,
+```
+
+where `r,t` count magnitude-two and unit chords and `S` is the
+absolute class sum. The `delta=0,2` classifications show that
+`E=52` forces `L<=28` and `E=51` forces `L<=27`.
+Two exact logarithmic majorants with `(B,C)=(72,1600)` and
+`(70,1568)` exclude `V=104` and `V=102`. The current residual is
+positive even `V<=100`, and the signed-chord gate strengthens to
+`C<=-16`. No exploratory partition computation is load-bearing. This is
+still a route reduction rather than a close of the residual or profile
+`(4,2,0)`. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N35 DONE, E1 N=256 OPTIMIZED QUADRATIC MAJORANT: the low-slack ledger also
+gives `L<=28` at `E=50`, although that ceiling is geometrically sharp.
+For `0<x<=72`, the exact majorant
+
+```text
+log x <= log 16+1/150+(23/336)(x-16)-(x-16)^2/1344
+```
+
+has derivative roots 14 and 48. Degree-four, degree-six, and degree-three
+rational Taylor certificates verify its two minima and the final six-bit
+decay. It excludes `V=100`, leaving positive even `V<=98`.
+A 16-worker Modal route test (`ap-XfP3XD3lCoE4sCUmTfC3PA`) found a
+full-conductor `E=50,L=28` witness in every worker, falsifying the
+stronger geometry-only shortcut. A one-container exact norm replay
+(`ap-Aq7Pqe17R47TNQMFyu1oT2`) found a representative norm of 233 bits;
+both experiments are non-load-bearing. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N36 DONE, E1 N=256 SLACK-SIX AND SECOND OPTIMIZED MAJORANT: extending the
+exact local slack classification through `delta=6` gives
+
+```text
+E=49 => L<=27,
+E=48 => L<=26.
+```
+
+The derivative-root `(14,48)` majorant from N35 excludes `V=98`.
+A second exact majorant with roots `(14,46)`, linear coefficient
+`11/161`, and quadratic coefficient `1/1288` excludes `V=96`.
+The residual is positive even `V<=94`, and the signed-chord gate
+strengthens to `C<=-17`. Both arguments use short rational Taylor
+certificates and no new computation. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N37 DONE, E1 N=256 SLACK-NINE AND TIGHT-INTERCEPT MAJORANTS: exact charge
+decompositions give
+
+```text
+E=47 => L<=25,
+E=46 => L<=26,
+E=45 => L<=25.
+```
+
+Derivative-root majorants with pairs `(14,45)` and `(14,46)`, using
+allowances `1/150` or `1/160` as appropriate, exclude
+`V=94,92,90`. The residual is positive even `V<=88`, and the
+signed-chord gate strengthens to `C<=-19`. All minimum and six-bit
+checks are exact rational Taylor inequalities. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N38 DONE, E1 N=256 RELAXED SLACK TABLE AND QUADRATIC ENDPOINT: a stated
+finite recurrence computes the minimum possible energy in an enlarged chord
+relaxation for each global slack through 13. It gives
+
+```text
+E=44 => L<=24,
+E=43 => L<=23.
+```
+
+Root pairs `(14,44)` and `(14,43)`, both with allowance
+`1/160`, exclude `V=88,86`. The residual is positive even
+`V<=84`, and the signed-chord gate strengthens to `C<=-20`.
+At `E=42`, however, the relaxed optimum returns to `L=24`; the
+specific derivative-root templates used above no longer supply six bits.
+This is a route-decision point, not a proof that every quadratic or
+higher-moment majorant fails.
+See `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N39 DONE, E1 N=256 LAYERED THIRD MOMENT AND CUBIC ENDPOINT: the formal
+`E=42,L=24` ceiling is geometrically attainable, so an `L<=23` repair is
+false. For the full `E=42,L<=24` locus, expand the absolute negacyclic
+autocorrelation into nested integer level sets. Each ordered layer triple
+loses every pair summing to zero, and exact substitution over all 42 possible
+integer magnitude profiles gives
+
+```text
+M_3<=3660.
+```
+
+The worst layer ledger is the profile with nine magnitudes two and six
+magnitudes one. The cubic Hermite interpolant to `log` at 14 and 60 is a
+global majorant because the fourth derivative of `log` is negative. Its
+positive leading coefficient and the moment cap put the average logarithm
+strictly below `(125/32)log 2`, excluding `V=84`. The residual is now
+positive even `V<=82`; `C<=-20` is unchanged. The exact proof uses no
+Modal result. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N40 DONE, E1 N=256 SECOND CUBIC ENDPOINT: the same exact mechanism continues
+one row lower. The relaxed slack table excludes `L=26,25,24` at `E=41`,
+so `L<=23`. Among the 39 compatible integer magnitude profiles, the nested
+layer count gives
+
+```text
+M_3<=3438,
+```
+
+with worst layer ledger `(n_1,...,n_6)=(5,9,0,0,0,0)`. Reusing the cubic
+Hermite majorant at 14 and 60 puts the average logarithm strictly below
+`(125/32)log 2`, excluding `V=82`. The residual is positive even `V<=80`,
+and the signed-chord gate strengthens to `C<=-21`. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N41 DONE, E1 N=256 THIRD AND FOURTH CUBIC ENDPOINTS: extending the exact
+relaxed slack recurrence through global slack 21 gives `L<=22` at `E=40`
+and `L<=21` at `E=39`. The 34 and 29 compatible magnitude profiles have
+nested-layer caps
+
+```text
+M_3<=3224,       M_3<=3018,
+```
+
+with worst ledgers `(4,9,0,0,0,0)` and `(3,9,0,0,0,0)`. Cubic Hermite
+majorants at `(14,58)` and `(14,57)` have exactly certified positive
+six-bit margins, excluding `V=80` and `V=78`. The residual is positive even
+`V<=76`, and the signed-chord gate strengthens to `C<=-22`. The best tested
+two-contact cubic at `V=76` misses by about `0.002625`, so the next attack
+must add information rather than continue this cubic family mechanically.
+See `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N42 ROUTE DECISION, E1 N=256 VARIANCE 76: continuous optimization confirms
+that the two-contact cubic route misses by `0.0025927093`; the elementary
+quartic moment dual collapses to the same cubic. The exact replacement target
+is now a weighted Schur bound `T(A,B)<=2806` for nested symmetric layers of
+sizes 28 and 16. The strongest structured example found is 2718, while actual
+seven-term `E=38,L=22` witnesses stayed at or below 816 in 9,348 sampled
+visits. Equality in the slack recurrence reduces the chord origins to 24
+signatures, no unit diameter, and at most four positive-slack classes. The
+next proof should use that finite signature list or a cyclic compression
+inequality; generic SAT and further cubic scans are explicitly fenced off.
+See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e38_route_report_20260727.md`.
+
+N43 DONE, E1 N=256 AUTOCORRELATION-SUBFIELD CUT: at `V=76`, the exact
+slack recurrence gives `L<=22` and hence conjugate squares at most 60. If all
+nonzero autocorrelation distances are divisible by four, then
+`beta=F(zeta)conjugate(F(zeta))` belongs to `Q(zeta_64)`. Its small-field
+norm `N` satisfies `0<|N|<=60^32<2^250`, while the full norm `R` obeys
+`R^2=N^4`; no pair-feasible row prime can divide `R`. This removes the
+structured weighted-Schur example of value 2718 and forces the live
+`V=76` route to contain a nonzero distance outside `4 Z/128 Z`. See
+`background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/`.
+
+N44 DONE, E1 N=256 VARIANCE-76 QUOTIENT-SCHUR CLOSURE: the exact mod-16
+fiber bound was exhaustively optimized over 43,153,083 admissible nested-layer
+allocations. For the exceptional profiles `(6,8)` and `(2,9)`, the caps in
+`Z/128 Z` are 2782 and 2580; after division by two, the caps in `Z/64 Z` are
+2760 and 2422. For `(9,5,1)`, the outer 30-point Schur term is at most 840,
+the two-point top-layer triple is zero, and the full cap is 2796. Every other
+profile is at most 2668. Odd outer support uses the first census, support in
+`2Z` but not `4Z` uses the divided census, and the proved subfield cut removes
+the `4Z` chamber. Hence every live `V=76` row has `M_3<=2796<2806`; the exact
+cubic certificate excludes it and improves the profile-`(3,4,0)` residual to
+positive even `V<=74`. See
+`background/nodes/e1_n256_s16_e38_quotient_schur_exclusion/`.
+
+N45 DONE, E1 N=256 VARIANCE-74 QUOTIENT-SCHUR CLOSURE: at `E=37`, the exact
+slack recurrence gives `L<=21`, and only three of 29 magnitude profiles exceed
+the cubic threshold 2592. A complete 19,732,753-allocation quotient census
+closes `(1,9)` and the outer term of `(8,5,1)` directly. For `(5,8)`, the
+`B not subset 4Z` chamber is at most 2576. In the remaining chamber, all 6,435
+symmetric 16-point inner layers in `Z/32 Z` satisfy `R(B,B,B)<=174`; maximizing
+that replacement allocation by allocation gives 2560. The full live-row cap
+is therefore `M_3<=2576<2592`, so the exact cubic excludes `V=74` and improves
+the profile-`(3,4,0)` residual to positive even `V<=72`. See
+`background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/`.
+
+N46 DONE, E1 N=256 VARIANCE-72 QUOTIENT-SCHUR CLOSURE: at `E=36`, the exact
+slack recurrence gives `L<=20`, and only three of 26 magnitude profiles exceed
+the cubic threshold 2377. A complete 8,144,380-allocation quotient census
+closes `(0,9)` and the outer term of `(7,5,1)` directly. For `(4,8)`, the
+odd-outer, inner-outside-`2Z` chamber is at most 2208. In the remaining
+chamber, a separate complete census of all `binom(31,8)=7,888,725` symmetric
+16-point subsets of `Z/64 Z` proves `R(B,B,B)<=174`; maximizing that
+replacement allocation by allocation gives 2344, while the divided chamber
+is 2332. The full live-row cap is therefore `M_3<=2344<2377`, so the exact
+cubic excludes `V=72` and improves the profile-`(3,4,0)` residual to positive
+even `V<=70`. See
+`background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/`.
+
+N47 DONE, E1 N=256 VARIANCE-70 QUOTIENT-SCHUR CLOSURE: at `E=35`, the exact
+slack recurrence gives `L<=19`, and only two of 21 magnitude profiles exceed
+the cubic threshold 2162. A complete 2,946,287-allocation quotient census
+closes `(3,8)` at 2152. For `(6,5,1)`, the outer-only odd cap 460 misses the
+sufficient target 458 by two, but only four of 104,750 outer allocations reach
+that chamber. Exhausting all 276 compatible middle/top nestings bounds their
+full three-layer objective by 2054; all low outer cases are at most
+`458+1704=2162`, and divided cases are at most 2158. Thus the exact cubic
+excludes `V=70` and improves the profile-`(3,4,0)` residual to positive even
+`V<=68`. See
+`background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
@@ -1862,6 +2351,16 @@ with margin `18295`. It does not prove deployed owner exhaustivity, an
 all-residual theorem, a row payment, or any KoalaBear MCA cell. None of these
 open PR imports closes a local red.
 
+**Track-C upstream event, M31 depth-32 counterexample (#1102).** The explicit
+packet is independently reconstructed in
+`l1_m31_depth32_uniform_intercept_counterexample`: `1225` whole-`T_64`
+triple exchanges and twelve mixed `T_16` exchanges give one anchor with
+`d_192>=1237`, refuting the proposed uniform in-band cap `1233`. This does
+not kill the coefficient-four route: substituting intercept `1237` leaves
+reserve `1767799`. It does rule out treating the former cap as a proved
+flatness input. No replacement upper bound, received-word realization,
+first-match survival, row payment, or `2^-128` Prize statement is imported.
+
 **Track-C upstream event, Lane-L draft PR #1051.** The proved local
 `rate_half_cyclic_rotated_prefix_floor` now has a direct consumer in
 Przemek's post-Johnson ordinary-list lane. The exported packet prints the
@@ -2104,3 +2603,1319 @@ Partial-credit conditional dossier at submission quality: ~85% — the
 statistically likely outcome, and the reason dossier work is front-loaded.
 Relocated-delta* determination: ~5-10%. If D1/U3 adjudicate a unifying
 lemma live, the top lines move and the priors are re-issued.
+
+## 12. Joint harvest execution log
+
+**2026-07-26, H1 complete:** the affine-span, generalized-weight,
+fixed-union ray, single-circuit, and fixed-syndrome Johnson compilers from
+upstream `b13de811` now have independent local proofs and bounded replays in
+`upstream_gfv4_affine_span_list_compiler` and
+`upstream_gfv4_fixed_union_johnson`. Their exact scopes are crosswalked.
+
+The rate-half equality case is stronger than the initial planning note:
+`rate_half_list_budget_three_affine_rank_rigidity` proves that every
+four-codeword witness at `(n,K,m)=(4d,2d,3d-1)`, `d>=3`, has affine codeword
+rank three. Rank two would force `2d+2` active agreement coordinates but
+only six roots among pairwise affine-linear quotient differences.
+
+This changes no chamber status and no adjacent endpoint. The thirteen
+chambers classify block-locator Plucker geometry; the imported theorem
+classifies affine flats of actual codewords. The next route-deciding theorem
+is therefore a bridge from a chamber's locator identities to a constant
+affine dependence among its four codewords. Without that bridge, calling a
+locator Grassmann line a codeword pencil is a scope error. Fixed-union
+compilers remain one-chart evidence only and must not be summed over support
+unions without a disjoint atlas.
+
+**2026-07-26, first joint outbound packet:** the proved
+`xr_generic_mds_kernel_ray_bound` was translated into upstream K3 terminology
+and opened as draft PR
+[`#1106`](https://github.com/przchojecki/rs-mca/pull/1106). On the exact
+KoalaBear MCA row it pays every column-far fixed-union chart through nullity
+nine; nullity ten exceeds the full row budget. This is a real route cut but
+does not count retained unions, pay the sparse branch, or move an endpoint.
+The next XR theorem must therefore address first-match chart aggregation (or
+prove a structural collapse that avoids it), rather than improving the same
+per-chart constant again.
+
+**2026-07-26, L1 endpoint color-degree cut:**
+`l1_mersenne_hnf_order_zero_linear_color_exclusion` proves that the colored
+Frobenius interpolant in the `m=8,h=7` and `m=16,h=15` order-zero HNF rows
+cannot be linear. Injectivity would identify the hypergeometric locator with
+an affine image of `mu_m` minus one color; the first three coefficients have
+resultant
+
+```text
+-2(h+1)x(x-1)(hx+1),
+```
+
+and every branch forces either an impossible coefficient equation or
+`s in {1,-m} subset F_p`; a separate coefficient comparison in the same
+theorem excludes a constant interpolant. The next exact order-zero attack
+starts at `deg E=2`. This is `NARROWED`, not a status flip: the higher color
+degrees, the order-one chamber, actual
+cyclotomic divisibility, and the inner lift remain open. No Modal job or new
+compute request was used.
+
+**2026-07-26, L1 quadratic color-collision router:** the next order-zero
+degree is now structurally split without a generic saturation. If a quadratic
+color interpolant repeats two colors, Frobenius forces either a zero collision
+center or an affine transport of the truncated-binomial locator. Its weighted
+derivative identity permits only identity and reflection; identity violates
+`s notin F_p`, while reflection forces
+`P_s | [W(1-W)]^m-1`, whose exact top remainder coefficient again puts `s`
+in `F_p`. Thus every multiple-repeat quadratic is even. On the four
+`m=8,h=7` rows, an exact even/odd pseudo-remainder also forbids two antipodal
+pairs, so a quadratic candidate has at most one repeated color. The
+`m=16,h=15` even multi-collision branch and the collision-free/single-repeat
+systems stay open. Result: `NARROWED`, no critical status or endpoint change,
+no Modal use, and no new compute request.
+
+**2026-07-26, L1 collision-free quadratic exclusion:**
+`l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion` removes the
+remaining injective quadratic branch on all five endpoint rows. The reflected
+locator product descends through `U=W(W-S)`; Newton identities give root
+power sums `p_j=-s`, so its first three coefficients are exactly
+`binom(s+r-1,r)(1-S)^r`. A collision-free color map would therefore be the
+same punctured-cyclotomic linear template already excluded by the resultant
+`-2(h+1)x(x-1)(hx+1)`. The quadratic frontier is now exactly one repeated
+color on `m=8`, and exactly one repeat or an even multi-repeat on `m=16`.
+Result: `NARROWED`, with no complete degree, row, critical status, endpoint,
+Modal job, or compute request claimed.
+
+**2026-07-26, L1 m=8 quadratic close:**
+`l1_mersenne_hnf_m8_order_zero_quadratic_exclusion` removes the final
+degree-two color system on all four official `m=8,h=7` endpoint rows. The
+previous pair of quadratic theorems forces exactly one repeated color. After
+normalizing it to one, there are 21 pairs of omitted eighth-root colors.
+Their first three centered moments impose one quadratic `q_(i,j)(s)`, while
+the product of the seven locator roots and `P_s|W^n-1` force
+`binom(s+6,7)^n=1`. Exact gcds in `F_p(mu_8)[s]` are one for all 84
+row-pattern pairs; an independent `F_p[u]/(u^2+2)` implementation verifies
+84 nonzero Sylvester resultants and pins four row digests. The live `m=8`
+order-zero color degree now begins at three. Result: one whole endpoint
+degree closed but L1 remains `TARGET`; `m=16` quadratic systems, degree
+`3+`, order one, outer divisibility, and the inner lift remain. No Modal job
+or compute request was used.
+
+Cycle burn-down:
+
+```text
+starting pins: local 4cb03477; canonical e7edb006; upstream b13de811;
+               PR #1106 head 98149fc6
+ending math pin: local 9167125b; canonical/upstream/PR unchanged
+node attacked: l1_mersenne_hnf_m8_order_zero_quadratic_exclusion
+result: CLOSED (the m=8 degree-two stratum); NARROWED (L1)
+DAG delta: +1 PROVED node, +4 edges; critical math orbit unchanged at
+           201 PROVED / 36 CONDITIONAL / 23 TARGET
+upstream terminal delta: none; this is not a deployed K/M/L atom
+delta-star bracket movement: 0 bits
+new assumptions: none; all three dependencies are PROVED
+live compute requests: none added or consumed
+next route-deciding action: apply the same exact-one-repeat torsion test to
+                              m=16, then isolate its even multi-repeat branch
+```
+
+**2026-07-26, L1 m=16 single-collision close:**
+`l1_mersenne_hnf_m16_order_zero_single_collision_exclusion` applies the
+centered-moment/torsion method to the one official `m=16,h=15` row. Its 105
+exactly-one-repeat color patterns impose quadratics on `s`; every one is
+coprime over `F_8191(mu_16)` to the necessary equation
+`binom(s+14,15)^131072=1`. A second basis verifies 105 nonzero resultants
+with pinned digest `9c05ecd...e9e31f`. The complete quadratic frontier is
+now empty on `m=8` and reduced on `m=16` to even interpolants with at least
+two antipodal repeated-color pairs. Result: `NARROWED`; no critical status,
+upstream atom, endpoint, Modal job, or compute request changes.
+
+**2026-07-26, L1 complete quadratic color close:**
+`l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion` removes the sole
+remaining degree-two shape. An even `m=16` interpolant with two repeated
+colors would make the odd and even parts of `P_s` share at least two roots.
+The exact first-subresultant coefficients have gcd
+
+```text
+s^6(s-3)(s-2)(s-1)^6(s+1)^6(s+2)^5(s+3)^5
+(s+4)^4(s+5)^4(s+6)^3(s+7)^3(s+8)^2(s+9)^2(s+10)(s+11),
+```
+
+whose roots are all prime-field values and therefore forbidden. An
+independent stdlib audit reconstructs the coefficients from 322 Sylvester
+minors at 161 points, using the exact determinant degree bound 160. Constant,
+linear, and quadratic colors are now empty on all five endpoint rows.
+Result: `CLOSED` for endpoint color degree two and `NARROWED` for L1; the
+live order-zero degree begins at three. No critical status, endpoint bracket,
+upstream terminal, Modal job, or compute request changes.
+
+Cycle burn-down:
+
+```text
+starting pins: local 9167125b; canonical e7edb006; upstream b13de811;
+               PR #1106 head 98149fc6
+ending math pin: local 2fdc6d4b
+ending combined pin: local e5baf2ad; canonical 4b4a43a0;
+                     upstream/PR unchanged
+nodes attacked: l1_mersenne_hnf_m16_order_zero_single_collision_exclusion;
+                l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion
+result: CLOSED (degree two on all five HNF endpoint rows); NARROWED (L1)
+local DAG delta: +2 PROVED nodes, +10 edges; canonical import adds one
+                 noncritical TARGET bridge and its evidence edge
+critical delta: none; math orbit remains 201 PROVED / 36 CONDITIONAL /
+                23 TARGET, with all 36 conditionals propagation-owned
+upstream terminal delta: none; no K/M/L atom or adjacent payment
+delta-star bracket movement: 0 bits
+new assumptions: none; every consumed dependency is PROVED
+live compute requests: none added or consumed
+next route-deciding action: use the colored Frobenius congruence/resultant
+                              system to classify cubic order-zero colors
+```
+
+**2026-07-26, complete m=8 order-zero outer close:**
+`l1_mersenne_hnf_m8_order_zero_reciprocal_elimination` bypasses the cubic
+split and closes every remaining color degree on all four `m=8,h=7` rows.
+For the reciprocal coefficient equations `F_j(s,t)=0`, form
+`R_12=Res_t(F_1,F_2)` and `R_13=Res_t(F_1,F_3)`. Exact bounded
+interpolation gives degrees 1320 and 1760, and on every official
+characteristic their gcd is
+
+```text
+s^176(s-1)^4(s+1)^176(s+2)^168(s+3)^162
+(s+4)^152(s+5)^128(s+6)^64(s+7)^2.
+```
+
+Every root is prime-field valued, contradicting `s notin F_p`. An
+independent audit reconstructs all `Q_s` coefficients from 228 companion-
+matrix characteristic polynomials before repeating the eight eliminants.
+Result: `CLOSED` for the complete `m=8` order-zero outer chamber and
+`NARROWED` for L1; `m=16` order zero, order one, and the inner/global
+payments remain. No Modal job, compute request, critical status, upstream
+terminal, or endpoint bracket changes.
+
+Cycle burn-down:
+
+```text
+starting pins: local e5baf2ad; canonical 4b4a43a0; upstream b13de811;
+               PR #1106 head 98149fc6
+ending math pin: local edfab050; canonical/upstream/PR unchanged
+node attacked: l1_mersenne_hnf_m8_order_zero_reciprocal_elimination
+result: CLOSED (all color degrees in the four m=8 order-zero outer
+        chambers); NARROWED (L1)
+DAG delta: +1 PROVED node, +3 edges; critical math orbit unchanged at
+           201 PROVED / 36 CONDITIONAL / 23 TARGET
+upstream terminal delta: none; no K/M/L atom or adjacent payment
+delta-star bracket movement: 0 bits
+new assumptions: none; both dependencies are PROVED
+live compute requests: CR-L1-MCP-NMCE narrowed to m=16/order-one work;
+                       no run launched or consumed
+next route-deciding action: derive a certificate-producing reduction for
+                              the m=16 reciprocal system, or switch to a
+                              nearer critical/upstream terminal if the raw
+                              eliminants remain unpriced
+```
+
+**2026-07-26, canonical bridge reconciliation:** canonical `f2634a1f` added
+a substantial analysis of a hypothetical affine-rank-two budget-three list
+witness and proposed reducing its six fibers to the rate-half minimal-index
+split-pencil seam. In the joint tree that branch is vacuous: the already
+proved `rate_half_list_budget_three_affine_rank_rigidity` excludes affine
+rank two at exactly the same `(4d,2d,3d-1)`, `d>=3`, scope. The equality
+case would have to inject `2d+2` active coordinates into the six roots of
+pairwise affine-linear quotient differences. The chamber bridge is therefore
+narrowed to `(d_1,d_2,d_3,b)` for rank three. The rank-flat denominator shows
+that lower, not upper, control of `b` is useful. The proposed `(MI2)` import is
+also fenced: that theorem assumes a primitive apolar Hankel kernel, whereas
+the six residual polynomials form an arbitrary pencil; the applicable
+arbitrary-pencil incidence theorem is sharp at six here.
+
+Cycle burn-down:
+
+```text
+starting pins: local 007d86e2; canonical 4b4a43a0; upstream b13de811;
+               PR #1106 head 98149fc6
+canonical integration: local merge 9c95bcd8; canonical f2634a1f
+ending math pin: local 9080cb67; upstream/PR unchanged
+node attacked: rate_half_list_chamber_affine_rank_bridge
+result: NARROWED; s=3 is supplied by an existing PROVED theorem and the
+        imported s=2/MI2 route is retired
+DAG delta: +1 ev edge and corrected TARGET contract; critical math orbit
+           unchanged at 201 PROVED / 36 CONDITIONAL / 23 TARGET
+upstream terminal delta: none; upstream has no matching chamber-rank bridge
+delta-star bracket movement: 0 bits
+new assumptions: none
+live compute requests: none added or consumed
+next route-deciding action: compute chamber-uniform bounds on
+                              (d_1,d_2,d_3,b) and test whether any of the
+                              thirteen exact rank-flat caps is at most three
+```
+
+**2026-07-26, budget-three compiler route fully adjudicated:** the selected
+intersection theorem has `n_0=0`, so the four chosen agreement sets cover the
+domain. At a common direction zero all four codeword values coincide; one
+selected agreement therefore forces the common value to equal the received
+word. This proves `b=0` in every chamber. The remaining generalized-weight
+arithmetic then fences the compiler completely. Every incidence type has a
+pair attaining `K-1=2d-1` agreements, hence `d_1=2d+1`, and a selected triple
+intersection of size at least `d-1`, hence `d_2<=3d+1`. With
+`2d+3<=x=d_3<=4d`, the rank-flat expression is bounded below by
+
+```text
+x(x-1)(x-2) / (2d^2(x-d-1)) > 4.
+```
+
+The last inequality follows from positivity of
+`x(x-1)(x-2)-8d^2(x-d-1)` at `x=2d+3` and its positive first and second
+derivatives thereafter. Thus its floor is always at least four: neither the
+affine-span cap eight nor the rank-flat compiler can prove the required cap
+three. The bridge is now PROVED as a route fence, and the thirteen chambers
+must be attacked through their official-subgroup arithmetic or a stronger
+list theorem.
+
+Cycle burn-down:
+
+```text
+starting pin: local 9080cb67; canonical f2634a1f; upstream b13de811;
+              PR #1106 head 98149fc6
+intermediate theorem pin: local 1e359dfb
+ending math pin: local a44a4392; canonical/upstream/PR unchanged
+nodes attacked: rate_half_list_budget_three_common_mismatch_zero;
+                rate_half_list_chamber_affine_rank_bridge
+result: CLOSED (b=0 theorem); CLOSED AS ROUTE FENCE (compiler bridge)
+DAG delta: +1 PROVED node, bridge TARGET -> PROVED, +5 edges;
+           overall PROVED 1041 -> 1043 and TARGET 69 -> 68
+critical delta: none; math orbit remains 201 PROVED / 36 CONDITIONAL /
+                23 TARGET
+upstream terminal delta: none; this proves a limitation of the harvested
+                         Lane-L compiler, not a K/M/L payment
+delta-star bracket movement: 0 bits
+new assumptions: none; every dependency is PROVED
+live compute requests: none added or consumed
+next route-deciding action: return to direct official-subgroup arithmetic in
+                              rate_half_list_adjacent_crossing, or select a
+                              different one of the 23 critical red leaves;
+                              do not spend further cycles on this compiler
+```
+
+**2026-07-26, L1 m=16 Singular route-pricing attempt:** the one authorized
+`R_12` launch stopped during image construction. Modal app
+`ap-wGlT1diHx4C7gUii0LhVyq` exposed Debian's default `singular` package
+fanout: 891 new packages, 29 upgrades, 1,077 MB of archives, and 4,098 MB
+installed. It was terminated at package 310 before a function container or
+algebra started. The exact billed amount was `$0.00348072`. The launcher now
+suppresses recommended packages, but no retry is authorized by this result.
+This is an infrastructure `INCOMPLETE`, not evidence about the eliminant.
+
+Cycle burn-down:
+
+```text
+starting pin: local f77bf695; canonical cb1e506c; upstream main b13de811
+attempted node: l1_mixed_petal_amplification via the m=16 order-zero
+                reciprocal-elimination chamber
+result: INCOMPLETE at image build; no algebra or theorem claim
+DAG delta: none; critical math orbit remains 201 PROVED / 36 CONDITIONAL /
+           23 TARGET
+upstream terminal delta: none
+delta-star bracket movement: 0 bits
+new assumptions: none
+compute spend: $0.00348072; the single authorization is consumed
+next route-deciding action: integrate canonical cc979e4b, adjudicate its new
+                              WCL descent against the critical frontier, and
+                              use a non-compute L1 reduction if returning here
+```
+
+**2026-07-26, WCL descent reconciliation:** canonical `cc979e4b` correctly
+proves that product-one normalisation is unique at odd weight and obstructed
+at even weight, and adds a useful specialized `(4,11)` coordinate packet.
+Its planning inference was stale: the prior proved
+`dli_wcl_extended_six_slot_sparse_divisor_endpoints` already supplies the
+parity-separated even locator `F(X)=E(X^2)-XB(X^2)`, exact divisor converse,
+and pruned cubic certificate system. Thus `(4,10)` does not need a new
+sub-tuple router. All three `ell=4` leaves are already at explicit
+finite-characteristic certification: `(4,9)` has a `114/119` pruned system,
+`(4,10)` has `129/133`, and `(4,11)` has `142/147`. Direct expanded
+remainders are not the only Delta interface. The correct order starts with
+`(4,9)` because it is smaller; no descent leaf closes from this correction.
+
+Cycle burn-down:
+
+```text
+starting pin: local f3d3e663; canonical cc979e4b; upstream main b13de811
+nodes audited: dli_wcl_ell4_weight11_quintic_divisor_descent;
+               dli_wcl_extended_six_slot_sparse_divisor_endpoints;
+               dli_wcl_zone_coverage
+result: RECONCILED; false missing-(4,10)-router premise removed
+DAG delta: +3 proved dependency edges; no status change; critical math orbit
+           remains 201 PROVED / 36 CONDITIONAL / 23 TARGET
+upstream terminal delta: none; open PRs #1091--#1108 contain no WCL
+                         characteristic certificate
+delta-star bracket movement: 0 bits
+new assumptions: none
+compute spend: none
+next route-deciding action: seek an analytic reduction of the (4,9) Pell/
+                              114-by-119 certificate endpoint; do not duplicate
+                              the already proved descent or launch CR-004 locally
+```
+
+**2026-07-26, `(4,9)` inversion-component close:** anti-reciprocity reduces
+the inversion-invariant Pell stratum to four rational and four cubic
+branches. Exact branchwise powering modulo `P=YA^2-1` gives obstruction gcd
+one on every branch. The complete denominator support is `{2,3,17,19}`, so
+the official split gate excludes it. The new PROVED node
+`dli_wcl_ell4_weight9_inversion_symmetric_exclusion` is wired by `ev` to the
+unchanged TARGET `dli_wcl_slot_4_9_emptiness`. This is genuine component
+movement, not full-cell closure: arbitrary nine-subsets of `mu_1024` need
+not be inversion-stable.
+
+```text
+starting pin: bb4d2188
+node attacked: dli_wcl_slot_4_9_emptiness, inversion-invariant component
+result: CLOSED (component), NARROWED (parent)
+DAG delta: +1 PROVED node, +1 req edge, +1 ev edge; parent remains TARGET
+upstream terminal delta: none
+delta-star bracket movement: none
+new assumptions: inversion invariance, explicitly local and not shared by parent
+live compute requests: no retry; full CR-004 remains external/deferred
+next route-deciding action: find a complete structural split complementary
+                              to inversion invariance, or return to the full
+                              114/119 sparse certificate endpoint
+```
+
+**2026-07-26, universal unsafe-route correction and identity-prefix harvest:**
+an implication audit found that `unsafe_at_crossing` had been promoted without
+an every-row instantiation of either local supplier theorem. The corrected
+`unsafe_crossing_family_instantiation` target requires an exact `Q`, `V`, or
+`M` payload at every proposed predecessor. The independently reconstructed
+identity-prefix flexible-budget theorem then closes the `V` payload for the
+two deployed MCA rows while leaving the universal quantifier explicit.
+
+Cycle burn-down:
+
+```text
+starting pins: local af908721; canonical cc979e4b;
+               upstream origin/main b13de811
+ending proof pin: local 224720bc; canonical/upstream unchanged
+nodes attacked: unsafe_at_crossing; unsafe_crossing_family_instantiation;
+                identity_prefix_flexible_budget_unsafe_floor
+result: CORRECTED (false green); HARVESTED (general V supplier);
+        CLOSED (two deployed MCA unsafe payloads); universal target OPEN
+DAG delta: unsafe_at_crossing PROVED -> CONDITIONAL; +1 critical TARGET;
+           +1 off-orbit PROVED supplier and +3 evidence edges; five route-local
+           E1/zone nodes moved off the critical folder partition
+critical delta: math orbit is 242 = 180 PROVED / 38 CONDITIONAL / 24 TARGET;
+                every conditional is propagation-owned
+upstream terminal delta: none new upstream; the theorem is already proved at
+                         b13de811 and is now banked locally under its labels
+delta-star bracket movement: none globally; the two deployed unsafe edges are
+                             exact finite payloads
+new assumptions: none
+compute spend: none; proof review and exact integer checks only
+next route-deciding action: compile the identity-prefix inequalities over the
+                              exact admissible-row descriptor output, classify
+                              the residual rows as Q/V/M/uncovered, and mint a
+                              smaller algebraic target for the first uncovered
+                              exhaustive class
+```
+
+**2026-07-26, identity-prefix clean-anchor route exhausted:** the official row
+model is parametric rather than a finite row list, and the six RowC/prize
+entries are envelope checks. Extracting the pair-root condition against the
+exact budget interval gives a complete anchor-level route classification:
+five clean anchors cannot use the supplier, while RowC rate `1/16` reduces to
+one explicit base-field cutoff. The repository's pre-existing warning that
+the RowC characteristic is unpinned prevents a fabricated instantiation.
+
+Cycle burn-down:
+
+```text
+starting pin: local 5b1dc9a9; canonical cc979e4b;
+              upstream origin/main b13de811
+ending proof pin: local e0856fc5; canonical/upstream unchanged
+node attacked: unsafe_crossing_family_instantiation, identity-prefix branch
+result: CLOSED AS ROUTE CUT on five clean anchors; NARROWED to one typed
+        RowC-1/16 subfield branch; universal target remains OPEN
+DAG delta: +1 off-orbit PROVED node, +1 req edge, +1 evidence edge;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24
+upstream terminal delta: none; candidate for a grouped unsafe-side/no-go packet
+delta-star bracket movement: none
+new assumptions: none; the surviving branch prints its required domain-field
+                 containment instead of assuming the unpinned RowC prime
+compute spend: none; 2,527 exact router checks and one small binomial only
+next route-deciding action: skip identity-prefix on the high-field clean rows;
+                              audit the existing quotient/direct-value witness
+                              at their exact unsafe predecessors, beginning
+                              with whether the banked A-1 quotient witness is
+                              already a valid ambient-field Q payload
+```
+
+**2026-07-26, clean-anchor qfloor route exhausted:** exact derivation of the
+canonical quotient orders confirms that the above-budget `A-1` binomial
+censuses are outside the proved qfloor norm regime on every clean anchor. The
+smallest raw-count margin is still a factor of `1245`, so the witness family
+is large; the missing fact is distinctness after reduction, not multiplicity.
+
+Cycle burn-down:
+
+```text
+starting pin: local cb8dd9a6; canonical cc979e4b;
+              upstream origin/main b13de811
+ending proof pin: local 57256915; canonical/upstream unchanged
+node attacked: unsafe_crossing_family_instantiation, quotient-Q branch
+result: CLOSED AS ROUTE CUT on all six clean anchors; direct E1/value-set
+        injectivity remains OPEN
+DAG delta: +1 off-orbit PROVED node, +1 req edge, +1 evidence edge;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24
+upstream terminal delta: none; this is a scoped no-go extraction
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; six exact powers and binomial comparisons
+next route-deciding action: treat the clean quotient family as a direct-value
+                              problem; determine the exact Acl/value-set lower
+                              bound required on each candidate and whether one
+                              route-uniform exceptional-prime theorem can pay
+                              all six, otherwise move to an exact post-paid M
+                              family rather than reusing qfloor
+```
+
+**2026-07-27, tangent-floor low-field branch compiled:** upstream
+`prop:floor` was independently reconstructed and converted into an exact
+field-order router at the six clean predecessor formulas. The guaranteed
+`n-a` slopes pay a real low-field slice, but none of the named high-budget
+anchors. This narrows the residual unsafe problem without asserting a converse
+or upper-bounding the full bad set of the tangent line.
+
+Cycle burn-down:
+
+```text
+starting pin: local 024156c3; canonical 4cffa790;
+              upstream origin/main b13de811
+ending proof pin: local ca8630f6; canonical/upstream unchanged
+node attacked: unsafe_crossing_family_instantiation, tangent-V branch
+result: CLOSED on the guaranteed low-field payload; CLOSED AS APPLICABILITY
+        CUT at all six named envelopes; universal target remains OPEN
+DAG delta: +2 off-orbit PROVED nodes, +1 req edge, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24
+upstream terminal delta: upstream theorem banked locally under prop:floor;
+                         finite envelope classifier is ours-only
+delta-star bracket movement: none at the named envelopes
+new assumptions: none
+compute spend: none; bounded exact local replay only
+next route-deciding action: classify the residual high-field rows and compare
+                              direct E1 against an exact post-paid M supplier
+```
+
+**2026-07-27, averaged occupancy eliminated at clean envelopes:** the existing
+row descriptor was confirmed to validate arbitrary inputs without inferring a
+safe agreement, so there is no finite official row list to classify. On the
+six named envelopes, however, the largest possible support-family first
+moment is already below budget. This removes the `M` supplier before overlap
+optimization and leaves explicit `Q`/`V` as the positive unsafe routes.
+
+Cycle burn-down:
+
+```text
+starting pin: local 8c845519; canonical 1aca1792;
+              upstream origin/main b13de811
+ending proof pin: local 0893de24; canonical/upstream unchanged
+node attacked: unsafe_crossing_family_instantiation, averaged-M branch
+result: CLOSED AS ROUTE CUT at all six named high-budget envelopes;
+        universal target remains OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +1 evidence edge;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24
+upstream terminal delta: none; exact finite route cut is ours-only
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact integers and bounded local replay only
+next route-deciding action: direct E1/value-set control on the pair-feasible
+                              generated-field class, or a new explicit V line
+```
+
+**2026-07-27, pair-feasible E1 field axis closed:** the strict official field
+cap and the exact six thresholds imply that every pair-feasible quotient root
+set generates the ambient field. This removes extension transfer from the live
+E1 collision target while preserving the unresolved proper-subfield branches
+with the universal router.
+
+Cycle burn-down:
+
+```text
+starting pin: local 03de7042; canonical dd4ef328;
+              upstream origin/main b13de811
+ending proof pin: local e169a43f; canonical/upstream unchanged
+node attacked: e1_official_prime_exception_control, field-normalization axis
+result: CLOSED AS ROUTE REDUCTION; exact collision-pair target remains OPEN
+DAG delta: +1 off-orbit PROVED node, +1 req edge, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24
+upstream terminal delta: none; finite route reduction is ours-only
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; 1,199 bounded tower checks plus exact thresholds
+next route-deciding action: exploit ambient generation in the norm-divisor or
+                              sparse-kernel collision count, seeking a theorem
+                              or an exact pair-feasible counterexample
+```
+
+**2026-07-27, pair-feasible E1 prime-field axis closed:** ambient generation
+still left a possible extension degree and therefore did not validate the
+prime-field kernel interface. The exact degree identity and perfect-power
+interval checks remove that gap at all six named anchors. The simultaneous
+canonical audit also exposed unreplayable legacy proof debt and pinned it
+against growth without treating missing artifacts as mathematical refutations.
+
+Cycle burn-down:
+
+```text
+starting pins: local e3084268; canonical 342b52d9;
+               upstream origin/main b13de811
+ending proof pin: local 260395c5; canonical d18fdc83;
+                  upstream unchanged
+node attacked: e1_official_prime_exception_control, extension-degree axis
+result: CLOSED AS ROUTE REDUCTION; exact prime-field collision target OPEN
+DAG delta: +1 off-orbit PROVED node, +1 req edge, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; reproducibility debt now
+                pinned at 44 hollow critical nodes, 42 marked PROVED
+upstream terminal delta: none; exact finite reduction is ours-only
+delta-star bracket movement: none
+new assumptions: none; the canonical quotient set is cyclic of printed order
+compute spend: none; 14 exact integer-root checks and bounded regressions
+next route-deciding action: bound or falsify the exact E1 collision allowance
+                              over primes p=1 mod N in the two budget intervals
+```
+
+**2026-07-27, E1 low swap-distance bands closed:** folded coefficient Parseval
+turns the cyclotomic norm estimate into an `L2` bound. Exact profile arithmetic
+then removes the first four `N=256` bands and the first `N=512` band. The latest
+canonical literature sweep was checked before banking; it identifies no
+external theorem for this fixed-prime E1 ledger.
+
+Cycle burn-down:
+
+```text
+starting pins: local 09c6cceb; canonical d18fdc83;
+               upstream origin/main b13de811
+ending proof pin: local c2bf0fd9; canonical b55c21d0;
+                  upstream unchanged
+ending profile-refinement pin: local 789e190e
+node attacked: e1_official_prime_exception_control, low-distance bands
+result: CLOSED for s<=4 at N=256 and s=1 at N=512; first open bands
+        reduced to two folded profiles apiece; parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; 164 profile and 336 toy orthogonality checks
+next route-deciding action: attack profiles (4,2,0),(3,4,0) at N=256 and
+                              (1,2,0),(0,4,0) at N=512 by exact norm structure
+```
+
+**2026-07-27, N=512 four-singleton profile closed:** exact negacyclic
+autocorrelation variance separates the low-variance cyclotomic-product cases
+from a global logarithmic norm deficit. No large computation was used.
+
+Cycle burn-down:
+
+```text
+starting pins: local dae9de7b; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 46c5c261
+node attacked: e1_official_prime_exception_control, N=512 s=2 profile (0,4,0)
+result: CLOSED for profile (0,4,0); parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25;
+                reproducibility debt unchanged
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; bounded toy autocorrelation replay only
+next route-deciding action: attack the sole remaining N=512,s=2 profile
+                              (1,2,0) by exact trinomial norm structure
+```
+
+**2026-07-27, complete N=512 distance-two band closed:** a finite but
+route-uniform signed-support certificate screens every possible prime in both
+field intervals. Exact interval division replaces integer factorization.
+
+Cycle burn-down:
+
+```text
+starting pins: local 581c487d; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local dc74d931
+node attacked: e1_official_prime_exception_control, N=512 s=2 profile (1,2,0)
+result: CLOSED for profile (1,2,0) and complete s=2 band; parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +3 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: short one-container Modal runs only; two load-bearing exact
+               replays, no run above 91 MB and aggregate well below $1
+next route-deciding action: compare N=512,s=3 against the N=256,s=5 profiles;
+                              attack the smaller exact orbit quotient first
+```
+
+**2026-07-27, N=256 square-mass-16 high variance removed:** an exact
+logarithmic deficit converts autocorrelation energy into the six norm bits
+needed at the field endpoint.
+
+Cycle burn-down:
+
+```text
+starting pins: local e28e1d04; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local d2dc303b
+node attacked: e1_official_prime_exception_control, N=256 s=5 profile (3,4,0)
+result: NARROWED to positive even autocorrelation variance V<=134;
+        parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact rational arithmetic only
+next route-deciding action: classify the bounded low-variance residual of
+                              profile (3,4,0), beginning with realizable V
+```
+
+**2026-07-27, N=256 proper-conductor supports excluded:** exact subfield
+descent shows that a proper-conductor first-band norm has no prime divisor at
+the live field scale. A bounded falsification test killed the stronger
+periodicity classification before it entered the DAG.
+
+Cycle burn-down:
+
+```text
+starting pins: local d08646bc; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 7a8f103f
+node attacked: e1_official_prime_exception_control, N=256 s=5 conductor split
+result: NARROWED to full-conductor supports in both profiles; parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: one 6.3-second Modal orchestration, peak 55 MB, well below $1;
+               no computation is load-bearing
+falsification: full-conductor profile-(3,4,0) vector found at V=36, so low
+               variance does not imply proper conductor
+next route-deciding action: classify the full-conductor V<=134 residual by
+                              repeated-difference cancellation structure
+```
+
+**2026-07-27, N=256 2-adic cofactor gate banked:** total ramification turns
+the small norm cofactors into exact singleton-exponent restrictions in both
+first-band profiles.
+
+Cycle burn-down:
+
+```text
+starting pins: local f1d30ba8; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local f7d50f3f
+node attacked: e1_official_prime_exception_control, N=256 s=5 2-adic screen
+result: NARROWED to mu<=5 in (3,4,0) and singleton gap not 0 mod 32
+        in (4,2,0); parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact integer and local-field arithmetic only
+next route-deciding action: combine the 2-adic screen with the signed
+                              repeated-difference cancellation ledger
+```
+
+**2026-07-27, N=256 signed-chord gate banked:** the bounded variance residual
+is now an exact additive-structure problem rather than a generic sparse-support
+problem.
+
+Cycle burn-down:
+
+```text
+starting pins: local 83d6fe00; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 9e539677
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) residual
+result: NARROWED to signed 3-term-progression/parallelogram templates;
+        parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +1 req edge, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact autocorrelation and matching arithmetic only
+next route-deciding action: classify the signed template types jointly with
+                              full-conductor and 2-adic screens
+```
+
+**2026-07-27, N=256 local-norm cofactors collapsed:** the explicit norm group
+of the conductor-256 local cyclotomic extension removes almost all cofactor
+ambiguity before any template norm is computed.
+
+Cycle burn-down:
+
+```text
+starting pins: local 0d2ad4ef; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 89dc4e5c
+node attacked: e1_official_prime_exception_control, N=256 cofactor windows
+result: NARROWED to five cofactors in (3,4,0) and 419 in (4,2,0);
+        parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none; standard explicit local reciprocity is cited and pinned
+compute spend: one 7.1-second Modal orchestration, 513 FLINT resultants in
+               0.177 container-seconds; no computation is load-bearing
+next route-deciding action: prove the odd parts of the signed-template norms
+                              are composite or outside both row intervals
+```
+
+**2026-07-27, N=256 sparse-L1 variance refinement:** the attempted universal
+odd-part factorization was first falsified by an exact 248-bit prime below the
+row floor. The replacement analytic route uses autocorrelation sparsity to
+remove twelve additional variance values.
+
+Cycle burn-down:
+
+```text
+starting pins: local 1b13e252; canonical b55c21d0;
+               upstream origin/main b13de811
+route-fence pin: local 20787068
+ending proof pin: local 3268bcf2
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=134 to V<=110; signed cancellation
+        strengthened from C<=-7 to C<=-13; parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           signed-chord dependency repointed to the sharpened child
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: two short one-container route tests; exact proof uses no Modal
+next route-deciding action: extend the sparse moment majorant below V=112 or
+                              classify the stronger C<=-13 templates
+```
+
+**2026-07-27, N=256 chord-deficit refinement:** a profile-specific charging
+lemma extends the analytic variance exclusion by three further values without
+enumeration or new assumptions.
+
+Cycle burn-down:
+
+```text
+starting pins: local 2967967b; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 06e0ef63
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=110 to V<=104; signed cancellation
+        strengthened from C<=-13 to C<=-15; parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact integer and rational arithmetic only
+next route-deciding action: close the V=104 logarithmic gap by a sharper
+                              phase/L1 bound, or classify the C<=-15 templates
+```
+
+**2026-07-27, N=256 low-slack endpoints excluded:** the exact local slack
+classification closes the two quadratic-majorant rows immediately below the
+general chord-deficit range.
+
+Cycle burn-down:
+
+```text
+starting pins: local 8f2da00e; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 80074790
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=104 to V<=100; signed cancellation
+        strengthened from C<=-15 to C<=-16; parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: two RAM-guarded relaxed DPs under 16 seconds each discovered
+               the pattern; exact proof and verifier do not depend on them
+next route-deciding action: exploit the equality templates at E=50,L=28 or
+                              replace the quadratic logarithmic majorant
+```
+
+**2026-07-27, N=256 variance 100 excluded:** the geometry-only endpoint
+shortcut was falsified and replaced by an exact optimized quadratic
+majorant.
+
+Cycle burn-down:
+
+```text
+starting pins: local bbfeb42c; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 535a2e5f
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=100 to V<=98; C<=-16 unchanged;
+        parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: one 16-worker bounded Modal falsifier and one exact
+               one-container norm probe; both completed in seconds and are
+               non-load-bearing
+route fence: full-conductor E=50,L=28 geometry exists; L<=27 is false
+next route-deciding action: extend the exact low-slack L table and optimized
+                              majorants to V=98 and below
+```
+
+**2026-07-27, N=256 variances 96 and 98 excluded:** the low-slack ledger and
+optimized-majorant route extends without additional computation.
+
+Cycle burn-down:
+
+```text
+starting pins: local a8ffea1f; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local ed7662cf
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=98 to V<=94; signed cancellation
+        strengthened from C<=-16 to C<=-17; parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact finite slack and rational Taylor arithmetic only
+next route-deciding action: classify slack 7--10 and optimize the V=94/92
+                              majorants, with exact feasibility checks
+```
+
+**2026-07-27, N=256 variances 90 through 94 excluded:** matching-aware
+charge decompositions and tight-intercept quadratic majorants continue the
+same analytic route.
+
+Cycle burn-down:
+
+```text
+starting pins: local f45775fa; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local f09f1d93
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=94 to V<=88; signed cancellation
+        strengthened from C<=-17 to C<=-19; parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact finite slack and rational Taylor arithmetic only
+next route-deciding action: determine whether the optimized quadratic route
+                              continues at E=44 or reaches its true endpoint
+```
+
+**2026-07-27, N=256 variances 86 and 88 excluded:** a finite relaxed
+minimum-energy recurrence makes the low-slack endpoint argument exact and
+extends the optimized-majorant route by two rows.
+
+Cycle burn-down:
+
+```text
+starting pins: local 9363c0d2; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local cd5dff92
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=88 to V<=84; signed cancellation
+        strengthened from C<=-19 to C<=-20; parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact finite recurrence and rational Taylor arithmetic
+next route-deciding action: classify the E=42,L=24 equality patterns and
+                              test phase-sensitive or higher-moment bounds
+```
+
+**2026-07-27, N=256 variance 84 excluded:** exact geometric witnesses first
+falsified the tempting `E=42 => L<=23` repair. A global nested-layer count
+then bounded the third central moment, and a cubic Hermite logarithmic
+majorant closed the endpoint without geometric classification.
+
+Cycle burn-down:
+
+```text
+starting pins: local 48bd9578; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local a96150b7
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=84 to V<=82; C<=-20 unchanged;
+        parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: about 85 short bounded Modal containers, roughly eight
+               aggregate CPU-minutes; all exploratory and non-load-bearing
+route fence: full-conductor E=42,L=24 geometry exists; L<=23 is false
+next route-deciding action: apply the layered-moment method at E=41 or
+                              combine it with the exact slack table
+```
+
+**2026-07-27, N=256 variance 82 excluded:** the exact slack and layered
+third-moment mechanism continues at the next energy, using the same global
+Hermite majorant.
+
+Cycle burn-down:
+
+```text
+starting pins: local e4d24fca; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local f2057a6b
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=82 to V<=80; signed cancellation
+        strengthened from C<=-20 to C<=-21; parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: one short Modal symbolic-derivation container; exact proof and
+               verifier are local, deterministic, and Modal-independent
+next route-deciding action: extend the slack table and layered-moment
+                              certificate to E=40 or locate its endpoint
+```
+
+**2026-07-27, N=256 variances 78 and 80 excluded:** the exact slack and
+layered-third-moment route continues for two rows and then reaches a measured
+cubic-Hermite boundary at variance 76.
+
+Cycle burn-down:
+
+```text
+starting pins: local b1d4b944; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 45171710
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=80 to V<=76; signed cancellation
+        strengthened from C<=-21 to C<=-22; parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: one short bounded Modal route-map container; proof and
+               verifier are local, deterministic, and Modal-independent
+route fence: best tested two-contact cubic at V=76 has margin about
+             -0.00262488212622; this cubic family must not be extrapolated
+next route-deciding action: add a fourth-moment or geometry-sensitive
+                              invariant at E=38 instead of extending cubics
+```
+
+**2026-07-27, N=256 variance-76 periodic autocorrelation excluded:** exact
+route analysis identified the needed third-moment threshold and the strongest
+subgroup example; a small-field norm argument then removes the entire
+subgroup-supported chamber.
+
+Cycle burn-down:
+
+```text
+starting pins: local 78225c5f; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local 5497a588
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0), V=76
+result: NEW PROVED autocorrelation-subfield exclusion; every live V=76
+        candidate has a nonzero A_d with 4 not dividing d; residual V<=76
+DAG delta: one PROVED background node and four edges added; parent target OPEN
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: bounded exploratory Modal only: one direct CP-SAT run, six
+               threshold shards, and eight 15-second geometry workers;
+               all proof claims replay locally without Modal
+route fences: continuous cubic and elementary quartic dual both miss;
+              generic CP-SAT upper bounds are too weak and must not be scaled
+next route-deciding action: prove the nonperiodic E=38 weighted-Schur cap
+                              M_3<=2806 from the 24 slack signatures
+```
+
+**2026-07-27, N=256 variance-76 quotient-Schur closure:** the nonperiodic
+third-moment bottleneck was reduced to exact mod-16 fiber capacities and
+closed by a complete low-memory census.
+
+Cycle burn-down:
+
+```text
+starting pin: local abcb2258
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0), V=76
+result: NEW PROVED quotient-Schur exclusion; global live M_3<=2796;
+        V=76 excluded and residual improves to positive even V<=74
+DAG delta: one PROVED background node and five edges added; parent target OPEN
+compute: 80 cheap Modal shards, 43,153,083 complete allocations, under 20 sec;
+         final run ap-n57PHWIhpfTIODFu1x2CMu
+new assumptions: none
+route fences: generic CP-SAT bounds and the parity-purity lemma are retired;
+              the final proof uses exact quotient capacities plus the 4Z cut
+next route-deciding action: derive the E=37 L1/profile ledger and test whether
+                              the quotient-Schur/cubic mechanism closes V=74
+```
+
+**2026-07-27, N=256 variance-74 quotient-Schur closure:** the inherited
+quotient mechanism was refined by an exact inner-layer Schur census and closes
+the next variance endpoint.
+
+Cycle burn-down:
+
+```text
+starting pin: local 1ebf7aec
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0), V=74
+result: NEW PROVED quotient-Schur exclusion; global live M_3<=2576;
+        V=74 excluded and residual improves to positive even V<=72
+DAG delta: one PROVED background node and five edges added; parent target OPEN
+compute: 48 cheap Modal shards per pass; final complete run
+         ap-CQM1N1zJGw5E0FXC4k6qim; 19,732,753 allocations
+new assumptions: none
+route decision: the raw 2626 quotient obstruction was repaired only after
+                proving the support-specific inner bound R(B,B,B)<=174
+next route-deciding action: derive the E=36 L1/profile and cubic ledgers before
+                              deciding whether quotient descent remains viable
+```
+
+**2026-07-27, N=256 variance-72 quotient-Schur closure:** the inherited
+quotient mechanism remains viable after a support-specific `Z/64 Z` inner
+Schur theorem and closes a third consecutive variance endpoint.
+
+Cycle burn-down:
+
+```text
+starting pin: local 243645b1
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0), V=72
+result: NEW PROVED quotient-Schur exclusion; global live M_3<=2344;
+        V=72 excluded and residual improves to positive even V<=70
+DAG delta: one PROVED background node and five edges added; parent target OPEN
+compute: 48 quotient shards and 16 inner-census shards; final runs
+         ap-UO3twT5yf4p6bQ4Dy8sktP and ap-Rz22K5DtG8oBeelSyV39Zd;
+         8,144,380 quotient allocations and 7,888,725 inner sets
+new assumptions: none
+route decision: the raw 2398 obstruction is removed by the exact
+                R(B,B,B)<=174 theorem; the resulting cap is 33 below threshold
+next route-deciding action: derive the E=35 L1/profile and cubic ledgers and
+                              test whether the exact quotient descent persists
+```
+
+**2026-07-27, N=256 variance-70 quotient-Schur closure:** a two-count
+outer-only miss was resolved by exhausting the exact nested three-layer
+coupling rather than refining the quotient globally.
+
+Cycle burn-down:
+
+```text
+starting pin: local a6964327
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0), V=70
+result: NEW PROVED quotient-Schur exclusion; global live M_3<=2162;
+        V=70 excluded and residual improves to positive even V<=68
+DAG delta: one PROVED background node and five edges added; parent target OPEN
+compute: one 32-shard Modal run, ap-Gwlrl9cLfJsa2bS83BFw4k;
+         2,946,287 quotient allocations; four high outers and 276 nestings
+new assumptions: none
+route decision: quotient descent persists, but the first outer-only miss shows
+                that exact nested coupling must precede any finer quotient
+next route-deciding action: derive the E=34 L1/profile and cubic ledgers and
+                              test whether nesting remains a bounded exception
+```
+
+**2026-07-27, N=256 variance-68 route boundary:** exact preflight shows that
+the sequential quotient descent changes character at `E=34`.
+
+Cycle burn-down:
+
+```text
+starting pin: local 859064a3
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0), V=68
+result: NO STATUS CHANGE; L<=20, 24 profiles, cubic threshold M_3<=1947;
+        six exceptional profiles remain, including three/four-layer cases
+compute: tiny exact symbolic preflight only; no Modal campaign launched
+new assumptions: none
+route decision: stop endpoint-by-endpoint quotient runs until one common
+                nested-layer compiler or a stronger analytic certificate exists
+next route-deciding action: return to a shared critical route with a new
+                              theorem candidate rather than scale six censuses
+```
+
+**2026-07-27, Mattarei affine-pair import and DSP8 nodal payment:** the
+primary 2007 source resolves the apparent contradiction in Fable's literature
+map and supplies a stronger theorem than its provisional substitution used.
+Mattarei permits arbitrary Fermat coefficients, so the theorem covers both
+the twisted order-`n` quotient fiber and the order-`3n` cube-preimage fiber.
+His Remark 3 explicitly distinguishes the Garcia--Voloch route from the
+one-polynomial HBK/Stepanov method fenced by NSB2.
+
+Cycle burn-down:
+
+```text
+starting pins: local a712d6ac; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local a7330b59
+node attacked: f3_h3_dsp8_correlation_bound
+result: NEW PROVED Mattarei transport; raw nodal payment improves from
+        <552/<2387 n^2 to <116/<498 n^2 in the one-/three-root cases;
+        more than 1443n^2 of the current raw allowance remains for smooth
+        traces; DSP8 stays TARGET
+uniform target: 25(10K_25^0+17K_25^A)<=12134n^2, improving the former
+                160(10K_25^0+17K_25^A)<=76599n^2
+DAG delta: one PROVED background node; three req edges replaced; no critical
+           status change
+source: Mattarei, Finite Fields Appl. 13 (2007), 773-777,
+        DOI 10.1016/j.ffa.2006.03.005, arXiv math/0511339v1
+audit: 798,864 exact small-field affine fixtures, including 254,822 nonempty
+       slopes outside the subgroup; proportional-form mutation rejected
+compute spend: none; tiny local exact arithmetic only, no Modal
+new assumptions: none; prime-field scope is explicit
+upstream map: OVERLAP with SP primitive shift-pair control, not a proof of the
+              full upstream exact second-moment ledger
+next route-deciding action: exploit smooth trace geometry and the remaining
+                              >1443n^2 budget; do not return to nodal retuning
+```
+
+**2026-07-27, exact DSP8 smooth residual isolated:** the new nodal payment is
+subtracted once in the raw `G=4K` ledger, leaving a single printed smooth
+primitive shift-pair target rather than a qualitative instruction to
+"control smooth traces."
+
+Cycle burn-down:
+
+```text
+starting pin: local 29cef0d8
+ending proof pin: local e7faf967
+node attacked: f3_h3_dsp8_correlation_bound
+result: NEW PROVED smooth-residual router; DSP8 remains TARGET
+exact open target: 10G_sm^0+17G_sm^A<=(36086/25)n^2 uniformly,
+                   equivalently
+                   10K_sm^0+17K_sm^A<=(18043/50)n^2
+one-root allowance: (45636/25)n^2 in raw normalization
+DAG delta: one PROVED background node and four edges; no critical status
+           change
+compute spend: none; exact rational subtraction only
+new assumptions: none
+upstream map: exact finite budget interface for SP primitive shift-pair
+              control; not an estimate for the upstream ledger
+next route-deciding action: derive a smooth elliptic trace-pair estimate that
+                              retains richness, class, and quotient weights
+```
+
+**2026-07-27, DSP8 prime-subfield scope bridge:** the apparent extension-field
+obstruction to the Mattarei affine-pair supplier is removed exactly for the
+deployed KoalaBear affine factors, while the Mersenne row is fenced rather
+than silently generalized.
+
+Cycle burn-down:
+
+```text
+starting pins: local 9ef1680d; canonical acb39b1f;
+               upstream origin/main b13de811
+ending proof pin: local 155439f6
+node attacked: f3_h3_dsp8_correlation_bound
+result: NEW PROVED prime-subfield descent; if K and one nonconstant affine
+        factor are defined over F_p, K-membership forces the extension-field
+        variable into F_p and the count is literally prime-field-valued
+KoalaBear scope: p-1=127*2^24, n=2^21, index 1016, 1016^3>4n;
+                  p=2 mod 3 makes the cube preimage equal H
+Mersenne fence: v_2((2^31-1)-1)=1, so its order-2^21 quartic subgroup does
+                not descend; no extension-subgroup Mattarei bound is claimed
+DAG delta: one PROVED background node and two edges; DSP8 remains TARGET
+compute spend: none; exact integer and finite-field scope replay only
+new assumptions: none
+upstream map: portable scope rule for SP affine factors; not primitive
+              shift-pair control and not a full second-moment estimate
+next route-deciding action: retain this supplier only on descending affine
+                              charts and seek a separate Mersenne supplier
+```
+
+**2026-07-27, exact DSP8 smooth quotient-cap compiler:** the quotient pair can
+be removed pointwise with the Mattarei bound, but doing so prints a genuinely
+strong unweighted smooth primitive-SP obligation. This decides which existing
+additive-combinatorial estimates are too weak before further computation.
+
+Cycle burn-down:
+
+```text
+starting pin: local 9ef1680d
+ending proof pin: local 155439f6
+node attacked: f3_h3_dsp8_correlation_bound
+result: NEW PROVED quotient-cap compiler; DSP8 remains TARGET
+exact implication: G_sm^c<C_M n^(2/3)U_sm^c and
+                   189(10U_sm^0+17U_sm^A)<=144344n^(4/3)
+class-blind supplier: U_sm^0+U_sm^A<=(144344/3213)n^(4/3)
+                      <44.926n^(4/3)
+DAG delta: one PROVED background node and four edges; no critical status flip
+route decision: ordinary O(n^2 log n) shifted energy is too weak, while the
+                available multi-shift theorem sees repeated copies of one
+                quotient shift and gives no n-power gain
+compute spend: none; exact rational compilation and mutation audits only
+new assumptions: none; U_sm retains smoothness, richness, trace class,
+                 split, and signed-disjointness
+upstream map: exact finite consumer threshold for primitive SP, not an SP
+              estimate and not an identification with every upstream stratum
+next route-deciding action: prove an O(n^(4/3)) rich signed-disjoint smooth
+                              base-tuple theorem, or return to a direct
+                              weighted/endpoint route that avoids this loss
+```
+
+**2026-07-27, scoped H3 norm-one affine quotient cap:** a quadratic norm
+identity gives a sharp raw quotient-fiber theorem on multiplicative subgroups
+inside a norm-one torus. An upstream domain audit then prevented an invalid
+Mersenne line-round promotion.
+
+Cycle burn-down:
+
+```text
+starting pins: local 155439f6; canonical d17038d6;
+               upstream origin/main b13de811
+ending proof pin: local 8691e84e
+node attacked: f3_h3_mobius_excess_half / DSP8 quotient factor
+result: NEW PROVED scoped theorem; for H in a quadratic norm-one torus,
+        every nondegenerate affine intersection has size at most two;
+        the H3 identity point gives R(t)<=1
+concrete instance: p_M=2^31-1, n=2^21, and the order-n multiplicative
+                   subgroup of F_(p_M^4)^* lies in F_(p_M^2) norm one;
+                   hence 17X_18<17n^2<300n^2 on that subgroup instance
+scope catch: upstream's deployed M31 line round is D=chi(mathcal D) for a
+             twin coset, not H; no Chebyshev projection adapter is proved,
+             so no deployed-row or adjacent-safe status changes
+upstream overlap: their two-slope split-pencil theorem applies only after six
+                  routed branches are removed; it is not this raw fiber cap
+DAG delta: one PROVED background node and three edges; critical nodes stay open
+audit: complete F_(31^2), order-16 torus replay; 210 sharp affine targets;
+       eight hostile mutations; DAG, harness, protocol, and manifest green
+compute spend: none; tiny local exact arithmetic only
+new assumptions: none
+next route-deciding action: do not pursue this as an M31 shortcut; return to
+                              a prize-critical leaf or prove a genuine
+                              Chebyshev-line adapter before claiming transfer
+```
