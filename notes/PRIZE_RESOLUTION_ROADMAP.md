@@ -3409,3 +3409,27 @@ compute spend: none; exact finite slack and rational Taylor arithmetic only
 next route-deciding action: determine whether the optimized quadratic route
                               continues at E=44 or reaches its true endpoint
 ```
+
+**2026-07-27, N=256 variances 86 and 88 excluded:** a finite relaxed
+minimum-energy recurrence makes the low-slack endpoint argument exact and
+extends the optimized-majorant route by two rows.
+
+Cycle burn-down:
+
+```text
+starting pins: local 9363c0d2; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local cd5dff92
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=88 to V<=84; signed cancellation
+        strengthened from C<=-19 to C<=-20; parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact finite recurrence and rational Taylor arithmetic
+next route-deciding action: classify the E=42,L=24 equality patterns and
+                              test phase-sensitive or higher-moment bounds
+```
