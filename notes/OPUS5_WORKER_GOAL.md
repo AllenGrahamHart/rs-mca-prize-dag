@@ -108,7 +108,28 @@ symmetric realization, counting/(MI2) saturation, and the (4,9) Res/`mu_N`/chara
 family. **Attack local structure instead**: root-by-root incidence, ramification
 profiles, the double-root pattern of `P+1`, chamber-level data. Do not spend another
 session on a global product.
-4. **(4,11) THEN (4,10) descent statements + Delta certificates** — order matters,
+4. ~~**(4,11) / (4,10) descent statements**~~ **DONE 2026-07-27 — and the whole
+   `ell=4` lane is now ONE question.** Both minted PROVED with verifiers. The three
+   cells unify (`notes/ell4_uniform_form_20260727.md`):
+
+   > `(4,w)` holds iff `w` distinct `rho_i in mu_2048` have `e_1=e_3=e_5=e_7=0`,
+   > plus `e_w = 1` for **odd** `w` only.
+
+   The quartics/quintics `A,E,B` are **outputs**, not unknowns — so the elimination
+   ideal, `Delta` certificate and resultant routes were all fighting a
+   reparametrisation. `(4,10)` needed no dilation at all (my "sub-tuple router"
+   prediction was wrong). Rigorous lemma banked: reducedness forces `S_1 != 0` in
+   `Z[zeta_2048]` via Lam–Leung, which validates the norm-gcd method and explains
+   the closed `(2,6)` certificate's 510 exceptional cases. The honest bound
+   `p <= w^1024` is far too weak to close anything.
+
+   **What is genuinely left here:** a quantitative bound on `w`-subsets of `mu_2048`
+   with four vanishing odd symmetric functions. Four routes are fenced (abc,
+   `Res`, `mu_N`-product, character) and the existence witness proves **no
+   structural argument can work**. This needs Weil/Deligne-scale machinery.
+   *Recommend a lane change rather than more turns here.*
+
+5. ~~**(4,11) THEN (4,10) descent statements + Delta certificates**~~ — order matters,
    and it is the reverse of the numeric order. Parity dichotomy (2026-07-26): the
    (4,9) global-dilation normalisation needs `w` invertible mod `N_ell = 512*ell`, a
    2-power, hence `w` **odd**. `(4,11)` is odd so (4,9)'s machinery transfers

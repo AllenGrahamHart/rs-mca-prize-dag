@@ -1100,3 +1100,28 @@ antipodal-mirror family is precisely the exceptional set, not an incidental one.
 
 **Honest bound:** `|Norm(S_1)| <= w^1024`, so `p <= 2^3246` at `w=9` — far too weak
 against `p > 2^167`. The lemma supplies the method's *validity*, not a closure.
+
+### ell=4 lane — closing assessment (2026-07-27)
+
+**Done:** `(4,10)` and `(4,11)` descent statements minted PROVED with verifiers;
+`(4,11)` carried to a full bijection; the three cells unified into one
+symmetric-function statement; the counting model repaired and calibrated twice; a
+rigorous non-vanishing lemma banked; an existence witness verified; six routes
+fenced with a single explaining cause.
+
+**Left:** a quantitative bound on `w`-subsets of `mu_2048` with four vanishing odd
+symmetric functions. The existence witness proves no structural argument can close
+it; the norm-gcd census is infeasible at `ell=4` (`2^89.5` subsets); the honest
+analytic bound is `p <= w^1024` against `p > 2^167`. **This needs Weil/Deligne-scale
+machinery and is not a one-session item.**
+
+**Recommendation: change lane.** The ℓ=4 cells are now well-mapped and handed off.
+The remaining 23-leaf board has lanes that have had far less attention — the F2
+summit (`f2_growing_order_myerson`), `rate_half_band_closure`'s A=3 endpoint, and
+`l1_mixed_petal_amplification` (the roadmap's stated true critical path). A fresh
+session should start there, not here.
+
+**Also outstanding, and not mine:** the audit chain (Codex's demotion of
+`unsafe_at_crossing`; 37 empty PROVED statements; 82 dangling proof refs; the legacy
+tree unrecoverable; 197 nodes skipped by the refs check). All surfaced, none acted
+on — these are planner decisions and they bear on what the census line means.
