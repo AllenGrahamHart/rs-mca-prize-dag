@@ -1,11 +1,11 @@
 # Dependency sub-DAG
 
 ```text
-fm1 [PROVED] --------------------------req-->
-                                                  averaged_occupancy_clean_anchor_first_moment_route_cut [PROVED]
-averaged_slope_conversion [PROVED] ----req-->
+fm1 [PROVED] ------------------------------req-->
+                                                      averaged_occupancy_clean_anchor_first_moment_route_cut [CONDITIONAL]
+averaged_slope_conversion [CONDITIONAL] ----req-->
 
-averaged_occupancy_clean_anchor_first_moment_route_cut [PROVED]
+averaged_occupancy_clean_anchor_first_moment_route_cut [CONDITIONAL]
     --ev--> unsafe_crossing_family_instantiation [TARGET]
 ```
 

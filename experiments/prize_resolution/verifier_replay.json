@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/f3_h3_dsp8_smooth_residual_router/verify.py",
-      "seconds": 0.050764,
+      "script": "background/nodes/f3_hge4_multiscale_haar_m128_frontier/verify.py",
+      "seconds": 0.030921,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "F3_H3_DSP8_SMOOTH_RESIDUAL_ROUTER_PASS raw_allowance=48536/25 smooth_uniform=36086/25 smooth_k=18043/50\n"
+      "stdout_tail": "F3_HGE4_MULTISCALE_HAAR_M128_FRONTIER_PASS closed=12..64 h11_residual=111 h10_residual=011,111\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/f3_h3_dsp8_smooth_residual_router/verify_audit.py",
-      "seconds": 0.035745,
+      "script": "background/nodes/f3_hge4_multiscale_haar_m128_frontier/verify_audit.py",
+      "seconds": 0.023311,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "F3_H3_DSP8_SMOOTH_RESIDUAL_ROUTER_AUDIT_PASS mutations=8\n"
+      "stdout_tail": "F3_HGE4_MULTISCALE_HAAR_M128_FRONTIER_AUDIT_PASS mutation=balance-factor-required\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

@@ -1,12 +1,35 @@
 # averaged_xr
 
-- **status:** PROVED
-- **closure:** proof
-- **refs (legacy repo):** ['proof_sketch/s3b_iii_2_displacement_spectral.md#5']
+- **status:** TARGET
+- **status authority:** `dag.json`
+- **adjudication:** canonical Fable commit `3cca68b7` (2026-07-27)
 
 ## Statement
 
-Averaged XR via Johnson-scheme second moments
+The sought averaged-XR theorem is a slope-resolved second-moment estimate.
+Second moments of `|A_(u,v)|` over pairs or slopes should admit explicit
+Cauchy double sums over support pairs `(T,T')`, graded by intersection size,
+so that the Johnson-scheme decomposition and its `lambda_0-lambda_1=n` gap
+control variance. Same-slope pairs should carry the reconciled closed-form
+correlation term, while distinct-slope pairs should decorrelate. This is the
+second-moment input consumed by `averaged_slope_conversion`.
+
+The node is open. Its former automatic proof was invalid for three independent
+reasons:
+
+1. `proof.md` invokes a nonexistent `conditional.md`;
+2. `xr_ledger_exponent_reconciliation` reconciles the exponent used by this
+   claim and therefore cannot prove the de-correlation claim itself; and
+3. the source says only that the averaged form looks provable and leaves
+   worst-case de-correlation open.
+
+The preferred attack is the Hooley--Katz / Scott exponential-sum lane named
+in `proof_sketch/s3b_iii_2_displacement_spectral.md#5`.
+
+## Falsifier
+
+A shell on which the reconciled exponent `c(s,t)` fails to yield the variance
+control required by `averaged_slope_conversion`.
 
 ## Ledger (migrated notes)
 

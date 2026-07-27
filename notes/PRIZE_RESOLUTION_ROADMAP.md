@@ -108,8 +108,15 @@ identifications without a machine-verified chain.
   from this transfer: it shares one defect-energy budget across every dyadic
   moment norm, prices structural zero scales by exact powers of two, and
   proves the complete exact level `m=64` empty on every official ambient row.
-  Surviving HGE4 levels now start at `m=128`. This is a real zero-debit level
-  close, but one small level is not yet the D1 uniform HGE4 purchase.
+  The balanced-factor augmentation then extracts the previously unspent
+  factor `Norm(1-zeta_O)=2` from every nonzero norm in that product. At the
+  next exact level it closes every `m=128` width `h>=12`, including the upper
+  widths already routed through the quarter/complement gates, and confines
+  the residual to `4<=h<=11`. Only the all-nonzero Haar mask remains at
+  `h=11`, and two masks remain at `h=10`. Thus `m=128` is no longer a full
+  lower-quarter campaign, but it is not yet a zero-debit level close. The
+  D1 uniform HGE4 purchase still requires this finite residual and the levels
+  `m>=256`.
 - **U2 — Exact-shell prefix descent, with two closure routes.**
   `l1_exact_shell_prefix_hankel_bridge` proves that the exact agreement shells
   of `#ImgFib_U(k+sigma)` are precisely zero fibers of the received-word
@@ -603,11 +610,11 @@ identifications without a machine-verified chain.
 ## 4. Board anatomy
 
 - **Counts** (refreshed from `dag.json`, the single source of truth; pinned by
-  `tools/verify_orbit_census.py`): critical surface 180 PROVED / 38 CONDITIONAL /
-  24 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
-  grand challenges {`mca_grand`, `list_grand`} = **242** nodes. *(Q0, 2026-07-26:
+  `tools/verify_orbit_census.py`): critical surface 177 PROVED / 39 CONDITIONAL /
+  25 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
+  grand challenges {`mca_grand`, `list_grand`} = **241** nodes. *(Q0, 2026-07-26:
   this line previously read "req-closure of `prize` = 260" — wrong root. The
-  closure of `prize` is the* **submission orbit** *= 257 = 192/40/25, i.e. the math
+  closure of `prize` is the* **submission orbit** *= 256 = 189/41/26, i.e. the math
   orbit plus a 15-node packaging spine.)* The separate submission dossier is a
   target artifact rather than a mathematical leaf — it is the submission orbit's
   25th TARGET and does not appear in the 24. The 2026-07-26 E1 and
@@ -620,7 +627,7 @@ identifications without a machine-verified chain.
 - **The true critical path:** `l1_mixed_petal_amplification` — in the
   irreducible core under every wiring including the RK world, wired into
   both grands, and the longest-stalled core leaf.
-- **Minimal win sets:** unconditional = all 24 mathematical leaves + dossier
+- **Minimal win sets:** unconditional = all 25 mathematical leaves + dossier
   (pure AND). `list_grand` alone = {l1, adjacent_crossing}, closing its five
   conditional ancestors. The former `17/20` RK-prune and direct-prune counts
   predated the N11 truth ruling and are retired pending a fresh route-surgery
@@ -630,9 +637,9 @@ identifications without a machine-verified chain.
   preserve `(D,kappa)` and hence the RS rate. The clean-rate MCA/list
   milestone therefore excludes both rate-half mathematical leaves. The global
   all-rate F1 dependency remains correct for the full prize. On the corrected
-  board the clean-rate milestone contains 22 of the 24 mathematical leaves;
+  board the clean-rate milestone contains 23 of the 25 mathematical leaves;
   the two excluded leaves are the rate-half band and list-adjacent targets.
-- **Concentration risk:** 12 of 24 leaves and 3 of 5 demotion triggers live
+- **Concentration risk:** 12 of 25 leaves and 3 of 5 demotion triggers live
   in the dli lane behind one req edge. STANDING D2 CAP: dli receives at most
   one-third of any phase's effort; any demotion event freezes further dli
   spend for one full phase while the B-WEAK-direct re-pose is drafted from
@@ -701,7 +708,7 @@ dimension cut. The printed moment floors apply unchanged only at `tau=1`;
 specialized Route-D no-go packets remain parked until they have an exact
 current local consumer. N5 DONE: the Conflict-4 audit proves that F1 pole/tower
 descent preserves the rate, so rate-half adjacency is not a hidden clean-rate
-  premise; the current clean milestone is 22/24 mathematical leaves. N6 harness
+  premise; the current clean milestone is 23/25 mathematical leaves. N6 harness
 debt: xr_highcore top-level verification DONE (six row pins, both currencies,
 paid/open rank tables, 28 proved inputs, and 10 contract mutations); the KB
 #107 lightweight-certificate repair is DONE. The harness-coverage sweep is
@@ -792,8 +799,21 @@ inequality, and strict unsafety requires `nu(A)>B*` with `B=B*+1`.
 `unsafe_at_crossing` regresses to `CONDITIONAL` on the new universal leaf
 `unsafe_crossing_family_instantiation`; `zone_b` and E1 become evidence routes
 to that leaf rather than unconditional global premises. Current math orbit:
-`242 = 180/38/24`; submission orbit: `257 = 192/40/25`. See
+`241 = 177/39/25`; submission orbit: `256 = 189/41/26`. See
 `UNSAFE_AT_CROSSING_FALSE_GREEN_AUDIT_20260726.md`.
+
+N14B DONE, CANONICAL AVERAGED-XR FALSE-GREEN CORRECTION: reconciliation with
+the Fable tree at `3cca68b7` found that `averaged_xr` had no conditional proof:
+its generated `proof.md` cites a nonexistent `conditional.md`, while its sole
+former requirement proves only the same-slope exponent dictionary and
+presupposes the de-correlation claim. The source itself leaves worst-case
+de-correlation open. Therefore `averaged_xr` is a new `TARGET`;
+`averaged_slope_conversion`, `xr_gvn`, `xr_inverse`, and the clean-anchor
+occupancy route cut propagate to `CONDITIONAL`; and
+`xr_ledger_exponent_reconciliation` moves to background evidence. The current
+board is `241=177/39/25`, and all 39 ambers still auto-discharge from the 25
+red leaves. The preferred new attack is the source's Hooley--Katz / Scott
+exponential-sum lane.
 
 N15 DONE, UPSTREAM IDENTITY-PREFIX UNSAFE SUPPLIER HARVEST: upstream's
 `lem:capff1-identity-prefix-floor` and `cor:capg-budget-conversion` combine to

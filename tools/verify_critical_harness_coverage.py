@@ -22,9 +22,9 @@ MANIFEST = ROOT / "tools" / "verifier_manifest.json"
 EXPECTED_COUNTS = {
     # Six proved named-exhibit soundness/checker nodes left the math orbit in
     # the E1 universal-quantifier correction.
-    "folder-md-only": 131,
+    "folder-md-only": 129,
     "legacy-ref-only": 5,
-    "local-verifier": 44,
+    "local-verifier": 43,
 }
 
 EXPECTED_NO_PROOF = {
@@ -99,8 +99,8 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    require(len(critical["nodes"]) == 242, "critical orbit size drift")
-    require(len(proved) == 180, "critical PROVED count drift")
+    require(len(critical["nodes"]) == 241, "critical orbit size drift")
+    require(len(proved) == 177, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()

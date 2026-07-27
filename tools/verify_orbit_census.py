@@ -43,8 +43,8 @@ SUBMISSION_ROOT = "prize"
 # E1 quantifier correction, 2026-07-26. The 14-node quantifier-pin/named-exhibit branch is
 # background evidence; one route-uniform E1 TARGET replaces its two exhibit
 # leaves on the live route.
-EXPECTED_MATH = {"PROVED": 180, "CONDITIONAL": 38, "TARGET": 24}
-EXPECTED_SUBMISSION = {"PROVED": 192, "CONDITIONAL": 40, "TARGET": 25}
+EXPECTED_MATH = {"PROVED": 177, "CONDITIONAL": 39, "TARGET": 25}
+EXPECTED_SUBMISSION = {"PROVED": 189, "CONDITIONAL": 41, "TARGET": 26}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no

@@ -576,7 +576,7 @@
   {
    "id": "averaged_occupancy_clean_anchor_first_moment_route_cut",
    "title": "Complete-support first-moment route cut at clean envelopes",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "closure": "proof",
    "refs": [
     "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/statement.md",
@@ -585,7 +585,7 @@
     "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/verify.py",
     "background/nodes/averaged_occupancy_clean_anchor_first_moment_route_cut/source_pin.json"
    ],
-   "statement": "At each of the six named high-budget clean predecessor anchors, any support family with |S|>=a has E[N(A)]<B*. Indeed the complete-family FM1 sum is dominated by a geometric tail below B*, with exact RowC binomial certificates and exact rational-entropy prize certificates. Since the averaged supplier has nu(A)=E[N(A)]-(q/2)C_t(A)<=E[N(A)], no deterministic support family can satisfy nu(A)>B* there. This rules out the present M supplier at those envelopes, not direct Q/V payloads or safety.",
+   "statement": "At each of the six named high-budget clean predecessor anchors, any support family with |S|>=a has E[N(A)]<B*. Indeed the complete-family FM1 sum is dominated by a geometric tail below B*, with exact RowC binomial certificates and exact rational-entropy prize certificates. Since the averaged supplier has nu(A)=E[N(A)]-(q/2)C_t(A)<=E[N(A)], no deterministic support family can satisfy nu(A)>B* there. This rules out the present M supplier at those envelopes, not direct Q/V payloads or safety. CONDITIONAL on averaged_slope_conversion after the canonical 2026-07-27 propagation correction.",
    "notes": "ROUTE CUT 2026-07-27: the first moment is already below budget, so no strict-overlap optimization can rescue averaged_slope_conversion on the six named envelopes."
   },
   {
@@ -593,8 +593,11 @@
    "title": "thm:exactcount: Acl = 2^{beta N'(1-o(1))} (char 0)",
    "status": "PROVED",
    "refs": [
-    "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#2"
-   ]
+    "archived/slackMCA_v3.tex#thm:exactcount",
+    "critical/nodes/acl_count/statement.md",
+    "critical/nodes/acl_count/proof.md"
+   ],
+   "statement": "EXACT SLOPE COUNT in the stable range: with N'=n/sigma, n_1=N'/2, and l'=rho N'+1, the canonical line count is A(N',l')=sum_{u>=0,t=l'-2u>=0,u<=n_1-t} binom(n_1,t)2^t; at rho=1/2 this is (3^(n/(2sigma))-1)/2. Scope fence: exactness requires p>(2l')^(N'/2), hence at log2(q)=256 the claim is only zone (a), N'<=80. Zone (b) remains CONDITIONAL."
   },
   {
    "id": "zone_b",
@@ -904,11 +907,16 @@
   {
    "id": "averaged_xr",
    "title": "Averaged XR via Johnson-scheme second moments",
-   "status": "PROVED",
+   "status": "TARGET",
    "refs": [
-    "proof_sketch/s3b_iii_2_displacement_spectral.md#5"
+    "proof_sketch/s3b_iii_2_displacement_spectral.md#5",
+    "critical/nodes/averaged_xr/statement.md",
+    "critical/nodes/averaged_xr/status_ruling.md",
+    "critical/nodes/averaged_xr/sketch.md",
+    "critical/nodes/averaged_xr/proof.md"
    ],
-   "notes": "The graded-by-intersection second-moment table is now CLOSED FORM via the pair-rank ledger: correlations q^{-min(s,t)} extra for s < t, exact independence beyond \u2014 the variance is dominated by close pairs, as the FM model hoped. | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED PROVED -> CONDITIONAL (consolidation agent's cross-audit): the proof defers to xr_ledger_qpower (now PROVED, slot filled) BUT the exponent off-by-one \u2014 statement q^{-min(s,t)} vs ledger c(s,t) = min(s,t-1) \u2014 is unresolved and worth a full q factor at deep shells. Conditional on xr_ledger_exponent_reconciliation."
+   "statement": "AVERAGED XR target: prove the slope-resolved second moment strongly enough that Johnson-scheme variance control and the reconciled same-slope correlation imply the de-correlation consumed by averaged_slope_conversion. Preferred attack: Hooley-Katz / Scott exponential sums. Falsifier: a shell where the reconciled exponent fails the required variance bound.",
+   "notes": "FALSE-GREEN CORRECTION 2026-07-27 at canonical 3cca68b7. The pair-rank ledger reconciles the same-slope exponent but does not prove worst-case slope de-correlation. The former proof invokes a nonexistent conditional.md and treats a presupposing exponent dictionary as its premise."
   },
   {
    "id": "displacement_uniform",
@@ -1930,12 +1938,12 @@
   {
    "id": "averaged_slope_conversion",
    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair",
-   "status": "PROVED",
+   "status": "CONDITIONAL",
    "refs": [
     "proof_sketch/s2_paid_ledger.md#6"
    ],
-   "notes": "s2 fork F2: plausibly provable (second moment + paid-fiber exclusion); needed exactly when zone-(b) is collided | PROOF WRITTEN in flight (#212): FM1 + slope-resolved second moment + v8 cap + explicit paid-fiber exclusion; verifier green. Their honest caveat: stated for post-paid support families \u2014 row use still needs the paid-excluded strict-overlap profile. | FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): CONJECTURE -> CONDITIONAL; referee packet in nodes/averaged_slope_conversion/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them). | FLIP on replay (Codex wave 5): PROVABLE -> PROVED. | REGRESSED with the averaged_xr exponent question (cross-audit cascade): the proof stands as a conditional implication; discharges when xr_ledger_exponent_reconciliation lands.",
-   "statement": "For a deterministic support family A with exact strict-overlap profile, put nu(A)=E[N(A)]-(q/2)C_t(A). For every integer B>=1, nu(A)>B-1 implies the existence of a received pair with at least B distinct finite bad slopes. Prize use with the strict unsafe inequality >B* therefore requires nu(A)>B* and B=B*+1, after paid-family ownership and ambient-field scope are supplied."
+   "notes": "The implication packet remains valid, but its slope-resolved second-moment premise averaged_xr is TARGET after the canonical 2026-07-27 false-green correction.",
+   "statement": "For a deterministic support family A with exact strict-overlap profile, put nu(A)=E[N(A)]-(q/2)C_t(A). For every integer B>=1, nu(A)>B-1 implies the existence of a received pair with at least B distinct finite bad slopes. Prize use with the strict unsafe inequality >B* therefore requires nu(A)>B* and B=B*+1, after paid-family ownership and ambient-field scope are supplied. CONDITIONAL on averaged_xr."
   },
   {
    "id": "dyadic_profile_evaluation",
@@ -2127,8 +2135,8 @@
   {
    "id": "xr_gvn",
    "title": "XR stage 1: generalized von Neumann \u2014 FM-excess controlled by iterated exchange energies",
-   "status": "PROVED",
-   "statement": "Define E_k(u,v) = the k-fold iterated exchange-correlation (Johnson-scheme energy of order k). Prove: unpaid alignment excess over FM is bounded by some E_k being large (Cauchy-Schwarz chain over exchange moves).",
+   "status": "CONDITIONAL",
+   "statement": "Define E_k(u,v) = the k-fold iterated exchange-correlation (Johnson-scheme energy of order k). Prove: unpaid alignment excess over FM is bounded by some E_k being large (Cauchy-Schwarz chain over exchange moves). CONDITIONAL on averaged_xr after the canonical 2026-07-27 false-green correction.",
    "refs": [
     "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
    ],
@@ -2137,7 +2145,7 @@
   {
    "id": "xr_inverse",
    "title": "XR stage 2: the inverse theorem \u2014 large E_k => correlation with explicit class C_XR",
-   "status": "PROVABLE",
+   "status": "CONDITIONAL",
    "key": true,
    "statement": "STRIPPED FORM (per the E2 scaffold caveat): after removing paid quotient strata, E_k large (multi-exchange variant if needed) implies correlation with an explicit class C_XR \u2014 expected content post-strip: TANGENT structure only at low k. The class is complete by construction; quotient content is invisible to one-exchange energy and must be stripped first, else false negatives.",
    "attack_surface": "the Gowers-inverse analogue; start at k = 3 (odd moments \u2014 the Hooley-Katz input is exactly the k=3 shadow)",
@@ -4917,13 +4925,15 @@
    "id": "xr_ledger_exponent_reconciliation",
    "title": "Micro-lemma: pin the pair-ledger exponent (min(s,t) vs min(s,t-1))",
    "status": "PROVED",
-   "statement": "Reconcile averaged_xr's stated shell exponent q^{-min(s,t)} with the proved ledger's c(s,t) = min(s,t-1): determine the correct exponent per shell, propagate through the second-moment sum, and confirm the consumer margins absorb the difference (a full q factor at shells s >= t). Small: the qx13 ledger tables decide it at toy scale.",
+   "statement": "For two size-(k+t) supports at exchange distance s, the exact pair codimension is t+min(s,t). Thus q^(-min(s,t)) is the conditional second-event cost, while min(s,t-1) is the anchored/projective convention. This is an exponent dictionary, not a proof of averaged slope de-correlation.",
    "attack_surface": "recompute the toy pair-ledger at both exponents vs the exact counts",
    "falsifier": "the toy ledger matching neither exponent",
    "refs": [
-    "critical/nodes/averaged_xr/proof.md"
+    "background/nodes/xr_ledger_exponent_reconciliation/statement.md",
+    "background/nodes/xr_ledger_exponent_reconciliation/proof.md",
+    "background/nodes/xr_ledger_exponent_reconciliation/verify.py"
    ],
-   "notes": "PROVED (my lane, exact linear algebra, verifier green): codim = t + min(s,t) exactly; the statement's exponent is right, the ledger's min(s,t-1) is the anchored convention \u2014 a dictionary entry, not an error. The four-node chain re-discharges."
+   "notes": "PROVED exact linear algebra: codim=t+min(s,t). Evidence-only for averaged_xr after canonical false-green correction 3cca68b7."
   },
   {
    "id": "subcore_richline_classification",
@@ -16737,6 +16747,10 @@
    "closure": "proof",
    "gate": "all",
    "statement": "For every nonzero norm in the multiscale Haar product, balanced signed support gives the independent factor Norm(1-zeta_O)=2. The sharpened exact gate closes all exact-ratio m=128 widths h=12,...,64 and prunes the h=9,10,11 Haar patterns explicitly.",
+   "upstream": {
+    "label": "SP / primitive shift-pair exact second-moment ledger",
+    "relation": "OVERLAP"
+   },
    "refs": [
     "background/nodes/f3_hge4_multiscale_haar_m128_frontier/statement.md",
     "background/nodes/f3_hge4_multiscale_haar_m128_frontier/proof.md",
@@ -19840,7 +19854,7 @@
   {
    "from": "xr_ledger_exponent_reconciliation",
    "to": "averaged_xr",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "subcore_richline_classification",

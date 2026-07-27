@@ -62,7 +62,7 @@
     "not a route cut for lower-field rows where the complete-support mean can exceed budget",
     "does not constrain quotient or direct-value Q/V suppliers"
    ],
-   "status_ours": "PROVED",
+   "status_ours": "CONDITIONAL",
    "status_his": "not posed",
    "lean": null,
    "provenance": {
@@ -1290,6 +1290,30 @@
    "lean": null,
    "provenance": {
     "our_sha": "8691e84e",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_hge4_multiscale_haar_m128_frontier",
+   "his_object": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "file": "experimental/grande_finale_work/finite_section.tex",
+    "line": "SP: primitive shift-pair control"
+   },
+   "relation": "OVERLAP",
+   "chain": "balanced X-1 norm factor + multiscale Haar product -> exact m=128 upper-width exclusion",
+   "scope": "finite-track primitive exact-ratio level m=128: E_h^prim(128,p)=0 for h=12,...,64; explicit Haar-mask pruning at h=9,10,11",
+   "owner": "US",
+   "nonclaims": [
+    "does not pay the residual m=128 widths h=4,...,11",
+    "does not prove a uniform primitive shift-pair estimate at levels m>=256",
+    "does not close the full upstream exact second-moment ledger or our HGE4 aggregate"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "2beee8a9",
     "his_sha": "b13de811"
    }
   },

@@ -1,8 +1,7 @@
 # averaged_slope_conversion
 
-- **status:** PROVED
-- **closure:** proof
-- **refs (legacy repo):** ['proof_sketch/s2_paid_ledger.md#6']
+- **status:** see `dag.json` (single source of truth; DAG status `CONDITIONAL`)
+- **refs (legacy repo):** `proof_sketch/s2_paid_ledger.md#6`
 
 ## Statement
 
@@ -20,8 +19,13 @@ then some received pair has at least `B` distinct finite bad slopes.
 
 For the prize's strict unsafe inequality, set `B=B*+1`; row use therefore
 requires `nu(A)>B*`, together with a supplied post-paid ownership and ambient-
-field certificate.
+field certificate. The implication is intact, but prize use is conditional on
+the TARGET node `averaged_xr`, which must supply the slope-resolved second
+moment in the required post-paid support-family scope.
 
 ## Ledger (migrated notes)
 
-s2 fork F2: plausibly provable (second moment + paid-fiber exclusion); needed exactly when zone-(b) is collided | PROOF WRITTEN in flight (#212): FM1 + slope-resolved second moment + v8 cap + explicit paid-fiber exclusion; verifier green. Their honest caveat: stated for post-paid support families — row use still needs the paid-excluded strict-overlap profile. | PROVED (Codex red-node pass): the proof is local to the post-paid support-family scope; row use still depends on supplying that scoped family.
+s2 fork F2: the local conversion is proved for a post-paid support family, but
+the required slope-resolved second moment remains conditional on
+`averaged_xr`. Row use additionally must supply the paid-excluded
+strict-overlap profile.

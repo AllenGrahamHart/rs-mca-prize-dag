@@ -8,13 +8,16 @@ For supports S, T of size k+t at exchange distance s, the dimension of
     codim(s,t) = t + min(s,t)     (exactly; s ≥ t is exact independence).
 
 Hence:
-- averaged_xr's stated shell cost q^{-min(s,t)} (conditional cost of the
-  second event) is CORRECT as used — its statement and proof stand.
+- the same-slope shell cost `q^(-min(s,t))`, as a conditional second-event
+  cost, is exact;
 - qx13's ledger c(s,t) = min(s, t-1) is the ANCHORED rank — one dimension
   spent on the anchor/projectivization — correct in its own convention.
 - The "off-by-one" is a convention dictionary entry, not an error. Each
-  consumer uses its own form; the dictionary is now pinned by the exact
-  table in verify.py.
+  form is pinned by the exact table in `verify.py`.
+
+This computation does not establish cross-slope independence, worst-case
+de-correlation, or the Johnson-scheme variance bound. It is therefore
+evidence for, not a proof of, `averaged_xr`.
 
 ## Verifier
 
