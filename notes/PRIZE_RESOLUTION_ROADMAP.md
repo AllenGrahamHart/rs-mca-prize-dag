@@ -4175,3 +4175,29 @@ next route-deciding action: filter those signatures against the three residual
                               profiles and prove a chord-origin exclusion or
                               isolate a finite realizable survivor family
 ```
+
+**2026-07-27, E34 parity collapse and light-Sidon pin:** integer parity of the
+signed chord formula removes two of the three quotient survivors without a
+new computation.
+
+```text
+starting pin: local 23d41df7
+ending proof pin: local ad8d994a
+node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
+result: NARROWED; sole magnitude profile (6,7), with L=20
+structural delta: the six unit-product chords occupy six distinct
+                  non-diameter classes; the four light positions are
+                  circular Sidon for unoriented differences modulo 128
+signed ledger: D_64 in {0,4,8,12,16,20} and
+               C=-34+D_64/2 in {-34,-32,-30,-28,-26,-24}
+DAG delta: one PROVED background node and four edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute spend: none; exact parity and matching arithmetic only
+new assumptions: none
+route decision: the 41 signatures are not three independent profile sieges;
+                they are heavy-chord collision patterns around one light-Sidon
+                support. Classify that smaller object before any support search.
+next route-deciding action: quotient the 41 signatures by the six diameter
+                              ledgers and identify the forced heavy-light or
+                              heavy-heavy progression/parallelogram templates
+```
