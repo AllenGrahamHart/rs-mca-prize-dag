@@ -167,7 +167,7 @@ def main():
     require(nodes[sparse_l1]["status"] == "PROVED",
             "N=256 sparse-L1 variance exclusion regressed")
     sparse_l1_statement = nodes[sparse_l1]["statement"].lower()
-    require("96<=v<=134" in sparse_l1_statement and "v<=94" in sparse_l1_statement,
+    require("90<=v<=134" in sparse_l1_statement and "v<=88" in sparse_l1_statement,
             "N=256 sparse-L1 residual is missing")
     require((n256_s16, sparse_l1, "req") in edges,
             "sparse-L1 exclusion lost its variance parent")
@@ -197,7 +197,7 @@ def main():
     require(nodes[signed_chord]["status"] == "PROVED",
             "N=256 signed-chord gate regressed")
     signed_chord_statement = nodes[signed_chord]["statement"].lower()
-    require("c<=-17" in signed_chord_statement and "circular sidon" in signed_chord_statement,
+    require("c<=-19" in signed_chord_statement and "circular sidon" in signed_chord_statement,
             "N=256 signed-chord conclusion is missing")
     require((sparse_l1, signed_chord, "req") in edges,
             "signed-chord gate lost its sparse-L1 parent")

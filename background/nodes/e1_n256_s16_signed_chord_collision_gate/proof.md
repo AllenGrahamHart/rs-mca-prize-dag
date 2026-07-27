@@ -52,14 +52,14 @@ with a light vertex, and two light vertices:
 D_64<=4*4+4*1+1*1=21.                                 (4)
 ```
 
-Since the surviving variance is even and at most 94, `V/2<=47`.
+Since the surviving variance is even and at most 88, `V/2<=44`.
 Equations (1) and (4) imply
 
 ```text
-2C=V/2-102+D_64 <= 47-102+21=-34,
+2C=V/2-102+D_64 <= 44-102+21=-37,
 ```
 
-so the integer `C` satisfies `C<=-17`.
+so the integer `C` satisfies `C<=-19`.
 
 The negative total forces at least one negative product `w_e w_f`
 between two distinct chords of the same non-diameter circular length. If the

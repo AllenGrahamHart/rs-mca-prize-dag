@@ -223,7 +223,53 @@ def main() -> None:
         delta_4_plus_2_minimum,
         delta_6_minimum,
     ) == (52, 52, 60, 52, 52)
-    special_l1_bounds = {48: 26, 49: 27, 50: 28, 51: 27, 52: 28}
+    assert 4 * (42 - 28) - (102 - 47) == 1
+    assert 4 * (42 - 27) - (102 - 47) == 5
+    assert 12 * 4 + 4 + 3 > 47
+    assert 4 * (42 - 26) - (102 - 47) == 9
+    delta_6_after_unit_minimum = min(
+        4 * (12 - count_2) + (5 - count_1) + class_sum * class_sum
+        for count_2, count_1, class_sum in expected_low_slack_patterns[6]
+    )
+    delta_4_plus_2_after_unit_minimum = min(
+        4 * (12 - count_2)
+        + (5 - 2 - count_1)
+        + class_sum * class_sum
+        + 4
+        for count_2, count_1, class_sum in expected_low_slack_patterns[4]
+    )
+    assert (
+        11 * 4 + 3 + 4,
+        delta_6_after_unit_minimum,
+        delta_4_plus_2_after_unit_minimum,
+    ) == (51, 51, 51)
+    assert 1 + 3 * 2 > 6
+    assert 4 * (42 - 28) - (102 - 46) == 0
+    assert 12 * 4 + 6 > 46
+    assert 4 * (42 - 27) - (102 - 46) == 4
+    assert (11 * 4 + 6, 11 * 4 + 5 + 1, 12 * 4 + 2 * 4 + 2) == (
+        50,
+        50,
+        58,
+    )
+    assert 4 * (42 - 27) - (102 - 45) == 3
+    assert 12 * 4 + 5 > 45
+    assert 4 * (42 - 26) - (102 - 45) == 7
+    assert (11 * 4 + 5, 11 * 4 + 4 + 1, 12 * 4 + 2 * 4 + 1) == (
+        49,
+        49,
+        57,
+    )
+    special_l1_bounds = {
+        45: 25,
+        46: 26,
+        47: 25,
+        48: 26,
+        49: 27,
+        50: 28,
+        51: 27,
+        52: 28,
+    }
 
     e50_witness = {
         48: -2,
@@ -311,7 +357,74 @@ def main() -> None:
     assert optimized_decay_96 == Fraction(26224, 36225)
     assert taylor(optimized_decay_96, 3) > 2
 
-    excluded = [96, 98, 100]
+    third_linear = Fraction(43, 630)
+    third_quadratic = Fraction(1, 1260)
+    assert 2 * third_quadratic == Fraction(1, 630)
+    assert third_linear + 16 * 2 * third_quadratic == Fraction(59, 630)
+    assert 2 * third_quadratic * 14 * 45 == 1
+    assert (
+        optimized_allowance
+        - 2 * third_linear
+        - 4 * third_quadratic
+        == optimized_allowance - Fraction(44, 315)
+    )
+    assert (
+        optimized_allowance
+        + 50 * third_linear
+        - 50**2 * third_quadratic
+        == Fraction(1507, 1050)
+    )
+    assert 16 + 2 * special_l1_bounds[47] == 66
+    assert (
+        alternating_log_lower(Fraction(1, 7), 4)
+        + optimized_allowance
+        > Fraction(44, 315)
+    )
+    assert taylor(Fraction(1507, 1050), 4) > Fraction(33, 8)
+    optimized_decay_94 = Fraction(32, 3) * (
+        Fraction(47, 630) - optimized_allowance
+    )
+    assert optimized_decay_94 == Fraction(3424, 4725)
+    assert taylor(optimized_decay_94, 3) > 2
+
+    tight_allowance = Fraction(1, 160)
+    assert (
+        alternating_log_lower(Fraction(1, 7), 4)
+        + tight_allowance
+        > Fraction(45, 322)
+    )
+    assert (
+        tight_allowance
+        + 52 * second_linear
+        - 52**2 * second_quadratic
+        == Fraction(37601, 25760)
+    )
+    assert taylor(Fraction(37601, 25760), 5) > Fraction(17, 4)
+    optimized_decay_92 = Fraction(32, 3) * (
+        Fraction(23, 322) - tight_allowance
+    )
+    assert optimized_decay_92 == Fraction(73, 105)
+    assert taylor(optimized_decay_92, 4) > 2
+
+    assert (
+        alternating_log_lower(Fraction(1, 7), 4)
+        + tight_allowance
+        > Fraction(44, 315)
+    )
+    assert (
+        tight_allowance
+        + 50 * third_linear
+        - 50**2 * third_quadratic
+        == Fraction(1607, 1120)
+    )
+    assert taylor(Fraction(1607, 1120), 4) > Fraction(33, 8)
+    optimized_decay_90 = Fraction(32, 3) * (
+        Fraction(1, 14) - tight_allowance
+    )
+    assert optimized_decay_90 == Fraction(73, 105)
+    assert taylor(optimized_decay_90, 4) > 2
+
+    excluded = [90, 92, 94, 96, 98, 100]
     for lower_v, upper_v, upper_energy, upper_l1, bound, denominator, method in ROWS:
         energies = range(lower_v // 2, upper_energy + 1)
         if method == "slack":
@@ -334,7 +447,7 @@ def main() -> None:
         assert taylor(six_bit_exponent, 9) > 2
         excluded.extend(range(lower_v, upper_v + 1, 2))
 
-    assert excluded == list(range(96, 136, 2))
+    assert excluded == list(range(90, 136, 2))
 
     dag = json.loads((ROOT / "dag.json").read_text())
     statuses = {entry["id"]: entry["status"] for entry in dag["nodes"]}
@@ -349,12 +462,12 @@ def main() -> None:
     assert (NORM_PARENT, NODE, "req") in edges
     assert (NODE, E1_TARGET, "ev") in edges
     assert (NODE, UNIVERSAL_TARGET, "ev") in edges
-    assert "96<=V<=134" in statements[NODE]
-    assert "V<=94" in statements[NODE]
+    assert "90<=V<=134" in statements[NODE]
+    assert "V<=88" in statements[NODE]
 
     print(
         "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS "
-        "excluded=20 residual_max=94 majorants=12"
+        "excluded=23 residual_max=88 majorants=15"
     )
 
 

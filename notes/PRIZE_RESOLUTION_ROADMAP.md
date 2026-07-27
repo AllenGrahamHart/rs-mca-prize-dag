@@ -977,8 +977,8 @@ matching of weight at most 21. Expanding the exact negacyclic energy gives
 V/2=102-D_64+2C.
 ```
 
-The currently sharpened residual `V<=94` therefore forces signed
-repeated-distance cross sum `C<=-17`. Every live support has an
+The currently sharpened residual `V<=88` therefore forces signed
+repeated-distance cross sum `C<=-19`. Every live support has an
 oppositely signed pair of equal
 non-diameter chords and hence a three-term-progression or four-point
 parallelogram relation. This removes all circular-Sidon supports and turns the
@@ -1078,6 +1078,22 @@ A second exact majorant with roots `(14,46)`, linear coefficient
 The residual is positive even `V<=94`, and the signed-chord gate
 strengthens to `C<=-17`. Both arguments use short rational Taylor
 certificates and no new computation. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N37 DONE, E1 N=256 SLACK-NINE AND TIGHT-INTERCEPT MAJORANTS: exact charge
+decompositions give
+
+```text
+E=47 => L<=25,
+E=46 => L<=26,
+E=45 => L<=25.
+```
+
+Derivative-root majorants with pairs `(14,45)` and `(14,46)`, using
+allowances `1/150` or `1/160` as appropriate, exclude
+`V=94,92,90`. The residual is positive even `V<=88`, and the
+signed-chord gate strengthens to `C<=-19`. All minimum and six-bit
+checks are exact rational Taylor inequalities. See
 `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the

@@ -205,11 +205,49 @@ chords in zero-slack classes. Every case exceeds 48, so
 E=48 implies L<=26.                                  (10)
 ```
 
+For `E=47`, (3) gives `L<=28`. The value `L=28`
+would give the impossible `Delta=1`; the value `L=27` gives
+`Delta=5`, forcing one unit diameter and one slack-two class. Their
+energy plus the twelve magnitude-two and three remaining unit classes is at
+least `4+48+3=55`, so `L<=26`.
+
+If `L=26`, then `Delta=9`. Diameter chords form a matching on
+the four light vertices, so there are at most two unit diameters. Parity then
+forces exactly one unit diameter, leaving total charge six. The possibilities
+are a magnitude-two diameter plus a slack-two class, one slack-six class, a
+slack-four plus a slack-two class, or three slack-two classes. The last would
+consume six unit chords after the unit diameter and is impossible; the first
+three have energy at least 51 by the displayed local patterns. Hence
+
+```text
+E=47 implies L<=25.                                  (11)
+```
+
+For `E=46`, equality in (3), namely `L=28`, has
+`Delta=0` and energy at least 54. If `L=27`, then
+`Delta=4`. The positive charge is either one magnitude-two diameter,
+one slack-four class, or two slack-two classes. Their respective energy lower
+bounds are 50, 50, and 58. Thus
+
+```text
+E=46 implies L<=26.                                  (12)
+```
+
+For `E=45`, (3) gives `L<=27`. Equality has
+`Delta=3`, forcing a unit diameter and energy at least 53. If
+`L=26`, then `Delta=7`, forcing one unit diameter together with
+one magnitude-two diameter, one slack-four class, or two slack-two classes.
+The corresponding energy lower bounds are 49, 49, and 57. Therefore
+
+```text
+E=45 implies L<=25.                                  (13)
+```
+
 If `y_u=|F(zeta^u)|^2` for odd `u`, then the mean of the
 `y_u` is 16. Autocorrelation antisymmetry gives
 
 ```text
-|y_u-16|<=2L.                                         (11)
+|y_u-16|<=2L.                                         (14)
 ```
 
 We first exclude `V=100` and `V=98`. Equations (8)--(9) give
@@ -293,6 +331,61 @@ q=(32/3)(12/161-1/150)=26224/36225.
 Its degree-three positive exponential truncation exceeds two, so the norm is
 strictly below `2^250`. This excludes `V=96`.
 
+For `V=94`, equation (11) gives `0<y_u<=66`. On this
+interval use
+
+```text
+h_3(x)=log 16+1/150+(43/630)(x-16)-(x-16)^2/1260-log x.
+```
+
+The derivative is `-(x-14)(x-45)/(630x)`, so the minima are
+14 and 66. Exact rational comparisons give
+
+```text
+h_3(14)=log(8/7)+1/150-44/315>0,
+h_3(66)=1507/1050-log(33/8)>0.
+```
+
+Degree-four Taylor truncations certify both inequalities. After averaging,
+
+```text
+q=(32/3)(47/630-1/150)=3424/4725;
+```
+
+its degree-three exponential truncation exceeds two. Hence `V=94` is
+excluded.
+
+For `V=92`, equation (12) gives the same ceiling 68 used by
+`h_2`, but the allowance must be tightened from `1/150` to
+`1/160`. The derivative roots remain 14 and 46, while
+
+```text
+h_2(14)=log(8/7)+1/160-45/322>0,
+h_2(68)=37601/25760-log(17/4)>0.
+```
+
+Degree-four logarithm and degree-five exponential truncations certify the
+minima. The averaged decay is
+
+```text
+q=(32/3)(23/322-1/160)=73/105,
+```
+
+whose degree-four exponential truncation exceeds two. Thus `V=92` is
+excluded.
+
+Finally `V=90` has ceiling 66 by (13). Use the root pair
+`(14,45)` from `h_3`, again with allowance `1/160`. The
+two minimum checks become
+
+```text
+log(8/7)+1/160-44/315>0,
+1607/1120-log(33/8)>0.
+```
+
+Both use degree-four truncations, and the averaged decay is again
+`q=73/105`. This excludes `V=90`.
+
 Apply (6)--(7) to the two new endpoint rows, (3) to the next two
 low-variance blocks, and (1) to the five existing upper blocks:
 
@@ -343,7 +436,7 @@ and their mean square is `V`, giving
 
 ```text
 log G<=log 16-V/C,
-|Norm(F(zeta))|=G^64<=2^256 exp(-64V/C).               (12)
+|Norm(F(zeta))|=G^64<=2^256 exp(-64V/C).               (15)
 ```
 
 For each row use its minimum `V` and put `q=32V/(3C)`.
@@ -353,7 +446,7 @@ The degree-nine positive Taylor truncation verifies exactly that
 sum_(j=0)^9 q^j/j! > 2.
 ```
 
-Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (12)
+Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (15)
 is strictly below `2^250`. The collision-norm criterion excludes
 every listed variance. Since `V` is even, only
-`0<V<=94` remains.
+`0<V<=88` remains.

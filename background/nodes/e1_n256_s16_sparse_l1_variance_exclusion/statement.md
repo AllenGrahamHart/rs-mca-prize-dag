@@ -9,14 +9,14 @@ from the parent theorem. Then no pair-feasible row-prime collision is possible
 when
 
 ```text
-96<=V<=134.
+90<=V<=134.
 ```
 
 Together with the zero- and high-variance exclusion, every unresolved vector
 in this profile therefore satisfies
 
 ```text
-0<V<=94,       V even.
+0<V<=88,       V even.
 ```
 
 The improvement uses autocorrelation sparsity and the profile's chord weights.
@@ -30,11 +30,11 @@ lemma gives
 4L<=E+66.
 ```
 
-An exact classification of the low-slack chord classes improves the endpoint
-ceilings to `L<=26,27,28,27,28` at `E=48,...,52`.
-Every conjugate square obeys `y_u<=16+2L`. Two optimized quadratic
-majorants exclude `V=96,98,100`; nine exact mean-tangent majorants
-handle the remaining range and put the norm strictly below `2^250`
-throughout the statement.
+An exact classification of the low-slack chord classes gives the needed
+L1 ceilings at every energy from 45 through 52. Every conjugate square obeys
+`y_u<=16+2L`. Five optimized quadratic row certificates exclude
+`V=90,92,94,96,98,100`; nine exact mean-tangent majorants handle the
+remaining range and put the norm strictly below `2^250` throughout the
+statement.
 
-This does not classify or exclude the positive even residual `V<=94`.
+This does not classify or exclude the positive even residual `V<=88`.
