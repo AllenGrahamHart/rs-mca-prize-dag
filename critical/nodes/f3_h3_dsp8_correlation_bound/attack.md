@@ -18,6 +18,17 @@ quotient-collision spoke. The preferred vacuity fallback is the exact
 `G_12^neq|H_D` certificate. These routes are alternatives and their
 certificates must not be mixed.
 
+After the proved Mattarei nodal payment, the exact smooth target is
+
+```text
+10G_sm^0+17G_sm^A <=(36086/25)n^2                 (uniform),
+10G_sm^0+17G_sm^A <=(45636/25)n^2                 (p=2 mod 3).
+```
+
+Here `G_sm` retains every richness, signed-disjointness, class, target, and
+quotient-line predicate. A point bound on one smooth trace or an unweighted
+elliptic-curve energy is not enough unless it transports to this ledger.
+
 Before any fixed-order campaign, try the exact paired-PGL2 rectangle theorem
 
 ```text

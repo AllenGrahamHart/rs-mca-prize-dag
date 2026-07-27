@@ -178,6 +178,25 @@ live raw `G=4K` allowance `48536/25`; even in the three-root case more than
 is still open, so this does not prove DSP8. The target-divisor pruning node
 separately retains the exact signed-disjoint live residual.
 
+PROVED SMOOTH RESIDUAL ROUTER: split the raw trace ledger as
+
+```text
+G_25^c=G_sm^c+G_sing^c,
+W_sm=10G_sm^0+17G_sm^A.
+```
+
+The current raw uniform allowance is `(48536/25)n^2`. Subtracting the proved
+nodal payments shows that DSP8 follows from
+
+```text
+W_sm<=(45636/25)n^2   if p=2 (mod 3),
+W_sm<=(36086/25)n^2   if p=1 (mod 3).
+```
+
+Thus the exact uniform frontier is `W_sm<=(36086/25)n^2`, equivalently
+`10K_sm^0+17K_sm^A<=(18043/50)n^2`. This is the remaining smooth assertion,
+not a proved estimate.
+
 PROVED NODAL TRACE-ORBIT ENERGY ROUTER: restrict each singular trace to its
 internally signed-distinct ordered point presentations and write their counts
 as `N_c`. Every unordered triple has exactly six presentations, while a
