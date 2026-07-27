@@ -84,6 +84,10 @@ e1_n256_s16_e30_two_odd_profile_exclusion [PROVED]
 e1_n256_s16_e30_profile_422_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+collision_norm_criterion [PROVED]
+    --requirement--> e1_first_band_variance_route_boundary [PROVED route cut]
+    --evidence-------------------------------------------> e1_official_prime_exception_control [TARGET]
+
 e1_official_prime_exception_control [TARGET]
     -> e1_fullness [CONDITIONAL]
 ```
@@ -134,9 +138,11 @@ the live positive even frontier to `V<=50`. The proved E25 reduction leaves
 nine profiles on 111 one-diameter affine templates. Its joint exclusion uses
 two independent 2,203,120,896-vector censuses, conductor, and exact FLINT/PARI
 norms for 16,984 primitive exceptions. The E25 endpoint closes `V=50` and
-advances the frontier to `V<=48`. The fixed cubic-Hermite majorant is dead at
-and below that frontier, so this remains evidence rather than a universal
-close.
+advances the frontier to `V<=48`. The source-pinned and independently
+reconstructed `e1_first_band_variance_route_boundary` proves that the fixed
+cubic-Hermite majorant has negative optimistic margin already at `M_3=0` at
+every remaining even level. This route cut is evidence rather than a
+universal close: finite geometric routing and exact norms remain necessary.
 The proper-conductor theorem also removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing

@@ -1605,6 +1605,32 @@
    "notes": "ENDPOINT CLOSURE 2026-07-27: the entire E25 chamber is empty. The fixed cubic-Hermite majorant has no positive cutoff below this point."
   },
   {
+   "id": "e1_first_band_variance_route_boundary",
+   "title": "E1 first-band cubic-Hermite variance route boundary",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_first_band_variance_route_boundary/statement.md",
+    "background/nodes/e1_first_band_variance_route_boundary/proof.md",
+    "background/nodes/e1_first_band_variance_route_boundary/claim_contract.md",
+    "background/nodes/e1_first_band_variance_route_boundary/dependency_subdag.md",
+    "background/nodes/e1_first_band_variance_route_boundary/audit.md",
+    "background/nodes/e1_first_band_variance_route_boundary/result.md",
+    "background/nodes/e1_first_band_variance_route_boundary/source_pin.json",
+    "background/nodes/e1_first_band_variance_route_boundary/verify.py",
+    "background/nodes/e1_first_band_variance_route_boundary/verify_audit.py",
+    "background/nodes/e1_first_band_variance_route_boundary/upstream/rs-mca/experimental/data/certificates/e1-first-band-variance-route-boundary-v1/e1_first_band_variance_route_boundary_v1.json",
+    "background/nodes/e1_first_band_variance_route_boundary/upstream/rs-mca/experimental/notes/e1/e1_first_band_variance_route_boundary_v1.md",
+    "background/nodes/e1_first_band_variance_route_boundary/upstream/rs-mca/experimental/scripts/verify_e1_first_band_variance_route_boundary_v1.py"
+   ],
+   "statement": "For the fixed N=256, square-mass-16, profile-(3,4,0) cubic-Hermite majorant, the margin is affine in (V,M_3), strictly decreasing in M_3, and its boundary slope lies in (107,108). The exact threshold at V=50 is 13, while the optimistic margin at M_3=0 is negative for every even V in 2..48. Thus the fixed majorant decides no residual chamber whose maximum M_3 is nonnegative; this route cut decides no variance level and proves no collision exclusion.",
+   "notes": "SOURCE-PINNED ROUTE CUT 2026-07-27: exact import and independent 53-term rational replay of upstream PR #1110 at 52775686c8f181c08d36de66d3ce0d3b556f8d74. Emptiness and direct exact norms remain viable below V=50.",
+   "upstream": {
+    "label": "E1 first-band variance route boundary v1",
+    "relation": "IDENTICAL"
+   }
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -34579,6 +34605,21 @@
   },
   {
    "from": "e1_n256_s16_e25_endpoint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_first_band_variance_route_boundary",
+   "kind": "req"
+  },
+  {
+   "from": "e1_first_band_variance_route_boundary",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_first_band_variance_route_boundary",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   }

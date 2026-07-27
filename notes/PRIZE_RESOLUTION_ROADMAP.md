@@ -5124,8 +5124,10 @@ strict margin: 2*N_max<2^250<3*N_max; bit length 249
 result: all nine profiles CLOSED; V=50 endpoint CLOSED
 live positive even variance frontier: V<=48
 new assumptions: none
-route boundary: PR #1110 proves the fixed majorant has negative margin even
-                at M_3=0 for every even V<=48
+route boundary: local PROVED node e1_first_band_variance_route_boundary,
+                imported exactly from PR #1110 at 52775686, proves the fixed
+                majorant has negative optimistic margin even at M_3=0 for
+                every even V<=48; it closes no variance level
 route decision: derive the exact E24 profile/parity/light router without a
                 cubic cutoff. Price a count-only actual-vector pass before
                 retaining every primitive vector for direct exact norms.

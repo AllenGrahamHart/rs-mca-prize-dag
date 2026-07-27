@@ -1360,6 +1360,30 @@
     "our_sha": "da8b9a85",
     "his_sha": "b13de811"
    }
+  },
+  {
+   "our_node": "e1_first_band_variance_route_boundary",
+   "his_object": {
+    "label": "E1 first-band variance route boundary v1",
+    "file": "experimental/notes/e1/e1_first_band_variance_route_boundary_v1.md",
+    "line": "Theorem (route boundary)"
+   },
+   "relation": "IDENTICAL",
+   "chain": "independent local 53-term exact-rational reconstruction and hostile-mutation replay",
+   "scope": "the fixed N=256 square-mass-16 profile-(3,4,0) cubic-Hermite majorant only: exact V=50 threshold 13 and dead even levels 2..48",
+   "owner": "HIM",
+   "nonclaims": [
+    "no variance level or autocorrelation profile is excluded",
+    "no exact norm, collision-pair allowance, row, or prize terminal is decided",
+    "no claim about profile (4,2,0), later bands, or N other than 256"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved route cut in unmerged PR #1110",
+   "lean": null,
+   "provenance": {
+    "our_sha": "d8ac6722",
+    "his_sha": "52775686c8f181c08d36de66d3ce0d3b556f8d74"
+   }
   }
  ]
 }

@@ -2,57 +2,33 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 6,
+    "PASS": 3,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e25_endpoint_exclusion/verify.py",
-      "seconds": 0.030626,
+      "script": "background/nodes/e1_first_band_variance_route_boundary/upstream/rs-mca/experimental/scripts/verify_e1_first_band_variance_route_boundary_v1.py",
+      "seconds": 0.03706,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E25_ENDPOINT_EXCLUSION_PASS profiles=9 exclusions=9 frontier=48 mutations=4\n"
+      "stdout_tail": "E1_FIRST_BAND_VARIANCE_ROUTE_BOUNDARY_PASS fitted=[1947, 1732, 1517] out_of_sample=[1302, 1087] slope_in=(107,108) last_live_even_V=50 threshold_at_50=13 dead_even_V=2..48 mutations=2\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e25_endpoint_exclusion/verify_audit.py",
-      "seconds": 0.012404,
+      "script": "background/nodes/e1_first_band_variance_route_boundary/verify.py",
+      "seconds": 0.078162,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E25_ENDPOINT_EXCLUSION_AUDIT_PASS mutations=4/4\n"
+      "stdout_tail": "E1_FIRST_BAND_VARIANCE_ROUTE_BOUNDARY_LOCAL_PASS pins=5 thresholds=6 dead_levels=24 edges=3 upstream_mutations=2\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e25_nine_profile_exclusion/verify.py",
-      "seconds": 1.543163,
+      "script": "background/nodes/e1_first_band_variance_route_boundary/verify_audit.py",
+      "seconds": 0.025496,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E25_NINE_PROFILE_EXCLUSION_PASS templates=111 vectors=2203120896 profile=31686 exceptions=31280 full=16984 max_bits=249 engines=4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e25_nine_profile_exclusion/verify_audit.py",
-      "seconds": 1.390957,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E25_NINE_PROFILE_EXCLUSION_AUDIT_PASS checkers=2 engines=4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e25_profile_parity_light_reduction/verify.py",
-      "seconds": 0.062808,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E25_PROFILE_PARITY_LIGHT_REDUCTION_PASS profiles=12 survivors=9 templates=111 floor=2203120896\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e25_profile_parity_light_reduction/verify_audit.py",
-      "seconds": 0.04699,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E25_PROFILE_PARITY_LIGHT_REDUCTION_AUDIT_PASS independent_checker=1\n"
+      "stdout_tail": "E1_FIRST_BAND_VARIANCE_ROUTE_BOUNDARY_AUDIT_PASS terms=53 thresholds=6 dead_levels=24 slope_in=(107,108) mutations=2\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

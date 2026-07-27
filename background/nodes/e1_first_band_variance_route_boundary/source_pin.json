@@ -1,0 +1,16 @@
+{
+  "upstream_repository": "https://github.com/przchojecki/rs-mca",
+  "upstream_pull_request": 1110,
+  "upstream_head_commit": "52775686c8f181c08d36de66d3ce0d3b556f8d74",
+  "harvested_on": "2026-07-27",
+  "upstream_certificate_file": "background/nodes/e1_first_band_variance_route_boundary/upstream/rs-mca/experimental/data/certificates/e1-first-band-variance-route-boundary-v1/e1_first_band_variance_route_boundary_v1.json",
+  "upstream_certificate_file_sha256": "bc8a5eb253d18f7033c40fa1e2b7965637732f6337eb3b852acec4291ddd2770",
+  "upstream_note_file": "background/nodes/e1_first_band_variance_route_boundary/upstream/rs-mca/experimental/notes/e1/e1_first_band_variance_route_boundary_v1.md",
+  "upstream_note_file_sha256": "ef1ace5afb3030fb26abb51f0f797cbdff91f536d0b0d253b66ba2133e46117c",
+  "upstream_verifier_file": "background/nodes/e1_first_band_variance_route_boundary/upstream/rs-mca/experimental/scripts/verify_e1_first_band_variance_route_boundary_v1.py",
+  "upstream_verifier_file_sha256": "8f55a100fec6b8af7c20e0073de207db32dece08244af55d1a38d114b6d0f9fc",
+  "collision_norm_statement_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_statement_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
+  "collision_norm_proof_file": "critical/nodes/collision_norm_criterion/proof.md",
+  "collision_norm_proof_file_sha256": "c6ca1691161742fe26c201e48bf728608246fafeba28009bfd57a864d441f1fe"
+}
