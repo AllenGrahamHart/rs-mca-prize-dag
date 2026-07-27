@@ -4141,3 +4141,37 @@ campaign: 315 aggregate app seconds; conservative cost below $0.10
 next action: exact trace/Newton elimination on Psi_7=0, preferably by an
              external contributor or a future separately capped campaign
 ```
+
+**2026-07-27, N=256 variance-68 reduced to three exact profiles:** the common
+nested-layer compiler and one coupled inner-support census close every
+`E=34` magnitude profile except three equality cases. This replaces the
+earlier six-profile route boundary without promoting the universal unsafe
+target.
+
+```text
+starting pins: local ad97cb69; canonical dd76658c;
+               upstream origin/main b13de811
+ending proof pin: local e207280f
+canonical reconciliation: canonical 7f54beaa integrated at local 9b6393c9
+node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
+result: NARROWED; every pair-feasible collision now has profile
+        (6,7), (9,4,1), or (12,1,2), and all three have L=20
+exact closures: 18 abstract profiles have M_3<=1940; profiles (5,5,1)
+                and (14,1,0,1) have quotient caps <=1922; profile (2,8)
+                has coupled cap <=1942 and inner-4Z support cap 1536
+threshold: every excluded profile has M_3<=1942<1947
+DAG delta: one PROVED background node and six edges; critical status unchanged
+critical census after reconciliation: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute: ap-Ec22WlisgFjRNPFuigxlEy, ap-zx5C3lSHLdaYAZE2Ic0tZA,
+         ap-8xzV3fZniv8jms4V2EI19N; 71 seconds aggregate client wall;
+         conservative combined campaign cost below $0.45
+new assumptions: none
+upstream overlap: no open PR supplies this E34 signed-chord classification;
+                  #1107-#1109 remain the nearest live field/WCL packets
+route decision: no broader support enumeration or Modal run; first classify
+                the 41 exact L=20 relaxed signed-chord signatures and use
+                E=102-D_64+2C, which already sharpens C<=-22 to C<=-24
+next route-deciding action: filter those signatures against the three residual
+                              profiles and prove a chord-origin exclusion or
+                              isolate a finite realizable survivor family
+```
