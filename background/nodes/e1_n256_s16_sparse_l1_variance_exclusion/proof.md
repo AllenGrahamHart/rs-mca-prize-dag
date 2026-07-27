@@ -285,10 +285,13 @@ Direct substitution in this finite recurrence gives
 
 ```text
 Delta       0   1   2   3   4   5   6   7   8   9  10  11  12  13
-m(Delta)   54 inf  56  53  50  55  52  49  46  51  48  45  42  47.
+m(Delta)   54 inf  56  53  50  55  52  49  46  51  48  45  42  47
+
+Delta      14  15  16  17  18  19  20  21
+m(Delta)   44  41  38  43  40  37  34  39.
 ```
 
-For `2<=Delta<=13`, the same table is summarized by
+For `2<=Delta<=21`, the same table is summarized by
 
 ```text
 m(Delta)=54-Delta  if Delta=0 mod 4,
@@ -323,6 +326,17 @@ For `E=42`, bound (3) gives `L<=27`. The candidates
 For `E=41`, bound (3) gives `L<=26`. The candidates
 `L=26,25,24` have slacks `3,7,11`, whose relaxed minimum energies are
 `53,49,45`, all greater than 41. Hence `L<=23`.
+
+For `E=40`, bound (3) gives `L<=26`. The candidates
+`L=26,25,24,23` have slacks `2,6,10,14`, whose relaxed minimum
+energies are `56,52,48,44`, all greater than 40. At `L=22` the
+slack is 18 and the relaxed minimum is 40, so `L<=22`.
+
+For `E=39`, bound (3) again gives `L<=26`. The candidate `L=26`
+has infeasible slack one, while `L=25,24,23,22` have slacks
+`5,9,13,17` and relaxed minimum energies `55,51,47,43`, all greater
+than 39. At `L=21` the slack is 21 and the relaxed minimum is 39, so
+`L<=21`.
 
 If `y_u=|F(zeta^u)|^2` for odd `u`, then the mean of the
 `y_u` is 16. Autocorrelation antisymmetry gives
@@ -653,7 +667,87 @@ After the same power-of-two range reduction, the strict margin is
 The same eight-term atanh bounds certify it exactly. Therefore the norm is
 again strictly below `2^250`, excluding `V=82`.
 
-Apply (6)--(7) to the two new endpoint rows, (3) to the next two
+For `V=80`, the relaxed endpoint bound gives `E=40,L<=22`. The 34
+admissible integer magnitude profiles have layer cap
+
+```text
+M_3<=3224,
+```
+
+with largest ledger at `(n_1,...,n_6)=(4,9,0,0,0,0)`. Let `p_58`
+be the cubic Hermite interpolant to `log` at 14 and 58. It is again a global
+majorant. Its leading coefficient is
+
+```text
+gamma_58=(log 14-log 58)/42592+9/196504>0.
+```
+
+Indeed `log(29/7)<3/2`, since the first four positive terms of
+`exp(3/2)` sum to `67/16>29/7`, and
+`9/196504-3/(2*42592)>0`. The raw moments now obey
+
+```text
+mean y_u^2=336,       mean y_u^3=7936+M_3<=11160.
+```
+
+Exact substitution gives
+
+```text
+mean log y_u
+ <=(5095/5324)log 14+(229/5324)log 58+355/49126
+ <(125/32)log 2.
+```
+
+After range reduction the strict margin is
+
+```text
+-(7657/42592)log 2
+ +(5095/5324)log(8/7)
+ +(229/5324)log(32/29)-355/49126 > 0.
+```
+
+Eight-term exact atanh bounds certify it, so `V=80` is excluded.
+
+For `V=78`, the endpoint recurrence gives `E=39,L<=21`. The 29
+admissible magnitude profiles have
+
+```text
+M_3<=3018,
+```
+
+with largest ledger at `(n_1,...,n_6)=(3,9,0,0,0,0)`. Use the cubic
+Hermite interpolant `p_57` at 14 and 57. Its leading coefficient
+
+```text
+gamma_57=2(log 14-log 57)/79507+71/1475502
+```
+
+is positive because `log(57/14)<3/2`, the same `67/16` exponential
+truncation exceeds `57/14`, and `71/1475502-3/79507>0`. With
+
+```text
+mean y_u^2=334,       mean y_u^3=7840+M_3<=10858,
+```
+
+exact substitution gives
+
+```text
+mean log y_u
+ <=(75917/79507)log 14+(3590/79507)log 57+538/105393
+ <(125/32)log 2.
+```
+
+The exact range-reduced margin is
+
+```text
+-(468281/2544224)log 2
+ +(75917/79507)log(8/7)
+ +(3590/79507)log(64/57)-538/105393 > 0.
+```
+
+The same atanh-series method certifies it, excluding `V=78`.
+
+Apply (6)--(7) to the optimized `V=102,104` rows, (3) to the next two
 low-variance blocks, and (1) to the five existing upper blocks:
 
 ```text
@@ -715,5 +809,7 @@ sum_(j=0)^9 q^j/j! > 2.
 
 Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (19)
 is strictly below `2^250`. The collision-norm criterion excludes
-every listed variance. Since `V` is even, only
-`0<V<=80` remains.
+every listed variance. Since `V` is even, only `0<V<=76` remains.
+The same two-contact cubic Hermite search does not certify the next row
+`V=76`; this is a method boundary, not a nonexistence claim for another
+logarithmic majorant.

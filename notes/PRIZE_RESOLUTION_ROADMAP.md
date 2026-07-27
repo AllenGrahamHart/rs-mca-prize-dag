@@ -977,8 +977,8 @@ matching of weight at most 21. Expanding the exact negacyclic energy gives
 V/2=102-D_64+2C.
 ```
 
-The currently sharpened residual `V<=80` therefore forces signed
-repeated-distance cross sum `C<=-21`. Every live support has an
+The currently sharpened residual `V<=76` therefore forces signed
+repeated-distance cross sum `C<=-22`. Every live support has an
 oppositely signed pair of equal
 non-diameter chords and hence a three-term-progression or four-point
 parallelogram relation. This removes all circular-Sidon supports and turns the
@@ -1148,6 +1148,23 @@ Hermite majorant at 14 and 60 puts the average logarithm strictly below
 `(125/32)log 2`, excluding `V=82`. The residual is positive even `V<=80`,
 and the signed-chord gate strengthens to `C<=-21`. See
 `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N41 DONE, E1 N=256 THIRD AND FOURTH CUBIC ENDPOINTS: extending the exact
+relaxed slack recurrence through global slack 21 gives `L<=22` at `E=40`
+and `L<=21` at `E=39`. The 34 and 29 compatible magnitude profiles have
+nested-layer caps
+
+```text
+M_3<=3224,       M_3<=3018,
+```
+
+with worst ledgers `(4,9,0,0,0,0)` and `(3,9,0,0,0,0)`. Cubic Hermite
+majorants at `(14,58)` and `(14,57)` have exactly certified positive
+six-bit margins, excluding `V=80` and `V=78`. The residual is positive even
+`V<=76`, and the signed-chord gate strengthens to `C<=-22`. The best tested
+two-contact cubic at `V=76` misses by about `0.002625`, so the next attack
+must add information rather than continue this cubic family mechanically.
+See `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it

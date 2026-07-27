@@ -51,3 +51,17 @@ Run `ap-dItYNX6JpwdGzaNEYisMOF` applied the same finite derivation at
 give exact layer cap `M_3<=3438`; and the same Hermite cubic at 14 and 60 has
 a positive six-bit margin. The local proof and verifier reproduce all three
 facts and exclude `V=82`; the Modal derivation remains non-load-bearing.
+
+## E=40 and E=39 endpoint
+
+Run `ap-f5KvYRxfkTJi4CyfddYXX1` mapped the same route through `E=20`.
+The local exact recurrence gives `L<=22` at `E=40` and `L<=21` at
+`E=39`. The corresponding 34 and 29 integer profiles have layer caps
+`M_3<=3224` and `M_3<=3018`. Hermite cubics at `(14,58)` and `(14,57)`
+have exact positive margins, excluding `V=80` and `V=78`; all facts are
+replayed without Modal in the node verifier.
+
+At `E=38` (`V=76`), the same run finds `L<=22`, layer cap `M_3<=3012`,
+and best tested two-contact cubic margin approximately
+`-0.00262488212622`. This is a boundary for that enumerated cubic family,
+not a proof that every higher-moment or geometry-sensitive majorant fails.

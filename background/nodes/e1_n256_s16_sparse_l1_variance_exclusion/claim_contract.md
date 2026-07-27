@@ -8,8 +8,8 @@
 
 ## Output
 
-Variances `82,84,...,134` are collision-free. The unresolved
-profile-`(3,4,0)` residual is positive even `V<=80`.
+Variances `78,80,...,134` are collision-free. The unresolved
+profile-`(3,4,0)` residual is positive even `V<=76`.
 
 ## Guards
 
@@ -21,7 +21,7 @@ profile-`(3,4,0)` residual is positive even `V<=80`.
    raw chord magnitudes: three `4`s, twelve `2`s, and six `1`s.
 4. Diameter chords are removed from both raw mass ledgers before the
    classwise cancellation inequality is summed.
-5. The endpoint improvements at `E=43,...,52` use the exact local
+5. The endpoint improvements at `E=39,...,52` use the exact local
    slack classifications and a stated finite recurrence in a deliberately
    enlarged relaxation. The earlier exploratory geometry DP is not
    load-bearing.
@@ -30,11 +30,14 @@ profile-`(3,4,0)` residual is positive even `V<=80`.
    extrapolations of the mean-tangent table.
 7. Every logarithmic majorant uses the row-specific ceiling `B`.
 8. Endpoint and six-bit inequalities are exact rational Taylor comparisons.
-9. The `V=84,82` cubic certificates use all 42 and 39 integer
-   autocorrelation profiles at `E=42,L<=24` and `E=41,L<=23`, respectively;
-   their nested-layer counts upper-bound signed third moments and are not
-   realizability classifications.
-10. No claim is made for `0<V<=80` or profile `(4,2,0)`.
+9. The `V=84,82,80,78` cubic certificates use all 42, 39, 34, and 29
+   integer autocorrelation profiles at `E=42,L<=24`, `E=41,L<=23`,
+   `E=40,L<=22`, and `E=39,L<=21`, respectively. Their nested-layer
+   counts upper-bound signed third moments and are not realizability
+   classifications.
+10. No claim is made for `0<V<=76` or profile `(4,2,0)`.
+11. Failure of the tested cubic-Hermite family at `V=76` is only a route
+    boundary, not evidence that the row is feasible.
 
 ## Falsifier
 

@@ -371,7 +371,7 @@ def main() -> None:
         49,
         57,
     )
-    relaxed_slack_table = relaxed_minimum_energy_by_slack(13)
+    relaxed_slack_table = relaxed_minimum_energy_by_slack(21)
     assert relaxed_slack_table == [
         54,
         None,
@@ -387,9 +387,17 @@ def main() -> None:
         45,
         42,
         47,
+        44,
+        41,
+        38,
+        43,
+        40,
+        37,
+        34,
+        39,
     ]
     closed_form_slack_table = [54, None]
-    for slack in range(2, 14):
+    for slack in range(2, 22):
         intercept = {0: 54, 1: 60, 2: 58, 3: 56}[slack % 4]
         closed_form_slack_table.append(intercept - slack)
     assert relaxed_slack_table == closed_form_slack_table
@@ -412,7 +420,39 @@ def main() -> None:
         11,
     ]
     assert [relaxed_slack_table[slack] for slack in (3, 7, 11)] == [53, 49, 45]
+    assert [4 * (42 - l1) - (102 - 40) for l1 in (26, 25, 24, 23, 22)] == [
+        2,
+        6,
+        10,
+        14,
+        18,
+    ]
+    assert [relaxed_slack_table[slack] for slack in (2, 6, 10, 14, 18)] == [
+        56,
+        52,
+        48,
+        44,
+        40,
+    ]
+    assert [4 * (42 - l1) - (102 - 39) for l1 in (26, 25, 24, 23, 22, 21)] == [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+    ]
+    assert [relaxed_slack_table[slack] for slack in (1, 5, 9, 13, 17, 21)] == [
+        None,
+        55,
+        51,
+        47,
+        43,
+        39,
+    ]
     special_l1_bounds = {
+        39: 21,
+        40: 22,
         41: 23,
         42: 24,
         43: 23,
@@ -684,6 +724,14 @@ def main() -> None:
     assert len(energy_41_profiles) == 39
     assert max(energy_41_profiles) == (3438, (5, 9, 0, 0, 0, 0), 23)
     assert sum(cap == 3438 for cap, _, _ in energy_41_profiles) == 1
+    energy_40_profiles = energy_profiles(40, 22)
+    assert len(energy_40_profiles) == 34
+    assert max(energy_40_profiles) == (3224, (4, 9, 0, 0, 0, 0), 22)
+    assert sum(cap == 3224 for cap, _, _ in energy_40_profiles) == 1
+    energy_39_profiles = energy_profiles(39, 21)
+    assert len(energy_39_profiles) == 29
+    assert max(energy_39_profiles) == (3018, (3, 9, 0, 0, 0, 0), 21)
+    assert sum(cap == 3018 for cap, _, _ in energy_39_profiles) == 1
 
     log_14 = (Fraction(1), Fraction(0), Fraction(0))
     log_60 = (Fraction(0), Fraction(1), Fraction(0))
@@ -711,16 +759,18 @@ def main() -> None:
     )
 
     def evaluate_form_polynomial(
+        coefficients: tuple[tuple[Fraction, Fraction, Fraction], ...],
         value: int,
     ) -> tuple[Fraction, Fraction, Fraction]:
         return add_log_forms(
             *(
                 scale_log_form(Fraction(value**degree), coefficient)
-                for degree, coefficient in enumerate(hermite_coefficients)
+                for degree, coefficient in enumerate(coefficients)
             )
         )
 
     def evaluate_form_derivative(
+        coefficients: tuple[tuple[Fraction, Fraction, Fraction], ...],
         value: int,
     ) -> tuple[Fraction, Fraction, Fraction]:
         return add_log_forms(
@@ -728,19 +778,19 @@ def main() -> None:
                 scale_log_form(
                     Fraction(degree * value ** (degree - 1)), coefficient
                 )
-                for degree, coefficient in enumerate(hermite_coefficients)
+                for degree, coefficient in enumerate(coefficients)
                 if degree
             )
         )
 
-    assert evaluate_form_polynomial(14) == log_14
-    assert evaluate_form_polynomial(60) == log_60
-    assert evaluate_form_derivative(14) == (
+    assert evaluate_form_polynomial(hermite_coefficients, 14) == log_14
+    assert evaluate_form_polynomial(hermite_coefficients, 60) == log_60
+    assert evaluate_form_derivative(hermite_coefficients, 14) == (
         Fraction(0),
         Fraction(0),
         Fraction(1, 14),
     )
-    assert evaluate_form_derivative(60) == (
+    assert evaluate_form_derivative(hermite_coefficients, 60) == (
         Fraction(0),
         Fraction(0),
         Fraction(1, 60),
@@ -795,7 +845,93 @@ def main() -> None:
     )
     assert hermite_margin_82_lower > 0
 
-    excluded = [82, 84, 86, 88, 90, 92, 94, 96, 98, 100]
+    log_58 = (Fraction(0), Fraction(1), Fraction(0))
+    hermite_coefficients_58 = (
+        (Fraction(841, 1331), Fraction(490, 1331), Fraction(-445, 242)),
+        (Fraction(609, 10648), Fraction(-609, 10648), Fraction(9837, 49126)),
+        (Fraction(-27, 10648), Fraction(27, 10648), Fraction(-1093, 196504)),
+        (Fraction(1, 42592), Fraction(-1, 42592), Fraction(9, 196504)),
+    )
+    assert evaluate_form_polynomial(hermite_coefficients_58, 14) == log_14
+    assert evaluate_form_polynomial(hermite_coefficients_58, 58) == log_58
+    assert evaluate_form_derivative(hermite_coefficients_58, 14) == (
+        Fraction(0),
+        Fraction(0),
+        Fraction(1, 14),
+    )
+    assert evaluate_form_derivative(hermite_coefficients_58, 58) == (
+        Fraction(0),
+        Fraction(0),
+        Fraction(1, 58),
+    )
+    assert Fraction(67, 16) > Fraction(29, 7)
+    assert Fraction(9, 196504) - Fraction(3, 2 * 42592) > 0
+    assert 16**2 + 80 == 336
+    assert 16**3 + 3 * 16 * 80 + 3224 == 11160
+    expected_hermite_80 = add_log_forms(
+        hermite_coefficients_58[0],
+        scale_log_form(Fraction(16), hermite_coefficients_58[1]),
+        scale_log_form(Fraction(336), hermite_coefficients_58[2]),
+        scale_log_form(Fraction(11160), hermite_coefficients_58[3]),
+    )
+    assert expected_hermite_80 == (
+        Fraction(5095, 5324),
+        Fraction(229, 5324),
+        Fraction(355, 49126),
+    )
+    log_32_over_29_lower, _ = atanh_log_bounds(Fraction(32, 29), 8)
+    hermite_margin_80_lower = (
+        Fraction(-7657, 42592) * log_2_upper
+        + Fraction(5095, 5324) * log_8_over_7_lower
+        + Fraction(229, 5324) * log_32_over_29_lower
+        - Fraction(355, 49126)
+    )
+    assert hermite_margin_80_lower > 0
+
+    log_57 = (Fraction(0), Fraction(1), Fraction(0))
+    hermite_coefficients_57 = (
+        (Fraction(48735, 79507), Fraction(30772, 79507), Fraction(-3445, 1849)),
+        (Fraction(4788, 79507), Fraction(-4788, 79507), Fraction(301253, 1475502)),
+        (Fraction(-213, 79507), Fraction(213, 79507), Fraction(-4243, 737751)),
+        (Fraction(2, 79507), Fraction(-2, 79507), Fraction(71, 1475502)),
+    )
+    assert evaluate_form_polynomial(hermite_coefficients_57, 14) == log_14
+    assert evaluate_form_polynomial(hermite_coefficients_57, 57) == log_57
+    assert evaluate_form_derivative(hermite_coefficients_57, 14) == (
+        Fraction(0),
+        Fraction(0),
+        Fraction(1, 14),
+    )
+    assert evaluate_form_derivative(hermite_coefficients_57, 57) == (
+        Fraction(0),
+        Fraction(0),
+        Fraction(1, 57),
+    )
+    assert Fraction(67, 16) > Fraction(57, 14)
+    assert Fraction(71, 1475502) - Fraction(3, 79507) > 0
+    assert 16**2 + 78 == 334
+    assert 16**3 + 3 * 16 * 78 + 3018 == 10858
+    expected_hermite_78 = add_log_forms(
+        hermite_coefficients_57[0],
+        scale_log_form(Fraction(16), hermite_coefficients_57[1]),
+        scale_log_form(Fraction(334), hermite_coefficients_57[2]),
+        scale_log_form(Fraction(10858), hermite_coefficients_57[3]),
+    )
+    assert expected_hermite_78 == (
+        Fraction(75917, 79507),
+        Fraction(3590, 79507),
+        Fraction(538, 105393),
+    )
+    log_64_over_57_lower, _ = atanh_log_bounds(Fraction(64, 57), 8)
+    hermite_margin_78_lower = (
+        Fraction(-468281, 2544224) * log_2_upper
+        + Fraction(75917, 79507) * log_8_over_7_lower
+        + Fraction(3590, 79507) * log_64_over_57_lower
+        - Fraction(538, 105393)
+    )
+    assert hermite_margin_78_lower > 0
+
+    excluded = [78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100]
     for lower_v, upper_v, upper_energy, upper_l1, bound, denominator, method in ROWS:
         energies = range(lower_v // 2, upper_energy + 1)
         if method == "slack":
@@ -818,7 +954,7 @@ def main() -> None:
         assert taylor(six_bit_exponent, 9) > 2
         excluded.extend(range(lower_v, upper_v + 1, 2))
 
-    assert excluded == list(range(82, 136, 2))
+    assert excluded == list(range(78, 136, 2))
 
     dag = json.loads((ROOT / "dag.json").read_text())
     statuses = {entry["id"]: entry["status"] for entry in dag["nodes"]}
@@ -833,12 +969,12 @@ def main() -> None:
     assert (NORM_PARENT, NODE, "req") in edges
     assert (NODE, E1_TARGET, "ev") in edges
     assert (NODE, UNIVERSAL_TARGET, "ev") in edges
-    assert "82<=V<=134" in statements[NODE]
-    assert "V<=80" in statements[NODE]
+    assert "78<=V<=134" in statements[NODE]
+    assert "V<=76" in statements[NODE]
 
     print(
         "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS "
-        "excluded=27 residual_max=80 majorants=19"
+        "excluded=29 residual_max=76 majorants=21"
     )
 
 
