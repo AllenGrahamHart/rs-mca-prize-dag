@@ -909,6 +909,10 @@
    "title": "Exact slope-resolved support-pair moment",
    "status": "PROVED",
    "closure": "proof",
+   "upstream": {
+    "label": "M1 average support-collinearity / restricted-family certificate",
+    "relation": "IDENTICAL"
+   },
    "refs": [
     "critical/nodes/averaged_xr/statement.md",
     "critical/nodes/averaged_xr/proof.md",

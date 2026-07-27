@@ -71,6 +71,31 @@
    }
   },
   {
+   "our_node": "averaged_xr",
+   "his_object": {
+    "label": "M1 average support-collinearity / restricted-family certificate",
+    "file": "experimental/notes/m1/m1_average_support_collinearity.md",
+    "line": "Slope-Resolved Second Moment; Restricted Support-Family Certificate"
+   },
+   "relation": "IDENTICAL",
+   "chain": "averaged_xr",
+   "scope": "exact fixed-slope pair moment for deterministic families of exact (k+t)-supports over the ambient finite field",
+   "owner": "HIM",
+   "nonclaims": [
+    "not the broader worst-case XR or generalized von Neumann theorem",
+    "does not assert independence between different slopes",
+    "does not supply paid-family ownership or an official-row occupancy payload"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved",
+   "lean": null,
+   "provenance": {
+    "our_sha": "7fafaa78",
+    "his_sha": "b13de811",
+    "his_introducing_sha": "674503f72134eaed4a20f1944f1423b23744ce2c"
+   }
+  },
+  {
    "our_node": "identity_prefix_flexible_budget_unsafe_floor",
    "his_object": {
     "label": "identity-scale prefix floor + flexible-budget deep-point conversion",
