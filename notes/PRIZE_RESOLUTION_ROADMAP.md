@@ -4468,3 +4468,36 @@ route decision: quotient allocation is sufficient at equality; no chord-origin
 next route-deciding action: run the same exact quotient compiler for (1,8);
                               reserve heavy/light geometry for (5,7) if needed
 ```
+
+**2026-07-27, V=66 profile `(1,8)` close:** the quotient relaxation fails,
+but an exact one-odd light-support classification reduces the actual geometry
+to eleven affine-unit templates and closes the third profile.
+
+```text
+starting pin: local f4af4606
+proof pin: local 07398f4b
+node attacked: unsafe_crossing_family_instantiation, V=66 profile (1,8)
+result: CLOSED third of four V=66 profiles; only (5,7) remains
+bare quotient obstruction: exact maximum 1936>1732 in both quotient orders
+coupled quotient obstruction: maxima 2028 (order 128), 1740 (order 64)
+classification catch: the initial six-orbit draft omitted {0,1,63,64};
+                      independent checker repaired two reflection families
+light geometry: 132 normalized supports -> eleven affine-unit orbits
+exact census: 11*binom(124,3)*64=218,327,296 normalized signed vectors;
+              17,144 profile vectors; exact maximum M_3=1356<1732
+independent replay: signed folded-chord and ordered-negacyclic-product engines;
+                    identical per-template profile counts and maxima
+hostile controls: omitted reflection family, omitted shard, and 1355 maximum
+production app: ap-TbM5Ao0mujKzSnl3E7cFL5; 26.636356 worker-seconds
+DAG delta: one PROVED background node and four edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute spend: four cents-scale route probes and one exact campaign;
+               conservative total below $0.10
+new assumptions: none
+upstream overlap: no open PR through #1109 supplies this finite E1 close
+route decision: quotient allocation has reached its limit; the actual chord
+                geometry is decisive at V=66
+next route-deciding action: attack sole profile (5,7), using its five-odd
+                              diameter-Sidon condition before authorizing any
+                              further complete signed-vector campaign
+```
