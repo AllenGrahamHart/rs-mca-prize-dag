@@ -48,8 +48,9 @@ forces surviving collisions to have `s>=5` at `N=256`. At `N=512`, exact
 variance and interval-resultant certificates close both `s=2` profiles, so
 surviving collisions have `s>=3`.
 At `N=256,s=5`, the `(3,4,0)` profile is narrowed to positive even
-autocorrelation variance `V<=68`. Four exact quotient-Schur endpoint packets
-exclude `V=76,74,72,70` after the sparse-L1 theorem. In both first-band
+autocorrelation variance `V<=66`. Four exact quotient-Schur endpoint packets
+exclude `V=76,74,72,70` after the sparse-L1 theorem, and the complete E34
+template chain excludes `V=68`. In both first-band
 profiles all proper-conductor supports are excluded, but `(4,2,0)` is otherwise
 unrestricted and a full-conductor `(3,4,0)` vector already occurs at
 `V=36`. The surviving singleton reductions additionally have root
@@ -119,7 +120,9 @@ That classification is now complete. The 325,376 generic heavy triples form
 intersection shapes, no triple-weld position, and 58,325 to 72,486 light
 supports per representative. The complete invariant chamber has 243,285,056
 signed vectors. This is now the final bounded E34 decision; no raw heavy-triple
-or unrestricted seven-support enumeration is needed.
+or unrestricted seven-support enumeration is needed. Two independent complete
+censuses pay that chamber with exact maximum `M_3=1770<1947`. The entire E34
+endpoint is closed; the next variance endpoint is `V=66`.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named

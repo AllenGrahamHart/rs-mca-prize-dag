@@ -8288,3 +8288,44 @@ rows  weld sizes  pair intersections  triple  union  supports
 After four heavy-sign and sixteen light-sign choices, the exact representative
 chamber has 243,285,056 signed vectors. The campaign cost is below `$0.05`.
 This closes route classification only; profile and moment remain unpaid.
+
+#### CR-E1-E34-GENERIC-CENSUS: final affine-orbit chamber decision
+
+**Status:** COMPLETE PASS. The generic template and E34 endpoint are closed;
+no rerun or extension is authorized.
+
+The proved generic affine-weld reduction leaves exactly 57 representatives,
+58,325 to 72,486 supports per representative, and 243,285,056 normalized
+signed vectors. The primary implementation groups unordered signed chords.
+The independent audit uses ordered negacyclic multiplication and independently
+reconstructs weld membership from circular distances.
+
+Run 57 tasks per implementation with one CPU, 256 MiB, 60-second caps, and at
+most 45 containers per app so concurrent usage cannot exceed 90 containers.
+Write a partial packet after every return and abort on any timeout or mismatch.
+The combined conservative cost ceiling is `$0.20`; no rerun or extension is
+authorized without a new route decision.
+
+`PASS` requires exact agreement with the orbit packet's support count, all 57
+shards, shardwise count/max agreement, and retained-witness replay. A maximum
+`M_3<=1947` closes the generic branch and therefore the full `E=34` endpoint;
+otherwise retain the first failing orbit and keep E34 open.
+
+Modal apps `ap-XpmKEOhClEfy8STvFbMH9y` and
+`ap-GUW2NuOkVnhQDU4jUvepbZ` completed all 57 tasks without retries, using
+34.471246 and 50.538048 aggregate worker-seconds. They agree shardwise on
+
+```text
+light supports                         3,801,329,
+normalized signed vectors            243,285,056,
+E=34 vectors                              793,742,
+profile-(6,7) vectors                     505,466,
+full-conductor profile vectors            418,464,
+maximum full-conductor M_3                    1770.
+```
+
+The maximum occurs in orbit 14, represented by `H={0,1,19}`. The combined
+85.009294 worker-seconds remain below the `$0.20` ceiling. Since `1770<1947`,
+the inherited cubic certificate closes the generic template. Together with
+the quarter, nonquarter-diameter, and progression exclusions, this closes the
+complete `E=34`, `V=68` endpoint.

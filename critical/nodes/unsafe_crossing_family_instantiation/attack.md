@@ -34,7 +34,7 @@ a short pre-registered route decision.
    this live branch without adding an extension-field hypothesis. The folded
    exact folded-norm certificates further remove `s<=4` at `N=256` and
    `s<=2` at `N=512`. In the first `N=256` band, profile `(3,4,0)` is
-   further reduced to positive even autocorrelation variance `V<=68`, and
+   further reduced to positive even autocorrelation variance `V<=66`, and
    every proper-conductor support is excluded in both profiles. A
    full-conductor `V=36` witness prevents treating low variance as
    synonymous with periodicity. The exact 2-adic cofactor screen further
@@ -61,8 +61,9 @@ allowance over primes `p=1 mod N` in the two exact budget intervals, beginning
 at swap distance five for `N=256` and three for `N=512`. The first `N=256`
 band reduces to `(4,2,0),(3,4,0)`; the complete `N=512,s=2` band is closed.
 Only full-conductor supports remain at `N=256,s=5`; within
-`(3,4,0)` the variance residual is `0<V<=68`. The exact quotient-Schur
-chain excludes `V=76,74,72,70`. At the next endpoint `V=68`, the complete
+`(3,4,0)` the variance residual is `0<V<=66`. The exact quotient-Schur
+chain excludes `V=76,74,72,70`; the completed E34 template chain excludes
+`V=68`. At that closed endpoint, the complete
 nested mod-16 upper-bound compiler already has exact relaxation obstructions,
 so do not run its full census. Exact selective quotient and support
 certificates first reduce that endpoint to three `L=20` profiles. Chord
@@ -76,7 +77,8 @@ heavy-heavy length and use the proved opposite-outer-sign constraint. Odd-unit
 transport leaves only the five steps `1,2,4,8,16`, and their exact cap
 `M_3<=1722` closes the progression branch. In the sole generic template,
 use the proved 57 affine-unit representatives and three exact weld shapes.
-Pay only their 243,285,056-vector chamber with independent chord and
-negacyclic implementations, or improve it first by a heavy-sign screen. Apply
+Their 243,285,056-vector chamber is paid by independent chord and negacyclic
+implementations with `M_3<=1770`. At `V=66`, recompute the exact integer
+profiles and parity ledger before importing any E34-specific template. Apply
 the 2-adic singleton screen rather than a raw support census.
 Test the odd norm part directly; do not scan arbitrary cofactors below 64.

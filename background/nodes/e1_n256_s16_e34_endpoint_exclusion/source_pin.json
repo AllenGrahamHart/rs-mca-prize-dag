@@ -1,0 +1,16 @@
+{
+  "generic_exclusion_file": "background/nodes/e1_n256_s16_e34_generic_template_exclusion/statement.md",
+  "generic_exclusion_file_sha256": "ff58562552252f37da3d9333c1cead20ced9a053bcf1ba4417cae895f91e24b0",
+  "heavy_template_file": "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/statement.md",
+  "heavy_template_file_sha256": "54c41d0881dffbeb2665a80d9e05c502cfd7c558b56dc368d26dfd7b11c0a163",
+  "nonquarter_exclusion_file": "background/nodes/e1_n256_s16_e34_nonquarter_diameter_template_exclusion/statement.md",
+  "nonquarter_exclusion_file_sha256": "4834b6d131d980d55cee1ac70ee7b179c53cb20b52542c9563c9d53daee99a0e",
+  "parity_profile_file": "background/nodes/e1_n256_s16_e34_parity_profile_reduction/statement.md",
+  "parity_profile_file_sha256": "90a546f51956446dbc188ed467c700a51ab505a081e9e5731877076412ce19fe",
+  "progression_exclusion_file": "background/nodes/e1_n256_s16_e34_progression_template_exclusion/statement.md",
+  "progression_exclusion_file_sha256": "325a18785fea87886fbfdc85ff6d1cd7971b79258ddabb567a3e51cb4fc2c867",
+  "quarter_exclusion_file": "background/nodes/e1_n256_s16_e34_quarter_template_exclusion/statement.md",
+  "quarter_exclusion_file_sha256": "28b45a3d0cc5cc2cb02516ac08c11033cbc96c98c5aa0e2cb9eb6a7824f031ce",
+  "three_profile_file": "background/nodes/e1_n256_s16_e34_three_profile_reduction/statement.md",
+  "three_profile_file_sha256": "cd30b1ff438af39161421c577883ffc59278a316d71c28f11a85d8c9fd4c9f0c"
+}

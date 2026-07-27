@@ -32,6 +32,8 @@ e1_n256_s16_e34_nonquarter_diameter_template_exclusion --ev-->
 e1_n256_s16_e34_progression_weld_reduction --ev-->
 e1_n256_s16_e34_progression_template_exclusion --ev-->
 e1_n256_s16_e34_generic_affine_weld_reduction --ev-->
+e1_n256_s16_e34_generic_template_exclusion --ev-->
+e1_n256_s16_e34_endpoint_exclusion --ev-->
 e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
@@ -89,7 +91,7 @@ force extension degree one and `p=1 mod N`, so the prime-field kernel model is
 now correctly scoped to the residual target. Exact folded-norm certificates
 remove the first four `N=256` swap bands and the first two `N=512` bands. At
 `N=256,s=5`, the square-mass-16 profile is reduced to positive even
-autocorrelation variance at most 68, and both first-band profiles are reduced
+autocorrelation variance at most 66, and both first-band profiles are reduced
 to full-conductor supports. Exact cofactor windows also impose the
 singleton-reduction multiplicity bounds `5` and `16` in the two profiles.
 The square-mass-16 residual additionally has signed repeated-chord cross sum
@@ -112,5 +114,6 @@ signs and collapses by odd-unit transport to five invariant steps and
 191,354,400 census vectors. A double exact census closes that chamber with
 `M_3<=1722`. The generic three-weld template is now the sole E34 branch.
 Its 325,376 heavy triples collapse to 57 affine-unit representatives and three
-weld-intersection shapes, for an exact 243,285,056-vector chamber. Its profile
-and moment filters remain unpaid.
+weld-intersection shapes, for an exact 243,285,056-vector chamber. A final
+double census closes it with `M_3<=1770`. The endpoint synthesis therefore
+closes `V=68`; the next live positive even endpoint is `V=66`.

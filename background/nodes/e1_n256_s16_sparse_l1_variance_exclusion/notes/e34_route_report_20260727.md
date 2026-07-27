@@ -356,3 +356,27 @@ chamber of 243,285,056 vectors. Modal app
 `ap-RX2pnnmJRiFhsRSBEJS6To` used 1.110289 aggregate worker-seconds. The result
 is promoted as `e1_n256_s16_e34_generic_affine_weld_reduction`; it reduces but
 does not yet exclude the sole remaining E34 branch.
+
+## Generic close and E34 synthesis
+
+The primary signed-chord census and independent ordered-negacyclic audit
+exhaust all 57 generic representatives. They agree on
+
+```text
+light supports                         3,801,329,
+normalized signed vectors            243,285,056,
+E=34 vectors                              793,742,
+profile-(6,7) vectors                     505,466,
+full-conductor profile vectors            418,464,
+maximum full-conductor M_3                    1770.
+```
+
+Modal apps `ap-XpmKEOhClEfy8STvFbMH9y` and
+`ap-GUW2NuOkVnhQDU4jUvepbZ` used 34.471246 and 50.538048 aggregate
+worker-seconds. Since `1770<1947`, the generic template is excluded by
+`e1_n256_s16_e34_generic_template_exclusion`.
+
+The profile reduction, parity collapse, four-template classification, and
+four template exclusions are exhaustive. Their synthesis is promoted as
+`e1_n256_s16_e34_endpoint_exclusion`: `V=68` is impossible, and the live
+positive even `(3,4,0)` variance range is now `V<=66`.

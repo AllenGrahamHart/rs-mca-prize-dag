@@ -38,7 +38,8 @@ Exact variance and interval-resultant refinements exclude both profiles at
 At `N=256,s=5`, an exact logarithmic refinement excludes the zero-variance
 and all `V>=136` cases of profile `(3,4,0)`; a sparse-L1
 refinement also excludes `78<=V<=134`. Four subsequent exact quotient-Schur
-packets exclude `V=76,74,72,70`, leaving `V<=68`.
+packets exclude `V=76,74,72,70`; the complete E34 chain now also excludes
+`V=68`, leaving positive even `V<=66`.
 A separate subfield-norm
 argument excludes every proper-conductor support in both first-band profiles.
 Only full-conductor supports remain, and a certified one exists at variance
@@ -75,4 +76,6 @@ sole E34 branch.
 Two independent affine classifiers reduce its 325,376 heavy triples to 57
 odd-unit orbits. The three forced weld sets have only three intersection
 shapes, leaving an exact 243,285,056-vector representative chamber before
-profile and moment filters.
+profile and moment filters. A final pair of exact censuses gives maximum
+`M_3=1770<1947` and closes the generic template. Thus every `V=68` case is
+excluded and the live variance frontier is `V<=66`.

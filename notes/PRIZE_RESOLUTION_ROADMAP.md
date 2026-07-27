@@ -4359,3 +4359,29 @@ next route-deciding action: build two exact 57-shard profile-and-moment
                               censuses under a conservative sub-dollar cap;
                               close E34 if maximum M_3<=1947
 ```
+
+**2026-07-27, E34 endpoint close:** the final generic census closes all four
+heavy templates and advances the `(3,4,0)` variance frontier from 68 to 66.
+
+```text
+starting pin: local b4613976
+proof pin: pending commit
+node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=68
+result: CLOSED complete E34 endpoint; residual positive even V<=66
+generic census: 3,801,329 supports; 243,285,056 signed vectors;
+                418,464 full-conductor profile candidates
+moment cap: exact maximum M_3=1770<1947, margin 177
+independent apps: ap-XpmKEOhClEfy8STvFbMH9y (34.471246 worker-seconds),
+                  ap-GUW2NuOkVnhQDU4jUvepbZ (50.538048 worker-seconds)
+synthesis: three profiles -> one parity profile -> four templates -> empty
+DAG delta: two PROVED nodes (generic exclusion and endpoint synthesis),
+           fifteen requirement/evidence edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute spend: 85.009294 worker-seconds; conservative ceiling below $0.20
+new assumptions: none
+upstream overlap: no open PR supplies this finite E34 endpoint close
+route decision: E34 is complete; do not rerun any E34 campaign
+next route-deciding action: derive the exact V=66 integer-profile and parity
+                              ledger, then decide whether the E34 template
+                              machinery transports or must be replaced
+```
