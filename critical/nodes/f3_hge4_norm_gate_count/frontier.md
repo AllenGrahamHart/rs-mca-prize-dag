@@ -26,10 +26,12 @@
   exactly `V_h^swap`.
 - At the first live exact level, the scalar-energy route and its Taylor-only
   refinement are both explicitly cut at `h=10`, mask `011`. On the same
-  adversarial support, the exact product of the order `128,64,32` resultants
-  clears the divisor threshold by more than `21` bits. A uniform joint
-  determinant/resultant inequality is now the precise `m=128` analytic
-  target; no such universal bound is yet proved.
+  attack surface, an explicit primitive-support fixture has the exact product
+  of the order `128,64,32` resultants more than five bits above the divisor
+  threshold, falsifying a uniform joint-product bound. Its common gcd is only
+  `512`. The precise `m=128` target is now common-prime alignment: an actual
+  pair requires the same official odd prime with norm valuations at least
+  `(5,2,1)`. No such exclusion theorem is yet proved.
 - The proved straight-line lift replaces each fixed swap divisibility cell by
   a sparse cubic repeated-squaring scheme and proves that it has an integer
   bad-characteristic certificate endpoint. At `n=8192`, widths `5,7,9` have

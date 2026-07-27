@@ -43,24 +43,26 @@ possible refinements on one explicit primitive-support fixture at `h=10`,
 mask `011`. It has
 
 ```text
-(D,Delta_0,Delta_1,Delta_2)=(22,22,24,0),
+(D,Delta_0,Delta_1,Delta_2)=(24,22,16,0),
 nu_(X-1 mod 2)=9.
 ```
 
 Thus even the exact Taylor multiplicity leaves the scalar energy upper bound
 above the divisor threshold by more than `15` bits. Taylor valuation alone is
-not the missing input. In contrast, exact even/odd recursion gives the joint
-cyclotomic norm product
+not the missing input. Exact even/odd recursion gives a joint cyclotomic norm
+product satisfying
 
 ```text
-|Norm_128(F) Norm_64(F) Norm_32(F)| < 2^235,
+|Norm_128(F) Norm_64(F) Norm_32(F)| > 2^240.
 ```
 
-while the required structural/balance and ambient-prime divisibility is
-strictly greater than `2^235`. On this adversarial fixture, retaining the
-joint Fourier spectrum gains more than enough to close the mask. This is a
-route probe, not a universal inequality: the next useful proposition is a
-uniform joint determinant/resultant bound for every mask-`011` support.
+This falsifies the uniform joint-product route by more than five bits. But the
+three exact norms have gcd exactly `512`: they share no odd prime. A genuine
+moment solution needs one row prime with valuation pattern at least `(5,2,1)`
+across the order-`128,64,32` norms. The product bound discards precisely this
+alignment. The next useful proposition is therefore a common-prime alignment
+theorem excluding every official prime from that valuation pattern; a bound
+on the product alone is insufficient.
 
 ## Replay
 

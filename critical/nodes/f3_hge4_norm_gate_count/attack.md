@@ -165,12 +165,15 @@ add the full moment congruences, primitive exact-level condition, or a direct
 orbit count.
 
 Taylor multiplicity by itself is also insufficient. An explicit primitive-
-support mask-`011` fixture has energies `(22,22,24)`, exact multiplicity
+support mask-`011` fixture has energies `(24,22,16)`, exact multiplicity
 `nu=9`, and still misses the Taylor-adjusted scalar energy gate by more than
-`15` bits. However, its three exact dyadic resultants have joint product below
-the required divisor threshold by more than `21` bits. The selected `m=128`
-subroute is therefore a uniform joint determinant/resultant bound; do not
-replace it by another independent-energy or scalar 2-adic optimization.
+`15` bits. Its exact joint order-`128,64,32` norm product exceeds the divisor
+threshold by more than five bits, so a uniform joint-product inequality is
+also false. However, those three norms have gcd `512`; no odd prime is aligned
+across them. The selected `m=128` subroute is now a common-prime valuation
+theorem: exclude an official `p` occurring to exponents at least `(5,2,1)` in
+the three norms. Independent energy, Taylor, and product-magnitude bounds all
+discard this load-bearing alignment.
 
 Within that range, write `h=m/4-d`, put `R=log m`,
 `x=4(d+1)R/m`, and define

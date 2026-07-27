@@ -7,8 +7,8 @@ from math import comb, gcd
 
 
 M = 128
-PLUS = (13, 16, 17, 19, 26, 27, 36, 66, 86, 87)
-MINUS = (23, 29, 38, 42, 50, 68, 81, 94, 102, 112)
+PLUS = (6, 36, 45, 50, 60, 68, 74, 88, 116, 117)
+MINUS = (4, 5, 7, 20, 24, 26, 66, 77, 102, 111)
 
 
 def reduce_at_order(coefficients: list[int], order: int) -> list[int]:
@@ -85,7 +85,7 @@ def main() -> None:
             folded[index] + folded[index + midpoint]
             for index in range(midpoint)
         ]
-    assert (odd_energy, *haar) == (22, 22, 24, 0)
+    assert (odd_energy, *haar) == (24, 22, 16, 0)
 
     occupied = tuple(sorted(PLUS + MINUS))
     nu = taylor_multiplicity_mod_two(occupied)
@@ -107,18 +107,19 @@ def main() -> None:
 
     norms = tuple(abs(dyadic_norm(coefficients, order)) for order in (128, 64, 32))
     assert norms == (
-        163860267515501318513702842715385299456,
-        1601217110606336,
-        65637581312,
+        2057416805383974697207304640461052218507776,
+        442203225833796403712,
+        2110325248,
     )
     joint_product = norms[0] * norms[1] * norms[2]
-    assert joint_product < 1 << 235
+    assert joint_product > 1 << 240
+    assert gcd(gcd(norms[0], norms[1]), norms[2]) == 512
 
     print(
-        "F3_M128_JOINT_NORM_ROUTE_PROBE_PASS "
+        "F3_M128_JOINT_NORM_ROUTE_CUT_PASS "
         f"energies={odd_energy},{haar[0]},{haar[1]} nu={nu} "
         f"energy_bits={energy_product.bit_length()} "
-        f"joint_bits={joint_product.bit_length()}"
+        f"joint_bits={joint_product.bit_length()} common_gcd=512"
     )
 
 

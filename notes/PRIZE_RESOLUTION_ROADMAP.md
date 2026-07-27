@@ -2705,12 +2705,14 @@ duplicated locally.
 **2026-07-27, F3 `m=128` route decision:** exact energy integrality was already
 known to miss the `h=10`, mask-`011` endpoint. A new explicit support fixture
 shows that retaining only the exact Taylor multiplicity still misses by over
-`15` bits. Exact even/odd recursion on the same support computes the joint
-order-`128,64,32` resultant product and clears the required divisor threshold
-by over `21` bits. This does not close the mask, but it makes the next theorem
-precise: prove a uniform joint determinant/resultant bound over every
-mask-`011` support. Independent scalar-energy, Taylor-only, and large support
-scans are now fenced as dominated routes.
+`15` bits. Exact even/odd recursion on a stronger adversarial support gives a
+joint order-`128,64,32` resultant product more than five bits above the
+required divisor threshold, killing the uniform joint-product route as well.
+The three norms nevertheless have common gcd exactly `512`; an actual moment
+solution needs the same official odd prime at valuations at least `(5,2,1)`.
+The next theorem is therefore a common-prime alignment exclusion. Independent
+scalar-energy, Taylor-only, and product-magnitude bounds are now fenced as
+routes that discard the load-bearing information.
 
 **2026-07-26, L1 endpoint color-degree cut:**
 `l1_mersenne_hnf_order_zero_linear_color_exclusion` proves that the colored
