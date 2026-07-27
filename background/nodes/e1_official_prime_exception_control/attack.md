@@ -34,7 +34,8 @@ explicit finite inequality at the row.
 2. Seek orbit divisibility and norm-divisor upper bounds on `P`, not merely on
    the number of surviving folded vectors. Start at `s=5` for `N=256` and
    `s=2` for `N=512`, and convert every counted object to unordered class
-   pairs explicitly.
+   pairs explicitly. Only profiles `(4,2,0),(3,4,0)` survive in the first
+   `N=256` band, and only `(1,2,0),(0,4,0)` in the first `N=512` band.
 3. A certifier route is legitimate only with proved termination, soundness,
    and coverage for every row in the printed pair-feasible candidate class.
 4. If direct image size can be certified above `B*` without bounding `P`, send

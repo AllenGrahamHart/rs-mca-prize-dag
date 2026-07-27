@@ -73,6 +73,28 @@ def main() -> None:
     prize_budget = 317494674775468773183020924238786383963
     assert prize_budget << 128 > 1 << 250
 
+    survivors_256 = []
+    for profile in coefficient_profiles(5):
+        opposite_pairs, singles, _ = profile
+        if singles == 0:
+            assert opposite_pairs**64 < 1 << 250
+            continue
+        square_sum = 4 * opposite_pairs + singles
+        if square_sum**64 >= 1 << 250:
+            survivors_256.append(profile)
+    assert survivors_256 == [(3, 4, 0), (4, 2, 0)]
+
+    survivors_512 = []
+    for profile in coefficient_profiles(2):
+        opposite_pairs, singles, _ = profile
+        if singles == 0:
+            assert opposite_pairs**128 < 1 << 250
+            continue
+        square_sum = 4 * opposite_pairs + singles
+        if square_sum**128 >= 1 << 250:
+            survivors_512.append(profile)
+    assert survivors_512 == [(0, 4, 0), (1, 2, 0)]
+
     orthogonality_checks = sum(check_orthogonality(order) for order in (8, 16, 32))
 
     dag = json.loads((ROOT / "dag.json").read_text())
@@ -93,7 +115,8 @@ def main() -> None:
 
     print(
         "E1_PRIME_FIELD_L2_NORM_COLLISION_RADIUS_PASS "
-        f"profile_checks={profile_checks} orthogonality_checks={orthogonality_checks}"
+        f"profile_checks={profile_checks} orthogonality_checks={orthogonality_checks} "
+        "first_band_survivors=2+2"
     )
 
 

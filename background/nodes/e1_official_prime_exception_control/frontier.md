@@ -26,6 +26,10 @@ The first collision bands are also closed analytically. Folding antipodes and
 using Parseval over the odd conjugates proves that `N=256` collisions have
 swap distance at least five, while `N=512` collisions have distance at least
 two. The crude `(2s)^phi(N)` bound should no longer be used for those bands.
+The first surviving bands reduce to two folded coefficient profiles apiece:
+`(4,2,0),(3,4,0)` at `N=256,s=5`, and `(1,2,0),(0,4,0)` at
+`N=512,s=2`, where the entries count opposite pairs, singletons, and
+same-sign pairs.
 
 The old `o(1)` language was not a finite `2^-128` certificate. Likewise, the
 old named `N'=128,256` no-vector experiments are background evidence: `128`

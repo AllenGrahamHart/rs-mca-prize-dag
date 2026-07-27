@@ -42,3 +42,15 @@ At every pair-feasible named anchor, `p>=2^250` and `p` is odd. Consequently:
 Thus the minimum raw-representative swap distance of a live collision is at
 least five for the rates `1/4,1/8`, and at least two for rate `1/16`. This does
 not bound the remaining bands or pay a row.
+
+The first surviving bands have only four unresolved folded profiles. Writing
+`(a,b,c)` for the numbers of opposite-sign antipodal pairs, singleton terms,
+and same-sign antipodal pairs, respectively, they are
+
+```text
+N=256, s=5: (4,2,0), (3,4,0);
+N=512, s=2: (1,2,0), (0,4,0).
+```
+
+Every other profile in those two bands is excluded by the same exact norm
+comparison, including every `b=0` profile after dividing `alpha` by two.

@@ -38,6 +38,10 @@ proves that any surviving collision has raw swap distance
 s>=5 for N=256,       s>=2 for N=512.
 ```
 
+In the first surviving bands, only folded profiles
+`(4,2,0),(3,4,0)` and `(1,2,0),(0,4,0)`, respectively, remain
+unexcluded by that norm argument.
+
 The actual quotient orders are
 
 ```text

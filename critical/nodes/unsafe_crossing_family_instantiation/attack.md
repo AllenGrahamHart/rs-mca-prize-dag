@@ -46,4 +46,5 @@ a short pre-registered route decision.
 Generated-field and extension-degree normalization are now closed on the
 pair-feasible branch. The route-deciding residual is the pointwise collision
 allowance over primes `p=1 mod N` in the two exact budget intervals, beginning
-at swap distance five for `N=256` and two for `N=512`.
+at swap distance five for `N=256` and two for `N=512`. The first bands reduce
+to `(4,2,0),(3,4,0)` and `(1,2,0),(0,4,0)` folded profiles.

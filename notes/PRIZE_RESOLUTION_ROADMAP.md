@@ -913,8 +913,9 @@ the crude `(2s)^phi(N)` bound. Exact antipodal profile accounting, including
 division by two in the all-even extremal case, excludes every swap distance
 `s<=4` at `N=256` and `s=1` at `N=512` throughout both field intervals. The
 live pointwise ledger now starts at `s=5` for rates `1/4,1/8` and `s=2` for
-rate `1/16`. This is a genuine algebraic band close, not a total collision
-bound or row payment. See
+rate `1/16`. The first open bands have only two folded profiles each:
+`(4,2,0),(3,4,0)` and `(1,2,0),(0,4,0)`, respectively. This is a genuine
+algebraic band close, not a total collision bound or row payment. See
 `background/nodes/e1_prime_field_l2_norm_collision_radius/`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the

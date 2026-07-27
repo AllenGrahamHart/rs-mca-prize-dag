@@ -11,3 +11,8 @@ The verifier exhausts every antipodal coefficient profile through `s=8`,
 checks exact orthogonality at small power-of-two orders, and replays the exact
 integer endpoint inequalities. No resultant scan or Modal computation is
 load-bearing.
+
+Same-sign antipodal pairs consume raw swap distance but vanish after folding.
+Therefore the all-even division applies whenever the singleton count `b` is
+zero, not only when every raw pair has opposite signs. The first-band profile
+enumeration checks this distinction explicitly.

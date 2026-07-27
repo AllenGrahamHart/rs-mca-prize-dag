@@ -54,11 +54,11 @@ Let their counts be `a,b,c`. Then
 ```
 
 The integer `b` is even. Unless `b=c=0`, one has
-`4s-S=b+4c>=2`, hence `S<=4s-2`. If `b=c=0`, all folded
-coefficients are even: `alpha=2 beta`, where `beta` has exactly `s`
-coefficients in `{+1,-1}`. The same Parseval argument gives
-`|Norm(beta)|<=s^(h/2)`. An odd row prime divides `Norm(alpha)` iff it
-divides `Norm(beta)`.
+`4s-S=b+4c>=2`, hence `S<=4s-2`. If `b=0`, all nonzero folded
+coefficients are even: the `c` same-sign pairs vanish and `alpha=2 beta`,
+where `beta` has exactly `a<=s` coefficients in `{+1,-1}`. The same Parseval
+argument gives `|Norm(beta)|<=a^(h/2)<=s^(h/2)`. An odd row prime divides
+`Norm(alpha)` iff it divides `Norm(beta)`.
 
 By `e1_pair_feasible_prime_field_reduction`, all live rows are prime-field and
 their two exact intervals have lower endpoint at least `2^250`. For `N=256`,
@@ -72,3 +72,22 @@ For `N=512` and `s=1`, `h/2=128`; the non-even case has `S<=2`, while
 the even case has `|Norm(beta)|<=1`. Hence its nonzero norm is also too small
 to be divisible by `p`. The collision-norm criterion completes both
 exclusions.
+
+For the first unclosed bands, enumerate the nonnegative solutions of
+`2a+b+2c=2s`, with even `b`. Profiles with `b=0` are excluded after division
+by two. At `N=256,s=5`, every profile with `S=4a+b<=14` is excluded because
+`14^64<2^250`; the only survivors are
+
+```text
+(a,b,c)=(4,2,0), (3,4,0),
+```
+
+with `S=18,16`. At `N=512,s=2`, `S<=2` is excluded because
+`2^128<2^250`; the only survivors are
+
+```text
+(a,b,c)=(1,2,0), (0,4,0),
+```
+
+with `S=6,4`. This classification asserts no collision in a surviving
+profile; it identifies the only profiles not decided by this norm bound.
