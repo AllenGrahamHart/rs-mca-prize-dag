@@ -1,0 +1,9507 @@
+{
+  "complete": true,
+  "completed_templates": 87,
+  "expected_templates": 87,
+  "orbits_sha256": "6ba7acb9e680f115b7c6121615748b00fa68a6adee005bb750094fea73ce5759",
+  "rows": [
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "profile_151": {
+        "count": 80,
+        "full_conductor": 80,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 852,
+          "positions": [
+            20,
+            38,
+            93,
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "maximum_full_conductor_m3": 852,
+        "maximum_m3": 852,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 852,
+          "positions": [
+            20,
+            38,
+            93,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 48,
+        "full_conductor": 48,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 852,
+          "positions": [
+            42,
+            84,
+            85,
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "maximum_full_conductor_m3": 852,
+        "maximum_m3": 852,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 852,
+          "positions": [
+            42,
+            84,
+            85,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 0,
+      "vectors": 19847936,
+      "worker_seconds": 2.3824699330000003
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "profile_151": {
+        "count": 84,
+        "full_conductor": 84,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 996,
+          "positions": [
+            3,
+            125,
+            126,
+            0,
+            1,
+            2,
+            4
+          ]
+        },
+        "maximum_full_conductor_m3": 996,
+        "maximum_m3": 996,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 996,
+          "positions": [
+            3,
+            125,
+            126,
+            0,
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 242,
+        "full_conductor": 242,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1128,
+          "positions": [
+            64,
+            65,
+            127,
+            0,
+            1,
+            2,
+            4
+          ]
+        },
+        "maximum_full_conductor_m3": 1128,
+        "maximum_m3": 1128,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1128,
+          "positions": [
+            64,
+            65,
+            127,
+            0,
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 1,
+      "vectors": 19847936,
+      "worker_seconds": 2.381412099
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "profile_151": {
+        "count": 76,
+        "full_conductor": 76,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "m3": 1014,
+          "positions": [
+            2,
+            5,
+            7,
+            0,
+            1,
+            3,
+            4
+          ]
+        },
+        "maximum_full_conductor_m3": 1014,
+        "maximum_m3": 1014,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "m3": 1014,
+          "positions": [
+            2,
+            5,
+            7,
+            0,
+            1,
+            3,
+            4
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 136,
+        "full_conductor": 136,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 930,
+          "positions": [
+            5,
+            6,
+            11,
+            0,
+            1,
+            3,
+            4
+          ]
+        },
+        "maximum_full_conductor_m3": 930,
+        "maximum_m3": 930,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 930,
+          "positions": [
+            5,
+            6,
+            11,
+            0,
+            1,
+            3,
+            4
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 2,
+      "vectors": 19847936,
+      "worker_seconds": 2.423228802
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        3,
+        126
+      ],
+      "profile_151": {
+        "count": 60,
+        "full_conductor": 60,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "m3": 828,
+          "positions": [
+            2,
+            5,
+            7,
+            0,
+            1,
+            3,
+            126
+          ]
+        },
+        "maximum_full_conductor_m3": 828,
+        "maximum_m3": 828,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "m3": 828,
+          "positions": [
+            2,
+            5,
+            7,
+            0,
+            1,
+            3,
+            126
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 100,
+        "full_conductor": 100,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 888,
+          "positions": [
+            2,
+            8,
+            9,
+            0,
+            1,
+            3,
+            126
+          ]
+        },
+        "maximum_full_conductor_m3": 888,
+        "maximum_m3": 888,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 888,
+          "positions": [
+            2,
+            8,
+            9,
+            0,
+            1,
+            3,
+            126
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 3,
+      "vectors": 19847936,
+      "worker_seconds": 2.345653483
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "profile_151": {
+        "count": 56,
+        "full_conductor": 56,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 876,
+          "positions": [
+            2,
+            125,
+            126,
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        "maximum_full_conductor_m3": 876,
+        "maximum_m3": 876,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 876,
+          "positions": [
+            2,
+            125,
+            126,
+            0,
+            1,
+            4,
+            5
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 112,
+        "full_conductor": 112,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1164,
+          "positions": [
+            2,
+            7,
+            9,
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        "maximum_full_conductor_m3": 1164,
+        "maximum_m3": 1164,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1164,
+          "positions": [
+            2,
+            7,
+            9,
+            0,
+            1,
+            4,
+            5
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 4,
+      "vectors": 19847936,
+      "worker_seconds": 2.280733237
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        4,
+        125
+      ],
+      "profile_151": {
+        "count": 56,
+        "full_conductor": 56,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 924,
+          "positions": [
+            2,
+            124,
+            126,
+            0,
+            1,
+            4,
+            125
+          ]
+        },
+        "maximum_full_conductor_m3": 924,
+        "maximum_m3": 924,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 924,
+          "positions": [
+            2,
+            124,
+            126,
+            0,
+            1,
+            4,
+            125
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 112,
+        "full_conductor": 112,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 1116,
+          "positions": [
+            2,
+            3,
+            8,
+            0,
+            1,
+            4,
+            125
+          ]
+        },
+        "maximum_full_conductor_m3": 1116,
+        "maximum_m3": 1116,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 1116,
+          "positions": [
+            2,
+            3,
+            8,
+            0,
+            1,
+            4,
+            125
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 5,
+      "vectors": 19847936,
+      "worker_seconds": 3.1084162640000006
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "profile_151": {
+        "count": 12,
+        "full_conductor": 12,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 636,
+          "positions": [
+            7,
+            9,
+            10,
+            0,
+            1,
+            5,
+            6
+          ]
+        },
+        "maximum_full_conductor_m3": 636,
+        "maximum_m3": 636,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 636,
+          "positions": [
+            7,
+            9,
+            10,
+            0,
+            1,
+            5,
+            6
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 352,
+        "full_conductor": 352,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1128,
+          "positions": [
+            2,
+            66,
+            67,
+            0,
+            1,
+            5,
+            6
+          ]
+        },
+        "maximum_full_conductor_m3": 1128,
+        "maximum_m3": 1128,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1128,
+          "positions": [
+            2,
+            66,
+            67,
+            0,
+            1,
+            5,
+            6
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 6,
+      "vectors": 19847936,
+      "worker_seconds": 3.118021938
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        5,
+        124
+      ],
+      "profile_151": {
+        "count": 48,
+        "full_conductor": 48,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1068,
+          "positions": [
+            2,
+            3,
+            126,
+            0,
+            1,
+            5,
+            124
+          ]
+        },
+        "maximum_full_conductor_m3": 1068,
+        "maximum_m3": 1068,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1068,
+          "positions": [
+            2,
+            3,
+            126,
+            0,
+            1,
+            5,
+            124
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 212,
+        "full_conductor": 212,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 804,
+          "positions": [
+            3,
+            120,
+            122,
+            0,
+            1,
+            5,
+            124
+          ]
+        },
+        "maximum_full_conductor_m3": 804,
+        "maximum_m3": 804,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 804,
+          "positions": [
+            3,
+            120,
+            122,
+            0,
+            1,
+            5,
+            124
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 7,
+      "vectors": 19847936,
+      "worker_seconds": 2.311343343
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "profile_151": {
+        "count": 40,
+        "full_conductor": 40,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 696,
+          "positions": [
+            2,
+            3,
+            126,
+            0,
+            1,
+            6,
+            7
+          ]
+        },
+        "maximum_full_conductor_m3": 696,
+        "maximum_m3": 696,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 696,
+          "positions": [
+            2,
+            3,
+            126,
+            0,
+            1,
+            6,
+            7
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 108,
+        "full_conductor": 108,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 792,
+          "positions": [
+            3,
+            123,
+            126,
+            0,
+            1,
+            6,
+            7
+          ]
+        },
+        "maximum_full_conductor_m3": 792,
+        "maximum_m3": 792,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 792,
+          "positions": [
+            3,
+            123,
+            126,
+            0,
+            1,
+            6,
+            7
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 8,
+      "vectors": 19847936,
+      "worker_seconds": 2.67869696
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        6,
+        123
+      ],
+      "profile_151": {
+        "count": 40,
+        "full_conductor": 40,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 732,
+          "positions": [
+            2,
+            3,
+            4,
+            0,
+            1,
+            6,
+            123
+          ]
+        },
+        "maximum_full_conductor_m3": 732,
+        "maximum_m3": 732,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 732,
+          "positions": [
+            2,
+            3,
+            4,
+            0,
+            1,
+            6,
+            123
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 176,
+        "full_conductor": 176,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 840,
+          "positions": [
+            3,
+            4,
+            7,
+            0,
+            1,
+            6,
+            123
+          ]
+        },
+        "maximum_full_conductor_m3": 840,
+        "maximum_m3": 840,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 840,
+          "positions": [
+            3,
+            4,
+            7,
+            0,
+            1,
+            6,
+            123
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 9,
+      "vectors": 19847936,
+      "worker_seconds": 2.3158218720000003
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        7,
+        8
+      ],
+      "profile_151": {
+        "count": 40,
+        "full_conductor": 40,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            3,
+            4,
+            9,
+            0,
+            1,
+            7,
+            8
+          ]
+        },
+        "maximum_full_conductor_m3": 768,
+        "maximum_m3": 768,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            3,
+            4,
+            9,
+            0,
+            1,
+            7,
+            8
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 540,
+        "full_conductor": 540,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 840,
+          "positions": [
+            2,
+            68,
+            69,
+            0,
+            1,
+            7,
+            8
+          ]
+        },
+        "maximum_full_conductor_m3": 840,
+        "maximum_m3": 840,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 840,
+          "positions": [
+            2,
+            68,
+            69,
+            0,
+            1,
+            7,
+            8
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 10,
+      "vectors": 19847936,
+      "worker_seconds": 2.668233933
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        7,
+        122
+      ],
+      "profile_151": {
+        "count": 40,
+        "full_conductor": 40,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 636,
+          "positions": [
+            2,
+            3,
+            5,
+            0,
+            1,
+            7,
+            122
+          ]
+        },
+        "maximum_full_conductor_m3": 636,
+        "maximum_m3": 636,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 636,
+          "positions": [
+            2,
+            3,
+            5,
+            0,
+            1,
+            7,
+            122
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 216,
+        "full_conductor": 216,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            2,
+            125,
+            126,
+            0,
+            1,
+            7,
+            122
+          ]
+        },
+        "maximum_full_conductor_m3": 768,
+        "maximum_m3": 768,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            2,
+            125,
+            126,
+            0,
+            1,
+            7,
+            122
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 11,
+      "vectors": 19847936,
+      "worker_seconds": 2.596564117
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "profile_151": {
+        "count": 32,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 528,
+          "positions": [
+            2,
+            5,
+            126,
+            0,
+            1,
+            8,
+            9
+          ]
+        },
+        "maximum_full_conductor_m3": 528,
+        "maximum_m3": 528,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 528,
+          "positions": [
+            2,
+            5,
+            126,
+            0,
+            1,
+            8,
+            9
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 136,
+        "full_conductor": 136,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 936,
+          "positions": [
+            2,
+            4,
+            125,
+            0,
+            1,
+            8,
+            9
+          ]
+        },
+        "maximum_full_conductor_m3": 936,
+        "maximum_m3": 936,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 936,
+          "positions": [
+            2,
+            4,
+            125,
+            0,
+            1,
+            8,
+            9
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 12,
+      "vectors": 19847936,
+      "worker_seconds": 2.379359349
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        8,
+        121
+      ],
+      "profile_151": {
+        "count": 48,
+        "full_conductor": 48,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 672,
+          "positions": [
+            2,
+            3,
+            4,
+            0,
+            1,
+            8,
+            121
+          ]
+        },
+        "maximum_full_conductor_m3": 672,
+        "maximum_m3": 672,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 672,
+          "positions": [
+            2,
+            3,
+            4,
+            0,
+            1,
+            8,
+            121
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 252,
+        "full_conductor": 252,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 864,
+          "positions": [
+            23,
+            76,
+            91,
+            0,
+            1,
+            8,
+            121
+          ]
+        },
+        "maximum_full_conductor_m3": 864,
+        "maximum_m3": 864,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 864,
+          "positions": [
+            23,
+            76,
+            91,
+            0,
+            1,
+            8,
+            121
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 13,
+      "vectors": 19847936,
+      "worker_seconds": 2.3045604010000003
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        9,
+        10
+      ],
+      "profile_151": {
+        "count": 28,
+        "full_conductor": 28,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 528,
+          "positions": [
+            3,
+            5,
+            127,
+            0,
+            1,
+            9,
+            10
+          ]
+        },
+        "maximum_full_conductor_m3": 528,
+        "maximum_m3": 528,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 528,
+          "positions": [
+            3,
+            5,
+            127,
+            0,
+            1,
+            9,
+            10
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 652,
+        "full_conductor": 652,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 1320,
+          "positions": [
+            2,
+            4,
+            5,
+            0,
+            1,
+            9,
+            10
+          ]
+        },
+        "maximum_full_conductor_m3": 1320,
+        "maximum_m3": 1320,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 1320,
+          "positions": [
+            2,
+            4,
+            5,
+            0,
+            1,
+            9,
+            10
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 14,
+      "vectors": 19847936,
+      "worker_seconds": 2.3955766990000003
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        10,
+        11
+      ],
+      "profile_151": {
+        "count": 48,
+        "full_conductor": 48,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 648,
+          "positions": [
+            2,
+            5,
+            7,
+            0,
+            1,
+            10,
+            11
+          ]
+        },
+        "maximum_full_conductor_m3": 648,
+        "maximum_m3": 648,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 648,
+          "positions": [
+            2,
+            5,
+            7,
+            0,
+            1,
+            10,
+            11
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 232,
+        "full_conductor": 232,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            2,
+            4,
+            126,
+            0,
+            1,
+            10,
+            11
+          ]
+        },
+        "maximum_full_conductor_m3": 768,
+        "maximum_m3": 768,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            2,
+            4,
+            126,
+            0,
+            1,
+            10,
+            11
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 15,
+      "vectors": 19847936,
+      "worker_seconds": 2.374274277
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        10,
+        119
+      ],
+      "profile_151": {
+        "count": 48,
+        "full_conductor": 48,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 336,
+          "positions": [
+            9,
+            37,
+            101,
+            0,
+            1,
+            10,
+            119
+          ]
+        },
+        "maximum_full_conductor_m3": 336,
+        "maximum_m3": 336,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 336,
+          "positions": [
+            9,
+            37,
+            101,
+            0,
+            1,
+            10,
+            119
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 192,
+        "full_conductor": 192,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 960,
+          "positions": [
+            20,
+            50,
+            99,
+            0,
+            1,
+            10,
+            119
+          ]
+        },
+        "maximum_full_conductor_m3": 960,
+        "maximum_m3": 960,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 960,
+          "positions": [
+            20,
+            50,
+            99,
+            0,
+            1,
+            10,
+            119
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 16,
+      "vectors": 19847936,
+      "worker_seconds": 2.586569589
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        11,
+        12
+      ],
+      "profile_151": {
+        "count": 8,
+        "full_conductor": 8,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 288,
+          "positions": [
+            3,
+            8,
+            13,
+            0,
+            1,
+            11,
+            12
+          ]
+        },
+        "maximum_full_conductor_m3": 288,
+        "maximum_m3": 288,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 288,
+          "positions": [
+            3,
+            8,
+            13,
+            0,
+            1,
+            11,
+            12
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 660,
+        "full_conductor": 660,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 1008,
+          "positions": [
+            2,
+            5,
+            9,
+            0,
+            1,
+            11,
+            12
+          ]
+        },
+        "maximum_full_conductor_m3": 1008,
+        "maximum_m3": 1008,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 1008,
+          "positions": [
+            2,
+            5,
+            9,
+            0,
+            1,
+            11,
+            12
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 17,
+      "vectors": 19847936,
+      "worker_seconds": 2.438950504
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        11,
+        118
+      ],
+      "profile_151": {
+        "count": 32,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            6,
+            107,
+            112,
+            0,
+            1,
+            11,
+            118
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 264,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            6,
+            107,
+            112,
+            0,
+            1,
+            11,
+            118
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 172,
+        "full_conductor": 172,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 852,
+          "positions": [
+            22,
+            75,
+            97,
+            0,
+            1,
+            11,
+            118
+          ]
+        },
+        "maximum_full_conductor_m3": 852,
+        "maximum_m3": 852,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 852,
+          "positions": [
+            22,
+            75,
+            97,
+            0,
+            1,
+            11,
+            118
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 18,
+      "vectors": 19847936,
+      "worker_seconds": 2.272833595
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        12,
+        13
+      ],
+      "profile_151": {
+        "count": 36,
+        "full_conductor": 36,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 456,
+          "positions": [
+            2,
+            6,
+            8,
+            0,
+            1,
+            12,
+            13
+          ]
+        },
+        "maximum_full_conductor_m3": 456,
+        "maximum_m3": 456,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 456,
+          "positions": [
+            2,
+            6,
+            8,
+            0,
+            1,
+            12,
+            13
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 224,
+        "full_conductor": 224,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 912,
+          "positions": [
+            2,
+            5,
+            10,
+            0,
+            1,
+            12,
+            13
+          ]
+        },
+        "maximum_full_conductor_m3": 912,
+        "maximum_m3": 912,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 912,
+          "positions": [
+            2,
+            5,
+            10,
+            0,
+            1,
+            12,
+            13
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 19,
+      "vectors": 19847936,
+      "worker_seconds": 2.435574462
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        12,
+        117
+      ],
+      "profile_151": {
+        "count": 52,
+        "full_conductor": 52,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 660,
+          "positions": [
+            24,
+            47,
+            59,
+            0,
+            1,
+            12,
+            117
+          ]
+        },
+        "maximum_full_conductor_m3": 660,
+        "maximum_m3": 660,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 660,
+          "positions": [
+            24,
+            47,
+            59,
+            0,
+            1,
+            12,
+            117
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 216,
+        "full_conductor": 216,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            24,
+            59,
+            71,
+            0,
+            1,
+            12,
+            117
+          ]
+        },
+        "maximum_full_conductor_m3": 948,
+        "maximum_m3": 948,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            24,
+            59,
+            71,
+            0,
+            1,
+            12,
+            117
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 20,
+      "vectors": 19847936,
+      "worker_seconds": 2.3344245169999995
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        13,
+        14
+      ],
+      "profile_151": {
+        "count": 16,
+        "full_conductor": 16,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 384,
+          "positions": [
+            27,
+            52,
+            103,
+            0,
+            1,
+            13,
+            14
+          ]
+        },
+        "maximum_full_conductor_m3": 384,
+        "maximum_m3": 384,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 384,
+          "positions": [
+            27,
+            52,
+            103,
+            0,
+            1,
+            13,
+            14
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 636,
+        "full_conductor": 636,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 840,
+          "positions": [
+            2,
+            7,
+            8,
+            0,
+            1,
+            13,
+            14
+          ]
+        },
+        "maximum_full_conductor_m3": 840,
+        "maximum_m3": 840,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 840,
+          "positions": [
+            2,
+            7,
+            8,
+            0,
+            1,
+            13,
+            14
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 21,
+      "vectors": 19847936,
+      "worker_seconds": 2.3952935980000003
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        13,
+        116
+      ],
+      "profile_151": {
+        "count": 56,
+        "full_conductor": 56,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 624,
+          "positions": [
+            14,
+            52,
+            103,
+            0,
+            1,
+            13,
+            116
+          ]
+        },
+        "maximum_full_conductor_m3": 624,
+        "maximum_m3": 624,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 624,
+          "positions": [
+            14,
+            52,
+            103,
+            0,
+            1,
+            13,
+            116
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 160,
+        "full_conductor": 160,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 720,
+          "positions": [
+            12,
+            70,
+            105,
+            0,
+            1,
+            13,
+            116
+          ]
+        },
+        "maximum_full_conductor_m3": 720,
+        "maximum_m3": 720,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 720,
+          "positions": [
+            12,
+            70,
+            105,
+            0,
+            1,
+            13,
+            116
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 22,
+      "vectors": 19847936,
+      "worker_seconds": 2.304339788
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        14,
+        15
+      ],
+      "profile_151": {
+        "count": 36,
+        "full_conductor": 36,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 432,
+          "positions": [
+            29,
+            43,
+            71,
+            0,
+            1,
+            14,
+            15
+          ]
+        },
+        "maximum_full_conductor_m3": 432,
+        "maximum_m3": 432,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 432,
+          "positions": [
+            29,
+            43,
+            71,
+            0,
+            1,
+            14,
+            15
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 208,
+        "full_conductor": 208,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 1176,
+          "positions": [
+            29,
+            57,
+            71,
+            0,
+            1,
+            14,
+            15
+          ]
+        },
+        "maximum_full_conductor_m3": 1176,
+        "maximum_m3": 1176,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 1176,
+          "positions": [
+            29,
+            57,
+            71,
+            0,
+            1,
+            14,
+            15
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 23,
+      "vectors": 19847936,
+      "worker_seconds": 2.379772911
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        15,
+        16
+      ],
+      "profile_151": {
+        "count": 24,
+        "full_conductor": 24,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 528,
+          "positions": [
+            29,
+            72,
+            101,
+            0,
+            1,
+            15,
+            16
+          ]
+        },
+        "maximum_full_conductor_m3": 528,
+        "maximum_m3": 528,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 528,
+          "positions": [
+            29,
+            72,
+            101,
+            0,
+            1,
+            15,
+            16
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 620,
+        "full_conductor": 620,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            29,
+            58,
+            72,
+            0,
+            1,
+            15,
+            16
+          ]
+        },
+        "maximum_full_conductor_m3": 948,
+        "maximum_m3": 948,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            29,
+            58,
+            72,
+            0,
+            1,
+            15,
+            16
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 24,
+      "vectors": 19847936,
+      "worker_seconds": 3.104663626
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        15,
+        114
+      ],
+      "profile_151": {
+        "count": 48,
+        "full_conductor": 48,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 708,
+          "positions": [
+            29,
+            57,
+            71,
+            0,
+            1,
+            15,
+            114
+          ]
+        },
+        "maximum_full_conductor_m3": 708,
+        "maximum_m3": 708,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 708,
+          "positions": [
+            29,
+            57,
+            71,
+            0,
+            1,
+            15,
+            114
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 160,
+        "full_conductor": 160,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 996,
+          "positions": [
+            14,
+            71,
+            72,
+            0,
+            1,
+            15,
+            114
+          ]
+        },
+        "maximum_full_conductor_m3": 996,
+        "maximum_m3": 996,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 996,
+          "positions": [
+            14,
+            71,
+            72,
+            0,
+            1,
+            15,
+            114
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 25,
+      "vectors": 19847936,
+      "worker_seconds": 2.310099225
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        16,
+        17
+      ],
+      "profile_151": {
+        "count": 48,
+        "full_conductor": 48,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 456,
+          "positions": [
+            32,
+            64,
+            80,
+            0,
+            1,
+            16,
+            17
+          ]
+        },
+        "maximum_full_conductor_m3": 456,
+        "maximum_m3": 456,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 456,
+          "positions": [
+            32,
+            64,
+            80,
+            0,
+            1,
+            16,
+            17
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 176,
+        "full_conductor": 176,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            32,
+            64,
+            112,
+            0,
+            1,
+            16,
+            17
+          ]
+        },
+        "maximum_full_conductor_m3": 768,
+        "maximum_m3": 768,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            32,
+            64,
+            112,
+            0,
+            1,
+            16,
+            17
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 26,
+      "vectors": 19847936,
+      "worker_seconds": 3.1240544789999998
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        19,
+        20
+      ],
+      "profile_151": {
+        "count": 20,
+        "full_conductor": 20,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 636,
+          "positions": [
+            38,
+            74,
+            92,
+            0,
+            1,
+            19,
+            20
+          ]
+        },
+        "maximum_full_conductor_m3": 636,
+        "maximum_m3": 636,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 636,
+          "positions": [
+            38,
+            74,
+            92,
+            0,
+            1,
+            19,
+            20
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 588,
+        "full_conductor": 588,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            38,
+            74,
+            93,
+            0,
+            1,
+            19,
+            20
+          ]
+        },
+        "maximum_full_conductor_m3": 948,
+        "maximum_m3": 948,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            38,
+            74,
+            93,
+            0,
+            1,
+            19,
+            20
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 27,
+      "vectors": 19847936,
+      "worker_seconds": 3.1128088500000004
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        19,
+        110
+      ],
+      "profile_151": {
+        "count": 44,
+        "full_conductor": 44,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 732,
+          "positions": [
+            37,
+            73,
+            91,
+            0,
+            1,
+            19,
+            110
+          ]
+        },
+        "maximum_full_conductor_m3": 732,
+        "maximum_m3": 732,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 732,
+          "positions": [
+            37,
+            73,
+            91,
+            0,
+            1,
+            19,
+            110
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 144,
+        "full_conductor": 144,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 936,
+          "positions": [
+            10,
+            28,
+            92,
+            0,
+            1,
+            19,
+            110
+          ]
+        },
+        "maximum_full_conductor_m3": 936,
+        "maximum_m3": 936,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 936,
+          "positions": [
+            10,
+            28,
+            92,
+            0,
+            1,
+            19,
+            110
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 28,
+      "vectors": 19847936,
+      "worker_seconds": 2.5925658289999998
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        20,
+        21
+      ],
+      "profile_151": {
+        "count": 32,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            2,
+            10,
+            12,
+            0,
+            1,
+            20,
+            21
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 264,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            2,
+            10,
+            12,
+            0,
+            1,
+            20,
+            21
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 208,
+        "full_conductor": 208,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            22,
+            64,
+            107,
+            0,
+            1,
+            20,
+            21
+          ]
+        },
+        "maximum_full_conductor_m3": 948,
+        "maximum_m3": 948,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            22,
+            64,
+            107,
+            0,
+            1,
+            20,
+            21
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 29,
+      "vectors": 19847936,
+      "worker_seconds": 2.387656425
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        20,
+        109
+      ],
+      "profile_151": {
+        "count": 40,
+        "full_conductor": 40,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 516,
+          "positions": [
+            30,
+            40,
+            50,
+            0,
+            1,
+            20,
+            109
+          ]
+        },
+        "maximum_full_conductor_m3": 516,
+        "maximum_m3": 516,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 516,
+          "positions": [
+            30,
+            40,
+            50,
+            0,
+            1,
+            20,
+            109
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 284,
+        "full_conductor": 284,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 984,
+          "positions": [
+            10,
+            30,
+            89,
+            0,
+            1,
+            20,
+            109
+          ]
+        },
+        "maximum_full_conductor_m3": 984,
+        "maximum_m3": 984,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 984,
+          "positions": [
+            10,
+            30,
+            89,
+            0,
+            1,
+            20,
+            109
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 30,
+      "vectors": 19847936,
+      "worker_seconds": 2.3048792330000003
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        21,
+        22
+      ],
+      "profile_151": {
+        "count": 8,
+        "full_conductor": 8,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 540,
+          "positions": [
+            23,
+            44,
+            108,
+            0,
+            1,
+            21,
+            22
+          ]
+        },
+        "maximum_full_conductor_m3": 540,
+        "maximum_m3": 540,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 540,
+          "positions": [
+            23,
+            44,
+            108,
+            0,
+            1,
+            21,
+            22
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 632,
+        "full_conductor": 632,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 888,
+          "positions": [
+            11,
+            32,
+            43,
+            0,
+            1,
+            21,
+            22
+          ]
+        },
+        "maximum_full_conductor_m3": 888,
+        "maximum_m3": 888,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 888,
+          "positions": [
+            11,
+            32,
+            43,
+            0,
+            1,
+            21,
+            22
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 31,
+      "vectors": 19847936,
+      "worker_seconds": 2.388006214
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        22,
+        23
+      ],
+      "profile_151": {
+        "count": 48,
+        "full_conductor": 48,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 876,
+          "positions": [
+            44,
+            65,
+            107,
+            0,
+            1,
+            22,
+            23
+          ]
+        },
+        "maximum_full_conductor_m3": 876,
+        "maximum_m3": 876,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 876,
+          "positions": [
+            44,
+            65,
+            107,
+            0,
+            1,
+            22,
+            23
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 176,
+        "full_conductor": 176,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 828,
+          "positions": [
+            2,
+            44,
+            86,
+            0,
+            1,
+            22,
+            23
+          ]
+        },
+        "maximum_full_conductor_m3": 828,
+        "maximum_m3": 828,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 828,
+          "positions": [
+            2,
+            44,
+            86,
+            0,
+            1,
+            22,
+            23
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 32,
+      "vectors": 19847936,
+      "worker_seconds": 3.0246102930000003
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        22,
+        107
+      ],
+      "profile_151": {
+        "count": 48,
+        "full_conductor": 48,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            21,
+            64,
+            86,
+            0,
+            1,
+            22,
+            107
+          ]
+        },
+        "maximum_full_conductor_m3": 948,
+        "maximum_m3": 948,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            21,
+            64,
+            86,
+            0,
+            1,
+            22,
+            107
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 112,
+        "full_conductor": 112,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 696,
+          "positions": [
+            11,
+            12,
+            23,
+            0,
+            1,
+            22,
+            107
+          ]
+        },
+        "maximum_full_conductor_m3": 696,
+        "maximum_m3": 696,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 696,
+          "positions": [
+            11,
+            12,
+            23,
+            0,
+            1,
+            22,
+            107
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 33,
+      "vectors": 19847936,
+      "worker_seconds": 2.597255475
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        23,
+        24
+      ],
+      "profile_151": {
+        "count": 4,
+        "full_conductor": 4,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 132,
+          "positions": [
+            48,
+            59,
+            70,
+            0,
+            1,
+            23,
+            24
+          ]
+        },
+        "maximum_full_conductor_m3": 132,
+        "maximum_m3": 132,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 132,
+          "positions": [
+            48,
+            59,
+            70,
+            0,
+            1,
+            23,
+            24
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 680,
+        "full_conductor": 680,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 984,
+          "positions": [
+            12,
+            35,
+            47,
+            0,
+            1,
+            23,
+            24
+          ]
+        },
+        "maximum_full_conductor_m3": 984,
+        "maximum_m3": 984,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 984,
+          "positions": [
+            12,
+            35,
+            47,
+            0,
+            1,
+            23,
+            24
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 34,
+      "vectors": 19847936,
+      "worker_seconds": 2.695352432
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        23,
+        106
+      ],
+      "profile_151": {
+        "count": 52,
+        "full_conductor": 52,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 468,
+          "positions": [
+            21,
+            43,
+            107,
+            0,
+            1,
+            23,
+            106
+          ]
+        },
+        "maximum_full_conductor_m3": 468,
+        "maximum_m3": 468,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 468,
+          "positions": [
+            21,
+            43,
+            107,
+            0,
+            1,
+            23,
+            106
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 184,
+        "full_conductor": 184,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 816,
+          "positions": [
+            24,
+            82,
+            94,
+            0,
+            1,
+            23,
+            106
+          ]
+        },
+        "maximum_full_conductor_m3": 816,
+        "maximum_m3": 816,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 816,
+          "positions": [
+            24,
+            82,
+            94,
+            0,
+            1,
+            23,
+            106
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 35,
+      "vectors": 19847936,
+      "worker_seconds": 2.3095206609999996
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        24,
+        25
+      ],
+      "profile_151": {
+        "count": 52,
+        "full_conductor": 52,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 564,
+          "positions": [
+            26,
+            77,
+            102,
+            0,
+            1,
+            24,
+            25
+          ]
+        },
+        "maximum_full_conductor_m3": 564,
+        "maximum_m3": 564,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 564,
+          "positions": [
+            26,
+            77,
+            102,
+            0,
+            1,
+            24,
+            25
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 188,
+        "full_conductor": 188,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 840,
+          "positions": [
+            26,
+            52,
+            77,
+            0,
+            1,
+            24,
+            25
+          ]
+        },
+        "maximum_full_conductor_m3": 840,
+        "maximum_m3": 840,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 840,
+          "positions": [
+            26,
+            52,
+            77,
+            0,
+            1,
+            24,
+            25
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 36,
+      "vectors": 19847936,
+      "worker_seconds": 2.3778566560000005
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        24,
+        105
+      ],
+      "profile_151": {
+        "count": 32,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 324,
+          "positions": [
+            12,
+            94,
+            106,
+            0,
+            1,
+            24,
+            105
+          ]
+        },
+        "maximum_full_conductor_m3": 324,
+        "maximum_m3": 324,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 324,
+          "positions": [
+            12,
+            94,
+            106,
+            0,
+            1,
+            24,
+            105
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 152,
+        "full_conductor": 152,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 936,
+          "positions": [
+            12,
+            47,
+            93,
+            0,
+            1,
+            24,
+            105
+          ]
+        },
+        "maximum_full_conductor_m3": 936,
+        "maximum_m3": 936,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 936,
+          "positions": [
+            12,
+            47,
+            93,
+            0,
+            1,
+            24,
+            105
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 37,
+      "vectors": 19847936,
+      "worker_seconds": 2.2925603549999996
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        25,
+        26
+      ],
+      "profile_151": {
+        "count": 32,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 696,
+          "positions": [
+            52,
+            77,
+            78,
+            0,
+            1,
+            25,
+            26
+          ]
+        },
+        "maximum_full_conductor_m3": 696,
+        "maximum_m3": 696,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 696,
+          "positions": [
+            52,
+            77,
+            78,
+            0,
+            1,
+            25,
+            26
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 416,
+        "full_conductor": 416,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 972,
+          "positions": [
+            27,
+            77,
+            78,
+            0,
+            1,
+            25,
+            26
+          ]
+        },
+        "maximum_full_conductor_m3": 972,
+        "maximum_m3": 972,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 972,
+          "positions": [
+            27,
+            77,
+            78,
+            0,
+            1,
+            25,
+            26
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 38,
+      "vectors": 19847936,
+      "worker_seconds": 2.657588174
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        29,
+        30
+      ],
+      "profile_151": {
+        "count": 16,
+        "full_conductor": 16,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 564,
+          "positions": [
+            15,
+            58,
+            72,
+            0,
+            1,
+            29,
+            30
+          ]
+        },
+        "maximum_full_conductor_m3": 564,
+        "maximum_m3": 564,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 564,
+          "positions": [
+            15,
+            58,
+            72,
+            0,
+            1,
+            29,
+            30
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 632,
+        "full_conductor": 632,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 936,
+          "positions": [
+            15,
+            44,
+            58,
+            0,
+            1,
+            29,
+            30
+          ]
+        },
+        "maximum_full_conductor_m3": 936,
+        "maximum_m3": 936,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 936,
+          "positions": [
+            15,
+            44,
+            58,
+            0,
+            1,
+            29,
+            30
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 39,
+      "vectors": 19847936,
+      "worker_seconds": 2.3888361689999997
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        30,
+        31
+      ],
+      "profile_151": {
+        "count": 32,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            2,
+            15,
+            17,
+            0,
+            1,
+            30,
+            31
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 264,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            2,
+            15,
+            17,
+            0,
+            1,
+            30,
+            31
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 176,
+        "full_conductor": 176,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 852,
+          "positions": [
+            32,
+            95,
+            97,
+            0,
+            1,
+            30,
+            31
+          ]
+        },
+        "maximum_full_conductor_m3": 852,
+        "maximum_m3": 852,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 852,
+          "positions": [
+            32,
+            95,
+            97,
+            0,
+            1,
+            30,
+            31
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 40,
+      "vectors": 19847936,
+      "worker_seconds": 2.650725591
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        31,
+        32
+      ],
+      "profile_151": {
+        "count": 16,
+        "full_conductor": 16,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 696,
+          "positions": [
+            2,
+            33,
+            97,
+            0,
+            1,
+            31,
+            32
+          ]
+        },
+        "maximum_full_conductor_m3": 696,
+        "maximum_m3": 696,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 696,
+          "positions": [
+            2,
+            33,
+            97,
+            0,
+            1,
+            31,
+            32
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 448,
+        "full_conductor": 448,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 840,
+          "positions": [
+            2,
+            16,
+            17,
+            0,
+            1,
+            31,
+            32
+          ]
+        },
+        "maximum_full_conductor_m3": 840,
+        "maximum_m3": 840,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 840,
+          "positions": [
+            2,
+            16,
+            17,
+            0,
+            1,
+            31,
+            32
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 41,
+      "vectors": 19847936,
+      "worker_seconds": 2.280584773000001
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        32,
+        33
+      ],
+      "profile_151": {
+        "count": 32,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            2,
+            16,
+            18,
+            0,
+            1,
+            32,
+            33
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 264,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            2,
+            16,
+            18,
+            0,
+            1,
+            32,
+            33
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 144,
+        "full_conductor": 144,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            2,
+            35,
+            65,
+            0,
+            1,
+            32,
+            33
+          ]
+        },
+        "maximum_full_conductor_m3": 768,
+        "maximum_m3": 768,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            2,
+            35,
+            65,
+            0,
+            1,
+            32,
+            33
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 42,
+      "vectors": 19847936,
+      "worker_seconds": 2.440503047
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        37,
+        38
+      ],
+      "profile_151": {
+        "count": 28,
+        "full_conductor": 28,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 804,
+          "positions": [
+            19,
+            56,
+            74,
+            0,
+            1,
+            37,
+            38
+          ]
+        },
+        "maximum_full_conductor_m3": 804,
+        "maximum_m3": 804,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 804,
+          "positions": [
+            19,
+            56,
+            74,
+            0,
+            1,
+            37,
+            38
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 560,
+        "full_conductor": 560,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 996,
+          "positions": [
+            19,
+            56,
+            75,
+            0,
+            1,
+            37,
+            38
+          ]
+        },
+        "maximum_full_conductor_m3": 996,
+        "maximum_m3": 996,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 996,
+          "positions": [
+            19,
+            56,
+            75,
+            0,
+            1,
+            37,
+            38
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 43,
+      "vectors": 19847936,
+      "worker_seconds": 3.1379783959999994
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        38,
+        91
+      ],
+      "profile_151": {
+        "count": 44,
+        "full_conductor": 44,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 648,
+          "positions": [
+            19,
+            73,
+            92,
+            0,
+            1,
+            38,
+            91
+          ]
+        },
+        "maximum_full_conductor_m3": 648,
+        "maximum_m3": 648,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 648,
+          "positions": [
+            19,
+            73,
+            92,
+            0,
+            1,
+            38,
+            91
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 212,
+        "full_conductor": 212,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 888,
+          "positions": [
+            18,
+            19,
+            92,
+            0,
+            1,
+            38,
+            91
+          ]
+        },
+        "maximum_full_conductor_m3": 888,
+        "maximum_m3": 888,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 888,
+          "positions": [
+            18,
+            19,
+            92,
+            0,
+            1,
+            38,
+            91
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 44,
+      "vectors": 19847936,
+      "worker_seconds": 2.345241112
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        47,
+        48
+      ],
+      "profile_151": {
+        "count": 16,
+        "full_conductor": 16,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 432,
+          "positions": [
+            15,
+            32,
+            112,
+            0,
+            1,
+            47,
+            48
+          ]
+        },
+        "maximum_full_conductor_m3": 432,
+        "maximum_m3": 432,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 432,
+          "positions": [
+            15,
+            32,
+            112,
+            0,
+            1,
+            47,
+            48
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 624,
+        "full_conductor": 624,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 888,
+          "positions": [
+            24,
+            59,
+            82,
+            0,
+            1,
+            47,
+            48
+          ]
+        },
+        "maximum_full_conductor_m3": 888,
+        "maximum_m3": 888,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 888,
+          "positions": [
+            24,
+            59,
+            82,
+            0,
+            1,
+            47,
+            48
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 45,
+      "vectors": 19847936,
+      "worker_seconds": 2.3764539630000003
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        1,
+        48,
+        49
+      ],
+      "profile_151": {
+        "count": 48,
+        "full_conductor": 48,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 456,
+          "positions": [
+            64,
+            80,
+            112,
+            0,
+            1,
+            48,
+            49
+          ]
+        },
+        "maximum_full_conductor_m3": 456,
+        "maximum_m3": 456,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 456,
+          "positions": [
+            64,
+            80,
+            112,
+            0,
+            1,
+            48,
+            49
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 176,
+        "full_conductor": 176,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            64,
+            80,
+            96,
+            0,
+            1,
+            48,
+            49
+          ]
+        },
+        "maximum_full_conductor_m3": 768,
+        "maximum_m3": 768,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            64,
+            80,
+            96,
+            0,
+            1,
+            48,
+            49
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 46,
+      "vectors": 19847936,
+      "worker_seconds": 2.375964738
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "profile_151": {
+        "count": 176,
+        "full_conductor": 96,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            1,
+            125,
+            127,
+            0,
+            2,
+            4,
+            6
+          ]
+        },
+        "maximum_full_conductor_m3": 948,
+        "maximum_m3": 948,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            1,
+            125,
+            127,
+            0,
+            2,
+            4,
+            6
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 1168,
+        "full_conductor": 1120,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1116,
+          "positions": [
+            3,
+            7,
+            10,
+            0,
+            2,
+            4,
+            6
+          ]
+        },
+        "maximum_full_conductor_m3": 1116,
+        "maximum_m3": 1116,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1116,
+          "positions": [
+            3,
+            7,
+            10,
+            0,
+            2,
+            4,
+            6
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 47,
+      "vectors": 19847936,
+      "worker_seconds": 2.3612531189999997
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        4,
+        8
+      ],
+      "profile_151": {
+        "count": 140,
+        "full_conductor": 56,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            3,
+            6,
+            9,
+            0,
+            2,
+            4,
+            8
+          ]
+        },
+        "maximum_full_conductor_m3": 768,
+        "maximum_m3": 996,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 996,
+          "positions": [
+            6,
+            122,
+            124,
+            0,
+            2,
+            4,
+            8
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 554,
+        "full_conductor": 312,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1224,
+          "positions": [
+            1,
+            5,
+            126,
+            0,
+            2,
+            4,
+            8
+          ]
+        },
+        "maximum_full_conductor_m3": 1224,
+        "maximum_m3": 1224,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1224,
+          "positions": [
+            1,
+            5,
+            126,
+            0,
+            2,
+            4,
+            8
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 48,
+      "vectors": 19847936,
+      "worker_seconds": 2.332339674
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        6,
+        8
+      ],
+      "profile_151": {
+        "count": 116,
+        "full_conductor": 40,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 522,
+          "positions": [
+            10,
+            11,
+            12,
+            0,
+            2,
+            6,
+            8
+          ]
+        },
+        "maximum_full_conductor_m3": 522,
+        "maximum_m3": 1014,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "m3": 1014,
+          "positions": [
+            4,
+            10,
+            14,
+            0,
+            2,
+            6,
+            8
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 344,
+        "full_conductor": 208,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 918,
+          "positions": [
+            1,
+            124,
+            127,
+            0,
+            2,
+            6,
+            8
+          ]
+        },
+        "maximum_full_conductor_m3": 918,
+        "maximum_m3": 930,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 930,
+          "positions": [
+            10,
+            12,
+            22,
+            0,
+            2,
+            6,
+            8
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 49,
+      "vectors": 19847936,
+      "worker_seconds": 3.115676402
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        6,
+        124
+      ],
+      "profile_151": {
+        "count": 84,
+        "full_conductor": 24,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 600,
+          "positions": [
+            1,
+            3,
+            8,
+            0,
+            2,
+            6,
+            124
+          ]
+        },
+        "maximum_full_conductor_m3": 600,
+        "maximum_m3": 828,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "m3": 828,
+          "positions": [
+            4,
+            10,
+            14,
+            0,
+            2,
+            6,
+            124
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 628,
+        "full_conductor": 496,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 900,
+          "positions": [
+            1,
+            5,
+            10,
+            0,
+            2,
+            6,
+            124
+          ]
+        },
+        "maximum_full_conductor_m3": 900,
+        "maximum_m3": 900,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 900,
+          "positions": [
+            1,
+            5,
+            10,
+            0,
+            2,
+            6,
+            124
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 50,
+      "vectors": 19847936,
+      "worker_seconds": 2.3095558159999996
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "profile_151": {
+        "count": 160,
+        "full_conductor": 104,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            3,
+            5,
+            6,
+            0,
+            2,
+            8,
+            10
+          ]
+        },
+        "maximum_full_conductor_m3": 768,
+        "maximum_m3": 876,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 876,
+          "positions": [
+            4,
+            122,
+            124,
+            0,
+            2,
+            8,
+            10
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 816,
+        "full_conductor": 648,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1092,
+          "positions": [
+            3,
+            5,
+            126,
+            0,
+            2,
+            8,
+            10
+          ]
+        },
+        "maximum_full_conductor_m3": 1092,
+        "maximum_m3": 1164,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1164,
+          "positions": [
+            4,
+            14,
+            18,
+            0,
+            2,
+            8,
+            10
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 51,
+      "vectors": 19847936,
+      "worker_seconds": 2.413088086
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        8,
+        122
+      ],
+      "profile_151": {
+        "count": 120,
+        "full_conductor": 64,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 552,
+          "positions": [
+            1,
+            3,
+            4,
+            0,
+            2,
+            8,
+            122
+          ]
+        },
+        "maximum_full_conductor_m3": 552,
+        "maximum_m3": 924,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 924,
+          "positions": [
+            4,
+            120,
+            124,
+            0,
+            2,
+            8,
+            122
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 864,
+        "full_conductor": 656,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 924,
+          "positions": [
+            1,
+            3,
+            6,
+            0,
+            2,
+            8,
+            122
+          ]
+        },
+        "maximum_full_conductor_m3": 924,
+        "maximum_m3": 1116,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 1116,
+          "positions": [
+            4,
+            6,
+            16,
+            0,
+            2,
+            8,
+            122
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 52,
+      "vectors": 19847936,
+      "worker_seconds": 3.1052316579999997
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        10,
+        12
+      ],
+      "profile_151": {
+        "count": 92,
+        "full_conductor": 80,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 648,
+          "positions": [
+            3,
+            7,
+            8,
+            0,
+            2,
+            10,
+            12
+          ]
+        },
+        "maximum_full_conductor_m3": 648,
+        "maximum_m3": 648,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 648,
+          "positions": [
+            3,
+            7,
+            8,
+            0,
+            2,
+            10,
+            12
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 732,
+        "full_conductor": 304,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 984,
+          "positions": [
+            1,
+            8,
+            9,
+            0,
+            2,
+            10,
+            12
+          ]
+        },
+        "maximum_full_conductor_m3": 984,
+        "maximum_m3": 1128,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1128,
+          "positions": [
+            4,
+            68,
+            70,
+            0,
+            2,
+            10,
+            12
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 53,
+      "vectors": 19847936,
+      "worker_seconds": 2.400958889
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        10,
+        120
+      ],
+      "profile_151": {
+        "count": 92,
+        "full_conductor": 40,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 396,
+          "positions": [
+            1,
+            4,
+            5,
+            0,
+            2,
+            10,
+            120
+          ]
+        },
+        "maximum_full_conductor_m3": 396,
+        "maximum_m3": 1068,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1068,
+          "positions": [
+            4,
+            6,
+            124,
+            0,
+            2,
+            10,
+            120
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 980,
+        "full_conductor": 704,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 840,
+          "positions": [
+            1,
+            8,
+            9,
+            0,
+            2,
+            10,
+            120
+          ]
+        },
+        "maximum_full_conductor_m3": 840,
+        "maximum_m3": 948,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            20,
+            56,
+            102,
+            0,
+            2,
+            10,
+            120
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 54,
+      "vectors": 19847936,
+      "worker_seconds": 2.3054630350000007
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        12,
+        14
+      ],
+      "profile_151": {
+        "count": 104,
+        "full_conductor": 40,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "m3": 480,
+          "positions": [
+            4,
+            5,
+            6,
+            0,
+            2,
+            12,
+            14
+          ]
+        },
+        "maximum_full_conductor_m3": 480,
+        "maximum_m3": 696,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 696,
+          "positions": [
+            4,
+            6,
+            124,
+            0,
+            2,
+            12,
+            14
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 900,
+        "full_conductor": 712,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 888,
+          "positions": [
+            4,
+            7,
+            9,
+            0,
+            2,
+            12,
+            14
+          ]
+        },
+        "maximum_full_conductor_m3": 888,
+        "maximum_m3": 960,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 960,
+          "positions": [
+            24,
+            60,
+            106,
+            0,
+            2,
+            12,
+            14
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 55,
+      "vectors": 19847936,
+      "worker_seconds": 2.408202792
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        12,
+        118
+      ],
+      "profile_151": {
+        "count": 76,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            7,
+            106,
+            111,
+            0,
+            2,
+            12,
+            118
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 732,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 732,
+          "positions": [
+            4,
+            6,
+            8,
+            0,
+            2,
+            12,
+            118
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 936,
+        "full_conductor": 712,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 840,
+          "positions": [
+            1,
+            10,
+            11,
+            0,
+            2,
+            12,
+            118
+          ]
+        },
+        "maximum_full_conductor_m3": 840,
+        "maximum_m3": 1176,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 1176,
+          "positions": [
+            24,
+            48,
+            60,
+            0,
+            2,
+            12,
+            118
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 56,
+      "vectors": 19847936,
+      "worker_seconds": 2.3074858020000004
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        14,
+        16
+      ],
+      "profile_151": {
+        "count": 148,
+        "full_conductor": 64,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            1,
+            28,
+            29,
+            0,
+            2,
+            14,
+            16
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 768,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            6,
+            8,
+            18,
+            0,
+            2,
+            14,
+            16
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 856,
+        "full_conductor": 256,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 696,
+          "positions": [
+            1,
+            12,
+            13,
+            0,
+            2,
+            14,
+            16
+          ]
+        },
+        "maximum_full_conductor_m3": 696,
+        "maximum_m3": 1320,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1320,
+          "positions": [
+            30,
+            58,
+            72,
+            0,
+            2,
+            14,
+            16
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 57,
+      "vectors": 19847936,
+      "worker_seconds": 2.418062058
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        14,
+        116
+      ],
+      "profile_151": {
+        "count": 104,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            7,
+            104,
+            111,
+            0,
+            2,
+            14,
+            116
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 876,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 876,
+          "positions": [
+            26,
+            52,
+            104,
+            0,
+            2,
+            14,
+            116
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 912,
+        "full_conductor": 704,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 840,
+          "positions": [
+            1,
+            12,
+            13,
+            0,
+            2,
+            14,
+            116
+          ]
+        },
+        "maximum_full_conductor_m3": 840,
+        "maximum_m3": 840,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 840,
+          "positions": [
+            1,
+            12,
+            13,
+            0,
+            2,
+            14,
+            116
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 58,
+      "vectors": 19847936,
+      "worker_seconds": 2.587708999
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        16,
+        18
+      ],
+      "profile_151": {
+        "count": 96,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            1,
+            32,
+            33,
+            0,
+            2,
+            16,
+            18
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 672,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 672,
+          "positions": [
+            36,
+            54,
+            72,
+            0,
+            2,
+            16,
+            18
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 948,
+        "full_conductor": 704,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 840,
+          "positions": [
+            4,
+            9,
+            11,
+            0,
+            2,
+            16,
+            18
+          ]
+        },
+        "maximum_full_conductor_m3": 840,
+        "maximum_m3": 936,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 936,
+          "positions": [
+            4,
+            8,
+            122,
+            0,
+            2,
+            16,
+            18
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 59,
+      "vectors": 19847936,
+      "worker_seconds": 2.4077682530000004
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        22,
+        24
+      ],
+      "profile_151": {
+        "count": 96,
+        "full_conductor": 64,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 360,
+          "positions": [
+            1,
+            44,
+            45,
+            0,
+            2,
+            22,
+            24
+          ]
+        },
+        "maximum_full_conductor_m3": 360,
+        "maximum_m3": 564,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 564,
+          "positions": [
+            26,
+            76,
+            102,
+            0,
+            2,
+            22,
+            24
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 932,
+        "full_conductor": 272,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 744,
+          "positions": [
+            11,
+            108,
+            119,
+            0,
+            2,
+            22,
+            24
+          ]
+        },
+        "maximum_full_conductor_m3": 744,
+        "maximum_m3": 1008,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 1008,
+          "positions": [
+            4,
+            10,
+            18,
+            0,
+            2,
+            22,
+            24
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 60,
+      "vectors": 19847936,
+      "worker_seconds": 2.7296594709999997
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        22,
+        108
+      ],
+      "profile_151": {
+        "count": 80,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            11,
+            88,
+            99,
+            0,
+            2,
+            22,
+            108
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 948,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            24,
+            66,
+            86,
+            0,
+            2,
+            22,
+            108
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 508,
+        "full_conductor": 384,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 876,
+          "positions": [
+            1,
+            23,
+            24,
+            0,
+            2,
+            22,
+            108
+          ]
+        },
+        "maximum_full_conductor_m3": 876,
+        "maximum_m3": 876,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 876,
+          "positions": [
+            1,
+            23,
+            24,
+            0,
+            2,
+            22,
+            108
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 61,
+      "vectors": 19847936,
+      "worker_seconds": 2.30734789
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        24,
+        106
+      ],
+      "profile_151": {
+        "count": 116,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            13,
+            82,
+            93,
+            0,
+            2,
+            24,
+            106
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 660,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 660,
+          "positions": [
+            12,
+            36,
+            48,
+            0,
+            2,
+            24,
+            106
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 940,
+        "full_conductor": 704,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 840,
+          "positions": [
+            1,
+            22,
+            23,
+            0,
+            2,
+            24,
+            106
+          ]
+        },
+        "maximum_full_conductor_m3": 840,
+        "maximum_m3": 984,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 984,
+          "positions": [
+            26,
+            52,
+            54,
+            0,
+            2,
+            24,
+            106
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 62,
+      "vectors": 19847936,
+      "worker_seconds": 2.3120563599999997
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        30,
+        32
+      ],
+      "profile_151": {
+        "count": 88,
+        "full_conductor": 64,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            1,
+            60,
+            61,
+            0,
+            2,
+            30,
+            32
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 696,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 696,
+          "positions": [
+            4,
+            34,
+            98,
+            0,
+            2,
+            30,
+            32
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 732,
+        "full_conductor": 256,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 696,
+          "positions": [
+            1,
+            28,
+            29,
+            0,
+            2,
+            30,
+            32
+          ]
+        },
+        "maximum_full_conductor_m3": 696,
+        "maximum_m3": 948,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            16,
+            44,
+            58,
+            0,
+            2,
+            30,
+            32
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 63,
+      "vectors": 19847936,
+      "worker_seconds": 3.1132562690000007
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        30,
+        100
+      ],
+      "profile_151": {
+        "count": 92,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            15,
+            72,
+            87,
+            0,
+            2,
+            30,
+            100
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 708,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 708,
+          "positions": [
+            14,
+            58,
+            114,
+            0,
+            2,
+            30,
+            100
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 868,
+        "full_conductor": 704,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 840,
+          "positions": [
+            1,
+            28,
+            29,
+            0,
+            2,
+            30,
+            100
+          ]
+        },
+        "maximum_full_conductor_m3": 840,
+        "maximum_m3": 996,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 996,
+          "positions": [
+            14,
+            16,
+            28,
+            0,
+            2,
+            30,
+            100
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 64,
+      "vectors": 19847936,
+      "worker_seconds": 2.5873498539999993
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        32,
+        34
+      ],
+      "profile_151": {
+        "count": 32,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 264,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            4,
+            16,
+            20,
+            0,
+            2,
+            32,
+            34
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 496,
+        "full_conductor": 352,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 840,
+          "positions": [
+            4,
+            17,
+            19,
+            0,
+            2,
+            32,
+            34
+          ]
+        },
+        "maximum_full_conductor_m3": 840,
+        "maximum_m3": 840,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 840,
+          "positions": [
+            4,
+            17,
+            19,
+            0,
+            2,
+            32,
+            34
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 65,
+      "vectors": 19847936,
+      "worker_seconds": 2.6371815180000002
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        38,
+        40
+      ],
+      "profile_151": {
+        "count": 128,
+        "full_conductor": 64,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            1,
+            76,
+            77,
+            0,
+            2,
+            38,
+            40
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 804,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 804,
+          "positions": [
+            42,
+            82,
+            84,
+            0,
+            2,
+            38,
+            40
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 804,
+        "full_conductor": 264,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 744,
+          "positions": [
+            41,
+            84,
+            126,
+            0,
+            2,
+            38,
+            40
+          ]
+        },
+        "maximum_full_conductor_m3": 744,
+        "maximum_m3": 996,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 996,
+          "positions": [
+            4,
+            84,
+            86,
+            0,
+            2,
+            38,
+            40
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 66,
+      "vectors": 19847936,
+      "worker_seconds": 2.676853721
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        38,
+        92
+      ],
+      "profile_151": {
+        "count": 104,
+        "full_conductor": 48,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 600,
+          "positions": [
+            1,
+            19,
+            56,
+            0,
+            2,
+            38,
+            92
+          ]
+        },
+        "maximum_full_conductor_m3": 600,
+        "maximum_m3": 732,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 732,
+          "positions": [
+            18,
+            54,
+            74,
+            0,
+            2,
+            38,
+            92
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 936,
+        "full_conductor": 688,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 984,
+          "positions": [
+            1,
+            37,
+            74,
+            0,
+            2,
+            38,
+            92
+          ]
+        },
+        "maximum_full_conductor_m3": 984,
+        "maximum_m3": 984,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 984,
+          "positions": [
+            1,
+            37,
+            74,
+            0,
+            2,
+            38,
+            92
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 67,
+      "vectors": 19847936,
+      "worker_seconds": 3.1087674109999996
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        46,
+        48
+      ],
+      "profile_151": {
+        "count": 116,
+        "full_conductor": 64,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 336,
+          "positions": [
+            4,
+            23,
+            27,
+            0,
+            2,
+            46,
+            48
+          ]
+        },
+        "maximum_full_conductor_m3": 336,
+        "maximum_m3": 696,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 696,
+          "positions": [
+            6,
+            88,
+            90,
+            0,
+            2,
+            46,
+            48
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 792,
+        "full_conductor": 320,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            1,
+            44,
+            45,
+            0,
+            2,
+            46,
+            48
+          ]
+        },
+        "maximum_full_conductor_m3": 768,
+        "maximum_m3": 984,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 984,
+          "positions": [
+            24,
+            70,
+            94,
+            0,
+            2,
+            46,
+            48
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 68,
+      "vectors": 19847936,
+      "worker_seconds": 3.105484335999999
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        2,
+        48,
+        50
+      ],
+      "profile_151": {
+        "count": 100,
+        "full_conductor": 32,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 264,
+          "positions": [
+            1,
+            96,
+            97,
+            0,
+            2,
+            48,
+            50
+          ]
+        },
+        "maximum_full_conductor_m3": 264,
+        "maximum_m3": 564,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 564,
+          "positions": [
+            24,
+            102,
+            126,
+            0,
+            2,
+            48,
+            50
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 900,
+        "full_conductor": 704,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 840,
+          "positions": [
+            4,
+            25,
+            27,
+            0,
+            2,
+            48,
+            50
+          ]
+        },
+        "maximum_full_conductor_m3": 840,
+        "maximum_m3": 936,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 936,
+          "positions": [
+            4,
+            8,
+            90,
+            0,
+            2,
+            48,
+            50
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 69,
+      "vectors": 19847936,
+      "worker_seconds": 3.1065297670000005
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "profile_151": {
+        "count": 244,
+        "full_conductor": 48,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 852,
+          "positions": [
+            3,
+            5,
+            7,
+            0,
+            4,
+            8,
+            12
+          ]
+        },
+        "maximum_full_conductor_m3": 852,
+        "maximum_m3": 948,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            2,
+            122,
+            126,
+            0,
+            4,
+            8,
+            12
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 1144,
+        "full_conductor": 416,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 612,
+          "positions": [
+            13,
+            15,
+            17,
+            0,
+            4,
+            8,
+            12
+          ]
+        },
+        "maximum_full_conductor_m3": 612,
+        "maximum_m3": 1116,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1116,
+          "positions": [
+            6,
+            14,
+            20,
+            0,
+            4,
+            8,
+            12
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 70,
+      "vectors": 19847936,
+      "worker_seconds": 2.305673359
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        8,
+        16
+      ],
+      "profile_151": {
+        "count": 208,
+        "full_conductor": 40,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 408,
+          "positions": [
+            1,
+            7,
+            13,
+            0,
+            4,
+            8,
+            16
+          ]
+        },
+        "maximum_full_conductor_m3": 408,
+        "maximum_m3": 996,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 996,
+          "positions": [
+            12,
+            116,
+            120,
+            0,
+            4,
+            8,
+            16
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 798,
+        "full_conductor": 192,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "m3": 912,
+          "positions": [
+            6,
+            9,
+            13,
+            0,
+            4,
+            8,
+            16
+          ]
+        },
+        "maximum_full_conductor_m3": 912,
+        "maximum_m3": 1224,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1224,
+          "positions": [
+            2,
+            10,
+            124,
+            0,
+            4,
+            8,
+            16
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 71,
+      "vectors": 19847936,
+      "worker_seconds": 3.019325854
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        12,
+        16
+      ],
+      "profile_151": {
+        "count": 176,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1014,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "m3": 1014,
+          "positions": [
+            8,
+            20,
+            28,
+            0,
+            4,
+            12,
+            16
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 428,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1098,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1098,
+          "positions": [
+            28,
+            60,
+            100,
+            0,
+            4,
+            12,
+            16
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 72,
+      "vectors": 19847936,
+      "worker_seconds": 2.297020935
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        12,
+        120
+      ],
+      "profile_151": {
+        "count": 148,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 828,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "m3": 828,
+          "positions": [
+            8,
+            20,
+            28,
+            0,
+            4,
+            12,
+            120
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 672,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1032,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "m3": 1032,
+          "positions": [
+            24,
+            48,
+            104,
+            0,
+            4,
+            12,
+            120
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 73,
+      "vectors": 19847936,
+      "worker_seconds": 2.298662711
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        16,
+        20
+      ],
+      "profile_151": {
+        "count": 204,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 876,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 876,
+          "positions": [
+            8,
+            116,
+            120,
+            0,
+            4,
+            16,
+            20
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 872,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1188,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 1188,
+          "positions": [
+            24,
+            56,
+            88,
+            0,
+            4,
+            16,
+            20
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 74,
+      "vectors": 19847936,
+      "worker_seconds": 2.2587590429999995
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        16,
+        116
+      ],
+      "profile_151": {
+        "count": 196,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1068,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1068,
+          "positions": [
+            44,
+            60,
+            72,
+            0,
+            4,
+            16,
+            116
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 884,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1188,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1188,
+          "positions": [
+            48,
+            56,
+            64,
+            0,
+            4,
+            16,
+            116
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 75,
+      "vectors": 19847936,
+      "worker_seconds": 2.5764368399999995
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        20,
+        24
+      ],
+      "profile_151": {
+        "count": 172,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 804,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 804,
+          "positions": [
+            40,
+            56,
+            76,
+            0,
+            4,
+            20,
+            24
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 628,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1140,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1140,
+          "positions": [
+            8,
+            72,
+            76,
+            0,
+            4,
+            20,
+            24
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 76,
+      "vectors": 19847936,
+      "worker_seconds": 2.325767398
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        24,
+        28
+      ],
+      "profile_151": {
+        "count": 132,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 876,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 876,
+          "positions": [
+            48,
+            68,
+            108,
+            0,
+            4,
+            24,
+            28
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 872,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1236,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 1236,
+          "positions": [
+            32,
+            72,
+            120,
+            0,
+            4,
+            24,
+            28
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 77,
+      "vectors": 19847936,
+      "worker_seconds": 2.3888237190000003
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        24,
+        108
+      ],
+      "profile_151": {
+        "count": 124,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 948,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 948,
+          "positions": [
+            20,
+            64,
+            88,
+            0,
+            4,
+            24,
+            108
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 552,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1188,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1188,
+          "positions": [
+            12,
+            36,
+            84,
+            0,
+            4,
+            24,
+            108
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 78,
+      "vectors": 19847936,
+      "worker_seconds": 2.5736637070000006
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        28,
+        32
+      ],
+      "profile_151": {
+        "count": 172,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 768,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            12,
+            16,
+            36,
+            0,
+            4,
+            28,
+            32
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 656,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1320,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1320,
+          "positions": [
+            16,
+            44,
+            60,
+            0,
+            4,
+            28,
+            32
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 79,
+      "vectors": 19847936,
+      "worker_seconds": 2.3918714019999987
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        4,
+        32,
+        36
+      ],
+      "profile_151": {
+        "count": 64,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 768,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 768,
+          "positions": [
+            16,
+            56,
+            72,
+            0,
+            4,
+            32,
+            36
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 556,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1080,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1080,
+          "positions": [
+            52,
+            60,
+            68,
+            0,
+            4,
+            32,
+            36
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 80,
+      "vectors": 19847936,
+      "worker_seconds": 2.296404378000001
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "profile_151": {
+        "count": 156,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1320,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 1320,
+          "positions": [
+            32,
+            56,
+            120,
+            0,
+            8,
+            16,
+            24
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 1000,
+        "full_conductor": 512,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 420,
+          "positions": [
+            1,
+            5,
+            9,
+            0,
+            8,
+            16,
+            24
+          ]
+        },
+        "maximum_full_conductor_m3": 420,
+        "maximum_m3": 1116,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1116,
+          "positions": [
+            12,
+            28,
+            40,
+            0,
+            8,
+            16,
+            24
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 81,
+      "vectors": 19847936,
+      "worker_seconds": 2.2970351979999997
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "profile_151": {
+        "count": 138,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1308,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 1308,
+          "positions": [
+            24,
+            64,
+            120,
+            0,
+            8,
+            16,
+            32
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 516,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1224,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1224,
+          "positions": [
+            4,
+            20,
+            120,
+            0,
+            8,
+            16,
+            32
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 82,
+      "vectors": 19847936,
+      "worker_seconds": 2.2868318500000004
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        8,
+        24,
+        32
+      ],
+      "profile_151": {
+        "count": 76,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1314,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1314,
+          "positions": [
+            16,
+            40,
+            56,
+            0,
+            8,
+            24,
+            32
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 248,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1062,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 1062,
+          "positions": [
+            4,
+            12,
+            72,
+            0,
+            8,
+            24,
+            32
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 83,
+      "vectors": 19847936,
+      "worker_seconds": 2.41113475
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        8,
+        24,
+        112
+      ],
+      "profile_151": {
+        "count": 68,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1320,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "m3": 1320,
+          "positions": [
+            16,
+            40,
+            56,
+            0,
+            8,
+            24,
+            112
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 216,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1044,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 1044,
+          "positions": [
+            4,
+            20,
+            40,
+            0,
+            8,
+            24,
+            112
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 84,
+      "vectors": 19847936,
+      "worker_seconds": 2.3404591329999995
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        8,
+        32,
+        40
+      ],
+      "profile_151": {
+        "count": 140,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1344,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1344,
+          "positions": [
+            16,
+            48,
+            88,
+            0,
+            8,
+            32,
+            40
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 216,
+        "full_conductor": 0,
+        "full_conductor_witness": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m3": -1,
+          "positions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "maximum_full_conductor_m3": -1,
+        "maximum_m3": 1104,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 1104,
+          "positions": [
+            12,
+            20,
+            120,
+            0,
+            8,
+            32,
+            40
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 85,
+      "vectors": 19847936,
+      "worker_seconds": 2.664509527
+    },
+    {
+      "complete": true,
+      "light": [
+        0,
+        16,
+        32,
+        48
+      ],
+      "profile_151": {
+        "count": 1008,
+        "full_conductor": 512,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 672,
+          "positions": [
+            1,
+            17,
+            65,
+            0,
+            16,
+            32,
+            48
+          ]
+        },
+        "maximum_full_conductor_m3": 672,
+        "maximum_m3": 1344,
+        "witness": {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 1344,
+          "positions": [
+            8,
+            56,
+            72,
+            0,
+            16,
+            32,
+            48
+          ]
+        }
+      },
+      "profile_27": {
+        "count": 1712,
+        "full_conductor": 1024,
+        "full_conductor_witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 816,
+          "positions": [
+            1,
+            49,
+            80,
+            0,
+            16,
+            32,
+            48
+          ]
+        },
+        "maximum_full_conductor_m3": 816,
+        "maximum_m3": 912,
+        "witness": {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "m3": 912,
+          "positions": [
+            8,
+            52,
+            96,
+            0,
+            16,
+            32,
+            48
+          ]
+        }
+      },
+      "supports": 310124,
+      "template": 86,
+      "vectors": 19847936,
+      "worker_seconds": 2.2886867130000006
+    }
+  ],
+  "schema": "e1-e30-two-odd-joint-census-v1",
+  "source_sha256": "1ffd87c70e16f87015d0c173290dd43376db61a0703bfe51ee3f46522162eedc",
+  "summary": {
+    "profile_151": {
+      "count": 7722,
+      "full_conductor": 3572,
+      "maximum_full_conductor_m3": 1068,
+      "maximum_m3": 1344
+    },
+    "profile_27": {
+      "count": 44302,
+      "full_conductor": 28114,
+      "maximum_full_conductor_m3": 1320,
+      "maximum_m3": 1320
+    }
+  }
+}

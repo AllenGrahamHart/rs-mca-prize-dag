@@ -184,3 +184,13 @@ independent complete 158,783,488-vector censuses, the exact `M_3=1302` cutoff,
 and the proper-conductor theorem to close all three. The synthesis node
 `e1_n256_s16_e31_endpoint_exclusion` advances the positive even residual to
 `V<=60`; it remains evidence because lower variances and later bands are open.
+
+The proved `e1_n256_s16_e30_profile_parity_light_reduction` leaves eight
+profiles at `V=60`. The proved
+`e1_n256_s16_e30_three_profile_quotient_exclusion` removes `(0,3,2)`,
+`(6,2,0,1)`, and `(3,0,3)`. The proved
+`e1_n256_s16_e30_two_odd_profile_exclusion` removes `(2,7)` and `(1,5,1)` by
+complete independent censuses, exact resultants where needed, and the
+proper-conductor theorem. The residual is exactly `(6,6)`, `(5,4,1)`, and
+`(4,2,2)`, all in the six-odd branch; these E30 nodes remain evidence because
+the endpoint is not yet closed.

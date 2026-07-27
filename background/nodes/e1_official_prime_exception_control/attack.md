@@ -61,7 +61,13 @@ explicit finite inequality at the row.
    `(3,7)`, `(2,5,1)`, and `(1,3,2)` on eight affine light templates. Two
    independent 158,783,488-vector censuses close all three using the exact
    `M_3=1302` cutoff and the proper-conductor theorem. Do not rerun this
-   chamber; begin `V=60` with the same algebraic reduction discipline. The
+   chamber. At `V=60`, exact profile/parity reduction leaves eight profiles.
+   The quotient ledger closes `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`; the
+   complete two-odd ledger closes `(2,7)` and `(1,5,1)`. The residual is
+   exactly `(6,6)`, `(5,4,1)`, and `(4,2,2)`, all with six odd light classes.
+   Seek an analytic moment or additive-structure reduction; the proved direct-
+   census floor is 21,773,185,792 vectors, so do not brute-force this branch.
+   The
    signed-chord gate
    further excludes circular-Sidon supports: every residual has an oppositely
    signed equal-distance chord

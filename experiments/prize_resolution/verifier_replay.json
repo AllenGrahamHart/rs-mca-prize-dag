@@ -8,51 +8,51 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e31_endpoint_exclusion/verify.py",
-      "seconds": 0.100735,
+      "script": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/verify.py",
+      "seconds": 4.230906,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E31_ENDPOINT_EXCLUSION_PASS profiles=3 exclusions=3 frontier=60 mutations=4\n"
+      "stdout_tail": "E1_N256_S16_E30_PROFILE_PARITY_LIGHT_REDUCTION_PASS profiles=18 above=13 survivors=8 two=8168/87 six=280720/1097+ ledgers=6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e31_endpoint_exclusion/verify_audit.py",
-      "seconds": 0.079486,
+      "script": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/verify_audit.py",
+      "seconds": 0.708561,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E31_ENDPOINT_EXCLUSION_AUDIT_PASS incoming=2 profiles=3 frontier=60\n"
+      "stdout_tail": "E1_N256_S16_E30_PROFILE_PARITY_LIGHT_REDUCTION_AUDIT_PASS recursive_profiles=18 hermite=independent matchings=complete two_orbits=87 mutations=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/verify.py",
-      "seconds": 2.517942,
+      "script": "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/verify.py",
+      "seconds": 0.743853,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E31_PROFILE_PARITY_LIGHT_REDUCTION_PASS profiles=15 above=8 survivors=3 supports=960 orbits=8 ledgers=5\n"
+      "stdout_tail": "E30_EIGHT_PROFILE_QUOTIENT_PROBE_CHECK_PASS tasks=128 profiles=8 orders=2 closed=3 threshold=1087\nE1_N256_S16_E30_THREE_PROFILE_QUOTIENT_EXCLUSION_PASS tasks=128 allocations=24124690 closed=3 threshold=1087 mutations=5\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/verify_audit.py",
-      "seconds": 3.104584,
+      "script": "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/verify_audit.py",
+      "seconds": 0.075742,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E31_PROFILE_PARITY_LIGHT_REDUCTION_AUDIT_PASS recursive_profiles=15 hermite=independent matchings=complete gap_supports=960 mutations=4\n"
+      "stdout_tail": "E1_N256_S16_E30_THREE_PROFILE_QUOTIENT_EXCLUSION_AUDIT_PASS profiles=8 closed=3 residual=5 allocations=24124690 mutations=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e31_three_profile_joint_exclusion/verify.py",
-      "seconds": 0.109971,
+      "script": "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/verify.py",
+      "seconds": 0.118953,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E31_THREE_PROFILE_JOINT_EXCLUSION_PASS templates=8 supports=2480992 vectors=158783488 profiles=3 engines=2\n"
+      "stdout_tail": "E1_N256_S16_E30_TWO_ODD_PROFILE_EXCLUSION_PASS templates=87 vectors=1726770432 full27=28114 full151=3572 max_bits=248 above=0 engines=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e31_three_profile_joint_exclusion/verify_audit.py",
-      "seconds": 0.098657,
+      "script": "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/verify_audit.py",
+      "seconds": 0.058895,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E31_THREE_PROFILE_JOINT_EXCLUSION_AUDIT_PASS rows=8 agreement=exact cubic_global=2 cubic_full=1 conductor_complement=3348 mutations=4\n"
+      "stdout_tail": "E1_N256_S16_E30_TWO_ODD_PROFILE_EXCLUSION_AUDIT_PASS templates=87 vectors=1726770432 full27=28114 full151=3572 max_bits=248 above=0 engines=4\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

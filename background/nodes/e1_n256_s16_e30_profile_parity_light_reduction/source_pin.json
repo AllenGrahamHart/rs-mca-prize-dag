@@ -1,0 +1,16 @@
+{
+  "classifier_file": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_six_odd_light_orbit_classifier.py",
+  "classifier_file_sha256": "4d9a442a502be612fe2691c89a8c950b62ea7e7e0a87f3e24ec5c35b3b068c5f",
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
+  "endpoint_file": "background/nodes/e1_n256_s16_e31_endpoint_exclusion/statement.md",
+  "endpoint_file_sha256": "2b735476474994494974c969245af60601b2fe1f5c738474e46bea26f74ac262",
+  "independent_check_file": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_six_odd_light_orbit_check.py",
+  "independent_check_file_sha256": "20dac08416459193e2f4736db71fc1f7a11f18f20ef8be8f68f85660d5e31313",
+  "orbit_result_file": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_six_odd_light_orbit_result.json",
+  "orbit_result_file_sha256": "6ba7acb9e680f115b7c6121615748b00fa68a6adee005bb750094fea73ce5759",
+  "signed_chord_file": "background/nodes/e1_n256_s16_signed_chord_collision_gate/statement.md",
+  "signed_chord_file_sha256": "926f9c94a0b5dd0830b7e37fafcd96f570dd93802de16061c802546e466e3157",
+  "variance_parent_verify_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py",
+  "variance_parent_verify_file_sha256": "57b7a0f2d8590bda9234f4fb5bc0a573afd56200436458121767489fc5091f8e"
+}

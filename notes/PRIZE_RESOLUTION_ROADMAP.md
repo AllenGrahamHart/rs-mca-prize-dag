@@ -4729,3 +4729,56 @@ route decision: begin V=60 (E=30) algebraically; do not extrapolate the cubic
                 endpoint descent without first proving a comparably small
                 template router, and compare value against the (4,2,0) lane
 ```
+
+**2026-07-27, V=60 reduction and five-profile close:** exact parity and
+quotient routing close three profiles, while a complete two-odd census and
+exact resultant ledger close two more. The endpoint remains open on a
+three-profile six-odd branch.
+
+```text
+starting pin: local ffd030fa
+node attacked: N=256, folded profile (3,4,0), V=60 (E=30)
+slack result: L<=18; exactly 18 energy profiles
+exact cubic cutoff: M_3=1087
+parity survivors: (6,6), (2,7), (5,4,1), (1,5,1), (4,2,2), (0,3,2),
+                  (6,2,0,1), (3,0,3)
+light split: two odd classes for (2,7),(1,5,1); six odd classes otherwise
+two-odd geometry: 8,168 normalized supports in 87 affine odd-unit orbits
+six-odd geometry: 280,720 normalized supports; every light chord distinct
+six-odd census fence: at least 1,097 affine orbits and
+                      21,773,185,792 representative signed vectors
+quotient app: ap-6rqImRUb2uMS1GmFe1rVMT; 128 complete tasks;
+              106.631016 aggregate worker-seconds
+discarded launch: ap-Y3PyxbL9jWc8vSqM0zXKQe completed zero tasks and emitted
+                  an explicit incomplete packet; it is not evidence
+quotient closures: (0,3,2) maxima 936/936;
+                   (6,2,0,1) maxima 1058/1048;
+                   (3,0,3) maxima 1002/940, all below 1087
+two-odd production: ap-kByaSsYhxYgKb4TJqkEuLT, folded chords,
+                    219.666239 aggregate worker-seconds
+two-odd audit: ap-FqluYkBc3DLz687GeYxBgp, direct negacyclic product,
+               331.165567 aggregate worker-seconds
+coverage per engine: 87*binom(124,3)*64=1,726,770,432 vectors
+profile (1,5,1): 7,722 vectors; 3,572 full conductor;
+                   full-conductor max M_3=1068<1087
+profile (2,7): 44,302 vectors; 28,114 full conductor;
+                 cubic max 1320, requiring exact norms
+norm production: ap-iEm8zqbRcOWdVO9qSVwi4o, folded chords + FLINT,
+                 217.814119 aggregate worker-seconds
+norm audit: ap-pBUnRmFuHfemCN6jBFUmG6, direct negacyclic + PARI/GP,
+            340.729671 aggregate worker-seconds
+exact maximum: 255193811126065252065353356643030254729479452452701245894186298519499407392
+maximizing vector: positions (7,39,103,0,1,20,109),
+                   coefficients (2,-2,-2,-1,1,1,1)
+strict margin: 7*N_max<2^250<8*N_max; zero norms at or above 2^250
+proper conductor: both complementary two-odd branches discharged by the
+                  existing conductor theorem
+closed profiles: (0,3,2), (6,2,0,1), (3,0,3), (2,7), (1,5,1)
+live V=60 residual: (6,6), (5,4,1), (4,2,2), all six odd
+aggregate successful compute: 1216.006612 worker-seconds
+new assumptions: none
+route decision: do not descend to V=58 and do not run the direct six-odd
+                census. Seek a stronger moment inequality, additive
+                six-light structure, or a norm factorization that treats the
+                three residual profiles simultaneously.
+```

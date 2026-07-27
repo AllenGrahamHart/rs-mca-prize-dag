@@ -150,3 +150,12 @@ maximum. Unrestricted `M_3` maxima 1068 and 1122 exclude `(2,5,1)` and
 `(1,3,2)`; full-conductor maximum 1206 excludes that part of `(3,7)` below
 the exact cutoff 1302, and the conductor theorem removes its complement.
 Thus `V=62` is empty and the live positive even frontier is `V<=60`.
+
+The `V=60` chamber is now sharply reduced but remains open. Exact slack and
+parity leave eight profiles. A complete mod-16 allocation ledger excludes
+`(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`. Two independent 87-template censuses
+and two independent exact-resultant ledgers exclude `(2,7)` and `(1,5,1)`.
+The exact residual is `(6,6)`, `(5,4,1)`, and `(4,2,2)`, all in the six-odd
+branch. Its direct affine-orbit census has a proved floor of 21,773,185,792
+signed vectors, so this is a structural proof target rather than a brute-force
+job.

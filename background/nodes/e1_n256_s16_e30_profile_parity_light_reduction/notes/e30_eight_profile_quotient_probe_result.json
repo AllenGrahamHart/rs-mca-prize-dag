@@ -1,0 +1,6327 @@
+{
+  "base_source_sha256": "ccdcefeb71d7805183c763aca062fe4da6a86ff6ff542ab8a0200267021f69f4",
+  "complete": true,
+  "completed_tasks": 128,
+  "expected_tasks": 128,
+  "profiles": [
+    "6,6",
+    "2,7",
+    "5,4,1",
+    "1,5,1",
+    "4,2,2",
+    "0,3,2",
+    "6,2,0,1",
+    "3,0,3"
+  ],
+  "rows": [
+    {
+      "best": 1634,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "order": 128,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 1011096,
+      "worker_seconds": 2.1790801369999997
+    },
+    {
+      "best": 1694,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          1,
+          1,
+          3,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 1010200,
+      "worker_seconds": 3.070744405
+    },
+    {
+      "best": 1712,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 1012118,
+      "worker_seconds": 2.179635299
+    },
+    {
+      "best": 1694,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          3,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 1013125,
+      "worker_seconds": 2.746559866
+    },
+    {
+      "best": 1712,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          1,
+          0,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 1011307,
+      "worker_seconds": 3.071802225
+    },
+    {
+      "best": 1666,
+      "complete": true,
+      "exact": [
+        [
+          2,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "order": 128,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 1010296,
+      "worker_seconds": 2.6889370369999996
+    },
+    {
+      "best": 1712,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          1,
+          3,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 1010134,
+      "worker_seconds": 2.177242333
+    },
+    {
+      "best": 1642,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 1011150,
+      "worker_seconds": 2.178683563
+    },
+    {
+      "best": 1626,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          1,
+          2,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 415089,
+      "worker_seconds": 0.8966824090000001
+    },
+    {
+      "best": 1620,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 413835,
+      "worker_seconds": 1.3056604330000001
+    },
+    {
+      "best": 1626,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          2,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 413013,
+      "worker_seconds": 1.450762171
+    },
+    {
+      "best": 1694,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          3,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 414375,
+      "worker_seconds": 0.8965603830000002
+    },
+    {
+      "best": 1694,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 415766,
+      "worker_seconds": 0.897551929
+    },
+    {
+      "best": 1630,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 413409,
+      "worker_seconds": 1.260628128
+    },
+    {
+      "best": 1622,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          3,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 414041,
+      "worker_seconds": 1.2622980990000006
+    },
+    {
+      "best": 1694,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          1,
+          0,
+          3,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 0,
+      "profile_counts": [
+        6,
+        6
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 416589,
+      "worker_seconds": 1.116606407
+    },
+    {
+      "best": 1600,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 33863,
+      "worker_seconds": 0.0800546740000001
+    },
+    {
+      "best": 1548,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 33916,
+      "worker_seconds": 0.07954010900000008
+    },
+    {
+      "best": 1594,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 33910,
+      "worker_seconds": 0.11309072799999997
+    },
+    {
+      "best": 1600,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 33789,
+      "worker_seconds": 0.08056877900000003
+    },
+    {
+      "best": 1548,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 33897,
+      "worker_seconds": 0.08096219799999993
+    },
+    {
+      "best": 1598,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "order": 128,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 33977,
+      "worker_seconds": 0.07911493399999991
+    },
+    {
+      "best": 1600,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 33901,
+      "worker_seconds": 0.07911331700000002
+    },
+    {
+      "best": 1600,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 33862,
+      "worker_seconds": 0.10948778699999995
+    },
+    {
+      "best": 1600,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 20419,
+      "worker_seconds": 0.0501189580000001
+    },
+    {
+      "best": 1594,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 20403,
+      "worker_seconds": 0.049560524000000106
+    },
+    {
+      "best": 1548,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 20542,
+      "worker_seconds": 0.04988136099999996
+    },
+    {
+      "best": 1600,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 20531,
+      "worker_seconds": 0.05022436099999972
+    },
+    {
+      "best": 1600,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 20546,
+      "worker_seconds": 0.04966002200000008
+    },
+    {
+      "best": 1548,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 20636,
+      "worker_seconds": 0.04975284600000007
+    },
+    {
+      "best": 1548,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 20561,
+      "worker_seconds": 0.0501233969999999
+    },
+    {
+      "best": 1600,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 1,
+      "profile_counts": [
+        2,
+        7
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 20505,
+      "worker_seconds": 0.049866450999999756
+    },
+    {
+      "best": 1396,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 678296,
+      "worker_seconds": 4.6086668379999995
+    },
+    {
+      "best": 1430,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          1,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 672517,
+      "worker_seconds": 4.651883582999999
+    },
+    {
+      "best": 1370,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 677719,
+      "worker_seconds": 5.316717913000001
+    },
+    {
+      "best": 1396,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 680104,
+      "worker_seconds": 3.2459875679999994
+    },
+    {
+      "best": 1430,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 677763,
+      "worker_seconds": 3.2350883660000003
+    },
+    {
+      "best": 1430,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          3,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 676604,
+      "worker_seconds": 3.2446095130000003
+    },
+    {
+      "best": 1370,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          4,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 677578,
+      "worker_seconds": 3.2320411890000003
+    },
+    {
+      "best": 1430,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 680720,
+      "worker_seconds": 3.248920415999999
+    },
+    {
+      "best": 1376,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 386520,
+      "worker_seconds": 1.8453427040000001
+    },
+    {
+      "best": 1376,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 384414,
+      "worker_seconds": 1.8375681570000002
+    },
+    {
+      "best": 1376,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 383574,
+      "worker_seconds": 1.8333753250000004
+    },
+    {
+      "best": 1358,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 383795,
+      "worker_seconds": 1.8347921139999999
+    },
+    {
+      "best": 1358,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 385094,
+      "worker_seconds": 1.842110880999999
+    },
+    {
+      "best": 1370,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 388356,
+      "worker_seconds": 1.8557794090000002
+    },
+    {
+      "best": 1358,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 388245,
+      "worker_seconds": 1.8553031070000001
+    },
+    {
+      "best": 1358,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 2,
+      "profile_counts": [
+        5,
+        4,
+        1
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 386863,
+      "worker_seconds": 2.501997198
+    },
+    {
+      "best": 1344,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 12505,
+      "worker_seconds": 0.08012894199999998
+    },
+    {
+      "best": 1342,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 12510,
+      "worker_seconds": 0.09214887599999999
+    },
+    {
+      "best": 1342,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 12550,
+      "worker_seconds": 0.08093925400000046
+    },
+    {
+      "best": 1196,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 12527,
+      "worker_seconds": 0.07950649499999995
+    },
+    {
+      "best": 1342,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 12362,
+      "worker_seconds": 0.10450288499999982
+    },
+    {
+      "best": 1188,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 12455,
+      "worker_seconds": 0.07971208699999988
+    },
+    {
+      "best": 1168,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 12412,
+      "worker_seconds": 0.09184167600000048
+    },
+    {
+      "best": 1238,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 12368,
+      "worker_seconds": 0.0902388059999999
+    },
+    {
+      "best": 1152,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 9571,
+      "worker_seconds": 0.06153111400000011
+    },
+    {
+      "best": 1238,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 9565,
+      "worker_seconds": 0.06208934500000041
+    },
+    {
+      "best": 1344,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 9539,
+      "worker_seconds": 0.06193343500000026
+    },
+    {
+      "best": 1238,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 9414,
+      "worker_seconds": 0.06112125500000065
+    },
+    {
+      "best": 1192,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 9454,
+      "worker_seconds": 0.06148072899999946
+    },
+    {
+      "best": 1176,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 9589,
+      "worker_seconds": 0.07212317800000001
+    },
+    {
+      "best": 1192,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 9431,
+      "worker_seconds": 0.062265950000000014
+    },
+    {
+      "best": 1238,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 3,
+      "profile_counts": [
+        1,
+        5,
+        1
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 9398,
+      "worker_seconds": 0.07992602400000015
+    },
+    {
+      "best": 1138,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 120982,
+      "worker_seconds": 0.9129619270000005
+    },
+    {
+      "best": 1230,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 121499,
+      "worker_seconds": 0.9161049829999999
+    },
+    {
+      "best": 1226,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 120927,
+      "worker_seconds": 0.911847539
+    },
+    {
+      "best": 1226,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 121329,
+      "worker_seconds": 0.9155382369999998
+    },
+    {
+      "best": 1226,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 122376,
+      "worker_seconds": 0.8113740050000002
+    },
+    {
+      "best": 1226,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 121156,
+      "worker_seconds": 0.7859356329999998
+    },
+    {
+      "best": 1196,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 120469,
+      "worker_seconds": 0.7808560550000001
+    },
+    {
+      "best": 1140,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 121272,
+      "worker_seconds": 0.7874192879999997
+    },
+    {
+      "best": 1176,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 86617,
+      "worker_seconds": 0.5642936009999997
+    },
+    {
+      "best": 1140,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 85698,
+      "worker_seconds": 0.6503073979999998
+    },
+    {
+      "best": 1196,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 86187,
+      "worker_seconds": 0.7587691900000002
+    },
+    {
+      "best": 1196,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 86292,
+      "worker_seconds": 0.5721700519999997
+    },
+    {
+      "best": 1140,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 86222,
+      "worker_seconds": 0.571224805
+    },
+    {
+      "best": 1196,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 85201,
+      "worker_seconds": 0.5643636929999998
+    },
+    {
+      "best": 1230,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 86378,
+      "worker_seconds": 0.4701986389999999
+    },
+    {
+      "best": 1128,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 4,
+      "profile_counts": [
+        4,
+        2,
+        2
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 87882,
+      "worker_seconds": 0.48445240200000006
+    },
+    {
+      "best": 924,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 858,
+      "worker_seconds": 0.013222931999999687
+    },
+    {
+      "best": 936,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 882,
+      "worker_seconds": 0.01189292799999997
+    },
+    {
+      "best": 882,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 867,
+      "worker_seconds": 0.013050939000000206
+    },
+    {
+      "best": 870,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 866,
+      "worker_seconds": 0.011624763999999566
+    },
+    {
+      "best": 918,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 860,
+      "worker_seconds": 0.013819593000000019
+    },
+    {
+      "best": 924,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 128,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 839,
+      "worker_seconds": 0.014416604
+    },
+    {
+      "best": 936,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 861,
+      "worker_seconds": 0.014535169000000181
+    },
+    {
+      "best": 936,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 859,
+      "worker_seconds": 0.010882421000000697
+    },
+    {
+      "best": 918,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 752,
+      "worker_seconds": 0.010592194
+    },
+    {
+      "best": 936,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 770,
+      "worker_seconds": 0.010442990999999902
+    },
+    {
+      "best": 870,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 766,
+      "worker_seconds": 0.01011723199999981
+    },
+    {
+      "best": 894,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 766,
+      "worker_seconds": 0.010256451000000055
+    },
+    {
+      "best": 936,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 749,
+      "worker_seconds": 0.00902710799999995
+    },
+    {
+      "best": 936,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 750,
+      "worker_seconds": 0.009723801999999893
+    },
+    {
+      "best": 936,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 778,
+      "worker_seconds": 0.012303339999999885
+    },
+    {
+      "best": 870,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 5,
+      "profile_counts": [
+        0,
+        3,
+        2
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 753,
+      "worker_seconds": 0.012676218999999378
+    },
+    {
+      "best": 1048,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 144260,
+      "worker_seconds": 2.0179000630000004
+    },
+    {
+      "best": 1020,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 144742,
+      "worker_seconds": 1.224127223
+    },
+    {
+      "best": 1030,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 144563,
+      "worker_seconds": 1.2242920710000003
+    },
+    {
+      "best": 1058,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          1,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 143520,
+      "worker_seconds": 1.2147418380000001
+    },
+    {
+      "best": 1056,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 144430,
+      "worker_seconds": 1.2235749599999997
+    },
+    {
+      "best": 1058,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          4,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 145052,
+      "worker_seconds": 1.2283933499999993
+    },
+    {
+      "best": 1058,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          1,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 144252,
+      "worker_seconds": 1.223193997
+    },
+    {
+      "best": 1058,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 128,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 143884,
+      "worker_seconds": 1.2182219199999995
+    },
+    {
+      "best": 1048,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 89898,
+      "worker_seconds": 0.7641246170000002
+    },
+    {
+      "best": 1030,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 89915,
+      "worker_seconds": 0.7642156380000014
+    },
+    {
+      "best": 1016,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 90820,
+      "worker_seconds": 0.7720110690000013
+    },
+    {
+      "best": 1048,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 90752,
+      "worker_seconds": 0.7705649599999997
+    },
+    {
+      "best": 1048,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 90713,
+      "worker_seconds": 0.769949476999999
+    },
+    {
+      "best": 1014,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          1,
+          1,
+          0,
+          1,
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 91316,
+      "worker_seconds": 0.7755747420000016
+    },
+    {
+      "best": 1014,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          2,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 90854,
+      "worker_seconds": 0.773769412
+    },
+    {
+      "best": 1048,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 6,
+      "profile_counts": [
+        6,
+        2,
+        0,
+        1
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 90391,
+      "worker_seconds": 0.7682078509999997
+    },
+    {
+      "best": 960,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "order": 128,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 3227,
+      "worker_seconds": 0.02326819800000024
+    },
+    {
+      "best": 950,
+      "complete": true,
+      "exact": [
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "order": 128,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 3176,
+      "worker_seconds": 0.0227892599999997
+    },
+    {
+      "best": 942,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "order": 128,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 3249,
+      "worker_seconds": 0.022714269999999814
+    },
+    {
+      "best": 1002,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "order": 128,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 3232,
+      "worker_seconds": 0.022795860000000445
+    },
+    {
+      "best": 1002,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "order": 128,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 3245,
+      "worker_seconds": 0.022824078999999386
+    },
+    {
+      "best": 960,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "order": 128,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 3314,
+      "worker_seconds": 0.023827278000000618
+    },
+    {
+      "best": 1002,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "order": 128,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 3223,
+      "worker_seconds": 0.023599601999999997
+    },
+    {
+      "best": 960,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "order": 128,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 3218,
+      "worker_seconds": 0.026891403999999675
+    },
+    {
+      "best": 940,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 0,
+      "shards": 8,
+      "tested": 2636,
+      "worker_seconds": 0.019826142000000324
+    },
+    {
+      "best": 930,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 1,
+      "shards": 8,
+      "tested": 2688,
+      "worker_seconds": 0.020486077000000158
+    },
+    {
+      "best": 940,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 2,
+      "shards": 8,
+      "tested": 2712,
+      "worker_seconds": 0.027404083999999607
+    },
+    {
+      "best": 930,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 3,
+      "shards": 8,
+      "tested": 2645,
+      "worker_seconds": 0.0198412569999995
+    },
+    {
+      "best": 930,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 4,
+      "shards": 8,
+      "tested": 2634,
+      "worker_seconds": 0.022525504999999946
+    },
+    {
+      "best": 940,
+      "complete": true,
+      "exact": [
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "order": 64,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 5,
+      "shards": 8,
+      "tested": 2702,
+      "worker_seconds": 0.020242692000000062
+    },
+    {
+      "best": 930,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 6,
+      "shards": 8,
+      "tested": 2700,
+      "worker_seconds": 0.02143660599999997
+    },
+    {
+      "best": 918,
+      "complete": true,
+      "exact": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "order": 64,
+      "profile": 7,
+      "profile_counts": [
+        3,
+        0,
+        3
+      ],
+      "shard": 7,
+      "shards": 8,
+      "tested": 2651,
+      "worker_seconds": 0.019048715999999466
+    }
+  ],
+  "schema": "e1-e30-eight-profile-quotient-probe-v1",
+  "shards": 8,
+  "source_sha256": "ec5a71ea442bcbd96ab5109d8d6356989997a30083bc78230d7bdecb6a164e66",
+  "summary": {
+    "0,3,2": {
+      "128": {
+        "completed_shards": 8,
+        "maximum": 936,
+        "tested": 6892
+      },
+      "64": {
+        "completed_shards": 8,
+        "maximum": 936,
+        "tested": 6084
+      }
+    },
+    "1,5,1": {
+      "128": {
+        "completed_shards": 8,
+        "maximum": 1344,
+        "tested": 99689
+      },
+      "64": {
+        "completed_shards": 8,
+        "maximum": 1344,
+        "tested": 75961
+      }
+    },
+    "2,7": {
+      "128": {
+        "completed_shards": 8,
+        "maximum": 1600,
+        "tested": 271115
+      },
+      "64": {
+        "completed_shards": 8,
+        "maximum": 1600,
+        "tested": 164143
+      }
+    },
+    "3,0,3": {
+      "128": {
+        "completed_shards": 8,
+        "maximum": 1002,
+        "tested": 25884
+      },
+      "64": {
+        "completed_shards": 8,
+        "maximum": 940,
+        "tested": 21368
+      }
+    },
+    "4,2,2": {
+      "128": {
+        "completed_shards": 8,
+        "maximum": 1230,
+        "tested": 970010
+      },
+      "64": {
+        "completed_shards": 8,
+        "maximum": 1230,
+        "tested": 690477
+      }
+    },
+    "5,4,1": {
+      "128": {
+        "completed_shards": 8,
+        "maximum": 1430,
+        "tested": 5421301
+      },
+      "64": {
+        "completed_shards": 8,
+        "maximum": 1376,
+        "tested": 3086861
+      }
+    },
+    "6,2,0,1": {
+      "128": {
+        "completed_shards": 8,
+        "maximum": 1058,
+        "tested": 1154703
+      },
+      "64": {
+        "completed_shards": 8,
+        "maximum": 1048,
+        "tested": 724659
+      }
+    },
+    "6,6": {
+      "128": {
+        "completed_shards": 8,
+        "maximum": 1712,
+        "tested": 8089426
+      },
+      "64": {
+        "completed_shards": 8,
+        "maximum": 1694,
+        "tested": 3316117
+      }
+    }
+  }
+}

@@ -210,12 +210,22 @@ exclude the latter two profiles; full-conductor maximum 1206 excludes that
 part of `(3,7)` below the exact `M_3=1302` cutoff, and the conductor theorem
 removes its complement. Thus `V=62` is empty and the frontier is `V<=60`.
 
+At `V=60`, exact slack gives `L<=18`, the cubic cutoff is `M_3=1087`, and
+parity leaves eight profiles. Quotient allocation closes `(0,3,2)`,
+`(6,2,0,1)`, and `(3,0,3)`. Complete two-odd censuses close `(2,7)` and
+`(1,5,1)`, including exact resultants for all 28,114 full-conductor `(2,7)`
+vectors. The surviving profiles are exactly `(6,6)`, `(5,4,1)`, and
+`(4,2,2)`. All have six odd light classes; the 280,720 normalized supports
+force at least 1,097 affine orbits and a 21,773,185,792-vector direct-census
+floor.
+
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
-injectivity or another explicit `V` line. Within the first `N=256` band, begin
-the next endpoint at `V=60` (`E=30`) with the same algebraic profile/slack
-reduction before authorizing any census; alternatively attack the still broad
-`(4,2,0)` profile through its 419 exact cofactor classes. Do not rerun any
-`V>=62` campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any
-exact safe predecessor relocates the candidate threshold immediately.
+injectivity or another explicit `V` line. Within the first `N=256` band,
+attack the three six-odd `V=60` profiles through a stronger moment, additive
+light-chord structure, or norm factorization; do not run the direct census.
+Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
+cofactor classes. Do not rerun the other five `V=60` profiles or any `V>=62`
+campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
+safe predecessor relocates the candidate threshold immediately.

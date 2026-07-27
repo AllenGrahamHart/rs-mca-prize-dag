@@ -1044,6 +1044,82 @@
    "notes": "ENDPOINT CLOSURE 2026-07-27: synthesizes the complete E31 chain and advances the live variance frontier by two. Lower positive even variances remain open."
   },
   {
+   "id": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "title": "N=256 E=30 profile/parity/light reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/result.md",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/verify_audit.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_six_odd_light_orbit_classifier.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_six_odd_light_orbit_check.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_six_odd_light_orbit_result.json"
+   ],
+   "statement": "For N=256 folded profile (3,4,0) at V=60, exact slack gives L<=18 and the exact cubic cutoff M_3=1087. Of 18 magnitude profiles, light parity leaves eight, all with no light diameter and either two or six odd classes. The two-odd branch has 8,168 normalized supports in 87 affine orbits; the six-odd branch has 280,720 supports and at least 1,097 orbits, imposing a direct-census floor of 21,773,185,792 signed vectors.",
+   "notes": "ROUTE REDUCTION 2026-07-27: gives the exact V=60 profile and light-support frontier, including a complete two-odd router and a rigorous fence against brute-forcing the six-odd branch. It excludes no residual profile."
+  },
+  {
+   "id": "e1_n256_s16_e30_three_profile_quotient_exclusion",
+   "title": "N=256 E=30 three-profile quotient exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_eight_profile_quotient_census.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_eight_profile_quotient_probe_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_eight_profile_quotient_probe_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_eight_profile_quotient_probe_check.py"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=60, profiles (0,3,2), (6,2,0,1), and (3,0,3) cannot collide. A complete 128-task mod-16 allocation census and independent replay give order-128/order-64 maxima 936/936, 1058/1048, and 1002/940, all below the exact M_3=1087 cutoff; the divisible-by-four chamber has small-field norm at most 44^32<2^250.",
+   "notes": "ROUTE CLOSURE 2026-07-27: removes three of eight V=60 profiles by exact quotient allocation and leaves five explicit profiles."
+  },
+  {
+   "id": "e1_n256_s16_e30_two_odd_profile_exclusion",
+   "title": "N=256 E=30 two-odd profile exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e30_two_odd_profile_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_odd_joint_census.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_odd_joint_census_audit.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_odd_joint_census_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_odd_joint_census_audit_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_odd_joint_census_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_odd_joint_census_audit_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile27_exact_norm_census.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile27_exact_norm_audit.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile27_exact_norm_census_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile27_exact_norm_audit_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile27_exact_norm_census_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile27_exact_norm_audit_result.json"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=60, profiles (2,7) and (1,5,1) cannot collide. Two independent 87-template censuses agree after 1,726,770,432 representative vectors. The M_3=1087 cutoff excludes all 3,572 full-conductor (1,5,1) vectors; independent FLINT and PARI exact-resultant censuses exclude all 28,114 full-conductor (2,7) vectors, with 7*N_max<2^250<8*N_max. The proper-conductor theorem excludes both complements.",
+   "notes": "ROUTE CLOSURE 2026-07-27: removes both two-odd V=60 profiles. Together with the quotient exclusion, the exact residual is (6,6), (5,4,1), and (4,2,2), all in the six-odd branch."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -19217,6 +19293,51 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_e31_endpoint_exclusion",
+   "to": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e30_three_profile_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e30_three_profile_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e30_two_odd_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e30_two_odd_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e30_two_odd_profile_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -19638,6 +19759,36 @@
   },
   {
    "from": "e1_n256_s16_e31_endpoint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_three_profile_quotient_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_three_profile_quotient_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_two_odd_profile_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_two_odd_profile_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
