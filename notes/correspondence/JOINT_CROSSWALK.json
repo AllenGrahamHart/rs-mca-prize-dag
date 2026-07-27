@@ -2,7 +2,7 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "260395c5",
+  "our_sha": "c2bf0fd9",
   "his_sha": "b13de811"
  },
  "rows": [
@@ -191,6 +191,26 @@
    "lean": null,
    "provenance": {
     "our_sha": "260395c5",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "e1_prime_field_l2_norm_collision_radius",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "folded Parseval cyclotomic-norm bound excluding minimum raw swap distances through four at N=256 and distance one at N=512 throughout both named field intervals",
+   "owner": "US",
+   "nonclaims": [
+    "no surviving distance band is bounded",
+    "no total collision-pair allowance is proved",
+    "no clean row, adjacent endpoint, or universal unsafe branch is closed"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not posed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "c2bf0fd9",
     "his_sha": "b13de811"
    }
   },

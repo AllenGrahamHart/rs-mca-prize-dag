@@ -2863,3 +2863,29 @@ compute spend: none; 14 exact integer-root checks and bounded regressions
 next route-deciding action: bound or falsify the exact E1 collision allowance
                               over primes p=1 mod N in the two budget intervals
 ```
+
+**2026-07-27, E1 low swap-distance bands closed:** folded coefficient Parseval
+turns the cyclotomic norm estimate into an `L2` bound. Exact profile arithmetic
+then removes the first four `N=256` bands and the first `N=512` band. The latest
+canonical literature sweep was checked before banking; it identifies no
+external theorem for this fixed-prime E1 ledger.
+
+Cycle burn-down:
+
+```text
+starting pins: local 09c6cceb; canonical d18fdc83;
+               upstream origin/main b13de811
+ending proof pin: local c2bf0fd9; canonical b55c21d0;
+                  upstream unchanged
+node attacked: e1_official_prime_exception_control, low-distance bands
+result: CLOSED for s<=4 at N=256 and s=1 at N=512; parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; 164 profile and 336 toy orthogonality checks
+next route-deciding action: attack the first surviving bands s=5 at N=256
+                              and s=2 at N=512 with exact norm/resultant structure
+```
