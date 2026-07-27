@@ -126,8 +126,11 @@ The E27 endpoint synthesis closes `V=54` and advances the frontier to `V<=52`.
 The proved E26 reduction leaves six two-odd and four six-odd profiles. Its
 complete two-odd exclusion combines two independent 1,726,770,432-vector
 censuses, conductor, and exact FLINT/PARI norms for 8,060 primitive
-exceptions, closing all six two-odd profiles. Exactly four six-odd profiles
-remain, so there is no E26 endpoint-exclusion node.
+exceptions, closing all six two-odd profiles. The complete six-odd exclusion
+combines two independent 24,492,353,024-vector censuses over all 1,234 affine
+templates, conductor, and exact FLINT/PARI norms for 45,408 primitive
+exceptions. The E26 endpoint synthesis therefore closes `V=52` and advances
+the live positive even frontier to `V<=50`.
 The proper-conductor theorem also removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing

@@ -87,8 +87,12 @@ is `V<=52`. At `V=52`, exact slack gives `L<=16`, the cubic cutoff is
 Two independent 1,726,770,432-vector censuses close all six two-odd profiles:
 the conductor theorem removes 9,564 of the 17,624 cubic exceptions, and
 independent FLINT/PARI norms put all 8,060 primitive exceptions below
-`2^250`. The live `V=52` residual is exactly `(6,5)`, `(5,3,1)`, `(4,1,2)`,
-and `(6,1,0,1)` on 1,234 affine six-odd light templates.
+`2^250`. Two independent 24,492,353,024-vector censuses then close the four
+six-odd profiles `(6,5)`, `(5,3,1)`, `(4,1,2)`, and `(6,1,0,1)` on all 1,234
+affine templates. The conductor theorem removes 29,206 of their 74,614 cubic
+exceptions; independent FLINT/PARI norms put all 45,408 primitive exceptions
+below `2^250`. Thus `V=52` is empty and the live positive even frontier is
+`V<=50`.
 At `N=512,s=2`, exact variance
 excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.

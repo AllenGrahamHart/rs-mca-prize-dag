@@ -5059,3 +5059,41 @@ route decision: do not brute-force the six-odd chamber. Reuse the exact
                 odd-mask, quotient, and norm structure from E30 to seek a
                 profile-specific relaxation or algebraic exclusion.
 ```
+
+**2026-07-27, E26 six-odd branch and V=52 endpoint close:** two cheap
+structural relaxations failed to shrink the template axis, but a bounded
+top-mask pilot showed the actual-vector engine was fast enough to justify a
+single complete dual pass. The resulting exact certificate closes the whole
+branch.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=52 (E=26), six-odd branch
+odd-mask relaxation: every one of 1,234 masks survives for both tested cheap
+                     profiles; maxima 870 and 606 exceed M_3=228
+quotient relaxation maxima at orders 128/64:
+  (6,5) 1282/1248; (5,3,1) 1062/1054;
+  (4,1,2) 870/870; (6,1,0,1) 734/732
+route decision from no-go probes: quotient and magnitude-only relaxations do
+                                  not close or materially shrink the branch
+top-mask pilot app: ap-L2vmgKMlAx8lsHkCxmzySB; 32 masks;
+                    635,133,952 vectors; 44 primitive cubic exceptions
+pilot norm app: ap-sSRw4M4r3Lo3CFYJzKwm74; dual agreement; no norm >=2^250
+discarded census app: ap-Jq5ilys1UDMuhHb04wAVdk failed at remote import;
+                      completed 0/1,234+0/1,234 and supplies no evidence
+complete census app: ap-w01euXu1uuSZMynixEsU9m
+coverage per engine: 1,234*binom(124,3)*64=24,492,353,024 vectors
+independent engines: folded oriented chords and direct negacyclic products
+exact row agreement: 78,848 profile vectors; 74,614 above M_3=228;
+                     45,408 full conductor
+proper conductor: complementary 29,206 exceptions discharged by theorem
+norm app: ap-B13nYXtQQsbfCqFKDPTeUr; FLINT and PARI/GP agree on all 45,408
+distinct norms: 20,636
+exact maximum: 1139098407599461804511111865916270680930143333943822578584573946997885235216
+strict margin: N_max<2^250<2*N_max; bit length 250
+result: all four six-odd profiles CLOSED; V=52 endpoint CLOSED
+live positive even variance frontier: V<=50
+new assumptions: none
+route decision: derive the exact E25 slack/profile/parity/light reduction and
+                quantify its router before authorizing any V=50 census.
+                Never rerun V>=52.
+```

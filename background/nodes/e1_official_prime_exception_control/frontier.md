@@ -86,12 +86,12 @@ all 404 primitive norms, whose 247-bit maximum satisfies
 independent censuses close all six two-odd profiles after 1,726,770,432
 vectors per engine. Of 17,624 cubic exceptions, conductor removes 9,564;
 FLINT and PARI agree on all 8,060 primitive norms, whose 249-bit maximum
-satisfies `2*N_max<2^250<3*N_max`. The live endpoint is therefore exactly the
-four six-odd profiles `(6,5)`, `(5,3,1)`, `(4,1,2)`, and `(6,1,0,1)` on 1,234
-affine light templates. Their direct-census floor is 24,492,353,024 vectors
-per engine, so the next attack must exploit odd-mask, quotient, or norm
-structure rather than enumerate the undifferentiated chamber. A subfield norm
-argument also
+satisfies `2*N_max<2^250<3*N_max`. Complete folded-chord and direct-negacyclic
+censuses also agree on all 1,234 six-odd affine templates after
+24,492,353,024 vectors per engine. Of 74,614 cubic exceptions, conductor
+removes 29,206; FLINT and PARI agree on all 45,408 primitive norms, whose
+maximum satisfies `N_max<2^250<2*N_max`. Hence `V=52` is empty and the live
+positive even frontier is `V<=50`. A subfield norm argument also
 removes every vector
 in either folded profile whose support differences have a nontrivial gcd with
 `256`. Thus all live first-band vectors have full conductor. This does not
@@ -127,13 +127,11 @@ The next route-deciding attack is algebraic. Either:
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
-  after the 2-adic cofactor screen. In `(3,4,0)`, the exact `V=52` reduction
-  and complete two-odd exclusion are banked. Attack only the four six-odd
-  profiles, beginning with structural odd-mask, quotient, and norm filters;
-  do not launch their 24,492,353,024-vector direct census. Every `V>=54`
-  chamber is closed and must not be rerun. Compare the E26 residual against
-  the 419 exact cofactor classes in `(4,2,0)`. Treat the `N=512,s=3` band
-  independently;
+  after the 2-adic cofactor screen. In `(3,4,0)`, every `V>=52` chamber is
+  closed and must not be rerun. Derive the exact `V=50` (`E=25`)
+  profile/parity/light reduction before authorizing any new census, and
+  compare that router against the 419 exact cofactor classes in `(4,2,0)`.
+  Treat the `N=512,s=3` band independently;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;
 - provide a total per-input image/collision certifier theorem; or

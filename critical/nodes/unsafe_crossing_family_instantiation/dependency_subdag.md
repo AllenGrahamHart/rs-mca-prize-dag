@@ -216,5 +216,7 @@ as evidence only.
 The proved E26 reduction leaves six two-odd and four six-odd profiles. The
 proved two-odd exclusion uses two independent 1,726,770,432-vector censuses,
 conductor, and exact FLINT/PARI norms to close all six two-odd profiles. The
-four six-odd profiles remain open, so this advances the exact residual but
-does not close `V=52` or the universal target.
+proved six-odd exclusion uses two independent 24,492,353,024-vector censuses,
+conductor, and exact FLINT/PARI norms to close all four remaining profiles.
+The E26 endpoint closes `V=52` and advances the frontier to `V<=50`, still as
+evidence only rather than a close of the universal target.

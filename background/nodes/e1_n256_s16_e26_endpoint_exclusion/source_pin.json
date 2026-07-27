@@ -1,0 +1,8 @@
+{
+  "reduction_statement_file": "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/statement.md",
+  "reduction_statement_file_sha256": "c7d8142341c68d2b03802f23814d214c1fe1ca737ee079c64039a65a7a1759e3",
+  "two_odd_exclusion_file": "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/statement.md",
+  "two_odd_exclusion_file_sha256": "6b024ed5559952845cc9d47f40498fdd4f1595a903152904df772ccc4aa7e4ad",
+  "six_odd_exclusion_file": "background/nodes/e1_n256_s16_e26_four_six_odd_profile_exclusion/statement.md",
+  "six_odd_exclusion_file_sha256": "e168dd8f4ed13fb8de4f9c3590f8657ea03edd4e18182cfba4d3c6c3ac12ddd7"
+}

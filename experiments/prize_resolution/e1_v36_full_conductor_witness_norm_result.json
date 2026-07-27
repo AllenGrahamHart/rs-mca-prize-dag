@@ -1,0 +1,26 @@
+{
+  "agreement": true,
+  "app_id": "ap-w5NVLM6qks58oQP9KHXi9G",
+  "coefficients": [
+    [0, 2],
+    [16, -2],
+    [32, -1],
+    [48, 1],
+    [65, 1],
+    [80, -1],
+    [96, -2]
+  ],
+  "complete": true,
+  "norm": 713716409960669519192598736974780038395771519667874695041952783752312355842,
+  "norm_bits": 249,
+  "odd_part": 356858204980334759596299368487390019197885759833937347520976391876156177921,
+  "odd_part_above_2_250": false,
+  "odd_part_below_2_256": true,
+  "odd_part_bits": 248,
+  "odd_part_is_prime": true,
+  "odd_part_mod_256": 1,
+  "schema": "e1-v36-full-conductor-witness-norm-v1",
+  "source_sha256": "d2094945846b044f0ed1a4d23a5ae45204b09386c9b629bab6e0a9bd71ea4395",
+  "valuation": 1,
+  "worker_seconds": 0.063751
+}

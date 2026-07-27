@@ -244,18 +244,18 @@ At `V=52`, exact slack gives `L<=16`, the cubic cutoff is `M_3=228`, and
 parity leaves six two-odd and four six-odd profiles. Complete independent
 1,726,770,432-vector censuses close all six two-odd profiles; conductor removes
 9,564 cubic exceptions and exact FLINT/PARI norms remove all 8,060 primitive
-exceptions. The remaining four profiles are `(6,5)`, `(5,3,1)`, `(4,1,2)`,
-and `(6,1,0,1)` on 1,234 six-odd affine templates. Their 24,492,353,024-vector
-direct-census floor requires a structural reduction before further compute.
+exceptions. Complete independent 24,492,353,024-vector censuses close the four
+six-odd profiles on all 1,234 affine templates; conductor removes 29,206 cubic
+exceptions and exact FLINT/PARI norms remove all 45,408 primitive exceptions.
+Hence `V=52` is empty and the frontier is `V<=50`.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
 injectivity or another explicit `V` line. Within the first `N=256` band,
-attack only the four surviving six-odd `V=52` profiles with odd-mask,
-quotient, and norm structure; do not launch their undifferentiated direct
+derive the exact `V=50` profile/parity/light router before authorizing a new
 census.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
-cofactor classes. Do not rerun any `V>=54`
+cofactor classes. Do not rerun any `V>=52`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
 safe predecessor relocates the candidate threshold immediately.
