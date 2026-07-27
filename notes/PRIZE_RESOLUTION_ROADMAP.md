@@ -3042,3 +3042,27 @@ falsification: full-conductor profile-(3,4,0) vector found at V=36, so low
 next route-deciding action: classify the full-conductor V<=134 residual by
                               repeated-difference cancellation structure
 ```
+
+**2026-07-27, N=256 2-adic cofactor gate banked:** total ramification turns
+the small norm cofactors into exact singleton-exponent restrictions in both
+first-band profiles.
+
+Cycle burn-down:
+
+```text
+starting pins: local f1d30ba8; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local f7d50f3f
+node attacked: e1_official_prime_exception_control, N=256 s=5 2-adic screen
+result: NARROWED to mu<=5 in (3,4,0) and singleton gap not 0 mod 32
+        in (4,2,0); parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact integer and local-field arithmetic only
+next route-deciding action: combine the 2-adic screen with the signed
+                              repeated-difference cancellation ledger
+```
