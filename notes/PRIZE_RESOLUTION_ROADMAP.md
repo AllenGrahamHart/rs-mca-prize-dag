@@ -4385,3 +4385,31 @@ next route-deciding action: derive the exact V=66 integer-profile and parity
                               ledger, then decide whether the E34 template
                               machinery transports or must be replaced
 ```
+
+**2026-07-27, V=66 profile/parity/diameter reduction:** exact arithmetic
+reduces the next endpoint to four profiles and five diameter ledgers.
+
+```text
+starting pin: local 75be5956
+proof pin: local 4ee12f2b
+node attacked: unsafe_crossing_family_instantiation, N=256 (3,4,0), V=66
+result: NARROWED from 21 integer profiles to four exact profiles
+slack: L<=19; boundary minimum-energy trace 53,49,45,41,37,33
+cubic: exact threshold M_3=1732 (positive at 1732, negative at 1733)
+parity survivors: (5,7), (1,8), (4,5,1), (0,6,1)
+diameter: exactly one light-light edge;
+          D_64 in {1,5,9,17,21}, C=(D_64-69)/2
+independent replay: Cartesian and recursive profile censuses; independently
+                    solved rational Hermite system; complete matching census
+DAG delta: one PROVED background node and six edges; critical status unchanged
+critical census: 179 PROVED / 38 CONDITIONAL / 24 TARGET
+compute spend: none; all checks verifier-scale under the 256 MiB RAM guard
+new assumptions: none
+upstream overlap: no open PR through #1109 supplies this finite E1 reduction
+route decision: do not transport the E34 four-template split wholesale;
+                attack (0,6,1), whose cap 1782 is only 50 above threshold
+next route-deciding action: derive the exact b=2*1_A+1_T moment ledger for
+                              nested sizes (14,14,2), exploit T={+/-t} and
+                              quotient/parity constraints, and authorize a
+                              bounded census only if the analytic gap remains
+```
