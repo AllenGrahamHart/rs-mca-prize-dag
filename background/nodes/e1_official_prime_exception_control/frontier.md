@@ -27,10 +27,11 @@ using Parseval over the odd conjugates proves that `N=256` collisions have
 swap distance at least five, while `N=512` collisions have distance at least
 two. The crude `(2s)^phi(N)` bound should no longer be used for those bands.
 The first surviving `N=256` band reduces to folded coefficient profiles
-`(4,2,0),(3,4,0)` at `s=5`. At `N=512,s=2`, exact negacyclic
-autocorrelation variance excludes the four-singleton profile `(0,4,0)`, so
-only `(1,2,0)` remains. The entries count opposite pairs, singletons, and
-same-sign pairs.
+`(4,2,0),(3,4,0)` at `s=5`. At `N=512,s=2`, exact negacyclic variance
+excludes `(0,4,0)`, while a complete 129540-state interval-resultant
+certificate excludes `(1,2,0)`. The entire band is closed, so the `N=512`
+ledger begins at `s=3`. The profile entries count opposite pairs,
+singletons, and same-sign pairs.
 
 The old `o(1)` language was not a finite `2^-128` certificate. Likewise, the
 old named `N'=128,256` no-vector experiments are background evidence: `128`
@@ -47,8 +48,7 @@ The next route-deciding attack is algebraic. Either:
 
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
-  with the surviving `s=5` profiles and the sole `N=512,s=2` profile
-  `(1,2,0)`;
+  with the surviving `N=256,s=5` profiles and the `N=512,s=3` band;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;
 - provide a total per-input image/collision certifier theorem; or

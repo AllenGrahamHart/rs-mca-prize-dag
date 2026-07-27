@@ -48,6 +48,7 @@ def main():
         "e1_pair_feasible_prime_field_reduction",
         "e1_prime_field_l2_norm_collision_radius",
         "e1_n512_four_singleton_collision_exclusion",
+        "e1_n512_trinomial_interval_norm_exclusion",
         "e1_fullness",
         "e1_exceptional_set_reduction",
         "are_exceptional_density",
@@ -96,6 +97,7 @@ def main():
         ("e1_pair_feasible_prime_field_reduction", branch_target, "ev"),
         ("e1_prime_field_l2_norm_collision_radius", branch_target, "ev"),
         ("e1_n512_four_singleton_collision_exclusion", branch_target, "ev"),
+        ("e1_n512_trinomial_interval_norm_exclusion", branch_target, "ev"),
     }
     require(evidence_edges <= edges, "named-exhibit route is not evidence-only")
     require(
@@ -149,6 +151,18 @@ def main():
             "four-singleton exclusion lost its L2 parent")
     require(("collision_norm_criterion", four_singleton, "req") in edges,
             "four-singleton exclusion lost its norm parent")
+    trinomial = "e1_n512_trinomial_interval_norm_exclusion"
+    require(nodes[trinomial]["status"] == "PROVED",
+            "N=512 trinomial interval exclusion regressed")
+    trinomial_statement = nodes[trinomial]["statement"].lower()
+    require("129540" in trinomial_statement and "s>=3" in trinomial_statement,
+            "N=512 complete first-band close is missing")
+    require((l2_radius, trinomial, "req") in edges,
+            "trinomial exclusion lost its L2 parent")
+    require((four_singleton, trinomial, "req") in edges,
+            "trinomial exclusion lost its four-singleton parent")
+    require(("collision_norm_criterion", trinomial, "req") in edges,
+            "trinomial exclusion lost its norm parent")
     universal = "unsafe_crossing_family_instantiation"
     for source in (
         exact_compiler,
@@ -156,6 +170,7 @@ def main():
         prime_field,
         l2_radius,
         four_singleton,
+        trinomial,
         branch_target,
         "e1_fullness",
     ):

@@ -927,6 +927,16 @@ first `N=512,s=2` band now has one unresolved profile, `(1,2,0)`. This is one
 profile close, not a total pair ledger or row payment. See
 `background/nodes/e1_n512_four_singleton_collision_exclusion/`.
 
+N26 DONE, E1 N=512 COMPLETE s=2 BAND: the remaining profile `(1,2,0)`
+normalizes to 129540 signed trinomials and 748 odd-Galois orbits. Dual exact
+SymPy/FLINT resultants give 746 norms. Across both full prime intervals, the
+1492 complementary-cofactor windows contain only four integers, only one
+divides, and its quotient is composite and `0 mod 512`. Thus no pair-feasible
+prime divides any norm. Together with N25, every `N=512,s=2` collision is
+excluded and the live ledger begins at `s=3`. The route-wide pair allowance
+remains open. See
+`background/nodes/e1_n512_trinomial_interval_norm_exclusion/`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable
@@ -2924,4 +2934,28 @@ new assumptions: none
 compute spend: none; bounded toy autocorrelation replay only
 next route-deciding action: attack the sole remaining N=512,s=2 profile
                               (1,2,0) by exact trinomial norm structure
+```
+
+**2026-07-27, complete N=512 distance-two band closed:** a finite but
+route-uniform signed-support certificate screens every possible prime in both
+field intervals. Exact interval division replaces integer factorization.
+
+Cycle burn-down:
+
+```text
+starting pins: local 581c487d; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: pending commit
+node attacked: e1_official_prime_exception_control, N=512 s=2 profile (1,2,0)
+result: CLOSED for profile (1,2,0) and complete s=2 band; parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +3 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only pending crosswalk
+delta-star bracket movement: none
+new assumptions: none
+compute spend: short one-container Modal runs only; two load-bearing exact
+               replays, no run above 91 MB and aggregate well below $1
+next route-deciding action: compare N=512,s=3 against the N=256,s=5 profiles;
+                              attack the smaller exact orbit quotient first
 ```

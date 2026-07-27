@@ -32,8 +32,8 @@ a short pre-registered route decision.
    `b_pair_min` has at least 134 bits. Exact perfect-power interval checks then
    force `F=F_p` and `p=1 mod N`, so use the prime-field sparse-kernel model on
    this live branch without adding an extension-field hypothesis. The folded
-   `L2` norm bound further removes `s<=4` at `N=256` and `s=1` at `N=512`;
-   its exact variance refinement removes profile `(0,4,0)` at `N=512,s=2`.
+   exact folded-norm certificates further remove `s<=4` at `N=256` and
+   `s<=2` at `N=512`.
 3. Before taking moments on any residual row, screen the complete-support FM1
    sum. If it is at most `B*`, no subfamily or nonnegative collision correction
    can trigger `nu(A)>B*`. This screen rules out `M` on all six named
@@ -47,5 +47,5 @@ a short pre-registered route decision.
 Generated-field and extension-degree normalization are now closed on the
 pair-feasible branch. The route-deciding residual is the pointwise collision
 allowance over primes `p=1 mod N` in the two exact budget intervals, beginning
-at swap distance five for `N=256` and two for `N=512`. The first bands reduce
-to `(4,2,0),(3,4,0)` and the sole `(1,2,0)` folded profile, respectively.
+at swap distance five for `N=256` and three for `N=512`. The first `N=256`
+band reduces to `(4,2,0),(3,4,0)`; the complete `N=512,s=2` band is closed.

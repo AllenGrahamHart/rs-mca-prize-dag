@@ -44,9 +44,9 @@ On the pair-feasible branch the quotient roots necessarily generate the
 ambient field. Exact perfect-power interval checks further force that ambient
 field to be `F_p` with `p=1 mod N`, so the live issue is pointwise prime-field
 collision control rather than field transfer. Folded Parseval additionally
-forces surviving collisions to have `s>=5` at `N=256` and `s>=2` at `N=512`.
-At the latter first band, exact autocorrelation variance excludes `(0,4,0)`,
-leaving only `(1,2,0)`.
+forces surviving collisions to have `s>=5` at `N=256`. At `N=512`, exact
+variance and interval-resultant certificates close both `s=2` profiles, so
+surviving collisions have `s>=3`.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named

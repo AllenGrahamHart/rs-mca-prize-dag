@@ -33,5 +33,5 @@ all six anchors and, by exact perfect-power interval exclusion, is prime-field
 with `p=1 mod N`. This validates the sparse-kernel interface but leaves the
 exact pointwise collision-pair inequality open. A folded L2 norm argument
 removes swap distances through four at `N=256` and distance one at `N=512`.
-An exact autocorrelation-variance refinement also excludes profile `(0,4,0)`
-from the first surviving `N=512,s=2` band.
+Exact variance and interval-resultant refinements exclude both profiles at
+`N=512,s=2`, raising that collision-free radius through distance two.

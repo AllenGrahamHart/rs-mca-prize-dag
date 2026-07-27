@@ -18,6 +18,7 @@ e1_pair_feasible_ambient_generation      --ev-->
 e1_pair_feasible_prime_field_reduction   --ev-->
 e1_prime_field_l2_norm_collision_radius  --ev-->
 e1_n512_four_singleton_collision_exclusion --ev-->
+e1_n512_trinomial_interval_norm_exclusion --ev-->
 e1_official_prime_exception_control       --ev-->
 e1_fullness                               --ev-->
 deployed_identity_prefix_owner_scope_audit  --ev-->
@@ -66,7 +67,5 @@ field cap puts every proper subfield below `2^128`, while the smallest pair
 threshold has 134 bits. The collision target therefore has no remaining
 generated-field transfer premise. Exact perfect-power interval checks also
 force extension degree one and `p=1 mod N`, so the prime-field kernel model is
-now correctly scoped to the residual target. The folded L2 norm radius removes
-the first four `N=256` swap bands and the first `N=512` band. Exact
-autocorrelation variance additionally removes profile `(0,4,0)` from the
-first surviving `N=512,s=2` band.
+now correctly scoped to the residual target. Exact folded-norm certificates
+remove the first four `N=256` swap bands and the first two `N=512` bands.
