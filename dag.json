@@ -13110,6 +13110,27 @@
    }
   },
   {
+   "id": "f3_affine_coset_pair_prime_subfield_descent",
+   "title": "Mattarei affine-pair prime-subfield descent",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "If K<=F_p^* and two nonconstant affine forms have coefficients in F_p, their simultaneous K-membership set over any extension F_q already lies in F_p, so the Mattarei prime-field bound applies unchanged. The deployed KoalaBear order-2^21 subgroup passes this descent with index 1016 and 1016^3>4n despite its p^6 ambient field. The Mersenne-31 quartic order-2^21 subgroup does not descend and is explicitly excluded.",
+   "refs": [
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/statement.md",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/proof.md",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/claim_contract.md",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/dependency_subdag.md",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/audit.md",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/result.md",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/verify.py",
+    "background/nodes/f3_affine_coset_pair_prime_subfield_descent/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "f3_h3_dsp8_nodal_cube_preimage_envelope",
    "title": "DSP8 nodal cube-preimage envelope",
    "status": "PROVED",
@@ -13141,6 +13162,27 @@
     "background/nodes/f3_h3_dsp8_smooth_residual_router/result.md",
     "background/nodes/f3_h3_dsp8_smooth_residual_router/verify.py",
     "background/nodes/f3_h3_dsp8_smooth_residual_router/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "relation": "OVERLAP"
+   }
+  },
+  {
+   "id": "f3_h3_dsp8_smooth_quotient_cap_compiler",
+   "title": "DSP8 smooth quotient-cap compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Let U_sm^c count smooth normalized DSP8 base tuples after forgetting only the ordered quotient pair. Exact quotient multiplicity and Mattarei give G_sm^c<C_M n^(2/3)U_sm^c. Therefore 189(10U_sm^0+17U_sm^A)<=144344n^(4/3), or class-blind 3213(U_sm^0+U_sm^A)<=144344n^(4/3), proves the live smooth residual. This compiler supplies no unweighted estimate.",
+   "refs": [
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/statement.md",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/proof.md",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/claim_contract.md",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/dependency_subdag.md",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/audit.md",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/result.md",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/verify.py",
+    "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/verify_audit.py"
    ],
    "upstream": {
     "label": "SP: primitive shift-pair control / exact second-moment ledger",
@@ -25724,6 +25766,16 @@
    "kind": "req"
   },
   {
+   "from": "f3_affine_coset_pair_mattarei_bound",
+   "to": "f3_affine_coset_pair_prime_subfield_descent",
+   "kind": "req"
+  },
+  {
+   "from": "f3_affine_coset_pair_prime_subfield_descent",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
    "from": "f3_h3_dsp8_nodal_trace_parameter_router",
    "to": "f3_h3_dsp8_nodal_cube_preimage_envelope",
    "kind": "req"
@@ -25750,6 +25802,26 @@
   },
   {
    "from": "f3_h3_dsp8_smooth_residual_router",
+   "to": "f3_h3_dsp8_correlation_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "f3_affine_coset_pair_mattarei_bound",
+   "to": "f3_h3_dsp8_smooth_quotient_cap_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_smooth_residual_router",
+   "to": "f3_h3_dsp8_smooth_quotient_cap_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_unit_product_trace_normal_form",
+   "to": "f3_h3_dsp8_smooth_quotient_cap_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "f3_h3_dsp8_smooth_quotient_cap_compiler",
    "to": "f3_h3_dsp8_correlation_bound",
    "kind": "ev"
   },

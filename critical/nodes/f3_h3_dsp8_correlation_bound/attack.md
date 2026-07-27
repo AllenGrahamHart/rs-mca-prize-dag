@@ -29,6 +29,19 @@ Here `G_sm` retains every richness, signed-disjointness, class, target, and
 quotient-line predicate. A point bound on one smooth trace or an unweighted
 elliptic-curve energy is not enough unless it transports to this ledger.
 
+The proved quotient-cap compiler gives the exact transport threshold. If
+`U_sm^c` forgets only the quotient pair, it is enough to prove
+
+```text
+189(10U_sm^0+17U_sm^A)<=144344n^(4/3),
+```
+
+or class-blind `U_sm^0+U_sm^A<44.926n^(4/3)`. This is now the admissible
+unweighted-SP route. Do not substitute the full shifted energy: its known
+`O(n^2 log n)` scale does not meet this target. Likewise, rich product
+witnesses all induce the same affine quotient shift, so a multi-shift
+intersection theorem does not gain a power on `R(t)`.
+
 Before any fixed-order campaign, try the exact paired-PGL2 rectangle theorem
 
 ```text

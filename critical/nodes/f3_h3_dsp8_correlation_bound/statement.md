@@ -178,6 +178,23 @@ live raw `G=4K` allowance `48536/25`; even in the three-root case more than
 is still open, so this does not prove DSP8. The target-divisor pruning node
 separately retains the exact signed-disjoint live residual.
 
+PROVED PRIME-SUBFIELD DESCENT: Mattarei remains a prime-field theorem, but an
+ambient extension does not obstruct its use when the subgroup and affine
+pencil descend. If `K<=F_p^*` and `L_i(X)=a_iX+b_i` have nonzero slopes and
+coefficients in `F_p`, then `L_1(x) in K` already forces `x in F_p`.
+Therefore the simultaneous membership count over `F_(p^e)` is literally the
+prime-field count. At the deployed KoalaBear parameters,
+
+```text
+p=2^31-2^24+1,       n=2^21,       (p-1)/n=1016,
+1016^3>4n,           p=2 (mod 3),
+```
+
+so the order-`n` subgroup and its cube preimage lie in `F_p` and the affine
+pair bound survives inside the `p^6` ambient field. The Mersenne-31 quartic
+order-`2^21` subgroup does not descend because `v_2(p_M-1)=1`; no genuine
+extension-field Mattarei theorem is claimed.
+
 PROVED SMOOTH RESIDUAL ROUTER: split the raw trace ledger as
 
 ```text
@@ -196,6 +213,28 @@ W_sm<=(36086/25)n^2   if p=1 (mod 3).
 Thus the exact uniform frontier is `W_sm<=(36086/25)n^2`, equivalently
 `10K_sm^0+17K_sm^A<=(18043/50)n^2`. This is the remaining smooth assertion,
 not a proved estimate.
+
+PROVED SMOOTH QUOTIENT-CAP COMPILER: let `U_sm^c` count the smooth normalized
+base tuples `(r,u,s,x)` after forgetting only the ordered quotient pair and
+retaining every richness, class, split, and signed-disjointness predicate.
+Then
+
+```text
+G_sm^c<C_M n^(2/3)U_sm^c.
+```
+
+Consequently either unweighted estimate
+
+```text
+189(10U_sm^0+17U_sm^A)<=144344n^(4/3),
+3213(U_sm^0+U_sm^A)<=144344n^(4/3)
+```
+
+closes the uniform smooth residual. The latter permits fewer than
+`44.926n^(4/3)` base tuples. This is an exact interface for an unweighted
+primitive-SP theorem, not such a theorem. Marginal smooth-curve point bounds,
+ordinary shifted energy, and multi-shift intersection estimates do not
+currently supply the required `n^(4/3)` count with the retained predicates.
 
 PROVED NODAL TRACE-ORBIT ENERGY ROUTER: restrict each singular trace to its
 internally signed-distinct ordered point presentations and write their counts
