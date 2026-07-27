@@ -977,8 +977,8 @@ matching of weight at most 21. Expanding the exact negacyclic energy gives
 V/2=102-D_64+2C.
 ```
 
-The currently sharpened residual `V<=82` therefore forces signed
-repeated-distance cross sum `C<=-20`. Every live support has an
+The currently sharpened residual `V<=80` therefore forces signed
+repeated-distance cross sum `C<=-21`. Every live support has an
 oppositely signed pair of equal
 non-diameter chords and hence a three-term-progression or four-point
 parallelogram relation. This removes all circular-Sidon supports and turns the
@@ -1132,6 +1132,21 @@ positive leading coefficient and the moment cap put the average logarithm
 strictly below `(125/32)log 2`, excluding `V=84`. The residual is now
 positive even `V<=82`; `C<=-20` is unchanged. The exact proof uses no
 Modal result. See
+`background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N40 DONE, E1 N=256 SECOND CUBIC ENDPOINT: the same exact mechanism continues
+one row lower. The relaxed slack table excludes `L=26,25,24` at `E=41`,
+so `L<=23`. Among the 39 compatible integer magnitude profiles, the nested
+layer count gives
+
+```text
+M_3<=3438,
+```
+
+with worst layer ledger `(n_1,...,n_6)=(5,9,0,0,0,0)`. Reusing the cubic
+Hermite majorant at 14 and 60 puts the average logarithm strictly below
+`(125/32)log 2`, excluding `V=82`. The residual is positive even `V<=80`,
+and the signed-chord gate strengthens to `C<=-21`. See
 `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the

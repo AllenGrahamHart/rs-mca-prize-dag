@@ -316,6 +316,14 @@ For `E=43`, the candidates `L=27,26,25,24` have slacks
 E=43 implies L<=23.                                  (15)
 ```
 
+For `E=42`, bound (3) gives `L<=27`. The candidates
+`L=27,26,25` have slacks `0,4,8`, whose relaxed minimum energies are
+`54,50,46`, all greater than 42. Hence `L<=24`.
+
+For `E=41`, bound (3) gives `L<=26`. The candidates
+`L=26,25,24` have slacks `3,7,11`, whose relaxed minimum energies are
+`53,49,45`, all greater than 41. Hence `L<=23`.
+
 If `y_u=|F(zeta^u)|^2` for odd `u`, then the mean of the
 `y_u` is 16. Autocorrelation antisymmetry gives
 
@@ -493,8 +501,8 @@ log(8/7)+1/160-42/301>0,
 Again degree-four truncations suffice, and the averaged decay is
 `q=73/105`. This excludes `V=86`.
 
-For `V=84`, we use one additional exact moment. Here `E=42`, so
-(3) gives `L<=24`. Put `x_u=y_u-16`, and extend the positive-half
+For `V=84`, we use one additional exact moment. The relaxed endpoint bound
+above gives `L<=24`. Put `x_u=y_u-16`, and extend the positive-half
 autocorrelation to the negacyclic coefficient sequence
 
 ```text
@@ -609,6 +617,42 @@ geometric tail bound, certify this positive rational margin. If some
 
 The collision-norm criterion therefore excludes `V=84`.
 
+For `V=82`, the relaxed endpoint bound gives `E=41,L<=23`.
+The same layer expansion has 39 admissible integer magnitude profiles, and
+exact substitution in the displayed formula for `Phi` gives
+
+```text
+M_3<=3438,
+```
+
+with the largest layer ledger at
+`(n_1,...,n_6)=(5,9,0,0,0,0)`. Reuse the same Hermite cubic `p`;
+its positive leading coefficient allows the third moment to be replaced by
+this upper bound. Now
+
+```text
+mean y_u^2=338,       mean y_u^3=8032+M_3<=11470,
+```
+
+and exact substitution gives
+
+```text
+mean log y_u
+ <=(11668/12167)log 14+(499/12167)log 60+1269/148120
+ <(125/32)log 2.
+```
+
+After the same power-of-two range reduction, the strict margin is
+
+```text
+-(68437/389344)log 2
+ +(11668/12167)log(8/7)
+ +(499/12167)log(16/15)-1269/148120 > 0.
+```
+
+The same eight-term atanh bounds certify it exactly. Therefore the norm is
+again strictly below `2^250`, excluding `V=82`.
+
 Apply (6)--(7) to the two new endpoint rows, (3) to the next two
 low-variance blocks, and (1) to the five existing upper blocks:
 
@@ -672,4 +716,4 @@ sum_(j=0)^9 q^j/j! > 2.
 Therefore `q>log 2`, so `64V/C>6 log 2`. Equation (19)
 is strictly below `2^250`. The collision-norm criterion excludes
 every listed variance. Since `V` is even, only
-`0<V<=82` remains.
+`0<V<=80` remains.

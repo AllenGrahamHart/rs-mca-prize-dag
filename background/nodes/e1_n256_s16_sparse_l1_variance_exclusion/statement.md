@@ -9,14 +9,14 @@ from the parent theorem. Then no pair-feasible row-prime collision is possible
 when
 
 ```text
-84<=V<=134.
+82<=V<=134.
 ```
 
 Together with the zero- and high-variance exclusion, every unresolved vector
 in this profile therefore satisfies
 
 ```text
-0<V<=82,       V even.
+0<V<=80,       V even.
 ```
 
 The improvement uses autocorrelation sparsity and the profile's chord weights.
@@ -32,12 +32,13 @@ lemma gives
 
 An exact classification and relaxed minimum-energy table for the low-slack
 chord classes gives the needed L1 ceilings at every energy from 43 through
-52. Every conjugate square obeys `y_u<=16+2L`. Eight optimized
-quadratic row certificates exclude `V=86,88,...,100`. At `V=84`,
-a nested-layer count bounds the third central moment by `3660`, and a
-two-contact cubic Hermite majorant excludes the endpoint. Nine exact
+52 and at the two cubic endpoints 41 and 42. Every conjugate square obeys
+`y_u<=16+2L`. Eight optimized
+quadratic row certificates exclude `V=86,88,...,100`. At `V=84,82`,
+nested-layer counts bound the third central moments by `3660,3438`, and a
+two-contact cubic Hermite majorant excludes both endpoints. Nine exact
 mean-tangent majorants handle the
 remaining range and put the norm strictly below `2^250` throughout the
 statement.
 
-This does not classify or exclude the positive even residual `V<=82`.
+This does not classify or exclude the positive even residual `V<=80`.

@@ -400,7 +400,21 @@ def main() -> None:
     assert 4 * (42 - 26) - (102 - 43) == 5
     assert 4 * (42 - 25) - (102 - 43) == 9
     assert 4 * (42 - 24) - (102 - 43) == 13
+    assert [4 * (42 - l1) - (102 - 42) for l1 in (27, 26, 25)] == [
+        0,
+        4,
+        8,
+    ]
+    assert [relaxed_slack_table[slack] for slack in (0, 4, 8)] == [54, 50, 46]
+    assert [4 * (42 - l1) - (102 - 41) for l1 in (26, 25, 24)] == [
+        3,
+        7,
+        11,
+    ]
+    assert [relaxed_slack_table[slack] for slack in (3, 7, 11)] == [53, 49, 45]
     special_l1_bounds = {
+        41: 23,
+        42: 24,
         43: 23,
         44: 24,
         45: 25,
@@ -641,22 +655,35 @@ def main() -> None:
     assert optimized_decay_86 == Fraction(73, 105)
     assert taylor(optimized_decay_86, 4) > 2
 
-    energy_42_profiles = []
-    for counts in product(
-        range(43), range(11), range(5), range(3), range(2), range(2)
-    ):
-        profile_l1 = sum(
-            (index + 1) * count for index, count in enumerate(counts)
-        )
-        profile_energy = sum(
-            (index + 1) ** 2 * count for index, count in enumerate(counts)
-        )
-        if profile_energy != 42 or profile_l1 > 24 or sum(counts) > 21:
-            continue
-        energy_42_profiles.append((layer_triple_cap(counts), counts, profile_l1))
+    def energy_profiles(
+        target_energy: int, l1_ceiling: int
+    ) -> list[tuple[int, tuple[int, ...], int]]:
+        profiles = []
+        for counts in product(
+            range(43), range(11), range(5), range(3), range(2), range(2)
+        ):
+            profile_l1 = sum(
+                (index + 1) * count for index, count in enumerate(counts)
+            )
+            profile_energy = sum(
+                (index + 1) ** 2 * count for index, count in enumerate(counts)
+            )
+            if (
+                profile_energy == target_energy
+                and profile_l1 <= l1_ceiling
+                and sum(counts) <= 21
+            ):
+                profiles.append((layer_triple_cap(counts), counts, profile_l1))
+        return profiles
+
+    energy_42_profiles = energy_profiles(42, 24)
     assert len(energy_42_profiles) == 42
     assert max(energy_42_profiles) == (3660, (6, 9, 0, 0, 0, 0), 24)
     assert sum(cap == 3660 for cap, _, _ in energy_42_profiles) == 1
+    energy_41_profiles = energy_profiles(41, 23)
+    assert len(energy_41_profiles) == 39
+    assert max(energy_41_profiles) == (3438, (5, 9, 0, 0, 0, 0), 23)
+    assert sum(cap == 3438 for cap, _, _ in energy_41_profiles) == 1
 
     log_14 = (Fraction(1), Fraction(0), Fraction(0))
     log_60 = (Fraction(0), Fraction(1), Fraction(0))
@@ -747,7 +774,28 @@ def main() -> None:
     )
     assert hermite_margin_lower > 0
 
-    excluded = [84, 86, 88, 90, 92, 94, 96, 98, 100]
+    assert 16**2 + 82 == 338
+    assert 16**3 + 3 * 16 * 82 + 3438 == 11470
+    expected_hermite_82 = add_log_forms(
+        hermite_coefficients[0],
+        scale_log_form(Fraction(16), hermite_coefficients[1]),
+        scale_log_form(Fraction(338), hermite_coefficients[2]),
+        scale_log_form(Fraction(11470), hermite_coefficients[3]),
+    )
+    assert expected_hermite_82 == (
+        Fraction(11668, 12167),
+        Fraction(499, 12167),
+        Fraction(1269, 148120),
+    )
+    hermite_margin_82_lower = (
+        Fraction(-68437, 389344) * log_2_upper
+        + Fraction(11668, 12167) * log_8_over_7_lower
+        + Fraction(499, 12167) * log_16_over_15_lower
+        - Fraction(1269, 148120)
+    )
+    assert hermite_margin_82_lower > 0
+
+    excluded = [82, 84, 86, 88, 90, 92, 94, 96, 98, 100]
     for lower_v, upper_v, upper_energy, upper_l1, bound, denominator, method in ROWS:
         energies = range(lower_v // 2, upper_energy + 1)
         if method == "slack":
@@ -770,7 +818,7 @@ def main() -> None:
         assert taylor(six_bit_exponent, 9) > 2
         excluded.extend(range(lower_v, upper_v + 1, 2))
 
-    assert excluded == list(range(84, 136, 2))
+    assert excluded == list(range(82, 136, 2))
 
     dag = json.loads((ROOT / "dag.json").read_text())
     statuses = {entry["id"]: entry["status"] for entry in dag["nodes"]}
@@ -785,12 +833,12 @@ def main() -> None:
     assert (NORM_PARENT, NODE, "req") in edges
     assert (NODE, E1_TARGET, "ev") in edges
     assert (NODE, UNIVERSAL_TARGET, "ev") in edges
-    assert "84<=V<=134" in statements[NODE]
-    assert "V<=82" in statements[NODE]
+    assert "82<=V<=134" in statements[NODE]
+    assert "V<=80" in statements[NODE]
 
     print(
         "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS "
-        "excluded=26 residual_max=82 majorants=18"
+        "excluded=27 residual_max=80 majorants=19"
     )
 
 

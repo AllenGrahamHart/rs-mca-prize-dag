@@ -43,3 +43,11 @@ Its exact averaged value at `M_3=3660` lies below `(125/32)log 2`; run
 `ap-aDQcDVxxeDUhIUnAYkiA4f` derived the rational identities. The proof and
 local verifier reproduce the interpolation, layer cap, and logarithmic
 margin without Modal, floating point, or sampled geometry.
+
+## E=41 continuation
+
+Run `ap-dItYNX6JpwdGzaNEYisMOF` applied the same finite derivation at
+`E=41`. The relaxed slack table gives `L<=23`; 39 integer magnitude profiles
+give exact layer cap `M_3<=3438`; and the same Hermite cubic at 14 and 60 has
+a positive six-bit margin. The local proof and verifier reproduce all three
+facts and exclude `V=82`; the Modal derivation remains non-load-bearing.
