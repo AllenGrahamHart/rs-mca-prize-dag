@@ -232,3 +232,7 @@ The proved cutoff-free E23 reduction leaves four profiles on eight templates.
 Independent complete censuses, conductor, and exact norms close all four; the
 E23 endpoint closes `V=46` and advances the frontier to `V<=44`, still as
 evidence only.
+The proved cutoff-free E22 reduction leaves eight profiles on 1,321 templates.
+Independent complete censuses, conductor, and exact norms close all eight; the
+E22 endpoint closes `V=44` and advances the frontier to `V<=42`, still as
+evidence only.

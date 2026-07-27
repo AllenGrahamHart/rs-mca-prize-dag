@@ -105,7 +105,11 @@ dual exact resultants put all primitive norms below `2^250`. Hence `V=48` is
 empty. The cutoff-free E23 router then leaves four profiles on eight templates.
 Independent 158,783,488-vector engines find 1,888 actual vectors; conductor
 removes 1,404 and dual resultants put all 484 full-conductor norms below
-`2^250`. Hence `V=46` is empty and the live positive even frontier is `V<=44`.
+`2^250`. Hence `V=46` is empty. At `V=44`, the cutoff-free router leaves eight
+profiles on 1,321 templates. Independent 26,219,123,456-vector engines find
+27,998 actual vectors; conductor removes 12,996 and dual resultants put all
+15,002 full-conductor norms below `2^250`. Hence `V=44` is empty and the live
+positive even frontier is `V<=42`.
 Subsequent chambers must
 continue to use geometric emptiness or direct exact norms rather than a bulk
 cubic cutoff. A subfield norm argument also
@@ -144,8 +148,8 @@ The next route-deciding attack is algebraic. Either:
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
-  after the 2-adic cofactor screen. In `(3,4,0)`, every `V>=46` chamber is
-  closed and must not be rerun. Derive the cutoff-free `V=44` (`E=22`)
+  after the 2-adic cofactor screen. In `(3,4,0)`, every `V>=44` chamber is
+  closed and must not be rerun. Derive the cutoff-free `V=42` (`E=21`)
   profile/parity/light router and price its actual-vector residue before
   authorizing exact norms. Compare that route against the 419 exact cofactor
   classes in `(4,2,0)`. Treat the

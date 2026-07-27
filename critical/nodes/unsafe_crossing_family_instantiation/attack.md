@@ -124,8 +124,10 @@ At `V=50`, nine profiles on 111 templates are closed by independent complete
 censuses, conductor, and exact norms. At `V=48`, a cutoff-free six-profile
 router on 154 templates is closed by independent complete censuses, conductor,
 and exact norms. At `V=46`, four profiles on eight templates close by
-independent complete censuses, conductor, and exact norms. Derive the exact
-`V=44` router without a cubic cutoff. Do not rerun any `V>=46` campaign.
+independent complete censuses, conductor, and exact norms. At `V=44`, eight
+profiles on 1,321 templates close by dual 26,219,123,456-vector censuses,
+conductor, and exact norms. Derive the exact `V=42` router without a cubic
+cutoff. Do not rerun any `V>=44` campaign.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
 the 2-adic singleton screen and test its 419 exact cofactors directly; do not
