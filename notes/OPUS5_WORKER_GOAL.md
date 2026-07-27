@@ -20,7 +20,10 @@ move.
 **The census is a COMPLETION metric, not a progress metric — do not report it as
 failure.** Calibration, measured 2026-07-26: Codex ran a full autonomous session
 (dozens of commits, a complete Mersenne-cubic grind chain) and its math-orbit
-census is *identical* to ours, `260 = 201/36/23`. The 23 leaves are the LAST things
+census is *identical* to ours, `260 = 201/36/23`. **[SUPERSEDED at wave-24,
+2026-07-27: the board is now `242 = 180/38/24` after the proof_sketch re-grade —
+see below. The calibration point still stands: both agents independently reached
+the same census.]** The 24 leaves are the LAST things
 to fall. Real progress lives in the ~1,000-node proved substrate underneath them
 and in how narrow the residuals get. Report the census as a datum, once, and move on.
 
@@ -74,9 +77,29 @@ on this repo's main.
 
 ## LIVING QUEUE — I re-derive this every session (last: 2026-07-26, session 7)
 
-**Board:** 23 TARGETs. The 36 CONDITIONALs carry zero independent work — all
-discharge by propagation once the TARGETs close (`tools/verify_conditional_propagation.py`).
-So the remaining mathematics is **23 units, not 59**.
+**Board (RE-PRICED wave-24, 2026-07-27):** **24 TARGETs**, census
+`242 = 180/38/24`. The 38 CONDITIONALs carry zero independent work — all
+discharge by propagation once the TARGETs close
+(`tools/verify_conditional_propagation.py`). So the remaining mathematics is
+**24 units**.
+
+**Why it moved (read before touching the e1 or crossing lanes):** the legacy
+`proof_sketch/` tree is NOT lost — it is live upstream at
+`experimental/notes/roadmaps/proof_sketch/` (worklog 7l's "unrecoverable" verdict
+is corrected). Re-grading against it showed several cited sections say
+CONJECTURE/typicality while the citing node said PROVED. Codex's 11 demotions
+were adjudicated and accepted; 19 e1 nodes left the critical orbit. Sources:
+`notes/PROOF_SKETCH_PROVENANCE.md` (method, and the 49-section / 161-citation
+re-grading scope) and `notes/wave24_integration_20260727/ADJUDICATION.md`
+(node-by-node verdicts). **New TARGET:** `unsafe_crossing_family_instantiation`.
+**Do not re-litigate these twelve** — adjudicated against the primary sources.
+
+**Standing hazard this exposed:** `tools/auto_discharge.py` propagates PROVED by
+modus ponens, so one weakened leaf silently greens a whole cone (that is how 8 e1
+nodes went green off a first-moment typicality bound). **30 critical PROVED nodes
+are auto-discharged** — that population is where the next over-claims live.
+Re-grading the two heaviest sketch sections (`s2_paid_ledger.md#3`, 14 nodes;
+`s3b_iii_3_fibers_and_noanchor.md#1`, 15 nodes) covers most of the exposure.
 
 **Closed and not to be re-derived:** Q0 orbit reconciliation; C3-3 conditional
 dedup (negative — see `assumption_dedup.md`); the A5 Part-2 per-author registry
