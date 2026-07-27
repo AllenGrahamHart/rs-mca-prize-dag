@@ -1226,6 +1226,18 @@ cubic excludes `V=72` and improves the profile-`(3,4,0)` residual to positive
 even `V<=70`. See
 `background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/`.
 
+N47 DONE, E1 N=256 VARIANCE-70 QUOTIENT-SCHUR CLOSURE: at `E=35`, the exact
+slack recurrence gives `L<=19`, and only two of 21 magnitude profiles exceed
+the cubic threshold 2162. A complete 2,946,287-allocation quotient census
+closes `(3,8)` at 2152. For `(6,5,1)`, the outer-only odd cap 460 misses the
+sufficient target 458 by two, but only four of 104,750 outer allocations reach
+that chamber. Exhausting all 276 compatible middle/top nestings bounds their
+full three-layer objective by 2054; all low outer cases are at most
+`458+1704=2162`, and divided cases are at most 2158. Thus the exact cubic
+excludes `V=70` and improves the profile-`(3,4,0)` residual to positive even
+`V<=68`. See
+`background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable
@@ -3715,4 +3727,25 @@ route decision: the raw 2398 obstruction is removed by the exact
                 R(B,B,B)<=174 theorem; the resulting cap is 33 below threshold
 next route-deciding action: derive the E=35 L1/profile and cubic ledgers and
                               test whether the exact quotient descent persists
+```
+
+**2026-07-27, N=256 variance-70 quotient-Schur closure:** a two-count
+outer-only miss was resolved by exhausting the exact nested three-layer
+coupling rather than refining the quotient globally.
+
+Cycle burn-down:
+
+```text
+starting pin: local a6964327
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0), V=70
+result: NEW PROVED quotient-Schur exclusion; global live M_3<=2162;
+        V=70 excluded and residual improves to positive even V<=68
+DAG delta: one PROVED background node and five edges added; parent target OPEN
+compute: one 32-shard Modal run, ap-Gwlrl9cLfJsa2bS83BFw4k;
+         2,946,287 quotient allocations; four high outers and 276 nestings
+new assumptions: none
+route decision: quotient descent persists, but the first outer-only miss shows
+                that exact nested coupling must precede any finer quotient
+next route-deciding action: derive the E=34 L1/profile and cubic ledgers and
+                              test whether nesting remains a bounded exception
 ```

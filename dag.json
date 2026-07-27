@@ -428,6 +428,31 @@
    "notes": "ROUTE CLOSURE 2026-07-27: closes the variance-72 slice with exact quotient chambers, a complete Z/64 Z inner Schur census, and no new assumptions. Lower positive even variances remain open."
   },
   {
+   "id": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "title": "N=256 square-mass-16 E=35 quotient-Schur exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e35_quotient_schur_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/verify_e35_mod16_quotient_census_remote.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_mod16_quotient_census.cpp",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_mod16_quotient_census_result.json",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_mod16_quotient_census_check.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_high_outer_coupling_check.py",
+    "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_route_report_20260727.md"
+   ],
+   "statement": "For profile (3,4,0) at V=70, the exact slack recurrence gives E=35 and L<=19. A complete 2,946,287-allocation quotient census closes (3,8). For (6,5,1), only four of 104,750 odd outer allocations have R(A,A,A)>458; all 276 compatible nested middle/top allocations have full quotient objective at most 2054. Together with the divided and 4Z cases, every live row has M_3<=2162, at the exact cubic threshold. Hence V=70 is excluded and every unresolved vector in this profile has positive even V<=68.",
+   "notes": "ROUTE CLOSURE 2026-07-27: closes the variance-70 slice with exact quotient chambers and a four-outer, 276-nesting coupling census. Lower positive even variances remain open."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -17901,6 +17926,21 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "to": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -18052,6 +18092,16 @@
   },
   {
    "from": "e1_n256_s16_e36_quotient_schur_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e35_quotient_schur_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e35_quotient_schur_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

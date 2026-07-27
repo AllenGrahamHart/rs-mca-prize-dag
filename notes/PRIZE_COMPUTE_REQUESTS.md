@@ -7886,3 +7886,48 @@ and independent checker are `e36_bbb64_census.cpp`,
 is consumed only in the declared inner-`2Z` chambers. Its registered remote
 launcher is
 `e1_n256_s16_e36_quotient_schur_exclusion/verify_bbb64_remote.py`.
+
+### CR-E1-E35-Q16: variance-70 quotient-Schur route decision
+
+**Status:** COMPLETE by exact certificate. The outer-only sufficient criterion
+returned `FAIL` by two counts and was repaired by exact nested coupling.
+
+At `E=35`, the exact recurrence gives `L<=19`; 21 magnitude profiles remain,
+and the exact cubic threshold is `M_3<=2162`. Only `(3,8)` and `(6,5,1)`
+exceed it abstractly. Run the odd-support and divided-odd mod-16 cells for the
+two-layer profile `(3,8)`, and the outer-only 24-point cells needed by
+`(6,5,1)`. Reuse the already proved complete `Z/64 Z` theorem
+`R(B,B,B)<=174` allocation by allocation; no new inner census is authorized.
+
+Use at most 32 one-CPU, 256-MiB shards, 180 seconds per shard, under five
+minutes total wall time, and a conservative aggregate ceiling of `$0.25`.
+The launcher must retain useful partial results and explicit errors on
+`INCOMPLETE`. The independent checker must reconstruct every allocation
+count, objective, chamber maximum, and source hash.
+
+`PASS` requires every valid `(3,8)` chamber at most 2162 and the 24-point
+outer Schur term at most 458. Together with `54^32<2^250`, PASS closes
+`V=70`. `FAIL` emits the exact obstructing allocation and component for a
+support-specific theorem. `INCOMPLETE` changes no status. Do not launch a
+finer quotient or another solver from this authorization.
+
+Source, launcher, and checker:
+`e35_mod16_quotient_census.cpp`,
+`verify_e35_mod16_quotient_census_remote.py`, and
+`e35_mod16_quotient_census_check.py`.
+
+Setup-only runs `ap-0FGvj92aNnIyFpLCOoTJKC` and
+`ap-9dJHjobg5LNfcSK5vU3HWf` failed before producing any census result because
+of launcher path hydration. Final run `ap-Gwlrl9cLfJsa2bS83BFw4k` completed
+all 2,946,287 allocations in under ten seconds. For `(3,8)`, the odd inner-2Z
+refinement is 2152, the odd outside-inner-2Z chamber is 2010, and the divided
+refinement is 2100. The `(6,5,1)` outer-only caps are 460 and 454. Thus the
+pre-registered outer target 458 fails only in the odd chamber.
+
+A deterministic exact follow-up enumerated all 104,750 odd outer allocations
+and all 32,346 divided allocations. Exactly four odd allocations exceed 458,
+all at 460. Exhausting all 276 compatible middle/top nestings gives complete
+three-layer maximum 2054. Hence low odd cases are at most 2162, divided cases
+at most 2158, and exceptional odd cases at most 2054. The exact cubic threshold
+2162 is met, so `V=70` is excluded. The follow-up checker is
+`e35_high_outer_coupling_check.py`; no second remote campaign was required.

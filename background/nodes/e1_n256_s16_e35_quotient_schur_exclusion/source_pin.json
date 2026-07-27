@@ -1,0 +1,18 @@
+{
+  "census_checker_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_mod16_quotient_census_check.py",
+  "census_checker_file_sha256": "f5689ee7b9394fad1cfaac5f29f76158e7903c19f2caaac5ee0f54d5f9bc4f0a",
+  "census_launcher_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/verify_e35_mod16_quotient_census_remote.py",
+  "census_launcher_file_sha256": "3698c54883b36def2ede9a827daf4479ef17df7801990fe231a5e03b32d65a06",
+  "census_result_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_mod16_quotient_census_result.json",
+  "census_result_file_sha256": "32be5f7f2dde3088a9f9650a3d3013c8fddbb19e6e9d81f5b760cf50d45b3f39",
+  "census_source_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_mod16_quotient_census.cpp",
+  "census_source_file_sha256": "935f8e10d8698de7d397c8299ae763375d8d3f247862236d41513ebefb3fa739",
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
+  "coupling_checker_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e35_high_outer_coupling_check.py",
+  "coupling_checker_file_sha256": "5e22c630ea57a5440bd1c3bfcf5ef87da37321aca813eb8e12d54125238271a7",
+  "e36_parent_file": "background/nodes/e1_n256_s16_e36_quotient_schur_exclusion/statement.md",
+  "e36_parent_file_sha256": "ad17af846bba63cf7a2d1bd3f9f318696507d91a9cbcec50460872abc80559e7",
+  "variance_parent_verify_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py",
+  "variance_parent_verify_file_sha256": "57b7a0f2d8590bda9234f4fb5bc0a573afd56200436458121767489fc5091f8e"
+}
