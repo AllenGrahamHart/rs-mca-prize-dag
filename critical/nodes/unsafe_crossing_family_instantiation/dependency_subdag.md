@@ -125,4 +125,7 @@ diameter ledgers. Its edge into this target is evidence: all four profile
 branches initially remained open. The proved
 `e1_n256_s16_e33_profile_061_exclusion` then removes `(0,6,1)` via the sharp
 bound `M_3<=1644<1732`. Three V=66 profile branches remain, so its consumer
-edge is also evidence.
+edge is also evidence. The proved
+`e1_n256_s16_e33_profile_451_quotient_exclusion` removes `(4,5,1)` with exact
+quotient caps 1732 and 1670 plus the outer-`4Z` norm close. Two profile
+branches remain, so this consumer edge is evidence as well.

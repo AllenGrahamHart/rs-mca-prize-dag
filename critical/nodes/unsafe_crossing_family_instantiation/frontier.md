@@ -137,8 +137,10 @@ Odd energy forces exactly one light-light diameter and
 `D_64 in {1,5,9,17,21}`. The five-odd profiles have diameter-Sidon light
 support. The sharp symmetric target-fiber theorem applies to the nested shape
 `(14,14,2)` and gives `M_3<=1644<1732`, excluding `(0,6,1)` outright. The
-three live profiles are `(5,7)`, `(1,8)`, and `(4,5,1)`; the last is the
-nearest cubic branch and retains the diameter-Sidon condition.
+three live profiles were `(5,7)`, `(1,8)`, and `(4,5,1)`. A complete
+quotient census gives caps 1732 and 1670 for `(4,5,1)`, while the outer-`4Z`
+chamber has norm at most `50^32`; this excludes that profile as well. The
+live V=66 profiles are now `(5,7)` and `(1,8)`.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named

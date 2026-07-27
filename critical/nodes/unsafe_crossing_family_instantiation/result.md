@@ -87,4 +87,7 @@ light-light chord is a diameter, so `D_64` is one of `1,5,9,17,21`; the two
 five-odd profiles have diameter-Sidon light support. None of the four
 profiles was excluded by that reduction alone. A sharp follow-up target-fiber
 theorem gives `M_3<=1644<1732` for `(0,6,1)` and excludes it. The live V=66
-profiles are now `(5,7)`, `(1,8)`, and `(4,5,1)`.
+profiles were then `(5,7)`, `(1,8)`, and `(4,5,1)`. A complete mod-16
+quotient census gives `M_3<=1732` in the odd chamber and `M_3<=1670` after
+division for `(4,5,1)`; the `4Z` chamber is paid by a small-field norm. Thus
+that profile is also excluded, leaving `(5,7)` and `(1,8)` at V=66.

@@ -82,9 +82,10 @@ implementations with `M_3<=1770`. At `V=66`, the exact slack, cubic, parity,
 and diameter ledger is now proved: only `(5,7)`, `(1,8)`, `(4,5,1)`, and
 `(0,6,1)` remain, and exactly one light-light chord is a diameter. The sharp
 symmetric target-fiber theorem now excludes `(0,6,1)` with
-`M_3<=1644<1732`. Do not import the E34 four-template classification
-wholesale. Attack `(4,5,1)` next: its five odd classes force diameter-Sidon
-light support, it has one magnitude-three class, and the all-set cubic
-improvement lowers its first cap from 1918 to 1884. Apply the 2-adic singleton
-screen rather than a raw support census.
+`M_3<=1644<1732`. A complete quotient census now also excludes `(4,5,1)`
+at the exact boundary `M_3<=1732`. Do not import the E34 four-template
+classification wholesale. Attack `(1,8)` next with the same deterministic
+quotient compiler; retain `(5,7)` for chord-origin geometry if its quotient
+allocation survives. Apply the 2-adic singleton screen rather than a raw
+support census.
 Test the odd norm part directly; do not scan arbitrary cofactors below 64.

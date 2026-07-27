@@ -745,6 +745,31 @@
    "notes": "ROUTE CLOSURE 2026-07-27: removes one of four V=66 profiles by a sharp all-set additive theorem, with no computation or new assumption. Three profiles remain."
   },
   {
+   "id": "e1_n256_s16_e33_profile_451_quotient_exclusion",
+   "title": "N=256 E=33 profile-(4,5,1) quotient exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile451_nested_probe.cpp",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile451_nested_probe_modal.py",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile451_quotient_census.cpp",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile451_quotient_probe_modal.py",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile451_threshold_modal.py",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile451_route_report_20260727.md"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=66, autocorrelation magnitude profile (4,5,1) is impossible. A complete mod-16 quotient census covers 5,421,301 order-128 allocations with M_3<=1732 and 3,086,861 divided order-64 allocations with M_3<=1670. The outer-4Z chamber has degree-32 norm at most 50^32<2^250. The exact cubic certificate therefore excludes every chamber.",
+   "notes": "ROUTE CLOSURE 2026-07-27: removes the second of four V=66 profiles with a complete quotient census at the exact cubic boundary. Two profiles remain."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -18723,6 +18748,21 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+   "to": "e1_n256_s16_e33_profile_451_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e33_profile_451_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e33_profile_451_quotient_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -19014,6 +19054,16 @@
   },
   {
    "from": "e1_n256_s16_e33_profile_061_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_451_quotient_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_451_quotient_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
