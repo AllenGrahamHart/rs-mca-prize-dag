@@ -64,16 +64,20 @@ At the first live endpoint `V=68`, a common nested-layer mod-16 compiler has
 feasible relaxation allocations above the required cubic threshold, killing
 the bare 228,097,120-state full census. Selective complete quotient and exact
 support certificates nevertheless exclude 21 of the 24 integer magnitude
-profiles. The exact residual is
+profiles. The quotient residual is
 
 ```text
 (6,7),       (9,4,1),       (12,1,2),       all with L=20.
 ```
 
-The relaxed chord-slack equality has only 41 signatures in this `E=34,L=20`
-scope. The next route is their actual chord-origin classification, coupled to
-the signed progression/parallelogram gate or a stronger analytic norm
-majorant; do not return to the retired broad quotient census.
+Parity of the six unit-product chords removes the latter two profiles. The
+exact residual is now `(6,7)`: all six light-light chords occupy distinct
+non-diameter distance classes, and `D_64` is one of
+`0,4,8,12,16,20`. The relaxed chord-slack equality still has 41 signatures in
+this `E=34,L=20` scope. The next route is their heavy-chord origin
+classification, coupled to the signed progression/parallelogram gate or a
+stronger analytic norm majorant; do not return to the retired broad quotient
+census.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named

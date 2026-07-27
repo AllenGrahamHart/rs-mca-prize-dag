@@ -58,4 +58,6 @@ does not change the target status.
 Two complete follow-up certificates recover a sharp positive reduction:
 every pair-feasible `V=68` collision has magnitude profile `(6,7)`,
 `(9,4,1)`, or `(12,1,2)`. All three have `L=20`; the other 21 integer
-profiles are proved impossible.
+profiles are proved impossible. Chord parity then removes `(9,4,1)` and
+`(12,1,2)`. In the sole residual `(6,7)` profile, all six light-light chords
+have distinct non-diameter circular lengths.

@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e34_three_profile_reduction/verify.py",
-      "seconds": 0.664947,
+      "script": "background/nodes/e1_n256_s16_e34_parity_profile_reduction/verify.py",
+      "seconds": 0.037963,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E34_THREE_PROFILE_REDUCTION_PASS profiles=24 quotient=42413558 refined=809474 supports=7927920 m3_cap=1942 residual=3\n"
+      "stdout_tail": "E1_N256_S16_E34_PARITY_PROFILE_REDUCTION_PASS unit_chords=6 odd_counts=(6, 10, 14) diameter_ledgers=6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e34_three_profile_reduction/verify_audit.py",
-      "seconds": 0.029829,
+      "script": "background/nodes/e1_n256_s16_e34_parity_profile_reduction/verify_audit.py",
+      "seconds": 0.016245,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E34_THREE_PROFILE_REDUCTION_AUDIT_PASS mutations=5\n"
+      "stdout_tail": "E1_N256_S16_E34_PARITY_PROFILE_REDUCTION_AUDIT_PASS mutations=4\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

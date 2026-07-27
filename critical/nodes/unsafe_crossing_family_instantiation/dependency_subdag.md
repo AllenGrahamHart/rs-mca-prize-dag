@@ -24,6 +24,7 @@ e1_n256_s16_e37_quotient_schur_exclusion --ev-->
 e1_n256_s16_e36_quotient_schur_exclusion --ev-->
 e1_n256_s16_e35_quotient_schur_exclusion --ev-->
 e1_n256_s16_e34_three_profile_reduction --ev-->
+e1_n256_s16_e34_parity_profile_reduction --ev-->
 e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
@@ -85,10 +86,12 @@ autocorrelation variance at most 68, and both first-band profiles are reduced
 to full-conductor supports. Exact cofactor windows also impose the
 singleton-reduction multiplicity bounds `5` and `16` in the two profiles.
 The square-mass-16 residual additionally has signed repeated-chord cross sum
-at most `-7`, so every remaining support has a three-term or
+at most `-24`, so every remaining support has a three-term or
 parallelogram relation. Its collision cofactor is exactly `2^mu` for
 `1<=mu<=5`; the other profile has 419 explicit cofactor values.
 
-At `V=68`, the exact E34 reduction leaves only `(6,7)`, `(9,4,1)`, and
-`(12,1,2)`, all with `L=20`. Its broad quotient relaxation is exhausted; the
-next positive object is the 41-signature actual chord-origin classification.
+At `V=68`, the quotient reduction leaves three `L=20` profiles and the parity
+child removes two of them. The sole residual is `(6,7)`, whose six
+light-light chords have distinct non-diameter lengths. Its broad quotient
+relaxation is exhausted; the next positive object is the 41-signature
+heavy-chord origin classification.

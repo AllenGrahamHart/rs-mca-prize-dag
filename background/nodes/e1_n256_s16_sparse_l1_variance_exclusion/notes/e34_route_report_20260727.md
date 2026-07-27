@@ -199,3 +199,18 @@ All three values are below 1947, so `(2,8)` is closed. Combined with the
 selective campaign, the complete `V=68` residual is now exactly
 `(6,7),(9,4,1),(12,1,2)`, all with `L=20`. This reduction is promoted as
 `e1_n256_s16_e34_three_profile_reduction`.
+
+## Parity reduction
+
+No further census is needed to compare these three profiles. The coefficient
+profile has exactly six unit-product chords, namely the six edges among the
+four light positions. Modulo two, every autocorrelation coefficient is the
+number of unit chords in its distance class. The candidate profiles have 6,
+10, and 14 odd coefficients respectively, so only `(6,7)` can occur.
+
+Equality forces the six unit chords into six distinct non-diameter classes.
+Thus the light positions form a circular Sidon set, and diameter square mass
+is restricted to `0,4,8,12,16,20`. The corresponding signed equal-chord cross
+sums are `-34,-32,-30,-28,-26,-24`. This proof is promoted as
+`e1_n256_s16_e34_parity_profile_reduction`; the 41 relaxed signatures now
+describe heavy-chord collisions around one profile rather than three.
