@@ -33,7 +33,8 @@ a short pre-registered route decision.
    force `F=F_p` and `p=1 mod N`, so use the prime-field sparse-kernel model on
    this live branch without adding an extension-field hypothesis. The folded
    exact folded-norm certificates further remove `s<=4` at `N=256` and
-   `s<=2` at `N=512`.
+   `s<=2` at `N=512`. In the first `N=256` band, profile `(3,4,0)` is
+   further reduced to positive even autocorrelation variance `V<=134`.
 3. Before taking moments on any residual row, screen the complete-support FM1
    sum. If it is at most `B*`, no subfamily or nonnegative collision correction
    can trigger `nu(A)>B*`. This screen rules out `M` on all six named
@@ -49,3 +50,4 @@ pair-feasible branch. The route-deciding residual is the pointwise collision
 allowance over primes `p=1 mod N` in the two exact budget intervals, beginning
 at swap distance five for `N=256` and three for `N=512`. The first `N=256`
 band reduces to `(4,2,0),(3,4,0)`; the complete `N=512,s=2` band is closed.
+Only the low-variance `V<=134` residual remains in `(3,4,0)`.

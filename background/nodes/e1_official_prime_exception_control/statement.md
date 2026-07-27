@@ -39,7 +39,8 @@ s>=5 for N=256,       s>=2 for N=512.
 ```
 
 In the first surviving `N=256` band, only folded profiles
-`(4,2,0),(3,4,0)` remain. At `N=512,s=2`, exact variance excludes
+`(4,2,0),(3,4,0)` remain. In `(3,4,0)`, exact logarithmic variance excludes
+`V=0` and `V>=136`, leaving only positive even `V<=134`. At `N=512,s=2`, exact variance excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes
 `(1,2,0)`. Thus any surviving `N=512` collision has `s>=3`.
 

@@ -47,6 +47,7 @@ def main():
         "e1_pair_feasible_ambient_generation",
         "e1_pair_feasible_prime_field_reduction",
         "e1_prime_field_l2_norm_collision_radius",
+        "e1_n256_s16_high_variance_collision_exclusion",
         "e1_n512_four_singleton_collision_exclusion",
         "e1_n512_trinomial_interval_norm_exclusion",
         "e1_fullness",
@@ -96,6 +97,7 @@ def main():
         ("e1_pair_feasible_ambient_generation", branch_target, "ev"),
         ("e1_pair_feasible_prime_field_reduction", branch_target, "ev"),
         ("e1_prime_field_l2_norm_collision_radius", branch_target, "ev"),
+        ("e1_n256_s16_high_variance_collision_exclusion", branch_target, "ev"),
         ("e1_n512_four_singleton_collision_exclusion", branch_target, "ev"),
         ("e1_n512_trinomial_interval_norm_exclusion", branch_target, "ev"),
     }
@@ -141,6 +143,16 @@ def main():
             "folded L2 radius lost its prime-field parent")
     require(("collision_norm_criterion", l2_radius, "req") in edges,
             "folded L2 radius lost its norm parent")
+    n256_s16 = "e1_n256_s16_high_variance_collision_exclusion"
+    require(nodes[n256_s16]["status"] == "PROVED",
+            "N=256 square-mass-16 variance exclusion regressed")
+    n256_s16_statement = nodes[n256_s16]["statement"].lower()
+    require("v>=136" in n256_s16_statement and "v<=134" in n256_s16_statement,
+            "N=256 low-variance residual is missing")
+    require((l2_radius, n256_s16, "req") in edges,
+            "N=256 variance exclusion lost its L2 parent")
+    require(("collision_norm_criterion", n256_s16, "req") in edges,
+            "N=256 variance exclusion lost its norm parent")
     four_singleton = "e1_n512_four_singleton_collision_exclusion"
     require(nodes[four_singleton]["status"] == "PROVED",
             "N=512 four-singleton exclusion regressed")
@@ -169,6 +181,7 @@ def main():
         ambient_generation,
         prime_field,
         l2_radius,
+        n256_s16,
         four_singleton,
         trinomial,
         branch_target,

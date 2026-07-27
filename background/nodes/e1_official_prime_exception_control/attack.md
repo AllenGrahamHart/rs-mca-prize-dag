@@ -37,7 +37,9 @@ explicit finite inequality at the row.
    the number of surviving folded vectors. Start at `s=5` for `N=256` and
    `s=3` for `N=512`, and convert every counted object to unordered class
    pairs explicitly. Only profiles `(4,2,0),(3,4,0)` survive in the first
-   `N=256` band. The complete `N=512,s=2` band is closed; start at `s=3`.
+   `N=256` band. In `(3,4,0)`, only positive even autocorrelation variance
+   `V<=134` remains; classify that residual before revisiting generic
+   supports. The complete `N=512,s=2` band is closed; start at `s=3`.
 3. A certifier route is legitimate only with proved termination, soundness,
    and coverage for every row in the printed pair-feasible candidate class.
 4. If direct image size can be certified above `B*` without bounding `P`, send

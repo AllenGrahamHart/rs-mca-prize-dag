@@ -21,6 +21,9 @@ e1_pair_feasible_prime_field_reduction [PROVED]
 e1_prime_field_l2_norm_collision_radius [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_n256_s16_high_variance_collision_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_n512_four_singleton_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
@@ -34,7 +37,9 @@ e1_official_prime_exception_control [TARGET]
 The exact compiler fixes the finite allowance but supplies no collision bound.
 The two field reductions prove that the live branch is ambient-generating and
 prime-field. Exact folded-norm arguments remove swap distances through four at
-`N=256` and through two at `N=512`, without paying the surviving ledger.
+`N=256` and through two at `N=512`. The square-mass-16 logarithmic refinement
+also reduces one `N=256,s=5` profile to positive even variance at most 134,
+without paying the surviving ledger.
 The official quantifier pin and named-exhibit certificate subgraph remain in
 `background/nodes/` and have `ev`, not `req`, edges into this target. The
 unresolved target is a logical leaf, with its route-uniform scope printed

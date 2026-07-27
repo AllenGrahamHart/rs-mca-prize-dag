@@ -17,6 +17,7 @@ e1_clean_anchor_exact_collision_allowance --ev-->
 e1_pair_feasible_ambient_generation      --ev-->
 e1_pair_feasible_prime_field_reduction   --ev-->
 e1_prime_field_l2_norm_collision_radius  --ev-->
+e1_n256_s16_high_variance_collision_exclusion --ev-->
 e1_n512_four_singleton_collision_exclusion --ev-->
 e1_n512_trinomial_interval_norm_exclusion --ev-->
 e1_official_prime_exception_control       --ev-->
@@ -68,4 +69,6 @@ threshold has 134 bits. The collision target therefore has no remaining
 generated-field transfer premise. Exact perfect-power interval checks also
 force extension degree one and `p=1 mod N`, so the prime-field kernel model is
 now correctly scoped to the residual target. Exact folded-norm certificates
-remove the first four `N=256` swap bands and the first two `N=512` bands.
+remove the first four `N=256` swap bands and the first two `N=512` bands. At
+`N=256,s=5`, the square-mass-16 profile is reduced to positive even
+autocorrelation variance at most 134.

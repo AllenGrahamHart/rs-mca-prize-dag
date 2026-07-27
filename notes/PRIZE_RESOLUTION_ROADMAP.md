@@ -937,6 +937,14 @@ excluded and the live ledger begins at `s=3`. The route-wide pair allowance
 remains open. See
 `background/nodes/e1_n512_trinomial_interval_norm_exclusion/`.
 
+N27 DONE, E1 N=256 SQUARE-MASS-16 VARIANCE CUT: in profile `(3,4,0)` at
+`s=5`, the conjugate-square mean is 16 and maximum is 100. An exact global
+logarithmic majorant with denominator 2070 excludes every autocorrelation
+variance `V>=136`; `V=0` has pure norm `2^256` and is also excluded. The
+profile is reduced to positive even `V<=134`. This is an analytic reduction,
+not a classification of that low-variance residual or a row payment. See
+`background/nodes/e1_n256_s16_high_variance_collision_exclusion/`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable
@@ -2958,4 +2966,28 @@ compute spend: short one-container Modal runs only; two load-bearing exact
                replays, no run above 91 MB and aggregate well below $1
 next route-deciding action: compare N=512,s=3 against the N=256,s=5 profiles;
                               attack the smaller exact orbit quotient first
+```
+
+**2026-07-27, N=256 square-mass-16 high variance removed:** an exact
+logarithmic deficit converts autocorrelation energy into the six norm bits
+needed at the field endpoint.
+
+Cycle burn-down:
+
+```text
+starting pins: local e28e1d04; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: pending commit
+node attacked: e1_official_prime_exception_control, N=256 s=5 profile (3,4,0)
+result: NARROWED to positive even autocorrelation variance V<=134;
+        parent target OPEN
+DAG delta: +1 off-orbit PROVED node, +2 req edges, +2 evidence edges;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only pending crosswalk
+delta-star bracket movement: none
+new assumptions: none
+compute spend: none; exact rational arithmetic only
+next route-deciding action: classify the bounded low-variance residual of
+                              profile (3,4,0), beginning with realizable V
 ```

@@ -35,3 +35,5 @@ exact pointwise collision-pair inequality open. A folded L2 norm argument
 removes swap distances through four at `N=256` and distance one at `N=512`.
 Exact variance and interval-resultant refinements exclude both profiles at
 `N=512,s=2`, raising that collision-free radius through distance two.
+At `N=256,s=5`, an exact logarithmic refinement excludes the zero-variance
+and all `V>=136` cases of profile `(3,4,0)`.

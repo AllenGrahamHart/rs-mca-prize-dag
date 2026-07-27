@@ -27,7 +27,9 @@ using Parseval over the odd conjugates proves that `N=256` collisions have
 swap distance at least five, while `N=512` collisions have distance at least
 two. The crude `(2s)^phi(N)` bound should no longer be used for those bands.
 The first surviving `N=256` band reduces to folded coefficient profiles
-`(4,2,0),(3,4,0)` at `s=5`. At `N=512,s=2`, exact negacyclic variance
+`(4,2,0),(3,4,0)` at `s=5`. In the square-mass-16 profile `(3,4,0)`, an
+exact logarithmic deficit removes `V=0` and every `V>=136`; its residual is
+positive even `V<=134`. At `N=512,s=2`, exact negacyclic variance
 excludes `(0,4,0)`, while a complete 129540-state interval-resultant
 certificate excludes `(1,2,0)`. The entire band is closed, so the `N=512`
 ledger begins at `s=3`. The profile entries count opposite pairs,
