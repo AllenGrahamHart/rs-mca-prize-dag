@@ -25,3 +25,20 @@ The run completed in 0.177 seconds of container work. It is not load-bearing.
 
 The local verifier checks all cofactor ranges and mutation-controls the
 congruence filter. No broad support or norm census is claimed.
+
+Follow-up run `ap-LBruvVXqSS0uA8jYvFIgZV` computed the exact odd
+part of the full-conductor variance-36 witness:
+
+```text
+356858204980334759596299368487390019197885759833937347520976391876156177921.
+```
+
+FLINT certifies that this 248-bit integer is prime. It is below `2^250`
+and therefore harmless, but it falsifies the proposed shortcut "every signed
+template has composite odd norm part." The remaining route is a sharp norm
+size bound, not universal factorization.
+
+Run `ap-5UMA1KDXGUrjeQ0nEKyugT` additionally replayed exact central
+moments `(M_2,...,M_6)=(36,24,2398,2720,196728)`. Its sampled
+conjugate-square range was approximately `[5.378,26.862]`. These values
+are route diagnostics only.

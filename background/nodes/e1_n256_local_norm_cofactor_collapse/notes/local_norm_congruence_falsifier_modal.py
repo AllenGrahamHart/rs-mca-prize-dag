@@ -15,7 +15,7 @@ def falsify() -> dict[str, object]:
     import random
     import time
 
-    from flint import fmpz_poly
+    from flint import fmpz, fmpz_poly
 
     started = time.monotonic()
     deadline = 52.0
@@ -34,7 +34,55 @@ def falsify() -> dict[str, object]:
         96: -2,
     }
 
-    def check(coefficients: dict[int, int], profile: str) -> None:
+    def negacyclic_product(left: list[int], right: list[int]) -> list[int]:
+        result = [0] * 128
+        for left_index, left_value in enumerate(left):
+            if not left_value:
+                continue
+            for right_index, right_value in enumerate(right):
+                if not right_value:
+                    continue
+                quotient, residue = divmod(left_index + right_index, 128)
+                result[residue] += (
+                    -1 if quotient % 2 else 1
+                ) * left_value * right_value
+        return result
+
+    def explicit_moments(coefficients: dict[int, int]) -> dict[str, object]:
+        import cmath
+        import math
+
+        autocorrelation = [0] * 128
+        for left, left_value in coefficients.items():
+            for right, right_value in coefficients.items():
+                quotient, residue = divmod(left - right, 128)
+                autocorrelation[residue] += (
+                    -1 if quotient % 2 else 1
+                ) * left_value * right_value
+        square_mass = sum(value * value for value in coefficients.values())
+        autocorrelation[0] -= square_mass
+        powers = {}
+        current = [1] + [0] * 127
+        for degree in range(1, 7):
+            current = negacyclic_product(current, autocorrelation)
+            if degree >= 2:
+                powers[str(degree)] = current[0]
+
+        conjugate_squares = []
+        for unit in range(1, 256, 2):
+            zeta = cmath.exp(2j * math.pi * unit / 256)
+            value = sum(
+                coefficient * zeta**exponent
+                for exponent, coefficient in coefficients.items()
+            )
+            conjugate_squares.append(abs(value) ** 2)
+        return {
+            "central_moments": powers,
+            "minimum_y": min(conjugate_squares),
+            "maximum_y": max(conjugate_squares),
+        }
+
+    def check(coefficients: dict[int, int], profile: str) -> dict[str, object]:
         nonlocal checked, first_failure
         dense = [0] * (max(coefficients) + 1)
         for index, value in coefficients.items():
@@ -50,8 +98,19 @@ def falsify() -> dict[str, object]:
                 "valuation": valuation,
                 "odd_part_mod_256": odd_part_mod_256,
             }
+        return {
+            "norm_bits": norm.bit_length(),
+            "valuation": valuation,
+            "odd_part_bits": (norm >> valuation).bit_length(),
+            "odd_part_mod_256": odd_part_mod_256,
+            "odd_part_is_prime": bool(fmpz(norm >> valuation).is_prime()),
+            "odd_part": norm >> valuation,
+        }
 
-    check(explicit, "3,4,0-explicit")
+    explicit_record = {
+        **check(explicit, "3,4,0-explicit"),
+        **explicit_moments(explicit),
+    }
     for profile, heavy_count, singleton_count in (
         ("3,4,0", 3, 4),
         ("4,2,0", 4, 2),
@@ -62,6 +121,7 @@ def falsify() -> dict[str, object]:
                     "complete": False,
                     "checked": checked,
                     "first_failure": first_failure,
+                    "explicit_record": explicit_record,
                 }
             support = rng.sample(range(128), heavy_count + singleton_count)
             coefficients = {}
@@ -74,6 +134,7 @@ def falsify() -> dict[str, object]:
         "complete": True,
         "checked": checked,
         "first_failure": first_failure,
+        "explicit_record": explicit_record,
         "elapsed_seconds": round(time.monotonic() - started, 3),
     }
 
