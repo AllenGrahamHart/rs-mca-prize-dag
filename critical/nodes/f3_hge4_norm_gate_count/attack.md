@@ -157,6 +157,13 @@ the masks `011` and `111`, and at `h=9` skip masks `010`, `100`, and `110`.
 Thus no `m=128` generator may allocate a width above eleven. General
 lower-quarter production resumes at `m>=256`.
 
+Do not try to close the residual masks by energy integrality alone. The exact
+eight-group dynamic program for `h=10`, mask `011`, attains
+`(D,Delta_0,Delta_1)=(22,24,24)`, whose norm upper product exceeds the current
+divisor threshold by more than `17` bits. The next finite-level attack must
+add the full moment congruences, primitive exact-level condition, or a direct
+orbit count.
+
 Within that range, write `h=m/4-d`, put `R=log m`,
 `x=4(d+1)R/m`, and define
 

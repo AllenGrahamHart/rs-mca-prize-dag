@@ -830,6 +830,15 @@ broader off-orbit `xr_gvn` claim is explicitly restored to `TARGET` because
 the exact pair moment does not prove a multi-exchange inverse chain. Current
 math orbit: `241=179/38/24`; submission orbit: `256=191/40/25`.
 
+N14D DONE, `m=128` HAAR-ENERGY ROUTE CUT: an exact low-memory dynamic program
+tests the first tempting refinement of the new HGE4 frontier. At `h=10`, Haar
+mask `011`, the attainable energy triple `(22,24,24)` has upper product
+`22^32 24^24>2^235`, over `219051` times the current divisor threshold.
+Therefore integer-energy sharpening alone cannot pay this residual mask.
+The target remains open, and the next attack is explicitly redirected to the
+full moment/primitive equations or a genuine orbit debit. See
+`experiments/prize_resolution/F3_M128_RESIDUAL_ROUTE_CUT.md`.
+
 N15 DONE, UPSTREAM IDENTITY-PREFIX UNSAFE SUPPLIER HARVEST: upstream's
 `lem:capff1-identity-prefix-floor` and `cor:capg-budget-conversion` combine to
 give an exact `V` payload whenever

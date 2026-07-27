@@ -82,6 +82,12 @@
   `m=128,h=12..31`; the upper-width theorems close `h=32..64`. The live
   `m=128` frontier is therefore `h=4..11`, with only the all-nonzero Haar
   pattern at `h=11` and two patterns at `h=10`.
+- Exact signed-support dynamic programming falsifies the proposed next step
+  "replace AM--GM by attainable integer energies" at `h=10`, mask `011`.
+  The attainable triple `(D,Delta_0,Delta_1)=(22,24,24)` gives
+  `22^32 24^24>2^235`, missing the required divisor by about `17.74` bits.
+  Any further close must use the moment/primitive equations or an orbit
+  debit, not only the shared Haar energy polytope.
 
 ## Evidence
 
@@ -89,6 +95,8 @@ The banked deep census contains 68 cells. Every cell satisfying `p>=n^2` has
 raw non-toral count zero: complete `n=16` rows over six primes, `h=4..8`
 slices at five `n=32` primes, and `h=4,5` slices at four `n=64` primes. The
 only nonzero raw cell is the deliberate sub-threshold control `(16,17,h=4)`.
+The reproducible `m=128` residual route cut is in
+`experiments/prize_resolution/F3_M128_RESIDUAL_ROUTE_CUT.md`.
 
 ## Open content
 
