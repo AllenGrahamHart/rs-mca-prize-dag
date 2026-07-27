@@ -2,7 +2,7 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "155439f6",
+  "our_sha": "8691e84e",
   "his_sha": "b13de811"
  },
  "rows": [
@@ -1266,6 +1266,30 @@
    "lean": null,
    "provenance": {
     "our_sha": "155439f6",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_h3_norm_one_torus_affine_quotient_cap",
+   "his_object": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "file": "experimental/proximity_prize_results_v4.tex",
+    "line": "thm:saturation-pencil(iii)"
+   },
+   "relation": "OVERLAP",
+   "chain": "quadratic norm equation -> raw affine torus intersection cap -> H3 identity-point quotient cap",
+   "scope": "multiplicative subgroups H contained in a quadratic norm-one torus; R(t)<=1 and 17X_18<17n^2 on the scoped H3 ledger",
+   "owner": "US",
+   "nonclaims": [
+    "does not cover the deployed Mersenne-31 Chebyshev line round D=chi(mathcal D)",
+    "does not supply an adapter through the twin-coset projection",
+    "does not prove the full upstream primitive second-moment ledger, DSP8, or an adjacent-safe row"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "8691e84e",
     "his_sha": "b13de811"
    }
   },

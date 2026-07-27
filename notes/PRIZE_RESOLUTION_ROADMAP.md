@@ -3886,3 +3886,36 @@ next route-deciding action: prove an O(n^(4/3)) rich signed-disjoint smooth
                               base-tuple theorem, or return to a direct
                               weighted/endpoint route that avoids this loss
 ```
+
+**2026-07-27, scoped H3 norm-one affine quotient cap:** a quadratic norm
+identity gives a sharp raw quotient-fiber theorem on multiplicative subgroups
+inside a norm-one torus. An upstream domain audit then prevented an invalid
+Mersenne line-round promotion.
+
+Cycle burn-down:
+
+```text
+starting pins: local 155439f6; canonical d17038d6;
+               upstream origin/main b13de811
+ending proof pin: local 8691e84e
+node attacked: f3_h3_mobius_excess_half / DSP8 quotient factor
+result: NEW PROVED scoped theorem; for H in a quadratic norm-one torus,
+        every nondegenerate affine intersection has size at most two;
+        the H3 identity point gives R(t)<=1
+concrete instance: p_M=2^31-1, n=2^21, and the order-n multiplicative
+                   subgroup of F_(p_M^4)^* lies in F_(p_M^2) norm one;
+                   hence 17X_18<17n^2<300n^2 on that subgroup instance
+scope catch: upstream's deployed M31 line round is D=chi(mathcal D) for a
+             twin coset, not H; no Chebyshev projection adapter is proved,
+             so no deployed-row or adjacent-safe status changes
+upstream overlap: their two-slope split-pencil theorem applies only after six
+                  routed branches are removed; it is not this raw fiber cap
+DAG delta: one PROVED background node and three edges; critical nodes stay open
+audit: complete F_(31^2), order-16 torus replay; 210 sharp affine targets;
+       eight hostile mutations; DAG, harness, protocol, and manifest green
+compute spend: none; tiny local exact arithmetic only
+new assumptions: none
+next route-deciding action: do not pursue this as an M31 shortcut; return to
+                              a prize-critical leaf or prove a genuine
+                              Chebyshev-line adapter before claiming transfer
+```
