@@ -2,7 +2,7 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "86b993b1",
+  "our_sha": "a7330b59",
   "his_sha": "b13de811"
  },
  "rows": [
@@ -1170,6 +1170,30 @@
    "lean": null,
    "provenance": {
     "our_sha": "da8b9a85",
+    "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f3_affine_coset_pair_mattarei_bound",
+   "his_object": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "file": "experimental/grande_finale_work/finite_section.tex",
+    "line": "SP: primitive shift-pair control"
+   },
+   "relation": "OVERLAP",
+   "chain": "Mattarei Corollary -> arbitrary-coefficient Fermat transport -> both official H3 affine factors",
+   "scope": "prime-field pointwise affine coset-pair theorem at subgroup index d with d^3>=4m; exact supplier for the DSP8 quotient and cube-preimage factors and a portable SP input only in matching affine charts",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove upstream SP or bound the full primitive second-moment ledger",
+    "does not cover extension fields",
+    "does not bound the smooth quotient-weighted DSP8 correlation"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "a7330b59",
     "his_sha": "b13de811"
    }
   },

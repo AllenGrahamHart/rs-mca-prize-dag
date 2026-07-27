@@ -13103,7 +13103,11 @@
     "background/nodes/f3_affine_coset_pair_mattarei_bound/source_pin.json",
     "background/nodes/f3_affine_coset_pair_mattarei_bound/verify.py",
     "background/nodes/f3_affine_coset_pair_mattarei_bound/verify_audit.py"
-   ]
+   ],
+   "upstream": {
+    "label": "SP: primitive shift-pair control / exact second-moment ledger",
+    "relation": "OVERLAP"
+   }
   },
   {
    "id": "f3_h3_dsp8_nodal_cube_preimage_envelope",

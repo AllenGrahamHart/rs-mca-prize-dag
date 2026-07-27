@@ -3767,3 +3767,38 @@ route decision: stop endpoint-by-endpoint quotient runs until one common
 next route-deciding action: return to a shared critical route with a new
                               theorem candidate rather than scale six censuses
 ```
+
+**2026-07-27, Mattarei affine-pair import and DSP8 nodal payment:** the
+primary 2007 source resolves the apparent contradiction in Fable's literature
+map and supplies a stronger theorem than its provisional substitution used.
+Mattarei permits arbitrary Fermat coefficients, so the theorem covers both
+the twisted order-`n` quotient fiber and the order-`3n` cube-preimage fiber.
+His Remark 3 explicitly distinguishes the Garcia--Voloch route from the
+one-polynomial HBK/Stepanov method fenced by NSB2.
+
+Cycle burn-down:
+
+```text
+starting pins: local a712d6ac; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local a7330b59
+node attacked: f3_h3_dsp8_correlation_bound
+result: NEW PROVED Mattarei transport; raw nodal payment improves from
+        <552/<2387 n^2 to <116/<498 n^2 in the one-/three-root cases;
+        more than 1443n^2 of the current raw allowance remains for smooth
+        traces; DSP8 stays TARGET
+uniform target: 25(10K_25^0+17K_25^A)<=12134n^2, improving the former
+                160(10K_25^0+17K_25^A)<=76599n^2
+DAG delta: one PROVED background node; three req edges replaced; no critical
+           status change
+source: Mattarei, Finite Fields Appl. 13 (2007), 773-777,
+        DOI 10.1016/j.ffa.2006.03.005, arXiv math/0511339v1
+audit: 798,864 exact small-field affine fixtures, including 254,822 nonempty
+       slopes outside the subgroup; proportional-form mutation rejected
+compute spend: none; tiny local exact arithmetic only, no Modal
+new assumptions: none; prime-field scope is explicit
+upstream map: OVERLAP with SP primitive shift-pair control, not a proof of the
+              full upstream exact second-moment ledger
+next route-deciding action: exploit smooth trace geometry and the remaining
+                              >1443n^2 budget; do not return to nodal retuning
+```
