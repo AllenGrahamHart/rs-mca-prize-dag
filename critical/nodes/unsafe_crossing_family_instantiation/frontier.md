@@ -122,7 +122,21 @@ supports per representative. The complete invariant chamber has 243,285,056
 signed vectors. This is now the final bounded E34 decision; no raw heavy-triple
 or unrestricted seven-support enumeration is needed. Two independent complete
 censuses pay that chamber with exact maximum `M_3=1770<1947`. The entire E34
-endpoint is closed; the next variance endpoint is `V=66`.
+endpoint is closed.
+
+At the next endpoint `V=66`, the exact slack recurrence gives `L<=19` and 21
+integer magnitude profiles. The rational cubic threshold is exactly
+`M_3=1732`; parity of the five non-diameter unit chords reduces the eight
+above-threshold profiles to
+
+```text
+(5,7), (1,8), (4,5,1), (0,6,1).
+```
+
+Odd energy forces exactly one light-light diameter and
+`D_64 in {1,5,9,17,21}`. The five-odd profiles have diameter-Sidon light
+support. The nearest residual is `(0,6,1)`, whose abstract cap 1782 is only
+50 above the cubic cutoff and whose nested layer sizes are `(14,14,2)`.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named

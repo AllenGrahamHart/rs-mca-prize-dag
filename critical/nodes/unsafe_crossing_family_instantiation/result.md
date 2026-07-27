@@ -79,3 +79,10 @@ shapes, leaving an exact 243,285,056-vector representative chamber before
 profile and moment filters. A final pair of exact censuses gives maximum
 `M_3=1770<1947` and closes the generic template. Thus every `V=68` case is
 excluded and the live variance frontier is `V<=66`.
+
+The first `V=66` reduction is also complete. Exact slack gives `L<=19`; among
+21 integer profiles, the cubic cutoff `M_3=1732` and the five-unit parity
+gate leave only `(5,7)`, `(1,8)`, `(4,5,1)`, and `(0,6,1)`. Exactly one
+light-light chord is a diameter, so `D_64` is one of `1,5,9,17,21`; the two
+five-odd profiles have diameter-Sidon light support. None of the four
+profiles is yet excluded.

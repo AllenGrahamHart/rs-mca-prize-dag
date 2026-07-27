@@ -117,3 +117,9 @@ Its 325,376 heavy triples collapse to 57 affine-unit representatives and three
 weld-intersection shapes, for an exact 243,285,056-vector chamber. A final
 double census closes it with `M_3<=1770`. The endpoint synthesis therefore
 closes `V=68`; the next live positive even endpoint is `V=66`.
+
+The proved `e1_n256_s16_e33_profile_parity_diameter_reduction` then reduces
+`V=66` to four profiles `(5,7)`, `(1,8)`, `(4,5,1)`, `(0,6,1)`, with exact
+cubic cutoff `M_3=1732`, one forced light-light diameter, and five possible
+diameter ledgers. Its edge into this target is evidence: all four profile
+branches remain open.

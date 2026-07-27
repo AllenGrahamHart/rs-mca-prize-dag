@@ -707,6 +707,25 @@
    "notes": "ENDPOINT CLOSURE 2026-07-27: synthesizes the complete E34 chain and advances the live variance frontier by two. Lower positive even variances remain open."
   },
   {
+   "id": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+   "title": "N=256 square-mass-16 E=33 profile/parity/diameter reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/result.md",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/verify_audit.py"
+   ],
+   "statement": "For profile (3,4,0) at V=66, the exact slack recurrence gives L<=19. Of 21 integer magnitude profiles, the exact rational cubic threshold M_3=1732 and the five-unit-chord parity gate leave only (5,7),(1,8),(4,5,1),(0,6,1). Odd energy forces exactly one light-light diameter, D_64 in {1,5,9,17,21}, and C=(D_64-69)/2. The two five-odd profiles have diameter-Sidon light support.",
+   "notes": "ROUTE REDUCTION 2026-07-27: reduces the next live variance endpoint to four exact profiles and five diameter ledgers. It does not exclude V=66 or any lower variance."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -18650,6 +18669,26 @@
    "kind": "req"
   },
   {
+   "from": "e1_n256_s16_e34_endpoint_exclusion",
+   "to": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_n256_local_norm_cofactor_collapse",
    "kind": "req"
@@ -18921,6 +18960,16 @@
   },
   {
    "from": "e1_n256_s16_e34_endpoint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e33_profile_parity_diameter_reduction",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
