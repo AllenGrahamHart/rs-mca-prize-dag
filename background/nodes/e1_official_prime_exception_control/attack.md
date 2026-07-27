@@ -14,6 +14,8 @@ The pair-feasible premise already implies `B=F` under the official field cap.
 Do not spend effort on a generated-to-ambient transfer inside this target.
 The exact perfect-power interval reduction further implies `F=F_p` and
 `p=1 mod N`; extension-field candidates are no longer part of this branch.
+The folded `L2` norm radius excludes `s<=4` at `N=256` and `s=1` at
+`N=512`; do not re-enumerate those bands.
 
 ```text
 P=sum_y binom(r_y,2).
@@ -30,8 +32,9 @@ explicit finite inequality at the row.
    the two exact budget intervals. One exact candidate-class row above allowance
    kills this target and forces a different unsafe supplier for that row class.
 2. Seek orbit divisibility and norm-divisor upper bounds on `P`, not merely on
-   the number of surviving folded vectors. Convert every counted object to
-   unordered class pairs explicitly.
+   the number of surviving folded vectors. Start at `s=5` for `N=256` and
+   `s=2` for `N=512`, and convert every counted object to unordered class
+   pairs explicitly.
 3. A certifier route is legitimate only with proved termination, soundness,
    and coverage for every row in the printed pair-feasible candidate class.
 4. If direct image size can be certified above `B*` without bounding `P`, send

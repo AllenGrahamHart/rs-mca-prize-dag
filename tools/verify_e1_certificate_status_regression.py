@@ -46,6 +46,7 @@ def main():
         "e1_clean_anchor_exact_collision_allowance",
         "e1_pair_feasible_ambient_generation",
         "e1_pair_feasible_prime_field_reduction",
+        "e1_prime_field_l2_norm_collision_radius",
         "e1_fullness",
         "e1_exceptional_set_reduction",
         "are_exceptional_density",
@@ -92,6 +93,7 @@ def main():
         ("e1_clean_anchor_exact_collision_allowance", branch_target, "ev"),
         ("e1_pair_feasible_ambient_generation", branch_target, "ev"),
         ("e1_pair_feasible_prime_field_reduction", branch_target, "ev"),
+        ("e1_prime_field_l2_norm_collision_radius", branch_target, "ev"),
     }
     require(evidence_edges <= edges, "named-exhibit route is not evidence-only")
     require(
@@ -125,11 +127,22 @@ def main():
             "prime-field conclusion is missing")
     require((ambient_generation, prime_field, "req") in edges,
             "prime-field reduction lost its ambient-generation parent")
+    l2_radius = "e1_prime_field_l2_norm_collision_radius"
+    require(nodes[l2_radius]["status"] == "PROVED",
+            "folded L2 collision radius regressed")
+    l2_statement = nodes[l2_radius]["statement"].lower()
+    require("s<=4" in l2_statement and "s=1" in l2_statement,
+            "folded L2 collision bands are missing")
+    require((prime_field, l2_radius, "req") in edges,
+            "folded L2 radius lost its prime-field parent")
+    require(("collision_norm_criterion", l2_radius, "req") in edges,
+            "folded L2 radius lost its norm parent")
     universal = "unsafe_crossing_family_instantiation"
     for source in (
         exact_compiler,
         ambient_generation,
         prime_field,
+        l2_radius,
         branch_target,
         "e1_fullness",
     ):

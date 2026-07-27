@@ -31,4 +31,5 @@ not a bound on explicit `Q`/`V` constructions.
 The surviving pair-feasible E1 branch is automatically ambient-generating at
 all six anchors and, by exact perfect-power interval exclusion, is prime-field
 with `p=1 mod N`. This validates the sparse-kernel interface but leaves the
-exact pointwise collision-pair inequality open.
+exact pointwise collision-pair inequality open. A folded L2 norm argument
+removes swap distances through four at `N=256` and distance one at `N=512`.

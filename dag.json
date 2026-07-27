@@ -229,6 +229,24 @@
    "notes": "ROUTE REDUCTION 2026-07-27: closes the extension-degree scope gap left by ambient generation. The exact pointwise E1 collision target remains open."
   },
   {
+   "id": "e1_prime_field_l2_norm_collision_radius",
+   "title": "Prime-field E1 collision-free radius from folded L2 norms",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/statement.md",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/proof.md",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/claim_contract.md",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/dependency_subdag.md",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/audit.md",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/result.md",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/source_pin.json",
+    "background/nodes/e1_prime_field_l2_norm_collision_radius/verify.py"
+   ],
+   "statement": "For a nonzero E1 class difference with raw representatives at swap distance s over quotient order N=2h, fold antipodes to alpha=sum_i c_i zeta^i and S=sum_i c_i^2. Odd-conjugate orthogonality and AM-GM give |Norm(alpha)|<=S^(h/2). Either S<=4s-2, or alpha=2 beta with |Norm(beta)|<=s^(h/2). Since every live pair-feasible prime is at least 2^250, all N=256 collisions with s<=4 and all N=512 collisions with s=1 are impossible. The minimum raw-representative distance of surviving class pairs is at least 5 and 2 respectively.",
+   "notes": "ROUTE REDUCTION 2026-07-27: replaces the crude L1 norm radius by an exact folded L2 bound. It does not control the surviving collision-pair ledger."
+  },
+  {
    "id": "identity_prefix_flexible_budget_unsafe_floor",
    "title": "Identity-prefix plus flexible-budget MCA unsafe floor",
    "status": "PROVED",
@@ -5124,10 +5142,10 @@
    "id": "e1_official_prime_exception_control",
    "title": "Direct-E1 route-uniform exceptional-set control",
    "status": "TARGET",
-   "statement": "Uniformly for every admissible clean-anchor row in the independently defined pair-feasible direct-E1 class B=F_p(Q), |B|>=b_pair_min(K,B*)=ceil((K+B*+1)/3), with all field, embedding, owner, and endpoint data pinned, let quotient orders N in {256,512}, K=A_2(N,ell), and P=sum_y binom(r_y,2) count unordered pairs of distinct characteristic-zero classes colliding after reduction. By e1_pair_feasible_prime_field_reduction every such named-anchor row has q=p and p=1 mod N, so the prime-field kernel interface is unconditional on this branch. Prove P<=K-B*-1 for B*=floor(|F|/2^128). The formerly printed {128,256} are folded dimensions, not live quotient orders. Finite exhibit certificates do not discharge this route-uniform target.",
+   "statement": "Uniformly for every admissible clean-anchor row in the independently defined pair-feasible direct-E1 class B=F_p(Q), |B|>=b_pair_min(K,B*)=ceil((K+B*+1)/3), with all field, embedding, owner, and endpoint data pinned, let quotient orders N in {256,512}, K=A_2(N,ell), and P=sum_y binom(r_y,2) count unordered pairs of distinct characteristic-zero classes colliding after reduction. By e1_pair_feasible_prime_field_reduction every such named-anchor row has q=p and p=1 mod N. By e1_prime_field_l2_norm_collision_radius, collisions start at raw swap distance s>=5 for N=256 and s>=2 for N=512. Prove P<=K-B*-1 for B*=floor(|F|/2^128). The formerly printed {128,256} are folded dimensions, not live quotient orders. Finite exhibit certificates do not discharge this route-uniform target.",
    "attack_surface": "prove the exact pair-feasible-class incidence bound, construct a pair-feasible row above allowance, or give a complete per-input image/collision certifier theorem",
    "falsifier": "a pair-feasible candidate row with P>K-B*-1; a certifier leaving such a row uncovered; or any base/ambient-field normalization failure",
-   "notes": "EXACT FINITE RE-POSE 2026-07-26, narrowed 2026-07-27: replaces negligible/o(1) language, fixes quotient-order versus folded-dimension notation, and proves that the live pair-feasible branch is prime-field. Named exhibits remain evidence only, and unsafe_crossing_family_instantiation owns global row routing."
+   "notes": "EXACT FINITE RE-POSE 2026-07-26, narrowed 2026-07-27: replaces negligible/o(1) language, fixes quotient-order versus folded-dimension notation, proves that the live branch is prime-field, and excludes its first swap-distance bands by a folded L2 norm. Named exhibits remain evidence only, and unsafe_crossing_family_instantiation owns global row routing."
   },
   {
    "id": "ef_fullfield_bridge",
@@ -17536,6 +17554,16 @@
    "kind": "req"
   },
   {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_prime_field_l2_norm_collision_radius",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_prime_field_l2_norm_collision_radius",
+   "kind": "req"
+  },
+  {
    "from": "e1_pair_feasible_ambient_generation",
    "to": "e1_official_prime_exception_control",
    "kind": "ev"
@@ -17552,6 +17580,16 @@
   },
   {
    "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

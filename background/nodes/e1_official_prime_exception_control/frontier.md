@@ -22,6 +22,11 @@ extension-degree axis is closed as well. Exact perfect-power interval checks
 force `F=F_p` and `p=1 mod N`. The remaining issue is pointwise collision
 control over those primes in the ambient field itself.
 
+The first collision bands are also closed analytically. Folding antipodes and
+using Parseval over the odd conjugates proves that `N=256` collisions have
+swap distance at least five, while `N=512` collisions have distance at least
+two. The crude `(2s)^phi(N)` bound should no longer be used for those bands.
+
 The old `o(1)` language was not a finite `2^-128` certificate. Likewise, the
 old named `N'=128,256` no-vector experiments are background evidence: `128`
 does not match a live clean quotient order, `512` is absent, and finite
@@ -36,7 +41,8 @@ obligations of the universal unsafe router, not of this target.
 The next route-deciding attack is algebraic. Either:
 
 - prove the exact pointwise pair-incidence bound from the norm-divisor
-  structure over every prime `p=1 mod N` in the two exact intervals;
+  structure over every prime `p=1 mod N` in the two exact intervals, beginning
+  with the surviving `s=5` and `s=2` bands;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;
 - provide a total per-input image/collision certifier theorem; or

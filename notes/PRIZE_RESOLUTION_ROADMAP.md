@@ -907,6 +907,16 @@ counts to reach zero through route-driven proof reconstruction or proved
 replacement, not by accepting unreplayable labels or mass status churn. See
 `notes/CRITICAL_PROOF_ARTIFACT_RECOVERY_AUDIT_20260727.md`.
 
+N24 DONE, E1 FOLDED-L2 COLLISION RADIUS: odd-conjugate Parseval gives
+`|Norm(alpha)|<=S^(h/2)` for the folded coefficient square mass `S`, replacing
+the crude `(2s)^phi(N)` bound. Exact antipodal profile accounting, including
+division by two in the all-even extremal case, excludes every swap distance
+`s<=4` at `N=256` and `s=1` at `N=512` throughout both field intervals. The
+live pointwise ledger now starts at `s=5` for rates `1/4,1/8` and `s=2` for
+rate `1/16`. This is a genuine algebraic band close, not a total collision
+bound or row payment. See
+`background/nodes/e1_prime_field_l2_norm_collision_radius/`.
+
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it
 lands). The minimal Singular image now works, but the exact 52-variable

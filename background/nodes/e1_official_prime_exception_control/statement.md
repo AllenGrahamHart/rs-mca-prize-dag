@@ -31,6 +31,13 @@ F=F_p,       q=p,       p=1 mod N.
 Thus the prime-field premise of `kernel_lattice_reframing` is proved rather
 than assumed on the live named-anchor target.
 
+The folded Parseval bound in `e1_prime_field_l2_norm_collision_radius` also
+proves that any surviving collision has raw swap distance
+
+```text
+s>=5 for N=256,       s>=2 for N=512.
+```
+
 The actual quotient orders are
 
 ```text
