@@ -1242,6 +1242,73 @@
    "notes": "ENDPOINT CLOSURE 2026-07-27: the entire E30 chamber is empty; continue at V=58 without rerunning any V>=60 profile."
   },
   {
+   "id": "e1_n256_s16_e29_profile_parity_light_reduction",
+   "title": "N=256 E=29 profile/parity/light reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/result.md",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/verify_audit.py",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/notes/e29_profile_parity_probe_modal.py",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/notes/e29_profile_parity_probe_result.json"
+   ],
+   "statement": "For N=256 folded profile (3,4,0) at V=58, exact slack gives L<=17 and the exact cubic cutoff M_3=872. Of 17 magnitude profiles, diameter parity leaves eight, all with exactly one light-light diameter and either one or five odd classes. Their complete normalized light ledger has 264 one-odd and 14,400 five-odd supports in exactly 11+100=111 affine templates.",
+   "notes": "ROUTE REDUCTION 2026-07-27: gives the exact V=58 profile and one-diameter light-support frontier. It excludes no residual profile."
+  },
+  {
+   "id": "e1_n256_s16_e29_eight_profile_joint_exclusion",
+   "title": "N=256 E=29 eight-profile joint exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e29_eight_profile_joint_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e29_eight_profile_joint_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e29_eight_profile_joint_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e29_eight_profile_joint_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e29_eight_profile_joint_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e29_eight_profile_joint_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e29_eight_profile_joint_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e29_eight_profile_joint_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e29_eight_profile_joint_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/notes/e29_eight_profile_joint_census.cpp",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/notes/e29_eight_profile_joint_census_modal.py",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/notes/e29_eight_profile_joint_census_result.json",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/notes/e29_eight_profile_joint_census_audit.cpp",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/notes/e29_eight_profile_joint_census_audit_modal.py",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/notes/e29_eight_profile_joint_census_audit_result.json",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/notes/e29_eight_profile_exceptional_norm_modal.py",
+    "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/notes/e29_eight_profile_exceptional_norm_result.json"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=58, all eight exact profiles are impossible. Folded-chord and direct-negacyclic engines agree after 2,203,120,896 vectors per engine, leaving 4,812 cubic exceptions, of which 820 have full conductor. The conductor theorem removes 3,992; FLINT and PARI put all 820 primitive norms below threshold with 9*N_max<2^250<10*N_max.",
+   "notes": "ROUTE CLOSURE 2026-07-27: removes every profile in the exact V=58 reduction."
+  },
+  {
+   "id": "e1_n256_s16_e29_endpoint_exclusion",
+   "title": "N=256 E=29 endpoint exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e29_endpoint_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e29_endpoint_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e29_endpoint_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e29_endpoint_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e29_endpoint_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e29_endpoint_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e29_endpoint_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e29_endpoint_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e29_endpoint_exclusion/verify_audit.py"
+   ],
+   "statement": "At N=256 and folded profile (3,4,0), V=58 is impossible. The exact profiles (5,6), (1,7), (4,4,1), (0,5,1), (3,2,2), (5,2,0,1), (2,0,3), and (1,3,0,1) are exhausted by the proved joint exclusion. The live positive even frontier is 0<V<=56.",
+   "notes": "ENDPOINT CLOSURE 2026-07-27: the entire E29 chamber is empty; continue at V=56 without rerunning any V>=58 profile."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -6262,7 +6329,7 @@
    "statement": "Uniformly for every admissible clean-anchor row in the independently defined pair-feasible direct-E1 class B=F_p(Q), |B|>=b_pair_min(K,B*)=ceil((K+B*+1)/3), with all field, embedding, owner, and endpoint data pinned, let quotient orders N in {256,512}, K=A_2(N,ell), and P=sum_y binom(r_y,2) count unordered pairs of distinct characteristic-zero classes colliding after reduction. By e1_pair_feasible_prime_field_reduction every such named-anchor row has q=p and p=1 mod N. Exact folded-norm arguments force collision distance s>=5 for N=256 and s>=3 for N=512. Prove P<=K-B*-1 for B*=floor(|F|/2^128). The formerly printed {128,256} are folded dimensions, not live quotient orders. Finite selected-field exhibit certificates do not discharge this route-uniform target.",
    "attack_surface": "prove the exact pair-feasible-class incidence bound, construct a pair-feasible row above allowance, or give a complete per-input image/collision certifier theorem",
    "falsifier": "a pair-feasible candidate row with P>K-B*-1; a certifier leaving such a row uncovered; or any base/ambient-field normalization failure",
-   "notes": "EXACT FINITE RE-POSE 2026-07-26, narrowed 2026-07-27: replaces negligible/o(1) language, fixes quotient-order versus folded-dimension notation, proves that the live branch is prime-field, excludes s<=4 at N=256 and s<=2 at N=512 by exact folded norms, and closes profile (3,4,0) through V=62 by complete profile, template-census, conductor, and exact-resultant packets. Its positive even residual is V<=60. Selected-field exhibits remain evidence only, and unsafe_crossing_family_instantiation owns global row routing."
+   "notes": "EXACT FINITE RE-POSE 2026-07-26, narrowed 2026-07-27: replaces negligible/o(1) language, fixes quotient-order versus folded-dimension notation, proves that the live branch is prime-field, excludes s<=4 at N=256 and s<=2 at N=512 by exact folded norms, and closes profile (3,4,0) through V=58 by complete profile, template-census, conductor, and exact-resultant packets. Its positive even residual is V<=56. Selected-field exhibits remain evidence only, and unsafe_crossing_family_instantiation owns global row routing."
   },
   {
    "id": "ef_fullfield_bridge",
@@ -33796,6 +33863,81 @@
   },
   {
    "from": "e1_n256_s16_e30_endpoint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_endpoint_exclusion",
+   "to": "e1_n256_s16_e29_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e29_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "e1_n256_s16_e29_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e29_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e29_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e29_eight_profile_joint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e29_eight_profile_joint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e29_eight_profile_joint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e29_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e29_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e29_eight_profile_joint_exclusion",
+   "to": "e1_n256_s16_e29_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e29_profile_parity_light_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e29_profile_parity_light_reduction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e29_eight_profile_joint_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e29_eight_profile_joint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e29_endpoint_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e29_endpoint_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   }

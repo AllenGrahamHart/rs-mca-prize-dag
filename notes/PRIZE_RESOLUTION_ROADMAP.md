@@ -4910,3 +4910,43 @@ route decision: derive the exact E29 slack/profile/parity reduction before any
                 V=58 census; compare its expected cost and structural leverage
                 against the 419-cofactor (4,2,0) lane. Never rerun V>=60.
 ```
+
+**2026-07-27, E29 reduction and V=58 endpoint close:** odd diameter parity
+makes the next chamber substantially smaller. A complete 111-template census,
+independent direct audit, conductor split, and dual exact-resultant ledger
+close all eight profiles without a speculative dependency.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=58 (E=29)
+reduction app: ap-cStwZGv722wX16Xv1IwVyb
+slack result: L<=17; exactly 17 energy profiles
+exact cubic cutoff: M_3=872; certified sign change at 872/873
+parity fact: D_64 odd, hence exactly one light-light diameter
+above-cutoff profiles: 13
+parity survivors: (5,6), (1,7), (4,4,1), (0,5,1), (3,2,2),
+                  (5,2,0,1), (2,0,3), (1,3,0,1)
+complete one-diameter atlas:
+  odd 1: 264 supports, 11 affine orbits, partition (2,2,1)
+  odd 3: 960 supports, 8 affine orbits, partition (2,1,1,1)
+  odd 5: 14,400 supports, 100 affine orbits, partition (1,1,1,1,1)
+relevant router: 11+100=111 affine light templates
+diameter ledger: (D_64,C)=(1,-36),(5,-34),(9,-32),(17,-28),(21,-26)
+production app: ap-bK8FgTfXIIVwtoGo3F2n5X; folded oriented chords;
+                281.417969 aggregate worker-seconds
+audit app: ap-3A3ZpIs4p0CuKplBr3VyfX; direct negacyclic products;
+           443.275135 aggregate worker-seconds
+coverage per engine: 111*binom(124,3)*64=2,203,120,896 vectors
+exact row agreement: 61,408 vectors in the eight profiles;
+                     4,812 above M_3=872; 820 full conductor
+proper conductor: complementary 3,992 exceptions discharged by theorem
+norm app: ap-Lr43rWTE9sjJ7D87pDRgvj; FLINT and PARI/GP agree on all 820
+distinct norms: 242
+exact maximum: 186828941137106397532470537651505306486275228904728704307636700572095315972
+strict margin: 9*N_max<2^250<10*N_max; bit length 247
+result: all eight profiles CLOSED; V=58 endpoint CLOSED
+live positive even variance frontier: V<=56
+new assumptions: none
+route decision: derive the exact E28 slack/profile/parity reduction before any
+                V=56 census, then compare its finite cost against the
+                419-cofactor (4,2,0) lane. Never rerun V>=58.
+```

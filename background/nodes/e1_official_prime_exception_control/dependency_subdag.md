@@ -109,7 +109,12 @@ FLINT/PARI norms. The proved profile-`(6,6)` exclusion adds independent
 44,779,702,968-assignment relaxations, independent 23,638,891,776-vector
 exceptional censuses, and exact norms for the 1,232 primitive exceptions. The
 E30 endpoint synthesis is therefore proved, and the live positive even
-frontier is `V<=58`.
+frontier is `V<=58`. The proved E29 profile/parity/light reduction then leaves
+eight profiles on exactly 111 affine one-diameter light templates. The proved
+joint exclusion uses two independent 2,203,120,896-vector censuses, the exact
+`M_3=872` cutoff, the proper-conductor theorem, and independent FLINT/PARI
+norms for 820 primitive exceptions. The E29 endpoint synthesis closes `V=58`
+and advances the live positive even frontier to `V<=56`.
 The proper-conductor theorem also removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing

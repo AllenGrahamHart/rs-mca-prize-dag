@@ -62,7 +62,14 @@ independent relaxations cover 44,779,702,968 assignments and identify 1,191
 exceptional masks. Independent actual-vector engines agree after
 23,638,891,776 vectors each, leaving 1,232 primitive exceptions; independent
 exact norms exclude all 1,232. Thus `V=60` is empty and the live positive even
-frontier is `V<=58`. A subfield norm
+frontier is `V<=58`. At `V=58`, exact slack gives `L<=17`, the cubic cutoff is
+`M_3=872`, and diameter parity leaves eight profiles. Their complete relevant
+light atlas has 264 one-odd and 14,400 five-odd supports in 111 affine
+templates. Folded-chord and direct-negacyclic engines agree after
+2,203,120,896 vectors each, finding 4,812 cubic exceptions. The conductor
+theorem removes 3,992. FLINT and PARI agree on all 820 primitive norms, whose
+247-bit maximum satisfies `9*N_max<2^250<10*N_max`. Hence `V=58` is empty and
+the live positive even frontier is `V<=56`. A subfield norm
 argument also
 removes every vector
 in either folded profile whose support differences have a nontrivial gcd with
@@ -99,9 +106,9 @@ The next route-deciding attack is algebraic. Either:
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
-  after the 2-adic cofactor screen. In `(3,4,0)`, derive the exact `V=58`
-  slack/profile/parity reduction before authorizing any census; every `V>=60`
-  chamber is closed and must not be rerun. Compare that E29 branch against the
+  after the 2-adic cofactor screen. In `(3,4,0)`, derive the exact `V=56`
+  slack/profile/parity reduction before authorizing any census; every `V>=58`
+  chamber is closed and must not be rerun. Compare that E28 branch against the
   419 exact cofactor classes in `(4,2,0)`. Treat the `N=512,s=3` band
   independently;
 - construct an exact pair-feasible candidate-class row above its allowance and

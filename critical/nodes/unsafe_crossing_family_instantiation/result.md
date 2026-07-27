@@ -151,7 +151,7 @@ maximum. Unrestricted `M_3` maxima 1068 and 1122 exclude `(2,5,1)` and
 the exact cutoff 1302, and the conductor theorem removes its complement.
 Thus `V=62` is empty and the live positive even frontier is `V<=60`.
 
-The `V=60` chamber is now sharply reduced but remains open. Exact slack and
+The `V=60` chamber is closed. Exact slack and
 parity leave eight profiles. A complete mod-16 allocation ledger excludes
 `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`. Two independent 87-template censuses
 and two independent exact-resultant ledgers exclude `(2,7)` and `(1,5,1)`.
@@ -163,3 +163,10 @@ relaxations then cover all 44,779,702,968 profile-`(6,6)` assignments;
 independent actual engines leave 1,232 primitive exceptions, all excluded by
 independent exact norms. Thus `V=60` is empty and the live positive even
 frontier is `V<=58`.
+
+At `V=58`, exact slack gives `L<=17`, the cubic cutoff is `M_3=872`, and
+diameter parity leaves eight profiles on 111 affine light templates. Two
+independent complete censuses agree after 2,203,120,896 vectors per engine and
+leave 4,812 cubic exceptions. Proper conductor removes 3,992; independent
+FLINT/PARI resultants place all 820 primitive exceptions below `2^250`.
+Therefore `V=58` is empty and the live positive even frontier is `V<=56`.

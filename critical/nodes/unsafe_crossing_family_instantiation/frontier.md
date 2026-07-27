@@ -223,15 +223,20 @@ independent exact norms exclude all 86. For `(6,6)`, independent relaxations
 agree on all 44,779,702,968 assignments and independent actual engines agree
 after 23,638,891,776 vectors each, leaving 1,232 primitive vectors. Independent
 exact norms exclude all 1,232. Hence `V=60` is empty and the live positive even
-frontier is `V<=58`.
+frontier is `V<=58`. At `V=58`, exact slack gives `L<=17`, the exact cubic
+cutoff is `M_3=872`, and parity leaves eight profiles on 111 affine
+one-diameter light templates. Independent folded-chord and direct-negacyclic
+engines agree after 2,203,120,896 vectors each, leaving 4,812 cubic exceptions.
+Conductor removes 3,992; independent FLINT/PARI norms put all 820 primitive
+exceptions below `2^250`. Hence `V=58` is empty and the frontier is `V<=56`.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
 injectivity or another explicit `V` line. Within the first `N=256` band,
-derive the exact `V=58` slack/profile/parity reduction before any further
+derive the exact `V=56` slack/profile/parity reduction before any further
 census.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
-cofactor classes. Do not rerun any `V>=60`
+cofactor classes. Do not rerun any `V>=58`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
 safe predecessor relocates the candidate threshold immediately.

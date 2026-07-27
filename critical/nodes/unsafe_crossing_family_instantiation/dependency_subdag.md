@@ -199,4 +199,9 @@ actual-vector engines, and exact FLINT/PARI norms. The proved
 `e1_n256_s16_e30_profile_66_exclusion` removes `(6,6)` by the same complete
 three-stage chain at larger scale. The proved E30 endpoint synthesis closes
 `V=60` and advances the live positive even frontier to `V<=58`; these nodes
-remain evidence because lower variances and later bands are open.
+remain evidence because lower variances and later bands are open. The proved
+E29 reduction leaves eight profiles on 111 affine one-diameter templates; its
+proved joint exclusion combines two independent 2,203,120,896-vector censuses,
+the conductor theorem, and independent exact norms for 820 primitive
+exceptions. The proved E29 endpoint synthesis closes `V=58` and advances the
+frontier to `V<=56`; it too remains evidence rather than a universal close.

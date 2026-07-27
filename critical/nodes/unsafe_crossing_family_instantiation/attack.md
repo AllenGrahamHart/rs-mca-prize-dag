@@ -110,8 +110,10 @@ three with the exact cubic cutoff and conductor theorem. Do not rerun any
 `V>=62` campaign. At `V=60`, quotient allocation and complete two-odd ledgers
 close five of the eight exact profiles. The odd-difference relaxation and
 exact exceptional norms also close `(4,2,2)`, `(5,4,1)`, and `(6,6)`. The
-entire chamber is closed. Begin `V=58` with exact slack/profile/parity
-arithmetic and do not rerun any `V>=60` campaign.
+entire chamber is closed. At `V=58`, exact slack/parity leaves eight profiles
+on 111 affine light templates; independent complete censuses, conductor, and
+exact norms close all eight. Begin `V=56` with exact slack/profile/parity
+arithmetic and do not rerun any `V>=58` campaign.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
 the 2-adic singleton screen and test its 419 exact cofactors directly; do not

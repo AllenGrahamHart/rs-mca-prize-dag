@@ -67,8 +67,11 @@ explicit finite inequality at the row.
    difference relaxation plus exact exceptional norms closes `(4,2,2)` and
    `(5,4,1)`. Independent 44,779,702,968-assignment relaxations, independent
    23,638,891,776-vector exceptional censuses, conductor, and exact norms close
-   `(6,6)`. The entire `V=60` chamber is closed. Begin `V=58` with an exact
-   slack/profile/parity reduction; do not rerun any `V>=60` chamber.
+   `(6,6)`. The entire `V=60` chamber is closed. At `V=58`, exact slack and
+   parity leave eight profiles on 111 affine light templates. Independent
+   2,203,120,896-vector censuses, conductor, and exact FLINT/PARI norms close
+   all eight. Begin `V=56` with an exact slack/profile/parity reduction; do not
+   rerun any `V>=58` chamber.
    The
    signed-chord gate
    further excludes circular-Sidon supports: every residual has an oppositely
