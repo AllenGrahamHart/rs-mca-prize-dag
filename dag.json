@@ -1444,6 +1444,55 @@
    "notes": "ENDPOINT CLOSURE 2026-07-27: the entire E27 chamber is empty; continue at V=52 without rerunning any V>=54 profile."
   },
   {
+   "id": "e1_n256_s16_e26_profile_parity_light_reduction",
+   "title": "N=256 E=26 profile/parity/light reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/result.md",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/verify_audit.py",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_profile_parity_probe_modal.py",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_profile_parity_probe_result.json",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_profile_parity_probe_check.py"
+   ],
+   "statement": "For N=256 folded profile (3,4,0) at V=52, exact slack gives L<=16 and the exact cubic cutoff M_3=228. Of 13 magnitude profiles, diameter parity leaves six two-odd and four six-odd profiles. Their complete normalized light ledger has 8,168 two-odd supports in 87 affine templates and 280,720 six-odd supports in 1,234 affine templates. A direct census has a 26,219,123,456-vector floor per engine, so only the two-odd branch is authorized for direct enumeration.",
+   "notes": "ROUTE REDUCTION 2026-07-27: exact V=52 router. It excludes no profile and cuts the 24,492,353,024-vector six-odd direct census."
+  },
+  {
+   "id": "e1_n256_s16_e26_six_two_odd_profile_exclusion",
+   "title": "N=256 E=26 six two-odd profile exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/verify_audit.py",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_census.cpp",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_census_modal.py",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_census_result.json",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_census_audit.cpp",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_census_audit_modal.py",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_census_audit_result.json",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_exceptional_norm_modal.py",
+    "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_exceptional_norm_result.json"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=52, all six two-odd magnitude profiles are impossible. Independent folded-chord and direct-negacyclic engines agree after 1,726,770,432 vectors per engine. They leave 17,624 cubic exceptions, 8,060 with full conductor; FLINT and PARI agree on every primitive norm and prove 2*N_max<2^250<3*N_max.",
+   "notes": "ROUTE CLOSURE 2026-07-27: closes the complete bounded two-odd V=52 branch. The four six-odd profiles remain open."
+  },
+  {
    "id": "e1_n256_local_norm_cofactor_collapse",
    "title": "N=256 local-norm cofactor collapse",
    "status": "PROVED",
@@ -34228,6 +34277,66 @@
   },
   {
    "from": "e1_n256_s16_e27_endpoint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e27_endpoint_exclusion",
+   "to": "e1_n256_s16_e26_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e26_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "e1_n256_s16_e26_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e26_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e26_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e26_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e26_six_two_odd_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e26_six_two_odd_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e26_six_two_odd_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e26_profile_parity_light_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e26_profile_parity_light_reduction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e26_six_two_odd_profile_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e26_six_two_odd_profile_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   }

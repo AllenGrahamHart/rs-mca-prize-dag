@@ -81,7 +81,16 @@ templates. Two independent censuses agree after 158,783,488 vectors each and
 leave 2,000 cubic exceptions. Conductor removes 1,596; FLINT and PARI agree on
 all 404 primitive norms, whose 247-bit maximum satisfies
 `10*N_max<2^250<11*N_max`. Hence `V=54` is empty and the live frontier is
-`V<=52`. A subfield norm
+`V<=52`. At `V=52`, exact slack gives `L<=16`, the exact cubic cutoff is
+`M_3=228`, and parity leaves six two-odd and four six-odd profiles. Complete
+independent censuses close all six two-odd profiles after 1,726,770,432
+vectors per engine. Of 17,624 cubic exceptions, conductor removes 9,564;
+FLINT and PARI agree on all 8,060 primitive norms, whose 249-bit maximum
+satisfies `2*N_max<2^250<3*N_max`. The live endpoint is therefore exactly the
+four six-odd profiles `(6,5)`, `(5,3,1)`, `(4,1,2)`, and `(6,1,0,1)` on 1,234
+affine light templates. Their direct-census floor is 24,492,353,024 vectors
+per engine, so the next attack must exploit odd-mask, quotient, or norm
+structure rather than enumerate the undifferentiated chamber. A subfield norm
 argument also
 removes every vector
 in either folded profile whose support differences have a nontrivial gcd with
@@ -118,10 +127,12 @@ The next route-deciding attack is algebraic. Either:
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
-  after the 2-adic cofactor screen. In `(3,4,0)`, derive the exact `V=52`
-  slack/profile/parity reduction before authorizing any census; every `V>=54`
-  chamber is closed and must not be rerun. Compare that E26 branch against the
-  419 exact cofactor classes in `(4,2,0)`. Treat the `N=512,s=3` band
+  after the 2-adic cofactor screen. In `(3,4,0)`, the exact `V=52` reduction
+  and complete two-odd exclusion are banked. Attack only the four six-odd
+  profiles, beginning with structural odd-mask, quotient, and norm filters;
+  do not launch their 24,492,353,024-vector direct census. Every `V>=54`
+  chamber is closed and must not be rerun. Compare the E26 residual against
+  the 419 exact cofactor classes in `(4,2,0)`. Treat the `N=512,s=3` band
   independently;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;

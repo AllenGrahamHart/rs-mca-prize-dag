@@ -116,8 +116,12 @@ exact norms close all eight. At `V=56`, parity leaves eight profiles on 154
 affine templates; independent complete censuses, conductor, and exact norms
 close all eight. At `V=54`, parity leaves six profiles on eight affine
 templates; independent complete censuses, conductor, and exact norms close all
-six. Begin `V=52` with exact slack/profile/parity arithmetic and do not rerun
-any `V>=54` campaign.
+six. At `V=52`, exact slack and parity leave six two-odd and four six-odd
+profiles. Independent complete censuses, conductor, and exact norms close all
+six two-odd profiles. Attack only the four six-odd profiles `(6,5)`, `(5,3,1)`,
+`(4,1,2)`, and `(6,1,0,1)` using structural filters; their undifferentiated
+direct census costs 24,492,353,024 vectors per engine. Do not rerun any
+`V>=54` campaign.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
 the 2-adic singleton screen and test its 419 exact cofactors directly; do not

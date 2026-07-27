@@ -5018,3 +5018,44 @@ route decision: derive the exact E26 slack/profile/parity reduction before any
                 V=52 census and compare its router size against the
                 419-cofactor (4,2,0) lane. Never rerun V>=54.
 ```
+
+**2026-07-27, E26 reduction and two-odd branch close:** the exact reduction
+finds a sharp route boundary. The bounded two-odd branch is completely paid;
+the six-odd branch is too large for an undifferentiated census and remains the
+live endpoint.
+
+```text
+starting local pin: ab709d27
+canonical prize pin: b60ec497
+upstream main pin: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
+relevant live upstream PR: #1110 (E1 first-band variance route boundary)
+node attacked: N=256, folded profile (3,4,0), V=52 (E=26)
+reduction app: ap-6FCOpigQ0DnR00JZXFRPB5
+discarded reduction app: ap-7jev6lqubs6DibhWhq1kBo failed before writing a
+                         result packet and supplies no evidence
+slack result: L<=16; exactly 13 energy profiles
+exact cubic cutoff: M_3=228; certified sign change at 228/229
+parity survivors: six two-odd profiles and four six-odd profiles
+two-odd atlas: 8,168 normalized supports in 87 affine orbits
+six-odd atlas: 280,720 normalized supports in 1,234 affine orbits
+direct router floor: 26,219,123,456 vectors per engine
+discarded census app: ap-58gqxzADkt6TRnH4o03zey failed at worker import,
+                      completed 0/87 tasks, and supplies no evidence
+production app: ap-TcZRS6xma3n8xdyUiNOg8b; 247.467486 worker-seconds
+audit app: ap-jP3CZ7pvZjaZ20jDUQ8LSF; 323.193324 worker-seconds
+two-odd coverage per engine: 87*binom(124,3)*64=1,726,770,432 vectors
+exact row agreement: 27,380 profile vectors; 17,624 above M_3=228;
+                     8,060 full conductor
+proper conductor: complementary 9,564 exceptions discharged by theorem
+norm app: ap-R4vDRzg2rsb0k2gJD2xmqB; FLINT and PARI/GP agree on all 8,060
+distinct norms: 1,442
+exact maximum: 902560312161452055740126650872074695232473707768299835426377069738129096704
+strict margin: 2*N_max<2^250<3*N_max; bit length 249
+result: six two-odd profiles CLOSED; V=52 endpoint remains OPEN
+live residual: (6,5), (5,3,1), (4,1,2), (6,1,0,1)
+six-odd direct floor: 1,234*binom(124,3)*64=24,492,353,024 vectors per engine
+new assumptions: none
+route decision: do not brute-force the six-odd chamber. Reuse the exact
+                odd-mask, quotient, and norm structure from E30 to seek a
+                profile-specific relaxation or algebraic exclusion.
+```

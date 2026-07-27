@@ -184,3 +184,10 @@ parity leaves six profiles on eight affine light templates. Independent
 1,596 and independent exact resultants put all 404 primitive exceptions below
 `2^250`. Therefore `V=54` is empty and the live positive even frontier is
 `V<=52`.
+
+At `V=52`, exact slack gives `L<=16`, the cubic cutoff is `M_3=228`, and
+parity leaves six two-odd and four six-odd profiles. Independent
+1,726,770,432-vector censuses, conductor, and independent exact norms close
+all six two-odd profiles. The live endpoint is exactly `(6,5)`, `(5,3,1)`,
+`(4,1,2)`, and `(6,1,0,1)` on 1,234 affine six-odd templates; it is not yet
+closed.

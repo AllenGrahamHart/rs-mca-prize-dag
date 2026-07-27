@@ -74,7 +74,12 @@ explicit finite inequality at the row.
    independent 3,056,582,144-vector censuses, conductor, and exact norms close
    all eight. At `V=54`, parity leaves six profiles on eight affine templates;
    independent 158,783,488-vector censuses, conductor, and exact norms close
-   all six. Begin `V=52` with an exact slack/profile/parity reduction; do not
+   all six. At `V=52`, exact slack and parity leave six two-odd and four
+   six-odd profiles. Independent 1,726,770,432-vector censuses, conductor, and
+   exact norms close all six two-odd profiles. The live profiles are `(6,5)`,
+   `(5,3,1)`, `(4,1,2)`, and `(6,1,0,1)` on 1,234 six-odd affine templates.
+   Their direct-census floor is 24,492,353,024 vectors per engine; cut this
+   chamber structurally before any further actual-vector enumeration. Do not
    rerun any `V>=54` chamber.
    The
    signed-chord gate

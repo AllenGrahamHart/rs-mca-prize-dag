@@ -213,3 +213,8 @@ The proved E27 reduction leaves six profiles on eight affine templates; two
 independent 158,783,488-vector censuses, conductor, and exact norms close all
 six. The E27 endpoint closes `V=54` and advances the frontier to `V<=52`, still
 as evidence only.
+The proved E26 reduction leaves six two-odd and four six-odd profiles. The
+proved two-odd exclusion uses two independent 1,726,770,432-vector censuses,
+conductor, and exact FLINT/PARI norms to close all six two-odd profiles. The
+four six-odd profiles remain open, so this advances the exact residual but
+does not close `V=52` or the universal target.

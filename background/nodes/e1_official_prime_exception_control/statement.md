@@ -82,7 +82,13 @@ and parity leaves six profiles on eight three-odd affine light templates. Two
 independent 158,783,488-vector censuses leave 2,000 cubic exceptions. The
 conductor theorem removes 1,596; independent FLINT/PARI norms put all 404
 primitive exceptions below `2^250`. Thus `V=54` is empty and the live frontier
-is `V<=52`.
+is `V<=52`. At `V=52`, exact slack gives `L<=16`, the cubic cutoff is
+`M_3=228`, and diameter parity leaves six two-odd and four six-odd profiles.
+Two independent 1,726,770,432-vector censuses close all six two-odd profiles:
+the conductor theorem removes 9,564 of the 17,624 cubic exceptions, and
+independent FLINT/PARI norms put all 8,060 primitive exceptions below
+`2^250`. The live `V=52` residual is exactly `(6,5)`, `(5,3,1)`, `(4,1,2)`,
+and `(6,1,0,1)` on 1,234 affine six-odd light templates.
 At `N=512,s=2`, exact variance
 excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.

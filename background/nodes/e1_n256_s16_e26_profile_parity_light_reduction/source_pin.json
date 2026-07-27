@@ -1,0 +1,20 @@
+{
+  "probe_source_file": "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_profile_parity_probe_modal.py",
+  "probe_source_file_sha256": "c8546efc6b3e6c2d56bd91fb579fa50dc3b204107ede3a9988811ab28d6b41b6",
+  "probe_result_file": "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_profile_parity_probe_result.json",
+  "probe_result_file_sha256": "db0b1b49919f1ab55f3b250f4d9523db961fe3cc6f0aa5c78b081b1d195db82e",
+  "independent_check_file": "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_profile_parity_probe_check.py",
+  "independent_check_file_sha256": "d96718c7220c2f6d9dd5c632e7974c57c675335a04da2eab52495612d01e24b1",
+  "endpoint_file": "background/nodes/e1_n256_s16_e27_endpoint_exclusion/statement.md",
+  "endpoint_file_sha256": "802613bd18836017117ced711b47c202a67977285e97e24d5a634bf7791b1077",
+  "two_odd_atlas_file": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_six_odd_light_orbit_result.json",
+  "two_odd_atlas_file_sha256": "6ba7acb9e680f115b7c6121615748b00fa68a6adee005bb750094fea73ce5759",
+  "six_odd_atlas_file": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits_result.json",
+  "six_odd_atlas_file_sha256": "661ef642bdfafe5f0f261057877d2ad41b46a36b86e4167d8cb682b317e5b001",
+  "variance_parent_verify_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py",
+  "variance_parent_verify_file_sha256": "57b7a0f2d8590bda9234f4fb5bc0a573afd56200436458121767489fc5091f8e",
+  "signed_chord_file": "background/nodes/e1_n256_s16_signed_chord_collision_gate/statement.md",
+  "signed_chord_file_sha256": "926f9c94a0b5dd0830b7e37fafcd96f570dd93802de16061c802546e466e3157",
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566"
+}
