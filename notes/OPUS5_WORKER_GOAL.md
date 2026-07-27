@@ -165,9 +165,17 @@ re-propose, and never chain small runs to simulate one.
    rescue a computation — that is a signal to redesign. Modal launches only under
    Decision-5's TIME RULE: route-deciding + total wall-time < 5 min with per-shard
    timings + deterministic checker banked + logged in `notes/PRIZE_COMPUTE_REQUESTS.md`.
-5. **Subtraction check before EVERY mint:** grep his results synthesis
-   (`git -C ../rs-mca show origin/main:experimental/proximity_prize_results_v4.tex`)
-   for prior art before claiming any new statement.
+5. **Subtraction check before EVERY mint — WIDENED 2026-07-27.** The papers are
+   NOT enough: PR #1106 was dominated by a theorem living only in a merged
+   contributor note, and the miss cost a retracted "ready for review". Search
+   ALL FOUR surfaces before claiming any new statement:
+   (a) `git -C ../rs-mca grep -i "<keyword>" origin/main -- experimental/proximity_prize_results_v4.tex experimental/grande_finale.tex`
+   (b) `git -C ../rs-mca grep -ril "<keyword>" origin/main -- 'experimental/notes/**'` (merged contributor notes — the #1106 blind spot)
+   (c) `git -C ../rs-mca show origin/main:experimental/agents-log.md | grep -i "<keyword>"`
+   (d) the external canon in `notes/literature_map_20260726/LITERATURE_MAP.md`.
+   Compare BOUND STRENGTH and HYPOTHESIS STRENGTH, not just topic: a weaker
+   hypothesis with a better constant dominates you even when the statements look
+   different (that is exactly what happened at #1106).
 6. **Upstream reads** go through `git -C ../rs-mca show origin/main:<path>` — the
    rs-mca working tree may sit on a stale PR branch.
 7. **New verifiers**: fail-closed, deterministic, named `verify*.py`, then refresh
