@@ -977,8 +977,8 @@ matching of weight at most 21. Expanding the exact negacyclic energy gives
 V/2=102-D_64+2C.
 ```
 
-The sharpened residual `V<=110` therefore forces signed
-repeated-distance cross sum `C<=-13`. Every live support has an
+The currently sharpened residual `V<=104` therefore forces signed
+repeated-distance cross sum `C<=-15`. Every live support has an
 oppositely signed pair of equal
 non-diameter chords and hence a three-term-progression or four-point
 parallelogram relation. This removes all circular-Sidon supports and turns the
@@ -1004,10 +1004,28 @@ autocorrelation has at most 21 nonzero integer coefficients. If its energy is
 `E>=3L-42`, yielding a variance-dependent conjugate-square ceiling.
 Five exact logarithmic majorants exclude every even `V` from 112
 through 134. The profile-`(3,4,0)` residual is now positive even
-`V<=110`, and the signed-chord gate correspondingly strengthens to
-`C<=-13`. This is a twelve-value analytic exclusion, not a close of
-the remaining 55 variance values. See
+`V<=110`; N33 below sharpens this further. This is a twelve-value
+analytic exclusion, not a close of the remaining 55 variance values. See
 `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/`.
+
+N33 DONE, E1 N=256 CHORD-DEFICIT VARIANCE REFINEMENT: the raw chord
+magnitudes in profile `(3,4,0)` are three `4`s, twelve `2`s,
+and six `1`s, with total magnitude 42 and square mass 102. For every
+non-diameter distance class, the square-energy cancellation deficit `Q_d`
+and L1 cancellation loss `H_d` satisfy `Q_d<=4H_d`; diameter chords
+obey the same factor-four charge. Consequently
+
+```text
+4L<=E+66.
+```
+
+Two additional exact logarithmic majorants exclude `V=106,108,110`.
+Together with N32, all fifteen even variances from 106 through 134 are
+excluded, leaving positive even `V<=104`. The signed-chord cross sum
+therefore satisfies the stronger `C<=-15`. This remains a structural
+reduction, not a close of the 52 live variance values or profile `(4,2,0)`.
+See `background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/` and
+`background/nodes/e1_n256_s16_signed_chord_collision_gate/`.
 
 **Track A — conservative backbone:** unit-ideal certificate pilot at the
 (1,5) three-variable ideal (retires the census model for all 10 slots if it

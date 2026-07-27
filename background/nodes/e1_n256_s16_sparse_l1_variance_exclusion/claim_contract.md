@@ -8,8 +8,8 @@
 
 ## Output
 
-Variances `112,114,...,134` are collision-free. The unresolved
-profile-`(3,4,0)` residual is positive even `V<=110`.
+Variances `106,108,...,134` are collision-free. The unresolved
+profile-`(3,4,0)` residual is positive even `V<=104`.
 
 ## Guards
 
@@ -17,9 +17,13 @@ profile-`(3,4,0)` residual is positive even `V<=110`.
    coefficient L1 norm of `F`.
 2. The support-pair count 21 bounds the number of nonzero distance classes;
    repeated distances can only reduce that count.
-3. Every logarithmic majorant uses the row-specific ceiling `B`.
-4. Endpoint and six-bit inequalities are exact rational Taylor comparisons.
-5. No claim is made for `0<V<=110` or profile `(4,2,0)`.
+3. The stronger `4L<=E+66` bound uses the profile-specific multiset of
+   raw chord magnitudes: three `4`s, twelve `2`s, and six `1`s.
+4. Diameter chords are removed from both raw mass ledgers before the
+   classwise cancellation inequality is summed.
+5. Every logarithmic majorant uses the row-specific ceiling `B`.
+6. Endpoint and six-bit inequalities are exact rational Taylor comparisons.
+7. No claim is made for `0<V<=104` or profile `(4,2,0)`.
 
 ## Falsifier
 

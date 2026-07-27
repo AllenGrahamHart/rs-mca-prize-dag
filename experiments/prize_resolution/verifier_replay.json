@@ -2,25 +2,33 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 3,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/verify.py",
-      "seconds": 6.568667,
+      "script": "background/nodes/e1_n256_s16_high_variance_collision_exclusion/verify.py",
+      "seconds": 0.039079,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "WCL49_INVERSION_SYMMETRIC_DIVISIBILITY_CHECK_PASS branches=8 exceptions=4 official=0\nDLI_WCL_ELL4_WEIGHT9_INVERSION_SYMMETRIC_EXCLUSION_VERIFY_PASS\n"
+      "stdout_tail": "E1_N256_S16_HIGH_VARIANCE_COLLISION_EXCLUSION_PASS mean=16 max=100 high_variance_start=136 residual_max=134\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/verify_audit.py",
-      "seconds": 0.203748,
+      "script": "background/nodes/e1_n256_s16_signed_chord_collision_gate/verify.py",
+      "seconds": 0.035021,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_WCL_ELL4_WEIGHT9_INVERSION_SYMMETRIC_EXCLUSION_AUDIT_PASS branches=8 obstruction_gcds=1 exceptions=2,3,17,19 official=0\n"
+      "stdout_tail": "E1_N256_S16_SIGNED_CHORD_COLLISION_GATE_PASS baseline=102 diameter_max=21 cross_max=-15 witness=18/8/-38\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py",
+      "seconds": 0.03885,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS excluded=15 residual_max=104 majorants=7\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

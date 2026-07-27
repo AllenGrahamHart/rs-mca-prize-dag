@@ -25,11 +25,13 @@ EXPECTED_PIN = {
 }
 
 ROWS = (
-    (112, 112, 56, 32, 80, 1714),
-    (114, 118, 59, 33, 82, 1749),
-    (120, 124, 62, 34, 84, 1785),
-    (126, 130, 65, 35, 86, 1820),
-    (132, 134, 67, 36, 88, 1855),
+    (106, 106, 53, 29, 74, 1607, "chord"),
+    (108, 110, 55, 30, 76, 1643, "chord"),
+    (112, 112, 56, 32, 80, 1714, "integer"),
+    (114, 118, 59, 33, 82, 1749, "integer"),
+    (120, 124, 62, 34, 84, 1785, "integer"),
+    (126, 130, 65, 35, 86, 1820, "integer"),
+    (132, 134, 67, 36, 88, 1855, "integer"),
 )
 
 
@@ -53,6 +55,11 @@ def taylor(argument: Fraction, degree: int) -> Fraction:
         argument**index / math.factorial(index)
         for index in range(degree + 1)
     )
+
+
+def maximum_part_square_sum(total: int) -> int:
+    quotient, remainder = divmod(total, 4)
+    return 16 * quotient + (0, 1, 4, 5)[remainder]
 
 
 def main() -> None:
@@ -82,12 +89,51 @@ def main() -> None:
     }
     assert {energy: maxima[energy] for energy in expected} == expected
 
-    excluded = []
-    for lower_v, upper_v, upper_energy, upper_l1, bound, denominator in ROWS:
-        assert all(
-            maxima[energy] <= upper_l1
-            for energy in range(lower_v // 2, upper_energy + 1)
+    chord_magnitudes = 3 * (4,) + 12 * (2,) + 6 * (1,)
+    assert len(chord_magnitudes) == 21
+    assert sum(chord_magnitudes) == 42
+    assert sum(value * value for value in chord_magnitudes) == 102
+    assert all(value * value <= 4 * value for value in chord_magnitudes)
+
+    dynamic_maxima = [0] + [-1] * 42
+    for total in range(1, 43):
+        dynamic_maxima[total] = max(
+            dynamic_maxima[total - part] + part * part
+            for part in (1, 2, 4)
+            if part <= total
         )
+    assert dynamic_maxima == [maximum_part_square_sum(total) for total in range(43)]
+
+    expected_slacks = {
+        1: (0, 4, 8, 4),
+        2: (0, 6, 0, 6),
+        3: (4, 0, 4, 8),
+    }
+    actual_slacks = {
+        difference: tuple(
+            8 * negative
+            - (
+                maximum_part_square_sum(negative + difference)
+                + maximum_part_square_sum(negative)
+                - difference * difference
+            )
+            for negative in range(4)
+        )
+        for difference in range(1, 4)
+    }
+    assert actual_slacks == expected_slacks
+    assert {
+        energy: (energy + 66) // 4
+        for energy in (53, 54, 55)
+    } == {53: 29, 54: 30, 55: 30}
+
+    excluded = []
+    for lower_v, upper_v, upper_energy, upper_l1, bound, denominator, method in ROWS:
+        energies = range(lower_v // 2, upper_energy + 1)
+        if method == "chord":
+            assert all((energy + 66) // 4 <= upper_l1 for energy in energies)
+        else:
+            assert all(maxima[energy] <= upper_l1 for energy in energies)
         assert bound == 16 + 2 * upper_l1
         assert 16 < Fraction(denominator, 32) < bound
 
@@ -101,7 +147,7 @@ def main() -> None:
         assert taylor(six_bit_exponent, 9) > 2
         excluded.extend(range(lower_v, upper_v + 1, 2))
 
-    assert excluded == list(range(112, 136, 2))
+    assert excluded == list(range(106, 136, 2))
 
     dag = json.loads((ROOT / "dag.json").read_text())
     statuses = {entry["id"]: entry["status"] for entry in dag["nodes"]}
@@ -116,12 +162,12 @@ def main() -> None:
     assert (NORM_PARENT, NODE, "req") in edges
     assert (NODE, E1_TARGET, "ev") in edges
     assert (NODE, UNIVERSAL_TARGET, "ev") in edges
-    assert "112<=V<=134" in statements[NODE]
-    assert "V<=110" in statements[NODE]
+    assert "106<=V<=134" in statements[NODE]
+    assert "V<=104" in statements[NODE]
 
     print(
         "E1_N256_S16_SPARSE_L1_VARIANCE_EXCLUSION_PASS "
-        "excluded=12 residual_max=110 majorants=5"
+        "excluded=15 residual_max=104 majorants=7"
     )
 
 

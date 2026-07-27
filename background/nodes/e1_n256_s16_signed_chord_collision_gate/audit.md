@@ -3,8 +3,9 @@
 Date: 2026-07-27.
 
 The proof is a complete expansion of the exact negacyclic autocorrelation
-energy. The constants `102`, `21`, and `-13` are profile
-identities or matching optima, not fitted numerical thresholds.
+energy. The constants `102`, `21`, and `-15` are respectively a profile
+identity, a matching optimum, and an exact residual consequence, not fitted
+numerical thresholds.
 
 The local verifier independently constructs every matching on the seven
 profile weights to certify `D_64<=21`. It also replays the
