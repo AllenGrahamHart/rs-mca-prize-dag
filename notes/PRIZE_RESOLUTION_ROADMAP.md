@@ -3495,3 +3495,28 @@ route fence: full-conductor E=42,L=24 geometry exists; L<=23 is false
 next route-deciding action: apply the layered-moment method at E=41 or
                               combine it with the exact slack table
 ```
+
+**2026-07-27, N=256 variance 82 excluded:** the exact slack and layered
+third-moment mechanism continues at the next energy, using the same global
+Hermite majorant.
+
+Cycle burn-down:
+
+```text
+starting pins: local e4d24fca; canonical b55c21d0;
+               upstream origin/main b13de811
+ending proof pin: local f2057a6b
+node attacked: e1_official_prime_exception_control, N=256 (3,4,0) variance
+result: NARROWED from positive even V<=82 to V<=80; signed cancellation
+        strengthened from C<=-20 to C<=-21; parent target OPEN
+DAG delta: no new node or edge; two existing PROVED contracts strengthened;
+           no critical status change
+critical delta: math orbit remains 242 = 180/38/24; submission target set 25
+upstream terminal delta: none; theorem is ours-only and crosswalked
+delta-star bracket movement: none
+new assumptions: none
+compute spend: one short Modal symbolic-derivation container; exact proof and
+               verifier are local, deterministic, and Modal-independent
+next route-deciding action: extend the slack table and layered-moment
+                              certificate to E=40 or locate its endpoint
+```
