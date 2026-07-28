@@ -2,57 +2,17 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 6,
+    "PASS": 1,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e18_endpoint_exclusion/verify.py",
-      "seconds": 0.038784,
+      "script": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/verify.py",
+      "seconds": 0.066722,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E18_ENDPOINT_EXCLUSION_PASS profiles=6 exclusions=6 frontier=34 mutations=2\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e18_endpoint_exclusion/verify_audit.py",
-      "seconds": 8.977402,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E18_ENDPOINT_EXCLUSION_AUDIT_PASS checkers=3 mutations=3\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e18_profile_parity_light_reduction/verify.py",
-      "seconds": 8.06197,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E18_PROFILE_PARITY_LIGHT_REDUCTION_PASS l1=12 profiles=7 survivors=6 templates=1321 floor=26219123456 mutations=1\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e18_profile_parity_light_reduction/verify_audit.py",
-      "seconds": 8.224791,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E18_PROFILE_PARITY_LIGHT_REDUCTION_AUDIT_PASS independent_checker=1\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e18_six_profile_exclusion/verify.py",
-      "seconds": 0.355274,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E18_SIX_PROFILE_EXCLUSION_PASS templates=1321 vectors=26219123456 profile=6712 full=2994 distinct=895 norm_hits=6 odd_hits=0 engines=4 mutations=2\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e18_six_profile_exclusion/verify_audit.py",
-      "seconds": 0.271593,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E18_SIX_PROFILE_EXCLUSION_AUDIT_PASS checkers=2 engines=4 mutations=2\n"
+      "stdout_tail": "E1_PRIZE_N256_S18_VARIANCE_COFACTOR_WINDOWS_PASS live_cofactors=6 strongest_residual=1028:{10,18} checks=70\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

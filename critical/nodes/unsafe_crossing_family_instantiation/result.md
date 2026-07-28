@@ -192,48 +192,97 @@ all six two-odd profiles. The live endpoint is exactly `(6,5)`, `(5,3,1)`,
 `(4,1,2)`, and `(6,1,0,1)` on 1,234 affine six-odd templates; it is not yet
 closed.
 
-**Frontier addendum (2026-07-28, planner).** The per-level narrative above
-stops at `V=52`, where it records the six-odd endpoint as not yet closed. That
-paragraph is now superseded by the DAG, which closes `V=52` and every level
-below it down to `V=36`:
+Subsequent exact certificates close that residue and every even chamber down
+through `V=34`. At `V=34` the cutoff-free router leaves five profiles on 111
+templates; dual 2,203,120,896-vector censuses find 2,050 actual vectors,
+conductor removes 1,562, and dual exact resultants put every odd part of the
+488 full-conductor norms below `2^250`. Thus `V=34` is empty and the live
+positive even first-band frontier is `V<=32`. This remains evidence for the
+universal target rather than a row or prize closure.
 
-```text
-V=52 -> V<=50    V=50 -> V<=48    V=48 -> V<=46    V=46 -> V<=44
-V=44 -> V<=42    V=42 -> V<=40    V=40 -> V<=38    V=38 -> V<=36
-V=36 -> V<=34
-```
+At `V=32` the cutoff-free router leaves four profiles on 154 templates. Dual
+3,056,582,144-vector censuses find 688 actual vectors, two routed profiles are
+exactly empty, conductor removes 510, and dual exact resultants put every odd
+part of the 178 full-conductor norms below `2^250`. Thus `V=32` is empty and
+the live positive even first-band frontier is `V<=30`. This remains evidence
+for the universal target rather than a row or prize closure.
 
-**The live positive even frontier for folded profile `(3,4,0)` is `0<V<=34`.**
+At `V=30` the cutoff-free router leaves two profiles on eight templates. Dual
+158,783,488-vector censuses find 294 actual vectors, conductor removes 230,
+and dual exact resultants put every odd part of the 64 full-conductor norms
+below `2^250`. Thus `V=30` is empty and the live positive even first-band
+frontier is `V<=28`. This remains evidence for the universal target rather
+than a row or prize closure.
 
-Two things about how those nine levels were closed, because the method changed:
+At `V=28` the cutoff-free router leaves four profiles on 1,321 templates.
+Dual 26,219,123,456-vector censuses find 1,836 actual vectors and conductor
+removes 1,100. Six of the 736 full-conductor odd norm parts reach `2^250`, but
+they comprise three composite integers below `2^251`. Thus `V=28` is empty
+and the live positive even first-band frontier is `V<=26`. This remains
+evidence for the universal target rather than a row or prize closure.
 
-- Below `V=50` the cubic-Hermite majorant is dead — its exclusion threshold is
-  nonpositive there (`e1_first_band_variance_route_boundary`, vendored from
-  upstream PR #1110). Those levels are closed by exact FLINT/PARI resultant
-  norms, with the majorant used only to triage where it is still alive. The
-  `V=36` reduction says so explicitly: "No cubic-Hermite cutoff is used."
-- At `V=36` six whole norms reach `2^250`. They are discharged by odd-part
-  extraction: writing `R=2^mu R_odd`, a pair-feasible row prime `p>2^250` is
-  odd, so `p|R` implies `p|R_odd`, and every `R_odd` is below `2^250`.
+At `V=26` the cutoff-free router leaves four profiles on 111 templates. Dual
+2,203,120,896-vector censuses find 820 actual vectors and conductor removes
+684. Four of the 136 full-conductor odd norm parts reach `2^250`, but they
+comprise two composite integers below `2^251`. Thus `V=26` is empty and the
+live positive even first-band frontier is `V<=24`. This remains evidence for
+the universal target rather than a row or prize closure.
 
-**This does not close the node.** Folded profile `(4,2,0)` and the later swap
-bands are untouched, and `0<V<=34` remains open in `(3,4,0)` itself. The
-universal target stays `TARGET`.
+**Square-mass scope correction (2026-07-28).** The class collision coordinate
+is `S=4a+b`, not raw representative distance. The exact class-size bounds are
+`S<=260` for `N=256,ell=65` and `S<=132` for `ell=33`. At `S=16`, all of
+`(3,4)`, `(2,8)`, `(1,12)`, and `(0,16)` are feasible official-size class-pair
+profiles and survive the current norm floor; the variance campaign covers
+only `(3,4)`. The claim that raw distance is unbounded at fixed `N` is not
+needed and is false because only finitely many antipodal positions exist.
+No existing `(3,4)` closure is retracted, but `V=24` is not the universal
+route frontier. Further census work is paused pending an aggregate incidence,
+finite-reduction, or direct-image theorem.
 
-**Margin note.** The certified full-conductor `(3,4,0)` witness at `V=36` has
-norm `2 * R_odd` with `R_odd` a 248-bit **prime** congruent to `1 mod 256` —
-i.e. it satisfies this lane's row congruence and is excluded only by size,
-sitting a factor of about 5 below `2^250`. The exclusions at the bottom of this
-band rest on roughly two bits.
+The proved `e1_low_square_mass_plotkin_coloring_compiler` supplies such an
+aggregate direct-image interface. In a fixed E1 fiber, every color class of
+the graph of colliding pairs with `S<=2ell` has at most `ell+1` vertices by
+the exact Euclidean Plotkin identity. The six exact row budgets translate to
+row-specific color caps; the binding prize rate-`1/8` row requires only
+`chi<=3`, which caps every fiber by 102 and forces more than `B*` values. The
+row-uniform coloring assertion remains TARGET and is an alternative to the
+stronger collision-pair allowance.
 
-**Scope question raised 2026-07-28 (planner) — see
-`background/nodes/e1_collision_square_mass_reparametrization/frontier.md`.**
-Same-sign antipodal pairs cancel in the folded element, so the raw swap
-distance `s` is not a collision invariant and cannot be bounded by any norm
-argument; the square mass `S = 4a+b` is the invariant, and the descent's
-`s16` label is that square mass. Re-indexing by `S` shows the live splits at
-`S=16` are `(3,4)`, `(2,8)`, `(1,12)`, `(0,16)` — the campaign works `(3,4)`
-only, and the other three are not reached by the band-`s=5` scope sentence
-they inherit. Whether they are excluded elsewhere is **open**; an upper bound
-on the `l_1` height `2a+b <= 2 ell'` would settle it, and `ell'` is not pinned
-for this lane. Raised as a question, not a defect: nothing above is retracted.
+The same compiler yields a weaker low-mass pair-budget route. If `E_low`
+counts only colliding class pairs with `S<=2ell`, then
+`sum_y r_y^2<=(ell+1)K+(2ell+2-d0)E_low`; Cauchy-Schwarz prices all remaining
+high-mass collisions. On the binding prize rate-`1/8` row the exact sufficient
+budget is `65127585921474870475467050631501738502567`, about `1.714K`.
+Maximum low-mass degree three suffices, so this is preferred to the
+degree-two/three-color route.
+
+The proved `e1_low_square_mass_weighted_kernel_dictionary` converts the
+preferred budget exactly to folded-vector currency:
+`E_low=(1/2)sum_d M_ell(a(d),b(d))`. The exact prize field floor then removes
+all `S=16` profiles on the binding row. Its largest live weight is attained at
+`(4,2,S=18)`, and at most 69,541 oriented low-mass kernel vectors is a
+stronger sufficient condition. These are route results, not a proof of the
+vector count or the unsafe payload.
+
+**Square-mass reframing, 2026-07-28 — question raised and answered.** The
+planner asked (canonical `0acf7e8f`) whether the `(3,4)` variance descent
+exhausts the `S=16` layer. It does not: `(2,8)`, `(1,12)` and `(0,16)` sit at
+the same square mass and survive the norm test. See
+`background/nodes/e1_collision_square_mass_reparametrization`, which also
+corrects the planner's overstated claim that raw distance is "unbounded" — at
+fixed official parameters `S<=260` or `S<=132`, so it is finite.
+
+Two consequences now recorded in that node and its successors:
+
+- **The per-endpoint descent inside `(3,4)` is paused.** The universal consumer
+  asks for the aggregate allowance `P<=K-B*-1`; it does **not** require every
+  profile to be collision-free. Exhausting one profile one variance level at a
+  time cannot reach a route-uniform bound.
+- **`e1_prize_field_floor_even_norm_exclusion` removes `S=16` outright on
+  prize-envelope rows.** With `p>2^255` and `|Norm|<=S^(h/2)=2^256` at `S=16`,
+  `p|Norm` forces `|Norm|=p`, contradicting that every same-size class
+  difference has even norm. The prize-row floors sharpen to `S>=18` (`N=256`)
+  and `S>=6` (`N=512`). **RowC is unchanged** — its prime floor is only
+  `2^250`, so the `(3,4)` closures remain load-bearing there.
+
+The node stays `TARGET`. `(4,2,0)`, the swap bands, and `N=512` are untouched.

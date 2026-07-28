@@ -1,76 +1,91 @@
 # Proof
 
-Throughout, `N = 2h`, `zeta` is a primitive `N`-th root of unity, and the
-coordinates are those pinned in `e1_prime_field_l2_norm_collision_radius`.
+## Class coordinates
 
-## The coordinate identities
-
-Write the raw signed difference of the two class representatives over the `N`
-positions and fold across antipodes. Position `i < h` receives a contribution
-from the raw positions `i` and `i+h`, and `zeta^(i+h) = zeta^i zeta^h =
--zeta^i`.
-
-- An **opposite-sign antipodal pair** contributes `eps zeta^i - eps zeta^(i+h)
-  = 2 eps zeta^i`, so `|c_i| = 2` and it adds `4` to `S`.
-- A **singleton** contributes `eps zeta^i`, so `|c_i| = 1` and it adds `1`.
-- A **same-sign antipodal pair** contributes `eps zeta^i + eps zeta^(i+h) =
-  eps zeta^i (1 + zeta^h) = 0`, so `c_i = 0` and it adds `0`.
-
-Hence `S = 4a + b`. Counting raw positions where the representatives differ:
-each antipodal pair (of either sign) uses two, each singleton uses one, and
-that count is `|B\B'| + |B'\B| = 2s`. So `2s = 2a + b + 2c`, i.e.
-`s = a + b/2 + c`, and `b` is even. Both identities are checked against all
-four pinned first-band profiles and their pinned band indices in `verify.py`.
-
-## (1) No norm bound can bound `s`
-
-Fix `(a,b)` and let `c` vary. By the computation above the folded element
-`alpha` is unchanged — same coefficient vector, same `S`, same `Norm(alpha)`,
-hence the same divisibility by any row prime — while `s = a + b/2 + c` takes
-every value from `a + b/2` upwards. So `s` is not a function of `alpha`, and no
-inequality on `|Norm(alpha)|` can constrain it above. QED.
-
-The construction is exhibited in `verify.py` over 60 consecutive values of `c`.
-
-## (2) The square-mass floor
-
-`Norm(alpha)` is a nonzero rational integer (nonzero because the two classes
-are distinct in characteristic zero, per the pinned lemma). A collision at a
-pair-feasible row means the row prime `p` divides it, and every such `p` is at
-least `2^250`; a nonzero integer with a divisor `>= 2^250` has absolute value
-`>= 2^250`. Combined with `|Norm(alpha)| <= S^(h/2)`:
+Partition the `N=2h` roots into `h` antipodal pairs. By `acl_count`, a class
+is determined by its signed singleton positions and the number `u` of full
+pairs. Writing `t` for the number of singleton positions gives
+`t+2u=ell`. The full pairs must fit among the `h-t` remaining positions, so
 
 ```text
-S^(h/2) >= 2^250   <=>   S >= 2^(500/h).
+0 <= (ell-t)/2 <= h-t.
 ```
 
-For `h=128` this is `S >= 14.99`, so `S >= 15`; for `h=256`, `S >= 3.87`, so
-`S >= 4`. Since `S = 4a+b` with `b` even, `S` is even, so at `N=256` the first
-admissible square mass is `S = 16`.
+Together with `0<=t<=ell`, this is exactly
+`t<=T=min(ell,2h-ell)` and `t=ell mod 2`.
 
-## (3) Agreement with the pinned cutoffs
+Represent the signed singleton positions by `x in {0,+-1}^h`. Full pairs sum
+to zero because `zeta^(i+h)=-zeta^i`, so the class value is
+`sum_i x_i zeta^i`. Two class values therefore differ by
+`alpha=sum_i(x_i-y_i)zeta^i`.
 
-For the opposite-sign-only family the pinned lemma uses `S <= 4s-2`. Requiring
-`(4s-2)^(h/2) < 2^250` gives `s <= 4` at `N=256` and `s <= 1` at `N=512`,
-which are exactly the pinned exclusions. `verify.py` recomputes both.
+At a coordinate common to both singleton supports with opposite signs,
+`x_i-y_i=+-2`; this contributes four to `S` and two to `H`. At a coordinate
+in exactly one support it is `+-1`; this contributes one to each. Common
+singletons cancel. Hence `S=4a+b` and `H=2a+b`.
 
-The `b=0` branch is separate: there `alpha = 2 beta` with
-`|Norm(beta)| <= s^(h/2)`, excluded when `s^(h/2) < 2^250`, i.e. `s <= 14` at
-`N=256`. This is why `(4,0,1)` and `(5,0,0)` die in band `s=5` despite square
-masses `16` and `20`.
+Every contribution to `H` consumes one singleton entry from `x` or `y`, so
 
-## (4) The band-`s=5` enumeration
+```text
+H <= |supp(x)|+|supp(y)| <= 2T.
+```
 
-All 21 triples `(a,b,c)` with `a + b/2 + c = 5`, `b >= 0` even, were
-enumerated and tested against whichever of the two branches applies. Survivors:
-`(3,4,0)` with `S=16` and `(4,2,0)` with `S=18`. Every other cell has either
-`S <= 14 < 15` or `b = 0` with `s = 5 <= 14`. This reproduces the pinned
-survivor set exactly, which is the check that the coordinates above are the
-intended ones.
+Also `S<=2(|supp(x)|+|supp(y)|)<=4T`: a `+-2` coordinate consumes two
+singleton entries and contributes four, while a `+-1` coordinate consumes
+one and contributes one. Equality is attained by opposite signs on a common
+support of size `T`. Finally,
 
-## (5) The `S=16` split inventory
+```text
+S = |supp(x)|+|supp(y)|-2<x,y>
+```
 
-Solving `4a + b = 16` with `b >= 0` even gives `(a,b) in
-{(4,0),(3,4),(2,8),(1,12),(0,16)}`. The first dies on the `b=0` branch. The
-remaining four all have `S = 16 >= 15` and therefore survive the norm test. Their
-minimal bands are `s = 5,6,7,8` respectively. QED.
+is even because both support sizes have parity `ell`.
+
+For raw representatives, a full antipodal pair present on one side and empty
+on the other contributes two raw differences of the same sign and folds to
+zero. If there are `c` such positions, counting the `2s` raw differences gives
+`s=a+b/2+c`. This explains why `c` is invisible to the class difference. At
+fixed `h` it is bounded by available positions; no claim of literal
+unboundedness is needed.
+
+## Norm floors
+
+For `N=256`, `h/2=64`. In the `b>0` branch, `S^64<2^250` for every even
+`S<=14`, whereas `16^64>2^250`. In the `b=0` branch write `alpha=2 beta`;
+an odd row prime divides `Norm(alpha)` exactly when it divides `Norm(beta)`,
+and `|Norm(beta)|<=a^64`. Thus `a<=14` is excluded and `a=15` is the first
+integer not excluded by this bound.
+
+For `N=512`, the exponent is `128`. The corresponding thresholds are even
+`S>=4` in the `b>0` branch and `a>=4` in the all-even branch. This recovers the
+correct first possible raw collision distance `s>=2`, not `s>=3`.
+
+## Feasibility of every live `S=16` split
+
+Fix `ell` equal to 33 or 65. For one of
+
+```text
+(a,b) in {(3,4),(2,8),(1,12),(0,16)},
+```
+
+put `t0=a+b/2`. Let `r=0` if `t0` is odd and `r=1` otherwise. Choose disjoint
+coordinate sets:
+
+```text
+|A|=a, |U|=|V|=b/2, |R|=r,
+|F|=u=(ell-(t0+r))/2.
+```
+
+There is ample room in `h=128`; the largest union uses 29 coordinates when
+`ell=33` and 45 when `ell=65`. Define
+`x=+1,y=-1` on `A`; put a singleton only in `x` on `U` and only in `y` on
+`V`; and put the same signed singleton in both on `R`. Use the same `u` full
+pairs `F` in both raw representatives. Each representative has
+`t0+r+2u=ell` elements. Their class difference has exactly `a` coefficients
+of magnitude two and `b` of magnitude one, with no raw full-pair discrepancy,
+so `c=0` and `S=4a+b=16`.
+
+The `(4,0)` split is different: after division by two it has `a=4<=14`, so it
+is excluded by the all-even norm branch. The four displayed splits all have
+`b>0` and `S=16`, so none is excluded by the current norm floor. This proves
+both their class feasibility and the claimed scope boundary. QED.

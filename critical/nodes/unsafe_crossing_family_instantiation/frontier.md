@@ -277,14 +277,53 @@ At `V=36`, a cutoff-free six-profile router on 1,321 templates yields 6,712
 vectors; conductor removes 3,718. Six full-conductor whole norms reach
 `2^250`, but exact FLINT/PARI ledgers put every odd norm part below `2^250`.
 Hence `V=36` is empty and the frontier is `V<=34`.
+At `V=34`, a cutoff-free five-profile router on 111 templates yields 2,050
+vectors; conductor removes 1,562. Sixteen full-conductor whole norms reach
+`2^250`, but exact FLINT/PARI ledgers put every odd norm part below `2^250`.
+Hence `V=34` is empty and the frontier is `V<=32`.
+At `V=32`, a cutoff-free four-profile router on 154 templates yields 688
+vectors; two routed profiles are exactly empty and conductor removes 510.
+Ten of the 178 full-conductor whole norms reach `2^250`, but exact FLINT/PARI
+ledgers put every odd norm part below `2^250`. Hence `V=32` is empty and the
+frontier is `V<=30`.
+At `V=30`, a cutoff-free two-profile router on eight templates yields 294
+vectors; conductor removes 230. Thirty-two of the 64 full-conductor whole
+norms reach `2^250`, but exact FLINT/PARI ledgers put every odd norm part below
+`2^250`. Hence `V=30` is empty and the frontier is `V<=28`.
+At `V=28`, a cutoff-free four-profile router on 1,321 templates yields 1,836
+vectors; conductor removes 1,100. Six of the 736 full-conductor odd norm parts
+reach `2^250`, but exact PARI/FLINT tests show their three distinct values are
+composite and below `2^251`. Hence `V=28` is empty and the frontier is
+`V<=26`.
+At `V=26`, a cutoff-free four-profile router on 111 templates yields 820
+vectors; conductor removes 684. Four of the 136 full-conductor odd norm parts
+reach `2^250`, but exact PARI/FLINT tests show their two distinct values are
+composite and below `2^251`. Hence `V=26` is empty and the frontier is
+`V<=24`.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
-injectivity or another explicit `V` line. Within the first `N=256` band, the
-`V=36` chamber is now closed; derive and price the exact cutoff-free `V=34`
-profile/parity/light router.
-Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
-cofactor classes. Do not rerun any `V>=36`
+injectivity or another explicit `V` line. Within profile `(3,4)`, the `V=26`
+chamber is now closed, but square-mass reconciliation exhibits three other
+feasible `S=16` profiles. Do not continue to `V=24` until an aggregate
+incidence/direct-image theorem or a finite coefficient-type reduction makes
+that profile-local computation route-relevant.
+The proved Plotkin/coloring compiler sharpens this to one exact alternative:
+prove the row-specific low-mass collision-graph color caps. The binding
+prize rate-`1/8` obligation is `chi(G_p(33))<=3` for `S<=66`; it gives fiber
+cap 102 and a direct image above `B*`.
+The preferred weaker premise is the exact low-mass pair budget. On that same
+row it allows `65127585921474870475467050631501738502567` edges, about
+`1.714K`; a maximum-degree-three theorem suffices and need not three-color the
+graph.
+The exact folded-vector form is
+`E_low=(1/2)sum_d M_33(a(d),b(d))`; the simple stronger binding-row target is
+at most 69,541 oriented low-mass vectors. The prize field floor removes every
+`S=16` profile first, so `(4,2,S=18)` is the leading live weight. Existing
+orbit counts must restore orientation, stabilizers, and these class-pair
+weights.
+Alternatively attack the still broad `(4,2,0)` profile through its seven
+exact prize cofactor classes (419 on RowC). Do not rerun any `V>=26`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
 safe predecessor relocates the candidate threshold immediately.

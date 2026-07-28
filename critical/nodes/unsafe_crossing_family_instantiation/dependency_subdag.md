@@ -17,6 +17,10 @@ e1_clean_anchor_exact_collision_allowance --ev-->
 e1_pair_feasible_ambient_generation      --ev-->
 e1_pair_feasible_prime_field_reduction   --ev-->
 e1_prime_field_l2_norm_collision_radius  --ev-->
+e1_collision_square_mass_reparametrization --ev-->
+e1_prize_field_floor_even_norm_exclusion --ev--> e1_official_low_square_mass_pair_budget --ev-->
+e1_official_low_square_mass_collision_coloring --ev-->
+e1_low_square_mass_weighted_kernel_dictionary --ev--> e1_official_low_square_mass_pair_budget --ev-->
 e1_n256_s16_high_variance_collision_exclusion --ev-->
 e1_n256_s16_sparse_l1_variance_exclusion --ev-->
 e1_n256_s16_e38_quotient_schur_exclusion --ev-->
@@ -47,6 +51,7 @@ e1_n256_proper_conductor_collision_exclusion --ev-->
 e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
 e1_n256_local_norm_cofactor_collapse --ev-->
+e1_prize_n256_s18_variance_cofactor_windows --ev-->
 e1_n512_four_singleton_collision_exclusion --ev-->
 e1_n512_trinomial_interval_norm_exclusion --ev-->
 e1_official_prime_exception_control       --ev-->
@@ -106,7 +111,8 @@ singleton-reduction multiplicity bounds `5` and `16` in the two profiles.
 The square-mass-16 residual additionally has signed repeated-chord cross sum
 at most `-24`, so every remaining support has a three-term or
 parallelogram relation. Its collision cofactor is exactly `2^mu` for
-`1<=mu<=5`; the other profile has 419 explicit cofactor values.
+`1<=mu<=5`; the other profile has 419 explicit RowC cofactor values and only
+seven on prize rows after the field floor and residue-degree sieve.
 
 At `V=68`, the quotient reduction leaves three `L=20` profiles and the parity
 child removes two of them. The sole residual is `(6,7)`, whose six
@@ -252,3 +258,27 @@ The proved cutoff-free E18 reduction leaves six profiles on 1,321 templates.
 Independent complete censuses, conductor, and exact odd norm parts close all
 six; the E18 endpoint closes `V=36` and advances the frontier to `V<=34`, still
 as evidence only.
+The proved cutoff-free E17 reduction leaves five profiles on 111 templates.
+Independent complete censuses, conductor, and exact odd norm parts close all
+five; the E17 endpoint closes `V=34` and advances the frontier to `V<=32`,
+still as evidence only.
+The proved cutoff-free E16 reduction leaves four profiles on 154 templates.
+Independent complete censuses find 688 vectors, two routed profiles are
+exactly empty, conductor removes 510, and exact odd norm parts close the 178
+full-conductor representatives; the E16 endpoint closes `V=32` and advances
+the frontier to `V<=30`, still as evidence only.
+The proved cutoff-free E15 reduction leaves two profiles on eight templates.
+Independent complete censuses find 294 vectors, conductor removes 230, and
+exact odd norm parts close the 64 full-conductor representatives; the E15
+endpoint closes `V=30` and advances the frontier to `V<=28`, still as evidence
+only.
+The proved cutoff-free E14 reduction leaves four profiles on 1,321 templates.
+Independent complete censuses find 1,836 vectors, conductor removes 1,100,
+and exact norms leave six threshold exceptions. Exact PARI/FLINT tests prove
+their three distinct odd parts composite and below `2^251`; the E14 endpoint
+closes `V=28` and advances the frontier to `V<=26`, still as evidence only.
+The proved cutoff-free E13 reduction leaves four profiles on 111 templates.
+Independent complete censuses find 820 vectors, conductor removes 684, and
+exact norms leave four threshold exceptions. Exact PARI/FLINT tests prove
+their two distinct odd parts composite and below `2^251`; the E13 endpoint
+closes `V=26` and advances the frontier to `V<=24`, still as evidence only.

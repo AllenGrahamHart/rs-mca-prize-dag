@@ -66,6 +66,9 @@ e1_n256_s16_signed_chord_collision_gate [PROVED]
 e1_n256_local_norm_cofactor_collapse [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_prize_n256_s18_variance_cofactor_windows [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_n512_four_singleton_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
@@ -121,6 +124,21 @@ e1_n256_s16_e19_profile_parity_light_reduction [PROVED]
 e1_n256_s16_e18_profile_parity_light_reduction [PROVED]
     --requirement--> e1_n256_s16_e18_six_profile_exclusion [PROVED]
     --requirement-------------------------------------------> e1_n256_s16_e18_endpoint_exclusion [PROVED]
+    --evidence----------------------------------------------> e1_official_prime_exception_control [TARGET]
+
+e1_n256_s16_e17_profile_parity_light_reduction [PROVED]
+    --requirement--> e1_n256_s16_e17_five_profile_exclusion [PROVED]
+    --requirement-------------------------------------------> e1_n256_s16_e17_endpoint_exclusion [PROVED]
+    --evidence----------------------------------------------> e1_official_prime_exception_control [TARGET]
+
+e1_n256_s16_e16_profile_parity_light_reduction [PROVED]
+    --requirement--> e1_n256_s16_e16_four_profile_exclusion [PROVED]
+    --requirement-------------------------------------------> e1_n256_s16_e16_endpoint_exclusion [PROVED]
+    --evidence----------------------------------------------> e1_official_prime_exception_control [TARGET]
+
+e1_n256_s16_e15_profile_parity_light_reduction [PROVED]
+    --requirement--> e1_n256_s16_e15_two_profile_exclusion [PROVED]
+    --requirement-------------------------------------------> e1_n256_s16_e15_endpoint_exclusion [PROVED]
     --evidence----------------------------------------------> e1_official_prime_exception_control [TARGET]
 
 e1_official_prime_exception_control [TARGET]
@@ -213,17 +231,53 @@ Independent censuses find 6,712 vectors, conductor removes 3,718, and dual
 exact resultants put every one of 2,994 full-conductor odd norm parts below
 `2^250`. The E18 endpoint closes `V=36` and advances the frontier to `V<=34`,
 still as evidence rather than a universal close.
+The cutoff-free E17 reduction leaves five profiles on 111 templates.
+Independent censuses find 2,050 vectors, conductor removes 1,562, and dual
+exact resultants put every one of 488 full-conductor odd norm parts below
+`2^250`. The E17 endpoint closes `V=34` and advances the frontier to `V<=32`,
+still as evidence rather than a universal close.
+The cutoff-free E16 reduction leaves four profiles on 154 templates.
+Independent censuses find 688 vectors, two routed profiles are exactly empty,
+conductor removes 510, and dual exact resultants put every one of 178
+full-conductor odd norm parts below `2^250`. The E16 endpoint closes `V=32`
+and advances the frontier to `V<=30`, still as evidence rather than a
+universal close.
+The cutoff-free E15 reduction leaves two profiles on eight templates.
+Independent censuses find 294 vectors, conductor removes 230, and dual exact
+resultants put every one of 64 full-conductor odd norm parts below `2^250`.
+The E15 endpoint closes `V=30` and advances the frontier to `V<=28`, still as
+evidence rather than a universal close.
+The cutoff-free E14 reduction leaves four profiles on 1,321 templates.
+Independent censuses find 1,836 vectors and conductor removes 1,100. Exact
+norms leave six threshold exceptions; exact PARI/FLINT primality tests show
+their three distinct odd parts are composite and below `2^251`. The E14
+endpoint closes `V=28` and advances the frontier to `V<=26`, still as evidence
+rather than a universal close.
+The cutoff-free E13 reduction leaves four profiles on 111 templates.
+Independent censuses find 820 vectors and conductor removes 684. Exact norms
+leave four threshold exceptions; exact PARI/FLINT tests show their two
+distinct odd parts are composite and below `2^251`. The E13 endpoint closes
+`V=26` and advances the frontier to `V<=24`, still as evidence rather than a
+universal close.
 The proper-conductor theorem also removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing
 those screens remain. In `(3,4,0)`, every remaining support has a signed
 equal-chord relation and therefore lies on a three-term or parallelogram
 template. Local reciprocity leaves only five power-of-two cofactors in that
-profile and 419 explicit cofactors in `(4,2,0)`. Their odd norm parts
-are not yet paid.
+profile and 419 explicit RowC cofactors in `(4,2,0)`. On prize rows the exact
+field floor and residue-degree sieve first leave seven; the proved
+variance/cofactor theorem removes `1538`, forces `V=2 mod 8`, and leaves only
+`V in {10,18}` for `m=1028`. The six residual prize classes and the RowC odd
+norm parts are not yet paid.
 The official quantifier pin and named-exhibit certificate subgraph remain in
 `background/nodes/` and have `ev`, not `req`, edges into this target. The
 unresolved target is a logical leaf, with its route-uniform scope printed
 directly.
 The evidence nodes do not belong to the mathematical critical orbit without a
 theorem transporting their content into a closed route-wide result.
+
+`e1_collision_square_mass_reparametrization` is additional evidence-only
+input. It proves the exact finite square-mass ranges and that three feasible
+`S=16` profiles sit outside the `(3,4)` variance campaign. It therefore pauses
+the former `V=24` next action without changing this target's status.

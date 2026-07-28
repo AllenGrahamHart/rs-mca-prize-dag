@@ -1,67 +1,31 @@
-# Frontier — the open question this node poses
+# Frontier
 
-**For the e1 lane owner (Codex). This node proves a reparametrization; it does
-not answer the scope question below, and does not claim the question is a
-defect.**
+The `(3,4)` variance descent is correct within its stated profile, currently
+through positive even variance `V=26`. It is not an exhaustion of the first
+square-mass layer: the feasible, norm-unresolved profiles `(2,8)`, `(1,12)`,
+and `(0,16)` remain at the same `S=16`.
 
-## The question
+The class-size parameter does bound the problem, but does not remove these
+profiles. The exact finite ranges are `S<=260` for `N=256,ell=65` and
+`S<=132` for `N=256,ell=33` and `N=512,ell=33`.
 
-The variance-descent campaign is indexed `e1_n256_s16_*`, i.e. square mass
-`S=16`, and works folded profile `(3,4,0)` — the split `(a,b) = (3,4)`. Its
-scope is inherited from the sentence in
-`e1_prime_field_l2_norm_collision_radius`:
+Continuing one variance endpoint at a time inside `(3,4)` is therefore paused.
+The universal consumer asks for the aggregate collision allowance
+`P<=K-B*-1`; it does not require every profile to be collision-free. The next
+route should seek one of:
 
-> In the first surviving `N=256` band, only folded profiles `(4,2,0),(3,4,0)`
-> remain.
+1. a square-mass-uniform incidence or energy bound that directly pays the
+   aggregate `P` allowance;
+2. a rigorous reduction of all other feasible coefficient multiplicities to
+   a bounded collection of already controlled types;
+3. a direct image theorem for the signed-singleton class map, bypassing
+   pair-by-pair resultant exhaustion.
 
-That is a statement about **band `s=5`**. The censuses are statements about a
-**coefficient profile**. Those are different quantifiers, and by the
-reparametrization the norm test does not see `s` at all.
+Ordinary translation, odd-unit, reflection, and global-sign symmetries
+preserve the coefficient-magnitude inventory `(a,b)`, so they do not transport
+the three extra splits to `(3,4)`. Any stronger transport must be stated and
+proved explicitly.
 
-At `S=16` the live splits are `(3,4)`, `(2,8)`, `(1,12)`, `(0,16)`, with
-minimal bands `s=5,6,7,8`. Only `(3,4)` is worked. A text search of
-`critical/` and `background/` finds **no occurrence** of `(2,8,0)`,
-`(1,12,0)` or `(0,16,0)` in any form.
-
-**So: are `(2,8)`, `(1,12)`, `(0,16)` at `S=16` excluded somewhere, or are they
-open?**
-
-Three possibilities, and we cannot currently distinguish them:
-
-1. **Already excluded** by an argument we have not connected — e.g. a support-
-   size or agreement bound that caps `b`, or a constraint from `ell'` (the
-   quotient agreement size) that we have not located. If so, that argument
-   should be cited in the descent's scope sentence, because as written the
-   scope sentence does not cover them.
-2. **Reducible** to the `(3,4)` census by a symmetry or transport we have not
-   spotted.
-3. **Genuinely open**, in which case the descent at `S=16` is one of four
-   splits, and `S=18` and upward sit behind that.
-
-## Why it matters before more compute
-
-If (3), the accounting changes materially. "Seventeen variance levels remain at
-`S=16`" becomes "seventeen levels remain in one of four splits at the smallest
-of many admissible square masses". That is a different decision about whether
-to buy another level.
-
-## What would settle it, cheaply
-
-- an upper bound on `b` (equivalently on the singleton count, equivalently on
-  the `l_1` height `2a+b <= 2 ell'`) for pair-feasible rows: with `S = 4a+b >=
-  15` this immediately bounds the split list and, with `S <= 2(2a+b) <= 4 ell'`,
-  bounds the square-mass range too;
-- or a citation showing `(2,8)`, `(1,12)`, `(0,16)` already dead;
-- or an explicit statement that they are open, added to the descent's scope.
-
-**We looked for `ell'` and did not find it pinned for this lane.** That is the
-single number that would close this out, in either direction.
-
-## Caveat on this node's own reliability
-
-The coordinate identities `S = 4a+b`, `s = a + b/2 + c` are reconstructed from
-the definitions in the pinned lemma; they are not quoted from it. They
-reproduce all four pinned profiles' band indices and the full band-`s=5`
-survivor set exactly, which is strong evidence the reconstruction is the
-intended one — but a lane owner who knows the intended convention should
-confirm it before acting on the scope question.
+No further Modal census is authorized merely to advance `V=24` in `(3,4)`.
+The first route-deciding task is a proof-level aggregate bound or a finite
+reduction theorem in the square-mass coordinates.

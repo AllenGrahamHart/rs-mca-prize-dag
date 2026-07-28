@@ -63,3 +63,46 @@ mu=16: t=0.
 ```
 
 The number of candidate cofactors is `256+128+32+2+1=419`.
+
+For a prize-envelope row, `p>=B_P 2^128` and the L2 norm bound gives
+`R<=18^64` in profile `(4,2,0)`. Hence
+
+```text
+m=R/p <= floor(18^64/(B_P 2^128))=2013.              (4)
+```
+
+Intersecting (4) with `m=2^mu(1+256t)` gives
+
+```text
+mu=1: 0<=t<=3,        mu=2: 0<=t<=1,
+mu=4: t=0,            mu=8: t=0,
+mu=16: no value.
+```
+
+Substitution gives exactly the eight values in `statement.md`.
+
+It remains to apply the global residue-degree condition. For an odd rational
+prime `r`, the extension `Q(zeta_256)/Q` is unramified at `r`, and every prime
+ideal above `r` has residue degree
+
+```text
+f_r=ord_256(r).
+```
+
+Taking ideal norms shows that `v_r(R)` is a multiple of `f_r`. The only one
+of the eight candidates that can fail this condition is
+
+```text
+1026=2*513=2*3^3*19.
+```
+
+Direct modular exponentiation gives
+
+```text
+ord_256(3)=ord_256(19)=64,
+```
+
+but its exponents three and one are not multiples of 64. Hence 1026 is
+impossible. The odd parts of the other candidates are `1`, `257`, or `769`;
+both 257 and 769 are prime and congruent to one modulo 256, so the
+residue-degree rule removes no further value.

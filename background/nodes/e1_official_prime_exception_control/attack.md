@@ -21,7 +21,9 @@ at `s=3`. At `N=256,s=5`, every proper-conductor support is
 excluded in both surviving profiles, so classify only full-conductor supports.
 The 2-adic cofactor gate also forces singleton-reduction multiplicity at most
 five in `(3,4,0)` and forbids a singleton separation divisible by 32 in
-`(4,2,0)`.
+`(4,2,0)`. On prize rows, use the proved variance/cofactor windows next:
+`1538` is absent, every residual has `V=2 mod 8`, and `m=1028` has only
+`V in {10,18}`.
 
 ```text
 P=sum_y binom(r_y,2).
@@ -38,10 +40,11 @@ explicit finite inequality at the row.
    the two exact budget intervals. One exact candidate-class row above allowance
    kills this target and forces a different unsafe supplier for that row class.
 2. Seek orbit divisibility and norm-divisor upper bounds on `P`, not merely on
-   the number of surviving folded vectors. Start at `s=5` for `N=256` and
-   `s=3` for `N=512`, and convert every counted object to unordered class
+   the number of surviving folded vectors. The norm floor starts at `s=5` for
+   `N=256` and `s=2` for `N=512`; after the complete `N=512,s=2` exclusion,
+   that lane starts at `s=3`. Convert every counted object to unordered class
    pairs explicitly. Only profiles `(4,2,0),(3,4,0)` survive in the first
-   `N=256` band. In `(3,4,0)`, only positive even autocorrelation variance
+   `N=256` distance band. In `(3,4,0)`, only positive even autocorrelation variance
    `V<=60` remains after the complete exact endpoint chain. At `V=64`, only
    autocorrelation profiles `(4,7)`, `(0,8)`, and `(3,5,1)` remain after the
    exact cubic/parity reduction, and the zero-odd `(0,8)` profile is now
@@ -93,8 +96,23 @@ explicit finite inequality at the row.
    norms. At `V=38`, four profiles on eight templates close by dual
    158,783,488-vector censuses, conductor, and exact norms. Derive the exact
    `V=36` router. At `V=36`, six profiles on 1,321 templates close by dual
-   26,219,123,456-vector censuses, conductor, and exact odd norm parts. Derive
-   the exact `V=34` router. Do not rerun any `V>=36` chamber.
+   26,219,123,456-vector censuses, conductor, and exact odd norm parts. At
+   `V=34`, five profiles on 111 templates close by dual 2,203,120,896-vector
+   censuses, conductor, and exact odd norm parts. At `V=32`, four profiles on
+   154 templates close by dual 3,056,582,144-vector censuses, conductor, and
+   exact odd norm parts; two routed profiles are exactly empty. At `V=30`, two
+   profiles on eight templates close by dual 158,783,488-vector censuses,
+   conductor, and exact odd norm parts. At `V=28`, four profiles on 1,321
+   templates close by dual 26,219,123,456-vector censuses, conductor, exact
+   odd norms, and exact compositeness of the six threshold exceptions. At
+   `V=26`, four profiles on 111 templates close by dual 2,203,120,896-vector
+   censuses, conductor, exact odd norms, and exact compositeness of four
+   threshold exceptions. Do not derive or price the `V=24` router yet, and do
+   not rerun any `V>=26` chamber. Square-mass reconciliation proves that
+   `(2,8)`, `(1,12)`, and `(0,16)` are additional feasible `S=16` profiles,
+   while the exact global ranges extend to `S=260` or `S=132`. Seek an
+   aggregate incidence/direct-image theorem or a finite reduction in these
+   coordinates before buying another profile-local census.
    The
    signed-chord gate
    further excludes circular-Sidon supports: every residual has an oppositely

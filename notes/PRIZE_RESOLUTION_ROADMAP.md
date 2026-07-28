@@ -5345,3 +5345,407 @@ new assumptions: none
 route decision: derive the exact cutoff-free E17 (V=34) router and price its
                 actual-vector residue. Never rerun V>=36.
 ```
+
+**2026-07-28, provisional KoalaBear K3 equality-wall stack reconciliation:**
+four open upstream PRs materially reduce one source-bound equality-wall
+residual, but none currently supplies a bankable first-match atom. They are
+recorded as upstream-watch route evidence only; no local node, `req` edge,
+crosswalk status, or critical status changes.
+
+```text
+starting local pin: 8f211958
+canonical prize pin: b60ec497
+upstream main pin: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
+critical counts at start: TARGET=73, CONDITIONAL=58
+crosswalk: PASS, 74 rows, 11 IDENTICAL
+PR #1114: 702cd8e16673f2971ac1e7898603de2d7d087dfa
+          replays the 22 prerequisite families for the source-bound wall
+PR #1115: 065f347a96c91ade7d80df8bf324f646329c623e
+          excludes q=1 and split degrees 2,...,11; leaves 12,...,16
+PR #1116: 44542e91e459364a521870ed2ebde7f6fe5055bf
+          reduces the normalized residue to Q=6,u=2 plane/conic/quartic
+          geometry; its synthetic-model search remains finite evidence
+PR #1117: f42ad6ab64cda5f1d4061b73e739f8944ebb13eb
+          excludes 60 P3+C3 labeled graphs; 405 labeled graphs remain, and
+          the open orbit counts 46,30,10,10 are not a partition of 405
+local owner: rate_half_band_closure, KoalaBear v4 owner ledger
+relation: OVERLAP/evidence with the unpaid K3 balanced-core/residual-geometry
+          obligation; not a supplier for rate_half_kb_v4_tangent_source_atom
+nonclaims: no U_Q, U_BC, U_new, global pencil-chart census, fixed-union
+           aggregation, exhaustive slope payment, adjacent-safe certificate,
+           or endpoint movement
+promotion test: after merge, independently replay the exact stack and prove
+                a source-bound transport into one frozen first-match cell;
+                then either derive its exact distinct-slope integer or an
+                exhaustive zero residual and wire that theorem to the local
+                KoalaBear owner
+result: HARVESTED as provisional route evidence; no DAG delta
+next route-deciding action: continue direct E17/V34 descent while watching
+                            the stack for a global owner/payment theorem
+```
+
+**2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
+parity reduces the chamber to the one/five-odd atlas. A complete dual census,
+the proper-conductor theorem, and dual exact odd-part resultants close every
+surviving profile.
+
+```text
+starting local pin: 8f211958
+canonical prize pin: b60ec497
+upstream main pin: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
+node attacked: N=256, folded profile (3,4,0), V=34 (E=17)
+failed import app: ap-KqmsjnSeuKSHccRguoGspV; explicitly aborted before any
+                   mathematical task and supplies no evidence
+reduction app: ap-c8VmO1f95T4RM21QCIoMbA
+slack result: L<=11; exactly six energy profiles
+majorant policy: not invoked
+parity result: (8,0,1) rejected; five one/five-odd survivors
+light atlas: 14,664 normalized supports in 11+100=111 affine templates
+coverage per engine: 111*binom(124,3)*64=2,203,120,896 vectors
+census app: ap-nuzv6imnkUH0ElJlCLyKRy; dual exact engine agreement;
+            651.958 aggregate dual worker-seconds
+actual profiles: [608,1152,188,92,10], total 2,050
+full conductor: [196,272,20,0,0], total 488
+proper conductor: complementary 1,562 vectors discharged by theorem
+norm app: ap-YS86fN9k5a8svWi6zF2boU; FLINT/PARI agreement on all 488
+distinct norms: 108
+exact whole-norm maximum: 2816861446662266258222239103326104068711609833031798890850684996153986296836
+whole norms at or above 2^250: 16
+exact odd-part maximum: 744372174442013450465816409476894770650462784978029532566873973061928116737
+strict odd margin: 2*odd_max<2^250<3*odd_max; odd threshold hits 0
+result: CLOSED; all five profiles and the V=34 endpoint are PROVED absent
+live positive even variance frontier: V<=32
+delta-star bracket movement: none; this pays one finite E1 exception chamber
+new assumptions: none
+upstream terminal delta: none; local result is OURS_ONLY
+live compute requests: none for E17; never rerun V>=34
+next route-deciding action: derive and price the exact cutoff-free E16/V32
+                            router before authorizing any census
+```
+
+**2026-07-28, E16 cutoff-free route and V=32 endpoint close:** even diameter
+parity reduces the chamber to the zero/four-odd atlas. A complete dual census,
+the proper-conductor theorem, and dual exact odd-part resultants close every
+surviving profile.
+
+```text
+starting local pin: 8770e53e
+canonical prize pin: 82e5f4c4
+upstream main pin: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
+node attacked: N=256, folded profile (3,4,0), V=32 (E=16)
+reduction app: ap-UNOcTGZLQStD1pUQnlIcQG
+slack result: L<=10; exactly five energy profiles
+majorant policy: not invoked
+parity result: (7,0,1) rejected; four zero/four-odd survivors
+light atlas: 28,863 normalized supports in 6+148=154 affine templates
+coverage per engine: 154*binom(124,3)*64=3,056,582,144 vectors
+census app: ap-wX3VHEQgXjopXqefRieIpQ; dual exact engine agreement;
+            959.740 aggregate dual worker-seconds
+actual profiles: [530,0,158,0], total 688; two routed profiles exactly empty
+full conductor: [162,0,16,0], total 178
+proper conductor: complementary 510 vectors discharged by theorem
+norm app: ap-NKEaivIgiXPWHEwHeBgkkM; FLINT/PARI agreement on all 178
+distinct norms: 78
+exact whole-norm maximum: 3310692535087337739109785704249356622971820103039851493935549506897278325762
+whole norms at or above 2^250: 10
+exact odd-part maximum: 1655346267543668869554892852124678311485910051519925746967774753448639162881
+strict odd margin: odd_max<2^250<2*odd_max; odd threshold hits 0
+result: CLOSED; all four profiles and the V=32 endpoint are PROVED absent
+live positive even variance frontier: V<=30
+delta-star bracket movement: none; this pays one finite E1 exception chamber
+new assumptions: none
+upstream terminal delta: none; local result is OURS_ONLY
+live compute requests: none for E16; never rerun V>=32
+next route-deciding action: derive and price the exact cutoff-free E15/V30
+                            router before authorizing any census
+```
+
+**2026-07-28, E15 cutoff-free route and V=30 endpoint close:** odd diameter
+parity reduces the chamber to the three-odd atlas. A complete dual census, the
+proper-conductor theorem, and dual exact odd-part resultants close both
+surviving profiles.
+
+```text
+starting local pin: 8b7dca21
+canonical prize pin: 82e5f4c4
+upstream main pin: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
+node attacked: N=256, folded profile (3,4,0), V=30 (E=15)
+reduction app: ap-4uZGK1UWEjeAnhVm6de5UE
+slack result: L<=9; exactly three energy profiles
+majorant policy: not invoked
+parity result: (6,0,1) rejected; two three-odd survivors
+light atlas: 960 normalized supports in eight affine templates
+coverage per engine: 8*binom(124,3)*64=158,783,488 vectors
+census app: ap-xIQLyhRtHtlRxbQkOIS7Yp; dual exact engine agreement;
+            52.945 aggregate dual worker-seconds
+actual profiles: [258,36], total 294
+full conductor: [64,0], total 64
+proper conductor: complementary 230 vectors discharged by theorem
+norm app: ap-4c65PlujVH2D5kNI12Bcac; FLINT/PARI agreement on all 64
+distinct norms: 28
+exact whole-norm maximum: 3003171528471974836716922425205211633163258783488230570091067301168069285892
+whole norms at or above 2^250: 32
+exact odd-part maximum: 1263041506267492322130816623667822529962454800313964008196082776100356004097
+strict odd margin: odd_max<2^250<2*odd_max; odd threshold hits 0
+result: CLOSED; both profiles and the V=30 endpoint are PROVED absent
+live positive even variance frontier: V<=28
+delta-star bracket movement: none; this pays one finite E1 exception chamber
+new assumptions: none
+upstream terminal delta: none; local result is OURS_ONLY
+live compute requests: none for E15; never rerun V>=30
+next route-deciding action: derive and price the exact cutoff-free E14/V28
+                            router before authorizing any census
+```
+
+**2026-07-28, E14 cutoff-free route and V=28 endpoint close:** even diameter
+parity reduces the chamber to the two/six-odd atlas. A complete dual census
+and the proper-conductor theorem leave 736 full-conductor vectors. The inherited
+odd-part threshold shortcut is false for six vectors, but exact classification
+of the three distinct threshold exceptions repairs the route and closes every
+surviving profile.
+
+```text
+starting local pin: c2689aab
+canonical prize pin: 82e5f4c4
+upstream main pin: fde7d56d0f2d8f135db4f2226e1978644a6c9f44
+node attacked: N=256, folded profile (3,4,0), V=28 (E=14)
+reduction app: ap-rxPXBVj2USK33LIXWpg4Lo
+slack result: L<=10; exactly four energy profiles
+majorant policy: not invoked
+parity result: all four survive; two have two odd classes and two have six
+light atlas: 288,888 normalized supports in 87+1,234=1,321 affine templates
+coverage per engine: 1321*binom(124,3)*64=26,219,123,456 vectors
+failed census app: ap-C2U6Lugoj5XbrqQWnS2rLs; remote path initialization
+                   failed before any mathematical engine ran; no evidence
+census app: ap-rQOuJb9DVQwka46OLEj4Er; dual exact engine agreement;
+            7,636.622 aggregate dual worker-seconds
+actual profiles: [982,714,100,40], total 1,836
+full conductor: [540,184,8,4], total 736
+proper conductor: complementary 1,100 vectors discharged by theorem
+norm app: ap-A7rhyHWVrOpGoAZM9bOuSs; FLINT/PARI agreement on all 736
+distinct norms: 262
+exact whole-norm maximum: 5848948255836721605243059534285585250067895734911016890819011517212606236162
+whole norms at or above 2^250: 152
+exact odd-part maximum: 2924474127918360802621529767142792625033947867455508445409505758606303118081
+odd threshold hits: 6 vectors, 3 distinct odd parts, all below 2^251
+shortcut outcome: FALSIFIED; odd_max<2^250 is false at E14
+candidate app: ap-JtCD7equumzMV4qV44ziGe; exact PARI/FLINT agreement;
+               all 3 distinct threshold odd parts are composite
+eligible pair-feasible prime candidates: 0
+result: CLOSED; all four profiles and the V=28 endpoint are PROVED absent
+live positive even variance frontier: V<=26
+delta-star bracket movement: none; this pays one finite E1 exception chamber
+new assumptions: none
+upstream terminal delta: none; local result is OURS_ONLY
+live compute requests: none for E14; never rerun V>=28
+next route-deciding action: derive and price the exact cutoff-free E13/V26
+                            router before authorizing any census
+```
+
+Upstream reconciliation at `fde7d56d` adds an independent replay of the four
+certified Proth prime rows. Its own contract is confirmation-only and moves no
+mathematical frontier, so it creates no E14 DAG edge. It is bankable submission
+dossier evidence and independently pins the load-bearing rule that `r_quad`
+must be located by the exact sign condition rather than the naive printed
+integer-square-root formula, which is one too large in three of four rates.
+
+**2026-07-28, E13 cutoff-free route and V=26 endpoint close:** odd diameter
+parity reduces the chamber to the one/five-odd atlas. A complete dual census
+and the proper-conductor theorem leave 136 full-conductor vectors. Four odd
+parts cross the simple threshold, but exact classification of their two
+distinct values closes every surviving profile.
+
+```text
+starting local pin: 8793e891
+canonical prize pin: c90a724be07c3dc76bbc33e35b41d92504dd9a09
+upstream main pin: fde7d56d0f2d8f135db4f2226e1978644a6c9f44
+node attacked: N=256, folded profile (3,4,0), V=26 (E=13)
+reduction app: ap-i2oKjwTWqN24exJmrNCPtQ
+slack result: L<=9; exactly four energy profiles
+majorant policy: not invoked
+parity result: all four survive; two have one odd class and two have five
+light atlas: 14,664 normalized supports in 11+100=111 affine templates
+coverage per engine: 111*binom(124,3)*64=2,203,120,896 vectors
+census app: ap-AhqC0lLGj9BYMLmRpKa1mj; dual exact engine agreement;
+            613.766 aggregate dual worker-seconds
+actual profiles: [418,252,104,46], total 820
+full conductor: [112,0,16,8], total 136
+proper conductor: complementary 684 vectors discharged by theorem
+norm app: ap-cXvEeUhd1ym0Ep1InsluxC; FLINT/PARI agreement on all 136
+distinct norms: 36
+exact whole-norm maximum: 4937981356753691307652038461254907642619144628263052811320856547919621259264
+whole norms at or above 2^250: 112
+exact odd-part maximum: 2099233185140600860850973089797376067771315496789913419840767568645748406017
+odd threshold hits: 4 vectors, 2 distinct odd parts, all below 2^251
+candidate app: ap-a4p98JmkMEXvNaIRL7bXzV; exact PARI/FLINT agreement;
+               both distinct threshold odd parts are composite
+eligible pair-feasible prime candidates: 0
+result: CLOSED; all four profiles and the V=26 endpoint are PROVED absent
+live positive even variance frontier: V<=24
+delta-star bracket movement: none; this pays one finite E1 exception chamber
+new assumptions: none
+upstream terminal delta: none; local result is OURS_ONLY
+live compute requests: none for E13; never rerun V>=26
+next route-deciding action: reconcile the square-mass scope question before
+                            authorizing any E12/V24 computation
+```
+
+Canonical reconciliation at `c90a724b` identified square mass, not raw swap
+distance, as the collision coordinate and exposed three additional `S=16`
+splits outside this descent's `(3,4)` scope. The strengthened local node
+`e1_collision_square_mass_reparametrization` now resolves its caveats:
+
+```text
+canonical precursor: 0acf7e8fc48666f0baa98ece396de7095bc496a0
+canonical correction: c90a724be07c3dc76bbc33e35b41d92504dd9a09
+local starting pin: 1c02fea6
+class coordinate: alpha=sum_i(x_i-y_i)zeta^i
+square mass and height: S=4a+b, H=2a+b
+exact support bound: T=min(ell,2h-ell), H<=2T, even S<=4T
+official finite ranges: S<=260 at N=256,ell=65; S<=132 at ell=33
+S=16 feasibility: (3,4), (2,8), (1,12), (0,16) all realized at ell=33,65
+all-even split: (4,0) excluded after division by two
+canonical wording repair: raw distance is not unbounded at fixed N
+N=512 correction: the norm floor leaves s>=2; the proved s=2 band close then
+                      advances that lane to s>=3
+status movement: none; this is a PROVED route-scope correction
+compute decision: E12/V24 is paused; no Modal census authorized
+next route-deciding action: prove an aggregate incidence/direct-image bound
+                            or a finite coefficient-type reduction across the
+                            exact square-mass ranges
+```
+
+Nothing in E13 is retracted: its statement is explicitly restricted to folded
+profile `(3,4,0)`. The new constructions show that the other three `S=16`
+splits are genuine official-size class-pair profiles, rather than artifacts
+removed by the missing `ell` constraint. Since the consumer asks for the
+aggregate allowance `P<=K-B*-1`, proving collision-freeness endpoint by
+endpoint in a single profile is no longer the preferred route.
+
+**2026-07-28, E1 aggregate max-fiber compiler:** the exact Euclidean Plotkin
+identity converts low-square-mass collision-graph coloring into a direct E1
+payload.
+
+```text
+starting local pin: 449d2662
+proved node: e1_low_square_mass_plotkin_coloring_compiler
+open node: e1_official_low_square_mass_collision_coloring
+graph vertices: antipodal-rearrangement classes X_ell
+graph edges: equal reduced E1 value and 0<S<=2ell
+Plotkin color-class cap: ell+1
+fiber cap under c colors: c(ell+1)
+largest sufficient color counts, RowC rates 1/4,1/8,1/16:
+  3268165922105543787, 210, 18885148505476
+largest sufficient color counts, prize rates 1/4,1/8,1/16:
+  54730211038721500, 3, 316259390691
+binding row: prize rate 1/8, N=256, ell=33, S<=66
+binding statement: chi(G_p(33))<=3
+binding fiber cap: 102
+exact image floor: 372561980747787012946133646668959839245 > B*
+stronger sufficient statement: maximum low-mass collision degree <=2
+falsifier: an admissible row with a certified four-chromatic subgraph
+delta-star bracket movement: none; compiler proved, coloring premise open
+new assumptions: none
+compute decision: no broad census authorized; seek a color invariant or a
+                  compact four-chromatic witness first
+upstream placement: finite constants-first analogue of (Q) max-fiber flatness
+```
+
+This route bypasses the stronger `P<=K-B*-1` pair-incidence target. It does
+not require injectivity and permits many modular collisions; only the
+low-square-mass collision graph must satisfy its row-specific color cap.
+
+**Same-day aggregate strengthening:** colorability is not the weakest usable
+premise. Counting low-mass edges and applying the same variance identity
+fiber-by-fiber gives an exact second-moment compiler.
+
+```text
+additional open node: e1_official_low_square_mass_pair_budget
+per-fiber inequality: r_y^2 <= (ell+1)r_y + C e_y
+global inequality: sum_y r_y^2 <= (ell+1)K + C E_low
+C on RowC: 52 at N=256,ell=33; 116 at N=256,ell=65; 64 at N=512,ell=33
+C on prize rows after field floor: 50, 114, 62 respectively
+binding prize-rate-1/8 E_low cap:
+  65127585921474870475467050631501738502567
+relative cap: approximately 1.713824215 K
+simple sufficient theorem: maximum low-mass collision degree <=3
+comparison: degree <=2 pays both coloring and pair-budget routes; degree <=3
+            pays the preferred pair-budget route
+currency guard: unordered class pairs, not normalized vectors/orbits
+next route-deciding action: bound common-prime low-mass neighbors of one class
+```
+
+This target is strictly more tolerant than the three-color route and much more
+tolerant than full injectivity. High-square-mass collisions need no separate
+enumeration: their contribution is absorbed by the Plotkin/Cauchy second
+moment inequality.
+
+**Same-day exact vector dictionary:** the aggregate edge count is now
+translated without loss into the folded-kernel currency used by the existing
+norm and orbit machinery.
+
+```text
+proved node: e1_low_square_mass_weighted_kernel_dictionary
+exact identity: E_low=(1/2) sum_d M_ell(a(d),b(d))
+M_ell: exact ordered class-pair multiplicity of one oriented folded vector
+binding eligible profiles after prize field floor: 271
+binding maximum-weight live profile: (a,b,S)=(4,2,18)
+binding maximum live weight: 1873053318886373426584792000465260242
+uniform sufficient oriented-vector cap: |D_p(33)|<=69541
+preferred target: the weaker exact profile-weighted sum, not the uniform cap
+orbit guard: restore orientation, stabilizers, and M_ell after normalization
+status movement: none; dictionary PROVED, pair budget remains TARGET
+compute decision: no census launched; first assemble proved zero profiles and
+                  exact surviving orbit weights from existing certificates
+```
+
+This removes the previous ambiguity between normalized relation vectors and
+actual class-pair edges. The subsequent proved prize-field-floor exclusion
+uses `p>2^255` and norm parity to delete `S<=16` at `N=256` and `S<=4` at
+`N=512`; RowC is unchanged. It also improves the stopping rule for a future
+binding-row census: 69,541 oriented vectors suffices under worst-case live
+weights, while larger inventories can still pay through the exact weighted
+ledger.
+
+**Same-day leading-profile cofactor sharpening:** combining the existing
+local-reciprocity theorem with the exact prize lower endpoint gives
+
+```text
+leading binding profile: (4,2,S=18)
+norm bound: R<=18^64
+prize cofactor bound: m=R/p<=2013
+local form: m=2^mu(1+256t), mu in {1,2,4,8,16}
+field-floor cofactors: {2, 514, 1026, 1538, 4, 1028, 16, 256}
+residue-degree exclusion: 1026=2*3^3*19
+exact live prize cofactors: {2, 514, 1538, 4, 1028, 16, 256}
+atlas contraction: 419 -> 7 on prize rows
+RowC: unchanged at 419
+next action: price the seven prize classes before any broad support census
+```
+
+**Same-day leading-profile variance/cofactor windows:** exact autocorrelation
+parity and a row-specific logarithmic norm deficit now refine those seven
+classes without a support census.
+
+```text
+proved node: e1_prize_n256_s18_variance_cofactor_windows
+profile: N=256, (a,b,S)=(4,2,18)
+variance: V=2E with exactly one odd positive autocorrelation coefficient
+congruence: E=1 mod 4, hence V=2 mod 8
+pointwise majorant:
+  log x <= log 18+(x-18)/18-(x-18)^2/2367 on 0<x<=100
+exact V=2 norm: R=L_(64/2^t)^(2^t),
+  L_0=2, L_1=18, L_n=18L_(n-1)-L_(n-2)
+V=2 verdict: excluded against the exact prize interval in all four 2-adic rows
+cofactor 1538: eliminated
+cofactor 1028: only V in {10,18}
+other residual upper bounds:
+  m=514 -> 50; m=256 -> 74; m=16 -> 178; m=4 -> 226; m=2 -> 250
+all residuals: 10<=V and V=2 mod 8
+live prize cofactors: 7 -> 6
+RowC movement: none
+compute: no Modal run and no numerical estimate; exact rational replay only
+status movement: pair-budget TARGET remains open
+next action: classify or exclude the two m=1028 chambers before broadening to
+             the other five cofactors; preserve weighted edge multiplicities
+```

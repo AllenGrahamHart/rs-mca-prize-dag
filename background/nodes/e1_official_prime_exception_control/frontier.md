@@ -126,6 +126,32 @@ Independent 26,219,123,456-vector engines find 6,712 actual vectors; conductor
 removes 3,718. Six of the 2,994 full-conductor whole norms reach `2^250`, but
 dual resultants put every odd norm part below `2^250`. Hence `V=36` is empty
 and the live positive even frontier is `V<=34`.
+At `V=34`, the cutoff-free router leaves five profiles on 111 templates.
+Independent 2,203,120,896-vector engines find 2,050 actual vectors; conductor
+removes 1,562. Sixteen of the 488 full-conductor whole norms reach `2^250`,
+but dual resultants put every odd norm part below `2^250`. Hence `V=34` is
+empty and the live positive even frontier is `V<=32`.
+At `V=32`, the cutoff-free router leaves four profiles on 154 templates.
+Independent 3,056,582,144-vector engines find 688 actual vectors; two routed
+profiles are exactly empty and conductor removes 510. Ten of the 178
+full-conductor whole norms reach `2^250`, but dual resultants put every odd
+norm part below `2^250`. Hence `V=32` is empty and the live positive even
+frontier is `V<=30`.
+At `V=30`, the cutoff-free router leaves two profiles on eight templates.
+Independent 158,783,488-vector engines find 294 actual vectors; conductor
+removes 230. Thirty-two of the 64 full-conductor whole norms reach `2^250`,
+but dual resultants put every odd norm part below `2^250`. Hence `V=30` is
+empty and the live positive even frontier is `V<=28`.
+At `V=28`, the cutoff-free router leaves four profiles on 1,321 templates.
+Independent 26,219,123,456-vector engines find 1,836 actual vectors; conductor
+removes 1,100. Six of the 736 full-conductor odd norm parts reach `2^250`, but
+they collapse to three composite integers below `2^251`. Hence `V=28` is
+empty and the live positive even frontier is `V<=26`.
+At `V=26`, the cutoff-free router leaves four profiles on 111 templates.
+Independent 2,203,120,896-vector engines find 820 actual vectors; conductor
+removes 684. Four of the 136 full-conductor odd norm parts reach `2^250`, but
+they collapse to two composite integers below `2^251`. Hence `V=26` is empty
+and the live positive even frontier is `V<=24`.
 Subsequent chambers must
 continue to use geometric emptiness or direct exact norms rather than a bulk
 cubic cutoff. A subfield norm argument also
@@ -141,7 +167,11 @@ also non-Sidon in a signed sense: its repeated-chord cross sum is at most
 `-7`, forcing a three-term progression or four-point parallelogram.
 Local reciprocity sharpens its norm interface further: every collision norm is
 exactly `2^mu p` for one of `mu=1,...,5`. In `(4,2,0)`,
-the formerly broad cofactor window contracts to 419 explicit values.
+the formerly broad cofactor window contracts to 419 explicit RowC values.
+On prize rows, the exact field floor and residue-degree rule leave seven
+cofactors; the proved variance/cofactor theorem removes `1538`, forces
+`V=2 mod 8`, and leaves only `V in {10,18}` for `m=1028`. Six prize cofactors
+remain.
 At `N=512,s=2`, exact negacyclic variance
 excludes `(0,4,0)`, while a complete 129540-state interval-resultant
 certificate excludes `(1,2,0)`. The entire band is closed, so the `N=512`
@@ -159,16 +189,24 @@ E1 is impossible because the complete value set lies in `B`. If
 its balanced-fiber minimum already exceeds the allowance. Both remain
 obligations of the universal unsafe router, not of this target.
 
-The next route-deciding attack is algebraic. Either:
+The next route-deciding attack is algebraic. Square-mass reconciliation
+supersedes the former instruction to continue immediately with `V=24`:
+
+- prove a square-mass-uniform incidence or direct-image bound paying the
+  aggregate `P<=K-B*-1` allowance across the exact finite ranges `S<=260` and
+  `S<=132`; or prove a finite reduction of all coefficient multiplicities to
+  controlled types. The three additional feasible `S=16` splits must be
+  covered explicitly;
 
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
-  after the 2-adic cofactor screen. In `(3,4,0)`, every `V>=44` chamber is
-  closed and must not be rerun. Derive the cutoff-free `V=42` (`E=21`)
-  profile/parity/light router and price its actual-vector residue before
-  authorizing exact norms. Compare that route against the 419 exact cofactor
-  classes in `(4,2,0)`. Treat the
+  after the 2-adic cofactor screen. In `(3,4,0)`, every `V>=26` chamber is
+  closed and must not be rerun. Do not authorize `V=24` until a theorem
+  explains how that profile-local descent contributes efficiently to the
+  aggregate square-mass ledger. Compare any such route against the 419 exact
+  RowC cofactor classes and the six variance-windowed prize classes in
+  `(4,2,0)`. Treat the
   `N=512,s=3` band independently;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;

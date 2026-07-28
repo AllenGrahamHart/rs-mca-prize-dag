@@ -1,0 +1,8 @@
+{
+  "prime_reduction_proof_file": "background/nodes/e1_pair_feasible_prime_field_reduction/proof.md",
+  "prime_reduction_proof_sha256": "5961947efe3624bba0178e757dc0e84e8a92d4606bf1d322d07511671fd08af9",
+  "square_mass_statement_file": "background/nodes/e1_collision_square_mass_reparametrization/statement.md",
+  "square_mass_statement_sha256": "d5009d298c207df416689c933ab6f393ccc7caf6f28078fd34d46930851d4792",
+  "norm_radius_statement_file": "background/nodes/e1_prime_field_l2_norm_collision_radius/statement.md",
+  "norm_radius_statement_sha256": "ed607ee0d843c1f2c74c79129d19ef8d52be96ba2a8ceb77d35014f95d852995"
+}

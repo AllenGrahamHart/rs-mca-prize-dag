@@ -250,6 +250,124 @@
    "notes": "ROUTE REDUCTION 2026-07-27: replaces the crude L1 norm radius by an exact folded L2 bound. It does not control the surviving collision-pair ledger."
   },
   {
+   "id": "e1_collision_square_mass_reparametrization",
+   "title": "E1 class-difference square-mass coordinates and finite height",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_collision_square_mass_reparametrization/statement.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/proof.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/claim_contract.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/dependency_subdag.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/audit.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/frontier.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/result.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/source_pin.json",
+    "background/nodes/e1_collision_square_mass_reparametrization/verify.py",
+    "background/nodes/e1_collision_square_mass_reparametrization/verify_audit.py"
+   ],
+   "statement": "For signed singleton vectors x,y representing two antipodal-rearrangement classes, alpha=sum_i(x_i-y_i)zeta^i has square mass S=4a+b and height H=2a+b. If T=min(ell,2h-ell), then H<=2T and even S<=4T. Raw same-sign antipodal-pair padding changes representative distance but not alpha. At the official parameters S<=260 for N=256,ell=65 and S<=132 for ell=33. Every S=16 split with b>0, namely (3,4),(2,8),(1,12),(0,16), is realized by official-size N=256 class pairs and survives the present norm floor; the existing variance descent covers only (3,4). This reparametrization closes no collision ledger or prize row.",
+   "notes": "CANONICAL RECONCILIATION 2026-07-28: preserves the square-mass insight of prize 0acf7e8f and the N=512 correction c90a724b, repairs the false fixed-order unboundedness wording, pins the formerly missing ell bound, and proves the three additional S=16 splits are genuine feasible class-pair profiles."
+  },
+  {
+   "id": "e1_low_square_mass_plotkin_coloring_compiler",
+   "title": "Low-square-mass Plotkin coloring compiler for direct E1 image",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/statement.md",
+    "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/proof.md",
+    "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/claim_contract.md",
+    "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/dependency_subdag.md",
+    "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/audit.md",
+    "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/frontier.md",
+    "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/result.md",
+    "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/source_pin.json",
+    "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/verify.py",
+    "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "(Q) prefix / quotient flatness (prob:capfpr-Q)",
+    "relation": "ANALOGY_ONLY"
+   },
+   "statement": "On the E1 class set X_ell, join same-value class pairs with square mass S<=2ell. If this graph is c-colorable, the Euclidean Plotkin identity bounds every fiber by c(ell+1), yielding six exact sufficient color caps and the binding prize-rate-1/8 cap chi<=3. More weakly, sum_y r_y^2<=(ell+1)K+(2ell+2-d0)E_low. Here d0 is 16/4 on RowC and the prize field floor sharpens it to 18/6. The binding edge budget is 65127585921474870475467050631501738502567, about 1.714K, so maximum degree three suffices.",
+   "notes": "ROUTE COMPILER 2026-07-28: converts the square-mass scope correction into exact finite max-fiber and low-mass second-moment targets, bypassing the stronger P allowance."
+  },
+  {
+   "id": "e1_prize_field_floor_even_norm_exclusion",
+   "title": "Prize-field-floor exclusion for even low-square-mass E1 norms",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/statement.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/proof.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/audit.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/frontier.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/result.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/source_pin.json",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/verify.py",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/verify_audit.py"
+   ],
+   "statement": "On every pair-feasible prize-envelope prime row, the exact field floor is p>2^255. Every nonzero same-size E1 class-difference norm is even. The folded L2 bound is at most 2^256 for N=256,S<=16 and N=512,S<=4; divisibility by odd p would force the norm to equal p, a contradiction. Hence the prize-row live floors sharpen to S>=18 and S>=6 respectively. RowC is unchanged.",
+   "notes": "ROW-SPECIFIC EXCLUSION 2026-07-28: spends the exact prize interval rather than the common p>=2^250 floor and removes the maximal-weight profiles from the binding aggregate budget."
+  },
+  {
+   "id": "e1_low_square_mass_weighted_kernel_dictionary",
+   "title": "Exact weighted dictionary from E1 collision pairs to folded kernel vectors",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/statement.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/proof.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/claim_contract.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/dependency_subdag.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/audit.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/frontier.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/result.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/source_pin.json",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/verify.py",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "(Q) prefix / quotient flatness (prob:capfpr-Q)",
+    "relation": "ANALOGY_ONLY"
+   },
+   "statement": "For every official E1 row, an oriented folded kernel vector d of profile (a,b) represents exactly M_ell(a,b) ordered class pairs, where M_ell is an explicit binomial sum over singleton allocations and common signed coordinates. Hence E_low=(1/2)sum_d M_ell(a(d),b(d)) exactly. The prize field floor removes S=16 on the binding prize-rate-1/8 row; the maximum live weight is at (4,2,S=18), and the sharpened edge budget makes |D_p(33)|<=69541 oriented low-mass vectors a simple sufficient condition. The weighted condition is weaker and preferred.",
+   "notes": "ROUTE DICTIONARY 2026-07-28: restores exact class-pair multiplicities to folded-vector/orbit counts and converts the binding aggregate premise to a finite weighted kernel-vector budget without adding a red node; recalibrated after the prize-field-floor exclusion."
+  },
+  {
+   "id": "e1_official_low_square_mass_collision_coloring",
+   "title": "Official-row low-square-mass E1 collision-graph coloring",
+   "status": "TARGET",
+   "refs": [
+    "background/nodes/e1_official_low_square_mass_collision_coloring/statement.md",
+    "background/nodes/e1_official_low_square_mass_collision_coloring/claim_contract.md",
+    "background/nodes/e1_official_low_square_mass_collision_coloring/dependency_subdag.md",
+    "background/nodes/e1_official_low_square_mass_collision_coloring/attack.md",
+    "background/nodes/e1_official_low_square_mass_collision_coloring/frontier.md"
+   ],
+   "statement": "For every pair-feasible prime-field row at the six named RowC/prize envelopes, prove that the graph of same-reduced-E1 class pairs with S<=2ell has chromatic number at most its exact row cap: 3268165922105543787, 210, 18885148505476, 54730211038721500, 3, or 316259390691 respectively. The binding prize rate-1/8 row asks for chi<=3 on N=256,ell=33,S<=66. By the proved Plotkin compiler this supplies more than B* distinct values without proving injectivity or the separate P allowance.",
+   "attack_surface": "construct a three-color invariant or degree-two theorem on the binding row; otherwise exhibit an exact four-chromatic low-mass collision subgraph",
+   "falsifier": "an admissible row with certified chromatic number above its printed cap, including a same-fiber low-mass K4 on the binding row"
+  },
+  {
+   "id": "e1_official_low_square_mass_pair_budget",
+   "title": "Official-row low-square-mass E1 collision-pair budget",
+   "status": "TARGET",
+   "refs": [
+    "background/nodes/e1_official_low_square_mass_pair_budget/statement.md",
+    "background/nodes/e1_official_low_square_mass_pair_budget/claim_contract.md",
+    "background/nodes/e1_official_low_square_mass_pair_budget/dependency_subdag.md",
+    "background/nodes/e1_official_low_square_mass_pair_budget/attack.md",
+    "background/nodes/e1_official_low_square_mass_pair_budget/frontier.md"
+   ],
+   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 65127585921474870475467050631501738502567, about 1.714K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)); after the prize field floor removes S=16, at most 69541 oriented vectors is a stronger uniform sufficient condition. The Plotkin compiler then forces more than B* values.",
+   "attack_surface": "prove the exact weighted folded-kernel budget, the stronger 69541 oriented-vector cap on the binding row, or maximum collision degree three; start with the six live prize cofactor classes of (4,2,S=18), especially m=1028 at V in {10,18}, and retain exact orientations, stabilizers, and class-pair multiplicities",
+   "falsifier": "an admissible row whose exact unordered low-mass collision-pair count exceeds its printed budget, or a multiplicity/type error in a claimed count"
+  },
+  {
    "id": "e1_n256_s16_high_variance_collision_exclusion",
    "title": "N=256 square-mass-16 high-variance collision exclusion",
    "status": "PROVED",
@@ -2101,6 +2219,352 @@
    "notes": "ENDPOINT CLOSURE 2026-07-28: the seventh cutoff-free endpoint closes by geometry, conductor, and direct exact odd norms."
   },
   {
+   "id": "e1_n256_s16_e17_profile_parity_light_reduction",
+   "title": "N=256 E=17 profile/parity/light reduction",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e17_profile_parity_light_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e17_profile_parity_light_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e17_profile_parity_light_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e17_profile_parity_light_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e17_profile_parity_light_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e17_profile_parity_light_reduction/result.md",
+    "background/nodes/e1_n256_s16_e17_profile_parity_light_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e17_profile_parity_light_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e17_profile_parity_light_reduction/verify_audit.py",
+    "experiments/prize_resolution/e17_profile_parity_probe_modal.py",
+    "experiments/prize_resolution/e17_profile_parity_probe_result.json",
+    "experiments/prize_resolution/e17_profile_parity_probe_check.py"
+   ],
+   "statement": "For N=256 folded profile (3,4,0) at V=34, exact slack gives L<=11. Of six magnitude profiles, diameter parity excludes (8,0,1) and leaves five one/five-odd profiles. Their complete light ledger has 14,664 normalized supports in 111 affine templates, giving a 2,203,120,896-vector direct floor per engine. No cubic-Hermite cutoff is used.",
+   "notes": "ROUTE REDUCTION 2026-07-28: the eighth complete cutoff-free router below the fixed-majorant boundary. Modal app ap-c8VmO1f95T4RM21QCIoMbA supplies the source-pinned route packet; failed import app ap-KqmsjnSeuKSHccRguoGspV supplies no evidence."
+  },
+  {
+   "id": "e1_n256_s16_e17_five_profile_exclusion",
+   "title": "N=256 E=17 five-profile odd-norm exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e17_five_profile_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e17_five_profile_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e17_five_profile_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e17_five_profile_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e17_five_profile_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e17_five_profile_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e17_five_profile_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e17_five_profile_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e17_five_profile_exclusion/verify_audit.py",
+    "experiments/prize_resolution/e17_five_profile_census.cpp",
+    "experiments/prize_resolution/e17_five_profile_census_audit.cpp",
+    "experiments/prize_resolution/e17_five_profile_census_modal.py",
+    "experiments/prize_resolution/e17_five_profile_census_result.json",
+    "experiments/prize_resolution/e17_five_profile_census_check.py",
+    "experiments/prize_resolution/e17_five_profile_norm_modal.py",
+    "experiments/prize_resolution/e17_five_profile_norm_result.json",
+    "experiments/prize_resolution/e17_five_profile_norm_check.py"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=34, all five routed profiles are impossible. Independent actual-vector engines agree after 2,203,120,896 vectors per engine: 2,050 profile vectors, of which 488 have full conductor and 1,562 are discharged by the proper-conductor theorem. FLINT and PARI agree on 108 distinct full-conductor norms. Sixteen whole norms reach 2^250, but every odd part is below 2^250, so no odd pair-feasible row prime divides one.",
+   "notes": "ROUTE CLOSURE 2026-07-28: dual direct census, conductor, and exact odd-part resultants close the entire cutoff-free E17 router. Modal apps ap-nuzv6imnkUH0ElJlCLyKRy and ap-YS86fN9k5a8svWi6zF2boU supply the pinned census and norm ledgers."
+  },
+  {
+   "id": "e1_n256_s16_e17_endpoint_exclusion",
+   "title": "N=256 E=17 endpoint exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e17_endpoint_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e17_endpoint_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e17_endpoint_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e17_endpoint_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e17_endpoint_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e17_endpoint_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e17_endpoint_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e17_endpoint_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e17_endpoint_exclusion/verify_audit.py"
+   ],
+   "statement": "At N=256 and folded profile (3,4,0), V=34 is impossible. The exact profiles (5,3), (1,4), (4,1,1), (0,2,1), and (1,0,0,1) are exhausted by the proved joint exclusion. The live positive even frontier is 0<V<=32.",
+   "notes": "ENDPOINT CLOSURE 2026-07-28: the eighth cutoff-free endpoint closes by geometry, conductor, and direct exact odd norms."
+  },
+  {
+   "id": "e1_n256_s16_e16_profile_parity_light_reduction",
+   "title": "N=256 E=16 profile/parity/light reduction",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e16_profile_parity_light_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e16_profile_parity_light_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e16_profile_parity_light_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e16_profile_parity_light_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e16_profile_parity_light_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e16_profile_parity_light_reduction/result.md",
+    "background/nodes/e1_n256_s16_e16_profile_parity_light_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e16_profile_parity_light_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e16_profile_parity_light_reduction/verify_audit.py",
+    "experiments/prize_resolution/e16_profile_parity_probe_modal.py",
+    "experiments/prize_resolution/e16_profile_parity_probe_result.json",
+    "experiments/prize_resolution/e16_profile_parity_probe_check.py"
+   ],
+   "statement": "For N=256 folded profile (3,4,0) at V=32, exact slack gives L<=10. Of five magnitude profiles, diameter parity excludes (7,0,1) and leaves four zero/four-odd profiles. Their complete light ledger has 28,863 normalized supports in 154 affine templates, giving a 3,056,582,144-vector direct floor per engine. No cubic-Hermite cutoff is used.",
+   "notes": "ROUTE REDUCTION 2026-07-28: the ninth complete cutoff-free router below the fixed-majorant boundary. Modal app ap-UNOcTGZLQStD1pUQnlIcQG supplies the source-pinned route packet."
+  },
+  {
+   "id": "e1_n256_s16_e16_four_profile_exclusion",
+   "title": "N=256 E=16 four-profile odd-norm exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e16_four_profile_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e16_four_profile_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e16_four_profile_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e16_four_profile_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e16_four_profile_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e16_four_profile_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e16_four_profile_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e16_four_profile_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e16_four_profile_exclusion/verify_audit.py",
+    "experiments/prize_resolution/e16_four_profile_census.cpp",
+    "experiments/prize_resolution/e16_four_profile_census_audit.cpp",
+    "experiments/prize_resolution/e16_four_profile_census_modal.py",
+    "experiments/prize_resolution/e16_four_profile_census_result.json",
+    "experiments/prize_resolution/e16_four_profile_census_check.py",
+    "experiments/prize_resolution/e16_four_profile_norm_modal.py",
+    "experiments/prize_resolution/e16_four_profile_norm_result.json",
+    "experiments/prize_resolution/e16_four_profile_norm_check.py"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=32, all four routed profiles are impossible. Independent actual-vector engines agree after 3,056,582,144 vectors per engine: 688 profile vectors, of which 178 have full conductor and 510 are discharged by the proper-conductor theorem; two routed profiles are exactly empty. FLINT and PARI agree on 78 distinct full-conductor norms. Ten whole norms reach 2^250, but every odd part is below 2^250, so no odd pair-feasible row prime divides one.",
+   "notes": "ROUTE CLOSURE 2026-07-28: dual direct census, conductor, and exact odd-part resultants close the entire cutoff-free E16 router. Modal apps ap-wX3VHEQgXjopXqefRieIpQ and ap-NKEaivIgiXPWHEwHeBgkkM supply the pinned census and norm ledgers."
+  },
+  {
+   "id": "e1_n256_s16_e16_endpoint_exclusion",
+   "title": "N=256 E=16 endpoint exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e16_endpoint_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e16_endpoint_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e16_endpoint_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e16_endpoint_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e16_endpoint_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e16_endpoint_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e16_endpoint_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e16_endpoint_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e16_endpoint_exclusion/verify_audit.py"
+   ],
+   "statement": "At N=256 and folded profile (3,4,0), V=32 is impossible. The exact profiles (4,3), (0,4), (3,1,1), and (0,0,0,1) are exhausted by the proved joint exclusion. The live positive even frontier is 0<V<=30.",
+   "notes": "ENDPOINT CLOSURE 2026-07-28: the ninth cutoff-free endpoint closes by geometry, conductor, and direct exact odd norms."
+  },
+  {
+   "id": "e1_n256_s16_e15_profile_parity_light_reduction",
+   "title": "N=256 E=15 profile/parity/light reduction",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e15_profile_parity_light_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e15_profile_parity_light_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e15_profile_parity_light_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e15_profile_parity_light_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e15_profile_parity_light_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e15_profile_parity_light_reduction/result.md",
+    "background/nodes/e1_n256_s16_e15_profile_parity_light_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e15_profile_parity_light_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e15_profile_parity_light_reduction/verify_audit.py",
+    "experiments/prize_resolution/e15_profile_parity_probe_modal.py",
+    "experiments/prize_resolution/e15_profile_parity_probe_result.json",
+    "experiments/prize_resolution/e15_profile_parity_probe_check.py"
+   ],
+   "statement": "For N=256 folded profile (3,4,0) at V=30, exact slack gives L<=9. Of three magnitude profiles, diameter parity excludes (6,0,1) and leaves the two three-odd profiles (3,3) and (2,1,1). Their complete light ledger has 960 normalized supports in eight affine templates, giving a 158,783,488-vector direct floor per engine. No cubic-Hermite cutoff is used.",
+   "notes": "ROUTE REDUCTION 2026-07-28: the tenth complete cutoff-free router below the fixed-majorant boundary. Modal app ap-4uZGK1UWEjeAnhVm6de5UE supplies the source-pinned route packet."
+  },
+  {
+   "id": "e1_n256_s16_e15_two_profile_exclusion",
+   "title": "N=256 E=15 two-profile odd-norm exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e15_two_profile_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e15_two_profile_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e15_two_profile_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e15_two_profile_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e15_two_profile_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e15_two_profile_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e15_two_profile_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e15_two_profile_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e15_two_profile_exclusion/verify_audit.py",
+    "experiments/prize_resolution/e15_two_profile_census.cpp",
+    "experiments/prize_resolution/e15_two_profile_census_audit.cpp",
+    "experiments/prize_resolution/e15_two_profile_census_modal.py",
+    "experiments/prize_resolution/e15_two_profile_census_result.json",
+    "experiments/prize_resolution/e15_two_profile_census_check.py",
+    "experiments/prize_resolution/e15_two_profile_norm_modal.py",
+    "experiments/prize_resolution/e15_two_profile_norm_result.json",
+    "experiments/prize_resolution/e15_two_profile_norm_check.py"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=30, both routed profiles are impossible. Independent actual-vector engines agree after 158,783,488 vectors per engine: 294 profile vectors, of which 64 have full conductor and 230 are discharged by the proper-conductor theorem. FLINT and PARI agree on 28 distinct full-conductor norms. Thirty-two whole norms reach 2^250, but every odd part is below 2^250, so no odd pair-feasible row prime divides one.",
+   "notes": "ROUTE CLOSURE 2026-07-28: dual direct census, conductor, and exact odd-part resultants close the entire cutoff-free E15 router. Modal apps ap-xIQLyhRtHtlRxbQkOIS7Yp and ap-4c65PlujVH2D5kNI12Bcac supply the pinned census and norm ledgers."
+  },
+  {
+   "id": "e1_n256_s16_e15_endpoint_exclusion",
+   "title": "N=256 E=15 endpoint exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e15_endpoint_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e15_endpoint_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e15_endpoint_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e15_endpoint_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e15_endpoint_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e15_endpoint_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e15_endpoint_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e15_endpoint_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e15_endpoint_exclusion/verify_audit.py"
+   ],
+   "statement": "At N=256 and folded profile (3,4,0), V=30 is impossible. The exact profiles (3,3) and (2,1,1) are exhausted by the proved joint exclusion. The live positive even frontier is 0<V<=28.",
+   "notes": "ENDPOINT CLOSURE 2026-07-28: the tenth cutoff-free endpoint closes by geometry, conductor, and direct exact odd norms."
+  },
+  {
+   "id": "e1_n256_s16_e14_profile_parity_light_reduction",
+   "title": "N=256 E=14 profile/parity/light reduction",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e14_profile_parity_light_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e14_profile_parity_light_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e14_profile_parity_light_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e14_profile_parity_light_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e14_profile_parity_light_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e14_profile_parity_light_reduction/result.md",
+    "background/nodes/e1_n256_s16_e14_profile_parity_light_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e14_profile_parity_light_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e14_profile_parity_light_reduction/verify_audit.py",
+    "experiments/prize_resolution/e14_profile_parity_probe_modal.py",
+    "experiments/prize_resolution/e14_profile_parity_probe_result.json",
+    "experiments/prize_resolution/e14_profile_parity_probe_check.py"
+   ],
+   "statement": "For N=256 folded profile (3,4,0) at V=28, exact slack gives L<=10. The four magnitude profiles (6,2), (2,3), (5,0,1), and (1,1,1) have two or six odd classes. Their complete light ledger has 288,888 normalized supports in 1,321 affine templates, giving a 26,219,123,456-vector direct floor per engine. No cubic-Hermite cutoff is used.",
+   "notes": "ROUTE REDUCTION 2026-07-28: the eleventh complete cutoff-free router below the fixed-majorant boundary. Modal app ap-rxPXBVj2USK33LIXWpg4Lo supplies the source-pinned route packet."
+  },
+  {
+   "id": "e1_n256_s16_e14_four_profile_exclusion",
+   "title": "N=256 E=14 four-profile exact-prime exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e14_four_profile_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e14_four_profile_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e14_four_profile_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e14_four_profile_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e14_four_profile_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e14_four_profile_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e14_four_profile_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e14_four_profile_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e14_four_profile_exclusion/verify_audit.py",
+    "experiments/prize_resolution/e14_four_profile_census.cpp",
+    "experiments/prize_resolution/e14_four_profile_census_audit.cpp",
+    "experiments/prize_resolution/e14_four_profile_census_modal.py",
+    "experiments/prize_resolution/e14_four_profile_census_result.json",
+    "experiments/prize_resolution/e14_four_profile_census_check.py",
+    "experiments/prize_resolution/e14_four_profile_norm_modal.py",
+    "experiments/prize_resolution/e14_four_profile_norm_result.json",
+    "experiments/prize_resolution/e14_four_profile_norm_check.py",
+    "experiments/prize_resolution/e14_large_odd_candidate_modal.py",
+    "experiments/prize_resolution/e14_large_odd_candidate_result.json",
+    "experiments/prize_resolution/e14_large_odd_candidate_check.py"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=28, all four routed profiles are impossible. Dual 26,219,123,456-vector censuses find 1,836 actual vectors; conductor removes 1,100. Of 736 full-conductor norms, six odd parts reach 2^250, but they comprise three composite integers below 2^251. Hence no pair-feasible row prime divides a residual norm.",
+   "notes": "ROUTE CLOSURE 2026-07-28: the below-threshold shortcut is false, but dual census, conductor, exact resultants, and dual exact primality classification close E14. Modal apps ap-rQOuJb9DVQwka46OLEj4Er, ap-A7rhyHWVrOpGoAZM9bOuSs, and ap-JtCD7equumzMV4qV44ziGe supply the pinned ledgers."
+  },
+  {
+   "id": "e1_n256_s16_e14_endpoint_exclusion",
+   "title": "N=256 E=14 endpoint exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e14_endpoint_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e14_endpoint_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e14_endpoint_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e14_endpoint_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e14_endpoint_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e14_endpoint_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e14_endpoint_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e14_endpoint_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e14_endpoint_exclusion/verify_audit.py"
+   ],
+   "statement": "At N=256 and folded profile (3,4,0), V=28 is impossible. The exact profiles (6,2), (2,3), (5,0,1), and (1,1,1) are exhausted by the proved joint exclusion. The live positive even frontier is 0<V<=26.",
+   "notes": "ENDPOINT CLOSURE 2026-07-28: the eleventh cutoff-free endpoint closes by geometry, conductor, direct exact odd norms, and exact classification of the threshold exceptions."
+  },
+  {
+   "id": "e1_n256_s16_e13_profile_parity_light_reduction",
+   "title": "N=256 E=13 profile/parity/light reduction",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e13_profile_parity_light_reduction/statement.md",
+    "background/nodes/e1_n256_s16_e13_profile_parity_light_reduction/proof.md",
+    "background/nodes/e1_n256_s16_e13_profile_parity_light_reduction/claim_contract.md",
+    "background/nodes/e1_n256_s16_e13_profile_parity_light_reduction/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e13_profile_parity_light_reduction/audit.md",
+    "background/nodes/e1_n256_s16_e13_profile_parity_light_reduction/result.md",
+    "background/nodes/e1_n256_s16_e13_profile_parity_light_reduction/source_pin.json",
+    "background/nodes/e1_n256_s16_e13_profile_parity_light_reduction/verify.py",
+    "background/nodes/e1_n256_s16_e13_profile_parity_light_reduction/verify_audit.py",
+    "experiments/prize_resolution/e13_profile_parity_probe_modal.py",
+    "experiments/prize_resolution/e13_profile_parity_probe_result.json",
+    "experiments/prize_resolution/e13_profile_parity_probe_check.py"
+   ],
+   "statement": "For N=256 folded profile (3,4,0) at V=26, exact slack gives L<=9. The four profiles (5,2), (1,3), (4,0,1), and (0,1,1) have one or five odd classes. Their complete light ledger has 14,664 normalized supports in 111 affine templates, giving a 2,203,120,896-vector direct floor per engine. No cubic-Hermite cutoff is used.",
+   "notes": "ROUTE REDUCTION 2026-07-28: the twelfth complete cutoff-free router below the fixed-majorant boundary. Modal app ap-i2oKjwTWqN24exJmrNCPtQ supplies the source-pinned route packet."
+  },
+  {
+   "id": "e1_n256_s16_e13_four_profile_exclusion",
+   "title": "N=256 E=13 four-profile exact-prime exclusion",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e13_four_profile_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e13_four_profile_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e13_four_profile_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e13_four_profile_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e13_four_profile_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e13_four_profile_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e13_four_profile_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e13_four_profile_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e13_four_profile_exclusion/verify_audit.py",
+    "experiments/prize_resolution/e13_four_profile_census.cpp",
+    "experiments/prize_resolution/e13_four_profile_census_audit.cpp",
+    "experiments/prize_resolution/e13_four_profile_census_modal.py",
+    "experiments/prize_resolution/e13_four_profile_census_result.json",
+    "experiments/prize_resolution/e13_four_profile_census_check.py",
+    "experiments/prize_resolution/e13_four_profile_norm_modal.py",
+    "experiments/prize_resolution/e13_four_profile_norm_result.json",
+    "experiments/prize_resolution/e13_four_profile_norm_check.py",
+    "experiments/prize_resolution/e13_large_odd_candidate_modal.py",
+    "experiments/prize_resolution/e13_large_odd_candidate_result.json",
+    "experiments/prize_resolution/e13_large_odd_candidate_check.py"
+   ],
+   "statement": "At N=256, folded profile (3,4,0), and V=26, all four routed profiles are impossible. Dual 2,203,120,896-vector censuses find 820 actual vectors; conductor removes 684. Of 136 full-conductor norms, four odd parts reach 2^250, but they comprise two composite integers below 2^251. Hence no pair-feasible row prime divides a residual norm.",
+   "notes": "ROUTE CLOSURE 2026-07-28: dual census, conductor, exact resultants, and dual exact primality classification close E13. Modal apps ap-AhqC0lLGj9BYMLmRpKa1mj, ap-cXvEeUhd1ym0Ep1InsluxC, and ap-a4p98JmkMEXvNaIRL7bXzV supply the pinned ledgers."
+  },
+  {
+   "id": "e1_n256_s16_e13_endpoint_exclusion",
+   "title": "N=256 E=13 endpoint exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_n256_s16_e13_endpoint_exclusion/statement.md",
+    "background/nodes/e1_n256_s16_e13_endpoint_exclusion/proof.md",
+    "background/nodes/e1_n256_s16_e13_endpoint_exclusion/claim_contract.md",
+    "background/nodes/e1_n256_s16_e13_endpoint_exclusion/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e13_endpoint_exclusion/audit.md",
+    "background/nodes/e1_n256_s16_e13_endpoint_exclusion/result.md",
+    "background/nodes/e1_n256_s16_e13_endpoint_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e13_endpoint_exclusion/verify.py",
+    "background/nodes/e1_n256_s16_e13_endpoint_exclusion/verify_audit.py"
+   ],
+   "statement": "At N=256 and folded profile (3,4,0), V=26 is impossible. The exact profiles (5,2), (1,3), (4,0,1), and (0,1,1) are exhausted by the proved joint exclusion. The live positive even frontier is 0<V<=24.",
+   "notes": "ENDPOINT CLOSURE 2026-07-28: the twelfth cutoff-free endpoint closes by geometry, conductor, direct exact odd norms, and exact classification of the threshold exceptions."
+  },
+  {
    "id": "e1_first_band_variance_route_boundary",
    "title": "E1 first-band cubic-Hermite variance route boundary",
    "status": "PROVED",
@@ -2141,8 +2605,26 @@
     "background/nodes/e1_n256_local_norm_cofactor_collapse/source_pin.json",
     "background/nodes/e1_n256_local_norm_cofactor_collapse/verify.py"
    ],
-   "statement": "Local reciprocity gives R/2^mu=1 mod 256 for every nonzero integral norm R from Q_2(zeta_256), where mu=v_2(R). On the pair-feasible branch p=1 mod 256. If R=pm, then m/2^mu=1 mod 256. Consequently profile (3,4,0) has exactly five possible cofactors m=2^mu for 1<=mu<=5, so R=2^mu p. Profile (4,2,0) has 419 possible cofactors m=2^mu(1+256t)<2^17 with mu in {1,2,4,8,16}.",
-   "notes": "ROUTE REDUCTION 2026-07-27: replaces broad cofactor intervals by exact local-norm congruence classes. It does not prove primality or interval membership of the remaining odd norm parts."
+   "statement": "Local reciprocity gives R/2^mu=1 mod 256 for every nonzero integral norm R from Q_2(zeta_256), where mu=v_2(R). On the pair-feasible branch p=1 mod 256. Profile (3,4,0) has five possible cofactors and R=2^mu p. Profile (4,2,0) has 419 possible RowC cofactors; the exact prize field floor leaves eight, then the cyclotomic residue-degree rule excludes 1026=2*3^3*19. The seven live prize values are 2, 514, 1538, 4, 1028, 16, 256.",
+   "notes": "ROUTE REDUCTION 2026-07-27, sharpened 2026-07-28: replaces broad cofactor intervals by exact local-norm congruence classes and reduces the leading prize S=18 profile from 419 cofactors to seven. It does not prove the remaining norm counts."
+  },
+  {
+   "id": "e1_prize_n256_s18_variance_cofactor_windows",
+   "title": "Prize N=256 square-mass-18 variance/cofactor windows",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/statement.md",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/proof.md",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/audit.md",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/result.md",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, every profile-(4,2,0) collision has autocorrelation variance V=2 mod 8. An exact logarithmic deficit gives cofactor-specific finite windows, and a Lucas-resultant calculation excludes V=2. Cofactor 1538 is impossible; cofactor 1028 retains only V in {10,18}; the other five live cofactors have explicit bounded V=2 mod 8 residuals.",
+   "notes": "ROUTE REDUCTION 2026-07-28: narrows the leading prize S=18 profile without a census or numerical norm estimate. Six cofactor classes remain, so this is evidence for rather than closure of the aggregate pair budget."
   },
   {
    "id": "e1_n512_four_singleton_collision_exclusion",
@@ -7147,7 +7629,7 @@
    "statement": "Uniformly for every admissible clean-anchor row in the independently defined pair-feasible direct-E1 class B=F_p(Q), |B|>=b_pair_min(K,B*)=ceil((K+B*+1)/3), with all field, embedding, owner, and endpoint data pinned, let quotient orders N in {256,512}, K=A_2(N,ell), and P=sum_y binom(r_y,2) count unordered pairs of distinct characteristic-zero classes colliding after reduction. By e1_pair_feasible_prime_field_reduction every such named-anchor row has q=p and p=1 mod N. Exact folded-norm arguments force collision distance s>=5 for N=256 and s>=2 for N=512. Prove P<=K-B*-1 for B*=floor(|F|/2^128). The formerly printed {128,256} are folded dimensions, not live quotient orders. Finite selected-field exhibit certificates do not discharge this route-uniform target.",
    "attack_surface": "prove the exact pair-feasible-class incidence bound, construct a pair-feasible row above allowance, or give a complete per-input image/collision certifier theorem",
    "falsifier": "a pair-feasible candidate row with P>K-B*-1; a certifier leaving such a row uncovered; or any base/ambient-field normalization failure",
-   "notes": "EXACT FINITE RE-POSE 2026-07-26, narrowed 2026-07-27: replaces negligible/o(1) language, fixes quotient-order versus folded-dimension notation, proves that the live branch is prime-field, excludes s<=4 at N=256 and s<=2 at N=512 by exact folded norms, and closes profile (3,4,0) through V=56 by complete profile, template-census, conductor, and exact-resultant packets. Its positive even residual is V<=54. Selected-field exhibits remain evidence only, and unsafe_crossing_family_instantiation owns global row routing."
+   "notes": "EXACT FINITE RE-POSE 2026-07-26, narrowed 2026-07-28: replaces negligible/o(1) language, fixes quotient-order versus folded-dimension notation, proves that the live branch is prime-field, excludes s<=4 at N=256 and s=1 at N=512 by exact folded norms, and closes profile (3,4,0) through V=26. Square-mass reconciliation proves three other feasible S=16 profiles remain outside that descent, so V=24 computation is paused in favor of an aggregate incidence or direct-image theorem. Selected-field exhibits remain evidence only, and unsafe_crossing_family_instantiation owns global row routing."
   },
   {
    "id": "ef_fullfield_bridge",
@@ -18566,11 +19048,6 @@
    "attack_surface": "The Delta certificate: show the ideal (R_0..R_9) in Z[e_2,e_4,e_6,e_8,e_9,e_10] has no characteristic-zero point and extract Delta. Symbolic Y^1024 mod G blows up, so prefer the clean symmetric-function form recorded on the (4,9) node.",
    "falsifier": "A monic quintic E and nonzero e_9 over an admissible field with G = E(Y)^2 - e_9^2 Y dividing Y^1024-1 whose reconstruction yields a genuine reduced weight-10 relation satisfying the ell=4 window -- i.e. a live (4,10) vanisher.",
    "notes": "Minted 2026-07-27. The parity dichotomy flagged (4,10) as obstructed (gcd(10,2048)=2) and predicted it would need a sub-tuple router in the style of the closed (2,5)/(2,6). The resolution is simpler: even weights need no dilation at all, because the window conditions alone deliver the normal form and e_9 != 0 comes free from reducedness. Subtraction check clean at b13de811."
-  },
-  {
-   "id": "e1_collision_square_mass_reparametrization",
-   "status": "PROVED",
-   "statement": "Using the pinned coordinates of e1_prime_field_l2_norm_collision_radius, the folded square mass S=4a+b and the raw swap distance s=a+b/2+c satisfy: same-sign antipodal pairs cancel in alpha, so c contributes to s and nothing to alpha. Fixing (a,b) and growing c gives the same alpha, the same norm, and unbounded s, so no norm bound can bound s above. The collision floor is S>=15 at N=256 and S>=4 at N=512, equivalent to the pinned s<=4 and s=1 exclusions on the opposite-sign-only family; a full enumeration of band s=5 at N=256 returns exactly the pinned survivors (3,4,0) and (4,2,0). Consequently the exhaustion is governed by square mass, not band: at S=16 the live splits are (3,4),(2,8),(1,12),(0,16), of which the variance-descent campaign works (3,4) only. Whether the other three are excluded is OPEN (see frontier.md). Closes no variance level, profile, row, or terminal."
   }
  ],
  "edges": [
@@ -20390,6 +20867,11 @@
    "kind": "req"
   },
   {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_n256_local_norm_cofactor_collapse",
+   "kind": "req"
+  },
+  {
    "from": "e1_prime_field_l2_norm_collision_radius",
    "to": "e1_n512_four_singleton_collision_exclusion",
    "kind": "req"
@@ -20861,6 +21343,41 @@
   },
   {
    "from": "e1_n256_local_norm_cofactor_collapse",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_local_norm_cofactor_collapse",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_prize_n256_s18_variance_cofactor_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_prize_n256_s18_variance_cofactor_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_local_norm_cofactor_collapse",
+   "to": "e1_prize_n256_s18_variance_cofactor_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
@@ -35670,6 +36187,416 @@
    "kind": "ev"
   },
   {
+   "from": "e1_n256_s16_e18_endpoint_exclusion",
+   "to": "e1_n256_s16_e17_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e17_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "e1_n256_s16_e17_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e27_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e17_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e17_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e17_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e17_five_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e17_five_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e17_five_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e17_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e17_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e17_five_profile_exclusion",
+   "to": "e1_n256_s16_e17_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e17_profile_parity_light_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e17_profile_parity_light_reduction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e17_five_profile_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e17_five_profile_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e17_endpoint_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e17_endpoint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e17_endpoint_exclusion",
+   "to": "e1_n256_s16_e16_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e16_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "e1_n256_s16_e16_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e26_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e16_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e16_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e16_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e16_four_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e16_four_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e16_four_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e16_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e16_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e16_four_profile_exclusion",
+   "to": "e1_n256_s16_e16_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e16_profile_parity_light_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e16_profile_parity_light_reduction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e16_four_profile_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e16_four_profile_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e16_endpoint_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e16_endpoint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e16_endpoint_exclusion",
+   "to": "e1_n256_s16_e15_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e15_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "e1_n256_s16_e15_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e27_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e15_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e15_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e15_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e15_two_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e15_two_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e15_two_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e15_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e15_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e15_two_profile_exclusion",
+   "to": "e1_n256_s16_e15_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e15_profile_parity_light_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e15_profile_parity_light_reduction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e15_two_profile_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e15_two_profile_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e15_endpoint_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e15_endpoint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e15_endpoint_exclusion",
+   "to": "e1_n256_s16_e14_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e14_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "e1_n256_s16_e14_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e26_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e14_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e14_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e14_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e14_four_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e14_four_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e14_four_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_n256_s16_e14_four_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e14_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e14_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e14_four_profile_exclusion",
+   "to": "e1_n256_s16_e14_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e14_profile_parity_light_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e14_profile_parity_light_reduction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e14_four_profile_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e14_four_profile_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e14_endpoint_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e14_endpoint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e14_endpoint_exclusion",
+   "to": "e1_n256_s16_e13_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+   "to": "e1_n256_s16_e13_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_signed_chord_collision_gate",
+   "to": "e1_n256_s16_e13_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e27_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e13_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e13_profile_parity_light_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e13_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e13_four_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_proper_conductor_collision_exclusion",
+   "to": "e1_n256_s16_e13_four_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_n256_s16_e13_four_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_n256_s16_e13_four_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e13_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e13_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e13_four_profile_exclusion",
+   "to": "e1_n256_s16_e13_endpoint_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e13_profile_parity_light_reduction",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e13_profile_parity_light_reduction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e13_four_profile_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e13_four_profile_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e13_endpoint_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e13_endpoint_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
    "from": "collision_norm_criterion",
    "to": "e1_first_band_variance_route_boundary",
    "kind": "req"
@@ -35685,6 +36612,11 @@
    "kind": "ev"
   },
   {
+   "from": "acl_count",
+   "to": "e1_collision_square_mass_reparametrization",
+   "kind": "req"
+  },
+  {
    "from": "e1_prime_field_l2_norm_collision_radius",
    "to": "e1_collision_square_mass_reparametrization",
    "kind": "req"
@@ -35696,6 +36628,106 @@
   },
   {
    "from": "e1_collision_square_mass_reparametrization",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "acl_count",
+   "to": "e1_low_square_mass_plotkin_coloring_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "e1_clean_anchor_exact_collision_allowance",
+   "to": "e1_low_square_mass_plotkin_coloring_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "e1_collision_square_mass_reparametrization",
+   "to": "e1_low_square_mass_plotkin_coloring_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_low_square_mass_plotkin_coloring_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_low_square_mass_plotkin_coloring_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_plotkin_coloring_compiler",
+   "to": "e1_official_low_square_mass_collision_coloring",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_official_low_square_mass_collision_coloring",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_low_square_mass_plotkin_coloring_compiler",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_collision_square_mass_reparametrization",
+   "to": "e1_low_square_mass_weighted_kernel_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_low_square_mass_weighted_kernel_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_plotkin_coloring_compiler",
+   "to": "e1_low_square_mass_weighted_kernel_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_prize_field_floor_even_norm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_collision_square_mass_reparametrization",
+   "to": "e1_prize_field_floor_even_norm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_prize_field_floor_even_norm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_low_square_mass_weighted_kernel_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_official_low_square_mass_collision_coloring",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_official_low_square_mass_pair_budget",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   }

@@ -1,0 +1,18 @@
+{
+  "probe_source_file": "experiments/prize_resolution/e14_profile_parity_probe_modal.py",
+  "probe_source_file_sha256": "453c4f759b574e9b301ffb98cea015041685f6e735974c6fe2c0a5e9d38d78a9",
+  "probe_result_file": "experiments/prize_resolution/e14_profile_parity_probe_result.json",
+  "probe_result_file_sha256": "d4a07ed58c8a264c6a5db9edcefb393755804fee1612addb0a9f77ff7c78030f",
+  "probe_checker_file": "experiments/prize_resolution/e14_profile_parity_probe_check.py",
+  "probe_checker_file_sha256": "bc8410de53fc82925f6ee3d45345a0b3961f537bde33b774a4528943ce1cad1a",
+  "atlas_result_file": "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_profile_parity_probe_result.json",
+  "atlas_result_file_sha256": "db0b1b49919f1ab55f3b250f4d9523db961fe3cc6f0aa5c78b081b1d195db82e",
+  "previous_endpoint_statement_file": "background/nodes/e1_n256_s16_e15_endpoint_exclusion/statement.md",
+  "previous_endpoint_statement_file_sha256": "087cedf34a7dfbf52eee5b352ee11096aa57d9afec85c35915bf05a840b6f23d",
+  "slack_statement_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/statement.md",
+  "slack_statement_file_sha256": "5dad1a8acbe7f8d4f1db89771371203fe257f65c8f7ea5d4b03e3df4ada32c12",
+  "chord_statement_file": "background/nodes/e1_n256_s16_signed_chord_collision_gate/statement.md",
+  "chord_statement_file_sha256": "926f9c94a0b5dd0830b7e37fafcd96f570dd93802de16061c802546e466e3157",
+  "collision_norm_statement_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_statement_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566"
+}

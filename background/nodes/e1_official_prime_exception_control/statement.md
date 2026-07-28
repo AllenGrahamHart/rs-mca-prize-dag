@@ -135,10 +135,51 @@ two/six-odd affine templates. Independent 26,219,123,456-vector engines find
 theorem removes the other 3,718. Six full-conductor whole norms reach
 `2^250`, but independent FLINT/PARI ledgers put every odd norm part below
 `2^250`. Thus `V=36` is empty and the live positive even frontier is `V<=34`.
+At `V=34`, cutoff-free slack and parity leave five profiles on 111
+one/five-odd affine templates. Independent 2,203,120,896-vector engines find
+2,050 profile vectors, including 488 at full conductor. The conductor theorem
+removes the other 1,562. Sixteen full-conductor whole norms reach `2^250`, but
+independent FLINT/PARI ledgers put every odd norm part below `2^250`. Thus
+`V=34` is empty and the live positive even frontier is `V<=32`.
+At `V=32`, cutoff-free slack and parity leave four profiles on 154
+zero/four-odd affine templates. Independent 3,056,582,144-vector engines find
+688 profile vectors, including 178 at full conductor; two routed profiles are
+exactly empty. The conductor theorem removes the other 510. Ten
+full-conductor whole norms reach `2^250`, but independent FLINT/PARI ledgers
+put every odd norm part below `2^250`. Thus `V=32` is empty and the live
+positive even frontier is `V<=30`.
+At `V=30`, cutoff-free slack and parity leave two profiles on eight three-odd
+affine templates. Independent 158,783,488-vector engines find 294 profile
+vectors, including 64 at full conductor. The conductor theorem removes the
+other 230. Thirty-two full-conductor whole norms reach `2^250`, but
+independent FLINT/PARI ledgers put every odd norm part below `2^250`. Thus
+`V=30` is empty and the live positive even frontier is `V<=28`.
+At `V=28`, cutoff-free slack and parity leave four profiles on 1,321
+two/six-odd affine templates. Independent 26,219,123,456-vector engines find
+1,836 profile vectors, including 736 at full conductor. The conductor theorem
+removes the other 1,100. Six full-conductor odd norm parts reach `2^250`, but
+they comprise three composite integers below `2^251` by independent exact
+PARI/FLINT primality tests. Thus `V=28` is empty and the live positive even
+frontier is `V<=26`.
+At `V=26`, cutoff-free slack and parity leave four profiles on 111 one/five-odd
+templates. Independent 2,203,120,896-vector engines find 820 profile vectors,
+including 136 at full conductor. The conductor theorem removes the other 684.
+Four full-conductor odd norm parts reach `2^250`, but they comprise two
+composite integers below `2^251` by exact PARI/FLINT tests. Thus `V=26` is
+empty and the live positive even frontier is `V<=24`.
 At `N=512,s=2`, exact variance
 excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.
 Thus any surviving `N=512` collision has `s>=3`.
+
+The distance-band statement is not a square-mass exhaustion. By
+`e1_collision_square_mass_reparametrization`, the class difference has
+`S=4a+b`, with exact finite bounds `S<=260` for the rate-`1/4` lane and
+`S<=132` for the other two lanes. At `N=256,S=16`, the additional splits
+`(2,8)`, `(1,12)`, and `(0,16)` are realized by official-size class pairs and
+survive the current norm test. The variance campaign covers only `(3,4)`.
+Its `V<=24` residual is therefore profile-local evidence, not the next
+route-uniform frontier.
 
 The actual quotient orders are
 

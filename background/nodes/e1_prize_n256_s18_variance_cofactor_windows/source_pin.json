@@ -1,0 +1,10 @@
+{
+  "cofactor_statement_file": "background/nodes/e1_n256_local_norm_cofactor_collapse/statement.md",
+  "cofactor_statement_sha256": "6620a3737bc8fb7b748163f803aa8c5e94c75df3100cdd710dd045113e5a9f08",
+  "cofactor_proof_file": "background/nodes/e1_n256_local_norm_cofactor_collapse/proof.md",
+  "cofactor_proof_sha256": "3a9a1f8d7f1a77ec25d349009afe9715095052e5a44187f253fb05fdd6df89ae",
+  "field_floor_statement_file": "background/nodes/e1_prize_field_floor_even_norm_exclusion/statement.md",
+  "field_floor_statement_sha256": "39bebf1adf9b5adc80d8f34ba3f9bffaaff8a2eb14498385ebc1549289ce2f8f",
+  "collision_norm_statement_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_statement_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566"
+}

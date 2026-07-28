@@ -133,10 +133,42 @@ templates close by dual 3,056,582,144-vector censuses, conductor, and exact
 norms. At `V=38`, four profiles on eight templates close by dual
 158,783,488-vector censuses, conductor, and exact norms. Derive the exact
 `V=36` router. At `V=36`, six profiles on 1,321 templates close by dual
-26,219,123,456-vector censuses, conductor, and exact odd norm parts. Derive
-the exact `V=34` router. Do not rerun any `V>=36` campaign.
+26,219,123,456-vector censuses, conductor, and exact odd norm parts. At
+`V=34`, five profiles on 111 templates close by dual 2,203,120,896-vector
+censuses, conductor, and exact odd norm parts. At `V=32`, four profiles on 154
+templates close by dual 3,056,582,144-vector censuses, conductor, and exact
+odd norm parts; two routed profiles are exactly empty. At `V=30`, two profiles
+on eight templates close by dual 158,783,488-vector censuses, conductor, and
+exact odd norm parts. At `V=28`, four profiles on 1,321 templates close by
+dual 26,219,123,456-vector censuses, conductor, exact odd norms, and exact
+compositeness of the six threshold exceptions. At `V=26`, four profiles on
+111 templates close by dual 2,203,120,896-vector censuses, conductor, exact
+odd norms, and exact compositeness of four threshold exceptions. Do not derive
+or price the `V=24` router yet, and do not rerun any `V>=26` campaign. The
+square-mass theorem exposes three other feasible `S=16` profiles and finite
+ranges extending to `S=260` or `S=132`; first seek an aggregate incidence or
+direct-image theorem, or a proved finite reduction of those coefficient types.
 
-The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
-the 2-adic singleton screen and test its 419 exact cofactors directly; do not
-scan an arbitrary interval. Later bands `N=256,s>=6` and `N=512,s>=3` remain
-part of the universal target.
+The first aggregate compiler is now proved. On the binding prize rate-`1/8`
+row, attack `e1_official_low_square_mass_collision_coloring`: three-color the
+same-E1 graph restricted to `S<=66`. A maximum-degree-two theorem or explicit
+three-color invariant suffices. Falsify first with a certified `K_4` or other
+four-chromatic subgraph; do not resume `V=24` while this route is live.
+
+Prefer the weaker `e1_official_low_square_mass_pair_budget`: on the binding
+row, total `S<=66` collision pairs may be as large as about `1.714K`.
+Maximum degree three already pays this budget. Count actual unordered class
+pairs and their common-coordinate multiplicities; normalized kernel vectors
+alone are not the currency.
+
+The proved `e1_low_square_mass_weighted_kernel_dictionary` now makes that
+currency exact. On the binding row, prove the weighted oriented-vector sum,
+or the stronger simple cap of 69,541 oriented low-mass folded kernel vectors.
+The prize field floor first removes every `S=16` profile, leaving
+`(4,2,S=18)` as the leading weight. Restore every surviving orbit's
+orientation, stabilizer, and class-pair multiplicity exactly.
+
+The still broad `(4,2,0)` profile is the alternative first-band lane. On
+prize rows apply the 2-adic singleton screen and its seven exact cofactors;
+RowC retains 419. Do not scan an arbitrary interval. Later bands
+`N=256,s>=6` and `N=512,s>=3` remain part of the universal target.
