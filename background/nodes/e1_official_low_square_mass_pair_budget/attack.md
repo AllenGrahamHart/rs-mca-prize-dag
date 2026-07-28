@@ -31,9 +31,11 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    classifier. The sharp product envelope contracts `m=1024,1028` to
    `V in {4,6,8,10,12}`, and the dual `mu=10` census closes `m=1024`, leaving
    ten cofactors. The `mu=2` census plus factor-257 test then closes `m=1028`,
-   leaving nine. Attack `m=512,514`, both through `V=68`, by reusing the sharp
-   product envelope before authorizing a larger finite census. Never count a
-   normalized vector as one edge, and do not rerun any closed cofactor.
+   leaving nine. The capped sharp product envelope contracts their upper
+   endpoints to `284,266,254,216,170,130,60,34,34` in increasing cofactor
+   order. Attack `m=512,514` through `V=34` with multiplicity-specific
+   structure and the factor 257 on `m=514`. Never count a normalized vector
+   as one edge, and do not rerun any closed cofactor.
 7. Falsify with a pinned row and enough exact weighted edges to exceed the
    table, not a single collision vector.
 

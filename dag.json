@@ -2861,6 +2861,24 @@
    "notes": "ROUTE CONTRACTION 2026-07-28: the two shortest profile-(3,6) cofactor windows contract from V<=34 to five low-energy chambers. The exact certificate also proves that this envelope alone does not remove V=12."
   },
   {
+   "id": "e1_prize_n256_s18_profile_36_bounded_product_windows",
+   "title": "Prize N=256 profile-(3,6) bounded product windows",
+   "status": "PROVED",
+   "closure": "capped moment extremum plus exact rational certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, the nine residual profile-(3,6,S=18) cofactor windows have upper variance endpoints 284,266,254,216,170,130,60,34,34 for cofactors 2,4,8,16,32,64,256,512,514. The capped two-moment envelope is certified by 11023 exact rational comparisons.",
+   "notes": "ROUTE CONTRACTION 2026-07-28: includes all upper-cap strata k=0,...,7 and certifies a surviving preceding boundary for every cofactor. No collision class is declared empty."
+  },
+  {
    "id": "e1_prize_n256_s18_profile_36_m1024_exclusion",
    "title": "Prize N=256 profile-(3,6) cofactor-1024 exclusion",
    "status": "PROVED",
@@ -37298,6 +37316,26 @@
   },
   {
    "from": "e1_prize_n256_s18_profile_36_sharp_product_window",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "to": "e1_prize_n256_s18_profile_36_bounded_product_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_bounded_product_windows",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_bounded_product_windows",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_bounded_product_windows",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

@@ -6064,3 +6064,21 @@ primary/audit Modal apps: ap-9YPE5CXuy9YJlmbb8kOTTL,
 remaining profile-(3,6) cofactors: 9
 next attack: sharpen m=512,514 windows before any larger census
 ```
+
+**Same-day all-cofactor bounded product contraction:** retaining the exact
+pointwise cap `y_u<=144` classifies every product extremum by an upper-cap
+count and at most two interior levels.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_bounded_product_windows
+extremum parameters: capped count k=0,...,7 and lower multiplicity j
+exact rational comparisons: 11023
+new inclusive variance endpoints:
+  m=2:284, m=4:266, m=8:254, m=16:216, m=32:170,
+  m=64:130, m=256:60, m=512:34, m=514:34
+boundary audit: every preceding even variance survives this envelope
+route probe/exact Modal apps: ap-fjMSdUdXuYdwoI9NyoCnUx,
+                              ap-9bABu2qYhJVmkjNPhYzzKi
+remaining profile-(3,6) cofactors: 9
+next attack: m=512,514 in E=2,...,17; spend mu=9/mu=1 structure first
+```

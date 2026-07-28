@@ -95,5 +95,7 @@ branches from `V<=34` to `V in {4,6,8,10,12}`. A dual exact affine/XOR
 census proves the `mu=10` geometry empty and excludes `m=1024`. Ten cofactors
 remain. The sibling `m=1028` census finds exactly 16 energy-five vectors, but
 none vanishes at a primitive root modulo 257, excluding that cofactor as well.
-Nine cofactors remain; `m=512,514`, both through `V=68`, are now the shortest
-windows. No broad support-9 census is authorized.
+Nine cofactors remain. The capped sharp product envelope contracts all of
+their windows: the upper endpoints for `m=2,4,8,16,32,64,256,512,514` are now
+`284,266,254,216,170,130,60,34,34`. Thus `m=512,514` are the shortest
+interfaces. No broad support-9 census is authorized.
