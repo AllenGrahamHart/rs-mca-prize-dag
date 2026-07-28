@@ -5286,3 +5286,31 @@ new assumptions: none
 route decision: derive the exact cutoff-free E19 (V=38) router and price its
                 actual-vector residue. Never rerun V>=40.
 ```
+
+**2026-07-28, E19 cutoff-free route and V=38 endpoint close:** odd diameter
+parity reduces the chamber to the one-diameter three-odd atlas, and the full
+actual-vector residue closes by conductor and exact norms.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=38 (E=19)
+reduction app: ap-9mBPqJQyYGcOTtaHQ1AEXz
+slack result: L<=11; exactly five energy profiles
+majorant policy: not invoked
+parity result: (6,1,1) rejected; four three-odd survivors
+light atlas: 960 normalized supports in 8 affine templates
+coverage per engine: 8*binom(124,3)*64=158,783,488 vectors
+census app: ap-42XirNxhFdMDLcgSyAoyqK; dual exact engine agreement;
+            45.217 aggregate dual worker-seconds
+actual profiles: [370,182,10,12], total 574
+full conductor: [112,24,0,0], total 136
+proper conductor: complementary 438 vectors discharged by theorem
+norm app: ap-qH9fzHkBAjTdTeWWEgJ7iN; FLINT/PARI agreement on all 136
+distinct norms: 40
+exact maximum: 1096349292027446593481621675930218905147073043465918102751396673154250061826
+strict margin: N_max<2^250<2*N_max; bit length 250
+result: all four profiles CLOSED; V=38 endpoint CLOSED
+live positive even variance frontier: V<=36
+new assumptions: none
+route decision: derive the exact cutoff-free E18 (V=36) router and price its
+                actual-vector residue. Never rerun V>=38.
+```

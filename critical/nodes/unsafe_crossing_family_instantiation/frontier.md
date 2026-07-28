@@ -269,14 +269,18 @@ remains dead from 48 down. At `V=40`, a cutoff-free six-profile router on 154
 templates yields 6,426 vectors; conductor removes 4,526 and exact FLINT/PARI
 norms remove all 1,900 full-conductor representatives. Hence `V=40` is empty
 and the frontier is `V<=38`.
+At `V=38`, a cutoff-free four-profile router on eight templates yields 574
+vectors; conductor removes 438 and exact FLINT/PARI norms remove all 136
+full-conductor representatives. Hence `V=38` is empty and the frontier is
+`V<=36`.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
-injectivity or another explicit `V` line. Within the first `N=256` band,
-derive the exact cutoff-free `V=38` profile/parity/light router and price its
-actual-vector residue.
+injectivity or another explicit `V` line. Within the first `N=256` band, the
+`V=38` chamber is now closed; derive and price the exact cutoff-free `V=36`
+profile/parity/light router.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
-cofactor classes. Do not rerun any `V>=40`
+cofactor classes. Do not rerun any `V>=38`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
 safe predecessor relocates the candidate threshold immediately.
