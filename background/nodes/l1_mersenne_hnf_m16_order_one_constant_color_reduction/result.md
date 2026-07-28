@@ -5,4 +5,5 @@ nine gcds over `F_8191`. Together with the color-degree barrier, all
 order-one color degrees below four are now either theorem-empty or contained
 in this two-gcd packet.
 
-No gcd verdict is recorded while Modal is spend-blocked.
+The downstream constant-color exclusion evaluates both gcds by exact modular
+pseudo-remainders and closes this chamber without Modal.

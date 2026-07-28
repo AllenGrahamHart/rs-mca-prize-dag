@@ -7,5 +7,6 @@ The norm contraction to `zeta=+/-1` occurs only after equation (CCR3) puts
 `d` in `F_(p^2)`. It is not inferred merely from `zeta in mu_16`.
 
 The trace polynomial includes every sixteenth-root trace, including lower
-orders. The two gcds are unrun while Modal is spend-blocked, so this node is
-a proved reduction and not a constant-chamber exclusion.
+orders. The downstream
+`l1_mersenne_hnf_m16_order_one_constant_color_exclusion` now proves both
+gcds unit without Modal; this node remains the exact reduction layer.

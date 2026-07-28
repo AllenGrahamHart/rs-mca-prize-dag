@@ -741,6 +741,12 @@
   elimination. A unit verdict in both gcds closes only the constant chamber;
   degrees four through thirteen remain separate.
 
+- Superseding close: consume
+  `l1_mersenne_hnf_m16_order_one_constant_color_exclusion`. Both trace gcds
+  are unit by the printed modular pseudo-remainders. Delete the complete
+  `h=15` constant-color chamber and retire `CR-L1-H15-COLOR0`; the live
+  `h=15` color degrees are exactly `4,...,13`.
+
 - At degree two, consume
   `l1_mersenne_hnf_m8_order_one_quadratic_collision_router`. The exact
   chambers are collision-free, one repeat, or two antipodal repeats. In the

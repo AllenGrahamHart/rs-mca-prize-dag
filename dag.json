@@ -19615,7 +19615,24 @@
     "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/result.md",
     "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/verify.py"
    ],
-   "notes": "Exact constant-color reduction only. The two gcd verdicts are unrun because Modal is spend-blocked; degrees four through thirteen and all inner conditions remain open."
+   "notes": "Exact constant-color reduction layer. Its downstream modular pseudo-remainder theorem proves both gcds unit without Modal; degrees four through thirteen and all inner conditions remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m16_order_one_constant_color_exclusion",
+   "title": "L1 Mersenne HNF m=16 order-one constant-color exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Both quadratic trace gcds from the h=15 constant-color reduction are unit over F_8191. Direct lower-factor values and primitive-quartic pseudo-remainders with terminal residues 4509 and 4947 exclude every sixteenth-root trace, closing the complete constant-color chamber.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/verify.py"
+   ],
+   "notes": "Complete proof close of the h=15 constant-color stratum. Combined with the degree barrier, live h=15 color degrees are four through thirteen; cyclotomic and inner conditions remain open."
   },
   {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
@@ -36073,6 +36090,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m16_order_one_constant_color_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_one_constant_color_reduction",
+   "to": "l1_mersenne_hnf_m16_order_one_constant_color_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_one_constant_color_exclusion",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

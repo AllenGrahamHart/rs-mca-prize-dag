@@ -6683,3 +6683,18 @@ open h=15 order-one colors: two-gcd constant packet and degrees 4,...,13
 next route-deciding action: obtain the two cheap gcd verdicts when Modal is
                               available; otherwise return to h=7 one-repeat
 ```
+
+**2026-07-29, L1 h=15 constant color closed:** both trace gcds are unit by
+small modular pseudo-remainder certificates, so no compute is required.
+
+```text
+node proved: l1_mersenne_hnf_m16_order_one_constant_color_exclusion
+lower trace factors: direct nonzero values and residues 7783,1298
+primitive quartic certificates: (L,M,R)=(3964,47,4509),
+                                         (439,321,4947) mod 8191
+result: complete h=15 constant-color chamber CLOSED
+combined degree barrier: live h=15 color degrees are 4,...,13
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; CR-L1-H15-COLOR0 retired
+next route-deciding action: return to h=7 one-repeat/collision-free degree two
+```

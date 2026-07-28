@@ -7591,7 +7591,7 @@ the outer stage into exactly two low-dimensional tasks.
     =Z^(h-1)Qtilde_(rho,c)(1/Z).
   ```
 
-  **Cheap exact request CR-L1-H15-COLOR0:** consume
+  **RETIRED BY PROOF -- CR-L1-H15-COLOR0:** consume
   `l1_mersenne_hnf_m16_order_one_constant_color_reduction`. Over `F_8191`
   compute and return monic gcds for
 
@@ -7602,10 +7602,10 @@ the outer stage into exactly two low-dimensional tasks.
   ```
 
   Independently replay by enumerating the sixteen powers of one primitive
-  sixteenth root and their traces. The packet is two degree-nine gcds and
-  should cost negligibly; no launch is authorized while the Modal workspace
-  spend limit remains active. Two unit gcds close only the `h=15` constant-
-  color chamber.
+  sixteenth root and their traces. The packet would cost negligibly, but no
+  launch is needed:
+  `l1_mersenne_hnf_m16_order_one_constant_color_exclusion` proves both gcds
+  unit by modular pseudo-remainders. Do not spend Modal credit on this packet.
 
   The removed degree-one factor is automatic and must not be reintroduced
   into the elimination. Compute the exact saturation by the nonzero factor
