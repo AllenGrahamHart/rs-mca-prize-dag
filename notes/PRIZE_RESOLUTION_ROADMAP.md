@@ -6381,3 +6381,26 @@ packet: notes/E1_M8_SUPPORT_CONTRACTION.md
 Next `m=8` action after account re-enable: replay the lemma, then measure the
 four occupancy shards and affine orbit count. Do not start a radius census
 from the generic support atlas.
+
+**Same-day `m=2,4` proof-only support decomposition:** the Hasse-residue
+classification now covers every remaining profile-`(3,6)` cofactor support.
+Exact multiplicity one (`m=2`) is primitive and leaves `5005539` normalized
+supports. Exact multiplicity two (`m=4`) splits into `2501824` normalized
+primitive candidates and `279155` normalized once-divided quotient
+candidates. In the quotient branch, `30856` all-even heavy triples per
+support have square norm and are impossible; `F(-X)` acts freely on every
+remaining heavy-sign orbit. All three low cofactors therefore admit 128 joint
+sign representatives per surviving heavy triple.
+
+```text
+m=2: primitive mu1 in Z/128, normalized input 5005539
+m=4: primitive mu2 in Z/128, normalized input 2501824
+m=4: quotient mu1 in Z/64, normalized input 279155
+m=8: primitive mu3 in Z/128, normalized input 1269760
+packet: notes/E1_M2_M4_SUPPORT_DECOMPOSITION.md
+```
+
+Existing `m=514` classifiers share the `mu=1` predicate but their retained
+atlases are chamber-filtered; they are implementation inputs, not a complete
+`m=2` certificate. Replay these tiny lemmas and measure affine atlas sizes
+before authorizing product or radius campaigns.
