@@ -19601,6 +19601,23 @@
    "notes": "Exact degree barrier only. Equality or larger degree does not imply existence; h=15 constant and degrees four through thirteen remain open."
   },
   {
+   "id": "l1_mersenne_hnf_m16_order_one_constant_color_reduction",
+   "title": "L1 Mersenne HNF m=16 order-one constant-color reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official m=16,h=15 row, a constant color forces rho*c=1-alpha and 182alpha(c-1)=(alpha+1)zeta+28alpha^2. Norm contraction reduces the chamber to two explicit quadratic gcds against the degree-nine mu_16 trace polynomial over F_8191.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/verify.py"
+   ],
+   "notes": "Exact constant-color reduction only. The two gcd verdicts are unrun because Modal is spend-blocked; degrees four through thirteen and all inner conditions remain open."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -36046,6 +36063,16 @@
   },
   {
    "from": "l1_mersenne_hnf_order_one_color_degree_barrier",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_m16_order_one_constant_color_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_one_constant_color_reduction",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

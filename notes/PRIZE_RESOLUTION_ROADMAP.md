@@ -6665,3 +6665,21 @@ next route-deciding action: attack the h=15 constant chamber with the first
                               two reciprocal coefficients; keep h=7 on its
                               degree-two collision decomposition
 ```
+
+**2026-07-28, L1 h=15 constant color reduced to two gcds:** the first two
+reciprocal coefficients contract the full fourteen-root packet to the trace
+line of `mu_16`.
+
+```text
+node proved: l1_mersenne_hnf_m16_order_one_constant_color_reduction
+first coefficient: rho*c=1-alpha
+second coefficient: 182alpha(c-1)=(alpha+1)zeta+28alpha^2
+field contraction: c-1 in F_(p^2), hence zeta in {+1,-1}
+trace polynomial: S(S^2-4)(S^2-2)(S^4-4S^2+2)
+closure packet: two quadratic gcds over F_8191
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; packet queued as CR-L1-H15-COLOR0
+open h=15 order-one colors: two-gcd constant packet and degrees 4,...,13
+next route-deciding action: obtain the two cheap gcd verdicts when Modal is
+                              available; otherwise return to h=7 one-repeat
+```

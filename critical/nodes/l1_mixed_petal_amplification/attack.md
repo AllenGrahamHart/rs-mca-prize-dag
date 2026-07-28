@@ -734,6 +734,13 @@
   sharp at degree two and supplies no additional emptiness beyond the
   linear theorem.
 
+- For the remaining `h=15` constant chamber, consume
+  `l1_mersenne_hnf_m16_order_one_constant_color_reduction`. The first two
+  reciprocal coefficients reduce it to the two gcds in (CCR6) over
+  `F_8191`. Do not send a fourteen-root colored resultant to generic
+  elimination. A unit verdict in both gcds closes only the constant chamber;
+  degrees four through thirteen remain separate.
+
 - At degree two, consume
   `l1_mersenne_hnf_m8_order_one_quadratic_collision_router`. The exact
   chambers are collision-free, one repeat, or two antipodal repeats. In the
