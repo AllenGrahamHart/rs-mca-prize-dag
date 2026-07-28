@@ -82,3 +82,12 @@ weighted accounting. The next binding profile is `(3,6,S=18)`.
 The coloring target is an independent alternative. Degree two pays both;
 degree three pays this pair-budget route even when the graph is not
 three-colorable.
+
+The new maximum-weight `(3,6,S=18)` profile now has a proved finite interface.
+Its six singleton coefficients force
+`mu in {1,2,3,4,5,6,8,9,10}` and exactly twelve prize cofactors. Variance zero
+and two are impossible; a profile-specific logarithmic deficit leaves even
+windows ending at 350 for `m=2`, 68 for `m=512,514`, 34 for `m=1024,1028`,
+and 12 for `m=1538`. This does not zero the profile, but the five
+`m=1538`, `V in {4,6,8,10,12}` chambers are now the preferred structural
+attack. No support-9 census is authorized.

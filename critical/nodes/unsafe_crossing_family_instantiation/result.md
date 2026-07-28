@@ -268,3 +268,9 @@ vector cap is sharpened by the exact residual ledger: `(3,6,S=18)` is the
 next maximum-weight profile, and the sufficient cap rises to 93,962. These are
 route results, not a proof of the aggregate vector count or the unsafe
 payload.
+
+The `(3,6,S=18)` profile now has a finite arithmetic reduction as well. Exact
+binary Hasse derivatives and local reciprocity leave twelve prize cofactors;
+variance zero and two are excluded, and all residual variances are bounded.
+The narrowest branch is `m=1538`, `V in {4,6,8,10,12}`. This is a sharper
+input to the direct-E1 route, not yet the required row-uniform edge bound.

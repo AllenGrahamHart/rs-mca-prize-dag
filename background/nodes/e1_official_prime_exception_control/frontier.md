@@ -187,6 +187,11 @@ and exact-resultant children then remove all 21,376 residual vectors; the
 corresponding `m=2` children remove all 511,272 residual vectors. Thus
 `(4,2,0)` has no prize-envelope collision. RowC retains its 419 cofactor
 classes.
+The next prize-weighted profile `(3,6,S=18)` is also no longer unrestricted:
+its exact six-singleton valuation set yields twelve cofactors, with positive
+even variance windows ending at 12 for `m=1538`, 34 for `m=1024,1028`, and
+350 in the widest `m=2` branch. This finite interface is evidence only; none
+of those twelve classes is yet excluded in full.
 At `N=512,s=2`, exact negacyclic variance
 excludes `(0,4,0)`, while a complete 129540-state interval-resultant
 certificate excludes `(1,2,0)`. The entire band is closed, so the `N=512`

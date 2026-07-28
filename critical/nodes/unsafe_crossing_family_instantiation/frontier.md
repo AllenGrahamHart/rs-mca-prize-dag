@@ -332,3 +332,10 @@ RowC retains 419 `(4,2,0)` cofactor classes. Do not rerun any closed prize
 cofactor or the `(3,4,0)` `V>=26` campaign. Later `N=256,s>=6` and
 `N=512,s>=3` bands remain open. Any exact safe predecessor relocates the
 candidate threshold immediately.
+
+For the new maximum-weight `(3,6,S=18)` profile, the exact six-singleton
+2-adic classification leaves twelve cofactors and finite even-variance
+windows. The first local target is now only five chambers:
+`m=1538`, `V in {4,6,8,10,12}`. The next two short interfaces are
+`m=1024,1028`, both with `V<=34`. This reduction is proved but does not yet
+pay the aggregate edge ledger.

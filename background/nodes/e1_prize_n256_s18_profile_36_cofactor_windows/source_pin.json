@@ -1,0 +1,13 @@
+{
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
+  "profile_file": "background/nodes/e1_collision_square_mass_reparametrization/statement.md",
+  "profile_sha256": "d5009d298c207df416689c933ab6f393ccc7caf6f28078fd34d46930851d4792",
+  "field_floor_file": "background/nodes/e1_prize_field_floor_even_norm_exclusion/statement.md",
+  "field_floor_sha256": "39bebf1adf9b5adc80d8f34ba3f9bffaaff8a2eb14498385ebc1549289ce2f8f",
+  "local_norm_proof_file": "background/nodes/e1_n256_local_norm_cofactor_collapse/proof.md",
+  "local_norm_proof_sha256": "3a9a1f8d7f1a77ec25d349009afe9715095052e5a44187f253fb05fdd6df89ae",
+  "probe_file": "experiments/prize_resolution/e1_profile_36_2adic_probe.py",
+  "probe_sha256": "a95251659965c5b0cbc74d6576a371871e84107a81e9e719439336841ed7374c",
+  "modal_app": "ap-NgXdlPnSNBEljttQ9JDVKa"
+}

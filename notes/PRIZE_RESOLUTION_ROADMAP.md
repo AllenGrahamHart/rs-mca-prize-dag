@@ -5972,3 +5972,21 @@ pair-budget status: TARGET
 next action: seek structural/norm exclusion or exact weighted pricing for
              (3,6,S=18) before any broad census
 ```
+
+**Same-day profile-(3,6) arithmetic reduction:** the new maximum-weight
+profile now has a finite, profile-specific interface without a support-9
+census.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_cofactor_windows
+profile: (a,b,S,H)=(3,6,18,12)
+binary multiplicities after the cofactor bound: {1,2,3,4,5,6,8,9,10}
+exact prize cofactors: {2,4,8,16,32,64,256,512,514,1024,1028,1538}
+variance parity: positive even; V=2 excluded by the one-lag Lucas resultant
+widest residual: m=2, 4<=V<=350 even
+short residuals: m=1024,1028 through V=34; m=1538 through V=12
+tight first attack: m=1538 and V in {4,6,8,10,12}
+Modal audit: ap-NgXdlPnSNBEljttQ9JDVKa, peak child RSS 56 MB
+compute decision: no broad support-9 vector or norm census authorized
+pair-budget status: TARGET
+```

@@ -20,11 +20,11 @@ image = (
     .pip_install("mpmath", "numpy", "sympy")
     .add_local_dir(str(ROOT), remote_path="/repo", copy=True,
                    # w10 infra fix: exclude regenerables — .git alone is 121MB
-                   ignore=[".git", "orbit", "**/__pycache__"])
+                   ignore=[".git", "orbit/*.html", "orbit/*.png", "orbit/*.svg", "**/__pycache__"])
 )
 
 
-@app.function(image=image, cpu=1, memory=2048, timeout=290, max_containers=24  # 180->290: the weight-5 MITM verifier needs ~150-280s (passes locally); fast scripts finish early)
+@app.function(image=image, cpu=1, memory=2048, timeout=290, max_containers=24)  # Heavy MITM verifiers need the full timeout.
 def run_verifier(payload: tuple[str, str]) -> dict[str, object]:
     import hashlib
     import os
