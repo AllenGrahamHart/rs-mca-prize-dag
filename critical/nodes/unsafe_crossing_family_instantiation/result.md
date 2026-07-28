@@ -225,3 +225,15 @@ norm `2 * R_odd` with `R_odd` a 248-bit **prime** congruent to `1 mod 256` —
 i.e. it satisfies this lane's row congruence and is excluded only by size,
 sitting a factor of about 5 below `2^250`. The exclusions at the bottom of this
 band rest on roughly two bits.
+
+**Scope question raised 2026-07-28 (planner) — see
+`background/nodes/e1_collision_square_mass_reparametrization/frontier.md`.**
+Same-sign antipodal pairs cancel in the folded element, so the raw swap
+distance `s` is not a collision invariant and cannot be bounded by any norm
+argument; the square mass `S = 4a+b` is the invariant, and the descent's
+`s16` label is that square mass. Re-indexing by `S` shows the live splits at
+`S=16` are `(3,4)`, `(2,8)`, `(1,12)`, `(0,16)` — the campaign works `(3,4)`
+only, and the other three are not reached by the band-`s=5` scope sentence
+they inherit. Whether they are excluded elsewhere is **open**; an upper bound
+on the `l_1` height `2a+b <= 2 ell'` would settle it, and `ell'` is not pinned
+for this lane. Raised as a question, not a defect: nothing above is retracted.
