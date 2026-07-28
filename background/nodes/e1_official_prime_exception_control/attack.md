@@ -21,7 +21,9 @@ at `s=3`. At `N=256,s=5`, every proper-conductor support is
 excluded in both surviving profiles, so classify only full-conductor supports.
 The 2-adic cofactor gate also forces singleton-reduction multiplicity at most
 five in `(3,4,0)` and forbids a singleton separation divisible by 32 in
-`(4,2,0)`.
+`(4,2,0)`. On prize rows, use the proved variance/cofactor windows next:
+`1538` is absent, every residual has `V=2 mod 8`, and `m=1028` has only
+`V in {10,18}`.
 
 ```text
 P=sum_y binom(r_y,2).

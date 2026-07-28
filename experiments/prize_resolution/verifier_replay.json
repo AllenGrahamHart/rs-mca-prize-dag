@@ -8,11 +8,11 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_local_norm_cofactor_collapse/verify.py",
-      "seconds": 0.080858,
+      "script": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/verify.py",
+      "seconds": 0.066722,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_LOCAL_NORM_COFACTOR_COLLAPSE_PASS s16_cofactors=5 s18_cofactors=419 prize_s18_cofactors=7 modulus=256\n"
+      "stdout_tail": "E1_PRIZE_N256_S18_VARIANCE_COFACTOR_WINDOWS_PASS live_cofactors=6 strongest_residual=1028:{10,18} checks=70\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

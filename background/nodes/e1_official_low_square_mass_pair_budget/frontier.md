@@ -29,6 +29,14 @@ profile has exactly seven possible prize cofactor values after local
 reciprocity, the field floor, and the residue-degree sieve. RowC retains the
 419-class interface.
 
+The proved variance/cofactor window theorem sharpens that leading prize
+interface again. Every collision has `V=2 mod 8`; exact Lucas resultants remove
+`V=2`, and the logarithmic norm deficit removes cofactor `1538` completely.
+Six cofactor classes remain. The narrowest is `m=1028`, with only
+`V in {10,18}`; the other residual upper bounds are 50 for `m=514`, 74 for
+`m=256`, 178 for `m=16`, 226 for `m=4`, and 250 for `m=2`. These are vector
+classification windows, not yet an aggregate edge count.
+
 The coloring target is an independent alternative. Degree two pays both;
 degree three pays this pair-budget route even when the graph is not
 three-colorable.

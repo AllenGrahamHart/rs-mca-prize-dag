@@ -364,7 +364,7 @@
     "background/nodes/e1_official_low_square_mass_pair_budget/frontier.md"
    ],
    "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 65127585921474870475467050631501738502567, about 1.714K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)); after the prize field floor removes S=16, at most 69541 oriented vectors is a stronger uniform sufficient condition. The Plotkin compiler then forces more than B* values.",
-   "attack_surface": "prove the exact weighted folded-kernel budget, the stronger 69541 oriented-vector cap on the binding row, or maximum collision degree three; start with the seven prize cofactor classes of the live (4,2,S=18) profile and retain exact orientations, stabilizers, and class-pair multiplicities",
+   "attack_surface": "prove the exact weighted folded-kernel budget, the stronger 69541 oriented-vector cap on the binding row, or maximum collision degree three; start with the six live prize cofactor classes of (4,2,S=18), especially m=1028 at V in {10,18}, and retain exact orientations, stabilizers, and class-pair multiplicities",
    "falsifier": "an admissible row whose exact unordered low-mass collision-pair count exceeds its printed budget, or a multiplicity/type error in a claimed count"
   },
   {
@@ -2607,6 +2607,24 @@
    ],
    "statement": "Local reciprocity gives R/2^mu=1 mod 256 for every nonzero integral norm R from Q_2(zeta_256), where mu=v_2(R). On the pair-feasible branch p=1 mod 256. Profile (3,4,0) has five possible cofactors and R=2^mu p. Profile (4,2,0) has 419 possible RowC cofactors; the exact prize field floor leaves eight, then the cyclotomic residue-degree rule excludes 1026=2*3^3*19. The seven live prize values are 2, 514, 1538, 4, 1028, 16, 256.",
    "notes": "ROUTE REDUCTION 2026-07-27, sharpened 2026-07-28: replaces broad cofactor intervals by exact local-norm congruence classes and reduces the leading prize S=18 profile from 419 cofactors to seven. It does not prove the remaining norm counts."
+  },
+  {
+   "id": "e1_prize_n256_s18_variance_cofactor_windows",
+   "title": "Prize N=256 square-mass-18 variance/cofactor windows",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/statement.md",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/proof.md",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/audit.md",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/result.md",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, every profile-(4,2,0) collision has autocorrelation variance V=2 mod 8. An exact logarithmic deficit gives cofactor-specific finite windows, and a Lucas-resultant calculation excludes V=2. Cofactor 1538 is impossible; cofactor 1028 retains only V in {10,18}; the other five live cofactors have explicit bounded V=2 mod 8 residuals.",
+   "notes": "ROUTE REDUCTION 2026-07-28: narrows the leading prize S=18 profile without a census or numerical norm estimate. Six cofactor classes remain, so this is evidence for rather than closure of the aggregate pair budget."
   },
   {
    "id": "e1_n512_four_singleton_collision_exclusion",
@@ -21331,6 +21349,36 @@
   {
    "from": "e1_n256_local_norm_cofactor_collapse",
    "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_prize_n256_s18_variance_cofactor_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_prize_n256_s18_variance_cofactor_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_local_norm_cofactor_collapse",
+   "to": "e1_prize_n256_s18_variance_cofactor_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
   {

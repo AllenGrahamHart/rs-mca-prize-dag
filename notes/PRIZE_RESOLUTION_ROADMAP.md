@@ -5722,3 +5722,30 @@ atlas contraction: 419 -> 7 on prize rows
 RowC: unchanged at 419
 next action: price the seven prize classes before any broad support census
 ```
+
+**Same-day leading-profile variance/cofactor windows:** exact autocorrelation
+parity and a row-specific logarithmic norm deficit now refine those seven
+classes without a support census.
+
+```text
+proved node: e1_prize_n256_s18_variance_cofactor_windows
+profile: N=256, (a,b,S)=(4,2,18)
+variance: V=2E with exactly one odd positive autocorrelation coefficient
+congruence: E=1 mod 4, hence V=2 mod 8
+pointwise majorant:
+  log x <= log 18+(x-18)/18-(x-18)^2/2367 on 0<x<=100
+exact V=2 norm: R=L_(64/2^t)^(2^t),
+  L_0=2, L_1=18, L_n=18L_(n-1)-L_(n-2)
+V=2 verdict: excluded against the exact prize interval in all four 2-adic rows
+cofactor 1538: eliminated
+cofactor 1028: only V in {10,18}
+other residual upper bounds:
+  m=514 -> 50; m=256 -> 74; m=16 -> 178; m=4 -> 226; m=2 -> 250
+all residuals: 10<=V and V=2 mod 8
+live prize cofactors: 7 -> 6
+RowC movement: none
+compute: no Modal run and no numerical estimate; exact rational replay only
+status movement: pair-budget TARGET remains open
+next action: classify or exclude the two m=1028 chambers before broadening to
+             the other five cofactors; preserve weighted edge multiplicities
+```

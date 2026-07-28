@@ -66,6 +66,9 @@ e1_n256_s16_signed_chord_collision_gate [PROVED]
 e1_n256_local_norm_cofactor_collapse [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_prize_n256_s18_variance_cofactor_windows [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_n512_four_singleton_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
@@ -262,8 +265,11 @@ singleton-exponent screens in both profiles. Full-conductor vectors passing
 those screens remain. In `(3,4,0)`, every remaining support has a signed
 equal-chord relation and therefore lies on a three-term or parallelogram
 template. Local reciprocity leaves only five power-of-two cofactors in that
-profile and 419 explicit cofactors in `(4,2,0)`. Their odd norm parts
-are not yet paid.
+profile and 419 explicit RowC cofactors in `(4,2,0)`. On prize rows the exact
+field floor and residue-degree sieve first leave seven; the proved
+variance/cofactor theorem removes `1538`, forces `V=2 mod 8`, and leaves only
+`V in {10,18}` for `m=1028`. The six residual prize classes and the RowC odd
+norm parts are not yet paid.
 The official quantifier pin and named-exhibit certificate subgraph remain in
 `background/nodes/` and have `ev`, not `req`, edges into this target. The
 unresolved target is a logical leaf, with its route-uniform scope printed
