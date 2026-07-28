@@ -5222,3 +5222,35 @@ new assumptions: none
 route decision: derive the exact cutoff-free E21 (V=42) router. Never rerun
                 V>=44.
 ```
+
+**2026-07-28, E21 cutoff-free route and V=42 endpoint close:** odd diameter
+parity returns to the small one/five-odd atlas, and the complete exact residue
+again fits direct dual norms.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=42 (E=21)
+discarded reduction app: ap-WheEh8ejQUWcxI3NrF52Iu failed before producing
+                         a route packet and supplies no evidence
+reduction app: ap-xmWUTZrP3C8A1Q5ZTdWInc
+slack result: L<=13; exactly eight energy profiles
+majorant policy: not invoked
+parity result: (8,1,1) rejected; three one-odd and four five-odd survivors
+light atlas: 14,664 normalized supports in 11+100=111 templates
+coverage per engine: 111*binom(124,3)*64=2,203,120,896 vectors
+count app: ap-sB6bBUn8fAtNRenTKaRqGa; dual exact engine agreement;
+           684.456 aggregate dual worker-seconds
+actual profiles: [6400,1676,1658,252,348,44,76], total 10,454
+full conductor: [3608,488,456,16,68,4,0], total 4,640
+proper conductor: complementary 5,814 vectors discharged by theorem
+collector app: ap-8y0cQsyAvpSx8Is0Athw8k; dual vector agreement;
+               684.327 aggregate dual worker-seconds
+norm app: ap-F5Bs9JuuZRpjReqxeTSNIE; FLINT/PARI agreement on all 4,640
+distinct norms: 1,365
+exact maximum: 1067431210213337343847285566520999617146298326197261566762764923557911188994
+strict margin: N_max<2^250<2*N_max; bit length 250
+result: all seven profiles CLOSED; V=42 endpoint CLOSED
+live positive even variance frontier: V<=40
+new assumptions: none
+route decision: derive the exact cutoff-free E20 (V=40) router and price its
+                actual-vector residue. Never rerun V>=42.
+```
