@@ -6647,3 +6647,21 @@ open h=7 quadratic work: coefficient elimination for collision-free and
 next route-deciding action: compare QCRS5 coefficients with the h=7 L
                               moments while preserving the repeated assignment
 ```
+
+**2026-07-28, L1 order-one color-degree barrier:** the pointwise equations
+form a Bézout pair of degrees `d` and `d+1`, giving a general low-degree
+exclusion without elimination.
+
+```text
+node proved: l1_mersenne_hnf_order_one_color_degree_barrier
+general inequality: H<=d(d+1) for every nonconstant degree-d interpolant
+h=7 threshold: H=6, hence d>=2
+h=15 threshold: H=14, hence d>=4
+new close: complete h=15 cubic color chamber
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; pointwise Bézout proof
+open h=15 color degrees: 0 and 4,...,13
+next route-deciding action: attack the h=15 constant chamber with the first
+                              two reciprocal coefficients; keep h=7 on its
+                              degree-two collision decomposition
+```

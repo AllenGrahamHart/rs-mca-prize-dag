@@ -726,6 +726,14 @@
   collision-free and one-repeat chambers substitute (QCRS4) and (QCRS5),
   respectively; do not discard the double factor of the repeated color.
 
+- More generally consume
+  `l1_mersenne_hnf_order_one_color_degree_barrier`. The pointwise degree-`d`
+  color equations define curves of degrees `d` and `d+1`, so `H<=d(d+1)`.
+  Delete color degrees one through three from the `h=15` order-one branch;
+  its nonconstant work starts at degree four. At `h=7`, the barrier is
+  sharp at degree two and supplies no additional emptiness beyond the
+  linear theorem.
+
 - At degree two, consume
   `l1_mersenne_hnf_m8_order_one_quadratic_collision_router`. The exact
   chambers are collision-free, one repeat, or two antipodal repeats. In the
