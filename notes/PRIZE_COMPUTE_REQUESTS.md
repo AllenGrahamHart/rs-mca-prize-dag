@@ -7496,11 +7496,16 @@ the outer stage into exactly two low-dimensional tasks.
   the roots of `L`, generate the first three reciprocal equations as the
   Newton equalities between `(x_i^star)^m` and `x_i^(-m)`. This needs only
   traces at powers `8,16,24` for `m=8`, or `16,32,48` for `m=16`; it never
-  materializes `Qtilde`. A future contributor computation should eliminate
-  these trace equations on `Psi_h=0`, return every denominator and
+  materializes `Qtilde`. Then consume
+  `l1_mersenne_hnf_order_one_full_trace_cancellation`: the known root has
+  identical star and inverse `m`-power traces, so the same equations can be
+  generated from the original degree-`h` polynomial `P` without first
+  dividing by `W-x_0`. A future contributor computation should eliminate
+  this full-`P` trace system on `Psi_h=0`, return every denominator and
   saturation factor, and use a second implementation to reconstruct the
-  traces from the companion matrix. Price the `h=7` first-three system
-  before attempting `h=15`.
+  same full traces from the companion matrix. The divided `L` construction
+  is now audit-only. Price the `h=7` first-three system before attempting
+  `h=15`.
 
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute

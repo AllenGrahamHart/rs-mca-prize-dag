@@ -6465,3 +6465,23 @@ but its current repository interface has no theorem-level premise beyond the
 instruction to bound neighbors of a fixed class. Until such a premise is
 posed or a cheap falsifier is available, the root-incidence orbit ledger is
 the more concrete route.
+
+**2026-07-28, L1 order-one automatic-root trace cancellation:** the live
+next-to-maximal order-one system no longer needs the denominator-heavy
+degree-`h-1` quotient representation.
+
+```text
+node proved: l1_mersenne_hnf_order_one_full_trace_cancellation
+identity:    (x_0^star)^(mj)=x_0^(-mj)=d^(mj) for every j>=1
+consequence: first r reduced reciprocal equations
+             <=> first r full-P trace equalities
+representation delta: no division by W-x_0; no Qtilde construction
+live powers: 8,16,24 at (m,h)=(8,7); 16,32,48 at (16,15)
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; proof-only exact algebra
+open residue: eliminate the h=7 full-trace system on Psi_7=0, then impose
+              pointwise Frobenius, torsion, cyclotomic remainder, inner lift
+next route-deciding action: obtain a priced independent h=7 elimination
+                              from a contributor; do not retry the retired
+                              quotient-resultant backend
+```

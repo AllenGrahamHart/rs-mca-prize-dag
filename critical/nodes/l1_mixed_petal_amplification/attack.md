@@ -663,3 +663,12 @@
   of `L`, and impose the first three Newton equalities. They require powers
   only through `3m`. A full identity uses the `H-1` interior equalities plus
   the constant-product equation; the first-three system is necessary only.
+
+- Before constructing `L`, consume
+  `l1_mersenne_hnf_order_one_full_trace_cancellation`. The removed root
+  satisfies `(x_0^star)^(mj)=x_0^(-mj)` for every `j`, so its contribution
+  cancels from every trace equality. Generate the first-three system from
+  the original monic degree-`h` polynomial `P_star` and the monic reciprocal
+  of `P`; do not divide by `W-x_0`. This is an exact representation
+  reduction, not an emptiness theorem. Retained components still owe the
+  pointwise Frobenius, torsion, cyclotomic, and inner equations.
