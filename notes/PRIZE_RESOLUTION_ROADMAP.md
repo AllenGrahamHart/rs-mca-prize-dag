@@ -5749,3 +5749,26 @@ status movement: pair-budget TARGET remains open
 next action: classify or exclude the two m=1028 chambers before broadening to
              the other five cofactors; preserve weighted edge multiplicities
 ```
+
+**Same-day cofactor-1028 close:** the two residual chambers are now exhausted
+by independent complete normalized engines.
+
+```text
+proved node: e1_prize_n256_s18_m1028_collision_exclusion
+normalization: singleton positions 0,2; first singleton sign +1
+support choices: binom(126,4)=10009125
+signed normalized vectors: 320292000
+primary engine: folded 15-pair autocorrelation, greedy balanced shards
+audit engine: full 128-slot convolution, lexicographic modulo shards
+primary Modal app: ap-EI0gpqKTVVsnR6sCbXZfB3
+audit Modal app: ap-52RCxiNtu4Oqe2G36sJqfJ
+aggregate worker-seconds: 11.552424 + 28.775821
+V=10 count: 0
+V=18 count: 16
+V=18 norms divisible by 257: 0
+cofactor conclusion: 1028=4*257 impossible
+live prize cofactors: {2,514,4,16,256}
+RowC movement: none
+pair-budget status: TARGET; normalized emptiness is not an edge census
+next action: attack m=514 in its six admissible chambers V=10,18,26,34,42,50
+```

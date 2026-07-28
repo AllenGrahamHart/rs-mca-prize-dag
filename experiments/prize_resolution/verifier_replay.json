@@ -8,11 +8,11 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/verify.py",
-      "seconds": 0.066722,
+      "script": "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/verify.py",
+      "seconds": 0.070467,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_PRIZE_N256_S18_VARIANCE_COFACTOR_WINDOWS_PASS live_cofactors=6 strongest_residual=1028:{10,18} checks=70\n"
+      "stdout_tail": "E1_PRIZE_N256_S18_M1028_COLLISION_EXCLUSION_PASS normalized_vectors=320292000 energy5=0 energy9=16 div257=0 checks=161\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

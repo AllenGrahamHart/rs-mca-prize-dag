@@ -171,7 +171,9 @@ the formerly broad cofactor window contracts to 419 explicit RowC values.
 On prize rows, the exact field floor and residue-degree rule leave seven
 cofactors; the proved variance/cofactor theorem removes `1538`, forces
 `V=2 mod 8`, and leaves only `V in {10,18}` for `m=1028`. Six prize cofactors
-remain.
+remain at that stage. A dual complete normalized census then removes `1028`,
+leaving five prize cofactors; the narrowest residual is `m=514`,
+`10<=V<=50`, `V=2 mod 8`.
 At `N=512,s=2`, exact negacyclic variance
 excludes `(0,4,0)`, while a complete 129540-state interval-resultant
 certificate excludes `(1,2,0)`. The entire band is closed, so the `N=512`
@@ -205,7 +207,7 @@ supersedes the former instruction to continue immediately with `V=24`:
   closed and must not be rerun. Do not authorize `V=24` until a theorem
   explains how that profile-local descent contributes efficiently to the
   aggregate square-mass ledger. Compare any such route against the 419 exact
-  RowC cofactor classes and the six variance-windowed prize classes in
+  RowC cofactor classes and the five variance-windowed prize classes in
   `(4,2,0)`. Treat the
   `N=512,s=3` band independently;
 - construct an exact pair-feasible candidate-class row above its allowance and

@@ -37,6 +37,12 @@ Six cofactor classes remain. The narrowest is `m=1028`, with only
 `m=256`, 178 for `m=16`, 226 for `m=4`, and 250 for `m=2`. These are vector
 classification windows, not yet an aggregate edge count.
 
+The subsequent dual normalized census closes both `m=1028` chambers: among
+320292000 exact signed vectors there are no `V=10` vectors and only 16 at
+`V=18`, none with norm divisible by 257. Thus `1028=4*257` is impossible and
+five prize cofactors remain. The narrowest is now `m=514`, with
+`10<=V<=50` and `V=2 mod 8`.
+
 The coloring target is an independent alternative. Degree two pays both;
 degree three pays this pair-budget route even when the graph is not
 three-colorable.

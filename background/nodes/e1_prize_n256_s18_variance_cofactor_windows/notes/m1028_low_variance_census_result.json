@@ -1,0 +1,831 @@
+{
+  "complete": true,
+  "container_seconds": 11.791987939999999,
+  "errors": [],
+  "expected": {
+    "combination_count": 10009125,
+    "divisor_prime": 257,
+    "energies": [
+      5,
+      9
+    ],
+    "signed_vector_count": 320292000,
+    "variances": [
+      10,
+      18
+    ]
+  },
+  "normalization": {
+    "double_positions": "all 4-subsets of the other 126 positions",
+    "double_signs": "all 16 sign patterns",
+    "first_singleton_coefficient": 1,
+    "second_singleton_coefficients": [
+      -1,
+      1
+    ],
+    "singleton_positions": [
+      0,
+      2
+    ]
+  },
+  "results": [
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 0.28476920799999994,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 4,
+      "energy9_div257_count": 0,
+      "shard": 0,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 0.275855
+    },
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 0.283976974,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 1,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 0.276317
+    },
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 0.5180737639999999,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 2,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 0.512401
+    },
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 0.5205784679999998,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 3,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 0.514518
+    },
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 0.2832052250000001,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 4,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 0.276073
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.5193315190000001,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 5,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.513587
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.28352999899999975,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 6,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.276104
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.28419008700000004,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 7,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.276321
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.34066978699999995,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 8,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.331553
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.5209500010000001,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 8,
+      "energy9_div257_count": 0,
+      "shard": 9,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.514874
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.5205436190000001,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 10,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.515564
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.284457395,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 11,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.276707
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.28356238199999995,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 12,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.276407
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.285148309,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 13,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.276312
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.3399962080000001,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 14,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.331796
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.2848764309999998,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 15,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.276425
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.5173549950000003,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 16,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.512093
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.28320337799999984,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 17,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.275955
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.2837001269999999,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 18,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.276054
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.5188695349999999,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 19,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.512241
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.5198745159999998,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 20,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.513883
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.33987014700000007,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 21,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.332302
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.517783273,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 22,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.51196
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.34330683500000014,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 23,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.331778
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.2843071319999999,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 4,
+      "energy9_div257_count": 0,
+      "shard": 24,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.276629
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.28326144799999997,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 25,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.276009
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.28727803799999996,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 26,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.27689
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.3451370360000001,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 27,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.33654
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.283731312,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 28,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.276297
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.5162045339999999,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 29,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.511366
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.28332120000000005,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 30,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.276489
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.34692505799999984,
+      "energy5_count": 0,
+      "energy5_div257_count": 0,
+      "energy9_count": 0,
+      "energy9_div257_count": 0,
+      "shard": 31,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.335124
+    }
+  ],
+  "returned_shards": 32,
+  "schema": "e1-prize-m1028-low-variance-census-v1",
+  "source_sha256": "433d9670868b1bfb9ca245c98db03385709eface95603374980af67b62e08778",
+  "totals": {
+    "combination_count": 10009125,
+    "energy5_count": 0,
+    "energy5_div257_count": 0,
+    "energy9_count": 16,
+    "energy9_div257_count": 0,
+    "signed_vector_count": 320292000
+  },
+  "witnesses": [
+    {
+      "autocorrelations": [
+        3
+      ],
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        34,
+        64,
+        66,
+        96
+      ],
+      "root_exponent": -1,
+      "shard": 0
+    },
+    {
+      "autocorrelations": [
+        -3
+      ],
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        34,
+        64,
+        66,
+        96
+      ],
+      "root_exponent": -1,
+      "shard": 0
+    },
+    {
+      "autocorrelations": [
+        3
+      ],
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        34,
+        64,
+        66,
+        96
+      ],
+      "root_exponent": -1,
+      "shard": 0
+    },
+    {
+      "autocorrelations": [
+        -3
+      ],
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        34,
+        64,
+        66,
+        96
+      ],
+      "root_exponent": -1,
+      "shard": 0
+    },
+    {
+      "autocorrelations": [
+        -3
+      ],
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        32,
+        64,
+        66,
+        98
+      ],
+      "root_exponent": -1,
+      "shard": 9
+    },
+    {
+      "autocorrelations": [
+        3
+      ],
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        32,
+        64,
+        66,
+        98
+      ],
+      "root_exponent": -1,
+      "shard": 9
+    },
+    {
+      "autocorrelations": [
+        -3
+      ],
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        32,
+        64,
+        66,
+        98
+      ],
+      "root_exponent": -1,
+      "shard": 9
+    },
+    {
+      "autocorrelations": [
+        3
+      ],
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        32,
+        64,
+        66,
+        98
+      ],
+      "root_exponent": -1,
+      "shard": 9
+    },
+    {
+      "autocorrelations": [
+        -2,
+        -1,
+        2
+      ],
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        64,
+        66,
+        96,
+        98
+      ],
+      "root_exponent": -1,
+      "shard": 9
+    },
+    {
+      "autocorrelations": [
+        -2,
+        1,
+        2
+      ],
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        64,
+        66,
+        96,
+        98
+      ],
+      "root_exponent": -1,
+      "shard": 9
+    },
+    {
+      "autocorrelations": [
+        -2,
+        1,
+        2
+      ],
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        64,
+        66,
+        96,
+        98
+      ],
+      "root_exponent": -1,
+      "shard": 9
+    },
+    {
+      "autocorrelations": [
+        -2,
+        -1,
+        2
+      ],
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        64,
+        66,
+        96,
+        98
+      ],
+      "root_exponent": -1,
+      "shard": 9
+    },
+    {
+      "autocorrelations": [
+        -2,
+        -1,
+        2
+      ],
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        32,
+        34,
+        64,
+        66
+      ],
+      "root_exponent": -1,
+      "shard": 24
+    },
+    {
+      "autocorrelations": [
+        -2,
+        -1,
+        2
+      ],
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        32,
+        34,
+        64,
+        66
+      ],
+      "root_exponent": -1,
+      "shard": 24
+    },
+    {
+      "autocorrelations": [
+        -2,
+        1,
+        2
+      ],
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        32,
+        34,
+        64,
+        66
+      ],
+      "root_exponent": -1,
+      "shard": 24
+    },
+    {
+      "autocorrelations": [
+        -2,
+        1,
+        2
+      ],
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        2,
+        32,
+        34,
+        64,
+        66
+      ],
+      "root_exponent": -1,
+      "shard": 24
+    }
+  ],
+  "worker_seconds": 11.552424
+}

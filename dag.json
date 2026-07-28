@@ -364,7 +364,7 @@
     "background/nodes/e1_official_low_square_mass_pair_budget/frontier.md"
    ],
    "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 65127585921474870475467050631501738502567, about 1.714K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)); after the prize field floor removes S=16, at most 69541 oriented vectors is a stronger uniform sufficient condition. The Plotkin compiler then forces more than B* values.",
-   "attack_surface": "prove the exact weighted folded-kernel budget, the stronger 69541 oriented-vector cap on the binding row, or maximum collision degree three; start with the six live prize cofactor classes of (4,2,S=18), especially m=1028 at V in {10,18}, and retain exact orientations, stabilizers, and class-pair multiplicities",
+   "attack_surface": "prove the exact weighted folded-kernel budget, the stronger 69541 oriented-vector cap on the binding row, or maximum collision degree three; start with the five live prize cofactor classes of (4,2,S=18), especially m=514 with V<=50, and retain exact orientations, stabilizers, and class-pair multiplicities",
    "falsifier": "an admissible row whose exact unordered low-mass collision-pair count exceeds its printed budget, or a multiplicity/type error in a claimed count"
   },
   {
@@ -2625,6 +2625,24 @@
    ],
    "statement": "On prize-envelope N=256 rows, every profile-(4,2,0) collision has autocorrelation variance V=2 mod 8. An exact logarithmic deficit gives cofactor-specific finite windows, and a Lucas-resultant calculation excludes V=2. Cofactor 1538 is impossible; cofactor 1028 retains only V in {10,18}; the other five live cofactors have explicit bounded V=2 mod 8 residuals.",
    "notes": "ROUTE REDUCTION 2026-07-28: narrows the leading prize S=18 profile without a census or numerical norm estimate. Six cofactor classes remain, so this is evidence for rather than closure of the aggregate pair budget."
+  },
+  {
+   "id": "e1_prize_n256_s18_m1028_collision_exclusion",
+   "title": "Prize N=256 square-mass-18 cofactor-1028 exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(4,2,0) cofactor 1028 is impossible. The parent restricts it to V in {10,18}. Two independent complete normalized censuses cover 320292000 signed vectors, find no V=10 vector and 16 V=18 vectors, and prove that none of the latter has norm divisible by 257, contradicting 1028=4*257.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual 32-shard engines with distinct enumeration and autocorrelation implementations agree. The leading prize profile contracts from six to five live cofactors; no aggregate pair count is claimed."
   },
   {
    "id": "e1_n512_four_singleton_collision_exclusion",
@@ -21378,6 +21396,26 @@
   },
   {
    "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_prize_n256_s18_m1028_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m1028_collision_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m1028_collision_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m1028_collision_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
