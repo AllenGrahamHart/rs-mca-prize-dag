@@ -6546,3 +6546,24 @@ next route-deciding action: combine the non-base-field conic parameter with
                               root/color assignment and avoid a 64-case
                               assignment-free shortcut
 ```
+
+**2026-07-28, L1 h=7 constant-color chamber closed:** the first two
+rootwise colored reciprocal coefficients already exclude the degree-zero
+colored interpolant on all six reduced roots.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_constant_color_exclusion
+first coefficient: rho*c=1-alpha, alpha=epsilon*zeta in mu_8
+second coefficient: 30alpha(c-1)=(alpha+1)zeta+12alpha^2
+field contraction: c-1 in F_(p^2), hence zeta in {+1,-1}
+norm obstruction: 12zeta*s^2+(1+12zeta)s+146-924zeta=0
+trace atlas: s=2,-2,0 or s^2=2; no official characteristic survives
+result: constant color on the six reduced roots CLOSED on all four m=8 rows
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; exact coefficient and norm proof
+open h=7 residue: t notin F_p with a nonconstant, assignment-preserving
+                   colored Frobenius interpolant
+next route-deciding action: classify or exclude the linear color stratum;
+                              otherwise derive a bounded Frobenius
+                              correspondence for each nonconstant degree
+```

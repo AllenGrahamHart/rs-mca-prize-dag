@@ -699,3 +699,13 @@
   at most six points for the seven roots of `P`. Delete the complete
   `t in F_p` branch on all four rows. Do not replay the former four packets;
   attack only `t notin F_p` in the `h=7` order-one curve.
+
+- In that non-base-field branch, consume
+  `l1_mersenne_hnf_m8_order_one_constant_color_exclusion`. The six roots of
+  the reduced factor cannot share one `p+1` color: the first two colored
+  reciprocal coefficients force `rho*c=1-epsilon*zeta` and then an explicit
+  `F_(p^2)` formula for `c-1`, whose norm equation misses every eighth-root
+  trace in all four official characteristics. Begin any colored elimination
+  at nonconstant degree. Preserve the root/color assignment; this theorem
+  neither licenses an assignment-free color census nor closes any
+  nonconstant degree stratum.
