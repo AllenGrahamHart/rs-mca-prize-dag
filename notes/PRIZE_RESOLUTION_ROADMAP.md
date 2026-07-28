@@ -6153,3 +6153,29 @@ atlas/primary/audit/norm Modal apps:
 remaining profile-(3,6) cofactors: 7
 next attack: m=256, with mu=8 and E=2,...,23
 ```
+
+**Same-day cofactor-256 close:** exact magnitude partitions and a complete
+radius-three-or-less affine census remove the next branch.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m256_exclusion
+exact product comparisons: 27176
+product ledger: 45 live and 45 excluded (E,q,L) triples
+all E=21,22,23 chambers excluded
+normalized singleton supports: 10009125
+mu=8 supports: 87856
+affine orbits: 5920
+singleton sign assignments: 189440
+third-position queries: 23111680
+candidate heavy triples: 2833260
+exact sign tests: 22666080
+product-live vectors: 54
+energies: E13=8, E15=6, E17=12, E19=28
+dual exact norms: 54 vectors, all valuation 8 and Norm/256 below interval
+product/atlas/primary/audit/norm Modal apps:
+  ap-mSa4smR2wCUZpmzvRBDzGA, ap-Q5KgAzAsdxFUQkjKY7WQHd,
+  ap-N80auy8zzX09hKkYkuPnQu, ap-lHpPMgDmUlXSI5hWrdSzHP,
+  ap-dCD2CvCih4t6ERJB6wOGuC
+remaining profile-(3,6) cofactors: 6
+next attack: m=64, with mu=6 and E=2,...,65
+```

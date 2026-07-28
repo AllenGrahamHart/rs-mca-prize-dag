@@ -39,10 +39,12 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    product theorem has already reduced this to the nine live `(E,q)` chambers
    `(7,3),(7,7),(8,4),(8,8),(9,5),(9,9),(10,6),(10,10),(11,11)` and has
    separately contracted `m=256` to `V<=46`. The dual nine-chamber census and
-   exact norm ledger close `m=514`, leaving seven cofactors. Attack `m=256`
-   through `E=23` next, spending multiplicity eight before any norm work.
-   Never count a normalized vector as one edge, and do not rerun any closed
-   cofactor.
+   exact norm ledger close `m=514`, leaving seven cofactors. An exact
+   parity-product ledger, complete 5920-orbit multiplicity-eight census, and
+   dual norm packet then close `m=256`, leaving the six pure cofactors
+   `2,4,8,16,32,64`. Attack `m=64` through `E=65` next, spending
+   multiplicity six before any norm work. Never count a normalized vector as
+   one edge, and do not rerun any closed cofactor.
 7. Falsify with a pinned row and enough exact weighted edges to exceed the
    table, not a single collision vector.
 
