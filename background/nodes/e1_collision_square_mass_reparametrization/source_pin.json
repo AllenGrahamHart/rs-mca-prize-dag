@@ -1,0 +1,12 @@
+{
+  "canonical_repository": "/home/u2470931/smooth-read-solomin/prize",
+  "canonical_precursor_commit": "0acf7e8fc48666f0baa98ece396de7095bc496a0",
+  "canonical_correction_commit": "c90a724be07c3dc76bbc33e35b41d92504dd9a09",
+  "canonical_node_path": "background/nodes/e1_collision_square_mass_reparametrization",
+  "dependency_statement_file": "background/nodes/e1_prime_field_l2_norm_collision_radius/statement.md",
+  "dependency_statement_sha256": "ed607ee0d843c1f2c74c79129d19ef8d52be96ba2a8ceb77d35014f95d852995",
+  "dependency_proof_file": "background/nodes/e1_prime_field_l2_norm_collision_radius/proof.md",
+  "dependency_proof_sha256": "624187134c06052de0c06ec32a95d322d8af373488d27100a426ef2f0f9388a3",
+  "class_count_proof_file": "critical/nodes/acl_count/proof.md",
+  "class_count_proof_sha256": "968ceb1077d15c6f6e302deabffe8b291eb95ec54ca69375e2b0c4bfb8aa5846"
+}

@@ -5590,13 +5590,34 @@ next route-deciding action: reconcile the square-mass scope question before
                             authorizing any E12/V24 computation
 ```
 
-Canonical reconciliation at `c90a724b` proves that square mass, not raw swap
-distance, is the collision invariant and identifies three additional live
-`S=16` splits `(2,8)`, `(1,12)`, and `(0,16)` outside this descent's `(3,4)`
-scope. Nothing in E13 is retracted: its statement is explicitly restricted to
-folded profile `(3,4,0)`. The universal unsafe target nevertheless cannot be
-advanced merely by continuing the `(3,4)` variance descent. Before buying E12,
-vendor `e1_collision_square_mass_reparametrization` and decide whether the
-other three splits are already excluded, transport to `(3,4)`, or are genuine
-new lanes. The corrected canonical N=512 statement also leaves `s>=2`, not
-`s>=3`, after the four-singleton exclusion.
+Canonical reconciliation at `c90a724b` identified square mass, not raw swap
+distance, as the collision coordinate and exposed three additional `S=16`
+splits outside this descent's `(3,4)` scope. The strengthened local node
+`e1_collision_square_mass_reparametrization` now resolves its caveats:
+
+```text
+canonical precursor: 0acf7e8fc48666f0baa98ece396de7095bc496a0
+canonical correction: c90a724be07c3dc76bbc33e35b41d92504dd9a09
+local starting pin: 1c02fea6
+class coordinate: alpha=sum_i(x_i-y_i)zeta^i
+square mass and height: S=4a+b, H=2a+b
+exact support bound: T=min(ell,2h-ell), H<=2T, even S<=4T
+official finite ranges: S<=260 at N=256,ell=65; S<=132 at ell=33
+S=16 feasibility: (3,4), (2,8), (1,12), (0,16) all realized at ell=33,65
+all-even split: (4,0) excluded after division by two
+canonical wording repair: raw distance is not unbounded at fixed N
+N=512 correction: the norm floor leaves s>=2; the proved s=2 band close then
+                      advances that lane to s>=3
+status movement: none; this is a PROVED route-scope correction
+compute decision: E12/V24 is paused; no Modal census authorized
+next route-deciding action: prove an aggregate incidence/direct-image bound
+                            or a finite coefficient-type reduction across the
+                            exact square-mass ranges
+```
+
+Nothing in E13 is retracted: its statement is explicitly restricted to folded
+profile `(3,4,0)`. The new constructions show that the other three `S=16`
+splits are genuine official-size class-pair profiles, rather than artifacts
+removed by the missing `ell` constraint. Since the consumer asks for the
+aggregate allowance `P<=K-B*-1`, proving collision-freeness endpoint by
+endpoint in a single profile is no longer the preferred route.

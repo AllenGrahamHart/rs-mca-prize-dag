@@ -17,6 +17,7 @@ e1_clean_anchor_exact_collision_allowance --ev-->
 e1_pair_feasible_ambient_generation      --ev-->
 e1_pair_feasible_prime_field_reduction   --ev-->
 e1_prime_field_l2_norm_collision_radius  --ev-->
+e1_collision_square_mass_reparametrization --ev-->
 e1_n256_s16_high_variance_collision_exclusion --ev-->
 e1_n256_s16_sparse_l1_variance_exclusion --ev-->
 e1_n256_s16_e38_quotient_schur_exclusion --ev-->

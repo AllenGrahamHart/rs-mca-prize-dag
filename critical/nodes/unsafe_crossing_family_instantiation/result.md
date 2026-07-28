@@ -227,3 +227,14 @@ At `V=26` the cutoff-free router leaves four profiles on 111 templates. Dual
 comprise two composite integers below `2^251`. Thus `V=26` is empty and the
 live positive even first-band frontier is `V<=24`. This remains evidence for
 the universal target rather than a row or prize closure.
+
+**Square-mass scope correction (2026-07-28).** The class collision coordinate
+is `S=4a+b`, not raw representative distance. The exact class-size bounds are
+`S<=260` for `N=256,ell=65` and `S<=132` for `ell=33`. At `S=16`, all of
+`(3,4)`, `(2,8)`, `(1,12)`, and `(0,16)` are feasible official-size class-pair
+profiles and survive the current norm floor; the variance campaign covers
+only `(3,4)`. The claim that raw distance is unbounded at fixed `N` is not
+needed and is false because only finitely many antipodal positions exist.
+No existing `(3,4)` closure is retracted, but `V=24` is not the universal
+route frontier. Further census work is paused pending an aggregate incidence,
+finite-reduction, or direct-image theorem.

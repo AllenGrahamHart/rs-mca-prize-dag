@@ -270,3 +270,8 @@ unresolved target is a logical leaf, with its route-uniform scope printed
 directly.
 The evidence nodes do not belong to the mathematical critical orbit without a
 theorem transporting their content into a closed route-wide result.
+
+`e1_collision_square_mass_reparametrization` is additional evidence-only
+input. It proves the exact finite square-mass ranges and that three feasible
+`S=16` profiles sit outside the `(3,4)` variance campaign. It therefore pauses
+the former `V=24` next action without changing this target's status.

@@ -304,9 +304,11 @@ composite and below `2^251`. Hence `V=26` is empty and the frontier is
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
-injectivity or another explicit `V` line. Within the first `N=256` band, the
-`V=26` chamber is now closed; derive and price the exact cutoff-free `V=24`
-profile/parity/light router.
+injectivity or another explicit `V` line. Within profile `(3,4)`, the `V=26`
+chamber is now closed, but square-mass reconciliation exhibits three other
+feasible `S=16` profiles. Do not continue to `V=24` until an aggregate
+incidence/direct-image theorem or a finite coefficient-type reduction makes
+that profile-local computation route-relevant.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
 cofactor classes. Do not rerun any `V>=26`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact

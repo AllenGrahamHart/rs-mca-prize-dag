@@ -143,8 +143,11 @@ exact odd norm parts. At `V=28`, four profiles on 1,321 templates close by
 dual 26,219,123,456-vector censuses, conductor, exact odd norms, and exact
 compositeness of the six threshold exceptions. At `V=26`, four profiles on
 111 templates close by dual 2,203,120,896-vector censuses, conductor, exact
-odd norms, and exact compositeness of four threshold exceptions. Derive and
-price the exact `V=24` router. Do not rerun any `V>=26` campaign.
+odd norms, and exact compositeness of four threshold exceptions. Do not derive
+or price the `V=24` router yet, and do not rerun any `V>=26` campaign. The
+square-mass theorem exposes three other feasible `S=16` profiles and finite
+ranges extending to `S=260` or `S=132`; first seek an aggregate incidence or
+direct-image theorem, or a proved finite reduction of those coefficient types.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
 the 2-adic singleton screen and test its 419 exact cofactors directly; do not

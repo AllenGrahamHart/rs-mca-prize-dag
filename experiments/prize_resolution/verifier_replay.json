@@ -2,57 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 6,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e13_endpoint_exclusion/verify.py",
-      "seconds": 0.047368,
+      "script": "background/nodes/e1_collision_square_mass_reparametrization/verify.py",
+      "seconds": 0.041968,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E13_ENDPOINT_EXCLUSION_PASS profiles=4 exclusions=4 frontier=24 mutations=2\n"
+      "stdout_tail": "E1_COLLISION_SQUARE_MASS_REPARAMETRIZATION_PASS S16_splits=((3, 4), (2, 8), (1, 12), (0, 16)) official_params=3 checks=159\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e13_endpoint_exclusion/verify_audit.py",
-      "seconds": 12.237796,
+      "script": "background/nodes/e1_collision_square_mass_reparametrization/verify_audit.py",
+      "seconds": 0.040631,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E13_ENDPOINT_EXCLUSION_AUDIT_PASS checkers=4 mutations=4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e13_four_profile_exclusion/verify.py",
-      "seconds": 0.143916,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E13_FOUR_PROFILE_EXCLUSION_PASS templates=111 vectors=2203120896 profile=820 full=136 distinct=36 norm_hits=112 odd_hits=4 composite_candidates=2 engines=6 mutations=3\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e13_four_profile_exclusion/verify_audit.py",
-      "seconds": 0.118099,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E13_FOUR_PROFILE_EXCLUSION_AUDIT_PASS checkers=3 engines=6 mutations=3\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e13_profile_parity_light_reduction/verify.py",
-      "seconds": 12.994393,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E13_PROFILE_PARITY_LIGHT_REDUCTION_PASS l1=9 profiles=4 survivors=4 templates=111 floor=2203120896 mutations=1\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e13_profile_parity_light_reduction/verify_audit.py",
-      "seconds": 12.568135,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E13_PROFILE_PARITY_LIGHT_REDUCTION_AUDIT_PASS independent_checker=1\n"
+      "stdout_tail": "E1_COLLISION_SQUARE_MASS_REPARAMETRIZATION_AUDIT_PASS checks=1144\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

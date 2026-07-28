@@ -185,15 +185,22 @@ E1 is impossible because the complete value set lies in `B`. If
 its balanced-fiber minimum already exceeds the allowance. Both remain
 obligations of the universal unsafe router, not of this target.
 
-The next route-deciding attack is algebraic. Either:
+The next route-deciding attack is algebraic. Square-mass reconciliation
+supersedes the former instruction to continue immediately with `V=24`:
+
+- prove a square-mass-uniform incidence or direct-image bound paying the
+  aggregate `P<=K-B*-1` allowance across the exact finite ranges `S<=260` and
+  `S<=132`; or prove a finite reduction of all coefficient multiplicities to
+  controlled types. The three additional feasible `S=16` splits must be
+  covered explicitly;
 
 - prove the exact pointwise pair-incidence bound from the norm-divisor
   structure over every prime `p=1 mod N` in the two exact intervals, beginning
   with the full-conductor portions of the surviving `N=256,s=5` profiles
   after the 2-adic cofactor screen. In `(3,4,0)`, every `V>=26` chamber is
-  closed and must not be rerun. Derive the cutoff-free `V=24` (`E=12`)
-  profile/parity/light router and price its actual-vector residue before
-  authorizing exact norms. Compare that route against the 419 exact cofactor
+  closed and must not be rerun. Do not authorize `V=24` until a theorem
+  explains how that profile-local descent contributes efficiently to the
+  aggregate square-mass ledger. Compare any such route against the 419 exact cofactor
   classes in `(4,2,0)`. Treat the
   `N=512,s=3` band independently;
 - construct an exact pair-feasible candidate-class row above its allowance and

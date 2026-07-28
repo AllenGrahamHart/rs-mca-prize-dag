@@ -250,6 +250,26 @@
    "notes": "ROUTE REDUCTION 2026-07-27: replaces the crude L1 norm radius by an exact folded L2 bound. It does not control the surviving collision-pair ledger."
   },
   {
+   "id": "e1_collision_square_mass_reparametrization",
+   "title": "E1 class-difference square-mass coordinates and finite height",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_collision_square_mass_reparametrization/statement.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/proof.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/claim_contract.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/dependency_subdag.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/audit.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/frontier.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/result.md",
+    "background/nodes/e1_collision_square_mass_reparametrization/source_pin.json",
+    "background/nodes/e1_collision_square_mass_reparametrization/verify.py",
+    "background/nodes/e1_collision_square_mass_reparametrization/verify_audit.py"
+   ],
+   "statement": "For signed singleton vectors x,y representing two antipodal-rearrangement classes, alpha=sum_i(x_i-y_i)zeta^i has square mass S=4a+b and height H=2a+b. If T=min(ell,2h-ell), then H<=2T and even S<=4T. Raw same-sign antipodal-pair padding changes representative distance but not alpha. At the official parameters S<=260 for N=256,ell=65 and S<=132 for ell=33. Every S=16 split with b>0, namely (3,4),(2,8),(1,12),(0,16), is realized by official-size N=256 class pairs and survives the present norm floor; the existing variance descent covers only (3,4). This reparametrization closes no collision ledger or prize row.",
+   "notes": "CANONICAL RECONCILIATION 2026-07-28: preserves the square-mass insight of prize 0acf7e8f and the N=512 correction c90a724b, repairs the false fixed-order unboundedness wording, pins the formerly missing ell bound, and proves the three additional S=16 splits are genuine feasible class-pair profiles."
+  },
+  {
    "id": "e1_n256_s16_high_variance_collision_exclusion",
    "title": "N=256 square-mass-16 high-variance collision exclusion",
    "status": "PROVED",
@@ -7490,10 +7510,10 @@
    "id": "e1_official_prime_exception_control",
    "title": "Direct-E1 route-uniform exceptional-set control",
    "status": "TARGET",
-   "statement": "Uniformly for every admissible clean-anchor row in the independently defined pair-feasible direct-E1 class B=F_p(Q), |B|>=b_pair_min(K,B*)=ceil((K+B*+1)/3), with all field, embedding, owner, and endpoint data pinned, let quotient orders N in {256,512}, K=A_2(N,ell), and P=sum_y binom(r_y,2) count unordered pairs of distinct characteristic-zero classes colliding after reduction. By e1_pair_feasible_prime_field_reduction every such named-anchor row has q=p and p=1 mod N. Exact folded-norm arguments force collision distance s>=5 for N=256 and s>=3 for N=512. Prove P<=K-B*-1 for B*=floor(|F|/2^128). The formerly printed {128,256} are folded dimensions, not live quotient orders. Finite selected-field exhibit certificates do not discharge this route-uniform target.",
+   "statement": "Uniformly for every admissible clean-anchor row in the independently defined pair-feasible direct-E1 class B=F_p(Q), |B|>=b_pair_min(K,B*)=ceil((K+B*+1)/3), with all field, embedding, owner, and endpoint data pinned, let quotient orders N in {256,512}, K=A_2(N,ell), and P=sum_y binom(r_y,2) count unordered pairs of distinct characteristic-zero classes colliding after reduction. By e1_pair_feasible_prime_field_reduction every such named-anchor row has q=p and p=1 mod N. Exact folded-norm arguments force collision distance s>=5 for N=256 and s>=2 for N=512. Prove P<=K-B*-1 for B*=floor(|F|/2^128). The formerly printed {128,256} are folded dimensions, not live quotient orders. Finite selected-field exhibit certificates do not discharge this route-uniform target.",
    "attack_surface": "prove the exact pair-feasible-class incidence bound, construct a pair-feasible row above allowance, or give a complete per-input image/collision certifier theorem",
    "falsifier": "a pair-feasible candidate row with P>K-B*-1; a certifier leaving such a row uncovered; or any base/ambient-field normalization failure",
-   "notes": "EXACT FINITE RE-POSE 2026-07-26, narrowed 2026-07-27: replaces negligible/o(1) language, fixes quotient-order versus folded-dimension notation, proves that the live branch is prime-field, excludes s<=4 at N=256 and s<=2 at N=512 by exact folded norms, and closes profile (3,4,0) through V=56 by complete profile, template-census, conductor, and exact-resultant packets. Its positive even residual is V<=54. Selected-field exhibits remain evidence only, and unsafe_crossing_family_instantiation owns global row routing."
+   "notes": "EXACT FINITE RE-POSE 2026-07-26, narrowed 2026-07-28: replaces negligible/o(1) language, fixes quotient-order versus folded-dimension notation, proves that the live branch is prime-field, excludes s<=4 at N=256 and s=1 at N=512 by exact folded norms, and closes profile (3,4,0) through V=26. Square-mass reconciliation proves three other feasible S=16 profiles remain outside that descent, so V=24 computation is paused in favor of an aggregate incidence or direct-image theorem. Selected-field exhibits remain evidence only, and unsafe_crossing_family_instantiation owns global row routing."
   },
   {
    "id": "ef_fullfield_bridge",
@@ -36432,6 +36452,26 @@
   },
   {
    "from": "e1_first_band_variance_route_boundary",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "acl_count",
+   "to": "e1_collision_square_mass_reparametrization",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_collision_square_mass_reparametrization",
+   "kind": "req"
+  },
+  {
+   "from": "e1_collision_square_mass_reparametrization",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_collision_square_mass_reparametrization",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   }

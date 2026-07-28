@@ -172,6 +172,15 @@ excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.
 Thus any surviving `N=512` collision has `s>=3`.
 
+The distance-band statement is not a square-mass exhaustion. By
+`e1_collision_square_mass_reparametrization`, the class difference has
+`S=4a+b`, with exact finite bounds `S<=260` for the rate-`1/4` lane and
+`S<=132` for the other two lanes. At `N=256,S=16`, the additional splits
+`(2,8)`, `(1,12)`, and `(0,16)` are realized by official-size class pairs and
+survive the current norm test. The variance campaign covers only `(3,4)`.
+Its `V<=24` residual is therefore profile-local evidence, not the next
+route-uniform frontier.
+
 The actual quotient orders are
 
 ```text
