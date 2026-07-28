@@ -5548,3 +5548,55 @@ mathematical frontier, so it creates no E14 DAG edge. It is bankable submission
 dossier evidence and independently pins the load-bearing rule that `r_quad`
 must be located by the exact sign condition rather than the naive printed
 integer-square-root formula, which is one too large in three of four rates.
+
+**2026-07-28, E13 cutoff-free route and V=26 endpoint close:** odd diameter
+parity reduces the chamber to the one/five-odd atlas. A complete dual census
+and the proper-conductor theorem leave 136 full-conductor vectors. Four odd
+parts cross the simple threshold, but exact classification of their two
+distinct values closes every surviving profile.
+
+```text
+starting local pin: 8793e891
+canonical prize pin: c90a724be07c3dc76bbc33e35b41d92504dd9a09
+upstream main pin: fde7d56d0f2d8f135db4f2226e1978644a6c9f44
+node attacked: N=256, folded profile (3,4,0), V=26 (E=13)
+reduction app: ap-i2oKjwTWqN24exJmrNCPtQ
+slack result: L<=9; exactly four energy profiles
+majorant policy: not invoked
+parity result: all four survive; two have one odd class and two have five
+light atlas: 14,664 normalized supports in 11+100=111 affine templates
+coverage per engine: 111*binom(124,3)*64=2,203,120,896 vectors
+census app: ap-AhqC0lLGj9BYMLmRpKa1mj; dual exact engine agreement;
+            613.766 aggregate dual worker-seconds
+actual profiles: [418,252,104,46], total 820
+full conductor: [112,0,16,8], total 136
+proper conductor: complementary 684 vectors discharged by theorem
+norm app: ap-cXvEeUhd1ym0Ep1InsluxC; FLINT/PARI agreement on all 136
+distinct norms: 36
+exact whole-norm maximum: 4937981356753691307652038461254907642619144628263052811320856547919621259264
+whole norms at or above 2^250: 112
+exact odd-part maximum: 2099233185140600860850973089797376067771315496789913419840767568645748406017
+odd threshold hits: 4 vectors, 2 distinct odd parts, all below 2^251
+candidate app: ap-a4p98JmkMEXvNaIRL7bXzV; exact PARI/FLINT agreement;
+               both distinct threshold odd parts are composite
+eligible pair-feasible prime candidates: 0
+result: CLOSED; all four profiles and the V=26 endpoint are PROVED absent
+live positive even variance frontier: V<=24
+delta-star bracket movement: none; this pays one finite E1 exception chamber
+new assumptions: none
+upstream terminal delta: none; local result is OURS_ONLY
+live compute requests: none for E13; never rerun V>=26
+next route-deciding action: reconcile the square-mass scope question before
+                            authorizing any E12/V24 computation
+```
+
+Canonical reconciliation at `c90a724b` proves that square mass, not raw swap
+distance, is the collision invariant and identifies three additional live
+`S=16` splits `(2,8)`, `(1,12)`, and `(0,16)` outside this descent's `(3,4)`
+scope. Nothing in E13 is retracted: its statement is explicitly restricted to
+folded profile `(3,4,0)`. The universal unsafe target nevertheless cannot be
+advanced merely by continuing the `(3,4)` variance descent. Before buying E12,
+vendor `e1_collision_square_mass_reparametrization` and decide whether the
+other three splits are already excluded, transport to `(3,4)`, or are genuine
+new lanes. The corrected canonical N=512 statement also leaves `s>=2`, not
+`s>=3`, after the four-singleton exclusion.

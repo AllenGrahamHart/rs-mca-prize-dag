@@ -1,0 +1,244 @@
+{
+  "atlas_inputs": {
+    "1": {
+      "affine_orbits": 11,
+      "normalized_supports": 264
+    },
+    "3": {
+      "affine_orbits": 8,
+      "normalized_supports": 960
+    },
+    "5": {
+      "affine_orbits": 100,
+      "normalized_supports": 14400
+    }
+  },
+  "atlas_source_sha256": "4e56ce3dcd83b8df411497615b7857f8ffa25c0a291bfa6257a2d11ae0992f46",
+  "complete": true,
+  "diameter_ledgers": {
+    "one_light_diameter": [
+      [
+        1,
+        -44
+      ],
+      [
+        5,
+        -42
+      ],
+      [
+        9,
+        -40
+      ],
+      [
+        17,
+        -36
+      ],
+      [
+        21,
+        -34
+      ]
+    ]
+  },
+  "direct_vector_floor": 2203120896,
+  "energy": 13,
+  "l1_bound": 9,
+  "majorant_filter": null,
+  "majorant_policy": "not invoked: the fixed cubic-Hermite majorant is dead below V=50",
+  "parity_rejected": [],
+  "parity_survivors": [
+    {
+      "cap": 386,
+      "l1": 9,
+      "odd_classes": 5,
+      "profile": [
+        5,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 302,
+      "l1": 7,
+      "odd_classes": 1,
+      "profile": [
+        1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 238,
+      "l1": 7,
+      "odd_classes": 5,
+      "profile": [
+        4,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 182,
+      "l1": 5,
+      "odd_classes": 1,
+      "profile": [
+        0,
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "profile_count": 4,
+  "profiles": [
+    {
+      "cap": 386,
+      "l1": 9,
+      "odd_classes": 5,
+      "profile": [
+        5,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 302,
+      "l1": 7,
+      "odd_classes": 1,
+      "profile": [
+        1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 238,
+      "l1": 7,
+      "odd_classes": 5,
+      "profile": [
+        4,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 182,
+      "l1": 5,
+      "odd_classes": 1,
+      "profile": [
+        0,
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "relevant_affine_templates": 111,
+  "relevant_normalized_supports": 14664,
+  "schema": "e1-e13-profile-parity-route-probe-v1",
+  "slack_trace": [
+    [
+      13,
+      27,
+      29
+    ],
+    [
+      12,
+      31,
+      25
+    ],
+    [
+      11,
+      35,
+      21
+    ],
+    [
+      10,
+      39,
+      17
+    ],
+    [
+      9,
+      43,
+      13
+    ],
+    [
+      8,
+      47,
+      9
+    ],
+    [
+      7,
+      51,
+      5
+    ],
+    [
+      6,
+      55,
+      9
+    ]
+  ],
+  "source_sha256": "18e4f8388e1439074caf90caa1df46b7f63b741e134394718c7fcdf73fb5dfe1",
+  "survivors_by_odd_count": {
+    "1": [
+      {
+        "cap": 302,
+        "l1": 7,
+        "odd_classes": 1,
+        "profile": [
+          1,
+          3,
+          0,
+          0
+        ]
+      },
+      {
+        "cap": 182,
+        "l1": 5,
+        "odd_classes": 1,
+        "profile": [
+          0,
+          1,
+          1,
+          0
+        ]
+      }
+    ],
+    "3": [],
+    "5": [
+      {
+        "cap": 386,
+        "l1": 9,
+        "odd_classes": 5,
+        "profile": [
+          5,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "cap": 238,
+        "l1": 7,
+        "odd_classes": 5,
+        "profile": [
+          4,
+          0,
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  "used_odd_counts": [
+    "1",
+    "5"
+  ],
+  "variance": 26,
+  "vectors_per_template": 19847936
+}

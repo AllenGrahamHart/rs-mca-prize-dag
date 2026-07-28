@@ -1,0 +1,159 @@
+{
+  "agreement": true,
+  "candidates": [
+    {
+      "coefficients": [
+        2,
+        -2,
+        -2,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "index": 24,
+      "is_prime": false,
+      "light": [
+        0,
+        1,
+        4,
+        68
+      ],
+      "norm": 4198466370135041133631217856182007949813636883721712755705110280023874632194,
+      "odd_part": 2099233185067520566815608928091003974906818441860856377852555140011937316097,
+      "pair_feasible_prime": false,
+      "positions": [
+        2,
+        65,
+        67,
+        0,
+        1,
+        4,
+        68
+      ],
+      "profile": 2,
+      "residue_mod_256": 1,
+      "template": 16,
+      "valuation": 1
+    },
+    {
+      "coefficients": [
+        2,
+        2,
+        2,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "index": 25,
+      "is_prime": false,
+      "light": [
+        0,
+        1,
+        4,
+        68
+      ],
+      "norm": 4198466370135041133631217856182007949813636883721712755705110280023874632194,
+      "odd_part": 2099233185067520566815608928091003974906818441860856377852555140011937316097,
+      "pair_feasible_prime": false,
+      "positions": [
+        2,
+        65,
+        67,
+        0,
+        1,
+        4,
+        68
+      ],
+      "profile": 2,
+      "residue_mod_256": 1,
+      "template": 16,
+      "valuation": 1
+    },
+    {
+      "coefficients": [
+        2,
+        2,
+        2,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "index": 26,
+      "is_prime": false,
+      "light": [
+        0,
+        1,
+        4,
+        68
+      ],
+      "norm": 4198466370281201721701946179594752135542630993579826839681535137291496812034,
+      "odd_part": 2099233185140600860850973089797376067771315496789913419840767568645748406017,
+      "pair_feasible_prime": false,
+      "positions": [
+        2,
+        65,
+        67,
+        0,
+        1,
+        4,
+        68
+      ],
+      "profile": 2,
+      "residue_mod_256": 1,
+      "template": 16,
+      "valuation": 1
+    },
+    {
+      "coefficients": [
+        2,
+        -2,
+        -2,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "index": 27,
+      "is_prime": false,
+      "light": [
+        0,
+        1,
+        4,
+        68
+      ],
+      "norm": 4198466370281201721701946179594752135542630993579826839681535137291496812034,
+      "odd_part": 2099233185140600860850973089797376067771315496789913419840767568645748406017,
+      "pair_feasible_prime": false,
+      "positions": [
+        2,
+        65,
+        67,
+        0,
+        1,
+        4,
+        68
+      ],
+      "profile": 2,
+      "residue_mod_256": 1,
+      "template": 16,
+      "valuation": 1
+    }
+  ],
+  "census_sha256": "ea008d852c4877dce45a596a7819f5e1e0617bb3c1f509a4217b0c567de9ed42",
+  "complete": true,
+  "modulus": 256,
+  "norm_sha256": "118d959cdc529fa0a82bfe076da99f545bba04a96ec6949da2e910b9453c1422",
+  "schema": "e1-e13-large-odd-candidate-v1",
+  "source_sha256": "9f796654c9098f97ca518b275a9b41f4b0a4d846653ffb5daf6b8b4fc1f1ba3c",
+  "summary": {
+    "candidates": 4,
+    "congruence_candidates": 4,
+    "distinct_odd_parts": 2,
+    "pair_feasible_prime_candidates": 0,
+    "prime_candidates": 0
+  },
+  "threshold": 1809251394333065553493296640760748560207343510400633813116524750123642650624
+}

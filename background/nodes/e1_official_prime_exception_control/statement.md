@@ -161,6 +161,12 @@ removes the other 1,100. Six full-conductor odd norm parts reach `2^250`, but
 they comprise three composite integers below `2^251` by independent exact
 PARI/FLINT primality tests. Thus `V=28` is empty and the live positive even
 frontier is `V<=26`.
+At `V=26`, cutoff-free slack and parity leave four profiles on 111 one/five-odd
+templates. Independent 2,203,120,896-vector engines find 820 profile vectors,
+including 136 at full conductor. The conductor theorem removes the other 684.
+Four full-conductor odd norm parts reach `2^250`, but they comprise two
+composite integers below `2^251` by exact PARI/FLINT tests. Thus `V=26` is
+empty and the live positive even frontier is `V<=24`.
 At `N=512,s=2`, exact variance
 excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.

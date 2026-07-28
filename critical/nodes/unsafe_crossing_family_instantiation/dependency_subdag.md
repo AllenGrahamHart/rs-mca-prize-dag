@@ -271,3 +271,8 @@ Independent complete censuses find 1,836 vectors, conductor removes 1,100,
 and exact norms leave six threshold exceptions. Exact PARI/FLINT tests prove
 their three distinct odd parts composite and below `2^251`; the E14 endpoint
 closes `V=28` and advances the frontier to `V<=26`, still as evidence only.
+The proved cutoff-free E13 reduction leaves four profiles on 111 templates.
+Independent complete censuses find 820 vectors, conductor removes 684, and
+exact norms leave four threshold exceptions. Exact PARI/FLINT tests prove
+their two distinct odd parts composite and below `2^251`; the E13 endpoint
+closes `V=26` and advances the frontier to `V<=24`, still as evidence only.

@@ -250,6 +250,12 @@ norms leave six threshold exceptions; exact PARI/FLINT primality tests show
 their three distinct odd parts are composite and below `2^251`. The E14
 endpoint closes `V=28` and advances the frontier to `V<=26`, still as evidence
 rather than a universal close.
+The cutoff-free E13 reduction leaves four profiles on 111 templates.
+Independent censuses find 820 vectors and conductor removes 684. Exact norms
+leave four threshold exceptions; exact PARI/FLINT tests show their two
+distinct odd parts are composite and below `2^251`. The E13 endpoint closes
+`V=26` and advances the frontier to `V<=24`, still as evidence rather than a
+universal close.
 The proper-conductor theorem also removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing

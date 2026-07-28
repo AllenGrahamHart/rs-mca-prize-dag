@@ -8634,8 +8634,7 @@ The 178-vector primitive residue authorizes the bounded norm decision below.
 
 #### CR-E1-E16-FOUR-PROFILE-NORMS: exact endpoint decision
 
-**Status:** COMPLETE ROUTE REPAIR PASS. The norm ledger and exception audit are
-source-pinned; no rerun is authorized.
+**Status:** AUTHORIZED, not yet launched.
 
 Compute `abs(Res(g,x^128+1))` for all 178 full-conductor E16 vectors in one
 FLINT batch and one independently evaluated PARI/GP batch. Strip the exact
@@ -8785,43 +8784,9 @@ FLINT engine and one PARI/GP engine. Record exact powers of two and odd parts,
 because the pair-feasible row prime is odd and exceeds `2^250`. The campaign
 uses two one-CPU, 256 MiB Modal tasks and is priced below `$0.01`.
 
-The original PASS criterion required exact engine agreement, positive norms,
-and every odd part below `2^250`. Failure produces candidate norm witnesses;
-INCOMPLETE is evidence only and authorizes no automatic retry.
-
-Modal app `ap-A7rhyHWVrOpGoAZM9bOuSs` completed four FLINT and four PARI
-batches. The engines agree on all 736 positive norms, with 262 distinct
-values. The whole-norm maximum is
-
-```text
-5848948255836721605243059534285585250067895734911016890819011517212606236162,
-```
-
-and 152 whole norms reach `2^250`. The maximum odd part is
-
-```text
-2924474127918360802621529767142792625033947867455508445409505758606303118081.
-```
-
-The original below-threshold shortcut therefore FAILS: six vectors have odd
-part at least `2^250`. They comprise three distinct integers, all below
-`2^251`, and supply the complete downstream candidate packet.
-
-#### CR-E1-E14-LARGE-ODD-CANDIDATES: exact threshold-exception decision
-
-**Status:** COMPLETE PASS. The classifier is source-pinned; no rerun is
-authorized.
-
-For an exceptional odd part `R_odd<2^251`, any pair-feasible prime divisor
-`p>2^250` would force `R_odd=p`. Modal app
-`ap-JtCD7equumzMV4qV44ziGe` ran independent PARI `isprime` and FLINT
-`is_prime` classifiers on all six exceptions. The engines agree: there are
-three distinct odd parts, all three are composite, and there are zero eligible
-prime candidates. All three happen to be `1 mod 256`, so congruence alone does
-not pay them. The independent checker reconstructs every vector, norm,
-valuation, threshold, residue, and one hostile mutation. This exact repair
-closes all four E14 profiles and the `V=28` endpoint; the live frontier is
-`V<=26`.
+PASS requires exact engine agreement, positive norms, and every odd part below
+`2^250`. FAIL produces a candidate norm witness. INCOMPLETE is evidence only
+and authorizes no automatic retry.
 
 Modal app `ap-NKEaivIgiXPWHEwHeBgkkM` completed both engines. They agree on all
 178 vectors and 78 distinct norms. The exact whole-norm maximum is
@@ -9003,7 +8968,8 @@ one mutation.
 
 #### CR-E1-E14-FOUR-PROFILE-NORMS: exact endpoint decision
 
-**Status:** AUTHORIZED, not yet launched.
+**Status:** COMPLETE ROUTE REPAIR PASS. The norm ledger and exception audit are
+source-pinned; no rerun is authorized.
 
 Compute `abs(Res(g,x^128+1))` for all 736 full-conductor E14 vectors in one
 FLINT engine and one PARI/GP engine. Record exact powers of two and odd parts,
@@ -9011,6 +8977,137 @@ because the pair-feasible row prime is odd and exceeds `2^250`. Use at most
 eight one-CPU, 256 MiB Modal tasks with 60-second caps and batches of 200. The
 completed E18 norm campaign puts conservative cost below `$0.03`.
 
-PASS requires exact engine agreement, positive norms, and every odd part below
-`2^250`. FAIL produces a candidate norm witness. INCOMPLETE is evidence only
-and authorizes no automatic retry.
+The original PASS criterion required exact engine agreement, positive norms,
+and every odd part below `2^250`. Failure produces candidate norm witnesses;
+INCOMPLETE is evidence only and authorizes no automatic retry.
+
+Modal app `ap-A7rhyHWVrOpGoAZM9bOuSs` completed four FLINT and four PARI
+batches. The engines agree on all 736 positive norms, with 262 distinct
+values. The whole-norm maximum is
+
+```text
+5848948255836721605243059534285585250067895734911016890819011517212606236162,
+```
+
+and 152 whole norms reach `2^250`. The maximum odd part is
+
+```text
+2924474127918360802621529767142792625033947867455508445409505758606303118081.
+```
+
+The original below-threshold shortcut therefore FAILS: six vectors have odd
+part at least `2^250`. They comprise three distinct integers, all below
+`2^251`, and supply the complete downstream candidate packet.
+
+#### CR-E1-E14-LARGE-ODD-CANDIDATES: exact threshold-exception decision
+
+**Status:** COMPLETE PASS. The classifier is source-pinned; no rerun is
+authorized.
+
+For an exceptional odd part `R_odd<2^251`, any pair-feasible prime divisor
+`p>2^250` would force `R_odd=p`. Modal app
+`ap-JtCD7equumzMV4qV44ziGe` ran independent PARI `isprime` and FLINT
+`is_prime` classifiers on all six exceptions. The engines agree: there are
+three distinct odd parts, all three are composite, and there are zero eligible
+prime candidates. All three happen to be `1 mod 256`, so congruence alone does
+not pay them. The independent checker reconstructs every vector, norm,
+valuation, threshold, residue, and one hostile mutation. This exact repair
+closes all four E14 profiles and the `V=28` endpoint; the live frontier is
+`V<=26`.
+
+#### CR-E1-E13-ROUTER: exact cutoff-free V=26 route decision
+
+**Status:** COMPLETE PASS. The router is source-pinned; no rerun is authorized.
+
+At `N=256`, folded profile `(3,4,0)`, and `V=26` (`E=13`), derive the exact
+positive-half L1 bound, enumerate every compatible magnitude profile, apply
+the one-light-diameter parity constraint, and price the survivors against the
+proved one/three/five-odd atlas. This router changes no DAG status by itself.
+
+Run one one-CPU, 256 MiB Modal task with a 60-second hard timeout. PASS requires
+the independently structured checker to reproduce every slack minimum,
+profile, matching ledger, atlas count, and exact direct-vector floor. FAIL
+records a deterministic route inconsistency. INCOMPLETE is evidence only and
+authorizes no automatic retry. Expected cost is below `$0.01`.
+
+Modal app `ap-i2oKjwTWqN24exJmrNCPtQ` completed the single task. The independent
+checker reconstructs `L<=9` and four profiles: `(5,2)`, `(1,3)`, `(4,0,1)`,
+and `(0,1,1)`. Two have one odd class and two have five; no profile is rejected.
+They occupy 111 proved affine templates, giving a direct floor of
+`2,203,120,896` vectors per engine. The router excludes no survivor.
+
+#### CR-E1-E13-FOUR-PROFILE-CENSUS: exact actual-vector route decision
+
+**Status:** COMPLETE PASS. The census is source-pinned; no rerun is authorized.
+
+Run the 111 one/five-odd affine templates through independent folded-chord and
+direct-negacyclic engines. Each engine covers
+`111*binom(124,3)*64=2,203,120,896` vectors. Record exact profile and conductor
+counts and retain every full-conductor vector for a separately priced norm
+decision. The census alone proves no endpoint exclusion.
+
+Use at most 100 one-CPU, 256 MiB workers with 60-second task caps and checkpoint
+every 16 returns. The completed identical-size E17 campaign calibrates cost
+below `$0.15`. PASS requires row-by-row engine equality and independent replay
+of every retained vector. FAIL returns to the engine or atlas derivation.
+INCOMPLETE preserves partial rows and authorizes no automatic retry.
+
+Modal app `ap-AhqC0lLGj9BYMLmRpKa1mj` completed all 111 templates. The engines
+agree after `2,203,120,896` vectors each. In profile order
+`(5,2),(1,3),(4,0,1),(0,1,1)`, actual counts are `[418,252,104,46]`,
+full-conductor counts are `[112,0,16,8]`, and proper-conductor counts are
+`[306,252,88,38]`. Thus 820 actual vectors reduce to 136 retained
+full-conductor representatives. Aggregate dual worker time was 613.766
+seconds. The independent checker reproduces every retained vector and rejects
+one mutation.
+
+#### CR-E1-E13-FOUR-PROFILE-NORMS: exact endpoint decision
+
+**Status:** COMPLETE LEDGER PASS. Four threshold exceptions remain; no norm
+rerun is authorized.
+
+Compute exact cyclotomic norms for all 136 retained vectors in independent
+FLINT and PARI engines. Record exact 2-adic valuations and odd parts without
+assuming a below-threshold outcome. One batch per engine, 256 MiB per worker,
+and a 60-second cap put conservative cost below `$0.01`. PASS means exact
+engine agreement and a complete ledger. Any odd part at least `2^250` becomes
+an explicit downstream prime candidate; it does not fail the ledger or close
+the endpoint. INCOMPLETE authorizes no automatic retry.
+
+Modal app `ap-cXvEeUhd1ym0Ep1InsluxC` completed one FLINT and one PARI batch.
+The engines agree on all 136 positive norms, with 36 distinct values. The
+whole-norm maximum is
+
+```text
+4937981356753691307652038461254907642619144628263052811320856547919621259264,
+```
+
+and 112 whole norms reach `2^250`. The maximum odd part is
+
+```text
+2099233185140600860850973089797376067771315496789913419840767568645748406017.
+```
+
+Four vectors have odd part in `[2^250,2^251)`. The below-threshold shortcut is
+therefore false, and these four exact vectors form the complete candidate
+packet for the next decision.
+
+#### CR-E1-E13-LARGE-ODD-CANDIDATES: exact threshold-exception decision
+
+**Status:** COMPLETE PASS. The classifier is source-pinned; no rerun is
+authorized.
+
+Run independent PARI and FLINT primality classifiers on all four exceptions.
+Because every exception is below `2^251`, a pair-feasible divisor above
+`2^250` must equal the whole odd part. Record primality and residue modulo 256
+for every vector. Two 256 MiB workers with 60-second caps cost below `$0.01`.
+PASS means exact engine agreement and a complete classification ledger; an
+eligible prime is a genuine surviving collision candidate rather than a
+checker failure.
+
+Modal app `ap-a4p98JmkMEXvNaIRL7bXzV` completed both classifiers. The four
+exceptions comprise two distinct odd parts. Both are composite, all four
+values are `1 mod 256`, and there are zero eligible prime candidates. The
+independent checker reconstructs every vector, norm, valuation, threshold,
+residue, and one hostile mutation. This closes all four E13 profiles and the
+`V=26` endpoint; the live frontier advances to `V<=24`.
