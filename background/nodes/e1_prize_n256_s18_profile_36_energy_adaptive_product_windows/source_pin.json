@@ -1,0 +1,22 @@
+{
+  "parent_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/statement.md",
+  "parent_statement_sha256": "c9dda7e116752fc411c7bcfc237d4b6bb3c7209fdf44c53952479314cfdc4656",
+  "parent_proof_file": "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/proof.md",
+  "parent_proof_sha256": "9fa7d77104225bdfc2728570ed640aa736c292f4f1da7ef963c0c74a7c9367d5",
+  "mu1_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/statement.md",
+  "mu1_statement_sha256": "4281c0fe1577ce9c97065fff2d919cbc2dc4d0ba79ab5006afbac1e30a4e4076",
+  "mu1_proof_file": "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/proof.md",
+  "mu1_proof_sha256": "2e30e172fa02909a8ffe1b66b88e9e8e2daa25a01ceb445fc69e029c922a2f7b",
+  "certificate_file": "experiments/prize_resolution/e1_profile_36_energy_adaptive_product_probe.py",
+  "certificate_sha256": "0bd3444279fdabf8e3b3094ef8f146957e619d522b8e352e7ad9a958027a171f",
+  "search_file": "experiments/prize_resolution/e1_profile_36_m514_mod257_low_energy_search_modal.py",
+  "search_sha256": "f71919bf3152cf8b40c662fd70e7ff975d2731dcda9bf61373cf398f994cd88b",
+  "search_result_file": "experiments/prize_resolution/e1_profile_36_m514_mod257_low_energy_search_result.json",
+  "search_result_sha256": "b028bf7485f495809748ffa424bbdb65e76e7f1e898837cece9dfd0100773ad2",
+  "norm_file": "experiments/prize_resolution/e1_profile_36_m514_boundary_witness_norms_modal.py",
+  "norm_sha256": "6cec8b3eaad37367c7eb44390954fc5511e6b12984039518d38d3275198fa4ed",
+  "norm_result_file": "experiments/prize_resolution/e1_profile_36_m514_boundary_witness_norms_result.json",
+  "norm_result_sha256": "dc2571d65f5f60f7b02ed6d9c1d0d68109aad43183d37c5d168fb6a5e80b4996",
+  "chord_count_file": "experiments/prize_resolution/e1_profile_36_mu1_chord_count_modal.py",
+  "chord_count_sha256": "35b041ad1f2c7b4a2b989993bd50a5b2bcbeb745bc6c52d79c1a05e839613bfb"
+}

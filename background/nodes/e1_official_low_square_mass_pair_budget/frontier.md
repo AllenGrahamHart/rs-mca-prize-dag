@@ -103,4 +103,13 @@ radius-two mod-four census: two independent exact engines find only four
 vectors through `E=17`, and dual exact resultants place every quotient
 `Norm/512` below the prize interval. Thus `m=512` is impossible and eight
 cofactors remain. The shortest live branch is `m=514`, with `mu=1`,
-`2<=E<=17`, and a required factor 257. No broad support-9 census is authorized.
+`2<=E<=17`, and a required factor 257. Integer autocorrelation then gives the
+adaptive cap `y_u<=min(144,18+V)`. The exact product envelope contracts
+`m=256` from `V<=60` to `V<=46` and `m=514` from `V<=34` to `V<=22`.
+The complete multiplicity-one emptiness through `E=6` and parity-adaptive
+caps leave exactly nine `m=514` chambers:
+`(7,3),(7,7),(8,4),(8,8),(9,5),(9,9),(10,6),(10,10),(11,11)`, where the
+second coordinate is odd autocorrelation weight. Adversarial vectors at
+`E=15,17` falsify any stronger modular-emptiness premise, but their exact
+quotients are below the prize interval and those energies are now excluded
+analytically. No broad support-9 census is authorized.

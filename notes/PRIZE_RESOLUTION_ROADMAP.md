@@ -6105,3 +6105,28 @@ primary/audit/norm Modal apps: ap-hLsGuIj8T1KeuCPO9qIbK0,
 remaining profile-(3,6) cofactors: 8
 next attack: m=514, with mu=1, E=2,...,17, and required factor 257
 ```
+
+**Same-day energy-adaptive product contraction and adversarial route cut:**
+integer autocorrelation supplies a variance-dependent conjugate cap, while
+direct search falsifies two tempting but false modular-emptiness premises.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_energy_adaptive_product_windows
+analytic cap: y_u<=min(144,18+V), from L1(A)<=sum A_d^2=E=V/2
+exact rational comparisons: 6273
+new endpoints: m=256 has V<=46; m=514 has V<=22
+imported mu=1 geometry: E=2,...,6 empty
+parity-adaptive exclusions: (E,q)=(9,1),(10,2),(11,3),(11,7)
+live m=514 chambers:
+  (7,3),(7,7),(8,4),(8,8),(9,5),(9,9),(10,6),(10,10),(11,11)
+certificate Modal app: ap-Jj1DnCEMdtU9oUi9fn6Lfb
+
+falsified premise 1: factor 257 makes the E<=17 geometry empty
+falsified premise 2: factor 257 forces E>=17
+64-shard search: 5 witnesses, including one E=15 and four E=17
+dual exact norms: all five Norm/514 quotients below the prize interval
+search/norm Modal apps: ap-vCwCehrnyit7WrDEjorD0c,
+                        ap-dle2qIanefNmtFx0fwT8nL
+remaining profile-(3,6) cofactors: 8
+next attack: exact factor-257 generation on the nine live m=514 chambers
+```

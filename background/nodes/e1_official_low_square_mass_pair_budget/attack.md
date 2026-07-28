@@ -35,8 +35,13 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    endpoints to `284,266,254,216,170,130,60,34,34` in increasing cofactor
    order. A multiplicity-nine radius census plus exact norm ledger closes
    `m=512`, leaving eight cofactors. Attack `m=514` through `V=34` using its
-   multiplicity-one structure and required factor 257. Never count a
-   normalized vector as one edge, and do not rerun any closed cofactor.
+   multiplicity-one structure and required factor 257. The energy-adaptive
+   product theorem has already reduced this to the nine live `(E,q)` chambers
+   `(7,3),(7,7),(8,4),(8,8),(9,5),(9,9),(10,6),(10,10),(11,11)` and has
+   separately contracted `m=256` to `V<=46`. Build any exact census only on
+   those nine chambers, spending the mod-257 equation during generation.
+   Never count a normalized vector as one edge, and do not rerun any closed
+   cofactor.
 7. Falsify with a pinned row and enough exact weighted edges to exceed the
    table, not a single collision vector.
 
