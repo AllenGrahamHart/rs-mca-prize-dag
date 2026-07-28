@@ -19532,6 +19532,23 @@
    "notes": "Complete exclusion of degree one only. Combined with the m=8 constant-color theorem, the active h=7 branch starts at color degree two; h=15 still has a constant-color chamber."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_quadratic_collision_router",
+   "title": "L1 Mersenne HNF m=8 order-one quadratic-collision router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a quadratic colored Frobenius interpolant on the six reduced h=7 roots, two repeated colors force an even interpolant and exactly two antipodal repeated pairs. This chamber also satisfies r(18+d-d^2)+192=0 for d=c-1 and r=rho*c. The complete quadratic residue splits into collision-free, one-repeat, and this two-antipodal chamber.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/verify.py"
+   ],
+   "notes": "Exact degree-two router, not an emptiness theorem. The two-antipodal chamber has one additional scalar equation; collision-free and one-repeat chambers remain independent."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -35927,6 +35944,21 @@
   },
   {
    "from": "l1_mersenne_hnf_order_one_linear_color_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_m8_order_one_quadratic_collision_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_quadratic_collision_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_quadratic_collision_router",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

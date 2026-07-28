@@ -717,3 +717,12 @@
   branch starts at `deg E=2`, while `h=15` starts at degree zero or two. Use
   the pointwise quadratic, not only `E^m=1 mod L`, in subsequent low-degree
   exclusions.
+
+- At degree two, consume
+  `l1_mersenne_hnf_m8_order_one_quadratic_collision_router`. The exact
+  chambers are collision-free, one repeat, or two antipodal repeats. In the
+  last chamber put `d=c-1`, `r=rho*c` and adjoin
+  `r(18+d-d^2)+192=0` before any generic elimination. The equation follows
+  from the odd/even common factor and is not valid in the first two
+  chambers. Intersect this smallest chamber with the proved `h=7` conic
+  first.

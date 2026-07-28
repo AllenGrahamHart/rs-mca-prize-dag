@@ -6588,3 +6588,23 @@ open h=7 residue: non-base-field conic parameter with deg E=2,3,4,5
 next route-deciding action: attack degree two using the same pointwise
                               color equation before generic resultants
 ```
+
+**2026-07-28, L1 h=7 quadratic colors routed:** repeated fibers and the
+order-one derivative constant reduce the multi-collision chamber to one even
+packet with an extra scalar equation.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_quadratic_collision_router
+quadratic split: collision-free / one repeat / two antipodal repeats
+affine branch: two repeated colors and S!=0 make Frobenius affine on L
+marked-point gate: the affine map must permute {0,1,x_0}
+affine outcome: every non-even permutation is impossible
+three-pair exclusion: sum roots=-6/(c-1)!=0
+two-pair equation: r(18+d-d^2)+192=0, r=rho*c, d=c-1
+DAG delta: one PROVED background node and three edges; no critical status flip
+compute spend: none; rootwise Frobenius and odd/even divisibility proof
+open h=7 degree-two residue: six colors; one repeat; or the printed
+                              two-antipodal equation
+next route-deciding action: intersect the two-antipodal equation with the
+                              h=7 conic, then classify its finite components
+```
