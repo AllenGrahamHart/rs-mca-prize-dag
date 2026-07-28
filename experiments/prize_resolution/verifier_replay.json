@@ -8,51 +8,51 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e15_endpoint_exclusion/verify.py",
-      "seconds": 0.035977,
+      "script": "background/nodes/e1_n256_s16_e14_endpoint_exclusion/verify.py",
+      "seconds": 0.039623,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E15_ENDPOINT_EXCLUSION_PASS profiles=2 exclusions=2 frontier=28 mutations=2\n"
+      "stdout_tail": "E1_N256_S16_E14_ENDPOINT_EXCLUSION_PASS profiles=4 exclusions=4 frontier=26 mutations=2\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e15_endpoint_exclusion/verify_audit.py",
-      "seconds": 11.288376,
+      "script": "background/nodes/e1_n256_s16_e14_endpoint_exclusion/verify_audit.py",
+      "seconds": 8.940478,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E15_ENDPOINT_EXCLUSION_AUDIT_PASS checkers=3 mutations=3\n"
+      "stdout_tail": "E1_N256_S16_E14_ENDPOINT_EXCLUSION_AUDIT_PASS checkers=4 mutations=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e15_profile_parity_light_reduction/verify.py",
-      "seconds": 15.560819,
+      "script": "background/nodes/e1_n256_s16_e14_four_profile_exclusion/verify.py",
+      "seconds": 0.209881,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E15_PROFILE_PARITY_LIGHT_REDUCTION_PASS l1=9 profiles=3 survivors=2 templates=8 floor=158783488 mutations=1\n"
+      "stdout_tail": "E1_N256_S16_E14_FOUR_PROFILE_EXCLUSION_PASS templates=1321 vectors=26219123456 profile=1836 full=736 distinct=262 norm_hits=152 odd_hits=6 composite_candidates=3 engines=6 mutations=3\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e15_profile_parity_light_reduction/verify_audit.py",
-      "seconds": 9.422122,
+      "script": "background/nodes/e1_n256_s16_e14_four_profile_exclusion/verify_audit.py",
+      "seconds": 0.169959,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E15_PROFILE_PARITY_LIGHT_REDUCTION_AUDIT_PASS independent_checker=1\n"
+      "stdout_tail": "E1_N256_S16_E14_FOUR_PROFILE_EXCLUSION_AUDIT_PASS checkers=3 engines=6 mutations=3\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e15_two_profile_exclusion/verify.py",
-      "seconds": 0.123809,
+      "script": "background/nodes/e1_n256_s16_e14_profile_parity_light_reduction/verify.py",
+      "seconds": 8.789511,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E15_TWO_PROFILE_EXCLUSION_PASS templates=8 vectors=158783488 profile=294 full=64 distinct=28 norm_hits=32 odd_hits=0 engines=4 mutations=2\n"
+      "stdout_tail": "E1_N256_S16_E14_PROFILE_PARITY_LIGHT_REDUCTION_PASS l1=10 profiles=4 survivors=4 templates=1321 floor=26219123456 mutations=1\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_n256_s16_e15_two_profile_exclusion/verify_audit.py",
-      "seconds": 0.109639,
+      "script": "background/nodes/e1_n256_s16_e14_profile_parity_light_reduction/verify_audit.py",
+      "seconds": 9.16573,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_N256_S16_E15_TWO_PROFILE_EXCLUSION_AUDIT_PASS checkers=2 engines=4 mutations=2\n"
+      "stdout_tail": "E1_N256_S16_E14_PROFILE_PARITY_LIGHT_REDUCTION_AUDIT_PASS independent_checker=1\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

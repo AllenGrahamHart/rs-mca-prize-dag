@@ -266,3 +266,8 @@ Independent complete censuses find 294 vectors, conductor removes 230, and
 exact odd norm parts close the 64 full-conductor representatives; the E15
 endpoint closes `V=30` and advances the frontier to `V<=28`, still as evidence
 only.
+The proved cutoff-free E14 reduction leaves four profiles on 1,321 templates.
+Independent complete censuses find 1,836 vectors, conductor removes 1,100,
+and exact norms leave six threshold exceptions. Exact PARI/FLINT tests prove
+their three distinct odd parts composite and below `2^251`; the E14 endpoint
+closes `V=28` and advances the frontier to `V<=26`, still as evidence only.

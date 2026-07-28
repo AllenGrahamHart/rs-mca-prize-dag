@@ -290,14 +290,19 @@ At `V=30`, a cutoff-free two-profile router on eight templates yields 294
 vectors; conductor removes 230. Thirty-two of the 64 full-conductor whole
 norms reach `2^250`, but exact FLINT/PARI ledgers put every odd norm part below
 `2^250`. Hence `V=30` is empty and the frontier is `V<=28`.
+At `V=28`, a cutoff-free four-profile router on 1,321 templates yields 1,836
+vectors; conductor removes 1,100. Six of the 736 full-conductor odd norm parts
+reach `2^250`, but exact PARI/FLINT tests show their three distinct values are
+composite and below `2^251`. Hence `V=28` is empty and the frontier is
+`V<=26`.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
 injectivity or another explicit `V` line. Within the first `N=256` band, the
-`V=30` chamber is now closed; derive and price the exact cutoff-free `V=28`
+`V=28` chamber is now closed; derive and price the exact cutoff-free `V=26`
 profile/parity/light router.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
-cofactor classes. Do not rerun any `V>=30`
+cofactor classes. Do not rerun any `V>=28`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
 safe predecessor relocates the candidate threshold immediately.

@@ -5496,3 +5496,55 @@ live compute requests: none for E15; never rerun V>=30
 next route-deciding action: derive and price the exact cutoff-free E14/V28
                             router before authorizing any census
 ```
+
+**2026-07-28, E14 cutoff-free route and V=28 endpoint close:** even diameter
+parity reduces the chamber to the two/six-odd atlas. A complete dual census
+and the proper-conductor theorem leave 736 full-conductor vectors. The inherited
+odd-part threshold shortcut is false for six vectors, but exact classification
+of the three distinct threshold exceptions repairs the route and closes every
+surviving profile.
+
+```text
+starting local pin: c2689aab
+canonical prize pin: 82e5f4c4
+upstream main pin: fde7d56d0f2d8f135db4f2226e1978644a6c9f44
+node attacked: N=256, folded profile (3,4,0), V=28 (E=14)
+reduction app: ap-rxPXBVj2USK33LIXWpg4Lo
+slack result: L<=10; exactly four energy profiles
+majorant policy: not invoked
+parity result: all four survive; two have two odd classes and two have six
+light atlas: 288,888 normalized supports in 87+1,234=1,321 affine templates
+coverage per engine: 1321*binom(124,3)*64=26,219,123,456 vectors
+failed census app: ap-C2U6Lugoj5XbrqQWnS2rLs; remote path initialization
+                   failed before any mathematical engine ran; no evidence
+census app: ap-rQOuJb9DVQwka46OLEj4Er; dual exact engine agreement;
+            7,636.622 aggregate dual worker-seconds
+actual profiles: [982,714,100,40], total 1,836
+full conductor: [540,184,8,4], total 736
+proper conductor: complementary 1,100 vectors discharged by theorem
+norm app: ap-A7rhyHWVrOpGoAZM9bOuSs; FLINT/PARI agreement on all 736
+distinct norms: 262
+exact whole-norm maximum: 5848948255836721605243059534285585250067895734911016890819011517212606236162
+whole norms at or above 2^250: 152
+exact odd-part maximum: 2924474127918360802621529767142792625033947867455508445409505758606303118081
+odd threshold hits: 6 vectors, 3 distinct odd parts, all below 2^251
+shortcut outcome: FALSIFIED; odd_max<2^250 is false at E14
+candidate app: ap-JtCD7equumzMV4qV44ziGe; exact PARI/FLINT agreement;
+               all 3 distinct threshold odd parts are composite
+eligible pair-feasible prime candidates: 0
+result: CLOSED; all four profiles and the V=28 endpoint are PROVED absent
+live positive even variance frontier: V<=26
+delta-star bracket movement: none; this pays one finite E1 exception chamber
+new assumptions: none
+upstream terminal delta: none; local result is OURS_ONLY
+live compute requests: none for E14; never rerun V>=28
+next route-deciding action: derive and price the exact cutoff-free E13/V26
+                            router before authorizing any census
+```
+
+Upstream reconciliation at `fde7d56d` adds an independent replay of the four
+certified Proth prime rows. Its own contract is confirmation-only and moves no
+mathematical frontier, so it creates no E14 DAG edge. It is bankable submission
+dossier evidence and independently pins the load-bearing rule that `r_quad`
+must be located by the exact sign condition rather than the naive printed
+integer-square-root formula, which is one too large in three of four rates.

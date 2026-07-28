@@ -99,8 +99,10 @@ explicit finite inequality at the row.
    154 templates close by dual 3,056,582,144-vector censuses, conductor, and
    exact odd norm parts; two routed profiles are exactly empty. At `V=30`, two
    profiles on eight templates close by dual 158,783,488-vector censuses,
-   conductor, and exact odd norm parts. Derive and price the exact `V=28`
-   router. Do not rerun any `V>=30` chamber.
+   conductor, and exact odd norm parts. At `V=28`, four profiles on 1,321
+   templates close by dual 26,219,123,456-vector censuses, conductor, exact
+   odd norms, and exact compositeness of the six threshold exceptions. Derive
+   and price the exact `V=26` router. Do not rerun any `V>=28` chamber.
    The
    signed-chord gate
    further excludes circular-Sidon supports: every residual has an oppositely
