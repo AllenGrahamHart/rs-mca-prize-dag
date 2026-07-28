@@ -68,6 +68,11 @@ not change the aggregate cap until the other three cofactors are paid or the
 profile receives an aggregate vector bound. This rules out treating the
 interrupted reverse replay as a target closure by itself.
 
+The pure-dyadic orbit debit sharpens what "paid" can mean: every colliding
+full affine coefficient orbit contributes exactly 256 oriented vectors, so
+the profile-only coarse allowance is 367 collision orbits, not necessarily
+zero. See `notes/E1_PROFILE_36_ORBIT_DEBIT.md`.
+
 ## Replay
 
 When Modal is enabled, run this verifier-scale task before promoting the

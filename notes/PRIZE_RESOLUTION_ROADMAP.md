@@ -6425,3 +6425,25 @@ representative validation plus the independent Burnside total. The verifier
 is committed but unrun because of the Modal spend limit; no DAG status
 changes. The rapidly increasing orbit counts also rule out launching generic
 radius censuses for `m=2,4,8` before product or aggregate contraction.
+
+**Same-day pure-dyadic orbit debit:** aggregate accounting weakens the
+remaining profile-`(3,6)` obligation from emptiness to a finite orbit count.
+For `m=2,4,8`, the odd row prime occurs exactly once in the norm, hence exactly
+one primitive root vanishes. Translation and global sign produce exactly 256
+oriented dictionary vectors per colliding full affine coefficient orbit. The
+coarse profile allowance is therefore 367 such orbits; orbit 368 alone fails.
+
+```text
+oriented vectors per pure-dyadic collision orbit: 256
+profile-only maximum collision orbits:             367
+oriented units used at 367:                       93952
+maximum-weight units left:                           10
+first failing orbit count:                          368
+packet: notes/E1_PROFILE_36_ORBIT_DEBIT.md
+```
+
+Route decision: future low-cofactor searches should count exact
+root-incidence coefficient orbits and preserve affine canonical witnesses.
+They may stop short of proving zero if the full profile-weighted ledger fits.
+This is a draft algebraic compiler until its tiny Modal replay runs; no DAG
+status changes.
