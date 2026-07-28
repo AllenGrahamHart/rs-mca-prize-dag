@@ -9434,3 +9434,46 @@ only 7 of 436 distinct `(E,L)` pairs and leaves 949 of 967 live `(E,q,L)`
 records, still through `E=89`. This generic relaxation is too weak to justify
 further compute; any useful moment argument must exploit support-specific
 structure rather than only the universal layer-set bound.
+
+#### CR-E1-PROFILE-36-LOW-DYADIC-ORBIT-LEDGER: aggregate-first successor
+
+**Status:** PROOF-ONLY PREFLIGHT COMPLETE; NO COMPUTE AUTHORIZED. The Modal
+workspace is over its spend limit.
+
+The remaining pure cofactors are `m=2,4,8`; candidate `m=16` awaits completion
+of its independent reverse audit. Exact Hasse and Burnside packets give the
+support interfaces
+
+```text
+m=2: 331359 primitive mu1 support orbits in Z/128
+m=4: 159216 primitive mu2 orbits plus 18383 quotient mu1 orbits
+m=8: 79360 primitive mu3 orbits; the affine support action is free
+```
+
+These counts do not authorize a radius census. The aggregate target should
+count **full coefficient orbits with primitive-root incidence**, not support
+orbits and not support-normalized vector rows. For a pure-dyadic collision
+`Norm(F)=2^mu p`, `v_p(Norm)=1`, so exactly one primitive root is a simple
+zero. Its signed translation slice contains exactly 256 oriented dictionary
+vectors. The profile-only coarse allowance is therefore 367 full collision
+orbits; orbit 368 fails.
+
+Any future campaign must emit atomic partial packets and preserve, per full
+coefficient-orbit representative:
+
+```text
+cofactor and exact 2-adic valuation;
+canonical singleton and heavy supports plus all signs;
+full affine canonical key, not only a singleton-support key;
+exact norm interval and any row-prime candidate;
+number of primitive-root incidences modulo that candidate prime;
+translation stabilizer check and restored oriented-vector debit;
+profile weight and cumulative exact weighted debit.
+```
+
+PASS may be either zero survivors or a certified weighted ledger within the
+pair budget. Before any launch, first replay the tiny Hasse/Burnside/debit
+verifiers and build a product/modular contraction. A generic census over all
+588318 low-cofactor support orbits and broad energy windows is out of scope;
+record it only as an external contributor request if no analytic contraction
+is found.

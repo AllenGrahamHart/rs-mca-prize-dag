@@ -39,20 +39,20 @@ the first power, exactly one primitive root `zeta^u` modulo `p` is a simple
 zero of `F`. Two distinct primitive roots, or a multiple zero, would make
 `p^2` divide the cyclotomic norm.
 
-For every `b in Z/128`,
+For every `b in Z/256`,
 
 ```text
 X^b F(X^u)
 ```
 
-vanishes at the fixed root `zeta`. Multiplication by `X^b` is the signed
-cyclic translation in the folded 128-coordinate model, so it preserves the
-coefficient profile and dictionary weight. Exact singleton multiplicity one,
-two, or three forbids a period-64 support: a period-64 six-set is paired and
-its low Hasse derivatives cancel. No larger nontrivial translation period can
-partition six points because its orbit length is a power of two greater than
-two. Thus all 128 translates are distinct. Their global negatives are another
-128 distinct oriented vectors.
+vanishes at the fixed root `zeta`. Multiplication by `X^b` is signed cyclic
+translation in the folded 128-coordinate model: the first 128 values give
+support translations and adding 128 gives the corresponding global negative.
+It preserves the coefficient profile and dictionary weight. Exact singleton
+multiplicity one, two, or three forbids a period-64 support: a period-64
+six-set is paired and its low Hasse derivatives cancel. No larger nontrivial
+translation period can partition six points because its orbit length is a
+power of two greater than two. Thus all 256 signed translates are distinct.
 
 The unique primitive root makes these the complete fixed-root slice of that
 full affine coefficient orbit, so the contribution is exactly 256, not only
@@ -78,6 +78,27 @@ different odd-part accounting and are already closed in this profile. The
 candidate `m=16` branch is also pure dyadic and obeys the same debit, but its
 primary packet already reports zero unresolved vectors and awaits only its
 independent audit.
+
+## Guards
+
+1. `C_36` counts full affine coefficient orbits, including heavy positions
+   and every coefficient sign. A singleton-support orbit is not one unit of
+   this ledger.
+2. The unit action is the order-256 cyclotomic Galois action. The support
+   atlas sees units modulo 128 only because the second lift is the sign twist;
+   implementations must restore that twist before counting root incidences.
+3. The 256-vector slice is `b in Z/256`. In folded coordinates it appears as
+   128 distinct support translations and their global negatives. Do not add a
+   second factor two for orientation.
+4. A norm-interval survivor is not automatically a collision orbit. It enters
+   `C_36` only after one row prime and its unique primitive-root incidence are
+   certified, or as a rigorously counted worst-case survivor in an upper-bound
+   packet.
+5. `C_36<=367` pays only the profile-36 coarse budget when every other debit
+   is zero. In the actual target, all other profiles must be charged in the
+   exact weighted sum.
+6. Nothing here proves `C_36<=367`; the result is a compiler for the next
+   search output.
 
 ## Replay
 

@@ -6447,3 +6447,21 @@ root-incidence coefficient orbits and preserve affine canonical witnesses.
 They may stop short of proving zero if the full profile-weighted ledger fits.
 This is a draft algebraic compiler until its tiny Modal replay runs; no DAG
 status changes.
+
+Definition audit: `D_p(33)` is fixed-root and oriented, so the factor 256 is
+not obtained by naively dividing a support-normalized count. For
+`Norm(F)=2^mu p`, `v_p=1` gives exactly one simple primitive-root zero under
+the order-256 Galois action. Its `b in Z/256` translates are exactly the 128
+folded support shifts and their negatives. Exact multiplicity `mu<=3`
+excludes the sole possible six-set translation period, shift 64, because
+`1+X^64=(1+X)^64` over `F_2`. Thus 256 is restored exactly for a **full
+coefficient orbit**. Singleton-support rows, heavy/sign rows before residual
+stabilizer canonicalization, and bare norm-interval survivors are not units
+of this ledger. The guards and required campaign fields are now explicit in
+`E1_PROFILE_36_ORBIT_DEBIT.md` and `PRIZE_COMPUTE_REQUESTS.md`.
+
+The alternative maximum-degree-three route would also pay the pair budget,
+but its current repository interface has no theorem-level premise beyond the
+instruction to bound neighbors of a fixed class. Until such a premise is
+posed or a cheap falsifier is available, the root-incidence orbit ledger is
+the more concrete route.

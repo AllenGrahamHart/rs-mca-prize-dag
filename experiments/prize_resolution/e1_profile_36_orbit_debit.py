@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+from math import comb, gcd
 from pathlib import Path
 
 
@@ -14,6 +15,20 @@ ORIENTED_VECTORS_PER_ORBIT = 256
 
 
 def main() -> None:
+    # A nonzero translation of Z/128 has equal-length cycles. Invariance of a
+    # six-set forces that length to divide six, leaving only the order-two
+    # shift by 64. But 1+X^64=(1+X)^64 over F_2, so a shift-64 invariant
+    # support has multiplicity at least 64 and cannot have mu=1,2,3.
+    possible_periods = [
+        shift for shift in range(1, 128)
+        if 6 % (128 // gcd(128, shift)) == 0
+    ]
+    assert possible_periods == [64]
+    assert [index for index in range(65) if comb(64, index) % 2] == [0, 64]
+
+    assert len(range(1, 256, 2)) == 128
+    assert 128 * 2 == ORIENTED_VECTORS_PER_ORBIT
+
     orbit_debit = ORIENTED_VECTORS_PER_ORBIT * PROFILE_WEIGHT
     maximum_orbits = (2 * EDGE_CAP) // orbit_debit
     remaining = 2 * EDGE_CAP - maximum_orbits * orbit_debit
