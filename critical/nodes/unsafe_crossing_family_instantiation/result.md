@@ -264,6 +264,7 @@ all `S=16` profiles on the binding row. The subsequent complete cofactor
 chain excludes every `(4,2,S=18)` prize collision: seven exact cofactor
 classes are reduced by analytic variance bounds and dual FLINT/PARI resultant
 ledgers, with zero quotient in the prize interval. The prior 69,541 oriented-
-vector cap remains sufficient because it used that profile's maximum weight,
-but the next live maximum weight must be recomputed. These are route results,
-not a proof of the aggregate vector count or the unsafe payload.
+vector cap is sharpened by the exact residual ledger: `(3,6,S=18)` is the
+next maximum-weight profile, and the sufficient cap rises to 93,962. These are
+route results, not a proof of the aggregate vector count or the unsafe
+payload.

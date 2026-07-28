@@ -5952,3 +5952,23 @@ leading profile conclusion: every prize cofactor of (4,2,S=18) is impossible
 pair-budget status: TARGET; later profiles and weighted edges remain open
 next action: recompute the maximum-weight live profile before another census
 ```
+
+**Same-day leading-profile synthesis:** the sibling cofactor certificates are
+now assembled into a zero contribution and a sharper aggregate interface.
+
+```text
+proved node: e1_prize_n256_s18_profile_exclusion
+exhausted prize cofactors: {2,514,1538,4,1028,16,256}
+excluded profile: (a,b,S)=(4,2,18)
+old maximum weight: 1873053318886373426584792000465260242
+remaining eligible profiles: 270
+new maximum profile: (a,b,S)=(3,6,18)
+new maximum weight: 1386246316188473270092082114587711840
+old sufficient oriented-vector cap: 69541
+new sufficient oriented-vector cap: 93962
+next integer 93963: not certified by the uniform inequality
+RowC movement: none; its 419 (4,2) cofactor classes remain
+pair-budget status: TARGET
+next action: seek structural/norm exclusion or exact weighted pricing for
+             (3,6,S=18) before any broad census
+```

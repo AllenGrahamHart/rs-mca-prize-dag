@@ -2,33 +2,17 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 3,
+    "PASS": 1,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_prize_n256_s18_m256_collision_exclusion/verify.py",
-      "seconds": 0.174877,
+      "script": "background/nodes/e1_prize_n256_s18_profile_exclusion/verify.py",
+      "seconds": 0.08536,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_PRIZE_N256_S18_M256_COLLISION_EXCLUSION_PASS normalized_vectors=320292000 residual=20756 interval=0 checks=41576\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/verify.py",
-      "seconds": 0.038717,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_PRIZE_N256_S18_M2_COLLISION_EXCLUSION_PASS rows=511272 inside=0 checks=226\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/verify.py",
-      "seconds": 0.918914,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_PRIZE_N256_S18_M2_HIGH_VARIANCE_EXCLUSION_PASS checks=6316\n"
+      "stdout_tail": "E1_PRIZE_N256_S18_PROFILE_EXCLUSION_PASS eligible=271 residual=270 next=(3,6,18) cap=93962 checks=40\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

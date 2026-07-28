@@ -325,7 +325,8 @@ at most 69,541 oriented low-mass vectors. The prize field floor removes every
 `(4,2,S=18)` empty on prize-envelope rows: the final `m=4` and `m=2` dual
 resultant ledgers contain 21,376 and 511,272 rows respectively and no interval
 quotient. The 69,541 cap remains sufficient but is no longer calibrated to the
-largest live weight; recompute that weight before another census. Existing
+largest live weight. The exact residual ledger makes `(3,6,S=18)` the next
+maximum-weight profile and sharpens the sufficient cap to 93,962. Existing
 orbit counts must restore orientation, stabilizers, and class-pair weights.
 RowC retains 419 `(4,2,0)` cofactor classes. Do not rerun any closed prize
 cofactor or the `(3,4,0)` `V>=26` campaign. Later `N=256,s>=6` and

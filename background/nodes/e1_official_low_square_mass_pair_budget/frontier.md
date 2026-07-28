@@ -20,10 +20,11 @@ The prize field floor removes every `S=16` profile. The former largest live
 weight was the `(4,2,S=18)` value
 `1873053318886373426584792000465260242`; the complete cofactor chain now
 proves that profile empty on prize-envelope rows. Therefore the coarse
-oriented-vector cap `|D_p(33)|<=69541` remains sufficient but is no longer
-sharp. Recompute the maximum weight among the remaining norm-eligible
-profiles before authorizing another census. The exact profile-weighted
-inequality remains weaker and preferred.
+post-exclusion ledger now makes `(3,6,S=18)` the maximum-weight remaining
+profile, with weight `1386246316188473270092082114587711840`. The uniform
+cap therefore sharpens to `|D_p(33)|<=93962`; 93,963 is not certified by this
+inequality. The exact profile-weighted inequality remains weaker and
+preferred.
 
 The existing `(3,4,S=16)` variance campaign remains relevant to RowC but is
 superseded on the binding prize row by the field-floor exclusion. The prize
@@ -76,7 +77,7 @@ The analogous `m=2` split reduces the final branch to `10<=V<=98`; dual
 streams agree on all 511,272 exact resultants and again find no interval
 quotient. Thus every prize cofactor of `(4,2,S=18)` is impossible. RowC's 419
 classes are unchanged, and later prize profiles still require aggregate
-weighted accounting.
+weighted accounting. The next binding profile is `(3,6,S=18)`.
 
 The coloring target is an independent alternative. Degree two pays both;
 degree three pays this pair-budget route even when the graph is not

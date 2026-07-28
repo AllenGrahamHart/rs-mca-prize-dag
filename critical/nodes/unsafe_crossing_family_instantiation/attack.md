@@ -166,10 +166,10 @@ The proved `e1_low_square_mass_weighted_kernel_dictionary` now makes that
 currency exact. On the binding row, prove the weighted oriented-vector sum,
 or the stronger simple cap of 69,541 oriented low-mass folded kernel vectors.
 The prize field floor first removes every `S=16` profile, and the complete
-cofactor chain now removes `(4,2,S=18)` as well. Recompute the maximum weight
-among the remaining prize profiles before spending another census. Restore
-every surviving orbit's orientation, stabilizer, and class-pair multiplicity
-exactly.
+cofactor chain removes `(4,2,S=18)` as well. The exact residual ledger makes
+`(3,6,S=18)` the next maximum-weight profile and sharpens the simple cap to
+93,962. Restore every surviving orbit's orientation, stabilizer, and
+class-pair multiplicity exactly.
 
 The `(4,2,0)` prize profile is no longer an alternative lane: all seven exact
 cofactors are excluded. RowC retains 419 and is a separate obligation. Later

@@ -2789,6 +2789,24 @@
    "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual streamed enumeration and exact arithmetic eliminate the last prize cofactor of the leading square-mass-18 profile. Later profiles and the aggregate weighted pair budget remain open."
   },
   {
+   "id": "e1_prize_n256_s18_profile_exclusion",
+   "title": "Prize N=256 square-mass-18 leading-profile exclusion",
+   "status": "PROVED",
+   "closure": "proof plus exact integer ledger",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/verify.py"
+   ],
+   "statement": "The leading prize-envelope profile (4,2,S=18) is impossible: its seven exact cofactor classes are all excluded by proved variance and dual exact-resultant children. Removing its zero contribution from the binding weighted ledger makes (3,6,S=18) the maximum-weight remaining profile and raises the sufficient oriented-vector cap from 69541 to 93962.",
+   "notes": "PROFILE SYNTHESIS 2026-07-28: converts seven sibling cofactor exclusions into one explicit zero profile and recomputes the exact post-exclusion weight frontier. RowC, other prize profiles, and the aggregate pair budget remain open."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -21720,6 +21738,61 @@
   },
   {
    "from": "e1_prize_n256_s18_m2_collision_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m1028_collision_exclusion",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m514_collision_exclusion",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m256_collision_exclusion",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m16_collision_exclusion",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m4_collision_exclusion",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_collision_exclusion",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
