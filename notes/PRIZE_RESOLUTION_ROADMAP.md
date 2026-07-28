@@ -6485,3 +6485,22 @@ next route-deciding action: obtain a priced independent h=7 elimination
                               from a contributor; do not retry the retired
                               quotient-resultant backend
 ```
+
+**2026-07-28, L1 h=7 residual conic reduction:** the smallest live
+order-one curve now has an explicit low-degree model rather than a digest-only
+ten-term representation.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_conic_reduction
+quadratic:   35u^2+14(11c^2+5c+11)u+120(c^4+c^2+1)=0
+square form: D(c)=7(5u+11c^2+5c+11)^2
+conic:       7w^2=247z^2+770z+775, z=c+c^-1
+pullback:    c^2-zc+1=0 (retained, not silently split)
+chart guard: t=infinity, tangent point, and 247-7t^2=0 handled explicitly
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; four-partition coefficient proof
+open residue: intersect this model with the full-P traces, pointwise
+              Frobenius, torsion, cyclotomic remainder, and inner lift
+next route-deciding action: contributor-priced h=7 elimination on the direct
+                              quadratic and conic-pullback models
+```

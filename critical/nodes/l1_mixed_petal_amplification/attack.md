@@ -672,3 +672,14 @@
   of `P`; do not divide by `W-x_0`. This is an exact representation
   reduction, not an emptiness theorem. Retained components still owe the
   pointwise Frobenius, torsion, cyclotomic, and inner equations.
+
+- On the four `m=8,h=7` rows, consume
+  `l1_mersenne_hnf_m8_order_one_conic_reduction` before generic elimination.
+  Write the residual curve as the printed quadratic in
+  `u=rho*c*(c-1)`, or use the conic
+  `7w^2=247z^2+770z+775` together with the retained pullback
+  `c^2-zc+1=0`. Include `t=infinity`, the tangent base point, and the
+  denominator-zero projective chart. This
+  replaces a hashed ten-term input by an explicit genus-one-style quadratic
+  cover; it does not remove the full-trace, Frobenius, torsion, cyclotomic,
+  or inner conditions. Do not apply it to `h=15`.

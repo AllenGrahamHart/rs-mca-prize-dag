@@ -19447,6 +19447,23 @@
    "notes": "Exact representation reduction inside the proved order-one Frobenius gate. It removes the quotient-division representation, not the parameter elimination or any pointwise outer/inner condition."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one conic reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For h=7, the residual order-one curve is 35u^2+14(11c^2+5c+11)u+120(c^4+c^2+1)=0 with u=rho*c*(c-1). Completing the square gives the reciprocal quartic D(c)=7(5u+A)^2. Under z=c+c^-1 and w=(5u+A)/c it is the conic 7w^2=247z^2+770z+775, followed by the single quadratic pullback c^2-zc+1=0.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/verify.py"
+   ],
+   "notes": "Exact h=7 geometry reduction. The conic chart retains its quadratic c-pullback and finite exceptional charts; reciprocal, Frobenius, torsion, cyclotomic, and inner conditions remain open."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -35787,6 +35804,16 @@
   },
   {
    "from": "l1_mersenne_hnf_order_one_full_trace_cancellation",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_involution_component_exclusion",
+   "to": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

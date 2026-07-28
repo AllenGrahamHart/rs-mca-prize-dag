@@ -7507,6 +7507,20 @@ the outer stage into exactly two low-dimensional tasks.
   is now audit-only. Price the `h=7` first-three system before attempting
   `h=15`.
 
+  For that `h=7` price, consume
+  `l1_mersenne_hnf_m8_order_one_conic_reduction`. The residual input is
+
+  ```text
+  35u^2+14(11c^2+5c+11)u+120(c^4+c^2+1)=0,
+  u=rho*c*(c-1),
+  ```
+
+  equivalently the conic `7w^2=247z^2+770z+775` plus
+  `c^2-zc+1=0`. Benchmark both the direct quadratic and conic-pullback
+  representations; retain the cheaper exact one. The `t=infinity`, tangent,
+  and denominator-zero charts are mandatory finite shards. A generic reconstruction
+  of the old ten-term `Psi_7` is no longer the preferred input.
+
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
 
