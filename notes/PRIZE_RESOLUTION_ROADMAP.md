@@ -6627,3 +6627,23 @@ open packet: exact gcd verdicts, recorded as CR-L1-H7-Q2-PAIR
 next route-deciding action: run the cheap gcd packet when Modal is available;
                               meanwhile attack one-repeat quadratic colors
 ```
+
+**2026-07-28, L1 quadratic color resultant:** pointwise Frobenius produces
+one degree-six polynomial in the color variable. This closes the `h=15`
+quadratic stratum and gives exact finite color shapes at `h=7`.
+
+```text
+node proved: l1_mersenne_hnf_order_one_quadratic_color_resultant
+resultant: R_E(X)=U(X)^2-V(X)T(X), degree 6
+h=15 consequence: 14 roots -> at least 7 colors > degree 6; CLOSED
+h=7 consequence: R_E/(A A^p)^2 is the six-color multiset polynomial
+collision-free shape: (X^8-1)/((X-eta)(X-theta))
+one-repeat shape: (X-epsilon)(X^8-1)/product_3(X-eta_j)
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; exact Sylvester-resultant proof
+open h=15 color degrees: 0 and 3,...,13
+open h=7 quadratic work: coefficient elimination for collision-free and
+                         one-repeat shapes; two-pair gcd packet remains queued
+next route-deciding action: compare QCRS5 coefficients with the h=7 L
+                              moments while preserving the repeated assignment
+```

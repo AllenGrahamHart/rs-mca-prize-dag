@@ -718,6 +718,14 @@
   the pointwise quadratic, not only `E^m=1 mod L`, in subsequent low-degree
   exclusions.
 
+- Consume `l1_mersenne_hnf_order_one_quadratic_color_resultant` before any
+  degree-two coefficient elimination. It closes the complete quadratic
+  color stratum at `m=16,h=15`: fourteen reduced roots would require seven
+  distinct colors, but the pointwise quadratic resultant has degree six.
+  At `m=8,h=7`, use its exact degree-six color polynomial. In the
+  collision-free and one-repeat chambers substitute (QCRS4) and (QCRS5),
+  respectively; do not discard the double factor of the repeated color.
+
 - At degree two, consume
   `l1_mersenne_hnf_m8_order_one_quadratic_collision_router`. The exact
   chambers are collision-free, one repeat, or two antipodal repeats. In the
