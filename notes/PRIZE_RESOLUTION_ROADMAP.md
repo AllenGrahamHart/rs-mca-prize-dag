@@ -6330,3 +6330,27 @@ resume rule: wait for Modal workspace and credit; launcher skips checkpoint
 promotion gate: complete reverse audit, replay all 1009 high representatives,
   source-pin the theorem packet, then run node/DAG/harness verifiers
 ```
+
+**Same-day aggregate payoff calibration:** the weighted-kernel target now has
+an exact profile-closure ladder. On the binding prize rate-`1/8` row, closing
+all of `(3,6,S=18)` would move the coarse sufficient oriented-vector cap only
+from `93962` to `106111`; closing every `S=18` profile would move it to
+`249314`. Each cap is sharp for the maximum-weight inference, with the
+adjacent integer failing that inference. This is route calibration, not a new
+DAG node, because the committed replay awaits an enabled Modal workspace.
+
+```text
+current maximum:                 (3,6,18), cap 93962
+after full profile-(3,6) close: (2,10,18), cap 106111
+after every S=18 profile close:   (4,4,20), cap 249314
+m16-only consequence: no cap change while m=2,4,8 remain live
+packet: notes/E1_PROFILE_WEIGHT_PAYOFF_LADDER.md
+replay: experiments/prize_resolution/e1_profile_weight_payoff_ladder.py
+Modal wrapper: experiments/prize_resolution/e1_profile_weight_payoff_ladder_modal.py
+```
+
+Route decision: finishing the primitive `m=16` audit remains justified as a
+nearly complete exact child, but it is one of four cofactor obligations and
+must not be reported as moving the aggregate target by itself. After `m=16`,
+prefer an aggregate count for `m=2,4,8` if it can certify at most `93962`
+oriented vectors; otherwise continue exact cofactor exclusion.
