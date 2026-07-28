@@ -18566,6 +18566,11 @@
    "attack_surface": "The Delta certificate: show the ideal (R_0..R_9) in Z[e_2,e_4,e_6,e_8,e_9,e_10] has no characteristic-zero point and extract Delta. Symbolic Y^1024 mod G blows up, so prefer the clean symmetric-function form recorded on the (4,9) node.",
    "falsifier": "A monic quintic E and nonzero e_9 over an admissible field with G = E(Y)^2 - e_9^2 Y dividing Y^1024-1 whose reconstruction yields a genuine reduced weight-10 relation satisfying the ell=4 window -- i.e. a live (4,10) vanisher.",
    "notes": "Minted 2026-07-27. The parity dichotomy flagged (4,10) as obstructed (gcd(10,2048)=2) and predicted it would need a sub-tuple router in the style of the closed (2,5)/(2,6). The resolution is simpler: even weights need no dilation at all, because the window conditions alone deliver the normal form and e_9 != 0 comes free from reducedness. Subtraction check clean at b13de811."
+  },
+  {
+   "id": "e1_collision_square_mass_reparametrization",
+   "status": "PROVED",
+   "statement": "Using the pinned coordinates of e1_prime_field_l2_norm_collision_radius, the folded square mass S=4a+b and the raw swap distance s=a+b/2+c satisfy: same-sign antipodal pairs cancel in alpha, so c contributes to s and nothing to alpha. Fixing (a,b) and growing c gives the same alpha, the same norm, and unbounded s, so no norm bound can bound s above. The collision floor is S>=15 at N=256 and S>=4 at N=512, equivalent to the pinned s<=4 and s=1 exclusions on the opposite-sign-only family; a full enumeration of band s=5 at N=256 returns exactly the pinned survivors (3,4,0) and (4,2,0). Consequently the exhaustion is governed by square mass, not band: at S=16 the live splits are (3,4),(2,8),(1,12),(0,16), of which the variance-descent campaign works (3,4) only. Whether the other three are excluded is OPEN (see frontier.md). Closes no variance level, profile, row, or terminal."
   }
  ],
  "edges": [
@@ -35676,6 +35681,21 @@
   },
   {
    "from": "e1_first_band_variance_route_boundary",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_collision_square_mass_reparametrization",
+   "kind": "req"
+  },
+  {
+   "from": "e1_collision_square_mass_reparametrization",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_collision_square_mass_reparametrization",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   }
