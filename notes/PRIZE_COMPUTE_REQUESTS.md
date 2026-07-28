@@ -7565,6 +7565,22 @@ the outer stage into exactly two low-dimensional tasks.
   it uses 128 MiB and a 60-second hard timeout per packet and writes after
   every returned result.
 
+  **Cheap exact request CR-L1-H7-Q2-ALL:** consume
+  `l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection`. Construct the
+  fixed degree-fourteen polynomial `R_2` from the factored resultant (QHI4),
+  independently verify leading coefficient `-691200`, and compute
+
+  ```text
+  gcd(R_2(X),X^(p+1)-zeta)
+  ```
+
+  for all four official primes and eight `zeta in mu_8`. Return monic gcds
+  and partial output after every packet. Unit gcds in all 32 packets close
+  the complete quadratic-color chamber. Run the degree-eight
+  `CR-L1-H7-Q2-PAIR` first or in parallel as an independent specialization.
+  This packet is also tiny, but no launch is authorized while the Modal
+  workspace spend limit remains active.
+
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
 

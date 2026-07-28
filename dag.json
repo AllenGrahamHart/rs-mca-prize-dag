@@ -19652,6 +19652,23 @@
    "notes": "Exact assignment-preserving quadratic identity. It adds one HNF parameter equation shared by all collision chambers; incompatibility with the conic and all outer/inner tests remain open."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection",
+   "title": "L1 Mersenne HNF m=8 order-one quadratic HNF intersection",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Combining the quadratic pointwise equation g(1)=(1-rho*c)^3 with the h=7 residual conic eliminates r=rho*c into the fixed degree-fourteen polynomial R_2(d)=(a_0c_1-c_0a_1)^2-(a_0b_1-b_0a_1)(b_0c_1-c_0b_1), whose leading coefficient is -691200. Complete degree-two closure reduces to 32 norm-fiber gcds.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/verify.py"
+   ],
+   "notes": "Exact all-collision quadratic reduction only. The 32 norm-gcd verdicts are unrun because Modal is spend-blocked; higher color degrees and all outer/inner tests remain open."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -36127,6 +36144,21 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition",
+   "to": "l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

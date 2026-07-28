@@ -6715,3 +6715,20 @@ compute spend: none; exact assignment-preserving degree argument
 next route-deciding action: expand g(1) on the h=7 conic and eliminate
                               rho*c before any collision-specific work
 ```
+
+**2026-07-29, L1 h=7 quadratic HNF intersection:** the new pure HNF equation
+and residual conic eliminate `rho*c` into one fixed degree-fourteen endpoint.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection
+HNF quadratic: a_0(d)r^2+b_0(d)r+c_0(d)=0
+residual conic: a_1(d)r^2+b_1(d)r+c_1(d)=0
+univariate endpoint: R_2=(a_0c_1-c_0a_1)^2
+                       -(a_0b_1-b_0a_1)(b_0c_1-c_0b_1)
+degree / leader: 14 / -691200
+packet count: 4 rows * 8 norm colors = 32
+DAG delta: one PROVED background node and three edges; no critical status flip
+compute spend: none; queued as CR-L1-H7-Q2-ALL
+next route-deciding action: obtain the tiny norm-gcd verdicts when Modal is
+                              available; otherwise attack color degree three
+```

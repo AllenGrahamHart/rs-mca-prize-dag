@@ -733,6 +733,13 @@
   residual conic once for all three collision chambers; do not replace it by
   a color-multiset norm argument on unconstrained interpolant coefficients.
 
+- The shared quadratic intersection is now
+  `l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection`. Replace the
+  positive-dimensional quadratic-color conic by the printed degree-fourteen
+  `R_2(d)` and its eight norm-fiber gcds on each row. This is the global
+  degree-two endpoint; retain the degree-eight two-antipodal endpoint as its
+  cheaper specialized check.
+
 - More generally consume
   `l1_mersenne_hnf_order_one_color_degree_barrier`. The pointwise degree-`d`
   color equations define curves of degrees `d` and `d+1`, so `H<=d(d+1)`.
