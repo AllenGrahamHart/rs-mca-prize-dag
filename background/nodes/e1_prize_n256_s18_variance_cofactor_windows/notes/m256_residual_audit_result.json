@@ -1,0 +1,668 @@
+{
+  "complete": true,
+  "container_seconds": 29.342898733,
+  "correlation": "independent full 128-slot ordered-pair convolution",
+  "enumeration": "lexicographic combinations modulo 32 shards",
+  "errors": [],
+  "results": [
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 1.078962434,
+      "energy_counts": [
+        0,
+        0,
+        2,
+        8,
+        14,
+        36,
+        18,
+        414,
+        110
+      ],
+      "global_combination_count": 10009125,
+      "shard": 0,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 1.06989
+    },
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 0.749538431,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        16,
+        24,
+        526,
+        96
+      ],
+      "global_combination_count": 10009125,
+      "shard": 1,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 0.742095
+    },
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 0.755250215,
+      "energy_counts": [
+        0,
+        0,
+        4,
+        6,
+        18,
+        28,
+        32,
+        480,
+        98
+      ],
+      "global_combination_count": 10009125,
+      "shard": 2,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 0.746411
+    },
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 1.040522374,
+      "energy_counts": [
+        0,
+        0,
+        2,
+        8,
+        6,
+        32,
+        20,
+        518,
+        86
+      ],
+      "global_combination_count": 10009125,
+      "shard": 3,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 1.03149
+    },
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 0.752413859,
+      "energy_counts": [
+        0,
+        0,
+        2,
+        10,
+        12,
+        22,
+        42,
+        536,
+        76
+      ],
+      "global_combination_count": 10009125,
+      "shard": 4,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 0.743751
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.7495982609999998,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        4,
+        2,
+        28,
+        28,
+        580,
+        116
+      ],
+      "global_combination_count": 10009125,
+      "shard": 5,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.743321
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.1757589010000002,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        2,
+        6,
+        22,
+        48,
+        464,
+        122
+      ],
+      "global_combination_count": 10009125,
+      "shard": 6,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.16726
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.0770865459999999,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        8,
+        4,
+        18,
+        26,
+        502,
+        72
+      ],
+      "global_combination_count": 10009125,
+      "shard": 7,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.06923
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.7521853580000002,
+      "energy_counts": [
+        0,
+        8,
+        6,
+        12,
+        20,
+        42,
+        38,
+        452,
+        120
+      ],
+      "global_combination_count": 10009125,
+      "shard": 8,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.746827
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.047641429,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        6,
+        0,
+        20,
+        38,
+        512,
+        80
+      ],
+      "global_combination_count": 10009125,
+      "shard": 9,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.04175
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.750524304,
+      "energy_counts": [
+        0,
+        0,
+        4,
+        4,
+        14,
+        38,
+        26,
+        472,
+        88
+      ],
+      "global_combination_count": 10009125,
+      "shard": 10,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.744751
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.749982513,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        4,
+        4,
+        20,
+        20,
+        446,
+        88
+      ],
+      "global_combination_count": 10009125,
+      "shard": 11,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.743656
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.0431096320000002,
+      "energy_counts": [
+        0,
+        2,
+        2,
+        6,
+        2,
+        44,
+        44,
+        476,
+        110
+      ],
+      "global_combination_count": 10009125,
+      "shard": 12,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.03363
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.7480558230000001,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        26,
+        26,
+        404,
+        74
+      ],
+      "global_combination_count": 10009125,
+      "shard": 13,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.742059
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.0284754320000002,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        12,
+        12,
+        26,
+        6,
+        518,
+        108
+      ],
+      "global_combination_count": 10009125,
+      "shard": 14,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.01936
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.1639499019999997,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        22,
+        34,
+        414,
+        96
+      ],
+      "global_combination_count": 10009125,
+      "shard": 15,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.15676
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.749008619,
+      "energy_counts": [
+        0,
+        8,
+        4,
+        8,
+        2,
+        38,
+        42,
+        430,
+        112
+      ],
+      "global_combination_count": 10009125,
+      "shard": 16,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.743033
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.078297633,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        4,
+        4,
+        26,
+        28,
+        428,
+        96
+      ],
+      "global_combination_count": 10009125,
+      "shard": 17,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.07088
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.7483381179999999,
+      "energy_counts": [
+        0,
+        8,
+        4,
+        14,
+        4,
+        22,
+        22,
+        424,
+        78
+      ],
+      "global_combination_count": 10009125,
+      "shard": 18,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.742405
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.03019341,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        24,
+        30,
+        460,
+        88
+      ],
+      "global_combination_count": 10009125,
+      "shard": 19,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.01928
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.751113922,
+      "energy_counts": [
+        0,
+        0,
+        2,
+        2,
+        4,
+        32,
+        32,
+        488,
+        84
+      ],
+      "global_combination_count": 10009125,
+      "shard": 20,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.743533
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.0436128770000002,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        4,
+        6,
+        22,
+        24,
+        424,
+        124
+      ],
+      "global_combination_count": 10009125,
+      "shard": 21,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.03915
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.7496804199999998,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        4,
+        8,
+        26,
+        40,
+        492,
+        86
+      ],
+      "global_combination_count": 10009125,
+      "shard": 22,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.742276
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.0730303049999996,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        24,
+        18,
+        414,
+        118
+      ],
+      "global_combination_count": 10009125,
+      "shard": 23,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.06544
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.040411058,
+      "energy_counts": [
+        0,
+        0,
+        6,
+        8,
+        10,
+        30,
+        48,
+        510,
+        90
+      ],
+      "global_combination_count": 10009125,
+      "shard": 24,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.02454
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.039496541,
+      "energy_counts": [
+        0,
+        0,
+        2,
+        14,
+        2,
+        28,
+        24,
+        502,
+        78
+      ],
+      "global_combination_count": 10009125,
+      "shard": 25,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.03191
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.7492491179999998,
+      "energy_counts": [
+        0,
+        0,
+        8,
+        14,
+        14,
+        18,
+        14,
+        580,
+        102
+      ],
+      "global_combination_count": 10009125,
+      "shard": 26,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.743155
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.02857582,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        2,
+        4,
+        14,
+        42,
+        518,
+        88
+      ],
+      "global_combination_count": 10009125,
+      "shard": 27,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.01949
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.7499595109999992,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        10,
+        6,
+        34,
+        22,
+        568,
+        70
+      ],
+      "global_combination_count": 10009125,
+      "shard": 28,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.743598
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.0270449199999998,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        8,
+        8,
+        22,
+        38,
+        448,
+        106
+      ],
+      "global_combination_count": 10009125,
+      "shard": 29,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.01741
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.7508381050000001,
+      "energy_counts": [
+        0,
+        2,
+        4,
+        6,
+        12,
+        24,
+        32,
+        462,
+        76
+      ],
+      "global_combination_count": 10009125,
+      "shard": 30,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.74335
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 1.0709929419999993,
+      "energy_counts": [
+        0,
+        0,
+        0,
+        8,
+        8,
+        40,
+        30,
+        502,
+        140
+      ],
+      "global_combination_count": 10009125,
+      "shard": 31,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 1.06375
+    }
+  ],
+  "returned_shards": 32,
+  "schema": "e1-prize-m256-residual-audit-v1",
+  "source_sha256": "a7e284e04d00ec4e5aa92965c57f3834e3ecb41fa9ce0262f6788e61becb6710",
+  "totals": {
+    "combination_count": 10009125,
+    "energy_counts": [
+      0,
+      28,
+      52,
+      204,
+      212,
+      864,
+      956,
+      15364,
+      3076
+    ],
+    "signed_vector_count": 320292000
+  },
+  "worker_seconds": 29.095441
+}

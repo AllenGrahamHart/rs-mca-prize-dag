@@ -5797,3 +5797,31 @@ RowC movement: none
 pair-budget status: TARGET
 next action: attack m=256 in V=10,18,26,34,42,50,58,66,74
 ```
+
+**Same-day cofactor-256 close:** the nine residual chambers are exhausted and
+their exact norms form a certified gap around the prize interval.
+
+```text
+proved node: e1_prize_n256_s18_m256_collision_exclusion
+normalization: singleton positions 0,8; first singleton sign +1
+signed normalized vectors: 320292000
+primary census app: ap-GLhkTmrhb9jYJYJwyLWxYJ
+audit census app: ap-geY02XirYKUn755jIDegx3
+counts by V=10,18,26,34,42,50,58,66,74:
+  0,28,52,204,212,864,956,15364,3076
+residual vectors: 20756
+FLINT ledger app: ap-qOUwcG4vpXLacPHsbUgmcn
+PARI audit app: ap-ORclHKC4a7qVqguTzELasP
+exact-resultant commitment agreement: 32/32 shards, 20756/20756 rows
+V=18 quotients: all above prize interval
+V>=26 quotients: all below prize interval
+candidate quotients in prize interval: 0
+maximum below: 79966870433624456578392518772995331447805526474703846245310288507286369992961
+minimum above: 127117908459354031873489386413391045324297956117263458825602208201263580806401
+cofactor conclusion: 256 impossible
+live prize cofactors: {2,4,16}
+RowC movement: none
+pair-budget status: TARGET
+next action: seek an analytic/census split for m=16; its 22 variance chambers
+             are too broad for an unscoped whole-norm dump
+```

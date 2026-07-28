@@ -8,11 +8,11 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_prize_n256_s18_m514_collision_exclusion/verify.py",
-      "seconds": 0.099362,
+      "script": "background/nodes/e1_prize_n256_s18_m256_collision_exclusion/verify.py",
+      "seconds": 0.227831,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_PRIZE_N256_S18_M514_COLLISION_EXCLUSION_PASS normalized_vectors=320292000 div257=184 distinct_norms=46 interval=0 checks=1519\n"
+      "stdout_tail": "E1_PRIZE_N256_S18_M256_COLLISION_EXCLUSION_PASS normalized_vectors=320292000 residual=20756 interval=0 checks=41576\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

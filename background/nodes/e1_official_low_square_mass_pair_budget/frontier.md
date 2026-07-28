@@ -49,6 +49,12 @@ resultants, and every quotient `Norm/514` lies below the prize interval. Thus
 `514` is also impossible. Four prize cofactors remain: `2,4,16,256`; the
 narrowest window is `m=256`, `10<=V<=74`, `V=2 mod 8`.
 
+The `m=256` dual census leaves 20756 vectors in nine chambers. Committed FLINT
+and PARI norm ledgers agree on all exact resultants: every `V=18` quotient is
+above the prize interval and every `V>=26` quotient is below. Thus `256` is
+impossible. Three prize cofactors remain: `2,4,16`; the narrowest is `m=16`,
+`10<=V<=178`, `V=2 mod 8`.
+
 The coloring target is an independent alternative. Degree two pays both;
 degree three pays this pair-budget route even when the graph is not
 three-colorable.
