@@ -29,8 +29,10 @@ Dual exact censuses and FLINT/PARI resultants remove `m=514`; continue with
 `m=256`, where `10<=V<=74`.
 A dual census and committed FLINT/PARI exact norm ledger remove `m=256`.
 The analytic high-variance child reduces `m=16` to `10<=V<=106`, and streamed
-FLINT/PARI exact ledgers remove the residual completely. Continue with `m=4`,
-where `10<=V<=226`.
+FLINT/PARI exact ledgers remove the residual completely. Matching high-
+variance and dual exact-resultant children then remove `m=4` and `m=2`.
+The complete `(4,2,0)` prize branch is closed; do not rerun it. RowC retains
+the separate 419-class interface.
 
 ```text
 P=sum_y binom(r_y,2).

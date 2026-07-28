@@ -5915,3 +5915,40 @@ live prize cofactors: {2}
 pair-budget status: TARGET; normalized vectors are not weighted edges
 next action: derive the cheapest analytic/census split for the sole m=2 branch
 ```
+
+**Same-day cofactor-2 high-variance close:** the same moment machinery reaches
+the last cofactor after a single bounded dual frontier.
+
+```text
+proved node: e1_prize_n256_s18_m2_high_variance_exclusion
+normalization: singleton positions 0,1
+dual exact M3 frontier: every chamber V=10,18,...,194
+primary direct-convolution app: ap-2SrwvNtxlhfJ2USNVd5yvn
+audit folded-pair app: ap-uGeZVekDHwri0h2YdtA6yH
+exact M3/Hermite close: V=106,114,...,194
+universal-layer close: V=202,210,...,250
+exact threshold: (2p_min)^5>2^1284
+m=2 residual: 10<=V<=98, V=2 mod 8
+dual frontier worker-seconds: 94.92468 + 58.20173
+next action: stream exact norms only for the 511272 residual vectors
+```
+
+**Same-day cofactor-2 close:** the final leading-profile cofactor has an exact
+certified gap around the prize interval.
+
+```text
+proved node: e1_prize_n256_s18_m2_collision_exclusion
+residual vector count: 511272
+FLINT stream app: ap-5RZLHmXH21jJetiYlXEvLU
+PARI/direct-convolution audit app: ap-Hcr26R9gJ1DnC1bLMkYf5f
+exact multiset agreement: 64/64 fingerprint buckets
+quotients below prize interval: 510396
+quotients inside prize interval: 0
+quotients above prize interval: 876
+maximum below: 107768200285002421852540903242682983183211082719077647662104106067449092858113
+minimum above: 108175736216610979727225685018558899952758788007302660274771396038641324156161
+cofactor conclusion: m=2 impossible
+leading profile conclusion: every prize cofactor of (4,2,S=18) is impossible
+pair-budget status: TARGET; later profiles and weighted edges remain open
+next action: recompute the maximum-weight live profile before another census
+```

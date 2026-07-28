@@ -287,3 +287,12 @@ Independent complete censuses find 820 vectors, conductor removes 684, and
 exact norms leave four threshold exceptions. Exact PARI/FLINT tests prove
 their two distinct odd parts composite and below `2^251`; the E13 endpoint
 closes `V=26` and advances the frontier to `V<=24`, still as evidence only.
+
+On prize-envelope rows, the independent square-mass-18 branch is now closed.
+The variance/cofactor router leaves six classes after removing `1538`; proved
+children successively exclude `1028`, `514`, `256`, and `16`. The final
+`e1_prize_n256_s18_m4_collision_exclusion` and
+`e1_prize_n256_s18_m2_collision_exclusion` children use analytic moment
+splits and dual exact-resultant ledgers to exclude the last two cofactors.
+Thus `(4,2,S=18)` contributes zero prize edges. RowC and later square-mass
+profiles remain outside this finite exclusion.

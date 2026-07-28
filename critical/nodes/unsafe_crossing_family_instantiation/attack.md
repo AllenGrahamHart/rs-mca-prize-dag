@@ -60,7 +60,8 @@ pair-feasible branch. The route-deciding residual is the pointwise collision
 allowance over primes `p=1 mod N` in the two exact budget intervals, beginning
 at swap distance five for `N=256` and three for `N=512`. The first `N=256`
 band reduces to `(4,2,0),(3,4,0)`; the complete `N=512,s=2` band is closed.
-Only full-conductor supports remain at `N=256,s=5`; within
+The `(4,2,0)` prize branch is now closed by its exact cofactor chain. Only
+full-conductor supports remain in the other `N=256,s=5` branch; within
 `(3,4,0)` the variance residual is `0<V<=64`. The exact quotient-Schur
 chain excludes `V=76,74,72,70`; the completed E34 template chain excludes
 `V=68`, and the completed E33 profile chain excludes `V=66`. At the closed
@@ -164,11 +165,12 @@ alone are not the currency.
 The proved `e1_low_square_mass_weighted_kernel_dictionary` now makes that
 currency exact. On the binding row, prove the weighted oriented-vector sum,
 or the stronger simple cap of 69,541 oriented low-mass folded kernel vectors.
-The prize field floor first removes every `S=16` profile, leaving
-`(4,2,S=18)` as the leading weight. Restore every surviving orbit's
-orientation, stabilizer, and class-pair multiplicity exactly.
+The prize field floor first removes every `S=16` profile, and the complete
+cofactor chain now removes `(4,2,S=18)` as well. Recompute the maximum weight
+among the remaining prize profiles before spending another census. Restore
+every surviving orbit's orientation, stabilizer, and class-pair multiplicity
+exactly.
 
-The still broad `(4,2,0)` profile is the alternative first-band lane. On
-prize rows apply the 2-adic singleton screen and its seven exact cofactors;
-RowC retains 419. Do not scan an arbitrary interval. Later bands
-`N=256,s>=6` and `N=512,s>=3` remain part of the universal target.
+The `(4,2,0)` prize profile is no longer an alternative lane: all seven exact
+cofactors are excluded. RowC retains 419 and is a separate obligation. Later
+bands `N=256,s>=6` and `N=512,s>=3` remain part of the universal target.

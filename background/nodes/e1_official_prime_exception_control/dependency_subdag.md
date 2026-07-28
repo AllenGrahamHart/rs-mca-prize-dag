@@ -289,6 +289,10 @@ are not yet paid at that stage. Dual exact censuses and FLINT/PARI resultants
 then remove `514`, leaving four residual prize classes.
 The nine-chamber `m=256` census and committed FLINT/PARI exact norm ledger then
 remove `256`, leaving three residual prize classes.
+The profile-specific `m=16` moment split and dual exact-resultant ledger remove
+that class. Matching `m=4` and `m=2` moment splits and independent FLINT/PARI
+ledgers remove the final two classes. Hence `(4,2,0)` is empty on prize-
+envelope rows; RowC retains 419 classes.
 The official quantifier pin and named-exhibit certificate subgraph remain in
 `background/nodes/` and have `ev`, not `req`, edges into this target. The
 unresolved target is a logical leaf, with its route-uniform scope printed

@@ -16,11 +16,14 @@ The proved weighted-kernel dictionary gives the exact alternative form
 E_low=(1/2) sum_{d in D_p(33)} M_33(a(d),b(d)).
 ```
 
-The prize field floor removes every `S=16` profile. The largest live weight is
-the `(4,2,S=18)` value `1873053318886373426584792000465260242`.
-Therefore the coarse oriented-vector cap `|D_p(33)|<=69541` is sufficient.
-This is now the clean finite attack interface, although the profile-weighted
-inequality is weaker and preferred.
+The prize field floor removes every `S=16` profile. The former largest live
+weight was the `(4,2,S=18)` value
+`1873053318886373426584792000465260242`; the complete cofactor chain now
+proves that profile empty on prize-envelope rows. Therefore the coarse
+oriented-vector cap `|D_p(33)|<=69541` remains sufficient but is no longer
+sharp. Recompute the maximum weight among the remaining norm-eligible
+profiles before authorizing another census. The exact profile-weighted
+inequality remains weaker and preferred.
 
 The existing `(3,4,S=16)` variance campaign remains relevant to RowC but is
 superseded on the binding prize row by the field-floor exclusion. The prize
@@ -66,6 +69,14 @@ FLINT and independently enumerated PARI resultants agree through a 64-bucket
 multiset fingerprint; all 540332 quotients `Norm/16` lie outside the prize
 interval. Thus `m=16` is impossible, and the leading profile now has only
 cofactors `2,4`.
+
+The `m=4` chord/Hermite split reduces that branch to `10<=V<=74`; dual
+FLINT/PARI streams then put all 21,376 quotients outside the prize interval.
+The analogous `m=2` split reduces the final branch to `10<=V<=98`; dual
+streams agree on all 511,272 exact resultants and again find no interval
+quotient. Thus every prize cofactor of `(4,2,S=18)` is impossible. RowC's 419
+classes are unchanged, and later prize profiles still require aggregate
+weighted accounting.
 
 The coloring target is an independent alternative. Degree two pays both;
 degree three pays this pair-budget route even when the graph is not

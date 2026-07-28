@@ -8,7 +8,8 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
 2. Prove the exact weighted sum is at most the edge budget. The coarse fallback
    is `|D_p(33)|<=69541` oriented vectors on the binding row.
 3. Spend the prize-field-floor exclusion first: all `S=16` profiles are zero.
-   The live leading profile is `(4,2,S=18)`; the sharpened local-norm theorem
+   The former leading profile `(4,2,S=18)` first has seven prize cofactors; the
+   sharpened local-norm theorem
    first leaves seven prize cofactor values after the residue-degree sieve.
    The proved variance/cofactor theorem then removes `1538`, forces
    `V=2 mod 8`, and leaves only `V in {10,18}` for `m=1028`. The complete
@@ -16,16 +17,17 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    has 419 and receives no such prize-interval reduction). Dual censuses and
    exact FLINT/PARI norms then remove `514`, leaving four prize cofactors.
    A nine-chamber dual census and committed FLINT/PARI norm ledger remove
-   `256`; an analytic/census split and streamed dual norm ledger then remove
-   `16`, leaving two prize cofactors.
+   `256`; analytic/census splits and streamed dual norm ledgers then remove
+   `16`, `4`, and `2`. The whole profile is zero on prize-envelope rows. RowC
+   still has 419 classes and receives no prize-interval reduction.
 4. Prove maximum low-mass collision degree at most three if an incidence
    argument is cheaper. This gives `E_low<=3K/2`, below `1.714K`.
 5. If degree four occurs, count the degree distribution rather than abandoning
    the route; the target is an aggregate edge budget, not a max-degree claim.
-6. Use common-prime ideal/resultant constraints to bound low-mass vectors at
-   one row prime. For the leading profile, attack `m=4`, whose residual has
-   `10<=V<=226` and `V=2 mod 8`, before the broader `m=2` window. Never count
-   a normalized vector as one edge.
+6. Recompute the largest remaining exact profile weight, then use common-prime
+   ideal/resultant constraints at one row prime only if the weighted ledger
+   says that profile is binding. Never count a normalized vector as one edge,
+   and do not rerun any `(4,2,S=18)` prize cofactor.
 7. Falsify with a pinned row and enough exact weighted edges to exceed the
    table, not a single collision vector.
 

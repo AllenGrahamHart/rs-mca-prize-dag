@@ -2753,6 +2753,42 @@
    "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual streamed enumeration and exact arithmetic reduce the leading prize profile to the sole cofactor 2. No aggregate weighted pair count is claimed."
   },
   {
+   "id": "e1_prize_n256_s18_m2_high_variance_exclusion",
+   "title": "Prize N=256 square-mass-18 m=2 high-variance exclusion",
+   "status": "PROVED",
+   "closure": "proof plus exhaustive certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, a profile-(4,2,0) collision with cofactor 2 cannot have V in {106,114,122,...,250}. Dual exact third-moment frontiers and seven universal layer caps leave only 10<=V<=98 with V=2 mod 8.",
+   "notes": "ANALYTIC/EXHAUSTIVE ROUTE REDUCTION 2026-07-28: removes the high 19 of 31 m=2 variance chambers. Exact computation is load-bearing through V=194; the final seven rows are analytic."
+  },
+  {
+   "id": "e1_prize_n256_s18_m2_collision_exclusion",
+   "title": "Prize N=256 square-mass-18 cofactor-2 exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(4,2,0) cofactor 2 is impossible. Dual complete normalized streams leave 511272 vectors after the high-variance exclusion. FLINT and PARI agree through a 64-bucket multiset fingerprint, and every quotient Norm/2 lies strictly outside the prize interval.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual streamed enumeration and exact arithmetic eliminate the last prize cofactor of the leading square-mass-18 profile. Later profiles and the aggregate weighted pair budget remain open."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -21644,6 +21680,46 @@
   },
   {
    "from": "e1_prize_n256_s18_m4_collision_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_prize_n256_s18_m2_high_variance_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_high_variance_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_high_variance_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_high_variance_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_high_variance_exclusion",
+   "to": "e1_prize_n256_s18_m2_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_collision_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_collision_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_collision_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

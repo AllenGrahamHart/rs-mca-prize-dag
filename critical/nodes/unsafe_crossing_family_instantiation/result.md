@@ -97,9 +97,10 @@ vectors and gives maximum `M_3=1356<1732`, excluding that profile. The final
 `(5,7)` census tests 1,984,793,600 vectors. Its unrestricted maximum 1758 has
 proper conductor and is removed by the proved conductor theorem; its exact
 full-conductor maximum is `M_3=1416<1732`. The endpoint synthesis therefore
-proves that every `V=66` case is impossible. The live `(3,4,0)` variance
-frontier is now positive even `V<=64`; `(4,2,0)` and the later swap bands remain
-open, so the universal target remains unproved.
+proves that every `V=66` case is impossible. At that stage the live `(3,4,0)`
+variance frontier was positive even `V<=64`; the separate `(4,2,0)` prize
+branch is subsequently closed by the complete cofactor chain recorded below.
+Later bands remain open, so the universal target remains unproved.
 
 At `V=64`, a further exact reduction is proved. The slack recurrence gives
 `L<=18`, and the cubic-Hermite certificate pays every abstract profile with
@@ -259,7 +260,10 @@ degree-two/three-color route.
 The proved `e1_low_square_mass_weighted_kernel_dictionary` converts the
 preferred budget exactly to folded-vector currency:
 `E_low=(1/2)sum_d M_ell(a(d),b(d))`. The exact prize field floor then removes
-all `S=16` profiles on the binding row. Its largest live weight is attained at
-`(4,2,S=18)`, and at most 69,541 oriented low-mass kernel vectors is a
-stronger sufficient condition. These are route results, not a proof of the
-vector count or the unsafe payload.
+all `S=16` profiles on the binding row. The subsequent complete cofactor
+chain excludes every `(4,2,S=18)` prize collision: seven exact cofactor
+classes are reduced by analytic variance bounds and dual FLINT/PARI resultant
+ledgers, with zero quotient in the prize interval. The prior 69,541 oriented-
+vector cap remains sufficient because it used that profile's maximum weight,
+but the next live maximum weight must be recomputed. These are route results,
+not a proof of the aggregate vector count or the unsafe payload.
