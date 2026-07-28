@@ -6354,3 +6354,30 @@ nearly complete exact child, but it is one of four cofactor obligations and
 must not be reported as moving the aggregate target by itself. After `m=16`,
 prefer an aggregate count for `m=2,4,8` if it can certify at most `93962`
 oriented vectors; otherwise continue exact cofactor exclusion.
+
+Modal replay status: the 128 MB, one-container payoff verifier was rejected
+before launch because the workspace had exceeded its spend limit. No task ran
+and no compute was charged. The primitive audit and this tiny replay remain
+paused until the account limit changes.
+
+**Same-day `m=8` proof-only support contraction:** Lucas/Hasse parity gives a
+complete classification of exact-multiplicity-three six-term supports. Their
+mod-four occupancy is a permutation of `(3,1,1,1)`, so the branch is
+primitive and the normalized `{0,1}` input contracts from `10009125` generic
+supports to `1269760`. The free `F(X)->F(-X)` involution then halves joint
+sign work from 256 to 128 representatives per heavy triple. This is an exact
+draft lemma with a one-container verifier, not a DAG node, because the Modal
+spend limit prevented replay.
+
+```text
+raw exact-mu3 supports:             650117120
+normalized occupancy-filtered:       1269760
+generic normalized input:            10009125
+imprimitive branch:                         none
+joint singleton/heavy sign reps:           128
+packet: notes/E1_M8_SUPPORT_CONTRACTION.md
+```
+
+Next `m=8` action after account re-enable: replay the lemma, then measure the
+four occupancy shards and affine orbit count. Do not start a radius census
+from the generic support atlas.

@@ -6,6 +6,10 @@ Exact draft lemma, not a DAG node. The arithmetic was independently derived
 from the proved weighted-kernel formula, but its committed Python replay has
 not run because Modal is disabled. No critical status changes here.
 
+The one-container replay was attempted on 2026-07-28 and rejected before
+container creation with `Workspace ... has exceeded its spend limit`. It
+incurred no campaign compute. Do not retry until the spend limit changes.
+
 ## Binding row
 
 For prize rate `1/8`, the proved dictionary gives
