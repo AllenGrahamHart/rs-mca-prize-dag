@@ -199,3 +199,10 @@ conductor removes 1,562, and dual exact resultants put every odd part of the
 488 full-conductor norms below `2^250`. Thus `V=34` is empty and the live
 positive even first-band frontier is `V<=32`. This remains evidence for the
 universal target rather than a row or prize closure.
+
+At `V=32` the cutoff-free router leaves four profiles on 154 templates. Dual
+3,056,582,144-vector censuses find 688 actual vectors, two routed profiles are
+exactly empty, conductor removes 510, and dual exact resultants put every odd
+part of the 178 full-conductor norms below `2^250`. Thus `V=32` is empty and
+the live positive even first-band frontier is `V<=30`. This remains evidence
+for the universal target rather than a row or prize closure.

@@ -5422,3 +5422,40 @@ live compute requests: none for E17; never rerun V>=34
 next route-deciding action: derive and price the exact cutoff-free E16/V32
                             router before authorizing any census
 ```
+
+**2026-07-28, E16 cutoff-free route and V=32 endpoint close:** even diameter
+parity reduces the chamber to the zero/four-odd atlas. A complete dual census,
+the proper-conductor theorem, and dual exact odd-part resultants close every
+surviving profile.
+
+```text
+starting local pin: 8770e53e
+canonical prize pin: 82e5f4c4
+upstream main pin: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
+node attacked: N=256, folded profile (3,4,0), V=32 (E=16)
+reduction app: ap-UNOcTGZLQStD1pUQnlIcQG
+slack result: L<=10; exactly five energy profiles
+majorant policy: not invoked
+parity result: (7,0,1) rejected; four zero/four-odd survivors
+light atlas: 28,863 normalized supports in 6+148=154 affine templates
+coverage per engine: 154*binom(124,3)*64=3,056,582,144 vectors
+census app: ap-wX3VHEQgXjopXqefRieIpQ; dual exact engine agreement;
+            959.740 aggregate dual worker-seconds
+actual profiles: [530,0,158,0], total 688; two routed profiles exactly empty
+full conductor: [162,0,16,0], total 178
+proper conductor: complementary 510 vectors discharged by theorem
+norm app: ap-NKEaivIgiXPWHEwHeBgkkM; FLINT/PARI agreement on all 178
+distinct norms: 78
+exact whole-norm maximum: 3310692535087337739109785704249356622971820103039851493935549506897278325762
+whole norms at or above 2^250: 10
+exact odd-part maximum: 1655346267543668869554892852124678311485910051519925746967774753448639162881
+strict odd margin: odd_max<2^250<2*odd_max; odd threshold hits 0
+result: CLOSED; all four profiles and the V=32 endpoint are PROVED absent
+live positive even variance frontier: V<=30
+delta-star bracket movement: none; this pays one finite E1 exception chamber
+new assumptions: none
+upstream terminal delta: none; local result is OURS_ONLY
+live compute requests: none for E16; never rerun V>=32
+next route-deciding action: derive and price the exact cutoff-free E15/V30
+                            router before authorizing any census
+```

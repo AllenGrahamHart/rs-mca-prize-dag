@@ -256,3 +256,8 @@ The proved cutoff-free E17 reduction leaves five profiles on 111 templates.
 Independent complete censuses, conductor, and exact odd norm parts close all
 five; the E17 endpoint closes `V=34` and advances the frontier to `V<=32`,
 still as evidence only.
+The proved cutoff-free E16 reduction leaves four profiles on 154 templates.
+Independent complete censuses find 688 vectors, two routed profiles are
+exactly empty, conductor removes 510, and exact odd norm parts close the 178
+full-conductor representatives; the E16 endpoint closes `V=32` and advances
+the frontier to `V<=30`, still as evidence only.
