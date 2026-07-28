@@ -30,9 +30,10 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    census. Its `m=1538` child is now closed by a dual exact low-energy
    classifier. The sharp product envelope contracts `m=1024,1028` to
    `V in {4,6,8,10,12}`, and the dual `mu=10` census closes `m=1024`, leaving
-   ten cofactors. Finish the geometrically nonempty `m=1028` branch by testing
-   factor 257 during the exact low-energy census. Never count a normalized
-   vector as one edge, and do not rerun any closed cofactor.
+   ten cofactors. The `mu=2` census plus factor-257 test then closes `m=1028`,
+   leaving nine. Attack `m=512,514`, both through `V=68`, by reusing the sharp
+   product envelope before authorizing a larger finite census. Never count a
+   normalized vector as one edge, and do not rerun any closed cofactor.
 7. Falsify with a pinned row and enough exact weighted edges to exceed the
    table, not a single collision vector.
 

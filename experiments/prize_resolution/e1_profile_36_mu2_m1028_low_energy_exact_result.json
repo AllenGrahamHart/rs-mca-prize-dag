@@ -1,0 +1,155 @@
+{
+  "affine_orbits": 1603,
+  "engine": "pair-xor-plus-third",
+  "engine_sha256": "b7157bb6d140c4f0eea80179952f78138083fdb83ab4a94f1f7341b87e6735c2",
+  "orbit_file_sha256": "9492e24744c3464dd7c2e1566c6dbd350f3edfe55f304ac789644c99361324a7",
+  "passed": 24,
+  "rows": [
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=119424 xor_probes=14569728 triple_candidates=680 exact_sign_tests=5440 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=115200 xor_probes=14054400 triple_candidates=4612 exact_sign_tests=36896 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=103552 xor_probes=12633344 triple_candidates=4372 exact_sign_tests=34976 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=81408 xor_probes=9931776 triple_candidates=740 exact_sign_tests=5920 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=107776 xor_probes=13148672 triple_candidates=666 exact_sign_tests=5328 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=118400 xor_probes=14444800 triple_candidates=10560 exact_sign_tests=84480 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=142848 xor_probes=17427456 triple_candidates=4568 exact_sign_tests=36544 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=116992 xor_probes=14273024 triple_candidates=4896 exact_sign_tests=39168 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=75520 xor_probes=9213440 triple_candidates=2500 exact_sign_tests=20000 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=72960 xor_probes=8901120 triple_candidates=2498 exact_sign_tests=19984 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=106752 xor_probes=13023744 triple_candidates=2926 exact_sign_tests=23408 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=128128 xor_probes=15631616 triple_candidates=948 exact_sign_tests=7584 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=89856 xor_probes=10962432 triple_candidates=4844 exact_sign_tests=38752 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=69632 xor_probes=8495104 triple_candidates=810 exact_sign_tests=6480 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=84864 xor_probes=10353408 triple_candidates=970 exact_sign_tests=7760 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=93824 xor_probes=11446528 triple_candidates=4654 exact_sign_tests=37232 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=124160 xor_probes=15147520 triple_candidates=16318 exact_sign_tests=130544 energy2=0 energy3=0 energy4=0 energy5=16 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=98176 xor_probes=11977472 triple_candidates=5704 exact_sign_tests=45632 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 67,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=67 sign_assignments=2144 targets=98944 xor_probes=12071168 triple_candidates=4844 exact_sign_tests=38752 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 66,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=66 sign_assignments=2112 targets=76544 xor_probes=9338368 triple_candidates=2562 exact_sign_tests=20496 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 66,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=66 sign_assignments=2112 targets=97664 xor_probes=11915008 triple_candidates=4400 exact_sign_tests=35200 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 66,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=66 sign_assignments=2112 targets=71168 xor_probes=8682496 triple_candidates=732 exact_sign_tests=5856 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 66,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=66 sign_assignments=2112 targets=134912 xor_probes=16459264 triple_candidates=688 exact_sign_tests=5504 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    },
+    {
+      "orbits": 66,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=66 sign_assignments=2112 targets=80640 xor_probes=9838080 triple_candidates=2732 exact_sign_tests=21856 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 divisible_257=0\n"
+    }
+  ],
+  "schema": "e1-profile-36-mu2-m1028-low-energy-exact-result-v1",
+  "shards": 24
+}

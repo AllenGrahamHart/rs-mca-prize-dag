@@ -2,9 +2,9 @@
 
 `PROVED`: the new maximum-weight prize profile is reduced from an unrestricted
 support-9 search to twelve exact cofactor classes with finite even-variance
-windows. Exact children now exclude `m=1538` and `m=1024` completely. Ten
-cofactors remain; the sharp product child contracts `m=1028` to
-`V in {4,6,8,10,12}`.
+windows. Exact children now exclude `m=1538`, `m=1024`, and `m=1028`
+completely. Nine cofactors remain; `m=512,514`, both ending at `V=68`, are
+the shortest residual windows.
 
-The profile is not yet excluded. The `mu=2` low-energy geometry is nonempty;
-the next attack must impose divisibility by 257 inside its exact census.
+The profile is not yet excluded. The next attack should apply the sharp
+product envelope to `m=512,514` before any larger support census.

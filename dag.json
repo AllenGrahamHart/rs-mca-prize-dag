@@ -2879,6 +2879,24 @@
    "notes": "EXACT FINITE EXCLUSION 2026-07-28: pair-plus-third and triple-table engines agree on 194816 targets, 606 candidate heavy supports, and 4848 exact sign tests. Ten profile-(3,6) cofactors remain."
   },
   {
+   "id": "e1_prize_n256_s18_profile_36_m1028_exclusion",
+   "title": "Prize N=256 profile-(3,6) cofactor-1028 exclusion",
+   "status": "PROVED",
+   "closure": "dual exact finite enumeration plus split-prime test",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 1028 is impossible. Its multiplicity mu=2 and sharp residual E in {2,3,4,5,6} contain exactly 16 normalized vectors, all at E=5; none has norm divisible by 257.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual XOR engines agree on 2409344 targets, 89224 candidate heavy supports, 713792 exact sign tests, and 16 energy-five vectors. All 16 fail the 128-root test modulo 257. Nine profile-(3,6) cofactors remain."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -37300,6 +37318,26 @@
   },
   {
    "from": "e1_prize_n256_s18_profile_36_m1024_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_sharp_product_window",
+   "to": "e1_prize_n256_s18_profile_36_m1028_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1028_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1028_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1028_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

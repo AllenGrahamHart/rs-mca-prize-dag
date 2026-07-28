@@ -93,6 +93,7 @@ proves every `mu=1` energy from two through six empty, excluding `m=1538`.
 The sharp fixed-moment product envelope then contracts both `m=1024,1028`
 branches from `V<=34` to `V in {4,6,8,10,12}`. A dual exact affine/XOR
 census proves the `mu=10` geometry empty and excludes `m=1024`. Ten cofactors
-remain. The sibling `m=1028` geometry is nonempty, so its required factor 257
-must be applied inside the same finite census. No broad support-9 census is
-authorized.
+remain. The sibling `m=1028` census finds exactly 16 energy-five vectors, but
+none vanishes at a primitive root modulo 257, excluding that cofactor as well.
+Nine cofactors remain; `m=512,514`, both through `V=68`, are now the shortest
+windows. No broad support-9 census is authorized.

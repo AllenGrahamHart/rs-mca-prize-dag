@@ -6044,3 +6044,23 @@ primary/audit Modal apps: ap-K9JXDDlMQ9euS1aFcApP20,
 remaining profile-(3,6) cofactors: 10
 next attack: m=1028; geometry has an E=5 witness, so test factor 257 exactly
 ```
+
+**Same-day cofactor-1028 close:** the exact `mu=2` geometry is nonempty but
+the engineered split prime removes every surviving vector.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m1028_exclusion
+cofactor: 1028=4*257, hence mu=2
+normalized singleton supports: 10009125
+mu=2 supports: 2503715; low-chord supports: 20167; affine orbits: 1603
+singleton sign assignments: 51296
+low-energy targets: 2409344
+dual-agreed heavy supports: 89224; exact sign tests: 713792
+geometry: E=2,3,4,6 empty; exactly 16 normalized E=5 vectors
+arithmetic: all 16 fail all 128 primitive-root tests modulo 257
+verdict: m=1028 excluded
+primary/audit Modal apps: ap-9YPE5CXuy9YJlmbb8kOTTL,
+                          ap-vPJTFiYL24oRxWpxi0C7f1
+remaining profile-(3,6) cofactors: 9
+next attack: sharpen m=512,514 windows before any larger census
+```
