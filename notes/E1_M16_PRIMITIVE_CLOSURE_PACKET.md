@@ -190,7 +190,11 @@ reverse cap:      d08e453e633b5a86a3169b7df89d76bf268ff34cd36d0b299a42e759cb767e
 1. Resume and complete the 480 remaining reverse batches.
 2. Require exact agreement with every primary orbit and the full aggregate
    and `live_E` / `above_E` ledgers.
-3. Re-enumerate the 39,936-orbit primitive atlas in the node verifier.
+3. Replay the affine Burnside ledger, validate every committed primitive
+   representative as canonical, distinct, mixed-parity, and exact
+   multiplicity four, and use the independent total `39,936` to certify atlas
+   completeness. A second ten-million-input enumeration is unnecessary if
+   both checks pass; see `notes/E1_PROFILE_36_AFFINE_BURNSIDE_ORBITS.md`.
 4. Replay the integer autocorrelation, live product chamber, primitive support
    condition, and fixed-root lower product for all 1,009 high representatives.
 5. Add the primitive `PROVED` node and its evidence edges.

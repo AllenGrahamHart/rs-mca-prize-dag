@@ -69,10 +69,11 @@ heavy-sign patterns remain represented.
 ## Route consequence
 
 This is an approximately 7.9-fold support-input contraction before affine
-canonicalization and a further factor-two sign contraction. It supplies the
-correct first implementation for `m=8`; a generic six-subset atlas would
-discard this structure. It does not exclude any `m=8` vector or estimate the
-remaining census cost.
+canonicalization and a further factor-two sign contraction. The independent
+Burnside ledger gives exactly `79,360` affine orbits and proves the affine
+action is free. It supplies the correct first implementation for `m=8`; a
+generic six-subset atlas would discard this structure. It does not exclude
+any `m=8` vector or estimate the remaining radius-census cost.
 
 When the spend limit changes, first replay this tiny lemma, then generate the
 four occupancy classes in separate atomic shards. Only after measuring the

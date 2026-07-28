@@ -6404,3 +6404,24 @@ Existing `m=514` classifiers share the `mu=1` predicate but their retained
 atlases are chamber-filtered; they are implementation inputs, not a complete
 `m=2` certificate. Replay these tiny lemmas and measure affine atlas sizes
 before authorizing product or radius campaigns.
+
+**Same-day affine Burnside completion ledger:** a six-element cycle-union DP
+over every affine map of `Z/128` now determines the low-multiplicity orbit
+counts without enumerating normalized supports. It independently reproduces
+the full committed `m=16` split and supplies exact targets for all three
+remaining cofactors.
+
+```text
+m=2 mu1 primitive:                     331359 orbits
+m=4 mu2 primitive:                     159216 orbits
+m=4 quotient mu1 in Z/64:               18383 orbits
+m=8 mu3 primitive:                      79360 orbits
+m=16 split, independently recovered: 39936 + 9080 + 903
+```
+
+The multiplicity-three affine action is free. The `m=16` promotion plan can
+therefore replace a second ten-million-input atlas enumeration with canonical
+representative validation plus the independent Burnside total. The verifier
+is committed but unrun because of the Modal spend limit; no DAG status
+changes. The rapidly increasing orbit counts also rule out launching generic
+radius censuses for `m=2,4,8` before product or aggregate contraction.

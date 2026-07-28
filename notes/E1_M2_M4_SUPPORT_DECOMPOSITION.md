@@ -82,9 +82,10 @@ The three remaining low cofactors now have exact first-stage support plans:
 | `4` | once-divided quotient `mu=1` | 279155 | 128 after square removal |
 | `8` | primitive `mu=3` | 1269760 | 128 |
 
-These are pre-canonicalization inputs, not orbit counts or cost projections.
-The next authorized work after account re-enable is atlas measurement and an
-exact product ledger, not a full radius census.
+The independent Burnside counts are respectively `331,359`, `159,216`,
+`18,383`, and `79,360` affine orbits. These are not cost projections. The
+next authorized work after account re-enable is representative generation
+and an exact product ledger, not a full radius census.
 
 ## Replay
 
