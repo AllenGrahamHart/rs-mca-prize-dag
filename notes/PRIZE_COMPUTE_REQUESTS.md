@@ -7560,7 +7560,10 @@ the outer stage into exactly two low-dimensional tasks.
   conic and `r=-192/(18+X-X^2)`. A unit result in all 32 packets closes only
   the two-antipodal quadratic chamber. This should cost far below one dollar,
   but no launch is authorized while the current Modal workspace reports its
-  spend limit exceeded.
+  spend limit exceeded. The resumable 32-container launcher is
+  `background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/modal_gcd.py`;
+  it uses 128 MiB and a 60-second hard timeout per packet and writes after
+  every returned result.
 
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute

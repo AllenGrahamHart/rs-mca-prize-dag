@@ -19561,7 +19561,8 @@
     "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/dependency_subdag.md",
     "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/audit.md",
     "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/result.md",
-    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/verify.py"
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/modal_gcd.py"
    ],
    "notes": "Exact univariate reduction only. The 32 gcd verdicts are unrun because Modal is spend-blocked; other quadratic collision patterns and all inner conditions remain open."
   },
