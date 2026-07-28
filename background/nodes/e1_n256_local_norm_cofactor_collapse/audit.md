@@ -30,6 +30,10 @@ The prize-specific refinement is exact integer arithmetic:
 `floor(18^64/(B_P 2^128))=2013`. Intersecting this with the existing local
 valuation classes leaves eight cofactors. It does not alter the RowC atlas.
 
+The independent integer sieve factors each odd cofactor and checks every
+prime exponent modulo `ord_256(r)`. It removes only 1026; 257 and 769 are
+prime and split completely.
+
 Follow-up run `ap-LBruvVXqSS0uA8jYvFIgZV` computed the exact odd
 part of the full-conductor variance-36 witness:
 

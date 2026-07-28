@@ -76,6 +76,36 @@ def main() -> None:
     }
     assert sum(map(len, prize_s18.values())) == 8
 
+    def factor(value: int) -> dict[int, int]:
+        answer = {}
+        divisor = 2
+        while divisor * divisor <= value:
+            while value % divisor == 0:
+                answer[divisor] = answer.get(divisor, 0) + 1
+                value //= divisor
+            divisor += 1
+        if value > 1:
+            answer[value] = answer.get(value, 0) + 1
+        return answer
+
+    def order_mod_256(value: int) -> int:
+        return next(exponent for exponent in range(1, 129)
+                    if pow(value, exponent, 256) == 1)
+
+    assert order_mod_256(3) == order_mod_256(19) == 64
+    tagged = tuple(
+        (valuation, cofactor)
+        for valuation, cofactors in prize_s18.items()
+        for cofactor in cofactors
+    )
+    residue_eligible = tuple(
+        cofactor for valuation, cofactor in tagged
+        if all(exponent % order_mod_256(prime) == 0
+               for prime, exponent in factor(cofactor // 2**valuation).items())
+    )
+    assert residue_eligible == (2, 514, 1538, 4, 1028, 16, 256)
+    assert factor(1026 // 2) == {3: 3, 19: 1}
+
     # A nonconforming odd cofactor is caught by the 256-congruence.
     assert 3 % 256 != 1
     assert (2**3 * 257) // 2**3 % 256 == 1
@@ -97,11 +127,11 @@ def main() -> None:
     assert (NODE, UNIVERSAL_TARGET, "ev") in edges
     assert "R=2^mu p" in statements[NODE]
     assert "419" in statements[NODE]
-    assert "eight" in statements[NODE]
+    assert "seven" in statements[NODE]
 
     print(
         "E1_N256_LOCAL_NORM_COFACTOR_COLLAPSE_PASS "
-        "s16_cofactors=5 s18_cofactors=419 prize_s18_cofactors=8 modulus=256"
+        "s16_cofactors=5 s18_cofactors=419 prize_s18_cofactors=7 modulus=256"
     )
 
 

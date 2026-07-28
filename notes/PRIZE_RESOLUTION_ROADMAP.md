@@ -5715,8 +5715,10 @@ leading binding profile: (4,2,S=18)
 norm bound: R<=18^64
 prize cofactor bound: m=R/p<=2013
 local form: m=2^mu(1+256t), mu in {1,2,4,8,16}
-exact prize cofactors: {2, 514, 1026, 1538, 4, 1028, 16, 256}
-atlas contraction: 419 -> 8 on prize rows
+field-floor cofactors: {2, 514, 1026, 1538, 4, 1028, 16, 256}
+residue-degree exclusion: 1026=2*3^3*19
+exact live prize cofactors: {2, 514, 1538, 4, 1028, 16, 256}
+atlas contraction: 419 -> 7 on prize rows
 RowC: unchanged at 419
-next action: price the eight prize classes before any broad support census
+next action: price the seven prize classes before any broad support census
 ```

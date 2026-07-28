@@ -9,7 +9,8 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    is `|D_p(33)|<=69541` oriented vectors on the binding row.
 3. Spend the prize-field-floor exclusion first: all `S=16` profiles are zero.
    The live leading profile is `(4,2,S=18)`; the sharpened local-norm theorem
-   leaves exactly eight prize cofactor values (RowC still has 419).
+   leaves exactly seven prize cofactor values after the residue-degree sieve
+   (RowC still has 419).
 4. Prove maximum low-mass collision degree at most three if an incidence
    argument is cheaper. This gives `E_low<=3K/2`, below `1.714K`.
 5. If degree four occurs, count the degree distribution rather than abandoning

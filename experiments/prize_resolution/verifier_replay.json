@@ -2,25 +2,17 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 1,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/verify.py",
-      "seconds": 0.070204,
+      "script": "background/nodes/e1_n256_local_norm_cofactor_collapse/verify.py",
+      "seconds": 0.080858,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_LOW_SQUARE_MASS_PLOTKIN_COLORING_COMPILER_PASS rows=6 tight_colors=3 tight_fiber_cap=102 tight_edge_ratio_lt=1.714 checks=2297\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/verify_audit.py",
-      "seconds": 0.055884,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "E1_LOW_SQUARE_MASS_PLOTKIN_COLORING_COMPILER_AUDIT_PASS checks=129\n"
+      "stdout_tail": "E1_N256_LOCAL_NORM_COFACTOR_COLLAPSE_PASS s16_cofactors=5 s18_cofactors=419 prize_s18_cofactors=7 modulus=256\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

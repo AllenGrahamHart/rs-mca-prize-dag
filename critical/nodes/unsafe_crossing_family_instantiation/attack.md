@@ -169,6 +169,6 @@ The prize field floor first removes every `S=16` profile, leaving
 orientation, stabilizer, and class-pair multiplicity exactly.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. On
-prize rows apply the 2-adic singleton screen and its eight exact cofactors;
+prize rows apply the 2-adic singleton screen and its seven exact cofactors;
 RowC retains 419. Do not scan an arbitrary interval. Later bands
 `N=256,s>=6` and `N=512,s>=3` remain part of the universal target.

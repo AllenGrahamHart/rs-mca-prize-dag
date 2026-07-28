@@ -323,7 +323,7 @@ at most 69,541 oriented low-mass vectors. The prize field floor removes every
 `S=16` profile first, so `(4,2,S=18)` is the leading live weight. Existing
 orbit counts must restore orientation, stabilizers, and these class-pair
 weights.
-Alternatively attack the still broad `(4,2,0)` profile through its eight
+Alternatively attack the still broad `(4,2,0)` profile through its seven
 exact prize cofactor classes (419 on RowC). Do not rerun any `V>=26`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
 safe predecessor relocates the candidate threshold immediately.

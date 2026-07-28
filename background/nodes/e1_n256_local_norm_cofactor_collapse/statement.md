@@ -49,6 +49,15 @@ mu=8:  256;
 mu=16: none.
 ```
 
+The global residue-degree rule removes `1026=2*3^3*19`: in a
+`256`-th cyclotomic norm, every odd-prime exponent is divisible by that
+prime's order modulo 256, whereas both `3` and `19` have order 64. Thus the
+exact live prize list has seven values:
+
+```text
+{2, 514, 1538, 4, 1028, 16, 256}.
+```
+
 In particular, the square-mass-16 profile has only five possible cofactors,
 not every integer below 64. This is a necessary norm shape, not a proof that
 the odd norm part is prime or lies in a live interval.

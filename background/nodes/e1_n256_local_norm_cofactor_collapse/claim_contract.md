@@ -26,6 +26,8 @@ cofactors therefore have the exact forms printed in `statement.md`.
 5. No primality or interval membership of the odd norm part is asserted.
 6. The eight-element refinement applies only to prize-envelope rows. The
    419-element set remains the valid RowC interface.
+7. The final seven-element list additionally uses unramified cyclotomic
+   residue degrees; it is not merely a congruence filter on the whole cofactor.
 
 ## Falsifier
 

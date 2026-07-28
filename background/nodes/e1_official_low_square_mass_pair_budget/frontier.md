@@ -25,8 +25,9 @@ inequality is weaker and preferred.
 The existing `(3,4,S=16)` variance campaign remains relevant to RowC but is
 superseded on the binding prize row by the field-floor exclusion. The prize
 row has 271 norm-eligible profiles through `S=66`; its leading `(4,2,S=18)`
-profile has exactly eight possible prize cofactor values after local
-reciprocity and the field floor. RowC retains the 419-class interface.
+profile has exactly seven possible prize cofactor values after local
+reciprocity, the field floor, and the residue-degree sieve. RowC retains the
+419-class interface.
 
 The coloring target is an independent alternative. Degree two pays both;
 degree three pays this pair-budget route even when the graph is not
