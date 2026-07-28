@@ -5825,3 +5825,53 @@ pair-budget status: TARGET
 next action: seek an analytic/census split for m=16; its 22 variance chambers
              are too broad for an unscoped whole-norm dump
 ```
+
+**Same-day cofactor-16 high-variance close:** a profile-specific chord ledger
+and a layered third moment produce the requested analytic/census split.
+
+```text
+proved node: e1_prize_n256_s18_m16_high_variance_exclusion
+raw chord magnitudes: six 4s, eight 2s, one 1
+profile inequality: 4L<=E+35, where E=V/2
+quadratic-majorant close: V=138,146,154,162,170,178
+V=130 layer profiles: 73
+third-moment caps: 4702 at V=114, 5118 at V=122, 5950 at V=130
+cubic Hermite contacts: (15,62) at V=114,122; (15,66) at V=130
+exact field-floor threshold used: 2^(1299/5)<16p_min
+m=16 residual: 10<=V<=106, V=2 mod 8
+planning census app: ap-xUAM32cidKtQXwQEyFjKZM
+planning census: all 320292000 normalized vectors, counts and (E,L) only
+audit census app: ap-PPOc61mOxwR0pClp4jTjwI
+dual count and (E,L) agreement: exact in every cell
+nonzero vectors through V=106: 540332
+load-bearing computation: none; theorem verifier uses exact rational arithmetic
+live prize cofactors: {2,4,16}
+pair-budget status: TARGET
+next action: stream exact norms only for the 540332 low-variance vectors
+             without storing a raw multi-gigabyte witness packet
+```
+
+**Same-day cofactor-16 close:** the bounded residual is exhausted without a
+stored witness or norm dump.
+
+```text
+proved node: e1_prize_n256_s18_m16_collision_exclusion
+normalization: singleton positions 0,4; first singleton sign +1
+dual census universe: 320292000 signed normalized vectors
+residual vectors through V=106: 540332
+FLINT stream app: ap-6Mx4ggc8xnWQiKXHn8Nin3
+PARI/direct-convolution audit app: ap-iL2Um5gs93niNlF87WvgLp
+FLINT worker-seconds: 138.08322434
+PARI worker-seconds: 875.875521412
+exact multiset agreement: 64/64 fingerprint buckets
+quotients below prize interval: 540024
+quotients inside prize interval: 0
+quotients above prize interval: 308
+maximum below: 104797259883500113680505745049174573490076600644557179823872590464045041710081
+minimum above: 109148549668884138628080445927205579649397021264609510361461809939220006348801
+cofactor conclusion: m=16 impossible
+live prize cofactors: {2,4}
+pair-budget status: TARGET; normalized vectors are not weighted edges
+next action: seek an analytic/census split for m=4 before any exact norm run;
+             its current 28 chambers through V=226 are too broad to stream
+```

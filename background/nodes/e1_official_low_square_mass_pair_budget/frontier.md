@@ -55,6 +55,18 @@ above the prize interval and every `V>=26` quotient is below. Thus `256` is
 impossible. Three prize cofactors remain: `2,4,16`; the narrowest is `m=16`,
 `10<=V<=178`, `V=2 mod 8`.
 
+The analytic `m=16` high-variance child proves the profile-specific chord
+bound `4L<=E+35`. Six quadratic majorants and three layered-third-moment
+Hermite certificates remove every chamber from `V=114` upward, reducing this
+cofactor to `10<=V<=106`, `V=2 mod 8`, without making its planning census
+load-bearing.
+
+The dual residual census leaves 540332 vectors through `V=106`. Streamed
+FLINT and independently enumerated PARI resultants agree through a 64-bucket
+multiset fingerprint; all 540332 quotients `Norm/16` lie outside the prize
+interval. Thus `m=16` is impossible, and the leading profile now has only
+cofactors `2,4`.
+
 The coloring target is an independent alternative. Degree two pays both;
 degree three pays this pair-budget route even when the graph is not
 three-colorable.

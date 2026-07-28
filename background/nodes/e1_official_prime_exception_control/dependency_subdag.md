@@ -78,6 +78,12 @@ e1_prize_n256_s18_m514_collision_exclusion [PROVED]
 e1_prize_n256_s18_m256_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_prize_n256_s18_m16_high_variance_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
+e1_prize_n256_s18_m16_collision_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_n512_four_singleton_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 

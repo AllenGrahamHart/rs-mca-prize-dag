@@ -177,7 +177,12 @@ leaving five prize cofactors; the narrowest residual is `m=514`,
 remove `514`, leaving `2,4,16,256`; the narrowest is `m=256`,
 `10<=V<=74`, `V=2 mod 8`. A dual nine-chamber census and committed
 FLINT/PARI norm ledger remove `256`, leaving `2,4,16`; the narrowest is `m=16`,
-`10<=V<=178`, `V=2 mod 8`.
+initially `10<=V<=178`, `V=2 mod 8`. A profile-specific chord bound, six
+quadratic majorants, and three exact third-moment Hermite certificates remove
+all `m=16` chambers from `V=114` upward, leaving `10<=V<=106`.
+Dual complete residual censuses and independently streamed FLINT/PARI
+resultants then remove all 540332 vectors in that residual. Cofactor `m=16`
+is impossible, leaving only `m=2,4` in the leading prize profile.
 At `N=512,s=2`, exact negacyclic variance
 excludes `(0,4,0)`, while a complete 129540-state interval-resultant
 certificate excludes `(1,2,0)`. The entire band is closed, so the `N=512`
@@ -211,7 +216,7 @@ supersedes the former instruction to continue immediately with `V=24`:
   closed and must not be rerun. Do not authorize `V=24` until a theorem
   explains how that profile-local descent contributes efficiently to the
   aggregate square-mass ledger. Compare any such route against the 419 exact
-  RowC cofactor classes and the three variance-windowed prize classes in
+  RowC cofactor classes and the two variance-windowed prize classes in
   `(4,2,0)`. Treat the
   `N=512,s=3` band independently;
 - construct an exact pair-feasible candidate-class row above its allowance and

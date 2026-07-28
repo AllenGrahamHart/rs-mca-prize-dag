@@ -27,8 +27,10 @@ five in `(3,4,0)` and forbids a singleton separation divisible by 32 in
 prize branch with `m=514`, where `10<=V<=50`.
 Dual exact censuses and FLINT/PARI resultants remove `m=514`; continue with
 `m=256`, where `10<=V<=74`.
-A dual census and committed FLINT/PARI exact norm ledger remove `m=256`;
-continue with `m=16`, where `10<=V<=178`.
+A dual census and committed FLINT/PARI exact norm ledger remove `m=256`.
+The analytic high-variance child reduces `m=16` to `10<=V<=106`, and streamed
+FLINT/PARI exact ledgers remove the residual completely. Continue with `m=4`,
+where `10<=V<=226`.
 
 ```text
 P=sum_y binom(r_y,2).
