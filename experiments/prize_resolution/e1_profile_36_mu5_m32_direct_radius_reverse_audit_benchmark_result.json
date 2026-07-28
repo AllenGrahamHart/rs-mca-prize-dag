@@ -1,0 +1,189 @@
+{
+  "complete": true,
+  "representatives": 13,
+  "rows": [
+    {
+      "odd_weight": 3,
+      "orbit": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        8
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-direct orbits=1 sign_assignments=32 triple_syndromes=9447680 radius_matches=2444674 exact_sign_tests=19557392 low_energy_vectors=24242 product_live_vectors=7344 fixed_below=7342 fixed_above=2 fixed_unresolved=0 live_E11=2 above_E11=2 live_E19=8 live_E23=8 live_E27=34 live_E31=116 live_E35=250 live_E39=510 live_E43=798 live_E47=1010 live_E51=2062 live_E55=2546 seconds=0.923232\n"
+    },
+    {
+      "odd_weight": 4,
+      "orbit": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        66
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-direct orbits=1 sign_assignments=32 triple_syndromes=9447680 radius_matches=2745068 exact_sign_tests=21960544 low_energy_vectors=27900 product_live_vectors=7724 fixed_below=7716 fixed_above=8 fixed_unresolved=0 live_E16=4 above_E16=4 live_E20=12 above_E20=4 live_E24=20 live_E28=56 live_E32=140 live_E36=284 live_E40=524 live_E44=592 live_E48=1172 live_E52=1748 live_E56=3172 seconds=1.11614\n"
+    },
+    {
+      "odd_weight": 5,
+      "orbit": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        10
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-direct orbits=1 sign_assignments=32 triple_syndromes=9447680 radius_matches=2952518 exact_sign_tests=23620144 low_energy_vectors=26354 product_live_vectors=8616 fixed_below=8614 fixed_above=2 fixed_unresolved=0 live_E13=2 above_E13=2 live_E17=2 live_E21=6 live_E25=20 live_E29=32 live_E33=148 live_E37=290 live_E41=564 live_E45=1172 live_E49=1372 live_E53=2082 live_E57=2926 seconds=1.13972\n"
+    },
+    {
+      "odd_weight": 6,
+      "orbit": [
+        0,
+        1,
+        3,
+        5,
+        67,
+        124
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-direct orbits=1 sign_assignments=32 triple_syndromes=9447680 radius_matches=3300816 exact_sign_tests=26406528 low_energy_vectors=27256 product_live_vectors=13240 fixed_below=13236 fixed_above=4 fixed_unresolved=0 live_E14=4 above_E14=4 live_E26=8 live_E30=32 live_E34=112 live_E38=196 live_E42=668 live_E46=1060 live_E50=1876 live_E54=2156 live_E58=7128 seconds=1.4527\n"
+    },
+    {
+      "odd_weight": 7,
+      "orbit": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        18
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-direct orbits=1 sign_assignments=32 triple_syndromes=9447680 radius_matches=2807452 exact_sign_tests=22459616 low_energy_vectors=15910 product_live_vectors=9582 fixed_below=9582 fixed_above=0 fixed_unresolved=0 live_E23=2 live_E27=10 live_E31=14 live_E35=146 live_E39=306 live_E43=624 live_E47=1344 live_E51=2242 live_E55=4894 seconds=1.25125\n"
+    },
+    {
+      "odd_weight": 8,
+      "orbit": [
+        0,
+        1,
+        2,
+        4,
+        13,
+        66
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-direct orbits=1 sign_assignments=32 triple_syndromes=9447680 radius_matches=2812640 exact_sign_tests=22501120 low_energy_vectors=15992 product_live_vectors=10404 fixed_below=10404 fixed_above=0 fixed_unresolved=0 live_E28=12 live_E32=28 live_E36=84 live_E40=192 live_E44=648 live_E48=1584 live_E52=2856 live_E56=5000 seconds=1.24388\n"
+    },
+    {
+      "odd_weight": 9,
+      "orbit": [
+        0,
+        1,
+        2,
+        4,
+        10,
+        69
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-direct orbits=1 sign_assignments=32 triple_syndromes=9447680 radius_matches=3024776 exact_sign_tests=24198208 low_energy_vectors=18254 product_live_vectors=10050 fixed_below=10050 fixed_above=0 fixed_unresolved=0 live_E29=12 live_E33=48 live_E37=124 live_E41=350 live_E45=908 live_E49=1576 live_E53=2152 live_E57=4880 seconds=1.71698\n"
+    },
+    {
+      "odd_weight": 10,
+      "orbit": [
+        0,
+        1,
+        3,
+        4,
+        13,
+        67
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-direct orbits=1 sign_assignments=32 triple_syndromes=9447680 radius_matches=3915328 exact_sign_tests=31322624 low_energy_vectors=24830 product_live_vectors=18898 fixed_below=18898 fixed_above=0 fixed_unresolved=0 live_E30=12 live_E34=28 live_E38=144 live_E42=576 live_E46=1016 live_E50=2248 live_E54=2820 live_E58=12054 seconds=1.83552\n"
+    },
+    {
+      "odd_weight": 11,
+      "orbit": [
+        0,
+        1,
+        2,
+        4,
+        10,
+        21
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-direct orbits=1 sign_assignments=32 triple_syndromes=9447680 radius_matches=4001416 exact_sign_tests=32011328 low_energy_vectors=22856 product_live_vectors=11522 fixed_below=11522 fixed_above=0 fixed_unresolved=0 live_E31=8 live_E35=50 live_E39=148 live_E43=372 live_E47=1008 live_E51=2108 live_E55=4380 live_E59=3448 seconds=2.11074\n"
+    },
+    {
+      "odd_weight": 12,
+      "orbit": [
+        0,
+        1,
+        2,
+        5,
+        12,
+        66
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-direct orbits=1 sign_assignments=32 triple_syndromes=9447680 radius_matches=4726624 exact_sign_tests=37812992 low_energy_vectors=30854 product_live_vectors=14400 fixed_below=14400 fixed_above=0 fixed_unresolved=0 live_E24=4 live_E32=28 live_E36=64 live_E40=212 live_E44=676 live_E48=1496 live_E52=2570 live_E56=5714 live_E60=3636 seconds=2.15101\n"
+    },
+    {
+      "odd_weight": 13,
+      "orbit": [
+        0,
+        1,
+        2,
+        5,
+        12,
+        18
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-direct orbits=1 sign_assignments=32 triple_syndromes=9447680 radius_matches=3618032 exact_sign_tests=28944256 low_energy_vectors=14322 product_live_vectors=10394 fixed_below=10394 fixed_above=0 fixed_unresolved=0 live_E25=8 live_E29=10 live_E33=30 live_E37=94 live_E41=250 live_E45=650 live_E49=1362 live_E53=2374 live_E57=5616 seconds=1.39624\n"
+    },
+    {
+      "odd_weight": 14,
+      "orbit": [
+        0,
+        1,
+        3,
+        7,
+        12,
+        65
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-direct orbits=1 sign_assignments=32 triple_syndromes=9447680 radius_matches=4070208 exact_sign_tests=32561664 low_energy_vectors=17824 product_live_vectors=15308 fixed_below=15308 fixed_above=0 fixed_unresolved=0 live_E26=8 live_E30=8 live_E34=56 live_E38=108 live_E42=264 live_E46=728 live_E50=1740 live_E54=3592 live_E58=8804 seconds=2.21795\n"
+    },
+    {
+      "odd_weight": 15,
+      "orbit": [
+        0,
+        1,
+        3,
+        7,
+        12,
+        25
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-direct orbits=1 sign_assignments=32 triple_syndromes=9447680 radius_matches=4498400 exact_sign_tests=35987200 low_energy_vectors=17190 product_live_vectors=11614 fixed_below=11614 fixed_above=0 fixed_unresolved=0 live_E31=8 live_E35=20 live_E39=66 live_E43=206 live_E47=582 live_E51=1668 live_E55=4246 live_E59=4818 seconds=2.12534\n"
+    }
+  ],
+  "schema": "e1-profile-36-mu5-m32-direct-radius-reverse-audit-benchmark-v1"
+}

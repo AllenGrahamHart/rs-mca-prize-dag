@@ -6209,3 +6209,28 @@ all-one-parity atlas/primary/audit Modal apps:
 remaining profile-(3,6) cofactors: 5
 next attack: m=32, with mu=5 and E<=85 before parity-adaptive contraction
 ```
+
+**Same-day cofactor-32 close:** odd singleton multiplicity removes the
+imprimitive branch, and dual complete censuses separate every live norm from
+the prize interval.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m32_exclusion
+exact product comparisons: 173683
+product ledger: 474 live and 1360 excluded (E,q,L) triples
+all E=61,...,85 chambers excluded
+normalized singleton supports examined: 10009125
+mu=5 supports: 317440; affine orbits: 19840
+singleton sign assignments: 634880
+dual-agreed unique radius triples: 84923111400
+exact sign tests: 679384891200
+directly replayed low-energy vectors: 339892636
+product-live vectors: 239131808
+certified norm intervals: 239131588 below, 220 above, 0 unresolved
+atlas/primary/audit Modal apps:
+  ap-ZYUKwFlZR2pe1INkfddSsZ, ap-blU0kVG1XoQdz0XWxgLKwz,
+  ap-JcLLKV4WPUIDrn8rhERbNh
+node verifier Modal app: ap-RltPJOCiFf2VhH1gYQMtdw
+remaining profile-(3,6) cofactors: 4
+next attack: m=16, with mu=4 and an explicit all-one-parity branch
+```

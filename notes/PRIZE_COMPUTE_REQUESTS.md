@@ -9112,6 +9112,56 @@ independent checker reconstructs every vector, norm, valuation, threshold,
 residue, and one hostile mutation. This closes all four E13 profiles and the
 `V=26` endpoint; the live frontier advances to `V<=24`.
 
+#### CR-E1-PROFILE-36-M32-PRIMARY: exact cofactor-32 direct census
+
+**Status:** COMPLETE PRIMARY AND AUDIT PASS. All authoritative packets are
+source-pinned; no rerun is authorized unless a pinned source changes.
+
+At `N=256`, profile `(3,6,S=18)`, and cofactor `m=32`, enumerate the complete
+19,840-orbit multiplicity-five atlas. The exact product ledger contracts 1,834
+`(E,q,L)` records to 474 live records through `E=60`; the direct engine then
+uses the proved parity-radius filter, exact autocorrelation energy, and
+Arb-audited 48-bit fixed-root intervals. Retain every high-side witness.
+
+The calibrated one-CPU benchmark covers one orbit at every parity weight
+`q=3,...,15`, agrees exactly with the pre-optimization engine on every count,
+and projects about 10.5 worker-hours. Run 1,240 batches of at most 16 orbits,
+at most 100 one-CPU 256 MiB containers, with 60-second hard task caps and an
+atomic partial packet after every return. The conservative cost is about
+`$0.50` and below the `$1` authorization. No task is retried automatically.
+PASS requires exact atlas coverage, all structural count identities, agreement
+between the long-double screen and rigorous intervals, zero unresolved
+intervals, and one retained state per high-side interval. INCOMPLETE or FAIL
+preserves the packet as evidence and authorizes no retry. A separate,
+independently structured exact audit is required before theorem promotion.
+
+Modal app `ap-blU0kVG1XoQdz0XWxgLKwz` completed all 1,240 primary shards and
+all 19,840 affine orbits in 42,561.764 one-CPU worker seconds. It covered
+5,857,561,600 unique heavy-position triples, 187,441,971,200 singleton-sign
+distance tests, and 679,384,891,200 exact heavy-sign tests. Of 239,131,808
+product-live vectors, rigorous intervals place 239,131,588 below the complete
+`32p` interval and 220 above; none is unresolved, and all 220 high-side states
+are retained. The screen and rigorous intervals agree on every live vector.
+
+The complete audit traverses positions and singleton signs in reverse order,
+constructs its chord columns separately, and directly rebuilds every
+low-energy autocorrelation. Its 13-row benchmark agrees exactly with both the
+primary engine and an independent reverse hash-block pilot at every parity
+weight. Run batches of at most 12 orbits with the same one-CPU, 256 MiB,
+60-second, 100-container, atomic-checkpoint, and no-retry constraints. Its
+projected cost is about `$0.58`, below the `$1` authorization. PASS requires
+exact equality with every proof-relevant primary total and complete energy
+ledgers; only then may the cofactor-32 theorem node be promoted.
+
+Modal app `ap-JcLLKV4WPUIDrn8rhERbNh` completed all 1,654 audit shards and
+all 19,840 affine orbits in 44,023.162 one-CPU worker seconds. It independently
+reproduces all primary totals, including 84,923,111,400 radius triples,
+339,892,636 directly rebuilt low-energy autocorrelations, and the exact
+239,131,588/220/0 interval split. The source-pinned node verifier replayed the
+complete packet and all 220 high-side lower intervals on Modal app
+`ap-RltPJOCiFf2VhH1gYQMtdw`. This promotes
+`e1_prize_n256_s18_profile_36_m32_exclusion` to `PROVED`.
+
 #### CR-E1-PROFILE-36-M64: exact two-atlas cofactor exclusion
 
 **Status:** COMPLETE PASS. All authoritative packets are source-pinned; no
