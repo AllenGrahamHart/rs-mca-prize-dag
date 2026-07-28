@@ -9198,3 +9198,92 @@ all-one-parity witnesses:   ap-gXAQR7y8tv1kbCbNclOHe0
 Every worker had a hard timeout at or below 300 seconds. The campaign used at
 most 96 containers concurrently, remained within the sub-dollar authorization,
 and performed no scientific computation on the WSL host.
+
+#### CR-E1-PROFILE-36-M16-TWO-DIVISIONS: exact branch exclusion
+
+**Status:** COMPLETE PRIMARY AND AUDIT PASS. No rerun is authorized unless a
+pinned source changes.
+
+At `N=256`, profile `(3,6,S=18)`, and cofactor `m=16`, the complete support
+atlas splits into primitive multiplicity four in `Z/128` (39,936 affine
+orbits), once-divided multiplicity two in `Z/64` (9,080), and twice-divided
+multiplicity one in `Z/32` (903). A 41-representative Modal benchmark covers
+every realized `(branch,q)` class. Its measured weighted projections are
+121.464, 26.819, and 2.077 one-CPU hours respectively. Only the twice-divided
+branch is authorized for a complete census; the other two are deferred.
+
+Run the 903 twice-divided orbits in batches of at most three, using at most 100
+one-CPU, 256 MiB containers with 60-second hard task caps and no automatic
+retry. Write an atomic partial packet after every return and retain every
+high-side witness. The calibrated cost is about `$0.10`, comfortably below
+the `$1` authorization. PASS requires complete atlas coverage, every structural
+count identity, exact agreement between the long-double screen and rigorous
+48-bit fixed-root intervals, zero unresolved intervals, and one retained state
+per high-side interval. A separately structured reverse-direct audit must
+reproduce every proof-relevant total before theorem promotion.
+
+Modal app `ap-ozjw9RBwmTg6BmHBmn0HSf` completed and atomically recorded the
+first three-orbit shard before the local `tiny` RAMGuard wall clock interrupted
+the client. Source-matched resumable app `ap-1xutdz21Bfop112ugKr65k` preserved
+that shard and completed the remaining 300. The aggregate covers all 903
+affine orbits in 7,723.486 one-CPU worker seconds. It covered
+266,601,720 unique heavy-position triples, 8,531,255,040 singleton-sign
+distance tests, and 59,378,994,368 exact heavy-sign tests. Of 205,513,652
+product-live vectors, rigorous intervals place 205,486,644 below the complete
+`16p` interval and 27,008 above; none is unresolved, and all high-side states
+are retained. The screen and rigorous intervals agree on every live vector.
+
+Run the separately structured reverse-direct engine in batches of at most
+three under the same 100-container, one-CPU, 256 MiB, 60-second, atomic
+checkpoint, and no-retry constraints. The primary runtime projects another
+roughly `$0.10`. PASS requires exact equality with every proof-relevant primary
+total and complete live/above energy ledgers.
+
+Modal app `ap-kmhgYnrF7vWYttQXorFm0w` completed all 301 reverse-direct audit
+shards. It independently reconstructs all 497,496,976 low-energy vectors and
+reproduces every primary total, including the exact 205,486,644/27,008/0
+interval split and complete live/above energy ledgers. This promotes only the
+twice-divided support subnode; the two larger m16 branches remain open.
+
+One source-pinned node-verifier replay is authorized on Modal with one CPU,
+at most 2 GiB, and a 290-second hard task cap. It must reconstruct the complete
+quotient atlas, product partition, both census ledgers, and all 27,008 retained
+high-side interval witnesses. Expected cost is below `$0.01`; no broad verifier
+suite or scientific rerun is authorized.
+
+Modal app `ap-IVF9ra2KWJyhXPplppzymj` passed the one source-pinned verifier in
+9.817 seconds. It reconstructs all 903 quotient orbits, all 3,685 product
+records, both complete census ledgers, and every retained high-side lower
+interval, and catches a hostile witness-metadata mutation.
+
+Two targeted structural replays are authorized for the global DAG validator
+and critical-harness coverage checker. Each uses one short Modal task and no
+scientific enumeration; combined expected cost is below `$0.01`.
+
+Modal apps `ap-ygaLDQODvhgXc1CG3DtGR5` and
+`ap-xysNDmOuY80dHYl5tXXXAS` passed the global DAG validator and critical
+harness coverage checker respectively. No structural or registration gap was
+introduced by the new branch theorem.
+
+#### CR-E1-PROFILE-36-M16-LARGER-BRANCHES: deferred exact censuses
+
+**Status:** DEFERRED COMPUTE REQUEST. No launch is authorized.
+
+The once-divided and primitive m16 branches project to 26.819 and 121.464
+one-CPU hours from complete parity-class benchmarks. Their direct censuses,
+before independent audits, are outside the present cheap-compute envelope.
+Contributors with available compute could run the same exact engine in
+three-orbit, one-CPU, 256 MiB, sub-60-second shards, followed by an independent
+reverse-direct audit. Until then, seek analytic contraction of the live
+`(E,q,L)` corridor or a structural exclusion that eliminates these branches.
+
+#### CR-E1-PROFILE-36-M16-GENERIC-THIRD-MOMENT: quantified no-go
+
+**Status:** COMPLETE NEGATIVE ROUTE TEST. No rerun is authorized.
+
+A generic layer-set third-moment/Hermite relaxation searched every integer
+contact pair `1<=a<b<=144` against all live m16 product chambers. It excludes
+only 7 of 436 distinct `(E,L)` pairs and leaves 949 of 967 live `(E,q,L)`
+records, still through `E=89`. This generic relaxation is too weak to justify
+further compute; any useful moment argument must exploit support-specific
+structure rather than only the universal layer-set bound.

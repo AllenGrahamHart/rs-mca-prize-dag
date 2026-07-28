@@ -6234,3 +6234,36 @@ node verifier Modal app: ap-RltPJOCiFf2VhH1gYQMtdw
 remaining profile-(3,6) cofactors: 4
 next attack: m=16, with mu=4 and an explicit all-one-parity branch
 ```
+
+**Same-day cofactor-16 support decomposition and first branch close:** exact
+multiplicity four splits exhaustively into primitive, once-divided, and
+twice-divided support strata. The smallest stratum has now been removed by
+dual complete censuses; this is a proved branch theorem, not a full m16 close.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion
+support atlas:
+  primitive mu4 in Z/128:       39936 affine orbits, OPEN
+  once-divided mu2 in Z/64:      9080 affine orbits, OPEN
+  twice-divided mu1 in Z/32:      903 affine orbits, PROVED empty
+exact product comparisons: 295256
+product ledger: 967 live and 2718 excluded (E,q,L) triples
+generic third-moment pilot: 949/967 records survive (quantified no-go)
+twice-divided singleton sign assignments: 28896
+dual-agreed unique radius triples: 7422374296
+exact sign tests: 59378994368
+directly replayed low-energy vectors: 497496976
+product-live vectors: 205513652
+certified norm intervals: 205486644 below, 27008 above, 0 unresolved
+atlas/product/primary/audit Modal apps:
+  ap-7D69LSBDaIs3eLWRsy4jIg, ap-inCC4VYiLY8tmSyAF6wpQU,
+  ap-1xutdz21Bfop112ugKr65k, ap-kmhgYnrF7vWYttQXorFm0w
+node verifier Modal app: ap-IVF9ra2KWJyhXPplppzymj
+measured direct-census projections:
+  once-divided 26.819 one-CPU hours; primitive 121.464 one-CPU hours
+compute decision: defer both larger exact censuses and seek analytic
+  support-specific contraction before spending further budget
+remaining profile-(3,6) cofactors: 4 (m=16 is only partially decomposed)
+next attack: contract or structurally exclude the once-divided m16 branch;
+  do not launch the primitive census under the current compute budget
+```
