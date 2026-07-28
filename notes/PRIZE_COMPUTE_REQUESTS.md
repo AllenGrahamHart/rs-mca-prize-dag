@@ -8807,3 +8807,96 @@ independent checker reproduces every norm, valuation, profile maximum,
 threshold count, and maximizing index and rejects one mutated engine ledger.
 All four E16 profiles and the V=32 endpoint are therefore closed; the live
 positive even frontier advances to `V<=30`.
+
+#### CR-E1-E15-ROUTER: exact cutoff-free V=30 route decision
+
+**Status:** COMPLETE PASS. The router is source-pinned; no rerun is authorized.
+
+At `N=256`, folded profile `(3,4,0)`, and `V=30` (`E=15`), derive the exact
+positive-half L1 bound, enumerate every compatible integer magnitude profile,
+apply the one-light-diameter parity constraint, and price the surviving odd
+profiles against the already-proved one/three/five-odd light atlas. This is a
+router only and changes no DAG status.
+
+Run one one-CPU, 256 MiB Modal task with a 60-second hard timeout. The launcher
+writes a complete deterministic JSON packet. The prepared independent checker
+reconstructs the slack minima, magnitude profiles, layer caps, parity split,
+matching ledger, atlas use, and direct-census floor without importing the
+primary implementations. Conservative wall time is below one minute and cost
+below `$0.01`.
+
+PASS records the exact finite router and permits a separately priced census
+only if its workload is calibrated below `$0.20`. FAIL returns to the analytic
+derivation. INCOMPLETE is evidence only and authorizes no automatic retry.
+
+Modal app `ap-4uZGK1UWEjeAnhVm6de5UE` completed the single task. The
+independent checker reconstructs `L<=9`, three energy profiles, rejection of
+the seven-odd profile `(6,0,1)`, and the two surviving three-odd profiles
+`(3,3)` and `(2,1,1)`. They occupy eight proved affine templates, giving a
+direct floor of `158,783,488` vectors per engine. The router excludes no
+survivor.
+
+#### CR-E1-E15-TWO-PROFILE-CENSUS: exact actual-vector route decision
+
+**Status:** COMPLETE PASS. The census is source-pinned; no rerun is authorized.
+
+Run the exact E15 router's eight three-odd affine templates through two
+independent engines. The primary engine uses folded oriented chords; the audit
+engine directly multiplies in `Z[x]/(x^128+1)`. Each covers
+`8*binom(124,3)*64=158,783,488` vectors. Record exact profile and conductor
+counts and retain every full-conductor vector for a separately priced norm
+decision. This census alone proves no endpoint exclusion.
+
+Use eight one-CPU, 256 MiB workers with 60-second task caps and checkpoint
+after every return. The completed same-size E19 campaign puts conservative
+wall time below two minutes and cost below `$0.03`. The prepared checker
+reconstructs every retained vector by direct negacyclic multiplication and
+checks source hashes, atlas coverage, conductor, profiles, engine equality,
+and one hostile mutation.
+
+PASS authorizes an exact norm campaign only if the retained primitive set is
+small enough to keep its own conservative cost below `$0.10`. FAIL returns to
+the engine or atlas derivation. INCOMPLETE retains partial rows as evidence
+only and authorizes no automatic retry.
+
+Modal app `ap-xIQLyhRtHtlRxbQkOIS7Yp` completed all eight templates. The two
+engines agree row by row after `158,783,488` vectors each. In profile order
+`(3,3),(2,1,1)`, actual counts are `[258,36]`, full-conductor counts are
+`[64,0]`, and proper-conductor counts are `[194,36]`. Thus 294 actual vectors
+reduce to 64 retained full-conductor representatives; the second profile is
+entirely proper-conductor. Aggregate dual worker time was 52.945 seconds. The
+independent checker reproduces every retained vector and rejects one mutation.
+
+#### CR-E1-E15-TWO-PROFILE-NORMS: exact endpoint decision
+
+**Status:** COMPLETE PASS. Both profiles and V=30 are closed; no rerun is authorized.
+
+Compute `abs(Res(g,x^128+1))` for all 64 full-conductor E15 vectors in one
+FLINT engine and one PARI/GP engine. Record exact powers of two and odd parts,
+because the pair-feasible row prime is odd and exceeds `2^250`. Use two
+one-CPU, 256 MiB Modal tasks with 60-second caps. The E16 calibration puts
+conservative cost below `$0.01`.
+
+PASS requires exact engine agreement, positive norms, and every odd part below
+`2^250`. FAIL produces a candidate norm witness. INCOMPLETE is evidence only
+and authorizes no automatic retry.
+
+Modal app `ap-4c65PlujVH2D5kNI12Bcac` completed both engines. They agree on
+all 64 vectors and 28 distinct norms. The exact whole-norm maximum is
+
+```text
+3003171528471974836716922425205211633163258783488230570091067301168069285892
+```
+
+and 32 whole norms reach `2^250`. Their exact 2-adic reductions have maximum
+odd part
+
+```text
+1263041506267492322130816623667822529962454800313964008196082776100356004097
+```
+
+with `odd_max<2^250<2*odd_max`. There are zero odd-part threshold hits. The
+independent checker reproduces every norm, valuation, profile maximum,
+threshold count, and maximizing index and rejects one mutated engine ledger.
+Both E15 profiles and the V=30 endpoint are therefore closed; the live
+positive even frontier advances to `V<=28`.

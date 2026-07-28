@@ -5459,3 +5459,40 @@ live compute requests: none for E16; never rerun V>=32
 next route-deciding action: derive and price the exact cutoff-free E15/V30
                             router before authorizing any census
 ```
+
+**2026-07-28, E15 cutoff-free route and V=30 endpoint close:** odd diameter
+parity reduces the chamber to the three-odd atlas. A complete dual census, the
+proper-conductor theorem, and dual exact odd-part resultants close both
+surviving profiles.
+
+```text
+starting local pin: 8b7dca21
+canonical prize pin: 82e5f4c4
+upstream main pin: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
+node attacked: N=256, folded profile (3,4,0), V=30 (E=15)
+reduction app: ap-4uZGK1UWEjeAnhVm6de5UE
+slack result: L<=9; exactly three energy profiles
+majorant policy: not invoked
+parity result: (6,0,1) rejected; two three-odd survivors
+light atlas: 960 normalized supports in eight affine templates
+coverage per engine: 8*binom(124,3)*64=158,783,488 vectors
+census app: ap-xIQLyhRtHtlRxbQkOIS7Yp; dual exact engine agreement;
+            52.945 aggregate dual worker-seconds
+actual profiles: [258,36], total 294
+full conductor: [64,0], total 64
+proper conductor: complementary 230 vectors discharged by theorem
+norm app: ap-4c65PlujVH2D5kNI12Bcac; FLINT/PARI agreement on all 64
+distinct norms: 28
+exact whole-norm maximum: 3003171528471974836716922425205211633163258783488230570091067301168069285892
+whole norms at or above 2^250: 32
+exact odd-part maximum: 1263041506267492322130816623667822529962454800313964008196082776100356004097
+strict odd margin: odd_max<2^250<2*odd_max; odd threshold hits 0
+result: CLOSED; both profiles and the V=30 endpoint are PROVED absent
+live positive even variance frontier: V<=28
+delta-star bracket movement: none; this pays one finite E1 exception chamber
+new assumptions: none
+upstream terminal delta: none; local result is OURS_ONLY
+live compute requests: none for E15; never rerun V>=30
+next route-deciding action: derive and price the exact cutoff-free E14/V28
+                            router before authorizing any census
+```

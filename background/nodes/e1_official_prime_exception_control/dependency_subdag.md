@@ -133,6 +133,11 @@ e1_n256_s16_e16_profile_parity_light_reduction [PROVED]
     --requirement-------------------------------------------> e1_n256_s16_e16_endpoint_exclusion [PROVED]
     --evidence----------------------------------------------> e1_official_prime_exception_control [TARGET]
 
+e1_n256_s16_e15_profile_parity_light_reduction [PROVED]
+    --requirement--> e1_n256_s16_e15_two_profile_exclusion [PROVED]
+    --requirement-------------------------------------------> e1_n256_s16_e15_endpoint_exclusion [PROVED]
+    --evidence----------------------------------------------> e1_official_prime_exception_control [TARGET]
+
 e1_official_prime_exception_control [TARGET]
     -> e1_fullness [CONDITIONAL]
 ```
@@ -234,6 +239,11 @@ conductor removes 510, and dual exact resultants put every one of 178
 full-conductor odd norm parts below `2^250`. The E16 endpoint closes `V=32`
 and advances the frontier to `V<=30`, still as evidence rather than a
 universal close.
+The cutoff-free E15 reduction leaves two profiles on eight templates.
+Independent censuses find 294 vectors, conductor removes 230, and dual exact
+resultants put every one of 64 full-conductor odd norm parts below `2^250`.
+The E15 endpoint closes `V=30` and advances the frontier to `V<=28`, still as
+evidence rather than a universal close.
 The proper-conductor theorem also removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing

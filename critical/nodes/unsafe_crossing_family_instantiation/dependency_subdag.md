@@ -261,3 +261,8 @@ Independent complete censuses find 688 vectors, two routed profiles are
 exactly empty, conductor removes 510, and exact odd norm parts close the 178
 full-conductor representatives; the E16 endpoint closes `V=32` and advances
 the frontier to `V<=30`, still as evidence only.
+The proved cutoff-free E15 reduction leaves two profiles on eight templates.
+Independent complete censuses find 294 vectors, conductor removes 230, and
+exact odd norm parts close the 64 full-conductor representatives; the E15
+endpoint closes `V=30` and advances the frontier to `V<=28`, still as evidence
+only.

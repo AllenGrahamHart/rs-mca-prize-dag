@@ -137,8 +137,10 @@ norms. At `V=38`, four profiles on eight templates close by dual
 `V=34`, five profiles on 111 templates close by dual 2,203,120,896-vector
 censuses, conductor, and exact odd norm parts. At `V=32`, four profiles on 154
 templates close by dual 3,056,582,144-vector censuses, conductor, and exact
-odd norm parts; two routed profiles are exactly empty. Derive and price the
-exact `V=30` router. Do not rerun any `V>=32` campaign.
+odd norm parts; two routed profiles are exactly empty. At `V=30`, two profiles
+on eight templates close by dual 158,783,488-vector censuses, conductor, and
+exact odd norm parts. Derive and price the exact `V=28` router. Do not rerun
+any `V>=30` campaign.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
 the 2-adic singleton screen and test its 419 exact cofactors directly; do not
