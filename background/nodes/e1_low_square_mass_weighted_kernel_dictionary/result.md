@@ -12,7 +12,7 @@ prize rate-`1/8` row, the largest remaining multiplicity is the
 1873053318886373426584792000465260242.
 ```
 
-Consequently at most 66,866 oriented low-mass kernel vectors is a simple
+Consequently at most 69,541 oriented low-mass kernel vectors is a simple
 sufficient condition for the open pair budget. The exact weighted condition
 is weaker and remains the preferred target. No official vector count is
 proved here.

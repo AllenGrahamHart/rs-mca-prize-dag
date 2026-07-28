@@ -33,6 +33,22 @@ The exact cofactor bounds then collapse as follows:
   `m=2^mu(1+256t)<2^17`. There are exactly `419` resulting
   cofactor values.
 
+On a prize-envelope row, the exact field floor sharpens the second line to
+
+```text
+m<=floor(18^64/(B_P 2^128))=2013.
+```
+
+There are then exactly eight possible `(4,2,0)` cofactors:
+
+```text
+mu=1:  2, 514, 1026, 1538;
+mu=2:  4, 1028;
+mu=4:  16;
+mu=8:  256;
+mu=16: none.
+```
+
 In particular, the square-mass-16 profile has only five possible cofactors,
 not every integer below 64. This is a necessary norm shape, not a proof that
 the odd norm part is prime or lies in a live interval.

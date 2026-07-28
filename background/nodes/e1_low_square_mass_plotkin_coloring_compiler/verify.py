@@ -35,19 +35,19 @@ ROWS = (
      1146852336572689151906730465296195854216377730651578907904,
      317494674775468773183020924238786383963,
      54730211038721500, 3612193928555619000,
-     317494674775468776604028242834763517703, 116,
-     35712526268255974159379339912208386438781917770706964119574629107623252261),
+     317494674775468776604028242834763517703, 114,
+     36339061816821868442877223068562919534199144398263226647988219091967519844),
     ("prize 1/8", 256, 33,
      38001322036274275320505631960233903602944,
      317494674775468773183020924238786383963,
-     3, 102, 372561980747787012946133646668959839245, 52,
-     62622678770648913918718317914905517790930),
+     3, 102, 372561980747787012946133646668959839245, 50,
+     65127585921474870475467050631501738502567),
     ("prize 1/16", 512, 33,
      3413962861332812601133559951042096138635313539480064,
      317494674775468773183020924238786383963,
      316259390691, 10752819283494,
-     317494674775514892450411471699202449213, 64,
-     573589463880641840437695913758879780711186889526196156445743653),
+     317494674775514892450411471699202449213, 62,
+     592092349812275448193750620654327515572838079510912161492380545),
 )
 
 
@@ -73,7 +73,8 @@ def main() -> None:
         assert cap * budget < K, name
         assert (c_max + 1) * (ell + 1) * budget >= K, name
         assert image_floor > budget, name
-        d0 = 16 if N == 256 else 4
+        is_prize = name.startswith("prize")
+        d0 = (18 if N == 256 else 6) if is_prize else (16 if N == 256 else 4)
         C = 2 * ell + 2 - d0
         edge_cap = (K * K - 1 - budget * (ell + 1) * K) // (budget * C)
         denominator = (ell + 1) * K + C * edge_cap
@@ -99,6 +100,7 @@ def main() -> None:
         ("allowance_statement_file", "allowance_statement_sha256"),
         ("class_count_proof_file", "class_count_proof_sha256"),
         ("norm_radius_statement_file", "norm_radius_statement_sha256"),
+        ("prize_floor_statement_file", "prize_floor_statement_sha256"),
     ):
         assert sha256(ROOT / pins[file_key]) == pins[hash_key]
         checks += 1
@@ -112,7 +114,8 @@ def main() -> None:
     assert nodes[PAIR_TARGET]["status"] == "TARGET"
     for supplier in ("acl_count", "e1_clean_anchor_exact_collision_allowance",
                      "e1_collision_square_mass_reparametrization",
-                     "e1_prime_field_l2_norm_collision_radius"):
+                     "e1_prime_field_l2_norm_collision_radius",
+                     "e1_prize_field_floor_even_norm_exclusion"):
         assert (supplier, NODE, "req") in edges
         checks += 1
     assert (NODE, TARGET, "ev") in edges
@@ -126,7 +129,7 @@ def main() -> None:
     print(
         "E1_LOW_SQUARE_MASS_PLOTKIN_COLORING_COMPILER_PASS "
         f"rows={len(ROWS)} tight_colors=3 tight_fiber_cap=102 "
-        "tight_edge_ratio_lt=1.648 checks=" + str(checks)
+        "tight_edge_ratio_lt=1.714 checks=" + str(checks)
     )
 
 

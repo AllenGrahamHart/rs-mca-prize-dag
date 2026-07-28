@@ -2,5 +2,7 @@
   "prime_field_file": "background/nodes/e1_pair_feasible_prime_field_reduction/statement.md",
   "prime_field_file_sha256": "f7b5ea3463c6b9101b854191a498015fedc89d1bf4a5a0c28b2b2f8b71157e7b",
   "two_adic_file": "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/statement.md",
-  "two_adic_file_sha256": "1256e3e5e71549710cf9f29717d908543b3706ac289477e421142e0f3a8fcda8"
+  "two_adic_file_sha256": "1256e3e5e71549710cf9f29717d908543b3706ac289477e421142e0f3a8fcda8",
+  "prize_floor_file": "background/nodes/e1_prize_field_floor_even_norm_exclusion/statement.md",
+  "prize_floor_file_sha256": "39bebf1adf9b5adc80d8f34ba3f9bffaaff8a2eb14498385ebc1549289ce2f8f"
 }

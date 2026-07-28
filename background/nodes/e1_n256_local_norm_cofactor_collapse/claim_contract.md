@@ -6,6 +6,8 @@
   `p=1 mod 256`;
 - `e1_n256_2adic_cofactor_collision_exclusion`, including the exact
   valuation and cofactor bounds;
+- `e1_prize_field_floor_even_norm_exclusion`, for the prize-specific field
+  floor used to reduce 419 `(4,2,0)` cofactors to eight;
 - the explicit cyclotomic case of local reciprocity over `Q_2`.
 
 ## Output
@@ -22,6 +24,8 @@ cofactors therefore have the exact forms printed in `statement.md`.
    pair-feasible prime-field branch.
 4. The five square-mass-16 cofactor values are necessary, not sufficient.
 5. No primality or interval membership of the odd norm part is asserted.
+6. The eight-element refinement applies only to prize-envelope rows. The
+   419-element set remains the valid RowC interface.
 
 ## Falsifier
 

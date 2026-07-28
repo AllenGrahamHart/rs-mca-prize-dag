@@ -4,6 +4,7 @@
 e1_pair_feasible_prime_field_reduction [PROVED] ------+
                                                        +--req-->
 e1_n256_2adic_cofactor_collision_exclusion [PROVED] --+
+e1_prize_field_floor_even_norm_exclusion [PROVED] -----+
     e1_n256_local_norm_cofactor_collapse [PROVED]
 
 e1_n256_local_norm_cofactor_collapse [PROVED]

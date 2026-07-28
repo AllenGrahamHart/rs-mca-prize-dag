@@ -30,15 +30,15 @@ def main() -> None:
     assert "`chi(G_p(33))<=3`" in statement
     assert "bypasses `P<=K-B*-1`" in contract
     assert "status:** TARGET" in target_statement
-    assert "62622678770648913918718317914905517790930" in pair_statement
+    assert "65127585921474870475467050631501738502567" in pair_statement
     checks += 4
 
     # Independent tight-row boundary replay.
     ell = 33
     K = 38001322036274275320505631960233903602944
     budget = 317494674775468773183020924238786383963
-    C = 52
-    edge_cap = 62622678770648913918718317914905517790930
+    C = 50
+    edge_cap = 65127585921474870475467050631501738502567
     assert budget * ((ell + 1) * K + C * edge_cap) < K * K
     assert budget * ((ell + 1) * K + C * (edge_cap + 1)) >= K * K
     assert 3 * K // 2 <= edge_cap

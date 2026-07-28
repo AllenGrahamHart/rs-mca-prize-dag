@@ -68,9 +68,11 @@ def main() -> None:
         assert (supplier, NODE, "req") in edges
         checks += 2
     assert (NODE, DICTIONARY, "req") in edges
+    assert (NODE, "e1_low_square_mass_plotkin_coloring_compiler", "req") in edges
+    assert (NODE, "e1_n256_local_norm_cofactor_collapse", "req") in edges
     assert (NODE, TARGET, "ev") in edges
     assert (NODE, TARGET, "req") not in edges
-    checks += 5
+    checks += 7
 
     print(
         "E1_PRIZE_FIELD_FLOOR_EVEN_NORM_EXCLUSION_PASS "

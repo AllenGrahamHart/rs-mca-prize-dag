@@ -314,16 +314,16 @@ prove the row-specific low-mass collision-graph color caps. The binding
 prize rate-`1/8` obligation is `chi(G_p(33))<=3` for `S<=66`; it gives fiber
 cap 102 and a direct image above `B*`.
 The preferred weaker premise is the exact low-mass pair budget. On that same
-row it allows `62622678770648913918718317914905517790930` edges, about
-`1.648K`; a maximum-degree-three theorem suffices and need not three-color the
+row it allows `65127585921474870475467050631501738502567` edges, about
+`1.714K`; a maximum-degree-three theorem suffices and need not three-color the
 graph.
 The exact folded-vector form is
 `E_low=(1/2)sum_d M_33(a(d),b(d))`; the simple stronger binding-row target is
-at most 66,866 oriented low-mass vectors. The prize field floor removes every
+at most 69,541 oriented low-mass vectors. The prize field floor removes every
 `S=16` profile first, so `(4,2,S=18)` is the leading live weight. Existing
 orbit counts must restore orientation, stabilizers, and these class-pair
 weights.
-Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
-cofactor classes. Do not rerun any `V>=26`
+Alternatively attack the still broad `(4,2,0)` profile through its eight
+exact prize cofactor classes (419 on RowC). Do not rerun any `V>=26`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
 safe predecessor relocates the candidate threshold immediately.

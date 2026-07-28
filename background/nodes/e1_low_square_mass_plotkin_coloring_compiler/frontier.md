@@ -7,7 +7,7 @@ sufficient route.
 For the binding prize rate-`1/8` row, prove
 
 ```text
-E_low <= 62622678770648913918718317914905517790930.
+E_low <= 65127585921474870475467050631501738502567.
 ```
 
 A uniform maximum-degree-three theorem is sufficient and is weaker than the

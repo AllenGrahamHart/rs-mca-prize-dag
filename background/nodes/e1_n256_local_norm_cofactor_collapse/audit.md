@@ -26,6 +26,10 @@ The run completed in 0.177 seconds of container work. It is not load-bearing.
 The local verifier checks all cofactor ranges and mutation-controls the
 congruence filter. No broad support or norm census is claimed.
 
+The prize-specific refinement is exact integer arithmetic:
+`floor(18^64/(B_P 2^128))=2013`. Intersecting this with the existing local
+valuation classes leaves eight cofactors. It does not alter the RowC atlas.
+
 Follow-up run `ap-LBruvVXqSS0uA8jYvFIgZV` computed the exact odd
 part of the full-conductor variance-36 witness:
 

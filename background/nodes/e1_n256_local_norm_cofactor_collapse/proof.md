@@ -63,3 +63,20 @@ mu=16: t=0.
 ```
 
 The number of candidate cofactors is `256+128+32+2+1=419`.
+
+For a prize-envelope row, `p>=B_P 2^128` and the L2 norm bound gives
+`R<=18^64` in profile `(4,2,0)`. Hence
+
+```text
+m=R/p <= floor(18^64/(B_P 2^128))=2013.              (4)
+```
+
+Intersecting (4) with `m=2^mu(1+256t)` gives
+
+```text
+mu=1: 0<=t<=3,        mu=2: 0<=t<=1,
+mu=4: t=0,            mu=8: t=0,
+mu=16: no value.
+```
+
+Substitution gives exactly the eight values in `statement.md`.

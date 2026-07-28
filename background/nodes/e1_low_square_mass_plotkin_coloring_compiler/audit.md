@@ -11,8 +11,9 @@
 - The prize rate-`1/8` value `c_max=3` is binding for this route: the verifier
   confirms that four colors are not certified by the same argument.
 - No graph coloring, row payload, or prize endpoint is claimed here.
-- The aggregate compiler uses the proved minimum collision masses 16 and 4;
-  replacing them by zero would weaken the constants but not the method.
+- The aggregate compiler uses minimum collision masses 16 and 4 on RowC and
+  the exact prize-specific refinements 18 and 6. The verifier prevents these
+  row types from being conflated.
 - Every aggregate edge is an unordered class pair. Galois-normalized vectors
   cannot be substituted without their exact class-pair multiplicities.
 - The `-1` in the exact `E_max` numerator preserves strict `|image|>B*`.

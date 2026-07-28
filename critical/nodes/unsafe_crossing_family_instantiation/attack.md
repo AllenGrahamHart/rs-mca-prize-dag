@@ -156,19 +156,19 @@ three-color invariant suffices. Falsify first with a certified `K_4` or other
 four-chromatic subgraph; do not resume `V=24` while this route is live.
 
 Prefer the weaker `e1_official_low_square_mass_pair_budget`: on the binding
-row, total `S<=66` collision pairs may be as large as about `1.648K`.
+row, total `S<=66` collision pairs may be as large as about `1.714K`.
 Maximum degree three already pays this budget. Count actual unordered class
 pairs and their common-coordinate multiplicities; normalized kernel vectors
 alone are not the currency.
 
 The proved `e1_low_square_mass_weighted_kernel_dictionary` now makes that
 currency exact. On the binding row, prove the weighted oriented-vector sum,
-or the stronger simple cap of 66,866 oriented low-mass folded kernel vectors.
+or the stronger simple cap of 69,541 oriented low-mass folded kernel vectors.
 The prize field floor first removes every `S=16` profile, leaving
 `(4,2,S=18)` as the leading weight. Restore every surviving orbit's
 orientation, stabilizer, and class-pair multiplicity exactly.
 
-The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
-the 2-adic singleton screen and test its 419 exact cofactors directly; do not
-scan an arbitrary interval. Later bands `N=256,s>=6` and `N=512,s>=3` remain
-part of the universal target.
+The still broad `(4,2,0)` profile is the alternative first-band lane. On
+prize rows apply the 2-adic singleton screen and its eight exact cofactors;
+RowC retains 419. Do not scan an arbitrary interval. Later bands
+`N=256,s>=6` and `N=512,s>=3` remain part of the universal target.

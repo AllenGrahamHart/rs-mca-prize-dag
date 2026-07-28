@@ -6,5 +6,7 @@
   "class_count_proof_file": "critical/nodes/acl_count/proof.md",
   "class_count_proof_sha256": "968ceb1077d15c6f6e302deabffe8b291eb95ec54ca69375e2b0c4bfb8aa5846",
   "norm_radius_statement_file": "background/nodes/e1_prime_field_l2_norm_collision_radius/statement.md",
-  "norm_radius_statement_sha256": "ed607ee0d843c1f2c74c79129d19ef8d52be96ba2a8ceb77d35014f95d852995"
+  "norm_radius_statement_sha256": "ed607ee0d843c1f2c74c79129d19ef8d52be96ba2a8ceb77d35014f95d852995",
+  "prize_floor_statement_file": "background/nodes/e1_prize_field_floor_even_norm_exclusion/statement.md",
+  "prize_floor_statement_sha256": "39bebf1adf9b5adc80d8f34ba3f9bffaaff8a2eb14498385ebc1549289ce2f8f"
 }

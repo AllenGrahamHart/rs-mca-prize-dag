@@ -5663,10 +5663,11 @@ fiber-by-fiber gives an exact second-moment compiler.
 additional open node: e1_official_low_square_mass_pair_budget
 per-fiber inequality: r_y^2 <= (ell+1)r_y + C e_y
 global inequality: sum_y r_y^2 <= (ell+1)K + C E_low
-C: 52 at N=256,ell=33; 116 at N=256,ell=65; 64 at N=512,ell=33
+C on RowC: 52 at N=256,ell=33; 116 at N=256,ell=65; 64 at N=512,ell=33
+C on prize rows after field floor: 50, 114, 62 respectively
 binding prize-rate-1/8 E_low cap:
-  62622678770648913918718317914905517790930
-relative cap: approximately 1.647907899 K
+  65127585921474870475467050631501738502567
+relative cap: approximately 1.713824215 K
 simple sufficient theorem: maximum low-mass collision degree <=3
 comparison: degree <=2 pays both coloring and pair-budget routes; degree <=3
             pays the preferred pair-budget route
@@ -5690,7 +5691,7 @@ M_ell: exact ordered class-pair multiplicity of one oriented folded vector
 binding eligible profiles after prize field floor: 271
 binding maximum-weight live profile: (a,b,S)=(4,2,18)
 binding maximum live weight: 1873053318886373426584792000465260242
-uniform sufficient oriented-vector cap: |D_p(33)|<=66866
+uniform sufficient oriented-vector cap: |D_p(33)|<=69541
 preferred target: the weaker exact profile-weighted sum, not the uniform cap
 orbit guard: restore orientation, stabilizers, and M_ell after normalization
 status movement: none; dictionary PROVED, pair budget remains TARGET
@@ -5702,6 +5703,20 @@ This removes the previous ambiguity between normalized relation vectors and
 actual class-pair edges. The subsequent proved prize-field-floor exclusion
 uses `p>2^255` and norm parity to delete `S<=16` at `N=256` and `S<=4` at
 `N=512`; RowC is unchanged. It also improves the stopping rule for a future
-binding-row census: 66,866 oriented vectors suffices under worst-case live
+binding-row census: 69,541 oriented vectors suffices under worst-case live
 weights, while larger inventories can still pay through the exact weighted
 ledger.
+
+**Same-day leading-profile cofactor sharpening:** combining the existing
+local-reciprocity theorem with the exact prize lower endpoint gives
+
+```text
+leading binding profile: (4,2,S=18)
+norm bound: R<=18^64
+prize cofactor bound: m=R/p<=2013
+local form: m=2^mu(1+256t), mu in {1,2,4,8,16}
+exact prize cofactors: {2, 514, 1026, 1538, 4, 1028, 16, 256}
+atlas contraction: 419 -> 8 on prize rows
+RowC: unchanged at 419
+next action: price the eight prize classes before any broad support census
+```

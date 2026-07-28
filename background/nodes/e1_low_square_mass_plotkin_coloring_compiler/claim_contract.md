@@ -17,7 +17,9 @@ largest integers for which this also forces more than `B*` values.
 - `e1_collision_square_mass_reparametrization` proves that pairwise square
   mass is even and is the correct class-difference coordinate.
 - `e1_prime_field_l2_norm_collision_radius` supplies `d0=16` at `N=256` and
-  `d0=4` at `N=512`.
+  `d0=4` at `N=512` for RowC.
+- `e1_prize_field_floor_even_norm_exclusion` sharpens the prize values to
+  `d0=18` and `d0=6`.
 - `e1_clean_anchor_exact_collision_allowance` supplies the exact `K,B*`
   values and the direct-image payload criterion.
 
@@ -31,6 +33,7 @@ largest integers for which this also forces more than `B*` values.
 5. The open coloring node must cover every row assigned to this supplier.
 6. `E_low` counts unordered class pairs, not coefficient vectors or Galois
    orbits.
+7. The sharpened `d0` values are prize-specific and cannot be used for RowC.
 
 ## Falsifier
 

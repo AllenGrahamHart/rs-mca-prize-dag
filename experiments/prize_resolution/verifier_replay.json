@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_prize_field_floor_even_norm_exclusion/verify.py",
-      "seconds": 0.184777,
+      "script": "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/verify.py",
+      "seconds": 0.070204,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_PRIZE_FIELD_FLOOR_EVEN_NORM_EXCLUSION_PASS n256_mass_cap=16 n512_mass_cap=4 checks=98930\n"
+      "stdout_tail": "E1_LOW_SQUARE_MASS_PLOTKIN_COLORING_COMPILER_PASS rows=6 tight_colors=3 tight_fiber_cap=102 tight_edge_ratio_lt=1.714 checks=2297\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_prize_field_floor_even_norm_exclusion/verify_audit.py",
-      "seconds": 0.087033,
+      "script": "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/verify_audit.py",
+      "seconds": 0.055884,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_PRIZE_FIELD_FLOOR_EVEN_NORM_EXCLUSION_AUDIT_PASS rowc_mutation=1 checks=12\n"
+      "stdout_tail": "E1_LOW_SQUARE_MASS_PLOTKIN_COLORING_COMPILER_AUDIT_PASS checks=129\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

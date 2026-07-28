@@ -53,8 +53,9 @@ floor, strict inequality, and one-color-too-many boundary.
 
 Fix one complete E1 fiber of size `r`, and let `e` be its number of pairs with
 `S<=2ell`. Every other pair has even square mass at least `2ell+2`. The norm
-floor gives every colliding pair square mass at least `d0`, where `d0=16` for
-`N=256` and `d0=4` for `N=512`. Therefore
+floor gives every RowC colliding pair square mass at least `d0`, where
+`d0=16` for `N=256` and `d0=4` for `N=512`. The prize-field-floor theorem
+sharpens these to 18 and 6 on prize rows. Therefore
 
 ```text
 sum_{i<j} S(x_i,x_j)

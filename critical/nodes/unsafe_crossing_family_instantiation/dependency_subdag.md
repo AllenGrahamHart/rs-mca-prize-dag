@@ -110,7 +110,8 @@ singleton-reduction multiplicity bounds `5` and `16` in the two profiles.
 The square-mass-16 residual additionally has signed repeated-chord cross sum
 at most `-24`, so every remaining support has a three-term or
 parallelogram relation. Its collision cofactor is exactly `2^mu` for
-`1<=mu<=5`; the other profile has 419 explicit cofactor values.
+`1<=mu<=5`; the other profile has 419 explicit RowC cofactor values and only
+eight on prize rows after spending the exact field floor.
 
 At `V=68`, the quotient reduction leaves three `L=20` profiles and the parity
 child removes two of them. The sole residual is `(6,7)`, whose six
