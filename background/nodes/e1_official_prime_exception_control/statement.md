@@ -129,6 +129,12 @@ engines find 574 profile vectors, including 136 at full conductor. The
 conductor theorem removes the other 438; independent FLINT/PARI norms put
 every full-conductor norm below `2^250`. Thus `V=38` is empty and the live
 positive even frontier is `V<=36`.
+At `V=36`, cutoff-free slack and parity leave six profiles on 1,321
+two/six-odd affine templates. Independent 26,219,123,456-vector engines find
+6,712 profile vectors, including 2,994 at full conductor. The conductor
+theorem removes the other 3,718. Six full-conductor whole norms reach
+`2^250`, but independent FLINT/PARI ledgers put every odd norm part below
+`2^250`. Thus `V=36` is empty and the live positive even frontier is `V<=34`.
 At `N=512,s=2`, exact variance
 excludes
 `(0,4,0)` and the complete interval-resultant certificate excludes `(1,2,0)`.

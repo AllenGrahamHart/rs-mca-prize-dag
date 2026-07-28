@@ -5314,3 +5314,34 @@ new assumptions: none
 route decision: derive the exact cutoff-free E18 (V=36) router and price its
                 actual-vector residue. Never rerun V>=38.
 ```
+
+**2026-07-28, E18 cutoff-free route and V=36 endpoint close:** even diameter
+parity reduces the chamber to the two/six-odd atlases. The whole-norm cutoff
+fails for the first time, but the exact odd-part criterion closes the residue.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=36 (E=18)
+reduction app: ap-YxeY4JsxalEEMItNl8DQOC
+slack result: L<=12; exactly seven energy profiles
+majorant policy: not invoked
+parity result: (9,0,1) rejected; six two/six-odd survivors
+light atlas: 288,888 normalized supports in 87+1234=1,321 templates
+coverage per engine: 1321*binom(124,3)*64=26,219,123,456 vectors
+census app: ap-87cpQMjvYyW2nYdoZpL6Uz; dual exact engine agreement;
+            7,712.034 aggregate dual worker-seconds
+actual profiles: [2410,3096,842,208,4,152], total 6,712
+full conductor: [1100,1622,226,18,0,28], total 2,994
+proper conductor: complementary 3,718 vectors discharged by theorem
+superseded norm diagnostic: ap-u5Kj4NOzDFQPwSB1TLUNdT
+final norm app: ap-k5DWA74ZUKZK3N03ngNeEP; FLINT/PARI agreement on all 2,994
+distinct norms: 895
+exact whole-norm maximum: 3244660049331064070204285700733501169431397018164712582311239362105072116226
+whole norms at or above 2^250: 6 (strong shortcut REFUTED)
+exact odd-part maximum: 1622330024665532035102142850366750584715698509082356291155619681052536058113
+strict odd margin: odd_max<2^250<2*odd_max; odd threshold hits 0
+result: all six profiles CLOSED; V=36 endpoint CLOSED
+live positive even variance frontier: V<=34
+new assumptions: none
+route decision: derive the exact cutoff-free E17 (V=34) router and price its
+                actual-vector residue. Never rerun V>=36.
+```
