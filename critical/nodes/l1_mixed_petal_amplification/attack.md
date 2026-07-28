@@ -726,3 +726,10 @@
   from the odd/even common factor and is not valid in the first two
   chambers. Intersect this smallest chamber with the proved `h=7` conic
   first.
+
+- That intersection is now
+  `l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction`.
+  Replace the two-antipodal conic packet by the printed degree-eight
+  polynomial `F(d)` and test its gcd with `X^(p+1)-zeta` for the eight
+  colors on each official row. This is 32 tiny gcd packets, not a generic
+  elimination. Keep the collision-free and one-repeat chambers separate.

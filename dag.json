@@ -19549,6 +19549,23 @@
    "notes": "Exact degree-two router, not an emptiness theorem. The two-antipodal chamber has one additional scalar equation; collision-free and one-repeat chambers remain independent."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one quadratic two-pair univariate reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In the two-antipodal-pair quadratic color chamber, eliminating r=rho*c between the collision equation and the h=7 conic gives the fixed degree-eight polynomial F(d)=5d^8+10d^7-180d^6+672d^5+2862d^4-15516d^3+8199d^2-44172d+4860. Closure reduces to 32 degree-eight norm-color gcds.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/verify.py"
+   ],
+   "notes": "Exact univariate reduction only. The 32 gcd verdicts are unrun because Modal is spend-blocked; other quadratic collision patterns and all inner conditions remain open."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -35959,6 +35976,21 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_quadratic_collision_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_quadratic_collision_router",
+   "to": "l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

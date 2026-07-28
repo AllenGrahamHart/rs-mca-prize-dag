@@ -7538,6 +7538,30 @@ the outer stage into exactly two low-dimensional tasks.
   `t in F_p` packet. The only `h=7` elimination request is now
   `t notin F_p`.
 
+  **Cheap exact request CR-L1-H7-Q2-PAIR:** consume
+  `l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction`.
+  In the quadratic color chamber with two antipodal repeated pairs, use
+
+  ```text
+  F(X)=5X^8+10X^7-180X^6+672X^5+2862X^4
+       -15516X^3+8199X^2-44172X+4860.
+  ```
+
+  For each of the four official primes, construct `F_(p^2)` explicitly,
+  enumerate `zeta in mu_8`, and return
+
+  ```text
+  gcd(F(X),X^(p+1)-zeta)
+  ```
+
+  with monic factors and witnesses. There are exactly 32 degree-eight
+  packets; modular exponentiation must reduce after every multiplication.
+  Independently replay any nonunit gcd by substituting its roots into the
+  conic and `r=-192/(18+X-X^2)`. A unit result in all 32 packets closes only
+  the two-antipodal quadratic chamber. This should cost far below one dollar,
+  but no launch is authorized while the current Modal workspace reports its
+  spend limit exceeded.
+
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
 

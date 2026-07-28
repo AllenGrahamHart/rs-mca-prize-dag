@@ -6608,3 +6608,22 @@ open h=7 degree-two residue: six colors; one repeat; or the printed
 next route-deciding action: intersect the two-antipodal equation with the
                               h=7 conic, then classify its finite components
 ```
+
+**2026-07-28, L1 h=7 two-antipodal chamber made univariate:** eliminating
+`rho*c` produces one fixed degree-eight polynomial and a finite norm-color
+audit.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction
+collision equation: r=-192/(18+d-d^2)
+univariate endpoint:
+  F(d)=5d^8+10d^7-180d^6+672d^5+2862d^4
+       -15516d^3+8199d^2-44172d+4860
+torsion endpoint: gcd(F(X),X^(p+1)-zeta), zeta in mu_8
+packet count: 4 rows * 8 colors = 32 degree-eight gcds
+DAG delta: one PROVED background node and three edges; no critical status flip
+compute spend: none; Modal workspace remains spend-blocked
+open packet: exact gcd verdicts, recorded as CR-L1-H7-Q2-PAIR
+next route-deciding action: run the cheap gcd packet when Modal is available;
+                              meanwhile attack one-repeat quadratic colors
+```
