@@ -50,7 +50,7 @@ and in how narrow the residuals get. Report the census as a datum, once, and mov
 - **READINESS GATES SUBMISSION, NOT TRIAGE** (maintainer ruling 2026-07-27,
   supersedes the ledger's E-1/E-2 serialization and the 2-PR cap): ship a packet
   as soon as it is (a) verified from a clean checkout of the PUSHED branch — not
-  the working tree, (b) subtraction-checked on all four surfaces per hard law 5,
+  the working tree, (b) subtraction-checked on all five surfaces per hard law 5,
   (c) fenced with explicit non-claims. Queue depth and upstream latency are NOT
   reasons to hold. "Better for things to come in quickly even if its a bit
   asynchronous." Risk ordering inside a lane still applies on its own merits.
@@ -224,11 +224,19 @@ to match a reworked PR.
 5. **Subtraction check before EVERY mint — WIDENED 2026-07-27.** The papers are
    NOT enough: PR #1106 was dominated by a theorem living only in a merged
    contributor note, and the miss cost a retracted "ready for review". Search
-   ALL FOUR surfaces before claiming any new statement:
+   ALL FIVE surfaces before claiming any new statement:
    (a) `git -C ../rs-mca grep -i "<keyword>" origin/main -- experimental/proximity_prize_results_v4.tex experimental/grande_finale.tex`
    (b) `git -C ../rs-mca grep -ril "<keyword>" origin/main -- 'experimental/notes/**'` (merged contributor notes — the #1106 blind spot)
    (c) `git -C ../rs-mca show origin/main:experimental/agents-log.md | grep -i "<keyword>"`
    (d) the external canon in `notes/literature_map_20260726/LITERATURE_MAP.md`.
+   (e) **OUR OWN TREE — added 2026-07-28.** All four surfaces above are
+   upstream or external, so the check is blind to what we already said.
+   `grep -rl "<keyword>" --include=*.md critical/ background/ notes/`. At PR
+   #1118 the odd-part reduction was credited to his A3 note and disclaimed as
+   non-novel — correctly — but our OWN frontier note had carried the same
+   observation since wave 24, and I did not notice. Nothing shipped was wrong,
+   yet the provenance was half-blind, and a self-check that never looks at
+   `critical/` cannot catch a claim we already made.
    Compare BOUND STRENGTH and HYPOTHESIS STRENGTH, not just topic: a weaker
    hypothesis with a better constant dominates you even when the statements look
    different (that is exactly what happened at #1106).

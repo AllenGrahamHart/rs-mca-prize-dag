@@ -276,3 +276,27 @@ Dual exact engines then prove every `mu=1` energy from two through six empty,
 excluding `m=1538`. Eleven cofactors remain, with `m=1024,1028` the shortest
 windows through `V=34`. This is a sharper input to the direct-E1 route, not
 yet the required row-uniform edge bound.
+
+**Square-mass reframing — planner pointer, refreshed 2026-07-28.** The
+`(3,4)` variance descent does not exhaust the `S=16` layer: `(2,8)`, `(1,12)`
+and `(0,16)` sit at the same square mass and survive the norm test. See
+`background/nodes/e1_collision_square_mass_reparametrization`, which also
+corrects the planner's overstated "unbounded" wording — at fixed official
+parameters `S<=260` or `S<=132`.
+
+Two things follow, both now executed rather than proposed:
+
+- **The per-endpoint descent is paused.** The consumer asks for the aggregate
+  allowance `P<=K-B*-1`, not for every profile to be collision-free.
+- **`S=16` is gone on prize-envelope rows** by
+  `e1_prize_field_floor_even_norm_exclusion` (`p>2^255`, `|Norm|<=16^64=2^256`,
+  so `|Norm|=p`, contradicting even norm against odd `p`). Prize floors sharpen
+  to `S>=18` / `S>=6`. **RowC is unchanged** at the `2^250` floor, so the
+  `(3,4)` closures stay load-bearing there.
+
+`S=18` is now being cleared by cofactor class rather than by variance endpoint:
+`(4,2,S=18)` is closed outright, and each closure feeds the aggregate ledger —
+it raised the sufficient oriented-vector cap from `69541` to `93962`, with
+`(3,6,S=18)` now the maximum-weight remaining profile.
+
+The node stays `TARGET`. `(4,2,0)`, the swap bands, and `N=512` are untouched.
