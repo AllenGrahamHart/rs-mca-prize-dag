@@ -27,7 +27,16 @@ def energy(state: dict[int, int]) -> tuple[int, tuple[int, ...]]:
     return sum(value * value for value in autocorrelation[1:]), tuple(autocorrelation[1:])
 
 
-def random_state(rng: random.Random) -> dict[int, int]:
+def root_multiplicity(state: dict[int, int]) -> int:
+    exponents = [position for position, value in state.items() if abs(value) == 1]
+    assert len(exponents) == 6
+    for derivative in range(128):
+        if sum((derivative & ~exponent) == 0 for exponent in exponents) % 2:
+            return derivative
+    return 128
+
+
+def random_state(rng: random.Random, target_mu: int) -> dict[int, int]:
     while True:
         positions = rng.sample(range(128), 9)
         values = [2, 2, 2, 1, 1, 1, 1, 1, 1]
@@ -36,14 +45,8 @@ def random_state(rng: random.Random) -> dict[int, int]:
             position: value * rng.choice((-1, 1))
             for position, value in zip(positions, values)
         }
-        if mu_one(state):
+        if root_multiplicity(state) == target_mu:
             return state
-
-
-def mu_one(state: dict[int, int]) -> bool:
-    singleton_exponents = [position for position, value in state.items() if abs(value) == 1]
-    assert len(singleton_exponents) == 6
-    return sum(singleton_exponents) % 2 == 1
 
 
 def mutate(state: dict[int, int], rng: random.Random) -> dict[int, int]:
@@ -72,20 +75,20 @@ def mutate(state: dict[int, int], rng: random.Random) -> dict[int, int]:
 
 
 @app.function(image=image, cpu=1, memory=512, timeout=70, max_containers=16)
-def search(seed: int) -> dict[str, object]:
+def search(seed: int, target_mu: int) -> dict[str, object]:
     rng = random.Random(seed)
     best_energy = 10**9
     best_state: dict[int, int] = {}
     best_autocorrelation: tuple[int, ...] = ()
     iterations = 0
     for restart in range(80):
-        state = random_state(rng)
+        state = random_state(rng, target_mu)
         current, _ = energy(state)
         temperature = 20.0
         for _ in range(25000):
             iterations += 1
             candidate = mutate(state, rng)
-            if not mu_one(candidate):
+            if root_multiplicity(candidate) != target_mu:
                 continue
             candidate_energy, candidate_autocorrelation = energy(candidate)
             delta = candidate_energy - current
@@ -100,6 +103,7 @@ def search(seed: int) -> dict[str, object]:
                 if best_energy <= 6:
                     return {
                         "seed": seed,
+                        "mu": target_mu,
                         "energy": best_energy,
                         "variance": 2 * best_energy,
                         "state": sorted(best_state.items()),
@@ -108,6 +112,7 @@ def search(seed: int) -> dict[str, object]:
                     }
     return {
         "seed": seed,
+        "mu": target_mu,
         "energy": best_energy,
         "variance": 2 * best_energy,
         "state": sorted(best_state.items()),
@@ -117,13 +122,13 @@ def search(seed: int) -> dict[str, object]:
 
 
 @app.local_entrypoint()
-def main(shards: int = 16) -> None:
-    rows = list(search.map(range(shards)))
+def main(shards: int = 16, mu: int = 1) -> None:
+    rows = list(search.starmap((seed, mu) for seed in range(shards)))
     rows.sort(key=lambda row: (int(row["energy"]), int(row["seed"])))
     for row in rows:
         print(row)
     best = rows[0]
     print(
         "E1_PROFILE_36_LOW_ENERGY_SEARCH_DONE "
-        f"shards={shards} best_E={best['energy']} best_V={best['variance']}"
+        f"shards={shards} mu={mu} best_E={best['energy']} best_V={best['variance']}"
     )

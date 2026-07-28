@@ -6015,3 +6015,32 @@ next attack: m=1024 (mu=10) and m=1028 (mu=2), both V<=34
 Modal apps: ap-uv42wkp1cTBp9rokMZmOhz, ap-h8WimpUO8BNNLmCdSdcHi8,
             ap-B2YnLr5w19DoYthf4ZrHVO
 ```
+
+**Same-day sharp product contraction and cofactor-1024 close:** replacing the
+global pointwise logarithmic majorant by the exact fixed-mean/fixed-variance
+product extremum turns both short branches into the existing low-energy
+classification problem.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_sharp_product_window
+moment data: 64 positive values, mean 18, average squared deviation V
+extrema: at most two values, indexed by lower multiplicity j=1,...,63
+exact comparisons: 649 rational chambers for even 14<=V<=34
+tight chamber: (V,j)=(14,63)
+boundary audit: the V=12 envelope remains above the m=1024 floor
+new windows: m=1024,1028 both V in {4,6,8,10,12}
+exact certificate Modal app: ap-VUumIAvKygC1l5swGhdI4j
+
+proved node: e1_prize_n256_s18_profile_36_m1024_exclusion
+cofactor: 1024, hence mu=10
+normalized singleton supports: 10009125
+mu=10 supports: 32256; low-chord supports: 800; affine orbits: 68
+singleton sign assignments: 2176
+low-energy targets: 194816
+dual-agreed heavy supports: 606; exact sign tests: 4848
+verdict: no E=2,...,6 vector; m=1024 excluded
+primary/audit Modal apps: ap-K9JXDDlMQ9euS1aFcApP20,
+                          ap-oC0W1HKzJDE4lP3amswBRW
+remaining profile-(3,6) cofactors: 10
+next attack: m=1028; geometry has an E=5 witness, so test factor 257 exactly
+```

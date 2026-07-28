@@ -1,0 +1,8 @@
+{
+  "parent_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/statement.md",
+  "parent_statement_sha256": "d079a9a3017d3fdf34384b9405efb71039fd58a00d626b48e3bd7b7d1388591e",
+  "parent_proof_file": "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/proof.md",
+  "parent_proof_sha256": "c45377da40ac6c502fbbdbf7fcc763e47a1d11f9b28643f32f113396b4e7d514",
+  "certificate_file": "experiments/prize_resolution/e1_profile_36_variance_product_envelope.py",
+  "certificate_sha256": "0283a5db85c0d9288cc7fefccf9912262b46a98a345df94c63e119c83e85f622"
+}

@@ -1,0 +1,184 @@
+{
+  "affine_orbits": {
+    "10": 68
+  },
+  "engine": "triple-xor",
+  "engine_sha256": "9389dd5f0ae2a1d8c1cd14c1124189dbdc618a8e0a17e2552770b52358ce66e6",
+  "multiplicities": [
+    10
+  ],
+  "orbit_file_sha256": "9492e24744c3464dd7c2e1566c6dbd350f3edfe55f304ac789644c99361324a7",
+  "passed": 24,
+  "rows": [
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=2304 xor_probes=2304 triple_candidates=28 exact_sign_tests=224\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=3328 xor_probes=3328 triple_candidates=44 exact_sign_tests=352\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=3328 xor_probes=3328 triple_candidates=8 exact_sign_tests=64\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=32512 xor_probes=32512 triple_candidates=8 exact_sign_tests=64\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=3328 xor_probes=3328 triple_candidates=4 exact_sign_tests=32\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=17024 xor_probes=17024 triple_candidates=8 exact_sign_tests=64\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=2304 xor_probes=2304 triple_candidates=12 exact_sign_tests=96\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=2304 xor_probes=2304 triple_candidates=60 exact_sign_tests=480\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=5120 xor_probes=5120 triple_candidates=20 exact_sign_tests=160\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=5120 xor_probes=5120 triple_candidates=24 exact_sign_tests=192\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=32000 xor_probes=32000 triple_candidates=64 exact_sign_tests=512\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=18304 xor_probes=18304 triple_candidates=0 exact_sign_tests=0\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=18816 xor_probes=18816 triple_candidates=24 exact_sign_tests=192\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=4608 xor_probes=4608 triple_candidates=16 exact_sign_tests=128\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=3584 xor_probes=3584 triple_candidates=8 exact_sign_tests=64\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=4608 xor_probes=4608 triple_candidates=16 exact_sign_tests=128\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=3328 xor_probes=3328 triple_candidates=26 exact_sign_tests=208\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=2560 xor_probes=2560 triple_candidates=24 exact_sign_tests=192\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=2816 xor_probes=2816 triple_candidates=80 exact_sign_tests=640\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 3,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=3 sign_assignments=96 targets=18816 xor_probes=18816 triple_candidates=16 exact_sign_tests=128\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 2,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=2 sign_assignments=64 targets=3072 xor_probes=3072 triple_candidates=56 exact_sign_tests=448\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 2,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=2 sign_assignments=64 targets=3072 xor_probes=3072 triple_candidates=28 exact_sign_tests=224\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 2,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=2 sign_assignments=64 targets=1280 xor_probes=1280 triple_candidates=20 exact_sign_tests=160\n"
+    },
+    {
+      "mu": 10,
+      "orbits": 2,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=triple-xor orbits=2 sign_assignments=64 targets=1280 xor_probes=1280 triple_candidates=12 exact_sign_tests=96\n"
+    }
+  ],
+  "schema": "e1-profile-36-mu2-mu10-low-energy-exact-result-v1",
+  "shards_per_mu": 24
+}

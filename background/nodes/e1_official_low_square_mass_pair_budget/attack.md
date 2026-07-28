@@ -28,9 +28,11 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
 6. Attack the new maximum-weight profile `(3,6,S=18)` with common-prime
    ideal/resultant constraints or structural emptiness before any broad
    census. Its `m=1538` child is now closed by a dual exact low-energy
-   classifier, leaving eleven cofactors. Attack the distinct `m=1024`
-   (`mu=10`) and `m=1028` (`mu=2`) windows through 34 next. Never count a
-   normalized vector as one edge, and do not rerun any closed cofactor.
+   classifier. The sharp product envelope contracts `m=1024,1028` to
+   `V in {4,6,8,10,12}`, and the dual `mu=10` census closes `m=1024`, leaving
+   ten cofactors. Finish the geometrically nonempty `m=1028` branch by testing
+   factor 257 during the exact low-energy census. Never count a normalized
+   vector as one edge, and do not rerun any closed cofactor.
 7. Falsify with a pinned row and enough exact weighted edges to exceed the
    table, not a single collision vector.
 

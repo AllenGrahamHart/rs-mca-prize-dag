@@ -90,5 +90,9 @@ and two are impossible; a profile-specific logarithmic deficit leaves even
 windows ending at 350 for `m=2`, 68 for `m=512,514`, 34 for `m=1024,1028`,
 and 12 for `m=1538`. A dual exact affine/XOR classification subsequently
 proves every `mu=1` energy from two through six empty, excluding `m=1538`.
-Eleven cofactors remain; `m=1024,1028`, both through `V=34`, are now the
-shortest structural interfaces. No broad support-9 census is authorized.
+The sharp fixed-moment product envelope then contracts both `m=1024,1028`
+branches from `V<=34` to `V in {4,6,8,10,12}`. A dual exact affine/XOR
+census proves the `mu=10` geometry empty and excludes `m=1024`. Ten cofactors
+remain. The sibling `m=1028` geometry is nonempty, so its required factor 257
+must be applied inside the same finite census. No broad support-9 census is
+authorized.
