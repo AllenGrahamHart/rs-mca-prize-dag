@@ -163,8 +163,9 @@ alone are not the currency.
 
 The proved `e1_low_square_mass_weighted_kernel_dictionary` now makes that
 currency exact. On the binding row, prove the weighted oriented-vector sum,
-or the stronger simple cap of 27,520 oriented low-mass folded kernel vectors.
-Import existing profile exclusions as zero weight and restore every orbit's
+or the stronger simple cap of 66,866 oriented low-mass folded kernel vectors.
+The prize field floor first removes every `S=16` profile, leaving
+`(4,2,S=18)` as the leading weight. Restore every surviving orbit's
 orientation, stabilizer, and class-pair multiplicity exactly.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply

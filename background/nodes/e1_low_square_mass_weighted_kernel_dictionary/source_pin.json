@@ -4,5 +4,7 @@
   "norm_radius_statement_file": "background/nodes/e1_prime_field_l2_norm_collision_radius/statement.md",
   "norm_radius_statement_sha256": "ed607ee0d843c1f2c74c79129d19ef8d52be96ba2a8ceb77d35014f95d852995",
   "plotkin_statement_file": "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/statement.md",
-  "plotkin_statement_sha256": "47f92693964f3ab07f18bc439c687fb6b58cb12b2985a9d783c1e78f5238dfa4"
+  "plotkin_statement_sha256": "47f92693964f3ab07f18bc439c687fb6b58cb12b2985a9d783c1e78f5238dfa4",
+  "prize_floor_statement_file": "background/nodes/e1_prize_field_floor_even_norm_exclusion/statement.md",
+  "prize_floor_statement_sha256": "39bebf1adf9b5adc80d8f34ba3f9bffaaff8a2eb14498385ebc1549289ce2f8f"
 }

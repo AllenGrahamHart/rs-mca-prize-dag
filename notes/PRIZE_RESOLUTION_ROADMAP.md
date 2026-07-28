@@ -5687,10 +5687,10 @@ norm and orbit machinery.
 proved node: e1_low_square_mass_weighted_kernel_dictionary
 exact identity: E_low=(1/2) sum_d M_ell(a(d),b(d))
 M_ell: exact ordered class-pair multiplicity of one oriented folded vector
-binding eligible profiles: 275
-binding maximum-weight profile: (a,b,S)=(3,4,16)
-binding maximum weight: 4550972295647251657752808370587724056
-uniform sufficient oriented-vector cap: |D_p(33)|<=27520
+binding eligible profiles after prize field floor: 271
+binding maximum-weight live profile: (a,b,S)=(4,2,18)
+binding maximum live weight: 1873053318886373426584792000465260242
+uniform sufficient oriented-vector cap: |D_p(33)|<=66866
 preferred target: the weaker exact profile-weighted sum, not the uniform cap
 orbit guard: restore orientation, stabilizers, and M_ell after normalization
 status movement: none; dictionary PROVED, pair budget remains TARGET
@@ -5699,6 +5699,9 @@ compute decision: no census launched; first assemble proved zero profiles and
 ```
 
 This removes the previous ambiguity between normalized relation vectors and
-actual class-pair edges. It also gives a stopping rule for any future finite
-census: 27,520 oriented vectors suffices even under worst-case weights, while
-larger inventories can still pay through the exact weighted ledger.
+actual class-pair edges. The subsequent proved prize-field-floor exclusion
+uses `p>2^255` and norm parity to delete `S<=16` at `N=256` and `S<=4` at
+`N=512`; RowC is unchanged. It also improves the stopping rule for a future
+binding-row census: 66,866 oriented vectors suffices under worst-case live
+weights, while larger inventories can still pay through the exact weighted
+ledger.

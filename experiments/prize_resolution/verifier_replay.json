@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/verify.py",
-      "seconds": 0.635721,
+      "script": "background/nodes/e1_prize_field_floor_even_norm_exclusion/verify.py",
+      "seconds": 0.184777,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_LOW_SQUARE_MASS_WEIGHTED_KERNEL_DICTIONARY_PASS rows=6 tight_oriented_cap=27520 checks=2645\n"
+      "stdout_tail": "E1_PRIZE_FIELD_FLOOR_EVEN_NORM_EXCLUSION_PASS n256_mass_cap=16 n512_mass_cap=4 checks=98930\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/verify_audit.py",
-      "seconds": 0.050663,
+      "script": "background/nodes/e1_prize_field_floor_even_norm_exclusion/verify_audit.py",
+      "seconds": 0.087033,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_LOW_SQUARE_MASS_WEIGHTED_KERNEL_DICTIONARY_AUDIT_PASS mutation=1 checks=2645\n"
+      "stdout_tail": "E1_PRIZE_FIELD_FLOOR_EVEN_NORM_EXCLUSION_AUDIT_PASS rowc_mutation=1 checks=12\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

@@ -28,19 +28,19 @@ ROWS = (
      34251385177613611176287134568778412711317979539714751534312745145,
      301, (0, 4, 4), 69817906094980867044033802642511381589872306283912,
      981163346005184),
-    ("prize 1/4", 256, 128, 65, 16, 15,
+    ("prize 1/4", 256, 128, 65, 18, 15,
      35712526268255974159379339912208386438781917770706964119574629107623252261,
-     1090, (3, 4, 16),
-     2899001011559056192880793575925270505545118720240019736,
-     24637815665369571301),
-    ("prize 1/8", 256, 128, 33, 16, 15,
+     1086, (4, 2, 18),
+     1621868867923804840915753105221596984497856637426519762,
+     44038734542050218762),
+    ("prize 1/8", 256, 128, 33, 18, 15,
      62622678770648913918718317914905517790930,
-     275, (3, 4, 16), 4550972295647251657752808370587724056,
-     27520),
-    ("prize 1/16", 512, 256, 33, 4, 4,
+     271, (4, 2, 18), 1873053318886373426584792000465260242,
+     66866),
+    ("prize 1/16", 512, 256, 33, 6, 4,
      573589463880641840437695913758879780711186889526196156445743653,
-     301, (0, 4, 4), 69817906094980867044033802642511381589872306283912,
-     16431013072787),
+     300, (1, 2, 6), 25912134061920884044549116258313478062341656144934,
+     44271881467575),
 )
 
 
@@ -121,6 +121,7 @@ def main() -> None:
         ("square_mass_statement_file", "square_mass_statement_sha256"),
         ("norm_radius_statement_file", "norm_radius_statement_sha256"),
         ("plotkin_statement_file", "plotkin_statement_sha256"),
+        ("prize_floor_statement_file", "prize_floor_statement_sha256"),
     ):
         assert sha256(ROOT / pins[file_key]) == pins[hash_key]
         checks += 1
@@ -135,6 +136,7 @@ def main() -> None:
         "e1_collision_square_mass_reparametrization",
         "e1_prime_field_l2_norm_collision_radius",
         "e1_low_square_mass_plotkin_coloring_compiler",
+        "e1_prize_field_floor_even_norm_exclusion",
     ):
         assert nodes[supplier]["status"] == "PROVED"
         assert (supplier, NODE, "req") in edges
@@ -145,7 +147,7 @@ def main() -> None:
 
     print(
         "E1_LOW_SQUARE_MASS_WEIGHTED_KERNEL_DICTIONARY_PASS "
-        f"rows={len(ROWS)} tight_oriented_cap=27520 checks={checks}"
+        f"rows={len(ROWS)} tight_oriented_cap=66866 checks={checks}"
     )
 
 

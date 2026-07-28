@@ -256,9 +256,10 @@ budget is `62622678770648913918718317914905517790930`, about `1.648K`.
 Maximum low-mass degree three suffices, so this is preferred to the
 degree-two/three-color route.
 
-The proved `e1_low_square_mass_weighted_kernel_dictionary` now converts the
+The proved `e1_low_square_mass_weighted_kernel_dictionary` converts the
 preferred budget exactly to folded-vector currency:
-`E_low=(1/2)sum_d M_ell(a(d),b(d))`. On the binding row, the largest eligible
-weight is attained at `(3,4,S=16)`, and at most 27,520 oriented low-mass
-kernel vectors is a stronger sufficient condition. This is a route compiler,
-not a proof of the vector count or the unsafe payload.
+`E_low=(1/2)sum_d M_ell(a(d),b(d))`. The exact prize field floor then removes
+all `S=16` profiles on the binding row. Its largest live weight is attained at
+`(4,2,S=18)`, and at most 66,866 oriented low-mass kernel vectors is a
+stronger sufficient condition. These are route results, not a proof of the
+vector count or the unsafe payload.

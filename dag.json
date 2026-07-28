@@ -294,6 +294,26 @@
    "notes": "ROUTE COMPILER 2026-07-28: converts the square-mass scope correction into exact finite max-fiber and low-mass second-moment targets, bypassing the stronger P allowance."
   },
   {
+   "id": "e1_prize_field_floor_even_norm_exclusion",
+   "title": "Prize-field-floor exclusion for even low-square-mass E1 norms",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/statement.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/proof.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/audit.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/frontier.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/result.md",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/source_pin.json",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/verify.py",
+    "background/nodes/e1_prize_field_floor_even_norm_exclusion/verify_audit.py"
+   ],
+   "statement": "On every pair-feasible prize-envelope prime row, the exact field floor is p>2^255. Every nonzero same-size E1 class-difference norm is even. The folded L2 bound is at most 2^256 for N=256,S<=16 and N=512,S<=4; divisibility by odd p would force the norm to equal p, a contradiction. Hence the prize-row live floors sharpen to S>=18 and S>=6 respectively. RowC is unchanged.",
+   "notes": "ROW-SPECIFIC EXCLUSION 2026-07-28: spends the exact prize interval rather than the common p>=2^250 floor and removes the maximal-weight profiles from the binding aggregate budget."
+  },
+  {
    "id": "e1_low_square_mass_weighted_kernel_dictionary",
    "title": "Exact weighted dictionary from E1 collision pairs to folded kernel vectors",
    "status": "PROVED",
@@ -314,8 +334,8 @@
     "label": "(Q) prefix / quotient flatness (prob:capfpr-Q)",
     "relation": "ANALOGY_ONLY"
    },
-   "statement": "For every official E1 row, an oriented folded kernel vector d of profile (a,b) represents exactly M_ell(a,b) ordered class pairs, where M_ell is an explicit binomial sum over singleton allocations and common signed coordinates. Hence E_low=(1/2)sum_d M_ell(a(d),b(d)) exactly. After the proved norm floors, the binding prize-rate-1/8 maximum weight is attained at (3,4,S=16), and |D_p(33)|<=27520 oriented low-mass vectors is a simple sufficient condition for the open edge budget. The weighted condition is weaker and preferred; no vector cap is asserted here.",
-   "notes": "ROUTE DICTIONARY 2026-07-28: restores exact class-pair multiplicities to folded-vector/orbit counts and converts the binding aggregate premise to a finite weighted kernel-vector budget without adding a red node."
+   "statement": "For every official E1 row, an oriented folded kernel vector d of profile (a,b) represents exactly M_ell(a,b) ordered class pairs, where M_ell is an explicit binomial sum over singleton allocations and common signed coordinates. Hence E_low=(1/2)sum_d M_ell(a(d),b(d)) exactly. The prize field floor removes S=16 on the binding prize-rate-1/8 row; the maximum live weight is at (4,2,S=18), and |D_p(33)|<=66866 oriented low-mass vectors is a simple sufficient condition. The weighted condition is weaker and preferred; no vector cap is asserted here.",
+   "notes": "ROUTE DICTIONARY 2026-07-28: restores exact class-pair multiplicities to folded-vector/orbit counts and converts the binding aggregate premise to a finite weighted kernel-vector budget without adding a red node; recalibrated after the prize-field-floor exclusion."
   },
   {
    "id": "e1_official_low_square_mass_collision_coloring",
@@ -343,8 +363,8 @@
     "background/nodes/e1_official_low_square_mass_pair_budget/attack.md",
     "background/nodes/e1_official_low_square_mass_pair_budget/frontier.md"
    ],
-   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 62622678770648913918718317914905517790930, about 1.648K; maximum low-mass collision degree three is sufficient. The proved weighted-kernel dictionary gives the exact alternative E_low=(1/2)sum_d M_ell(a(d),b(d)); on the binding row, at most 27520 oriented vectors is a stronger uniform sufficient condition. The Plotkin second-moment compiler then forces more than B* values.",
-   "attack_surface": "prove the exact weighted folded-kernel budget, the stronger 27520 oriented-vector cap on the binding row, or maximum collision degree three; retain exact orientations, stabilizers, and class-pair multiplicities",
+   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 62622678770648913918718317914905517790930, about 1.648K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)); after the prize field floor removes S=16, at most 66866 oriented vectors is a stronger uniform sufficient condition. The Plotkin compiler then forces more than B* values.",
+   "attack_surface": "prove the exact weighted folded-kernel budget, the stronger 66866 oriented-vector cap on the binding row, or maximum collision degree three; start at the live (4,2,S=18) profile and retain exact orientations, stabilizers, and class-pair multiplicities",
    "falsifier": "an admissible row whose exact unordered low-mass collision-pair count exceeds its printed budget, or a multiplicity/type error in a claimed count"
   },
   {
@@ -36602,6 +36622,31 @@
    "from": "e1_low_square_mass_plotkin_coloring_compiler",
    "to": "e1_low_square_mass_weighted_kernel_dictionary",
    "kind": "req"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_prize_field_floor_even_norm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_collision_square_mass_reparametrization",
+   "to": "e1_prize_field_floor_even_norm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_prize_field_floor_even_norm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_low_square_mass_weighted_kernel_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
   },
   {
    "from": "e1_low_square_mass_weighted_kernel_dictionary",

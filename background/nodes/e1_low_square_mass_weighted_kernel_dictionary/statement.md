@@ -4,7 +4,8 @@
 - **closure:** proof plus exact integer ledger
 - **dependencies:** `e1_collision_square_mass_reparametrization`,
   `e1_prime_field_l2_norm_collision_radius`,
-  `e1_low_square_mass_plotkin_coloring_compiler`
+  `e1_low_square_mass_plotkin_coloring_compiler`,
+  `e1_prize_field_floor_even_norm_exclusion`
 - **open consumer:** `e1_official_low_square_mass_pair_budget`
 
 Fix an official prime-field E1 row with `N=2h`, `ell<=h`, and folded root
@@ -60,12 +61,13 @@ edge budget are:
 | RowC `1/4` | 1090 | `(3,4,16)` | 2899001011559056192880793575925270505545118720240019736 | 1471225270732300083690 |
 | RowC `1/8` | 275 | `(3,4,16)` | 4550972295647251657752808370587724056 | 2284491 |
 | RowC `1/16` | 301 | `(0,4,4)` | 69817906094980867044033802642511381589872306283912 | 981163346005184 |
-| prize `1/4` | 1090 | `(3,4,16)` | 2899001011559056192880793575925270505545118720240019736 | 24637815665369571301 |
-| prize `1/8` | 275 | `(3,4,16)` | 4550972295647251657752808370587724056 | 27520 |
-| prize `1/16` | 301 | `(0,4,4)` | 69817906094980867044033802642511381589872306283912 | 16431013072787 |
+| prize `1/4` | 1086 | `(4,2,18)` | 1621868867923804840915753105221596984497856637426519762 | 44038734542050218762 |
+| prize `1/8` | 271 | `(4,2,18)` | 1873053318886373426584792000465260242 | 66866 |
+| prize `1/16` | 300 | `(1,2,6)` | 25912134061920884044549116258313478062341656144934 | 44271881467575 |
 
-Each cap is `floor(2 E_max/M_max)`. The binding prize rate-`1/8` target is
-therefore implied by at most `27,520` oriented low-mass folded kernel
-vectors. The weighted identity is stronger than this uniform sufficient
-condition and should be used whenever profile-resolved counts are available.
-This node does not prove any of the six vector caps.
+Each cap is `floor(2 E_max/M_max)`. The exact prize field floor removes every
+`S=16` profile on the binding prize rate-`1/8` row, so its first live profile
+is `(4,2,S=18)` and the target is implied by at most `66,866` oriented
+low-mass folded kernel vectors. The weighted identity is stronger than this
+uniform sufficient condition and should be used whenever profile-resolved
+counts are available. This node does not prove any of the six vector caps.

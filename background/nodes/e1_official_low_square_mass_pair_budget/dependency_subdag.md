@@ -3,6 +3,7 @@
 ```text
 e1_low_square_mass_plotkin_coloring_compiler [PROVED] --ev--> e1_official_low_square_mass_pair_budget [TARGET]
 e1_low_square_mass_weighted_kernel_dictionary [PROVED] --ev-->
+e1_prize_field_floor_even_norm_exclusion [PROVED] ------ev-->
 e1_pair_feasible_prime_field_reduction [PROVED] --------ev-->
 
 e1_official_low_square_mass_pair_budget [TARGET] --ev--> unsafe_crossing_family_instantiation [TARGET]

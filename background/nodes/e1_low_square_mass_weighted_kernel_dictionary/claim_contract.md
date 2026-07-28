@@ -18,6 +18,8 @@ and the six uniform sufficient oriented-vector caps in `statement.md`.
   used only in the maximum-weight table.
 - `e1_low_square_mass_plotkin_coloring_compiler` supplies the six exact edge
   budgets to which the uniform caps are calibrated.
+- `e1_prize_field_floor_even_norm_exclusion` removes `S<=16` at prize
+  `N=256` and `S<=4` at prize `N=512` before the maximum-weight calculation.
 
 ## Guards
 
@@ -31,6 +33,8 @@ and the six uniform sufficient oriented-vector caps in `statement.md`.
    must not be discarded after it has been proved.
 6. No vector cap, collision exclusion, image bound, or prize row is proved by
    this node alone.
+7. RowC retains the coarser norm floors; the prize refinement must not be
+   transferred to it.
 
 ## Falsifier
 

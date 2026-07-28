@@ -31,7 +31,7 @@ E_low=(1/2) sum_{d in D_p(ell)} M_ell(a(d),b(d)).
 ```
 
 On the binding prize rate-`1/8` row, the weaker uniform sufficient statement
-is `|D_p(33)|<=27520`, with oriented, non-orbit-normalized vectors. The exact
+is `|D_p(33)|<=66866`, with oriented, non-orbit-normalized vectors. The exact
 weighted sum remains the actual target.
 
 ## Falsifier

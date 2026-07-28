@@ -43,11 +43,12 @@ and once with `-d=y-x`; also `M_ell(a,b)=M_ell(a(-d),b(-d))`. Division by two
 proves the exact edge identity.
 
 For the ledger, enumerate all integer profiles with `a,b>=0`, `a+b<=h`,
-`0<4a+b<=2ell`, and positive multiplicity. The norm-radius theorem permits
-only `S>=16` in the `b>0`, `N=256` branch and `S>=4` in the `b>0`, `N=512`
-branch. In the all-even branch it permits only `a>=15` and `a>=4`,
-respectively. Exact binomial evaluation gives the profile counts and maxima
-in `statement.md`. Finally,
+`0<4a+b<=2ell`, and positive multiplicity. On RowC, the norm-radius theorem
+permits only `S>=16` in the `b>0`, `N=256` branch and `S>=4` in the `b>0`,
+`N=512` branch. The exact prize field floor sharpens these to `S>=18` and
+`S>=6` on prize rows. In the all-even branch the norm-radius theorem permits
+only `a>=15` and `a>=4`, respectively. Exact binomial evaluation gives the
+profile counts and maxima in `statement.md`. Finally,
 
 ```text
 E_low <= M_max |D_p(ell)|/2,

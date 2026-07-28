@@ -63,15 +63,15 @@ def main() -> None:
 
     # Independent replay of the binding uniform-cap boundary.
     edge_cap = 62622678770648913918718317914905517790930
-    maximum = 4550972295647251657752808370587724056
-    assert maximum * 27520 <= 2 * edge_cap
-    assert maximum * 27521 > 2 * edge_cap
+    maximum = 1873053318886373426584792000465260242
+    assert maximum * 66866 <= 2 * edge_cap
+    assert maximum * 66867 > 2 * edge_cap
     checks += 2
 
     statement = (ROOT / f"background/nodes/{NODE}/statement.md").read_text()
     target = (ROOT / f"background/nodes/{TARGET}/statement.md").read_text()
     assert "E_low = (1/2) sum" in statement
-    assert "27,520" in statement
+    assert "66,866" in statement
     assert "status:** TARGET" in target
     checks += 3
 

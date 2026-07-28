@@ -319,8 +319,10 @@ row it allows `62622678770648913918718317914905517790930` edges, about
 graph.
 The exact folded-vector form is
 `E_low=(1/2)sum_d M_33(a(d),b(d))`; the simple stronger binding-row target is
-at most 27,520 oriented low-mass vectors. Existing orbit counts must restore
-orientation, stabilizers, and these class-pair weights.
+at most 66,866 oriented low-mass vectors. The prize field floor removes every
+`S=16` profile first, so `(4,2,S=18)` is the leading live weight. Existing
+orbit counts must restore orientation, stabilizers, and these class-pair
+weights.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
 cofactor classes. Do not rerun any `V>=26`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact

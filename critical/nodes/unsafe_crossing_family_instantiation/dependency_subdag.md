@@ -18,6 +18,7 @@ e1_pair_feasible_ambient_generation      --ev-->
 e1_pair_feasible_prime_field_reduction   --ev-->
 e1_prime_field_l2_norm_collision_radius  --ev-->
 e1_collision_square_mass_reparametrization --ev-->
+e1_prize_field_floor_even_norm_exclusion --ev--> e1_official_low_square_mass_pair_budget --ev-->
 e1_official_low_square_mass_collision_coloring --ev-->
 e1_low_square_mass_weighted_kernel_dictionary --ev--> e1_official_low_square_mass_pair_budget --ev-->
 e1_n256_s16_high_variance_collision_exclusion --ev-->
