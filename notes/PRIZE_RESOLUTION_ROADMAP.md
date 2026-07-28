@@ -5621,3 +5621,36 @@ splits are genuine official-size class-pair profiles, rather than artifacts
 removed by the missing `ell` constraint. Since the consumer asks for the
 aggregate allowance `P<=K-B*-1`, proving collision-freeness endpoint by
 endpoint in a single profile is no longer the preferred route.
+
+**2026-07-28, E1 aggregate max-fiber compiler:** the exact Euclidean Plotkin
+identity converts low-square-mass collision-graph coloring into a direct E1
+payload.
+
+```text
+starting local pin: 449d2662
+proved node: e1_low_square_mass_plotkin_coloring_compiler
+open node: e1_official_low_square_mass_collision_coloring
+graph vertices: antipodal-rearrangement classes X_ell
+graph edges: equal reduced E1 value and 0<S<=2ell
+Plotkin color-class cap: ell+1
+fiber cap under c colors: c(ell+1)
+largest sufficient color counts, RowC rates 1/4,1/8,1/16:
+  3268165922105543787, 210, 18885148505476
+largest sufficient color counts, prize rates 1/4,1/8,1/16:
+  54730211038721500, 3, 316259390691
+binding row: prize rate 1/8, N=256, ell=33, S<=66
+binding statement: chi(G_p(33))<=3
+binding fiber cap: 102
+exact image floor: 372561980747787012946133646668959839245 > B*
+stronger sufficient statement: maximum low-mass collision degree <=2
+falsifier: an admissible row with a certified four-chromatic subgraph
+delta-star bracket movement: none; compiler proved, coloring premise open
+new assumptions: none
+compute decision: no broad census authorized; seek a color invariant or a
+                  compact four-chromatic witness first
+upstream placement: finite constants-first analogue of (Q) max-fiber flatness
+```
+
+This route bypasses the stronger `P<=K-B*-1` pair-incidence target. It does
+not require injectivity and permits many modular collisions; only the
+low-square-mass collision graph must satisfy its row-specific color cap.

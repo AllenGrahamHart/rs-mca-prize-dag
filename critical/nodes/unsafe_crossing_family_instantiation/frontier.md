@@ -309,6 +309,10 @@ chamber is now closed, but square-mass reconciliation exhibits three other
 feasible `S=16` profiles. Do not continue to `V=24` until an aggregate
 incidence/direct-image theorem or a finite coefficient-type reduction makes
 that profile-local computation route-relevant.
+The proved Plotkin/coloring compiler sharpens this to one exact alternative:
+prove the row-specific low-mass collision-graph color caps. The binding
+prize rate-`1/8` obligation is `chi(G_p(33))<=3` for `S<=66`; it gives fiber
+cap 102 and a direct image above `B*`.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
 cofactor classes. Do not rerun any `V>=26`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact

@@ -238,3 +238,12 @@ needed and is false because only finitely many antipodal positions exist.
 No existing `(3,4)` closure is retracted, but `V=24` is not the universal
 route frontier. Further census work is paused pending an aggregate incidence,
 finite-reduction, or direct-image theorem.
+
+The proved `e1_low_square_mass_plotkin_coloring_compiler` supplies such an
+aggregate direct-image interface. In a fixed E1 fiber, every color class of
+the graph of colliding pairs with `S<=2ell` has at most `ell+1` vertices by
+the exact Euclidean Plotkin identity. The six exact row budgets translate to
+row-specific color caps; the binding prize rate-`1/8` row requires only
+`chi<=3`, which caps every fiber by 102 and forces more than `B*` values. The
+row-uniform coloring assertion remains TARGET and is an alternative to the
+stronger collision-pair allowance.

@@ -2,7 +2,7 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "1c02fea6",
+  "our_sha": "449d2662",
   "his_sha": "fde7d56d"
  },
  "rows": [
@@ -1642,6 +1642,31 @@
    "lean": null,
    "provenance": {
     "our_sha": "1c02fea6",
+    "his_sha": "fde7d56d"
+   }
+  },
+  {
+   "our_node": "e1_low_square_mass_plotkin_coloring_compiler",
+   "his_object": {
+    "label": "(Q) prefix / quotient flatness (prob:capfpr-Q)",
+    "file": "tex/cs25_cap_v13_2.tex",
+    "line": "prob:capfpr-Q"
+   },
+   "relation": "ANALOGY_ONLY",
+   "chain": null,
+   "scope": "finite w=1-style E1 quotient image at the six clean RowC/prize envelopes; row-specific low-mass collision-graph coloring replaces a generic flatness multiplier",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove the open collision-graph coloring premise",
+    "does not establish Paper D's growing-depth (Q) theorem",
+    "does not imply the stronger E1 collision-pair allowance P<=K-B*-1",
+    "does not close a row, adjacent endpoint, universal unsafe branch, or prize terminal"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "449d2662",
     "his_sha": "fde7d56d"
    }
   }

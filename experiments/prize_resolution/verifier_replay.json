@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_collision_square_mass_reparametrization/verify.py",
-      "seconds": 0.041968,
+      "script": "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/verify.py",
+      "seconds": 0.056052,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_COLLISION_SQUARE_MASS_REPARAMETRIZATION_PASS S16_splits=((3, 4), (2, 8), (1, 12), (0, 16)) official_params=3 checks=159\n"
+      "stdout_tail": "E1_LOW_SQUARE_MASS_PLOTKIN_COLORING_COMPILER_PASS rows=6 tight_colors=3 tight_fiber_cap=102 checks=2259\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_collision_square_mass_reparametrization/verify_audit.py",
-      "seconds": 0.040631,
+      "script": "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/verify_audit.py",
+      "seconds": 0.047243,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_COLLISION_SQUARE_MASS_REPARAMETRIZATION_AUDIT_PASS checks=1144\n"
+      "stdout_tail": "E1_LOW_SQUARE_MASS_PLOTKIN_COLORING_COMPILER_AUDIT_PASS checks=121\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

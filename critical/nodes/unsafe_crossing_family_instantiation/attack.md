@@ -149,6 +149,12 @@ square-mass theorem exposes three other feasible `S=16` profiles and finite
 ranges extending to `S=260` or `S=132`; first seek an aggregate incidence or
 direct-image theorem, or a proved finite reduction of those coefficient types.
 
+The first aggregate compiler is now proved. On the binding prize rate-`1/8`
+row, attack `e1_official_low_square_mass_collision_coloring`: three-color the
+same-E1 graph restricted to `S<=66`. A maximum-degree-two theorem or explicit
+three-color invariant suffices. Falsify first with a certified `K_4` or other
+four-chromatic subgraph; do not resume `V=24` while this route is live.
+
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
 the 2-adic singleton screen and test its 419 exact cofactors directly; do not
 scan an arbitrary interval. Later bands `N=256,s>=6` and `N=512,s>=3` remain
