@@ -5875,3 +5875,43 @@ pair-budget status: TARGET; normalized vectors are not weighted edges
 next action: seek an analytic/census split for m=4 before any exact norm run;
              its current 28 chambers through V=226 are too broad to stream
 ```
+
+**Same-day cofactor-4 high-variance close:** exact third moments and analytic
+majorants isolate a small residual without a broad resultant run.
+
+```text
+proved node: e1_prize_n256_s18_m4_high_variance_exclusion
+profile inequality: 4L<=E+35, with L=E mod 2
+dual exact M3 frontier: every chamber V=10,18,...,162
+primary direct-convolution app: ap-FWSBvehhSdCJZMGDPjEIab
+audit folded-pair app: ap-TNwtdWkeeVT1yPGaLxB941
+exact M3/Hermite close: V=82,90,...,162
+universal-layer close: V=170,178,186,194
+quadratic-majorant close: V=202,210,218,226
+exact threshold: (4p_min)^5>2^1289
+m=4 residual: 10<=V<=74, V=2 mod 8
+load-bearing compute: two exact M3 maxima packets, about 69 worker-seconds
+corroborating counts app: ap-OKdHMMiWlBCDidicP9701v
+next action: stream exact norms only for the 21376 residual vectors
+```
+
+**Same-day cofactor-4 close:** the bounded residual has an exact certified gap
+around the prize interval.
+
+```text
+proved node: e1_prize_n256_s18_m4_collision_exclusion
+normalization: singleton positions 0,2; first singleton sign +1
+residual vector count: 21376
+FLINT stream app: ap-cqeedeWfHi2ZWPpADOVg8o
+PARI/direct-convolution audit app: ap-UrU14R9jlfWWM2B50i9jwk
+exact multiset agreement: 64/64 fingerprint buckets
+quotients below prize interval: 20604
+quotients inside prize interval: 0
+quotients above prize interval: 772
+maximum below: 107716387476569755844902778849041509815310757677547440774146432592221447900929
+minimum above: 110553665570163478885905819698234426068541015284212878175575978480389082393089
+cofactor conclusion: m=4 impossible
+live prize cofactors: {2}
+pair-budget status: TARGET; normalized vectors are not weighted edges
+next action: derive the cheapest analytic/census split for the sole m=2 branch
+```

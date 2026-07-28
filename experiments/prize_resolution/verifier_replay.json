@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_prize_n256_s18_m16_collision_exclusion/verify.py",
-      "seconds": 0.04301,
+      "script": "background/nodes/e1_prize_n256_s18_m4_collision_exclusion/verify.py",
+      "seconds": 0.040172,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_PRIZE_N256_S18_M16_COLLISION_EXCLUSION_PASS rows=540332 inside=0 checks=235\n"
+      "stdout_tail": "E1_PRIZE_N256_S18_M4_COLLISION_EXCLUSION_PASS rows=21376 inside=0 checks=226\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/verify.py",
-      "seconds": 0.080101,
+      "script": "background/nodes/e1_prize_n256_s18_m4_high_variance_exclusion/verify.py",
+      "seconds": 0.243901,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_PRIZE_N256_S18_M16_HIGH_VARIANCE_EXCLUSION_PASS checks=4122\n"
+      "stdout_tail": "E1_PRIZE_N256_S18_M4_HIGH_VARIANCE_EXCLUSION_PASS checks=4675\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

@@ -1,0 +1,630 @@
+{
+  "complete": true,
+  "container_seconds": 28.419844703,
+  "errors": [],
+  "normalization": {
+    "singleton_positions": [
+      0,
+      2
+    ]
+  },
+  "results": [
+    {
+      "shard": 0,
+      "wall_seconds": 0.729686
+    },
+    {
+      "shard": 1,
+      "wall_seconds": 0.726077
+    },
+    {
+      "shard": 2,
+      "wall_seconds": 0.71257
+    },
+    {
+      "shard": 3,
+      "wall_seconds": 0.72109
+    },
+    {
+      "shard": 4,
+      "wall_seconds": 1.10962
+    },
+    {
+      "shard": 5,
+      "wall_seconds": 1.18415
+    },
+    {
+      "shard": 6,
+      "wall_seconds": 1.12105
+    },
+    {
+      "shard": 7,
+      "wall_seconds": 0.716839
+    },
+    {
+      "shard": 8,
+      "wall_seconds": 0.716995
+    },
+    {
+      "shard": 9,
+      "wall_seconds": 0.757889
+    },
+    {
+      "shard": 10,
+      "wall_seconds": 1.09898
+    },
+    {
+      "shard": 11,
+      "wall_seconds": 0.718651
+    },
+    {
+      "shard": 12,
+      "wall_seconds": 0.715878
+    },
+    {
+      "shard": 13,
+      "wall_seconds": 0.712445
+    },
+    {
+      "shard": 14,
+      "wall_seconds": 0.714544
+    },
+    {
+      "shard": 15,
+      "wall_seconds": 1.17786
+    },
+    {
+      "shard": 16,
+      "wall_seconds": 1.11929
+    },
+    {
+      "shard": 17,
+      "wall_seconds": 0.765675
+    },
+    {
+      "shard": 18,
+      "wall_seconds": 1.12847
+    },
+    {
+      "shard": 19,
+      "wall_seconds": 0.947281
+    },
+    {
+      "shard": 20,
+      "wall_seconds": 0.749581
+    },
+    {
+      "shard": 21,
+      "wall_seconds": 0.714896
+    },
+    {
+      "shard": 22,
+      "wall_seconds": 0.718738
+    },
+    {
+      "shard": 23,
+      "wall_seconds": 0.715746
+    },
+    {
+      "shard": 24,
+      "wall_seconds": 1.10901
+    },
+    {
+      "shard": 25,
+      "wall_seconds": 1.12317
+    },
+    {
+      "shard": 26,
+      "wall_seconds": 0.732381
+    },
+    {
+      "shard": 27,
+      "wall_seconds": 1.17459
+    },
+    {
+      "shard": 28,
+      "wall_seconds": 0.952303
+    },
+    {
+      "shard": 29,
+      "wall_seconds": 1.12173
+    },
+    {
+      "shard": 30,
+      "wall_seconds": 0.717096
+    },
+    {
+      "shard": 31,
+      "wall_seconds": 0.723145
+    }
+  ],
+  "returned_shards": 32,
+  "rows": [
+    {
+      "count": 0,
+      "energy": 5,
+      "maximum_m3": null,
+      "maximum_witness": null,
+      "minimum_m3": null,
+      "variance": 10
+    },
+    {
+      "count": 16,
+      "energy": 9,
+      "maximum_m3": 0,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          -2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          34,
+          64,
+          66,
+          96
+        ]
+      },
+      "minimum_m3": 0,
+      "variance": 18
+    },
+    {
+      "count": 16,
+      "energy": 13,
+      "maximum_m3": 120,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          -2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "minimum_m3": -48,
+      "variance": 26
+    },
+    {
+      "count": 100,
+      "energy": 17,
+      "maximum_m3": 336,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          -2,
+          -2,
+          2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          42,
+          44,
+          84,
+          86
+        ]
+      },
+      "minimum_m3": -132,
+      "variance": 34
+    },
+    {
+      "count": 144,
+      "energy": 21,
+      "maximum_m3": 252,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          1,
+          -2,
+          2,
+          2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          40,
+          42,
+          84,
+          126
+        ]
+      },
+      "minimum_m3": -384,
+      "variance": 42
+    },
+    {
+      "count": 420,
+      "energy": 25,
+      "maximum_m3": 384,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          1,
+          2,
+          -2,
+          2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          23,
+          46,
+          88,
+          109
+        ]
+      },
+      "minimum_m3": -240,
+      "variance": 50
+    },
+    {
+      "count": 820,
+      "energy": 29,
+      "maximum_m3": 480,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          -2,
+          2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          26,
+          40,
+          64,
+          78
+        ]
+      },
+      "minimum_m3": -336,
+      "variance": 58
+    },
+    {
+      "count": 17084,
+      "energy": 33,
+      "maximum_m3": 864,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          1,
+          2,
+          -2,
+          2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          26,
+          52,
+          91,
+          115
+        ]
+      },
+      "minimum_m3": -576,
+      "variance": 66
+    },
+    {
+      "count": 2776,
+      "energy": 37,
+      "maximum_m3": 1020,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          2,
+          2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          4,
+          5,
+          8,
+          9
+        ]
+      },
+      "minimum_m3": -408,
+      "variance": 74
+    },
+    {
+      "count": 24268,
+      "energy": 41,
+      "maximum_m3": 912,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          1,
+          -2,
+          2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          1,
+          17,
+          49,
+          81
+        ]
+      },
+      "minimum_m3": -576,
+      "variance": 82
+    },
+    {
+      "count": 36520,
+      "energy": 45,
+      "maximum_m3": 1104,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          19,
+          34,
+          66,
+          115
+        ]
+      },
+      "minimum_m3": -444,
+      "variance": 90
+    },
+    {
+      "count": 417876,
+      "energy": 49,
+      "maximum_m3": 1548,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          4,
+          66,
+          88,
+          110
+        ]
+      },
+      "minimum_m3": -528,
+      "variance": 98
+    },
+    {
+      "count": 38920,
+      "energy": 53,
+      "maximum_m3": 1728,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          -2,
+          -2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          1,
+          66,
+          86,
+          109
+        ]
+      },
+      "minimum_m3": -468,
+      "variance": 106
+    },
+    {
+      "count": 243340,
+      "energy": 57,
+      "maximum_m3": 1968,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          -2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          1,
+          44,
+          58,
+          101
+        ]
+      },
+      "minimum_m3": -480,
+      "variance": 114
+    },
+    {
+      "count": 299040,
+      "energy": 61,
+      "maximum_m3": 2256,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          -2,
+          2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          28,
+          42,
+          66,
+          80
+        ]
+      },
+      "minimum_m3": -480,
+      "variance": 122
+    },
+    {
+      "count": 2874126,
+      "energy": 65,
+      "maximum_m3": 3264,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          -2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          24,
+          48,
+          50,
+          102
+        ]
+      },
+      "minimum_m3": -528,
+      "variance": 130
+    },
+    {
+      "count": 161456,
+      "energy": 69,
+      "maximum_m3": 3132,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          -2,
+          -2,
+          -2,
+          2
+        ],
+        "positions": [
+          0,
+          2,
+          59,
+          60,
+          125,
+          126
+        ]
+      },
+      "minimum_m3": -756,
+      "variance": 138
+    },
+    {
+      "count": 638428,
+      "energy": 73,
+      "maximum_m3": 3888,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          -2,
+          -2,
+          2,
+          2
+        ],
+        "positions": [
+          0,
+          2,
+          44,
+          45,
+          86,
+          88
+        ]
+      },
+      "minimum_m3": -576,
+      "variance": 146
+    },
+    {
+      "count": 281292,
+      "energy": 77,
+      "maximum_m3": 3264,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          66,
+          92,
+          106,
+          118
+        ]
+      },
+      "minimum_m3": -372,
+      "variance": 154
+    },
+    {
+      "count": 4027172,
+      "energy": 81,
+      "maximum_m3": 4248,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          1,
+          2,
+          2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          2,
+          12,
+          16,
+          18,
+          26
+        ]
+      },
+      "minimum_m3": -576,
+      "variance": 162
+    }
+  ],
+  "schema": "e1-prize-m4-residual-m3-audit-v1",
+  "source_sha256": "c1e5fbb2e1879bdaa65fecc7d1b1b3fab3dcb89ae97dc2fa6455f43a0d706969",
+  "worker_seconds": 28.147426
+}
