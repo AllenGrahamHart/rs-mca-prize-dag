@@ -5654,3 +5654,27 @@ upstream placement: finite constants-first analogue of (Q) max-fiber flatness
 This route bypasses the stronger `P<=K-B*-1` pair-incidence target. It does
 not require injectivity and permits many modular collisions; only the
 low-square-mass collision graph must satisfy its row-specific color cap.
+
+**Same-day aggregate strengthening:** colorability is not the weakest usable
+premise. Counting low-mass edges and applying the same variance identity
+fiber-by-fiber gives an exact second-moment compiler.
+
+```text
+additional open node: e1_official_low_square_mass_pair_budget
+per-fiber inequality: r_y^2 <= (ell+1)r_y + C e_y
+global inequality: sum_y r_y^2 <= (ell+1)K + C E_low
+C: 52 at N=256,ell=33; 116 at N=256,ell=65; 64 at N=512,ell=33
+binding prize-rate-1/8 E_low cap:
+  62622678770648913918718317914905517790930
+relative cap: approximately 1.647907899 K
+simple sufficient theorem: maximum low-mass collision degree <=3
+comparison: degree <=2 pays both coloring and pair-budget routes; degree <=3
+            pays the preferred pair-budget route
+currency guard: unordered class pairs, not normalized vectors/orbits
+next route-deciding action: bound common-prime low-mass neighbors of one class
+```
+
+This target is strictly more tolerant than the three-color route and much more
+tolerant than full injectivity. High-square-mass collisions need no separate
+enumeration: their contribution is absorbed by the Plotkin/Cauchy second
+moment inequality.

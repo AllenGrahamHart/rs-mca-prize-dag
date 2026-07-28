@@ -52,3 +52,36 @@ row-specific coloring bounds `chi(G_p(ell))<=c_max` suffice for a direct E1
 unsafe payload, without proving injectivity or the stronger collision-pair
 allowance. The binding new premise is the prize rate-`1/8` bound
 `chi(G_p(33))<=3`. This node proves the compiler, not those coloring bounds.
+
+There is a weaker aggregate route. Let `E_low` be the total number of edges of
+`G_p(ell)`, and let `r_y` be the complete reduced E1 fiber sizes. The norm
+floors give minimum collision square mass `d0=16` at `N=256` and `d0=4` at
+`N=512`. Put
+
+```text
+C=2ell+2-d0.
+```
+
+Then
+
+```text
+sum_y r_y^2 <= (ell+1)K + C E_low,
+|image| >= ceil(K^2 / ((ell+1)K+C E_low)).
+```
+
+The largest exact edge budgets forcing `|image|>B*` are:
+
+| row | `C` | maximum sufficient `E_low` |
+|---|---:|---:|
+| RowC `1/4` | 116 | 2132541774042092125849554674828524585055987163412031204420185928301781984965 |
+| RowC `1/8` | 52 | 5198328219133082279450279571536097879858211 |
+| RowC `1/16` | 64 | 34251385177613611176287134568778412711317979539714751534312745145 |
+| prize `1/4` | 116 | 35712526268255974159379339912208386438781917770706964119574629107623252261 |
+| prize `1/8` | 52 | 62622678770648913918718317914905517790930 |
+| prize `1/16` | 64 | 573589463880641840437695913758879780711186889526196156445743653 |
+
+At each maximum the certified image floor is exactly `B*+1`, and one more
+edge is not certified by this inequality. On the binding prize rate-`1/8`
+row the budget is about `1.648K`; maximum low-mass collision degree three is a
+simple stronger sufficient condition. The edge budgets remain open in
+`e1_official_low_square_mass_pair_budget`.

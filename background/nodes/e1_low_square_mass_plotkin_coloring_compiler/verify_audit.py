@@ -9,6 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 NODE = "e1_low_square_mass_plotkin_coloring_compiler"
 TARGET = "e1_official_low_square_mass_collision_coloring"
+PAIR_TARGET = "e1_official_low_square_mass_pair_budget"
 
 
 def main() -> None:
@@ -25,9 +26,22 @@ def main() -> None:
     statement = (ROOT / f"background/nodes/{NODE}/statement.md").read_text()
     contract = (ROOT / f"background/nodes/{NODE}/claim_contract.md").read_text()
     target_statement = (ROOT / f"background/nodes/{TARGET}/statement.md").read_text()
+    pair_statement = (ROOT / f"background/nodes/{PAIR_TARGET}/statement.md").read_text()
     assert "`chi(G_p(33))<=3`" in statement
     assert "bypasses `P<=K-B*-1`" in contract
     assert "status:** TARGET" in target_statement
+    assert "62622678770648913918718317914905517790930" in pair_statement
+    checks += 4
+
+    # Independent tight-row boundary replay.
+    ell = 33
+    K = 38001322036274275320505631960233903602944
+    budget = 317494674775468773183020924238786383963
+    C = 52
+    edge_cap = 62622678770648913918718317914905517790930
+    assert budget * ((ell + 1) * K + C * edge_cap) < K * K
+    assert budget * ((ell + 1) * K + C * (edge_cap + 1)) >= K * K
+    assert 3 * K // 2 <= edge_cap
     checks += 3
 
     dag = json.loads((ROOT / "dag.json").read_text())
@@ -36,11 +50,15 @@ def main() -> None:
              for edge in dag["edges"]}
     assert nodes[NODE]["status"] == "PROVED"
     assert nodes[TARGET]["status"] == "TARGET"
+    assert nodes[PAIR_TARGET]["status"] == "TARGET"
     assert (NODE, TARGET, "ev") in edges
     assert (NODE, TARGET, "req") not in edges
     assert (TARGET, "unsafe_crossing_family_instantiation", "ev") in edges
     assert (TARGET, "unsafe_crossing_family_instantiation", "req") not in edges
-    checks += 6
+    assert (NODE, PAIR_TARGET, "ev") in edges
+    assert (NODE, PAIR_TARGET, "req") not in edges
+    assert (PAIR_TARGET, "unsafe_crossing_family_instantiation", "ev") in edges
+    checks += 10
 
     print(f"E1_LOW_SQUARE_MASS_PLOTKIN_COLORING_COMPILER_AUDIT_PASS checks={checks}")
 

@@ -313,6 +313,10 @@ The proved Plotkin/coloring compiler sharpens this to one exact alternative:
 prove the row-specific low-mass collision-graph color caps. The binding
 prize rate-`1/8` obligation is `chi(G_p(33))<=3` for `S<=66`; it gives fiber
 cap 102 and a direct image above `B*`.
+The preferred weaker premise is the exact low-mass pair budget. On that same
+row it allows `62622678770648913918718317914905517790930` edges, about
+`1.648K`; a maximum-degree-three theorem suffices and need not three-color the
+graph.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
 cofactor classes. Do not rerun any `V>=26`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact

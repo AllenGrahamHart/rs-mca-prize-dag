@@ -247,3 +247,11 @@ row-specific color caps; the binding prize rate-`1/8` row requires only
 `chi<=3`, which caps every fiber by 102 and forces more than `B*` values. The
 row-uniform coloring assertion remains TARGET and is an alternative to the
 stronger collision-pair allowance.
+
+The same compiler yields a weaker low-mass pair-budget route. If `E_low`
+counts only colliding class pairs with `S<=2ell`, then
+`sum_y r_y^2<=(ell+1)K+(2ell+2-d0)E_low`; Cauchy-Schwarz prices all remaining
+high-mass collisions. On the binding prize rate-`1/8` row the exact sufficient
+budget is `62622678770648913918718317914905517790930`, about `1.648K`.
+Maximum low-mass degree three suffices, so this is preferred to the
+degree-two/three-color route.

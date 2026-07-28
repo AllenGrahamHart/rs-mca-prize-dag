@@ -1,7 +1,19 @@
 # Frontier
 
-The preferred E1 attack is now the exact graph-coloring target rather than
-profile-by-profile injectivity.
+The preferred E1 attack is now the aggregate low-mass edge budget rather than
+profile-by-profile injectivity. The coloring target remains an independent
+sufficient route.
+
+For the binding prize rate-`1/8` row, prove
+
+```text
+E_low <= 62622678770648913918718317914905517790930.
+```
+
+A uniform maximum-degree-three theorem is sufficient and is weaker than the
+degree-two condition that would force three-colorability. Count unordered
+class pairs, including their full common-coordinate multiplicity; a count of
+coefficient vectors alone is not the target.
 
 For the binding prize rate-`1/8` row, prove `chi(G_p(33))<=3`. Sufficient
 stronger statements include:

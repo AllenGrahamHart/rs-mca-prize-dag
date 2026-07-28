@@ -1654,7 +1654,7 @@
    },
    "relation": "ANALOGY_ONLY",
    "chain": null,
-   "scope": "finite w=1-style E1 quotient image at the six clean RowC/prize envelopes; row-specific low-mass collision-graph coloring replaces a generic flatness multiplier",
+   "scope": "finite w=1-style E1 quotient image at the six clean RowC/prize envelopes; row-specific low-mass coloring or aggregate edge budgets replace a generic flatness multiplier",
    "owner": "US",
    "nonclaims": [
     "does not prove the open collision-graph coloring premise",

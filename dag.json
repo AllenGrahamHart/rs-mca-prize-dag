@@ -290,8 +290,8 @@
     "label": "(Q) prefix / quotient flatness (prob:capfpr-Q)",
     "relation": "ANALOGY_ONLY"
    },
-   "statement": "On the E1 class set X_ell, join same-value class pairs with square mass S<=2ell. If this low-mass collision graph is c-colorable, the Euclidean Plotkin identity bounds every color class inside one value fiber by ell+1, hence every fiber by c(ell+1). Exact substitution gives the largest sufficient color counts 3268165922105543787, 210, 18885148505476, 54730211038721500, 3, and 316259390691 on the six RowC/prize rate envelopes. The binding prize rate-1/8 premise is chi<=3, giving fiber cap 102 and image size above B*. The compiler is proved; the coloring premise is separate.",
-   "notes": "ROUTE COMPILER 2026-07-28: converts the square-mass scope correction into an aggregate finite max-fiber target and bypasses the stronger P allowance."
+   "statement": "On the E1 class set X_ell, join same-value class pairs with square mass S<=2ell. If this graph is c-colorable, the Euclidean Plotkin identity bounds every fiber by c(ell+1), yielding six exact sufficient color caps and the binding prize-rate-1/8 cap chi<=3. More weakly, if E_low is its unordered edge count, then sum_y r_y^2<=(ell+1)K+(2ell+2-d0)E_low, where d0 is the proved minimum collision mass 16 at N=256 and 4 at N=512. Exact row budgets follow; the binding edge budget is 62622678770648913918718317914905517790930, about 1.648K, so maximum degree three suffices. Both open premises yield direct image above B* without the stronger total-P allowance.",
+   "notes": "ROUTE COMPILER 2026-07-28: converts the square-mass scope correction into exact finite max-fiber and low-mass second-moment targets, bypassing the stronger P allowance."
   },
   {
    "id": "e1_official_low_square_mass_collision_coloring",
@@ -307,6 +307,21 @@
    "statement": "For every pair-feasible prime-field row at the six named RowC/prize envelopes, prove that the graph of same-reduced-E1 class pairs with S<=2ell has chromatic number at most its exact row cap: 3268165922105543787, 210, 18885148505476, 54730211038721500, 3, or 316259390691 respectively. The binding prize rate-1/8 row asks for chi<=3 on N=256,ell=33,S<=66. By the proved Plotkin compiler this supplies more than B* distinct values without proving injectivity or the separate P allowance.",
    "attack_surface": "construct a three-color invariant or degree-two theorem on the binding row; otherwise exhibit an exact four-chromatic low-mass collision subgraph",
    "falsifier": "an admissible row with certified chromatic number above its printed cap, including a same-fiber low-mass K4 on the binding row"
+  },
+  {
+   "id": "e1_official_low_square_mass_pair_budget",
+   "title": "Official-row low-square-mass E1 collision-pair budget",
+   "status": "TARGET",
+   "refs": [
+    "background/nodes/e1_official_low_square_mass_pair_budget/statement.md",
+    "background/nodes/e1_official_low_square_mass_pair_budget/claim_contract.md",
+    "background/nodes/e1_official_low_square_mass_pair_budget/dependency_subdag.md",
+    "background/nodes/e1_official_low_square_mass_pair_budget/attack.md",
+    "background/nodes/e1_official_low_square_mass_pair_budget/frontier.md"
+   ],
+   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 62622678770648913918718317914905517790930, about 1.648K; maximum low-mass collision degree three is sufficient. The proved Plotkin second-moment compiler then forces more than B* distinct E1 values while automatically pricing every higher-square-mass collision.",
+   "attack_surface": "prove maximum degree three or the weaker aggregate edge budget from common-prime folded-kernel incidence, retaining exact class-pair multiplicities",
+   "falsifier": "an admissible row whose exact unordered low-mass collision-pair count exceeds its printed budget, or a multiplicity/type error in a claimed count"
   },
   {
    "id": "e1_n256_s16_high_variance_collision_exclusion",
@@ -36530,6 +36545,11 @@
    "kind": "req"
   },
   {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_low_square_mass_plotkin_coloring_compiler",
+   "kind": "req"
+  },
+  {
    "from": "e1_low_square_mass_plotkin_coloring_compiler",
    "to": "e1_official_low_square_mass_collision_coloring",
    "kind": "ev"
@@ -36540,7 +36560,22 @@
    "kind": "ev"
   },
   {
+   "from": "e1_low_square_mass_plotkin_coloring_compiler",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
    "from": "e1_official_low_square_mass_collision_coloring",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_official_low_square_mass_pair_budget",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   }

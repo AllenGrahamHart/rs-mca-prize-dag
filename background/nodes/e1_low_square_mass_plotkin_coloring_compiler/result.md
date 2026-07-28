@@ -8,3 +8,9 @@ The tight envelope is prize rate `1/8`, where three colors give fiber cap 102
 and an image strictly above `B*`, while four colors are not certified by this
 compiler. The coloring itself remains open in
 `e1_official_low_square_mass_collision_coloring`.
+
+The same geometry gives a weaker aggregate route: on the tight row it is
+enough to bound the total number of `S<=66` collision pairs by
+`62622678770648913918718317914905517790930`, about `1.648K`. Maximum degree
+three is sufficient. This premise remains open in
+`e1_official_low_square_mass_pair_budget`.
