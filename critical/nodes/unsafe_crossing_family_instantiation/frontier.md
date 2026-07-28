@@ -52,8 +52,9 @@ autocorrelation variance `V<=64`. Four exact quotient-Schur endpoint packets
 exclude `V=76,74,72,70` after the sparse-L1 theorem, and the complete E34
 template chain excludes `V=68`; the complete E33 profile chain excludes
 `V=66`. In both first-band
-profiles all proper-conductor supports are excluded, but `(4,2,0)` is otherwise
-unrestricted and a full-conductor `(3,4,0)` vector already occurs at
+profiles all proper-conductor supports are excluded. At that stage `(4,2,0)`
+was otherwise unrestricted; the later complete cofactor chain closes its
+prize-envelope branch. A full-conductor `(3,4,0)` vector already occurs at
 `V=36`. The surviving singleton reductions additionally have root
 multiplicity at most five in `(3,4,0)`, while the two singleton
 exponents in `(4,2,0)` are not congruent modulo 32. Every residual
@@ -320,10 +321,21 @@ graph.
 The exact folded-vector form is
 `E_low=(1/2)sum_d M_33(a(d),b(d))`; the simple stronger binding-row target is
 at most 69,541 oriented low-mass vectors. The prize field floor removes every
-`S=16` profile first, so `(4,2,S=18)` is the leading live weight. Existing
-orbit counts must restore orientation, stabilizers, and these class-pair
-weights.
-Alternatively attack the still broad `(4,2,0)` profile through its seven
-exact prize cofactor classes (419 on RowC). Do not rerun any `V>=26`
-campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
-safe predecessor relocates the candidate threshold immediately.
+`S=16` profile first. The complete seven-cofactor chain now also proves
+`(4,2,S=18)` empty on prize-envelope rows: the final `m=4` and `m=2` dual
+resultant ledgers contain 21,376 and 511,272 rows respectively and no interval
+quotient. The 69,541 cap remains sufficient but is no longer calibrated to the
+largest live weight. The exact residual ledger makes `(3,6,S=18)` the next
+maximum-weight profile and sharpens the sufficient cap to 93,962. Existing
+orbit counts must restore orientation, stabilizers, and class-pair weights.
+RowC retains 419 `(4,2,0)` cofactor classes. Do not rerun any closed prize
+cofactor or the `(3,4,0)` `V>=26` campaign. Later `N=256,s>=6` and
+`N=512,s>=3` bands remain open. Any exact safe predecessor relocates the
+candidate threshold immediately.
+
+For the new maximum-weight `(3,6,S=18)` profile, the exact six-singleton
+2-adic classification first leaves twelve cofactors and finite even-variance
+windows. A dual exact affine/XOR classifier removes all five `m=1538`
+chambers, leaving eleven cofactors. The next two short interfaces are
+`m=1024,1028`, both with `V<=34`. This reduction is proved but does not yet
+pay the aggregate edge ledger.

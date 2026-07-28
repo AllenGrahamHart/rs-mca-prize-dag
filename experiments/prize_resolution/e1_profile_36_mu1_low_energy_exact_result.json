@@ -1,0 +1,154 @@
+{
+  "affine_orbits": 1969,
+  "engine": "pair-xor-plus-third",
+  "orbit_file_sha256": "db80c519eb61331a866f0b865f7e13896868ae6fdeabe13aaa51be1579bb933d",
+  "passed": 24,
+  "rows": [
+    {
+      "orbits": 83,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=83 sign_assignments=2656 targets=78336 xor_probes=9556992 triple_candidates=626 exact_sign_tests=5008\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=104192 xor_probes=12711424 triple_candidates=458 exact_sign_tests=3664\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=85248 xor_probes=10400256 triple_candidates=420 exact_sign_tests=3360\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=75008 xor_probes=9150976 triple_candidates=530 exact_sign_tests=4240\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=82944 xor_probes=10119168 triple_candidates=454 exact_sign_tests=3632\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=105728 xor_probes=12898816 triple_candidates=434 exact_sign_tests=3472\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=100864 xor_probes=12305408 triple_candidates=1264 exact_sign_tests=10112\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=100352 xor_probes=12242944 triple_candidates=1444 exact_sign_tests=11552\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=81920 xor_probes=9994240 triple_candidates=420 exact_sign_tests=3360\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=102784 xor_probes=12539648 triple_candidates=746 exact_sign_tests=5968\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=100352 xor_probes=12242944 triple_candidates=292 exact_sign_tests=2336\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=100864 xor_probes=12305408 triple_candidates=606 exact_sign_tests=4848\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=100096 xor_probes=12211712 triple_candidates=392 exact_sign_tests=3136\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=100608 xor_probes=12274176 triple_candidates=528 exact_sign_tests=4224\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=82944 xor_probes=10119168 triple_candidates=364 exact_sign_tests=2912\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=84992 xor_probes=10369024 triple_candidates=368 exact_sign_tests=2944\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=90880 xor_probes=11087360 triple_candidates=524 exact_sign_tests=4192\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=98816 xor_probes=12055552 triple_candidates=544 exact_sign_tests=4352\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=95744 xor_probes=11680768 triple_candidates=616 exact_sign_tests=4928\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=93696 xor_probes=11430912 triple_candidates=1628 exact_sign_tests=13024\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=80128 xor_probes=9775616 triple_candidates=654 exact_sign_tests=5232\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=89088 xor_probes=10868736 triple_candidates=330 exact_sign_tests=2640\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=87040 xor_probes=10618880 triple_candidates=2584 exact_sign_tests=20672\n"
+    },
+    {
+      "orbits": 82,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-xor-plus-third orbits=82 sign_assignments=2624 targets=94208 xor_probes=11493376 triple_candidates=744 exact_sign_tests=5952\n"
+    }
+  ],
+  "schema": "e1-profile-36-mu1-low-energy-exact-result-v1",
+  "shards": 24
+}

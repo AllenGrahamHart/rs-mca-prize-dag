@@ -1,0 +1,18 @@
+{
+  "dictionary_statement_file": "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/statement.md",
+  "dictionary_statement_sha256": "a2e6fe3a2ac8f8c89a1d9f0a0748377602ff16ede731424e685e0526d01fc512",
+  "window_statement_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/statement.md",
+  "window_statement_sha256": "bd481a4fdfbc63c21577da289261412298a8b8faab2df6ca6f6bd799c32b34bd",
+  "m1028_statement_file": "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/statement.md",
+  "m1028_statement_sha256": "4f488420ac5e82d5f99f82dcbf25e8fb6c2bab0274d3bc77a0e78b9c041ac565",
+  "m514_statement_file": "background/nodes/e1_prize_n256_s18_m514_collision_exclusion/statement.md",
+  "m514_statement_sha256": "00bffcad4e694515497d81ce00adb80b2477e847b09527a9dd28e788366cb4e5",
+  "m256_statement_file": "background/nodes/e1_prize_n256_s18_m256_collision_exclusion/statement.md",
+  "m256_statement_sha256": "5ea091b1bcd1eafdb6f1eabc743d2237af8f11b6071dd559b5ddb838404d9772",
+  "m16_statement_file": "background/nodes/e1_prize_n256_s18_m16_collision_exclusion/statement.md",
+  "m16_statement_sha256": "9c2162f575eb42f36e008ba32b4811f90c6945dcea028c75d93b6debe7b751f5",
+  "m4_statement_file": "background/nodes/e1_prize_n256_s18_m4_collision_exclusion/statement.md",
+  "m4_statement_sha256": "242aeb744ce956eea4b64c818c94c6a102ef4c9040eff155f63a245de89d4ffa",
+  "m2_statement_file": "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/statement.md",
+  "m2_statement_sha256": "65567a24e18f5eaa77282946fae497a53ea0f49feb9cfefe31d8c3a51d52780a"
+}

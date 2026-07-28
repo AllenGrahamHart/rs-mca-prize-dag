@@ -97,9 +97,10 @@ vectors and gives maximum `M_3=1356<1732`, excluding that profile. The final
 `(5,7)` census tests 1,984,793,600 vectors. Its unrestricted maximum 1758 has
 proper conductor and is removed by the proved conductor theorem; its exact
 full-conductor maximum is `M_3=1416<1732`. The endpoint synthesis therefore
-proves that every `V=66` case is impossible. The live `(3,4,0)` variance
-frontier is now positive even `V<=64`; `(4,2,0)` and the later swap bands remain
-open, so the universal target remains unproved.
+proves that every `V=66` case is impossible. At that stage the live `(3,4,0)`
+variance frontier was positive even `V<=64`; the separate `(4,2,0)` prize
+branch is subsequently closed by the complete cofactor chain recorded below.
+Later bands remain open, so the universal target remains unproved.
 
 At `V=64`, a further exact reduction is proved. The slack recurrence gives
 `L<=18`, and the cubic-Hermite certificate pays every abstract profile with
@@ -259,30 +260,43 @@ degree-two/three-color route.
 The proved `e1_low_square_mass_weighted_kernel_dictionary` converts the
 preferred budget exactly to folded-vector currency:
 `E_low=(1/2)sum_d M_ell(a(d),b(d))`. The exact prize field floor then removes
-all `S=16` profiles on the binding row. Its largest live weight is attained at
-`(4,2,S=18)`, and at most 69,541 oriented low-mass kernel vectors is a
-stronger sufficient condition. These are route results, not a proof of the
-vector count or the unsafe payload.
+all `S=16` profiles on the binding row. The subsequent complete cofactor
+chain excludes every `(4,2,S=18)` prize collision: seven exact cofactor
+classes are reduced by analytic variance bounds and dual FLINT/PARI resultant
+ledgers, with zero quotient in the prize interval. The prior 69,541 oriented-
+vector cap is sharpened by the exact residual ledger: `(3,6,S=18)` is the
+next maximum-weight profile, and the sufficient cap rises to 93,962. These are
+route results, not a proof of the aggregate vector count or the unsafe
+payload.
 
-**Square-mass reframing, 2026-07-28 — question raised and answered.** The
-planner asked (canonical `0acf7e8f`) whether the `(3,4)` variance descent
-exhausts the `S=16` layer. It does not: `(2,8)`, `(1,12)` and `(0,16)` sit at
-the same square mass and survive the norm test. See
+The `(3,6,S=18)` profile now has a finite arithmetic reduction as well. Exact
+binary Hasse derivatives and local reciprocity leave twelve prize cofactors;
+variance zero and two are excluded, and all residual variances are bounded.
+Dual exact engines then prove every `mu=1` energy from two through six empty,
+excluding `m=1538`. Eleven cofactors remain, with `m=1024,1028` the shortest
+windows through `V=34`. This is a sharper input to the direct-E1 route, not
+yet the required row-uniform edge bound.
+
+**Square-mass reframing — planner pointer, refreshed 2026-07-28.** The
+`(3,4)` variance descent does not exhaust the `S=16` layer: `(2,8)`, `(1,12)`
+and `(0,16)` sit at the same square mass and survive the norm test. See
 `background/nodes/e1_collision_square_mass_reparametrization`, which also
-corrects the planner's overstated claim that raw distance is "unbounded" — at
-fixed official parameters `S<=260` or `S<=132`, so it is finite.
+corrects the planner's overstated "unbounded" wording — at fixed official
+parameters `S<=260` or `S<=132`.
 
-Two consequences now recorded in that node and its successors:
+Two things follow, both now executed rather than proposed:
 
-- **The per-endpoint descent inside `(3,4)` is paused.** The universal consumer
-  asks for the aggregate allowance `P<=K-B*-1`; it does **not** require every
-  profile to be collision-free. Exhausting one profile one variance level at a
-  time cannot reach a route-uniform bound.
-- **`e1_prize_field_floor_even_norm_exclusion` removes `S=16` outright on
-  prize-envelope rows.** With `p>2^255` and `|Norm|<=S^(h/2)=2^256` at `S=16`,
-  `p|Norm` forces `|Norm|=p`, contradicting that every same-size class
-  difference has even norm. The prize-row floors sharpen to `S>=18` (`N=256`)
-  and `S>=6` (`N=512`). **RowC is unchanged** — its prime floor is only
-  `2^250`, so the `(3,4)` closures remain load-bearing there.
+- **The per-endpoint descent is paused.** The consumer asks for the aggregate
+  allowance `P<=K-B*-1`, not for every profile to be collision-free.
+- **`S=16` is gone on prize-envelope rows** by
+  `e1_prize_field_floor_even_norm_exclusion` (`p>2^255`, `|Norm|<=16^64=2^256`,
+  so `|Norm|=p`, contradicting even norm against odd `p`). Prize floors sharpen
+  to `S>=18` / `S>=6`. **RowC is unchanged** at the `2^250` floor, so the
+  `(3,4)` closures stay load-bearing there.
+
+`S=18` is now being cleared by cofactor class rather than by variance endpoint:
+`(4,2,S=18)` is closed outright, and each closure feeds the aggregate ledger —
+it raised the sufficient oriented-vector cap from `69541` to `93962`, with
+`(3,6,S=18)` now the maximum-weight remaining profile.
 
 The node stays `TARGET`. `(4,2,0)`, the swap bands, and `N=512` are untouched.

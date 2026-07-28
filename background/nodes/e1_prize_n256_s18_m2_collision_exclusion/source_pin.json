@@ -1,0 +1,18 @@
+{
+  "parent_statement_file": "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/statement.md",
+  "parent_statement_sha256": "db1f32c955d95953d06d63149e005a6307ce2cd74ddd97117623289ad1480e37",
+  "flint_source_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m2_residual_candidates.cpp",
+  "flint_source_sha256": "23957bf31e21e99bc1fa84f2192e0de7d7945edf1745d5c83ab9dd90b6a20122",
+  "flint_launcher_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m2_candidate_norms_modal.py",
+  "flint_launcher_sha256": "7c9d3a4fe221b1ef6a42ac890f8149af89a17089af0f400099cb460dbdd27791",
+  "flint_result_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m2_candidate_norms_result.json",
+  "flint_result_sha256": "382d39cd1ba63a8403262cc9d7404fbee1dcf983ef85911f30ab8c6fd328c6af",
+  "flint_modal_app": "ap-5RZLHmXH21jJetiYlXEvLU",
+  "pari_source_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m2_residual_candidates_audit.cpp",
+  "pari_source_sha256": "432f871006d88e4a219f07e2761b41b86c8c578f6ca0484ce97f337b652fcfcf",
+  "pari_launcher_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m2_candidate_norms_pari_audit_modal.py",
+  "pari_launcher_sha256": "bcda12fff2332434e4207389623ac7bb8f429cd52640d5fbd2a32c332e64c905",
+  "pari_result_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m2_candidate_norms_pari_audit_result.json",
+  "pari_result_sha256": "646d0b0c3c79f4c90a45580d2d25e3598f92ab11c34a3f740b46b4321ca8718a",
+  "pari_modal_app": "ap-Hcr26R9gJ1DnC1bLMkYf5f"
+}

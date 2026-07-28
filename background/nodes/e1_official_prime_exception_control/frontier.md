@@ -171,7 +171,28 @@ the formerly broad cofactor window contracts to 419 explicit RowC values.
 On prize rows, the exact field floor and residue-degree rule leave seven
 cofactors; the proved variance/cofactor theorem removes `1538`, forces
 `V=2 mod 8`, and leaves only `V in {10,18}` for `m=1028`. Six prize cofactors
-remain.
+remain at that stage. A dual complete normalized census then removes `1028`,
+leaving five prize cofactors; the narrowest residual is `m=514`,
+`10<=V<=50`, `V=2 mod 8`. Dual exact censuses and FLINT/PARI resultants then
+remove `514`, leaving `2,4,16,256`; the narrowest is `m=256`,
+`10<=V<=74`, `V=2 mod 8`. A dual nine-chamber census and committed
+FLINT/PARI norm ledger remove `256`, leaving `2,4,16`; the narrowest is `m=16`,
+initially `10<=V<=178`, `V=2 mod 8`. A profile-specific chord bound, six
+quadratic majorants, and three exact third-moment Hermite certificates remove
+all `m=16` chambers from `V=114` upward, leaving `10<=V<=106`.
+Dual complete residual censuses and independently streamed FLINT/PARI
+resultants then remove all 540332 vectors in that residual. Cofactor `m=16`
+is impossible, leaving only `m=2,4` at that stage. The `m=4` high-variance
+and exact-resultant children then remove all 21,376 residual vectors; the
+corresponding `m=2` children remove all 511,272 residual vectors. Thus
+`(4,2,0)` has no prize-envelope collision. RowC retains its 419 cofactor
+classes.
+The next prize-weighted profile `(3,6,S=18)` is also no longer unrestricted:
+its exact six-singleton valuation set yields twelve cofactors, with positive
+even variance windows ending at 12 for `m=1538`, 34 for `m=1024,1028`, and
+350 in the widest `m=2` branch. A complete affine/XOR classifier then removes
+the `m=1538` branch, leaving eleven classes. This remains evidence for the
+aggregate target rather than a row close.
 At `N=512,s=2`, exact negacyclic variance
 excludes `(0,4,0)`, while a complete 129540-state interval-resultant
 certificate excludes `(1,2,0)`. The entire band is closed, so the `N=512`
@@ -204,9 +225,8 @@ supersedes the former instruction to continue immediately with `V=24`:
   after the 2-adic cofactor screen. In `(3,4,0)`, every `V>=26` chamber is
   closed and must not be rerun. Do not authorize `V=24` until a theorem
   explains how that profile-local descent contributes efficiently to the
-  aggregate square-mass ledger. Compare any such route against the 419 exact
-  RowC cofactor classes and the six variance-windowed prize classes in
-  `(4,2,0)`. Treat the
+  aggregate square-mass ledger. The `(4,2,0)` prize profile is now empty, but
+  its 419 RowC cofactor classes remain. Treat the
   `N=512,s=3` band independently;
 - construct an exact pair-feasible candidate-class row above its allowance and
   retire this target;

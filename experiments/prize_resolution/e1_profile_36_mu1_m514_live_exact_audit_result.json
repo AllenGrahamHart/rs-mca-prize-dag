@@ -1,0 +1,395 @@
+{
+  "affine_orbits": 123196,
+  "engine": "sorted-pairs",
+  "engine_sha256": "ffa2b31676b816acaaf6453f11d4032c24a5247ff2339d4937821d69a2d4c114",
+  "orbit_file_sha256": "683072954e0ee8cede6ecb2da76145c0836fa7f449c6e7f2cc99980f10b4ee56",
+  "passed": 64,
+  "rows": [
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=15276352 triple_candidates=13798 exact_sign_tests=110384 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13421952 triple_candidates=14162 exact_sign_tests=113296 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=12750464 triple_candidates=14488 exact_sign_tests=115904 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14558016 triple_candidates=15296 exact_sign_tests=122368 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=15725312 triple_candidates=13510 exact_sign_tests=108080 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=15264640 triple_candidates=12948 exact_sign_tests=103584 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13273600 triple_candidates=11928 exact_sign_tests=95424 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=15990784 triple_candidates=13836 exact_sign_tests=110688 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14347200 triple_candidates=14078 exact_sign_tests=112624 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=12734848 triple_candidates=14516 exact_sign_tests=116128 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13503936 triple_candidates=11220 exact_sign_tests=89760 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14831296 triple_candidates=13648 exact_sign_tests=109184 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14136384 triple_candidates=11872 exact_sign_tests=94976 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14159808 triple_candidates=12772 exact_sign_tests=102176 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=15303680 triple_candidates=13928 exact_sign_tests=111424 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14854720 triple_candidates=14764 exact_sign_tests=118112 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14800064 triple_candidates=13904 exact_sign_tests=111232 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14597056 triple_candidates=12924 exact_sign_tests=103392 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=16607616 triple_candidates=15116 exact_sign_tests=120928 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14776640 triple_candidates=15124 exact_sign_tests=120992 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "CANDIDATE E=10 q=6 state=0:1,1:1,2:-1,4:-1,5:2,65:2,66:1,68:2,70:-1, roots=113,\nCANDIDATE E=10 q=6 state=0:1,1:-1,2:-1,4:-1,5:-2,65:-2,66:1,68:2,70:-1, roots=49,\nPASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14585344 triple_candidates=15128 exact_sign_tests=121024 root_tests=512 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=4 mod257_10=2 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14573632 triple_candidates=14884 exact_sign_tests=119072 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14628288 triple_candidates=16200 exact_sign_tests=129600 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13679616 triple_candidates=16312 exact_sign_tests=130496 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13441472 triple_candidates=13908 exact_sign_tests=111264 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=15057728 triple_candidates=13522 exact_sign_tests=108176 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13902144 triple_candidates=15534 exact_sign_tests=124272 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=17353280 triple_candidates=16212 exact_sign_tests=129696 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=15498880 triple_candidates=12772 exact_sign_tests=102176 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13230656 triple_candidates=13220 exact_sign_tests=105760 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13179904 triple_candidates=13640 exact_sign_tests=109120 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=12094592 triple_candidates=14344 exact_sign_tests=114752 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13234560 triple_candidates=12586 exact_sign_tests=100688 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13015936 triple_candidates=13540 exact_sign_tests=108320 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=15014784 triple_candidates=12168 exact_sign_tests=97344 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=17107328 triple_candidates=13192 exact_sign_tests=105536 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14850816 triple_candidates=13166 exact_sign_tests=105328 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "CANDIDATE E=10 q=6 state=0:1,1:1,2:-1,22:-2,43:-1,64:1,65:2,87:1,108:2, roots=70,\nCANDIDATE E=10 q=6 state=0:1,1:1,2:-1,22:2,43:-1,64:-1,65:-2,87:1,108:-2, roots=47,\nCANDIDATE E=10 q=6 state=0:1,1:-1,2:-1,22:-2,43:1,64:1,65:-2,87:-1,108:2, roots=6,\nCANDIDATE E=10 q=6 state=0:1,1:-1,2:-1,22:2,43:1,64:-1,65:2,87:-1,108:-2, roots=111,\nPASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13211136 triple_candidates=12804 exact_sign_tests=102432 root_tests=512 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=4 mod257_10=4 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=15701888 triple_candidates=14382 exact_sign_tests=115056 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13687424 triple_candidates=14152 exact_sign_tests=113216 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14803968 triple_candidates=14258 exact_sign_tests=114064 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14136384 triple_candidates=13488 exact_sign_tests=107904 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=15491072 triple_candidates=13708 exact_sign_tests=109664 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13718656 triple_candidates=13696 exact_sign_tests=109568 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=12769984 triple_candidates=14312 exact_sign_tests=114496 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14374528 triple_candidates=12950 exact_sign_tests=103600 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=12094592 triple_candidates=12524 exact_sign_tests=100192 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14593152 triple_candidates=12688 exact_sign_tests=101504 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14854720 triple_candidates=11656 exact_sign_tests=93248 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14616576 triple_candidates=13482 exact_sign_tests=107856 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=13831872 triple_candidates=13590 exact_sign_tests=108720 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=12278080 triple_candidates=14182 exact_sign_tests=113456 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14148096 triple_candidates=13338 exact_sign_tests=106704 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14624384 triple_candidates=13760 exact_sign_tests=110080 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=15928320 triple_candidates=16150 exact_sign_tests=129200 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=15713600 triple_candidates=14404 exact_sign_tests=115232 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14140288 triple_candidates=15100 exact_sign_tests=120800 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "CANDIDATE E=8 q=4 state=0:1,1:1,2:-1,3:2,4:-1,62:1,65:2,66:2,68:-1, roots=71,\nCANDIDATE E=8 q=4 state=0:1,1:-1,2:-1,3:-2,4:-1,62:1,65:-2,66:2,68:-1, roots=7,\nPASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=14608768 triple_candidates=13452 exact_sign_tests=107616 root_tests=512 geometry7=0 mod257_7=0 geometry8=4 mod257_8=2 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=15697984 triple_candidates=14192 exact_sign_tests=113536 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1925,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1925 sign_assignments=61600 xor_probes=16182080 triple_candidates=13814 exact_sign_tests=110512 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1924,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1924 sign_assignments=61568 xor_probes=16174272 triple_candidates=14856 exact_sign_tests=118848 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1924,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1924 sign_assignments=61568 xor_probes=15518400 triple_candidates=12588 exact_sign_tests=100704 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1924,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1924 sign_assignments=61568 xor_probes=10927296 triple_candidates=13040 exact_sign_tests=104320 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    },
+    {
+      "orbits": 1924,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=sorted-pairs orbits=1924 sign_assignments=61568 xor_probes=13695232 triple_candidates=12992 exact_sign_tests=103936 root_tests=0 geometry7=0 mod257_7=0 geometry8=0 mod257_8=0 geometry9=0 mod257_9=0 geometry10=0 mod257_10=0 geometry11=0 mod257_11=0\n"
+    }
+  ],
+  "schema": "e1-profile-36-mu1-m514-live-exact-result-v1",
+  "shards": 64
+}

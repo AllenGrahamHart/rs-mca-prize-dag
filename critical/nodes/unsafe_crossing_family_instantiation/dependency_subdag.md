@@ -52,6 +52,11 @@ e1_n256_2adic_cofactor_collision_exclusion --ev-->
 e1_n256_s16_signed_chord_collision_gate --ev-->
 e1_n256_local_norm_cofactor_collapse --ev-->
 e1_prize_n256_s18_variance_cofactor_windows --ev-->
+e1_prize_n256_s18_m1028_collision_exclusion --ev-->
+e1_prize_n256_s18_m514_collision_exclusion --ev-->
+e1_prize_n256_s18_m256_collision_exclusion --ev-->
+e1_prize_n256_s18_m16_high_variance_exclusion --ev-->
+e1_prize_n256_s18_m16_collision_exclusion --ev-->
 e1_n512_four_singleton_collision_exclusion --ev-->
 e1_n512_trinomial_interval_norm_exclusion --ev-->
 e1_official_prime_exception_control       --ev-->
@@ -282,3 +287,12 @@ Independent complete censuses find 820 vectors, conductor removes 684, and
 exact norms leave four threshold exceptions. Exact PARI/FLINT tests prove
 their two distinct odd parts composite and below `2^251`; the E13 endpoint
 closes `V=26` and advances the frontier to `V<=24`, still as evidence only.
+
+On prize-envelope rows, the independent square-mass-18 branch is now closed.
+The variance/cofactor router leaves six classes after removing `1538`; proved
+children successively exclude `1028`, `514`, `256`, and `16`. The final
+`e1_prize_n256_s18_m4_collision_exclusion` and
+`e1_prize_n256_s18_m2_collision_exclusion` children use analytic moment
+splits and dual exact-resultant ledgers to exclude the last two cofactors.
+Thus `(4,2,S=18)` contributes zero prize edges. RowC and later square-mass
+profiles remain outside this finite exclusion.

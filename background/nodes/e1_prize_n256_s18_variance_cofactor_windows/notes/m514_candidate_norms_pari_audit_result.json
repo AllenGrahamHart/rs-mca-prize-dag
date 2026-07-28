@@ -1,0 +1,12 @@
+{
+  "census_sha256": "96c9367fef1f7075ee835b0bf2978fbd6e0b8484bd965f2db74b2f6e2f6626d2",
+  "complete": true,
+  "distinct_norm_count": 46,
+  "interval_row_count": 0,
+  "maximum_candidate": 66082262884856162162140234757894655654959953149381163882659090799481192796929,
+  "minimum_candidate": 1470216044111332101246903586478058446592054562036217967886793106909899777,
+  "primary_match": true,
+  "primary_sha256": "c2275a64549f58a0e6507200b11632e6b9eb5c987f8fbcaa2ec1e26a129d9f9b",
+  "row_count": 184,
+  "schema": "e1-prize-m514-candidate-norms-pari-audit-v1"
+}

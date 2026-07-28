@@ -1,0 +1,730 @@
+{
+  "complete": true,
+  "container_seconds": 95.17340921099999,
+  "errors": [],
+  "normalization": {
+    "singleton_positions": [
+      0,
+      1
+    ]
+  },
+  "results": [
+    {
+      "shard": 0,
+      "wall_seconds": 3.21531
+    },
+    {
+      "shard": 1,
+      "wall_seconds": 2.84922
+    },
+    {
+      "shard": 2,
+      "wall_seconds": 3.44204
+    },
+    {
+      "shard": 3,
+      "wall_seconds": 3.07036
+    },
+    {
+      "shard": 4,
+      "wall_seconds": 2.34163
+    },
+    {
+      "shard": 5,
+      "wall_seconds": 2.7599
+    },
+    {
+      "shard": 6,
+      "wall_seconds": 3.21068
+    },
+    {
+      "shard": 7,
+      "wall_seconds": 2.33814
+    },
+    {
+      "shard": 8,
+      "wall_seconds": 3.31646
+    },
+    {
+      "shard": 9,
+      "wall_seconds": 2.33821
+    },
+    {
+      "shard": 10,
+      "wall_seconds": 3.32863
+    },
+    {
+      "shard": 11,
+      "wall_seconds": 2.34424
+    },
+    {
+      "shard": 12,
+      "wall_seconds": 3.8867
+    },
+    {
+      "shard": 13,
+      "wall_seconds": 2.82576
+    },
+    {
+      "shard": 14,
+      "wall_seconds": 3.20855
+    },
+    {
+      "shard": 15,
+      "wall_seconds": 2.3424
+    },
+    {
+      "shard": 16,
+      "wall_seconds": 2.84889
+    },
+    {
+      "shard": 17,
+      "wall_seconds": 3.08317
+    },
+    {
+      "shard": 18,
+      "wall_seconds": 2.75917
+    },
+    {
+      "shard": 19,
+      "wall_seconds": 3.08051
+    },
+    {
+      "shard": 20,
+      "wall_seconds": 2.85469
+    },
+    {
+      "shard": 21,
+      "wall_seconds": 2.76845
+    },
+    {
+      "shard": 22,
+      "wall_seconds": 2.3402
+    },
+    {
+      "shard": 23,
+      "wall_seconds": 3.43695
+    },
+    {
+      "shard": 24,
+      "wall_seconds": 3.20789
+    },
+    {
+      "shard": 25,
+      "wall_seconds": 3.87854
+    },
+    {
+      "shard": 26,
+      "wall_seconds": 2.33836
+    },
+    {
+      "shard": 27,
+      "wall_seconds": 2.83466
+    },
+    {
+      "shard": 28,
+      "wall_seconds": 3.22517
+    },
+    {
+      "shard": 29,
+      "wall_seconds": 2.34387
+    },
+    {
+      "shard": 30,
+      "wall_seconds": 3.90782
+    },
+    {
+      "shard": 31,
+      "wall_seconds": 3.19811
+    }
+  ],
+  "returned_shards": 32,
+  "rows": [
+    {
+      "count": 0,
+      "energy": 5,
+      "maximum_m3": null,
+      "maximum_witness": null,
+      "minimum_m3": null,
+      "variance": 10
+    },
+    {
+      "count": 16,
+      "energy": 9,
+      "maximum_m3": 0,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          -2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          33,
+          64,
+          65,
+          96
+        ]
+      },
+      "minimum_m3": 0,
+      "variance": 18
+    },
+    {
+      "count": 8,
+      "energy": 13,
+      "maximum_m3": -48,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          -2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          43,
+          64,
+          86,
+          107
+        ]
+      },
+      "minimum_m3": -48,
+      "variance": 26
+    },
+    {
+      "count": 88,
+      "energy": 17,
+      "maximum_m3": 336,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          2,
+          2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          43,
+          44,
+          86,
+          87
+        ]
+      },
+      "minimum_m3": -132,
+      "variance": 34
+    },
+    {
+      "count": 88,
+      "energy": 21,
+      "maximum_m3": 252,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          -2,
+          2,
+          2,
+          2
+        ],
+        "positions": [
+          0,
+          1,
+          42,
+          84,
+          85,
+          127
+        ]
+      },
+      "minimum_m3": -384,
+      "variance": 42
+    },
+    {
+      "count": 232,
+      "energy": 25,
+      "maximum_m3": 288,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          -2,
+          -2,
+          2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          65,
+          66
+        ]
+      },
+      "minimum_m3": -240,
+      "variance": 50
+    },
+    {
+      "count": 460,
+      "energy": 29,
+      "maximum_m3": 480,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          -2,
+          -2,
+          2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          64,
+          77,
+          103,
+          116
+        ]
+      },
+      "minimum_m3": -336,
+      "variance": 58
+    },
+    {
+      "count": 15292,
+      "energy": 33,
+      "maximum_m3": 624,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          -2,
+          2,
+          2,
+          2
+        ],
+        "positions": [
+          0,
+          1,
+          25,
+          76,
+          101,
+          102
+        ]
+      },
+      "minimum_m3": -576,
+      "variance": 66
+    },
+    {
+      "count": 2160,
+      "energy": 37,
+      "maximum_m3": 696,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          -2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          67,
+          68
+        ]
+      },
+      "minimum_m3": -336,
+      "variance": 74
+    },
+    {
+      "count": 16188,
+      "energy": 41,
+      "maximum_m3": 912,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          19,
+          56,
+          74,
+          92
+        ]
+      },
+      "minimum_m3": -528,
+      "variance": 82
+    },
+    {
+      "count": 30552,
+      "energy": 45,
+      "maximum_m3": 1056,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          -2,
+          2,
+          2
+        ],
+        "positions": [
+          0,
+          1,
+          12,
+          33,
+          65,
+          86
+        ]
+      },
+      "minimum_m3": -444,
+      "variance": 90
+    },
+    {
+      "count": 446188,
+      "energy": 49,
+      "maximum_m3": 1548,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          2,
+          -2,
+          2
+        ],
+        "positions": [
+          0,
+          1,
+          64,
+          85,
+          106,
+          127
+        ]
+      },
+      "minimum_m3": -528,
+      "variance": 98
+    },
+    {
+      "count": 27272,
+      "energy": 53,
+      "maximum_m3": 1452,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          2,
+          2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          2,
+          5,
+          69,
+          72
+        ]
+      },
+      "minimum_m3": -468,
+      "variance": 106
+    },
+    {
+      "count": 129192,
+      "energy": 57,
+      "maximum_m3": 1608,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          -2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          4,
+          64,
+          65,
+          67
+        ]
+      },
+      "minimum_m3": -432,
+      "variance": 114
+    },
+    {
+      "count": 321520,
+      "energy": 61,
+      "maximum_m3": 2256,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          -2,
+          -2,
+          2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          65,
+          78,
+          104,
+          117
+        ]
+      },
+      "minimum_m3": -480,
+      "variance": 122
+    },
+    {
+      "count": 3026958,
+      "energy": 65,
+      "maximum_m3": 3264,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          2,
+          -2,
+          2
+        ],
+        "positions": [
+          0,
+          1,
+          24,
+          25,
+          51,
+          76
+        ]
+      },
+      "minimum_m3": -528,
+      "variance": 130
+    },
+    {
+      "count": 146496,
+      "energy": 69,
+      "maximum_m3": 2748,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          2,
+          -2,
+          2
+        ],
+        "positions": [
+          0,
+          1,
+          2,
+          5,
+          11,
+          14
+        ]
+      },
+      "minimum_m3": -432,
+      "variance": 138
+    },
+    {
+      "count": 328212,
+      "energy": 73,
+      "maximum_m3": 3528,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          -2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          43,
+          84,
+          86,
+          87
+        ]
+      },
+      "minimum_m3": -480,
+      "variance": 146
+    },
+    {
+      "count": 233476,
+      "energy": 77,
+      "maximum_m3": 3264,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          38,
+          64,
+          76,
+          115
+        ]
+      },
+      "minimum_m3": -252,
+      "variance": 154
+    },
+    {
+      "count": 4231616,
+      "energy": 81,
+      "maximum_m3": 4248,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "positions": [
+          0,
+          1,
+          116,
+          120,
+          121,
+          123
+        ]
+      },
+      "minimum_m3": -420,
+      "variance": 162
+    },
+    {
+      "count": 328604,
+      "energy": 85,
+      "maximum_m3": 4164,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          -2,
+          2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          37,
+          91,
+          110,
+          127
+        ]
+      },
+      "minimum_m3": -288,
+      "variance": 170
+    },
+    {
+      "count": 1302038,
+      "energy": 89,
+      "maximum_m3": 4560,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          -2,
+          2,
+          2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          10,
+          39,
+          79,
+          118
+        ]
+      },
+      "minimum_m3": -288,
+      "variance": 178
+    },
+    {
+      "count": 2465708,
+      "energy": 93,
+      "maximum_m3": 5280,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          2,
+          2,
+          -2,
+          -2
+        ],
+        "positions": [
+          0,
+          1,
+          22,
+          65,
+          72,
+          93
+        ]
+      },
+      "minimum_m3": 0,
+      "variance": 186
+    },
+    {
+      "count": 27522542,
+      "energy": 97,
+      "maximum_m3": 5904,
+      "maximum_witness": {
+        "coefficients": [
+          1,
+          -1,
+          -2,
+          2,
+          -2,
+          2
+        ],
+        "positions": [
+          0,
+          1,
+          16,
+          57,
+          62,
+          108
+        ]
+      },
+      "minimum_m3": -48,
+      "variance": 194
+    }
+  ],
+  "schema": "e1-prize-m2-residual-m3-frontier-v1",
+  "source_sha256": "89f1ade82efb5123dc0ae989f910661e2b24ed81d24339b96742126ede6531f1",
+  "worker_seconds": 94.92468
+}

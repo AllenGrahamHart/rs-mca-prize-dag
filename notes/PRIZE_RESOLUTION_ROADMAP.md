@@ -5749,3 +5749,407 @@ status movement: pair-budget TARGET remains open
 next action: classify or exclude the two m=1028 chambers before broadening to
              the other five cofactors; preserve weighted edge multiplicities
 ```
+
+**Same-day cofactor-1028 close:** the two residual chambers are now exhausted
+by independent complete normalized engines.
+
+```text
+proved node: e1_prize_n256_s18_m1028_collision_exclusion
+normalization: singleton positions 0,2; first singleton sign +1
+support choices: binom(126,4)=10009125
+signed normalized vectors: 320292000
+primary engine: folded 15-pair autocorrelation, greedy balanced shards
+audit engine: full 128-slot convolution, lexicographic modulo shards
+primary Modal app: ap-EI0gpqKTVVsnR6sCbXZfB3
+audit Modal app: ap-52RCxiNtu4Oqe2G36sJqfJ
+aggregate worker-seconds: 11.552424 + 28.775821
+V=10 count: 0
+V=18 count: 16
+V=18 norms divisible by 257: 0
+cofactor conclusion: 1028=4*257 impossible
+live prize cofactors: {2,514,4,16,256}
+RowC movement: none
+pair-budget status: TARGET; normalized emptiness is not an edge census
+next action: attack m=514 in its six admissible chambers V=10,18,26,34,42,50
+```
+
+**Same-day cofactor-514 close:** the six residual chambers are exhausted, with
+the divisor survivors paid by dual exact whole norms.
+
+```text
+proved node: e1_prize_n256_s18_m514_collision_exclusion
+normalization: singleton positions 0,1; first singleton sign +1
+signed normalized vectors: 320292000
+primary census app: ap-F9OHvyBufk7R438gPvcJt1
+audit census app: ap-3WkMulO32Zeoqs4U19PRBS
+counts by V=10,18,26,34,42,50: 0,16,8,88,88,232
+257-divisible counts: 0,4,4,48,40,88
+divisor-surviving vectors: 184
+FLINT norm app: ap-WpzlLsJtyHMAqRXNX4zt5K
+PARI audit app: ap-BGNiOCyf6mVdcovdSsUgS0
+exact-resultant agreement: 184/184
+distinct whole norms: 46
+candidate quotients Norm/514 in prize interval: 0
+maximum quotient: 66082262884856162162140234757894655654959953149381163882659090799481192796929
+cofactor conclusion: 514 impossible
+live prize cofactors: {2,4,16,256}
+RowC movement: none
+pair-budget status: TARGET
+next action: attack m=256 in V=10,18,26,34,42,50,58,66,74
+```
+
+**Same-day cofactor-256 close:** the nine residual chambers are exhausted and
+their exact norms form a certified gap around the prize interval.
+
+```text
+proved node: e1_prize_n256_s18_m256_collision_exclusion
+normalization: singleton positions 0,8; first singleton sign +1
+signed normalized vectors: 320292000
+primary census app: ap-GLhkTmrhb9jYJYJwyLWxYJ
+audit census app: ap-geY02XirYKUn755jIDegx3
+counts by V=10,18,26,34,42,50,58,66,74:
+  0,28,52,204,212,864,956,15364,3076
+residual vectors: 20756
+FLINT ledger app: ap-qOUwcG4vpXLacPHsbUgmcn
+PARI audit app: ap-ORclHKC4a7qVqguTzELasP
+exact-resultant commitment agreement: 32/32 shards, 20756/20756 rows
+V=18 quotients: all above prize interval
+V>=26 quotients: all below prize interval
+candidate quotients in prize interval: 0
+maximum below: 79966870433624456578392518772995331447805526474703846245310288507286369992961
+minimum above: 127117908459354031873489386413391045324297956117263458825602208201263580806401
+cofactor conclusion: 256 impossible
+live prize cofactors: {2,4,16}
+RowC movement: none
+pair-budget status: TARGET
+next action: seek an analytic/census split for m=16; its 22 variance chambers
+             are too broad for an unscoped whole-norm dump
+```
+
+**Same-day cofactor-16 high-variance close:** a profile-specific chord ledger
+and a layered third moment produce the requested analytic/census split.
+
+```text
+proved node: e1_prize_n256_s18_m16_high_variance_exclusion
+raw chord magnitudes: six 4s, eight 2s, one 1
+profile inequality: 4L<=E+35, where E=V/2
+quadratic-majorant close: V=138,146,154,162,170,178
+V=130 layer profiles: 73
+third-moment caps: 4702 at V=114, 5118 at V=122, 5950 at V=130
+cubic Hermite contacts: (15,62) at V=114,122; (15,66) at V=130
+exact field-floor threshold used: 2^(1299/5)<16p_min
+m=16 residual: 10<=V<=106, V=2 mod 8
+planning census app: ap-xUAM32cidKtQXwQEyFjKZM
+planning census: all 320292000 normalized vectors, counts and (E,L) only
+audit census app: ap-PPOc61mOxwR0pClp4jTjwI
+dual count and (E,L) agreement: exact in every cell
+nonzero vectors through V=106: 540332
+load-bearing computation: none; theorem verifier uses exact rational arithmetic
+live prize cofactors: {2,4,16}
+pair-budget status: TARGET
+next action: stream exact norms only for the 540332 low-variance vectors
+             without storing a raw multi-gigabyte witness packet
+```
+
+**Same-day cofactor-16 close:** the bounded residual is exhausted without a
+stored witness or norm dump.
+
+```text
+proved node: e1_prize_n256_s18_m16_collision_exclusion
+normalization: singleton positions 0,4; first singleton sign +1
+dual census universe: 320292000 signed normalized vectors
+residual vectors through V=106: 540332
+FLINT stream app: ap-6Mx4ggc8xnWQiKXHn8Nin3
+PARI/direct-convolution audit app: ap-iL2Um5gs93niNlF87WvgLp
+FLINT worker-seconds: 138.08322434
+PARI worker-seconds: 875.875521412
+exact multiset agreement: 64/64 fingerprint buckets
+quotients below prize interval: 540024
+quotients inside prize interval: 0
+quotients above prize interval: 308
+maximum below: 104797259883500113680505745049174573490076600644557179823872590464045041710081
+minimum above: 109148549668884138628080445927205579649397021264609510361461809939220006348801
+cofactor conclusion: m=16 impossible
+live prize cofactors: {2,4}
+pair-budget status: TARGET; normalized vectors are not weighted edges
+next action: seek an analytic/census split for m=4 before any exact norm run;
+             its current 28 chambers through V=226 are too broad to stream
+```
+
+**Same-day cofactor-4 high-variance close:** exact third moments and analytic
+majorants isolate a small residual without a broad resultant run.
+
+```text
+proved node: e1_prize_n256_s18_m4_high_variance_exclusion
+profile inequality: 4L<=E+35, with L=E mod 2
+dual exact M3 frontier: every chamber V=10,18,...,162
+primary direct-convolution app: ap-FWSBvehhSdCJZMGDPjEIab
+audit folded-pair app: ap-TNwtdWkeeVT1yPGaLxB941
+exact M3/Hermite close: V=82,90,...,162
+universal-layer close: V=170,178,186,194
+quadratic-majorant close: V=202,210,218,226
+exact threshold: (4p_min)^5>2^1289
+m=4 residual: 10<=V<=74, V=2 mod 8
+load-bearing compute: two exact M3 maxima packets, about 69 worker-seconds
+corroborating counts app: ap-OKdHMMiWlBCDidicP9701v
+next action: stream exact norms only for the 21376 residual vectors
+```
+
+**Same-day cofactor-4 close:** the bounded residual has an exact certified gap
+around the prize interval.
+
+```text
+proved node: e1_prize_n256_s18_m4_collision_exclusion
+normalization: singleton positions 0,2; first singleton sign +1
+residual vector count: 21376
+FLINT stream app: ap-cqeedeWfHi2ZWPpADOVg8o
+PARI/direct-convolution audit app: ap-UrU14R9jlfWWM2B50i9jwk
+exact multiset agreement: 64/64 fingerprint buckets
+quotients below prize interval: 20604
+quotients inside prize interval: 0
+quotients above prize interval: 772
+maximum below: 107716387476569755844902778849041509815310757677547440774146432592221447900929
+minimum above: 110553665570163478885905819698234426068541015284212878175575978480389082393089
+cofactor conclusion: m=4 impossible
+live prize cofactors: {2}
+pair-budget status: TARGET; normalized vectors are not weighted edges
+next action: derive the cheapest analytic/census split for the sole m=2 branch
+```
+
+**Same-day cofactor-2 high-variance close:** the same moment machinery reaches
+the last cofactor after a single bounded dual frontier.
+
+```text
+proved node: e1_prize_n256_s18_m2_high_variance_exclusion
+normalization: singleton positions 0,1
+dual exact M3 frontier: every chamber V=10,18,...,194
+primary direct-convolution app: ap-2SrwvNtxlhfJ2USNVd5yvn
+audit folded-pair app: ap-uGeZVekDHwri0h2YdtA6yH
+exact M3/Hermite close: V=106,114,...,194
+universal-layer close: V=202,210,...,250
+exact threshold: (2p_min)^5>2^1284
+m=2 residual: 10<=V<=98, V=2 mod 8
+dual frontier worker-seconds: 94.92468 + 58.20173
+next action: stream exact norms only for the 511272 residual vectors
+```
+
+**Same-day cofactor-2 close:** the final leading-profile cofactor has an exact
+certified gap around the prize interval.
+
+```text
+proved node: e1_prize_n256_s18_m2_collision_exclusion
+residual vector count: 511272
+FLINT stream app: ap-5RZLHmXH21jJetiYlXEvLU
+PARI/direct-convolution audit app: ap-Hcr26R9gJ1DnC1bLMkYf5f
+exact multiset agreement: 64/64 fingerprint buckets
+quotients below prize interval: 510396
+quotients inside prize interval: 0
+quotients above prize interval: 876
+maximum below: 107768200285002421852540903242682983183211082719077647662104106067449092858113
+minimum above: 108175736216610979727225685018558899952758788007302660274771396038641324156161
+cofactor conclusion: m=2 impossible
+leading profile conclusion: every prize cofactor of (4,2,S=18) is impossible
+pair-budget status: TARGET; later profiles and weighted edges remain open
+next action: recompute the maximum-weight live profile before another census
+```
+
+**Same-day leading-profile synthesis:** the sibling cofactor certificates are
+now assembled into a zero contribution and a sharper aggregate interface.
+
+```text
+proved node: e1_prize_n256_s18_profile_exclusion
+exhausted prize cofactors: {2,514,1538,4,1028,16,256}
+excluded profile: (a,b,S)=(4,2,18)
+old maximum weight: 1873053318886373426584792000465260242
+remaining eligible profiles: 270
+new maximum profile: (a,b,S)=(3,6,18)
+new maximum weight: 1386246316188473270092082114587711840
+old sufficient oriented-vector cap: 69541
+new sufficient oriented-vector cap: 93962
+next integer 93963: not certified by the uniform inequality
+RowC movement: none; its 419 (4,2) cofactor classes remain
+pair-budget status: TARGET
+next action: seek structural/norm exclusion or exact weighted pricing for
+             (3,6,S=18) before any broad census
+```
+
+**Same-day profile-(3,6) arithmetic reduction:** the new maximum-weight
+profile now has a finite, profile-specific interface without a support-9
+census.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_cofactor_windows
+profile: (a,b,S,H)=(3,6,18,12)
+binary multiplicities after the cofactor bound: {1,2,3,4,5,6,8,9,10}
+exact prize cofactors: {2,4,8,16,32,64,256,512,514,1024,1028,1538}
+variance parity: positive even; V=2 excluded by the one-lag Lucas resultant
+widest residual: m=2, 4<=V<=350 even
+short residuals: m=1024,1028 through V=34; m=1538 through V=12
+tight first attack: m=1538 and V in {4,6,8,10,12}
+Modal audit: ap-NgXdlPnSNBEljttQ9JDVKa, peak child RSS 56 MB
+compute decision: no broad support-9 vector or norm census authorized
+pair-budget status: TARGET
+```
+
+**Same-day profile-(3,6) cofactor-1538 close:** low variance plus exact
+2-adic multiplicity reduces the shortest branch to a finite affine/XOR
+classification, which is empty.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m1538_exclusion
+cofactor: 1538=2*769, hence mu=1
+residual energies: E in {2,3,4,5,6}
+normalized singleton supports examined: 10009125
+mu=1 normalized supports: 5005539
+low-parity normalized supports: 27207
+affine support orbits: 1969
+singleton sign assignments: 63008
+low-energy targets: 2216832
+primary pair-plus-third XOR probes: 270453504
+dual-agreed heavy supports: 16970
+dual-agreed exact sign tests: 135760
+verdict: no E=2,...,6 vector; m=1538 excluded
+sharp boundary witness: mu=1 and E=8
+remaining profile-(3,6) cofactors: 11
+next attack: m=1024 (mu=10) and m=1028 (mu=2), both V<=34
+Modal apps: ap-uv42wkp1cTBp9rokMZmOhz, ap-h8WimpUO8BNNLmCdSdcHi8,
+            ap-B2YnLr5w19DoYthf4ZrHVO
+```
+
+**Same-day sharp product contraction and cofactor-1024 close:** replacing the
+global pointwise logarithmic majorant by the exact fixed-mean/fixed-variance
+product extremum turns both short branches into the existing low-energy
+classification problem.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_sharp_product_window
+moment data: 64 positive values, mean 18, average squared deviation V
+extrema: at most two values, indexed by lower multiplicity j=1,...,63
+exact comparisons: 649 rational chambers for even 14<=V<=34
+tight chamber: (V,j)=(14,63)
+boundary audit: the V=12 envelope remains above the m=1024 floor
+new windows: m=1024,1028 both V in {4,6,8,10,12}
+exact certificate Modal app: ap-VUumIAvKygC1l5swGhdI4j
+
+proved node: e1_prize_n256_s18_profile_36_m1024_exclusion
+cofactor: 1024, hence mu=10
+normalized singleton supports: 10009125
+mu=10 supports: 32256; low-chord supports: 800; affine orbits: 68
+singleton sign assignments: 2176
+low-energy targets: 194816
+dual-agreed heavy supports: 606; exact sign tests: 4848
+verdict: no E=2,...,6 vector; m=1024 excluded
+primary/audit Modal apps: ap-K9JXDDlMQ9euS1aFcApP20,
+                          ap-oC0W1HKzJDE4lP3amswBRW
+remaining profile-(3,6) cofactors: 10
+next attack: m=1028; geometry has an E=5 witness, so test factor 257 exactly
+```
+
+**Same-day cofactor-1028 close:** the exact `mu=2` geometry is nonempty but
+the engineered split prime removes every surviving vector.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m1028_exclusion
+cofactor: 1028=4*257, hence mu=2
+normalized singleton supports: 10009125
+mu=2 supports: 2503715; low-chord supports: 20167; affine orbits: 1603
+singleton sign assignments: 51296
+low-energy targets: 2409344
+dual-agreed heavy supports: 89224; exact sign tests: 713792
+geometry: E=2,3,4,6 empty; exactly 16 normalized E=5 vectors
+arithmetic: all 16 fail all 128 primitive-root tests modulo 257
+verdict: m=1028 excluded
+primary/audit Modal apps: ap-9YPE5CXuy9YJlmbb8kOTTL,
+                          ap-vPJTFiYL24oRxWpxi0C7f1
+remaining profile-(3,6) cofactors: 9
+next attack: sharpen m=512,514 windows before any larger census
+```
+
+**Same-day all-cofactor bounded product contraction:** retaining the exact
+pointwise cap `y_u<=144` classifies every product extremum by an upper-cap
+count and at most two interior levels.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_bounded_product_windows
+extremum parameters: capped count k=0,...,7 and lower multiplicity j
+exact rational comparisons: 11023
+new inclusive variance endpoints:
+  m=2:284, m=4:266, m=8:254, m=16:216, m=32:170,
+  m=64:130, m=256:60, m=512:34, m=514:34
+boundary audit: every preceding even variance survives this envelope
+route probe/exact Modal apps: ap-fjMSdUdXuYdwoI9NyoCnUx,
+                              ap-9bABu2qYhJVmkjNPhYzzKi
+remaining profile-(3,6) cofactors: 9
+next attack: m=512,514 in E=2,...,17; spend mu=9/mu=1 structure first
+```
+
+**Same-day cofactor-512 close:** multiplicity nine leaves a complete
+radius-two mod-four search, and the surviving geometry misses the prize
+interval arithmetically.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m512_exclusion
+cofactor: 512, hence mu=9
+complete energy window: E=2,...,17
+normalized singleton supports examined: 10009125
+mu=9 supports: 46592; affine orbits: 2912
+singleton sign assignments: 93184
+dual-agreed heavy supports: 438120; exact sign tests: 3504960
+geometry: E=2,...,14 and E=16 empty; two vectors each at E=15 and E=17
+arithmetic: FLINT and PARI agree on two exact norms for all four vectors
+interval test: every quotient Norm/512 is below the prize interval
+verdict: m=512 excluded
+primary/audit/norm Modal apps: ap-hLsGuIj8T1KeuCPO9qIbK0,
+                               ap-MomSd3tk9h6HHpILMXlCCx,
+                               ap-YfWdAsOXwmHsyMSwhUZx6G
+remaining profile-(3,6) cofactors: 8
+next attack: m=514, with mu=1, E=2,...,17, and required factor 257
+```
+
+**Same-day energy-adaptive product contraction and adversarial route cut:**
+integer autocorrelation supplies a variance-dependent conjugate cap, while
+direct search falsifies two tempting but false modular-emptiness premises.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_energy_adaptive_product_windows
+analytic cap: y_u<=min(144,18+V), from L1(A)<=sum A_d^2=E=V/2
+exact rational comparisons: 6273
+new endpoints: m=256 has V<=46; m=514 has V<=22
+imported mu=1 geometry: E=2,...,6 empty
+parity-adaptive exclusions: (E,q)=(9,1),(10,2),(11,3),(11,7)
+live m=514 chambers:
+  (7,3),(7,7),(8,4),(8,8),(9,5),(9,9),(10,6),(10,10),(11,11)
+certificate Modal app: ap-Jj1DnCEMdtU9oUi9fn6Lfb
+
+falsified premise 1: factor 257 makes the E<=17 geometry empty
+falsified premise 2: factor 257 forces E>=17
+64-shard search: 5 witnesses, including one E=15 and four E=17
+dual exact norms: all five Norm/514 quotients below the prize interval
+search/norm Modal apps: ap-vCwCehrnyit7WrDEjorD0c,
+                        ap-dle2qIanefNmtFx0fwT8nL
+remaining profile-(3,6) cofactors: 8
+next attack: exact factor-257 generation on the nine live m=514 chambers
+```
+
+**Same-day cofactor-514 close:** one radius-zero/radius-one engine covers all
+nine live parity chambers, and two pair-table implementations agree exactly.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m514_exclusion
+normalized singleton supports: 10009125
+mu=1 supports: 5005539
+live-stratum affine orbits: 123196
+singleton sign assignments: 3942272
+XOR probes: 922886080
+candidate heavy supports: 883718
+exact sign tests: 7069744
+geometry: E8=4, E10=8; E7=E9=E11=0
+factor-257 vectors: E8=2, E10=6
+dual exact norms: 8 vectors, 4 distinct values, all Norm/514 below interval
+verdict: m=514 excluded
+atlas/primary/audit/norm Modal apps:
+  ap-gX6SKtHGEzPG5OuzLcpd1h, ap-NJLlyLTa70dm5hmYYVcVW5,
+  ap-qzMuyQt7EFP3pOzN8qvKaI, ap-99pSDfbXkeWx7pGRNKyEmf
+remaining profile-(3,6) cofactors: 7
+next attack: m=256, with mu=8 and E=2,...,23
+```

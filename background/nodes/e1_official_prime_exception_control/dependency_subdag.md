@@ -69,6 +69,21 @@ e1_n256_local_norm_cofactor_collapse [PROVED]
 e1_prize_n256_s18_variance_cofactor_windows [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_prize_n256_s18_m1028_collision_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
+e1_prize_n256_s18_m514_collision_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
+e1_prize_n256_s18_m256_collision_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
+e1_prize_n256_s18_m16_high_variance_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
+e1_prize_n256_s18_m16_collision_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_n512_four_singleton_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
@@ -268,8 +283,16 @@ template. Local reciprocity leaves only five power-of-two cofactors in that
 profile and 419 explicit RowC cofactors in `(4,2,0)`. On prize rows the exact
 field floor and residue-degree sieve first leave seven; the proved
 variance/cofactor theorem removes `1538`, forces `V=2 mod 8`, and leaves only
-`V in {10,18}` for `m=1028`. The six residual prize classes and the RowC odd
-norm parts are not yet paid.
+`V in {10,18}` for `m=1028`. A dual exact normalized census then removes
+`1028`, leaving five residual prize classes. Those and the RowC odd norm parts
+are not yet paid at that stage. Dual exact censuses and FLINT/PARI resultants
+then remove `514`, leaving four residual prize classes.
+The nine-chamber `m=256` census and committed FLINT/PARI exact norm ledger then
+remove `256`, leaving three residual prize classes.
+The profile-specific `m=16` moment split and dual exact-resultant ledger remove
+that class. Matching `m=4` and `m=2` moment splits and independent FLINT/PARI
+ledgers remove the final two classes. Hence `(4,2,0)` is empty on prize-
+envelope rows; RowC retains 419 classes.
 The official quantifier pin and named-exhibit certificate subgraph remain in
 `background/nodes/` and have `ev`, not `req`, edges into this target. The
 unresolved target is a logical leaf, with its route-uniform scope printed

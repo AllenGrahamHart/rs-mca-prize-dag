@@ -23,7 +23,16 @@ The 2-adic cofactor gate also forces singleton-reduction multiplicity at most
 five in `(3,4,0)` and forbids a singleton separation divisible by 32 in
 `(4,2,0)`. On prize rows, use the proved variance/cofactor windows next:
 `1538` is absent, every residual has `V=2 mod 8`, and `m=1028` has only
-`V in {10,18}`.
+`V in {10,18}`. The proved dual census removes `1028`; begin the remaining
+prize branch with `m=514`, where `10<=V<=50`.
+Dual exact censuses and FLINT/PARI resultants remove `m=514`; continue with
+`m=256`, where `10<=V<=74`.
+A dual census and committed FLINT/PARI exact norm ledger remove `m=256`.
+The analytic high-variance child reduces `m=16` to `10<=V<=106`, and streamed
+FLINT/PARI exact ledgers remove the residual completely. Matching high-
+variance and dual exact-resultant children then remove `m=4` and `m=2`.
+The complete `(4,2,0)` prize branch is closed; do not rerun it. RowC retains
+the separate 419-class interface.
 
 ```text
 P=sum_y binom(r_y,2).

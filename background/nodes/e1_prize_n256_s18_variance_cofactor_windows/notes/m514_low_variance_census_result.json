@@ -1,0 +1,5556 @@
+{
+  "complete": true,
+  "container_seconds": 12.679139222,
+  "divisor_prime": 257,
+  "energies": [
+    5,
+    9,
+    13,
+    17,
+    21,
+    25
+  ],
+  "errors": [],
+  "normalization": {
+    "double_positions": "all 4-subsets of the other 126 positions",
+    "double_signs": "all 16 sign patterns",
+    "first_singleton_coefficient": 1,
+    "second_singleton_coefficients": [
+      -1,
+      1
+    ],
+    "singleton_positions": [
+      0,
+      1
+    ]
+  },
+  "results": [
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 0.6270574560000002,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        8
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        4,
+        4,
+        24
+      ],
+      "shard": 0,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 0.620765
+    },
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 0.37029993399999994,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        6,
+        0,
+        2
+      ],
+      "shard": 1,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 0.36058
+    },
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 0.2932508789999999,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        12
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        28
+      ],
+      "shard": 2,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 0.285057
+    },
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 0.3704237800000001,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        6,
+        6,
+        6
+      ],
+      "shard": 3,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 0.359983
+    },
+    {
+      "combination_count": 312786,
+      "complete": true,
+      "container_seconds": 0.3198127009999998,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        4
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        4,
+        2,
+        8
+      ],
+      "shard": 4,
+      "signed_vector_count": 10009152,
+      "wall_seconds": 0.308718
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.6276548480000002,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        4,
+        2,
+        2
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        8,
+        6,
+        4
+      ],
+      "shard": 5,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.622179
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.2918779469999999,
+      "div257_counts": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "energy_counts": [
+        0,
+        0,
+        4,
+        0,
+        4,
+        4
+      ],
+      "shard": 6,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.284285
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.369630433,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        4,
+        8,
+        10
+      ],
+      "shard": 7,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.36078
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.31907195899999996,
+      "div257_counts": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        8
+      ],
+      "energy_counts": [
+        0,
+        8,
+        0,
+        2,
+        0,
+        18
+      ],
+      "shard": 8,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.30872
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.36905138700000006,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        6
+      ],
+      "energy_counts": [
+        0,
+        4,
+        0,
+        0,
+        0,
+        16
+      ],
+      "shard": 9,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.360704
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.3203648579999998,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        4
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        8
+      ],
+      "shard": 10,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.310482
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.2913282880000001,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        4
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        6
+      ],
+      "shard": 11,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.283529
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.3175148710000002,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "shard": 12,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.309269
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.3689906060000001,
+      "div257_counts": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "energy_counts": [
+        0,
+        0,
+        4,
+        0,
+        4,
+        0
+      ],
+      "shard": 13,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.360696
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.6228050599999999,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        0
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        4,
+        4,
+        6
+      ],
+      "shard": 14,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.611623
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.29145717400000004,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        6,
+        2,
+        4
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        6,
+        8,
+        8
+      ],
+      "shard": 15,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.283826
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.36958840000000004,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        6,
+        0,
+        6
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        6,
+        0,
+        14
+      ],
+      "shard": 16,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.360833
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.6633370369999998,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        4
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        8
+      ],
+      "shard": 17,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.657301
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.320779613,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "shard": 18,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.310251
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.3189907839999999,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "shard": 19,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.310144
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.3174210439999996,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "shard": 20,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.30936
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.29138693400000015,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        6,
+        2,
+        6
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        10,
+        2,
+        18
+      ],
+      "shard": 21,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.283939
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.6132299250000002,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        6,
+        0,
+        14
+      ],
+      "shard": 22,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.607724
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.6134622730000001,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "shard": 23,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.607753
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.36886534000000015,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        6
+      ],
+      "shard": 24,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.360072
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.369082562,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        6,
+        2
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        8,
+        4
+      ],
+      "shard": 25,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.36004
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.32135254599999996,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        2,
+        4,
+        2
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        4,
+        8,
+        4
+      ],
+      "shard": 26,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.309926
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.31769344999999993,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shard": 27,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.309361
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.290984479,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "shard": 28,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.283356
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.6457980779999999,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "shard": 29,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.636768
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.3176509890000001,
+      "div257_counts": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "energy_counts": [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "shard": 30,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.309152
+    },
+    {
+      "combination_count": 312785,
+      "complete": true,
+      "container_seconds": 0.3689235870000003,
+      "div257_counts": [
+        0,
+        2,
+        0,
+        2,
+        4,
+        0
+      ],
+      "energy_counts": [
+        0,
+        4,
+        0,
+        8,
+        4,
+        0
+      ],
+      "shard": 31,
+      "signed_vector_count": 10009120,
+      "wall_seconds": 0.359738
+    }
+  ],
+  "returned_shards": 32,
+  "schema": "e1-prize-m514-low-variance-census-v1",
+  "source_sha256": "322a03d7cca23e26d93b1bb5cd01c39e83f1e39a2329ea94e3833c69b193ed57",
+  "totals": {
+    "combination_count": 10009125,
+    "div257_counts": [
+      0,
+      4,
+      4,
+      48,
+      40,
+      88
+    ],
+    "energy_counts": [
+      0,
+      16,
+      8,
+      88,
+      88,
+      232
+    ],
+    "signed_vector_count": 320292000
+  },
+  "variances": [
+    10,
+    18,
+    26,
+    34,
+    42,
+    50
+  ],
+  "witnesses": [
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "root_exponent": -1,
+      "shard": 0
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        65,
+        66
+      ],
+      "root_exponent": -1,
+      "shard": 0
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        65,
+        66
+      ],
+      "root_exponent": 63,
+      "shard": 0
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        65,
+        66
+      ],
+      "root_exponent": 119,
+      "shard": 0
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        2,
+        34,
+        65,
+        97
+      ],
+      "root_exponent": 11,
+      "shard": 0
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        2,
+        34,
+        65,
+        97
+      ],
+      "root_exponent": 139,
+      "shard": 0
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        63,
+        64,
+        126,
+        127
+      ],
+      "root_exponent": 65,
+      "shard": 0
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        63,
+        64,
+        126,
+        127
+      ],
+      "root_exponent": 9,
+      "shard": 0
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        2,
+        65,
+        97,
+        98
+      ],
+      "root_exponent": -1,
+      "shard": 0
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        2,
+        65,
+        97,
+        98
+      ],
+      "root_exponent": 163,
+      "shard": 0
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        2,
+        65,
+        97,
+        98
+      ],
+      "root_exponent": 35,
+      "shard": 0
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        14,
+        78,
+        104,
+        116
+      ],
+      "root_exponent": 115,
+      "shard": 0
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        14,
+        78,
+        104,
+        116
+      ],
+      "root_exponent": 243,
+      "shard": 0
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "root_exponent": 255,
+      "shard": 1
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "root_exponent": 127,
+      "shard": 1
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        3,
+        4,
+        66,
+        67
+      ],
+      "root_exponent": 5,
+      "shard": 1
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        3,
+        4,
+        66,
+        67
+      ],
+      "root_exponent": 133,
+      "shard": 1
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        43,
+        45,
+        85,
+        87
+      ],
+      "root_exponent": -1,
+      "shard": 1
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "root_exponent": -1,
+      "shard": 2
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        2,
+        4,
+        65,
+        67
+      ],
+      "root_exponent": 91,
+      "shard": 2
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        2,
+        4,
+        65,
+        67
+      ],
+      "root_exponent": 3,
+      "shard": 2
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        2,
+        4,
+        65,
+        67
+      ],
+      "root_exponent": 131,
+      "shard": 2
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        2,
+        4,
+        65,
+        67
+      ],
+      "root_exponent": 219,
+      "shard": 2
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        2,
+        4,
+        65,
+        69
+      ],
+      "root_exponent": 225,
+      "shard": 2
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        2,
+        4,
+        65,
+        69
+      ],
+      "root_exponent": 97,
+      "shard": 2
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        10,
+        28,
+        56,
+        74
+      ],
+      "root_exponent": 43,
+      "shard": 2
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        10,
+        28,
+        56,
+        74
+      ],
+      "root_exponent": 65,
+      "shard": 2
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        55,
+        73,
+        74,
+        92
+      ],
+      "root_exponent": 95,
+      "shard": 2
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        55,
+        73,
+        74,
+        92
+      ],
+      "root_exponent": 223,
+      "shard": 2
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        55,
+        73,
+        101,
+        119
+      ],
+      "root_exponent": 63,
+      "shard": 2
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        55,
+        73,
+        101,
+        119
+      ],
+      "root_exponent": 85,
+      "shard": 2
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        8
+      ],
+      "root_exponent": 1,
+      "shard": 3
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        8
+      ],
+      "root_exponent": 129,
+      "shard": 3
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        13,
+        26,
+        90,
+        103
+      ],
+      "root_exponent": 109,
+      "shard": 3
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        13,
+        26,
+        90,
+        103
+      ],
+      "root_exponent": 237,
+      "shard": 3
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        2,
+        44,
+        45,
+        87
+      ],
+      "root_exponent": 245,
+      "shard": 3
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        2,
+        44,
+        45,
+        87
+      ],
+      "root_exponent": 117,
+      "shard": 3
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        25,
+        52,
+        102,
+        103
+      ],
+      "root_exponent": 147,
+      "shard": 3
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        25,
+        52,
+        102,
+        103
+      ],
+      "root_exponent": 19,
+      "shard": 3
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        16,
+        64,
+        80,
+        112
+      ],
+      "root_exponent": 239,
+      "shard": 3
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        16,
+        64,
+        80,
+        112
+      ],
+      "root_exponent": 111,
+      "shard": 3
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        13,
+        77,
+        103,
+        115
+      ],
+      "root_exponent": 17,
+      "shard": 3
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        13,
+        77,
+        103,
+        115
+      ],
+      "root_exponent": 145,
+      "shard": 3
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        44,
+        45,
+        86,
+        87
+      ],
+      "root_exponent": -1,
+      "shard": 4
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        44,
+        45,
+        87,
+        88
+      ],
+      "root_exponent": 169,
+      "shard": 4
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        44,
+        45,
+        87,
+        88
+      ],
+      "root_exponent": 41,
+      "shard": 4
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        27,
+        52,
+        53,
+        78
+      ],
+      "root_exponent": 179,
+      "shard": 4
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        27,
+        52,
+        53,
+        78
+      ],
+      "root_exponent": 51,
+      "shard": 4
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        37,
+        55,
+        56,
+        74
+      ],
+      "root_exponent": 161,
+      "shard": 4
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        37,
+        55,
+        56,
+        74
+      ],
+      "root_exponent": 33,
+      "shard": 4
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        42,
+        83,
+        126,
+        127
+      ],
+      "root_exponent": -1,
+      "shard": 4
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        8
+      ],
+      "root_exponent": -1,
+      "shard": 5
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        8
+      ],
+      "root_exponent": 5,
+      "shard": 5
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        8
+      ],
+      "root_exponent": 133,
+      "shard": 5
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        11,
+        22,
+        54,
+        107
+      ],
+      "root_exponent": -1,
+      "shard": 5
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        11,
+        22,
+        54,
+        107
+      ],
+      "root_exponent": 53,
+      "shard": 5
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        11,
+        22,
+        54,
+        107
+      ],
+      "root_exponent": 181,
+      "shard": 5
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        26,
+        39,
+        103,
+        116
+      ],
+      "root_exponent": 19,
+      "shard": 5
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        26,
+        39,
+        103,
+        116
+      ],
+      "root_exponent": 147,
+      "shard": 5
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        3,
+        44,
+        45,
+        86
+      ],
+      "root_exponent": -1,
+      "shard": 5
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        36,
+        55,
+        73,
+        110
+      ],
+      "root_exponent": 11,
+      "shard": 5
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        36,
+        55,
+        73,
+        110
+      ],
+      "root_exponent": 21,
+      "shard": 5
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        14,
+        29,
+        57,
+        114
+      ],
+      "root_exponent": -1,
+      "shard": 6
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 13,
+      "positions": [
+        0,
+        1,
+        43,
+        64,
+        86,
+        107
+      ],
+      "root_exponent": -1,
+      "shard": 6
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 13,
+      "positions": [
+        0,
+        1,
+        43,
+        64,
+        86,
+        107
+      ],
+      "root_exponent": 145,
+      "shard": 6
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 13,
+      "positions": [
+        0,
+        1,
+        43,
+        64,
+        86,
+        107
+      ],
+      "root_exponent": 17,
+      "shard": 6
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        44,
+        65,
+        86,
+        107
+      ],
+      "root_exponent": 125,
+      "shard": 6
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        44,
+        65,
+        86,
+        107
+      ],
+      "root_exponent": 37,
+      "shard": 6
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        37,
+        46,
+        92,
+        101
+      ],
+      "root_exponent": -1,
+      "shard": 7
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        37,
+        46,
+        92,
+        101
+      ],
+      "root_exponent": 139,
+      "shard": 7
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        37,
+        46,
+        92,
+        101
+      ],
+      "root_exponent": 11,
+      "shard": 7
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        17,
+        49,
+        65,
+        81
+      ],
+      "root_exponent": -1,
+      "shard": 7
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        17,
+        49,
+        65,
+        113
+      ],
+      "root_exponent": 17,
+      "shard": 7
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        17,
+        49,
+        65,
+        113
+      ],
+      "root_exponent": 145,
+      "shard": 7
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        43,
+        57,
+        71,
+        99
+      ],
+      "root_exponent": -1,
+      "shard": 7
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        43,
+        57,
+        71,
+        100
+      ],
+      "root_exponent": 169,
+      "shard": 7
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        43,
+        57,
+        71,
+        100
+      ],
+      "root_exponent": 41,
+      "shard": 7
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        42,
+        43,
+        84,
+        85
+      ],
+      "root_exponent": -1,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        42,
+        43,
+        85,
+        86
+      ],
+      "root_exponent": 155,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        42,
+        43,
+        85,
+        86
+      ],
+      "root_exponent": 27,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        19,
+        56,
+        74,
+        93
+      ],
+      "root_exponent": 117,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        19,
+        56,
+        74,
+        93
+      ],
+      "root_exponent": 107,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        62,
+        64,
+        125,
+        127
+      ],
+      "root_exponent": 165,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        62,
+        64,
+        125,
+        127
+      ],
+      "root_exponent": 125,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        62,
+        64,
+        125,
+        127
+      ],
+      "root_exponent": 37,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        62,
+        64,
+        125,
+        127
+      ],
+      "root_exponent": 253,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        1,
+        33,
+        64,
+        65,
+        96
+      ],
+      "root_exponent": -1,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        1,
+        64,
+        65,
+        96,
+        97
+      ],
+      "root_exponent": 51,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        1,
+        64,
+        65,
+        96,
+        97
+      ],
+      "root_exponent": 37,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        64,
+        65,
+        97,
+        98
+      ],
+      "root_exponent": 101,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        64,
+        65,
+        97,
+        98
+      ],
+      "root_exponent": 229,
+      "shard": 8
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        15,
+        29,
+        57,
+        71
+      ],
+      "root_exponent": -1,
+      "shard": 9
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        15,
+        29,
+        86,
+        115
+      ],
+      "root_exponent": 143,
+      "shard": 9
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        15,
+        29,
+        86,
+        115
+      ],
+      "root_exponent": 15,
+      "shard": 9
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        1,
+        32,
+        64,
+        65,
+        97
+      ],
+      "root_exponent": -1,
+      "shard": 9
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        32,
+        64,
+        95,
+        127
+      ],
+      "root_exponent": 245,
+      "shard": 9
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        32,
+        64,
+        95,
+        127
+      ],
+      "root_exponent": 117,
+      "shard": 9
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        52,
+        78,
+        90,
+        116
+      ],
+      "root_exponent": 33,
+      "shard": 9
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        52,
+        78,
+        90,
+        116
+      ],
+      "root_exponent": 161,
+      "shard": 9
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        28,
+        37,
+        83,
+        92
+      ],
+      "root_exponent": -1,
+      "shard": 10
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        28,
+        37,
+        83,
+        92
+      ],
+      "root_exponent": 117,
+      "shard": 10
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        28,
+        37,
+        83,
+        92
+      ],
+      "root_exponent": 245,
+      "shard": 10
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        60,
+        64,
+        125,
+        127
+      ],
+      "root_exponent": -1,
+      "shard": 10
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        60,
+        64,
+        125,
+        127
+      ],
+      "root_exponent": 159,
+      "shard": 10
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        60,
+        64,
+        125,
+        127
+      ],
+      "root_exponent": 31,
+      "shard": 10
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        31,
+        64,
+        96,
+        127
+      ],
+      "root_exponent": 85,
+      "shard": 10
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        31,
+        64,
+        96,
+        127
+      ],
+      "root_exponent": 213,
+      "shard": 10
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        43,
+        44,
+        86,
+        87
+      ],
+      "root_exponent": 177,
+      "shard": 11
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        43,
+        44,
+        86,
+        87
+      ],
+      "root_exponent": 49,
+      "shard": 11
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        43,
+        44,
+        87,
+        88
+      ],
+      "root_exponent": -1,
+      "shard": 11
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        14,
+        71,
+        99,
+        114
+      ],
+      "root_exponent": 239,
+      "shard": 11
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        14,
+        71,
+        99,
+        114
+      ],
+      "root_exponent": 111,
+      "shard": 11
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        51,
+        76,
+        77,
+        102
+      ],
+      "root_exponent": 77,
+      "shard": 11
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        51,
+        76,
+        77,
+        102
+      ],
+      "root_exponent": 205,
+      "shard": 11
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        42,
+        44,
+        84,
+        86
+      ],
+      "root_exponent": -1,
+      "shard": 12
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        22,
+        43,
+        64,
+        85
+      ],
+      "root_exponent": -1,
+      "shard": 13
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        22,
+        43,
+        64,
+        85
+      ],
+      "root_exponent": 91,
+      "shard": 13
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        22,
+        43,
+        64,
+        85
+      ],
+      "root_exponent": 3,
+      "shard": 13
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 13,
+      "positions": [
+        0,
+        1,
+        22,
+        43,
+        65,
+        86
+      ],
+      "root_exponent": -1,
+      "shard": 13
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 13,
+      "positions": [
+        0,
+        1,
+        22,
+        43,
+        65,
+        86
+      ],
+      "root_exponent": 111,
+      "shard": 13
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 13,
+      "positions": [
+        0,
+        1,
+        22,
+        43,
+        65,
+        86
+      ],
+      "root_exponent": 239,
+      "shard": 13
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        21,
+        43,
+        63,
+        85
+      ],
+      "root_exponent": -1,
+      "shard": 14
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        21,
+        43,
+        64,
+        107
+      ],
+      "root_exponent": 115,
+      "shard": 14
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        21,
+        43,
+        64,
+        107
+      ],
+      "root_exponent": 243,
+      "shard": 14
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        62,
+        63,
+        125,
+        126
+      ],
+      "root_exponent": -1,
+      "shard": 14
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        62,
+        63,
+        125,
+        126
+      ],
+      "root_exponent": 251,
+      "shard": 14
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        62,
+        63,
+        125,
+        126
+      ],
+      "root_exponent": 123,
+      "shard": 14
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        18,
+        19,
+        55,
+        110
+      ],
+      "root_exponent": 7,
+      "shard": 15
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        18,
+        19,
+        55,
+        110
+      ],
+      "root_exponent": 135,
+      "shard": 15
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        41,
+        42,
+        84,
+        85
+      ],
+      "root_exponent": 215,
+      "shard": 15
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        41,
+        42,
+        84,
+        85
+      ],
+      "root_exponent": 87,
+      "shard": 15
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        21,
+        42,
+        64,
+        107
+      ],
+      "root_exponent": 29,
+      "shard": 15
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        21,
+        42,
+        64,
+        107
+      ],
+      "root_exponent": 157,
+      "shard": 15
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        37,
+        56,
+        74,
+        110
+      ],
+      "root_exponent": 47,
+      "shard": 15
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        37,
+        56,
+        74,
+        110
+      ],
+      "root_exponent": 175,
+      "shard": 15
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        121,
+        123,
+        124,
+        125
+      ],
+      "root_exponent": 57,
+      "shard": 15
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        121,
+        123,
+        124,
+        125
+      ],
+      "root_exponent": 185,
+      "shard": 15
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        123,
+        124,
+        125,
+        126
+      ],
+      "root_exponent": 1,
+      "shard": 15
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        123,
+        124,
+        125,
+        126
+      ],
+      "root_exponent": 129,
+      "shard": 15
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        13,
+        25,
+        51,
+        115
+      ],
+      "root_exponent": -1,
+      "shard": 16
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        13,
+        25,
+        51,
+        115
+      ],
+      "root_exponent": 141,
+      "shard": 16
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        13,
+        25,
+        51,
+        115
+      ],
+      "root_exponent": 13,
+      "shard": 16
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        19,
+        38,
+        92,
+        93
+      ],
+      "root_exponent": 125,
+      "shard": 16
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        19,
+        38,
+        92,
+        93
+      ],
+      "root_exponent": 253,
+      "shard": 16
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        32,
+        48,
+        80,
+        96
+      ],
+      "root_exponent": 19,
+      "shard": 16
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        32,
+        48,
+        80,
+        96
+      ],
+      "root_exponent": 147,
+      "shard": 16
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        32,
+        48,
+        80,
+        96
+      ],
+      "root_exponent": 101,
+      "shard": 16
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        32,
+        48,
+        80,
+        96
+      ],
+      "root_exponent": 229,
+      "shard": 16
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        19,
+        74,
+        92,
+        110
+      ],
+      "root_exponent": 163,
+      "shard": 16
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        19,
+        74,
+        92,
+        110
+      ],
+      "root_exponent": 35,
+      "shard": 16
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        19,
+        74,
+        110,
+        111
+      ],
+      "root_exponent": 33,
+      "shard": 16
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        19,
+        74,
+        110,
+        111
+      ],
+      "root_exponent": 161,
+      "shard": 16
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        23,
+        35,
+        47,
+        105
+      ],
+      "root_exponent": 95,
+      "shard": 17
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        23,
+        35,
+        47,
+        105
+      ],
+      "root_exponent": 73,
+      "shard": 17
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        19,
+        55,
+        73,
+        92
+      ],
+      "root_exponent": 209,
+      "shard": 17
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        19,
+        55,
+        73,
+        92
+      ],
+      "root_exponent": 81,
+      "shard": 17
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        42,
+        84,
+        85,
+        127
+      ],
+      "root_exponent": 139,
+      "shard": 17
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        42,
+        84,
+        85,
+        127
+      ],
+      "root_exponent": 11,
+      "shard": 17
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        15,
+        30,
+        58,
+        115
+      ],
+      "root_exponent": 145,
+      "shard": 18
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        15,
+        30,
+        58,
+        115
+      ],
+      "root_exponent": 17,
+      "shard": 18
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        51,
+        77,
+        102,
+        127
+      ],
+      "root_exponent": 129,
+      "shard": 18
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        51,
+        77,
+        102,
+        127
+      ],
+      "root_exponent": 1,
+      "shard": 18
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        122,
+        124,
+        125,
+        127
+      ],
+      "root_exponent": -1,
+      "shard": 19
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        57,
+        71,
+        100,
+        114
+      ],
+      "root_exponent": -1,
+      "shard": 20
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        19,
+        20,
+        56,
+        111
+      ],
+      "root_exponent": -1,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        2,
+        33,
+        34,
+        65
+      ],
+      "root_exponent": -1,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        2,
+        33,
+        65,
+        98
+      ],
+      "root_exponent": 171,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        2,
+        33,
+        65,
+        98
+      ],
+      "root_exponent": 43,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        19,
+        37,
+        55,
+        110
+      ],
+      "root_exponent": 93,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        19,
+        37,
+        55,
+        110
+      ],
+      "root_exponent": 221,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        13,
+        39,
+        51,
+        77
+      ],
+      "root_exponent": 223,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        13,
+        39,
+        51,
+        77
+      ],
+      "root_exponent": 95,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        14,
+        43,
+        100,
+        114
+      ],
+      "root_exponent": 241,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        14,
+        43,
+        100,
+        114
+      ],
+      "root_exponent": 113,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        33,
+        49,
+        81,
+        97
+      ],
+      "root_exponent": 237,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        33,
+        49,
+        81,
+        97
+      ],
+      "root_exponent": 155,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        33,
+        49,
+        81,
+        97
+      ],
+      "root_exponent": 27,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        33,
+        49,
+        81,
+        97
+      ],
+      "root_exponent": 109,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        121,
+        122,
+        124,
+        127
+      ],
+      "root_exponent": 123,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        121,
+        122,
+        124,
+        127
+      ],
+      "root_exponent": 251,
+      "shard": 21
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        33,
+        34,
+        64,
+        65
+      ],
+      "root_exponent": -1,
+      "shard": 22
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        36,
+        37,
+        91,
+        110
+      ],
+      "root_exponent": 131,
+      "shard": 22
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        36,
+        37,
+        91,
+        110
+      ],
+      "root_exponent": 3,
+      "shard": 22
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        26,
+        51,
+        77,
+        102
+      ],
+      "root_exponent": -1,
+      "shard": 22
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        2,
+        45,
+        46,
+        88
+      ],
+      "root_exponent": -1,
+      "shard": 23
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        26,
+        27,
+        77,
+        104
+      ],
+      "root_exponent": 109,
+      "shard": 24
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        26,
+        27,
+        77,
+        104
+      ],
+      "root_exponent": 237,
+      "shard": 24
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        29,
+        58,
+        72,
+        86
+      ],
+      "root_exponent": 7,
+      "shard": 24
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        29,
+        58,
+        72,
+        86
+      ],
+      "root_exponent": 135,
+      "shard": 24
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        44,
+        46,
+        86,
+        88
+      ],
+      "root_exponent": -1,
+      "shard": 25
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        16,
+        48,
+        64,
+        80
+      ],
+      "root_exponent": -1,
+      "shard": 25
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        16,
+        48,
+        64,
+        80
+      ],
+      "root_exponent": 5,
+      "shard": 25
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        16,
+        48,
+        64,
+        80
+      ],
+      "root_exponent": 133,
+      "shard": 25
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        16,
+        48,
+        64,
+        112
+      ],
+      "root_exponent": 173,
+      "shard": 25
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        16,
+        48,
+        64,
+        112
+      ],
+      "root_exponent": 45,
+      "shard": 25
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        16,
+        48,
+        64,
+        112
+      ],
+      "root_exponent": 247,
+      "shard": 25
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        16,
+        48,
+        64,
+        112
+      ],
+      "root_exponent": 119,
+      "shard": 25
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        24,
+        82,
+        94,
+        106
+      ],
+      "root_exponent": 33,
+      "shard": 25
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        24,
+        82,
+        94,
+        106
+      ],
+      "root_exponent": 55,
+      "shard": 25
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        31,
+        32,
+        64,
+        65
+      ],
+      "root_exponent": 3,
+      "shard": 26
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        31,
+        32,
+        64,
+        65
+      ],
+      "root_exponent": 131,
+      "shard": 26
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        31,
+        32,
+        64,
+        127
+      ],
+      "root_exponent": -1,
+      "shard": 26
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        31,
+        32,
+        64,
+        127
+      ],
+      "root_exponent": 93,
+      "shard": 26
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        31,
+        32,
+        64,
+        127
+      ],
+      "root_exponent": 221,
+      "shard": 26
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        22,
+        65,
+        86,
+        108
+      ],
+      "root_exponent": -1,
+      "shard": 26
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        22,
+        65,
+        86,
+        108
+      ],
+      "root_exponent": 141,
+      "shard": 26
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        22,
+        65,
+        86,
+        108
+      ],
+      "root_exponent": 13,
+      "shard": 26
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        22,
+        65,
+        87,
+        108
+      ],
+      "root_exponent": 227,
+      "shard": 26
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        22,
+        65,
+        87,
+        108
+      ],
+      "root_exponent": 99,
+      "shard": 26
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        14,
+        26,
+        52,
+        116
+      ],
+      "root_exponent": 193,
+      "shard": 28
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 25,
+      "positions": [
+        0,
+        1,
+        14,
+        26,
+        52,
+        116
+      ],
+      "root_exponent": 65,
+      "shard": 28
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        16,
+        32,
+        96,
+        112
+      ],
+      "root_exponent": -1,
+      "shard": 29
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        2,
+        27,
+        52,
+        78
+      ],
+      "root_exponent": 127,
+      "shard": 30
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        2,
+        27,
+        52,
+        78
+      ],
+      "root_exponent": 255,
+      "shard": 30
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -2,
+        -2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        49,
+        65,
+        81,
+        113
+      ],
+      "root_exponent": 251,
+      "shard": 30
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        49,
+        65,
+        81,
+        113
+      ],
+      "root_exponent": 123,
+      "shard": 30
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        1,
+        32,
+        33,
+        64,
+        65
+      ],
+      "root_exponent": 91,
+      "shard": 31
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        2,
+        2
+      ],
+      "energy": 9,
+      "positions": [
+        0,
+        1,
+        32,
+        33,
+        64,
+        65
+      ],
+      "root_exponent": 77,
+      "shard": 31
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        17,
+        33,
+        97,
+        113
+      ],
+      "root_exponent": -1,
+      "shard": 31
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        17,
+        65,
+        81,
+        113
+      ],
+      "root_exponent": 211,
+      "shard": 31
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        2,
+        -2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        17,
+        65,
+        81,
+        113
+      ],
+      "root_exponent": 9,
+      "shard": 31
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -2,
+        -2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        17,
+        65,
+        81,
+        113
+      ],
+      "root_exponent": 137,
+      "shard": 31
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        2,
+        -2,
+        2
+      ],
+      "energy": 21,
+      "positions": [
+        0,
+        1,
+        17,
+        65,
+        81,
+        113
+      ],
+      "root_exponent": 83,
+      "shard": 31
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        2,
+        2,
+        -2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        22,
+        75,
+        107,
+        118
+      ],
+      "root_exponent": 75,
+      "shard": 31
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        2,
+        -2,
+        2,
+        -2
+      ],
+      "energy": 17,
+      "positions": [
+        0,
+        1,
+        22,
+        75,
+        107,
+        118
+      ],
+      "root_exponent": 203,
+      "shard": 31
+    }
+  ],
+  "worker_seconds": 12.406914
+}

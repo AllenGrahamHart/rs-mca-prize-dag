@@ -364,7 +364,7 @@
     "background/nodes/e1_official_low_square_mass_pair_budget/frontier.md"
    ],
    "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 65127585921474870475467050631501738502567, about 1.714K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)); after the prize field floor removes S=16, at most 69541 oriented vectors is a stronger uniform sufficient condition. The Plotkin compiler then forces more than B* values.",
-   "attack_surface": "prove the exact weighted folded-kernel budget, the stronger 69541 oriented-vector cap on the binding row, or maximum collision degree three; start with the six live prize cofactor classes of (4,2,S=18), especially m=1028 at V in {10,18}, and retain exact orientations, stabilizers, and class-pair multiplicities",
+   "attack_surface": "prove the exact weighted folded-kernel budget, the stronger 69541 oriented-vector cap on the binding row, or maximum collision degree three; the leading (4,2,S=18) profile now has only cofactors 2 and 4, so attack m=4 before m=2 and retain exact orientations, stabilizers, and class-pair multiplicities",
    "falsifier": "an admissible row whose exact unordered low-mass collision-pair count exceeds its printed budget, or a multiplicity/type error in a claimed count"
   },
   {
@@ -2625,6 +2625,348 @@
    ],
    "statement": "On prize-envelope N=256 rows, every profile-(4,2,0) collision has autocorrelation variance V=2 mod 8. An exact logarithmic deficit gives cofactor-specific finite windows, and a Lucas-resultant calculation excludes V=2. Cofactor 1538 is impossible; cofactor 1028 retains only V in {10,18}; the other five live cofactors have explicit bounded V=2 mod 8 residuals.",
    "notes": "ROUTE REDUCTION 2026-07-28: narrows the leading prize S=18 profile without a census or numerical norm estimate. Six cofactor classes remain, so this is evidence for rather than closure of the aggregate pair budget."
+  },
+  {
+   "id": "e1_prize_n256_s18_m1028_collision_exclusion",
+   "title": "Prize N=256 square-mass-18 cofactor-1028 exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(4,2,0) cofactor 1028 is impossible. The parent restricts it to V in {10,18}. Two independent complete normalized censuses cover 320292000 signed vectors, find no V=10 vector and 16 V=18 vectors, and prove that none of the latter has norm divisible by 257, contradicting 1028=4*257.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual 32-shard engines with distinct enumeration and autocorrelation implementations agree. The leading prize profile contracts from six to five live cofactors; no aggregate pair count is claimed."
+  },
+  {
+   "id": "e1_prize_n256_s18_m514_collision_exclusion",
+   "title": "Prize N=256 square-mass-18 cofactor-514 exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_m514_collision_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_m514_collision_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_m514_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_m514_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_m514_collision_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_m514_collision_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_m514_collision_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_m514_collision_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(4,2,0) cofactor 514 is impossible. Dual complete normalized censuses cover 320292000 signed vectors in the six residual variance chambers and leave 184 norms divisible by 257. FLINT and PARI agree on all 184 exact resultants, and every quotient Norm/514 lies strictly below the prize interval.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual census and dual resultant engines reduce the leading prize profile from five to four live cofactors. Normalized vector counts are not used as weighted class-pair counts."
+  },
+  {
+   "id": "e1_prize_n256_s18_m256_collision_exclusion",
+   "title": "Prize N=256 square-mass-18 cofactor-256 exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_m256_collision_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_m256_collision_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_m256_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_m256_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_m256_collision_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_m256_collision_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_m256_collision_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_m256_collision_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(4,2,0) cofactor 256 is impossible. Dual complete normalized censuses leave 20756 vectors in nine variance chambers. FLINT and PARI agree through 32 exact-resultant commitments; every quotient Norm/256 is outside the prize interval, with all V=18 values above and all V>=26 values below.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual census and committed dual resultant ledgers reduce the leading prize profile from four to three live cofactors. The compact norm packet retains exact interval extremizers rather than 20756 redundant integers."
+  },
+  {
+   "id": "e1_prize_n256_s18_m16_high_variance_exclusion",
+   "title": "Prize N=256 square-mass-18 m=16 high-variance exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, a profile-(4,2,0) collision with cofactor 16 cannot have V in {114,122,130,138,146,154,162,170,178}. A profile-specific autocorrelation L1 bound, six quadratic log majorants, and three exact layered-third-moment Hermite certificates leave only 10<=V<=106 with V=2 mod 8.",
+   "notes": "ANALYTIC ROUTE REDUCTION 2026-07-28: removes the high nine of 22 m=16 variance chambers without relying on the accompanying census. Lower variances, cofactors 2 and 4, and the aggregate weighted edge count remain open."
+  },
+  {
+   "id": "e1_prize_n256_s18_m16_collision_exclusion",
+   "title": "Prize N=256 square-mass-18 cofactor-16 exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_m16_collision_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_m16_collision_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_m16_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_m16_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_m16_collision_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_m16_collision_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_m16_collision_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_m16_collision_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(4,2,0) cofactor 16 is impossible. Dual complete normalized censuses leave 540332 vectors after the analytic high-variance exclusion. Independently streamed FLINT and PARI resultants agree through a 64-bucket multiset fingerprint, and every quotient Norm/16 lies strictly outside the prize interval.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual streamed enumeration and exact arithmetic reduce the leading prize profile to cofactors 2 and 4. No aggregate weighted pair count is claimed."
+  },
+  {
+   "id": "e1_prize_n256_s18_m4_high_variance_exclusion",
+   "title": "Prize N=256 square-mass-18 m=4 high-variance exclusion",
+   "status": "PROVED",
+   "closure": "proof plus exhaustive certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_m4_high_variance_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_m4_high_variance_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_m4_high_variance_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_m4_high_variance_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_m4_high_variance_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_m4_high_variance_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_m4_high_variance_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_m4_high_variance_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, a profile-(4,2,0) collision with cofactor 4 cannot have V in {82,90,98,...,226}. Dual exact third-moment frontiers, four universal layer caps, and four quadratic log majorants leave only 10<=V<=74 with V=2 mod 8.",
+   "notes": "ANALYTIC/EXHAUSTIVE ROUTE REDUCTION 2026-07-28: removes the high 19 of 28 m=4 variance chambers. Exact computation is load-bearing only for the eleven third-moment maxima; the other eight rows are analytic."
+  },
+  {
+   "id": "e1_prize_n256_s18_m4_collision_exclusion",
+   "title": "Prize N=256 square-mass-18 cofactor-4 exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_m4_collision_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_m4_collision_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_m4_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_m4_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_m4_collision_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_m4_collision_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_m4_collision_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_m4_collision_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(4,2,0) cofactor 4 is impossible. Dual complete normalized streams leave 21376 vectors after the high-variance exclusion. FLINT and PARI agree through a 64-bucket multiset fingerprint, and every quotient Norm/4 lies strictly outside the prize interval.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual streamed enumeration and exact arithmetic reduce the leading prize profile to the sole cofactor 2. No aggregate weighted pair count is claimed."
+  },
+  {
+   "id": "e1_prize_n256_s18_m2_high_variance_exclusion",
+   "title": "Prize N=256 square-mass-18 m=2 high-variance exclusion",
+   "status": "PROVED",
+   "closure": "proof plus exhaustive certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_m2_high_variance_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, a profile-(4,2,0) collision with cofactor 2 cannot have V in {106,114,122,...,250}. Dual exact third-moment frontiers and seven universal layer caps leave only 10<=V<=98 with V=2 mod 8.",
+   "notes": "ANALYTIC/EXHAUSTIVE ROUTE REDUCTION 2026-07-28: removes the high 19 of 31 m=2 variance chambers. Exact computation is load-bearing through V=194; the final seven rows are analytic."
+  },
+  {
+   "id": "e1_prize_n256_s18_m2_collision_exclusion",
+   "title": "Prize N=256 square-mass-18 cofactor-2 exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(4,2,0) cofactor 2 is impossible. Dual complete normalized streams leave 511272 vectors after the high-variance exclusion. FLINT and PARI agree through a 64-bucket multiset fingerprint, and every quotient Norm/2 lies strictly outside the prize interval.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual streamed enumeration and exact arithmetic eliminate the last prize cofactor of the leading square-mass-18 profile. Later profiles and the aggregate weighted pair budget remain open."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_exclusion",
+   "title": "Prize N=256 square-mass-18 leading-profile exclusion",
+   "status": "PROVED",
+   "closure": "proof plus exact integer ledger",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_exclusion/verify.py"
+   ],
+   "statement": "The leading prize-envelope profile (4,2,S=18) is impossible: its seven exact cofactor classes are all excluded by proved variance and dual exact-resultant children. Removing its zero contribution from the binding weighted ledger makes (3,6,S=18) the maximum-weight remaining profile and raises the sufficient oriented-vector cap from 69541 to 93962.",
+   "notes": "PROFILE SYNTHESIS 2026-07-28: converts seven sibling cofactor exclusions into one explicit zero profile and recomputes the exact post-exclusion weight frontier. RowC, other prize profiles, and the aggregate pair budget remain open."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "title": "Prize N=256 profile-(3,6) cofactor windows",
+   "status": "PROVED",
+   "closure": "proof plus exact finite enumeration",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, every profile-(3,6,S=18) collision has 2-adic norm valuation in {1,2,3,4,5,6,8,9,10} and one of twelve exact cofactors. Its autocorrelation variance is positive even and not two. A profile-specific logarithmic deficit leaves explicit finite windows, from V<=350 for cofactor 2 down to V<=12 for cofactor 1538.",
+   "notes": "ROUTE REDUCTION 2026-07-28: reduces the new maximum-weight support-9 profile to twelve finite cofactor/variance interfaces without a broad vector census. The profile and aggregate weighted pair budget remain open."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_36_m1538_exclusion",
+   "title": "Prize N=256 profile-(3,6) cofactor-1538 exclusion",
+   "status": "PROVED",
+   "closure": "dual exact finite enumeration",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 1538 is impossible. Its valuation mu=1 and residual V in {4,6,8,10,12} would require autocorrelation energy 2 through 6. A complete 1969-affine-orbit classification with two exact XOR engines proves that no such coefficient vector exists.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual pair-plus-third and triple-table engines agree on 2216832 low-energy targets, 16970 candidate heavy supports, and 135760 exact sign tests. Eleven profile-(3,6) cofactors remain."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_36_sharp_product_window",
+   "title": "Prize N=256 profile-(3,6) sharp product window",
+   "status": "PROVED",
+   "closure": "analytic extremum reduction plus exact rational certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, every profile-(3,6,S=18) collision with cofactor 1024 or 1028 has variance in {4,6,8,10,12}. The sharp fixed-mean/fixed-variance product envelope excludes all even V from 14 through 34 by 649 exact rational comparisons.",
+   "notes": "ROUTE CONTRACTION 2026-07-28: the two shortest profile-(3,6) cofactor windows contract from V<=34 to five low-energy chambers. The exact certificate also proves that this envelope alone does not remove V=12."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_36_bounded_product_windows",
+   "title": "Prize N=256 profile-(3,6) bounded product windows",
+   "status": "PROVED",
+   "closure": "capped moment extremum plus exact rational certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, the nine residual profile-(3,6,S=18) cofactor windows have upper variance endpoints 284,266,254,216,170,130,60,34,34 for cofactors 2,4,8,16,32,64,256,512,514. The capped two-moment envelope is certified by 11023 exact rational comparisons.",
+   "notes": "ROUTE CONTRACTION 2026-07-28: includes all upper-cap strata k=0,...,7 and certifies a surviving preceding boundary for every cofactor. No collision class is declared empty."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_36_m1024_exclusion",
+   "title": "Prize N=256 profile-(3,6) cofactor-1024 exclusion",
+   "status": "PROVED",
+   "closure": "dual exact finite enumeration",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 1024 is impossible. Its multiplicity mu=10 and sharp residual E in {2,3,4,5,6} reduce to 68 affine singleton orbits; two exact XOR engines find no coefficient vector in the residual.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: pair-plus-third and triple-table engines agree on 194816 targets, 606 candidate heavy supports, and 4848 exact sign tests. Ten profile-(3,6) cofactors remain."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_36_m1028_exclusion",
+   "title": "Prize N=256 profile-(3,6) cofactor-1028 exclusion",
+   "status": "PROVED",
+   "closure": "dual exact finite enumeration plus split-prime test",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 1028 is impossible. Its multiplicity mu=2 and sharp residual E in {2,3,4,5,6} contain exactly 16 normalized vectors, all at E=5; none has norm divisible by 257.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual XOR engines agree on 2409344 targets, 89224 candidate heavy supports, 713792 exact sign tests, and 16 energy-five vectors. All 16 fail the 128-root test modulo 257. Nine profile-(3,6) cofactors remain."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_36_m512_exclusion",
+   "title": "Prize N=256 profile-(3,6) cofactor-512 exclusion",
+   "status": "PROVED",
+   "closure": "dual exact radius census plus dual exact norm ledger",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 512 is impossible. Its multiplicity mu=9 and bounded residual E in {2,...,17} contain four normalized vectors, all at E=15 or E=17; every exact quotient Norm/512 lies below the prize interval.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: two radius engines agree on 2912 affine orbits, 438120 candidate heavy supports, 3504960 exact sign tests, and four vectors. FLINT and PARI agree on their exact norms. Eight profile-(3,6) cofactors remain."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "title": "Prize N=256 profile-(3,6) energy-adaptive product windows",
+   "status": "PROVED",
+   "closure": "analytic integer-energy cap plus exact rational certificate",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_energy_adaptive_product_windows/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_energy_adaptive_product_windows/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_energy_adaptive_product_windows/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_energy_adaptive_product_windows/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_energy_adaptive_product_windows/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_energy_adaptive_product_windows/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_energy_adaptive_product_windows/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_energy_adaptive_product_windows/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, integer autocorrelation gives the adaptive conjugate-square cap y_u<=min(144,18+V). An exact product certificate contracts profile-(3,6,S=18) cofactor 256 to V<=46 and cofactor 514 to V<=22. Multiplicity-one emptiness through E=6 and parity-adaptive caps leave nine exact (E,q) chambers for cofactor 514.",
+   "notes": "ROUTE CONTRACTION 2026-07-28: 6273 exact rational comparisons remove m=256 variances 48 through 60 and m=514 variances 24 through 34. Adversarial mod-257 witnesses at E=15,17 falsify stronger geometric premises but lie below the prize interval. Eight profile cofactors remain."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_36_m514_exclusion",
+   "title": "Prize N=256 profile-(3,6) cofactor-514 exclusion",
+   "status": "PROVED",
+   "closure": "dual exact radius census plus dual exact norm ledger",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 514 is impossible. A complete 123196-affine-orbit radius census leaves twelve vectors in the nine live chambers, only eight with factor 257; FLINT and PARI agree that every exact quotient Norm/514 lies below the prize interval.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: hash-map and sorted-pair engines agree on 922886080 XOR probes, 883718 candidate heavy supports, 7069744 exact sign tests, twelve geometric vectors, and eight factor-257 vectors. Seven profile-(3,6) cofactors remain."
   },
   {
    "id": "e1_n512_four_singleton_collision_exclusion",
@@ -21382,6 +21724,241 @@
    "kind": "ev"
   },
   {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_prize_n256_s18_m1028_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m1028_collision_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m1028_collision_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m1028_collision_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_prize_n256_s18_m514_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m514_collision_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m514_collision_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m514_collision_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_prize_n256_s18_m256_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m256_collision_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m256_collision_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m256_collision_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_prize_n256_s18_m16_high_variance_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m16_high_variance_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m16_high_variance_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m16_high_variance_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m16_high_variance_exclusion",
+   "to": "e1_prize_n256_s18_m16_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m16_collision_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m16_collision_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m16_collision_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_prize_n256_s18_m4_high_variance_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m4_high_variance_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m4_high_variance_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m4_high_variance_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m4_high_variance_exclusion",
+   "to": "e1_prize_n256_s18_m4_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m4_collision_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m4_collision_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m4_collision_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_prize_n256_s18_m2_high_variance_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_high_variance_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_high_variance_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_high_variance_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_high_variance_exclusion",
+   "to": "e1_prize_n256_s18_m2_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_collision_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_collision_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_collision_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m1028_collision_exclusion",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m514_collision_exclusion",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m256_collision_exclusion",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m16_collision_exclusion",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m4_collision_exclusion",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_m2_collision_exclusion",
+   "to": "e1_prize_n256_s18_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
    "from": "e1_n512_four_singleton_collision_exclusion",
    "to": "e1_official_prime_exception_control",
    "kind": "ev"
@@ -36719,6 +37296,206 @@
   {
    "from": "e1_pair_feasible_prime_field_reduction",
    "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_collision_square_mass_reparametrization",
+   "to": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_local_norm_cofactor_collapse",
+   "to": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "to": "e1_prize_n256_s18_profile_36_m1538_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1538_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1538_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1538_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "to": "e1_prize_n256_s18_profile_36_sharp_product_window",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_sharp_product_window",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_sharp_product_window",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_sharp_product_window",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "to": "e1_prize_n256_s18_profile_36_bounded_product_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_bounded_product_windows",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_bounded_product_windows",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_bounded_product_windows",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_sharp_product_window",
+   "to": "e1_prize_n256_s18_profile_36_m1024_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1024_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1024_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1024_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_sharp_product_window",
+   "to": "e1_prize_n256_s18_profile_36_m1028_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1028_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1028_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1028_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_bounded_product_windows",
+   "to": "e1_prize_n256_s18_profile_36_m512_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m512_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m512_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m512_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_bounded_product_windows",
+   "to": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1538_exclusion",
+   "to": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "to": "e1_prize_n256_s18_profile_36_m514_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m514_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m514_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m514_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
   {

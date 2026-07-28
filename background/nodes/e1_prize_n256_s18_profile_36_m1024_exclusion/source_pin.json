@@ -1,0 +1,18 @@
+{
+  "parent_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/statement.md",
+  "parent_statement_sha256": "3bcb429bf6753fd84879d2d22a2fb11b16d138254710fc93ab22127d5a0a4c19",
+  "parent_proof_file": "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/proof.md",
+  "parent_proof_sha256": "b7909b6f3b862488107f2b6eb8c2746ba5a5cec9a2c7cd3f05ce2201eeeb6710",
+  "orbit_classifier_file": "experiments/prize_resolution/e1_profile_36_mu2_mu10_light_chord_classify_modal.py",
+  "orbit_classifier_sha256": "7f7fcbcb8ceb906e46abe5d1b3a89f2638c746e50c22ff0e21bce383d82548d0",
+  "orbit_file": "experiments/prize_resolution/e1_profile_36_mu2_mu10_light_chord_orbits.json",
+  "orbit_sha256": "9492e24744c3464dd7c2e1566c6dbd350f3edfe55f304ac789644c99361324a7",
+  "exact_engine_file": "experiments/prize_resolution/e1_profile_36_mu1_low_energy_exact.cpp",
+  "exact_engine_sha256": "9389dd5f0ae2a1d8c1cd14c1124189dbdc618a8e0a17e2552770b52358ce66e6",
+  "modal_launcher_file": "experiments/prize_resolution/e1_profile_36_mu2_mu10_low_energy_exact_modal.py",
+  "modal_launcher_sha256": "66948f7f86059cefa0fb25696bea85c3df65a31cf64ca347c9ea3ce51476d327",
+  "primary_result_file": "experiments/prize_resolution/e1_profile_36_mu10_low_energy_exact_result.json",
+  "primary_result_sha256": "b9234bca81697e13d053bea643f701fc936c63a003f35c3289c78c7c1b8dc12f",
+  "audit_result_file": "experiments/prize_resolution/e1_profile_36_mu10_low_energy_exact_audit_result.json",
+  "audit_result_sha256": "642c30c7f8f7daf5a472e8956128785694958d48db1f844ef1a6d48183909f88"
+}

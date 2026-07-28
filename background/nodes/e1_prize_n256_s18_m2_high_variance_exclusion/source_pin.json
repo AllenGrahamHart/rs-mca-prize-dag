@@ -1,0 +1,18 @@
+{
+  "parent_statement_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/statement.md",
+  "parent_statement_sha256": "bd481a4fdfbc63c21577da289261412298a8b8faab2df6ca6f6bd799c32b34bd",
+  "primary_m3_source_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m2_residual_m3_frontier.cpp",
+  "primary_m3_source_sha256": "89f1ade82efb5123dc0ae989f910661e2b24ed81d24339b96742126ede6531f1",
+  "primary_m3_launcher_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m2_residual_m3_frontier_modal.py",
+  "primary_m3_launcher_sha256": "6ffcb2a4a43bb9517d9966d80eb062c74ef8cd991b168101b6189ce92686abe7",
+  "primary_m3_result_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m2_residual_m3_frontier_result.json",
+  "primary_m3_result_sha256": "8bc10454f821bd1187252092a7bc3e00973d95ff30f94e7019f3113028c174d0",
+  "primary_m3_modal_app": "ap-2SrwvNtxlhfJ2USNVd5yvn",
+  "audit_m3_source_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m2_residual_m3_audit.cpp",
+  "audit_m3_source_sha256": "1a1d3d957e5620405dea4fcbaeebd25ab423cea87c5ae0dfab30126cace779ef",
+  "audit_m3_launcher_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m2_residual_m3_audit_modal.py",
+  "audit_m3_launcher_sha256": "ef61ab00b0a440d2d9f27cf5f0a9dbe38743ef24c7c7755c16d66887547653b5",
+  "audit_m3_result_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m2_residual_m3_audit_result.json",
+  "audit_m3_result_sha256": "7da6e2f9877f7375ba7e26708f3dc762736b5ff0402d82b04e3264c680ebabf2",
+  "audit_m3_modal_app": "ap-uGeZVekDHwri0h2YdtA6yH"
+}
