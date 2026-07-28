@@ -1,0 +1,37 @@
+--- worker.cpp
++++ worker.cpp
+@@ -241,6 +241,14 @@
+                 const int third = allowed[third_index];
+                 const uint64_t key = pair_key ^ columns[third];
+                 ++counts.triple_syndromes;
++                const bool singleton_support_even = std::all_of(
++                    support.begin(), support.end(),
++                    [](int position) { return position % 2 == 0; }
++                );
++                if (singleton_support_even
++                    && first % 2 == 0 && second % 2 == 0 && third % 2 == 0) {
++                    continue;
++                }
+                 const std::array<int, 3> heavy_support{first, second, third};
+                 std::array<int, 3> heavy_pair_lag{};
+                 std::array<int, 3> heavy_pair_orientation{};
+@@ -317,20 +325,7 @@
+                         ++counts.low_energy_vectors;
+                         if (!product_live(candidate_energy, q, l1_norm)) continue;
+                         ++counts.product_live_vectors;
+-                        const long double measured = log_norm(
+-                            support, singleton_signs[sign_mask],
+-                            heavy_support, heavy_signs
+-                        );
+-                        static const long double threshold =
+-                            logl(16.0L)
+-                            + logl(strtold(
+-                                "317494674775468773183020924238786383963", nullptr
+-                            ))
+-                            + 128.0L * logl(2.0L);
+-                        if (measured < threshold - 1e-9L) ++counts.screen_below;
+-                        else if (measured > threshold + 1e-9L) ++counts.screen_above;
+-                        else ++counts.screen_near;
+                         const int fixed_relation = fixed_norm_relation(
+                             support, singleton_signs[sign_mask],
+                             heavy_support, heavy_signs

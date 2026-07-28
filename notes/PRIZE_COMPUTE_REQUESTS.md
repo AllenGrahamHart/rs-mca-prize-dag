@@ -9267,15 +9267,74 @@ introduced by the new branch theorem.
 
 #### CR-E1-PROFILE-36-M16-LARGER-BRANCHES: deferred exact censuses
 
-**Status:** DEFERRED COMPUTE REQUEST. No launch is authorized.
+**Status:** ONCE-DIVIDED COMPLETE; PRIMITIVE DEFERRED. No further launch is
+authorized.
 
-The once-divided and primitive m16 branches project to 26.819 and 121.464
-one-CPU hours from complete parity-class benchmarks. Their direct censuses,
-before independent audits, are outside the present cheap-compute envelope.
-Contributors with available compute could run the same exact engine in
-three-orbit, one-CPU, 256 MiB, sub-60-second shards, followed by an independent
-reverse-direct audit. Until then, seek analytic contraction of the live
-`(E,q,L)` corridor or a structural exclusion that eliminates these branches.
+The initial once-divided and primitive m16 branches projected to 26.819 and
+121.464 one-CPU hours from complete parity-class benchmarks. The once-divided
+history and close are recorded below. The primitive census remains outside the
+present cheap-compute envelope; seek analytic contraction of its live
+`(E,q,L)` corridor or another structural exclusion before requesting it.
+
+One 15-representative optimization benchmark is authorized for the
+once-divided branch. It removes the non-proof long-double diagnostic and skips
+heavy triples whose three positions are even: together with the even singleton
+support, those vectors are polynomials in `X^2`, so their degree-128
+cyclotomic norm is a square and cannot equal `16p`. Use at most 15 one-CPU,
+256 MiB, 60-second Modal tasks. Expected cost is below `$0.01`; the benchmark
+does not authorize a complete census.
+
+Modal apps `ap-uS90mwAgnXkmFsSjw4xxgc` and
+`ap-Jwda0y53bpMXMNp0GjPBNp` completed the no-diagnostic/even-square and
+rigorous early-cap benchmarks. Weighted projections fall from 26.819 to
+19.529 and then 16.779 one-CPU hours. Modal app
+`ap-bJ1BO3Mz3ciVx7Cnry7tUj` records the final projection. Every representative
+retains the same fixed below/above/unresolved classification as the full
+interval engine.
+
+The once-divided primary census is now authorized. Run 2,270 batches of at
+most four orbits, with four independent subprocesses in each four-CPU,
+512 MiB Modal container, at most 100 containers, 60-second task caps, atomic
+checkpoints, no script-level retries, and all high-side witnesses retained.
+The calibrated 60,404 CPU-second projection costs about `$0.8`; four-way
+container concurrency projects below five minutes wall time. PASS requires
+all 9,080 affine orbits, the exact even-square omission count, all structural
+identities, and zero unresolved fixed intervals. It authorizes no theorem
+promotion without a separate reverse-direct audit.
+
+Modal app `ap-6xxI9MGrLIK1n5crnIT6c3` completed that primary census. All
+9,080 orbits passed in 2,270 four-way batches, with maximum task wall time
+11.249 seconds. The exact totals are 2,680,779,200 raw triples,
+76,819,415,040 post-square-omission sign-distance tests, 73,175,732,492
+radius matches, 585,405,859,936 exact sign tests, 6,762,240,640 low-energy
+vectors, and 1,816,625,504 product-live vectors. The fixed-root interval
+classified 1,816,625,308 below and 196 above, retained all 196 high-side
+witnesses, and left zero unresolved.
+
+One 15-representative reverse-direct benchmark is authorized. It must use the
+independent reverse enumeration, the original full fixed-root interval, and
+the same exact square-norm omission. It must reproduce every primary count on
+one orbit for each represented odd-chord weight before projecting the full
+audit cost. This benchmark alone does not authorize the complete audit.
+
+Modal app `ap-vysGPqGNw3Uo1bZm9osv0L` completed the reverse benchmark. All 15
+odd-chord classes reproduce every corresponding primary count exactly. Modal
+app `ap-mt8xdOni6TjNwFU6qkqBqE` projects 68,410.34 CPU seconds, or 19.003 CPU
+hours, for all 9,080 orbits. This is approximately a sub-`$1` campaign at the
+same rates as the completed primary, so one complete reverse-direct audit is
+authorized: 2,270 four-orbit batches, four independent subprocesses per
+four-CPU, 512 MiB container, at most 100 containers, 60-second task caps,
+atomic partial output, and no script-level retries. PASS requires an exact
+per-orbit match to the primary as well as the independent aggregate ledger.
+
+Modal app `ap-HxT2OzXtS2r4jcKWzNH2a4` completed that audit. All 2,270 batches
+and all 9,080 per-orbit comparisons passed. The reverse engine independently
+reproduces 73,175,732,492 radius matches, 585,405,859,936 exact sign tests,
+6,762,240,640 low-energy vectors, 1,816,625,504 product-live vectors, the
+1,816,625,308/196 below-above split, and zero unresolved intervals. The
+maximum four-worker task wall time was 13.321 seconds. This closes the
+once-divided branch subject to the source-pinned node verifier; no additional
+campaign under this request is authorized.
 
 #### CR-E1-PROFILE-36-M16-GENERIC-THIRD-MOMENT: quantified no-go
 

@@ -6267,3 +6267,34 @@ remaining profile-(3,6) cofactors: 4 (m=16 is only partially decomposed)
 next attack: contract or structurally exclude the once-divided m16 branch;
   do not launch the primitive census under the current compute budget
 ```
+
+**Same-day cofactor-16 once-divided close:** an exact subfield argument removes
+all-even heavy triples, a rigorous early upper cap makes the primary census
+affordable, and an independent full-interval reverse engine reproduces every
+proof count on every support orbit.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m16_one_division_exclusion
+once-divided quotient supports examined: 557845
+exact-multiplicity-two supports: 139360; affine orbits: 9080
+all-even heavy triples omitted per orbit by square norm: 30856
+post-square singleton-sign distance tests: 76819415040
+dual-agreed unique radius triples: 73175732492
+exact sign tests: 585405859936
+directly replayed low-energy vectors: 6762240640
+product-live vectors: 1816625504
+certified norm intervals: 1816625308 below, 196 above, 0 unresolved
+primary/reverse-benchmark/projection/audit Modal apps:
+  ap-6xxI9MGrLIK1n5crnIT6c3, ap-vysGPqGNw3Uo1bZm9osv0L,
+  ap-mt8xdOni6TjNwFU6qkqBqE, ap-HxT2OzXtS2r4jcKWzNH2a4
+node/DAG/harness verifier Modal apps:
+  ap-X5QrnxnWwUrM9c7S88jt2e, ap-IIr6duTwdkDUjj6Oxo5tEa,
+  ap-DTNXEczjog2rzfTDf5LYAD
+m16 support status:
+  primitive mu4 in Z/128:       39936 affine orbits, OPEN
+  once-divided mu2 in Z/64:      9080 affine orbits, PROVED empty
+  twice-divided mu1 in Z/32:      903 affine orbits, PROVED empty
+remaining profile-(3,6) cofactors: 4 (m=16 remains open only on primitive)
+next attack: seek analytic contraction of primitive m16; its last measured
+  direct projection was 121.464 one-CPU hours and is not authorized
+```

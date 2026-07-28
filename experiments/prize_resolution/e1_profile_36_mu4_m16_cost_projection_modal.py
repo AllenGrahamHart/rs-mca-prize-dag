@@ -62,15 +62,22 @@ def project(
 
 
 @app.local_entrypoint()
-def main() -> None:
+def main(
+    benchmark_path: str = "",
+    output_path: str = "",
+    branch: str = "",
+) -> None:
     atlas = json.loads(ATLAS.read_text())
-    benchmark = json.loads(BENCHMARK.read_text())
+    benchmark_file = ROOT / benchmark_path if benchmark_path else BENCHMARK
+    output_file = ROOT / output_path if output_path else OUTPUT
+    benchmark = json.loads(benchmark_file.read_text())
     weights = {
-        branch: packet["orbit_weights"]
-        for branch, packet in atlas["branches"].items()
+        branch_name: packet["orbit_weights"]
+        for branch_name, packet in atlas["branches"].items()
+        if not branch or branch_name == branch
     }
     result = project.remote(weights, benchmark["rows"])
-    OUTPUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    output_file.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     print(json.dumps(result, indent=2, sort_keys=True))
 
 
