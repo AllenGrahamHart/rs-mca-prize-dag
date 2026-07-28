@@ -1,0 +1,412 @@
+{
+  "affine_orbits": 4480,
+  "complete": true,
+  "counts": {
+    "distance_tests": 42325606400,
+    "exact_sign_tests": 37864722144,
+    "fixed_above": 110,
+    "fixed_below": 4806430,
+    "fixed_unresolved": 0,
+    "low_energy_vectors": 8730734,
+    "orbits": 4480,
+    "product_live_vectors": 4806540,
+    "radius_matches": 4733090268,
+    "screen_above": 110,
+    "screen_below": 4806430,
+    "screen_near": 0,
+    "triple_syndromes": 1322675200
+  },
+  "engine_sha256": "785bd2ff42f8dbd6b3562b7894ef893a8c3a3a8c5a4c3e4963403db73e0f3f2d",
+  "fixed_roots_sha256": "0bdcada03187b219ccd74d0b89bba87fe26c6d61b8f25df15aa612be5fd9d5cc",
+  "max_worker_seconds": 98.3931,
+  "orbit_file_sha256": "574cbe78dbea6ec4f1fc0497c2c502e288933652bcb4ab33f6a49d2e6cb06598",
+  "rows": [
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74878392 exact_sign_tests=599027136 low_energy_vectors=141582 product_live_vectors=76158 screen_below=76146 screen_above=12 screen_near=0 fixed_below=76146 fixed_above=12 fixed_unresolved=0 seconds=54.5913\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75037956 exact_sign_tests=600303648 low_energy_vectors=147788 product_live_vectors=79588 screen_below=79588 screen_above=0 screen_near=0 fixed_below=79588 fixed_above=0 fixed_unresolved=0 seconds=98.3931\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=76677980 exact_sign_tests=613423840 low_energy_vectors=152490 product_live_vectors=81038 screen_below=81038 screen_above=0 screen_near=0 fixed_below=81038 fixed_above=0 fixed_unresolved=0 seconds=66.2793\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75607760 exact_sign_tests=604862080 low_energy_vectors=147450 product_live_vectors=78556 screen_below=78556 screen_above=0 screen_near=0 fixed_below=78556 fixed_above=0 fixed_unresolved=0 seconds=82.4452\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=70370526 exact_sign_tests=562964208 low_energy_vectors=125990 product_live_vectors=67986 screen_below=67986 screen_above=0 screen_near=0 fixed_below=67986 fixed_above=0 fixed_unresolved=0 seconds=51.5736\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75606932 exact_sign_tests=604855456 low_energy_vectors=137670 product_live_vectors=74452 screen_below=74452 screen_above=0 screen_near=0 fixed_below=74452 fixed_above=0 fixed_unresolved=0 seconds=55.1266\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75131560 exact_sign_tests=601052480 low_energy_vectors=139340 product_live_vectors=76294 screen_below=76286 screen_above=8 screen_near=0 fixed_below=76286 fixed_above=8 fixed_unresolved=0 seconds=84.7224\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74508884 exact_sign_tests=596071072 low_energy_vectors=142268 product_live_vectors=73776 screen_below=73772 screen_above=4 screen_near=0 fixed_below=73772 fixed_above=4 fixed_unresolved=0 seconds=81.6939\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72433820 exact_sign_tests=579470560 low_energy_vectors=136764 product_live_vectors=74884 screen_below=74884 screen_above=0 screen_near=0 fixed_below=74884 fixed_above=0 fixed_unresolved=0 seconds=82.1673\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=78448564 exact_sign_tests=627588512 low_energy_vectors=143234 product_live_vectors=78746 screen_below=78742 screen_above=4 screen_near=0 fixed_below=78742 fixed_above=4 fixed_unresolved=0 seconds=68.1087\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73602160 exact_sign_tests=588817280 low_energy_vectors=144572 product_live_vectors=77302 screen_below=77290 screen_above=12 screen_near=0 fixed_below=77290 fixed_above=12 fixed_unresolved=0 seconds=96.5236\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72101938 exact_sign_tests=576815504 low_energy_vectors=131748 product_live_vectors=73532 screen_below=73528 screen_above=4 screen_near=0 fixed_below=73528 fixed_above=4 fixed_unresolved=0 seconds=79.903\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74114742 exact_sign_tests=592917936 low_energy_vectors=139216 product_live_vectors=76354 screen_below=76346 screen_above=8 screen_near=0 fixed_below=76346 fixed_above=8 fixed_unresolved=0 seconds=54.0724\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73181224 exact_sign_tests=585449792 low_energy_vectors=129428 product_live_vectors=71472 screen_below=71472 screen_above=0 screen_near=0 fixed_below=71472 fixed_above=0 fixed_unresolved=0 seconds=82.1765\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=76095692 exact_sign_tests=608765536 low_energy_vectors=147432 product_live_vectors=79318 screen_below=79318 screen_above=0 screen_near=0 fixed_below=79318 fixed_above=0 fixed_unresolved=0 seconds=85.5156\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72925172 exact_sign_tests=583401376 low_energy_vectors=129198 product_live_vectors=72192 screen_below=72188 screen_above=4 screen_near=0 fixed_below=72188 fixed_above=4 fixed_unresolved=0 seconds=52.8997\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72486364 exact_sign_tests=579890912 low_energy_vectors=132978 product_live_vectors=73824 screen_below=73824 screen_above=0 screen_near=0 fixed_below=73824 fixed_above=0 fixed_unresolved=0 seconds=81.5455\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75964652 exact_sign_tests=607717216 low_energy_vectors=141516 product_live_vectors=77666 screen_below=77666 screen_above=0 screen_near=0 fixed_below=77666 fixed_above=0 fixed_unresolved=0 seconds=83.2847\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73380260 exact_sign_tests=587042080 low_energy_vectors=131588 product_live_vectors=71488 screen_below=71484 screen_above=4 screen_near=0 fixed_below=71484 fixed_above=4 fixed_unresolved=0 seconds=92.5842\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75171144 exact_sign_tests=601369152 low_energy_vectors=143806 product_live_vectors=76796 screen_below=76796 screen_above=0 screen_near=0 fixed_below=76796 fixed_above=0 fixed_unresolved=0 seconds=54.7577\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73774636 exact_sign_tests=590197088 low_energy_vectors=134216 product_live_vectors=71880 screen_below=71880 screen_above=0 screen_near=0 fixed_below=71880 fixed_above=0 fixed_unresolved=0 seconds=80.6129\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74192092 exact_sign_tests=593536736 low_energy_vectors=131010 product_live_vectors=73848 screen_below=73840 screen_above=8 screen_near=0 fixed_below=73840 fixed_above=8 fixed_unresolved=0 seconds=80.5533\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=71168380 exact_sign_tests=569347040 low_energy_vectors=129666 product_live_vectors=70158 screen_below=70154 screen_above=4 screen_near=0 fixed_below=70154 fixed_above=4 fixed_unresolved=0 seconds=93.7861\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74474296 exact_sign_tests=595794368 low_energy_vectors=135478 product_live_vectors=74682 screen_below=74680 screen_above=2 screen_near=0 fixed_below=74680 fixed_above=2 fixed_unresolved=0 seconds=93.9439\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72692798 exact_sign_tests=581542384 low_energy_vectors=139206 product_live_vectors=74006 screen_below=74006 screen_above=0 screen_near=0 fixed_below=74006 fixed_above=0 fixed_unresolved=0 seconds=81.7857\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74780206 exact_sign_tests=598241648 low_energy_vectors=140184 product_live_vectors=77420 screen_below=77420 screen_above=0 screen_near=0 fixed_below=77420 fixed_above=0 fixed_unresolved=0 seconds=54.2432\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72597472 exact_sign_tests=580779776 low_energy_vectors=131336 product_live_vectors=74340 screen_below=74340 screen_above=0 screen_near=0 fixed_below=74340 fixed_above=0 fixed_unresolved=0 seconds=75.3999\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=71826392 exact_sign_tests=574611136 low_energy_vectors=132098 product_live_vectors=70060 screen_below=70060 screen_above=0 screen_near=0 fixed_below=70060 fixed_above=0 fixed_unresolved=0 seconds=78.0763\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=70269652 exact_sign_tests=562157216 low_energy_vectors=128582 product_live_vectors=74200 screen_below=74200 screen_above=0 screen_near=0 fixed_below=74200 fixed_above=0 fixed_unresolved=0 seconds=76.8782\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=76856200 exact_sign_tests=614849600 low_energy_vectors=137800 product_live_vectors=78200 screen_below=78200 screen_above=0 screen_near=0 fixed_below=78200 fixed_above=0 fixed_unresolved=0 seconds=55.821\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74128884 exact_sign_tests=593031072 low_energy_vectors=137132 product_live_vectors=71524 screen_below=71524 screen_above=0 screen_near=0 fixed_below=71524 fixed_above=0 fixed_unresolved=0 seconds=81.0879\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=70660516 exact_sign_tests=565284128 low_energy_vectors=128718 product_live_vectors=72362 screen_below=72362 screen_above=0 screen_near=0 fixed_below=72362 fixed_above=0 fixed_unresolved=0 seconds=51.6302\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=69261780 exact_sign_tests=554094240 low_energy_vectors=133200 product_live_vectors=70652 screen_below=70652 screen_above=0 screen_near=0 fixed_below=70652 fixed_above=0 fixed_unresolved=0 seconds=50.647\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=70923858 exact_sign_tests=567390864 low_energy_vectors=133934 product_live_vectors=74126 screen_below=74126 screen_above=0 screen_near=0 fixed_below=74126 fixed_above=0 fixed_unresolved=0 seconds=78.8857\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75944916 exact_sign_tests=607559328 low_energy_vectors=143358 product_live_vectors=76264 screen_below=76260 screen_above=4 screen_near=0 fixed_below=76260 fixed_above=4 fixed_unresolved=0 seconds=55.1081\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=78284048 exact_sign_tests=626272384 low_energy_vectors=151436 product_live_vectors=81228 screen_below=81224 screen_above=4 screen_near=0 fixed_below=81224 fixed_above=4 fixed_unresolved=0 seconds=88.0476\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75978356 exact_sign_tests=607826848 low_energy_vectors=138486 product_live_vectors=76932 screen_below=76932 screen_above=0 screen_near=0 fixed_below=76932 fixed_above=0 fixed_unresolved=0 seconds=83.2088\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72146556 exact_sign_tests=577172448 low_energy_vectors=134266 product_live_vectors=71598 screen_below=71598 screen_above=0 screen_near=0 fixed_below=71598 fixed_above=0 fixed_unresolved=0 seconds=52.713\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74979208 exact_sign_tests=599833664 low_energy_vectors=143480 product_live_vectors=77836 screen_below=77828 screen_above=8 screen_near=0 fixed_below=77828 fixed_above=8 fixed_unresolved=0 seconds=54.513\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73917700 exact_sign_tests=591341600 low_energy_vectors=130204 product_live_vectors=75176 screen_below=75176 screen_above=0 screen_near=0 fixed_below=75176 fixed_above=0 fixed_unresolved=0 seconds=53.6908\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=79822216 exact_sign_tests=638577728 low_energy_vectors=150664 product_live_vectors=81912 screen_below=81912 screen_above=0 screen_near=0 fixed_below=81912 fixed_above=0 fixed_unresolved=0 seconds=89.5909\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73373856 exact_sign_tests=586990848 low_energy_vectors=128530 product_live_vectors=74320 screen_below=74320 screen_above=0 screen_near=0 fixed_below=74320 fixed_above=0 fixed_unresolved=0 seconds=79.9525\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=71747624 exact_sign_tests=573980992 low_energy_vectors=128884 product_live_vectors=75314 screen_below=75314 screen_above=0 screen_near=0 fixed_below=75314 fixed_above=0 fixed_unresolved=0 seconds=52.4734\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73154088 exact_sign_tests=585232704 low_energy_vectors=129416 product_live_vectors=73000 screen_below=73000 screen_above=0 screen_near=0 fixed_below=73000 fixed_above=0 fixed_unresolved=0 seconds=82.4751\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73863744 exact_sign_tests=590909952 low_energy_vectors=134012 product_live_vectors=72318 screen_below=72318 screen_above=0 screen_near=0 fixed_below=72318 fixed_above=0 fixed_unresolved=0 seconds=54.0385\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72735170 exact_sign_tests=581881360 low_energy_vectors=128076 product_live_vectors=75074 screen_below=75066 screen_above=8 screen_near=0 fixed_below=75066 fixed_above=8 fixed_unresolved=0 seconds=80.4925\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73105952 exact_sign_tests=584847616 low_energy_vectors=134578 product_live_vectors=70912 screen_below=70912 screen_above=0 screen_near=0 fixed_below=70912 fixed_above=0 fixed_unresolved=0 seconds=82.2496\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74814668 exact_sign_tests=598517344 low_energy_vectors=136922 product_live_vectors=75642 screen_below=75642 screen_above=0 screen_near=0 fixed_below=75642 fixed_above=0 fixed_unresolved=0 seconds=82.2901\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74774212 exact_sign_tests=598193696 low_energy_vectors=138392 product_live_vectors=76292 screen_below=76292 screen_above=0 screen_near=0 fixed_below=76292 fixed_above=0 fixed_unresolved=0 seconds=58.0175\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=71789544 exact_sign_tests=574316352 low_energy_vectors=131244 product_live_vectors=73844 screen_below=73844 screen_above=0 screen_near=0 fixed_below=73844 fixed_above=0 fixed_unresolved=0 seconds=78.5558\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74107348 exact_sign_tests=592858784 low_energy_vectors=138416 product_live_vectors=74526 screen_below=74526 screen_above=0 screen_near=0 fixed_below=74526 fixed_above=0 fixed_unresolved=0 seconds=54.2287\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72456156 exact_sign_tests=579649248 low_energy_vectors=125722 product_live_vectors=73202 screen_below=73202 screen_above=0 screen_near=0 fixed_below=73202 fixed_above=0 fixed_unresolved=0 seconds=52.9409\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75208870 exact_sign_tests=601670960 low_energy_vectors=135526 product_live_vectors=75318 screen_below=75316 screen_above=2 screen_near=0 fixed_below=75316 fixed_above=2 fixed_unresolved=0 seconds=82.144\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75544664 exact_sign_tests=604357312 low_energy_vectors=139478 product_live_vectors=77352 screen_below=77352 screen_above=0 screen_near=0 fixed_below=77352 fixed_above=0 fixed_unresolved=0 seconds=82.4924\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=77163316 exact_sign_tests=617306528 low_energy_vectors=146310 product_live_vectors=79578 screen_below=79578 screen_above=0 screen_near=0 fixed_below=79578 fixed_above=0 fixed_unresolved=0 seconds=84.2976\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=76450432 exact_sign_tests=611603456 low_energy_vectors=142552 product_live_vectors=79494 screen_below=79490 screen_above=4 screen_near=0 fixed_below=79490 fixed_above=4 fixed_unresolved=0 seconds=56.3896\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=71085120 exact_sign_tests=568680960 low_energy_vectors=124356 product_live_vectors=74776 screen_below=74776 screen_above=0 screen_near=0 fixed_below=74776 fixed_above=0 fixed_unresolved=0 seconds=52.6989\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72567340 exact_sign_tests=580538720 low_energy_vectors=130640 product_live_vectors=70520 screen_below=70520 screen_above=0 screen_near=0 fixed_below=70520 fixed_above=0 fixed_unresolved=0 seconds=53.0826\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74123976 exact_sign_tests=592991808 low_energy_vectors=132744 product_live_vectors=74114 screen_below=74114 screen_above=0 screen_near=0 fixed_below=74114 fixed_above=0 fixed_unresolved=0 seconds=80.9731\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73418556 exact_sign_tests=587348448 low_energy_vectors=127276 product_live_vectors=71724 screen_below=71722 screen_above=2 screen_near=0 fixed_below=71722 fixed_above=2 fixed_unresolved=0 seconds=79.9217\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=76207120 exact_sign_tests=609656960 low_energy_vectors=144816 product_live_vectors=80308 screen_below=80308 screen_above=0 screen_near=0 fixed_below=80308 fixed_above=0 fixed_unresolved=0 seconds=83.59\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74858628 exact_sign_tests=598869024 low_energy_vectors=136352 product_live_vectors=78788 screen_below=78788 screen_above=0 screen_near=0 fixed_below=78788 fixed_above=0 fixed_unresolved=0 seconds=79.2116\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=69134268 exact_sign_tests=553074144 low_energy_vectors=125078 product_live_vectors=71298 screen_below=71294 screen_above=4 screen_near=0 fixed_below=71294 fixed_above=4 fixed_unresolved=0 seconds=76.3484\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74999732 exact_sign_tests=599997856 low_energy_vectors=140902 product_live_vectors=79000 screen_below=79000 screen_above=0 screen_near=0 fixed_below=79000 fixed_above=0 fixed_unresolved=0 seconds=82.0853\n"
+    }
+  ],
+  "schema": "e1-profile-36-mu6-m64-imprimitive-direct-radius-result-v1",
+  "shards": 64,
+  "total_worker_seconds": 4649.5376
+}

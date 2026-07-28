@@ -9111,3 +9111,40 @@ values are `1 mod 256`, and there are zero eligible prime candidates. The
 independent checker reconstructs every vector, norm, valuation, threshold,
 residue, and one hostile mutation. This closes all four E13 profiles and the
 `V=26` endpoint; the live frontier advances to `V<=24`.
+
+#### CR-E1-PROFILE-36-M64: exact two-atlas cofactor exclusion
+
+**Status:** COMPLETE PASS. All authoritative packets are source-pinned; no
+rerun is authorized unless a pinned source changes.
+
+At `N=256`, profile `(3,6,S=18)`, and cofactor `m=64`, an exact product ledger
+contracts `E=2,...,65` to 255 `(E,q,L)` chambers through `E=46`. A primitive
+atlas normalizes an odd-separated singleton pair in `Z/128`; a separate
+all-one-parity atlas divides to exact multiplicity three in `Z/64` and then
+lifts. This two-atlas split was required after audit caught that the initial
+primitive-only normalization was incomplete.
+
+The final direct-triple and reverse hash-block engines cover 12736 affine
+orbits, 407552 singleton-sign assignments, 10179448632 unique radius triples,
+and 81435589056 exact heavy-sign tests. Arb-audited fixed-root intervals place
+7191424 product-live vectors below the complete `64p` interval and 142 above;
+none is unresolved. All 142 high-side states are retained.
+
+Authoritative Modal apps:
+
+```text
+product ledger:             ap-vGLCNU73MLJj9RDeI3qeG2
+primitive atlas:            ap-jsMfCK4V0ZOgCMYLHX8R7R
+fixed-root generation/audit: ap-LWtv7vAuj73JwMclHhmQee
+primitive primary:          ap-Ku7oS4IA5YTB6bMTAD68xf
+primitive audit:            ap-8NxLniYGvXr1XY60JB2Rbb
+primitive high witnesses:   ap-dMbnhlT62Afo9s0CXj7S3I
+all-one-parity atlas:       ap-AZqE2K0OIwaJ72JJ8NC3JR
+all-one-parity primary:     ap-8bHvHbIdNO7uEIZAXHJFzz
+all-one-parity audit:       ap-GXPXxEWBsDAcVHfNG5iY7a
+all-one-parity witnesses:   ap-gXAQR7y8tv1kbCbNclOHe0
+```
+
+Every worker had a hard timeout at or below 300 seconds. The campaign used at
+most 96 containers concurrently, remained within the sub-dollar authorization,
+and performed no scientific computation on the WSL host.

@@ -6179,3 +6179,33 @@ product/atlas/primary/audit/norm Modal apps:
 remaining profile-(3,6) cofactors: 6
 next attack: m=64, with mu=6 and E=2,...,65
 ```
+
+**Same-day cofactor-64 close:** exact product chambers and two complete affine
+atlases remove the multiplicity-six branch. A primitive-only draft was not
+promoted: audit identified the missing all-one-parity singleton supports, and
+the final proof exhausts that branch after division to multiplicity three in
+`Z/64`.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m64_exclusion
+exact product comparisons: 128228
+product ledger: 255 live and 837 excluded (E,q,L) triples
+all E=47,...,65 chambers excluded
+primitive atlas: 8256 affine orbits
+all-one-parity atlas: 4480 affine orbits
+combined affine orbits: 12736
+singleton sign assignments: 407552
+dual-agreed unique radius triples: 10179448632
+exact sign tests: 81435589056
+product-live vectors: 7191566
+certified norm intervals: 7191424 below, 142 above, 0 unresolved
+product/primitive-atlas/root/primary/audit Modal apps:
+  ap-vGLCNU73MLJj9RDeI3qeG2, ap-jsMfCK4V0ZOgCMYLHX8R7R,
+  ap-LWtv7vAuj73JwMclHhmQee, ap-Ku7oS4IA5YTB6bMTAD68xf,
+  ap-8NxLniYGvXr1XY60JB2Rbb
+all-one-parity atlas/primary/audit Modal apps:
+  ap-AZqE2K0OIwaJ72JJ8NC3JR, ap-8bHvHbIdNO7uEIZAXHJFzz,
+  ap-GXPXxEWBsDAcVHfNG5iY7a
+remaining profile-(3,6) cofactors: 5
+next attack: m=32, with mu=5 and E<=85 before parity-adaptive contraction
+```

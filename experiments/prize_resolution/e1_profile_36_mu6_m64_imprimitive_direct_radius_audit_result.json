@@ -1,0 +1,458 @@
+{
+  "affine_orbits": 4480,
+  "complete": true,
+  "counts": {
+    "above_E10": 4,
+    "above_E12": 20,
+    "above_E13": 10,
+    "above_E14": 24,
+    "above_E15": 14,
+    "above_E16": 20,
+    "above_E17": 6,
+    "above_E18": 4,
+    "above_E8": 8,
+    "bucket_hits": 250941767064,
+    "exact_sign_tests": 37864722144,
+    "fixed_above": 110,
+    "fixed_below": 4806430,
+    "fixed_unresolved": 0,
+    "live_E10": 4,
+    "live_E12": 20,
+    "live_E13": 18,
+    "live_E14": 32,
+    "live_E15": 42,
+    "live_E16": 84,
+    "live_E17": 156,
+    "live_E18": 118,
+    "live_E19": 254,
+    "live_E20": 448,
+    "live_E21": 770,
+    "live_E22": 918,
+    "live_E23": 2504,
+    "live_E24": 2124,
+    "live_E25": 4400,
+    "live_E26": 4040,
+    "live_E27": 12070,
+    "live_E28": 7690,
+    "live_E29": 22896,
+    "live_E30": 16596,
+    "live_E31": 51160,
+    "live_E32": 28928,
+    "live_E33": 92780,
+    "live_E34": 57464,
+    "live_E35": 200710,
+    "live_E36": 79236,
+    "live_E37": 294858,
+    "live_E38": 140254,
+    "live_E39": 498844,
+    "live_E40": 144452,
+    "live_E41": 569548,
+    "live_E42": 191980,
+    "live_E43": 632736,
+    "live_E44": 331964,
+    "live_E45": 1366934,
+    "live_E46": 49500,
+    "live_E8": 8,
+    "low_energy_vectors": 8730734,
+    "orbits": 4480,
+    "product_live_vectors": 4806540,
+    "radius_matches": 55271066730,
+    "sign_assignments": 143360,
+    "third_queries": 17489920,
+    "unique_triples": 4733090268
+  },
+  "engine_sha256": "08ff9122f43082ceb71a8291bca964b5b0d352acf86d69b910a7193c1917fceb",
+  "fixed_roots_sha256": "0bdcada03187b219ccd74d0b89bba87fe26c6d61b8f25df15aa612be5fd9d5cc",
+  "max_worker_seconds": 251.009,
+  "orbit_file_sha256": "574cbe78dbea6ec4f1fc0497c2c502e288933652bcb4ab33f6a49d2e6cb06598",
+  "primary_engine_sha256": "785bd2ff42f8dbd6b3562b7894ef893a8c3a3a8c5a4c3e4963403db73e0f3f2d",
+  "rows": [
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3982856592 radius_matches=883522896 unique_triples=74878392 exact_sign_tests=599027136 low_energy_vectors=141582 product_live_vectors=76158 fixed_below=76146 fixed_above=12 fixed_unresolved=0 live_E13=4 above_E13=4 live_E15=4 above_E15=4 live_E16=4 above_E16=4 live_E17=4 live_E19=2 live_E20=8 live_E21=26 live_E23=44 live_E24=56 live_E25=142 live_E26=32 live_E27=200 live_E28=222 live_E29=438 live_E30=100 live_E31=786 live_E32=826 live_E33=1456 live_E34=518 live_E35=3016 live_E36=2282 live_E37=4180 live_E38=1372 live_E39=7908 live_E40=4750 live_E41=6770 live_E42=2628 live_E43=11080 live_E44=9510 live_E45=16834 live_E46=956 seconds=135.8\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3985410752 radius_matches=881768688 unique_triples=75037956 exact_sign_tests=600303648 low_energy_vectors=147788 product_live_vectors=79588 fixed_below=79588 fixed_above=0 fixed_unresolved=0 live_E16=4 live_E19=6 live_E20=28 live_E21=14 live_E23=40 live_E24=44 live_E25=48 live_E26=22 live_E27=258 live_E28=342 live_E29=264 live_E30=134 live_E31=896 live_E32=1210 live_E33=1150 live_E34=552 live_E35=3484 live_E36=2950 live_E37=3920 live_E38=1704 live_E39=7450 live_E40=5700 live_E41=7316 live_E42=3248 live_E43=7134 live_E44=12362 live_E45=17252 live_E46=2056 seconds=127.69\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=4077362712 radius_matches=910976388 unique_triples=76677980 exact_sign_tests=613423840 low_energy_vectors=152490 product_live_vectors=81038 fixed_below=81038 fixed_above=0 fixed_unresolved=0 live_E16=4 live_E20=8 live_E21=10 live_E22=4 live_E23=38 live_E24=80 live_E25=50 live_E26=68 live_E27=242 live_E28=290 live_E29=304 live_E30=180 live_E31=662 live_E32=1208 live_E33=1468 live_E34=756 live_E35=2648 live_E36=2826 live_E37=4950 live_E38=1816 live_E39=5758 live_E40=5038 live_E41=9330 live_E42=3208 live_E43=6892 live_E44=11054 live_E45=21502 live_E46=644 seconds=155.894\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3988509720 radius_matches=884688588 unique_triples=75607760 exact_sign_tests=604862080 low_energy_vectors=147450 product_live_vectors=78556 fixed_below=78556 fixed_above=0 fixed_unresolved=0 live_E15=4 live_E16=4 live_E20=20 live_E21=8 live_E22=20 live_E23=66 live_E24=38 live_E25=58 live_E26=70 live_E27=160 live_E28=268 live_E29=364 live_E30=432 live_E31=762 live_E32=626 live_E33=1548 live_E34=1304 live_E35=2552 live_E36=2270 live_E37=4856 live_E38=3314 live_E39=5778 live_E40=3498 live_E41=9044 live_E42=3724 live_E43=6672 live_E44=8294 live_E45=22152 live_E46=650 seconds=203.145\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3824157448 radius_matches=820064568 unique_triples=70370526 exact_sign_tests=562964208 low_energy_vectors=125990 product_live_vectors=67986 fixed_below=67986 fixed_above=0 fixed_unresolved=0 live_E15=2 live_E20=4 live_E21=4 live_E22=28 live_E23=52 live_E24=32 live_E25=64 live_E26=124 live_E27=266 live_E28=86 live_E29=354 live_E30=356 live_E31=1058 live_E32=264 live_E33=1328 live_E34=858 live_E35=3762 live_E36=646 live_E37=4376 live_E38=1910 live_E39=9212 live_E40=1488 live_E41=7042 live_E42=2152 live_E43=11198 live_E44=3508 live_E45=17114 live_E46=698 seconds=183.952\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3901863408 radius_matches=875904444 unique_triples=75606932 exact_sign_tests=604855456 low_energy_vectors=137670 product_live_vectors=74452 fixed_below=74452 fixed_above=0 fixed_unresolved=0 live_E14=4 live_E18=6 live_E19=2 live_E20=20 live_E21=14 live_E22=16 live_E23=40 live_E24=28 live_E25=46 live_E26=34 live_E27=252 live_E28=116 live_E29=350 live_E30=258 live_E31=956 live_E32=482 live_E33=1354 live_E34=1074 live_E35=3644 live_E36=1456 live_E37=3904 live_E38=2338 live_E39=9000 live_E40=1788 live_E41=8052 live_E42=3516 live_E43=11002 live_E44=4154 live_E45=19392 live_E46=1154 seconds=128.319\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3904812488 radius_matches=872861982 unique_triples=75131560 exact_sign_tests=601052480 low_energy_vectors=139340 product_live_vectors=76294 fixed_below=76286 fixed_above=8 fixed_unresolved=0 live_E12=8 above_E12=8 live_E15=2 live_E17=8 live_E18=4 live_E20=20 live_E21=20 live_E22=48 live_E23=20 live_E24=60 live_E25=82 live_E26=96 live_E27=140 live_E28=202 live_E29=498 live_E30=234 live_E31=692 live_E32=582 live_E33=1698 live_E34=704 live_E35=2714 live_E36=1342 live_E37=5318 live_E38=1674 live_E39=7476 live_E40=2494 live_E41=9216 live_E42=2386 live_E43=9634 live_E44=5572 live_E45=22216 live_E46=1134 seconds=198.371\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3966182016 radius_matches=876014232 unique_triples=74508884 exact_sign_tests=596071072 low_energy_vectors=142268 product_live_vectors=73776 fixed_below=73772 fixed_above=4 fixed_unresolved=0 live_E13=2 above_E13=2 live_E17=18 above_E17=2 live_E19=16 live_E20=4 live_E21=14 live_E23=48 live_E24=48 live_E25=118 live_E26=4 live_E27=258 live_E28=152 live_E29=464 live_E30=118 live_E31=1070 live_E32=374 live_E33=1956 live_E34=512 live_E35=3844 live_E36=882 live_E37=5452 live_E38=1296 live_E39=9008 live_E40=1414 live_E41=9734 live_E42=1650 live_E43=9578 live_E44=3188 live_E45=22256 live_E46=298 seconds=156.011\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3911533576 radius_matches=847808616 unique_triples=72433820 exact_sign_tests=579470560 low_energy_vectors=136764 product_live_vectors=74884 fixed_below=74884 fixed_above=0 fixed_unresolved=0 live_E18=4 live_E19=4 live_E21=12 live_E22=16 live_E23=48 live_E24=20 live_E25=40 live_E26=68 live_E27=206 live_E28=80 live_E29=328 live_E30=254 live_E31=850 live_E32=400 live_E33=1404 live_E34=948 live_E35=3212 live_E36=920 live_E37=5002 live_E38=2596 live_E39=7118 live_E40=1912 live_E41=9464 live_E42=3702 live_E43=7380 live_E44=4184 live_E45=23756 live_E46=956 seconds=143.346\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=4033015680 radius_matches=926331996 unique_triples=78448564 exact_sign_tests=627588512 low_energy_vectors=143234 product_live_vectors=78746 fixed_below=78742 fixed_above=4 fixed_unresolved=0 live_E14=4 above_E14=4 live_E18=4 live_E19=4 live_E20=16 live_E21=18 live_E22=36 live_E23=16 live_E24=32 live_E25=58 live_E26=76 live_E27=174 live_E28=132 live_E29=346 live_E30=294 live_E31=602 live_E32=374 live_E33=1530 live_E34=1010 live_E35=2614 live_E36=1212 live_E37=4946 live_E38=2440 live_E39=7170 live_E40=2068 live_E41=10124 live_E42=3240 live_E43=9924 live_E44=4892 live_E45=23748 live_E46=1642 seconds=184.016\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3974648720 radius_matches=869917296 unique_triples=73602160 exact_sign_tests=588817280 low_energy_vectors=144572 product_live_vectors=77302 fixed_below=77290 fixed_above=12 fixed_unresolved=0 live_E8=4 above_E8=4 live_E12=8 above_E12=8 live_E18=4 live_E19=4 live_E20=36 live_E21=8 live_E22=16 live_E23=36 live_E24=100 live_E25=72 live_E26=82 live_E27=136 live_E28=276 live_E29=412 live_E30=418 live_E31=676 live_E32=766 live_E33=1534 live_E34=1478 live_E35=2142 live_E36=1952 live_E37=5278 live_E38=3634 live_E39=5446 live_E40=2376 live_E41=8876 live_E42=5880 live_E43=5780 live_E44=5832 live_E45=22464 live_E46=1576 seconds=126.818\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3853398304 radius_matches=833915550 unique_triples=72101938 exact_sign_tests=576815504 low_energy_vectors=131748 product_live_vectors=73532 fixed_below=73528 fixed_above=4 fixed_unresolved=0 live_E15=4 above_E15=4 live_E19=12 live_E20=12 live_E21=6 live_E22=4 live_E23=76 live_E24=22 live_E25=58 live_E26=44 live_E27=264 live_E28=108 live_E29=270 live_E30=246 live_E31=856 live_E32=426 live_E33=1278 live_E34=770 live_E35=3714 live_E36=1262 live_E37=4136 live_E38=2114 live_E39=7720 live_E40=2380 live_E41=7830 live_E42=3178 live_E43=9894 live_E44=5608 live_E45=20032 live_E46=1208 seconds=217.893\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3941520512 radius_matches=867813678 unique_triples=74114742 exact_sign_tests=592917936 low_energy_vectors=139216 product_live_vectors=76354 fixed_below=76346 fixed_above=8 fixed_unresolved=0 live_E14=4 above_E14=4 live_E17=4 above_E17=4 live_E18=16 live_E19=2 live_E21=10 live_E22=40 live_E23=26 live_E24=14 live_E25=92 live_E26=70 live_E27=98 live_E28=90 live_E29=396 live_E30=372 live_E31=570 live_E32=392 live_E33=1534 live_E34=1292 live_E35=2032 live_E36=1180 live_E37=5076 live_E38=3010 live_E39=6342 live_E40=1922 live_E41=10126 live_E42=3554 live_E43=8926 live_E44=4602 live_E45=23880 live_E46=682 seconds=125.093\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3941494528 radius_matches=861229164 unique_triples=73181224 exact_sign_tests=585449792 low_energy_vectors=129428 product_live_vectors=71472 fixed_below=71472 fixed_above=0 fixed_unresolved=0 live_E16=4 live_E18=8 live_E19=4 live_E20=4 live_E21=6 live_E22=8 live_E23=46 live_E24=16 live_E25=56 live_E26=126 live_E27=224 live_E28=78 live_E29=294 live_E30=356 live_E31=740 live_E32=244 live_E33=1196 live_E34=976 live_E35=3246 live_E36=918 live_E37=4200 live_E38=1872 live_E39=8758 live_E40=1768 live_E41=8446 live_E42=1302 live_E43=11742 live_E44=3872 live_E45=20962 seconds=216.11\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=4029802416 radius_matches=905293932 unique_triples=76095692 exact_sign_tests=608765536 low_energy_vectors=147432 product_live_vectors=79318 fixed_below=79318 fixed_above=0 fixed_unresolved=0 live_E16=4 live_E17=4 live_E18=4 live_E19=8 live_E20=16 live_E21=10 live_E22=36 live_E23=22 live_E24=60 live_E25=80 live_E26=132 live_E27=126 live_E28=308 live_E29=446 live_E30=556 live_E31=508 live_E32=808 live_E33=1632 live_E34=1544 live_E35=2588 live_E36=1810 live_E37=5056 live_E38=3376 live_E39=5290 live_E40=3238 live_E41=9762 live_E42=3360 live_E43=7376 live_E44=6610 live_E45=23982 live_E46=566 seconds=201.608\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3820927592 radius_matches=839936916 unique_triples=72925172 exact_sign_tests=583401376 low_energy_vectors=129198 product_live_vectors=72192 fixed_below=72188 fixed_above=4 fixed_unresolved=0 live_E14=4 live_E15=2 live_E18=20 above_E18=4 live_E19=6 live_E21=24 live_E22=88 live_E23=54 live_E25=84 live_E26=110 live_E27=196 live_E28=76 live_E29=426 live_E30=534 live_E31=912 live_E32=260 live_E33=1278 live_E34=1314 live_E35=3138 live_E36=886 live_E37=4036 live_E38=2598 live_E39=8660 live_E40=1812 live_E41=8140 live_E42=2984 live_E43=11602 live_E44=4402 live_E45=17948 live_E46=598 seconds=151.744\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3859710896 radius_matches=842808036 unique_triples=72486364 exact_sign_tests=579890912 low_energy_vectors=132978 product_live_vectors=73824 fixed_below=73824 fixed_above=0 fixed_unresolved=0 live_E19=8 live_E21=16 live_E22=4 live_E23=28 live_E24=20 live_E25=78 live_E26=44 live_E27=148 live_E28=124 live_E29=452 live_E30=206 live_E31=778 live_E32=412 live_E33=1584 live_E34=824 live_E35=3286 live_E36=948 live_E37=5456 live_E38=1472 live_E39=8042 live_E40=1346 live_E41=9344 live_E42=1710 live_E43=10892 live_E44=2834 live_E45=23768 seconds=149.603\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=4000101104 radius_matches=890743704 unique_triples=75964652 exact_sign_tests=607717216 low_energy_vectors=141516 product_live_vectors=77666 fixed_below=77666 fixed_above=0 fixed_unresolved=0 live_E16=4 live_E20=20 live_E21=4 live_E22=4 live_E23=38 live_E24=44 live_E25=56 live_E26=54 live_E27=172 live_E28=158 live_E29=342 live_E30=252 live_E31=674 live_E32=582 live_E33=1372 live_E34=972 live_E35=2878 live_E36=1766 live_E37=4608 live_E38=2600 live_E39=7028 live_E40=2548 live_E41=9392 live_E42=3670 live_E43=9056 live_E44=5978 live_E45=22954 live_E46=440 seconds=239.194\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3846377728 radius_matches=849615288 unique_triples=73380260 exact_sign_tests=587042080 low_energy_vectors=131588 product_live_vectors=71488 fixed_below=71484 fixed_above=4 fixed_unresolved=0 live_E10=4 above_E10=4 live_E17=2 live_E18=4 live_E19=10 live_E20=12 live_E21=8 live_E22=48 live_E23=28 live_E24=18 live_E25=68 live_E26=158 live_E27=192 live_E28=116 live_E29=386 live_E30=462 live_E31=594 live_E32=316 live_E33=1326 live_E34=1382 live_E35=3268 live_E36=1074 live_E37=3680 live_E38=3330 live_E39=8048 live_E40=1222 live_E41=7402 live_E42=3924 live_E43=11830 live_E44=3026 live_E45=17796 live_E46=1754 seconds=154.482\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3964847920 radius_matches=878211192 unique_triples=75171144 exact_sign_tests=601369152 low_energy_vectors=143806 product_live_vectors=76796 fixed_below=76796 fixed_above=0 fixed_unresolved=0 live_E17=2 live_E18=12 live_E19=4 live_E20=4 live_E21=28 live_E22=24 live_E23=24 live_E24=46 live_E25=78 live_E26=116 live_E27=148 live_E28=128 live_E29=398 live_E30=288 live_E31=736 live_E32=552 live_E33=1408 live_E34=874 live_E35=3148 live_E36=1752 live_E37=4678 live_E38=1784 live_E39=7732 live_E40=3114 live_E41=8660 live_E42=1948 live_E43=10722 live_E44=7012 live_E45=20564 live_E46=812 seconds=128.177\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3900655512 radius_matches=865729356 unique_triples=73774636 exact_sign_tests=590197088 low_energy_vectors=134216 product_live_vectors=71880 fixed_below=71880 fixed_above=0 fixed_unresolved=0 live_E17=2 live_E19=6 live_E20=4 live_E21=44 live_E23=34 live_E24=44 live_E25=192 live_E26=14 live_E27=184 live_E28=74 live_E29=672 live_E30=76 live_E31=910 live_E32=342 live_E33=1870 live_E34=354 live_E35=3992 live_E36=886 live_E37=4714 live_E38=1088 live_E39=9426 live_E40=1128 live_E41=7924 live_E42=2398 live_E43=12162 live_E44=2872 live_E45=19488 live_E46=980 seconds=141.347\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3896878320 radius_matches=865126500 unique_triples=74192092 exact_sign_tests=593536736 low_energy_vectors=131010 product_live_vectors=73848 fixed_below=73840 fixed_above=8 fixed_unresolved=0 live_E14=8 above_E14=8 live_E15=2 live_E19=10 live_E20=4 live_E21=8 live_E22=8 live_E23=46 live_E24=8 live_E25=60 live_E26=56 live_E27=210 live_E28=62 live_E29=344 live_E30=208 live_E31=996 live_E32=172 live_E33=1420 live_E34=616 live_E35=3564 live_E36=674 live_E37=4682 live_E38=1474 live_E39=8846 live_E40=1434 live_E41=9638 live_E42=1614 live_E43=11056 live_E44=3730 live_E45=22122 live_E46=776 seconds=156.228\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3844629184 radius_matches=825948876 unique_triples=71168380 exact_sign_tests=569347040 low_energy_vectors=129666 product_live_vectors=70158 fixed_below=70154 fixed_above=4 fixed_unresolved=0 live_E8=4 above_E8=4 live_E16=4 live_E17=4 live_E19=4 live_E22=6 live_E23=74 live_E24=156 live_E25=18 live_E26=78 live_E27=254 live_E28=144 live_E29=230 live_E30=258 live_E31=1084 live_E32=904 live_E33=876 live_E34=782 live_E35=3990 live_E36=1336 live_E37=3424 live_E38=2222 live_E39=9976 live_E40=2416 live_E41=6626 live_E42=2890 live_E43=11140 live_E44=5050 live_E45=15320 live_E46=888 seconds=146.203\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3950724544 radius_matches=872832744 unique_triples=74474296 exact_sign_tests=595794368 low_energy_vectors=135478 product_live_vectors=74682 fixed_below=74680 fixed_above=2 fixed_unresolved=0 live_E15=2 above_E15=2 live_E18=4 live_E19=2 live_E20=4 live_E21=6 live_E22=4 live_E23=48 live_E24=40 live_E25=48 live_E26=106 live_E27=132 live_E28=166 live_E29=282 live_E30=318 live_E31=776 live_E32=500 live_E33=1368 live_E34=842 live_E35=3160 live_E36=1298 live_E37=3878 live_E38=1874 live_E39=8492 live_E40=2864 live_E41=8494 live_E42=2588 live_E43=10344 live_E44=5962 live_E45=20440 live_E46=640 seconds=158.79\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3927477744 radius_matches=852088368 unique_triples=72692798 exact_sign_tests=581542384 low_energy_vectors=139206 product_live_vectors=74006 fixed_below=74006 fixed_above=0 fixed_unresolved=0 live_E18=4 live_E20=4 live_E21=12 live_E22=24 live_E23=34 live_E24=16 live_E25=64 live_E26=110 live_E27=180 live_E28=92 live_E29=336 live_E30=412 live_E31=734 live_E32=306 live_E33=1482 live_E34=1360 live_E35=2788 live_E36=868 live_E37=4806 live_E38=2946 live_E39=6950 live_E40=2480 live_E41=8214 live_E42=4026 live_E43=9316 live_E44=5938 live_E45=20100 live_E46=404 seconds=228.255\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3952957056 radius_matches=873972930 unique_triples=74780206 exact_sign_tests=598241648 low_energy_vectors=140184 product_live_vectors=77420 fixed_below=77420 fixed_above=0 fixed_unresolved=0 live_E17=2 live_E19=2 live_E21=20 live_E22=4 live_E23=18 live_E24=16 live_E25=116 live_E26=58 live_E27=162 live_E28=78 live_E29=426 live_E30=264 live_E31=678 live_E32=308 live_E33=1806 live_E34=1004 live_E35=2894 live_E36=1122 live_E37=5344 live_E38=2648 live_E39=6548 live_E40=2252 live_E41=9590 live_E42=3840 live_E43=8132 live_E44=5768 live_E45=23526 live_E46=794 seconds=154.036\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3837765872 radius_matches=834713124 unique_triples=72597472 exact_sign_tests=580779776 low_energy_vectors=131336 product_live_vectors=74340 fixed_below=74340 fixed_above=0 fixed_unresolved=0 live_E17=2 live_E19=4 live_E20=12 live_E21=8 live_E23=68 live_E24=30 live_E25=48 live_E26=36 live_E27=190 live_E28=68 live_E29=350 live_E30=240 live_E31=910 live_E32=388 live_E33=1420 live_E34=796 live_E35=3504 live_E36=1356 live_E37=4076 live_E38=1680 live_E39=8336 live_E40=2602 live_E41=8716 live_E42=2526 live_E43=8886 live_E44=5960 live_E45=21174 live_E46=954 seconds=123.41\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3921417264 radius_matches=847482276 unique_triples=71826392 exact_sign_tests=574611136 low_energy_vectors=132098 product_live_vectors=70060 fixed_below=70060 fixed_above=0 fixed_unresolved=0 live_E15=4 live_E17=14 live_E18=8 live_E19=4 live_E21=16 live_E22=28 live_E23=24 live_E24=24 live_E25=68 live_E26=168 live_E27=178 live_E28=132 live_E29=378 live_E30=600 live_E31=812 live_E32=324 live_E33=1324 live_E34=1480 live_E35=2820 live_E36=920 live_E37=3834 live_E38=2820 live_E39=8528 live_E40=2156 live_E41=6648 live_E42=3630 live_E43=11340 live_E44=4796 live_E45=16466 live_E46=516 seconds=140.728\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3863412352 radius_matches=822248952 unique_triples=70269652 exact_sign_tests=562157216 low_energy_vectors=128582 product_live_vectors=74200 fixed_below=74200 fixed_above=0 fixed_unresolved=0 live_E17=2 live_E19=2 live_E20=8 live_E21=16 live_E22=4 live_E23=30 live_E24=20 live_E25=92 live_E26=32 live_E27=210 live_E28=156 live_E29=306 live_E30=230 live_E31=860 live_E32=636 live_E33=1334 live_E34=646 live_E35=2822 live_E36=1552 live_E37=4148 live_E38=1876 live_E39=8060 live_E40=3482 live_E41=8356 live_E42=2430 live_E43=9552 live_E44=7706 live_E45=19632 seconds=197.323\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3948433168 radius_matches=895482996 unique_triples=76856200 exact_sign_tests=614849600 low_energy_vectors=137800 product_live_vectors=78200 fixed_below=78200 fixed_above=0 fixed_unresolved=0 live_E18=4 live_E20=8 live_E21=10 live_E22=8 live_E23=48 live_E24=10 live_E25=70 live_E26=26 live_E27=154 live_E28=110 live_E29=356 live_E30=192 live_E31=616 live_E32=392 live_E33=1354 live_E34=692 live_E35=3140 live_E36=1258 live_E37=4496 live_E38=1588 live_E39=7526 live_E40=2706 live_E41=9962 live_E42=2286 live_E43=10890 live_E44=6332 live_E45=22860 live_E46=1106 seconds=155.631\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3932139200 radius_matches=858271188 unique_triples=74128884 exact_sign_tests=593031072 low_energy_vectors=137132 product_live_vectors=71524 fixed_below=71524 fixed_above=0 fixed_unresolved=0 live_E19=6 live_E21=12 live_E22=16 live_E23=54 live_E24=26 live_E25=54 live_E26=34 live_E27=186 live_E28=18 live_E29=324 live_E30=208 live_E31=856 live_E32=214 live_E33=1250 live_E34=1028 live_E35=3542 live_E36=672 live_E37=3978 live_E38=2944 live_E39=8832 live_E40=1530 live_E41=7534 live_E42=4338 live_E43=10350 live_E44=3678 live_E45=18086 live_E46=1754 seconds=234.255\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3849218336 radius_matches=822610860 unique_triples=70660516 exact_sign_tests=565284128 low_energy_vectors=128718 product_live_vectors=72362 fixed_below=72362 fixed_above=0 fixed_unresolved=0 live_E15=2 live_E17=2 live_E19=4 live_E20=16 live_E21=10 live_E22=12 live_E23=70 live_E24=24 live_E25=72 live_E26=36 live_E27=264 live_E28=88 live_E29=352 live_E30=188 live_E31=1012 live_E32=386 live_E33=1412 live_E34=684 live_E35=3188 live_E36=930 live_E37=4476 live_E38=1860 live_E39=8382 live_E40=1826 live_E41=9564 live_E42=2500 live_E43=8480 live_E44=4386 live_E45=21818 live_E46=318 seconds=146.212\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3894286032 radius_matches=813608316 unique_triples=69261780 exact_sign_tests=554094240 low_energy_vectors=133200 product_live_vectors=70652 fixed_below=70652 fixed_above=0 fixed_unresolved=0 live_E17=2 live_E19=2 live_E20=4 live_E21=2 live_E22=8 live_E23=16 live_E24=40 live_E25=76 live_E26=70 live_E27=140 live_E28=136 live_E29=396 live_E30=236 live_E31=648 live_E32=646 live_E33=1524 live_E34=874 live_E35=2870 live_E36=1890 live_E37=4348 live_E38=2370 live_E39=7072 live_E40=3374 live_E41=6934 live_E42=2658 live_E43=8342 live_E44=8826 live_E45=16662 live_E46=486 seconds=120.192\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3898634616 radius_matches=833485230 unique_triples=70923858 exact_sign_tests=567390864 low_energy_vectors=133934 product_live_vectors=74126 fixed_below=74126 fixed_above=0 fixed_unresolved=0 live_E19=6 live_E20=8 live_E21=14 live_E22=12 live_E23=72 live_E24=28 live_E25=56 live_E26=24 live_E27=230 live_E28=132 live_E29=334 live_E30=166 live_E31=924 live_E32=440 live_E33=1412 live_E34=554 live_E35=3488 live_E36=1544 live_E37=4368 live_E38=1690 live_E39=8346 live_E40=2734 live_E41=8398 live_E42=2534 live_E43=8472 live_E44=6654 live_E45=20770 live_E46=716 seconds=199.71\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=4023370568 radius_matches=891365292 unique_triples=75944916 exact_sign_tests=607559328 low_energy_vectors=143358 product_live_vectors=76264 fixed_below=76260 fixed_above=4 fixed_unresolved=0 live_E16=4 above_E16=4 live_E20=8 live_E21=24 live_E22=12 live_E23=42 live_E24=12 live_E25=82 live_E26=28 live_E27=152 live_E28=64 live_E29=430 live_E30=168 live_E31=688 live_E32=326 live_E33=1622 live_E34=748 live_E35=2954 live_E36=976 live_E37=5104 live_E38=1558 live_E39=8516 live_E40=1608 live_E41=9720 live_E42=2124 live_E43=11582 live_E44=4020 live_E45=22962 live_E46=730 seconds=128.084\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=4084761312 radius_matches=927252528 unique_triples=78284048 exact_sign_tests=626272384 low_energy_vectors=151436 product_live_vectors=81228 fixed_below=81224 fixed_above=4 fixed_unresolved=0 live_E16=12 above_E16=4 live_E17=4 live_E19=6 live_E20=18 live_E21=8 live_E22=4 live_E23=34 live_E24=60 live_E25=62 live_E26=30 live_E27=146 live_E28=180 live_E29=386 live_E30=188 live_E31=644 live_E32=494 live_E33=1908 live_E34=1040 live_E35=2822 live_E36=1416 live_E37=6026 live_E38=2262 live_E39=6134 live_E40=1902 live_E41=11564 live_E42=3992 live_E43=8334 live_E44=4400 live_E45=26180 live_E46=972 seconds=219.787\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3982459184 radius_matches=894959484 unique_triples=75978356 exact_sign_tests=607826848 low_energy_vectors=138486 product_live_vectors=76932 fixed_below=76932 fixed_above=0 fixed_unresolved=0 live_E17=2 live_E19=12 live_E21=2 live_E23=24 live_E24=8 live_E25=48 live_E26=58 live_E27=210 live_E28=32 live_E29=358 live_E30=224 live_E31=784 live_E32=180 live_E33=1554 live_E34=700 live_E35=3598 live_E36=618 live_E37=5138 live_E38=1714 live_E39=7974 live_E40=1196 live_E41=10858 live_E42=2496 live_E43=9718 live_E44=2902 live_E45=25834 live_E46=690 seconds=196.645\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3900515752 radius_matches=842020506 unique_triples=72146556 exact_sign_tests=577172448 low_energy_vectors=134266 product_live_vectors=71598 fixed_below=71598 fixed_above=0 fixed_unresolved=0 live_E15=2 live_E17=4 live_E20=4 live_E21=20 live_E22=4 live_E23=38 live_E24=12 live_E25=76 live_E26=88 live_E27=256 live_E28=64 live_E29=320 live_E30=408 live_E31=958 live_E32=310 live_E33=1536 live_E34=836 live_E35=3216 live_E36=822 live_E37=4524 live_E38=2414 live_E39=7654 live_E40=1426 live_E41=8328 live_E42=3434 live_E43=9364 live_E44=3524 live_E45=20698 live_E46=1258 seconds=207.048\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3961205712 radius_matches=884589432 unique_triples=74979208 exact_sign_tests=599833664 low_energy_vectors=143480 product_live_vectors=77836 fixed_below=77828 fixed_above=8 fixed_unresolved=0 live_E13=4 above_E13=4 live_E16=12 above_E16=4 live_E19=4 live_E20=12 live_E21=20 live_E23=28 live_E24=32 live_E25=94 live_E26=40 live_E27=170 live_E28=136 live_E29=478 live_E30=314 live_E31=658 live_E32=350 live_E33=2154 live_E34=884 live_E35=2438 live_E36=1094 live_E37=6044 live_E38=2438 live_E39=6404 live_E40=1500 live_E41=10302 live_E42=3876 live_E43=9692 live_E44=3750 live_E45=24502 live_E46=406 seconds=197.379\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3812922984 radius_matches=842908092 unique_triples=73917700 exact_sign_tests=591341600 low_energy_vectors=130204 product_live_vectors=75176 fixed_below=75176 fixed_above=0 fixed_unresolved=0 live_E17=4 live_E19=2 live_E21=6 live_E22=4 live_E23=56 live_E24=26 live_E25=66 live_E26=52 live_E27=218 live_E28=98 live_E29=212 live_E30=300 live_E31=982 live_E32=524 live_E33=1022 live_E34=884 live_E35=3696 live_E36=1532 live_E37=3746 live_E38=2630 live_E39=8294 live_E40=3148 live_E41=7940 live_E42=3238 live_E43=9866 live_E44=5952 live_E45=20296 live_E46=382 seconds=154.267\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=4057922072 radius_matches=932471724 unique_triples=79822216 exact_sign_tests=638577728 low_energy_vectors=150664 product_live_vectors=81912 fixed_below=81912 fixed_above=0 fixed_unresolved=0 live_E21=6 live_E22=20 live_E23=8 live_E24=24 live_E25=54 live_E26=58 live_E27=106 live_E28=56 live_E29=292 live_E30=252 live_E31=588 live_E32=254 live_E33=1606 live_E34=1310 live_E35=2108 live_E36=780 live_E37=5634 live_E38=3116 live_E39=5546 live_E40=1280 live_E41=11692 live_E42=5430 live_E43=7746 live_E44=3054 live_E45=28864 live_E46=2028 seconds=160.803\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3856067000 radius_matches=848172660 unique_triples=73373856 exact_sign_tests=586990848 low_energy_vectors=128530 product_live_vectors=74320 fixed_below=74320 fixed_above=0 fixed_unresolved=0 live_E17=4 live_E20=2 live_E21=4 live_E22=20 live_E23=32 live_E24=18 live_E25=28 live_E26=102 live_E27=190 live_E28=70 live_E29=286 live_E30=234 live_E31=912 live_E32=352 live_E33=1162 live_E34=760 live_E35=3472 live_E36=1018 live_E37=3810 live_E38=1588 live_E39=9168 live_E40=1922 live_E41=8980 live_E42=2246 live_E43=11436 live_E44=4288 live_E45=21558 live_E46=658 seconds=125.339\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3858031680 radius_matches=837350676 unique_triples=71747624 exact_sign_tests=573980992 low_energy_vectors=128884 product_live_vectors=75314 fixed_below=75314 fixed_above=0 fixed_unresolved=0 live_E13=2 live_E19=6 live_E20=12 live_E21=8 live_E22=8 live_E23=46 live_E24=52 live_E25=60 live_E26=58 live_E27=216 live_E28=130 live_E29=272 live_E30=262 live_E31=946 live_E32=498 live_E33=1458 live_E34=884 live_E35=3052 live_E36=1232 live_E37=4352 live_E38=2010 live_E39=8236 live_E40=2100 live_E41=9218 live_E42=2284 live_E43=10152 live_E44=5210 live_E45=22216 live_E46=334 seconds=123.748\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3856208968 radius_matches=846513696 unique_triples=73154088 exact_sign_tests=585232704 low_energy_vectors=129416 product_live_vectors=73000 fixed_below=73000 fixed_above=0 fixed_unresolved=0 live_E17=6 live_E18=4 live_E19=10 live_E20=4 live_E21=14 live_E22=16 live_E23=42 live_E24=12 live_E25=76 live_E26=50 live_E27=184 live_E28=96 live_E29=330 live_E30=206 live_E31=784 live_E32=238 live_E33=1342 live_E34=960 live_E35=3460 live_E36=564 live_E37=4634 live_E38=2136 live_E39=8668 live_E40=874 live_E41=8952 live_E42=3516 live_E43=11124 live_E44=2026 live_E45=22312 live_E46=360 seconds=151.459\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3896258392 radius_matches=854991132 unique_triples=73863744 exact_sign_tests=590909952 low_energy_vectors=134012 product_live_vectors=72318 fixed_below=72318 fixed_above=0 fixed_unresolved=0 live_E17=4 live_E19=2 live_E21=6 live_E22=12 live_E23=18 live_E24=4 live_E25=38 live_E26=58 live_E27=144 live_E28=46 live_E29=300 live_E30=222 live_E31=842 live_E32=248 live_E33=1372 live_E34=1040 live_E35=3120 live_E36=842 live_E37=4546 live_E38=3082 live_E39=8396 live_E40=1514 live_E41=7798 live_E42=4428 live_E43=11590 live_E44=2856 live_E45=18762 live_E46=1028 seconds=216.361\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3799415056 radius_matches=837560232 unique_triples=72735170 exact_sign_tests=581881360 low_energy_vectors=128076 product_live_vectors=75074 fixed_below=75066 fixed_above=8 fixed_unresolved=0 live_E14=8 above_E14=8 live_E15=2 live_E17=4 live_E19=8 live_E20=8 live_E21=6 live_E22=32 live_E23=76 live_E24=32 live_E25=32 live_E26=118 live_E27=226 live_E28=88 live_E29=230 live_E30=306 live_E31=1080 live_E32=474 live_E33=1102 live_E34=1376 live_E35=3896 live_E36=1160 live_E37=3614 live_E38=2828 live_E39=8964 live_E40=2066 live_E41=8266 live_E42=3106 live_E43=11892 live_E44=3488 live_E45=20270 live_E46=316 seconds=123.625\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3925108056 radius_matches=858495528 unique_triples=73105952 exact_sign_tests=584847616 low_energy_vectors=134578 product_live_vectors=70912 fixed_below=70912 fixed_above=0 fixed_unresolved=0 live_E13=2 live_E16=8 live_E17=4 live_E19=8 live_E20=4 live_E21=18 live_E22=32 live_E23=28 live_E24=20 live_E25=64 live_E26=70 live_E27=208 live_E28=108 live_E29=464 live_E30=282 live_E31=804 live_E32=406 live_E33=1510 live_E34=992 live_E35=3136 live_E36=826 live_E37=4734 live_E38=2608 live_E39=7860 live_E40=1394 live_E41=8474 live_E42=2878 live_E43=10132 live_E44=2974 live_E45=19922 live_E46=942 seconds=124.069\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3907680336 radius_matches=868212276 unique_triples=74814668 exact_sign_tests=598517344 low_energy_vectors=136922 product_live_vectors=75642 fixed_below=75642 fixed_above=0 fixed_unresolved=0 live_E19=4 live_E20=4 live_E21=4 live_E22=12 live_E23=38 live_E24=40 live_E25=60 live_E26=32 live_E27=226 live_E28=134 live_E29=312 live_E30=168 live_E31=876 live_E32=646 live_E33=1268 live_E34=466 live_E35=3252 live_E36=1848 live_E37=4056 live_E38=1346 live_E39=8680 live_E40=3768 live_E41=7776 live_E42=1614 live_E43=11218 live_E44=8942 live_E45=18270 live_E46=582 seconds=148.022\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3982436768 radius_matches=880447344 unique_triples=74774212 exact_sign_tests=598193696 low_energy_vectors=138392 product_live_vectors=76292 fixed_below=76292 fixed_above=0 fixed_unresolved=0 live_E17=8 live_E19=2 live_E20=4 live_E21=14 live_E23=10 live_E24=16 live_E25=80 live_E26=80 live_E27=192 live_E28=166 live_E29=438 live_E30=234 live_E31=590 live_E32=520 live_E33=1640 live_E34=638 live_E35=2694 live_E36=1280 live_E37=5038 live_E38=2034 live_E39=7108 live_E40=2352 live_E41=9550 live_E42=2700 live_E43=9980 live_E44=6108 live_E45=22548 live_E46=268 seconds=154.726\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3908312032 radius_matches=845776152 unique_triples=71789544 exact_sign_tests=574316352 low_energy_vectors=131244 product_live_vectors=73844 fixed_below=73844 fixed_above=0 fixed_unresolved=0 live_E17=4 live_E19=6 live_E20=8 live_E21=14 live_E22=24 live_E23=24 live_E24=88 live_E25=48 live_E26=34 live_E27=182 live_E28=144 live_E29=364 live_E30=248 live_E31=788 live_E32=626 live_E33=1360 live_E34=838 live_E35=3270 live_E36=1424 live_E37=4352 live_E38=2368 live_E39=8352 live_E40=2690 live_E41=8250 live_E42=2766 live_E43=9722 live_E44=6174 live_E45=19256 live_E46=420 seconds=150.926\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3916829888 radius_matches=861424308 unique_triples=74107348 exact_sign_tests=592858784 low_energy_vectors=138416 product_live_vectors=74526 fixed_below=74526 fixed_above=0 fixed_unresolved=0 live_E13=2 live_E17=4 live_E20=8 live_E21=20 live_E22=32 live_E23=26 live_E24=52 live_E25=110 live_E26=76 live_E27=216 live_E28=150 live_E29=448 live_E30=220 live_E31=686 live_E32=522 live_E33=1626 live_E34=780 live_E35=3214 live_E36=1172 live_E37=4842 live_E38=1886 live_E39=8168 live_E40=1858 live_E41=9014 live_E42=1620 live_E43=12496 live_E44=4106 live_E45=20802 live_E46=370 seconds=149.288\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3828325808 radius_matches=839121612 unique_triples=72456156 exact_sign_tests=579649248 low_energy_vectors=125722 product_live_vectors=73202 fixed_below=73202 fixed_above=0 fixed_unresolved=0 live_E17=6 live_E21=28 live_E22=4 live_E23=36 live_E24=20 live_E25=130 live_E26=32 live_E27=160 live_E28=28 live_E29=390 live_E30=152 live_E31=806 live_E32=214 live_E33=1550 live_E34=716 live_E35=2992 live_E36=516 live_E37=4866 live_E38=1664 live_E39=8014 live_E40=1092 live_E41=9298 live_E42=2150 live_E43=11748 live_E44=2874 live_E45=23346 live_E46=370 seconds=245.185\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3928032368 radius_matches=871649538 unique_triples=75208870 exact_sign_tests=601670960 low_energy_vectors=135526 product_live_vectors=75318 fixed_below=75316 fixed_above=2 fixed_unresolved=0 live_E13=2 live_E15=2 above_E15=2 live_E21=2 live_E23=30 live_E24=16 live_E25=48 live_E26=34 live_E27=146 live_E28=126 live_E29=242 live_E30=172 live_E31=690 live_E32=526 live_E33=1154 live_E34=644 live_E35=2982 live_E36=1594 live_E37=4062 live_E38=1988 live_E39=8190 live_E40=2528 live_E41=8480 live_E42=3226 live_E43=11068 live_E44=6188 live_E45=20028 live_E46=1150 seconds=157.174\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3897689872 radius_matches=872353128 unique_triples=75544664 exact_sign_tests=604357312 low_energy_vectors=139478 product_live_vectors=77352 fixed_below=77352 fixed_above=0 fixed_unresolved=0 live_E17=10 live_E19=2 live_E21=8 live_E23=24 live_E24=40 live_E25=60 live_E26=44 live_E27=126 live_E28=70 live_E29=400 live_E30=216 live_E31=696 live_E32=408 live_E33=1500 live_E34=918 live_E35=2464 live_E36=1388 live_E37=5028 live_E38=2192 live_E39=6934 live_E40=2768 live_E41=9756 live_E42=3534 live_E43=9588 live_E44=5836 live_E45=22574 live_E46=768 seconds=158.708\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3998197568 radius_matches=903466668 unique_triples=77163316 exact_sign_tests=617306528 low_energy_vectors=146310 product_live_vectors=79578 fixed_below=79578 fixed_above=0 fixed_unresolved=0 live_E19=8 live_E20=8 live_E21=12 live_E22=8 live_E23=44 live_E24=28 live_E25=80 live_E26=46 live_E27=140 live_E28=68 live_E29=372 live_E30=304 live_E31=554 live_E32=332 live_E33=1588 live_E34=1200 live_E35=2428 live_E36=934 live_E37=5486 live_E38=3010 live_E39=5592 live_E40=1580 live_E41=11416 live_E42=4990 live_E43=7968 live_E44=3598 live_E45=25780 live_E46=2004 seconds=159.738\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3992888432 radius_matches=896302884 unique_triples=76450432 exact_sign_tests=611603456 low_energy_vectors=142552 product_live_vectors=79494 fixed_below=79490 fixed_above=4 fixed_unresolved=0 live_E12=4 above_E12=4 live_E16=4 live_E20=4 live_E21=22 live_E23=38 live_E24=52 live_E25=84 live_E26=22 live_E27=156 live_E28=146 live_E29=406 live_E30=194 live_E31=588 live_E32=498 live_E33=1776 live_E34=904 live_E35=2376 live_E36=1082 live_E37=5734 live_E38=2060 live_E39=6346 live_E40=1878 live_E41=11882 live_E42=3340 live_E43=7658 live_E44=4418 live_E45=27822 seconds=202.888\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3826072128 radius_matches=820368264 unique_triples=71085120 exact_sign_tests=568680960 low_energy_vectors=124356 product_live_vectors=74776 fixed_below=74776 fixed_above=0 fixed_unresolved=0 live_E19=2 live_E21=4 live_E22=16 live_E23=30 live_E24=4 live_E25=42 live_E26=112 live_E27=178 live_E28=58 live_E29=184 live_E30=392 live_E31=792 live_E32=266 live_E33=1132 live_E34=1412 live_E35=3020 live_E36=778 live_E37=4008 live_E38=3132 live_E39=7700 live_E40=1858 live_E41=9032 live_E42=4718 live_E43=9700 live_E44=4862 live_E45=21344 seconds=131.041\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3868455840 radius_matches=847416432 unique_triples=72567340 exact_sign_tests=580538720 low_energy_vectors=130640 product_live_vectors=70520 fixed_below=70520 fixed_above=0 fixed_unresolved=0 live_E18=4 live_E19=2 live_E21=8 live_E22=12 live_E23=40 live_E24=18 live_E25=72 live_E26=38 live_E27=216 live_E28=32 live_E29=356 live_E30=140 live_E31=974 live_E32=248 live_E33=1332 live_E34=768 live_E35=3888 live_E36=800 live_E37=4088 live_E38=2160 live_E39=9578 live_E40=1446 live_E41=7574 live_E42=3314 live_E43=11212 live_E44=3574 live_E45=18108 live_E46=518 seconds=143.851\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3903300816 radius_matches=860915400 unique_triples=74123976 exact_sign_tests=592991808 low_energy_vectors=132744 product_live_vectors=74114 fixed_below=74114 fixed_above=0 fixed_unresolved=0 live_E17=6 live_E19=2 live_E21=4 live_E22=4 live_E23=52 live_E24=4 live_E25=50 live_E26=14 live_E27=214 live_E28=24 live_E29=328 live_E30=114 live_E31=858 live_E32=168 live_E33=1528 live_E34=514 live_E35=3704 live_E36=626 live_E37=5010 live_E38=1222 live_E39=9252 live_E40=1128 live_E41=9458 live_E42=1896 live_E43=11370 live_E44=3224 live_E45=22922 live_E46=418 seconds=149.383\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3833219096 radius_matches=846973716 unique_triples=73418556 exact_sign_tests=587348448 low_energy_vectors=127276 product_live_vectors=71724 fixed_below=71722 fixed_above=2 fixed_unresolved=0 live_E15=4 above_E15=2 live_E16=4 live_E17=2 live_E19=4 live_E20=8 live_E21=8 live_E22=8 live_E23=54 live_E24=28 live_E25=42 live_E26=32 live_E27=218 live_E28=80 live_E29=306 live_E30=106 live_E31=968 live_E32=384 live_E33=1174 live_E34=462 live_E35=4044 live_E36=998 live_E37=3584 live_E38=1024 live_E39=10132 live_E40=1904 live_E41=7098 live_E42=1512 live_E43=14586 live_E44=4830 live_E45=17738 live_E46=382 seconds=132.386\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3983970064 radius_matches=896151204 unique_triples=76207120 exact_sign_tests=609656960 low_energy_vectors=144816 product_live_vectors=80308 fixed_below=80308 fixed_above=0 fixed_unresolved=0 live_E15=4 live_E17=4 live_E19=4 live_E20=8 live_E21=10 live_E23=50 live_E24=50 live_E25=66 live_E26=44 live_E27=222 live_E28=180 live_E29=340 live_E30=92 live_E31=1098 live_E32=488 live_E33=1526 live_E34=652 live_E35=3220 live_E36=1352 live_E37=4992 live_E38=1814 live_E39=7360 live_E40=2160 live_E41=10988 live_E42=2702 live_E43=8448 live_E44=5146 live_E45=26312 live_E46=976 seconds=251.009\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3965650712 radius_matches=877329804 unique_triples=74858628 exact_sign_tests=598869024 low_energy_vectors=136352 product_live_vectors=78788 fixed_below=78788 fixed_above=0 fixed_unresolved=0 live_E17=4 live_E18=4 live_E19=4 live_E20=4 live_E21=14 live_E22=28 live_E23=36 live_E24=12 live_E25=62 live_E26=96 live_E27=180 live_E28=98 live_E29=324 live_E30=302 live_E31=730 live_E32=268 live_E33=1544 live_E34=826 live_E35=3282 live_E36=998 live_E37=4892 live_E38=1658 live_E39=7612 live_E40=2510 live_E41=10242 live_E42=1252 live_E43=10640 live_E44=5280 live_E45=25216 live_E46=670 seconds=126.06\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3802357056 radius_matches=799608384 unique_triples=69134268 exact_sign_tests=553074144 low_energy_vectors=125078 product_live_vectors=71298 fixed_below=71294 fixed_above=4 fixed_unresolved=0 live_E16=4 above_E16=4 live_E19=10 live_E20=12 live_E21=14 live_E22=20 live_E23=54 live_E24=48 live_E25=36 live_E26=102 live_E27=186 live_E28=106 live_E29=262 live_E30=414 live_E31=892 live_E32=532 live_E33=1106 live_E34=1508 live_E35=3472 live_E36=1328 live_E37=3716 live_E38=3490 live_E39=7518 live_E40=2562 live_E41=7160 live_E42=3760 live_E43=8608 live_E44=5690 live_E45=17602 live_E46=1086 seconds=144.804\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=reverse-hash-blocks orbits=70 sign_assignments=2240 third_queries=273280 bucket_hits=3956938232 radius_matches=881869764 unique_triples=74999732 exact_sign_tests=599997856 low_energy_vectors=140902 product_live_vectors=79000 fixed_below=79000 fixed_above=0 fixed_unresolved=0 live_E16=4 live_E19=2 live_E20=4 live_E21=4 live_E22=12 live_E23=20 live_E24=36 live_E25=88 live_E26=14 live_E27=152 live_E28=104 live_E29=448 live_E30=116 live_E31=710 live_E32=566 live_E33=1742 live_E34=430 live_E35=2748 live_E36=1598 live_E37=5518 live_E38=1492 live_E39=6230 live_E40=3580 live_E41=9814 live_E42=2616 live_E43=7322 live_E44=8518 live_E45=23854 live_E46=1258 seconds=156.819\n"
+    }
+  ],
+  "schema": "e1-profile-36-mu6-m64-imprimitive-radius-audit-result-v1",
+  "shards": 64,
+  "total_worker_seconds": 10520.208
+}
