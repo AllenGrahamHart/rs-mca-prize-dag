@@ -113,6 +113,10 @@ the cutoff-free router leaves seven profiles on 111 templates. Independent
 2,203,120,896-vector engines find 10,454 actual vectors; conductor removes
 5,814 and dual resultants put all 4,640 full-conductor norms below `2^250`.
 Hence `V=42` is empty and the live positive even frontier is `V<=40`.
+At `V=40`, the cutoff-free router leaves six profiles on 154 templates.
+Independent 3,056,582,144-vector engines find 6,426 actual vectors; conductor
+removes 4,526 and dual resultants put all 1,900 full-conductor norms below
+`2^250`. Hence `V=40` is empty and the live positive even frontier is `V<=38`.
 Subsequent chambers must
 continue to use geometric emptiness or direct exact norms rather than a bulk
 cubic cutoff. A subfield norm argument also

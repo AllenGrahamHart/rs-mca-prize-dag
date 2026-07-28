@@ -240,3 +240,7 @@ The proved cutoff-free E21 reduction leaves seven profiles on 111 templates.
 Independent complete censuses, conductor, and exact norms close all seven;
 the E21 endpoint closes `V=42` and advances the frontier to `V<=40`, still as
 evidence only.
+The proved cutoff-free E20 reduction leaves six profiles on 154 templates.
+Independent complete censuses, conductor, and exact norms close all six; the
+E20 endpoint closes `V=40` and advances the frontier to `V<=38`, still as
+evidence only.

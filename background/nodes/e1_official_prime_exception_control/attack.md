@@ -88,7 +88,9 @@ explicit finite inequality at the row.
    on 1,321 templates close by dual 26,219,123,456-vector censuses, conductor,
    and exact norms. At `V=42`, seven profiles on 111 templates close by dual
    2,203,120,896-vector censuses, conductor, and exact norms. Derive the exact
-   `V=40` router without a cubic cutoff. Do not rerun any `V>=42` chamber.
+   `V=40` router without a cubic cutoff. At `V=40`, six profiles on 154
+   templates close by dual 3,056,582,144-vector censuses, conductor, and exact
+   norms. Derive the exact `V=38` router. Do not rerun any `V>=40` chamber.
    The
    signed-chord gate
    further excludes circular-Sidon supports: every residual has an oppositely
