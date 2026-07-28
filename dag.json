@@ -2951,6 +2951,24 @@
    "notes": "ROUTE CONTRACTION 2026-07-28: 6273 exact rational comparisons remove m=256 variances 48 through 60 and m=514 variances 24 through 34. Adversarial mod-257 witnesses at E=15,17 falsify stronger geometric premises but lie below the prize interval. Eight profile cofactors remain."
   },
   {
+   "id": "e1_prize_n256_s18_profile_36_m514_exclusion",
+   "title": "Prize N=256 profile-(3,6) cofactor-514 exclusion",
+   "status": "PROVED",
+   "closure": "dual exact radius census plus dual exact norm ledger",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 514 is impossible. A complete 123196-affine-orbit radius census leaves twelve vectors in the nine live chambers, only eight with factor 257; FLINT and PARI agree that every exact quotient Norm/514 lies below the prize interval.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: hash-map and sorted-pair engines agree on 922886080 XOR probes, 883718 candidate heavy supports, 7069744 exact sign tests, twelve geometric vectors, and eight factor-257 vectors. Seven profile-(3,6) cofactors remain."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -37457,6 +37475,26 @@
   },
   {
    "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "to": "e1_prize_n256_s18_profile_36_m514_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m514_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m514_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m514_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

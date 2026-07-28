@@ -6130,3 +6130,26 @@ search/norm Modal apps: ap-vCwCehrnyit7WrDEjorD0c,
 remaining profile-(3,6) cofactors: 8
 next attack: exact factor-257 generation on the nine live m=514 chambers
 ```
+
+**Same-day cofactor-514 close:** one radius-zero/radius-one engine covers all
+nine live parity chambers, and two pair-table implementations agree exactly.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m514_exclusion
+normalized singleton supports: 10009125
+mu=1 supports: 5005539
+live-stratum affine orbits: 123196
+singleton sign assignments: 3942272
+XOR probes: 922886080
+candidate heavy supports: 883718
+exact sign tests: 7069744
+geometry: E8=4, E10=8; E7=E9=E11=0
+factor-257 vectors: E8=2, E10=6
+dual exact norms: 8 vectors, 4 distinct values, all Norm/514 below interval
+verdict: m=514 excluded
+atlas/primary/audit/norm Modal apps:
+  ap-gX6SKtHGEzPG5OuzLcpd1h, ap-NJLlyLTa70dm5hmYYVcVW5,
+  ap-qzMuyQt7EFP3pOzN8qvKaI, ap-99pSDfbXkeWx7pGRNKyEmf
+remaining profile-(3,6) cofactors: 7
+next attack: m=256, with mu=8 and E=2,...,23
+```

@@ -112,4 +112,9 @@ caps leave exactly nine `m=514` chambers:
 second coordinate is odd autocorrelation weight. Adversarial vectors at
 `E=15,17` falsify any stronger modular-emptiness premise, but their exact
 quotients are below the prize interval and those energies are now excluded
-analytically. No broad support-9 census is authorized.
+analytically. A dual exact radius-zero/radius-one census of the nine live
+chambers then leaves twelve geometric vectors and eight with factor 257.
+FLINT and PARI/GP agree on all eight norms, whose quotients by 514 are below
+the prize interval. Thus `m=514` is impossible and seven cofactors remain.
+The shortest live branch is now `m=256`, with `V<=46` or `E<=23`. No broad
+support-9 census is authorized.
