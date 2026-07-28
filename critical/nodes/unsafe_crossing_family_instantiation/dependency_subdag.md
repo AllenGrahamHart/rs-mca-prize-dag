@@ -193,6 +193,62 @@ profiles at `V=60`. The proved
 complete independent censuses, exact resultants where needed, and the
 proper-conductor theorem. The proved `e1_n256_s16_e30_profile_422_exclusion`
 then removes `(4,2,2)` by an odd-difference relaxation and exact exceptional
-norms. The residual is exactly `(6,6)` and `(5,4,1)`, both in the six-odd
-branch; these E30 nodes remain evidence because the endpoint is not yet
-closed.
+norms. The proved `e1_n256_s16_e30_profile_541_exclusion` then removes
+`(5,4,1)` by independent odd-difference relaxations, independent exceptional
+actual-vector engines, and exact FLINT/PARI norms. The proved
+`e1_n256_s16_e30_profile_66_exclusion` removes `(6,6)` by the same complete
+three-stage chain at larger scale. The proved E30 endpoint synthesis closes
+`V=60` and advances the live positive even frontier to `V<=58`; these nodes
+remain evidence because lower variances and later bands are open. The proved
+E29 reduction leaves eight profiles on 111 affine one-diameter templates; its
+proved joint exclusion combines two independent 2,203,120,896-vector censuses,
+the conductor theorem, and independent exact norms for 820 primitive
+exceptions. The proved E29 endpoint synthesis closes `V=58` and advances the
+frontier to `V<=56`; it too remains evidence rather than a universal close.
+The proved E28 reduction leaves eight profiles on 154 affine templates; the
+joint exclusion adds two independent 3,056,582,144-vector censuses, conductor,
+and exact norms for 4,372 primitive exceptions. The proved E28 endpoint closes
+`V=56` and advances the frontier to `V<=54`, still as evidence only.
+The proved E27 reduction leaves six profiles on eight affine templates; two
+independent 158,783,488-vector censuses, conductor, and exact norms close all
+six. The E27 endpoint closes `V=54` and advances the frontier to `V<=52`, still
+as evidence only.
+The proved E26 reduction leaves six two-odd and four six-odd profiles. The
+proved two-odd exclusion uses two independent 1,726,770,432-vector censuses,
+conductor, and exact FLINT/PARI norms to close all six two-odd profiles. The
+proved six-odd exclusion uses two independent 24,492,353,024-vector censuses,
+conductor, and exact FLINT/PARI norms to close all four remaining profiles.
+The E26 endpoint closes `V=52` and advances the frontier to `V<=50`, still as
+evidence only rather than a close of the universal target. The proved E25
+reduction leaves nine profiles on 111 affine templates; two independent
+2,203,120,896-vector censuses, conductor, and exact norms close all nine. The
+E25 endpoint closes `V=50` and advances the frontier to `V<=48`. The fixed
+cubic-Hermite majorant supplies no positive cutoff from that point downward.
+The proved cutoff-free E24 reduction leaves six profiles on 154 templates.
+Independent complete censuses, conductor, and exact norms close all six; the
+E24 endpoint closes `V=48` and advances the frontier to `V<=46`, still as
+evidence only rather than a universal unsafe certificate.
+The proved cutoff-free E23 reduction leaves four profiles on eight templates.
+Independent complete censuses, conductor, and exact norms close all four; the
+E23 endpoint closes `V=46` and advances the frontier to `V<=44`, still as
+evidence only.
+The proved cutoff-free E22 reduction leaves eight profiles on 1,321 templates.
+Independent complete censuses, conductor, and exact norms close all eight; the
+E22 endpoint closes `V=44` and advances the frontier to `V<=42`, still as
+evidence only.
+The proved cutoff-free E21 reduction leaves seven profiles on 111 templates.
+Independent complete censuses, conductor, and exact norms close all seven;
+the E21 endpoint closes `V=42` and advances the frontier to `V<=40`, still as
+evidence only.
+The proved cutoff-free E20 reduction leaves six profiles on 154 templates.
+Independent complete censuses, conductor, and exact norms close all six; the
+E20 endpoint closes `V=40` and advances the frontier to `V<=38`, still as
+evidence only.
+The proved cutoff-free E19 reduction leaves four profiles on eight templates.
+Independent complete censuses, conductor, and exact norms close all four; the
+E19 endpoint closes `V=38` and advances the frontier to `V<=36`, still as
+evidence only.
+The proved cutoff-free E18 reduction leaves six profiles on 1,321 templates.
+Independent complete censuses, conductor, and exact odd norm parts close all
+six; the E18 endpoint closes `V=36` and advances the frontier to `V<=34`, still
+as evidence only.

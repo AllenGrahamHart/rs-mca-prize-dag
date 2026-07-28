@@ -8329,3 +8329,230 @@ The maximum occurs in orbit 14, represented by `H={0,1,19}`. The combined
 the inherited cubic certificate closes the generic template. Together with
 the quarter, nonquarter-diameter, and progression exclusions, this closes the
 complete `E=34`, `V=68` endpoint.
+
+#### CR-E1-V36-WITNESS-NORM: full-conductor falsifier decision
+
+**Status:** COMPLETE NO-HIT. No rerun is authorized for this witness.
+
+The proved proper-conductor packet contains a full-conductor folded-`(3,4,0)`
+vector at `V=36`. Compute its resultant with `x^128+1`, divide by the exact
+2-adic valuation, and test the odd part for primality independently in FLINT
+and PARI. A prime odd part in `(2^250,2^256)` is an immediate candidate
+collision row and triggers exact pair-feasibility replay; a composite or
+undersized odd part kills this particular falsifier without supporting a
+universal exclusion.
+
+Run one one-CPU, 256 MiB Modal task with a 60-second hard timeout and no
+retries. The source prints a complete or explicit incomplete packet and both
+engine outputs must agree. Conservative cost is below `$0.02`. App ID and
+measured worker time are recorded after the single launch; no rerun is
+authorized without a changed witness or a failed infrastructure launch.
+
+Modal app `ap-w5NVLM6qks58oQP9KHXi9G` completed in `0.063751`
+worker-seconds. FLINT and PARI agree on the 249-bit norm
+
+```text
+713716409960669519192598736974780038395771519667874695041952783752312355842.
+```
+
+Its valuation is one. The 248-bit odd part is prime and congruent to one
+modulo 256, but is below `2^250`, so this exact vector cannot collide on the
+pair-feasible branch. The compact packet is
+`e1_v36_full_conductor_witness_norm_result.json`; its deterministic arithmetic
+and source-hash checker is `e1_v36_full_conductor_witness_norm_check.py`.
+
+#### CR-E1-E26-TOP-MASK-PILOT: actual-vector falsifier search
+
+**Status:** COMPLETE NO-HIT. This bounded pilot is superseded by the complete
+four-profile census below; no rerun is authorized.
+
+The exact E26 odd-mask relaxation leaves every light mask alive, but ranks the
+two cheap profiles `(4,1,2)` and `(6,1,0,1)` by attainable `M_3`. Census the
+top 16 normalized light representatives for each profile, retaining the 32
+highest-`M_3` full-conductor vectors per task for exact norm follow-up. The
+pilot covers exactly `32*binom(124,3)*64=635,133,952` signed vectors; it makes no
+claim about the other 1,202 masks.
+
+Run 32 one-CPU, 256 MiB tasks with 60-second hard timeouts and at most 32
+containers. The launcher writes a partial result after each return, checks
+every actual maximum against the exact relaxation maximum, and aborts on any
+timeout or malformed row. Conservative total cost is below `$0.10` and total
+wall time below five minutes. A retained odd prime norm part above `2^250`
+triggers independent collision replay; no hit only retires this ranked pilot.
+
+Modal app `ap-L2vmgKMlAx8lsHkCxmzySB` completed all 32 tasks without retry,
+covering exactly 635,133,952 vectors in `68.453854` aggregate worker-seconds.
+It found 614 profile vectors, 560 above `M_3=228`, and 44 full-conductor
+exceptions on seven masks. Their maximum full-conductor third moment is 624.
+Modal app `ap-sSRw4M4r3Lo3CFYJzKwm74` completed dual FLINT/PARI norm and
+primality evaluation of all 44 retained vectors. The engines agree on 22
+distinct norms. The 247-bit maximum is
+
+```text
+206300578845256388660989325009715100926350250639065957504774519402224202242.
+```
+
+Six odd parts are prime, but none reaches the pair-feasible floor `2^250`, so
+the pilot finds no collision row. The complete census and norm packet below
+now covers the other 1,202 masks as well.
+
+#### CR-E1-E26-FOUR-PROFILE-CENSUS: complete six-odd endpoint decision
+
+**Status:** COMPLETE PASS. The four profiles and the full `V=52` endpoint are
+closed; no rerun is authorized.
+
+The proved six-odd atlas has exactly 1,234 odd masks and one affine light orbit
+per mask. For every representative, choose all heavy triples from the other
+124 positions and all 64 relative sign vectors. One pass therefore covers
+exactly `1,234*binom(124,3)*64=24,492,353,024` vectors and classifies all four
+live profiles simultaneously. The production engine uses folded signed
+chords; the audit engine independently forms the direct negacyclic product.
+Retain every full-conductor vector above `M_3=228` for dual exact norms.
+
+Run the engines sequentially, each with 1,234 one-CPU, 256 MiB tasks, 60-second
+task caps, and at most 100 containers. Checkpoint every 16 returns and abort
+on timeout, malformed output, or row disagreement. The 32-mask pilot measured
+`68.453854` worker-seconds for 635,133,952 vectors, projecting about 2,640
+worker-seconds per engine. Conservative combined cost is below `$0.50` and
+wall time below five minutes. A prime odd norm part above `2^250` triggers
+collision replay; otherwise exact norms below threshold close the endpoint.
+
+Infrastructure launch `ap-Jq5ilys1UDMuhHb04wAVdk` failed during worker module
+import because local path resolution assumed the checkout directory depth.
+It completed `0/1,234` production and `0/1,234` audit tasks and supplies no
+mathematical evidence. One import-safe retry was authorized under the stated
+budget; no computational retry was authorized.
+
+Import-safe Modal app `ap-w01euXu1uuSZMynixEsU9m` completed all 1,234
+production and all 1,234 audit tasks. Modal transparently restarted two
+preempted containers on the same inputs. The two independent engines agree
+row by row after 24,492,353,024 vectors each:
+
+```text
+profile       vectors   M_3>228   full conductor   max M_3   full max
+(6,5)          51,562      48,918           32,096       1074       1062
+(5,3,1)        23,884      23,232           12,632        942        942
+(4,1,2)         1,614       1,590              408        870        690
+(6,1,0,1)       1,788         874              272        606        606
+total          78,848      74,614           45,408
+```
+
+The production and audit engines used `2707.686703` and `5063.911652`
+aggregate worker-seconds. The proper-conductor theorem removes the
+`74,614-45,408=29,206` imprimitive exceptions.
+
+Modal app `ap-B13nYXtQQsbfCqFKDPTeUr` computed every remaining norm in FLINT
+and PARI in 46 batches. The engines agree entry by entry on 45,408 vectors and
+20,636 distinct norms. Their common maximum is
+
+```text
+1139098407599461804511111865916270680930143333943822578584573946997885235216
+```
+
+and satisfies `N_max<2^250<2*N_max`. No norm reaches `2^250`; hence no
+pair-feasible collision survives, all four profiles are excluded, and the
+live positive even frontier advances to `V<=50`.
+
+#### CR-E1-E25-ROUTER: exact last-live-majorant route decision
+
+**Status:** COMPLETE PASS. The exact router is banked; no rerun is authorized.
+
+At `N=256`, folded profile `(3,4,0)`, and `V=50` (`E=25`), derive the exact
+positive-half L1 bound, enumerate every compatible integer magnitude profile,
+certify the cubic-Hermite sign change at `M_3=13/14`, apply diameter parity,
+and price the surviving profiles against the already-proved one-diameter
+light atlas. This is a router only and must not claim any profile exclusion.
+
+Run one one-CPU, 256 MiB Modal task with a 60-second hard timeout. The local
+launcher must write the complete JSON packet, and the prepared independent
+checker must reconstruct the profile ledger, the exact rational sign change,
+the atlas usage, and the direct-census floor. Conservative cost is below
+`$0.01`. A large surviving router or a cutoff below all attainable moments is
+a route boundary, not authorization for an undifferentiated norm campaign.
+
+Infrastructure app `ap-0xK5g91qR7LZzevi5tScu5` failed while importing the
+remote module because checkout-depth path resolution ran at module scope. It
+completed no computation and supplies no mathematical evidence. The one
+authorized import-safe retry follows; no further retry is authorized.
+
+Import-safe app `ap-Bmu0kinryPMCm1zYI5CWas` completed the single task. The
+independent checker confirms `L<=15`, 12 energy profiles, the exact
+`M_3=13/14` sign change, and nine parity survivors: five with one odd class
+and four with five odd classes. They occupy 111 proved affine light templates,
+giving a direct floor of 2,203,120,896 vectors per engine. The router excludes
+no profile by itself.
+
+#### CR-E1-E25-NINE-PROFILE-CENSUS: exact actual-vector route decision
+
+**Status:** COMPLETE PASS. The bounded primitive remainder authorizes the
+dual exact-norm pass below; no census rerun is authorized.
+
+Run the exact E25 router's 111 affine templates through folded-chord and
+direct-negacyclic engines. Each engine covers
+`111*binom(124,3)*64=2,203,120,896` signed vectors. Record exact per-profile
+counts, minimum and maximum `M_3`, conductor counts, and every vector above
+the cutoff `M_3=13`. This decides whether exact norms remain a bounded route;
+it does not itself prove an exclusion.
+
+Run 111 one-CPU, 256 MiB tasks per engine, sequential engine passes, 60-second
+task caps, and at most 100 containers. Checkpoint every 16 returns and preserve
+partial rows on failure. The prepared checker replays every retained vector
+and compares the two engines row by row. The identical E29 router size and
+measured E26 throughput put conservative cost below `$0.15` and wall time
+below five minutes. If the retained primitive set is too large for a bounded
+dual norm pass, stop and seek an algebraic filter instead.
+
+Modal app `ap-GPkfA9swDimrWIrdVL3u7Z` completed all 111 production and all 111
+audit rows without retry. Folded-chord and direct-negacyclic engines agree
+exactly after 2,203,120,896 vectors each:
+
+```text
+profile       vectors   M_3>13   full conductor   min/max full M_3
+(5,5)          12,156     12,156            6,944          60/900
+(1,6)          11,884     11,628            6,888           0/720
+(4,3,1)         5,526      5,526            2,868         120/696
+(0,4,1)           416        352               32           0/276
+(3,1,2)           632        632              116         120/480
+(5,1,0,1)         238        238               56          96/384
+(1,2,0,1)         812        748               80           0/240
+(0,0,1,1)          16          0                0             --
+(0,0,0,0,1)         6          0                0             --
+total           31,686     31,280           16,984
+```
+
+The complete dual pass used `250.331735` aggregate production worker-seconds;
+the audit summary agrees exactly. The proper-conductor theorem removes the
+other `31,280-16,984=14,296` cubic exceptions. Since only 16,984 primitive
+vectors remain, exact dual norms are bounded and cheaper than the completed
+E26 norm packet.
+
+#### CR-E1-E25-NINE-PROFILE-NORMS: exact endpoint decision
+
+**Status:** COMPLETE PASS. The nine profiles and `V=50` endpoint are closed;
+no rerun is authorized.
+
+Compute `Res(g,x^128+1)` for all 16,984 full-conductor E25 vectors above
+`M_3=13`, in 17 batches of at most 1,000. Compare FLINT and PARI entry by
+entry, record profile maxima, and independently test every odd part in the
+pair-feasible interval `(2^250,2^256)` for primality. A prime eligible odd
+part becomes an explicit collision-row candidate requiring exact replay; if
+all norms are below `2^250`, the nine profiles and the `V=50` endpoint close.
+
+Run one-CPU, 256 MiB tasks with 60-second hard caps and at most 100 containers.
+Checkpoint every four batches and preserve partial output on failure. The
+prepared checker binds the census and source hashes, compares both norm
+ledgers, reconstructs all profile maxima and candidate records, and checks
+coverage. Based on the completed 45,408-vector E26 packet, conservative cost
+is below `$0.10` and wall time below two minutes.
+
+Modal app `ap-P7nLJ3MSSHmUrHb9P2RSoX` completed all 17 FLINT and all 17 PARI
+batches without retry. The systems agree entry by entry on 16,984 vectors and
+3,727 distinct norms. Their common maximum is
+
+```text
+689346143769176281255733260656192958605975198224651023251426809106119000068
+```
+
+and satisfies `2*N_max<2^250<3*N_max`. No norm reaches `2^250`; there are no
+eligible odd parts and no candidate collision rows. All nine E25 profiles are
+excluded and the live positive even frontier advances to `V<=48`.

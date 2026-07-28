@@ -109,9 +109,32 @@ eight affine templates; independent 158,783,488-vector censuses close all
 three with the exact cubic cutoff and conductor theorem. Do not rerun any
 `V>=62` campaign. At `V=60`, quotient allocation and complete two-odd ledgers
 close five of the eight exact profiles. The odd-difference relaxation and
-exact exceptional norms also close `(4,2,2)`. Attack only `(6,6)` and
-`(5,4,1)` by extending that structured method. Their direct census floor is
-21,773,185,792 signed vectors per profile and is out of scope.
+exact exceptional norms also close `(4,2,2)`, `(5,4,1)`, and `(6,6)`. The
+entire chamber is closed. At `V=58`, exact slack/parity leaves eight profiles
+on 111 affine light templates; independent complete censuses, conductor, and
+exact norms close all eight. At `V=56`, parity leaves eight profiles on 154
+affine templates; independent complete censuses, conductor, and exact norms
+close all eight. At `V=54`, parity leaves six profiles on eight affine
+templates; independent complete censuses, conductor, and exact norms close all
+six. At `V=52`, exact slack and parity leave six two-odd and four six-odd
+profiles. Independent complete censuses, conductor, and exact norms close all
+six two-odd profiles. A second pair of complete censuses, conductor, and exact
+norms closes all four six-odd profiles. The entire `V=52` chamber is closed.
+At `V=50`, nine profiles on 111 templates are closed by independent complete
+censuses, conductor, and exact norms. At `V=48`, a cutoff-free six-profile
+router on 154 templates is closed by independent complete censuses, conductor,
+and exact norms. At `V=46`, four profiles on eight templates close by
+independent complete censuses, conductor, and exact norms. At `V=44`, eight
+profiles on 1,321 templates close by dual 26,219,123,456-vector censuses,
+conductor, and exact norms. At `V=42`, seven profiles on 111 templates close
+by dual 2,203,120,896-vector censuses, conductor, and exact norms. Derive the
+exact `V=40` router without a cubic cutoff. At `V=40`, six profiles on 154
+templates close by dual 3,056,582,144-vector censuses, conductor, and exact
+norms. At `V=38`, four profiles on eight templates close by dual
+158,783,488-vector censuses, conductor, and exact norms. Derive the exact
+`V=36` router. At `V=36`, six profiles on 1,321 templates close by dual
+26,219,123,456-vector censuses, conductor, and exact odd norm parts. Derive
+the exact `V=34` router. Do not rerun any `V>=36` campaign.
 
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
 the 2-adic singleton screen and test its 419 exact cofactors directly; do not

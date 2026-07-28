@@ -64,11 +64,37 @@ explicit finite inequality at the row.
    chamber. At `V=60`, exact profile/parity reduction leaves eight profiles.
    The quotient ledger closes `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`; the
    complete two-odd ledger closes `(2,7)` and `(1,5,1)`. A structured odd-
-   difference relaxation plus exact exceptional norms closes `(4,2,2)`. The
-   residual is exactly `(6,6)` and `(5,4,1)`, both with six odd light classes.
-   Extend the difference-mask method with an optimizer or analytic bound for
-   their larger even layers; the proved direct-census floor is 21,773,185,792
-   vectors per profile, so do not brute-force this branch.
+   difference relaxation plus exact exceptional norms closes `(4,2,2)` and
+   `(5,4,1)`. Independent 44,779,702,968-assignment relaxations, independent
+   23,638,891,776-vector exceptional censuses, conductor, and exact norms close
+   `(6,6)`. The entire `V=60` chamber is closed. At `V=58`, exact slack and
+   parity leave eight profiles on 111 affine light templates. Independent
+   2,203,120,896-vector censuses, conductor, and exact FLINT/PARI norms close
+   all eight. At `V=56`, parity leaves eight profiles on 154 affine templates;
+   independent 3,056,582,144-vector censuses, conductor, and exact norms close
+   all eight. At `V=54`, parity leaves six profiles on eight affine templates;
+   independent 158,783,488-vector censuses, conductor, and exact norms close
+   all six. At `V=52`, exact slack and parity leave six two-odd and four
+   six-odd profiles. Independent 1,726,770,432-vector censuses, conductor, and
+   exact norms close all six two-odd profiles. Independent 24,492,353,024-
+   vector censuses, conductor, and exact norms close all four six-odd
+   profiles. The entire `V=52` chamber is closed. At `V=50`, parity leaves
+   nine profiles on 111 affine templates; independent 2,203,120,896-vector
+   censuses, conductor, and exact norms close all nine. At `V=48`, a cutoff-
+   free router leaves six profiles on 154 templates; independent
+   3,056,582,144-vector censuses, conductor, and dual exact norms close them
+   all. At `V=46`, four profiles on eight templates close by independent
+   complete censuses, conductor, and exact norms. At `V=44`, eight profiles
+   on 1,321 templates close by dual 26,219,123,456-vector censuses, conductor,
+   and exact norms. At `V=42`, seven profiles on 111 templates close by dual
+   2,203,120,896-vector censuses, conductor, and exact norms. Derive the exact
+   `V=40` router without a cubic cutoff. At `V=40`, six profiles on 154
+   templates close by dual 3,056,582,144-vector censuses, conductor, and exact
+   norms. At `V=38`, four profiles on eight templates close by dual
+   158,783,488-vector censuses, conductor, and exact norms. Derive the exact
+   `V=36` router. At `V=36`, six profiles on 1,321 templates close by dual
+   26,219,123,456-vector censuses, conductor, and exact odd norm parts. Derive
+   the exact `V=34` router. Do not rerun any `V>=36` chamber.
    The
    signed-chord gate
    further excludes circular-Sidon supports: every residual has an oppositely

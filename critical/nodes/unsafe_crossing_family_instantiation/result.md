@@ -151,12 +151,77 @@ maximum. Unrestricted `M_3` maxima 1068 and 1122 exclude `(2,5,1)` and
 the exact cutoff 1302, and the conductor theorem removes its complement.
 Thus `V=62` is empty and the live positive even frontier is `V<=60`.
 
-The `V=60` chamber is now sharply reduced but remains open. Exact slack and
+The `V=60` chamber is closed. Exact slack and
 parity leave eight profiles. A complete mod-16 allocation ledger excludes
 `(0,3,2)`, `(6,2,0,1)`, and `(3,0,3)`. Two independent 87-template censuses
 and two independent exact-resultant ledgers exclude `(2,7)` and `(1,5,1)`.
 A complete odd-difference relaxation reduces `(4,2,2)` to six actual vectors;
-proper conductor and exact norms exclude them. The exact residual is `(6,6)`
-and `(5,4,1)`, both in the six-odd branch. A direct affine-orbit census for
-either has a proved floor of 21,773,185,792 signed vectors, so these are
-structural proof targets rather than brute-force jobs.
+proper conductor and exact norms exclude them. Independent odd-difference
+relaxations and exceptional actual-vector engines then reduce `(5,4,1)` to 86
+primitive vectors, all excluded by independent exact norms. Independent
+relaxations then cover all 44,779,702,968 profile-`(6,6)` assignments;
+independent actual engines leave 1,232 primitive exceptions, all excluded by
+independent exact norms. Thus `V=60` is empty and the live positive even
+frontier is `V<=58`.
+
+At `V=58`, exact slack gives `L<=17`, the cubic cutoff is `M_3=872`, and
+diameter parity leaves eight profiles on 111 affine light templates. Two
+independent complete censuses agree after 2,203,120,896 vectors per engine and
+leave 4,812 cubic exceptions. Proper conductor removes 3,992; independent
+FLINT/PARI resultants place all 820 primitive exceptions below `2^250`.
+Therefore `V=58` is empty and the live positive even frontier is `V<=56`.
+
+At `V=56`, exact slack gives `L<=16`, the cubic cutoff is `M_3=658`, and
+parity leaves eight profiles on 154 affine templates. Folded-chord and direct-
+negacyclic engines agree after 3,056,582,144 vectors per engine, leaving
+12,638 cubic exceptions. Conductor removes 8,266; independent FLINT/PARI
+resultants put all 4,372 primitive exceptions below `2^250`. Therefore `V=56`
+is empty and the live positive even frontier is `V<=54`.
+
+At `V=54`, exact slack gives `L<=15`, the cubic cutoff is `M_3=443`, and
+parity leaves six profiles on eight affine light templates. Independent
+158,783,488-vector censuses leave 2,000 cubic exceptions; conductor removes
+1,596 and independent exact resultants put all 404 primitive exceptions below
+`2^250`. Therefore `V=54` is empty and the live positive even frontier is
+`V<=52`.
+
+At `V=52`, exact slack gives `L<=16`, the cubic cutoff is `M_3=228`, and
+parity leaves six two-odd and four six-odd profiles. Independent
+1,726,770,432-vector censuses, conductor, and independent exact norms close
+all six two-odd profiles. The live endpoint is exactly `(6,5)`, `(5,3,1)`,
+`(4,1,2)`, and `(6,1,0,1)` on 1,234 affine six-odd templates; it is not yet
+closed.
+
+**Frontier addendum (2026-07-28, planner).** The per-level narrative above
+stops at `V=52`, where it records the six-odd endpoint as not yet closed. That
+paragraph is now superseded by the DAG, which closes `V=52` and every level
+below it down to `V=36`:
+
+```text
+V=52 -> V<=50    V=50 -> V<=48    V=48 -> V<=46    V=46 -> V<=44
+V=44 -> V<=42    V=42 -> V<=40    V=40 -> V<=38    V=38 -> V<=36
+V=36 -> V<=34
+```
+
+**The live positive even frontier for folded profile `(3,4,0)` is `0<V<=34`.**
+
+Two things about how those nine levels were closed, because the method changed:
+
+- Below `V=50` the cubic-Hermite majorant is dead — its exclusion threshold is
+  nonpositive there (`e1_first_band_variance_route_boundary`, vendored from
+  upstream PR #1110). Those levels are closed by exact FLINT/PARI resultant
+  norms, with the majorant used only to triage where it is still alive. The
+  `V=36` reduction says so explicitly: "No cubic-Hermite cutoff is used."
+- At `V=36` six whole norms reach `2^250`. They are discharged by odd-part
+  extraction: writing `R=2^mu R_odd`, a pair-feasible row prime `p>2^250` is
+  odd, so `p|R` implies `p|R_odd`, and every `R_odd` is below `2^250`.
+
+**This does not close the node.** Folded profile `(4,2,0)` and the later swap
+bands are untouched, and `0<V<=34` remains open in `(3,4,0)` itself. The
+universal target stays `TARGET`.
+
+**Margin note.** The certified full-conductor `(3,4,0)` witness at `V=36` has
+norm `2 * R_odd` with `R_odd` a 248-bit **prime** congruent to `1 mod 256` —
+i.e. it satisfies this lane's row congruence and is excluded only by size,
+sitting a factor of about 5 below `2^250`. The exclusions at the bottom of this
+band rest on roughly two bits.

@@ -84,6 +84,45 @@ e1_n256_s16_e30_two_odd_profile_exclusion [PROVED]
 e1_n256_s16_e30_profile_422_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+collision_norm_criterion [PROVED]
+    --requirement--> e1_first_band_variance_route_boundary [PROVED route cut]
+    --evidence-------------------------------------------> e1_official_prime_exception_control [TARGET]
+
+e1_n256_s16_e24_profile_parity_light_reduction [PROVED]
+    --requirement--> e1_n256_s16_e24_six_profile_exclusion [PROVED]
+    --requirement-----------------------------------------> e1_n256_s16_e24_endpoint_exclusion [PROVED]
+    --evidence--------------------------------------------> e1_official_prime_exception_control [TARGET]
+
+e1_n256_s16_e23_profile_parity_light_reduction [PROVED]
+    --requirement--> e1_n256_s16_e23_four_profile_exclusion [PROVED]
+    --requirement------------------------------------------> e1_n256_s16_e23_endpoint_exclusion [PROVED]
+    --evidence---------------------------------------------> e1_official_prime_exception_control [TARGET]
+
+e1_n256_s16_e22_profile_parity_light_reduction [PROVED]
+    --requirement--> e1_n256_s16_e22_eight_profile_exclusion [PROVED]
+    --requirement-------------------------------------------> e1_n256_s16_e22_endpoint_exclusion [PROVED]
+    --evidence----------------------------------------------> e1_official_prime_exception_control [TARGET]
+
+e1_n256_s16_e21_profile_parity_light_reduction [PROVED]
+    --requirement--> e1_n256_s16_e21_seven_profile_exclusion [PROVED]
+    --requirement-------------------------------------------> e1_n256_s16_e21_endpoint_exclusion [PROVED]
+    --evidence----------------------------------------------> e1_official_prime_exception_control [TARGET]
+
+e1_n256_s16_e20_profile_parity_light_reduction [PROVED]
+    --requirement--> e1_n256_s16_e20_six_profile_exclusion [PROVED]
+    --requirement-------------------------------------------> e1_n256_s16_e20_endpoint_exclusion [PROVED]
+    --evidence----------------------------------------------> e1_official_prime_exception_control [TARGET]
+
+e1_n256_s16_e19_profile_parity_light_reduction [PROVED]
+    --requirement--> e1_n256_s16_e19_four_profile_exclusion [PROVED]
+    --requirement-------------------------------------------> e1_n256_s16_e19_endpoint_exclusion [PROVED]
+    --evidence----------------------------------------------> e1_official_prime_exception_control [TARGET]
+
+e1_n256_s16_e18_profile_parity_light_reduction [PROVED]
+    --requirement--> e1_n256_s16_e18_six_profile_exclusion [PROVED]
+    --requirement-------------------------------------------> e1_n256_s16_e18_endpoint_exclusion [PROVED]
+    --evidence----------------------------------------------> e1_official_prime_exception_control [TARGET]
+
 e1_official_prime_exception_control [TARGET]
     -> e1_fullness [CONDITIONAL]
 ```
@@ -102,10 +141,78 @@ conductor theorem remove `(4,7)`. The endpoint synthesis closes `V=64`, and
 the corresponding eight-template chain closes `V=62`. At `V=60`, exact
 profile/parity and quotient reductions plus a complete two-odd census first
 leave three six-odd profiles. The proved profile-`(4,2,2)` exclusion uses a
-complete odd-difference relaxation and exact exceptional norms. Only `(6,6)`
-and `(5,4,1)` remain. The proved direct-census floor is 21,773,185,792 vectors
-per profile, so this residual requires an analytic reduction rather than a
-generic support scan.
+complete odd-difference relaxation and exact exceptional norms. The proved
+profile-`(5,4,1)` exclusion adds two independent 2,924,654,040-assignment
+relaxations, two independent exceptional actual-vector engines, and exact
+FLINT/PARI norms. The proved profile-`(6,6)` exclusion adds independent
+44,779,702,968-assignment relaxations, independent 23,638,891,776-vector
+exceptional censuses, and exact norms for the 1,232 primitive exceptions. The
+E30 endpoint synthesis is therefore proved, and the live positive even
+frontier is `V<=58`. The proved E29 profile/parity/light reduction then leaves
+eight profiles on exactly 111 affine one-diameter light templates. The proved
+joint exclusion uses two independent 2,203,120,896-vector censuses, the exact
+`M_3=872` cutoff, the proper-conductor theorem, and independent FLINT/PARI
+norms for 820 primitive exceptions. The E29 endpoint synthesis closes `V=58`
+and advances the live positive even frontier to `V<=56`. The proved E28
+reduction then reuses the four-odd atlas and leaves eight profiles on 154
+templates. Its joint exclusion combines two independent 3,056,582,144-vector
+censuses, conductor, and exact FLINT/PARI norms for 4,372 primitive exceptions.
+The E28 endpoint synthesis closes `V=56` and advances the frontier to `V<=54`.
+The proved E27 reduction leaves six profiles on eight three-odd affine
+templates. Its joint exclusion combines two independent 158,783,488-vector
+censuses, conductor, and exact FLINT/PARI norms for 404 primitive exceptions.
+The E27 endpoint synthesis closes `V=54` and advances the frontier to `V<=52`.
+The proved E26 reduction leaves six two-odd and four six-odd profiles. Its
+complete two-odd exclusion combines two independent 1,726,770,432-vector
+censuses, conductor, and exact FLINT/PARI norms for 8,060 primitive
+exceptions, closing all six two-odd profiles. The complete six-odd exclusion
+combines two independent 24,492,353,024-vector censuses over all 1,234 affine
+templates, conductor, and exact FLINT/PARI norms for 45,408 primitive
+exceptions. The E26 endpoint synthesis therefore closes `V=52` and advances
+the live positive even frontier to `V<=50`. The proved E25 reduction leaves
+nine profiles on 111 one-diameter affine templates. Its joint exclusion uses
+two independent 2,203,120,896-vector censuses, conductor, and exact FLINT/PARI
+norms for 16,984 primitive exceptions. The E25 endpoint closes `V=50` and
+advances the frontier to `V<=48`. The source-pinned and independently
+reconstructed `e1_first_band_variance_route_boundary` proves that the fixed
+cubic-Hermite majorant has negative optimistic margin already at `M_3=0` at
+every remaining even level. This route cut is evidence rather than a
+universal close: finite geometric routing and exact norms remain necessary.
+The cutoff-free E24 reduction supplies exactly that finite routing: six
+profiles on 154 templates. Dual actual-vector engines find 14,416 vectors,
+the conductor theorem removes 7,582, and dual exact resultants put all 6,834
+full-conductor norms below `2^250`. The E24 endpoint closes `V=48` and advances
+the frontier to `V<=46`, still as evidence rather than a universal close.
+The cutoff-free E23 reduction leaves four profiles on eight templates.
+Independent censuses find 1,888 vectors, conductor removes 1,404, and dual
+exact resultants put all 484 full-conductor norms below `2^250`. The E23
+endpoint closes `V=46` and advances the frontier to `V<=44`, still as evidence
+rather than a universal close.
+The cutoff-free E22 reduction leaves eight profiles on 1,321 templates.
+Independent censuses find 27,998 vectors, conductor removes 12,996, and dual
+exact resultants put all 15,002 full-conductor norms below `2^250`. The E22
+endpoint closes `V=44` and advances the frontier to `V<=42`, still as evidence
+rather than a universal close.
+The cutoff-free E21 reduction leaves seven profiles on 111 templates.
+Independent censuses find 10,454 vectors, conductor removes 5,814, and dual
+exact resultants put all 4,640 full-conductor norms below `2^250`. The E21
+endpoint closes `V=42` and advances the frontier to `V<=40`, still as evidence
+rather than a universal close.
+The cutoff-free E20 reduction leaves six profiles on 154 templates.
+Independent censuses find 6,426 vectors, conductor removes 4,526, and dual
+exact resultants put all 1,900 full-conductor norms below `2^250`. The E20
+endpoint closes `V=40` and advances the frontier to `V<=38`, still as evidence
+rather than a universal close.
+The cutoff-free E19 reduction leaves four profiles on eight templates.
+Independent censuses find 574 vectors, conductor removes 438, and dual exact
+resultants put all 136 full-conductor norms below `2^250`. The E19 endpoint
+closes `V=38` and advances the frontier to `V<=36`, still as evidence rather
+than a universal close.
+The cutoff-free E18 reduction leaves six profiles on 1,321 templates.
+Independent censuses find 6,712 vectors, conductor removes 3,718, and dual
+exact resultants put every one of 2,994 full-conductor odd norm parts below
+`2^250`. The E18 endpoint closes `V=36` and advances the frontier to `V<=34`,
+still as evidence rather than a universal close.
 The proper-conductor theorem also removes all proper-subfield lifts from both
 first-band profiles. The 2-adic cofactor theorem supplies independent
 singleton-exponent screens in both profiles. Full-conductor vectors passing

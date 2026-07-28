@@ -216,19 +216,75 @@ parity leaves eight profiles. Quotient allocation closes `(0,3,2)`,
 `(1,5,1)`, including exact resultants for all 28,114 full-conductor `(2,7)`
 vectors. For `(4,2,2)`, independent 1,234-mask relaxations leave three
 abstract exceptions; independent actual-vector censuses leave six vectors,
-and conductor plus exact norms exclude them. The surviving profiles are
-exactly `(6,6)` and `(5,4,1)`. Both have six odd light classes; the 280,720
-normalized supports force at least 1,097 affine orbits and a
-21,773,185,792-vector direct-census floor for either profile.
+and conductor plus exact norms exclude them. For `(5,4,1)`, independent
+relaxations agree on 2,924,654,040 assignments and independent actual-vector
+engines agree after 6,371,187,456 vectors each, leaving 86 primitive vectors;
+independent exact norms exclude all 86. For `(6,6)`, independent relaxations
+agree on all 44,779,702,968 assignments and independent actual engines agree
+after 23,638,891,776 vectors each, leaving 1,232 primitive vectors. Independent
+exact norms exclude all 1,232. Hence `V=60` is empty and the live positive even
+frontier is `V<=58`. At `V=58`, exact slack gives `L<=17`, the exact cubic
+cutoff is `M_3=872`, and parity leaves eight profiles on 111 affine
+one-diameter light templates. Independent folded-chord and direct-negacyclic
+engines agree after 2,203,120,896 vectors each, leaving 4,812 cubic exceptions.
+Conductor removes 3,992; independent FLINT/PARI norms put all 820 primitive
+exceptions below `2^250`. Hence `V=58` is empty and the frontier is `V<=56`.
+At `V=56`, exact slack gives `L<=16`, the cubic cutoff is `M_3=658`, and
+parity leaves eight profiles on 154 affine templates. Independent engines
+agree after 3,056,582,144 vectors each, leaving 12,638 cubic exceptions.
+Conductor removes 8,266; independent exact norms put all 4,372 primitive
+exceptions below `2^250`. Hence `V=56` is empty and the frontier is `V<=54`.
+At `V=54`, exact slack gives `L<=15`, the cubic cutoff is `M_3=443`, and
+parity leaves six profiles on eight affine light templates. Two independent
+158,783,488-vector censuses leave 2,000 cubic exceptions; conductor removes
+1,596, and independent exact norms remove all 404 primitive exceptions. Hence
+`V=54` is empty and the frontier is `V<=52`.
+
+At `V=52`, exact slack gives `L<=16`, the cubic cutoff is `M_3=228`, and
+parity leaves six two-odd and four six-odd profiles. Complete independent
+1,726,770,432-vector censuses close all six two-odd profiles; conductor removes
+9,564 cubic exceptions and exact FLINT/PARI norms remove all 8,060 primitive
+exceptions. Complete independent 24,492,353,024-vector censuses close the four
+six-odd profiles on all 1,234 affine templates; conductor removes 29,206 cubic
+exceptions and exact FLINT/PARI norms remove all 45,408 primitive exceptions.
+Hence `V=52` is empty and the frontier is `V<=50`. At `V=50`, exact slack and
+parity leave nine profiles on 111 affine templates. Independent
+2,203,120,896-vector censuses leave 31,280 cubic exceptions; conductor removes
+14,296 and exact FLINT/PARI norms remove all 16,984 primitive exceptions.
+Hence `V=50` is empty. At `V=48`, a cutoff-free router leaves six profiles on
+154 templates. Independent 3,056,582,144-vector engines find 14,416 actual
+vectors; conductor removes 7,582 and exact FLINT/PARI norms remove all 6,834
+full-conductor representatives. Hence `V=48` is empty and the frontier is
+reduced to `V<=46`. At `V=46`, a cutoff-free four-profile router on eight
+templates yields 1,888 vectors; conductor removes 1,404 and exact FLINT/PARI
+norms remove all 484 full-conductor representatives. Hence `V=46` is empty
+and the frontier is reduced to `V<=44`. At `V=44`, a cutoff-free eight-profile
+router on 1,321 templates yields 27,998 vectors; conductor removes 12,996 and
+exact FLINT/PARI norms remove all 15,002 full-conductor representatives. Hence
+`V=44` is empty. At `V=42`, a cutoff-free seven-profile router on 111
+templates yields 10,454 vectors; conductor removes 5,814 and exact
+FLINT/PARI norms remove all 4,640 full-conductor representatives. Hence
+`V=42` is empty and the frontier is `V<=40`. The fixed cubic-Hermite majorant
+remains dead from 48 down. At `V=40`, a cutoff-free six-profile router on 154
+templates yields 6,426 vectors; conductor removes 4,526 and exact FLINT/PARI
+norms remove all 1,900 full-conductor representatives. Hence `V=40` is empty
+and the frontier is `V<=38`.
+At `V=38`, a cutoff-free four-profile router on eight templates yields 574
+vectors; conductor removes 438 and exact FLINT/PARI norms remove all 136
+full-conductor representatives. Hence `V=38` is empty and the frontier is
+`V<=36`.
+At `V=36`, a cutoff-free six-profile router on 1,321 templates yields 6,712
+vectors; conductor removes 3,718. Six full-conductor whole norms reach
+`2^250`, but exact FLINT/PARI ledgers put every odd norm part below `2^250`.
+Hence `V=36` is empty and the frontier is `V<=34`.
 
 The row descriptor validates inputs but does not infer `a_safe`; the current
 maximal-safe map remains conditional on the corridor leaves. On the six named
 anchors, the next positive unsafe task is therefore direct E1/value-set
-injectivity or another explicit `V` line. Within the first `N=256` band,
-extend the successful odd-difference relaxation to `(6,6)` and `(5,4,1)`,
-using optimization or analytic bounds for their larger even layers; do not run
-the direct census.
+injectivity or another explicit `V` line. Within the first `N=256` band, the
+`V=36` chamber is now closed; derive and price the exact cutoff-free `V=34`
+profile/parity/light router.
 Alternatively attack the still broad `(4,2,0)` profile through its 419 exact
-cofactor classes. Do not rerun the other six `V=60` profiles or any `V>=62`
+cofactor classes. Do not rerun any `V>=36`
 campaign. Later `N=256,s>=6` and `N=512,s>=3` bands remain open. Any exact
 safe predecessor relocates the candidate threshold immediately.

@@ -1,0 +1,1614 @@
+{
+  "complete": true,
+  "completed_tasks": 32,
+  "error": null,
+  "expected_tasks": 32,
+  "relaxation_source_sha256": "12df81ac5df45268017fd794f67250b4e26df7c7c3150d3f28ae87426d505516",
+  "rows": [
+    {
+      "above_cutoff": 166,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        8,
+        24,
+        56
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 870,
+      "profile": 0,
+      "profile_count": 166,
+      "relaxation_maximum": 870,
+      "supports": 310124,
+      "task": 0,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 1.8750986720000002
+    },
+    {
+      "above_cutoff": 176,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        8,
+        24,
+        96
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 846,
+      "profile": 0,
+      "profile_count": 176,
+      "relaxation_maximum": 846,
+      "supports": 310124,
+      "task": 1,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 2.0876490690000002
+    },
+    {
+      "above_cutoff": 14,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        4,
+        20,
+        28
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 624,
+      "profile": 0,
+      "profile_count": 14,
+      "relaxation_maximum": 804,
+      "supports": 310124,
+      "task": 2,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 1.5232321969999998
+    },
+    {
+      "above_cutoff": 14,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 624,
+      "profile": 0,
+      "profile_count": 14,
+      "relaxation_maximum": 804,
+      "supports": 310124,
+      "task": 3,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 2.5340315610000004
+    },
+    {
+      "above_cutoff": 14,
+      "complete": true,
+      "full_above_cutoff": 14,
+      "light": [
+        0,
+        1,
+        5,
+        7
+      ],
+      "maximum_full_m3": 624,
+      "maximum_m3": 624,
+      "profile": 0,
+      "profile_count": 14,
+      "relaxation_maximum": 804,
+      "supports": 310124,
+      "task": 4,
+      "top": [
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 624,
+          "positions": [
+            3,
+            4,
+            6,
+            0,
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 624,
+          "positions": [
+            3,
+            4,
+            6,
+            0,
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "m3": 516,
+          "positions": [
+            2,
+            3,
+            127,
+            0,
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "m3": 516,
+          "positions": [
+            2,
+            3,
+            127,
+            0,
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 480,
+          "positions": [
+            3,
+            4,
+            6,
+            0,
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 480,
+          "positions": [
+            3,
+            4,
+            6,
+            0,
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 444,
+          "positions": [
+            3,
+            125,
+            127,
+            0,
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 444,
+          "positions": [
+            3,
+            125,
+            127,
+            0,
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "m3": 408,
+          "positions": [
+            3,
+            4,
+            8,
+            0,
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "m3": 408,
+          "positions": [
+            3,
+            4,
+            8,
+            0,
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 372,
+          "positions": [
+            3,
+            6,
+            8,
+            0,
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 372,
+          "positions": [
+            3,
+            6,
+            8,
+            0,
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 360,
+          "positions": [
+            3,
+            4,
+            126,
+            0,
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "m3": 360,
+          "positions": [
+            3,
+            4,
+            126,
+            0,
+            1,
+            5,
+            7
+          ]
+        }
+      ],
+      "vectors": 19847936,
+      "worker_seconds": 2.060221803
+    },
+    {
+      "above_cutoff": 12,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        4,
+        12,
+        108
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 612,
+      "profile": 0,
+      "profile_count": 12,
+      "relaxation_maximum": 744,
+      "supports": 310124,
+      "task": 5,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 1.837076507
+    },
+    {
+      "above_cutoff": 8,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        2,
+        6,
+        118
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 612,
+      "profile": 0,
+      "profile_count": 8,
+      "relaxation_maximum": 744,
+      "supports": 310124,
+      "task": 6,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 2.7772563260000003
+    },
+    {
+      "above_cutoff": 8,
+      "complete": true,
+      "full_above_cutoff": 8,
+      "light": [
+        0,
+        1,
+        3,
+        123
+      ],
+      "maximum_full_m3": 612,
+      "maximum_m3": 612,
+      "profile": 0,
+      "profile_count": 8,
+      "relaxation_maximum": 744,
+      "supports": 310124,
+      "task": 7,
+      "top": [
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 612,
+          "positions": [
+            2,
+            126,
+            127,
+            0,
+            1,
+            3,
+            123
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 612,
+          "positions": [
+            2,
+            126,
+            127,
+            0,
+            1,
+            3,
+            123
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 540,
+          "positions": [
+            2,
+            126,
+            127,
+            0,
+            1,
+            3,
+            123
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 540,
+          "positions": [
+            2,
+            126,
+            127,
+            0,
+            1,
+            3,
+            123
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 432,
+          "positions": [
+            124,
+            125,
+            126,
+            0,
+            1,
+            3,
+            123
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "m3": 432,
+          "positions": [
+            124,
+            125,
+            126,
+            0,
+            1,
+            3,
+            123
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 300,
+          "positions": [
+            121,
+            124,
+            125,
+            0,
+            1,
+            3,
+            123
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 300,
+          "positions": [
+            121,
+            124,
+            125,
+            0,
+            1,
+            3,
+            123
+          ]
+        }
+      ],
+      "vectors": 19847936,
+      "worker_seconds": 2.80973823
+    },
+    {
+      "above_cutoff": 14,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        4,
+        12,
+        28
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 426,
+      "profile": 0,
+      "profile_count": 14,
+      "relaxation_maximum": 738,
+      "supports": 310124,
+      "task": 8,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 2.1029027940000002
+    },
+    {
+      "above_cutoff": 2,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        2,
+        6,
+        14
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 342,
+      "profile": 0,
+      "profile_count": 2,
+      "relaxation_maximum": 738,
+      "supports": 310124,
+      "task": 9,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 1.9676044940000001
+    },
+    {
+      "above_cutoff": 2,
+      "complete": true,
+      "full_above_cutoff": 2,
+      "light": [
+        0,
+        1,
+        3,
+        7
+      ],
+      "maximum_full_m3": 342,
+      "maximum_m3": 342,
+      "profile": 0,
+      "profile_count": 2,
+      "relaxation_maximum": 738,
+      "supports": 310124,
+      "task": 10,
+      "top": [
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 342,
+          "positions": [
+            121,
+            125,
+            127,
+            0,
+            1,
+            3,
+            7
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 342,
+          "positions": [
+            121,
+            125,
+            127,
+            0,
+            1,
+            3,
+            7
+          ]
+        }
+      ],
+      "vectors": 19847936,
+      "worker_seconds": 1.7814635969999997
+    },
+    {
+      "above_cutoff": 8,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        4,
+        12,
+        48
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 510,
+      "profile": 0,
+      "profile_count": 8,
+      "relaxation_maximum": 726,
+      "supports": 310124,
+      "task": 11,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 1.8626831670000001
+    },
+    {
+      "above_cutoff": 8,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        2,
+        6,
+        88
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 510,
+      "profile": 0,
+      "profile_count": 8,
+      "relaxation_maximum": 726,
+      "supports": 310124,
+      "task": 12,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 1.8835884170000001
+    },
+    {
+      "above_cutoff": 8,
+      "complete": true,
+      "full_above_cutoff": 8,
+      "light": [
+        0,
+        1,
+        3,
+        44
+      ],
+      "maximum_full_m3": 510,
+      "maximum_m3": 510,
+      "profile": 0,
+      "profile_count": 8,
+      "relaxation_maximum": 726,
+      "supports": 310124,
+      "task": 13,
+      "top": [
+        {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 510,
+          "positions": [
+            2,
+            87,
+            88,
+            0,
+            1,
+            3,
+            44
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 510,
+          "positions": [
+            2,
+            87,
+            88,
+            0,
+            1,
+            3,
+            44
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 486,
+          "positions": [
+            43,
+            45,
+            88,
+            0,
+            1,
+            3,
+            44
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 486,
+          "positions": [
+            43,
+            45,
+            88,
+            0,
+            1,
+            3,
+            44
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 402,
+          "positions": [
+            2,
+            86,
+            87,
+            0,
+            1,
+            3,
+            44
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "m3": 402,
+          "positions": [
+            2,
+            86,
+            87,
+            0,
+            1,
+            3,
+            44
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 342,
+          "positions": [
+            2,
+            86,
+            87,
+            0,
+            1,
+            3,
+            44
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 342,
+          "positions": [
+            2,
+            86,
+            87,
+            0,
+            1,
+            3,
+            44
+          ]
+        }
+      ],
+      "vectors": 19847936,
+      "worker_seconds": 2.7316613020000005
+    },
+    {
+      "above_cutoff": 14,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        4,
+        12,
+        92
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 456,
+      "profile": 0,
+      "profile_count": 14,
+      "relaxation_maximum": 708,
+      "supports": 310124,
+      "task": 14,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 2.0925097160000004
+    },
+    {
+      "above_cutoff": 8,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        4,
+        12,
+        112
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 648,
+      "profile": 0,
+      "profile_count": 8,
+      "relaxation_maximum": 708,
+      "supports": 310124,
+      "task": 15,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 1.5577376719999998
+    },
+    {
+      "above_cutoff": 8,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        4,
+        12,
+        96
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 606,
+      "profile": 1,
+      "profile_count": 8,
+      "relaxation_maximum": 606,
+      "supports": 310124,
+      "task": 16,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 1.8682084580000002
+    },
+    {
+      "above_cutoff": 6,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        2,
+        6,
+        48
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 606,
+      "profile": 1,
+      "profile_count": 14,
+      "relaxation_maximum": 606,
+      "supports": 310124,
+      "task": 17,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 2.0785850310000002
+    },
+    {
+      "above_cutoff": 6,
+      "complete": true,
+      "full_above_cutoff": 6,
+      "light": [
+        0,
+        1,
+        3,
+        88
+      ],
+      "maximum_full_m3": 606,
+      "maximum_m3": 606,
+      "profile": 1,
+      "profile_count": 14,
+      "relaxation_maximum": 606,
+      "supports": 310124,
+      "task": 18,
+      "top": [
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 606,
+          "positions": [
+            2,
+            44,
+            87,
+            0,
+            1,
+            3,
+            88
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 606,
+          "positions": [
+            2,
+            44,
+            87,
+            0,
+            1,
+            3,
+            88
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            -1,
+            1,
+            1,
+            1
+          ],
+          "m3": 438,
+          "positions": [
+            44,
+            45,
+            87,
+            0,
+            1,
+            3,
+            88
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 438,
+          "positions": [
+            44,
+            45,
+            87,
+            0,
+            1,
+            3,
+            88
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 426,
+          "positions": [
+            45,
+            86,
+            87,
+            0,
+            1,
+            3,
+            88
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "m3": 426,
+          "positions": [
+            45,
+            86,
+            87,
+            0,
+            1,
+            3,
+            88
+          ]
+        }
+      ],
+      "vectors": 19847936,
+      "worker_seconds": 2.861126447
+    },
+    {
+      "above_cutoff": 14,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        4,
+        24,
+        32
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 582,
+      "profile": 1,
+      "profile_count": 14,
+      "relaxation_maximum": 582,
+      "supports": 310124,
+      "task": 19,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 1.5362043140000001
+    },
+    {
+      "above_cutoff": 12,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        4,
+        20,
+        32
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 258,
+      "profile": 1,
+      "profile_count": 14,
+      "relaxation_maximum": 582,
+      "supports": 310124,
+      "task": 20,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 2.1444669780000005
+    },
+    {
+      "above_cutoff": 4,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        2,
+        12,
+        16
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 582,
+      "profile": 1,
+      "profile_count": 12,
+      "relaxation_maximum": 582,
+      "supports": 310124,
+      "task": 21,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 2.7261979519999997
+    },
+    {
+      "above_cutoff": 0,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        2,
+        10,
+        16
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 210,
+      "profile": 1,
+      "profile_count": 10,
+      "relaxation_maximum": 582,
+      "supports": 310124,
+      "task": 22,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 1.8579459690000002
+    },
+    {
+      "above_cutoff": 4,
+      "complete": true,
+      "full_above_cutoff": 4,
+      "light": [
+        0,
+        1,
+        6,
+        8
+      ],
+      "maximum_full_m3": 582,
+      "maximum_m3": 582,
+      "profile": 1,
+      "profile_count": 12,
+      "relaxation_maximum": 582,
+      "supports": 310124,
+      "task": 23,
+      "top": [
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "m3": 582,
+          "positions": [
+            3,
+            4,
+            5,
+            0,
+            1,
+            6,
+            8
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "m3": 582,
+          "positions": [
+            3,
+            4,
+            5,
+            0,
+            1,
+            6,
+            8
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "m3": 570,
+          "positions": [
+            2,
+            5,
+            7,
+            0,
+            1,
+            6,
+            8
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            -2,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "m3": 570,
+          "positions": [
+            2,
+            5,
+            7,
+            0,
+            1,
+            6,
+            8
+          ]
+        }
+      ],
+      "vectors": 19847936,
+      "worker_seconds": 1.9148404150000005
+    },
+    {
+      "above_cutoff": 0,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        1,
+        5,
+        8
+      ],
+      "maximum_full_m3": 210,
+      "maximum_m3": 210,
+      "profile": 1,
+      "profile_count": 10,
+      "relaxation_maximum": 582,
+      "supports": 310124,
+      "task": 24,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 2.8127776530000004
+    },
+    {
+      "above_cutoff": 24,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        4,
+        12,
+        48
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 462,
+      "profile": 1,
+      "profile_count": 24,
+      "relaxation_maximum": 570,
+      "supports": 310124,
+      "task": 25,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 2.147326096
+    },
+    {
+      "above_cutoff": 0,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        2,
+        6,
+        88
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": -1,
+      "profile": 1,
+      "profile_count": 0,
+      "relaxation_maximum": 570,
+      "supports": 310124,
+      "task": 26,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 1.9027044279999998
+    },
+    {
+      "above_cutoff": 0,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        1,
+        3,
+        44
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": -1,
+      "profile": 1,
+      "profile_count": 0,
+      "relaxation_maximum": 570,
+      "supports": 310124,
+      "task": 27,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 2.4495506139999996
+    },
+    {
+      "above_cutoff": 0,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        4,
+        20,
+        52
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": -1,
+      "profile": 1,
+      "profile_count": 0,
+      "relaxation_maximum": 564,
+      "supports": 310124,
+      "task": 28,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 2.1659812599999997
+    },
+    {
+      "above_cutoff": 2,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        4,
+        12,
+        52
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 528,
+      "profile": 1,
+      "profile_count": 2,
+      "relaxation_maximum": 564,
+      "supports": 310124,
+      "task": 29,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 2.122242732
+    },
+    {
+      "above_cutoff": 2,
+      "complete": true,
+      "full_above_cutoff": 0,
+      "light": [
+        0,
+        2,
+        6,
+        90
+      ],
+      "maximum_full_m3": -1,
+      "maximum_m3": 528,
+      "profile": 1,
+      "profile_count": 2,
+      "relaxation_maximum": 564,
+      "supports": 310124,
+      "task": 30,
+      "top": [],
+      "vectors": 19847936,
+      "worker_seconds": 1.9112919129999995
+    },
+    {
+      "above_cutoff": 2,
+      "complete": true,
+      "full_above_cutoff": 2,
+      "light": [
+        0,
+        1,
+        3,
+        45
+      ],
+      "maximum_full_m3": 528,
+      "maximum_m3": 528,
+      "profile": 1,
+      "profile_count": 2,
+      "relaxation_maximum": 564,
+      "supports": 310124,
+      "task": 31,
+      "top": [
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "m3": 528,
+          "positions": [
+            2,
+            44,
+            88,
+            0,
+            1,
+            3,
+            45
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            2,
+            2,
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "m3": 528,
+          "positions": [
+            2,
+            44,
+            88,
+            0,
+            1,
+            3,
+            45
+          ]
+        }
+      ],
+      "vectors": 19847936,
+      "worker_seconds": 2.469948233
+    }
+  ],
+  "schema": "e1-e26-six-odd-top-mask-actual-v1",
+  "source_sha256": "0262566bbd9beefe112cb207f67f8b8a877032b43648292d0575f4486ce3fdd6"
+}

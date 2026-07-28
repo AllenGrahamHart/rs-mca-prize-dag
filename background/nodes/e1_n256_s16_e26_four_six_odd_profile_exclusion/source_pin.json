@@ -1,0 +1,22 @@
+{
+  "reduction_statement_file": "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/statement.md",
+  "reduction_statement_file_sha256": "c7d8142341c68d2b03802f23814d214c1fe1ca737ee079c64039a65a7a1759e3",
+  "atlas_file": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits_result.json",
+  "atlas_file_sha256": "661ef642bdfafe5f0f261057877d2ad41b46a36b86e4167d8cb682b317e5b001",
+  "production_source_file": "experiments/prize_resolution/e26_four_six_odd_profile_census.cpp",
+  "production_source_file_sha256": "66ddacfd6197e3f9af7fca8274a29db880d8dac20b6e91b78f18fa1136356ae0",
+  "audit_source_file": "experiments/prize_resolution/e26_four_six_odd_profile_census_audit.cpp",
+  "audit_source_file_sha256": "d3ece72582ba6cb53da4badb5b1150bb6aee711997d0203a07913deebecdca58",
+  "census_driver_file": "experiments/prize_resolution/e26_four_six_odd_profile_census_modal.py",
+  "census_driver_file_sha256": "947508f88f1861bbb6220304657b56eee3957fd7dfa0c3dcae850c29ce4a843c",
+  "census_result_file": "experiments/prize_resolution/e26_four_six_odd_profile_census_result.json",
+  "census_result_file_sha256": "997c3b52217685d8e5712ed02d6614beb9c7d802b9a6435e31d53fa3d2e22e15",
+  "norm_driver_file": "experiments/prize_resolution/e26_four_six_odd_profile_norm_modal.py",
+  "norm_driver_file_sha256": "bf0bfcd097b7a66186258f41b07341146ff50512d2ce6f14fda1f0b4648df102",
+  "norm_result_file": "experiments/prize_resolution/e26_four_six_odd_profile_norm_result.json",
+  "norm_result_file_sha256": "7a7a4a479788670dbad55825774dac4b9094445f97a1f1e84fe643d2193ee6ea",
+  "conductor_statement_file": "background/nodes/e1_n256_proper_conductor_collision_exclusion/statement.md",
+  "conductor_statement_file_sha256": "4319261b9d388351f2980fd4f849d7fae4876a6e5db167c74467ea957a055d73",
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566"
+}

@@ -1,0 +1,16 @@
+{
+  "probe_source_file": "background/nodes/e1_n256_s16_e27_profile_parity_light_reduction/notes/e27_profile_parity_probe_modal.py",
+  "probe_source_file_sha256": "851ec2ab91f9fde06dc74026f2e6b25d5190044bc24627350c111f1791a45b80",
+  "probe_result_file": "background/nodes/e1_n256_s16_e27_profile_parity_light_reduction/notes/e27_profile_parity_probe_result.json",
+  "probe_result_file_sha256": "4e56ce3dcd83b8df411497615b7857f8ffa25c0a291bfa6257a2d11ae0992f46",
+  "independent_check_file": "background/nodes/e1_n256_s16_e27_profile_parity_light_reduction/notes/e27_profile_parity_probe_check.py",
+  "independent_check_file_sha256": "925a917a54c74617b27cd035f0f5bf13c04c6ef019e997cdf870a2a215e776e4",
+  "endpoint_file": "background/nodes/e1_n256_s16_e28_endpoint_exclusion/statement.md",
+  "endpoint_file_sha256": "d50732e7b2267c4f0bcd8f80a4e2d14d0435ae77a3e47403f530955a36240ff1",
+  "variance_parent_verify_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py",
+  "variance_parent_verify_file_sha256": "57b7a0f2d8590bda9234f4fb5bc0a573afd56200436458121767489fc5091f8e",
+  "signed_chord_file": "background/nodes/e1_n256_s16_signed_chord_collision_gate/statement.md",
+  "signed_chord_file_sha256": "926f9c94a0b5dd0830b7e37fafcd96f570dd93802de16061c802546e466e3157",
+  "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
+  "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566"
+}

@@ -4830,3 +4830,518 @@ route decision: extend the odd-mask method to (6,6) and (5,4,1), but replace
                 not run either direct vector census and do not descend to
                 V=58.
 ```
+
+**2026-07-27, profile `(5,4,1)` structured close:** an exact cubic optimizer
+over the even layer reduces 2.924 billion abstract assignments to 321 light
+orbits, after which two independent actual-vector engines and two independent
+resultant engines close the profile.
+
+```text
+node attacked: N=256, V=60 profile (5,4,1)
+odd-set identity: b = 1_O + 2*1_(P union E), where O is the symmetric
+                  six-difference set of the four light positions,
+                  |P/+-|=1 inside O, |E/+-|=4 outside O
+normalized six-odd supports: 280,720
+distinct odd masks modulo odd units: 1,234; exactly one affine light-support
+                                      orbit per mask
+orbit-atlas app: ap-gydIct2AQV7tjgwU9nH0Xb; 1.620819 aggregate worker-seconds
+relaxation assignments: 1234*6*binom(57,4)=2,924,654,040
+production relaxation: ap-xt8CzSXbM9zdtJ7QFkPsou,
+                       40.135081 aggregate worker-seconds
+audit relaxation: ap-ek9XQdOs4gck36Cji9TX9h,
+                  40.844229 aggregate worker-seconds
+independent agreement: all 64 shards, 1,456 above-cutoff assignments,
+                       321 exceptional light orbits, maximum M_3=1278
+production actual census: ap-Rib373enlZ4XZYrLYvi353,
+                          810.405329 aggregate worker-seconds
+audit actual census: ap-qotcG4Gq0XxspTOe5jWxhZ,
+                     1193.826166 aggregate worker-seconds
+actual coverage per engine: 321*binom(124,3)*64=6,371,187,456 vectors
+independent actual agreement: 45,846 profile vectors; 440 above cutoff;
+                              86 full conductor; maximum M_3=1278
+proper conductor: the complementary 354 vectors are excluded by the existing
+                  conductor theorem
+norm app: ap-ac61MPIVeEN9CWlcxSt4Zf; FLINT and PARI/GP agree on all 86 vectors
+distinct norms: 42
+exact maximum: 147314768947604483837877250659211387932426327951806688176613401078756416516
+strict margin: 12*N_max<2^250<13*N_max; bit length 247
+result: profile (5,4,1) CLOSED
+live V=60 residual: (6,6) only
+new assumptions: none
+route decision: solve the six-even-class optimization for (6,6), preserving
+                the 1,234-mask reduction. Do not run its 21.77-billion-vector
+                direct census and do not descend to V=58.
+```
+
+**2026-07-27, profile `(6,6)` and E30 endpoint close:** the measured
+per-template cost made a complete exceptional-mask census inexpensive on
+Modal. Independent relaxations, independent actual-vector engines, conductor,
+and independent exact norms close the final profile and the whole chamber.
+
+```text
+node attacked: N=256, V=60 profile (6,6)
+odd-set identity: b = 1_O + 2*1_E, where O is the symmetric six-difference
+                  light set and E is six classes outside O
+relaxation assignments: 1234*binom(57,6)=44,779,702,968 per engine
+relaxation production: ap-R8qZ3NFpBLlaSCjEPobazm; signed zero-sum kernel;
+                       100.879807 aggregate worker-seconds
+relaxation audit: ap-HhZLnYkj1E6sx207Qc1FwO; cyclic base vectors, pair sums,
+                  three-plus-three decomposition; 79.819110 worker-seconds
+exact relaxation agreement: all 1,234 rows; 33,737 exceptions on 1,191 masks;
+                            maximum M_3=1542
+actual production: ap-tzoEgc0dyKoBc3yghLmKLF; folded oriented chords;
+                   2,781.809284 aggregate worker-seconds
+actual audit: ap-NXOjRlg7idEiFtq2ALTgxX checkpointed 864/1191 at launcher wall;
+              ap-BZCZ0tCpInuxZwZoxLl7V4 resumed the remaining 327 only;
+              4,240.754407 aggregate worker-seconds over the complete packet
+actual coverage per engine: 1191*binom(124,3)*64=23,638,891,776 vectors
+exact actual agreement: 240,672 profile vectors; 6,244 above cutoff;
+                        1,232 full conductor; maxima 1530/1338
+proper conductor: complementary 5,012 exceptions discharged by the existing
+                  conductor theorem
+norm app: ap-BngTsJiGLxbGZxPkOOPRU6; batched FLINT and PARI/GP
+norm agreement: all 1,232 vectors; 575 distinct norms
+exact maximum: 384340001363476246612319029755636117549080229904040014178244445877664108548
+strict margin: 4*N_max<2^250<5*N_max; bit length 248
+result: profile (6,6) CLOSED; V=60 endpoint CLOSED
+live positive even variance frontier: V<=58
+new assumptions: none
+route decision: derive the exact E29 slack/profile/parity reduction before any
+                V=58 census; compare its expected cost and structural leverage
+                against the 419-cofactor (4,2,0) lane. Never rerun V>=60.
+```
+
+**2026-07-27, E29 reduction and V=58 endpoint close:** odd diameter parity
+makes the next chamber substantially smaller. A complete 111-template census,
+independent direct audit, conductor split, and dual exact-resultant ledger
+close all eight profiles without a speculative dependency.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=58 (E=29)
+reduction app: ap-cStwZGv722wX16Xv1IwVyb
+slack result: L<=17; exactly 17 energy profiles
+exact cubic cutoff: M_3=872; certified sign change at 872/873
+parity fact: D_64 odd, hence exactly one light-light diameter
+above-cutoff profiles: 13
+parity survivors: (5,6), (1,7), (4,4,1), (0,5,1), (3,2,2),
+                  (5,2,0,1), (2,0,3), (1,3,0,1)
+complete one-diameter atlas:
+  odd 1: 264 supports, 11 affine orbits, partition (2,2,1)
+  odd 3: 960 supports, 8 affine orbits, partition (2,1,1,1)
+  odd 5: 14,400 supports, 100 affine orbits, partition (1,1,1,1,1)
+relevant router: 11+100=111 affine light templates
+diameter ledger: (D_64,C)=(1,-36),(5,-34),(9,-32),(17,-28),(21,-26)
+production app: ap-bK8FgTfXIIVwtoGo3F2n5X; folded oriented chords;
+                281.417969 aggregate worker-seconds
+audit app: ap-3A3ZpIs4p0CuKplBr3VyfX; direct negacyclic products;
+           443.275135 aggregate worker-seconds
+coverage per engine: 111*binom(124,3)*64=2,203,120,896 vectors
+exact row agreement: 61,408 vectors in the eight profiles;
+                     4,812 above M_3=872; 820 full conductor
+proper conductor: complementary 3,992 exceptions discharged by theorem
+norm app: ap-Lr43rWTE9sjJ7D87pDRgvj; FLINT and PARI/GP agree on all 820
+distinct norms: 242
+exact maximum: 186828941137106397532470537651505306486275228904728704307636700572095315972
+strict margin: 9*N_max<2^250<10*N_max; bit length 247
+result: all eight profiles CLOSED; V=58 endpoint CLOSED
+live positive even variance frontier: V<=56
+new assumptions: none
+route decision: derive the exact E28 slack/profile/parity reduction before any
+                V=56 census, then compare its finite cost against the
+                419-cofactor (4,2,0) lane. Never rerun V>=58.
+```
+
+**2026-07-27, E28 reduction and V=56 endpoint close:** the exact reduction
+reuses the proved four-odd atlas and needs only 154 affine templates. Two
+complete census engines and two exact resultant systems close the chamber.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=56 (E=28)
+successful reduction app: ap-BEcZIXOVjDX7VcTVMin3Bd
+discarded launch: ap-O0c99UzKohFBiFyJrHkEkS failed during module import and
+                  executed no mathematical task
+slack result: L<=16; exactly 14 energy profiles
+exact cubic cutoff: M_3=658; certified sign change at 658/659
+parity survivors: (4,6), (0,7), (3,4,1), (2,2,2), (4,2,0,1),
+                  (1,0,3), (0,3,0,1), (3,0,1,1)
+zero-odd branch: 63 antipodal-pair supports in six affine orbits
+four-odd branch: 28,800 supports in the proved 148-orbit wedge atlas
+relevant router: 6+148=154 affine light templates
+production app: ap-PQuIHM0okhzDOzZI6rgd4Y; folded oriented chords;
+                417.141898 aggregate worker-seconds
+audit app: ap-ZWrJEBdrWedbKw7pdza9ho; direct negacyclic products;
+           625.422659 aggregate worker-seconds
+coverage per engine: 154*binom(124,3)*64=3,056,582,144 vectors
+exact row agreement: 48,716 vectors in the eight profiles;
+                     12,638 above M_3=658; 4,372 full conductor
+proper conductor: complementary 8,266 exceptions discharged by theorem
+norm app: ap-0LbmLFyAQLcHe8swtJKntb; FLINT and PARI/GP agree on all 4,372
+distinct norms: 1,723
+exact maximum: 296015175952529502165108365809577184284217843110959136601469787066321741314
+strict margin: 6*N_max<2^250<7*N_max; bit length 248
+result: all eight profiles CLOSED; V=56 endpoint CLOSED
+live positive even variance frontier: V<=54
+new assumptions: none
+route decision: derive the exact E27 slack/profile/parity reduction before any
+                V=54 census and compare its router size against the
+                419-cofactor (4,2,0) lane. Never rerun V>=56.
+```
+
+**2026-07-27, E27 reduction and V=54 endpoint close:** parity collapses the
+next chamber to the eight-template three-odd atlas. Two complete census
+engines and two exact resultant systems close it at negligible cost.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=54 (E=27)
+reduction app: ap-uT47ZBzFbCYqTmdbn7zG1I
+slack result: L<=15; exactly 12 energy profiles
+exact cubic cutoff: M_3=443; certified sign change at 443/444
+parity survivors: (3,6), (2,4,1), (1,2,2), (3,2,0,1),
+                  (0,0,3), (2,0,1,1)
+three-odd branch: 960 normalized supports in eight affine orbits
+production app: ap-TQfwKsNXu1kB9LO9TAgZT6; folded oriented chords;
+                19.015265 aggregate worker-seconds
+audit app: ap-a7WhPP5KNGWSOf96KvBtw7; direct negacyclic products;
+           30.721920 aggregate worker-seconds
+coverage per engine: 8*binom(124,3)*64=158,783,488 vectors
+exact row agreement: 4,124 vectors in the six profiles;
+                     2,000 above M_3=443; 404 full conductor
+proper conductor: complementary 1,596 exceptions discharged by theorem
+norm app: ap-OfeHk15LrirQxEKgld7vBk; FLINT and PARI/GP agree on all 404
+distinct norms: 144
+exact maximum: 172876856486553232403068097247779856553359362267270754177943490636016856066
+strict margin: 10*N_max<2^250<11*N_max; bit length 247
+result: all six profiles CLOSED; V=54 endpoint CLOSED
+live positive even variance frontier: V<=52
+new assumptions: none
+route decision: derive the exact E26 slack/profile/parity reduction before any
+                V=52 census and compare its router size against the
+                419-cofactor (4,2,0) lane. Never rerun V>=54.
+```
+
+**2026-07-27, E26 reduction and two-odd branch close:** the exact reduction
+finds a sharp route boundary. The bounded two-odd branch is completely paid;
+the six-odd branch is too large for an undifferentiated census and remains the
+live endpoint.
+
+```text
+starting local pin: ab709d27
+canonical prize pin: b60ec497
+upstream main pin: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
+relevant live upstream PR: #1110 (E1 first-band variance route boundary)
+node attacked: N=256, folded profile (3,4,0), V=52 (E=26)
+reduction app: ap-6FCOpigQ0DnR00JZXFRPB5
+discarded reduction app: ap-7jev6lqubs6DibhWhq1kBo failed before writing a
+                         result packet and supplies no evidence
+slack result: L<=16; exactly 13 energy profiles
+exact cubic cutoff: M_3=228; certified sign change at 228/229
+parity survivors: six two-odd profiles and four six-odd profiles
+two-odd atlas: 8,168 normalized supports in 87 affine orbits
+six-odd atlas: 280,720 normalized supports in 1,234 affine orbits
+direct router floor: 26,219,123,456 vectors per engine
+discarded census app: ap-58gqxzADkt6TRnH4o03zey failed at worker import,
+                      completed 0/87 tasks, and supplies no evidence
+production app: ap-TcZRS6xma3n8xdyUiNOg8b; 247.467486 worker-seconds
+audit app: ap-jP3CZ7pvZjaZ20jDUQ8LSF; 323.193324 worker-seconds
+two-odd coverage per engine: 87*binom(124,3)*64=1,726,770,432 vectors
+exact row agreement: 27,380 profile vectors; 17,624 above M_3=228;
+                     8,060 full conductor
+proper conductor: complementary 9,564 exceptions discharged by theorem
+norm app: ap-R4vDRzg2rsb0k2gJD2xmqB; FLINT and PARI/GP agree on all 8,060
+distinct norms: 1,442
+exact maximum: 902560312161452055740126650872074695232473707768299835426377069738129096704
+strict margin: 2*N_max<2^250<3*N_max; bit length 249
+result: six two-odd profiles CLOSED; V=52 endpoint remains OPEN
+live residual: (6,5), (5,3,1), (4,1,2), (6,1,0,1)
+six-odd direct floor: 1,234*binom(124,3)*64=24,492,353,024 vectors per engine
+new assumptions: none
+route decision: do not brute-force the six-odd chamber. Reuse the exact
+                odd-mask, quotient, and norm structure from E30 to seek a
+                profile-specific relaxation or algebraic exclusion.
+```
+
+**2026-07-27, E26 six-odd branch and V=52 endpoint close:** two cheap
+structural relaxations failed to shrink the template axis, but a bounded
+top-mask pilot showed the actual-vector engine was fast enough to justify a
+single complete dual pass. The resulting exact certificate closes the whole
+branch.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=52 (E=26), six-odd branch
+odd-mask relaxation: every one of 1,234 masks survives for both tested cheap
+                     profiles; maxima 870 and 606 exceed M_3=228
+quotient relaxation maxima at orders 128/64:
+  (6,5) 1282/1248; (5,3,1) 1062/1054;
+  (4,1,2) 870/870; (6,1,0,1) 734/732
+route decision from no-go probes: quotient and magnitude-only relaxations do
+                                  not close or materially shrink the branch
+top-mask pilot app: ap-L2vmgKMlAx8lsHkCxmzySB; 32 masks;
+                    635,133,952 vectors; 44 primitive cubic exceptions
+pilot norm app: ap-sSRw4M4r3Lo3CFYJzKwm74; dual agreement; no norm >=2^250
+discarded census app: ap-Jq5ilys1UDMuhHb04wAVdk failed at remote import;
+                      completed 0/1,234+0/1,234 and supplies no evidence
+complete census app: ap-w01euXu1uuSZMynixEsU9m
+coverage per engine: 1,234*binom(124,3)*64=24,492,353,024 vectors
+independent engines: folded oriented chords and direct negacyclic products
+exact row agreement: 78,848 profile vectors; 74,614 above M_3=228;
+                     45,408 full conductor
+proper conductor: complementary 29,206 exceptions discharged by theorem
+norm app: ap-B13nYXtQQsbfCqFKDPTeUr; FLINT and PARI/GP agree on all 45,408
+distinct norms: 20,636
+exact maximum: 1139098407599461804511111865916270680930143333943822578584573946997885235216
+strict margin: N_max<2^250<2*N_max; bit length 250
+result: all four six-odd profiles CLOSED; V=52 endpoint CLOSED
+live positive even variance frontier: V<=50
+new assumptions: none
+route decision: derive the exact E25 slack/profile/parity/light reduction and
+                quantify its router before authorizing any V=50 census.
+                Never rerun V>=52.
+```
+
+**2026-07-27, E25 reduction and V=50 endpoint close:** this is the last live
+even level for the fixed cubic-Hermite majorant. The cutoff is tiny, but the
+actual-vector and exact-norm remainders remain bounded and close completely.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=50 (E=25)
+failed route app: ap-0xK5g91qR7LZzevi5tScu5 failed at remote import;
+                  completed no computation and supplies no evidence
+reduction app: ap-Bmu0kinryPMCm1zYI5CWas
+slack result: L<=15; exactly 12 energy profiles
+exact cubic cutoff: M_3=13; certified sign change at 13/14
+parity survivors: nine profiles; five one-odd and four five-odd
+light atlas: 264+14,400 normalized supports in 11+100=111 affine orbits
+coverage per engine: 111*binom(124,3)*64=2,203,120,896 vectors
+census app: ap-GPkfA9swDimrWIrdVL3u7Z
+independent engines: folded oriented chords and direct negacyclic products
+exact row agreement: 31,686 profile vectors; 31,280 above M_3=13;
+                     16,984 full conductor
+proper conductor: complementary 14,296 exceptions discharged by theorem
+norm app: ap-P7nLJ3MSSHmUrHb9P2RSoX; FLINT and PARI/GP agree on all 16,984
+distinct norms: 3,727
+exact maximum: 689346143769176281255733260656192958605975198224651023251426809106119000068
+strict margin: 2*N_max<2^250<3*N_max; bit length 249
+result: all nine profiles CLOSED; V=50 endpoint CLOSED
+live positive even variance frontier: V<=48
+new assumptions: none
+route boundary: local PROVED node e1_first_band_variance_route_boundary,
+                imported exactly from PR #1110 at 52775686, proves the fixed
+                majorant has negative optimistic margin even at M_3=0 for
+                every even V<=48; it closes no variance level
+route decision: derive the exact E24 profile/parity/light router without a
+                cubic cutoff. Price a count-only actual-vector pass before
+                retaining every primitive vector for direct exact norms.
+                Never rerun V>=50.
+```
+
+**2026-07-27, E24 cutoff-free route and V=48 endpoint close:** the first level
+below the fixed-majorant boundary closes by geometry, conductor, and direct
+exact norms.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=48 (E=24)
+discarded apps: ap-BllzyqghssXfECvbtq14LT failed during remote import;
+                ap-fs6qDeT2zhk2cNUY23gOpQ hit an out-of-range diagnostic;
+                neither wrote a result packet or supplies evidence
+reduction app: ap-BHdqdt3NzeCkN5oPfwNwAo
+slack result: L<=14; exactly nine energy profiles
+majorant policy: not invoked; its optimistic margin is negative at M_3=0
+parity survivors: two zero-odd and four four-odd profiles
+light atlas: 28,863 normalized supports in 6+148=154 affine templates
+coverage per engine: 154*binom(124,3)*64=3,056,582,144 vectors
+count app: ap-k55Y5gyShllfB8hQqHCwQ1; dual engines agree exactly
+actual profiles: [10878,0,2780,306,452,0], total 14,416
+full conductor: [5870,0,836,30,98,0], total 6,834
+proper conductor: complementary 7,582 vectors discharged by theorem
+collector app: ap-YUhoRVWWVQcb1O5XcckRAp; dual vector agreement
+norm app: ap-3hh9iFYztMHpgVSG9ydtd6; FLINT/PARI agreement on all 6,834
+distinct norms: 2,684
+exact maximum: 934000596876556404040131946795508791323292938762264172037712523409677324304
+strict margin: N_max<2^250<2*N_max; bit length 250
+result: all six profiles CLOSED; V=48 endpoint CLOSED
+live positive even variance frontier: V<=46
+new assumptions: none
+route decision: derive the exact cutoff-free E23 (V=46) router and price its
+                actual-vector residue. Never rerun V>=48.
+```
+
+**2026-07-27, E23 cutoff-free route and V=46 endpoint close:** odd diameter
+parity collapses the next chamber to the eight-template repeated-chord atlas.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=46 (E=23)
+reduction app: ap-GuKw0MZUMz3HlWbFd7G2uw
+slack result: L<=13; exactly seven energy profiles
+majorant policy: not invoked
+parity survivors: four three-odd profiles on 960 normalized supports
+light atlas: eight affine templates
+coverage per engine: 8*binom(124,3)*64=158,783,488 vectors
+census app: ap-v5PL88R8Ux130XBREm4eA1; dual exact engine agreement
+actual profiles: [1176,522,46,144], total 1,888
+full conductor: [352,108,0,24], total 484
+proper conductor: complementary 1,404 vectors discharged by theorem
+norm app: ap-4g3qQD2QBjTJtojanosSzw; FLINT/PARI agreement on all 484
+distinct norms: 176
+exact maximum: 721495288731652690472090495266069052907254127194382380048009480013819013124
+strict margin: 2*N_max<2^250<3*N_max; bit length 249
+result: all four profiles CLOSED; V=46 endpoint CLOSED
+live positive even variance frontier: V<=44
+new assumptions: none
+route decision: derive the exact cutoff-free E22 (V=44) router. Never rerun
+                V>=46.
+```
+
+**2026-07-27, E22 cutoff-free route and V=44 endpoint close:** even diameter
+parity reopens the two/six-odd atlases, but count-only routing keeps the exact
+residue small enough for direct norms.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=44 (E=22)
+reduction app: ap-R4qgQHRIHJgTwquZvDY2X9
+slack result: L<=14; exactly nine energy profiles
+majorant policy: not invoked
+parity result: (9,1,1) rejected; four two-odd and four six-odd survivors
+light atlas: 288,888 normalized supports in 87+1,234=1,321 templates
+coverage per engine: 1,321*binom(124,3)*64=26,219,123,456 vectors
+discarded count app: ap-P1qQjalsb356Myrg2vdPGB failed during remote import;
+                     completed no template and supplies no evidence
+count app: ap-dpRsXRNVjQZefmrwM9Z1kz; dual exact engine agreement;
+           7,919.618 aggregate dual worker-seconds
+actual profiles: [15924,5228,4532,1096,790,22,104,302], total 27,998
+full conductor: [9688,2550,2074,242,368,0,28,52], total 15,002
+proper conductor: complementary 12,996 vectors discharged by theorem
+collector app: ap-Z4JCbeBxhxRPjAlBxbUvLV; dual vector agreement;
+               7,774.627 aggregate dual worker-seconds
+norm app: ap-hxfrf1vAUiZNYnbuVtAfNZ; FLINT/PARI agreement on all 15,002
+distinct norms: 5,991
+exact maximum: 1336721602285440319478157639166117651370659494817695620407452489394658888194
+strict margin: N_max<2^250<2*N_max; bit length 250
+result: all eight profiles CLOSED; V=44 endpoint CLOSED
+live positive even variance frontier: V<=42
+new assumptions: none
+route decision: derive the exact cutoff-free E21 (V=42) router. Never rerun
+                V>=44.
+```
+
+**2026-07-28, E21 cutoff-free route and V=42 endpoint close:** odd diameter
+parity returns to the small one/five-odd atlas, and the complete exact residue
+again fits direct dual norms.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=42 (E=21)
+discarded reduction app: ap-WheEh8ejQUWcxI3NrF52Iu failed before producing
+                         a route packet and supplies no evidence
+reduction app: ap-xmWUTZrP3C8A1Q5ZTdWInc
+slack result: L<=13; exactly eight energy profiles
+majorant policy: not invoked
+parity result: (8,1,1) rejected; three one-odd and four five-odd survivors
+light atlas: 14,664 normalized supports in 11+100=111 templates
+coverage per engine: 111*binom(124,3)*64=2,203,120,896 vectors
+count app: ap-sB6bBUn8fAtNRenTKaRqGa; dual exact engine agreement;
+           684.456 aggregate dual worker-seconds
+actual profiles: [6400,1676,1658,252,348,44,76], total 10,454
+full conductor: [3608,488,456,16,68,4,0], total 4,640
+proper conductor: complementary 5,814 vectors discharged by theorem
+collector app: ap-8y0cQsyAvpSx8Is0Athw8k; dual vector agreement;
+               684.327 aggregate dual worker-seconds
+norm app: ap-F5Bs9JuuZRpjReqxeTSNIE; FLINT/PARI agreement on all 4,640
+distinct norms: 1,365
+exact maximum: 1067431210213337343847285566520999617146298326197261566762764923557911188994
+strict margin: N_max<2^250<2*N_max; bit length 250
+result: all seven profiles CLOSED; V=42 endpoint CLOSED
+live positive even variance frontier: V<=40
+new assumptions: none
+route decision: derive the exact cutoff-free E20 (V=40) router and price its
+                actual-vector residue. Never rerun V>=42.
+```
+
+**2026-07-28, E20 cutoff-free route and V=40 endpoint close:** even diameter
+parity reduces the chamber to the zero/four-odd atlas, and the exact residue
+is smaller than at either of the preceding even endpoints.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=40 (E=20)
+discarded reduction app: ap-8UFxz5tQyXEHmOzAK1rLmQ failed before producing
+                         a route packet and supplies no evidence
+reduction app: ap-xzC1R27IwAsKJ1lyw6A0kW
+slack result: L<=12; exactly seven energy profiles
+majorant policy: not invoked
+parity result: (7,1,1) rejected; two zero-odd and four four-odd survivors
+light atlas: 28,863 normalized supports in 6+148=154 templates
+coverage per engine: 154*binom(124,3)*64=3,056,582,144 vectors
+count app: ap-iegnpEhh0V6js6IkkcDEWr; dual exact engine agreement;
+           952.816 aggregate dual worker-seconds
+actual profiles: [2588,2160,888,52,34,704], total 6,426
+full conductor: [1090,544,194,8,0,64], total 1,900
+proper conductor: complementary 4,526 vectors discharged by theorem
+collector app: ap-18QcozEhrOO0MkhBtr6sTU; dual vector agreement;
+               964.815 aggregate dual worker-seconds
+norm app: ap-WGuf8zhWii313tpUoMUdWG; FLINT/PARI agreement on all 1,900
+distinct norms: 526
+exact maximum: 1047057848181589561057910777870710713025120091730047736000219719807296950274
+strict margin: N_max<2^250<2*N_max; bit length 250
+result: all six profiles CLOSED; V=40 endpoint CLOSED
+live positive even variance frontier: V<=38
+new assumptions: none
+route decision: derive the exact cutoff-free E19 (V=38) router and price its
+                actual-vector residue. Never rerun V>=40.
+```
+
+**2026-07-28, E19 cutoff-free route and V=38 endpoint close:** odd diameter
+parity reduces the chamber to the one-diameter three-odd atlas, and the full
+actual-vector residue closes by conductor and exact norms.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=38 (E=19)
+reduction app: ap-9mBPqJQyYGcOTtaHQ1AEXz
+slack result: L<=11; exactly five energy profiles
+majorant policy: not invoked
+parity result: (6,1,1) rejected; four three-odd survivors
+light atlas: 960 normalized supports in 8 affine templates
+coverage per engine: 8*binom(124,3)*64=158,783,488 vectors
+census app: ap-42XirNxhFdMDLcgSyAoyqK; dual exact engine agreement;
+            45.217 aggregate dual worker-seconds
+actual profiles: [370,182,10,12], total 574
+full conductor: [112,24,0,0], total 136
+proper conductor: complementary 438 vectors discharged by theorem
+norm app: ap-qH9fzHkBAjTdTeWWEgJ7iN; FLINT/PARI agreement on all 136
+distinct norms: 40
+exact maximum: 1096349292027446593481621675930218905147073043465918102751396673154250061826
+strict margin: N_max<2^250<2*N_max; bit length 250
+result: all four profiles CLOSED; V=38 endpoint CLOSED
+live positive even variance frontier: V<=36
+new assumptions: none
+route decision: derive the exact cutoff-free E18 (V=36) router and price its
+                actual-vector residue. Never rerun V>=38.
+```
+
+**2026-07-28, E18 cutoff-free route and V=36 endpoint close:** even diameter
+parity reduces the chamber to the two/six-odd atlases. The whole-norm cutoff
+fails for the first time, but the exact odd-part criterion closes the residue.
+
+```text
+node attacked: N=256, folded profile (3,4,0), V=36 (E=18)
+reduction app: ap-YxeY4JsxalEEMItNl8DQOC
+slack result: L<=12; exactly seven energy profiles
+majorant policy: not invoked
+parity result: (9,0,1) rejected; six two/six-odd survivors
+light atlas: 288,888 normalized supports in 87+1234=1,321 templates
+coverage per engine: 1321*binom(124,3)*64=26,219,123,456 vectors
+census app: ap-87cpQMjvYyW2nYdoZpL6Uz; dual exact engine agreement;
+            7,712.034 aggregate dual worker-seconds
+actual profiles: [2410,3096,842,208,4,152], total 6,712
+full conductor: [1100,1622,226,18,0,28], total 2,994
+proper conductor: complementary 3,718 vectors discharged by theorem
+superseded norm diagnostic: ap-u5Kj4NOzDFQPwSB1TLUNdT
+final norm app: ap-k5DWA74ZUKZK3N03ngNeEP; FLINT/PARI agreement on all 2,994
+distinct norms: 895
+exact whole-norm maximum: 3244660049331064070204285700733501169431397018164712582311239362105072116226
+whole norms at or above 2^250: 6 (strong shortcut REFUTED)
+exact odd-part maximum: 1622330024665532035102142850366750584715698509082356291155619681052536058113
+strict odd margin: odd_max<2^250<2*odd_max; odd threshold hits 0
+result: all six profiles CLOSED; V=36 endpoint CLOSED
+live positive even variance frontier: V<=34
+new assumptions: none
+route decision: derive the exact cutoff-free E17 (V=34) router and price its
+                actual-vector residue. Never rerun V>=36.
+```

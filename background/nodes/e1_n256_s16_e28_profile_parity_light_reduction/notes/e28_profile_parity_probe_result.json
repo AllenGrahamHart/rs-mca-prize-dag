@@ -1,0 +1,721 @@
+{
+  "above_cutoff": [
+    {
+      "cap": 1592,
+      "l1": 16,
+      "odd_classes": 4,
+      "profile": [
+        4,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1456,
+      "l1": 16,
+      "odd_classes": 8,
+      "profile": [
+        7,
+        3,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1456,
+      "l1": 14,
+      "odd_classes": 0,
+      "profile": [
+        0,
+        7,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1344,
+      "l1": 16,
+      "odd_classes": 12,
+      "profile": [
+        10,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1316,
+      "l1": 14,
+      "odd_classes": 4,
+      "profile": [
+        3,
+        4,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1208,
+      "l1": 16,
+      "odd_classes": 12,
+      "profile": [
+        12,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 1200,
+      "l1": 14,
+      "odd_classes": 8,
+      "profile": [
+        6,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1088,
+      "l1": 12,
+      "odd_classes": 4,
+      "profile": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1056,
+      "l1": 14,
+      "odd_classes": 8,
+      "profile": [
+        8,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 936,
+      "l1": 12,
+      "odd_classes": 4,
+      "profile": [
+        4,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 908,
+      "l1": 10,
+      "odd_classes": 4,
+      "profile": [
+        1,
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 848,
+      "l1": 10,
+      "odd_classes": 0,
+      "profile": [
+        0,
+        3,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 764,
+      "l1": 10,
+      "odd_classes": 4,
+      "profile": [
+        3,
+        0,
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "atlas_inputs": {
+    "0": {
+      "affine_orbits": 6,
+      "normalized_supports": 63
+    },
+    "2": {
+      "affine_orbits": 87,
+      "normalized_supports": 8168
+    },
+    "4": {
+      "affine_orbits": 148,
+      "normalized_supports": 28800
+    },
+    "6": {
+      "affine_orbits": 1234,
+      "normalized_supports": 280720
+    }
+  },
+  "atlas_sha256": {
+    "2": "6ba7acb9e680f115b7c6121615748b00fa68a6adee005bb750094fea73ce5759",
+    "4": "daaf781348f8b691c959c6172e900a6791b00904a6131c60c16f7d98eeec7e98",
+    "6": "661ef642bdfafe5f0f261057877d2ad41b46a36b86e4167d8cb682b317e5b001"
+  },
+  "complete": true,
+  "cubic_boundary": [
+    {
+      "certified_sign": 1,
+      "coefficient_log2": "-605625/2544224",
+      "form": [
+        "73771/79507",
+        "5736/79507",
+        "-8052/245917"
+      ],
+      "moment": 658
+    },
+    {
+      "certified_sign": -1,
+      "coefficient_log2": "-605497/2544224",
+      "form": [
+        "73773/79507",
+        "5734/79507",
+        "-2539/77658"
+      ],
+      "moment": 659
+    }
+  ],
+  "cubic_cutoff": 658,
+  "diameter_ledgers": {
+    "two_light_diameters": [
+      [
+        2,
+        -36
+      ],
+      [
+        18,
+        -28
+      ]
+    ],
+    "zero_light_diameters": [
+      [
+        0,
+        -37
+      ],
+      [
+        4,
+        -35
+      ],
+      [
+        8,
+        -33
+      ],
+      [
+        12,
+        -31
+      ],
+      [
+        16,
+        -29
+      ],
+      [
+        20,
+        -27
+      ]
+    ]
+  },
+  "direct_vector_floor": 3056582144,
+  "energy": 28,
+  "l1_bound": 16,
+  "light_geometry": {
+    "signatures": {
+      "[0, 2]": 8168,
+      "[0, 4]": 28800,
+      "[0, 6]": 280720,
+      "[1, 1]": 264,
+      "[1, 3]": 960,
+      "[1, 5]": 14400,
+      "[2, 0]": 63
+    },
+    "zero_odd_orbits": [
+      [
+        0,
+        1,
+        64,
+        65
+      ],
+      [
+        0,
+        2,
+        64,
+        66
+      ],
+      [
+        0,
+        4,
+        64,
+        68
+      ],
+      [
+        0,
+        8,
+        64,
+        72
+      ],
+      [
+        0,
+        16,
+        64,
+        80
+      ],
+      [
+        0,
+        32,
+        64,
+        96
+      ]
+    ]
+  },
+  "parity_survivors": [
+    {
+      "cap": 1592,
+      "l1": 16,
+      "odd_classes": 4,
+      "profile": [
+        4,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1456,
+      "l1": 14,
+      "odd_classes": 0,
+      "profile": [
+        0,
+        7,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1316,
+      "l1": 14,
+      "odd_classes": 4,
+      "profile": [
+        3,
+        4,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1088,
+      "l1": 12,
+      "odd_classes": 4,
+      "profile": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 936,
+      "l1": 12,
+      "odd_classes": 4,
+      "profile": [
+        4,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 908,
+      "l1": 10,
+      "odd_classes": 4,
+      "profile": [
+        1,
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 848,
+      "l1": 10,
+      "odd_classes": 0,
+      "profile": [
+        0,
+        3,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 764,
+      "l1": 10,
+      "odd_classes": 4,
+      "profile": [
+        3,
+        0,
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "profile_count": 14,
+  "profiles": [
+    {
+      "cap": 1592,
+      "l1": 16,
+      "odd_classes": 4,
+      "profile": [
+        4,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1456,
+      "l1": 16,
+      "odd_classes": 8,
+      "profile": [
+        7,
+        3,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1456,
+      "l1": 14,
+      "odd_classes": 0,
+      "profile": [
+        0,
+        7,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1344,
+      "l1": 16,
+      "odd_classes": 12,
+      "profile": [
+        10,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1316,
+      "l1": 14,
+      "odd_classes": 4,
+      "profile": [
+        3,
+        4,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1208,
+      "l1": 16,
+      "odd_classes": 12,
+      "profile": [
+        12,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 1200,
+      "l1": 14,
+      "odd_classes": 8,
+      "profile": [
+        6,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1088,
+      "l1": 12,
+      "odd_classes": 4,
+      "profile": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1056,
+      "l1": 14,
+      "odd_classes": 8,
+      "profile": [
+        8,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 936,
+      "l1": 12,
+      "odd_classes": 4,
+      "profile": [
+        4,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 908,
+      "l1": 10,
+      "odd_classes": 4,
+      "profile": [
+        1,
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 848,
+      "l1": 10,
+      "odd_classes": 0,
+      "profile": [
+        0,
+        3,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 764,
+      "l1": 10,
+      "odd_classes": 4,
+      "profile": [
+        3,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "cap": 448,
+      "l1": 8,
+      "odd_classes": 4,
+      "profile": [
+        3,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "relevant_affine_templates": 154,
+  "schema": "e1-e28-profile-parity-route-probe-v1",
+  "slack_trace": [
+    [
+      23,
+      2,
+      56
+    ],
+    [
+      22,
+      6,
+      52
+    ],
+    [
+      21,
+      10,
+      48
+    ],
+    [
+      20,
+      14,
+      44
+    ],
+    [
+      19,
+      18,
+      40
+    ],
+    [
+      18,
+      22,
+      36
+    ],
+    [
+      17,
+      26,
+      32
+    ],
+    [
+      16,
+      30,
+      28
+    ],
+    [
+      15,
+      34,
+      24
+    ]
+  ],
+  "source_sha256": "f2fc58853394d6ff7e111e1214cd0d4b9ab1222a09847bf98682e4ee6cec64d0",
+  "survivors_by_odd_count": {
+    "0": [
+      {
+        "cap": 1456,
+        "l1": 14,
+        "odd_classes": 0,
+        "profile": [
+          0,
+          7,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cap": 848,
+        "l1": 10,
+        "odd_classes": 0,
+        "profile": [
+          0,
+          3,
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "2": [],
+    "4": [
+      {
+        "cap": 1592,
+        "l1": 16,
+        "odd_classes": 4,
+        "profile": [
+          4,
+          6,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cap": 1316,
+        "l1": 14,
+        "odd_classes": 4,
+        "profile": [
+          3,
+          4,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "cap": 1088,
+        "l1": 12,
+        "odd_classes": 4,
+        "profile": [
+          2,
+          2,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "cap": 936,
+        "l1": 12,
+        "odd_classes": 4,
+        "profile": [
+          4,
+          2,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "cap": 908,
+        "l1": 10,
+        "odd_classes": 4,
+        "profile": [
+          1,
+          0,
+          3,
+          0,
+          0
+        ]
+      },
+      {
+        "cap": 764,
+        "l1": 10,
+        "odd_classes": 4,
+        "profile": [
+          3,
+          0,
+          1,
+          1,
+          0
+        ]
+      }
+    ],
+    "6": []
+  },
+  "variance": 56
+}
