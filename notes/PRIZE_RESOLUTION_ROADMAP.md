@@ -6504,3 +6504,23 @@ open residue: intersect this model with the full-P traces, pointwise
 next route-deciding action: contributor-priced h=7 elimination on the direct
                               quadratic and conic-pullback models
 ```
+
+**2026-07-28, L1 h=7 base-field conic branch routed:** Frobenius and the
+non-prime-field invariant turn one positive-dimensional chart into a finite
+packet and eliminate it on two rows.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_basefield_conic_router
+exceptional close: both z=-1 conic points
+base-field identity: zeta=2-z
+official reduction: zeta=-1, z=3, c^2-3c+1=0
+rows closed in this branch: p=8191,131071
+rows finite in this branch: p=524287,2147483647; at most two w signs each
+packet equations: 7w^2=5308, theta=(w-38)/5, rho^p=-c*rho
+DAG delta: one PROVED background node and three edges; no critical status flip
+compute spend: none; official congruence and Frobenius proof
+open h=7 residue: t notin F_p plus exact replay of at most four finite packets
+next route-deciding action: eliminate the finite packets from the full-P
+                              first-three trace system before pricing the
+                              non-base-field parameter branch
+```

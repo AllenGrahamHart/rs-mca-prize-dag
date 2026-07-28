@@ -683,3 +683,11 @@
   replaces a hashed ten-term input by an explicit genus-one-style quadratic
   cover; it does not remove the full-trace, Frobenius, torsion, cyclotomic,
   or inner conditions. Do not apply it to `h=15`.
+
+- Then consume
+  `l1_mersenne_hnf_m8_order_one_basefield_conic_router`. Delete both
+  `z=-1` points. On `t in F_p`, delete the `p=8191,131071` rows and retain
+  only `zeta=-1`, `z=3`, `7w^2=5308`, and `rho^p=-c rho` on the two larger
+  rows, with at most two `w` signs per row. Do not send a generic base-field
+  conic parameter to elimination. The branch `t notin F_p` remains the
+  positive-dimensional `h=7` task.

@@ -7521,6 +7521,20 @@ the outer stage into exactly two low-dimensional tasks.
   and denominator-zero charts are mandatory finite shards. A generic reconstruction
   of the old ten-term `Psi_7` is no longer the preferred input.
 
+  Apply `l1_mersenne_hnf_m8_order_one_basefield_conic_router` before pricing
+  that system. The `z=-1` points and the complete `t in F_p` branch at
+  `p=8191,131071` are theorem-empty. At `p=524287,2147483647`, the same
+  branch has at most two packets:
+
+  ```text
+  zeta=-1, z=3, c^2-3c+1=0, 7w^2=5308,
+  theta=(w-38)/5, rho=theta/(c-1), rho_star=-c*rho.
+  ```
+
+  Replay those finite packets directly against the full-P traces before any
+  generic elimination. The only positive-dimensional `h=7` elimination
+  request is now `t notin F_p`.
+
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
 
