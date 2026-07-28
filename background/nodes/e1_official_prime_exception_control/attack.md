@@ -25,6 +25,8 @@ five in `(3,4,0)` and forbids a singleton separation divisible by 32 in
 `1538` is absent, every residual has `V=2 mod 8`, and `m=1028` has only
 `V in {10,18}`. The proved dual census removes `1028`; begin the remaining
 prize branch with `m=514`, where `10<=V<=50`.
+Dual exact censuses and FLINT/PARI resultants remove `m=514`; continue with
+`m=256`, where `10<=V<=74`.
 
 ```text
 P=sum_y binom(r_y,2).

@@ -43,6 +43,12 @@ The subsequent dual normalized census closes both `m=1028` chambers: among
 five prize cofactors remain. The narrowest is now `m=514`, with
 `10<=V<=50` and `V=2 mod 8`.
 
+The next dual census finds 184 normalized vectors in the six `m=514`
+chambers whose norms are divisible by 257. FLINT and PARI agree on all exact
+resultants, and every quotient `Norm/514` lies below the prize interval. Thus
+`514` is also impossible. Four prize cofactors remain: `2,4,16,256`; the
+narrowest window is `m=256`, `10<=V<=74`, `V=2 mod 8`.
+
 The coloring target is an independent alternative. Degree two pays both;
 degree three pays this pair-budget route even when the graph is not
 three-colorable.

@@ -5772,3 +5772,28 @@ RowC movement: none
 pair-budget status: TARGET; normalized emptiness is not an edge census
 next action: attack m=514 in its six admissible chambers V=10,18,26,34,42,50
 ```
+
+**Same-day cofactor-514 close:** the six residual chambers are exhausted, with
+the divisor survivors paid by dual exact whole norms.
+
+```text
+proved node: e1_prize_n256_s18_m514_collision_exclusion
+normalization: singleton positions 0,1; first singleton sign +1
+signed normalized vectors: 320292000
+primary census app: ap-F9OHvyBufk7R438gPvcJt1
+audit census app: ap-3WkMulO32Zeoqs4U19PRBS
+counts by V=10,18,26,34,42,50: 0,16,8,88,88,232
+257-divisible counts: 0,4,4,48,40,88
+divisor-surviving vectors: 184
+FLINT norm app: ap-WpzlLsJtyHMAqRXNX4zt5K
+PARI audit app: ap-BGNiOCyf6mVdcovdSsUgS0
+exact-resultant agreement: 184/184
+distinct whole norms: 46
+candidate quotients Norm/514 in prize interval: 0
+maximum quotient: 66082262884856162162140234757894655654959953149381163882659090799481192796929
+cofactor conclusion: 514 impossible
+live prize cofactors: {2,4,16,256}
+RowC movement: none
+pair-budget status: TARGET
+next action: attack m=256 in V=10,18,26,34,42,50,58,66,74
+```

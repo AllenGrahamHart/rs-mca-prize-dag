@@ -7,6 +7,7 @@ e1_prize_field_floor_even_norm_exclusion [PROVED] ------ev-->
 e1_n256_local_norm_cofactor_collapse [PROVED] ----------ev-->
 e1_prize_n256_s18_variance_cofactor_windows [PROVED] ---ev-->
 e1_prize_n256_s18_m1028_collision_exclusion [PROVED] ---ev-->
+e1_prize_n256_s18_m514_collision_exclusion [PROVED] ----ev-->
 e1_pair_feasible_prime_field_reduction [PROVED] --------ev-->
 
 e1_official_low_square_mass_pair_budget [TARGET] --ev--> unsafe_crossing_family_instantiation [TARGET]

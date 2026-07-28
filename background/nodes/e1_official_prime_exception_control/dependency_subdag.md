@@ -72,6 +72,9 @@ e1_prize_n256_s18_variance_cofactor_windows [PROVED]
 e1_prize_n256_s18_m1028_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
+e1_prize_n256_s18_m514_collision_exclusion [PROVED]
+    --evidence--> e1_official_prime_exception_control [TARGET]
+
 e1_n512_four_singleton_collision_exclusion [PROVED]
     --evidence--> e1_official_prime_exception_control [TARGET]
 
@@ -273,7 +276,8 @@ field floor and residue-degree sieve first leave seven; the proved
 variance/cofactor theorem removes `1538`, forces `V=2 mod 8`, and leaves only
 `V in {10,18}` for `m=1028`. A dual exact normalized census then removes
 `1028`, leaving five residual prize classes. Those and the RowC odd norm parts
-are not yet paid.
+are not yet paid at that stage. Dual exact censuses and FLINT/PARI resultants
+then remove `514`, leaving four residual prize classes.
 The official quantifier pin and named-exhibit certificate subgraph remain in
 `background/nodes/` and have `ev`, not `req`, edges into this target. The
 unresolved target is a logical leaf, with its route-uniform scope printed

@@ -53,6 +53,7 @@ e1_n256_s16_signed_chord_collision_gate --ev-->
 e1_n256_local_norm_cofactor_collapse --ev-->
 e1_prize_n256_s18_variance_cofactor_windows --ev-->
 e1_prize_n256_s18_m1028_collision_exclusion --ev-->
+e1_prize_n256_s18_m514_collision_exclusion --ev-->
 e1_n512_four_singleton_collision_exclusion --ev-->
 e1_n512_trinomial_interval_norm_exclusion --ev-->
 e1_official_prime_exception_control       --ev-->
