@@ -27,10 +27,10 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    the route; the target is an aggregate edge budget, not a max-degree claim.
 6. Attack the new maximum-weight profile `(3,6,S=18)` with common-prime
    ideal/resultant constraints or structural emptiness before any broad
-   census. Its proved cofactor-window child leaves twelve cofactors; begin
-   with `m=1538`, where only `V in {4,6,8,10,12}` remains, then the
-   `m=1024,1028` windows through 34. Never count a normalized vector as one
-   edge, and do not rerun any `(4,2,S=18)` prize cofactor.
+   census. Its `m=1538` child is now closed by a dual exact low-energy
+   classifier, leaving eleven cofactors. Attack the distinct `m=1024`
+   (`mu=10`) and `m=1028` (`mu=2`) windows through 34 next. Never count a
+   normalized vector as one edge, and do not rerun any closed cofactor.
 7. Falsify with a pinned row and enough exact weighted edges to exceed the
    table, not a single collision vector.
 

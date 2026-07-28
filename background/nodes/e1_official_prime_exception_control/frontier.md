@@ -190,8 +190,9 @@ classes.
 The next prize-weighted profile `(3,6,S=18)` is also no longer unrestricted:
 its exact six-singleton valuation set yields twelve cofactors, with positive
 even variance windows ending at 12 for `m=1538`, 34 for `m=1024,1028`, and
-350 in the widest `m=2` branch. This finite interface is evidence only; none
-of those twelve classes is yet excluded in full.
+350 in the widest `m=2` branch. A complete affine/XOR classifier then removes
+the `m=1538` branch, leaving eleven classes. This remains evidence for the
+aggregate target rather than a row close.
 At `N=512,s=2`, exact negacyclic variance
 excludes `(0,4,0)`, while a complete 129540-state interval-resultant
 certificate excludes `(1,2,0)`. The entire band is closed, so the `N=512`

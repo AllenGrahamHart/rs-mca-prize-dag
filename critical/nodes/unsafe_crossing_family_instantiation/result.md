@@ -272,5 +272,7 @@ payload.
 The `(3,6,S=18)` profile now has a finite arithmetic reduction as well. Exact
 binary Hasse derivatives and local reciprocity leave twelve prize cofactors;
 variance zero and two are excluded, and all residual variances are bounded.
-The narrowest branch is `m=1538`, `V in {4,6,8,10,12}`. This is a sharper
-input to the direct-E1 route, not yet the required row-uniform edge bound.
+Dual exact engines then prove every `mu=1` energy from two through six empty,
+excluding `m=1538`. Eleven cofactors remain, with `m=1024,1028` the shortest
+windows through `V=34`. This is a sharper input to the direct-E1 route, not
+yet the required row-uniform edge bound.

@@ -88,6 +88,7 @@ Its six singleton coefficients force
 `mu in {1,2,3,4,5,6,8,9,10}` and exactly twelve prize cofactors. Variance zero
 and two are impossible; a profile-specific logarithmic deficit leaves even
 windows ending at 350 for `m=2`, 68 for `m=512,514`, 34 for `m=1024,1028`,
-and 12 for `m=1538`. This does not zero the profile, but the five
-`m=1538`, `V in {4,6,8,10,12}` chambers are now the preferred structural
-attack. No support-9 census is authorized.
+and 12 for `m=1538`. A dual exact affine/XOR classification subsequently
+proves every `mu=1` energy from two through six empty, excluding `m=1538`.
+Eleven cofactors remain; `m=1024,1028`, both through `V=34`, are now the
+shortest structural interfaces. No broad support-9 census is authorized.

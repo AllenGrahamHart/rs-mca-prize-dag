@@ -5990,3 +5990,28 @@ Modal audit: ap-NgXdlPnSNBEljttQ9JDVKa, peak child RSS 56 MB
 compute decision: no broad support-9 vector or norm census authorized
 pair-budget status: TARGET
 ```
+
+**Same-day profile-(3,6) cofactor-1538 close:** low variance plus exact
+2-adic multiplicity reduces the shortest branch to a finite affine/XOR
+classification, which is empty.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m1538_exclusion
+cofactor: 1538=2*769, hence mu=1
+residual energies: E in {2,3,4,5,6}
+normalized singleton supports examined: 10009125
+mu=1 normalized supports: 5005539
+low-parity normalized supports: 27207
+affine support orbits: 1969
+singleton sign assignments: 63008
+low-energy targets: 2216832
+primary pair-plus-third XOR probes: 270453504
+dual-agreed heavy supports: 16970
+dual-agreed exact sign tests: 135760
+verdict: no E=2,...,6 vector; m=1538 excluded
+sharp boundary witness: mu=1 and E=8
+remaining profile-(3,6) cofactors: 11
+next attack: m=1024 (mu=10) and m=1028 (mu=2), both V<=34
+Modal apps: ap-uv42wkp1cTBp9rokMZmOhz, ap-h8WimpUO8BNNLmCdSdcHi8,
+            ap-B2YnLr5w19DoYthf4ZrHVO
+```
