@@ -6732,3 +6732,21 @@ compute spend: none; queued as CR-L1-H7-Q2-ALL
 next route-deciding action: obtain the tiny norm-gcd verdicts when Modal is
                               available; otherwise attack color degree three
 ```
+
+**2026-07-29, L1 h=7 cubic two-triple reduction:** the most concentrated
+cubic color partition now has a fixed norm-gcd endpoint.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction
+covered partition: 3+3
+fiber identity: L=e_3^(-2)(E-alpha)(E-beta)
+new quadratic: q_2(d)r^2+q_1(d)r+q_0(d)=0
+univariate endpoint: R_33=(a_1q_0-c_1q_2)^2
+                         -(a_1q_1-b_1q_2)(b_1q_0-c_1q_1)
+degree / leader: 14 / -576000
+packet count: 4 rows * 8 norm colors = 32
+DAG delta: one PROVED background node and four edges; no critical status flip
+compute spend: none; queued as CR-L1-H7-C3-33
+next route-deciding action: route the remaining cubic multiplicity
+                              partitions without a generic saturation
+```

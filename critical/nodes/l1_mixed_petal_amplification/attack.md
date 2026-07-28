@@ -740,6 +740,14 @@
   degree-two endpoint; retain the degree-eight two-antipodal endpoint as its
   cheaper specialized check.
 
+- At cubic color degree, first consume
+  `l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction`. If exactly two
+  colors are used three times each, their full cubic fibers factor `L` and
+  force the printed second quadratic in `(r,d)`. Replace this complete
+  multiplicity-`3+3` chamber by the degree-fourteen `R_33(d)` and its eight
+  norm-fiber gcds per row. Do not apply the equation to any other cubic
+  multiplicity partition.
+
 - More generally consume
   `l1_mersenne_hnf_order_one_color_degree_barrier`. The pointwise degree-`d`
   color equations define curves of degrees `d` and `d+1`, so `H<=d(d+1)`.

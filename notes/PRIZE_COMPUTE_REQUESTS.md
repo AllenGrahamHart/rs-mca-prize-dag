@@ -7581,6 +7581,21 @@ the outer stage into exactly two low-dimensional tasks.
   This packet is also tiny, but no launch is authorized while the Modal
   workspace spend limit remains active.
 
+  **Cheap exact request CR-L1-H7-C3-33:** consume
+  `l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction`. Construct the
+  degree-fourteen polynomial `R_33` from (CTR4), independently verify
+  leading coefficient `-576000`, and compute
+
+  ```text
+  gcd(R_33(X),X^(p+1)-zeta)
+  ```
+
+  for all four official primes and eight `zeta in mu_8`. Return monic gcds
+  and partial output after every packet. Unit gcds in all 32 packets close
+  only the cubic multiplicity-`3+3` chamber; every other cubic partition
+  remains open. This is another tiny packet, but no launch is authorized
+  while the Modal workspace spend limit remains active.
+
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
 
