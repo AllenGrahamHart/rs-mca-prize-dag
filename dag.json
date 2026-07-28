@@ -19515,6 +19515,23 @@
    "notes": "Complete exclusion of the constant-color stratum only. The live h=7 residue has a non-base-field conic parameter and a nonconstant assignment-preserving color interpolant; higher color degrees and all inner conditions remain open."
   },
   {
+   "id": "l1_mersenne_hnf_order_one_linear_color_exclusion",
+   "title": "L1 Mersenne HNF order-one linear-color exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On all five official next-to-maximal order-one rows, the colored Frobenius interpolant on the reduced roots cannot have degree one. If E(W)=aW+b, its injective colors all satisfy the quadratic -(b^p+a^(p+1))X^2+(1+b^(p+1))X-b=0, contradicting the six or fourteen distinct colors required.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/verify.py"
+   ],
+   "notes": "Complete exclusion of degree one only. Combined with the m=8 constant-color theorem, the active h=7 branch starts at color degree two; h=15 still has a constant-color chamber."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -35900,6 +35917,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_constant_color_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_order_one_linear_color_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_linear_color_exclusion",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

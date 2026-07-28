@@ -6567,3 +6567,24 @@ next route-deciding action: classify or exclude the linear color stratum;
                               otherwise derive a bounded Frobenius
                               correspondence for each nonconstant degree
 ```
+
+**2026-07-28, L1 order-one linear-color chamber closed:** the pointwise
+Frobenius assignment gives a degree-two color equation, independently of the
+hypergeometric coefficients.
+
+```text
+node proved: l1_mersenne_hnf_order_one_linear_color_exclusion
+scope: four (m,h)=(8,7) rows and one (m,h)=(16,15) row
+linear ansatz: E(W)=aW+b, a!=0
+pointwise color equation:
+  -(b^p+a^(p+1))X^2+(1+b^(p+1))X-b=0
+available roots: at most 2 unless the polynomial is identically zero
+required colors: H=m-2=6 or 14 distinct values
+zero-polynomial contradiction: b=0 and then 1=0
+combined h=7 result: deg E>=2
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; rootwise assignment proof
+open h=7 residue: non-base-field conic parameter with deg E=2,3,4,5
+next route-deciding action: attack degree two using the same pointwise
+                              color equation before generic resultants
+```

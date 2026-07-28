@@ -709,3 +709,11 @@
   at nonconstant degree. Preserve the root/color assignment; this theorem
   neither licenses an assignment-free color census nor closes any
   nonconstant degree stratum.
+
+- Also consume `l1_mersenne_hnf_order_one_linear_color_exclusion`. A linear
+  interpolant is injective, but every selected color must satisfy one
+  quadratic obtained from the pointwise equation `E(x)=x^(p+1)`; it cannot
+  carry the six or fourteen distinct reduced roots. Hence the live `h=7`
+  branch starts at `deg E=2`, while `h=15` starts at degree zero or two. Use
+  the pointwise quadratic, not only `E^m=1 mod L`, in subsequent low-degree
+  exclusions.
