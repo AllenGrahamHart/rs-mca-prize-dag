@@ -19481,6 +19481,23 @@
    "notes": "Exact branch router only. The two larger-row sign packets still owe every trace/cyclotomic/inner condition, and t outside the prime field is untouched."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion",
+   "title": "L1 Mersenne HNF m=8 order-one base-field branch exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The complete t in F_p branch of the m=8,h=7 order-one conic is empty. On the two residual rows, P^[p](W)=-P(1-W), so every root x has both x and 1-x in mu_n. Their p+1 colors reduce from mu_8 to three surviving real color pairs, giving at most six possible roots, while the degree-seven divisor P has seven distinct roots.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/verify.py"
+   ],
+   "notes": "Complete proof close of one h=7 branch. The non-base-field conic parameter and every other declared L1 chamber remain open."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -35846,6 +35863,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_basefield_conic_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_basefield_conic_router",
+   "to": "l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

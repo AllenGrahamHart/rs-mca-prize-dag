@@ -6524,3 +6524,25 @@ next route-deciding action: eliminate the finite packets from the full-P
                               first-three trace system before pricing the
                               non-base-field parameter branch
 ```
+
+**2026-07-28, L1 h=7 base-field branch closed:** the four finite packets do
+not require replay. Frobenius reflection converts the whole branch to a
+constant-size root-color contradiction.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion
+reflection: P^[p](W)=-P(1-W)
+root condition: x^n=(1-x)^n=1 for every root of P
+field contraction: mu_8 colors -> mu_4 colors
+surviving colors: (1,-1),(-1,1),(-1,-1)
+root cap: at most 3*2=6
+required roots: 7 distinct roots of the squarefree degree-seven P
+result: complete t in F_p branch CLOSED on all four m=8 rows
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; exact Frobenius and two-adic proof
+open h=7 residue: t notin F_p only
+next route-deciding action: combine the non-base-field conic parameter with
+                              the colored Frobenius interpolant; preserve
+                              root/color assignment and avoid a 64-case
+                              assignment-free shortcut
+```

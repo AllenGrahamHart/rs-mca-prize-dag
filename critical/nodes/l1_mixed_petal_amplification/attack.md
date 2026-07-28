@@ -691,3 +691,11 @@
   rows, with at most two `w` signs per row. Do not send a generic base-field
   conic parameter to elimination. The branch `t notin F_p` remains the
   positive-dimensional `h=7` task.
+
+- Superseding close: consume
+  `l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion`. The finite
+  larger-row packets are empty as well: Frobenius reflection makes every
+  root and its complement an `n`th root, while the exact color-pair atlas has
+  at most six points for the seven roots of `P`. Delete the complete
+  `t in F_p` branch on all four rows. Do not replay the former four packets;
+  attack only `t notin F_p` in the `h=7` order-one curve.

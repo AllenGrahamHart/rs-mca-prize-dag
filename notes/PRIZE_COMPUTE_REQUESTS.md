@@ -7531,9 +7531,12 @@ the outer stage into exactly two low-dimensional tasks.
   theta=(w-38)/5, rho=theta/(c-1), rho_star=-c*rho.
   ```
 
-  Replay those finite packets directly against the full-P traces before any
-  generic elimination. The only positive-dimensional `h=7` elimination
-  request is now `t notin F_p`.
+  **Retired by proof:**
+  `l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion` proves that the
+  finite packets are empty too. Frobenius reflection leaves at most six
+  possible split roots for the degree-seven polynomial. Do not replay any
+  `t in F_p` packet. The only `h=7` elimination request is now
+  `t notin F_p`.
 
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
