@@ -33,9 +33,10 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    ten cofactors. The `mu=2` census plus factor-257 test then closes `m=1028`,
    leaving nine. The capped sharp product envelope contracts their upper
    endpoints to `284,266,254,216,170,130,60,34,34` in increasing cofactor
-   order. Attack `m=512,514` through `V=34` with multiplicity-specific
-   structure and the factor 257 on `m=514`. Never count a normalized vector
-   as one edge, and do not rerun any closed cofactor.
+   order. A multiplicity-nine radius census plus exact norm ledger closes
+   `m=512`, leaving eight cofactors. Attack `m=514` through `V=34` using its
+   multiplicity-one structure and required factor 257. Never count a
+   normalized vector as one edge, and do not rerun any closed cofactor.
 7. Falsify with a pinned row and enough exact weighted edges to exceed the
    table, not a single collision vector.
 

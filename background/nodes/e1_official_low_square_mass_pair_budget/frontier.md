@@ -98,4 +98,9 @@ none vanishes at a primitive root modulo 257, excluding that cofactor as well.
 Nine cofactors remain. The capped sharp product envelope contracts all of
 their windows: the upper endpoints for `m=2,4,8,16,32,64,256,512,514` are now
 `284,266,254,216,170,130,60,34,34`. Thus `m=512,514` are the shortest
-interfaces. No broad support-9 census is authorized.
+interfaces. The multiplicity-nine `m=512` branch then admits a complete
+radius-two mod-four census: two independent exact engines find only four
+vectors through `E=17`, and dual exact resultants place every quotient
+`Norm/512` below the prize interval. Thus `m=512` is impossible and eight
+cofactors remain. The shortest live branch is `m=514`, with `mu=1`,
+`2<=E<=17`, and a required factor 257. No broad support-9 census is authorized.

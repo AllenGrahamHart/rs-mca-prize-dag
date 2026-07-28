@@ -1,0 +1,155 @@
+{
+  "affine_orbits": 2912,
+  "engine": "pair-radius-plus-third",
+  "engine_sha256": "ab7a967b53a3e992d20f691dac047ffb52a1daede2d2cf09adf7d612c642ab27",
+  "orbit_file_sha256": "d8db9c593fa0040d1a412cb687e132aec83a1ca0079532008c1604a252558d40",
+  "passed": 24,
+  "rows": [
+    {
+      "orbits": 122,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "CANDIDATE E=17 state=0:1,1:-1,3:2,4:1,40:-1,44:2,84:-1,87:2,89:1,\nCANDIDATE E=17 state=0:1,1:1,3:-2,4:1,40:-1,44:2,84:-1,87:-2,89:-1,\nPASS engine=pair-radius-plus-third orbits=122 sign_assignments=3904 xor_probes=98283200 triple_candidates=23580 exact_sign_tests=188640 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=2\n"
+    },
+    {
+      "orbits": 122,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=122 sign_assignments=3904 xor_probes=96745024 triple_candidates=14920 exact_sign_tests=119360 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 122,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=122 sign_assignments=3904 xor_probes=81948864 triple_candidates=18248 exact_sign_tests=145984 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 122,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=122 sign_assignments=3904 xor_probes=99071808 triple_candidates=17568 exact_sign_tests=140544 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 122,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=122 sign_assignments=3904 xor_probes=100278144 triple_candidates=15760 exact_sign_tests=126080 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 122,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=122 sign_assignments=3904 xor_probes=105786688 triple_candidates=18568 exact_sign_tests=148544 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 122,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=122 sign_assignments=3904 xor_probes=106079488 triple_candidates=19904 exact_sign_tests=159232 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 122,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=122 sign_assignments=3904 xor_probes=140126272 triple_candidates=24692 exact_sign_tests=197536 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=81351552 triple_candidates=22884 exact_sign_tests=183072 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "CANDIDATE E=15 state=0:1,1:1,4:-1,41:1,43:-2,44:2,84:1,88:1,127:-2,\nCANDIDATE E=15 state=0:1,1:-1,4:-1,41:-1,43:2,44:2,84:1,88:1,127:2,\nPASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=77240640 triple_candidates=16060 exact_sign_tests=128480 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=2 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=105923328 triple_candidates=14892 exact_sign_tests=119136 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=75780544 triple_candidates=18000 exact_sign_tests=144000 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=70400832 triple_candidates=15704 exact_sign_tests=125632 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=110783808 triple_candidates=19744 exact_sign_tests=157952 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=70104128 triple_candidates=16824 exact_sign_tests=134592 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=76608192 triple_candidates=19928 exact_sign_tests=159424 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=77166464 triple_candidates=20196 exact_sign_tests=161568 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=92130496 triple_candidates=17416 exact_sign_tests=139328 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=110799424 triple_candidates=16984 exact_sign_tests=135872 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=89963776 triple_candidates=14608 exact_sign_tests=116864 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=76807296 triple_candidates=19480 exact_sign_tests=155840 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=99555904 triple_candidates=16560 exact_sign_tests=132480 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=86145664 triple_candidates=17048 exact_sign_tests=136384 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    },
+    {
+      "orbits": 121,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS engine=pair-radius-plus-third orbits=121 sign_assignments=3872 xor_probes=69526336 triple_candidates=18552 exact_sign_tests=148416 energy2=0 energy3=0 energy4=0 energy5=0 energy6=0 energy7=0 energy8=0 energy9=0 energy10=0 energy11=0 energy12=0 energy13=0 energy14=0 energy15=0 energy16=0 energy17=0\n"
+    }
+  ],
+  "schema": "e1-profile-36-mu9-m512-low-energy-exact-result-v1",
+  "shards": 24
+}

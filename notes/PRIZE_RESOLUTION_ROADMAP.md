@@ -6082,3 +6082,26 @@ route probe/exact Modal apps: ap-fjMSdUdXuYdwoI9NyoCnUx,
 remaining profile-(3,6) cofactors: 9
 next attack: m=512,514 in E=2,...,17; spend mu=9/mu=1 structure first
 ```
+
+**Same-day cofactor-512 close:** multiplicity nine leaves a complete
+radius-two mod-four search, and the surviving geometry misses the prize
+interval arithmetically.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m512_exclusion
+cofactor: 512, hence mu=9
+complete energy window: E=2,...,17
+normalized singleton supports examined: 10009125
+mu=9 supports: 46592; affine orbits: 2912
+singleton sign assignments: 93184
+dual-agreed heavy supports: 438120; exact sign tests: 3504960
+geometry: E=2,...,14 and E=16 empty; two vectors each at E=15 and E=17
+arithmetic: FLINT and PARI agree on two exact norms for all four vectors
+interval test: every quotient Norm/512 is below the prize interval
+verdict: m=512 excluded
+primary/audit/norm Modal apps: ap-hLsGuIj8T1KeuCPO9qIbK0,
+                               ap-MomSd3tk9h6HHpILMXlCCx,
+                               ap-YfWdAsOXwmHsyMSwhUZx6G
+remaining profile-(3,6) cofactors: 8
+next attack: m=514, with mu=1, E=2,...,17, and required factor 257
+```
