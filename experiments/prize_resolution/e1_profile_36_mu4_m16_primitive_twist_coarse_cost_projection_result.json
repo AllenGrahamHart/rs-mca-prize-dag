@@ -1,0 +1,13 @@
+{
+  "branches": {
+    "primitive": {
+      "orbits": 39936,
+      "parity_classes": 13,
+      "projected_cpu_hours": 29.147647855555554,
+      "projected_cpu_seconds": 104931.53228,
+      "sample_weighted_seconds_per_orbit": 2.6274922946714745
+    }
+  },
+  "method": "one measured representative runtime per branch and odd-chord class",
+  "schema": "e1-profile-36-mu4-m16-cost-projection-v1"
+}

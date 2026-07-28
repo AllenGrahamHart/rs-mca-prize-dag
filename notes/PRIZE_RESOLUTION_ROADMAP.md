@@ -6298,3 +6298,35 @@ remaining profile-(3,6) cofactors: 4 (m=16 remains open only on primitive)
 next attack: seek analytic contraction of primitive m16; its last measured
   direct projection was 121.464 one-CPU hours and is not authorized
 ```
+
+**Same-day primitive m16 contraction, primary close, and interrupted audit:**
+the free Galois involution `F(X)->F(-X)` halves normalized signs; an exact
+seven-coefficient Walsh ledger replaces the lagwise eight-sign energy loop;
+and independent certified upper-product caps reduce the complete route from
+hundreds of CPU hours to a sub-dollar primary and audit.
+
+```text
+candidate node: e1_prize_n256_s18_profile_36_m16_primitive_exclusion
+status: NOT YET PROMOTED (reverse audit 61.5% complete)
+primitive affine support orbits: 39936
+sign representatives per heavy triple: 16 (free Galois involution)
+primary Modal app: ap-tkhXMEdMpCXgm2LWUnXkEZ, COMPLETE
+primary exact ledger:
+  distance tests: 188651274240
+  radius matches: 184336208507
+  exact sign tests: 1474689668056
+  low-energy representatives: 29756245802
+  product-live representatives: 5651872006
+  certified intervals: 5651870997 below, 1009 above, 0 unresolved
+reverse benchmark/projection apps:
+  ap-ATxdGYMJ3NJBvayKTp20Hc, ap-AmrikHigBcehbCZ8jxlKb3
+reverse audit app: ap-bvisSxyx7641bXRImfOwy8, INTERRUPTED EXTERNALLY
+reverse checkpoint:
+  768/1248 batches; 24576/39936 orbits; every per-orbit comparison PASS
+  product-live: 3477665782
+  intervals: 3477665087 below, 695 above, 0 unresolved
+remaining: 480 batches / 15360 orbits, approximately 20000--25000 CPU seconds
+resume rule: wait for Modal workspace and credit; launcher skips checkpoint
+promotion gate: complete reverse audit, replay all 1009 high representatives,
+  source-pin the theorem packet, then run node/DAG/harness verifiers
+```

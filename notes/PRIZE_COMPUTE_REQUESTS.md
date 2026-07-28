@@ -9267,14 +9267,14 @@ introduced by the new branch theorem.
 
 #### CR-E1-PROFILE-36-M16-LARGER-BRANCHES: deferred exact censuses
 
-**Status:** ONCE-DIVIDED COMPLETE; PRIMITIVE DEFERRED. No further launch is
-authorized.
+**Status:** ONCE-DIVIDED COMPLETE; PRIMITIVE PRIMARY COMPLETE; REVERSE AUDIT
+PARTIAL. No relaunch is authorized while the Modal workspace is disabled.
 
 The initial once-divided and primitive m16 branches projected to 26.819 and
-121.464 one-CPU hours from complete parity-class benchmarks. The once-divided
-history and close are recorded below. The primitive census remains outside the
-present cheap-compute envelope; seek analytic contraction of its live
-`(E,q,L)` corridor or another structural exclusion before requesting it.
+121.464 one-CPU hours from complete parity-class benchmarks. The contraction,
+primary, and audit history for both branches is recorded below. The primitive
+reverse audit may resume only from its source-pinned atomic checkpoint after
+the external Modal workspace is re-enabled.
 
 One 15-representative optimization benchmark is authorized for the
 once-divided branch. It removes the non-proof long-double diagnostic and skips
@@ -9335,6 +9335,94 @@ reproduces 73,175,732,492 radius matches, 585,405,859,936 exact sign tests,
 maximum four-worker task wall time was 13.321 seconds. This closes the
 once-divided branch subject to the source-pinned node verifier; no additional
 campaign under this request is authorized.
+
+One primitive-branch optimization benchmark is authorized, with no complete
+census implied. The primitive singleton support contains an odd position, so
+the Galois involution `F(X) -> F(-X)` acts freely on the 32 normalized
+singleton-sign patterns and permits 16 exact representatives. A second exact
+optimization rounds each already-certified upper squared root factor upward
+to a 16-bit dyadic mantissa and multiplies those upper bounds before invoking
+the full interval. Benchmark one orbit in each of the 13 primitive odd-chord
+classes, using at most 13 one-CPU, 256 MiB, 60-second Modal tasks. PASS
+requires the full fixed-side ledger to be exactly half of the pre-involution
+baseline in every class. Project cost before requesting further compute.
+
+Modal apps `ap-csIUQ1ujheUPmHOCYAAirx` and
+`ap-mE0wTipjjrqrejyw5lx958` completed that benchmark and projection. Every
+class matches exactly. The weighted primary projection falls from 121.464 to
+29.148 CPU hours (104,931.54 CPU seconds), but a complete primary plus audit
+would still consume nearly all remaining credit, so neither is authorized.
+
+One further 13-class benchmark is authorized at the same sub-`$0.01` scale.
+Replace the 63-lag, eight-sign energy loop by its exact seven-coefficient
+Walsh expansion, precomputing cross-vector dot products and replaying all 63
+lags only for energy survivors to recover `L`. Retain the sign involution and
+dyadic norm cap. PASS again requires exact half-baseline counts in every
+class; project the cost before any larger request.
+
+Modal apps `ap-o0Osge7eWPzD7RYeOZou0l` and
+`ap-su7TzkrKQXDkLWG9g84C82` completed the fast-energy benchmark and weighted
+projection. All 13 classes again match exactly. The full primitive primary now
+projects to 25,008.33 CPU seconds, or 6.947 CPU hours, about `$0.33` at the
+observed rate. One complete primary is authorized: 1,248 batches of at most
+32 orbits, four independent subprocesses per four-CPU, 512 MiB container,
+at most 100 containers, 60-second task caps, atomic checkpoints at bounded
+intervals, no script-level retries, and all high-side representatives
+retained. PASS requires all 39,936 affine orbits, exactly 16 sign-involution
+representatives per heavy triple, exact Walsh/direct-energy agreement on
+every low-energy survivor, structural count identities, and zero unresolved
+fixed intervals. It does not authorize theorem promotion without an
+independent reverse benchmark and audit decision.
+
+Modal app `ap-tkhXMEdMpCXgm2LWUnXkEZ` completed the primitive primary. All
+1,248 batches and 39,936 affine orbits passed in 22,736.06 worker seconds;
+the maximum 32-orbit task wall time was 8.131 seconds. The exact
+sign-involution ledger has 188,651,274,240 distance tests,
+184,336,208,507 radius matches, 1,474,689,668,056 exact sign tests,
+29,756,245,802 low-energy representatives, and 5,651,872,006 product-live
+representatives. Certified intervals place 5,651,870,997 below and 1,009
+above, retain all 1,009 high-side representatives, and leave zero unresolved.
+
+One 13-class reverse benchmark is authorized. It must scan singleton signs
+before descending heavy triples, construct its own chord columns, use an
+independently inserted exact Walsh ledger, directly reconstruct every
+low-energy survivor, and use the original complete fixed-root interval with
+no primary dyadic cap. Use at most 13 one-CPU, 256 MiB, 60-second tasks. PASS
+requires exact per-orbit agreement with the completed primary before a full
+reverse cost projection is considered.
+
+Modal apps `ap-cgOZPizDCrJE0YmFfdCkoh` and
+`ap-dlfsihBSP21uvIM2RSslOr` completed the reverse benchmark and projection.
+Every class agrees exactly, but the original full interval projects to
+99,462.95 CPU seconds (27.629 CPU hours), above the automatic sub-`$1`
+threshold; the complete audit is not authorized.
+
+One final 13-class reverse optimization benchmark is authorized. Before the
+full interval, independently compute and multiply all 64 certified integer
+upper squared-root factors exactly (not with the primary's dyadic mantissas).
+Strict-below products stop there; every residual still receives the original
+full lower/upper interval. Use the same 13 one-CPU, 256 MiB, 60-second caps.
+PASS requires exact agreement in all classes and a fresh cost projection.
+
+Modal apps `ap-ATxdGYMJ3NJBvayKTp20Hc` and
+`ap-AmrikHigBcehbCZ8jxlKb3` completed the exact-upper benchmark and
+projection. Every class agrees exactly. The complete audit projects to
+54,032.49 CPU seconds (15.009 CPU hours), about `$0.7`, so one full reverse
+audit is authorized: 1,248 batches of at most 32 orbits, four independent
+subprocesses per four-CPU, 512 MiB container, at most 100 containers,
+60-second task caps, bounded atomic checkpoints, and no script-level retries.
+PASS requires all 39,936 per-orbit primary comparisons, the complete
+independent aggregate and energy ledgers, and zero unresolved intervals.
+
+Modal app `ap-bvisSxyx7641bXRImfOwy8` reached batch 768 before Modal returned
+`workspace ... is disabled` and terminated the campaign. The atomic packet is
+valid and incomplete: 24,576 of 39,936 orbits and 768 of 1,248 batches pass
+exact per-orbit comparison, with 3,477,665,782 product-live representatives,
+3,477,665,087 below, 695 above, and zero unresolved. It records 35,110.54
+worker seconds. Exactly 480 batches / 15,360 orbits remain. The resumable
+launcher will skip the completed prefix; expected remaining compute is about
+20,000--25,000 CPU seconds. Do not relaunch until the workspace is enabled and
+the user confirms available credit. The primitive node remains unpromoted.
 
 #### CR-E1-PROFILE-36-M16-GENERIC-THIRD-MOMENT: quantified no-go
 
