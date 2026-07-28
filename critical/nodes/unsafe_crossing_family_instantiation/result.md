@@ -191,3 +191,11 @@ parity leaves six two-odd and four six-odd profiles. Independent
 all six two-odd profiles. The live endpoint is exactly `(6,5)`, `(5,3,1)`,
 `(4,1,2)`, and `(6,1,0,1)` on 1,234 affine six-odd templates; it is not yet
 closed.
+
+Subsequent exact certificates close that residue and every even chamber down
+through `V=34`. At `V=34` the cutoff-free router leaves five profiles on 111
+templates; dual 2,203,120,896-vector censuses find 2,050 actual vectors,
+conductor removes 1,562, and dual exact resultants put every odd part of the
+488 full-conductor norms below `2^250`. Thus `V=34` is empty and the live
+positive even first-band frontier is `V<=32`. This remains evidence for the
+universal target rather than a row or prize closure.

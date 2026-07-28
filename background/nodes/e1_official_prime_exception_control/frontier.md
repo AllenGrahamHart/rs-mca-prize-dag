@@ -126,6 +126,11 @@ Independent 26,219,123,456-vector engines find 6,712 actual vectors; conductor
 removes 3,718. Six of the 2,994 full-conductor whole norms reach `2^250`, but
 dual resultants put every odd norm part below `2^250`. Hence `V=36` is empty
 and the live positive even frontier is `V<=34`.
+At `V=34`, the cutoff-free router leaves five profiles on 111 templates.
+Independent 2,203,120,896-vector engines find 2,050 actual vectors; conductor
+removes 1,562. Sixteen of the 488 full-conductor whole norms reach `2^250`,
+but dual resultants put every odd norm part below `2^250`. Hence `V=34` is
+empty and the live positive even frontier is `V<=32`.
 Subsequent chambers must
 continue to use geometric emptiness or direct exact norms rather than a bulk
 cubic cutoff. A subfield norm argument also

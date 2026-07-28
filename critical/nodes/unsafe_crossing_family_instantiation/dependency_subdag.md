@@ -252,3 +252,7 @@ The proved cutoff-free E18 reduction leaves six profiles on 1,321 templates.
 Independent complete censuses, conductor, and exact odd norm parts close all
 six; the E18 endpoint closes `V=36` and advances the frontier to `V<=34`, still
 as evidence only.
+The proved cutoff-free E17 reduction leaves five profiles on 111 templates.
+Independent complete censuses, conductor, and exact odd norm parts close all
+five; the E17 endpoint closes `V=34` and advances the frontier to `V<=32`,
+still as evidence only.

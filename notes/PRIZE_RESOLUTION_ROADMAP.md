@@ -5345,3 +5345,80 @@ new assumptions: none
 route decision: derive the exact cutoff-free E17 (V=34) router and price its
                 actual-vector residue. Never rerun V>=36.
 ```
+
+**2026-07-28, provisional KoalaBear K3 equality-wall stack reconciliation:**
+four open upstream PRs materially reduce one source-bound equality-wall
+residual, but none currently supplies a bankable first-match atom. They are
+recorded as upstream-watch route evidence only; no local node, `req` edge,
+crosswalk status, or critical status changes.
+
+```text
+starting local pin: 8f211958
+canonical prize pin: b60ec497
+upstream main pin: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
+critical counts at start: TARGET=73, CONDITIONAL=58
+crosswalk: PASS, 74 rows, 11 IDENTICAL
+PR #1114: 702cd8e16673f2971ac1e7898603de2d7d087dfa
+          replays the 22 prerequisite families for the source-bound wall
+PR #1115: 065f347a96c91ade7d80df8bf324f646329c623e
+          excludes q=1 and split degrees 2,...,11; leaves 12,...,16
+PR #1116: 44542e91e459364a521870ed2ebde7f6fe5055bf
+          reduces the normalized residue to Q=6,u=2 plane/conic/quartic
+          geometry; its synthetic-model search remains finite evidence
+PR #1117: f42ad6ab64cda5f1d4061b73e739f8944ebb13eb
+          excludes 60 P3+C3 labeled graphs; 405 labeled graphs remain, and
+          the open orbit counts 46,30,10,10 are not a partition of 405
+local owner: rate_half_band_closure, KoalaBear v4 owner ledger
+relation: OVERLAP/evidence with the unpaid K3 balanced-core/residual-geometry
+          obligation; not a supplier for rate_half_kb_v4_tangent_source_atom
+nonclaims: no U_Q, U_BC, U_new, global pencil-chart census, fixed-union
+           aggregation, exhaustive slope payment, adjacent-safe certificate,
+           or endpoint movement
+promotion test: after merge, independently replay the exact stack and prove
+                a source-bound transport into one frozen first-match cell;
+                then either derive its exact distinct-slope integer or an
+                exhaustive zero residual and wire that theorem to the local
+                KoalaBear owner
+result: HARVESTED as provisional route evidence; no DAG delta
+next route-deciding action: continue direct E17/V34 descent while watching
+                            the stack for a global owner/payment theorem
+```
+
+**2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
+parity reduces the chamber to the one/five-odd atlas. A complete dual census,
+the proper-conductor theorem, and dual exact odd-part resultants close every
+surviving profile.
+
+```text
+starting local pin: 8f211958
+canonical prize pin: b60ec497
+upstream main pin: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
+node attacked: N=256, folded profile (3,4,0), V=34 (E=17)
+failed import app: ap-KqmsjnSeuKSHccRguoGspV; explicitly aborted before any
+                   mathematical task and supplies no evidence
+reduction app: ap-c8VmO1f95T4RM21QCIoMbA
+slack result: L<=11; exactly six energy profiles
+majorant policy: not invoked
+parity result: (8,0,1) rejected; five one/five-odd survivors
+light atlas: 14,664 normalized supports in 11+100=111 affine templates
+coverage per engine: 111*binom(124,3)*64=2,203,120,896 vectors
+census app: ap-nuzv6imnkUH0ElJlCLyKRy; dual exact engine agreement;
+            651.958 aggregate dual worker-seconds
+actual profiles: [608,1152,188,92,10], total 2,050
+full conductor: [196,272,20,0,0], total 488
+proper conductor: complementary 1,562 vectors discharged by theorem
+norm app: ap-YS86fN9k5a8svWi6zF2boU; FLINT/PARI agreement on all 488
+distinct norms: 108
+exact whole-norm maximum: 2816861446662266258222239103326104068711609833031798890850684996153986296836
+whole norms at or above 2^250: 16
+exact odd-part maximum: 744372174442013450465816409476894770650462784978029532566873973061928116737
+strict odd margin: 2*odd_max<2^250<3*odd_max; odd threshold hits 0
+result: CLOSED; all five profiles and the V=34 endpoint are PROVED absent
+live positive even variance frontier: V<=32
+delta-star bracket movement: none; this pays one finite E1 exception chamber
+new assumptions: none
+upstream terminal delta: none; local result is OURS_ONLY
+live compute requests: none for E17; never rerun V>=34
+next route-deciding action: derive and price the exact cutoff-free E16/V32
+                            router before authorizing any census
+```
