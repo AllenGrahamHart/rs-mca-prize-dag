@@ -294,6 +294,30 @@
    "notes": "ROUTE COMPILER 2026-07-28: converts the square-mass scope correction into exact finite max-fiber and low-mass second-moment targets, bypassing the stronger P allowance."
   },
   {
+   "id": "e1_low_square_mass_weighted_kernel_dictionary",
+   "title": "Exact weighted dictionary from E1 collision pairs to folded kernel vectors",
+   "status": "PROVED",
+   "closure": "proof",
+   "refs": [
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/statement.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/proof.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/claim_contract.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/dependency_subdag.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/audit.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/frontier.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/result.md",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/source_pin.json",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/verify.py",
+    "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "(Q) prefix / quotient flatness (prob:capfpr-Q)",
+    "relation": "ANALOGY_ONLY"
+   },
+   "statement": "For every official E1 row, an oriented folded kernel vector d of profile (a,b) represents exactly M_ell(a,b) ordered class pairs, where M_ell is an explicit binomial sum over singleton allocations and common signed coordinates. Hence E_low=(1/2)sum_d M_ell(a(d),b(d)) exactly. After the proved norm floors, the binding prize-rate-1/8 maximum weight is attained at (3,4,S=16), and |D_p(33)|<=27520 oriented low-mass vectors is a simple sufficient condition for the open edge budget. The weighted condition is weaker and preferred; no vector cap is asserted here.",
+   "notes": "ROUTE DICTIONARY 2026-07-28: restores exact class-pair multiplicities to folded-vector/orbit counts and converts the binding aggregate premise to a finite weighted kernel-vector budget without adding a red node."
+  },
+  {
    "id": "e1_official_low_square_mass_collision_coloring",
    "title": "Official-row low-square-mass E1 collision-graph coloring",
    "status": "TARGET",
@@ -319,8 +343,8 @@
     "background/nodes/e1_official_low_square_mass_pair_budget/attack.md",
     "background/nodes/e1_official_low_square_mass_pair_budget/frontier.md"
    ],
-   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 62622678770648913918718317914905517790930, about 1.648K; maximum low-mass collision degree three is sufficient. The proved Plotkin second-moment compiler then forces more than B* distinct E1 values while automatically pricing every higher-square-mass collision.",
-   "attack_surface": "prove maximum degree three or the weaker aggregate edge budget from common-prime folded-kernel incidence, retaining exact class-pair multiplicities",
+   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 62622678770648913918718317914905517790930, about 1.648K; maximum low-mass collision degree three is sufficient. The proved weighted-kernel dictionary gives the exact alternative E_low=(1/2)sum_d M_ell(a(d),b(d)); on the binding row, at most 27520 oriented vectors is a stronger uniform sufficient condition. The Plotkin second-moment compiler then forces more than B* values.",
+   "attack_surface": "prove the exact weighted folded-kernel budget, the stronger 27520 oriented-vector cap on the binding row, or maximum collision degree three; retain exact orientations, stabilizers, and class-pair multiplicities",
    "falsifier": "an admissible row whose exact unordered low-mass collision-pair count exceeds its printed budget, or a multiplicity/type error in a claimed count"
   },
   {
@@ -36561,6 +36585,26 @@
   },
   {
    "from": "e1_low_square_mass_plotkin_coloring_compiler",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_collision_square_mass_reparametrization",
+   "to": "e1_low_square_mass_weighted_kernel_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prime_field_l2_norm_collision_radius",
+   "to": "e1_low_square_mass_weighted_kernel_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_plotkin_coloring_compiler",
+   "to": "e1_low_square_mass_weighted_kernel_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   },

@@ -255,3 +255,10 @@ high-mass collisions. On the binding prize rate-`1/8` row the exact sufficient
 budget is `62622678770648913918718317914905517790930`, about `1.648K`.
 Maximum low-mass degree three suffices, so this is preferred to the
 degree-two/three-color route.
+
+The proved `e1_low_square_mass_weighted_kernel_dictionary` now converts the
+preferred budget exactly to folded-vector currency:
+`E_low=(1/2)sum_d M_ell(a(d),b(d))`. On the binding row, the largest eligible
+weight is attained at `(3,4,S=16)`, and at most 27,520 oriented low-mass
+kernel vectors is a stronger sufficient condition. This is a route compiler,
+not a proof of the vector count or the unsafe payload.

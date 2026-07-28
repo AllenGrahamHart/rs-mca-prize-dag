@@ -14,6 +14,9 @@ The six row-uniform unordered collision-pair bounds in `statement.md`.
 4. A finite selected-field count does not prove a row-family entry.
 5. High-square-mass collisions are not counted; the Plotkin second-moment
    inequality prices them automatically.
+6. Under the weighted-kernel dictionary, vectors are oriented and carry their
+   exact `M_ell(a,b)` class-pair multiplicities. Orbit quotients are not raw
+   substitutes for `D_p(ell)`.
 
 ## Falsifier
 

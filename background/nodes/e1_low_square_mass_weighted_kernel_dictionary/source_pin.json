@@ -1,0 +1,8 @@
+{
+  "square_mass_statement_file": "background/nodes/e1_collision_square_mass_reparametrization/statement.md",
+  "square_mass_statement_sha256": "d5009d298c207df416689c933ab6f393ccc7caf6f28078fd34d46930851d4792",
+  "norm_radius_statement_file": "background/nodes/e1_prime_field_l2_norm_collision_radius/statement.md",
+  "norm_radius_statement_sha256": "ed607ee0d843c1f2c74c79129d19ef8d52be96ba2a8ceb77d35014f95d852995",
+  "plotkin_statement_file": "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/statement.md",
+  "plotkin_statement_sha256": "47f92693964f3ab07f18bc439c687fb6b58cb12b2985a9d783c1e78f5238dfa4"
+}

@@ -3,6 +3,7 @@
 - **status:** TARGET
 - **closure:** open
 - **compiler:** `e1_low_square_mass_plotkin_coloring_compiler`
+- **exact vector dictionary:** `e1_low_square_mass_weighted_kernel_dictionary`
 
 For every pair-feasible prime-field row at the six named RowC/prize
 envelopes, let `E_low` count unordered pairs of distinct
@@ -22,6 +23,16 @@ By the proved second-moment compiler, each bound forces more than `B*`
 distinct E1 values and supplies a direct `V` payload. The binding prize
 rate-`1/8` budget is about `1.648K`; maximum low-mass collision degree three
 is sufficient but not required.
+
+Equivalently, the proved weighted-kernel dictionary rewrites the left side as
+
+```text
+E_low=(1/2) sum_{d in D_p(ell)} M_ell(a(d),b(d)).
+```
+
+On the binding prize rate-`1/8` row, the weaker uniform sufficient statement
+is `|D_p(33)|<=27520`, with oriented, non-orbit-normalized vectors. The exact
+weighted sum remains the actual target.
 
 ## Falsifier
 

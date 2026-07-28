@@ -5678,3 +5678,27 @@ This target is strictly more tolerant than the three-color route and much more
 tolerant than full injectivity. High-square-mass collisions need no separate
 enumeration: their contribution is absorbed by the Plotkin/Cauchy second
 moment inequality.
+
+**Same-day exact vector dictionary:** the aggregate edge count is now
+translated without loss into the folded-kernel currency used by the existing
+norm and orbit machinery.
+
+```text
+proved node: e1_low_square_mass_weighted_kernel_dictionary
+exact identity: E_low=(1/2) sum_d M_ell(a(d),b(d))
+M_ell: exact ordered class-pair multiplicity of one oriented folded vector
+binding eligible profiles: 275
+binding maximum-weight profile: (a,b,S)=(3,4,16)
+binding maximum weight: 4550972295647251657752808370587724056
+uniform sufficient oriented-vector cap: |D_p(33)|<=27520
+preferred target: the weaker exact profile-weighted sum, not the uniform cap
+orbit guard: restore orientation, stabilizers, and M_ell after normalization
+status movement: none; dictionary PROVED, pair budget remains TARGET
+compute decision: no census launched; first assemble proved zero profiles and
+                  exact surviving orbit weights from existing certificates
+```
+
+This removes the previous ambiguity between normalized relation vectors and
+actual class-pair edges. It also gives a stopping rule for any future finite
+census: 27,520 oriented vectors suffices even under worst-case weights, while
+larger inventories can still pay through the exact weighted ledger.

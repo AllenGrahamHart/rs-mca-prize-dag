@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/verify.py",
-      "seconds": 0.098696,
+      "script": "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/verify.py",
+      "seconds": 0.635721,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_LOW_SQUARE_MASS_PLOTKIN_COLORING_COMPILER_PASS rows=6 tight_colors=3 tight_fiber_cap=102 tight_edge_ratio_lt=1.648 checks=2295\n"
+      "stdout_tail": "E1_LOW_SQUARE_MASS_WEIGHTED_KERNEL_DICTIONARY_PASS rows=6 tight_oriented_cap=27520 checks=2645\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/verify_audit.py",
-      "seconds": 0.087897,
+      "script": "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/verify_audit.py",
+      "seconds": 0.050663,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_LOW_SQUARE_MASS_PLOTKIN_COLORING_COMPILER_AUDIT_PASS checks=129\n"
+      "stdout_tail": "E1_LOW_SQUARE_MASS_WEIGHTED_KERNEL_DICTIONARY_AUDIT_PASS mutation=1 checks=2645\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

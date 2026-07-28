@@ -161,6 +161,12 @@ Maximum degree three already pays this budget. Count actual unordered class
 pairs and their common-coordinate multiplicities; normalized kernel vectors
 alone are not the currency.
 
+The proved `e1_low_square_mass_weighted_kernel_dictionary` now makes that
+currency exact. On the binding row, prove the weighted oriented-vector sum,
+or the stronger simple cap of 27,520 oriented low-mass folded kernel vectors.
+Import existing profile exclusions as zero weight and restore every orbit's
+orientation, stabilizer, and class-pair multiplicity exactly.
+
 The still broad `(4,2,0)` profile is the alternative first-band lane. Apply
 the 2-adic singleton screen and test its 419 exact cofactors directly; do not
 scan an arbitrary interval. Later bands `N=256,s>=6` and `N=512,s>=3` remain
