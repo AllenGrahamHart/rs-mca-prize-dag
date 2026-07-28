@@ -6698,3 +6698,20 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 compute spend: none; CR-L1-H15-COLOR0 retired
 next route-deciding action: return to h=7 one-repeat/collision-free degree two
 ```
+
+**2026-07-29, L1 h=7 quadratic pointwise composition:** Bézout saturation at
+six roots upgrades the pointwise equations to a polynomial identity and a
+new equation in the HNF parameters alone.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition
+composition identity:
+  A^p E^3+B^p W E^2+C^p W^2 E-W^2=A^p A^3 L
+coefficient consequence: C/A=(1-rho*c)/(c-1)^2
+pure HNF consequence: g(1)=(1-rho*c)^3
+scope: every h=7 quadratic collision chamber
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; exact assignment-preserving degree argument
+next route-deciding action: expand g(1) on the h=7 conic and eliminate
+                              rho*c before any collision-specific work
+```

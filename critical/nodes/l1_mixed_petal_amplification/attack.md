@@ -726,6 +726,13 @@
   collision-free and one-repeat chambers substitute (QCRS4) and (QCRS5),
   respectively; do not discard the double factor of the repeated color.
 
+- Before splitting the `h=7` quadratic collisions, consume
+  `l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition`. Every
+  quadratic packet satisfies the assignment-preserving identity (QPC2) and
+  the pure HNF equation `g(1)=(1-rho*c)^3`. Intersect this equation with the
+  residual conic once for all three collision chambers; do not replace it by
+  a color-multiset norm argument on unconstrained interpolant coefficients.
+
 - More generally consume
   `l1_mersenne_hnf_order_one_color_degree_barrier`. The pointwise degree-`d`
   color equations define curves of degrees `d` and `d+1`, so `H<=d(d+1)`.
