@@ -166,6 +166,20 @@ a second decomposition of inner degree `2`, `3`, or `6`. Thus all four
 drops from 22 to 18 types in live degrees `2,3,4,6`. Endpoints are not
 claimed to lack every degree-10 decomposition, and no owner charge moves.
 
+The PROVED `rate_half_kb_m6_scott_cartesian_degree2_router` removes inner
+degree `6` as an independent producer. If the ten-block kernel is trivial,
+the complete transitive degree-ten catalogue leaves four wreath actions
+whose endpoint-stabilizer chains all have an intermediate index-five
+subgroup; `A10,S10` have no primitive degree-six point-stabilizer quotient.
+Thus the kernel-free branch hits the already excluded degree-five row. With
+nontrivial kernel, Scott-compatible synchronized columns have size five or
+ten. Size five is excluded; in size ten the actual four-point orbit lies in
+one column, so the degree-ten column map has a forbidden same-fiber
+subdegree four and factors to degree two or five. Thus every `m=6` producer
+dies or routes to `m=2`. The independent frontier drops from 18 to 12 types
+in live degrees `2,3,4`. Degree two is not deleted or paid, and no owner
+charge moves.
+
 ## Banked range
 
 Put

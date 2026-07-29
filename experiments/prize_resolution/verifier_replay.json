@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/verify.py",
-      "seconds": 0.024624,
+      "script": "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify.py",
+      "seconds": 0.021761,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M10_SCOTT_STRIP_LOWER_DEGREE_ROUTER_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M6_SCOTT_CARTESIAN_DEGREE2_ROUTER_PASS\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/verify_audit.py",
-      "seconds": 0.03864,
+      "script": "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify_audit.py",
+      "seconds": 0.361648,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M10_SCOTT_STRIP_LOWER_DEGREE_ROUTER_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M6_SCOTT_CARTESIAN_DEGREE2_ROUTER_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

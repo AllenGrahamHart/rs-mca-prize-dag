@@ -5831,6 +5831,43 @@ next route-deciding action:
 compute spend: exact 720-permutation flag audit under tiny RAMguard; no Modal
 ```
 
+**2026-07-29, inner-degree-6 Scott-Cartesian degree-two route:** all six
+degree-six transverse types die through degree five or route to degree two.
+
+```text
+new node: rate_half_kb_m6_scott_cartesian_degree2_router [PROVED]
+kernel-free classification:
+  45 transitive degree-10 groups -> order divisible by 600 -> entries 40..45
+  A10 and S10 point stabilizers have no primitive degree-6 quotient
+  four wreath cases have exact endpoint/intermediate indices 6 and 5
+nontrivial-kernel route:
+  degree-6 socles are A5 or A6 with subdegrees 1,5
+  Scott twists refine into uniform permutation-compatible classes
+  the actual four-point orbit forces compatible class size 5 or 10
+  size 5 is the excluded degree-five row
+  size 10 puts the four-point orbit in one degree-10 column fiber
+  primitive degree-10 subdegrees exclude 4, so the column map factors
+  proper right-factor degrees are 2 or 5; only degree 2 survives
+route consequence:
+  m=6 has no independent terminal producer
+  global independent transverse frontier: 18 -> 12 types
+  live independent decomposition degrees: 2,3,4
+exact audit:
+  explicit groups of orders 7200,14400,14400,28800
+  endpoint stabilizers 720,1440,1440,2880
+  intermediate subgroup index 5 in every case
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no degree-two deletion or payment, owner, carrier/data bridge, charge,
+  u2, cap 68, endpoint, adjacent certificate, or KoalaBear row close
+next route-deciding action:
+  classify degree 4 using the actual quartic suborbit before any endpoint
+  record expansion
+compute spend: four exact groups, maximum order 28800, under tiny RAMguard;
+               no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

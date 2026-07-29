@@ -18723,7 +18723,26 @@
     "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/result.md",
     "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/frontier.md",
     "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/verify.py",
-    "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/verify_audit.py"
+   "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/verify_audit.py"
+  ]
+ },
+  {
+   "id": "rate_half_kb_m6_scott_cartesian_degree2_router",
+   "title": "KoalaBear m6 Scott-Cartesian degree-two router",
+   "status": "PROVED",
+   "closure": "kernel-free wreath intermediate blocks plus Scott-compatible column routing",
+   "statement": "For an inner-degree-six terminal, a trivial ten-block kernel leaves four wreath actions whose primitive degree-six chains all have an index-five intermediate subgroup; A10 and S10 have no such point-stabilizer quotient. Otherwise Scott-compatible synchronized classes have size five or ten. Size five is already excluded; size ten puts the actual four-point orbit in one degree-ten column fiber, forcing that map to factor to inner degree two or five. Thus every m6 producer dies or routes to m2, leaving 12 independent transverse types in degrees 2,3,4. No degree-two deletion, owner, charge, u2, cap 68, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/statement.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/proof.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/source_evidence.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/audit.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/result.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/frontier.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify.py",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify_audit.py"
    ]
   },
   {
@@ -36735,6 +36754,21 @@
   },
   {
    "from": "rate_half_kb_m10_scott_strip_lower_degree_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
+   "to": "rate_half_kb_m6_scott_cartesian_degree2_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_degree5_decomposition_exclusion",
+   "to": "rate_half_kb_m6_scott_cartesian_degree2_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m6_scott_cartesian_degree2_router",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
