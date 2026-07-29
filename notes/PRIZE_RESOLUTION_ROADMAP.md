@@ -7572,3 +7572,30 @@ launch gate: Modal workspace spend-blocked; explicit spend-access change
 closure fence: returned factors are candidates until every structural, role,
                P_4, saturation, and arithmetic-lift equation is replayed
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` exceptional-E quadratic router:** the
+parallel `E_G=0` coefficient chart now reduces to bounded univariate data.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router
+exceptional quadratic:
+  E_G=-720bq^2+(240b^2-1902b-630)q
+      -40b(b^2-6b+27)
+affine cancellation:
+  a_2E_G-e_2F_b=S_1q+S_0
+generic exceptional chart:
+  q=-S_0/S_1
+  V(b)=a_2S_0^2-a_1S_0S_1+a_0S_1^2=0
+  X_E(b)=S_1^3X_*(b,-S_0/S_1)=0
+singular charts:
+  S_1=S_0=0 with F_b=X_*=0 retained
+  a_2=0 with fixed b^2,q and E_G=X_*=0 retained
+degree ledger:
+  deg(S_1)<=5, deg(S_0)<=7, deg(V)<=16, deg(X_E)<=23
+scope fence: no gcd/root or emptiness verdict; all structural, role, P_4,
+             saturation, and arithmetic-lift equations remain
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: obtain proof-producing gcds for (V,X_E) and the
+                              simultaneous singular coefficient charts
+```
