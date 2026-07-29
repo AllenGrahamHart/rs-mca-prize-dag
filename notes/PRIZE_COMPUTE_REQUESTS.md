@@ -7889,7 +7889,9 @@ the outer stage into exactly two low-dimensional tasks.
   polynomial of `q`-degree at most six. Consume
   `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router`
   and
-  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler`.
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler`,
+  together with the parallel exceptional-`E_G` router and structural
+  compiler.
   Its exact recurrence leaves `rho_1(b)q+rho_0(b)` modulo `F_b`; off the two
   printed singular charts it reconstructs `q` and leaves
 
@@ -7902,10 +7904,10 @@ the outer stage into exactly two low-dimensional tasks.
 
   ```text
   experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
-  sha256 6473b8cb333c63473a344acbc414c4b919380aef219b3035a037445ff3eea80c
+  sha256 12d8ef0946ebcb90b3ec877cb6b4af017e4c4e4d110a6ef57fae42c1fa33f9e8
 
   experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
-  sha256 987ad970d278f510bbfc45453ce506b4100c9a749c56123aadf34a5fe3186c4e
+  sha256 d234633b7b3e813eebc43f0240a29874c82ef6e6ba47f1fc889ba09b75afd63f
   ```
 
   It runs one independent one-CPU, 512 MB, 60-second task per official prime,
@@ -7922,7 +7924,9 @@ the outer stage into exactly two low-dimensional tasks.
   independently reconstructs all source polynomials, verifies factor
   multiplication, both pairwise Bezout identities, all three quotient-filter
   remainders, and the four-way Bezout identity. It accepts partial packets
-  unless `--require-complete` is requested.
+  unless `--require-complete` is requested. In the same row it reconstructs
+  `V_E,X_E,Zhat_D^e,Zhat_Q^e,Zhat_R^e`, reduces the last four modulo
+  `V_E`, and emits an independently checked five-way Bezout certificate.
 
   The four small degree-58 factorizations should cost below `$0.01`. This
   request gives a structural chamber verdict: a unit four-way gcd excludes
@@ -7930,7 +7934,9 @@ the outer stage into exactly two low-dimensional tasks.
   gives route data, not closure; only its surviving factors proceed to the
   role, `P_4`, saturation, and arithmetic-lift equations. The explicit
   `U_IDENTICALLY_ZERO` status is non-conclusive. No launch is authorized while
-  the Modal workspace is spend-blocked; wait for an explicit spend-access
+  the Modal workspace is spend-blocked. A unit exceptional five-way gcd
+  likewise excludes the `a_2*S_1*J_*!=0` exceptional chart; a nonunit gcd or
+  `V_E_IDENTICALLY_ZERO` remains open. Wait for an explicit spend-access
   change.
 
   The requested decision is whether every branch in one complete

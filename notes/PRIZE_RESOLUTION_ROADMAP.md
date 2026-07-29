@@ -6995,8 +6995,8 @@ singular-J0 gcd launcher/checker digests:
   39ccbf6493dc3a421935dbbd0b1e31e761c4e13b2c3f48eaa3c6b87d44a987e0
   a653511eb927b1627258d7c2e25e6b46439827140d1fabab743a2404e771469c
 fully-proportional quotient launcher/checker digests:
-  6473b8cb333c63473a344acbc414c4b919380aef219b3035a037445ff3eea80c
-  987ad970d278f510bbfc45453ce506b4100c9a749c56123aadf34a5fe3186c4e
+  12d8ef0946ebcb90b3ec877cb6b4af017e4c4e4d110a6ef57fae42c1fa33f9e8
+  d234633b7b3e813eebc43f0240a29874c82ef6e6ba47f1fc889ba09b75afd63f
 replay status: pending; local computation is prohibited and Modal is
                currently spend-blocked
 status_ours: PROVED
@@ -7579,7 +7579,8 @@ launcher: experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_q
 checker: experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
 work: factor degree-at-most-58 U over four official fields; certify
       gcd(rho_1,rho_0), the a_2=0 chart, all degree-1/2 eligible factors,
-      and gcd(U,Zhat_D,Zhat_Q,Zhat_R) by a four-way Bezout identity
+      gcd(U,Zhat_D,Zhat_Q,Zhat_R) by a four-way Bezout identity, and
+      gcd(V_E,X_E,Zhat_D^e,Zhat_Q^e,Zhat_R^e) by a five-way identity
 limits: one CPU, 512 MB, 60 seconds per prime, at most four containers,
         no retries, atomic partial output
 estimated cost: below $0.01
@@ -7587,8 +7588,9 @@ status: source-complete, syntax-only validation, unrun
 launch gate: Modal workspace spend-blocked; explicit spend-access change
              required before launch
 closure rule: a unit four-way gcd excludes the generic coefficient/structural
-              chart for that prime; nonunit factors still require role, P_4,
-              saturation, and arithmetic-lift replay
+              chart for that prime, and a unit five-way gcd excludes the
+              generic exceptional chart; nonunit factors still require role,
+              P_4, saturation, and arithmetic-lift replay
 ```
 
 **2026-07-29, L1 h=7 cubic `3+2+1` exceptional-E quadratic router:** the
@@ -7693,6 +7695,28 @@ retained charts: S_1=0, a_2=0, and J_*=0; role, P_4, saturations,
                  and arithmetic lifts also remain
 compute spend: none
 DAG delta: one PROVED background node and two edges; no critical status flip
-next route-deciding action: build a bounded five-way gcd packet for the
-                              exceptional generic chart
+next route-deciding action: consume the shared five-way packet after an
+                              explicit spend-access change
+```
+
+**2026-07-29, L1 h=7 shared exceptional structural-gcd extension:** the
+existing four-prime packet now decides both reconstructed coefficient charts
+in each future container.
+
+```text
+exceptional source: V_E, cubic-cleared X_E, and primitive integer
+                    q-coefficient tables for Z_D^e,Z_Q^e,Z_R^e
+bounded substitution: compute X_E and each Zhat_i^e modulo V_E
+certificate: five-way Bezout identity for
+             gcd(V_E,X_E,Zhat_D^e,Zhat_Q^e,Zhat_R^e)
+UNIT meaning: a_2*S_1*J_*!=0 exceptional coefficient/structural chart
+              excluded on that prime
+HIT meaning: only common factors continue to role, P_4, saturation, and lifts
+non-verdict: explicit V_E_IDENTICALLY_ZERO branch
+resource delta: no new containers, CPUs, memory, retries, or timeout
+estimated total cost: still below $0.01
+status: source-complete, syntax-only validation, unrun; Modal spend-blocked
+compute spend: none
+DAG delta: none; this packet consumes the two existing structural compilers
+next route-deciding action: run only after an explicit spend-access change
 ```
