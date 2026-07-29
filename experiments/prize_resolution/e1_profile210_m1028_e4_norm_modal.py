@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Shard the profile-(2,10), m=1028, energy-four norm screen on Modal."""
+"""Run the profile-(2,10), m=1028, energy-four CRT norm screen on Modal."""
 
 from __future__ import annotations
 
@@ -8,12 +8,17 @@ from itertools import combinations, product
 import json
 from math import comb
 from pathlib import Path
+import runpy
 
 import modal
 
 
+ROOT = Path(__file__).resolve().parents[2]
+ENGINE_PATH = ROOT / "experiments/prize_resolution/e1_profile210_m1028_e3_modular_norm.py"
 app = modal.App("e1-profile210-m1028-e4-norm")
-image = modal.Image.debian_slim()
+image = modal.Image.debian_slim().add_local_file(
+    str(ENGINE_PATH), "/engine.py", copy=True
+)
 B_PRIZE = 317494674775468773183020924238786383963
 P_MIN = B_PRIZE * 2**128
 P_MAX = (B_PRIZE + 1) * 2**128 - 1
@@ -43,46 +48,6 @@ def chebyshev_polynomials(limit: int) -> list[list[int]]:
     return polynomials
 
 
-def multiplication_norm(modulus: list[int], value: list[int]) -> int:
-    degree = len(modulus) - 1
-    matrix = [[0] * degree for _ in range(degree)]
-    for column in range(degree):
-        reduced = [0] * column + value[:]
-        for top in range(len(reduced) - 1, degree - 1, -1):
-            coefficient = reduced[top]
-            if coefficient:
-                shift = top - degree
-                for index, entry in enumerate(modulus):
-                    reduced[index + shift] -= coefficient * entry
-        for row in range(degree):
-            matrix[row][column] = reduced[row] if row < len(reduced) else 0
-
-    previous = 1
-    determinant_sign = 1
-    for pivot_index in range(degree - 1):
-        if matrix[pivot_index][pivot_index] == 0:
-            swap = next(
-                row
-                for row in range(pivot_index + 1, degree)
-                if matrix[row][pivot_index]
-            )
-            matrix[pivot_index], matrix[swap] = matrix[swap], matrix[pivot_index]
-            determinant_sign *= -1
-        pivot = matrix[pivot_index][pivot_index]
-        for row in range(pivot_index + 1, degree):
-            for column in range(pivot_index + 1, degree):
-                numerator = (
-                    matrix[row][column] * pivot
-                    - matrix[row][pivot_index] * matrix[pivot_index][column]
-                )
-                if numerator % previous:
-                    raise RuntimeError("non-exact Bareiss division")
-                matrix[row][column] = numerator // previous
-            matrix[row][pivot_index] = 0
-        previous = pivot
-    return determinant_sign * matrix[-1][-1]
-
-
 def autocorrelation_multiplicity(lags: tuple[int, ...]) -> int:
     exponents = []
     for lag in lags:
@@ -97,8 +62,11 @@ def autocorrelation_multiplicity(lags: tuple[int, ...]) -> int:
     )
 
 
-@app.function(image=image, cpu=1.0, memory=1024, timeout=60, max_containers=60)
-def certify_first_lag(first: int) -> dict[str, object]:
+def certify_first_lag_exact(first: int, engine_path: str) -> dict[str, object]:
+    engine = runpy.run_path(engine_path)
+    if not all(engine["is_prime"](prime) for prime in engine["PRIMES"]):
+        raise RuntimeError("CRT primality check failed")
+    exact_norm = engine["exact_norm"]
     chebyshev = chebyshev_polynomials(64)
     root = 3
     rational_prime = 257
@@ -128,7 +96,7 @@ def certify_first_lag(first: int) -> dict[str, object]:
             value = [18]
             for sign, lag in zip(signs, lags):
                 value = polynomial_add(value, chebyshev[lag], sign)
-            norm = abs(multiplication_norm(chebyshev[64], value))
+            norm = exact_norm(chebyshev[64], value)
             if norm % COFACTOR:
                 raise RuntimeError(f"cofactor divisibility failed: {lags}, {signs}")
             quotient = norm // COFACTOR
@@ -155,6 +123,11 @@ def certify_first_lag(first: int) -> dict[str, object]:
         "maximum": maximum,
         "digest": sha256("\n".join(rows).encode("ascii")).hexdigest(),
     }
+
+
+@app.function(image=image, cpu=1.0, memory=512, timeout=60, max_containers=1)
+def certify_first_lag(first: int) -> dict[str, object]:
+    return certify_first_lag_exact(first, "/engine.py")
 
 
 @app.local_entrypoint()

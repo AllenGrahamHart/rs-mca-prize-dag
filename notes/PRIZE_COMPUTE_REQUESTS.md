@@ -10130,8 +10130,7 @@ proof-producing certificate is worth engineering.
 ## E1 profile-(2,10), cofactor-1028 low-energy certification
 
 **Priority:** high. **Local execution:** forbidden. **Expected Modal cost:**
-well below `$1` for the energy-four stage; price energies five and six before
-launching them.
+well below `$1` for the energy-four stage.
 
 The proved route originally left `m=1028=4*257` at autocorrelation energies
 `E in {2,3,4,5,6}`. Exact small screens showed:
@@ -10149,11 +10148,13 @@ Run
   experiments/prize_resolution/e1_profile210_m1028_e4_norm_modal.py
 ```
 
-The launcher uses 60 first-lag shards, 1 GiB each, a 60-second worker limit,
-and rewrites a local checkpoint after every returned shard. Each worker
-reconstructs its targets and exact degree-64 Bareiss determinants from
-scratch. The expected terminal census is `8385` exact quotients, all below
-`p_min`. Preserve partial JSON if the run is interrupted.
+The launcher submits 60 first-lag shard calls to one 512 MiB container with a
+60-second per-call limit, and rewrites a local checkpoint after every returned
+shard. It uses nine trial-division-certified 31-bit primes and CRT to
+reconstruct every exact degree-64 resultant below the `18^64` AM-GM ceiling.
+This is the same engine already certified on all 329 energy-three types and
+five independent Bareiss norms. The expected terminal census is `8385` exact
+quotients, all below `p_min`. Preserve partial JSON if the run is interrupted.
 
 Launch log, 2026-07-29: one launch attempt was rejected before any container
 started because workspace `ac-WIsI8fedhlHGSBu0g8EiyG` had exceeded its spend

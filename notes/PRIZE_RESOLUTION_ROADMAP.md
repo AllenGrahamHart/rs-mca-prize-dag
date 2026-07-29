@@ -8989,6 +8989,12 @@ recurrence. The replay uses about 17 MiB and 1.5 seconds locally. Replace the
 queued 60-container energy-four Bareiss plan with the same modular engine;
 the remaining 8,385 types should fit one low-memory, sub-minute Modal worker.
 
+The queued launcher has now been revised accordingly: 60 checkpointed
+first-lag calls are serialized through one 512 MiB container, and every norm
+is reconstructed by the certified nine-prime CRT engine. The prior rejected
+launch allocated no container and spent no credit; do not retry until the
+workspace spend limit is restored.
+
 **2026-07-29, profile-(2,10) cofactor-514 outer-window contraction:** exact
 logarithm bounds remove both ends of the wider split-prime branch.
 
