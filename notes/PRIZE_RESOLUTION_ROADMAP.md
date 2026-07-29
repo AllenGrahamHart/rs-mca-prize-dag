@@ -9227,3 +9227,21 @@ the all-unit energy-twelve row. Its continuous two-moment envelope misses the
 field-floor comparison slightly, so a further close must spend a discrete
 trace, local-multiplicity, or fixed-root constraint rather than repeat the
 same moment inequality.
+
+**2026-07-29, energy-twelve root/parity route cut:** even the combined
+autocorrelation-level necessary screen is nonempty. The explicit target
+
+```text
+D={1,...,11,15},                    A_d=+1 on D
+energy/profile:                     (12;12,0,0)
+local parity multiplicity:          2
+primitive root modulo 257:          148=3^59
+uniform unit-circle floor:           Y>=4
+cubic relation index:               K=378
+```
+
+survives energy, local parity, factor-257, positivity, and cubic-moment
+checks. This is not an 18-singleton coefficient realization and has no
+official exact-norm claim. It proves that the first genuinely selective gate
+is now integral singleton spectral-factor realization; exact norm grouping
+comes only after that gate.

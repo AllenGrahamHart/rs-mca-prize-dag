@@ -8,6 +8,8 @@
    `18+sum_d A_d(s^d+s^-d)=0 mod 257` and local multiplicity two.
    The Hermite moment exclusion has already removed `(9;1,2,0)` and
    `(11;7,1,0)`; do not enumerate them.
+   The explicit `{1,...,11,15}` energy-twelve target survives root, parity,
+   positivity, and cubic-moment screens, so this stage cannot close the route.
    The proved singleton-completion no-go shows that `F(s)=0` plus local
    multiplicity one, without the low-energy gate, admits all 128 ideals.
 3. Impose coefficient realization for 18 distinct signed singleton terms;
