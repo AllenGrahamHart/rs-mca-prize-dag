@@ -783,6 +783,12 @@
   `lambda`. There are at most 42 role packets before row sharding; do not
   replay the generic degree-nine remainder for each root assignment.
 
+- On the collision-free cubic profile, consume
+  `l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router`.
+  Replace 28 missing-color pairs by the four cyclic distances and impose
+  `Res_W(L,X-E)M_delta=X^8-1`. Retain the squarefree value-resultant
+  saturation; this identity is invalid on every repeated-color profile.
+
 - More generally consume
   `l1_mersenne_hnf_order_one_color_degree_barrier`. The pointwise degree-`d`
   color equations define curves of degrees `d` and `d+1`, so `H<=d(d+1)`.

@@ -19771,6 +19771,23 @@
    "notes": "Exact low-degree necessary factor model for 3+2+1 only. No factor packet is declared empty and all norm, Frobenius, cyclotomic, and inner filters remain open."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic collision-free value router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a collision-free cubic interpolant, the monic value resultant V_E=Res_W(L,X-E) is the product of the six used eighth-root colors. Multiplying by the quadratic for the missing pair gives V_E M_delta=X^8-1; cyclic translation reduces the 28 missing pairs to four distance packets delta=1,2,3,4.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/verify.py"
+   ],
+   "notes": "Exact p-free necessary router for collision-free cubic colors. No distance packet is declared empty and all assignment, norm, cyclotomic, and inner filters remain open."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -36336,6 +36353,21 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_color_degree_barrier",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

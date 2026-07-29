@@ -6837,3 +6837,19 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: compile the cubic-factor resultant coefficients
                               once, then specialize the 42 lambda values
 ```
+
+**2026-07-29, L1 h=7 collision-free cubic router:** the injective color
+profile now has four missing-pair distance packets.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router
+profile: 1+1+1+1+1+1
+raw missing pairs: C(8,2)=28
+cyclic-distance packets: 4 with sizes 8,8,8,4
+value identity: Res_W(L,X-E)(X-1)(X-omega^delta)=X^8-1
+p-free packets: 4 before row and norm sharding
+compute spend: none; contributor packet CR-L1-H7-C3-INJ recorded
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: route the remaining four- and five-color cubic
+                              profiles by squarefree value products
+```

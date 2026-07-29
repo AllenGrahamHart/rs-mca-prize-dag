@@ -7653,6 +7653,20 @@ the outer stage into exactly two low-dimensional tasks.
   gcd-degree subresultants; add official norm equations only to retained
   p-free factors.
 
+  **Contributor request CR-L1-H7-C3-INJ:** consume
+  `l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router`. Build
+  `V_E(X)=Res_W(L_(r,d),X-E)` once for a generic exact cubic. For each
+  `delta=1,2,3,4`, compare the eight nonleading coefficients in
+
+  ```text
+  V_E(X)(X-1)(X-omega^delta)=X^8-1
+  ```
+
+  together with the h=7 conic. Saturate by `lc(E)*disc(L)*disc(V_E)` and
+  HNF denominators. Classify the four p-free ideals before adding any row or
+  norm equation; preserve partial generators and dimensions after each
+  60-second shard. Do not launch on the current spend-blocked account.
+
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
 
