@@ -6891,10 +6891,11 @@ local theorems:
   l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction
   l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler
   l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler
 local source commits: 3380ea30, 1c2bfd55, 8d847b9e, e10d4683, 59497c96,
-                      44a9d6bb
+                      44a9d6bb, 0dfd4714
 upstream base: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
-PR head: db1393e7263d12f77610648a093e5fa3ea19076e
+PR head: 1f1fc64fb5e478702f68fd2be58e407338c433e2
 PR state at custody refresh: OPEN, DRAFT; mergeability pending
 upstream files:
   experimental/notes/l1/l1_m8_h7_order_one_cubic_33_exclusion.md
@@ -6907,10 +6908,11 @@ proof endpoint: d in {-3/2,-3}; norms 9/4 and 9 contradict mu_8 on all
                 four declared Mersenne characteristics
 additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
                       exceptional 2+2+2 slopes; one degree-42 symbolic role
-                      polynomial for the four-variable 3+2+1 core
+                      polynomial for the four-variable 3+2+1 core; one
+                      five-shape affine-color equation for generic 2+2+2
 replay digests:
   8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
-  4124a850994b029403317f818e874616d7b3831b709e4aa7aa5f4ebfbbda9abb
+  c2b0faa609239f7ab10b3c4198abb584eb2fd20b10600c6bc2fa47d5a2f7e24b
 compute-request digest:
   d3b4aacf170e13fecdf36718f8566bd597beacf4965aa1584077dbe61db9f695
 compute-certificate checker digest:
