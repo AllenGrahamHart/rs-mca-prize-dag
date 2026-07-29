@@ -7905,10 +7905,10 @@ the outer stage into exactly two low-dimensional tasks.
 
   ```text
   experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
-  sha256 59bb96e395c4eac8ada98417bc7e68f59c905cb7dcfec9219aad71578097119b
+  sha256 c5ccd14b02e0b0119fbcbbaa20f7eae7214716c13a2e9b8158cce50674bb51af
 
   experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
-  sha256 d25dc17b956ace1f4faa97acc533fe99492089658eb5b103bcfc70711667a609
+  sha256 92b6d6d9e42b15a9c476aea154bfabc57b652a5d54d203c15c79036f09051643
   ```
 
   It runs one independent one-CPU, 512 MB, 60-second task per official prime,
@@ -7949,6 +7949,18 @@ the outer stage into exactly two low-dimensional tasks.
   The checker independently reconstructs all seven source polynomials,
   verifies the six-way Bezout identity and complete factorization, and
   recomputes the `T` guard and field-degree classifications.
+  The packet now also constructs the 21 official role alternatives without
+  intersecting them. For each role it instantiates the proved
+  `Lhat_Phi,What_Phi` templates, emits an eight-way Bezout certificate for
+  the six shared filters plus those two role filters, factors the common
+  gcd, and repeats the `T`-guard and exact degree-`1,2,4,8` eligibility
+  classification. The checker independently reconstructs the three base
+  roles and nine signed `sqrt(2)` template pairs, verifies their nonzero
+  nonsquare discriminants, re-instantiates both role polynomials, and checks
+  all 21 eight-way certificates and classifications. The role-summary status
+  is `ALL_EMPTY` only when all 21 alternatives are official-field empty;
+  any eligible factor gives `HIT`, while any identically-zero family makes
+  the summary `INCONCLUSIVE`.
 
   The four small degree-58 factorizations should cost below `$0.01`. This
   request gives a structural chamber verdict: a unit four-way gcd excludes
@@ -7965,8 +7977,13 @@ the outer stage into exactly two low-dimensional tasks.
   degrees cannot contain `b in F_(p^8)`. `quadratic_subfield_status` remains
   diagnostic. This extension adds no containers, CPUs, memory, retries, or
   timeout. The same semantics apply to the `J_*=0` endpoint after removing
-  `T` factors. `IDENTICALLY_ZERO_FAMILY` is explicitly inconclusive. Wait for
-  an explicit spend-access change.
+  `T` factors. In the role extension, `ALL_EMPTY` excludes the entire
+  exceptional-`J_*=0` coefficient/structural/role/`P_4` chart for that row;
+  each `HIT` still owes reconstructed-variable saturations, both ambient role
+  roots where applicable, and arithmetic lifts. `IDENTICALLY_ZERO_FAMILY`
+  is explicitly inconclusive. The extended packet remains source-complete
+  but unrun, and its completion within the fixed 60-second task ceiling is
+  unmeasured. Wait for an explicit spend-access change.
 
   The requested decision is whether every branch in one complete
   representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber

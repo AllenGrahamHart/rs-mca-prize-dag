@@ -8111,3 +8111,40 @@ upstream custody:
 next route-deciding action: reconsider 21 role families against the exact
                               degree-1/2/4/8 survivor interface
 ```
+
+**2026-07-29, L1 h=7 official-role gcd packet:** the spend-blocked
+fully-proportional packet now compiles every role alternative through the
+exact degree-eight field interface.
+
+```text
+shared filters per row:
+  Bhat,Ehat,Fhat,Xhat,Zhat_D^j,Zhat_R^j
+official alternatives:
+  H1,H2,H3 and Q4+/Q4- through Q12+/Q12- (21 total)
+per-role filters:
+  Lhat_Phi, What_Phi
+per-role certificate:
+  eight-way Bezout identity, complete monic-gcd factorization,
+  T-zero guard classification, legal factors, exact degree-1/2/4/8
+  cyclotomic-field factors, and degree-1/2 diagnostic factors
+disjunction discipline: each role is certified separately; roles are never
+                       intersected
+aggregate semantics:
+  ALL_EMPTY    all 21 official role charts are empty for the row
+  HIT          at least one role has an official-field-eligible b factor
+  INCONCLUSIVE at least one eight-polynomial family is identically zero
+HIT obligations: reconstructed-variable saturations, both eta roots where
+                 applicable, and arithmetic lifts
+launcher:
+  c5ccd14b02e0b0119fbcbbaa20f7eae7214716c13a2e9b8158cce50674bb51af
+checker:
+  92b6d6d9e42b15a9c476aea154bfabc57b652a5d54d203c15c79036f09051643
+validation: AST-only; packet arithmetic remains unrun
+resource delta: none; four one-CPU, 512 MB, 60-second tasks, no retries,
+                atomic partial output; completion time is unmeasured
+compute spend: none; Modal workspace remains spend-blocked
+DAG delta: none until a complete checked result exists
+upstream custody: pending source/checker parity update in draft PR #1120
+next route-deciding action: export the packet; when spend access is explicitly
+                              restored, run and replay all four rows
+```
