@@ -7891,7 +7891,7 @@ the outer stage into exactly two low-dimensional tasks.
   and
   `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler`,
   together with the parallel exceptional-`E_G` router and structural
-  compiler.
+  compiler, and the exceptional singular-affine two-quartic router.
   Its exact recurrence leaves `rho_1(b)q+rho_0(b)` modulo `F_b`; off the two
   printed singular charts it reconstructs `q` and leaves
 
@@ -7904,10 +7904,10 @@ the outer stage into exactly two low-dimensional tasks.
 
   ```text
   experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
-  sha256 12d8ef0946ebcb90b3ec877cb6b4af017e4c4e4d110a6ef57fae42c1fa33f9e8
+  sha256 06e941be7bd231d993a63ebb83c0855f0798524a10e86249e9796f9b7a02f3c0
 
   experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
-  sha256 d234633b7b3e813eebc43f0240a29874c82ef6e6ba47f1fc889ba09b75afd63f
+  sha256 9174a04da730f47d594c65dbc0f0d8d20aaa8a064cc225c51ef69e68d6baf1de
   ```
 
   It runs one independent one-CPU, 512 MB, 60-second task per official prime,
@@ -7927,6 +7927,13 @@ the outer stage into exactly two low-dimensional tasks.
   unless `--require-complete` is requested. In the same row it reconstructs
   `V_E,X_E,Zhat_D^e,Zhat_Q^e,Zhat_R^e`, reduces the last four modulo
   `V_E`, and emits an independently checked five-way Bezout certificate.
+  Finally it reconstructs the degree-four singular-affine pair `H,K`, emits
+  a pairwise Bezout gcd certificate, factors that gcd, flags every factor
+  lying on the separately excluded `A=1575-247z=0` chart, and lists exactly
+  the remaining irreducible factors of degree at most two. Those and only
+  those factors can have roots in the ambient quadratic field. The checker
+  independently reconstructs `A,H,K`, checks the gcd and factorization, and
+  recomputes the guard and ambient-degree classifications.
 
   The four small degree-58 factorizations should cost below `$0.01`. This
   request gives a structural chamber verdict: a unit four-way gcd excludes
@@ -7936,8 +7943,12 @@ the outer stage into exactly two low-dimensional tasks.
   `U_IDENTICALLY_ZERO` status is non-conclusive. No launch is authorized while
   the Modal workspace is spend-blocked. A unit exceptional five-way gcd
   likewise excludes the `a_2*S_1*J_*!=0` exceptional chart; a nonunit gcd or
-  `V_E_IDENTICALLY_ZERO` remains open. Wait for an explicit spend-access
-  change.
+  `V_E_IDENTICALLY_ZERO` remains open. For the singular-affine chart,
+  `ambient_status=EMPTY` excludes the chart even when the polynomial gcd has
+  only higher-degree or `A=0` factors; `ambient_status=HIT` returns the exact
+  eligible factors for the retained `F_b=X_*=0` and downstream filters. This
+  extension adds no containers, CPUs, memory, retries, or timeout. Wait for
+  an explicit spend-access change.
 
   The requested decision is whether every branch in one complete
   representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber

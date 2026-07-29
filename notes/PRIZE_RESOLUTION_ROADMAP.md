@@ -6988,7 +6988,7 @@ additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
                       three-variable packets for generic 2+2+2
 replay digests:
   8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
-  f0a6ef84c254b6f6ecc4b2eb5ec468c4ecd604739713ae129939702d97e834de
+  8a07454eed5a1171fe364d34ba3f4b5be8d622e5e7bdba625ebd4766dcb15756
 compute-request digest:
   d3b4aacf170e13fecdf36718f8566bd597beacf4965aa1584077dbe61db9f695
 compute-certificate checker digest:
@@ -6997,8 +6997,8 @@ singular-J0 gcd launcher/checker digests:
   39ccbf6493dc3a421935dbbd0b1e31e761c4e13b2c3f48eaa3c6b87d44a987e0
   a653511eb927b1627258d7c2e25e6b46439827140d1fabab743a2404e771469c
 fully-proportional quotient launcher/checker digests:
-  12d8ef0946ebcb90b3ec877cb6b4af017e4c4e4d110a6ef57fae42c1fa33f9e8
-  d234633b7b3e813eebc43f0240a29874c82ef6e6ba47f1fc889ba09b75afd63f
+  06e941be7bd231d993a63ebb83c0855f0798524a10e86249e9796f9b7a02f3c0
+  9174a04da730f47d594c65dbc0f0d8d20aaa8a064cc225c51ef69e68d6baf1de
 replay status: pending; local computation is prohibited and Modal is
                currently spend-blocked
 status_ours: PROVED
@@ -7582,7 +7582,10 @@ checker: experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportiona
 work: factor degree-at-most-58 U over four official fields; certify
       gcd(rho_1,rho_0), the a_2=0 chart, all degree-1/2 eligible factors,
       gcd(U,Zhat_D,Zhat_Q,Zhat_R) by a four-way Bezout identity, and
-      gcd(V_E,X_E,Zhat_D^e,Zhat_Q^e,Zhat_R^e) by a five-way identity
+      gcd(V_E,X_E,Zhat_D^e,Zhat_Q^e,Zhat_R^e) by a five-way identity;
+      also certify and factor gcd(H,K) for the S_1=S_0 singular chart,
+      flag the already-excluded A=0 factor, and list every non-A factor
+      of degree at most two over the official prime field
 limits: one CPU, 512 MB, 60 seconds per prime, at most four containers,
         no retries, atomic partial output
 estimated cost: below $0.01
@@ -7802,4 +7805,36 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: add the quartic common-root/ambient-degree
                               decision to the existing bounded four-prime
                               packet without increasing its resource envelope
+```
+
+**2026-07-29, L1 h=7 exceptional singular-affine packet extension:** the
+existing unrun four-prime request now decides whether the two-quartic endpoint
+has any root in the ambient quadratic field away from the closed leading
+chart.
+
+```text
+source additions: primitive integer coefficient tables for
+                  A=1575-247z and the quartics H,K
+certificate: pairwise Bezout identity for gcd(H,K), followed by a complete
+             irreducible factorization of the monic gcd
+guard classification: flag every factor dividing A; these belong to the
+                      separately proved exceptional leading-chart exclusion
+ambient classification: retain exactly non-A irreducible factors of degree
+                        at most two over F_p
+EMPTY meaning: no root exists in F_(p^2) on the declared A!=0 chart
+HIT meaning: the listed factors alone continue to b reconstruction,
+             F_b=X_*=0, J_*, structural, role, P_4, saturation, and lifts
+launcher:
+  06e941be7bd231d993a63ebb83c0855f0798524a10e86249e9796f9b7a02f3c0
+checker:
+  9174a04da730f47d594c65dbc0f0d8d20aaa8a064cc225c51ef69e68d6baf1de
+resource delta: none; four one-CPU, 512 MB, 60-second tasks, no retries,
+                atomic partial output
+estimated total cost: still below $0.01
+status: source-complete, AST-only validation, unrun; Modal spend-blocked
+compute spend: none
+DAG delta: none; this consumes the existing singular-affine router
+next route-deciding action: consume only after an explicit spend-access
+                              change; meanwhile export the exact router and
+                              request extension upstream
 ```
