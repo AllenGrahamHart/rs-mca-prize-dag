@@ -6875,25 +6875,40 @@ next route-deciding action: prioritize the smallest p-free cubic cores for
                               unit proofs before any official norm sharding
 ```
 
-**2026-07-29, L1 h=7 cubic `3+3` upstream export:** the proved local
-two-triple exclusion is now available for upstream review as draft PR
+**2026-07-29, L1 h=7 cubic packet upstream export:** the proved local
+two-triple exclusion, the `2+2+2` exceptional reductions, and the `3+2+1`
+common-quadratic compiler are now available for upstream review as draft PR
 [#1120](https://github.com/przchojecki/rs-mca/pull/1120).  The export is
 intentionally classified `LOCAL_ONLY`: it contributes an exact split-pencil
-HNF stratum theorem but does not claim the missing first-match-to-HNF owner
-bridge or any LIST/MCA row payment.
+HNF stratum theorem and exact reductions but does not claim the missing
+first-match-to-HNF owner bridge or any LIST/MCA row payment.
 
 ```text
-local theorem: l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion
-local source commit: 3380ea30
+local theorems:
+  l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler
+local source commits: 3380ea30, 1c2bfd55, 8d847b9e, e10d4683, 59497c96
 upstream base: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
-PR head: ed4dde53135a01125a47b172c9f239aa247eacbc
+PR head: b2ddf13ed5f4ae0338e2a88a5af465d1aa75ae38
 PR state at export: OPEN, DRAFT, MERGEABLE
 upstream files:
   experimental/notes/l1/l1_m8_h7_order_one_cubic_33_exclusion.md
+  experimental/notes/l1/l1_m8_h7_order_one_cubic_profile_reductions.md
   experimental/scripts/verify_l1_m8_h7_order_one_cubic_33_exclusion.py
+  experimental/scripts/verify_l1_m8_h7_order_one_cubic_profile_reductions.py
+  experimental/scripts/l1_m8_h7_cubic_222_norm_endpoints_modal.py
 proof endpoint: d in {-3/2,-3}; norms 9/4 and 9 contradict mu_8 on all
                 four declared Mersenne characteristics
-replay digest: 8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
+additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
+                      exceptional 2+2+2 slopes; four-variable 3+2+1 roles
+replay digests:
+  8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
+  251f29de263d1302ddce657a89e11b7c93ad0ccef4b62ee3b2f5e0e6991dff8e
+compute-request digest:
+  7cbc6e073a88eb74af42b02998b37c5919a8547c0b09770bd6aa147bf39de64f
 replay status: pending; local computation is prohibited and Modal is
                currently spend-blocked
 status_ours: PROVED
