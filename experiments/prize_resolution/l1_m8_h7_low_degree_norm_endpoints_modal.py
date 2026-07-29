@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Bounded aggregate norm gcds for the two h=7 cubic 2+2+2 exceptions.
+"""Bounded aggregate norm gcds for four h=7 low-degree endpoints.
 
 For p == 7 mod 8, the product of the eight norm-color polynomials is
 X^(8(p+1))-1. A unit aggregate gcd therefore certifies all eight individual
@@ -15,7 +15,7 @@ import time
 import modal
 
 
-APP_NAME = "l1-m8-h7-cubic-222-norm-endpoints"
+APP_NAME = "l1-m8-h7-low-degree-norm-endpoints"
 PRIMES = (8191, 131071, 524287, 2147483647)
 
 app = modal.App(APP_NAME)
@@ -96,6 +96,20 @@ def gcd(left: list[int], right: list[int], prime: int) -> list[int]:
 
 
 def endpoint_polynomials() -> dict[str, list[int]]:
+    q2_pair = [4860, -44172, 8199, -15516, 2862, 672, -180, 10, 5]
+
+    a0 = [720, 0, 0, 15]
+    b0 = [-2160, 0, 760, 550, 130]
+    c0 = [2160, 2556, 2844, 1956, 744, 120]
+    a1 = [0, 0, 35]
+    b1 = [0, 378, 378, 154]
+    c1 = [360, 720, 840, 480, 120]
+    ac = add(multiply(a0, c1), multiply(c0, a1), scale=-1)
+    ab = add(multiply(a0, b1), multiply(b0, a1), scale=-1)
+    bc = add(multiply(b0, c1), multiply(c0, b1), scale=-1)
+    q2_all = add(multiply(ac, ac), multiply(ab, bc), scale=-1)
+    assert len(q2_all) == 15 and q2_all[-1] == -691200
+
     p5 = [360, 1218, 1659, 1147, 407, 60]
 
     a = [27, 27, 11]
@@ -115,7 +129,12 @@ def endpoint_polynomials() -> dict[str, list[int]]:
         scale(multiply(b, multiply(e, e)), 10),
     )
     assert len(r12) == 13 and r12[-1] == 149868
-    return {"x0_p5": p5, "q6x2_r12": r12}
+    return {
+        "q2_pair_degree8": q2_pair,
+        "q2_all_degree14": q2_all,
+        "c222_x0_p5": p5,
+        "c222_q6x2_r12": r12,
+    }
 
 
 def input_digest(polynomials: dict[str, list[int]]) -> str:
@@ -135,7 +154,7 @@ def run_all() -> dict[str, object]:
     digest = input_digest(polynomials)
     rows: list[dict[str, object]] = []
     print(
-        "L1_H7_C222_NORM_INPUT "
+        "L1_H7_LOW_DEGREE_NORM_INPUT "
         + json.dumps(
             {
                 "digest": digest,
@@ -164,9 +183,9 @@ def run_all() -> dict[str, object]:
                 "seconds": round(time.monotonic() - row_started, 6),
             }
             rows.append(row)
-            print("L1_H7_C222_NORM_ROW " + json.dumps(row, sort_keys=True), flush=True)
+            print("L1_H7_LOW_DEGREE_NORM_ROW " + json.dumps(row, sort_keys=True), flush=True)
 
-    complete = len(rows) == 8
+    complete = len(rows) == 16
     all_unit = complete and all(row["status"] == "UNIT" for row in rows)
     result = {
         "app": APP_NAME,
@@ -176,7 +195,7 @@ def run_all() -> dict[str, object]:
         "rows": rows,
         "seconds": round(time.monotonic() - started, 6),
     }
-    print("L1_H7_C222_NORM_RESULT " + json.dumps(result, sort_keys=True), flush=True)
+    print("L1_H7_LOW_DEGREE_NORM_RESULT " + json.dumps(result, sort_keys=True), flush=True)
     return result
 
 

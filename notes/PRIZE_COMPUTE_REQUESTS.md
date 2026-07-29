@@ -7565,6 +7565,11 @@ the outer stage into exactly two low-dimensional tasks.
   it uses 128 MiB and a 60-second hard timeout per packet and writes after
   every returned result.
 
+  The aggregate alternative is the shared launcher
+  `experiments/prize_resolution/l1_m8_h7_low_degree_norm_endpoints_modal.py`.
+  Its four `q2_pair_degree8` rows replace the 32 individual color packets;
+  split by `zeta` only if an aggregate gcd is nonunit.
+
   **Cheap exact request CR-L1-H7-Q2-ALL:** consume
   `l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection`. Construct the
   fixed degree-fourteen polynomial `R_2` from the factored resultant (QHI4),
@@ -7580,6 +7585,10 @@ the outer stage into exactly two low-dimensional tasks.
   `CR-L1-H7-Q2-PAIR` first or in parallel as an independent specialization.
   This packet is also tiny, but no launch is authorized while the Modal
   workspace spend limit remains active.
+
+  The same aggregate launcher has four `q2_all_degree14` rows. Unit results
+  there close the complete quadratic-color chamber and make the pair rows
+  audit-only.
 
   **Retired exact request CR-L1-H7-C3-33:** the former request consumed
   `l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction`. Construct the
@@ -7688,7 +7697,7 @@ the outer stage into exactly two low-dimensional tasks.
   configured Modal workspace remains spend-blocked.
 
   Both exceptional requests now share the bounded launcher
-  `experiments/prize_resolution/l1_m8_h7_cubic_222_norm_endpoints_modal.py`.
+  `experiments/prize_resolution/l1_m8_h7_low_degree_norm_endpoints_modal.py`.
   It uses one 512 MB container, a 60-second hard timeout, and emits each
   completed endpoint/prime row immediately. Instead of constructing eight
   separate color fibers, it computes the equivalent aggregate gcd
@@ -7699,10 +7708,11 @@ the outer stage into exactly two low-dimensional tasks.
 
   over `F_p`; a unit result is equivalent to all eight individual gcds being
   unit after adjoining `mu_8`. There are exactly eight rows total: two
-  endpoint polynomials times four official primes. Split by `zeta` only if
+  cubic endpoint polynomials times four official primes. Together with the
+  quadratic degree-eight and degree-fourteen endpoints, the launcher has 16
+  rows total. Split by `zeta` only if
   an aggregate row is nonunit. The launcher is ready but remains unexecuted
-  under the current spend block. Source SHA-256:
-  `53bda80538d0e9c3e7f35fdce6121c8cfd9f31772216e38cf725c264f4da2ac6`.
+  under the current spend block. The source digest is pinned in the roadmap.
 
   For the `3+2+1` profile, replace the generic remainder by
   `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction`.
