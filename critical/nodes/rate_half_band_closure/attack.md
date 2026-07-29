@@ -93,6 +93,14 @@ branch. The next theorem must impose the actual quartic/source-star incidence
 on the 26 transverse types and terminate each in contradiction, a strict
 coarser decomposition, or a chronology-valid carrier/data/slope owner.
 
+The PROVED `rate_half_kb_m12_outer_subdegree_route_cut` supplies the first
+direct outer reduction. At `m=12`, the outer degree-five map has one rational
+total pole and five distinct rational zeros. Primitive degree-five monodromy
+excludes `r=3`; `r=1` would make the cover cyclic and hence a normalized
+fifth-power map, contradicting fifth-power injectivity on `F_(p^6)`. Thus
+only `(r,delta)=(2,24),(4,12)` survive at `m=12`, and the global transverse
+frontier drops from 26 to 24 types. No owner charge moves.
+
 ## Banked range
 
 Put

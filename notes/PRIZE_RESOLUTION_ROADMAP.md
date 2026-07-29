@@ -5575,6 +5575,37 @@ next route-deciding action:
 compute spend: none; exact integer replays only under RAMguard
 ```
 
+**2026-07-29, direct inner-degree-12 outer cut:** challenge-field splitting
+and the primitive degree-five subdegree list remove two of the four
+degree-12 transverse types without computation.
+
+```text
+new node: rate_half_kb_m12_outer_subdegree_route_cut [PROVED]
+inputs:
+  outer F has degree 5, one rational pole of order 5, and five distinct
+  rational simple zeros
+  initial transverse rows (r,delta)=(1,48),(2,24),(3,16),(4,12)
+r=3:
+  impossible; primitive degree-five groups have subdegrees 1,2,4 only
+r=1:
+  gives a nontrivial deck graph, hence a cyclic degree-five cover
+  unique pole and second branch point are rational
+  normalized F=a*x^5+b over F_(p^6)
+  gcd(5,p^6-1)=1 forbids five distinct rational zeros
+result:
+  live m=12 rows (2,24),(4,12)
+  global transverse count 26 -> 24
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no deletion of r=2 or r=4, m12 close, owner, charge, u2 close, cap 68,
+  adjacent certificate, endpoint movement, or row close
+next route-deciding action:
+  apply the canonical degree-12 source pencil and 21-vertex source-star bound
+  to the dihedral r=2 and one-orbit r=4 survivors
+compute spend: none; exact field arithmetic only under RAMguard
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

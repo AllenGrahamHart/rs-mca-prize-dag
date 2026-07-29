@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/verify.py",
-      "seconds": 0.024291,
+      "script": "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/verify.py",
+      "seconds": 0.020146,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_SOURCE_PENCIL_RANK_TRANSVERSE_COMPILER_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M12_OUTER_SUBDEGREE_ROUTE_CUT_PASS\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/verify_audit.py",
-      "seconds": 0.013619,
+      "script": "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/verify_audit.py",
+      "seconds": 0.014927,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_SOURCE_PENCIL_RANK_TRANSVERSE_COMPILER_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M12_OUTER_SUBDEGREE_ROUTE_CUT_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
