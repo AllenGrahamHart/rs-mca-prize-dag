@@ -7659,6 +7659,45 @@ the outer stage into exactly two low-dimensional tasks.
   replacement for the equations. Return factorizations and saturation
   factors branch by branch before any color or official-row sharding.
 
+  **Pre-request CR-L1-H7-C3-222-GEN:** the generic compiler has since been
+  sharpened analytically. Consume, in order,
+
+  ```text
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler,
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula,
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld.
+  ```
+
+  Do not restore the individual `u_i`, enumerate 42 ordered roles, or form
+  the raw value resultant. The seven affine color values have the exact
+  polynomial
+
+  ```text
+  (T+50)(T^2-224T-578)(T^2-4T+54)
+  (125T^2-2404T+13448),
+  ```
+
+  and become four rational homogeneous factors in `P^3,Q^2`. Modulo
+  `D_b`, each factor is affine-linear in `p=b-12`. On
+  `alpha=-(q-d)x(x^2+q/6)!=0`, each packet is equivalent to (QQW7): the
+  conic, the `D_b/M_5` compatibility, the `M_5/M_6` compatibility, and one
+  color/`M_5` compatibility, all in `(x,q,d)`.
+
+  The requested decision is whether each of those four saturated rational
+  ideals is unit. A PASS must provide a replayable Nullstellensatz or
+  transformation-matrix certificate for every unit packet, with every
+  denominator/content prime checked against all four official
+  characteristics. A FAIL must provide a retained exact component or point,
+  its saturation ledger, and substitution into the unreduced `D_b,M_5,M_6`
+  and homogeneous color factor. Emit the four compiled ideals and hashes
+  before starting elimination, then checkpoint every factor/component.
+
+  This remains a **pre-request**, not authorization: a proof-producing CAS
+  launcher, independently written certificate checker, measured one-packet
+  pilot, and conservative total cost are missing. The current Modal workspace
+  is spend-blocked. An incomplete or ordinary Groebner transcript is route
+  evidence only and cannot close the generic branch.
+
   **Contributor request CR-L1-H7-C3-222-X0:** consume
   `l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction`.
   Independently reconstruct

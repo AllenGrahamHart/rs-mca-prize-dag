@@ -7125,6 +7125,8 @@ equations per color packet: conic, D/M5 compatibility, M5/M6
 packet count: 4 rational packets representing 7 geometric color values
 equivalence: exact on alpha=-(q-d)x(x^2+q/6)!=0
 compute spend: none
+compute pre-request: CR-L1-H7-C3-222-GEN; proof-producing checker and pilot
+                     still missing, so no launch is authorized
 DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: seek hand factors in the four welded systems;
                               prepare bounded remote elimination only if not
