@@ -7638,6 +7638,21 @@ the outer stage into exactly two low-dimensional tasks.
   polynomials and their degrees even if the ideal is nonunit; those are the
   portable handoff, not a raw Groebner transcript.
 
+  For the `3+2+1` profile, replace the generic remainder by
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction`.
+  Parameterize monic cubics `F,G`, impose `FG=L_(r,d)`, and compare the three
+  coefficients of
+
+  ```text
+  Res_W(G,X-F)=X^3-(2+lambda)BX^2
+                    +(1+2lambda)B^2X-lambda B^3.
+  ```
+
+  Run the 42 color-role values of `lambda` only after a shared symbolic
+  coefficient compiler is built. Saturate by `B`, discriminants, and exact
+  gcd-degree subresultants; add official norm equations only to retained
+  p-free factors.
+
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
 

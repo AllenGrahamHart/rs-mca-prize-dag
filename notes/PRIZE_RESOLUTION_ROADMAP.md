@@ -6819,3 +6819,21 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: clear and inspect the three explicit equations
                               for a hand resultant or low-cost remote packet
 ```
+
+**2026-07-29, L1 h=7 cubic three-two-one factorization:** both exact
+three-color cubic profiles now have specialized low-degree endpoints.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction
+profile: 3+2+1
+factor identity: L=FG with F the triple-color cubic
+complement values: B,B,lambda B
+lambda: (gamma-alpha)/(beta-alpha)
+value resultant degree: 3
+color-role packets: at most 7*6=42 before row sharding
+generic degree-nine remainder: retained only as an independent audit
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: compile the cubic-factor resultant coefficients
+                              once, then specialize the 42 lambda values
+```

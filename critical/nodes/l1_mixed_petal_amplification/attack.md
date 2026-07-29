@@ -776,6 +776,13 @@
   coefficient equations, and the h=7 conic. Do not interpret "square" as a
   dimension verdict; classify or eliminate this core before color sharding.
 
+- On the `3+2+1` profile, consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction`.
+  Use the triple fiber as the cubic factor `F`, its complement `G`, and the
+  repeated-value cubic resultant with the fixed color-difference ratio
+  `lambda`. There are at most 42 role packets before row sharding; do not
+  replay the generic degree-nine remainder for each root assignment.
+
 - More generally consume
   `l1_mersenne_hnf_order_one_color_degree_barrier`. The pointwise degree-`d`
   color equations define curves of degrees `d` and `d+1`, so `H<=d(d+1)`.
