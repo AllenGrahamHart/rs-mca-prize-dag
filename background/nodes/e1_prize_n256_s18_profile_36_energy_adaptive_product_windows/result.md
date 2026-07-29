@@ -7,5 +7,5 @@ After the imported multiplicity-one low-energy exclusion and four
 parity-adaptive product exclusions, the `m=514` branch has nine exact
 `(E,q)` chambers. Eight profile cofactors remain; none is closed by this node.
 
-A subsequent dual exact census and norm ledger close `m=514`, leaving seven
-profile cofactors.
+Subsequent dual exact censuses and norm ledgers close both `m=514` and
+`m=256`, leaving six profile cofactors.

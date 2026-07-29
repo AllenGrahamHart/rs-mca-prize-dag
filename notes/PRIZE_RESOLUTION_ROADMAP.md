@@ -6153,3 +6153,2044 @@ atlas/primary/audit/norm Modal apps:
 remaining profile-(3,6) cofactors: 7
 next attack: m=256, with mu=8 and E=2,...,23
 ```
+
+**Same-day cofactor-256 close:** exact magnitude partitions and a complete
+radius-three-or-less affine census remove the next branch.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m256_exclusion
+exact product comparisons: 27176
+product ledger: 45 live and 45 excluded (E,q,L) triples
+all E=21,22,23 chambers excluded
+normalized singleton supports: 10009125
+mu=8 supports: 87856
+affine orbits: 5920
+singleton sign assignments: 189440
+third-position queries: 23111680
+candidate heavy triples: 2833260
+exact sign tests: 22666080
+product-live vectors: 54
+energies: E13=8, E15=6, E17=12, E19=28
+dual exact norms: 54 vectors, all valuation 8 and Norm/256 below interval
+product/atlas/primary/audit/norm Modal apps:
+  ap-mSa4smR2wCUZpmzvRBDzGA, ap-Q5KgAzAsdxFUQkjKY7WQHd,
+  ap-N80auy8zzX09hKkYkuPnQu, ap-lHpPMgDmUlXSI5hWrdSzHP,
+  ap-dCD2CvCih4t6ERJB6wOGuC
+remaining profile-(3,6) cofactors: 6
+next attack: m=64, with mu=6 and E=2,...,65
+```
+
+**Same-day cofactor-64 close:** exact product chambers and two complete affine
+atlases remove the multiplicity-six branch. A primitive-only draft was not
+promoted: audit identified the missing all-one-parity singleton supports, and
+the final proof exhausts that branch after division to multiplicity three in
+`Z/64`.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m64_exclusion
+exact product comparisons: 128228
+product ledger: 255 live and 837 excluded (E,q,L) triples
+all E=47,...,65 chambers excluded
+primitive atlas: 8256 affine orbits
+all-one-parity atlas: 4480 affine orbits
+combined affine orbits: 12736
+singleton sign assignments: 407552
+dual-agreed unique radius triples: 10179448632
+exact sign tests: 81435589056
+product-live vectors: 7191566
+certified norm intervals: 7191424 below, 142 above, 0 unresolved
+product/primitive-atlas/root/primary/audit Modal apps:
+  ap-vGLCNU73MLJj9RDeI3qeG2, ap-jsMfCK4V0ZOgCMYLHX8R7R,
+  ap-LWtv7vAuj73JwMclHhmQee, ap-Ku7oS4IA5YTB6bMTAD68xf,
+  ap-8NxLniYGvXr1XY60JB2Rbb
+all-one-parity atlas/primary/audit Modal apps:
+  ap-AZqE2K0OIwaJ72JJ8NC3JR, ap-8bHvHbIdNO7uEIZAXHJFzz,
+  ap-GXPXxEWBsDAcVHfNG5iY7a
+remaining profile-(3,6) cofactors: 5
+next attack: m=32, with mu=5 and E<=85 before parity-adaptive contraction
+```
+
+**Same-day cofactor-32 close:** odd singleton multiplicity removes the
+imprimitive branch, and dual complete censuses separate every live norm from
+the prize interval.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m32_exclusion
+exact product comparisons: 173683
+product ledger: 474 live and 1360 excluded (E,q,L) triples
+all E=61,...,85 chambers excluded
+normalized singleton supports examined: 10009125
+mu=5 supports: 317440; affine orbits: 19840
+singleton sign assignments: 634880
+dual-agreed unique radius triples: 84923111400
+exact sign tests: 679384891200
+directly replayed low-energy vectors: 339892636
+product-live vectors: 239131808
+certified norm intervals: 239131588 below, 220 above, 0 unresolved
+atlas/primary/audit Modal apps:
+  ap-ZYUKwFlZR2pe1INkfddSsZ, ap-blU0kVG1XoQdz0XWxgLKwz,
+  ap-JcLLKV4WPUIDrn8rhERbNh
+node verifier Modal app: ap-RltPJOCiFf2VhH1gYQMtdw
+remaining profile-(3,6) cofactors: 4
+next attack: m=16, with mu=4 and an explicit all-one-parity branch
+```
+
+**Same-day cofactor-16 support decomposition and first branch close:** exact
+multiplicity four splits exhaustively into primitive, once-divided, and
+twice-divided support strata. The smallest stratum has now been removed by
+dual complete censuses; this is a proved branch theorem, not a full m16 close.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion
+support atlas:
+  primitive mu4 in Z/128:       39936 affine orbits, OPEN
+  once-divided mu2 in Z/64:      9080 affine orbits, OPEN
+  twice-divided mu1 in Z/32:      903 affine orbits, PROVED empty
+exact product comparisons: 295256
+product ledger: 967 live and 2718 excluded (E,q,L) triples
+generic third-moment pilot: 949/967 records survive (quantified no-go)
+twice-divided singleton sign assignments: 28896
+dual-agreed unique radius triples: 7422374296
+exact sign tests: 59378994368
+directly replayed low-energy vectors: 497496976
+product-live vectors: 205513652
+certified norm intervals: 205486644 below, 27008 above, 0 unresolved
+atlas/product/primary/audit Modal apps:
+  ap-7D69LSBDaIs3eLWRsy4jIg, ap-inCC4VYiLY8tmSyAF6wpQU,
+  ap-1xutdz21Bfop112ugKr65k, ap-kmhgYnrF7vWYttQXorFm0w
+node verifier Modal app: ap-IVF9ra2KWJyhXPplppzymj
+measured direct-census projections:
+  once-divided 26.819 one-CPU hours; primitive 121.464 one-CPU hours
+compute decision: defer both larger exact censuses and seek analytic
+  support-specific contraction before spending further budget
+remaining profile-(3,6) cofactors: 4 (m=16 is only partially decomposed)
+next attack: contract or structurally exclude the once-divided m16 branch;
+  do not launch the primitive census under the current compute budget
+```
+
+**Same-day cofactor-16 once-divided close:** an exact subfield argument removes
+all-even heavy triples, a rigorous early upper cap makes the primary census
+affordable, and an independent full-interval reverse engine reproduces every
+proof count on every support orbit.
+
+```text
+proved node: e1_prize_n256_s18_profile_36_m16_one_division_exclusion
+once-divided quotient supports examined: 557845
+exact-multiplicity-two supports: 139360; affine orbits: 9080
+all-even heavy triples omitted per orbit by square norm: 30856
+post-square singleton-sign distance tests: 76819415040
+dual-agreed unique radius triples: 73175732492
+exact sign tests: 585405859936
+directly replayed low-energy vectors: 6762240640
+product-live vectors: 1816625504
+certified norm intervals: 1816625308 below, 196 above, 0 unresolved
+primary/reverse-benchmark/projection/audit Modal apps:
+  ap-6xxI9MGrLIK1n5crnIT6c3, ap-vysGPqGNw3Uo1bZm9osv0L,
+  ap-mt8xdOni6TjNwFU6qkqBqE, ap-HxT2OzXtS2r4jcKWzNH2a4
+node/DAG/harness verifier Modal apps:
+  ap-X5QrnxnWwUrM9c7S88jt2e, ap-IIr6duTwdkDUjj6Oxo5tEa,
+  ap-DTNXEczjog2rzfTDf5LYAD
+m16 support status:
+  primitive mu4 in Z/128:       39936 affine orbits, OPEN
+  once-divided mu2 in Z/64:      9080 affine orbits, PROVED empty
+  twice-divided mu1 in Z/32:      903 affine orbits, PROVED empty
+remaining profile-(3,6) cofactors: 4 (m=16 remains open only on primitive)
+next attack: seek analytic contraction of primitive m16; its last measured
+  direct projection was 121.464 one-CPU hours and is not authorized
+```
+
+**Same-day primitive m16 contraction, primary close, and interrupted audit:**
+the free Galois involution `F(X)->F(-X)` halves normalized signs; an exact
+seven-coefficient Walsh ledger replaces the lagwise eight-sign energy loop;
+and independent certified upper-product caps reduce the complete route from
+hundreds of CPU hours to a sub-dollar primary and audit.
+
+```text
+candidate node: e1_prize_n256_s18_profile_36_m16_primitive_exclusion
+status: NOT YET PROMOTED (reverse audit 61.5% complete)
+primitive affine support orbits: 39936
+sign representatives per heavy triple: 16 (free Galois involution)
+primary Modal app: ap-tkhXMEdMpCXgm2LWUnXkEZ, COMPLETE
+primary exact ledger:
+  distance tests: 188651274240
+  radius matches: 184336208507
+  exact sign tests: 1474689668056
+  low-energy representatives: 29756245802
+  product-live representatives: 5651872006
+  certified intervals: 5651870997 below, 1009 above, 0 unresolved
+reverse benchmark/projection apps:
+  ap-ATxdGYMJ3NJBvayKTp20Hc, ap-AmrikHigBcehbCZ8jxlKb3
+reverse audit app: ap-bvisSxyx7641bXRImfOwy8, INTERRUPTED EXTERNALLY
+reverse checkpoint:
+  768/1248 batches; 24576/39936 orbits; every per-orbit comparison PASS
+  product-live: 3477665782
+  intervals: 3477665087 below, 695 above, 0 unresolved
+remaining: 480 batches / 15360 orbits, approximately 20000--25000 CPU seconds
+resume rule: wait for Modal workspace and credit; launcher skips checkpoint
+promotion gate: complete reverse audit, replay all 1009 high representatives,
+  source-pin the theorem packet, then run node/DAG/harness verifiers
+```
+
+**Same-day aggregate payoff calibration:** the weighted-kernel target now has
+an exact profile-closure ladder. On the binding prize rate-`1/8` row, closing
+all of `(3,6,S=18)` would move the coarse sufficient oriented-vector cap only
+from `93962` to `106111`; closing every `S=18` profile would move it to
+`249314`. Each cap is sharp for the maximum-weight inference, with the
+adjacent integer failing that inference. This is route calibration, not a new
+DAG node, because the committed replay awaits an enabled Modal workspace.
+
+```text
+current maximum:                 (3,6,18), cap 93962
+after full profile-(3,6) close: (2,10,18), cap 106111
+after every S=18 profile close:   (4,4,20), cap 249314
+m16-only consequence: no cap change while m=2,4,8 remain live
+packet: notes/E1_PROFILE_WEIGHT_PAYOFF_LADDER.md
+replay: experiments/prize_resolution/e1_profile_weight_payoff_ladder.py
+Modal wrapper: experiments/prize_resolution/e1_profile_weight_payoff_ladder_modal.py
+```
+
+Route decision: finishing the primitive `m=16` audit remains justified as a
+nearly complete exact child, but it is one of four cofactor obligations and
+must not be reported as moving the aggregate target by itself. After `m=16`,
+prefer an aggregate count for `m=2,4,8` if it can certify at most `93962`
+oriented vectors; otherwise continue exact cofactor exclusion.
+
+Modal replay status: the 128 MB, one-container payoff verifier was rejected
+before launch because the workspace had exceeded its spend limit. No task ran
+and no compute was charged. The primitive audit and this tiny replay remain
+paused until the account limit changes.
+
+**Same-day `m=8` proof-only support contraction:** Lucas/Hasse parity gives a
+complete classification of exact-multiplicity-three six-term supports. Their
+mod-four occupancy is a permutation of `(3,1,1,1)`, so the branch is
+primitive and the normalized `{0,1}` input contracts from `10009125` generic
+supports to `1269760`. The free `F(X)->F(-X)` involution then halves joint
+sign work from 256 to 128 representatives per heavy triple. This is an exact
+draft lemma with a one-container verifier, not a DAG node, because the Modal
+spend limit prevented replay.
+
+```text
+raw exact-mu3 supports:             650117120
+normalized occupancy-filtered:       1269760
+generic normalized input:            10009125
+imprimitive branch:                         none
+joint singleton/heavy sign reps:           128
+packet: notes/E1_M8_SUPPORT_CONTRACTION.md
+```
+
+Next `m=8` action after account re-enable: replay the lemma, then measure the
+four occupancy shards and affine orbit count. Do not start a radius census
+from the generic support atlas.
+
+**Same-day `m=2,4` proof-only support decomposition:** the Hasse-residue
+classification now covers every remaining profile-`(3,6)` cofactor support.
+Exact multiplicity one (`m=2`) is primitive and leaves `5005539` normalized
+supports. Exact multiplicity two (`m=4`) splits into `2501824` normalized
+primitive candidates and `279155` normalized once-divided quotient
+candidates. In the quotient branch, `30856` all-even heavy triples per
+support have square norm and are impossible; `F(-X)` acts freely on every
+remaining heavy-sign orbit. All three low cofactors therefore admit 128 joint
+sign representatives per surviving heavy triple.
+
+```text
+m=2: primitive mu1 in Z/128, normalized input 5005539
+m=4: primitive mu2 in Z/128, normalized input 2501824
+m=4: quotient mu1 in Z/64, normalized input 279155
+m=8: primitive mu3 in Z/128, normalized input 1269760
+packet: notes/E1_M2_M4_SUPPORT_DECOMPOSITION.md
+```
+
+Existing `m=514` classifiers share the `mu=1` predicate but their retained
+atlases are chamber-filtered; they are implementation inputs, not a complete
+`m=2` certificate. Replay these tiny lemmas and measure affine atlas sizes
+before authorizing product or radius campaigns.
+
+**Same-day affine Burnside completion ledger:** a six-element cycle-union DP
+over every affine map of `Z/128` now determines the low-multiplicity orbit
+counts without enumerating normalized supports. It independently reproduces
+the full committed `m=16` split and supplies exact targets for all three
+remaining cofactors.
+
+```text
+m=2 mu1 primitive:                     331359 orbits
+m=4 mu2 primitive:                     159216 orbits
+m=4 quotient mu1 in Z/64:               18383 orbits
+m=8 mu3 primitive:                      79360 orbits
+m=16 split, independently recovered: 39936 + 9080 + 903
+```
+
+The multiplicity-three affine action is free. The `m=16` promotion plan can
+therefore replace a second ten-million-input atlas enumeration with canonical
+representative validation plus the independent Burnside total. The verifier
+is committed but unrun because of the Modal spend limit; no DAG status
+changes. The rapidly increasing orbit counts also rule out launching generic
+radius censuses for `m=2,4,8` before product or aggregate contraction.
+
+**Same-day pure-dyadic orbit debit:** aggregate accounting weakens the
+remaining profile-`(3,6)` obligation from emptiness to a finite orbit count.
+For `m=2,4,8`, the odd row prime occurs exactly once in the norm, hence exactly
+one primitive root vanishes. Translation and global sign produce exactly 256
+oriented dictionary vectors per colliding full affine coefficient orbit. The
+coarse profile allowance is therefore 367 such orbits; orbit 368 alone fails.
+
+```text
+oriented vectors per pure-dyadic collision orbit: 256
+profile-only maximum collision orbits:             367
+oriented units used at 367:                       93952
+maximum-weight units left:                           10
+first failing orbit count:                          368
+packet: notes/E1_PROFILE_36_ORBIT_DEBIT.md
+```
+
+Route decision: future low-cofactor searches should count exact
+root-incidence coefficient orbits and preserve affine canonical witnesses.
+They may stop short of proving zero if the full profile-weighted ledger fits.
+This is a draft algebraic compiler until its tiny Modal replay runs; no DAG
+status changes.
+
+Definition audit: `D_p(33)` is fixed-root and oriented, so the factor 256 is
+not obtained by naively dividing a support-normalized count. For
+`Norm(F)=2^mu p`, `v_p=1` gives exactly one simple primitive-root zero under
+the order-256 Galois action. Its `b in Z/256` translates are exactly the 128
+folded support shifts and their negatives. Exact multiplicity `mu<=3`
+excludes the sole possible six-set translation period, shift 64, because
+`1+X^64=(1+X)^64` over `F_2`. Thus 256 is restored exactly for a **full
+coefficient orbit**. Singleton-support rows, heavy/sign rows before residual
+stabilizer canonicalization, and bare norm-interval survivors are not units
+of this ledger. The guards and required campaign fields are now explicit in
+`E1_PROFILE_36_ORBIT_DEBIT.md` and `PRIZE_COMPUTE_REQUESTS.md`.
+
+The alternative maximum-degree-three route would also pay the pair budget,
+but its current repository interface has no theorem-level premise beyond the
+instruction to bound neighbors of a fixed class. Until such a premise is
+posed or a cheap falsifier is available, the root-incidence orbit ledger is
+the more concrete route.
+
+**2026-07-28, L1 order-one automatic-root trace cancellation:** the live
+next-to-maximal order-one system no longer needs the denominator-heavy
+degree-`h-1` quotient representation.
+
+```text
+node proved: l1_mersenne_hnf_order_one_full_trace_cancellation
+identity:    (x_0^star)^(mj)=x_0^(-mj)=d^(mj) for every j>=1
+consequence: first r reduced reciprocal equations
+             <=> first r full-P trace equalities
+representation delta: no division by W-x_0; no Qtilde construction
+live powers: 8,16,24 at (m,h)=(8,7); 16,32,48 at (16,15)
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; proof-only exact algebra
+open residue: eliminate the h=7 full-trace system on Psi_7=0, then impose
+              pointwise Frobenius, torsion, cyclotomic remainder, inner lift
+next route-deciding action: obtain a priced independent h=7 elimination
+                              from a contributor; do not retry the retired
+                              quotient-resultant backend
+```
+
+**2026-07-28, L1 h=7 residual conic reduction:** the smallest live
+order-one curve now has an explicit low-degree model rather than a digest-only
+ten-term representation.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_conic_reduction
+quadratic:   35u^2+14(11c^2+5c+11)u+120(c^4+c^2+1)=0
+square form: D(c)=7(5u+11c^2+5c+11)^2
+conic:       7w^2=247z^2+770z+775, z=c+c^-1
+pullback:    c^2-zc+1=0 (retained, not silently split)
+chart guard: t=infinity, tangent point, and 247-7t^2=0 handled explicitly
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; four-partition coefficient proof
+open residue: intersect this model with the full-P traces, pointwise
+              Frobenius, torsion, cyclotomic remainder, and inner lift
+next route-deciding action: contributor-priced h=7 elimination on the direct
+                              quadratic and conic-pullback models
+```
+
+**2026-07-28, L1 h=7 base-field conic branch routed:** Frobenius and the
+non-prime-field invariant turn one positive-dimensional chart into a finite
+packet and eliminate it on two rows.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_basefield_conic_router
+exceptional close: both z=-1 conic points
+base-field identity: zeta=2-z
+official reduction: zeta=-1, z=3, c^2-3c+1=0
+rows closed in this branch: p=8191,131071
+rows finite in this branch: p=524287,2147483647; at most two w signs each
+packet equations: 7w^2=5308, theta=(w-38)/5, rho^p=-c*rho
+DAG delta: one PROVED background node and three edges; no critical status flip
+compute spend: none; official congruence and Frobenius proof
+open h=7 residue: t notin F_p plus exact replay of at most four finite packets
+next route-deciding action: eliminate the finite packets from the full-P
+                              first-three trace system before pricing the
+                              non-base-field parameter branch
+```
+
+**2026-07-28, L1 h=7 base-field branch closed:** the four finite packets do
+not require replay. Frobenius reflection converts the whole branch to a
+constant-size root-color contradiction.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion
+reflection: P^[p](W)=-P(1-W)
+root condition: x^n=(1-x)^n=1 for every root of P
+field contraction: mu_8 colors -> mu_4 colors
+surviving colors: (1,-1),(-1,1),(-1,-1)
+root cap: at most 3*2=6
+required roots: 7 distinct roots of the squarefree degree-seven P
+result: complete t in F_p branch CLOSED on all four m=8 rows
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; exact Frobenius and two-adic proof
+open h=7 residue: t notin F_p only
+next route-deciding action: combine the non-base-field conic parameter with
+                              the colored Frobenius interpolant; preserve
+                              root/color assignment and avoid a 64-case
+                              assignment-free shortcut
+```
+
+**2026-07-28, L1 h=7 constant-color chamber closed:** the first two
+rootwise colored reciprocal coefficients already exclude the degree-zero
+colored interpolant on all six reduced roots.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_constant_color_exclusion
+first coefficient: rho*c=1-alpha, alpha=epsilon*zeta in mu_8
+second coefficient: 30alpha(c-1)=(alpha+1)zeta+12alpha^2
+field contraction: c-1 in F_(p^2), hence zeta in {+1,-1}
+norm obstruction: 12zeta*s^2+(1+12zeta)s+146-924zeta=0
+trace atlas: s=2,-2,0 or s^2=2; no official characteristic survives
+result: constant color on the six reduced roots CLOSED on all four m=8 rows
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; exact coefficient and norm proof
+open h=7 residue: t notin F_p with a nonconstant, assignment-preserving
+                   colored Frobenius interpolant
+next route-deciding action: classify or exclude the linear color stratum;
+                              otherwise derive a bounded Frobenius
+                              correspondence for each nonconstant degree
+```
+
+**2026-07-28, L1 order-one linear-color chamber closed:** the pointwise
+Frobenius assignment gives a degree-two color equation, independently of the
+hypergeometric coefficients.
+
+```text
+node proved: l1_mersenne_hnf_order_one_linear_color_exclusion
+scope: four (m,h)=(8,7) rows and one (m,h)=(16,15) row
+linear ansatz: E(W)=aW+b, a!=0
+pointwise color equation:
+  -(b^p+a^(p+1))X^2+(1+b^(p+1))X-b=0
+available roots: at most 2 unless the polynomial is identically zero
+required colors: H=m-2=6 or 14 distinct values
+zero-polynomial contradiction: b=0 and then 1=0
+combined h=7 result: deg E>=2
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; rootwise assignment proof
+open h=7 residue: non-base-field conic parameter with deg E=2,3,4,5
+next route-deciding action: attack degree two using the same pointwise
+                              color equation before generic resultants
+```
+
+**2026-07-28, L1 h=7 quadratic colors routed:** repeated fibers and the
+order-one derivative constant reduce the multi-collision chamber to one even
+packet with an extra scalar equation.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_quadratic_collision_router
+quadratic split: collision-free / one repeat / two antipodal repeats
+affine branch: two repeated colors and S!=0 make Frobenius affine on L
+marked-point gate: the affine map must permute {0,1,x_0}
+affine outcome: every non-even permutation is impossible
+three-pair exclusion: sum roots=-6/(c-1)!=0
+two-pair equation: r(18+d-d^2)+192=0, r=rho*c, d=c-1
+DAG delta: one PROVED background node and three edges; no critical status flip
+compute spend: none; rootwise Frobenius and odd/even divisibility proof
+open h=7 degree-two residue: six colors; one repeat; or the printed
+                              two-antipodal equation
+next route-deciding action: intersect the two-antipodal equation with the
+                              h=7 conic, then classify its finite components
+```
+
+**2026-07-28, L1 h=7 two-antipodal chamber made univariate:** eliminating
+`rho*c` produces one fixed degree-eight polynomial and a finite norm-color
+audit.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction
+collision equation: r=-192/(18+d-d^2)
+univariate endpoint:
+  F(d)=5d^8+10d^7-180d^6+672d^5+2862d^4
+       -15516d^3+8199d^2-44172d+4860
+torsion endpoint: gcd(F(X),X^(p+1)-zeta), zeta in mu_8
+packet count: 4 rows * 8 colors = 32 degree-eight gcds
+DAG delta: one PROVED background node and three edges; no critical status flip
+compute spend: none; Modal workspace remains spend-blocked
+open packet: exact gcd verdicts, recorded as CR-L1-H7-Q2-PAIR
+next route-deciding action: run the cheap gcd packet when Modal is available;
+                              meanwhile attack one-repeat quadratic colors
+```
+
+**2026-07-28, L1 quadratic color resultant:** pointwise Frobenius produces
+one degree-six polynomial in the color variable. This closes the `h=15`
+quadratic stratum and gives exact finite color shapes at `h=7`.
+
+```text
+node proved: l1_mersenne_hnf_order_one_quadratic_color_resultant
+resultant: R_E(X)=U(X)^2-V(X)T(X), degree 6
+h=15 consequence: 14 roots -> at least 7 colors > degree 6; CLOSED
+h=7 consequence: R_E/(A A^p)^2 is the six-color multiset polynomial
+collision-free shape: (X^8-1)/((X-eta)(X-theta))
+one-repeat shape: (X-epsilon)(X^8-1)/product_3(X-eta_j)
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; exact Sylvester-resultant proof
+open h=15 color degrees: 0 and 3,...,13
+open h=7 quadratic work: coefficient elimination for collision-free and
+                         one-repeat shapes; two-pair gcd packet remains queued
+next route-deciding action: compare QCRS5 coefficients with the h=7 L
+                              moments while preserving the repeated assignment
+```
+
+**2026-07-28, L1 order-one color-degree barrier:** the pointwise equations
+form a Bézout pair of degrees `d` and `d+1`, giving a general low-degree
+exclusion without elimination.
+
+```text
+node proved: l1_mersenne_hnf_order_one_color_degree_barrier
+general inequality: H<=d(d+1) for every nonconstant degree-d interpolant
+h=7 threshold: H=6, hence d>=2
+h=15 threshold: H=14, hence d>=4
+new close: complete h=15 cubic color chamber
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; pointwise Bézout proof
+open h=15 color degrees: 0 and 4,...,13
+next route-deciding action: attack the h=15 constant chamber with the first
+                              two reciprocal coefficients; keep h=7 on its
+                              degree-two collision decomposition
+```
+
+**2026-07-28, L1 h=15 constant color reduced to two gcds:** the first two
+reciprocal coefficients contract the full fourteen-root packet to the trace
+line of `mu_16`.
+
+```text
+node proved: l1_mersenne_hnf_m16_order_one_constant_color_reduction
+first coefficient: rho*c=1-alpha
+second coefficient: 182alpha(c-1)=(alpha+1)zeta+28alpha^2
+field contraction: c-1 in F_(p^2), hence zeta in {+1,-1}
+trace polynomial: S(S^2-4)(S^2-2)(S^4-4S^2+2)
+closure packet: two quadratic gcds over F_8191
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; packet queued as CR-L1-H15-COLOR0
+open h=15 order-one colors: two-gcd constant packet and degrees 4,...,13
+next route-deciding action: obtain the two cheap gcd verdicts when Modal is
+                              available; otherwise return to h=7 one-repeat
+```
+
+**2026-07-29, L1 h=15 constant color closed:** both trace gcds are unit by
+small modular pseudo-remainder certificates, so no compute is required.
+
+```text
+node proved: l1_mersenne_hnf_m16_order_one_constant_color_exclusion
+lower trace factors: direct nonzero values and residues 7783,1298
+primitive quartic certificates: (L,M,R)=(3964,47,4509),
+                                         (439,321,4947) mod 8191
+result: complete h=15 constant-color chamber CLOSED
+combined degree barrier: live h=15 color degrees are 4,...,13
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; CR-L1-H15-COLOR0 retired
+next route-deciding action: return to h=7 one-repeat/collision-free degree two
+```
+
+**2026-07-29, L1 h=7 quadratic pointwise composition:** Bézout saturation at
+six roots upgrades the pointwise equations to a polynomial identity and a
+new equation in the HNF parameters alone.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition
+composition identity:
+  A^p E^3+B^p W E^2+C^p W^2 E-W^2=A^p A^3 L
+coefficient consequence: C/A=(1-rho*c)/(c-1)^2
+pure HNF consequence: g(1)=(1-rho*c)^3
+scope: every h=7 quadratic collision chamber
+DAG delta: one PROVED background node and two edges; no critical status flip
+compute spend: none; exact assignment-preserving degree argument
+next route-deciding action: expand g(1) on the h=7 conic and eliminate
+                              rho*c before any collision-specific work
+```
+
+**2026-07-29, L1 h=7 quadratic HNF intersection:** the new pure HNF equation
+and residual conic eliminate `rho*c` into one fixed degree-fourteen endpoint.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection
+HNF quadratic: a_0(d)r^2+b_0(d)r+c_0(d)=0
+residual conic: a_1(d)r^2+b_1(d)r+c_1(d)=0
+univariate endpoint: R_2=(a_0c_1-c_0a_1)^2
+                       -(a_0b_1-b_0a_1)(b_0c_1-c_0b_1)
+degree / leader: 14 / -691200
+packet count: 4 rows * 8 norm colors = 32
+DAG delta: one PROVED background node and three edges; no critical status flip
+compute spend: none; queued as CR-L1-H7-Q2-ALL
+next route-deciding action: obtain the tiny norm-gcd verdicts when Modal is
+                              available; otherwise attack color degree three
+```
+
+**2026-07-29, L1 h=7 cubic two-triple reduction:** the most concentrated
+cubic color partition now has a fixed norm-gcd endpoint.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction
+covered partition: 3+3
+fiber identity: L=e_3^(-2)(E-alpha)(E-beta)
+new quadratic: q_2(d)r^2+q_1(d)r+q_0(d)=0
+univariate endpoint: R_33=(a_1q_0-c_1q_2)^2
+                         -(a_1q_1-b_1q_2)(b_1q_0-c_1q_1)
+degree / leader: 14 / -576000
+packet count: 4 rows * 8 norm colors = 32
+DAG delta: one PROVED background node and four edges; no critical status flip
+compute spend: none; queued as CR-L1-H7-C3-33
+next route-deciding action: route the remaining cubic multiplicity
+                              partitions without a generic saturation
+```
+
+**2026-07-29, L1 h=7 cubic two-triple close:** the `3+3` endpoint closes by
+an additional coefficient identity, with no external computation.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion
+new identity: rd+4(d^2+3d+3)=0
+conic substitution: 32(d^2+3d+3)(2d^2+9d+9)=0
+second-quadratic substitution: -8d(d+2)(2d^2+9d+9)=0
+surviving candidates: d=-3/2,-3
+norms: 9/4,9; neither lies in mu_8 on an official row
+closed partition: 3+3 on all four h=7 rows
+compute spend: none; CR-L1-H7-C3-33 retired
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: attack the two remaining three-color cubic
+                              partitions, 3+2+1 and 2+2+2
+```
+
+**2026-07-29, L1 h=7 cubic three-color router:** the remaining cubic packets
+with exactly three colors now have a seven-orbit bounded interface.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router
+raw color triples: C(8,3)=56
+cyclic color orbits: 7
+exact profiles: 3+2+1 and 2+2+2
+profile cores after role sharding: 7*(6+1)=49
+carrying equations: h=7 conic; six value-remainder coefficients;
+                    three nonempty-fiber resultants; exact subresultants
+row equations: adjoin d^(p+1)=zeta only to retained p-free components
+compute spend: none; contributor packet CR-L1-H7-C3-3COL recorded
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: derive hand eliminants from the three-color
+                              remainder before requesting any large run
+```
+
+**2026-07-29, L1 h=7 cubic three-double factorization:** the symmetric
+`2+2+2` profile now has a quadratic-factor endpoint.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction
+factor family: F_i=W^2+u_iW+u_i^2-Uu_i+V
+external roots: y_i=u_i-U
+HNF identity: L=F_1F_2F_3
+color constants: a_i=w+(u_i^2-Uu_i+V)(u_i-U)
+color condition: one scale-free ordered difference ratio
+generic degree-nine remainder: retained only as an audit for 2+2+2
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: eliminate the symmetric u_i data against the
+                              six HNF coefficients and the conic
+```
+
+**2026-07-29, L1 h=7 cubic three-double symmetric compiler:** the factor
+core is now square before color and norm sharding.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler
+eliminated variables: s_1,V,s_3 and the individual u_i
+retained variables: U,s_2,r,d
+retained equations: cleared l_4,l_5,l_6 identities plus the h=7 conic
+status of core: exact and square; dimension/unit verdict not asserted
+later filters: ordered color ratio, norm color, pointwise Frobenius,
+               cyclotomic divisibility, inner lift
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: clear and inspect the three explicit equations
+                              for a hand resultant or low-cost remote packet
+```
+
+**2026-07-29, L1 h=7 cubic three-two-one factorization:** both exact
+three-color cubic profiles now have specialized low-degree endpoints.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction
+profile: 3+2+1
+factor identity: L=FG with F the triple-color cubic
+complement values: B,B,lambda B
+lambda: (gamma-alpha)/(beta-alpha)
+value resultant degree: 3
+color-role packets: at most 7*6=42 before row sharding
+generic degree-nine remainder: retained only as an independent audit
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: compile the cubic-factor resultant coefficients
+                              once, then specialize the 42 lambda values
+```
+
+**2026-07-29, L1 h=7 collision-free cubic router:** the injective color
+profile now has four missing-pair distance packets.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router
+profile: 1+1+1+1+1+1
+raw missing pairs: C(8,2)=28
+cyclic-distance packets: 4 with sizes 8,8,8,4
+value identity: Res_W(L,X-E)(X-1)(X-omega^delta)=X^8-1
+p-free packets: 4 before row and norm sharding
+compute spend: none; contributor packet CR-L1-H7-C3-INJ recorded
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: route the remaining four- and five-color cubic
+                              profiles by squarefree value products
+```
+
+**2026-07-29, L1 h=7 complete cubic multiplicity router:** every cubic
+color partition now has a proved specialized endpoint.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router
+four/five-color identity: V_E M=(X^8-1)D
+five-color packets: 35 for 2+1+1+1+1
+four-color packets: 35 for 3+1+1+1; 54 for 2+2+1+1
+new p-free packet total: 124
+complete cubic partition status:
+  3+3: proved empty
+  3+2+1: cubic-factor resultant endpoint
+  2+2+2: four-variable symmetric endpoint
+  four/five colors: 124 missing/excess endpoints
+  six colors: four missing-pair distance endpoints
+compute spend: none; CR-L1-H7-C3-45COL recorded
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: prioritize the smallest p-free cubic cores for
+                              unit proofs before any official norm sharding
+```
+
+**2026-07-29, L1 h=7 cubic packet upstream export:** the proved local
+two-triple exclusion, the `2+2+2` exceptional reductions, and the `3+2+1`
+common-quadratic and role-polynomial compilers are now available for upstream review as draft PR
+[#1120](https://github.com/przchojecki/rs-mca/pull/1120).  The export is
+intentionally classified `LOCAL_ONLY`: it contributes an exact split-pencil
+HNF stratum theorem and exact reductions but does not claim the missing
+first-match-to-HNF owner bridge or any LIST/MCA row payment.
+
+```text
+local theorems:
+  l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler
+  l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler
+  l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld
+local source commits: 3380ea30, 1c2bfd55, 8d847b9e, e10d4683, 59497c96,
+                      44a9d6bb, 0dfd4714, 32b35ed4, f3a355fd, b102cee0,
+                      1d9206b9, 98e8685c, 3d5f6274, bdd33eb0, 0cae55cb,
+                      6be9ee69, 325c4cd6, 1db48367, e1b1a195, 021caa0a,
+                      fd65c11f, 8e256f5e, 8f4bf3d0, eff918d0, f8e9854b,
+                      49d1b7af, 806fa2b8, 81d1e850, cc5169fd, 46c7f677,
+                      7e430949, ccdb0a55, 46530acb, 1b6ba7b6
+upstream base: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
+PR head: 1e31903a012285d8d099224c3ef2076fabd31338
+PR state at custody refresh: OPEN, DRAFT, MERGEABLE
+upstream files:
+  experimental/notes/l1/l1_m8_h7_order_one_cubic_33_exclusion.md
+  experimental/notes/l1/l1_m8_h7_order_one_cubic_profile_reductions.md
+  experimental/scripts/verify_l1_m8_h7_order_one_cubic_33_exclusion.py
+  experimental/scripts/verify_l1_m8_h7_order_one_cubic_profile_reductions.py
+  experimental/scripts/l1_m8_h7_cubic_222_norm_endpoints_modal.py
+  experimental/scripts/check_l1_m8_h7_cubic_222_norm_certificate.py
+  experimental/scripts/l1_m8_h7_cubic_321_singular_j0_gcd_modal.py
+  experimental/scripts/check_l1_m8_h7_cubic_321_singular_j0_gcd_certificate.py
+  experimental/scripts/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
+  experimental/scripts/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
+proof endpoint: d in {-3/2,-3}; norms 9/4 and 9 contradict mu_8 on all
+                four declared Mersenne characteristics
+additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
+                      exceptional 2+2+2 slopes; one degree-42 symbolic role
+                      polynomial for the four-variable 3+2+1 core, split
+                      either into four high-degree or twelve degree-at-most-
+                      four Galois branches, and on official fields into 21
+                      irreducible quadratic Frobenius branches with a printed
+                      triangular ideal in (x,Y,q,d) and exact coefficient-
+                      matrix determinant router; its singular J=0 arm is a
+                      degree-7/degree-10 four-prime gcd packet, while its
+                      singular J!=0 arm is split into an x=0 two-variable
+                      endpoint and an x!=0 three-variable rational chart;
+                      generic Delta!=0 has a linear-d eliminant, a
+                      second conic/sixth linear eliminant, two rational
+                      three-variable charts, and a packet-specific quadratic
+                      quotient whose conic/role remainders eliminate d except
+                      on N_1=U_1=N_0=U_0=0; that endpoint reconstructs
+                      R_0,S_0 and factors F_N as an explicit quadratic in q
+                      and z=(4x-15)^2; z=9 is excluded, the vanishing-leading-
+                      coefficient chart has z=1575/247 and
+                      q=-10(z+27)/231, and the generic q-discriminant is
+                      302400z(9-z)(-200z^2+4239z-14175); its four
+                      coefficient-zero equations reconstruct D,Q_0 and,
+                      off one explicit denominator, G_2,H,Y from (b,q),
+                      leaving one bivariate compatibility equation; the
+                      retained exceptional chart has Q_0=q^2/3; exact
+                      clearing leaves a generic pair of q-degrees 2 and at
+                      most 6, with compatibility polynomial of total degree
+                      at most 12, and explicit polynomial exceptional
+                      ideals; quadratic-quotient reduction then leaves one
+                      degree-at-most-58 univariate endpoint in b, plus the
+                      simultaneous affine-remainder and fixed leading-
+                      coefficient charts; a source-pinned four-prime factor,
+                      gcd, and quadratic-field candidate packet is ready but
+                      unrun; the parallel E_G=0 chart reduces to a degree-16/
+                      degree-23 univariate pair off two retained singular
+                      coefficient charts; the source-pinned four-prime packet
+                      now also emits a four-way Bezout certificate for the
+                      generic coefficient/structural gcd and a five-way
+                      certificate for the exceptional coefficient/structural
+                      gcd; on the generic chart,
+                      substituting the reconstructed coefficients into all
+                      original structural definitions yields three more
+                      univariate filters of bivariate source degrees at most
+                      18, 10, and 15, so the complete coefficient/structural
+                      endpoint is U=Zhat_D=Zhat_Q=Zhat_R=0; on the generic
+                      E_G=0 chart, three analogous filters of degrees at most
+                      27, 13, and 21 give the five-way endpoint
+                      V_E=X_E=Zhat_D^e=Zhat_Q^e=Zhat_R^e=0; one
+                      seven-shape affine-color equation and four rational
+                      three-variable packets for generic 2+2+2
+replay digests:
+  8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
+  8a07454eed5a1171fe364d34ba3f4b5be8d622e5e7bdba625ebd4766dcb15756
+compute-request digest:
+  d3b4aacf170e13fecdf36718f8566bd597beacf4965aa1584077dbe61db9f695
+compute-certificate checker digest:
+  9ba5e7ee7a66d459453f5aba312fff5649c7ee37c12264b39d29304ebc8d244f
+singular-J0 gcd launcher/checker digests:
+  39ccbf6493dc3a421935dbbd0b1e31e761c4e13b2c3f48eaa3c6b87d44a987e0
+  a653511eb927b1627258d7c2e25e6b46439827140d1fabab743a2404e771469c
+fully-proportional quotient launcher/checker digests:
+  06e941be7bd231d993a63ebb83c0855f0798524a10e86249e9796f9b7a02f3c0
+  9174a04da730f47d594c65dbc0f0d8d20aaa8a064cc225c51ef69e68d6baf1de
+replay status: pending; local computation is prohibited and Modal is
+               currently spend-blocked
+status_ours: PROVED
+status_his: OPEN_REVIEW
+critical/upstream terminal delta: none
+next upstream bridge: place the HNF cell in an exhaustive source-bound owner
+                      partition before using it as a bankable route cut
+```
+
+**2026-07-29, L1 h=7 cubic `2+2+2` linear remainder reduction:** the
+four-variable symmetric core now has a proof-only branch decomposition before
+any Groebner or norm work.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction
+scaled variables: q=dr, x=dU-3, b=d^2s_2, d
+coefficient shape: one quadratic D_b plus two affine-linear remainders in b
+fifth-remainder slope: -x(x^2+q/6)
+exceptional branches: x=0 and q=-6x^2
+generic branch: b determined; three variables remain before color sharding
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: classify the two exceptional p-free branches,
+                              then form the generic three-variable eliminant
+```
+
+**2026-07-29, L1 h=7 cubic `2+2+2` x=0 quintic endpoint:** the first
+exceptional branch is now finite before the unused coefficient and color
+filters.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction
+branch: x=dU-3=0
+closed rational values: d=-2,-3/2,-3 by official norm-color obstruction
+remaining polynomial: P_5=60d^5+407d^4+1147d^3+1659d^2+1218d+360
+determined parameter: q=-12(5d^3+16d^2+18d+10)/(35(d+2))
+finite endpoint: 32 degree-five norm gcds
+compute spend: none; CR-L1-H7-C3-222-X0 recorded
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: obtain the x=0 norm verdict, while reducing the
+                              q=-6x^2 exceptional branch proof-only
+```
+
+**2026-07-29, L1 h=7 cubic `2+2+2` q=-6x^2 degree-12 endpoint:** both
+exceptional slopes of the fifth linear remainder now have finite norm
+packets.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction
+branch: q=-6x^2, with q!=0 and q!=d
+intermediate conic: 105y^2-7(11d^2+27d+27)y+10B(d)=0, y=x^2
+saturation removal: d+6y=0 is exactly q=d
+remaining polynomial: R_12=105F^2+7AFE+10BE^2
+degree/leader: 12 / 149868
+finite endpoint: 32 degree-12 norm gcds
+compute spend: none; CR-L1-H7-C3-222-Q6X2 recorded
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: obtain both exceptional norm verdicts, then
+                              eliminate the generic three-variable branch
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` common-quadratic compiler:** the second
+three-color profile no longer needs two generic cubic factors or a raw value
+resultant.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler
+factor model: G=Q(W)(W-y), F-B=Q(W)(W-z), a=y-z
+role equation: aQ(y)=(lambda-1)B
+triangular eliminations: a, g_2, B from l_1,l_2,l_3
+retained variables per role: (g_1,y,r,d)
+retained equations: l_4,l_5,l_6, h=7 conic, role-color equation
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: compile/factor the five p-free equations once in
+                              symbolic lambda before the at most 42 roles
+```
+
+**2026-07-29, L1 h=7 low-degree norm launcher ready:** the complete
+quadratic endpoint, its independent pair specialization, and the two finite
+cubic `2+2+2` exceptional endpoints now share one hard-capped replay with
+partial output.
+
+```text
+launcher: experiments/prize_resolution/l1_m8_h7_low_degree_norm_endpoints_modal.py
+source sha256: 502c0922832a5aba3e4700d89369f901a8292d72eeb43d1bf2a23258c1ead8b3
+checker: experiments/prize_resolution/check_l1_m8_h7_low_degree_norm_certificate.py
+checker sha256: 60a18a0fcb7ac7d3a9ea3ca545cd12c351fc1866ad0035c760fef5f295251607
+coverage: quadratic F_8/R_2 and cubic P_5/R_12 on all four official primes
+aggregate test: gcd(P,X^(8(p+1))-1) over F_p
+equivalence: unit aggregate gcd iff all eight mu_8 norm-color gcds are unit
+rows: 4 endpoint polynomials * 4 primes = 16
+resources: one container, one CPU, 512 MB, 60-second hard timeout
+partial-output boundary: one JSON row after every completed endpoint/prime
+certificate: local entrypoint writes remote return with launcher digest;
+             checker requires exact source, input, coverage, and 16 unit rows
+launch status: READY, NOT RUN; Modal workspace remains spend-blocked
+critical status delta: none
+next route-deciding action: run after an explicit spend-state change; a unit
+                              certificate closes both exceptional branches
+```
+
+**2026-07-29, L1 m=8 aggregate norm-gcd compiler:** the low-degree launcher
+now rests on an explicit proof artifact rather than an undocumented shard
+shortcut.
+
+```text
+node proved: l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler
+identity: product_zeta (X^(p+1)-zeta)=X^(8(p+1))-1
+certificate equivalence: unit aggregate gcd iff all eight color gcds unit
+compression: 32 rows -> 4 rows per fixed endpoint polynomial
+hit rule: split by zeta; aggregate nonunit is not a packet witness
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: retain the 16-row launcher unchanged; execute
+                              only after an explicit Modal spend-state change
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` role polynomial:** the color-role layer
+now has one exact cyclotomic input rather than 42 separate specializations.
+
+```text
+node proved: l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler
+raw resultant: Res_U(C(U),C(1+lambda(U-1))), deg 49
+removed diagonal: (lambda-1)^7 for gamma=beta
+role polynomial: Lambda_321, degree 42 before squarefree merging
+root set: all ordered distinct mu_8 role ratios modulo common scaling
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: eliminate the common-quadratic core once with
+                              symbolic lambda and Lambda_321(lambda)=0
+```
+
+**2026-07-29, L1 h=7 cubic `2+2+2` affine-color compiler:** the symmetric
+three-double core now includes its previously deferred color equation without
+restoring the three individual double-fiber parameters.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler
+ordered color input: Lambda_321(lambda), degree 42 before squarefree merging
+affine invariants: P=e_2-e_1^2/3,
+                   Q=e_3-e_1e_2/3+2e_1^3/27
+safe equation: Res_lambda(Lambda_321,
+               27(lambda^2-lambda+1)^3 Q^2
+               +((lambda+1)(2lambda-1)(lambda-2))^2 P^3)=0
+characteristic-zero squarefree color shapes: 7
+shape gaps: (1,1,6), (1,2,5), (1,5,2), (1,3,4), (1,4,3),
+            (2,2,4), (2,3,3)
+explicit invariant polynomial:
+  (T+50)(T^2-224T-578)(T^2-4T+54)(125T^2-2404T+13448)
+repair: an initial five-shape draft incorrectly merged the two scalene
+        reflection pairs; reflection conjugates their affine invariants
+generic branch after b elimination: four equations in (x,q,d)
+compute spend: none
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: expand only the four-factor color radical, then
+                              eliminate the overdetermined generic core
+```
+
+**2026-07-29, L1 h=7 cubic `2+2+2` affine-invariant formula:** the repaired
+seven-shape color layer is now explicit in the three-variable HNF core; no
+value resultant or individual fiber root remains.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula
+centered source variables:
+  p=b-12
+  eta=-xp-q(d+2)/6
+  ell=x^2+q/6-2p/3
+target invariants:
+  P=ell^2p+6x ell eta-(4/3)x^2p^2
+  Q=-8x^3(eta^2+2p^3/27)-4x^2 ell p eta
+    -(4/3)x ell^2p^2+ell^3 eta
+rational color factors: 4, representing 7 geometric values
+generic b elimination:
+  alpha=-(q-d)x(x^2+q/6)
+  beta=(q-d)B_5+6dG
+  b=-beta/alpha
+retained variables per rational color factor: (x,q,d)
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: reduce the four explicit color factors modulo
+                              the conic and the two generic compatibilities
+```
+
+**2026-07-29, L1 h=7 cubic `2+2+2` quadratic-quotient weld:** the generic
+color packets are now exact denominator-free systems rather than rational
+substitutions awaiting a resultant.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld
+quadratic quotient:
+  p=b-12
+  p^2+(3x^2-q/2)p-(3q(d^2+3d+3)/4+q^2/8)=0
+power recurrence:
+  U_(n+1)=V_n-aU_n, V_(n+1)=hU_n
+compact invariant remainder:
+  12P=(-60x^4-8qx^2+8q(d+2)x+4q(d^2+3d+3)+q^2)p
+      -12xq(d+2)(x^2+q/6)
+generic weld variables: (x,q,d)
+equations per color packet: conic, D/M5 compatibility, M5/M6
+                            compatibility, color/M5 compatibility
+packet count: 4 rational packets representing 7 geometric color values
+equivalence: exact on alpha=-(q-d)x(x^2+q/6)!=0
+compute spend: none
+compute pre-request: CR-L1-H7-C3-222-GEN; proof-producing checker and pilot
+                     still missing, so no launch is authorized
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: seek hand factors in the four welded systems;
+                              prepare bounded remote elimination only if not
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` role-factor compiler:** the repaired
+affine-shape calculation also factors the second three-color profile's
+ordered role input over the rationals.
+
+```text
+node proved: l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler
+A=lambda^2-lambda+1
+B=(lambda+1)(2lambda-1)(lambda-2)
+role factors:
+  B^2+50A^3                                      degree 6
+  B^4-224B^2A^3-578A^6                          degree 12
+  B^4-4B^2A^3+54A^6                             degree 12
+  125B^4-2404B^2A^3+13448A^6                    degree 12
+product degree: 42, proportional to Lambda_321
+packet count: 4 rational packets preserving all ordered roles
+compute spend: none
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: run the common-quadratic elimination separately
+                              on these four low-degree role factors
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` role weld:** the role variable is now
+eliminated before any p-free classification.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld
+R=a(3y^2+2g_1y+g_2)
+S=B
+lambda=1+R/S
+homogeneous role inputs:
+  A_0=S^2+RS+R^2
+  B_0=(2S+R)(S+2R)(R-S)
+welded packets: the four role factors with (A,B) replaced by (A_0,B_0)
+variables per packet: (g_1,y,r,d)
+equations per packet: l_4,l_5,l_6, conic, one homogeneous role factor
+equivalence: exact on R*S!=0 and inherited exact-fiber saturations
+compute spend: none
+compute pre-request: CR-L1-H7-C3-321-GEN; proof-producing checker and pilot
+                     still missing, so no launch is authorized
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: seek triangular reductions among l_4,l_5,l_6
+                              before posing any four-packet elimination
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` Galois-role weld:** the ordered role
+polynomial has also been split into its individual rational Galois packets,
+lowering every role equation to degree at most four.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld
+Galois action: (a,b) -> (ka,kb), k in {1,3,5,7} modulo 8
+ordered-pair orbits: 3 of size 2 and 9 of size 4
+packet degrees: 2,2,2,4,4,4,4,4,4,4,4,4
+total degree: 3*2+9*4=42
+homogenization: widehat P_j(R,S)=S^e_j P_j(1+R/S)
+candidate representation: disjunction of 12 systems, never a conjunction
+variables per branch: (g_1,y,r,d)
+equations per branch: l_4,l_5,l_6, conic, one degree-<=4 role equation
+compute spend: none
+compute pre-request: CR-L1-H7-C3-321-GEN now offers four high-degree or
+                     twelve low-degree branches; a bounded pilot must choose
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: seek hand reductions packet by packet, then build
+                              a proof-producing bounded pilot if still needed
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` official Frobenius split:** the
+official congruence now lowers every role equation to degree two over the
+base field.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split
+official congruence: p=7 mod 8; choose s in F_p with s^2=2
+rational quadratic packets: 3
+rational quartics: 9, each split into two F_p quadratics
+official branch count: 3+2*9=21
+total degree: 21*2=42
+irreducibility: lambda^p=(beta/gamma)lambda; lambda in F_p would force
+                 beta=gamma, forbidden by the ordered-role saturation
+candidate representation: disjunction of 21 systems, never a conjunction
+variables per branch: (g_1,y,r,d)
+equations per branch: l_4,l_5,l_6, conic, one quadratic role equation
+compute spend: none
+compute pre-request: CR-L1-H7-C3-321-GEN now compares complete 4-, 12-, and
+                     21-branch representations before authorizing a route
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: exploit the quadratic role relation by hand in
+                              the triangular coefficient core before compute
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` scaled quadratic core:** the official
+quadratic packets now have a fully printed four-variable triangular ideal.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler
+dimensionless variables: x=dg_1, Y=dy, q=dr, d
+scaled complement/value pair: S=d^3B, R=d^3 aQ(y)
+sixth coefficient: D((Y-A)V-S)=K_6, forcing D=YV!=0
+reduced fourth equation:
+  D(G_2^2+AU G_2-Y(A+x)V-L_4)-xK_6=0
+reduced fifth equation:
+  (q-d)(Y^2V^2(G_2+AU)+G_2K_6)-6dK_6D=0
+transported role pair:
+  R_D=DR, S_D=Y(Y-A)V^2-K_6
+role input per official branch: one homogeneous quadratic Phi(R_D,S_D)
+equations per branch: E_4,E_5,E_6, conic, Phi; variables (x,Y,q,d)
+compute spend: none
+compute pre-request: CR-L1-H7-C3-321-GEN now consumes these printed ideals;
+                     launcher/checker/pilot/cost ceiling still absent
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: inspect E_4,E_5 for hand resultants in x or Y;
+                              only then design a proof-producing pilot
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` coefficient-matrix router:** the two
+middle coefficient equations now have a complete determinant decomposition.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router
+linear unknowns: H=G_2+AU and K_6
+matrix determinant: D*Delta,
+  Delta=G_2((q-d)G_2-6dD)+x(q-d)D
+generic Delta!=0: two exact Cramer equations
+singular Delta=0: WJ=0, split exactly into J=0 and J!=0
+x=0 equation: one explicit cubic C_0(Y;q,d)=0
+singular J=0 endpoint:
+  d(q^2+132q+2916)+144q=0
+  q^3+126q^2+(5364-504d-72d^2)q+87480=0
+  plus the h=7 conic
+compute spend: none
+compute pre-request: CR-L1-H7-C3-321-GEN should try the bivariate singular
+                     endpoint first with a proof-producing resultant
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: seek a hand gcd of conic, F_J, and F_W; if that
+                              stalls, prepare a tiny certificate-producing job
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` singular-`J=0` univariate endpoint:**
+the smallest determinant chamber is now a fixed four-row gcd packet.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction
+A(q)=q^2+132q+2916
+F_J and q!=0: d=-144q/A(q), with A(q)!=0
+P_W(q)=A(q)^2(q^3+126q^2+5364q+87480)
+       +72576q^2A(q)-1492992q^3                    degree 7, monic
+P_C(q)=A(q)^4*Conic(q,-144q/A(q))                  degree 10, leader 35
+official decision: gcd_Fp(P_W,P_C), four primes
+compute spend: none
+compute request: CR-L1-H7-C3-321-J0-GCD; source-pinned 0.125-CPU/128 MB/30 s
+                 single-container launcher and independent checker written
+launcher sha256: 39ccbf6493dc3a421935dbbd0b1e31e761c4e13b2c3f48eaa3c6b87d44a987e0
+checker sha256:  a653511eb927b1627258d7c2e25e6b46439827140d1fabab743a2404e771469c
+run status: unrun; Modal spend-blocked, no execution authorized
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: continue the Delta!=0 and singular J!=0 hand
+                              branches; launch this packet only after access
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` singular-`J!=0` chart compiler:** the
+second determinant-singular chamber now has exact lower-dimensional charts.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler
+forced split: x=0 iff G_2=0
+x=0 chart: Y=(q+30)/12 and three coefficient equations in (q,d)
+linear relation: (q^3+90q^2+3132q+57240)d
+                 =8q^3+864q^2+30528q+250560
+x!=0 chart: G_2!=0; define N=G_2^2+xD and Z=N+6DG_2
+sixth-equation numerator:
+  P=3x(6G_2+AxU-20-D)-8qx-3G_2H
+exact reconstruction: d=P/(qx)
+remaining determinant: q^2xN-PZ=0
+reduced endpoint: five equations in (x,Y,q), including conic and one of
+                  the 21 alternative quadratic role packets
+field-scope catch: q,d are not forced into F_p, so role irreducibility does
+                   not by itself delete either chart
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: seek a hand exclusion in the x=0 linear-d chart;
+                              otherwise reduce the generic Delta!=0 branch
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` generic linear-`d` router:** the last
+broad coefficient branch now has an exact one-variable eliminant.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router
+E_6-normalized pair:
+  F_4=G_2H-xQ_6-W
+  F_5=(q-d)DH+JQ_6
+d degrees: both quadratic, with proportional leading coefficients
+exact cancellation: 3(3F_5)+(G_2+6D)(12F_4)=C_1d+C_0
+C_1!=0 chart: d=-C_0/C_1; four equations in (x,Y,q)
+C_1=0 chart: retain C_1=C_0=0 and four residual equations in (x,Y,q,d)
+generic guards: Delta*W!=0; no denominator component discarded
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: inspect the C_1=C_0 exceptional parameter locus
+                              for a hand contradiction before any elimination
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` generic double-linear-`d` router:** the
+conic and sixth coefficient provide a second exact linear eliminant.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router
+quartic cancellation: R_3=(720E_6+q Conic)/2 has degree 3 in d
+quadratic reduction: R_2=R_3-44dP_4
+second linear equation: 3R_2+(12q+366-176x)P_4=M_1d+M_0
+first linear equation: C_1d+C_0=0
+parameter determinant: Omega=C_1M_0-M_1C_0=0
+C_1!=0: reconstruct d=-C_0/C_1 in three variables
+C_1=0,M_1!=0: retain C_0=0 and reconstruct d=-M_0/M_1
+doubly singular residue: C_1=M_1=C_0=M_0=0, with d retained
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: attack the doubly singular coefficient locus by
+                              its T=G_2+6D zero/nonzero split
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` doubly-singular quadratic quotient:**
+the conic and each role packet now supply two more linear equations in `d`.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router
+quadratic quotient: d^2=((4x-21)/3)d+4R_0/q from P_4=0
+conic remainder: 9q^2 Conic=N_1d+N_0 mod P_4
+role remainder: 27Phi(R,S_0+qd/3)=U_1d+U_0 mod P_4
+parameter determinant: Xi=N_1U_0-U_1N_0=0
+N_1!=0: reconstruct d=-N_0/N_1
+N_1=0,U_1!=0: retain N_0=0 and reconstruct d=-U_0/U_1
+fully proportional residue: N_1=U_1=N_0=U_0=0, with d retained
+role scope: one of 21 alternative official quadratics at a time
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: inspect the fully proportional role/conic locus;
+                              use T=G_2+6D only inside that final residue
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` fully-proportional parameter
+reduction:** the final quotient coefficients now have explicit solutions.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction
+b=4x-15 is nonzero: b=0 would give N_1=630q^3!=0
+conic reconstruction: R_0=-qP/(2880b)
+bivariate conic endpoint: F_N=6P^2-bPQ+2880b^2T_c=0
+role reconstruction: S_0=-c_1R/(2c_0)-qa_d/18
+discriminant weld:
+  c_0^2 disc_d(P_4)=81(c_1^2-4c_2c_0)R^2
+scope fence: ambient quadratic field, so no prime-field nonsquare
+             contradiction is claimed
+retained d equation: P_4=0
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: combine F_N and the four coefficient-zero
+                              equations before any packet-by-packet compute
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` fully-proportional bivariate
+factorization:** the conic endpoint is only quadratic in `q`.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization
+coordinate: z=(4x-15)^2
+factored endpoint:
+  F_N/24=63(1575-247z)q^2+9240z(9-z)q
+         +400z(9-z)(z+27)
+excluded chart: z=9 gives -63*648q^2!=0
+generic q-discriminant:
+  302400z(9-z)(-200z^2+4239z-14175)
+leading-zero chart: z=1575/247 and q=-10(z+27)/231
+scope fence: no ambient-field square verdict
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: substitute the bivariate endpoint into
+                              C_1=M_1=C_0=M_0 before any compute
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` fully-proportional coefficient
+router:** the four coefficient-zero equations now reduce generically to a
+bivariate system.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router
+M-pair reconstruction:
+  D_*=3600bD, Q_*=72D_*Q_0, with D_*!=0
+structural identity:
+  H+G_2=(b^2+6b+105+8q)/16, A=-(b+3)/2!=0
+C-pair reduction:
+  E_G G_2+F_G=0, J_G G_2+D L_G=0
+generic chart:
+  G_2=-F_G/E_G and Theta_G=E_G D L_G-J_G F_G=0
+exceptional chart:
+  E_G=0 forces Q_0=q^2/3 and Q_*-24D_*q^2=0
+final retained coefficient chart:
+  E_G=J_G=L_G=0 with G_2 retained
+scope fence: every chart retains F_b, the structural, role, P_4, and
+             arithmetic-lift equations; no emptiness is claimed
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: simplify the generic bivariate compatibility
+                              and the E_G=0 exceptional endpoint by hand
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` coefficient bivariate compiler:** the
+rational router now has compact denominator-free endpoints.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler
+cleared polynomials:
+  F_*=D_*K_*-30bQ_*
+  J_*=150bQ_*-3D_*^2-5PD_*
+  Theta_*=5E_GD_*^2L_*-6J_*F_*
+exact generic endpoint:
+  F_b(b^2,q)=Theta_*(b,q)=0, E_G!=0
+  G_2=-F_*/(600bE_G)
+exceptional endpoint:
+  F_b=E_G=X_*=0, X_*=Q_*-24D_*q^2
+  J_*!=0 reconstructs G_2=-D_*^2L_*/(720bJ_*)
+final coefficient residue:
+  F_b=E_G=X_*=J_*=L_*=0 with G_2 retained
+degree ledger:
+  deg(Theta_*)<=12, deg_q(Theta_*)<=6, deg_q(F_b)=2
+scope fence: the structural, role, P_4, and arithmetic-lift equations remain
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: factor or eliminate the small pair
+                              (F_b,Theta_*) with proof-producing evidence
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` generic q-quotient router:** the
+degree-six compatibility polynomial now reduces modulo the quadratic conic
+endpoint.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router
+quadratic coefficients:
+  F_b=a_2q^2+a_1q+a_0
+cleared power recurrence:
+  a_2^(j-1)q^j=u_jq+v_j mod F_b, 2<=j<=6
+affine remainder:
+  a_2^5Theta_*=rho_1(b)q+rho_0(b) mod F_b
+generic chart:
+  q=-rho_0/rho_1
+  U(b)=a_2rho_0^2-a_1rho_0rho_1+a_0rho_1^2=0
+singular affine-remainder chart:
+  rho_1=rho_0=0 with F_b retained
+leading-coefficient chart:
+  b^2=1575/247, q=-10(b^2+27)/231, Theta_*=0
+degree ledger:
+  deg_b(rho_1)<=26, deg_b(rho_0)<=28, deg_b(U)<=58
+scope fence: no nonzero-resultant or root verdict; all structural, role, P_4,
+             and arithmetic-lift equations remain
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: obtain a proof-producing factorization of U and
+                              the gcd content of (rho_1,rho_0)
+```
+
+**2026-07-29, L1 h=7 fully-proportional quotient compute packet:** the next
+route decision is source-complete but deliberately unrun.
+
+```text
+request: CR-L1-H7-C3-321-FPQ-QUOTIENT
+launcher: experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
+checker: experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
+work: factor degree-at-most-58 U over four official fields; certify
+      gcd(rho_1,rho_0), the a_2=0 chart, every factor and the diagnostic
+      degree-1/2 subset,
+      gcd(U,Zhat_D,Zhat_Q,Zhat_R) by a four-way Bezout identity, and
+      gcd(V_E,X_E,Zhat_D^e,Zhat_Q^e,Zhat_R^e) by a five-way identity;
+      also certify and factor gcd(H,K) for the S_1=S_0 singular chart,
+      flag the already-excluded A=0 factor, and list every non-A factor
+      of degree at most two over the official prime field
+limits: one CPU, 512 MB, 60 seconds per prime, at most four containers,
+        no retries, atomic partial output
+estimated cost: below $0.01
+status: source-complete, syntax-only validation, unrun
+launch gate: Modal workspace spend-blocked; explicit spend-access change
+             required before launch
+closure rule: a unit four-way gcd excludes the generic coefficient/structural
+              chart for that prime, and a unit five-way gcd excludes the
+              generic exceptional chart; nonunit factors still require role,
+              P_4, saturation, and arithmetic-lift replay
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` exceptional-E quadratic router:** the
+parallel `E_G=0` coefficient chart now reduces to bounded univariate data.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router
+exceptional quadratic:
+  E_G=-720bq^2+(240b^2-1902b-630)q
+      -40b(b^2-6b+27)
+affine cancellation:
+  a_2E_G-e_2F_b=S_1q+S_0
+generic exceptional chart:
+  q=-S_0/S_1
+  V(b)=a_2S_0^2-a_1S_0S_1+a_0S_1^2=0
+  X_E(b)=S_1^3X_*(b,-S_0/S_1)=0
+singular charts:
+  S_1=S_0=0 with F_b=X_*=0 retained
+  a_2=0 with fixed b^2,q and E_G=X_*=0 retained
+degree ledger:
+  deg(S_1)<=5, deg(S_0)<=7, deg(V)<=16, deg(X_E)<=23
+scope fence: no gcd/root or emptiness verdict; all structural, role, P_4,
+             saturation, and arithmetic-lift equations remain
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: obtain proof-producing gcds for (V,X_E) and the
+                              simultaneous singular coefficient charts
+```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` generic structural compiler:** the
+coefficient-only endpoint is now reattached to every original structural
+definition before any root can be accepted.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler
+reconstructions:
+  D_c=D_*/(3600b), Q_c=Q_*/(72D_*), G_c=-F_*/(600bE_G)
+  H_c=ell-G_c, Y_c=(ell-2G_c)/A-x, V_c=G_c+xY_c+Y_c^2
+three structural filters:
+  Z_D=Num(D_c-Y_cV_c)
+  Z_Q=Num(Q_c-A G_c-x ell+20+8q/3+D_c)
+  Z_R=Num(R_c-G_c(ell-G_c)+xQ_c+(A+x)D_c
+          +15+23q/4+q^2/8)
+degree ledger:
+  deg(Z_D)<=18, deg(Z_Q)<=10, deg(Z_R)<=15
+generic q reconstruction:
+  Zhat_i(b)=rho_1^deg_q(Z_i) Z_i(b,-rho_0/rho_1)
+complete coefficient/structural endpoint:
+  U=Zhat_D=Zhat_Q=Zhat_R=0
+scope fence: role-discriminant, P_4, saturations, and arithmetic lifts remain;
+             no common-root or emptiness verdict
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: extend the factor packet to certify common gcds
+                              with the three structural filters
+```
+
+**2026-07-29, L1 h=7 generic structural-gcd packet extension:** the existing
+unrun quotient request now decides the complete generic coefficient and
+structural endpoint before any role sharding.
+
+```text
+source encoding: primitive integer q-coefficient tables for Z_D,Z_Q,Z_R
+runtime guards: total degrees at most 18,10,15; fixed contents are units in
+                every official characteristic
+bounded substitution: compute each Zhat_i mod U, so degrees stay below 58
+certificate: four-way Bezout identity for gcd(U,Zhat_D,Zhat_Q,Zhat_R)
+UNIT meaning: generic coefficient/structural chart excluded on that prime
+HIT meaning: only common factors continue to role, P_4, saturation, and lifts
+non-verdict: explicit U_IDENTICALLY_ZERO branch
+limits: unchanged at four independent one-CPU, 512 MB, 60-second tasks
+estimated cost: still below $0.01
+status: source-complete, syntax-only validation, unrun; Modal spend-blocked
+compute spend: none
+DAG delta: none; this is a proof-producing request for the existing endpoint
+next route-deciding action: run only after an explicit spend-access change
+```
+
+**2026-07-29, L1 h=7 exceptional-`E_G` structural compiler:** the generic
+part of the exceptional coefficient chart is now reattached to every
+original structural definition.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler
+scope: E_G=0 and a_2*S_1*J_*!=0
+reconstructions:
+  D_e=D_*/(3600b), Q_e=Q_*/(72D_*)
+  G_e=-D_*^2L_*/(720bJ_*), H_e=ell-G_e
+  Y_e=(ell-2G_e)/A-x, V_e=G_e+xY_e+Y_e^2
+structural filters:
+  Z_D^e=Num(D_e-Y_eV_e)
+  Z_Q^e=Num(Q_e-A G_e-x ell+20+8q/3+D_e)
+  Z_R^e=Num(R_e-G_e(ell-G_e)+xQ_e+(A+x)D_e
+            +15+23q/4+q^2/8)
+degree ledger:
+  deg(Z_D^e)<=27, deg(Z_Q^e)<=13, deg(Z_R^e)<=21
+exceptional q reconstruction:
+  Zhat_i^e=S_1^deg_q(Z_i^e) Z_i^e(b,-S_0/S_1)
+complete coefficient/structural endpoint:
+  V_E=X_E=Zhat_D^e=Zhat_Q^e=Zhat_R^e=0
+retained charts: S_1=0, a_2=0, and J_*=0; role, P_4, saturations,
+                 and arithmetic lifts also remain
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: consume the shared five-way packet after an
+                              explicit spend-access change
+```
+
+**2026-07-29, L1 h=7 shared exceptional structural-gcd extension:** the
+existing four-prime packet now decides both reconstructed coefficient charts
+in each future container.
+
+```text
+exceptional source: V_E, cubic-cleared X_E, and primitive integer
+                    q-coefficient tables for Z_D^e,Z_Q^e,Z_R^e
+bounded substitution: compute X_E and each Zhat_i^e modulo V_E
+certificate: five-way Bezout identity for
+             gcd(V_E,X_E,Zhat_D^e,Zhat_Q^e,Zhat_R^e)
+UNIT meaning: a_2*S_1*J_*!=0 exceptional coefficient/structural chart
+              excluded on that prime
+HIT meaning: only common factors continue to role, P_4, saturation, and lifts
+non-verdict: explicit V_E_IDENTICALLY_ZERO branch
+resource delta: no new containers, CPUs, memory, retries, or timeout
+estimated total cost: still below $0.01
+status: source-complete, syntax-only validation, unrun; Modal spend-blocked
+compute spend: none
+DAG delta: none; this packet consumes the two existing structural compilers
+next route-deciding action: run only after an explicit spend-access change
+```
+
+**2026-07-29, L1 h=7 exceptional-`E_G` leading-chart exclusion:** the fixed
+`a_2=0` chart of (FEQ8) is now closed analytically in every official
+characteristic.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion
+fixed chart:
+  z=b^2=1575/247
+  q=-10(z+27)/231
+affine exceptional equation:
+  E_G=C_b b+C_0
+  C_b=-8244*3950060/(61009*5929)
+  C_0=3233714400/(61009*231)
+forced value:
+  b=115275930/45228187
+official obstruction:
+  W=247*115275930^2-1575*45228187^2
+   =60466872820654125
+  W mod (8191,131071,524287,2147483647)
+   =(6740,100974,284891,1825899718)
+conclusion: E_G=0 is already impossible, so X_*=0 and all structural,
+            role, P_4, saturation, and arithmetic-lift equations are
+            unnecessary on this branch
+scope fence: no claim about the generic exceptional endpoint, S_1=S_0=0,
+             J_*=0, the ordinary coefficient chart, or another h=7 shape
+checker state: exact rational primary and independent direct prime-field
+               audit source-complete; AST-only local validation; intentionally
+               unexecuted under the Modal-only computation rule
+checker hashes:
+  verify.py       4a1e82d0c0e60867674cd88373605ad35011e08199b3aab8b156a29e0c632b4c
+  verify_audit.py 6c218637a0f7cacdb323b4ceea58619fe50dab7b7fde23e2e47c2c43d5d05342
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: c82b819a71e55c830b31549fec3895d5b8c6b3d7
+  combined verifier:
+    8a07454eed5a1171fe364d34ba3f4b5be8d622e5e7bdba625ebd4766dcb15756
+  export state at pin: OPEN, DRAFT, MERGEABLE
+  replay repair: verifier note path corrected from the repository root to
+                 experimental/notes/l1 before export
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: attack the retained S_1=S_0=0 exceptional chart
+                              by hand while the shared gcd packet remains
+                              spend-blocked
+```
+
+**2026-07-29, L1 h=7 exceptional-`E_G` singular-affine router:** the
+simultaneous `S_1=S_0=0` coefficient chart is now an exact two-quartic
+endpoint.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router
+normalization with z=b^2 and A=1575-247z:
+  S_0=360bE_0
+  S_1=126E_1
+  (z+27)E_1-66bE_0=-3A R
+  R=163b(z+27)-(40z^2+51z-2835)
+unit guard:
+  N(-27)=24948 mod (8191,131071,524287,2147483647)
+        =(375,24948,24948,24948)
+reconstruction:
+  b=N(z)/(163(z+27))
+quartic endpoint:
+  H=N(z)^2-163^2 z(z+27)^2=0
+  K=42A(z)N(z)+163(z+27)^2(-800z^2+8929z-11025)=0
+  deg(H)=deg(K)=4 on every official characteristic
+retained equations: A!=0, F_b=X_*=0, J_* split, structural filters, role,
+                    P_4, saturations, and arithmetic lifts
+scope fence: no common-root, ambient F_(p^2), or emptiness verdict
+checker state: exact polynomial primary and independent prime-field sample
+               audit source-complete; AST-only local validation; unexecuted
+checker hashes:
+  verify.py       f46dded9618644a42b670a8d3d37738ba1a0808eff70f699d29f3c84939628ab
+  verify_audit.py 3c9150abef83dc540529468dfa01c76529f2e0ef3e0af82825848fef42265b76
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: add the quartic common-root/ambient-degree
+                              decision to the existing bounded four-prime
+                              packet without increasing its resource envelope
+```
+
+**2026-07-29, L1 h=7 exceptional singular-affine packet extension:** the
+existing unrun four-prime request now decides whether the two-quartic endpoint
+has any algebraic root away from the closed leading chart.
+
+```text
+source additions: primitive integer coefficient tables for
+                  A=1575-247z and the quartics H,K
+certificate: pairwise Bezout identity for gcd(H,K), followed by a complete
+             irreducible factorization of the monic gcd
+guard classification: flag every factor dividing A; these belong to the
+                      separately proved exceptional leading-chart exclusion
+legal classification: retain every non-A irreducible factor, at any degree
+quadratic diagnostic: separately list the degree-at-most-two legal factors
+EMPTY meaning: no algebraic root exists on the declared A!=0 chart
+HIT meaning: every listed legal factor continues to b reconstruction,
+             F_b=X_*=0, J_*, structural, role, P_4, saturation, and lifts
+launcher:
+  06e941be7bd231d993a63ebb83c0855f0798524a10e86249e9796f9b7a02f3c0
+checker:
+  9174a04da730f47d594c65dbc0f0d8d20aaa8a064cc225c51ef69e68d6baf1de
+resource delta: none; four one-CPU, 512 MB, 60-second tasks, no retries,
+                atomic partial output
+estimated total cost: still below $0.01
+status: source-complete, AST-only validation, unrun; Modal spend-blocked
+compute spend: none
+DAG delta: none; this consumes the existing singular-affine router
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: 9ddfb6ac70d8e2e1fcc4660ae204510c51b333a8
+  combined verifier:
+    82feb2820f1539b9c3da69ebbfbf0c6b84bfede5ae357303dc828d4d3cfabd0a
+  launcher/checker parity:
+    06e941be7bd231d993a63ebb83c0855f0798524a10e86249e9796f9b7a02f3c0
+    9174a04da730f47d594c65dbc0f0d8d20aaa8a064cc225c51ef69e68d6baf1de
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: consume the packet only after an explicit
+                              spend-access change; meanwhile attack the
+                              retained exceptional J_*=0 chart by hand
+```
+
+**2026-07-29, L1 h=7 exceptional-`J_*=0` affine router:** the last
+coefficient chart retaining `G_2` is now an exact bounded univariate
+endpoint.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router
+source chart: F_b=E_G=X_*=J_*=L_*=0 with bD_*!=0
+exact identities:
+  L_*=45bB+6E_G
+  R_J+5E_G=-75bB+3(Tq-5bM)
+  J_*=-D_*R_J+150bX_*
+where:
+  B=96q^2+(216-32b)q+3b^2+18b+315
+  R_J=3D_*+5P-3600bq^2
+  T=-280b^2+2241b+3465
+  M=29b^2+234b+81
+reconstruction: q=5bM/T
+denominator guard:
+  29T+280M=9(14501b+13685)
+  14501^2 M(-13685/14501)=-23972710684
+  residues=(3690,44145,312391,1797093080), all nonzero
+univariate endpoint:
+  Bhat=T^2 B(b,5bM/T)=0        degree <=6
+  Ehat=T^2 E_G(b,5bM/T)=0      degree <=7
+  Fhat=T^2 F_b(b^2,5bM/T)=0    degree <=10
+  Xhat=T^3 X_*(b,5bM/T)=0      degree <=11
+retained: G_2, structural, role, P_4, saturations, and arithmetic lifts
+scope fence: no common-root, ambient-degree, emptiness, or critical closure
+checker state: source-complete primary and independent audit; AST-only local
+               validation; unexecuted
+checker hashes:
+  verify.py       49fc746508f1ae9fb996dc68d7013585128949d5972c44726ec2b94236640919
+  verify_audit.py 9489a527fe1ffd9374b34cce03dcfb45e03f8160d83e1e293af26605bc10ef03
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+```
+
+**2026-07-29, L1 h=7 exceptional-`J_*=0` packet extension:** the same
+spend-blocked four-prime packet now computes a four-way Bezout gcd
+certificate for `Bhat,Ehat,Fhat,Xhat`, factors the monic gcd, and classifies
+the ambient endpoint.
+
+```text
+guard classification: every irreducible gcd factor dividing T is marked
+                      t_zero_factor and excluded from the legal chart
+legal classification: retain every non-T factor, at any degree
+quadratic diagnostic: separately list the degree-at-most-two legal factors
+EMPTY meaning: no legal algebraic coefficient root exists
+HIT meaning: every listed legal factor continues to G_2, structural, role, P_4,
+             saturation, and arithmetic-lift replay
+IDENTICALLY_ZERO_FAMILY meaning: inconclusive, never closure
+launcher:
+  85ec64690ef625ec3f1e4f1815b95064ad85698d36e4a07826aa9ad6f51827ab
+checker:
+  b89c741dbe723d8ee49992f437b6973f9f0559e4cd68105428de24a72e0aef46
+resource delta: none; four one-CPU, 512 MB, 60-second tasks, no retries,
+                atomic partial output
+estimated total cost: still below $0.01
+status: source-complete, AST-only validation, unrun; Modal spend-blocked
+compute spend: none
+DAG delta: none; this consumes the new J-zero affine router
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: 38b4c8b5dc08143ee7d284bd0e53b8197175ce64
+  combined verifier:
+    bb5af22c100f06117b1a9165c0afaad86f09576e697571ae8c0bc7e6f75bef13
+  launcher/checker parity:
+    85ec64690ef625ec3f1e4f1815b95064ad85698d36e4a07826aa9ad6f51827ab
+    b89c741dbe723d8ee49992f437b6973f9f0559e4cd68105428de24a72e0aef46
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: continue exact hand elimination on the retained
+                              h=7 endpoint while all Modal work waits
+```
+
+**2026-07-29, L1 h=7 exceptional-`J_*=0` structural compiler:** the last
+coefficient chart retaining `G_2` now returns to every original structural
+definition and leaves only two additional univariate filters.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler
+input: E_G=X_*=J_*=L_*=F_b=0, q=5bM/T, b(b+3)D_*T!=0
+exceptional reconstruction:
+  Q_0=q^2/3
+  G_2=(q^2/3-x ell+20+8q/3+D_*/(3600b))/A
+  H=ell-G_2, Y=(ell-2G_2)/A-x, V=G_2+xY+Y^2
+remaining structural filters:
+  Z_D^j=Num(D_*/(3600b)-YV)
+  Z_R^j=Num(R_0-G_2(ell-G_2)+xq^2/3+(A+x)D
+            +15+23q/4+q^2/8)
+bivariate bounds:
+  (total degree,q-degree) <= (12,6), (8,4)
+after q=5bM/T:
+  deg Zhat_D^j<=24, deg Zhat_R^j<=16
+complete endpoint:
+  Bhat=Ehat=Fhat=Xhat=Zhat_D^j=Zhat_R^j=0
+retained: role-discriminant weld, P_4, saturations, arithmetic lifts
+scope fence: no common-root, ambient-degree, emptiness, or critical closure
+checker state: source-complete primary and independent audit; AST-only local
+               validation; unexecuted
+checker hashes:
+  verify.py       528d69d77f27cdf4a74cda6c853474cdacb498c7ef5f051b7cb556b29171a005
+  verify_audit.py af4e8a64796a0948978bcb40e913b23d9c4197262bb4f8861dbee35527c0f5e2
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+```
+
+**2026-07-29, L1 h=7 exceptional-`J_*=0` six-filter packet:** the shared
+spend-blocked request now includes the two structural numerators in the
+same exact gcd/factor certificate.
+
+```text
+family: Bhat,Ehat,Fhat,Xhat,Zhat_D^j,Zhat_R^j
+certificate: six-way Bezout identity, complete monic-gcd factorization,
+             T-zero guard classification, and quadratic-subfield diagnostic
+EMPTY meaning: no legal algebraic coefficient-and-structural root exists
+HIT meaning: every listed legal factor continues to role, P_4, saturations, lifts
+IDENTICALLY_ZERO_FAMILY meaning: inconclusive, never closure
+launcher:
+  4490ec4cfdbbf36c45c4bdaa50177b1e8b26879ab513822d20af1e644702e56a
+checker:
+  f1074ddb54f89bee37c2f89bf086b76c4d4a017745968c27937339ccf11a89b3
+resource delta: none; four one-CPU, 512 MB, 60-second tasks, no retries,
+                atomic partial output
+estimated total cost: still below $0.01
+status: source-complete, AST-only validation, unrun; Modal spend-blocked
+compute spend: none
+DAG delta: none; this consumes the new J-zero structural compiler
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: 7ef9a407c23bedc8546427929fba05484cb166d4
+  combined verifier:
+    446123cea29919792b819e5b23459df6a4a8e6f62018b6402debc2bcf06febc0
+  launcher/checker parity:
+    4490ec4cfdbbf36c45c4bdaa50177b1e8b26879ab513822d20af1e644702e56a
+    f1074ddb54f89bee37c2f89bf086b76c4d4a017745968c27937339ccf11a89b3
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: inspect whether the role and P_4 filters admit
+                              a similarly exact reduction
+```
+
+**2026-07-29, L1 h=7 exceptional-`J_*=0` role/`P_4` compiler:** the role
+and `P_4` layer is now an exact two-filter extension for each alternative
+official role packet.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler
+fixed role packet:
+  Phi(X,Y)=c_2X^2+c_1XY+c_0Y^2
+  delta_Phi=c_1^2-4c_2c_0, c_0*delta_Phi!=0
+reconstructed role values:
+  R_j=A(3Y_j^2+2xY_j+G_j)
+  S_j=(Y_j-A)V_j-q^2/3
+role filters:
+  L_Phi=18c_0S_j+9c_1R_j+c_0q(b-6)
+  W_Phi=c_0^2(q^2(b-6)^2+144qR_0)-81delta_Phi R_j^2
+bivariate bounds:
+  (total degree,q-degree) <= (12,6), (18,8)
+after q=5bM/T:
+  deg Lhat_Phi<=24, deg What_Phi<=34
+d reconstruction for either ambient root c_0eta^2+c_1eta+c_2=0:
+  d=3(eta R_j-S_j)/q
+exact P_4 payment:
+  27Phi(R_j,S_j+qd/3)+c_0qP_4=U_1d+U_0
+  L_Phi=What_Phi=0 iff U_1=U_0=0
+complete endpoint per role:
+  six coefficient/structural filters plus Lhat_Phi=What_Phi=0
+alternatives: 21 official role packets, each with two eta branches
+retained: every saturation on reconstructed d and all arithmetic lifts
+scope fence: no eight-filter common-root, lift, emptiness, or critical closure
+checker state: source-complete primary and independent audit; AST-only local
+               validation; unexecuted
+checker hashes:
+  verify.py       0128bd70e9f7262450c0b7c87daf1ac69047ef9a3b346777a295d00a8272459d
+  verify_audit.py d18fd47835f4e61fdd153deba53743b2b93cb75b89ec3916250e82ea4dc9049e
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: ea2bd60abec747ed041493b77a135cd2e9388057
+  combined verifier:
+    b103bf22b73736dd51f97a03db83c07de681a20805448749cd98e96c7e13c7a6
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: decide whether to add 21 role-specific gcd
+                              families to the unrun packet or attack
+                              arithmetic lifts by hand
+```
+
+**2026-07-29, L1 h=7 certificate field-scope correction:** the unrun
+fully-proportional packet no longer treats the role field as the coefficient
+field.
+
+```text
+audited distinction: each official role root eta lies in F_(p^2), but no
+                     dependency proves b in F_(p^2)
+unsafe old rule: discard every common-gcd factor of degree greater than two
+sound global rule: discard only factors on an already excluded guard chart;
+                   global EMPTY means no legal factor remains at any degree
+diagnostic retained: degree-one/two legal factors are reported separately as
+                     the quadratic-subfield subset
+singular guard: A=1575-247z
+J-zero guard: T=-280b^2+2241b+3465
+IDENTICALLY_ZERO_FAMILY: remains inconclusive
+launcher:
+  4490ec4cfdbbf36c45c4bdaa50177b1e8b26879ab513822d20af1e644702e56a
+checker:
+  f1074ddb54f89bee37c2f89bf086b76c4d4a017745968c27937339ccf11a89b3
+validation: AST-only; arithmetic packet remains unrun and spend-blocked
+compute/resource delta: none
+DAG delta: none; this repairs certificate semantics, not a mathematical close
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: d56f8d224271c4f2509ea75da345470fd5e0c658
+  launcher/checker parity:
+    4490ec4cfdbbf36c45c4bdaa50177b1e8b26879ab513822d20af1e644702e56a
+    f1074ddb54f89bee37c2f89bf086b76c4d4a017745968c27937339ccf11a89b3
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: seek an actual field-descent or bounded Frobenius
+                              equation before extending to 21 role families
+```
+
+**2026-07-29, L1 h=7 coefficient-field descent:** the official normalized
+cubic data now have an exact generated-field bound.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router
+official rows: p=2^t-1, t in {13,17,19,31}; n=2^(t+3)
+order calculation:
+  p^2=1-n/4 mod n, p^4=1-n/2 mod n, p^8=1 mod n
+  hence ord_n(p)=8
+field descent: P=(W+1/d)L divides W^n-1, so the normalized roots,
+               d, every monic color-fiber factor coefficient, and
+               b=4dg_1-15 lie in F_(p^8)
+exact factor rule: an irreducible b factor is official-eligible iff its
+                   degree divides 8, namely degree in {1,2,4,8}
+packet schema:
+  legal_factors                 all non-guard factors
+  cyclotomic_field_factors      exact degree-1/2/4/8 official subset
+  quadratic_subfield_factors    diagnostic degree-1/2 subset
+closure semantics: cyclotomic_field_status=EMPTY excludes the official
+                   chart; global_status=EMPTY is the stronger algebraic close
+launcher:
+  59bb96e395c4eac8ada98417bc7e68f59c905cb7dcfec9219aad71578097119b
+checker:
+  d25dc17b956ace1f4faa97acc533fe99492089658eb5b103bcfc70711667a609
+node checker sources:
+  verify.py       e4b8c4c805a8b8544012dc9e8e4b72e8ad5768f05ca2505da8d5a5c60450aae1
+  verify_audit.py 01227ec4aefb12e920ff7ec0a5247c061710fecdab1ca58acc8cb87e93c908c6
+validation: AST-only for all four sources; DAG, harness, joint protocol,
+            orbit census, and manifest passed; arithmetic remains unrun
+compute/resource delta: none; existing spend-blocked request unchanged
+DAG delta: one PROVED background node and three edges; no critical status flip
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: dae288582936d6d96a77235e91199189af1d04f1
+  combined verifier:
+    0c11e7f6275f81986f0f0e5df294c1498e6e7d8ac7be09cd5f9b828f978dbde7
+  launcher/checker parity:
+    59bb96e395c4eac8ada98417bc7e68f59c905cb7dcfec9219aad71578097119b
+    d25dc17b956ace1f4faa97acc533fe99492089658eb5b103bcfc70711667a609
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: reconsider 21 role families against the exact
+                              degree-1/2/4/8 survivor interface
+```
+
+**2026-07-29, L1 h=7 official-role gcd packet:** the spend-blocked
+fully-proportional packet now compiles every role alternative through the
+exact degree-eight field interface.
+
+```text
+shared filters per row:
+  Bhat,Ehat,Fhat,Xhat,Zhat_D^j,Zhat_R^j
+official alternatives:
+  H1,H2,H3 and Q4+/Q4- through Q12+/Q12- (21 total)
+per-role filters:
+  Lhat_Phi, What_Phi
+per-role certificate:
+  eight-way Bezout identity, complete monic-gcd factorization,
+  T-zero guard classification, legal factors, exact degree-1/2/4/8
+  cyclotomic-field factors, and degree-1/2 diagnostic factors
+disjunction discipline: each role is certified separately; roles are never
+                       intersected
+aggregate semantics:
+  ALL_EMPTY    all 21 official role charts are empty for the row
+  HIT          at least one role has an official-field-eligible b factor
+  INCONCLUSIVE at least one eight-polynomial family is identically zero
+HIT obligations: reconstructed-variable saturations, both eta roots where
+                 applicable, and arithmetic lifts
+launcher:
+  c5ccd14b02e0b0119fbcbbaa20f7eae7214716c13a2e9b8158cce50674bb51af
+checker:
+  92b6d6d9e42b15a9c476aea154bfabc57b652a5d54d203c15c79036f09051643
+validation: AST-only; packet arithmetic remains unrun
+resource delta: none; four one-CPU, 512 MB, 60-second tasks, no retries,
+                atomic partial output; completion time is unmeasured
+compute spend: none; Modal workspace remains spend-blocked
+DAG delta: none until a complete checked result exists
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: 38b9766ca2421f89d5d9f735bdd5f39490658346
+  combined verifier:
+    8b0224fd837c02786982ed90e2e79b5d3b61b5f360551bf603af3c7bb787f50a
+  launcher/checker parity:
+    c5ccd14b02e0b0119fbcbbaa20f7eae7214716c13a2e9b8158cce50674bb51af
+    92b6d6d9e42b15a9c476aea154bfabc57b652a5d54d203c15c79036f09051643
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: when spend access is explicitly restored, run
+                              and replay all four rows; meanwhile attack the
+                              remaining saturation/lift interface by hand
+```
+
+**2026-07-29, L1 h=7 J-zero outer-lift compiler:** a retained official role
+candidate now has one exact finite outer replay rather than four vague lift
+labels.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler
+field: K=F_(p^8); eta and mu_8 lie in its quadratic subfield
+normalized role enumeration:
+  (beta,gamma) in (mu_8\{1})^2, beta!=gamma,
+  eta=(beta-1)/(gamma-beta)                         at most 42 pairs
+reconstruction:
+  Q=W^2+(g_1+y)W+v
+  G=Q(W)(W-y)
+  F=G+aQ+B
+  L=FG
+  E_norm=1+(beta-1)F/B
+exact color values: 1 on F, beta on Q, gamma at y
+outer replay:
+  zeta=d^(p+1), zeta^8=1
+  W^(p+1)=tau E_norm mod L for some tau in mu_8
+consequence:
+  P=(W+1/d)L divides W^(8(p+1))-1
+  c^p=1+zeta/d
+complexity: modular powering only modulo degree-six L; no degree-n object
+scope fence: no common-root, guard, norm, or congruence outcome; no inner
+             lift; no other h=7 shape; no critical status flip
+checker state: primary and independent audit sources written; AST-only
+               local validation; unexecuted
+checker hashes:
+  verify.py       da75ed3e542d03bc03f97e2c0038eb03f003e871d806152f5ee8c90a6b1c3c5e
+  verify_audit.py a40dcd461807ab3fbdb1ee8b16c1e2776c99b2db0f6321b2487fb6645a138191
+compute spend: none
+DAG delta: one PROVED background node and six edges; no critical status flip
+next route-deciding action: compile the full inherited guard product into
+                              per-factor and per-role rejection reasons
+```

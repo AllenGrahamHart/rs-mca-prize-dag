@@ -116,5 +116,11 @@ analytically. A dual exact radius-zero/radius-one census of the nine live
 chambers then leaves twelve geometric vectors and eight with factor 257.
 FLINT and PARI/GP agree on all eight norms, whose quotients by 514 are below
 the prize interval. Thus `m=514` is impossible and seven cofactors remain.
-The shortest live branch is now `m=256`, with `V<=46` or `E<=23`. No broad
-support-9 census is authorized.
+For `m=256`, exact parity-product certification removes every chamber above
+`E=20` and leaves 45 `(E,q,L)` triples. A complete 5920-orbit
+multiplicity-eight census has two independent radius implementations; both
+find the same 54 product-live vectors. FLINT and PARI/GP agree on every norm,
+and all quotients by 256 are below the prize interval. Thus `m=256` is also
+impossible. Six pure cofactors remain: `2,4,8,16,32,64`. The shortest proved
+window is `m=64`, with `V<=130` or `E<=65`. No broad support-9 census is
+authorized.

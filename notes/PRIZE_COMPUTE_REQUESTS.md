@@ -7496,11 +7496,543 @@ the outer stage into exactly two low-dimensional tasks.
   the roots of `L`, generate the first three reciprocal equations as the
   Newton equalities between `(x_i^star)^m` and `x_i^(-m)`. This needs only
   traces at powers `8,16,24` for `m=8`, or `16,32,48` for `m=16`; it never
-  materializes `Qtilde`. A future contributor computation should eliminate
-  these trace equations on `Psi_h=0`, return every denominator and
+  materializes `Qtilde`. Then consume
+  `l1_mersenne_hnf_order_one_full_trace_cancellation`: the known root has
+  identical star and inverse `m`-power traces, so the same equations can be
+  generated from the original degree-`h` polynomial `P` without first
+  dividing by `W-x_0`. A future contributor computation should eliminate
+  this full-`P` trace system on `Psi_h=0`, return every denominator and
   saturation factor, and use a second implementation to reconstruct the
-  traces from the companion matrix. Price the `h=7` first-three system
-  before attempting `h=15`.
+  same full traces from the companion matrix. The divided `L` construction
+  is now audit-only. Price the `h=7` first-three system before attempting
+  `h=15`.
+
+  For that `h=7` price, consume
+  `l1_mersenne_hnf_m8_order_one_conic_reduction`. The residual input is
+
+  ```text
+  35u^2+14(11c^2+5c+11)u+120(c^4+c^2+1)=0,
+  u=rho*c*(c-1),
+  ```
+
+  equivalently the conic `7w^2=247z^2+770z+775` plus
+  `c^2-zc+1=0`. Benchmark both the direct quadratic and conic-pullback
+  representations; retain the cheaper exact one. The `t=infinity`, tangent,
+  and denominator-zero charts are mandatory finite shards. A generic reconstruction
+  of the old ten-term `Psi_7` is no longer the preferred input.
+
+  Apply `l1_mersenne_hnf_m8_order_one_basefield_conic_router` before pricing
+  that system. The `z=-1` points and the complete `t in F_p` branch at
+  `p=8191,131071` are theorem-empty. At `p=524287,2147483647`, the same
+  branch has at most two packets:
+
+  ```text
+  zeta=-1, z=3, c^2-3c+1=0, 7w^2=5308,
+  theta=(w-38)/5, rho=theta/(c-1), rho_star=-c*rho.
+  ```
+
+  **Retired by proof:**
+  `l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion` proves that the
+  finite packets are empty too. Frobenius reflection leaves at most six
+  possible split roots for the degree-seven polynomial. Do not replay any
+  `t in F_p` packet. The only `h=7` elimination request is now
+  `t notin F_p`.
+
+  **Cheap exact request CR-L1-H7-Q2-PAIR:** consume
+  `l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction`.
+  In the quadratic color chamber with two antipodal repeated pairs, use
+
+  ```text
+  F(X)=5X^8+10X^7-180X^6+672X^5+2862X^4
+       -15516X^3+8199X^2-44172X+4860.
+  ```
+
+  For each of the four official primes, construct `F_(p^2)` explicitly,
+  enumerate `zeta in mu_8`, and return
+
+  ```text
+  gcd(F(X),X^(p+1)-zeta)
+  ```
+
+  with monic factors and witnesses. There are exactly 32 degree-eight
+  packets; modular exponentiation must reduce after every multiplication.
+  Independently replay any nonunit gcd by substituting its roots into the
+  conic and `r=-192/(18+X-X^2)`. A unit result in all 32 packets closes only
+  the two-antipodal quadratic chamber. This should cost far below one dollar,
+  but no launch is authorized while the current Modal workspace reports its
+  spend limit exceeded. The resumable 32-container launcher is
+  `background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/modal_gcd.py`;
+  it uses 128 MiB and a 60-second hard timeout per packet and writes after
+  every returned result.
+
+  The aggregate alternative is the shared launcher
+  `experiments/prize_resolution/l1_m8_h7_low_degree_norm_endpoints_modal.py`.
+  Its four `q2_pair_degree8` rows replace the 32 individual color packets;
+  split by `zeta` only if an aggregate gcd is nonunit. The equivalence is
+  proved by `l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler`.
+
+  **Cheap exact request CR-L1-H7-Q2-ALL:** consume
+  `l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection`. Construct the
+  fixed degree-fourteen polynomial `R_2` from the factored resultant (QHI4),
+  independently verify leading coefficient `-691200`, and compute
+
+  ```text
+  gcd(R_2(X),X^(p+1)-zeta)
+  ```
+
+  for all four official primes and eight `zeta in mu_8`. Return monic gcds
+  and partial output after every packet. Unit gcds in all 32 packets close
+  the complete quadratic-color chamber. Run the degree-eight
+  `CR-L1-H7-Q2-PAIR` first or in parallel as an independent specialization.
+  This packet is also tiny, but no launch is authorized while the Modal
+  workspace spend limit remains active.
+
+  The same aggregate launcher has four `q2_all_degree14` rows. Unit results
+  there close the complete quadratic-color chamber and make the pair rows
+  audit-only.
+
+  **Retired exact request CR-L1-H7-C3-33:** the former request consumed
+  `l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction`. Construct the
+  degree-fourteen polynomial `R_33` from (CTR4), independently verify
+  leading coefficient `-576000`, and compute
+
+  ```text
+  gcd(R_33(X),X^(p+1)-zeta)
+  ```
+
+  for all four official primes and eight `zeta in mu_8`. Return monic gcds
+  and partial output after every packet. This packet must not be launched:
+  `l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion` proves the
+  chamber empty from the unused `W^2` coefficient and the base-field norm
+  obstruction. Every other cubic partition remains open.
+
+  **Contributor request CR-L1-H7-C3-3COL:** consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router`. Start
+  with the seven p-free color-set representatives in (TCR1). For each one,
+  construct the monic HNF sextic `L_(r,d)`, a generic exact cubic `E`, the
+  six coefficients of
+
+  ```text
+  rem_L product_(j in T)(E-omega^j),
+  ```
+
+  and the three nonempty-fiber resultants. Saturate by the HNF denominators,
+  `d*(d+1)*r*(r-1)*g(1)*disc(L)*lc(E)`, and classify dimensions before any
+  official-row norm equation. If a color-set core survives, split it into
+  the six ordered `3+2+1` profiles and the one `2+2+2` profile using exact
+  subresultant degree; only then shard retained components by four rows and
+  eight norm colors. This is at most 49 profile cores before row sharding,
+  not 56 triples times root assignments. Use 60-second shards, emit partial
+  ideals/components after every packet, and report estimated cost before a
+  larger continuation. Do not launch on the current spend-blocked account.
+
+  For the `2+2+2` profile, replace the generic remainder stage by
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction`.
+  Expand
+
+  ```text
+  product_(i=1)^3 (W^2+u_iW+u_i^2-Uu_i+V)=L_(r,d)
+  ```
+
+  coefficientwise, adjoin the h=7 conic, and only then impose one ordered
+  scale-free color ratio from (TDF4). This factor packet has variables
+  `(u_1,u_2,u_3,U,V,r,d)` and seven carrying equations before the color
+  ratio; eliminate symmetric functions of the `u_i` before any Groebner
+  basis. Keep the generic remainder only as an independent audit.
+
+  The symmetric elimination is now printed in
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler`.
+  Generate `s_1,V,s_3` from (TSC2), substitute into (TSC4)--(TSC6), clear
+  `2*3*d*(r-1)` with inherited saturation retained, and classify the four
+  equations in `(U,s_2,r,d)` before adding a color ratio. Record the cleared
+  polynomials and their degrees even if the ideal is nonunit; those are the
+  portable handoff, not a raw Groebner transcript.
+
+  The exact next compiler is now
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction`.
+  Use its scaled variables `(x,b,q,d)` and retain `D_b=0`. The reduced fifth
+  and sixth coefficient equations are affine-linear in `b`; the former has
+  slope `-x(x^2+q/6)`. Classify the two exceptional branches `x=0` and
+  `q=-6x^2` first. On the generic branch solve the fifth equation for `b`,
+  substitute into both `D_b` and the sixth remainder, and eliminate only
+  `(x,q,d)`. A determinant of the two linear remainders is not a complete
+  replacement for the equations. Return factorizations and saturation
+  factors branch by branch before any color or official-row sharding.
+
+  **Pre-request CR-L1-H7-C3-222-GEN:** the generic compiler has since been
+  sharpened analytically. Consume, in order,
+
+  ```text
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler,
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula,
+  l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld.
+  ```
+
+  Do not restore the individual `u_i`, enumerate 42 ordered roles, or form
+  the raw value resultant. The seven affine color values have the exact
+  polynomial
+
+  ```text
+  (T+50)(T^2-224T-578)(T^2-4T+54)
+  (125T^2-2404T+13448),
+  ```
+
+  and become four rational homogeneous factors in `P^3,Q^2`. Modulo
+  `D_b`, each factor is affine-linear in `p=b-12`. On
+  `alpha=-(q-d)x(x^2+q/6)!=0`, each packet is equivalent to (QQW7): the
+  conic, the `D_b/M_5` compatibility, the `M_5/M_6` compatibility, and one
+  color/`M_5` compatibility, all in `(x,q,d)`.
+
+  The requested decision is whether each of those four saturated rational
+  ideals is unit. A PASS must provide a replayable Nullstellensatz or
+  transformation-matrix certificate for every unit packet, with every
+  denominator/content prime checked against all four official
+  characteristics. A FAIL must provide a retained exact component or point,
+  its saturation ledger, and substitution into the unreduced `D_b,M_5,M_6`
+  and homogeneous color factor. Emit the four compiled ideals and hashes
+  before starting elimination, then checkpoint every factor/component.
+
+  This remains a **pre-request**, not authorization: a proof-producing CAS
+  launcher, independently written certificate checker, measured one-packet
+  pilot, and conservative total cost are missing. The current Modal workspace
+  is spend-blocked. An incomplete or ordinary Groebner transcript is route
+  evidence only and cannot close the generic branch.
+
+  **Contributor request CR-L1-H7-C3-222-X0:** consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction`.
+  Independently reconstruct
+
+  ```text
+  P_5(X)=60X^5+407X^4+1147X^3+1659X^2+1218X+360
+  ```
+
+  from (XQ2)--(XQ6), then compute
+
+  ```text
+  gcd(P_5(X),X^(p+1)-zeta)
+  ```
+
+  for all four official primes and eight `zeta in mu_8`. Return every monic
+  gcd and partial output after each packet. Unit gcds in all 32 packets close
+  the complete `x=0` branch. For a nonunit gcd, recover `q` from (XQ5) and
+  apply `D_b`, `M_6`, and the color ratio before any larger lift. This is a
+  degree-five packet and should be priced below one dollar, but do not launch
+  while the configured Modal workspace remains spend-blocked.
+
+  **Contributor request CR-L1-H7-C3-222-Q6X2:** consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction`.
+  Independently reconstruct `E`, `F`, and
+
+  ```text
+  R_12=105F^2+7AFE+10BE^2
+  ```
+
+  from (QDR2)--(QDR7), verify degree 12 and leading coefficient `149868`,
+  then compute `gcd(R_12(X),X^(p+1)-zeta)` for all four official primes and
+  eight `zeta in mu_8`. Return every monic gcd and partial output after each
+  packet. Unit gcds in all 32 packets close the complete `q=-6x^2` branch.
+  For a nonunit gcd, reconstruct `y`, check the unsquared equation (QDR3),
+  and only then apply `D_b`, `M_6`, and the color ratio. This is a degree-12
+  packet and should be priced below one dollar, but do not launch while the
+  configured Modal workspace remains spend-blocked.
+
+  Both exceptional requests now share the bounded launcher
+  `experiments/prize_resolution/l1_m8_h7_low_degree_norm_endpoints_modal.py`.
+  It uses one 512 MB container, a 60-second hard timeout, and emits each
+  completed endpoint/prime row immediately. Instead of constructing eight
+  separate color fibers, it computes the equivalent aggregate gcd
+
+  ```text
+  gcd(P(X),X^(8(p+1))-1)
+  ```
+
+  over `F_p`; a unit result is equivalent to all eight individual gcds being
+  unit after adjoining `mu_8`, by
+  `l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler`. There are exactly eight
+  rows total: two cubic endpoint polynomials times four official primes.
+  Together with the
+  quadratic degree-eight and degree-fourteen endpoints, the launcher has 16
+  rows total. Split by `zeta` only if
+  an aggregate row is nonunit. The launcher is ready but remains unexecuted
+  under the current spend block. Pass `--output PATH` to bank the returned
+  JSON, then validate it with
+  `experiments/prize_resolution/check_l1_m8_h7_low_degree_norm_certificate.py`.
+  The source and checker digests are pinned in the roadmap.
+
+  For the `3+2+1` profile, replace the generic remainder by
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction`.
+  Parameterize monic cubics `F,G`, impose `FG=L_(r,d)`, and compare the three
+  coefficients of
+
+  ```text
+  Res_W(G,X-F)=X^3-(2+lambda)BX^2
+                    +(1+2lambda)B^2X-lambda B^3.
+  ```
+
+  Run the 42 color-role values of `lambda` only after a shared symbolic
+  coefficient compiler is built. Saturate by `B`, discriminants, and exact
+  gcd-degree subresultants; add official norm equations only to retained
+  p-free factors.
+
+  The shared compiler is now
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler`.
+  Construct `Q,G,F` from (TQC1)--(TQC3), eliminate `a,g_2,B` with (TQC6),
+  and substitute into (TQC5), the conic, and (TQC7). Record the five cleared
+  equations in `(g_1,y,r,d)` once with symbolic `lambda`; specialize the at
+  most 42 role values only after common factors and saturation branches are
+  classified. Retain `a*B*(lambda-1)*Q(y)`, HNF denominators, squarefreeness,
+  and exact gcd degree. Return p-free unit certificates or retained
+  components before any official norm sharding.
+
+  The role set is now compiled by
+  `l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler`. Construct
+
+  ```text
+  Lambda_321(lambda)=
+    Res_U((U^8-1)/(U-1),((1+lambda(U-1))^8-1)/(lambda(U-1)))
+    /(lambda-1)^7
+  ```
+
+  using the equivalent polynomial `C(1+lambda(U-1))` formulation printed in
+  (RPC2), verify degree 42, and adjoin it before the shared elimination.
+  Factor or squarefree-reduce retained lambda components only afterward; do
+  not specialize 42 role values at input.
+
+  **Pre-request CR-L1-H7-C3-321-GEN:** the role endpoint is now smaller.
+  Consume
+
+  ```text
+  l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler,
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld.
+  ```
+
+  `Lambda_321` factors over `Q` into four packets of degrees
+  `6,12,12,12`. With
+
+  ```text
+  R=a(3y^2+2g_1y+g_2), S=B,
+  A_0=S^2+RS+R^2,
+  B_0=(2S+R)(S+2R)(R-S),
+  ```
+
+  the linear role equation gives `lambda=1+R/S`, and the four factors become
+  the four homogeneous equations (TRW4). Each packet is exactly five
+  equations in `(g_1,y,r,d)`: (TQC5), the conic, and one welded role factor.
+  Do not include `lambda`, cyclotomic coefficient extensions, or scalar role
+  enumeration in a new elimination.
+
+  There is also an exact lower-degree representation from
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld`.
+  The 42 ordered roles split into three quadratic and nine quartic rational
+  Galois packets. Homogenizing each packet at `lambda=1+R/S` gives an exact
+  **disjunction** of twelve systems, each with a role equation of degree at
+  most four. A pilot should benchmark this twelve-branch representation
+  against the four-factor representation and retain the cheaper one. Never
+  impose all twelve packet equations simultaneously.
+
+  On the four official characteristics there is a third complete
+  representation from
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split`.
+  Since `p=7 mod 8`, the nine quartics split over `F_p` into eighteen
+  irreducible quadratics; together with the three rational quadratic packets
+  this gives 21 branches whose role equation always has degree two. Benchmark
+  this official-field representation as well. Its square-root choice only
+  swaps signed branch pairs, and its 21 equations are alternatives.
+
+  The 21-branch input is printed without hidden substitutions by
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler`.
+  Use its variables `(x,Y,q,d)`, equations `(E_4,E_5,E_6)`, the conic, and
+  `Phi(R_D,S_D)`. The sixth equation forces `D=YV!=0`; the fifth equation
+  has already cleared `q-d`. Do not restore `(g_1,y,r,B,lambda)` in the
+  elimination input.
+
+  The coefficient-matrix router further splits these ideals. On the generic
+  `Delta!=0` branch use the two Cramer equations (CMR3). On `Delta=0`, retain
+  both exact chambers in (CMR4). The `J=0` chamber has the especially small
+  endpoint `(conic,F_J,F_W)` in `(q,d)` before `E_6`, role, and arithmetic
+  filters. A pilot should try this chamber first and emit a rational
+  resultant/Bezout certificate rather than a raw Groebner transcript.
+
+  **Pre-request CR-L1-H7-C3-321-J0-GCD:** the `J=0` chamber is now a fixed
+  degree-7/degree-10 gcd packet. Consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction`
+  and compute `gcd(P_W,P_C)` over each of the four official prime fields.
+  PASS requires monic unit gcd plus extended-Euclidean Bezout coefficients
+  replayed against the exact integer source polynomials. FAIL requires the
+  complete monic gcd and its roots/factors, with `d=-144q/A(q)` replayed in
+  `(F_J,F_W,Conic)` before applying `E_6` and role filters.
+
+  The source-pinned packet is now written:
+
+  ```text
+  experiments/prize_resolution/l1_m8_h7_cubic_321_singular_j0_gcd_modal.py
+  sha256 39ccbf6493dc3a421935dbbd0b1e31e761c4e13b2c3f48eaa3c6b87d44a987e0
+
+  experiments/prize_resolution/check_l1_m8_h7_cubic_321_singular_j0_gcd_certificate.py
+  sha256 a653511eb927b1627258d7c2e25e6b46439827140d1fabab743a2404e771469c
+  ```
+
+  Launch with `modal run ...gcd_modal.py --output PATH`; validate with the
+  checker, adding `--require-all-unit` for a chamber-exclusion certificate.
+  The checker independently reconstructs `P_W,P_C`, verifies monic
+  divisibility and the emitted Bezout identity, and accepts exact HIT rows
+  without misclassifying them as closure.
+
+  This subrequest should cost far below one dollar: four gcds of degrees 7
+  and 10 in one 0.125-CPU, 128 MB, 30-second, single-container job. Source,
+  checker, timeout, memory, and cost ceiling are ready; no measured pilot or
+  run exists because the current Modal workspace is spend-blocked. Do not
+  launch until spend access changes explicitly.
+
+  **Pre-request CR-L1-H7-C3-321-FPQ-QUOTIENT:** the final fully proportional
+  generic coefficient pair is now a quadratic in `q` plus a compatibility
+  polynomial of `q`-degree at most six. Consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router`
+  and
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler`,
+  together with the parallel exceptional-`E_G` router and structural
+  compiler, the exceptional singular-affine two-quartic router, and the
+  exceptional `J_*=0` affine router.
+  Its exact recurrence leaves `rho_1(b)q+rho_0(b)` modulo `F_b`; off the two
+  printed singular charts it reconstructs `q` and leaves
+
+  ```text
+  U(b)=a_2rho_0^2-a_1rho_0rho_1+a_0rho_1^2,
+  deg U<=58.
+  ```
+
+  The source-complete packet is
+
+  ```text
+  experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
+  sha256 c5ccd14b02e0b0119fbcbbaa20f7eae7214716c13a2e9b8158cce50674bb51af
+
+  experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
+  sha256 92b6d6d9e42b15a9c476aea154bfabc57b652a5d54d203c15c79036f09051643
+  ```
+
+  It runs one independent one-CPU, 512 MB, 60-second task per official prime,
+  with at most four containers and no retries. The driver atomically rewrites
+  the output after every returned prime, so a timeout or task failure leaves
+  a checkable partial certificate. Each row must provide a complete
+  factorization of `U`, extended-Euclidean certificates for
+  `gcd(rho_1,rho_0)` and for the fixed `a_2=0` chart, the complete factor list
+  for `b`, the official cyclotomic-field subset of degrees `1,2,4,8`, and the
+  degree-one/two subset as an explicit quadratic-subfield diagnostic. The
+  coefficient-field router proves `b in F_(p^8)`, so the cyclotomic subset is
+  an exact official-row filter. The quadratic subset alone is never a closure
+  test. The packet also reconstructs the primitive integer numerators
+  `Z_D,Z_Q,Z_R`, checks
+  their proved total-degree bounds `18,10,15`, computes each `Zhat_i mod U`
+  without allowing intermediate degree above 57, and emits a four-polynomial
+  Bezout certificate for `gcd(U,Zhat_D,Zhat_Q,Zhat_R)`. The checker
+  independently reconstructs all source polynomials, verifies factor
+  multiplication, both pairwise Bezout identities, all three quotient-filter
+  remainders, and the four-way Bezout identity. It accepts partial packets
+  unless `--require-complete` is requested. In the same row it reconstructs
+  `V_E,X_E,Zhat_D^e,Zhat_Q^e,Zhat_R^e`, reduces the last four modulo
+  `V_E`, and emits an independently checked five-way Bezout certificate.
+  Finally it reconstructs the degree-four singular-affine pair `H,K`, emits
+  a pairwise Bezout gcd certificate, factors that gcd, flags every factor
+  lying on the separately excluded `A=1575-247z=0` chart, lists every
+  remaining legal factor regardless of degree, separately lists the exact
+  degree-`1,2,4,8` cyclotomic-field subset, and lists the degree-one/two
+  diagnostic subset. The checker independently reconstructs `A,H,K`, checks
+  the gcd and factorization, and recomputes all three classifications.
+  It also reconstructs the `J_*=L_*=0` coefficient-and-structural filters
+  `Bhat,Ehat,Fhat,Xhat,Zhat_D^j,Zhat_R^j` of degrees at most
+  `6,7,10,11,24,16`, emits a six-way Bezout certificate for their common
+  gcd, factors that monic gcd, flags every factor dividing the proved
+  denominator `T`, lists every remaining legal factor, separately lists the
+  degree-`1,2,4,8` cyclotomic-field subset, and lists the degree-one/two
+  diagnostic subset.
+  The checker independently reconstructs all seven source polynomials,
+  verifies the six-way Bezout identity and complete factorization, and
+  recomputes the `T` guard and field-degree classifications.
+  The packet now also constructs the 21 official role alternatives without
+  intersecting them. For each role it instantiates the proved
+  `Lhat_Phi,What_Phi` templates, emits an eight-way Bezout certificate for
+  the six shared filters plus those two role filters, factors the common
+  gcd, and repeats the `T`-guard and exact degree-`1,2,4,8` eligibility
+  classification. The checker independently reconstructs the three base
+  roles and nine signed `sqrt(2)` template pairs, verifies their nonzero
+  nonsquare discriminants, re-instantiates both role polynomials, and checks
+  all 21 eight-way certificates and classifications. The role-summary status
+  is `ALL_EMPTY` only when all 21 alternatives are official-field empty;
+  any eligible factor gives `HIT`, while any identically-zero family makes
+  the summary `INCONCLUSIVE`.
+
+  The four small degree-58 factorizations should cost below `$0.01`. This
+  request gives a structural chamber verdict: a unit four-way gcd excludes
+  the generic coefficient-and-structural chart for that prime. A nonunit gcd
+  gives route data, not closure; only its surviving factors proceed to the
+  role, `P_4`, saturation, and arithmetic-lift equations. The explicit
+  `U_IDENTICALLY_ZERO` status is non-conclusive. No launch is authorized while
+  the Modal workspace is spend-blocked. A unit exceptional five-way gcd
+  likewise excludes the `a_2*S_1*J_*!=0` exceptional chart; a nonunit gcd or
+  `V_E_IDENTICALLY_ZERO` remains open. For the singular-affine chart,
+  `global_status=EMPTY` excludes the chart when the gcd has no non-`A`
+  factor. More sharply, `cyclotomic_field_status=EMPTY` excludes the official
+  chart when no legal factor has degree dividing eight; factors of all other
+  degrees cannot contain `b in F_(p^8)`. `quadratic_subfield_status` remains
+  diagnostic. This extension adds no containers, CPUs, memory, retries, or
+  timeout. The same semantics apply to the `J_*=0` endpoint after removing
+  `T` factors. In the role extension, `ALL_EMPTY` excludes the entire
+  exceptional-`J_*=0` coefficient/structural/role/`P_4` chart for that row;
+  each `HIT` still owes reconstructed-variable saturations, both ambient role
+  roots where applicable, and arithmetic lifts. `IDENTICALLY_ZERO_FAMILY`
+  is explicitly inconclusive. The extended packet remains source-complete
+  but unrun, and its completion within the fixed 60-second task ceiling is
+  unmeasured. Wait for an explicit spend-access change.
+
+  The requested decision is whether every branch in one complete
+  representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber
+  saturations: all four rational systems, all twelve rational Galois systems,
+  or all 21 official quadratic Frobenius systems. PASS requires a
+  replayable Nullstellensatz or transformation-matrix certificate with
+  denominator/content primes checked against every official characteristic.
+  FAIL requires an exact retained component or point substituted into the
+  unreduced factor equations and exact gcd-degree conditions. Emit all four
+  cleared ideals and hashes before elimination and checkpoint every retained
+  factor.
+
+  The broad 4/12/21-system request remains a **pre-request** only: no
+  proof-producing launcher, independent checker, measured pilot, or cost
+  ceiling exists for those multivariate ideals, and the current Modal
+  workspace is spend-blocked. The narrow `J=0` gcd subrequest above is
+  source-complete but unrun. A raw Groebner transcript is route evidence, not
+  a closure certificate.
+
+  **Contributor request CR-L1-H7-C3-INJ:** consume
+  `l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router`. Build
+  `V_E(X)=Res_W(L_(r,d),X-E)` once for a generic exact cubic. For each
+  `delta=1,2,3,4`, compare the eight nonleading coefficients in
+
+  ```text
+  V_E(X)(X-1)(X-omega^delta)=X^8-1
+  ```
+
+  together with the h=7 conic. Saturate by `lc(E)*disc(L)*disc(V_E)` and
+  HNF denominators. Classify the four p-free ideals before adding any row or
+  norm equation; preserve partial generators and dimensions after each
+  60-second shard. Do not launch on the current spend-blocked account.
+
+  **Contributor request CR-L1-H7-C3-45COL:** consume
+  `l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router`. Build
+  the generic value resultant once, then enumerate canonical cyclic orbits
+  of `(M,D)` for the three profiles with counts `35`, `35`, and `54`. Impose
+
+  ```text
+  V_E(X)M(X)=(X^8-1)D(X)
+  ```
+
+  coefficientwise with the h=7 conic. Process the 35-packet profiles first
+  and checkpoint every ideal; process the 54-packet two-double profile only
+  after confirming the half-turn orbit normalization. Saturate by
+  `gcd(M,D)=1`, squarefreeness of `M`, `lc(E)*disc(L)`, and exact fiber
+  subresultants. Use 60-second shards, preserve partial generators, and do
+  not add row/norm equations until a p-free component survives. Do not
+  launch on the current spend-blocked account.
 
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
@@ -7527,6 +8059,22 @@ the outer stage into exactly two low-dimensional tasks.
   Ctilde_(rho,c)Qtilde_(rho_star,c_star)(Z)
     =Z^(h-1)Qtilde_(rho,c)(1/Z).
   ```
+
+  **RETIRED BY PROOF -- CR-L1-H15-COLOR0:** consume
+  `l1_mersenne_hnf_m16_order_one_constant_color_reduction`. Over `F_8191`
+  compute and return monic gcds for
+
+  ```text
+  T16(S)=S(S^2-4)(S^2-2)(S^4-4S^2+2),
+  gcd(T16,28S^2+29S+370),
+  gcd(T16,28S^2+27S-1202).
+  ```
+
+  Independently replay by enumerating the sixteen powers of one primitive
+  sixteenth root and their traces. The packet would cost negligibly, but no
+  launch is needed:
+  `l1_mersenne_hnf_m16_order_one_constant_color_exclusion` proves both gcds
+  unit by modular pseudo-remainders. Do not spend Modal credit on this packet.
 
   The removed degree-one factor is automatic and must not be reintroduced
   into the elimination. Compute the exact saturation by the nonzero factor
@@ -9111,3 +9659,369 @@ values are `1 mod 256`, and there are zero eligible prime candidates. The
 independent checker reconstructs every vector, norm, valuation, threshold,
 residue, and one hostile mutation. This closes all four E13 profiles and the
 `V=26` endpoint; the live frontier advances to `V<=24`.
+
+#### CR-E1-PROFILE-36-M32-PRIMARY: exact cofactor-32 direct census
+
+**Status:** COMPLETE PRIMARY AND AUDIT PASS. All authoritative packets are
+source-pinned; no rerun is authorized unless a pinned source changes.
+
+At `N=256`, profile `(3,6,S=18)`, and cofactor `m=32`, enumerate the complete
+19,840-orbit multiplicity-five atlas. The exact product ledger contracts 1,834
+`(E,q,L)` records to 474 live records through `E=60`; the direct engine then
+uses the proved parity-radius filter, exact autocorrelation energy, and
+Arb-audited 48-bit fixed-root intervals. Retain every high-side witness.
+
+The calibrated one-CPU benchmark covers one orbit at every parity weight
+`q=3,...,15`, agrees exactly with the pre-optimization engine on every count,
+and projects about 10.5 worker-hours. Run 1,240 batches of at most 16 orbits,
+at most 100 one-CPU 256 MiB containers, with 60-second hard task caps and an
+atomic partial packet after every return. The conservative cost is about
+`$0.50` and below the `$1` authorization. No task is retried automatically.
+PASS requires exact atlas coverage, all structural count identities, agreement
+between the long-double screen and rigorous intervals, zero unresolved
+intervals, and one retained state per high-side interval. INCOMPLETE or FAIL
+preserves the packet as evidence and authorizes no retry. A separate,
+independently structured exact audit is required before theorem promotion.
+
+Modal app `ap-blU0kVG1XoQdz0XWxgLKwz` completed all 1,240 primary shards and
+all 19,840 affine orbits in 42,561.764 one-CPU worker seconds. It covered
+5,857,561,600 unique heavy-position triples, 187,441,971,200 singleton-sign
+distance tests, and 679,384,891,200 exact heavy-sign tests. Of 239,131,808
+product-live vectors, rigorous intervals place 239,131,588 below the complete
+`32p` interval and 220 above; none is unresolved, and all 220 high-side states
+are retained. The screen and rigorous intervals agree on every live vector.
+
+The complete audit traverses positions and singleton signs in reverse order,
+constructs its chord columns separately, and directly rebuilds every
+low-energy autocorrelation. Its 13-row benchmark agrees exactly with both the
+primary engine and an independent reverse hash-block pilot at every parity
+weight. Run batches of at most 12 orbits with the same one-CPU, 256 MiB,
+60-second, 100-container, atomic-checkpoint, and no-retry constraints. Its
+projected cost is about `$0.58`, below the `$1` authorization. PASS requires
+exact equality with every proof-relevant primary total and complete energy
+ledgers; only then may the cofactor-32 theorem node be promoted.
+
+Modal app `ap-JcLLKV4WPUIDrn8rhERbNh` completed all 1,654 audit shards and
+all 19,840 affine orbits in 44,023.162 one-CPU worker seconds. It independently
+reproduces all primary totals, including 84,923,111,400 radius triples,
+339,892,636 directly rebuilt low-energy autocorrelations, and the exact
+239,131,588/220/0 interval split. The source-pinned node verifier replayed the
+complete packet and all 220 high-side lower intervals on Modal app
+`ap-RltPJOCiFf2VhH1gYQMtdw`. This promotes
+`e1_prize_n256_s18_profile_36_m32_exclusion` to `PROVED`.
+
+#### CR-E1-PROFILE-36-M64: exact two-atlas cofactor exclusion
+
+**Status:** COMPLETE PASS. All authoritative packets are source-pinned; no
+rerun is authorized unless a pinned source changes.
+
+At `N=256`, profile `(3,6,S=18)`, and cofactor `m=64`, an exact product ledger
+contracts `E=2,...,65` to 255 `(E,q,L)` chambers through `E=46`. A primitive
+atlas normalizes an odd-separated singleton pair in `Z/128`; a separate
+all-one-parity atlas divides to exact multiplicity three in `Z/64` and then
+lifts. This two-atlas split was required after audit caught that the initial
+primitive-only normalization was incomplete.
+
+The final direct-triple and reverse hash-block engines cover 12736 affine
+orbits, 407552 singleton-sign assignments, 10179448632 unique radius triples,
+and 81435589056 exact heavy-sign tests. Arb-audited fixed-root intervals place
+7191424 product-live vectors below the complete `64p` interval and 142 above;
+none is unresolved. All 142 high-side states are retained.
+
+Authoritative Modal apps:
+
+```text
+product ledger:             ap-vGLCNU73MLJj9RDeI3qeG2
+primitive atlas:            ap-jsMfCK4V0ZOgCMYLHX8R7R
+fixed-root generation/audit: ap-LWtv7vAuj73JwMclHhmQee
+primitive primary:          ap-Ku7oS4IA5YTB6bMTAD68xf
+primitive audit:            ap-8NxLniYGvXr1XY60JB2Rbb
+primitive high witnesses:   ap-dMbnhlT62Afo9s0CXj7S3I
+all-one-parity atlas:       ap-AZqE2K0OIwaJ72JJ8NC3JR
+all-one-parity primary:     ap-8bHvHbIdNO7uEIZAXHJFzz
+all-one-parity audit:       ap-GXPXxEWBsDAcVHfNG5iY7a
+all-one-parity witnesses:   ap-gXAQR7y8tv1kbCbNclOHe0
+```
+
+Every worker had a hard timeout at or below 300 seconds. The campaign used at
+most 96 containers concurrently, remained within the sub-dollar authorization,
+and performed no scientific computation on the WSL host.
+
+#### CR-E1-PROFILE-36-M16-TWO-DIVISIONS: exact branch exclusion
+
+**Status:** COMPLETE PRIMARY AND AUDIT PASS. No rerun is authorized unless a
+pinned source changes.
+
+At `N=256`, profile `(3,6,S=18)`, and cofactor `m=16`, the complete support
+atlas splits into primitive multiplicity four in `Z/128` (39,936 affine
+orbits), once-divided multiplicity two in `Z/64` (9,080), and twice-divided
+multiplicity one in `Z/32` (903). A 41-representative Modal benchmark covers
+every realized `(branch,q)` class. Its measured weighted projections are
+121.464, 26.819, and 2.077 one-CPU hours respectively. Only the twice-divided
+branch is authorized for a complete census; the other two are deferred.
+
+Run the 903 twice-divided orbits in batches of at most three, using at most 100
+one-CPU, 256 MiB containers with 60-second hard task caps and no automatic
+retry. Write an atomic partial packet after every return and retain every
+high-side witness. The calibrated cost is about `$0.10`, comfortably below
+the `$1` authorization. PASS requires complete atlas coverage, every structural
+count identity, exact agreement between the long-double screen and rigorous
+48-bit fixed-root intervals, zero unresolved intervals, and one retained state
+per high-side interval. A separately structured reverse-direct audit must
+reproduce every proof-relevant total before theorem promotion.
+
+Modal app `ap-ozjw9RBwmTg6BmHBmn0HSf` completed and atomically recorded the
+first three-orbit shard before the local `tiny` RAMGuard wall clock interrupted
+the client. Source-matched resumable app `ap-1xutdz21Bfop112ugKr65k` preserved
+that shard and completed the remaining 300. The aggregate covers all 903
+affine orbits in 7,723.486 one-CPU worker seconds. It covered
+266,601,720 unique heavy-position triples, 8,531,255,040 singleton-sign
+distance tests, and 59,378,994,368 exact heavy-sign tests. Of 205,513,652
+product-live vectors, rigorous intervals place 205,486,644 below the complete
+`16p` interval and 27,008 above; none is unresolved, and all high-side states
+are retained. The screen and rigorous intervals agree on every live vector.
+
+Run the separately structured reverse-direct engine in batches of at most
+three under the same 100-container, one-CPU, 256 MiB, 60-second, atomic
+checkpoint, and no-retry constraints. The primary runtime projects another
+roughly `$0.10`. PASS requires exact equality with every proof-relevant primary
+total and complete live/above energy ledgers.
+
+Modal app `ap-kmhgYnrF7vWYttQXorFm0w` completed all 301 reverse-direct audit
+shards. It independently reconstructs all 497,496,976 low-energy vectors and
+reproduces every primary total, including the exact 205,486,644/27,008/0
+interval split and complete live/above energy ledgers. This promotes only the
+twice-divided support subnode; the two larger m16 branches remain open.
+
+One source-pinned node-verifier replay is authorized on Modal with one CPU,
+at most 2 GiB, and a 290-second hard task cap. It must reconstruct the complete
+quotient atlas, product partition, both census ledgers, and all 27,008 retained
+high-side interval witnesses. Expected cost is below `$0.01`; no broad verifier
+suite or scientific rerun is authorized.
+
+Modal app `ap-IVF9ra2KWJyhXPplppzymj` passed the one source-pinned verifier in
+9.817 seconds. It reconstructs all 903 quotient orbits, all 3,685 product
+records, both complete census ledgers, and every retained high-side lower
+interval, and catches a hostile witness-metadata mutation.
+
+Two targeted structural replays are authorized for the global DAG validator
+and critical-harness coverage checker. Each uses one short Modal task and no
+scientific enumeration; combined expected cost is below `$0.01`.
+
+Modal apps `ap-ygaLDQODvhgXc1CG3DtGR5` and
+`ap-xysNDmOuY80dHYl5tXXXAS` passed the global DAG validator and critical
+harness coverage checker respectively. No structural or registration gap was
+introduced by the new branch theorem.
+
+#### CR-E1-PROFILE-36-M16-LARGER-BRANCHES: deferred exact censuses
+
+**Status:** ONCE-DIVIDED COMPLETE; PRIMITIVE PRIMARY COMPLETE; REVERSE AUDIT
+PARTIAL. No relaunch is authorized while the Modal workspace is disabled.
+
+The initial once-divided and primitive m16 branches projected to 26.819 and
+121.464 one-CPU hours from complete parity-class benchmarks. The contraction,
+primary, and audit history for both branches is recorded below. The primitive
+reverse audit may resume only from its source-pinned atomic checkpoint after
+the external Modal workspace is re-enabled.
+
+One 15-representative optimization benchmark is authorized for the
+once-divided branch. It removes the non-proof long-double diagnostic and skips
+heavy triples whose three positions are even: together with the even singleton
+support, those vectors are polynomials in `X^2`, so their degree-128
+cyclotomic norm is a square and cannot equal `16p`. Use at most 15 one-CPU,
+256 MiB, 60-second Modal tasks. Expected cost is below `$0.01`; the benchmark
+does not authorize a complete census.
+
+Modal apps `ap-uS90mwAgnXkmFsSjw4xxgc` and
+`ap-Jwda0y53bpMXMNp0GjPBNp` completed the no-diagnostic/even-square and
+rigorous early-cap benchmarks. Weighted projections fall from 26.819 to
+19.529 and then 16.779 one-CPU hours. Modal app
+`ap-bJ1BO3Mz3ciVx7Cnry7tUj` records the final projection. Every representative
+retains the same fixed below/above/unresolved classification as the full
+interval engine.
+
+The once-divided primary census is now authorized. Run 2,270 batches of at
+most four orbits, with four independent subprocesses in each four-CPU,
+512 MiB Modal container, at most 100 containers, 60-second task caps, atomic
+checkpoints, no script-level retries, and all high-side witnesses retained.
+The calibrated 60,404 CPU-second projection costs about `$0.8`; four-way
+container concurrency projects below five minutes wall time. PASS requires
+all 9,080 affine orbits, the exact even-square omission count, all structural
+identities, and zero unresolved fixed intervals. It authorizes no theorem
+promotion without a separate reverse-direct audit.
+
+Modal app `ap-6xxI9MGrLIK1n5crnIT6c3` completed that primary census. All
+9,080 orbits passed in 2,270 four-way batches, with maximum task wall time
+11.249 seconds. The exact totals are 2,680,779,200 raw triples,
+76,819,415,040 post-square-omission sign-distance tests, 73,175,732,492
+radius matches, 585,405,859,936 exact sign tests, 6,762,240,640 low-energy
+vectors, and 1,816,625,504 product-live vectors. The fixed-root interval
+classified 1,816,625,308 below and 196 above, retained all 196 high-side
+witnesses, and left zero unresolved.
+
+One 15-representative reverse-direct benchmark is authorized. It must use the
+independent reverse enumeration, the original full fixed-root interval, and
+the same exact square-norm omission. It must reproduce every primary count on
+one orbit for each represented odd-chord weight before projecting the full
+audit cost. This benchmark alone does not authorize the complete audit.
+
+Modal app `ap-vysGPqGNw3Uo1bZm9osv0L` completed the reverse benchmark. All 15
+odd-chord classes reproduce every corresponding primary count exactly. Modal
+app `ap-mt8xdOni6TjNwFU6qkqBqE` projects 68,410.34 CPU seconds, or 19.003 CPU
+hours, for all 9,080 orbits. This is approximately a sub-`$1` campaign at the
+same rates as the completed primary, so one complete reverse-direct audit is
+authorized: 2,270 four-orbit batches, four independent subprocesses per
+four-CPU, 512 MiB container, at most 100 containers, 60-second task caps,
+atomic partial output, and no script-level retries. PASS requires an exact
+per-orbit match to the primary as well as the independent aggregate ledger.
+
+Modal app `ap-HxT2OzXtS2r4jcKWzNH2a4` completed that audit. All 2,270 batches
+and all 9,080 per-orbit comparisons passed. The reverse engine independently
+reproduces 73,175,732,492 radius matches, 585,405,859,936 exact sign tests,
+6,762,240,640 low-energy vectors, 1,816,625,504 product-live vectors, the
+1,816,625,308/196 below-above split, and zero unresolved intervals. The
+maximum four-worker task wall time was 13.321 seconds. This closes the
+once-divided branch subject to the source-pinned node verifier; no additional
+campaign under this request is authorized.
+
+One primitive-branch optimization benchmark is authorized, with no complete
+census implied. The primitive singleton support contains an odd position, so
+the Galois involution `F(X) -> F(-X)` acts freely on the 32 normalized
+singleton-sign patterns and permits 16 exact representatives. A second exact
+optimization rounds each already-certified upper squared root factor upward
+to a 16-bit dyadic mantissa and multiplies those upper bounds before invoking
+the full interval. Benchmark one orbit in each of the 13 primitive odd-chord
+classes, using at most 13 one-CPU, 256 MiB, 60-second Modal tasks. PASS
+requires the full fixed-side ledger to be exactly half of the pre-involution
+baseline in every class. Project cost before requesting further compute.
+
+Modal apps `ap-csIUQ1ujheUPmHOCYAAirx` and
+`ap-mE0wTipjjrqrejyw5lx958` completed that benchmark and projection. Every
+class matches exactly. The weighted primary projection falls from 121.464 to
+29.148 CPU hours (104,931.54 CPU seconds), but a complete primary plus audit
+would still consume nearly all remaining credit, so neither is authorized.
+
+One further 13-class benchmark is authorized at the same sub-`$0.01` scale.
+Replace the 63-lag, eight-sign energy loop by its exact seven-coefficient
+Walsh expansion, precomputing cross-vector dot products and replaying all 63
+lags only for energy survivors to recover `L`. Retain the sign involution and
+dyadic norm cap. PASS again requires exact half-baseline counts in every
+class; project the cost before any larger request.
+
+Modal apps `ap-o0Osge7eWPzD7RYeOZou0l` and
+`ap-su7TzkrKQXDkLWG9g84C82` completed the fast-energy benchmark and weighted
+projection. All 13 classes again match exactly. The full primitive primary now
+projects to 25,008.33 CPU seconds, or 6.947 CPU hours, about `$0.33` at the
+observed rate. One complete primary is authorized: 1,248 batches of at most
+32 orbits, four independent subprocesses per four-CPU, 512 MiB container,
+at most 100 containers, 60-second task caps, atomic checkpoints at bounded
+intervals, no script-level retries, and all high-side representatives
+retained. PASS requires all 39,936 affine orbits, exactly 16 sign-involution
+representatives per heavy triple, exact Walsh/direct-energy agreement on
+every low-energy survivor, structural count identities, and zero unresolved
+fixed intervals. It does not authorize theorem promotion without an
+independent reverse benchmark and audit decision.
+
+Modal app `ap-tkhXMEdMpCXgm2LWUnXkEZ` completed the primitive primary. All
+1,248 batches and 39,936 affine orbits passed in 22,736.06 worker seconds;
+the maximum 32-orbit task wall time was 8.131 seconds. The exact
+sign-involution ledger has 188,651,274,240 distance tests,
+184,336,208,507 radius matches, 1,474,689,668,056 exact sign tests,
+29,756,245,802 low-energy representatives, and 5,651,872,006 product-live
+representatives. Certified intervals place 5,651,870,997 below and 1,009
+above, retain all 1,009 high-side representatives, and leave zero unresolved.
+
+One 13-class reverse benchmark is authorized. It must scan singleton signs
+before descending heavy triples, construct its own chord columns, use an
+independently inserted exact Walsh ledger, directly reconstruct every
+low-energy survivor, and use the original complete fixed-root interval with
+no primary dyadic cap. Use at most 13 one-CPU, 256 MiB, 60-second tasks. PASS
+requires exact per-orbit agreement with the completed primary before a full
+reverse cost projection is considered.
+
+Modal apps `ap-cgOZPizDCrJE0YmFfdCkoh` and
+`ap-dlfsihBSP21uvIM2RSslOr` completed the reverse benchmark and projection.
+Every class agrees exactly, but the original full interval projects to
+99,462.95 CPU seconds (27.629 CPU hours), above the automatic sub-`$1`
+threshold; the complete audit is not authorized.
+
+One final 13-class reverse optimization benchmark is authorized. Before the
+full interval, independently compute and multiply all 64 certified integer
+upper squared-root factors exactly (not with the primary's dyadic mantissas).
+Strict-below products stop there; every residual still receives the original
+full lower/upper interval. Use the same 13 one-CPU, 256 MiB, 60-second caps.
+PASS requires exact agreement in all classes and a fresh cost projection.
+
+Modal apps `ap-ATxdGYMJ3NJBvayKTp20Hc` and
+`ap-AmrikHigBcehbCZ8jxlKb3` completed the exact-upper benchmark and
+projection. Every class agrees exactly. The complete audit projects to
+54,032.49 CPU seconds (15.009 CPU hours), about `$0.7`, so one full reverse
+audit is authorized: 1,248 batches of at most 32 orbits, four independent
+subprocesses per four-CPU, 512 MiB container, at most 100 containers,
+60-second task caps, bounded atomic checkpoints, and no script-level retries.
+PASS requires all 39,936 per-orbit primary comparisons, the complete
+independent aggregate and energy ledgers, and zero unresolved intervals.
+
+Modal app `ap-bvisSxyx7641bXRImfOwy8` reached batch 768 before Modal returned
+`workspace ... is disabled` and terminated the campaign. The atomic packet is
+valid and incomplete: 24,576 of 39,936 orbits and 768 of 1,248 batches pass
+exact per-orbit comparison, with 3,477,665,782 product-live representatives,
+3,477,665,087 below, 695 above, and zero unresolved. It records 35,110.54
+worker seconds. Exactly 480 batches / 15,360 orbits remain. The resumable
+launcher will skip the completed prefix; expected remaining compute is about
+20,000--25,000 CPU seconds. Do not relaunch until the workspace is enabled and
+the user confirms available credit. The primitive node remains unpromoted.
+
+#### CR-E1-PROFILE-36-M16-GENERIC-THIRD-MOMENT: quantified no-go
+
+**Status:** COMPLETE NEGATIVE ROUTE TEST. No rerun is authorized.
+
+A generic layer-set third-moment/Hermite relaxation searched every integer
+contact pair `1<=a<b<=144` against all live m16 product chambers. It excludes
+only 7 of 436 distinct `(E,L)` pairs and leaves 949 of 967 live `(E,q,L)`
+records, still through `E=89`. This generic relaxation is too weak to justify
+further compute; any useful moment argument must exploit support-specific
+structure rather than only the universal layer-set bound.
+
+#### CR-E1-PROFILE-36-LOW-DYADIC-ORBIT-LEDGER: aggregate-first successor
+
+**Status:** PROOF-ONLY PREFLIGHT COMPLETE; NO COMPUTE AUTHORIZED. The Modal
+workspace is over its spend limit.
+
+The remaining pure cofactors are `m=2,4,8`; candidate `m=16` awaits completion
+of its independent reverse audit. Exact Hasse and Burnside packets give the
+support interfaces
+
+```text
+m=2: 331359 primitive mu1 support orbits in Z/128
+m=4: 159216 primitive mu2 orbits plus 18383 quotient mu1 orbits
+m=8: 79360 primitive mu3 orbits; the affine support action is free
+```
+
+These counts do not authorize a radius census. The aggregate target should
+count **full coefficient orbits with primitive-root incidence**, not support
+orbits and not support-normalized vector rows. For a pure-dyadic collision
+`Norm(F)=2^mu p`, `v_p(Norm)=1`, so exactly one primitive root is a simple
+zero. Its signed translation slice contains exactly 256 oriented dictionary
+vectors. The profile-only coarse allowance is therefore 367 full collision
+orbits; orbit 368 fails.
+
+Any future campaign must emit atomic partial packets and preserve, per full
+coefficient-orbit representative:
+
+```text
+cofactor and exact 2-adic valuation;
+canonical singleton and heavy supports plus all signs;
+full affine canonical key, not only a singleton-support key;
+exact norm interval and any row-prime candidate;
+number of primitive-root incidences modulo that candidate prime;
+translation stabilizer check and restored oriented-vector debit;
+profile weight and cumulative exact weighted debit.
+```
+
+PASS may be either zero survivors or a certified weighted ledger within the
+pair budget. Before any launch, first replay the tiny Hasse/Burnside/debit
+verifiers and build a product/modular contraction. A generic census over all
+588318 low-cofactor support orbits and broad energy windows is out of scope;
+record it only as an external contributor request if no analytic contraction
+is found.

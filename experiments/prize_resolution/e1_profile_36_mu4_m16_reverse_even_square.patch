@@ -1,0 +1,24 @@
+--- worker.cpp
++++ worker.cpp
+@@ -38,6 +38,10 @@
+     if (limit < 0) return;
+     const int radius = (limit - q) / 4;
+     const uint64_t all_lags = (uint64_t{1} << 63) - 1;
++    const bool singleton_support_even = std::all_of(
++        support.begin(), support.end(),
++        [](int position) { return position % 2 == 0; }
++    );
+     const uint64_t even_mask = all_lags ^ parity_mask;
+ 
+     std::vector<int> allowed;
+@@ -91,6 +95,10 @@
+                 const uint64_t pair_key = columns[first] ^ columns[second];
+                 for (size_t third_index = second_index + 1; third_index < allowed.size(); ++third_index) {
+                     const int third = allowed[third_index];
++                    if (singleton_support_even
++                        && first % 2 == 0 && second % 2 == 0 && third % 2 == 0) {
++                        continue;
++                    }
+                     ++counts.triple_syndromes;
+                     const uint64_t key = pair_key ^ columns[third];
+                     if (__builtin_popcountll((key ^ fixed) & even_mask) > radius) continue;

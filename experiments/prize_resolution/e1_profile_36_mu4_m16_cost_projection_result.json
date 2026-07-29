@@ -1,0 +1,27 @@
+{
+  "branches": {
+    "one_division": {
+      "orbits": 9080,
+      "parity_classes": 15,
+      "projected_cpu_hours": 26.818597572222224,
+      "projected_cpu_seconds": 96546.95126,
+      "sample_weighted_seconds_per_orbit": 10.632924147577093
+    },
+    "primitive": {
+      "orbits": 39936,
+      "parity_classes": 13,
+      "projected_cpu_hours": 121.46364242222222,
+      "projected_cpu_seconds": 437269.11272,
+      "sample_weighted_seconds_per_orbit": 10.949246612580128
+    },
+    "two_divisions": {
+      "orbits": 903,
+      "parity_classes": 13,
+      "projected_cpu_hours": 2.0770492361111113,
+      "projected_cpu_seconds": 7477.3772500000005,
+      "sample_weighted_seconds_per_orbit": 8.280594961240311
+    }
+  },
+  "method": "one measured representative runtime per branch and odd-chord class",
+  "schema": "e1-profile-36-mu4-m16-cost-projection-v1"
+}

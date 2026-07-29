@@ -2969,6 +2969,96 @@
    "notes": "EXACT FINITE EXCLUSION 2026-07-28: hash-map and sorted-pair engines agree on 922886080 XOR probes, 883718 candidate heavy supports, 7069744 exact sign tests, twelve geometric vectors, and eight factor-257 vectors. Seven profile-(3,6) cofactors remain."
   },
   {
+   "id": "e1_prize_n256_s18_profile_36_m256_exclusion",
+   "title": "Prize N=256 profile-(3,6) cofactor-256 exclusion",
+   "status": "PROVED",
+   "closure": "exact product ledger, dual radius census, and dual exact norms",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_m256_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m256_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m256_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m256_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m256_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m256_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m256_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_m256_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 256 is impossible. Exact product certification leaves 45 (E,q,L) chambers through E=20; dual complete radius engines find 54 signed vectors on 5920 multiplicity-eight affine orbits, and FLINT/PARI place every quotient Norm/256 below the prize interval.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: hash-bucket and sorted-bucket engines agree on 23111680 third-position queries, 2833260 candidate heavy triples, 22666080 exact sign tests, and 54 product-live vectors. Six profile-(3,6) cofactors remain."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_36_m64_exclusion",
+   "title": "Prize N=256 profile-(3,6) cofactor-64 exclusion",
+   "status": "PROVED",
+   "closure": "exact product ledger, dual two-atlas radius census, and certified norm intervals",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 64 is impossible. Exact product certification leaves 255 (E,q,L) chambers through E=46; dual complete radius engines exhaust 8256 primitive and 4480 all-one-parity affine orbits, and certified fixed-root intervals place all 7191566 product-live vectors outside the prize interval.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: a primitive-only audit caught and repaired the all-one-parity support gap. Direct-triple and reverse hash-block engines agree on both atlases, totaling 10179448632 unique radius triples, 81435589056 exact sign tests, 7191424 below-window vectors, 142 above-window vectors, and zero unresolved. Five profile-(3,6) cofactors remain."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_36_m32_exclusion",
+   "title": "Prize N=256 profile-(3,6) cofactor-32 exclusion",
+   "status": "PROVED",
+   "closure": "exact product ledger, dual complete radius census, and certified norm intervals",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 32 is impossible. Exact product certification leaves 474 (E,q,L) chambers through E=60; dual complete radius engines exhaust 19840 multiplicity-five affine orbits, and certified fixed-root intervals place all 239131808 product-live vectors outside the prize interval.",
+   "notes": "EXACT FINITE EXCLUSION 2026-07-28: odd multiplicity five excludes an all-one-parity branch. Forward triple/sign and reverse sign/triple engines agree on 84923111400 unique radius triples, 679384891200 exact sign tests, 239131588 below-window vectors, 220 above-window vectors, and zero unresolved. Four profile-(3,6) cofactors remain."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion",
+   "title": "Prize N=256 profile-(3,6) cofactor-16 twice-divided exclusion",
+   "status": "PROVED",
+   "closure": "exact support branch, product ledger, dual radius census, and certified norm intervals",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 16 is impossible when the six-singleton support lies in one residue class modulo four. A complete 903-orbit twice-divided atlas and dual exact radius engines place all 205513652 product-live vectors outside the prize interval.",
+   "notes": "EXACT BRANCH EXCLUSION 2026-07-28: forward triple/sign and reverse sign/triple engines agree on 7422374296 unique radius triples, 59378994368 exact sign tests, 205486644 below-window vectors, 27008 above-window vectors, and zero unresolved. The 39936 primitive and 9080 once-divided m16 support orbits remain open."
+  },
+  {
+   "id": "e1_prize_n256_s18_profile_36_m16_one_division_exclusion",
+   "title": "Prize N=256 profile-(3,6) cofactor-16 once-divided exclusion",
+   "status": "PROVED",
+   "closure": "exact support branch, square-norm contraction, dual radius census, and certified norm intervals",
+   "refs": [
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_one_division_exclusion/statement.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_one_division_exclusion/proof.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_one_division_exclusion/claim_contract.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_one_division_exclusion/dependency_subdag.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_one_division_exclusion/audit.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_one_division_exclusion/result.md",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_one_division_exclusion/source_pin.json",
+    "background/nodes/e1_prize_n256_s18_profile_36_m16_one_division_exclusion/verify.py"
+   ],
+   "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 16 is impossible when the six-singleton support lies in one parity class but not one residue class modulo four. A complete 9080-orbit once-divided atlas, an exact square-norm contraction, and dual complete radius engines place all 1816625504 product-live vectors outside the prize interval.",
+   "notes": "EXACT BRANCH EXCLUSION 2026-07-28: forward triple/sign and reverse sign/triple engines agree orbit by orbit on 73175732492 unique radius triples, 585405859936 exact sign tests, 1816625308 below-window vectors, 196 above-window vectors, and zero unresolved. Only the 39936 primitive m16 support orbits remain open."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -19105,6 +19195,578 @@
    ]
   },
   {
+   "id": "l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler",
+   "title": "L1 Mersenne HNF m=8 aggregate norm-gcd compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For an official m=8 row and P in F_p[X], unit gcd of P with X^(8(p+1))-1 over F_p is equivalent to unit gcds of P with X^(p+1)-zeta for every zeta in mu_8 after base extension. Thus each fixed norm endpoint needs four aggregate prime rows rather than 32 color rows.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/verify.py"
+   ],
+   "notes": "Exact replay-granularity theorem only. It supplies no gcd verdict; every nonunit aggregate row must be split by norm color and filtered."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler",
+   "title": "L1 Mersenne HNF m=8 cubic three-two-one role-polynomial compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Writing C(U)=(U^8-1)/(U-1), the quotient Res_U(C(U),C(1+lambda(U-1)))/(lambda-1)^7 has degree 42 and, after squarefree reduction, exactly the ordered pairwise-distinct mu_8 color-role ratios lambda=(gamma-alpha)/(beta-alpha) modulo common scaling.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/verify.py"
+   ],
+   "notes": "Exact role-value compiler only. It permits one symbolic-lambda elimination but supplies no unit verdict for the common-quadratic HNF core."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler",
+   "title": "L1 Mersenne HNF m=8 cubic three-two-one role-factor compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The degree-42 ordered 3+2+1 color-role polynomial factors over Q into four explicit packets of degrees 6,12,12,12 by homogenizing the seven-shape affine invariant. These four factors preserve every ordered multiplicity role.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/verify.py"
+   ],
+   "notes": "Exact role-factor compiler only. Four rational packets replace 42 scalar roles or one opaque degree-42 input; no common-quadratic unit verdict is claimed."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one role weld",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The linear common-quadratic role equation eliminates lambda from each of the four rational role factors. The 3+2+1 chamber is thereby four explicit p-free systems of five equations in (g_1,y,r,d), with exact equivalence on the inherited nonzero color saturations.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld/verify.py"
+   ],
+   "notes": "Exact role-variable elimination only. The four overdetermined p-free systems remain open and any retained point owes exact-fiber, Frobenius, cyclotomic, norm, and inner-lift filters."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one Galois-role weld",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The degree-42 ordered 3+2+1 role polynomial splits into twelve explicit rational Galois packets: three quadratics and nine quartics. Homogenizing at lambda=1+R/S gives an exact disjunction of twelve p-free systems whose role equation has degree at most four.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/verify.py"
+   ],
+   "notes": "Exact low-degree packet refinement only. The twelve systems are alternatives, not simultaneous constraints; no p-free unit verdict or arithmetic lift is claimed."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one official Frobenius-role split",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On each official characteristic p=7 mod 8, the complete ordered 3+2+1 role polynomial splits into 21 explicit irreducible quadratic Frobenius packets over F_p. This gives an exact 21-branch degree-two alternative to the four rational shape packets and twelve rational Galois packets.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/verify.py"
+   ],
+   "notes": "Official-field compiler only. The 21 systems are alternatives and remain open; no unit verdict, assignment-preserving converse, or arithmetic lift is claimed."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one scaled quadratic-core compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Dimensionless scaling and the sixth coefficient turn every official 3+2+1 Frobenius-role branch into an explicit triangular system in (x,Y,q,d): three compact denominator-free coefficient equations, the conic, and one quadratic equation in the transported role pair (R_D,S_D).",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/verify.py"
+   ],
+   "notes": "Exact triangular compiler only. The 21 systems remain a disjunction and no unit verdict or assignment-preserving arithmetic lift is claimed."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one coefficient-matrix router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The scaled fourth and fifth 3+2+1 coefficient equations form an exact two-by-two linear system in H and K_6. Its determinant gives a complete generic/singular split without lost components; the singular J=0 arm reduces to three explicit equations in (q,d).",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/verify.py"
+   ],
+   "notes": "Exact determinant router only. Every branch remains open and retains E_6, the conic, one role equation, saturations, and all arithmetic lift filters."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one singular-J0 univariate reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On q nonzero, the determinant-singular J=0 coefficient endpoint is exactly a common-root test for one explicit monic degree-7 polynomial and one explicit degree-10 polynomial in q, with d uniquely reconstructed as -144q/(q^2+132q+2916).",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/verify.py"
+   ],
+   "notes": "Exact univariate reduction only. Four official modular gcds remain uncomputed; nonunit roots would still owe E_6, role, norm, exact-fiber, cyclotomic, Frobenius-converse, and inner-lift filters."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one singular-J-nonzero chart compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The determinant-singular J-nonzero coefficient core splits exactly into an x=0 two-variable endpoint with a linear relation in d and an x-nonzero three-variable chart with d reconstructed rationally.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/verify.py"
+   ],
+   "notes": "Exact chart compiler only. Both singular J-nonzero charts remain open and retain every role and arithmetic-lift obligation."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic linear-d router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the generic determinant chart, E_6 turns the remaining coefficient equations into a quadratic pair in d with an exact linear combination; the nonzero coefficient chart eliminates d and the zero coefficient chart gains two parameter equations.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/verify.py"
+   ],
+   "notes": "Exact generic chart router only. The four-equation three-variable chart and the exceptional C_1=C_0=0 chart remain open with all role and arithmetic-lift obligations."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic double-linear-d router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The generic coefficient core and conic have two exact linear equations in d; they eliminate d on two rational charts, leaving it only on the doubly singular coefficient locus.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router/verify.py"
+   ],
+   "notes": "Exact double-linear router only. Two rational three-variable charts and the doubly singular C_1=M_1=0 chart remain open with every role and arithmetic-lift obligation."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic doubly-singular quadratic-quotient router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the doubly singular generic coefficient locus, the conic and each official role quadratic reduce modulo P_4 to two exact linear equations in d; only their simultaneous coefficient-zero locus retains d.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router/verify.py"
+   ],
+   "notes": "Exact quadratic-quotient router only. Two rational parameter charts and the simultaneous N_1=U_1=N_0=U_0=0 proportionality chart remain open with every arithmetic-lift obligation."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional parameter reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the fully proportional quotient chart, the conic equations reconstruct R_0 and leave one explicit polynomial F_N, while the role equations reconstruct S_0 and weld the discriminants of P_4 and the selected role quadratic.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/verify.py"
+   ],
+   "notes": "Exact parameter reduction only. The F_N endpoint and role-discriminant weld remain open separately on all 21 role packets, with P_4 and every arithmetic-lift obligation retained."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional bivariate factorization",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The fully proportional conic endpoint F_N is an explicit quadratic in q with factored coefficients in z=b^2; z=9 is excluded and the vanishing-leading-coefficient chart reconstructs q.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/verify.py"
+   ],
+   "notes": "Exact bivariate factorization only. The quadratic and exceptional linear charts remain open with all coefficient-zero, role-discriminant, P_4, and arithmetic-lift obligations."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional coefficient router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the fully proportional coefficient-zero locus, M_1=M_0=0 reconstruct D,Q_0 from (b,q), while C_1=C_0=0 become two explicit affine equations in G_2; the generic and singly exceptional charts reconstruct G_2,H,Y.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/verify.py"
+   ],
+   "notes": "Exact coefficient router only. The bivariate compatibility equations, doubly exceptional chart, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional coefficient bivariate compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The fully proportional coefficient router clears to explicit bivariate polynomials; generically its compatibility polynomial has total degree at most 12 and q-degree at most 6, while every exceptional denominator chart remains explicit.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/verify.py"
+   ],
+   "notes": "Exact denominator-free compiler only. The generic and exceptional bivariate ideals, substituted structural equations, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional q-quotient router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Reducing the degree-at-most-six coefficient compatibility polynomial modulo the quadratic F_b gives one affine equation in q; off its leading and linear-coefficient singular charts, the generic coefficient endpoint is one explicit univariate polynomial U(b) of degree at most 58.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/verify.py"
+   ],
+   "notes": "Exact quadratic-quotient router only. The univariate U, simultaneous affine-remainder singular chart, fixed leading-coefficient chart, substituted structural equations, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional exceptional-E quadratic router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the exceptional E_G=0 coefficient chart, cancellation with the quadratic F_b gives one affine equation in q; off its singular charts, the retained X_* equation and conic endpoint become two explicit univariate polynomials of degrees at most 23 and 16.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/verify.py"
+   ],
+   "notes": "Exact exceptional quadratic router only. The fixed a_2=0 leading chart is discharged downstream, and the simultaneous affine-coefficient singular chart is compiled to two quartics. The generic univariate pair, the quartic common-root decision, structural equations, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one exceptional-E structural-consistency compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the generic exceptional E_G=0 chart, all original structural definitions are equivalent to three explicit rational consistency equations; their cleared bivariate numerators have degrees at most 27, 13, and 21 and become univariate after the exceptional q reconstruction.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/verify.py"
+   ],
+   "notes": "Exact exceptional structural compiler only. Common roots of the five univariate coefficient/structural filters, the two-quartic S_1=S_0 endpoint, the retained J_*=0 chart, the role-discriminant weld, P_4, saturations, and arithmetic-lift obligations remain open; the separate a_2=0 leading chart is discharged downstream."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one exceptional-E leading-chart exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the fixed a_2=0 exceptional coefficient chart, E_G=0 forces b=115275930/45228187, whose square contradicts b^2=1575/247 in each of the four official characteristics.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/verify_audit.py"
+   ],
+   "notes": "Exact exclusion of the fixed exceptional a_2=0 leading chart only. The generic exceptional endpoint remains open; S_1=S_0=0 is compiled downstream to two quartics, while J_*=0, role and P_4 equations, saturations, arithmetic lifts, and all other h=7 residues also remain."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one exceptional-E singular-affine router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the exceptional a_2!=0, S_1=S_0=0 chart, the coefficient-proportionality equations are equivalent to two explicit quartics in z=b^2, with b reconstructed rationally.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/verify_audit.py"
+   ],
+   "notes": "Exact two-quartic compiler only. A common-root/ambient-degree verdict for H and K, then F_b=X_*=0, J_*, structural, role, P_4, saturation, and arithmetic-lift obligations remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one exceptional-E J-zero affine router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the retained E_G=X_*=J_*=L_*=F_b=0 chart, q is an explicit rational function of b with a proved official-characteristic denominator guard, leaving four univariate filters of degrees at most 6, 7, 10, and 11.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router/verify_audit.py"
+   ],
+   "notes": "Exact univariate coefficient compiler only. Common roots of the four filters, retained G_2, structural and role equations, P_4, saturations, arithmetic lifts, and the critical consumer remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one exceptional-E J-zero structural-consistency compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the retained J_*=L_*=0 chart, X_*=0 gives Q_0=q^2/3 and the original Q_0 equation reconstructs G_2, leaving two univariate structural filters of degrees at most 24 and 16.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler/verify_audit.py"
+   ],
+   "notes": "Exact coefficient-and-structural compiler only. Common roots of six filters, the selected role packet, P_4, saturations, arithmetic lifts, and the critical consumer remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one exceptional-E J-zero role/P4 compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For each fixed official role quadratic on the J-zero chart, two role filters become univariate of degrees at most 24 and 34; either role root reconstructs d and the exact quotient identity recovers P_4.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler/verify_audit.py"
+   ],
+   "notes": "Exact role/P_4 compiler for each alternative packet only. Eight-filter common roots, reconstructed d saturations, arithmetic lifts, other h=7 shapes, and the critical consumer remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic coefficient-field degree-eight router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On every official m=8,h=7 order-one cubic row, the normalized HNF roots and cubic factor coefficients, hence b=4dg_1-15, lie in F_(p^8); an irreducible b factor is eligible exactly when its degree divides eight.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/verify_audit.py"
+   ],
+   "notes": "Exact field-of-definition router only. No factorization was run; common-gcd, role, saturation, arithmetic-lift, other-shape, and critical closure obligations remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one J-zero outer-lift compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "A retained J-zero role candidate has a finite exact outer replay in F_(p^8): reconstruct its normalized cubic color polynomial, check one norm and one degree-six pointwise Frobenius congruence, and full P|W^(8(p+1))-1 follows.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/verify_audit.py"
+   ],
+   "notes": "Exact outer-lift compiler only. Common roots, guards, norm/pointwise outcomes, the separate inner lift, other h=7 shapes, and the critical target remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional structural-consistency compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "After the generic coefficient reconstructions, all original structural definitions are equivalent to three explicit rational consistency equations; their cleared bivariate numerators have degrees at most 18, 10, and 15 and become univariate filters after the q-quotient reconstruction.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/verify.py"
+   ],
+   "notes": "Exact structural compiler only. Common roots of the four univariate coefficient/structural filters, the role-discriminant weld, P_4, saturations, and arithmetic-lift obligations remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-double affine-color compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The ordered m=8 three-color role resultant descends, through the depressed-cubic affine invariant, to seven explicit characteristic-zero affine color shapes. Every h=7 cubic 2+2+2 packet satisfies the resulting homogeneous color equation, leaving four equations in (x,q,d) on the generic branch after eliminating b.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/verify.py"
+   ],
+   "notes": "Exact necessary color compiler only. The full homogeneous resultant is the safe equation; its primitive characteristic-zero squarefree radical has the printed degree-seven polynomial. Reflection does not merge the two scalene conjugate pairs. No unit verdict is supplied."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-double affine-invariant formula",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The depressed-cubic invariants of the three-double value map have the closed formulas (AIF5). The seven m=8 affine color values therefore split into four explicit rational homogeneous factors, and each generic branch is a rational system in (x,q,d) after eliminating b.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/verify.py"
+   ],
+   "notes": "Exact formula and packet compiler only. Four rational factors represent seven geometric color values; no unit verdict, base-field color assignment, or outer/inner packet witness is claimed."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-double quadratic-quotient weld",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Modulo the quadratic D_b equation, every three-double color factor is affine-linear in p=b-12. On the generic fifth-slope locus, welding that remainder to M_5 and M_6 gives an equivalent denominator-free system of four equations in (x,q,d) for each of four rational color packets.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld/verify.py"
+   ],
+   "notes": "Exact equivalence only on alpha!=0. The exceptional x=0 and q=-6x^2 slopes remain in their separately owned finite branches. No generic unit verdict is claimed."
+  },
+  {
    "id": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
    "title": "L1 Mersenne HNF order-zero linear-color exclusion",
    "status": "PROVED",
@@ -19338,6 +20000,449 @@
     "background/nodes/l1_mersenne_hnf_order_one_newton_reciprocal_reduction/verify.py"
    ],
    "notes": "Exact resultant-free reformulation. The first-three trace system is necessary only; parameter elimination and the pointwise Frobenius/cyclotomic/inner tests remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_order_one_full_trace_cancellation",
+   "title": "L1 Mersenne HNF order-one full-trace cancellation",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The automatic order-one root x_0=-1/(c-1) contributes identically to every star and inverse m-power trace because c_star-1=zeta/(c-1), zeta^m=1, and m is even. Hence the first r reduced reciprocal equations are exactly the first r full-P trace equalities. The first-three system can be generated from the original degree-h polynomial without division by the known root or construction of Qtilde.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/result.md",
+    "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/verify.py"
+   ],
+   "notes": "Exact representation reduction inside the proved order-one Frobenius gate. It removes the quotient-division representation, not the parameter elimination or any pointwise outer/inner condition."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one conic reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For h=7, the residual order-one curve is 35u^2+14(11c^2+5c+11)u+120(c^4+c^2+1)=0 with u=rho*c*(c-1). Completing the square gives the reciprocal quartic D(c)=7(5u+A)^2. Under z=c+c^-1 and w=(5u+A)/c it is the conic 7w^2=247z^2+770z+775, followed by the single quadratic pullback c^2-zc+1=0.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_conic_reduction/verify.py"
+   ],
+   "notes": "Exact h=7 geometry reduction. The conic chart retains its quadratic c-pullback and finite exceptional charts; reciprocal, Frobenius, torsion, cyclotomic, and inner conditions remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_basefield_conic_router",
+   "title": "L1 Mersenne HNF m=8 order-one base-field conic router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the h=7 conic, both z=-1 points are excluded by the non-prime-field invariant. If the remaining line parameter t lies in F_p, Frobenius forces zeta=2-z; official Mersenne congruences then force zeta=-1 and z=3. This branch is empty at p=8191,131071 and reduces at p=524287,2147483647 to at most the two signs in 7w^2=5308, with c^2-3c+1=0 and rho^p=-c*rho.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/verify.py"
+   ],
+   "notes": "Exact branch router only. The two larger-row sign packets still owe every trace/cyclotomic/inner condition, and t outside the prime field is untouched."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion",
+   "title": "L1 Mersenne HNF m=8 order-one base-field branch exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The complete t in F_p branch of the m=8,h=7 order-one conic is empty. On the two residual rows, P^[p](W)=-P(1-W), so every root x has both x and 1-x in mu_n. Their p+1 colors reduce from mu_8 to three surviving real color pairs, giving at most six possible roots, while the degree-seven divisor P has seven distinct roots.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion/verify.py"
+   ],
+   "notes": "Complete proof close of one h=7 branch. The non-base-field conic parameter and every other declared L1 chamber remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_constant_color_exclusion",
+   "title": "L1 Mersenne HNF m=8 order-one constant-color exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On every official m=8,h=7 order-one row, the six roots left after removing the automatic root cannot all have the same p+1 Frobenius color. The first two colored reciprocal coefficient equations force rho*c=1-alpha and then 30alpha(c-1)=(alpha+1)zeta+12alpha^2. Its F_(p^2)/F_p norm equation has no solution at any eighth-root trace in an official characteristic.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/verify.py"
+   ],
+   "notes": "Complete exclusion of the constant-color stratum only. The live h=7 residue has a non-base-field conic parameter and a nonconstant assignment-preserving color interpolant; higher color degrees and all inner conditions remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_order_one_linear_color_exclusion",
+   "title": "L1 Mersenne HNF order-one linear-color exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On all five official next-to-maximal order-one rows, the colored Frobenius interpolant on the reduced roots cannot have degree one. If E(W)=aW+b, its injective colors all satisfy the quadratic -(b^p+a^(p+1))X^2+(1+b^(p+1))X-b=0, contradicting the six or fourteen distinct colors required.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/verify.py"
+   ],
+   "notes": "Complete exclusion of degree one only. Combined with the m=8 constant-color theorem, the active h=7 branch starts at color degree two; h=15 still has a constant-color chamber."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_quadratic_collision_router",
+   "title": "L1 Mersenne HNF m=8 order-one quadratic-collision router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a quadratic colored Frobenius interpolant on the six reduced h=7 roots, two repeated colors force an even interpolant and exactly two antipodal repeated pairs. This chamber also satisfies r(18+d-d^2)+192=0 for d=c-1 and r=rho*c. The complete quadratic residue splits into collision-free, one-repeat, and this two-antipodal chamber.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_collision_router/verify.py"
+   ],
+   "notes": "Exact degree-two router, not an emptiness theorem. The two-antipodal chamber has one additional scalar equation; collision-free and one-repeat chambers remain independent."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one quadratic two-pair univariate reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In the two-antipodal-pair quadratic color chamber, eliminating r=rho*c between the collision equation and the h=7 conic gives the fixed degree-eight polynomial F(d)=5d^8+10d^7-180d^6+672d^5+2862d^4-15516d^3+8199d^2-44172d+4860. Closure reduces to 32 degree-eight norm-color gcds.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction/modal_gcd.py"
+   ],
+   "notes": "Exact univariate reduction only. The 32 gcd verdicts are unrun because Modal is spend-blocked; other quadratic collision patterns and all inner conditions remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_order_one_quadratic_color_resultant",
+   "title": "L1 Mersenne HNF order-one quadratic color resultant",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The pointwise equations for a quadratic colored Frobenius interpolant give an explicit degree-six polynomial R_E in the color. This excludes the complete m=16,h=15 quadratic stratum because fourteen roots require at least seven distinct colors. At m=8,h=7, R_E exactly equals the six-color multiset polynomial, including collision multiplicities.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/result.md",
+    "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/verify.py"
+   ],
+   "notes": "Complete proof close of color degree two at h=15 and an exact color-multiset router at h=7. The h=7 coefficient systems and all assignment/cyclotomic/inner tests remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_order_one_color_degree_barrier",
+   "title": "L1 Mersenne HNF order-one color-degree barrier",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a nonconstant degree-d rootwise colored Frobenius interpolant on H reduced roots, the pointwise equations define plane curves of degrees d and d+1 with no common component, so H<=d(d+1). Thus h=7 starts at degree two and h=15 starts at degree four; the h=15 cubic chamber is empty.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/statement.md",
+    "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/proof.md",
+    "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/audit.md",
+    "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/result.md",
+    "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/verify.py"
+   ],
+   "notes": "Exact degree barrier only. Equality or larger degree does not imply existence; h=15 constant and degrees four through thirteen remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m16_order_one_constant_color_reduction",
+   "title": "L1 Mersenne HNF m=16 order-one constant-color reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official m=16,h=15 row, a constant color forces rho*c=1-alpha and 182alpha(c-1)=(alpha+1)zeta+28alpha^2. Norm contraction reduces the chamber to two explicit quadratic gcds against the degree-nine mu_16 trace polynomial over F_8191.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/verify.py"
+   ],
+   "notes": "Exact constant-color reduction layer. Its downstream modular pseudo-remainder theorem proves both gcds unit without Modal; degrees four through thirteen and all inner conditions remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m16_order_one_constant_color_exclusion",
+   "title": "L1 Mersenne HNF m=16 order-one constant-color exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Both quadratic trace gcds from the h=15 constant-color reduction are unit over F_8191. Direct lower-factor values and primitive-quartic pseudo-remainders with terminal residues 4509 and 4947 exclude every sixteenth-root trace, closing the complete constant-color chamber.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/verify.py"
+   ],
+   "notes": "Complete proof close of the h=15 constant-color stratum. Combined with the degree barrier, live h=15 color degrees are four through thirteen; cyclotomic and inner conditions remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition",
+   "title": "L1 Mersenne HNF m=8 order-one quadratic pointwise composition",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every h=7 quadratic colored interpolant E=AW^2+BW+C, the pointwise Frobenius equations give A^pE^3+B^pWE^2+C^pW^2E-W^2=A^pA^3L. Comparing top and bottom coefficients forces C/A=(1-rho*c)/(c-1)^2 and the pure HNF equation g(1)=(1-rho*c)^3.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/verify.py"
+   ],
+   "notes": "Exact assignment-preserving quadratic identity. It adds one HNF parameter equation shared by all collision chambers; incompatibility with the conic and all outer/inner tests remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection",
+   "title": "L1 Mersenne HNF m=8 order-one quadratic HNF intersection",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Combining the quadratic pointwise equation g(1)=(1-rho*c)^3 with the h=7 residual conic eliminates r=rho*c into the fixed degree-fourteen polynomial R_2(d)=(a_0c_1-c_0a_1)^2-(a_0b_1-b_0a_1)(b_0c_1-c_0b_1), whose leading coefficient is -691200. Complete degree-two closure reduces to 32 norm-fiber gcds.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection/verify.py"
+   ],
+   "notes": "Exact all-collision quadratic reduction only. The 32 norm-gcd verdicts are unrun because Modal is spend-blocked; higher color degrees and all outer/inner tests remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one cubic two-triple reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "If a cubic colored interpolant sends the six reduced h=7 roots to exactly two colors with multiplicities 3+3, the two full cubic fibers factor L. Coefficient comparison adds q_2(d)r^2+q_1(d)r+q_0(d)=0; intersecting it with the residual conic gives the fixed degree-fourteen polynomial R_33 with leading coefficient -576000 and 32 norm-fiber gcd endpoints.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/verify.py"
+   ],
+   "notes": "Exact necessary reduction for the 3+3 cubic color partition only. The 32 norm-gcd verdicts are unrun because Modal is spend-blocked; all other cubic partitions remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion",
+   "title": "L1 Mersenne HNF m=8 order-one cubic two-triple exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The W^2 coefficient of the exact two-cubic-fiber factorization forces rd+4(d^2+3d+3)=0. Combining this with the h=7 conic and the prior second quadratic leaves only (2d+3)(d+3)=0; the two base-field norms 9/4 and 9 are not eighth roots on any official row. Thus the cubic color partition 3+3 is empty.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/verify.py"
+   ],
+   "notes": "Exact proof-only exclusion of the 3+3 cubic color partition. It retires the 32 norm-gcd packets queued by the predecessor but says nothing about other cubic partitions."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-color remainder router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "After the cubic 3+3 exclusion, exact three-color cubic packets have profile 3+2+1 or 2+2+2. Cyclic color rotation reduces the 56 unordered color triples to seven representatives; each packet satisfies the h=7 conic, the six-coefficient remainder L | product_(j in T)(E-omega^j), three nonempty-fiber resultants, and its norm-color equation.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router/verify.py"
+   ],
+   "notes": "Exact bounded necessary router only. No one of the seven orbit systems is declared empty, and four-or-more-color cubic packets remain outside its scope."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-double factor reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In the cubic 2+2+2 profile, the three double fibers factor L into quadratics F_i=W^2+u_iW+u_i^2-Uu_i+V belonging to one two-parameter family. Their external roots are y_i=u_i-U, and the three constants w+(u_i^2-Uu_i+V)(u_i-U) obey the scale-free ratio of the chosen three eighth-root colors.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/verify.py"
+   ],
+   "notes": "Exact low-degree necessary factor model for 2+2+2 only. It replaces the generic degree-nine remainder but supplies no emptiness verdict."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-double symmetric compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Writing s_1,s_2,s_3 for the elementary symmetric functions of the three quadratic-fiber parameters, l_1,l_2,l_3 solve triangularly for s_1,V,s_3. The printed formulas for l_4,l_5,l_6 then give three exact equations in only (U,s_2,r,d); with the h=7 conic, the cubic 2+2+2 p-free core is a square four-equation system.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/verify.py"
+   ],
+   "notes": "Exact coefficient compiler only. Square counts equations and variables but is not a dimension or unit-ideal verdict; all color, norm, Frobenius, cyclotomic, and inner filters remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-double linear remainder reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "With q=dr, a=dU, b=d^2s_2, and x=a-3, the h=7 cubic 2+2+2 core consists of the residual conic, one quadratic D_b in b, and two equations affine-linear in b after exact reduction modulo D_b. The fifth-equation slope is -x(x^2+q/6), separating the exceptional branches x=0 and q=-6x^2 from a generic three-variable elimination.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/verify.py"
+   ],
+   "notes": "Exact polynomial-remainder reduction only. No generic or exceptional branch is declared empty; all color, norm, Frobenius, cyclotomic, and inner filters remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-double q=-6x^2 degree-12 reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the exceptional q=-6x^2 branch, the h=7 conic and reduced fifth coefficient force every cubic 2+2+2 packet onto R_12(d)=105F(d)^2+7A(d)F(d)E(d)+10B(d)E(d)^2=0, an explicit degree-12 polynomial with leading coefficient 149868.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/verify.py"
+   ],
+   "notes": "Exact necessary finite endpoint only. Squaring may add roots, the 32 official norm gcds are not yet evaluated, and any retained root still owes all reconstruction and color/Frobenius/inner filters."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-double x=0 quintic reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the exceptional x=dU-3=0 branch, the reduced fifth equation and h=7 conic exclude d=-2,-3/2,-3 by the official norm-color condition and force every remaining packet onto P_5(d)=60d^5+407d^4+1147d^3+1659d^2+1218d+360=0 with q=-12(5d^3+16d^2+18d+10)/(35(d+2)).",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/verify.py"
+   ],
+   "notes": "Exact necessary finite endpoint only. The 32 official norm gcds are not yet evaluated, and any retained quintic root still owes the other coefficient, color, Frobenius, cyclotomic, and inner conditions."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one factor reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a cubic 3+2+1 packet, the triple color gives a monic cubic factor F of L=FG. On the complementary cubic G, F takes values B,B,lambda B, where lambda=(gamma-alpha)/(beta-alpha); hence Res_W(G,X-F)=X^3-(2+lambda)BX^2+(1+2lambda)B^2X-lambda B^3. Seven color orbits and six role assignments give at most 42 packets.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/verify.py"
+   ],
+   "notes": "Exact low-degree necessary factor model for 3+2+1 only. No factor packet is declared empty and all norm, Frobenius, cyclotomic, and inner filters remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one common-quadratic compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In a cubic 3+2+1 packet, exact double multiplicity gives a common monic quadratic Q with G=Q(W)(W-y) and F-B=Q(W)(W-z). Writing a=y-z, one has F=G+aQ+B and aQ(y)=(lambda-1)B. The first three HNF coefficients eliminate a,g_2,B triangularly, leaving five exact equations in only (g_1,y,r,d) for each role value lambda.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/verify.py"
+   ],
+   "notes": "Exact factor and triangular coefficient compiler only. No one of the at most 42 role packets is declared empty, and all norm, Frobenius, cyclotomic, and inner filters remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic collision-free value router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a collision-free cubic interpolant, the monic value resultant V_E=Res_W(L,X-E) is the product of the six used eighth-root colors. Multiplying by the quadratic for the missing pair gives V_E M_delta=X^8-1; cyclic translation reduces the 28 missing pairs to four distance packets delta=1,2,3,4.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router/verify.py"
+   ],
+   "notes": "Exact p-free necessary router for collision-free cubic colors. No distance packet is declared empty and all assignment, norm, cyclotomic, and inner filters remain open."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic four/five-color value router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For four- or five-color cubic packets, let M be the squarefree missing-color product and D the excess-multiplicity product. The exact identity Res_W(L,X-E)M=(X^8-1)D yields 35 cyclic packets for 2+1+1+1+1, 35 for 3+1+1+1, and 54 for 2+2+1+1, for 124 p-free systems total.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/verify.py"
+   ],
+   "notes": "Exact p-free necessary router for all four/five-color cubic profiles. None of the 124 systems is declared empty and assignment, norm, cyclotomic, and inner filters remain open."
   },
   {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
@@ -35514,6 +36619,16 @@
    "kind": "ev"
   },
   {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
    "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
    "to": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
    "kind": "req"
@@ -35670,6 +36785,666 @@
   },
   {
    "from": "l1_mersenne_hnf_order_one_newton_reciprocal_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_newton_reciprocal_reduction",
+   "to": "l1_mersenne_hnf_order_one_full_trace_cancellation",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_full_trace_cancellation",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_involution_component_exclusion",
+   "to": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_basefield_conic_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_belyi_shifted_value_gate",
+   "to": "l1_mersenne_hnf_m8_order_one_basefield_conic_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_basefield_conic_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_basefield_conic_router",
+   "to": "l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_basefield_branch_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_m8_order_one_constant_color_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_constant_color_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_order_one_linear_color_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_linear_color_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_m8_order_one_quadratic_collision_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_quadratic_collision_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_quadratic_collision_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_quadratic_collision_router",
+   "to": "l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_quadratic_two_pair_univariate_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_order_one_quadratic_color_resultant",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_quadratic_color_resultant",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_order_one_color_degree_barrier",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_color_degree_barrier",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_m16_order_one_constant_color_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_one_constant_color_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_one_constant_color_reduction",
+   "to": "l1_mersenne_hnf_m16_order_one_constant_color_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_one_constant_color_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition",
+   "to": "l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_color_degree_barrier",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+   "to": "l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler",
+   "to": "l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
+   "to": "l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_exceptional_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_belyi_shifted_value_gate",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_color_degree_barrier",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_color_degree_barrier",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },
@@ -37495,6 +39270,106 @@
   },
   {
    "from": "e1_prize_n256_s18_profile_36_m514_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "to": "e1_prize_n256_s18_profile_36_m256_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m256_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m256_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m256_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "to": "e1_prize_n256_s18_profile_36_m64_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m64_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m64_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m64_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "to": "e1_prize_n256_s18_profile_36_m32_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m32_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m32_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m32_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "to": "e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+   "to": "e1_prize_n256_s18_profile_36_m16_one_division_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m16_one_division_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m16_one_division_exclusion",
+   "to": "e1_official_prime_exception_control",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m16_one_division_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

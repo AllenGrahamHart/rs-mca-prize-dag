@@ -1,0 +1,901 @@
+{
+  "complete": true,
+  "engine_sha256": "785bd2ff42f8dbd6b3562b7894ef893a8c3a3a8c5a4c3e4963403db73e0f3f2d",
+  "fixed_roots_sha256": "0bdcada03187b219ccd74d0b89bba87fe26c6d61b8f25df15aa612be5fd9d5cc",
+  "orbit_file_sha256": "574cbe78dbea6ec4f1fc0497c2c502e288933652bcb4ab33f6a49d2e6cb06598",
+  "rows": [
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 0,
+      "stderr": "",
+      "stdout": "WITNESS E=13 q=5 L=9 state=0:1,2:1,4:1,6:1,8:1,11:-2,12:-2,13:2,16:1,\nWITNESS E=13 q=5 L=9 state=0:1,2:1,4:1,6:1,8:1,11:2,12:-2,13:-2,16:1,\nWITNESS E=13 q=5 L=9 state=0:1,2:-1,4:1,6:-1,8:1,12:-2,16:1,75:2,77:2,\nWITNESS E=13 q=5 L=9 state=0:1,2:-1,4:1,6:-1,8:1,12:-2,16:1,75:-2,77:-2,\nWITNESS E=15 q=11 L=13 state=0:1,2:1,4:1,20:1,44:-2,46:1,64:-2,88:-2,108:1,\nWITNESS E=15 q=11 L=13 state=0:1,2:-1,4:1,20:1,44:-2,46:-1,64:-2,88:-2,108:1,\nWITNESS E=15 q=11 L=13 state=0:1,2:1,4:1,20:-1,44:-2,46:1,64:2,88:-2,108:-1,\nWITNESS E=15 q=11 L=13 state=0:1,2:-1,4:1,20:-1,44:-2,46:-1,64:2,88:-2,108:-1,\nWITNESS E=16 q=8 L=12 state=0:1,2:-1,4:1,22:1,24:1,44:-2,46:-2,64:1,66:-2,\nWITNESS E=16 q=8 L=12 state=0:1,2:1,4:1,22:-1,24:1,44:-2,46:2,64:1,66:2,\nWITNESS E=16 q=8 L=12 state=0:1,2:1,4:1,22:1,24:-1,44:-2,46:2,64:-1,66:-2,\nWITNESS E=16 q=8 L=12 state=0:1,2:-1,4:1,22:-1,24:-1,44:-2,46:-2,64:-1,66:2,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74878392 exact_sign_tests=599027136 low_energy_vectors=141582 product_live_vectors=76158 screen_below=76146 screen_above=12 screen_near=0 fixed_below=76146 fixed_above=12 fixed_unresolved=0 seconds=84.0656\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 1,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75037956 exact_sign_tests=600303648 low_energy_vectors=147788 product_live_vectors=79588 screen_below=79588 screen_above=0 screen_near=0 fixed_below=79588 fixed_above=0 fixed_unresolved=0 seconds=95.9178\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 2,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=76677980 exact_sign_tests=613423840 low_energy_vectors=152490 product_live_vectors=81038 screen_below=81038 screen_above=0 screen_near=0 fixed_below=81038 fixed_above=0 fixed_unresolved=0 seconds=56.1012\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 3,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75607760 exact_sign_tests=604862080 low_energy_vectors=147450 product_live_vectors=78556 screen_below=78556 screen_above=0 screen_near=0 fixed_below=78556 fixed_above=0 fixed_unresolved=0 seconds=55.4957\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 4,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=70370526 exact_sign_tests=562964208 low_energy_vectors=125990 product_live_vectors=67986 screen_below=67986 screen_above=0 screen_near=0 fixed_below=67986 fixed_above=0 fixed_unresolved=0 seconds=73.2546\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 5,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75606932 exact_sign_tests=604855456 low_energy_vectors=137670 product_live_vectors=74452 screen_below=74452 screen_above=0 screen_near=0 fixed_below=74452 fixed_above=0 fixed_unresolved=0 seconds=54.9731\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 6,
+      "stderr": "",
+      "stdout": "WITNESS E=12 q=8 L=10 state=0:1,2:1,4:-2,6:1,32:1,34:2,36:1,64:1,68:-2,\nWITNESS E=12 q=8 L=10 state=0:1,2:-1,4:-2,6:-1,32:1,34:-2,36:1,64:1,68:-2,\nWITNESS E=12 q=8 L=10 state=0:1,2:1,4:-2,6:1,32:-1,34:-2,36:-1,64:1,68:-2,\nWITNESS E=12 q=8 L=10 state=0:1,2:-1,4:-2,6:-1,32:-1,34:2,36:-1,64:1,68:-2,\nWITNESS E=12 q=8 L=10 state=0:1,2:-1,4:2,6:1,32:-1,36:1,64:1,68:2,98:-2,\nWITNESS E=12 q=8 L=10 state=0:1,2:1,4:2,6:-1,32:-1,36:1,64:1,68:2,98:2,\nWITNESS E=12 q=8 L=10 state=0:1,2:-1,4:2,6:1,32:1,36:-1,64:1,68:2,98:2,\nWITNESS E=12 q=8 L=10 state=0:1,2:1,4:2,6:-1,32:1,36:-1,64:1,68:2,98:-2,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75131560 exact_sign_tests=601052480 low_energy_vectors=139340 product_live_vectors=76294 screen_below=76286 screen_above=8 screen_near=0 fixed_below=76286 fixed_above=8 fixed_unresolved=0 seconds=54.9143\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 7,
+      "stderr": "",
+      "stdout": "WITNESS E=13 q=5 L=9 state=0:1,2:-1,4:-1,6:2,8:-2,10:-1,12:-2,14:-1,18:1,\nWITNESS E=13 q=5 L=9 state=0:1,2:1,4:-1,6:-2,8:-2,10:1,12:-2,14:1,18:-1,\nWITNESS E=17 q=5 L=11 state=0:1,2:-1,4:-1,6:2,10:-1,14:-1,16:2,18:1,20:2,\nWITNESS E=17 q=5 L=11 state=0:1,2:1,4:-1,6:-2,10:1,14:1,16:2,18:-1,20:2,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74508884 exact_sign_tests=596071072 low_energy_vectors=142268 product_live_vectors=73776 screen_below=73772 screen_above=4 screen_near=0 fixed_below=73772 fixed_above=4 fixed_unresolved=0 seconds=54.1137\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 8,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72433820 exact_sign_tests=579470560 low_energy_vectors=136764 product_live_vectors=74884 screen_below=74884 screen_above=0 screen_near=0 fixed_below=74884 fixed_above=0 fixed_unresolved=0 seconds=52.8297\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 9,
+      "stderr": "",
+      "stdout": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,6:1,60:-1,62:-2,66:-2,68:1,126:-2,\nWITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,6:-1,60:-1,62:2,66:2,68:1,126:2,\nWITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,6:1,60:1,62:2,66:2,68:-1,126:-2,\nWITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,6:-1,60:1,62:-2,66:-2,68:-1,126:2,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=78448564 exact_sign_tests=627588512 low_energy_vectors=143234 product_live_vectors=78746 screen_below=78742 screen_above=4 screen_near=0 fixed_below=78742 fixed_above=4 fixed_unresolved=0 seconds=56.7877\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 10,
+      "stderr": "",
+      "stdout": "WITNESS E=12 q=4 L=8 state=0:1,2:1,3:-2,4:-1,6:1,62:-1,66:2,69:2,70:1,\nWITNESS E=12 q=4 L=8 state=0:1,2:1,3:2,4:-1,6:1,62:-1,66:2,69:-2,70:1,\nWITNESS E=12 q=4 L=8 state=0:1,2:1,3:2,4:-1,6:1,62:1,66:-2,69:2,70:-1,\nWITNESS E=12 q=4 L=8 state=0:1,2:1,3:-2,4:-1,6:1,62:1,66:-2,69:-2,70:-1,\nWITNESS E=12 q=4 L=8 state=0:1,2:-1,4:-1,5:2,6:-1,62:-1,66:2,67:2,70:1,\nWITNESS E=12 q=4 L=8 state=0:1,2:-1,4:-1,5:-2,6:-1,62:-1,66:2,67:-2,70:1,\nWITNESS E=12 q=4 L=8 state=0:1,2:-1,4:-1,5:-2,6:-1,62:1,66:-2,67:2,70:-1,\nWITNESS E=12 q=4 L=8 state=0:1,2:-1,4:-1,5:2,6:-1,62:1,66:-2,67:-2,70:-1,\nWITNESS E=8 q=4 L=6 state=0:1,2:1,4:-1,6:1,62:1,64:2,66:2,68:-2,70:1,\nWITNESS E=8 q=4 L=6 state=0:1,2:-1,4:-1,6:-1,62:1,64:-2,66:2,68:2,70:1,\nWITNESS E=8 q=4 L=6 state=0:1,2:1,4:-1,6:1,62:-1,64:-2,66:-2,68:2,70:-1,\nWITNESS E=8 q=4 L=6 state=0:1,2:-1,4:-1,6:-1,62:-1,64:2,66:-2,68:-2,70:-1,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73602160 exact_sign_tests=588817280 low_energy_vectors=144572 product_live_vectors=77302 screen_below=77290 screen_above=12 screen_near=0 fixed_below=77290 fixed_above=12 fixed_unresolved=0 seconds=96.4051\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 11,
+      "stderr": "",
+      "stdout": "WITNESS E=15 q=3 L=9 state=0:1,2:1,4:-1,5:2,7:2,8:1,10:-2,14:-1,16:1,\nWITNESS E=15 q=3 L=9 state=0:1,2:1,4:-1,5:-2,7:-2,8:1,10:-2,14:-1,16:1,\nWITNESS E=15 q=3 L=9 state=0:1,2:-1,4:-1,8:1,10:2,14:1,16:1,69:-2,71:2,\nWITNESS E=15 q=3 L=9 state=0:1,2:-1,4:-1,8:1,10:2,14:1,16:1,69:2,71:-2,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72101938 exact_sign_tests=576815504 low_energy_vectors=131748 product_live_vectors=73532 screen_below=73528 screen_above=4 screen_near=0 fixed_below=73528 fixed_above=4 fixed_unresolved=0 seconds=78.8105\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 12,
+      "stderr": "",
+      "stdout": "WITNESS E=17 q=9 L=13 state=0:1,2:-1,4:1,16:-1,40:1,66:-2,92:2,94:1,118:2,\nWITNESS E=17 q=9 L=13 state=0:1,2:1,4:1,16:1,40:-1,66:-2,92:-2,94:1,118:2,\nWITNESS E=17 q=9 L=13 state=0:1,2:1,4:1,16:-1,40:1,66:2,92:2,94:-1,118:-2,\nWITNESS E=17 q=9 L=13 state=0:1,2:-1,4:1,16:1,40:-1,66:2,92:-2,94:-1,118:-2,\nWITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,22:1,24:-2,46:-1,66:-2,86:1,108:2,\nWITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,22:-1,24:2,46:-1,66:2,86:1,108:-2,\nWITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,22:1,24:2,46:1,66:-2,86:-1,108:-2,\nWITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,22:-1,24:-2,46:1,66:2,86:-1,108:2,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74114742 exact_sign_tests=592917936 low_energy_vectors=139216 product_live_vectors=76354 screen_below=76346 screen_above=8 screen_near=0 fixed_below=76346 fixed_above=8 fixed_unresolved=0 seconds=81.9288\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 13,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73181224 exact_sign_tests=585449792 low_energy_vectors=129428 product_live_vectors=71472 screen_below=71472 screen_above=0 screen_near=0 fixed_below=71472 fixed_above=0 fixed_unresolved=0 seconds=53.187\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 14,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=76095692 exact_sign_tests=608765536 low_energy_vectors=147432 product_live_vectors=79318 screen_below=79318 screen_above=0 screen_near=0 fixed_below=79318 fixed_above=0 fixed_unresolved=0 seconds=82.5589\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 15,
+      "stderr": "",
+      "stdout": "WITNESS E=18 q=6 L=12 state=0:1,2:-1,4:-1,22:1,24:2,46:1,66:-2,108:-2,110:1,\nWITNESS E=18 q=6 L=12 state=0:1,2:1,4:-1,22:1,24:-2,46:-1,66:-2,108:2,110:1,\nWITNESS E=18 q=6 L=12 state=0:1,2:-1,4:-1,22:-1,24:-2,46:1,66:2,108:2,110:-1,\nWITNESS E=18 q=6 L=12 state=0:1,2:1,4:-1,22:-1,24:2,46:-1,66:2,108:-2,110:-1,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72925172 exact_sign_tests=583401376 low_energy_vectors=129198 product_live_vectors=72192 screen_below=72188 screen_above=4 screen_near=0 fixed_below=72188 fixed_above=4 fixed_unresolved=0 seconds=53.2963\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 16,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72486364 exact_sign_tests=579890912 low_energy_vectors=132978 product_live_vectors=73824 screen_below=73824 screen_above=0 screen_near=0 fixed_below=73824 fixed_above=0 fixed_unresolved=0 seconds=52.8419\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 17,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75964652 exact_sign_tests=607717216 low_energy_vectors=141516 product_live_vectors=77666 screen_below=77666 screen_above=0 screen_near=0 fixed_below=77666 fixed_above=0 fixed_unresolved=0 seconds=78.9174\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 18,
+      "stderr": "",
+      "stdout": "WITNESS E=10 q=6 L=8 state=0:1,2:1,4:-1,60:1,62:1,64:-2,66:2,68:1,126:-2,\nWITNESS E=10 q=6 L=8 state=0:1,2:-1,4:-1,60:1,62:-1,64:-2,66:-2,68:1,126:2,\nWITNESS E=10 q=6 L=8 state=0:1,2:-1,4:-1,60:-1,62:1,64:2,66:2,68:-1,126:2,\nWITNESS E=10 q=6 L=8 state=0:1,2:1,4:-1,60:-1,62:-1,64:2,66:-2,68:-1,126:-2,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73380260 exact_sign_tests=587042080 low_energy_vectors=131588 product_live_vectors=71488 screen_below=71484 screen_above=4 screen_near=0 fixed_below=71484 fixed_above=4 fixed_unresolved=0 seconds=53.3575\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 19,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75171144 exact_sign_tests=601369152 low_energy_vectors=143806 product_live_vectors=76796 screen_below=76796 screen_above=0 screen_near=0 fixed_below=76796 fixed_above=0 fixed_unresolved=0 seconds=54.6468\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 20,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73774636 exact_sign_tests=590197088 low_energy_vectors=134216 product_live_vectors=71880 screen_below=71880 screen_above=0 screen_near=0 fixed_below=71880 fixed_above=0 fixed_unresolved=0 seconds=80.9129\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 21,
+      "stderr": "",
+      "stdout": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:1,6:-2,10:1,39:2,41:2,70:-1,74:1,\nWITNESS E=14 q=6 L=10 state=0:1,2:-1,4:1,6:-2,10:1,39:-2,41:-2,70:-1,74:1,\nWITNESS E=14 q=6 L=10 state=0:1,2:1,4:1,6:2,10:-1,39:-2,41:2,70:-1,74:1,\nWITNESS E=14 q=6 L=10 state=0:1,2:1,4:1,6:2,10:-1,39:2,41:-2,70:-1,74:1,\nWITNESS E=14 q=6 L=10 state=0:1,2:-1,4:1,6:-2,10:1,70:1,74:-1,103:2,105:2,\nWITNESS E=14 q=6 L=10 state=0:1,2:-1,4:1,6:-2,10:1,70:1,74:-1,103:-2,105:-2,\nWITNESS E=14 q=6 L=10 state=0:1,2:1,4:1,6:2,10:-1,70:1,74:-1,103:-2,105:2,\nWITNESS E=14 q=6 L=10 state=0:1,2:1,4:1,6:2,10:-1,70:1,74:-1,103:2,105:-2,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74192092 exact_sign_tests=593536736 low_energy_vectors=131010 product_live_vectors=73848 screen_below=73840 screen_above=8 screen_near=0 fixed_below=73840 fixed_above=8 fixed_unresolved=0 seconds=83.2806\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 22,
+      "stderr": "",
+      "stdout": "WITNESS E=8 q=4 L=6 state=0:1,2:-1,4:-1,6:-2,8:-1,64:1,66:-2,68:2,70:1,\nWITNESS E=8 q=4 L=6 state=0:1,2:1,4:-1,6:2,8:-1,64:-1,66:-2,68:-2,70:1,\nWITNESS E=8 q=4 L=6 state=0:1,2:1,4:-1,6:2,8:-1,64:1,66:2,68:2,70:-1,\nWITNESS E=8 q=4 L=6 state=0:1,2:-1,4:-1,6:-2,8:-1,64:-1,66:2,68:-2,70:-1,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=71168380 exact_sign_tests=569347040 low_energy_vectors=129666 product_live_vectors=70158 screen_below=70154 screen_above=4 screen_near=0 fixed_below=70154 fixed_above=4 fixed_unresolved=0 seconds=77.6466\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 23,
+      "stderr": "",
+      "stdout": "WITNESS E=15 q=7 L=11 state=0:1,2:1,4:-1,6:2,8:-2,10:-2,12:-1,20:-1,118:1,\nWITNESS E=15 q=7 L=11 state=0:1,2:-1,4:-1,6:-2,8:-2,10:2,12:-1,20:-1,118:-1,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74474296 exact_sign_tests=595794368 low_energy_vectors=135478 product_live_vectors=74682 screen_below=74680 screen_above=2 screen_near=0 fixed_below=74680 fixed_above=2 fixed_unresolved=0 seconds=96.3473\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 24,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72692798 exact_sign_tests=581542384 low_energy_vectors=139206 product_live_vectors=74006 screen_below=74006 screen_above=0 screen_near=0 fixed_below=74006 fixed_above=0 fixed_unresolved=0 seconds=53.2028\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 25,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74780206 exact_sign_tests=598241648 low_energy_vectors=140184 product_live_vectors=77420 screen_below=77420 screen_above=0 screen_near=0 fixed_below=77420 fixed_above=0 fixed_unresolved=0 seconds=54.3233\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 26,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72597472 exact_sign_tests=580779776 low_energy_vectors=131336 product_live_vectors=74340 screen_below=74340 screen_above=0 screen_near=0 fixed_below=74340 fixed_above=0 fixed_unresolved=0 seconds=79.5397\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 27,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=71826392 exact_sign_tests=574611136 low_energy_vectors=132098 product_live_vectors=70060 screen_below=70060 screen_above=0 screen_near=0 fixed_below=70060 fixed_above=0 fixed_unresolved=0 seconds=80.8863\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 28,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=70269652 exact_sign_tests=562157216 low_energy_vectors=128582 product_live_vectors=74200 screen_below=74200 screen_above=0 screen_near=0 fixed_below=74200 fixed_above=0 fixed_unresolved=0 seconds=79.2622\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 29,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=76856200 exact_sign_tests=614849600 low_energy_vectors=137800 product_live_vectors=78200 screen_below=78200 screen_above=0 screen_near=0 fixed_below=78200 fixed_above=0 fixed_unresolved=0 seconds=55.8344\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 30,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74128884 exact_sign_tests=593031072 low_energy_vectors=137132 product_live_vectors=71524 screen_below=71524 screen_above=0 screen_near=0 fixed_below=71524 fixed_above=0 fixed_unresolved=0 seconds=80.644\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 31,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=70660516 exact_sign_tests=565284128 low_energy_vectors=128718 product_live_vectors=72362 screen_below=72362 screen_above=0 screen_near=0 fixed_below=72362 fixed_above=0 fixed_unresolved=0 seconds=79.5724\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 32,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=69261780 exact_sign_tests=554094240 low_energy_vectors=133200 product_live_vectors=70652 screen_below=70652 screen_above=0 screen_near=0 fixed_below=70652 fixed_above=0 fixed_unresolved=0 seconds=50.6396\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 33,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=70923858 exact_sign_tests=567390864 low_energy_vectors=133934 product_live_vectors=74126 screen_below=74126 screen_above=0 screen_near=0 fixed_below=74126 fixed_above=0 fixed_unresolved=0 seconds=51.9294\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 34,
+      "stderr": "",
+      "stdout": "WITNESS E=16 q=8 L=12 state=0:1,2:1,4:-1,16:1,42:-2,54:1,66:2,80:-1,104:-2,\nWITNESS E=16 q=8 L=12 state=0:1,2:1,4:-1,16:-1,42:2,54:1,66:-2,80:-1,104:-2,\nWITNESS E=16 q=8 L=12 state=0:1,2:-1,4:-1,16:1,42:2,54:-1,66:-2,80:-1,104:-2,\nWITNESS E=16 q=8 L=12 state=0:1,2:-1,4:-1,16:-1,42:-2,54:-1,66:2,80:-1,104:-2,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75944916 exact_sign_tests=607559328 low_energy_vectors=143358 product_live_vectors=76264 screen_below=76260 screen_above=4 screen_near=0 fixed_below=76260 fixed_above=4 fixed_unresolved=0 seconds=55.1201\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 35,
+      "stderr": "",
+      "stdout": "WITNESS E=16 q=4 L=10 state=0:1,2:1,4:1,30:-1,32:2,34:1,94:-2,96:2,98:1,\nWITNESS E=16 q=4 L=10 state=0:1,2:-1,4:1,30:-1,32:-2,34:1,94:-2,96:-2,98:1,\nWITNESS E=16 q=4 L=10 state=0:1,2:1,4:1,30:1,32:-2,34:-1,94:2,96:-2,98:-1,\nWITNESS E=16 q=4 L=10 state=0:1,2:-1,4:1,30:1,32:2,34:-1,94:2,96:2,98:-1,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=78284048 exact_sign_tests=626272384 low_energy_vectors=151436 product_live_vectors=81228 screen_below=81224 screen_above=4 screen_near=0 fixed_below=81224 fixed_above=4 fixed_unresolved=0 seconds=56.9424\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 36,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75978356 exact_sign_tests=607826848 low_energy_vectors=138486 product_live_vectors=76932 screen_below=76932 screen_above=0 screen_near=0 fixed_below=76932 fixed_above=0 fixed_unresolved=0 seconds=82.7342\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 37,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72146556 exact_sign_tests=577172448 low_energy_vectors=134266 product_live_vectors=71598 screen_below=71598 screen_above=0 screen_near=0 fixed_below=71598 fixed_above=0 fixed_unresolved=0 seconds=53.0521\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 38,
+      "stderr": "",
+      "stdout": "WITNESS E=16 q=4 L=10 state=0:1,2:1,4:1,32:1,34:-2,62:1,64:-1,68:2,98:-2,\nWITNESS E=16 q=4 L=10 state=0:1,2:1,4:1,32:-1,34:2,62:1,64:-1,68:2,98:2,\nWITNESS E=16 q=4 L=10 state=0:1,2:-1,4:1,32:1,34:2,62:-1,64:-1,68:2,98:2,\nWITNESS E=16 q=4 L=10 state=0:1,2:-1,4:1,32:-1,34:-2,62:-1,64:-1,68:2,98:-2,\nWITNESS E=13 q=9 L=11 state=0:1,2:1,6:1,24:-1,28:1,46:2,48:-1,68:2,88:2,\nWITNESS E=13 q=9 L=11 state=0:1,2:-1,6:-1,24:-1,28:1,46:-2,48:-1,68:2,88:2,\nWITNESS E=13 q=9 L=11 state=0:1,2:1,6:1,24:1,28:-1,46:2,48:-1,68:-2,88:2,\nWITNESS E=13 q=9 L=11 state=0:1,2:-1,6:-1,24:1,28:-1,46:-2,48:-1,68:-2,88:2,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74979208 exact_sign_tests=599833664 low_energy_vectors=143480 product_live_vectors=77836 screen_below=77828 screen_above=8 screen_near=0 fixed_below=77828 fixed_above=8 fixed_unresolved=0 seconds=54.6653\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 39,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73917700 exact_sign_tests=591341600 low_energy_vectors=130204 product_live_vectors=75176 screen_below=75176 screen_above=0 screen_near=0 fixed_below=75176 fixed_above=0 fixed_unresolved=0 seconds=53.8627\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 40,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=79822216 exact_sign_tests=638577728 low_energy_vectors=150664 product_live_vectors=81912 screen_below=81912 screen_above=0 screen_near=0 fixed_below=81912 fixed_above=0 fixed_unresolved=0 seconds=82.8853\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 41,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73373856 exact_sign_tests=586990848 low_energy_vectors=128530 product_live_vectors=74320 screen_below=74320 screen_above=0 screen_near=0 fixed_below=74320 fixed_above=0 fixed_unresolved=0 seconds=79.9106\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 42,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=71747624 exact_sign_tests=573980992 low_energy_vectors=128884 product_live_vectors=75314 screen_below=75314 screen_above=0 screen_near=0 fixed_below=75314 fixed_above=0 fixed_unresolved=0 seconds=74.7392\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 43,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73154088 exact_sign_tests=585232704 low_energy_vectors=129416 product_live_vectors=73000 screen_below=73000 screen_above=0 screen_near=0 fixed_below=73000 fixed_above=0 fixed_unresolved=0 seconds=79.0895\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 44,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73863744 exact_sign_tests=590909952 low_energy_vectors=134012 product_live_vectors=72318 screen_below=72318 screen_above=0 screen_near=0 fixed_below=72318 fixed_above=0 fixed_unresolved=0 seconds=83.1898\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 45,
+      "stderr": "",
+      "stdout": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,30:1,34:2,64:1,66:2,96:1,100:-2,\nWITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,30:-1,34:-2,64:1,66:-2,96:1,100:-2,\nWITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,30:1,34:2,64:1,66:-2,96:-1,100:2,\nWITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,30:-1,34:-2,64:1,66:2,96:-1,100:2,\nWITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,32:1,36:-2,64:-1,66:-2,94:1,98:2,\nWITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,32:-1,36:2,64:-1,66:2,94:1,98:2,\nWITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,32:1,36:-2,64:-1,66:2,94:-1,98:-2,\nWITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,32:-1,36:2,64:-1,66:-2,94:-1,98:-2,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72735170 exact_sign_tests=581881360 low_energy_vectors=128076 product_live_vectors=75074 screen_below=75066 screen_above=8 screen_near=0 fixed_below=75066 fixed_above=8 fixed_unresolved=0 seconds=82.0244\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 46,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73105952 exact_sign_tests=584847616 low_energy_vectors=134578 product_live_vectors=70912 screen_below=70912 screen_above=0 screen_near=0 fixed_below=70912 fixed_above=0 fixed_unresolved=0 seconds=76.0097\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 47,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74814668 exact_sign_tests=598517344 low_energy_vectors=136922 product_live_vectors=75642 screen_below=75642 screen_above=0 screen_near=0 fixed_below=75642 fixed_above=0 fixed_unresolved=0 seconds=54.6518\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 48,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74774212 exact_sign_tests=598193696 low_energy_vectors=138392 product_live_vectors=76292 screen_below=76292 screen_above=0 screen_near=0 fixed_below=76292 fixed_above=0 fixed_unresolved=0 seconds=54.6275\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 49,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=71789544 exact_sign_tests=574316352 low_energy_vectors=131244 product_live_vectors=73844 screen_below=73844 screen_above=0 screen_near=0 fixed_below=73844 fixed_above=0 fixed_unresolved=0 seconds=78.2488\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 50,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74107348 exact_sign_tests=592858784 low_energy_vectors=138416 product_live_vectors=74526 screen_below=74526 screen_above=0 screen_near=0 fixed_below=74526 fixed_above=0 fixed_unresolved=0 seconds=80.8965\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 51,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72456156 exact_sign_tests=579649248 low_energy_vectors=125722 product_live_vectors=73202 screen_below=73202 screen_above=0 screen_near=0 fixed_below=73202 fixed_above=0 fixed_unresolved=0 seconds=79.1039\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 52,
+      "stderr": "",
+      "stdout": "WITNESS E=15 q=11 L=13 state=0:1,2:-1,6:1,30:-1,54:-2,78:1,80:-2,106:2,108:1,\nWITNESS E=15 q=11 L=13 state=0:1,2:1,6:-1,30:1,54:2,78:-1,80:-2,106:-2,108:1,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75208870 exact_sign_tests=601670960 low_energy_vectors=135526 product_live_vectors=75318 screen_below=75316 screen_above=2 screen_near=0 fixed_below=75316 fixed_above=2 fixed_unresolved=0 seconds=81.8795\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 53,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=75544664 exact_sign_tests=604357312 low_energy_vectors=139478 product_live_vectors=77352 screen_below=77352 screen_above=0 screen_near=0 fixed_below=77352 fixed_above=0 fixed_unresolved=0 seconds=55.3934\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 54,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=77163316 exact_sign_tests=617306528 low_energy_vectors=146310 product_live_vectors=79578 screen_below=79578 screen_above=0 screen_near=0 fixed_below=79578 fixed_above=0 fixed_unresolved=0 seconds=84.2095\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 55,
+      "stderr": "",
+      "stdout": "WITNESS E=12 q=8 L=10 state=0:1,2:1,4:-2,6:-1,10:-1,64:-2,66:1,70:2,76:1,\nWITNESS E=12 q=8 L=10 state=0:1,2:-1,4:-2,6:1,10:1,64:-2,66:-1,70:-2,76:1,\nWITNESS E=12 q=8 L=10 state=0:1,2:-1,4:-2,6:1,10:1,64:2,66:1,70:2,76:-1,\nWITNESS E=12 q=8 L=10 state=0:1,2:1,4:-2,6:-1,10:-1,64:2,66:-1,70:-2,76:-1,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=76450432 exact_sign_tests=611603456 low_energy_vectors=142552 product_live_vectors=79494 screen_below=79490 screen_above=4 screen_near=0 fixed_below=79490 fixed_above=4 fixed_unresolved=0 seconds=83.4862\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 56,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=71085120 exact_sign_tests=568680960 low_energy_vectors=124356 product_live_vectors=74776 screen_below=74776 screen_above=0 screen_near=0 fixed_below=74776 fixed_above=0 fixed_unresolved=0 seconds=78.1885\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 57,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=72567340 exact_sign_tests=580538720 low_energy_vectors=130640 product_live_vectors=70520 screen_below=70520 screen_above=0 screen_near=0 fixed_below=70520 fixed_above=0 fixed_unresolved=0 seconds=79.4358\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 58,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74123976 exact_sign_tests=592991808 low_energy_vectors=132744 product_live_vectors=74114 screen_below=74114 screen_above=0 screen_near=0 fixed_below=74114 fixed_above=0 fixed_unresolved=0 seconds=77.2173\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 59,
+      "stderr": "",
+      "stdout": "WITNESS E=15 q=7 L=11 state=0:1,2:-1,8:-1,16:1,24:2,54:-2,68:-1,78:1,84:-2,\nWITNESS E=15 q=7 L=11 state=0:1,2:1,8:-1,16:1,24:2,54:2,68:-1,78:-1,84:-2,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=73418556 exact_sign_tests=587348448 low_energy_vectors=127276 product_live_vectors=71724 screen_below=71722 screen_above=2 screen_near=0 fixed_below=71722 fixed_above=2 fixed_unresolved=0 seconds=53.6293\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 60,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=76207120 exact_sign_tests=609656960 low_energy_vectors=144816 product_live_vectors=80308 screen_below=80308 screen_above=0 screen_near=0 fixed_below=80308 fixed_above=0 fixed_unresolved=0 seconds=55.7216\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 61,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74858628 exact_sign_tests=598869024 low_energy_vectors=136352 product_live_vectors=78788 screen_below=78788 screen_above=0 screen_near=0 fixed_below=78788 fixed_above=0 fixed_unresolved=0 seconds=65.6111\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 62,
+      "stderr": "",
+      "stdout": "WITNESS E=16 q=8 L=12 state=0:1,2:1,4:2,6:1,32:1,34:-2,96:1,98:-2,124:1,\nWITNESS E=16 q=8 L=12 state=0:1,2:-1,4:2,6:-1,32:1,34:2,96:1,98:2,124:1,\nWITNESS E=16 q=8 L=12 state=0:1,2:1,4:2,6:1,32:-1,34:2,96:-1,98:2,124:1,\nWITNESS E=16 q=8 L=12 state=0:1,2:-1,4:2,6:-1,32:-1,34:-2,96:-1,98:-2,124:1,\nPASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=69134268 exact_sign_tests=553074144 low_energy_vectors=125078 product_live_vectors=71298 screen_below=71294 screen_above=4 screen_near=0 fixed_below=71294 fixed_above=4 fixed_unresolved=0 seconds=75.4422\n"
+    },
+    {
+      "orbits": 70,
+      "returncode": 0,
+      "shard": 63,
+      "stderr": "",
+      "stdout": "PASS orbits=70 triple_syndromes=20666800 distance_tests=661337600 radius_matches=74999732 exact_sign_tests=599997856 low_energy_vectors=140902 product_live_vectors=79000 screen_below=79000 screen_above=0 screen_near=0 fixed_below=79000 fixed_above=0 fixed_unresolved=0 seconds=82.2123\n"
+    }
+  ],
+  "schema": "e1-profile-36-mu6-m64-imprimitive-witness-result-v1",
+  "shards": 64,
+  "witness_count": 110,
+  "witnesses": [
+    {
+      "record": "WITNESS E=13 q=5 L=9 state=0:1,2:1,4:1,6:1,8:1,11:-2,12:-2,13:2,16:1,",
+      "shard": 0
+    },
+    {
+      "record": "WITNESS E=13 q=5 L=9 state=0:1,2:1,4:1,6:1,8:1,11:2,12:-2,13:-2,16:1,",
+      "shard": 0
+    },
+    {
+      "record": "WITNESS E=13 q=5 L=9 state=0:1,2:-1,4:1,6:-1,8:1,12:-2,16:1,75:2,77:2,",
+      "shard": 0
+    },
+    {
+      "record": "WITNESS E=13 q=5 L=9 state=0:1,2:-1,4:1,6:-1,8:1,12:-2,16:1,75:-2,77:-2,",
+      "shard": 0
+    },
+    {
+      "record": "WITNESS E=15 q=11 L=13 state=0:1,2:1,4:1,20:1,44:-2,46:1,64:-2,88:-2,108:1,",
+      "shard": 0
+    },
+    {
+      "record": "WITNESS E=15 q=11 L=13 state=0:1,2:-1,4:1,20:1,44:-2,46:-1,64:-2,88:-2,108:1,",
+      "shard": 0
+    },
+    {
+      "record": "WITNESS E=15 q=11 L=13 state=0:1,2:1,4:1,20:-1,44:-2,46:1,64:2,88:-2,108:-1,",
+      "shard": 0
+    },
+    {
+      "record": "WITNESS E=15 q=11 L=13 state=0:1,2:-1,4:1,20:-1,44:-2,46:-1,64:2,88:-2,108:-1,",
+      "shard": 0
+    },
+    {
+      "record": "WITNESS E=16 q=8 L=12 state=0:1,2:-1,4:1,22:1,24:1,44:-2,46:-2,64:1,66:-2,",
+      "shard": 0
+    },
+    {
+      "record": "WITNESS E=16 q=8 L=12 state=0:1,2:1,4:1,22:-1,24:1,44:-2,46:2,64:1,66:2,",
+      "shard": 0
+    },
+    {
+      "record": "WITNESS E=16 q=8 L=12 state=0:1,2:1,4:1,22:1,24:-1,44:-2,46:2,64:-1,66:-2,",
+      "shard": 0
+    },
+    {
+      "record": "WITNESS E=16 q=8 L=12 state=0:1,2:-1,4:1,22:-1,24:-1,44:-2,46:-2,64:-1,66:2,",
+      "shard": 0
+    },
+    {
+      "record": "WITNESS E=12 q=8 L=10 state=0:1,2:1,4:-2,6:1,32:1,34:2,36:1,64:1,68:-2,",
+      "shard": 6
+    },
+    {
+      "record": "WITNESS E=12 q=8 L=10 state=0:1,2:-1,4:-2,6:-1,32:1,34:-2,36:1,64:1,68:-2,",
+      "shard": 6
+    },
+    {
+      "record": "WITNESS E=12 q=8 L=10 state=0:1,2:1,4:-2,6:1,32:-1,34:-2,36:-1,64:1,68:-2,",
+      "shard": 6
+    },
+    {
+      "record": "WITNESS E=12 q=8 L=10 state=0:1,2:-1,4:-2,6:-1,32:-1,34:2,36:-1,64:1,68:-2,",
+      "shard": 6
+    },
+    {
+      "record": "WITNESS E=12 q=8 L=10 state=0:1,2:-1,4:2,6:1,32:-1,36:1,64:1,68:2,98:-2,",
+      "shard": 6
+    },
+    {
+      "record": "WITNESS E=12 q=8 L=10 state=0:1,2:1,4:2,6:-1,32:-1,36:1,64:1,68:2,98:2,",
+      "shard": 6
+    },
+    {
+      "record": "WITNESS E=12 q=8 L=10 state=0:1,2:-1,4:2,6:1,32:1,36:-1,64:1,68:2,98:2,",
+      "shard": 6
+    },
+    {
+      "record": "WITNESS E=12 q=8 L=10 state=0:1,2:1,4:2,6:-1,32:1,36:-1,64:1,68:2,98:-2,",
+      "shard": 6
+    },
+    {
+      "record": "WITNESS E=13 q=5 L=9 state=0:1,2:-1,4:-1,6:2,8:-2,10:-1,12:-2,14:-1,18:1,",
+      "shard": 7
+    },
+    {
+      "record": "WITNESS E=13 q=5 L=9 state=0:1,2:1,4:-1,6:-2,8:-2,10:1,12:-2,14:1,18:-1,",
+      "shard": 7
+    },
+    {
+      "record": "WITNESS E=17 q=5 L=11 state=0:1,2:-1,4:-1,6:2,10:-1,14:-1,16:2,18:1,20:2,",
+      "shard": 7
+    },
+    {
+      "record": "WITNESS E=17 q=5 L=11 state=0:1,2:1,4:-1,6:-2,10:1,14:1,16:2,18:-1,20:2,",
+      "shard": 7
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,6:1,60:-1,62:-2,66:-2,68:1,126:-2,",
+      "shard": 9
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,6:-1,60:-1,62:2,66:2,68:1,126:2,",
+      "shard": 9
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,6:1,60:1,62:2,66:2,68:-1,126:-2,",
+      "shard": 9
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,6:-1,60:1,62:-2,66:-2,68:-1,126:2,",
+      "shard": 9
+    },
+    {
+      "record": "WITNESS E=12 q=4 L=8 state=0:1,2:1,3:-2,4:-1,6:1,62:-1,66:2,69:2,70:1,",
+      "shard": 10
+    },
+    {
+      "record": "WITNESS E=12 q=4 L=8 state=0:1,2:1,3:2,4:-1,6:1,62:-1,66:2,69:-2,70:1,",
+      "shard": 10
+    },
+    {
+      "record": "WITNESS E=12 q=4 L=8 state=0:1,2:1,3:2,4:-1,6:1,62:1,66:-2,69:2,70:-1,",
+      "shard": 10
+    },
+    {
+      "record": "WITNESS E=12 q=4 L=8 state=0:1,2:1,3:-2,4:-1,6:1,62:1,66:-2,69:-2,70:-1,",
+      "shard": 10
+    },
+    {
+      "record": "WITNESS E=12 q=4 L=8 state=0:1,2:-1,4:-1,5:2,6:-1,62:-1,66:2,67:2,70:1,",
+      "shard": 10
+    },
+    {
+      "record": "WITNESS E=12 q=4 L=8 state=0:1,2:-1,4:-1,5:-2,6:-1,62:-1,66:2,67:-2,70:1,",
+      "shard": 10
+    },
+    {
+      "record": "WITNESS E=12 q=4 L=8 state=0:1,2:-1,4:-1,5:-2,6:-1,62:1,66:-2,67:2,70:-1,",
+      "shard": 10
+    },
+    {
+      "record": "WITNESS E=12 q=4 L=8 state=0:1,2:-1,4:-1,5:2,6:-1,62:1,66:-2,67:-2,70:-1,",
+      "shard": 10
+    },
+    {
+      "record": "WITNESS E=8 q=4 L=6 state=0:1,2:1,4:-1,6:1,62:1,64:2,66:2,68:-2,70:1,",
+      "shard": 10
+    },
+    {
+      "record": "WITNESS E=8 q=4 L=6 state=0:1,2:-1,4:-1,6:-1,62:1,64:-2,66:2,68:2,70:1,",
+      "shard": 10
+    },
+    {
+      "record": "WITNESS E=8 q=4 L=6 state=0:1,2:1,4:-1,6:1,62:-1,64:-2,66:-2,68:2,70:-1,",
+      "shard": 10
+    },
+    {
+      "record": "WITNESS E=8 q=4 L=6 state=0:1,2:-1,4:-1,6:-1,62:-1,64:2,66:-2,68:-2,70:-1,",
+      "shard": 10
+    },
+    {
+      "record": "WITNESS E=15 q=3 L=9 state=0:1,2:1,4:-1,5:2,7:2,8:1,10:-2,14:-1,16:1,",
+      "shard": 11
+    },
+    {
+      "record": "WITNESS E=15 q=3 L=9 state=0:1,2:1,4:-1,5:-2,7:-2,8:1,10:-2,14:-1,16:1,",
+      "shard": 11
+    },
+    {
+      "record": "WITNESS E=15 q=3 L=9 state=0:1,2:-1,4:-1,8:1,10:2,14:1,16:1,69:-2,71:2,",
+      "shard": 11
+    },
+    {
+      "record": "WITNESS E=15 q=3 L=9 state=0:1,2:-1,4:-1,8:1,10:2,14:1,16:1,69:2,71:-2,",
+      "shard": 11
+    },
+    {
+      "record": "WITNESS E=17 q=9 L=13 state=0:1,2:-1,4:1,16:-1,40:1,66:-2,92:2,94:1,118:2,",
+      "shard": 12
+    },
+    {
+      "record": "WITNESS E=17 q=9 L=13 state=0:1,2:1,4:1,16:1,40:-1,66:-2,92:-2,94:1,118:2,",
+      "shard": 12
+    },
+    {
+      "record": "WITNESS E=17 q=9 L=13 state=0:1,2:1,4:1,16:-1,40:1,66:2,92:2,94:-1,118:-2,",
+      "shard": 12
+    },
+    {
+      "record": "WITNESS E=17 q=9 L=13 state=0:1,2:-1,4:1,16:1,40:-1,66:2,92:-2,94:-1,118:-2,",
+      "shard": 12
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,22:1,24:-2,46:-1,66:-2,86:1,108:2,",
+      "shard": 12
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,22:-1,24:2,46:-1,66:2,86:1,108:-2,",
+      "shard": 12
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,22:1,24:2,46:1,66:-2,86:-1,108:-2,",
+      "shard": 12
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,22:-1,24:-2,46:1,66:2,86:-1,108:2,",
+      "shard": 12
+    },
+    {
+      "record": "WITNESS E=18 q=6 L=12 state=0:1,2:-1,4:-1,22:1,24:2,46:1,66:-2,108:-2,110:1,",
+      "shard": 15
+    },
+    {
+      "record": "WITNESS E=18 q=6 L=12 state=0:1,2:1,4:-1,22:1,24:-2,46:-1,66:-2,108:2,110:1,",
+      "shard": 15
+    },
+    {
+      "record": "WITNESS E=18 q=6 L=12 state=0:1,2:-1,4:-1,22:-1,24:-2,46:1,66:2,108:2,110:-1,",
+      "shard": 15
+    },
+    {
+      "record": "WITNESS E=18 q=6 L=12 state=0:1,2:1,4:-1,22:-1,24:2,46:-1,66:2,108:-2,110:-1,",
+      "shard": 15
+    },
+    {
+      "record": "WITNESS E=10 q=6 L=8 state=0:1,2:1,4:-1,60:1,62:1,64:-2,66:2,68:1,126:-2,",
+      "shard": 18
+    },
+    {
+      "record": "WITNESS E=10 q=6 L=8 state=0:1,2:-1,4:-1,60:1,62:-1,64:-2,66:-2,68:1,126:2,",
+      "shard": 18
+    },
+    {
+      "record": "WITNESS E=10 q=6 L=8 state=0:1,2:-1,4:-1,60:-1,62:1,64:2,66:2,68:-1,126:2,",
+      "shard": 18
+    },
+    {
+      "record": "WITNESS E=10 q=6 L=8 state=0:1,2:1,4:-1,60:-1,62:-1,64:2,66:-2,68:-1,126:-2,",
+      "shard": 18
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:1,6:-2,10:1,39:2,41:2,70:-1,74:1,",
+      "shard": 21
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:1,6:-2,10:1,39:-2,41:-2,70:-1,74:1,",
+      "shard": 21
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:1,4:1,6:2,10:-1,39:-2,41:2,70:-1,74:1,",
+      "shard": 21
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:1,4:1,6:2,10:-1,39:2,41:-2,70:-1,74:1,",
+      "shard": 21
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:1,6:-2,10:1,70:1,74:-1,103:2,105:2,",
+      "shard": 21
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:1,6:-2,10:1,70:1,74:-1,103:-2,105:-2,",
+      "shard": 21
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:1,4:1,6:2,10:-1,70:1,74:-1,103:-2,105:2,",
+      "shard": 21
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:1,4:1,6:2,10:-1,70:1,74:-1,103:2,105:-2,",
+      "shard": 21
+    },
+    {
+      "record": "WITNESS E=8 q=4 L=6 state=0:1,2:-1,4:-1,6:-2,8:-1,64:1,66:-2,68:2,70:1,",
+      "shard": 22
+    },
+    {
+      "record": "WITNESS E=8 q=4 L=6 state=0:1,2:1,4:-1,6:2,8:-1,64:-1,66:-2,68:-2,70:1,",
+      "shard": 22
+    },
+    {
+      "record": "WITNESS E=8 q=4 L=6 state=0:1,2:1,4:-1,6:2,8:-1,64:1,66:2,68:2,70:-1,",
+      "shard": 22
+    },
+    {
+      "record": "WITNESS E=8 q=4 L=6 state=0:1,2:-1,4:-1,6:-2,8:-1,64:-1,66:2,68:-2,70:-1,",
+      "shard": 22
+    },
+    {
+      "record": "WITNESS E=15 q=7 L=11 state=0:1,2:1,4:-1,6:2,8:-2,10:-2,12:-1,20:-1,118:1,",
+      "shard": 23
+    },
+    {
+      "record": "WITNESS E=15 q=7 L=11 state=0:1,2:-1,4:-1,6:-2,8:-2,10:2,12:-1,20:-1,118:-1,",
+      "shard": 23
+    },
+    {
+      "record": "WITNESS E=16 q=8 L=12 state=0:1,2:1,4:-1,16:1,42:-2,54:1,66:2,80:-1,104:-2,",
+      "shard": 34
+    },
+    {
+      "record": "WITNESS E=16 q=8 L=12 state=0:1,2:1,4:-1,16:-1,42:2,54:1,66:-2,80:-1,104:-2,",
+      "shard": 34
+    },
+    {
+      "record": "WITNESS E=16 q=8 L=12 state=0:1,2:-1,4:-1,16:1,42:2,54:-1,66:-2,80:-1,104:-2,",
+      "shard": 34
+    },
+    {
+      "record": "WITNESS E=16 q=8 L=12 state=0:1,2:-1,4:-1,16:-1,42:-2,54:-1,66:2,80:-1,104:-2,",
+      "shard": 34
+    },
+    {
+      "record": "WITNESS E=16 q=4 L=10 state=0:1,2:1,4:1,30:-1,32:2,34:1,94:-2,96:2,98:1,",
+      "shard": 35
+    },
+    {
+      "record": "WITNESS E=16 q=4 L=10 state=0:1,2:-1,4:1,30:-1,32:-2,34:1,94:-2,96:-2,98:1,",
+      "shard": 35
+    },
+    {
+      "record": "WITNESS E=16 q=4 L=10 state=0:1,2:1,4:1,30:1,32:-2,34:-1,94:2,96:-2,98:-1,",
+      "shard": 35
+    },
+    {
+      "record": "WITNESS E=16 q=4 L=10 state=0:1,2:-1,4:1,30:1,32:2,34:-1,94:2,96:2,98:-1,",
+      "shard": 35
+    },
+    {
+      "record": "WITNESS E=16 q=4 L=10 state=0:1,2:1,4:1,32:1,34:-2,62:1,64:-1,68:2,98:-2,",
+      "shard": 38
+    },
+    {
+      "record": "WITNESS E=16 q=4 L=10 state=0:1,2:1,4:1,32:-1,34:2,62:1,64:-1,68:2,98:2,",
+      "shard": 38
+    },
+    {
+      "record": "WITNESS E=16 q=4 L=10 state=0:1,2:-1,4:1,32:1,34:2,62:-1,64:-1,68:2,98:2,",
+      "shard": 38
+    },
+    {
+      "record": "WITNESS E=16 q=4 L=10 state=0:1,2:-1,4:1,32:-1,34:-2,62:-1,64:-1,68:2,98:-2,",
+      "shard": 38
+    },
+    {
+      "record": "WITNESS E=13 q=9 L=11 state=0:1,2:1,6:1,24:-1,28:1,46:2,48:-1,68:2,88:2,",
+      "shard": 38
+    },
+    {
+      "record": "WITNESS E=13 q=9 L=11 state=0:1,2:-1,6:-1,24:-1,28:1,46:-2,48:-1,68:2,88:2,",
+      "shard": 38
+    },
+    {
+      "record": "WITNESS E=13 q=9 L=11 state=0:1,2:1,6:1,24:1,28:-1,46:2,48:-1,68:-2,88:2,",
+      "shard": 38
+    },
+    {
+      "record": "WITNESS E=13 q=9 L=11 state=0:1,2:-1,6:-1,24:1,28:-1,46:-2,48:-1,68:-2,88:2,",
+      "shard": 38
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,30:1,34:2,64:1,66:2,96:1,100:-2,",
+      "shard": 45
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,30:-1,34:-2,64:1,66:-2,96:1,100:-2,",
+      "shard": 45
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,30:1,34:2,64:1,66:-2,96:-1,100:2,",
+      "shard": 45
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,30:-1,34:-2,64:1,66:2,96:-1,100:2,",
+      "shard": 45
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,32:1,36:-2,64:-1,66:-2,94:1,98:2,",
+      "shard": 45
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,32:-1,36:2,64:-1,66:2,94:1,98:2,",
+      "shard": 45
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:1,4:-1,32:1,36:-2,64:-1,66:2,94:-1,98:-2,",
+      "shard": 45
+    },
+    {
+      "record": "WITNESS E=14 q=6 L=10 state=0:1,2:-1,4:-1,32:-1,36:2,64:-1,66:-2,94:-1,98:-2,",
+      "shard": 45
+    },
+    {
+      "record": "WITNESS E=15 q=11 L=13 state=0:1,2:-1,6:1,30:-1,54:-2,78:1,80:-2,106:2,108:1,",
+      "shard": 52
+    },
+    {
+      "record": "WITNESS E=15 q=11 L=13 state=0:1,2:1,6:-1,30:1,54:2,78:-1,80:-2,106:-2,108:1,",
+      "shard": 52
+    },
+    {
+      "record": "WITNESS E=12 q=8 L=10 state=0:1,2:1,4:-2,6:-1,10:-1,64:-2,66:1,70:2,76:1,",
+      "shard": 55
+    },
+    {
+      "record": "WITNESS E=12 q=8 L=10 state=0:1,2:-1,4:-2,6:1,10:1,64:-2,66:-1,70:-2,76:1,",
+      "shard": 55
+    },
+    {
+      "record": "WITNESS E=12 q=8 L=10 state=0:1,2:-1,4:-2,6:1,10:1,64:2,66:1,70:2,76:-1,",
+      "shard": 55
+    },
+    {
+      "record": "WITNESS E=12 q=8 L=10 state=0:1,2:1,4:-2,6:-1,10:-1,64:2,66:-1,70:-2,76:-1,",
+      "shard": 55
+    },
+    {
+      "record": "WITNESS E=15 q=7 L=11 state=0:1,2:-1,8:-1,16:1,24:2,54:-2,68:-1,78:1,84:-2,",
+      "shard": 59
+    },
+    {
+      "record": "WITNESS E=15 q=7 L=11 state=0:1,2:1,8:-1,16:1,24:2,54:2,68:-1,78:-1,84:-2,",
+      "shard": 59
+    },
+    {
+      "record": "WITNESS E=16 q=8 L=12 state=0:1,2:1,4:2,6:1,32:1,34:-2,96:1,98:-2,124:1,",
+      "shard": 62
+    },
+    {
+      "record": "WITNESS E=16 q=8 L=12 state=0:1,2:-1,4:2,6:-1,32:1,34:2,96:1,98:2,124:1,",
+      "shard": 62
+    },
+    {
+      "record": "WITNESS E=16 q=8 L=12 state=0:1,2:1,4:2,6:1,32:-1,34:2,96:-1,98:2,124:1,",
+      "shard": 62
+    },
+    {
+      "record": "WITNESS E=16 q=8 L=12 state=0:1,2:-1,4:2,6:-1,32:-1,34:-2,96:-1,98:-2,124:1,",
+      "shard": 62
+    }
+  ]
+}

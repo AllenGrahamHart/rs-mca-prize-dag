@@ -1,0 +1,13 @@
+{
+  "audit": "python-flint-arb-256-bit",
+  "bits": 48,
+  "checks": 16384,
+  "complete": true,
+  "generator": "mpmath-100-decimal",
+  "header_sha256": "0bdcada03187b219ccd74d0b89bba87fe26c6d61b8f25df15aa612be5fd9d5cc",
+  "positions": 128,
+  "roots": 64,
+  "scaled_component_error_lt": 1,
+  "schema": "e1-profile-36-mu6-m64-fixed-roots-v1",
+  "source_sha256": "042e3a8c002c8c6d4a0402903383dbce64106a4bf5f740c41f3a68c8d1a6c14c"
+}
