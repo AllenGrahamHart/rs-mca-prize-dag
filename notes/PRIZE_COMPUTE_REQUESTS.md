@@ -10132,6 +10132,12 @@ proof-producing certificate is worth engineering.
 **Priority:** high. **Local execution:** forbidden. **Expected Modal cost:**
 well below `$1` for the energy-four stage.
 
+This is now serial-path compute, not merely optional profile-`(2,10)` slack.
+The proved `e1_profile114_split_prime_payment_router` shows that an empty
+certificate removes cofactor `1028` for profile `(1,14,S=18)`, reduces that
+profile to 35,328 oriented vectors below its 39,193 cap, and advances the E1
+ledger to `(0,18,S=18)` with cap 3,994.
+
 The proved route originally left `m=1028=4*257` at autocorrelation energies
 `E in {2,3,4,5,6}`. Exact small screens showed:
 

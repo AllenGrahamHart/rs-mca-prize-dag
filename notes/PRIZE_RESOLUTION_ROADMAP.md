@@ -9063,3 +9063,21 @@ This charge includes all 128 possible `514` ideals and all 128 possible
 on the serial path. The active E1 frontier is now the local cofactor and
 prime-ideal partition for `(1,14,S=18)`; retain the exact aggregate residual
 across every later profile.
+
+**2026-07-29, profile-(1,14) split-prime payment router:** the new active
+profile inherits the square-mass-18 cofactor machinery, and the serial
+obligation collapses to the queued energy-four certificate.
+
+```text
+coarse cofactors / orbits:           13 / 394
+after profile-invariant m=1538:      266 orbits
+m=1028 after analytic/exact leaves:  E=4 only
+if E=4 is empty:                     138 orbits, 35328 vectors
+current oriented cap:                39193
+triggered next profile/cap:          (0,18,S=18) / 3994
+```
+
+The transport is legitimate because the consumed norm proofs depend on
+square mass, local valuation, and autocorrelation, not on the split
+`18=4a+b`. The revised one-container CRT job is therefore serial-path compute.
+Do not spend serial effort finishing cofactor `514` before this certificate.

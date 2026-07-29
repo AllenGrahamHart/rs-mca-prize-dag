@@ -3376,6 +3376,24 @@
    "notes": "EXACT PROFILE-(2,10) PAYMENT 2026-07-29: the ledger charges all 266 possible ideal families, including every still-open 514 and 1028 family. The weighted frontier advances unconditionally to (1,14,S=18); the unfinished split-cofactor work is optional slack. No E1 close or Prize movement."
   },
   {
+   "id": "e1_profile114_split_prime_payment_router",
+   "title": "E1 profile-(1,14) split-prime payment router",
+   "status": "PROVED",
+   "closure": "local cofactor census, profile-invariant norm transport, and exact payment trigger",
+   "refs": [
+    "background/nodes/e1_profile114_split_prime_payment_router/statement.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/proof.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/claim_contract.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/dependency_subdag.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/audit.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/result.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/frontier.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/verify.py"
+   ],
+   "statement": "Profile (1,14,S=18) has the same thirteen cofactors, at most 266 ideal orbits after the profile-invariant cofactor-1538 exclusion, and cofactor 1028 only at energy four. Exact emptiness of the queued 8385-type energy-four certificate would leave 138 orbits and 35328 oriented vectors, pay the profile under cap 39193, and advance to (0,18,S=18) with cap 3994.",
+   "notes": "SERIAL PAYMENT TRIGGER 2026-07-29: all transport and payment arithmetic is proved, but the node does not assert the energy-four certificate empty. The single-container CRT job is now the cheapest serial E1 obligation. Cofactor-514 work is optional before that trigger; no E1 close or Prize movement."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -40438,6 +40456,46 @@
   },
   {
    "from": "e1_profile210_exact_weighted_payment",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_exact_weighted_payment",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1538_collision_exclusion",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy2_log_exclusion",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy3_modular_norm_exclusion",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy56_log_exclusion",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile114_split_prime_payment_router",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }
