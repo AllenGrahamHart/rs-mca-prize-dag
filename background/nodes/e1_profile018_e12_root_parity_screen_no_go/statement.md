@@ -23,7 +23,17 @@ Then:
 4. `Y(exp(i theta))>=4` for every real `theta`; and
 5. its exact cubic relation index is `K=378`.
 
+Its exact real-cyclotomic norm is
+
+```text
+41935541092226372874956803950285349034303208235991339945900329155204479015326718
+```
+
+and division by 514 lies strictly below `p_min`. Thus exact norm rejects this
+particular target even though every preceding autocorrelation-level screen
+accepts it.
+
 This is an autocorrelation-level witness only. It is not asserted to be the
-autocorrelation of an 18-singleton integral polynomial, and it supplies no
-official exact norm. Coefficient realization is therefore a genuinely
-necessary next gate.
+autocorrelation of an 18-singleton integral polynomial. The next selective
+gate must be coefficient realization or exact norm, not another combination
+of the four preceding screens.

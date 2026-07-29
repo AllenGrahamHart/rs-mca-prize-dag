@@ -7,4 +7,6 @@
   conjugates is used.
 - The cubic index is replayed both by direct ordered triples and by the
   independent additive-relation formula in the verifier.
-- No coefficient realization or exact norm is claimed.
+- SymPy's exact subresultant engine replays the degree-128 resultant in well
+  under one second; reciprocal pairing is checked by an exact integer square.
+- No coefficient realization is claimed.

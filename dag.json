@@ -21198,7 +21198,7 @@
    "title": "E1 profile-(0,18) energy-12 root/parity screen no-go",
    "status": "PROVED",
    "closure": "explicit positive autocorrelation witness",
-   "statement": "The all-unit lag set {1,...,11,15} has energy 12, exact parity multiplicity two, a primitive root 148 modulo 257, a uniform positive conjugate-square floor four, and cubic index 378. Thus the autocorrelation/root/parity/positivity screen is nonempty before coefficient realization.",
+   "statement": "The all-unit lag set {1,...,11,15} has energy 12, exact parity multiplicity two, a primitive root 148 modulo 257, a uniform positive conjugate-square floor four, and cubic index 378. Thus the autocorrelation/root/parity/positivity screen is nonempty. Its exact norm quotient by 514 is below the official floor.",
    "refs": [
     "background/nodes/e1_profile018_e12_root_parity_screen_no_go/statement.md",
     "background/nodes/e1_profile018_e12_root_parity_screen_no_go/proof.md",
@@ -21209,7 +21209,7 @@
     "background/nodes/e1_profile018_e12_root_parity_screen_no_go/frontier.md",
     "background/nodes/e1_profile018_e12_root_parity_screen_no_go/verify.py"
    ],
-   "notes": "ROUTE CUT 2026-07-29: this is a signed autocorrelation target, not an 18-singleton spectral factor or an official exact norm. It forces the next attack onto coefficient realization."
+   "notes": "ROUTE CUT 2026-07-29: this is a signed autocorrelation target, not an 18-singleton spectral factor. Its exact resultant shows that norm is selective even though the preceding necessary screens are not."
   }
  ],
  "edges": [

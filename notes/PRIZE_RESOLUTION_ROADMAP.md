@@ -9241,7 +9241,13 @@ cubic relation index:               K=378
 ```
 
 survives energy, local parity, factor-257, positivity, and cubic-moment
-checks. This is not an 18-singleton coefficient realization and has no
-official exact-norm claim. It proves that the first genuinely selective gate
-is now integral singleton spectral-factor realization; exact norm grouping
-comes only after that gate.
+checks. Its exact real-cyclotomic norm is divisible by 514, but the quotient
+
+```text
+81586655821452087305363431809893675164014023805430622462841107305845289913087
+```
+
+is below `p_min`. This is not an 18-singleton coefficient realization. The
+example proves that the first genuinely selective gates are integral
+singleton spectral-factor realization and exact norm; either may be applied
+first when the candidate representation makes it cheaper.

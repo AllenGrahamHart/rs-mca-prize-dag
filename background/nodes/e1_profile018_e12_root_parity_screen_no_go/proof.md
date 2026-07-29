@@ -68,6 +68,31 @@ sum `0` and `+/-128` gives
 K=#_signed{a+b+c=0}-#_signed{a+b+c=+/-128}=378.     (5)
 ```
 
+For an exact norm replay, clear the negative exponents by putting
+
+```text
+Q(X)=X^15 Y(X).
+```
+
+Multiplication by `X^15` has absolute norm one at the roots of
+`X^128+1`. Reciprocal pairing gives
+
+```text
+Res_X(X^128+1,Q(X))=N^2,
+
+N=41935541092226372874956803950285349034303208235991339945900329155204479015326718.
+                                                               (6)
+```
+
+Exact integer division gives
+
+```text
+N/514
+=81586655821452087305363431809893675164014023805430622462841107305845289913087
+<p_min.                                                       (7)
+```
+
 Equations `(1)--(5)` prove that the complete
 energy/parity/root/positivity screen is nonempty. They do not construct a
-singleton spectral factor or compute an official norm. QED.
+singleton spectral factor. Equations `(6)--(7)` show that exact norm, unlike
+the preceding screens, rejects this witness. QED.

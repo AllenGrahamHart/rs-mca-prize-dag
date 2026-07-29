@@ -7,6 +7,8 @@ from math import comb, gcd
 import json
 from pathlib import Path
 
+import sympy
+
 
 ROOT = Path(__file__).resolve().parents[3]
 NODE = "e1_profile018_e12_root_parity_screen_no_go"
@@ -22,6 +24,11 @@ MODULUS = 257
 GENERATOR = 3
 ROOT_EXPONENT = 59
 LAGS = tuple(range(1, 12)) + (15,)
+EXPECTED_NORM = int(
+    "41935541092226372874956803950285349034303208235991339945900329155204479015326718"
+)
+B_PRIZE = 317494674775468773183020924238786383963
+P_MIN = B_PRIZE * 2**128
 
 
 def cubic_index_direct() -> int:
@@ -84,12 +91,21 @@ def main() -> None:
     assert cubic_index_direct() == 378
     assert cubic_index_by_relations() == 378
 
+    variable = sympy.symbols("X")
+    cleared = 18 * variable**15 + sum(
+        variable ** (15 + lag) + variable ** (15 - lag) for lag in LAGS
+    )
+    resultant = int(sympy.resultant(variable**128 + 1, cleared, variable))
+    assert resultant == EXPECTED_NORM**2
+    assert EXPECTED_NORM % 514 == 0
+    assert EXPECTED_NORM // 514 < P_MIN
+
     node_dir = ROOT / "background/nodes" / NODE
     statement = (node_dir / "statement.md").read_text()
     proof = (node_dir / "proof.md").read_text()
-    for text in ("{1,2,...,11,15}", "s=148", "K=378"):
+    for text in ("{1,2,...,11,15}", "s=148", "K=378", str(EXPECTED_NORM)):
         assert text in statement
-    for text in ("Fejer", "239=-18", "=4"):
+    for text in ("Fejer", "239=-18", "=4", str(EXPECTED_NORM // 514)):
         assert text in proof
 
     dag = json.loads((ROOT / "dag.json").read_text())
@@ -105,7 +121,8 @@ def main() -> None:
 
     print(
         "E1_PROFILE018_E12_ROOT_PARITY_SCREEN_NO_GO_PASS "
-        "lags=12 root=148 multiplicity=2 positivity_floor=4 cubic_index=378"
+        "lags=12 root=148 multiplicity=2 positivity_floor=4 cubic_index=378 "
+        f"norm_quotient={EXPECTED_NORM // 514} verdict=below"
     )
 
 
