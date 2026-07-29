@@ -912,3 +912,16 @@
   algebra, not a critical close. Even ownership of the complete `t=p`
   residual only advances the generic packing width to `p+1`; wider exchanges
   and the Toeplitz/Pade or aggregate first-owner payment remain live.
+
+- On the global balanced-pencil route, consume
+  `l1_balanced_pencil_anchor_determinant_atlas` before opening another
+  fixed-support chart. Fix one exact anchor and use
+  `Delta_0=A_0B-B_0A` as the complete affine coefficient coordinate. Recover
+  the common complement canonically as `gcd(Delta_0,W_0)`. At deficiency
+  `j`, apply the printed projective-dimension-at-most-`j+1` root-matroid
+  ceiling to each fixed owner; `j=0` is already the one-parameter
+  moving-root theorem. Do not advertise this as a global payment: summing
+  independently over all common-complement divisors retains an exponential
+  factor. The next theorem must coalesce those owners, prove a reserve-sized
+  realized owner image, or route growing `j` to an earlier Q/tangent/prefix
+  class.

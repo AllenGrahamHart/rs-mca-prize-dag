@@ -8606,3 +8606,34 @@ next route-deciding action: derive certified exponent bounds and combine
                               them with exact sparse multiplication before
                               proposing any lattice enumeration
 ```
+
+**2026-07-29, L1 balanced-pencil anchor determinant atlas:** the global
+primitive exact shell now has an exact list-side bridge to the BC
+split-pencil hierarchy.
+
+```text
+node proved: l1_balanced_pencil_anchor_determinant_atlas
+fixed-anchor coordinate:
+  Delta_0=A_0B-B_0A is an affine bijection from the monic balanced
+  coefficient body to F[Z]_(<=s-1)
+exact owner recovery:
+  Delta_0=(D/gamma)R
+  D=gcd(W_0,W)=gcd(Delta_0,W_0)
+  j=s-1-deg D=k-1-deg G, h=w+1+j, deg R<=j
+fixed-D payment:
+  neighbor quotients lie in projective dimension r<=j+1
+  root-matroid bases give
+    |C_D|<=floor(C(m,r)/(h-r+1))
+  j=0 specializes to floor(m/(w+1)), the one-pencil moving-root cap
+route verdict:
+  coefficient multiplicity, owner ambiguity, and fixed-owner split
+  multiplicity are closed exactly
+  the live theorem is aggregate coalescence across D and growing j
+scope fence:
+  the number C(omega,s-1-j) of possible D owners can be exponential;
+  no row reserve, L1 status, or Prize status movement
+compute spend: none; exact module determinant and matroid proof
+next route-deciding action: seek a received-word/Pade priority map that
+                              coalesces determinant owners across D, or a
+                              route cut proving such coalescence impossible
+```

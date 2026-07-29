@@ -1285,3 +1285,36 @@ and `16,32,48` at `m=16`. Their parameter elimination remains open.
 These theorems concern only the `t=p` first-checkpoint endpoint. They do not
 pay wider exchanges, the primitive coprime split-pencil census, or the full
 L1 exact shell, so this node remains TARGET.
+
+## BALANCED-PENCIL ANCHOR DETERMINANT ATLAS (2026-07-29)
+
+`l1_balanced_pencil_anchor_determinant_atlas` supplies an exact global bridge
+from the primitive balanced split-pencil residual to Przemek's BC hierarchy.
+After fixing one exact anchor, the coefficient determinant
+
+```text
+Delta_0=A_0B-B_0A
+```
+
+is an affine coordinate on the complete degree-capped coefficient body. For
+every neighbor it satisfies
+
+```text
+Delta_0=(gcd(W_0,W)/gamma)((P-P_0)/G),
+gcd(Delta_0,W_0)=gcd(W_0,W),
+```
+
+where `G` is the common agreement locator. At common-agreement deficiency
+`j`, fixing the recovered common complement puts every neighbor in a split
+linear system of projective dimension at most `j+1`. A root-matroid basis
+injection gives the exact per-owner ceiling
+
+```text
+floor(binom(m,r)/(w+j-r+2)),       1<=r<=j+1.
+```
+
+The `j=0` chamber is precisely a paid one-parameter moving-root pencil. This
+does not promote L1: the possible common-complement owners can be
+exponentially numerous, and growing `j` remains unaggregated. The missing
+theorem is now an owner coalescence/priority map across these determinant
+charts, not a fixed-chart split count.
