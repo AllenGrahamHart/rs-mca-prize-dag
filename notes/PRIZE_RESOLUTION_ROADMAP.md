@@ -7513,3 +7513,32 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: factor or eliminate the small pair
                               (F_b,Theta_*) with proof-producing evidence
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` generic q-quotient router:** the
+degree-six compatibility polynomial now reduces modulo the quadratic conic
+endpoint.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router
+quadratic coefficients:
+  F_b=a_2q^2+a_1q+a_0
+cleared power recurrence:
+  a_2^(j-1)q^j=u_jq+v_j mod F_b, 2<=j<=6
+affine remainder:
+  a_2^5Theta_*=R_1(b)q+R_0(b) mod F_b
+generic chart:
+  q=-R_0/R_1
+  U(b)=a_2R_0^2-a_1R_0R_1+a_0R_1^2=0
+singular affine-remainder chart:
+  R_1=R_0=0 with F_b retained
+leading-coefficient chart:
+  b^2=1575/247, q=-10(b^2+27)/231, Theta_*=0
+degree ledger:
+  deg_b(R_1)<=26, deg_b(R_0)<=28, deg_b(U)<=58
+scope fence: no nonzero-resultant or root verdict; all structural, role, P_4,
+             and arithmetic-lift equations remain
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: obtain a proof-producing factorization of U and
+                              the gcd content of (R_1,R_0)
+```
