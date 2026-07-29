@@ -5535,6 +5535,46 @@ next route-deciding action:
 compute spend: none; finite arithmetic replayed locally under RAMguard
 ```
 
+**2026-07-29, upstream PR #1131 rank/transverse harvest:** the next stacked
+packet compiles all six source profiles and proves that the actual quartic
+cannot remain inside a terminal inner fiber. It identifies the precise
+source-coupled outer theorem now required.
+
+```text
+upstream PR: https://github.com/przchojecki/rs-mca/pull/1131
+head: e287c54252c7872e1745c7594cfef62b74a65cf5
+parent: a14a05d9ba80068133e93e2fa77d6d1dc8828829
+theorem blob: b4a69440c518f22189ec2060cb3a3a500a23e724
+certificate blob: 5c16c7884b349d7e474b8dfc1267ab357ef0d477
+payload SHA-256: 6d4bc83e40e491f02f7d265b021628ffb7d52b1978c0655f83e5a9d3e0a9f4bb
+local node: rate_half_kb_source_pencil_rank_transverse_compiler [PROVED]
+per-record source templates: 32099; explicitly not a global endpoint census
+exact compiler:
+  source rank two
+  active symmetric-power membership
+  special degree-12 49x5 rank-five / 44-syndrome gate
+same-fiber route:
+  strict proper right factors first
+  primitive degrees 2,3,4,6,10,12 have no subdegree four
+  terminal bidegree-(4,4) component cannot lie in h(T)=h(W)
+transverse terminal:
+  delta*r=4m, delta<=m^2, r<=60/m-1
+  26 exact (m,r,delta) types
+route fence:
+  source/active divisor controls survive for indecomposable m=2,3
+  another source-only rank calculation cannot close the branch
+ledger movement: zero
+nonclaims:
+  no global endpoint census, transverse-row deletion, actual-component
+  realization of controls, carrier bridge, owner, charge, u2 close, cap 68,
+  adjacent certificate, endpoint movement, or row close
+next route-deciding action:
+  impose the inherited quartic/source-star incidence on the 26 transverse
+  rows and terminate each by contradiction, strict coarser decomposition,
+  or chronology-valid carrier/data/slope ownership
+compute spend: none; exact integer replays only under RAMguard
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

@@ -76,6 +76,23 @@ parameter line to the evaluation carrier. None of the structural cuts moves
 the owner ledger, proves `u=2` empty, establishes cap `68`, or closes the
 KoalaBear row. The parameter line and carrier remain distinct.
 
+Upstream PR `#1131`, replayed in the PROVED rank/transverse compiler, removes
+the same-inner-fiber branch after strict right-factor routing. The six source
+profiles have 32,099 canonical templates per supplied endpoint record, with
+exact rank and active-syndrome gates; this is not a global endpoint census.
+Every terminal actual quartic is transverse and satisfies
+
+```text
+delta*r=4m,       delta<=m^2,       r<=60/m-1.
+```
+
+There are 26 resulting `(m,r,delta)` types. Exact controls show that
+source/active divisor gates alone genuinely admit indecomposable degree-two
+and degree-three pencils, so further source-only rank work cannot close the
+branch. The next theorem must impose the actual quartic/source-star incidence
+on the 26 transverse types and terminate each in contradiction, a strict
+coarser decomposition, or a chronology-valid carrier/data/slope owner.
+
 ## Banked range
 
 Put
