@@ -8750,3 +8750,28 @@ compute spend: none; verifier runs under one second with tiny RAM
 next route-deciding action: derive support propagation or a coefficient
                               recurrence from the two sparse product equations
 ```
+
+**2026-07-29, E1 exact-L1 route probe prepared; Modal launch blocked:** the
+stronger height shortcut is now a concrete finite optimization problem, but it
+has produced no numerical evidence and no theorem.
+
+```text
+launcher: experiments/prize_resolution/e1_conductor256_l1_svp_modal.py
+problem:
+  minimize ||T xi||_1 over nonzero zero-sum xi in Z^64
+  -7<=xi_t<=7, with cyclic/sign symmetry fixed exactly
+resource cap:
+  one container, 2 CPU, 2 GiB, 240 solver seconds, 280 hard seconds
+proof status:
+  exploratory floating MILP only; every claimed lower bound needs a separate
+  rational proof certificate
+route payoff:
+  optimum >77.202 would make fixed-cofactor associates torsion-only;
+  a vector <=77.202 would redirect work to exact sparse products
+launch outcome:
+  no container started and no credit spent;
+  workspace ac-WIsI8fedhlHGSBu0g8EiyG reported exceeded spend limit
+next action:
+  run this one pilot only after the workspace is enabled; do not expand it
+  into a fleet
+```

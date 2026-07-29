@@ -10077,3 +10077,47 @@ early pruning independent of floating point. PASS of
 the eventual enumeration requires a complete torsion-orbit count across
 `mu=1,2,3,4` and comparison with `367`; it still does not pay lower-weight
 profiles. No Modal credit is allocated by this entry.
+
+#### CR-E1-CONDUCTOR256-L1-SVP-PROBE: route-deciding height pilot
+
+**Status:** READY BUT BLOCKED BY WORKSPACE SPEND LIMIT. This is an exploratory
+floating-point MILP, not a proof certificate and not a DAG promotion input.
+
+The common-prime associate router gives `||lambda(u)||_1<77.202` for any two
+live collisions in one cofactor. The certified character spectrum bounds the
+unique zero-sum exponent vector by `-7<=xi_t<=7`. The launcher
+
+```text
+experiments/prize_resolution/e1_conductor256_l1_svp_modal.py
+```
+
+minimizes the actual 64-coordinate log `L1` norm subject to those integer
+bounds. It fixes cyclic and sign symmetry by putting a positive
+largest-absolute coordinate at index zero. One two-CPU, 2-GiB container is
+capped at 280 seconds; HiGHS is capped at 240 seconds and prints the incumbent,
+dual bound, gap, node count, and a 70-decimal recomputation before shutdown.
+The projected charge is cents, not dollars.
+
+The first launch attempt on 2026-07-29 started no container and incurred no
+compute. Modal returned
+
+```text
+Workspace ac-WIsI8fedhlHGSBu0g8EiyG has exceeded its spend limit
+```
+
+for the sole configured profile `allengrahamhart`. Do not bypass that account
+control. Relaunch only after the workspace is enabled.
+
+Route interpretation:
+
+- an incumbent below `77.202` refutes the proposed torsion-only height shortcut;
+  replay its integer exponent exactly in `Z[X]/(X^128+1)` and apply the sparse
+  profile and inverse-coefficient filters;
+- an optimum above `77.202` would collapse every fixed-cofactor associate family
+  to one torsion orbit, but the floating solver result alone proves nothing;
+- promotion after an above-threshold result requires a rational outer
+  approximation and an independently checkable exact branch/LP, SAT, or
+  lattice-cover certificate.
+
+No fleet expansion is authorized. A single completed pilot decides whether the
+proof-producing certificate is worth engineering.
