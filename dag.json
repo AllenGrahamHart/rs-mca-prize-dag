@@ -19212,6 +19212,23 @@
    "notes": "Exact replay-granularity theorem only. It supplies no gcd verdict; every nonunit aggregate row must be split by norm color and filtered."
   },
   {
+   "id": "l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler",
+   "title": "L1 Mersenne HNF m=8 cubic three-two-one role-polynomial compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Writing C(U)=(U^8-1)/(U-1), the quotient Res_U(C(U),C(1+lambda(U-1)))/(lambda-1)^7 has degree 42 and, after squarefree reduction, exactly the ordered pairwise-distinct mu_8 color-role ratios lambda=(gamma-alpha)/(beta-alpha) modulo common scaling.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler/verify.py"
+   ],
+   "notes": "Exact role-value compiler only. It permits one symbolic-lambda elimination but supplies no unit verdict for the common-quadratic HNF core."
+  },
+  {
    "id": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
    "title": "L1 Mersenne HNF order-zero linear-color exclusion",
    "status": "PROVED",
@@ -36505,6 +36522,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+   "to": "l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

@@ -7745,6 +7745,20 @@ the outer stage into exactly two low-dimensional tasks.
   and exact gcd degree. Return p-free unit certificates or retained
   components before any official norm sharding.
 
+  The role set is now compiled by
+  `l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler`. Construct
+
+  ```text
+  Lambda_321(lambda)=
+    Res_U((U^8-1)/(U-1),((1+lambda(U-1))^8-1)/(lambda(U-1)))
+    /(lambda-1)^7
+  ```
+
+  using the equivalent polynomial `C(1+lambda(U-1))` formulation printed in
+  (RPC2), verify degree 42, and adjoin it before the shared elimination.
+  Factor or squarefree-reduce retained lambda components only afterward; do
+  not specialize 42 role values at input.
+
   **Contributor request CR-L1-H7-C3-INJ:** consume
   `l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router`. Build
   `V_E(X)=Res_W(L_(r,d),X-E)` once for a generic exact cubic. For each

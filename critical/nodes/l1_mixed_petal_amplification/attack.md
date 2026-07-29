@@ -822,6 +822,13 @@
   `(g_1,y,r,d)` before norm or row sharding. Retain `a*B*(lambda-1)*Q(y)`
   and the exact gcd-degree saturation.
 
+- Carry all `3+2+1` color roles with
+  `l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler`.
+  Adjoin the single degree-42 `Lambda_321(lambda)` to the symbolic-lambda
+  common-quadratic core; factor retained lambda components only after the
+  shared elimination. Do not launch 42 independent copies, and do not retain
+  the seven removed diagonal choices `lambda=1`.
+
 - On the collision-free cubic profile, consume
   `l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router`.
   Replace 28 missing-color pairs by the four cyclic distances and impose

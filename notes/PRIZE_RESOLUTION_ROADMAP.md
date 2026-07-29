@@ -7029,3 +7029,18 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: retain the 16-row launcher unchanged; execute
                               only after an explicit Modal spend-state change
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` role polynomial:** the color-role layer
+now has one exact cyclotomic input rather than 42 separate specializations.
+
+```text
+node proved: l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler
+raw resultant: Res_U(C(U),C(1+lambda(U-1))), deg 49
+removed diagonal: (lambda-1)^7 for gamma=beta
+role polynomial: Lambda_321, degree 42 before squarefree merging
+root set: all ordered distinct mu_8 role ratios modulo common scaling
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: eliminate the common-quadratic core once with
+                              symbolic lambda and Lambda_321(lambda)=0
+```
