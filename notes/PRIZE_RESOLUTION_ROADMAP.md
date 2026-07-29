@@ -6891,13 +6891,15 @@ local theorems:
   l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction
   l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler
   l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler
+  l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler
   l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler
   l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula
   l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld
 local source commits: 3380ea30, 1c2bfd55, 8d847b9e, e10d4683, 59497c96,
-                      44a9d6bb, 0dfd4714, 32b35ed4, f3a355fd, b102cee0
+                      44a9d6bb, 0dfd4714, 32b35ed4, f3a355fd, b102cee0,
+                      1d9206b9
 upstream base: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
-PR head: e0f5c76d198def1302c809efc831c2c409037c94
+PR head: d9bd3ac53faf94b25c29356db00422c4068538a4
 PR state at custody refresh: OPEN, DRAFT; mergeability pending
 upstream files:
   experimental/notes/l1/l1_m8_h7_order_one_cubic_33_exclusion.md
@@ -6915,7 +6917,7 @@ additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
                       three-variable packets for generic 2+2+2
 replay digests:
   8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
-  14f540187eba8a0ef5aa4198cee1d7cd8bddd788351df49fc52bcdbffdafd840
+  03d0d3334358cfbb3520c832e346d409d01366d4cc7d4a11bebaad8d1cb19987
 compute-request digest:
   d3b4aacf170e13fecdf36718f8566bd597beacf4965aa1584077dbe61db9f695
 compute-certificate checker digest:
