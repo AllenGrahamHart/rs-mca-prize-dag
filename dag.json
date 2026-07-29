@@ -3469,6 +3469,37 @@
    "notes": "UNIVERSAL ENERGY WINDOW 2026-07-29: repairs the previously miswired profile-specific variance premise in all four cofactor-1028 energy leaves. The E=1 Lucas square is 452 mod 1028; 61 exact product chambers close E>=7, with E=6 retained by an adjacent-boundary guard."
   },
   {
+   "id": "e1_profile018_split_prime_payment_router",
+   "title": "E1 profile-(0,18) split-prime payment router",
+   "status": "PROVED",
+   "closure": "local cofactor census, profile-invariant exclusions, and exact payment threshold",
+   "refs": [
+    "background/nodes/e1_profile018_split_prime_payment_router/statement.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/proof.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/claim_contract.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/dependency_subdag.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/audit.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/result.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/frontier.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/verify.py"
+   ],
+   "statement": "Profile (0,18,S=18) has only ten pure ideal families and 128 possible cofactor-514 families after the complete 1538 and 1028 exclusions. If at most five cofactor-514 ideals are occupied, then 3840 oriented vectors pay the profile and advance the weighted frontier to (4,4,S=20) with cap 329.",
+   "notes": "SERIAL ROUTER 2026-07-29: the exact remaining premise is O_514<=5 for one fixed row prime/root. Cofactor 514 is already confined to 15 magnitude profiles at E=5,...,12. The implication is proved; the occupancy premise is a new adversarial TARGET."
+  },
+  {
+   "id": "e1_profile018_m514_five_ideal_occupancy",
+   "title": "E1 profile-(0,18) cofactor-514 five-ideal occupancy",
+   "status": "TARGET",
+   "refs": [
+    "background/nodes/e1_profile018_m514_five_ideal_occupancy/statement.md",
+    "background/nodes/e1_profile018_m514_five_ideal_occupancy/attack.md",
+    "background/nodes/e1_profile018_m514_five_ideal_occupancy/frontier.md",
+    "background/nodes/e1_profile018_m514_five_ideal_occupancy/dependency_subdag.md"
+   ],
+   "statement": "For one fixed binding-row prime and quotient root, at most five of the 128 degree-one ideals above 257 are occupied by a profile-(0,18,S=18), cofactor-514 collision in the proved 15-profile middle-energy ledger.",
+   "notes": "FALSIFY-FIRST TARGET 2026-07-29: six certified occupied ideals refute the threshold and force a ledger repair. Screen autocorrelation, fixed-root, parity, realization, and exact norm in that order; do not count squared-magnitude roots as occupied F-ideals."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -40641,6 +40672,86 @@
   },
   {
    "from": "e1_s18_m1028_global_energy_window",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile114_exact_weighted_payment",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1538_collision_exclusion",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m1028_global_energy_window",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy2_log_exclusion",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy3_modular_norm_exclusion",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m1028_energy4_cubic_exclusion",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy56_log_exclusion",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m514_sharp_product_ceiling",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m514_outer_energy_log_exclusion",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m514_middle_shape_log_router",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m514_parity_trace_cap",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_split_prime_payment_router",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile018_split_prime_payment_router",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile018_m514_five_ideal_occupancy",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }

@@ -9154,3 +9154,24 @@ All energy-two, energy-three, energy-four, and energy-five/six leaves now
 consume this theorem. Thus the profile-(1,14) payment remains valid after a
 strict provenance audit, and the same complete cofactor-1028 exclusion is
 available at `(0,18)`.
+
+**2026-07-29, profile-(0,18) exact router:** eighteen singleton exponents
+again realize every allowed local valuation one through ten. After the
+repaired global exclusions, only ten pure families and the 128 cofactor-514
+ideals remain.
+
+```text
+current profile/cap:                 (0,18,S=18) / 3994
+live cofactor-514 shapes:            15 at E=5,...,12
+pure-family charge:                  10 complete orbits
+maximum split occupancy to pay:     5 ideals
+threshold vectors:                  15*256=3840
+threshold charge:                   2145265610605098043549680394481864540160
+threshold residual:                 86073582443276011446219038016747383207
+next profile/cap:                    (4,4,S=20) / 329
+```
+
+The new exact red is `e1_profile018_m514_five_ideal_occupancy`. Attack it
+falsification-first: six genuinely occupied `F`-ideals kill the threshold.
+Autocorrelation roots alone are not occupied ideals; parity, all-singleton
+realization, and exact norm/row compatibility must remain distinct gates.
