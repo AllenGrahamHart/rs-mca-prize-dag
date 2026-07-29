@@ -97,13 +97,13 @@ def check_sample(b: F) -> None:
         _, remainder = divmod_poly(add(power, [-v[j], -u[j]]), fb)
         assert remainder == [F(0)]
 
-    r1 = a2**5 * theta[1]
-    r0 = a2**5 * theta[0]
+    rho1 = a2**5 * theta[1]
+    rho0 = a2**5 * theta[0]
     for j in range(2, 7):
-        r1 += a2 ** (6 - j) * theta[j] * u[j]
-        r0 += a2 ** (6 - j) * theta[j] * v[j]
+        rho1 += a2 ** (6 - j) * theta[j] * u[j]
+        rho0 += a2 ** (6 - j) * theta[j] * v[j]
     left = scale(theta, a2**5)
-    _, remainder = divmod_poly(add(left, [-r0, -r1]), fb)
+    _, remainder = divmod_poly(add(left, [-rho0, -rho1]), fb)
     assert remainder == [F(0)]
 
 
@@ -124,7 +124,7 @@ def main() -> None:
     proof = (ROOT / f"background/nodes/{NODE}/proof.md").read_text()
     for anchor in ("(FQR1)", "(FQR6)", "(FQR7)", "(FQR10)"):
         assert anchor in statement
-    for anchor in ("a_2q^2", "R_1q+R_0", "degree at most 58"):
+    for anchor in ("a_2q^2", "rho_1q+rho_0", "degree at most 58"):
         assert anchor in proof
 
     print("L1_MERSENNE_HNF_M8_ORDER_ONE_CUBIC_THREE_TWO_ONE_GENERIC_FULLY_PROPORTIONAL_Q_QUOTIENT_ROUTER_PASS")

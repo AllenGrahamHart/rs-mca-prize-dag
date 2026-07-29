@@ -22,10 +22,10 @@ a_2^5theta_jq^j
 Summing (2) proves (FQR5)--(FQR6).
 
 Suppose `a_2!=0`. On `F_b=0`, equation `Theta_*=0` is equivalent by
-(FQR6) to `R_1q+R_0=0`. If `R_1!=0`, solve for `q`; substituting
-`q=-R_0/R_1` into (FQR1) and multiplying by `R_1^2` gives exactly `U=0`.
-Every step is reversible under `a_2R_1!=0`. If `R_1=0`, the affine
-remainder is zero exactly when `R_0=0`, proving (FQR8). The `a_2=0` chart
+(FQR6) to `rho_1q+rho_0=0`. If `rho_1!=0`, solve for `q`; substituting
+`q=-rho_0/rho_1` into (FQR1) and multiplying by `rho_1^2` gives exactly
+`U=0`. Every step is reversible under `a_2rho_1!=0`. If `rho_1=0`, the
+affine remainder is zero exactly when `rho_0=0`, proving (FQR8). The `a_2=0` chart
 is (FBF6), with `Theta_*=0` retained, proving (FQR9).
 
 For the degree ledger, `(deg_b a_2,deg_b a_1,deg_b a_0)=(2,4,6)`.
@@ -37,5 +37,5 @@ deg_b u_j<=4(j-1),       deg_b v_j<=4j-2.          (3)
 
 The total-degree bound `deg Theta_*<=12` gives
 `deg_b theta_j<=12-j`. Applying (3) termwise in (FQR5) yields
-`deg_b R_1<=26` and `deg_b R_0<=28`. Each of the three terms in `U` then
+`deg_b rho_1<=26` and `deg_b rho_0<=28`. Each of the three terms in `U` then
 has degree at most 58. QED.

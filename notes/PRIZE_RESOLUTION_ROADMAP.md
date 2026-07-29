@@ -6982,8 +6982,8 @@ singular-J0 gcd launcher/checker digests:
   39ccbf6493dc3a421935dbbd0b1e31e761c4e13b2c3f48eaa3c6b87d44a987e0
   a653511eb927b1627258d7c2e25e6b46439827140d1fabab743a2404e771469c
 fully-proportional quotient launcher/checker digests:
-  3d188f70b21bc60990fceda4478e5d9b2d316e50a9c0c154bf39803224bd8cb6
-  02900581a1574e7edcca6424a1fc816e957b9b182b18ae2c197aeebba6469f4f
+  da4a07ffc86c585dd9c915cf84ec29d8f5bdfdfe32704f1d00ff5215ea58bd0a
+  45652f3958718c05d45aacc128cb414d2196bfe93f6e66cc401bcbf81aea1a97
 replay status: pending; local computation is prohibited and Modal is
                currently spend-blocked
 status_ours: PROVED
@@ -7539,22 +7539,22 @@ quadratic coefficients:
 cleared power recurrence:
   a_2^(j-1)q^j=u_jq+v_j mod F_b, 2<=j<=6
 affine remainder:
-  a_2^5Theta_*=R_1(b)q+R_0(b) mod F_b
+  a_2^5Theta_*=rho_1(b)q+rho_0(b) mod F_b
 generic chart:
-  q=-R_0/R_1
-  U(b)=a_2R_0^2-a_1R_0R_1+a_0R_1^2=0
+  q=-rho_0/rho_1
+  U(b)=a_2rho_0^2-a_1rho_0rho_1+a_0rho_1^2=0
 singular affine-remainder chart:
-  R_1=R_0=0 with F_b retained
+  rho_1=rho_0=0 with F_b retained
 leading-coefficient chart:
   b^2=1575/247, q=-10(b^2+27)/231, Theta_*=0
 degree ledger:
-  deg_b(R_1)<=26, deg_b(R_0)<=28, deg_b(U)<=58
+  deg_b(rho_1)<=26, deg_b(rho_0)<=28, deg_b(U)<=58
 scope fence: no nonzero-resultant or root verdict; all structural, role, P_4,
              and arithmetic-lift equations remain
 compute spend: none
 DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: obtain a proof-producing factorization of U and
-                              the gcd content of (R_1,R_0)
+                              the gcd content of (rho_1,rho_0)
 ```
 
 **2026-07-29, L1 h=7 fully-proportional quotient compute packet:** the next
@@ -7565,7 +7565,7 @@ request: CR-L1-H7-C3-321-FPQ-QUOTIENT
 launcher: experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
 checker: experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
 work: factor degree-at-most-58 U over four official fields; certify
-      gcd(R_1,R_0), the a_2=0 chart, and all degree-1/2 eligible factors
+      gcd(rho_1,rho_0), the a_2=0 chart, and all degree-1/2 eligible factors
 limits: one CPU, 512 MB, 60 seconds per prime, at most four containers,
         no retries, atomic partial output
 estimated cost: below $0.01

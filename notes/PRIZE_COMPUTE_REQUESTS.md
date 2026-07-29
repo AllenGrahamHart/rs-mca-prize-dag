@@ -7888,11 +7888,11 @@ the outer stage into exactly two low-dimensional tasks.
   generic coefficient pair is now a quadratic in `q` plus a compatibility
   polynomial of `q`-degree at most six. Consume
   `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router`.
-  Its exact recurrence leaves `R_1(b)q+R_0(b)` modulo `F_b`; off the two
+  Its exact recurrence leaves `rho_1(b)q+rho_0(b)` modulo `F_b`; off the two
   printed singular charts it reconstructs `q` and leaves
 
   ```text
-  U(b)=a_2R_0^2-a_1R_0R_1+a_0R_1^2,
+  U(b)=a_2rho_0^2-a_1rho_0rho_1+a_0rho_1^2,
   deg U<=58.
   ```
 
@@ -7900,10 +7900,10 @@ the outer stage into exactly two low-dimensional tasks.
 
   ```text
   experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
-  sha256 3d188f70b21bc60990fceda4478e5d9b2d316e50a9c0c154bf39803224bd8cb6
+  sha256 da4a07ffc86c585dd9c915cf84ec29d8f5bdfdfe32704f1d00ff5215ea58bd0a
 
   experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
-  sha256 02900581a1574e7edcca6424a1fc816e957b9b182b18ae2c197aeebba6469f4f
+  sha256 45652f3958718c05d45aacc128cb414d2196bfe93f6e66cc401bcbf81aea1a97
   ```
 
   It runs one independent one-CPU, 512 MB, 60-second task per official prime,
@@ -7911,7 +7911,7 @@ the outer stage into exactly two low-dimensional tasks.
   the output after every returned prime, so a timeout or task failure leaves
   a checkable partial certificate. Each row must provide a complete
   factorization of `U`, extended-Euclidean certificates for
-  `gcd(R_1,R_0)` and for the fixed `a_2=0` chart, and the complete list of
+  `gcd(rho_1,rho_0)` and for the fixed `a_2=0` chart, and the complete list of
   degree-one/two factors eligible for `b` in the ambient quadratic field.
   The checker independently reconstructs all source polynomials, verifies
   factor multiplication and both Bezout identities, and accepts partial

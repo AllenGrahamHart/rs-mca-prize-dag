@@ -41,33 +41,33 @@ a_2^(j-1)q^j = u_jq+v_j mod F_b.                   (FQR4)
 Put
 
 ```text
-R_1=a_2^5theta_1
+rho_1=a_2^5theta_1
     +sum_(j=2)^6 a_2^(6-j)theta_j u_j,
 
-R_0=a_2^5theta_0
+rho_0=a_2^5theta_0
     +sum_(j=2)^6 a_2^(6-j)theta_j v_j.             (FQR5)
 ```
 
 There is an exact polynomial congruence
 
 ```text
-a_2^5Theta_*=R_1q+R_0 mod F_b.                     (FQR6)
+a_2^5Theta_*=rho_1q+rho_0 mod F_b.                 (FQR6)
 ```
 
 Consequently the generic coefficient pair has the following exact disjoint
 router.
 
-1. If `a_2R_1!=0`, reconstruct
+1. If `a_2rho_1!=0`, reconstruct
 
 ```text
-q=-R_0/R_1,
-U(b):=a_2R_0^2-a_1R_0R_1+a_0R_1^2=0.              (FQR7)
+q=-rho_0/rho_1,
+U(b):=a_2rho_0^2-a_1rho_0rho_1+a_0rho_1^2=0.       (FQR7)
 ```
 
-2. If `a_2!=0` and `R_1=0`, retain
+2. If `a_2!=0` and `rho_1=0`, retain
 
 ```text
-R_0=0,       F_b=0.                                (FQR8)
+rho_0=0,       F_b=0.                              (FQR8)
 ```
 
 3. If `a_2=0`, retain the already exact leading-coefficient chart
@@ -81,7 +81,7 @@ Theta_*(b,q)=0.                                    (FQR9)
 The degree ledger is
 
 ```text
-deg_b(R_1)<=26,       deg_b(R_0)<=28,
+deg_b(rho_1)<=26,       deg_b(rho_0)<=28,
 deg_b(U)<=58.                                       (FQR10)
 ```
 
