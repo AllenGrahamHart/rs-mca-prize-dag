@@ -19657,6 +19657,26 @@
    "notes": "Exact role/P_4 compiler for each alternative packet only. Eight-filter common roots, reconstructed d saturations, arithmetic lifts, other h=7 shapes, and the critical consumer remain open."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic coefficient-field degree-eight router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On every official m=8,h=7 order-one cubic row, the normalized HNF roots and cubic factor coefficients, hence b=4dg_1-15, lie in F_(p^8); an irreducible b factor is eligible exactly when its degree divides eight.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/verify_audit.py"
+   ],
+   "notes": "Exact field-of-definition router only. No factorization was run; common-gcd, role, saturation, arithmetic-lift, other-shape, and critical closure obligations remain open."
+  },
+  {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler",
    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional structural-consistency compiler",
    "status": "PROVED",
@@ -37285,6 +37305,21 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_next_to_maximal_belyi_shifted_value_gate",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

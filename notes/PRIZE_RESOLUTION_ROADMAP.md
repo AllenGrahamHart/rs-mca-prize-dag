@@ -8067,3 +8067,38 @@ upstream custody:
 next route-deciding action: seek an actual field-descent or bounded Frobenius
                               equation before extending to 21 role families
 ```
+
+**2026-07-29, L1 h=7 coefficient-field descent:** the official normalized
+cubic data now have an exact generated-field bound.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router
+official rows: p=2^t-1, t in {13,17,19,31}; n=2^(t+3)
+order calculation:
+  p^2=1-n/4 mod n, p^4=1-n/2 mod n, p^8=1 mod n
+  hence ord_n(p)=8
+field descent: P=(W+1/d)L divides W^n-1, so the normalized roots,
+               d, every monic color-fiber factor coefficient, and
+               b=4dg_1-15 lie in F_(p^8)
+exact factor rule: an irreducible b factor is official-eligible iff its
+                   degree divides 8, namely degree in {1,2,4,8}
+packet schema:
+  legal_factors                 all non-guard factors
+  cyclotomic_field_factors      exact degree-1/2/4/8 official subset
+  quadratic_subfield_factors    diagnostic degree-1/2 subset
+closure semantics: cyclotomic_field_status=EMPTY excludes the official
+                   chart; global_status=EMPTY is the stronger algebraic close
+launcher:
+  59bb96e395c4eac8ada98417bc7e68f59c905cb7dcfec9219aad71578097119b
+checker:
+  d25dc17b956ace1f4faa97acc533fe99492089658eb5b103bcfc70711667a609
+node checker sources:
+  verify.py       e4b8c4c805a8b8544012dc9e8e4b72e8ad5768f05ca2505da8d5a5c60450aae1
+  verify_audit.py 01227ec4aefb12e920ff7ec0a5247c061710fecdab1ca58acc8cb87e93c908c6
+validation: AST-only for all four sources; DAG, harness, joint protocol,
+            orbit census, and manifest passed; arithmetic remains unrun
+compute/resource delta: none; existing spend-blocked request unchanged
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: export the generated-field theorem and packet
+                              semantics, then reconsider 21 role families
+```
