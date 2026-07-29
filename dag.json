@@ -20596,6 +20596,26 @@
     "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/verify_audit.py"
    ],
    "notes": "Exact local successor theorem only. It proves the forced lower degree in the primitive decorated top stratum, not the excluding upper cap, an upstream atom, a row closure, or a Prize result."
+  },
+  {
+   "id": "l1_m31_fixed_support_divisor_direction_cap_route_cut",
+   "title": "M31 fixed-support divisor-direction cap route cut",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the M31 residual constants m=72428 and t=4980, a six-dimensional common-zero-free polynomial space contains 67449 projectively distinct monic degree-t divisors of one fixed degree-m split locator: choose a degree-(t-1) divisor R and use R(X-a) over every remaining root inside span{RX,R,1,X,X^2,X^3}. Thus a universal fixed-support divisor cap 15413 is false unless it retains received-word/Pade realizability.",
+   "refs": [
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/statement.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/proof.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/claim_contract.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/dependency_subdag.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/audit.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/result.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/lineage.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/upstream_crosswalk.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/verify.py",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/verify_audit.py"
+   ],
+   "notes": "Exact algebraic route cut only. The construction is not a received-word list, does not satisfy the decorated neighbor equations, and proves no row lower or upper bound."
   }
  ],
  "edges": [
@@ -39606,6 +39626,16 @@
   },
   {
    "from": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+   "to": "l1_m31_fixed_support_divisor_direction_cap_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m31_fixed_support_divisor_direction_cap_route_cut",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

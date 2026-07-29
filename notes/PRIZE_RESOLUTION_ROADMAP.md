@@ -8433,3 +8433,25 @@ upstream custody:
 next route-deciding action: attack the first-above-threshold primitive
                               decorated equation with the Pade owner data
 ```
+
+**2026-07-29, M31 fixed-support divisor-cap falsifier:** projective
+compression does not by itself supply the successor upper theorem.
+
+```text
+node proved: l1_m31_fixed_support_divisor_direction_cap_route_cut
+construction:
+  choose a degree-4979 divisor R of the degree-72428 anchor locator
+  V=span{R X,R,1,X,X^2,X^3} is 6D and common-zero-free
+  J_a=R(X-a) over every remaining anchor root
+exact projective divisor count: 72428-4979=67449
+route verdict:
+  universal geometry-only cap 15413 is false
+  fixed-support/projective-code methods cannot close the terminal alone
+surviving load-bearing data:
+  actual received-word realization and A C_i-B C_j=c!=0 decorations
+scope fence: no source-compatible list counterexample, no refutation of a
+             target-sensitive cap, no row or Prize movement
+compute spend: none; explicit algebraic construction
+next route-deciding action: classify or pay the one-root-swap pencil after
+                              imposing the decorated Pade equation
+```

@@ -12,6 +12,9 @@
    constant, not an unspecified low-degree polynomial.
 5. Cofactor primitivity follows from the nonzero constant identity and is
    not assumed.
+6. The `15413` divisor-direction cap is only a sufficient source-bound target;
+   `l1_m31_fixed_support_divisor_direction_cap_route_cut` refutes its
+   geometry-only form with `67449` directions.
 
 ## Verdict
 

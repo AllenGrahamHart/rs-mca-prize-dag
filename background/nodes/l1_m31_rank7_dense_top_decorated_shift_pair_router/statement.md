@@ -79,7 +79,9 @@ ceil(215793/14)=15414                                      (DS4)
 distinct projective polynomials in the six-dimensional direction space,
 each represented by a monic degree-`4980` divisor of the anchor agreement
 locator. A fixed-support divisor-direction cap `15413` is another sufficient
-form of the exact successor theorem.
+form of the exact successor theorem only if it retains source/Pade
+realizability. The separate one-root-swap route cut shows that the cap is
+false under fixed-support, six-dimensional, common-zero-free geometry alone.
 
 ## Scope
 
