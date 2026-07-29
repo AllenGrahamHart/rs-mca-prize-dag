@@ -6915,9 +6915,9 @@ local source commits: 3380ea30, 1c2bfd55, 8d847b9e, e10d4683, 59497c96,
                       1d9206b9, 98e8685c, 3d5f6274, bdd33eb0, 0cae55cb,
                       6be9ee69, 325c4cd6, 1db48367, e1b1a195, 021caa0a,
                       fd65c11f, 8e256f5e, 8f4bf3d0, eff918d0, f8e9854b,
-                      49d1b7af, 806fa2b8
+                      49d1b7af, 806fa2b8, 81d1e850
 upstream base: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
-PR head: 73bf60ba15ebe132114e1d36fc55b1bbfce09cbd
+PR head: 930a40de74b32e75bf43232d61bcde68bc3f0a01
 PR state at custody refresh: OPEN, DRAFT, MERGEABLE
 upstream files:
   experimental/notes/l1/l1_m8_h7_order_one_cubic_33_exclusion.md
@@ -6928,6 +6928,8 @@ upstream files:
   experimental/scripts/check_l1_m8_h7_cubic_222_norm_certificate.py
   experimental/scripts/l1_m8_h7_cubic_321_singular_j0_gcd_modal.py
   experimental/scripts/check_l1_m8_h7_cubic_321_singular_j0_gcd_certificate.py
+  experimental/scripts/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
+  experimental/scripts/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
 proof endpoint: d in {-3/2,-3}; norms 9/4 and 9 contradict mu_8 on all
                 four declared Mersenne characteristics
 additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
@@ -6961,7 +6963,9 @@ additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
                       ideals; quadratic-quotient reduction then leaves one
                       degree-at-most-58 univariate endpoint in b, plus the
                       simultaneous affine-remainder and fixed leading-
-                      coefficient charts; one
+                      coefficient charts; a source-pinned four-prime factor,
+                      gcd, and quadratic-field candidate packet is ready but
+                      unrun; one
                       seven-shape affine-color equation and four rational
                       three-variable packets for generic 2+2+2
 replay digests:
@@ -6974,6 +6978,9 @@ compute-certificate checker digest:
 singular-J0 gcd launcher/checker digests:
   39ccbf6493dc3a421935dbbd0b1e31e761c4e13b2c3f48eaa3c6b87d44a987e0
   a653511eb927b1627258d7c2e25e6b46439827140d1fabab743a2404e771469c
+fully-proportional quotient launcher/checker digests:
+  3d188f70b21bc60990fceda4478e5d9b2d316e50a9c0c154bf39803224bd8cb6
+  02900581a1574e7edcca6424a1fc816e957b9b182b18ae2c197aeebba6469f4f
 replay status: pending; local computation is prohibited and Modal is
                currently spend-blocked
 status_ours: PROVED
