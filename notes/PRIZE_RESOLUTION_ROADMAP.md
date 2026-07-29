@@ -8057,6 +8057,13 @@ checker:
 validation: AST-only; arithmetic packet remains unrun and spend-blocked
 compute/resource delta: none
 DAG delta: none; this repairs certificate semantics, not a mathematical close
-next route-deciding action: export the correction before extending the packet
-                              to 21 role-specific families
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: d56f8d224271c4f2509ea75da345470fd5e0c658
+  launcher/checker parity:
+    4490ec4cfdbbf36c45c4bdaa50177b1e8b26879ab513822d20af1e644702e56a
+    f1074ddb54f89bee37c2f89bf086b76c4d4a017745968c27937339ccf11a89b3
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: seek an actual field-descent or bounded Frobenius
+                              equation before extending to 21 role families
 ```
