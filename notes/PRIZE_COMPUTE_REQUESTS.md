@@ -7905,10 +7905,10 @@ the outer stage into exactly two low-dimensional tasks.
 
   ```text
   experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
-  sha256 85ec64690ef625ec3f1e4f1815b95064ad85698d36e4a07826aa9ad6f51827ab
+  sha256 2b33e8c0598283eecb4531df80f052dffe409d25e840c6d519b9d1d0aabb2f70
 
   experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
-  sha256 b89c741dbe723d8ee49992f437b6973f9f0559e4cd68105428de24a72e0aef46
+  sha256 0d07d97174bfca96ec09bd2157fcdaea0a554a961ea954f9eed329a9f48ec61a
   ```
 
   It runs one independent one-CPU, 512 MB, 60-second task per official prime,
@@ -7935,14 +7935,14 @@ the outer stage into exactly two low-dimensional tasks.
   those factors can have roots in the ambient quadratic field. The checker
   independently reconstructs `A,H,K`, checks the gcd and factorization, and
   recomputes the guard and ambient-degree classifications.
-  It also reconstructs the `J_*=L_*=0` affine-router filters
-  `Bhat,Ehat,Fhat,Xhat` of degrees at most `6,7,10,11`, emits a four-way
-  Bezout certificate for their common gcd, factors that monic gcd, flags
-  every factor dividing the proved denominator `T`, and lists exactly the
-  remaining degree-one/two factors. The checker independently reconstructs
-  all five source polynomials, verifies the four-way Bezout identity and
-  complete factorization, and recomputes the `T` guard and ambient-degree
-  classifications.
+  It also reconstructs the `J_*=L_*=0` coefficient-and-structural filters
+  `Bhat,Ehat,Fhat,Xhat,Zhat_D^j,Zhat_R^j` of degrees at most
+  `6,7,10,11,24,16`, emits a six-way Bezout certificate for their common
+  gcd, factors that monic gcd, flags every factor dividing the proved
+  denominator `T`, and lists exactly the remaining degree-one/two factors.
+  The checker independently reconstructs all seven source polynomials,
+  verifies the six-way Bezout identity and complete factorization, and
+  recomputes the `T` guard and ambient-degree classifications.
 
   The four small degree-58 factorizations should cost below `$0.01`. This
   request gives a structural chamber verdict: a unit four-way gcd excludes
@@ -7957,10 +7957,10 @@ the outer stage into exactly two low-dimensional tasks.
   only higher-degree or `A=0` factors; `ambient_status=HIT` returns the exact
   eligible factors for the retained `F_b=X_*=0` and downstream filters. This
   extension adds no containers, CPUs, memory, retries, or timeout. For the
-  `J_*=0` endpoint, `ambient_status=EMPTY` excludes the coefficient chart;
-  `HIT` returns only non-`T` factors for retained `G_2` and downstream
-  replay; `IDENTICALLY_ZERO_FAMILY` is explicitly inconclusive. Wait for an
-  explicit spend-access change.
+  `J_*=0` endpoint, `ambient_status=EMPTY` excludes the complete coefficient
+  and structural chart; `HIT` returns only non-`T` factors for role, `P_4`,
+  saturation, and lift replay; `IDENTICALLY_ZERO_FAMILY` is explicitly
+  inconclusive. Wait for an explicit spend-access change.
 
   The requested decision is whether every branch in one complete
   representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber

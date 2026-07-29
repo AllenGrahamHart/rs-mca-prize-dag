@@ -7920,3 +7920,60 @@ upstream custody:
 next route-deciding action: continue exact hand elimination on the retained
                               h=7 endpoint while all Modal work waits
 ```
+
+**2026-07-29, L1 h=7 exceptional-`J_*=0` structural compiler:** the last
+coefficient chart retaining `G_2` now returns to every original structural
+definition and leaves only two additional univariate filters.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_structural_consistency_compiler
+input: E_G=X_*=J_*=L_*=F_b=0, q=5bM/T, b(b+3)D_*T!=0
+exceptional reconstruction:
+  Q_0=q^2/3
+  G_2=(q^2/3-x ell+20+8q/3+D_*/(3600b))/A
+  H=ell-G_2, Y=(ell-2G_2)/A-x, V=G_2+xY+Y^2
+remaining structural filters:
+  Z_D^j=Num(D_*/(3600b)-YV)
+  Z_R^j=Num(R_0-G_2(ell-G_2)+xq^2/3+(A+x)D
+            +15+23q/4+q^2/8)
+bivariate bounds:
+  (total degree,q-degree) <= (12,6), (8,4)
+after q=5bM/T:
+  deg Zhat_D^j<=24, deg Zhat_R^j<=16
+complete endpoint:
+  Bhat=Ehat=Fhat=Xhat=Zhat_D^j=Zhat_R^j=0
+retained: role-discriminant weld, P_4, saturations, arithmetic lifts
+scope fence: no common-root, ambient-degree, emptiness, or critical closure
+checker state: source-complete primary and independent audit; AST-only local
+               validation; unexecuted
+checker hashes:
+  verify.py       528d69d77f27cdf4a74cda6c853474cdacb498c7ef5f051b7cb556b29171a005
+  verify_audit.py af4e8a64796a0948978bcb40e913b23d9c4197262bb4f8861dbee35527c0f5e2
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+```
+
+**2026-07-29, L1 h=7 exceptional-`J_*=0` six-filter packet:** the shared
+spend-blocked request now includes the two structural numerators in the
+same exact gcd/factor certificate.
+
+```text
+family: Bhat,Ehat,Fhat,Xhat,Zhat_D^j,Zhat_R^j
+certificate: six-way Bezout identity, complete monic-gcd factorization,
+             T-zero guard classification, ambient degree classification
+EMPTY meaning: no legal coefficient-and-structural root exists in F_(p^2)
+HIT meaning: listed factors alone continue to role, P_4, saturations, lifts
+IDENTICALLY_ZERO_FAMILY meaning: inconclusive, never closure
+launcher:
+  2b33e8c0598283eecb4531df80f052dffe409d25e840c6d519b9d1d0aabb2f70
+checker:
+  0d07d97174bfca96ec09bd2157fcdaea0a554a961ea954f9eed329a9f48ec61a
+resource delta: none; four one-CPU, 512 MB, 60-second tasks, no retries,
+                atomic partial output
+estimated total cost: still below $0.01
+status: source-complete, AST-only validation, unrun; Modal spend-blocked
+compute spend: none
+DAG delta: none; this consumes the new J-zero structural compiler
+next route-deciding action: bank upstream, then inspect whether the role and
+                              P_4 filters admit a similarly exact reduction
+```
