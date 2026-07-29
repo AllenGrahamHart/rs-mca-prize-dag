@@ -8153,6 +8153,10 @@ upstream custody:
     c5ccd14b02e0b0119fbcbbaa20f7eae7214716c13a2e9b8158cce50674bb51af
     92b6d6d9e42b15a9c476aea154bfabc57b652a5d54d203c15c79036f09051643
   export state at pin: OPEN, DRAFT, MERGEABLE
+  current custody audit:
+    PR #1120 was closed after manual consolidation at upstream commit
+    0f7476f0; the written local algebra was retained, but the PR-local unrun
+    launcher/checker packet was intentionally not imported into main
 next route-deciding action: when spend access is explicitly restored, run
                               and replay all four rows; meanwhile attack the
                               remaining saturation/lift interface by hand
@@ -8191,6 +8195,17 @@ checker hashes:
   verify_audit.py a40dcd461807ab3fbdb1ee8b16c1e2776c99b2db0f6321b2487fb6645a138191
 compute spend: none
 DAG delta: one PROVED background node and six edges; no critical status flip
+upstream custody:
+  predecessor: PR #1120 was manually consolidated at upstream 0f7476f0 and
+               closed before this theorem was exported
+  follow-up PR: https://github.com/przchojecki/rs-mca/pull/1121
+  upstream-base: 93fba1be3f3299b0ba4708d88715377bbb656e45
+  export commit: 55d3812bb1dc7a23f8573cbb9ec4f5b16aa5ed40
+  accepted surface: experimental/experiments.tex plus the required
+                    experimental/agents-log.md coordination entry
+  validation: git diff --check; static proof review only, no TeX or
+              arithmetic execution
+  export state at pin: OPEN, DRAFT, MERGEABLE
 next route-deciding action: compile the full inherited guard product into
                               per-factor and per-role rejection reasons
 ```
