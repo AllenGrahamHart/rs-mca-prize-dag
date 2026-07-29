@@ -10160,12 +10160,15 @@ started because workspace `ac-WIsI8fedhlHGSBu0g8EiyG` had exceeded its spend
 limit. No app id was allocated and no credit was spent. Do not retry on this
 workspace until its spend limit is explicitly restored.
 
-Energies two, five, and six no longer require computation. The proved nodes
+Energies two, three, five, and six no longer require computation. The proved nodes
 `e1_profile210_m1028_energy2_log_exclusion` and
 `e1_profile210_m1028_energy56_log_exclusion` use the integral
 autocorrelation bound `sum |A_d|<=E` and exact logarithm bounds to put energy
 two above `1028*p_max` and energies five/six below `1028*p_min`. Do not launch
-support classifiers for them. Promote the 329-type energy-three exact ledger;
-the larger unpromoted computation in this request is the energy-four
-certificate above. A useful independent replay is a direct degree-128
-negacyclic resultant implementation.
+support classifiers for them. The 329-type energy-three ledger is now an
+exact CRT-resultant certificate with digest
+`d462adc241981e2e3aa9747a5ba582808d8ebf505e2df6a86fdad2df52a7d3cc`.
+The only unpromoted computation in this request is the energy-four
+certificate above. Reuse the modular engine rather than the slower Bareiss
+fleet. A useful independent replay is a direct degree-128 negacyclic
+resultant implementation.

@@ -8968,3 +8968,23 @@ rational margin `1/23058`; `exp(-256/549)>293/549` then clears the official
 ceiling by exact integer arithmetic. The four exploratory energy-two norms
 are no longer load-bearing. Promote the 329-type exact energy-three ledger
 and the queued 8,385-type exact energy-four ledger to finish cofactor `1028`.
+
+**2026-07-29, profile-(2,10) cofactor-1028 energy-three close:** a modular
+resultant engine promotes the complete 329-type ledger with low local cost.
+
+```text
+signed lag triples screened:         C(63,3)*8
+local/mod-257 compatible types:      329
+CRT primes:                          9 exact 31-bit primes
+CRT modulus bits / norm bits:        279 / at most 267
+exact quotient range:                110037709021719095415927105791028375912712994655842773868558710185217329606913
+                                      ..120963671460232983862280624800699787448990635276721201666721603772949806841601
+official verdict:                    all 329 above p_max
+remaining cofactor-1028 energy:      E=4
+```
+
+Trial division proves the CRT primes, AM-GM supplies the reconstruction
+ceiling, and five prior Bareiss norms independently check the resultant
+recurrence. The replay uses about 17 MiB and 1.5 seconds locally. Replace the
+queued 60-container energy-four Bareiss plan with the same modular engine;
+the remaining 8,385 types should fit one low-memory, sub-minute Modal worker.
