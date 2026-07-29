@@ -6918,9 +6918,9 @@ local source commits: 3380ea30, 1c2bfd55, 8d847b9e, e10d4683, 59497c96,
                       6be9ee69, 325c4cd6, 1db48367, e1b1a195, 021caa0a,
                       fd65c11f, 8e256f5e, 8f4bf3d0, eff918d0, f8e9854b,
                       49d1b7af, 806fa2b8, 81d1e850, cc5169fd, 46c7f677,
-                      7e430949
+                      7e430949, ccdb0a55
 upstream base: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
-PR head: 3e89a256a3b1152dfc33150eac4f4cce89a4c560
+PR head: a9c637e9b731c147877caf4818fa6895634e54f0
 PR state at custody refresh: OPEN, DRAFT, MERGEABLE
 upstream files:
   experimental/notes/l1/l1_m8_h7_order_one_cubic_33_exclusion.md
@@ -6970,7 +6970,9 @@ additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
                       gcd, and quadratic-field candidate packet is ready but
                       unrun; the parallel E_G=0 chart reduces to a degree-16/
                       degree-23 univariate pair off two retained singular
-                      coefficient charts; on the generic quotient chart,
+                      coefficient charts; the source-pinned four-prime packet
+                      now also emits a four-way Bezout certificate for the
+                      generic coefficient/structural gcd; on that chart,
                       substituting the reconstructed coefficients into all
                       original structural definitions yields three more
                       univariate filters of bivariate source degrees at most
