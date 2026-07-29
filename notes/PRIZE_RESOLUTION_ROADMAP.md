@@ -7310,3 +7310,27 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: continue the Delta!=0 and singular J!=0 hand
                               branches; launch this packet only after access
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` singular-`J!=0` chart compiler:** the
+second determinant-singular chamber now has exact lower-dimensional charts.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler
+forced split: x=0 iff G_2=0
+x=0 chart: Y=(q+30)/12 and three coefficient equations in (q,d)
+linear relation: (q^3+90q^2+3132q+57240)d
+                 =8q^3+864q^2+30528q+250560
+x!=0 chart: G_2!=0; define N=G_2^2+xD and Z=N+6DG_2
+sixth-equation numerator:
+  P=3x(6G_2+AxU-20-D)-8qx-3G_2H
+exact reconstruction: d=P/(qx)
+remaining determinant: q^2xN-PZ=0
+reduced endpoint: five equations in (x,Y,q), including conic and one of
+                  the 21 alternative quadratic role packets
+field-scope catch: q,d are not forced into F_p, so role irreducibility does
+                   not by itself delete either chart
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: seek a hand exclusion in the x=0 linear-d chart;
+                              otherwise reduce the generic Delta!=0 branch
+```
