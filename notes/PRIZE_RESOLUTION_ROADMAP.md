@@ -6906,6 +6906,7 @@ local theorems:
   l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization
   l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router
   l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router
   l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler
   l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula
   l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld
@@ -6914,9 +6915,9 @@ local source commits: 3380ea30, 1c2bfd55, 8d847b9e, e10d4683, 59497c96,
                       1d9206b9, 98e8685c, 3d5f6274, bdd33eb0, 0cae55cb,
                       6be9ee69, 325c4cd6, 1db48367, e1b1a195, 021caa0a,
                       fd65c11f, 8e256f5e, 8f4bf3d0, eff918d0, f8e9854b,
-                      49d1b7af
+                      49d1b7af, 806fa2b8
 upstream base: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
-PR head: facce1f65da0bd7f96482d37debb7056c21762f2
+PR head: 73bf60ba15ebe132114e1d36fc55b1bbfce09cbd
 PR state at custody refresh: OPEN, DRAFT, MERGEABLE
 upstream files:
   experimental/notes/l1/l1_m8_h7_order_one_cubic_33_exclusion.md
@@ -6957,12 +6958,15 @@ additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
                       clearing leaves a generic pair of q-degrees 2 and at
                       most 6, with compatibility polynomial of total degree
                       at most 12, and explicit polynomial exceptional
-                      ideals; one
+                      ideals; quadratic-quotient reduction then leaves one
+                      degree-at-most-58 univariate endpoint in b, plus the
+                      simultaneous affine-remainder and fixed leading-
+                      coefficient charts; one
                       seven-shape affine-color equation and four rational
                       three-variable packets for generic 2+2+2
 replay digests:
   8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
-  58d4457c97b5ba5c2b03f8b4d3dfc4e7777a73e9befab571ff764077c0f71858
+  c7aa9af0b5fbf5abc67156743b11e416e1116afdb725c4fac5314686ff393162
 compute-request digest:
   d3b4aacf170e13fecdf36718f8566bd597beacf4965aa1584077dbe61db9f695
 compute-certificate checker digest:
