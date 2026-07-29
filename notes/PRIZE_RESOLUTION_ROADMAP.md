@@ -6877,7 +6877,7 @@ next route-deciding action: prioritize the smallest p-free cubic cores for
 
 **2026-07-29, L1 h=7 cubic packet upstream export:** the proved local
 two-triple exclusion, the `2+2+2` exceptional reductions, and the `3+2+1`
-common-quadratic compiler are now available for upstream review as draft PR
+common-quadratic and role-polynomial compilers are now available for upstream review as draft PR
 [#1120](https://github.com/przchojecki/rs-mca/pull/1120).  The export is
 intentionally classified `LOCAL_ONLY`: it contributes an exact split-pencil
 HNF stratum theorem and exact reductions but does not claim the missing
@@ -6890,10 +6890,12 @@ local theorems:
   l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction
   l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction
   l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler
-local source commits: 3380ea30, 1c2bfd55, 8d847b9e, e10d4683, 59497c96
+  l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler
+local source commits: 3380ea30, 1c2bfd55, 8d847b9e, e10d4683, 59497c96,
+                      44a9d6bb
 upstream base: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
-PR head: d50e763103b91bb5aa4eac8070eed4e328291d09
-PR state at export: OPEN, DRAFT, MERGEABLE
+PR head: db1393e7263d12f77610648a093e5fa3ea19076e
+PR state at custody refresh: OPEN, DRAFT; mergeability pending
 upstream files:
   experimental/notes/l1/l1_m8_h7_order_one_cubic_33_exclusion.md
   experimental/notes/l1/l1_m8_h7_order_one_cubic_profile_reductions.md
@@ -6904,10 +6906,11 @@ upstream files:
 proof endpoint: d in {-3/2,-3}; norms 9/4 and 9 contradict mu_8 on all
                 four declared Mersenne characteristics
 additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
-                      exceptional 2+2+2 slopes; four-variable 3+2+1 roles
+                      exceptional 2+2+2 slopes; one degree-42 symbolic role
+                      polynomial for the four-variable 3+2+1 core
 replay digests:
   8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
-  251f29de263d1302ddce657a89e11b7c93ad0ccef4b62ee3b2f5e0e6991dff8e
+  4124a850994b029403317f818e874616d7b3831b709e4aa7aa5f4ebfbbda9abb
 compute-request digest:
   d3b4aacf170e13fecdf36718f8566bd597beacf4965aa1584077dbe61db9f695
 compute-certificate checker digest:
