@@ -8144,7 +8144,16 @@ resource delta: none; four one-CPU, 512 MB, 60-second tasks, no retries,
                 atomic partial output; completion time is unmeasured
 compute spend: none; Modal workspace remains spend-blocked
 DAG delta: none until a complete checked result exists
-upstream custody: pending source/checker parity update in draft PR #1120
-next route-deciding action: export the packet; when spend access is explicitly
-                              restored, run and replay all four rows
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: 38b9766ca2421f89d5d9f735bdd5f39490658346
+  combined verifier:
+    8b0224fd837c02786982ed90e2e79b5d3b61b5f360551bf603af3c7bb787f50a
+  launcher/checker parity:
+    c5ccd14b02e0b0119fbcbbaa20f7eae7214716c13a2e9b8158cce50674bb51af
+    92b6d6d9e42b15a9c476aea154bfabc57b652a5d54d203c15c79036f09051643
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: when spend access is explicitly restored, run
+                              and replay all four rows; meanwhile attack the
+                              remaining saturation/lift interface by hand
 ```
