@@ -3136,6 +3136,25 @@
    "notes": "CERTIFIED PREFLIGHT AND ROUTE CUT 2026-07-29: Machin/Taylor/atanh directed arithmetic gives spectrum digest 6ee33c37477a58c92a087cd7dcf3c128d148a2c8d08887141ff79367aa9efb8d, min magnitude >1.7627, max <24.292, D<7.539, and R<77.202. Exact DP counts 16616854517524950208619690062355423946568371 coarse vectors. No associate count, lower-profile payment, E1 image bound, or Prize movement."
   },
   {
+   "id": "e1_conductor256_inverse_kernel_contraction",
+   "title": "Conductor-256 inverse-kernel contraction",
+   "status": "PROVED",
+   "closure": "directed interval arithmetic and Fourier inversion",
+   "refs": [
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/statement.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/proof.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/claim_contract.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/dependency_subdag.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/audit.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/result.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/frontier.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/verify.py",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/verify_audit.py"
+   ],
+   "statement": "The certified inverse character kernel has half-range below 0.044700 and L1 norm below 0.802 on the zero-sum log hyperplane. Combined with the strict prize radius, every live conductor-256 fixed-cofactor exponent vector satisfies max |xi_t|<=3 and sum |xi_t|<=60.",
+   "notes": "CERTIFIED SEARCH CONTRACTION 2026-07-29: directed inversion of all 63 nonzero character eigenvalue rectangles retains their phases and improves the coordinate box from [-7,7] to [-3,3], with an additional even integer L1 budget 60. The weighted ellipsoid still contains at least 38 trillion vectors, so generic enumeration remains rejected. No associate count, 367-orbit payment, lower-profile payment, E1 close, or Prize movement."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -39948,6 +39967,16 @@
   },
   {
    "from": "e1_conductor256_character_eigenvalue_preflight",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_conductor256_character_eigenvalue_preflight",
+   "to": "e1_conductor256_inverse_kernel_contraction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_inverse_kernel_contraction",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }

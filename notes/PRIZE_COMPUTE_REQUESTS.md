@@ -10084,15 +10084,16 @@ profiles. No Modal credit is allocated by this entry.
 floating-point MILP, not a proof certificate and not a DAG promotion input.
 
 The common-prime associate router gives `||lambda(u)||_1<77.202` for any two
-live collisions in one cofactor. The certified character spectrum bounds the
-unique zero-sum exponent vector by `-7<=xi_t<=7`. The launcher
+live collisions in one cofactor. The certified spectrum and inverse-kernel
+contraction bound the unique zero-sum exponent vector by
+`-3<=xi_t<=3` and `sum|xi_t|<=60`. The launcher
 
 ```text
 experiments/prize_resolution/e1_conductor256_l1_svp_modal.py
 ```
 
 minimizes the actual 64-coordinate log `L1` norm subject to those integer
-bounds. It fixes cyclic and sign symmetry by putting a positive
+and aggregate bounds. It fixes cyclic and sign symmetry by putting a positive
 largest-absolute coordinate at index zero. One two-CPU, 2-GiB container is
 capped at 280 seconds; HiGHS is capped at 240 seconds and prints the incumbent,
 dual bound, gap, node count, and a 70-decimal recomputation before shutdown.

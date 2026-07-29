@@ -8775,3 +8775,29 @@ next action:
   run this one pilot only after the workspace is enabled; do not expand it
   into a fleet
 ```
+
+**2026-07-29, E1 inverse-kernel exponent contraction:** Fourier inversion now
+uses the phases discarded by the first spectral triangle bound.
+
+```text
+node proved: e1_conductor256_inverse_kernel_contraction
+inverse kernel:
+  q_r=(1/64)sum_(j=1)^63 exp(-2*pi*i*j*r/64)/kappa_j
+certified operator bounds on sum lambda=0:
+  half range(q)<0.044700
+  sum |q_r|<0.802
+prize-radius consequence:
+  max |xi_t|<3.451, sum |xi_t|<61.92
+integer contraction:
+  max |xi_t|<=3, sum |xi_t|<=60, with sum xi_t^2<=101 retained
+route verdict:
+  feed all three bounds to sparse-first exact multiplication and the one
+  capped MILP probe; generic ellipsoid-first enumeration remains rejected
+scope fence:
+  no shortest-unit theorem, associate count, 367-orbit payment,
+  lower-profile payment, E1 close, or Prize movement
+compute spend: none; 64-by-63 directed interval arithmetic with tiny RAM
+next route-deciding action:
+  run the single capped L1 pilot only after Modal spend access is restored;
+  otherwise derive exact sparse coefficient propagation in the contracted box
+```

@@ -27,7 +27,8 @@ def solve() -> dict[str, object]:
     from scipy.optimize import Bounds, LinearConstraint, milp
 
     order = 64
-    exponent_bound = 7
+    exponent_bound = 3
+    exponent_l1_bound = 60
     mp.mp.dps = 80
 
     representatives: list[int] = []
@@ -46,17 +47,29 @@ def solve() -> dict[str, object]:
         dtype=np.float64,
     )
 
-    # Variables are xi[0:64] (integer) followed by y[0:64] (continuous),
-    # where y majorizes the absolute logarithmic embedding.
-    variable_count = 2 * order
-    objective = np.concatenate((np.zeros(order), np.ones(order)))
+    # Variables are xi[0:64] (integer), y[0:64] (continuous log absolute
+    # values), and a[0:64] (continuous exponent absolute values).
+    variable_count = 3 * order
+    objective = np.concatenate(
+        (np.zeros(order), np.ones(order), np.zeros(order))
+    )
     lower = np.concatenate(
-        (-exponent_bound * np.ones(order), np.zeros(order))
+        (
+            -exponent_bound * np.ones(order),
+            np.zeros(order),
+            np.zeros(order),
+        )
     )
     upper = np.concatenate(
-        (exponent_bound * np.ones(order), np.full(order, np.inf))
+        (
+            exponent_bound * np.ones(order),
+            np.full(order, np.inf),
+            exponent_bound * np.ones(order),
+        )
     )
-    integrality = np.concatenate((np.ones(order), np.zeros(order)))
+    integrality = np.concatenate(
+        (np.ones(order), np.zeros(order), np.zeros(order))
+    )
 
     rows: list[np.ndarray] = []
     row_lower: list[float] = []
@@ -90,6 +103,28 @@ def solve() -> dict[str, object]:
         rows.append(row)
         row_lower.append(0)
         row_upper.append(np.inf)
+
+    # The certified inverse-kernel contraction gives sum |xi_t|<=60.
+    for t in range(order):
+        row = np.zeros(variable_count)
+        row[t] = -1
+        row[2 * order + t] = 1
+        rows.append(row)
+        row_lower.append(0)
+        row_upper.append(np.inf)
+
+        row = np.zeros(variable_count)
+        row[t] = 1
+        row[2 * order + t] = 1
+        rows.append(row)
+        row_lower.append(0)
+        row_upper.append(np.inf)
+
+    row = np.zeros(variable_count)
+    row[2 * order :] = 1
+    rows.append(row)
+    row_lower.append(-np.inf)
+    row_upper.append(exponent_l1_bound)
 
     # y_s >= +(T xi)_s and y_s >= -(T xi)_s.
     for s in range(order):
