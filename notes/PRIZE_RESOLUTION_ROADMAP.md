@@ -7281,3 +7281,22 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: seek a hand gcd of conic, F_J, and F_W; if that
                               stalls, prepare a tiny certificate-producing job
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` singular-`J=0` univariate endpoint:**
+the smallest determinant chamber is now a fixed four-row gcd packet.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction
+A(q)=q^2+132q+2916
+F_J and q!=0: d=-144q/A(q), with A(q)!=0
+P_W(q)=A(q)^2(q^3+126q^2+5364q+87480)
+       +72576q^2A(q)-1492992q^3                    degree 7, monic
+P_C(q)=A(q)^4*Conic(q,-144q/A(q))                  degree 10, leader 35
+official decision: gcd_Fp(P_W,P_C), four primes
+compute spend: none
+compute pre-request: CR-L1-H7-C3-321-J0-GCD; expected under $1, but launcher
+                     and checker are not written and Modal is spend-blocked
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: write a source-pinned extended-gcd certificate
+                              packet; launch only after spend access returns
+```

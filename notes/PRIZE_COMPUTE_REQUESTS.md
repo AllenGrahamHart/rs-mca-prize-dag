@@ -7853,6 +7853,20 @@ the outer stage into exactly two low-dimensional tasks.
   filters. A pilot should try this chamber first and emit a rational
   resultant/Bezout certificate rather than a raw Groebner transcript.
 
+  **Pre-request CR-L1-H7-C3-321-J0-GCD:** the `J=0` chamber is now a fixed
+  degree-7/degree-10 gcd packet. Consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction`
+  and compute `gcd(P_W,P_C)` over each of the four official prime fields.
+  PASS requires monic unit gcd plus extended-Euclidean Bezout coefficients
+  replayed against the exact integer source polynomials. FAIL requires the
+  complete monic gcd and its roots/factors, with `d=-144q/A(q)` replayed in
+  `(F_J,F_W,Conic)` before applying `E_6` and role filters.
+
+  This subrequest should cost far below one dollar: four gcds of degrees 7
+  and 10 in one 128 MB, 30-second, single-container job. It is not yet
+  launch-ready because no source-pinned launcher or independent certificate
+  checker has been written, and the current Modal workspace is spend-blocked.
+
   The requested decision is whether every branch in one complete
   representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber
   saturations: all four rational systems, all twelve rational Galois systems,

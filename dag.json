@@ -19331,6 +19331,23 @@
    "notes": "Exact determinant router only. Every branch remains open and retains E_6, the conic, one role equation, saturations, and all arithmetic lift filters."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one singular-J0 univariate reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On q nonzero, the determinant-singular J=0 coefficient endpoint is exactly a common-root test for one explicit monic degree-7 polynomial and one explicit degree-10 polynomial in q, with d uniquely reconstructed as -144q/(q^2+132q+2916).",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction/verify.py"
+   ],
+   "notes": "Exact univariate reduction only. Four official modular gcds remain uncomputed; nonunit roots would still owe E_6, role, norm, exact-fiber, cyclotomic, Frobenius-converse, and inner-lift filters."
+  },
+  {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
    "title": "L1 Mersenne HNF m=8 order-one cubic three-double affine-color compiler",
    "status": "PROVED",
@@ -36770,6 +36787,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_j0_univariate_reduction",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },
