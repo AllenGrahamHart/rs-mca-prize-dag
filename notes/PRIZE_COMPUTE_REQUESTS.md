@@ -7687,6 +7687,23 @@ the outer stage into exactly two low-dimensional tasks.
   packet and should be priced below one dollar, but do not launch while the
   configured Modal workspace remains spend-blocked.
 
+  Both exceptional requests now share the bounded launcher
+  `experiments/prize_resolution/l1_m8_h7_cubic_222_norm_endpoints_modal.py`.
+  It uses one 512 MB container, a 60-second hard timeout, and emits each
+  completed endpoint/prime row immediately. Instead of constructing eight
+  separate color fibers, it computes the equivalent aggregate gcd
+
+  ```text
+  gcd(P(X),X^(8(p+1))-1)
+  ```
+
+  over `F_p`; a unit result is equivalent to all eight individual gcds being
+  unit after adjoining `mu_8`. There are exactly eight rows total: two
+  endpoint polynomials times four official primes. Split by `zeta` only if
+  an aggregate row is nonunit. The launcher is ready but remains unexecuted
+  under the current spend block. Source SHA-256:
+  `53bda80538d0e9c3e7f35fdce6121c8cfd9f31772216e38cf725c264f4da2ac6`.
+
   For the `3+2+1` profile, replace the generic remainder by
   `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction`.
   Parameterize monic cubics `F,G`, impose `FG=L_(r,d)`, and compare the three

@@ -6971,3 +6971,21 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: compile/factor the five p-free equations once in
                               symbolic lambda before the at most 42 roles
 ```
+
+**2026-07-29, L1 h=7 cubic `2+2+2` norm launcher ready:** the two finite
+exceptional endpoints now share one hard-capped replay with partial output.
+
+```text
+launcher: experiments/prize_resolution/l1_m8_h7_cubic_222_norm_endpoints_modal.py
+source sha256: 53bda80538d0e9c3e7f35fdce6121c8cfd9f31772216e38cf725c264f4da2ac6
+coverage: P_5 and R_12 on all four official primes
+aggregate test: gcd(P,X^(8(p+1))-1) over F_p
+equivalence: unit aggregate gcd iff all eight mu_8 norm-color gcds are unit
+rows: 2 endpoint polynomials * 4 primes = 8
+resources: one container, one CPU, 512 MB, 60-second hard timeout
+partial-output boundary: one JSON row after every completed endpoint/prime
+launch status: READY, NOT RUN; Modal workspace remains spend-blocked
+critical status delta: none
+next route-deciding action: run after an explicit spend-state change; a unit
+                              certificate closes both exceptional branches
+```
