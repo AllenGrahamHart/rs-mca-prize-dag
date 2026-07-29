@@ -13,3 +13,19 @@ complete-orbit allowance:            floor(1971/256)=7
 The next algebraic task after the certificate is therefore not emptiness of
 profile `(4,4)`, but a bound of at most seven full collision orbits, with
 exact profile weights retained if a mixed ledger is sharper.
+
+The exact local-norm router for this next profile is now proved, and it is a
+route fence rather than a close:
+
+```text
+cofactor ceiling:                    1707433
+exact relevant local valuations:    14
+necessary-sieve cofactor values:     1133
+pure branches surviving the sieve:  14
+```
+
+Thus the square-mass-18 strategy "partition by ideal, then pay one orbit per
+family" cannot meet seven without a new profile-specific exclusion. The live
+choices are a low-autocorrelation resultant classification, a collective
+occupancy theorem across cofactors, or a mixed weighted payment that avoids a
+standalone seven-orbit cap.

@@ -189,3 +189,26 @@ orbit. Sharp moment reduction and five exact real-cyclotomic resultants remove
 `1538`, sharpening the envelope from `394` to `266` orbits. The live question
 is now the occupancy of the 256 families above `257`, first for the shorter
 `m=1028`, `V<=12` branch.
+
+## Current serial frontier
+
+The later exact profile payments supersede the preceding historical stopping
+point. Profiles `(2,10)`, `(1,14)`, and `(0,18)` are paid. The live residual
+and next cap are
+
+```text
+residual:                  515126704564295620156155116913120291239
+next profile:              (4,4,S=20)
+oriented-vector cap:       1971
+complete-orbit allowance:  7
+```
+
+The proved profile-`(4,4)` local-norm route fence gives cofactor ceiling
+`1707433`, fourteen relevant local valuations, `6622` local-reciprocity
+candidates, and `1133` survivors after the cyclotomic residue-degree sieve.
+All fourteen pure powers survive. These are necessary-sieve possibilities,
+not realized collisions. They show that an ideal-family partition, even
+paired with a one-orbit height collapse, cannot by itself certify the
+seven-orbit allowance. The next closing theorem must use profile-specific
+autocorrelation/resultant structure, collective occupancy across cofactors,
+or a sharper mixed weighted ledger.

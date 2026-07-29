@@ -77,6 +77,20 @@ the full `m=1538` branch, leaving at most `266` orbits and `68096` oriented
 vectors. The remaining split-prime cofactors are `514` and `1028`, both above
 `257`.
 
+Subsequent exact payments close profiles `(2,10)`, `(1,14)`, and `(0,18)`
+inside the serial weighted ledger. The current residual is
+
+```text
+515126704564295620156155116913120291239,
+```
+
+and the next dictionary profile is `(4,4,S=20)`, with a sharp cap of `1971`
+oriented vectors, hence at most seven complete 256-vector shift/sign orbits.
+Its exact local-norm route fence leaves fourteen possible local valuations
+and `1133` cofactor values after all current necessary sieves. This does not
+count collisions, but it rules out a direct reuse of the former
+one-orbit-per-ideal-family strategy as a closing argument.
+
 ## Falsifier
 
 An admissible row whose exact unordered low-mass collision-pair count exceeds

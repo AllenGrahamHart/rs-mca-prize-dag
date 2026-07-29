@@ -3673,6 +3673,25 @@
    "notes": "STRONG PAYMENT CLOSE 2026-07-29: proved class descent reduces the split occupancy from five to two, so the profile has 10+2 full orbits rather than 10+5. Both adjacent cap comparisons are exact."
   },
   {
+   "id": "e1_profile44_local_norm_route_fence",
+   "title": "E1 profile-(4,4) local-norm route fence",
+   "status": "PROVED",
+   "closure": "exact Hasse census, norm ceiling, and residue-degree sieve",
+   "refs": [
+    "background/nodes/e1_profile44_local_norm_route_fence/statement.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/proof.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/claim_contract.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/dependency_subdag.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/audit.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/result.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/frontier.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/verify.py",
+    "background/nodes/e1_profile44_local_norm_route_fence/verify_audit.py"
+   ],
+   "statement": "At profile (4,4,S=20), the exact relevant local valuations are {1,2,3,4,5,6,8,9,10,12,16,17,18,20}, the cofactor is at most 1707433 and has form 2^mu(1+256t), and the residue-degree sieve leaves 1133 necessary-sieve values. Fourteen pure branches already survive against a seven-orbit allowance, so the local ideal-router extension is not a closing method.",
+   "notes": "ROUTE FENCE 2026-07-29: this is not a collision lower bound. A profile-specific norm/resultant, collective occupancy, or mixed weighted payment is still required."
+  },
+  {
    "id": "e1_profile018_galois_norm_occupancy_dictionary",
    "title": "E1 profile-(0,18) Galois/norm occupancy dictionary",
    "status": "PROVED",
@@ -41256,6 +41275,21 @@
   },
   {
    "from": "e1_profile018_e12_root_parity_screen_no_go",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_local_norm_cofactor_collapse",
+   "to": "e1_profile44_local_norm_route_fence",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_profile44_local_norm_route_fence",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile44_local_norm_route_fence",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }

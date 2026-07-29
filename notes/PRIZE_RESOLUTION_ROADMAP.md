@@ -9409,3 +9409,32 @@ new exact assumptions:               none
 retired compute request:             CR-E1-QZETA128-P257-CLASS-ORBIT
 next route-deciding action:          profile (4,4,S=20), at most 7 orbits
 ```
+
+The first route decision at that profile is now exact. Four singleton
+coefficients give the complete relevant local valuation set
+
+```text
+{1,2,3,4,5,6,8,9,10,12,16,17,18,20}.
+```
+
+The square-mass-20 field floor is much weaker than at square mass 18:
+
+```text
+m<=floor(20^64/(B_P 2^128))=1707433.
+```
+
+Local reciprocity and the global residue-degree condition leave `1133`
+necessary-sieve cofactor values, including all fourteen pure powers of two.
+This is not evidence for 1133 collisions; it is a certified method fence.
+The former ideal-family router cannot reach seven without an additional
+profile-specific exclusion. The selected positive routes are now:
+
+1. classify the low-autocorrelation profile-`(4,4)` supports and exact
+   conductor-256 resultants;
+2. prove collective ideal occupancy across different cofactors; or
+3. replace the serial cap by a mixed weighted payment.
+
+Do not launch the raw profile vector census locally or on Modal. Any external
+compute proposal must first quotient shift/sign and conductor symmetries,
+stratify by autocorrelation energy, stream exact resultants, and carry a
+declared subproblem/cost ledger in `notes/PRIZE_COMPUTE_REQUESTS.md`.
