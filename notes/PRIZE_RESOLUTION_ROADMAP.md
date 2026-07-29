@@ -6785,3 +6785,20 @@ DAG delta: one PROVED background node and three edges; no critical status flip
 next route-deciding action: derive hand eliminants from the three-color
                               remainder before requesting any large run
 ```
+
+**2026-07-29, L1 h=7 cubic three-double factorization:** the symmetric
+`2+2+2` profile now has a quadratic-factor endpoint.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction
+factor family: F_i=W^2+u_iW+u_i^2-Uu_i+V
+external roots: y_i=u_i-U
+HNF identity: L=F_1F_2F_3
+color constants: a_i=w+(u_i^2-Uu_i+V)(u_i-U)
+color condition: one scale-free ordered difference ratio
+generic degree-nine remainder: retained only as an audit for 2+2+2
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: eliminate the symmetric u_i data against the
+                              six HNF coefficients and the conic
+```

@@ -19720,6 +19720,23 @@
    "notes": "Exact bounded necessary router only. No one of the seven orbit systems is declared empty, and four-or-more-color cubic packets remain outside its scope."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-double factor reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In the cubic 2+2+2 profile, the three double fibers factor L into quadratics F_i=W^2+u_iW+u_i^2-Uu_i+V belonging to one two-parameter family. Their external roots are y_i=u_i-U, and the three constants w+(u_i^2-Uu_i+V)(u_i-U) obey the scale-free ratio of the chosen three eighth-root colors.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction/verify.py"
+   ],
+   "notes": "Exact low-degree necessary factor model for 2+2+2 only. It replaces the generic degree-nine remainder but supplies no emptiness verdict."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -36255,6 +36272,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

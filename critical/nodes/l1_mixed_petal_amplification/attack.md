@@ -763,6 +763,12 @@
   `2+2+2` by exact subresultant degree. Apply the assignment-preserving
   Frobenius equations only to retained components.
 
+- On the `2+2+2` profile, immediately replace the generic remainder by
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction`.
+  Factor `L` into the three printed quadratics from one `(U,V)` family and
+  impose the scale-free color ratio. Enumerate color order only at that last
+  equation; do not carry a generic cubic `E` through the factor census.
+
 - More generally consume
   `l1_mersenne_hnf_order_one_color_degree_barrier`. The pointwise degree-`d`
   color equations define curves of degrees `d` and `d+1`, so `H<=d(d+1)`.

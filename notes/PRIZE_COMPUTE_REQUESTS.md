@@ -7616,6 +7616,20 @@ the outer stage into exactly two low-dimensional tasks.
   ideals/components after every packet, and report estimated cost before a
   larger continuation. Do not launch on the current spend-blocked account.
 
+  For the `2+2+2` profile, replace the generic remainder stage by
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction`.
+  Expand
+
+  ```text
+  product_(i=1)^3 (W^2+u_iW+u_i^2-Uu_i+V)=L_(r,d)
+  ```
+
+  coefficientwise, adjoin the h=7 conic, and only then impose one ordered
+  scale-free color ratio from (TDF4). This factor packet has variables
+  `(u_1,u_2,u_3,U,V,r,d)` and seven carrying equations before the color
+  ratio; eliminate symmetric functions of the `u_i` before any Groebner
+  basis. Keep the generic remainder only as an independent audit.
+
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
 
