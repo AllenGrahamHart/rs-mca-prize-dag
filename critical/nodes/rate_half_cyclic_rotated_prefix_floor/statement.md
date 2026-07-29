@@ -154,3 +154,12 @@ This theorem makes no MCA/CA claim and no safe-side list claim.
 
 The earlier choice `c=2^22`, `d=2048`, `s=c-1` reached excess
 `8,594,128,895`. It remains valid but is strictly superseded by `(CR3)`.
+
+## Upstream lineage addendum (2026-07-29)
+
+This construction, exported as PR #1051 and cited in upstream Lane L, was
+extended by upstream PR #1101 ("zero-remainder boundary of the quotient-
+rotation construction") to the declared family q_0=3*2^41+1, n=2^41, k=2^40 at
+agreement k+2^34-1, and is now the declared-field rate-half ordinary-list
+lower champion, with certified size interval bits(L_1) in
+[1,466,604,010,422 ; 1,467,447,159,516] (integrated at upstream 0f7476f0).

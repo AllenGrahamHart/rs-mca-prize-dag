@@ -2,8 +2,9 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "449d2662",
-  "his_sha": "fde7d56d"
+  "our_sha": "ac5963f4",
+  "his_sha": "93fba1be",
+  "note": "re-pinned 2026-07-29 after the July PR review wave (0f7476f0); previous his_sha fde7d56d was a fork branch head, not upstream main"
  },
  "rows": [
   {
@@ -1668,6 +1669,24 @@
    "provenance": {
     "our_sha": "449d2662",
     "his_sha": "fde7d56d"
+   }
+  },
+  {
+   "our_node": "unsafe_crossing_family_instantiation",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "route-uniform adjacent-unsafe witness family; minted wave-24 2026-07-27, after the previous crosswalk pass; ~80 e1 background nodes feed it ev-only",
+   "owner": "OURS",
+   "nonclaims": [
+    "no upstream counterpart claimed; his K5 row certificate is the instance-level analogue, not an identification"
+   ],
+   "status_ours": "TARGET",
+   "status_his": null,
+   "lean": null,
+   "provenance": {
+    "our_sha": "ac5963f4",
+    "his_sha": "93fba1be"
    }
   }
  ]
