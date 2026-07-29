@@ -8648,7 +8648,7 @@ scope fence:
   no row reserve, L1 status, or Prize status movement
 compute spend: none; exact module determinant and matroid proof
 upstream custody:
-  PR #1125, ready for review, head 9e77fc5cd2a22cf8c24799db9e5eba8aa18aa189
+  PR #1125, ready for review, head a663e68df61a49a30289ea148e6f23624b447c89
 next route-deciding action: seek a received-word/Pade priority map that
                               coalesces determinant owners across D, or a
                               route cut proving such coalescence impossible
