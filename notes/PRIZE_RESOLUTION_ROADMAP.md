@@ -7722,3 +7722,41 @@ compute spend: none
 DAG delta: none; this packet consumes the two existing structural compilers
 next route-deciding action: run only after an explicit spend-access change
 ```
+
+**2026-07-29, L1 h=7 exceptional-`E_G` leading-chart exclusion:** the fixed
+`a_2=0` chart of (FEQ8) is now closed analytically in every official
+characteristic.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion
+fixed chart:
+  z=b^2=1575/247
+  q=-10(z+27)/231
+affine exceptional equation:
+  E_G=C_b b+C_0
+  C_b=-8244*3950060/(61009*5929)
+  C_0=3233714400/(61009*231)
+forced value:
+  b=115275930/45228187
+official obstruction:
+  W=247*115275930^2-1575*45228187^2
+   =60466872820654125
+  W mod (8191,131071,524287,2147483647)
+   =(6740,100974,284891,1825899718)
+conclusion: E_G=0 is already impossible, so X_*=0 and all structural,
+            role, P_4, saturation, and arithmetic-lift equations are
+            unnecessary on this branch
+scope fence: no claim about the generic exceptional endpoint, S_1=S_0=0,
+             J_*=0, the ordinary coefficient chart, or another h=7 shape
+checker state: exact rational primary and independent direct prime-field
+               audit source-complete; AST-only local validation; intentionally
+               unexecuted under the Modal-only computation rule
+checker hashes:
+  verify.py       4a1e82d0c0e60867674cd88373605ad35011e08199b3aab8b156a29e0c632b4c
+  verify_audit.py 6c218637a0f7cacdb323b4ceea58619fe50dab7b7fde23e2e47c2c43d5d05342
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: attack the retained S_1=S_0=0 exceptional chart
+                              by hand while the shared gcd packet remains
+                              spend-blocked
+```
