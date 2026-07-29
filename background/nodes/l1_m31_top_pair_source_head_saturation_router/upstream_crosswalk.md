@@ -19,6 +19,7 @@ falsifier: failure of determinant saturation, head coloring, constant-weight cap
 replay: symbolic proof and two exact verifier sources; local arithmetic unrun
 ```
 
-This is a direct extension candidate for draft PR `#1124`. It uses the source
-notation and reduced determinant of upstream PR `#1113` rather than replacing
-them with a support-only model.
+Exported in upstream draft PR `#1124`, head commit
+`09a6d37344bb0c9e34289a992373c814e72c846c`. It uses the source notation and
+reduced determinant of upstream PR `#1113` rather than replacing them with a
+support-only model.

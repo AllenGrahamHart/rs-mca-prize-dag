@@ -24,4 +24,5 @@ shift-pair interface. A transport to the active bare-support `U_SP` requires
 an explicit owner/coalescing theorem.
 
 Export custody: upstream draft PR `#1124`, head commit
-`0622a5fe3ea7bc34eca4a070b441b244bf579df1`, mergeable at the recorded pin.
+`09a6d37344bb0c9e34289a992373c814e72c846c`, with the source-head extension
+included in the same packet.

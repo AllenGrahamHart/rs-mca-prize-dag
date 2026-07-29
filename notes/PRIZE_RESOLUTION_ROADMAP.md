@@ -8425,7 +8425,7 @@ replay state: two exact verifier sources written; local arithmetic unrun
 upstream custody:
   PR: https://github.com/przchojecki/rs-mca/pull/1124
   branch: agent/m31-rank7-dense-top-router
-  head commit: 0622a5fe3ea7bc34eca4a070b441b244bf579df1
+  head commit: 09a6d37344bb0c9e34289a992373c814e72c846c
   theorem commit: 4cd4cf79ef3a9f19dae515c27d2cc4b7126f636b
   state at pin: OPEN, DRAFT, MERGEABLE
   accepted surface: experimental/experiments.tex plus one agents-log entry
@@ -8478,7 +8478,7 @@ scope fence: no global core count, local cap 215792, Q=147595 payment,
              row close, or Prize movement
 compute spend: none; analytic use of the proved affine-span theorem
 replay state: two exact verifier sources written; local arithmetic unrun
-upstream custody: PR #1124 head 0622a5fe3ea7bc34eca4a070b441b244bf579df1
+upstream custody: PR #1124 head 09a6d37344bb0c9e34289a992373c814e72c846c
 next route-deciding action: combine the core-shadow hierarchy with the
                               planted/external split and first-owner ledger
 ```
@@ -8508,6 +8508,7 @@ scope fence: no head-spectrum bound, owner add-back, Q=147595 payment,
              row close, or Prize movement
 compute spend: none; analytic source-degree saturation
 replay state: two exact verifier sources written; local arithmetic unrun
+upstream custody: PR #1124 head 09a6d37344bb0c9e34289a992373c814e72c846c
 next route-deciding action: test the active head/projective-line owner for
                               disjoint coverage of the colored core shadow
 ```
