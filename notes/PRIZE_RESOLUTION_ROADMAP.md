@@ -9099,3 +9099,21 @@ ledger digest is
 `401203ca53dbd51a859b702767576b50aca05c73216194120a60eff251d1d442`.
 The one-container Modal norm job is superseded and should not be launched.
 Consume this close immediately in the profile-(1,14) payment.
+
+**2026-07-29, exact profile-(1,14) E1 payment:** the analytic energy-four
+close discharges the router's only pending premise.
+
+```text
+profile-(1,14) oriented envelope:    35328
+exact profile charge:                20391647614756836040054426763033478955008
+new residual edge budget:            2231339193048374054995899432498611923367
+next profile:                         (0,18,S=18)
+next dictionary weight:               1117325838856821897682125205459304448
+tight residual oriented cap:          3994
+```
+
+All 128 cofactor-514 ideals are charged, so no unfinished cofactor-514
+argument is hidden in this payment. The serial frontier is now `(0,18)`. Its
+inherited ten pure families account for 2,560 vectors; because a complete
+shift/sign orbit has 256 vectors, at most five of the 128 cofactor-514 ideal
+families may survive if this profile is to fit below cap 3,994.
