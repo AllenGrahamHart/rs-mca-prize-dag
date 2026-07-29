@@ -3500,6 +3500,24 @@
    "notes": "FALSIFY-FIRST TARGET 2026-07-29: six certified occupied ideals refute the threshold and force a ledger repair. Screen autocorrelation, fixed-root, parity, realization, and exact norm in that order; do not count squared-magnitude roots as occupied F-ideals."
   },
   {
+   "id": "e1_profile018_galois_norm_occupancy_dictionary",
+   "title": "E1 profile-(0,18) Galois/norm occupancy dictionary",
+   "status": "PROVED",
+   "closure": "exact diagonal-Galois fiber dictionary",
+   "refs": [
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/statement.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/proof.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/claim_contract.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/dependency_subdag.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/audit.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/result.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/frontier.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/verify.py"
+   ],
+   "statement": "For fixed official p and primitive row root r, the number of occupied cofactor-514 ideals above 257 equals the number of diagonal Galois orbits of profile-(0,18) shift/sign collision orbits with exact norm 514p. Thus the five-ideal target is exactly a norm-multiplicity-at-most-five claim and is independent of r.",
+   "notes": "EXACT DICTIONARY 2026-07-29: regular Galois action gives one representative per fixed row-root fiber; the common-ideal height theorem makes the map to Q_s injective. Six modular candidates are not a falsifier; six realizable Galois orbits with the same official prime quotient are."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -40752,6 +40770,26 @@
   },
   {
    "from": "e1_profile018_m514_five_ideal_occupancy",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile018_split_prime_payment_router",
+   "to": "e1_profile018_galois_norm_occupancy_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile018_galois_norm_occupancy_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_galois_norm_occupancy_dictionary",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile018_galois_norm_occupancy_dictionary",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }

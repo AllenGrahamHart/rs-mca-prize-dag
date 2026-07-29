@@ -10,7 +10,7 @@ local parity multiplicity:           2
 payment threshold:                   at most 5 occupied ideals
 ```
 
-The first route-deciding question is whether six compatible ideals can be
-constructed. If so, repair the weighted route or sharpen actual norm
-occupancy; if not, convert the failed search conditions into a proof-scale
-finite-field/realization bound.
+The first route-deciding question is whether one exact official-admissible
+prime quotient occurs in six realizable diagonal Galois orbits. If so, repair
+the weighted route. If not, turn the norm-multiplicity obstruction into a
+proof; a failed mod-257 screen alone is not enough.

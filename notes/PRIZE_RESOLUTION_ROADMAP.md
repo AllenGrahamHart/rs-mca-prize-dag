@@ -9175,3 +9175,19 @@ The new exact red is `e1_profile018_m514_five_ideal_occupancy`. Attack it
 falsification-first: six genuinely occupied `F`-ideals kill the threshold.
 Autocorrelation roots alone are not occupied ideals; parity, all-singleton
 realization, and exact norm/row compatibility must remain distinct gates.
+
+**2026-07-29, exact Galois/norm occupancy dictionary:** diagonal Galois action
+turns the five-ideal red into a cleaner exact norm-multiplicity problem.
+
+```text
+fixed-row occupied ideals O_514(p,r)
+  = diagonal Galois orbits of actual profile-(0,18) collisions
+    with exact norm 514p
+```
+
+Regularity gives one representative of each Galois orbit in every row-root
+fiber; same-ideal height collapse makes its `Q_s` label injective. Therefore
+the count is independent of `r`. A true falsifier is six realizable Galois
+orbits sharing one exact official-admissible prime quotient, not six
+mod-257/autocorrelation hits. Use the latter only to reject intermediate
+proof routes.
