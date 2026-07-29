@@ -7172,6 +7172,8 @@ variables per packet: (g_1,y,r,d)
 equations per packet: l_4,l_5,l_6, conic, one homogeneous role factor
 equivalence: exact on R*S!=0 and inherited exact-fiber saturations
 compute spend: none
+compute pre-request: CR-L1-H7-C3-321-GEN; proof-producing checker and pilot
+                     still missing, so no launch is authorized
 DAG delta: one PROVED background node and three edges; no critical status flip
 next route-deciding action: seek triangular reductions among l_4,l_5,l_6
                               before posing any four-packet elimination

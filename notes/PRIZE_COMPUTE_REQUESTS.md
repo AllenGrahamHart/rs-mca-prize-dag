@@ -7798,6 +7798,43 @@ the outer stage into exactly two low-dimensional tasks.
   Factor or squarefree-reduce retained lambda components only afterward; do
   not specialize 42 role values at input.
 
+  **Pre-request CR-L1-H7-C3-321-GEN:** the role endpoint is now smaller.
+  Consume
+
+  ```text
+  l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler,
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld.
+  ```
+
+  `Lambda_321` factors over `Q` into four packets of degrees
+  `6,12,12,12`. With
+
+  ```text
+  R=a(3y^2+2g_1y+g_2), S=B,
+  A_0=S^2+RS+R^2,
+  B_0=(2S+R)(S+2R)(R-S),
+  ```
+
+  the linear role equation gives `lambda=1+R/S`, and the four factors become
+  the four homogeneous equations (TRW4). Each packet is exactly five
+  equations in `(g_1,y,r,d)`: (TQC5), the conic, and one welded role factor.
+  Do not include `lambda`, cyclotomic coefficient extensions, or scalar role
+  enumeration in a new elimination.
+
+  The requested decision is whether all four systems are unit on
+  `a*B*Q(y)!=0` and the inherited HNF/fiber saturations. PASS requires a
+  replayable Nullstellensatz or transformation-matrix certificate with
+  denominator/content primes checked against every official characteristic.
+  FAIL requires an exact retained component or point substituted into the
+  unreduced factor equations and exact gcd-degree conditions. Emit all four
+  cleared ideals and hashes before elimination and checkpoint every retained
+  factor.
+
+  This is a **pre-request** only. No proof-producing launcher, independent
+  checker, measured pilot, or cost ceiling exists, and the current Modal
+  workspace is spend-blocked. A raw Groebner transcript is route evidence,
+  not a closure certificate.
+
   **Contributor request CR-L1-H7-C3-INJ:** consume
   `l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router`. Build
   `V_E(X)=Res_W(L_(r,d),X-E)` once for a generic exact cubic. For each
