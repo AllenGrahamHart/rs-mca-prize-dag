@@ -6989,8 +6989,8 @@ singular-J0 gcd launcher/checker digests:
   39ccbf6493dc3a421935dbbd0b1e31e761c4e13b2c3f48eaa3c6b87d44a987e0
   a653511eb927b1627258d7c2e25e6b46439827140d1fabab743a2404e771469c
 fully-proportional quotient launcher/checker digests:
-  da4a07ffc86c585dd9c915cf84ec29d8f5bdfdfe32704f1d00ff5215ea58bd0a
-  45652f3958718c05d45aacc128cb414d2196bfe93f6e66cc401bcbf81aea1a97
+  6473b8cb333c63473a344acbc414c4b919380aef219b3035a037445ff3eea80c
+  987ad970d278f510bbfc45453ce506b4100c9a749c56123aadf34a5fe3186c4e
 replay status: pending; local computation is prohibited and Modal is
                currently spend-blocked
 status_ours: PROVED
@@ -7572,15 +7572,17 @@ request: CR-L1-H7-C3-321-FPQ-QUOTIENT
 launcher: experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
 checker: experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
 work: factor degree-at-most-58 U over four official fields; certify
-      gcd(rho_1,rho_0), the a_2=0 chart, and all degree-1/2 eligible factors
+      gcd(rho_1,rho_0), the a_2=0 chart, all degree-1/2 eligible factors,
+      and gcd(U,Zhat_D,Zhat_Q,Zhat_R) by a four-way Bezout identity
 limits: one CPU, 512 MB, 60 seconds per prime, at most four containers,
         no retries, atomic partial output
 estimated cost: below $0.01
 status: source-complete, syntax-only validation, unrun
 launch gate: Modal workspace spend-blocked; explicit spend-access change
              required before launch
-closure fence: returned factors are candidates until every structural, role,
-               P_4, saturation, and arithmetic-lift equation is replayed
+closure rule: a unit four-way gcd excludes the generic coefficient/structural
+              chart for that prime; nonunit factors still require role, P_4,
+              saturation, and arithmetic-lift replay
 ```
 
 **2026-07-29, L1 h=7 cubic `3+2+1` exceptional-E quadratic router:** the
@@ -7636,4 +7638,25 @@ compute spend: none
 DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: extend the factor packet to certify common gcds
                               with the three structural filters
+```
+
+**2026-07-29, L1 h=7 generic structural-gcd packet extension:** the existing
+unrun quotient request now decides the complete generic coefficient and
+structural endpoint before any role sharding.
+
+```text
+source encoding: primitive integer q-coefficient tables for Z_D,Z_Q,Z_R
+runtime guards: total degrees at most 18,10,15; fixed contents are units in
+                every official characteristic
+bounded substitution: compute each Zhat_i mod U, so degrees stay below 58
+certificate: four-way Bezout identity for gcd(U,Zhat_D,Zhat_Q,Zhat_R)
+UNIT meaning: generic coefficient/structural chart excluded on that prime
+HIT meaning: only common factors continue to role, P_4, saturation, and lifts
+non-verdict: explicit U_IDENTICALLY_ZERO branch
+limits: unchanged at four independent one-CPU, 512 MB, 60-second tasks
+estimated cost: still below $0.01
+status: source-complete, syntax-only validation, unrun; Modal spend-blocked
+compute spend: none
+DAG delta: none; this is a proof-producing request for the existing endpoint
+next route-deciding action: run only after an explicit spend-access change
 ```

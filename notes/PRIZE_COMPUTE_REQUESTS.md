@@ -7887,7 +7887,9 @@ the outer stage into exactly two low-dimensional tasks.
   **Pre-request CR-L1-H7-C3-321-FPQ-QUOTIENT:** the final fully proportional
   generic coefficient pair is now a quadratic in `q` plus a compatibility
   polynomial of `q`-degree at most six. Consume
-  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router`.
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router`
+  and
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler`.
   Its exact recurrence leaves `rho_1(b)q+rho_0(b)` modulo `F_b`; off the two
   printed singular charts it reconstructs `q` and leaves
 
@@ -7900,10 +7902,10 @@ the outer stage into exactly two low-dimensional tasks.
 
   ```text
   experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
-  sha256 da4a07ffc86c585dd9c915cf84ec29d8f5bdfdfe32704f1d00ff5215ea58bd0a
+  sha256 6473b8cb333c63473a344acbc414c4b919380aef219b3035a037445ff3eea80c
 
   experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
-  sha256 45652f3958718c05d45aacc128cb414d2196bfe93f6e66cc401bcbf81aea1a97
+  sha256 987ad970d278f510bbfc45453ce506b4100c9a749c56123aadf34a5fe3186c4e
   ```
 
   It runs one independent one-CPU, 512 MB, 60-second task per official prime,
@@ -7912,16 +7914,24 @@ the outer stage into exactly two low-dimensional tasks.
   a checkable partial certificate. Each row must provide a complete
   factorization of `U`, extended-Euclidean certificates for
   `gcd(rho_1,rho_0)` and for the fixed `a_2=0` chart, and the complete list of
-  degree-one/two factors eligible for `b` in the ambient quadratic field.
-  The checker independently reconstructs all source polynomials, verifies
-  factor multiplication and both Bezout identities, and accepts partial
-  packets unless `--require-complete` is requested.
+  degree-one/two factors eligible for `b` in the ambient quadratic field. It
+  also reconstructs the primitive integer numerators `Z_D,Z_Q,Z_R`, checks
+  their proved total-degree bounds `18,10,15`, computes each `Zhat_i mod U`
+  without allowing intermediate degree above 57, and emits a four-polynomial
+  Bezout certificate for `gcd(U,Zhat_D,Zhat_Q,Zhat_R)`. The checker
+  independently reconstructs all source polynomials, verifies factor
+  multiplication, both pairwise Bezout identities, all three quotient-filter
+  remainders, and the four-way Bezout identity. It accepts partial packets
+  unless `--require-complete` is requested.
 
   The four small degree-58 factorizations should cost below `$0.01`. This
-  request gives route data, not a chamber closure: every eligible factor must
-  still be substituted into the reconstructed structural, role, `P_4`, and
-  arithmetic-lift equations. No launch is authorized while the Modal
-  workspace is spend-blocked; wait for an explicit spend-access change.
+  request gives a structural chamber verdict: a unit four-way gcd excludes
+  the generic coefficient-and-structural chart for that prime. A nonunit gcd
+  gives route data, not closure; only its surviving factors proceed to the
+  role, `P_4`, saturation, and arithmetic-lift equations. The explicit
+  `U_IDENTICALLY_ZERO` status is non-conclusive. No launch is authorized while
+  the Modal workspace is spend-blocked; wait for an explicit spend-access
+  change.
 
   The requested decision is whether every branch in one complete
   representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber
