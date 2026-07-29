@@ -19462,6 +19462,25 @@
    "notes": "Exact bivariate factorization only. The quadratic and exceptional linear charts remain open with all coefficient-zero, role-discriminant, P_4, and arithmetic-lift obligations."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional coefficient router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the fully proportional coefficient-zero locus, M_1=M_0=0 reconstruct D,Q_0 from (b,q), while C_1=C_0=0 become two explicit affine equations in G_2; the generic and singly exceptional charts reconstruct G_2,H,Y.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/verify.py"
+   ],
+   "notes": "Exact coefficient router only. The bivariate compatibility equations, doubly exceptional chart, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
+  },
+  {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
    "title": "L1 Mersenne HNF m=8 order-one cubic three-double affine-color compiler",
    "status": "PROVED",
@@ -36971,6 +36990,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

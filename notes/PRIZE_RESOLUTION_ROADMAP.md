@@ -7450,3 +7450,29 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: substitute the bivariate endpoint into
                               C_1=M_1=C_0=M_0 before any compute
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` fully-proportional coefficient
+router:** the four coefficient-zero equations now reduce generically to a
+bivariate system.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router
+M-pair reconstruction:
+  D_*=3600bD, Q_*=72D_*Q_0, with D_*!=0
+structural identity:
+  H+G_2=(b^2+6b+105+8q)/16, A=-(b+3)/2!=0
+C-pair reduction:
+  E_G G_2+F_G=0, J_G G_2+D L_G=0
+generic chart:
+  G_2=-F_G/E_G and Theta_G=E_G D L_G-J_G F_G=0
+exceptional chart:
+  E_G=0 forces Q_0=q^2/3 and Q_*-24D_*q^2=0
+final retained coefficient chart:
+  E_G=J_G=L_G=0 with G_2 retained
+scope fence: every chart retains F_b, the structural, role, P_4, and
+             arithmetic-lift equations; no emptiness is claimed
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: simplify the generic bivariate compatibility
+                              and the E_G=0 exceptional endpoint by hand
+```
