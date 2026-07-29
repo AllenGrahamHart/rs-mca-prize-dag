@@ -807,6 +807,14 @@
   `lambda`. There are at most 42 role packets before row sharding; do not
   replay the generic degree-nine remainder for each root assignment.
 
+- Refine every retained `3+2+1` role with
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler`.
+  Replace the generic pair `(F,G)` by the common quadratic `Q`, the two
+  complementary roots, and `F=G+aQ+B`. Use the first three HNF coefficients
+  to eliminate `a,g_2,B`; classify the resulting five equations in
+  `(g_1,y,r,d)` before norm or row sharding. Retain `a*B*(lambda-1)*Q(y)`
+  and the exact gcd-degree saturation.
+
 - On the collision-free cubic profile, consume
   `l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router`.
   Replace 28 missing-color pairs by the four cyclic distances and impose

@@ -19822,6 +19822,23 @@
    "notes": "Exact low-degree necessary factor model for 3+2+1 only. No factor packet is declared empty and all norm, Frobenius, cyclotomic, and inner filters remain open."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one common-quadratic compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In a cubic 3+2+1 packet, exact double multiplicity gives a common monic quadratic Q with G=Q(W)(W-y) and F-B=Q(W)(W-z). Writing a=y-z, one has F=G+aQ+B and aQ(y)=(lambda-1)B. The first three HNF coefficients eliminate a,g_2,B triangularly, leaving five exact equations in only (g_1,y,r,d) for each role value lambda.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler/verify.py"
+   ],
+   "notes": "Exact factor and triangular coefficient compiler only. No one of the at most 42 role packets is declared empty, and all norm, Frobenius, cyclotomic, and inner filters remain open."
+  },
+  {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router",
    "title": "L1 Mersenne HNF m=8 order-one cubic collision-free value router",
    "status": "PROVED",
@@ -36451,6 +36468,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

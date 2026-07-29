@@ -7702,6 +7702,16 @@ the outer stage into exactly two low-dimensional tasks.
   gcd-degree subresultants; add official norm equations only to retained
   p-free factors.
 
+  The shared compiler is now
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler`.
+  Construct `Q,G,F` from (TQC1)--(TQC3), eliminate `a,g_2,B` with (TQC6),
+  and substitute into (TQC5), the conic, and (TQC7). Record the five cleared
+  equations in `(g_1,y,r,d)` once with symbolic `lambda`; specialize the at
+  most 42 role values only after common factors and saturation branches are
+  classified. Retain `a*B*(lambda-1)*Q(y)`, HNF denominators, squarefreeness,
+  and exact gcd degree. Return p-free unit certificates or retained
+  components before any official norm sharding.
+
   **Contributor request CR-L1-H7-C3-INJ:** consume
   `l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router`. Build
   `V_E(X)=Res_W(L_(r,d),X-E)` once for a generic exact cubic. For each

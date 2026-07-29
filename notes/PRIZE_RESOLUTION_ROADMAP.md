@@ -6954,3 +6954,20 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: obtain both exceptional norm verdicts, then
                               eliminate the generic three-variable branch
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` common-quadratic compiler:** the second
+three-color profile no longer needs two generic cubic factors or a raw value
+resultant.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler
+factor model: G=Q(W)(W-y), F-B=Q(W)(W-z), a=y-z
+role equation: aQ(y)=(lambda-1)B
+triangular eliminations: a, g_2, B from l_1,l_2,l_3
+retained variables per role: (g_1,y,r,d)
+retained equations: l_4,l_5,l_6, h=7 conic, role-color equation
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: compile/factor the five p-free equations once in
+                              symbolic lambda before the at most 42 roles
+```
