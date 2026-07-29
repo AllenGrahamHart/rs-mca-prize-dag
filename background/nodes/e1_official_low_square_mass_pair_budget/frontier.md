@@ -124,3 +124,18 @@ and all quotients by 256 are below the prize interval. Thus `m=256` is also
 impossible. Six pure cofactors remain: `2,4,8,16,32,64`. The shortest proved
 window is `m=64`, with `V<=130` or `E<=65`. No broad support-9 census is
 authorized.
+
+The subsequent complete `m=64` and `m=32` exclusions leave
+`m in {2,4,8,16}`. At `m=16`, the once- and twice-divided support branches
+are also empty, leaving only the primitive multiplicity-four branch. The
+proved common-prime associate router now couples every retained vector at one
+fixed `(p,r)`:
+
+```text
+alpha=pi^mu u g,       mu in {1,2,3,4},       (g)=P_r,
+```
+
+for one prime generator `g` and a cyclotomic unit `u`. This is the selected
+non-computational interface for the profile. A bounded-unit associate count
+or height theorem is still required, and lower-weight profiles still enter
+the exact weighted sum.

@@ -34,6 +34,20 @@ On the binding prize rate-`1/8` row, the weaker uniform sufficient statement
 is `|D_p(33)|<=69541`, with oriented, non-orbit-normalized vectors. The exact
 weighted sum remains the actual target.
 
+For the current maximum-weight profile `(3,6,S=18)`, the proved pure-cofactor
+associate router supplies an additional exact coupling. At one fixed prize
+row and quotient root, every still-live collision has cofactor
+
+```text
+m in {2,4,8,16}
+```
+
+and, after division by the exact power of `1-zeta_256`, all such values are
+unit associates generating the same reduction prime ideal. Thus this
+profile's vectors must be counted as one bounded unit-associate family, not
+as unrelated norm-divisibility events. No bound on that family is yet
+proved.
+
 ## Falsifier
 
 An admissible row whose exact unordered low-mass collision-pair count exceeds

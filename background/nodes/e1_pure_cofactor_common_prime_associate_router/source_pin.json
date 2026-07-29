@@ -1,0 +1,27 @@
+{
+  "prime_reduction_statement_file": "background/nodes/e1_pair_feasible_prime_field_reduction/statement.md",
+  "prime_reduction_statement_sha256": "f7b5ea3463c6b9101b854191a498015fedc89d1bf4a5a0c28b2b2f8b71157e7b",
+  "cofactor_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/statement.md",
+  "cofactor_statement_sha256": "d079a9a3017d3fdf34384b9405efb71039fd58a00d626b48e3bd7b7d1388591e",
+  "m1538_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/statement.md",
+  "m1538_statement_sha256": "4281c0fe1577ce9c97065fff2d919cbc2dc4d0ba79ab5006afbac1e30a4e4076",
+  "m1024_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/statement.md",
+  "m1024_statement_sha256": "6cb3d22badfd7c7220717eba8fe4b13d82d2c40185dac12a1cca03a1d5fddb5b",
+  "m1028_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m1028_exclusion/statement.md",
+  "m1028_statement_sha256": "a167104e86be61e5aa7add8bac02d5481e67b0f7405c17b4138191e90b8d481e",
+  "m512_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/statement.md",
+  "m512_statement_sha256": "fb9dadde9b01f1ae36b4223d33a2445a8b3cb75b36e93baca1bde691a1331a2d",
+  "m514_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/statement.md",
+  "m514_statement_sha256": "07a1d71c5c81a1aa4923c5d66cb5243d2e290344d9e6675f4abac815a4b76625",
+  "m256_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m256_exclusion/statement.md",
+  "m256_statement_sha256": "6e5f67002cc3109bd6b3a416065d526a1ee3bb5301339d4524a24ecd92856354",
+  "m64_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/statement.md",
+  "m64_statement_sha256": "493184603077a21bb481cce523f7138e3f112f6d15711d160632bc00d67ace1f",
+  "m32_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/statement.md",
+  "m32_statement_sha256": "e7b06dc543149979107e9fd3aa2718e387e4f5737a075187b4366319e1dc8d8f",
+  "m16_one_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m16_one_division_exclusion/statement.md",
+  "m16_one_statement_sha256": "7c8fa1cac5d12cfe662b9ce63bf6a7dcf6d32eb4c5005d71a862591531f7ac89",
+  "m16_two_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion/statement.md",
+  "m16_two_statement_sha256": "9ddc1280fb78bf12e4ba4e53096cfec53a1043b5374a4ddc222c0ca91deb55ce"
+}
+

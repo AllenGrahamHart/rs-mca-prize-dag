@@ -8541,3 +8541,28 @@ next route-deciding action: derive a source-sensitive aggregate from the
                               leave M31 rank seven and attack another live
                               critical target with a closing interface
 ```
+
+**2026-07-29, E1 pure-cofactor common-prime associate router:** the completed
+profile-`(3,6,S=18)` cofactor campaign has a new non-computational aggregate
+interface.
+
+```text
+node proved: e1_pure_cofactor_common_prime_associate_router
+current residual cofactors: 2,4,8,16
+m=16 residual: primitive multiplicity-four support only
+fixed row/root factorization:
+  (alpha)=P_r(1-zeta_256)^mu
+  alpha/(1-zeta_256)^mu generates P_r
+same-row consequence:
+  every two normalized survivors differ by a cyclotomic unit
+route verdict:
+  residual maximum-weight vectors are one bounded unit-associate family,
+  not unrelated norm-divisibility events
+scope fence:
+  no associate count, weighted edge budget, E1 image bound, row close,
+  or Prize status movement
+compute spend: none; ideal factorization proof
+next route-deciding action: derive a coefficient/height/packing bound for
+                              pi^mu u g in profile (3,6,S=18), while retaining
+                              the exact lower-profile weighted ledger
+```

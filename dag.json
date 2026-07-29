@@ -3059,6 +3059,28 @@
    "notes": "EXACT BRANCH EXCLUSION 2026-07-28: forward triple/sign and reverse sign/triple engines agree orbit by orbit on 73175732492 unique radius triples, 585405859936 exact sign tests, 1816625308 below-window vectors, 196 above-window vectors, and zero unresolved. Only the 39936 primitive m16 support orbits remain open."
   },
   {
+   "id": "e1_pure_cofactor_common_prime_associate_router",
+   "title": "E1 pure-cofactor common-prime associate router",
+   "status": "PROVED",
+   "closure": "ideal factorization proof",
+   "refs": [
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/statement.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/proof.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/claim_contract.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/dependency_subdag.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/audit.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/result.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/frontier.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/lineage.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/upstream_crosswalk.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/source_pin.json",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/verify.py",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/verify_audit.py"
+   ],
+   "statement": "At one fixed prize N=256 reduction root, every collision of absolute norm 2^mu p has principal ideal P_r(1-zeta)^mu. Dividing by the ramified factor gives a generator of P_r, so every two pure-cofactor collisions are normalized unit associates. The current profile-(3,6,S=18) residue has cofactors 2,4,8,16, with only the primitive m=16 support branch live.",
+   "notes": "ANALYTIC AGGREGATE ROUTER 2026-07-29: the result couples all live maximum-weight profile vectors at one row/root into one bounded unit-associate family. It proves no associate count, weighted edge budget, E1 image bound, or prize status movement."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -39742,6 +39764,71 @@
   {
    "from": "l1_m31_source_head_infinity_owner_route_cut",
    "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1538_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1024_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1028_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m512_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m514_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m256_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m64_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m32_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m16_one_division_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_pure_cofactor_common_prime_associate_router",
+   "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }
  ]

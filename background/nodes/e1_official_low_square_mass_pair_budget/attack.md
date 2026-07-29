@@ -47,6 +47,13 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    one edge, and do not rerun any closed cofactor.
 7. Falsify with a pinned row and enough exact weighted edges to exceed the
    table, not a single collision vector.
+8. On the residual `(3,6,S=18)` profile, consume
+   `e1_pure_cofactor_common_prime_associate_router` before any further norm
+   classification. Fix one row root and one normalized prime generator `g`;
+   every residual vector is `pi^mu u g`, with `mu in {1,2,3,4}` and `u` a
+   cyclotomic unit. Seek a height, coefficient, or packing bound on these
+   bounded associates. Do not replace arbitrary units by roots of unity and
+   do not merge different quotient roots without the Galois transport.
 
 No broad local or Modal census is authorized. Large exact relation searches
 must be recorded as external compute requests with partial-result output.
