@@ -6919,3 +6919,20 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: classify the two exceptional p-free branches,
                               then form the generic three-variable eliminant
 ```
+
+**2026-07-29, L1 h=7 cubic `2+2+2` x=0 quintic endpoint:** the first
+exceptional branch is now finite before the unused coefficient and color
+filters.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction
+branch: x=dU-3=0
+closed rational values: d=-2,-3/2,-3 by official norm-color obstruction
+remaining polynomial: P_5=60d^5+407d^4+1147d^3+1659d^2+1218d+360
+determined parameter: q=-12(5d^3+16d^2+18d+10)/(35(d+2))
+finite endpoint: 32 degree-five norm gcds
+compute spend: none; CR-L1-H7-C3-222-X0 recorded
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: obtain the x=0 norm verdict, while reducing the
+                              q=-6x^2 exceptional branch proof-only
+```

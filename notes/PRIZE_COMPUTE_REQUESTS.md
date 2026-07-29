@@ -7649,6 +7649,27 @@ the outer stage into exactly two low-dimensional tasks.
   replacement for the equations. Return factorizations and saturation
   factors branch by branch before any color or official-row sharding.
 
+  **Contributor request CR-L1-H7-C3-222-X0:** consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction`.
+  Independently reconstruct
+
+  ```text
+  P_5(X)=60X^5+407X^4+1147X^3+1659X^2+1218X+360
+  ```
+
+  from (XQ2)--(XQ6), then compute
+
+  ```text
+  gcd(P_5(X),X^(p+1)-zeta)
+  ```
+
+  for all four official primes and eight `zeta in mu_8`. Return every monic
+  gcd and partial output after each packet. Unit gcds in all 32 packets close
+  the complete `x=0` branch. For a nonunit gcd, recover `q` from (XQ5) and
+  apply `D_b`, `M_6`, and the color ratio before any larger lift. This is a
+  degree-five packet and should be priced below one dollar, but do not launch
+  while the configured Modal workspace remains spend-blocked.
+
   For the `3+2+1` profile, replace the generic remainder by
   `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction`.
   Parameterize monic cubics `F,G`, impose `FG=L_(r,d)`, and compare the three

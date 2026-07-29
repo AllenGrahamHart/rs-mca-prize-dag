@@ -785,6 +785,14 @@
   determinant of the two linear remainders, and do not add color or norm
   shards before this p-free branch classification.
 
+- The `x=0` branch is now reduced by
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction`.
+  Delete the norm-impossible values `d=-2,-3/2,-3`, then test the printed
+  degree-five `P_5(d)` against the 32 official norm fibers. Unit gcds close
+  this entire exceptional branch without solving `D_b` or `M_6`; retain any
+  nonunit root for those stronger filters. Do not recompute the original
+  four-variable ideal on this branch.
+
 - On the `3+2+1` profile, consume
   `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction`.
   Use the triple fiber as the cubic factor `F`, its complement `G`, and the
