@@ -10127,3 +10127,41 @@ Route interpretation:
 
 No fleet expansion is authorized. A single completed pilot decides whether the
 proof-producing certificate is worth engineering.
+## E1 profile-(2,10), cofactor-1028 low-energy certification
+
+**Priority:** high. **Local execution:** forbidden. **Expected Modal cost:**
+well below `$1` for the energy-four stage; price energies five and six before
+launching them.
+
+The proved route leaves `m=1028=4*257` at autocorrelation energies
+`E in {2,3,4,5,6}`. Exact small screens already show:
+
+```text
+E=2: four 257-compatible Galois types, all Norm/1028 above p_max
+E=3: 329 compatible types, all exact Norm/1028 above p_max
+E=4: 8,385 compatible types, all diagnostic log norms below p_min
+```
+
+Run
+
+```text
+~/.venvs/modal/bin/modal run \
+  experiments/prize_resolution/e1_profile210_m1028_e4_norm_modal.py
+```
+
+The launcher uses 60 first-lag shards, 1 GiB each, a 60-second worker limit,
+and rewrites a local checkpoint after every returned shard. Each worker
+reconstructs its targets and exact degree-64 Bareiss determinants from
+scratch. The expected terminal census is `8385` exact quotients, all below
+`p_min`. Preserve partial JSON if the run is interrupted.
+
+Launch log, 2026-07-29: one launch attempt was rejected before any container
+started because workspace `ac-WIsI8fedhlHGSBu0g8EiyG` had exceeded its spend
+limit. No app id was allocated and no credit was spent. Do not retry on this
+workspace until its spend limit is explicitly restored.
+
+Do not extend the same norm-first enumeration naively to energies five and
+six: their abstract target counts are much larger. First classify realizable
+profile-`(2,10)` low-energy supports using the singleton-support XOR equation
+with two heavy columns, then exact-test only the realized targets. A useful
+independent replay is a direct degree-128 negacyclic resultant implementation.
