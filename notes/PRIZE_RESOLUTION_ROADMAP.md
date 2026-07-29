@@ -7229,3 +7229,27 @@ DAG delta: one PROVED background node and three edges; no critical status flip
 next route-deciding action: exploit the quadratic role relation by hand in
                               the triangular coefficient core before compute
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` scaled quadratic core:** the official
+quadratic packets now have a fully printed four-variable triangular ideal.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler
+dimensionless variables: x=dg_1, Y=dy, q=dr, d
+scaled complement/value pair: S=d^3B, R=d^3 aQ(y)
+sixth coefficient: D((Y-A)V-S)=K_6, forcing D=YV!=0
+reduced fourth equation:
+  D(G_2^2+AU G_2-Y(A+x)V-L_4)-xK_6=0
+reduced fifth equation:
+  (q-d)(Y^2V^2(G_2+AU)+G_2K_6)-6dK_6D=0
+transported role pair:
+  R_D=DR, S_D=Y(Y-A)V^2-K_6
+role input per official branch: one homogeneous quadratic Phi(R_D,S_D)
+equations per branch: E_4,E_5,E_6, conic, Phi; variables (x,Y,q,d)
+compute spend: none
+compute pre-request: CR-L1-H7-C3-321-GEN now consumes these printed ideals;
+                     launcher/checker/pilot/cost ceiling still absent
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: inspect E_4,E_5 for hand resultants in x or Y;
+                              only then design a proof-producing pilot
+```

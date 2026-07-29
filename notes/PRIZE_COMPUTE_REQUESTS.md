@@ -7839,6 +7839,13 @@ the outer stage into exactly two low-dimensional tasks.
   this official-field representation as well. Its square-root choice only
   swaps signed branch pairs, and its 21 equations are alternatives.
 
+  The 21-branch input is printed without hidden substitutions by
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler`.
+  Use its variables `(x,Y,q,d)`, equations `(E_4,E_5,E_6)`, the conic, and
+  `Phi(R_D,S_D)`. The sixth equation forces `D=YV!=0`; the fifth equation
+  has already cleared `q-d`. Do not restore `(g_1,y,r,B,lambda)` in the
+  elimination input.
+
   The requested decision is whether every branch in one complete
   representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber
   saturations: all four rational systems, all twelve rational Galois systems,
