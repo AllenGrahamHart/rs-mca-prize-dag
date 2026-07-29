@@ -7754,6 +7754,14 @@ checker state: exact rational primary and independent direct prime-field
 checker hashes:
   verify.py       4a1e82d0c0e60867674cd88373605ad35011e08199b3aab8b156a29e0c632b4c
   verify_audit.py 6c218637a0f7cacdb323b4ceea58619fe50dab7b7fde23e2e47c2c43d5d05342
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: c82b819a71e55c830b31549fec3895d5b8c6b3d7
+  combined verifier:
+    8a07454eed5a1171fe364d34ba3f4b5be8d622e5e7bdba625ebd4766dcb15756
+  export state at pin: OPEN, DRAFT, MERGEABLE
+  replay repair: verifier note path corrected from the repository root to
+                 experimental/notes/l1 before export
 compute spend: none
 DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: attack the retained S_1=S_0=0 exceptional chart
