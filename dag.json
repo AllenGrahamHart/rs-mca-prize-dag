@@ -20576,6 +20576,26 @@
     "background/nodes/l1_m31_rank7_zero_excess_two_block_incidence_router/verify_audit.py"
    ],
    "notes": "Exact local route reduction only. It proves no middle-band upper bound, Q=147595 payment, v4 atom, M31 row closure, higher-rank theorem, MCA result, or Prize endpoint movement."
+  },
+  {
+   "id": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+   "title": "M31 rank-seven dense top decorated shift-pair router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every forbidden M31 Q=147595 proper-G zero-excess class has more than one tenth of all member pairs at maximal combined intersection 4980. Hence one member has at least 215793 neighbors satisfying the primitive decorated top-stratum identity A C_i-B C_j=c!=0 with deg A=deg B=w+1=67448 and gcd(C_i,C_j)=1. A source-bound local cap 215792 for this exact stratum eliminates the terminal.",
+   "refs": [
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/statement.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/proof.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/claim_contract.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/dependency_subdag.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/audit.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/result.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/lineage.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/upstream_crosswalk.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/verify.py",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/verify_audit.py"
+   ],
+   "notes": "Exact local successor theorem only. It proves the forced lower degree in the primitive decorated top stratum, not the excluding upper cap, an upstream atom, a row closure, or a Prize result."
   }
  ],
  "edges": [
@@ -39571,6 +39591,21 @@
   },
   {
    "from": "l1_m31_rank7_zero_excess_two_block_incidence_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_rank7_zero_excess_two_block_incidence_router",
+   "to": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

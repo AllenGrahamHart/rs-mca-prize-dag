@@ -8392,3 +8392,30 @@ replay state: two exact verifier sources written; local arithmetic unrun
 next route-deciding action: attack the distinct middle-band locator family
                               through a whole-family Pade/first-owner theorem
 ```
+
+**2026-07-29, M31 dense primitive decorated top-shift router:** the
+middle-band terminal forces a local high-degree object rather than merely a
+large aggregate.
+
+```text
+node proved: l1_m31_rank7_dense_top_decorated_shift_pair_router
+exact-weight pair deficit:
+  D <= (M^2(Nt-m^2)/N+M(m-t))/2
+  Nt-m^2=898676
+at forbidden mass:
+  more than 10% of all pairs have intersection exactly t=4980
+  one member has at least 215793 top neighbors
+top pair normal form:
+  L_i=J A, L_j=J B, deg J=4980, deg A=deg B=w+1=67448
+  A C_i-B C_j=c!=0
+automatic guard:
+  gcd(C_i,C_j)=1, so the counted edges are primitive decorated pairs
+exact sufficient successor:
+  prove a source-bound local neighbor cap <=215792
+scope fence: no such upper cap, upstream atom, Q=147595 payment, higher-rank
+             theorem, row close, or Prize status movement
+compute spend: none; proof is analytic
+replay state: two exact verifier sources written; local arithmetic unrun
+next route-deciding action: attack the first-above-threshold primitive
+                              decorated equation with the Pade owner data
+```
