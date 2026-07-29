@@ -9029,3 +9029,19 @@ pay the downward-closed `L1` classes; the sparse energy-five profile uses a
 separate lower envelope. Next impose local multiplicity two and the fixed
 primitive-root equation modulo 257 on these 17 shape families. This is still
 an autocorrelation-target problem, not a coefficient-support census.
+
+**2026-07-29, cofactor-514 parity and distinct-trace cap:** two more magnitude
+profiles close without finite-field enumeration.
+
+```text
+E=8 all-even profile:                parity multiplicity contradiction
+E=13 all-unit trace cap:             x_u<2551/100
+certified logarithm deficit:         683/500
+E=13 verdict:                        Norm<514*p_min
+remaining magnitude profiles:       15
+```
+
+The trace cap uses the 13 largest distinct folded traces, rational Machin
+bounds `333/106<pi<355/113`, and a quartic cosine majorant. The remaining
+profiles occupy energies 5 through 12. Continue with the local lag-parity and
+fixed-root mod-257 equations; energy 13 no longer needs a census.
