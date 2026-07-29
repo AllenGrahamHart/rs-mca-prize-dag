@@ -5687,6 +5687,39 @@ next route-deciding action:
 compute spend: exact rational/quadratic-field identities under tiny RAMguard
 ```
 
+**2026-07-29, inner-degree-12 split-fiber arithmetic descent:** the actual
+split simple zero fiber removes the constant-field ambiguity and descends
+three of the five `r=4` normalizations all the way to `K`.
+
+```text
+new node: rate_half_kb_m12_split_fiber_arithmetic_descent [PROVED]
+arithmetic monodromy:
+  F^(-1)(0) is five distinct K-points, so rational-fiber Frobenius is identity
+  identity lies in the arithmetic Frobenius coset, hence G_ar=G_geom
+  every geometric outer component is defined over K
+K-affine normal forms:
+  A5 (3),(2,2)
+  S5 (3,2),(2)
+  S5 (4),(2)
+A5 ratio descent:
+  3t^2+4t+3=0 has discriminant -20
+  every prime-field element is square in the even extension F_(p^6)
+  a nonsplit critical pair would force t=1/t, but t is not +/-1
+exact remaining twist list:
+  Dickson D5
+  A5 (3),(3)
+  S5 one-parameter (2),(2),(2,2)
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no family deletion or realization, twist classifier, source-star close,
+  owner, carrier/data bridge, charge, m12, u2, cap 68, endpoint, or row close
+next route-deciding action:
+  compile coefficient invariants for the three twists; substitute the three
+  descended rigid forms into the canonical pencil and source-star equations
+compute spend: exact modular arithmetic only under tiny RAMguard
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

@@ -119,6 +119,14 @@ The next exact endpoint test must compile the outer coefficients from the
 canonical `<A,N0>` pencil, certify any required descent, and then impose the
 actual quartic/source-star incidence. No owner charge moves.
 
+The PROVED `rate_half_kb_m12_split_fiber_arithmetic_descent` uses the five
+simple rational outer zeros: identity Frobenius on that split fiber forces
+arithmetic monodromy to equal geometric monodromy, so every outer component
+is defined over `K`. It also gives `K`-affine normalizations for the rigid
+`A5 (3),(2,2)`, `S5 (3,2),(2)`, and `S5 (4),(2)` forms. Only three descent
+twists remain: Dickson, `A5 (3),(3)`, and the one-parameter `S5` family.
+No family is deleted and no owner charge moves.
+
 ## Banked range
 
 Put
