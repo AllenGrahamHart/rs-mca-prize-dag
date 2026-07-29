@@ -19686,6 +19686,23 @@
    "notes": "Exact necessary reduction for the 3+3 cubic color partition only. The 32 norm-gcd verdicts are unrun because Modal is spend-blocked; all other cubic partitions remain open."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion",
+   "title": "L1 Mersenne HNF m=8 order-one cubic two-triple exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The W^2 coefficient of the exact two-cubic-fiber factorization forces rd+4(d^2+3d+3)=0. Combining this with the h=7 conic and the prior second quadratic leaves only (2d+3)(d+3)=0; the two base-field norms 9/4 and 9 are not eighth roots on any official row. Thus the cubic color partition 3+3 is empty.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion/verify.py"
+   ],
+   "notes": "Exact proof-only exclusion of the 3+3 cubic color partition. It retires the 32 norm-gcd packets queued by the predecessor but says nothing about other cubic partitions."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -36196,6 +36213,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

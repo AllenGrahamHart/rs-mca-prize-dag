@@ -748,6 +748,13 @@
   norm-fiber gcds per row. Do not apply the equation to any other cubic
   multiplicity partition.
 
+- Superseding close: consume
+  `l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion`. The unused
+  `W^2` coefficient of the same factorization reduces the two quadratics to
+  `(2d+3)(d+3)=0`, and neither base-field root has eighth-root norm on an
+  official row. Delete the complete cubic multiplicity-`3+3` chamber and
+  retire `CR-L1-H7-C3-33`; no norm gcd is required.
+
 - More generally consume
   `l1_mersenne_hnf_order_one_color_degree_barrier`. The pointwise degree-`d`
   color equations define curves of degrees `d` and `d+1`, so `H<=d(d+1)`.

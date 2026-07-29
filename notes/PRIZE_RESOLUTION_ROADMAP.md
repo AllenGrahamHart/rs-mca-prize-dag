@@ -6750,3 +6750,20 @@ compute spend: none; queued as CR-L1-H7-C3-33
 next route-deciding action: route the remaining cubic multiplicity
                               partitions without a generic saturation
 ```
+
+**2026-07-29, L1 h=7 cubic two-triple close:** the `3+3` endpoint closes by
+an additional coefficient identity, with no external computation.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion
+new identity: rd+4(d^2+3d+3)=0
+conic substitution: 32(d^2+3d+3)(2d^2+9d+9)=0
+second-quadratic substitution: -8d(d+2)(2d^2+9d+9)=0
+surviving candidates: d=-3/2,-3
+norms: 9/4,9; neither lies in mu_8 on an official row
+closed partition: 3+3 on all four h=7 rows
+compute spend: none; CR-L1-H7-C3-33 retired
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: attack the two remaining three-color cubic
+                              partitions, 3+2+1 and 2+2+2
+```
