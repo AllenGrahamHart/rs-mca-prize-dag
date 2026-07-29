@@ -8633,6 +8633,8 @@ scope fence:
   the number C(omega,s-1-j) of possible D owners can be exponential;
   no row reserve, L1 status, or Prize status movement
 compute spend: none; exact module determinant and matroid proof
+upstream custody:
+  PR #1125, ready for review, head 7a545603fedf87413c5dbbcb9826fe64a0815e08
 next route-deciding action: seek a received-word/Pade priority map that
                               coalesces determinant owners across D, or a
                               route cut proving such coalescence impossible
