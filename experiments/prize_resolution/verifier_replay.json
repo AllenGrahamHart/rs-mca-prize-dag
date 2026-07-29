@@ -8,35 +8,35 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/verify.py",
-      "seconds": 0.021142,
+      "script": "background/nodes/rate_half_kb_degree5_decomposition_exclusion/verify.py",
+      "seconds": 0.021654,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_Q6_U2_COMPLETE_SOURCE_CONIC_EXCLUSION_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_DEGREE5_DECOMPOSITION_EXCLUSION_PASS\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/verify_audit.py",
-      "seconds": 0.014356,
+      "script": "background/nodes/rate_half_kb_degree5_decomposition_exclusion/verify_audit.py",
+      "seconds": 0.014804,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_Q6_U2_COMPLETE_SOURCE_CONIC_EXCLUSION_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_DEGREE5_DECOMPOSITION_EXCLUSION_AUDIT_PASS\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/verify.py",
-      "seconds": 0.021248,
+      "script": "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/verify.py",
+      "seconds": 0.02061,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_Q6_U2_PRIMITIVE_SUBDEGREE4_ROUTE_CUT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_DEGREE60_DECOMPOSITION_DIVISOR_ADAPTER_PASS\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/verify_audit.py",
-      "seconds": 0.014248,
+      "script": "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/verify_audit.py",
+      "seconds": 0.017444,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_Q6_U2_PRIMITIVE_SUBDEGREE4_ROUTE_CUT_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_DEGREE60_DECOMPOSITION_DIVISOR_ADAPTER_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

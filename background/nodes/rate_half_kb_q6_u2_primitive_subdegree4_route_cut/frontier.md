@@ -1,17 +1,19 @@
 # Frontier
 
-The next maximal KoalaBear equality-wall theorem is one source-bound
-functional-decomposition adapter for inner degrees
+The divisor-pullback child proves that every row preserves the local active
+and source sets as complete fiber divisors, and the deployed-field cyclic
+argument excludes inner degree five. The live degrees are
 
 ```text
-2,3,4,5,6,10,12,30.
+2,3,4,6,10,12,30.
 ```
 
-For each row, recover the block map from the actual component and either:
+For each live row, recover the block map from the actual component and either:
 
-1. prove its fibers preserve the evaluation domain and descend the received
-   data, explaining polynomial, and slope projection to a chronology-valid
-   same-record owner; or
+1. descend its block relation over the coefficient field, extend the local
+   active-root fibers to the full deployed evaluation domain, and descend
+   the received data, explaining polynomial, and slope projection to a
+   chronology-valid same-record owner; or
 2. turn the first failed semantic gate into an actual-producer deletion.
 
 Do not resume the primitive quartic atlas. Only after all eight rows

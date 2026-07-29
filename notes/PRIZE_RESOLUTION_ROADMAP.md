@@ -5459,6 +5459,42 @@ compute policy:
   partitions and source-field descent, with no broad enumeration
 ```
 
+**2026-07-29, KoalaBear decomposition divisor adapter and degree-five
+deletion:** direct symbolic continuation of the PR #1129 route cut proves
+that geometric decomposability already preserves the local active and source
+divisors, then eliminates one of the eight degree rows over the deployed
+field.
+
+```text
+parent: rate_half_kb_q6_u2_primitive_subdegree4_route_cut [PROVED]
+new nodes:
+  rate_half_kb_degree60_decomposition_divisor_adapter [PROVED]
+  rate_half_kb_degree5_decomposition_exclusion [PROVED]
+endpoint divisor: div(f)=D_act-5 D_src
+active consequence:
+  every outer zero is simple and unramified under h
+  D_act is exactly 60/m complete m-point fibers in F_(p^6)
+source consequence:
+  order-five outer poles pull back to unramified m-point source fibers
+  simple outer poles pull back to m/5 source points of index five
+degree-five row:
+  two index-five points contribute 8=2*5-2, exhausting Riemann-Hurwitz
+  after a deployed-field domain normalization, h-fiber equality is x^5=y^5
+  p=2130706433=3 mod 5 and p^6=4 mod 5
+  gcd(5,p^6-1)=1, so fifth power is injective on P1(F_(p^6))
+  contradiction with a complete five-point rational active fiber
+result: inner degree 5 CLOSED; live degrees {2,3,4,6,10,12,30}
+DAG delta: two PROVED nodes and evidence only toward rate_half_band_closure
+ledger movement: zero
+nonclaims: no coefficient-field descent for the seven rows, full deployed
+           evaluation-domain quotient, witness-data descent, same-record
+           owner, charge, u2 close, cap 68, adjacent certificate, or row close
+compute spend: none; exact integer replays only under RAMguard
+next route-deciding action:
+  exploit the one- or two-fiber source profiles for m=6 and m=12 to test
+  coefficient-field descent and constrain the bidegree-(4,4) component
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

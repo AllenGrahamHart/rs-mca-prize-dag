@@ -43,11 +43,23 @@ degrees
 {2,3,4,5,6,10,12,30}.
 ```
 
-The next local theorem is therefore a domain-compatible decomposition
-adapter that excludes or assigns a first-match owner to each of these eight
-rows. Neither imported route cut moves the owner ledger, proves `u=2` empty,
-establishes cap `68`, or closes the KoalaBear row. Do not treat geometric
-decomposability alone as source-field descent or ownership.
+The PROVED divisor adapter now shows that all eight rows preserve the local
+60-point active divisor and 12-point source divisor as complete geometric
+fibers. For inner degree five, the two index-five source points exhaust
+Riemann-Hurwitz, so the inner map is a normalized fifth-power map. Since
+`gcd(5,p^6-1)=1` for `p=2130706433`, fifth power is injective on the deployed
+field and cannot have the required five-point rational active fiber. Thus
+degree five is deleted and the live necessary set is
+
+```text
+{2,3,4,6,10,12,30}.
+```
+
+The next local theorem is a coefficient-field and witness-data adapter that
+excludes or assigns a first-match owner to each of these seven rows. None of
+the structural cuts moves the owner ledger, proves `u=2` empty, establishes
+cap `68`, or closes the KoalaBear row. Do not treat geometric decomposability
+or local divisor preservation alone as source-field descent or ownership.
 
 ## Banked range
 
