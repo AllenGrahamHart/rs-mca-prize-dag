@@ -7846,6 +7846,13 @@ the outer stage into exactly two low-dimensional tasks.
   has already cleared `q-d`. Do not restore `(g_1,y,r,B,lambda)` in the
   elimination input.
 
+  The coefficient-matrix router further splits these ideals. On the generic
+  `Delta!=0` branch use the two Cramer equations (CMR3). On `Delta=0`, retain
+  both exact chambers in (CMR4). The `J=0` chamber has the especially small
+  endpoint `(conic,F_J,F_W)` in `(q,d)` before `E_6`, role, and arithmetic
+  filters. A pilot should try this chamber first and emit a rational
+  resultant/Bezout certificate rather than a raw Groebner transcript.
+
   The requested decision is whether every branch in one complete
   representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber
   saturations: all four rational systems, all twelve rational Galois systems,

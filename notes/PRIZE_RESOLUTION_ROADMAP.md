@@ -7255,3 +7255,26 @@ DAG delta: one PROVED background node and three edges; no critical status flip
 next route-deciding action: inspect E_4,E_5 for hand resultants in x or Y;
                               only then design a proof-producing pilot
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` coefficient-matrix router:** the two
+middle coefficient equations now have a complete determinant decomposition.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router
+linear unknowns: H=G_2+AU and K_6
+matrix determinant: D*Delta,
+  Delta=G_2((q-d)G_2-6dD)+x(q-d)D
+generic Delta!=0: two exact Cramer equations
+singular Delta=0: WJ=0, split exactly into J=0 and J!=0
+x=0 equation: one explicit cubic C_0(Y;q,d)=0
+singular J=0 endpoint:
+  d(q^2+132q+2916)+144q=0
+  q^3+126q^2+(5364-504d-72d^2)q+87480=0
+  plus the h=7 conic
+compute spend: none
+compute pre-request: CR-L1-H7-C3-321-GEN should try the bivariate singular
+                     endpoint first with a proof-producing resultant
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: seek a hand gcd of conic, F_J, and F_W; if that
+                              stalls, prepare a tiny certificate-producing job
+```

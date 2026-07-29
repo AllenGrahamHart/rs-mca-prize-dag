@@ -19314,6 +19314,23 @@
    "notes": "Exact triangular compiler only. The 21 systems remain a disjunction and no unit verdict or assignment-preserving arithmetic lift is claimed."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one coefficient-matrix router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The scaled fourth and fifth 3+2+1 coefficient equations form an exact two-by-two linear system in H and K_6. Its determinant gives a complete generic/singular split without lost components; the singular J=0 arm reduces to three explicit equations in (q,d).",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router/verify.py"
+   ],
+   "notes": "Exact determinant router only. Every branch remains open and retains E_6, the conic, one role equation, saturations, and all arithmetic lift filters."
+  },
+  {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
    "title": "L1 Mersenne HNF m=8 order-one cubic three-double affine-color compiler",
    "status": "PROVED",
@@ -36743,6 +36760,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },
