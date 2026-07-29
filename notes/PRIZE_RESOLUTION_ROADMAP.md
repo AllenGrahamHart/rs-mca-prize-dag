@@ -7847,3 +7847,67 @@ next route-deciding action: consume the packet only after an explicit
                               spend-access change; meanwhile attack the
                               retained exceptional J_*=0 chart by hand
 ```
+
+**2026-07-29, L1 h=7 exceptional-`J_*=0` affine router:** the last
+coefficient chart retaining `G_2` is now an exact bounded univariate
+endpoint.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_affine_router
+source chart: F_b=E_G=X_*=J_*=L_*=0 with bD_*!=0
+exact identities:
+  L_*=45bB+6E_G
+  R_J+5E_G=-75bB+3(Tq-5bM)
+  J_*=-D_*R_J+150bX_*
+where:
+  B=96q^2+(216-32b)q+3b^2+18b+315
+  R_J=3D_*+5P-3600bq^2
+  T=-280b^2+2241b+3465
+  M=29b^2+234b+81
+reconstruction: q=5bM/T
+denominator guard:
+  29T+280M=9(14501b+13685)
+  14501^2 M(-13685/14501)=-23972710684
+  residues=(3690,44145,312391,1797093080), all nonzero
+univariate endpoint:
+  Bhat=T^2 B(b,5bM/T)=0        degree <=6
+  Ehat=T^2 E_G(b,5bM/T)=0      degree <=7
+  Fhat=T^2 F_b(b^2,5bM/T)=0    degree <=10
+  Xhat=T^3 X_*(b,5bM/T)=0      degree <=11
+retained: G_2, structural, role, P_4, saturations, and arithmetic lifts
+scope fence: no common-root, ambient-degree, emptiness, or critical closure
+checker state: source-complete primary and independent audit; AST-only local
+               validation; unexecuted
+checker hashes:
+  verify.py       49fc746508f1ae9fb996dc68d7013585128949d5972c44726ec2b94236640919
+  verify_audit.py 9489a527fe1ffd9374b34cce03dcfb45e03f8160d83e1e293af26605bc10ef03
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+```
+
+**2026-07-29, L1 h=7 exceptional-`J_*=0` packet extension:** the same
+spend-blocked four-prime packet now computes a four-way Bezout gcd
+certificate for `Bhat,Ehat,Fhat,Xhat`, factors the monic gcd, and classifies
+the ambient endpoint.
+
+```text
+guard classification: every irreducible gcd factor dividing T is marked
+                      t_zero_factor and excluded from the legal chart
+ambient classification: retain exactly non-T factors of degree at most two
+EMPTY meaning: no legal coefficient root exists in F_(p^2)
+HIT meaning: listed factors continue to G_2, structural, role, P_4,
+             saturation, and arithmetic-lift replay
+IDENTICALLY_ZERO_FAMILY meaning: inconclusive, never closure
+launcher:
+  85ec64690ef625ec3f1e4f1815b95064ad85698d36e4a07826aa9ad6f51827ab
+checker:
+  b89c741dbe723d8ee49992f437b6973f9f0559e4cd68105428de24a72e0aef46
+resource delta: none; four one-CPU, 512 MB, 60-second tasks, no retries,
+                atomic partial output
+estimated total cost: still below $0.01
+status: source-complete, AST-only validation, unrun; Modal spend-blocked
+compute spend: none
+DAG delta: none; this consumes the new J-zero affine router
+next route-deciding action: bank the router upstream, then continue exact
+                              hand elimination while all Modal work waits
+```
