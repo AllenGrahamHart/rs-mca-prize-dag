@@ -5415,6 +5415,50 @@ independent replay:
 compute spend: none; local exact replay used under RAMguard, peak input 76 KiB
 ```
 
+**2026-07-29, KoalaBear Q6 u2 conic and primitive-monodromy harvest:**
+upstream PRs #1128 and #1129 turn the `Q=6,s=6,u=2` geometric residual into
+one finite functional-decomposition problem. Both scoped theorems were
+audited, replayed locally with independent tiny verifiers, and imported as
+PROVED route evidence. They do not move the owner ledger.
+
+```text
+source reduction: 44542e91e459364a521870ed2ebde7f6fe5055bf
+manual integration pin: 0f7476f0fcbc5d1a1d3eed0c03221aaa48f5767d
+
+PR #1128 head: ad109774f7d9bc320e7e0c046ba83471f39d5cd9
+theorem blob: bd4ca8c756c22f6f475cb06c142de4c981d6b320
+payload SHA-256: 30a5d45895957f774ef972118e227fa54522fc27a48ee0e2a99a0d5a012a5451
+banked theorem:
+  twelve degree-four source divisors saturate 2 div(B)
+  conic invariance excludes reciprocal, D4, and D5 profiles
+  complete Q6 u2 conic-image branch empty
+
+PR #1129 head: 59c4449ca0f5cee929dd39fc7b5ae8b0a33877f4
+theorem blob: 5d0ec0315fca34de80c22983b76bbafa12dd5661
+payload SHA-256: 21a8ca7800745c2c94876d48473801e84f4d9c8f9e6ce5b53e8b8bd66b699962
+banked theorem:
+  residual birational quartic implies monodromy subdegree four
+  none of the nine primitive degree-60 groups has subdegree four
+  residual endpoint map is functionally decomposable
+  exact possible inner degrees: 2,3,4,5,6,10,12,30
+
+local nodes:
+  rate_half_kb_q6_u2_complete_source_conic_exclusion [PROVED]
+  rate_half_kb_q6_u2_primitive_subdegree4_route_cut [PROVED]
+local consumer: rate_half_band_closure [evidence edges only]
+ledger movement: zero
+nonclaims: no domain-compatible quotient owner, descent of a decomposition,
+           u2 closure, cap 68, first-match payment, adjacent certificate,
+           official-row close, or endpoint movement
+next theorem:
+  construct the eight-degree domain-compatible decomposition adapter; for
+  each inner degree either prove incompatibility with the source divisor and
+  pole data or assign an exact first-match owner and charge
+compute policy:
+  classification is already finite and paid; begin symbolically from pole
+  partitions and source-field descent, with no broad enumeration
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

@@ -24,6 +24,31 @@ deployed census should first freeze an exhaustive compiler for one of the
 three unpaid predicates and be registered in `notes/PRIZE_COMPUTE_REQUESTS.md`
 before paid execution.
 
+## KoalaBear Q6 u2 structural reduction
+
+Two PROVED upstream-derived route cuts now constrain the `Q=6,s=6,u=2`
+equality-wall residue. The complete-source saturation identity
+
+```text
+sum_(i=1)^12 div(H(alpha_i,X))=2 div(B)
+```
+
+excludes every conic-image component. For every remaining actual
+birational-quartic component, the degree-60 endpoint map cannot have
+primitive geometric monodromy: the nine primitive degree-60 groups have no
+subdegree four. The pole and Riemann-Hurwitz ledger leaves exactly the inner
+degrees
+
+```text
+{2,3,4,5,6,10,12,30}.
+```
+
+The next local theorem is therefore a domain-compatible decomposition
+adapter that excludes or assigns a first-match owner to each of these eight
+rows. Neither imported route cut moves the owner ledger, proves `u=2` empty,
+establishes cap `68`, or closes the KoalaBear row. Do not treat geometric
+decomposability alone as source-field descent or ownership.
+
 ## Banked range
 
 Put
