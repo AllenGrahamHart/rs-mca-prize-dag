@@ -9272,3 +9272,21 @@ enumeration. The occupancy threshold remains five ideals. The remaining
 generic layer bounds all miss the field floor, so another moment-only pass
 must add genuinely sharper additive information rather than replay this
 relaxation.
+
+**2026-07-29, all-unit energy-twelve close:** the local multiplicity condition
+supplies the additive information missing from the relaxed layer bound.
+
+```text
+profile:                              (E;n1,n2,n3)=(12;12,0,0)
+local parity consequence:             odd number o of odd positive lags
+parity-split relation cap:             M3<=510
+cubic Hermite contacts:               17,40
+certified verdict:                    Norm<514*p_min
+live energies:                        5,...,11
+live cofactor-514 magnitude rows:     12 -> 11
+```
+
+The proof counts `EEE` and `EOO` relation types separately for all six odd
+values of `o`; no lag-set enumeration or coefficient realization enters. The
+former `{1,...,11,15}` route-cut witness is still a valid warning about the
+pre-norm screens, but its whole magnitude profile is now analytically dead.

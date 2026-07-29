@@ -3497,8 +3497,8 @@
     "background/nodes/e1_profile018_m514_five_ideal_occupancy/dependency_subdag.md",
     "experiments/prize_resolution/e1_profile018_m514_low_energy_root_search_modal.py"
    ],
-   "statement": "For one fixed binding-row prime and quotient root, at most five of the 128 degree-one ideals above 257 are occupied by a profile-(0,18,S=18), cofactor-514 collision in the proved 12-profile refined middle-energy ledger.",
-   "notes": "FALSIFY-FIRST TARGET 2026-07-29: six certified occupied ideals refute the threshold and force a ledger repair. The Hermite and cubic moment refinements removed (9;1,2,0), (10;6,1,0), and (11;7,1,0), while the explicit energy-twelve target proves the joint autocorrelation/root/parity/positivity screen nonempty. Coefficient realization and exact norm are the first selective gates; do not count squared-magnitude roots as occupied F-ideals."
+   "statement": "For one fixed binding-row prime and quotient root, at most five of the 128 degree-one ideals above 257 are occupied by a profile-(0,18,S=18), cofactor-514 collision in the proved 11-profile refined middle-energy ledger.",
+   "notes": "FALSIFY-FIRST TARGET 2026-07-29: six certified occupied ideals refute the threshold and force a ledger repair. Hermite and cubic moment refinements removed (9;1,2,0), (10;6,1,0), (11;7,1,0), and (12;12,0,0). Coefficient realization and exact norm are the first selective gates on the surviving rows; do not count squared-magnitude roots as occupied F-ideals."
   },
   {
    "id": "e1_profile018_galois_norm_occupancy_dictionary",
@@ -21228,6 +21228,24 @@
     "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/verify.py"
    ],
    "notes": "ANALYTIC REFINEMENT 2026-07-29: the six-divisibility of the signed cubic relation index supplies the four-unit improvement that the relaxed layer bound lacked. The five-ideal occupancy threshold remains open."
+  },
+  {
+   "id": "e1_s18_m514_e12_all_unit_parity_cubic_exclusion",
+   "title": "E1 square-mass-18 cofactor-514 energy-twelve all-unit exclusion",
+   "status": "PROVED",
+   "closure": "parity-split relation cap and cubic Hermite norm majorant",
+   "statement": "Exact local parity forces an odd number of odd lags in the all-unit energy-twelve profile. Splitting signed cubic relations into EEE and EOO types gives M3<=510, and a global cubic Hermite majorant puts every such norm below the prize field floor. Eleven magnitude profiles remain.",
+   "refs": [
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/statement.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/proof.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/claim_contract.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/dependency_subdag.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/audit.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/result.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/frontier.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/verify.py"
+   ],
+   "notes": "ANALYTIC REFINEMENT 2026-07-29: parity-split additive counting closes the former all-unit boundary without lag enumeration. The five-ideal occupancy threshold remains open on eleven rows at E=5,...,11."
   }
  ],
  "edges": [
@@ -40913,6 +40931,26 @@
   },
   {
    "from": "e1_s18_m514_e10_profile61_cubic_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_m514_parity_trace_cap",
+   "to": "e1_s18_m514_e12_all_unit_parity_cubic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_s18_m514_e12_all_unit_parity_cubic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m514_e12_all_unit_parity_cubic_exclusion",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_s18_m514_e12_all_unit_parity_cubic_exclusion",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   },
