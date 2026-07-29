@@ -72,10 +72,15 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
 9. Consume both `e1_high_cofactor_schinzel_height_collapse` and
    `e1_cofactor2_smyth_height_collapse` before any associate search. They pay
    all four `m=2,4,8,16` multiplicities analytically at most one torsion orbit
-   each, so `T_36(p,r)<=4`. Do not enumerate this profile again. Insert its
-   exact four-orbit upper charge into the weighted ledger, retain the root and
-   class-pair multiplicities, and move to the largest lower profile capable
-   of exhausting the residual budget.
+   each, so `T_36(p,r)<=4`. The exact weighted payment is now proved; do not
+   enumerate this profile again.
+10. Attack `(2,10,S=18)`, the largest remaining profile. Its dictionary
+   weight is `1227527050040565145269313275179180544`, and the residual
+   uniform cap is `104955`. Prove the local cofactor and prime-ideal
+   partition before counting: `mu=7` is now possible, pure power-of-two
+   cofactors inherit the height collapse one ideal family at a time, and
+   distinct primes above `257` or `769` must not be merged. Retain the exact
+   weighted ledger across all later profiles.
 
 No broad local or Modal census is authorized. Large exact relation searches
 must be recorded as external compute requests with partial-result output.

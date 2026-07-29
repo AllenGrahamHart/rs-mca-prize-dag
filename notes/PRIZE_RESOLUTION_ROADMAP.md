@@ -8865,3 +8865,22 @@ Next action:
   orientation, stabilizer, and class-pair multiplicities, and identify the
   largest lower profile that can still exhaust the residual edge budget
 ```
+
+**2026-07-29, exact profile-(3,6) E1 payment:** the four-orbit theorem is now
+converted back to the official unordered edge ledger.
+
+```text
+profile-(3,6) maximum oriented vectors:  4*256=1024
+profile-(3,6) exact edge charge:          709758113888498314287146042668908462080
+binding residual edge budget:            64417827807586372161179904588832830040487
+next profile:                             (2,10,S=18)
+next dictionary weight:                  1227527050040565145269313275179180544
+tight residual uniform vector cap:       104955
+```
+
+The payment restores the full 256-vector shift/sign orbit and the
+dictionary's oriented-to-unordered factor. The next route is structural:
+derive the `(2,10)` cofactor/prime-ideal partition, spend the existing height
+collapse on each pure cofactor, and keep split primes above `257` and `769`
+as separate associate families. No support-12 census is authorized before
+that partition is priced.

@@ -363,8 +363,8 @@
     "background/nodes/e1_official_low_square_mass_pair_budget/attack.md",
     "background/nodes/e1_official_low_square_mass_pair_budget/frontier.md"
    ],
-   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 65127585921474870475467050631501738502567, about 1.714K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)). The current maximum-weight profile (3,6,S=18) now contributes at most four shift/sign orbits at each fixed row and quotient root; the remaining obstruction is the aggregate lower-profile ledger. The Plotkin compiler then forces more than B* values.",
-   "attack_surface": "insert the proved T_36(p,r)<=4 charge into the exact weighted folded-kernel ledger, preserving quotient-root, orientation, stabilizer, and class-pair multiplicities; then identify and bound the largest lower profile still capable of exhausting the residual edge budget, or prove maximum collision degree three",
+   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 65127585921474870475467050631501738502567, about 1.714K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)). The maximum profile (3,6,S=18) is now paid at most 709758113888498314287146042668908462080 edges; the residual budget is 64417827807586372161179904588832830040487 and the next profile is (2,10,S=18). The Plotkin compiler then forces more than B* values.",
+   "attack_surface": "derive the exact cofactor and prime-ideal partition for (2,10,S=18), including the newly possible valuation mu=7; spend the proved height collapse separately on each pure cofactor family, retain distinct split-prime ideals above 257 and 769, and preserve orientation, stabilizer, and class-pair multiplicities in the residual weighted ledger",
    "falsifier": "an admissible row whose exact unordered low-mass collision-pair count exceeds its printed budget, or a multiplicity/type error in a claimed count"
   },
   {
@@ -3191,6 +3191,24 @@
    ],
    "statement": "At one fixed prize row and primitive quotient root, the profile-(3,6,S=18) cofactor-2 branch contains at most one negacyclic shift/sign orbit. Its associate log L1 is below 63.878, while Smyth's second normalized totally real Mahler value gives every non-torsion conductor-256 real unit log L1 greater than 256 log(1.29)>65.188. The least Smyth value is excluded because it would force Q(sqrt(5)) into a field unramified outside 2.",
    "notes": "FIELD-SPECIFIC ASSOCIATE COLLAPSE 2026-07-29: directed Decimal and exact-rational atanh engines agree on all 63 entropy cases and digest ee3e59acdfed6536189c3ff18476a7c657e279729e0c906ef627c4224c245cb8. Exact polynomial signs certify the beta_2 measure threshold. Combined with the high-cofactor node, T_36(p,r)<=4. Lower-profile weighted charges remain; no E1 close or Prize movement."
+  },
+  {
+   "id": "e1_profile36_exact_weighted_payment",
+   "title": "E1 profile-(3,6) exact weighted payment",
+   "status": "PROVED",
+   "closure": "exact integer ledger",
+   "refs": [
+    "background/nodes/e1_profile36_exact_weighted_payment/statement.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/proof.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/claim_contract.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/dependency_subdag.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/audit.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/result.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/frontier.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/verify.py"
+   ],
+   "statement": "On the binding prize rate-1/8 row, profile (3,6,S=18) contributes at most 709758113888498314287146042668908462080 unordered collision pairs. The residual edge budget is 64417827807586372161179904588832830040487; the largest remaining profile is (2,10,S=18), and 104955 is the tight uniform sufficient cap on all remaining oriented vectors.",
+   "notes": "EXACT MAXIMUM-PROFILE PAYMENT 2026-07-29: the ledger restores 256 oriented vectors per shift/sign orbit and the dictionary's division by two. Exact enumeration ranks all 271 eligible profiles and identifies (2,10,S=18) next. This pays no lower profile and causes no E1 close or Prize movement."
   },
   {
    "id": "e1_n512_four_singleton_collision_exclusion",
@@ -40050,6 +40068,31 @@
   },
   {
    "from": "e1_cofactor2_smyth_height_collapse",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_profile36_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_exclusion",
+   "to": "e1_profile36_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_high_cofactor_schinzel_height_collapse",
+   "to": "e1_profile36_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_cofactor2_smyth_height_collapse",
+   "to": "e1_profile36_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile36_exact_weighted_payment",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }

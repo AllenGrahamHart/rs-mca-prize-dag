@@ -2,25 +2,17 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 1,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_cofactor2_smyth_height_collapse/verify.py",
-      "seconds": 9.476985,
+      "script": "background/nodes/e1_profile36_exact_weighted_payment/verify.py",
+      "seconds": 0.172786,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "certificate_digest=ee3e59acdfed6536189c3ff18476a7c657e279729e0c906ef627c4224c245cb8\nE1_COFACTOR2_SMYTH_HEIGHT_COLLAPSE_PASS checks=72\ncofactor2_D_upper=7.5381142820085410904828230061133891243827656041429210308703128828676941138005623634970578328453193567958803101\nentropy_minimum_barrier=7.68062047034004163292770884382396042836317015856107102482145781765767306704781525976144781370828469794637026530 positive_count=29 active=46 skipped=17\npair_log_l1_upper=63.878\nsmyth_log_l1_lower=65.18840790363667118901883927030894720113248395437028220408929193605331142064395390443861573594439142439427524198\ncollapsed_cofactor=2 maximum_orbits=1\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/e1_cofactor2_smyth_height_collapse/verify_audit.py",
-      "seconds": 5.551791,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "audit_digest=ee3e59acdfed6536189c3ff18476a7c657e279729e0c906ef627c4224c245cb8\nE1_COFACTOR2_SMYTH_HEIGHT_COLLAPSE_AUDIT_PASS active=46 skipped=17\nminimum_barrier_lower=7.680620470340042 positive_count=29\ndeficit_upper=7.538114282008541 pair_upper=63.878000 smyth_lower=65.188407903636673\n"
+      "stdout_tail": "E1_PROFILE36_EXACT_WEIGHTED_PAYMENT_PASS profiles=271 charge=709758113888498314287146042668908462080 residual=64417827807586372161179904588832830040487 next_profile=2,10,18 residual_oriented_cap=104955\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

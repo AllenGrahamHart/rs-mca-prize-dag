@@ -169,7 +169,16 @@ T_36(p,r) <= 4.
 ```
 
 The maximum-profile associate task is complete. The next binding task is to
-insert this four-orbit charge into the exact weighted ledger and identify the
-largest lower profile capable of consuming the residual edge budget. No
-further exponent-lattice or sparse-product enumeration of `(3,6,S=18)` is
-authorized.
+use its proved exact charge
+
+```text
+E_36<=709758113888498314287146042668908462080.
+```
+
+After this payment, the residual edge budget is
+`64417827807586372161179904588832830040487`, the largest remaining profile
+is `(2,10,S=18)`, and the tight residual uniform cap is `104955` oriented
+vectors. No further exponent-lattice or sparse-product enumeration of
+`(3,6,S=18)` is authorized. The next structural interface is the ideal
+partition for `(2,10)`, including its newly possible local valuation
+`mu=7` and the split-prime cofactor families.

@@ -61,6 +61,16 @@ at one fixed row and quotient root. This is far below its former necessary
 cap `367`, but is not sufficient for the complete pair budget because lower
 profiles remain.
 
+The exact weighted payment for those four possible orbits is
+
+```text
+709758113888498314287146042668908462080.
+```
+
+After subtracting it, `(2,10,S=18)` is the largest remaining profile and the
+residual uniform sufficient cap is `104955` oriented vectors. The exact
+weighted sum remains the actual target.
+
 ## Falsifier
 
 An admissible row whose exact unordered low-mass collision-pair count exceeds
